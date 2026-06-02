@@ -1,0 +1,68 @@
+---
+const videos = [
+  {
+    src: '/Client Feedback /Jaybhai-Jangid-Owner-of-Jangid-Solar-chooses-Qbits-for-one-reason-unmatched-reliability.From-r.mp4',
+    name: 'Jaybhai Jangid',
+    role: 'Owner, Jangid Solar',
+    quote: 'Chooses Qbits for one reason: unmatched reliability.',
+  },
+  {
+    src: '/Client Feedback /Qbits-Energy-technology-stays-dust-proof-heat-resistant-and-humidity-protected-ensuring-lower-.mp4',
+    name: 'Qbits Technology',
+    role: 'Performance Review',
+    quote: 'Dust-proof, heat-resistant, and humidity-protected technology.',
+  },
+  {
+    src: '/Client Feedback /When-an-installer-confidently-says-100-recommend-it-speaks-volumes-about-performance.Qbits-d.mp4',
+    name: 'Installer Review',
+    role: 'Certified Partner',
+    quote: '100% recommended — speaks volumes about performance.',
+  },
+];
+---
+
+<section class="py-20 sm:py-28 lg:py-36 bg-slate-50" aria-labelledby="stories-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <span class="section-label">
+        <span class="w-8 h-px bg-brand-500"></span>
+        Success Stories
+      </span>
+      <h2 id="stories-heading" class="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mt-6 leading-tight">
+        Trusted By <span class="text-gradient">Thousands</span>
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      {videos.map((video) => (
+        <div class="group relative rounded-2xl bg-white border border-slate-100 overflow-hidden hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500">
+          <!-- Video -->
+          <div class="relative aspect-[9/16] max-h-[640px] bg-slate-900">
+            <video
+              class="w-full h-full object-cover"
+              src={video.src}
+              controls
+              preload="metadata"
+              playsinline
+              poster=""
+            ></video>
+          </div>
+
+          <!-- Info overlay at bottom -->
+          <div class="p-6">
+            <p class="text-sm text-slate-500 italic mb-3">"{video.quote}"</p>
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-gradient-to-br from-brand-500 to-brand-600 flex items-center justify-center text-white font-bold text-sm">
+                {video.name.split(' ').map((n) => n[0]).join('').slice(0, 2)}
+              </div>
+              <div>
+                <p class="font-bold text-slate-900 text-sm">{video.name}</p>
+                <p class="text-xs text-slate-500">{video.role}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

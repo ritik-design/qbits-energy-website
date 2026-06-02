@@ -1,0 +1,38 @@
+---
+export interface Props {
+  label?: string;
+  title: string;
+  highlight?: string;
+  description?: string;
+  bg?: 'dark' | 'light';
+}
+
+const { label, title, highlight, description, bg = 'dark' } = Astro.props;
+
+const bgClass = bg === 'dark'
+  ? 'bg-slate-950 text-white'
+  : 'bg-slate-50 text-slate-900';
+
+const descColor = bg === 'dark' ? 'text-slate-400' : 'text-slate-500';
+const labelClass = bg === 'dark'
+  ? 'bg-brand-900/50 text-brand-300'
+  : 'bg-brand-50 text-brand-700';
+---
+
+<section class={`pt-28 pb-16 lg:pt-32 lg:pb-20 ${bgClass}`}>
+  <div class="container-main">
+    {label && (
+      <span class={`inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold uppercase tracking-wider ${labelClass}`}>
+        {label}
+      </span>
+    )}
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mt-4 leading-tight">
+      {title}
+      {highlight && <span class="text-gradient">{` ${highlight}`}</span>}
+    </h1>
+
+    {description && (
+      <p class={`mt-4 text-lg max-w-2xl ${descColor}`}>{description}</p>
+    )}
+  </div>
+</section>

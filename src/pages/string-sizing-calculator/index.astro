@@ -1,0 +1,111 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import PageHeader from '../../components/ui/PageHeader.astro';
+---
+
+<Layout
+  title="String Sizing Calculator | Qbits Energy"
+  description="Calculate optimal solar panel string configuration for your Qbits inverter. Input panel specs and get string sizing recommendations."
+  canonical="/string-sizing-calculator/"
+>
+  <Header />
+
+  <main>
+    <PageHeader
+      label="Solar Tools"
+      title="String Sizing"
+      highlight="Calculator"
+      description="Calculate the optimal string configuration for your solar panels and Qbits inverter."
+    />
+
+    <section class="section-padding bg-white">
+      <div class="container-main max-w-3xl">
+        <div class="card">
+          <form id="calculator-form" class="space-y-6">
+            <div class="grid sm:grid-cols-2 gap-5">
+              <div>
+                <label class="block text-sm font-medium text-slate-700 mb-1.5">Panel Voc (V)</label>
+                <input type="number" id="voc" step="0.1" required class="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none" placeholder="e.g. 45.5" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-slate-700 mb-1.5">Panel Vmp (V)</label>
+                <input type="number" id="vmp" step="0.1" required class="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none" placeholder="e.g. 37.2" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-slate-700 mb-1.5">Min Temperature (°C)</label>
+                <input type="number" id="tmin" required class="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none" placeholder="e.g. 5" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-slate-700 mb-1.5">Max Temperature (°C)</label>
+                <input type="number" id="tmax" required class="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none" placeholder="e.g. 55" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-slate-700 mb-1.5">Inverter Max DC Voltage (V)</label>
+                <input type="number" id="vmax" required class="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none" placeholder="e.g. 550" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-slate-700 mb-1.5">Inverter MPPT Min Voltage (V)</label>
+                <input type="number" id="vmppt-min" required class="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none" placeholder="e.g. 90" />
+              </div>
+            </div>
+            <button type="submit" class="btn-primary w-full">Calculate String Size</button>
+          </form>
+
+          <div id="results" class="hidden mt-8 pt-6 border-t border-slate-200">
+            <h3 class="text-lg font-bold text-slate-900 mb-4">Results</h3>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div class="bg-brand-50 rounded-xl p-4 text-center">
+                <p class="text-2xl font-bold text-brand-600" id="max-panels">-</p>
+                <p class="text-sm text-slate-600">Max Panels per String</p>
+              </div>
+              <div class="bg-brand-50 rounded-xl p-4 text-center">
+                <p class="text-2xl font-bold text-brand-600" id="min-panels">-</p>
+                <p class="text-sm text-slate-600">Min Panels per String</p>
+              </div>
+            </div>
+            <div id="recommendation" class="mt-4 text-sm text-slate-600"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  const form = document.getElementById('calculator-form');
+  const results = document.getElementById('results');
+
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const voc = parseFloat((document.getElementById('voc') as HTMLInputElement)?.value || '0');
+    const vmp = parseFloat((document.getElementById('vmp') as HTMLInputElement)?.value || '0');
+    const tmin = parseFloat((document.getElementById('tmin') as HTMLInputElement)?.value || '0');
+    const tmax = parseFloat((document.getElementById('tmax') as HTMLInputElement)?.value || '0');
+    const vmax = parseFloat((document.getElementById('vmax') as HTMLInputElement)?.value || '0');
+    const vmpptMin = parseFloat((document.getElementById('vmppt-min') as HTMLInputElement)?.value || '0');
+
+    const vocMax = voc * (1 + (25 - tmin) * 0.0033);
+    const vmpMin = vmp * (1 + (25 - tmax) * 0.0045);
+
+    const maxPanels = Math.floor(vmax / vocMax);
+    const minPanels = Math.ceil(vmpptMin / vmpMin);
+
+    document.getElementById('max-panels')!.textContent = String(maxPanels);
+    document.getElementById('min-panels')!.textContent = String(minPanels);
+
+    const rec = document.getElementById('recommendation');
+    if (rec) {
+      if (minPanels > maxPanels) {
+        rec.innerHTML = '<span class="text-red-600 font-medium">Warning: No valid configuration. Adjust inverter or panel selection.</span>';
+      } else {
+        rec.innerHTML = `<span class="text-brand-600 font-medium">Recommended: ${minPanels} to ${maxPanels} panels per string</span>`;
+      }
+    }
+
+    results?.classList.remove('hidden');
+  });
+</script>

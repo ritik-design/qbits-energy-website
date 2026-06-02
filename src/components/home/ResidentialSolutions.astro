@@ -1,0 +1,66 @@
+---
+const benefits = [
+  { title: 'Lower Bills', desc: 'Reduce electricity costs by up to 90% with high-efficiency solar conversion.', icon: 'M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z' },
+  { title: 'Energy Independence', desc: 'Generate your own power and reduce dependence on the grid.', icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
+  { title: 'Smart Monitoring', desc: 'Track every watt in real-time through the Qbits mobile app.', icon: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z' },
+  { title: '12-Year Warranty', desc: 'Industry-leading warranty with comprehensive service support.', icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z' },
+];
+---
+
+<section class="py-20 sm:py-28 lg:py-36 bg-white overflow-hidden" aria-labelledby="residential-heading">
+  <div class="container-main">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+      <!-- Image -->
+      <div class="relative order-2 lg:order-1">
+        <div class="aspect-[4/5] rounded-3xl overflow-hidden bg-slate-100">
+          <img
+            src="/images/ongrid-res.jpg"
+            alt="Residential solar installation with Qbits inverter"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
+        <!-- Decorative elements -->
+        <div class="absolute -bottom-6 -right-6 w-48 h-48 bg-brand-500/5 rounded-full blur-3xl"></div>
+        <div class="absolute -top-6 -left-6 w-32 h-32 bg-accent/5 rounded-full blur-2xl"></div>
+      </div>
+
+      <!-- Content -->
+      <div class="order-1 lg:order-2">
+        <span class="section-label">
+          <span class="w-8 h-px bg-brand-500"></span>
+          Residential
+        </span>
+        <h2 id="residential-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-6 leading-tight">
+          Power Your Home <span class="text-gradient">Smarter</span>
+        </h2>
+        <p class="mt-6 text-base sm:text-lg text-slate-600 leading-relaxed max-w-lg">
+          From compact 1kW systems for apartments to powerful 25kW solutions for villas, Qbits residential inverters deliver unmatched efficiency and reliability for every Indian home.
+        </p>
+
+        <div class="mt-10 grid sm:grid-cols-2 gap-5">
+          {benefits.map((item) => (
+            <div class="group p-5 rounded-2xl bg-slate-50 border border-slate-100 hover:border-brand-200 hover:bg-brand-50/30 transition-all duration-300">
+              <div class="w-10 h-10 rounded-xl bg-brand-500/10 flex items-center justify-center mb-4 group-hover:bg-brand-500 group-hover:scale-110 transition-all duration-300">
+                <svg class="w-5 h-5 text-brand-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={item.icon}/>
+                </svg>
+              </div>
+              <h3 class="text-base font-bold text-slate-900 mb-1">{item.title}</h3>
+              <p class="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="mt-10">
+          <a href="/residential-solution/" class="btn-primary">
+            Explore Residential Solutions
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

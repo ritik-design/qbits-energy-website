@@ -1,17 +1,510 @@
 ---
+import Layout from '../layouts/Layout.astro';
+import HeaderV2 from '../components/HeaderV2.astro';
+import Footer from '../components/Footer.astro';
 
+// Homepage sections — Premium redesign
+import HeroPremium from '../components/home/HeroPremium.astro';
+import TrustBar from '../components/home/TrustBar.astro';
+import AboutSection from '../components/home/AboutSection.astro';
+import IndiaChallenges from '../components/home/IndiaChallenges.astro';
+import ProductCategories from '../components/home/ProductCategories.astro';
+import TechnologySticky from '../components/home/TechnologySticky.astro';
+import InteractiveShowcase from '../components/home/InteractiveShowcase.astro';
+import ResidentialSolutions from '../components/home/ResidentialSolutions.astro';
+import CommercialSolutions from '../components/home/CommercialSolutions.astro';
+import ProductLineup from '../components/home/ProductLineup.astro';
+import SmartMonitoring from '../components/home/SmartMonitoring.astro';
+import Certifications from '../components/home/Certifications.astro';
+import ServiceNetwork from '../components/home/ServiceNetwork.astro';
+import CompanyStats from '../components/home/CompanyStats.astro';
+import SuccessStories from '../components/home/SuccessStories.astro';
+import Resources from '../components/home/Resources.astro';
+import DealerProgram from '../components/home/DealerProgram.astro';
+import FinalCTA from '../components/home/FinalCTA.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout
+  title="Qbits Energy | Solar Inverter Manufacturer India"
+  description="India's leading AI-powered solar inverter brand. On-grid and hybrid inverters with smart monitoring, 12-year warranty, and 98.8% efficiency. BIS & IEC certified."
+  canonical="/"
+>
+  <HeaderV2 />
+
+  <main>
+    <!-- 1. Hero -->
+    <HeroPremium />
+
+    <!-- 2. Trust Bar -->
+    <TrustBar />
+
+    <!-- 3. About Us -->
+    <AboutSection />
+
+    <!-- 4. India Challenges Story -->
+    <IndiaChallenges />
+
+    <!-- 4. Product Categories -->
+    <ProductCategories />
+
+    <!-- 5. Why Qbits Technology -->
+    <TechnologySticky />
+
+    <!-- 6. Interactive Product Showcase -->
+    <InteractiveShowcase />
+
+    <!-- 7. Residential Solutions -->
+    <ResidentialSolutions />
+
+    <!-- 8. Commercial & Industrial Solutions -->
+    <CommercialSolutions />
+
+    <!-- 9. Product Lineup -->
+    <ProductLineup />
+
+    <!-- 10. Smart Monitoring Platform -->
+    <SmartMonitoring />
+
+    <!-- 11. Certifications -->
+    <Certifications />
+
+    <!-- 12. Service Network -->
+    <ServiceNetwork />
+
+    <!-- 13. Company Statistics -->
+    <CompanyStats />
+
+    <!-- 14. Success Stories -->
+    <SuccessStories />
+
+    <!-- 15. Resources -->
+    <Resources />
+
+    <!-- 16. Dealer Program -->
+    <DealerProgram />
+
+    <!-- 18. Final CTA -->
+    <FinalCTA />
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  import { gsap } from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  // ========== HERO ANIMATIONS ==========
+  const heroTl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+
+  heroTl
+    .from('.hero-badge', { y: 30, opacity: 0, duration: 0.8 }, 0.2)
+    .from('.hero-headline', { y: 50, opacity: 0, duration: 1 }, 0.4)
+    .from('.hero-desc', { y: 30, opacity: 0, duration: 0.8 }, 0.6)
+    .from('.hero-buttons', { y: 30, opacity: 0, duration: 0.8 }, 0.8);
+
+  // Hero parallax on scroll
+  gsap.to('.hero-bg', {
+    yPercent: 20,
+    ease: 'none',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="hero-heading"]',
+      start: 'top top',
+      end: 'bottom top',
+      scrub: true,
+    },
+  });
+
+  // ========== FADE UP UTILITY ==========
+  function fadeUp(selector, options = {}) {
+    const { y = 40, stagger = 0.1, start = 'top 85%', ...rest } = options;
+    gsap.from(selector, {
+      y,
+      opacity: 0,
+      duration: 0.8,
+      stagger,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: selector,
+        start,
+        toggleActions: 'play none none none',
+      },
+      ...rest,
+    });
+  }
+
+  // ========== SECTION LABEL + HEADLINE PATTERN ==========
+  function animateSectionHeading(sectionSelector) {
+    const section = document.querySelector(sectionSelector);
+    if (!section) return;
+    const labels = section.querySelectorAll('.section-label');
+    const headings = section.querySelectorAll('h2');
+    const descs = section.querySelectorAll('p');
+
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: section,
+        start: 'top 80%',
+        toggleActions: 'play none none none',
+      },
+    });
+
+    if (labels.length) tl.from(labels, { y: 20, opacity: 0, duration: 0.6 }, 0);
+    if (headings.length) tl.from(headings, { y: 40, opacity: 0, duration: 0.8 }, 0.15);
+    if (descs.length) tl.from(descs, { y: 20, opacity: 0, duration: 0.6 }, 0.3);
+  }
+
+  // ========== TRUST BAR ==========
+  gsap.from('.trust-logos img', {
+    y: 20,
+    opacity: 0,
+    duration: 0.6,
+    stagger: 0.08,
+    ease: 'power2.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="trust-heading"]',
+      start: 'top 85%',
+    },
+  });
+
+  // ========== ABOUT SECTION ==========
+  gsap.from('section[aria-labelledby="about-heading"] .order-2', {
+    x: -60,
+    opacity: 0,
+    duration: 1,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="about-heading"]',
+      start: 'top 75%',
+    },
+  });
+
+  gsap.from('section[aria-labelledby="about-heading"] .order-1', {
+    x: 60,
+    opacity: 0,
+    duration: 1,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="about-heading"]',
+      start: 'top 75%',
+    },
+  });
+
+  gsap.from('section[aria-labelledby="about-heading"] .grid > div', {
+    y: 30,
+    opacity: 0,
+    duration: 0.6,
+    stagger: 0.1,
+    ease: 'power2.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="about-heading"] .grid',
+      start: 'top 85%',
+    },
+  });
+
+  // ========== INDIA CHALLENGES ==========
+  gsap.from('section[aria-labelledby="challenges-heading"] .max-w-2xl', {
+    x: 60,
+    opacity: 0,
+    duration: 1,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="challenges-heading"]',
+      start: 'top 70%',
+    },
+  });
+
+  gsap.from('section[aria-labelledby="challenges-heading"] .group', {
+    x: 40,
+    opacity: 0,
+    duration: 0.7,
+    stagger: 0.15,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="challenges-heading"] .space-y-4',
+      start: 'top 80%',
+    },
+  });
+
+  // ========== PRODUCT CATEGORIES ==========
+  gsap.from('section[aria-labelledby="categories-heading"] a', {
+    y: 60,
+    opacity: 0,
+    scale: 0.95,
+    duration: 0.9,
+    stagger: 0.2,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="categories-heading"]',
+      start: 'top 75%',
+    },
+  });
+
+  // ========== TECHNOLOGY STICKY ==========
+  gsap.from('section[aria-labelledby="tech-heading"] .pl-16, section[aria-labelledby="tech-heading"] .pl-20', {
+    x: -40,
+    opacity: 0,
+    duration: 0.8,
+    stagger: 0.15,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="tech-heading"]',
+      start: 'top 70%',
+    },
+  });
+
+  gsap.from('section[aria-labelledby="tech-heading"] img', {
+    x: 60,
+    opacity: 0,
+    scale: 0.9,
+    duration: 1,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="tech-heading"]',
+      start: 'top 70%',
+    },
+  });
+
+  // ========== INTERACTIVE SHOWCASE ==========
+  gsap.from('.showcase-hotspot', {
+    scale: 0,
+    opacity: 0,
+    duration: 0.5,
+    stagger: 0.1,
+    ease: 'back.out(1.7)',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="showcase-heading"]',
+      start: 'top 70%',
+    },
+  });
+
+  gsap.from('.showcase-detail.active', {
+    x: 40,
+    opacity: 0,
+    duration: 0.8,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="showcase-heading"]',
+      start: 'top 60%',
+    },
+  });
+
+  // ========== RESIDENTIAL / COMMERCIAL SOLUTIONS ==========
+  ['residential-heading', 'commercial-heading'].forEach((id) => {
+    const section = document.querySelector(`section[aria-labelledby="${id}"]`);
+    if (!section) return;
+
+    gsap.from(section.querySelector('.order-2 img, .order-2 .aspect-\[4\/5\]'), {
+      y: 60,
+      opacity: 0,
+      scale: 0.95,
+      duration: 1,
+      ease: 'power3.out',
+      scrollTrigger: { trigger: section, start: 'top 70%' },
+    });
+
+    gsap.from(section.querySelector('.order-1, .order-1'), {
+      x: id === 'residential-heading' ? -40 : 40,
+      opacity: 0,
+      duration: 0.9,
+      ease: 'power3.out',
+      scrollTrigger: { trigger: section, start: 'top 70%' },
+    });
+
+    const cards = section.querySelectorAll('.grid > div');
+    if (cards.length) {
+      gsap.from(cards, {
+        y: 30,
+        opacity: 0,
+        duration: 0.6,
+        stagger: 0.1,
+        ease: 'power2.out',
+        scrollTrigger: { trigger: section.querySelector('.grid'), start: 'top 85%' },
+      });
+    }
+  });
+
+  // ========== PRODUCT LINEUP ==========
+  gsap.from('.lineup-filter', {
+    y: 20,
+    opacity: 0,
+    duration: 0.5,
+    stagger: 0.08,
+    ease: 'power2.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="lineup-heading"]',
+      start: 'top 75%',
+    },
+  });
+
+  gsap.from('.lineup-card', {
+    y: 50,
+    opacity: 0,
+    scale: 0.95,
+    duration: 0.7,
+    stagger: 0.08,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: '#lineup-grid',
+      start: 'top 85%',
+    },
+  });
+
+  // ========== SMART MONITORING ==========
+  gsap.from('section[aria-labelledby="monitoring-heading"] .grid > div', {
+    y: 30,
+    opacity: 0,
+    duration: 0.6,
+    stagger: 0.1,
+    ease: 'power2.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="monitoring-heading"] .grid',
+      start: 'top 85%',
+    },
+  });
+
+  gsap.from('section[aria-labelledby="monitoring-heading"] img', {
+    x: 60,
+    opacity: 0,
+    scale: 0.95,
+    duration: 1,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="monitoring-heading"]',
+      start: 'top 70%',
+    },
+  });
+
+  // ========== CERTIFICATIONS ==========
+  gsap.from('section[aria-labelledby="cert-heading"] > div > div.grid > div', {
+    y: 40,
+    opacity: 0,
+    scale: 0.9,
+    duration: 0.7,
+    stagger: 0.08,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="cert-heading"]',
+      start: 'top 75%',
+    },
+  });
+
+  // ========== SERVICE NETWORK ==========
+  gsap.from('.map-state', {
+    scale: 0.8,
+    opacity: 0,
+    duration: 0.6,
+    stagger: 0.05,
+    ease: 'back.out(1.4)',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="network-heading"]',
+      start: 'top 75%',
+    },
+  });
+
+  gsap.from('section[aria-labelledby="network-heading"] .grid > div', {
+    y: 30,
+    opacity: 0,
+    duration: 0.6,
+    stagger: 0.1,
+    ease: 'power2.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="network-heading"] .grid',
+      start: 'top 85%',
+    },
+  });
+
+  // ========== COMPANY STATS ==========
+  gsap.from('.stat-counter', {
+    y: 40,
+    opacity: 0,
+    duration: 0.8,
+    stagger: 0.15,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="stats-heading"]',
+      start: 'top 75%',
+    },
+  });
+
+  // ========== SUCCESS STORIES ==========
+  gsap.from('section[aria-labelledby="stories-heading"] > div > div.grid > div', {
+    y: 60,
+    opacity: 0,
+    duration: 0.8,
+    stagger: 0.15,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="stories-heading"]',
+      start: 'top 75%',
+    },
+  });
+
+  // ========== RESOURCES ==========
+  gsap.from('section[aria-labelledby="resources-heading"] > div > div.grid > a', {
+    y: 40,
+    opacity: 0,
+    scale: 0.95,
+    duration: 0.7,
+    stagger: 0.08,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="resources-heading"]',
+      start: 'top 75%',
+    },
+  });
+
+  // ========== DEALER PROGRAM ==========
+  gsap.from('section[aria-labelledby="dealer-heading"] > div > div > div:first-child', {
+    x: -40,
+    opacity: 0,
+    duration: 0.9,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="dealer-heading"]',
+      start: 'top 70%',
+    },
+  });
+
+  gsap.from('section[aria-labelledby="dealer-heading"] img', {
+    x: 60,
+    opacity: 0,
+    scale: 0.95,
+    duration: 1,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="dealer-heading"]',
+      start: 'top 70%',
+    },
+  });
+
+  // ========== FINAL CTA ==========
+  gsap.from('section[aria-labelledby="cta-heading"] .max-w-3xl > *', {
+    y: 50,
+    opacity: 0,
+    duration: 0.8,
+    stagger: 0.15,
+    ease: 'power3.out',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="cta-heading"]',
+      start: 'top 70%',
+    },
+  });
+
+  // CTA parallax
+  gsap.to('section[aria-labelledby="cta-heading"]', {
+    backgroundPositionY: '30%',
+    ease: 'none',
+    scrollTrigger: {
+      trigger: 'section[aria-labelledby="cta-heading"]',
+      start: 'top bottom',
+      end: 'bottom top',
+      scrub: true,
+    },
+  });
+
+  // ========== CLEANUP ==========
+  ScrollTrigger.refresh();
+</script>

@@ -1,0 +1,80 @@
+---
+const testimonials = [
+  {
+    name: 'Rajesh Sharma',
+    role: 'Director',
+    company: 'SunTech Solar Solutions',
+    location: 'Rajasthan',
+    content: 'Qbits inverters have transformed our residential installations. The efficiency is remarkable and our customers love the monitoring app. Service support is exceptional.',
+    rating: 5,
+  },
+  {
+    name: 'Priya Patel',
+    role: 'Project Manager',
+    company: 'GreenWave EPC',
+    location: 'Gujarat',
+    content: 'We installed over 200 Qbits inverters across commercial projects. Zero failures in 3 years. The remote diagnostics save us countless site visits.',
+    rating: 5,
+  },
+  {
+    name: 'Amit Kumar',
+    role: 'CEO',
+    company: 'PowerUp Distributors',
+    location: 'Maharashtra',
+    content: 'As a distributor, product reliability is everything. Qbits delivers consistently. Our dealers report the lowest RMA rates we have seen in the market.',
+    rating: 5,
+  },
+];
+---
+
+<section class="section-padding bg-white" aria-labelledby="testimonials-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <span class="section-label reveal">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/>
+        </svg>
+        Testimonials
+      </span>
+      <h2 id="testimonials-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-6 reveal reveal-delay-1">
+        Trusted by
+        <span class="text-gradient">Industry Leaders</span>
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
+      {testimonials.map((t, i) => (
+        <div class={`card relative reveal reveal-delay-${i + 1}`}>
+          <!-- Quote icon -->
+          <div class="absolute -top-3 left-6 w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center shadow-lg">
+            <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+            </svg>
+          </div>
+
+          <!-- Stars -->
+          <div class="flex items-center gap-1 mb-4 pt-4">
+            {Array.from({ length: t.rating }).map(() => (
+              <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+              </svg>
+            ))}
+          </div>
+
+          <p class="text-slate-600 leading-relaxed text-sm mb-6">{t.content}</p>
+
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+            <div class="w-10 h-10 rounded-full bg-brand-100 flex items-center justify-center text-brand-700 font-bold text-sm">
+              {t.name.split(' ').map(n => n[0]).join('')}
+            </div>
+            <div>
+              <p class="text-sm font-semibold text-slate-900">{t.name}</p>
+              <p class="text-xs text-slate-500">{t.role}, {t.company}</p>
+            </div>
+            <span class="ml-auto text-xs text-slate-400 font-medium">{t.location}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

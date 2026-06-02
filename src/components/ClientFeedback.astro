@@ -1,0 +1,50 @@
+---
+const videos = [
+  {
+    src: '/Client Feedback /Jaybhai-Jangid-Owner-of-Jangid-Solar-chooses-Qbits-for-one-reason-unmatched-reliability.From-r.mp4',
+    title: 'Jaybhai Jangid, Owner of Jangid Solar',
+    desc: 'Chooses Qbits for one reason — unmatched reliability',
+  },
+  {
+    src: '/Client Feedback /Qbits-Energy-technology-stays-dust-proof-heat-resistant-and-humidity-protected-ensuring-lower-.mp4',
+    title: 'Dust-Proof & Heat-Resistant Technology',
+    desc: 'Qbits Energy technology stays protected ensuring lower maintenance',
+  },
+  {
+    src: '/Client Feedback /When-an-installer-confidently-says-100-recommend-it-speaks-volumes-about-performance.Qbits-d.mp4',
+    title: '100% Recommended by Installers',
+    desc: 'When an installer confidently recommends, it speaks volumes about performance',
+  },
+];
+---
+
+<section class="section-padding bg-white" aria-labelledby="feedback-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="section-label">Trusted Reviews</span>
+      <h2 id="feedback-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-4">Client Feedback</h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      {videos.map((video) => (
+        <div class="card p-0 overflow-hidden flex flex-col">
+          <div class="bg-slate-900 relative" style="aspect-ratio: 9/16; max-height: 560px;">
+            <video
+              class="w-full h-full object-cover"
+              controls
+              preload="metadata"
+              playsinline
+            >
+              <source src={video.src} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="p-5">
+            <h3 class="font-bold text-slate-900 mb-1">{video.title}</h3>
+            <p class="text-sm text-slate-500">{video.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

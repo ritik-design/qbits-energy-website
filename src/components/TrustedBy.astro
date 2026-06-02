@@ -1,0 +1,28 @@
+---
+const partners = [
+  { name: 'EPC Partner 1', abbr: 'EPC' },
+  { name: 'Installer Network', abbr: 'INST' },
+  { name: 'Distributor 1', abbr: 'DIST' },
+  { name: 'Solar Developer', abbr: 'DEV' },
+  { name: 'Energy Partner', abbr: 'NRG' },
+  { name: 'Power Corp', abbr: 'PWR' },
+];
+---
+
+<section class="bg-white border-y border-slate-100" aria-label="Trusted partners">
+  <div class="container-main py-10 lg:py-12">
+    <div class="text-center mb-8">
+      <p class="text-sm font-medium text-slate-400 uppercase tracking-widest">Trusted by leading solar companies across India</p>
+    </div>
+    <div class="flex flex-wrap items-center justify-center gap-x-12 gap-y-6 opacity-50">
+      {partners.map(partner => (
+        <div class="flex items-center gap-2 grayscale hover:grayscale-0 transition-all duration-300">
+          <div class="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center">
+            <span class="text-xs font-bold text-slate-400">{partner.abbr}</span>
+          </div>
+          <span class="text-sm font-semibold text-slate-600 hidden sm:block">{partner.name}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

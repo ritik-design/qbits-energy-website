@@ -1,0 +1,32 @@
+---
+const stats = [
+  { value: '50,000+', label: 'Installations', suffix: '+' },
+  { value: '350+', label: 'Cities Covered', suffix: '+' },
+  { value: '500+', label: 'Channel Partners', suffix: '+' },
+  { value: '8+', label: 'Years of Excellence', suffix: '+' },
+];
+---
+
+<section class="relative py-20 lg:py-28 bg-white overflow-hidden" aria-label="Company statistics">
+  <!-- Subtle grid -->
+  <div class="absolute inset-0 grid-lines opacity-20" aria-hidden="true"></div>
+
+  <!-- Top accent line -->
+  <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-500/30 to-transparent"></div>
+
+  <div class="container-main relative">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-px bg-slate-100 rounded-3xl overflow-hidden border border-slate-100">
+      {stats.map((stat, i) => (
+        <div class="bg-white p-10 lg:p-14 text-center group hover:bg-brand-50/30 transition-colors duration-500">
+          <div class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 mb-3 group-hover:text-brand-600 transition-colors duration-500">
+            {stat.value}
+          </div>
+          <p class="text-sm font-medium text-slate-500 uppercase tracking-wider">{stat.label}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Bottom accent line -->
+  <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-500/30 to-transparent"></div>
+</section>

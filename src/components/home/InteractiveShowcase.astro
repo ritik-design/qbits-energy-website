@@ -1,0 +1,141 @@
+---
+const hotspots = [
+  { id: 'mppt', label: 'AI MPPT', x: '25%', y: '30%', icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
+  { id: 'cooling', label: 'Cooling', x: '70%', y: '25%', icon: 'M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2 1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5' },
+  { id: 'protection', label: 'Protection', x: '20%', y: '65%', icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z' },
+  { id: 'display', label: 'Display', x: '75%', y: '60%', icon: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z' },
+  { id: 'connectivity', label: 'Connect', x: '50%', y: '80%', icon: 'M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0' },
+];
+
+const details: Record<string, { title: string; desc: string; specs: string[] }> = {
+  mppt: {
+    title: 'AI-Powered MPPT',
+    desc: 'Advanced algorithms continuously track the maximum power point with 99.9% accuracy, adapting to partial shading and changing light conditions in real-time.',
+    specs: ['99.9% tracking accuracy', '< 1s response time', 'Dual MPPT channels'],
+  },
+  cooling: {
+    title: 'Intelligent Thermal Management',
+    desc: 'Multi-layer cooling with smart fan control and heat-pipe technology ensures optimal operating temperatures even in 50°C+ ambient conditions.',
+    specs: ['50°C full power operation', 'Smart fan control', 'Heat-pipe cooling'],
+  },
+  protection: {
+    title: '6-Layer Protection System',
+    desc: 'Comprehensive safeguards against overvoltage, overcurrent, overheating, ground faults, surge, and arc faults for maximum system safety.',
+    specs: ['Type II SPD', 'AFCI ready', 'IP66 enclosure'],
+  },
+  display: {
+    title: 'OLED Status Display',
+    desc: 'Crystal-clear OLED display shows real-time power output, daily energy yield, system status, and fault codes at a glance.',
+    specs: ['Real-time data', 'Fault code display', 'Touch interface'],
+  },
+  connectivity: {
+    title: 'Smart Connectivity',
+    desc: 'Built-in Wi-Fi, RS485, and 4G options for seamless remote monitoring via the Qbits mobile app and web dashboard.',
+    specs: ['Wi-Fi + 4G', 'RS485 Modbus', 'Cloud monitoring'],
+  },
+};
+---
+
+<section class="py-20 sm:py-28 lg:py-36 bg-slate-950 overflow-hidden" aria-labelledby="showcase-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <span class="section-label text-brand-400">
+        <span class="w-8 h-px bg-brand-500"></span>
+        Explore
+      </span>
+      <h2 id="showcase-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mt-6 leading-tight">
+        Inside The <span class="text-gradient">Technology</span>
+      </h2>
+      <p class="mt-4 text-slate-400 text-base sm:text-lg">Click on any hotspot to discover what makes Qbits inverters extraordinary.</p>
+    </div>
+
+    <div class="grid lg:grid-cols-5 gap-8 lg:gap-12 items-center">
+      <!-- Product Image with Hotspots -->
+      <div class="lg:col-span-3 relative">
+        <div class="relative aspect-[4/3] rounded-3xl bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-800 overflow-hidden">
+          <!-- Product image -->
+          <img
+            src="/images/smart-features.png"
+            alt="Qbits inverter with technology highlights"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
+
+          <!-- Hotspots -->
+          {hotspots.map((spot) => (
+            <button
+              class="showcase-hotspot absolute w-9 h-9 -ml-4.5 -mt-4.5 group z-10"
+              style={`left: ${spot.x}; top: ${spot.y};`}
+              data-hotspot={spot.id}
+              aria-label={`Explore ${spot.label}`}
+            >
+              <span class="absolute inset-0 rounded-full bg-brand-500/20 animate-ping"></span>
+              <span class="absolute inset-0 rounded-full bg-brand-500/40 border border-brand-400/60 flex items-center justify-center backdrop-blur-sm transition-transform duration-300 group-hover:scale-110">
+                <span class="w-2 h-2 rounded-full bg-brand-400"></span>
+              </span>
+              <span class="absolute -bottom-6 left-1/2 -translate-x-1/2 text-[10px] font-bold uppercase tracking-wider text-white bg-slate-900/80 px-2 py-0.5 rounded whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">
+                {spot.label}
+              </span>
+            </button>
+          ))}
+        </div>
+        <!-- Glow -->
+        <div class="absolute -inset-4 bg-brand-500/5 rounded-[2rem] blur-3xl -z-10"></div>
+      </div>
+
+      <!-- Details Panel -->
+      <div class="lg:col-span-2">
+        <div id="showcase-details" class="space-y-6">
+          {hotspots.map((spot, i) => (
+            <div class={`showcase-detail ${i === 0 ? 'active' : ''}`} data-detail={spot.id}>
+              <div class="flex items-center gap-3 mb-3">
+                <div class="w-10 h-10 rounded-xl bg-brand-500/10 border border-brand-500/20 flex items-center justify-center">
+                  <svg class="w-5 h-5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={spot.icon}/>
+                  </svg>
+                </div>
+                <h3 class="text-lg sm:text-xl font-bold text-white">{details[spot.id].title}</h3>
+              </div>
+              <p class="text-slate-400 leading-relaxed text-sm sm:text-base mb-4">{details[spot.id].desc}</p>
+              <div class="flex flex-wrap gap-2">
+                {details[spot.id].specs.map((spec) => (
+                  <span class="inline-flex items-center px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-medium text-slate-300">
+                    {spec}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .showcase-detail {
+      display: none;
+      animation: fadeIn 0.4s ease-out;
+    }
+    .showcase-detail.active {
+      display: block;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <script>
+    const hotspots = document.querySelectorAll('.showcase-hotspot');
+    const details = document.querySelectorAll('.showcase-detail');
+
+    hotspots.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-hotspot');
+        details.forEach((d) => d.classList.remove('active'));
+        const target = document.querySelector(`[data-detail="${id}"]`);
+        if (target) target.classList.add('active');
+      });
+    });
+  </script>
+</section>

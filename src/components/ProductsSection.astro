@@ -1,0 +1,51 @@
+---
+const products = [
+  {
+    title: 'On Grid Residential',
+    image: '/images/ongrid-res.jpg',
+    href: '/on-grid-inverter/',
+  },
+  {
+    title: 'On Grid Commercial',
+    image: '/images/ongrid-commercial.jpg',
+    href: '/on-grid-inverter/',
+  },
+  {
+    title: 'Hybrid Inverter',
+    image: '/images/hybrid.jpg',
+    href: '/hybrid-inverter/',
+  },
+  {
+    title: 'SPDs',
+    image: '/images/spds.jpg',
+    href: '/our-products/',
+  },
+];
+---
+
+<section class="section-padding bg-white" aria-labelledby="products-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="section-label">Smart Solutions</span>
+      <h2 id="products-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-4">Our Products Range</h2>
+      <p class="mt-4 text-lg text-slate-500">Explore our growing range of smart solar hardware, built for every segment:</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {products.map((product) => (
+        <a href={product.href} class="group block bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-brand-200 transition-all duration-300">
+          <div class="aspect-square overflow-hidden bg-slate-100">
+            <img src={product.image} alt={product.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          </div>
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">{product.title}</h3>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div class="text-center mt-10">
+      <a href="/our-products/" class="btn-primary">Know More About Our Products</a>
+    </div>
+  </div>
+</section>

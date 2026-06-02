@@ -1,0 +1,134 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import PageHeader from '../../components/ui/PageHeader.astro';
+
+const posts = [
+  {
+    title: 'Understanding MPPT Technology in Modern Solar Inverters',
+    excerpt: 'Maximum Power Point Tracking is the key to maximizing solar energy harvest. Learn how advanced MPPT algorithms improve system efficiency.',
+    category: 'Technology',
+    date: 'May 28, 2026',
+    slug: 'understanding-mppt-technology',
+    readTime: '6 min',
+  },
+  {
+    title: 'Inverter Overheating: Causes and Prevention',
+    excerpt: 'High temperatures can significantly impact inverter performance and lifespan. Discover best practices for thermal management.',
+    category: 'Maintenance',
+    date: 'May 15, 2026',
+    slug: 'inverter-overheating',
+    readTime: '5 min',
+  },
+  {
+    title: 'Choosing Between On-Grid and Hybrid Inverters',
+    excerpt: 'Not sure which inverter type suits your needs? We break down the differences, benefits, and ideal use cases for each.',
+    category: 'Buying Guide',
+    date: 'May 02, 2026',
+    slug: 'on-grid-vs-hybrid',
+    readTime: '8 min',
+  },
+  {
+    title: 'How to Size Your Solar Inverter Correctly',
+    excerpt: 'Proper inverter sizing is crucial for system performance. Learn the key factors to consider when selecting inverter capacity.',
+    category: 'Guide',
+    date: 'April 20, 2026',
+    slug: 'sizing-solar-inverter',
+    readTime: '7 min',
+  },
+  {
+    title: 'The Future of Solar: AI-Powered Monitoring',
+    excerpt: 'Artificial intelligence is transforming solar energy management. Explore how AI monitoring improves efficiency and reduces downtime.',
+    category: 'Technology',
+    date: 'April 10, 2026',
+    slug: 'ai-solar-monitoring',
+    readTime: '5 min',
+  },
+  {
+    title: 'Understanding Solar Inverter Warranties',
+    excerpt: 'What does a 12-year warranty really cover? We explain inverter warranties, what to look for, and how to protect your investment.',
+    category: 'Guide',
+    date: 'March 28, 2026',
+    slug: 'inverter-warranties',
+    readTime: '6 min',
+  },
+];
+
+const categories = [...new Set(posts.map(p => p.category))];
+---
+
+<Layout
+  title="Blog | Qbits Energy"
+  description="Latest insights on solar technology, inverter maintenance, buying guides, and industry trends from Qbits Energy."
+  canonical="/blog/"
+>
+  <Header />
+
+  <main>
+    <PageHeader
+      label="Resources"
+      title="Solar Knowledge"
+      highlight="Hub"
+      description="Stay updated with the latest in solar technology, maintenance tips, and industry insights."
+    />
+
+    <section class="section-padding bg-white">
+      <div class="container-main">
+        <div class="flex flex-wrap gap-2 mb-8">
+          <button class="category-btn px-4 py-2 rounded-lg text-sm font-medium bg-brand-500 text-white border border-brand-500" data-category="all">All</button>
+          {categories.map(cat => (
+            <button class="category-btn px-4 py-2 rounded-lg text-sm font-medium border border-slate-200 text-slate-600 hover:border-brand-300 hover:bg-brand-50 transition-colors" data-category={cat.toLowerCase().replace(/\s+/g, '-')} >{cat}</button>
+          ))}
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {posts.map(post => (
+            <article class="card p-0 overflow-hidden group blog-card" data-category={post.category.toLowerCase().replace(/\s+/g, '-')}>
+              <div class="h-48 bg-gradient-to-br from-slate-200 to-slate-300 flex items-center justify-center">
+                <div class="w-16 h-16 rounded-xl bg-white/80 flex items-center justify-center shadow-sm">
+                  <svg class="w-8 h-8 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                </div>
+              </div>
+              <div class="p-5">
+                <div class="flex items-center gap-3 text-xs text-slate-400 mb-3">
+                  <span class="text-brand-600 font-medium">{post.category}</span>
+                  <span>{post.date}</span>
+                  <span>{post.readTime}</span>
+                </div>
+                <h2 class="text-lg font-bold text-slate-900 mb-2 group-hover:text-brand-600 transition-colors">
+                  <a href={`/blog/${post.slug}/`}>{post.title}</a>
+                </h2>
+                <p class="text-sm text-slate-500 line-clamp-2">{post.excerpt}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  const btns = document.querySelectorAll('.category-btn');
+  const cards = document.querySelectorAll('.blog-card');
+
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.getAttribute('data-category');
+      btns.forEach(b => {
+        b.classList.remove('bg-brand-500', 'text-white', 'border-brand-500');
+        b.classList.add('text-slate-600');
+      });
+      btn.classList.add('bg-brand-500', 'text-white', 'border-brand-500');
+      btn.classList.remove('text-slate-600');
+
+      cards.forEach(card => {
+        const cardCat = card.getAttribute('data-category');
+        card.classList.toggle('hidden', cat !== 'all' && cardCat !== cat);
+      });
+    });
+  });
+</script>

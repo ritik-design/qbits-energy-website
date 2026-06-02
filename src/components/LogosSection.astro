@@ -1,0 +1,46 @@
+---
+const logos = [
+  { src: '/logos/logo1.png', alt: 'Partner 1' },
+  { src: '/logos/logo2.png', alt: 'Partner 2' },
+  { src: '/logos/logo3.png', alt: 'Partner 3' },
+  { src: '/logos/logo4.png', alt: 'Partner 4' },
+  { src: '/logos/logo5.png', alt: 'Partner 5' },
+  { src: '/logos/logo6.png', alt: 'Partner 6' },
+  { src: '/logos/logo7.png', alt: 'Partner 7' },
+];
+
+const allLogos = [...logos, ...logos, ...logos];
+---
+
+<section class="py-12 lg:py-16 bg-slate-50 overflow-hidden" aria-labelledby="logos-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <span class="section-label">Strong Connection</span>
+      <h2 id="logos-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-4">On Customers</h2>
+    </div>
+  </div>
+
+  <div class="relative">
+    <div class="flex items-center gap-8 animate-marquee-logos">
+      {allLogos.map((logo, i) => (
+        <div class="shrink-0 bg-white rounded-xl border border-slate-200 px-8 py-5 flex items-center justify-center h-28 w-48 hover:shadow-md transition-shadow">
+          <img src={logo.src} alt={logo.alt} class="max-h-16 max-w-full object-contain" loading="lazy" />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  @keyframes marquee-logos {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-33.33%); }
+  }
+  .animate-marquee-logos {
+    animation: marquee-logos 25s linear infinite;
+    width: max-content;
+  }
+  .animate-marquee-logos:hover {
+    animation-play-state: paused;
+  }
+</style>

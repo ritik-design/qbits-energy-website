@@ -1,0 +1,114 @@
+---
+const products = [
+  { name: '1kW', type: 'residential', specs: 'Single Phase | 1 MPPT', eff: '98.2%' },
+  { name: '3kW', type: 'residential', specs: 'Single Phase | 2 MPPT', eff: '98.4%' },
+  { name: '5kW', type: 'residential', specs: 'Single Phase | 2 MPPT', eff: '98.6%' },
+  { name: '10kW', type: 'residential', specs: 'Three Phase | 2 MPPT', eff: '98.6%' },
+  { name: '15kW', type: 'commercial', specs: 'Three Phase | 2 MPPT', eff: '98.7%' },
+  { name: '25kW', type: 'commercial', specs: 'Three Phase | 3 MPPT', eff: '98.7%' },
+  { name: '50kW', type: 'industrial', specs: 'Three Phase | 6 MPPT', eff: '98.8%' },
+  { name: '110kW', type: 'industrial', specs: 'Three Phase | 12 MPPT', eff: '98.8%' },
+];
+---
+
+<section class="py-20 sm:py-28 lg:py-36 bg-white" aria-labelledby="lineup-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <span class="section-label">
+        <span class="w-8 h-px bg-brand-500"></span>
+        Product Lineup
+      </span>
+      <h2 id="lineup-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-6 leading-tight">
+        Find Your <span class="text-gradient">Perfect Fit</span>
+      </h2>
+      <p class="mt-4 text-slate-500 text-base sm:text-lg">From 1kW residential to 110kW industrial — every power need covered.</p>
+    </div>
+
+    <!-- Filter Tabs -->
+    <div class="flex items-center justify-center gap-2 mb-12">
+      {['All', 'Residential', 'Commercial', 'Industrial'].map((filter) => (
+        <button
+          class="lineup-filter px-5 sm:px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300"
+          data-filter={filter.toLowerCase()}
+        >
+          {filter}
+        </button>
+      ))}
+    </div>
+
+    <!-- Grid -->
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5" id="lineup-grid">
+      {products.map((product) => (
+        <a
+          href="/our-products/"
+          class={`lineup-card group relative rounded-2xl bg-slate-50 border border-slate-100 p-5 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-500/5 hover:-translate-y-1 transition-all duration-500`}
+          data-type={product.type}
+        >
+          <div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-slate-100 to-slate-200 mb-4 flex items-center justify-center overflow-hidden">
+            <div class="w-14 h-14 rounded-xl bg-slate-200 border border-slate-300 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+              <svg class="w-7 h-7 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between mb-1">
+            <h3 class="text-xl font-bold text-slate-900">{product.name}</h3>
+            <span class="text-xs font-bold text-brand-600 bg-brand-50 px-2 py-1 rounded-full uppercase">{product.eff}</span>
+          </div>
+          <p class="text-sm text-slate-500 mb-4">{product.specs}</p>
+
+          <span class="inline-flex items-center gap-2 text-sm font-semibold text-brand-600 group-hover:gap-3 transition-all">
+            View Details
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </span>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <style>
+    .lineup-filter {
+      color: #64748b;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+    }
+    .lineup-filter:hover {
+      background: #f1f5f9;
+    }
+    .lineup-filter.active {
+      color: white;
+      background: #049D65;
+      border-color: #049D65;
+    }
+  </style>
+
+  <script>
+    const filters = document.querySelectorAll('.lineup-filter');
+    const cards = document.querySelectorAll('.lineup-card');
+
+    // Set first as active
+    filters[0]?.classList.add('active');
+
+    filters.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+
+        filters.forEach((f) => f.classList.remove('active'));
+        btn.classList.add('active');
+
+        cards.forEach((card) => {
+          const type = card.getAttribute('data-type');
+          if (filter === 'all' || type === filter) {
+            card.style.display = 'block';
+            card.style.animation = 'fadeUp 0.4s ease-out';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</section>

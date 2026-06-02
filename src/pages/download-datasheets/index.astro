@@ -1,0 +1,110 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import PageHeader from '../../components/ui/PageHeader.astro';
+import { products } from '../../data/products';
+
+const categories = ['All', 'On-Grid', 'Hybrid'];
+---
+
+<Layout
+  title="Download Datasheets | Qbits Energy"
+  description="Download product datasheets, manuals, warranty information, and certificates for all Qbits solar inverters."
+  canonical="/download-datasheets/"
+>
+  <Header />
+
+  <main>
+    <PageHeader
+      label="Resources"
+      title="Download"
+      highlight="Datasheets"
+      description="Access product datasheets, manuals, warranty documents, and certifications for all Qbits inverters."
+    />
+
+    <section class="section-padding bg-white">
+      <div class="container-main">
+        <div class="flex flex-wrap gap-2 mb-8">
+          {categories.map((cat) => (
+            <button class="category-btn px-4 py-2 rounded-lg text-sm font-medium border border-slate-200 hover:border-brand-300 hover:bg-brand-50 transition-colors" data-category={cat.toLowerCase().replace(' ', '-')} class:list={[{ 'bg-brand-500 text-white border-brand-500 hover:bg-brand-600': cat === 'All', 'text-slate-600': cat !== 'All' }]}>
+              {cat}
+            </button>
+          ))}
+        </div>
+
+        <div class="overflow-x-auto rounded-xl border border-slate-200">
+          <table class="w-full text-sm">
+            <thead class="bg-slate-50 text-slate-600">
+              <tr>
+                <th class="text-left px-5 py-3 font-semibold">SKU</th>
+                <th class="text-left px-5 py-3 font-semibold">Product Name</th>
+                <th class="text-left px-5 py-3 font-semibold">Category</th>
+                <th class="text-left px-5 py-3 font-semibold">Power</th>
+                <th class="text-left px-5 py-3 font-semibold">Datasheet</th>
+                <th class="text-left px-5 py-3 font-semibold">Manual</th>
+                <th class="text-left px-5 py-3 font-semibold">Warranty</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100">
+              {products.map((product) => (
+                <tr class="hover:bg-slate-50 transition-colors product-row" data-category={product.category}>
+                  <td class="px-5 py-4 font-mono text-xs text-slate-500">{product.id}</td>
+                  <td class="px-5 py-4 font-medium text-slate-900">{product.name}</td>
+                  <td class="px-5 py-4">
+                    <span class={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${product.category === 'on-grid' ? 'bg-brand-50 text-brand-700' : 'bg-accent/10 text-accent-dark'}`}>
+                      {product.category === 'on-grid' ? 'On-Grid' : 'Hybrid'}
+                    </span>
+                  </td>
+                  <td class="px-5 py-4 text-slate-500">{product.powerMax}kW</td>
+                  <td class="px-5 py-4">
+                    <a href={`/downloads/datasheet-${product.id}.pdf`} class="inline-flex items-center gap-1.5 text-brand-600 hover:text-brand-700 font-medium">
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                      PDF
+                    </a>
+                  </td>
+                  <td class="px-5 py-4">
+                    <a href={`/downloads/manual-${product.id}.pdf`} class="inline-flex items-center gap-1.5 text-brand-600 hover:text-brand-700 font-medium">
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                      PDF
+                    </a>
+                  </td>
+                  <td class="px-5 py-4">
+                    <a href={`/downloads/warranty-${product.id}.pdf`} class="inline-flex items-center gap-1.5 text-brand-600 hover:text-brand-700 font-medium">
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                      PDF
+                    </a>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  const btns = document.querySelectorAll('.category-btn');
+  const rows = document.querySelectorAll('.product-row');
+
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.getAttribute('data-category');
+      btns.forEach(b => {
+        b.classList.remove('bg-brand-500', 'text-white', 'border-brand-500');
+        b.classList.add('text-slate-600');
+      });
+      btn.classList.add('bg-brand-500', 'text-white', 'border-brand-500');
+      btn.classList.remove('text-slate-600');
+
+      rows.forEach(row => {
+        const rowCat = row.getAttribute('data-category');
+        row.classList.toggle('hidden', cat !== 'all' && rowCat !== cat);
+      });
+    });
+  });
+</script>

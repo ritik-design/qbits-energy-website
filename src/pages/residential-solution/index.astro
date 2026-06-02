@@ -1,0 +1,59 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import PageHeader from '../../components/ui/PageHeader.astro';
+
+const features = [
+  { title: '1-10kW Range', desc: 'Perfect for homes of all sizes', icon: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6' },
+  { title: 'Net Metering Ready', desc: 'Export excess power to the grid', icon: 'M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4' },
+  { title: 'Smart App', desc: 'Monitor from your phone anywhere', icon: 'M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z' },
+  { title: 'Compact Design', desc: 'Sleek wall-mount installation', icon: 'M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z' },
+];
+---
+
+<Layout
+  title="Residential Solar Solutions | Qbits Energy"
+  description="Complete residential solar inverter solutions for Indian homes. From 1kW to 10kW with smart monitoring, net metering, and 12-year warranty."
+  canonical="/residential-solution/"
+>
+  <Header />
+
+  <main>
+    <PageHeader
+      label="Solutions"
+      title="Residential Solar"
+      highlight="Solutions"
+      description="Power your home with clean, reliable solar energy. Qbits residential inverters are designed for maximum efficiency and easy monitoring."
+    />
+
+    <section class="section-padding bg-white">
+      <div class="container-main">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <img src="/images/ongrid-res.jpg" alt="Residential Solar Installation" class="w-full rounded-2xl shadow-lg" loading="lazy" />
+          </div>
+          <div>
+            <h2 class="text-3xl font-bold text-slate-900 mb-4">Solar Power for Your Home</h2>
+            <p class="text-slate-600 leading-relaxed mb-6">Qbits residential inverters are the perfect choice for homeowners looking to reduce electricity bills and contribute to a greener future. Our compact, efficient inverters work seamlessly with rooftop solar installations of all sizes.</p>
+            <ul class="space-y-3">
+              {features.map(f => (
+                <li class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-lg bg-brand-50 flex items-center justify-center text-brand-600 shrink-0">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={f.icon}/></svg>
+                  </div>
+                  <div>
+                    <p class="font-semibold text-slate-900">{f.title}</p>
+                    <p class="text-sm text-slate-500">{f.desc}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

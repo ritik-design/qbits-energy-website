@@ -1,0 +1,36 @@
+---
+const features = [
+  'Designed for 20 Year Life',
+  'Store Data in India',
+  'Multi Inverter Dashboard',
+  'Advanced Heat Sink Cooling System',
+  'Built for Indian Conditions',
+  'German IGBT Technology',
+  'Anti Islanding Protection',
+];
+---
+
+<section class="section-padding bg-slate-50" aria-labelledby="smart-features-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="section-label">Eco Smart</span>
+      <h2 id="smart-features-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-4">Smart Solar Features That Set Us Apart</h2>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <img src="/images/smart-features.png" alt="Qbits Smart Solar Features" class="w-full rounded-2xl shadow-lg" loading="lazy" />
+      </div>
+      <div class="space-y-4">
+        {features.map((feature) => (
+          <div class="flex items-center gap-4 bg-white rounded-xl border border-slate-200 px-5 py-4 hover:border-brand-200 hover:shadow-md transition-all">
+            <div class="w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-600 shrink-0">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <span class="font-medium text-slate-800">{feature}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

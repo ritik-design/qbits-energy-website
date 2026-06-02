@@ -1,0 +1,98 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import PageHeader from '../../components/ui/PageHeader.astro';
+
+const partners = [
+  { name: 'Amrit Green Energy Pvt. Ltd.', city: 'Surat', state: 'Gujarat', phone: '+91 98765 43210' },
+  { name: 'SunTech Solar Solutions', city: 'Rajkot', state: 'Gujarat', phone: '+91 98765 43211' },
+  { name: 'GreenWave EPC', city: 'Ahmedabad', state: 'Gujarat', phone: '+91 98765 43212' },
+  { name: 'PowerUp Distributors', city: 'Mumbai', state: 'Maharashtra', phone: '+91 98765 43213' },
+  { name: 'SolarMax Installers', city: 'Pune', state: 'Maharashtra', phone: '+91 98765 43214' },
+  { name: 'EcoEnergy Partners', city: 'Jaipur', state: 'Rajasthan', phone: '+91 98765 43215' },
+  { name: 'Vijay Solar Services', city: 'Indore', state: 'Madhya Pradesh', phone: '+91 98765 43216' },
+  { name: 'BrightSun Solutions', city: 'Bangalore', state: 'Karnataka', phone: '+91 98765 43217' },
+];
+
+const states = [...new Set(partners.map(p => p.state))];
+---
+
+<Layout
+  title="Authorized Service Partners | Qbits Energy"
+  description="Find Qbits authorized service partners across India. Search by state and city for installation, service, and support."
+  canonical="/authorized-service-partners/"
+>
+  <Header />
+
+  <main>
+    <PageHeader
+      label="Support Network"
+      title="Authorized"
+      highlight="Service Partners"
+      description="Find certified Qbits partners for installation, maintenance, and support across India."
+    />
+
+    <section class="section-padding bg-white">
+      <div class="container-main">
+        <div class="max-w-4xl mx-auto">
+          <div class="flex flex-col sm:flex-row gap-3 mb-8">
+            <input type="text" id="partner-search" placeholder="Search by name, city, or state..." class="flex-1 rounded-lg border border-slate-300 px-4 py-2.5 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none" />
+            <select id="state-filter" class="rounded-lg border border-slate-300 px-4 py-2.5 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none bg-white">
+              <option value="">All States</option>
+              {states.map(s => <option value={s}>{s}</option>)}
+            </select>
+          </div>
+
+          <div class="overflow-x-auto rounded-xl border border-slate-200">
+            <table class="w-full text-sm">
+              <thead class="bg-slate-50 text-slate-600">
+                <tr>
+                  <th class="text-left px-5 py-3 font-semibold">Partner Name</th>
+                  <th class="text-left px-5 py-3 font-semibold">City</th>
+                  <th class="text-left px-5 py-3 font-semibold">State</th>
+                  <th class="text-left px-5 py-3 font-semibold">Contact</th>
+                </tr>
+              </thead>
+              <tbody id="partner-table" class="divide-y divide-slate-100">
+                {partners.map(p => (
+                  <tr class="hover:bg-slate-50 transition-colors" data-state={p.state} data-search={`${p.name} ${p.city} ${p.state}`.toLowerCase()}>
+                    <td class="px-5 py-4 font-medium text-slate-900">{p.name}</td>
+                    <td class="px-5 py-4 text-slate-500">{p.city}</td>
+                    <td class="px-5 py-4 text-slate-500">{p.state}</td>
+                    <td class="px-5 py-4">
+                      <a href={`tel:${p.phone.replace(/\s/g, '')}`} class="text-brand-600 hover:text-brand-700 font-medium">{p.phone}</a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  const searchInput = document.getElementById('partner-search');
+  const stateFilter = document.getElementById('state-filter');
+  const rows = document.querySelectorAll('#partner-table tr');
+
+  function filter() {
+    const query = searchInput?.value.toLowerCase() || '';
+    const state = stateFilter?.value || '';
+    rows.forEach(row => {
+      const rowState = row.getAttribute('data-state') || '';
+      const rowSearch = row.getAttribute('data-search') || '';
+      const matchState = !state || rowState === state;
+      const matchSearch = !query || rowSearch.includes(query);
+      row.classList.toggle('hidden', !(matchState && matchSearch));
+    });
+  }
+
+  searchInput?.addEventListener('input', filter);
+  stateFilter?.addEventListener('change', filter);
+</script>

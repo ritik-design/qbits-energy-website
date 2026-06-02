@@ -1,0 +1,35 @@
+---
+const certs = [
+  { name: 'BIS', full: 'Bureau of Indian Standards', desc: 'IS 16221 certified for Indian grid standards.' },
+  { name: 'IEC', full: 'IEC 62109 / 62116', desc: 'International safety and anti-islanding compliance.' },
+  { name: 'ISO', full: 'ISO 9001:2015', desc: 'Quality management system certification.' },
+  { name: 'IP65', full: 'IP65 Rated', desc: 'Dust-tight and protected against water jets.' },
+  { name: 'Surge', full: 'Surge Protection', desc: 'Type II SPD for lightning and surge protection.' },
+];
+---
+
+<section class="py-20 sm:py-28 lg:py-36 bg-slate-950" aria-labelledby="cert-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <span class="section-label text-brand-400">
+        <span class="w-8 h-px bg-brand-500"></span>
+        Certifications
+      </span>
+      <h2 id="cert-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mt-6 leading-tight">
+        Built To <span class="text-gradient">Global Standards</span>
+      </h2>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
+      {certs.map((cert) => (
+        <div class="group relative rounded-2xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 hover:border-brand-500/30 transition-all duration-500 text-center">
+          <div class="w-14 h-14 mx-auto rounded-2xl bg-brand-500/10 border border-brand-500/20 flex items-center justify-center mb-4 group-hover:bg-brand-500 group-hover:border-brand-500 transition-all duration-500">
+            <span class="text-lg font-bold text-brand-400 group-hover:text-white transition-colors">{cert.name}</span>
+          </div>
+          <h3 class="text-sm font-bold text-white mb-1">{cert.full}</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">{cert.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

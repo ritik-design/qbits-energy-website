@@ -1,0 +1,71 @@
+---
+const benefits = [
+  { title: 'Margins', desc: 'Competitive margins and volume-based incentives.' },
+  { title: 'Support', desc: 'Dedicated account manager and technical support.' },
+  { title: 'Training', desc: 'Regular product and sales training sessions.' },
+  { title: 'Marketing', desc: 'Co-branded marketing materials and lead sharing.' },
+];
+---
+
+<section class="relative py-20 sm:py-28 lg:py-36 overflow-hidden bg-slate-950" aria-labelledby="dealer-heading">
+  <!-- Background -->
+  <div class="absolute inset-0">
+    <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/90 to-slate-950/60 z-10"></div>
+    <div class="w-full h-full bg-gradient-to-br from-slate-900 to-slate-800"></div>
+  </div>
+
+  <div class="container-main relative z-20">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+      <div>
+        <span class="section-label text-brand-400">
+          <span class="w-8 h-px bg-brand-500"></span>
+          Partner Program
+        </span>
+        <h2 id="dealer-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mt-6 leading-tight">
+          Grow Your Solar Business <span class="text-gradient">With Qbits</span>
+        </h2>
+        <p class="mt-6 text-base sm:text-lg text-slate-400 leading-relaxed max-w-lg">
+          Join India's fastest-growing solar inverter network. Get exclusive territories, competitive pricing, and world-class support to scale your business.
+        </p>
+
+        <div class="mt-10 grid sm:grid-cols-2 gap-5">
+          {benefits.map((item) => (
+            <div class="flex items-start gap-3">
+              <div class="w-6 h-6 rounded-full bg-brand-500/20 flex items-center justify-center shrink-0 mt-0.5">
+                <svg class="w-3.5 h-3.5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="text-sm font-bold text-white">{item.title}</h3>
+                <p class="text-xs text-slate-400 mt-0.5">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div class="mt-10">
+          <a href="/contact-us/" class="btn-primary">
+            Become A Dealer
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div class="hidden lg:block relative">
+        <div class="aspect-[4/3] rounded-3xl overflow-hidden">
+          <img
+            src="/Homepage /image.png"
+            alt="Qbits dealer partnership"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="absolute -inset-4 bg-brand-500/5 rounded-[2rem] blur-3xl -z-10"></div>
+      </div>
+    </div>
+  </div>
+</section>

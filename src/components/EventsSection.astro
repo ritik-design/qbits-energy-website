@@ -1,0 +1,26 @@
+---
+const events = [
+  { image: '/Homepage /Our Participations one.webp', alt: 'Qbits at Solar Expo' },
+  { image: '/Homepage /Our Participations two.webp', alt: 'Qbits Product Launch' },
+  { image: '/Homepage /Our Participations three.webp', alt: 'Qbits Dealer Meet' },
+  { image: '/Homepage /Our Participations four.webp', alt: 'Qbits at Exhibition' },
+];
+---
+
+<section class="section-padding bg-white" aria-labelledby="events-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="section-label">Event Highlights</span>
+      <h2 id="events-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-4">Our Participations</h2>
+    </div>
+
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      {events.map((event) => (
+        <div class="group relative rounded-xl overflow-hidden bg-slate-100">
+          <img src={event.image} alt={event.alt} class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

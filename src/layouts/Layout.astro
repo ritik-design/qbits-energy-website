@@ -1,0 +1,92 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  canonical?: string;
+}
+
+const {
+  title = 'Qbits Energy | Solar Inverter Manufacturer in India',
+  description = 'Qbits Energy manufactures high-efficiency solar inverters for residential, commercial & industrial applications. On-grid & hybrid inverters with advanced MPPT technology.',
+  ogImage = '/og-image.jpg',
+  canonical = Astro.url.pathname,
+} = Astro.props;
+
+const fullTitle = title.includes('Qbits') ? title : `${title} | Qbits Energy`;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={`https://qbitsenergy.com${canonical}`} />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={`https://qbitsenergy.com${canonical}`} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={`https://qbitsenergy.com${ogImage}`} />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content={`https://qbitsenergy.com${canonical}`} />
+  <meta name="twitter:title" content={fullTitle} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={`https://qbitsenergy.com${ogImage}`} />
+
+  <!-- Structured Data - Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Qbits Energy",
+    "url": "https://qbitsenergy.com",
+    "logo": "https://qbitsenergy.com/logo.png",
+    "description": "Leading solar inverter manufacturer in India. High-efficiency on-grid and hybrid inverters for residential, commercial and industrial solar installations.",
+    "sameAs": [
+      "https://www.linkedin.com/company/qbits-energy"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-xxx-xxx-xxxx",
+      "contactType": "sales",
+      "areaServed": "IN",
+      "availableLanguage": ["English", "Hindi"]
+    }
+  }
+  </script>
+
+  <!-- Structured Data - Website -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Qbits Energy",
+    "url": "https://qbitsenergy.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://qbitsenergy.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <slot />
+</body>
+</html>

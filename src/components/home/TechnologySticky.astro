@@ -1,0 +1,51 @@
+---
+const steps = [
+  { num: '01', title: 'AI Powered MPPT', desc: 'Advanced algorithms track maximum power point in real-time, adapting to changing light conditions instantly.' },
+  { num: '02', title: 'Multiple Protection Layers', desc: 'Comprehensive protection against overvoltage, overcurrent, overheating, and ground faults.' },
+  { num: '03', title: 'Smart Monitoring', desc: 'Real-time performance tracking via mobile app with AI-powered fault detection and alerts.' },
+  { num: '04', title: 'Grid Intelligence', desc: 'Advanced grid support functions including reactive power control and anti-islanding protection.' },
+];
+---
+
+<section class="bg-slate-950 py-20 sm:py-28 lg:py-36" aria-labelledby="tech-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <span class="section-label text-brand-400">
+        <span class="w-8 h-px bg-brand-500"></span>
+        Technology
+      </span>
+      <h2 id="tech-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mt-6 leading-tight">
+        Why <span class="text-gradient">Qbits</span> Technology
+      </h2>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+      <!-- Left: Steps -->
+      <div class="space-y-10">
+        {steps.map((step) => (
+          <div class="group relative pl-16 sm:pl-20">
+            <span class="absolute left-0 top-0 text-4xl sm:text-5xl font-bold text-slate-800 group-hover:text-brand-500/20 transition-colors duration-500">
+              {step.num}
+            </span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white mb-2">{step.title}</h3>
+            <p class="text-slate-400 leading-relaxed text-sm sm:text-base">{step.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      <!-- Right: Product render placeholder -->
+      <div class="relative">
+        <div class="aspect-square rounded-3xl bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-800 flex items-center justify-center overflow-hidden">
+          <img
+            src="/product images/product image 2.png"
+            alt="Qbits inverter technology"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
+        <!-- Glow -->
+        <div class="absolute -inset-4 bg-brand-500/5 rounded-[2rem] blur-3xl -z-10"></div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export function getStaticPaths() {
+  const posts = [
+    { slug: 'understanding-mppt-technology', title: 'Understanding MPPT Technology in Modern Solar Inverters', category: 'Technology', date: 'May 28, 2026', readTime: '6 min' },
+    { slug: 'inverter-overheating', title: 'Inverter Overheating: Causes and Prevention', category: 'Maintenance', date: 'May 15, 2026', readTime: '5 min' },
+    { slug: 'on-grid-vs-hybrid', title: 'Choosing Between On-Grid and Hybrid Inverters', category: 'Buying Guide', date: 'May 02, 2026', readTime: '8 min' },
+    { slug: 'sizing-solar-inverter', title: 'How to Size Your Solar Inverter Correctly', category: 'Guide', date: 'April 20, 2026', readTime: '7 min' },
+    { slug: 'ai-solar-monitoring', title: 'The Future of Solar: AI-Powered Monitoring', category: 'Technology', date: 'April 10, 2026', readTime: '5 min' },
+    { slug: 'inverter-warranties', title: 'Understanding Solar Inverter Warranties', category: 'Guide', date: 'March 28, 2026', readTime: '6 min' },
+  ];
+  return posts.map(p => ({ params: { slug: p.slug }, props: p }));
+}
+
+const { title, category, date, readTime } = Astro.props;
+---
+
+<Layout
+  title={`${title} | Qbits Energy Blog`}
+  description={title}
+  canonical={`/blog/${Astro.params.slug}/`}
+>
+  <Header />
+
+  <main class="pt-[104px] lg:pt-[120px]">
+    <article class="py-16 lg:py-20">
+      <div class="container-main max-w-3xl">
+        <div class="flex items-center gap-3 text-sm text-slate-500 mb-4">
+          <span class="text-brand-600 font-medium">{category}</span>
+          <span>•</span>
+          <span>{date}</span>
+          <span>•</span>
+          <span>{readTime} read</span>
+        </div>
+
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-8">{title}</h1>
+
+        <div class="prose prose-lg max-w-none text-slate-600">
+          <slot>
+            <p>Solar inverter technology continues to evolve, bringing better efficiency, smarter monitoring, and longer lifespans to renewable energy systems. In this article, we explore the key aspects of modern solar inverters and how they can benefit your installation.</p>
+            <h2>Key Benefits of Modern Solar Inverters</h2>
+            <p>Modern solar inverters offer numerous advantages over older models, including higher conversion efficiency, advanced monitoring capabilities, and improved grid support features. These improvements translate to better performance and higher returns on your solar investment.</p>
+            <h2>What to Look for When Choosing an Inverter</h2>
+            <p>When selecting a solar inverter for your installation, consider factors such as efficiency ratings, warranty terms, monitoring capabilities, and compatibility with your specific solar panel configuration.</p>
+            <h2>Conclusion</h2>
+            <p>Investing in a quality solar inverter is essential for maximizing the performance and longevity of your solar energy system. With the right inverter, you can enjoy reliable, efficient power generation for decades.</p>
+          </slot>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-slate-200">
+          <a href="/blog/" class="inline-flex items-center gap-2 text-brand-600 hover:text-brand-700 font-medium">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+            Back to Blog
+          </a>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

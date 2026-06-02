@@ -1,0 +1,92 @@
+---
+const techSpecs = [
+  { label: 'Max Efficiency', value: '98.8%', desc: 'Industry-leading conversion' },
+  { label: 'MPPT Channels', value: '10', desc: 'Multi-point optimization' },
+  { label: 'Protection', value: 'IP66', desc: 'Dust & water resistant' },
+  { label: 'Warranty', value: '12 Yrs', desc: 'Full replacement coverage' },
+  { label: 'Start Voltage', value: '50V', desc: 'Low light performance' },
+  { label: 'Communication', value: '4G/WiFi', desc: 'Real-time monitoring' },
+];
+---
+
+<section class="section-padding bg-slate-950 relative overflow-hidden" aria-labelledby="tech-heading">
+  <div class="absolute inset-0 grid-lines opacity-20" aria-hidden="true"></div>
+
+  <div class="container-main relative">
+    <div class="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+      <!-- Left: Content -->
+      <div>
+        <span class="section-label text-brand-400">
+          <span class="w-8 h-px bg-brand-500"></span>
+          Technology
+        </span>
+        <h2 id="tech-heading" class="text-4xl sm:text-5xl font-bold text-white mt-6 leading-tight">
+          Smart Solar <span class="text-gradient">Features</span> That Set Us Apart
+        </h2>
+        <p class="mt-6 text-lg text-slate-400 leading-relaxed">
+          Qbits combines German-grade electronic components, advanced thermal engineering, and AI-based smart monitoring to ensure unmatched safety and long-term value.
+        </p>
+
+        <ul class="mt-10 space-y-4">
+          <li class="flex items-center gap-4 text-slate-300">
+            <div class="w-6 h-6 rounded-full bg-brand-500/20 flex items-center justify-center shrink-0">
+              <svg class="w-3.5 h-3.5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            Designed for 20 Year Life
+          </li>
+          <li class="flex items-center gap-4 text-slate-300">
+            <div class="w-6 h-6 rounded-full bg-brand-500/20 flex items-center justify-center shrink-0">
+              <svg class="w-3.5 h-3.5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            Store Data in India
+          </li>
+          <li class="flex items-center gap-4 text-slate-300">
+            <div class="w-6 h-6 rounded-full bg-brand-500/20 flex items-center justify-center shrink-0">
+              <svg class="w-3.5 h-3.5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            Advanced Heat Sink Cooling System
+          </li>
+          <li class="flex items-center gap-4 text-slate-300">
+            <div class="w-6 h-6 rounded-full bg-brand-500/20 flex items-center justify-center shrink-0">
+              <svg class="w-3.5 h-3.5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            German IGBT Technology
+          </li>
+          <li class="flex items-center gap-4 text-slate-300">
+            <div class="w-6 h-6 rounded-full bg-brand-500/20 flex items-center justify-center shrink-0">
+              <svg class="w-3.5 h-3.5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            Anti Islanding Protection
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right: Image placeholder + Specs grid -->
+      <div>
+        <!-- Image placeholder -->
+        <div class="aspect-[4/3] rounded-3xl bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-800 relative overflow-hidden mb-8">
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center">
+              <div class="w-20 h-20 mx-auto rounded-2xl bg-slate-800 border border-slate-700 flex items-center justify-center mb-3">
+                <svg class="w-10 h-10 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <p class="text-sm text-slate-500">Technology Image</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Specs grid -->
+        <div class="grid grid-cols-3 gap-3">
+          {techSpecs.map(spec => (
+            <div class="bg-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-800 p-5 text-center hover:border-brand-500/20 transition-colors">
+              <p class="text-2xl font-bold text-white">{spec.value}</p>
+              <p class="text-xs font-medium text-slate-400 mt-1">{spec.label}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

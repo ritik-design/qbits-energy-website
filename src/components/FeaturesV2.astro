@@ -1,0 +1,57 @@
+---
+const features = [
+  { title: '12 Year Warranty', desc: 'Industry-leading coverage with pan-India service support.', icon: 'shield' },
+  { title: 'IP66 Protection', desc: 'Superior weather protection for harsh Indian conditions.', icon: 'droplet' },
+  { title: 'AI Monitoring', desc: 'Real-time AI-powered alerts via WhatsApp and mobile app.', icon: 'cpu' },
+  { title: 'Wi-Fi, 4G & BT', desc: 'Multiple connectivity options for seamless monitoring.', icon: 'wifi' },
+  { title: 'Digital Warranty', desc: 'Hassle-free digital warranty registration and claims.', icon: 'file-check' },
+  { title: 'Low Start Voltage', desc: 'Starts generating power at just 50V DC input.', icon: 'zap' },
+  { title: 'DC & AC SPD', desc: 'Built-in surge protection for complete safety.', icon: 'battery' },
+  { title: '98% Efficiency', desc: 'Maximum power conversion for higher energy yield.', icon: 'gauge' },
+];
+
+const iconMap: Record<string, string> = {
+  shield: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
+  droplet: 'M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z',
+  cpu: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
+  wifi: 'M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0',
+  'file-check': 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z',
+  zap: 'M13 10V3L4 14h7v7l9-11h-7z',
+  battery: 'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z',
+  gauge: 'M13 10V3L4 14h7v7l9-11h-7z',
+};
+---
+
+<section class="section-padding bg-white relative overflow-hidden" aria-labelledby="features-heading">
+  <!-- Grid lines background -->
+  <div class="absolute inset-0 grid-lines opacity-30" aria-hidden="true"></div>
+
+  <div class="container-main relative">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <span class="section-label">
+        <span class="w-8 h-px bg-brand-500"></span>
+        Why Qbits
+      </span>
+      <h2 id="features-heading" class="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mt-6 leading-tight">
+        Built for <span class="text-gradient">Indian Conditions</span>
+      </h2>
+      <p class="mt-4 text-lg text-slate-500">
+        Every Qbits inverter is engineered with deep understanding of India's diverse climate and energy needs.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-slate-100 rounded-3xl overflow-hidden border border-slate-100">
+      {features.map((feature, i) => (
+        <div class="group bg-white p-8 lg:p-10 hover:bg-brand-50/30 transition-colors duration-500">
+          <div class="w-14 h-14 rounded-2xl bg-brand-50 flex items-center justify-center text-brand-600 mb-6 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={iconMap[feature.icon]}/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">{feature.title}</h3>
+          <p class="text-sm text-slate-500 leading-relaxed">{feature.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

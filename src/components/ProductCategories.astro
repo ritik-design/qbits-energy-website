@@ -1,0 +1,116 @@
+---
+const categories = [
+  {
+    title: 'On-Grid Inverters',
+    description: 'High-efficiency grid-tied inverters for residential, commercial and industrial installations. Maximum power conversion with advanced MPPT.',
+    icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>`,
+    image: '/products/on-grid.jpg',
+    specs: ['1kW — 125kW Range', 'Up to 98.8% Efficiency', 'Multi-MPPT Technology'],
+    cta: { label: 'Explore On-Grid', href: '/on-grid-inverter/' },
+    badge: 'Most Popular',
+    badgeColor: 'bg-brand-600',
+  },
+  {
+    title: 'Hybrid Inverters',
+    description: 'Intelligent battery-ready inverters with seamless grid and off-grid switching. Perfect for energy independence and backup power.',
+    icon: `<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>`,
+    image: '/products/hybrid.jpg',
+    specs: ['3kW — 10kW Range', 'Battery Compatible', 'Smart Energy Management'],
+    cta: { label: 'Explore Hybrid', href: '/hybrid-inverter/' },
+    badge: 'New Launch',
+    badgeColor: 'bg-accent',
+  },
+];
+---
+
+<section class="section-padding bg-slate-50" aria-labelledby="products-heading">
+  <div class="container-main">
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <span class="section-label reveal">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+        </svg>
+        Product Range
+      </span>
+      <h2 id="products-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-6 reveal reveal-delay-1">
+        Engineered for Every
+        <span class="text-gradient">Solar Application</span>
+      </h2>
+      <p class="mt-4 text-lg text-slate-500 reveal reveal-delay-2">
+        From rooftop homes to large industrial installations, our inverter portfolio delivers unmatched performance and reliability.
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-8">
+      {categories.map((cat, i) => (
+        <div class={`group relative bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:shadow-brand-900/10 transition-all duration-500 reveal reveal-delay-${i + 1}`}>
+          <!-- Badge -->
+          <div class="absolute top-4 right-4 z-10">
+            <span class={`inline-flex items-center gap-1 rounded-full ${cat.badgeColor} px-3 py-1 text-xs font-bold text-white shadow-lg`}>
+              {cat.badge}
+            </span>
+          </div>
+
+          <!-- Image area -->
+          <div class="relative h-56 bg-gradient-to-br from-slate-100 to-slate-200 overflow-hidden">
+            <div class="absolute inset-0 flex items-center justify-center">
+              <!-- Product illustration -->
+              <div class="relative">
+                <div class="w-48 h-32 rounded-xl bg-gradient-to-br from-slate-300 to-slate-400 shadow-2xl flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
+                  <div class="w-40 h-24 rounded-lg bg-white shadow-inner flex items-center justify-center">
+                    <div class="text-center">
+                      <div class="w-12 h-12 mx-auto rounded-lg bg-brand-100 flex items-center justify-center text-brand-600 mb-2">
+                        <Fragment set:html={cat.icon} />
+                      </div>
+                      <p class="text-xs font-bold text-slate-700">{cat.title}</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Decorative elements -->
+                <div class="absolute -top-4 -right-4 w-20 h-20 rounded-full bg-brand-200/30 blur-xl"></div>
+                <div class="absolute -bottom-4 -left-4 w-16 h-16 rounded-full bg-accent/20 blur-xl"></div>
+              </div>
+            </div>
+            <!-- Overlay gradient on hover -->
+            <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-60"></div>
+          </div>
+
+          <!-- Content -->
+          <div class="p-6 lg:p-8">
+            <h3 class="text-xl lg:text-2xl font-bold text-slate-900 mb-3">{cat.title}</h3>
+            <p class="text-slate-500 text-sm leading-relaxed mb-6">{cat.description}</p>
+
+            <!-- Specs -->
+            <ul class="space-y-2.5 mb-6">
+              {cat.specs.map(spec => (
+                <li class="flex items-center gap-2.5 text-sm text-slate-600">
+                  <svg class="w-4 h-4 text-brand-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                  </svg>
+                  {spec}
+                </li>
+              ))}
+            </ul>
+
+            <a href={cat.cta.href} class="inline-flex items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors group/link">
+              {cat.cta.label}
+              <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- View all CTA -->
+    <div class="text-center mt-12 reveal">
+      <a href="/our-products/" class="btn-primary">
+        View Complete Product Catalogue
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>

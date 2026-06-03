@@ -43,7 +43,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['12 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image-2.png',
+    image: '/product-images/product-image-2.webp',
   },
   {
     id: 'QB-4.6-6KTLS',
@@ -65,7 +65,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image-4.png',
+    image: '/product-images/product-image-4.webp',
   },
   {
     id: 'QB-4-6KTLD',
@@ -87,7 +87,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image-2.png',
+    image: '/product-images/product-image-2.webp',
   },
   // On-Grid Three Phase TLC
   {
@@ -110,7 +110,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['12 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image-3.png',
+    image: '/product-images/product-image-3.webp',
   },
   {
     id: 'QB-20-30KTLC',
@@ -132,7 +132,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image.png',
+    image: '/product-images/product-image.webp',
   },
   {
     id: 'QB-30-40KTLC-Pro',
@@ -154,7 +154,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image-3.png',
+    image: '/product-images/product-image-3.webp',
   },
   {
     id: 'QB-40-50KTLC-Plus',
@@ -176,7 +176,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['12 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image.png',
+    image: '/product-images/product-image.webp',
   },
   {
     id: 'QB-50-60KTLC',
@@ -198,7 +198,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image-3.png',
+    image: '/product-images/product-image-3.webp',
   },
   {
     id: 'QB-70-110KTLC-Pro',
@@ -220,7 +220,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image.png',
+    image: '/product-images/product-image.webp',
   },
   {
     id: 'QB-80-125KTLC',
@@ -242,7 +242,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['12 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image-3.png',
+    image: '/product-images/product-image-3.webp',
   },
   {
     id: 'QB-225-320K-EHV',
@@ -264,7 +264,7 @@ export const products: Product[] = [
     warranty: '12 Years',
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-image.png',
+    image: '/product-images/product-image.webp',
   },
   // Hybrid
   {
@@ -287,7 +287,7 @@ export const products: Product[] = [
     warranty: '10 Years',
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-5.png',
+    image: '/product-images/product-5.webp',
   },
   {
     id: 'QBH-7-8KS48P',
@@ -309,7 +309,7 @@ export const products: Product[] = [
     warranty: '10 Years',
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-5.png',
+    image: '/product-images/product-5.webp',
   },
   {
     id: 'QBH-5-12KS48P3',
@@ -331,7 +331,7 @@ export const products: Product[] = [
     warranty: '10 Years',
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
-    image: '/product-images/product-5.png',
+    image: '/product-images/product-5.webp',
   },
 ];
 

@@ -1,6 +1,10 @@
 ---
 const currentPath = Astro.url.pathname;
 
+function isExternal(href: string): boolean {
+  return href.startsWith('http://') || href.startsWith('https://');
+}
+
 const navLinks = [
   { label: 'Products', href: '/our-products/' },
   { label: 'On-Grid', href: '/on-grid-inverter/' },
@@ -12,7 +16,11 @@ const navLinks = [
   { label: 'Why Qbits', href: '/why-qbits/' },
   { label: 'About', href: '/about-us/' },
   { label: 'Blog', href: '/blog/' },
-  { label: 'Contact', href: '/contact-us/' },
+  { label: 'Become a Partner', href: 'https://erp.heavengreenenergy.com/survey/0854d366-a9b3-4d03-8ab9-98a3d8ef47e2/2a85c6e0-a10b-4852-ae0b-fc344322f1aa' },
+  { label: 'Help Center', href: '#', children: [
+    { label: 'Download Warranty', href: 'https://support.qbitsenergy.com/api/request_warranty' },
+    { label: 'Support', href: 'https://support.qbitsenergy.com/helpdesk/qbits-service-620' },
+  ]},
 ];
 ---
 
@@ -50,6 +58,8 @@ const navLinks = [
                   {link.children.map((child) => (
                     <a
                       href={child.href}
+                      target={isExternal(child.href) ? '_blank' : undefined}
+                      rel={isExternal(child.href) ? 'noopener noreferrer' : undefined}
                       class="block px-5 py-3 text-sm text-slate-600 hover:text-brand-600 hover:bg-brand-50/50 transition-colors"
                     >
                       {child.label}
@@ -61,6 +71,8 @@ const navLinks = [
           ) : (
             <a
               href={link.href}
+              target={isExternal(link.href) ? '_blank' : undefined}
+              rel={isExternal(link.href) ? 'noopener noreferrer' : undefined}
               class={`px-4 py-2.5 text-sm font-medium rounded-full transition-all duration-300 nav-link ${
                 currentPath === link.href
                   ? 'text-brand-400 bg-white/10'
@@ -105,13 +117,13 @@ const navLinks = [
           <div class="space-y-1">
             <span class="block px-4 py-3 text-sm font-semibold text-slate-900">{link.label}</span>
             {link.children.map((child) => (
-              <a href={child.href} class="block px-4 py-3 pl-8 text-sm text-slate-500 hover:text-brand-600 hover:bg-brand-50/50 rounded-xl transition-colors">
+              <a href={child.href} target={isExternal(child.href) ? '_blank' : undefined} rel={isExternal(child.href) ? 'noopener noreferrer' : undefined} class="block px-4 py-3 pl-8 text-sm text-slate-500 hover:text-brand-600 hover:bg-brand-50/50 rounded-xl transition-colors">
                 {child.label}
               </a>
             ))}
           </div>
         ) : (
-          <a href={link.href} class={`block px-4 py-3 text-sm font-medium rounded-xl transition-colors ${
+          <a href={link.href} target={isExternal(link.href) ? '_blank' : undefined} rel={isExternal(link.href) ? 'noopener noreferrer' : undefined} class={`block px-4 py-3 text-sm font-medium rounded-xl transition-colors ${
             currentPath === link.href ? 'text-brand-600 bg-brand-50' : 'text-slate-500 hover:text-brand-600 hover:bg-brand-50/50'
           }`}>
             {link.label}

@@ -3,15 +3,81 @@ import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
-import { products } from '../../data/products';
 
-const categories = ['All', 'On-Grid', 'Hybrid'];
+const onGridDocs = [
+  {
+    name: '1.5/2.0/2.7/3.0/3.3/3.6/4.0 KTS',
+    desc: 'Single Phase & Single MPPT',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf',
+  },
+  {
+    name: 'QB-4/5/6 KTLD',
+    desc: 'Single Phase & Dual MPPT',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf',
+  },
+  {
+    name: 'QB-4.6/5/6 KTLS',
+    desc: 'Single Phase & Single MPPT',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_4.6-6.0-kw_1MPPT_1Phs.pdf',
+  },
+  {
+    name: 'QB-6/8/10/12/15/17 KTLC',
+    desc: 'Three Phase & Dual MPPT',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf',
+  },
+  {
+    name: 'QB-20/23/25/28/30 KTLC',
+    desc: 'Three Phase & Dual MPPT',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_20.0-30.0-kw_3Phs.pdf',
+  },
+  {
+    name: 'QB-30/33/36/40 KTLC-Pro',
+    desc: 'Three Phase & Multi MPPT',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_30.0-40.0-kw_3Phs.pdf',
+  },
+  {
+    name: 'QB-40/45/50 KTLC-Plus',
+    desc: 'Three Phase & Multi MPPT',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_40.0-50.0-kw_3Phs.pdf',
+  },
+  {
+    name: 'QB-50/60 KTLC',
+    desc: 'Three Phase & Multi MPPT',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_50.0-60.0-kw_3Phs.pdf',
+  },
+  {
+    name: 'QB-70/75/80/90/100/110 KTLC-Pro',
+    desc: 'Three Phase & Multi MPPT',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_70.0-100.0-kw_3Phs.pdf',
+  },
+  {
+    name: 'QB-80/90/100/110/125 KTLC',
+    desc: 'Three Phase & Multi MPPT',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_80.0-125.0-kw_3Phs.pdf',
+  },
+  {
+    name: 'QB-225/320 K-EHV',
+    desc: 'Three Phase & Multi MPPT (Utility-Scale)',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/QB_Data-Sheet_225.0-320.0-kw_3Phs_Utility-Scale.pdf',
+  },
+];
 
-const docTypes = [
-  { name: 'Datasheet', desc: 'Technical specifications and performance data' },
-  { name: 'User Manual', desc: 'Installation and operation instructions' },
-  { name: 'Warranty', desc: 'Warranty terms and claim procedures' },
-  { name: 'Certificates', desc: 'BIS, IEC, and ISO certifications' },
+const hybridDocs = [
+  {
+    name: 'QBH-3KS/3K6S/4KS/4K6S/5KS/6KS48P',
+    desc: 'Single Phase',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/Qbits-Hybride-Inverter-Catalogue-1.pdf',
+  },
+  {
+    name: 'QBH-7KS/7K6S/8KS48P',
+    desc: 'Single Phase',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/Qbits-Hybride-Inverter-Catalogue-2.pdf',
+  },
+  {
+    name: 'QBH-5/6/7/8/10/12KS48P3',
+    desc: 'Three Phase',
+    link: 'https://qbitsenergy.com/wp-content/uploads/2025/12/Qbits-Hybride-Inverter-Catalogue-3.pdf',
+  },
 ];
 ---
 
@@ -44,8 +110,13 @@ const docTypes = [
           </h2>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
-          {docTypes.map(d => (
-            <div class="bg-slate-50 rounded-2xl p-8 text-center doc-card">
+          {[
+            { name: 'Datasheet', desc: 'Technical specifications and performance data' },
+            { name: 'User Manual', desc: 'Installation and operation instructions' },
+            { name: 'Warranty', desc: 'Warranty terms and claim procedures' },
+            { name: 'Certificates', desc: 'BIS, IEC, and ISO certifications' },
+          ].map(d => (
+            <div class="bg-slate-50 rounded-2xl p-8 text-center">
               <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5">
                 <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
               </div>
@@ -57,63 +128,87 @@ const docTypes = [
       </div>
     </section>
 
-    <!-- Downloads Table -->
-    <section class="section-padding bg-slate-50" aria-labelledby="downloads-heading">
+    <!-- On-Grid Datasheets -->
+    <section class="section-padding bg-slate-50" aria-labelledby="ongrid-downloads-heading">
       <div class="container-main">
         <div class="text-center max-w-2xl mx-auto mb-16">
           <span class="section-label justify-center">
             <span class="w-8 h-px bg-brand-500"></span>
-            Downloads
+            On-Grid Inverters
             <span class="w-8 h-px bg-brand-500"></span>
           </span>
-          <h2 id="downloads-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
-            Product Documents
+          <h2 id="ongrid-downloads-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
+            Qbits On-Grid Datasheets
           </h2>
         </div>
 
         <div class="max-w-5xl mx-auto">
-          <div class="flex flex-wrap gap-3 mb-8 justify-center">
-            {categories.map((cat, i) => (
-              <button class={`category-btn px-6 py-3 rounded-full text-sm font-semibold transition-all duration-300 ${i === 0 ? 'bg-brand-500 text-white shadow-lg shadow-brand-500/20' : 'bg-white text-slate-600 border border-slate-200 hover:border-brand-300'}`} data-category={cat.toLowerCase().replace(' ', '-')}>
-                {cat}
-              </button>
-            ))}
-          </div>
-
           <div class="bg-white rounded-2xl shadow-xl shadow-slate-900/5 overflow-hidden">
             <div class="overflow-x-auto">
               <table class="w-full text-sm">
                 <thead class="bg-slate-950 text-white">
                   <tr>
-                    <th class="text-left px-6 py-4 font-semibold">SKU</th>
                     <th class="text-left px-6 py-4 font-semibold">Product Name</th>
-                    <th class="text-left px-6 py-4 font-semibold">Category</th>
-                    <th class="text-left px-6 py-4 font-semibold">Power</th>
-                    <th class="text-left px-6 py-4 font-semibold">Documents</th>
+                    <th class="text-left px-6 py-4 font-semibold">Description</th>
+                    <th class="text-left px-6 py-4 font-semibold">Download</th>
                   </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-100">
-                  {products.map((product) => (
-                    <tr class="hover:bg-brand-50/50 transition-colors product-row" data-category={product.category}>
-                      <td class="px-6 py-5 font-mono text-xs text-slate-500">{product.id}</td>
-                      <td class="px-6 py-5 font-medium text-slate-900">{product.name}</td>
+                  {onGridDocs.map((doc) => (
+                    <tr class="hover:bg-brand-50/50 transition-colors">
+                      <td class="px-6 py-5 font-medium text-slate-900">{doc.name}</td>
+                      <td class="px-6 py-5 text-slate-500">{doc.desc}</td>
                       <td class="px-6 py-5">
-                        <span class={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${product.category === 'on-grid' ? 'bg-brand-50 text-brand-700' : 'bg-accent/10 text-accent-dark'}`}>
-                          {product.category === 'on-grid' ? 'On-Grid' : 'Hybrid'}
-                        </span>
+                        <a href={doc.link} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-brand-600 hover:text-brand-700 font-medium text-xs">
+                          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                          Datasheet
+                        </a>
                       </td>
-                      <td class="px-6 py-5 text-slate-500">{product.powerMax}kW</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hybrid Datasheets -->
+    <section class="section-padding bg-white" aria-labelledby="hybrid-downloads-heading">
+      <div class="container-main">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="section-label justify-center">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Hybrid Inverters
+            <span class="w-8 h-px bg-brand-500"></span>
+          </span>
+          <h2 id="hybrid-downloads-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
+            Qbits Hybrid Datasheets
+          </h2>
+        </div>
+
+        <div class="max-w-5xl mx-auto">
+          <div class="bg-white rounded-2xl shadow-xl shadow-slate-900/5 overflow-hidden border border-slate-200">
+            <div class="overflow-x-auto">
+              <table class="w-full text-sm">
+                <thead class="bg-slate-950 text-white">
+                  <tr>
+                    <th class="text-left px-6 py-4 font-semibold">Product Name</th>
+                    <th class="text-left px-6 py-4 font-semibold">Description</th>
+                    <th class="text-left px-6 py-4 font-semibold">Download</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-100">
+                  {hybridDocs.map((doc) => (
+                    <tr class="hover:bg-accent/5 transition-colors">
+                      <td class="px-6 py-5 font-medium text-slate-900">{doc.name}</td>
+                      <td class="px-6 py-5 text-slate-500">{doc.desc}</td>
                       <td class="px-6 py-5">
-                        <div class="flex items-center gap-3">
-                          <a href={`/downloads/datasheet-${product.id}.pdf`} class="inline-flex items-center gap-1.5 text-brand-600 hover:text-brand-700 font-medium text-xs">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                            Datasheet
-                          </a>
-                          <a href={`/downloads/manual-${product.id}.pdf`} class="inline-flex items-center gap-1.5 text-brand-600 hover:text-brand-700 font-medium text-xs">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-                            Manual
-                          </a>
-                        </div>
+                        <a href={doc.link} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-accent hover:text-accent-dark font-medium text-xs">
+                          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                          Datasheet
+                        </a>
                       </td>
                     </tr>
                   ))}
@@ -141,26 +236,3 @@ const docTypes = [
 
   <Footer />
 </Layout>
-
-<script>
-  const btns = document.querySelectorAll('.category-btn');
-  const rows = document.querySelectorAll('.product-row');
-
-  btns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const cat = btn.getAttribute('data-category');
-      btns.forEach(b => {
-        b.classList.remove('bg-brand-500', 'text-white', 'shadow-lg');
-        b.classList.add('bg-white', 'text-slate-600', 'border', 'border-slate-200');
-      });
-      btn.classList.add('bg-brand-500', 'text-white', 'shadow-lg');
-      btn.classList.remove('bg-white', 'text-slate-600', 'border', 'border-slate-200');
-
-      rows.forEach(row => {
-        const rowCat = row.getAttribute('data-category');
-        row.classList.toggle('hidden', cat !== 'all' && rowCat !== cat);
-      });
-    });
-  });
-</script>
-

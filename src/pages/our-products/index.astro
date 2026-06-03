@@ -1,20 +1,29 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import Header from '../../components/Header.astro';
+import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 import { products } from '../../data/products';
 
 const onGrid = products.filter(p => p.category === 'on-grid');
 const hybrid = products.filter(p => p.category === 'hybrid');
+
+const onGridSingle = onGrid.filter(p => p.phase === 'single');
+const onGridThree = onGrid.filter(p => p.phase === 'three');
+
+const categories = [
+  { id: 'all', label: 'All Products' },
+  { id: 'on-grid', label: 'On-Grid' },
+  { id: 'hybrid', label: 'Hybrid' },
+];
 ---
 
 <Layout
   title="Our Products | Qbits Energy"
-  description="Explore Qbits range of on-grid and hybrid solar inverters. From 1kW residential to 100kW commercial solutions. BIS certified with 12-year warranty."
+  description="Explore Qbits range of on-grid and hybrid solar inverters. From 1kW residential to 320kW commercial solutions. BIS certified with 12-year warranty."
   canonical="/our-products/"
 >
-  <Header />
+  <HeaderV2 />
 
   <main>
     <PageHeader
@@ -24,36 +33,100 @@ const hybrid = products.filter(p => p.category === 'hybrid');
       description="From residential rooftops to industrial installations, Qbits delivers reliable, efficient solar inverters for every application."
     />
 
-    <!-- On-Grid Section -->
-    <section class="section-padding bg-white" aria-labelledby="ongrid-heading">
+    <!-- Filter -->
+    <section class="pt-12 pb-4 bg-white">
       <div class="container-main">
-        <h2 id="ongrid-heading" class="text-2xl sm:text-3xl font-bold text-slate-900 mb-8 flex items-center gap-3">
-          <span class="w-10 h-10 rounded-lg bg-brand-50 flex items-center justify-center text-brand-600">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        <div class="flex flex-wrap gap-3 justify-center" id="product-filters">
+          {categories.map((cat, i) => (
+            <button
+              class={`filter-btn px-6 py-3 rounded-full text-sm font-semibold transition-all duration-300 ${i === 0 ? 'bg-brand-500 text-white shadow-lg shadow-brand-500/20' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'}`}
+              data-filter={cat.id}
+            >
+              {cat.label}
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- On-Grid Section -->
+    <section class="section-padding bg-white product-section" data-category="on-grid" aria-labelledby="ongrid-heading">
+      <div class="container-main">
+        <div class="flex items-center gap-4 mb-4">
+          <span class="section-label">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Grid-Tied Solutions
           </span>
+        </div>
+        <h2 id="ongrid-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
           On-Grid Inverters
         </h2>
+        <p class="text-slate-500 max-w-2xl mb-12">
+          High-efficiency grid-tied inverters that convert DC solar power to AC for direct grid export or self-consumption. Available in single-phase and three-phase configurations.
+        </p>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {onGrid.map(product => (
-            <a href={`/our-products/${product.id}/`} class="group card hover:border-brand-200 hover:shadow-lg transition-all">
-              <div class="flex items-center justify-between mb-4">
-                <span class="text-xs font-semibold uppercase tracking-wider text-brand-600 bg-brand-50 px-2.5 py-1 rounded-full">{product.phase === 'single' ? 'Single Phase' : 'Three Phase'}</span>
-                <span class="text-xs text-slate-400">{product.id}</span>
+        <!-- Single Phase -->
+        <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+          <span class="w-8 h-8 rounded-lg bg-brand-100 flex items-center justify-center text-brand-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </span>
+          Single Phase
+        </h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+          {onGridSingle.map(product => (
+            <a href={`/our-products/${product.id}/`} class="group bg-white rounded-2xl border border-slate-200 p-6 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 product-card">
+              <div class="flex items-center justify-between mb-5">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1.5 rounded-full">Single Phase</span>
+                <span class="text-xs text-slate-400 font-mono">{product.id}</span>
               </div>
-              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-2">{product.name}</h3>
-              <div class="grid grid-cols-3 gap-2 mt-4 pt-4 border-t border-slate-100">
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">{product.name}</h3>
+              <p class="text-sm text-slate-500 mb-5">{product.series} Series • {product.voltageRange}</p>
+              <div class="grid grid-cols-3 gap-3 pt-5 border-t border-slate-100">
                 <div class="text-center">
-                  <p class="text-lg font-bold text-slate-900">{product.efficiency}</p>
-                  <p class="text-[10px] text-slate-500 uppercase">Efficiency</p>
+                  <p class="text-xl font-bold text-slate-900">{product.efficiency}</p>
+                  <p class="text-[10px] text-slate-400 uppercase tracking-wider">Efficiency</p>
                 </div>
                 <div class="text-center">
-                  <p class="text-lg font-bold text-slate-900">{product.mppt}</p>
-                  <p class="text-[10px] text-slate-500 uppercase">MPPT</p>
+                  <p class="text-xl font-bold text-slate-900">{product.mppt}</p>
+                  <p class="text-[10px] text-slate-400 uppercase tracking-wider">MPPT</p>
                 </div>
                 <div class="text-center">
-                  <p class="text-lg font-bold text-slate-900">{product.powerMax}kW</p>
-                  <p class="text-[10px] text-slate-500 uppercase">Power</p>
+                  <p class="text-xl font-bold text-slate-900">{product.powerMax}kW</p>
+                  <p class="text-[10px] text-slate-400 uppercase tracking-wider">Max Power</p>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+
+        <!-- Three Phase -->
+        <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+          <span class="w-8 h-8 rounded-lg bg-brand-100 flex items-center justify-center text-brand-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </span>
+          Three Phase
+        </h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {onGridThree.map(product => (
+            <a href={`/our-products/${product.id}/`} class="group bg-white rounded-2xl border border-slate-200 p-6 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 product-card">
+              <div class="flex items-center justify-between mb-5">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1.5 rounded-full">Three Phase</span>
+                <span class="text-xs text-slate-400 font-mono">{product.id}</span>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">{product.name}</h3>
+              <p class="text-sm text-slate-500 mb-5">{product.series} Series • {product.voltageRange}</p>
+              <div class="grid grid-cols-3 gap-3 pt-5 border-t border-slate-100">
+                <div class="text-center">
+                  <p class="text-xl font-bold text-slate-900">{product.efficiency}</p>
+                  <p class="text-[10px] text-slate-400 uppercase tracking-wider">Efficiency</p>
+                </div>
+                <div class="text-center">
+                  <p class="text-xl font-bold text-slate-900">{product.mppt}</p>
+                  <p class="text-[10px] text-slate-400 uppercase tracking-wider">MPPT</p>
+                </div>
+                <div class="text-center">
+                  <p class="text-xl font-bold text-slate-900">{product.powerMax}kW</p>
+                  <p class="text-[10px] text-slate-400 uppercase tracking-wider">Max Power</p>
                 </div>
               </div>
             </a>
@@ -63,35 +136,42 @@ const hybrid = products.filter(p => p.category === 'hybrid');
     </section>
 
     <!-- Hybrid Section -->
-    <section class="section-padding bg-slate-50" aria-labelledby="hybrid-heading">
+    <section class="section-padding bg-slate-50 product-section" data-category="hybrid" aria-labelledby="hybrid-heading">
       <div class="container-main">
-        <h2 id="hybrid-heading" class="text-2xl sm:text-3xl font-bold text-slate-900 mb-8 flex items-center gap-3">
-          <span class="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center text-accent">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+        <div class="flex items-center gap-4 mb-4">
+          <span class="section-label">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Energy Storage
           </span>
+        </div>
+        <h2 id="hybrid-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
           Hybrid Inverters
         </h2>
+        <p class="text-slate-500 max-w-2xl mb-12">
+          Intelligent battery-ready inverters that store excess solar energy for use during power cuts or peak hours. Achieve true energy independence.
+        </p>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {hybrid.map(product => (
-            <a href={`/our-products/${product.id}/`} class="group card hover:border-brand-200 hover:shadow-lg transition-all">
-              <div class="flex items-center justify-between mb-4">
-                <span class="text-xs font-semibold uppercase tracking-wider text-accent bg-accent/10 px-2.5 py-1 rounded-full">{product.phase === 'single' ? 'Single Phase' : 'Three Phase'}</span>
-                <span class="text-xs text-slate-400">{product.id}</span>
+            <a href={`/our-products/${product.id}/`} class="group bg-white rounded-2xl border border-slate-200 p-6 hover:border-accent/30 hover:shadow-xl hover:shadow-accent/5 transition-all duration-500 product-card">
+              <div class="flex items-center justify-between mb-5">
+                <span class="text-xs font-bold uppercase tracking-wider text-accent bg-accent/10 px-3 py-1.5 rounded-full">Hybrid</span>
+                <span class="text-xs text-slate-400 font-mono">{product.id}</span>
               </div>
-              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-2">{product.name}</h3>
-              <div class="grid grid-cols-3 gap-2 mt-4 pt-4 border-t border-slate-100">
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">{product.name}</h3>
+              <p class="text-sm text-slate-500 mb-5">{product.phase === 'single' ? 'Single Phase' : 'Three Phase'} • {product.voltageRange}</p>
+              <div class="grid grid-cols-3 gap-3 pt-5 border-t border-slate-100">
                 <div class="text-center">
-                  <p class="text-lg font-bold text-slate-900">{product.efficiency}</p>
-                  <p class="text-[10px] text-slate-500 uppercase">Efficiency</p>
+                  <p class="text-xl font-bold text-slate-900">{product.efficiency}</p>
+                  <p class="text-[10px] text-slate-400 uppercase tracking-wider">Efficiency</p>
                 </div>
                 <div class="text-center">
-                  <p class="text-lg font-bold text-slate-900">{product.mppt}</p>
-                  <p class="text-[10px] text-slate-500 uppercase">MPPT</p>
+                  <p class="text-xl font-bold text-slate-900">{product.mppt}</p>
+                  <p class="text-[10px] text-slate-400 uppercase tracking-wider">MPPT</p>
                 </div>
                 <div class="text-center">
-                  <p class="text-lg font-bold text-slate-900">{product.powerMax}kW</p>
-                  <p class="text-[10px] text-slate-500 uppercase">Power</p>
+                  <p class="text-xl font-bold text-slate-900">{product.powerMax}kW</p>
+                  <p class="text-[10px] text-slate-400 uppercase tracking-wider">Max Power</p>
                 </div>
               </div>
             </a>
@@ -100,14 +180,22 @@ const hybrid = products.filter(p => p.category === 'hybrid');
       </div>
     </section>
 
-    <section class="py-16 bg-brand-500">
-      <div class="container-main text-center">
-        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Need help choosing the right inverter?</h2>
-        <p class="text-brand-100 mb-8 max-w-xl mx-auto">Our team can help you select the perfect inverter for your solar installation.</p>
-        <a href="/contact-us/" class="inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-brand-600 hover:bg-brand-50 transition-colors">Contact Sales</a>
+    <!-- CTA -->
+    <section class="py-24 lg:py-32 bg-brand-500 text-white relative overflow-hidden">
+      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+      <div class="absolute -top-40 -right-40 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+      <div class="container-main relative text-center max-w-3xl">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6">Need Help Choosing?</h2>
+        <p class="text-lg text-brand-100 mb-10">Our solar experts can recommend the perfect inverter for your installation. Get a free consultation today.</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="/contact-us/" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-brand-600 shadow-lg hover:bg-brand-50 transition-all">Contact Sales</a>
+          <a href="/string-sizing-calculator/" class="btn-outline">String Sizing Calculator</a>
+        </div>
       </div>
     </section>
   </main>
 
   <Footer />
 </Layout>
+

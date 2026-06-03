@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import Header from '../../components/Header.astro';
+import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import { products, getProductById, getRelatedProducts } from '../../data/products';
 
@@ -15,14 +15,19 @@ const related = product ? getRelatedProducts(product) : [];
 if (!product) {
   return Astro.redirect('/404');
 }
+
+const isOnGrid = product.category === 'on-grid';
+const categoryColor = isOnGrid ? 'brand' : 'accent';
+const categoryBg = isOnGrid ? 'bg-brand-50 text-brand-700' : 'bg-accent/10 text-accent-dark';
+const categoryLabel = isOnGrid ? 'On-Grid' : 'Hybrid';
 ---
 
 <Layout
   title={`${product.name} | Qbits Energy`}
-  description={`${product.name} - ${product.category === 'on-grid' ? 'On-Grid' : 'Hybrid'} solar inverter with ${product.efficiency} efficiency, ${product.mppt} MPPT, and ${product.warranty}.`}
+  description={`${product.name} - ${categoryLabel} solar inverter with ${product.efficiency} efficiency, ${product.mppt} MPPT, and ${product.warranty}.`}
   canonical={`/our-products/${product.id}/`}
 >
-  <Header />
+  <HeaderV2 />
 
   <main class="pt-[104px] lg:pt-[120px]">
     <!-- Breadcrumb -->
@@ -39,49 +44,73 @@ if (!product) {
     </div>
 
     <!-- Product Hero -->
-    <section class="section-padding bg-white">
+    <section class="section-padding bg-white overflow-hidden">
       <div class="container-main">
-        <div class="grid lg:grid-cols-2 gap-12 items-start">
+        <div class="grid lg:grid-cols-2 gap-16 items-start">
+          <!-- Image -->
           <div>
-            <div class="aspect-square bg-slate-100 rounded-2xl flex items-center justify-center">
-              <div class="text-center">
-                <div class="w-32 h-32 mx-auto rounded-2xl bg-white shadow-lg flex items-center justify-center">
-                  <svg class="w-16 h-16 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={product.category === 'on-grid' ? 'M13 10V3L4 14h7v7l9-11h-7z' : 'M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10'}/>
+            <div class="aspect-square bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl flex items-center justify-center relative overflow-hidden">
+              <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, #049D65 1px, transparent 0); background-size: 20px 20px;"></div>
+              <div class="text-center relative z-10">
+                <div class="w-40 h-40 mx-auto rounded-3xl bg-white shadow-xl flex items-center justify-center">
+                  <svg class="w-20 h-20 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d={isOnGrid ? 'M13 10V3L4 14h7v7l9-11h-7z' : 'M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10'}/>
                   </svg>
                 </div>
-                <p class="mt-4 text-sm text-slate-400">{product.id}</p>
+                <p class="mt-6 text-sm text-slate-400 font-mono">{product.id}</p>
               </div>
             </div>
-          </div>
-          <div>
-            <div class="flex items-center gap-3 mb-3">
-              <span class={`inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold ${product.category === 'on-grid' ? 'bg-brand-50 text-brand-700' : 'bg-accent/10 text-accent-dark'}`}>
-                {product.category === 'on-grid' ? 'On-Grid' : 'Hybrid'}
-              </span>
-              <span class="text-xs text-slate-400 font-mono">{product.id}</span>
-            </div>
-            <h1 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">{product.name}</h1>
-            <p class="text-slate-500 mb-6">{product.series} | {product.phase === 'single' ? 'Single Phase' : 'Three Phase'} | {product.powerMax}kW</p>
 
-            <div class="grid grid-cols-3 gap-3 mb-8">
+            <!-- Quick Specs Bar -->
+            <div class="grid grid-cols-3 gap-3 mt-6">
               <div class="bg-slate-50 rounded-xl p-4 text-center">
                 <p class="text-2xl font-bold text-brand-600">{product.efficiency}</p>
-                <p class="text-xs text-slate-500 uppercase mt-1">Efficiency</p>
+                <p class="text-[10px] text-slate-400 uppercase tracking-wider mt-1">Efficiency</p>
               </div>
               <div class="bg-slate-50 rounded-xl p-4 text-center">
                 <p class="text-2xl font-bold text-brand-600">{product.mppt}</p>
-                <p class="text-xs text-slate-500 uppercase mt-1">MPPT</p>
+                <p class="text-[10px] text-slate-400 uppercase tracking-wider mt-1">MPPT</p>
               </div>
               <div class="bg-slate-50 rounded-xl p-4 text-center">
-                <p class="text-2xl font-bold text-brand-600">{product.warranty.replace(' Years', 'Y')}</p>
-                <p class="text-xs text-slate-500 uppercase mt-1">Warranty</p>
+                <p class="text-2xl font-bold text-brand-600">{product.powerMax}kW</p>
+                <p class="text-[10px] text-slate-400 uppercase tracking-wider mt-1">Max Power</p>
               </div>
+            </div>
+          </div>
+
+          <!-- Info -->
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <span class={`inline-flex items-center rounded-full px-3 py-1 text-xs font-bold ${categoryBg}`}>
+                {categoryLabel}
+              </span>
+              <span class="text-xs text-slate-400 font-mono">{product.id}</span>
+            </div>
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4 leading-tight">{product.name}</h1>
+            <p class="text-slate-500 mb-8">{product.series} Series | {product.phase === 'single' ? 'Single Phase' : 'Three Phase'} | {product.powerMin}-{product.powerMax}{product.powerUnit}</p>
+
+            <!-- Features -->
+            <div class="space-y-3 mb-8">
+              {product.features.map(f => (
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-brand-100 flex items-center justify-center text-brand-600 shrink-0">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                  </div>
+                  <span class="text-slate-700 text-sm">{f}</span>
+                </div>
+              ))}
+            </div>
+
+            <!-- Certifications -->
+            <div class="flex items-center gap-2 mb-8">
+              {product.certifications.map(cert => (
+                <span class="inline-flex items-center rounded-lg bg-slate-100 px-3 py-1.5 text-xs font-bold text-slate-600">{cert}</span>
+              ))}
             </div>
 
             <div class="flex flex-wrap gap-3">
               <a href="/contact-us/" class="btn-primary">Product Inquiry</a>
-              <a href={`/downloads/datasheet-${product.id}.pdf`} class="btn-secondary">
+              <a href={`/downloads/datasheet-${product.id}.pdf`} class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 px-8 py-4 text-sm font-semibold text-slate-700 hover:border-brand-300 hover:text-brand-600 transition-all">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
                 Datasheet
               </a>
@@ -94,29 +123,34 @@ if (!product) {
     <!-- Specifications -->
     <section class="section-padding bg-slate-50" aria-labelledby="specs-heading">
       <div class="container-main">
-        <h2 id="specs-heading" class="text-2xl sm:text-3xl font-bold text-slate-900 mb-8">Technical Specifications</h2>
-        <div class="max-w-3xl">
-          <div class="overflow-hidden rounded-xl border border-slate-200 bg-white">
+        <div class="max-w-3xl mx-auto">
+          <span class="section-label">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Technical Data
+          </span>
+          <h2 id="specs-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-4 mb-10">Technical Specifications</h2>
+
+          <div class="bg-white rounded-2xl shadow-xl shadow-slate-900/5 overflow-hidden">
             <table class="w-full text-sm">
               <tbody class="divide-y divide-slate-100">
                 {[
                   ['Model', product.id],
                   ['Series', product.series],
-                  ['Category', product.category === 'on-grid' ? 'On-Grid' : 'Hybrid'],
+                  ['Category', categoryLabel],
                   ['Phase', product.phase === 'single' ? 'Single Phase' : 'Three Phase'],
-                  ['Power Range', `${product.powerMin}-${product.powerMax}kW`],
+                  ['Power Range', `${product.powerMin}-${product.powerMax}${product.powerUnit}`],
                   ['Max Efficiency', product.efficiency],
                   ['MPPT', `${product.mppt} (${product.mpptLabel})`],
                   ['DC Voltage Range', product.voltageRange],
                   ['AC Frequency', product.frequency],
-                  ['Protection', product.protection],
+                  ['Protection Rating', product.protection],
                   ['Display', product.display],
                   ['Communication', product.communication],
                   ['Warranty', product.warranty],
                 ].map(([label, value]) => (
-                  <tr class="hover:bg-slate-50">
-                    <td class="px-5 py-3 font-medium text-slate-700 w-1/3">{label}</td>
-                    <td class="px-5 py-3 text-slate-600">{value}</td>
+                  <tr class="hover:bg-slate-50/50 transition-colors">
+                    <td class="px-6 py-4 font-semibold text-slate-700 w-2/5">{label}</td>
+                    <td class="px-6 py-4 text-slate-600">{value}</td>
                   </tr>
                 ))}
               </tbody>
@@ -126,22 +160,77 @@ if (!product) {
       </div>
     </section>
 
+    <!-- Downloads -->
+    <section class="py-16 lg:py-20 bg-white" aria-labelledby="downloads-heading">
+      <div class="container-main">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <span class="section-label justify-center">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Downloads
+            <span class="w-8 h-px bg-brand-500"></span>
+          </span>
+          <h2 id="downloads-heading" class="text-3xl font-bold text-slate-900 mt-6">Product Documents</h2>
+        </div>
+        <div class="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+          {[
+            { name: 'Datasheet', file: `datasheet-${product.id}.pdf`, desc: 'Full technical specifications' },
+            { name: 'User Manual', file: `manual-${product.id}.pdf`, desc: 'Installation & operation guide' },
+            { name: 'Warranty Card', file: `warranty-${product.id}.pdf`, desc: 'Warranty terms & conditions' },
+          ].map(doc => (
+            <a href={`/downloads/${doc.file}`} class="group bg-slate-50 rounded-2xl p-8 text-center hover:bg-brand-500 transition-all duration-500">
+              <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-white/20 group-hover:text-white transition-all">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 mb-1 group-hover:text-white transition-colors">{doc.name}</h3>
+              <p class="text-sm text-slate-500 group-hover:text-brand-100 transition-colors">{doc.desc}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <!-- Related Products -->
     {related.length > 0 && (
-      <section class="section-padding bg-white">
+      <section class="section-padding bg-slate-50">
         <div class="container-main">
-          <h2 class="text-2xl font-bold text-slate-900 mb-8">Related Products</h2>
-          <div class="grid md:grid-cols-3 gap-6">
+          <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="section-label justify-center">
+              <span class="w-8 h-px bg-brand-500"></span>
+              You May Also Like
+              <span class="w-8 h-px bg-brand-500"></span>
+            </span>
+            <h2 class="text-3xl font-bold text-slate-900 mt-6">Related Products</h2>
+          </div>
+          <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {related.map(r => (
-              <a href={`/our-products/${r.id}/`} class="group card hover:border-brand-200 hover:shadow-lg transition-all">
-                <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">{r.name}</h3>
-                <p class="text-sm text-slate-500 mt-1">{r.powerMax}kW | {r.efficiency}</p>
+              <a href={`/our-products/${r.id}/`} class="group bg-white rounded-2xl border border-slate-200 p-6 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500">
+                <div class="flex items-center justify-between mb-4">
+                  <span class={`text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full ${r.category === 'on-grid' ? 'bg-brand-50 text-brand-700' : 'bg-accent/10 text-accent-dark'}`}>
+                    {r.category === 'on-grid' ? 'On-Grid' : 'Hybrid'}
+                  </span>
+                  <span class="text-xs text-slate-400 font-mono">{r.id}</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-2">{r.name}</h3>
+                <p class="text-sm text-slate-500">{r.powerMax}kW | {r.efficiency} | {r.mppt} MPPT</p>
               </a>
             ))}
           </div>
         </div>
       </section>
     )}
+
+    <!-- CTA -->
+    <section class="py-24 lg:py-32 bg-slate-950 relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-brand-500/10 via-transparent to-accent/10"></div>
+      <div class="container-main relative text-center max-w-3xl">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Order?</h2>
+        <p class="text-lg text-slate-400 mb-10">Get in touch with our sales team for pricing, availability, and delivery information.</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="/contact-us/" class="btn-primary">Contact Sales</a>
+          <a href="https://wa.me/919979192935" target="_blank" rel="noopener" class="btn-outline">WhatsApp Inquiry</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <Footer />

@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import Header from '../../components/Header.astro';
+import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 import { getProductsByCategory } from '../../data/products';
@@ -8,14 +8,23 @@ import { getProductsByCategory } from '../../data/products';
 const onGridProducts = getProductsByCategory('on-grid');
 const singlePhase = onGridProducts.filter(p => p.phase === 'single');
 const threePhase = onGridProducts.filter(p => p.phase === 'three');
+
+const advantages = [
+  { title: '98.8% Max Efficiency', desc: 'Advanced MPPT algorithms ensure optimal energy harvest under all conditions.' },
+  { title: '50V DC Start-up', desc: 'Lower start-up voltage means earlier morning generation and later evening output.' },
+  { title: 'IP66 Protection', desc: 'Completely dust-tight and protected against powerful water jets.' },
+  { title: '100% DC Oversizing', desc: 'Connect up to 100% more panel capacity than inverter rated power.' },
+  { title: 'Built-in SPD', desc: 'Integrated DC and AC surge protection devices included as standard.' },
+  { title: '12 Year Warranty', desc: 'Industry-leading full replacement warranty with pan-India service.' },
+];
 ---
 
 <Layout
   title="On-Grid Inverters | Qbits Energy"
-  description="High-efficiency on-grid solar inverters from 1kW to 100kW. Single and three-phase options with up to 98.8% efficiency, multi-MPPT, and smart monitoring."
+  description="High-efficiency on-grid solar inverters from 1kW to 320kW. Single and three-phase options with up to 98.8% efficiency, multi-MPPT, and smart monitoring."
   canonical="/on-grid-inverter/"
 >
-  <Header />
+  <HeaderV2 />
 
   <main>
     <PageHeader
@@ -25,21 +34,57 @@ const threePhase = onGridProducts.filter(p => p.phase === 'three');
       description="Maximize your solar investment with Qbits high-efficiency on-grid inverters. Designed for Indian conditions with advanced MPPT and smart monitoring."
     />
 
-    <section class="section-padding bg-white" aria-labelledby="single-phase-heading">
+    <!-- Advantages -->
+    <section class="section-padding bg-white" aria-labelledby="adv-heading">
       <div class="container-main">
-        <h2 id="single-phase-heading" class="text-2xl font-bold text-slate-900 mb-8">Single Phase Inverters</h2>
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="section-label justify-center">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Why On-Grid
+            <span class="w-8 h-px bg-brand-500"></span>
+          </span>
+          <h2 id="adv-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
+            Advantages of Going On-Grid
+          </h2>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {advantages.map(a => (
+            <div class="bg-slate-50 rounded-2xl p-8 adv-card">
+              <div class="w-12 h-12 rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 mb-2">{a.title}</h3>
+              <p class="text-sm text-slate-500 leading-relaxed">{a.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Single Phase -->
+    <section class="section-padding bg-slate-50 product-section" aria-labelledby="single-phase-heading">
+      <div class="container-main">
+        <div class="flex items-center gap-4 mb-4">
+          <span class="section-label">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Residential
+          </span>
+        </div>
+        <h2 id="single-phase-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Single Phase Inverters</h2>
+        <p class="text-slate-500 max-w-2xl mb-12">Perfect for residential installations. Compact design, high efficiency, and smart monitoring via Wi-Fi, 4G, and Bluetooth.</p>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {singlePhase.map(product => (
-            <a href={`/our-products/${product.id}/`} class="group card hover:border-brand-200 hover:shadow-lg transition-all">
-              <div class="flex items-center justify-between mb-4">
-                <span class="text-xs font-semibold uppercase tracking-wider text-brand-600 bg-brand-50 px-2.5 py-1 rounded-full">1 Phase</span>
-                <span class="text-xs text-slate-400">{product.id}</span>
+            <a href={`/our-products/${product.id}/`} class="group bg-white rounded-2xl border border-slate-200 p-6 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 product-card">
+              <div class="flex items-center justify-between mb-5">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1.5 rounded-full">1 Phase</span>
+                <span class="text-xs text-slate-400 font-mono">{product.id}</span>
               </div>
-              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">{product.name}</h3>
-              <div class="grid grid-cols-3 gap-2 mt-4 pt-4 border-t border-slate-100">
-                <div class="text-center"><p class="text-lg font-bold text-slate-900">{product.efficiency}</p><p class="text-[10px] text-slate-500 uppercase">Efficiency</p></div>
-                <div class="text-center"><p class="text-lg font-bold text-slate-900">{product.mppt}</p><p class="text-[10px] text-slate-500 uppercase">MPPT</p></div>
-                <div class="text-center"><p class="text-lg font-bold text-slate-900">{product.powerMax}kW</p><p class="text-[10px] text-slate-500 uppercase">Power</p></div>
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">{product.name}</h3>
+              <p class="text-sm text-slate-500 mb-5">{product.series} Series • {product.voltageRange}</p>
+              <div class="grid grid-cols-3 gap-3 pt-5 border-t border-slate-100">
+                <div class="text-center"><p class="text-xl font-bold text-slate-900">{product.efficiency}</p><p class="text-[10px] text-slate-400 uppercase">Efficiency</p></div>
+                <div class="text-center"><p class="text-xl font-bold text-slate-900">{product.mppt}</p><p class="text-[10px] text-slate-400 uppercase">MPPT</p></div>
+                <div class="text-center"><p class="text-xl font-bold text-slate-900">{product.powerMax}kW</p><p class="text-[10px] text-slate-400 uppercase">Power</p></div>
               </div>
             </a>
           ))}
@@ -47,24 +92,46 @@ const threePhase = onGridProducts.filter(p => p.phase === 'three');
       </div>
     </section>
 
-    <section class="section-padding bg-slate-50" aria-labelledby="three-phase-heading">
+    <!-- Three Phase -->
+    <section class="section-padding bg-white product-section" aria-labelledby="three-phase-heading">
       <div class="container-main">
-        <h2 id="three-phase-heading" class="text-2xl font-bold text-slate-900 mb-8">Three Phase Inverters</h2>
+        <div class="flex items-center gap-4 mb-4">
+          <span class="section-label">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Commercial & Industrial
+          </span>
+        </div>
+        <h2 id="three-phase-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Three Phase Inverters</h2>
+        <p class="text-slate-500 max-w-2xl mb-12">Designed for commercial and industrial installations. Multi-MPPT technology, parallel operation, and advanced grid support features.</p>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {threePhase.map(product => (
-            <a href={`/our-products/${product.id}/`} class="group card hover:border-brand-200 hover:shadow-lg transition-all">
-              <div class="flex items-center justify-between mb-4">
-                <span class="text-xs font-semibold uppercase tracking-wider text-brand-600 bg-brand-50 px-2.5 py-1 rounded-full">3 Phase</span>
-                <span class="text-xs text-slate-400">{product.id}</span>
+            <a href={`/our-products/${product.id}/`} class="group bg-white rounded-2xl border border-slate-200 p-6 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 product-card">
+              <div class="flex items-center justify-between mb-5">
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1.5 rounded-full">3 Phase</span>
+                <span class="text-xs text-slate-400 font-mono">{product.id}</span>
               </div>
-              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">{product.name}</h3>
-              <div class="grid grid-cols-3 gap-2 mt-4 pt-4 border-t border-slate-100">
-                <div class="text-center"><p class="text-lg font-bold text-slate-900">{product.efficiency}</p><p class="text-[10px] text-slate-500 uppercase">Efficiency</p></div>
-                <div class="text-center"><p class="text-lg font-bold text-slate-900">{product.mppt}</p><p class="text-[10px] text-slate-500 uppercase">MPPT</p></div>
-                <div class="text-center"><p class="text-lg font-bold text-slate-900">{product.powerMax}kW</p><p class="text-[10px] text-slate-500 uppercase">Power</p></div>
+              <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">{product.name}</h3>
+              <p class="text-sm text-slate-500 mb-5">{product.series} Series • {product.voltageRange}</p>
+              <div class="grid grid-cols-3 gap-3 pt-5 border-t border-slate-100">
+                <div class="text-center"><p class="text-xl font-bold text-slate-900">{product.efficiency}</p><p class="text-[10px] text-slate-400 uppercase">Efficiency</p></div>
+                <div class="text-center"><p class="text-xl font-bold text-slate-900">{product.mppt}</p><p class="text-[10px] text-slate-400 uppercase">MPPT</p></div>
+                <div class="text-center"><p class="text-xl font-bold text-slate-900">{product.powerMax}kW</p><p class="text-[10px] text-slate-400 uppercase">Power</p></div>
               </div>
             </a>
           ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-24 lg:py-32 bg-slate-950 relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-brand-500/10 via-transparent to-accent/10"></div>
+      <div class="container-main relative text-center max-w-3xl">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Not Sure Which Inverter You Need?</h2>
+        <p class="text-lg text-slate-400 mb-10">Use our string sizing calculator or speak to our experts for a free consultation.</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="/string-sizing-calculator/" class="btn-primary">String Sizing Calculator</a>
+          <a href="/contact-us/" class="btn-outline">Talk to an Expert</a>
         </div>
       </div>
     </section>
@@ -72,3 +139,4 @@ const threePhase = onGridProducts.filter(p => p.phase === 'three');
 
   <Footer />
 </Layout>
+

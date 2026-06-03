@@ -1,22 +1,25 @@
 ---
-const videos = [
+const stories = [
   {
-    src: '/Client Feedback /Jaybhai-Jangid-Owner-of-Jangid-Solar-chooses-Qbits-for-one-reason-unmatched-reliability.From-r.mp4',
+    src: '/client-feedback/Jaybhai-Jangid-Owner-of-Jangid-Solar-chooses-Qbits-for-one-reason-unmatched-reliability.From-r.mp4',
     name: 'Jaybhai Jangid',
     role: 'Owner, Jangid Solar',
     quote: 'Chooses Qbits for one reason: unmatched reliability.',
+    initials: 'JJ',
   },
   {
-    src: '/Client Feedback /Qbits-Energy-technology-stays-dust-proof-heat-resistant-and-humidity-protected-ensuring-lower-.mp4',
+    src: '/client-feedback/Qbits-Energy-technology-stays-dust-proof-heat-resistant-and-humidity-protected-ensuring-lower-.mp4',
     name: 'Qbits Technology',
     role: 'Performance Review',
     quote: 'Dust-proof, heat-resistant, and humidity-protected technology.',
+    initials: 'QT',
   },
   {
-    src: '/Client Feedback /When-an-installer-confidently-says-100-recommend-it-speaks-volumes-about-performance.Qbits-d.mp4',
+    src: '/client-feedback/When-an-installer-confidently-says-100-recommend-it-speaks-volumes-about-performance.Qbits-d.mp4',
     name: 'Installer Review',
     role: 'Certified Partner',
     quote: '100% recommended — speaks volumes about performance.',
+    initials: 'IR',
   },
 ];
 ---
@@ -34,30 +37,30 @@ const videos = [
     </div>
 
     <div class="grid md:grid-cols-3 gap-6">
-      {videos.map((video) => (
+      {stories.map((story) => (
         <div class="group relative rounded-2xl bg-white border border-slate-100 overflow-hidden hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500">
-          <!-- Video -->
-          <div class="relative aspect-[9/16] max-h-[640px] bg-slate-900">
+          <!-- Video / Thumbnail -->
+          <div class="relative bg-slate-900" style="aspect-ratio: 9/16; max-height: 480px;">
             <video
               class="w-full h-full object-cover"
-              src={video.src}
+              src={story.src}
               controls
               preload="metadata"
               playsinline
-              poster=""
+              poster="/images/features.png"
             ></video>
           </div>
 
           <!-- Info overlay at bottom -->
           <div class="p-6">
-            <p class="text-sm text-slate-500 italic mb-3">"{video.quote}"</p>
+            <p class="text-sm text-slate-500 italic mb-3">"{story.quote}"</p>
             <div class="flex items-center gap-3">
               <div class="w-10 h-10 rounded-full bg-gradient-to-br from-brand-500 to-brand-600 flex items-center justify-center text-white font-bold text-sm">
-                {video.name.split(' ').map((n) => n[0]).join('').slice(0, 2)}
+                {story.initials}
               </div>
               <div>
-                <p class="font-bold text-slate-900 text-sm">{video.name}</p>
-                <p class="text-xs text-slate-500">{video.role}</p>
+                <p class="font-bold text-slate-900 text-sm">{story.name}</p>
+                <p class="text-xs text-slate-500">{story.role}</p>
               </div>
             </div>
           </div>

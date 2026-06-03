@@ -1,28 +1,37 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import Header from '../../components/Header.astro';
+import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 
-const values = [
-  { title: 'Innovation', desc: 'Continuous improvement through R&D and technology-driven design', icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
-  { title: 'Integrity', desc: 'Ethical practices and transparent partnerships', icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z' },
-  { title: 'Excellence', desc: 'ISO 9001 certification and Adani Solar distributorship', icon: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z' },
-  { title: 'Sustainability', desc: 'Positive environmental impact with every installation', icon: 'M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064' },
+const milestones = [
+  { year: '2016', title: 'Heaven Green Energy Founded', desc: 'Started solar EPC and installation services across Gujarat.' },
+  { year: '2019', title: '1,000+ Installations', desc: 'Reached milestone of 1,000 successful solar installations.' },
+  { year: '2022', title: 'Qbits Brand Launched', desc: 'Launched Qbits as dedicated inverter manufacturing division.' },
+  { year: '2023', title: 'BIS & IEC Certified', desc: 'Achieved full BIS and IEC certification for product range.' },
+  { year: '2024', title: 'Pan-India Presence', desc: 'Expanded dealer network to 20+ cities across India.' },
+  { year: '2025', title: 'AI Monitoring Platform', desc: 'Launched Qbits AI-powered monitoring with WhatsApp alerts.' },
 ];
 
-const leaders = [
-  { name: 'Keyur Rakholiya', role: 'CTO', initials: 'KR' },
-  { name: 'Nirav Dhanani', role: 'CEO', initials: 'ND' },
-  { name: 'Akash Hirapara', role: 'CFO', initials: 'AH' },
-  { name: 'Piyush Chandel', role: 'B2B Sales Head', initials: 'PC' },
+const values = [
+  { title: 'Innovation', desc: 'Continuous improvement through R&D and technology-driven design. Every product cycle brings measurable advancement.', icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
+  { title: 'Integrity', desc: 'Ethical practices and transparent partnerships. We build trust through honest communication and fair dealing.', icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z' },
+  { title: 'Excellence', desc: 'ISO 9001 certification and Adani Solar distributorship. Quality is not checked at the end — it is built in from day one.', icon: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z' },
+  { title: 'Sustainability', desc: 'Positive environmental impact with every installation. We measure success in megawatts of clean energy delivered.', icon: 'M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064' },
 ];
 
 const stats = [
-  { value: '10,000+', label: 'Solar Installations' },
-  { value: '22+', label: 'Channel Partners' },
-  { value: '20+', label: 'Cities Served' },
-  { value: 'ISO 9001', label: 'Certified' },
+  { value: '10,000+', label: 'Solar Installations', suffix: '' },
+  { value: '22+', label: 'Channel Partners', suffix: '' },
+  { value: '20+', label: 'Cities Served', suffix: '' },
+  { value: '12', label: 'Year Warranty', suffix: 'Y' },
+];
+
+const differentiators = [
+  { title: 'German IGBT Technology', desc: 'Premium power conversion components selected for 20-year operational life.' },
+  { title: '1,000+ Quality Tests', desc: 'Every inverter undergoes rigorous automated testing before dispatch.' },
+  { title: 'Indian Server Data', desc: '100% data sovereignty — all monitoring data stays on Indian servers.' },
+  { title: 'IP66 Enclosure', desc: 'Rugged weather protection designed for harsh Indian rooftop conditions.' },
 ];
 ---
 
@@ -31,174 +40,253 @@ const stats = [
   description="Qbits Inverters Limited – Powering India's Smarter Solar Future. A subsidiary of Heaven Green Energy Limited with 8+ years of experience in solar EPC, manufacturing, and clean energy innovation."
   canonical="/about-us/"
 >
-  <Header />
+  <HeaderV2 />
 
   <main>
     <PageHeader
       label="About Qbits"
       title="Powering India's"
       highlight="Solar Future"
-      description="From trusted legacy to smart energy innovation."
+      description="From trusted legacy to smart energy innovation — building an energy-independent India, one inverter at a time."
     />
 
-    <!-- About Video -->
-    <section class="pt-8 pb-4 bg-white">
+    <!-- Company Overview -->
+    <section class="section-padding bg-white overflow-hidden" aria-labelledby="about-heading">
       <div class="container-main">
-        <div class="max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-xl bg-slate-900 aspect-video">
-          <video class="w-full h-full" controls preload="metadata">
-            <source src="/About video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <div class="order-2 lg:order-1">
+            <span class="section-label">
+              <span class="w-8 h-px bg-brand-500"></span>
+              Our Story
+            </span>
+            <h2 id="about-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-6 mb-6 leading-tight">
+              Qbits Inverters Limited
+            </h2>
+            <p class="text-lg text-brand-600 font-semibold mb-6">
+              From Trusted Legacy to Smart Energy Innovation
+            </p>
+            <p class="text-slate-600 leading-relaxed mb-4">
+              A subsidiary of Heaven Green Energy Limited with 8+ years of experience in solar EPC, manufacturing, and clean energy innovation. Qbits designs and manufactures residential, commercial, and industrial solar inverters, hybrid inverters, and BESS using selected branded BOM for electronic components.
+            </p>
+            <p class="text-slate-600 leading-relaxed mb-8">
+              Every Qbits inverter undergoes 1000+ automated quality tests, uses high performance IGBTs and capacitors designed for long lifecycle stability, and is protected by a rugged IP66 enclosure suitable for harsh Indian rooftop conditions.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a href="/our-products/" class="btn-primary">Explore Products</a>
+              <a href="/contact-us/" class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 px-8 py-4 text-sm font-semibold text-slate-700 hover:border-brand-300 hover:text-brand-600 transition-all">
+                Contact Us
+              </a>
+            </div>
+          </div>
+          <div class="order-1 lg:order-2 relative">
+            <div class="absolute -top-10 -right-10 w-72 h-72 bg-brand-100 rounded-full blur-3xl opacity-50"></div>
+            <div class="relative rounded-2xl overflow-hidden shadow-2xl">
+              <img src="/images/features.png" alt="Qbits Inverter Product" class="w-full" loading="lazy" />
+            </div>
+            <div class="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-5 hidden md:block">
+              <p class="text-3xl font-bold text-brand-600">8+</p>
+              <p class="text-sm text-slate-500">Years of Excellence</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Company Overview -->
-    <section class="section-padding bg-white">
-      <div class="container-main">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <span class="section-label">About Qbits</span>
-            <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-4 mb-4 leading-tight">
-              Qbits Inverters Limited – Powering India's Smarter Solar Future
-            </h2>
-            <p class="text-lg text-brand-600 font-medium mb-4">
-              From Trusted Legacy to Smart Energy Innovation
-            </p>
-            <p class="text-slate-600 leading-relaxed mb-4">
-              A subsidiary of Heaven Green Energy Limited with 8+ years of experience in solar EPC, manufacturing, and clean energy innovation. Qbits designs and manufactures residential, commercial, and industrial solar inverters, hybrid inverters, and BESS using selected branded BOM (Bill of Materials) for electronic components.
-            </p>
-            <p class="text-slate-600 leading-relaxed mb-6">
-              Every Qbits inverter undergoes 1000+ automated quality tests, uses high performance IGBTs and capacitors designed for long lifecycle stability, and is protected by a rugged IP66 enclosure suitable for harsh Indian rooftop conditions.
-            </p>
-            <div class="flex flex-wrap gap-3">
-              <a href="https://wa.me/919979192935" target="_blank" rel="noopener" class="btn-accent">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                Inquiry Now
-              </a>
+    <!-- Stats -->
+    <section class="py-20 lg:py-24 bg-slate-950 relative overflow-hidden" aria-labelledby="stats-heading">
+      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+      <div class="container-main relative">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+          {stats.map((s, i) => (
+            <div class="text-center stat-item" data-index={i}>
+              <p class="text-4xl sm:text-5xl font-extrabold text-white">{s.value}</p>
+              <p class="text-sm font-medium text-slate-400 mt-3 uppercase tracking-wider">{s.label}</p>
             </div>
-          </div>
-          <div class="relative">
-            <img src="/images/features.png" alt="Qbits Inverter" class="w-full rounded-2xl shadow-xl" loading="lazy" />
-          </div>
+          ))}
         </div>
       </div>
     </section>
 
     <!-- Innovation -->
-    <section class="section-padding bg-slate-50">
+    <section class="section-padding bg-slate-50 overflow-hidden">
       <div class="container-main">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-          <div class="order-2 lg:order-1">
-            <img src="/images/smart-features.png" alt="Qbits Smart Features" class="w-full rounded-2xl shadow-lg" loading="lazy" />
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <div class="relative">
+            <div class="absolute -top-10 -left-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl opacity-50"></div>
+            <div class="relative rounded-2xl overflow-hidden shadow-xl">
+              <img src="/images/smart-features.png" alt="Qbits Smart Features" class="w-full" loading="lazy" />
+            </div>
           </div>
-          <div class="order-1 lg:order-2">
-            <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-4 leading-tight">
+          <div>
+            <span class="section-label">
+              <span class="w-8 h-px bg-brand-500"></span>
+              Innovation
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6 mb-6 leading-tight">
               Meet Qbits: The Future of Smart Solar Power
             </h2>
-            <p class="text-lg text-brand-600 font-medium mb-4">
+            <p class="text-lg text-brand-600 font-semibold mb-6">
               Where Intelligent Design Meets Everyday Energy Needs
             </p>
-            <p class="text-slate-600 leading-relaxed mb-6">
+            <p class="text-slate-600 leading-relaxed mb-8">
               Qbits inverters deliver real-time performance monitoring, AI-based optimization, and robust grid connectivity. With AI-powered WhatsApp alerts, 100% data security on Indian servers, and a 12-year full replacement warranty, Qbits brings intelligence, durability, and peace of mind to every solar installation.
             </p>
-            <div class="space-y-3">
-              <div class="flex items-center gap-3">
-                <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center text-brand-600">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            <div class="space-y-4">
+              {[
+                'Smart inverter design and manufacturing',
+                'Full-scale project execution and maintenance',
+                'End-to-end energy management and monitoring',
+              ].map(item => (
+                <div class="flex items-center gap-4">
+                  <div class="w-10 h-10 rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 shrink-0">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                  </div>
+                  <span class="text-slate-700 font-medium">{item}</span>
                 </div>
-                <span class="text-slate-700">Smart inverter design and manufacturing</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center text-brand-600">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                </div>
-                <span class="text-slate-700">Full-scale project execution and maintenance</span>
-              </div>
-              <div class="flex items-center gap-3">
-                <div class="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center text-brand-600">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                </div>
-                <span class="text-slate-700">End-to-end energy management and monitoring</span>
-              </div>
+              ))}
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Vision -->
-    <section class="py-20 lg:py-28 bg-brand-500 text-white relative overflow-hidden">
-      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
-      <div class="container-main relative text-center max-w-3xl">
-        <h2 class="text-3xl sm:text-4xl font-bold mb-6">Our Vision</h2>
-        <p class="text-xl lg:text-2xl text-brand-100 leading-relaxed">
-          To become India's leading smart energy powerhouse, transforming how the nation produces and consumes power.
-        </p>
+    <!-- Differentiators -->
+    <section class="section-padding bg-white" aria-labelledby="diff-heading">
+      <div class="container-main">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="section-label justify-center">
+            <span class="w-8 h-px bg-brand-500"></span>
+            What Sets Us Apart
+            <span class="w-8 h-px bg-brand-500"></span>
+          </span>
+          <h2 id="diff-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
+            Built Different, Built for India
+          </h2>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {differentiators.map((d, i) => (
+            <div class="group relative bg-slate-50 rounded-2xl p-8 hover:bg-brand-500 transition-all duration-500 diff-card">
+              <div class="w-14 h-14 rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-white/20 group-hover:text-white transition-all duration-500">
+                <span class="text-2xl font-bold">{String(i + 1).padStart(2, '0')}</span>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900 mb-3 group-hover:text-white transition-colors">{d.title}</h3>
+              <p class="text-sm text-slate-500 leading-relaxed group-hover:text-brand-100 transition-colors">{d.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="section-padding bg-slate-50" aria-labelledby="journey-heading">
+      <div class="container-main">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="section-label justify-center">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Our Journey
+            <span class="w-8 h-px bg-brand-500"></span>
+          </span>
+          <h2 id="journey-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
+            Milestones That Define Us
+          </h2>
+        </div>
+        <div class="relative max-w-4xl mx-auto">
+          <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-brand-200 md:-translate-x-px"></div>
+          {milestones.map((m, i) => (
+            <div class={`relative flex items-start gap-8 mb-12 last:mb-0 ${i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} timeline-item`}>
+              <div class={`flex-1 hidden md:block ${i % 2 === 0 ? 'text-right' : 'text-left'}`}>
+                {i % 2 === 0 && (
+                  <div>
+                    <span class="inline-block text-sm font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-full mb-2">{m.year}</span>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">{m.title}</h3>
+                    <p class="text-slate-500 text-sm">{m.desc}</p>
+                  </div>
+                )}
+              </div>
+              <div class="relative z-10 w-8 h-8 rounded-full bg-brand-500 border-4 border-white shadow-lg shrink-0 mt-1"></div>
+              <div class="flex-1 md:hidden">
+                <span class="inline-block text-sm font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-full mb-2">{m.year}</span>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">{m.title}</h3>
+                <p class="text-slate-500 text-sm">{m.desc}</p>
+              </div>
+              <div class={`flex-1 hidden md:block ${i % 2 === 0 ? 'text-left' : 'text-right'}`}>
+                {i % 2 !== 0 && (
+                  <div>
+                    <span class="inline-block text-sm font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-full mb-2">{m.year}</span>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">{m.title}</h3>
+                    <p class="text-slate-500 text-sm">{m.desc}</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
 
     <!-- Values -->
     <section class="section-padding bg-white" aria-labelledby="values-heading">
       <div class="container-main">
-        <h2 id="values-heading" class="text-3xl font-bold text-slate-900 text-center mb-12">Our Core Values</h2>
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="section-label justify-center">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Culture
+            <span class="w-8 h-px bg-brand-500"></span>
+          </span>
+          <h2 id="values-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
+            Our Core Values
+          </h2>
+        </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {values.map(v => (
-            <div class="card text-center">
-              <div class="w-14 h-14 mx-auto rounded-xl bg-brand-50 flex items-center justify-center text-brand-600 mb-4">
-                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={v.icon}/></svg>
+            <div class="group bg-slate-50 rounded-2xl p-8 text-center hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 hover:-translate-y-1">
+              <div class="w-16 h-16 mx-auto rounded-2xl bg-brand-100 flex items-center justify-center text-brand-600 mb-6 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={v.icon}/></svg>
               </div>
-              <h3 class="text-lg font-bold text-slate-900 mb-2">{v.title}</h3>
-              <p class="text-sm text-slate-500">{v.desc}</p>
+              <h3 class="text-xl font-bold text-slate-900 mb-3">{v.title}</h3>
+              <p class="text-sm text-slate-500 leading-relaxed">{v.desc}</p>
             </div>
           ))}
         </div>
       </div>
     </section>
 
-    <!-- Stats -->
-    <section class="py-16 bg-slate-50">
-      <div class="container-main">
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          {stats.map(s => (
-            <div class="text-center">
-              <p class="text-3xl sm:text-4xl font-extrabold text-brand-600">{s.value}</p>
-              <p class="text-sm font-medium text-slate-500 mt-2 uppercase tracking-wider">{s.label}</p>
-            </div>
-          ))}
-        </div>
+    <!-- Vision -->
+    <section class="py-24 lg:py-32 bg-brand-500 text-white relative overflow-hidden">
+      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+      <div class="absolute -top-40 -right-40 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+      <div class="container-main relative text-center max-w-3xl">
+        <span class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.25em] text-brand-200 mb-6">
+          <span class="w-8 h-px bg-brand-300"></span>
+          Our Vision
+          <span class="w-8 h-px bg-brand-300"></span>
+        </span>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 leading-tight">
+          To Become India's Leading Smart Energy Powerhouse
+        </h2>
+        <p class="text-xl text-brand-100 leading-relaxed">
+          Transforming how the nation produces and consumes power. We envision an India where every home and business generates its own clean, affordable electricity — powered by Qbits intelligence.
+        </p>
       </div>
     </section>
 
-    <!-- Leadership -->
-    <section class="section-padding bg-white" aria-labelledby="leadership-heading">
-      <div class="container-main">
-        <h2 id="leadership-heading" class="text-3xl font-bold text-slate-900 text-center mb-12">Leadership Team</h2>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
-          {leaders.map(l => (
-            <div class="card text-center">
-              <div class="w-20 h-20 mx-auto rounded-full bg-brand-50 flex items-center justify-center text-brand-600 text-xl font-bold mb-4">
-                {l.initials}
-              </div>
-              <h3 class="text-lg font-bold text-slate-900">{l.name}</h3>
-              <p class="text-sm text-slate-500">{l.role}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <!-- Closing CTA -->
-    <section class="py-20 lg:py-28 bg-slate-900 text-white">
-      <div class="container-main text-center max-w-3xl">
-        <h2 class="text-3xl sm:text-4xl font-bold mb-4">Empowering a Smarter India</h2>
-        <p class="text-lg text-slate-400 leading-relaxed mb-8">
+    <!-- CTA -->
+    <section class="section-padding bg-slate-950 relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-brand-500/10 via-transparent to-accent/10"></div>
+      <div class="container-main relative text-center max-w-3xl">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Empowering a Smarter India</h2>
+        <p class="text-lg text-slate-400 leading-relaxed mb-10">
           Qbits is powering possibilities across India — from homes to industries, from villages to metro cities. Join us in building an energy-independent India.
         </p>
-        <a href="/contact-us/" class="btn-primary">Get in Touch</a>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="/our-products/" class="btn-primary">Explore Products</a>
+          <a href="/contact-us/" class="btn-outline">Get in Touch</a>
+        </div>
       </div>
     </section>
   </main>
 
   <Footer />
 </Layout>
+

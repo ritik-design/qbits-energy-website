@@ -21,9 +21,9 @@ const challenges = [
 <section class="relative py-20 sm:py-28 lg:py-36 overflow-hidden bg-slate-950" aria-labelledby="challenges-heading">
   <!-- Full-width background image -->
   <div class="absolute inset-0">
-    <div class="absolute inset-0 bg-gradient-to-l from-slate-950 via-slate-950/80 to-transparent z-10"></div>
+    <div class="absolute inset-0 bg-gradient-to-l from-slate-950 via-slate-950/90 to-slate-950/70 z-10"></div>
     <img
-      src="/Homepage /built for india.png"
+      src="/homepage/built-for-india.png"
       alt="Indian rooftop solar installation"
       class="w-full h-full object-cover object-center"
       loading="lazy"
@@ -44,18 +44,16 @@ const challenges = [
       </h2>
 
       <div class="mt-10 space-y-4">
-        {challenges.map((item, i) => (
-          <div class="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 sm:p-6 hover:bg-white/10 hover:border-brand-500/30 transition-all duration-500">
-            <div class="flex items-start gap-4">
-              <div class="w-11 h-11 rounded-xl bg-brand-500/10 border border-brand-500/20 flex items-center justify-center shrink-0 group-hover:bg-brand-500 group-hover:border-brand-500 transition-all duration-500">
-                <svg class="w-5 h-5 text-brand-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={item.icon}/>
-                </svg>
-              </div>
-              <div>
-                <h3 class="text-base font-bold text-white mb-1">{item.title}</h3>
-                <p class="text-sm text-slate-400 leading-relaxed">{item.desc}</p>
-              </div>
+        {challenges.map((item) => (
+          <div class="challenge-card flex items-start gap-4 rounded-2xl p-5 sm:p-6 bg-slate-800 border border-slate-600 shadow-lg">
+            <div class="w-11 h-11 rounded-xl bg-brand-500/20 border border-brand-500/40 flex items-center justify-center shrink-0">
+              <svg class="w-5 h-5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={item.icon}/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-base font-bold text-white mb-1">{item.title}</h3>
+              <p class="text-sm text-slate-300 leading-relaxed">{item.desc}</p>
             </div>
           </div>
         ))}

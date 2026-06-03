@@ -1,13 +1,13 @@
 ---
 const products = [
-  { name: '1kW', type: 'residential', specs: 'Single Phase | 1 MPPT', eff: '98.2%' },
-  { name: '3kW', type: 'residential', specs: 'Single Phase | 2 MPPT', eff: '98.4%' },
-  { name: '5kW', type: 'residential', specs: 'Single Phase | 2 MPPT', eff: '98.6%' },
-  { name: '10kW', type: 'residential', specs: 'Three Phase | 2 MPPT', eff: '98.6%' },
-  { name: '15kW', type: 'commercial', specs: 'Three Phase | 2 MPPT', eff: '98.7%' },
-  { name: '25kW', type: 'commercial', specs: 'Three Phase | 3 MPPT', eff: '98.7%' },
-  { name: '50kW', type: 'industrial', specs: 'Three Phase | 6 MPPT', eff: '98.8%' },
-  { name: '110kW', type: 'industrial', specs: 'Three Phase | 12 MPPT', eff: '98.8%' },
+  { name: '1kW', type: 'residential', specs: 'Single Phase | 1 MPPT', eff: '98.2%', image: '/product-images/product-image-2.png' },
+  { name: '3kW', type: 'residential', specs: 'Single Phase | 2 MPPT', eff: '98.4%', image: '/product-images/product-image-4.png' },
+  { name: '5kW', type: 'residential', specs: 'Single Phase | 2 MPPT', eff: '98.6%', image: '/product-images/product-image-2.png' },
+  { name: '10kW', type: 'commercial', specs: 'Three Phase | 2 MPPT', eff: '98.6%', image: '/product-images/product-image-3.png' },
+  { name: '25kW', type: 'commercial', specs: 'Three Phase | 3 MPPT', eff: '98.7%', image: '/product-images/product-image.png' },
+  { name: '50kW', type: 'industrial', specs: 'Three Phase | 6 MPPT', eff: '98.8%', image: '/product-images/product-image-3.png' },
+  { name: '110kW', type: 'industrial', specs: 'Three Phase | 12 MPPT', eff: '98.8%', image: '/product-images/product-image.png' },
+  { name: 'Hybrid', type: 'residential', specs: 'Battery Ready | 2 MPPT', eff: '98%', image: '/product-images/product-5.png' },
 ];
 ---
 
@@ -44,12 +44,16 @@ const products = [
           class={`lineup-card group relative rounded-2xl bg-slate-50 border border-slate-100 p-5 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-500/5 hover:-translate-y-1 transition-all duration-500`}
           data-type={product.type}
         >
-          <div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-slate-100 to-slate-200 mb-4 flex items-center justify-center overflow-hidden">
-            <div class="w-14 h-14 rounded-xl bg-slate-200 border border-slate-300 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-              <svg class="w-7 h-7 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-              </svg>
-            </div>
+          <div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-slate-100 to-slate-200 mb-4 overflow-hidden flex items-center justify-center">
+            {product.image ? (
+              <img src={product.image} alt={product.name} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+            ) : (
+              <div class="w-14 h-14 rounded-xl bg-slate-200 border border-slate-300 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+                <svg class="w-7 h-7 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </div>
+            )}
           </div>
 
           <div class="flex items-center justify-between mb-1">

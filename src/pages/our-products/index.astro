@@ -45,26 +45,30 @@ function getFeatureIcon(feature: string): string {
   <main>
     <!-- Hero -->
     <section class="relative pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-hidden bg-slate-950" aria-labelledby="hero-heading">
-      <div class="absolute inset-0">
+      <div class="absolute inset-0 hidden md:block">
         <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/90 to-slate-950/70 z-10"></div>
         <img src="/images/products-bg.webp" alt="" class="w-full h-full object-cover opacity-40" loading="eager" />
       </div>
-      <div class="container-main relative z-20">
-        <span class="section-label text-brand-400">
+      <div class="container-main relative z-20 text-center md:text-left">
+        <span class="section-label text-brand-400 justify-center md:justify-start">
           <span class="w-8 h-px bg-brand-500"></span>
           Our Products
         </span>
-        <h1 id="hero-heading" class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mt-6 leading-tight max-w-4xl">
+        <h1 id="hero-heading" class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mt-6 leading-tight max-w-4xl mx-auto md:mx-0">
           Qbits Solar Inverters <span class="text-gradient">Smarter Power for a Brighter Tomorrow</span>
         </h1>
-        <p class="mt-6 text-lg text-slate-400 max-w-3xl leading-relaxed">
+        <p class="mt-6 text-lg text-slate-400 max-w-3xl leading-relaxed mx-auto md:mx-0">
           At Qbits Energy, we don't just make inverters — we design peace of mind. Built for Indian homes and businesses, our solar inverters deliver steady, efficient, and intelligent power in every condition. Whether it's your cozy home, busy office, or large industrial setup — Qbits gives you clean energy, easy control, and lasting reliability.
         </p>
-        <p class="mt-4 text-lg text-slate-400 max-w-3xl leading-relaxed">
+        <p class="mt-4 text-lg text-slate-400 max-w-3xl leading-relaxed mx-auto md:mx-0">
           Explore our range of On-Grid and Hybrid Solar Inverters, thoughtfully designed to make solar energy simpler and more rewarding.
         </p>
         <div class="mt-8">
           <a href="/download-datasheets/" class="btn-primary">Download Data Sheet</a>
+        </div>
+        <!-- Product Image - Mobile Only -->
+        <div class="mt-10 md:hidden flex justify-center">
+          <img src="/product-images/product-image.png" alt="Qbits Solar Inverter" class="max-h-[260px] w-auto object-contain" loading="eager" />
         </div>
       </div>
     </section>

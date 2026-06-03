@@ -6,9 +6,11 @@ function isExternal(href: string): boolean {
 }
 
 const navLinks = [
-  { label: 'Products', href: '/our-products/' },
-  { label: 'On-Grid', href: '/on-grid-inverter/' },
-  { label: 'Hybrid', href: '/hybrid-inverter/' },
+  { label: 'Products', href: '#', children: [
+    { label: 'Our Products', href: '/our-products/' },
+    { label: 'On-Grid', href: '/on-grid-inverter/' },
+    { label: 'Hybrid', href: '/hybrid-inverter/' },
+  ]},
   { label: 'Solutions', href: '#', children: [
     { label: 'Residential', href: '/residential-solution/' },
     { label: 'Commercial & Industrial', href: '/c-i-solution/' },

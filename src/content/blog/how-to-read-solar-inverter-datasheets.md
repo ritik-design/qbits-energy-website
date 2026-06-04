@@ -5,7 +5,7 @@ description: "Learn how to read a solar inverter datasheet the way an EPC procur
 category: "Guide"
 date: 2026-05-11
 readTime: "12 min"
-image: "/images/features.png"
+image: "/blog-images/how-to-read-solar-inverter-datasheets.svg"
 author: "Qbits Editorial"
 keywords:
   - solar inverter datasheet

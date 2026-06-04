@@ -5,7 +5,7 @@ description: "Diagnose and resolve the 15 most common solar inverter issues — 
 category: "Maintenance"
 date: 2026-03-13
 readTime: "16 min"
-image: "/images/products-bg.jpg"
+image: "/blog-images/solar-inverter-troubleshooting.svg"
 author: "Qbits Editorial"
 keywords:
   - solar inverter troubleshooting

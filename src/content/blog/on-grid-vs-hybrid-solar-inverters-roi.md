@@ -5,7 +5,7 @@ description: "Compare on-grid and hybrid solar inverters across upfront cost, 25
 category: "Buying Guide"
 date: 2026-04-08
 readTime: "14 min"
-image: "/images/ongrid-commercial.jpg"
+image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
 author: "Qbits Editorial"
 keywords:
   - on-grid vs hybrid inverter

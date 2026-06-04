@@ -5,7 +5,7 @@ description: "Learn how to evaluate inverter MPPT specifications — number of c
 category: "Technology"
 date: 2026-05-06
 readTime: "11 min"
-image: "/images/hybrid.jpg"
+image: "/blog-images/inverter-mppt.svg"
 author: "Qbits Editorial"
 keywords:
   - inverter MPPT

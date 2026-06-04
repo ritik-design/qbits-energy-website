@@ -5,7 +5,7 @@ description: "Compare the top solar inverter brands for the Indian market in 202
 category: "Buying Guide"
 date: 2026-04-08
 readTime: "10 min"
-image: "/images/partner-1.png"
+image: "/blog-images/qbits-vs-sungrow-vs-growatt.svg"
 author: "Qbits Editorial"
 keywords:
   - solar inverter brands comparison

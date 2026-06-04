@@ -1,0 +1,25 @@
+<svg viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Inverter Financing Options India">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="55%" stop-color="#064e3b"/><stop offset="100%" stop-color="#049D65"/></linearGradient>
+    <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="1.4" fill="#ffffff" opacity="0.15"/></pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#F69133"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <circle cx="1380" cy="180" r="280" fill="#fbbf24" opacity="0.12"/>
+  <circle cx="180" cy="900" r="220" fill="#34d399" opacity="0.12"/>
+  <g transform="translate(1180 580)" opacity="0.95">
+    <rect width="320" height="240" rx="14" fill="#ffffff" opacity="0.08" stroke="#fbbf24" stroke-opacity="0.4"/>
+    <text x="160" y="60" font-family="Inter,sans-serif" font-size="22" fill="#ffffff" opacity="0.6" text-anchor="middle" font-weight="600">FINANCING</text>
+    <text x="160" y="150" font-family="Inter,sans-serif" font-size="64" font-weight="800" fill="#fbbf24" text-anchor="middle">9.5-14%</text>
+    <text x="160" y="195" font-family="Inter,sans-serif" font-size="22" fill="#ffffff" opacity="0.6" text-anchor="middle">EMI rates 2026</text>
+  </g>
+  <g transform="translate(110 360)">
+    <rect width="290" height="56" rx="28" fill="#ffffff" fill-opacity="0.10" stroke="#fbbf24" stroke-opacity="0.5"/>
+    <text x="145" y="36" font-family="Inter,system-ui,sans-serif" font-size="20" font-weight="700" fill="#fbbf24" text-anchor="middle" letter-spacing="4">BUYING GUIDE</text>
+  </g>
+  <text x="110" y="540" font-family="Inter,system-ui,sans-serif" font-size="92" font-weight="800" fill="#ffffff" letter-spacing="-1.5">Inverter Financing</text>
+  <text x="110" y="640" font-family="Inter,system-ui,sans-serif" font-size="92" font-weight="800" fill="#ffffff" letter-spacing="-1.5">Options India</text>
+  <text x="110" y="720" font-family="Inter,system-ui,sans-serif" font-size="40" font-weight="500" fill="url(#accent)">Complete Guide 2026</text>
+  <text x="110" y="900" font-family="Inter,system-ui,sans-serif" font-size="26" font-weight="800" fill="#34d399" letter-spacing="6">QBITS ENERGY</text>
+</svg>

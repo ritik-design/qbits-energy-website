@@ -1,0 +1,318 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import HeaderV2 from '../../components/HeaderV2.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('glossary');
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const {
+  term,
+  title,
+  description,
+  category,
+  categorySlug,
+  shortDefinition,
+  keywords = [],
+  priority,
+  updatedDate,
+  quickFacts,
+  relatedTerms = [],
+  faqs = [],
+} = entry.data;
+
+const toc = headings.filter((h) => h.depth === 2);
+
+const canonicalUrl = `/glossary/${entry.id}/`;
+const siteUrl = 'https://qbitsenergy.com';
+const fullUrl = `${siteUrl}${canonicalUrl}`;
+const updatedIso = updatedDate ? new Date(updatedDate).toISOString() : new Date().toISOString();
+const updatedHuman = (updatedDate ? new Date(updatedDate) : new Date()).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+// DefinedTerm schema
+const definedTermSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTerm',
+  name: term,
+  description: shortDefinition,
+  url: fullUrl,
+  inDefinedTermSet: {
+    '@type': 'DefinedTermSet',
+    name: 'Qbits Energy Solar Glossary',
+    url: `${siteUrl}/glossary/`,
+  },
+  termCode: entry.id,
+};
+
+// FAQ schema
+const faqSchema = faqs.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+} : null;
+
+// Breadcrumb schema
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Glossary', item: `${siteUrl}/glossary/` },
+    { '@type': 'ListItem', position: 3, name: term, item: fullUrl },
+  ],
+};
+
+// Article schema
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'TechArticle',
+  headline: title,
+  description: description,
+  datePublished: updatedIso,
+  dateModified: updatedIso,
+  author: { '@type': 'Organization', name: 'Qbits Energy', url: siteUrl },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Qbits Energy',
+    logo: { '@type': 'ImageObject', url: `${siteUrl}/images/logo.png` },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': fullUrl },
+  keywords: keywords.join(', '),
+  articleSection: category,
+  proficiencyLevel: 'Beginner, Intermediate, Expert',
+};
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <HeaderV2 />
+
+  <script type="application/ld+json" set:html={JSON.stringify(definedTermSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+
+  <main class="pt-[104px] lg:pt-[120px] bg-white">
+    <!-- Hero -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+      <div class="absolute -top-40 -right-40 w-[28rem] h-[28rem] bg-brand-500/20 rounded-full blur-3xl"></div>
+
+      <div class="container-main relative py-14 lg:py-20">
+        <nav class="flex items-center gap-2 text-xs text-slate-400 mb-6 flex-wrap" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-white transition">Home</a>
+          <span>/</span>
+          <a href="/glossary/" class="hover:text-white transition">Glossary</a>
+          <span>/</span>
+          <span class="text-slate-300">{term}</span>
+        </nav>
+
+        <div class="max-w-4xl">
+          <div class="flex items-center gap-3 flex-wrap">
+            <span class="inline-flex items-center gap-2 text-brand-400 font-bold uppercase tracking-wider text-xs bg-brand-500/15 ring-1 ring-brand-500/30 px-3 py-1.5 rounded-full">
+              <span class="w-1.5 h-1.5 rounded-full bg-brand-400"></span>
+              {category}
+            </span>
+            <span class="text-xs text-slate-400">Updated {updatedHuman}</span>
+          </div>
+
+          <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.05] tracking-tight">{term}</h1>
+
+          <!-- Featured-snippet definition box -->
+          <div class="mt-8 rounded-2xl bg-white/5 ring-1 ring-white/10 backdrop-blur p-6 sm:p-7">
+            <div class="flex items-center gap-2 text-brand-400 text-xs font-bold uppercase tracking-wider mb-3">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              Quick Definition
+            </div>
+            <p class="text-lg sm:text-xl text-white leading-relaxed">{shortDefinition}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Facts table -->
+    {quickFacts && (
+      <section class="border-b border-slate-200 bg-slate-50/50">
+        <div class="container-main py-10 lg:py-12">
+          <h2 class="text-sm font-bold uppercase tracking-wider text-brand-600 mb-5 flex items-center gap-2">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Quick Facts
+          </h2>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <div class="rounded-xl bg-white ring-1 ring-slate-200 p-4"><div class="text-[11px] font-bold uppercase tracking-wider text-slate-500">Term</div><div class="mt-1 text-slate-900 font-semibold">{term}</div></div>
+            <div class="rounded-xl bg-white ring-1 ring-slate-200 p-4"><div class="text-[11px] font-bold uppercase tracking-wider text-slate-500">Category</div><div class="mt-1 text-slate-900 font-semibold">{category}</div></div>
+            {quickFacts.industry && <div class="rounded-xl bg-white ring-1 ring-slate-200 p-4"><div class="text-[11px] font-bold uppercase tracking-wider text-slate-500">Industry</div><div class="mt-1 text-slate-900 font-semibold">{quickFacts.industry}</div></div>}
+            {quickFacts.primaryUse && <div class="rounded-xl bg-white ring-1 ring-slate-200 p-4"><div class="text-[11px] font-bold uppercase tracking-wider text-slate-500">Primary Use</div><div class="mt-1 text-slate-900 font-semibold">{quickFacts.primaryUse}</div></div>}
+            {quickFacts.commonUsers && <div class="rounded-xl bg-white ring-1 ring-slate-200 p-4"><div class="text-[11px] font-bold uppercase tracking-wider text-slate-500">Common Users</div><div class="mt-1 text-slate-900 font-semibold">{quickFacts.commonUsers}</div></div>}
+            {quickFacts.relevantStandards && <div class="rounded-xl bg-white ring-1 ring-slate-200 p-4"><div class="text-[11px] font-bold uppercase tracking-wider text-slate-500">Standards</div><div class="mt-1 text-slate-900 font-semibold">{quickFacts.relevantStandards}</div></div>}
+            {quickFacts.relatedTechnologies && <div class="rounded-xl bg-white ring-1 ring-slate-200 p-4 sm:col-span-2 lg:col-span-3"><div class="text-[11px] font-bold uppercase tracking-wider text-slate-500">Related Technologies</div><div class="mt-1 text-slate-900 font-semibold">{quickFacts.relatedTechnologies}</div></div>}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- Body + sidebar -->
+    <section class="py-16 lg:py-20">
+      <div class="container-main">
+        <div class="grid lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
+          <article>
+            <div class="blog-content glossary-content">
+              <Content />
+            </div>
+
+            <!-- FAQ -->
+            {faqs.length > 0 && (
+              <div class="mt-16 pt-12 border-t border-slate-200" id="faqs">
+                <div class="flex items-center gap-3 mb-8">
+                  <span class="text-brand-600 font-bold uppercase tracking-wider text-xs bg-brand-500/10 px-3 py-1 rounded-full">FAQ</span>
+                  <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Frequently Asked Questions</h2>
+                </div>
+                <div class="space-y-3">
+                  {faqs.map((f, i) => (
+                    <details class="group rounded-xl border border-slate-200 bg-white hover:border-brand-300 transition-colors" open={i === 0}>
+                      <summary class="flex items-center justify-between cursor-pointer list-none p-5 sm:p-6">
+                        <span class="font-semibold text-slate-900 text-base sm:text-lg pr-4">{f.q}</span>
+                        <span class="flex-shrink-0 w-8 h-8 rounded-full bg-slate-100 group-hover:bg-brand-500 group-hover:text-white text-slate-600 flex items-center justify-center transition-all">
+                          <svg class="w-4 h-4 transition-transform group-open:rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+                        </span>
+                      </summary>
+                      <div class="px-5 sm:px-6 pb-6 -mt-2 text-slate-600 leading-relaxed">{f.a}</div>
+                    </details>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <!-- Related terms -->
+            {relatedTerms.length > 0 && (
+              <div class="mt-16 pt-12 border-t border-slate-200" id="related-terms">
+                <div class="flex items-center gap-3 mb-6">
+                  <span class="text-brand-600 font-bold uppercase tracking-wider text-xs bg-brand-500/10 px-3 py-1 rounded-full">Keep Learning</span>
+                  <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Related Terms</h2>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {relatedTerms.map((r) => (
+                    <a href={`/glossary/${r.slug}/`} class="group flex items-center justify-between gap-3 rounded-xl ring-1 ring-slate-200 bg-white hover:ring-brand-300 hover:bg-brand-50/30 p-4 transition-all">
+                      <span class="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">{r.term}</span>
+                      <svg class="w-4 h-4 text-slate-300 group-hover:text-brand-500 group-hover:translate-x-0.5 transition-all flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <!-- Back link -->
+            <div class="mt-12 pt-8 border-t border-slate-200">
+              <a href="/glossary/" class="inline-flex items-center gap-2 text-brand-600 hover:text-brand-700 font-semibold">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                Back to Glossary
+              </a>
+            </div>
+          </article>
+
+          <!-- Sticky sidebar -->
+          <aside class="lg:block">
+            <div class="lg:sticky lg:top-32 space-y-6">
+              <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-brand-600 via-brand-700 to-slate-900 p-6 text-white shadow-xl">
+                <div class="absolute -top-10 -right-10 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
+                <div class="relative">
+                  <span class="inline-block text-[10px] font-bold uppercase tracking-widest bg-white/15 px-2.5 py-1 rounded-full">Free Consultation</span>
+                  <h3 class="mt-4 text-xl font-bold leading-tight">Need this for a real project?</h3>
+                  <p class="mt-2 text-sm text-white/85 leading-relaxed">Qbits engineers can size, specify and certify systems across India.</p>
+                  <a href="/contact-us/" class="mt-5 inline-flex items-center gap-2 bg-white text-brand-700 text-sm font-bold px-4 py-2.5 rounded-lg hover:bg-slate-100 transition">
+                    Talk To Sales
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                  </a>
+                </div>
+              </div>
+
+              {toc.length > 0 && (
+                <nav class="rounded-2xl ring-1 ring-slate-200 bg-white p-6" aria-label="Table of contents">
+                  <div class="flex items-center gap-2 mb-4">
+                    <svg class="w-4 h-4 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"/></svg>
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-500">On this page</span>
+                  </div>
+                  <ul class="space-y-2 text-sm">
+                    {toc.map((t) => (
+                      <li>
+                        <a href={`#${t.slug}`} class="toc-link block py-1.5 pl-3 border-l-2 border-slate-200 text-slate-600 hover:text-brand-600 hover:border-brand-500 transition-colors">{t.text}</a>
+                      </li>
+                    ))}
+                    {faqs.length > 0 && <li><a href="#faqs" class="toc-link block py-1.5 pl-3 border-l-2 border-slate-200 text-slate-600 hover:text-brand-600 hover:border-brand-500 transition-colors">Frequently Asked Questions</a></li>}
+                    {relatedTerms.length > 0 && <li><a href="#related-terms" class="toc-link block py-1.5 pl-3 border-l-2 border-slate-200 text-slate-600 hover:text-brand-600 hover:border-brand-500 transition-colors">Related Terms</a></li>}
+                  </ul>
+                </nav>
+              )}
+
+              <div class="rounded-2xl ring-1 ring-slate-200 bg-white p-6">
+                <h4 class="font-bold text-slate-900">More resources</h4>
+                <p class="text-sm text-slate-500 mt-1">Browse Qbits inverters and downloads</p>
+                <div class="mt-4 space-y-2">
+                  <a href="/our-products/" class="block text-sm font-semibold text-brand-600 hover:text-brand-700">Solar inverters →</a>
+                  <a href="/download-datasheets/" class="block text-sm font-semibold text-brand-600 hover:text-brand-700">Datasheets →</a>
+                  <a href="/blog/" class="block text-sm font-semibold text-brand-600 hover:text-brand-700">Engineering blog →</a>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-slate-950 via-brand-900 to-slate-950">
+      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+      <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[40rem] h-[40rem] bg-brand-500/20 rounded-full blur-3xl"></div>
+      <div class="container-main relative py-20 lg:py-24">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">Looking for high-performance {category.toLowerCase()}?</h2>
+          <p class="mt-5 text-base sm:text-lg text-slate-300 max-w-xl mx-auto">Explore Qbits Energy's range of residential, commercial and industrial inverter solutions — engineered for India.</p>
+          <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="/contact-us/" class="btn-primary text-sm py-3.5 px-8">Talk To An Engineer</a>
+            <a href="/our-products/" class="btn-outline text-sm py-3.5 px-8">Explore Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  const links = document.querySelectorAll<HTMLAnchorElement>('.toc-link');
+  const targets = Array.from(links)
+    .map((l) => document.querySelector(l.getAttribute('href') || ''))
+    .filter((el): el is Element => !!el);
+
+  if (targets.length) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            links.forEach((l) => {
+              const active = l.getAttribute('href') === `#${id}`;
+              l.classList.toggle('text-brand-600', active);
+              l.classList.toggle('border-brand-500', active);
+              l.classList.toggle('font-semibold', active);
+            });
+          }
+        });
+      },
+      { rootMargin: '-30% 0px -60% 0px' }
+    );
+    targets.forEach((t) => observer.observe(t));
+  }
+</script>

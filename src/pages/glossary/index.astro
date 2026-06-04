@@ -1,0 +1,314 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import HeaderV2 from '../../components/HeaderV2.astro';
+import Footer from '../../components/Footer.astro';
+
+const all = await getCollection('glossary');
+const terms = all
+  .map((t) => ({
+    slug: t.id,
+    term: t.data.term,
+    category: t.data.category,
+    categorySlug: t.data.categorySlug,
+    shortDefinition: t.data.shortDefinition,
+    priority: t.data.priority,
+  }))
+  .sort((a, b) => a.term.localeCompare(b.term));
+
+// Canonical list of 21 categories with display order
+const categoryOrder: { slug: string; name: string; icon: string; blurb: string }[] = [
+  { slug: 'inverter-types', name: 'Inverter Types', icon: 'M13 10V3L4 14h7v7l9-11h-7z', blurb: 'On-grid, off-grid, hybrid, string, micro & MPPT vs PWM' },
+  { slug: 'electrical-basics', name: 'Electrical Basics', icon: 'M13 10V3L4 14h7v7l9-11h-7z', blurb: 'AC, DC, voltage, current, watt-hours' },
+  { slug: 'panels-modules', name: 'Panels & Modules', icon: 'M4 6h16M4 12h16M4 18h16', blurb: 'Mono, poly, bifacial, PV module fundamentals' },
+  { slug: 'metering-grid', name: 'Metering & Grid', icon: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3', blurb: 'Net, gross, net-billing, grid-tied, zero export' },
+  { slug: 'solar-resource', name: 'Solar Resource', icon: 'M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707', blurb: 'GHI, DNI, peak sun hours, azimuth, tilt' },
+  { slug: 'system-layout', name: 'System Layout', icon: 'M4 6h16M4 12h16M4 18h16', blurb: 'Array, string, combiner & junction boxes, cables' },
+  { slug: 'batteries', name: 'Batteries', icon: 'M9 7h6m-6 4h6m-6 4h6M5 5h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2z', blurb: 'Li-ion, lead-acid, SOC, DOD, cycle life' },
+  { slug: 'performance-efficiency', name: 'Performance & Efficiency', icon: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z', blurb: 'CUF, PLF, LCOE, yield, payback' },
+  { slug: 'warranty-ratings', name: 'Warranty & Ratings', icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z', blurb: 'IP, NEMA, THD, degradation, warranty' },
+  { slug: 'protection', name: 'Protection', icon: 'M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z', blurb: 'SPD, MCB, RCCB, anti-islanding, isolators' },
+  { slug: 'power-quality', name: 'Power Quality', icon: 'M13 10V3L4 14h7v7l9-11h-7z', blurb: 'Reactive, apparent, real power, power factor, THD' },
+  { slug: 'semiconductors', name: 'Semiconductors', icon: 'M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z', blurb: 'IGBT, MOSFET, SiC, switching frequency' },
+  { slug: 'mppt-strings', name: 'MPPT & Strings', icon: 'M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z', blurb: 'MPPT trackers, Voc, Isc, string design' },
+  { slug: 'communications', name: 'Communications', icon: 'M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z', blurb: 'Modbus, RS485, SunSpec' },
+  { slug: 'standards', name: 'Standards', icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z', blurb: 'IEC, IS, UL, CE, RoHS, VDE' },
+  { slug: 'grid-compliance', name: 'Grid Compliance', icon: 'M13 10V3L4 14h7v7l9-11h-7z', blurb: 'LVRT, FRT, ride-through, harmonic limits' },
+  { slug: 'policies', name: 'Policies', icon: 'M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9', blurb: 'PM Surya Ghar, MNRE, ALMM, DISCOM' },
+  { slug: 'finance', name: 'Finance', icon: 'M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z', blurb: 'CAPEX, OPEX, PPA, RESCO, EMI, IREDA' },
+  { slug: 'regulatory', name: 'Regulatory', icon: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z', blurb: 'CERC, SERC, RPO, REC, open access' },
+  { slug: 'esg', name: 'ESG', icon: 'M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z', blurb: 'Carbon credit, ISO 14001, ESG reporting' },
+  { slug: 'installation', name: 'Installation', icon: 'M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z', blurb: 'Site survey, mounting, commissioning, CEIG' },
+];
+
+const countsBySlug = new Map<string, number>();
+terms.forEach((t) => countsBySlug.set(t.categorySlug, (countsBySlug.get(t.categorySlug) || 0) + 1));
+
+const totalPlanned = 150;
+const totalPublished = terms.length;
+const totalCategories = categoryOrder.length;
+
+// A-Z index
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const termsByLetter = new Map<string, typeof terms>();
+terms.forEach((t) => {
+  const letter = t.term[0].toUpperCase();
+  if (!termsByLetter.has(letter)) termsByLetter.set(letter, [] as any);
+  (termsByLetter.get(letter) as any).push(t);
+});
+
+const canonicalUrl = '/glossary/';
+const siteUrl = 'https://qbitsenergy.com';
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Solar Glossary', item: `${siteUrl}${canonicalUrl}` },
+  ],
+};
+
+const collectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTermSet',
+  name: 'Qbits Energy Solar Glossary',
+  description: 'India\'s most comprehensive glossary of solar inverter, battery, electrical and policy terminology.',
+  url: `${siteUrl}${canonicalUrl}`,
+  hasDefinedTerm: terms.map((t) => ({
+    '@type': 'DefinedTerm',
+    name: t.term,
+    url: `${siteUrl}/glossary/${t.slug}/`,
+    inDefinedTermSet: `${siteUrl}${canonicalUrl}`,
+  })),
+};
+---
+
+<Layout
+  title="Solar Glossary | 150+ Solar Inverter & Energy Terms Explained | Qbits Energy"
+  description="India's most comprehensive solar glossary. Definitions, formulas and engineering context for 150+ inverter, battery, grid, finance and policy terms."
+  canonical={canonicalUrl}
+>
+  <HeaderV2 />
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
+
+  <main class="pt-[104px] lg:pt-[120px] bg-white">
+    <!-- Hero -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+      <div class="absolute -top-40 -right-40 w-[28rem] h-[28rem] bg-brand-500/20 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-40 -left-40 w-[28rem] h-[28rem] bg-accent/10 rounded-full blur-3xl"></div>
+
+      <div class="container-main relative py-16 lg:py-24">
+        <nav class="flex items-center gap-2 text-xs text-slate-400 mb-8" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-white transition">Home</a>
+          <span>/</span>
+          <span class="text-slate-300">Glossary</span>
+        </nav>
+
+        <div class="max-w-3xl">
+          <span class="inline-flex items-center gap-2 text-brand-400 font-bold uppercase tracking-wider text-xs bg-brand-500/15 ring-1 ring-brand-500/30 px-3 py-1.5 rounded-full">
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-400"></span>
+            Knowledge Base
+          </span>
+          <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.05] tracking-tight">
+            Solar <span class="text-gradient">Glossary</span>
+          </h1>
+          <p class="mt-6 text-lg text-slate-300 leading-relaxed max-w-2xl">
+            India's most comprehensive A-to-Z dictionary of solar inverter, battery, grid, finance and policy terms — written by engineers, built for installers, EPCs and decision-makers.
+          </p>
+
+          <!-- Stats -->
+          <div class="mt-10 grid grid-cols-3 gap-4 max-w-xl">
+            <div class="rounded-xl bg-white/5 ring-1 ring-white/10 px-4 py-4">
+              <div class="text-2xl sm:text-3xl font-bold text-white">{totalPublished}<span class="text-brand-400">+</span></div>
+              <div class="text-xs text-slate-400 mt-1">Published terms</div>
+            </div>
+            <div class="rounded-xl bg-white/5 ring-1 ring-white/10 px-4 py-4">
+              <div class="text-2xl sm:text-3xl font-bold text-white">{totalCategories}</div>
+              <div class="text-xs text-slate-400 mt-1">Categories</div>
+            </div>
+            <div class="rounded-xl bg-white/5 ring-1 ring-white/10 px-4 py-4">
+              <div class="text-2xl sm:text-3xl font-bold text-white">{totalPlanned}</div>
+              <div class="text-xs text-slate-400 mt-1">In the roadmap</div>
+            </div>
+          </div>
+
+          <!-- Search -->
+          <div class="mt-10 relative max-w-2xl">
+            <svg class="w-5 h-5 absolute left-5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
+            <input
+              id="glossary-search"
+              type="search"
+              placeholder="Search 150+ terms — try 'MPPT', 'net metering', 'IGBT'…"
+              class="w-full rounded-full bg-white/10 ring-1 ring-white/15 focus:ring-brand-400 focus:bg-white/15 outline-none text-white placeholder:text-slate-400 pl-14 pr-5 py-4 text-sm sm:text-base transition"
+              aria-label="Search glossary"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- A-Z jump bar -->
+    <section class="sticky top-[88px] lg:top-[104px] z-30 bg-white/90 backdrop-blur border-b border-slate-200">
+      <div class="container-main py-3 overflow-x-auto">
+        <div class="flex items-center gap-1.5 min-w-max">
+          {alphabet.map((letter) => {
+            const has = termsByLetter.has(letter);
+            return has ? (
+              <a href={`#letter-${letter}`} class="az-link w-8 h-8 rounded-md flex items-center justify-center text-sm font-semibold text-slate-700 hover:bg-brand-500 hover:text-white transition-colors">{letter}</a>
+            ) : (
+              <span class="w-8 h-8 rounded-md flex items-center justify-center text-sm font-medium text-slate-300 cursor-not-allowed">{letter}</span>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="py-16 lg:py-20 bg-slate-50" aria-labelledby="categories-heading">
+      <div class="container-main">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+          <div>
+            <span class="section-label">
+              <span class="w-8 h-px bg-brand-500"></span>
+              Browse by topic
+            </span>
+            <h2 id="categories-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-4">21 categories of solar knowledge</h2>
+          </div>
+          <p class="text-sm text-slate-500 max-w-md">From electrical fundamentals to MNRE policy and CEIG approvals — every concept an installer or engineer touches.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {categoryOrder.map((cat) => {
+            const count = countsBySlug.get(cat.slug) || 0;
+            return (
+              <div class={`group relative rounded-2xl bg-white ring-1 ring-slate-200 p-6 ${count > 0 ? 'hover:ring-brand-300 hover:shadow-lg hover:shadow-brand-500/5' : 'opacity-75'} transition-all`}>
+                <div class="flex items-start gap-4">
+                  <div class="flex-shrink-0 w-11 h-11 rounded-xl bg-brand-500/10 text-brand-600 flex items-center justify-center group-hover:bg-brand-500 group-hover:text-white transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={cat.icon}/></svg>
+                  </div>
+                  <div class="flex-1 min-w-0">
+                    <div class="flex items-center justify-between gap-2">
+                      <h3 class="font-bold text-slate-900 leading-tight">{cat.name}</h3>
+                      <span class={`flex-shrink-0 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${count > 0 ? 'bg-brand-500/10 text-brand-700' : 'bg-slate-100 text-slate-500'}`}>
+                        {count > 0 ? `${count} live` : 'Soon'}
+                      </span>
+                    </div>
+                    <p class="text-sm text-slate-500 mt-1.5 leading-snug">{cat.blurb}</p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+
+    <!-- All terms A-Z -->
+    <section class="py-16 lg:py-20 bg-white" aria-labelledby="all-terms-heading">
+      <div class="container-main">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+          <div>
+            <span class="section-label">
+              <span class="w-8 h-px bg-brand-500"></span>
+              A to Z
+            </span>
+            <h2 id="all-terms-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-4">Every published term</h2>
+          </div>
+          <div class="text-sm text-slate-500">Showing <span id="visible-count">{totalPublished}</span> of {totalPublished}</div>
+        </div>
+
+        {totalPublished === 0 ? (
+          <div class="rounded-2xl ring-1 ring-slate-200 bg-slate-50 p-12 text-center">
+            <p class="text-slate-600">No terms published yet — check back soon.</p>
+          </div>
+        ) : (
+          <div class="space-y-12" id="terms-root">
+            {alphabet
+              .filter((l) => termsByLetter.has(l))
+              .map((letter) => (
+                <div id={`letter-${letter}`} class="letter-block scroll-mt-40">
+                  <div class="flex items-baseline gap-4 mb-5">
+                    <div class="text-3xl sm:text-4xl font-bold text-brand-500">{letter}</div>
+                    <div class="flex-1 h-px bg-gradient-to-r from-brand-500/30 to-transparent"></div>
+                    <span class="text-xs text-slate-400 font-medium">{(termsByLetter.get(letter) as any).length} term{(termsByLetter.get(letter) as any).length > 1 ? 's' : ''}</span>
+                  </div>
+                  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {(termsByLetter.get(letter) as any).map((t: any) => (
+                      <a
+                        href={`/glossary/${t.slug}/`}
+                        class="glossary-card group block rounded-xl ring-1 ring-slate-200 bg-white hover:ring-brand-300 hover:shadow-md hover:-translate-y-0.5 transition-all p-5"
+                        data-term={t.term.toLowerCase()}
+                        data-category={t.categorySlug}
+                      >
+                        <div class="flex items-start justify-between gap-3 mb-2">
+                          <h3 class="font-bold text-slate-900 group-hover:text-brand-600 transition-colors leading-tight">{t.term}</h3>
+                          <svg class="w-4 h-4 text-slate-300 group-hover:text-brand-500 group-hover:translate-x-0.5 transition-all flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        </div>
+                        <p class="text-sm text-slate-500 line-clamp-2 leading-snug">{t.shortDefinition}</p>
+                        <div class="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between">
+                          <span class="text-[10px] font-bold uppercase tracking-wider text-brand-700 bg-brand-50 px-2 py-0.5 rounded-full">{t.category}</span>
+                          <span class="text-xs text-slate-400 group-hover:text-brand-600 transition-colors font-medium">Read →</span>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            <div id="no-results" class="hidden rounded-2xl ring-1 ring-slate-200 bg-slate-50 p-12 text-center">
+              <p class="text-slate-600">No terms match your search.</p>
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-slate-950 via-brand-900 to-slate-950">
+      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+      <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[40rem] h-[40rem] bg-brand-500/20 rounded-full blur-3xl"></div>
+      <div class="container-main relative py-20 lg:py-24">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">From definitions to deployment</h2>
+          <p class="mt-5 text-base sm:text-lg text-slate-300 max-w-xl mx-auto">Talk to a Qbits engineer about applying any of these concepts to your next solar project.</p>
+          <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="/contact-us/" class="btn-primary text-sm py-3.5 px-8">Talk To An Engineer</a>
+            <a href="/our-products/" class="btn-outline text-sm py-3.5 px-8">Explore Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  const search = document.getElementById('glossary-search') as HTMLInputElement | null;
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('.glossary-card'));
+  const letterBlocks = Array.from(document.querySelectorAll<HTMLElement>('.letter-block'));
+  const visibleCount = document.getElementById('visible-count');
+  const noResults = document.getElementById('no-results');
+  const totalCount = cards.length;
+
+  search?.addEventListener('input', () => {
+    const q = search.value.trim().toLowerCase();
+    let shown = 0;
+    cards.forEach((card) => {
+      const term = card.dataset.term || '';
+      const cat = card.dataset.category || '';
+      const match = !q || term.includes(q) || cat.includes(q);
+      card.classList.toggle('hidden', !match);
+      if (match) shown++;
+    });
+    letterBlocks.forEach((block) => {
+      const anyVisible = block.querySelectorAll('.glossary-card:not(.hidden)').length > 0;
+      block.classList.toggle('hidden', !anyVisible);
+    });
+    if (visibleCount) visibleCount.textContent = String(shown);
+    if (noResults) noResults.classList.toggle('hidden', shown > 0);
+  });
+</script>

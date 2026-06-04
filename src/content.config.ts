@@ -20,4 +20,32 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+const glossary = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/glossary' }),
+  schema: z.object({
+    term: z.string(),
+    title: z.string(),
+    description: z.string(),
+    category: z.string(),
+    categorySlug: z.string(),
+    shortDefinition: z.string(),
+    keywords: z.array(z.string()).optional(),
+    priority: z.enum(['P0', 'P1', 'P2']).default('P1'),
+    updatedDate: z.coerce.date().optional(),
+    quickFacts: z
+      .object({
+        industry: z.string().optional(),
+        primaryUse: z.string().optional(),
+        commonUsers: z.string().optional(),
+        relevantStandards: z.string().optional(),
+        relatedTechnologies: z.string().optional(),
+      })
+      .optional(),
+    relatedTerms: z
+      .array(z.object({ slug: z.string(), term: z.string() }))
+      .optional(),
+    faqs: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
+  }),
+});
+
+export const collections = { blog, glossary };

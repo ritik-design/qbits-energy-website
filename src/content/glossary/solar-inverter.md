@@ -289,3 +289,15 @@ For C&I projects above 1 MW, a CEIG (Chief Electrical Inspector) approval is req
 - Modern weighted efficiency is 96.5–98%; every percentage point compounds over a 25-year project life.
 - In India, BIS certification + MNRE ALMM listing + DISCOM approval are non-negotiable before energisation.
 - Inverter selection should optimise for **MPPT range, climate derating, firmware maturity, service network and total lifecycle cost** — not the lowest sticker price.
+
+## Sources
+
+- IEC 62109-1:2010 and IEC 62109-2:2011, Safety of power converters for use in photovoltaic power systems, International Electrotechnical Commission.
+- IEC 61727:2004, Photovoltaic systems: Characteristics of the utility interface, International Electrotechnical Commission.
+- IEC 62116:2014, Utility-interconnected photovoltaic inverters: Test procedure of islanding prevention measures, International Electrotechnical Commission.
+- IS 16221 and IS 17387, Indian Standards for solar PV inverter safety and grid interconnection, Bureau of Indian Standards.
+- MNRE Approved List of Models and Manufacturers (ALMM), Ministry of New and Renewable Energy, Government of India.
+- CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019, Central Electricity Authority of India.
+- EN 50530:2010, Overall efficiency of grid connected photovoltaic inverters, European Committee for Electrotechnical Standardization.
+- NREL Technical Report TP-5D00-72399, Power Electronics for Photovoltaic Systems.
+- Teodorescu R., Liserre M., Rodriguez P., Grid Converters for Photovoltaic and Wind Power Systems, Wiley-IEEE Press.

@@ -4,24 +4,37 @@ import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 
-const inverters = [
-  { name: 'QB 1.5-4.0KTLS', vmax: 500, vmpptMin: 50 },
-  { name: 'QB 4.6-6KTLS', vmax: 500, vmpptMin: 50 },
-  { name: 'QB 4-6KTLD', vmax: 500, vmpptMin: 50 },
-  { name: 'QB 6-17KTLC', vmax: 850, vmpptMin: 200 },
-  { name: 'QB 20-30KTLC', vmax: 850, vmpptMin: 200 },
-  { name: 'QB 30-40KTLC-Pro', vmax: 850, vmpptMin: 200 },
-  { name: 'QB 40-50KTLC-Plus', vmax: 850, vmpptMin: 200 },
-  { name: 'QB 50-60KTLC', vmax: 850, vmpptMin: 200 },
-  { name: 'QB 70-110KTLC-Pro', vmax: 1000, vmpptMin: 200 },
-  { name: 'QB 80-125KTLC', vmax: 1000, vmpptMin: 200 },
-  { name: 'QB 225-320K-EHV', vmax: 1500, vmpptMin: 500 },
+const panelDB = [
+  { id: 'adani-540',  name: 'Adani Solar 540Wp',       watt: 540, voc: 49.3, vmp: 41.2, isc: 13.92, imp: 13.10, tc: -0.239 },
+  { id: 'adani-580',  name: 'Adani Solar 580Wp',       watt: 580, voc: 49.4, vmp: 41.3, isc: 15.09, imp: 14.06, tc: -0.239 },
+  { id: 'adani-620',  name: 'Adani Solar 620Wp',       watt: 620, voc: 49.6, vmp: 41.4, isc: 15.91, imp: 14.99, tc: -0.239 },
+  { id: 'adani-650',  name: 'Adani Solar 650Wp',       watt: 650, voc: 50.2, vmp: 42.1, isc: 16.50, imp: 15.44, tc: -0.239 },
+  { id: 'waaree-500', name: 'Waaree 500Wp',            watt: 500, voc: 49.6, vmp: 41.8, isc: 12.77, imp: 11.97, tc: -0.280 },
+  { id: 'waaree-545', name: 'Waaree 545Wp',            watt: 545, voc: 49.9, vmp: 42.1, isc: 13.90, imp: 12.95, tc: -0.280 },
+  { id: 'waaree-580', name: 'Waaree 580Wp',            watt: 580, voc: 50.0, vmp: 42.2, isc: 14.75, imp: 13.74, tc: -0.280 },
+  { id: 'vikram-440', name: 'Vikram Solar 440Wp',      watt: 440, voc: 49.2, vmp: 41.3, isc: 11.38, imp: 10.65, tc: -0.285 },
+  { id: 'vikram-500', name: 'Vikram Solar 500Wp',      watt: 500, voc: 49.5, vmp: 41.6, isc: 12.93, imp: 12.02, tc: -0.285 },
+  { id: 'tata-445',   name: 'Tata Power Solar 445Wp',  watt: 445, voc: 49.2, vmp: 41.2, isc: 11.55, imp: 10.80, tc: -0.290 },
+];
+
+const inverterDB = [
+  { id: 'qb-1540ktls',  name: 'QB 1.5-4.0KTLS',   acPower: '4.0 kW',   phase: '1Φ', vmax: 550,  mpptMin: 40,  mpptMax: 550,  mppts: 1,  strPerMppt: 1, iout: 17.4 },
+  { id: 'qb-46ktls',    name: 'QB 4.6-6KTLS',     acPower: '6.0 kW',   phase: '1Φ', vmax: 550,  mpptMin: 50,  mpptMax: 500,  mppts: 1,  strPerMppt: 2, iout: 26.1 },
+  { id: 'qb-46ktld',    name: 'QB 4-6KTLD',       acPower: '6.0 kW',   phase: '1Φ', vmax: 550,  mpptMin: 50,  mpptMax: 500,  mppts: 2,  strPerMppt: 1, iout: 26.1 },
+  { id: 'qb-617ktlc',   name: 'QB 6-17KTLC',      acPower: '17 kW',    phase: '3Φ', vmax: 900,  mpptMin: 200, mpptMax: 800,  mppts: 2,  strPerMppt: 1, iout: 25.0 },
+  { id: 'qb-2030ktlc',  name: 'QB 20-30KTLC',     acPower: '30 kW',    phase: '3Φ', vmax: 900,  mpptMin: 200, mpptMax: 800,  mppts: 3,  strPerMppt: 2, iout: 48.0 },
+  { id: 'qb-3040ktlcp', name: 'QB 30-40KTLC-Pro', acPower: '40 kW',    phase: '3Φ', vmax: 900,  mpptMin: 200, mpptMax: 800,  mppts: 4,  strPerMppt: 2, iout: 63.0 },
+  { id: 'qb-4050ktlcp', name: 'QB 40-50KTLC-Plus',acPower: '50 kW',    phase: '3Φ', vmax: 900,  mpptMin: 200, mpptMax: 800,  mppts: 4,  strPerMppt: 2, iout: 78.0 },
+  { id: 'qb-5060ktlc',  name: 'QB 50-60KTLC',     acPower: '60 kW',    phase: '3Φ', vmax: 900,  mpptMin: 200, mpptMax: 800,  mppts: 6,  strPerMppt: 2, iout: 91.0 },
+  { id: 'qb-70110ktlcp',name: 'QB 70-110KTLC-Pro',acPower: '110 kW',   phase: '3Φ', vmax: 1100, mpptMin: 200, mpptMax: 1000, mppts: 6,  strPerMppt: 2, iout: 155.0 },
+  { id: 'qb-80125ktlc', name: 'QB 80-125KTLC',    acPower: '125 kW',   phase: '3Φ', vmax: 1100, mpptMin: 200, mpptMax: 1000, mppts: 6,  strPerMppt: 2, iout: 178.0 },
+  { id: 'qb-225320ehv', name: 'QB 225-320K-EHV',  acPower: '320 kW',   phase: '3Φ', vmax: 1500, mpptMin: 500, mpptMax: 1450, mppts: 12, strPerMppt: 1, iout: 460.0 },
 ];
 ---
 
 <Layout
   title="String Sizing Calculator | Qbits Energy"
-  description="Calculate optimal solar panel string configuration for your Qbits inverter. Input panel specs and get string sizing recommendations."
+  description="Smart solar string sizing tool for Qbits inverters. Select your panel and inverter to see all string configurations with MPPT voltage analysis."
   canonical="/string-sizing-calculator/"
 >
   <HeaderV2 />
@@ -31,126 +44,197 @@ const inverters = [
       label="Solar Tools"
       title="String Sizing"
       highlight="Calculator"
-      description="Calculate the optimal string configuration for your solar panels and Qbits inverter. Ensure safe and efficient operation."
+      description="Smart solar string sizing for Qbits Inverters. Select your panel and inverter to instantly see every string configuration rated from BEST to FAIL."
     />
 
-    <!-- How It Works -->
-    <section class="section-padding bg-white" aria-labelledby="how-heading">
-      <div class="container-main">
-        <div class="text-center max-w-2xl mx-auto mb-16">
-          <span class="section-label justify-center">
-            <span class="w-8 h-px bg-brand-500"></span>
-            Guide
-            <span class="w-8 h-px bg-brand-500"></span>
-          </span>
-          <h2 id="how-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
-            How String Sizing Works
-          </h2>
-        </div>
-        <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          {[
-            { step: '01', title: 'Input Panel Specs', desc: 'Enter Voc, Vmp, and temperature coefficients from your panel datasheet.' },
-            { step: '02', title: 'Select Inverter', desc: 'Choose your Qbits inverter or enter DC voltage limits manually.' },
-            { step: '03', title: 'Get Results', desc: 'The calculator recommends minimum and maximum panels per string.' },
-          ].map(s => (
-            <div class="bg-slate-50 rounded-2xl p-8 text-center step-card">
-              <span class="text-4xl font-extrabold text-brand-200">{s.step}</span>
-              <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">{s.title}</h3>
-              <p class="text-sm text-slate-500">{s.desc}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <section class="section-padding bg-slate-50">
+      <div class="container-main max-w-5xl">
 
-    <!-- Calculator -->
-    <section class="section-padding bg-slate-50" aria-labelledby="calc-heading">
-      <div class="container-main max-w-3xl">
-        <div class="bg-white rounded-2xl shadow-xl shadow-slate-900/5 overflow-hidden">
-          <div class="px-8 lg:px-10 pt-10 pb-6 border-b border-slate-100">
-            <span class="section-label">
-              <span class="w-8 h-px bg-brand-500"></span>
-              Calculator
-            </span>
-            <h2 id="calc-heading" class="text-2xl font-bold text-slate-900 mt-4">Enter Your Parameters</h2>
+        <!-- Tool Card -->
+        <div class="bg-white rounded-2xl shadow-xl shadow-slate-900/8 overflow-hidden">
+
+          <!-- Tool Header -->
+          <div class="bg-gradient-to-r from-brand-800 to-brand-500 px-8 py-6 text-white flex items-center gap-4">
+            <div class="w-11 h-11 bg-white/20 rounded-xl flex items-center justify-center shrink-0">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div>
+              <h2 class="text-lg font-bold leading-tight">String Sizing Calculator</h2>
+              <p class="text-sm text-brand-200">Smart solar string sizing for Qbits Inverters</p>
+            </div>
           </div>
 
-          <div class="p-8 lg:p-10">
-            <form id="calculator-form" class="space-y-6">
-              <div class="grid sm:grid-cols-2 gap-5">
-                <div>
-                  <label class="block text-sm font-medium text-slate-700 mb-1.5">Panel Voc (V)</label>
-                  <input type="number" id="voc" step="0.1" required class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none bg-slate-50/50" placeholder="e.g. 45.5" />
-                </div>
-                <div>
-                  <label class="block text-sm font-medium text-slate-700 mb-1.5">Panel Vmp (V)</label>
-                  <input type="number" id="vmp" step="0.1" required class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none bg-slate-50/50" placeholder="e.g. 37.2" />
-                </div>
-                <div>
-                  <label class="block text-sm font-medium text-slate-700 mb-1.5">Min Temperature (°C)</label>
-                  <input type="number" id="tmin" required class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none bg-slate-50/50" placeholder="e.g. 5" />
-                </div>
-                <div>
-                  <label class="block text-sm font-medium text-slate-700 mb-1.5">Max Temperature (°C)</label>
-                  <input type="number" id="tmax" required class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none bg-slate-50/50" placeholder="e.g. 55" />
-                </div>
-                <div>
-                  <label class="block text-sm font-medium text-slate-700 mb-1.5">Inverter Max DC Voltage (V)</label>
-                  <input type="number" id="vmax" required class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none bg-slate-50/50" placeholder="e.g. 550" />
-                </div>
-                <div>
-                  <label class="block text-sm font-medium text-slate-700 mb-1.5">Inverter MPPT Min Voltage (V)</label>
-                  <input type="number" id="vmppt-min" required class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none bg-slate-50/50" placeholder="e.g. 90" />
-                </div>
-              </div>
+          <!-- Section 1: Equipment & Site Conditions -->
+          <div class="px-8 py-7 border-b border-slate-100">
+            <div class="flex items-center gap-3 mb-6">
+              <span class="w-7 h-7 rounded-lg bg-brand-50 text-brand-700 text-sm font-bold flex items-center justify-center shrink-0">1</span>
+              <h3 class="text-base font-bold text-brand-700">Equipment &amp; Site Conditions</h3>
+            </div>
 
-              <div class="pt-4 border-t border-slate-100">
-                <p class="text-xs text-slate-400 mb-3 font-medium uppercase tracking-wider">Quick Select Qbits Inverter</p>
-                <select id="inverter-select" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none bg-slate-50/50">
-                  <option value="">-- Select Inverter --</option>
-                  {inverters.map(inv => (
-                    <option value={`${inv.vmax},${inv.vmpptMin}`}>{inv.name} (Max {inv.vmax}V, Min {inv.vmpptMin}V)</option>
-                  ))}
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+              <div>
+                <label class="field-label">PANEL</label>
+                <select id="panel-select" class="tool-select">
+                  <option value="">Select Panel</option>
+                  {panelDB.map(p => <option value={p.id}>{p.name}</option>)}
                 </select>
               </div>
+              <div>
+                <label class="field-label">INVERTER</label>
+                <select id="inverter-select" class="tool-select">
+                  <option value="">Select Inverter</option>
+                  {inverterDB.map(inv => <option value={inv.id}>{inv.name}</option>)}
+                </select>
+              </div>
+              <div>
+                <label class="field-label">TOTAL PANELS</label>
+                <input id="total-panels" type="number" min="1" max="200" placeholder="e.g. 10"
+                  class="tool-input" />
+              </div>
+              <div>
+                <label class="field-label">MIN TEMP (°C)</label>
+                <input id="t-min" type="number" value="-5" class="tool-input" />
+              </div>
+            </div>
 
-              <button type="submit" class="btn-primary w-full">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
-                Calculate String Size
-              </button>
-            </form>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              <div>
+                <label class="field-label">MAX TEMP (°C)</label>
+                <input id="t-max" type="number" value="50" class="tool-input" />
+              </div>
+            </div>
 
-            <div id="results" class="hidden mt-8 pt-8 border-t border-slate-100">
-              <h3 class="text-xl font-bold text-slate-900 mb-6">Results</h3>
-              <div class="grid sm:grid-cols-2 gap-4">
-                <div class="bg-brand-50 rounded-2xl p-6 text-center">
-                  <p class="text-sm text-slate-500 uppercase tracking-wider mb-2">Max Panels per String</p>
-                  <p class="text-4xl font-extrabold text-brand-600" id="max-panels">-</p>
-                </div>
-                <div class="bg-brand-50 rounded-2xl p-6 text-center">
-                  <p class="text-sm text-slate-500 uppercase tracking-wider mb-2">Min Panels per String</p>
-                  <p class="text-4xl font-extrabold text-brand-600" id="min-panels">-</p>
+            <!-- Info cards -->
+            <div id="info-cards" class="hidden grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+              <div id="panel-info" class="bg-brand-50/60 border border-brand-100 rounded-xl px-5 py-4">
+                <p class="text-xs font-semibold uppercase tracking-wider text-brand-700 mb-3">Panel @ STC</p>
+                <div class="grid grid-cols-3 gap-x-4 gap-y-1.5 text-sm">
+                  <div><span class="text-slate-400 text-xs">Voc</span><br/><span class="font-semibold text-slate-800" id="pi-voc">—</span></div>
+                  <div><span class="text-slate-400 text-xs">Vmp</span><br/><span class="font-semibold text-slate-800" id="pi-vmp">—</span></div>
+                  <div><span class="text-slate-400 text-xs">Power</span><br/><span class="font-semibold text-slate-800" id="pi-watt">—</span></div>
+                  <div><span class="text-slate-400 text-xs">Isc</span><br/><span class="font-semibold text-slate-800" id="pi-isc">—</span></div>
+                  <div><span class="text-slate-400 text-xs">Imp</span><br/><span class="font-semibold text-slate-800" id="pi-imp">—</span></div>
+                  <div><span class="text-slate-400 text-xs">T(Voc)</span><br/><span class="font-semibold text-slate-800" id="pi-tc">—</span></div>
                 </div>
               </div>
-              <div id="recommendation" class="mt-6 p-4 rounded-xl text-sm"></div>
+              <div id="inverter-info" class="bg-slate-50 border border-slate-200 rounded-xl px-5 py-4">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-3">Inverter</p>
+                <div class="grid grid-cols-3 gap-x-4 gap-y-1.5 text-sm">
+                  <div><span class="text-slate-400 text-xs">Max DC</span><br/><span class="font-semibold text-slate-800" id="ii-vmax">—</span></div>
+                  <div><span class="text-slate-400 text-xs">MPPT</span><br/><span class="font-semibold text-slate-800" id="ii-mppt">—</span></div>
+                  <div><span class="text-slate-400 text-xs">AC</span><br/><span class="font-semibold text-slate-800" id="ii-ac">—</span></div>
+                  <div><span class="text-slate-400 text-xs">MPPTs</span><br/><span class="font-semibold text-slate-800" id="ii-mppts">—</span></div>
+                  <div><span class="text-slate-400 text-xs">Str</span><br/><span class="font-semibold text-slate-800" id="ii-str">—</span></div>
+                  <div><span class="text-slate-400 text-xs">Iout</span><br/><span class="font-semibold text-slate-800" id="ii-iout">—</span></div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Disclaimer -->
-    <section class="py-16 bg-white">
-      <div class="container-main max-w-3xl">
-        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-6">
-          <div class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-amber-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
-            <div>
-              <h3 class="font-semibold text-amber-900 mb-1">Important Note</h3>
-              <p class="text-sm text-amber-800 leading-relaxed">This calculator provides estimates based on standard temperature coefficients. Always consult a qualified solar engineer and refer to your specific panel and inverter datasheets before finalizing the design. Qbits is not liable for system designs based on this tool.</p>
+          <!-- Section 2: MPPT Voltage Range -->
+          <div id="section-2" class="hidden px-8 py-7 border-b border-slate-100">
+            <div class="flex items-center gap-3 mb-6">
+              <span class="w-7 h-7 rounded-lg bg-brand-50 text-brand-700 text-sm font-bold flex items-center justify-center shrink-0">2</span>
+              <h3 class="text-base font-bold text-brand-700">MPPT Voltage Range &amp; String Distribution</h3>
+            </div>
+
+            <div class="flex items-center gap-4 mb-6">
+              <span class="text-sm text-slate-600 font-medium">Panels per string:</span>
+              <div class="flex items-center gap-2">
+                <button id="dec-btn" class="stepper-btn">−</button>
+                <input id="pps-input" type="number" value="6" min="1" max="50"
+                  class="w-16 text-center text-base font-bold border border-slate-200 rounded-lg py-1.5 outline-none focus:border-brand-400" />
+                <button id="inc-btn" class="stepper-btn">+</button>
+              </div>
+              <span id="s2-badge" class="hidden text-xs font-bold px-3 py-1 rounded-full"></span>
+            </div>
+
+            <!-- Voltage readouts -->
+            <div class="grid grid-cols-3 gap-4 mb-6">
+              <div class="bg-slate-50 rounded-xl p-4 text-center">
+                <p class="text-xs text-slate-400 uppercase tracking-wider mb-1" id="s2-lbl-voc">VOC @ —°C</p>
+                <p class="text-2xl font-extrabold text-slate-800" id="s2-voc-cold">—</p>
+              </div>
+              <div class="bg-brand-50 rounded-xl p-4 text-center ring-2 ring-brand-200">
+                <p class="text-xs text-brand-500 uppercase tracking-wider mb-1" id="s2-lbl-vmp-hot">VMP @ —°C</p>
+                <p class="text-2xl font-extrabold text-brand-700" id="s2-vmp-hot">—</p>
+              </div>
+              <div class="bg-slate-50 rounded-xl p-4 text-center">
+                <p class="text-xs text-slate-400 uppercase tracking-wider mb-1" id="s2-lbl-vmp-cold">VMP @ —°C</p>
+                <p class="text-2xl font-extrabold text-slate-800" id="s2-vmp-cold">—</p>
+              </div>
+            </div>
+
+            <!-- Voltage bar -->
+            <div class="mb-2">
+              <div class="relative h-8 rounded-full bg-slate-100 overflow-visible">
+                <!-- MPPT range fill -->
+                <div id="bar-mppt" class="absolute top-0 bottom-0 bg-brand-200 rounded-full transition-all"></div>
+                <!-- Over-voltage zone -->
+                <div id="bar-over" class="absolute top-0 bottom-0 bg-red-100 rounded-r-full transition-all"></div>
+                <!-- Max DC line -->
+                <div id="bar-vmax-line" class="absolute top-0 bottom-0 w-0.5 bg-red-400 z-10 transition-all"></div>
+                <!-- Marker: VOC cold -->
+                <div id="bar-voc-cold" class="bar-marker bg-slate-600 transition-all" title="VOC @ min temp"></div>
+                <!-- Marker: VMP hot -->
+                <div id="bar-vmp-hot" class="bar-marker bg-brand-600 transition-all" title="VMP @ max temp"></div>
+                <!-- Marker: VMP cold -->
+                <div id="bar-vmp-cold" class="bar-marker bg-brand-400 transition-all" title="VMP @ min temp"></div>
+              </div>
+              <!-- Legend -->
+              <div class="flex flex-wrap items-center gap-x-5 gap-y-2 mt-3 text-xs text-slate-500">
+                <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-brand-200 inline-block"></span>MPPT Range</span>
+                <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-red-100 inline-block"></span>Over-voltage</span>
+                <span class="flex items-center gap-1.5"><span class="w-0.5 h-3 bg-slate-600 inline-block"></span>Voc @ min</span>
+                <span class="flex items-center gap-1.5"><span class="w-0.5 h-3 bg-brand-600 inline-block"></span>Vmp @ max</span>
+                <span class="flex items-center gap-1.5"><span class="w-0.5 h-3 bg-brand-400 inline-block"></span>Vmp @ min</span>
+                <span class="flex items-center gap-1.5 ml-auto font-medium text-slate-400" id="bar-max-label"></span>
+              </div>
             </div>
           </div>
+
+          <!-- Section 3: All String Configurations -->
+          <div id="section-3" class="hidden px-8 py-7">
+            <div class="flex items-center gap-3 mb-6">
+              <span class="w-7 h-7 rounded-lg bg-brand-50 text-brand-700 text-sm font-bold flex items-center justify-center shrink-0">3</span>
+              <h3 class="text-base font-bold text-brand-700">All String Configurations</h3>
+            </div>
+
+            <div class="overflow-x-auto rounded-xl border border-slate-100">
+              <table class="w-full text-sm">
+                <thead class="bg-slate-950 text-white text-xs uppercase tracking-wider">
+                  <tr>
+                    <th class="px-4 py-3 text-left font-semibold">Panels/String</th>
+                    <th class="px-4 py-3 text-left font-semibold">Rating</th>
+                    <th class="px-4 py-3 text-right font-semibold" id="th-voc-cold">VOC @ —°C</th>
+                    <th class="px-4 py-3 text-right font-semibold" id="th-vmp-hot">VMP @ —°C</th>
+                    <th class="px-4 py-3 text-right font-semibold" id="th-vmp-cold">VMP @ —°C</th>
+                    <th class="px-4 py-3 text-right font-semibold">VOC (STC)</th>
+                    <th class="px-4 py-3 text-right font-semibold">VMP (STC)</th>
+                    <th class="px-4 py-3 text-right font-semibold">String kWp</th>
+                  </tr>
+                </thead>
+                <tbody id="config-tbody" class="divide-y divide-slate-100"></tbody>
+              </table>
+            </div>
+
+            <p class="text-xs text-slate-400 mt-4 text-center" id="table-footer"></p>
+          </div>
+
+        </div><!-- /tool card -->
+
+        <!-- Disclaimer -->
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 mt-6 flex items-start gap-3">
+          <svg class="w-5 h-5 text-amber-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+          </svg>
+          <p class="text-sm text-amber-800 leading-relaxed">
+            This calculator provides estimates using standard temperature derating formulas. Always verify against official datasheets and consult a qualified solar engineer before finalising your design. Qbits Energy is not liable for system designs based solely on this tool.
+          </p>
         </div>
+
       </div>
     </section>
   </main>
@@ -158,53 +242,231 @@ const inverters = [
   <Footer />
 </Layout>
 
-<script>
-  const form = document.getElementById('calculator-form');
-  const results = document.getElementById('results');
-  const inverterSelect = document.getElementById('inverter-select') as HTMLSelectElement;
-  const vmaxInput = document.getElementById('vmax') as HTMLInputElement;
-  const vmpptMinInput = document.getElementById('vmppt-min') as HTMLInputElement;
+<style>
+  .field-label {
+    @apply block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1.5;
+  }
+  .tool-select, .tool-input {
+    @apply w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm text-slate-800 bg-white outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-100 transition-colors;
+  }
+  .stepper-btn {
+    @apply w-8 h-8 rounded-lg border border-slate-200 text-slate-600 font-bold hover:bg-brand-50 hover:border-brand-300 hover:text-brand-700 transition-colors flex items-center justify-center text-lg leading-none;
+  }
+  .bar-marker {
+    @apply absolute top-1 bottom-1 w-0.5 z-20 rounded-full;
+  }
+</style>
 
-  inverterSelect?.addEventListener('change', () => {
-    const val = inverterSelect.value;
-    if (val) {
-      const [vmax, vmpptMin] = val.split(',');
-      vmaxInput.value = vmax;
-      vmpptMinInput.value = vmpptMin;
+<script define:vars={{ panelDB, inverterDB }}>
+  // ── state ──────────────────────────────────────────────────────────────────
+  let panel    = null;
+  let inverter = null;
+  let tMin     = -5;
+  let tMax     = 50;
+  let pps      = 6;   // panels per string
+
+  // ── elements ────────────────────────────────────────────────────────────────
+  const panelSel   = document.getElementById('panel-select');
+  const invSel     = document.getElementById('inverter-select');
+  const tMinEl     = document.getElementById('t-min');
+  const tMaxEl     = document.getElementById('t-max');
+  const ppsInput   = document.getElementById('pps-input');
+  const decBtn     = document.getElementById('dec-btn');
+  const incBtn     = document.getElementById('inc-btn');
+
+  // ── core math ───────────────────────────────────────────────────────────────
+  function derate(v, tc, t) {
+    return v * (1 + (tc / 100) * (t - 25));
+  }
+
+  function getRating(vmpHot, vocCold, inv) {
+    if (vocCold > inv.vmax)     return 'FAIL';
+    if (vmpHot  < inv.mpptMin)  return 'FAIL';
+    const pct = vmpHot / inv.vmax;
+    if (pct < 0.25) return 'ON';
+    if (pct < 0.40) return 'GOOD';
+    if (pct < 0.65) return 'BEST';
+    return 'GOOD';
+  }
+
+  const ratingCfg = {
+    FAIL: { bg: 'bg-red-100',    text: 'text-red-700',    icon: '✕', label: 'FAIL' },
+    ON:   { bg: 'bg-amber-100',  text: 'text-amber-700',  icon: '⚠', label: 'ON'   },
+    GOOD: { bg: 'bg-green-100',  text: 'text-green-700',  icon: '✓', label: 'GOOD' },
+    BEST: { bg: 'bg-brand-500',  text: 'text-white',      icon: '✓', label: 'BEST' },
+  };
+
+  // ── populate info cards ──────────────────────────────────────────────────────
+  function showInfoCards() {
+    if (!panel || !inverter) return;
+    document.getElementById('info-cards').classList.remove('hidden');
+
+    document.getElementById('pi-voc').textContent  = panel.voc + ' V';
+    document.getElementById('pi-vmp').textContent  = panel.vmp + ' V';
+    document.getElementById('pi-watt').textContent = panel.watt + ' Wp';
+    document.getElementById('pi-isc').textContent  = panel.isc + ' A';
+    document.getElementById('pi-imp').textContent  = panel.imp + ' A';
+    document.getElementById('pi-tc').textContent   = panel.tc + '%/°C';
+
+    document.getElementById('ii-vmax').textContent  = inverter.vmax + ' V';
+    document.getElementById('ii-mppt').textContent  = inverter.mpptMin + '–' + inverter.mpptMax + ' V';
+    document.getElementById('ii-ac').textContent    = inverter.acPower;
+    document.getElementById('ii-mppts').textContent = inverter.mppts;
+    document.getElementById('ii-str').textContent   = inverter.strPerMppt + '/MPPT';
+    document.getElementById('ii-iout').textContent  = inverter.iout + ' A';
+  }
+
+  // ── update voltage bar ───────────────────────────────────────────────────────
+  function pct(v, total) { return Math.min((v / total) * 100, 105).toFixed(2) + '%'; }
+
+  function updateBar(n) {
+    if (!panel || !inverter) return;
+    const totalRange = inverter.vmax * 1.1;
+
+    const vocCold = derate(panel.voc, panel.tc, tMin) * n;
+    const vmpHot  = derate(panel.vmp, panel.tc, tMax) * n;
+    const vmpCold = derate(panel.vmp, panel.tc, tMin) * n;
+
+    // labels
+    document.getElementById('s2-lbl-voc').textContent      = `VOC @ ${tMin}°C`;
+    document.getElementById('s2-lbl-vmp-hot').textContent  = `VMP @ ${tMax}°C`;
+    document.getElementById('s2-lbl-vmp-cold').textContent = `VMP @ ${tMin}°C`;
+
+    document.getElementById('s2-voc-cold').textContent = vocCold.toFixed(1) + ' V';
+    document.getElementById('s2-vmp-hot').textContent  = vmpHot.toFixed(1)  + ' V';
+    document.getElementById('s2-vmp-cold').textContent = vmpCold.toFixed(1) + ' V';
+
+    // badge
+    const rating  = getRating(vmpHot, vocCold, inverter);
+    const cfg     = ratingCfg[rating];
+    const badge   = document.getElementById('s2-badge');
+    badge.className = `text-xs font-bold px-3 py-1 rounded-full ${cfg.bg} ${cfg.text}`;
+    badge.textContent = cfg.icon + ' ' + cfg.label;
+    badge.classList.remove('hidden');
+
+    // bar
+    document.getElementById('bar-mppt').style.left  = pct(inverter.mpptMin, totalRange);
+    document.getElementById('bar-mppt').style.width = ((inverter.mpptMax - inverter.mpptMin) / totalRange * 100).toFixed(2) + '%';
+    document.getElementById('bar-over').style.left  = pct(inverter.vmax, totalRange);
+    document.getElementById('bar-over').style.width = '10%';
+    document.getElementById('bar-vmax-line').style.left = pct(inverter.vmax, totalRange);
+    document.getElementById('bar-voc-cold').style.left  = pct(vocCold, totalRange);
+    document.getElementById('bar-vmp-hot').style.left   = pct(vmpHot,  totalRange);
+    document.getElementById('bar-vmp-cold').style.left  = pct(vmpCold, totalRange);
+    document.getElementById('bar-max-label').textContent = 'Max DC: ' + inverter.vmax + ' V';
+  }
+
+  // ── build config table ───────────────────────────────────────────────────────
+  function buildTable() {
+    if (!panel || !inverter) return;
+
+    // update table headers
+    document.getElementById('th-voc-cold').textContent = `VOC @ ${tMin}°C`;
+    document.getElementById('th-vmp-hot').textContent  = `VMP @ ${tMax}°C`;
+    document.getElementById('th-vmp-cold').textContent = `VMP @ ${tMin}°C`;
+
+    const tbody = document.getElementById('config-tbody');
+    tbody.innerHTML = '';
+
+    // generate rows until first VOC over-voltage fail (include it), max 30
+    let rows = 0;
+    for (let n = 1; n <= 30; n++) {
+      const vocCold  = derate(panel.voc, panel.tc, tMin) * n;
+      const vmpHot   = derate(panel.vmp, panel.tc, tMax) * n;
+      const vmpCold  = derate(panel.vmp, panel.tc, tMin) * n;
+      const vocSTC   = panel.voc * n;
+      const vmpSTC   = panel.vmp * n;
+      const kwp      = (panel.watt * n / 1000).toFixed(2);
+      const rating   = getRating(vmpHot, vocCold, inverter);
+      const cfg      = ratingCfg[rating];
+
+      const isActive = n === pps;
+
+      const tr = document.createElement('tr');
+      tr.className = `transition-colors cursor-pointer ${isActive ? 'bg-brand-50' : 'hover:bg-slate-50'}`;
+      tr.dataset.n = n;
+      tr.innerHTML = `
+        <td class="px-4 py-3 font-bold text-slate-900">${n}</td>
+        <td class="px-4 py-3">
+          <span class="inline-flex items-center gap-1 text-xs font-bold px-2.5 py-1 rounded-full ${cfg.bg} ${cfg.text}">
+            ${cfg.icon} ${cfg.label}
+          </span>
+        </td>
+        <td class="px-4 py-3 text-right tabular-nums ${vocCold > inverter.vmax ? 'text-red-600 font-semibold' : 'text-slate-600'}">${vocCold.toFixed(1)} V</td>
+        <td class="px-4 py-3 text-right tabular-nums ${vmpHot < inverter.mpptMin ? 'text-red-600 font-semibold' : 'text-brand-700 font-semibold'}">${vmpHot.toFixed(1)} V</td>
+        <td class="px-4 py-3 text-right tabular-nums text-slate-600">${vmpCold.toFixed(1)} V</td>
+        <td class="px-4 py-3 text-right tabular-nums text-slate-500">${vocSTC.toFixed(1)} V</td>
+        <td class="px-4 py-3 text-right tabular-nums text-slate-500">${vmpSTC.toFixed(1)} V</td>
+        <td class="px-4 py-3 text-right tabular-nums text-slate-600 font-medium">${kwp}</td>
+      `;
+
+      // clicking a row updates the stepper & bar
+      tr.addEventListener('click', () => {
+        pps = n;
+        ppsInput.value = n;
+        updateBar(n);
+        highlightRow(n);
+      });
+
+      tbody.appendChild(tr);
+      rows++;
+
+      // stop after first over-voltage fail
+      if (vocCold > inverter.vmax) break;
     }
+
+    document.getElementById('table-footer').textContent =
+      `Panel Data: ${panel.name} · T(Voc): ${panel.tc}%/°C · STC: 25°C, 1000 W/m²  ·  © Qbits Energy`;
+  }
+
+  function highlightRow(n) {
+    document.querySelectorAll('#config-tbody tr').forEach(tr => {
+      tr.classList.toggle('bg-brand-50', Number(tr.dataset.n) === n);
+      tr.classList.toggle('hover:bg-slate-50', Number(tr.dataset.n) !== n);
+    });
+  }
+
+  // ── show / refresh sections 2 & 3 ───────────────────────────────────────────
+  function refresh() {
+    if (!panel || !inverter) return;
+    document.getElementById('section-2').classList.remove('hidden');
+    document.getElementById('section-3').classList.remove('hidden');
+    updateBar(pps);
+    buildTable();
+  }
+
+  // ── event listeners ──────────────────────────────────────────────────────────
+  panelSel.addEventListener('change', () => {
+    panel = panelDB.find(p => p.id === panelSel.value) || null;
+    showInfoCards();
+    refresh();
   });
 
-  form?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const voc = parseFloat((document.getElementById('voc') as HTMLInputElement)?.value || '0');
-    const vmp = parseFloat((document.getElementById('vmp') as HTMLInputElement)?.value || '0');
-    const tmin = parseFloat((document.getElementById('tmin') as HTMLInputElement)?.value || '0');
-    const tmax = parseFloat((document.getElementById('tmax') as HTMLInputElement)?.value || '0');
-    const vmax = parseFloat(vmaxInput?.value || '0');
-    const vmpptMin = parseFloat(vmpptMinInput?.value || '0');
-
-    const vocMax = voc * (1 + (25 - tmin) * 0.0033);
-    const vmpMin = vmp * (1 + (25 - tmax) * 0.0045);
-
-    const maxPanels = Math.floor(vmax / vocMax);
-    const minPanels = Math.ceil(vmpptMin / vmpMin);
-
-    document.getElementById('max-panels')!.textContent = String(maxPanels);
-    document.getElementById('min-panels')!.textContent = String(minPanels);
-
-    const rec = document.getElementById('recommendation');
-    if (rec) {
-      if (minPanels > maxPanels) {
-        rec.className = 'mt-6 p-4 rounded-xl text-sm bg-red-50 text-red-700 border border-red-200';
-        rec.innerHTML = '<span class="font-semibold">Warning:</span> No valid configuration found with these parameters. Please adjust your inverter or panel selection.';
-      } else {
-        rec.className = 'mt-6 p-4 rounded-xl text-sm bg-brand-50 text-brand-700 border border-brand-200';
-        rec.innerHTML = `<span class="font-semibold">Recommended:</span> Install <strong>${minPanels} to ${maxPanels}</strong> panels per string. This ensures the string voltage stays within the inverter operating window across all temperature conditions.`;
-      }
+  invSel.addEventListener('change', () => {
+    inverter = inverterDB.find(i => i.id === invSel.value) || null;
+    showInfoCards();
+    // reset pps to a sensible default for new inverter
+    if (inverter) {
+      pps = Math.round(inverter.mpptMax * 0.55 / (panel?.vmp || 40));
+      pps = Math.max(1, Math.min(pps, 20));
+      ppsInput.value = pps;
     }
+    refresh();
+  });
 
-    results?.classList.remove('hidden');
-    results?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  tMinEl.addEventListener('change', () => { tMin = parseFloat(tMinEl.value) || -5; refresh(); });
+  tMaxEl.addEventListener('change', () => { tMax = parseFloat(tMaxEl.value) || 50;  refresh(); });
+
+  decBtn.addEventListener('click', () => {
+    if (pps > 1) { pps--; ppsInput.value = pps; updateBar(pps); highlightRow(pps); }
+  });
+  incBtn.addEventListener('click', () => {
+    pps++; ppsInput.value = pps; updateBar(pps); highlightRow(pps);
+  });
+  ppsInput.addEventListener('change', () => {
+    pps = Math.max(1, parseInt(ppsInput.value) || 1);
+    ppsInput.value = pps;
+    updateBar(pps);
+    highlightRow(pps);
   });
 </script>
-

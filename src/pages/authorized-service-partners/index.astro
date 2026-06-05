@@ -232,7 +232,17 @@ const supportTypes = [
     width: 100%;
   }
   @media (max-width: 640px) {
-    .asp-map-loading, #aspMap { height: 420px; }
+    #aspMapView { border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.08); }
+    .asp-map-loading, #aspMap { height: 460px; }
+    .leaflet-control-zoom { margin: 10px !important; }
+    .leaflet-control-zoom a {
+      width: 32px !important;
+      height: 32px !important;
+      line-height: 32px !important;
+      font-size: 18px !important;
+    }
+    .leaflet-popup-content { margin: 12px !important; }
+    .leaflet-popup-content-wrapper { border-radius: 12px; }
   }
 
   /* ── Leaflet overrides ───────────────────── */
@@ -261,6 +271,16 @@ const supportTypes = [
     padding: 4px 48px 4px 0;
     min-width: 240px;
     max-width: 300px;
+  }
+  @media (max-width: 480px) {
+    .asp-popup {
+      gap: 10px;
+      padding: 2px 42px 2px 0;
+      min-width: 200px;
+      max-width: 240px;
+    }
+    .asp-popup img { width: 52px; height: 52px; }
+    .asp-popup-actions a { width: 28px; height: 28px; }
   }
   .asp-popup img {
     border-radius: 8px;
@@ -623,11 +643,13 @@ const supportTypes = [
         leafletMap.eachLayer((l: any) => { if (l._url) return; l.remove(); });
       }
 
+      const isMobile = window.matchMedia('(max-width: 640px)').matches;
+      const markerSize = isMobile ? 32 : 40;
       const customIcon = L.icon({
         iconUrl: '/icon-marker.svg',
-        iconSize: [40, 40],
-        iconAnchor: [20, 40],
-        popupAnchor: [0, -40],
+        iconSize: [markerSize, markerSize],
+        iconAnchor: [markerSize / 2, markerSize],
+        popupAnchor: [0, -markerSize],
       });
 
       const bounds: [number, number][] = [];
@@ -720,7 +742,7 @@ const supportTypes = [
   function buildPagination(pg: any, state: string, city: string) {
     const el = document.getElementById('aspPagination')!;
     el.innerHTML = '';
-    if (!pg || pg.last_page <= 1) return;
+    if (!pg || (!pg.prev_page_url && !pg.next_page_url)) return;
 
     if (pg.prev_page_url) {
       const b = document.createElement('button');
@@ -731,7 +753,7 @@ const supportTypes = [
 
     const s = document.createElement('span');
     s.className = 'asp-pg-label';
-    s.textContent = `Page ${pg.current_page} of ${pg.last_page}`;
+    s.textContent = `Page ${pg.current_page}`;
     el.appendChild(s);
 
     if (pg.next_page_url) {

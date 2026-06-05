@@ -235,6 +235,17 @@ const supportTypes = [
     .asp-map-loading, #aspMap { height: 420px; }
   }
 
+  /* ── Leaflet overrides ───────────────────── */
+  .leaflet-container { font-family: inherit; }
+  .leaflet-popup-content-wrapper {
+    border-radius: 14px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    padding: 0;
+  }
+  .leaflet-popup-content { margin: 16px; }
+  .leaflet-popup-tip-container { display: none; }
+  .leaflet-control-attribution { font-size: 10px; }
+
   /* ── Spinner ─────────────────────────────── */
   @keyframes asp-spin {
     to { transform: rotate(360deg); }
@@ -559,16 +570,7 @@ const supportTypes = [
   }
 </style>
 
-<!-- Runs synchronously — sets up Maps callback queue before any async loads -->
-<script is:inline>
-  window.__aspMapsReady = false;
-  window.__aspQueue = [];
-  window.__aspInit = function () {
-    window.__aspMapsReady = true;
-    window.__aspQueue.forEach(function (fn) { fn(); });
-    window.__aspQueue = [];
-  };
-</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
 <script>
   /* ── Constants ─────────────────────────────────── */
@@ -591,55 +593,55 @@ const supportTypes = [
     return p ? `${CDN}${p}` : '/default-user.jpg';
   }
 
-  function whenMapReady(fn: () => void) {
-    if ((window as any).__aspMapsReady) fn();
-    else (window as any).__aspQueue.push(fn);
-  }
-
-  /* ── Map ────────────────────────────────────── */
-  let map: any = null;
-  let iw: any  = null;
-  let pins: any[] = [];
+  /* ── Map (Leaflet / OpenStreetMap — no API key needed) ── */
+  let leafletMap: any = null;
 
   async function loadMap() {
     const loading = document.getElementById('aspMapLoading')!;
     try {
-      const json = await get('channel-partner/map-view');
-      if (!json?.data?.length) { loading.innerHTML = '<p style="color:#94a3b8;padding:60px 0;text-align:center">No map data available.</p>'; return; }
+      const [json] = await Promise.all([
+        get('channel-partner/map-view'),
+        loadLeaflet(),
+      ]);
+
+      if (!json?.data?.length) {
+        loading.innerHTML = '<p style="color:#94a3b8;padding:60px 0;text-align:center">No map data available.</p>';
+        return;
+      }
 
       loading.classList.add('asp-hidden');
 
-      const g = (window as any).google.maps;
-      map = map || new g.Map(document.getElementById('aspMap'), {
-        center: { lat: 22.5937, lng: 78.9629 },
-        zoom: 5,
-        mapTypeControl: false,
-        streetViewControl: false,
-        fullscreenControl: false,
-        zoomControlOptions: { position: g.ControlPosition.RIGHT_CENTER },
-        styles: [{ featureType: 'poi', elementType: 'labels', stylers: [{ visibility: 'off' }] }],
+      const L = (window as any).L;
+
+      if (!leafletMap) {
+        leafletMap = L.map('aspMap', { zoomControl: true }).setView([22.5937, 78.9629], 5);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          maxZoom: 18,
+        }).addTo(leafletMap);
+      } else {
+        leafletMap.eachLayer((l: any) => { if (l._url) return; l.remove(); });
+      }
+
+      const customIcon = L.icon({
+        iconUrl: '/icon-marker.svg',
+        iconSize: [40, 40],
+        iconAnchor: [20, 40],
+        popupAnchor: [0, -40],
       });
-      iw = iw || new g.InfoWindow();
 
-      pins.forEach(m => m.setMap(null));
-      pins = [];
-
-      const bounds = new g.LatLngBounds();
+      const bounds: [number, number][] = [];
 
       json.data.forEach((item: any) => {
         if (!item.latitude || !item.longitude) return;
-        const pos = { lat: parseFloat(item.latitude), lng: parseFloat(item.longitude) };
-        bounds.extend(pos);
-
-        const marker = new g.Marker({
-          position: pos, map,
-          icon: { url: '/icon-marker.svg', scaledSize: new g.Size(44, 44) },
-        });
+        const lat = parseFloat(item.latitude);
+        const lng = parseFloat(item.longitude);
+        bounds.push([lat, lng]);
 
         const img = photo(item.photo);
         const popup = `
           <div class="asp-popup" style="position:relative">
-            <img src="${img}" alt="${item.name || ''}">
+            <img src="${img}" alt="${item.name || ''}" style="border-radius:8px;object-fit:cover;width:60px;height:60px;flex-shrink:0">
             <div>
               ${item.name ? `<p class="asp-popup-name">${item.name}</p>` : ''}
               ${item.company_name ? `<p class="asp-popup-company">${item.company_name}${item.designation ? ' · ' + item.designation : ''}</p>` : ''}
@@ -651,14 +653,26 @@ const supportTypes = [
             </div>
           </div>`;
 
-        marker.addListener('click', () => { iw.setContent(popup); iw.open(map, marker); });
-        pins.push(marker);
+        L.marker([lat, lng], { icon: customIcon })
+          .addTo(leafletMap)
+          .bindPopup(popup, { maxWidth: 300 });
       });
 
-      if (pins.length) map.fitBounds(bounds);
+      if (bounds.length) leafletMap.fitBounds(bounds, { padding: [40, 40] });
     } catch (e) {
       loading.innerHTML = '<p style="color:#94a3b8;padding:60px 0;text-align:center">Could not load map.</p>';
     }
+  }
+
+  function loadLeaflet(): Promise<void> {
+    if ((window as any).L) return Promise.resolve();
+    return new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+      s.onload = () => resolve();
+      s.onerror = reject;
+      document.head.appendChild(s);
+    });
   }
 
   /* ── List ───────────────────────────────────── */
@@ -795,7 +809,5 @@ const supportTypes = [
   /* ── Boot ───────────────────────────────────── */
   loadStates();
   loadList();
-  whenMapReady(loadMap);
+  loadMap();
 </script>
-
-<script is:inline src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi9epoAEzqNpsuLSIGACaojRdEmL1cLTI&callback=__aspInit" async defer></script>

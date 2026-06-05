@@ -42,12 +42,12 @@ const supportTypes = [
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {supportTypes.map(s => (
-            <div class="bg-slate-50 rounded-2xl p-8 text-center support-card">
+            <div class="bg-slate-50 rounded-2xl p-8 text-center hover:shadow-lg hover:shadow-slate-200 transition-shadow duration-300">
               <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5">
                 <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={s.icon}/></svg>
               </div>
               <h3 class="text-lg font-bold text-slate-900 mb-2">{s.title}</h3>
-              <p class="text-sm text-slate-500">{s.desc}</p>
+              <p class="text-sm text-slate-500 leading-relaxed">{s.desc}</p>
             </div>
           ))}
         </div>
@@ -66,62 +66,84 @@ const supportTypes = [
           <h2 id="finder-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
             Find a Partner Near You
           </h2>
+          <p class="text-slate-500 mt-4 text-base">Browse on the map or switch to list view and filter by state and district.</p>
         </div>
 
-        <div class="asp-wrapper">
-
-          <!-- Toggle -->
-          <div class="asp-toggle">
-            <div class="asp-toggle-wrap">
-              <button id="aspMapBtn" class="active">Map View</button>
-              <button id="aspListBtn">List View</button>
-            </div>
+        <!-- Toggle -->
+        <div class="asp-toggle">
+          <div class="asp-toggle-wrap">
+            <button id="aspMapBtn" class="asp-tab active">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></svg>
+              Map View
+            </button>
+            <button id="aspListBtn" class="asp-tab">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+              List View
+            </button>
           </div>
+        </div>
 
-          <!-- Map View -->
-          <div id="aspMapView"></div>
+        <!-- Map View -->
+        <div id="aspMapView">
+          <div class="asp-map-loading" id="aspMapLoading">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#049D65" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="asp-spin"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" opacity="0.3"/><path d="M21 12a9 9 0 00-9-9"/></svg>
+            <p>Loading map…</p>
+          </div>
+          <div id="aspMap"></div>
+        </div>
 
-          <!-- List View -->
-          <div id="aspListView" style="display:none">
-            <div class="asp-container">
+        <!-- List View -->
+        <div id="aspListView" style="display:none">
+          <div class="asp-layout">
 
-              <!-- Filter Sidebar -->
-              <div class="asp-filter">
-                <div class="asp-filter-header">
-                  <h4>Filter</h4>
+            <!-- Sidebar Filter -->
+            <aside class="asp-sidebar">
+              <div class="asp-filter-box">
+                <div class="asp-filter-title">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+                  Filter Partners
                 </div>
-                <div class="asp-filter-content">
-                  <div class="asp-filter-field">
+                <div class="asp-filter-body">
+                  <div class="asp-field">
                     <label for="aspState">State</label>
-                    <select id="aspState">
-                      <option value="">Select State</option>
-                    </select>
+                    <div class="asp-select-wrap">
+                      <select id="aspState">
+                        <option value="">Select State</option>
+                      </select>
+                      <svg class="asp-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                    </div>
                   </div>
-                  <div class="asp-filter-field">
+                  <div class="asp-field">
                     <label for="aspDistrict">District</label>
-                    <select id="aspDistrict" disabled>
-                      <option value="">Select District</option>
-                    </select>
+                    <div class="asp-select-wrap">
+                      <select id="aspDistrict" disabled>
+                        <option value="">Select District</option>
+                      </select>
+                      <svg class="asp-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                    </div>
                   </div>
-                  <div class="asp-filter-actions">
-                    <button id="aspReset">Reset</button>
-                    <button id="aspApply" class="apply">Apply</button>
+                  <div class="asp-filter-btns">
+                    <button id="aspReset" class="asp-btn-reset">Reset</button>
+                    <button id="aspApply" class="asp-btn-apply">Apply Filter</button>
                   </div>
                 </div>
               </div>
+            </aside>
 
-              <!-- Cards + Pagination -->
-              <div>
-                <div class="asp-list-grid" id="aspListGrid">
-                  <div class="asp-loading">Loading partners…</div>
+            <!-- Cards Area -->
+            <div class="asp-cards-area">
+              <div id="aspListGrid" class="asp-grid">
+                <div class="asp-state-box">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                  <p>Loading partners…</p>
                 </div>
-                <div class="asp-pagination" id="aspPagination"></div>
               </div>
-
+              <div id="aspPagination" class="asp-pagination"></div>
             </div>
-          </div>
 
+          </div>
         </div>
+
       </div>
     </section>
 
@@ -144,201 +166,274 @@ const supportTypes = [
   <Footer />
 </Layout>
 
-<style>
-  .asp-wrapper {
-    max-width: 100%;
-  }
-
-  /* Toggle */
+<!-- is:global so dynamically created elements also get these styles -->
+<style is:global>
+  /* ── Toggle ─────────────────────────────── */
   .asp-toggle {
-    margin-bottom: 28px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
   }
   .asp-toggle-wrap {
-    background: rgba(0,0,0,0.04);
-    border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 40px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 50px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     display: inline-flex;
-    column-gap: 4px;
-    padding: 4px;
-    width: 100%;
-    max-width: 320px;
+    gap: 4px;
+    padding: 5px;
   }
-  .asp-toggle button {
-    background-color: transparent;
+  .asp-tab {
+    align-items: center;
+    background: transparent;
     border: none;
-    border-radius: 40px;
+    border-radius: 50px;
+    color: #64748b;
     cursor: pointer;
-    font-size: 15px;
-    font-weight: 500;
-    flex: 1;
-    padding: 10px 20px;
-    color: #475569;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 7px;
+    padding: 10px 24px;
     transition: all 0.2s;
   }
-  .asp-toggle button.active {
-    background-color: #149C68;
+  .asp-tab:hover {
+    color: #0f172a;
+  }
+  .asp-tab.active {
+    background: #049D65;
+    box-shadow: 0 2px 12px rgba(4,157,101,0.3);
     color: #fff;
   }
 
-  /* Map */
+  /* ── Map container ───────────────────────── */
   #aspMapView {
     border-radius: 20px;
-    height: 600px;
-    width: 100%;
     overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.1);
+  }
+  .asp-map-loading {
+    align-items: center;
+    background: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 580px;
+    justify-content: center;
+    color: #64748b;
+    font-size: 14px;
+  }
+  .asp-map-loading.asp-hidden {
+    display: none;
+  }
+  #aspMap {
+    height: 580px;
+    width: 100%;
+  }
+  @media (max-width: 640px) {
+    .asp-map-loading, #aspMap { height: 420px; }
   }
 
-  /* Map popup */
-  .asp-map-popup {
+  /* ── Spinner ─────────────────────────────── */
+  @keyframes asp-spin {
+    to { transform: rotate(360deg); }
+  }
+  .asp-spin {
+    animation: asp-spin 0.9s linear infinite;
+  }
+
+  /* ── Map info popup ──────────────────────── */
+  .asp-popup {
     display: flex;
     gap: 12px;
-    max-width: 320px;
-    position: relative;
-    padding-right: 56px;
+    padding: 4px 48px 4px 0;
+    min-width: 240px;
+    max-width: 300px;
   }
-  .asp-map-popup .asp-image img {
-    border-radius: 6px;
+  .asp-popup img {
+    border-radius: 8px;
     object-fit: cover;
-    height: 72px;
-    width: 72px;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
   }
-  .asp-map-popup .asp-info .title {
-    font-size: 15px;
-    font-weight: 600;
-    margin: 0 0 2px;
+  .asp-popup-name {
+    font-size: 14px;
+    font-weight: 700;
     color: #0f172a;
+    margin: 0 0 2px;
+    line-height: 1.3;
   }
-  .asp-map-popup .asp-info .designation {
-    font-size: 13px;
-    color: #475569;
+  .asp-popup-company {
+    font-size: 12px;
+    color: #049D65;
+    font-weight: 600;
     margin: 0 0 4px;
   }
-  .asp-map-popup .asp-info .address {
-    font-size: 12px;
+  .asp-popup-addr {
+    font-size: 11px;
     color: #64748b;
     margin: 0;
+    line-height: 1.4;
   }
-  .asp-map-popup .asp-actions {
+  .asp-popup-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
     position: absolute;
     right: 0;
-    top: 0;
-    display: flex;
-    gap: 8px;
+    top: 4px;
   }
-  .asp-map-popup .asp-actions a {
-    display: flex;
+  .asp-popup-actions a {
     align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
     background: #f1f5f9;
-    transition: background 0.2s;
+    border-radius: 8px;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    width: 32px;
+    transition: background 0.15s;
   }
-  .asp-map-popup .asp-actions a:hover {
-    background: #e2e8f0;
-  }
+  .asp-popup-actions a:hover { background: #dcfce7; }
 
-  /* List layout */
-  .asp-container {
+  /* ── List layout ─────────────────────────── */
+  .asp-layout {
     display: grid;
-    grid-template-columns: 280px 1fr;
+    grid-template-columns: 260px 1fr;
     gap: 24px;
-    align-items: flex-start;
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .asp-layout { grid-template-columns: 1fr; }
+    .asp-sidebar { position: static !important; }
   }
 
-  /* Filter sidebar */
-  .asp-filter {
+  /* ── Sidebar ─────────────────────────────── */
+  .asp-sidebar {
+    position: sticky;
+    top: 96px;
+  }
+  .asp-filter-box {
     background: #fff;
     border: 1px solid #e2e8f0;
     border-radius: 16px;
     overflow: hidden;
-    position: sticky;
-    top: 100px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   }
-  .asp-filter-header {
-    border-bottom: 1px solid #e2e8f0;
+  .asp-filter-title {
+    align-items: center;
+    border-bottom: 1px solid #f1f5f9;
+    color: #0f172a;
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    gap: 8px;
     padding: 16px 20px;
   }
-  .asp-filter-header h4 {
-    font-size: 15px;
-    font-weight: 600;
-    color: #0f172a;
-    margin: 0;
-  }
-  .asp-filter-content {
+  .asp-filter-body {
     padding: 20px;
   }
-  .asp-filter-field {
+  .asp-field {
     margin-bottom: 16px;
   }
-  .asp-filter-field label {
-    display: block;
-    font-size: 13px;
-    font-weight: 500;
+  .asp-field label {
     color: #475569;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
     margin-bottom: 6px;
+    text-transform: uppercase;
   }
-  .asp-filter-field select {
-    width: 100%;
+  .asp-select-wrap {
+    position: relative;
+  }
+  .asp-select-wrap select {
+    appearance: none;
+    background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 10px;
-    padding: 10px 12px;
-    font-size: 14px;
     color: #0f172a;
-    background: #f8fafc;
-    outline: none;
-    appearance: none;
     cursor: pointer;
-    transition: border-color 0.2s;
+    font-size: 14px;
+    outline: none;
+    padding: 10px 36px 10px 12px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    width: 100%;
   }
-  .asp-filter-field select:focus {
-    border-color: #149C68;
+  .asp-select-wrap select:focus {
+    border-color: #049D65;
+    box-shadow: 0 0 0 3px rgba(4,157,101,0.12);
   }
-  .asp-filter-field select:disabled {
-    opacity: 0.5;
+  .asp-select-wrap select:disabled {
+    color: #94a3b8;
     cursor: not-allowed;
   }
-  .asp-filter-actions {
+  .asp-chevron {
+    color: #94a3b8;
+    pointer-events: none;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .asp-filter-btns {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     margin-top: 20px;
   }
-  .asp-filter-actions button {
-    flex: 1;
+  .asp-btn-reset {
+    background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 10px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 10px;
-    background: #fff;
     color: #475569;
+    cursor: pointer;
+    flex: 1;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px;
     transition: all 0.2s;
   }
-  .asp-filter-actions button:hover {
+  .asp-btn-reset:hover {
+    background: #f1f5f9;
     border-color: #cbd5e1;
-    background: #f8fafc;
   }
-  .asp-filter-actions .apply {
-    background: #149C68;
-    border-color: #149C68;
+  .asp-btn-apply {
+    background: #049D65;
+    border: 1px solid #049D65;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(4,157,101,0.25);
     color: #fff;
+    cursor: pointer;
+    flex: 1;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px;
+    transition: all 0.2s;
   }
-  .asp-filter-actions .apply:hover {
-    background: #0f8056;
-    border-color: #0f8056;
+  .asp-btn-apply:hover {
+    background: #038a57;
+    border-color: #038a57;
   }
 
-  /* Card grid */
-  .asp-list-grid {
+  /* ── Cards grid ──────────────────────────── */
+  .asp-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    gap: 14px;
+  }
+  @media (max-width: 1100px) {
+    .asp-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 900px) {
+    .asp-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .asp-grid { grid-template-columns: 1fr; }
   }
 
-  /* Card */
+  /* ── Card ────────────────────────────────── */
   .asp-card {
     background: #fff;
     border: 1px solid #e2e8f0;
@@ -347,352 +442,339 @@ const supportTypes = [
     gap: 14px;
     padding: 16px;
     position: relative;
-    transition: box-shadow 0.2s, border-color 0.2s;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
   }
   .asp-card:hover {
-    border-color: #149C68;
-    box-shadow: 0 4px 20px rgba(20,156,104,0.1);
+    border-color: #049D65;
+    box-shadow: 0 6px 24px rgba(4,157,101,0.1);
+    transform: translateY(-1px);
   }
-  .asp-card .asp-image img {
-    border-radius: 8px;
-    object-fit: cover;
-    height: 80px;
-    width: 80px;
+  .asp-card-img {
     flex-shrink: 0;
   }
-  .asp-card .asp-info {
+  .asp-card-img img {
+    border-radius: 10px;
+    display: block;
+    height: 76px;
+    object-fit: cover;
+    width: 76px;
+  }
+  .asp-card-body {
     flex: 1;
     min-width: 0;
-    padding-right: 56px;
+    padding-right: 52px;
   }
-  .asp-card .asp-info .title {
-    font-size: 14px;
-    font-weight: 600;
+  .asp-card-name {
     color: #0f172a;
-    margin: 0 0 2px;
-    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0 0 3px;
   }
-  .asp-card .asp-info .designation {
-    font-size: 13px;
-    font-weight: 500;
-    color: #149C68;
-    margin: 0 0 4px;
-  }
-  .asp-card .asp-info .location {
+  .asp-card-role {
+    color: #049D65;
     font-size: 12px;
-    color: #64748b;
-    margin: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    font-weight: 600;
+    margin: 0 0 5px;
   }
-  .asp-card .asp-actions {
+  .asp-card-loc {
+    align-items: center;
+    color: #64748b;
+    display: flex;
+    font-size: 12px;
+    gap: 4px;
+    margin: 0;
+  }
+  .asp-card-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
     position: absolute;
     right: 14px;
     top: 14px;
-    display: flex;
-    gap: 8px;
   }
-  .asp-card .asp-actions a {
-    display: flex;
+  .asp-card-actions a {
     align-items: center;
-    justify-content: center;
-    width: 32px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    display: flex;
     height: 32px;
-    border-radius: 50%;
-    background: #f1f5f9;
-    transition: background 0.2s;
-    flex-shrink: 0;
+    justify-content: center;
+    transition: background 0.15s, border-color 0.15s;
+    width: 32px;
   }
-  .asp-card .asp-actions a:hover {
+  .asp-card-actions a:hover {
     background: #dcfce7;
+    border-color: #a7f3d0;
   }
 
-  /* Loading / empty states */
-  .asp-loading,
-  .asp-empty,
-  .asp-error {
-    grid-column: 1 / -1;
-    text-align: center;
-    padding: 48px 0;
-    color: #64748b;
-    font-size: 14px;
-  }
-
-  /* Pagination */
-  .asp-pagination {
-    display: flex;
-    justify-content: flex-end;
+  /* ── State boxes ─────────────────────────── */
+  .asp-state-box {
     align-items: center;
-    gap: 12px;
-    margin-top: 20px;
+    color: #94a3b8;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 10px;
+    grid-column: 1 / -1;
+    justify-content: center;
+    padding: 60px 0;
   }
-  .asp-page-btn {
+  .asp-state-box p { margin: 0; }
+
+  /* ── Pagination ──────────────────────────── */
+  .asp-pagination {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 24px;
+  }
+  .asp-pg-btn {
+    align-items: center;
     background: #fff;
     border: 1px solid #e2e8f0;
     border-radius: 50%;
-    cursor: pointer;
-    width: 36px;
-    height: 36px;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #475569;
-    transition: all 0.2s;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    height: 36px;
+    justify-content: center;
     line-height: 1;
     padding: 0;
+    transition: all 0.2s;
+    width: 36px;
   }
-  .asp-page-btn:hover {
-    border-color: #149C68;
-    color: #149C68;
+  .asp-pg-btn:hover {
+    background: #049D65;
+    border-color: #049D65;
+    color: #fff;
   }
-  .asp-page-current {
+  .asp-pg-label {
+    color: #64748b;
     font-size: 13px;
     font-weight: 600;
-    color: #475569;
-  }
-
-  /* Responsive */
-  @media (max-width: 900px) {
-    .asp-container {
-      grid-template-columns: 1fr;
-    }
-    .asp-filter {
-      position: static;
-    }
-    .asp-list-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-  @media (max-width: 640px) {
-    #aspMapView {
-      height: 420px;
-    }
   }
 </style>
 
+<!-- Runs synchronously — sets up Maps callback queue before any async loads -->
+<script is:inline>
+  window.__aspMapsReady = false;
+  window.__aspQueue = [];
+  window.__aspInit = function () {
+    window.__aspMapsReady = true;
+    window.__aspQueue.forEach(function (fn) { fn(); });
+    window.__aspQueue = [];
+  };
+</script>
+
 <script>
-  const API_BASE = 'https://qbits.quickestimate.co/api/v1/webhook';
-  const SIG = 'eyJhbGciOi3nMiGM6H9FNFUROf3wh7SmQ30';
-  const PHOTO_BASE = 'https://qbits.quickestimate.co/storage/';
-  const DEFAULT_PHOTO = '/default-user.jpg';
-  const MARKER_ICON = '/icon-marker.svg';
-  const WA_ICON = '/icon-whatsapp.svg';
-  const CALL_ICON = '/icon-mobile.svg';
+  /* ── Constants ─────────────────────────────────── */
+  const API  = 'https://qbits.quickestimate.co/api/v1/webhook';
+  const SIG  = 'eyJhbGciOi3nMiGM6H9FNFUROf3wh7SmQ30';
+  const CDN  = 'https://qbits.quickestimate.co/storage/';
+  const H    = { 'Accept': 'application/json', 'X-Signature': SIG };
 
-  const headers = { 'Accept': 'application/json', 'X-Signature': SIG };
+  const WA_SVG   = `<svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.83719 18.5729C6.38246 19.5027 8.1493 19.9928 9.96461 19.9928C15.4655 19.9928 20 15.504 20 9.99633C20 4.49508 15.472 0 9.96461 0C4.47402 0 0.0071875 4.48438 0.0071875 9.99633C0.0071875 11.8359 0.497422 13.6162 1.42715 15.1627L0 20L4.83719 18.5729ZM1.17875 9.99633C1.17875 5.13031 5.12008 1.17141 9.96461 1.17141C14.8521 1.17141 18.8286 5.13031 18.8286 9.99633C18.8286 14.8625 14.8521 18.8213 9.96461 18.8213C8.28277 18.8213 6.6484 18.3449 5.23863 17.4434L5.01344 17.2995L1.73262 18.2675L2.70051 14.9866L2.5566 14.7615C1.65512 13.3514 1.17875 11.7038 1.17875 9.99633Z" fill="#149C68"/><path d="M4.86822 8.15438C5.0617 9.17047 5.63603 11.1248 7.30826 12.797C8.98045 14.4693 10.9348 15.0437 11.951 15.2372C13.1147 15.4588 14.8223 15.4922 15.6568 14.6577L16.122 14.1924C16.3569 13.9576 16.4863 13.6452 16.4863 13.313C16.4863 12.9809 16.3569 12.6687 16.1221 12.4339L14.2615 10.5733C14.0265 10.3384 13.7144 10.2091 13.3822 10.2091C13.05 10.2091 12.7378 10.3384 12.5028 10.5734L12.0377 11.0384C11.7536 11.3225 11.2172 11.3238 10.931 11.042L9.07521 9.10836C8.78225 8.81523 8.78225 8.35215 9.06682 8.06754L9.53193 7.60246C10.0181 7.11633 10.0181 6.32973 9.53193 5.84375L7.67139 3.9832C7.18662 3.49844 6.39775 3.49844 5.91283 3.9832L5.44775 4.44844C4.78174 5.11453 4.55967 6.53449 4.86822 8.15438Z" fill="#149C68"/></svg>`;
+  const CALL_SVG = `<svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.0376 13.2947C6.01025 15.6527 8.38489 17.5093 11.0952 18.823C12.1271 19.3121 13.5071 19.8923 15.0446 19.9917C15.14 19.9959 15.2311 20 15.3265 20C16.3584 20 17.1872 19.6436 17.8627 18.9101C17.8669 18.9059 17.8751 18.8976 17.8793 18.8893C18.1197 18.5993 18.3932 18.3382 18.6791 18.0605C18.8739 17.874 19.0728 17.6792 19.2635 17.4803C20.1462 16.5603 20.1462 15.3916 19.2552 14.5006L16.7645 12.0099C16.3418 11.5707 15.8362 11.3386 15.3057 11.3386C14.7753 11.3386 14.2655 11.5707 13.8304 12.0058L12.3468 13.4894C12.21 13.4107 12.0691 13.3402 11.9365 13.2739C11.7707 13.191 11.6174 13.1123 11.4806 13.0253C10.1296 12.1674 8.90292 11.0485 7.7301 9.61044C7.13748 8.86034 6.73963 8.23042 6.46197 7.58807C6.85153 7.23581 7.21622 6.86697 7.56848 6.50642C7.6928 6.37795 7.82128 6.24948 7.94975 6.12101C8.39732 5.67344 8.63769 5.15541 8.63769 4.62909C8.63769 4.10278 8.40147 3.58475 7.94975 3.13717L6.71477 1.9022C6.56972 1.75715 6.43296 1.61625 6.29206 1.4712C6.01854 1.18939 5.73259 0.899296 5.45078 0.63821C5.02393 0.219644 4.52248 0 3.99202 0C3.4657 0 2.96011 0.219644 2.51668 0.642354L0.966738 2.19229C0.403124 2.75591 0.0840195 3.4397 0.017712 4.23125C-0.0610281 5.22172 0.121318 6.27435 0.593758 7.54662C1.319 9.51513 2.41307 11.3427 4.0376 13.2947Z" fill="#149C68"/></svg>`;
+  const PIN_SVG  = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
 
-  async function apiFetch(endpoint: string) {
-    const res = await fetch(`${API_BASE}/${endpoint}`, { headers });
-    if (!res.ok) throw new Error(`API error: ${res.status}`);
-    return res.json();
+  async function get(path: string) {
+    const r = await fetch(`${API}/${path}`, { headers: H });
+    if (!r.ok) throw new Error(r.status.toString());
+    return r.json();
   }
 
-  /* ---- Map ---- */
+  function photo(p: string | null) {
+    return p ? `${CDN}${p}` : '/default-user.jpg';
+  }
+
+  function whenMapReady(fn: () => void) {
+    if ((window as any).__aspMapsReady) fn();
+    else (window as any).__aspQueue.push(fn);
+  }
+
+  /* ── Map ────────────────────────────────────── */
   let map: any = null;
-  let markers: any[] = [];
-  let infoWindow: any = null;
+  let iw: any  = null;
+  let pins: any[] = [];
 
   async function loadMap() {
+    const loading = document.getElementById('aspMapLoading')!;
     try {
-      const json = await apiFetch('channel-partner/map-view');
-      if (!json?.data) return;
+      const json = await get('channel-partner/map-view');
+      if (!json?.data?.length) { loading.innerHTML = '<p style="color:#94a3b8;padding:60px 0;text-align:center">No map data available.</p>'; return; }
 
-      const mapEl = document.getElementById('aspMapView')!;
+      loading.classList.add('asp-hidden');
 
-      if (!map) {
-        map = new (window as any).google.maps.Map(mapEl, {
-          center: { lat: 22.5937, lng: 78.9629 },
-          zoom: 5,
-          mapTypeControl: false,
-          streetViewControl: false,
-          fullscreenControl: false,
-        });
-      }
-      if (!infoWindow) {
-        infoWindow = new (window as any).google.maps.InfoWindow();
-      }
+      const g = (window as any).google.maps;
+      map = map || new g.Map(document.getElementById('aspMap'), {
+        center: { lat: 22.5937, lng: 78.9629 },
+        zoom: 5,
+        mapTypeControl: false,
+        streetViewControl: false,
+        fullscreenControl: false,
+        zoomControlOptions: { position: g.ControlPosition.RIGHT_CENTER },
+        styles: [{ featureType: 'poi', elementType: 'labels', stylers: [{ visibility: 'off' }] }],
+      });
+      iw = iw || new g.InfoWindow();
 
-      markers.forEach(m => m.setMap(null));
-      markers = [];
+      pins.forEach(m => m.setMap(null));
+      pins = [];
 
-      const bounds = new (window as any).google.maps.LatLngBounds();
-      let hasPoints = false;
+      const bounds = new g.LatLngBounds();
 
       json.data.forEach((item: any) => {
         if (!item.latitude || !item.longitude) return;
         const pos = { lat: parseFloat(item.latitude), lng: parseFloat(item.longitude) };
         bounds.extend(pos);
-        hasPoints = true;
 
-        const marker = new (window as any).google.maps.Marker({
-          position: pos,
-          map,
-          icon: { url: MARKER_ICON, scaledSize: new (window as any).google.maps.Size(44, 44) },
+        const marker = new g.Marker({
+          position: pos, map,
+          icon: { url: '/icon-marker.svg', scaledSize: new g.Size(44, 44) },
         });
 
-        const photo = item.photo ? `${PHOTO_BASE}${item.photo}` : DEFAULT_PHOTO;
+        const img = photo(item.photo);
         const popup = `
-          <div class="asp-map-popup">
-            <div class="asp-image"><img src="${photo}" alt="${item.name || ''}"></div>
-            <div class="asp-info">
-              ${item.name ? `<p class="title">${item.name}</p>` : ''}
-              ${item.company_name ? `<p class="designation">${item.company_name}${item.designation ? ' · ' + item.designation : ''}</p>` : ''}
-              ${item.address ? `<p class="address">${item.address}${item.city_name ? ', ' + item.city_name : ''}${item.state_name ? ', ' + item.state_name : ''}</p>` : ''}
+          <div class="asp-popup" style="position:relative">
+            <img src="${img}" alt="${item.name || ''}">
+            <div>
+              ${item.name ? `<p class="asp-popup-name">${item.name}</p>` : ''}
+              ${item.company_name ? `<p class="asp-popup-company">${item.company_name}${item.designation ? ' · ' + item.designation : ''}</p>` : ''}
+              ${item.address ? `<p class="asp-popup-addr">${item.address}${item.city_name ? ', ' + item.city_name : ''}${item.state_name ? ', ' + item.state_name : ''}</p>` : ''}
             </div>
-            <div class="asp-actions">
-              ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank"><img src="${WA_ICON}" width="20" height="20" alt="WhatsApp"></a>` : ''}
-              ${item.mobile ? `<a href="tel:${item.mobile}"><img src="${CALL_ICON}" width="20" height="20" alt="Call"></a>` : ''}
+            <div class="asp-popup-actions">
+              ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp">${WA_SVG}</a>` : ''}
+              ${item.mobile ? `<a href="tel:${item.mobile}" title="Call">${CALL_SVG}</a>` : ''}
             </div>
           </div>`;
 
-        marker.addListener('click', () => {
-          infoWindow.setContent(popup);
-          infoWindow.open(map, marker);
-        });
-        markers.push(marker);
+        marker.addListener('click', () => { iw.setContent(popup); iw.open(map, marker); });
+        pins.push(marker);
       });
 
-      if (hasPoints) map.fitBounds(bounds);
-    } catch (err) {
-      console.error('Map load error:', err);
+      if (pins.length) map.fitBounds(bounds);
+    } catch (e) {
+      loading.innerHTML = '<p style="color:#94a3b8;padding:60px 0;text-align:center">Could not load map.</p>';
     }
   }
 
-  /* ---- List ---- */
-  let currentState = '';
-  let currentCity = '';
-
+  /* ── List ───────────────────────────────────── */
   async function loadList(state = '', city = '', page = 1) {
     const grid = document.getElementById('aspListGrid')!;
-    const pagination = document.getElementById('aspPagination')!;
-    grid.innerHTML = '<div class="asp-loading">Loading partners…</div>';
-    pagination.innerHTML = '';
+    const pag  = document.getElementById('aspPagination')!;
+    grid.innerHTML = `<div class="asp-state-box"><svg class="asp-spin" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#049D65" stroke-width="1.5"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" opacity="0.3"/><path d="M21 12a9 9 0 00-9-9"/></svg><p>Loading…</p></div>`;
+    pag.innerHTML = '';
 
     try {
-      const json = await apiFetch(`channel-partner/list-view?state_id=${state}&city=${city}&page=${page}`);
-      const data = json?.data?.data;
+      const json = await get(`channel-partner/list-view?state_id=${state}&city=${city}&page=${page}`);
+      const rows = json?.data?.data;
       grid.innerHTML = '';
 
-      if (!data || data.length === 0) {
-        grid.innerHTML = '<div class="asp-empty">No service partners found.</div>';
+      if (!rows?.length) {
+        grid.innerHTML = `<div class="asp-state-box"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#cbd5e1" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><p>No partners found for this area.</p></div>`;
         return;
       }
 
-      data.forEach((item: any) => {
-        const photo = item.photo ? `${PHOTO_BASE}${item.photo}` : DEFAULT_PHOTO;
+      rows.forEach((item: any) => {
+        const img = photo(item.photo);
+        const loc = [item.city_name, item.state_name].filter(Boolean).join(', ');
         const card = document.createElement('div');
         card.className = 'asp-card';
         card.innerHTML = `
-          <div class="asp-image"><img src="${photo}" alt="${item.name || 'Partner'}" loading="lazy" width="80" height="80"></div>
-          <div class="asp-info">
-            ${item.name ? `<p class="title">${item.name}</p>` : ''}
-            ${item.designation ? `<p class="designation">${item.designation}</p>` : ''}
-            <p class="location">${[item.company_name, item.city_name, item.state_name].filter(Boolean).join(', ')}</p>
+          <div class="asp-card-img"><img src="${img}" alt="${item.name || 'Partner'}" loading="lazy" width="76" height="76"></div>
+          <div class="asp-card-body">
+            ${item.name ? `<p class="asp-card-name">${item.name}</p>` : ''}
+            ${item.designation ? `<p class="asp-card-role">${item.designation}</p>` : ''}
+            ${loc ? `<p class="asp-card-loc">${PIN_SVG} ${loc}</p>` : ''}
           </div>
-          <div class="asp-actions">
-            ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp"><img src="${WA_ICON}" width="20" height="20" alt="WhatsApp"></a>` : ''}
-            ${item.mobile ? `<a href="tel:${item.mobile}" title="Call"><img src="${CALL_ICON}" width="20" height="20" alt="Call"></a>` : ''}
+          <div class="asp-card-actions">
+            ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp on ${item.name}">${WA_SVG}</a>` : ''}
+            ${item.mobile ? `<a href="tel:${item.mobile}" title="Call ${item.name}">${CALL_SVG}</a>` : ''}
           </div>`;
         grid.appendChild(card);
       });
 
-      renderPagination(json.data, state, city);
-    } catch (err) {
-      console.error('List load error:', err);
-      grid.innerHTML = '<div class="asp-error">Something went wrong. Please try again.</div>';
+      buildPagination(json.data, state, city);
+    } catch {
+      grid.innerHTML = `<div class="asp-state-box"><p>Something went wrong. Please try again.</p></div>`;
     }
   }
 
-  function renderPagination(paginate: any, state: string, city: string) {
+  function buildPagination(pg: any, state: string, city: string) {
     const el = document.getElementById('aspPagination')!;
     el.innerHTML = '';
-    if (!paginate) return;
+    if (!pg || pg.last_page <= 1) return;
 
-    if (paginate.prev_page_url) {
-      const btn = document.createElement('button');
-      btn.className = 'asp-page-btn';
-      btn.innerHTML = '&#8249;';
-      btn.addEventListener('click', () => {
-        loadList(state, city, paginate.current_page - 1);
-        document.getElementById('aspListView')!.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-      el.appendChild(btn);
+    if (pg.prev_page_url) {
+      const b = document.createElement('button');
+      b.className = 'asp-pg-btn'; b.innerHTML = '&#8249;';
+      b.onclick = () => { loadList(state, city, pg.current_page - 1); scrollToList(); };
+      el.appendChild(b);
     }
 
-    const span = document.createElement('span');
-    span.className = 'asp-page-current';
-    span.textContent = `Page ${paginate.current_page} of ${paginate.last_page || '?'}`;
-    el.appendChild(span);
+    const s = document.createElement('span');
+    s.className = 'asp-pg-label';
+    s.textContent = `Page ${pg.current_page} of ${pg.last_page}`;
+    el.appendChild(s);
 
-    if (paginate.next_page_url) {
-      const btn = document.createElement('button');
-      btn.className = 'asp-page-btn';
-      btn.innerHTML = '&#8250;';
-      btn.addEventListener('click', () => {
-        loadList(state, city, paginate.current_page + 1);
-        document.getElementById('aspListView')!.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-      el.appendChild(btn);
+    if (pg.next_page_url) {
+      const b = document.createElement('button');
+      b.className = 'asp-pg-btn'; b.innerHTML = '&#8250;';
+      b.onclick = () => { loadList(state, city, pg.current_page + 1); scrollToList(); };
+      el.appendChild(b);
     }
   }
 
-  /* ---- States ---- */
+  function scrollToList() {
+    document.getElementById('aspListView')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  /* ── States / Districts ──────────────────────── */
   async function loadStates() {
     try {
-      const json = await apiFetch('state');
-      const select = document.getElementById('aspState') as HTMLSelectElement;
+      const json = await get('state');
+      const sel = document.getElementById('aspState') as HTMLSelectElement;
       json.data.forEach((s: any) => {
-        const opt = document.createElement('option');
-        opt.value = s.id;
-        opt.textContent = s.name;
-        select.appendChild(opt);
+        const o = document.createElement('option');
+        o.value = s.id; o.textContent = s.name;
+        sel.appendChild(o);
       });
-    } catch (err) {
-      console.error('States load error:', err);
-    }
+    } catch {}
   }
 
-  /* ---- Events ---- */
+  /* ── Events ─────────────────────────────────── */
   document.getElementById('aspState')?.addEventListener('change', async function () {
-    const stateId = (this as HTMLSelectElement).value;
-    const districtSelect = document.getElementById('aspDistrict') as HTMLSelectElement;
-    districtSelect.innerHTML = '<option value="">Select District</option>';
-    districtSelect.disabled = true;
-
-    if (!stateId) return;
-
+    const id = (this as HTMLSelectElement).value;
+    const d  = document.getElementById('aspDistrict') as HTMLSelectElement;
+    d.innerHTML = '<option value="">Select District</option>';
+    d.disabled = true;
+    if (!id) return;
     try {
-      const json = await apiFetch(`states/${stateId}/cities`);
+      const json = await get(`states/${id}/cities`);
       json.data.forEach((c: any) => {
-        const opt = document.createElement('option');
-        opt.value = c.id;
-        opt.textContent = c.name;
-        districtSelect.appendChild(opt);
+        const o = document.createElement('option');
+        o.value = c.id; o.textContent = c.name;
+        d.appendChild(o);
       });
-      districtSelect.disabled = false;
-    } catch {
-      districtSelect.innerHTML = '<option value="">Failed to load</option>';
-    }
+      d.disabled = false;
+    } catch { d.innerHTML = '<option value="">Failed to load</option>'; }
   });
 
   document.getElementById('aspApply')?.addEventListener('click', () => {
     const state = (document.getElementById('aspState') as HTMLSelectElement).value;
-    const city = (document.getElementById('aspDistrict') as HTMLSelectElement).value;
-    if (!state) { alert('Please select a State first'); return; }
-    currentState = state;
-    currentCity = city;
+    const city  = (document.getElementById('aspDistrict') as HTMLSelectElement).value;
+    if (!state) { alert('Please select a State first.'); return; }
     loadList(state, city, 1);
   });
 
   document.getElementById('aspReset')?.addEventListener('click', () => {
     (document.getElementById('aspState') as HTMLSelectElement).value = '';
-    const districtSelect = document.getElementById('aspDistrict') as HTMLSelectElement;
-    districtSelect.innerHTML = '<option value="">Select District</option>';
-    districtSelect.disabled = true;
-    currentState = '';
-    currentCity = '';
+    const d = document.getElementById('aspDistrict') as HTMLSelectElement;
+    d.innerHTML = '<option value="">Select District</option>';
+    d.disabled = true;
     loadList();
   });
 
@@ -710,20 +792,10 @@ const supportTypes = [
     document.getElementById('aspListView')!.style.display = '';
   });
 
-  /* ---- Init ---- */
-  function init() {
-    loadStates();
-    loadList();
-    loadMap();
-  }
-
-  // Wait for Google Maps to be ready
-  if ((window as any).google?.maps) {
-    init();
-  } else {
-    (window as any).__aspInit = init;
-  }
+  /* ── Boot ───────────────────────────────────── */
+  loadStates();
+  loadList();
+  whenMapReady(loadMap);
 </script>
 
-<!-- Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi9epoAEzqNpsuLSIGACaojRdEmL1cLTI&callback=__aspInit" async defer></script>
+<script is:inline src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi9epoAEzqNpsuLSIGACaojRdEmL1cLTI&callback=__aspInit" async defer></script>

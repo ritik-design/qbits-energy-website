@@ -64,13 +64,13 @@ The table below calculates the exact subsidy for every common residential system
 | 6 kW | ₹78,000 | ₹2,70,000–₹3,10,000 | ₹1,92,000–₹2,32,000 | 4–5 years |
 | 10 kW | ₹78,000 | ₹4,20,000–₹5,00,000 | ₹3,42,000–₹4,22,000 | 4–6 years |
 
-Cost ranges reflect 2026 benchmark data compiled by [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"} and [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"} for the Indian residential solar market. Actual costs vary by state, panel brand, inverter specification, and mounting structure complexity.
+Cost ranges reflect 2026 benchmark data compiled by [JMK Research](https://jmkresearch.com/) and [Mercom India](https://www.mercomindia.com/) for the Indian residential solar market. Actual costs vary by state, panel brand, inverter specification, and mounting structure complexity.
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for any residential system of 3 kW or above, paid directly to the buyer's Aadhaar-linked bank account after DISCOM commissioning verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for any residential system of 3 kW or above, paid directly to the buyer's Aadhaar-linked bank account after DISCOM commissioning verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ### Why 3 kW Is the Economic Sweet Spot
 
-The 3 kW threshold is not arbitrary. According to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"} data on residential solar sizing patterns in India, over 72% of home installations in the 1–5 kW segment land between 2 kW and 4 kW. A 3 kW system in India's median irradiance zone (4.5 to 5.5 peak sun hours per day) generates approximately 360 to 420 units per month — enough to offset the consumption of a typical 2 to 3 BHK household including air conditioning.
+The 3 kW threshold is not arbitrary. According to [JMK Research](https://jmkresearch.com/) data on residential solar sizing patterns in India, over 72% of home installations in the 1–5 kW segment land between 2 kW and 4 kW. A 3 kW system in India's median irradiance zone (4.5 to 5.5 peak sun hours per day) generates approximately 360 to 420 units per month — enough to offset the consumption of a typical 2 to 3 BHK household including air conditioning.
 
 Installing exactly 3 kW maximises the subsidy per rupee invested. Going to 4 kW or 5 kW is sensible if your consumption is higher, but the additional kilowatts receive no central subsidy, lengthening payback. Going below 3 kW leaves subsidy money on the table. For most urban homeowners with an electricity bill above ₹4,000 per month, 3 kW is the starting point for the financial case.
 
@@ -138,7 +138,7 @@ The state-level subsidies are the most frequently updated and most frequently mi
 | Delhi | DISCO / BSES | No separate top-up (2026) | Central subsidy only | ₹78,000 |
 | West Bengal | WBREDA | No separate top-up (2026) | Central subsidy only | ₹78,000 |
 
-[Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"} analysis of state-wise residential solar deployment consistently shows Gujarat and Maharashtra leading in per-capita installations — a direct outcome of the combined subsidy generosity making the payback period near-immediate in high-tariff urban areas.
+[Bridge to India](https://bridgetoindia.com/) analysis of state-wise residential solar deployment consistently shows Gujarat and Maharashtra leading in per-capita installations — a direct outcome of the combined subsidy generosity making the payback period near-immediate in high-tariff urban areas.
 
 For homeowners in states without a state top-up, the central ₹78,000 remains meaningful. At a 3 kW system cost of ₹1,60,000, the central subsidy alone cuts the net investment to ₹82,000 and brings payback to 2.5–3.5 years depending on local electricity tariffs and [net metering](/glossary/net-metering/) credit rates.
 
@@ -184,11 +184,11 @@ For a more granular payback analysis factoring in net metering export credits, f
 
 ## ALMM Compliance — The Hidden Condition That Controls Your Entire Subsidy
 
-Every rupee of PM Surya Ghar subsidy — central and state — is conditional on a single technical requirement: your solar inverter and panels must be on the [ALMM list](/glossary/almm-list/) (Approved List of Models and Manufacturers) maintained by [MNRE](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}. A non-ALMM inverter disqualifies the full claim, not just the inverter component.
+Every rupee of PM Surya Ghar subsidy — central and state — is conditional on a single technical requirement: your solar inverter and panels must be on the [ALMM list](/glossary/almm-list/) (Approved List of Models and Manufacturers) maintained by [MNRE](https://mnre.gov.in/almm-list/). A non-ALMM inverter disqualifies the full claim, not just the inverter component.
 
 This is not a technicality that vendors can work around. The DISCOM commissioning engineer cross-references the installed inverter model number against the current ALMM list during the site inspection. If the model is absent or the listing has expired, the inspection fails, the commissioning certificate is withheld, and the entire subsidy disbursement chain stops.
 
-- **Verify before installation begins** — Do not take the vendor's word that the inverter is ALMM-listed. Go to [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} and search the exact model name and wattage yourself.
+- **Verify before installation begins** — Do not take the vendor's word that the inverter is ALMM-listed. Go to [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/) and search the exact model name and wattage yourself.
 - **Check for active status** — ALMM listings expire. An inverter listed six months ago may have had its listing lapse if the manufacturer missed a compliance update. Always check the revision date of the list.
 - **Match model numbers exactly** — The model number on the physical inverter, the vendor invoice, and the ALMM listing must all match. Variants (e.g., TLS-3K vs TLS-3KD) are treated as separate models.
 - **Panel ALMM equally matters** — The solar panels must also be on the ALMM panel list. Both inverter and panel ALMM compliance are required; one without the other is insufficient.
@@ -199,7 +199,7 @@ Qbits on-grid and hybrid inverters across the TLS, TLD, HS, and HT series are AL
 
 ## Common Errors That Reduce or Cancel Your PM Surya Ghar Subsidy Amount
 
-Errors in the application process are more common than DISCOM officers would prefer. The following mistakes are the ones most frequently cited in MNRE's own grievance data and in reporting by [Saur Energy](https://www.saurenergy.com/){target="_blank" rel="noopener"}.
+Errors in the application process are more common than DISCOM officers would prefer. The following mistakes are the ones most frequently cited in MNRE's own grievance data and in reporting by [Saur Energy](https://www.saurenergy.com/).
 
 - **Installing before DISCOM feasibility approval** — The DISCOM must approve your application before physical installation begins. Systems installed before approval cannot be commissioned under the scheme, and the subsidy is denied with no recourse. The portal must show green "feasibility approved" status before your vendor touches the roof.
 - **Wrong system size on the application versus actual installation** — If your application states 2 kW and you install 3 kW (or vice versa), the DISCOM commissioning report will not match the portal application. The discrepancy triggers a rejection or extended review. Always amend the application if the system size changes.
@@ -288,4 +288,4 @@ For homeowners who are unsure whether their specific connection, roof, or consum
 
 The pm surya ghar subsidy amount calculation is not complex — but it rewards the homeowner who does it carefully before signing a vendor contract. Know your system size, apply the slab formula, stack your state top-up, verify ALMM compliance on every piece of equipment proposed, and budget for the post-installation reimbursement timing. Those five inputs give you the exact rupee figure that the scheme puts into your account — and the net cost number that determines how quickly your roof starts paying for itself.
 
-The scheme runs to March 2027 under the current [MNRE](https://mnre.gov.in/){target="_blank" rel="noopener"} allocation. Every month of delay is a month of electricity bills that could have been offset. Calculate your number, verify your eligibility, and apply — the process, once understood, is manageable.
+The scheme runs to March 2027 under the current [MNRE](https://mnre.gov.in/) allocation. Every month of delay is a month of electricity bills that could have been offset. Calculate your number, verify your eligibility, and apply — the process, once understood, is manageable.

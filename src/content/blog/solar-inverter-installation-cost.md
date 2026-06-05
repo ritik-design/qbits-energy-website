@@ -60,9 +60,9 @@ The table below shows the actual installed cost breakdown across the three most 
 
 These numbers assume a standard flat concrete rooftop in a Tier-2 city, a mid-market 545 Wp mono panel, and a domestic on-grid inverter with [BIS certification](/glossary/bis-certification/). Deviations from each of these assumptions move the number — the sections below explain each driver.
 
-According to [JMK Research's India Solar Market Update](https://jmkresearch.com/){target="_blank" rel="noopener"} (Q1 2026), residential solar installations in India crossed 2 GW of cumulative capacity in FY2025, with average per-watt installed costs declining 8–12% year-on-year as panel prices continued to fall globally.
+According to [JMK Research's India Solar Market Update](https://jmkresearch.com/) (Q1 2026), residential solar installations in India crossed 2 GW of cumulative capacity in FY2025, with average per-watt installed costs declining 8–12% year-on-year as panel prices continued to fall globally.
 
-> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for residential systems above 3 kW (capped at the 3 kW subsidy level). This amount is paid directly to the beneficiary's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for residential systems above 3 kW (capped at the 3 kW subsidy level). This amount is paid directly to the beneficiary's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 For a detailed explanation of how the subsidy is calculated and claimed, the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) walks through the exact benchmark costs, state top-up amounts, and the bank account verification process.
 
@@ -78,7 +78,7 @@ The PM Surya Ghar Muft Bijli Yojana subsidy structure is tiered: ₹30,000 per k
 
 Two important clarifications that most solar salespeople gloss over:
 
-- **The subsidy is on the benchmark cost, not your actual quote.** [MNRE](https://mnre.gov.in/){target="_blank" rel="noopener"} publishes a benchmark cost per kW annually. If your installer charges more than the benchmark, the subsidy is still calculated on the benchmark figure — meaning you absorb the difference.
+- **The subsidy is on the benchmark cost, not your actual quote.** [MNRE](https://mnre.gov.in/) publishes a benchmark cost per kW annually. If your installer charges more than the benchmark, the subsidy is still calculated on the benchmark figure — meaning you absorb the difference.
 - **State top-up subsidies exist.** Gujarat, Rajasthan, and Delhi offer additional state-level subsidies ranging from ₹5,000 to ₹20,000 per kW. Always check your state's DISCOM portal before assuming the central subsidy is your only support.
 
 If you are evaluating financing alongside the subsidy, the [solar inverter on EMI and financing options guide](/blog/inverter-financing-options-in-india/) covers IREDA loans, nationalised bank solar schemes, and NBFC product structures that work in parallel with the subsidy disbursement timeline.
@@ -121,7 +121,7 @@ Labour costs run 15–25% above the national median. A 3 kW installation that co
 
 ### Gujarat and Rajasthan (Lower BOS Costs)
 
-These two states have the most mature solar supply chains in India. Mounting hardware, DC cables, and combiner boxes are available locally at 10–15% lower prices than national catalogue prices. Combined with state-level top-up subsidies, effective installed costs can be 8–12% lower than the national median for equivalent equipment. Gujarat's aggressive net metering rollout also means faster approvals and lower soft-cost exposure. [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"} reported in its 2025 annual residential solar review that Gujarat accounted for the highest share of PM Surya Ghar registrations of any Indian state, with over 4 Lakh verified applications by December 2025.
+These two states have the most mature solar supply chains in India. Mounting hardware, DC cables, and combiner boxes are available locally at 10–15% lower prices than national catalogue prices. Combined with state-level top-up subsidies, effective installed costs can be 8–12% lower than the national median for equivalent equipment. Gujarat's aggressive net metering rollout also means faster approvals and lower soft-cost exposure. [Mercom India](https://www.mercomindia.com/) reported in its 2025 annual residential solar review that Gujarat accounted for the highest share of PM Surya Ghar registrations of any Indian state, with over 4 Lakh verified applications by December 2025.
 
 ### Tier-2 and Tier-3 Cities (Balanced Sweet Spot)
 
@@ -146,7 +146,7 @@ For a deeper comparison of how the choice of inverter technology affects total c
 
 ## Hidden Costs: The 8 Line Items That Vanish From Quotes
 
-The solar industry's most common consumer complaint is not equipment failure — it is surprise charges after the contract is signed. According to [Bridge to India's 2025 Consumer Solar Report](https://bridgetoindia.com/){target="_blank" rel="noopener"}, over 40% of residential solar buyers in India reported at least one unexpected post-contract cost, with net metering application fees and structural modification being the two most commonly cited surprises. These eight items are the most frequently omitted from residential solar quotes in India.
+The solar industry's most common consumer complaint is not equipment failure — it is surprise charges after the contract is signed. According to [Bridge to India's 2025 Consumer Solar Report](https://bridgetoindia.com/), over 40% of residential solar buyers in India reported at least one unexpected post-contract cost, with net metering application fees and structural modification being the two most commonly cited surprises. These eight items are the most frequently omitted from residential solar quotes in India.
 
 - **DISCOM net metering application fee** — Ranges from ₹1,000 (Gujarat residential) to ₹5,000 (Maharashtra commercial-equivalent metering). Some states have moved to online portals and reduced this fee; others still require in-person processing with additional incidentals.
 - **Bidirectional meter deposit** — The DISCOM installs a new bidirectional meter that measures export and import. The deposit is ₹1,000–₹2,500 in most states, plus an annual rental of ₹500–₹1,200 in states that levy it.
@@ -191,11 +191,11 @@ One of the most useful — and least-discussed — aspects of solar pricing is t
 | 5 kW | ₹2.5 L–₹3.5 L | ₹50–₹70/Wp | 11–14% |
 | 10 kW | ₹4.5 L–₹6 L | ₹45–₹60/Wp | 9–12% |
 
-The 1 kW system is the least efficient choice economically — it carries nearly the same fixed soft costs as a 3 kW system but spreads them over one-third the capacity. If your rooftop has space and your average monthly bill is above ₹3,000, sizing up from 2 kW to 3 kW almost always improves the payback period. The [International Renewable Energy Agency (IRENA)](https://www.irena.org/){target="_blank" rel="noopener"} notes in its Renewable Power Generation Costs 2024 report that rooftop solar is now the cheapest form of new electricity generation in most Indian states on an LCOE basis — a structural shift that makes correct system sizing at installation critically important.
+The 1 kW system is the least efficient choice economically — it carries nearly the same fixed soft costs as a 3 kW system but spreads them over one-third the capacity. If your rooftop has space and your average monthly bill is above ₹3,000, sizing up from 2 kW to 3 kW almost always improves the payback period. The [International Renewable Energy Agency (IRENA)](https://www.irena.org/) notes in its Renewable Power Generation Costs 2024 report that rooftop solar is now the cheapest form of new electricity generation in most Indian states on an LCOE basis — a structural shift that makes correct system sizing at installation critically important.
 
 The [3 kW vs 5 kW vs 10 kW solar inverter comparison](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) covers the sizing decision in detail, including a load-matching exercise you can do with your last three electricity bills.
 
-> **4–6 years.** The typical payback period for a residential on-grid solar installation in India under PM Surya Ghar subsidy, at a grid tariff of ₹7–₹9 per unit and 300+ peak sun hours per year. *Source — [Ministry of New and Renewable Energy (MNRE)](https://mnre.gov.in/){target="_blank" rel="noopener"}, Residential Solar Adoption Report, 2025.*
+> **4–6 years.** The typical payback period for a residential on-grid solar installation in India under PM Surya Ghar subsidy, at a grid tariff of ₹7–₹9 per unit and 300+ peak sun hours per year. *Source — [Ministry of New and Renewable Energy (MNRE)](https://mnre.gov.in/), Residential Solar Adoption Report, 2025.*
 
 For a detailed payback calculation broken down by city, tariff slab, and system size, the [solar inverter payback period in India guide](/blog/solar-inverter-payback-period-in-india/) includes a city-wise table covering 18 Indian cities.
 

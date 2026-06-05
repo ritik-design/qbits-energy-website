@@ -36,7 +36,7 @@ You have spent weeks researching rooftop solar. You have compared system sizes, 
 
 For most homeowners, "empanelled vendor" is a term they encounter late in the process — after they have already received two or three quotes from solar companies they found on Google or WhatsApp. This guide explains exactly what empanelment means, why it is the single most consequential vendor qualification under PM Surya Ghar, and how to verify any installer before you sign anything.
 
-> **Direct answer.** An empanelled vendor solar installer for PM Surya Ghar is a company formally registered with your state DISCOM — vetted for financial and technical capacity, bound by pricing norms, and authorised to submit commissioning reports that trigger government subsidy. Using a non-empanelled vendor disqualifies your ₹78,000 subsidy claim regardless of how good the installation looks. Verify the vendor's registration number on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} before paying any advance.
+> **Direct answer.** An empanelled vendor solar installer for PM Surya Ghar is a company formally registered with your state DISCOM — vetted for financial and technical capacity, bound by pricing norms, and authorised to submit commissioning reports that trigger government subsidy. Using a non-empanelled vendor disqualifies your ₹78,000 subsidy claim regardless of how good the installation looks. Verify the vendor's registration number on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) before paying any advance.
 
 Understanding this rule in full means understanding the broader PM Surya Ghar structure — how [DISCOM](/glossary/discom/) registration works, what the [ALMM list](/glossary/almm-list/) requires of equipment, and what your rights are if something goes wrong after installation.
 
@@ -65,7 +65,7 @@ If a company is not in that list — even if they are technically brilliant, use
 
 ## Why the Government Made Empanelment Mandatory
 
-PM Surya Ghar Muft Bijli Yojana aims to deploy rooftop solar across one crore (10 million) households by March 2027, according to the [MNRE scheme documentation](https://mnre.gov.in/){target="_blank" rel="noopener"}. At that scale, the government cannot inspect every installation before releasing funds. Empanelment is the quality-control mechanism that solves this problem.
+PM Surya Ghar Muft Bijli Yojana aims to deploy rooftop solar across one crore (10 million) households by March 2027, according to the [MNRE scheme documentation](https://mnre.gov.in/). At that scale, the government cannot inspect every installation before releasing funds. Empanelment is the quality-control mechanism that solves this problem.
 
 Before this structure existed, India's earlier rooftop solar subsidy programmes under the Grid Connected Rooftop Solar Phase II suffered from three documented failure modes:
 
@@ -75,17 +75,17 @@ Before this structure existed, India's earlier rooftop solar subsidy programmes 
 
 The empanelment framework addresses all three. By tying the vendor's registration number to every application on the portal, the DISCOM can audit the vendor's track record, pull up all installations they have filed, and cancel their registration if patterns of non-compliance emerge.
 
-> **₹75,000 crore.** The total allocation for PM Surya Ghar Muft Bijli Yojana across its programme period — the largest single residential solar commitment in Indian government history. *Source — [MNRE PM Surya Ghar Scheme Notification](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2024.*
+> **₹75,000 crore.** The total allocation for PM Surya Ghar Muft Bijli Yojana across its programme period — the largest single residential solar commitment in Indian government history. *Source — [MNRE PM Surya Ghar Scheme Notification](https://pmsuryaghar.gov.in/), 2024.*
 
 For homeowners, the empanelment rule is ultimately consumer protection. The grievance mechanism, the pricing cap, the ALMM requirement — none of these apply to a transaction with a non-empanelled vendor. The moment you work outside the scheme's structure, you are on your own.
 
 ## How to Verify an Empanelled Solar Vendor — Step by Step
 
-The PM Surya Ghar portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} is the primary source of truth. Below is the verification workflow in sequence.
+The PM Surya Ghar portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) is the primary source of truth. Below is the verification workflow in sequence.
 
 ### Step 1 — Log into the Portal
 
-Go to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} and select "Rooftop Solar." If you have not registered yet, you will need your DISCOM consumer number and Aadhaar to create an account. The full application walkthrough is covered in the [PM Surya Ghar apply online guide](/blog/pm-surya-ghar-apply-online/).
+Go to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and select "Rooftop Solar." If you have not registered yet, you will need your DISCOM consumer number and Aadhaar to create an account. The full application walkthrough is covered in the [PM Surya Ghar apply online guide](/blog/pm-surya-ghar-apply-online/).
 
 ### Step 2 — Navigate to the Vendor List
 
@@ -101,7 +101,7 @@ When a vendor gives you a quote, ask them directly for their DISCOM empanelment 
 
 ### Step 5 — Verify Their ALMM Equipment
 
-Ask the vendor which specific inverter model and solar panel brand they plan to install. Look up both on the [MNRE ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}. The ALMM list is a live document that is updated quarterly — confirm you are checking the current version, not a printed screenshot from six months ago.
+Ask the vendor which specific inverter model and solar panel brand they plan to install. Look up both on the [MNRE ALMM list](https://mnre.gov.in/almm-list/). The ALMM list is a live document that is updated quarterly — confirm you are checking the current version, not a printed screenshot from six months ago.
 
 ## The 5-Point Vendor Verification Checklist — Before You Sign Anything
 
@@ -138,7 +138,7 @@ Empanelment and ALMM compliance are two separate but interlocking requirements u
 
 The [ALMM list (Approved List of Models and Manufacturers)](/glossary/almm-list/) is maintained by MNRE and covers two separate categories: solar photovoltaic modules and solar inverters. Each category has its own approval process, testing standards, and list. A component must appear in the correct category to satisfy scheme requirements.
 
-For solar panels, the test standards include IEC 61215 and IEC 61730 — internationally recognised quality benchmarks. For inverters, the BIS certification under IS 16221 / IEC 62109 is the primary gate, along with grid connectivity standards required under [Central Electricity Authority](https://cea.nic.in/){target="_blank" rel="noopener"} regulations.
+For solar panels, the test standards include IEC 61215 and IEC 61730 — internationally recognised quality benchmarks. For inverters, the BIS certification under IS 16221 / IEC 62109 is the primary gate, along with grid connectivity standards required under [Central Electricity Authority](https://cea.nic.in/) regulations.
 
 | Component | ALMM Category | Key Standard | Test Frequency |
 | --- | --- | --- | --- |
@@ -170,7 +170,7 @@ The empanelment structure does not just protect you before installation — it g
 
 ### The Grievance Mechanism on the PM Surya Ghar Portal
 
-After logging into [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, registered applicants can navigate to the grievance filing section. A complaint requires:
+After logging into [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/), registered applicants can navigate to the grievance filing section. A complaint requires:
 
 - Your application reference number
 - The vendor's registration number
@@ -190,7 +190,7 @@ When complaints pile up against a specific vendor, the DISCOM can:
 
 This enforcement chain is what makes empanelment meaningful — it is not just a piece of paper. Vendors with a pattern of complaints lose their registration and their ability to work under the scheme. That accountability loop does not exist at all when you hire outside the official channel.
 
-> **30 days.** The maximum time the PM Surya Ghar portal's grievance mechanism allows for DISCOM response to a consumer complaint filed against an empanelled vendor. *Source — [PM Surya Ghar Citizen Charter](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **30 days.** The maximum time the PM Surya Ghar portal's grievance mechanism allows for DISCOM response to a consumer complaint filed against an empanelled vendor. *Source — [PM Surya Ghar Citizen Charter](https://pmsuryaghar.gov.in/), 2026.*
 
 ## Subsidy Eligibility at Risk — The Most Expensive Mistake in Solar
 

@@ -50,7 +50,7 @@ Indian C&I buyers often track diesel cost in rupees per litre. The more revealin
 
 A well-maintained diesel generator set in the 50–500 kW range delivers three to four kWh of usable AC power per litre of diesel consumed, depending on the load factor. At 75 percent load (the recommended operating band for DG longevity), a 50 kW generator consumes approximately 10–12 litres per hour.
 
-With diesel retail prices at ₹87 per litre in June 2026 ([CEA](https://cea.nic.in/){target="_blank" rel="noopener"} infrastructure data, cross-referenced with PPAC published pump prices), the fuel-only cost per kWh works out as follows:
+With diesel retail prices at ₹87 per litre in June 2026 ([CEA](https://cea.nic.in/) infrastructure data, cross-referenced with PPAC published pump prices), the fuel-only cost per kWh works out as follows:
 
 | Load Factor | kWh per Litre | Fuel Cost per kWh (₹87/litre) |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ DG maintenance — oil changes, filter replacements, alternator servicing, AMC c
 
 ### Carbon cost and regulatory risk
 
-Each litre of diesel burned releases approximately 2.68 kg of CO₂ ([Ember Climate, India emissions factor report 2025](https://ember-climate.org/){target="_blank" rel="noopener"}). A factory running a 50 kW DG set for eight hours per day burns roughly 96 litres — releasing 257 kg of CO₂ daily, or 93.8 tonnes per year. As India's carbon pricing and ESG disclosure frameworks tighten, this liability is moving from reputational to financial. The Business Responsibility and Sustainability Reporting (BRSR) framework now mandates Scope 1 emissions disclosure for top-listed companies, and the pressure cascades to their suppliers.
+Each litre of diesel burned releases approximately 2.68 kg of CO₂ ([Ember Climate, India emissions factor report 2025](https://ember-climate.org/)). A factory running a 50 kW DG set for eight hours per day burns roughly 96 litres — releasing 257 kg of CO₂ daily, or 93.8 tonnes per year. As India's carbon pricing and ESG disclosure frameworks tighten, this liability is moving from reputational to financial. The Business Responsibility and Sustainability Reporting (BRSR) framework now mandates Scope 1 emissions disclosure for top-listed companies, and the pressure cascades to their suppliers.
 
 ### The composite DG cost
 
@@ -79,7 +79,7 @@ Each litre of diesel burned releases approximately 2.68 kg of CO₂ ([Ember Clim
 
 This is the number a solar system must beat. It does — by a factor of six to eight.
 
-> **₹27.4 per kWh.** The all-in cost of diesel-generated power for a 50 kW factory DG running at 75 percent load, including fuel at June 2026 pump prices, maintenance, and capital depreciation. *Source — [CEA](https://cea.nic.in/){target="_blank" rel="noopener"} tariff data + [PPAC](https://www.ppac.gov.in/){target="_blank" rel="noopener"} pump price bulletin, 2026.*
+> **₹27.4 per kWh.** The all-in cost of diesel-generated power for a 50 kW factory DG running at 75 percent load, including fuel at June 2026 pump prices, maintenance, and capital depreciation. *Source — [CEA](https://cea.nic.in/) tariff data + [PPAC](https://www.ppac.gov.in/) pump price bulletin, 2026.*
 
 ## The True Cost of C&I Solar Power in India
 
@@ -87,7 +87,7 @@ Solar has two cost phases that are radically different: the upfront CAPEX and th
 
 ### CAPEX for a 50 kW C&I installation
 
-[MNRE benchmark costs](https://mnre.gov.in/){target="_blank" rel="noopener"} for commercial rooftop solar in 2025–26 range from ₹40,000 to ₹60,000 per kW (all-inclusive: modules, inverter, mounting, BOS, installation, net-metering fees). For a 50 kW system:
+[MNRE benchmark costs](https://mnre.gov.in/) for commercial rooftop solar in 2025–26 range from ₹40,000 to ₹60,000 per kW (all-inclusive: modules, inverter, mounting, BOS, installation, net-metering fees). For a 50 kW system:
 
 - **Low estimate:** ₹20 lakh (competitive EPC with Tier-2 modules)
 - **Mid estimate:** ₹25 lakh (mid-market modules, quality inverter, standard installation)
@@ -107,7 +107,7 @@ The [Levelised Cost of Energy (LCOE)](/glossary/lcoe/) strips away financing str
 
 **Solar LCOE = (₹25 lakh + ₹5.25 lakh O&M) ÷ 1,500,000 kWh = ₹2.02/kWh**
 
-Even at the high CAPEX estimate of ₹30 lakh, the solar LCOE is ₹2.35/kWh — a fraction of the ₹27.4/kWh diesel cost. [JMK Research's India C&I Solar Market Report 2025](https://jmkresearch.com/){target="_blank" rel="noopener"} places the blended LCOE for C&I rooftop at ₹2.5–3.5/kWh inclusive of financing cost, confirming this range.
+Even at the high CAPEX estimate of ₹30 lakh, the solar LCOE is ₹2.35/kWh — a fraction of the ₹27.4/kWh diesel cost. [JMK Research's India C&I Solar Market Report 2025](https://jmkresearch.com/) places the blended LCOE for C&I rooftop at ₹2.5–3.5/kWh inclusive of financing cost, confirming this range.
 
 ### O&M cost for solar
 
@@ -257,7 +257,7 @@ The plant operates on solar during daylight hours (typically 7 am to 5 pm, with 
 | | ✓ Silent operation, no noise complaints | ✗ Battery cycle life limits (LFP: 4,000–6,000 cycles) |
 | | ✓ Full ESG compliance | ✗ Longer payback (4–6 years vs 1–2 years for DG-displacement) |
 
-The hybrid solar-plus-DG configuration is the entry point for most C&I buyers — it delivers immediate cash savings without requiring full energy independence. A [hybrid solar inverter](/hybrid-inverter/) with battery-readiness allows the buyer to add storage later, as battery prices continue to fall (LFP battery costs in India have dropped from ₹35,000/kWh in 2022 to under ₹18,000/kWh in 2026, per [Bridge to India's India Solar Compass 2025](https://bridgetoindia.com/){target="_blank" rel="noopener"}).
+The hybrid solar-plus-DG configuration is the entry point for most C&I buyers — it delivers immediate cash savings without requiring full energy independence. A [hybrid solar inverter](/hybrid-inverter/) with battery-readiness allows the buyer to add storage later, as battery prices continue to fall (LFP battery costs in India have dropped from ₹35,000/kWh in 2022 to under ₹18,000/kWh in 2026, per [Bridge to India's India Solar Compass 2025](https://bridgetoindia.com/)).
 
 The on-grid-vs-hybrid decision for C&I buyers is explored in full in our post on [on-grid vs hybrid solar inverters ROI](/blog/on-grid-vs-hybrid-solar-inverters-roi/).
 
@@ -343,4 +343,4 @@ The [accelerated depreciation benefit](/blog/solar-inverter-depreciation-tax-ben
 
 There is no financial argument for running diesel at ₹18+ per kWh when solar is available at under ₹4 per kWh. The question is only one of implementation timing and architecture.
 
-[Mercom India's C&I Solar Market Report](https://www.mercomindia.com/){target="_blank" rel="noopener"} projects C&I rooftop installations in India to cross 3 GW annually by 2027, driven specifically by DG displacement economics. The IEA's India energy outlook confirms that industrial power costs are the single largest driver of C&I solar adoption in emerging markets ([IEA India Energy Outlook 2025](https://www.iea.org/){target="_blank" rel="noopener"}). The factories, schools, and hospitals that move first lock in the lowest tariff for the next 25 years. The ones that wait continue to pay ₹87 per litre — and whatever it becomes next year.
+[Mercom India's C&I Solar Market Report](https://www.mercomindia.com/) projects C&I rooftop installations in India to cross 3 GW annually by 2027, driven specifically by DG displacement economics. The IEA's India energy outlook confirms that industrial power costs are the single largest driver of C&I solar adoption in emerging markets ([IEA India Energy Outlook 2025](https://www.iea.org/)). The factories, schools, and hospitals that move first lock in the lowest tariff for the next 25 years. The ones that wait continue to pay ₹87 per litre — and whatever it becomes next year.

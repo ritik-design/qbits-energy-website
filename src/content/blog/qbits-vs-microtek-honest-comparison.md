@@ -68,9 +68,9 @@ Microtek's standard solar inverter warranty is **1–2 years** on the inverter u
 
 Qbits offers a **12-year full replacement warranty**. This means that if the unit fails at year 3, year 7, or year 11, Qbits replaces the inverter — it does not offer a repair credit, a prorated payout, or a labour-only fix. The replacement is paired with a **<72-hour RMA service-level agreement** from the moment a fault ticket is logged.
 
-To understand why this matters, consider the failure probability curve for solar inverters. According to field studies published by the [National Renewable Energy Laboratory (NREL)](https://www.nrel.gov/){target="_blank" rel="noopener"}, string inverters in outdoor residential installations have a median failure onset around years 7–12 of a system's life. A 1–2 year warranty covers almost none of that risk window. A 12-year full replacement warranty covers all of it.
+To understand why this matters, consider the failure probability curve for solar inverters. According to field studies published by the [National Renewable Energy Laboratory (NREL)](https://www.nrel.gov/), string inverters in outdoor residential installations have a median failure onset around years 7–12 of a system's life. A 1–2 year warranty covers almost none of that risk window. A 12-year full replacement warranty covers all of it.
 
-> **~60%.** The share of solar system service calls in India that are inverter-related, according to industry data compiled by [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"} for the residential solar segment. This figure underscores why warranty terms are the most consequential specification for a homeowner choosing an inverter.
+> **~60%.** The share of solar system service calls in India that are inverter-related, according to industry data compiled by [Mercom India](https://www.mercomindia.com/) for the residential solar segment. This figure underscores why warranty terms are the most consequential specification for a homeowner choosing an inverter.
 
 For buyers researching this dimension further, the [best solar inverter with the longest warranty in India](/blog/best-solar-inverter-longest-warranty-india/) guide covers how Qbits' 12-year full replacement compares to the wider market, including how to read the fine print in warranty documents.
 
@@ -84,7 +84,7 @@ Qbits inverters achieve **98% peak efficiency** under Indian operating condition
 
 Microtek's solar inverter range operates at approximately **95–96% peak efficiency** based on available datasheet information. For a 5 kW system generating 20 units per day, the 2% efficiency difference amounts to approximately 0.4 units lost daily — roughly **146 units per year**. At ₹7.50 per unit (a typical middle-income tariff in 2026), that is **₹1,095 per year** in foregone savings, compounding across a 25-year system life.
 
-Over 12 years (the Qbits warranty period alone), the efficiency advantage accumulates to approximately **₹13,140 in additional savings** — before accounting for tariff increases, which MNRE data shows averaging 4–6% annually across most Indian states. See the [MNRE annual report data](https://mnre.gov.in/){target="_blank" rel="noopener"} for tariff trend context.
+Over 12 years (the Qbits warranty period alone), the efficiency advantage accumulates to approximately **₹13,140 in additional savings** — before accounting for tariff increases, which MNRE data shows averaging 4–6% annually across most Indian states. See the [MNRE annual report data](https://mnre.gov.in/) for tariff trend context.
 
 The efficiency gap also affects [MPPT](/glossary/mppt/) performance. Qbits inverters use multi-point MPPT algorithms tuned for Indian irradiance profiles, including the partial-cloud and monsoon-season conditions that dominate June through September. Microtek's MPPT implementation, designed primarily around UPS inverter topology, is less optimised for the rapid irradiance fluctuations of an outdoor rooftop installation.
 
@@ -94,7 +94,7 @@ The efficiency gap also affects [MPPT](/glossary/mppt/) performance. Qbits inver
 
 The [Approved List of Models and Manufacturers (ALMM)](/glossary/almm-list/) maintained by MNRE is the gateway to the PM Surya Ghar Muft Bijli Yojana subsidy. If your inverter is not on the ALMM list, your installation does not qualify for the central government subsidy — currently up to ₹78,000 for a 3 kW system.
 
-> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, deposited directly to the buyer's bank account after DISCOM verification. *Source — [PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, deposited directly to the buyer's bank account after DISCOM verification. *Source — [PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 **Qbits holds ALMM Phase III approval** for its solar inverter range. This means Qbits installations qualify for subsidy applications through the PM Surya Ghar portal and meet MNRE's quality verification requirements for grid-connected solar equipment.
 
@@ -247,7 +247,7 @@ The Qbits vs Microtek decision is complicated by several recurring errors that I
 
 - **Assuming brand familiarity equals solar expertise** — Microtek's strength in UPS and home inverters does not automatically transfer to solar-specific performance. Grid-sync firmware, MPPT precision, and IP-rated outdoor enclosures require different engineering investment than a battery-backed UPS design.
 
-- **Not checking ALMM status before purchase** — Installers sometimes quote non-ALMM inverters at attractive prices, then inform buyers after commissioning that the subsidy is not available. Always verify the specific model number on the [MNRE ALMM portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before signing.
+- **Not checking ALMM status before purchase** — Installers sometimes quote non-ALMM inverters at attractive prices, then inform buyers after commissioning that the subsidy is not available. Always verify the specific model number on the [MNRE ALMM portal](https://mnre.gov.in/almm-list/) before signing.
 
 - **Underestimating service response time** — A 1–2 year warranty that covers a failure in month 18 is valuable. But a service network that takes three weeks to respond to a fault outside warranty is a hidden cost. Ask your installer for documented case studies of their after-sales response in your city.
 

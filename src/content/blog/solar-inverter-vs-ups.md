@@ -85,7 +85,7 @@ The [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-of
 
 A 3 kW on-grid system in India (panels + inverter + installation + net-metering) costs ₹1.0 Lakh–₹1.5 Lakh before subsidy. After the PM Surya Ghar subsidy (up to ₹78,000 for systems up to 3 kW), net cost drops to ₹25,000–₹60,000 for eligible homeowners — making payback as short as 2–4 years at current tariffs.
 
-> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a residential solar system of up to 3 kW, credited directly to the homeowner's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a residential solar system of up to 3 kW, credited directly to the homeowner's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ## What a Solar Hybrid Inverter Does
 
@@ -147,7 +147,7 @@ The financial loss: ₹30,000–₹40,000 more than a proper hybrid system would
 
 How to avoid this mistake:
 
-- **Check the inverter model number** — search the [MNRE ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before purchasing. ALMM-listed inverters are genuine solar equipment.
+- **Check the inverter model number** — search the [MNRE ALMM list](https://mnre.gov.in/almm-list/) before purchasing. ALMM-listed inverters are genuine solar equipment.
 - **Confirm grid export capability** — ask if the inverter has a grid-tie function and net-metering compatibility. A UPS does not.
 - **Verify subsidy eligibility before signing** — the PM Surya Ghar subsidy requires ALMM-listed equipment installed by an empanelled vendor.
 - **Ask for the MPPT specification** — a real solar hybrid inverter specifies MPPT input voltage range (e.g., 90–500 V DC), maximum PV input wattage, and number of MPPT channels. A solar UPS typically does not have these specs.
@@ -197,7 +197,7 @@ Numbers alone resolve the hybrid-vs-UPS debate for most households. The table be
 
 The on-grid system shows the best 10-year number precisely because of the subsidy and zero battery cost. The hybrid system's 10-year position depends on how much you value backup reliability and solar-charged battery power — in outage-prone areas, it is the only system that delivers both.
 
-> **4–6 years.** Typical payback period for a 3 kW on-grid solar system in India after PM Surya Ghar subsidy, based on average residential tariff of ₹7–₹9 per unit and 1,350–1,500 peak sun hours annually across major states. *Source — [IRENA Renewable Power Generation Costs 2023](https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023){target="_blank" rel="noopener"}, [MNRE](https://mnre.gov.in/){target="_blank" rel="noopener"} subsidy data, 2026.*
+> **4–6 years.** Typical payback period for a 3 kW on-grid solar system in India after PM Surya Ghar subsidy, based on average residential tariff of ₹7–₹9 per unit and 1,350–1,500 peak sun hours annually across major states. *Source — [IRENA Renewable Power Generation Costs 2023](https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023), [MNRE](https://mnre.gov.in/) subsidy data, 2026.*
 
 ## Three System Configurations Compared
 
@@ -235,7 +235,7 @@ The mistakes worth knowing before you buy:
 
 - **Assuming any "solar inverter" provides backup** — on-grid solar inverters shut down during grid outages. If backup is your priority, only a hybrid inverter or a solar-compatible UPS provides it.
 - **Buying a UPS to "go solar" later without checking compatibility** — most standard home inverters cannot accept solar panels. You may end up with two systems rather than one integrated solution.
-- **Ignoring the ALMM list** — equipment not on the [ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} is ineligible for PM Surya Ghar subsidy. Confirm eligibility before purchase, not after installation.
+- **Ignoring the ALMM list** — equipment not on the [ALMM list](https://mnre.gov.in/almm-list/) is ineligible for PM Surya Ghar subsidy. Confirm eligibility before purchase, not after installation.
 - **Sizing the battery to the UPS advertised capacity rather than actual load** — a 1.5 kVA UPS paired with a 150 Ah battery typically provides 2–3 hours of backup for a 400–600 W load. Buyers expecting 6–8 hours of full-home backup are disappointed.
 - **Choosing lead-acid battery for a hybrid system** — hybrid inverters work with both lead-acid and lithium batteries. Lead-acid is cheaper upfront but requires replacement every 3–5 years and has higher space and maintenance requirements. Lithium (LFP) batteries last 10+ years, reducing total lifecycle cost significantly.
 - **Not verifying the transfer time for sensitive loads** — if you have a desktop computer or medical equipment, confirm the UPS or hybrid inverter's transfer time (ideally under 10 ms for sensitive devices) before purchasing.

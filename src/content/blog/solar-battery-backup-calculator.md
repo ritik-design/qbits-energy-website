@@ -171,7 +171,7 @@ Without the efficiency correction, you would have calculated 8.0 ÷ 1.4 = 5.71 h
 
 [Round-trip efficiency](/glossary/round-trip-efficiency/) — the combined efficiency of charging the battery from solar and then discharging it through the inverter — is a separate but related figure. LFP batteries have a round-trip efficiency of 92–96%, meaning a small additional loss occurs during the charge cycle. For backup-time calculations, what matters is the discharge efficiency (the inverter's DC-to-AC conversion), which is the 95–97% figure cited above.
 
-> *Source — [IEA Renewables 2024 Report](https://www.iea.org/reports/renewables-2024){target="_blank" rel="noopener"}, International Energy Agency, 2025.* Battery storage round-trip efficiency for lithium-ion technologies ranges from 85–95% across the charge-discharge cycle, with newer LFP cells reaching the upper end of this range.
+> *Source — [IEA Renewables 2024 Report](https://www.iea.org/reports/renewables-2024), International Energy Agency, 2025.* Battery storage round-trip efficiency for lithium-ion technologies ranges from 85–95% across the charge-discharge cycle, with newer LFP cells reaching the upper end of this range.
 
 ## The Backup Hours Reference Table — Battery Size × Load
 
@@ -267,7 +267,7 @@ That 5 kWh recovery means the battery effectively gained 3.4 hours of additional
 
 This is why [hybrid inverter](/blog/on-grid-vs-hybrid/) selection matters as much as battery selection. A hybrid inverter that can simultaneously supply loads from solar and charge the battery — rather than one that only does one at a time — delivers meaningfully longer effective backup during daytime outages.
 
-> *Source — [IRENA Electricity Storage and Renewables Report](https://www.irena.org/Publications/2017/Oct/Electricity-Storage-and-Renewables-Costs-and-Markets){target="_blank" rel="noopener"}, International Renewable Energy Agency.* Residential storage systems with co-located solar generation show 40–65% longer effective backup duration during daytime outages compared to standalone battery-only systems of the same capacity.
+> *Source — [IRENA Electricity Storage and Renewables Report](https://www.irena.org/Publications/2017/Oct/Electricity-Storage-and-Renewables-Costs-and-Markets), International Renewable Energy Agency.* Residential storage systems with co-located solar generation show 40–65% longer effective backup duration during daytime outages compared to standalone battery-only systems of the same capacity.
 
 ## Common Myths About Solar Battery Backup Time
 
@@ -363,7 +363,7 @@ The [on-grid versus hybrid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-d
 
 For homeowners uncertain whether to invest in solar backup or stick with a conventional UPS, the [solar inverter versus UPS comparison](/blog/solar-inverter-vs-ups/) quantifies the cost per backup-hour from each technology across a five-year horizon.
 
-> *Source — [NREL Battery Technology Report](https://www.nrel.gov/docs/fy21osti/79736.pdf){target="_blank" rel="noopener"}, National Renewable Energy Laboratory, 2021.* LFP batteries have demonstrated calendar life of 10–15 years in residential applications when operating between 20% and 90% State of Charge and maintained below 45 °C.
+> *Source — [NREL Battery Technology Report](https://www.nrel.gov/docs/fy21osti/79736.pdf), National Renewable Energy Laboratory, 2021.* LFP batteries have demonstrated calendar life of 10–15 years in residential applications when operating between 20% and 90% State of Charge and maintained below 45 °C.
 
 ## Avoiding the Five Sizing Mistakes Indian Homeowners Make
 
@@ -386,7 +386,7 @@ The battery's [BMS](/glossary/bms/) communicates cell-level health data to the i
 
 For guidance on identifying reliable inverter vendors in your region, the [best hybrid solar inverter guide for India](/blog/best-hybrid-solar-inverter-india-2026/) provides a ranked comparison with battery compatibility data for the top models.
 
-> *Source — [CEA Annual Report on Power Sector](https://cea.nic.in/annual-growth-report/){target="_blank" rel="noopener"}, Central Electricity Authority of India, 2025.* Average transmission and distribution losses in Indian states ranged from 14% to 31% in FY 2023–24, with rural feeders in UP and Bihar experiencing the highest reported values — a direct indicator of grid instability and power-cut frequency in these regions.
+> *Source — [CEA Annual Report on Power Sector](https://cea.nic.in/annual-growth-report/), Central Electricity Authority of India, 2025.* Average transmission and distribution losses in Indian states ranged from 14% to 31% in FY 2023–24, with rural feeders in UP and Bihar experiencing the highest reported values — a direct indicator of grid instability and power-cut frequency in these regions.
 
 ## Where Qbits Fits in Your Battery Backup System
 
@@ -398,4 +398,4 @@ Indian homeowners who want accurate backup times — not optimistic sales estima
 
 [Talk to a Qbits engineer](/contact-us/) about the right battery size for your district's outage pattern — most detailed proposals come back within 24 hours. Your pincode determines your average outage duration; our sizing tool determines the minimum battery bank that covers it.
 
-> *Source — [Mercom India Q1 2026 Solar Market Report](https://www.mercomindia.com/india-solar-installations-q1-2026){target="_blank" rel="noopener"}, Mercom Capital Group, 2026.* Residential rooftop solar with battery storage grew 68% year-on-year in Q1 2026, with hybrid systems now accounting for 43% of all new residential installations — driven primarily by homeowners in high-outage states prioritising backup hours over grid export economics.
+> *Source — [Mercom India Q1 2026 Solar Market Report](https://www.mercomindia.com/india-solar-installations-q1-2026), Mercom Capital Group, 2026.* Residential rooftop solar with battery storage grew 68% year-on-year in Q1 2026, with hybrid systems now accounting for 43% of all new residential installations — driven primarily by homeowners in high-outage states prioritising backup hours over grid export economics.

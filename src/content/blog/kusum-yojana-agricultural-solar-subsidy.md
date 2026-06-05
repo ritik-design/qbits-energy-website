@@ -100,7 +100,7 @@ The pump costs in this table are indicative — actual costs vary by state, tech
 
 The bank loan at 30% is disbursed by the empanelled bank directly to the vendor — the farmer does not handle this money. The annual diesel cost saving for a 3 HP pump running 6 hours per day for 200 days per year is approximately ₹45,000 to ₹60,000 (at ₹90 per litre diesel and 0.5 litres per HP per hour). The 5 to 7 year loan repayment is typically lower than the annual diesel saving, making the economics immediately cash-flow positive for the farmer.
 
-> **₹70,000 crore.** The estimated annual expenditure by Indian farmers on diesel for agricultural pumps — a figure that KUSUM Yojana's 35 lakh pump target is designed to progressively eliminate. *Source — [MNRE PM-KUSUM Scheme Guidelines](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2019 scheme document and subsequent revisions.*
+> **₹70,000 crore.** The estimated annual expenditure by Indian farmers on diesel for agricultural pumps — a figure that KUSUM Yojana's 35 lakh pump target is designed to progressively eliminate. *Source — [MNRE PM-KUSUM Scheme Guidelines](https://mnre.gov.in/), 2019 scheme document and subsequent revisions.*
 
 ## Who Is Eligible for KUSUM Yojana
 
@@ -162,7 +162,7 @@ This framework resolves the single most common confusion in KUSUM applications: 
 
 KUSUM is emphatically a state-level scheme. There is no single national application portal comparable to pmsuryaghar.gov.in for PM Surya Ghar. Applications go through the state nodal agency for renewable energy or the state agriculture department, and the process differs between states.
 
-> **There is no central KUSUM application portal.** Applications are submitted at the state level. The official [PM-KUSUM national resource page](https://pmkusum.mnre.gov.in/){target="_blank" rel="noopener"} at MNRE lists state-wise nodal agency contacts and guidelines, but actual applications are processed through state agriculture or energy department portals.
+> **There is no central KUSUM application portal.** Applications are submitted at the state level. The official [PM-KUSUM national resource page](https://pmkusum.mnre.gov.in/) at MNRE lists state-wise nodal agency contacts and guidelines, but actual applications are processed through state agriculture or energy department portals.
 
 **General application sequence for Component B (the most common track):**
 
@@ -239,7 +239,7 @@ For a 5 HP diesel pump replaced with a 5 HP solar pump under Component B:
 
 Even accounting for solar pump maintenance (₹5,000–₹10,000 per year for cleaning, minor repairs, and inverter servicing), the economics are transformative for smallholder farmers.
 
-> **3 to 5 years.** The typical payback period for a KUSUM Component B solar pump when factoring in the 30% bank loan repayment schedule. Farmers with higher diesel consumption and larger pump sizes often achieve payback in under 3 years. *Source — [IRENA Renewable Energy in Agriculture](https://www.irena.org/){target="_blank" rel="noopener"}, 2024 India assessment.*
+> **3 to 5 years.** The typical payback period for a KUSUM Component B solar pump when factoring in the 30% bank loan repayment schedule. Farmers with higher diesel consumption and larger pump sizes often achieve payback in under 3 years. *Source — [IRENA Renewable Energy in Agriculture](https://www.irena.org/), 2024 India assessment.*
 
 ### Component A Financial Model (Land Lessor Route)
 
@@ -294,7 +294,7 @@ Why does ALMM matter beyond subsidy eligibility? Equipment on the ALMM list has 
 
 **How to verify ALMM before installation:**
 1. Ask the vendor for the exact make, model, and wattage of every component.
-2. Cross-check each item on the live ALMM list at [mnre.gov.in](https://mnre.gov.in/){target="_blank" rel="noopener"} (under the ALMM section).
+2. Cross-check each item on the live ALMM list at [mnre.gov.in](https://mnre.gov.in/) (under the ALMM section).
 3. Confirm the listing is active in the current quarterly revision — expired listings do not count.
 4. Photograph the equipment labels on delivery day and compare model numbers before installation begins.
 
@@ -318,7 +318,7 @@ KUSUM's 35 GW target by 2026 was always ambitious. The implementation record thr
 
 **Why Component C significantly underperforms:** Solarising grid-connected agricultural pumps requires extensive DISCOM coordination, metering upgrades, and surplus settlement mechanisms. DISCOMs have historically resisted feeder-level solarisation because it reduces the volume of subsidised agricultural sales that they can claim state government reimbursement for — a perverse incentive structure that MNRE is working to address. Additionally, most agricultural connections in India are unmetered, making individual pump surplus accounting technically challenging.
 
-> **7%.** Component A's achievement rate against its 10 GW target as of Q1 2026 — the sharpest gap in the KUSUM scheme. *Source — [MNRE PM-KUSUM Portal](https://pmkusum.mnre.gov.in/){target="_blank" rel="noopener"} and [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"} India Renewable Energy Market Update, Q1 2026.*
+> **7%.** Component A's achievement rate against its 10 GW target as of Q1 2026 — the sharpest gap in the KUSUM scheme. *Source — [MNRE PM-KUSUM Portal](https://pmkusum.mnre.gov.in/) and [JMK Research](https://jmkresearch.com/) India Renewable Energy Market Update, Q1 2026.*
 
 MNRE has extended the overall KUSUM target timeline and revised scheme guidelines through multiple office memoranda to address these gaps. The Ministry has specifically simplified Component A land aggregation rules and introduced a deemed approval mechanism to reduce DISCOM PPA processing delays.
 

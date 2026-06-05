@@ -44,15 +44,15 @@ This guide reviews monitoring quality across five brands — Qbits, Sungrow, Goo
 
 Most homeowners install solar and assume the system is working because the lights are on. This assumption is the single biggest source of unrealised solar savings in India. A [smart inverter](/glossary/smart-inverter/) does not just convert DC to AC — it continuously reports on the health of every component in the chain.
 
-The financial case is direct. Research from [NREL's residential solar performance database](https://www.nrel.gov/solar/pv-reliability.html){target="_blank" rel="noopener"} shows that unmonitored systems lose 10–15% of annual yield to faults the owner never detects. For a typical 5 kW installation in India producing 7,000 kWh per year at a blended tariff of ₹7 per unit, that is an annual silent loss of ₹4,900–₹7,350 — every year, for however long the fault persists.
+The financial case is direct. Research from [NREL's residential solar performance database](https://www.nrel.gov/solar/pv-reliability.html) shows that unmonitored systems lose 10–15% of annual yield to faults the owner never detects. For a typical 5 kW installation in India producing 7,000 kWh per year at a blended tariff of ₹7 per unit, that is an annual silent loss of ₹4,900–₹7,350 — every year, for however long the fault persists.
 
-India's solar capacity crossed 90 GW in early 2026, according to [MNRE's monthly progress reports](https://mnre.gov.in/the-ministry/annual-report/){target="_blank" rel="noopener"} — a fleet of installations where monitoring quality directly determines how much of that potential is actually realised. Beyond yield, monitoring addresses three practical pain points that Indian buyers encounter after installation:
+India's solar capacity crossed 90 GW in early 2026, according to [MNRE's monthly progress reports](https://mnre.gov.in/the-ministry/annual-report/) — a fleet of installations where monitoring quality directly determines how much of that potential is actually realised. Beyond yield, monitoring addresses three practical pain points that Indian buyers encounter after installation:
 
 - **Silent shutdown** — inverters trip on grid faults and do not always restart automatically; an alert tells you within minutes rather than weeks.
 - **Partial string failure** — one panel string underperforming reduces total output by 20–30% without any visible sign; monitoring catches this through string-level current data.
 - **Service call costs** — when a technician arrives without diagnostic data, troubleshooting takes hours; remote diagnostics from the monitoring platform cuts service time and cost.
 
-> **10–15%.** The estimated annual yield loss from undetected faults in unmonitored residential solar systems. *Source — [NREL Residential Solar Performance Research](https://www.nrel.gov/solar/pv-reliability.html){target="_blank" rel="noopener"}, 2024.*
+> **10–15%.** The estimated annual yield loss from undetected faults in unmonitored residential solar systems. *Source — [NREL Residential Solar Performance Research](https://www.nrel.gov/solar/pv-reliability.html), 2024.*
 
 The shift from "I will check the app occasionally" to "the system sends me an alert when it needs attention" is the difference between passive ownership and active asset management. For an Indian homeowner who paid ₹2–₹4 lakhs for a solar system, active management protects that investment.
 
@@ -71,7 +71,7 @@ The [solar inverter monitoring systems guide](/blog/solar-inverter-monitoring-sy
 - **Active fault codes** — machine-readable error descriptions that a technician (or an AI system) can interpret remotely without a site visit.
 - **Financial metrics** — savings in rupees against prevailing tariff, carbon offset in kilograms, projected annual ROI.
 
-Systems that show only daily kWh give you a scoreboard without a game clock. The string-level and fault-code data is what makes monitoring genuinely useful rather than decorative. The [IEC 61724-1 standard for photovoltaic system performance monitoring](https://www.iec.ch/homepage){target="_blank" rel="noopener"} defines the minimum measurement parameters that a compliant monitoring system must capture — and string-level data is explicitly included.
+Systems that show only daily kWh give you a scoreboard without a game clock. The string-level and fault-code data is what makes monitoring genuinely useful rather than decorative. The [IEC 61724-1 standard for photovoltaic system performance monitoring](https://www.iec.ch/homepage) defines the minimum measurement parameters that a compliant monitoring system must capture — and string-level data is explicitly included.
 
 ## The Solar Monitoring Quality Scorecard — 5 Metrics
 
@@ -165,7 +165,7 @@ ShinePhone's strongest use case is homeowners who want to confirm their system i
 
 ## India-Specific Reality: Handling Rural WiFi Gaps
 
-WiFi monitoring assumes reliable broadband — an assumption that holds in Indian metros but fails across a significant portion of the country. The [Telecom Regulatory Authority of India (TRAI)](https://www.trai.gov.in/){target="_blank" rel="noopener"} reports that broadband penetration in rural India remains significantly lower than urban areas, with connectivity quality gaps particularly pronounced in interior districts. Rural and semi-urban sites in interior Rajasthan, eastern Uttar Pradesh, Bihar, Jharkhand, and the north-eastern states frequently experience multi-day broadband outages, particularly during monsoon.
+WiFi monitoring assumes reliable broadband — an assumption that holds in Indian metros but fails across a significant portion of the country. The [Telecom Regulatory Authority of India (TRAI)](https://www.trai.gov.in/) reports that broadband penetration in rural India remains significantly lower than urban areas, with connectivity quality gaps particularly pronounced in interior districts. Rural and semi-urban sites in interior Rajasthan, eastern Uttar Pradesh, Bihar, Jharkhand, and the north-eastern states frequently experience multi-day broadband outages, particularly during monsoon.
 
 The [solar yield](/glossary/solar-yield/) impact of monitoring gaps is not just missed alerts. When data is unavailable, system owners have no reference point for whether performance has degraded. A monsoon month that looks "normal" in terms of intermittent generation may actually be masking a failed string that has been running at 60% capacity for six weeks.
 
@@ -210,7 +210,7 @@ Even with a WiFi-enabled inverter, poor setup and management habits negate most 
 - **No seasonal baseline** — system performance varies significantly between summer and winter and across the monsoon. An alert that compares January production to June production without seasonal context will generate false positives in winter. Use platforms that build location-specific seasonal baselines.
 - **Not sharing access with the installer** — granting your installer read access to your monitoring platform enables them to diagnose issues remotely and often resolve them without a site visit. Most platforms support multi-user access; use it.
 
-For reference, the [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) guide covers related questions around service response times and warranty claim processes. [IRENA's Renewable Power Generation Costs report](https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024){target="_blank" rel="noopener"} notes that operational monitoring and maintenance are the fastest-growing cost-reduction levers in residential solar globally — confirming that the monitoring choice made at installation time has multi-year financial consequences.
+For reference, the [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) guide covers related questions around service response times and warranty claim processes. [IRENA's Renewable Power Generation Costs report](https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024) notes that operational monitoring and maintenance are the fastest-growing cost-reduction levers in residential solar globally — confirming that the monitoring choice made at installation time has multi-year financial consequences.
 
 ## Verdict Table: Which WiFi Solar Inverter Is Best for Your Use Case
 

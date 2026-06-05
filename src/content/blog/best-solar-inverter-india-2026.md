@@ -71,7 +71,7 @@ Transparent ranking criteria are the difference between a useful review and a po
 
 **What this rating does not capture:** brand heritage, OEM supply chain depth, or dealer margin structures. Those matter to installers and distributors but not directly to homeowners evaluating total value.
 
-**Data sources:** [JMK Research India Solar Inverter Market Report](https://jmkresearch.com/){target="_blank" rel="noopener"}, [Mercom India market trackers](https://www.mercomindia.com/){target="_blank" rel="noopener"}, [MNRE ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}, published datasheets, and installer community input from EPC partners across Gujarat, Maharashtra, Rajasthan, and Tamil Nadu.
+**Data sources:** [JMK Research India Solar Inverter Market Report](https://jmkresearch.com/), [Mercom India market trackers](https://www.mercomindia.com/), [MNRE ALMM list](https://mnre.gov.in/almm-list/), published datasheets, and installer community input from EPC partners across Gujarat, Maharashtra, Rajasthan, and Tamil Nadu.
 
 ---
 
@@ -97,7 +97,7 @@ A solar inverter sold in Europe operates in a fundamentally different environmen
 
 India's grid voltage fluctuates significantly — particularly in semi-urban and rural areas where the nominal 230 V supply regularly dips to 180 V or spikes past 270 V. An inverter with a narrow MPPT voltage range will throttle output or trip offline during these events, directly costing you generation yield. Look for a wide DC input voltage range (typically 80 V to 550 V for residential string inverters) and a confirmed AC output range of 160 V to 280 V at minimum.
 
-According to data from [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"}, rooftop solar systems in India lose an estimated 8 to 12 percent of annual generation to inverter trips and clipping events, a significant portion of which is attributable to grid incompatibility rather than panel underperformance.
+According to data from [Bridge to India](https://bridgetoindia.com/), rooftop solar systems in India lose an estimated 8 to 12 percent of annual generation to inverter trips and clipping events, a significant portion of which is attributable to grid incompatibility rather than panel underperformance.
 
 ### Operating Temperature and Derating
 
@@ -105,7 +105,7 @@ Indian summers push ambient temperatures above 45 °C across large parts of the 
 
 ### ALMM Listing and Subsidy Eligibility
 
-The [MNRE ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} is not a quality rating — it is a compliance gate. If your inverter model does not appear on the Approved List of Models and Manufacturers, it cannot be used in PM Surya Ghar installations and will not qualify for the central subsidy. This disqualification is absolute; no DISCOM officer can waive it. Given that the maximum central subsidy under PM Surya Ghar is ₹78,000 for a 3 kW system, ALMM status is worth more than any dealer discount. For more on what certifications genuinely matter, the post on [solar inverter certifications](/blog/solar-inverter-certifications/) explains the full compliance landscape in India.
+The [MNRE ALMM list](https://mnre.gov.in/almm-list/) is not a quality rating — it is a compliance gate. If your inverter model does not appear on the Approved List of Models and Manufacturers, it cannot be used in PM Surya Ghar installations and will not qualify for the central subsidy. This disqualification is absolute; no DISCOM officer can waive it. Given that the maximum central subsidy under PM Surya Ghar is ₹78,000 for a 3 kW system, ALMM status is worth more than any dealer discount. For more on what certifications genuinely matter, the post on [solar inverter certifications](/blog/solar-inverter-certifications/) explains the full compliance landscape in India.
 
 ### Warranty Depth and Enforceability
 
@@ -115,7 +115,7 @@ A 12-year warranty from a Chinese entity with no India registration is a piece o
 
 Monitoring quality is increasingly a differentiator at the residential level. Most Indian homeowners check their solar output via WhatsApp, not via a dedicated app they have to remember to download and open. Platforms that send daily generation summaries and fault alerts via WhatsApp remove a significant friction barrier between the homeowner and their system data. For context on how monitoring technology has evolved in India, the guide to [solar inverter monitoring systems in India](/blog/solar-inverter-monitoring-systems-in-india/) is worth reading alongside this review.
 
-> **24 GW.** India's new solar capacity additions in calendar year 2025 — the largest single-year addition in the country's history, bringing the cumulative installed base past 100 GW. *Source — [Ember Climate India Power Sector Report](https://ember-climate.org/){target="_blank" rel="noopener"}, 2026.*
+> **24 GW.** India's new solar capacity additions in calendar year 2025 — the largest single-year addition in the country's history, bringing the cumulative installed base past 100 GW. *Source — [Ember Climate India Power Sector Report](https://ember-climate.org/), 2026.*
 
 ---
 
@@ -274,7 +274,7 @@ The honest limitation: UTL inverters are not designed for the performance standa
 | Waaree | 31 | 2–5 yr | Partial | IP65 | Basic app (adequate) | ₹22,000–30,000 |
 | UTL | 27 | 1–2 yr | Partial | IP54 | Minimal | ₹14,000–20,000 |
 
-*Price estimates as of June 2026; actual dealer prices vary by state, wattage, and channel. Verify ALMM status directly at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before purchase.*
+*Price estimates as of June 2026; actual dealer prices vary by state, wattage, and channel. Verify ALMM status directly at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/) before purchase.*
 
 ---
 
@@ -302,7 +302,7 @@ For more on navigating the on-grid versus hybrid decision, the detailed [on-grid
 
 Your priorities are RMA turnaround, ALMM compliance, and consistent performance data for client reporting. Sungrow leads on all three for metro-focused portfolios. Qbits is worth serious consideration for Tier-2 and Tier-3 city portfolios where the 72-hour RMA SLA and dense service partner network outperform what global OEMs can deliver. For the procurement evaluation framework that professional EPCs use, the [inverter procurement guide for India](/blog/inverter-procurement-india/) is a structured resource.
 
-> The solar inverter market in India is projected to reach 45 GW annual shipments by 2030, driven by PM Surya Ghar residential targets and accelerating C&I adoption. *Source — [JMK Research India Solar Market Outlook](https://jmkresearch.com/){target="_blank" rel="noopener"}, 2026.*
+> The solar inverter market in India is projected to reach 45 GW annual shipments by 2030, driven by PM Surya Ghar residential targets and accelerating C&I adoption. *Source — [JMK Research India Solar Market Outlook](https://jmkresearch.com/), 2026.*
 
 ---
 

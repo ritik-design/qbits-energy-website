@@ -62,7 +62,7 @@ This framework draws from India's [ALMM-list](/glossary/almm-list/) compliance p
 
 ## Head-to-Head Scorecard: Qbits vs Luminous on Seven Axes
 
-The table below assigns a 1–10 verdict on each evaluation axis. A score of 10 means top-rated for Indian residential buyers. Scores are based on publicly available product specifications, industry reports from [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, and the MNRE ALMM portal as of June 2026.
+The table below assigns a 1–10 verdict on each evaluation axis. A score of 10 means top-rated for Indian residential buyers. Scores are based on publicly available product specifications, industry reports from [Mercom India](https://www.mercomindia.com/), and the MNRE ALMM portal as of June 2026.
 
 | Axis | Qbits | Luminous | Axis Winner |
 | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ The table below assigns a 1–10 verdict on each evaluation axis. A score of 10 
 | **Monitoring** | 9/10 — AI WhatsApp push alerts | 5/10 — App-only, manual check-in | Qbits |
 | **Overall** | **8.9 / 10** | **6.4 / 10** | **Qbits** |
 
-> **₹15,000–₹25,000.** The approximate out-of-pocket cost of replacing a residential solar inverter mid-life in India, including unit cost and reinstallation labour. *Source — [Mercom India Solar Market Report](https://www.mercomindia.com/){target="_blank" rel="noopener"}, 2025.*
+> **₹15,000–₹25,000.** The approximate out-of-pocket cost of replacing a residential solar inverter mid-life in India, including unit cost and reinstallation labour. *Source — [Mercom India Solar Market Report](https://www.mercomindia.com/), 2025.*
 
 A Luminous solar inverter with a 5-year warranty leaves the homeowner exposed to this replacement cost between years 5 and 25 of the system's life — potentially two or three replacement cycles. The Qbits 12-year warranty eliminates that exposure for the first twelve years entirely.
 
@@ -169,9 +169,9 @@ The [authorised service partners](/authorized-service-partners/) page allows any
 
 The [ALMM list](/glossary/almm-list/) maintained by the Ministry of New and Renewable Energy (MNRE) is not a quality award — it is the eligibility gate for PM Surya Ghar Muft Bijli Yojana subsidy disbursement. An inverter not on the ALMM Phase III list disqualifies the entire system from receiving the central subsidy of up to ₹78,000 for a 3 kW residential installation.
 
-> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the homeowner's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the homeowner's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-Qbits inverters carry ALMM Phase III compliance across the product range — homeowners and EPCs can proceed to subsidy applications without model-by-model verification. Luminous has ALMM-listed solar inverter models, but the coverage is not universal. Buyers must check the specific model against the [MNRE ALMM portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before purchase to avoid post-installation subsidy denial.
+Qbits inverters carry ALMM Phase III compliance across the product range — homeowners and EPCs can proceed to subsidy applications without model-by-model verification. Luminous has ALMM-listed solar inverter models, but the coverage is not universal. Buyers must check the specific model against the [MNRE ALMM portal](https://mnre.gov.in/almm-list/) before purchase to avoid post-installation subsidy denial.
 
 [BIS certification](/glossary/bis-certification/) is a separate but related requirement. Both Qbits and Luminous carry BIS certification for their solar inverter lines, meeting the mandatory Indian standard IS 16221 for grid-interactive inverters.
 
@@ -232,7 +232,7 @@ Several errors are common in qbits vs luminous comparisons that buyers conduct b
 - **Ignoring monitoring friction** — buyers who have never used their inverter's monitoring app before purchase routinely discover they never use it after purchase. Monitoring that fits existing WhatsApp behaviour gets used; monitoring that requires a new app login often does not.
 - **Treating warranty years as equivalent without reading the terms** — a 5-year "repair warranty" and a 12-year "full replacement warranty" are not comparable on years alone. The type of coverage matters as much as the duration.
 
-> *Indian solar installations are expected to exceed 100 GW cumulative capacity in 2026, with residential rooftop accounting for a growing share of new additions. Source — [IEA India Energy Outlook](https://www.iea.org/countries/india){target="_blank" rel="noopener"}, 2025.*
+> *Indian solar installations are expected to exceed 100 GW cumulative capacity in 2026, with residential rooftop accounting for a growing share of new additions. Source — [IEA India Energy Outlook](https://www.iea.org/countries/india), 2025.*
 
 For buyers who want to understand why the inverter category matters so much to long-term system performance, [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) covers the technical dimensions in depth.
 

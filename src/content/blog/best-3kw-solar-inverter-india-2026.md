@@ -48,7 +48,7 @@ The subsidy slab for residential systems works as follows: ₹30,000 for the fir
 
 This makes 3 kW the inflection point. For 2 BHK homeowners whose load profile fits within 3 kW, there is no financial reason to go larger purely for subsidy purposes.
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the homeowner's bank account after DISCOM verification of installation. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the homeowner's bank account after DISCOM verification of installation. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 The full subsidy calculation, documentation checklist, and state top-up amounts are covered in detail at [PM Surya Ghar subsidy amounts explained](/blog/pm-surya-ghar-subsidy-amount/). For buyers comparing the net cost of 3 kW versus 5 kW with and without subsidy, the [solar inverter with PM Surya Ghar subsidy](/blog/solar-inverter-with-subsidy-pm-surya-ghar/) guide provides the year-by-year financial model.
 
@@ -76,7 +76,7 @@ Before choosing an inverter, confirm that your actual load profile fits within 3
 
 **Scenario that does not fit:** 1.5T AC (1,500 W) + any simultaneous load pushes the surge above 5,000 W at AC start-up. A 3 kW inverter will trip on the surge. If your 2 BHK has a 1.5T AC, the [best 5kW solar inverter India 2026](/blog/best-5kw-solar-inverter-india-2026/) guide covers the appropriate size range.
 
-> **India's residential rooftop solar capacity crossed 5 GW in 2025, with 3 kW systems accounting for the largest single share of installations under PM Surya Ghar.** *Source — [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, 2025.*
+> **India's residential rooftop solar capacity crossed 5 GW in 2025, with 3 kW systems accounting for the largest single share of installations under PM Surya Ghar.** *Source — [Mercom India](https://www.mercomindia.com/), 2025.*
 
 ## Our Review Methodology: How We Ranked These 5 Inverters
 
@@ -122,7 +122,7 @@ To claim the ₹78,000 PM Surya Ghar subsidy, you must: (a) own or have a long-t
 
 ### Step 2 — Assess Your Power-Cut Frequency
 
-Count the average daily hours of unscheduled power cuts in your area over a summer week. If the answer is fewer than two hours per day, an on-grid inverter gives the best payback. If the answer is two or more hours per day — typical in eastern Uttar Pradesh, Bihar, Jharkhand, Odisha, and rural Maharashtra — a hybrid inverter is the operationally correct choice. An on-grid inverter shuts down the moment the grid fails, regardless of how much solar energy your panels are producing. This is a mandatory safety protocol called anti-islanding, governed by [IEC 62116](https://www.iec.ch/){target="_blank" rel="noopener"} — it cannot be disabled.
+Count the average daily hours of unscheduled power cuts in your area over a summer week. If the answer is fewer than two hours per day, an on-grid inverter gives the best payback. If the answer is two or more hours per day — typical in eastern Uttar Pradesh, Bihar, Jharkhand, Odisha, and rural Maharashtra — a hybrid inverter is the operationally correct choice. An on-grid inverter shuts down the moment the grid fails, regardless of how much solar energy your panels are producing. This is a mandatory safety protocol called anti-islanding, governed by [IEC 62116](https://www.iec.ch/) — it cannot be disabled.
 
 ### Step 3 — Set Your Budget Envelope
 
@@ -267,13 +267,13 @@ The table below uses a standard 3 kW system bill of materials — 8 × 400 Wp pa
 
 Annual savings at a ₹9/unit tariff on 15 units/day average generation = ₹49,275. Payback ranges from 3.5 years (Growatt, lowest net cost, optimistic tariff) to 5.5 years (Qbits HS-3K hybrid, cautious tariff estimate). After payback, the system generates free electricity for 15–20 years of panel life.
 
-> **3 kW solar systems in India generated an average of 4,200–5,500 units annually in 2024–25, with peak sun hour variations of 4.0–5.5 hours depending on state and season.** *Source — [NREL India Solar Resource Data](https://www.nrel.gov/){target="_blank" rel="noopener"}, 2025.*
+> **3 kW solar systems in India generated an average of 4,200–5,500 units annually in 2024–25, with peak sun hour variations of 4.0–5.5 hours depending on state and season.** *Source — [NREL India Solar Resource Data](https://www.nrel.gov/), 2025.*
 
 The detailed payback calculation for each tariff band is available in the [solar inverter payback period in India](/blog/solar-inverter-payback-period-in-india/) guide. For buyers comparing 3 kW and 5 kW systems on a subsidy-adjusted IRR basis, the [best solar inverter for home India](/blog/best-solar-inverter-for-home-india/) guide covers both sizes with full financial projections.
 
 ## ALMM Compliance and What It Means for 3kW Buyers
 
-The [ALMM list](/glossary/almm-list/) — Approved List of Models and Manufacturers, maintained by the [Ministry of New and Renewable Energy](https://mnre.gov.in/){target="_blank" rel="noopener"} — is the single most important compliance gate for any homeowner seeking the PM Surya Ghar subsidy.
+The [ALMM list](/glossary/almm-list/) — Approved List of Models and Manufacturers, maintained by the [Ministry of New and Renewable Energy](https://mnre.gov.in/) — is the single most important compliance gate for any homeowner seeking the PM Surya Ghar subsidy.
 
 ALMM listing means the inverter model has passed BIS and IEC testing and is approved for use in grid-connected residential solar systems in India. Three things depend on it:
 
@@ -281,7 +281,7 @@ ALMM listing means the inverter model has passed BIS and IEC testing and is appr
 - **Net-metering approval** — Most DISCOMs require ALMM compliance as a precondition for grid export permission. Without net-metering, surplus generation is wasted rather than credited.
 - **Insurance coverage** — Roof and household insurance policies that cover solar components typically specify BIS and ALMM compliance. A non-compliant inverter can void a claim.
 
-**How to verify before purchase:** Visit [mnre.gov.in](https://mnre.gov.in/){target="_blank" rel="noopener"} and search the Phase III list for the exact model number — not the brand name alone. ALMM listing is model-specific, not brand-wide. Ask your installer to show you the specific ALMM certificate for the model being quoted. All five inverters in this guide carry ALMM Phase III listing on their standard 3 kW residential configurations; verify the certificate number matches the installed unit.
+**How to verify before purchase:** Visit [mnre.gov.in](https://mnre.gov.in/) and search the Phase III list for the exact model number — not the brand name alone. ALMM listing is model-specific, not brand-wide. Ask your installer to show you the specific ALMM certificate for the model being quoted. All five inverters in this guide carry ALMM Phase III listing on their standard 3 kW residential configurations; verify the certificate number matches the installed unit.
 
 For the complete ALMM Phase III guide including the verification process and what happens if a listed model is subsequently delisted, see the [how to choose solar inverter for home India](/blog/how-to-choose-solar-inverter-for-home-india/) guide.
 

@@ -87,9 +87,9 @@ Scoring criteria for India service network density:
 
 ### Factor 3 — Component Quality Tier (Weight: 20%)
 
-Component quality is the hardest factor to score from the outside because manufacturers rarely publish full component specifications. Scoring here draws on publicly available technical certifications, teardown analyses published by research organisations, installer-reported failure mode patterns, and component durability data from [NREL inverter reliability research](https://www.nrel.gov/solar/){target="_blank" rel="noopener"} covering field performance across high-temperature environments.
+Component quality is the hardest factor to score from the outside because manufacturers rarely publish full component specifications. Scoring here draws on publicly available technical certifications, teardown analyses published by research organisations, installer-reported failure mode patterns, and component durability data from [NREL inverter reliability research](https://www.nrel.gov/solar/) covering field performance across high-temperature environments.
 
-The Indian grid presents three specific component quality challenges that European or American specifications do not capture. [IEC 62109-1](https://www.iec.ch/){target="_blank" rel="noopener"} sets the baseline safety requirements for power converters used in PV systems, but compliance with IEC standards does not guarantee that a component is specified for sustained operation at 45 °C ambient — a gap that India-specific procurement must account for explicitly.
+The Indian grid presents three specific component quality challenges that European or American specifications do not capture. [IEC 62109-1](https://www.iec.ch/) sets the baseline safety requirements for power converters used in PV systems, but compliance with IEC standards does not guarantee that a component is specified for sustained operation at 45 °C ambient — a gap that India-specific procurement must account for explicitly.
 
 - **Voltage transients** from the Indian grid routinely exceed 270 V. Capacitors rated for lower peak voltages fail under repeated transient stress.
 - **Ambient temperature** of 45 °C to 50 °C in summer across Rajasthan, Gujarat, and Andhra Pradesh degrades electrolytic capacitors at approximately twice the rate of 25 °C lab conditions.
@@ -290,7 +290,7 @@ The reliability index is designed partly to counteract systematic evaluation err
 
 - **Selecting based on component quality alone and ignoring service reach.** An inverter with Tier-1 component quality that cannot be serviced in your project geography in under two weeks creates the same yield loss and client relationship damage as a lower-quality inverter that fails more often. Downtime cost is time multiplied by capacity — not just failure frequency multiplied by repair cost.
 
-- **Assuming ALMM listing is permanent.** ALMM listing requires periodic re-evaluation. Brands that were listed in Phase II may face Phase III requirements that take time to comply with. Always verify current listing status on the [MNRE ALMM portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before quoting any project with subsidy implications.
+- **Assuming ALMM listing is permanent.** ALMM listing requires periodic re-evaluation. Brands that were listed in Phase II may face Phase III requirements that take time to comply with. Always verify current listing status on the [MNRE ALMM portal](https://mnre.gov.in/almm-list/) before quoting any project with subsidy implications.
 
 - **Ignoring field return rate data from peer EPCs.** The EPC community in India shares service experience actively through WhatsApp groups, LinkedIn forums, and Intersolar networking. A brand that consistently generates call-backs in similar geographic conditions to your projects is a risk even if its certifications are complete. Build a habit of asking peers about 24-month field experience before finalising procurement.
 

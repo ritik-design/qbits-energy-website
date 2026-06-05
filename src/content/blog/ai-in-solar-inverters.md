@@ -56,7 +56,7 @@ The hardware enabling this is a combination of on-device sensors (voltage, curre
 - **Processed outputs** — anomaly flags, fault probability scores, maintenance recommendations, [performance ratio](/glossary/pr/) calculations, predicted generation for the next 24 hours.
 - **Communication layer** — cloud dashboard, mobile app, and WhatsApp alerts for the Indian residential segment.
 
-The IEA's 2024 Solar PV report notes that AI-assisted monitoring across utility-scale installations in Asia reduced undetected fault duration by an average of 68 percent compared to manual inspection regimes — a data point that has driven the technology's move into smaller residential systems. [Source — IEA, Renewables 2024, iea.org](https://www.iea.org/reports/renewables-2024){target="_blank" rel="noopener"}
+The IEA's 2024 Solar PV report notes that AI-assisted monitoring across utility-scale installations in Asia reduced undetected fault duration by an average of 68 percent compared to manual inspection regimes — a data point that has driven the technology's move into smaller residential systems. [Source — IEA, Renewables 2024, iea.org](https://www.iea.org/reports/renewables-2024)
 
 ## The 5 AI Value Layers Framework
 
@@ -70,7 +70,7 @@ Every AI monitoring platform in the solar inverter space delivers value through 
 
 3. **Dynamic MPPT optimisation** — Standard [MPPT](/glossary/mppt/) algorithms use fixed tracking parameters. An AI-enhanced tracker learns the irradiance variability pattern for the specific installation: a rooftop in coastal Chennai has very different cloud dynamics than one in Rajasthan. By adjusting tracking speed and step size based on learned patterns, dynamic MPPT improves daily yield by 0.5–1.5 percent under variable irradiance. Over a 12-year inverter lifetime, this compounds to a meaningful additional generation figure.
 
-4. **Load forecasting and battery optimisation** — Relevant primarily for hybrid systems with battery storage. The AI learns the household's daily consumption pattern — when the air conditioner runs, when the water heater turns on, when the evening peak occurs — and uses this to optimise battery charge and discharge timing. A battery that charges earlier in the day and reserves capacity for the 6–9 PM peak saves a homeowner the difference between grid tariff and zero. IRENA's analysis of residential battery optimisation shows a 12–18 percent improvement in self-consumption rates when AI load forecasting is applied versus fixed time-of-use schedules. [Source — IRENA, Innovation Landscape Brief: Flexibility in Renewable Power Systems, irena.org](https://www.irena.org/publications){target="_blank" rel="noopener"}
+4. **Load forecasting and battery optimisation** — Relevant primarily for hybrid systems with battery storage. The AI learns the household's daily consumption pattern — when the air conditioner runs, when the water heater turns on, when the evening peak occurs — and uses this to optimise battery charge and discharge timing. A battery that charges earlier in the day and reserves capacity for the 6–9 PM peak saves a homeowner the difference between grid tariff and zero. IRENA's analysis of residential battery optimisation shows a 12–18 percent improvement in self-consumption rates when AI load forecasting is applied versus fixed time-of-use schedules. [Source — IRENA, Innovation Landscape Brief: Flexibility in Renewable Power Systems, irena.org](https://www.irena.org/publications)
 
 5. **Remote diagnostics** — The layer that benefits installers and service teams most directly. When a fault occurs, the cloud platform provides a detailed diagnostic log: the sequence of events leading up to the fault code, the environmental conditions at that moment, and the likely root cause. A trained service engineer can diagnose most software-resolvable faults — MPPT range settings, grid parameter misconfigurations, firmware bugs — entirely remotely, without a site visit. For Tier-2 and Tier-3 cities where the nearest certified service technician may be 60–80 kilometres away, this reduces resolution time from days to hours.
 
@@ -103,7 +103,7 @@ Qbits inverters connect to the Qbits cloud monitoring platform via Wi-Fi or 4G a
 
 When an anomaly is confirmed — the AI runs a brief confirmation window to exclude transient events — a message is composed in plain language and sent to the registered WhatsApp number. The message describes what was detected, what the likely cause is, and what action the homeowner should take. No technical jargon. No app login required. No email that sits in a spam folder.
 
-For a 60-year-old homeowner in a Tier-2 city who uses WhatsApp daily to stay in touch with family, this is the critical design choice that makes AI monitoring accessible rather than theoretical. WhatsApp has over 500 million active users in India, making it the highest-penetration digital communication channel in the country across all age and income groups. [Source — Meta, India Digital Report 2025, about.meta.com](https://about.meta.com/){target="_blank" rel="noopener"}
+For a 60-year-old homeowner in a Tier-2 city who uses WhatsApp daily to stay in touch with family, this is the critical design choice that makes AI monitoring accessible rather than theoretical. WhatsApp has over 500 million active users in India, making it the highest-penetration digital communication channel in the country across all age and income groups. [Source — Meta, India Digital Report 2025, about.meta.com](https://about.meta.com/)
 
 ### Fleet intelligence
 
@@ -171,11 +171,11 @@ For a deeper look at how monitoring fits into the broader inverter specification
 
 ## AI Solar Inverters in India: The Broader Context
 
-India's rooftop solar capacity crossed 15 GWp in early 2026, with the PM Surya Ghar scheme driving rapid residential adoption. [Source — MNRE, Rooftop Solar Programme Dashboard, mnre.gov.in](https://mnre.gov.in/){target="_blank" rel="noopener"} As the installed base grows, the challenge of maintaining performance across millions of dispersed residential installations becomes acute. Manual inspection regimes that worked for a few thousand commercial installations cannot scale to ten million rooftops.
+India's rooftop solar capacity crossed 15 GWp in early 2026, with the PM Surya Ghar scheme driving rapid residential adoption. [Source — MNRE, Rooftop Solar Programme Dashboard, mnre.gov.in](https://mnre.gov.in/) As the installed base grows, the challenge of maintaining performance across millions of dispersed residential installations becomes acute. Manual inspection regimes that worked for a few thousand commercial installations cannot scale to ten million rooftops.
 
 AI monitoring is the infrastructure layer that makes this scale manageable. A monitoring platform that watches ten million installations in real time, flags anomalies automatically, and dispatches service alerts without human review is not a future concept — it is the operational model that the Indian residential solar market requires by the time the PM Surya Ghar target of one crore homes is reached.
 
-> **India added over 4.7 GW of rooftop solar capacity in 2025 alone — the largest single-year addition in the residential segment.** *Source — [Mercom India, India Solar Market Report Q4 2025, mercomindia.com](https://www.mercomindia.com/){target="_blank" rel="noopener"}, 2026.*
+> **India added over 4.7 GW of rooftop solar capacity in 2025 alone — the largest single-year addition in the residential segment.** *Source — [Mercom India, India Solar Market Report Q4 2025, mercomindia.com](https://www.mercomindia.com/), 2026.*
 
 The WhatsApp integration is not an incidental feature — it is the piece that makes AI monitoring viable for the demographic that will install the majority of these systems. A homeowner in Varanasi or Coimbatore who does not use a monitoring app but checks WhatsApp forty times a day is reachable via the AI alert channel in a way that a proprietary app dashboard cannot match.
 

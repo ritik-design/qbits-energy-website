@@ -36,7 +36,7 @@ faqs:
 
 Maharashtra's electricity tariffs are among the highest in India — MSEDCL residential consumers in the upper consumption slab pay ₹9 to ₹11 per unit, while even modest consumers pay ₹7 to ₹8 per unit. When you combine those tariff levels with a three-layer subsidy stack and a net metering framework that credits exports at retail rates, the financial case for rooftop solar in Maharashtra becomes difficult to ignore. But navigating the Maharashtra solar subsidy landscape in 2026 requires understanding two parallel schemes, four different DISCOMs, and an approval process that can take anywhere from 30 to 90 days depending on which side of Mumbai's boundary your meter sits.
 
-> **Direct answer.** Maharashtra homeowners can access up to ₹78,000 in central PM Surya Ghar subsidy plus MEDA state incentives on the same rooftop solar installation. Combined with MSEDCL's retail-rate net metering credits and Maharashtra's high electricity tariff (₹7–₹11 per unit), the Maharashtra Solar Savings Stack delivers payback in 4 to 5 years on a 4 kW system — faster than the national average. Apply through [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} for the central scheme and [meda.gov.in](https://meda.gov.in/){target="_blank" rel="noopener"} for the state layer.
+> **Direct answer.** Maharashtra homeowners can access up to ₹78,000 in central PM Surya Ghar subsidy plus MEDA state incentives on the same rooftop solar installation. Combined with MSEDCL's retail-rate net metering credits and Maharashtra's high electricity tariff (₹7–₹11 per unit), the Maharashtra Solar Savings Stack delivers payback in 4 to 5 years on a 4 kW system — faster than the national average. Apply through [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) for the central scheme and [meda.gov.in](https://meda.gov.in/) for the state layer.
 
 This guide covers every layer of the Maharashtra [solar subsidy](/glossary/pm-surya-ghar/) stack, the correct DISCOM process for each of Maharashtra's four service territories, realistic timelines, and a worked case study for a Pune homeowner with a ₹6,000 monthly bill.
 
@@ -44,7 +44,7 @@ This guide covers every layer of the Maharashtra [solar subsidy](/glossary/pm-su
 
 Maharashtra homeowners benefit from two distinct solar subsidy schemes running in parallel in 2026. Understanding the difference between them — and how they interact — is the starting point for any subsidy application.
 
-The **PM Surya Ghar Muft Bijli Yojana** is the central government scheme administered by MNRE through the [PM Surya Ghar national portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}. It provides ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kilowatt, capping at ₹78,000 for a 3 kW or larger residential system. The subsidy is disbursed directly to the applicant's Aadhaar-linked bank account after the DISCOM completes commissioning. Maharashtra ranks among the top five states in PM Surya Ghar registrations nationally, according to [Mercom India's](https://www.mercomindia.com/){target="_blank" rel="noopener"} tracking of state-wise registration data.
+The **PM Surya Ghar Muft Bijli Yojana** is the central government scheme administered by MNRE through the [PM Surya Ghar national portal](https://pmsuryaghar.gov.in/). It provides ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kilowatt, capping at ₹78,000 for a 3 kW or larger residential system. The subsidy is disbursed directly to the applicant's Aadhaar-linked bank account after the DISCOM completes commissioning. Maharashtra ranks among the top five states in PM Surya Ghar registrations nationally, according to [Mercom India's](https://www.mercomindia.com/) tracking of state-wise registration data.
 
 The **MEDA (Maharashtra Energy Development Agency) scheme** is the state-level counterpart. MEDA operates under the Maharashtra state government and administers the residential rooftop solar incentive component of the Maharashtra Solar Energy Policy. Applications are submitted through the MEDA portal. The MEDA incentive is a per-kW benefit paid on top of the central subsidy — both are claimable on the same system, and neither disqualifies the other.
 
@@ -84,7 +84,7 @@ The exact subsidy figure depends on system size. The table below maps central su
 | 4 kW | ₹78,000 (capped) | 440–520 units | 5,280–6,240 |
 | 5 kW | ₹78,000 (capped) | 550–650 units | 6,600–7,800 |
 
-Maharashtra receives 5.2 to 5.8 peak sun hours per day across most of the state, with Nashik, Solapur, and the Vidarbha region receiving the higher end. Pune and Mumbai typically average 5.0 to 5.4 peak sun hours. These figures are drawn from NASA POWER resource data published by [NREL](https://www.nrel.gov/){target="_blank" rel="noopener"} for the Maharashtra geography.
+Maharashtra receives 5.2 to 5.8 peak sun hours per day across most of the state, with Nashik, Solapur, and the Vidarbha region receiving the higher end. Pune and Mumbai typically average 5.0 to 5.4 peak sun hours. These figures are drawn from NASA POWER resource data published by [NREL](https://www.nrel.gov/) for the Maharashtra geography.
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system installed in Maharashtra — paid directly to the buyer's bank account after DISCOM commissioning verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
@@ -96,7 +96,7 @@ One of the most common mistakes Maharashtra solar applicants make is treating MS
 
 ### MSEDCL (Maharashtra State Electricity Distribution Company Limited)
 
-MSEDCL is Maharashtra's largest [DISCOM](/glossary/discom/), serving the vast majority of the state including Pune, Nashik, Nagpur, Aurangabad, Solapur, Amravati, Kolhapur, and all rural Maharashtra. MSEDCL's net metering process runs through its dedicated portal at [msedcl.in](https://www.msedcl.in/){target="_blank" rel="noopener"}.
+MSEDCL is Maharashtra's largest [DISCOM](/glossary/discom/), serving the vast majority of the state including Pune, Nashik, Nagpur, Aurangabad, Solapur, Amravati, Kolhapur, and all rural Maharashtra. MSEDCL's net metering process runs through its dedicated portal at [msedcl.in](https://www.msedcl.in/).
 
 The MSEDCL net metering process has a reputation among installers as one of the more procedurally demanding in India. Applicants must submit a detailed technical package including a single-line diagram, inverter datasheet (ALMM-listed), panel layout, structural certificate, and electrical completion certificate from a CEIG-empanelled engineer. Each document must match the installed configuration exactly — mismatches cause rejection and restart the timeline.
 
@@ -127,7 +127,7 @@ The application process has a specific sequence. Deviating from this sequence �
 
 **Step 1 — Register on the PM Surya Ghar National Portal**
 
-Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} and register using your mobile number, state (Maharashtra), and DISCOM name. Enter your electricity consumer number from your bill. Complete Aadhaar-linked e-KYC. You will receive a registration reference number.
+Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and register using your mobile number, state (Maharashtra), and DISCOM name. Enter your electricity consumer number from your bill. Complete Aadhaar-linked e-KYC. You will receive a registration reference number.
 
 **Step 2 — Obtain DISCOM Technical Feasibility Approval**
 
@@ -164,7 +164,7 @@ The most common causes of delay or rejection in MSEDCL net metering applications
 - **Sanctioned load mismatch** — if your proposed system exceeds your sanctioned load, MSEDCL will reject the feasibility application. Apply for a load enhancement first, then apply for net metering.
 - **Missing CEIG certification** — for systems above a certain capacity threshold, an electrical certificate from a CEIG (Chief Electrical Inspector to Government)-empanelled contractor is mandatory in Maharashtra. This is often overlooked by new installers.
 
-> **60 to 90 days.** The realistic MSEDCL net metering timeline from application submission to bidirectional meter installation for most Maharashtra residential applicants. Urban divisions typically complete in 45–60 days. *Source — installer community data compiled by [Saur Energy India](https://www.saurenergy.com/){target="_blank" rel="noopener"}, 2025–2026.*
+> **60 to 90 days.** The realistic MSEDCL net metering timeline from application submission to bidirectional meter installation for most Maharashtra residential applicants. Urban divisions typically complete in 45–60 days. *Source — installer community data compiled by [Saur Energy India](https://www.saurenergy.com/), 2025–2026.*
 
 Once the bidirectional meter is installed, net metering works automatically through the DISCOM billing system. You receive a monthly statement showing units imported, units exported, and net payable. Credits accumulate monthly and are settled annually — any surplus credits at the end of the settlement year are typically adjusted against fixed charges or carried forward per MERC regulations.
 
@@ -197,7 +197,7 @@ To make the Maharashtra Solar Savings Stack concrete, here is a detailed worked 
 
 Wait — why does the post assignment mention 4.5 year payback? That figure applies to a 4 kW system where the homeowner has a somewhat lower bill starting point (₹6,000 rather than the upper range), and accounts for the annual fixed charge component of the MSEDCL bill that solar does not eliminate. Fixed demand charges from MSEDCL are payable regardless of solar generation and constitute ₹400–₹600 of a typical residential bill. When fixed charges are excluded from the savings calculation, the effective annual savings land at ₹38,000–₹44,000, giving a payback of approximately **4.2 to 4.8 years** — a range that practitioners often round to 4.5 years as a conservative planning figure.
 
-This payback is faster than the national average for rooftop solar in India, which [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"} estimates at 5 to 7 years for states with lower tariffs or avoided-cost export crediting. Maharashtra's retail-rate net metering combined with high MSEDCL tariffs compresses the payback window meaningfully.
+This payback is faster than the national average for rooftop solar in India, which [JMK Research](https://jmkresearch.com/) estimates at 5 to 7 years for states with lower tariffs or avoided-cost export crediting. Maharashtra's retail-rate net metering combined with high MSEDCL tariffs compresses the payback window meaningfully.
 
 **What happens after payback?**
 
@@ -247,7 +247,7 @@ The financial case for installing in 2026 is strong. Every month of delay costs 
 Installers and consumers who have navigated the Maharashtra solar subsidy process report a consistent set of avoidable errors. Knowing them before you apply saves weeks of delay.
 
 - **Installing before DISCOM feasibility approval** — the PM Surya Ghar portal requires a valid feasibility letter before the commissioning report is accepted. Systems installed without prior approval are ineligible for the central subsidy regardless of equipment quality.
-- **Using a non-ALMM inverter** — even a technically sound inverter from a reputable brand will fail MSEDCL's commissioning inspection if it is not on the MNRE ALMM list. Verify every proposed inverter model at [mnre.gov.in](https://mnre.gov.in/){target="_blank" rel="noopener"} before signing any installation contract.
+- **Using a non-ALMM inverter** — even a technically sound inverter from a reputable brand will fail MSEDCL's commissioning inspection if it is not on the MNRE ALMM list. Verify every proposed inverter model at [mnre.gov.in](https://mnre.gov.in/) before signing any installation contract.
 - **Applying to MEDA after MSEDCL has already processed the commissioning** — some applicants forget to file the MEDA application simultaneously with the commissioning process. MEDA applications should be submitted at Step 4 (installation complete, commissioning pending) rather than after commissioning.
 - **Choosing a non-empanelled installer** — MSEDCL maintains its own empanelled vendor list which sometimes differs from the national portal's empanelled list. Confirm your installer is on both.
 - **Ignoring the sanctioned load** — if your proposed solar system capacity exceeds your sanctioned load, MSEDCL will reject the feasibility application. Check your bill for "sanctioned load" or "contracted demand" before sizing the system.

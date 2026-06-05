@@ -46,7 +46,7 @@ The [ALMM list](/glossary/almm-list/) status of specific Sungrow models — addr
 
 Sungrow Power Supply Co. Ltd. was founded in 1997 by Professor Cao Renxian at the University of Science and Technology of China. The company is headquartered in Hefei, Anhui Province, and has manufacturing facilities across China, Germany, and India. As of 2024, Sungrow had shipped inverters representing more than 340 GW of solar capacity across 150+ countries, making it the world's largest inverter manufacturer by shipped volume — a position it has held since overtaking SMA around 2020.
 
-> **340 GW.** Sungrow's cumulative global inverter shipment capacity as of 2024, according to the company's investor reports — representing more than twice the entire solar installed capacity of India. *Source — [Sungrow Annual Report 2024](https://www.sungrowpower.com){target="_blank" rel="noopener"}, 2024.*
+> **340 GW.** Sungrow's cumulative global inverter shipment capacity as of 2024, according to the company's investor reports — representing more than twice the entire solar installed capacity of India. *Source — [Sungrow Annual Report 2024](https://www.sungrowpower.com), 2024.*
 
 In India, Sungrow operates through Sungrow India Pvt. Ltd., a locally registered entity headquartered in Bengaluru. The company has a dedicated service and support operation in India, though its physical footprint remains concentrated in major cities. The product range relevant to Indian buyers falls into three primary families:
 
@@ -116,11 +116,11 @@ Score rationale: The extendable term is a genuine positive. The repair-based str
 
 The [ALMM list](/glossary/almm-list/) (Approved List of Models and Manufacturers) maintained by MNRE is a mandatory compliance requirement for inverters used in PM Surya Ghar Muft Bijli Yojana residential installations. Without ALMM Phase III listing, a specific inverter model cannot be used to claim the central subsidy — currently up to ₹78,000 for a 3 kW system.
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, credited directly to the buyer's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, credited directly to the buyer's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 Sungrow has ALMM-listed models in India. However, **not all Sungrow models are ALMM-listed**, and the list is updated periodically by MNRE. The ALMM status of a specific model can change — a model listed today may not appear on a future revision, or a new model may not yet have been submitted for listing. This creates genuine uncertainty for buyers who purchase a Sungrow inverter based on a dealer's assurance that it is ALMM-compliant, only to find the model is absent from the current list at the time of DISCOM verification.
 
-The safest approach is unambiguous: verify the exact model number against the current ALMM Phase III list on the [MNRE portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before committing to a purchase. The complete ALMM status and process is covered in depth in the [ALMM Phase III guide for Indian buyers](/blog/almm-list-phase-iii-guide/).
+The safest approach is unambiguous: verify the exact model number against the current ALMM Phase III list on the [MNRE portal](https://mnre.gov.in/almm-list/) before committing to a purchase. The complete ALMM status and process is covered in depth in the [ALMM Phase III guide for Indian buyers](/blog/almm-list-phase-iii-guide/).
 
 Score rationale: Sungrow has made genuine efforts to list models on the ALMM. The score is capped at 6 because the partial and variable nature of Sungrow's ALMM listing creates real risk for PM Surya Ghar buyers, and buyers cannot rely on dealer verification alone.
 
@@ -185,11 +185,11 @@ India's distribution grid — particularly in UP, Bihar, Rajasthan, and parts of
 
 ### High Ambient Temperature Derating
 
-Sungrow's SG5.0RS begins derating output at 45 °C ambient temperature, delivering full nameplate output only below that threshold. In summer months, rooftop ambient temperatures in western India regularly reach 48–52 °C. Under these conditions, a 5 kW SG5.0RS may deliver 4.4–4.7 kW of actual output during peak afternoon hours. This is a real yield reduction — not catastrophic, but worth factoring into annual generation estimates. Ask your installer to model the derating impact using actual TMY (Typical Meteorological Year) data for your location. The [NREL PVWatts Calculator](https://pvwatts.nrel.gov/){target="_blank" rel="noopener"} can assist with this estimation.
+Sungrow's SG5.0RS begins derating output at 45 °C ambient temperature, delivering full nameplate output only below that threshold. In summer months, rooftop ambient temperatures in western India regularly reach 48–52 °C. Under these conditions, a 5 kW SG5.0RS may deliver 4.4–4.7 kW of actual output during peak afternoon hours. This is a real yield reduction — not catastrophic, but worth factoring into annual generation estimates. Ask your installer to model the derating impact using actual TMY (Typical Meteorological Year) data for your location. The [NREL PVWatts Calculator](https://pvwatts.nrel.gov/) can assist with this estimation.
 
 ### Dust and Monsoon Resilience
 
-India added over 24 GW of new solar capacity in 2024, making it the third-largest annual solar market globally — and a significant portion of that growth came from residential rooftop installations in climates that test inverter weather protection harder than European lab standards assume. *Source — [IEA Renewables 2024 Report](https://www.iea.org/reports/renewables-2024){target="_blank" rel="noopener"}, 2024.*
+India added over 24 GW of new solar capacity in 2024, making it the third-largest annual solar market globally — and a significant portion of that growth came from residential rooftop installations in climates that test inverter weather protection harder than European lab standards assume. *Source — [IEA Renewables 2024 Report](https://www.iea.org/reports/renewables-2024), 2024.*
 
 IP65 (the residential SG series rating) provides protection against dust and water jets, which is adequate for most Indian locations. Coastal buyers — particularly in Kerala, Tamil Nadu coastal, and Goa — and buyers in high-dust industrial zones should consider requesting IP66-rated options (available in the SG RT commercial series) or verify their specific installation clearance and maintenance schedule compensates for the lower IP rating. The IP65 vs IP66 distinction is explained in detail in the [IP65 vs IP66 inverter weather protection guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/).
 

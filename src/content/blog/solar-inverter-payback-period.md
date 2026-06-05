@@ -70,7 +70,7 @@ Before comparing payback periods, the underlying data needs to be transparent. T
 
 Annual generation is calculated as: **5 kW × irradiance (kWh/kWp/day) × 365 × 0.80 performance ratio**. The 0.80 performance ratio accounts for temperature derating, wiring losses, dust, and inverter efficiency — conservative but realistic for India's climate.
 
-Tariff figures are sourced from state DISCOM tariff orders published by each State Electricity Regulatory Commission (SERC) and verified against the [Central Electricity Authority](https://cea.nic.in/tariff-orders/){target="_blank" rel="noopener"} tariff compilation for FY 2025–26. Irradiance data is drawn from the [MNRE Solar Radiation Resource Assessment](https://mnre.gov.in/solar/state-wise/){target="_blank" rel="noopener"} station network.
+Tariff figures are sourced from state DISCOM tariff orders published by each State Electricity Regulatory Commission (SERC) and verified against the [Central Electricity Authority](https://cea.nic.in/tariff-orders/) tariff compilation for FY 2025–26. Irradiance data is drawn from the [MNRE Solar Radiation Resource Assessment](https://mnre.gov.in/solar/state-wise/) station network.
 
 ## The 4-Variable Payback Calculator — State Your Numbers, Get Your Timeline
 
@@ -106,7 +106,7 @@ With the framework established, here are the full calculations for each state us
 
 The gross system cost assumption is ₹2,50,000 for 5 kW (₹50/Wp all-in, which is the mid-market benchmark for Q1–Q2 2026 across India). Central subsidy from [PM Surya Ghar](/blog/pm-surya-ghar-subsidy-amount/) is ₹78,000 (capped at 3 kW). Net cost before state top-up: ₹1,72,000.
 
-> **₹78,000.** The maximum PM Surya Ghar Muft Bijli Yojana central subsidy for a 3 kW residential system, paid directly to the beneficiary's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, June 2026.*
+> **₹78,000.** The maximum PM Surya Ghar Muft Bijli Yojana central subsidy for a 3 kW residential system, paid directly to the beneficiary's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), June 2026.*
 
 ### Gujarat
 
@@ -191,7 +191,7 @@ Understanding which levers to pull is more valuable than memorising a state aver
 
 ### Tariff Rate — The Dominant Lever
 
-A ₹1.00/kWh increase in tariff on a 5 kW system generating 7,500 kWh/year adds ₹7,500 to annual savings. At ₹4.00/kWh base, payback is 6.4 years. At ₹5.00/kWh, it drops to 4.6 years. At ₹6.00/kWh (applicable to high-consumption urban households in several states), payback falls to 3.8 years. This is why tariff trends matter: India's residential electricity tariff has increased at approximately 4–6% per annum over the past decade, according to [CEA tariff data](https://cea.nic.in/tariff-orders/){target="_blank" rel="noopener"}, making every passing year slightly more favourable for solar payback going forward.
+A ₹1.00/kWh increase in tariff on a 5 kW system generating 7,500 kWh/year adds ₹7,500 to annual savings. At ₹4.00/kWh base, payback is 6.4 years. At ₹5.00/kWh, it drops to 4.6 years. At ₹6.00/kWh (applicable to high-consumption urban households in several states), payback falls to 3.8 years. This is why tariff trends matter: India's residential electricity tariff has increased at approximately 4–6% per annum over the past decade, according to [CEA tariff data](https://cea.nic.in/tariff-orders/), making every passing year slightly more favourable for solar payback going forward.
 
 ### Irradiance — The Geography Multiplier
 
@@ -259,10 +259,10 @@ A 5 kW system in Gujarat that costs ₹1,52,000 net and breaks even in 3.8 years
 
 For the UP homeowner with a 4.9-year payback, the 25-year savings are ₹8.84 Lakh against ₹1.72 Lakh invested — a 5.14× return. Still materially better than the 7% post-tax return a fixed deposit delivers over the same horizon.
 
-This is why the [on-grid vs hybrid ROI comparison](/blog/on-grid-vs-hybrid-solar-inverters-roi/) matters: the choice of inverter type affects not just payback but the shape of the entire 25-year return curve. And it is why India's solar adoption rate among residential homeowners has been growing at over 80% year-on-year in PM Surya Ghar registrations, according to [MNRE PM Surya Ghar portal data](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}.
+This is why the [on-grid vs hybrid ROI comparison](/blog/on-grid-vs-hybrid-solar-inverters-roi/) matters: the choice of inverter type affects not just payback but the shape of the entire 25-year return curve. And it is why India's solar adoption rate among residential homeowners has been growing at over 80% year-on-year in PM Surya Ghar registrations, according to [MNRE PM Surya Ghar portal data](https://pmsuryaghar.gov.in/).
 
-> *India added over 1.1 GW of residential rooftop solar in FY 2024–25 alone — driven primarily by PM Surya Ghar registrations from homeowners in Gujarat, Maharashtra, and Rajasthan. Source — [Mercom India Q4 2025 Solar Market Update](https://www.mercomindia.com/){target="_blank" rel="noopener"}, January 2026.*
+> *India added over 1.1 GW of residential rooftop solar in FY 2024–25 alone — driven primarily by PM Surya Ghar registrations from homeowners in Gujarat, Maharashtra, and Rajasthan. Source — [Mercom India Q4 2025 Solar Market Update](https://www.mercomindia.com/), January 2026.*
 
 The data above confirms that the homeowners who act in 2026 lock in today's system cost before component prices increase, and begin accumulating savings against a tariff that will almost certainly be higher in 2031 than it is today. The payback clock starts on the day the system is commissioned — and every month of delay is a month of foregone savings that no subsidy can recover.
 
-For state-specific subsidy stacks beyond what this post covers, the [IRENA Renewable Energy Benefits report](https://www.irena.org/Benefits){target="_blank" rel="noopener"} provides a global framework for understanding how policy design affects residential solar economics — useful context when reading your own state's subsidy notification documents.
+For state-specific subsidy stacks beyond what this post covers, the [IRENA Renewable Energy Benefits report](https://www.irena.org/Benefits) provides a global framework for understanding how policy design affects residential solar economics — useful context when reading your own state's subsidy notification documents.

@@ -42,11 +42,11 @@ This guide cuts through that confusion. Whether you own a standalone home, live 
 
 > **Direct answer.** PM Surya Ghar eligibility requires five conditions to be met simultaneously: you must be an Indian citizen with a valid Aadhaar, hold a residential (not commercial or industrial) electricity connection, own the property or have formal landlord consent, be in a DISCOM service area that supports the scheme, and install a system using an ALMM Phase III listed inverter between 1 kW and 10 kW. All five conditions must be satisfied — failing even one disqualifies the application.
 
-The [ALMM listing requirement](/blog/solar-inverter-certifications/) is the condition most frequently overlooked by applicants who purchase inverters without verifying approval status. An inverter that is not on the MNRE's [Approved List of Models and Manufacturers](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} will disqualify the entire installation from receiving subsidy — regardless of how well it performs technically.
+The [ALMM listing requirement](/blog/solar-inverter-certifications/) is the condition most frequently overlooked by applicants who purchase inverters without verifying approval status. An inverter that is not on the MNRE's [Approved List of Models and Manufacturers](https://mnre.gov.in/almm-list/) will disqualify the entire installation from receiving subsidy — regardless of how well it performs technically.
 
 ## The Eight Official PM Surya Ghar Eligibility Criteria
 
-The [PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} and the underlying MNRE scheme guidelines define eight conditions that every applicant must satisfy. These are not guidelines or recommendations — they are hard gates that the DISCOM verifies before processing the subsidy.
+The [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) and the underlying MNRE scheme guidelines define eight conditions that every applicant must satisfy. These are not guidelines or recommendations — they are hard gates that the DISCOM verifies before processing the subsidy.
 
 1. **Indian citizenship with valid Aadhaar** — The applicant must be an Indian citizen. Aadhaar is mandatory for identity verification and for the bank account linkage through which the subsidy is disbursed. Foreign nationals, even long-term residents, are not eligible.
 
@@ -78,11 +78,11 @@ Before visiting a vendor or logging into the PM Surya Ghar portal, run through t
 
 3. **Ownership and Connection Gate** — Is the electricity connection at the property in your name? If yes, and you own the property, clear this gate. If the connection is in a family member's name, that family member must be the applicant. If you are a tenant, you need a written NOC from the landlord who holds the connection, and the application must proceed in the landlord's name.
 
-4. **DISCOM Participation Gate** — Visit the PM Surya Ghar portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} and check whether your state and DISCOM appear in the dropdown during the application flow. If your DISCOM is listed, clear this gate. If it does not appear, contact your DISCOM's consumer helpline to confirm participation status.
+4. **DISCOM Participation Gate** — Visit the PM Surya Ghar portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and check whether your state and DISCOM appear in the dropdown during the application flow. If your DISCOM is listed, clear this gate. If it does not appear, contact your DISCOM's consumer helpline to confirm participation status.
 
 5. **Prior Subsidy Gate** — Have you or any previous owner of this connection received a rooftop solar subsidy from the central government in the last seven years? If no, clear this gate and proceed. If yes, check with your DISCOM whether an upgrade application is possible, or wait until the seven-year window has elapsed.
 
-Clearing all five gates takes about ten minutes and saves weeks of misdirected effort. The five-gate pass means you can confidently approach an empanelled vendor and begin the formal application process on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}.
+Clearing all five gates takes about ten minutes and saves weeks of misdirected effort. The five-gate pass means you can confidently approach an empanelled vendor and begin the formal application process on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/).
 
 ## Eligibility Status by Consumer Type
 
@@ -124,9 +124,9 @@ One of the most common misconceptions about PM Surya Ghar is that it is a welfar
 
 The central subsidy structure breaks down as follows: ₹30,000 per kW for the first 2 kW, and ₹18,000 for the third kW, totalling ₹78,000 for a 3 kW system. For systems above 3 kW, no additional central subsidy is provided beyond this ceiling.
 
-> **₹78,000.** The maximum central subsidy available under PM Surya Ghar for a 3 kW residential rooftop system, disbursed directly to the applicant's Aadhaar-linked bank account after DISCOM verification of installation. *Source — [MNRE PM Surya Ghar Guidelines](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy available under PM Surya Ghar for a 3 kW residential rooftop system, disbursed directly to the applicant's Aadhaar-linked bank account after DISCOM verification of installation. *Source — [MNRE PM Surya Ghar Guidelines](https://mnre.gov.in/), 2026.*
 
-State governments are free to augment this with additional subsidies. States like Gujarat and Rajasthan have historically been active in providing state-level top-ups, particularly for BPL and EWS households. According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, rooftop solar uptake under PM Surya Ghar has been highest in states with strong state-level support mechanisms layered on top of the central subsidy.
+State governments are free to augment this with additional subsidies. States like Gujarat and Rajasthan have historically been active in providing state-level top-ups, particularly for BPL and EWS households. According to [Mercom India](https://www.mercomindia.com/), rooftop solar uptake under PM Surya Ghar has been highest in states with strong state-level support mechanisms layered on top of the central subsidy.
 
 ## Who Is NOT Eligible — Clear Exclusions
 
@@ -152,7 +152,7 @@ Agricultural electricity connections operate under a separate tariff regime and 
 
 A residential consumer who received any central government rooftop solar subsidy under a prior MNRE scheme within the last seven years cannot apply for PM Surya Ghar on the same connection. This applies even if the original system has since failed or been removed.
 
-The exclusion logic matters. As [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"} has noted in its analysis of rooftop solar adoption barriers, confusion about eligibility boundaries — particularly between residential and commercial tariff classifications — is one of the top reasons for application rejections and delays in DISCOM processing queues.
+The exclusion logic matters. As [JMK Research](https://jmkresearch.com/) has noted in its analysis of rooftop solar adoption barriers, confusion about eligibility boundaries — particularly between residential and commercial tariff classifications — is one of the top reasons for application rejections and delays in DISCOM processing queues.
 
 ## Grey Areas and Conditional Scenarios
 
@@ -164,7 +164,7 @@ An apartment owner with an individual electricity meter can apply as an individu
 
 For most apartment buildings, the practical route is a collective application through the Resident Welfare Association or Housing Society. The RWA applies for a system on the shared rooftop, the electricity generated offsets common area consumption or is distributed among members, and the subsidy is calculated based on the aggregate capacity. Some DISCOMs in Maharashtra, Karnataka, and Gujarat have developed specific application pathways for housing societies. Others have not yet formalised this process.
 
-The [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"} rooftop eligibility analysis highlights that multi-storey residential buildings represent a significant untapped segment, largely because DISCOM policies on collective applications remain inconsistent across states.
+The [Bridge to India](https://bridgetoindia.com/) rooftop eligibility analysis highlights that multi-storey residential buildings represent a significant untapped segment, largely because DISCOM policies on collective applications remain inconsistent across states.
 
 ### Tenants
 
@@ -209,7 +209,7 @@ State variations matter most in three situations: when the property is in an are
 
 The inverter selection is not just a technical decision — it is a legal eligibility condition. Under PM Surya Ghar rules, the [DISCOM](/glossary/discom/) will not process the subsidy unless the installed inverter appears on the MNRE's [ALMM list](/glossary/almm-list/).
 
-The ALMM (Approved List of Models and Manufacturers) is maintained by the Ministry of New and Renewable Energy and updated periodically. ALMM Phase III specifically covers grid-connected solar inverters for residential and commercial applications. A model that was ALMM-listed six months ago may have had its listing withdrawn or updated — buyers should verify the specific model against the current published list at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before purchase.
+The ALMM (Approved List of Models and Manufacturers) is maintained by the Ministry of New and Renewable Energy and updated periodically. ALMM Phase III specifically covers grid-connected solar inverters for residential and commercial applications. A model that was ALMM-listed six months ago may have had its listing withdrawn or updated — buyers should verify the specific model against the current published list at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/) before purchase.
 
 The consequences of installing a non-ALMM inverter are clear: the subsidy claim fails, and the applicant must either replace the inverter or forgo the subsidy. There is no appeals process for a non-ALMM installation. For a comprehensive breakdown of how ALMM interacts with BIS, IEC 62109, and other compliance standards, see the detailed guide on [solar inverter regulations in India 2026](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/).
 

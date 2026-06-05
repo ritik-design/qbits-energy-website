@@ -38,7 +38,7 @@ The Renewable Energy India Expo — Asia's largest clean energy trade exhibition
 
 > **REI 2026 in one paragraph.** The rei 2026 recap confirms that the Indian solar inverter market has crossed three simultaneous inflection points: AI monitoring is no longer a premium feature but a baseline procurement requirement; hybrid inverters with integrated battery management now outsell on-grid-only units on trade floors; and ALMM Phase III compliance has become the single most powerful trade floor filter, rendering non-listed products commercially invisible for subsidy-linked projects. Any EPC installer who has not updated their procurement matrix to reflect these three shifts is already working from an outdated specification.
 
-These are not forecasts. They are confirmed observations from the product launches, vendor conversations, and procurement panel discussions that characterised REI 2026. The analysis draws on data from [NSEFI](https://nsefi.in/){target="_blank" rel="noopener"}, [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"}, and [MNRE's ALMM portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}, cross-referenced with product specifications visible at the exhibition.
+These are not forecasts. They are confirmed observations from the product launches, vendor conversations, and procurement panel discussions that characterised REI 2026. The analysis draws on data from [NSEFI](https://nsefi.in/), [Mercom India](https://www.mercomindia.com/), [Bridge to India](https://bridgetoindia.com/), and [MNRE's ALMM portal](https://mnre.gov.in/almm-list/), cross-referenced with product specifications visible at the exhibition.
 
 ## AI Monitoring Becomes Standard, Not Optional
 
@@ -46,7 +46,7 @@ Three years ago, AI-powered inverter monitoring was a premium differentiator —
 
 This shift has a structural cause. As portfolio sizes grow — many mid-sized EPC firms in India now manage 500 to 2,000 residential and small-commercial installations — the economics of in-person fault diagnosis become untenable. A single unresolved fault generating a service call costs ₹800–₹1,500 in travel and labour, before parts. Multiply that across 50 faults per month in a 1,000-site portfolio and the annual service cost exceeds ₹9 Lakh. AI-based monitoring, which can identify fault signatures in real-time and prioritise escalation, compresses that number significantly.
 
-[MNRE's quarterly deployment data](https://mnre.gov.in/){target="_blank" rel="noopener"} shows that PM Surya Ghar installations crossed 1.2 crore households in early 2026, the majority carrying a five-to-twelve-year warranty obligation. The brands that can monitor this installed base remotely — and prove uptime to DISCOMs during subsidy verification — carry a measurable commercial advantage.
+[MNRE's quarterly deployment data](https://mnre.gov.in/) shows that PM Surya Ghar installations crossed 1.2 crore households in early 2026, the majority carrying a five-to-twelve-year warranty obligation. The brands that can monitor this installed base remotely — and prove uptime to DISCOMs during subsidy verification — carry a measurable commercial advantage.
 
 At REI 2026, inverter AI monitoring showcases fell into three categories:
 
@@ -60,7 +60,7 @@ The [ai-powered vs traditional inverter technology in India](/blog/ai-powered-vs
 
 The on-grid vs hybrid inverter debate that occupied EPC seminar panels in 2023 and 2024 has largely resolved itself at the product level. At REI 2026, hybrid inverter models with integrated [battery management systems](/glossary/bms/) occupied approximately 60% of inverter floor space, a reversal from the on-grid dominance seen as recently as 2023.
 
-The economic case is clearer than it was two years ago. LFP (lithium iron phosphate) battery pack costs have fallen below ₹18,000 per kWh at the wholesale level for certified packs, according to [Bridge to India's 2026 storage cost tracker](https://bridgetoindia.com/){target="_blank" rel="noopener"}, making a 5 kWh battery addition to a 5 kW residential system a ₹90,000 incremental cost with a 3.5–5 year marginal payback in high-tariff states like Maharashtra and Tamil Nadu.
+The economic case is clearer than it was two years ago. LFP (lithium iron phosphate) battery pack costs have fallen below ₹18,000 per kWh at the wholesale level for certified packs, according to [Bridge to India's 2026 storage cost tracker](https://bridgetoindia.com/), making a 5 kWh battery addition to a 5 kW residential system a ₹90,000 incremental cost with a 3.5–5 year marginal payback in high-tariff states like Maharashtra and Tamil Nadu.
 
 For EPC installers, the shift creates both opportunity and procurement complexity. On-grid and hybrid inverters use different string sizing conventions, different MPPT voltage window specifications, and — critically — different commissioning protocols for the battery interface. The [how to choose a hybrid solar inverter](/blog/how-to-choose-hybrid-solar-inverter/) guide on this site walks through the specification checklist that REI 2026 vendors were consistently presenting to prospective buyers.
 
@@ -91,11 +91,11 @@ These four signals apply across project sizes from 3 kW residential to 500 kW C&
 
 ## Bifacial Panel Adoption and the Inverter Specification Gap
 
-[Bifacial solar modules](/glossary/bifacial-module/) represent one of the most significant specification challenges surfaced at REI 2026. These panels generate power from both faces — the conventional front surface and the rear surface, which captures reflected albedo radiation from the mounting surface below. The rear-surface contribution ranges from 5% to 25% depending on ground reflectivity, tilt angle, and row spacing, according to data published by [IRENA's 2025 Solar Technology Report](https://www.irena.org/){target="_blank" rel="noopener"}.
+[Bifacial solar modules](/glossary/bifacial-module/) represent one of the most significant specification challenges surfaced at REI 2026. These panels generate power from both faces — the conventional front surface and the rear surface, which captures reflected albedo radiation from the mounting surface below. The rear-surface contribution ranges from 5% to 25% depending on ground reflectivity, tilt angle, and row spacing, according to data published by [IRENA's 2025 Solar Technology Report](https://www.irena.org/).
 
 The challenge for EPC procurement is that inverter specifications are typically written against STC (Standard Test Conditions) nameplate power — not against the bifacial gain coefficient. A 600 Wp bifacial panel with a 15% bifacial gain delivers up to 690 Wp of effective output under optimal conditions. If the paired inverter's DC input is sized against the 600 Wp STC rating, the additional 90 Wp of rear-surface generation will be clipped.
 
-> **5–25%.** The rear-surface generation contribution from bifacial solar modules, depending on ground albedo and mounting height above surface. *Source — [IRENA Solar Technology Report 2025](https://www.irena.org/){target="_blank" rel="noopener"}.*
+> **5–25%.** The rear-surface generation contribution from bifacial solar modules, depending on ground albedo and mounting height above surface. *Source — [IRENA Solar Technology Report 2025](https://www.irena.org/).*
 
 At REI 2026, inverter vendors responding to this specification challenge were presenting updated bifacial-compatible DC sizing guidelines:
 
@@ -124,7 +124,7 @@ Non-listed products — including several imported inverter brands with competit
 
 ### The Compliance Dividend for Listed Brands
 
-[Mercom India's 2026 Q1 Solar Market Report](https://www.mercomindia.com/){target="_blank" rel="noopener"} notes that ALMM-listed inverter brands saw a 35% increase in PM Surya Ghar order enquiries in Q1 2026 compared to the same period in 2025. This is not merely a compliance story — it is a market share redistribution event. EPC installers who have built their procurement relationships around non-listed brands face a forced transition, and REI 2026 was where many of those conversations began.
+[Mercom India's 2026 Q1 Solar Market Report](https://www.mercomindia.com/) notes that ALMM-listed inverter brands saw a 35% increase in PM Surya Ghar order enquiries in Q1 2026 compared to the same period in 2025. This is not merely a compliance story — it is a market share redistribution event. EPC installers who have built their procurement relationships around non-listed brands face a forced transition, and REI 2026 was where many of those conversations began.
 
 For the broader made-in-India inverter market, ALMM Phase III is a structural tailwind. Domestic manufacturers — who have invested in BIS certification, IEC testing, and ALMM listing — are now insulated from pure price competition by a compliance barrier that imported, non-listed products cannot easily surmount. The [made in India solar inverters](/blog/made-in-india-solar-inverters-2026/) analysis explores this competitive dynamic in detail.
 
@@ -154,7 +154,7 @@ This wattage escalation has material implications for inverter specification tha
 | 700–720 Wp (emerging) | 56–62 V | 16–18 A | 1,000–1,100 V | 20–22 A |
 | 750W+ (showcase, 2026) | 62–68 V | 18–20 A | 1,200–1,500 V | 22–26 A |
 
-> **700W+.** The module wattage threshold above which most inverters specified before 2024 require re-evaluation of MPPT input range, maximum input voltage, and per-string current handling. *Source — [NSEFI Market Technical Working Group](https://nsefi.in/){target="_blank" rel="noopener"}, 2026.*
+> **700W+.** The module wattage threshold above which most inverters specified before 2024 require re-evaluation of MPPT input range, maximum input voltage, and per-string current handling. *Source — [NSEFI Market Technical Working Group](https://nsefi.in/), 2026.*
 
 EPC installers at REI 2026 who are repricing existing projects for 2026 execution need to confirm inverter compatibility with the module specifications they are now receiving from panel vendors. Specifying a 2022-vintage inverter against a 2026-vintage 700W panel without running the string sizing check is a commissioning liability.
 
@@ -170,7 +170,7 @@ The clearest signal from the battery storage showcases at REI 2026 is that LFP b
 
 The economic driver is straightforward. Commercial electricity tariffs in industrial states like Maharashtra, Tamil Nadu, and Karnataka now exceed ₹9–₹12/unit for peak demand periods. A 100 kW solar array paired with 200 kWh of LFP storage can shift 60–70% of peak demand hours to self-consumption, delivering a direct saving of ₹5–₹8/unit compared to grid purchase during those hours.
 
-[Bridge to India's Commercial Storage Market Outlook 2026](https://bridgetoindia.com/){target="_blank" rel="noopener"} projects that commercial solar-plus-storage installations will triple in installed capacity between 2025 and 2027, with EPC installers positioned as the primary delivery channel.
+[Bridge to India's Commercial Storage Market Outlook 2026](https://bridgetoindia.com/) projects that commercial solar-plus-storage installations will triple in installed capacity between 2025 and 2027, with EPC installers positioned as the primary delivery channel.
 
 ### EV Charging Integration
 

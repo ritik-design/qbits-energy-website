@@ -41,7 +41,7 @@ This guide covers everything from subsidy slabs and eligibility to the exact fiv
 
 > **PM Surya Ghar Muft Bijli Yojana** is the Government of India's flagship residential rooftop solar scheme, launched in February 2024 with a target of one crore (10 million) households by March 2027. It provides a central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the third kilowatt — up to a maximum of ₹78,000 — paid directly into the homeowner's bank account after installation and grid commissioning.
 
-The scheme replaces the earlier Grid Connected Rooftop Solar Programme Phase II and operates through a single national portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, co-ordinated by [MNRE](https://mnre.gov.in/){target="_blank" rel="noopener"} and implemented through state DISCOMs. Understanding the scheme from end to end — not just the subsidy headline — is what separates a successful application from a stalled one.
+The scheme replaces the earlier Grid Connected Rooftop Solar Programme Phase II and operates through a single national portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/), co-ordinated by [MNRE](https://mnre.gov.in/) and implemented through state DISCOMs. Understanding the scheme from end to end — not just the subsidy headline — is what separates a successful application from a stalled one.
 
 ## What PM Surya Ghar Is — and What It Means for Your Electricity Bill
 
@@ -61,7 +61,7 @@ Consider a homeowner in Pune paying ₹8,000 per month on a 600-unit consumption
 - **Payback period after subsidy:** 2–3 years
 - **25-year saving:** ₹7 lakh to ₹10 lakh
 
-Those numbers explain why the scheme received over 1.5 crore registrations within 18 months of launch, according to data tracked by [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}. The financial case, even without subsidies, is compelling. With the subsidy, it is close to irresistible for anyone who owns their roof.
+Those numbers explain why the scheme received over 1.5 crore registrations within 18 months of launch, according to data tracked by [Mercom India](https://www.mercomindia.com/). The financial case, even without subsidies, is compelling. With the subsidy, it is close to irresistible for anyone who owns their roof.
 
 > **₹75,000 crore.** The total outlay of PM Surya Ghar Muft Bijli Yojana — India's single largest rooftop solar scheme — announced at scheme launch in February 2024. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
@@ -82,7 +82,7 @@ For group housing societies and RWAs applying for common-area solar, the rate is
 
 ### Why the 3 kW Cap Makes Economic Sense
 
-The 3 kW cap aligns with the consumption profile of a typical Indian household. According to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"} analysis of residential solar adoption in India, over 70% of residential rooftop installations in the sub-5 kW segment fall between 2 kW and 4 kW. A 3 kW system covers the electricity needs of most 2–4 BHK homes with air conditioning. Going beyond 3 kW often means exporting a large surplus at the (usually lower) export tariff, which reduces returns. For most homeowners, 3 kW is the economically optimal size — which is exactly where the subsidy cap sits.
+The 3 kW cap aligns with the consumption profile of a typical Indian household. According to [JMK Research](https://jmkresearch.com/) analysis of residential solar adoption in India, over 70% of residential rooftop installations in the sub-5 kW segment fall between 2 kW and 4 kW. A 3 kW system covers the electricity needs of most 2–4 BHK homes with air conditioning. Going beyond 3 kW often means exporting a large surplus at the (usually lower) export tariff, which reduces returns. For most homeowners, 3 kW is the economically optimal size — which is exactly where the subsidy cap sits.
 
 ## Who Qualifies for PM Surya Ghar
 
@@ -103,7 +103,7 @@ The most common reason applicants lose their subsidy is not ineligibility — it
 
 ### Step 1 — Register on the National Portal
 
-Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} and create an account using your mobile number, state, and DISCOM name. You will need your electricity consumer number from your bill. The portal sends an OTP to your registered mobile. Complete Aadhaar-based e-KYC through the portal.
+Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and create an account using your mobile number, state, and DISCOM name. You will need your electricity consumer number from your bill. The portal sends an OTP to your registered mobile. Complete Aadhaar-based e-KYC through the portal.
 
 **Documents needed at this stage:** Electricity bill (consumer number and DISCOM name), Aadhaar number, mobile number linked to Aadhaar.
 
@@ -125,7 +125,7 @@ Once you receive DISCOM feasibility approval (the portal shows a green status up
 
 **Critical check before signing any contract:**
 - Verify the vendor's empanelment status on the portal — not on their brochure or calling card.
-- Confirm the specific inverter model proposed is on the [ALMM inverter list at MNRE](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}.
+- Confirm the specific inverter model proposed is on the [ALMM inverter list at MNRE](https://mnre.gov.in/almm-list/).
 - Confirm the panel brand and model is on the ALMM panel list.
 - Get a written quote detailing model numbers, serial numbers, and system capacity.
 
@@ -170,7 +170,7 @@ The central ₹78,000 subsidy is the floor, not the ceiling. Several state gover
 | Tamil Nadu | ₹20,000–₹30,000 (flat amount, varies by district) | TANGEDCO connection; subject to annual budget allocation |
 | Karnataka | ₹20,000 per household | BESCOM and MESCOM areas; subject to annual allocation |
 
-When central and state subsidies combine, the effective subsidy for a 3 kW system can reach ₹1,20,000–₹1,40,000 in Gujarat and Maharashtra — cutting payback periods to under two years in high-tariff urban areas. [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"} analysis shows Gujarat consistently ranks first in residential rooftop adoption, with combined subsidy generosity a leading factor.
+When central and state subsidies combine, the effective subsidy for a 3 kW system can reach ₹1,20,000–₹1,40,000 in Gujarat and Maharashtra — cutting payback periods to under two years in high-tariff urban areas. [Bridge to India](https://bridgetoindia.com/) analysis shows Gujarat consistently ranks first in residential rooftop adoption, with combined subsidy generosity a leading factor.
 
 States without a separate additional subsidy (Rajasthan, Delhi, West Bengal) still benefit from the full central ₹78,000 amount and from state-level net metering regulations that allow homeowners to earn credit on surplus generation.
 
@@ -178,7 +178,7 @@ States without a separate additional subsidy (Rajasthan, Delhi, West Bengal) sti
 
 This section matters more than almost any other in this guide. Many homeowners invest months navigating the PM Surya Ghar application, only to have their subsidy claim rejected at the final step because the installer used a non-ALMM inverter.
 
-The Approved List of Models and Manufacturers ([ALMM](/glossary/almm-list/)) is maintained by [MNRE](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} and lists the specific inverter and panel models that have passed India's technical qualification requirements. The list is updated quarterly. Being on the ALMM is not automatic — manufacturers must apply, submit detailed technical documentation, pass third-party testing, and maintain compliance with MNRE's performance standards.
+The Approved List of Models and Manufacturers ([ALMM](/glossary/almm-list/)) is maintained by [MNRE](https://mnre.gov.in/almm-list/) and lists the specific inverter and panel models that have passed India's technical qualification requirements. The list is updated quarterly. Being on the ALMM is not automatic — manufacturers must apply, submit detailed technical documentation, pass third-party testing, and maintain compliance with MNRE's performance standards.
 
 ### Why ALMM Exists
 
@@ -193,7 +193,7 @@ The ALMM was created to prevent low-quality, uncertified equipment from entering
 
 ### How to Verify Before Installation
 
-1. Go to [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} (or the PM Surya Ghar portal's equipment search).
+1. Go to [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/) (or the PM Surya Ghar portal's equipment search).
 2. Search for the exact model name and wattage the installer is proposing.
 3. Confirm the listing is active (some older listings expire; always check the current revision date).
 4. Note the model number on the equipment delivered matches the ALMM listing before installation begins.
@@ -303,7 +303,7 @@ When you are ready to confirm which Qbits model suits your roof size, sanctioned
 
 ## PM Surya Ghar Progress in 2026 — Where the Scheme Stands
 
-PM Surya Ghar crossed 1 crore (10 million) registrations on the national portal by early 2026 — matching the scheme's target number of registered applicants. However, registrations are not the same as commissioned installations. As of Q1 2026, actual commissioned installations under the scheme stand at approximately 30–35 lakh (3.0–3.5 million) households, according to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"} tracking of MNRE data.
+PM Surya Ghar crossed 1 crore (10 million) registrations on the national portal by early 2026 — matching the scheme's target number of registered applicants. However, registrations are not the same as commissioned installations. As of Q1 2026, actual commissioned installations under the scheme stand at approximately 30–35 lakh (3.0–3.5 million) households, according to [Mercom India](https://www.mercomindia.com/) tracking of MNRE data.
 
 The gap between registrations and commissions reflects several bottlenecks:
 
@@ -312,7 +312,7 @@ The gap between registrations and commissions reflects several bottlenecks:
 - **Vendor empanelment gaps** — In Tier-3 and Tier-4 towns, the number of empanelled vendors is still thin, creating geographic access problems.
 - **Consumer education gaps** — Many applicants who registered have not completed the application or selected a vendor, often due to uncertainty about the process.
 
-Despite these challenges, India's residential rooftop solar market reached approximately 5 GW cumulative capacity by end of 2025, with PM Surya Ghar driving the largest single-year addition in FY2025, according to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}. The [CEA](https://cea.nic.in/){target="_blank" rel="noopener"} electricity data confirms the distributed generation contribution from rooftop solar is now measurable in several state grids.
+Despite these challenges, India's residential rooftop solar market reached approximately 5 GW cumulative capacity by end of 2025, with PM Surya Ghar driving the largest single-year addition in FY2025, according to [JMK Research](https://jmkresearch.com/). The [CEA](https://cea.nic.in/) electricity data confirms the distributed generation contribution from rooftop solar is now measurable in several state grids.
 
 The Central Government extended the scheme deadline from its original March 2026 target to March 2027 to allow states to catch up on smart meter and DISCOM readiness. The ₹75,000 crore budget allocation remains intact.
 

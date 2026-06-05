@@ -61,7 +61,7 @@ Monthly consumption: approximately **37,000–40,000 kWh**, consistent with the 
 
 The audit also revealed that the peak AC demand occurred between 09:00 and 14:00, coinciding precisely with the solar generation window. This overlap is the single most important variable in C&I solar economics: every kilowatt-hour generated during peak load is a kilowatt-hour directly displaced from the grid at the highest tariff rate, rather than exported at a lower avoided-cost credit rate.
 
-> **₹37 Lakh per year.** That is the electricity bill baseline for a mid-sized Tirupur dyeing and knitting unit on TANGEDCO's HT LT-3 commercial tariff. *Source — [Tamil Nadu Electricity Regulatory Commission, Tariff Order 2024–25](https://www.tnerc.gov.in/){target="_blank" rel="noopener"}, representative billing data.*
+> **₹37 Lakh per year.** That is the electricity bill baseline for a mid-sized Tirupur dyeing and knitting unit on TANGEDCO's HT LT-3 commercial tariff. *Source — [Tamil Nadu Electricity Regulatory Commission, Tariff Order 2024–25](https://www.tnerc.gov.in/), representative billing data.*
 
 ## Step 2 — System Sizing: Why 100 kW and Not 80 kW or 150 kW
 
@@ -123,7 +123,7 @@ For a detailed look at how string sizing and DC cabling calculations work in pra
 
 Tamil Nadu has one of India's strongest solar irradiance profiles. The district around Tirupur averages **5.4–5.6 kWh/m²/day** of Global Horizontal Irradiance (GHI) on an annual basis, with peak months (March–May) exceeding 6.0 kWh/m²/day.
 
-> **5.5 kWh/kWp/day.** The average specific yield for a south-facing, optimally tilted rooftop solar array in Tirupur, Tamil Nadu — one of the highest in peninsular India. *Source — [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/){target="_blank" rel="noopener"}, Tirupur district grid point, multi-year average.*
+> **5.5 kWh/kWp/day.** The average specific yield for a south-facing, optimally tilted rooftop solar array in Tirupur, Tamil Nadu — one of the highest in peninsular India. *Source — [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/), Tirupur district grid point, multi-year average.*
 
 The annual yield calculation:
 
@@ -140,7 +140,7 @@ The annual yield calculation:
 
 The 89% self-consumption fraction reflects the mill's 16-hour daytime operation schedule. Most of the solar output is consumed directly by running loads, with a modest surplus exported during the midday solar peak when machines take a maintenance break.
 
-This is consistent with what [IRENA's distributed solar analysis](https://www.irena.org/Energy-Transition/Technology/Solar-energy){target="_blank" rel="noopener"} identifies as the optimal operating condition for C&I solar: high load-coincidence ratios (above 80%) eliminate dependence on variable export tariffs and maximise bill displacement at the full avoided-cost tariff rate.
+This is consistent with what [IRENA's distributed solar analysis](https://www.irena.org/Energy-Transition/Technology/Solar-energy) identifies as the optimal operating condition for C&I solar: high load-coincidence ratios (above 80%) eliminate dependence on variable export tariffs and maximise bill displacement at the full avoided-cost tariff rate.
 
 ## Step 6 — Financial Outcome: The Numbers That Drove the Decision
 
@@ -245,11 +245,11 @@ At the end of the first operating year, the monitoring dashboard showed:
 | Performance Ratio (PR) | 80% | 78.5% | −1.5 ppt |
 | Annual financial saving | ₹14.13 Lakh | ₹13.56 Lakh | −4.0% |
 
-The variance was within industry-standard tolerance. The lower-than-projected export was partly explained by a production ramp-up in Q3 that increased midday loads — meaning more solar was consumed on-site, which is financially beneficial even though export units fell. The performance ratio of 78.5% is consistent with [NREL benchmarks](https://www.nrel.gov/pv/){target="_blank" rel="noopener"} for well-maintained rooftop systems in South India (typical range: 75–82%).
+The variance was within industry-standard tolerance. The lower-than-projected export was partly explained by a production ramp-up in Q3 that increased midday loads — meaning more solar was consumed on-site, which is financially beneficial even though export units fell. The performance ratio of 78.5% is consistent with [NREL benchmarks](https://www.nrel.gov/pv/) for well-maintained rooftop systems in South India (typical range: 75–82%).
 
 The single string-fault event (Section 9 above) accounted for approximately 0.8 percentage points of the PR shortfall. Excluding that event, the system performed at 79.3% PR — within 0.7 percentage points of the PVsyst projection.
 
-> **78.5% Performance Ratio** in Year 1, against a PVsyst projection of 80%. The 1.5 percentage point gap — equivalent to approximately ₹85,000 in lost savings — was partially recovered after the string fault was corrected. *Source — [IEA PVPS Task 13, Performance and Reliability of Photovoltaic Systems](https://iea-pvps.org/){target="_blank" rel="noopener"}, 2024 edition.*
+> **78.5% Performance Ratio** in Year 1, against a PVsyst projection of 80%. The 1.5 percentage point gap — equivalent to approximately ₹85,000 in lost savings — was partially recovered after the string fault was corrected. *Source — [IEA PVPS Task 13, Performance and Reliability of Photovoltaic Systems](https://iea-pvps.org/), 2024 edition.*
 
 ## Common Mistakes C&I Buyers Make in Factory Solar Projects
 

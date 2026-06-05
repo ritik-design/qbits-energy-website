@@ -44,7 +44,7 @@ The distinction between a grid outage and an inverter failure matters enormously
 
 ## Hour 0–1: Distinguish a Grid Failure from a Solar Inverter Failed Event
 
-The single most important diagnostic step happens before you touch the inverter. On-grid solar inverters are legally required to shut down within 0.2 seconds of a grid failure by [anti-islanding](/glossary/anti-islanding/) protection — a safety rule enforced under [IEC 62116](https://www.iec.ch/dyn/www/f?p=103:23:0::::FSP_ORG_ID:1280){target="_blank" rel="noopener"} and adopted by [BIS](https://www.bis.gov.in/){target="_blank" rel="noopener"} for all India-certified inverters. So a dark inverter does not automatically mean a broken inverter.
+The single most important diagnostic step happens before you touch the inverter. On-grid solar inverters are legally required to shut down within 0.2 seconds of a grid failure by [anti-islanding](/glossary/anti-islanding/) protection — a safety rule enforced under [IEC 62116](https://www.iec.ch/dyn/www/f?p=103:23:0::::FSP_ORG_ID:1280) and adopted by [BIS](https://www.bis.gov.in/) for all India-certified inverters. So a dark inverter does not automatically mean a broken inverter.
 
 ### Check the grid first
 
@@ -70,7 +70,7 @@ Note the ambient conditions: air temperature (an inverter at 50 °C ambient may 
 
 Indian grid conditions and climate create a distinct failure signature that differs from European or East Asian markets. Voltage that swings between 180 V and 270 V, ambient temperatures above 45 °C from March to June, and monsoon humidity from July to September produce a specific set of recurring faults.
 
-> **55%.** Overtemperature and isolation faults together account for approximately 55% of all residential solar inverter service calls logged in India, according to field data compiled by [NREL's India-focused reliability studies](https://www.nrel.gov/solar/){target="_blank" rel="noopener"}.
+> **55%.** Overtemperature and isolation faults together account for approximately 55% of all residential solar inverter service calls logged in India, according to field data compiled by [NREL's India-focused reliability studies](https://www.nrel.gov/solar/).
 
 The table below maps the five most common fault types to their probable causes, typical LED presentation, and recommended first action for the homeowner.
 
@@ -212,7 +212,7 @@ A minority of cases will exceed the 72-hour SLA. Knowing your escalation options
 ### Escalation sequence
 
 - **Hour 72 with no technician** — Call the brand's regional service manager directly. Request escalation in writing (email or WhatsApp message) and state the ticket number, creation time, and SLA commitment missed.
-- **Hour 96 with no resolution** — File a formal complaint through the National Consumer Helpline (NCH) at 1800-11-4000 or the INGRAM portal (integrated Grievance Redressal Mechanism). Solar inverters sold with warranty commitments fall under the [Consumer Protection Act 2019](https://consumeraffairs.nic.in/consumer-protection-act){target="_blank" rel="noopener"}, which grants you the right to file complaints against deficient services.
+- **Hour 96 with no resolution** — File a formal complaint through the National Consumer Helpline (NCH) at 1800-11-4000 or the INGRAM portal (integrated Grievance Redressal Mechanism). Solar inverters sold with warranty commitments fall under the [Consumer Protection Act 2019](https://consumeraffairs.nic.in/consumer-protection-act), which grants you the right to file complaints against deficient services.
 - **Hour 120 with no technician** — Contact the installer in writing and request they source a temporary replacement unit or an interim workaround for critical loads. If the installer was the service contract holder, their obligation under the installation contract may cover this.
 
 ### How monitoring data supports your case
@@ -239,7 +239,7 @@ Overtemperature (E001 / OTF) deserves its own section because it is both the mos
 
 Before a hard shutdown, most inverters reduce output power to manage heat — a process called thermal derating. A 5 kW inverter may derate to 3.5 kW output during peak afternoon heat, generating 30% less power than expected without triggering any visible fault code. Over a summer month, this silent underperformance can cost ₹500–₹800 in lost generation on a typical residential installation.
 
-According to [IEA data on solar PV reliability](https://www.iea.org/reports/solar-pv){target="_blank" rel="noopener"}, thermal stress is the leading cause of accelerated inverter degradation in tropical climates, reducing component life by 30–40% when inverters operate above 55 °C for sustained periods. The [inverter overheating guide](/blog/inverter-overheating/) covers the full prevention protocol, including ventilation clearance requirements (minimum 200 mm on all sides), shade installation options, and how to read derating curves from the inverter datasheet.
+According to [IEA data on solar PV reliability](https://www.iea.org/reports/solar-pv), thermal stress is the leading cause of accelerated inverter degradation in tropical climates, reducing component life by 30–40% when inverters operate above 55 °C for sustained periods. The [inverter overheating guide](/blog/inverter-overheating/) covers the full prevention protocol, including ventilation clearance requirements (minimum 200 mm on all sides), shade installation options, and how to read derating curves from the inverter datasheet.
 
 ### Overtemperature first response
 
@@ -262,7 +262,7 @@ If your current inverter has failed and you are evaluating whether repair or rep
 
 ## Preventing the Next Failure: The Three-Month Maintenance Habit
 
-Recovery from a failure is one problem. Preventing the next failure is a different, and more valuable, discipline. The [inverter maintenance guide for India](/blog/inverter-maintenance-india/) covers the full annual schedule, but these three habits reduce the probability of unexpected failure by more than 60%, consistent with [IRENA's solar PV operation and maintenance benchmarks](https://www.irena.org/publications){target="_blank" rel="noopener"} for small-scale residential systems.
+Recovery from a failure is one problem. Preventing the next failure is a different, and more valuable, discipline. The [inverter maintenance guide for India](/blog/inverter-maintenance-india/) covers the full annual schedule, but these three habits reduce the probability of unexpected failure by more than 60%, consistent with [IRENA's solar PV operation and maintenance benchmarks](https://www.irena.org/publications) for small-scale residential systems.
 
 ### Quarterly check (15 minutes)
 

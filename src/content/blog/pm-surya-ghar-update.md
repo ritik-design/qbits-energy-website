@@ -44,21 +44,21 @@ The scheme has been running since February 2024. What makes 2026 different is th
 
 ## PM Surya Ghar Scheme Progress — Where Things Stand in Mid-2026
 
-The flagship rooftop solar scheme launched under the full name PM Surya Ghar Muft Bijli Yojana targets 1 crore household installations with a total government outlay of ₹75,021 crore. The [PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} reports real-time installation counts, and as of mid-June 2026, over 6 lakh households have completed the full cycle — installation, commissioning, DISCOM inspection, and subsidy credit to bank account.
+The flagship rooftop solar scheme launched under the full name PM Surya Ghar Muft Bijli Yojana targets 1 crore household installations with a total government outlay of ₹75,021 crore. The [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) reports real-time installation counts, and as of mid-June 2026, over 6 lakh households have completed the full cycle — installation, commissioning, DISCOM inspection, and subsidy credit to bank account.
 
 A further multi-lakh pipeline sits at various approval stages. The numbers reflect a scheme that picked up significant momentum in the second half of 2025 after two important bottlenecks were cleared: the empanelled vendor network expanded substantially, and state DISCOMs integrated their approval pipelines with the central portal.
 
-> **₹75,021 crore.** The total approved outlay for PM Surya Ghar Muft Bijli Yojana, covering central subsidies for 1 crore residential households across India. *Source — [MNRE PM Surya Ghar Scheme Document](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2024.*
+> **₹75,021 crore.** The total approved outlay for PM Surya Ghar Muft Bijli Yojana, covering central subsidies for 1 crore residential households across India. *Source — [MNRE PM Surya Ghar Scheme Document](https://mnre.gov.in/), 2024.*
 
 The pace of disbursement accelerated in early 2026 for three reasons: the portal redesign that went live in January 2026 reduced manual paperwork re-entry; MNRE issued a circular mandating DISCOMs to clear feasibility applications within 15 working days (down from a 30-day guideline); and the expansion of the ALMM list to cover Phase III equipment gave empanelled vendors a clearer equipment specification to follow.
 
-For context, India had approximately 11 GW of total rooftop solar capacity at the end of 2025 according to the [Central Electricity Authority](https://cea.nic.in/){target="_blank" rel="noopener"} (CEA), making the scheme's 1-crore target a transformational addition that would nearly double the residential segment's contribution.
+For context, India had approximately 11 GW of total rooftop solar capacity at the end of 2025 according to the [Central Electricity Authority](https://cea.nic.in/) (CEA), making the scheme's 1-crore target a transformational addition that would nearly double the residential segment's contribution.
 
 ## What the PM Surya Ghar Subsidy Structure Looks Like in 2026
 
 The central government subsidy amounts have not changed since the scheme launched. This is important because social media posts frequently circulate false claims that the subsidy has been reduced or that a new, higher amount has been approved.
 
-The verified 2026 subsidy structure from [MNRE](https://mnre.gov.in/){target="_blank" rel="noopener"} is:
+The verified 2026 subsidy structure from [MNRE](https://mnre.gov.in/) is:
 
 | System Size | Rate per kW | Total Central Subsidy |
 | --- | --- | --- |
@@ -149,7 +149,7 @@ The core application flow has not changed structurally, but the portal steps and
 
 ### Step 1 — Register on the PM Surya Ghar Portal
 
-Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} and create an account using your state, DISCOM, electricity consumer number, and mobile number. The portal will send an OTP to the mobile number linked to your Aadhaar. This is also where the Aadhaar name match at Gate 1 becomes visible — if the portal cannot verify your Aadhaar linkage, resolve it with UIDAI before proceeding.
+Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and create an account using your state, DISCOM, electricity consumer number, and mobile number. The portal will send an OTP to the mobile number linked to your Aadhaar. This is also where the Aadhaar name match at Gate 1 becomes visible — if the portal cannot verify your Aadhaar linkage, resolve it with UIDAI before proceeding.
 
 ### Step 2 — Submit Application and Receive Feasibility Letter
 

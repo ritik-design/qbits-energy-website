@@ -54,7 +54,7 @@ The financial implication is direct. On a 3 kW system producing an average of 4 
 
 Beyond generation loss, a poorly installed system can void the manufacturer warranty on your inverter. Most inverter manufacturers in India, including Qbits, specify that warranty claims require installation by a trained and authorised technician using manufacturer-approved wiring methods. An installation that does not meet these standards is not covered — even if the inverter itself is defective.
 
-For homeowners pursuing the PM Surya Ghar subsidy, the stakes are even higher. The [DISCOM](/glossary/discom/) commissioning inspection can fail if the installer used non-ALMM equipment or filed paperwork incorrectly, costing you the central government subsidy of up to ₹78,000. According to the [MNRE PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, over 1 crore applications had been registered by mid-2026, making installer quality a national-scale consumer protection concern.
+For homeowners pursuing the PM Surya Ghar subsidy, the stakes are even higher. The [DISCOM](/glossary/discom/) commissioning inspection can fail if the installer used non-ALMM equipment or filed paperwork incorrectly, costing you the central government subsidy of up to ₹78,000. According to the [MNRE PM Surya Ghar portal](https://pmsuryaghar.gov.in/), over 1 crore applications had been registered by mid-2026, making installer quality a national-scale consumer protection concern.
 
 ## The 8-Step Installer Verification Checklist
 
@@ -79,7 +79,7 @@ The PM Surya Ghar Muft Bijli Yojana requires that all installation work under th
 
 The verification process takes five minutes:
 
-- Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} and navigate to the registered vendor section.
+- Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and navigate to the registered vendor section.
 - Select your state and DISCOM from the dropdown menus.
 - Search for the installer by name or registration number.
 - Confirm the registration is current (not expired) and covers your district.
@@ -103,7 +103,7 @@ This matters for two reasons. First, the [DISCOM](/glossary/discom/) commissioni
 
 How to check:
 
-- Visit the MNRE ALMM portal at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}.
+- Visit the MNRE ALMM portal at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/).
 - The list is divided into Module and Inverter sections. Check both.
 - Download the current PDF and search for the exact brand and model name from the installer's quotation.
 - Confirm the ALMM Phase III listing, since Phase I and Phase II listings have different compliance requirements for 2026 onwards.
@@ -147,7 +147,7 @@ Under the [Central Electricity Authority (CEA)](/glossary/cea/) Measures Relatin
 
 This requirement exists because incorrect electrical work on a solar system creates real risks: arc faults from loose DC connections have caused roof fires in residential solar installations; improper neutral connections have damaged grid equipment during power cuts; and missing surge protection has allowed lightning-induced voltage spikes to destroy inverters and household appliances.
 
-> **CEA Regulation 3(1).** *"No person shall operate and maintain a medium voltage electrical installation unless he holds a certificate of competency or a permit as specified in these regulations."* Source — [Central Electricity Authority, Government of India](https://cea.nic.in/){target="_blank" rel="noopener"}.
+> **CEA Regulation 3(1).** *"No person shall operate and maintain a medium voltage electrical installation unless he holds a certificate of competency or a permit as specified in these regulations."* Source — [Central Electricity Authority, Government of India](https://cea.nic.in/).
 
 What to ask:
 
@@ -211,7 +211,7 @@ Ask the installer specifically:
 
 ## Step 8 — Evaluate the AMC Offer and Terms
 
-A solar system requires regular maintenance to sustain its 25-year performance trajectory. Dust accumulation on panels alone reduces generation by 5–15% in northern and central Indian cities between monsoon seasons, according to field data published by [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}. Loose AC and DC connections develop over thermal cycling and require periodic re-torquing. Inverter firmware updates are issued by manufacturers to improve grid compatibility and fault handling.
+A solar system requires regular maintenance to sustain its 25-year performance trajectory. Dust accumulation on panels alone reduces generation by 5–15% in northern and central Indian cities between monsoon seasons, according to field data published by [Mercom India](https://www.mercomindia.com/). Loose AC and DC connections develop over thermal cycling and require periodic re-torquing. Inverter firmware updates are issued by manufacturers to improve grid compatibility and fault handling.
 
 An Annual Maintenance Contract (AMC) formalises this ongoing relationship. The absence of a written AMC offer from an installer is a strong signal that they intend to collect payment and move on — leaving you to find support from whoever answers the phone when something eventually goes wrong.
 

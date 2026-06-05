@@ -183,7 +183,7 @@ The choice between [LFP batteries](/glossary/lfp-battery/) and [lead-acid batter
 
 LFP batteries deliver 3,000–6,000 charge cycles at 80% DoD when kept between 10 °C and 45 °C. In practical Indian terms, a battery cycled once per day lasts 8–16 years. LFP cells do not require water top-up, equalisation charging, or ventilation for hydrogen off-gassing. They also have a flat discharge curve — [battery state of charge](/glossary/battery-soc/) stays between 51V and 53V for most of the discharge cycle on a 48V system, which means the inverter output voltage is stable throughout the backup period.
 
-The upfront cost of LFP in India has fallen sharply: 10 kWh of LFP storage costs approximately ₹60,000–₹90,000 in 2026, down from ₹1.2 lakh two years ago. According to [IRENA's battery storage cost report](https://www.irena.org/Publications/2023/Aug/Renewable-power-generation-costs-in-2022){target="_blank" rel="noopener"}, utility-scale LFP costs have dropped 89% since 2010, and the residential segment has followed with a 12–18 month lag.
+The upfront cost of LFP in India has fallen sharply: 10 kWh of LFP storage costs approximately ₹60,000–₹90,000 in 2026, down from ₹1.2 lakh two years ago. According to [IRENA's battery storage cost report](https://www.irena.org/Publications/2023/Aug/Renewable-power-generation-costs-in-2022), utility-scale LFP costs have dropped 89% since 2010, and the residential segment has followed with a 12–18 month lag.
 
 ### Lead-Acid Batteries (VRLA / Flooded)
 
@@ -263,7 +263,7 @@ The [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-of
 
 **Result:** 3 kW hybrid inverter + 5.12 kWh LFP bank at 48V (recommended over the minimum 2.56 kWh to avoid charge current management). Cost estimate: inverter ₹55,000 + battery ₹40,000 = approximately **₹95,000 total**.
 
-> **₹40,000.** The approximate cost of a 5 kWh LFP battery module from a BIS-compliant Indian manufacturer in mid-2026, down from ₹65,000 two years ago. *Source — [JMK Research, India Battery Storage Market Report](https://jmkresearch.com/){target="_blank" rel="noopener"}, Q1 2026.*
+> **₹40,000.** The approximate cost of a 5 kWh LFP battery module from a BIS-compliant Indian manufacturer in mid-2026, down from ₹65,000 two years ago. *Source — [JMK Research, India Battery Storage Market Report](https://jmkresearch.com/), Q1 2026.*
 
 The Mumbai example highlights an important principle: in low-outage cities, the battery bank may be undersized relative to the inverter's charging capacity, requiring a deliberate current limit in the inverter settings. This is not a defect — it is standard practice for grid-reliable areas where a small battery is a convenience purchase rather than a survival requirement.
 
@@ -285,7 +285,7 @@ The 0.80 factor accounts for panel degradation, cable losses, MPPT efficiency, a
 | Bengaluru | 5.1 h | 5.5 h |
 | Chennai | 5.5 h | 6.0 h |
 
-*Source — [NREL Global Solar Atlas](https://globalsolaratlas.info/){target="_blank" rel="noopener"} and [IEA Photovoltaic Power Systems Programme](https://iea-pvps.org/){target="_blank" rel="noopener"}.*
+*Source — [NREL Global Solar Atlas](https://globalsolaratlas.info/) and [IEA Photovoltaic Power Systems Programme](https://iea-pvps.org/).*
 
 For the Lucknow 3BHK with a 15.36 kWh bank at 80% DoD — meaning 12.3 kWh usable is drawn each day:
 

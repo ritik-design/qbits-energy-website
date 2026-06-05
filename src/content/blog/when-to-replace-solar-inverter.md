@@ -48,7 +48,7 @@ The following guide walks through each of the seven checks in detail, explains t
 
 Solar panels degrade slowly and linearly — typically 0.5–0.7% per year, meaning a 10-year-old panel still produces around 93–95% of its original rated output. Solar inverters age differently. Their degradation is non-linear and component-driven, particularly by electrolytic capacitors and insulated-gate bipolar transistors (IGBTs) that are sensitive to thermal cycling.
 
-In India, rooftop conditions are particularly demanding. Ambient temperatures in central and western India reach 45 °C–50 °C from April through June. Inverters mounted outdoors or in poorly ventilated utility rooms see internal temperatures of 60 °C–70 °C during peak generation hours. Every 10 °C rise in operating temperature roughly halves the theoretical lifespan of electrolytic capacitors — a well-established principle in power electronics engineering, documented across [IEC 60068 environmental testing standards](https://www.iec.ch/homepage){target="_blank" rel="noopener"}.
+In India, rooftop conditions are particularly demanding. Ambient temperatures in central and western India reach 45 °C–50 °C from April through June. Inverters mounted outdoors or in poorly ventilated utility rooms see internal temperatures of 60 °C–70 °C during peak generation hours. Every 10 °C rise in operating temperature roughly halves the theoretical lifespan of electrolytic capacitors — a well-established principle in power electronics engineering, documented across [IEC 60068 environmental testing standards](https://www.iec.ch/homepage).
 
 This thermal stress is why most Indian homeowners who installed systems in 2014–2018 are now noticing their first serious performance symptoms. The inverter that worked flawlessly for six years has reached the point where cumulative thermal cycling has measurably degraded its internal components. The question is whether that degradation is in the early or late stage.
 
@@ -76,7 +76,7 @@ This framework condenses seven independent diagnostic checks into a scored evalu
 
 4. **Warranty status** — Is the original manufacturer's warranty still active? If the warranty has expired and the manufacturer no longer offers extended coverage for the model, you carry 100% of the financial risk on all future failures. Score 1 point.
 
-5. **ALMM and BIS compliance of the original unit** — Check whether your inverter model appears on the current [MNRE ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}. Models delisted or never listed may create complications when renewing net metering agreements or applying for PM Surya Ghar top-up subsidies. The [ALMM Phase III guide](/blog/almm-list-phase-iii-guide/) explains which certifications are mandatory. Score 1 point if the unit is not currently listed.
+5. **ALMM and BIS compliance of the original unit** — Check whether your inverter model appears on the current [MNRE ALMM list](https://mnre.gov.in/almm-list/). Models delisted or never listed may create complications when renewing net metering agreements or applying for PM Surya Ghar top-up subsidies. The [ALMM Phase III guide](/blog/almm-list-phase-iii-guide/) explains which certifications are mandatory. Score 1 point if the unit is not currently listed.
 
 6. **Spare parts availability** — Contact the manufacturer's service centre and ask explicitly: "Are spare boards and IGBT modules available for my model number?" If the model has been discontinued for three or more years, spare parts availability is typically below 50% and declining. A repair today may be impossible six months from now. Score 1 point.
 
@@ -103,7 +103,7 @@ The generation baseline is the most objective data point in the entire health ev
 
 **Step 4 — Isolate the inverter.** Ask your installer to measure panel open-circuit voltage (Voc) strings individually. If panel output is within 5% of nameplate ratings but inverter AC output is proportionally lower, the efficiency loss is in the inverter's conversion stage — confirming a replacement case.
 
-> **15–20%.** The generation decline threshold that typically indicates inverter conversion efficiency has fallen below economic justification for repair. *Source — [NREL National Solar Radiation Database technical documentation](https://nsrdb.nrel.gov/){target="_blank" rel="noopener"}, 2025.*
+> **15–20%.** The generation decline threshold that typically indicates inverter conversion efficiency has fallen below economic justification for repair. *Source — [NREL National Solar Radiation Database technical documentation](https://nsrdb.nrel.gov/), 2025.*
 
 Panel [degradation](/glossary/degradation/) accounts for 0.5–0.7% per year in normal conditions. A 10-year-old system should show roughly 5–7% generation decline from panel ageing alone. Any decline significantly beyond this range — especially when panels test healthy — points directly to the inverter.
 
@@ -156,7 +156,7 @@ The [ALMM list](/glossary/almm-list/) (Approved List of Models and Manufacturers
 - **PM Surya Ghar subsidy ineligibility** — If you are considering a capacity expansion that qualifies for PM Surya Ghar subsidy, the replacement inverter must be ALMM-listed. A non-listed replacement means you forfeit ₹30,000–₹78,000 in central subsidy.
 - **BIS certification gap** — Units installed before BIS IS 16221 became mandatory may not carry the current certification. While operation is not prohibited, the compliance gap affects resale value and insurance coverage for system damage.
 
-The practical check: search for your inverter's model number on the [MNRE ALMM portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}. If it does not appear, this scores 1 point in the Health Check and becomes a strong argument for replacement at the next natural opportunity (fault occurrence, warranty expiry, or planned capacity upgrade).
+The practical check: search for your inverter's model number on the [MNRE ALMM portal](https://mnre.gov.in/almm-list/). If it does not appear, this scores 1 point in the Health Check and becomes a strong argument for replacement at the next natural opportunity (fault occurrence, warranty expiry, or planned capacity upgrade).
 
 ### Spare Parts — The Discontinuation Signal
 
@@ -194,7 +194,7 @@ A hybrid upgrade — where the old on-grid inverter is replaced with a hybrid un
 
 The [on-grid vs hybrid decision guide](/blog/on-grid-vs-hybrid/) provides a full financial comparison. For the replacement context specifically, the incremental cost of upgrading to hybrid at replacement time (versus doing a second upgrade later) is typically ₹20,000–₹40,000 — far less than the ₹55,000–₹80,000 cost of a second installation if done separately.
 
-> **₹12.** The estimated per-unit diesel-equivalent cost for generator backup in residential Indian settings, versus ₹7–₹9 per unit from solar-plus-storage at current battery economics. *Source — [IRENA Renewable Power Generation Costs 2024](https://www.irena.org/publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023){target="_blank" rel="noopener"}, adapted for Indian market pricing.*
+> **₹12.** The estimated per-unit diesel-equivalent cost for generator backup in residential Indian settings, versus ₹7–₹9 per unit from solar-plus-storage at current battery economics. *Source — [IRENA Renewable Power Generation Costs 2024](https://www.irena.org/publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023), adapted for Indian market pricing.*
 
 ## The Repair-vs-Replacement Economics — Running the Real Numbers
 
@@ -237,7 +237,7 @@ The numbers make a consistent case: for inverters scoring 3+ on the Health Check
 
 Replacing an inverter is a straightforward project when planned well and an expensive problem when it is not. These are the seven most common mistakes observed in the Indian market.
 
-- **Buying on price alone** — Choosing the cheapest available unit without checking ALMM status or BIS certification saves ₹3,000–₹5,000 upfront but risks voiding net metering eligibility and PM Surya Ghar subsidy claims worth ₹30,000–₹78,000. Always verify the model on the [MNRE ALMM portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before purchasing.
+- **Buying on price alone** — Choosing the cheapest available unit without checking ALMM status or BIS certification saves ₹3,000–₹5,000 upfront but risks voiding net metering eligibility and PM Surya Ghar subsidy claims worth ₹30,000–₹78,000. Always verify the model on the [MNRE ALMM portal](https://mnre.gov.in/almm-list/) before purchasing.
 
 - **Choosing the wrong capacity** — Replacing a 3 kW inverter with another 3 kW unit without re-evaluating current load growth locks in the same constraint for another decade. If consumption has grown 20–30%, upgrade capacity at replacement time.
 

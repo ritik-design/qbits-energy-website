@@ -114,7 +114,7 @@ Most installers recommend a 10 kWh LFP battery for 4–6 hour backup at moderate
 
 The [battery management system (BMS)](/glossary/bms/) compatibility check is non-negotiable for lithium batteries. An inverter that communicates with the BMS over CAN bus reads real-time cell voltages, temperature, and state of charge — enabling precise charge control that extends cycle life. An inverter that only does voltage-based charging with an LFP battery is flying blind and will under-charge or over-charge the pack over time, accelerating degradation.
 
-> **3,000–6,000 cycles.** The rated cycle life of quality LFP batteries at 80% DOD under 25 °C conditions — equivalent to 8–16 years of daily cycling at Indian residential usage patterns. *Source — [IEA Global EV Outlook 2025](https://www.iea.org/reports/global-ev-outlook-2025){target="_blank" rel="noopener"}.*
+> **3,000–6,000 cycles.** The rated cycle life of quality LFP batteries at 80% DOD under 25 °C conditions — equivalent to 8–16 years of daily cycling at Indian residential usage patterns. *Source — [IEA Global EV Outlook 2025](https://www.iea.org/reports/global-ev-outlook-2025).*
 
 ## Step 4 — Check Transfer Time (The 20-Millisecond Standard)
 
@@ -150,13 +150,13 @@ For homes with a home office, a CCTV system, or a home theatre, demand a certifi
 
 ## Step 5 — Verify Certifications (The 4-Document Certification Check)
 
-The fifth and final step of the 5-Step Hybrid Inverter Selection Protocol is the paper audit. A hybrid solar inverter connects to the Indian grid, to a battery, and to your home's electrical circuit simultaneously. That triple connection point carries real electrical risk — fire, shock, grid back-feed — if the inverter is not properly tested and certified. Three out of four inverter-related solar system failures in India are attributed to units lacking proper anti-islanding or over-voltage protection, according to [MNRE field inspection reports](https://mnre.gov.in/){target="_blank" rel="noopener"}.
+The fifth and final step of the 5-Step Hybrid Inverter Selection Protocol is the paper audit. A hybrid solar inverter connects to the Indian grid, to a battery, and to your home's electrical circuit simultaneously. That triple connection point carries real electrical risk — fire, shock, grid back-feed — if the inverter is not properly tested and certified. Three out of four inverter-related solar system failures in India are attributed to units lacking proper anti-islanding or over-voltage protection, according to [MNRE field inspection reports](https://mnre.gov.in/).
 
 ### The 4-Document Certification Check
 
 ### BIS Compulsory Registration (CRS)
 
-The Bureau of Indian Standards mandates CRS under IS 16221-1 (Safety) and IS 16221-2 (Grid connectivity performance) for all inverters sold in India since 2018. Without a valid CRS number, the inverter is illegal to sell. Ask the dealer for the CRS registration number and verify it on the [BIS portal](https://bis.gov.in/){target="_blank" rel="noopener"}. A fake or expired CRS number voids every warranty claim and disqualifies the installation from DISCOM approval.
+The Bureau of Indian Standards mandates CRS under IS 16221-1 (Safety) and IS 16221-2 (Grid connectivity performance) for all inverters sold in India since 2018. Without a valid CRS number, the inverter is illegal to sell. Ask the dealer for the CRS registration number and verify it on the [BIS portal](https://bis.gov.in/). A fake or expired CRS number voids every warranty claim and disqualifies the installation from DISCOM approval.
 
 ### ALMM Listing (MNRE)
 
@@ -215,7 +215,7 @@ This section is for the moment the quote arrives and something feels off. Here a
 - **No anti-islanding certificate** — if the installer cannot produce the IEC 62116 / IS 16169 test certificate for the specific inverter model, the DISCOM may reject the connection application. This delays your entire solar installation by weeks or months.
 - **Battery and inverter brands mismatch without BMS confirmation** — pairing a Luminous inverter with a Loom Solar battery, or a Growatt inverter with an Amaron LFP pack, is fine — if and only if the installer can show the BMS communication protocol is confirmed compatible. Without this confirmation, you are trusting the installer's assumption, not an engineering fact.
 
-> **74%.** The share of Indian solar rooftop complaints in a 2025 MNRE consumer survey attributable to battery-inverter compatibility issues, undersized battery banks, or inadequate after-sales support — all preventable through the 5-Step Hybrid Inverter Selection Protocol. *Source — [MNRE Rooftop Solar Consumer Survey](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2025.*
+> **74%.** The share of Indian solar rooftop complaints in a 2025 MNRE consumer survey attributable to battery-inverter compatibility issues, undersized battery banks, or inadequate after-sales support — all preventable through the 5-Step Hybrid Inverter Selection Protocol. *Source — [MNRE Rooftop Solar Consumer Survey](https://mnre.gov.in/), 2025.*
 
 ## Where Qbits Fits
 

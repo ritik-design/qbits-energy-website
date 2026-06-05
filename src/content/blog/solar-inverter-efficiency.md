@@ -93,7 +93,7 @@ European efficiency is a weighted average calculated across seven load levels:
 | 75% of rated power | 12% |
 | 100% of rated power | 8% |
 
-The formula places the heaviest weight (48%) on 50% load because that is where a grid-tied inverter in a European climate spends the most time. The 5% and 10% load points are included because morning and evening generation is significant even in northern Europe. The European efficiency standard is formally documented by [SolarPower Europe](https://www.solarpowereurope.org/reports/solar-best-practices-market-report){target="_blank" rel="noopener"} as the recommended weighted efficiency metric for residential and commercial inverter selection.
+The formula places the heaviest weight (48%) on 50% load because that is where a grid-tied inverter in a European climate spends the most time. The 5% and 10% load points are included because morning and evening generation is significant even in northern Europe. The European efficiency standard is formally documented by [SolarPower Europe](https://www.solarpowereurope.org/reports/solar-best-practices-market-report) as the recommended weighted efficiency metric for residential and commercial inverter selection.
 
 European efficiency for a 98% peak inverter typically lands at 96–97%, reflecting the efficiency penalty at low load levels. This 1–2 percentage point difference has real consequences across a 25-year system life.
 
@@ -179,7 +179,7 @@ A manufacturer advertising 98% peak efficiency measured at 25 °C may deliver on
 
 ### What to Ask Manufacturers
 
-Request efficiency data at 45 °C ambient, not just 25 °C. Standards-compliant manufacturers who have tested to IEC 61683 will have this data. According to [IRENA's Renewable Power Generation Costs report](https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023){target="_blank" rel="noopener"}, thermal management is one of the most critical factors differentiating inverter performance in tropical markets. If a manufacturer cannot provide temperature-derated efficiency figures, that itself is a data point about their engineering depth.
+Request efficiency data at 45 °C ambient, not just 25 °C. Standards-compliant manufacturers who have tested to IEC 61683 will have this data. According to [IRENA's Renewable Power Generation Costs report](https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023), thermal management is one of the most critical factors differentiating inverter performance in tropical markets. If a manufacturer cannot provide temperature-derated efficiency figures, that itself is a data point about their engineering depth.
 
 The [inverter overheating guide](/blog/inverter-overheating/) covers installation practices — proper wall clearance, shaded locations, adequate ventilation — that help keep ambient temperatures lower and preserve rated efficiency through the life of the system.
 
@@ -292,13 +292,13 @@ Efficiency numbers on datasheets are only meaningful if they are backed by indep
 
 ### IEC 61683
 
-[IEC 61683](https://www.iec.ch/blog/photovoltaic-power-systems-inverter-efficiency){target="_blank" rel="noopener"} is the primary international standard for measuring photovoltaic inverter efficiency. It specifies exactly how efficiency must be measured — the test points, the voltage ranges, the power measurement accuracy requirements, and the calculation methodology for weighted efficiency. A manufacturer claiming compliance with IEC 61683 has measured efficiency according to a defined, reproducible protocol.
+[IEC 61683](https://www.iec.ch/blog/photovoltaic-power-systems-inverter-efficiency) is the primary international standard for measuring photovoltaic inverter efficiency. It specifies exactly how efficiency must be measured — the test points, the voltage ranges, the power measurement accuracy requirements, and the calculation methodology for weighted efficiency. A manufacturer claiming compliance with IEC 61683 has measured efficiency according to a defined, reproducible protocol.
 
 This standard also defines how to calculate weighted efficiency, making it the backbone of any credible European efficiency or CEC efficiency claim. The [solar inverter certifications guide](/blog/solar-inverter-certifications/) provides a complete overview of which certifications to require before purchase, including IEC 61683, IEC 62109, and BIS IS 16221.
 
 ### BIS IS 16221
 
-India's Bureau of Indian Standards certification IS 16221 for grid-connected inverters includes efficiency measurement requirements aligned with IEC 61683. BIS certification is mandatory for inverters sold in India under the [BIS certification](/glossary/bis-certification/) framework and provides independent verification of efficiency claims for the Indian market. The [BIS website](https://bis.gov.in/product-certification/compulsory-certification/){target="_blank" rel="noopener"} maintains a searchable database of certified inverter models where buyers can verify that a product holds current certification rather than relying on the manufacturer's claim alone.
+India's Bureau of Indian Standards certification IS 16221 for grid-connected inverters includes efficiency measurement requirements aligned with IEC 61683. BIS certification is mandatory for inverters sold in India under the [BIS certification](/glossary/bis-certification/) framework and provides independent verification of efficiency claims for the Indian market. The [BIS website](https://bis.gov.in/product-certification/compulsory-certification/) maintains a searchable database of certified inverter models where buyers can verify that a product holds current certification rather than relying on the manufacturer's claim alone.
 
 ### ALMM Listing
 

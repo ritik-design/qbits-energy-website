@@ -71,7 +71,7 @@ The 5-Axis Brand Rating is the evaluative framework used throughout this review.
 
 5. **ALMM Compliance (0–10)** — 10 points for full ALMM Phase III listing covering the brand's complete residential range, enabling unrestricted PM Surya Ghar subsidy claims. Points are deducted for partial listings (only some models listed), Phase I or Phase II status only, or no MNRE listing at all.
 
-**Data sources for this review:** [JMK Research India Solar Market Outlook](https://jmkresearch.com/){target="_blank" rel="noopener"}, [Mercom India market trackers](https://www.mercomindia.com/){target="_blank" rel="noopener"}, [MNRE ALMM portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}, manufacturer-published datasheets, and field feedback from EPC installers across six Indian states.
+**Data sources for this review:** [JMK Research India Solar Market Outlook](https://jmkresearch.com/), [Mercom India market trackers](https://www.mercomindia.com/), [MNRE ALMM portal](https://mnre.gov.in/almm-list/), manufacturer-published datasheets, and field feedback from EPC installers across six Indian states.
 
 ---
 
@@ -94,7 +94,7 @@ Before the individual brand reviews, here are the headline scores and positionin
 
 *Note: Qbits scores 43/50 overall but ranks sixth because this list orders the ten brands by their breadth of applicability across the full Indian buyer market. Sungrow and Fronius serve the largest cross-section of buyers. Qbits is the clearest recommendation for the specific buyer who prioritises warranty depth and India-native after-sales above all other criteria — a large and growing segment, but not the entire market.*
 
-> **₹78,000.** The maximum central subsidy available to homeowners under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential solar system — payable directly to the buyer's bank account after DISCOM verification. The subsidy is only available when the inverter is ALMM Phase III listed. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy available to homeowners under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential solar system — payable directly to the buyer's bank account after DISCOM verification. The subsidy is only available when the inverter is ALMM Phase III listed. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ---
 
@@ -104,7 +104,7 @@ Before reading the individual brand reviews, it is worth understanding the five 
 
 ### Grid Voltage Compatibility
 
-India's nominal grid voltage is 230 V, but actual supply in semi-urban and rural areas fluctuates between 180 V and 270 V on a daily basis. Inverters with narrow AC voltage tolerance ranges trip offline during these fluctuations, costing the system generation yield. Firmware tuned specifically for Indian grid parameters — not simply the IEC global standard — is a meaningful differentiator. According to [Bridge to India's rooftop solar report](https://bridgetoindia.com/){target="_blank" rel="noopener"}, Indian systems lose 8 to 12 percent of annual generation to inverter trips caused by grid incompatibility.
+India's nominal grid voltage is 230 V, but actual supply in semi-urban and rural areas fluctuates between 180 V and 270 V on a daily basis. Inverters with narrow AC voltage tolerance ranges trip offline during these fluctuations, costing the system generation yield. Firmware tuned specifically for Indian grid parameters — not simply the IEC global standard — is a meaningful differentiator. According to [Bridge to India's rooftop solar report](https://bridgetoindia.com/), Indian systems lose 8 to 12 percent of annual generation to inverter trips caused by grid incompatibility.
 
 ### High-Temperature Performance
 
@@ -298,7 +298,7 @@ The table below consolidates all scoring across the five evaluation axes. Use it
 
 *Warranty scores: Qbits' 10/10 reflects its 12-year full replacement warranty from an India-registered entity — the only brand in this list to score maximum on this axis. All other brands score 3–8 depending on term length, coverage depth, and warranty issuing entity.*
 
-*ALMM scores reflect Phase III listing completeness as of June 2026. Verify current status at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before purchase.*
+*ALMM scores reflect Phase III listing completeness as of June 2026. Verify current status at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/) before purchase.*
 
 ---
 
@@ -314,7 +314,7 @@ Most inverter warranties in India fall into three categories:
 
 The financial difference matters over a 25-year system life. A solar [inverter with a documented lifespan](/blog/solar-inverter-lifespan/) of 10 to 15 years will likely require one mid-life replacement. At ₹20,000 to ₹35,000 per 5 kW replacement unit, the warranty structure determines whether that replacement cost falls on the buyer or the manufacturer.
 
-> **~60%.** The share of solar service calls in India attributable to inverter-related faults, according to field data from EPC installers surveyed by [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}. This makes the inverter — not the panel — the primary reliability variable in a residential solar system's operating life.
+> **~60%.** The share of solar service calls in India attributable to inverter-related faults, according to field data from EPC installers surveyed by [Mercom India](https://www.mercomindia.com/). This makes the inverter — not the panel — the primary reliability variable in a residential solar system's operating life.
 
 Among the brands in this review, only Qbits offers 12-year full replacement as the standard warranty — not an extended option that requires upfront payment. The next-best offerings (Fronius, SMA, Sungrow) top out at 10 years with paid extensions, and their base warranties are 5 years. Indian brands — Luminous, Havells, Microtek — offer 1 to 5 years. For a buyer investing ₹3 to ₹6 lakh in a residential solar system and expecting it to operate profitably for 25 years, the warranty differential represents a real and calculable financial difference.
 
@@ -326,7 +326,7 @@ The after-sales service gap between Chinese-manufactured brands and India-based 
 
 Chinese brands — Sungrow, Growatt, Goodwe, Solis — built their India market positions through aggressive channel pricing and strong monitoring platforms. Service infrastructure, however, was built after the sales network, and it shows. Metro cities where distributors maintain adequate service teams are well-covered. Tier-2 and Tier-3 cities, which account for a growing share of India's residential solar installations, are served by third-party aggregators whose accountability to the OEM is limited.
 
-The result, documented by EPC installers across the [Mercom India installer survey](https://www.mercomindia.com/){target="_blank" rel="noopener"} and in community feedback from solar installer WhatsApp groups, is that warranty service turnaround in non-metro markets regularly runs 7 to 14 days — well above the 72-hour benchmark. For a homeowner whose solar system is offline for two weeks in May, the financial cost in lost generation and the frustration cost are both real.
+The result, documented by EPC installers across the [Mercom India installer survey](https://www.mercomindia.com/) and in community feedback from solar installer WhatsApp groups, is that warranty service turnaround in non-metro markets regularly runs 7 to 14 days — well above the 72-hour benchmark. For a homeowner whose solar system is offline for two weeks in May, the financial cost in lost generation and the frustration cost are both real.
 
 Indian brands — Qbits, Luminous, Microtek — have a structural service advantage because their distribution and service networks were built for India from the start. Luminous leverages its UPS service infrastructure; Qbits operates a dedicated authorised service partner network with pincode-searchable coverage. The [comparison of Indian versus international inverter brands](/blog/indian-vs-international-solar-inverters/) analyses this service geography in detail.
 

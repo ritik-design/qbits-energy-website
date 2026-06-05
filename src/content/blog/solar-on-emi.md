@@ -72,7 +72,7 @@ The table below maps every financing route available to an Indian homeowner in 2
 | **RESCO / PPA Model** | N/A — monthly bill | 15–25 years | Primarily C&I (50 kW+); rare for homes | 30–60 days | Developer |
 | **PM Surya Ghar Concessional Loan** | 7% (subsidised) | 10 years | Residential, PM Surya Ghar applicant | 15–25 days | Buyer |
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system — paid directly to the buyer's bank account after DISCOM verification. Combining this subsidy with the scheme's concessional 7% loan produces the lowest total cost of ownership of any financing path. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system — paid directly to the buyer's bank account after DISCOM verification. Combining this subsidy with the scheme's concessional 7% loan produces the lowest total cost of ownership of any financing path. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 For most Indian homeowners who qualify for PM Surya Ghar, the answer is clear before you finish reading. For those who do not qualify — or want speed over rate — the NBFC path wins. The sections below explain each path in enough detail to complete your application.
 
@@ -82,7 +82,7 @@ Every homeowner arrives at this decision with different financial circumstances.
 
 ### The Solar Finance Decision Tree — 6 Paths to Zero Upfront
 
-1. **Do you qualify for PM Surya Ghar?** — If your home has a single-phase or three-phase connection, your name is on the electricity bill, and you have not previously claimed a central solar subsidy, start with the PM Surya Ghar concessional loan. It combines the lowest rate (7%) with the ₹78,000 subsidy. Applying takes 20 minutes on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}. If yes, skip to Path 6.
+1. **Do you qualify for PM Surya Ghar?** — If your home has a single-phase or three-phase connection, your name is on the electricity bill, and you have not previously claimed a central solar subsidy, start with the PM Surya Ghar concessional loan. It combines the lowest rate (7%) with the ₹78,000 subsidy. Applying takes 20 minutes on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/). If yes, skip to Path 6.
 
 2. **Do you have a credit score above 750 and 2+ years of ITR?** — You are eligible for the best PSU bank rates (9–10.5%). SBI's Solar Green Home Loan and PNB's solar loan product are designed for exactly this profile. Processing takes 10–21 days.
 
@@ -122,7 +122,7 @@ For a comprehensive look at the overall cost structure of a solar system before 
 
 ## IREDA Concessional Loan — Government-Backed at 7–9%
 
-The Indian Renewable Energy Development Agency ([IREDA](https://www.ireda.in/){target="_blank" rel="noopener"}) is a public financial institution under the Ministry of New and Renewable Energy. Its individual solar loan programme offers the most competitive rates outside the PM Surya Ghar scheme.
+The Indian Renewable Energy Development Agency ([IREDA](https://www.ireda.in/)) is a public financial institution under the Ministry of New and Renewable Energy. Its individual solar loan programme offers the most competitive rates outside the PM Surya Ghar scheme.
 
 - **Rate**: 7–9% per annum depending on loan size and tenure.
 - **Tenure**: Up to 10 years for residential systems; up to 15 years for housing societies.
@@ -133,7 +133,7 @@ The Indian Renewable Energy Development Agency ([IREDA](https://www.ireda.in/){t
 
 IREDA loans are disbursed directly to the installer after verification that the vendor is on the MNRE-approved list. This protects borrowers from fraudulent installers — a material risk in a market where quality varies widely. The [ALMM list and Phase III compliance guide](/blog/almm-list-phase-iii-guide/) explains how to verify whether your installer's equipment qualifies.
 
-IREDA has disbursed over ₹65,000 crore in renewable energy loans since inception, and the individual solar loan book has grown at 40%+ annually since the PM Surya Ghar scheme launched. *Source — [IREDA Annual Report 2025–26](https://www.ireda.in/){target="_blank" rel="noopener"}.*
+IREDA has disbursed over ₹65,000 crore in renewable energy loans since inception, and the individual solar loan book has grown at 40%+ annually since the PM Surya Ghar scheme launched. *Source — [IREDA Annual Report 2025–26](https://www.ireda.in/).*
 
 ## NBFC Solar Loans — Speed Over Rate
 
@@ -151,7 +151,7 @@ Bajaj Finance's EMI card approach converts the solar purchase into structured EM
 
 L&T Finance targets rural and semi-urban homeowners through its branch network and distributor partnerships. Rates are 13–16%. The product is designed for self-employed borrowers without formal ITRs — the income assessment is based on electricity consumption history and solar yield projections rather than tax returns.
 
-NBFCs report solar loan non-performing asset (NPA) ratios below 1.5% — among the lowest in the personal loan category — reflecting that solar borrowers are motivated by genuine savings rather than consumption financing. *Source — [Mercom India, Solar Finance Report 2026](https://www.mercomindia.com/){target="_blank" rel="noopener"}.*
+NBFCs report solar loan non-performing asset (NPA) ratios below 1.5% — among the lowest in the personal loan category — reflecting that solar borrowers are motivated by genuine savings rather than consumption financing. *Source — [Mercom India, Solar Finance Report 2026](https://www.mercomindia.com/).*
 
 ## No-Cost EMI on Credit Card — When It Works and When It Does Not
 
@@ -209,7 +209,7 @@ The PM Surya Ghar Muft Bijli Yojana scheme, launched in February 2024, includes 
 
 The [complete PM Surya Ghar guide](/blog/pm-surya-ghar-yojana-complete-guide/) walks through the full application in step-by-step detail. The [PM Surya Ghar eligibility checker](/blog/pm-surya-ghar-eligibility/) verifies your specific situation in under five minutes.
 
-> **7%.** The concessional interest rate on PM Surya Ghar loans — the lowest rate available on any solar financing product in India in 2026, made possible through MNRE's interest subvention programme. *Source — [MNRE PM Surya Ghar Operational Guidelines](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **7%.** The concessional interest rate on PM Surya Ghar loans — the lowest rate available on any solar financing product in India in 2026, made possible through MNRE's interest subvention programme. *Source — [MNRE PM Surya Ghar Operational Guidelines](https://pmsuryaghar.gov.in/), 2026.*
 
 ## EMI Calculator — 3 kW System at ₹1.5 Lakh
 
@@ -234,7 +234,7 @@ The tipping point question is simple: **Is my monthly EMI ≤ my monthly electri
 
 The six financing paths above are straightforward in principle. In practice, four common errors eliminate most of the financial advantage.
 
-**Mistake 1: Applying to an NBFC before checking PM Surya Ghar eligibility.** NBFCs approve loans faster, so many buyers reach for them first. Choosing a 14% NBFC loan over a 7% PM Surya Ghar loan on a ₹1.5 lakh 10-year borrowing costs approximately ₹68,000 in extra interest. Always check scheme eligibility first — it takes 10 minutes at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}.
+**Mistake 1: Applying to an NBFC before checking PM Surya Ghar eligibility.** NBFCs approve loans faster, so many buyers reach for them first. Choosing a 14% NBFC loan over a 7% PM Surya Ghar loan on a ₹1.5 lakh 10-year borrowing costs approximately ₹68,000 in extra interest. Always check scheme eligibility first — it takes 10 minutes at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/).
 
 **Mistake 2: Ignoring the subsidy timing in the loan structure.** The ₹78,000 PM Surya Ghar subsidy lands in your bank account 30–90 days after installation. If your loan does not have a prepayment provision, the subsidy sits idle. Confirm with your lender that you can prepay the subsidy amount against the principal without penalty.
 

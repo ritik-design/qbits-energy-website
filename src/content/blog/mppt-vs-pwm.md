@@ -65,7 +65,7 @@ An [MPPT](/glossary/mppt/) charge controller inserts a DC-DC converter between t
 
 The MPPT algorithm — typically Perturb and Observe or Incremental Conductance — runs continuously on the controller's microprocessor. Every few milliseconds it samples the panel's voltage and current, nudges the operating point slightly, measures whether power went up or down, and adjusts accordingly. The result: the panel always operates within a fraction of a percent of its true maximum power point.
 
-When the sun angle changes, when a cloud passes, when temperature rises in the afternoon and Vmp shifts — the MPPT algorithm chases the moving target automatically. According to [NREL research on MPPT algorithm performance](https://www.nrel.gov/docs/fy99osti/26594.pdf){target="_blank" rel="noopener"}, modern Perturb-and-Observe trackers achieve 95 to 99% tracking accuracy under most real-world conditions.
+When the sun angle changes, when a cloud passes, when temperature rises in the afternoon and Vmp shifts — the MPPT algorithm chases the moving target automatically. According to [NREL research on MPPT algorithm performance](https://www.nrel.gov/docs/fy99osti/26594.pdf), modern Perturb-and-Observe trackers achieve 95 to 99% tracking accuracy under most real-world conditions.
 
 The DC-DC converter then steps the panel's high MPP voltage down to whatever voltage the battery needs at that moment — 13 V, 14.4 V, or 27 V for a 24 V bank — delivering the full converted power to the battery.
 
@@ -118,7 +118,7 @@ At ₹7/unit (diesel generator equivalent for off-grid), that is ₹2,149 in ene
 
 A 30 A MPPT controller costs approximately ₹5,000 to ₹8,000. Payback: 2.3 to 3.7 years from energy savings alone, then pure benefit for the remaining system life.
 
-> **307 kWh per year.** The additional energy a 300 W panel delivers through an MPPT controller versus a PWM controller on a 12 V battery — enough to run an efficient ceiling fan 24 hours a day for over a year. *Source — [NREL PV performance analysis](https://www.nrel.gov/){target="_blank" rel="noopener"}, methodology applied to Indian irradiance data.*
+> **307 kWh per year.** The additional energy a 300 W panel delivers through an MPPT controller versus a PWM controller on a 12 V battery — enough to run an efficient ceiling fan 24 hours a day for over a year. *Source — [NREL PV performance analysis](https://www.nrel.gov/), methodology applied to Indian irradiance data.*
 
 ## The 300 W Panel Worked Example — In Full Detail
 
@@ -228,7 +228,7 @@ Most homeowners in India who encounter the term "MPPT" are actually reading abou
 
 **Hybrid system:** The hybrid inverter (Qbits HS or HT series) contains MPPT for the panel string and a separate battery management circuit. Again, the "MPPT vs PWM" debate does not apply — MPPT is built in.
 
-> According to [IRENA's renewable energy statistics](https://www.irena.org/Publications/2025/Mar/Renewable-capacity-statistics-2025){target="_blank" rel="noopener"}, India added over 24 GW of solar capacity in 2024, virtually all of it grid-connected and using MPPT-based inverters. The off-grid charge controller market is a small but important segment for remote areas, agriculture, and hybrid backup systems.
+> According to [IRENA's renewable energy statistics](https://www.irena.org/Publications/2025/Mar/Renewable-capacity-statistics-2025), India added over 24 GW of solar capacity in 2024, virtually all of it grid-connected and using MPPT-based inverters. The off-grid charge controller market is a small but important segment for remote areas, agriculture, and hybrid backup systems.
 
 The India-specific nuance: many rural and peri-urban installations use a hybrid of on-grid and off-grid thinking — a grid-tied inverter during the day and a standalone battery with charge controller for night backup. In these mixed systems, the charge controller is where the MPPT vs PWM decision still matters.
 
@@ -254,7 +254,7 @@ An MPPT controller set to lead-acid charging profile will overcharge an LFP batt
 
 ### Assuming the Cheapest MPPT Is Equivalent to a Quality Unit
 
-The MPPT tracking accuracy varies significantly between brands. A budget controller claiming "MPPT" may implement a simple constant-voltage algorithm with occasional voltage sweeps — achieving 85 to 90% tracking efficiency rather than the 97 to 99% of a proper Perturb-and-Observe or Incremental Conductance implementation. Always check if the controller is certified to [IEC 62109](https://www.iec.ch/homepage){target="_blank" rel="noopener"} or references EN 50530 tracking efficiency data.
+The MPPT tracking accuracy varies significantly between brands. A budget controller claiming "MPPT" may implement a simple constant-voltage algorithm with occasional voltage sweeps — achieving 85 to 90% tracking efficiency rather than the 97 to 99% of a proper Perturb-and-Observe or Incremental Conductance implementation. Always check if the controller is certified to [IEC 62109](https://www.iec.ch/homepage) or references EN 50530 tracking efficiency data.
 
 ### Using a PWM Controller as a Placeholder Before "Upgrading Later"
 
@@ -278,7 +278,7 @@ When you are ready to move beyond the charge controller question and size a comp
 
 The engineering case is not close. For any solar installation using modern panels — which today means virtually every panel sold in India above 150 W — MPPT is the only controller technology that delivers the system's intended performance. PWM has a narrow remaining role in legacy-panel small systems and the lowest-budget lighting applications.
 
-The IEA's [Snapshot of Global PV Markets 2025](https://www.iea.org/reports/snapshot-of-global-pv-markets-2025){target="_blank" rel="noopener"} notes that off-grid solar is growing fastest in markets where reliable grid access remains limited — precisely the environments where high-quality MPPT controllers deliver the greatest return on investment.
+The IEA's [Snapshot of Global PV Markets 2025](https://www.iea.org/reports/snapshot-of-global-pv-markets-2025) notes that off-grid solar is growing fastest in markets where reliable grid access remains limited — precisely the environments where high-quality MPPT controllers deliver the greatest return on investment.
 
 The numbers tell the story: on a 300 W panel charging a 12 V battery, MPPT delivers 2.4 times more daily energy than PWM. Over five years, that difference funds a complete additional panel. Over ten years, it funds a battery upgrade.
 
@@ -288,4 +288,4 @@ For installers evaluating charge controllers alongside inverter selection for la
 
 ---
 
-*Technical references: [IEEE Transactions on Energy Conversion — MPPT Algorithm Comparison](https://ieeexplore.ieee.org/document/4253523){target="_blank" rel="noopener"} (Esram & Chapman, 2007); [NREL MPPT Algorithm Evaluation Report](https://www.nrel.gov/docs/fy99osti/26594.pdf){target="_blank" rel="noopener"}; [IEC 62509:2010 Battery Charge Controller Safety Standard](https://www.iec.ch/homepage){target="_blank" rel="noopener"}; [MNRE Specifications for Standalone Solar PV Systems](https://mnre.gov.in/){target="_blank" rel="noopener"}.*
+*Technical references: [IEEE Transactions on Energy Conversion — MPPT Algorithm Comparison](https://ieeexplore.ieee.org/document/4253523) (Esram & Chapman, 2007); [NREL MPPT Algorithm Evaluation Report](https://www.nrel.gov/docs/fy99osti/26594.pdf); [IEC 62509:2010 Battery Charge Controller Safety Standard](https://www.iec.ch/homepage); [MNRE Specifications for Standalone Solar PV Systems](https://mnre.gov.in/).*

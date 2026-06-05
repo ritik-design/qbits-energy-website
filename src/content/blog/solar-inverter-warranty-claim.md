@@ -90,7 +90,7 @@ The warranty card (physical or digital) or the warranty registration confirmatio
 
 Without a registered warranty, some brands downgrade the buyer to a shorter or more limited "standard" coverage that differs from the marketed terms. The registration confirmation is the proof that the advertised warranty terms apply.
 
-> **60%.** The proportion of residential solar service calls in India attributable to inverter-related faults, making the inverter the single highest-risk component in the system. *Source — [Mercom India Solar Market Report 2025](https://www.mercomindia.com/){target="_blank" rel="noopener"}.*
+> **60%.** The proportion of residential solar service calls in India attributable to inverter-related faults, making the inverter the single highest-risk component in the system. *Source — [Mercom India Solar Market Report 2025](https://www.mercomindia.com/).*
 
 ## Covered Faults vs Excluded Causes — Knowing the Difference Before You Call
 
@@ -171,7 +171,7 @@ For **replacement warranty** (Qbits standard): a new unit is dispatched within 7
 
 For **repair warranty** (most other brands): the failed unit is collected, transported to a service centre, repaired, and returned. This cycle averages 6 to 8 weeks in India when spare parts must be sourced domestically or imported.
 
-> **6–8 weeks.** The typical repair turnaround for solar inverter warranty service in India when a brand provides repair-only coverage. At ₹200 per day in lost generation for a 5 kW system, this represents ₹8,400 to ₹11,200 in unrecovered electricity value per claim event. *Source — [Mercom India Solar Market Report 2025](https://www.mercomindia.com/){target="_blank" rel="noopener"}.*
+> **6–8 weeks.** The typical repair turnaround for solar inverter warranty service in India when a brand provides repair-only coverage. At ₹200 per day in lost generation for a 5 kW system, this represents ₹8,400 to ₹11,200 in unrecovered electricity value per claim event. *Source — [Mercom India Solar Market Report 2025](https://www.mercomindia.com/).*
 
 ### Step 5 — Resolution Confirmation and System Recommissioning
 
@@ -246,15 +246,15 @@ This notice creates a documented timestamp of escalation that is necessary for a
 
 ### Stage 2 — DISCOM and MNRE Grievance Filing
 
-For systems installed under PM Surya Ghar or any MNRE scheme, the [MNRE consumer grievance portal](https://mnre.gov.in/){target="_blank" rel="noopener"} is the appropriate regulatory escalation point. MNRE-registered installers and empanelled brands are subject to scheme-level compliance requirements that give MNRE oversight authority over warranty disputes.
+For systems installed under PM Surya Ghar or any MNRE scheme, the [MNRE consumer grievance portal](https://mnre.gov.in/) is the appropriate regulatory escalation point. MNRE-registered installers and empanelled brands are subject to scheme-level compliance requirements that give MNRE oversight authority over warranty disputes.
 
 For systems where [DISCOM](/glossary/discom/) approval is involved — which is every grid-tied net-metered system — the DISCOM's consumer grievance cell can be notified of the dispute. DISCOM involvement does not directly resolve the warranty claim, but it creates a regulatory record of the dispute that strengthens a subsequent consumer court filing.
 
 ### Stage 3 — Consumer Forum Filing via e-DAAKHIL
 
-The [Consumer Protection Act 2019](https://consumeraffairs.nic.in/){target="_blank" rel="noopener"} gives Indian homeowners access to consumer courts that are specifically designed for disputes like warranty claim denials. The relevant forum for a residential solar inverter claim — typically ₹40,000 to ₹2,00,000 in value — is the District Consumer Disputes Redressal Commission.
+The [Consumer Protection Act 2019](https://consumeraffairs.nic.in/) gives Indian homeowners access to consumer courts that are specifically designed for disputes like warranty claim denials. The relevant forum for a residential solar inverter claim — typically ₹40,000 to ₹2,00,000 in value — is the District Consumer Disputes Redressal Commission.
 
-Complaints are filed online at [edaakhil.nic.in](https://edaakhil.nic.in/){target="_blank" rel="noopener"} without requiring a lawyer. Filing fees are nominal (₹100–₹2,500 depending on claim value). The filing requires:
+Complaints are filed online at [edaakhil.nic.in](https://edaakhil.nic.in/) without requiring a lawyer. Filing fees are nominal (₹100–₹2,500 depending on claim value). The filing requires:
 
 - Your identity proof and address.
 - The purchase invoice, warranty document, and correspondence record.
@@ -263,7 +263,7 @@ Complaints are filed online at [edaakhil.nic.in](https://edaakhil.nic.in/){targe
 
 Consumer courts in India consistently rule in favour of buyers when the warranty documentation is clear and the brand's denial cannot be supported by the exclusion clauses in the warranty document. The [BIS certification](/glossary/bis-certification/) and [commissioning](/glossary/commissioning/) records serve as strong corroborating evidence in these proceedings.
 
-> **₹50 lakh.** The claim value ceiling below which Indian consumers can file at the District Consumer Disputes Redressal Commission without a lawyer, using the e-DAAKHIL portal. For residential solar inverter disputes — typically ₹40,000–₹2,00,000 — no legal representation is required. *Source — [Consumer Protection Act 2019, Ministry of Consumer Affairs, Government of India](https://consumeraffairs.nic.in/){target="_blank" rel="noopener"}, 2019.*
+> **₹50 lakh.** The claim value ceiling below which Indian consumers can file at the District Consumer Disputes Redressal Commission without a lawyer, using the e-DAAKHIL portal. For residential solar inverter disputes — typically ₹40,000–₹2,00,000 — no legal representation is required. *Source — [Consumer Protection Act 2019, Ministry of Consumer Affairs, Government of India](https://consumeraffairs.nic.in/), 2019.*
 
 ## Common Mistakes That Derail Solar Inverter Warranty Claims
 
@@ -300,7 +300,7 @@ The following table reflects the typical claim resolution timelines based on pub
 
 The timeline difference between a replacement-warranty brand and a repair-only brand is not a matter of service quality — it is a structural consequence of the inventory and logistics model. A brand that ships replacement units from regional depots can deliver within 72 hours. A brand that sends the failed unit to a central service centre in Shenzhen or Bengaluru and waits for parts cannot.
 
-> According to the [IEA's India Solar Report 2025](https://www.iea.org/reports/india-energy-outlook-2025){target="_blank" rel="noopener"}, India's residential solar capacity crossed 15 GW in 2025 — meaning millions of Indian homeowners will navigate the warranty claim process for the first time in the next decade. Buyers who understand the process before needing it resolve claims significantly faster than those who encounter it cold.
+> According to the [IEA's India Solar Report 2025](https://www.iea.org/reports/india-energy-outlook-2025), India's residential solar capacity crossed 15 GW in 2025 — meaning millions of Indian homeowners will navigate the warranty claim process for the first time in the next decade. Buyers who understand the process before needing it resolve claims significantly faster than those who encounter it cold.
 
 ## Where Qbits Fits
 

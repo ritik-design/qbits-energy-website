@@ -91,7 +91,7 @@ One important caveat: IP ratings are tested in a laboratory under static conditi
 
 ## The ISO 9223 Corrosion Category Map for Indian Coastal Cities
 
-ISO 9223 — the international standard for classification of atmospheric corrosion — provides the scientific basis for understanding why different coastal locations demand different specifications. The standard defines five corrosion categories based on annual sulphur dioxide concentration and chloride deposition rate. India's coastline — over 7,500 km including islands — exposes more rooftop solar capacity to marine-grade corrosion conditions than any other large solar market in Asia, according to [IRENA's Renewable Power Generation Costs in Asia report](https://www.irena.org/publications){target="_blank" rel="noopener"}.
+ISO 9223 — the international standard for classification of atmospheric corrosion — provides the scientific basis for understanding why different coastal locations demand different specifications. The standard defines five corrosion categories based on annual sulphur dioxide concentration and chloride deposition rate. India's coastline — over 7,500 km including islands — exposes more rooftop solar capacity to marine-grade corrosion conditions than any other large solar market in Asia, according to [IRENA's Renewable Power Generation Costs in Asia report](https://www.irena.org/publications).
 
 | ISO 9223 Category | Description | Chloride Deposition | Representative Indian Location |
 | --- | --- | --- | --- |
@@ -171,7 +171,7 @@ Inverters with integrated arc fault circuit interrupter (AFCI) detection on the 
 
 ### Surge Protection Devices in Coastal Installations
 
-Coastal locations face elevated [SPD](/glossary/spd/) (surge protection device) requirements because they are more frequently exposed to lightning from offshore thunderstorms. Indian coastal cities, particularly the west coast from Mumbai to Kochi and the east coast during the north-east monsoon, experience significantly higher lightning flash density than most inland locations, with average ground flash density of 4–8 flashes/km²/year along the Tamil Nadu and Kerala coasts according to the [India Meteorological Department lightning climatology data](https://mausam.imd.gov.in/){target="_blank" rel="noopener"}. Install Type 1 + Type 2 combination SPDs on both the DC side (between string and inverter) and AC side (between inverter and distribution board) for all coastal installations.
+Coastal locations face elevated [SPD](/glossary/spd/) (surge protection device) requirements because they are more frequently exposed to lightning from offshore thunderstorms. Indian coastal cities, particularly the west coast from Mumbai to Kochi and the east coast during the north-east monsoon, experience significantly higher lightning flash density than most inland locations, with average ground flash density of 4–8 flashes/km²/year along the Tamil Nadu and Kerala coasts according to the [India Meteorological Department lightning climatology data](https://mausam.imd.gov.in/). Install Type 1 + Type 2 combination SPDs on both the DC side (between string and inverter) and AC side (between inverter and distribution board) for all coastal installations.
 
 ## Concrete Roof vs Metal Roof — Heat Differential in Coastal Climates
 
@@ -215,7 +215,7 @@ One of the most valuable features of a modern Wi-Fi or 4G solar inverter in a co
 
 ### Insulation Resistance (IR) Monitoring
 
-The most important leading indicator. As salt ingress corrodes cable insulation, DC connector seals, or PCB surface insulation, the measured resistance between the DC live conductors and the inverter earth reference drops from a healthy baseline of tens of megaohms to below 1 MΩ — the threshold at which [IEC 62109](https://www.iec.ch/){target="_blank" rel="noopener"} (the safety standard for power converters used in photovoltaic power systems) requires the inverter to trip offline. An inverter with continuous IR logging allows the service technician to trend IR values over time and identify a steady decline (indicative of progressive corrosion) versus a sudden single-event drop (indicative of a mechanical damage or flooding event).
+The most important leading indicator. As salt ingress corrodes cable insulation, DC connector seals, or PCB surface insulation, the measured resistance between the DC live conductors and the inverter earth reference drops from a healthy baseline of tens of megaohms to below 1 MΩ — the threshold at which [IEC 62109](https://www.iec.ch/) (the safety standard for power converters used in photovoltaic power systems) requires the inverter to trip offline. An inverter with continuous IR logging allows the service technician to trend IR values over time and identify a steady decline (indicative of progressive corrosion) versus a sudden single-event drop (indicative of a mechanical damage or flooding event).
 
 ### GFCI Fault Frequency
 

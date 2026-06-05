@@ -54,7 +54,7 @@ For EPCs, the practical effect is straightforward: if you spec non-listed equipm
 
 The [BIS certification](/glossary/bis-certification/) requirement feeds into but is separate from the ALMM framework. A product can hold BIS certification and not be on the ALMM list because ALMM applications are manufacturer-initiated and require active submission of documentation to MNRE. Some manufacturers have strong products with valid BIS certification but have not pursued ALMM listing because their business model does not target the subsidy-eligible segment.
 
-> **1 crore households.** The PM Surya Ghar Muft Bijli Yojana target for residential rooftop solar installations by March 2027. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **1 crore households.** The PM Surya Ghar Muft Bijli Yojana target for residential rooftop solar installations by March 2027. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ## ALMM Phase I, Phase II, and Phase III — What Each Covers
 
@@ -82,7 +82,7 @@ The inverter inclusion is the most consequential for PM Surya Ghar and governmen
 
 As of June 2026, the Phase III list for inverters includes on-grid string inverters, hybrid inverters with battery interfaces, and central inverters above specified capacity thresholds. The compliance obligation is again model-specific: a manufacturer's presence on the Phase III list does not automatically extend to every model in their catalogue. EPCs must verify the specific wattage range and model designation against the live MNRE list, not assume that a manufacturer's flagship listing covers the full product line.
 
-> The ALMM Phase III framework for inverters was progressively notified starting in 2022 and has expanded in scope through subsequent MNRE notifications, with the list of approved inverter manufacturers and models growing substantially through 2024 and 2025. *Source — [MNRE ALMM Official List](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}, 2026.*
+> The ALMM Phase III framework for inverters was progressively notified starting in 2022 and has expanded in scope through subsequent MNRE notifications, with the list of approved inverter manufacturers and models growing substantially through 2024 and 2025. *Source — [MNRE ALMM Official List](https://mnre.gov.in/almm-list/), 2026.*
 
 ## The 5-Check ALMM Compliance Protocol
 
@@ -108,7 +108,7 @@ The five checks add approximately 30 minutes to project initiation and an additi
 
 The MNRE ALMM portal is the single authoritative source for compliance verification. Here is the practical process that experienced EPC procurement teams use.
 
-For modules, navigate to the [MNRE ALMM page](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} and download the current Phase I module list. The list is typically structured as a PDF table with columns for manufacturer name, module model designation, wattage range, cell technology, and cell origin declaration. Search the PDF for the manufacturer name first, then locate the specific model. Confirm that the wattage of the model you are specifying falls within the approved wattage range shown — some entries cover a band (e.g., 400 Wp to 550 Wp) rather than a single wattage point.
+For modules, navigate to the [MNRE ALMM page](https://mnre.gov.in/almm-list/) and download the current Phase I module list. The list is typically structured as a PDF table with columns for manufacturer name, module model designation, wattage range, cell technology, and cell origin declaration. Search the PDF for the manufacturer name first, then locate the specific model. Confirm that the wattage of the model you are specifying falls within the approved wattage range shown — some entries cover a band (e.g., 400 Wp to 550 Wp) rather than a single wattage point.
 
 For inverters under Phase III, the list follows the same structure but is published as a separate document. Locate the manufacturer entry, confirm the specific inverter model code, and verify the AC output range shown on the ALMM entry matches the model you are specifying. Some inverter entries specify a range by phase count (single-phase vs three-phase) and output class (e.g., 1.5 kW to 10 kW on-grid string). If your project calls for a 5 kW model, confirm it falls within the approved range explicitly — do not assume a 3 kW ALMM entry extends to 5 kW.
 
@@ -161,7 +161,7 @@ For products in your warehouse or in transit at the time of delisting, work with
 **How to protect your EPC business from delisting events:**
 
 - Diversify your approved vendor list to include two or three ALMM-listed alternatives for each product category. If your primary module supplier is delisted, you have a pre-qualified substitute ready to order.
-- Monitor MNRE gazette notifications. These are published on mnre.gov.in and relevant MNRE official channels. Several industry publications including [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"} and [Saur Energy](https://www.saurenergy.com/){target="_blank" rel="noopener"} track and report ALMM changes.
+- Monitor MNRE gazette notifications. These are published on mnre.gov.in and relevant MNRE official channels. Several industry publications including [Mercom India](https://www.mercomindia.com/) and [Saur Energy](https://www.saurenergy.com/) track and report ALMM changes.
 - Include the procurement-order ALMM clause described in the 5-Check Protocol above. This shifts financial liability to the supplier in the event of a delisting between order and delivery.
 
 | Scenario | Subsidy Impact | Action Required |
@@ -207,7 +207,7 @@ EPCs bidding on C&I projects for buyers who intend to use project finance should
 
 The [inverter TCO](/blog/inverter-tco/) post covers the full cost-of-ownership framework that C&I buyers apply, including financing costs and how equipment certification status affects capital access.
 
-> India's rooftop solar installed capacity crossed 17 GW in early 2026, with PM Surya Ghar contributing an accelerating share of residential additions. The programme's ALMM requirement effectively ensures that this entire capacity base uses equipment meeting the minimum declared-origin and quality standards. *Source — [JMK Research India Rooftop Solar Market Tracker](https://jmkresearch.com/){target="_blank" rel="noopener"}, Q1 2026.*
+> India's rooftop solar installed capacity crossed 17 GW in early 2026, with PM Surya Ghar contributing an accelerating share of residential additions. The programme's ALMM requirement effectively ensures that this entire capacity base uses equipment meeting the minimum declared-origin and quality standards. *Source — [JMK Research India Rooftop Solar Market Tracker](https://jmkresearch.com/), Q1 2026.*
 
 ## Qbits ALMM Listing — What It Means for Your Approved Vendor List
 

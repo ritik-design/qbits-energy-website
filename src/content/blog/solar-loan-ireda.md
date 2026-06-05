@@ -36,7 +36,7 @@ Your electricity bill crosses ₹8,000 a month, your neighbour just went solar, 
 
 > **Direct answer.** The IREDA solar loan (Suryodaya scheme) offers Indian homeowners 7–9% interest on residential solar financing, routed through partner banks like SBI, PNB, and Bank of Baroda. When stacked with the PM Surya Ghar subsidy of up to ₹78,000, the net out-of-pocket loan for a 3 kW system falls to ₹72,000–₹1.2 Lakh — translating to a monthly EMI of ₹1,400–₹2,500 that is typically lower than the electricity bill savings from day one.
 
-Understanding how the [IREDA solar loan](https://ireda.in/){target="_blank" rel="noopener"} works — and how to combine it with the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/) — can reduce your real cost of going solar by 40% or more compared to taking a plain commercial personal loan. This guide walks through every step: eligibility, the application process, the partner bank list, the repayment mathematics, and the named framework that ties it all together.
+Understanding how the [IREDA solar loan](https://ireda.in/) works — and how to combine it with the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/) — can reduce your real cost of going solar by 40% or more compared to taking a plain commercial personal loan. This guide walks through every step: eligibility, the application process, the partner bank list, the repayment mathematics, and the named framework that ties it all together.
 
 ## What Is IREDA and the Suryodaya Residential Solar Loan?
 
@@ -51,7 +51,7 @@ The Suryodaya scheme is IREDA's residential-focus product, launched to align wit
 - **Moratorium** — Select partner banks allow 2–3 month moratorium post-installation until the PM Surya Ghar subsidy lands
 - **Subsidy compatibility** — Fully compatible; subsidy reduces outstanding principal when it arrives
 
-> **₹1.1 Lakh crore.** IREDA's sanctions portfolio as of March 2026, covering renewable energy projects ranging from residential rooftop to utility-scale wind — evidence of the institution's scale and government backing. *Source — [IREDA Annual Report 2025–26](https://ireda.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹1.1 Lakh crore.** IREDA's sanctions portfolio as of March 2026, covering renewable energy projects ranging from residential rooftop to utility-scale wind — evidence of the institution's scale and government backing. *Source — [IREDA Annual Report 2025–26](https://ireda.in/), 2026.*
 
 The IREDA model differs from a [DISCOM](/glossary/discom/) arrangement or a state government loan in one important way: the money flows through a regulated commercial bank you already have a relationship with. That makes documentation familiar, disbursal fast, and complaint resolution straightforward.
 
@@ -159,7 +159,7 @@ This is the named framework that most installers and bank advisors fail to expla
 
 The subsidy, when it arrives 30–90 days post-installation, can be used to either prepay part of the principal (reducing future EMIs) or kept as an emergency reserve. The key insight is that you are cash-flow positive even before the subsidy lands, because the IREDA rate keeps the EMI below the electricity savings.
 
-> **7.5%.** The effective interest rate available to IREDA Suryodaya loan borrowers under the PM Surya Ghar residential scheme — compared to 13% typically charged on unsecured personal loans for the same purpose. *Source — [IREDA Suryodaya Scheme Documentation](https://ireda.in/){target="_blank" rel="noopener"}, 2026.*
+> **7.5%.** The effective interest rate available to IREDA Suryodaya loan borrowers under the PM Surya Ghar residential scheme — compared to 13% typically charged on unsecured personal loans for the same purpose. *Source — [IREDA Suryodaya Scheme Documentation](https://ireda.in/), 2026.*
 
 ## EMI Calculator — 3 kW, 5 kW, and 10 kW Systems
 
@@ -228,11 +228,11 @@ Gather these before approaching a partner bank. Missing documents are the primar
 Understanding the failure modes saves you 2–4 weeks of avoidable delay.
 
 - **Approaching the bank before DISCOM sanction** — the most common mistake; banks cannot process the loan without the sanction letter. Complete the [PM Surya Ghar online application](/blog/pm-surya-ghar-apply-online/) first and wait for the DISCOM approval email before stepping into the bank.
-- **Selecting non-ALMM equipment** — some installers quote cheaper non-ALMM panels or inverters to lower the headline price. If the equipment is not on the current ALMM list, the entire loan application under IREDA channel is invalidated. Always verify the ALMM list at [mnre.gov.in](https://mnre.gov.in/){target="_blank" rel="noopener"} before signing the installation contract.
+- **Selecting non-ALMM equipment** — some installers quote cheaper non-ALMM panels or inverters to lower the headline price. If the equipment is not on the current ALMM list, the entire loan application under IREDA channel is invalidated. Always verify the ALMM list at [mnre.gov.in](https://mnre.gov.in/) before signing the installation contract.
 - **Ignoring the CIBIL score** — applicants with scores of 650–699 frequently face rejection from PSBs and end up with NBFC loans at 11–12%, erasing much of the IREDA rate advantage. Check your score six months before applying and clear any overdue payments.
 - **Not asking about the moratorium option** — some partner banks offer a 2–3 month principal moratorium post-installation, which aligns the first full EMI with the month after the subsidy arrives. This option is not advertised prominently; you have to ask for it.
 - **Underestimating processing time** — the full sequence from portal registration to loan disbursal typically takes 45–90 days. Plan installation timing accordingly; do not commit to a vendor start date without confirmed bank approval in hand.
-- **Missing state-specific DISCOM requirements** — some DISCOMs (UP, Bihar, parts of Rajasthan) have longer feasibility approval timelines due to grid capacity assessments. Check your DISCOM's average processing time on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} before setting expectations.
+- **Missing state-specific DISCOM requirements** — some DISCOMs (UP, Bihar, parts of Rajasthan) have longer feasibility approval timelines due to grid capacity assessments. Check your DISCOM's average processing time on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) before setting expectations.
 
 For a deeper look at financing options beyond IREDA — including EMI schemes from distributors and NBFC products — the [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers the full spectrum. If you are specifically comparing IREDA-channel rates with what SBI offers under its own Surya Shakti branding, the [SBI solar loan guide](/blog/solar-loan-sbi/) provides a side-by-side analysis. And if you are exploring zero-cost or no-down-payment routes, the [solar on EMI guide](/blog/solar-on-emi/) covers credit card, RESCO, and NBFC instalment options that do not require a formal loan application.
 
@@ -249,7 +249,7 @@ The difference is ₹800–₹1,400 per month, which directly improves your net 
 
 Net metering applications are filed alongside or after DISCOM commissioning. Most states now process net metering automatically when the PM Surya Ghar installation is commissioned through an empanelled vendor. The [DISCOM](/glossary/discom/) interconnection agreement includes metering provisions in most states.
 
-> **30 states and union territories** have operational net metering regulations aligned with the Central Electricity Regulatory Commission's net metering framework as of 2026, making it accessible to the vast majority of PM Surya Ghar applicants. *Source — [CERC Net Metering Regulations](https://www.cea.nic.in/){target="_blank" rel="noopener"}, 2026.*
+> **30 states and union territories** have operational net metering regulations aligned with the Central Electricity Regulatory Commission's net metering framework as of 2026, making it accessible to the vast majority of PM Surya Ghar applicants. *Source — [CERC Net Metering Regulations](https://www.cea.nic.in/), 2026.*
 
 ## IREDA Loan Repayment — Prepayment and Tenure Optimisation
 

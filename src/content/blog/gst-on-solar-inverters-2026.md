@@ -44,7 +44,7 @@ The GST rate on solar inverters specifically changed in October 2021, moving fro
 
 ## GST Rates on Solar Equipment: Component-by-Component Table
 
-The most useful starting point for any buyer or EPC is a clear rate table. The following rates reflect the position as of June 2026, after the October 2021 revision. These figures are sourced from [CBIC HSN classification notifications](https://www.cbic.gov.in/){target="_blank" rel="noopener"} and confirmed against [GST Council meeting outcomes](https://gstcouncil.gov.in/){target="_blank" rel="noopener"}.
+The most useful starting point for any buyer or EPC is a clear rate table. The following rates reflect the position as of June 2026, after the October 2021 revision. These figures are sourced from [CBIC HSN classification notifications](https://www.cbic.gov.in/) and confirmed against [GST Council meeting outcomes](https://gstcouncil.gov.in/).
 
 | Component | HSN Code | GST Rate | Notes |
 | --- | --- | --- | --- |
@@ -66,9 +66,9 @@ The most useful starting point for any buyer or EPC is a clear rate table. The f
 
 Two observations stand out from this table. First, the inverter and panels carry the lowest equipment GST rate (12%), while everything else in the balance of system carries 18%. Second, if you add battery storage, the battery GST alone pushes overall project GST significantly higher than what the equipment-only rate suggests.
 
-> **12–14%.** The blended effective GST rate on a complete grid-tied residential solar installation (panels + inverter + structure + cables + installation), weighted by typical component cost shares. *Source — [MNRE benchmark cost notification](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2025.*
+> **12–14%.** The blended effective GST rate on a complete grid-tied residential solar installation (panels + inverter + structure + cables + installation), weighted by typical component cost shares. *Source — [MNRE benchmark cost notification](https://mnre.gov.in/), 2025.*
 
-The [MNRE](https://mnre.gov.in/){target="_blank" rel="noopener"} periodically publishes benchmark costs for rooftop solar under PM Surya Ghar, and these benchmarks are set inclusive of all applicable taxes. They serve as the ceiling for subsidy calculation purposes.
+The [MNRE](https://mnre.gov.in/) periodically publishes benchmark costs for rooftop solar under PM Surya Ghar, and these benchmarks are set inclusive of all applicable taxes. They serve as the ceiling for subsidy calculation purposes.
 
 ## The History: Why GST on Solar Inverters Went from 5% to 12%
 
@@ -91,7 +91,7 @@ The withdrawal of the concessional rate meant:
 
 ### Industry Response and the Current Position
 
-The solar industry, through [NSEFI](https://nsefi.in/){target="_blank" rel="noopener"} and other associations, petitioned the GST Council to revert to 5% or at minimum create a solar-specific lower slab. As of June 2026, the GST Council has not reversed the 2021 change. The 12% rate on inverters and panels remains the standard position.
+The solar industry, through [NSEFI](https://nsefi.in/) and other associations, petitioned the GST Council to revert to 5% or at minimum create a solar-specific lower slab. As of June 2026, the GST Council has not reversed the 2021 change. The 12% rate on inverters and panels remains the standard position.
 
 The impact on prices was measurable but not catastrophic — module prices globally fell sharply from 2022 onwards, partly absorbing the GST increase. However, in the residential segment, the GST cost has no offset through ITC, and it directly extended payback periods by 6–12 months for homeowners who installed after October 2021.
 
@@ -127,7 +127,7 @@ The total GST on this 5 kW system is approximately ₹27,840 — a sum that most
 
 ## How GST Interacts with the PM Surya Ghar Subsidy
 
-The [PM Surya Ghar Muft Bijli Yojana](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} is the central government's flagship residential rooftop solar scheme, offering subsidies of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the 3rd kW, capped at ₹78,000 for a 3 kW system. Understanding how GST interacts with this subsidy calculation matters because the two are frequently confused.
+The [PM Surya Ghar Muft Bijli Yojana](https://pmsuryaghar.gov.in/) is the central government's flagship residential rooftop solar scheme, offering subsidies of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the 3rd kW, capped at ₹78,000 for a 3 kW system. Understanding how GST interacts with this subsidy calculation matters because the two are frequently confused.
 
 **The subsidy is not a GST rebate.** The PM Surya Ghar subsidy is calculated on benchmark project costs that are themselves GST-inclusive. MNRE publishes state-wise benchmark costs that serve as the ceiling for subsidy eligibility — if an installer charges above the benchmark, the excess is borne by the buyer without additional subsidy. GST is embedded within the benchmark cost, not layered above it.
 
@@ -205,7 +205,7 @@ ITC delivers greater immediate cash flow when:
 
 For most profitable C&I buyers in India, the practical answer is: **claim both.** The [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-tax-benefits-guide/) covers the AD calculation mechanics in detail for businesses evaluating their tax structure.
 
-> **₹8.8 lakh.** The estimated first-year income tax saving on a ₹1 crore solar investment under India's 40% Accelerated Depreciation benefit at 22% corporate tax rate, independent of ITC — both benefits can be claimed simultaneously. *Source — [Income Tax Act 1961, Section 32](https://incometaxindia.gov.in/){target="_blank" rel="noopener"}, as applicable in FY 2025–26.*
+> **₹8.8 lakh.** The estimated first-year income tax saving on a ₹1 crore solar investment under India's 40% Accelerated Depreciation benefit at 22% corporate tax rate, independent of ITC — both benefits can be claimed simultaneously. *Source — [Income Tax Act 1961, Section 32](https://incometaxindia.gov.in/), as applicable in FY 2025–26.*
 
 ## GST on Installation Services and Composite Supply Rules
 
@@ -283,7 +283,7 @@ Qbits inverters are manufactured in India, appear on the ALMM list, carry BIS an
 
 ## GST Outlook: Will Rates Change in 2026 or Beyond?
 
-The industry continues to petition for a return to the 5% rate or the introduction of a special 5% slab for solar-specific goods. The [IRENA Renewable Energy Finance report](https://www.irena.org/){target="_blank" rel="noopener"} consistently highlights taxation as a demand-side barrier in emerging solar markets, and India's 12% rate is higher than the global median for solar goods taxation.
+The industry continues to petition for a return to the 5% rate or the introduction of a special 5% slab for solar-specific goods. The [IRENA Renewable Energy Finance report](https://www.irena.org/) consistently highlights taxation as a demand-side barrier in emerging solar markets, and India's 12% rate is higher than the global median for solar goods taxation.
 
 Realistic near-term scenarios:
 
@@ -291,6 +291,6 @@ Realistic near-term scenarios:
 - **Possible reduction to 5% for residential**: If the PM Surya Ghar targets begin to lag significantly, a targeted GST concession for residential-scale systems (up to 10 kW) is politically feasible.
 - **Battery GST reduction under discussion**: The lithium-ion battery industry (not just solar) has been lobbying for a reduction from 18% to 12%, which would benefit solar hybrid adoption significantly. This is more likely in the medium term than a panel/inverter rate change.
 
-The [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"} solar market tracker publishes rate updates when GST Council meetings address solar-specific notifications — it is the most reliable source for following this space.
+The [Mercom India](https://www.mercomindia.com/) solar market tracker publishes rate updates when GST Council meetings address solar-specific notifications — it is the most reliable source for following this space.
 
 For businesses building 5-year financial models, it is prudent to stress-test scenarios with both the current 12% rate and a potential 5% rate to understand the sensitivity of [IRR](/glossary/irr/) and payback to tax changes. The [solar inverter payback period in India](/blog/solar-inverter-payback-period-in-india/) post provides a modelling framework that can be adapted for GST sensitivity analysis.

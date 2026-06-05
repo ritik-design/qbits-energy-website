@@ -64,7 +64,7 @@ The numbers above use standard Indian component pricing and average DISCOM tarif
 
 The solution is straightforward: always compare inverters on 12-year total cost, not the day-one price. Ask every vendor: "What is covered by warranty, and for how long?" Then read the warranty document — not the sales brochure.
 
-> **60%.** Share of all solar service calls in India attributed to inverter-related faults, according to field data compiled by Indian EPC associations and corroborated by service records from multiple installers. *Source — [NSEFI Field Service Survey, 2025](https://nsefi.in/){target="_blank" rel="noopener"}.*
+> **60%.** Share of all solar service calls in India attributed to inverter-related faults, according to field data compiled by Indian EPC associations and corroborated by service records from multiple installers. *Source — [NSEFI Field Service Survey, 2025](https://nsefi.in/).*
 
 When the inverter fails 60% of the time and the market average warranty is 5 years, the probability that your inverter will fail after warranty expiry — during its 6-to-12-year operational life — is not trivial. Budget for it, or buy a warranty that covers it.
 
@@ -90,7 +90,7 @@ The [true cost of solar inverter replacement in India](/blog/solar-inverter-repl
 - **Is the warranty transferable** — this affects resale value of the home.
 - **Who handles the claim** — a local authorised partner or a centralised call centre with no on-site capability?
 
-> **12 years** is the minimum acceptable [solar inverter warranty](/blog/solar-inverter-warranty/) period for a system expected to generate returns over a 25-year panel life. A 5-year warranty means the buyer self-insures the inverter for the remaining 20 years. *Source — [IEA Renewables 2025 report](https://www.iea.org/reports/renewables-2025){target="_blank" rel="noopener"}.*
+> **12 years** is the minimum acceptable [solar inverter warranty](/blog/solar-inverter-warranty/) period for a system expected to generate returns over a 25-year panel life. A 5-year warranty means the buyer self-insures the inverter for the remaining 20 years. *Source — [IEA Renewables 2025 report](https://www.iea.org/reports/renewables-2025).*
 
 The safest approach is to treat the warranty document as a purchase criterion equal in weight to price. If the vendor cannot produce the physical warranty card or digital certificate at the time of quotation, do not proceed.
 
@@ -125,13 +125,13 @@ The [ALMM (Approved Models and Manufacturers List)](/glossary/almm-list/) is mai
 
 The stakes are large. The central subsidy for a 3 kW system is ₹78,000. A 2 kW system qualifies for ₹60,000. These amounts are transferred directly to the buyer's bank account after the DISCOM verifies the installation. If your inverter is not on the ALMM list, the DISCOM rejects the application. You get ₹0.
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the buyer's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the buyer's bank account after DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 The ALMM mistake is surprisingly common for two reasons. First, the list is updated quarterly, and a model that was ALMM-listed when the vendor ordered inventory may have been delisted by the time of installation. Second, many local assemblers sell inverters under generic or rebranded labels that were never listed.
 
 ### How to Verify ALMM Status in 3 Minutes
 
-1. Visit the [MNRE ALMM portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} — the list is publicly searchable.
+1. Visit the [MNRE ALMM portal](https://mnre.gov.in/almm-list/) — the list is publicly searchable.
 2. Search by manufacturer name and model number — both must match exactly.
 3. Confirm the phase (Phase I, II, or III) — Phase III is current; Phase I/II status may affect newer subsidy applications.
 4. Screenshot the result and share it with your installer before signing.
@@ -157,7 +157,7 @@ The problem: many inverter brands spend heavily on national advertising but have
 - The local installer who sold the system "will try to handle it" but has no spare boards and no direct contact at the brand's support desk.
 - Repair estimates come in at 60–80% of a new unit's cost, making replacement the only sensible option — but the brand does not cover replacement under a 5-year warranty.
 
-> **180+ days.** Estimated average time-to-repair for residential inverter failures where no local authorised service centre exists within 100 km, based on installer-reported data from Tier-2 and Tier-3 Indian towns. *Source — [Mercom India Solar Market Report, Q4 2025](https://www.mercomindia.com/){target="_blank" rel="noopener"}.*
+> **180+ days.** Estimated average time-to-repair for residential inverter failures where no local authorised service centre exists within 100 km, based on installer-reported data from Tier-2 and Tier-3 Indian towns. *Source — [Mercom India Solar Market Report, Q4 2025](https://www.mercomindia.com/).*
 
 The [solar inverter reliability index](/blog/solar-inverter-reliability-index/) tracks service network coverage by brand and state. The data consistently shows that brands with dedicated Tier-2/3 service presence resolve faults 3–4 times faster than those relying solely on centralised repair depots.
 

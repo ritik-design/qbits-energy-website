@@ -64,7 +64,7 @@ At 42 kWh/day average, annual consumption is approximately 15,330 kWh — higher
 
 ## Why Rajasthan Is India's Best — and Harshest — Solar Environment
 
-No state in mainland India receives more solar irradiance than Rajasthan. The Jaipur district records a [Global Horizontal Irradiance (GHI)](/glossary/ghi/) of approximately 6.0–6.5 kWh/m²/day on an annual average, with peak summer months (April and May) touching 7.0–7.5 kWh/m²/day. By comparison, Mumbai averages 5.0–5.3 kWh/m²/day and Bengaluru 5.1–5.4 kWh/m²/day. IRENA's global renewable resource data confirms that north-western India ranks among the highest solar resource zones in Asia. *Source — [IRENA Global Renewable Resource Data](https://www.irena.org/Data/View-data-by-topic/Renewable-Potential/Renewable-Energy-Statistics){target="_blank" rel="noopener"}, 2025.*
+No state in mainland India receives more solar irradiance than Rajasthan. The Jaipur district records a [Global Horizontal Irradiance (GHI)](/glossary/ghi/) of approximately 6.0–6.5 kWh/m²/day on an annual average, with peak summer months (April and May) touching 7.0–7.5 kWh/m²/day. By comparison, Mumbai averages 5.0–5.3 kWh/m²/day and Bengaluru 5.1–5.4 kWh/m²/day. IRENA's global renewable resource data confirms that north-western India ranks among the highest solar resource zones in Asia. *Source — [IRENA Global Renewable Resource Data](https://www.irena.org/Data/View-data-by-topic/Renewable-Potential/Renewable-Energy-Statistics), 2025.*
 
 > **6.2 kWh/m²/day.** Jaipur's annual average Global Horizontal Irradiance, making it among the top three Indian cities for rooftop solar yield per kWp installed. *Source — [NREL Global Solar Atlas](https://globalsolaratlas.info/), 2026.*
 
@@ -161,7 +161,7 @@ The summer months (March through June) generate 30–35% above the annual averag
 
 The [net metering](/glossary/net-metering/) connection is what converts a solar system from a self-consumption tool into a full bill-elimination machine. Without it, any solar energy generated beyond the home's instantaneous consumption is wasted. With it, every surplus unit goes to the grid and returns as a bill credit.
 
-JVVNL operates under the [Rajasthan Electricity Regulatory Commission's net metering framework](https://www.rerc.rajasthan.gov.in/){target="_blank" rel="noopener"}. The application process for this villa followed these steps, which is the standard sequence for any residential consumer in the JVVNL territory. The full national context for net metering applications is covered in the dedicated guide on [how to apply for net metering in India](/blog/how-to-apply-net-metering-india/).
+JVVNL operates under the [Rajasthan Electricity Regulatory Commission's net metering framework](https://www.rerc.rajasthan.gov.in/). The application process for this villa followed these steps, which is the standard sequence for any residential consumer in the JVVNL territory. The full national context for net metering applications is covered in the dedicated guide on [how to apply for net metering in India](/blog/how-to-apply-net-metering-india/).
 
 ### Step 1 — Feasibility Confirmation
 
@@ -187,14 +187,14 @@ The total time from application to first net-metered bill was 47 days in this ca
 
 ## Rajasthan State Solar Subsidy: Eligibility and Claim Process
 
-Central subsidy under [PM Surya Ghar Muft Bijli Yojana](/glossary/pm-surya-ghar/) applies to residential systems up to 10 kW. For a 10 kW system, the central subsidy structure (as per [MNRE PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}) is:
+Central subsidy under [PM Surya Ghar Muft Bijli Yojana](/glossary/pm-surya-ghar/) applies to residential systems up to 10 kW. For a 10 kW system, the central subsidy structure (as per [MNRE PM Surya Ghar portal](https://pmsuryaghar.gov.in/)) is:
 
 - First 2 kW: ₹30,000/kW = ₹60,000
 - Next 1 kW (up to 3 kW total): ₹18,000/kW = ₹18,000
 - 4–10 kW: ₹9,000/kW = ₹63,000
 - **Total central subsidy for 10 kW: ₹1,41,000**
 
-Beyond the central subsidy, Rajasthan Renewable Energy Corporation Limited (RRECL) has periodically offered state-level incentives for residential solar installations. The specific state scheme in effect at the time of installation should be confirmed with the local JVVNL consumer services office or on the [MNRE state policy tracker](https://mnre.gov.in/){target="_blank" rel="noopener"}.
+Beyond the central subsidy, Rajasthan Renewable Energy Corporation Limited (RRECL) has periodically offered state-level incentives for residential solar installations. The specific state scheme in effect at the time of installation should be confirmed with the local JVVNL consumer services office or on the [MNRE state policy tracker](https://mnre.gov.in/).
 
 The subsidy is paid directly to the consumer's bank account after the DISCOM verifies the installation meets technical standards and the inverter is ALMM-listed. This is a critical requirement — only inverters on the ALMM list are eligible. Qbits inverters are ALMM Phase III listed, which means the subsidy application proceeds without technical rejection. The post on [ALMM list Phase III compliance](/blog/almm-list-phase-iii-guide/) explains what this listing means and how to verify it.
 
@@ -215,7 +215,7 @@ For the villa in this case study, the confirmed central subsidy was ₹1,41,000.
 
 ## Financial Returns: The 10-Year Savings Projection
 
-The payback calculation follows a straightforward annual savings methodology, with the first year anchored to real numbers and a modest tariff escalation applied in subsequent years. India's residential solar sector added over 4 GW of rooftop capacity in 2025 alone, with Rajasthan among the top three contributing states. *Source — [Mercom India Solar Market Report](https://www.mercomindia.com/){target="_blank" rel="noopener"}, Q1 2026.*
+The payback calculation follows a straightforward annual savings methodology, with the first year anchored to real numbers and a modest tariff escalation applied in subsequent years. India's residential solar sector added over 4 GW of rooftop capacity in 2025 alone, with Rajasthan among the top three contributing states. *Source — [Mercom India Solar Market Report](https://www.mercomindia.com/), Q1 2026.*
 
 **Year 1 baseline:**
 - Annual solar generation: 21,500 kWh

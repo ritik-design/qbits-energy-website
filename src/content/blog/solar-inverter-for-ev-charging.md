@@ -68,7 +68,7 @@ An on-grid inverter exports surplus solar generation to the grid during the day 
 
 The reality is more complicated. Net metering credit rates are determined by your state DISCOM and are often lower than the retail tariff you pay — sometimes as low as ₹3–4/unit in states that use avoided-cost pricing. The savings calculation collapses if you are exporting at ₹3.5 and importing for EV charging at ₹9. Beyond economics, on-grid inverters provide no backup during power cuts. If the grid trips while your EV is charging, the charger stops. In Tier-2 cities where 2–4 hour outages still occur, this is a genuine operational problem.
 
-> **₹9.50/unit.** The average residential retail electricity tariff in Maharashtra for consumption above 300 units/month as of April 2026. At this rate, charging a Tata Nexon EV (40.5 kWh battery) from grid power costs ₹385 per full charge. A hybrid solar system that covers 60% of charging from stored solar power saves ₹232 per charge — or roughly ₹4,200/month for a family that charges twice a week. *Source — [Maharashtra Electricity Regulatory Commission tariff order 2025–26](https://www.mercindia.org.in/){target="_blank" rel="noopener"}, April 2026.*
+> **₹9.50/unit.** The average residential retail electricity tariff in Maharashtra for consumption above 300 units/month as of April 2026. At this rate, charging a Tata Nexon EV (40.5 kWh battery) from grid power costs ₹385 per full charge. A hybrid solar system that covers 60% of charging from stored solar power saves ₹232 per charge — or roughly ₹4,200/month for a family that charges twice a week. *Source — [Maharashtra Electricity Regulatory Commission tariff order 2025–26](https://www.mercindia.org.in/), April 2026.*
 
 A hybrid inverter resolves both problems. It stores surplus afternoon generation in a battery bank and dispatches that stored energy on demand — including for EV charging at 9 PM or 6 AM. The [MPPT](/glossary/mppt/) charge controller inside the hybrid inverter simultaneously optimises solar harvest and battery charge rate, maximising the units available for the car every evening.
 
@@ -165,13 +165,13 @@ The [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-of
 
 Vehicle-to-Grid (V2G) technology allows an EV battery to act as a large household energy storage unit, feeding power back into the home — or eventually into the grid — during peak demand periods. A fully charged Tata Nexon EV carries 40.5 kWh of usable energy; at 5 kW export rate, that is over 8 hours of full household power from the car battery alone.
 
-V2G is not yet commercially available in India at the residential level as of June 2026. The [Central Electricity Authority](https://cea.nic.in/){target="_blank" rel="noopener"} published draft technical standards for bidirectional grid-connected inverters in Q4 2025, and pilot deployments are running in Delhi and Mumbai. Regulatory finalisation is expected in 2027. When V2G does arrive, the household solar inverter becomes the orchestration layer — it decides when to charge the car from panels, when to discharge to the home, and when to export to the grid.
+V2G is not yet commercially available in India at the residential level as of June 2026. The [Central Electricity Authority](https://cea.nic.in/) published draft technical standards for bidirectional grid-connected inverters in Q4 2025, and pilot deployments are running in Delhi and Mumbai. Regulatory finalisation is expected in 2027. When V2G does arrive, the household solar inverter becomes the orchestration layer — it decides when to charge the car from panels, when to discharge to the home, and when to export to the grid.
 
-> **Smart inverter readiness matters today, not in 2027.** The [ev-charger](/glossary/ev-charger/) standard your installer specifies must be compatible with bidirectional AC charging (ISO 15118 protocol stack). Combined inverters that support AC coupling — where the EV charger connects on the AC side rather than direct DC — are upgradeable to V2G without replacing the solar inverter. *Source — [International Energy Agency, Global EV Outlook 2025](https://www.iea.org/reports/global-ev-outlook-2025){target="_blank" rel="noopener"}.*
+> **Smart inverter readiness matters today, not in 2027.** The [ev-charger](/glossary/ev-charger/) standard your installer specifies must be compatible with bidirectional AC charging (ISO 15118 protocol stack). Combined inverters that support AC coupling — where the EV charger connects on the AC side rather than direct DC — are upgradeable to V2G without replacing the solar inverter. *Source — [International Energy Agency, Global EV Outlook 2025](https://www.iea.org/reports/global-ev-outlook-2025).*
 
 The architecture choice today is therefore: buy a hybrid inverter with an AC-coupled output port, not a proprietary DC-coupled charger that locks you into one manufacturer's closed platform. This is exactly the architecture the Qbits HS hybrid series uses, giving homeowners a clear upgrade path to V2G once CEA finalises the regulations.
 
-> **India crossed 5 million cumulative EV registrations** by March 2026, with two-wheelers accounting for 60% of new EV sales and passenger EVs growing 48% year-on-year. *Source — [Vahan Dashboard, Ministry of Road Transport and Highways](https://vahan.parivahan.gov.in/){target="_blank" rel="noopener"}, March 2026.*
+> **India crossed 5 million cumulative EV registrations** by March 2026, with two-wheelers accounting for 60% of new EV sales and passenger EVs growing 48% year-on-year. *Source — [Vahan Dashboard, Ministry of Road Transport and Highways](https://vahan.parivahan.gov.in/), March 2026.*
 
 ## Comparing Inverter Options for Solar EV Charging
 
@@ -241,7 +241,7 @@ A 10.7 kW array is impractical for a 3 BHK flat roof. The realistic decision is 
 
 At tariff escalation of 8% per year, the actual payback shortens to approximately **3.7 years**.
 
-> **India's residential solar installations crossed 3.5 GW in FY2025–26**, with hybrid systems accounting for 34% of new residential capacity — up from 18% in FY2024–25, driven largely by EV adoption and rising grid tariffs. *Source — [JMK Research, India Rooftop Solar Market Tracker Q1 2026](https://jmkresearch.com/){target="_blank" rel="noopener"}.*
+> **India's residential solar installations crossed 3.5 GW in FY2025–26**, with hybrid systems accounting for 34% of new residential capacity — up from 18% in FY2024–25, driven largely by EV adoption and rising grid tariffs. *Source — [JMK Research, India Rooftop Solar Market Tracker Q1 2026](https://jmkresearch.com/).*
 
 The [solar inverter payback period](/blog/solar-inverter-payback-period-in-india/) guide covers the full financial modelling framework including degradation, O&M costs, and tariff escalation scenarios.
 

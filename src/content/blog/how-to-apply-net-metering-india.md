@@ -48,7 +48,7 @@ Before submitting a single document, three eligibility questions must be answere
 
 ### Question 1 — Does your DISCOM serve your area with net metering?
 
-All DISCOMs in India are legally required to offer net metering under the Electricity Act 2003 and the Ministry of New and Renewable Energy's Net Metering Guidelines. The [MNRE Net Metering Guidelines](https://mnre.gov.in/){target="_blank" rel="noopener"} mandate that every state's SERC frame net metering regulations, and all major states have done so. The practical question is not whether net metering is available — it is whether the specific feeder serving your premises has capacity to absorb additional solar generation. In congested urban feeders, DISCOMs sometimes defer new net metering connections until infrastructure upgrades are complete.
+All DISCOMs in India are legally required to offer net metering under the Electricity Act 2003 and the Ministry of New and Renewable Energy's Net Metering Guidelines. The [MNRE Net Metering Guidelines](https://mnre.gov.in/) mandate that every state's SERC frame net metering regulations, and all major states have done so. The practical question is not whether net metering is available — it is whether the specific feeder serving your premises has capacity to absorb additional solar generation. In congested urban feeders, DISCOMs sometimes defer new net metering connections until infrastructure upgrades are complete.
 
 Check your DISCOM website or call the consumer helpline to confirm your feeder area's current net metering status before spending on installation.
 
@@ -80,11 +80,11 @@ At this stage, also verify whether your DISCOM mandates a feasibility applicatio
 
 ### Step 2 — Get the solar system installed by an empanelled vendor using ALMM-listed equipment
 
-The installation must be completed by a vendor empanelled under MNRE or your state DISCOM scheme. For PM Surya Ghar-linked net metering, the installer must be on the [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in){target="_blank" rel="noopener"} empanelled vendor list. For standalone net metering without PM Surya Ghar, a licensed electrical contractor with a valid CEI or CEIG certificate is typically accepted.
+The installation must be completed by a vendor empanelled under MNRE or your state DISCOM scheme. For PM Surya Ghar-linked net metering, the installer must be on the [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in) empanelled vendor list. For standalone net metering without PM Surya Ghar, a licensed electrical contractor with a valid CEI or CEIG certificate is typically accepted.
 
 The inverter and solar panels must meet the technical requirements your DISCOM will check at inspection:
 
-- **Inverter**: ALMM-listed, BIS-certified, IEC 62116 anti-islanding compliant. Confirm the specific model appears on the current [MNRE ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}.
+- **Inverter**: ALMM-listed, BIS-certified, IEC 62116 anti-islanding compliant. Confirm the specific model appears on the current [MNRE ALMM list](https://mnre.gov.in/almm-list/).
 - **Panels**: ALMM-listed under the module category.
 - **Earthing**: Double earthing for the mounting structure and the inverter body.
 - **AC and DC isolators**: Properly rated and labelled.
@@ -127,7 +127,7 @@ The final step is signing the net metering agreement with your DISCOM. This docu
 
 From this point, your net metering connection is live. Your next electricity bill will reflect both import and export readings, and you pay only for the net difference.
 
-> **30–90 days.** The typical end-to-end timeline for net metering approval in India, from application submission to bidirectional meter activation. Gujarat and Karnataka process faster at 30–45 days; Rajasthan and Tamil Nadu average 60–90 days. *Source — [MNRE Net Metering Guidelines](https://mnre.gov.in/){target="_blank" rel="noopener"}, updated 2025.*
+> **30–90 days.** The typical end-to-end timeline for net metering approval in India, from application submission to bidirectional meter activation. Gujarat and Karnataka process faster at 30–45 days; Rajasthan and Tamil Nadu average 60–90 days. *Source — [MNRE Net Metering Guidelines](https://mnre.gov.in/), updated 2025.*
 
 ## The Net Metering Application Checklist — 12 Items Before You Submit
 
@@ -167,13 +167,13 @@ Each state has its own portal, processing norms, and pain points. The table belo
 
 | State | DISCOM(s) | Portal / Submission Method | Typical Processing Time | Key Pain Points |
 | --- | --- | --- | --- | --- |
-| **Maharashtra** | MSEDCL | [msedcl.in](https://www.msedcl.in){target="_blank" rel="noopener"} — online application; PM Surya Ghar portal for scheme | 45–75 days | Inspection backlogs in Pune and Mumbai suburban circles; portal downtime; manual SLD verification |
-| **Gujarat** | DGVCL, PGVCL, MGVCL, UGVCL | State DISCOM portals (discom-specific) + [geda.gujarat.gov.in](https://geda.gujarat.gov.in){target="_blank" rel="noopener"} | 30–45 days | Four separate DISCOMs with slightly different forms; Saurashtra circles (PGVCL) faster than Ahmedabad urban circles |
-| **Karnataka** | BESCOM (Bengaluru + surrounds) | [bescom.org](https://www.bescom.org){target="_blank" rel="noopener"} — online; PM Surya Ghar portal | 30–50 days | SPD certificate requirement; SLD mismatch at inspection is the top rejection reason |
-| **Kerala** | KSEB | [kseb.in](https://wss.kseb.in){target="_blank" rel="noopener"} — online portal | 45–60 days | Meter availability delays in high-rainfall coastal areas; net metering capped at sanctioned load strictly enforced |
+| **Maharashtra** | MSEDCL | [msedcl.in](https://www.msedcl.in) — online application; PM Surya Ghar portal for scheme | 45–75 days | Inspection backlogs in Pune and Mumbai suburban circles; portal downtime; manual SLD verification |
+| **Gujarat** | DGVCL, PGVCL, MGVCL, UGVCL | State DISCOM portals (discom-specific) + [geda.gujarat.gov.in](https://geda.gujarat.gov.in) | 30–45 days | Four separate DISCOMs with slightly different forms; Saurashtra circles (PGVCL) faster than Ahmedabad urban circles |
+| **Karnataka** | BESCOM (Bengaluru + surrounds) | [bescom.org](https://www.bescom.org) — online; PM Surya Ghar portal | 30–50 days | SPD certificate requirement; SLD mismatch at inspection is the top rejection reason |
+| **Kerala** | KSEB | [kseb.in](https://wss.kseb.in) — online portal | 45–60 days | Meter availability delays in high-rainfall coastal areas; net metering capped at sanctioned load strictly enforced |
 | **Tamil Nadu** | TANGEDCO | Online form + physical documents to local AE/ADE office | 60–90 days | Hybrid online+offline process is slow; export credited at APPC rate (lower than retail tariff); feeder capacity rejections in Chennai |
-| **Rajasthan** | JVVNL (Jaipur), AVVNL (Ajmer) | JVVNL: [jvvnl.com](https://www.jvvnl.in){target="_blank" rel="noopener"} — partial online; AVVNL: similar | 60–90 days | High application volume; inspection queue particularly long in Jaipur and Jodhpur zones; load calculation document often rejected due to format issues |
-| **Delhi** | BSES Rajdhani, BSES Yamuna, Tata Power Delhi | BSES: [bsesdelhi.com](https://www.bsesdelhi.com){target="_blank" rel="noopener"} — online; Tata Power: [tatapower-ddl.com](https://www.tatapower-ddl.com){target="_blank" rel="noopener"} | 30–60 days | Three DISCOMs with different online portals and slightly different document checklists; confirm which DISCOM serves your specific address |
+| **Rajasthan** | JVVNL (Jaipur), AVVNL (Ajmer) | JVVNL: [jvvnl.com](https://www.jvvnl.in) — partial online; AVVNL: similar | 60–90 days | High application volume; inspection queue particularly long in Jaipur and Jodhpur zones; load calculation document often rejected due to format issues |
+| **Delhi** | BSES Rajdhani, BSES Yamuna, Tata Power Delhi | BSES: [bsesdelhi.com](https://www.bsesdelhi.com) — online; Tata Power: [tatapower-ddl.com](https://www.tatapower-ddl.com) | 30–60 days | Three DISCOMs with different online portals and slightly different document checklists; confirm which DISCOM serves your specific address |
 
 ### Maharashtra (MSEDCL)
 
@@ -183,7 +183,7 @@ Maharashtra allows export credits at the retail tariff rate, which makes net met
 
 ### Gujarat (DGVCL, PGVCL, MGVCL, UGVCL)
 
-Gujarat is split across four DISCOMs, each with its own portal. The Gujarat Energy Development Agency ([GEDA](https://geda.gujarat.gov.in){target="_blank" rel="noopener"}) coordinates the state's solar programme and provides guidance on DISCOM-specific processes. Processing times in Gujarat are among the best in India — 30 to 45 days — thanks to the state's long history of rooftop solar promotion. The Saurashtra region (PGVCL territory) is noted for particularly smooth processing.
+Gujarat is split across four DISCOMs, each with its own portal. The Gujarat Energy Development Agency ([GEDA](https://geda.gujarat.gov.in)) coordinates the state's solar programme and provides guidance on DISCOM-specific processes. Processing times in Gujarat are among the best in India — 30 to 45 days — thanks to the state's long history of rooftop solar promotion. The Saurashtra region (PGVCL territory) is noted for particularly smooth processing.
 
 The main complexity in Gujarat is identifying which DISCOM serves your specific address. Confirm your DISCOM from your electricity bill header — it will clearly state DGVCL, PGVCL, MGVCL, or UGVCL.
 
@@ -201,7 +201,7 @@ TANGEDCO's net metering process remains partially offline in 2026. The applicati
 
 ### Rajasthan (JVVNL and AVVNL)
 
-Rajasthan has two major DISCOMs for the purposes of residential net metering: Jaipur Vidyut Vitran Nigam Limited (JVVNL) covering Jaipur zone, and Ajmer Vidyut Vitran Nigam Limited (AVVNL) covering Ajmer, Jodhpur, and other areas. Both DISCOMs have high application volumes, and inspection queues in Jaipur and Jodhpur regularly stretch beyond 45 days. The load calculation sheet is frequently rejected by JVVNL for format non-compliance — ask your installer to prepare this document using the JVVNL-prescribed template, which is downloadable from [jvvnl.in](https://www.jvvnl.in){target="_blank" rel="noopener"}.
+Rajasthan has two major DISCOMs for the purposes of residential net metering: Jaipur Vidyut Vitran Nigam Limited (JVVNL) covering Jaipur zone, and Ajmer Vidyut Vitran Nigam Limited (AVVNL) covering Ajmer, Jodhpur, and other areas. Both DISCOMs have high application volumes, and inspection queues in Jaipur and Jodhpur regularly stretch beyond 45 days. The load calculation sheet is frequently rejected by JVVNL for format non-compliance — ask your installer to prepare this document using the JVVNL-prescribed template, which is downloadable from [jvvnl.in](https://www.jvvnl.in).
 
 ### Delhi (BSES and Tata Power)
 
@@ -209,7 +209,7 @@ Delhi is served by three DISCOMs: BSES Rajdhani, BSES Yamuna, and Tata Power Del
 
 ## Timeline Expectations and What to Do If Your DISCOM Delays
 
-> **60 days.** The median time from solar installation to bidirectional meter activation across Indian states, based on aggregated DISCOM processing data tracked by [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"} through Q1 2026. The fastest 10% of applicants receive meter activation within 21 days; the slowest 10% wait more than 120 days.
+> **60 days.** The median time from solar installation to bidirectional meter activation across Indian states, based on aggregated DISCOM processing data tracked by [Mercom India](https://www.mercomindia.com/) through Q1 2026. The fastest 10% of applicants receive meter activation within 21 days; the slowest 10% wait more than 120 days.
 
 The table below breaks the net metering application timeline into its component stages:
 
@@ -276,7 +276,7 @@ Check your state's current SERC order on carry-forward rules — these are updat
 
 For households on the PM Surya Ghar scheme, net metering activation also triggers the subsidy processing sequence. Once the DISCOM marks the net meter as live on the backend, the subsidy amount — up to ₹78,000 for a 3 kW system — is credited to the bank account via NACH within 15 to 30 days.
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW or larger residential system, directly linked to successful net metering commissioning and DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW or larger residential system, directly linked to successful net metering commissioning and DISCOM verification. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ## Should You Choose an Installer Based on Their Net Metering Track Record?
 

@@ -56,7 +56,7 @@ The discount rate is critical because it adjusts future costs and future generat
 
 Simple payback (CAPEX ÷ annual savings) ignores three things that matter enormously at C&I scale: the cost of debt, panel degradation, and O&M escalation. A 50 kW plant with a 5-year payback does not produce the same financial outcome if the project is debt-financed at 10% versus equity-funded from cash reserves. LCOE captures the financing cost explicitly through the discount rate. For plant sizes above ₹50 lakh — where IREDA loans, PSU bank green-bond financing, or external commercial borrowing is involved — LCOE and DSCR are the required outputs. Simple payback is a residential homeowner's shortcut, not a finance manager's tool.
 
-> **₹3.5 trillion.** Estimated cumulative C&I solar investment in India by 2030 as the segment scales from 7 GW installed capacity (2024) to a projected 35 GW target, per [JMK Research's India Solar Market Outlook](https://jmkresearch.com/){target="_blank" rel="noopener"} published in early 2025.
+> **₹3.5 trillion.** Estimated cumulative C&I solar investment in India by 2030 as the segment scales from 7 GW installed capacity (2024) to a projected 35 GW target, per [JMK Research's India Solar Market Outlook](https://jmkresearch.com/) published in early 2025.
 
 ## The 6 Inputs for LCOE Solar India — A C&I Baseline
 
@@ -88,7 +88,7 @@ This is the named framework every CFO and CA can apply to any C&I solar proposal
 
 1. **Net CAPEX after AD** — Start with the EPC quote in ₹/kWp. Multiply by system size in kWp to get gross CAPEX. Then subtract the Year 1 tax shield from 40% accelerated depreciation (Section 32, Income Tax Act): Tax Shield = Gross CAPEX × 40% × effective tax rate. Net CAPEX = Gross CAPEX − Tax Shield.
 
-2. **Realistic annual generation** — Take system size in kWp × daily peak sun hours for your location × 365 days × performance ratio (0.75–0.80 for a well-maintained rooftop). Do not accept EPC generation claims above 1,600 kWh/kWp/year for most of India; cross-check against NASA POWER or NREL's [Global Solar Atlas](https://globalsolaratlas.info/){target="_blank" rel="noopener"} data for your pincode.
+2. **Realistic annual generation** — Take system size in kWp × daily peak sun hours for your location × 365 days × performance ratio (0.75–0.80 for a well-maintained rooftop). Do not accept EPC generation claims above 1,600 kWh/kWp/year for most of India; cross-check against NASA POWER or NREL's [Global Solar Atlas](https://globalsolaratlas.info/) data for your pincode.
 
 3. **Degradation schedule** — Apply 0.5%/year compounded degradation to Year 1 generation. Year 2 = Year 1 × 0.995, Year 3 = Year 2 × 0.995, and so on. Sum the 25-year generation series. This is the denominator of your LCOE.
 
@@ -183,7 +183,7 @@ As calculated above, a 50 kWp C&I plant in peninsular India produces power at **
 
 The solar LCOE is not just cheaper today — the advantage widens over time because grid tariffs and diesel prices escalate while the solar LCOE is fixed at the time of installation. A plant commissioned in 2026 at ₹2.75/kWh LCOE competes against a grid tariff that is likely to reach ₹12–16/kWh by 2035 at a 4–5% annual escalation rate.
 
-> **₹2.62/kWh.** Average bid-discovered solar tariff in Indian utility-scale auctions in 2024, as reported by [Mercom India's Tender and Auction Tracker](https://www.mercomindia.com/){target="_blank" rel="noopener"}. Rooftop C&I LCOE is slightly higher due to smaller scale but remains well below the commercial retail tariff.
+> **₹2.62/kWh.** Average bid-discovered solar tariff in Indian utility-scale auctions in 2024, as reported by [Mercom India's Tender and Auction Tracker](https://www.mercomindia.com/). Rooftop C&I LCOE is slightly higher due to smaller scale but remains well below the commercial retail tariff.
 
 ## When LCOE Analysis Becomes a Banking Requirement
 
@@ -197,7 +197,7 @@ A DSCR model cannot be built without an LCOE model as its foundation. The genera
 
 ### Board or CFO Sign-Off on Large Capital Expenditure
 
-Most Indian companies require board or CFO approval for capital expenditure above ₹50–75 lakh. A solar project at this scale almost always requires a full financial model — LCOE, IRR, NPV, and sensitivity analysis — as part of the capital expenditure approval memorandum. The IRR (internal rate of return) is the discount rate at which the project's NPV equals zero. A 50 kWp plant with the inputs above typically delivers an IRR of **18–24%** over 25 years — well above the 10–12% hurdle rate most Indian CFOs apply to capital projects. IRENA's [Renewable Power Generation Costs in 2023](https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023){target="_blank" rel="noopener"} documents the global convergence of solar LCOE toward $0.04–0.06/kWh (₹3.4–5.0/kWh at current exchange rates), confirming that Indian C&I LCOE figures are at or below global benchmarks.
+Most Indian companies require board or CFO approval for capital expenditure above ₹50–75 lakh. A solar project at this scale almost always requires a full financial model — LCOE, IRR, NPV, and sensitivity analysis — as part of the capital expenditure approval memorandum. The IRR (internal rate of return) is the discount rate at which the project's NPV equals zero. A 50 kWp plant with the inputs above typically delivers an IRR of **18–24%** over 25 years — well above the 10–12% hurdle rate most Indian CFOs apply to capital projects. IRENA's [Renewable Power Generation Costs in 2023](https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023) documents the global convergence of solar LCOE toward $0.04–0.06/kWh (₹3.4–5.0/kWh at current exchange rates), confirming that Indian C&I LCOE figures are at or below global benchmarks.
 
 ### Open Access Solar for Large Consumers
 
@@ -267,7 +267,7 @@ This IRR of 19–23% compares favourably to the IRR threshold most Indian CFOs a
 
 For post-AD LCOE of ₹2.48/kWh, the surplus against ₹9/kWh grid rises to ₹6.52/kWh, pushing the IRR closer to 22–26%. The [solar inverter payback period](/blog/solar-inverter-payback-period-in-india/) post explains the relationship between inverter efficiency, system yield, and how payback interacts with IRR in detail.
 
-> **37 GW.** Cumulative rooftop solar capacity target under India's National Solar Mission for 2030, as stated in [MNRE's Renewable Energy Targets](https://mnre.gov.in/){target="_blank" rel="noopener"}. C&I installations are the primary driver of the rooftop segment, accounting for roughly 60% of cumulative installed rooftop capacity.
+> **37 GW.** Cumulative rooftop solar capacity target under India's National Solar Mission for 2030, as stated in [MNRE's Renewable Energy Targets](https://mnre.gov.in/). C&I installations are the primary driver of the rooftop segment, accounting for roughly 60% of cumulative installed rooftop capacity.
 
 ## LCOE Modelling for Banking and Project Finance
 

@@ -40,7 +40,7 @@ India's rooftop solar sector crossed 18 GW of cumulative installed capacity in 2
 
 > **Direct answer.** The solar inverter market in India is valued at USD 1.4–1.6 billion (FY 2025) and growing at a 15–18% CAGR through FY 2030, driven by PM Surya Ghar's residential push, accelerating C&I adoption, and ALMM III compliance pressure that is reshaping import dynamics. The market passed the 18 GW rooftop milestone in 2025 and is on track for 40 GW by 2029 if DISCOM grid constraints are addressed. The 5-Lens India Market Readiness Framework (detailed below) is the structured way to evaluate any inverter brand against this landscape.
 
-This report draws on data from [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}, [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"}, [MNRE](https://mnre.gov.in/){target="_blank" rel="noopener"}, and [IRENA](https://www.irena.org/){target="_blank" rel="noopener"} to give EPCs and channel partners an accurate baseline for planning in FY 2026 and beyond. Internal links connect you to the detailed guides that go deeper on each subtopic.
+This report draws on data from [Mercom India](https://www.mercomindia.com/), [JMK Research](https://jmkresearch.com/), [Bridge to India](https://bridgetoindia.com/), [MNRE](https://mnre.gov.in/), and [IRENA](https://www.irena.org/) to give EPCs and channel partners an accurate baseline for planning in FY 2026 and beyond. Internal links connect you to the detailed guides that go deeper on each subtopic.
 
 ## India's Rooftop Solar Milestone: What 18 GW Means for the Inverter Market
 
@@ -48,7 +48,7 @@ India's cumulative rooftop solar installed capacity crossed 18 GW in calendar ye
 
 Every gigawatt of rooftop solar deployed translates to approximately 200,000–250,000 inverter units sold, depending on average system size. At 18 GW total stock, India has an installed inverter base approaching 3.5–4 million units — each of which will require warranty support, monitoring, or replacement within a 10–15 year window. The aftermarket for inverter services and replacements is already becoming a standalone revenue stream for well-positioned brands.
 
-> **18 GW.** India's cumulative rooftop solar installed capacity as of 2025, placing the country among the top five rooftop solar markets globally. Annual additions accelerated to 4–5 GW/year in FY 2025, compared to under 2 GW/year in FY 2022. *Source — [Mercom India Quarterly Report, Q4 2025](https://www.mercomindia.com/){target="_blank" rel="noopener"}.*
+> **18 GW.** India's cumulative rooftop solar installed capacity as of 2025, placing the country among the top five rooftop solar markets globally. Annual additions accelerated to 4–5 GW/year in FY 2025, compared to under 2 GW/year in FY 2022. *Source — [Mercom India Quarterly Report, Q4 2025](https://www.mercomindia.com/).*
 
 The [ALMM list](/glossary/almm-list/) (Approved List of Models and Manufacturers) maintained by MNRE has become the single most important compliance gateway for inverter brands operating in this market. Phase III of ALMM extended the requirement to inverters used in PM Surya Ghar and state-subsidy schemes — a policy change that effectively redrew the competitive map overnight. Brands without ALMM listing found themselves locked out of the fastest-growing procurement channel in the country.
 
@@ -150,7 +150,7 @@ The Approved List of Models and Manufacturers (ALMM) was extended to solar inver
 - **Import tariff interaction** — ALMM compliance is separate from the Basic Customs Duty on imported solar equipment, but the two policies together significantly raise the landed cost of imported inverters for the residential segment.
 - **Domestic brand opportunity** — ALMM testing is conducted at NABL-accredited labs in India and requires a physical unit submission. Domestic manufacturers who have already been through the BIS process find ALMM testing incremental. Imported brands must manage India-specific testing cycles that add 6–12 months to product launch timelines.
 
-> **ALMM Phase III** is the single largest structural change to India's inverter procurement landscape since mandatory BIS certification. For EPCs, the practical implication is straightforward: verify ALMM status for every inverter SKU before project pricing. A non-listed inverter discovered after tender award creates subsidy risk that falls on the installer, not the manufacturer. *Source — [MNRE ALMM Notification](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}, 2024.*
+> **ALMM Phase III** is the single largest structural change to India's inverter procurement landscape since mandatory BIS certification. For EPCs, the practical implication is straightforward: verify ALMM status for every inverter SKU before project pricing. A non-listed inverter discovered after tender award creates subsidy risk that falls on the installer, not the manufacturer. *Source — [MNRE ALMM Notification](https://mnre.gov.in/almm-list/), 2024.*
 
 The [PM Surya Ghar empanelled vendor framework](/blog/empanelled-vendor-pm-surya-ghar/) is tightly linked to ALMM: only empanelled vendors using ALMM-listed components can complete government-subsidy-linked installations.
 
@@ -158,7 +158,7 @@ The [PM Surya Ghar empanelled vendor framework](/blog/empanelled-vendor-pm-surya
 
 The PM Surya Ghar Muft Bijli Yojana is the single largest demand catalyst in the residential solar inverter segment. Launched in February 2024 with a ₹75,021 crore central outlay and a target of 10 million installations, the scheme is generating a structured, subsidy-driven procurement funnel that did not exist at this scale before.
 
-- **Pipeline** — Over 1.3 crore (13 million) registrations on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} as of May 2026, against a 10 million installation target by FY 2027.
+- **Pipeline** — Over 1.3 crore (13 million) registrations on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) as of May 2026, against a 10 million installation target by FY 2027.
 - **Subsidy quantum** — Up to ₹78,000 per household for a 3 kW system, paid directly to the beneficiary's Aadhaar-linked bank account after DISCOM verification.
 - **System size demand** — The scheme's design incentivises 2–3 kW systems (highest subsidy per kW), which translates to inverter orders concentrated in the 2–5 kW range. For EPCs, this creates a standardised product-mix that simplifies procurement and inventory management.
 - **DISCOM processing bottleneck** — The scheme's primary friction point is DISCOM approval and [net metering](/glossary/net-metering/) connection, which takes 60–180 days in many states. This creates a mismatch between installation rate and subsidy disbursement rate, causing cash-flow pressure on EPCs who have already invoiced customers.

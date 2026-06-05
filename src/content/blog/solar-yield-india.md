@@ -67,7 +67,7 @@ These four metrics describe the same plant from different angles. Specific yield
 
 India spans 30 degrees of latitude and contains climatic zones from hyper-arid desert to humid tropical coast. This creates a 50 percent spread in annual solar yield — from around 1,200 kWh/kWp in the north-eastern states to 1,800 kWh/kWp in western Rajasthan.
 
-> **1,200 to 1,800 kWh/kWp/year.** That is India's rooftop solar yield range, based on NREL NSRDB long-term irradiance data. The median for the Indo-Gangetic plain and peninsular India sits at 1,400 to 1,550 kWh/kWp — meaning most Indian buyers should plan around 1,400 to 1,500 kWh/kWp for a well-designed system. *Source — [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/){target="_blank" rel="noopener"}, 2026.*
+> **1,200 to 1,800 kWh/kWp/year.** That is India's rooftop solar yield range, based on NREL NSRDB long-term irradiance data. The median for the Indo-Gangetic plain and peninsular India sits at 1,400 to 1,550 kWh/kWp — meaning most Indian buyers should plan around 1,400 to 1,500 kWh/kWp for a well-designed system. *Source — [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/), 2026.*
 
 The national average is often cited at 1,500 kWh/kWp, which is a reasonable planning number for the Deccan plateau and most of peninsular India. However, applying a national average to a specific project in Kolkata or Shillong will overestimate generation by 15 to 20 percent — a meaningful error when calculating payback or sizing battery storage.
 
@@ -105,7 +105,7 @@ The following table gives fixed-tilt rooftop yield benchmarks for major Indian s
 | West Bengal | 1,500 – 1,680 | 1,200 – 1,300 | 1,250 |
 | Assam / NE States | 1,200 – 1,500 | 1,150 – 1,300 | 1,225 |
 
-Sources: [NREL NSRDB](https://nsrdb.nrel.gov/){target="_blank" rel="noopener"}, [IRENA Global Atlas](https://www.irena.org/Data/View-data-by-topic/Energy-Transition/REmap){target="_blank" rel="noopener"}, [NIWE Solar Resource Atlas](https://niwe.res.in/){target="_blank" rel="noopener"}.
+Sources: [NREL NSRDB](https://nsrdb.nrel.gov/), [IRENA Global Atlas](https://www.irena.org/Data/View-data-by-topic/Energy-Transition/REmap), [NIWE Solar Resource Atlas](https://niwe.res.in/).
 
 ### Why Rajasthan Leads by Such a Wide Margin
 
@@ -141,7 +141,7 @@ Benchmark yields describe a clean, unshaded, correctly oriented system under ave
 
 ### Soiling Losses — India's Biggest Yield Killer
 
-India's combination of dust, agricultural residue, bird activity, and industrial fallout makes soiling the single largest source of generation loss for most rooftop systems. Research published by [IRENA on renewable power generation costs](https://www.irena.org/publications/2025/Jun/Renewable-power-generation-costs-in-2024){target="_blank" rel="noopener"} and field studies from India-based EPCs document the following loss ranges:
+India's combination of dust, agricultural residue, bird activity, and industrial fallout makes soiling the single largest source of generation loss for most rooftop systems. Research published by [IRENA on renewable power generation costs](https://www.irena.org/publications/2025/Jun/Renewable-power-generation-costs-in-2024) and field studies from India-based EPCs document the following loss ranges:
 
 - **Rajasthan / Gujarat (arid)**: 3 to 5 percent per month without cleaning; annual soiling loss of 10 to 15 percent with monthly cleaning.
 - **Punjab / Haryana (agricultural)**: 4 to 6 percent per month in post-harvest periods; 8 to 12 percent annually with bi-weekly cleaning during peak dust months.
@@ -237,7 +237,7 @@ West Bengal's 1,200 to 1,300 kWh/kWp benchmark does not mean solar is unviable �
 Getting the yield estimate right at the proposal stage prevents downstream disputes and financial disappointment. These are the most frequent errors buyers and installers make:
 
 - **Using the national average for every state** — A flat 1,500 kWh/kWp for a Kolkata system overstates generation by 15 to 20 percent and shortens the quoted payback by 1 to 2 years. State-specific benchmarks are not optional.
-- **Ignoring degradation in long-term projections** — Module degradation runs at 0.40 to 0.55 percent per year for quality mono-PERC and TOPCon panels, per [IEC 61215 and IEC 61730 long-term reliability data](https://www.iec.ch/){target="_blank" rel="noopener"}. A 25-year generation promise that uses year-one yield for every year overstates lifetime output by 8 to 12 percent. The [module degradation](/glossary/degradation/) rate should appear explicitly in the detailed financial model.
+- **Ignoring degradation in long-term projections** — Module degradation runs at 0.40 to 0.55 percent per year for quality mono-PERC and TOPCon panels, per [IEC 61215 and IEC 61730 long-term reliability data](https://www.iec.ch/). A 25-year generation promise that uses year-one yield for every year overstates lifetime output by 8 to 12 percent. The [module degradation](/glossary/degradation/) rate should appear explicitly in the detailed financial model.
 - **Treating a shaded roof as unshaded** — Installers sometimes apply benchmark yield to rooftops with chimneys, water tanks, adjacent buildings, or satellite dishes without modelling shadow impact. A 5 percent shading loss that is not disclosed is a 5 percent shortfall in savings relative to promise.
 - **Confusing DC capacity with AC output** — Some quotes use DC kWp for sizing and AC kW for generation estimates inconsistently. Confirm that capacity and yield are measured on the same basis. The [DC oversizing ratio](/blog/dc-oversizing-in-solar/) — typically 1.1 to 1.3× in Indian conditions — affects the relationship between nameplate and real-world output.
 - **Accepting a verbal promise without written specifications** — The generation estimate, assumptions, loss factors, and state benchmark used must appear in the written proposal. A verbal promise of 1,800 units per month carries no contractual weight and cannot be verified against actual monitoring data.
@@ -274,7 +274,7 @@ If an installer uses 1,700 kWh/kWp (Rajasthan-level yield for a Pune system):
 
 That 9-month optimism feels small at signing. Three years into operation, when actual generation is running 20 percent below promise, it does not feel small to the buyer. Accurate yield benchmarks protect buyers from this outcome and protect installers from disputes. The [net metering framework](/blog/net-metering-india-complete-guide/) in most states also depends on accurate yield estimates to determine the export credit the buyer will receive, making precision doubly important.
 
-> **India added 24.5 GW of new solar capacity in 2025**, according to [JMK Research India's solar market tracker](https://jmkresearch.com/){target="_blank" rel="noopener"}, bringing cumulative installed capacity above 100 GW. The scale of this expansion means hundreds of thousands of buyers are receiving generation promises every month — and most have no tool to verify them. *Source — JMK Research, 2026.*
+> **India added 24.5 GW of new solar capacity in 2025**, according to [JMK Research India's solar market tracker](https://jmkresearch.com/), bringing cumulative installed capacity above 100 GW. The scale of this expansion means hundreds of thousands of buyers are receiving generation promises every month — and most have no tool to verify them. *Source — JMK Research, 2026.*
 
 The [Capacity Utilisation Factor (CUF)](/glossary/cuf/) provides a related check: a system promised at 1,500 kWh/kWp annual yield implies a CUF of 1,500 ÷ 8,760 = 17.1 percent. MNRE benchmarks for grid-connected rooftop solar in peninsular India target CUF of 15 to 19 percent. A quoted CUF outside this range for a standard rooftop deserves explanation.
 

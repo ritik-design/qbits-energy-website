@@ -79,7 +79,7 @@ Apply all six criteria to each feature category below. The verdict column summar
 
 WiFi connectivity is the foundational smart feature. Without a data link, the inverter is a black box — you know it is generating electricity because the electricity bill drops, but you have no visibility into how much it is generating, when it stopped generating, or why performance might be below expectations.
 
-The value proposition for WiFi monitoring is straightforward. Research from [NREL](https://www.nrel.gov/){target="_blank" rel="noopener"} shows that unmonitored residential solar systems lose 10–15% of annual yield to undetected faults — failed strings, partial inverter shutdowns, soiling accumulation beyond the tipping point, and grid disconnects that the homeowner never notices. On a 5 kW system generating 7,000 kWh per year at ₹7 per unit, that is a silent annual loss of ₹4,900–₹7,350.
+The value proposition for WiFi monitoring is straightforward. Research from [NREL](https://www.nrel.gov/) shows that unmonitored residential solar systems lose 10–15% of annual yield to undetected faults — failed strings, partial inverter shutdowns, soiling accumulation beyond the tipping point, and grid disconnects that the homeowner never notices. On a 5 kW system generating 7,000 kWh per year at ₹7 per unit, that is a silent annual loss of ₹4,900–₹7,350.
 
 WiFi monitoring modules add approximately ₹1,500–₹3,000 to the inverter cost. The payback period is measured in weeks.
 
@@ -93,7 +93,7 @@ The 4G cellular backup question comes up in rural and semi-urban installations w
 | 4G cellular | Mobile data SIM | WhatsApp push | Rural, unreliable broadband | ₹4,000–₹8,000 |
 | 4G + WiFi dual | Both | WhatsApp push | Mission-critical monitoring | ₹6,000–₹12,000 |
 
-For more on what the best connected inverters offer, the [solar inverter monitoring systems guide](/blog/solar-inverter-monitoring-systems-in-india/) covers connectivity options in detail. India's solar capacity additions — approaching 100 GW of installed capacity as of 2026 — make monitoring infrastructure increasingly critical, as noted in [IRENA's Renewable Power Generation Costs report](https://www.irena.org/publications){target="_blank" rel="noopener"}.
+For more on what the best connected inverters offer, the [solar inverter monitoring systems guide](/blog/solar-inverter-monitoring-systems-in-india/) covers connectivity options in detail. India's solar capacity additions — approaching 100 GW of installed capacity as of 2026 — make monitoring infrastructure increasingly critical, as noted in [IRENA's Renewable Power Generation Costs report](https://www.irena.org/publications).
 
 ## WhatsApp Alerts — High India-Specific Value, Zero App Barrier
 
@@ -131,7 +131,7 @@ The inverter manufacturer-quoted figures for [dual MPPT](/blog/inverter-mppt/) s
 
 Anti-islanding is the inverter behaviour that detects when the grid has failed and immediately disconnects solar export to prevent the inverter from energising a dead section of the distribution network. Without anti-islanding, a solar inverter could continue feeding power into a grid line that a lineman believes to be de-energised — creating a lethal hazard.
 
-The key fact for any Indian homeowner to understand: [anti-islanding](/glossary/anti-islanding/) protection is not optional and not a premium feature. The [Central Electricity Authority (Technical Standards for Connectivity of Distributed Generation Resources) Regulations](https://cea.nic.in/){target="_blank" rel="noopener"} mandate anti-islanding for all grid-tied inverters. IEC 62116 sets the international test standard. Every BIS-certified grid-tied inverter sold in India is already required to pass this test.
+The key fact for any Indian homeowner to understand: [anti-islanding](/glossary/anti-islanding/) protection is not optional and not a premium feature. The [Central Electricity Authority (Technical Standards for Connectivity of Distributed Generation Resources) Regulations](https://cea.nic.in/) mandate anti-islanding for all grid-tied inverters. IEC 62116 sets the international test standard. Every BIS-certified grid-tied inverter sold in India is already required to pass this test.
 
 If a solar salesperson presents anti-islanding protection as a premium upgrade that costs extra, this is either a misrepresentation of the feature or an indication that the base product being offered is not properly BIS-certified — which would itself be a compliance problem.
 
@@ -153,7 +153,7 @@ AFCI is mandatory in the United States under NEC 2017 for all rooftop solar DC c
 
 AFCI adds ₹4,000–₹9,000 to the inverter cost. Given the safety value and the difficulty of detecting DC faults by other means, it passes the 6-Feature ROI Filter for any installation where the roof space is not readily accessible for regular inspection.
 
-> **60%.** The share of residential solar fires in the United States attributed to DC-side arc faults according to the Solar Energy Industries Association, the primary motivation for NEC 2017 AFCI mandates. *Source — [Solar Energy Industries Association (SEIA)](https://www.seia.org/){target="_blank" rel="noopener"}, 2023.*
+> **60%.** The share of residential solar fires in the United States attributed to DC-side arc faults according to the Solar Energy Industries Association, the primary motivation for NEC 2017 AFCI mandates. *Source — [Solar Energy Industries Association (SEIA)](https://www.seia.org/), 2023.*
 
 **6-Feature ROI Filter verdict for AFCI: Conditional pass — recommended for installations with roof spaces that are not regularly inspected, any installation in high-rodent-risk environments, and all installations where DC cable runs exceed 20 metres.**
 
@@ -187,7 +187,7 @@ Over-the-air (OTA) firmware update capability is the smart feature that most hom
 Solar inverter firmware serves multiple critical functions beyond basic DC-AC conversion:
 
 - **MPPT algorithm improvements** — Manufacturers periodically refine MPPT tracking logic as they accumulate field data from installed fleets. These updates can improve daily yield by 0.5–2% on real-world variable-irradiance days.
-- **Grid code compliance** — Indian DISCOM grid codes evolve. [CEA](https://cea.nic.in/){target="_blank" rel="noopener"} has issued updated technical standards twice in the past four years. Without OTA, an inverter may fall out of grid-code compliance as regulations change, requiring an expensive service visit to apply firmware manually — or in the worst case, requiring hardware replacement.
+- **Grid code compliance** — Indian DISCOM grid codes evolve. [CEA](https://cea.nic.in/) has issued updated technical standards twice in the past four years. Without OTA, an inverter may fall out of grid-code compliance as regulations change, requiring an expensive service visit to apply firmware manually — or in the worst case, requiring hardware replacement.
 - **Security patches** — An inverter connected to the home WiFi network and to a cloud platform is, in principle, a networked device. Network security vulnerabilities discovered after manufacture need firmware-level patching. Without OTA, those vulnerabilities persist for the life of the device.
 - **Bug fixes** — Real-world deployments in India's grid environment — 180–270 V voltage swings, frequent micro-outages, reactive power events — surface edge cases that laboratory testing does not anticipate. Firmware fixes for these edge cases arrive via OTA.
 

@@ -52,7 +52,7 @@ These harmonics create three immediate problems for a solar inverter deployed in
 - **Transformer overheating** — Harmonic currents increase resistive losses in the distribution transformer. A 10% rise in THD can increase transformer losses by 15–25%, shortening winding insulation life significantly.
 - **Metering errors** — Utility meters and power analysers calibrated for sinusoidal current give inaccurate readings in high-harmonic environments, leading to billing disputes with DISCOMs and incorrect energy accounting.
 
-The [IEC 61000-2-4](https://www.iec.ch/homepage){target="_blank" rel="noopener"} standard classifies industrial environments into three compatibility levels based on expected harmonic disturbance. Most Indian factories with VFD-driven machinery fall into Class 2 or Class 3 — environments where an inverter's THD specification is a critical procurement criterion, not a footnote.
+The [IEC 61000-2-4](https://www.iec.ch/homepage) standard classifies industrial environments into three compatibility levels based on expected harmonic disturbance. Most Indian factories with VFD-driven machinery fall into Class 2 or Class 3 — environments where an inverter's THD specification is a critical procurement criterion, not a footnote.
 
 Standard grid-tied inverters from residential ranges typically publish THD figures at 10–20% load. At full industrial load, THD can climb significantly. The right procurement question is: **"What is your THD at rated full-load output, with a predominantly inductive industrial load connected?"** Any specification that does not answer this question at full load is incomplete.
 
@@ -139,7 +139,7 @@ A [central inverter](/glossary/central-inverter/) aggregates all DC from the arr
 
 Factory load profiles are fundamentally different from residential or commercial office loads. Getting the sizing right requires a disciplined, data-driven approach rather than a rule-of-thumb calculation.
 
-India's [Central Electricity Authority grid connectivity standards (2019)](https://cea.nic.in/){target="_blank" rel="noopener"} set the regulatory floor for all grid-connected solar inverters above 1 kW — covering voltage ride-through, frequency response, anti-islanding, and power factor requirements that every industrial inverter must meet.
+India's [Central Electricity Authority grid connectivity standards (2019)](https://cea.nic.in/) set the regulatory floor for all grid-connected solar inverters above 1 kW — covering voltage ride-through, frequency response, anti-islanding, and power factor requirements that every industrial inverter must meet.
 
 The process begins with your factory's monthly electricity bills for the past 12 months. From these, extract:
 
@@ -213,7 +213,7 @@ For factory owners, RPO compliance creates a second financial incentive beyond e
 - **RPO fulfilment through captive solar:** Rooftop or ground-mount solar installed as captive generation counts directly towards the installing entity's solar RPO. This makes the effective value of each solar unit higher than the avoided tariff alone — it also eliminates one unit of REC purchase.
 - **RPO banking:** Some states allow excess RPO credits to be banked for future years, making oversized solar installations financially attractive for large obligated consumers.
 
-For factories with sanctioned load above 1 MW or operating captive power plants, RPO compliance should be factored into the solar project sizing — not treated as an afterthought. The [NSEFI RPO compliance tracker](https://nsefi.in/){target="_blank" rel="noopener"} provides state-by-state RPO status and obligated entity registration guidance for Indian industries.
+For factories with sanctioned load above 1 MW or operating captive power plants, RPO compliance should be factored into the solar project sizing — not treated as an afterthought. The [NSEFI RPO compliance tracker](https://nsefi.in/) provides state-by-state RPO status and obligated entity registration guidance for Indian industries.
 
 ## Common Mistakes in Factory Solar Projects — and How to Avoid Them
 
@@ -225,7 +225,7 @@ Factory solar projects fail at a higher rate than residential installations — 
 - **Incorrect earthing at the DC array** — Industrial rooftops often have metallic structures connected to the factory's main earth bus. Stray earth currents from improperly earthed DC arrays cause corrosion, measurement errors, and safety hazards. Floating DC systems require proper surge protection device placement per [inverter grounding best practices](/blog/solar-inverter-grounding/).
 - **Oversizing AC output and losing net metering eligibility** — DISCOMs in several states will reject net metering applications where the inverter AC capacity exceeds the sanctioned load. Size AC output at or below contract demand to avoid this common EPC mistake.
 
-For a thorough review of the commissioning process for grid-connected industrial systems, the [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/) covers the full DISCOM inspection checklist. [MNRE's technical standards for grid-connected rooftop systems](https://mnre.gov.in/){target="_blank" rel="noopener"} outline the eligibility criteria and documentation requirements for C&I projects seeking state-level incentives and DISCOM connectivity approvals.
+For a thorough review of the commissioning process for grid-connected industrial systems, the [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/) covers the full DISCOM inspection checklist. [MNRE's technical standards for grid-connected rooftop systems](https://mnre.gov.in/) outline the eligibility criteria and documentation requirements for C&I projects seeking state-level incentives and DISCOM connectivity approvals.
 
 ## Where Qbits Fits in the Industrial Solar Stack
 

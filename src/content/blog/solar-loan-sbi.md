@@ -38,7 +38,7 @@ Every month, thousands of Indian homeowners walk into an SBI branch asking one q
 
 The answer is yes, through a product called SBI Surya Shakti Solar Finance. This guide explains the interest rate, who qualifies, which seven documents you need to carry, how the PM Surya Ghar subsidy integrates with the loan, and how SBI compares with IREDA and private banks so that you can make a genuinely informed financing decision.
 
-> **Direct answer.** The SBI solar loan, known as Surya Shakti Solar Finance, offers Indian homeowners a tenure of up to 7 years at approximately 9–11% per annum. Eligibility requires property ownership, a CIBIL score of 700 or above, and income proof. Register on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} before applying — the DISCOM sanction letter from that process is a mandatory document at the bank.
+> **Direct answer.** The SBI solar loan, known as Surya Shakti Solar Finance, offers Indian homeowners a tenure of up to 7 years at approximately 9–11% per annum. Eligibility requires property ownership, a CIBIL score of 700 or above, and income proof. Register on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) before applying — the DISCOM sanction letter from that process is a mandatory document at the bank.
 
 The SBI solar loan sits at the intersection of two government priorities: expanding rooftop solar capacity and deepening financial inclusion. That intersection is why the [PM Surya Ghar Muft Bijli Yojana](/blog/pm-surya-ghar-yojana-complete-guide/) named SBI as a preferred lending partner — the bank's 22,000+ branch network means most Indian homeowners can access this financing without travelling to a state capital.
 
@@ -81,7 +81,7 @@ Both salaried and self-employed applicants are eligible. Salaried individuals mu
 
 ### Credit Score
 
-A CIBIL score of 700 or above is the practical threshold. A score of 750+ qualifies for rates at the lower end of the 9–11% band. Applicants below 700 may be asked for a co-applicant or additional security. If you have not checked your CIBIL score recently, do so via the [CIBIL website](https://www.cibil.com/){target="_blank" rel="noopener"} — the free annual check costs nothing and prevents unpleasant surprises at the branch counter.
+A CIBIL score of 700 or above is the practical threshold. A score of 750+ qualifies for rates at the lower end of the 9–11% band. Applicants below 700 may be asked for a co-applicant or additional security. If you have not checked your CIBIL score recently, do so via the [CIBIL website](https://www.cibil.com/) — the free annual check costs nothing and prevents unpleasant surprises at the branch counter.
 
 ### Existing SBI Relationship (Preferred, Not Mandatory)
 
@@ -113,7 +113,7 @@ Carry all seven. The branch will retain photocopies and return originals after v
 
 The application journey has five distinct stages. Understanding what happens at each stage helps you set realistic timelines.
 
-- **Step 1: Register on PM Surya Ghar portal** — Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} and complete the homeowner registration. Select your state, DISCOM, and electricity consumer number. The portal guides you through vendor selection from the empanelled list and generates the application number that your DISCOM uses to issue the sanction letter. Read the [PM Surya Ghar application guide](/blog/pm-surya-ghar-apply-online/) for a detailed walkthrough of this stage.
+- **Step 1: Register on PM Surya Ghar portal** — Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and complete the homeowner registration. Select your state, DISCOM, and electricity consumer number. The portal guides you through vendor selection from the empanelled list and generates the application number that your DISCOM uses to issue the sanction letter. Read the [PM Surya Ghar application guide](/blog/pm-surya-ghar-apply-online/) for a detailed walkthrough of this stage.
 
 - **Step 2: Obtain DISCOM sanction letter** — After portal registration, your DISCOM inspects the connection feasibility and issues a technical sanction for net metering. This takes 7–15 working days in most states. Do not visit the bank before you have this letter in hand.
 
@@ -151,7 +151,7 @@ Not every homeowner should default to SBI. Here is an honest comparison of the f
 
 ### IREDA (Indian Renewable Energy Development Agency)
 
-[IREDA](https://www.ireda.in/){target="_blank" rel="noopener"} is a government institution dedicated to renewable energy financing. Its interest rates — typically 8–9.5% for well-rated borrowers — are lower than SBI's standard retail offering. However, IREDA primarily serves commercial and industrial borrowers, larger EPCs, and state nodal agencies. Individual homeowners applying for a 3–5 kW residential system will find the process less straightforward. IREDA has a small number of regional offices and does not have the branch density of a commercial bank.
+[IREDA](https://www.ireda.in/) is a government institution dedicated to renewable energy financing. Its interest rates — typically 8–9.5% for well-rated borrowers — are lower than SBI's standard retail offering. However, IREDA primarily serves commercial and industrial borrowers, larger EPCs, and state nodal agencies. Individual homeowners applying for a 3–5 kW residential system will find the process less straightforward. IREDA has a small number of regional offices and does not have the branch density of a commercial bank.
 
 **Best for:** Homeowners willing to invest time in the application process and seeking the lowest possible interest rate; works better for 10 kW+ systems where the rate difference materially affects total interest cost.
 
@@ -202,7 +202,7 @@ These are the five errors that most consistently result in delayed approvals or 
 
 - **Visiting the branch before getting the DISCOM sanction letter** — The DISCOM letter is a mandatory document, not optional. Loan officers cannot proceed with appraisal without it. The letter takes 7–15 days. Apply to the DISCOM first, then visit the bank.
 
-- **Submitting a quotation from a non-ALMM-empanelled installer** — SBI requires the solar system to be installed by an empanelled vendor. A quotation from an unregistered installer will be rejected. Verify your installer's status on the [MNRE ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before accepting any quotation.
+- **Submitting a quotation from a non-ALMM-empanelled installer** — SBI requires the solar system to be installed by an empanelled vendor. A quotation from an unregistered installer will be rejected. Verify your installer's status on the [MNRE ALMM list](https://mnre.gov.in/almm-list/) before accepting any quotation.
 
 - **Using the PM Surya Ghar subsidy as the loan down payment** — The subsidy is disbursed post-installation. Plan your finances assuming you need to fund the full project cost and treat the subsidy as a future prepayment windfall.
 

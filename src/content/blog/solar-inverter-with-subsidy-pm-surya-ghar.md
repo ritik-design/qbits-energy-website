@@ -70,7 +70,7 @@ This matters because many homeowners arrive at a vendor conversation expecting a
 
 The 3 kW system represents the best subsidy-to-cost ratio for most residential buyers. Installing above 3 kW yields no additional central subsidy, although the extra capacity is fully eligible for [net metering](/glossary/net-metering/) and export credits.
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW or larger residential system, transferred directly to the homeowner's Aadhaar-linked bank account after commissioning. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW or larger residential system, transferred directly to the homeowner's Aadhaar-linked bank account after commissioning. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ## How the DISCOM-Routed Payment Actually Works
 
@@ -126,7 +126,7 @@ Several state governments have announced top-up subsidies that stack directly on
 | Karnataka | ₹20,000 per household | ₹98,000 |
 | Rajasthan | State net metering benefit only | ₹78,000 |
 
-State subsidy amounts change with annual budget allocations. Always verify the current rate with your State Nodal Agency before finalising your system budget. [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"} research confirms Gujarat consistently leads national residential solar adoption, driven largely by the compounding effect of its combined subsidy structure.
+State subsidy amounts change with annual budget allocations. Always verify the current rate with your State Nodal Agency before finalising your system budget. [Bridge to India](https://bridgetoindia.com/) research confirms Gujarat consistently leads national residential solar adoption, driven largely by the compounding effect of its combined subsidy structure.
 
 ### Layer 3 — Tax Benefit (Accelerated Depreciation / Section 80 TTA)
 
@@ -162,7 +162,7 @@ This is not a procedural technicality that can be appealed or worked around. It 
 
 ### How to Verify ALMM Status Before Installation Begins
 
-1. Go to [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} or use the equipment verification tool on the PM Surya Ghar portal.
+1. Go to [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/) or use the equipment verification tool on the PM Surya Ghar portal.
 2. Search the exact model name and capacity as it appears on the inverter's nameplate.
 3. Confirm the listing shows as active and note the revision date — verify against the current MNRE update.
 4. When the inverter arrives on site, match the physical serial number and model number against the ALMM entry before installation begins.
@@ -190,7 +190,7 @@ A quality ALMM-listed single-phase 3 kW on-grid inverter from a verified Indian 
 
 After the ₹78,000 central subsidy, the effective cost of the complete system — including the inverter — falls to ₹37,000–₹88,000 depending on your state, vendor efficiency, and system specification. The inverter's share of that remaining cost is ₹0–₹28,000 in real terms, because the subsidy is credited against the system total, not ring-fenced to any single component.
 
-> **30–35 lakh households** had commissioned PM Surya Ghar installations as of Q1 2026 — out of over 1 crore registrations — indicating that the bottleneck is not demand but execution speed at the DISCOM and vendor level. *Source — [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, Q1 2026.*
+> **30–35 lakh households** had commissioned PM Surya Ghar installations as of Q1 2026 — out of over 1 crore registrations — indicating that the bottleneck is not demand but execution speed at the DISCOM and vendor level. *Source — [Mercom India](https://www.mercomindia.com/), Q1 2026.*
 
 For a detailed financial model of payback, annual savings, and 25-year return under different tariff scenarios, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) walks through the complete maths state by state.
 
@@ -237,7 +237,7 @@ The second non-negotiable requirement — after ALMM compliance — is vendor em
 
 **How to find and verify an empanelled vendor:**
 
-1. Log in to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} and navigate to the vendor search by state and district.
+1. Log in to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and navigate to the vendor search by state and district.
 2. The portal lists empanelled vendors with their registration number, contact details, and active status.
 3. Cross-verify the vendor's empanelment number directly with your DISCOM's customer service — not just from the vendor's own marketing materials.
 4. Check how many installations the vendor has completed under PM Surya Ghar — experienced vendors know the inspection and documentation process and avoid the errors that delay commissioning.
@@ -295,7 +295,7 @@ The [CAPEX](/glossary/capex/) model delivers the best long-term return under PM 
 
 For a complete comparison of MNRE-partnered bank loans, NBFC products, and the vendor net-price model — with worked examples of EMI and payback under each — the [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers every scenario.
 
-One important note: avoid RESCO (Renewable Energy Service Company) arrangements if your primary goal is claiming the PM Surya Ghar subsidy. Under RESCO, the registered applicant is usually the RESCO company — meaning the ₹78,000 subsidy flows to them, not to you. The [IEA](https://www.iea.org/reports/solar-pv-global-supply-chains){target="_blank" rel="noopener"} notes that distributed solar ownership models consistently outperform service-company arrangements in household financial returns over 10–25 year horizons. Own the system, own the subsidy.
+One important note: avoid RESCO (Renewable Energy Service Company) arrangements if your primary goal is claiming the PM Surya Ghar subsidy. Under RESCO, the registered applicant is usually the RESCO company — meaning the ₹78,000 subsidy flows to them, not to you. The [IEA](https://www.iea.org/reports/solar-pv-global-supply-chains) notes that distributed solar ownership models consistently outperform service-company arrangements in household financial returns over 10–25 year horizons. Own the system, own the subsidy.
 
 ## Sizing Your System for Maximum Subsidy Efficiency
 
@@ -311,8 +311,8 @@ The subsidy slab structure rewards a specific sizing decision: a 3 kW system ext
 
 For homeowners comparing the performance and financial returns across 3 kW, 5 kW, and 10 kW system configurations — including net metering credit modelling and long-run LCOE — the [3 kW vs 5 kW vs 10 kW solar inverters guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) provides a side-by-side analysis.
 
-> **4.5–5.5 peak sun hours per day** is the average irradiance window across most of India's populated regions, giving a 3 kW ALMM-listed system approximately 4,000–5,000 kWh per year — or 333–417 units per month against which the subsidy is calculated. *Source — [NREL National Solar Radiation Database](https://nsrdb.nrel.gov/){target="_blank" rel="noopener"}, India regional data, 2025.*
+> **4.5–5.5 peak sun hours per day** is the average irradiance window across most of India's populated regions, giving a 3 kW ALMM-listed system approximately 4,000–5,000 kWh per year — or 333–417 units per month against which the subsidy is calculated. *Source — [NREL National Solar Radiation Database](https://nsrdb.nrel.gov/), India regional data, 2025.*
 
-The [IRENA](https://www.irena.org/Energy-Transition/Technology/Solar-energy){target="_blank" rel="noopener"} solar energy transition data confirms India's rooftop solar capacity is on track to reach 40 GW by 2030, with PM Surya Ghar the primary driver of the residential segment. The JMK Research market tracker shows over 70% of new residential installations in 2025–26 fell in the 2–4 kW range — confirming the 3 kW sweet spot that the subsidy structure is designed to incentivise.
+The [IRENA](https://www.irena.org/Energy-Transition/Technology/Solar-energy) solar energy transition data confirms India's rooftop solar capacity is on track to reach 40 GW by 2030, with PM Surya Ghar the primary driver of the residential segment. The JMK Research market tracker shows over 70% of new residential installations in 2025–26 fell in the 2–4 kW range — confirming the 3 kW sweet spot that the subsidy structure is designed to incentivise.
 
 The combination of the 3-Layer Solar Subsidy Stack, ALMM-compliant equipment, an experienced empanelled vendor, and the right financing model transforms what looks like a ₹1,65,000 capital decision into an effective outlay of ₹42,000–₹90,000 in most states — with payback measured in months, not years. The inverter at the centre of that system is not subsidised in isolation; it is the qualifying condition for the entire benefit.

@@ -56,7 +56,7 @@ The farm's daytime electrical loads are summarised below:
 
 The farm's PSPCL tariff under the AP (agricultural pump) category was approximately ₹3.5 per kWh for metered consumption, low by commercial standards — but the actual unit cost blended with diesel bridging exceeded ₹14 per kWh over a full month. Solar, generating power at under ₹3 per kWh on a levelised basis, represented a clear opportunity.
 
-> **₹18–22 per kWh.** The effective cost of power from a diesel generator at June 2026 HSD prices of ₹89–92 per litre, assuming 3–3.5 kWh output per litre at 60–70% load. *Source — [IRENA Renewable Power Generation Costs 2024](https://www.irena.org/publications/2025/Mar/Renewable-Power-Generation-Costs-in-2024){target="_blank" rel="noopener"}, cross-referenced with PPAC India diesel retail data.*
+> **₹18–22 per kWh.** The effective cost of power from a diesel generator at June 2026 HSD prices of ₹89–92 per litre, assuming 3–3.5 kWh output per litre at 60–70% load. *Source — [IRENA Renewable Power Generation Costs 2024](https://www.irena.org/publications/2025/Mar/Renewable-Power-Generation-Costs-in-2024), cross-referenced with PPAC India diesel retail data.*
 
 ## System Design: 30 kW on Cattle Shed Rooftops
 
@@ -80,13 +80,13 @@ Total installed cost before subsidy: ₹19.5 Lakh (₹65,000 per kW, inclusive o
 
 ## The KUSUM Framework: How Component-C Applies to a Dairy Farm
 
-KUSUM (Kisan Urja Suraksha evam Utthaan Mahabhiyan) has three distinct components. The one most relevant to an existing grid-connected dairy farm is Component-C — the solarisation of existing grid-connected agricultural pump connections — administered in Punjab through [PEDA](https://peda.gov.in){target="_blank" rel="noopener"} (Punjab Energy Development Agency).
+KUSUM (Kisan Urja Suraksha evam Utthaan Mahabhiyan) has three distinct components. The one most relevant to an existing grid-connected dairy farm is Component-C — the solarisation of existing grid-connected agricultural pump connections — administered in Punjab through [PEDA](https://peda.gov.in) (Punjab Energy Development Agency).
 
 ### The 3-Gate KUSUM Component-C Eligibility Check
 
 1. **Active agricultural electricity connection** — The farm must hold a valid PSPCL agricultural tariff connection (AP-1 or equivalent). Dairy farms with PSPCL agricultural connections qualify; commercial tariff connections do not.
 2. **System size proportionate to sanctioned load** — The solar system capacity typically cannot exceed the sanctioned pump load. A farm with a 30 kW sanctioned pump load can install up to 30 kW of rooftop solar under Component-C guidelines.
-3. **ALMM-listed panels and BIS-certified inverter** — All equipment must appear on the MNRE Approved Models and Manufacturers List ([ALMM List](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}) and hold BIS IS 16221 certification. The Qbits TLD-30K is ALMM-listed and BIS-certified.
+3. **ALMM-listed panels and BIS-certified inverter** — All equipment must appear on the MNRE Approved Models and Manufacturers List ([ALMM List](https://mnre.gov.in/almm-list/)) and hold BIS IS 16221 certification. The Qbits TLD-30K is ALMM-listed and BIS-certified.
 
 Under Component-C, the central government provides a 30% capital subsidy and the state contributes a further 30%, reducing the farmer's net capital expenditure to 40% of the total system cost. On a ₹19.5 Lakh system:
 
@@ -265,9 +265,9 @@ To discuss sizing, KUSUM documentation, and net metering application timelines f
 
 ## The Broader Punjab Agricultural Solar Opportunity
 
-The representative farm's case is not unique. According to [MNRE data](https://mnre.gov.in/solar/schemes/){target="_blank" rel="noopener"}, Punjab has one of the highest concentrations of grid-connected agricultural pump connections in India — over 13 lakh (1.3 million) connections. PSPCL's agricultural feeder scheduling means that most of these connections operate diesel generators for 6–10 hours daily. At ₹55,000–₹70,000 per month in diesel costs per farm, the aggregate annual diesel expenditure across Punjab agriculture runs into thousands of crores.
+The representative farm's case is not unique. According to [MNRE data](https://mnre.gov.in/solar/schemes/), Punjab has one of the highest concentrations of grid-connected agricultural pump connections in India — over 13 lakh (1.3 million) connections. PSPCL's agricultural feeder scheduling means that most of these connections operate diesel generators for 6–10 hours daily. At ₹55,000–₹70,000 per month in diesel costs per farm, the aggregate annual diesel expenditure across Punjab agriculture runs into thousands of crores.
 
-The [KUSUM scheme](/blog/kusum-yojana-agricultural-solar-subsidy/) under MNRE targets 20 lakh grid-connected pump solarisations nationally under Component-C, with Punjab one of the priority states given its large AP connection base and PEDA's established implementation capacity. Applications open periodically through the [PEDA portal](https://peda.gov.in){target="_blank" rel="noopener"} and are processed in tranches by district.
+The [KUSUM scheme](/blog/kusum-yojana-agricultural-solar-subsidy/) under MNRE targets 20 lakh grid-connected pump solarisations nationally under Component-C, with Punjab one of the priority states given its large AP connection base and PEDA's established implementation capacity. Applications open periodically through the [PEDA portal](https://peda.gov.in) and are processed in tranches by district.
 
 Dairy farm owners considering solar frequently ask whether [net metering](/blog/net-metering-india-complete-guide/) applies to their PSPCL agricultural connection — the short answer is yes, under the PSPCL net metering policy for agricultural consumers, but the feed-in tariff is set at a rate below the standard retail tariff and above the agricultural concessional tariff. The financial value of net metering exports is secondary to diesel displacement for farms with long power cuts; the primary case for solar on a Punjab dairy farm is fuel cost elimination, not grid export income.
 

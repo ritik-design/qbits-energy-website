@@ -56,7 +56,7 @@ Before choosing an inverter, you need an honest count of what your shop consumes
 
 The numbers above are peak simultaneous loads — what the shop draws when everything is running at the same time. Your inverter must handle this peak without tripping, but your daily energy consumption is far lower because not all loads run all day. A kirana store running 10 hours daily at an average draw of 600 W consumes 6 kWh/day. At ₹9/unit commercial tariff, that is ₹54/day or ₹1,620/month — on top of fixed DISCOM charges and demand charges that can add another ₹3,000–₹8,000 monthly.
 
-According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, commercial and industrial consumers account for over 46% of India's electricity consumption despite being a minority of the metered connections — a direct consequence of the elevated tariff structure that cross-subsidises residential supply.
+According to [Mercom India](https://www.mercomindia.com/), commercial and industrial consumers account for over 46% of India's electricity consumption despite being a minority of the metered connections — a direct consequence of the elevated tariff structure that cross-subsidises residential supply.
 
 ## Right Inverter Size for a Small Shop: The 1.5–5 kW Range
 
@@ -74,7 +74,7 @@ A 3 kW inverter with a 3.5–4 kWp panel array is the most popular choice for In
 
 A 5 kW single-phase on-grid inverter handles the salon or pharmacy that runs a 1.5-ton split AC through eight months of the year. In Tamil Nadu, Maharashtra, and Gujarat — where commercial tariffs hit ₹10–12/unit — a 5 kW system with 5.5 kWp of panels generates 700–800 kWh/month, saving ₹7,000–₹9,600/month. At ₹2.2–2.8 Lakh installed cost (after ITC), payback drops to just 2–3 years.
 
-> **46%.** The share of India's total electricity consumption attributed to commercial and industrial consumers, per [Mercom India research 2026](https://www.mercomindia.com/){target="_blank" rel="noopener"} — underscoring why commercial tariffs are set high and why solar payback periods for shops are shorter than for homes.
+> **46%.** The share of India's total electricity consumption attributed to commercial and industrial consumers, per [Mercom India research 2026](https://www.mercomindia.com/) — underscoring why commercial tariffs are set high and why solar payback periods for shops are shorter than for homes.
 
 ## The Shop Solar ROI Framework: Four Steps to a Sound Decision
 
@@ -106,7 +106,7 @@ The process for a commercial net metering connection in India involves these ste
 
 Under net metering, your DISCOM bill converts to a net-unit bill: units consumed from the grid minus units exported to the grid, multiplied by the commercial tariff. On high-generation days (summer, monsoon rains absent), you may export more than you consume, earning a credit that rolls over to the next billing cycle.
 
-According to the [Central Electricity Regulatory Commission's net metering framework](https://www.cercind.gov.in/){target="_blank" rel="noopener"}, commercial and industrial consumers are permitted to install rooftop solar up to their sanctioned load capacity under net metering, with surplus credits carried forward for up to 12 months.
+According to the [Central Electricity Regulatory Commission's net metering framework](https://www.cercind.gov.in/), commercial and industrial consumers are permitted to install rooftop solar up to their sanctioned load capacity under net metering, with surplus credits carried forward for up to 12 months.
 
 ## GST Input Tax Credit on Solar: The Benefit Residential Buyers Cannot Access
 
@@ -124,7 +124,7 @@ A GST-registered business claims the ₹16,800 or ₹28,800 back through GSTR-3B
 
 Beyond ITC, businesses can also claim 40% accelerated depreciation on solar plant and machinery in the first year under the Income Tax Act. For a shop owner in the 22% or 30% tax bracket, this further reduces the effective capital cost by ₹12,000–₹24,000 on a ₹2 Lakh system. Explore [solar inverter depreciation tax benefits](/blog/solar-inverter-depreciation-tax-benefits-guide/) for the detailed Income Tax calculation.
 
-> **40%.** The accelerated depreciation rate available on solar plant and machinery in Year 1 under the Income Tax Act, per the [Ministry of New and Renewable Energy's fiscal incentive framework](https://mnre.gov.in/){target="_blank" rel="noopener"} — effectively reducing net capital cost by ₹12,000–₹36,000 for a small commercial system depending on the owner's tax bracket.
+> **40%.** The accelerated depreciation rate available on solar plant and machinery in Year 1 under the Income Tax Act, per the [Ministry of New and Renewable Energy's fiscal incentive framework](https://mnre.gov.in/) — effectively reducing net capital cost by ₹12,000–₹36,000 for a small commercial system depending on the owner's tax bracket.
 
 ## Worked Example: The ₹15,000/Month Shop
 
@@ -150,7 +150,7 @@ Consider a pharmacy in Coimbatore, Tamil Nadu. Current electricity profile:
 - Year 1–25 savings (assuming 3% annual tariff increase, 0.5% annual panel degradation) = **₹32.5 Lakh**
 - Net profit after recovering capital = ₹32.5 Lakh − ₹2.05 Lakh = **₹30.45 Lakh**
 
-This is a real, replicable outcome for any pharmacy, salon, or electronics store in Tamil Nadu, Maharashtra, or Gujarat with a monthly bill above ₹12,000. According to [IRENA's analysis of distributed solar economics in Asia](https://www.irena.org/solar){target="_blank" rel="noopener"}, small commercial rooftop systems in South Asia consistently deliver the highest IRR among all renewable energy formats when commercial tariff rates exceed USD 0.08/kWh — a threshold India's major commercial consumers crossed in 2022 and have not retreated from since.
+This is a real, replicable outcome for any pharmacy, salon, or electronics store in Tamil Nadu, Maharashtra, or Gujarat with a monthly bill above ₹12,000. According to [IRENA's analysis of distributed solar economics in Asia](https://www.irena.org/solar), small commercial rooftop systems in South Asia consistently deliver the highest IRR among all renewable energy formats when commercial tariff rates exceed USD 0.08/kWh — a threshold India's major commercial consumers crossed in 2022 and have not retreated from since.
 
 ## Why IP66 Matters for Market-Area Shops
 

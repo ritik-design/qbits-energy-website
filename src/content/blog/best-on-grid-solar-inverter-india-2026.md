@@ -78,7 +78,7 @@ Apply these as pass/fail gates before comparing price. The detailed criteria for
 
 The [ALMM list](/glossary/almm-list/) (Approved List of Models and Manufacturers), maintained by the Ministry of New and Renewable Energy, is the single most important filter for any homeowner pursuing the PM Surya Ghar subsidy. Without ALMM Phase III listing, your DISCOM will not approve net metering under the scheme, and the subsidy will not reach your bank account. Score: a listed model earns full marks; an unlisted model is automatically disqualified for subsidy-linked projects.
 
-Check the current ALMM list directly at the [MNRE portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before finalising any purchase. The list is updated quarterly, and models that were listed six months ago may have expired certification if manufacturers missed renewal deadlines.
+Check the current ALMM list directly at the [MNRE portal](https://mnre.gov.in/almm-list/) before finalising any purchase. The list is updated quarterly, and models that were listed six months ago may have expired certification if manufacturers missed renewal deadlines.
 
 ### 2. Anti-Islanding Compliance (BIS IS 16169 + IEC 62116)
 
@@ -86,7 +86,7 @@ Check the current ALMM list directly at the [MNRE portal](https://mnre.gov.in/al
 
 ### 3. Wide Input Voltage Range (180–270 V AC)
 
-Indian grid voltage is nominally 230 V per [BIS standards for LT supply](https://www.bis.gov.in/){target="_blank" rel="noopener"}, but real-world supply in many Tier-2 and Tier-3 areas swings between 180 V and 270 V throughout the day. An inverter tuned only for the European 220–240 V band will trip frequently under Indian conditions, reducing your generation hours and increasing thermal stress on components. Look for an inverter with a documented AC output voltage range of at least 180–270 V and ask the dealer whether the unit's firmware has been calibrated for Indian grid parameters.
+Indian grid voltage is nominally 230 V per [BIS standards for LT supply](https://www.bis.gov.in/), but real-world supply in many Tier-2 and Tier-3 areas swings between 180 V and 270 V throughout the day. An inverter tuned only for the European 220–240 V band will trip frequently under Indian conditions, reducing your generation hours and increasing thermal stress on components. Look for an inverter with a documented AC output voltage range of at least 180–270 V and ask the dealer whether the unit's firmware has been calibrated for Indian grid parameters.
 
 ### 4. Peak Efficiency at 45 °C, Not Just 25 °C
 
@@ -100,9 +100,9 @@ Apply these five criteria as pass/fail gates. Any product that fails two or more
 
 ## Why ALMM Compliance Is Non-Negotiable for PM Surya Ghar Installs
 
-The PM Surya Ghar Muft Bijli Yojana is the central government's flagship residential solar programme. Launched in February 2024, it targets one crore households with rooftop solar by the end of the scheme period. India's rooftop solar capacity has been growing at over 30% year-on-year, with residential installations accounting for a rising share — a trend documented by [IRENA's India renewable energy outlook](https://www.irena.org/Countries/India){target="_blank" rel="noopener"}. For the homeowner, PM Surya Ghar represents the most significant subsidy available — up to ₹78,000 for a 3 kW system paid directly to your bank account.
+The PM Surya Ghar Muft Bijli Yojana is the central government's flagship residential solar programme. Launched in February 2024, it targets one crore households with rooftop solar by the end of the scheme period. India's rooftop solar capacity has been growing at over 30% year-on-year, with residential installations accounting for a rising share — a trend documented by [IRENA's India renewable energy outlook](https://www.irena.org/Countries/India). For the homeowner, PM Surya Ghar represents the most significant subsidy available — up to ₹78,000 for a 3 kW system paid directly to your bank account.
 
-> **₹78,000.** The maximum PM Surya Ghar Muft Bijli Yojana central subsidy for a 3 kW on-grid residential installation, credited directly to the applicant's linked bank account after DISCOM commissioning approval. *Source — [PM Surya Ghar Portal, MNRE](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum PM Surya Ghar Muft Bijli Yojana central subsidy for a 3 kW on-grid residential installation, credited directly to the applicant's linked bank account after DISCOM commissioning approval. *Source — [PM Surya Ghar Portal, MNRE](https://pmsuryaghar.gov.in/), 2026.*
 
 The mechanism is straightforward: you apply through the national portal, select an empanelled vendor, install the system with ALMM-listed equipment, get it commissioned by your DISCOM, and the subsidy flows within 30 days of commissioning sign-off. The catch — and it catches many buyers who purchased their inverter before doing the subsidy research — is that both the solar module and the inverter must appear on the ALMM Phase III list at the time of DISCOM inspection.
 
@@ -118,7 +118,7 @@ Anti-islanding is one of the most misunderstood features of on-grid solar invert
 
 When the utility grid trips — due to a fault, maintenance work, or a local transformer issue — the inverter must detect the outage and stop exporting power within two seconds. This is not arbitrary: if an inverter continues to feed power into an apparently "dead" section of the grid while lineworkers are working on it, the consequences can be fatal.
 
-The Indian testing standard for anti-islanding is BIS IS 16169, which is harmonised with [IEC 62116](https://www.iec.ch/){target="_blank" rel="noopener"} — the international standard for utility-interconnected photovoltaic inverter testing. Type-testing under this standard simulates a range of grid-loss scenarios and verifies that the inverter's anti-islanding algorithm reliably trips within the required window. A BIS IS 16169 certificate number should appear on the product's compliance documentation.
+The Indian testing standard for anti-islanding is BIS IS 16169, which is harmonised with [IEC 62116](https://www.iec.ch/) — the international standard for utility-interconnected photovoltaic inverter testing. Type-testing under this standard simulates a range of grid-loss scenarios and verifies that the inverter's anti-islanding algorithm reliably trips within the required window. A BIS IS 16169 certificate number should appear on the product's compliance documentation.
 
 From the homeowner's perspective, the practical consequence of an inverter without certified anti-islanding is straightforward: the DISCOM inspection team will reject your installation during commissioning, you will not receive net-metering approval, and the PM Surya Ghar subsidy disbursement will be blocked.
 
@@ -166,7 +166,7 @@ Three-phase on-grid systems above 10 kW typically require an additional protecti
 
 ### Sungrow SG Series — Best Global Brand
 
-Sungrow is the world's largest solar inverter manufacturer by installed capacity, and the SG Series for residential applications reflects that manufacturing scale in component quality and firmware maturity. According to [Mercom India's rooftop solar market tracking](https://www.mercomindia.com/){target="_blank" rel="noopener"}, Sungrow consistently ranks among the top brands by India residential inverter deployments. The iSolarCloud monitoring platform is one of the most feature-complete systems in the segment — useful for technically confident buyers who want detailed yield analytics, remote diagnostics, and string-level performance monitoring.
+Sungrow is the world's largest solar inverter manufacturer by installed capacity, and the SG Series for residential applications reflects that manufacturing scale in component quality and firmware maturity. According to [Mercom India's rooftop solar market tracking](https://www.mercomindia.com/), Sungrow consistently ranks among the top brands by India residential inverter deployments. The iSolarCloud monitoring platform is one of the most feature-complete systems in the segment — useful for technically confident buyers who want detailed yield analytics, remote diagnostics, and string-level performance monitoring.
 
 The SG Series carries a 10-year standard warranty extendable to 20 years on paid plans. Peak efficiency is 98.4%, the highest in this review group, though the derating behaviour at 45 °C ambient is less documented in the India-specific datasheet than Sungrow's European-market versions.
 

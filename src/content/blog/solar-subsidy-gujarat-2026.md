@@ -49,11 +49,11 @@ Gujarat homeowners in 2026 can access two distinct subsidy programmes that are d
 
 **The Central Scheme — PM Surya Ghar Muft Bijli Yojana**
 
-Launched in February 2024 by the Government of India, PM Surya Ghar is the largest residential rooftop solar subsidy in India's history. It is administered nationally through [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} and implemented through state DISCOMs. The subsidy is a direct bank transfer — paid after installation and commissioning — not a discount at the time of purchase. For a full overview of the scheme including eligibility and the five-step application process, the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the national framework in detail.
+Launched in February 2024 by the Government of India, PM Surya Ghar is the largest residential rooftop solar subsidy in India's history. It is administered nationally through [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and implemented through state DISCOMs. The subsidy is a direct bank transfer — paid after installation and commissioning — not a discount at the time of purchase. For a full overview of the scheme including eligibility and the five-step application process, the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the national framework in detail.
 
 **The State Scheme — Surya Gujarat**
 
-Surya Gujarat is the Gujarat government's state-level rooftop solar programme for residential consumers, administered by [GEDA](https://geda.gujarat.gov.in/){target="_blank" rel="noopener"} (Gujarat Energy Development Agency) in coordination with [GUVNL](https://www.guvnl.in/){target="_blank" rel="noopener"} (Gujarat Urja Vikas Nigam Limited) and the four Gujarat DISCOMs. The state scheme provides additional per-kW incentives on top of the central subsidy, making Gujarat's combined offer one of the most attractive in India.
+Surya Gujarat is the Gujarat government's state-level rooftop solar programme for residential consumers, administered by [GEDA](https://geda.gujarat.gov.in/) (Gujarat Energy Development Agency) in coordination with [GUVNL](https://www.guvnl.in/) (Gujarat Urja Vikas Nigam Limited) and the four Gujarat DISCOMs. The state scheme provides additional per-kW incentives on top of the central subsidy, making Gujarat's combined offer one of the most attractive in India.
 
 The two schemes are applied for through slightly different channels but can be pursued simultaneously. In practice, the empanelled installer handles most of the paperwork across both channels; your job is to verify the documents are submitted correctly and to track the portal status for each scheme independently.
 
@@ -82,7 +82,7 @@ This framework walks through the complete cost-to-homeowner calculation for a Gu
 
 2. **Central PM Surya Ghar deduction** — ₹30,000 per kW for the first 2 kW + ₹18,000 for the third kilowatt = ₹78,000 maximum for a 3 kW system. This is fixed nationally and does not vary by Gujarat DISCOM.
 
-3. **Surya Gujarat state top-up deduction** — The state scheme adds approximately ₹10,000 to ₹20,000 per kW for the first 3 kW. At the midpoint estimate of ₹15,000 per kW, a 3 kW system attracts ₹45,000 in state subsidy. Verify the current-year slab on [geda.gujarat.gov.in](https://geda.gujarat.gov.in/){target="_blank" rel="noopener"} as amounts are updated annually.
+3. **Surya Gujarat state top-up deduction** — The state scheme adds approximately ₹10,000 to ₹20,000 per kW for the first 3 kW. At the midpoint estimate of ₹15,000 per kW, a 3 kW system attracts ₹45,000 in state subsidy. Verify the current-year slab on [geda.gujarat.gov.in](https://geda.gujarat.gov.in/) as amounts are updated annually.
 
 4. **Net cost and payback calculation** — After both subsidies, the homeowner's out-of-pocket cost for a 3 kW system falls to approximately ₹27,000–₹57,000 depending on installer pricing and the current state subsidy rate. At Gujarat's average residential electricity tariff of ₹5.50–₹7.50 per unit (tier-dependent), annual savings from a 3 kW system run ₹18,000–₹27,000. Payback falls to 1.5–3 years.
 
@@ -182,7 +182,7 @@ The Gujarat solar subsidy application involves two parallel tracks — the natio
 
 1. **Register on pmsuryaghar.gov.in** with your electricity consumer number, Aadhaar, and mobile number. Complete e-KYC. Select "Gujarat" as your state and choose your DISCOM. This creates your national scheme application.
 
-2. **Simultaneously register on the GEDA portal** at [geda.gujarat.gov.in](https://geda.gujarat.gov.in/){target="_blank" rel="noopener"} for the state Surya Gujarat component. You will need the same documents — the two registrations can run in parallel from day one.
+2. **Simultaneously register on the GEDA portal** at [geda.gujarat.gov.in](https://geda.gujarat.gov.in/) for the state Surya Gujarat component. You will need the same documents — the two registrations can run in parallel from day one.
 
 3. **Obtain DISCOM technical feasibility approval.** The DISCOM reviews your application and confirms grid capacity at your connection point. MNRE mandates 15 days; Gujarat DISCOMs typically respond in 7–20 days depending on load on the approval desk.
 

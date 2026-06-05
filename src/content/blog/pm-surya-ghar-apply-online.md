@@ -35,11 +35,11 @@ faqs:
 
 Every month, more than 45,000 Indian households search for how to apply for PM Surya Ghar online — and a significant number of them abandon the process midway because of confusing portal instructions, unclear document requirements, or unexpected DISCOM rejections. The scheme is genuinely generous: up to ₹78,000 in central subsidy, paid directly to the applicant's bank account, for a rooftop solar system that eliminates or sharply reduces the monthly electricity bill. The application, however, has eight distinct stages that must be completed in sequence, each with its own set of requirements.
 
-This guide walks through every stage of the PM Surya Ghar application process on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in){target="_blank" rel="noopener"} — from initial registration to subsidy credit — with the complete document checklist, a stage-by-stage timeline table, and the most common rejection reasons along with specific steps to avoid them.
+This guide walks through every stage of the PM Surya Ghar application process on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in) — from initial registration to subsidy credit — with the complete document checklist, a stage-by-stage timeline table, and the most common rejection reasons along with specific steps to avoid them.
 
 > **Direct answer.** To apply for PM Surya Ghar online, register on pmsuryaghar.gov.in with your Aadhaar-linked mobile number and electricity consumer number, submit rooftop details for DISCOM feasibility approval (2–7 working days), choose an ALMM-listed empanelled installer, complete the installation, pass DISCOM inspection with net meter installation, upload the commissioning certificate, and receive the subsidy — up to ₹78,000 — directly in your bank account within 15–30 days.
 
-The scheme is formally named PM Surya Ghar Muft Bijli Yojana and was launched by the Government of India in February 2024 under the Ministry of New and Renewable Energy ([MNRE](https://mnre.gov.in){target="_blank" rel="noopener"}). It targets one crore households by 2027. Understanding the [PM Surya Ghar](/glossary/pm-surya-ghar/) programme structure — particularly the DISCOM-mediated verification flow — is essential before starting the application, because the subsidy is not paid until the local distribution company confirms successful installation.
+The scheme is formally named PM Surya Ghar Muft Bijli Yojana and was launched by the Government of India in February 2024 under the Ministry of New and Renewable Energy ([MNRE](https://mnre.gov.in)). It targets one crore households by 2027. Understanding the [PM Surya Ghar](/glossary/pm-surya-ghar/) programme structure — particularly the DISCOM-mediated verification flow — is essential before starting the application, because the subsidy is not paid until the local distribution company confirms successful installation.
 
 ## What Is PM Surya Ghar Muft Bijli Yojana and Who Is Eligible
 
@@ -66,7 +66,7 @@ The following criteria must be satisfied before a household can apply:
 
 State governments may offer additional subsidies on top of the central component. The subsidy is credited post-installation; the homeowner pays the full cost to the installer first and receives the subsidy as a bank transfer afterward.
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW or larger residential rooftop system, paid directly to the applicant's bank account after DISCOM verifies installation. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW or larger residential rooftop system, paid directly to the applicant's bank account after DISCOM verifies installation. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ## The PM Surya Ghar Application Checklist — Documents Required
 
@@ -93,7 +93,7 @@ This is the full eight-step PM Surya Ghar application process as structured on p
 
 ### The PM Surya Ghar Application Checklist
 
-1. **Register on pmsuryaghar.gov.in** — Visit [https://pmsuryaghar.gov.in](https://pmsuryaghar.gov.in){target="_blank" rel="noopener"} and click "Apply for Rooftop Solar." Enter your state, your DISCOM name, and your electricity consumer number (found on your bill). Then enter your Aadhaar-linked mobile number to receive an OTP for authentication. Once the OTP is verified, set a password to create your account. Keep this login credential safe — it is required for every subsequent stage.
+1. **Register on pmsuryaghar.gov.in** — Visit [https://pmsuryaghar.gov.in](https://pmsuryaghar.gov.in) and click "Apply for Rooftop Solar." Enter your state, your DISCOM name, and your electricity consumer number (found on your bill). Then enter your Aadhaar-linked mobile number to receive an OTP for authentication. Once the OTP is verified, set a password to create your account. Keep this login credential safe — it is required for every subsequent stage.
 
 2. **Fill rooftop and system details** — After login, complete the application form with your roof area, preferred system size (1 kW, 2 kW, 3 kW, or higher based on your consumption), shadow-free roof area estimate, and building type. The portal auto-calculates the eligible subsidy amount based on the system size you enter. Upload the required documents: electricity bill, Aadhaar copy, property proof, and the bank mandate. Submit the application.
 
@@ -126,7 +126,7 @@ Planning the PM Surya Ghar timeline helps homeowners manage cash flow, since the
 | Step 8 | Subsidy credit to bank account | 15–30 days |
 | **Total end-to-end** | **Application to subsidy received** | **30–90 days** |
 
-The most variable stage is Step 6 (DISCOM inspection). In states with high application volumes — Gujarat, Rajasthan, and Maharashtra have collectively accounted for a disproportionate share of PM Surya Ghar applications according to [Mercom India's programme tracking](https://www.mercomindia.com/){target="_blank" rel="noopener"} — inspection queues can stretch the timeline considerably. Applicants in these states should submit the commissioning certificate as soon as possible after the net meter is installed to avoid further delays.
+The most variable stage is Step 6 (DISCOM inspection). In states with high application volumes — Gujarat, Rajasthan, and Maharashtra have collectively accounted for a disproportionate share of PM Surya Ghar applications according to [Mercom India's programme tracking](https://www.mercomindia.com/) — inspection queues can stretch the timeline considerably. Applicants in these states should submit the commissioning certificate as soon as possible after the net meter is installed to avoid further delays.
 
 ## ALMM Compliance and Inverter Eligibility — What Homeowners Must Verify
 
@@ -134,7 +134,7 @@ The [ALMM list](/glossary/almm-list/) is the single most important eligibility f
 
 For homeowners, verifying ALMM eligibility means asking the installer two specific questions before signing the work order:
 
-- Is the proposed solar module model currently listed on the MNRE ALMM list? (Check the module section at [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"})
+- Is the proposed solar module model currently listed on the MNRE ALMM list? (Check the module section at [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/))
 - Is the proposed inverter model currently ALMM-listed under the inverter / power conditioning unit section?
 
 Qbits on-grid inverters carry ALMM listing, which means homeowners who specify Qbits equipment can proceed with confidence on the subsidy eligibility front. The ALMM list is updated periodically, so even established brands should be re-verified against the latest published version before the work order is signed.
@@ -177,9 +177,9 @@ Once the net meter is installed, the household's relationship with the grid chan
 
 For most 3 kW residential systems in India receiving 4 to 5 peak sun hours per day, monthly generation is approximately 300 to 375 kWh. A household with a monthly bill of ₹2,500 to ₹4,000 (roughly 250 to 450 units) can expect to reduce their net import to near zero or even carry forward credits during summer months, with some grid import returning during monsoon when panel output dips.
 
-> **1 crore households.** The Government of India's target for PM Surya Ghar Muft Bijli Yojana by 2027, representing the world's largest residential rooftop solar subsidy programme by number of beneficiaries. *Source — [MNRE Scheme Notification](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2024.*
+> **1 crore households.** The Government of India's target for PM Surya Ghar Muft Bijli Yojana by 2027, representing the world's largest residential rooftop solar subsidy programme by number of beneficiaries. *Source — [MNRE Scheme Notification](https://mnre.gov.in/), 2024.*
 
-According to analysis by [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}, rooftop solar uptake under PM Surya Ghar has accelerated substantially in the 2025–26 period, with applications growing faster than DISCOM processing capacity in several high-demand states. This makes early application and complete documentation even more important — the queue is long and incomplete applications return to the back of the line.
+According to analysis by [JMK Research](https://jmkresearch.com/), rooftop solar uptake under PM Surya Ghar has accelerated substantially in the 2025–26 period, with applications growing faster than DISCOM processing capacity in several high-demand states. This makes early application and complete documentation even more important — the queue is long and incomplete applications return to the back of the line.
 
 ## After Subsidy — Monitoring, Maintenance, and Warranty
 
@@ -231,8 +231,8 @@ For homeowners who want to understand Qbits' engineering philosophy before makin
 
 ## PM Surya Ghar Progress and What It Means for Applicants in 2026
 
-The scheme has moved significantly faster than initial projections. Analysis by [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"} noted that PM Surya Ghar crossed several million applications in its first year, with DISCOM infrastructure in high-uptake states coming under strain. This has a practical implication: DISCOM processing times are longer in 2026 than they were in 2024, and applicants should factor 60 to 90 days rather than 45 days as a realistic end-to-end timeline in states with high application density.
+The scheme has moved significantly faster than initial projections. Analysis by [Bridge to India](https://bridgetoindia.com/) noted that PM Surya Ghar crossed several million applications in its first year, with DISCOM infrastructure in high-uptake states coming under strain. This has a practical implication: DISCOM processing times are longer in 2026 than they were in 2024, and applicants should factor 60 to 90 days rather than 45 days as a realistic end-to-end timeline in states with high application density.
 
-The scheme's budget allocation, MNRE's empanelment of new installers, and state government co-funding arrangements are all evolving. Checking the [PM Surya Ghar portal](https://pmsuryaghar.gov.in){target="_blank" rel="noopener"} for the latest circulars and your state's current DISCOM processing time estimates is advisable before finalising your application date. States such as Uttar Pradesh, Madhya Pradesh, and Odisha have expanded installer empanelment significantly in 2025–26, improving processing capacity.
+The scheme's budget allocation, MNRE's empanelment of new installers, and state government co-funding arrangements are all evolving. Checking the [PM Surya Ghar portal](https://pmsuryaghar.gov.in) for the latest circulars and your state's current DISCOM processing time estimates is advisable before finalising your application date. States such as Uttar Pradesh, Madhya Pradesh, and Odisha have expanded installer empanelment significantly in 2025–26, improving processing capacity.
 
 For homeowners who want to understand the broader policy context — including how ALMM, net metering, and state subsidies interact — the article on [solar inverter regulations in India 2026](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) is the recommended next read. The [product range at Qbits](/our-products/) is another useful reference for understanding which inverter models are available and ALMM-listed for each system size category.

@@ -44,7 +44,7 @@ For a broader brand context, see [our full review of the best solar inverter in 
 
 India's residential solar market crossed 4 GW of cumulative rooftop installed capacity in 2025, with PM Surya Ghar Muft Bijli Yojana accelerating installations across every state.
 
-> **4 GW+.** India's cumulative rooftop solar installed capacity as of early 2026, with the central government targeting 10 GW of residential installations under PM Surya Ghar by 2027. *Source — [MNRE Annual Report 2025–26](https://mnre.gov.in/){target="_blank" rel="noopener"}, Ministry of New and Renewable Energy.*
+> **4 GW+.** India's cumulative rooftop solar installed capacity as of early 2026, with the central government targeting 10 GW of residential installations under PM Surya Ghar by 2027. *Source — [MNRE Annual Report 2025–26](https://mnre.gov.in/), Ministry of New and Renewable Energy.*
 
 Within this growth story, the inverter brand decision carries more long-term consequence than it appears at the point of sale. Three realities shape the Indian context:
 
@@ -114,7 +114,7 @@ Growatt's India service infrastructure has improved significantly since 2020. Ma
 
 Growatt's ShinePhone app does provide remote fault diagnostics, which allows some issues to be resolved without a site visit. However, hardware faults still require physical turnaround through the repair chain, and there is no published turnaround SLA equivalent to Qbits's 72-hour commitment.
 
-> **60%.** The share of solar system service calls in India attributable to inverter-related issues, according to EPC field surveys. This figure underlines why after-sales infrastructure quality is the single most consequential brand decision for a 25-year system investment. *Source — [Mercom India Research](https://www.mercomindia.com/){target="_blank" rel="noopener"}, 2025.*
+> **60%.** The share of solar system service calls in India attributable to inverter-related issues, according to EPC field surveys. This figure underlines why after-sales infrastructure quality is the single most consequential brand decision for a 25-year system investment. *Source — [Mercom India Research](https://www.mercomindia.com/), 2025.*
 
 ## Axis 3 — ALMM Compliance
 
@@ -136,7 +136,7 @@ Growatt has had multiple models listed under ALMM Phase III. As a global brand w
 | India origin advantage | ✓ | Imported; origin declaration required |
 | PM Surya Ghar eligible | ✓ (listed models) | ✓ (listed models only) |
 
-For buyers pursuing the [PM Surya Ghar subsidy](/blog/solar-inverter-with-subsidy-pm-surya-ghar/), always confirm the exact inverter model against the current [MNRE ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before signing a purchase order.
+For buyers pursuing the [PM Surya Ghar subsidy](/blog/solar-inverter-with-subsidy-pm-surya-ghar/), always confirm the exact inverter model against the current [MNRE ALMM list](https://mnre.gov.in/almm-list/) before signing a purchase order.
 
 ## Axis 4 — Monitoring Capability
 
@@ -177,7 +177,7 @@ Qbits is priced at a modest premium above Growatt. On a 12-year total cost of ow
 
 The honest caveat: not every Growatt inverter fails after year 5. Buyers who are comfortable absorbing replacement risk after the warranty period expires, or who plan to upgrade their solar system within 8–10 years anyway, may reasonably prefer Growatt's lower upfront cost.
 
-> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the buyer's bank account after DISCOM verification. *Source — [PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, Ministry of New and Renewable Energy, 2026.*
+> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the buyer's bank account after DISCOM verification. *Source — [PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), Ministry of New and Renewable Energy, 2026.*
 
 | Value Dimension | Qbits | Growatt |
 | --- | --- | --- |
@@ -282,7 +282,7 @@ Before reaching a final verdict, three decision mistakes are worth flagging — 
 
 **Mistake 1: Comparing peak efficiency figures without checking temperature derating.** Many inverter spec sheets report peak efficiency at 25 °C. Indian rooftops operate at 45 °C and above in summer. Ask for the derating curve at 45 °C ambient before comparing efficiency figures between brands. An inverter rated 98% peak efficiency that derades to 92% at 45 °C performs less well in practice than one rated 97.5% that holds 97% at operating temperature.
 
-**Mistake 2: Assuming ALMM listing by brand name.** Both Qbits and Growatt are brands with ALMM-listed models. Neither brand's entire product line is automatically listed. Verify the exact model number against the current live list at the [MNRE portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before placing an order. See our [complete ALMM Phase III guide](/blog/almm-list-phase-iii-guide/) for how to check correctly.
+**Mistake 2: Assuming ALMM listing by brand name.** Both Qbits and Growatt are brands with ALMM-listed models. Neither brand's entire product line is automatically listed. Verify the exact model number against the current live list at the [MNRE portal](https://mnre.gov.in/almm-list/) before placing an order. See our [complete ALMM Phase III guide](/blog/almm-list-phase-iii-guide/) for how to check correctly.
 
 **Mistake 3: Treating warranty years as equivalent regardless of what they cover.** Growatt's 5-year warranty and Qbits's 12-year warranty sound like a simple duration comparison. They are not: one covers repair of a unit, the other covers replacement of a unit. A 5-year repair warranty on a board that has been repaired once will fail again faster than a new unit. Read the warranty terms, not just the number of years.
 

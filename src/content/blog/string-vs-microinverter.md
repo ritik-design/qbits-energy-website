@@ -82,7 +82,7 @@ This framework was developed from the common shading patterns found on Indian re
 
 2. **Quantify the affected panel fraction.** Count how many panels (out of your total planned array) fall inside any shade envelope for more than 30 minutes per day during the critical December window. Express this as a percentage: if 2 of 12 panels are partially shaded for over 30 minutes, your affected fraction is 17 percent.
 
-3. **Run the shade loss calculation using PVsyst or PVGIS.** Input your coordinates, roof tilt, azimuth, and the shade geometry from Step 1. The tool outputs an annual shade loss percentage. Free tools like [PVGIS](https://re.jrc.ec.europa.eu/pvgis/){target="_blank" rel="noopener"} from the European Commission's Joint Research Centre can give you an indicative number without paid software.
+3. **Run the shade loss calculation using PVsyst or PVGIS.** Input your coordinates, roof tilt, azimuth, and the shade geometry from Step 1. The tool outputs an annual shade loss percentage. Free tools like [PVGIS](https://re.jrc.ec.europa.eu/pvgis/) from the European Commission's Joint Research Centre can give you an indicative number without paid software.
 
 4. **Apply the decision threshold:**
    - Annual shade loss **below 5 percent** → a dual-MPPT string inverter is sufficient. The microinverter premium will not pay back within the system's financial life.
@@ -143,7 +143,7 @@ Microinverters are not a bad technology. They are the correct technology for spe
 - A cost-sensitive installation where the payback period is already 7–9 years; adding 50 percent hardware cost extends payback by 2–3 years with marginal generation benefit.
 - Any installation in a Tier-2 or Tier-3 city where the buyer does not have a clear answer to "who services my microinverters if one fails in year 8?"
 
-> *According to [IRENA's Renewable Power Generation Costs report](https://www.irena.org/publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023){target="_blank" rel="noopener"}, India's residential solar installed cost per kW continues to decline. Technology premium decisions made today should be stress-tested at both current and future cost levels to confirm payback viability.*
+> *According to [IRENA's Renewable Power Generation Costs report](https://www.irena.org/publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023), India's residential solar installed cost per kW continues to decline. Technology premium decisions made today should be stress-tested at both current and future cost levels to confirm payback viability.*
 
 ## Shading Reality on Indian Roofs — What Actually Happens
 
@@ -161,7 +161,7 @@ The [MPPT design principles](/blog/inverter-mppt/) that govern how an inverter r
 
 ## Why String Inverters Dominate the Indian Market
 
-India's solar inverter market installed approximately 14 GW of residential and small commercial capacity in 2024–25, according to [JMK Research's India Solar Market Report](https://jmkresearch.com/){target="_blank" rel="noopener"}. String inverters account for over 95 percent of that installed base. This is not inertia or ignorance — it reflects genuine market logic.
+India's solar inverter market installed approximately 14 GW of residential and small commercial capacity in 2024–25, according to [JMK Research's India Solar Market Report](https://jmkresearch.com/). String inverters account for over 95 percent of that installed base. This is not inertia or ignorance — it reflects genuine market logic.
 
 **Cost sensitivity is the primary driver.** The Indian residential solar buyer is making a capital investment of ₹1.5–4 Lakh for a typical 3–10 kW system. Subsidy under the PM Surya Ghar Muft Bijli Yojana covers a portion (up to ₹78,000 for a 3 kW system), but the balance is out-of-pocket. A 40–60 percent inverter cost premium materially affects payback period and return on investment for most buyers.
 
@@ -169,7 +169,7 @@ India's solar inverter market installed approximately 14 GW of residential and s
 
 **Multi-MPPT string inverters have closed the gap.** A [review of the best solar inverters in India](/blog/best-solar-inverter-india-2026/) shows that virtually every reputable string inverter above 3 kW now ships with dual-MPPT as standard. On a typical Indian rooftop with minor shade sources, a well-configured dual-MPPT string inverter recovers 85–95 percent of the generation that microinverters would deliver — at half the hardware cost.
 
-**The ALMM and BIS compliance framework.** String inverters from established Indian and international manufacturers are broadly ALMM-listed and BIS-certified. Microinverters from global brands like Enphase may not be on the ALMM list for PM Surya Ghar subsidy purposes, which can affect subsidy eligibility for buyers applying under the scheme. The [MNRE ALMM portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} publishes the current list of approved models — always verify before specifying a product for a subsidy-eligible installation. This is a material, India-specific consideration that does not appear in global microinverter comparisons.
+**The ALMM and BIS compliance framework.** String inverters from established Indian and international manufacturers are broadly ALMM-listed and BIS-certified. Microinverters from global brands like Enphase may not be on the ALMM list for PM Surya Ghar subsidy purposes, which can affect subsidy eligibility for buyers applying under the scheme. The [MNRE ALMM portal](https://mnre.gov.in/almm-list/) publishes the current list of approved models — always verify before specifying a product for a subsidy-eligible installation. This is a material, India-specific consideration that does not appear in global microinverter comparisons.
 
 ## Pros and Cons Decision Table
 

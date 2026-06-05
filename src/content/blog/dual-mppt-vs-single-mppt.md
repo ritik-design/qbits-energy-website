@@ -58,7 +58,7 @@ Two independent trackers solve the problem completely. Each string group operate
 | **2 channels** | Each string group tracked independently at its own optimum | Zero inter-group compromise |
 | **4+ channels** | Each of four or more zones tracked independently | Required for complex multi-zone installations |
 
-For context: [NREL modelling on east-west mounted PV arrays](https://www.nrel.gov/docs/fy14osti/61173.pdf){target="_blank" rel="noopener"} found that east-west installations using per-face tracking can yield 10 to 20 percent more annual energy than a single south-facing array of the same total panel count, primarily because the generation profile is flatter through the day and both orientations are tracked to their own optima.
+For context: [NREL modelling on east-west mounted PV arrays](https://www.nrel.gov/docs/fy14osti/61173.pdf) found that east-west installations using per-face tracking can yield 10 to 20 percent more annual energy than a single south-facing array of the same total panel count, primarily because the generation profile is flatter through the day and both orientations are tracked to their own optima.
 
 ## When Single MPPT Is Perfectly Sufficient
 
@@ -71,7 +71,7 @@ Walk up to a typical Indian home in a Tier-2 town — a 2 BHK or 3 BHK with a fl
 - **South-facing array with no obstructions** — single MPPT captures 100% of available yield.
 - **Small 1–3 kW systems** — cost efficiency favours single MPPT. The yield difference is zero on a simple roof.
 
-According to [IRENA's 2024 Renewable Power Generation Costs report](https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023){target="_blank" rel="noopener"}, residential solar PV now delivers some of the lowest levelised cost of electricity of any generation source, and that economics case rests on keeping hardware costs proportionate to actual yield gains. Paying for dual MPPT on a uniform roof is a cost with no corresponding energy return.
+According to [IRENA's 2024 Renewable Power Generation Costs report](https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023), residential solar PV now delivers some of the lowest levelised cost of electricity of any generation source, and that economics case rests on keeping hardware costs proportionate to actual yield gains. Paying for dual MPPT on a uniform roof is a cost with no corresponding energy return.
 
 The key question to answer before specifying your inverter is not "which spec looks better on paper" but "does my roof geometry actually create two distinct irradiance zones?" If the answer is no, a high-quality single-MPPT inverter is the right call. See the [solar inverter sizing](/blog/solar-inverter-sizing/) guide for a full treatment of how to match inverter capacity to your array regardless of MPPT count.
 
@@ -97,7 +97,7 @@ If the shaded section and the unshaded section share a single MPPT channel, the 
 
 Dual MPPT resolves this by isolating the shaded panels on channel 1 and the unshaded panels on channel 2. Channel 2 runs freely at the clean array's maximum power point regardless of what happens on channel 1. The shaded group still loses some output — shading loss cannot be fully eliminated without module-level optimisers or microinverters — but the clean group is no longer compromised.
 
-> **10–15%.** The estimated annual yield reduction when a partially shaded string shares an MPPT channel with an unshaded string, compared to dual-MPPT isolation. *Source — [IEA PVPS Task 13 Performance Loss Report](https://iea-pvps.org/key-topics/performance-loss-rates-of-pv-systems/){target="_blank" rel="noopener"}, 2023.*
+> **10–15%.** The estimated annual yield reduction when a partially shaded string shares an MPPT channel with an unshaded string, compared to dual-MPPT isolation. *Source — [IEA PVPS Task 13 Performance Loss Report](https://iea-pvps.org/key-topics/performance-loss-rates-of-pv-systems/), 2023.*
 
 ### Two Roof Sections at Different Tilt Angles
 
@@ -174,11 +174,11 @@ The [inverter clipping](/blog/inverter-clipping-explained/) guide covers a relat
 
 ## Dual MPPT and the PM Surya Ghar Subsidy Context
 
-For homeowners applying under the [PM Surya Ghar Muft Bijli Yojana](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, the subsidy is calculated on system capacity rather than inverter architecture. A 3 kW system with a dual-MPPT inverter receives the same central subsidy as a 3 kW system with a single-MPPT inverter. The inverter must be on the [ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} published by MNRE, which lists both single and dual MPPT models from compliant manufacturers.
+For homeowners applying under the [PM Surya Ghar Muft Bijli Yojana](https://pmsuryaghar.gov.in/), the subsidy is calculated on system capacity rather than inverter architecture. A 3 kW system with a dual-MPPT inverter receives the same central subsidy as a 3 kW system with a single-MPPT inverter. The inverter must be on the [ALMM list](https://mnre.gov.in/almm-list/) published by MNRE, which lists both single and dual MPPT models from compliant manufacturers.
 
-> **₹78,000.** The maximum central subsidy available under PM Surya Ghar for a 3 kW residential system, credited directly to the applicant's bank account after DISCOM verification. *Source — [PM Surya Ghar Muft Bijli Yojana portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy available under PM Surya Ghar for a 3 kW residential system, credited directly to the applicant's bank account after DISCOM verification. *Source — [PM Surya Ghar Muft Bijli Yojana portal](https://pmsuryaghar.gov.in/), 2026.*
 
-This means the MPPT decision is purely a yield-and-cost question for subsidy-eligible installations, not a compliance question. Choose the inverter architecture that your roof geometry actually justifies — and confirm the specific model is ALMM-listed before signing the installation agreement. The [IEC 62109](https://www.iec.ch/homepage){target="_blank" rel="noopener"} safety standard applicable to solar inverters in India applies equally to single and dual MPPT designs.
+This means the MPPT decision is purely a yield-and-cost question for subsidy-eligible installations, not a compliance question. Choose the inverter architecture that your roof geometry actually justifies — and confirm the specific model is ALMM-listed before signing the installation agreement. The [IEC 62109](https://www.iec.ch/homepage) safety standard applicable to solar inverters in India applies equally to single and dual MPPT designs.
 
 ## Where Qbits Fits
 

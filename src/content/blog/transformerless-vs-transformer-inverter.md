@@ -110,7 +110,7 @@ A certified transformerless inverter per [IEC 62109](/glossary/iec-62109/) uses 
 
 > **1 A.** The maximum DC injection current permitted before an IEC 62109-compliant transformerless inverter must trip and disconnect from the grid, per IEC 62109-1 Clause 13.7 and the CEA Technical Standards for Connectivity of Distributed Generation Resources. *Source — [IEC 62109-1:2010, Safety for Power Converters for Use in Photovoltaic Power Systems](https://www.iec.ch/), International Electrotechnical Commission.*
 
-The [CEA Technical Standards for Connectivity of the Distributed Generation Resources](https://cea.nic.in/old/reports/committee/norms/norms_dg_resource.pdf){target="_blank" rel="noopener"}, notified under the Electricity Act 2003, specifically address this requirement and permit transformerless designs provided the monitoring circuits meet the threshold. [BIS IS 16169](/glossary/bis-certification/) (the Indian standard harmonised with IEC 62109) carries the same provision.
+The [CEA Technical Standards for Connectivity of the Distributed Generation Resources](https://cea.nic.in/old/reports/committee/norms/norms_dg_resource.pdf), notified under the Electricity Act 2003, specifically address this requirement and permit transformerless designs provided the monitoring circuits meet the threshold. [BIS IS 16169](/glossary/bis-certification/) (the Indian standard harmonised with IEC 62109) carries the same provision.
 
 **The residual risk:** Electronic protection can theoretically fail if the monitoring circuit itself has a fault. Transformer isolation is passive and cannot fail electronically. This is the genuine engineering argument for transformer-based designs in critical applications — not that transformerless is inherently less safe for standard installations, but that the fault-tolerance profile differs.
 
@@ -143,13 +143,13 @@ On a project with 10 inverters (100 kW system), this is 100–150 kg of load red
 
 India's regulatory framework for grid-tied inverters is now firmly aligned with international standards that explicitly accommodate transformerless designs.
 
-> **270 GW.** India's cumulative installed solar capacity target under the National Solar Mission, with rooftop solar accounting for a significant and growing share. As inverter shipment volumes scale, the efficiency and weight advantages of transformerless designs become proportionally more valuable to the national energy transition. *Source — [MNRE Annual Report 2024–25](https://mnre.gov.in/){target="_blank" rel="noopener"}, Ministry of New and Renewable Energy.*
+> **270 GW.** India's cumulative installed solar capacity target under the National Solar Mission, with rooftop solar accounting for a significant and growing share. As inverter shipment volumes scale, the efficiency and weight advantages of transformerless designs become proportionally more valuable to the national energy transition. *Source — [MNRE Annual Report 2024–25](https://mnre.gov.in/), Ministry of New and Renewable Energy.*
 
 ### BIS IS 16169
 
 IS 16169:2014 (amended 2023) is the Indian national standard for photovoltaic systems — grid interactive inverters. It is a direct adoption of IEC 62116 (anti-islanding) and incorporates the IEC 62109 safety requirements. The standard does not distinguish between transformer-based and transformerless topologies — it specifies performance and safety outcomes, not internal architecture.
 
-EPCs can confirm IS 16169 compliance from the BIS Test Certificate issued by a [BIS-recognised laboratory](https://bis.gov.in/){target="_blank" rel="noopener"}. Qbits TLS series inverters carry current IS 16169 certification.
+EPCs can confirm IS 16169 compliance from the BIS Test Certificate issued by a [BIS-recognised laboratory](https://bis.gov.in/). Qbits TLS series inverters carry current IS 16169 certification.
 
 ### IEC 62109
 
@@ -242,9 +242,9 @@ IEC 62109-2 and IS 16169 require the installer to verify that the inverter's res
 
 ## ALMM, PM Surya Ghar, and What Transformerless Means for Subsidised Projects
 
-The [ALMM list](/blog/almm-list-phase-iii-guide/) (Approved List of Models and Manufacturers) maintained by [MNRE](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} is the gateway to PM Surya Ghar Muft Bijli Yojana subsidies for inverters. Both transformer-based and transformerless inverters can be listed — the ALMM does not mandate a topology.
+The [ALMM list](/blog/almm-list-phase-iii-guide/) (Approved List of Models and Manufacturers) maintained by [MNRE](https://mnre.gov.in/almm-list/) is the gateway to PM Surya Ghar Muft Bijli Yojana subsidies for inverters. Both transformer-based and transformerless inverters can be listed — the ALMM does not mandate a topology.
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, disbursed directly to the beneficiary's bank account after DISCOM verification of installation. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, disbursed directly to the beneficiary's bank account after DISCOM verification of installation. *Source — [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ALMM Phase III includes multiple transformerless models from Indian and international manufacturers. For an EPC sourcing ALMM-compliant inverters for PM Surya Ghar projects, the practical question is not "transformer or transformerless?" but "which ALMM-listed transformerless model gives the best efficiency, warranty, and service SLA combination?"
 

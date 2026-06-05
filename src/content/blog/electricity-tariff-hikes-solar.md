@@ -57,7 +57,7 @@ The Central Electricity Authority publishes consolidated tariff data annually, a
 
 These figures represent the base tariff only. In addition to the headline revision, most states levied fuel cost adjustment charges (FCACs) of 30–80 paise per unit during 2025–26 due to elevated coal import prices and supply chain disruptions. The effective tariff — what actually appears on the bill — is often 40–60 paise higher than the tariff order rate.
 
-> **₹11.50 per unit.** The effective residential tariff for a high-consuming household in Maharashtra (MSEDCL zone) in the 301–500 unit monthly slab, inclusive of the 2025–26 revision and applicable fuel cost adjustments. *Source — [Maharashtra Electricity Regulatory Commission Tariff Order 2025–26](https://www.mercindia.org.in/){target="_blank" rel="noopener"}, October 2025.*
+> **₹11.50 per unit.** The effective residential tariff for a high-consuming household in Maharashtra (MSEDCL zone) in the 301–500 unit monthly slab, inclusive of the 2025–26 revision and applicable fuel cost adjustments. *Source — [Maharashtra Electricity Regulatory Commission Tariff Order 2025–26](https://www.mercindia.org.in/), October 2025.*
 
 The [State Electricity Regulatory Commission](/glossary/serc/) in each state conducts Annual Revenue Requirement (ARR) proceedings before approving these hikes. The primary drivers in 2025–26 were higher fuel procurement costs for thermal plants, increased transmission and distribution losses, and infrastructure investment mandates under the Revamped Distribution Sector Scheme (RDSS). None of these cost drivers are expected to reverse direction — which means the tariff trajectory is structurally upward.
 
@@ -92,7 +92,7 @@ Understanding when solar is right for your household requires more than a single
 
 1. **Identify your effective tariff** — Pull your last three electricity bills. Calculate the total bill amount (excluding fixed charges) divided by total units consumed. This blended rate is your starting tariff. For slab-structured tariffs, note that solar offsets the highest slab first — so your effective solar savings rate may be higher than the blended rate.
 
-2. **Estimate your solar yield** — Multiply your system capacity (kW) by your location's average peak sun hours per day and by 365. A 5 kW system in Pune receives approximately 4.8 peak sun hours per day, yielding 5 × 4.8 × 365 × 0.80 (system efficiency factor) = 7,008 kWh per year. Use the [Central Electricity Authority's solar atlas](https://cea.nic.in/){target="_blank" rel="noopener"} for state-level irradiation data.
+2. **Estimate your solar yield** — Multiply your system capacity (kW) by your location's average peak sun hours per day and by 365. A 5 kW system in Pune receives approximately 4.8 peak sun hours per day, yielding 5 × 4.8 × 365 × 0.80 (system efficiency factor) = 7,008 kWh per year. Use the [Central Electricity Authority's solar atlas](https://cea.nic.in/) for state-level irradiation data.
 
 3. **Calculate annual savings** — Multiply annual solar yield by your effective tariff (or your top slab rate if your consumption is in the upper bracket). At ₹7/unit, 7,008 kWh saves ₹49,056. At ₹9/unit (post-MSEDCL revision), the same system saves ₹63,072 — a ₹14,016 annual difference on a single tariff revision.
 
@@ -136,9 +136,9 @@ The [Levelised Cost of Energy (LCOE)](/glossary/lcoe/) for a residential 5 kW ro
 
 At these inputs, rooftop solar LCOE in 2026 lands at ₹3.50–₹5.50 per unit depending on irradiance zone. Against a Maharashtra top-slab tariff of ₹10.60+, the LCOE gap is ₹5–7 per unit. Against Karnataka's ₹8.40 tariff, the gap is ₹3–5 per unit. Even in Tamil Nadu, where tariffs are lower due to historical cross-subsidy structures, the LCOE gap is now positive.
 
-> **₹3.50–₹5.50 per unit.** The 2026 rooftop solar LCOE range across Indian states (3–10 kW residential systems), based on modelling by [IRENA's 2025 Renewable Power Generation Costs report](https://www.irena.org/publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024){target="_blank" rel="noopener"} adapted for Indian capex and irradiance conditions. Grid retail tariffs are 1.5–3× higher in upper consumption slabs.
+> **₹3.50–₹5.50 per unit.** The 2026 rooftop solar LCOE range across Indian states (3–10 kW residential systems), based on modelling by [IRENA's 2025 Renewable Power Generation Costs report](https://www.irena.org/publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024) adapted for Indian capex and irradiance conditions. Grid retail tariffs are 1.5–3× higher in upper consumption slabs.
 
-This is not a temporary gap created by one good tariff revision year. India's [Central Electricity Authority](https://cea.nic.in/){target="_blank" rel="noopener"} forecasts continued tariff increases aligned with fuel cost pass-through and network infrastructure investment, while solar manufacturing costs — particularly panels — remain on a long-term declining trend globally.
+This is not a temporary gap created by one good tariff revision year. India's [Central Electricity Authority](https://cea.nic.in/) forecasts continued tariff increases aligned with fuel cost pass-through and network infrastructure investment, while solar manufacturing costs — particularly panels — remain on a long-term declining trend globally.
 
 The [net metering](/glossary/net-metering/) framework in most Indian states adds an additional dimension: any surplus solar generation exported to the grid earns a credit (typically at the purchase tariff rate, which is lower than the retail tariff) that offsets future bills. The primary financial lever remains self-consumption, but net metering provides a safety valve for households with variable consumption patterns.
 
@@ -152,7 +152,7 @@ Maharashtra represents the strongest residential solar ROI environment in India 
 
 ### Uttar Pradesh (UPPCL zone)
 
-UP is the fastest-growing rooftop solar market by installation volume in India, partly because the starting tariff base was lower (making absolute annual savings smaller) but per-unit hikes in 2025–26 were proportionally significant at 8–10%. Urban consumers on the 150-unit-plus slab now pay ₹7.10–₹7.30/unit, closing in on the ₹7.50+ threshold where payback periods comfortably fall below six years. According to [Mercom India's Q1 2026 India Solar Market Update](https://www.mercomindia.com/india-solar-market-update-q1-2026){target="_blank" rel="noopener"}, UP added more rooftop capacity in the first quarter of 2026 than any other Indian state. The [solar subsidy Uttar Pradesh](/blog/solar-subsidy-uttar-pradesh-2026/) page covers the state government top-up available to PM Surya Ghar applicants in UP.
+UP is the fastest-growing rooftop solar market by installation volume in India, partly because the starting tariff base was lower (making absolute annual savings smaller) but per-unit hikes in 2025–26 were proportionally significant at 8–10%. Urban consumers on the 150-unit-plus slab now pay ₹7.10–₹7.30/unit, closing in on the ₹7.50+ threshold where payback periods comfortably fall below six years. According to [Mercom India's Q1 2026 India Solar Market Update](https://www.mercomindia.com/india-solar-market-update-q1-2026), UP added more rooftop capacity in the first quarter of 2026 than any other Indian state. The [solar subsidy Uttar Pradesh](/blog/solar-subsidy-uttar-pradesh-2026/) page covers the state government top-up available to PM Surya Ghar applicants in UP.
 
 ### Karnataka (BESCOM zone)
 

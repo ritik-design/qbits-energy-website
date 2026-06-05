@@ -108,9 +108,9 @@ Check these five panel-specific items in any quotation:
 - **Nameplate wattage and tolerance** — A panel rated "330 Wp ±5%" can legally deliver 313.5 Wp. Ask for positive-tolerance-only panels (0/+5%) to ensure you get at least the rated output.
 - **First-year degradation guarantee** — Industry standard is ≤ 2% in year one. Cheap panels may degrade 3–4% in the first year, equivalent to losing one full panel's output in a 10-panel array.
 - **Annual degradation guarantee post year one** — The standard is ≤ 0.7% per year. At 25 years, this delivers ≥ 80% of nameplate output. Unbranded panels often guarantee only ≥ 70% at year 25.
-- **BIS certification (IS 14286)** — Mandatory for panels sold in India. Ask for the BIS licence number or the BIS test report reference. [IEC 61215](https://www.iec.ch/dyn/www/f?p=103:38:0::::FSP_ORG_ID,FSP_APEX_PAGE,FSP_PROJECT_ID:1297,23,103397){target="_blank" rel="noopener"} and IEC 61730 are the international equivalents that reputable panel manufacturers also carry.
+- **BIS certification (IS 14286)** — Mandatory for panels sold in India. Ask for the BIS licence number or the BIS test report reference. [IEC 61215](https://www.iec.ch/dyn/www/f?p=103:38:0::::FSP_ORG_ID,FSP_APEX_PAGE,FSP_PROJECT_ID:1297,23,103397) and IEC 61730 are the international equivalents that reputable panel manufacturers also carry.
 
-A 10-panel array of 330 Wp panels from a brand with 1% extra annual degradation will produce roughly 6–8 fewer units per day by year 15 compared with a Tier-1 equivalent. Over that period, at ₹8 per unit, that gap costs the homeowner approximately ₹1.5–2 Lakh in lost savings — far more than the premium paid for a quality panel brand. The [International Energy Agency's 2024 solar PV market report](https://www.iea.org/reports/solar-pv){target="_blank" rel="noopener"} confirms that module quality variance remains one of the top long-term yield risk factors in residential solar globally.
+A 10-panel array of 330 Wp panels from a brand with 1% extra annual degradation will produce roughly 6–8 fewer units per day by year 15 compared with a Tier-1 equivalent. Over that period, at ₹8 per unit, that gap costs the homeowner approximately ₹1.5–2 Lakh in lost savings — far more than the premium paid for a quality panel brand. The [International Energy Agency's 2024 solar PV market report](https://www.iea.org/reports/solar-pv) confirms that module quality variance remains one of the top long-term yield risk factors in residential solar globally.
 
 ## Item 4 — Mounting Structure: The Most Overlooked Component
 
@@ -133,7 +133,7 @@ Subsidy claims under PM Surya Ghar are processed through a chain: the homeowner 
 
 Verification steps:
 
-1. **Confirm installer empanelment** on the PM Surya Ghar portal ([pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}) under the vendor registration section, filtering by state and DISCOM.
+1. **Confirm installer empanelment** on the PM Surya Ghar portal ([pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/)) under the vendor registration section, filtering by state and DISCOM.
 2. **Confirm DISCOM area** — your DISCOM is determined by your meter number's issuing authority, not by geography alone. In Maharashtra, for example, MSEDCL and Tata Power are separate DISCOMs serving adjacent areas.
 3. **Confirm system size eligibility** — PM Surya Ghar covers 1–10 kW for residential consumers. Commercial or agricultural connections are not covered under the standard residential slab.
 4. **Confirm ownership** — the solar system must be installed on a property owned or permanently occupied by the subsidy applicant. Rented premises or shared ownership may complicate the claim process.
@@ -176,7 +176,7 @@ Verify the following in the quotation's bill of materials:
 - **Conduit and trunking** — All roof-level cable runs should be in UV-resistant HDPE conduit or galvanised steel trunking. Exposed cables without conduit degrade within three to five monsoon seasons.
 - **Cable trays and labels** — Professional installations label every cable with its string number and polarity at both ends. This makes future fault diagnosis and inverter replacement straightforward.
 
-Cheap cables are the easiest place for an installer to reduce their bill of materials cost invisibly. A properly specified 3 kWp system uses approximately 80–120 metres of DC cable and 20–30 metres of AC cable. Downgrading from 4 mm² to 2.5 mm² cable on a 3 kWp system saves the installer roughly ₹1,500 but increases I²R losses by approximately 1.5 percent annually for the system's life. The [Bureau of Indian Standards (BIS)](https://www.bis.gov.in/){target="_blank" rel="noopener"} IS 7098 standard mandates the construction, insulation class, and voltage rating for PV cables used in Indian solar installations.
+Cheap cables are the easiest place for an installer to reduce their bill of materials cost invisibly. A properly specified 3 kWp system uses approximately 80–120 metres of DC cable and 20–30 metres of AC cable. Downgrading from 4 mm² to 2.5 mm² cable on a 3 kWp system saves the installer roughly ₹1,500 but increases I²R losses by approximately 1.5 percent annually for the system's life. The [Bureau of Indian Standards (BIS)](https://www.bis.gov.in/) IS 7098 standard mandates the construction, insulation class, and voltage rating for PV cables used in Indian solar installations.
 
 ## Item 8 — MPPT Count and Roof Orientation Compatibility
 
@@ -189,7 +189,7 @@ The quotation should specify how many MPPT inputs the inverter carries and how t
 - **Mixed orientations (e.g., south + east + west terrace)** — Three or more MPPTs. Ask the installer to provide a shade analysis report showing the string layout and expected yield impact.
 - **Partially shaded rooftop** — Consider whether a multi-MPPT inverter or module-level power electronics (microinverters or DC optimisers) are appropriate. The [string vs microinverter guide](/blog/string-vs-microinverter/) compares the economics of both approaches.
 
-A mismatch between MPPT count and roof orientation is a design error, not a specification preference. If the installer is assigning two differently oriented strings to one MPPT input, ask them to justify the yield impact in writing before accepting. Research published by [NREL on residential PV system performance](https://www.nrel.gov/solar/){target="_blank" rel="noopener"} confirms that orientation and shading mismatches are among the top five causes of underperformance in systems below 10 kW.
+A mismatch between MPPT count and roof orientation is a design error, not a specification preference. If the installer is assigning two differently oriented strings to one MPPT input, ask them to justify the yield impact in writing before accepting. Research published by [NREL on residential PV system performance](https://www.nrel.gov/solar/) confirms that orientation and shading mismatches are among the top five causes of underperformance in systems below 10 kW.
 
 ## Item 9 — Monitoring System: Eyes on the Investment
 

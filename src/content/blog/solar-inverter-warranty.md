@@ -237,9 +237,9 @@ India's consumer courts are organised in three tiers based on the claim value:
 | **State Consumer Disputes Redressal Commission** | State level | ₹50 lakh to ₹2 crore |
 | **National Consumer Disputes Redressal Commission** | National | Above ₹2 crore |
 
-Complaints can be filed online via the **e-DAAKHIL portal** ([edaakhil.nic.in](https://edaakhil.nic.in){target="_blank" rel="noopener"}), which does not require a lawyer for complaints below ₹50 lakh. Filing fees are nominal — ₹100 to ₹2,500 depending on claim value.
+Complaints can be filed online via the **e-DAAKHIL portal** ([edaakhil.nic.in](https://edaakhil.nic.in)), which does not require a lawyer for complaints below ₹50 lakh. Filing fees are nominal — ₹100 to ₹2,500 depending on claim value.
 
-Before filing, the [MNRE consumer grievance portal](https://mnre.gov.in/){target="_blank" rel="noopener"} is the appropriate first step for disputes involving MNRE-registered or PM Surya Ghar-subsidised systems.
+Before filing, the [MNRE consumer grievance portal](https://mnre.gov.in/) is the appropriate first step for disputes involving MNRE-registered or PM Surya Ghar-subsidised systems.
 
 ### Building Your Evidence File
 
@@ -253,7 +253,7 @@ Consumer court decisions consistently favour buyers who document their case syst
 - **Correspondence record** — all written communication with the brand and dealer regarding the claim.
 - **Claim denial in writing** — if the brand denied your claim verbally, request written confirmation of the denial and the stated reason.
 
-> **₹50 lakh.** The claim value threshold below which Indian consumers can file at the District Consumer Disputes Redressal Commission without a lawyer, using the e-DAAKHIL portal. For residential solar inverter claims — typically ₹40,000 to ₹2,00,000 — this is the relevant forum. *Source — [Consumer Protection Act 2019, Ministry of Consumer Affairs, Government of India](https://consumeraffairs.nic.in/){target="_blank" rel="noopener"}, 2019.*
+> **₹50 lakh.** The claim value threshold below which Indian consumers can file at the District Consumer Disputes Redressal Commission without a lawyer, using the e-DAAKHIL portal. For residential solar inverter claims — typically ₹40,000 to ₹2,00,000 — this is the relevant forum. *Source — [Consumer Protection Act 2019, Ministry of Consumer Affairs, Government of India](https://consumeraffairs.nic.in/), 2019.*
 
 ## Common Warranty Mistakes Indian Homeowners Make
 

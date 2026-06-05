@@ -70,9 +70,9 @@ Strong vendor relationships deliver faster timelines, better pricing, and superi
 ## Key Questions for Vendors
 
 - What component manufacturers supply your inverters?
-- What's your annual failure rate from field data?
+- What is your annual failure rate from field data?
 - How is warranty service delivered in tier-2/3 cities?
-- What's the warranty claim turnaround time?
+- What is the warranty claim turnaround time?
 - What monitoring platform features are included?
 - What partner program benefits do you offer?
 

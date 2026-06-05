@@ -25,7 +25,7 @@ faqs:
     a: "When repair cost exceeds 40–50% of replacement cost, replacement makes better financial sense — new warranty, improved efficiency, modern monitoring."
 ---
 
-Understanding inverter lifespan is critical for accurate financial planning and long-term ROI calculations. While panels last 25–30 years, inverters have significantly shorter operational life — typically requiring **at least one** and often **two replacements** during a system's lifetime. That's a planning challenge for EPCs, distributors, and facility owners across India.
+Understanding inverter lifespan is critical for accurate financial planning and long-term ROI calculations. While panels last 25–30 years, inverters have significantly shorter operational life — typically requiring **at least one** and often **two replacements** during a system's lifetime. This is a planning challenge for EPCs, distributors, and facility owners across India.
 
 ## What to Expect in 2026
 
@@ -167,4 +167,4 @@ Replacing a 10-year-old inverter with current technology often enables:
 
 ## Closing
 
-Inverter lifespan planning isn't optional — it's a core part of solar economics. A 12-year full replacement warranty plus German-grade components and IP66 protection can shift the planning math significantly, often eliminating one mid-life replacement entirely. Build the reserve fund anyway. The combination of better hardware and disciplined financial planning is what separates a 25-year system that performs as projected from one that disappoints.
+Inverter lifespan planning is not optional — it is a core part of solar economics. A 12-year full replacement warranty plus German-grade components and IP66 protection can shift the planning math significantly, often eliminating one mid-life replacement entirely. Build the reserve fund anyway. The combination of better hardware and disciplined financial planning is what separates a 25-year system that performs as projected from one that disappoints.

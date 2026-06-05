@@ -81,7 +81,7 @@ Request **Bill of Materials (BOM)** documentation during due diligence. Reputabl
 
 ### Warranty Types
 
-| Type | What's covered |
+| Type | What is covered |
 | --- | --- |
 | Full replacement | Entire defective unit replaced |
 | Repair | Component repairs requiring multiple service visits |
@@ -113,7 +113,7 @@ High claim rejection rates or slow processing indicate future challenges.
 
 ## Technical Specifications for Indian Conditions
 
-European efficiency ratings don't reflect Indian patterns. Verify:
+European efficiency ratings do not reflect Indian patterns. Verify:
 
 - **Efficiency curves across full load range** (not just peak)
 - **Operating temperature** — premium maintains full output to 50°C
@@ -232,4 +232,4 @@ Score each manufacturer 1–10 per factor, multiply by weight, sum totals. Docum
 
 ## Conclusion
 
-Manufacturer selection isn't a one-time event — it's a continuous evaluation. Start with pilots, validate through rigorous due diligence, and build relationships gradually. In India's exponentially growing solar market, prioritise manufacturers demonstrating genuine quality commitment, transparent operations, robust warranty infrastructure, and India-specific engineering. The right partner becomes a strategic alliance — not a transactional supplier.
+Manufacturer selection is not a one-time event — it is a continuous evaluation. Start with pilots, validate through rigorous due diligence, and build relationships gradually. In India's exponentially growing solar market, prioritise manufacturers demonstrating genuine quality commitment, transparent operations, robust warranty infrastructure, and India-specific engineering. The right partner becomes a strategic alliance — not a transactional supplier.

@@ -118,4 +118,4 @@ Future-proofing value justifies premium positioning for clients with outage risk
 
 ## Closing
 
-Strategic pricing isn't about being cheapest — it's about being the value choice for the clients you want to keep. Build pricing around TCO storytelling, protect margins through tiered volume discounts, and let technology premiums (AI, IP66, 12-year warranty) carry the differentiation conversation with quality-conscious buyers.
+Strategic pricing is not about being cheapest — it is about being the value choice for the clients you want to keep. Build pricing around TCO storytelling, protect margins through tiered volume discounts, and let technology premiums (AI, IP66, 12-year warranty) carry the differentiation conversation with quality-conscious buyers.

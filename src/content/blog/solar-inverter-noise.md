@@ -46,7 +46,7 @@ Inverter noise has become a genuine operational concern as rooftop solar prolife
 
 ## Warning Signs
 
-### Normal (Don't Worry)
+### Normal (No Action Required)
 
 - Soft fan noise
 - Faint electrical humming

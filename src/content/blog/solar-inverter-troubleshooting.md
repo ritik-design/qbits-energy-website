@@ -101,7 +101,7 @@ Most inverters shut down when internal components exceed **75–85°C**.
 
 - Allow complete cooling before restart
 - Inspect and clean ventilation openings
-- Install shade structures that don't restrict airflow
+- Install shade structures that do not restrict airflow
 - Evaluate installation location — ideally shaded with natural ventilation
 - Consider **IP66-rated** inverters with sealed construction and intelligent heat-sink design
 
@@ -109,7 +109,7 @@ Most inverters shut down when internal components exceed **75–85°C**.
 
 ### Common Scenarios
 
-- **Wi-Fi failures:** verify range and 2.4 GHz support (many modules don't support 5 GHz)
+- **Wi-Fi failures:** verify range and 2.4 GHz support (many modules do not support 5 GHz)
 - **4G/cellular issues:** check SIM activation, data plan, and signal strength
 - **Bluetooth pairing:** within 10–15 metres; reset pairing on failure
 - **Server connection errors:** check firewall settings and required ports
@@ -204,7 +204,7 @@ Hybrid systems add complexity — issues can originate from inverter, battery, o
 
 ### Integration Best Practices
 
-- Verify explicit compatibility between inverter and battery — "lithium compatible" isn't enough
+- Verify explicit compatibility between inverter and battery — "lithium compatible" is not sufficient
 - Document all configuration parameters at commissioning
 - Conduct scheduled grid-disconnect tests to verify backup operation
 

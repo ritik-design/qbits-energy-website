@@ -28,7 +28,7 @@ faqs:
 
 Solar inverter commissioning is the critical process of verifying, testing, and validating that installed inverters operate per design specs and manufacturer standards. Professional commissioning ensures optimal performance, regulatory compliance, warranty activation, and reliable operation across India's challenging conditions.
 
-## What Commissioning Is — and Isn't
+## What Commissioning Is — and What It Is Not
 
 Commissioning is **not** just installation:
 

@@ -96,4 +96,4 @@ Verify the warranty explicitly covers surge-related failures within installation
 
 ## Closing
 
-Surge protection isn't optional in India — it's the difference between a 15-year operational asset and a 5-year liability. Specify integrated DC and AC SPDs with adequate kA ratings, demand warranty coverage that includes surge failures, and verify the manufacturer's SPD monitoring capability for proactive replacement.
+Surge protection is not optional in India — it is the difference between a 15-year operational asset and a 5-year liability. Specify integrated DC and AC SPDs with adequate kA ratings, demand warranty coverage that includes surge failures, and verify the manufacturer's SPD monitoring capability for proactive replacement.

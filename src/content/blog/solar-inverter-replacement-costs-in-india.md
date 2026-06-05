@@ -101,4 +101,4 @@ A **12-year full replacement warranty** means the manufacturer bears the full co
 
 ## Closing
 
-Replacement cost planning is core financial discipline for any solar project. A 12-year full replacement warranty isn't a premium — it's an insurance policy with a guaranteed return for any installation that will run beyond a decade. Combine it with rigorous selection and disciplined maintenance, and replacement becomes a planned year-15+ refresh rather than an emergency.
+Replacement cost planning is core financial discipline for any solar project. A 12-year full replacement warranty is not a premium — it is an insurance policy with a guaranteed return for any installation that will run beyond a decade. Combine it with rigorous selection and disciplined maintenance, and replacement becomes a planned year-15+ refresh rather than an emergency.

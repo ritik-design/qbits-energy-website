@@ -205,4 +205,4 @@ Complete installation records, commissioning reports, and performance data prote
 
 ## Closing
 
-Inverter payback isn't just an upfront-cost calculation — it's a 25-year financial model that combines efficiency, degradation, warranty coverage, monitoring, and grid relationships. Premium inverters with 12-year warranties and AI monitoring consistently win this analysis in India's high-tariff environment, often by 3–5 years of TCO advantage.
+Inverter payback is not just an upfront-cost calculation — it is a 25-year financial model that combines efficiency, degradation, warranty coverage, monitoring, and grid relationships. Premium inverters with 12-year warranties and AI monitoring consistently win this analysis in India's high-tariff environment, often by 3–5 years of TCO advantage.

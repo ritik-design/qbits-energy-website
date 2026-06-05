@@ -239,4 +239,4 @@ Quality compliance drives repeat business and referrals. Cutting corners sacrifi
 
 ## Closing
 
-Certifications aren't bureaucratic paperwork — they're the legal and financial protection layer for every solar project. Build a verification process once, train your team, automate the tracking, and you eliminate one of the most preventable categories of project risk in Indian solar.
+Certifications are not bureaucratic paperwork — they are the legal and financial protection layer for every solar project. Build a verification process once, train your team, automate the tracking, and you eliminate one of the most preventable categories of project risk in Indian solar.

@@ -26,7 +26,7 @@ faqs:
     a: "In Rajasthan/Gujarat where panel temperatures reach 65–75°C, Vmp drops significantly — risking exit from the MPPT window. Verify minimum operating voltage at maximum site temperature."
 ---
 
-A miscalculated string voltage can trip protection circuits, void warranties, and permanently damage expensive inverter hardware. Here's the safe design framework for Indian projects.
+A miscalculated string voltage can trip protection circuits, void warranties, and permanently damage expensive inverter hardware. This guide presents the safe design framework for Indian projects.
 
 ## Key Distinctions
 

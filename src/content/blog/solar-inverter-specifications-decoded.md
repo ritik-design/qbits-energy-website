@@ -170,4 +170,4 @@ Leading manufacturers verify:
 
 ## Closing
 
-Specifications aren't decoration — they're the contract between manufacturer and installer. Understanding what each parameter actually means lets you compare inverters on real-world performance rather than marketing claims, protecting both your projects and your reputation.
+Specifications are not decoration — they are the contract between manufacturer and installer. Understanding what each parameter actually means lets you compare inverters on real-world performance rather than marketing claims, protecting both your projects and your reputation.

@@ -41,7 +41,7 @@ Depreciation allocates an inverter's cost over its useful life for accounting an
 
 ### Eligibility
 
-- **Business use** (residential doesn't qualify)
+- **Business use** (residential does not qualify)
 - **Entity ownership** of assets
 - Operational status during financial year
 - **Minimum 180-day usage** for full first-year claim

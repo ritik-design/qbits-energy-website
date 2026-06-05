@@ -89,7 +89,7 @@ High-wattage panels have higher voltages and currents:
 
 ## 4. What Happens If I Undersize the Inverter?
 
-**Power clipping** — the inverter can't convert all available DC during peak production. A 15 kW DC array on an 8 kW inverter loses 6 kW at peak.
+**Power clipping** — the inverter cannot convert all available DC during peak production. A 15 kW DC array on an 8 kW inverter loses 6 kW at peak.
 
 ### Performance Impact
 
@@ -112,7 +112,7 @@ High-wattage panels have higher voltages and currents:
 | 20% | 92–94% |
 | Below 20% | 85–90% |
 
-**Cost impact:** Oversized inverters cost **40–50% more upfront** with no proportional performance benefit if the array can't fill capacity.
+**Cost impact:** Oversized inverters cost **40–50% more upfront** with no proportional performance benefit if the array cannot fill capacity.
 
 **Optimal range:** 1.1:1 to 1.3:1 balances extended production hours, temperature derating, and efficiency.
 
@@ -192,7 +192,7 @@ Quality inverters maintain **95%+ from 20–100% load**. Lower-quality units dro
 
 - **Modular architecture:** multiple smaller inverters (two 25 kW vs one 50 kW). Add a third unit later
 - **DC oversizing headroom:** sizing at 1.1:1 initially with the inverter rated to 1.3:1 = ~18% expansion room
-- **String-level reserves:** don't fully load all MPPT inputs; run conduit for future strings
+- **String-level reserves:** avoid fully loading all MPPT inputs; run conduit for future strings
 - **Modular usually beats over-oversizing** — newer inverters arrive every few years
 
 ### Documentation
@@ -241,4 +241,4 @@ Standardised sizing procedures incorporating temperature coefficients, voltage c
 
 ## Closing
 
-Proper sizing isn't a one-formula exercise — it's a balance between DC:AC ratio, string voltage at temperature extremes, MPPT current limits, and the inverter's warranty envelope. The 12 questions above cover the failure modes EPCs see most often. Get them right and you protect both energy yield and warranty coverage.
+Proper sizing is not a one-formula exercise — it is a balance between DC:AC ratio, string voltage at temperature extremes, MPPT current limits, and the inverter's warranty envelope. The 12 questions above cover the failure modes EPCs see most often. Get them right and you protect both energy yield and warranty coverage.

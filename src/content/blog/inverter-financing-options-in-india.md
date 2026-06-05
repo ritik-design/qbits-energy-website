@@ -97,4 +97,4 @@ India's solar capacity exceeds **80 GW** in 2026. The market has developed speci
 
 ## Closing
 
-Financing strategy isn't separate from product selection — they compound. A 12-year warranty doesn't just protect operations; it lowers financing cost. Subsidies don't just reduce upfront price; they accelerate payback. Build financial structure around your project profile and treat financing as a strategic lever, not a back-office function.
+Financing strategy is not separate from product selection — they compound. A 12-year warranty does not just protect operations; it lowers financing cost. Subsidies do not just reduce upfront price; they accelerate payback. Build financial structure around your project profile and treat financing as a strategic lever, not a back-office function.

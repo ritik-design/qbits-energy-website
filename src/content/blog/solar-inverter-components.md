@@ -148,4 +148,4 @@ For a 100 kW commercial installation:
 
 ## Bottom Line
 
-The brand on the box matters less than the components inside it. Capacitor temperature rating, IGBT manufacturer, PCB construction, and SPD ratings determine whether you're buying 5 years or 20 years of reliable operation. The 20–30% premium for German-grade components is the most ROI-positive procurement decision in solar.
+The brand on the box matters less than the components inside it. Capacitor temperature rating, IGBT manufacturer, PCB construction, and SPD ratings determine whether you are buying 5 years or 20 years of reliable operation. The 20–30% premium for German-grade components is the most ROI-positive procurement decision in solar.

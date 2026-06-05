@@ -31,7 +31,7 @@ A poorly matched MPPT setup can quietly drain **10–15% of annual energy yield*
 
 ## What Is Inverter MPPT and Why It Matters
 
-Maximum Power Point Tracking (MPPT) is the algorithm inside a solar inverter that continuously adjusts the electrical operating point of the PV array to extract maximum available power at any given moment. Solar panels don't produce fixed output — their power curve shifts with irradiance, temperature, shading, and soiling.
+Maximum Power Point Tracking (MPPT) is the algorithm inside a solar inverter that continuously adjusts the electrical operating point of the PV array to extract maximum available power at any given moment. Solar panels do not produce fixed output — their power curve shifts with irradiance, temperature, shading, and soiling.
 
 For Indian solar projects, MPPT performance is critical because:
 
@@ -118,7 +118,7 @@ For severe or unavoidable shading, combine a multi-MPPT inverter with **DC optim
 
 ## 6. Low-Light and High-Temperature Performance
 
-India's solar generation profile isn't just peak hours — early morning, late evening, and overcast monsoon days contribute meaningfully to annual yield.
+India's solar generation profile extends beyond peak hours — early morning, late evening, and overcast monsoon days contribute meaningfully to annual yield.
 
 ### Low-Light MPPT Performance
 
@@ -184,7 +184,7 @@ Degradation in any of these causes tracking accuracy to drift over time — redu
 ## Red Flags When Evaluating MPPT Specifications
 
 - Missing or vague MPPT efficiency data
-- Narrow MPPT voltage range that doesn't accommodate modern high-wattage panels
+- Narrow MPPT voltage range that does not accommodate modern high-wattage panels
 - Single MPPT on complex rooftops with multiple orientations
 - No global MPPT algorithm for shaded sites
 - No per-channel monitoring

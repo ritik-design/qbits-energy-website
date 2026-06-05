@@ -26,7 +26,7 @@ faqs:
     a: "AI-powered WhatsApp monitoring (reduces service calls 30–40%), IP66 protection (eliminates moisture failures), 12-year full replacement warranty (avoids mid-life replacement), DC oversizing (10–20% yield increase), and integrated SPDs."
 ---
 
-Choosing the right inverter features is one of the most consequential decisions an EPC or solar installer makes in India today. Here's how to separate non-negotiable baseline features from advanced capabilities that drive ROI.
+Choosing the right inverter features is one of the most consequential decisions an EPC or solar installer makes in India today. This guide separates non-negotiable baseline features from advanced capabilities that drive ROI.
 
 ## Essential Features (Non-Negotiable)
 
@@ -43,7 +43,7 @@ Choosing the right inverter features is one of the most consequential decisions 
 
 ### AI-Powered Monitoring and WhatsApp Alerts
 
-Remote monitoring is no longer a luxury for Indian EPCs — it's an operational necessity. Real-time fault detection and instant WhatsApp notifications reduce support calls by **30–40%**.
+Remote monitoring is no longer a luxury for Indian EPCs — it is an operational necessity. Real-time fault detection and instant WhatsApp notifications reduce support calls by **30–40%**.
 
 ### IP66 Weather Protection
 
@@ -110,7 +110,7 @@ Protect at minimum:
 - 7+ year warranty
 - BIS + IEC certification
 
-Reduce optional features selectively — don't compromise on protection.
+Reduce optional features selectively — never compromise on protection.
 
 ## Closing
 

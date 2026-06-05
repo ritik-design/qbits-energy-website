@@ -26,7 +26,7 @@ faqs:
     a: "Industry data shows 10–20% more annual generation than conventionally sized systems. A 100 kW commercial inverter with proper oversizing can deliver an additional 15,000–30,000 kWh/year — ₹90,000–₹1,80,000 at commercial tariffs."
 ---
 
-As panel wattages climb and high-capacity modules become standard across India, solar EPCs face a critical design decision: **DC oversizing**. Once unconventional, it's now essential for maximising energy yield. Yet many professionals remain uncertain about optimal ratios, safety implications, and warranty considerations.
+As panel wattages climb and high-capacity modules become standard across India, solar EPCs face a critical design decision: **DC oversizing**. Once unconventional, it is now essential for maximising energy yield. Yet many professionals remain uncertain about optimal ratios, safety implications, and warranty considerations.
 
 ## What Is DC Oversizing?
 
@@ -232,4 +232,4 @@ Track performance at the MPPT channel level, not just total system output. Ident
 
 ## Bottom Line
 
-DC oversizing is no longer experimental — it's a standard practice for maximising solar performance and ROI when implemented within manufacturer specs. Properly designed systems deliver 10–20% more annual energy, improved capacity factors, better cloudy-day performance, and reduced LCOE. For Indian EPCs, mastering oversizing is a competitive advantage in an increasingly sophisticated market.
+DC oversizing is no longer experimental — it is a standard practice for maximising solar performance and ROI when implemented within manufacturer specs. Properly designed systems deliver 10–20% more annual energy, improved capacity factors, better cloudy-day performance, and reduced LCOE. For Indian EPCs, mastering oversizing is a competitive advantage in an increasingly sophisticated market.

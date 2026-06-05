@@ -93,4 +93,4 @@ Downtime refers to periods when inverters fail to convert DC to AC electricity. 
 
 ## Closing
 
-Inverter downtime isn't an inevitability — it's an outcome of equipment choice, installation quality, monitoring rigour, and maintenance discipline. Every 1% uptime improvement on a 100 kW commercial system is worth ₹15,000+ annually. Make the upfront investments in monitoring and weather protection, and downtime stops being a meaningful project risk.
+Inverter downtime is not an inevitability — it is an outcome of equipment choice, installation quality, monitoring rigour, and maintenance discipline. Every 1% uptime improvement on a 100 kW commercial system is worth ₹15,000+ annually. Make the upfront investments in monitoring and weather protection, and downtime stops being a meaningful project risk.

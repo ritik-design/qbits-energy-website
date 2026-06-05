@@ -110,7 +110,7 @@ const inquiryTypes = [
               <h2 id="form-heading" class="text-2xl font-bold text-slate-900 mt-4 mb-8">
                 Tell Us About Your Project
               </h2>
-              <form class="space-y-5" action="#" method="POST">
+              <form id="lead-form" class="space-y-5" novalidate>
                 <div class="grid sm:grid-cols-2 gap-5">
                   <div>
                     <label for="name" class="block text-sm font-medium text-slate-700 mb-1.5">Full Name</label>
@@ -137,11 +137,67 @@ const inquiryTypes = [
                   <label for="message" class="block text-sm font-medium text-slate-700 mb-1.5">Message</label>
                   <textarea id="message" name="message" rows="5" required class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all resize-none bg-slate-50/50" placeholder="How can we help you? Tell us about your solar project..."></textarea>
                 </div>
-                <button type="submit" class="btn-primary w-full sm:w-auto">
+                <button type="submit" id="lead-submit" class="btn-primary w-full sm:w-auto">
                   <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
-                  Send Message
+                  <span data-label-default>Send Message</span>
+                  <span data-label-sending class="hidden">Sending…</span>
                 </button>
+                <p id="lead-status" class="text-sm mt-2 hidden" role="status" aria-live="polite"></p>
               </form>
+              <script is:inline>
+                (() => {
+                  const GAS_ENDPOINT = 'REPLACE_WITH_DEPLOYED_APPS_SCRIPT_WEB_APP_URL';
+                  const form   = document.getElementById('lead-form');
+                  const status = document.getElementById('lead-status');
+                  const btn    = document.getElementById('lead-submit');
+                  const labelDefault = btn.querySelector('[data-label-default]');
+                  const labelSending = btn.querySelector('[data-label-sending]');
+
+                  const showStatus = (msg, ok) => {
+                    status.textContent = msg;
+                    status.className = 'text-sm mt-2 ' + (ok ? 'text-emerald-600' : 'text-rose-600');
+                  };
+
+                  form.addEventListener('submit', async (e) => {
+                    e.preventDefault();
+                    if (!form.reportValidity()) return;
+
+                    btn.disabled = true;
+                    labelDefault.classList.add('hidden');
+                    labelSending.classList.remove('hidden');
+                    status.className = 'text-sm mt-2 hidden';
+
+                    const fd = new FormData(form);
+                    fd.append('source', 'contact-form');
+                    fd.append('page', location.pathname);
+                    fd.append('userAgent', navigator.userAgent);
+
+                    try {
+                      // text/plain keeps the request "simple" → no CORS preflight
+                      const body = new URLSearchParams(fd).toString();
+                      const res = await fetch(GAS_ENDPOINT, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                        body,
+                      });
+                      const data = await res.json().catch(() => ({ ok: res.ok }));
+                      if (data.ok) {
+                        form.reset();
+                        showStatus('Thanks! We\u2019ll be in touch within 24 hours.', true);
+                      } else {
+                        throw new Error(data.error || 'Submission failed');
+                      }
+                    } catch (err) {
+                      console.error(err);
+                      showStatus('Something went wrong. Please email Service@qbitsenergy.com.', false);
+                    } finally {
+                      btn.disabled = false;
+                      labelDefault.classList.remove('hidden');
+                      labelSending.classList.add('hidden');
+                    }
+                  });
+                })();
+              </script>
             </div>
           </div>
 

@@ -145,4 +145,4 @@ Leading manufacturers conduct **1,000+ automated tests** per unit.
 
 ## Closing
 
-Compliance isn't a one-time hurdle — it's an ongoing operational discipline. Build certification verification into procurement, train your team on state-specific variations, and treat non-compliance as the existential risk it is. Qbits inverters carry 12-year full replacement warranties, German-grade components, 1,000+ automated quality tests per unit, BIS, and IEC certifications — exceeding current Indian regulations.
+Compliance is not a one-time hurdle — it is an ongoing operational discipline. Build certification verification into procurement, train your team on state-specific variations, and treat non-compliance as the existential risk it is. Qbits inverters carry 12-year full replacement warranties, German-grade components, 1,000+ automated quality tests per unit, BIS, and IEC certifications — exceeding current Indian regulations.

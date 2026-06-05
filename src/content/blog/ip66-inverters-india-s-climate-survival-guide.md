@@ -117,4 +117,4 @@ Industry data: inverters below IP65 experience **failure rates exceeding 15%** d
 
 ## Closing
 
-IP66 isn't a marketing label — it's the engineered protection level that determines whether an inverter survives 15 years of Indian climate or fails in 3. The TCO math is overwhelming: IP66 inverters cost slightly more upfront and save 25–35% over their operational life through fewer failures, less maintenance, and longer service.
+IP66 is not a marketing label — it is the engineered protection level that determines whether an inverter survives 15 years of Indian climate or fails in 3. The TCO math is overwhelming: IP66 inverters cost slightly more upfront and save 25–35% over their operational life through fewer failures, less maintenance, and longer service.

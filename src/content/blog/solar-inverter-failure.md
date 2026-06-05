@@ -203,4 +203,4 @@ Premium systems combine all three with automatic failover.
 
 ## Closing
 
-Inverter failure is rarely sudden — it's usually a slow drift in efficiency or temperature that monitoring should catch weeks ahead. Combine quality hardware (IP66, German-grade components, 12-year warranty) with disciplined preventive maintenance and AI monitoring, and failure stops being a project-economics question.
+Inverter failure is rarely sudden — it is usually a slow drift in efficiency or temperature that monitoring should catch weeks ahead. Combine quality hardware (IP66, German-grade components, 12-year warranty) with disciplined preventive maintenance and AI monitoring, and failure stops being a project-economics question.

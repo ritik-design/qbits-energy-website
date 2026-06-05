@@ -25,7 +25,7 @@ faqs:
     a: "AI-powered monitoring reduces operational/maintenance costs by 40–60% through predictive maintenance, remote diagnostics, and reduced site visits."
 ---
 
-Solar inverter selection shouldn't focus solely on purchase price. **Total Cost of Ownership (TCO)** analysis reveals that budget inverters at ₹30,000 may cost significantly more over 12–15 years than premium options at ₹50,000 when accounting for efficiency losses, maintenance, warranty coverage, and replacement.
+Solar inverter selection should not focus solely on purchase price. **Total Cost of Ownership (TCO)** analysis reveals that budget inverters at ₹30,000 may cost significantly more over 12–15 years than premium options at ₹50,000 when accounting for efficiency losses, maintenance, warranty coverage, and replacement.
 
 ## Understanding TCO
 

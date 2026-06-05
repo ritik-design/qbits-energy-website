@@ -120,4 +120,4 @@ AI-powered monitoring platforms can identify anomalies indicating developing fau
 
 ## Closing
 
-Reliability isn't an attribute — it's a system. Component quality, manufacturing process, certification rigour, warranty backing, and ongoing monitoring all compound into the 25-year performance you actually sell to clients. EPCs that evaluate inverters across these 9 dimensions consistently build the strongest references and the most defensible margins.
+Reliability is not an attribute — it is a system. Component quality, manufacturing process, certification rigour, warranty backing, and ongoing monitoring all compound into the 25-year performance you actually sell to clients. EPCs that evaluate inverters across these 9 dimensions consistently build the strongest references and the most defensible margins.

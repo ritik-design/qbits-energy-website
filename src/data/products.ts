@@ -19,6 +19,7 @@ export interface Product {
   features: string[];
   certifications: string[];
   image?: string;
+  datasheet?: string;
 }
 
 export const products: Product[] = [
@@ -44,6 +45,7 @@ export const products: Product[] = [
     features: ['12 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image-2.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf',
   },
   {
     id: 'QB-4.6-6KTLS',
@@ -66,6 +68,7 @@ export const products: Product[] = [
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image-4.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_4.6-6.0-kw_1MPPT_1Phs.pdf',
   },
   {
     id: 'QB-4-6KTLD',
@@ -88,6 +91,7 @@ export const products: Product[] = [
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image-2.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf',
   },
   // On-Grid Three Phase TLC
   {
@@ -111,6 +115,7 @@ export const products: Product[] = [
     features: ['12 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image-3.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf',
   },
   {
     id: 'QB-20-30KTLC',
@@ -133,6 +138,7 @@ export const products: Product[] = [
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_20.0-30.0-kw_3Phs.pdf',
   },
   {
     id: 'QB-30-40KTLC-Pro',
@@ -155,6 +161,7 @@ export const products: Product[] = [
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image-3.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_30.0-40.0-kw_3Phs.pdf',
   },
   {
     id: 'QB-40-50KTLC-Plus',
@@ -177,6 +184,7 @@ export const products: Product[] = [
     features: ['12 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_40.0-50.0-kw_3Phs.pdf',
   },
   {
     id: 'QB-50-60KTLC',
@@ -199,6 +207,7 @@ export const products: Product[] = [
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image-3.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_50.0-60.0-kw_3Phs.pdf',
   },
   {
     id: 'QB-70-110KTLC-Pro',
@@ -221,6 +230,7 @@ export const products: Product[] = [
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_70.0-100.0-kw_3Phs.pdf',
   },
   {
     id: 'QB-80-125KTLC',
@@ -243,6 +253,7 @@ export const products: Product[] = [
     features: ['12 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image-3.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_80.0-125.0-kw_3Phs.pdf',
   },
   {
     id: 'QB-225-320K-EHV',
@@ -265,6 +276,7 @@ export const products: Product[] = [
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image.webp',
+    datasheet: '/datasheets/products/QB_Data-Sheet_225.0-320.0-kw_3Phs_Utility-Scale.pdf',
   },
   // Hybrid
   {
@@ -288,6 +300,7 @@ export const products: Product[] = [
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-5.webp',
+    datasheet: '/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf',
   },
   {
     id: 'QBH-7-8KS48P',
@@ -310,6 +323,7 @@ export const products: Product[] = [
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-5.webp',
+    datasheet: '/datasheets/products/Qbits-Hybride-Inverter-Catalogue-2.pdf',
   },
   {
     id: 'QBH-5-12KS48P3',
@@ -332,6 +346,7 @@ export const products: Product[] = [
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-5.webp',
+    datasheet: '/datasheets/products/Qbits-Hybride-Inverter-Catalogue-3.pdf',
   },
 ];
 

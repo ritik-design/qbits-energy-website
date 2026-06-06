@@ -146,7 +146,14 @@ const inquiryTypes = [
               </form>
               <script is:inline>
                 (() => {
+                  // Set this to the deployed Apps Script Web App URL (ends in /exec).
+                  // See google-apps-script/README.md for setup steps.
+                  // Until configured, the form falls back to opening the user's mail
+                  // client with the form contents pre-filled — never silently drops a lead.
                   const GAS_ENDPOINT = 'REPLACE_WITH_DEPLOYED_APPS_SCRIPT_WEB_APP_URL';
+                  const FALLBACK_EMAIL = 'service@qbitsenergy.com';
+                  const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
+
                   const form   = document.getElementById('lead-form');
                   const status = document.getElementById('lead-status');
                   const btn    = document.getElementById('lead-submit');
@@ -158,22 +165,44 @@ const inquiryTypes = [
                     status.className = 'text-sm mt-2 ' + (ok ? 'text-emerald-600' : 'text-rose-600');
                   };
 
+                  const buildMailto = (fd) => {
+                    const name = fd.get('name') || '';
+                    const email = fd.get('email') || '';
+                    const phone = fd.get('phone') || '';
+                    const subject = fd.get('subject') || 'Inquiry from qbitsenergy.com';
+                    const message = fd.get('message') || '';
+                    const body =
+                      'Name: ' + name + '\n' +
+                      'Email: ' + email + '\n' +
+                      'Phone: ' + phone + '\n\n' +
+                      message;
+                    return 'mailto:' + FALLBACK_EMAIL +
+                      '?subject=' + encodeURIComponent(subject) +
+                      '&body=' + encodeURIComponent(body);
+                  };
+
                   form.addEventListener('submit', async (e) => {
                     e.preventDefault();
                     if (!form.reportValidity()) return;
-
-                    btn.disabled = true;
-                    labelDefault.classList.add('hidden');
-                    labelSending.classList.remove('hidden');
-                    status.className = 'text-sm mt-2 hidden';
 
                     const fd = new FormData(form);
                     fd.append('source', 'contact-form');
                     fd.append('page', location.pathname);
                     fd.append('userAgent', navigator.userAgent);
 
+                    // Fallback: Apps Script not configured yet → open mail client.
+                    if (!isConfigured) {
+                      window.location.href = buildMailto(fd);
+                      showStatus('Opening your email app — please send the message to complete your inquiry.', true);
+                      return;
+                    }
+
+                    btn.disabled = true;
+                    labelDefault.classList.add('hidden');
+                    labelSending.classList.remove('hidden');
+                    status.className = 'text-sm mt-2 hidden';
+
                     try {
-                      // text/plain keeps the request "simple" → no CORS preflight
                       const body = new URLSearchParams(fd).toString();
                       const res = await fetch(GAS_ENDPOINT, {
                         method: 'POST',
@@ -189,7 +218,9 @@ const inquiryTypes = [
                       }
                     } catch (err) {
                       console.error(err);
-                      showStatus('Something went wrong. Please email Service@qbitsenergy.com.', false);
+                      // Network or server failed — fall back to mailto so the lead isn't lost.
+                      window.location.href = buildMailto(fd);
+                      showStatus('Network issue — opening your email app instead. Please send to complete.', false);
                     } finally {
                       btn.disabled = false;
                       labelDefault.classList.remove('hidden');

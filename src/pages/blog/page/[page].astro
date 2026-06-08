@@ -63,13 +63,13 @@ const pageHref = (n: number) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
 ---
 
 <Layout
-  title={`Blog — Page ${currentPage} | Qbits Energy`}
-  description="Latest insights on solar technology, inverter selection, maintenance, and industry trends from Qbits Energy."
+  title={`Solar Inverter Knowledge Hub — Page ${currentPage} of ${totalPages} | Qbits Energy`}
+  description={`Page ${currentPage} of ${totalPages} — solar inverter buying guides, comparisons, maintenance tips, regulatory updates, and case studies from across India. ${totalArticles} articles in the Qbits Knowledge Hub.`}
   canonical={`/blog/page/${currentPage}/`}
 >
   <HeaderV2 />
 
-  <main>
+  <main id="main-content">
     <PageHeader
       label="Resources"
       title="Solar Knowledge"
@@ -77,9 +77,9 @@ const pageHref = (n: number) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
       description="Stay updated with the latest in solar technology, maintenance tips, and industry insights."
     />
 
-    <section class="section-padding bg-slate-50" aria-labelledby="posts-heading">
+    <section class="pt-12 sm:pt-16 lg:pt-20 pb-20 sm:pb-24 lg:pb-28 bg-white" aria-labelledby="posts-heading">
       <div class="container-main">
-        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 mb-12">
+        <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-10 pb-6 border-b border-slate-200">
           <div>
             <span class="section-label">
               <span class="w-8 h-px bg-brand-500"></span>
@@ -94,23 +94,26 @@ const pageHref = (n: number) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
           {posts.map((post) => (
-            <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 group blog-card">
-              <a href={`/blog/${post.slug}/`} class="block aspect-[16/10] overflow-hidden bg-slate-50">
-                <img src={post.image} alt={post.title} class="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105" loading="lazy" />
-              </a>
-              <div class="p-6">
-                <div class="flex items-center gap-3 text-xs text-slate-400 mb-3">
-                  <span class="text-brand-600 font-bold uppercase tracking-wider text-[10px] bg-brand-50 px-2 py-0.5 rounded-full">{post.category}</span>
-                  <span>{formatDate(post.date)}</span>
-                  <span>{post.readTime}</span>
+            <article class="group relative flex flex-col">
+              <a href={`/blog/${post.slug}/`} class="flex flex-col h-full">
+                <div class="flex items-center gap-3 mb-4">
+                  <span class="text-brand-600 font-bold uppercase tracking-wider text-[10px] bg-brand-50 ring-1 ring-brand-100 px-2.5 py-1 rounded-full">{post.category}</span>
+                  <span class="text-xs text-slate-400">{post.readTime}</span>
                 </div>
-                <h3 class="text-lg font-bold text-slate-900 mb-2 group-hover:text-brand-600 transition-colors leading-snug">
-                  <a href={`/blog/${post.slug}/`}>{post.title}</a>
+                <h3 class="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-600 transition-colors leading-snug tracking-tight">
+                  {post.title}
                 </h3>
-                <p class="text-sm text-slate-500 line-clamp-2">{post.excerpt}</p>
-              </div>
+                <p class="text-sm text-slate-500 leading-relaxed line-clamp-3 mb-5">{post.excerpt}</p>
+                <div class="mt-auto pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+                  <span class="text-slate-400">{formatDate(post.date)}</span>
+                  <span class="inline-flex items-center gap-1 font-semibold text-brand-600">
+                    Read
+                    <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                  </span>
+                </div>
+              </a>
             </article>
           ))}
         </div>

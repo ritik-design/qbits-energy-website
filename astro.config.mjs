@@ -1,9 +1,44 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import { readdirSync, readFileSync, statSync } from 'node:fs';
+import { join } from 'node:path';
 
 import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
+
+// Build url→lastmod map from blog & glossary frontmatter dates at config load.
+function buildLastmodMap() {
+  const map = new Map();
+  const collections = [
+    { dir: 'src/content/blog', prefix: '/blog/', dateKey: 'date' },
+    { dir: 'src/content/glossary', prefix: '/glossary/', dateKey: 'updatedDate' },
+  ];
+  for (const { dir, prefix, dateKey } of collections) {
+    let entries = [];
+    try { entries = readdirSync(dir); } catch { continue; }
+    for (const file of entries) {
+      if (!file.endsWith('.md')) continue;
+      const slug = file.replace(/\.md$/, '');
+      const path = join(dir, file);
+      let date;
+      try {
+        const raw = readFileSync(path, 'utf8');
+        const fm = raw.match(/^---\n([\s\S]*?)\n---/);
+        if (fm) {
+          const re = new RegExp(`^${dateKey}:\\s*(\\S+)`, 'm');
+          const m = fm[1].match(re);
+          if (m) date = new Date(m[1]);
+        }
+        if (!date || isNaN(+date)) date = statSync(path).mtime;
+      } catch { continue; }
+      map.set(`${prefix}${slug}/`, date.toISOString());
+    }
+  }
+  return map;
+}
+
+const LASTMOD = buildLastmodMap();
 
 // https://astro.build/config
 export default defineConfig({
@@ -25,6 +60,13 @@ export default defineConfig({
         else if (item.url.match(/\/(residential-solution|c-i-solution|why-qbits|about-us|authorized-service-partners)\/?$/)) item.priority = 0.8;
         else if (item.url.includes('/blog/page/')) item.priority = 0.5;
         else if (item.url.includes('/blog/')) item.priority = 0.7;
+
+        // Per-URL lastmod from blog/glossary frontmatter dates.
+        try {
+          const path = new URL(item.url).pathname;
+          const stamp = LASTMOD.get(path);
+          if (stamp) item.lastmod = stamp;
+        } catch {}
         return item;
       },
     }),

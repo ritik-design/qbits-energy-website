@@ -4,6 +4,10 @@
 # Netlify / Cloudflare Pages format
 # ============================================================
 
+# ── Standard /sitemap.xml → Astro's /sitemap-index.xml ──────
+/sitemap.xml /sitemap-index.xml 301
+
+
 # ── Blog posts: same slug, date prefix removed ──────────────
 /2026/04/04/inverter-overheating/ /blog/inverter-overheating/ 301
 /2026/04/04/ip65-vs-ip66-solar-inverters-weather-protection-guide/ /blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/ 301

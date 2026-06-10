@@ -1,7 +1,7 @@
 ---
 title: "IP65 vs IP66 Solar Inverters: Weather Protection Guide"
-excerpt: "Both ratings provide complete dust protection. The difference is water - and in India's monsoon and coastal regions, that difference determines whether your inverter lives 7 years or 15."
-description: "Side-by-side IP65 vs IP66 comparison for solar inverters in India - testing standards, regional climate matching, 10-year cost analysis, and warranty implications."
+excerpt: "Both ratings provide complete dust protection. The difference is water, and in India's monsoon and coastal regions, that difference determines whether your inverter lives 7 years or 15."
+description: "Side-by-side IP65 vs IP66 comparison for solar inverters in India, testing standards, regional climate matching, 10-year cost analysis, and warranty implications."
 category: "Technology"
 date: 2026-04-04
 readTime: "7 min"
@@ -105,4 +105,4 @@ Regardless of rating:
 
 ## Closing
 
-For most Indian installations, IP66 is the practical minimum - particularly for any rooftop, coastal, or monsoon-region project. The 8–15% upfront premium is repaid through fewer failures, less maintenance, and longer lifespan within the system's first decade.
+For most Indian installations, IP66 is the practical minimum, particularly for any rooftop, coastal, or monsoon-region project. The 8–15% upfront premium is repaid through fewer failures, less maintenance, and longer lifespan within the system's first decade.

@@ -1,5 +1,5 @@
 ---
-title: "PM Surya Ghar vs KUSUM Yojana - Which Scheme Is Right for You?"
+title: "PM Surya Ghar vs KUSUM Yojana, Which Scheme Is Right for You?"
 excerpt: "PM Surya Ghar vs KUSUM: homes use PM Surya Ghar for rooftop subsidies; farmers use KUSUM for pump solarisation and ground-mounted systems. Full 2026 comparison."
 category: "Policy"
 date: 2026-06-05
@@ -37,7 +37,7 @@ Two major government schemes, two different beneficiary groups, and considerable
 
 Both schemes fall under [MNRE's rooftop solar programme](/blog/mnre-rooftop-solar-scheme/) framework but address fundamentally different energy problems. According to [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"}, India's residential solar market and agricultural solar market are both growing at over 35% annually but require completely different policy interventions. Understanding the distinction takes five minutes and prevents weeks of misdirected applications.
 
-## Scheme Overview - Side-by-Side Comparison
+## Scheme Overview: Side-by-Side Comparison
 
 | Dimension | PM Surya Ghar (Muft Bijli Yojana) | KUSUM Yojana |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ Both schemes fall under [MNRE's rooftop solar programme](/blog/mnre-rooftop-sola
 
 > **₹34,000 crore.** The total central allocation for KUSUM Yojana from 2019 through 2026, targeting 3.5 million farmers for pump solarisation under Component B and C. *Source - [MNRE KUSUM Portal](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2026.*
 
-## PM Surya Ghar - Who Should Apply
+## PM Surya Ghar: Who Should Apply
 
 PM Surya Ghar is the right choice if your situation matches all of these criteria:
 
@@ -68,25 +68,25 @@ The subsidy of up to ₹78,000 for a 3 kW system, combined with net metering inc
 
 For the complete application process, see [how to apply for PM Surya Ghar online](/blog/pm-surya-ghar-apply-online/). For required documents, see the [PM Surya Ghar documents checklist](/blog/pm-surya-ghar-documents-required/).
 
-## KUSUM Yojana - The Three Components Explained
+## KUSUM Yojana: The Three Components Explained
 
 KUSUM Yojana addresses the energy challenges of India's agricultural sector through three structurally different components.
 
-### Component A - Decentralised Ground-Mounted Solar Plants
+### Component A: Decentralised Ground-Mounted Solar Plants
 
 Farmers and rural landowners with barren, fallow, or marginal agricultural land can lease it for solar plants of 0.5 MW to 2 MW capacity. The solar power generated is sold to the local DISCOM at a fixed tariff. The farmer earns annual lease income (₹20,000 to ₹60,000 per acre per year in most states) without installing or maintaining the system. The investor or developer handles all technical work; the farmer provides land access.
 
 This component is best for large landholders with land that has low agricultural productivity.
 
-### Component B - Standalone Solar Pumps
+### Component B: Standalone Solar Pumps
 
-Farmers without a grid connection who rely on diesel pumps for irrigation can replace them with standalone solar pumps. The central subsidy covers 30% of the benchmark cost; state subsidies add 30%; the farmer pays 40% (or takes a soft loan for 40%). The solar pump runs entirely off solar panels - no grid needed. A 5 HP solar pump costs approximately ₹1.5 lakh after subsidies in most states, replacing a diesel pump that costs ₹80,000 to ₹1.5 lakh per year to operate. According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, over 200,000 standalone solar pumps have been installed under KUSUM Component B since 2020, with Rajasthan and Maharashtra leading installations. India has approximately 20 million agricultural pump sets - representing a massive long-term market for pump solarisation as diesel subsidies reduce. The programme also helps DISCOMs by reducing peak agricultural demand load that strains state grids during summer irrigation season.
+Farmers without a grid connection who rely on diesel pumps for irrigation can replace them with standalone solar pumps. The central subsidy covers 30% of the benchmark cost; state subsidies add 30%; the farmer pays 40% (or takes a soft loan for 40%). The solar pump runs entirely off solar panels, no grid needed. A 5 HP solar pump costs approximately ₹1.5 lakh after subsidies in most states, replacing a diesel pump that costs ₹80,000 to ₹1.5 lakh per year to operate. According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, over 200,000 standalone solar pumps have been installed under KUSUM Component B since 2020, with Rajasthan and Maharashtra leading installations. India has approximately 20 million agricultural pump sets, representing a massive long-term market for pump solarisation as diesel subsidies reduce. The programme also helps DISCOMs by reducing peak agricultural demand load that strains state grids during summer irrigation season.
 
 This component is ideal for farmers in areas with poor or absent grid connectivity.
 
-### Component C - Solarisation of Grid-Connected Pumps
+### Component C: Solarisation of Grid-Connected Pumps
 
-Existing grid-connected agricultural pump users can add solar panels to their pumps. The solar power first runs the pump, and surplus is exported to the DISCOM grid at a feed-in tariff. This is the most financially attractive component for farmers who already have a grid connection - the solar system simultaneously eliminates pump electricity costs and generates export income.
+Existing grid-connected agricultural pump users can add solar panels to their pumps. The solar power first runs the pump, and surplus is exported to the DISCOM grid at a feed-in tariff. This is the most financially attractive component for farmers who already have a grid connection, the solar system simultaneously eliminates pump electricity costs and generates export income.
 
 A 5 HP pump with a 7.5 kW solar system can generate ₹50,000 to ₹1 lakh per year in feed-in tariff income in sunny states (Rajasthan, Gujarat, MP), with a payback period of 3 to 5 years after subsidies.
 
@@ -96,13 +96,13 @@ Use this framework before approaching any installer or government office.
 
 ### The 3-Question Scheme Selector Framework
 
-1. **What is your electricity connection type?** - If you have a domestic connection at home, PM Surya Ghar. If you have an agricultural connection or want to use agricultural land, KUSUM. If you have both, you may be eligible for both - separately.
-2. **What problem are you solving?** - Reducing your home electricity bill: PM Surya Ghar. Eliminating diesel pump costs on your farm: KUSUM Component B or C. Generating income from barren land: KUSUM Component A.
-3. **Do you have a grid connection at the installation site?** - Home with grid connection: PM Surya Ghar (on-grid system, net metering). Farm with no grid: KUSUM Component B (standalone pump). Farm with grid: KUSUM Component C (grid-connected pump solarisation).
+1. **What is your electricity connection type?**: If you have a domestic connection at home, PM Surya Ghar. If you have an agricultural connection or want to use agricultural land, KUSUM. If you have both, you may be eligible for both, separately.
+2. **What problem are you solving?**: Reducing your home electricity bill: PM Surya Ghar. Eliminating diesel pump costs on your farm: KUSUM Component B or C. Generating income from barren land: KUSUM Component A.
+3. **Do you have a grid connection at the installation site?**: Home with grid connection: PM Surya Ghar (on-grid system, net metering). Farm with no grid: KUSUM Component B (standalone pump). Farm with grid: KUSUM Component C (grid-connected pump solarisation).
 
-These three questions determine your scheme with no ambiguity. If your situation is mixed - a farming household with both a domestic house and agricultural land - you may be eligible for both programmes simultaneously.
+These three questions determine your scheme with no ambiguity. If your situation is mixed (a farming household with both a domestic house and agricultural land) you may be eligible for both programmes simultaneously.
 
-## Financial Comparison - Net Cost After Subsidies
+## Financial Comparison: Net Cost After Subsidies
 
 Understanding actual net cost helps you compare the two schemes directly.
 
@@ -127,29 +127,29 @@ The application experience differs significantly between the two schemes.
 - Clear stage-by-stage timeline
 
 **KUSUM Yojana:**
-- Varies by state - some states have online portals; others require district-level offline applications
+- Varies by state, some states have online portals; others require district-level offline applications
 - State nodal agency (TNEDA, GEDA, HAREDA, MSEDCL, etc.) manages the process
-- Timeline is significantly longer - 3 to 12 months from application to installation in most states
-- Subsidy transfer varies - some states transfer directly; others deduct from invoice
+- Timeline is significantly longer, 3 to 12 months from application to installation in most states
+- Subsidy transfer varies, some states transfer directly; others deduct from invoice
 
 For KUSUM specifically, contact your state's nodal agency and your agricultural DISCOM to understand the local application process. The [KUSUM agricultural solar subsidy guide](/blog/kusum-yojana-agricultural-solar-subsidy/) covers state-specific KUSUM application processes in detail.
 
 ## Common Mistakes When Choosing Between the Schemes
 
-- **Applying to PM Surya Ghar with an agricultural connection** - Ineligible. Agricultural connections must use KUSUM.
-- **A farmer applying only to KUSUM when a home solar system is also needed** - Missed opportunity. A farming household can benefit from both schemes simultaneously for different installations.
-- **Expecting PM Surya Ghar to cover pump solarisation** - The scheme covers only rooftop systems on residential buildings.
-- **Treating KUSUM as a faster process than PM Surya Ghar** - In practice, KUSUM typically takes significantly longer due to state-level implementation variability.
-- **Not verifying ALMM compliance for KUSUM equipment** - Both schemes require ALMM-listed components. Farmers are sometimes less familiar with this requirement and accept non-listed equipment from local dealers.
+- **Applying to PM Surya Ghar with an agricultural connection**: Ineligible. Agricultural connections must use KUSUM.
+- **A farmer applying only to KUSUM when a home solar system is also needed**: Missed opportunity. A farming household can benefit from both schemes simultaneously for different installations.
+- **Expecting PM Surya Ghar to cover pump solarisation**: The scheme covers only rooftop systems on residential buildings.
+- **Treating KUSUM as a faster process than PM Surya Ghar**: In practice, KUSUM typically takes significantly longer due to state-level implementation variability.
+- **Not verifying ALMM compliance for KUSUM equipment**: Both schemes require ALMM-listed components. Farmers are sometimes less familiar with this requirement and accept non-listed equipment from local dealers.
 
 ## Where Qbits Fits
 
-For PM Surya Ghar residential installations, Qbits on-grid inverters provide ALMM Phase III compliance and BIS certification - both required for subsidy disbursement. The 12-year full replacement warranty matters especially for residential systems where the homeowner, not a professional facility manager, is responsible for asset maintenance over a 25-year lifecycle.
+For PM Surya Ghar residential installations, Qbits on-grid inverters provide ALMM Phase III compliance and BIS certification, both required for subsidy disbursement. The 12-year full replacement warranty matters especially for residential systems where the homeowner, not a professional facility manager, is responsible for asset maintenance over a 25-year lifecycle.
 
 For KUSUM Component C pump solarisation (grid-connected), Qbits on-grid string inverters handle the solar-to-grid interface with the same ALMM-listed compliance. The IP66 rating ensures outdoor agricultural installation durability through monsoon seasons and dust-heavy environments.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - ALMM Phase III listed; appropriate for both PM Surya Ghar and KUSUM Component C.
-- **[KUSUM Yojana Agricultural Solar Guide](/blog/kusum-yojana-agricultural-solar-subsidy/)** - Detailed breakdown of KUSUM components, state applications, and equipment selection.
-- **[PM Surya Ghar Eligibility Check](/blog/pm-surya-ghar-eligibility/)** - Confirm your residential connection qualifies before starting your application.
+- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM Phase III listed; appropriate for both PM Surya Ghar and KUSUM Component C.
+- **[KUSUM Yojana Agricultural Solar Guide](/blog/kusum-yojana-agricultural-solar-subsidy/)**: Detailed breakdown of KUSUM components, state applications, and equipment selection.
+- **[PM Surya Ghar Eligibility Check](/blog/pm-surya-ghar-eligibility/)**: Confirm your residential connection qualifies before starting your application.
 
-For guidance on which inverter specification suits your specific application - residential rooftop or agricultural pump solarisation - [talk to a Qbits engineer](/contact-us/) with your system capacity, DISCOM name, and scheme requirement. Early engagement ensures ALMM compliance, correct string sizing, and a subsidy-ready installation from day one.
+For guidance on which inverter specification suits your specific application (residential rooftop or agricultural pump solarisation) [talk to a Qbits engineer](/contact-us/) with your system capacity, DISCOM name, and scheme requirement. Early engagement ensures ALMM compliance, correct string sizing, and a subsidy-ready installation from day one.

@@ -1,5 +1,5 @@
 ---
-title: "Solar Investment vs Fixed Deposit - Which Wins in India?"
+title: "Solar Investment vs Fixed Deposit, Which Wins in India?"
 excerpt: "Solar vs FD investment in India: solar delivers IRR of 18–22% vs FD's 7.5%, but FD is liquid and solar is not. The financial maths, honest trade-offs, and who should choose what."
 description: "Compare solar investment vs fixed deposit in India. Solar IRR of 18–22% beats FD at 7.5%, but liquidity, risk, and tenure differ. Full financial model and decision guide."
 category: Guide
@@ -36,13 +36,13 @@ Every month, millions of Indian households receive an electricity bill and simul
 
 This guide does the maths honestly. Solar wins on return. FD wins on liquidity. The decision is not as simple as picking the higher IRR.
 
-> **Direct answer.** At ₹8/unit electricity tariff, a 3 kW solar system delivers an IRR of approximately 18–22% - more than double the FD rate of 7.5%. With PM Surya Ghar subsidy of ₹78,000, the break-even occurs in 3.5–5 years on a system that lasts 25 years. Use the Solar vs FD Financial Crossover framework to decide which is right for your stage of life and liquidity needs.
+> **Direct answer.** At ₹8/unit electricity tariff, a 3 kW solar system delivers an IRR of approximately 18–22%, more than double the FD rate of 7.5%. With PM Surya Ghar subsidy of ₹78,000, the break-even occurs in 3.5–5 years on a system that lasts 25 years. Use the Solar vs FD Financial Crossover framework to decide which is right for your stage of life and liquidity needs.
 
 The comparison is not purely about rate of return. Solar is illiquid, maintenance-dependent, location-specific, and irreversible in the short run. FDs are liquid, zero-maintenance, portable, and breakable in 24 hours. Understanding both sides honestly leads to a better decision than simply chasing the higher number.
 
-## The Base Case: ₹3,00,000 Invested - Solar vs FD
+## The Base Case: ₹3,00,000 Invested: Solar vs FD
 
-Fix the amount at ₹3,00,000 - a round number representing either a meaningful FD or a post-subsidy solar investment for a 3–5 kW rooftop system. Both scenarios start with the same cash outgo on Day 1.
+Fix the amount at ₹3,00,000, a round number representing either a meaningful FD or a post-subsidy solar investment for a 3–5 kW rooftop system. Both scenarios start with the same cash outgo on Day 1.
 
 ### Fixed Deposit Scenario
 
@@ -76,7 +76,7 @@ The FD's headline 7.5% becomes roughly 5.25% post-tax in the highest bracket. Fo
 
 Note: The IRR calculation uses net capex of ₹1,02,000 (post-subsidy) against 25 years of annual electricity savings. Even at conservative ₹6/unit savings, solar beats FD's 7.5% headline rate.
 
-> **₹43,800.** Estimated annual electricity savings from a 3 kW solar system generating 5,475 kWh per year at ₹8 per unit - approximately 1.95× the ₹22,500 annual income from a ₹3,00,000 FD at 7.5%. *Source - [MNRE Solar Resource Atlas](https://mnre.gov.in/), 2025.*
+> **₹43,800.** Estimated annual electricity savings from a 3 kW solar system generating 5,475 kWh per year at ₹8 per unit, approximately 1.95× the ₹22,500 annual income from a ₹3,00,000 FD at 7.5%. *Source - [MNRE Solar Resource Atlas](https://mnre.gov.in/), 2025.*
 
 ## The Solar vs FD Financial Crossover
 
@@ -84,10 +84,10 @@ Note: The IRR calculation uses net capex of ₹1,02,000 (post-subsidy) against 2
 
 This framework identifies the point at which solar's cumulative savings overtake FD's cumulative income, and what assumptions drive the crossover timeline.
 
-1. **Crossover year** - Solar payback typically occurs in Year 3–5. From Year 4 onwards, every rupee of electricity savings is pure return with no offsetting cost. FD income, by contrast, is subject to tax every year and the real return erodes with inflation.
-2. **Tariff escalation multiplier** - Indian electricity tariffs have risen approximately 5–7% annually over the past decade. Each 1% tariff increase increases solar's effective IRR by approximately 0.5%. FD returns are fixed at the contracted rate and do not benefit from tariff escalation.
-3. **Tax asymmetry advantage** - FD interest is taxable income. Solar savings are not. For a salaried individual in the 30% bracket, the post-tax FD return drops from 7.5% to ~5.25%. Solar savings pass through entirely without tax deduction, widening the effective gap to approximately 15–20 percentage points.
-4. **Liquidity discount** - Solar is illiquid for at least 5 years (until payback). Apply a personal liquidity discount rate based on your emergency fund cushion. If your emergency fund covers 12+ months of expenses, the liquidity discount for solar is minimal.
+1. **Crossover year**: Solar payback typically occurs in Year 3–5. From Year 4 onwards, every rupee of electricity savings is pure return with no offsetting cost. FD income, by contrast, is subject to tax every year and the real return erodes with inflation.
+2. **Tariff escalation multiplier**: Indian electricity tariffs have risen approximately 5–7% annually over the past decade. Each 1% tariff increase increases solar's effective IRR by approximately 0.5%. FD returns are fixed at the contracted rate and do not benefit from tariff escalation.
+3. **Tax asymmetry advantage**: FD interest is taxable income. Solar savings are not. For a salaried individual in the 30% bracket, the post-tax FD return drops from 7.5% to ~5.25%. Solar savings pass through entirely without tax deduction, widening the effective gap to approximately 15–20 percentage points.
+4. **Liquidity discount**: Solar is illiquid for at least 5 years (until payback). Apply a personal liquidity discount rate based on your emergency fund cushion. If your emergency fund covers 12+ months of expenses, the liquidity discount for solar is minimal.
 
 Apply this framework to your numbers: your electricity tariff, your tax bracket, your liquidity cushion, and your electricity consumption, to calculate whether the crossover happens in Year 3 or Year 7 for your specific household.
 
@@ -95,11 +95,11 @@ Apply this framework to your numbers: your electricity tariff, your tax bracket,
 
 The advantages of solar over FD go beyond raw IRR:
 
-- **Inflation protection** - electricity tariffs rise; FD rates are locked or reset at lower levels in a low-rate environment. Solar locks in free electricity at tomorrow's tariff.
-- **Tax-free savings** - residential electricity savings are not counted as taxable income. FD interest is fully taxable.
-- **Property value uplift** - a solar-equipped home commands a premium at resale. This is increasingly true in metro markets where buyers are energy-cost-aware.
-- **Environmental benefit** - 3 kW of solar displaces approximately 5–7 tonnes of CO₂ per year, relevant for households that value ESG alignment. [IEA data on India's grid emission factor](https://www.iea.org/countries/india) confirms the grid runs at approximately 0.86 kgCO₂/kWh, making rooftop solar one of the highest-impact personal carbon reduction actions available to Indian homeowners.
-- **Subsidy advantage** - the PM Surya Ghar ₹78,000 subsidy effectively reduces the capital deployed, boosting IRR on the actual cash deployed.
+- **Inflation protection**: electricity tariffs rise; FD rates are locked or reset at lower levels in a low-rate environment. Solar locks in free electricity at tomorrow's tariff.
+- **Tax-free savings**: residential electricity savings are not counted as taxable income. FD interest is fully taxable.
+- **Property value uplift**: a solar-equipped home commands a premium at resale. This is increasingly true in metro markets where buyers are energy-cost-aware.
+- **Environmental benefit**: 3 kW of solar displaces approximately 5–7 tonnes of CO₂ per year, relevant for households that value ESG alignment. [IEA data on India's grid emission factor](https://www.iea.org/countries/india) confirms the grid runs at approximately 0.86 kgCO₂/kWh, making rooftop solar one of the highest-impact personal carbon reduction actions available to Indian homeowners.
+- **Subsidy advantage**: the PM Surya Ghar ₹78,000 subsidy effectively reduces the capital deployed, boosting IRR on the actual cash deployed.
 
 For a deeper analysis of how these returns compare over the full system life, read the [LCOE solar India](/blog/lcoe-solar-india/) guide.
 
@@ -107,11 +107,11 @@ For a deeper analysis of how these returns compare over the full system life, re
 
 Honest comparison requires equal weight to the FD's genuine advantages:
 
-- **Liquidity** - FD can be broken in 24–48 hours with a minor interest penalty. Solar cannot be "unwound" without physical removal and resale at a significant loss.
-- **Zero maintenance** - FD requires no site visits, no panel cleaning, no inverter monitoring. Solar requires at least basic annual maintenance and monitoring.
-- **Portability** - FD follows you if you move. A solar system installed on a rented property does not belong to the tenant.
-- **Guaranteed return** - FD return is contractually guaranteed and insured under DICGC up to ₹5 Lakh per bank. Solar return depends on irradiance, inverter uptime, tariff policy, and DISCOM net metering cooperation.
-- **No counterparty risk** - FD does not depend on a solar vendor's quality or post-installation service quality.
+- **Liquidity**: FD can be broken in 24–48 hours with a minor interest penalty. Solar cannot be "unwound" without physical removal and resale at a significant loss.
+- **Zero maintenance**: FD requires no site visits, no panel cleaning, no inverter monitoring. Solar requires at least basic annual maintenance and monitoring.
+- **Portability**: FD follows you if you move. A solar system installed on a rented property does not belong to the tenant.
+- **Guaranteed return**: FD return is contractually guaranteed and insured under DICGC up to ₹5 Lakh per bank. Solar return depends on irradiance, inverter uptime, tariff policy, and DISCOM net metering cooperation.
+- **No counterparty risk**: FD does not depend on a solar vendor's quality or post-installation service quality.
 
 | | Solar | Fixed Deposit |
 | --- | --- | --- |
@@ -130,10 +130,10 @@ Honest comparison requires equal weight to the FD's genuine advantages:
 Solar is not the automatic winner in every scenario. FD is a better choice when:
 
 - **You rent your home** and cannot install rooftop solar without landlord permission. (See the [solar for rented homes](/blog/solar-for-rented-homes-tenants-india/) guide for limited options.)
-- **Your electricity bill is below ₹2,000/month** - the system is undersized relative to consumption and the IRR drops toward FD levels.
-- **You have less than 12 months of emergency reserves** - deploying funds in an illiquid solar investment before building liquidity is financially imprudent.
-- **You are likely to move in the next 3 years** - payback has not yet occurred, and recovering the solar investment via property premium at resale is uncertain.
-- **Your DISCOM has very poor net metering compliance** - if export credits are not honoured, solar savings are limited to self-consumption only.
+- **Your electricity bill is below ₹2,000/month**: the system is undersized relative to consumption and the IRR drops toward FD levels.
+- **You have less than 12 months of emergency reserves**: deploying funds in an illiquid solar investment before building liquidity is financially imprudent.
+- **You are likely to move in the next 3 years**: payback has not yet occurred, and recovering the solar investment via property premium at resale is uncertain.
+- **Your DISCOM has very poor net metering compliance**: if export credits are not honoured, solar savings are limited to self-consumption only.
 
 ## How PM Surya Ghar Subsidy Changes the Maths
 
@@ -150,23 +150,23 @@ For the full PM Surya Ghar subsidy calculation, read the [PM Surya Ghar subsidy 
 
 ## Common Mistakes When Comparing Solar and FD Returns
 
-- **Using gross system cost instead of net capex** - always subtract the PM Surya Ghar subsidy before calculating IRR. Many blogs compare solar to FD using the full ₹1.5–2 Lakh cost before the ₹78,000 subsidy lands, making solar look worse than it is.
-- **Ignoring post-tax FD return** - most comparisons use 7.5% FD vs 18% solar. The real comparison is 5.25% post-tax FD (30% bracket) vs 18–22% solar (savings untaxed).
-- **Not accounting for tariff escalation** - a static ₹8/unit savings figure understates solar's long-term return. At 5% annual tariff escalation, Year 10 savings are 63% higher than Year 1 savings.
-- **Assuming FD reinvestment at the same rate** - FD rates change with the RBI repo rate. A 10-year FD renewing in 2030 may find rates at 5.5% rather than 7.5%. Solar's return is locked in at installation.
+- **Using gross system cost instead of net capex**: always subtract the PM Surya Ghar subsidy before calculating IRR. Many blogs compare solar to FD using the full ₹1.5–2 Lakh cost before the ₹78,000 subsidy lands, making solar look worse than it is.
+- **Ignoring post-tax FD return**: most comparisons use 7.5% FD vs 18% solar. The real comparison is 5.25% post-tax FD (30% bracket) vs 18–22% solar (savings untaxed).
+- **Not accounting for tariff escalation**: a static ₹8/unit savings figure understates solar's long-term return. At 5% annual tariff escalation, Year 10 savings are 63% higher than Year 1 savings.
+- **Assuming FD reinvestment at the same rate**: FD rates change with the RBI repo rate. A 10-year FD renewing in 2030 may find rates at 5.5% rather than 7.5%. Solar's return is locked in at installation.
 
-> **Tariff context.** Average residential electricity tariff in India increased from approximately ₹4.50 per unit in 2014 to ₹8–10 per unit in 2024 - a compounded annual increase of approximately 6%. *Source - [CEA Annual General Review](https://cea.nic.in/), 2024.*
+> **Tariff context.** Average residential electricity tariff in India increased from approximately ₹4.50 per unit in 2014 to ₹8–10 per unit in 2024, a compounded annual increase of approximately 6%. *Source - [CEA Annual General Review](https://cea.nic.in/), 2024.*
 
 For a full payback period model, including state-specific irradiance data, read the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/). India's residential tariff trajectory is well-documented by the [Central Electricity Regulatory Commission](https://cerc.gov.in/) and confirms the 5–7% annual increase pattern that makes solar's returns improve year over year. [IRENA's India energy outlook](https://www.irena.org/countries/India) projects electricity tariffs will continue rising through 2030 as coal costs and infrastructure spending increase, further strengthening the solar-vs-FD case.
 
 ## Where Qbits Fits
 
-The solar investment thesis depends entirely on the inverter performing reliably for 20–25 years. A 12-year full replacement warranty from Qbits means the inverter is covered for the first half of the system's earning life without replacement risk. After the payback period (Year 4–5), every rupee saved is pure return - and the inverter's reliability determines how much of that return is actually collected.
+The solar investment thesis depends entirely on the inverter performing reliably for 20–25 years. A 12-year full replacement warranty from Qbits means the inverter is covered for the first half of the system's earning life without replacement risk. After the payback period (Year 4–5), every rupee saved is pure return, and the inverter's reliability determines how much of that return is actually collected.
 
 Qbits inverters feature IP66 weather protection for India's harsh climate, AI-powered WhatsApp monitoring that alerts to performance drops, and BIS/ALMM compliance required for PM Surya Ghar subsidy eligibility.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - ALMM-listed TLS and TLD series, subsidy-eligible and net-metering compatible.
-- **[Hybrid Inverters](/hybrid-inverter/)** - HS and HT series for households in power-cut zones where battery backup protects the investment.
-- **[String Sizing Calculator](/string-sizing-calculator/)** - get the system design right from the first day to maximise generation and IRR.
+- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed TLS and TLD series, subsidy-eligible and net-metering compatible.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for households in power-cut zones where battery backup protects the investment.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: get the system design right from the first day to maximise generation and IRR.
 
 [Talk to a Qbits engineer](/contact-us/) about building a solar investment case for your specific tariff, roof size, and electricity consumption. Most quotes come back in 24 hours.

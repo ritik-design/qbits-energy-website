@@ -1,7 +1,7 @@
 ---
-title: "Solar Service SLA Crisis in India - A Founder's View"
+title: "Solar Service SLA Crisis in India, A Founder's View"
 excerpt: "India's solar service SLA crisis is real: average fault resolution takes 3–8 weeks, most brands have no declared SLA, and Tier-2/3 cities have no local service centre. Here is why the industry must fix this now."
-description: "A founder's perspective on India's solar after-sales service gap - no declared SLAs, 3–8 week resolution times, and why MNRE must mandate service standards before consumer trust collapses."
+description: "A founder's perspective on India's solar after-sales service gap, no declared SLAs, 3–8 week resolution times, and why MNRE must mandate service standards before consumer trust collapses."
 category: "Industry"
 date: 2026-06-05
 readTime: "17 min"
@@ -38,23 +38,23 @@ faqs:
 
 Three months ago I received a message from an EPC installer in Nagpur. He had sold a 10 kW on-grid system to a homeowner in early January. By mid-February the inverter had stopped generating. The brand's helpline gave him a ticket. Three weeks passed. A technician came from Pune, looked at the inverter, and said a control board needed replacement. Another two weeks passed. The board arrived. The installer fitted it. Total downtime: forty-one days.
 
-During those forty-one days, the homeowner's electricity bill arrived from the [DISCOM](/glossary/discom/) - full consumption charges, because the solar system was offline. The home loan EMI on the solar installation was also due. The installer lost two referrals from neighbours who had been watching the situation. And the brand? Their warranty document said service would be provided within a *reasonable time*.
+During those forty-one days, the homeowner's electricity bill arrived from the [DISCOM](/glossary/discom/), full consumption charges, because the solar system was offline. The home loan EMI on the solar installation was also due. The installer lost two referrals from neighbours who had been watching the situation. And the brand? Their warranty document said service would be provided within a *reasonable time*.
 
-That message is not unusual. I hear versions of it every week. And as someone building a solar inverter brand in India, I believe the solar service SLA crisis is one of the most serious structural problems our industry is choosing not to talk about - until it becomes a consumer-trust collapse that sets the entire market back by years.
+That message is not unusual. I hear versions of it every week. And as someone building a solar inverter brand in India, I believe the solar service SLA crisis is one of the most serious structural problems our industry is choosing not to talk about, until it becomes a consumer-trust collapse that sets the entire market back by years.
 
-> **The solar service SLA problem in plain terms.** Most Indian solar inverter brands have no declared service SLA. Average fault resolution takes 3–8 weeks from fault report to system restoration. Tier-2 and Tier-3 cities - which account for the majority of PM Surya Ghar installations - have no local service infrastructure. Every day of downtime costs the buyer lost generation, continued DISCOM bills, and loan payments on a non-generating asset. The industry needs declared SLAs with financial penalties, regional service density requirements, and MNRE minimum service standards - and it needs them before the market reaches 50 million rooftop installations and the problem becomes irreversible.
+> **The solar service SLA problem in plain terms.** Most Indian solar inverter brands have no declared service SLA. Average fault resolution takes 3–8 weeks from fault report to system restoration. Tier-2 and Tier-3 cities (which account for the majority of PM Surya Ghar installations) have no local service infrastructure. Every day of downtime costs the buyer lost generation, continued DISCOM bills, and loan payments on a non-generating asset. The industry needs declared SLAs with financial penalties, regional service density requirements, and MNRE minimum service standards, and it needs them before the market reaches 50 million rooftop installations and the problem becomes irreversible.
 
-This is a founder's view. I am not writing this as a neutral observer. I am writing it because fixing this problem is the only way the Indian solar industry earns the trust it needs to reach the government's 2030 targets - and because we at Qbits are putting our money where this argument is by building the service infrastructure to back it up.
+This is a founder's view. I am not writing this as a neutral observer. I am writing it because fixing this problem is the only way the Indian solar industry earns the trust it needs to reach the government's 2030 targets, and because we at Qbits are putting our money where this argument is by building the service infrastructure to back it up.
 
 ## The Scale of the Problem: What the Numbers Actually Show
 
-The Indian rooftop solar market has crossed 18 GW of cumulative capacity, according to [Mercom India's Q1 2026 market report](https://www.mercomindia.com/). With an average system size of 4–5 kW for residential installations, that is roughly 3.5–4 million active rooftop systems. If even 3% of those systems experience a fault in any given year - a conservative figure given India's grid instability and monsoon conditions - that is over 100,000 service events annually. [JMK Research's rooftop solar deployment tracker](https://jmkresearch.com/) confirms that residential installations now account for over 45% of cumulative rooftop capacity, making residential service the single largest segment of unmet demand.
+The Indian rooftop solar market has crossed 18 GW of cumulative capacity, according to [Mercom India's Q1 2026 market report](https://www.mercomindia.com/). With an average system size of 4–5 kW for residential installations, that is roughly 3.5–4 million active rooftop systems. If even 3% of those systems experience a fault in any given year (a conservative figure given India's grid instability and monsoon conditions) that is over 100,000 service events annually. [JMK Research's rooftop solar deployment tracker](https://jmkresearch.com/) confirms that residential installations now account for over 45% of cumulative rooftop capacity, making residential service the single largest segment of unmet demand.
 
-The inverter is the most service-intensive component of any solar installation. Published [solar inverter failure](/blog/solar-inverter-failure/) data places residential inverter failure rates at 3–8% within the first five years in Indian conditions, with heat stress, voltage spikes, and moisture ingress as the primary causes. A 5% failure rate on 4 million systems means 200,000 inverter service events per year - before accounting for performance degradation issues that require technician visits without full replacement.
+The inverter is the most service-intensive component of any solar installation. Published [solar inverter failure](/blog/solar-inverter-failure/) data places residential inverter failure rates at 3–8% within the first five years in Indian conditions, with heat stress, voltage spikes, and moisture ingress as the primary causes. A 5% failure rate on 4 million systems means 200,000 inverter service events per year, before accounting for performance degradation issues that require technician visits without full replacement.
 
-> **200,000+.** Estimated annual residential inverter service events in India by 2026, based on 4 million active rooftop systems and a 5% fault-plus-degradation rate. At an average 4-week resolution time, that represents over 4 million person-weeks of lost generation annually. *Source - Mercom India, Q1 2026; Qbits analysis.*
+> **200,000+.** Estimated annual residential inverter service events in India by 2026, based on 4 million active rooftop systems and a 5% fault-plus-degradation rate. At an average 4-week resolution time, that represents over 4 million person-weeks of lost generation annually. *Source, Mercom India, Q1 2026; Qbits analysis.*
 
-Now set that against the service infrastructure that exists to handle these events. [MNRE](/glossary/mnre/) has no published database of authorised solar inverter service centres by geography. No independent auditor tracks service centre density per district. The [solar inverter market in India](/blog/solar-inverter-market-india/) has over 200 active brands - the vast majority of which are assemblers operating out of a single factory with a customer care email address and a third-party service partner arrangement that extends, at best, to the top 15 cities.
+Now set that against the service infrastructure that exists to handle these events. [MNRE](/glossary/mnre/) has no published database of authorised solar inverter service centres by geography. No independent auditor tracks service centre density per district. The [solar inverter market in India](/blog/solar-inverter-market-india/) has over 200 active brands, the vast majority of which are assemblers operating out of a single factory with a customer care email address and a third-party service partner arrangement that extends, at best, to the top 15 cities.
 
 The mismatch between service demand and service supply is not a gap. It is a chasm.
 
@@ -64,15 +64,15 @@ To understand why service resolution takes so long, it helps to trace the exact 
 
 The typical service pipeline for a residential solar inverter in India looks like this:
 
-1. **Fault occurs** - the inverter trips or shows an error code. The homeowner may not notice immediately, particularly if there is no monitoring.
-2. **Fault reported** - the homeowner calls the installer or the brand helpline. If the brand does not have active monitoring, this step depends entirely on the homeowner. Average reporting lag: 1–5 days.
-3. **Ticket logged** - the brand's helpline logs a ticket. If it is outside business hours or a weekend, the ticket enters the queue the next business day. Average acknowledgement time: 1–3 business days.
-4. **Remote diagnosis** - the brand's service team attempts a remote diagnosis via phone or the monitoring app. If the inverter is offline, remote diagnosis is impossible. If it requires firmware logs, the installer must physically visit the site. Average: 3–7 days.
-5. **Service visit authorised** - the brand approves a physical technician visit. In Tier-1 cities, a visit may happen within 3–5 days. In Tier-2/3 cities, the nearest authorised technician may cover a 200 km radius and schedules visits on a route basis. Average: 5–14 days in Tier-2/3.
-6. **Diagnosis on site** - the technician visits, identifies the fault, and reports back. If a part is needed, a requisition is raised.
-7. **Part sourced** - if the brand does not hold regional inventory, parts are sourced from a central factory warehouse. Dispatch plus courier in India: 5–10 days. Customs clearance if parts are imported: add another 7–21 days.
-8. **Second visit or RMA** - the technician returns with the part, or a replacement unit is dispatched. Another 3–7 days.
-9. **System restoration** - the system is back online.
+1. **Fault occurs**: the inverter trips or shows an error code. The homeowner may not notice immediately, particularly if there is no monitoring.
+2. **Fault reported**: the homeowner calls the installer or the brand helpline. If the brand does not have active monitoring, this step depends entirely on the homeowner. Average reporting lag: 1–5 days.
+3. **Ticket logged**: the brand's helpline logs a ticket. If it is outside business hours or a weekend, the ticket enters the queue the next business day. Average acknowledgement time: 1–3 business days.
+4. **Remote diagnosis**: the brand's service team attempts a remote diagnosis via phone or the monitoring app. If the inverter is offline, remote diagnosis is impossible. If it requires firmware logs, the installer must physically visit the site. Average: 3–7 days.
+5. **Service visit authorised**: the brand approves a physical technician visit. In Tier-1 cities, a visit may happen within 3–5 days. In Tier-2/3 cities, the nearest authorised technician may cover a 200 km radius and schedules visits on a route basis. Average: 5–14 days in Tier-2/3.
+6. **Diagnosis on site**: the technician visits, identifies the fault, and reports back. If a part is needed, a requisition is raised.
+7. **Part sourced**: if the brand does not hold regional inventory, parts are sourced from a central factory warehouse. Dispatch plus courier in India: 5–10 days. Customs clearance if parts are imported: add another 7–21 days.
+8. **Second visit or RMA**: the technician returns with the part, or a replacement unit is dispatched. Another 3–7 days.
+9. **System restoration**: the system is back online.
 
 Add these stages together and 3–8 weeks is not a pessimistic estimate. It is the structural outcome of a pipeline with no mandated time limit at any stage.
 
@@ -80,18 +80,18 @@ The problem is not that individual technicians are lazy. The problem is that the
 
 ## What Downtime Actually Costs: The Hidden Bill No One Mentions
 
-The industry's standard framing of downtime focuses on lost generation - and that is real. A 5 kW residential system in a good-irradiance location generates 20–25 kWh per day during peak months. At a blended DISCOM tariff of ₹7–8 per kWh, that is ₹140–₹200 per day in savings foregone.
+The industry's standard framing of downtime focuses on lost generation, and that is real. A 5 kW residential system in a good-irradiance location generates 20–25 kWh per day during peak months. At a blended DISCOM tariff of ₹7–8 per kWh, that is ₹140–₹200 per day in savings foregone.
 
 But that is only the visible cost. The hidden costs are larger and they hit the buyer simultaneously.
 
-- **Continued DISCOM billing** - the electricity connection to the property remains active regardless of whether the solar system is generating. The homeowner receives a full consumption bill during the downtime period. For a household that was generating 60–70% of its consumption from solar, a 6-week downtime event means 6 weeks of near-full grid bills - an additional ₹4,000–₹8,000 on top of normal post-solar costs.
-- **Loan EMI continues** - 40–60% of new residential solar installations in India are financed, per [Bridge to India's India Solar Rooftop Market Outlook](https://bridgetoindia.com/). The EMI on a ₹2.5 Lakh system financed at 9% over 7 years is approximately ₹3,800 per month - payable whether the system generates or not.
-- **Installer reputational damage** - every referral the installer loses during the downtime period is a compounding cost that does not appear on any balance sheet. In the Indian solar market, where word-of-mouth drives 60–70% of residential sales conversions, a single 6-week downtime event can cost the installer 3–5 prospective sales.
-- **Net metering credit erosion** - systems with active net metering connections cannot export units during downtime, eroding the net metering credit balance that homeowners depend on to offset night-time consumption. In states with monthly settlement cycles, a full month of downtime can eliminate the credit buffer for that billing cycle entirely.
+- **Continued DISCOM billing**: the electricity connection to the property remains active regardless of whether the solar system is generating. The homeowner receives a full consumption bill during the downtime period. For a household that was generating 60–70% of its consumption from solar, a 6-week downtime event means 6 weeks of near-full grid bills, an additional ₹4,000–₹8,000 on top of normal post-solar costs.
+- **Loan EMI continues**: 40–60% of new residential solar installations in India are financed, per [Bridge to India's India Solar Rooftop Market Outlook](https://bridgetoindia.com/). The EMI on a ₹2.5 Lakh system financed at 9% over 7 years is approximately ₹3,800 per month, payable whether the system generates or not.
+- **Installer reputational damage**: every referral the installer loses during the downtime period is a compounding cost that does not appear on any balance sheet. In the Indian solar market, where word-of-mouth drives 60–70% of residential sales conversions, a single 6-week downtime event can cost the installer 3–5 prospective sales.
+- **Net metering credit erosion**: systems with active net metering connections cannot export units during downtime, eroding the net metering credit balance that homeowners depend on to offset night-time consumption. In states with monthly settlement cycles, a full month of downtime can eliminate the credit buffer for that billing cycle entirely.
 
-The full economic cost of a 6-week downtime event on a 5 kW residential system - combining lost savings, continued DISCOM billing, continued loan EMI, and foregone net metering credits - runs to ₹18,000–₹28,000 in the affected period. That is equivalent to 7–10% of the original system cost, incurred in a single failure event. [IRENA's 2025 report on distributed solar finance](https://www.irena.org/) notes that the payback period sensitivity to downtime events is significantly underestimated in most project financial models in emerging markets.
+The full economic cost of a 6-week downtime event on a 5 kW residential system (combining lost savings, continued DISCOM billing, continued loan EMI, and foregone net metering credits) runs to ₹18,000–₹28,000 in the affected period. That is equivalent to 7–10% of the original system cost, incurred in a single failure event. [IRENA's 2025 report on distributed solar finance](https://www.irena.org/) notes that the payback period sensitivity to downtime events is significantly underestimated in most project financial models in emerging markets.
 
-For commercial installations, the numbers scale sharply. Our own analysis of [solar inverter downtime](/blog/solar-inverter-downtime/) shows a 100 kW commercial system losing ₹2,000–₹3,500 per day in generation alone. A 4-week outage costs ₹56,000–₹98,000 in lost generation - without counting the cost of a replacement inverter.
+For commercial installations, the numbers scale sharply. Our own analysis of [solar inverter downtime](/blog/solar-inverter-downtime/) shows a 100 kW commercial system losing ₹2,000–₹3,500 per day in generation alone. A 4-week outage costs ₹56,000–₹98,000 in lost generation, without counting the cost of a replacement inverter.
 
 ## Why This Is Structural: The Assembler Problem
 
@@ -99,19 +99,19 @@ Before we talk about solutions, it is worth being honest about why the service c
 
 The Indian solar inverter market has three tiers of brands:
 
-### Tier 1 - Owned Manufacturing with Owned Service
+### Tier 1: Owned Manufacturing with Owned Service
 
-This tier includes global brands like Sungrow, Fronius, and SMA, which own their manufacturing and maintain direct service offices in major Indian cities. They have declared SLA commitments in their enterprise contracts, hold spare-parts inventory in regional hubs, and employ factory-trained field engineers. Their service is not fast by global standards - the India network remains thin relative to their global infrastructure - but it is structured, accountable, and improving.
+This tier includes global brands like Sungrow, Fronius, and SMA, which own their manufacturing and maintain direct service offices in major Indian cities. They have declared SLA commitments in their enterprise contracts, hold spare-parts inventory in regional hubs, and employ factory-trained field engineers. Their service is not fast by global standards (the India network remains thin relative to their global infrastructure) but it is structured, accountable, and improving.
 
 Qbits sits in this tier from a service model perspective: owned inverter firmware and board design, a declared 72-hour RMA commitment, and an authorised service partner network anchored by regional parts inventory.
 
-### Tier 2 - Indian OEMs with Partial Service Infrastructure
+### Tier 2: Indian OEMs with Partial Service Infrastructure
 
-This tier includes established Indian brands that manufacture (or assemble with significant local value-add) and have a national dealer network with some service capability. Service SLAs are rarely declared in writing. Resolution times are highly variable - excellent in the home state of the manufacturer, poor in states where the dealer network is thin. Warranty documents use "reasonable time" language. Spare-parts availability depends on whether the dealer carries inventory, which most do not.
+This tier includes established Indian brands that manufacture (or assemble with significant local value-add) and have a national dealer network with some service capability. Service SLAs are rarely declared in writing. Resolution times are highly variable, excellent in the home state of the manufacturer, poor in states where the dealer network is thin. Warranty documents use "reasonable time" language. Spare-parts availability depends on whether the dealer carries inventory, which most do not.
 
-### Tier 3 - Assemblers with No Owned Service
+### Tier 3: Assemblers with No Owned Service
 
-This is the largest tier by brand count, and the most dangerous for buyers. These are entities that purchase inverter boards, cases, and components - often from Chinese ODM manufacturers - and apply an Indian brand name and a BIS label. They may hold ALMM listing for a specific model. They have no owned service infrastructure. After-sales support is handled by the selling dealer, who has no factory training and no spare-parts inventory. When the dealer closes or pivots to a different brand, the buyer has no service recourse at all.
+This is the largest tier by brand count, and the most dangerous for buyers. These are entities that purchase inverter boards, cases, and components (often from Chinese ODM manufacturers) and apply an Indian brand name and a BIS label. They may hold ALMM listing for a specific model. They have no owned service infrastructure. After-sales support is handled by the selling dealer, who has no factory training and no spare-parts inventory. When the dealer closes or pivots to a different brand, the buyer has no service recourse at all.
 
 These assembler brands compete primarily on price. They are 15–25% cheaper than Tier 2 brands at the point of sale. The price difference looks attractive to a homeowner or a margin-pressured EPC. The service gap becomes apparent 18–24 months after installation, when the first major fault occurs and there is nobody to call.
 
@@ -119,47 +119,47 @@ These assembler brands compete primarily on price. They are 15–25% cheaper tha
 
 Having thought about this problem as both a builder and an observer, I believe the industry needs a clear, auditable framework for what a legitimate solar service SLA looks like. I call this the **5-Gate Solar Service SLA Standard**.
 
-### Gate 1 - Ticket Acknowledgement
+### Gate 1: Ticket Acknowledgement
 
 A service ticket must be formally acknowledged within 2 business hours of submission, with a ticket number issued to the buyer or installer. This gate is achievable immediately for any brand with a functioning customer service operation. Failure at Gate 1 indicates a brand has no service infrastructure at all.
 
-### Gate 2 - Remote Diagnosis Completion
+### Gate 2: Remote Diagnosis Completion
 
-A remote diagnosis - covering fault code review, monitoring data analysis, and an initial resolution determination - must be completed within 24 business hours of ticket acknowledgement. If remote diagnosis is impossible because the inverter is offline or unmonitored, the brand must dispatch a technician to site within 48 business hours. Brands without monitoring integration cannot meet this gate consistently.
+A remote diagnosis (covering fault code review, monitoring data analysis, and an initial resolution determination) must be completed within 24 business hours of ticket acknowledgement. If remote diagnosis is impossible because the inverter is offline or unmonitored, the brand must dispatch a technician to site within 48 business hours. Brands without monitoring integration cannot meet this gate consistently.
 
-### Gate 3 - On-Site Technician Visit
+### Gate 3: On-Site Technician Visit
 
 A factory-trained or authorised technician must be on site within 72 hours of remote diagnosis confirming a physical fault. In Tier-2/3 cities, this requires the brand to maintain authorised service partners within 150 km of every district, not just state capitals. This gate separates brands with genuine service density from brands that handle everything out of a single metropolitan hub.
 
-### Gate 4 - Replacement or Part Dispatch
+### Gate 4: Replacement or Part Dispatch
 
-A replacement unit or the confirmed required part must be dispatched from the brand's warehouse within 48 hours of fault diagnosis confirmation. This gate requires regional inventory - not a central warehouse model. Brands that source all parts from a single factory location cannot meet Gate 4 in Tier-2/3 markets within the required window.
+A replacement unit or the confirmed required part must be dispatched from the brand's warehouse within 48 hours of fault diagnosis confirmation. This gate requires regional inventory, not a central warehouse model. Brands that source all parts from a single factory location cannot meet Gate 4 in Tier-2/3 markets within the required window.
 
-### Gate 5 - System Restoration
+### Gate 5: System Restoration
 
-The system must be restored to full rated generation within 7 calendar days of original ticket submission, or the brand must issue a per-day generation credit calculated at the prevailing DISCOM tariff rate for the system's rated output. The credit is not a penalty - it is a fair compensation mechanism that makes the buyer whole for the generation loss caused by the delay.
+The system must be restored to full rated generation within 7 calendar days of original ticket submission, or the brand must issue a per-day generation credit calculated at the prevailing DISCOM tariff rate for the system's rated output. The credit is not a penalty, it is a fair compensation mechanism that makes the buyer whole for the generation loss caused by the delay.
 
-A brand that meets all 5 gates is operating a professional after-sales service model. A brand that fails any gate consistently is not. The standard is not aspirational - these are achievable targets for any brand that owns its service infrastructure.
+A brand that meets all 5 gates is operating a professional after-sales service model. A brand that fails any gate consistently is not. The standard is not aspirational, these are achievable targets for any brand that owns its service infrastructure.
 
 ## What the Industry Should Do: Three Specific Reforms
 
 Policy conversations in the Indian solar industry tend to focus on installation quality, ALMM compliance, and subsidy disbursement. After-sales service rarely makes the agenda. That needs to change.
 
-### Reform 1 - MNRE Minimum Service Standards
+### Reform 1: MNRE Minimum Service Standards
 
 [MNRE](/glossary/mnre/) should mandate minimum after-sales service standards as a condition of ALMM listing. Specifically: brands must declare a written SLA covering ticket acknowledgement, on-site response, and system restoration times. The SLA must be made available to buyers and registered with MNRE. Brands that fail to meet their declared SLA in more than 5% of service events in any quarter should face ALMM listing suspension until corrective action is demonstrated.
 
 This is not a radical requirement. The Bureau of Energy Efficiency already mandates performance standards for appliances. The [BIS certification](/glossary/bis-certification/) regime mandates product quality. Service quality is the logical third pillar.
 
-### Reform 2 - Service Network Density Disclosure
+### Reform 2: Service Network Density Disclosure
 
-MNRE should require brands to publicly disclose the number and location of their authorised service centres by state and district, distinguishing between owned centres and third-party partner centres, and specifying the spare-parts inventory held at each. This data should be searchable by buyers before purchase - not buried in a warranty document printed in 8-point font.
+MNRE should require brands to publicly disclose the number and location of their authorised service centres by state and district, distinguishing between owned centres and third-party partner centres, and specifying the spare-parts inventory held at each. This data should be searchable by buyers before purchase, not buried in a warranty document printed in 8-point font.
 
 A buyer in Indore or Coimbatore deserves to know, before purchasing, how many days it will take for a technician to reach them. That information should be publicly available, not inferrable only from experience after a fault occurs.
 
-### Reform 3 - Financial Penalty Provisions in Warranty Documents
+### Reform 3: Financial Penalty Provisions in Warranty Documents
 
-Warranty documents issued by solar inverter brands should be required to include a financial penalty provision for SLA breach - calculated as a per-day generation credit at the DISCOM tariff rate. This provision already exists in analogous frameworks in Germany and Australia - [SolarPower Europe's O&M Best Practice Guidelines](https://www.solarpowereurope.org/) document the per-day penalty model used across EU solar installations. It is enforceable under the Consumer Protection Act 2019 if the warranty document specifies it. The barrier is not legal - it is the industry's reluctance to commit to accountability in writing.
+Warranty documents issued by solar inverter brands should be required to include a financial penalty provision for SLA breach, calculated as a per-day generation credit at the DISCOM tariff rate. This provision already exists in analogous frameworks in Germany and Australia - [SolarPower Europe's O&M Best Practice Guidelines](https://www.solarpowereurope.org/) document the per-day penalty model used across EU solar installations. It is enforceable under the Consumer Protection Act 2019 if the warranty document specifies it. The barrier is not legal, it is the industry's reluctance to commit to accountability in writing.
 
 EPCs should begin requiring this provision in their supplier contracts now, before it becomes mandatory. A brand that refuses to include a penalty clause in a written SLA is signalling that it does not expect to meet the SLA it is verbally promising.
 
@@ -175,15 +175,15 @@ The growth of the Indian solar market depends on homeowner trust. Homeowner trus
 
 ## Where the EPC Installer Fits: Choosing a Brand That Backs You
 
-For EPC installers reading this, the after-sales service SLA is not just a homeowner problem - it is your problem. When an inverter fails and the brand does not respond, the homeowner calls you. Your reputation is the first one damaged. Your relationship is the first one strained.
+For EPC installers reading this, the after-sales service SLA is not just a homeowner problem, it is your problem. When an inverter fails and the brand does not respond, the homeowner calls you. Your reputation is the first one damaged. Your relationship is the first one strained.
 
 Before committing your next project to any brand, apply this checklist:
 
-- **Declared SLA in writing** - not a verbal promise from the sales rep, not a marketing brochure claim. A written, signed document with specific time commitments and a penalty clause.
-- **Proof of regional service infrastructure** - the brand should be able to show you the number of authorised service centres within 150 km of your primary project geography, and confirm the spare-parts inventory held at the nearest regional warehouse.
-- **Replacement vs repair warranty** - a [replacement warranty](/blog/solar-inverter-warranty/) means a new unit is dispatched; a repair warranty means the same ageing unit returns after a 4–8 week repair cycle. Replacement is the only model that protects your installation timeline and the homeowner's generation continuity.
-- **WhatsApp or digital fault logging** - brands without digital fault logging will always have a reporting lag of 1–3 days before the fault enters the service pipeline. In a 72-hour SLA model, that lag is unacceptable.
-- **Total cost of ownership analysis** - the [inverter total cost of ownership](/blog/inverter-tco/) calculation must include estimated service costs over the warranty period, not just the purchase price. A brand 15% cheaper at purchase that delivers 6-week service resolution times is almost always more expensive over 12 years.
+- **Declared SLA in writing**: not a verbal promise from the sales rep, not a marketing brochure claim. A written, signed document with specific time commitments and a penalty clause.
+- **Proof of regional service infrastructure**: the brand should be able to show you the number of authorised service centres within 150 km of your primary project geography, and confirm the spare-parts inventory held at the nearest regional warehouse.
+- **Replacement vs repair warranty**: a [replacement warranty](/blog/solar-inverter-warranty/) means a new unit is dispatched; a repair warranty means the same ageing unit returns after a 4–8 week repair cycle. Replacement is the only model that protects your installation timeline and the homeowner's generation continuity.
+- **WhatsApp or digital fault logging**: brands without digital fault logging will always have a reporting lag of 1–3 days before the fault enters the service pipeline. In a 72-hour SLA model, that lag is unacceptable.
+- **Total cost of ownership analysis**: the [inverter total cost of ownership](/blog/inverter-tco/) calculation must include estimated service costs over the warranty period, not just the purchase price. A brand 15% cheaper at purchase that delivers 6-week service resolution times is almost always more expensive over 12 years.
 
 ## The Verdict: What Has to Change and When
 
@@ -202,14 +202,14 @@ The reforms in this table are not contingent on new legislation. Most can be imp
 
 I started this piece by saying I am not a neutral observer. So let me be direct about what Qbits is doing, rather than just what the industry should do.
 
-Qbits has declared a 72-hour RMA SLA from ticket approval to replacement unit dispatch. This is a written commitment in the warranty document - not a marketing claim. We use a WhatsApp-first fault logging system integrated with AI monitoring so that faults enter the service pipeline before the installer has to call anyone. And we have built a 280-city authorised service partner network with regional spare-parts inventory, so the nearest technician is never more than a reasonable drive away.
+Qbits has declared a 72-hour RMA SLA from ticket approval to replacement unit dispatch. This is a written commitment in the warranty document, not a marketing claim. We use a WhatsApp-first fault logging system integrated with AI monitoring so that faults enter the service pipeline before the installer has to call anyone. And we have built a 280-city authorised service partner network with regional spare-parts inventory, so the nearest technician is never more than a reasonable drive away.
 
-We built this infrastructure before we had the volume to justify it economically, because we believe the service model has to be built first - before the installs, not after. Building service infrastructure reactively - scaling up call centres and technicians after the installed base breaks - is how the industry got into the current crisis.
+We built this infrastructure before we had the volume to justify it economically, because we believe the service model has to be built first, before the installs, not after. Building service infrastructure reactively (scaling up call centres and technicians after the installed base breaks) is how the industry got into the current crisis.
 
-The 12-year full replacement warranty is the other side of this commitment. A replacement warranty only makes sense if you have the logistics infrastructure to back it up. A repair warranty - which is what most brands offer - is a concession that the brand cannot reliably dispatch a replacement unit within a service-relevant timeframe.
+The 12-year full replacement warranty is the other side of this commitment. A replacement warranty only makes sense if you have the logistics infrastructure to back it up. A repair warranty (which is what most brands offer) is a concession that the brand cannot reliably dispatch a replacement unit within a service-relevant timeframe.
 
 When you are comparing brands for your next project or your next installation, look at three things: do they have a declared SLA in writing, do they have service infrastructure in your geography, and does their warranty promise replacement or repair. Those three questions separate brands that are serious about after-sales from brands that are hoping you will not have a problem.
 
-If you are an EPC installer who wants to understand how Qbits structures the service relationship before you commit to a channel, the right place to start is our [authorised service partners](/authorized-service-partners/) page - which lists our network coverage - or a direct conversation via [the contact page](/contact-us/) where I or a Qbits engineer will respond within one business day.
+If you are an EPC installer who wants to understand how Qbits structures the service relationship before you commit to a channel, the right place to start is our [authorised service partners](/authorized-service-partners/) page (which lists our network coverage) or a direct conversation via [the contact page](/contact-us/) where I or a Qbits engineer will respond within one business day.
 
-The solar industry in India has a window - perhaps 24–36 months before the PM Surya Ghar scale creates a service crisis visible enough to reach newspaper front pages. That window should be used to build infrastructure and mandate standards. The conversation starts now.
+The solar industry in India has a window, perhaps 24–36 months before the PM Surya Ghar scale creates a service crisis visible enough to reach newspaper front pages. That window should be used to build infrastructure and mandate standards. The conversation starts now.

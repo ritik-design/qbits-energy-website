@@ -36,7 +36,7 @@ Choosing between on-grid and hybrid solar inverters represents one of the most c
 
 ### Hybrid Inverters
 
-**Hybrid inverters** combine grid-tied functionality with integrated battery management. They can simultaneously manage solar input, battery charging/discharging, grid interaction, and load supply - switching modes based on programmed priorities.
+**Hybrid inverters** combine grid-tied functionality with integrated battery management. They can simultaneously manage solar input, battery charging/discharging, grid interaction, and load supply, switching modes based on programmed priorities.
 
 ### Architecture Differences
 
@@ -89,7 +89,7 @@ A typical 10 kWh lithium battery adds **₹1,20,000–₹1,80,000**.
 
 ### On-Grid System ROI
 
-A typical 5 kW residential on-grid system generating 20 units/day (7,300 units/year) at ₹7/unit saves **₹51,100 annually**. At a system cost of ₹2,75,000, the simple payback period is approximately **5.4 years**. Over 25 years, total savings exceed **₹12,75,000** - an ROI of over **360%**.
+A typical 5 kW residential on-grid system generating 20 units/day (7,300 units/year) at ₹7/unit saves **₹51,100 annually**. At a system cost of ₹2,75,000, the simple payback period is approximately **5.4 years**. Over 25 years, total savings exceed **₹12,75,000**: an ROI of over **360%**.
 
 ### Hybrid System ROI
 
@@ -115,7 +115,7 @@ Battery costs are expected to drop **30–40% by 2030**.
 
 ### On-Grid Limitations
 
-When the grid goes down, on-grid inverters immediately shut down due to **anti-islanding protection**. In regions with frequent power cuts, businesses often rely on diesel generators at **₹15–₹20 per unit generated** - spending **₹50,000–₹1,00,000 annually** on backup.
+When the grid goes down, on-grid inverters immediately shut down due to **anti-islanding protection**. In regions with frequent power cuts, businesses often rely on diesel generators at **₹15–₹20 per unit generated**: spending **₹50,000–₹1,00,000 annually** on backup.
 
 ### Hybrid Backup Capabilities
 
@@ -151,7 +151,7 @@ A household with 2 kW critical loads (refrigerator, fans, lights, internet) requ
 
 ### Self-Consumption Optimisation
 
-A commercial facility generating peak solar at midday but consuming peak in the evening can store the midday surplus and discharge during the evening - maximising self-consumption and minimising grid dependence.
+A commercial facility generating peak solar at midday but consuming peak in the evening can store the midday surplus and discharge during the evening, maximising self-consumption and minimising grid dependence.
 
 ## Ideal Use Cases: Residential
 
@@ -187,13 +187,13 @@ A commercial facility generating peak solar at midday but consuming peak in the 
 
 ### When Hybrid Wins
 
-- **Critical operations** - data centres, hospitals, cold storage
-- **Demand-charge optimisation** - peak shaving cuts demand charges 20–30%
+- **Critical operations**: data centres, hospitals, cold storage
+- **Demand-charge optimisation**: peak shaving cuts demand charges 20–30%
 - **Grid instability** with frequent outages
 - **24/7 operations**
 - **Diesel generator replacement**
 
-**Example:** 50 kW hybrid + 100 kWh storage for a hospital. ₹42,00,000 system eliminates diesel (~₹3,00,000/year) and cuts demand charges (~₹1,50,000/year) - combined savings of ₹4,50,000/year, payback under 10 years.
+**Example:** 50 kW hybrid + 100 kWh storage for a hospital. ₹42,00,000 system eliminates diesel (~₹3,00,000/year) and cuts demand charges (~₹1,50,000/year), combined savings of ₹4,50,000/year, payback under 10 years.
 
 ### Demand Charge Management
 
@@ -214,18 +214,18 @@ Over 25 years on a 5 kW system, a 1% efficiency difference equals **1,825 units 
 
 ### DC Oversizing
 
-Modern inverters supporting **up to 100% DC oversizing** let EPCs install up to 2× the inverter's rated AC capacity in panels - boosting annual generation by **10–15%**.
+Modern inverters supporting **up to 100% DC oversizing** let EPCs install up to 2× the inverter's rated AC capacity in panels, boosting annual generation by **10–15%**.
 
 ### Monitoring and Smart Features
 
 - Multi-channel connectivity (Wi-Fi, 4G, Bluetooth)
 - Real-time generation, historical trends, fault alerts
 - **AI-powered analysis** for predictive maintenance
-- **WhatsApp alerts** - near-universal adoption in India makes this the dominant business channel
+- **WhatsApp alerts**: near-universal adoption in India makes this the dominant business channel
 
 ### Weather Protection
 
-**IP66 weather protection** - complete dust ingress protection and protection against powerful water jets - is the gold standard for rooftop installations and critical for surviving Indian monsoons.
+**IP66 weather protection**: complete dust ingress protection and protection against powerful water jets, is the gold standard for rooftop installations and critical for surviving Indian monsoons.
 
 German-grade electronic components and integrated DC/AC SPDs prevent the kind of failures that lead to ₹50,000–₹1,50,000 mid-life replacements.
 
@@ -255,7 +255,7 @@ Build NPV and IRR models for both options including upfront costs, savings, main
 
 ### Step 6: Consider Future-Proofing
 
-Clients planning long-term ownership or concerned about grid instability often value hybrid flexibility - and many hybrid inverters allow battery addition later.
+Clients planning long-term ownership or concerned about grid instability often value hybrid flexibility, and many hybrid inverters allow battery addition later.
 
 ## Conclusion: Matching Technology to the Project
 

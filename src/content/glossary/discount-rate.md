@@ -134,7 +134,7 @@ For 100 MW solar plant:
 
 Avoid mixing: nominal cash flow with real rate produces incorrect results.
 
-For 10 percent nominal rate and 5 percent inflation: real rate = (1.10/1.05) - 1 = 4.76%.
+For 10 percent nominal rate and 5 percent inflation: real rate = (1.10/1.05), 1 = 4.76%.
 
 ### Discount factor table
 

@@ -1,6 +1,6 @@
 ---
-title: "The Real Unit Economics of an Indian Solar Installer - Founder POV"
-excerpt: "What does a solar EPC business actually earn per kW installed? Revenue, gross margin, customer acquisition cost, after-sales cost, and cash cycle - the numbers most installers do not talk about."
+title: "The Real Unit Economics of an Indian Solar Installer, Founder POV"
+excerpt: "What does a solar EPC business actually earn per kW installed? Revenue, gross margin, customer acquisition cost, after-sales cost, and cash cycle, the numbers most installers do not talk about."
 description: "Founder POV on solar EPC unit economics in India: revenue per kW, gross margin by system size, customer acquisition cost, installation cost structure, after-sales burden, and cash cycle. Real numbers for Indian installers."
 category: "Industry"
 date: 2026-06-05
@@ -28,15 +28,15 @@ faqs:
     a: "The volume-vs-margin question is a false choice for most solar installers at the scale relevant to this discussion (under 5 MW/year). Volume without margin destroys a business - a 10% gross margin business that doubles volume still has negative cash flow after overheads and working capital cost. The correct model is to target gross margins of 22–28%, build a service reputation that generates referrals (reducing CAC), and grow volume organically through referral rather than price competition. [CERC's grid connectivity regulations](https://cerc.gov.in/) also require compliance documentation that only trained installers can complete - another reason that quality cannot be compromised for volume. Installers who try to win volume through aggressive pricing typically reach a ceiling where their after-sales burden makes each new installation less profitable than the last."
 ---
 
-Most conversations about solar in India focus on the customer's perspective: bill reduction, subsidy, payback period. For EPC teams looking to understand the customer's financial framework during a commercial sale, the [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/) provides the financial model most C&I buyers use internally. Industry data on solar EPC market growth is tracked by [MNRE's annual report](https://mnre.gov.in/) and [IEEFA India](https://ieefa.org/) - both useful sources for market context in sales conversations. This post is about the installer's perspective - specifically, the unit economics of running a solar EPC business in India.
+Most conversations about solar in India focus on the customer's perspective: bill reduction, subsidy, payback period. For EPC teams looking to understand the customer's financial framework during a commercial sale, the [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/) provides the financial model most C&I buyers use internally. Industry data on solar EPC market growth is tracked by [MNRE's annual report](https://mnre.gov.in/) and [IEEFA India](https://ieefa.org/), both useful sources for market context in sales conversations. This post is about the installer's perspective, specifically, the unit economics of running a solar EPC business in India.
 
 I am writing this because I spend time with EPC partners across India, and I hear the same questions repeatedly: "What should my margin be?", "How do I think about customer acquisition cost?", "Why am I not making money despite installing 10 systems a month?". The answers are rarely comfortable, but they are knowable.
 
-These are not benchmark numbers from a consulting report - they are derived from real conversations with operational solar installers in India. The ranges are honest and the uncomfortable parts are included.
+These are not benchmark numbers from a consulting report, they are derived from real conversations with operational solar installers in India. The ranges are honest and the uncomfortable parts are included.
 
 > **The direct version.** A well-run residential solar EPC business in India should target 22–28% gross margin. After customer acquisition cost (₹12,000–₹20,000/installation), after-sales provision (5–7% of revenue), and overhead, net operating margin is typically 8–14%. Cash is tight because the PM Surya Ghar subsidy cycle adds 60–90 days of receivables. The installers who survive long-term are the ones who understand these numbers before they become a problem.
 
-## Revenue Structure - What Installers Actually Charge
+## Revenue Structure: What Installers Actually Charge
 
 For a 3 kW residential system in 2025–26, the market-clearing price in most Indian cities is ₹1.3–1.7 lakh (after subsidy adjustment). Before subsidy, the gross system price is approximately ₹2.0–2.4 lakh.
 
@@ -53,11 +53,11 @@ For a 3 kW residential system in 2025–26, the market-clearing price in most In
 | **Quoted project revenue** | **₹1,60,000–₹2,00,000** | **₹2,50,000–₹3,00,000** | **₹9,00,000–₹11,00,000** |
 | **Gross margin (project level)** | **22–26%** | **21–25%** | **23–29%** |
 
-These are loaded costs - including the installer's project management time, vehicle cost for site visit, and a provision for warranty work. Installers who show 30–35% margin by excluding these hidden costs are mis-measuring their profitability.
+These are loaded costs, including the installer's project management time, vehicle cost for site visit, and a provision for warranty work. Installers who show 30–35% margin by excluding these hidden costs are mis-measuring their profitability.
 
 ## The Cost of Customer Acquisition
 
-Customer acquisition cost (CAC) is the most underestimated line item in solar EPC unit economics. Many installers think they have a 25% gross margin business and cannot understand why they are not profitable - then discover their CAC is consuming 15–20% of project revenue.
+Customer acquisition cost (CAC) is the most underestimated line item in solar EPC unit economics. Many installers think they have a 25% gross margin business and cannot understand why they are not profitable, then discover their CAC is consuming 15–20% of project revenue.
 
 **CAC by channel (residential solar, India):**
 
@@ -72,7 +72,7 @@ Customer acquisition cost (CAC) is the most underestimated line item in solar EP
 
 **Blended CAC target:** For a residential-focused installer, blended CAC should not exceed ₹15,000–₹20,000 per installation. Above ₹20,000, CAC alone consumes 10–13% of a 3 kW project's revenue, making the business mathematically difficult to sustain with a proper service team.
 
-The most profitable acquisition channel is referrals from satisfied existing customers. Installers who invest in after-sales service quality find that referral rates improve over time, driving CAC down. This is a flywheel that takes 2–3 years to build - which is why installers who cut after-sales service to save money in year 1 end up with declining referral rates and rising CAC in year 3.
+The most profitable acquisition channel is referrals from satisfied existing customers. Installers who invest in after-sales service quality find that referral rates improve over time, driving CAC down. This is a flywheel that takes 2–3 years to build, which is why installers who cut after-sales service to save money in year 1 end up with declining referral rates and rising CAC in year 3.
 
 ## The After-Sales Cost Trap
 
@@ -93,7 +93,7 @@ For a 3 kW system at ₹1.8 lakh project revenue, ₹5,000–₹12,000 in after-
 
 The correct approach: **build 5–7% of project revenue as an after-sales provision into your margin model.** If after-sales cost turns out to be lower (because the inverter brand has good remote diagnostics and your installation quality is high), that 5–7% drops to net margin. If after-sales is higher, you are covered.
 
-Installers who use inverter brands with strong remote diagnostic capability - where faults can be diagnosed via the monitoring app rather than a site visit - systematically have lower after-sales cost. This is one of the real reasons inverter brand quality matters to EPC profitability, beyond just the product margin.
+Installers who use inverter brands with strong remote diagnostic capability (where faults can be diagnosed via the monitoring app rather than a site visit) systematically have lower after-sales cost. This is one of the real reasons inverter brand quality matters to EPC profitability, beyond just the product margin.
 
 ## The PM Surya Ghar Cash Cycle Problem
 
@@ -109,11 +109,11 @@ Here is how the cash cycle works for a compliant installer:
 
 **Cash gap period: 60–100 days, ₹78,000 per installation.**
 
-For an installer doing 10 installations per month, this is ₹7.8 lakh in outstanding subsidy receivables at any point - money they have spent but not yet collected. This requires working capital: either from the installer's own reserves or from short-term borrowing at 12–18% annual interest.
+For an installer doing 10 installations per month, this is ₹7.8 lakh in outstanding subsidy receivables at any point, money they have spent but not yet collected. This requires working capital: either from the installer's own reserves or from short-term borrowing at 12–18% annual interest.
 
-The working capital cost of the subsidy receivables cycle adds approximately 2–3% to the effective cost of each PM Surya Ghar installation. Installers who do not account for this discover that their PM Surya Ghar margin is lower than their non-subsidy margin - which is counterintuitive but financially accurate.
+The working capital cost of the subsidy receivables cycle adds approximately 2–3% to the effective cost of each PM Surya Ghar installation. Installers who do not account for this discover that their PM Surya Ghar margin is lower than their non-subsidy margin, which is counterintuitive but financially accurate.
 
-**Practical implication:** Solar installers who want to scale under PM Surya Ghar need a working capital line - either from a bank, from their distributor's extended credit terms, or from a partner NBFC. Scaling without this will create cash crunches at predictable intervals. The [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) includes the expected disbursement timeline that EPC businesses can use to model their working capital requirements. For a step-by-step walkthrough of the portal submission, see the [PM Surya Ghar application guide](/blog/pm-surya-ghar-apply-online/).
+**Practical implication:** Solar installers who want to scale under PM Surya Ghar need a working capital line, either from a bank, from their distributor's extended credit terms, or from a partner NBFC. Scaling without this will create cash crunches at predictable intervals. The [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) includes the expected disbursement timeline that EPC businesses can use to model their working capital requirements. For a step-by-step walkthrough of the portal submission, see the [PM Surya Ghar application guide](/blog/pm-surya-ghar-apply-online/).
 
 ## What Net Margin Actually Looks Like
 
@@ -133,7 +133,7 @@ Taking the numbers together for a 3 kW residential system at ₹1.8 lakh project
 | Overhead allocation per project (staff, office, vehicles) | ₹10,000–₹15,000 | 6–8% |
 | **Net operating margin per installation** | **₹9,200–₹14,200** | **5–8%** |
 
-A 5–8% net operating margin on ₹1.8 lakh is ₹9,000–₹14,000 per installation. For an installer doing 8 residential installations per month, this is ₹72,000–₹1,12,000/month of net operating income - which is a viable but not comfortable business.
+A 5–8% net operating margin on ₹1.8 lakh is ₹9,000–₹14,000 per installation. For an installer doing 8 residential installations per month, this is ₹72,000–₹1,12,000/month of net operating income, which is a viable but not comfortable business.
 
 The installers who build to 20–30 installations per month with a strong referral engine and low CAC, using high-quality inverters that reduce after-sales cost, move their net margin to 8–12% and build a genuinely profitable business.
 
@@ -157,19 +157,19 @@ One 30 kW commercial installation generates the net operating income of approxim
 
 ## What This Means for How Installers Should Choose Their Inverter Brand
 
-The inverter brand decision is not just a product quality decision - it directly affects unit economics:
+The inverter brand decision is not just a product quality decision, it directly affects unit economics:
 
-**Remote diagnostics reduce after-sales cost.** An inverter brand with strong cloud monitoring and remote fault diagnosis means fewer site visits for common faults - for what good monitoring looks like in practice, see the [solar monitoring app guide](/blog/how-to-read-solar-monitoring-app-india/). If remote support resolves 60% of customer calls without a technician visit, the after-sales cost drops from 6% of revenue to 3–4%.
+**Remote diagnostics reduce after-sales cost.** An inverter brand with strong cloud monitoring and remote fault diagnosis means fewer site visits for common faults, for what good monitoring looks like in practice, see the [solar monitoring app guide](/blog/how-to-read-solar-monitoring-app-india/). If remote support resolves 60% of customer calls without a technician visit, the after-sales cost drops from 6% of revenue to 3–4%.
 
-**Warranty replacement process affects cash.** When an inverter fails under warranty, the installer typically replaces it from their own stock and waits for the replacement unit from the manufacturer. If the replacement cycle is 30 days, the installer is carrying ₹40,000–₹80,000 of additional inventory per failure. Manufacturers with fast RMA (return merchandise authorisation) processes - replacement within 5–7 days - reduce this inventory burden.
+**Warranty replacement process affects cash.** When an inverter fails under warranty, the installer typically replaces it from their own stock and waits for the replacement unit from the manufacturer. If the replacement cycle is 30 days, the installer is carrying ₹40,000–₹80,000 of additional inventory per failure. Manufacturers with fast RMA (return merchandise authorisation) processes (replacement within 5–7 days) reduce this inventory burden.
 
 **Brand margin varies.** Premium inverter brands that support structured distributor margins allow installers to earn 12–18% margin on equipment versus 6–10% on commoditised equipment. A ₹70,000 inverter at 15% margin contributes ₹10,500 to gross profit; a ₹60,000 inverter at 7% margin contributes ₹4,200. The premium product with better margin can be better for the installer's P&L even at higher equipment cost.
 
-**ALMM listing is non-negotiable for PM Surya Ghar.** [MNRE's ALMM list](https://mnre.gov.in/) is updated quarterly. Installers who use non-ALMM-listed equipment for PM Surya Ghar installations face subsidy rejection. Each rejected claim is a ₹78,000 receivable that does not arrive - and a customer who is rightfully upset. ALMM listing must be verified before procurement, not discovered at claim submission. The [MNRE ALMM list](https://mnre.gov.in/) is updated quarterly - check the current version before specifying equipment for a PM Surya Ghar project.
+**ALMM listing is non-negotiable for PM Surya Ghar.** [MNRE's ALMM list](https://mnre.gov.in/) is updated quarterly. Installers who use non-ALMM-listed equipment for PM Surya Ghar installations face subsidy rejection. Each rejected claim is a ₹78,000 receivable that does not arrive, and a customer who is rightfully upset. ALMM listing must be verified before procurement, not discovered at claim submission. The [MNRE ALMM list](https://mnre.gov.in/) is updated quarterly, check the current version before specifying equipment for a PM Surya Ghar project.
 
 ## The Honest Summary
 
-Running a solar EPC business in India is viable but not easy. [MNRE's annual installation reports](https://mnre.gov.in/) show rooftop solar additions accelerating - the market is growing, and well-positioned EPC businesses will grow with it. The gross margins are real - 22–28% at project level is achievable. The challenges are in the layers below gross margin: customer acquisition cost, after-sales burden, and working capital tied up in subsidy receivables.
+Running a solar EPC business in India is viable but not easy. [MNRE's annual installation reports](https://mnre.gov.in/) show rooftop solar additions accelerating, the market is growing, and well-positioned EPC businesses will grow with it. The gross margins are real, 22–28% at project level is achievable. The challenges are in the layers below gross margin: customer acquisition cost, after-sales burden, and working capital tied up in subsidy receivables.
 
 The installers who build durable businesses share three characteristics:
 
@@ -177,8 +177,8 @@ The installers who build durable businesses share three characteristics:
 
 2. **They invest in after-sales quality.** Because referrals are the cheapest acquisition channel, and referrals come from satisfied customers, and satisfied customers require good after-sales.
 
-3. **They choose inverter brands that reduce their operational cost.** Remote diagnostics, fast RMA, and ALMM compliance are not premium features - they are cost-reduction tools.
+3. **They choose inverter brands that reduce their operational cost.** Remote diagnostics, fast RMA, and ALMM compliance are not premium features, they are cost-reduction tools.
 
-Qbits' distributor and EPC partner program is built around this reality - supporting partners with the remote diagnostic tools, RMA process, and margin structure that makes the unit economics work. If you are an EPC installer or distributor interested in what this partnership looks like in practice, [talk to our commercial team](/contact-us/) or review the [authorised service partner network](/authorized-service-partners/).
+Qbits' distributor and EPC partner program is built around this reality, supporting partners with the remote diagnostic tools, RMA process, and margin structure that makes the unit economics work. If you are an EPC installer or distributor interested in what this partnership looks like in practice, [talk to our commercial team](/contact-us/) or review the [authorised service partner network](/authorized-service-partners/).
 
 For technical references, the [solar EPC bid evaluation guide](/blog/how-to-evaluate-solar-epc-bids/) and [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/) cover the customer-facing financial frameworks that EPC teams use to close commercial deals.

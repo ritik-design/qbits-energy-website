@@ -1,7 +1,7 @@
 ---
 title: "Indian vs International Solar Inverters: Complete Comparison"
 excerpt: "Indian inverters now match international brands on quality while offering 15–30% lower prices and India-specific engineering. Here's the side-by-side comparison."
-description: "Detailed comparison of Indian and international solar inverter brands - performance, component quality, pricing, warranty, support networks, and decision framework for choosing the right manufacturer."
+description: "Detailed comparison of Indian and international solar inverter brands, performance, component quality, pricing, warranty, support networks, and decision framework for choosing the right manufacturer."
 category: "Buying Guide"
 date: 2026-03-20
 readTime: "8 min"
@@ -112,4 +112,4 @@ Leading Indian manufacturers use the same global component suppliers as internat
 
 ## Closing
 
-The Indian inverter market has crossed an important threshold - domestic manufacturers now match international peers on engineering while offering price, service, and India-specific advantages. For most Indian installations, the rational choice has shifted toward domestic manufacturers - international brands remain relevant for specific use cases where their advantages outweigh the cost premium.
+The Indian inverter market has crossed an important threshold, domestic manufacturers now match international peers on engineering while offering price, service, and India-specific advantages. For most Indian installations, the rational choice has shifted toward domestic manufacturers, international brands remain relevant for specific use cases where their advantages outweigh the cost premium.

@@ -128,7 +128,7 @@ Across Indian summer (≈800 hours at cell temp > 60°C):
 NOCT (Nominal Operating Cell Temperature) is the cell temperature at 800 W/m², 20°C ambient, 1 m/s wind.
 
 Cell temperature approximation:
-T_cell = T_ambient + (NOCT - 20) × (Irradiance / 800)
+T_cell = T_ambient + (NOCT, 20) × (Irradiance / 800)
 
 For NOCT = 45°C and Indian summer ambient 40°C with 1,000 W/m²:
 T_cell = 40 + (25) × (1000/800) = 40 + 31 = 71°C

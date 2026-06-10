@@ -1,5 +1,5 @@
 ---
-title: "Solar Irradiance Data India - State-Wise Peak Sun Hours"
+title: "Solar Irradiance Data India, State-Wise Peak Sun Hours"
 excerpt: "India solar irradiance data by state: Rajasthan leads with 6.5 kWh/m²/day GHI. Complete state-wise GHI, DHI, DNI, peak sun hours table and the Solar Irradiance Tier Classification for system sizing."
 description: "Complete India solar irradiance data by state. State-wise GHI, DHI, DNI, and peak sun hours table sourced from NREL NSRDB and IRENA. Seasonal variation, system sizing implications, and tier classification."
 category: Industry
@@ -32,7 +32,7 @@ faqs:
     a: "The most comprehensive official source for India solar irradiance data is the NREL National Solar Radiation Database (NSRDB), which provides hourly irradiance data for all Indian locations from 1998 to present. NREL's PVWATTS calculator uses this data for system yield estimation. The India Meteorological Department (IMD) publishes solar radiation atlases periodically. IRENA's Global Solar Atlas also provides downloadable state and city-level GHI data. For system design, most professional EPC companies use PVGIS (European Commission tool) or PVsyst software, both of which incorporate NSRDB or equivalent data."
 ---
 
-Solar irradiance - the amount of solar radiation reaching a surface per unit area - is the single most important geographic variable in solar system design. A system in Rajasthan generates 35–45% more electricity per installed kilowatt than an identical system in Kerala, purely because of the difference in annual solar irradiance. Understanding where your state sits in India's irradiance landscape helps you size the right system, set realistic yield expectations, and compare installer quotes intelligently.
+Solar irradiance (the amount of solar radiation reaching a surface per unit area) is the single most important geographic variable in solar system design. A system in Rajasthan generates 35–45% more electricity per installed kilowatt than an identical system in Kerala, purely because of the difference in annual solar irradiance. Understanding where your state sits in India's irradiance landscape helps you size the right system, set realistic yield expectations, and compare installer quotes intelligently.
 
 > **India's annual solar irradiance (GHI) ranges from approximately 3.8 kWh/m²/day in the northeastern hill states to 6.5 kWh/m²/day in western Rajasthan.** The Solar Irradiance Tier Classification divides India's states into four tiers for system sizing and payback estimation purposes. Peak sun hours data from the NREL NSRDB and IRENA Global Solar Atlas is the reference standard for professional PV system design in India.
 
@@ -46,7 +46,7 @@ Before reading the state-wise data, it is important to understand what the three
 
 **DNI (Direct Normal Irradiance)** is the irradiance in the direct solar beam, measured on a surface always perpendicular to the sun. It is the relevant metric for concentrating solar power (CSP) systems and solar thermal. For standard flat-panel residential rooftop PV, DNI is less directly relevant, though it contributes to GHI. Rajasthan has India's highest DNI and is therefore the focus of both utility PV and CSP development.
 
-**DHI (Diffuse Horizontal Irradiance)** is the scattered radiation from the sky dome - what you receive on a cloudy day when no direct beam is visible. DHI is the sole source of irradiance during overcast conditions and contributes to output even during partially cloudy periods. For cloudy regions (Kerala, Northeast India), DHI as a proportion of GHI is higher than in clear desert climates.
+**DHI (Diffuse Horizontal Irradiance)** is the scattered radiation from the sky dome, what you receive on a cloudy day when no direct beam is visible. DHI is the sole source of irradiance during overcast conditions and contributes to output even during partially cloudy periods. For cloudy regions (Kerala, Northeast India), DHI as a proportion of GHI is higher than in clear desert climates.
 
 | Metric | What It Measures | Most Relevant For |
 | --- | --- | --- |
@@ -94,15 +94,15 @@ The four-tier classification organises India's geography into decision-relevant 
 
 ### The Solar Irradiance Tier Classification
 
-1. **Tier 1 - Premium Solar Zone (GHI > 5.5 kWh/m²/day):** Rajasthan, Gujarat, western MP, parts of Andhra Pradesh and Jammu plains. Systems in this tier generate approximately 1,800–2,100 kWh per kWp per year. Payback periods for residential systems: 4–6 years at ₹7/unit tariff. Highest return on solar investment in India. Utility solar economic advantage over grid is strongest here.
+1. **Tier 1, Premium Solar Zone (GHI > 5.5 kWh/m²/day):** Rajasthan, Gujarat, western MP, parts of Andhra Pradesh and Jammu plains. Systems in this tier generate approximately 1,800–2,100 kWh per kWp per year. Payback periods for residential systems: 4–6 years at ₹7/unit tariff. Highest return on solar investment in India. Utility solar economic advantage over grid is strongest here.
 
-2. **Tier 2 - Good Solar Zone (GHI 5.0–5.5 kWh/m²/day):** Delhi, Haryana, Punjab, Karnataka, Tamil Nadu, Telangana, central Maharashtra. Systems generate approximately 1,600–1,850 kWh per kWp per year. Payback periods: 5–7 years. Excellent investment case - these are India's most densely populated urban markets, and solar economics are clear.
+2. **Tier 2, Good Solar Zone (GHI 5.0–5.5 kWh/m²/day):** Delhi, Haryana, Punjab, Karnataka, Tamil Nadu, Telangana, central Maharashtra. Systems generate approximately 1,600–1,850 kWh per kWp per year. Payback periods: 5–7 years. Excellent investment case, these are India's most densely populated urban markets, and solar economics are clear.
 
-3. **Tier 3 - Moderate Solar Zone (GHI 4.5–5.0 kWh/m²/day):** UP, Bihar, Odisha, Jharkhand, West Bengal, coastal Maharashtra, Goa. Systems generate approximately 1,400–1,650 kWh per kWp per year. Payback periods: 6–8 years. Solar is economic but requires careful sizing; do not oversize expecting summer yields to compensate for monsoon and winter losses.
+3. **Tier 3, Moderate Solar Zone (GHI 4.5–5.0 kWh/m²/day):** UP, Bihar, Odisha, Jharkhand, West Bengal, coastal Maharashtra, Goa. Systems generate approximately 1,400–1,650 kWh per kWp per year. Payback periods: 6–8 years. Solar is economic but requires careful sizing; do not oversize expecting summer yields to compensate for monsoon and winter losses.
 
-4. **Tier 4 - Challenging Solar Zone (GHI < 4.5 kWh/m²/day):** Kerala, Assam, most northeastern states, hill districts of Himachal and Uttarakhand. Systems generate approximately 1,200–1,450 kWh per kWp per year. Payback periods: 8–12 years at standard tariffs. Solar remains economic in most of these zones given India's generally rising electricity tariffs but requires larger systems for the same output and careful PVGIS modelling.
+4. **Tier 4, Challenging Solar Zone (GHI < 4.5 kWh/m²/day):** Kerala, Assam, most northeastern states, hill districts of Himachal and Uttarakhand. Systems generate approximately 1,200–1,450 kWh per kWp per year. Payback periods: 8–12 years at standard tariffs. Solar remains economic in most of these zones given India's generally rising electricity tariffs but requires larger systems for the same output and careful PVGIS modelling.
 
-> **6.5 kWh/m²/day.** Peak annual average GHI in western Rajasthan (Barmer, Jaisalmer districts) - among the highest in Asia and comparable with the best solar resources in the American Southwest. *Source - [NREL NSRDB India Dataset](https://nsrdb.nrel.gov/), 2024.*
+> **6.5 kWh/m²/day.** Peak annual average GHI in western Rajasthan (Barmer, Jaisalmer districts), among the highest in Asia and comparable with the best solar resources in the American Southwest. *Source - [NREL NSRDB India Dataset](https://nsrdb.nrel.gov/), 2024.*
 
 ## Seasonal Variation in Solar Irradiance by Region
 
@@ -119,7 +119,7 @@ The annual average GHI figures above mask significant seasonal variation that af
 
 The highest seasonal swing is observed in North India (UP, Bihar, Delhi, Punjab), where the combination of peak summer irradiance and deep winter (fog-affected) generation creates a ratio of nearly 2:1 between best and worst months. This seasonality has direct implications for system sizing, net metering credit banking strategy, and battery sizing for hybrid systems.
 
-Note that Tamil Nadu experiences a different monsoon pattern: the southwest monsoon (July–September) reduces irradiance on the west coast and Karnataka, while Tamil Nadu receives its primary rainfall from the northeast monsoon (October–December). This means Tamil Nadu's worst irradiance months are October–December rather than July–September - an important consideration for installers quoting monthly generation figures.
+Note that Tamil Nadu experiences a different monsoon pattern: the southwest monsoon (July–September) reduces irradiance on the west coast and Karnataka, while Tamil Nadu receives its primary rainfall from the northeast monsoon (October–December). This means Tamil Nadu's worst irradiance months are October–December rather than July–September, an important consideration for installers quoting monthly generation figures.
 
 ## How Irradiance Affects System Sizing in Practice
 
@@ -163,21 +163,21 @@ Based on the irradiance tier classification and additional economic factors (tar
 
 Professional EPC firms and sophisticated homeowners avoid these common errors when using irradiance data for system design.
 
-- **Using national average when city-specific data is available** - "India averages 5.5 peak sun hours" is irrelevant if you are in Shillong (3.8) or Barmer (6.5). Always use city-specific NSRDB data.
+- **Using national average when city-specific data is available**: "India averages 5.5 peak sun hours" is irrelevant if you are in Shillong (3.8) or Barmer (6.5). Always use city-specific NSRDB data.
 
-- **Using summer-only irradiance in annual sizing** - some installer quotes reference peak summer irradiance to make the system seem more productive. Annual average GHI, not seasonal peak, is the correct basis for annual yield and payback calculations. See [how to read solar inverter datasheets](/blog/how-to-read-solar-inverter-datasheets/) for guidance on verifying the irradiance assumptions in a performance estimate.
+- **Using summer-only irradiance in annual sizing**: some installer quotes reference peak summer irradiance to make the system seem more productive. Annual average GHI, not seasonal peak, is the correct basis for annual yield and payback calculations. See [how to read solar inverter datasheets](/blog/how-to-read-solar-inverter-datasheets/) for guidance on verifying the irradiance assumptions in a performance estimate.
 
-- **Not accounting for system losses** - the raw GHI figure must be adjusted downward by system performance ratio (PR) - typically 75–85% for well-installed Indian residential systems - to arrive at actual kWh delivered. A 5 kW system in Delhi at GHI 5.1 does not generate 5 × 5.1 × 365 = 9,308 kWh/year; at PR 0.80, it generates approximately 7,446 kWh/year.
+- **Not accounting for system losses**: the raw GHI figure must be adjusted downward by system performance ratio (PR) (typically 75–85% for well-installed Indian residential systems) to arrive at actual kWh delivered. A 5 kW system in Delhi at GHI 5.1 does not generate 5 × 5.1 × 365 = 9,308 kWh/year; at PR 0.80, it generates approximately 7,446 kWh/year.
 
-- **Comparing quotes across different cities without irradiance correction** - a neighbouring state quote with a larger system but different irradiance may not translate to better yield at your location.
+- **Comparing quotes across different cities without irradiance correction**: a neighbouring state quote with a larger system but different irradiance may not translate to better yield at your location.
 
 ## Where Qbits Fits
 
-India's solar irradiance diversity means that inverter specifications must adapt to the local environment. A rooftop in Rajasthan needs an inverter that can handle 7.5 peak sun hours at 45 °C ambient without [thermal derating](/blog/solar-inverter-summer-derating-india/), while a rooftop in Kerala needs an inverter that performs efficiently at low irradiance - capturing diffuse light on cloudy monsoon days. Qbits inverters are designed specifically for Indian conditions across both extremes: the IP66 thermal design handles desert heat, and the high MPPT tracking accuracy captures diffuse irradiance effectively in lower-irradiance zones.
+India's solar irradiance diversity means that inverter specifications must adapt to the local environment. A rooftop in Rajasthan needs an inverter that can handle 7.5 peak sun hours at 45 °C ambient without [thermal derating](/blog/solar-inverter-summer-derating-india/), while a rooftop in Kerala needs an inverter that performs efficiently at low irradiance, capturing diffuse light on cloudy monsoon days. Qbits inverters are designed specifically for Indian conditions across both extremes: the IP66 thermal design handles desert heat, and the high MPPT tracking accuracy captures diffuse irradiance effectively in lower-irradiance zones.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - TLS and TLD series with wide MPPT voltage ranges suited for high-irradiance string configurations in Rajasthan/Gujarat and lower-irradiance configurations in Tier 3/4 zones.
-- **[String Sizing Calculator](/string-sizing-calculator/)** - enter your city's GHI data to verify string voltage stays within safe limits across summer and winter temperature extremes.
-- **[Download Datasheets](/download-datasheets/)** - verify the inverter's low-irradiance startup threshold - important for foggy North India winters and Kerala monsoon conditions.
-- **[Contact Qbits](/contact-us/)** - for EPC firms designing systems in challenging irradiance zones (Tier 3/4), our engineering team can provide location-specific system design support.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series with wide MPPT voltage ranges suited for high-irradiance string configurations in Rajasthan/Gujarat and lower-irradiance configurations in Tier 3/4 zones.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: enter your city's GHI data to verify string voltage stays within safe limits across summer and winter temperature extremes.
+- **[Download Datasheets](/download-datasheets/)**: verify the inverter's low-irradiance startup threshold, important for foggy North India winters and Kerala monsoon conditions.
+- **[Contact Qbits](/contact-us/)**: for EPC firms designing systems in challenging irradiance zones (Tier 3/4), our engineering team can provide location-specific system design support.
 
 The state-wise irradiance data in this reference is updated with the most current NREL NSRDB dataset. For site-specific modelling with hourly irradiance profiles, the [NREL PVWATTS calculator](https://pvwatts.nrel.gov/) provides free, precise yield estimates for any Indian address.

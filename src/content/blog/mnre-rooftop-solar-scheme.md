@@ -1,5 +1,5 @@
 ---
-title: "MNRE Rooftop Solar Scheme - Complete 2026 Guide"
+title: "MNRE Rooftop Solar Scheme, Complete 2026 Guide"
 excerpt: "The MNRE rooftop solar scheme covers PM Surya Ghar subsidies, ALMM compliance, and empanelled vendor rules. Complete 2026 guide for homeowners and installers."
 category: "Policy"
 date: 2026-06-05
@@ -31,15 +31,15 @@ faqs:
     a: "The official target from MNRE is 30 days from completed installation to subsidy disbursal. Real-world average across Indian states in 2026 is 45 to 90 days. The key bottleneck is the net metering activation and DISCOM physical inspection, which varies widely by state. Maharashtra and Gujarat tend to be faster (30 to 50 days total). UP, Bihar, and parts of MP average 70 to 90 days. After inspection, subsidy bank transfer typically takes 20 to 30 additional days."
 ---
 
-The Ministry of New and Renewable Energy (MNRE) runs the largest residential solar programme in India's history - PM Surya Ghar Muft Bijli Yojana - but most homeowners encounter the scheme through fragments: a WhatsApp message about subsidy, a vendor's quote mentioning empanelled status, or a portal rejection they do not understand. This guide covers the entire MNRE rooftop solar scheme from policy architecture to application process, so you understand exactly how the system works before you invest.
+The Ministry of New and Renewable Energy (MNRE) runs the largest residential solar programme in India's history (PM Surya Ghar Muft Bijli Yojana) but most homeowners encounter the scheme through fragments: a WhatsApp message about subsidy, a vendor's quote mentioning empanelled status, or a portal rejection they do not understand. This guide covers the entire MNRE rooftop solar scheme from policy architecture to application process, so you understand exactly how the system works before you invest.
 
 > **Direct answer.** The MNRE rooftop solar scheme provides subsidies of up to ₹78,000 for 3 kW residential rooftop systems. It requires ALMM-listed components, installation by empanelled vendors registered on pmsuryaghar.gov.in, and Aadhaar-verified bank account for direct benefit transfer. The scheme targets 10 million Indian households and is India's primary vehicle for residential solar expansion through 2027.
 
-India's total installed rooftop solar capacity crossed 18 GW by early 2026, according to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}, with residential installations growing at over 40% annually - driven almost entirely by the PM Surya Ghar scheme. The [ALMM list](/glossary/almm-list/) and empanelled vendor framework are the quality guardrails that make this possible at scale.
+India's total installed rooftop solar capacity crossed 18 GW by early 2026, according to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}, with residential installations growing at over 40% annually, driven almost entirely by the PM Surya Ghar scheme. The [ALMM list](/glossary/almm-list/) and empanelled vendor framework are the quality guardrails that make this possible at scale.
 
-## MNRE's Policy Architecture - How the Scheme Is Structured
+## MNRE's Policy Architecture: How the Scheme Is Structured
 
-Understanding the scheme's structure explains why certain rules exist and how the pieces fit together. The PM Surya Ghar programme is not a simple voucher system - it is a layered DBT (Direct Benefit Transfer) programme with multiple verification gates.
+Understanding the scheme's structure explains why certain rules exist and how the pieces fit together. The PM Surya Ghar programme is not a simple voucher system, it is a layered DBT (Direct Benefit Transfer) programme with multiple verification gates.
 
 | Layer | Entity | Role |
 | --- | --- | --- |
@@ -52,9 +52,9 @@ Understanding the scheme's structure explains why certain rules exist and how th
 
 This structure means delays can originate at any layer. A well-prepared application still depends on DISCOM speed and PFMS processing. The [PM Surya Ghar status check guide](/blog/pm-surya-ghar-status-check/) explains what each delay stage looks like and how to respond.
 
-## Subsidy Structure - Exact Amounts by System Size
+## Subsidy Structure: Exact Amounts by System Size
 
-The central subsidy calculation was revised in 2024 and applies uniformly across all states under the PM Surya Ghar scheme. State top-up amounts vary - see individual state guides for combined figures.
+The central subsidy calculation was revised in 2024 and applies uniformly across all states under the PM Surya Ghar scheme. State top-up amounts vary, see individual state guides for combined figures.
 
 | System Size | Central Subsidy Rate | Central Subsidy Amount | Approx. Net Cost After Central Subsidy |
 | --- | --- | --- | --- |
@@ -63,13 +63,13 @@ The central subsidy calculation was revised in 2024 and applies uniformly across
 | 3 kW | ₹30,000 (first 2kW) + ₹18,000 (third kW) | ₹78,000 | ₹1,10,000–₹1,40,000 |
 | Above 3 kW | Capped at 3 kW rate | ₹78,000 | Higher by additional kW cost |
 
-> **10 million households.** The target set by MNRE for PM Surya Ghar registrations by 2027, representing approximately ₹75,000 crore in total central subsidy commitment - the largest single residential energy programme in Indian history. *Source - [MNRE](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **10 million households.** The target set by MNRE for PM Surya Ghar registrations by 2027, representing approximately ₹75,000 crore in total central subsidy commitment, the largest single residential energy programme in Indian history. *Source - [MNRE](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2026.*
 
 The net metering benefit complements the subsidy. Once activated, excess solar power you export to the grid earns a credit at your DISCOM's buy-back rate, reducing your electricity bill further. For states with higher buy-back rates (Maharashtra at ₹3.66/unit; Karnataka at ₹3.56/unit), this additional benefit meaningfully shortens payback, as documented by [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"} in their state net metering tracker. See the [net metering guide](/blog/net-metering-india-complete-guide/) for state-by-state rates.
 
-## ALMM Compliance - The Quality Gatekeeper
+## ALMM Compliance: The Quality Gatekeeper
 
-The ALMM (Approved List of Models and Manufacturers) is MNRE's primary quality control mechanism for the rooftop solar scheme. It contains lists of solar panels and inverters that have been tested and certified to meet Indian standards - specifically BIS certification (IS 16221 for inverters; IS 14286 for panels) and relevant IEC standards.
+The ALMM (Approved List of Models and Manufacturers) is MNRE's primary quality control mechanism for the rooftop solar scheme. It contains lists of solar panels and inverters that have been tested and certified to meet Indian standards, specifically BIS certification (IS 16221 for inverters; IS 14286 for panels) and relevant IEC standards.
 
 ### Why ALMM exists
 
@@ -79,13 +79,13 @@ Before the ALMM framework, the Indian rooftop solar market had significant quali
 
 - **Only ALMM-listed inverters and panels can be used in PM Surya Ghar-subsidised installations**
 - The ALMM list is available publicly at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}
-- The list is updated quarterly - a component that was listed six months ago may have been de-listed if the manufacturer failed re-certification
+- The list is updated quarterly, a component that was listed six months ago may have been de-listed if the manufacturer failed re-certification
 - Buyers should verify the specific model number (not just brand) against the current list before signing a vendor agreement
 - Non-ALMM components fail DISCOM inspection, and the subsidy is withheld until the component is replaced
 
 The [solar inverter certifications guide](/blog/solar-inverter-certifications/) covers the certification standards (BIS, IEC, ALMM) in detail and explains how to verify compliance yourself.
 
-## The Empanelled Vendor System - How It Works
+## The Empanelled Vendor System: How It Works
 
 Empanelled vendors are MNRE-registered installation companies that have signed up on the PM Surya Ghar portal and committed to the scheme's quality and pricing framework. The empanelment process requires:
 
@@ -98,10 +98,10 @@ Empanelled vendors are MNRE-registered installation companies that have signed u
 ### Why vendor empanelment matters to you
 
 Your choice of empanelled vendor affects:
-1. **Subsidy eligibility** - Only empanelled vendors can submit completion reports that trigger subsidy disbursal
-2. **ALMM compliance** - Reputable empanelled vendors stock ALMM-listed components as standard
-3. **Service accountability** - Empanelled vendors are traceable through the portal; non-empanelled ones are not
-4. **Post-installation support** - The vendor's upload of your completion report is the trigger for your subsidy - vendors who disappear after installation leave you stranded
+1. **Subsidy eligibility**: Only empanelled vendors can submit completion reports that trigger subsidy disbursal
+2. **ALMM compliance**: Reputable empanelled vendors stock ALMM-listed components as standard
+3. **Service accountability**: Empanelled vendors are traceable through the portal; non-empanelled ones are not
+4. **Post-installation support**: The vendor's upload of your completion report is the trigger for your subsidy, vendors who disappear after installation leave you stranded
 
 The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) covers how to verify vendor empanelment status, what to include in your installation agreement, and what to do if your vendor fails to submit your completion report.
 
@@ -111,20 +111,20 @@ Every PM Surya Ghar application follows this framework regardless of state or DI
 
 ### The MNRE 5-Step PM Surya Ghar Application Framework
 
-1. **Register and document** - Create an account on pmsuryaghar.gov.in, complete Aadhaar-based eKYC, and upload all required documents (electricity bill, PAN, bank details, property proof). The [documents guide](/blog/pm-surya-ghar-documents-required/) covers the full checklist.
-2. **DISCOM verification** - Your application enters the DISCOM review queue. The DISCOM verifies your consumer number, connection category, and document authenticity. Timeline: 7 to 21 days.
-3. **Vendor selection and installation** - After feasibility approval, select an empanelled vendor from the portal's pincode-filtered list. Negotiate cost, confirm ALMM-listed components, sign agreement, and schedule installation. Installation takes 1 to 3 days for residential systems.
-4. **Net metering and inspection** - Your vendor submits the completion report. Your DISCOM schedules a physical inspection and replaces your meter with a bidirectional smart meter. Timeline: 15 to 45 days depending on state.
-5. **Subsidy disbursal** - After inspection clearance, MNRE initiates the PFMS transfer to your bank account. Timeline: 20 to 30 days after inspection.
+1. **Register and document**: Create an account on pmsuryaghar.gov.in, complete Aadhaar-based eKYC, and upload all required documents (electricity bill, PAN, bank details, property proof). The [documents guide](/blog/pm-surya-ghar-documents-required/) covers the full checklist.
+2. **DISCOM verification**: Your application enters the DISCOM review queue. The DISCOM verifies your consumer number, connection category, and document authenticity. Timeline: 7 to 21 days.
+3. **Vendor selection and installation**: After feasibility approval, select an empanelled vendor from the portal's pincode-filtered list. Negotiate cost, confirm ALMM-listed components, sign agreement, and schedule installation. Installation takes 1 to 3 days for residential systems.
+4. **Net metering and inspection**: Your vendor submits the completion report. Your DISCOM schedules a physical inspection and replaces your meter with a bidirectional smart meter. Timeline: 15 to 45 days depending on state.
+5. **Subsidy disbursal**: After inspection clearance, MNRE initiates the PFMS transfer to your bank account. Timeline: 20 to 30 days after inspection.
 
 ## State-Level Variations on the MNRE Scheme
 
 While the central scheme applies uniformly, state governments customise their implementation. Key variations include:
 
-- **Additional subsidies** - States like Gujarat (Surya Gujarat), Tamil Nadu, Rajasthan, and Maharashtra add state-funded top-up subsidies ranging from ₹5,000 to ₹25,000 per system
-- **State portals** - Some states operate parallel portals (Gujarat's Surya Gujarat portal, Tamil Nadu's TEDA portal) alongside the national PM Surya Ghar portal
-- **DISCOM-specific forms** - Certain DISCOMs require additional forms beyond the national portal's standard document set
-- **Local vendor empanelment** - Some states run their own vendor empanelment lists in addition to the national list
+- **Additional subsidies**: States like Gujarat (Surya Gujarat), Tamil Nadu, Rajasthan, and Maharashtra add state-funded top-up subsidies ranging from ₹5,000 to ₹25,000 per system
+- **State portals**: Some states operate parallel portals (Gujarat's Surya Gujarat portal, Tamil Nadu's TEDA portal) alongside the national PM Surya Ghar portal
+- **DISCOM-specific forms**: Certain DISCOMs require additional forms beyond the national portal's standard document set
+- **Local vendor empanelment**: Some states run their own vendor empanelment lists in addition to the national list
 
 For detailed state-by-state breakdowns, refer to the individual state guides covering [Delhi](/blog/solar-subsidy-delhi-2026/), [Karnataka](/blog/solar-subsidy-karnataka-2026/), and [Rajasthan](/blog/solar-subsidy-rajasthan-2026/).
 
@@ -136,13 +136,13 @@ Several widespread misunderstandings lead homeowners to either over-expect from 
 The subsidy covers 30 to 50% of a standard 3 kW system cost. Total installation cost (panels + inverter + mounting + wiring + labour) is typically ₹1.5 lakh to ₹2.2 lakh. The ₹78,000 subsidy significantly reduces the burden but does not eliminate the homeowner's payment.
 
 **Misconception 2: "I can choose any installer"**
-Only empanelled vendors can execute subsidised installations. An installation by a non-empanelled contractor - even if the system works perfectly - cannot be registered on the portal and will not receive the subsidy.
+Only empanelled vendors can execute subsidised installations. An installation by a non-empanelled contractor (even if the system works perfectly) cannot be registered on the portal and will not receive the subsidy.
 
 **Misconception 3: "Any solar panel or inverter qualifies"**
 Only ALMM-listed models qualify. A well-known brand may have models that are listed and models that are not. Always verify the specific model number on the current MNRE ALMM list before purchase.
 
 **Misconception 4: "Subsidy arrives quickly"**
-The official 30-day target is rarely met in practice. Most applicants should plan for 45 to 90 days from application to subsidy credit. Plan your finances accordingly - do not rely on the subsidy arriving before the next EMI if you took a solar loan.
+The official 30-day target is rarely met in practice. Most applicants should plan for 45 to 90 days from application to subsidy credit. Plan your finances accordingly, do not rely on the subsidy arriving before the next EMI if you took a solar loan.
 
 **Misconception 5: "I do not need to do anything after installation"**
 Post-installation, you must upload the completion certificate and system photograph to the portal. Without this step, the DISCOM inspection cannot be scheduled and the subsidy pipeline stalls.
@@ -152,7 +152,7 @@ Post-installation, you must upload the completion certificate and system photogr
 From the inverter selection perspective, the MNRE rooftop scheme creates a clear technical specification floor. Inverters used in PM Surya Ghar installations must meet:
 
 - **BIS IS 16221** (Indian standard for grid-connected solar inverters)
-- **IEC 62116** (anti-islanding protection - mandatory for grid-tied systems per [CEA regulations](https://cea.nic.in/){target="_blank" rel="noopener"})
+- **IEC 62116** (anti-islanding protection, mandatory for grid-tied systems per [CEA regulations](https://cea.nic.in/){target="_blank" rel="noopener"})
 - **ALMM Phase III listing** (current requirement as of 2026)
 - **IP54 minimum** (outdoor installation; IP65 or IP66 recommended for monsoon climates)
 
@@ -160,12 +160,12 @@ The [solar inverter certifications guide](/blog/solar-inverter-certifications/) 
 
 ## Where Qbits Fits in the MNRE Rooftop Solar Framework
 
-The MNRE scheme creates a clear quality bar - and Qbits is designed to clear it in every dimension. ALMM Phase III listing, BIS IS 16221 certification, IEC 62116 anti-islanding, and IP66 weather protection are standard on all Qbits models in the on-grid range.
+The MNRE scheme creates a clear quality bar, and Qbits is designed to clear it in every dimension. ALMM Phase III listing, BIS IS 16221 certification, IEC 62116 anti-islanding, and IP66 weather protection are standard on all Qbits models in the on-grid range.
 
-Beyond compliance, the aspects that matter post-installation - warranty depth and service response - are where Qbits differentiates. A 12-year full replacement warranty with a 72-hour RMA SLA means that if something fails in year 7 of your 25-year system life, the response is a replacement board at your door within three days, not a two-month manufacturer claim cycle.
+Beyond compliance, the aspects that matter post-installation (warranty depth and service response) are where Qbits differentiates. A 12-year full replacement warranty with a 72-hour RMA SLA means that if something fails in year 7 of your 25-year system life, the response is a replacement board at your door within three days, not a two-month manufacturer claim cycle.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - ALMM Phase III listed TLS and TLD series, 1.5 kW to 50 kW. The right choice for PM Surya Ghar-subsidised installations.
-- **[Hybrid Inverters](/hybrid-inverter/)** - HS and HT series; ALMM-listed for subsidy eligibility with battery-ready topology for future upgrade.
-- **[Authorised Service Partners](/authorized-service-partners/)** - Pincode-searchable network supporting the 72-hour RMA SLA across India.
+- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM Phase III listed TLS and TLD series, 1.5 kW to 50 kW. The right choice for PM Surya Ghar-subsidised installations.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series; ALMM-listed for subsidy eligibility with battery-ready topology for future upgrade.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable network supporting the 72-hour RMA SLA across India.
 
-When you are ready to confirm your vendor and system specifications, [talk to a Qbits engineer](/contact-us/) - the team can provide ALMM certificate numbers for your chosen model and help your vendor complete the portal submission correctly.
+When you are ready to confirm your vendor and system specifications, [talk to a Qbits engineer](/contact-us/), the team can provide ALMM certificate numbers for your chosen model and help your vendor complete the portal submission correctly.

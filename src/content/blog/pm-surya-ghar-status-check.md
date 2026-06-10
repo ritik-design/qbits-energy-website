@@ -1,5 +1,5 @@
 ---
-title: "How to Check PM Surya Ghar Application Status - Step-by-Step"
+title: "How to Check PM Surya Ghar Application Status, Step-by-Step"
 excerpt: "Check PM Surya Ghar status at pmsuryaghar.gov.in using your mobile number or application ID. Full step-by-step guide for 2026 with stage-by-stage timelines."
 category: "Policy"
 date: 2026-06-05
@@ -33,7 +33,7 @@ faqs:
     a: "The PM Surya Ghar status can be checked via the portal at pmsuryaghar.gov.in (requires internet) or via the official mobile app. There is no USSD or SMS-based status check available. If you do not have reliable internet access, visit your local Common Service Centre (CSC) - most CSC operators are familiar with the PM Surya Ghar portal and can pull your status on your behalf using your application ID."
 ---
 
-You submitted your PM Surya Ghar application, chose an empanelled vendor, and now you are waiting. But the portal is not exactly transparent about what is happening - and the difference between "Pending at DISCOM" and "Feasibility Check Pending" can mean weeks of different wait times. This guide covers exactly how to check your PM Surya Ghar status, what each stage means, and what to do when it stalls.
+You submitted your PM Surya Ghar application, chose an empanelled vendor, and now you are waiting. But the portal is not exactly transparent about what is happening, and the difference between "Pending at DISCOM" and "Feasibility Check Pending" can mean weeks of different wait times. This guide covers exactly how to check your PM Surya Ghar status, what each stage means, and what to do when it stalls.
 
 > **Direct answer.** Check PM Surya Ghar status by logging in to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} with your registered mobile number and OTP. Navigate to the Application Status section. The portal shows your current stage, date of last update, and any pending actions. Average processing time is 45 to 90 days across states in 2026.
 
@@ -41,7 +41,7 @@ The status check process sounds simple, but knowing what each status means and h
 
 ## How to Log In to the PM Surya Ghar Portal
 
-The PM Surya Ghar portal uses mobile-number-based authentication. There is no separate username or password - every login is OTP-based, which prevents account lockouts but requires your registered mobile number to be active.
+The PM Surya Ghar portal uses mobile-number-based authentication. There is no separate username or password, every login is OTP-based, which prevents account lockouts but requires your registered mobile number to be active.
 
 ### Step-by-step login process
 
@@ -52,15 +52,15 @@ The PM Surya Ghar portal uses mobile-number-based authentication. There is no se
 5. Enter the 6-digit OTP received on your mobile within 60 seconds
 6. You are now on your applicant dashboard
 
-If you do not remember which mobile number you registered with, the portal cannot recover it directly. Contact your DISCOM's consumer helpline with your electricity consumer number - they can look up the registered mobile for your application.
+If you do not remember which mobile number you registered with, the portal cannot recover it directly. Contact your DISCOM's consumer helpline with your electricity consumer number, they can look up the registered mobile for your application.
 
 ### Using the PM Surya Ghar mobile app
 
-An official mobile application is available on Google Play Store and Apple App Store under the name "PM Surya Ghar." The app mirrors the web portal functionality and sends push notifications when your application stage changes - making it more convenient than repeatedly checking the website.
+An official mobile application is available on Google Play Store and Apple App Store under the name "PM Surya Ghar." The app mirrors the web portal functionality and sends push notifications when your application stage changes, making it more convenient than repeatedly checking the website.
 
 The app requires the same OTP-based login. Enable notifications to receive automatic updates when your status changes.
 
-## Understanding Every Status Stage - What Each One Means
+## Understanding Every Status Stage: What Each One Means
 
 The PM Surya Ghar portal displays your application through a linear pipeline. Each stage has a target completion time and a typical real-world time. The table below demystifies every status label.
 
@@ -87,18 +87,18 @@ Not every stalled application requires the same response. This framework helps y
 
 ### The 4-Stage Status Intervention Framework
 
-1. **Days 1–21: Wait and monitor** - Most DISCOMs process applications within 21 days. Check the portal every 3 to 5 days. No action needed unless you receive a rejection notice or a request for additional documents.
-2. **Days 22–45: Raise a portal grievance** - If your application has not moved past "Pending at DISCOM" or "Feasibility Check Pending" after 21 days, log in to the portal and use the "Raise Grievance" function. This creates a formal ticket visible to DISCOM management and typically triggers action within 7 to 10 days.
-3. **Days 46–60: Escalate to DISCOM consumer helpline** - Call your state DISCOM's consumer grievance cell with your application reference number. This is distinct from the PM Surya Ghar helpline (1800-180-3333), which handles scheme-level issues but cannot push individual DISCOMs to move faster.
-4. **Days 60+: File written complaint** - Submit a written complaint at your DISCOM's district office or use the National Consumer Dispute Redressal Commission (NCDRC) online portal if you believe your application is being unreasonably delayed. The MNRE helpline can also escalate to state nodal agencies.
+1. **Days 1–21: Wait and monitor**: Most DISCOMs process applications within 21 days. Check the portal every 3 to 5 days. No action needed unless you receive a rejection notice or a request for additional documents.
+2. **Days 22–45: Raise a portal grievance**: If your application has not moved past "Pending at DISCOM" or "Feasibility Check Pending" after 21 days, log in to the portal and use the "Raise Grievance" function. This creates a formal ticket visible to DISCOM management and typically triggers action within 7 to 10 days.
+3. **Days 46–60: Escalate to DISCOM consumer helpline**: Call your state DISCOM's consumer grievance cell with your application reference number. This is distinct from the PM Surya Ghar helpline (1800-180-3333), which handles scheme-level issues but cannot push individual DISCOMs to move faster.
+4. **Days 60+: File written complaint**: Submit a written complaint at your DISCOM's district office or use the National Consumer Dispute Redressal Commission (NCDRC) online portal if you believe your application is being unreasonably delayed. The MNRE helpline can also escalate to state nodal agencies.
 
 ## State-by-State Processing Speed Reality Check
 
 Processing speeds vary significantly by state, primarily because DISCOM staffing, infrastructure quality, and the volume of pending applications differ. Understanding your state's performance helps calibrate your expectations.
 
-- **Fast states (30–45 days average):** Gujarat, Maharashtra, Rajasthan - these states have invested in DISCOM digitalisation and have well-staffed feasibility teams.
-- **Medium states (45–70 days average):** Karnataka, Telangana, Andhra Pradesh, Tamil Nadu - generally efficient but net metering connection adds time.
-- **Slower states (70–90+ days average):** Uttar Pradesh, Bihar, Madhya Pradesh, West Bengal - high application volumes, DISCOM capacity constraints, and manual processes at some stages.
+- **Fast states (30–45 days average):** Gujarat, Maharashtra, Rajasthan, these states have invested in DISCOM digitalisation and have well-staffed feasibility teams.
+- **Medium states (45–70 days average):** Karnataka, Telangana, Andhra Pradesh, Tamil Nadu, generally efficient but net metering connection adds time.
+- **Slower states (70–90+ days average):** Uttar Pradesh, Bihar, Madhya Pradesh, West Bengal, high application volumes, DISCOM capacity constraints, and manual processes at some stages.
 
 For state-specific subsidy details that affect your overall timeline, refer to:
 - [Solar subsidy in Delhi](/blog/solar-subsidy-delhi-2026/)
@@ -111,15 +111,15 @@ A rejection is not the end of the process in most cases. The portal should displ
 
 Common rejection reasons and their fixes:
 
-- **Document mismatch** - Name on Aadhaar does not match electricity bill. Fix: update DISCOM records or request DISCOM name correction, then reapply.
-- **Outdated electricity bill** - Bill older than 90 days. Fix: download a fresh bill from the DISCOM portal and reapply.
-- **Ineligible connection category** - Commercial or industrial meter submitted. Fix: only domestic connections qualify; the meter category must match residential.
-- **Incomplete documents** - One document not properly uploaded. Fix: check the rejection notice for the specific document, re-upload at full quality, and resubmit.
-- **Property ownership issue** - Rental agreement submitted instead of ownership document. Fix: landlord must apply, or ownership transfer must be completed first.
+- **Document mismatch**: Name on Aadhaar does not match electricity bill. Fix: update DISCOM records or request DISCOM name correction, then reapply.
+- **Outdated electricity bill**: Bill older than 90 days. Fix: download a fresh bill from the DISCOM portal and reapply.
+- **Ineligible connection category**: Commercial or industrial meter submitted. Fix: only domestic connections qualify; the meter category must match residential.
+- **Incomplete documents**: One document not properly uploaded. Fix: check the rejection notice for the specific document, re-upload at full quality, and resubmit.
+- **Property ownership issue**: Rental agreement submitted instead of ownership document. Fix: landlord must apply, or ownership transfer must be completed first.
 
 For a full guide on handling rejected applications, including the appeal process and timeline expectations, see [PM Surya Ghar rejection reasons](/blog/pm-surya-ghar-rejection-reasons/).
 
-## The Net Metering Stage - Why It Takes Longest
+## The Net Metering Stage: Why It Takes Longest
 
 The net metering connection stage is where most applications wait the longest. Once installation is complete and your vendor has submitted the completion report, your DISCOM must:
 
@@ -154,11 +154,11 @@ If the portal shows "Subsidy Disbursed" but the amount has not reached your acco
 
 The PM Surya Ghar portal experiences high traffic, particularly around subsidy announcement periods. These are the most common technical errors and how to resolve them.
 
-- **OTP not received** - Wait 60 seconds, then click "Resend OTP." If the issue persists, check that your mobile is in network coverage and has SMS service active. Some DISCOMs' OTP service does not work with VoIP numbers.
-- **"Application not found" error** - This typically means your application reference number was entered incorrectly. The reference number format varies by state - confirm the exact format from your original registration SMS.
-- **Document upload failure** - The portal rejects files above 2 MB or outside JPEG/PDF format. Compress large PDFs using an online tool before re-uploading.
-- **Portal session timeout** - The portal logs you out after 15 minutes of inactivity. If your upload was interrupted, log in again and check whether the document was saved before the timeout.
-- **Status not updating despite vendor action** - Your vendor must mark each stage on their separate vendor portal for your applicant status to update. If your vendor says they have completed an action but your portal has not updated, wait 24 hours before raising a grievance - there is sometimes a processing lag.
+- **OTP not received**: Wait 60 seconds, then click "Resend OTP." If the issue persists, check that your mobile is in network coverage and has SMS service active. Some DISCOMs' OTP service does not work with VoIP numbers.
+- **"Application not found" error**: This typically means your application reference number was entered incorrectly. The reference number format varies by state, confirm the exact format from your original registration SMS.
+- **Document upload failure**: The portal rejects files above 2 MB or outside JPEG/PDF format. Compress large PDFs using an online tool before re-uploading.
+- **Portal session timeout**: The portal logs you out after 15 minutes of inactivity. If your upload was interrupted, log in again and check whether the document was saved before the timeout.
+- **Status not updating despite vendor action**: Your vendor must mark each stage on their separate vendor portal for your applicant status to update. If your vendor says they have completed an action but your portal has not updated, wait 24 hours before raising a grievance, there is sometimes a processing lag.
 
 ## How to Raise a Formal Grievance
 
@@ -168,7 +168,7 @@ The PM Surya Ghar portal has a built-in grievance mechanism. To use it:
 2. Navigate to "Raise Grievance" from the applicant dashboard
 3. Select your application from the dropdown
 4. Choose the grievance category (DISCOM delay, document issue, vendor issue, subsidy delay)
-5. Describe the issue in the text box (be specific - include dates and stage names)
+5. Describe the issue in the text box (be specific, include dates and stage names)
 6. Submit and note the grievance ticket number
 
 Grievances are forwarded to the relevant DISCOM's nodal officer and to the state MNRE representative. Target resolution time is 15 working days, though actual times vary. You can track your grievance status using the ticket number.
@@ -179,10 +179,10 @@ Separately, the [Consumer Online Resource and Empowerment](https://consumerhelpl
 
 After your application clears the feasibility stage and you move to vendor selection, the inverter brand you specify in your system determines whether ALMM compliance is satisfied. An inverter that is not on the [ALMM list](/glossary/almm-list/) will fail the DISCOM inspection and halt your subsidy disbursal.
 
-Qbits inverters are ALMM Phase III listed, BIS certified, and carry IEC 62116 anti-islanding compliance - all required for PM Surya Ghar subsidy disbursement. Selecting an ALMM-compliant inverter at the vendor selection stage prevents inspection failures that add 4 to 8 weeks to the timeline.
+Qbits inverters are ALMM Phase III listed, BIS certified, and carry IEC 62116 anti-islanding compliance, all required for PM Surya Ghar subsidy disbursement. Selecting an ALMM-compliant inverter at the vendor selection stage prevents inspection failures that add 4 to 8 weeks to the timeline.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - ALMM-listed TLS and TLD series; submit the ALMM certificate number at vendor approval stage without additional paperwork.
-- **[Hybrid Inverters](/hybrid-inverter/)** - HS and HT series with battery readiness for future upgrade after subsidy disbursal.
-- **[PM Surya Ghar Apply Online Guide](/blog/pm-surya-ghar-apply-online/)** - Complete walkthrough of the portal application process including vendor selection.
+- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed TLS and TLD series; submit the ALMM certificate number at vendor approval stage without additional paperwork.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness for future upgrade after subsidy disbursal.
+- **[PM Surya Ghar Apply Online Guide](/blog/pm-surya-ghar-apply-online/)**: Complete walkthrough of the portal application process including vendor selection.
 
-If your application has stalled at any stage and you need guidance, [talk to a Qbits engineer](/contact-us/) - the team handles PM Surya Ghar applications daily and can advise on DISCOM-specific issues in your state.
+If your application has stalled at any stage and you need guidance, [talk to a Qbits engineer](/contact-us/), the team handles PM Surya Ghar applications daily and can advise on DISCOM-specific issues in your state.

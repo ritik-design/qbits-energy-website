@@ -1,6 +1,6 @@
 ---
 title: "Why Is My Solar Inverter Underperforming? 10 Causes India"
-excerpt: "Solar inverter underperforming in India? The 10-Cause Underperformance Audit diagnoses partial yield loss - below expected kWh - step by step with self-diagnose guidance."
+excerpt: "Solar inverter underperforming in India? The 10-Cause Underperformance Audit diagnoses partial yield loss (below expected kWh) step by step with self-diagnose guidance."
 description: "10 causes of solar inverter underperformance in India: dust, thermal derating, inverter clipping, shading, panel ageing, loose DC connections, wrong string sizing, grid voltage, firmware, and monitoring misconfiguration."
 category: "Maintenance"
 date: 2026-06-05
@@ -36,15 +36,15 @@ faqs:
     a: "Afternoon underperformance on sunny days is the characteristic signature of thermal derating. Solar inverters are designed to reduce output when internal temperature exceeds the safe operating threshold - typically 40–45 °C ambient. In Indian summers, west-facing inverter installations and sealed enclosures reach these temperatures from noon onwards. The fix is ventilation improvement - clearance around the inverter, exhaust fan in enclosures, shade canopy for direct-sun mounting positions - rather than inverter replacement."
 ---
 
-Your solar monitoring app shows your 5 kW system generating 16 units per day on a clear April morning. Your installer projected 22–24 units for this month. No error codes are displaying. The inverter is running normally. The generation curve looks like a normal bell shape - but you are missing 25–30% of projected output.
+Your solar monitoring app shows your 5 kW system generating 16 units per day on a clear April morning. Your installer projected 22–24 units for this month. No error codes are displaying. The inverter is running normally. The generation curve looks like a normal bell shape, but you are missing 25–30% of projected output.
 
 This is solar inverter underperformance: partial yield loss without system shutdown. Unlike an offline inverter that demands immediate attention, underperformance hides in the data and silently costs generation units day after day without triggering a single alarm.
 
-> **Direct answer.** The 10-Cause Underperformance Audit diagnoses partial yield loss in Indian solar inverters: (1) dust and soiling, (2) thermal derating, (3) inverter clipping, (4) partial shading, (5) ageing panels, (6) loose DC connections, (7) wrong string sizing, (8) grid voltage fluctuation, (9) outdated firmware, (10) monitoring misconfiguration. Work through the causes in order - the first five resolve approximately 85% of underperformance cases without a technician.
+> **Direct answer.** The 10-Cause Underperformance Audit diagnoses partial yield loss in Indian solar inverters: (1) dust and soiling, (2) thermal derating, (3) inverter clipping, (4) partial shading, (5) ageing panels, (6) loose DC connections, (7) wrong string sizing, (8) grid voltage fluctuation, (9) outdated firmware, (10) monitoring misconfiguration. Work through the causes in order, the first five resolve approximately 85% of underperformance cases without a technician.
 
 This guide covers partial output below expected yield. If your inverter is completely offline (zero generation), see the [solar inverter downtime guide](/blog/solar-inverter-downtime/). For an extended 12-cause analysis including cable voltage drop and MPPT configuration errors, see the [solar inverter low output causes India guide](/blog/solar-inverter-low-output-causes-india/).
 
-## Underperformance vs Downtime - Two Different Problems
+## Underperformance vs Downtime: Two Different Problems
 
 The distinction between underperformance and downtime determines the entire diagnostic path. Using the wrong approach wastes time and often misses the actual cause.
 
@@ -60,7 +60,7 @@ If your inverter shows zero output: stop here and use the [solar inverter downti
 
 If your inverter shows positive but below-expected output: the 10-Cause Underperformance Audit below is the correct process.
 
-## How to Benchmark - Calculating Expected vs Actual kWh
+## How to Benchmark: Calculating Expected vs Actual kWh
 
 Before attributing underperformance to any cause, establish the quantified gap between expected and actual yield. Estimating that "it seems lower than normal" produces unreliable conclusions.
 
@@ -72,7 +72,7 @@ A well-maintained Indian rooftop system achieves PR of 0.75–0.85. A PR below 0
 
 Expected (kWh) = Installed kWp × Peak sun hours × 0.78 (baseline PR)
 
-Example for a 5 kWp system in Bengaluru on a clear day: 5 × 5.2 × 0.78 = 20.3 kWh. If the monitoring app shows 14 kWh, the gap is 6.3 kWh - a 31% shortfall that the 10-Cause Audit will resolve.
+Example for a 5 kWp system in Bengaluru on a clear day: 5 × 5.2 × 0.78 = 20.3 kWh. If the monitoring app shows 14 kWh, the gap is 6.3 kWh, a 31% shortfall that the 10-Cause Audit will resolve.
 
 Peak sun hours for each location and month can be retrieved from the [MNRE solar resource atlas](https://mnre.gov.in/){target="_blank" rel="noopener"} or from the monitoring application's irradiance sensor if the system has one fitted.
 
@@ -80,17 +80,17 @@ Peak sun hours for each location and month can be retrieved from the [MNRE solar
 
 ## Causes 1–5: Diagnose Without Any Equipment
 
-The first five causes account for approximately 85% of underperformance cases in Indian installations. None require a technician or test equipment - monitoring app data and a visual inspection are sufficient.
+The first five causes account for approximately 85% of underperformance cases in Indian installations. None require a technician or test equipment, monitoring app data and a visual inspection are sufficient.
 
 ### Cause 1: Dust and Soiling
 
 **Yield loss:** 10–30% without cleaning for 3–5 weeks in arid zones; 5–15% in coastal and urban areas.
 
-**Self-diagnosis:** Wipe a damp white cloth across the panel surface. A visible grey or brown streak confirms active soiling. Also check for bird droppings - a single dropping on a standard 60-cell panel activates a bypass diode and reduces that panel's contribution by approximately 30%.
+**Self-diagnosis:** Wipe a damp white cloth across the panel surface. A visible grey or brown streak confirms active soiling. Also check for bird droppings, a single dropping on a standard 60-cell panel activates a bypass diode and reduces that panel's contribution by approximately 30%.
 
 **Fix:** Clean panels before 9:00 AM with clean water and a soft microfibre cloth. Recheck output on the following clear day. If output recovers by more than 8%, soiling was the primary cause. For high-dust zones (Rajasthan, Gujarat, northern agricultural belt), clean every 3–4 weeks during the dry season. See the [solar output maximisation guide](/blog/maximize-solar-output-indian-climate/) for the full zone-matched cleaning schedule.
 
-[NREL soiling research on Indian rooftop installations](https://www.nrel.gov/docs/fy16osti/65498.pdf){target="_blank" rel="noopener"} documents that Indian sites lose 15–30% of irradiance annually from dust accumulation - among the highest soiling rates globally for a grid-connected solar market of this scale.
+[NREL soiling research on Indian rooftop installations](https://www.nrel.gov/docs/fy16osti/65498.pdf){target="_blank" rel="noopener"} documents that Indian sites lose 15–30% of irradiance annually from dust accumulation, among the highest soiling rates globally for a grid-connected solar market of this scale.
 
 ### Cause 2: Thermal Derating
 
@@ -112,7 +112,7 @@ The first five causes account for approximately 85% of underperformance cases in
 
 **Yield loss:** 5–50% depending on the fraction of the array shaded and whether bypass diodes are active.
 
-**Self-diagnosis:** Walk the roof during peak sun hours (10:00 AM–1:00 PM) and observe shadows on any panel. Check for tree branch growth since installation, new water tank or antenna additions, neighbouring building construction, or bird nests at the array edge. Compare per-string MPPT data in the monitoring application - a string consistently at 60–70% of the other string's output suggests shading on the weaker string.
+**Self-diagnosis:** Walk the roof during peak sun hours (10:00 AM–1:00 PM) and observe shadows on any panel. Check for tree branch growth since installation, new water tank or antenna additions, neighbouring building construction, or bird nests at the array edge. Compare per-string MPPT data in the monitoring application, a string consistently at 60–70% of the other string's output suggests shading on the weaker string.
 
 **Fix:** Remove or reposition movable obstructions. For permanent obstructions such as adjacent buildings, consult an installer about redesigning string groupings to isolate shaded panels on a separate MPPT input.
 
@@ -124,26 +124,26 @@ The first five causes account for approximately 85% of underperformance cases in
 
 **Fix:** Degradation within the warranted annual rate (typically 0.5%/year) is normal and expected. Degradation above the warranted rate justifies a warranty claim with the panel manufacturer. Severe or localised degradation is detectable with an infrared thermal scan during peak irradiance hours. [IEA data on Indian solar PV field performance](https://www.iea.org/countries/india){target="_blank" rel="noopener"} shows average degradation of 0.4–0.7% per year for polycrystalline panels and 0.3–0.5% for monocrystalline PERC under Indian field conditions.
 
-## The 10-Cause Underperformance Audit - Named Framework
+## The 10-Cause Underperformance Audit: Named Framework
 
 The 10-Cause Underperformance Audit is the structured sequence that distinguishes the probable cause of yield shortfall. The first five causes require no equipment; causes 6–10 use monitoring data, a multimeter, or remote app checks.
 
 ### The 10-Cause Underperformance Audit
 
-1. **Dust and Soiling** - Clean panels, recheck the next clear day. If output recovers 8% or more, this was the primary cause. Continue to Cause 2 for any residual gap.
-2. **Thermal Derating** - Time-specific afternoon loss. Confirm with inverter temperature log (above 42 °C ambient). Fix ventilation or mounting position.
-3. **Inverter Clipping** - Flat output plateau at rated AC capacity. Confirm with DC:AC ratio calculation. Accept or redesign.
-4. **Partial Shading** - Visual walkround at 10:00 AM–1:00 PM. Confirm with per-string monitoring imbalance. Remove obstruction or redesign string groupings.
-5. **Ageing Panels** - Year-on-year generation decline above warranted degradation rate. Confirm with infrared thermal scan or I-V curve tracing.
-6. **Loose DC Connections** - Inspect accessible MC4 connectors and combiner box terminals. Look for discolouration or heat marks. Torque-check accessible terminals.
-7. **Wrong String Sizing** - Verify actual string configuration against the inverter MPPT voltage window using the monitoring data MPPT voltage readout.
-8. **Grid Voltage Fluctuation** - Log grid voltage over 7 days using monitoring app. Sustained readings above 250 V during shortfall periods confirm this cause.
-9. **Firmware Outdated** - Check inverter firmware version against the manufacturer current release. Apply available updates via the monitoring app.
-10. **Monitoring Misconfiguration** - Verify installed capacity, panel orientation, and system configuration data entered in the monitoring application.
+1. **Dust and Soiling**: Clean panels, recheck the next clear day. If output recovers 8% or more, this was the primary cause. Continue to Cause 2 for any residual gap.
+2. **Thermal Derating**: Time-specific afternoon loss. Confirm with inverter temperature log (above 42 °C ambient). Fix ventilation or mounting position.
+3. **Inverter Clipping**: Flat output plateau at rated AC capacity. Confirm with DC:AC ratio calculation. Accept or redesign.
+4. **Partial Shading**: Visual walkround at 10:00 AM–1:00 PM. Confirm with per-string monitoring imbalance. Remove obstruction or redesign string groupings.
+5. **Ageing Panels**: Year-on-year generation decline above warranted degradation rate. Confirm with infrared thermal scan or I-V curve tracing.
+6. **Loose DC Connections**: Inspect accessible MC4 connectors and combiner box terminals. Look for discolouration or heat marks. Torque-check accessible terminals.
+7. **Wrong String Sizing**: Verify actual string configuration against the inverter MPPT voltage window using the monitoring data MPPT voltage readout.
+8. **Grid Voltage Fluctuation**: Log grid voltage over 7 days using monitoring app. Sustained readings above 250 V during shortfall periods confirm this cause.
+9. **Firmware Outdated**: Check inverter firmware version against the manufacturer current release. Apply available updates via the monitoring app.
+10. **Monitoring Misconfiguration**: Verify installed capacity, panel orientation, and system configuration data entered in the monitoring application.
 
-Work through the list in order. Each confirmed and resolved cause reduces the measured shortfall; residual gap after one cause is resolved suggests multiple concurrent causes - common in systems above five years old. Most Indian systems with a 20%+ underperformance gap have two or three causes active simultaneously.
+Work through the list in order. Each confirmed and resolved cause reduces the measured shortfall; residual gap after one cause is resolved suggests multiple concurrent causes, common in systems above five years old. Most Indian systems with a 20%+ underperformance gap have two or three causes active simultaneously.
 
-## Causes 6–8 - Require Inspection or Monitoring Data Review
+## Causes 6–8: Require Inspection or Monitoring Data Review
 
 These three causes require physical inspection of DC components or review of 7-day monitoring logs. They are less frequent than causes 1–5 but meaningful when present.
 
@@ -151,11 +151,11 @@ These three causes require physical inspection of DC components or review of 7-d
 
 **Yield loss:** 1–5% per affected string; can escalate to arc fault risk if severe.
 
-**Background:** DC connections between panels and the inverter - MC4 connectors, combiner box terminals, and string fuse holders - develop micro-resistance over time from thermal cycling (daily temperature swings from 10 °C to 55 °C on rooftops), UV degradation of rubber seals, and vibration from wind loading. A resistive connection dissipates power as heat rather than delivering it to the inverter.
+**Background:** DC connections between panels and the inverter (MC4 connectors, combiner box terminals, and string fuse holders) develop micro-resistance over time from thermal cycling (daily temperature swings from 10 °C to 55 °C on rooftops), UV degradation of rubber seals, and vibration from wind loading. A resistive connection dissipates power as heat rather than delivering it to the inverter.
 
 **Self-diagnosis:** Inspect all accessible MC4 connectors visually. Signs of degradation: discolouration of the plastic body (yellowing or brown), heat marks on the locking ring, or difficulty in the mating action. Combiner box terminals may show similar discolouration.
 
-**Fix:** Connections showing discolouration must be replaced - do not attempt to re-crimp or remate a connection that has overheated. For in-warranty systems, contact the installer. Include DC connection inspection in the [annual inverter maintenance schedule](/blog/inverter-maintenance-india/).
+**Fix:** Connections showing discolouration must be replaced, do not attempt to re-crimp or remate a connection that has overheated. For in-warranty systems, contact the installer. Include DC connection inspection in the [annual inverter maintenance schedule](/blog/inverter-maintenance-india/).
 
 **Safety note:** DC string voltages in Indian residential systems range from 300 V to 600 V. Do not disconnect DC strings without appropriate PPE and training. If uncertain, call a technician.
 
@@ -181,13 +181,13 @@ These three causes require physical inspection of DC components or review of 7-d
 
 **Fix:** Report sustained high grid voltage to the DISCOM consumer grievance cell, with the monitoring data log as evidence. DISCOMs are required under IS 12360 and state Electricity Supply Codes to maintain voltage within ±6% of 230 V (216–244 V). The DISCOM may adjust the local transformer tap setting to resolve sustained high voltage on the feeder. [CEA supply standards for electricity distribution in India](https://cea.nic.in/){target="_blank" rel="noopener"} outline the voltage quality obligations that DISCOMs must fulfil.
 
-## Causes 9–10 - Software and Configuration Causes
+## Causes 9–10: Software and Configuration Causes
 
-Two underperformance causes require no hardware inspection - they are software and configuration issues diagnosable and resolvable remotely.
+Two underperformance causes require no hardware inspection, they are software and configuration issues diagnosable and resolvable remotely.
 
 ### Cause 9: Outdated Inverter Firmware
 
-**Yield loss:** 1–4% in variable irradiance conditions - cloudy sky, morning ramp-up, afternoon partial cloud.
+**Yield loss:** 1–4% in variable irradiance conditions, cloudy sky, morning ramp-up, afternoon partial cloud.
 
 **Background:** Inverter MPPT algorithms evolve through firmware releases. Older firmware may use a perturbation-and-observe algorithm; newer firmware uses incremental conductance or AI-assisted MPPT tracking that finds the true maximum power point faster under rapidly changing irradiance. In Indian conditions, variable irradiance from cloud cover during the monsoon shoulder months of May and September, and morning haze in industrial belts, means MPPT tracking efficiency matters more than in consistently clear desert climates.
 
@@ -195,24 +195,24 @@ In addition to MPPT improvement, firmware updates adjust grid protection thresho
 
 **Self-diagnosis:** Check the inverter current firmware version on the monitoring app or inverter screen. Contact the manufacturer or visit their website to confirm whether a newer version is available.
 
-**Fix:** For Qbits inverters, firmware updates are delivered over Wi-Fi directly to the inverter via the monitoring application - no technician visit required. [BIS certification requirements for grid-connected inverters in India](https://bis.gov.in/){target="_blank" rel="noopener"} specify that manufacturers must provide firmware updates for known efficiency improvements throughout the product supported life.
+**Fix:** For Qbits inverters, firmware updates are delivered over Wi-Fi directly to the inverter via the monitoring application, no technician visit required. [BIS certification requirements for grid-connected inverters in India](https://bis.gov.in/){target="_blank" rel="noopener"} specify that manufacturers must provide firmware updates for known efficiency improvements throughout the product supported life.
 
-### Cause 10: Monitoring Misconfiguration - False Low Readings
+### Cause 10: Monitoring Misconfiguration: False Low Readings
 
-**Apparent yield loss:** Any amount - the monitoring system is reporting a shortfall that does not reflect actual generation.
+**Apparent yield loss:** Any amount, the monitoring system is reporting a shortfall that does not reflect actual generation.
 
 **Common misconfigurations in Indian residential systems:**
 
 - **Installed capacity entered incorrectly:** If the monitoring app records system capacity as 4 kWp but actual capacity is 5 kWp, the expected yield calculation shows a 25% shortfall that is entirely a data error.
 - **Panel orientation entered incorrectly:** If the app calculates expected yield for a south-facing orientation but panels are east-facing, morning expected yield appears unmet even when the system performs correctly for its actual orientation.
 - **Energy meter CT ratio miscalibrated:** External energy meters with incorrectly configured CT clamp ratios produce systematically incorrect generation readings.
-- **WiFi connectivity gaps:** If the monitoring dongle loses connection for hours or days, those generation periods go unrecorded. The inverter LCD internal counter is the reference - compare it against the app.
+- **WiFi connectivity gaps:** If the monitoring dongle loses connection for hours or days, those generation periods go unrecorded. The inverter LCD internal counter is the reference, compare it against the app.
 
 **Self-diagnosis:** Log into the monitoring application settings and verify: installed capacity in kWp matches actual panel count and rated power; panel tilt angle and azimuth match actual installation; generation figures draw from the inverter internal measurement.
 
 **Fix:** Correct configuration data in the monitoring application. If using an external energy meter with CT clamps, have the meter recalibrated using a reference load measurement.
 
-## Self-Diagnose vs Call a Technician - Decision Matrix
+## Self-Diagnose vs Call a Technician: Decision Matrix
 
 The 10-Cause Audit is designed so causes 1–5 and 9–10 are diagnosable by the homeowner. Causes 6, 7, and 8 may require specialist involvement.
 
@@ -237,9 +237,9 @@ The 10-Cause Audit is designed so causes 1–5 and 9–10 are diagnosable by the
 
 [NREL solar PV operations and maintenance guidance](https://www.nrel.gov/grid/distributed-generation.html){target="_blank" rel="noopener"} recommends annual performance ratio audits as the minimum standard for systems above 5 kWp. [IRENA's solar O&M report](https://www.irena.org/publications/2022/Oct/Renewable-Power-Generation-Costs-in-2021){target="_blank" rel="noopener"} found that monitoring-equipped systems resolve yield loss causes 60% faster than systems diagnosed only at annual site visits.
 
-## How Multiple Causes Stack - Multi-Cause Underperformance in Practice
+## How Multiple Causes Stack: Multi-Cause Underperformance in Practice
 
-A 25% yield shortfall is rarely explained by a single cause. In Indian conditions, three or four causes often act simultaneously - particularly in systems above five years old.
+A 25% yield shortfall is rarely explained by a single cause. In Indian conditions, three or four causes often act simultaneously, particularly in systems above five years old.
 
 **Common multi-cause patterns:**
 
@@ -251,14 +251,14 @@ The audit's sequential structure ensures each resolved cause reduces the measure
 
 ## Where Qbits Fits
 
-Qbits AI monitoring makes causes 1 through 5 and 8 through 10 visible without a site visit. The monitoring application tracks performance ratio against irradiance-adjusted expected yield, logs per-string MPPT data, records grid voltage, and monitors inverter ambient temperature - providing the diagnostic data to work through eight of the ten audit causes remotely.
+Qbits AI monitoring makes causes 1 through 5 and 8 through 10 visible without a site visit. The monitoring application tracks performance ratio against irradiance-adjusted expected yield, logs per-string MPPT data, records grid voltage, and monitors inverter ambient temperature, providing the diagnostic data to work through eight of the ten audit causes remotely.
 
-For causes requiring physical inspection - DC connections (Cause 6), string reconfiguration (Cause 7), and infrared panel scanning (Cause 5) - Qbits authorised service partners carry the measurement equipment to diagnose these causes during a single visit.
+For causes requiring physical inspection (DC connections (Cause 6), string reconfiguration (Cause 7), and infrared panel scanning (Cause 5)) Qbits authorised service partners carry the measurement equipment to diagnose these causes during a single visit.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - TLS and TLD series with per-string MPPT monitoring, AI WhatsApp underperformance alerts, and 12-year full replacement warranty. Confirmed inverter-related efficiency loss is covered under warranty.
-- **[Solar Inverter App Monitoring](/blog/solar-inverter-app-monitoring/)** - Configure the AI monitoring system to send WhatsApp alerts when performance ratio drops below threshold - automating detection for causes 1–4 and 8.
-- **[Maximise Solar Output India](/blog/maximize-solar-output-indian-climate/)** - The proactive companion to this diagnostic guide: six levers to prevent underperformance before it develops.
-- **[Solar Inverter Summer Derating India](/blog/solar-inverter-summer-derating-india/)** - Detailed treatment of Cause 2, with inverter placement rules and enclosure ventilation design.
-- **[Authorised Service Partners](/authorized-service-partners/)** - Pincode-searchable network for on-site diagnosis, with the less-than-72-hour RMA SLA for inverter component replacement.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series with per-string MPPT monitoring, AI WhatsApp underperformance alerts, and 12-year full replacement warranty. Confirmed inverter-related efficiency loss is covered under warranty.
+- **[Solar Inverter App Monitoring](/blog/solar-inverter-app-monitoring/)**: Configure the AI monitoring system to send WhatsApp alerts when performance ratio drops below threshold, automating detection for causes 1–4 and 8.
+- **[Maximise Solar Output India](/blog/maximize-solar-output-indian-climate/)**: The proactive companion to this diagnostic guide: six levers to prevent underperformance before it develops.
+- **[Solar Inverter Summer Derating India](/blog/solar-inverter-summer-derating-india/)**: Detailed treatment of Cause 2, with inverter placement rules and enclosure ventilation design.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable network for on-site diagnosis, with the less-than-72-hour RMA SLA for inverter component replacement.
 
-If your performance ratio is below 0.70 and the first five self-diagnosis steps have not identified the cause, [talk to a Qbits engineer](/contact-us/) - the technical support team reviews monitoring data remotely and identifies the most probable cause before dispatching a service visit.
+If your performance ratio is below 0.70 and the first five self-diagnosis steps have not identified the cause, [talk to a Qbits engineer](/contact-us/), the technical support team reviews monitoring data remotely and identifies the most probable cause before dispatching a service visit.

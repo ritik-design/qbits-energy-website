@@ -1,7 +1,7 @@
 ---
 title: "How to Become a Solar Inverter Partner in India (2026)"
 excerpt: "India's solar boom is creating partnership opportunities for distributors, dealers, and channel partners. Here's how to evaluate manufacturers, structure the deal, and get started."
-description: "Complete guide to becoming a solar inverter distributor, dealer, or channel partner in India - manufacturer evaluation, territory structures, margins, training, after-sales support, and application process."
+description: "Complete guide to becoming a solar inverter distributor, dealer, or channel partner in India, manufacturer evaluation, territory structures, margins, training, after-sales support, and application process."
 category: "Guide"
 date: 2026-05-06
 readTime: "8 min"
@@ -43,7 +43,7 @@ Territory options: state-level, regional, or national agreements.
 ### Product Quality
 
 - BIS and IEC certifications (verify validity)
-- Efficiency ratings - target 98%
+- Efficiency ratings, target 98%
 - Component quality testing (1,000+ tests per unit indicates premium QC)
 
 ### Warranty Terms
@@ -110,4 +110,4 @@ Quality manufacturers provide:
 
 ## Bottom Line
 
-Partnering with the right inverter manufacturer is one of the highest-leverage decisions in the solar distribution business. Prioritise manufacturers with quality products, transparent warranty terms, strong India-based support, and active partner enablement - these compound into the long-term reputation and margin that sustain successful partnerships.
+Partnering with the right inverter manufacturer is one of the highest-leverage decisions in the solar distribution business. Prioritise manufacturers with quality products, transparent warranty terms, strong India-based support, and active partner enablement, these compound into the long-term reputation and margin that sustain successful partnerships.

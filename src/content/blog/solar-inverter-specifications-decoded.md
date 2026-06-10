@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Specifications Decoded: 15 Key Parameters"
 excerpt: "EPCs and installers lose thousands per project on spec mismatches. Here are the 15 inverter specifications that actually matter for system performance and ROI."
-description: "Decode the 15 most important solar inverter specifications - DC oversizing, MPPT range, THD, IP rating, efficiency types, temperature derating, communication protocols, warranty terms, and certifications."
+description: "Decode the 15 most important solar inverter specifications, DC oversizing, MPPT range, THD, IP rating, efficiency types, temperature derating, communication protocols, warranty terms, and certifications."
 category: "Guide"
 date: 2026-04-04
 readTime: "10 min"
@@ -30,7 +30,7 @@ EPCs and solar installation companies in India lose thousands of rupees per proj
 
 ## 1. DC Oversizing Capability
 
-Defines max panel capacity beyond rated AC output. Quality inverters support **100–150% oversizing** - enabling future expansion and optimal energy harvest with modern 750W+ panels.
+Defines max panel capacity beyond rated AC output. Quality inverters support **100–150% oversizing**: enabling future expansion and optimal energy harvest with modern 750W+ panels.
 
 ## 2. Start-Up Voltage and Low-Light Performance
 
@@ -170,4 +170,4 @@ Leading manufacturers verify:
 
 ## Closing
 
-Specifications are not decoration - they are the contract between manufacturer and installer. Understanding what each parameter actually means lets you compare inverters on real-world performance rather than marketing claims, protecting both your projects and your reputation.
+Specifications are not decoration, they are the contract between manufacturer and installer. Understanding what each parameter actually means lets you compare inverters on real-world performance rather than marketing claims, protecting both your projects and your reputation.

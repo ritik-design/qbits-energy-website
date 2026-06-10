@@ -1,5 +1,5 @@
 ---
-title: "1kW Solar System Price in India 2026 - Complete Cost Breakdown"
+title: "1kW Solar System Price in India 2026, Complete Cost Breakdown"
 excerpt: "1kW solar system price in India ranges from ₹65,000 to ₹85,000 before subsidy. After PM Surya Ghar subsidy, net cost drops to ₹35,000–₹50,000. Full breakdown inside."
 description: "Complete 1kW solar system cost breakdown: panels, inverter, BOS, installation, GST, and PM Surya Ghar subsidy. Payback calculator and what to expect from a 1kW on-grid system."
 category: "Buying Guide"
@@ -32,13 +32,13 @@ faqs:
     a: "A 1kW solar system requires approximately 6 to 8 square metres (65 to 85 square feet) of shadow-free roof area. This accounts for panel area plus spacing for cleaning and maintenance. For a flat concrete roof, standard mounting structures place panels at a 10 to 15 degree tilt facing south. If your roof is smaller or partially shaded, consult an installer before finalising the 1kW capacity."
 ---
 
-Your electricity bill is ₹3,000 to ₹5,000 per month, and you live in a compact 1 BHK apartment or a small independent house. You have heard about the government's PM Surya Ghar scheme and want to know whether a 1kW solar system makes sense - and exactly what it will cost you after subsidy. This guide gives you a component-level cost breakdown, a payback calculator, and an honest answer about what a 1kW on-grid system can and cannot power.
+Your electricity bill is ₹3,000 to ₹5,000 per month, and you live in a compact 1 BHK apartment or a small independent house. You have heard about the government's PM Surya Ghar scheme and want to know whether a 1kW solar system makes sense, and exactly what it will cost you after subsidy. This guide gives you a component-level cost breakdown, a payback calculator, and an honest answer about what a 1kW on-grid system can and cannot power.
 
-> **Direct answer.** A 1kW solar system costs ₹65,000 to ₹85,000 in India before subsidy. The PM Surya Ghar central subsidy reduces this to ₹35,000 to ₹55,000 net. At ₹7/unit tariff and 4.5 units/day generation, the payback period is 4 to 6 years. The system covers lighting, fans, a refrigerator, and a television - but not a 1-ton AC. For AC-running homes, consider a [2kW system](/blog/2kw-solar-system-price-india/).
+> **Direct answer.** A 1kW solar system costs ₹65,000 to ₹85,000 in India before subsidy. The PM Surya Ghar central subsidy reduces this to ₹35,000 to ₹55,000 net. At ₹7/unit tariff and 4.5 units/day generation, the payback period is 4 to 6 years. The system covers lighting, fans, a refrigerator, and a television, but not a 1-ton AC. For AC-running homes, consider a [2kW system](/blog/2kw-solar-system-price-india/).
 
-The 1kW segment is the entry point of the residential solar market in India. It is most popular in urban apartments, small houses in Tier-2 cities, and as an add-on system for homeowners who want to test solar before committing to a larger installation. Understanding exactly what you are buying - and what the government pays - is the first step to a decision you will not regret for the next 25 years.
+The 1kW segment is the entry point of the residential solar market in India. It is most popular in urban apartments, small houses in Tier-2 cities, and as an add-on system for homeowners who want to test solar before committing to a larger installation. Understanding exactly what you are buying (and what the government pays) is the first step to a decision you will not regret for the next 25 years.
 
-## 1kW Solar System Price Breakdown - Component by Component
+## 1kW Solar System Price Breakdown: Component by Component
 
 A solar system is not a single product. It is an assembly of components, each with its own cost, quality tier, and warranty duration. Here is the full cost breakdown for a standard 1kW on-grid residential system in India as of June 2026:
 
@@ -70,12 +70,12 @@ For a 1kW system, the total panel area is approximately 3.5 to 4 square metres. 
 
 ### On-Grid Solar Inverter
 
-The inverter is the brain of the system - it converts the DC power from the panels into 230V AC that your home appliances use. For a 1kW on-grid system, you need a 1 kW or 1.5 kW string inverter. The inverter must be:
+The inverter is the brain of the system, it converts the DC power from the panels into 230V AC that your home appliances use. For a 1kW on-grid system, you need a 1 kW or 1.5 kW string inverter. The inverter must be:
 
 - **BIS certified** under IS 16221 for domestic grid connectivity
 - **ALMM-listed** if you want the PM Surya Ghar subsidy to be processed
 - Equipped with anti-islanding protection per IEC 62116
-- Rated for India's grid voltage range (180–270V) - this is non-negotiable given the voltage fluctuations in Tier-2/3 towns
+- Rated for India's grid voltage range (180–270V), this is non-negotiable given the voltage fluctuations in Tier-2/3 towns
 
 The [on-grid inverter](/on-grid-inverter/) specification most often quoted for a 1kW system is a single-MPPT unit with peak efficiency of 97–98% and a self-consumption below 5W at night.
 
@@ -83,12 +83,12 @@ The [on-grid inverter](/on-grid-inverter/) specification most often quoted for a
 
 BOS covers everything that connects the panels to the inverter to the grid:
 
-- **DC cabling** - 4mm² to 6mm² UV-resistant cables from panels to inverter
-- **AC cabling** - from inverter to distribution board
-- **MC4 connectors** - panel-to-cable joints (always use genuine MC4 - counterfeit MC4s are a fire risk)
-- **DC isolator and AC MCB** - protection switches
-- **Surge protection device (SPD)** - DC-side and AC-side protection from lightning and grid transients
-- **Earthing and bonding** - all metallic parts to earth as per CEA standards
+- **DC cabling**: 4mm² to 6mm² UV-resistant cables from panels to inverter
+- **AC cabling**: from inverter to distribution board
+- **MC4 connectors**: panel-to-cable joints (always use genuine MC4, counterfeit MC4s are a fire risk)
+- **DC isolator and AC MCB**: protection switches
+- **Surge protection device (SPD)**: DC-side and AC-side protection from lightning and grid transients
+- **Earthing and bonding**: all metallic parts to earth as per CEA standards
 
 BOS is often where budget quotations cut corners. Undersized cables overheat. Cheap SPDs fail to protect. Ask your installer for the cable cross-section in every quotation.
 
@@ -98,7 +98,7 @@ For a flat concrete roof, a GI or aluminium ballasted frame is standard. Flush-m
 
 ### Installation and Commissioning
 
-Installation includes physical mounting, electrical wiring, commissioning (powering up and verifying the inverter reads panels correctly), and filing the net-metering application with your DISCOM. Net-metering approval timelines vary from 15 days (Gujarat, Karnataka) to 60–90 days (UP, Bihar, some parts of Maharashtra). The installation cost also covers the cost of the net-meter (bidirectional meter) that the DISCOM installs - this is typically paid to the DISCOM directly and ranges from ₹2,500 to ₹5,000.
+Installation includes physical mounting, electrical wiring, commissioning (powering up and verifying the inverter reads panels correctly), and filing the net-metering application with your DISCOM. Net-metering approval timelines vary from 15 days (Gujarat, Karnataka) to 60–90 days (UP, Bihar, some parts of Maharashtra). The installation cost also covers the cost of the net-meter (bidirectional meter) that the DISCOM installs, this is typically paid to the DISCOM directly and ranges from ₹2,500 to ₹5,000.
 
 ## The 1kW Solar Payback Calculator
 
@@ -114,7 +114,7 @@ Use this table to estimate your payback period based on your state electricity t
 
 **Key assumptions:** Net system cost ₹45,000 (midpoint after ₹30,000 subsidy). Generation based on 4.0–5.0 peak sun hours by region (Rajasthan/Gujarat = 5.0; Tamil Nadu/Karnataka = 4.5; UP/Bihar = 4.0). No inverter replacement assumed within first 12 years.
 
-After payback, your electricity savings are pure return. Over a 25-year panel life, a 1kW system at ₹7/unit tariff can save over ₹2.3 lakh in total - on a net system investment of ₹45,000. That is more than a 5× return before accounting for tariff escalation. India's solar irradiance data confirms that most regions receive 4.0 to 6.0 peak sun hours daily, supporting these generation estimates. *Source - [NREL India Solar Resource Data](https://www.nrel.gov/international/india.html), 2026.*
+After payback, your electricity savings are pure return. Over a 25-year panel life, a 1kW system at ₹7/unit tariff can save over ₹2.3 lakh in total, on a net system investment of ₹45,000. That is more than a 5× return before accounting for tariff escalation. India's solar irradiance data confirms that most regions receive 4.0 to 6.0 peak sun hours daily, supporting these generation estimates. *Source - [NREL India Solar Resource Data](https://www.nrel.gov/international/india.html), 2026.*
 
 ## The 3-Question 1kW System Suitability Test
 
@@ -130,20 +130,20 @@ This framework helps you decide in under 3 minutes whether a 1kW system is the r
 
 If all three answers check out, a 1kW on-grid system is a strong first step into solar for your home.
 
-## PM Surya Ghar Subsidy - Step-by-Step Process for 1kW
+## PM Surya Ghar Subsidy: Step-by-Step Process for 1kW
 
 The PM Surya Ghar Muft Bijli Yojana subsidy is available to all residential consumers with a valid electricity connection in India. Here is the process for a 1kW system:
 
-- **Step 1** - Register on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) with your electricity consumer number, Aadhaar, and mobile number.
-- **Step 2** - Select an empanelled vendor from your DISCOM's list. Only empanelled vendors can install subsidy-eligible systems.
-- **Step 3** - The vendor submits the application and technical documents to the DISCOM for feasibility approval.
-- **Step 4** - After feasibility is approved (7–30 days), the vendor installs the system.
-- **Step 5** - The DISCOM inspector visits to verify the installation and activate the net meter.
-- **Step 6** - You submit your bank account details on the portal. The ₹30,000 subsidy is transferred within 30 days of verification.
+- **Step 1**: Register on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) with your electricity consumer number, Aadhaar, and mobile number.
+- **Step 2**: Select an empanelled vendor from your DISCOM's list. Only empanelled vendors can install subsidy-eligible systems.
+- **Step 3**: The vendor submits the application and technical documents to the DISCOM for feasibility approval.
+- **Step 4**: After feasibility is approved (7–30 days), the vendor installs the system.
+- **Step 5**: The DISCOM inspector visits to verify the installation and activate the net meter.
+- **Step 6**: You submit your bank account details on the portal. The ₹30,000 subsidy is transferred within 30 days of verification.
 
 The subsidy is applicable only on on-grid (grid-tied) systems. Off-grid and hybrid systems do not qualify unless the hybrid system is specifically configured for net metering under the scheme. See the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) for detailed documentation requirements.
 
-## 1kW vs 2kW - Which Size Is Right for You?
+## 1kW vs 2kW: Which Size Is Right for You?
 
 | | 1kW System | 2kW System |
 | --- | --- | --- |
@@ -179,22 +179,22 @@ Always verify the current state subsidy amount with your local DISCOM or on the 
 
 Homeowners who rush the purchase often end up with a system that underperforms or is difficult to service. Here are the most common mistakes to avoid:
 
-- **Choosing on price alone** - A ₹45,000 quotation that uses unbranded panels and a non-BIS inverter will not qualify for the subsidy and may void your home insurance. The cheapest quote is rarely the best value. India's residential solar market grew 72% in 2024 according to [JMK Research](https://jmkresearch.com/), meaning vendor quality varies widely across the market.
-- **Skipping the ALMM check** - The inverter and panels must be on the MNRE ALMM list for subsidy eligibility. Ask your vendor to show the ALMM listing certificate before signing the contract. See the [ALMM list guide](/blog/almm-list-phase-iii-guide/) for details.
-- **Ignoring shading** - Even partial shading from a water tank or building shadow can reduce a 1kW system's output by 15–30%. Ask the installer to provide a shade analysis using a Sun Surveyor tool or equivalent.
-- **Not reading the warranty card** - Some inverter warranties are "brand warranty" but backed by a company with no Indian service network. Verify that the warranty is backed by a legal Indian entity with a physical service centre.
-- **Accepting a verbal net-metering guarantee** - Net-metering approval is the DISCOM's decision. Ensure your installer handles the application and gives you a written timeline commitment with a refund clause if approval is denied.
+- **Choosing on price alone**: A ₹45,000 quotation that uses unbranded panels and a non-BIS inverter will not qualify for the subsidy and may void your home insurance. The cheapest quote is rarely the best value. India's residential solar market grew 72% in 2024 according to [JMK Research](https://jmkresearch.com/), meaning vendor quality varies widely across the market.
+- **Skipping the ALMM check**: The inverter and panels must be on the MNRE ALMM list for subsidy eligibility. Ask your vendor to show the ALMM listing certificate before signing the contract. See the [ALMM list guide](/blog/almm-list-phase-iii-guide/) for details.
+- **Ignoring shading**: Even partial shading from a water tank or building shadow can reduce a 1kW system's output by 15–30%. Ask the installer to provide a shade analysis using a Sun Surveyor tool or equivalent.
+- **Not reading the warranty card**: Some inverter warranties are "brand warranty" but backed by a company with no Indian service network. Verify that the warranty is backed by a legal Indian entity with a physical service centre.
+- **Accepting a verbal net-metering guarantee**: Net-metering approval is the DISCOM's decision. Ensure your installer handles the application and gives you a written timeline commitment with a refund clause if approval is denied.
 
 Read the full [solar inverter buying mistakes guide](/blog/solar-inverter-buying-mistakes/) before you sign anything.
 
 ## Where Qbits Fits
 
-For a 1kW on-grid system, the inverter is the most critical specification decision - it determines your monitoring capability, warranty coverage, and grid compatibility. Qbits on-grid inverters are BIS-certified, ALMM-listed, and tuned for India's 180–270V grid range, which means they continue operating during the voltage sags common in Tier-2/3 towns rather than tripping offline and losing generation.
+For a 1kW on-grid system, the inverter is the most critical specification decision, it determines your monitoring capability, warranty coverage, and grid compatibility. Qbits on-grid inverters are BIS-certified, ALMM-listed, and tuned for India's 180–270V grid range, which means they continue operating during the voltage sags common in Tier-2/3 towns rather than tripping offline and losing generation.
 
-The 12-year full replacement warranty on Qbits inverters is particularly relevant for a 1kW residential system - because the inverter is the component most likely to need attention in the first decade, and a warranty backed by an Indian entity means someone actually picks up the phone when you call.
+The 12-year full replacement warranty on Qbits inverters is particularly relevant for a 1kW residential system, because the inverter is the component most likely to need attention in the first decade, and a warranty backed by an Indian entity means someone actually picks up the phone when you call.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - ALMM-listed 1 kW and 1.5 kW units, subsidy-eligible, BIS-certified, compatible with all major panel brands.
-- **[String Sizing Calculator](/string-sizing-calculator/)** - Verify your panel-string configuration matches the inverter's MPPT input range before ordering.
-- **[Authorised Service Partners](/authorized-service-partners/)** - Pincode-searchable installer network; 72-hour RMA SLA applies from the moment you log a ticket.
+- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed 1 kW and 1.5 kW units, subsidy-eligible, BIS-certified, compatible with all major panel brands.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: Verify your panel-string configuration matches the inverter's MPPT input range before ordering.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable installer network; 72-hour RMA SLA applies from the moment you log a ticket.
 
-Request a quote with your electricity bill and roof measurements at [contact us](/contact-us/) - Qbits ships to 280+ Indian cities and most quotes come back within 24 hours.
+Request a quote with your electricity bill and roof measurements at [contact us](/contact-us/), Qbits ships to 280+ Indian cities and most quotes come back within 24 hours.

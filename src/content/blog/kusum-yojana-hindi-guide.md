@@ -1,6 +1,6 @@
 ---
 title: "KUSUM Yojana Kya Hai - किसानों के लिए Solar Subsidy Guide (2026)"
-excerpt: "KUSUM Yojana 2026: kisan solar pump subsidy, Component A/B/C explain, apply kaise karein, kitni subsidy milegi - poori jankari Hindi mein। PM Surya Ghar se kya fark hai।"
+excerpt: "KUSUM Yojana 2026: kisan solar pump subsidy, Component A/B/C explain, apply kaise karein, kitni subsidy milegi, poori jankari Hindi mein। PM Surya Ghar se kya fark hai।"
 category: "Policy"
 date: 2026-06-05
 readTime: "13 min"
@@ -31,17 +31,17 @@ faqs:
     a: "KUSUM Component B solar pump installation की total timeline 3 से 12 महीने है - state और application process के हिसाब से। Rajasthan और Gujarat में faster processing है; Bihar और Odisha में ज्यादा time लगता है। Central portal नहीं है, इसलिए state-wise variability ज्यादा है।"
 ---
 
-KUSUM Yojana India के किसानों के लिए सबसे बड़ी solar subsidy scheme है - लेकिन इसकी जानकारी शहरी लोगों की तरह widespread नहीं है। किसान जो diesel pump पर हज़ारों रुपए महीने खर्च करते हैं, वो KUSUM के through solar pump install करके उसे permanently eliminate कर सकते हैं - 60% subsidy के साथ। इस guide में पूरी जानकारी है।
+KUSUM Yojana India के किसानों के लिए सबसे बड़ी solar subsidy scheme है (लेकिन इसकी जानकारी शहरी लोगों की तरह widespread नहीं है। किसान जो diesel pump पर हज़ारों रुपए महीने खर्च करते हैं, वो KUSUM के through solar pump install करके उसे permanently eliminate कर सकते हैं) 60% subsidy के साथ। इस guide में पूरी जानकारी है।
 
 > **एक line में जवाब।** KUSUM Yojana किसानों को solar pump subsidy देती है - 60% (30% central + 30% state)। तीन components हैं: land lease (A), standalone solar pump (B), और grid-connected pump solarisation (C)। PM Surya Ghar homeowners के लिए है; KUSUM farmers के लिए।
 
 According to [MNRE KUSUM portal](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2025 तक 2 lakh+ standalone solar pumps KUSUM Component B के under install हो चुके हैं। Target 3.5 million farmers तक scheme पहुँचाना है। अभी scheme active है और applications open हैं।
 
-## KUSUM Yojana Kya Hai - Three Components
+## KUSUM Yojana Kya Hai: Three Components
 
 KUSUM का full form: **K**isan **U**rja **S**uraksha evam **U**tthaan **M**ahabhiyan।
 
-### Component A - Decentralised Solar Plants on Agricultural Land
+### Component A: Decentralised Solar Plants on Agricultural Land
 
 **किसके लिए:** Large landholders जिनके पास barren, fallow, या marginal agricultural land हो।
 
@@ -55,7 +55,7 @@ KUSUM का full form: **K**isan **U**rja **S**uraksha evam **U**tthaan **M**ah
 
 **Benefit:** Unproductive land से regular income, no investment required from farmer।
 
-### Component B - Standalone Solar Pumps (Off-Grid)
+### Component B: Standalone Solar Pumps (Off-Grid)
 
 **किसके लिए:** किसान जिनके पास grid connection नहीं है और diesel pump use करते हैं।
 
@@ -70,9 +70,9 @@ KUSUM का full form: **K**isan **U**rja **S**uraksha evam **U**tthaan **M**ah
 - Farmer payment: ₹1.40 lakh
 - vs Diesel cost: ₹80,000-1.50 lakh/year
 
-Payback in 1-2 years in most cases - diesel eliminate होने से।
+Payback in 1-2 years in most cases, diesel eliminate होने से।
 
-### Component C - Grid-Connected Pump Solarisation
+### Component C: Grid-Connected Pump Solarisation
 
 **किसके लिए:** किसान जिनके existing grid-connected agricultural pump हैं।
 
@@ -90,7 +90,7 @@ Payback in 1-2 years in most cases - diesel eliminate होने से।
 | 5 HP | 7.5 kW | ₹35,000-60,000 | ₹25,000-40,000 |
 | 7.5 HP | 10 kW | ₹50,000-85,000 | ₹35,000-55,000 |
 
-## KUSUM vs PM Surya Ghar - Clear Comparison
+## KUSUM vs PM Surya Ghar: Clear Comparison
 
 | Dimension | KUSUM Yojana | PM Surya Ghar |
 | --- | --- | --- |
@@ -122,12 +122,12 @@ KUSUM के लिए कोई single national portal नहीं है - st
 
 ### The KUSUM Application Framework
 
-1. **District Agriculture Department से contact करें** - KUSUM nodal officer identify करें
-2. **State portal पर register करें** - State-specific form fill करें
-3. **Documents submit करें** - Land records, Aadhaar, bank details, pump details
-4. **Survey और approval** - Government technical team survey करेगी
-5. **Vendor selection** - State-empanelled vendor से installation
-6. **Subsidy disbursement** - After inspection, 60% subsidy settled
+1. **District Agriculture Department से contact करें**: KUSUM nodal officer identify करें
+2. **State portal पर register करें**: State-specific form fill करें
+3. **Documents submit करें**: Land records, Aadhaar, bank details, pump details
+4. **Survey और approval**: Government technical team survey करेगी
+5. **Vendor selection**: State-empanelled vendor से installation
+6. **Subsidy disbursement**: After inspection, 60% subsidy settled
 
 ## Documents Required for KUSUM
 
@@ -165,19 +165,19 @@ Payback under 2 साल - diesel eliminate होने से यह one of t
 
 ## Common Mistakes KUSUM Mein
 
-- **State scheme की जानकारी न होना** - National portal पर KUSUM available नहीं है; district office जाना होगा
-- **ALMM verify न करना** - Same mistake जो PM Surya Ghar में होती है
-- **Non-empanelled vendor** - State empanelled list से ही vendor select करें
-- **Land records incomplete** - Khasra और khatoni current और mutation-corrected होनी चाहिए
-- **Farm vs home connection mix-up** - KUSUM agricultural connection के लिए, PM Surya Ghar domestic के लिए
+- **State scheme की जानकारी न होना**: National portal पर KUSUM available नहीं है; district office जाना होगा
+- **ALMM verify न करना**: Same mistake जो PM Surya Ghar में होती है
+- **Non-empanelled vendor**: State empanelled list से ही vendor select करें
+- **Land records incomplete**: Khasra और khatoni current और mutation-corrected होनी चाहिए
+- **Farm vs home connection mix-up**: KUSUM agricultural connection के लिए, PM Surya Ghar domestic के लिए
 
 ## Kya Aap Dono Le Sakte Hain?
 
 Farming household जिनके पास दोनों connections हैं:
 
-**PM Surya Ghar** - घर (domestic connection) के roof पर 3 kW solar → ₹78,000 subsidy
+**PM Surya Ghar**: घर (domestic connection) के roof पर 3 kW solar → ₹78,000 subsidy
 
-**KUSUM Component C** - खेत का agricultural pump solarise → 60% subsidy + export income
+**KUSUM Component C**: खेत का agricultural pump solarise → 60% subsidy + export income
 
 दोनों separate applications, separate systems। Both benefit एक साथ possible है - यह perfectly legal है।
 
@@ -185,17 +185,17 @@ Farming household जिनके पास दोनों connections है�
 
 Qbits on-grid string inverters KUSUM Component C (grid-connected pump solarisation) installations में ALMM-compliant solution provide करते हैं। IP66 rating outdoor agricultural installations के लिए। India-grid firmware agricultural feeder voltage variations handle करता है।
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - KUSUM Component C ke liye ALMM-listed solution
-- **[KUSUM Agricultural Solar Guide](/blog/kusum-yojana-agricultural-solar-subsidy/)** - State-wise detailed application guide
-- **[PM Surya Ghar vs KUSUM Comparison](/blog/pm-surya-ghar-vs-kusum-yojana/)** - Which scheme for you?
+- **[On-Grid Inverters](/on-grid-inverter/)**: KUSUM Component C ke liye ALMM-listed solution
+- **[KUSUM Agricultural Solar Guide](/blog/kusum-yojana-agricultural-solar-subsidy/)**: State-wise detailed application guide
+- **[PM Surya Ghar vs KUSUM Comparison](/blog/pm-surya-ghar-vs-kusum-yojana/)**: Which scheme for you?
 
 According to [IEA India data](https://www.iea.org/){target="_blank" rel="noopener"}, agricultural solar pump solarisation is one of the highest-impact programs for rural energy access in India। KUSUM target achieve होने पर India के agricultural sector का energy cost profile permanently change होगा।
 
 KUSUM application process में guidance के लिए अपने district agriculture office से contact करें, या [Qbits engineer से बात करें](/contact-us/) जो आपके area के DISCOM और state KUSUM nodal office से coordinate करने में help कर सकता है।
 
-## KUSUM Ki Success Stories - State-wise Results
+## KUSUM Ki Success Stories: State-wise Results
 
-### Rajasthan - Leading State
+### Rajasthan: Leading State
 
 Rajasthan is India's top KUSUM state. Per [MNRE KUSUM data](https://mnre.gov.in/){target="_blank" rel="noopener"}:
 - 85,000+ standalone solar pumps installed (Component B)
@@ -205,7 +205,7 @@ Rajasthan is India's top KUSUM state. Per [MNRE KUSUM data](https://mnre.gov.in/
 
 Key Rajasthan KUSUM portal: RAJKISAN portal at rajkisan.rajasthan.gov.in
 
-### Maharashtra - Component C Leader
+### Maharashtra: Component C Leader
 
 Maharashtra leads Component C (grid-connected pump solarisation):
 - 45,000+ grid-connected pumps solarised
@@ -213,14 +213,14 @@ Maharashtra leads Component C (grid-connected pump solarisation):
 - Average export income for Component C farmer: ₹45,000-80,000/year
 - Feed-in tariff: ₹3.00-3.30/unit
 
-### Gujarat - Fast Implementation
+### Gujarat: Fast Implementation
 
 Gujarat's GEDA (Gujarat Energy Development Agency) has streamlined KUSUM:
 - Application-to-installation: 4-6 months (faster than national average)
 - Online portal at geda.gujarat.gov.in
 - Additional state subsidy reduces farmer's share to 20-25%
 
-## KUSUM Application Status - Kaise Check Karein
+## KUSUM Application Status: Kaise Check Karein
 
 Different states have different status check mechanisms:
 
@@ -232,20 +232,20 @@ Different states have different status check mechanisms:
 | UP | UPNEDA office contact |
 | Bihar | District agriculture office |
 
-No single national KUSUM portal exists - this is a key difference from PM Surya Ghar. Applicants must follow up with state agencies directly.
+No single national KUSUM portal exists, this is a key difference from PM Surya Ghar. Applicants must follow up with state agencies directly.
 
-## KUSUM Mein Challenges - Kya Dhyan Rakkhein
+## KUSUM Mein Challenges: Kya Dhyan Rakkhein
 
 KUSUM is a good scheme but has implementation challenges:
 
-- **Long timelines** - 6-12 months from application to installation is common; some cases take 18+ months
-- **Vendor quality variability** - State empanelled vendor quality varies; always check ALMM compliance
-- **Subsidy release delays** - Some states have been slow to release subsidy tranches; follow up with nodal agency
-- **Incomplete land records** - A common issue for rural applications; ensure khasra/khatoni is current and mutation is updated
+- **Long timelines**: 6-12 months from application to installation is common; some cases take 18+ months
+- **Vendor quality variability**: State empanelled vendor quality varies; always check ALMM compliance
+- **Subsidy release delays**: Some states have been slow to release subsidy tranches; follow up with nodal agency
+- **Incomplete land records**: A common issue for rural applications; ensure khasra/khatoni is current and mutation is updated
 
 Despite these challenges, KUSUM provides one of the best investment returns for farmers in India. The diesel savings alone provide payback within 1-2 years in most cases, making KUSUM Component B among India's best rural investment programmes.
 
-[KUSUM agricultural solar subsidy detailed guide](/blog/kusum-yojana-agricultural-solar-subsidy/) - state-specific application processes and contacts.
+[KUSUM agricultural solar subsidy detailed guide](/blog/kusum-yojana-agricultural-solar-subsidy/), state-specific application processes and contacts.
 
 ## KUSUM Ke Liye Practical Tips
 
@@ -267,17 +267,17 @@ Despite these challenges, KUSUM provides one of the best investment returns for 
 - Solar pump controller app (अगर available हो) setup करें
 - Annual maintenance contract vendor से discuss करें
 
-According to [Saur Energy India's KUSUM tracker](https://www.saurenergy.com/){target="_blank" rel="noopener"}, farmers who proactively follow up with nodal agencies see 40% faster processing than those who wait for automatic progression. The scheme is excellent - implementation requires persistence from the farmer's side.
+According to [Saur Energy India's KUSUM tracker](https://www.saurenergy.com/){target="_blank" rel="noopener"}, farmers who proactively follow up with nodal agencies see 40% faster processing than those who wait for automatic progression. The scheme is excellent, implementation requires persistence from the farmer's side.
 
 ## KUSUM Mein Inverter Ki Zaroorat
 
 KUSUM Component B (standalone solar pump) में inverter की role critical है:
 
-- Solar pump controller (VFD - Variable Frequency Drive) panels की DC power को pump motor के लिए appropriate AC में convert करता है
+- Solar pump controller (VFD, Variable Frequency Drive) panels की DC power को pump motor के लिए appropriate AC में convert करता है
 - ALMM-listed pump controller mandatory है
 - IP65 minimum, IP66 preferred for outdoor agricultural installation
 - India-grid VFD for Component C installations should handle 150-270V input
 
 Component C installations में standard on-grid solar inverter use होता है - जो ALMM Phase III में listed होना चाहिए। [On-grid inverter specifications](/blog/solar-inverter-specifications-decoded/) में detailed technical parameters हैं।
 
-Both KUSUM and PM Surya Ghar installations benefit from choosing reliable, ALMM-listed equipment from manufacturers who provide genuine after-sales support - because in rural areas, a failed pump or inverter with no local service support creates real hardship for the farming family depending on that installation.
+Both KUSUM and PM Surya Ghar installations benefit from choosing reliable, ALMM-listed equipment from manufacturers who provide genuine after-sales support, because in rural areas, a failed pump or inverter with no local service support creates real hardship for the farming family depending on that installation.

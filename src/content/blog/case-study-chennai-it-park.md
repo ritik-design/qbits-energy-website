@@ -1,5 +1,5 @@
 ---
-title: "Case Study - 200 kW Solar at a Chennai IT Park"
+title: "Case Study, 200 kW Solar at a Chennai IT Park"
 excerpt: "How a Chennai IT park installed 200 kW of rooftop solar to cut power costs, meet ESG targets, and navigate TANGEDCO's net metering process for HT commercial connections."
 description: "Detailed case study of a 200 kW rooftop solar installation at a Chennai IT park: load profile analysis, TANGEDCO HT net metering, power quality management, ESG reporting integration, and 20-year financial model."
 category: "Case Study"
@@ -28,9 +28,9 @@ faqs:
     a: "For a 200 kW system installed at an HT commercial connection in Chennai with TANGEDCO tariff rates (approximately ₹8.5–9.5/unit for HT consumers), the financial model typically shows a simple payback period of 4.5–5.5 years with CAPEX financing, or 4.0–4.8 years when accelerated depreciation (40% in Year 1 under Income Tax Act) is applied. The 25-year IRR typically falls in the 22–28% range depending on the exact tariff category, the proportion of self-consumption vs export, and the system's specific shading and generation profile. These figures apply to installations with a capacity utilisation factor of approximately 18–20%, which is typical for Chennai's solar irradiation zone."
 ---
 
-[Data to be confirmed by Qbits ops team before publish - all generation numbers, tariff figures, project timeline details, and financial outcomes in this case study are illustrative, based on system specifications and TANGEDCO tariff orders current as of June 2026. Do not publish without verification from the client and the Qbits commercial team.]
+[Data to be confirmed by Qbits ops team before publish, all generation numbers, tariff figures, project timeline details, and financial outcomes in this case study are illustrative, based on system specifications and TANGEDCO tariff orders current as of June 2026. Do not publish without verification from the client and the Qbits commercial team.]
 
-An IT park generating revenue around the clock cannot afford power disruptions. But in Chennai - where TANGEDCO HT tariff rates have crossed ₹9/unit for high-demand commercial consumers - the electricity bill line item was large enough to attract board-level attention.
+An IT park generating revenue around the clock cannot afford power disruptions. But in Chennai (where TANGEDCO HT tariff rates have crossed ₹9/unit for high-demand commercial consumers) the electricity bill line item was large enough to attract board-level attention.
 
 This case study documents the engineering, approval, and financial journey of a 200 kW rooftop solar system installed at a Chennai IT park: how the system was designed for a 24/7 load profile, how the TANGEDCO HT net metering process was navigated, how power quality risk was managed, and what the numbers look like at month 18 of operation.
 
@@ -38,7 +38,7 @@ This case study documents the engineering, approval, and financial journey of a 
 
 ## The Facility and the Energy Problem
 
-The facility is an IT services park in the OMR (Old Mahabalipuram Road) corridor - Chennai's primary IT zone - with approximately 1,500 employees across multiple floors. The building runs 24 hours, seven days a week: server rooms, HVAC chillers, workstations during business hours, and security and server cooling through the night.
+The facility is an IT services park in the OMR (Old Mahabalipuram Road) corridor (Chennai's primary IT zone) with approximately 1,500 employees across multiple floors. The building runs 24 hours, seven days a week: server rooms, HVAC chillers, workstations during business hours, and security and server cooling through the night.
 
 **Monthly electricity profile at project start (illustrative):**
 
@@ -52,11 +52,11 @@ The facility is an IT services park in the OMR (Old Mahabalipuram Road) corridor
 | Energy charge | ₹8.60/unit (slab above 500 units/kVA) |
 | Power factor penalty trigger | < 0.85 PF |
 
-The facility management team had already implemented energy efficiency measures: LED lighting throughout, BMS-controlled HVAC scheduling, and variable frequency drives on chiller pumps. The remaining large, controllable cost was grid power - and the rooftop offered approximately 6,000 m² of usable space.
+The facility management team had already implemented energy efficiency measures: LED lighting throughout, BMS-controlled HVAC scheduling, and variable frequency drives on chiller pumps. The remaining large, controllable cost was grid power, and the rooftop offered approximately 6,000 m² of usable space.
 
-According to [TNERC's tariff order for HT commercial consumers](https://www.tnerc.com/), TANGEDCO's commercial and industrial electricity tariff has increased at approximately 5–7% compound annual growth rate over the past five years - making solar not just a present-period economics decision but a strategic hedge against future tariff escalation. At 5% annual tariff escalation, an IT park currently paying ₹2 crore/year in electricity will pay ₹3.3 crore/year a decade from now. A solar installation today locks in approximately 30–40% of that consumption at near-zero marginal cost.
+According to [TNERC's tariff order for HT commercial consumers](https://www.tnerc.com/), TANGEDCO's commercial and industrial electricity tariff has increased at approximately 5–7% compound annual growth rate over the past five years, making solar not just a present-period economics decision but a strategic hedge against future tariff escalation. At 5% annual tariff escalation, an IT park currently paying ₹2 crore/year in electricity will pay ₹3.3 crore/year a decade from now. A solar installation today locks in approximately 30–40% of that consumption at near-zero marginal cost.
 
-## Why 200 kW - the Sizing Decision
+## Why 200 kW: the Sizing Decision
 
 The temptation in commercial solar sizing is to fill every available roof space. For a 24/7 IT facility, this approach is wrong: it leads to high export during off-peak solar hours that receives a low feed-in credit rather than replacing high-tariff grid consumption.
 
@@ -66,13 +66,13 @@ The correct sizing logic for a 24/7 facility:
 
 2. **Size the solar system below the daytime floor:** A solar system generating more than the minimum daytime demand will export excess units. While exported units receive a banking credit under TANGEDCO HT net metering, the credit rate is lower than the tariff displacement rate. Staying below the daytime load floor maximises self-consumption.
 
-3. **Apply roof shading and space analysis:** After removing HVAC equipment areas, skylights, and shaded zones, 4,200 m² of usable roof was identified - enough for 350+ kW of panels. But the sizing analysis pointed to 200 kW as the self-consumption optimised figure.
+3. **Apply roof shading and space analysis:** After removing HVAC equipment areas, skylights, and shaded zones, 4,200 m² of usable roof was identified, enough for 350+ kW of panels. But the sizing analysis pointed to 200 kW as the self-consumption optimised figure.
 
 **Why 200 kW specifically:**
 
 - Peak solar output of 200 kW system: approximately 180 kWp at system level after cable and inverter losses
 - Daytime facility minimum load: 380–420 kW
-- Headroom: 200–240 kW - the facility will always absorb the entire solar output without export during business hours
+- Headroom: 200–240 kW, the facility will always absorb the entire solar output without export during business hours
 - Banking of any excess (cloudy days, weekends) handled through TANGEDCO HT net metering
 
 ## Equipment Selection and System Design
@@ -82,7 +82,7 @@ The 200 kW system uses four 50 kW three-phase on-grid inverters in a distributed
 
 1. **Roof section independence:** The four roof sections have slightly different orientations and shading profiles. Four independent MPPT sections maximise yield from each section without compromising the others. For a full list of commissioning and post-installation checks relevant to commercial systems, see the [solar annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/).
 2. **Redundancy:** If one inverter requires service, 75% of the system continues operating. For a revenue-generating IT park, total system downtime is a real cost.
-3. **Monitoring granularity:** Each inverter has independent monitoring - generation data per section is visible in the monitoring dashboard, enabling fast identification of any underperforming section.
+3. **Monitoring granularity:** Each inverter has independent monitoring, generation data per section is visible in the monitoring dashboard, enabling fast identification of any underperforming section.
 
 **Panel specification:**
 400 Wp bifacial monocrystalline panels, ALMM-listed (important for commercial systems applying for any future government scheme or banking benefit). Total array: 500 panels at 400 Wp = 200 kWp installed.
@@ -96,7 +96,7 @@ The 200 kW system uses four 50 kW three-phase on-grid inverters in a distributed
 **Earthing system:**
 Separate GI earth electrode array for the PV system, bonded to the facility's existing earthing system per IS 3043. For coastal Chennai, earthing resistance target was below 2Ω - achieved with deep-driven copper-clad rods and chemical earthing compound.
 
-## TANGEDCO HT Net Metering - The Approval Process
+## TANGEDCO HT Net Metering: The Approval Process
 
 This was the most complex and time-consuming element of the project. For HT connections, TANGEDCO requires a dedicated protection relay panel that provides the following protection functions before net metering approval:
 
@@ -106,7 +106,7 @@ This was the most complex and time-consuming element of the project. For HT conn
 - Earth fault protection (64 relay)
 - Anti-islanding protection per IEC 62116
 
-The protection relay panel must be inspected and approved by the TANGEDCO chief engineer before the system can be energised and connected to the net metering arrangement. [IEC 62116 - Test Procedures for Anti-Islanding Protection](https://www.iec.ch/homepage) is the international standard that governs inverter anti-islanding testing, ensuring that grid-connected solar systems disconnect within 2 seconds of utility grid loss.
+The protection relay panel must be inspected and approved by the TANGEDCO chief engineer before the system can be energised and connected to the net metering arrangement. [IEC 62116, Test Procedures for Anti-Islanding Protection](https://www.iec.ch/homepage) is the international standard that governs inverter anti-islanding testing, ensuring that grid-connected solar systems disconnect within 2 seconds of utility grid loss.
 
 **Approval timeline (illustrative):**
 
@@ -134,14 +134,14 @@ IT parks have power quality requirements that standard commercial solar deployme
 
 **How the solar system addressed power quality:**
 
-The selected 50 kW inverters include internal IGBT-based filtering that maintains output THD below 3% across the entire operating range - well within the 5% limit specified in [IEEE 519-2022 (Harmonic Control in Electric Power Systems)](https://www.ieee.org/). For guidance on evaluating inverter THD specifications during procurement, see [how to read solar inverter datasheets](/blog/how-to-read-solar-inverter-datasheets/). The inverters are configured for voltage-following operation (not voltage-forming) so they cannot create voltage instability in the LT bus.
+The selected 50 kW inverters include internal IGBT-based filtering that maintains output THD below 3% across the entire operating range, well within the 5% limit specified in [IEEE 519-2022 (Harmonic Control in Electric Power Systems)](https://www.ieee.org/). For guidance on evaluating inverter THD specifications during procurement, see [how to read solar inverter datasheets](/blog/how-to-read-solar-inverter-datasheets/). The inverters are configured for voltage-following operation (not voltage-forming) so they cannot create voltage instability in the LT bus.
 
-The facility's existing UPS infrastructure (double-conversion type, feeding server rooms directly) provides an additional layer of isolation - server equipment never sees the raw LT bus directly. The solar inverters feed into the LT bus before the UPS input, so the UPS absorbs any minor power quality variation.
+The facility's existing UPS infrastructure (double-conversion type, feeding server rooms directly) provides an additional layer of isolation, server equipment never sees the raw LT bus directly. The solar inverters feed into the LT bus before the UPS input, so the UPS absorbs any minor power quality variation.
 
 **What the facility did NOT do (and why):**
 The original scope included a battery system alongside the solar panels, on the assumption that batteries would improve power quality and backup duration. For the full CAPEX vs RESCO framework used for commercial decisions, the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/) provides the decision matrix including battery storage scenarios. After analysis, this was not recommended: the existing double-conversion UPS already provides clean power and battery backup for the server rooms. Adding a solar-side battery would cost ₹35–50 lakh with no power quality benefit (the UPS already provides this) and minimal financial benefit (the 24/7 load means self-consumption is already high without storage).
 
-## Generation Performance - Month 1–18 Data (Illustrative)
+## Generation Performance: Month 1–18 Data (Illustrative)
 
 **Annual generation estimate at design stage:**
 - Installed capacity: 200 kWp
@@ -149,11 +149,11 @@ The original scope included a battery system alongside the solar panels, on the 
 - System efficiency: 77% (after cable losses, inverter efficiency, soiling losses, temperature derating)
 - Estimated annual generation: 2.65–2.85 lakh kWh/year
 
-**Observed generation - month 18 cumulative (illustrative, to be verified):**
+**Observed generation, month 18 cumulative (illustrative, to be verified):**
 - Cumulative generation: approximately 3.90 lakh kWh across 18 months
 - Monthly average: approximately 21,700 kWh (consistent with design estimate of 22,000 kWh/month)
-- Peak month: March (longest clear-sky days before monsoon) - 26,800 kWh
-- Lowest month: November (northeast monsoon, cloud cover) - 14,200 kWh
+- Peak month: March (longest clear-sky days before monsoon), 26,800 kWh
+- Lowest month: November (northeast monsoon, cloud cover), 14,200 kWh
 - Self-consumption rate: 76% (facility absorbed 76% of generation directly; 24% exported to TANGEDCO under banking arrangement)
 
 **Generation by season (illustrative):**
@@ -165,7 +165,7 @@ The original scope included a battery system alongside the solar panels, on the 
 | Post-monsoon | October–November | 13,000–16,000 | Northeast monsoon cloud |
 | Winter (dry) | December–January | 20,000–23,000 | Clear skies, good yields |
 
-## Financial Analysis - 20-Year Model
+## Financial Analysis: 20-Year Model
 
 **Capital expenditure (illustrative):**
 
@@ -181,7 +181,7 @@ The original scope included a battery system alongside the solar panels, on the 
 | Installation and commissioning | ₹7,00,000 |
 | **Total CAPEX** | **₹1,01,00,000 (₹1.01 crore)** |
 
-**Cost per Wp installed:** ₹50.5/Wp - within the ₹45–58/Wp range typical for quality HT commercial installations in 2025–26.
+**Cost per Wp installed:** ₹50.5/Wp, within the ₹45–58/Wp range typical for quality HT commercial installations in 2025–26.
 
 **Annual savings at Year 1 (illustrative):**
 
@@ -215,7 +215,7 @@ For the IT company operating this park, the solar installation is a reportable i
 **Client sustainability reporting:**
 Several multinational IT clients of this park require annual sustainability data from their facility providers as part of their own Scope 3 reporting. The inverter monitoring system provides exportable monthly generation logs in kWh format that can be shared directly with client sustainability teams.
 
-The facility management team uses the monitoring data - available through the inverter manufacturer's cloud portal - to auto-populate their ESG dashboard monthly. This removes the manual data collection process that previously required three person-days per quarter.
+The facility management team uses the monitoring data (available through the inverter manufacturer's cloud portal) to auto-populate their ESG dashboard monthly. This removes the manual data collection process that previously required three person-days per quarter.
 
 ## Key Learnings for EPC Teams and Facility Managers
 
@@ -233,10 +233,10 @@ The facility management team uses the monitoring data - available through the in
 
 Qbits' TLD three-phase on-grid inverters were selected for this installation based on three criteria that matter specifically for commercial HT applications: output THD below 3% (protecting IT load quality), active continuous isolation monitoring for ground fault detection, and cloud monitoring with API-accessible generation data for ESG reporting integration.
 
-- **[On-Grid Inverters - TLD Three-Phase Series](/on-grid-inverter/)** - three-phase commercial inverters from 10 kW to 60 kW per unit, with THD < 3% and IP66 coastal protection.
-- **[C&I Solutions](/c-i-solution/)** - Qbits' full commercial and industrial solar range including large string inverter configurations.
-- **[3-Phase Solar Inverter Guide](/blog/3-phase-solar-inverter/)** - technical guide to three-phase solar requirements for commercial and industrial installations.
-- **[Solar IRR and Payback Guide for C&I](/blog/solar-irr-payback-ci-india/)** - the full 20-year financial model framework for commercial solar decisions.
-- **[How to Evaluate Solar EPC Bids](/blog/how-to-evaluate-solar-epc-bids/)** - 15-criteria checklist for commercial procurement teams.
+- **[On-Grid Inverters, TLD Three-Phase Series](/on-grid-inverter/)**: three-phase commercial inverters from 10 kW to 60 kW per unit, with THD < 3% and IP66 coastal protection.
+- **[C&I Solutions](/c-i-solution/)**: Qbits' full commercial and industrial solar range including large string inverter configurations.
+- **[3-Phase Solar Inverter Guide](/blog/3-phase-solar-inverter/)**: technical guide to three-phase solar requirements for commercial and industrial installations.
+- **[Solar IRR and Payback Guide for C&I](/blog/solar-irr-payback-ci-india/)**: the full 20-year financial model framework for commercial solar decisions.
+- **[How to Evaluate Solar EPC Bids](/blog/how-to-evaluate-solar-epc-bids/)**: 15-criteria checklist for commercial procurement teams.
 
-For IT parks, hospitals, educational institutions, or other 24/7 commercial facilities considering rooftop solar, [talk to a Qbits engineer](/contact-us/) - our commercial team can develop a site-specific generation estimate, HT net metering strategy, and financial model within 5 working days.
+For IT parks, hospitals, educational institutions, or other 24/7 commercial facilities considering rooftop solar, [talk to a Qbits engineer](/contact-us/), our commercial team can develop a site-specific generation estimate, HT net metering strategy, and financial model within 5 working days.

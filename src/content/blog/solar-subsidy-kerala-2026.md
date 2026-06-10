@@ -1,6 +1,6 @@
 ---
-title: "Solar Subsidy in Kerala 2026 - KSEB Process and Reality Check"
-excerpt: "Solar subsidy in Kerala 2026 gives PM Surya Ghar up to ₹78,000 for 3 kW via KSEB - but expect 90–120 day timelines, monsoon generation loss, and KSEB bureaucracy."
+title: "Solar Subsidy in Kerala 2026, KSEB Process and Reality Check"
+excerpt: "Solar subsidy in Kerala 2026 gives PM Surya Ghar up to ₹78,000 for 3 kW via KSEB, but expect 90–120 day timelines, monsoon generation loss, and KSEB bureaucracy."
 description: "Solar subsidy in Kerala 2026: PM Surya Ghar amounts, KSEB net-metering steps and real timelines, monsoon shadow effects, Kerala state policy, and an honest homeowner case."
 category: "Policy"
 date: 2026-06-05
@@ -35,15 +35,15 @@ faqs:
 featured: false
 ---
 
-Kerala's solar subsidy story in 2026 requires an honest framing that many installers skip: the state has lower irradiance than most Indian states, the single DISCOM (KSEB) has a notoriously complex net metering bureaucracy that extends timelines to 90–120 days, and the five-to-six month monsoon season reduces annual generation significantly. None of this makes rooftop solar a bad decision in Kerala - the economics still work, particularly given Kerala's higher electricity tariffs - but understanding the realistic timeline and generation expectations before signing a contract is essential.
+Kerala's solar subsidy story in 2026 requires an honest framing that many installers skip: the state has lower irradiance than most Indian states, the single DISCOM (KSEB) has a notoriously complex net metering bureaucracy that extends timelines to 90–120 days, and the five-to-six month monsoon season reduces annual generation significantly. None of this makes rooftop solar a bad decision in Kerala (the economics still work, particularly given Kerala's higher electricity tariffs) but understanding the realistic timeline and generation expectations before signing a contract is essential.
 
 The central PM Surya Ghar subsidy of ₹78,000 for a 3 kW system is fully available to Kerala homeowners. The financial case is sound. The KSEB process requires patience and active follow-up.
 
-> **Kerala's solar subsidy in 2026 is the central PM Surya Ghar scheme: up to ₹78,000 for a 3 kW residential system.** Kerala does not currently offer a separate state top-up. KSEB, the sole DISCOM, handles net metering applications with end-to-end timelines of 90 to 120 days - longer than most Indian states. Annual generation in Kerala (4.2 kWh/m²/day average) is 15 to 30 percent lower than in Karnataka or Tamil Nadu, but Kerala's higher electricity tariffs (₹6–₹9/unit) maintain competitive economics. Payback of 4 to 5 years post-subsidy is realistic for most Kerala homeowners.
+> **Kerala's solar subsidy in 2026 is the central PM Surya Ghar scheme: up to ₹78,000 for a 3 kW residential system.** Kerala does not currently offer a separate state top-up. KSEB, the sole DISCOM, handles net metering applications with end-to-end timelines of 90 to 120 days, longer than most Indian states. Annual generation in Kerala (4.2 kWh/m²/day average) is 15 to 30 percent lower than in Karnataka or Tamil Nadu, but Kerala's higher electricity tariffs (₹6–₹9/unit) maintain competitive economics. Payback of 4 to 5 years post-subsidy is realistic for most Kerala homeowners.
 
 This honest framing is the starting point. The [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the national scheme; this post adds the Kerala-specific reality.
 
-## What PM Surya Ghar Provides in Kerala - The Central Subsidy
+## What PM Surya Ghar Provides in Kerala: The Central Subsidy
 
 The central PM Surya Ghar Muft Bijli Yojana, administered through [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/), provides subsidies at standardised national rates:
 
@@ -54,11 +54,11 @@ The central PM Surya Ghar Muft Bijli Yojana, administered through [pmsuryaghar.g
 | 3 kW | ₹30,000 (first 2 kW) + ₹18,000 (third kW) | ₹78,000 |
 | Above 3 kW | Capped at 3 kW equivalent | ₹78,000 maximum |
 
-> **₹78,000.** The maximum central subsidy for a 3 kW residential system - disbursed directly to the homeowner's bank account after KSEB commissioning is confirmed on the national portal. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
+> **₹78,000.** The maximum central subsidy for a 3 kW residential system, disbursed directly to the homeowner's bank account after KSEB commissioning is confirmed on the national portal. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 To qualify, the installation must use ALMM-listed panels, a BIS-certified inverter, and a KSEB-empanelled installer. Verification of empanelment is especially important in Kerala's growing but uneven solar installer market. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains the verification process.
 
-## Kerala's Irradiance Reality - Honest Generation Numbers
+## Kerala's Irradiance Reality: Honest Generation Numbers
 
 Before calculating payback, Kerala homeowners need accurate generation estimates. The table below shows average annual generation for a 3 kW system across Kerala's major cities, compared to higher-irradiance states.
 
@@ -72,9 +72,9 @@ Before calculating payback, Kerala homeowners need accurate generation estimates
 | Bangalore (comparison) | 5.2 kWh/m²/day | ~5,040 kWh |
 | Jaipur (comparison) | 5.5 kWh/m²/day | ~5,600 kWh |
 
-> **4.2 kWh/m²/day.** Average solar irradiance in Kochi - approximately 20 percent lower than Bangalore and 30 percent lower than Jaipur, with significant seasonal variation due to Kerala's dual monsoon seasons. *Source - [NREL Global Solar Atlas](https://globalsolaratlas.info/), 2026.*
+> **4.2 kWh/m²/day.** Average solar irradiance in Kochi, approximately 20 percent lower than Bangalore and 30 percent lower than Jaipur, with significant seasonal variation due to Kerala's dual monsoon seasons. *Source - [NREL Global Solar Atlas](https://globalsolaratlas.info/), 2026.*
 
-These numbers should be the basis for payback calculations - not peak summer month figures that are 40 to 60 percent higher than the annual average.
+These numbers should be the basis for payback calculations, not peak summer month figures that are 40 to 60 percent higher than the annual average.
 
 ## The 5-Pillar Kerala Solar Application Framework
 
@@ -82,36 +82,36 @@ Navigating the KSEB subsidy process requires completing five steps in sequence. 
 
 ### The 5-Pillar Kerala Solar Application Framework
 
-1. **PM Surya Ghar portal registration** - Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your KSEB consumer number, Aadhaar details, and bank information before installation begins. This step is non-negotiable in sequence - KSEB has rejected subsidy claims where installation preceded registration.
+1. **PM Surya Ghar portal registration**: Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your KSEB consumer number, Aadhaar details, and bank information before installation begins. This step is non-negotiable in sequence, KSEB has rejected subsidy claims where installation preceded registration.
 
-2. **KSEB technical feasibility** - Submit application through the national portal (routed to KSEB) or at your KSEB section office. A KSEB assistant engineer visits to assess your meter board, connection capacity, and structural suitability. This is the first major delay point - expect 30 to 45 days. Kerala's distributed population and complex distribution infrastructure (hilly terrain, dense vegetation creating access challenges) contribute to the longer timeline.
+2. **KSEB technical feasibility**: Submit application through the national portal (routed to KSEB) or at your KSEB section office. A KSEB assistant engineer visits to assess your meter board, connection capacity, and structural suitability. This is the first major delay point, expect 30 to 45 days. Kerala's distributed population and complex distribution infrastructure (hilly terrain, dense vegetation creating access challenges) contribute to the longer timeline.
 
-3. **ALMM-compliant installation** - Install only after written KSEB feasibility approval. Use ALMM-listed panels and a BIS-certified inverter. The [ALMM list guide](/blog/almm-list-phase-iii-guide/) explains how to verify current-quarter ALMM status for the specific models in your quote.
+3. **ALMM-compliant installation**: Install only after written KSEB feasibility approval. Use ALMM-listed panels and a BIS-certified inverter. The [ALMM list guide](/blog/almm-list-phase-iii-guide/) explains how to verify current-quarter ALMM status for the specific models in your quote.
 
-4. **KSEB inspection and meter change** - After installation, KSEB sends a section engineer to inspect the work. Following approval, the meter change to a bidirectional unit occurs - typically within 30 to 45 days of the inspection, though backlogs in some sections can extend this.
+4. **KSEB inspection and meter change**: After installation, KSEB sends a section engineer to inspect the work. Following approval, the meter change to a bidirectional unit occurs, typically within 30 to 45 days of the inspection, though backlogs in some sections can extend this.
 
-5. **Subsidy disbursement** - After KSEB confirms commissioning on the PM Surya Ghar portal, the central subsidy transfers to your bank account within 30 days. Kerala does not have a separate state-level disbursement mechanism.
+5. **Subsidy disbursement**: After KSEB confirms commissioning on the PM Surya Ghar portal, the central subsidy transfers to your bank account within 30 days. Kerala does not have a separate state-level disbursement mechanism.
 
-## KSEB Net Metering - The Process and the Real Timeline
+## KSEB Net Metering: The Process and the Real Timeline
 
-KSEB is Kerala's sole electricity distribution company - a public sector utility serving the entire state. Unlike states with multiple private DISCOMs, all Kerala solar applications go through a single organisation. This is both a simplification (one portal, one process) and a bottleneck (no competition-driven efficiency improvement).
+KSEB is Kerala's sole electricity distribution company, a public sector utility serving the entire state. Unlike states with multiple private DISCOMs, all Kerala solar applications go through a single organisation. This is both a simplification (one portal, one process) and a bottleneck (no competition-driven efficiency improvement).
 
 **KSEB net metering application sequence**:
 
-- **Application** - Through pmsuryaghar.gov.in (which routes to KSEB's backend) or at the local KSEB section office. Online is preferred; physical submission sometimes required in areas with poor digital connectivity.
-- **Site inspection scheduling** - KSEB schedules an assistant engineer visit. Section offices in urban areas (Ernakulam, Thiruvananthapuram) typically schedule within 15 to 20 days; rural sections in Wayanad, Idukki, and Palakkad may take 30 to 40 days.
-- **Feasibility report** - After inspection, the KSEB engineer submits a feasibility report to the section office for approval. This internal KSEB process can take 10 to 20 additional days.
-- **Empanelled installer proceeds** - Once KSEB issues the feasibility approval letter, the installation proceeds. Installers should not begin earlier regardless of informal assurances.
-- **Post-installation inspection request** - Consumer (or installer) submits a commissioning inspection request to KSEB after physical installation is complete.
-- **Meter change order** - KSEB approves the meter change. The actual bidirectional meter installation - physically replacing the old meter - typically takes 30 to 45 days due to equipment procurement and technician scheduling constraints.
+- **Application**: Through pmsuryaghar.gov.in (which routes to KSEB's backend) or at the local KSEB section office. Online is preferred; physical submission sometimes required in areas with poor digital connectivity.
+- **Site inspection scheduling**: KSEB schedules an assistant engineer visit. Section offices in urban areas (Ernakulam, Thiruvananthapuram) typically schedule within 15 to 20 days; rural sections in Wayanad, Idukki, and Palakkad may take 30 to 40 days.
+- **Feasibility report**: After inspection, the KSEB engineer submits a feasibility report to the section office for approval. This internal KSEB process can take 10 to 20 additional days.
+- **Empanelled installer proceeds**: Once KSEB issues the feasibility approval letter, the installation proceeds. Installers should not begin earlier regardless of informal assurances.
+- **Post-installation inspection request**: Consumer (or installer) submits a commissioning inspection request to KSEB after physical installation is complete.
+- **Meter change order**: KSEB approves the meter change. The actual bidirectional meter installation (physically replacing the old meter) typically takes 30 to 45 days due to equipment procurement and technician scheduling constraints.
 
-**Honest assessment**: KSEB's net metering process is slower than comparable DISCOMs in most other Indian states. The delay is not a matter of bad faith - it reflects Kerala's complex distribution infrastructure, hilly terrain creating field access challenges, and a public-sector workforce that is staffed for steady-state distribution maintenance rather than the high volume of solar applications that have arrived in the past 18 months.
+**Honest assessment**: KSEB's net metering process is slower than comparable DISCOMs in most other Indian states. The delay is not a matter of bad faith, it reflects Kerala's complex distribution infrastructure, hilly terrain creating field access challenges, and a public-sector workforce that is staffed for steady-state distribution maintenance rather than the high volume of solar applications that have arrived in the past 18 months.
 
-Active follow-up - visiting or calling the KSEB section office every 10 to 12 days after each stage - consistently produces faster outcomes than passive waiting.
+Active follow-up (visiting or calling the KSEB section office every 10 to 12 days after each stage) consistently produces faster outcomes than passive waiting.
 
-## The Monsoon Shadow Effect - What It Does to Your Generation
+## The Monsoon Shadow Effect: What It Does to Your Generation
 
-Kerala's geography creates a generation pattern fundamentally different from most Indian states. Two monsoon seasons - the southwest monsoon (June–September) and the northeast monsoon (October–November) - combine to give Kerala five to six months of significantly reduced solar irradiance.
+Kerala's geography creates a generation pattern fundamentally different from most Indian states. Two monsoon seasons (the southwest monsoon (June–September) and the northeast monsoon (October–November)) combine to give Kerala five to six months of significantly reduced solar irradiance.
 
 **Monthly generation estimate for a 3 kW system in Kochi**:
 
@@ -131,11 +131,11 @@ Kerala's geography creates a generation pattern fundamentally different from mos
 | December | 360 kWh | +8% |
 | **Annual total** | **~3,590 kWh** | - |
 
-The June–September window generates roughly 780 kWh - 22 percent of annual generation - despite being four of twelve months. Billing calculations based on April peak generation will overestimate the annual bill reduction by a substantial margin. Use the annual total for payback projections.
+The June–September window generates roughly 780 kWh (22 percent of annual generation) despite being four of twelve months. Billing calculations based on April peak generation will overestimate the annual bill reduction by a substantial margin. Use the annual total for payback projections.
 
 This seasonal profile does have one useful consequence: Kerala's annual banking mechanism under KSERC net metering allows surplus generation from January–May to be banked against deficit months (June–November), preventing waste of peak-season surplus.
 
-## Kerala State Solar Policy - ANERT's Role
+## Kerala State Solar Policy: ANERT's Role
 
 ANERT (Agency for Non-conventional Energy and Rural Technology) under the Kerala government serves as the state nodal agency for renewable energy. ANERT has administered several state-level initiatives including solar installations on public buildings, community solar programmes for Below Poverty Line households, and solar street lighting. For individual residential consumers pursuing PM Surya Ghar, ANERT's role is facilitative rather than direct.
 
@@ -148,17 +148,17 @@ KSEB remains the primary point of contact for all net metering applications and 
 
 ## Documents Required for Kerala Solar Subsidy
 
-- **Electricity bill** - Recent KSEB bill (within 2 months) showing consumer number, section, and tariff category
-- **Aadhaar card** - Mobile OTP-verified for PM Surya Ghar portal registration
-- **PAN card** - Required for subsidy disbursement processing
-- **Bank account proof** - Passbook or cancelled cheque; account linked to Aadhaar for direct benefit transfer
-- **Property ownership** - Sale deed (registered), patta (land records), or property tax receipt from the relevant Panchayat or Municipality
-- **For apartments** - Apartment owners association NOC; many Kerala apartment complexes have active associations whose approval process varies from straightforward to complex
-- **Rooftop photographs** - Multiple views; Kerala's dense vegetation and urban shade from nearby coconut palms or buildings should be documented
-- **Technical feasibility form** - Completed by KSEB-empanelled installer with proposed system design and single-line diagram
-- **ALMM compliance certificates** - For both panels and inverter, specifically confirming current-quarter ALMM listing
+- **Electricity bill**: Recent KSEB bill (within 2 months) showing consumer number, section, and tariff category
+- **Aadhaar card**: Mobile OTP-verified for PM Surya Ghar portal registration
+- **PAN card**: Required for subsidy disbursement processing
+- **Bank account proof**: Passbook or cancelled cheque; account linked to Aadhaar for direct benefit transfer
+- **Property ownership**: Sale deed (registered), patta (land records), or property tax receipt from the relevant Panchayat or Municipality
+- **For apartments**: Apartment owners association NOC; many Kerala apartment complexes have active associations whose approval process varies from straightforward to complex
+- **Rooftop photographs**: Multiple views; Kerala's dense vegetation and urban shade from nearby coconut palms or buildings should be documented
+- **Technical feasibility form**: Completed by KSEB-empanelled installer with proposed system design and single-line diagram
+- **ALMM compliance certificates**: For both panels and inverter, specifically confirming current-quarter ALMM listing
 
-## Timeline - The Honest Picture for Kerala in 2026
+## Timeline: The Honest Picture for Kerala in 2026
 
 | Stage | Best Case | Realistic | Challenging (rural/complex) |
 | --- | --- | --- | --- |
@@ -170,9 +170,9 @@ KSEB remains the primary point of contact for all net metering applications and 
 | Subsidy disbursement | 25 days | 30 days | 35 days |
 | **Total** | **93 days** | **127–156 days** | **176–213 days** |
 
-The "realistic" column - 127 to 156 days - is what most Thiruvananthapuram and Kochi urban applicants experience. Coastal urban areas closer to KSEB section offices with higher staff density tend toward the better end. Interior districts (Wayanad, Idukki, Palakkad) should plan for the "challenging" column.
+The "realistic" column (127 to 156 days) is what most Thiruvananthapuram and Kochi urban applicants experience. Coastal urban areas closer to KSEB section offices with higher staff density tend toward the better end. Interior districts (Wayanad, Idukki, Palakkad) should plan for the "challenging" column.
 
-## A Kerala Homeowner Case Example - Kochi, 3 kW System
+## A Kerala Homeowner Case Example: Kochi, 3 kW System
 
 Anitha Pillai owns an independent house in Edapally, Kochi, served by KSEB. Monthly electricity bill: ₹3,200 (350–400 units per month in non-monsoon months, dropping to 200–250 units in heavy monsoon months when air conditioning is rarely used).
 
@@ -190,9 +190,9 @@ Anitha Pillai owns an independent house in Edapally, Kochi, served by KSEB. Mont
 - Total annual benefit: approximately ₹27,275
 - Post-subsidy payback: approximately 4.3 years
 
-**KSEB experience**: Anitha submitted her application in November 2025. KSEB technical feasibility assessment was scheduled 22 days later. The inspector visited on day 30. Feasibility approval letter arrived on day 44. Installation was completed in December 2025 (7 days). Post-installation inspection request submitted immediately. KSEB inspection took 18 days. Meter change took 42 days - the main bottleneck. First solar net meter bill: February 2026. Subsidy credited to bank account: 29 days after commissioning. Total: 131 days.
+**KSEB experience**: Anitha submitted her application in November 2025. KSEB technical feasibility assessment was scheduled 22 days later. The inspector visited on day 30. Feasibility approval letter arrived on day 44. Installation was completed in December 2025 (7 days). Post-installation inspection request submitted immediately. KSEB inspection took 18 days. Meter change took 42 days, the main bottleneck. First solar net meter bill: February 2026. Subsidy credited to bank account: 29 days after commissioning. Total: 131 days.
 
-**Honest assessment from Anitha**: "The KSEB process requires persistence. Visiting the section office twice was necessary to keep the meter change on schedule. The savings are real - my summer bills dropped by ₹2,100 per month in March and April. But anyone who expects this to be done in 60 days will be disappointed."
+**Honest assessment from Anitha**: "The KSEB process requires persistence. Visiting the section office twice was necessary to keep the meter change on schedule. The savings are real, my summer bills dropped by ₹2,100 per month in March and April. But anyone who expects this to be done in 60 days will be disappointed."
 
 ## Pros and Cons of Going Solar in Kerala in 2026
 
@@ -207,11 +207,11 @@ The [on-grid vs hybrid decision guide](/blog/on-grid-vs-hybrid/) is worth readin
 
 ## Common Mistakes Kerala Solar Applicants Make
 
-- **Expecting Gujarat-speed timelines** - Vendors who promise 45-day commissioning in Kerala are either inexperienced with the KSEB process or overstating. 90 to 120 days is the realistic planning number.
-- **Using peak summer generation for payback calculations** - February and March generation numbers in Kerala are 40 to 60 percent higher than the annual average. Payback calculations must use annual totals.
-- **Choosing IP65 over IP66 in coastal Kerala** - Salt-laden coastal air in Kochi, Kozhikode, and Thrissur accelerates corrosion in standard IP65 enclosures. For coastal homeowners, the IP66 premium is a genuine protection investment. The [IP66 vs IP65 comparison](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) quantifies the difference.
-- **Not accounting for shading from vegetation** - Kerala's lush vegetation means coconut palms, banana trees, and neighbouring buildings create shading patterns that reduce effective shadow-free area. A pre-installation shading analysis by the vendor is essential.
-- **Paying in full before KSEB feasibility approval** - Some Kerala installers request 70 to 80 percent upfront. Limit advance payment to 30 to 40 percent before the KSEB feasibility approval arrives; the balance should follow commissioning.
+- **Expecting Gujarat-speed timelines**: Vendors who promise 45-day commissioning in Kerala are either inexperienced with the KSEB process or overstating. 90 to 120 days is the realistic planning number.
+- **Using peak summer generation for payback calculations**: February and March generation numbers in Kerala are 40 to 60 percent higher than the annual average. Payback calculations must use annual totals.
+- **Choosing IP65 over IP66 in coastal Kerala**: Salt-laden coastal air in Kochi, Kozhikode, and Thrissur accelerates corrosion in standard IP65 enclosures. For coastal homeowners, the IP66 premium is a genuine protection investment. The [IP66 vs IP65 comparison](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) quantifies the difference.
+- **Not accounting for shading from vegetation**: Kerala's lush vegetation means coconut palms, banana trees, and neighbouring buildings create shading patterns that reduce effective shadow-free area. A pre-installation shading analysis by the vendor is essential.
+- **Paying in full before KSEB feasibility approval**: Some Kerala installers request 70 to 80 percent upfront. Limit advance payment to 30 to 40 percent before the KSEB feasibility approval arrives; the balance should follow commissioning.
 
 The [net metering India complete guide](/blog/net-metering-india-complete-guide/) and the [how to apply net metering guide](/blog/how-to-apply-net-metering-india/) together explain the full billing mechanics that apply to KSEB's annual banking system.
 
@@ -219,10 +219,10 @@ The [net metering India complete guide](/blog/net-metering-india-complete-guide/
 
 Kerala's climate creates specific demands on inverter hardware that go beyond the basics: coastal humidity and salt-laden air, monsoon rainfall intensity, and the dense vegetation environments that trap heat around rooftop equipment. An inverter that works well in Delhi's dry heat may fail early in Kochi's humid coastal conditions.
 
-Qbits IP66-rated inverters provide full enclosure protection against both the fine spray of Kerala's monsoon and the salt-laden coastal atmosphere - not just the water splash resistance of IP65. India-grid-tuned firmware handles KSEB's 230 V distribution grid, including the voltage variations common in KSEB's older coastal distribution networks. The 12-year full replacement warranty covers the full system productive life, eliminating the inverter replacement cost risk that appears in years 6 to 8. BIS and ALMM compliance ensures PM Surya Ghar subsidy eligibility without documentation complications.
+Qbits IP66-rated inverters provide full enclosure protection against both the fine spray of Kerala's monsoon and the salt-laden coastal atmosphere, not just the water splash resistance of IP65. India-grid-tuned firmware handles KSEB's 230 V distribution grid, including the voltage variations common in KSEB's older coastal distribution networks. The 12-year full replacement warranty covers the full system productive life, eliminating the inverter replacement cost risk that appears in years 6 to 8. BIS and ALMM compliance ensures PM Surya Ghar subsidy eligibility without documentation complications.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed, IP66 rated, suitable for KSEB applications across coastal and interior Kerala.
-- **[Hybrid Inverters](/hybrid-inverter/)** - HS and HT series for Kerala homeowners in areas with periodic KSEB outages or those who want battery backup to smooth monsoon generation variation.
-- **[String Sizing Calculator](/string-sizing-calculator/)** - Confirm your panel-string configuration against Kerala's lower-voltage string performance in monsoon conditions.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed, IP66 rated, suitable for KSEB applications across coastal and interior Kerala.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for Kerala homeowners in areas with periodic KSEB outages or those who want battery backup to smooth monsoon generation variation.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm your panel-string configuration against Kerala's lower-voltage string performance in monsoon conditions.
 
-[Talk to a Qbits engineer](/contact-us/) about your Kerala rooftop - a realistic generation estimate for your specific district, KSEB section, and shading conditions takes under 24 hours and will give you an honest payback calculation before you engage any installer.
+[Talk to a Qbits engineer](/contact-us/) about your Kerala rooftop, a realistic generation estimate for your specific district, KSEB section, and shading conditions takes under 24 hours and will give you an honest payback calculation before you engage any installer.

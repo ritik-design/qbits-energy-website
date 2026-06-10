@@ -1,7 +1,7 @@
 ---
 title: "IP66 Inverters: India's Climate Survival Guide 2026"
-excerpt: "IP65 fails the first monsoon at 15%+ rates. IP66 stays below 2%. Here's why IP66 is the minimum standard for Indian solar - and how to specify it correctly."
-description: "Complete guide to IP66 weather protection for solar inverters in India - what IP66 means, regional climate threats, engineering features, financial impact (25–35% lower TCO), and installation best practices."
+excerpt: "IP65 fails the first monsoon at 15%+ rates. IP66 stays below 2%. Here's why IP66 is the minimum standard for Indian solar, and how to specify it correctly."
+description: "Complete guide to IP66 weather protection for solar inverters in India, what IP66 means, regional climate threats, engineering features, financial impact (25–35% lower TCO), and installation best practices."
 category: "Technology"
 date: 2026-04-08
 readTime: "8 min"
@@ -26,7 +26,7 @@ faqs:
     a: "Comprehensive coverage explicitly including weather-related failures when proper installation is followed. Qbits' 12-year full replacement warranty covers weather-related failures within installation specifications."
 ---
 
-Weather-resistant inverters have become essential for reliable solar installations across India's diverse climate zones - from monsoons to dust storms to coastal salt exposure.
+Weather-resistant inverters have become essential for reliable solar installations across India's diverse climate zones, from monsoons to dust storms to coastal salt exposure.
 
 ## Understanding IP66 Protection
 
@@ -117,4 +117,4 @@ Industry data: inverters below IP65 experience **failure rates exceeding 15%** d
 
 ## Closing
 
-IP66 is not a marketing label - it is the engineered protection level that determines whether an inverter survives 15 years of Indian climate or fails in 3. The TCO math is overwhelming: IP66 inverters cost slightly more upfront and save 25–35% over their operational life through fewer failures, less maintenance, and longer service.
+IP66 is not a marketing label, it is the engineered protection level that determines whether an inverter survives 15 years of Indian climate or fails in 3. The TCO math is overwhelming: IP66 inverters cost slightly more upfront and save 25–35% over their operational life through fewer failures, less maintenance, and longer service.

@@ -1,6 +1,6 @@
 ---
-title: "Case Study - 5 kW Hybrid Solar on a 3 BHK in Lucknow"
-excerpt: "How a Lucknow family cut their electricity bill by 82% and eliminated power-cut disruption with a 5 kW hybrid solar system and PM Surya Ghar subsidy - the complete journey."
+title: "Case Study, 5 kW Hybrid Solar on a 3 BHK in Lucknow"
+excerpt: "How a Lucknow family cut their electricity bill by 82% and eliminated power-cut disruption with a 5 kW hybrid solar system and PM Surya Ghar subsidy, the complete journey."
 description: "Real case study of a 5 kW hybrid solar installation on a 3 BHK home in Lucknow, UP. Covers PM Surya Ghar subsidy claim, hybrid inverter + LFP battery selection, UPPCL net metering, and first-year bill analysis."
 category: "Case Study"
 date: 2026-06-05
@@ -28,11 +28,11 @@ faqs:
     a: "Solar monitoring app language support varies by manufacturer. At present, most Indian solar monitoring apps operate in English only, although some brands offer a simplified SMS-based alert system in regional languages. WhatsApp alerts for alarm events (low battery, grid trip, generation drop) are typically sent in English. The family in this case study had their son - fluent in English - set up the monitoring app and explain the key metrics in Hindi for the parents. Qbits is developing a Hindi interface for its monitoring app based on demand from UP, Rajasthan, and Bihar markets where many homeowners are more comfortable in Hindi - expected availability is Q4 2026."
 ---
 
-[Data to be confirmed by Qbits ops team before publish - all bill figures, generation numbers, battery performance data, and subsidy claim timelines in this case study are illustrative. The family name and specific address are withheld for privacy. Final data must be verified against actual UPPCL bills, system monitoring logs, and PM Surya Ghar disbursement records before publication.]
+[Data to be confirmed by Qbits ops team before publish, all bill figures, generation numbers, battery performance data, and subsidy claim timelines in this case study are illustrative. The family name and specific address are withheld for privacy. Final data must be verified against actual UPPCL bills, system monitoring logs, and PM Surya Ghar disbursement records before publication.]
 
-In Lucknow, power cuts are a fact of life for many residential colonies - not the two-hour afternoon load shedding that other cities face, but 4–6 hours of unannounced interruptions in summer, and occasional 8–10 hour rural-style outages in peri-urban areas during peak agricultural season.
+In Lucknow, power cuts are a fact of life for many residential colonies, not the two-hour afternoon load shedding that other cities face, but 4–6 hours of unannounced interruptions in summer, and occasional 8–10 hour rural-style outages in peri-urban areas during peak agricultural season.
 
-For the Verma family - parents in their sixties and an adult son who works from home - the combination of an ₹5,000 monthly UPPCL bill and unreliable power was the motivation to explore solar. What followed was a seven-month journey from initial enquiry to a fully operational 5 kW hybrid solar system with battery backup, a PM Surya Ghar subsidy application, and UPPCL net metering.
+For the Verma family (parents in their sixties and an adult son who works from home) the combination of an ₹5,000 monthly UPPCL bill and unreliable power was the motivation to explore solar. What followed was a seven-month journey from initial enquiry to a fully operational 5 kW hybrid solar system with battery backup, a PM Surya Ghar subsidy application, and UPPCL net metering.
 
 > **Direct answer.** A 5 kW hybrid solar system with 10 kWh LFP battery, installed in Lucknow, UP, typically costs ₹3.8–4.5 lakh after the PM Surya Ghar subsidy of ₹78,000. UPPCL net metering in Lucknow takes 30–45 days. Year 1 bill reduction is typically 75–85% for a family with daytime home occupation and moderate AC use.
 
@@ -48,14 +48,14 @@ The Verma household is a three-bedroom apartment in a residential colony in sout
 
 **Pre-solar monthly UPPCL bill: approximately ₹4,800–5,200 (illustrative)**
 
-UPPCL's domestic LT tariff in Lucknow has fixed charges plus energy slabs - consumption above 300 units/month attracts higher per-unit charges, and the family consistently exceeded 350–400 units in summer months. [UPPCL's retail tariff order](https://www.uppcl.org/) shows domestic consumers in urban Lucknow paying ₹5.50–₹6.50/unit above 300 units - among the higher domestic slabs in UP. The son's work-from-home setup meant the flat's base load was higher than a typical double-income home where both adults are out during the day. For a breakdown of how net metering billing works with UPPCL, the [solar net metering guide](/blog/solar-net-metering-india/) covers the mechanics across Indian DISCOMs.
+UPPCL's domestic LT tariff in Lucknow has fixed charges plus energy slabs, consumption above 300 units/month attracts higher per-unit charges, and the family consistently exceeded 350–400 units in summer months. [UPPCL's retail tariff order](https://www.uppcl.org/) shows domestic consumers in urban Lucknow paying ₹5.50–₹6.50/unit above 300 units, among the higher domestic slabs in UP. The son's work-from-home setup meant the flat's base load was higher than a typical double-income home where both adults are out during the day. For a breakdown of how net metering billing works with UPPCL, the [solar net metering guide](/blog/solar-net-metering-india/) covers the mechanics across Indian DISCOMs.
 
 **The power-cut problem:**
-Their colony experienced summer power cuts ranging from 2 hours to 6 hours - the longer outages occurring during peak demand periods in May and June. The family had an old lead-acid UPS with 150 Ah batteries that provided approximately 45 minutes of fan and light backup. It could not support the AC or the induction cooktop. The son, who needed a stable internet connection for video calls, found even 2-hour cuts disruptive.
+Their colony experienced summer power cuts ranging from 2 hours to 6 hours, the longer outages occurring during peak demand periods in May and June. The family had an old lead-acid UPS with 150 Ah batteries that provided approximately 45 minutes of fan and light backup. It could not support the AC or the induction cooktop. The son, who needed a stable internet connection for video calls, found even 2-hour cuts disruptive.
 
-Their primary requirement for solar was **not** bill reduction - it was reliable backup power for at least 4–5 hours, including for one AC during the hottest nights.
+Their primary requirement for solar was **not** bill reduction, it was reliable backup power for at least 4–5 hours, including for one AC during the hottest nights.
 
-## Why Hybrid - the Decision Logic
+## Why Hybrid: the Decision Logic
 
 Before the quotation stage, the family spent considerable time understanding the difference between on-grid and hybrid solar. The son researched several resources, including the [on-grid vs hybrid solar guide](/blog/on-grid-vs-hybrid/), before forming a clear preference.
 
@@ -75,25 +75,25 @@ For the Verma family, the power cut backup requirement was non-negotiable. The h
 ## System Specification
 
 **Solar panels:**
-10 × 500 Wp monocrystalline panels = 5 kWp installed. ALMM-listed panels were specified to qualify for PM Surya Ghar subsidy. The panels were mounted on the apartment building's rooftop - the family owns the top-floor flat and had right-of-access to the roof. Mounting was done on a mild steel hot-dip galvanised structure at the optimal tilt angle for Lucknow (approximately 26° from horizontal, matching the city's latitude).
+10 × 500 Wp monocrystalline panels = 5 kWp installed. ALMM-listed panels were specified to qualify for PM Surya Ghar subsidy. The panels were mounted on the apartment building's rooftop, the family owns the top-floor flat and had right-of-access to the roof. Mounting was done on a mild steel hot-dip galvanised structure at the optimal tilt angle for Lucknow (approximately 26° from horizontal, matching the city's latitude).
 
 **Hybrid inverter:**
-5 kW single-phase hybrid inverter with battery management system. The inverter supports both on-grid mode (selling excess to grid via net metering) and battery backup mode (powering home loads during grid outages). A solar-first configuration was programmed - the inverter uses solar generation first, then battery, and draws from grid only when both are insufficient.
+5 kW single-phase hybrid inverter with battery management system. The inverter supports both on-grid mode (selling excess to grid via net metering) and battery backup mode (powering home loads during grid outages). A solar-first configuration was programmed, the inverter uses solar generation first, then battery, and draws from grid only when both are insufficient.
 
 **Battery storage:**
 10 kWh LFP (lithium iron phosphate) battery module, 48V architecture. LFP was chosen over lead-acid for three reasons: 3,500+ cycle life at 80% depth of discharge (vs 300–500 cycles for lead-acid), no water topping-up maintenance, and lower weight for rooftop installation. At 80% usable depth: 8 kWh of usable backup capacity. For a deeper comparison of battery chemistries for Indian residential use, see the [solar battery price guide](/blog/solar-battery-price-guide-india-2026/).
 
 **Backup load design:**
-The inverter was wired to feed a separate backup circuit - not the entire flat's electrical load. This is common practice in Indian hybrid solar installations to prevent overloading the inverter during a grid cut. The backup circuit includes:
+The inverter was wired to feed a separate backup circuit, not the entire flat's electrical load. This is common practice in Indian hybrid solar installations to prevent overloading the inverter during a grid cut. The backup circuit includes:
 - One 1.5-tonne inverter-type AC (0.8 kW running)
 - Refrigerator (0.15 kW)
 - All LED lights and fans (0.1 kW + 0.12 kW)
 - Router and laptop setup (0.08 kW)
 - **Total backup load:** approximately 1.25 kW
 
-At 1.25 kW load, the 8 kWh usable battery provides approximately 6–6.5 hours of backup - covering all expected UPPCL outage durations with comfortable margin.
+At 1.25 kW load, the 8 kWh usable battery provides approximately 6–6.5 hours of backup, covering all expected UPPCL outage durations with comfortable margin.
 
-## PM Surya Ghar Subsidy - the Application Process
+## PM Surya Ghar Subsidy: the Application Process
 
 The family applied for PM Surya Ghar Muft Bijli Yojana through the [national portal (pmsuryaghar.gov.in)](https://pmsuryaghar.gov.in/). The installer registered as an empanelled vendor on the portal before the application could be submitted. For a pre-check of your own eligibility, see the [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/).
 
@@ -103,7 +103,7 @@ The family applied for PM Surya Ghar Muft Bijli Yojana through the [national por
 - The remaining 2 kW of the 5 kW system and the 10 kWh battery are not subsidy-eligible
 
 **How the subsidy was claimed:**
-The installer submitted the subsidy application on behalf of the family after UPPCL inspection and system commissioning. The subsidy is disbursed directly from [MNRE](https://mnre.gov.in/) to the installer's bank account - the family paid the net-of-subsidy amount at the time of installation.
+The installer submitted the subsidy application on behalf of the family after UPPCL inspection and system commissioning. The subsidy is disbursed directly from [MNRE](https://mnre.gov.in/) to the installer's bank account, the family paid the net-of-subsidy amount at the time of installation.
 
 **Total cost structure (illustrative):**
 
@@ -119,7 +119,7 @@ The installer submitted the subsidy application on behalf of the family after UP
 
 **Net cost to family: approximately ₹3.62 lakh** for the complete system.
 
-## UPPCL Net Metering - Timeline and Process
+## UPPCL Net Metering: Timeline and Process
 
 UPPCL's net metering process for Lucknow (LESA area) involves:
 
@@ -129,11 +129,11 @@ UPPCL's net metering process for Lucknow (LESA area) involves:
 4. **Bidirectional meter installation:** LESA installs a net metering bidirectional meter (replacing the existing single-direction meter).
 5. **System energisation:** The connection is formally approved and the system begins feeding excess generation to the grid.
 
-**Timeline for this installation: 38 days from application to energisation** (illustrative - actual timeline to be confirmed from UPPCL records).
+**Timeline for this installation: 38 days from application to energisation** (illustrative, actual timeline to be confirmed from UPPCL records).
 
-The family found the net metering process required follow-up - specifically, a reminder call to the subdivision office to schedule the site inspection after 20 days of no communication. Once the inspection was completed, the meter installation happened within a week.
+The family found the net metering process required follow-up, specifically, a reminder call to the subdivision office to schedule the site inspection after 20 days of no communication. Once the inspection was completed, the meter installation happened within a week.
 
-## First Year - Generation and Bill Analysis
+## First Year: Generation and Bill Analysis
 
 **Monthly generation profile (illustrative):**
 
@@ -150,7 +150,7 @@ The family found the net metering process required follow-up - specifically, a r
 | October | 610 | 598 | Post-monsoon recovery |
 | **Year 1 total** | **7,230** | **7,038** | **97.4% of design estimate** |
 
-**Key observation - January fog:** Lucknow's dense winter fog (December–January) is a specific generation loss factor not always accounted for in basic solar calculators. The system produced only 521 kWh in January against a design estimate of 580 kWh - an 11% shortfall due to fog. Homeowners in UP, Bihar, and north India should apply a fog discount of 10–15% to January–February generation estimates.
+**Key observation, January fog:** Lucknow's dense winter fog (December–January) is a specific generation loss factor not always accounted for in basic solar calculators. The system produced only 521 kWh in January against a design estimate of 580 kWh, an 11% shortfall due to fog. Homeowners in UP, Bihar, and north India should apply a fog discount of 10–15% to January–February generation estimates.
 
 **UPPCL bill comparison:**
 
@@ -162,9 +162,9 @@ The family found the net metering process required follow-up - specifically, a r
 | October | ₹4,900 | ₹850 | 83% |
 | **Year 1 average** | **₹4,950** | **₹1,070** | **78%** |
 
-Annual bill saving Year 1: approximately ₹46,600 (illustrative - to be verified against actual UPPCL bills).
+Annual bill saving Year 1: approximately ₹46,600 (illustrative, to be verified against actual UPPCL bills).
 
-## Power Cut Experience - Before and After
+## Power Cut Experience: Before and After
 
 This was the family's primary motivation, and the results exceeded expectations.
 
@@ -190,7 +190,7 @@ The family received low-battery WhatsApp alerts when SOC dropped below 25%, whic
 Key metrics the son tracks weekly:
 - Yesterday's generation (kWh)
 - Monthly generation vs previous month
-- Battery SOH (state-of-health) - remains at 100% at month 14 of operation
+- Battery SOH (state-of-health), remains at 100% at month 14 of operation
 - UPPCL net meter reading (cross-checked with UPPCL bill)
 
 ## Simple Payback Calculation
@@ -211,15 +211,15 @@ Key metrics the son tracks weekly:
 
 **Simple payback period: approximately 7.5–8 years** for the hybrid system (including battery). This is longer than a pure on-grid system (4–5 years) but includes the power-backup value that the family prioritised. For families in power-cut zones, the hybrid premium is a quality-of-life investment as much as a financial one.
 
-## North India Solar Context - Why UP Is a High-Potential Market
+## North India Solar Context: Why UP Is a High-Potential Market
 
-The Verma family's experience sits within a rapidly expanding solar market. According to [MNRE's PM Surya Ghar dashboard](https://pmsuryaghar.gov.in/), Uttar Pradesh has registered over 2.5 lakh applications under the scheme as of early 2026 - one of the highest state-level uptakes in India. The state's combination of high electricity tariffs (UPPCL domestic rates above ₹6.50/unit for higher slabs), frequent load shedding in non-metro areas, and abundant solar irradiance (GHI of 5.2–5.6 kWh/m²/day across most of UP) makes rooftop solar economically compelling.
+The Verma family's experience sits within a rapidly expanding solar market. According to [MNRE's PM Surya Ghar dashboard](https://pmsuryaghar.gov.in/), Uttar Pradesh has registered over 2.5 lakh applications under the scheme as of early 2026, one of the highest state-level uptakes in India. The state's combination of high electricity tariffs (UPPCL domestic rates above ₹6.50/unit for higher slabs), frequent load shedding in non-metro areas, and abundant solar irradiance (GHI of 5.2–5.6 kWh/m²/day across most of UP) makes rooftop solar economically compelling.
 
 [IRENA's 2025 Renewable Power Generation Costs report](https://www.irena.org/publications/2025/Jun/Renewable-power-generation-costs-in-2024) confirms that utility-scale and rooftop solar costs in South Asia have fallen 12–18% over the past three years, with residential systems in India now among the most cost-competitive in the world. This cost reduction is directly reflected in the Verma family's sub-₹4 lakh net-of-subsidy system cost for a hybrid installation.
 
 [JMK Research's India Rooftop Solar Q1 2026 Report](https://jmkresearch.com/) notes that hybrid inverter adoption in residential solar is accelerating in north India, driven by grid unreliability and the increased affordability of LFP batteries. UP, Rajasthan, and Bihar together account for over 35% of new hybrid system registrations in 2025.
 
-The [India Meteorological Department's fog hazard data](https://mausam.imd.gov.in/) confirms that dense fog (visibility below 200 m) is most frequent in the IGP belt - including Lucknow - between 15 December and 20 January, with fog-days averaging 18–22 per year in Lucknow city. This is a material solar generation variable that the [Mercom India solar market tracker](https://mercomindia.com/) notes is underrepresented in generic pan-India generation calculators.
+The [India Meteorological Department's fog hazard data](https://mausam.imd.gov.in/) confirms that dense fog (visibility below 200 m) is most frequent in the IGP belt (including Lucknow) between 15 December and 20 January, with fog-days averaging 18–22 per year in Lucknow city. This is a material solar generation variable that the [Mercom India solar market tracker](https://mercomindia.com/) notes is underrepresented in generic pan-India generation calculators.
 
 For EPC companies and system designers working in north India: fog-adjusted design estimates should reduce January–February generation assumptions by 10–15% compared to NREL's PVWATTS output for Lucknow coordinates.
 
@@ -227,20 +227,20 @@ For EPC companies and system designers working in north India: fog-adjusted desi
 
 In a follow-up conversation 12 months post-installation, three retrospective observations emerged:
 
-1. **Battery size was right.** A 10 kWh battery was the correct choice for their load and outage pattern. They initially considered a 7.5 kWh battery to save ₹30,000 - but the installer recommended 10 kWh for the AC load, and the family is glad they followed the advice.
+1. **Battery size was right.** A 10 kWh battery was the correct choice for their load and outage pattern. They initially considered a 7.5 kWh battery to save ₹30,000, but the installer recommended 10 kWh for the AC load, and the family is glad they followed the advice.
 
-2. **Consider a rooftop panel cleaning schedule.** The family cleaned the panels twice themselves in year 1 - the installer recommended quarterly in Lucknow due to dust and winter particulate matter. In January, visible dust on the panels (before cleaning) was reducing output by approximately 8–12% compared to post-cleaning.
+2. **Consider a rooftop panel cleaning schedule.** The family cleaned the panels twice themselves in year 1, the installer recommended quarterly in Lucknow due to dust and winter particulate matter. In January, visible dust on the panels (before cleaning) was reducing output by approximately 8–12% compared to post-cleaning.
 
 3. **Fog is real.** Their online solar calculator (a generic pan-India tool) did not apply a fog discount. Actual January output was 10% below estimate. North Indian homeowners should ask their installer specifically about fog-adjusted estimates for November–February.
 
 ## Where Qbits Fits
 
-The Verma family's system used a Qbits HS-5 hybrid inverter with AI WhatsApp monitoring. The family's key feedback on the inverter was the advance low-SOC alert - the WhatsApp notification arriving 15 minutes before the audible alarm, allowing them to switch off the second AC before the battery alarm activated.
+The Verma family's system used a Qbits HS-5 hybrid inverter with AI WhatsApp monitoring. The family's key feedback on the inverter was the advance low-SOC alert, the WhatsApp notification arriving 15 minutes before the audible alarm, allowing them to switch off the second AC before the battery alarm activated.
 
-- **[Hybrid Inverters - HS and HT Series](/hybrid-inverter/)** - single-phase and three-phase hybrid inverters from 3 kW to 10 kW with battery management, WhatsApp alerts, and PM Surya Ghar compliance.
-- **[Battery Sizing Guide](/blog/battery-sizing-hybrid-solar/)** - how to calculate the right battery capacity for your overnight load and power-cut duration requirements.
-- **[PM Surya Ghar Subsidy Amount](/blog/pm-surya-ghar-subsidy-amount/)** - complete breakdown of the ₹78,000 subsidy calculation, eligibility rules, and disbursement timeline.
-- **[Solar Year 1 Ownership Guide](/blog/solar-year-1-ownership-guide-india/)** - what to expect in the first 12 months as a new solar homeowner.
-- **[PM Surya Ghar Application Steps](/blog/pm-surya-ghar-apply-online/)** - step-by-step portal guide for UP residents applying under the national scheme.
+- **[Hybrid Inverters, HS and HT Series](/hybrid-inverter/)**: single-phase and three-phase hybrid inverters from 3 kW to 10 kW with battery management, WhatsApp alerts, and PM Surya Ghar compliance.
+- **[Battery Sizing Guide](/blog/battery-sizing-hybrid-solar/)**: how to calculate the right battery capacity for your overnight load and power-cut duration requirements.
+- **[PM Surya Ghar Subsidy Amount](/blog/pm-surya-ghar-subsidy-amount/)**: complete breakdown of the ₹78,000 subsidy calculation, eligibility rules, and disbursement timeline.
+- **[Solar Year 1 Ownership Guide](/blog/solar-year-1-ownership-guide-india/)**: what to expect in the first 12 months as a new solar homeowner.
+- **[PM Surya Ghar Application Steps](/blog/pm-surya-ghar-apply-online/)**: step-by-step portal guide for UP residents applying under the national scheme.
 
-For families in Lucknow, Kanpur, Varanasi, Agra, and other UP cities considering hybrid solar with UPPCL net metering, [talk to a Qbits engineer](/contact-us/) - our UP service network can provide a site-specific assessment, fog-adjusted generation estimate, and PM Surya Ghar subsidy calculation.
+For families in Lucknow, Kanpur, Varanasi, Agra, and other UP cities considering hybrid solar with UPPCL net metering, [talk to a Qbits engineer](/contact-us/), our UP service network can provide a site-specific assessment, fog-adjusted generation estimate, and PM Surya Ghar subsidy calculation.

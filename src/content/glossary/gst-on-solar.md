@@ -150,7 +150,7 @@ Business customer:
 1. Pays 12% GST on solar equipment purchase
 2. Collects 18% GST on power sales (if applicable) or other output
 3. Claims ITC on solar GST against output GST
-4. Net cash outflow = output GST - input GST credit
+4. Net cash outflow = output GST, input GST credit
 
 ## Real-world applications
 

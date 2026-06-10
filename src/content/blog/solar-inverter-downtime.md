@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Downtime: 15 Critical Questions Answered"
 excerpt: "Every hour of inverter downtime is lost revenue. A 100 kW commercial system loses ₹2,000–3,500/day. Here's the complete framework for minimising it."
-description: "15 critical questions on solar inverter downtime - causes, financial impact, monitoring solutions, preventive maintenance, weather protection, and warranty-based protection strategies for Indian installations."
+description: "15 critical questions on solar inverter downtime, causes, financial impact, monitoring solutions, preventive maintenance, weather protection, and warranty-based protection strategies for Indian installations."
 category: "Maintenance"
 date: 2026-04-08
 readTime: "8 min"
@@ -36,8 +36,8 @@ Downtime refers to periods when inverters fail to convert DC to AC electricity. 
 
 - **Component degradation and failure** (especially capacitors)
 - **Grid voltage fluctuations** (±20% or more in many Indian regions)
-- **Environmental factors** - dust, moisture, corrosion
-- **Installation quality issues** - loose connections, inadequate ventilation
+- **Environmental factors**: dust, moisture, corrosion
+- **Installation quality issues**: loose connections, inadequate ventilation
 - **Lack of preventive maintenance**
 
 ## Financial Impact
@@ -93,4 +93,4 @@ Downtime refers to periods when inverters fail to convert DC to AC electricity. 
 
 ## Closing
 
-Inverter downtime is not an inevitability - it is an outcome of equipment choice, installation quality, monitoring rigour, and maintenance discipline. Every 1% uptime improvement on a 100 kW commercial system is worth ₹15,000+ annually. Make the upfront investments in monitoring and weather protection, and downtime stops being a meaningful project risk.
+Inverter downtime is not an inevitability, it is an outcome of equipment choice, installation quality, monitoring rigour, and maintenance discipline. Every 1% uptime improvement on a 100 kW commercial system is worth ₹15,000+ annually. Make the upfront investments in monitoring and weather protection, and downtime stops being a meaningful project risk.

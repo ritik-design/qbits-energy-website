@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Noise: 10 FAQs on Sound and Silent Operation"
 excerpt: "Inverter noise is a real concern as rooftop solar moves closer to occupied spaces. Here are the decibel ranges, causes, and silent-operation technologies."
-description: "Complete FAQ on solar inverter noise - normal dB ranges, root causes, warning signs, silent-operation features, optimal placement, and noise-reduction strategies for Indian installations."
+description: "Complete FAQ on solar inverter noise, normal dB ranges, root causes, warning signs, silent-operation features, optimal placement, and noise-reduction strategies for Indian installations."
 category: "Maintenance"
 date: 2026-05-07
 readTime: "6 min"
@@ -26,7 +26,7 @@ faqs:
     a: "Yes - anti-vibration mounting pads, acoustic enclosures (with proper ventilation), firmware updates, and regular maintenance. Persistent grinding or rattling may warrant replacement."
 ---
 
-Inverter noise has become a genuine operational concern as rooftop solar proliferates across Indian residential and commercial spaces - impacting customer satisfaction and project reputation.
+Inverter noise has become a genuine operational concern as rooftop solar proliferates across Indian residential and commercial spaces, impacting customer satisfaction and project reputation.
 
 ## Normal Noise Levels
 
@@ -38,8 +38,8 @@ Inverter noise has become a genuine operational concern as rooftop solar prolife
 
 ## Common Causes
 
-- **Cooling fan operation** - most frequent in hot Indian climates
-- **Transformer hum** - older designs
+- **Cooling fan operation**: most frequent in hot Indian climates
+- **Transformer hum**: older designs
 - **Loose components and poor mounting**
 - **Grid fluctuations** causing electrical interference
 - **Capacitor and coil whine** from switching electronics
@@ -62,7 +62,7 @@ Inverter noise has become a genuine operational concern as rooftop solar prolife
 
 Modern inverters minimise noise through:
 
-- **Variable-speed fans** - only spin up when needed
+- **Variable-speed fans**: only spin up when needed
 - **Transformerless high-frequency topologies**
 - **Advanced thermal management**
 - **Precision-engineered components**
@@ -116,4 +116,4 @@ Modern inverters minimise noise through:
 
 ## Closing
 
-A quiet inverter usually signals overall build quality - efficient thermal management, durable components, and extended operational life. Specify noise level alongside efficiency and warranty when comparing units, particularly for residential or near-occupied installations.
+A quiet inverter usually signals overall build quality, efficient thermal management, durable components, and extended operational life. Specify noise level alongside efficiency and warranty when comparing units, particularly for residential or near-occupied installations.

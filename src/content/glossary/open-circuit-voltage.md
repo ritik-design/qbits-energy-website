@@ -87,7 +87,7 @@ CEIG approval. SLD must demonstrate string Voc within limits.
 
 ## Cold Voc calculation
 
-Voc(cold) = Voc(STC) × (1 + β × (T_min - 25))
+Voc(cold) = Voc(STC) × (1 + β × (T_min, 25))
 
 Where:
 - β = Voc temperature coefficient (typically -0.0027 for PERC)

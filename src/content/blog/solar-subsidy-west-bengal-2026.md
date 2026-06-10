@@ -1,5 +1,5 @@
 ---
-title: "Solar Subsidy in West Bengal 2026 - WBSEDCL + Central"
+title: "Solar Subsidy in West Bengal 2026, WBSEDCL + Central"
 excerpt: "Solar subsidy in West Bengal 2026 combines ₹78,000 central PM Surya Ghar with WBSEDCL net metering. Full eligibility, application process, and state-specific guide."
 category: "Policy"
 date: 2026-06-05
@@ -35,11 +35,11 @@ faqs:
     a: "The PM Surya Ghar subsidy is treated as a capital subsidy for the solar system asset - not as income. Under current Income Tax guidelines, capital subsidies received for solar rooftop installations under government schemes are not taxable as income in the hands of the recipient homeowner. However, the subsidy received reduces the depreciable cost of the asset for tax calculation purposes if you claim solar depreciation benefits. Consult a tax adviser for your specific situation."
 ---
 
-West Bengal's solar market is in an accelerating growth phase. Unlike Gujarat or Rajasthan where rooftop solar is mainstream, Bengal is still in early adoption - which means fewer vendor choices in rural districts but also less queuing at DISCOMs. The PM Surya Ghar subsidy makes financial sense for Bengal households, even with the state's moderate solar irradiance, when you factor in WBSEDCL's rising tariffs and the net metering benefit. This guide covers everything West Bengal-specific: DISCOMs, application process, irradiance data, and climate-appropriate inverter selection.
+West Bengal's solar market is in an accelerating growth phase. Unlike Gujarat or Rajasthan where rooftop solar is mainstream, Bengal is still in early adoption, which means fewer vendor choices in rural districts but also less queuing at DISCOMs. The PM Surya Ghar subsidy makes financial sense for Bengal households, even with the state's moderate solar irradiance, when you factor in WBSEDCL's rising tariffs and the net metering benefit. This guide covers everything West Bengal-specific: DISCOMs, application process, irradiance data, and climate-appropriate inverter selection.
 
 > **Direct answer.** Solar subsidy in West Bengal 2026 is the central PM Surya Ghar amount of up to ₹78,000 for a 3 kW system through WBSEDCL (or CESC for Kolkata city). No state top-up subsidy exists. WBSEDCL net metering credits exported power at approximately ₹3.30/unit. Average application-to-subsidy timeline is 60 to 90 days. Apply at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}.
 
-West Bengal's solar irradiance is moderate - 4.5 to 5.5 peak sun hours daily - placing it below Rajasthan or Gujarat but still viable for residential solar with payback periods of 6 to 8 years. According to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}, Bengal's rooftop solar installations have grown over 35% annually since 2023. The [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) provides the national framework; this guide adds Bengal-specific detail at every stage.
+West Bengal's solar irradiance is moderate, 4.5 to 5.5 peak sun hours daily, placing it below Rajasthan or Gujarat but still viable for residential solar with payback periods of 6 to 8 years. According to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}, Bengal's rooftop solar installations have grown over 35% annually since 2023. The [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) provides the national framework; this guide adds Bengal-specific detail at every stage.
 
 ## Understanding West Bengal's DISCOM Structure
 
@@ -52,7 +52,7 @@ Bengal's electricity distribution involves two main entities that matter for sol
 
 Your electricity bill header clearly states which DISCOM issues your connection. Entering the wrong DISCOM on the portal causes a consumer number mismatch that requires a full re-registration.
 
-## PM Surya Ghar Subsidy - What West Bengal Receives
+## PM Surya Ghar Subsidy: What West Bengal Receives
 
 | System Size | Central Subsidy | Approx. Bengal Cost | Net Cost After Subsidy |
 | --- | --- | --- | --- |
@@ -62,11 +62,11 @@ Your electricity bill header clearly states which DISCOM issues your connection.
 
 West Bengal installation costs tend to be slightly lower than metro markets because labour costs are lower. A competitive 3 kW installation with good quality panels and an ALMM-listed inverter should cost ₹1,65,000 to ₹1,90,000 from a reputable empanelled vendor.
 
-> **4.5–5.5 hours.** The average peak sun hours per day in West Bengal, varying by district - higher in Purulia and Bankura (closer to 5.5 hours) and lower in coastal Sundarbans areas (closer to 4.5 hours). *Source - [NREL PVWatts India Solar Resource Data](https://www.nrel.gov/){target="_blank" rel="noopener"}, 2026.*
+> **4.5–5.5 hours.** The average peak sun hours per day in West Bengal, varying by district, higher in Purulia and Bankura (closer to 5.5 hours) and lower in coastal Sundarbans areas (closer to 4.5 hours). *Source - [NREL PVWatts India Solar Resource Data](https://www.nrel.gov/){target="_blank" rel="noopener"}, 2026.*
 
-With 5 peak sun hours, a 3 kW system generates approximately 300 to 375 units per month. At an average avoided cost of ₹6/unit (mid-slab tariff), monthly savings are ₹1,800 to ₹2,250. Combined with net metering export credit at ₹3.30/unit, total monthly benefit is approximately ₹2,000 to ₹2,500 - delivering a 6 to 8 year payback on the net investment after the ₹78,000 subsidy.
+With 5 peak sun hours, a 3 kW system generates approximately 300 to 375 units per month. At an average avoided cost of ₹6/unit (mid-slab tariff), monthly savings are ₹1,800 to ₹2,250. Combined with net metering export credit at ₹3.30/unit, total monthly benefit is approximately ₹2,000 to ₹2,500, delivering a 6 to 8 year payback on the net investment after the ₹78,000 subsidy.
 
-## Financial Case - Bengal-Specific Tariff and Payback Analysis
+## Financial Case: Bengal-Specific Tariff and Payback Analysis
 
 WBERC's tariff structure makes solar most attractive for medium-to-high consumption households:
 
@@ -77,50 +77,50 @@ WBERC's tariff structure makes solar most attractive for medium-to-high consumpt
 | 250–500 units | ₹6.80/unit | ₹1,700–₹3,400 | Good |
 | Above 500 units | ₹7.20/unit | ₹3,600+ | Excellent |
 
-Households consuming above 250 units per month - typically those running 1 to 2 ACs, a refrigerator, and regular appliances - see the best solar returns. The [electricity tariff and solar economics article](/blog/electricity-tariff-hikes-solar/) provides a detailed payback model for different bill sizes.
+Households consuming above 250 units per month (typically those running 1 to 2 ACs, a refrigerator, and regular appliances) see the best solar returns. The [electricity tariff and solar economics article](/blog/electricity-tariff-hikes-solar/) provides a detailed payback model for different bill sizes.
 
-## WBSEDCL Application Process - Step by Step
+## WBSEDCL Application Process: Step by Step
 
 ### The West Bengal PM Surya Ghar Application Framework
 
-1. **Confirm your DISCOM** - Check your electricity bill header. WBSEDCL or CESC? Select accordingly on the portal.
-2. **Register on national portal** - At pmsuryaghar.gov.in, select West Bengal and WBSEDCL. Enter your 10 or 11-digit WBSEDCL consumer number from your bill.
-3. **Aadhaar OTP verification** - Complete eKYC with your Aadhaar-linked mobile OTP.
-4. **Document upload** - Upload your latest WBSEDCL bill, Aadhaar, PAN, bank passbook first page, and property ownership proof. For Kolkata area flat owners on CESC, include housing society NOC.
-5. **WBSEDCL feasibility assessment** - A WBSEDCL engineer visits your site. In Kolkata districts, this takes 10 to 15 days; in rural districts, 21 to 35 days.
-6. **Vendor selection** - Select from the portal's district-filtered empanelled vendor list. Vendor density is higher near Kolkata and Siliguri; rural districts may have fewer choices.
-7. **Installation and meter** - Installation takes 1 to 2 days. WBSEDCL installs bidirectional meter: 21 to 45 days.
-8. **Subsidy credit** - MNRE transfers the subsidy to your bank account within 30 days of inspection clearance.
+1. **Confirm your DISCOM**: Check your electricity bill header. WBSEDCL or CESC? Select accordingly on the portal.
+2. **Register on national portal**: At pmsuryaghar.gov.in, select West Bengal and WBSEDCL. Enter your 10 or 11-digit WBSEDCL consumer number from your bill.
+3. **Aadhaar OTP verification**: Complete eKYC with your Aadhaar-linked mobile OTP.
+4. **Document upload**: Upload your latest WBSEDCL bill, Aadhaar, PAN, bank passbook first page, and property ownership proof. For Kolkata area flat owners on CESC, include housing society NOC.
+5. **WBSEDCL feasibility assessment**: A WBSEDCL engineer visits your site. In Kolkata districts, this takes 10 to 15 days; in rural districts, 21 to 35 days.
+6. **Vendor selection**: Select from the portal's district-filtered empanelled vendor list. Vendor density is higher near Kolkata and Siliguri; rural districts may have fewer choices.
+7. **Installation and meter**: Installation takes 1 to 2 days. WBSEDCL installs bidirectional meter: 21 to 45 days.
+8. **Subsidy credit**: MNRE transfers the subsidy to your bank account within 30 days of inspection clearance.
 
 ## Bengal-Specific Inverter Considerations
 
 West Bengal's climate places specific demands on solar inverters:
 
-- **Monsoon protection** - Bengal receives 1,500 to 2,000 mm of annual rainfall. IP66 rated inverters are strongly recommended for outdoor installation throughout the state.
-- **Humidity resilience** - Coastal districts and Sundarbans-adjacent areas experience high year-round humidity. Look for marine-grade conformal coating on circuit boards.
-- **Voltage fluctuation** - Some WBSEDCL areas, particularly district towns, experience grid voltage fluctuations. India-grid-tuned firmware handling 180 to 270V is essential.
-- **Heat range** - West Bengal experiences temperatures from near 0 °C in north Bengal winters to 42 °C in summer. Operating range of -10 °C to 60 °C covers the full climate spread.
+- **Monsoon protection**: Bengal receives 1,500 to 2,000 mm of annual rainfall. IP66 rated inverters are strongly recommended for outdoor installation throughout the state.
+- **Humidity resilience**: Coastal districts and Sundarbans-adjacent areas experience high year-round humidity. Look for marine-grade conformal coating on circuit boards.
+- **Voltage fluctuation**: Some WBSEDCL areas, particularly district towns, experience grid voltage fluctuations. India-grid-tuned firmware handling 180 to 270V is essential.
+- **Heat range**: West Bengal experiences temperatures from near 0 °C in north Bengal winters to 42 °C in summer. Operating range of -10 °C to 60 °C covers the full climate spread.
 
-For guidance on inverter maintenance in Bengal's humid monsoon climate, see [inverter maintenance for Indian climate](/blog/inverter-maintenance-india/). The [IEC 60529 standard](https://www.iec.ch/){target="_blank" rel="noopener"} defines IP ratings - IP66 means complete dust-tight protection and resistance to powerful water jets from any direction, making it the right specification for Bengal's monsoon and coastal zones. For net metering policy specifics, the [net metering complete guide](/blog/net-metering-india-complete-guide/) covers state-by-state regulatory frameworks and WBSEDCL's specific process.
+For guidance on inverter maintenance in Bengal's humid monsoon climate, see [inverter maintenance for Indian climate](/blog/inverter-maintenance-india/). The [IEC 60529 standard](https://www.iec.ch/){target="_blank" rel="noopener"} defines IP ratings, IP66 means complete dust-tight protection and resistance to powerful water jets from any direction, making it the right specification for Bengal's monsoon and coastal zones. For net metering policy specifics, the [net metering complete guide](/blog/net-metering-india-complete-guide/) covers state-by-state regulatory frameworks and WBSEDCL's specific process.
 
 ## Common Documents Needed for West Bengal
 
 Beyond the standard PM Surya Ghar documents ([full checklist here](/blog/pm-surya-ghar-documents-required/)), West Bengal applicants should prepare:
 
-- **WBSEDCL bill (12-digit consumer number visible)** - Your specific consumer number is essential; using an old bill format with different numbering will cause lookup failure
-- **Housing society NOC** - For flat owners in Kolkata and other cities where roof is shared
-- **Patta or land record** - Rural applicants may need additional land ownership documentation as property proof
-- **Self-declaration for roof ownership** - Some rural Bengal WBSEDCL offices accept this for households without formalised title documents
+- **WBSEDCL bill (12-digit consumer number visible)**: Your specific consumer number is essential; using an old bill format with different numbering will cause lookup failure
+- **Housing society NOC**: For flat owners in Kolkata and other cities where roof is shared
+- **Patta or land record**: Rural applicants may need additional land ownership documentation as property proof
+- **Self-declaration for roof ownership**: Some rural Bengal WBSEDCL offices accept this for households without formalised title documents
 
 ## Common Mistakes West Bengal Applicants Make
 
-- **CESC vs WBSEDCL confusion** - Selecting the wrong DISCOM is the top registration error. Your bill header makes it clear.
-- **Outdated electricity bill** - WBSEDCL bills are bimonthly in many areas. Ensure your uploaded bill is from the most recent cycle (within 90 days).
-- **Non-ALMM inverter** - Some Bengal vendors source uncertified inverters locally. Verify the proposed inverter model on the [MNRE ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before signing.
-- **Rural cooperative connections** - Some rural Bengal households are served by electricity cooperatives not enrolled in PM Surya Ghar. Confirm with your cooperative before applying.
-- **Undersized system** - Bengal's moderate irradiance means a slightly larger system (3 kW instead of 2 kW) often delivers better payback relative to installation fixed costs.
+- **CESC vs WBSEDCL confusion**: Selecting the wrong DISCOM is the top registration error. Your bill header makes it clear.
+- **Outdated electricity bill**: WBSEDCL bills are bimonthly in many areas. Ensure your uploaded bill is from the most recent cycle (within 90 days).
+- **Non-ALMM inverter**: Some Bengal vendors source uncertified inverters locally. Verify the proposed inverter model on the [MNRE ALMM list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before signing.
+- **Rural cooperative connections**: Some rural Bengal households are served by electricity cooperatives not enrolled in PM Surya Ghar. Confirm with your cooperative before applying.
+- **Undersized system**: Bengal's moderate irradiance means a slightly larger system (3 kW instead of 2 kW) often delivers better payback relative to installation fixed costs.
 
-## West Bengal Solar ROI - A Numbers Case Study
+## West Bengal Solar ROI: A Numbers Case Study
 
 Consider a typical Kolkata-adjacent household in Hooghly district (WBSEDCL area) consuming 280 units per month at an average tariff of ₹6.80/unit:
 
@@ -136,18 +136,18 @@ Consider a typical Kolkata-adjacent household in Hooghly district (WBSEDCL area)
 | Total monthly benefit | ₹2,168 |
 | **Payback period** | **45–50 months** |
 
-This payback improves further as WBERC approves future tariff increases, which benefit solar owners disproportionately - each ₹1/unit tariff increase adds approximately ₹300/month in avoided costs for a 3 kW system.
+This payback improves further as WBERC approves future tariff increases, which benefit solar owners disproportionately, each ₹1/unit tariff increase adds approximately ₹300/month in avoided costs for a 3 kW system.
 
 For precise payback modelling for your Bengal district and specific consumption pattern, see the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) and the [electricity tariff and solar economics article](/blog/electricity-tariff-hikes-solar/). Households in Purulia and Bankura with higher irradiance (5.5 peak sun hours) will see faster payback than the Hooghly case above.
 
 ## Where Qbits Fits in West Bengal Solar
 
-Bengal's climate demands IP66 protection, India-grid-tuned firmware for WBSEDCL voltage ranges, and long-term reliability that matches a 25-year system life. Qbits TLS and TLD series on-grid inverters carry ALMM Phase III listing, pass WBSEDCL inspection without exceptions, and include a 12-year full replacement warranty - providing security well beyond the 6 to 8 year payback period.
+Bengal's climate demands IP66 protection, India-grid-tuned firmware for WBSEDCL voltage ranges, and long-term reliability that matches a 25-year system life. Qbits TLS and TLD series on-grid inverters carry ALMM Phase III listing, pass WBSEDCL inspection without exceptions, and include a 12-year full replacement warranty, providing security well beyond the 6 to 8 year payback period.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - ALMM Phase III listed; IP66 rated for Bengal's monsoon climate.
-- **[Hybrid Inverters](/hybrid-inverter/)** - For districts with grid reliability concerns; HS series with battery readiness.
-- **[Authorised Service Partners](/authorized-service-partners/)** - Qbits-certified installers serving Bengal districts.
-- **[Solar Inverter Certifications Guide](/blog/solar-inverter-certifications/)** - Verify ALMM listing and BIS certification for the inverter your vendor proposes.
+- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM Phase III listed; IP66 rated for Bengal's monsoon climate.
+- **[Hybrid Inverters](/hybrid-inverter/)**: For districts with grid reliability concerns; HS series with battery readiness.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Qbits-certified installers serving Bengal districts.
+- **[Solar Inverter Certifications Guide](/blog/solar-inverter-certifications/)**: Verify ALMM listing and BIS certification for the inverter your vendor proposes.
 
 According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, West Bengal is among the top 10 states by new rooftop solar installations in 2025-26. The [PM Surya Ghar documents guide](/blog/pm-surya-ghar-documents-required/) covers the complete checklist including Bengal-specific WBSEDCL and CESC requirements.
 

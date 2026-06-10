@@ -1,5 +1,5 @@
 ---
-title: "Solar CAPEX vs OPEX - Which Model Fits Your Business India?"
+title: "Solar CAPEX vs OPEX, Which Model Fits Your Business India?"
 excerpt: "Solar CAPEX vs OPEX: own the system for 18–25% IRR and 60–70% savings, or go RESCO for zero capex and 30–40% savings. The 4-question decision matrix resolves the right choice."
 category: Guide
 date: 2026-06-05
@@ -33,11 +33,11 @@ faqs:
 
 Every C&I buyer evaluating solar in India faces the same fundamental question: should the business own the solar system outright (CAPEX) or pay per unit to a RESCO (OPEX)? The answer depends not on which model is abstractly better, but on four specific factors about your business. This guide provides the financial comparison, the decision matrix, and the worked numbers to resolve the question for your specific situation.
 
-> **Direct answer.** Solar CAPEX delivers IRR of 18–25% and savings of 60–70% for Indian C&I buyers who own their building, have capital available, and have taxable income to use the 80% accelerated depreciation in Year 1. Solar OPEX (RESCO) delivers 30–40% savings with zero upfront capital - better when capital is constrained, the building is rented, or taxable income is low. The "4-Question CAPEX vs OPEX Decision Matrix" resolves the right choice in four steps.
+> **Direct answer.** Solar CAPEX delivers IRR of 18–25% and savings of 60–70% for Indian C&I buyers who own their building, have capital available, and have taxable income to use the 80% accelerated depreciation in Year 1. Solar OPEX (RESCO) delivers 30–40% savings with zero upfront capital, better when capital is constrained, the building is rented, or taxable income is low. The "4-Question CAPEX vs OPEX Decision Matrix" resolves the right choice in four steps.
 
-For a detailed explanation of the RESCO model and PPA contract terms, see [solar RESCO model India - complete guide](/blog/solar-resco-model-india-guide/).
+For a detailed explanation of the RESCO model and PPA contract terms, see [solar RESCO model India, complete guide](/blog/solar-resco-model-india-guide/).
 
-## The Core Financial Difference - CAPEX vs OPEX Numbers
+## The Core Financial Difference: CAPEX vs OPEX Numbers
 
 The financial comparison between CAPEX and OPEX cannot be reduced to a single number. It depends on five variables: grid tariff, system size, annual generation, financing cost, and tax position. The table below illustrates the comparison for a typical 100 kW C&I system in Karnataka.
 
@@ -61,21 +61,21 @@ The CAPEX model delivers approximately twice the total financial benefit over th
 
 ## The 4-Question CAPEX vs OPEX Decision Matrix
 
-Four questions determine which model wins for a specific C&I buyer. Work through them in order - the first "No" typically settles the answer.
+Four questions determine which model wins for a specific C&I buyer. Work through them in order, the first "No" typically settles the answer.
 
 ### The 4-Question CAPEX vs OPEX Decision Matrix
 
-1. **Do you own the building where the solar system will be installed?** - CAPEX requires the buyer to own the roof for the full 25-year system life, or at least have a long-term lease (15+ years) with renewal options. If the answer is No - you rent the factory, leasehold is short, or the building has multiple ownership disputes - OPEX is the default choice.
+1. **Do you own the building where the solar system will be installed?**: CAPEX requires the buyer to own the roof for the full 25-year system life, or at least have a long-term lease (15+ years) with renewal options. If the answer is No (you rent the factory, leasehold is short, or the building has multiple ownership disputes) OPEX is the default choice.
 
-2. **Do you have capital available or access to green loans at under 12% interest?** - CAPEX requires ₹35–350 lakh depending on system size (100 kW at ₹70 lakh, 500 kW at ₹3.5 crore). If capital is constrained and green loan rates exceed 12%, the CAPEX IRR may not clear internal hurdle rates. If the answer is No - consider OPEX, or explore [IREDA](https://www.ireda.in/) financing before defaulting to OPEX.
+2. **Do you have capital available or access to green loans at under 12% interest?**: CAPEX requires ₹35–350 lakh depending on system size (100 kW at ₹70 lakh, 500 kW at ₹3.5 crore). If capital is constrained and green loan rates exceed 12%, the CAPEX IRR may not clear internal hurdle rates. If the answer is No, consider OPEX, or explore [IREDA](https://www.ireda.in/) financing before defaulting to OPEX.
 
-3. **Does your company have significant taxable profit to monetise the 80% accelerated depreciation?** - The depreciation benefit is only valuable if the company has taxable income. A loss-making entity, a start-up, or a trust/not-for-profit organisation cannot use the depreciation - making CAPEX's tax advantage null. If the answer is No - CAPEX and OPEX are closer in after-tax returns; the decision shifts to capital availability and risk appetite.
+3. **Does your company have significant taxable profit to monetise the 80% accelerated depreciation?**: The depreciation benefit is only valuable if the company has taxable income. A loss-making entity, a start-up, or a trust/not-for-profit organisation cannot use the depreciation, making CAPEX's tax advantage null. If the answer is No, CAPEX and OPEX are closer in after-tax returns; the decision shifts to capital availability and risk appetite.
 
-4. **Is your IRR target 18% or above?** - If your internal hurdle rate is 15% and CAPEX delivers 22% with depreciation, CAPEX clearly clears the bar. If your hurdle rate is 25% (highly capital-efficient companies with many competing investment opportunities), a simpler OPEX arrangement preserves capital for higher-IRR alternatives. If the answer is No (hurdle rate below 18%) - CAPEX almost certainly passes for most Indian C&I buyers.
+4. **Is your IRR target 18% or above?**: If your internal hurdle rate is 15% and CAPEX delivers 22% with depreciation, CAPEX clearly clears the bar. If your hurdle rate is 25% (highly capital-efficient companies with many competing investment opportunities), a simpler OPEX arrangement preserves capital for higher-IRR alternatives. If the answer is No (hurdle rate below 18%), CAPEX almost certainly passes for most Indian C&I buyers.
 
 **Scoring:** 4× Yes → CAPEX strongly recommended. 3× Yes → CAPEX likely optimal. 2× Yes → Evaluate both with full financial model. 1× or 0× Yes → OPEX/RESCO is the appropriate model.
 
-## Accelerated Depreciation - The CAPEX Multiplier Explained
+## Accelerated Depreciation: The CAPEX Multiplier Explained
 
 The 80% accelerated depreciation provision under Section 32 of the Income Tax Act is the most significant financial advantage of the CAPEX model. Here is how it works in practice.
 
@@ -84,9 +84,9 @@ A company installs a 100 kW solar system at a total CAPEX of ₹70,00,000. Under
 - Year 1: ₹56,00,000 (80% of ₹70 lakh) is deducted from taxable income
 - Remaining WDV: ₹14,00,000 (depreciated at 15% per year in subsequent years)
 
-At a 25% corporate tax rate, the ₹56 lakh deduction creates a tax saving of ₹14 lakh in Year 1. This effectively reduces the net CAPEX from ₹70 lakh to ₹56 lakh - improving the already-strong IRR from approximately 22% to approximately 26% for a solar project in a high-tariff state.
+At a 25% corporate tax rate, the ₹56 lakh deduction creates a tax saving of ₹14 lakh in Year 1. This effectively reduces the net CAPEX from ₹70 lakh to ₹56 lakh, improving the already-strong IRR from approximately 22% to approximately 26% for a solar project in a high-tariff state.
 
-This benefit is not available in the OPEX model. The RESCO company claims the depreciation benefit itself, which is one of the primary reasons RESCOs can offer low PPA tariffs - their depreciation-enhanced returns allow them to price competitively while still making adequate risk-adjusted profits.
+This benefit is not available in the OPEX model. The RESCO company claims the depreciation benefit itself, which is one of the primary reasons RESCOs can offer low PPA tariffs, their depreciation-enhanced returns allow them to price competitively while still making adequate risk-adjusted profits.
 
 For a comprehensive guide to the depreciation calculation and its interaction with Income Tax Act provisions, see [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-tax-benefits-guide/).
 
@@ -109,11 +109,11 @@ According to [IREDA's Annual Report 2024–25](https://www.ireda.in/), solar pro
 
 The CAPEX vs OPEX calculus shifts slightly with system size.
 
-**Below 50 kW:** RESCO minimum project sizes (most RESCOs require 50–100 kW minimum) make OPEX unavailable. CAPEX is the only option - and at this size, the depreciation benefit and payback period are both strong.
+**Below 50 kW:** RESCO minimum project sizes (most RESCOs require 50–100 kW minimum) make OPEX unavailable. CAPEX is the only option, and at this size, the depreciation benefit and payback period are both strong.
 
 **50–500 kW:** Both options are available. CAPEX economics are generally superior for profitable companies with building ownership. RESCO becomes attractive for rented buildings or capital-light business models.
 
-**500 kW–5 MW:** At this scale, the transaction cost of RESCO negotiations (legal review, PPA structuring, due diligence) is spread over a large project, making RESCO viable. CAPEX at this scale requires significant balance sheet capacity or project finance - which some companies prefer to avoid.
+**500 kW–5 MW:** At this scale, the transaction cost of RESCO negotiations (legal review, PPA structuring, due diligence) is spread over a large project, making RESCO viable. CAPEX at this scale requires significant balance sheet capacity or project finance, which some companies prefer to avoid.
 
 **Above 5 MW:** Typically structured as captive or open-access solar under state electricity regulations, often using a special purpose vehicle (SPV). The CAPEX vs OPEX distinction evolves into a more complex project finance structure.
 
@@ -121,31 +121,31 @@ The CAPEX vs OPEX calculus shifts slightly with system size.
 
 Many C&I buyers focus only on simple payback (years to recover capex) and miss the more complete picture: NPV (Net Present Value) over the system's full life.
 
-For the 100 kW Karnataka example above, the 25-year NPV at an 8% discount rate is approximately ₹1.8–2.2 Crore on a ₹70 lakh investment. That is a 2.5–3x return in present-value terms - equivalent to a long-tenure government bond yield plus significant alpha. The IRR of 22% exceeds the WACC of most Indian manufacturing companies.
+For the 100 kW Karnataka example above, the 25-year NPV at an 8% discount rate is approximately ₹1.8–2.2 Crore on a ₹70 lakh investment. That is a 2.5–3x return in present-value terms, equivalent to a long-tenure government bond yield plus significant alpha. The IRR of 22% exceeds the WACC of most Indian manufacturing companies.
 
 According to [JMK Research's India Commercial & Industrial Solar Market Report 2025](https://jmkresearch.com/), C&I CAPEX solar installations grew 42% year-on-year in FY2025, as rising grid tariffs and improved IREDA loan availability made the financial case increasingly clear. For the full IRR calculation with step-by-step worked math, see [solar IRR and payback for C&I in India](/blog/solar-irr-payback-ci-india/).
 
 ## How to Evaluate EPC Bids for CAPEX Projects
 
-Once you decide on CAPEX, the next decision is which EPC contractor to hire. The full evaluation framework is in [how to evaluate solar EPC bids in India - 15 criteria](/blog/how-to-evaluate-solar-epc-bids/). The most critical criteria for a C&I CAPEX buyer:
+Once you decide on CAPEX, the next decision is which EPC contractor to hire. The full evaluation framework is in [how to evaluate solar EPC bids in India, 15 criteria](/blog/how-to-evaluate-solar-epc-bids/). The most critical criteria for a C&I CAPEX buyer:
 
-- **ALMM-listed equipment** - ensures subsidy eligibility and quality standards
-- **Performance ratio guarantee** - the contractor should guarantee a minimum PR of 0.76–0.80 backed by a generation shortfall compensation clause
-- **Payment milestones** - never pay more than 30% upfront; structure payments against delivery, installation, and commissioning milestones
-- **O&M contract** - a comprehensive O&M contract for at least 5 years post-commissioning protects the investment
+- **ALMM-listed equipment**: ensures subsidy eligibility and quality standards
+- **Performance ratio guarantee**: the contractor should guarantee a minimum PR of 0.76–0.80 backed by a generation shortfall compensation clause
+- **Payment milestones**: never pay more than 30% upfront; structure payments against delivery, installation, and commissioning milestones
+- **O&M contract**: a comprehensive O&M contract for at least 5 years post-commissioning protects the investment
 
 ## Where Qbits Fits in the CAPEX Decision
 
 For C&I buyers who choose the CAPEX model, the inverter is the highest-value component decision because it sits at the centre of all generation and because inverter failure during the high-IRR early years of the system life is the primary risk to financial performance.
 
 Qbits commercial string inverters for C&I applications offer:
-- Harmonic distortion below 3% - essential for plants with VFD-driven motors where THD is a grid code requirement
-- 12-year full-replacement warranty - covers the entire accelerated depreciation amortisation period and the highest-IRR years of the investment
-- ALMM-listed - required for MNRE-approved and IREDA-financed projects
-- AI WhatsApp monitoring - real-time generation alerts without requiring SCADA infrastructure investment
+- Harmonic distortion below 3%, essential for plants with VFD-driven motors where THD is a grid code requirement
+- 12-year full-replacement warranty, covers the entire accelerated depreciation amortisation period and the highest-IRR years of the investment
+- ALMM-listed, required for MNRE-approved and IREDA-financed projects
+- AI WhatsApp monitoring, real-time generation alerts without requiring SCADA infrastructure investment
 
-- **[C&I Solar Solution](/c-i-solution/)** - Industrial solar from 50 kW to multi-MW.
-- **[On-Grid Inverters](/on-grid-inverter/)** - Commercial string inverters with industrial THD specifications.
-- **[Download Datasheets](/download-datasheets/)** - Technical specifications for banker review and EPC bid evaluation.
+- **[C&I Solar Solution](/c-i-solution/)**: Industrial solar from 50 kW to multi-MW.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Commercial string inverters with industrial THD specifications.
+- **[Download Datasheets](/download-datasheets/)**: Technical specifications for banker review and EPC bid evaluation.
 
-To get a CAPEX IRR model for your specific plant - incorporating your grid tariff, roof area, financing cost, and tax position - [talk to a Qbits engineer](/contact-us/). The analysis is free and typically takes 24 hours with your last electricity bill and basic plant information.
+To get a CAPEX IRR model for your specific plant (incorporating your grid tariff, roof area, financing cost, and tax position) [talk to a Qbits engineer](/contact-us/). The analysis is free and typically takes 24 hours with your last electricity bill and basic plant information.

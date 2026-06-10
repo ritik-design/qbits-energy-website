@@ -1,6 +1,6 @@
 ---
-title: "Solar Subsidy Kaise Milegi 2026 - Step-by-Step Hindi Guide"
-excerpt: "Solar subsidy kaise milegi 2026: PM Surya Ghar mein ₹78,000 kaise apply karein, documents, ALMM compliance, aur subsidy bank mein kab aayegi - puri jankari Hindi mein।"
+title: "Solar Subsidy Kaise Milegi 2026, Step-by-Step Hindi Guide"
+excerpt: "Solar subsidy kaise milegi 2026: PM Surya Ghar mein ₹78,000 kaise apply karein, documents, ALMM compliance, aur subsidy bank mein kab aayegi, puri jankari Hindi mein।"
 category: "Policy"
 date: 2026-06-05
 readTime: "13 min"
@@ -31,13 +31,13 @@ faqs:
     a: "ALMM (Approved List of Models and Manufacturers) MNRE की certified solar components की list है। Verify करें: mnre.gov.in/almm-list/ पर inverter और panel model number search करें। Vendor से ALMM certificate माँगें। Non-ALMM से subsidy reject।"
 ---
 
-Solar subsidy पाना complicated लगता है - लेकिन process को steps में समझें तो straightforward है। सबसे बड़ी problem यह है कि बहुत से लोग wrong information पर depend करते हैं - vendor की बात मान लेते हैं, document checklist नहीं देखते, और बाद में subsidy reject होती है। इस guide में हर step clear है।
+Solar subsidy पाना complicated लगता है (लेकिन process को steps में समझें तो straightforward है। सबसे बड़ी problem यह है कि बहुत से लोग wrong information पर depend करते हैं) vendor की बात मान लेते हैं, document checklist नहीं देखते, और बाद में subsidy reject होती है। इस guide में हर step clear है।
 
 > **Short answer।** Solar subsidy पाने के लिए: pmsuryaghar.gov.in → Aadhaar verify → documents upload → DISCOM visit wait → ALMM-listed vendor से installation → inspection → bank में ₹78,000। Total time 45-90 दिन।
 
 [MNRE का PM Surya Ghar portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} fully online है - कोई दलाल या middleman की जरूरत नहीं। According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, 2025 में 15 lakh+ households ने successfully subsidy receive की है। Application की सही knowledge से यह number और बढ़ेगा।
 
-## Solar Subsidy - पहले यह जान लें
+## Solar Subsidy: पहले यह जान लें
 
 ### 3 Types of Solar Subsidy in India
 
@@ -49,7 +49,7 @@ Solar subsidy पाना complicated लगता है - लेकिन pro
 
 इस guide में primarily central PM Surya Ghar subsidy का process cover होता है - यही सबसे important और widely available है।
 
-## Step 1 - Eligibility Confirm Karein
+## Step 1: Eligibility Confirm Karein
 
 Apply करने से पहले eligibility confirm करें:
 
@@ -67,50 +67,50 @@ Apply करने से पहले eligibility confirm करें:
 
 [PM Surya Ghar eligibility detailed guide](/blog/pm-surya-ghar-eligibility/) - हर criterion का explanation।
 
-## Step 2 - Documents तैयार करें
+## Step 2: Documents तैयार करें
 
 ### The 5-Document Solar Subsidy Checklist
 
-**Document 1 - Aadhaar Card**
+**Document 1, Aadhaar Card**
 - Original Aadhaar number चाहिए
 - Mobile number Aadhaar से linked होना चाहिए (OTP आएगा)
 - अगर mobile update नहीं है: पहले UIDAI portal या Aadhaar centre से update करें
 
-**Document 2 - Electricity Bill**
-- Latest bill - 90 दिन से पुरानी नहीं
+**Document 2, Electricity Bill**
+- Latest bill, 90 दिन से पुरानी नहीं
 - Consumer number clearly visible होना चाहिए
 - DISCOM का नाम visible होना चाहिए (आपका DISCOM identify करेगा)
 
-**Document 3 - PAN Card**
+**Document 3, PAN Card**
 - PAN number mandatory है
 - Subsidy ₹50,000 से ज्यादा होने पर TDS considerations के लिए PAN जरूरी है
 
-**Document 4 - Bank Account**
+**Document 4, Bank Account**
 - Passbook का पहला page (account number, IFSC, branch, name)
 - OR cancelled cheque
 - Account आपके Aadhaar से KYC-linked होना चाहिए
 - Aadhaar-linked account नहीं है → Bank जाकर Aadhaar seeding करवाएँ
 
-**Document 5 - Property Proof**
+**Document 5, Property Proof**
 - Sale deed / Registry / खाताबही
 - OR Khatauni (rural)
 - OR Property tax receipt
 - OR Municipal registration
 
-[PM Surya Ghar documents required full guide](/blog/pm-surya-ghar-documents-required/) - state-specific requirements के साथ।
+[PM Surya Ghar documents required full guide](/blog/pm-surya-ghar-documents-required/), state-specific requirements के साथ।
 
-## Step 3 - Portal पर Register करें
+## Step 3: Portal पर Register करें
 
 ### pmsuryaghar.gov.in Registration Process
 
 1. **[pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}** open करें
 2. **"Apply for Rooftop Solar"** button click करें
-3. **State select करें** - dropdown से
-4. **DISCOM select करें** - अपने electricity bill से DISCOM का नाम देखें
-5. **Consumer number enter करें** - bill पर print होता है, usually 10-12 digits
-6. **Mobile number और email** - notifications के लिए
-7. **Aadhaar OTP verify करें** - Aadhaar-linked mobile पर OTP आएगा
-8. **Documents upload करें** - 5 documents, JPG/PDF format
+3. **State select करें**: dropdown से
+4. **DISCOM select करें**: अपने electricity bill से DISCOM का नाम देखें
+5. **Consumer number enter करें**: bill पर print होता है, usually 10-12 digits
+6. **Mobile number और email**: notifications के लिए
+7. **Aadhaar OTP verify करें**: Aadhaar-linked mobile पर OTP आएगा
+8. **Documents upload करें**: 5 documents, JPG/PDF format
 
 ### Common Portal Errors और Solutions
 
@@ -121,13 +121,13 @@ Apply करने से पहले eligibility confirm करें:
 | Document upload failed | File too large | Compress to under 2 MB |
 | Name mismatch | Aadhaar vs bill different | DISCOM से name correction करें |
 
-## Step 4 - DISCOM Feasibility Visit
+## Step 4: DISCOM Feasibility Visit
 
 Registration के बाद DISCOM का field engineer आपके घर visit करेगा:
 
 **क्या check होगा:**
 - Roof area और condition (solar panels के लिए suitable?)
-- Shadow analysis - trees, buildings का shade
+- Shadow analysis, trees, buildings का shade
 - Electrical panel और wiring condition
 - Distance from grid connection point
 
@@ -136,29 +136,29 @@ Registration के बाद DISCOM का field engineer आपके घर v
 
 अगर 30 दिन में कोई visit नहीं आया, portal पर grievance raise करें या DISCOM helpline call करें।
 
-## Step 5 - ALMM-Listed Vendor Select करें
+## Step 5: ALMM-Listed Vendor Select करें
 
 यह सबसे critical step है। Portal पर आपके district के approved vendors की list दिखेगी।
 
 ### The 3-Point ALMM Vendor Check Framework
 
-**Check 1 - ALMM Compliance**
+**Check 1, ALMM Compliance**
 - Vendor जो inverter और panels propose करे, उनका model number [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} पर verify करें
 - Non-ALMM components = No subsidy
 
-**Check 2 - Multiple Quotes**
+**Check 2, Multiple Quotes**
 - Minimum 2-3 vendors से quote लें
 - Same specification पर price compare करें
 - ₹15,000-30,000 difference normal है vendors में
 
-**Check 3 - Contract Terms**
+**Check 3, Contract Terms**
 - Installation timeline लिखित में
-- Warranty terms - both products और workmanship
+- Warranty terms, both products और workmanship
 - After-sales service commitment
 
-[Empanelled vendor selection guide](/blog/empanelled-vendor-pm-surya-ghar/) - detailed vendor evaluation।
+[Empanelled vendor selection guide](/blog/empanelled-vendor-pm-surya-ghar/), detailed vendor evaluation।
 
-## Step 6 - Installation और Net Metering
+## Step 6: Installation और Net Metering
 
 **Installation:**
 - Vendor 1-3 दिन में complete करेगा
@@ -172,9 +172,9 @@ Registration के बाद DISCOM का field engineer आपके घर v
 
 Net metering active होने से पहले export income नहीं मिलती - vendor को immediately application submit करने के लिए कहें।
 
-[Net metering process guide](/blog/net-metering-india-complete-guide/) - state-wise details।
+[Net metering process guide](/blog/net-metering-india-complete-guide/), state-wise details।
 
-## Step 7 - Inspection और Subsidy
+## Step 7: Inspection और Subsidy
 
 **DISCOM Inspection:**
 - Installation complete होने पर DISCOM inspector आएगा
@@ -186,21 +186,21 @@ Net metering active होने से पहले export income नहीं 
 - 20-30 दिन में bank account में transfer
 - SMS और portal notification मिलेगा
 
-> **₹78,000** directly bank में - कोई middleman नहीं, कोई cash नहीं। PFMS (Public Financial Management System) direct transfer करता है। *Source - [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}*
+> **₹78,000** directly bank में (कोई middleman नहीं, कोई cash नहीं। PFMS (Public Financial Management System) direct transfer करता है। *Source) [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}*
 
 ## Rejection Avoid Karne Ke Tips
 
 सबसे common rejection reasons और उनसे बचने के tips:
 
-1. **Wrong DISCOM** - Bill से exact DISCOM name copy करें
-2. **Non-ALMM components** - Vendor से certificate माँगें, MNRE site पर verify करें
-3. **Bank account not Aadhaar-linked** - Pehle bank mein Aadhaar seeding karein
-4. **Old electricity bill** - 90 दिन से fresh bill upload करें
-5. **Property document missing** - Khatauni या tax receipt arrange करें
+1. **Wrong DISCOM**: Bill से exact DISCOM name copy करें
+2. **Non-ALMM components**: Vendor से certificate माँगें, MNRE site पर verify करें
+3. **Bank account not Aadhaar-linked**: Pehle bank mein Aadhaar seeding karein
+4. **Old electricity bill**: 90 दिन से fresh bill upload करें
+5. **Property document missing**: Khatauni या tax receipt arrange करें
 
-[PM Surya Ghar rejection reasons and fixes](/blog/pm-surya-ghar-rejection-reasons/) - complete troubleshooting guide।
+[PM Surya Ghar rejection reasons and fixes](/blog/pm-surya-ghar-rejection-reasons/), complete troubleshooting guide।
 
-## Subsidy Timeline - Realistic Expectations
+## Subsidy Timeline: Realistic Expectations
 
 | Stage | Time Required |
 | --- | --- |
@@ -232,9 +232,9 @@ Over 25 साल: ₹250 × 12 × 25 = ₹75,000 extra income (inflation-adjust
 
 Qbits ALMM Phase III listed inverters हैं - PM Surya Ghar के लिए directly eligible। हमारे [authorized service partners](/authorized-service-partners/) India के major cities और districts में हैं।
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - PM Surya Ghar subsidy eligible, ALMM listed
-- **[String Sizing Calculator](/string-sizing-calculator/)** - अपने roof का exact system size calculate करें
-- **[PM Surya Ghar status check guide](/blog/pm-surya-ghar-status-check/)** - Application stuck? यहाँ देखें
+- **[On-Grid Inverters](/on-grid-inverter/)**: PM Surya Ghar subsidy eligible, ALMM listed
+- **[String Sizing Calculator](/string-sizing-calculator/)**: अपने roof का exact system size calculate करें
+- **[PM Surya Ghar status check guide](/blog/pm-surya-ghar-status-check/)**: Application stuck? यहाँ देखें
 
 [IEA India energy data](https://www.iea.org/){target="_blank" rel="noopener"} के according, India का rooftop solar market 2030 तक $15 billion से ज्यादा का होगा। PM Surya Ghar ने इसे dramatically accelerate किया है।
 
@@ -273,24 +273,24 @@ Subsidy bank में आने के बाद करने वाली च�
 - First subsidy SMS/notification save करें - tax records के लिए
 
 **Annual:**
-- Panel cleaning - year में 2-3 बार minimum
-- DISCOM annual statement - export income reconcile करें
+- Panel cleaning, year में 2-3 बार minimum
+- DISCOM annual statement, export income reconcile करें
 - Inverter performance report generate करें via app
 
-[Solar year 1 ownership guide](/blog/solar-year-1-ownership-guide-india/) - first year ka complete guide।
+[Solar year 1 ownership guide](/blog/solar-year-1-ownership-guide-india/), first year ka complete guide।
 
 ## GST और Tax Considerations
 
 Solar subsidy पर tax implications जानना जरूरी है:
 
-- **Subsidy taxable है?** - Capital subsidy के रूप में treat होती है - income नहीं। Current Income Tax guidelines के under, government solar scheme subsidies homeowner के हाथ में taxable income नहीं हैं।
-- **GST on system** - Solar panels पर 5% GST, inverter पर 12% GST। Vendor quote में GST clearly mentioned होना चाहिए।
-- **Solar depreciation** - Commercial properties में solar system पर 40% accelerated depreciation benefit available है।
+- **Subsidy taxable है?**: Capital subsidy के रूप में treat होती है - income नहीं। Current Income Tax guidelines के under, government solar scheme subsidies homeowner के हाथ में taxable income नहीं हैं।
+- **GST on system**: Solar panels पर 5% GST, inverter पर 12% GST। Vendor quote में GST clearly mentioned होना चाहिए।
+- **Solar depreciation**: Commercial properties में solar system पर 40% accelerated depreciation benefit available है।
 
 Tax advisor से अपनी specific situation consult करें। [Solar inverter depreciation guide](/blog/solar-inverter-depreciation-in-india/) में details हैं।
 
 
-## Solar Subsidy Application - Frequently Asked Questions
+## Solar Subsidy Application: Frequently Asked Questions
 
 **Q: क्या subsidy form download करना होता है?**
 A: नहीं। PM Surya Ghar पूरी तरह online है - pmsuryaghar.gov.in पर directly apply होता है। No physical form, no district office visit required। [Solar subsidy form guide](/blog/solar-subsidy-form-download-guide/) में legacy form vs new online process explain है।
@@ -304,4 +304,4 @@ A: हाँ, joint bank account में subsidy आ सकती है - ल
 **Q: Non-ownership flat में (society maintained building) apply कैसे करें?**
 A: Housing society या RWA के through application करें। Society के नाम पर electricity connection होता है typically। कुछ states में individual flat owner का domestic connection होता है - उस case में directly apply कर सकते हैं। Society NOC document upload करना होगा।
 
-These practical scenarios are covered in detail in the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) - India's most comprehensive solar subsidy resource.
+These practical scenarios are covered in detail in the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/), India's most comprehensive solar subsidy resource.

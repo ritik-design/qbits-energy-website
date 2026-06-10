@@ -1,7 +1,7 @@
 ---
 title: "Inverter Suppliers India: Complete Vendor Evaluation Guide"
 excerpt: "India is projected to exceed 100 GW cumulative solar capacity by end of 2026. Supplier choice drives profitability, satisfaction, and reputation."
-description: "Comprehensive supplier evaluation guide for solar inverters in India - manufacturing capabilities, certifications, warranty infrastructure, technical specs, delivery reliability, and regional supplier mapping."
+description: "Comprehensive supplier evaluation guide for solar inverters in India, manufacturing capabilities, certifications, warranty infrastructure, technical specs, delivery reliability, and regional supplier mapping."
 category: "Buying Guide"
 date: 2026-04-03
 readTime: "9 min"
@@ -154,4 +154,4 @@ Diversified component sourcing is critical for resilience.
 
 ## Closing
 
-Supplier selection requires systematic evaluation across quality, support, pricing, and strategic alignment - going beyond lowest unit price to assess total cost of ownership and long-term partnership value. Apply the framework rigorously and build relationships with suppliers whose trajectory matches your growth plans.
+Supplier selection requires systematic evaluation across quality, support, pricing, and strategic alignment, going beyond lowest unit price to assess total cost of ownership and long-term partnership value. Apply the framework rigorously and build relationships with suppliers whose trajectory matches your growth plans.

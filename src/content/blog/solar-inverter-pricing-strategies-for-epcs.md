@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Pricing Strategies for EPCs (2026)"
 excerpt: "Lowest price wins few projects worth keeping. Here's how EPCs structure inverter pricing to balance competitive positioning with margin protection in 2026."
-description: "Strategic inverter pricing guide for Indian EPCs - market landscape, markup structures by project type, volume discounts, value-based pricing, on-grid vs hybrid premiums, and technology feature ROI."
+description: "Strategic inverter pricing guide for Indian EPCs, market landscape, markup structures by project type, volume discounts, value-based pricing, on-grid vs hybrid premiums, and technology feature ROI."
 category: "Buying Guide"
 date: 2026-03-24
 readTime: "7 min"
@@ -118,4 +118,4 @@ Future-proofing value justifies premium positioning for clients with outage risk
 
 ## Closing
 
-Strategic pricing is not about being cheapest - it is about being the value choice for the clients you want to keep. Build pricing around TCO storytelling, protect margins through tiered volume discounts, and let technology premiums (AI, IP66, 12-year warranty) carry the differentiation conversation with quality-conscious buyers.
+Strategic pricing is not about being cheapest, it is about being the value choice for the clients you want to keep. Build pricing around TCO storytelling, protect margins through tiered volume discounts, and let technology premiums (AI, IP66, 12-year warranty) carry the differentiation conversation with quality-conscious buyers.

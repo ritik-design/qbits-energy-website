@@ -1,6 +1,6 @@
 ---
-title: "What to Do When Your Solar Inverter Fails - 72-Hour Action Plan"
-excerpt: "Solar inverter failed? This 72-hour action plan walks you through every step - from Hour 0 diagnosis to RMA resolution - so you lose the least generation possible."
+title: "What to Do When Your Solar Inverter Fails, 72-Hour Action Plan"
+excerpt: "Solar inverter failed? This 72-hour action plan walks you through every step (from Hour 0 diagnosis to RMA resolution) so you lose the least generation possible."
 description: "Step-by-step 72-hour action plan for homeowners whose solar inverter has stopped working. Covers fault code reading, service escalation, repair vs replacement, and warranty SLA."
 category: "Maintenance"
 date: 2026-06-05
@@ -36,15 +36,15 @@ faqs:
     a: "Gather these six items before you call: inverter model and serial number (on the data label on the side panel), installation date, fault code or LED pattern, approximate time the fault first appeared, whether there was a power cut, thunderstorm, or voltage fluctuation before the fault, and your monitoring app screenshot if available. Having these ready cuts the diagnostic call from 20 minutes to under 5 minutes and speeds up technician dispatch."
 ---
 
-Your inverter display just went dark, or a red LED is flashing, or the app sent you an alert at 9 am saying output dropped to zero - and now you are standing in the sun wondering what to do. This is the most common panic moment in residential solar ownership, and it is almost always more manageable than it feels in that first minute.
+Your inverter display just went dark, or a red LED is flashing, or the app sent you an alert at 9 am saying output dropped to zero, and now you are standing in the sun wondering what to do. This is the most common panic moment in residential solar ownership, and it is almost always more manageable than it feels in that first minute.
 
-> **Direct answer.** When a solar inverter fails, the 72-Hour Inverter Recovery Protocol gives you four clear phases: diagnose in the first hour (grid fault or inverter fault, read the LED code), log and escalate in hours 1–4 (photograph the fault, call your installer), expect a service ticket and technician dispatch by Hour 24, and resolve via repair or warranty replacement by Hour 72. A 12-year full replacement warranty changes the financial outcome completely - a failed inverter costs you zero, not ₹15,000–₹80,000.
+> **Direct answer.** When a solar inverter fails, the 72-Hour Inverter Recovery Protocol gives you four clear phases: diagnose in the first hour (grid fault or inverter fault, read the LED code), log and escalate in hours 1–4 (photograph the fault, call your installer), expect a service ticket and technician dispatch by Hour 24, and resolve via repair or warranty replacement by Hour 72. A 12-year full replacement warranty changes the financial outcome completely, a failed inverter costs you zero, not ₹15,000–₹80,000.
 
 The distinction between a grid outage and an inverter failure matters enormously because the actions are completely different. Getting this wrong in the first five minutes can delay your resolution by days. The sections below take you through each phase of the recovery in the order you should execute them, covering the fault codes, the calls, the SLA windows, and the warranty arithmetic that determines whether this event costs you money or not.
 
 ## Hour 0–1: Distinguish a Grid Failure from a Solar Inverter Failed Event
 
-The single most important diagnostic step happens before you touch the inverter. On-grid solar inverters are legally required to shut down within 0.2 seconds of a grid failure by [anti-islanding](/glossary/anti-islanding/) protection - a safety rule enforced under [IEC 62116](https://www.iec.ch/dyn/www/f?p=103:23:0::::FSP_ORG_ID:1280) and adopted by [BIS](https://www.bis.gov.in/) for all India-certified inverters. So a dark inverter does not automatically mean a broken inverter.
+The single most important diagnostic step happens before you touch the inverter. On-grid solar inverters are legally required to shut down within 0.2 seconds of a grid failure by [anti-islanding](/glossary/anti-islanding/) protection, a safety rule enforced under [IEC 62116](https://www.iec.ch/dyn/www/f?p=103:23:0::::FSP_ORG_ID:1280) and adopted by [BIS](https://www.bis.gov.in/) for all India-certified inverters. So a dark inverter does not automatically mean a broken inverter.
 
 ### Check the grid first
 
@@ -60,7 +60,7 @@ If the grid is live and the inverter is dark or showing a fault, you now have a 
 4. Photograph or write down the code, the current time, and any unusual sounds (buzzing, clicking, humming) or smells (burning, ozone).
 5. Open your monitoring app and screenshot the last alert with its timestamp.
 
-This evidence set is the most valuable thing you can give a service engineer. Clearing a fault code without recording it erases data that could have identified whether the failure is hardware, firmware, or grid-induced - and that distinction changes the repair timeline significantly.
+This evidence set is the most valuable thing you can give a service engineer. Clearing a fault code without recording it erases data that could have identified whether the failure is hardware, firmware, or grid-induced, and that distinction changes the repair timeline significantly.
 
 ### Five minutes of observation that save hours of diagnosis
 
@@ -89,37 +89,37 @@ The isolation fault (E007 / ISO) and arc fault (E009 / ARC) require immediate pr
 - **Do not open the inverter enclosure.** DC voltage inside a string inverter can exceed 600 V and remains present even when the AC breaker is off. Only qualified personnel may open the unit.
 - **Do not reset without logging.** Clearing a fault code without recording it destroys diagnostic data and can mask a recurring problem that will fail again within days.
 - **Do not assume a reboot fixes it.** A soft reset (AC isolator off, 60 seconds, back on) is permissible only for E005/GV-OV grid voltage faults where the inverter is clearly waiting for grid stabilisation, and only after the fault code is documented.
-- **Do not ignore an arc fault.** An AFCI trip indicates a potential DC arc - one of the leading causes of rooftop solar fires. Leave the DC isolator open and call your installer the same hour, not the same day.
+- **Do not ignore an arc fault.** An AFCI trip indicates a potential DC arc, one of the leading causes of rooftop solar fires. Leave the DC isolator open and call your installer the same hour, not the same day.
 
 ## The 72-Hour Inverter Recovery Protocol
 
 This is the named framework that structures your recovery from the moment the fault appears to the moment your system is generating again.
 
-### Phase 1 - Diagnose (Hour 0–1)
+### Phase 1: Diagnose (Hour 0–1)
 
-1. **Grid check** - Confirm the grid is live before treating the event as an inverter failure. Check your main DB, your neighbours, or your DISCOM app.
-2. **LED and display read** - Note the exact fault code, blink count, and colour. Photograph it.
-3. **Contextual log** - Record ambient temperature, recent weather events (storm, heat wave), and whether any grid disturbances preceded the fault.
-4. **App screenshot** - Open your monitoring app and capture the last generation graph and the alert timestamp.
+1. **Grid check**: Confirm the grid is live before treating the event as an inverter failure. Check your main DB, your neighbours, or your DISCOM app.
+2. **LED and display read**: Note the exact fault code, blink count, and colour. Photograph it.
+3. **Contextual log**: Record ambient temperature, recent weather events (storm, heat wave), and whether any grid disturbances preceded the fault.
+4. **App screenshot**: Open your monitoring app and capture the last generation graph and the alert timestamp.
 
-### Phase 2 - Log and Escalate (Hour 1–4)
+### Phase 2: Log and Escalate (Hour 1–4)
 
-5. **Call your installer** - Your first call should be to the installation company, not the inverter brand. The installer knows your specific system layout, your DC string configuration, and your local grid conditions. Give them the six-item information set: model, serial number, installation date, fault code, fault time, and recent grid events.
-6. **Log a brand service ticket** - If your installer is unresponsive after 2 hours, call the inverter manufacturer's service line directly. Provide the same information and request a ticket number. A ticket number is your SLA clock start.
-7. **Email confirmation** - Send a brief email to both parties with the fault code, ticket number, and the timestamp of your first report. This creates a timestamped record that protects you if SLA disputes arise later.
+5. **Call your installer**: Your first call should be to the installation company, not the inverter brand. The installer knows your specific system layout, your DC string configuration, and your local grid conditions. Give them the six-item information set: model, serial number, installation date, fault code, fault time, and recent grid events.
+6. **Log a brand service ticket**: If your installer is unresponsive after 2 hours, call the inverter manufacturer's service line directly. Provide the same information and request a ticket number. A ticket number is your SLA clock start.
+7. **Email confirmation**: Send a brief email to both parties with the fault code, ticket number, and the timestamp of your first report. This creates a timestamped record that protects you if SLA disputes arise later.
 
-### Phase 3 - Technician Dispatch (Hour 4–24)
+### Phase 3: Technician Dispatch (Hour 4–24)
 
-8. **Confirm technician ETA** - A brand with a formal SLA will give you a technician arrival window within 4 hours of ticket creation. If you cannot get an ETA by Hour 8, escalate to the brand's regional service manager.
-9. **Prepare site access** - Ensure the technician can reach the inverter location, the roof (if a roof inspection is needed), and the main DB without delay. Clear the area around the inverter of stored items.
-10. **Do not operate the system** - Keep the AC breaker and DC isolator in the off position until the technician has completed their inspection. This preserves evidence and prevents further damage.
+8. **Confirm technician ETA**: A brand with a formal SLA will give you a technician arrival window within 4 hours of ticket creation. If you cannot get an ETA by Hour 8, escalate to the brand's regional service manager.
+9. **Prepare site access**: Ensure the technician can reach the inverter location, the roof (if a roof inspection is needed), and the main DB without delay. Clear the area around the inverter of stored items.
+10. **Do not operate the system**: Keep the AC breaker and DC isolator in the off position until the technician has completed their inspection. This preserves evidence and prevents further damage.
 
-### Phase 4 - Resolve (Hour 24–72)
+### Phase 4: Resolve (Hour 24–72)
 
-11. **Technician diagnosis** - The technician will measure DC input voltage, isolation resistance, AC output voltage, and internal temperatures. They will either clear the fault and return the system to operation, schedule a component repair, or initiate an RMA (Return Merchandise Authorisation) for full unit replacement.
-12. **Repair or replace decision** - See the decision framework in the "Repair vs Replacement" section below.
-13. **System recommission** - After repair or replacement, the technician should run a full [commissioning](/glossary/commissioning/) check: verify MPPT tracking, confirm isolation resistance above 1 MΩ, test anti-islanding response, and confirm monitoring connectivity.
-14. **Document the resolution** - Obtain a written service report with the diagnosed fault cause, parts replaced, and the new warranty validity date if a replacement was issued.
+11. **Technician diagnosis**: The technician will measure DC input voltage, isolation resistance, AC output voltage, and internal temperatures. They will either clear the fault and return the system to operation, schedule a component repair, or initiate an RMA (Return Merchandise Authorisation) for full unit replacement.
+12. **Repair or replace decision**: See the decision framework in the "Repair vs Replacement" section below.
+13. **System recommission**: After repair or replacement, the technician should run a full [commissioning](/glossary/commissioning/) check: verify MPPT tracking, confirm isolation resistance above 1 MΩ, test anti-islanding response, and confirm monitoring connectivity.
+14. **Document the resolution**: Obtain a written service report with the diagnosed fault cause, parts replaced, and the new warranty validity date if a replacement was issued.
 
 ## Hour 1–4: What to Log Before You Call
 
@@ -127,12 +127,12 @@ The quality of information you provide in your first call to the installer or in
 
 ### The six-item fault report checklist
 
-- **Inverter model and serial number** - printed on the data label on the side or rear panel of the inverter. Example: Qbits TLS-5K, serial QBT2024XXXXX.
-- **Installation date** - from your commissioning certificate. This determines whether the unit is within warranty.
-- **Fault code or LED pattern** - the exact alphanumeric code from the display, or the blink pattern (e.g., 3 long + 2 short red flashes).
-- **Time of first fault** - precise to the hour. Helps correlate with grid events, irradiance ramp-up, or temperature peaks.
-- **Preceding events** - any grid power cut, thunderstorm, visible lightning, unusually high ambient temperature, or recent maintenance work on the panels or wiring.
-- **Monitoring app screenshot** - the generation graph showing when output dropped and the alert text if available.
+- **Inverter model and serial number**: printed on the data label on the side or rear panel of the inverter. Example: Qbits TLS-5K, serial QBT2024XXXXX.
+- **Installation date**: from your commissioning certificate. This determines whether the unit is within warranty.
+- **Fault code or LED pattern**: the exact alphanumeric code from the display, or the blink pattern (e.g., 3 long + 2 short red flashes).
+- **Time of first fault**: precise to the hour. Helps correlate with grid events, irradiance ramp-up, or temperature peaks.
+- **Preceding events**: any grid power cut, thunderstorm, visible lightning, unusually high ambient temperature, or recent maintenance work on the panels or wiring.
+- **Monitoring app screenshot**: the generation graph showing when output dropped and the alert text if available.
 
 ### Why the ticket number matters
 
@@ -140,7 +140,7 @@ The moment you receive a ticket number from the installer or brand, your service
 
 ## Hour 4–24: What a Proper Service Ticket Looks Like
 
-A service ticket that protects your interests contains more than just a case number. When you receive your ticket confirmation - by SMS, email, or WhatsApp - verify that it includes the following:
+A service ticket that protects your interests contains more than just a case number. When you receive your ticket confirmation (by SMS, email, or WhatsApp) verify that it includes the following:
 
 | Field | What it should say | Why it matters |
 | --- | --- | --- |
@@ -171,11 +171,11 @@ The RMA (Return Merchandise Authorisation) process is where the difference betwe
 - The capacitor bank is approaching the end of its service life (typically after 7 years in 45 °C+ environments).
 - Multiple simultaneous fault codes suggest failure of the primary IGBT power stage.
 - Physical damage exists from a lightning strike, water ingress through a failed seal, or rodent damage to internal wiring.
-- The unit is within its full replacement warranty period - in which case replacement is always superior to repair because it restores the full warranty clock.
+- The unit is within its full replacement warranty period, in which case replacement is always superior to repair because it restores the full warranty clock.
 
 ### What the 12-year full replacement warranty changes
 
-Under a 12-year full replacement warranty, the repair-vs-replacement decision is made by the technician on engineering grounds, not by the homeowner's budget. If replacement is the right outcome, the brand ships a new unit at zero cost. The homeowner's system downtime is limited to the shipping and installation window - typically 3–5 business days for brands with Indian warehouse stock.
+Under a 12-year full replacement warranty, the repair-vs-replacement decision is made by the technician on engineering grounds, not by the homeowner's budget. If replacement is the right outcome, the brand ships a new unit at zero cost. The homeowner's system downtime is limited to the shipping and installation window, typically 3–5 business days for brands with Indian warehouse stock.
 
 Under a 5-year repair warranty, the brand's obligation ends at attempting a repair. If the repair fails or the unit is deemed beyond economic repair, the homeowner pays for a new inverter. That cost sits between ₹15,000 for a 1.5 kW residential unit and ₹80,000 for a 10 kW residential unit. Brands that offer only 5 years of coverage quietly shift this financial risk to the buyer from the day of purchase.
 
@@ -198,10 +198,10 @@ The decision table below helps you understand what outcome to expect based on th
 
 Before you accept a repair outcome, check your warranty document for these four clauses:
 
-- **Coverage type** - "full replacement" vs "repair at our discretion". The word "replacement" must appear explicitly.
-- **Coverage period** - Minimum 12 years for full replacement; if the document says 5 years, repair costs beyond that are yours.
-- **Response SLA** - A specific time commitment, not "we will respond in a reasonable time".
-- **Parts coverage** - Confirm that replacement parts are covered during the warranty period. Some brands cover labour but charge for capacitors and IGBTs after year 5.
+- **Coverage type**: "full replacement" vs "repair at our discretion". The word "replacement" must appear explicitly.
+- **Coverage period**: Minimum 12 years for full replacement; if the document says 5 years, repair costs beyond that are yours.
+- **Response SLA**: A specific time commitment, not "we will respond in a reasonable time".
+- **Parts coverage**: Confirm that replacement parts are covered during the warranty period. Some brands cover labour but charge for capacitors and IGBTs after year 5.
 
 For a detailed analysis of what Indian warranty documents typically conceal, read the [12-year solar inverter warranty comparison guide](/blog/12-year-solar-inverter-warranty/).
 
@@ -211,13 +211,13 @@ A minority of cases will exceed the 72-hour SLA. Knowing your escalation options
 
 ### Escalation sequence
 
-- **Hour 72 with no technician** - Call the brand's regional service manager directly. Request escalation in writing (email or WhatsApp message) and state the ticket number, creation time, and SLA commitment missed.
-- **Hour 96 with no resolution** - File a formal complaint through the National Consumer Helpline (NCH) at 1800-11-4000 or the INGRAM portal (integrated Grievance Redressal Mechanism). Solar inverters sold with warranty commitments fall under the [Consumer Protection Act 2019](https://consumeraffairs.nic.in/consumer-protection-act), which grants you the right to file complaints against deficient services.
-- **Hour 120 with no technician** - Contact the installer in writing and request they source a temporary replacement unit or an interim workaround for critical loads. If the installer was the service contract holder, their obligation under the installation contract may cover this.
+- **Hour 72 with no technician**: Call the brand's regional service manager directly. Request escalation in writing (email or WhatsApp message) and state the ticket number, creation time, and SLA commitment missed.
+- **Hour 96 with no resolution**: File a formal complaint through the National Consumer Helpline (NCH) at 1800-11-4000 or the INGRAM portal (integrated Grievance Redressal Mechanism). Solar inverters sold with warranty commitments fall under the [Consumer Protection Act 2019](https://consumeraffairs.nic.in/consumer-protection-act), which grants you the right to file complaints against deficient services.
+- **Hour 120 with no technician**: Contact the installer in writing and request they source a temporary replacement unit or an interim workaround for critical loads. If the installer was the service contract holder, their obligation under the installation contract may cover this.
 
 ### How monitoring data supports your case
 
-If your inverter has AI-powered monitoring with cloud data retention - as Qbits inverters do via WhatsApp and the app - the fault alert timestamp, fault code, and generation drop are stored in the cloud and cannot be disputed by the service team. This data record is the difference between a negotiated resolution and a "no fault found" dismissal.
+If your inverter has AI-powered monitoring with cloud data retention (as Qbits inverters do via WhatsApp and the app) the fault alert timestamp, fault code, and generation drop are stored in the cloud and cannot be disputed by the service team. This data record is the difference between a negotiated resolution and a "no fault found" dismissal.
 
 The value of [WhatsApp-based solar monitoring](/blog/whatsapp-solar-monitoring/) extends beyond daily yield checks: it creates a timestamped evidence trail that supports every warranty and service escalation you may need over the inverter's life.
 
@@ -225,19 +225,19 @@ The value of [WhatsApp-based solar monitoring](/blog/whatsapp-solar-monitoring/)
 
 These are the errors that extend downtime, void warranties, or create safety risks. The [solar inverter downtime](/blog/solar-inverter-downtime/) analysis shows that homeowner actions in the first 4 hours account for nearly 30% of extended outage cases.
 
-- **Resetting without logging** - Clearing the fault code before writing it down destroys diagnostic data. The service engineer's first question will always be "what was the fault code?" - and "I do not know, I reset it" is the worst answer you can give.
-- **Opening the enclosure** - DC voltages above 600 V are present inside the inverter even when the AC breaker is off. The [earthing](/glossary/earthing/) and isolation systems within the unit are designed to contain these voltages safely, but only while the enclosure is closed.
-- **Assuming it will self-recover** - Some fault codes (E003 DCOV during cold morning start-up) do self-clear. Most do not. Waiting 24 hours to see if a red fault light goes green wastes a full day of service SLA time.
-- **Not informing your installer** - If your system is within the installation warranty period (typically 1–2 years), the installer has a contractual obligation to attend to faults. Calling only the inverter brand - and not the installer - may forfeit your installation warranty rights.
-- **Accepting a verbal warranty promise** - When a technician says "do not worry, it is covered", ask for the resolution in writing with the ticket number, the outcome, and the date by which the system will be operational again.
+- **Resetting without logging**: Clearing the fault code before writing it down destroys diagnostic data. The service engineer's first question will always be "what was the fault code?", and "I do not know, I reset it" is the worst answer you can give.
+- **Opening the enclosure**: DC voltages above 600 V are present inside the inverter even when the AC breaker is off. The [earthing](/glossary/earthing/) and isolation systems within the unit are designed to contain these voltages safely, but only while the enclosure is closed.
+- **Assuming it will self-recover**: Some fault codes (E003 DCOV during cold morning start-up) do self-clear. Most do not. Waiting 24 hours to see if a red fault light goes green wastes a full day of service SLA time.
+- **Not informing your installer**: If your system is within the installation warranty period (typically 1–2 years), the installer has a contractual obligation to attend to faults. Calling only the inverter brand (and not the installer) may forfeit your installation warranty rights.
+- **Accepting a verbal warranty promise**: When a technician says "do not worry, it is covered", ask for the resolution in writing with the ticket number, the outcome, and the date by which the system will be operational again.
 
 ## The Overtemperature Special Case: India's Most Common Inverter Fault
 
-Overtemperature (E001 / OTF) deserves its own section because it is both the most common fault in Indian conditions and the one that homeowners most often mishandle. Indian ambient temperatures routinely exceed 45 °C from March through June, and an inverter mounted on an east-facing wall with no shade and blocked air vents can see internal temperatures above 75 °C - well beyond the 60 °C threshold that triggers thermal shutdown.
+Overtemperature (E001 / OTF) deserves its own section because it is both the most common fault in Indian conditions and the one that homeowners most often mishandle. Indian ambient temperatures routinely exceed 45 °C from March through June, and an inverter mounted on an east-facing wall with no shade and blocked air vents can see internal temperatures above 75 °C, well beyond the 60 °C threshold that triggers thermal shutdown.
 
 ### What thermal derating means for your bill
 
-Before a hard shutdown, most inverters reduce output power to manage heat - a process called thermal derating. A 5 kW inverter may derate to 3.5 kW output during peak afternoon heat, generating 30% less power than expected without triggering any visible fault code. Over a summer month, this silent underperformance can cost ₹500–₹800 in lost generation on a typical residential installation.
+Before a hard shutdown, most inverters reduce output power to manage heat, a process called thermal derating. A 5 kW inverter may derate to 3.5 kW output during peak afternoon heat, generating 30% less power than expected without triggering any visible fault code. Over a summer month, this silent underperformance can cost ₹500–₹800 in lost generation on a typical residential installation.
 
 According to [IEA data on solar PV reliability](https://www.iea.org/reports/solar-pv), thermal stress is the leading cause of accelerated inverter degradation in tropical climates, reducing component life by 30–40% when inverters operate above 55 °C for sustained periods. The [inverter overheating guide](/blog/inverter-overheating/) covers the full prevention protocol, including ventilation clearance requirements (minimum 200 mm on all sides), shade installation options, and how to read derating curves from the inverter datasheet.
 
@@ -248,17 +248,17 @@ If E001 appears during a midday peak in summer:
 1. Check that the ventilation slots on the inverter body are not blocked by debris, bird nests, or stored items.
 2. Confirm the ambient air around the inverter is not being heated by a reflective wall surface.
 3. Do not reset the inverter during peak heat (11 am to 3 pm). Allow it to cool and attempt a soft reset after 4 pm.
-4. If E001 recurs the following morning at 9 am when ambient temperatures are below 35 °C, the fault is a hardware fan failure, not ambient heat - call your installer.
+4. If E001 recurs the following morning at 9 am when ambient temperatures are below 35 °C, the fault is a hardware fan failure, not ambient heat, call your installer.
 
 ## Where Qbits Fits
 
 When a homeowner's inverter fails, the two things that determine whether this is a minor inconvenience or a major financial event are the service SLA and the warranty depth. Qbits is built precisely for this scenario: a solar inverter brand that picks up the phone on a Tuesday afternoon and has a technician on-site within 72 hours, backed by a 12-year full replacement warranty that means a failed inverter costs you zero, not ₹15,000–₹80,000.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed, BIS-certified, with IP66 weather protection and the [fault-ride-through](/glossary/fault-ride-through/) capability that prevents nuisance trips on India's volatile grid.
-- **[Hybrid Inverters](/hybrid-inverter/)** - HS and HT series with battery readiness, so critical loads continue even while the inverter is under service or during a DISCOM outage.
-- **[Authorized Service Partners](/authorized-service-partners/)** - Pincode-searchable network of trained service engineers for the less-than-72-hour RMA SLA. Find your nearest service partner before you need one.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed, BIS-certified, with IP66 weather protection and the [fault-ride-through](/glossary/fault-ride-through/) capability that prevents nuisance trips on India's volatile grid.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness, so critical loads continue even while the inverter is under service or during a DISCOM outage.
+- **[Authorized Service Partners](/authorized-service-partners/)**: Pincode-searchable network of trained service engineers for the less-than-72-hour RMA SLA. Find your nearest service partner before you need one.
 
-If your current inverter has failed and you are evaluating whether repair or replacement is the right answer, [talk to a Qbits engineer](/contact-us/) - most assessments are completed within 24 hours and there is no obligation.
+If your current inverter has failed and you are evaluating whether repair or replacement is the right answer, [talk to a Qbits engineer](/contact-us/), most assessments are completed within 24 hours and there is no obligation.
 
 ## Preventing the Next Failure: The Three-Month Maintenance Habit
 
@@ -266,13 +266,13 @@ Recovery from a failure is one problem. Preventing the next failure is a differe
 
 ### Quarterly check (15 minutes)
 
-- Inspect ventilation slots for dust, debris, and blockage. Clear with a soft brush - never compressed air directly into electronics.
+- Inspect ventilation slots for dust, debris, and blockage. Clear with a soft brush, never compressed air directly into electronics.
 - Verify the DC isolator switch operates smoothly. A sticky DC isolator is an early indicator of corrosion that can cause connection failures.
 - Check the [MPPT](/glossary/mppt/) tracking efficiency on your monitoring app: if peak yield is consistently 10–15% below expected for your panel count and orientation, the MPPT algorithm may need a firmware update.
 
 ### Annual check (qualified technician, 60–90 minutes)
 
-- Torque-check all MC4 connectors and DC cable terminations. Loose connections under DC current cause arc faults - the E009 you never want to see.
+- Torque-check all MC4 connectors and DC cable terminations. Loose connections under DC current cause arc faults, the E009 you never want to see.
 - Measure isolation resistance of the DC string to earth. It must exceed 1 MΩ; values below 500 kΩ require immediate investigation.
 - Inspect the capacitor bank condition (technician will use an ESR meter). Capacitors approaching the end of their service life show elevated equivalent series resistance before they cause visible faults.
 
@@ -289,6 +289,6 @@ The [solar inverter lifespan analysis](/blog/solar-inverter-lifespan/) establish
 - A repaired old inverter does not restart any warranty clock.
 - A new replacement unit under a 12-year warranty starts a fresh 12-year coverage period.
 
-For units older than 8 years, the honest economic answer in most cases is proactive replacement rather than repair - before the next failure happens on a peak summer day when technician availability is at its lowest.
+For units older than 8 years, the honest economic answer in most cases is proactive replacement rather than repair, before the next failure happens on a peak summer day when technician availability is at its lowest.
 
 The replacement cost data, broken down by inverter capacity and brand category, is covered in the [solar inverter replacement costs guide](/blog/solar-inverter-replacement-costs-in-india/).

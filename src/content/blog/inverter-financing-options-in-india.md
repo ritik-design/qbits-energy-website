@@ -1,7 +1,7 @@
 ---
 title: "Inverter Financing Options in India: Complete Guide 2026"
 excerpt: "Solar inverters represent 15–20% of project costs. The right financing strategy turns capital-intensive purchases into manageable, ROI-positive investments."
-description: "Complete inverter financing guide for India 2026 - upfront cash, EMI loans (9.5–14% rates), CAPEX vs OPEX, leasing, PM-KUSUM subsidies, accelerated depreciation, and decision framework for EPCs."
+description: "Complete inverter financing guide for India 2026, upfront cash, EMI loans (9.5–14% rates), CAPEX vs OPEX, leasing, PM-KUSUM subsidies, accelerated depreciation, and decision framework for EPCs."
 category: "Buying Guide"
 date: 2026-05-06
 readTime: "8 min"
@@ -97,4 +97,4 @@ India's solar capacity exceeds **80 GW** in 2026. The market has developed speci
 
 ## Closing
 
-Financing strategy is not separate from product selection - they compound. A 12-year warranty does not just protect operations; it lowers financing cost. Subsidies do not just reduce upfront price; they accelerate payback. Build financial structure around your project profile and treat financing as a strategic lever, not a back-office function.
+Financing strategy is not separate from product selection, they compound. A 12-year warranty does not just protect operations; it lowers financing cost. Subsidies do not just reduce upfront price; they accelerate payback. Build financial structure around your project profile and treat financing as a strategic lever, not a back-office function.

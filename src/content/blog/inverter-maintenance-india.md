@@ -1,7 +1,7 @@
 ---
 title: "Inverter Maintenance India: Complete Service Guide 2026"
 excerpt: "Without systematic maintenance, even premium inverters lose 15–20% efficiency within two years in India's climate. Here are the schedules, costs, and protocols that keep systems at 98%."
-description: "Complete inverter maintenance schedule for Indian installations - daily monitoring, weekly visual checks, quarterly professional service, annual audits, cost benchmarks, and warranty-compliant protocols."
+description: "Complete inverter maintenance schedule for Indian installations, daily monitoring, weekly visual checks, quarterly professional service, annual audits, cost benchmarks, and warranty-compliant protocols."
 category: "Maintenance"
 date: 2026-03-22
 readTime: "13 min"
@@ -58,7 +58,7 @@ Without maintenance: **2–3% annual efficiency degradation** vs **0.5%** with p
 
 ## Preventive Maintenance Schedule
 
-### Daily - Automated Monitoring
+### Daily: Automated Monitoring
 
 Configure tracking for:
 
@@ -68,7 +68,7 @@ Configure tracking for:
 - Grid voltage and frequency
 - Fault codes
 
-### Weekly - Visual Inspection (10 minutes)
+### Weekly: Visual Inspection (10 minutes)
 
 - Dust accumulation
 - LED status indicators
@@ -76,7 +76,7 @@ Configure tracking for:
 - Ambient clearances
 - Moisture or corrosion signs
 
-### Monthly - Cleaning and Physical Inspection (30–45 minutes)
+### Monthly: Cleaning and Physical Inspection (30–45 minutes)
 
 - External cleaning
 - Connection point inspection
@@ -84,7 +84,7 @@ Configure tracking for:
 - Mounting security
 - Cable management review
 
-### Quarterly - Professional Service (₹2,500–5,000 per inverter)
+### Quarterly: Professional Service (₹2,500–5,000 per inverter)
 
 - Internal inspection
 - Cooling fan assessment
@@ -94,7 +94,7 @@ Configure tracking for:
 - Firmware verification
 - Comprehensive performance testing
 
-### Annual - Comprehensive Audit
+### Annual: Comprehensive Audit
 
 - Complete electrical safety testing
 - SPD verification
@@ -117,8 +117,8 @@ Configure tracking for:
 ### Safe Cleaning Steps
 
 1. Power assessment (disconnect if required)
-2. Dry dust removal - compressed air, **40 PSI max**
-3. Damp cloth cleaning - water only
+2. Dry dust removal, compressed air, **40 PSI max**
+3. Damp cloth cleaning, water only
 4. Ventilation grill attention
 5. Seal inspection
 6. Complete air drying before re-energising
@@ -241,13 +241,13 @@ For a 50 kW system at ₹4 lakhs/year generation:
 
 ### Remote Monitoring Impact
 
-Remote diagnostics solve **70–80%** of issues without site visits. Single technician can oversee dozens of installations - reducing site visit frequency by **50–60%**.
+Remote diagnostics solve **70–80%** of issues without site visits. Single technician can oversee dozens of installations, reducing site visit frequency by **50–60%**.
 
 ## Maximising Lifespan Beyond 15 Years
 
 ### Best Practices
 
-- Keep operation below **60°C** - doubles component lifespan
+- Keep operation below **60°C**: doubles component lifespan
 - Configure string voltages at **60–80% of max input**
 - Size systems for **30–80% capacity operation**
 - Environmental protection: canopies, corrosion coatings, pest barriers

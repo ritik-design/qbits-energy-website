@@ -1,7 +1,7 @@
 ---
-title: "Solar String Sizing and Overcurrent Protection India - EPC Guide"
+title: "Solar String Sizing and Overcurrent Protection India, EPC Guide"
 excerpt: "Solar string sizing in India starts with inverter MPPT voltage limits, temperature-corrected Voc calculations, and fuse ratings sized for parallel string Isc. Here is the 5-step method."
-description: "Step-by-step solar string sizing guide for EPC teams in India - Voc temperature correction, 1.25 safety factor, Isc fuse sizing for parallel strings, and the 5-Step String Sizing Loop."
+description: "Step-by-step solar string sizing guide for EPC teams in India, Voc temperature correction, 1.25 safety factor, Isc fuse sizing for parallel strings, and the 5-Step String Sizing Loop."
 category: Technology
 date: 2026-06-05
 readTime: "17 min"
@@ -32,13 +32,13 @@ faqs:
     a: "Yes. When two or more strings are connected in parallel at a combiner box or directly at the inverter's MPPT input, each string requires individual overcurrent protection (a string fuse or miniature circuit breaker). The reason: if one string develops a ground fault, current from the other healthy string flows through the fault point. Without a fuse on each string, this fault current has no automatic interruption mechanism and can cause cable insulation damage or fire. The fuse rating is calculated as 1.25 × 1.25 × Isc - the double 1.25 factor ensures the fuse carries full continuous string current without nuisance blowing."
 ---
 
-String sizing is the first calculation an EPC engineer performs when designing a solar plant - before layout, before cable sizing, before protection coordination. Get it wrong, and the inverter either fails to reach MPPT (too few panels per string) or suffers over-voltage damage on a cold morning (too many panels per string). In India, the calculation has two India-specific characteristics: high ambient temperatures reduce hot-day voltage concerns, while the required safety factor still governs the cold-day maximum.
+String sizing is the first calculation an EPC engineer performs when designing a solar plant, before layout, before cable sizing, before protection coordination. Get it wrong, and the inverter either fails to reach MPPT (too few panels per string) or suffers over-voltage damage on a cold morning (too many panels per string). In India, the calculation has two India-specific characteristics: high ambient temperatures reduce hot-day voltage concerns, while the required safety factor still governs the cold-day maximum.
 
 > **Direct answer.** Solar string sizing in India follows five steps: check inverter MPPT Vmin and Vmax, calculate string Voc at the coldest expected temperature using the panel's temperature coefficient, verify that Voc × 1.25 falls below inverter Vmax DC, calculate string Isc for fuse selection using 1.25 × Isc × 1.25 for parallel strings. The 5-Step String Sizing Loop ensures every Qbits inverter specification is met safely at both temperature extremes.
 
-For EPC teams who quote fast and install faster, string sizing is often the step where shortcuts are taken. This guide gives the full method - including the India-specific temperature corrections that make the calculation different from European or US practice.
+For EPC teams who quote fast and install faster, string sizing is often the step where shortcuts are taken. This guide gives the full method, including the India-specific temperature corrections that make the calculation different from European or US practice.
 
-## Step 1 - Read the Inverter MPPT Specification Sheet
+## Step 1: Read the Inverter MPPT Specification Sheet
 
 The inverter specification sheet contains four DC input parameters that govern string sizing. All four must be recorded before touching a calculator.
 
@@ -51,11 +51,11 @@ The inverter specification sheet contains four DC input parameters that govern s
 
 For Qbits TLS series single-phase on-grid inverters (3–10 kW), typical values are Vmax DC = 1000 V, MPPT range = 150–800 V, Isc max = 15 A per MPPT. For the HT series three-phase hybrid (8–25 kW), Vmax DC = 1000 V, MPPT range = 200–900 V. Always use the actual datasheet for the specific model being installed, not a generic estimate.
 
-The [string sizing calculator](/string-sizing-calculator/) pre-loads Qbits inverter specifications and automates steps 2–5, but understanding the manual method is essential for troubleshooting and for verifying calculator outputs against the datasheet. [NREL's PV string sizing guide](https://www.nrel.gov/docs/fy10osti/44184.pdf){target="_blank" rel="noopener"} recommends that all string sizing calculations be documented and retained as part of the system design file - a practice that is also required by [MNRE's Rooftop Solar Scheme technical standards](https://mnre.gov.in/){target="_blank" rel="noopener"} for systems receiving government subsidy.
+The [string sizing calculator](/string-sizing-calculator/) pre-loads Qbits inverter specifications and automates steps 2–5, but understanding the manual method is essential for troubleshooting and for verifying calculator outputs against the datasheet. [NREL's PV string sizing guide](https://www.nrel.gov/docs/fy10osti/44184.pdf){target="_blank" rel="noopener"} recommends that all string sizing calculations be documented and retained as part of the system design file, a practice that is also required by [MNRE's Rooftop Solar Scheme technical standards](https://mnre.gov.in/){target="_blank" rel="noopener"} for systems receiving government subsidy.
 
-## Step 2 - Calculate String Voc at the Lowest Expected Temperature
+## Step 2: Calculate String Voc at the Lowest Expected Temperature
 
-The panel's open-circuit voltage (Voc) at standard test conditions (STC: 25 °C cell temperature, 1000 W/m² irradiance) is printed on the panel nameplate. But on a cold clear morning - the worst-case voltage scenario - the actual Voc is higher than STC because Voc increases as cell temperature decreases.
+The panel's open-circuit voltage (Voc) at standard test conditions (STC: 25 °C cell temperature, 1000 W/m² irradiance) is printed on the panel nameplate. But on a cold clear morning (the worst-case voltage scenario) the actual Voc is higher than STC because Voc increases as cell temperature decreases.
 
 The formula:
 
@@ -88,9 +88,9 @@ This exceeds a 1000 V Vmax DC inverter, confirming that 20-panel strings are too
 | Shimla / hill stations | −15 | −15 | 1.120 |
 | Ladakh | −25 | −25 | 1.150 |
 
-For most Indian plains installations, the cold-temperature multiplier is 1.04–1.08, meaning the Voc correction is modest compared to European installations (where multipliers of 1.10–1.15 are common). This is the source of the assertion that strings can run slightly longer in India - but the 1.25 safety factor still applies on top of the temperature correction.
+For most Indian plains installations, the cold-temperature multiplier is 1.04–1.08, meaning the Voc correction is modest compared to European installations (where multipliers of 1.10–1.15 are common). This is the source of the assertion that strings can run slightly longer in India, but the 1.25 safety factor still applies on top of the temperature correction.
 
-## Step 3 - Apply the 1.25 Safety Factor and Compare to Vmax DC
+## Step 3: Apply the 1.25 Safety Factor and Compare to Vmax DC
 
 The safety check:
 
@@ -101,23 +101,23 @@ This safety factor, drawn from IS/IEC 60364-7-712 (Electrical Installations for 
 Continuing the Delhi example with 20-panel strings:
 
 String Voc(−2 °C) = 52.97 V × 20 = 1,059 V
-1,059 V × 1.25 = **1,324 V** - fails a 1000 V inverter
+1,059 V × 1.25 = **1,324 V**: fails a 1000 V inverter
 
 Try 18-panel strings:
 
 String Voc(−2 °C) = 52.97 V × 18 = 953 V
-953 V × 1.25 = **1,191 V** - still fails
+953 V × 1.25 = **1,191 V**: still fails
 
 Try 15-panel strings:
 
 String Voc(−2 °C) = 52.97 V × 15 = 795 V
-795 V × 1.25 = **994 V** - passes (just under 1000 V)
+795 V × 1.25 = **994 V**: passes (just under 1000 V)
 
 So the maximum string length for this panel model at this Delhi location with a 1000 V inverter is **15 panels**.
 
 > **1000 V DC.** The maximum DC input voltage of most commercial solar inverters in India for systems up to 100 kW. Utility-scale systems use 1500 V DC to reduce string cable losses, but 1000 V remains the standard for commercial rooftop. *Source - [IEC 62109-2, Safety for PV Power Systems](https://www.iec.ch/){target="_blank" rel="noopener"}, 2011.*
 
-## Step 4 - Verify the String Meets MPPT Vmin at Maximum Temperature
+## Step 4: Verify the String Meets MPPT Vmin at Maximum Temperature
 
 The minimum string check ensures the string produces enough voltage for the inverter to operate its MPPT algorithm even on the hottest summer day, when Voc (and Vmpp) are lowest.
 
@@ -137,11 +137,11 @@ For a 15-panel string: String Vmpp(75 °C) = 33 V × 15 = **495 V**
 
 This comfortably exceeds the Vmin MPPT of 150–200 V for most Qbits inverter models, confirming 15 panels per string works at both temperature extremes.
 
-The [inverter MPPT guide](/blog/inverter-mppt/) explains how the MPPT algorithm searches for the peak power point - a wider MPPT voltage window gives the inverter more tolerance for string voltage variation throughout the day. [IEA's solar PV technology guide](https://www.iea.org/reports/solar-pv){target="_blank" rel="noopener"} notes that MPPT range is one of the most important inverter specifications for high-temperature climates, where the operating Vmpp can be 25–30% below STC values on summer afternoons. [IRENA's rooftop solar installation best practices](https://www.irena.org/publications){target="_blank" rel="noopener"} cite MPPT range mismatch as a top-five cause of below-forecast energy yield in tropical solar markets.
+The [inverter MPPT guide](/blog/inverter-mppt/) explains how the MPPT algorithm searches for the peak power point, a wider MPPT voltage window gives the inverter more tolerance for string voltage variation throughout the day. [IEA's solar PV technology guide](https://www.iea.org/reports/solar-pv){target="_blank" rel="noopener"} notes that MPPT range is one of the most important inverter specifications for high-temperature climates, where the operating Vmpp can be 25–30% below STC values on summer afternoons. [IRENA's rooftop solar installation best practices](https://www.irena.org/publications){target="_blank" rel="noopener"} cite MPPT range mismatch as a top-five cause of below-forecast energy yield in tropical solar markets.
 
-## Step 5 - Calculate Isc for Fuse Selection
+## Step 5: Calculate Isc for Fuse Selection
 
-For systems with a single string per MPPT input, no string fuse is required in the string circuit - the string cable is sized for 1.25 × Isc, and the inverter's input protection covers the MPPT. For two or more parallel strings sharing an MPPT input, each string must have an individual overcurrent protection device.
+For systems with a single string per MPPT input, no string fuse is required in the string circuit, the string cable is sized for 1.25 × Isc, and the inverter's input protection covers the MPPT. For two or more parallel strings sharing an MPPT input, each string must have an individual overcurrent protection device.
 
 ### The Fuse Sizing Formula
 
@@ -161,24 +161,24 @@ Rounding up to the nearest standard fuse rating: **25 A gPV fuse** (type gPV is 
 
 This named framework summarises the complete string sizing method for any Qbits inverter installation:
 
-1. **Read** - Record Vmax DC, MPPT Vmin, MPPT Vmax, and Isc max from the inverter datasheet.
-2. **Calculate Voc(Tmin)** - Apply temperature coefficient formula using site-minimum temperature.
-3. **Safety check** - Confirm string Voc(Tmin) × 1.25 < Vmax DC. Reduce string length if not.
-4. **MPPT floor check** - Confirm string Vmpp(Tmax) > MPPT Vmin. Increase string length if not.
-5. **Fuse size** - For ≥2 parallel strings, calculate gPV fuse = 1.25 × Isc × 1.25. Select next standard size up.
+1. **Read**: Record Vmax DC, MPPT Vmin, MPPT Vmax, and Isc max from the inverter datasheet.
+2. **Calculate Voc(Tmin)**: Apply temperature coefficient formula using site-minimum temperature.
+3. **Safety check**: Confirm string Voc(Tmin) × 1.25 < Vmax DC. Reduce string length if not.
+4. **MPPT floor check**: Confirm string Vmpp(Tmax) > MPPT Vmin. Increase string length if not.
+5. **Fuse size**: For ≥2 parallel strings, calculate gPV fuse = 1.25 × Isc × 1.25. Select next standard size up.
 
-Running this loop for each MPPT channel on the inverter - before wiring begins - eliminates the two most common installation errors: over-voltage damage from over-long strings and nuisance tripping from under-sized fuses.
+Running this loop for each MPPT channel on the inverter (before wiring begins) eliminates the two most common installation errors: over-voltage damage from over-long strings and nuisance tripping from under-sized fuses.
 
-## Overcurrent Protection - gPV Fuses vs MCBs for DC Applications
+## Overcurrent Protection: gPV Fuses vs MCBs for DC Applications
 
 Not all circuit breakers are safe for DC photovoltaic applications. This is a common and dangerous mistake in Indian rooftop installations.
 
-Standard AC miniature circuit breakers (MCBs) are designed to interrupt AC current, which crosses zero twice per cycle (100 times per second at 50 Hz). DC current does not cross zero - it is continuous - so a DC arc does not extinguish on its own. An AC MCB rated at 10 A cannot safely interrupt a 10 A DC fault current; the arc sustains and can cause fire.
+Standard AC miniature circuit breakers (MCBs) are designed to interrupt AC current, which crosses zero twice per cycle (100 times per second at 50 Hz). DC current does not cross zero (it is continuous) so a DC arc does not extinguish on its own. An AC MCB rated at 10 A cannot safely interrupt a 10 A DC fault current; the arc sustains and can cause fire.
 
 **For solar string circuits, use only:**
 
-- **gPV DC fuses** - Rated for DC arc interruption; IEC 60269-6 specification. Available from Eaton, Littelfuse, Mersen (ex-Ferraz).
-- **DC-rated MCBs or DIN rail fuses** - Specifically rated for solar PV DC applications with an explicit DC voltage rating (e.g., 600 VDC or 1000 VDC).
+- **gPV DC fuses**: Rated for DC arc interruption; IEC 60269-6 specification. Available from Eaton, Littelfuse, Mersen (ex-Ferraz).
+- **DC-rated MCBs or DIN rail fuses**: Specifically rated for solar PV DC applications with an explicit DC voltage rating (e.g., 600 VDC or 1000 VDC).
 
 | Protection device | DC arc interruption | PV DC voltage rating | India availability |
 | --- | --- | --- | --- |
@@ -189,25 +189,25 @@ Standard AC miniature circuit breakers (MCBs) are designed to interrupt AC curre
 
 [CEA's Regulation for Safety, Supply, Etc.](https://cea.nic.in/){target="_blank" rel="noopener"} and [MNRE's RRAS (Rooftop Solar Scheme Technical Standards)](https://mnre.gov.in/){target="_blank" rel="noopener"} both require DC-rated overcurrent protection devices in PV string circuits. Using standard AC devices is a code violation that can void insurance claims in the event of a fire.
 
-## Common String Sizing Errors - What EPC Teams Get Wrong
+## Common String Sizing Errors: What EPC Teams Get Wrong
 
-- **Using panel Vmpp instead of Voc for maximum voltage check** - The safety check must use Voc, not Vmpp, because the panels are at open-circuit voltage whenever the inverter is not pulling current (startup, shutdown, MPPT search). Using Vmpp understates the worst-case string voltage.
-- **Ignoring the temperature coefficient sign** - Tc_Voc is negative (Voc decreases with increasing temperature). The formula uses (1 + Tc × ΔT): at cold temperatures, ΔT is negative, making (Tc × ΔT) positive - so Voc increases. Applying the wrong sign gives a calculated Voc below STC, which understates the cold-weather risk.
-- **Mixing panel models in a string** - Connecting two different panel models (different Vmpp) in series causes MPPT inefficiency; the string operates at the MPPT voltage of the weaker panel, wasting capacity from the stronger panels. Never mix panel models within a string.
-- **Forgetting parallel string fuse sizing** - Single-string systems need no string fuse; two or more parallel strings each need a gPV fuse. Installing no fuse on a two-string system leaves the circuit unprotected against reverse fault current.
+- **Using panel Vmpp instead of Voc for maximum voltage check**: The safety check must use Voc, not Vmpp, because the panels are at open-circuit voltage whenever the inverter is not pulling current (startup, shutdown, MPPT search). Using Vmpp understates the worst-case string voltage.
+- **Ignoring the temperature coefficient sign**: Tc_Voc is negative (Voc decreases with increasing temperature). The formula uses (1 + Tc × ΔT): at cold temperatures, ΔT is negative, making (Tc × ΔT) positive, so Voc increases. Applying the wrong sign gives a calculated Voc below STC, which understates the cold-weather risk.
+- **Mixing panel models in a string**: Connecting two different panel models (different Vmpp) in series causes MPPT inefficiency; the string operates at the MPPT voltage of the weaker panel, wasting capacity from the stronger panels. Never mix panel models within a string.
+- **Forgetting parallel string fuse sizing**: Single-string systems need no string fuse; two or more parallel strings each need a gPV fuse. Installing no fuse on a two-string system leaves the circuit unprotected against reverse fault current.
 
-The [DC oversizing guide](/blog/dc-oversizing-in-solar/) covers the related topic of how many watts of panels can be connected to each kW of inverter - the DC:AC ratio calculation that complements string sizing.
+The [DC oversizing guide](/blog/dc-oversizing-in-solar/) covers the related topic of how many watts of panels can be connected to each kW of inverter, the DC:AC ratio calculation that complements string sizing.
 
 ## Where Qbits Fits
 
-Qbits on-grid and hybrid inverters are specified with clear, complete DC input parameters on the datasheet - Vmax DC, MPPT range, Isc max per MPPT - in a format that directly plugs into the 5-Step String Sizing Loop. The 12-year full replacement warranty covers inverter damage from manufacturing defects, but over-voltage damage from incorrectly sized strings is a design error, not a manufacturing defect.
+Qbits on-grid and hybrid inverters are specified with clear, complete DC input parameters on the datasheet (Vmax DC, MPPT range, Isc max per MPPT) in a format that directly plugs into the 5-Step String Sizing Loop. The 12-year full replacement warranty covers inverter damage from manufacturing defects, but over-voltage damage from incorrectly sized strings is a design error, not a manufacturing defect.
 
 Getting string sizing right before installation protects both the inverter investment and the warranty. The [string sizing calculator](/string-sizing-calculator/) reduces the manual calculation to 60 seconds.
 
-- **[String Sizing Calculator](/string-sizing-calculator/)** - Enter panel and inverter specs; get min/max string length and fuse rating instantly.
-- **[On-Grid Inverters](/on-grid-inverter/)** - TLS and TLD series datasheet with full DC input specifications.
-- **[Hybrid Inverters](/hybrid-inverter/)** - HS and HT series with MPPT specifications for string sizing.
-- **[DC Oversizing in Solar](/blog/dc-oversizing-in-solar/)** - Related guide on DC:AC ratio and how it interacts with string sizing decisions.
-- **[Inverter MPPT Guide](/blog/inverter-mppt/)** - How MPPT algorithm interacts with string voltage during low-irradiance conditions.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: Enter panel and inverter specs; get min/max string length and fuse rating instantly.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series datasheet with full DC input specifications.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with MPPT specifications for string sizing.
+- **[DC Oversizing in Solar](/blog/dc-oversizing-in-solar/)**: Related guide on DC:AC ratio and how it interacts with string sizing decisions.
+- **[Inverter MPPT Guide](/blog/inverter-mppt/)**: How MPPT algorithm interacts with string voltage during low-irradiance conditions.
 
-For large-scale EPC projects where string sizing needs to be documented for DISCOM or bancability review, [talk to a Qbits engineer](/contact-us/) - the applications team can provide string sizing calculations in a structured format suitable for project design reports.
+For large-scale EPC projects where string sizing needs to be documented for DISCOM or bancability review, [talk to a Qbits engineer](/contact-us/), the applications team can provide string sizing calculations in a structured format suitable for project design reports.

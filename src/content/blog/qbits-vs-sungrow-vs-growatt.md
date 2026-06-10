@@ -33,7 +33,7 @@ Selecting the right solar inverter brand can make or break your EPC project's pr
 Three major trends are reshaping inverter selection criteria in 2026:
 
 1. **AI-powered monitoring** has moved from premium feature to essential requirement
-2. **Warranty coverage** has become a critical differentiator - extending from a standard 5 years to 10–12 years
+2. **Warranty coverage** has become a critical differentiator, extending from a standard 5 years to 10–12 years
 3. **High-wattage panels (650–750W)** have made DC oversizing capability non-negotiable
 
 Inverter-related issues account for approximately **60% of all solar system service calls** in India. EPCs that prioritise component quality and local service infrastructure report **40–50% fewer warranty claims** and significantly higher customer retention.
@@ -68,19 +68,19 @@ AI-powered **WhatsApp monitoring** delivers:
 
 ### Sungrow
 
-iSolarCloud platform - comprehensive web and mobile dashboards, fleet management, detailed analytics, and remote diagnostics. Ideal for large EPCs managing many sites; interface can overwhelm residential customers.
+iSolarCloud platform, comprehensive web and mobile dashboards, fleet management, detailed analytics, and remote diagnostics. Ideal for large EPCs managing many sites; interface can overwhelm residential customers.
 
 ### Growatt
 
-ShinePhone app - real-time production data, historical access, and basic alerts. Straightforward but limited.
+ShinePhone app, real-time production data, historical access, and basic alerts. Straightforward but limited.
 
 ### Fronius
 
-Solar.web ecosystem - detailed technical data and professional-grade analytics. Excels for commercial projects.
+Solar.web ecosystem, detailed technical data and professional-grade analytics. Excels for commercial projects.
 
 ### Solis
 
-SolisCloud - standard mobile monitoring with reliable but non-distinctive features.
+SolisCloud, standard mobile monitoring with reliable but non-distinctive features.
 
 > **Impact:** intuitive interfaces with native channels reduce support calls by **30–40%**.
 
@@ -115,7 +115,7 @@ Solid manufacturing meeting international standards without component-level diff
 
 ### Qbits
 
-- **IP66 weather protection** - complete dust ingress protection, water jet resistance
+- **IP66 weather protection**: complete dust ingress protection, water jet resistance
 - Comprehensive DC and AC surge protection devices (SPDs)
 - Thermal management maintaining **98% efficiency at ambient temperatures exceeding 45°C**
 - Supports **up to 100% DC oversizing**
@@ -216,11 +216,11 @@ Comprehensive range across residential, commercial, hybrid applications.
 
 ### Residential
 
-**Qbits** - optimal balance of advanced features, extended warranty, and competitive pricing for quality-conscious homeowners.
+**Qbits**: optimal balance of advanced features, extended warranty, and competitive pricing for quality-conscious homeowners.
 
 ### Commercial & Industrial
 
-**Qbits** - comprehensive solutions with IP66 weather protection and surge protection essential for rooftops; extended warranty reduces TCO.
+**Qbits**: comprehensive solutions with IP66 weather protection and surge protection essential for rooftops; extended warranty reduces TCO.
 
 ### Premium Residential
 
@@ -228,12 +228,12 @@ Comprehensive range across residential, commercial, hybrid applications.
 
 ### Large-Scale Commercial / Utility
 
-**Sungrow** - established track record and extensive product range provide credibility and scalability.
+**Sungrow**: established track record and extensive product range provide credibility and scalability.
 
 ### Budget Residential
 
-**Growatt** - competitive bidding enabler, though manage expectations on warranty coverage and features.
+**Growatt**: competitive bidding enabler, though manage expectations on warranty coverage and features.
 
 ## Making the Right Inverter Brand Decision
 
-Brands engineered specifically for Indian conditions - with advanced monitoring, extended warranties, and premium components - deliver superior total cost of ownership over the system's 25-year life. **Qbits combines a 12-year warranty, AI-powered WhatsApp monitoring, German-grade components, IP66 weather protection, and competitive pricing**, making it the optimal choice for EPCs targeting quality-conscious customers without paying the premium European price.
+Brands engineered specifically for Indian conditions (with advanced monitoring, extended warranties, and premium components) deliver superior total cost of ownership over the system's 25-year life. **Qbits combines a 12-year warranty, AI-powered WhatsApp monitoring, German-grade components, IP66 weather protection, and competitive pricing**, making it the optimal choice for EPCs targeting quality-conscious customers without paying the premium European price.

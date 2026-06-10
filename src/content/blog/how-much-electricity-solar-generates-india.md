@@ -43,11 +43,11 @@ India stretches from latitude 8° N (Kanyakumari, Tamil Nadu) to 37° N (Ladakh)
 
 Three factors drive state-to-state variation in solar electricity generation:
 
-- **Global Horizontal Irradiance (GHI)** - total solar energy reaching a horizontal surface per square metre per day, measured in kWh/m²/day. This is the primary driver of panel output.
-- **Cloud cover and monsoon intensity** - cloud cover reduces irradiance from beam (direct) to diffuse radiation, cutting output to 15–40% of clear-sky values on heavily overcast days.
-- **Temperature** - higher ambient temperatures reduce panel output. Silicon panels lose approximately 0.4–0.5% output per °C above 25 °C (the standard test condition temperature). Rajasthan's summer rooftops reach 65–70 °C panel temperature, reducing output by 16–20% compared to datasheet ratings.
+- **Global Horizontal Irradiance (GHI)**: total solar energy reaching a horizontal surface per square metre per day, measured in kWh/m²/day. This is the primary driver of panel output.
+- **Cloud cover and monsoon intensity**: cloud cover reduces irradiance from beam (direct) to diffuse radiation, cutting output to 15–40% of clear-sky values on heavily overcast days.
+- **Temperature**: higher ambient temperatures reduce panel output. Silicon panels lose approximately 0.4–0.5% output per °C above 25 °C (the standard test condition temperature). Rajasthan's summer rooftops reach 65–70 °C panel temperature, reducing output by 16–20% compared to datasheet ratings.
 
-The net result of these three factors is the **annual specific yield** - units generated per kW of installed capacity per year. This number is the single most useful metric for comparing solar potential across Indian states.
+The net result of these three factors is the **annual specific yield**: units generated per kW of installed capacity per year. This number is the single most useful metric for comparing solar potential across Indian states.
 
 > **5–6 kWh/m²/day.** Average solar irradiance across most of India, one of the highest levels in the world for a major developing economy. *Source - [NREL India Solar Resource Data](https://www.nrel.gov/international/ra_india.html), 2024.*
 
@@ -81,21 +81,21 @@ This four-step framework lets you compute your expected annual generation from a
 
 ### The State-by-State Solar Yield Calculator
 
-1. **Look up your state's GHI** - Use the table above or the MNRE's India Solar Resource Map available at [mnre.gov.in](https://mnre.gov.in/). For precision, use your pincode-level irradiance from NREL's PVWatts tool.
+1. **Look up your state's GHI**: Use the table above or the MNRE's India Solar Resource Map available at [mnre.gov.in](https://mnre.gov.in/). For precision, use your pincode-level irradiance from NREL's PVWatts tool.
 
-2. **Calculate your annual specific yield** - Apply a performance ratio (PR) of 0.75–0.82 depending on system quality. Formula: `Annual Yield (kWh/kW) = GHI (kWh/m²/day) × 365 × PR`. For Bangalore with GHI of 5.2 and PR 0.80: `5.2 × 365 × 0.80 = 1,519 kWh/kW/yr`.
+2. **Calculate your annual specific yield**: Apply a performance ratio (PR) of 0.75–0.82 depending on system quality. Formula: `Annual Yield (kWh/kW) = GHI (kWh/m²/day) × 365 × PR`. For Bangalore with GHI of 5.2 and PR 0.80: `5.2 × 365 × 0.80 = 1,519 kWh/kW/yr`.
 
-3. **Multiply by system size** - For a 5 kW system in Bangalore: `5 × 1,519 = 7,595 kWh per year` (approximately 633 units/month average).
+3. **Multiply by system size**: For a 5 kW system in Bangalore: `5 × 1,519 = 7,595 kWh per year` (approximately 633 units/month average).
 
-4. **Adjust for orientation and shading** - South-facing = 100%. West-facing = subtract 12–18%. East-facing = subtract 15–20%. Partial shading = subtract 10–30% depending on severity. Final adjusted yield is your realistic annual generation estimate.
+4. **Adjust for orientation and shading**: South-facing = 100%. West-facing = subtract 12–18%. East-facing = subtract 15–20%. Partial shading = subtract 10–30% depending on severity. Final adjusted yield is your realistic annual generation estimate.
 
-This framework produces a conservative, real-world estimate. Many installers quote the higher end of the range without accounting for PR losses, temperature derating, and shading - comparing your calculated estimate to their quote is useful quality control.
+This framework produces a conservative, real-world estimate. Many installers quote the higher end of the range without accounting for PR losses, temperature derating, and shading, comparing your calculated estimate to their quote is useful quality control.
 
-## Monthly Variation - Why Summer and Monsoon Matter
+## Monthly Variation: Why Summer and Monsoon Matter
 
 Annual averages conceal the dramatic month-to-month variation in solar generation across Indian states. Understanding this variation helps you budget for your electricity bill correctly and set realistic expectations.
 
-**3 kW system in Rajasthan - monthly generation (approximate):**
+**3 kW system in Rajasthan, monthly generation (approximate):**
 
 | Month | Generation (units) | Notes |
 | --- | --- | --- |
@@ -113,11 +113,11 @@ Annual averages conceal the dramatic month-to-month variation in solar generatio
 | December | 360–400 | Shortest days |
 | **Annual total** | **4,960–5,520** | **Average: 470–510/month** |
 
-In Kerala, the June–September monsoon months can produce as few as 250–350 units per month from a 3 kW system - roughly half the annual average. This seasonal variation affects net metering credit accumulation and bill management strategies.
+In Kerala, the June–September monsoon months can produce as few as 250–350 units per month from a 3 kW system, roughly half the annual average. This seasonal variation affects net metering credit accumulation and bill management strategies.
 
 > **India added 15.4 GW of solar capacity in FY 2024–25**, bringing cumulative installed capacity to over 110 GW. Rooftop solar contributed an increasing share as PM Surya Ghar registrations accelerated. *Source - [Mercom India Q4 2025 Solar Market Report](https://www.mercomindia.com/).*
 
-## Real Worked Examples - 3 kW, 5 kW, and 10 kW Systems
+## Real Worked Examples: 3 kW, 5 kW, and 10 kW Systems
 
 **Example 1: 3 kW system in Jaipur, Rajasthan**
 - Annual specific yield: 1,900 kWh/kW/yr
@@ -149,11 +149,11 @@ The self-consumption ratio matters because exported units typically earn a lower
 
 Several factors can reduce actual generation below the theoretical estimates shown above. Understanding them helps you evaluate installer quotes critically.
 
-- **Soiling and dust** - Dust accumulation on panel surfaces reduces generation by 5–20% in dusty regions (Rajasthan, UP, Delhi). Monthly cleaning in the dry season restores output. For tips on maximising output, see [how to maximise solar output in Indian climate](/blog/maximize-solar-output-indian-climate/).
-- **Shading** - A shadow covering just 10% of one panel can reduce that entire string's output by 25–40% due to series connection physics. A thorough shade analysis at the site survey stage is non-negotiable.
-- **Panel degradation** - Quality panels degrade at 0.5–0.7% per year. At Year 10, output is approximately 95% of original; at Year 25, approximately 80–85%.
-- **Inverter clipping** - If your inverter is undersized relative to the panel array, it limits output at peak irradiance hours - the inverter effectively clips the peak. See [inverter clipping explained](/blog/inverter-clipping-explained/) for the diagnosis and fix.
-- **High ambient temperature** - Panel output drops 0.4–0.5% per °C above 25 °C. On a 45 °C ambient day in Rajasthan, panel temperatures reach 60–70 °C, reducing nameplate output by 14–18%.
+- **Soiling and dust**: Dust accumulation on panel surfaces reduces generation by 5–20% in dusty regions (Rajasthan, UP, Delhi). Monthly cleaning in the dry season restores output. For tips on maximising output, see [how to maximise solar output in Indian climate](/blog/maximize-solar-output-indian-climate/).
+- **Shading**: A shadow covering just 10% of one panel can reduce that entire string's output by 25–40% due to series connection physics. A thorough shade analysis at the site survey stage is non-negotiable.
+- **Panel degradation**: Quality panels degrade at 0.5–0.7% per year. At Year 10, output is approximately 95% of original; at Year 25, approximately 80–85%.
+- **Inverter clipping**: If your inverter is undersized relative to the panel array, it limits output at peak irradiance hours, the inverter effectively clips the peak. See [inverter clipping explained](/blog/inverter-clipping-explained/) for the diagnosis and fix.
+- **High ambient temperature**: Panel output drops 0.4–0.5% per °C above 25 °C. On a 45 °C ambient day in Rajasthan, panel temperatures reach 60–70 °C, reducing nameplate output by 14–18%.
 
 ## How to Use This Data When Evaluating Installer Quotes
 
@@ -165,7 +165,7 @@ Every reputable solar installer should provide a **Detailed Project Report (DPR)
 - Irradiance source (NREL, NASA, or state-specific data)
 - Shading analysis if any obstruction exists
 
-If an installer quotes only the annual total without monthly breakdown, or uses a round-number multiplier like "1 kW = 5 units/day" for Kerala without qualification, that is a warning sign. Kerala's actual output is closer to 3.5–4.5 units/kW/day - 15–25% below a simplified national average.
+If an installer quotes only the annual total without monthly breakdown, or uses a round-number multiplier like "1 kW = 5 units/day" for Kerala without qualification, that is a warning sign. Kerala's actual output is closer to 3.5–4.5 units/kW/day, 15–25% below a simplified national average.
 
 The [string sizing calculator](/string-sizing-calculator/) helps you verify whether the quoted panel and inverter combination is correctly matched for your state's irradiance profile.
 
@@ -173,10 +173,10 @@ The [string sizing calculator](/string-sizing-calculator/) helps you verify whet
 
 Solar generation estimates are only realisable if the inverter extracts maximum power from the panels at every operating condition. Qbits on-grid inverters use multi-point MPPT algorithms that continuously track the maximum power point as irradiance fluctuates, recovering 2–5% more annual generation than inverters with slower or less frequent tracking cycles.
 
-The Qbits WhatsApp monitoring system reports daily generation in kWh, compares it to weather-adjusted expected output, and flags underperformance - so you know when dust, shade, or a technical issue is costing you units before a full month passes.
+The Qbits WhatsApp monitoring system reports daily generation in kWh, compares it to weather-adjusted expected output, and flags underperformance, so you know when dust, shade, or a technical issue is costing you units before a full month passes.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - TLS and TLD series, 1.5 kW to 50 kW; dual-MPPT for mixed-orientation rooftops across any Indian state.
-- **[Hybrid Inverters](/hybrid-inverter/)** - HS and HT series with battery integration for households in monsoon-heavy states where evening consumption exceeds daytime generation.
-- **[Authorized Service Partners](/authorized-service-partners/)** - Pan-India service network to ensure underperformance is diagnosed and resolved within the 72-hour RMA SLA.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, 1.5 kW to 50 kW; dual-MPPT for mixed-orientation rooftops across any Indian state.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery integration for households in monsoon-heavy states where evening consumption exceeds daytime generation.
+- **[Authorized Service Partners](/authorized-service-partners/)**: Pan-India service network to ensure underperformance is diagnosed and resolved within the 72-hour RMA SLA.
 
-When your installer quotes a generation figure, [talk to a Qbits engineer](/contact-us/) to independently verify the estimate using state-specific irradiance data - most clients find this cross-check prevents a 10–20% yield expectation mismatch.
+When your installer quotes a generation figure, [talk to a Qbits engineer](/contact-us/) to independently verify the estimate using state-specific irradiance data, most clients find this cross-check prevents a 10–20% yield expectation mismatch.

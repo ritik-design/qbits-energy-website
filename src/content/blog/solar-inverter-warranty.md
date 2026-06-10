@@ -34,19 +34,19 @@ faqs:
     a: "Under the Consumer Protection Act 2019, a warranty denial that is unjustified constitutes a deficiency of service. Buyers can file a complaint with the District Consumer Disputes Redressal Commission for claims up to ₹50 lakh, the State Commission for claims between ₹50 lakh and ₹2 crore, and the National Commission for claims above ₹2 crore. Complaints can be filed online via the e-DAAKHIL portal. Before filing, attempt resolution with the brand in writing and retain all correspondence as evidence. Regulatory bodies have repeatedly ruled in favour of consumers where warranty documentation was clear and the claim was denied on technical grounds."
 ---
 
-You paid ₹1.5 lakh or more for a solar system. You asked your installer about warranty, and they said "five years." You nodded and signed the agreement. That five-year number may be the most misunderstood figure in the entire solar purchase - and what it actually means in practice is far less reassuring than it sounds.
+You paid ₹1.5 lakh or more for a solar system. You asked your installer about warranty, they said "five years," you nodded and signed. That five-year number may be the most misunderstood figure in the whole purchase. What it actually means in practice is much less reassuring than it sounds.
 
-This post is not a glossy product comparison. It is the kind of article your installer probably did not want you to read before you signed. It covers the four structural problems with how solar inverter warranties are sold in India, what a genuinely good warranty looks like, how to audit any warranty document before you commit, and what legal tools you have if a claim is denied.
+This isn't a glossy product comparison. It's the article your installer probably didn't want you to read before you signed. It covers four structural problems with how solar inverter warranties get sold in India, what a genuinely good warranty looks like, how to audit any warranty document before you commit, and what legal tools you have if a claim gets denied.
 
-> **Direct answer.** Most solar inverter warranties in India - even those labelled "5-year" - contain exclusions, repair-only clauses, and start-date ambiguities that dramatically reduce their real value. A genuinely good solar inverter warranty in India covers full unit replacement (not repair), specifies a defined replacement SLA of 72 hours or less, starts from the installation date, transfers to new owners, and is backed by a brand with a physical Indian service network. Brands that meet all five criteria are rare; buyers who know the checklist before signing are rarer still.
+**Short version.** Most solar inverter warranties in India, even the ones labelled "5-year," carry exclusions, repair-only clauses, and start-date ambiguities that gut the real value. A good warranty covers full unit replacement (not repair), specifies a 72-hour replacement SLA or better, starts from installation date, transfers to new owners, and comes from a brand with a physical Indian service network. Brands that meet all five are rare. Buyers who know the checklist before signing are rarer.
 
-The gap between the marketed warranty and the enforced warranty is where most post-installation disputes originate. Understanding a [solar inverter's](/glossary/solar-inverter/) warranty structure before purchase is as important as understanding its efficiency rating or its MPPT count - possibly more so, because it determines your financial exposure over the next 10 to 25 years.
+The gap between the marketed warranty and the enforced warranty is where most post-installation disputes originate. Understanding a [solar inverter's](/glossary/solar-inverter/) warranty structure before purchase is as important as understanding its efficiency rating or its MPPT count, possibly more so, because it determines your financial exposure over the next 10 to 25 years.
 
 ## The 4 Dirty Secrets of Solar Inverter Warranty in India
 
 The solar industry in India has grown at a pace that regulation has not fully caught up with. Marketing departments have learned to use warranty language that sounds generous while contractual terms remain narrow. Four patterns appear repeatedly in the warranty documents of brands sold across India.
 
-### Secret 1 - "5-Year Warranty" Often Starts From the Manufacture Date, Not Installation
+### Secret 1: "5-Year Warranty" Often Starts From the Manufacture Date, Not Installation
 
 This is the most quietly damaging clause in the industry. When an inverter sits in a distributor's warehouse for 8 months and then spends another 3 months at the installer's stockyard before being commissioned, a "5-year warranty" has already consumed 11 months before your solar system generates a single unit.
 
@@ -54,77 +54,77 @@ In practice, residential solar projects in India regularly see gaps of 4 to 12 m
 
 The fix is simple but requires knowing to ask: the warranty must state that the period begins on the **commissioning date** or **installation date**, not the manufacture date. Check the warranty card against the [commissioning](/glossary/commissioning/) certificate. If the document says "date of manufacture" or leaves the start-date undefined, negotiate for an explicit commissioning-date start before purchase.
 
-Qbits warranty begins on the verified installation and commissioning date - not the manufacture date. The commissioning report, filed through the authorised partner portal, timestamps the warranty start to the day the system went live.
+Qbits warranty begins on the verified installation and commissioning date, not the manufacture date. The commissioning report, filed through the authorised partner portal, timestamps the warranty start to the day the system went live.
 
-### Secret 2 - "Repair Warranty" Is Not the Same as "Replacement Warranty"
+### Secret 2: "Repair Warranty" Is Not the Same as "Replacement Warranty"
 
 A brand that promises to "service and repair" your inverter under warranty is making a materially different commitment than a brand that promises to replace it. The difference:
 
-- **Repair warranty** - the manufacturer repairs the failed unit. Turnaround in India: 6 to 8 weeks on average, sometimes longer if parts must be imported.
-- **Replacement warranty** - the manufacturer dispatches a brand-new unit. Turnaround with a credible SLA: 72 hours from claim approval to dispatch.
+- **Repair warranty**: the manufacturer repairs the failed unit. Turnaround in India: 6 to 8 weeks on average, sometimes longer if parts must be imported.
+- **Replacement warranty**: the manufacturer dispatches a brand-new unit. Turnaround with a credible SLA: 72 hours from claim approval to dispatch.
 
 For a 5 kW home system generating ₹200 per day of electricity, a 6-week repair cycle costs the homeowner approximately ₹8,400 in lost generation. That loss is entirely avoidable with a replacement warranty and a defined SLA.
 
-The distinction is not always obvious in warranty brochures. Brands use language like "warranty service," "defect correction," "maintenance under warranty," and "free repair" - all of which translate to repair-only. The only language that guarantees replacement is an explicit phrase such as "full unit replacement" or "new unit dispatch under RMA."
+The distinction is not always obvious in warranty brochures. Brands use language like "warranty service," "defect correction," "maintenance under warranty," and "free repair", all of which translate to repair-only. The only language that guarantees replacement is an explicit phrase such as "full unit replacement" or "new unit dispatch under RMA."
 
-### Secret 3 - Standard Indian Grid Conditions Void Most Warranties
+### Secret 3: Standard Indian Grid Conditions Void Most Warranties
 
 This is the secret that affects almost every solar installation in India and is almost never disclosed at the point of sale.
 
 Standard solar inverter warranties across most brands exclude damage caused by:
 
-- **Voltage surges** - Indian DISCOM grids regularly deliver voltages between 180 V and 270 V, far outside the 220–240 V range that most inverters are optimised for.
-- **Improper installation** - an undefined term that brands use broadly to deny claims.
-- **Animals and pests** - rats, lizards, and insects entering the inverter housing are a documented failure mode in India's climate and are typically excluded.
-- **Overloading** - connecting a panel array that exceeds the inverter's rated DC input, common when installers DC-oversize aggressively.
+- **Voltage surges**: Indian DISCOM grids regularly deliver voltages between 180 V and 270 V, far outside the 220–240 V range that most inverters are optimised for.
+- **Improper installation**: an undefined term that brands use broadly to deny claims.
+- **Animals and pests**: rats, lizards, and insects entering the inverter housing are a documented failure mode in India's climate and are typically excluded.
+- **Overloading**: connecting a panel array that exceeds the inverter's rated DC input, common when installers DC-oversize aggressively.
 
-The grid voltage issue deserves specific attention. A [Surge Protection Device (SPD)](/glossary/spd/) can protect against transient spikes, but it does not address sustained voltage elevation or sag. Most inverter warranties treat voltage-related damage as "misuse" rather than a normal operating condition in India - which is technically defensible but commercially unfair given the quality of Indian DISCOM supply.
+The grid voltage issue deserves specific attention. A [Surge Protection Device (SPD)](/glossary/spd/) can protect against transient spikes, but it does not address sustained voltage elevation or sag. Most inverter warranties treat voltage-related damage as "misuse" rather than a normal operating condition in India, which is technically defensible but commercially unfair given the quality of Indian DISCOM supply.
 
-Qbits inverters run India-grid-tuned firmware that accepts grid inputs from 180 V to 270 V without triggering protection trips or degrading components. This means the voltage fluctuation that voids most competitor warranties is a handled operating condition for Qbits - not an exclusion.
+Qbits inverters run India-grid-tuned firmware that accepts grid inputs from 180 V to 270 V without triggering protection trips or degrading components. This means the voltage fluctuation that voids most competitor warranties is a handled operating condition for Qbits, not an exclusion.
 
-### Secret 4 - If Your Installer Disappears, You Are on Your Own With the Brand
+### Secret 4: If Your Installer Disappears, You Are on Your Own With the Brand
 
-[JMK Research's India Solar Market Analysis](https://jmkresearch.com/) documented that more than 40% of residential solar installers active in 2020 were unreachable or had ceased operations by 2023. This is not an edge case - it is a structural feature of the Indian solar market, where hundreds of small installation businesses enter and exit the market each year.
+[JMK Research's India Solar Market Analysis](https://jmkresearch.com/) documented that more than 40% of residential solar installers active in 2020 were unreachable or had ceased operations by 2023. This is not an edge case, it is a structural feature of the Indian solar market, where hundreds of small installation businesses enter and exit the market each year.
 
 When your installer disappears, two problems emerge simultaneously:
 
-First, the warranty claim process typically requires the installer to initiate or co-sign the claim. Brands that route warranty claims through the dealer channel - rather than directly from the homeowner - create a dependency that breaks the moment the dealer exits the business.
+First, the warranty claim process typically requires the installer to initiate or co-sign the claim. Brands that route warranty claims through the dealer channel (rather than directly from the homeowner) create a dependency that breaks the moment the dealer exits the business.
 
-Second, the installer's assurances - verbal promises to handle any future problems - have no contractual backing. The binding obligation is in the brand's warranty document, not in a verbal promise from your solar salesperson.
+Second, the installer's assurances (verbal promises to handle any future problems) have no contractual backing. The binding obligation is in the brand's warranty document, not in a verbal promise from your solar salesperson.
 
-The only protection against installer disappearance is a warranty backed directly by the brand, with a homeowner-accessible claim process that does not require installer co-ordination. [Authorised service partners](/authorized-service-partners/) operating under the brand's direct umbrella - not sub-contracted installers - provide this continuity.
+The only protection against installer disappearance is a warranty backed directly by the brand, with a homeowner-accessible claim process that does not require installer co-ordination. [Authorised service partners](/authorized-service-partners/) operating under the brand's direct umbrella (not sub-contracted installers) provide this continuity.
 
-> **40%.** The proportion of Indian residential solar installers active in 2020 who were unreachable or had shut operations by 2023. This is why brand-backed warranty - directly accessible by the homeowner - is the only reliable long-term protection for any solar investment in India. *Source - [JMK Research, India Solar Market Analysis 2024](https://jmkresearch.com/).*
+> **40%.** The proportion of Indian residential solar installers active in 2020 who were unreachable or had shut operations by 2023. This is why brand-backed warranty (directly accessible by the homeowner) is the only reliable long-term protection for any solar investment in India. *Source - [JMK Research, India Solar Market Analysis 2024](https://jmkresearch.com/).*
 
 ## What a Good Solar Inverter Warranty Actually Looks Like
 
-Having described what is wrong with most warranties, the affirmative standard matters more. A genuinely good solar inverter warranty in India satisfies five criteria - none of them exotic, all of them rare in practice.
+Having described what is wrong with most warranties, the affirmative standard matters more. A genuinely good solar inverter warranty in India satisfies five criteria, none of them exotic, all of them rare in practice.
 
-**Full unit replacement, not repair** - the warranty document uses the words "replacement" or "new unit dispatch." Repair-only warranties are not acceptable for a 25-year system.
+**Full unit replacement, not repair**: the warranty document uses the words "replacement" or "new unit dispatch." Repair-only warranties are not acceptable for a 25-year system.
 
-**Defined RMA SLA of 72 hours or less** - the time from claim approval to unit dispatch is specified in writing. "We will respond promptly" is not an SLA. "Replacement dispatched within 72 hours of claim approval" is.
+**Defined RMA SLA of 72 hours or less**: the time from claim approval to unit dispatch is specified in writing. "We will respond promptly" is not an SLA. "Replacement dispatched within 72 hours of claim approval" is.
 
-**Warranty period starts from commissioning date** - the warranty card or agreement explicitly references the installation or commissioning date, not the manufacture date. The commissioning certificate provides the timestamp.
+**Warranty period starts from commissioning date**: the warranty card or agreement explicitly references the installation or commissioning date, not the manufacture date. The commissioning certificate provides the timestamp.
 
-**Transferable to new property owner** - the warranty survives a property sale, subject to a defined transfer registration process. This matters for resale value and is frequently overlooked by first-time buyers.
+**Transferable to new property owner**: the warranty survives a property sale, subject to a defined transfer registration process. This matters for resale value and is frequently overlooked by first-time buyers.
 
-**Published exclusion list in plain language** - the exclusions are listed clearly in the warranty document, not buried in general terms and conditions. Buyers should be able to read the exclusion list and understand exactly what situations are not covered.
+**Published exclusion list in plain language**: the exclusions are listed clearly in the warranty document, not buried in general terms and conditions. Buyers should be able to read the exclusion list and understand exactly what situations are not covered.
 
-Brands that meet all five criteria are genuinely rare in the Indian market. Most meet two or three. Knowing the full checklist allows buyers to negotiate missing clauses before signing - or to walk away from a warranty that does not meet the minimum standard for a multi-lakh investment.
+Brands that meet all five criteria are genuinely rare in the Indian market. Most meet two or three. Knowing the full checklist allows buyers to negotiate missing clauses before signing, or to walk away from a warranty that does not meet the minimum standard for a multi-lakh investment.
 
-## The 5-Point Warranty Audit - Read This Before You Buy
+## The 5-Point Warranty Audit: Read This Before You Buy
 
-This framework gives every buyer a structured tool for evaluating any solar inverter warranty document before committing to a purchase. Apply it to the actual warranty document - not the brochure, not the sales presentation, the warranty card or agreement that will govern your claim.
+This framework gives every buyer a structured tool for evaluating any solar inverter warranty document before committing to a purchase. Apply it to the actual warranty document, not the brochure, not the sales presentation, the warranty card or agreement that will govern your claim.
 
-1. **Warranty start date** - find the clause that defines when the warranty period begins. It must reference the installation or commissioning date. If it says "date of manufacture," "date of shipment," or leaves the start date undefined, treat this as a red flag and negotiate.
+1. **Warranty start date**: find the clause that defines when the warranty period begins. It must reference the installation or commissioning date. If it says "date of manufacture," "date of shipment," or leaves the start date undefined, treat this as a red flag and negotiate.
 
-2. **Coverage type** - find the clause that describes what the brand will do when a fault is confirmed. The words "repair," "service," and "fix" indicate a repair warranty. The words "replacement," "new unit," or "exchange" indicate a replacement warranty. Repair warranties for an inverter meant to last 25 years are structurally inadequate.
+2. **Coverage type**: find the clause that describes what the brand will do when a fault is confirmed. The words "repair," "service," and "fix" indicate a repair warranty. The words "replacement," "new unit," or "exchange" indicate a replacement warranty. Repair warranties for an inverter meant to last 25 years are structurally inadequate.
 
-3. **RMA SLA** - find the clause that specifies the time from claim approval to unit dispatch or replacement. If no SLA is stated, ask the brand to provide it in writing before purchase. An unspecified SLA defaults to "when we get to it," which is not acceptable.
+3. **RMA SLA**: find the clause that specifies the time from claim approval to unit dispatch or replacement. If no SLA is stated, ask the brand to provide it in writing before purchase. An unspecified SLA defaults to "when we get to it," which is not acceptable.
 
-4. **Exclusion list** - read every exclusion carefully. Flag any exclusion that applies to normal Indian operating conditions: voltage fluctuation, ambient temperature above 45 °C, monsoon humidity, pest exposure. If the exclusion list would void a claim under conditions that are standard across India, the warranty's real-world value is lower than the headline suggests.
+4. **Exclusion list**: read every exclusion carefully. Flag any exclusion that applies to normal Indian operating conditions: voltage fluctuation, ambient temperature above 45 °C, monsoon humidity, pest exposure. If the exclusion list would void a claim under conditions that are standard across India, the warranty's real-world value is lower than the headline suggests.
 
-5. **Claim process** - understand who initiates the warranty claim. If the process requires your original installer to file or co-sign the claim, the warranty's enforceability depends on your installer still being in business. Brand-direct claim processes - where the homeowner can initiate independently - are significantly more reliable.
+5. **Claim process**: understand who initiates the warranty claim. If the process requires your original installer to file or co-sign the claim, the warranty's enforceability depends on your installer still being in business. Brand-direct claim processes (where the homeowner can initiate independently) are significantly more reliable.
 
 Applying all five points before purchase takes approximately 20 minutes with the actual warranty document in hand. That 20 minutes protects a ₹1.5 lakh to ₹5 lakh investment across a 25-year system life.
 
@@ -142,7 +142,7 @@ The table below reflects standard warranty terms as published or confirmed by ea
 | **Luminous** | 2 years | Repair | Not published | Through dealer |
 | **Microtek** | 2 years | Repair | Not published | Through dealer |
 
-The gap between Qbits and the rest of the market is not marginal. A 12-year full replacement warranty backed by a published 72-hour RMA SLA is a structurally different product from a 5-year repair warranty with no stated turnaround time. For a residential homeowner making a 25-year investment decision, this is the most financially significant difference between inverter brands - more significant than a 1% efficiency variance, and arguably more significant than a ₹5,000 price difference.
+The gap between Qbits and the rest of the market is not marginal. A 12-year full replacement warranty backed by a published 72-hour RMA SLA is a structurally different product from a 5-year repair warranty with no stated turnaround time. For a residential homeowner making a 25-year investment decision, this is the most financially significant difference between inverter brands, more significant than a 1% efficiency variance, and arguably more significant than a ₹5,000 price difference.
 
 For a complete comparison of warranty terms across brands, the [best solar inverter with the longest warranty in India](/blog/best-solar-inverter-longest-warranty-india/) post covers eight brands in full detail.
 
@@ -154,39 +154,39 @@ The single biggest gap between how solar inverter warranties are sold in India a
 
 Most solar inverters are designed and tested for 220–240 V AC grid input at 50 Hz. The [BIS certification](/glossary/bis-certification/) standards for grid-tied inverters in India require compliance with IS 16221, which acknowledges that Indian grids deliver voltages between 180 V and 270 V under real operating conditions.
 
-Despite this acknowledged reality, most warranty documents exclude "damage caused by voltage outside specified range" - which directly conflicts with the documented operating conditions of Indian DISCOM grids. When a component fails due to repeated voltage stress from the local grid, the manufacturer's service team categorises it as "voltage damage" and denies the claim.
+Despite this acknowledged reality, most warranty documents exclude "damage caused by voltage outside specified range", which directly conflicts with the documented operating conditions of Indian DISCOM grids. When a component fails due to repeated voltage stress from the local grid, the manufacturer's service team categorises it as "voltage damage" and denies the claim.
 
-The practical consequence: in states with historically poor grid quality - parts of Uttar Pradesh, Bihar, Rajasthan, and coastal Andhra Pradesh - standard solar inverter warranties offer materially less protection than the same warranty provides in states with stable grid supply.
+The practical consequence: in states with historically poor grid quality (parts of Uttar Pradesh, Bihar, Rajasthan, and coastal Andhra Pradesh) standard solar inverter warranties offer materially less protection than the same warranty provides in states with stable grid supply.
 
 ### Surge Protection and Warranty Interaction
 
-A [Surge Protection Device](/glossary/spd/) at the AC input of the inverter protects against transient voltage spikes - the sudden, brief overvoltage events caused by lightning, equipment switching, or grid faults. SPDs are a separate purchase, typically ₹2,000–₹5,000, and should be part of every installation.
+A [Surge Protection Device](/glossary/spd/) at the AC input of the inverter protects against transient voltage spikes, the sudden, brief overvoltage events caused by lightning, equipment switching, or grid faults. SPDs are a separate purchase, typically ₹2,000–₹5,000, and should be part of every installation.
 
-What SPDs do not address is sustained voltage elevation or sag - the slow, prolonged deviation from nominal voltage that characterises poor-quality DISCOM supply. This sustained deviation is what causes capacitor degradation and IGBT wear over months and years. Warranties that exclude "voltage-related damage" are typically invoking this mechanism, not just lightning strikes.
+What SPDs do not address is sustained voltage elevation or sag, the slow, prolonged deviation from nominal voltage that characterises poor-quality DISCOM supply. This sustained deviation is what causes capacitor degradation and IGBT wear over months and years. Warranties that exclude "voltage-related damage" are typically invoking this mechanism, not just lightning strikes.
 
 ### Firmware as Warranty Protection
 
 The most durable solution to India's grid quality problem is inverter firmware that treats the Indian voltage range as a normal operating condition rather than an edge case to be excluded.
 
-Qbits inverters ship with firmware calibrated to accept 180–270 V grid input without triggering protection trips, degrading components, or voiding the warranty. The firmware handles the voltage variation that kills components in standard inverters - which means the most common grounds for warranty denial in India simply do not apply to a Qbits installation.
+Qbits inverters ship with firmware calibrated to accept 180–270 V grid input without triggering protection trips, degrading components, or voiding the warranty. The firmware handles the voltage variation that kills components in standard inverters, which means the most common grounds for warranty denial in India simply do not apply to a Qbits installation.
 
 This is not a marketing claim; it is an engineering decision that directly translates to warranty enforceability. An inverter that handles Indian grid conditions by design cannot have its warranty voided by Indian grid conditions.
 
 ## Warranty Claim Process: A Step-by-Step Guide for Indian Homeowners
 
-Understanding the claim process before you need it is as important as understanding the warranty terms. Most warranty claim denials in India are procedural - the homeowner did not have the required documentation, or filed through the wrong channel, or missed a notification window.
+Understanding the claim process before you need it is as important as understanding the warranty terms. Most warranty claim denials in India are procedural, the homeowner did not have the required documentation, or filed through the wrong channel, or missed a notification window.
 
 The following process applies to most major brands sold in India, with brand-specific variations noted:
 
-1. **Document the fault** - photograph or video the inverter display, error codes, and physical condition. Note the date, time, and any grid events (outages, fluctuations) that preceded the fault. Log data from the monitoring app if available.
+1. **Document the fault**: photograph or video the inverter display, error codes, and physical condition. Note the date, time, and any grid events (outages, fluctuations) that preceded the fault. Log data from the monitoring app if available.
 
-2. **Contact the brand's service channel** - most brands route claims through the original dealer first. If the dealer is unreachable, escalate directly to the brand's service centre. Retain all communication in writing - emails, WhatsApp messages, and written correspondence form your evidentiary record.
+2. **Contact the brand's service channel**: most brands route claims through the original dealer first. If the dealer is unreachable, escalate directly to the brand's service centre. Retain all communication in writing, emails, WhatsApp messages, and written correspondence form your evidentiary record.
 
-3. **Submit required documentation** - virtually every brand requires: original purchase invoice, installation report or bill of materials from the installer, and a commissioning certificate. Missing any of these documents is the most common grounds for claim delay or denial.
+3. **Submit required documentation**: virtually every brand requires: original purchase invoice, installation report or bill of materials from the installer, and a commissioning certificate. Missing any of these documents is the most common grounds for claim delay or denial.
 
-4. **Await fault inspection or claim approval** - the brand's service team will either inspect the unit on-site or request it be shipped to a service centre. The time from this step to resolution is where the repair-vs-replacement distinction becomes financially meaningful.
+4. **Await fault inspection or claim approval**: the brand's service team will either inspect the unit on-site or request it be shipped to a service centre. The time from this step to resolution is where the repair-vs-replacement distinction becomes financially meaningful.
 
-5. **Follow up in writing** - if the brand does not respond within their stated SLA, send a formal written notice via email. This creates a documented timeline that is necessary if the matter escalates to consumer court.
+5. **Follow up in writing**: if the brand does not respond within their stated SLA, send a formal written notice via email. This creates a documented timeline that is necessary if the matter escalates to consumer court.
 
 For Qbits specifically: claims are initiated via the WhatsApp monitoring platform or the dealer portal. A ticket number is issued within 2 hours of logging the fault. The replacement unit is dispatched within 72 hours of claim approval. The homeowner does not need the original installer's involvement at any stage.
 
@@ -198,20 +198,20 @@ Most homeowners never read their inverter warranty document. The ones who do rea
 
 ### Phrases That Protect You
 
-- **"Full unit replacement"** - the brand will dispatch a new inverter. This is the gold standard.
-- **"Warranty period begins from date of commissioning"** - the warranty starts when your system goes live, not when the unit left the factory.
-- **"Warranty is transferable to subsequent owners"** - the warranty survives a property sale.
-- **"RMA SLA: replacement dispatched within 72 hours of claim approval"** - a real, measurable commitment with a defined timeline.
-- **"Exclusions are limited to"** - this phrasing limits what the brand can later claim as a reason for denial. Open-ended exclusion language ("including but not limited to") is a red flag.
+- **"Full unit replacement"**: the brand will dispatch a new inverter. This is the gold standard.
+- **"Warranty period begins from date of commissioning"**: the warranty starts when your system goes live, not when the unit left the factory.
+- **"Warranty is transferable to subsequent owners"**: the warranty survives a property sale.
+- **"RMA SLA: replacement dispatched within 72 hours of claim approval"**: a real, measurable commitment with a defined timeline.
+- **"Exclusions are limited to"**: this phrasing limits what the brand can later claim as a reason for denial. Open-ended exclusion language ("including but not limited to") is a red flag.
 
 ### Phrases That Should Concern You
 
-- **"Repair at our discretion"** - the brand decides whether to repair or replace, with no commitment to which outcome applies.
-- **"Service within a reasonable time"** - "reasonable" is undefined and unenforceable.
-- **"Damage caused by external factors"** - an extremely broad exclusion that can encompass grid voltage, humidity, temperature, and virtually any real-world Indian condition.
-- **"Warranty subject to proper installation per manufacturer guidelines"** - this clause is frequently used to void claims where the installation documentation is incomplete, even if the installation itself was technically correct.
-- **"Warranty void if opened or tampered with"** - standard and legitimate, but watch for overly broad definitions of "tampered."
-- **"This warranty is in lieu of all other warranties"** - this language attempts to exclude statutory warranties under Indian consumer law. It is not fully enforceable against the Consumer Protection Act 2019, but it signals a brand that will resist claims aggressively.
+- **"Repair at our discretion"**: the brand decides whether to repair or replace, with no commitment to which outcome applies.
+- **"Service within a reasonable time"**: "reasonable" is undefined and unenforceable.
+- **"Damage caused by external factors"**: an extremely broad exclusion that can encompass grid voltage, humidity, temperature, and virtually any real-world Indian condition.
+- **"Warranty subject to proper installation per manufacturer guidelines"**: this clause is frequently used to void claims where the installation documentation is incomplete, even if the installation itself was technically correct.
+- **"Warranty void if opened or tampered with"**: standard and legitimate, but watch for overly broad definitions of "tampered."
+- **"This warranty is in lieu of all other warranties"**: this language attempts to exclude statutory warranties under Indian consumer law. It is not fully enforceable against the Consumer Protection Act 2019, but it signals a brand that will resist claims aggressively.
 
 ## Your Legal Rights: Consumer Protection Act 2019 and Solar Inverter Warranty
 
@@ -221,9 +221,9 @@ The Consumer Protection Act 2019 (CPA 2019) provides significant protections for
 
 Under CPA 2019, a solar inverter sold to a residential buyer is a consumer good. The seller and manufacturer are liable for:
 
-- **Defects** - any fault, imperfection, or shortcoming in quality, quantity, potency, purity, or standard.
-- **Deficiency of service** - any fault in the manner of performance of a service, including warranty service.
-- **Unfair trade practices** - including misleading warranty representations.
+- **Defects**: any fault, imperfection, or shortcoming in quality, quantity, potency, purity, or standard.
+- **Deficiency of service**: any fault in the manner of performance of a service, including warranty service.
+- **Unfair trade practices**: including misleading warranty representations.
 
 A warranty denial that is not supported by the exclusions listed in the warranty document is a deficiency of service under CPA 2019.
 
@@ -245,47 +245,47 @@ Before filing, the [MNRE consumer grievance portal](https://mnre.gov.in/) is the
 
 Consumer court decisions consistently favour buyers who document their case systematically. The evidence file for a solar inverter warranty dispute should include:
 
-- **Purchase invoice** - with brand, model, serial number, purchase date, and seller details.
-- **Warranty card or agreement** - the actual document, not a brochure.
-- **Installation report** - from the installer, showing system configuration, component details, and installation date.
-- **Commissioning certificate** - the document that establishes the warranty start date.
-- **Fault documentation** - photographs, monitoring app screenshots, error code logs.
-- **Correspondence record** - all written communication with the brand and dealer regarding the claim.
-- **Claim denial in writing** - if the brand denied your claim verbally, request written confirmation of the denial and the stated reason.
+- **Purchase invoice**: with brand, model, serial number, purchase date, and seller details.
+- **Warranty card or agreement**: the actual document, not a brochure.
+- **Installation report**: from the installer, showing system configuration, component details, and installation date.
+- **Commissioning certificate**: the document that establishes the warranty start date.
+- **Fault documentation**: photographs, monitoring app screenshots, error code logs.
+- **Correspondence record**: all written communication with the brand and dealer regarding the claim.
+- **Claim denial in writing**: if the brand denied your claim verbally, request written confirmation of the denial and the stated reason.
 
-> **₹50 lakh.** The claim value threshold below which Indian consumers can file at the District Consumer Disputes Redressal Commission without a lawyer, using the e-DAAKHIL portal. For residential solar inverter claims - typically ₹40,000 to ₹2,00,000 - this is the relevant forum. *Source - [Consumer Protection Act 2019, Ministry of Consumer Affairs, Government of India](https://consumeraffairs.nic.in/), 2019.*
+> **₹50 lakh.** The claim value threshold below which Indian consumers can file at the District Consumer Disputes Redressal Commission without a lawyer, using the e-DAAKHIL portal. For residential solar inverter claims (typically ₹40,000 to ₹2,00,000) this is the relevant forum. *Source - [Consumer Protection Act 2019, Ministry of Consumer Affairs, Government of India](https://consumeraffairs.nic.in/), 2019.*
 
 ## Common Warranty Mistakes Indian Homeowners Make
 
 The following mistakes are responsible for the majority of warranty claim denials in India. Each is avoidable with simple precautions taken at or before installation.
 
-- **Using an uncertified installer** - most brands require installation by a certified or authorised partner. An installation by an uncertified electrician voids the warranty before the system is even commissioned. Verify your installer's brand authorisation before signing the installation contract.
+- **Using an uncertified installer**: most brands require installation by a certified or authorised partner. An installation by an uncertified electrician voids the warranty before the system is even commissioned. Verify your installer's brand authorisation before signing the installation contract.
 
-- **Missing the commissioning certificate** - the commissioning certificate is the document that timestamps the warranty start date. Without it, the brand defaults to the manufacture date for warranty calculations. Request the commissioning certificate from your installer at system handover.
+- **Missing the commissioning certificate**: the commissioning certificate is the document that timestamps the warranty start date. Without it, the brand defaults to the manufacture date for warranty calculations. Request the commissioning certificate from your installer at system handover.
 
-- **Not registering the warranty** - many brands require the buyer or installer to register the warranty online within 30 days of commissioning. Unregistered warranties default to standard terms that may be less favourable. Check the warranty card for a registration requirement.
+- **Not registering the warranty**: many brands require the buyer or installer to register the warranty online within 30 days of commissioning. Unregistered warranties default to standard terms that may be less favourable. Check the warranty card for a registration requirement.
 
-- **Allowing non-authorised repairs** - if you have any internal work done on the inverter by an uncertified technician - even to fix a minor fault - the warranty is voided across virtually all brands. Always call the brand's service centre before opening the inverter.
+- **Allowing non-authorised repairs**: if you have any internal work done on the inverter by an uncertified technician (even to fix a minor fault) the warranty is voided across virtually all brands. Always call the brand's service centre before opening the inverter.
 
-- **Failing to install an SPD** - while an SPD does not affect the inverter warranty directly, its absence means that a surge-related fault cannot be distinguished from a manufacturing defect. Brands routinely use the absence of surge protection as a factor in claim evaluation. The [how-to-choose solar inverters with surge protection](/blog/how-to-choose-solar-inverters-with-surge-protection/) post covers SPD selection in detail.
+- **Failing to install an SPD**: while an SPD does not affect the inverter warranty directly, its absence means that a surge-related fault cannot be distinguished from a manufacturing defect. Brands routinely use the absence of surge protection as a factor in claim evaluation. The [how-to-choose solar inverters with surge protection](/blog/how-to-choose-solar-inverters-with-surge-protection/) post covers SPD selection in detail.
 
-- **Not checking warranty transferability before buying** - if you plan to sell your home within the warranty period, an untransferable warranty reduces the value of your solar system. A 12-year transferable warranty is a tangible asset; a 5-year non-transferable warranty contributes nothing to resale value after the original owner moves.
+- **Not checking warranty transferability before buying**: if you plan to sell your home within the warranty period, an untransferable warranty reduces the value of your solar system. A 12-year transferable warranty is a tangible asset; a 5-year non-transferable warranty contributes nothing to resale value after the original owner moves.
 
 For a broader evaluation framework covering reliability as well as warranty, the [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) post provides a structured approach.
 
 ## Where Qbits Fits
 
-Homeowners who want a warranty that functions the way it is advertised - full unit replacement, 72-hour dispatch, starting from commissioning date, transferable, India-grid-rated - land on Qbits. The 12-year full replacement warranty is not a marketing claim with five pages of exclusions; it is a commitment backed by an [IEC and BIS certified](/blog/solar-inverter-certifications/) inverter line designed to operate on Indian grids from 180 V to 270 V, which means the most common grounds for warranty denial across the industry do not apply.
+Homeowners who want a warranty that functions the way it is advertised (full unit replacement, 72-hour dispatch, starting from commissioning date, transferable, India-grid-rated) land on Qbits. The 12-year full replacement warranty is not a marketing claim with five pages of exclusions; it is a commitment backed by an [IEC and BIS certified](/blog/solar-inverter-certifications/) inverter line designed to operate on Indian grids from 180 V to 270 V, which means the most common grounds for warranty denial across the industry do not apply.
 
 Three pages worth visiting before you commit to a purchase:
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed and PM Surya Ghar subsidy-eligible, each backed by the 12-year full replacement warranty.
-- **[Hybrid Inverters](/hybrid-inverter/)** - HS and HT series with battery readiness, automatic backup switchover, and the same 12-year warranty standard applied to the hybrid topology.
-- **[Authorised Service Partners](/authorized-service-partners/)** - pincode-searchable network of certified installation and service partners who initiate warranty claims directly, without requiring homeowner co-ordination with a potentially defunct original dealer.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed and PM Surya Ghar subsidy-eligible, each backed by the 12-year full replacement warranty.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness, automatic backup switchover, and the same 12-year warranty standard applied to the hybrid topology.
+- **[Authorised Service Partners](/authorized-service-partners/)**: pincode-searchable network of certified installation and service partners who initiate warranty claims directly, without requiring homeowner co-ordination with a potentially defunct original dealer.
 
-Most buyers of the [most reliable solar inverters in India](/blog/most-reliable-solar-inverter-india/) make their final decision after comparing warranty documents side by side - not after comparing efficiency spec sheets. The efficiency difference between a 97.5% and a 98% inverter is negligible across a 25-year system life. The difference between a 2-year repair warranty and a 12-year replacement warranty is ₹90,000 to ₹1,90,000 in potential replacement costs the buyer either absorbs or does not.
+Most buyers of the [most reliable solar inverters in India](/blog/most-reliable-solar-inverter-india/) make their final decision after comparing warranty documents side by side, not after comparing efficiency spec sheets. The efficiency difference between a 97.5% and a 98% inverter is negligible across a 25-year system life. The difference between a 2-year repair warranty and a 12-year replacement warranty is ₹90,000 to ₹1,90,000 in potential replacement costs the buyer either absorbs or does not.
 
-[Talk to a Qbits engineer](/contact-us/) before your next installation - bring your current inverter shortlist and the warranty documents. Most buyers who do this comparison change their shortlist.
+[Talk to a Qbits engineer](/contact-us/) before your next installation, bring your current inverter shortlist and the warranty documents. Most buyers who do this comparison change their shortlist.
 
 ---
 

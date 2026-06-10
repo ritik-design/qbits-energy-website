@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Integration in India: 2026 Setup Guide"
 excerpt: "Grid instability, voltage fluctuations, and diverse regional regulations make proper inverter integration critical. Here's the full 7-phase setup process."
-description: "Complete solar inverter integration guide for India - site assessment, mechanical and DC installation, AC connection, hybrid battery integration, monitoring setup, smart feature activation, and post-commissioning."
+description: "Complete solar inverter integration guide for India, site assessment, mechanical and DC installation, AC connection, hybrid battery integration, monitoring setup, smart feature activation, and post-commissioning."
 category: "Guide"
 date: 2026-05-11
 readTime: "10 min"
@@ -31,9 +31,9 @@ Grid instability, voltage fluctuations, and diverse regional regulations make pr
 ## 1. Pre-Installation Planning
 
 - **Site assessment** and load profiling (12-month consumption review)
-- **Inverter type selection** - on-grid for stable grids, hybrid for backup needs
+- **Inverter type selection**: on-grid for stable grids, hybrid for backup needs
 - **Proper sizing** with DC oversizing strategy (1.1:1 to 1.3:1 typical)
-- **DISCOM compliance** verification - state-specific requirements
+- **DISCOM compliance** verification, state-specific requirements
 
 ## 2. Mechanical and DC-Side Installation
 
@@ -46,7 +46,7 @@ Grid instability, voltage fluctuations, and diverse regional regulations make pr
 
 - Grid integration with proper cable sizing
 - **AC SPDs** and isolators
-- Earthing per **IS 3043** - resistance **below 5 ohms**
+- Earthing per **IS 3043**: resistance **below 5 ohms**
 - **Anti-islanding** compliance configuration
 
 ## 4. Hybrid Battery Integration
@@ -91,4 +91,4 @@ Grid instability, voltage fluctuations, and diverse regional regulations make pr
 
 ## Closing
 
-Integration is where the design becomes reality. The 7 phases above - planning, mechanical, AC, hybrid, monitoring, smart features, post-commissioning - turn a parts list into a 25-year reliable system. Skip any step and you create cascading problems that surface months or years later in service calls and warranty disputes.
+Integration is where the design becomes reality. The 7 phases above (planning, mechanical, AC, hybrid, monitoring, smart features, post-commissioning) turn a parts list into a 25-year reliable system. Skip any step and you create cascading problems that surface months or years later in service calls and warranty disputes.

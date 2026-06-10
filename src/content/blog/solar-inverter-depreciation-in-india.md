@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Depreciation in India: Tax Benefits Guide 2026"
 excerpt: "Accelerated depreciation at 40% per annum can shave 1.9 years off your solar payback period. Here's how Indian businesses unlock the tax shield."
-description: "Complete guide to solar inverter depreciation in India for commercial installations - accelerated depreciation rates, eligibility, ROI impact, book vs actual value, and replacement asset treatment."
+description: "Complete guide to solar inverter depreciation in India for commercial installations, accelerated depreciation rates, eligibility, ROI impact, book vs actual value, and replacement asset treatment."
 category: "Guide"
 date: 2026-04-08
 readTime: "7 min"
@@ -103,4 +103,4 @@ Book value is an accounting construct, not an indicator of physical value.
 
 ## Closing
 
-Depreciation is one of the most underutilised tools in commercial solar ROI calculations. The combination of 40% accelerated depreciation, BIS-compliant equipment, and proper timing can reduce effective costs by 25–40% - turning a 7-year payback into a 5-year payback and dramatically improving project IRR.
+Depreciation is one of the most underutilised tools in commercial solar ROI calculations. The combination of 40% accelerated depreciation, BIS-compliant equipment, and proper timing can reduce effective costs by 25–40%, turning a 7-year payback into a 5-year payback and dramatically improving project IRR.

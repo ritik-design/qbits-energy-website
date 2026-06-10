@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Quality: 8 Red Flags EPCs Must Avoid"
 excerpt: "Poor inverter quality cascades into warranty claims, service costs, and lost customers. Here are the 8 critical red flags that separate premium from problematic inverters."
-description: "8 critical quality red flags every EPC must check before specifying a solar inverter - component sourcing, manufacturing QC, IP66 protection, surge protection, warranty terms, monitoring, and certifications."
+description: "8 critical quality red flags every EPC must check before specifying a solar inverter, component sourcing, manufacturing QC, IP66 protection, surge protection, warranty terms, monitoring, and certifications."
 category: "Buying Guide"
 date: 2026-03-22
 readTime: "9 min"
@@ -86,7 +86,7 @@ Modern systems should provide:
 - Real-time monitoring
 - Fault detection alerts
 - Remote diagnostics
-- Standard protocols (Modbus, MQTT) - not proprietary lock-in
+- Standard protocols (Modbus, MQTT), not proprietary lock-in
 
 ## 8. Lack of Proper Certifications
 

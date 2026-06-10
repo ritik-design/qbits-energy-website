@@ -1,5 +1,5 @@
 ---
-title: "PM Surya Ghar Documents Required - Complete Checklist 2026"
+title: "PM Surya Ghar Documents Required, Complete Checklist 2026"
 excerpt: "PM Surya Ghar documents required include Aadhaar, electricity bill, bank details, and property proof. Full checklist to avoid rejection in 2026."
 category: "Policy"
 date: 2026-06-05
@@ -35,15 +35,15 @@ faqs:
     a: "Yes. After your empanelled vendor completes installation, you must upload two additional documents through the portal: the installation completion certificate issued by the vendor, and a photograph of the installed system showing the roof, panels, and inverter label. Some DISCOMs also require the net metering inspection report before releasing the subsidy. This post-installation document set triggers the final subsidy disbursal to your bank account, typically within 30 days of verification."
 ---
 
-Every week, thousands of homeowners register on the PM Surya Ghar portal only to stall at the document upload stage - or worse, receive a rejection letter weeks later because one certificate was missing or a name did not match. The paperwork requirement is not complicated once you understand what the scheme actually verifies, but the portal gives very little guidance. This guide builds the complete document checklist for 2026, explains why each document is required, and tells you exactly which mistakes cause the most rejections.
+Every week, thousands of homeowners register on the PM Surya Ghar portal only to stall at the document upload stage, or worse, receive a rejection letter weeks later because one certificate was missing or a name did not match. The paperwork requirement is not complicated once you understand what the scheme actually verifies, but the portal gives very little guidance. This guide builds the complete document checklist for 2026, explains why each document is required, and tells you exactly which mistakes cause the most rejections.
 
 > **Direct answer.** PM Surya Ghar documents required are: Aadhaar card (with linked mobile for OTP), recent electricity bill in your name, PAN card, bank account passbook or cancelled cheque, property ownership proof, and passport-size photographs. After installation, you also submit the vendor's completion certificate and a photograph of the installed system. All names must match exactly across all documents.
 
-The scheme disburses up to ₹78,000 directly to your bank account for a 3 kW system - so the verification process is strict by design. According to [MNRE data](https://mnre.gov.in/){target="_blank" rel="noopener"}, the scheme targets 10 million households by 2027. Understanding the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/) in full before you begin assembling documents saves significant back-and-forth with your DISCOM.
+The scheme disburses up to ₹78,000 directly to your bank account for a 3 kW system, so the verification process is strict by design. According to [MNRE data](https://mnre.gov.in/){target="_blank" rel="noopener"}, the scheme targets 10 million households by 2027. Understanding the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/) in full before you begin assembling documents saves significant back-and-forth with your DISCOM.
 
 ## The Complete PM Surya Ghar Documents Checklist
 
-Before diving into each category, here is the master checklist. Tick every item before you begin the online application - missing even one item forces a re-submission and adds two to four weeks to your timeline.
+Before diving into each category, here is the master checklist. Tick every item before you begin the online application, missing even one item forces a re-submission and adds two to four weeks to your timeline.
 
 | Document Category | Specific Document | Format Accepted | Critical Check |
 | --- | --- | --- | --- |
@@ -58,7 +58,7 @@ Before diving into each category, here is the master checklist. Tick every item 
 
 > **₹78,000.** The maximum central government subsidy under PM Surya Ghar Muft Bijli Yojana for a residential 3 kW system, disbursed directly to the applicant's verified bank account after DISCOM inspection. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-## Why Each Document Is Required - and What Gets Verified
+## Why Each Document Is Required: and What Gets Verified
 
 The portal cross-validates your documents against four government databases: UIDAI (Aadhaar), Income Tax (PAN), PFMS (bank account), and your DISCOM's consumer database. Understanding each verification step helps you anticipate problems.
 
@@ -67,28 +67,28 @@ The portal cross-validates your documents against four government databases: UID
 Aadhaar is the backbone of the entire application. The portal uses Aadhaar-based eKYC to verify your identity in real time. When you enter your 12-digit Aadhaar number, the portal sends an OTP to the mobile number registered with UIDAI. You must enter this OTP within 30 seconds to proceed.
 
 Key checks:
-- **Mobile linkage** - Your Aadhaar must be linked to an active mobile number. If it is not, visit an Aadhaar Seva Kendra before starting the application.
-- **Name consistency** - The name on Aadhaar must match the name on your electricity bill exactly (or be an acceptable variation the DISCOM will accept).
-- **Address** - Some DISCOMs verify that the Aadhaar address matches the installation site address. If you have a different permanent address on Aadhaar, keep your latest electricity bill as the address proof.
+- **Mobile linkage**: Your Aadhaar must be linked to an active mobile number. If it is not, visit an Aadhaar Seva Kendra before starting the application.
+- **Name consistency**: The name on Aadhaar must match the name on your electricity bill exactly (or be an acceptable variation the DISCOM will accept).
+- **Address**: Some DISCOMs verify that the Aadhaar address matches the installation site address. If you have a different permanent address on Aadhaar, keep your latest electricity bill as the address proof.
 
 ### Electricity Bill (Most Critical Document)
 
 The DISCOM electricity bill is the most scrutinised document in the PM Surya Ghar application. It serves three purposes: it proves you are an existing grid-connected consumer (a requirement of the scheme), it provides your unique consumer number for DISCOM records, and it establishes the name and address of the installation site.
 
-- **Age requirement** - Bill must typically be within the last two billing cycles (≤ 90 days). Some states accept up to six months.
-- **Consumer number** - The 10–14 digit consumer number on the bill is what the portal uses to pull your DISCOM records. One digit error causes a mismatch.
-- **Name in owner's name** - The meter and electricity connection must be registered in the applicant's name. If it is in a parent's or spouse's name, transfer the connection first.
-- **Category** - The connection must be in the domestic / residential category. Commercial connections are not eligible under the standard scheme.
+- **Age requirement**: Bill must typically be within the last two billing cycles (≤ 90 days). Some states accept up to six months.
+- **Consumer number**: The 10–14 digit consumer number on the bill is what the portal uses to pull your DISCOM records. One digit error causes a mismatch.
+- **Name in owner's name**: The meter and electricity connection must be registered in the applicant's name. If it is in a parent's or spouse's name, transfer the connection first.
+- **Category**: The connection must be in the domestic / residential category. Commercial connections are not eligible under the standard scheme.
 
 ### PAN Card
 
-PAN becomes mandatory once the subsidy exceeds ₹50,000 in a financial year. Since the central subsidy alone can reach ₹78,000 for a 3 kW system, PAN is effectively required for all applicants. The Income Tax department also mandates that PAN be linked to Aadhaar - failure to link results in a higher TDS rate that can affect subsidy calculation. Visit [incometaxindiaefiling.gov.in](https://www.incometaxindiaefiling.gov.in){target="_blank" rel="noopener"} to check and complete PAN-Aadhaar linkage before applying.
+PAN becomes mandatory once the subsidy exceeds ₹50,000 in a financial year. Since the central subsidy alone can reach ₹78,000 for a 3 kW system, PAN is effectively required for all applicants. The Income Tax department also mandates that PAN be linked to Aadhaar, failure to link results in a higher TDS rate that can affect subsidy calculation. Visit [incometaxindiaefiling.gov.in](https://www.incometaxindiaefiling.gov.in){target="_blank" rel="noopener"} to check and complete PAN-Aadhaar linkage before applying.
 
 > **1 crore+.** The number of households registered on the PM Surya Ghar portal as of early 2026, making it one of the largest rooftop solar demand programmes globally. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
 
 ### Bank Account Details
 
-The subsidy amount flows through PFMS (Public Financial Management System) - the same system used for all central government DBT (direct benefit transfer) payments. Your bank account must be:
+The subsidy amount flows through PFMS (Public Financial Management System), the same system used for all central government DBT (direct benefit transfer) payments. Your bank account must be:
 
 - In your own name (same as Aadhaar and electricity bill)
 - An active savings account at a scheduled bank (cooperative banks are also accepted in most states)
@@ -100,10 +100,10 @@ Submit the first page of your bank passbook showing your name, account number, a
 
 The scheme requires that the applicant owns the roof on which the panels are installed. Acceptable documents:
 
-- **Owned property** - Registered sale deed, property tax receipt, or municipal khata extract
-- **Flat in housing society** - Flat registration document plus housing society NOC
-- **Leasehold** - Lease deed showing the applicant as lessee with rights over the roof
-- **Inherited property** - Legal heir certificate plus original property document
+- **Owned property**: Registered sale deed, property tax receipt, or municipal khata extract
+- **Flat in housing society**: Flat registration document plus housing society NOC
+- **Leasehold**: Lease deed showing the applicant as lessee with rights over the roof
+- **Inherited property**: Legal heir certificate plus original property document
 
 Tenants cannot apply because they do not own the roof. The landlord must be the applicant in such cases.
 
@@ -113,11 +113,11 @@ Preparing documents in the right order prevents the most common application erro
 
 ### The 5-Step PM Surya Ghar Document Prep Framework
 
-1. **Name normalisation** - Write your name exactly as it appears on Aadhaar. Compare this against your electricity bill name and bank account name. Any variation (initials, father's name prefix, spelling difference) must be resolved before step 2.
-2. **Aadhaar-mobile-PAN linkage** - Confirm your Aadhaar is linked to your active mobile number. Confirm PAN is linked to Aadhaar on the Income Tax portal. Both checks take under two minutes online.
-3. **Bill freshness check** - Pull your latest electricity bill (downloaded from DISCOM portal is the cleanest format). Check the bill date - it must be within 90 days of your application date.
-4. **Digital copies preparation** - Scan or photograph each document in JPEG or PDF format. Maximum file size is typically 2 MB per document. Use a document scanner app (Adobe Scan, Microsoft Office Lens) for mobile photos to ensure sharpness.
-5. **Verification dry-run** - Before uploading, check that every document shows the same name, address, and consumer number. A five-minute cross-check at this step prevents a four-week rejection cycle.
+1. **Name normalisation**: Write your name exactly as it appears on Aadhaar. Compare this against your electricity bill name and bank account name. Any variation (initials, father's name prefix, spelling difference) must be resolved before step 2.
+2. **Aadhaar-mobile-PAN linkage**: Confirm your Aadhaar is linked to your active mobile number. Confirm PAN is linked to Aadhaar on the Income Tax portal. Both checks take under two minutes online.
+3. **Bill freshness check**: Pull your latest electricity bill (downloaded from DISCOM portal is the cleanest format). Check the bill date, it must be within 90 days of your application date.
+4. **Digital copies preparation**: Scan or photograph each document in JPEG or PDF format. Maximum file size is typically 2 MB per document. Use a document scanner app (Adobe Scan, Microsoft Office Lens) for mobile photos to ensure sharpness.
+5. **Verification dry-run**: Before uploading, check that every document shows the same name, address, and consumer number. A five-minute cross-check at this step prevents a four-week rejection cycle.
 
 ## State-Specific Document Variations
 
@@ -140,13 +140,13 @@ Always verify current requirements with your specific DISCOM before submitting, 
 
 Understanding why applications get rejected helps you avoid the same errors. Based on patterns observed across DISCOM rejection notices and installer feedback, these are the most frequent document-related causes.
 
-- **Name mismatch** - The single largest cause of rejection. Even a difference like "Rajesh Kumar" on Aadhaar and "R. Kumar" on the electricity bill can fail automated verification. Resolve name discrepancies at DISCOM office before applying.
-- **Outdated electricity bill** - A bill older than 90 days is flagged automatically by many state portals. Download a fresh bill from your DISCOM's online portal.
-- **Low-quality photographs** - Blurry, cropped, or shadow-affected document photos fail the AI-based document scanner used by the portal. Use a scanner app in good lighting.
-- **Incorrect IFSC code** - The portal does IFSC validation in real time. An outdated IFSC code (banks merge branches regularly) will cause an error. Verify your current IFSC at the [RBI website](https://www.rbi.org.in/){target="_blank" rel="noopener"}.
-- **PAN not linked to Aadhaar** - The portal checks PAN-Aadhaar linkage status. Unlinked PAN causes the application to halt at the tax verification stage.
-- **Wrong property document type** - Rental agreement submitted instead of ownership proof. Only ownership or long-term lease (typically 30+ years) qualifies.
-- **Missing post-installation photos** - After installation, many applicants delay uploading completion photos. The subsidy cannot be released until post-installation verification is complete.
+- **Name mismatch**: The single largest cause of rejection. Even a difference like "Rajesh Kumar" on Aadhaar and "R. Kumar" on the electricity bill can fail automated verification. Resolve name discrepancies at DISCOM office before applying.
+- **Outdated electricity bill**: A bill older than 90 days is flagged automatically by many state portals. Download a fresh bill from your DISCOM's online portal.
+- **Low-quality photographs**: Blurry, cropped, or shadow-affected document photos fail the AI-based document scanner used by the portal. Use a scanner app in good lighting.
+- **Incorrect IFSC code**: The portal does IFSC validation in real time. An outdated IFSC code (banks merge branches regularly) will cause an error. Verify your current IFSC at the [RBI website](https://www.rbi.org.in/){target="_blank" rel="noopener"}.
+- **PAN not linked to Aadhaar**: The portal checks PAN-Aadhaar linkage status. Unlinked PAN causes the application to halt at the tax verification stage.
+- **Wrong property document type**: Rental agreement submitted instead of ownership proof. Only ownership or long-term lease (typically 30+ years) qualifies.
+- **Missing post-installation photos**: After installation, many applicants delay uploading completion photos. The subsidy cannot be released until post-installation verification is complete.
 
 For a detailed breakdown of why applications get rejected and how to respond, see the guide on [PM Surya Ghar rejection reasons](/blog/pm-surya-ghar-rejection-reasons/).
 
@@ -156,14 +156,14 @@ Once your documents are submitted and your application is live, monitoring its p
 
 The application moves through these stages:
 
-1. **Application submitted** - Portal has received your documents
-2. **DISCOM review** - Your local utility verifies your consumer number and documents
-3. **Feasibility approved** - Technical feasibility of your roof confirmed
-4. **Vendor selection** - You select an empanelled installer
-5. **Installation complete** - Vendor marks completion; you upload post-install photos
-6. **Net metering applied** - DISCOM connects bidirectional meter
-7. **Inspection complete** - DISCOM official verifies installation on-site
-8. **Subsidy disbursed** - Amount credited to your bank account via PFMS
+1. **Application submitted**: Portal has received your documents
+2. **DISCOM review**: Your local utility verifies your consumer number and documents
+3. **Feasibility approved**: Technical feasibility of your roof confirmed
+4. **Vendor selection**: You select an empanelled installer
+5. **Installation complete**: Vendor marks completion; you upload post-install photos
+6. **Net metering applied**: DISCOM connects bidirectional meter
+7. **Inspection complete**: DISCOM official verifies installation on-site
+8. **Subsidy disbursed**: Amount credited to your bank account via PFMS
 
 For step-by-step guidance on checking where your application currently stands, refer to [how to check PM Surya Ghar application status](/blog/pm-surya-ghar-status-check/).
 
@@ -171,23 +171,23 @@ For step-by-step guidance on checking where your application currently stands, r
 
 Some applicants waste days chasing documents that are not actually required. The following are commonly misunderstood as mandatory:
 
-- **Income proof** - PM Surya Ghar has no income ceiling. There is no requirement for a salary slip, Form 16, or ITR.
-- **Caste certificate** - The scheme is available to all categories; no reservation-based certification is required.
-- **Roof structural certificate** - Not required at the application stage (though your installer will assess roof strength during the site survey).
-- **NOC from neighbours** - Not required unless local municipal regulations specify otherwise for specific roof configurations.
-- **Original documents** - The portal accepts digital copies only. Original documents are not submitted anywhere in the online process.
+- **Income proof**: PM Surya Ghar has no income ceiling. There is no requirement for a salary slip, Form 16, or ITR.
+- **Caste certificate**: The scheme is available to all categories; no reservation-based certification is required.
+- **Roof structural certificate**: Not required at the application stage (though your installer will assess roof strength during the site survey).
+- **NOC from neighbours**: Not required unless local municipal regulations specify otherwise for specific roof configurations.
+- **Original documents**: The portal accepts digital copies only. Original documents are not submitted anywhere in the online process.
 
 ## Where Qbits Fits in Your PM Surya Ghar Journey
 
-The document submission is one part of a longer journey. After DISCOM approval, you select an empanelled vendor and choose your solar system. This is where your inverter choice directly affects the subsidy outcome: the system must use [ALMM-listed](/glossary/almm-list/) components - including the inverter - for the subsidy to be disbursed.
+The document submission is one part of a longer journey. After DISCOM approval, you select an empanelled vendor and choose your solar system. This is where your inverter choice directly affects the subsidy outcome: the system must use [ALMM-listed](/glossary/almm-list/) components (including the inverter) for the subsidy to be disbursed.
 
 Qbits inverters carry BIS, IEC, and ALMM Phase III compliance, as verified on the [MNRE ALMM List](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}, making them eligible for PM Surya Ghar subsidy projects without any documentation exceptions. Three pages worth bookmarking as you evaluate your system:
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - TLS and TLD series, ALMM-listed and subsidy-eligible across all states.
-- **[PM Surya Ghar Eligibility Guide](/blog/pm-surya-ghar-eligibility/)** - Confirms whether your connection type, state, and roof size qualify.
-- **[Authorised Service Partners](/authorized-service-partners/)** - Find empanelled Qbits-certified installers near your pincode.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, ALMM-listed and subsidy-eligible across all states.
+- **[PM Surya Ghar Eligibility Guide](/blog/pm-surya-ghar-eligibility/)**: Confirms whether your connection type, state, and roof size qualify.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Find empanelled Qbits-certified installers near your pincode.
 
-Once your documents are in order and your empanelled vendor is selected, [talk to a Qbits engineer](/contact-us/) to confirm your system size, check ALMM compliance for the chosen components, and get a written quote that includes the subsidy deduction - so you pay only the net amount upfront.
+Once your documents are in order and your empanelled vendor is selected, [talk to a Qbits engineer](/contact-us/) to confirm your system size, check ALMM compliance for the chosen components, and get a written quote that includes the subsidy deduction, so you pay only the net amount upfront.
 
 ## Final Submission Checklist Before You Click "Submit"
 

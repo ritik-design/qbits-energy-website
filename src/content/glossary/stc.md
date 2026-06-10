@@ -136,7 +136,7 @@ Solar simulators must meet Class AAA: A for spectral match, A for spatial unifor
 ### Translation from STC to operating
 
 Yield calculation:
-P_operating = P_STC × (Irradiance / 1000) × (1 + γ × (T_cell - 25))
+P_operating = P_STC × (Irradiance / 1000) × (1 + γ × (T_cell, 25))
 
 Where γ is temperature coefficient (negative).
 

@@ -1,7 +1,7 @@
 ---
 title: "How to Find Reliable Inverter Dealers India: 2026 Guide"
-excerpt: "Inverters are 15–20% of project cost. The right dealer ensures availability, warranty processing, and technical support - the wrong one creates cascading project failures."
-description: "Systematic dealer evaluation guide for Indian EPCs - 8 evaluation criteria, vetting checklist, red flags to avoid, and partnership-building framework for reliable inverter sourcing."
+excerpt: "Inverters are 15–20% of project cost. The right dealer ensures availability, warranty processing, and technical support, the wrong one creates cascading project failures."
+description: "Systematic dealer evaluation guide for Indian EPCs, 8 evaluation criteria, vetting checklist, red flags to avoid, and partnership-building framework for reliable inverter sourcing."
 category: "Buying Guide"
 date: 2026-04-08
 readTime: "8 min"
@@ -133,4 +133,4 @@ Move beyond transactional relationships through:
 
 ## Closing
 
-The right dealer relationship compounds over years through better availability, faster warranty resolution, and stronger technical support. Apply the vetting criteria rigorously upfront, document everything, and treat dealer selection as a long-term strategic decision - not a procurement transaction.
+The right dealer relationship compounds over years through better availability, faster warranty resolution, and stronger technical support. Apply the vetting criteria rigorously upfront, document everything, and treat dealer selection as a long-term strategic decision, not a procurement transaction.

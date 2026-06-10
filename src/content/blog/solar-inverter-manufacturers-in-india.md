@@ -1,6 +1,6 @@
 ---
 title: "Solar Inverter Manufacturers in India: Evaluation Guide for EPCs & Distributors (2026)"
-excerpt: "A structured framework for assessing solar inverter manufacturers - covering production capabilities, component quality, certifications, warranty infrastructure, and service network coverage."
+excerpt: "A structured framework for assessing solar inverter manufacturers, covering production capabilities, component quality, certifications, warranty infrastructure, and service network coverage."
 description: "Complete evaluation guide for solar inverter manufacturers in India. Covers manufacturing standards, German-grade vs standard components, BIS/IEC certifications, warranty infrastructure, climate zone considerations, and a weighted scoring framework for procurement decisions."
 category: "Buying Guide"
 date: 2026-03-15
@@ -116,10 +116,10 @@ High claim rejection rates or slow processing indicate future challenges.
 European efficiency ratings do not reflect Indian patterns. Verify:
 
 - **Efficiency curves across full load range** (not just peak)
-- **Operating temperature** - premium maintains full output to 50°C
-- **Voltage fluctuation tolerance** - wide input range (140V–270V single-phase)
-- **DC oversizing** - 130–150% capacity for high-wattage panels
-- **Start-up voltage** - 80V or lower for extended morning/evening generation
+- **Operating temperature**: premium maintains full output to 50°C
+- **Voltage fluctuation tolerance**: wide input range (140V–270V single-phase)
+- **DC oversizing**: 130–150% capacity for high-wattage panels
+- **Start-up voltage**: 80V or lower for extended morning/evening generation
 
 ### Climate Zone Considerations
 
@@ -153,7 +153,7 @@ European efficiency ratings do not reflect Indian patterns. Verify:
 
 ### Customization
 
-Domestic manufacturers respond faster to India-specific market needs. Long-term availability is also stronger - Indian companies show deeper market commitment.
+Domestic manufacturers respond faster to India-specific market needs. Long-term availability is also stronger, Indian companies show deeper market commitment.
 
 ## Smart Monitoring and Digital Capabilities
 
@@ -171,7 +171,7 @@ Domestic manufacturers respond faster to India-specific market needs. Long-term 
 
 ### Background Check
 
-- Years in business (contextual - backed by larger group?)
+- Years in business (contextual, backed by larger group?)
 - Installed base and customer references
 - Credit ratings and published statements
 - Payment terms offered (100% advance can signal cash flow issues)
@@ -202,14 +202,14 @@ Look for:
 
 ## Due Diligence Checklist
 
-1. **Factory visit** - production processes, QC, component storage
-2. **Sample testing** - efficiency, temperature performance, surge protection
+1. **Factory visit**: production processes, QC, component storage
+2. **Sample testing**: efficiency, temperature performance, surge protection
 3. **Reference checks** with existing partners
-4. **Documentation review** - certifications, test reports, warranty terms
-5. **Warranty deep-dive** - fine print, procedures, costs, turnaround
-6. **Service network verification** - call support directly to test responsiveness
-7. **Financial/legal due diligence** - stability check
-8. **Pilot project** - 20–50 units to test full relationship cycle
+4. **Documentation review**: certifications, test reports, warranty terms
+5. **Warranty deep-dive**: fine print, procedures, costs, turnaround
+6. **Service network verification**: call support directly to test responsiveness
+7. **Financial/legal due diligence**: stability check
+8. **Pilot project**: 20–50 units to test full relationship cycle
 
 ## Weighted Scoring Framework
 
@@ -232,4 +232,4 @@ Score each manufacturer 1–10 per factor, multiply by weight, sum totals. Docum
 
 ## Conclusion
 
-Manufacturer selection is not a one-time event - it is a continuous evaluation. Start with pilots, validate through rigorous due diligence, and build relationships gradually. In India's exponentially growing solar market, prioritise manufacturers demonstrating genuine quality commitment, transparent operations, robust warranty infrastructure, and India-specific engineering. The right partner becomes a strategic alliance - not a transactional supplier.
+Manufacturer selection is not a one-time event, it is a continuous evaluation. Start with pilots, validate through rigorous due diligence, and build relationships gradually. In India's exponentially growing solar market, prioritise manufacturers demonstrating genuine quality commitment, transparent operations, robust warranty infrastructure, and India-specific engineering. The right partner becomes a strategic alliance, not a transactional supplier.

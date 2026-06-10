@@ -1,5 +1,5 @@
 ---
-title: "2kW Solar System Price in India 2026 - Complete Cost Breakdown"
+title: "2kW Solar System Price in India 2026, Complete Cost Breakdown"
 excerpt: "2kW solar system price in India ranges from ₹1.1 lakh to ₹1.5 lakh before subsidy. After PM Surya Ghar subsidy of ₹60,000, net cost drops to ₹50,000–₹90,000. Full breakdown here."
 description: "Complete 2kW solar system cost breakdown: panels, inverter, BOS, installation, GST minus subsidy. Payback calculator, load examples, and what a 2kW system can power in India 2026."
 category: "Buying Guide"
@@ -32,13 +32,13 @@ faqs:
     a: "A standard 2kW on-grid solar system does not work during power cuts - it automatically disconnects from the grid as a safety requirement (anti-islanding). If you want backup power during outages, you need a 2kW hybrid solar system with a battery bank, which costs an additional ₹50,000 to ₹1.2 lakh depending on battery type and capacity. Hybrid systems are the right choice for areas with frequent power outages."
 ---
 
-Your electricity bill is ₹4,000 to ₹8,000 per month. You run a 1-ton air conditioner, a refrigerator, a washing machine, and the usual lights and fans in a 2 BHK home. You want to know whether a 2kW solar system will make a meaningful dent in that bill - and exactly what it will cost you before and after subsidy. This guide gives you a complete component-level cost breakdown, a payback calculator for different state tariffs, and a clear load profile so you know what to expect.
+Your electricity bill is ₹4,000 to ₹8,000 per month. You run a 1-ton air conditioner, a refrigerator, a washing machine, and the usual lights and fans in a 2 BHK home. You want to know whether a 2kW solar system will make a meaningful dent in that bill, and exactly what it will cost you before and after subsidy. This guide gives you a complete component-level cost breakdown, a payback calculator for different state tariffs, and a clear load profile so you know what to expect.
 
 > **Direct answer.** A 2kW solar system costs ₹1.1 lakh to ₹1.5 lakh in India before subsidy. The PM Surya Ghar central subsidy of ₹60,000 brings the net cost to ₹50,000–₹90,000. At ₹7/unit tariff and 8 units/day generation, payback is 3 to 4 years. A 2kW system suits a 2 BHK home with one AC. For 2 ACs, consider a [3kW system](/blog/3kw-solar-system-price-india/).
 
 The 2kW tier is the most popular entry-level size for households that run a single air conditioner. It hits the subsidy sweet spot - ₹30,000 per kW applies fully up to 2kW, meaning the government covers 40–55% of the pre-subsidy cost depending on your total system spend.
 
-## 2kW Solar System Price Breakdown - Component by Component
+## 2kW Solar System Price Breakdown: Component by Component
 
 Here is the full component-level cost breakdown for a standard 2kW on-grid residential system in India as of June 2026:
 
@@ -60,7 +60,7 @@ The lower end of this range reflects a no-frills system with Tier-2 panels and a
 
 ## What a 2kW Solar System Can Actually Power
 
-This is where most homeowners get surprised - in the right or wrong direction. The rating of the solar system (2kW) is the *capacity* of the inverter and panels. It does not mean you can run exactly 2kW of appliances at all times. Here is the realistic picture:
+This is where most homeowners get surprised, in the right or wrong direction. The rating of the solar system (2kW) is the *capacity* of the inverter and panels. It does not mean you can run exactly 2kW of appliances at all times. Here is the realistic picture:
 
 | Load | Wattage | Hours/Day | Units/Day |
 | --- | --- | --- | --- |
@@ -72,7 +72,7 @@ This is where most homeowners get surprised - in the right or wrong direction. T
 | Miscellaneous | 100 W | 3 h | 0.3 units |
 | **Total household consumption** | | | **~7.9 units/day** |
 
-A 2kW system generating 8 units/day in a city like Bengaluru or Hyderabad can effectively offset nearly all of this household's solar-hours consumption. During peak sunshine (10 AM to 3 PM), the system produces its maximum output. Morning and evening loads - when the sun is low - still draw from the grid.
+A 2kW system generating 8 units/day in a city like Bengaluru or Hyderabad can effectively offset nearly all of this household's solar-hours consumption. During peak sunshine (10 AM to 3 PM), the system produces its maximum output. Morning and evening loads (when the sun is low) still draw from the grid.
 
 ## The 2kW Solar Payback Calculator
 
@@ -86,7 +86,7 @@ A 2kW system generating 8 units/day in a city like Bengaluru or Hyderabad can ef
 
 **Assumptions:** Net cost ₹65,000 (midpoint after ₹60,000 subsidy). Generation based on 4.5–5.5 peak sun hours depending on location. Tariff escalation not modelled (would further shorten payback). Annual generation degrades ~0.5% per year per panel manufacturer data. *Source for peak sun hours - [NREL India Solar Resource](https://www.nrel.gov/international/india.html).*
 
-Over 25 years, a 2kW system at ₹7/unit saves approximately ₹4.5 to ₹5.5 lakh in electricity costs - an exceptional return on a net investment of ₹65,000.
+Over 25 years, a 2kW system at ₹7/unit saves approximately ₹4.5 to ₹5.5 lakh in electricity costs, an exceptional return on a net investment of ₹65,000.
 
 ## The 4-Factor 2kW System Sizing Test
 
@@ -94,43 +94,43 @@ Use this framework before committing to a 2kW system to verify it is the right s
 
 ### The 4-Factor 2kW System Sizing Test
 
-1. **Monthly bill check** - Your monthly bill should be ₹3,000 to ₹8,000 for a 2kW system to be the appropriate size. Below ₹3,000, a [1kW system](/blog/1kw-solar-system-price-india/) is sufficient. Above ₹8,000, consider a 3kW system.
+1. **Monthly bill check**: Your monthly bill should be ₹3,000 to ₹8,000 for a 2kW system to be the appropriate size. Below ₹3,000, a [1kW system](/blog/1kw-solar-system-price-india/) is sufficient. Above ₹8,000, consider a 3kW system.
 
-2. **AC count** - A 2kW system comfortably serves one 1-ton AC plus household base load. If you run two ACs simultaneously during peak summer, you need at least 3kW. Each additional 1-ton AC adds approximately 1kW to your recommended system size.
+2. **AC count**: A 2kW system comfortably serves one 1-ton AC plus household base load. If you run two ACs simultaneously during peak summer, you need at least 3kW. Each additional 1-ton AC adds approximately 1kW to your recommended system size.
 
-3. **Roof orientation** - A south-facing roof with zero shading between 9 AM and 4 PM is ideal. An east-west orientation reduces output by 10–15% - you may need to upsize to 2.5 kW to achieve the same annual generation. Use the [string sizing calculator](/string-sizing-calculator/) to verify your configuration.
+3. **Roof orientation**: A south-facing roof with zero shading between 9 AM and 4 PM is ideal. An east-west orientation reduces output by 10–15%, you may need to upsize to 2.5 kW to achieve the same annual generation. Use the [string sizing calculator](/string-sizing-calculator/) to verify your configuration.
 
-4. **Future load growth** - If you plan to buy an EV in the next 3–5 years or add a second AC, sizing up to 3kW now costs only ₹25,000 to ₹35,000 more pre-subsidy but adds significantly more long-term value than upgrading the system later.
+4. **Future load growth**: If you plan to buy an EV in the next 3–5 years or add a second AC, sizing up to 3kW now costs only ₹25,000 to ₹35,000 more pre-subsidy but adds significantly more long-term value than upgrading the system later.
 
-## Component Deep Dive - What to Verify in Your Quotation
+## Component Deep Dive: What to Verify in Your Quotation
 
 The total system cost matters less than whether each component is specified correctly. Here is what to check:
 
 ### Solar Panels for a 2kW System
 
-A 2kW system uses 4 panels at 530–540 Wp each. Panels must be monocrystalline PERC or TOPCon technology for Indian rooftop conditions - polycrystalline panels are increasingly obsolete and offer lower temperature coefficient performance on 55–65 °C summer rooftops.
+A 2kW system uses 4 panels at 530–540 Wp each. Panels must be monocrystalline PERC or TOPCon technology for Indian rooftop conditions, polycrystalline panels are increasingly obsolete and offer lower temperature coefficient performance on 55–65 °C summer rooftops.
 
-- **Product warranty** - minimum 10 years (covers manufacturing defects)
-- **Performance warranty** - minimum 25 years, guaranteeing at least 80% of rated power at end of life
-- **ALMM listing** - mandatory for PM Surya Ghar subsidy eligibility. Ask for the ALMM certificate number.
+- **Product warranty**: minimum 10 years (covers manufacturing defects)
+- **Performance warranty**: minimum 25 years, guaranteeing at least 80% of rated power at end of life
+- **ALMM listing**: mandatory for PM Surya Ghar subsidy eligibility. Ask for the ALMM certificate number.
 
 ### Inverter for a 2kW System
 
 A 2kW on-grid inverter is a single-MPPT string inverter with a nominal output of 2kW and a maximum DC input capacity of 2.4–3.2 kW (to allow DC oversizing). Key specifications to verify:
 
-- **BIS certification** under IS 16221 - non-negotiable for grid connectivity
-- **Voltage range** - must operate between 180V and 270V AC for Indian grid compatibility
-- **Peak efficiency** - 97% or above minimises conversion losses
-- **Monitoring** - Wi-Fi or 4G monitoring to track daily generation via app
+- **BIS certification** under IS 16221, non-negotiable for grid connectivity
+- **Voltage range**: must operate between 180V and 270V AC for Indian grid compatibility
+- **Peak efficiency**: 97% or above minimises conversion losses
+- **Monitoring**: Wi-Fi or 4G monitoring to track daily generation via app
 
 See the full [on-grid inverter buying guide](/blog/how-to-choose-solar-inverter-for-home-india/) for specification details.
 
 ### Balance of System (BOS)
 
-- **Cable cross-section** - DC cables should be at least 4mm² (6mm² preferred) for runs longer than 10 metres
-- **SPD rating** - at least 600V DC for the panel string side; 20kA minimum discharge capacity
-- **MCB and RCCB** - properly rated for the system's maximum current; isolator on DC side mandatory per CEA norms
-- **Mounting structure** - hot-dipped GI or marine-grade aluminium; wind load rated for your local wind zone per IS 875
+- **Cable cross-section**: DC cables should be at least 4mm² (6mm² preferred) for runs longer than 10 metres
+- **SPD rating**: at least 600V DC for the panel string side; 20kA minimum discharge capacity
+- **MCB and RCCB**: properly rated for the system's maximum current; isolator on DC side mandatory per CEA norms
+- **Mounting structure**: hot-dipped GI or marine-grade aluminium; wind load rated for your local wind zone per IS 875
 
 ## PM Surya Ghar Subsidy Process for a 2kW System
 
@@ -142,11 +142,11 @@ The subsidy process for 2kW follows the same steps as 1kW but with a larger cred
 - **Roof ownership proof** (if registered in a different name from the electricity account)
 - **Technical documents** submitted by the empanelled vendor (single-line diagram, inverter specification, panel specification with ALMM number)
 
-After installation and DISCOM inspection, the ₹60,000 subsidy is credited within 30 days. Some states are faster - Gujarat typically processes in 15–20 days for empanelled installers with clean documentation. Refer to the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) and the [eligibility page](/blog/pm-surya-ghar-eligibility/) for the full document list.
+After installation and DISCOM inspection, the ₹60,000 subsidy is credited within 30 days. Some states are faster, Gujarat typically processes in 15–20 days for empanelled installers with clean documentation. Refer to the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) and the [eligibility page](/blog/pm-surya-ghar-eligibility/) for the full document list.
 
 > **72% growth.** India's residential rooftop solar capacity additions grew 72% year-on-year in 2024, driven primarily by PM Surya Ghar registrations in Gujarat, Maharashtra, and Rajasthan. *Source - [JMK Research India Solar Rooftop Report](https://jmkresearch.com/), 2025.*
 
-## 2kW On-Grid vs 2kW Hybrid - Which One Should You Buy?
+## 2kW On-Grid vs 2kW Hybrid: Which One Should You Buy?
 
 | | 2kW On-Grid | 2kW Hybrid |
 | --- | --- | --- |
@@ -158,7 +158,7 @@ After installation and DISCOM inspection, the ₹60,000 subsidy is credited with
 | **Best for** | Areas with < 2 hr/day power cuts | Areas with > 2 hr/day power cuts |
 | **Monthly savings** | ₹1,500–₹2,000 | ₹1,500–₹2,000 (same from solar) |
 
-For most urban and semi-urban homeowners, a 2kW on-grid system is the right starting point. Power cuts lasting more than 2 hours per day - as is common in many Tier-2 towns in UP, Bihar, and Jharkhand - make the hybrid option worth considering despite its higher upfront cost. Read the full [on-grid vs hybrid comparison](/blog/on-grid-vs-hybrid/) for a detailed decision framework.
+For most urban and semi-urban homeowners, a 2kW on-grid system is the right starting point. Power cuts lasting more than 2 hours per day (as is common in many Tier-2 towns in UP, Bihar, and Jharkhand) make the hybrid option worth considering despite its higher upfront cost. Read the full [on-grid vs hybrid comparison](/blog/on-grid-vs-hybrid/) for a detailed decision framework.
 
 ## State-Wise 2kW Solar System Pricing
 
@@ -171,26 +171,26 @@ For most urban and semi-urban homeowners, a 2kW on-grid system is the right star
 | Karnataka | ₹55,000–₹85,000 | Nil | ₹55,000–₹85,000 |
 | Tamil Nadu | ₹55,000–₹85,000 | TANGEDCO scheme (select categories) | ₹45,000–₹75,000 |
 
-State subsidy amounts are updated periodically. Verify current amounts at the [MNRE portal](https://mnre.gov.in/) or with your local DISCOM before proceeding. India's Electricity Act 2003 mandates that DISCOMs process net-metering applications within 30 days of a technically complete submission - a right every 2kW solar buyer should be aware of. *Source - [Ministry of Power, Electricity Act 2003 Amendment](https://powermin.gov.in/), Government of India.*
+State subsidy amounts are updated periodically. Verify current amounts at the [MNRE portal](https://mnre.gov.in/) or with your local DISCOM before proceeding. India's Electricity Act 2003 mandates that DISCOMs process net-metering applications within 30 days of a technically complete submission, a right every 2kW solar buyer should be aware of. *Source - [Ministry of Power, Electricity Act 2003 Amendment](https://powermin.gov.in/), Government of India.*
 
 ## Common Mistakes to Avoid with a 2kW Solar System
 
 The most common errors when purchasing a 2kW system are avoidable with a little preparation:
 
-- **Over-relying on verbal subsidy promises** - The subsidy is paid after DISCOM verification. If the vendor uses non-ALMM components, the subsidy is denied. Always verify ALMM listing for both panels and inverter before signing.
-- **Not accounting for cable length** - Long roof-to-inverter DC cable runs increase voltage drop and heat. Runs longer than 15 metres should use 6mm² cable. Ask your installer to specify cable length and cross-section in writing.
-- **Undersizing the BOS for export** - If your DISCOM allows net metering and your evening consumption is low, your 2kW system may export up to 8 units/day. Ensure your isolator and MCB ratings account for this bidirectional current.
-- **Skipping monitoring** - Without app-based monitoring, you have no visibility into whether your system is performing as expected. A faulty connection or inverter fault can go undetected for weeks, costing 50–100 units of lost generation.
-- **Not reading the solar quotation checklist** - Use the [solar quotation checklist](/blog/solar-quotation-checklist/) to evaluate every vendor quote on the same criteria before choosing.
+- **Over-relying on verbal subsidy promises**: The subsidy is paid after DISCOM verification. If the vendor uses non-ALMM components, the subsidy is denied. Always verify ALMM listing for both panels and inverter before signing.
+- **Not accounting for cable length**: Long roof-to-inverter DC cable runs increase voltage drop and heat. Runs longer than 15 metres should use 6mm² cable. Ask your installer to specify cable length and cross-section in writing.
+- **Undersizing the BOS for export**: If your DISCOM allows net metering and your evening consumption is low, your 2kW system may export up to 8 units/day. Ensure your isolator and MCB ratings account for this bidirectional current.
+- **Skipping monitoring**: Without app-based monitoring, you have no visibility into whether your system is performing as expected. A faulty connection or inverter fault can go undetected for weeks, costing 50–100 units of lost generation.
+- **Not reading the solar quotation checklist**: Use the [solar quotation checklist](/blog/solar-quotation-checklist/) to evaluate every vendor quote on the same criteria before choosing.
 
 ## Where Qbits Fits
 
-For a 2kW on-grid system, the inverter choice determines your monitoring experience, warranty coverage, and long-term reliability. Qbits on-grid inverters are ALMM-listed, BIS-certified, and built for India's 180–270V grid range - they keep generating through the voltage sags common in Tier-2 towns where other inverters trip offline.
+For a 2kW on-grid system, the inverter choice determines your monitoring experience, warranty coverage, and long-term reliability. Qbits on-grid inverters are ALMM-listed, BIS-certified, and built for India's 180–270V grid range, they keep generating through the voltage sags common in Tier-2 towns where other inverters trip offline.
 
 The 12-year full replacement warranty on Qbits inverters is particularly meaningful for a 2kW residential system, where the inverter is the most likely component to need attention in the first decade. An Indian-entity-backed warranty means someone actually answers the phone on the Tuesday afternoon when something goes wrong.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - ALMM-listed 2kW units, subsidy-eligible, BIS-certified, compatible with all major panel brands including Waaree, Adani, Vikram, and Tata Power Solar.
-- **[String Sizing Calculator](/string-sizing-calculator/)** - Confirm your 4-panel string matches the MPPT input range before ordering.
-- **[Residential Solar Solutions](/residential-solution/)** - Complete on-grid and hybrid packages for 2 BHK and 3 BHK homes across India.
+- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed 2kW units, subsidy-eligible, BIS-certified, compatible with all major panel brands including Waaree, Adani, Vikram, and Tata Power Solar.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm your 4-panel string matches the MPPT input range before ordering.
+- **[Residential Solar Solutions](/residential-solution/)**: Complete on-grid and hybrid packages for 2 BHK and 3 BHK homes across India.
 
-[Contact a Qbits engineer](/contact-us/) with your electricity bill and roof details - most quotes come back within 24 hours, shipped to 280+ Indian cities.
+[Contact a Qbits engineer](/contact-us/) with your electricity bill and roof details, most quotes come back within 24 hours, shipped to 280+ Indian cities.

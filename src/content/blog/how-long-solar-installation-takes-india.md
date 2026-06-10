@@ -31,29 +31,29 @@ faqs:
     a: "The PM Surya Ghar central subsidy is typically disbursed within 30 days of the DISCOM issuing the commissioning certificate and verifying the installation on the portal. The money is credited directly to the bank account registered on pmsuryaghar.gov.in, which must be linked to the Aadhaar number of the electricity connection holder. State-level additional subsidies may take a further 30–60 days via separate state DISCOM channels."
 ---
 
-You have decided to go solar. The quotes are in, the subsidy is understood, the system is sized - and now the most practical question: how long before the panels are on the roof and the meter is running backwards? The honest answer involves two very different timelines: the physical installation (fast) and the DISCOM approval (slow and variable by state). This guide maps every stage with realistic durations.
+You have decided to go solar. The quotes are in, the subsidy is understood, the system is sized, and now the most practical question: how long before the panels are on the roof and the meter is running backwards? The honest answer involves two very different timelines: the physical installation (fast) and the DISCOM approval (slow and variable by state). This guide maps every stage with realistic durations.
 
-> **Direct answer.** Solar installation time in India is 1–4 months total. The physical installation of panels, inverter, and wiring takes 1–2 days. Equipment procurement adds 5–10 days. The dominant delay is DISCOM net metering approval - 15 days in Gujarat, 30–60 days in most states, 60–90 days in Kerala. The "Solar Installation Timeline: 6 Stages" framework below maps every phase with state-specific DISCOM data.
+> **Direct answer.** Solar installation time in India is 1–4 months total. The physical installation of panels, inverter, and wiring takes 1–2 days. Equipment procurement adds 5–10 days. The dominant delay is DISCOM net metering approval, 15 days in Gujarat, 30–60 days in most states, 60–90 days in Kerala. The "Solar Installation Timeline: 6 Stages" framework below maps every phase with state-specific DISCOM data.
 
-For what to expect after your system is commissioned, see [what to expect in Year 1 of solar ownership India](/blog/solar-year-1-ownership-guide-india/). According to [JMK Research's India Rooftop Solar H2 2025 Report](https://jmkresearch.com/), India added a record 5.2 GW of rooftop solar in FY2025, with residential installations accounting for the majority - making DISCOM net metering capacity the new national constraint.
+For what to expect after your system is commissioned, see [what to expect in Year 1 of solar ownership India](/blog/solar-year-1-ownership-guide-india/). According to [JMK Research's India Rooftop Solar H2 2025 Report](https://jmkresearch.com/), India added a record 5.2 GW of rooftop solar in FY2025, with residential installations accounting for the majority, making DISCOM net metering capacity the new national constraint.
 
-## Stage 1 - Site Survey (Day 1)
+## Stage 1: Site Survey (Day 1)
 
 The site survey is the starting gun. A qualified site assessor from your chosen installer visits your home to capture the technical data needed for system design.
 
 A thorough site survey covers:
 
-- **Roof area and dimensions** - measuring usable shadow-free area and identifying orientation (south/east/west)
-- **Shade mapping** - documenting obstructions: water overhead tanks, parapet walls, TV antennas, trees, neighbouring buildings
-- **Structural assessment** - confirming the roof can bear the load of mounting structure plus panels (approximately 15 kg/m² for a typical system)
-- **Existing electrical infrastructure** - assessing the main distribution board, existing wiring, and the metering point
-- **Inverter and cable routing** - identifying the optimal location for the inverter (shaded, ventilated wall) and the path for DC conduit from panels to inverter
+- **Roof area and dimensions**: measuring usable shadow-free area and identifying orientation (south/east/west)
+- **Shade mapping**: documenting obstructions: water overhead tanks, parapet walls, TV antennas, trees, neighbouring buildings
+- **Structural assessment**: confirming the roof can bear the load of mounting structure plus panels (approximately 15 kg/m² for a typical system)
+- **Existing electrical infrastructure**: assessing the main distribution board, existing wiring, and the metering point
+- **Inverter and cable routing**: identifying the optimal location for the inverter (shaded, ventilated wall) and the path for DC conduit from panels to inverter
 
 A serious site survey takes 45–90 minutes and should produce a written report. If an installer offers to design your system without a site visit, that is a significant warning sign. Remote surveys based on satellite images are acceptable as a preliminary step but not as a substitute for the physical visit.
 
 **Duration: 1 day (scheduling the visit may take 2–5 days)**
 
-## Stage 2 - Quotation and Agreement (3–7 Days)
+## Stage 2: Quotation and Agreement (3–7 Days)
 
 After the site survey, a competent installer produces a detailed quotation within 3–5 working days. The quotation should include:
 
@@ -71,23 +71,23 @@ After accepting the quotation and paying the advance (typically 30–50% of the 
 
 **Duration: 3–7 days for quotation and agreement signing**
 
-## Stage 3 - Equipment Procurement (5–10 Days)
+## Stage 3: Equipment Procurement (5–10 Days)
 
 Equipment procurement is the phase between order placement and delivery at your site.
 
-- **Inverter availability** - leading brands with local warehouses can deliver within 5–7 days.
-- **Panel availability** - ALMM-listed panels from top manufacturers are typically available from distributor stock within 3–7 days in most metro and tier-2 cities.
-- **Mounting structure** - standard aluminium structures are typically fabricated locally within 3–5 days of measurement confirmation.
+- **Inverter availability**: leading brands with local warehouses can deliver within 5–7 days.
+- **Panel availability**: ALMM-listed panels from top manufacturers are typically available from distributor stock within 3–7 days in most metro and tier-2 cities.
+- **Mounting structure**: standard aluminium structures are typically fabricated locally within 3–5 days of measurement confirmation.
 
 For large commercial projects (50 kW+), procurement from [ALMM-listed suppliers](https://mnre.gov.in/almm-list/) may take 3–6 weeks if custom panel quantities require a factory order. Residential projects rarely face this constraint.
 
 **Duration: 5–10 days for residential; 3–6 weeks for large commercial**
 
-## Stage 4 - Physical Installation (1–2 Days)
+## Stage 4: Physical Installation (1–2 Days)
 
 This is the fastest stage. A residential 3–6 kW system is physically installed in 1–2 days by a crew of 3–4 experienced workers.
 
-**Day 1:** Mounting structure installation on the roof - drilling anchor bolts into the concrete (or using ballast weight blocks on flat roofs), placing aluminium rails, and securing panels to the rails.
+**Day 1:** Mounting structure installation on the roof, drilling anchor bolts into the concrete (or using ballast weight blocks on flat roofs), placing aluminium rails, and securing panels to the rails.
 
 **Day 2 (or afternoon of Day 1 for smaller systems):** DC wiring from panels to inverter; inverter mounting on the wall; AC wiring from inverter to the distribution board; earthing and bonding; final inspection by the site supervisor.
 
@@ -103,7 +103,7 @@ For the commissioning checklist, see [solar inverter commissioning in India](/bl
 
 **Duration: 1–2 days for residential (3–6 kW)**
 
-## Stage 5 - DISCOM Application and Net Metering Approval (15–90 Days)
+## Stage 5: DISCOM Application and Net Metering Approval (15–90 Days)
 
 This is the stage that determines whether your total timeline is 1 month or 4 months. The DISCOM application for net metering involves:
 
@@ -145,7 +145,7 @@ This is the stage that determines whether your total timeline is 1 month or 4 mo
 
 Primary bottlenecks: insufficient DISCOM solar inspection staff, manual application processing, and grid protection studies that some DISCOMs require for systems above 3 kW.
 
-## Stage 6 - Subsidy Disbursement (30 Days Post-Commissioning)
+## Stage 6: Subsidy Disbursement (30 Days Post-Commissioning)
 
 For PM Surya Ghar registered installations, the central government subsidy is disbursed directly to the registered bank account, typically within 30 days of the DISCOM issuing the commissioning certificate.
 
@@ -158,7 +158,7 @@ State-level subsidies vary and are disbursed separately via state DISCOM channel
 
 **Duration: 30 days from DISCOM commissioning certificate**
 
-## What Causes Delays - And What You Can Do
+## What Causes Delays: And What You Can Do
 
 **Delay 1: DISCOM inspection backlog.** Follow up with the DISCOM's solar helpline at least once a week after application submission. Escalation to the DISCOM's consumer grievance cell is available if timelines are violated under the PM Surya Ghar mandate.
 
@@ -168,7 +168,7 @@ State-level subsidies vary and are disbursed separately via state DISCOM channel
 
 **Delay 4: Structural issues discovered during installation.** If the roof requires reinforcement or the distribution board needs upgrading, add 3–7 days for remedial work.
 
-The [find a reliable solar installer](/blog/find-reliable-solar-installer/) guide covers how to evaluate installers on their DISCOM approval track record - an underrated criterion that directly affects your total timeline.
+The [find a reliable solar installer](/blog/find-reliable-solar-installer/) guide covers how to evaluate installers on their DISCOM approval track record, an underrated criterion that directly affects your total timeline.
 
 ## How PM Surya Ghar Has Changed the Timeline
 
@@ -194,12 +194,12 @@ According to [MNRE data on the PM Surya Ghar portal](https://pmsuryaghar.gov.in/
 
 ## Where Qbits Fits in the Installation Timeline
 
-Physical installation in Stage 4 is where Qbits inverter specifications directly affect timeline. Qbits inverters come pre-configured for Indian grid parameters (180–270 V tolerance) and include commissioning documentation that satisfies DISCOM inspection requirements - reducing Stage 5 re-inspection delays caused by specification queries.
+Physical installation in Stage 4 is where Qbits inverter specifications directly affect timeline. Qbits inverters come pre-configured for Indian grid parameters (180–270 V tolerance) and include commissioning documentation that satisfies DISCOM inspection requirements, reducing Stage 5 re-inspection delays caused by specification queries.
 
-The Qbits WhatsApp monitoring system activates at Stage 4 commissioning: the system immediately begins reporting daily generation and sends alerts for any underperformance during the Stage 5 wait period - so you can verify yield estimates before the net meter is even installed.
+The Qbits WhatsApp monitoring system activates at Stage 4 commissioning: the system immediately begins reporting daily generation and sends alerts for any underperformance during the Stage 5 wait period, so you can verify yield estimates before the net meter is even installed.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - ALMM-listed, DISCOM-approved documentation, BIS certified; 1.5 kW to 50 kW.
-- **[Solar Inverter Commissioning Guide](/blog/solar-inverter-commissioning/)** - Step-by-step Stage 4 commissioning checklist.
-- **[Authorized Service Partners](/authorized-service-partners/)** - If installation quality issues arise, the 72-hour RMA SLA applies from day one.
+- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed, DISCOM-approved documentation, BIS certified; 1.5 kW to 50 kW.
+- **[Solar Inverter Commissioning Guide](/blog/solar-inverter-commissioning/)**: Step-by-step Stage 4 commissioning checklist.
+- **[Authorized Service Partners](/authorized-service-partners/)**: If installation quality issues arise, the 72-hour RMA SLA applies from day one.
 
-To understand what comes after commissioning - reading your first net-metering bill, what the monitoring app shows, and what is normal in the first monsoon season - [talk to a Qbits engineer](/contact-us/). Most post-installation questions are resolved in a 15-minute WhatsApp call.
+To understand what comes after commissioning (reading your first net-metering bill, what the monitoring app shows, and what is normal in the first monsoon season) [talk to a Qbits engineer](/contact-us/). Most post-installation questions are resolved in a 15-minute WhatsApp call.

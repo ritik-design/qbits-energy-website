@@ -92,7 +92,7 @@ PVsyst input. NOCT or operating temperature model required.
 
 ## NOCT estimation
 
-T_cell ≈ T_ambient + (NOCT - 20) × (Irradiance / 800)
+T_cell ≈ T_ambient + (NOCT, 20) × (Irradiance / 800)
 
 For NOCT = 45°C, ambient = 35°C, irradiance = 900 W/m²:
 T_cell = 35 + (25) × (1.125) = 35 + 28 = 63°C

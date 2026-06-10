@@ -1,5 +1,5 @@
 ---
-title: "Best Bank for Solar Loan in India 2026 - IREDA vs SBI vs HDFC"
+title: "Best Bank for Solar Loan in India 2026, IREDA vs SBI vs HDFC"
 excerpt: "Best solar loan in India 2026: IREDA leads on rate (~7%), SBI on accessibility, HDFC on branch network. Compare all six lenders on five factors before applying."
 description: "IREDA vs SBI vs HDFC vs Canara vs Bank of Baroda for solar loans in India 2026. Ranked comparison table, 5-Factor Scorecard, and step-by-step guidance."
 category: Comparison
@@ -32,13 +32,13 @@ faqs:
     a: "No truly interest-free solar loan exists from mainstream Indian lenders in 2026. However, some state governments (Rajasthan, Gujarat) have offered interest subsidy schemes - where the state pays a portion of interest - under specific state solar programmes. Check your state DISCOM or state renewable energy agency for current schemes. PM Surya Ghar subsidy reduces capital cost but does not directly subsidise interest."
 ---
 
-Solar financing in India has matured considerably. Five years ago, homeowners largely paid cash for rooftop solar or settled for informal dealer instalment schemes. Today, multiple nationalised banks, IREDA, and NBFCs offer formal solar loan products at competitive rates - and the PM Surya Ghar programme has made ₹78,000 in central subsidy accessible to millions of households.
+Solar financing in India has matured considerably. Five years ago, homeowners largely paid cash for rooftop solar or settled for informal dealer instalment schemes. Today, multiple nationalised banks, IREDA, and NBFCs offer formal solar loan products at competitive rates, and the PM Surya Ghar programme has made ₹78,000 in central subsidy accessible to millions of households.
 
 The problem is comparison. Lender websites quote ranges, not numbers. Rates are benchmarked to floating indices. Processing fees are buried in fine print. And the subsidy-compatibility of each product varies. This guide cuts through that noise with a direct, evidence-based ranking of the best solar loans in India in 2026.
 
-> **Direct answer.** IREDA leads on interest rate (~7%) for homeowners accessing it through empanelled vendors, SBI leads on direct branch accessibility, and HDFC leads on processing speed for existing customers. Use the 5-Factor Solar Loan Scorecard below to weigh what matters most in your situation - rate, tenure, processing ease, subsidy compatibility, or service quality.
+> **Direct answer.** IREDA leads on interest rate (~7%) for homeowners accessing it through empanelled vendors, SBI leads on direct branch accessibility, and HDFC leads on processing speed for existing customers. Use the 5-Factor Solar Loan Scorecard below to weigh what matters most in your situation, rate, tenure, processing ease, subsidy compatibility, or service quality.
 
-This post covers all six mainstream lenders - IREDA, SBI, HDFC, Canara Bank, Bank of Baroda, and MSME loan routes - ranked against five factors that determine the true cost and convenience of a solar loan.
+This post covers all six mainstream lenders (IREDA, SBI, HDFC, Canara Bank, Bank of Baroda, and MSME loan routes) ranked against five factors that determine the true cost and convenience of a solar loan.
 
 ## The 5-Factor Solar Loan Scorecard
 
@@ -46,11 +46,11 @@ Before comparing individual lenders, it helps to understand which dimensions act
 
 ### The 5-Factor Solar Loan Scorecard
 
-1. **Interest rate** - The most visible factor. Even a 1% difference on a ₹3 Lakh loan over 10 years saves approximately ₹19,000 in total interest. For larger systems, the saving scales proportionally.
-2. **Tenure available** - Longer tenure reduces monthly EMI, making the loan cash-flow positive from month one if electricity savings exceed EMI. IREDA's 15-year option is the most favourable.
-3. **Processing fee and hidden charges** - A 2% processing fee on ₹5 Lakh adds ₹10,000 upfront. Factor this into the total cost of borrowing, not just the EMI.
-4. **Subsidy compatibility** - All mainstream lenders accept PM Surya Ghar subsidy for prepayment, but some EV-type NBFCs do not. Verify before applying.
-5. **Eligibility ease** - IREDA requires an empanelled vendor intermediary. SBI and HDFC have direct applications but require credit scores ≥ 700–750. Canara Bank and Bank of Baroda tend to be somewhat more flexible on rural applicants.
+1. **Interest rate**: The most visible factor. Even a 1% difference on a ₹3 Lakh loan over 10 years saves approximately ₹19,000 in total interest. For larger systems, the saving scales proportionally.
+2. **Tenure available**: Longer tenure reduces monthly EMI, making the loan cash-flow positive from month one if electricity savings exceed EMI. IREDA's 15-year option is the most favourable.
+3. **Processing fee and hidden charges**: A 2% processing fee on ₹5 Lakh adds ₹10,000 upfront. Factor this into the total cost of borrowing, not just the EMI.
+4. **Subsidy compatibility**: All mainstream lenders accept PM Surya Ghar subsidy for prepayment, but some EV-type NBFCs do not. Verify before applying.
+5. **Eligibility ease**: IREDA requires an empanelled vendor intermediary. SBI and HDFC have direct applications but require credit scores ≥ 700–750. Canara Bank and Bank of Baroda tend to be somewhat more flexible on rural applicants.
 
 Score each lender from 1–5 on each factor, sum to get a total out of 25, and pick the winner for your profile.
 
@@ -63,11 +63,11 @@ IREDA (Indian Renewable Energy Development Agency) is a government-backed Non-Ba
 **Strengths:**
 - Lowest indicative rate: ~7.0% p.a. for retail solar home loans under PM Surya Ghar.
 - Longest tenure: up to 15 years, giving the lowest possible EMI.
-- No branch requirement - loan facilitated through empanelled solar companies.
-- Dedicated solar expertise - underwriters understand the product and its performance.
+- No branch requirement, loan facilitated through empanelled solar companies.
+- Dedicated solar expertise, underwriters understand the product and its performance.
 
 **Limitations:**
-- Indirect access only - homeowners cannot walk into an IREDA office and apply. Must use an empanelled vendor as intermediary.
+- Indirect access only, homeowners cannot walk into an IREDA office and apply. Must use an empanelled vendor as intermediary.
 - Availability limited to PM Surya Ghar empanelled system sizes (1–10 kW residential).
 - Documentation processed through the vendor, which can slow things if the vendor is disorganised.
 
@@ -79,7 +79,7 @@ State Bank of India's Solar Loan product is part of the SBI Green Home Loan / SB
 
 **Strengths:**
 - Competitive rate: ~7.5%–8.0% p.a.
-- Direct individual applications at any SBI branch - no vendor intermediary required.
+- Direct individual applications at any SBI branch, no vendor intermediary required.
 - Wide branch network including Tier-3 and rural branches.
 - Familiarity: millions of Indians already have SBI savings/salary accounts, easing documentation.
 - Tenure up to 10 years.
@@ -113,10 +113,10 @@ HDFC Bank channels solar financing through two products: the Green Home Loan top
 Canara Bank's Solar Power Loan is a dedicated product for residential solar installations, distinct from generic personal loans.
 
 **Strengths:**
-- Rate: ~8.0%–9.5% p.a. - competitive in the public sector bank bracket.
+- Rate: ~8.0%–9.5% p.a., competitive in the public sector bank bracket.
 - Strong presence in South India, rural and semi-urban branches.
 - Accepts a wider range of property documents than private banks.
-- Processing through rural and agricultural branches - accessible to farmers and rural homeowners.
+- Processing through rural and agricultural branches, accessible to farmers and rural homeowners.
 - Canara Bank participates in NABARD schemes for agricultural solar.
 
 **Limitations:**
@@ -131,8 +131,8 @@ Canara Bank's Solar Power Loan is a dedicated product for residential solar inst
 Bank of Baroda has a solar loan product under its home loan and personal loan portfolio, with rates broadly in line with SBI.
 
 **Strengths:**
-- Rate: ~8.5%–10% p.a. - similar to HDFC Green Home Loan.
-- Strong presence in Gujarat and Rajasthan - high-solar-adoption states.
+- Rate: ~8.5%–10% p.a., similar to HDFC Green Home Loan.
+- Strong presence in Gujarat and Rajasthan, high-solar-adoption states.
 - Participates in state government solar subsidy schemes in these states.
 - Tenure up to 10 years for secured products.
 
@@ -145,16 +145,16 @@ Bank of Baroda has a solar loan product under its home loan and personal loan po
 
 ### MSME Loans: Best for Small Commercial Establishments
 
-For commercial solar installations - shops, restaurants, clinics, small factories - MSME loans under the CGTMSE guarantee scheme offer collateral-free financing up to ₹2 crore.
+For commercial solar installations (shops, restaurants, clinics, small factories) MSME loans under the CGTMSE guarantee scheme offer collateral-free financing up to ₹2 crore.
 
 **Strengths:**
 - Collateral-free for qualifying businesses (CGTMSE guarantee covers the risk).
 - Applicable for systems sized from 5 kW to 100 kW.
 - Can be combined with accelerated depreciation benefit (40% in Year 1 under Income Tax Act).
-- Most banks - SBI, Canara, Bank of Baroda, HDFC - offer MSME solar financing.
+- Most banks (SBI, Canara, Bank of Baroda, HDFC) offer MSME solar financing.
 
 **Limitations:**
-- Not available to individuals (homeowners) - only to registered business entities (sole proprietors with GST registration, partnerships, companies).
+- Not available to individuals (homeowners), only to registered business entities (sole proprietors with GST registration, partnerships, companies).
 - Higher documentation requirement: business registration, GST returns, project report.
 - Rate: 8%–12% depending on the bank and CGTMSE fee.
 
@@ -206,23 +206,23 @@ The IREDA 15-year option has the lowest EMI (₹2,696), making it cash-flow-posi
 
 Most homeowners who end up with a suboptimal loan make the same few errors:
 
-- **Applying to the first bank they encounter** without comparing rates - the difference between IREDA's 7% and HDFC Personal Loan's 14% is ₹80,000+ in interest on a ₹3 Lakh, 5-year loan.
-- **Not checking subsidy compatibility** - some fintech solar EMI products (buy-now-pay-later schemes) are not compatible with PM Surya Ghar subsidy processing, since the DISCOM requires a formal vendor invoice.
-- **Ignoring tenure impact** - a shorter tenure reduces total interest but increases EMI. If the EMI exceeds monthly electricity savings, the solar system is cash-flow negative until the loan is paid off.
-- **Not accounting for prepayment** - the PM Surya Ghar subsidy is credited 30–90 days post-installation. Most lenders allow lump-sum prepayment. Plan for this explicitly in your loan structure.
-- **Choosing an unempanelled vendor to save ₹5,000 on system cost** - this blocks access to IREDA rates and PM Surya Ghar subsidy. The savings evaporate against the rate penalty.
+- **Applying to the first bank they encounter** without comparing rates, the difference between IREDA's 7% and HDFC Personal Loan's 14% is ₹80,000+ in interest on a ₹3 Lakh, 5-year loan.
+- **Not checking subsidy compatibility**: some fintech solar EMI products (buy-now-pay-later schemes) are not compatible with PM Surya Ghar subsidy processing, since the DISCOM requires a formal vendor invoice.
+- **Ignoring tenure impact**: a shorter tenure reduces total interest but increases EMI. If the EMI exceeds monthly electricity savings, the solar system is cash-flow negative until the loan is paid off.
+- **Not accounting for prepayment**: the PM Surya Ghar subsidy is credited 30–90 days post-installation. Most lenders allow lump-sum prepayment. Plan for this explicitly in your loan structure.
+- **Choosing an unempanelled vendor to save ₹5,000 on system cost**: this blocks access to IREDA rates and PM Surya Ghar subsidy. The savings evaporate against the rate penalty.
 
 For a broader comparison of all financing options including RESCO and zero-cost models, read the [inverter financing options in India](/blog/inverter-financing-options-in-india/) overview.
 
 ## How to Apply for the Best Solar Loan in India: Step-by-Step
 
-1. **Determine system size** - get a rooftop assessment from an empanelled vendor. System cost, subsidy amount, and net loan requirement depend on this number.
-2. **Check PM Surya Ghar eligibility** - visit the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) and confirm your DISCOM is participating. Subsidy integration reduces the effective loan size.
-3. **Compare rates** - use the lender table above. Contact IREDA (via empanelled vendor), SBI (nearest branch), and HDFC (app or branch) for current offers.
-4. **Run the 5-Factor Scorecard** - score each lender on rate, tenure, fees, subsidy compatibility, and eligibility ease for your specific profile.
-5. **Gather documents** - KYC, income proof, property documents (for secured loans), and vendor quotation with GST details.
-6. **Apply and fast-track** - once the lender is selected, follow up weekly on processing status. Typical timelines: IREDA 15–30 days via vendor; SBI 10–20 days; HDFC Green 10–15 days; HDFC Personal 2–5 days.
-7. **Use subsidy for prepayment** - once the subsidy lands, prepay immediately to reduce outstanding principal and shorten effective loan period.
+1. **Determine system size**: get a rooftop assessment from an empanelled vendor. System cost, subsidy amount, and net loan requirement depend on this number.
+2. **Check PM Surya Ghar eligibility**: visit the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) and confirm your DISCOM is participating. Subsidy integration reduces the effective loan size.
+3. **Compare rates**: use the lender table above. Contact IREDA (via empanelled vendor), SBI (nearest branch), and HDFC (app or branch) for current offers.
+4. **Run the 5-Factor Scorecard**: score each lender on rate, tenure, fees, subsidy compatibility, and eligibility ease for your specific profile.
+5. **Gather documents**: KYC, income proof, property documents (for secured loans), and vendor quotation with GST details.
+6. **Apply and fast-track**: once the lender is selected, follow up weekly on processing status. Typical timelines: IREDA 15–30 days via vendor; SBI 10–20 days; HDFC Green 10–15 days; HDFC Personal 2–5 days.
+7. **Use subsidy for prepayment**: once the subsidy lands, prepay immediately to reduce outstanding principal and shorten effective loan period.
 
 > **Key fact.** The PM Surya Ghar Muft Bijli Yojana received over 1.3 crore registrations within its first 12 months of launch, indicating mainstream awareness of solar financing and subsidy integration. *Source - [PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2025.*
 
@@ -230,13 +230,13 @@ For homeowners on EMI specifically, read the [solar on EMI guide](/blog/solar-on
 
 ## Where Qbits Fits
 
-The best solar loan saves money only if the solar system it finances performs reliably for the duration of the loan. A homeowner repaying an IREDA loan for 15 years needs an inverter that lasts at least that long - or comes with a warranty that covers the gap.
+The best solar loan saves money only if the solar system it finances performs reliably for the duration of the loan. A homeowner repaying an IREDA loan for 15 years needs an inverter that lasts at least that long, or comes with a warranty that covers the gap.
 
 Qbits inverters carry a 12-year full replacement warranty, IP66 weather protection, BIS and ALMM compliance (required for PM Surya Ghar subsidy eligibility), and AI-powered WhatsApp monitoring that catches performance drops before they become revenue losses. For a system financed through a government solar loan, these attributes directly protect the investment and ensure the electricity savings that justify the loan repayment continue year after year.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - ALMM-listed TLS and TLD series from 1.5 kW to 50 kW; mandatory for PM Surya Ghar subsidy claims.
-- **[Hybrid Inverters](/hybrid-inverter/)** - HS and HT series for households in power-cut zones who need battery backup alongside grid connection.
-- **[String Sizing Calculator](/string-sizing-calculator/)** - confirm panel-string compatibility before the vendor finalises the BOM and quotes.
-- **[Authorised Service Partners](/authorized-service-partners/)** - nationwide service network with 72-hour RMA SLA for the loan tenure and beyond.
+- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed TLS and TLD series from 1.5 kW to 50 kW; mandatory for PM Surya Ghar subsidy claims.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for households in power-cut zones who need battery backup alongside grid connection.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel-string compatibility before the vendor finalises the BOM and quotes.
+- **[Authorised Service Partners](/authorized-service-partners/)**: nationwide service network with 72-hour RMA SLA for the loan tenure and beyond.
 
-[Request a quote](/contact-us/) with your system size, location, and preferred lender - Qbits can advise on ALMM-compliant configurations that meet PM Surya Ghar requirements and qualify for the best available loan rates.
+[Request a quote](/contact-us/) with your system size, location, and preferred lender, Qbits can advise on ALMM-compliant configurations that meet PM Surya Ghar requirements and qualify for the best available loan rates.

@@ -1,5 +1,5 @@
 ---
-title: "Solar for Apartment Complex (RWA) India - How It Works"
+title: "Solar for Apartment Complex (RWA) India, How It Works"
 excerpt: "Solar for apartment complex India: common area solar (lift, lights, pumps) is straightforward with a single connection; individual flat solar requires separate applications per unit. RWA guide inside."
 description: "How solar works for apartment complexes and RWAs in India. Common area vs individual flat models, DISCOM rules for group housing, RWA approval, and the Maharashtra net metering framework."
 category: Buying Guide
@@ -34,7 +34,7 @@ When a homeowner in a standalone villa decides to go solar, the process is relat
 
 The good news is that both common area solar and individual flat solar are viable and increasingly well-supported by state DISCOMs across India. The bad news is that the process varies significantly by state, building type, and DISCOM. This guide maps both paths clearly.
 
-> **Direct answer.** Apartment complex solar in India operates through two distinct models: (1) common area solar - one system on one meter for lifts, lighting, and pumps - which is straightforward and reduces monthly maintenance charges; and (2) individual flat solar - each flat applies separately for their own net metering connection. Maharashtra has the most advanced virtual net metering framework for group housing. Use the RWA Solar Decision Framework in this guide to identify the right model for your society.
+> **Direct answer.** Apartment complex solar in India operates through two distinct models: (1) common area solar (one system on one meter for lifts, lighting, and pumps) which is straightforward and reduces monthly maintenance charges; and (2) individual flat solar, each flat applies separately for their own net metering connection. Maharashtra has the most advanced virtual net metering framework for group housing. Use the RWA Solar Decision Framework in this guide to identify the right model for your society.
 
 ## Understanding the Two Models: Common Area vs Individual Flat
 
@@ -42,13 +42,13 @@ Every apartment complex solar decision begins with a fundamental question: is th
 
 ### Model 1: Common Area Solar
 
-**How it works:** The RWA installs a rooftop solar system - typically 10–50 kW - connected directly to the society's common electricity meter (the meter that pays for lift power, corridor lighting, water pump, gate CCTV, and parking lights). The solar system generates electricity during the day; the common meter draws less from the grid.
+**How it works:** The RWA installs a rooftop solar system (typically 10–50 kW) connected directly to the society's common electricity meter (the meter that pays for lift power, corridor lighting, water pump, gate CCTV, and parking lights). The solar system generates electricity during the day; the common meter draws less from the grid.
 
 **Advantages:**
-- Simple single-connection process - one DISCOM application, one meter, one net metering connection.
-- Full RWA authority - no individual flat owner needs to be involved in decision-making beyond the managing committee resolution.
-- Immediate and transparent benefit - reduction in society's electricity bill directly reduces maintenance charges.
-- No roof allocation complexity - the entire usable roof is available for common area solar.
+- Simple single-connection process, one DISCOM application, one meter, one net metering connection.
+- Full RWA authority, no individual flat owner needs to be involved in decision-making beyond the managing committee resolution.
+- Immediate and transparent benefit, reduction in society's electricity bill directly reduces maintenance charges.
+- No roof allocation complexity, the entire usable roof is available for common area solar.
 
 **Limitations:**
 - Individual flat owners do not directly benefit on their own electricity bills.
@@ -65,8 +65,8 @@ Every apartment complex solar decision begins with a fundamental question: is th
 - Can be done by individual flat owners independently without waiting for full society consensus.
 
 **Limitations:**
-- Requires individual DISCOM applications - many DISCOMs have not yet operationalised individual flat net metering in multi-storey buildings.
-- Roof access complexity - if the terrace is common property, RWA NOC is required.
+- Requires individual DISCOM applications, many DISCOMs have not yet operationalised individual flat net metering in multi-storey buildings.
+- Roof access complexity, if the terrace is common property, RWA NOC is required.
 - Long DC cable runs from terrace panels to flat meter (can be 30–100 metres).
 - Panel allocation on a shared terrace requires clear demarcation to avoid disputes.
 
@@ -97,12 +97,12 @@ Apply this four-step framework to identify the optimal solar approach for your s
 Maharashtra has the most developed regulatory framework for group housing solar in India, making it the reference model for how other states should evolve.
 
 **Maharashtra's Key Provisions:**
-- [Virtual net metering](/glossary/virtual-net-metering/) is permitted - a common area solar system's generation can be credited across multiple flat owner meters in proportion.
+- [Virtual net metering](/glossary/virtual-net-metering/) is permitted, a common area solar system's generation can be credited across multiple flat owner meters in proportion.
 - MSEDCL (Maharashtra State Electricity Distribution Co.) has published procedures for group housing net metering.
 - Individual flat owners in multi-storey buildings can apply for PM Surya Ghar with their individual consumer numbers.
 - Residential group housing societies are specifically addressed in MERC's (Maharashtra Electricity Regulatory Commission) net metering orders.
 
-Under Maharashtra's virtual net metering framework, a 50-flat society can install a 30 kW rooftop system on the common area and distribute the savings - roughly 15,000 units/month - across all 50 flats' individual meters in proportion to their ownership share or maintenance contribution.
+Under Maharashtra's virtual net metering framework, a 50-flat society can install a 30 kW rooftop system on the common area and distribute the savings (roughly 15,000 units/month) across all 50 flats' individual meters in proportion to their ownership share or maintenance contribution.
 
 > **Policy reference.** MERC's Electricity Supply Code and various amendments have progressively expanded net metering eligibility for group housing societies. The [MNRE Net Metering Guidelines](https://mnre.gov.in/) provide the national framework, while state electricity regulatory commissions (SERCs) implement state-specific variations. *Source - [MNRE](https://mnre.gov.in/), 2025.*
 
@@ -121,9 +121,9 @@ Common area load analysis for a representative 100-flat high-rise:
 | Common area AC (lobby) | 5 kW | 10 hrs | 50 kWh |
 | **Total common area** | | | **501 kWh/day** |
 
-At ₹8/unit, this is ₹4,008/day - approximately ₹1.46 Lakh/month.
+At ₹8/unit, this is ₹4,008/day, approximately ₹1.46 Lakh/month.
 
-A 30 kW rooftop solar system generating 5 PSH/day = 150 kWh/day covers approximately 30% of common area consumption. At ₹8/unit, this saves ₹1,200/day - roughly ₹43,800/month.
+A 30 kW rooftop solar system generating 5 PSH/day = 150 kWh/day covers approximately 30% of common area consumption. At ₹8/unit, this saves ₹1,200/day, roughly ₹43,800/month.
 
 For a 100-flat society, this translates to approximately ₹438 per flat per month in maintenance reduction.
 
@@ -151,7 +151,7 @@ The society applies for net metering under the common area consumer number. Subm
 Installation typically takes 5–10 days for a 30–50 kW system. DISCOM inspection occurs before the bidirectional meter is installed. Generation begins immediately after commissioning.
 
 **Step 6: Bill reconciliation and maintenance charge revision**
-Once the system is operational, the society's common electricity bill reduces. The savings should be reflected in a revised maintenance charge schedule - typically reviewed quarterly.
+Once the system is operational, the society's common electricity bill reduces. The savings should be reflected in a revised maintenance charge schedule, typically reviewed quarterly.
 
 ## ROI and Financial Impact for RWA Members
 
@@ -159,28 +159,28 @@ Beyond the common area savings, apartment solar creates longer-term financial be
 
 - **Property value impact:** Green building certification and energy-independent common areas are increasingly cited as value differentiators in the Indian residential market. A solar-equipped society has a measurable advantage in the resale and rental market.
 - **Maintenance charge reduction:** A 30 kW system saving ₹36,000/month translates directly to reduced maintenance demands. For a 100-flat society with ₹2,500/flat monthly maintenance, this is a 14% reduction in the electricity component.
-- **Carbon credit potential:** Societies with documented solar generation can apply for voluntary carbon credits through VERRA or Gold Standard frameworks - an emerging revenue stream for larger residential complexes.
+- **Carbon credit potential:** Societies with documented solar generation can apply for voluntary carbon credits through VERRA or Gold Standard frameworks, an emerging revenue stream for larger residential complexes.
 
 [JMK Research's report on residential solar market trends](https://jmkresearch.com/){target="_blank" rel="noopener"} identifies apartment complex and RWA solar as the fastest-growing segment of residential solar in India, growing at 60%+ annually from 2022 to 2025 as DISCOM frameworks evolve. [IRENA's 2025 renewable energy and buildings report](https://www.irena.org/Energy-Transition/Technology/Solar-energy){target="_blank" rel="noopener"} documents that multi-family residential buildings in Asia-Pacific have among the highest solar ROI potential given shared infrastructure and large roof-to-occupant ratios. [IEA's India energy transition tracking data](https://www.iea.org/countries/india){target="_blank" rel="noopener"} confirms that residential and commercial solar adoption in India is accelerating, with rooftop solar growing at 30%+ CAGR from 2022 to 2025.
 
 ## Common Mistakes in RWA Solar Projects
 
-- **Not consulting the DISCOM first** - some DISCOMs have a queue for new net metering connections or specific documentation requirements. Starting installation before DISCOM approval can result in the system being unable to connect to the grid.
-- **Choosing minimum roof space** - societies often leave a 20–30% buffer from the maximum possible system size due to caution, then regret not installing more when bills remain high after partial solar coverage.
-- **No reserve fund for maintenance** - the solar system requires periodic cleaning (₹1,000–₹3,000/month) and eventual inverter replacement (Year 12–15). Societies should set aside 5–10% of annual savings for maintenance.
-- **Not exploring PM Surya Ghar for individual flats** - common area solar is the easy path, but flat owners on upper floors with terrace rights may qualify for individual PM Surya Ghar subsidy on top of the common area system.
+- **Not consulting the DISCOM first**: some DISCOMs have a queue for new net metering connections or specific documentation requirements. Starting installation before DISCOM approval can result in the system being unable to connect to the grid.
+- **Choosing minimum roof space**: societies often leave a 20–30% buffer from the maximum possible system size due to caution, then regret not installing more when bills remain high after partial solar coverage.
+- **No reserve fund for maintenance**: the solar system requires periodic cleaning (₹1,000–₹3,000/month) and eventual inverter replacement (Year 12–15). Societies should set aside 5–10% of annual savings for maintenance.
+- **Not exploring PM Surya Ghar for individual flats**: common area solar is the easy path, but flat owners on upper floors with terrace rights may qualify for individual PM Surya Ghar subsidy on top of the common area system.
 
 For the full PM Surya Ghar process, read the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/).
 
 ## Where Qbits Fits
 
-Apartment complex solar requires an inverter brand that delivers consistent performance over the 12–15 year life of a common area system - because managing committee members change, the original installer may not be available, and a failed inverter on a common area system affects 50–500 households simultaneously.
+Apartment complex solar requires an inverter brand that delivers consistent performance over the 12–15 year life of a common area system, because managing committee members change, the original installer may not be available, and a failed inverter on a common area system affects 50–500 households simultaneously.
 
-Qbits inverters carry a 12-year full replacement warranty backed by a nationwide service partner network - ensuring that when the common area inverter needs attention, an authorised engineer is available in any of 280+ cities within 72 hours. The AI WhatsApp monitoring sends monthly generation reports to the society's nominated WhatsApp number, making performance visibility effortless for a volunteer managing committee.
+Qbits inverters carry a 12-year full replacement warranty backed by a nationwide service partner network, ensuring that when the common area inverter needs attention, an authorised engineer is available in any of 280+ cities within 72 hours. The AI WhatsApp monitoring sends monthly generation reports to the society's nominated WhatsApp number, making performance visibility effortless for a volunteer managing committee.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - TLS series from 5 kW to 50 kW for common area solar applications.
-- **[Hybrid Inverters](/hybrid-inverter/)** - for societies that want battery backup for lift and security systems during grid outages.
-- **[String Sizing Calculator](/string-sizing-calculator/)** - confirm the inverter-string configuration for the available rooftop area.
-- **[Authorised Service Partners](/authorized-service-partners/)** - service coverage for warranty and post-installation maintenance across India.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS series from 5 kW to 50 kW for common area solar applications.
+- **[Hybrid Inverters](/hybrid-inverter/)**: for societies that want battery backup for lift and security systems during grid outages.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: confirm the inverter-string configuration for the available rooftop area.
+- **[Authorised Service Partners](/authorized-service-partners/)**: service coverage for warranty and post-installation maintenance across India.
 
-[Request a rooftop solar proposal for your society](/contact-us/) - Qbits provides full support including DISCOM documentation guidance, net metering application, and multi-storey installation experience.
+[Request a rooftop solar proposal for your society](/contact-us/), Qbits provides full support including DISCOM documentation guidance, net metering application, and multi-storey installation experience.

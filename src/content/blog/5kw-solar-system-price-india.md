@@ -1,5 +1,5 @@
 ---
-title: "5kW Solar System Price in India 2026 - Complete Cost"
+title: "5kW Solar System Price in India 2026, Complete Cost"
 excerpt: "5kW solar system price in India ranges from ₹2,40,000 to ₹3,50,000 before subsidy. After PM Surya Ghar subsidy (capped at ₹78,000 for >3kW), net cost is ₹1,62,000–₹2,72,000. Full breakdown."
 description: "Complete 5kW solar system cost in India 2026: on-grid vs hybrid price difference, PM Surya Ghar subsidy, panel/inverter/BOS breakdown, payback period, and which Qbits inverter fits a 5kW system."
 category: "Buying Guide"
@@ -34,21 +34,21 @@ faqs:
     a: "Yes. A 5kW solar system can run a 2-ton inverter air conditioner (which draws approximately 1,700 to 2,000 watts at steady state) plus other household loads simultaneously. During peak solar hours from 10 AM to 3 PM, a 5kW system can comfortably power the AC, refrigerator, water pump, fans, and lights without drawing from the grid. Evening and night loads are covered by the grid (on-grid) or battery (hybrid)."
 ---
 
-After a ₹5,000 electricity bill, you have started researching solar seriously. The 5kW system keeps appearing in quotes, and Google confirms it is the highest-searched residential solar size in India. But the price range you are seeing - ₹2.4 lakh to ₹3.5 lakh - spans a ₹1.1 lakh gap. What explains that difference, and what does a 5kW system actually buy you?
+After a ₹5,000 electricity bill, you started looking at solar seriously. 5kW keeps showing up in quotes. Google confirms it's the most-searched residential solar size in India. But the price range, ₹2.4 lakh to ₹3.5 lakh, spans ₹1.1 lakh. What explains that gap, and what does a 5kW system actually buy you?
 
-This guide answers both questions. It applies the **True Cost of Going Solar** framework to a 5kW system, breaks down on-grid versus hybrid cost differences, explains exactly what the PM Surya Ghar subsidy is (and is not) for systems above 3kW, and tells you which Qbits inverter SKU fits a 5kW installation.
+This guide answers both. It applies the **True Cost of Going Solar** framework to 5kW, breaks down on-grid vs hybrid cost gaps, explains what the PM Surya Ghar subsidy actually pays for above 3kW, and tells you which Qbits inverter SKU fits.
 
-> **Direct answer.** A 5kW on-grid solar system costs ₹2,40,000 to ₹3,00,000 gross in India in 2026. A 5kW hybrid system costs ₹3,00,000 to ₹3,80,000. After the PM Surya Ghar central subsidy of ₹78,000 (capped at this level regardless of system size above 3kW), net outlay is ₹1,62,000 to ₹2,22,000 for on-grid. At ₹7 per unit and 23 kWh/day, payback lands in 3 to 5 years. Use the **True Cost of Going Solar** framework to verify every line item before signing.
+**Short version.** A 5kW on-grid system costs ₹2,40,000 to ₹3,00,000 gross in India in 2026. A 5kW hybrid runs ₹3,00,000 to ₹3,80,000. After the ₹78,000 PM Surya Ghar subsidy (capped at this level for any system above 3kW), net outlay is ₹1,62,000 to ₹2,22,000 for on-grid. At ₹7/unit and 23 kWh/day, payback lands in 3 to 5 years. The framework below verifies every line item before you sign.
 
-## The True Cost of Going Solar - 5kW Edition
+## The True Cost of Going Solar: 5kW Edition
 
 The **True Cost of Going Solar** framework breaks every solar project into five components. For a 5kW system, here is what each component looks like:
 
-1. **Solar panels (₹/Wp)** - At 5,000 Wp, panels represent the single largest cost. Quality monocrystalline PERC panels cost ₹22–₹26/Wp; TOPCon panels run ₹26–₹30/Wp. Panel cost for a 5kW system: ₹1,10,000 to ₹1,50,000.
-2. **Inverter** - A 5kW on-grid string inverter costs ₹28,000 to ₹55,000. A 5kW hybrid inverter costs ₹50,000 to ₹90,000. The gap is wide because hybrid inverters carry built-in charge controllers, battery management interfaces, and transfer switches.
-3. **Balance of System (BOS)** - Mounting structure, DC/AC cabling, junction boxes, surge protectors, earthing system, and net meter interface. For a 5kW system: ₹30,000 to ₹50,000.
-4. **Installation and commissioning** - Labour, civil work, DISCOM net metering application, and commissioning inspection. For a 5kW system: ₹18,000 to ₹30,000.
-5. **GST** - 12% on panels, 12–18% on inverters and BOS. Total GST contribution on a 5kW system: ₹22,000 to ₹36,000.
+1. **Solar panels (₹/Wp)**: At 5,000 Wp, panels represent the single largest cost. Quality monocrystalline PERC panels cost ₹22–₹26/Wp; TOPCon panels run ₹26–₹30/Wp. Panel cost for a 5kW system: ₹1,10,000 to ₹1,50,000.
+2. **Inverter**: A 5kW on-grid string inverter costs ₹28,000 to ₹55,000. A 5kW hybrid inverter costs ₹50,000 to ₹90,000. The gap is wide because hybrid inverters carry built-in charge controllers, battery management interfaces, and transfer switches.
+3. **Balance of System (BOS)**: Mounting structure, DC/AC cabling, junction boxes, surge protectors, earthing system, and net meter interface. For a 5kW system: ₹30,000 to ₹50,000.
+4. **Installation and commissioning**: Labour, civil work, DISCOM net metering application, and commissioning inspection. For a 5kW system: ₹18,000 to ₹30,000.
+5. **GST**: 12% on panels, 12–18% on inverters and BOS. Total GST contribution on a 5kW system: ₹22,000 to ₹36,000.
 
 The full cost table across configurations:
 
@@ -65,11 +65,11 @@ The full cost table across configurations:
 
 *Practical quotations include installer margin, freight, and documentation fees, typically pushing gross totals to ₹2,40,000–₹3,50,000 for on-grid and ₹3,00,000–₹3,80,000 for hybrid.*
 
-> **₹78,000.** The central subsidy under PM Surya Ghar Muft Bijli Yojana for a 5kW residential system - identical to the 3kW amount. The 4th and 5th kW attract no additional central subsidy, making 3kW the most subsidy-efficient size. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
+> **₹78,000.** The central subsidy under PM Surya Ghar Muft Bijli Yojana for a 5kW residential system, identical to the 3kW amount. The 4th and 5th kW attract no additional central subsidy, making 3kW the most subsidy-efficient size. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
 
 For full GST rate details on each component, read the [GST on solar inverters and systems guide](/blog/gst-on-solar-inverters-2026/).
 
-## On-Grid vs Hybrid 5kW - Which Makes Financial Sense?
+## On-Grid vs Hybrid 5kW: Which Makes Financial Sense?
 
 This is the single most important decision in a 5kW purchase. The on-grid vs hybrid choice affects not just cost but payback period, subsidy eligibility, and long-term utility.
 
@@ -117,7 +117,7 @@ A 5kW system in central India generates 22 to 27 kWh/day. The gap between ~29 kW
 
 For the inverter sizing specifics and which Qbits SKU pairs with a 5kW system, the [best 5kW solar inverter guide for India](/blog/best-5kw-solar-inverter-india-2026/) gives a brand-by-brand comparison.
 
-## PM Surya Ghar Subsidy for 5kW - The Important Nuance
+## PM Surya Ghar Subsidy for 5kW: The Important Nuance
 
 Many buyers assume the subsidy scales linearly with system size. It does not. The slab structure is:
 
@@ -128,9 +128,9 @@ Many buyers assume the subsidy scales linearly with system size. It does not. Th
 | 4th, 5th kW and above | ₹0 additional |
 | Maximum per household | ₹78,000 |
 
-This means installing a 5kW system gives you exactly the same central subsidy as a 3kW system - ₹78,000. If your household can manage on 3kW, the 3kW system offers a better subsidy-to-cost ratio. If your consumption genuinely requires 5kW, then proceed - the generation benefit outweighs the lack of additional subsidy.
+This means installing a 5kW system gives you exactly the same central subsidy as a 3kW system - ₹78,000. If your household can manage on 3kW, the 3kW system offers a better subsidy-to-cost ratio. If your consumption genuinely requires 5kW, then proceed, the generation benefit outweighs the lack of additional subsidy.
 
-Check state-level top-up subsidies, which vary by state - some states like [Gujarat](/blog/solar-subsidy-gujarat-2026/) offer additional amounts on top of the central subsidy.
+Check state-level top-up subsidies, which vary by state, some states like [Gujarat](/blog/solar-subsidy-gujarat-2026/) offer additional amounts on top of the central subsidy.
 
 For the complete PM Surya Ghar application and eligibility process, read the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/).
 
@@ -170,19 +170,19 @@ For homes with three-phase supply (typically larger villas and bungalows), the H
 
 ## Common Mistakes When Buying a 5kW System
 
-- **Choosing a non-ALMM-listed inverter** - Costs you ₹78,000 in lost subsidy. Always verify ALMM listing at the [MNRE ALMM portal](https://mnre.gov.in/almm-list/) before purchase. India's ALMM Phase III has made compliance mandatory for subsidy-eligible installations.
-- **Undersizing the mounting structure** - A 5kW system carries 10+ panels weighing 250+ kg. Use a structural-load-rated mounting frame, especially on RCC terraces.
-- **Not checking dual-MPPT need** - If your panels face two different orientations (east and west, or roofs at different tilts), a dual-MPPT inverter extracts significantly more energy than single-MPPT. The [dual MPPT vs single MPPT guide](/blog/dual-mppt-vs-single-mppt/) covers this.
-- **Ignoring the net metering application timeline** - DISCOM net meter application can take 30 to 90 days in some states. During this period, surplus solar is wasted. Apply on the day of commissioning.
-- **Not accounting for panel degradation** - All panels degrade approximately 0.5–0.7% per year. At year 25, a 5kW system generates ~85% of its initial output. Factor this into payback calculations. Research from [NREL on solar panel degradation rates](https://www.nrel.gov/){target="_blank" rel="noopener"} confirms median degradation of 0.5% per year globally, with Indian high-temperature conditions slightly accelerating this rate. The [MNRE solar radiation atlas](https://mnre.gov.in/){target="_blank" rel="noopener"} provides state-level peak sun hour data for accurate generation estimates.
+- **Choosing a non-ALMM-listed inverter**: Costs you ₹78,000 in lost subsidy. Always verify ALMM listing at the [MNRE ALMM portal](https://mnre.gov.in/almm-list/) before purchase. India's ALMM Phase III has made compliance mandatory for subsidy-eligible installations.
+- **Undersizing the mounting structure**: A 5kW system carries 10+ panels weighing 250+ kg. Use a structural-load-rated mounting frame, especially on RCC terraces.
+- **Not checking dual-MPPT need**: If your panels face two different orientations (east and west, or roofs at different tilts), a dual-MPPT inverter extracts significantly more energy than single-MPPT. The [dual MPPT vs single MPPT guide](/blog/dual-mppt-vs-single-mppt/) covers this.
+- **Ignoring the net metering application timeline**: DISCOM net meter application can take 30 to 90 days in some states. During this period, surplus solar is wasted. Apply on the day of commissioning.
+- **Not accounting for panel degradation**: All panels degrade approximately 0.5–0.7% per year. At year 25, a 5kW system generates ~85% of its initial output. Factor this into payback calculations. Research from [NREL on solar panel degradation rates](https://www.nrel.gov/){target="_blank" rel="noopener"} confirms median degradation of 0.5% per year globally, with Indian high-temperature conditions slightly accelerating this rate. The [MNRE solar radiation atlas](https://mnre.gov.in/){target="_blank" rel="noopener"} provides state-level peak sun hour data for accurate generation estimates.
 
 ## Where Qbits Fits
 
-The 5kW homeowner looking for maximum warranty protection, real service support, and AI-powered monitoring in a Made-in-India inverter lands on Qbits. The TLD-5000 and HS-5000 carry a 12-year full replacement warranty - the longest in the residential category - and are backed by a <72-hour RMA SLA via the Qbits authorised service partner network across 280+ Indian cities.
+The 5kW homeowner looking for maximum warranty protection, real service support, and AI-powered monitoring in a Made-in-India inverter lands on Qbits. The TLD-5000 and HS-5000 carry a 12-year full replacement warranty (the longest in the residential category) and are backed by a <72-hour RMA SLA via the Qbits authorised service partner network across 280+ Indian cities.
 
-- **[On-Grid Inverters](/on-grid-inverter/)** - TLS and TLD series from 1.5kW to 50kW, ALMM-listed, subsidy-eligible.
-- **[Hybrid Inverters](/hybrid-inverter/)** - HS and HT series with battery readiness and reliable outage backup.
-- **[String Sizing Calculator](/string-sizing-calculator/)** - 60-second tool to verify your 5kW panel-string configuration before ordering.
-- **[Authorised Service Partners](/authorized-service-partners/)** - Pincode-searchable network for local support within 72 hours.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5kW to 50kW, ALMM-listed, subsidy-eligible.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness and reliable outage backup.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: 60-second tool to verify your 5kW panel-string configuration before ordering.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable network for local support within 72 hours.
 
-Request a free site survey and quote with your latest electricity bill at [contact-us](/contact-us/) - Qbits engineers confirm roof suitability and exact SKU within one business day.
+Request a free site survey and quote with your latest electricity bill at [contact-us](/contact-us/), Qbits engineers confirm roof suitability and exact SKU within one business day.

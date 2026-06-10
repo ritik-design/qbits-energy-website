@@ -90,7 +90,7 @@ PLI alignment. Customs duty + PLI scheme = comprehensive industrial policy.
 
 ALMM relevance. Indian ALMM modules avoid the duty.
 
-Pricing of Indian modules. Domestic prices can rise to imports - duty without losing competitiveness.
+Pricing of Indian modules. Domestic prices can rise to imports, duty without losing competitiveness.
 
 ## Total import burden calculation
 

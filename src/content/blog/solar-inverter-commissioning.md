@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Commissioning: Complete Setup Guide (2026)"
 excerpt: "Commissioning transforms installations into fully functional energy systems. The 7-step protocol determines optimal efficiency from day one and prevents performance issues."
-description: "Comprehensive 7-step solar inverter commissioning protocol - pre-commissioning preparation, electrical testing, system configuration, monitoring setup, performance testing, and warranty-compliant documentation."
+description: "Comprehensive 7-step solar inverter commissioning protocol, pre-commissioning preparation, electrical testing, system configuration, monitoring setup, performance testing, and warranty-compliant documentation."
 category: "Guide"
 date: 2026-04-04
 readTime: "9 min"
@@ -139,4 +139,4 @@ Solar inverter commissioning transforms installations into fully functional ener
 
 ## Closing
 
-Proper inverter commissioning is the foundation of every successful solar installation. The 7-step protocol - preparation, verification, electrical testing, configuration, monitoring, performance testing, handover - turns equipment into a 25-year asset and protects warranty coverage that may save lakhs over the system's life.
+Proper inverter commissioning is the foundation of every successful solar installation. The 7-step protocol (preparation, verification, electrical testing, configuration, monitoring, performance testing, handover) turns equipment into a 25-year asset and protects warranty coverage that may save lakhs over the system's life.

@@ -1,7 +1,7 @@
 ---
 title: "Inverter Overheating: 18 Critical Questions Answered"
-excerpt: "Indian rooftop temperatures regularly exceed 45°C, pushing inverters into thermal derating and shutdown. This guide answers the 18 most common questions on solar inverter overheating - causes, warning signs, and prevention."
-description: "Complete guide to solar inverter overheating in India - causes, thermal derating thresholds, warning signs, prevention strategies, IP66 weather protection, and how to select inverters that resist 50°C+ ambient conditions."
+excerpt: "Indian rooftop temperatures regularly exceed 45°C, pushing inverters into thermal derating and shutdown. This guide answers the 18 most common questions on solar inverter overheating, causes, warning signs, and prevention."
+description: "Complete guide to solar inverter overheating in India, causes, thermal derating thresholds, warning signs, prevention strategies, IP66 weather protection, and how to select inverters that resist 50°C+ ambient conditions."
 category: "Maintenance"
 date: 2026-04-04
 readTime: "10 min"
@@ -87,7 +87,7 @@ Unshaded inverters absorb radiant heat, raising surface temperatures **20–30°
 
 ### Power Derating and Efficiency Losses
 
-A **100 kW system** with 20% derating for 3–4 hours daily loses **15,000–20,000 kWh annually** - equivalent to **₹1.05–1.8 lakhs** in lost revenue.
+A **100 kW system** with 20% derating for 3–4 hours daily loses **15,000–20,000 kWh annually**: equivalent to **₹1.05–1.8 lakhs** in lost revenue.
 
 Efficiency decreases **0.3–0.5% per 10°C** temperature increase. A 98% efficient unit at 25°C operates at **96–96.5% at 65°C**.
 
@@ -125,7 +125,7 @@ A shade canopy **30–40 cm above the inverter** reduces surface temperatures by
 
 ### Orientation
 
-North- or east-facing preferred - minimises direct sun during peak heat hours (11 AM–4 PM).
+North- or east-facing preferred, minimises direct sun during peak heat hours (11 AM–4 PM).
 
 ### IP66 Weather Protection
 
@@ -151,7 +151,7 @@ IP66 provides full dust and water-jet protection while maintaining cooling. Lowe
 
 ### Cost-Benefit
 
-A **₹15,000–25,000** investment in shade structures and cooling improvements prevents **₹1–2 lakhs** in annual losses - payback under one year.
+A **₹15,000–25,000** investment in shade structures and cooling improvements prevents **₹1–2 lakhs** in annual losses, payback under one year.
 
 ## Selecting Inverters with Superior Thermal Management
 
@@ -174,7 +174,7 @@ A **₹15,000–25,000** investment in shade structures and cooling improvements
 
 ### Warranty Protection
 
-Qbits offers a **12-year full replacement warranty** covering thermal failures under normal operation - demonstrating confidence in the design.
+Qbits offers a **12-year full replacement warranty** covering thermal failures under normal operation, demonstrating confidence in the design.
 
 ## Monitoring and Maintenance
 
@@ -184,7 +184,7 @@ Continuous tracking displays temperature alongside power output, revealing therm
 
 ### AI-Powered WhatsApp Alerts
 
-AI learns normal patterns; deviations trigger preventive alerts via WhatsApp - the dominant business channel in India.
+AI learns normal patterns; deviations trigger preventive alerts via WhatsApp, the dominant business channel in India.
 
 ### Recommended Maintenance Schedule
 
@@ -209,4 +209,4 @@ Clearance verification, shade-structure inspection, heat sink cleaning, fan test
 
 ## Bottom Line
 
-Selecting an inverter rated for Indian conditions - **50°C+ ambient, IP66, German-grade components, comprehensive thermal warranty, and intelligent monitoring** - combined with proper installation and quarterly cleaning, eliminates the vast majority of overheating-related downtime.
+Selecting an inverter rated for Indian conditions - **50°C+ ambient, IP66, German-grade components, comprehensive thermal warranty, and intelligent monitoring**: combined with proper installation and quarterly cleaning, eliminates the vast majority of overheating-related downtime.

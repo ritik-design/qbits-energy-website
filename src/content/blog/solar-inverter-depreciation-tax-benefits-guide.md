@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Depreciation & Tax Benefits Guide 2026"
 excerpt: "₹4.8 lakh first-year tax savings on a ₹40 lakh inverter investment. Here's how Indian commercial facility owners unlock the depreciation tax shield."
-description: "Detailed depreciation and tax benefits guide for commercial solar inverters in India - WDV vs SLM methods, accelerated depreciation rates, 5-year cumulative savings, and selection criteria for depreciation planning."
+description: "Detailed depreciation and tax benefits guide for commercial solar inverters in India, WDV vs SLM methods, accelerated depreciation rates, 5-year cumulative savings, and selection criteria for depreciation planning."
 category: "Buying Guide"
 date: 2026-04-04
 readTime: "7 min"
@@ -94,4 +94,4 @@ Inverters are classified as "plant and machinery" under the Income Tax Act 1961.
 
 ## Closing
 
-Depreciation is the most underutilised tool in commercial solar economics. Combine 40% WDV with a 12-year warranty (protecting asset value during the critical 1–7 year period) and proper documentation, and the effective cost of solar drops by 25–40% - turning marginal payback into compelling returns.
+Depreciation is the most underutilised tool in commercial solar economics. Combine 40% WDV with a 12-year warranty (protecting asset value during the critical 1–7 year period) and proper documentation, and the effective cost of solar drops by 25–40%, turning marginal payback into compelling returns.

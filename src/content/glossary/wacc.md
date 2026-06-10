@@ -149,7 +149,7 @@ Higher leverage reduces WACC but raises equity cost (financial risk premium).
 ### Tax shield effect
 
 For 22 percent corporate tax:
-After-tax debt cost = Pre-tax × (1 - 0.22) = Pre-tax × 0.78
+After-tax debt cost = Pre-tax × (1, 0.22) = Pre-tax × 0.78
 
 This reduces effective cost of debt by ~22 percent of the pre-tax rate.
 

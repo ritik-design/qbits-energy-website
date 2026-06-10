@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter for Factory and Industrial Loads - VFDs, Compressors, Welding"
+title: "Solar Inverter for Factory and Industrial Loads, VFDs, Compressors, Welding"
 excerpt: "A solar inverter for factory use must handle VFDs, compressors, and welding machines without tripping. This guide covers THD limits, 3-phase sizing, DG displacement, and RPO compliance for Indian C&I buyers."
-description: "Complete guide to solar inverters for factories and industrial plants in India - THD requirements, 3-phase vs single-phase, string vs central inverters, DG displacement math, net metering thresholds, RPO compliance."
+description: "Complete guide to solar inverters for factories and industrial plants in India, THD requirements, 3-phase vs single-phase, string vs central inverters, DG displacement math, net metering thresholds, RPO compliance."
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "17 min"
@@ -36,47 +36,47 @@ faqs:
     a: "An industrial solar inverter for grid-connected factory use must include anti-islanding protection compliant with IEC 62116, over and under voltage and frequency protection as per CEA grid connectivity norms, DC injection limit below 0.5% of rated output current, fault ride-through (FRT) capability for momentary grid dips, and earth fault detection. For factories with DG sets, the inverter must have DG synchronisation logic or a transfer switch to prevent back-feeding onto the DG when the grid is off - a common but dangerous oversight in EPC designs."
 ---
 
-Running a factory on an unpredictable grid - with VFDs tripping, compressors hunting, and DG fuel bills climbing - is the exact problem an industrial solar inverter is designed to solve. The challenge is not simply adding panels to a rooftop. It is selecting an inverter that handles non-linear industrial loads, stays in spec through 45 °C ambient temperatures, and meets India's evolving grid protection standards - all while delivering the IRR your finance team approved at sanction.
+Running a factory on an unpredictable grid (with VFDs tripping, compressors hunting, and DG fuel bills climbing) is the exact problem an industrial solar inverter is designed to solve. The challenge is not simply adding panels to a rooftop. It is selecting an inverter that handles non-linear industrial loads, stays in spec through 45 °C ambient temperatures, and meets India's evolving grid protection standards, all while delivering the IRR your finance team approved at sanction.
 
-> **Direct answer.** A solar inverter for factory use must be 3-phase, produce current with [total harmonic distortion](/glossary/thd/) below 5% (CEA standard) or below 3% for sensitive CNC and VFD loads, carry ALMM certification for projects above 500 kWp, and be sized to the factory's average daytime demand - not its peak connected load. Apply the 5-Factor Industrial Inverter Qualification Test before specifying any inverter for a plant exceeding 50 kW.
+> **Direct answer.** A solar inverter for factory use must be 3-phase, produce current with [total harmonic distortion](/glossary/thd/) below 5% (CEA standard) or below 3% for sensitive CNC and VFD loads, carry ALMM certification for projects above 500 kWp, and be sized to the factory's average daytime demand, not its peak connected load. Apply the 5-Factor Industrial Inverter Qualification Test before specifying any inverter for a plant exceeding 50 kW.
 
 This guide is written for factory owners, plant managers, and procurement heads responsible for C&I solar decisions in the 50 kW–2 MW range. Every number here is sourced. Every recommendation is grounded in India's CEA regulations, MNRE guidelines, and real project economics.
 
 ## Why Industrial Loads Demand a Different Inverter Standard
 
-A residential or small commercial solar inverter is designed to supply linear loads - lights, fans, air conditioners, computers. A factory floor is different. Variable frequency drives (VFDs) on motors, air compressors with cyclical start-up currents, welding machines with pulsed loads, and CNC equipment with servo drives all introduce [harmonics](/glossary/harmonics/) - distortions in the AC waveform that reflect back into the power bus.
+A residential or small commercial solar inverter is designed to supply linear loads, lights, fans, air conditioners, computers. A factory floor is different. Variable frequency drives (VFDs) on motors, air compressors with cyclical start-up currents, welding machines with pulsed loads, and CNC equipment with servo drives all introduce [harmonics](/glossary/harmonics/), distortions in the AC waveform that reflect back into the power bus.
 
 These harmonics create three immediate problems for a solar inverter deployed in an industrial setting:
 
-- **Nuisance tripping** - An inverter with weak harmonic rejection will detect the distorted waveform as an out-of-spec grid condition and disconnect, killing solar generation precisely when the factory is running hard.
-- **Transformer overheating** - Harmonic currents increase resistive losses in the distribution transformer. A 10% rise in THD can increase transformer losses by 15–25%, shortening winding insulation life significantly.
-- **Metering errors** - Utility meters and power analysers calibrated for sinusoidal current give inaccurate readings in high-harmonic environments, leading to billing disputes with DISCOMs and incorrect energy accounting.
+- **Nuisance tripping**: An inverter with weak harmonic rejection will detect the distorted waveform as an out-of-spec grid condition and disconnect, killing solar generation precisely when the factory is running hard.
+- **Transformer overheating**: Harmonic currents increase resistive losses in the distribution transformer. A 10% rise in THD can increase transformer losses by 15–25%, shortening winding insulation life significantly.
+- **Metering errors**: Utility meters and power analysers calibrated for sinusoidal current give inaccurate readings in high-harmonic environments, leading to billing disputes with DISCOMs and incorrect energy accounting.
 
-The [IEC 61000-2-4](https://www.iec.ch/homepage) standard classifies industrial environments into three compatibility levels based on expected harmonic disturbance. Most Indian factories with VFD-driven machinery fall into Class 2 or Class 3 - environments where an inverter's THD specification is a critical procurement criterion, not a footnote.
+The [IEC 61000-2-4](https://www.iec.ch/homepage) standard classifies industrial environments into three compatibility levels based on expected harmonic disturbance. Most Indian factories with VFD-driven machinery fall into Class 2 or Class 3, environments where an inverter's THD specification is a critical procurement criterion, not a footnote.
 
 Standard grid-tied inverters from residential ranges typically publish THD figures at 10–20% load. At full industrial load, THD can climb significantly. The right procurement question is: **"What is your THD at rated full-load output, with a predominantly inductive industrial load connected?"** Any specification that does not answer this question at full load is incomplete.
 
 ## The 5-Factor Industrial Inverter Qualification Test
 
-Evaluating a solar inverter for factory deployment requires a structured framework. The following proprietary checklist - developed from reviewing project commissioning reports, CEA regulatory filings, and common EPC failure modes - gives plant managers a repeatable tool before specifying any inverter.
+Evaluating a solar inverter for factory deployment requires a structured framework. The following proprietary checklist (developed from reviewing project commissioning reports, CEA regulatory filings, and common EPC failure modes) gives plant managers a repeatable tool before specifying any inverter.
 
 ### The 5-Factor Industrial Inverter Qualification Test
 
-1. **THD compliance at full load** - Confirm the inverter's current THD is below 3% at 100% rated output when feeding a mix of resistive and inductive industrial loads. Request the factory test certificate, not the brochure value. IEC 62040-3 provides the test methodology.
+1. **THD compliance at full load**: Confirm the inverter's current THD is below 3% at 100% rated output when feeding a mix of resistive and inductive industrial loads. Request the factory test certificate, not the brochure value. IEC 62040-3 provides the test methodology.
 
-2. **3-phase balance and imbalance tolerance** - Verify the inverter can operate at the manufacturer-specified output under 10–15% phase voltage imbalance - a common condition on Indian industrial feeders where single-phase loads have been added unevenly over time. Inverters with tight imbalance trip thresholds will disconnect frequently on poorly balanced factory distribution boards.
+2. **3-phase balance and imbalance tolerance**: Verify the inverter can operate at the manufacturer-specified output under 10–15% phase voltage imbalance, a common condition on Indian industrial feeders where single-phase loads have been added unevenly over time. Inverters with tight imbalance trip thresholds will disconnect frequently on poorly balanced factory distribution boards.
 
-3. **ALMM certification status** - For projects above 500 kWp seeking state or central government incentives, or funded by PSU banks, the inverter must appear on the [ALMM list](/blog/almm-list-phase-iii-guide/). Verify the exact model and capacity are listed, not just the brand name.
+3. **ALMM certification status**: For projects above 500 kWp seeking state or central government incentives, or funded by PSU banks, the inverter must appear on the [ALMM list](/blog/almm-list-phase-iii-guide/). Verify the exact model and capacity are listed, not just the brand name.
 
-4. **DG synchronisation and anti-islanding** - Factories relying on diesel backup must ensure the inverter has certified anti-islanding protection per IEC 62116, and either a manual or automatic transfer switch preventing back-feed onto the DG bus. Failure here damages the DG's alternator and risks electrocution during grid maintenance.
+4. **DG synchronisation and anti-islanding**: Factories relying on diesel backup must ensure the inverter has certified anti-islanding protection per IEC 62116, and either a manual or automatic transfer switch preventing back-feed onto the DG bus. Failure here damages the DG's alternator and risks electrocution during grid maintenance.
 
-5. **Thermal management at 45 °C ambient** - Confirm the inverter's derating curve shows full rated output up to at least 40 °C ambient and controlled derating between 40–50 °C. Many inverters sold in India are specified for European 25 °C labs. An inverter that derate-trips at 38 °C ambient during a May afternoon in Tamil Nadu or Rajasthan eliminates exactly the hours when solar irradiance - and factory demand - is highest.
+5. **Thermal management at 45 °C ambient**: Confirm the inverter's derating curve shows full rated output up to at least 40 °C ambient and controlled derating between 40–50 °C. Many inverters sold in India are specified for European 25 °C labs. An inverter that derate-trips at 38 °C ambient during a May afternoon in Tamil Nadu or Rajasthan eliminates exactly the hours when solar irradiance (and factory demand) is highest.
 
 Applying this test during the inverter specification stage, before the tender is finalised, eliminates the most common sources of factory solar project underperformance.
 
-## 3-Phase vs Single-Phase - The Industrial Threshold
+## 3-Phase vs Single-Phase: The Industrial Threshold
 
-The phase configuration of your solar inverter must match your factory's electrical infrastructure. This is not a commercial choice - it is a regulatory and engineering requirement.
+The phase configuration of your solar inverter must match your factory's electrical infrastructure. This is not a commercial choice, it is a regulatory and engineering requirement.
 
 | Parameter | Single-Phase Inverter | 3-Phase Inverter |
 | --- | --- | --- |
@@ -90,7 +90,7 @@ The phase configuration of your solar inverter must match your factory's electri
 
 The [single-phase vs 3-phase decision](/blog/single-vs-3-phase-inverter/) is straightforward for factories: if your electricity bill shows 3-phase supply (three line entries plus neutral), your solar inverter must be 3-phase. Attempting to offset a 3-phase load with single-phase inverters creates a phase imbalance that DISCOMs penalise heavily under imbalance clauses in industrial tariff orders.
 
-For factories with sanctioned load above 10 kW - which covers virtually every manufacturing plant in India - a [3-phase solar inverter](/blog/3-phase-solar-inverter/) is the only technically valid choice. The relevant question then becomes: how many units, at what individual capacity, and in what configuration?
+For factories with sanctioned load above 10 kW (which covers virtually every manufacturing plant in India) a [3-phase solar inverter](/blog/3-phase-solar-inverter/) is the only technically valid choice. The relevant question then becomes: how many units, at what individual capacity, and in what configuration?
 
 ## String Inverter vs Central Inverter for Industrial Rooftops
 
@@ -101,10 +101,10 @@ Choosing the inverter topology for a factory solar project is a decision that af
 A [string inverter](/glossary/string-inverter/) connects a string or bank of strings to a single AC-output unit. For factory deployments, this means installing multiple 50–100 kW 3-phase string inverters across the rooftop array.
 
 **Advantages for factories:**
-- Partial failure tolerance - one inverter failure drops output by one inverter's share (typically 10–20%), not the whole plant
-- No AC room required - string inverters mount directly on the structural frame or an external wall
-- Modular expansion - add units as factory load or rooftop space increases
-- Faster field replacement - a failed board is replaced within 24–72 hours from local stock
+- Partial failure tolerance, one inverter failure drops output by one inverter's share (typically 10–20%), not the whole plant
+- No AC room required, string inverters mount directly on the structural frame or an external wall
+- Modular expansion, add units as factory load or rooftop space increases
+- Faster field replacement, a failed board is replaced within 24–72 hours from local stock
 
 **Limitations:**
 - Higher per-kW cost at very large scale (above 500 kWp)
@@ -121,7 +121,7 @@ A [central inverter](/glossary/central-inverter/) aggregates all DC from the arr
 - Higher efficiency at rated load (up to 98.5–99%)
 
 **Limitations:**
-- Single point of failure - a fault takes the entire system offline until a service team arrives
+- Single point of failure, a fault takes the entire system offline until a service team arrives
 - Requires dedicated space (AC room), civil works, and controlled environment
 - Repair lead times of 5–15 days for major board failures
 - Less suitable for phased expansion
@@ -135,22 +135,22 @@ A [central inverter](/glossary/central-inverter/) aggregates all DC from the arr
 | 500 kWp–1 MWp | String inverters or hybrid (strings + central) | Depends on roof uniformity and shade |
 | Above 1 MWp | Central inverter with string inverter for shed sections | Cost per kW advantage at scale |
 
-## Sizing a Solar Inverter for Factory Demand - The Industrial Demand Profile Method
+## Sizing a Solar Inverter for Factory Demand: The Industrial Demand Profile Method
 
 Factory load profiles are fundamentally different from residential or commercial office loads. Getting the sizing right requires a disciplined, data-driven approach rather than a rule-of-thumb calculation.
 
-India's [Central Electricity Authority grid connectivity standards (2019)](https://cea.nic.in/) set the regulatory floor for all grid-connected solar inverters above 1 kW - covering voltage ride-through, frequency response, anti-islanding, and power factor requirements that every industrial inverter must meet.
+India's [Central Electricity Authority grid connectivity standards (2019)](https://cea.nic.in/) set the regulatory floor for all grid-connected solar inverters above 1 kW, covering voltage ride-through, frequency response, anti-islanding, and power factor requirements that every industrial inverter must meet.
 
 The process begins with your factory's monthly electricity bills for the past 12 months. From these, extract:
 
-- **Contract demand (kVA)** - the sanctioned maximum
-- **Maximum demand recorded (kVA)** - the actual peak drawn in any 15-minute interval
-- **Average monthly units (kWh)** - your actual consumption
-- **Power factor (PF)** - if shown (aim for above 0.9; poor [power factor](/glossary/power-factor/) inflates kVA without useful kW)
+- **Contract demand (kVA)**: the sanctioned maximum
+- **Maximum demand recorded (kVA)**: the actual peak drawn in any 15-minute interval
+- **Average monthly units (kWh)**: your actual consumption
+- **Power factor (PF)**: if shown (aim for above 0.9; poor [power factor](/glossary/power-factor/) inflates kVA without useful kW)
 
 A cotton spinning mill with 300 kVA contract demand and 0.88 power factor has a true active load of approximately 264 kW at peak. If the mill operates two shifts (16 hours) and production runs 10 hours in daylight, the solar opportunity window is 10 hours.
 
-**Industrial Demand Profile Method - worked example:**
+**Industrial Demand Profile Method, worked example:**
 
 - Contract demand: 500 kVA
 - Actual peak demand: 380 kVA
@@ -164,13 +164,13 @@ A cotton spinning mill with 300 kVA contract demand and 0.88 power factor has a 
 
 This sizing ensures the system offsets the bulk of daytime grid import without significant export during production hours, which is the objective for most industrial buyers operating under net metering. For comprehensive sizing guidance applicable to different load types, the [solar inverter sizing guide](/blog/solar-inverter-sizing/) provides the full 12-variable framework.
 
-> **₹18–22 per kWh.** The true cost of diesel generation in India when fuel, oil, maintenance, and capital depreciation are included - compared to ₹3–4/kWh for solar over a 25-year plant life. *Source - [Mercom India, Industrial DG Cost Analysis](https://www.mercomindia.com/), 2026.*
+> **₹18–22 per kWh.** The true cost of diesel generation in India when fuel, oil, maintenance, and capital depreciation are included, compared to ₹3–4/kWh for solar over a 25-year plant life. *Source - [Mercom India, Industrial DG Cost Analysis](https://www.mercomindia.com/), 2026.*
 
-## DG Displacement - How Solar Offsets Diesel First
+## DG Displacement: How Solar Offsets Diesel First
 
 One of the most underappreciated economics of factory solar is the DG displacement effect. In India, factories with unreliable grid supply run diesel generator sets during grid outages and during peak tariff hours when DG is cheaper than grid power for some industrial tariff structures.
 
-Solar does not simply reduce grid import - it actively displaces diesel generation during daylight hours, which carries a far higher economic benefit. The [solar vs diesel analysis](/blog/solar-vs-diesel-generator-india/) for Indian plants shows that industries paying ₹18–22/kWh for diesel-generated power achieve solar payback in 3–5 years versus 6–8 years for factories on reliable grid supply alone.
+Solar does not simply reduce grid import, it actively displaces diesel generation during daylight hours, which carries a far higher economic benefit. The [solar vs diesel analysis](/blog/solar-vs-diesel-generator-india/) for Indian plants shows that industries paying ₹18–22/kWh for diesel-generated power achieve solar payback in 3–5 years versus 6–8 years for factories on reliable grid supply alone.
 
 **DG displacement calculation:**
 
@@ -185,9 +185,9 @@ For a ceramic tile factory in Gujarat running a 250 kW DG for 4 hours/day during
 - Monthly saving from DG displacement alone: ₹6,00,000
 - On a ₹1.8 Crore solar investment, DG displacement alone pays back in 25 months
 
-The key technical requirement for DG displacement is the inverter's synchronisation capability. When the grid returns after an outage, the inverter must synchronise its output frequency and phase with the grid before reconnecting - and must never back-feed onto the DG bus. Inverters with certified grid synchronisation logic (IEC 62116 compliant anti-islanding) handle this correctly.
+The key technical requirement for DG displacement is the inverter's synchronisation capability. When the grid returns after an outage, the inverter must synchronise its output frequency and phase with the grid before reconnecting, and must never back-feed onto the DG bus. Inverters with certified grid synchronisation logic (IEC 62116 compliant anti-islanding) handle this correctly.
 
-## Net Metering for Industrial Plants - Thresholds and DISCOM Rules
+## Net Metering for Industrial Plants: Thresholds and DISCOM Rules
 
 Net metering allows a factory to export surplus solar generation back to the DISCOM and receive credit against grid import. For C&I buyers, net metering is the financial foundation of the solar business case.
 
@@ -203,37 +203,37 @@ For factories sizing above 500 kWp, it is worth checking whether the DISCOM's ne
 
 > **43.33%.** India's mandated total Renewable Purchase Obligation (RPO) target by 2029–30, with solar RPO set at 6.94% of total electricity consumption for obligated entities. *Source - [Ministry of Power, RPO Trajectory 2022–2030](https://powermin.gov.in/), 2025.*
 
-## RPO Compliance - The Hidden Compliance Driver for Large Factories
+## RPO Compliance: The Hidden Compliance Driver for Large Factories
 
-The Renewable Purchase Obligation ([RPO](/glossary/rpo/)) is a legally binding requirement that obligated entities - including large consumers on open access, captive power plant operators above 1 MW, and distribution licensees - source a minimum percentage of their electricity from renewable sources.
+The Renewable Purchase Obligation ([RPO](/glossary/rpo/)) is a legally binding requirement that obligated entities (including large consumers on open access, captive power plant operators above 1 MW, and distribution licensees) source a minimum percentage of their electricity from renewable sources.
 
 For factory owners, RPO compliance creates a second financial incentive beyond energy cost savings:
 
 - **RPO shortfall penalties:** SERCs impose penalties (often equal to the applicable Renewable Energy Certificate rate, currently ₹1–3 per unit shortfall) on entities that do not meet their RPO obligation. For a 5 MW captive plant with a 43% RPO obligation falling 10% short, the annual penalty can reach ₹60–90 lakh.
-- **RPO fulfilment through captive solar:** Rooftop or ground-mount solar installed as captive generation counts directly towards the installing entity's solar RPO. This makes the effective value of each solar unit higher than the avoided tariff alone - it also eliminates one unit of REC purchase.
+- **RPO fulfilment through captive solar:** Rooftop or ground-mount solar installed as captive generation counts directly towards the installing entity's solar RPO. This makes the effective value of each solar unit higher than the avoided tariff alone, it also eliminates one unit of REC purchase.
 - **RPO banking:** Some states allow excess RPO credits to be banked for future years, making oversized solar installations financially attractive for large obligated consumers.
 
-For factories with sanctioned load above 1 MW or operating captive power plants, RPO compliance should be factored into the solar project sizing - not treated as an afterthought. The [NSEFI RPO compliance tracker](https://nsefi.in/) provides state-by-state RPO status and obligated entity registration guidance for Indian industries.
+For factories with sanctioned load above 1 MW or operating captive power plants, RPO compliance should be factored into the solar project sizing, not treated as an afterthought. The [NSEFI RPO compliance tracker](https://nsefi.in/) provides state-by-state RPO status and obligated entity registration guidance for Indian industries.
 
-## Common Mistakes in Factory Solar Projects - and How to Avoid Them
+## Common Mistakes in Factory Solar Projects: and How to Avoid Them
 
-Factory solar projects fail at a higher rate than residential installations - not because of panel quality, but because of inverter specification errors, grid integration oversights, and load assessment mistakes.
+Factory solar projects fail at a higher rate than residential installations, not because of panel quality, but because of inverter specification errors, grid integration oversights, and load assessment mistakes.
 
-- **Using residential inverter specifications for industrial projects** - Single-MPPT, single-phase inverters rated at 10 kW are sometimes strung together for small factory applications. This creates phase imbalance, fails DISCOM inspection, and voids warranty.
-- **Ignoring inrush current from motor starts** - VFDs and compressors draw 3–6× rated current during start-up. If the solar inverter is sized only to average load (not peak), the start-up surge may cause voltage dips that trigger inverter disconnection. Specify inverters with 110% overload capacity for at least 60 seconds.
-- **Skipping the harmonic study** - For factories with significant VFD loading (above 30% of total connected load), a power quality study before and after solar commissioning is essential. Without it, you may commission a system and then spend months troubleshooting unexplained VFD trips and motor failures.
-- **Incorrect earthing at the DC array** - Industrial rooftops often have metallic structures connected to the factory's main earth bus. Stray earth currents from improperly earthed DC arrays cause corrosion, measurement errors, and safety hazards. Floating DC systems require proper surge protection device placement per [inverter grounding best practices](/blog/solar-inverter-grounding/).
-- **Oversizing AC output and losing net metering eligibility** - DISCOMs in several states will reject net metering applications where the inverter AC capacity exceeds the sanctioned load. Size AC output at or below contract demand to avoid this common EPC mistake.
+- **Using residential inverter specifications for industrial projects**: Single-MPPT, single-phase inverters rated at 10 kW are sometimes strung together for small factory applications. This creates phase imbalance, fails DISCOM inspection, and voids warranty.
+- **Ignoring inrush current from motor starts**: VFDs and compressors draw 3–6× rated current during start-up. If the solar inverter is sized only to average load (not peak), the start-up surge may cause voltage dips that trigger inverter disconnection. Specify inverters with 110% overload capacity for at least 60 seconds.
+- **Skipping the harmonic study**: For factories with significant VFD loading (above 30% of total connected load), a power quality study before and after solar commissioning is essential. Without it, you may commission a system and then spend months troubleshooting unexplained VFD trips and motor failures.
+- **Incorrect earthing at the DC array**: Industrial rooftops often have metallic structures connected to the factory's main earth bus. Stray earth currents from improperly earthed DC arrays cause corrosion, measurement errors, and safety hazards. Floating DC systems require proper surge protection device placement per [inverter grounding best practices](/blog/solar-inverter-grounding/).
+- **Oversizing AC output and losing net metering eligibility**: DISCOMs in several states will reject net metering applications where the inverter AC capacity exceeds the sanctioned load. Size AC output at or below contract demand to avoid this common EPC mistake.
 
 For a thorough review of the commissioning process for grid-connected industrial systems, the [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/) covers the full DISCOM inspection checklist. [MNRE's technical standards for grid-connected rooftop systems](https://mnre.gov.in/) outline the eligibility criteria and documentation requirements for C&I projects seeking state-level incentives and DISCOM connectivity approvals.
 
 ## Where Qbits Fits in the Industrial Solar Stack
 
-Factory owners who want a 3-phase on-grid inverter that handles industrial harmonic environments, ships with 12-year full replacement warranty, and comes ALMM-listed for PSU-funded projects have a credible Indian-made option. Qbits 3-phase inverters are built to India-grid specifications - 180–270 V input tolerance, 45 °C ambient derating curves, and anti-islanding compliance - not European lab conditions.
+Factory owners who want a 3-phase on-grid inverter that handles industrial harmonic environments, ships with 12-year full replacement warranty, and comes ALMM-listed for PSU-funded projects have a credible Indian-made option. Qbits 3-phase inverters are built to India-grid specifications (180–270 V input tolerance, 45 °C ambient derating curves, and anti-islanding compliance) not European lab conditions.
 
-- **[On-Grid Inverters - 3-Phase Range](/on-grid-inverter/)** - TLD series from 10 kW to 100 kW per unit, stackable for plants up to 2 MW. ALMM-listed, BIS-certified, IP66-rated for industrial environments.
-- **[C&I Solutions](/c-i-solution/)** - Packaged engineering support for factory solar assessments, including power quality pre-studies, DISCOM liaison, and EPC coordination.
-- **[String Sizing Calculator](/string-sizing-calculator/)** - Confirm panel-string compatibility and DC:AC ratio before your EPC quotes - particularly important for 3-phase arrays with mixed orientations.
-- **[Download Datasheets](/download-datasheets/)** - Full THD specifications, derating curves, and grid protection compliance certifications for every Qbits 3-phase model.
+- **[On-Grid Inverters, 3-Phase Range](/on-grid-inverter/)**: TLD series from 10 kW to 100 kW per unit, stackable for plants up to 2 MW. ALMM-listed, BIS-certified, IP66-rated for industrial environments.
+- **[C&I Solutions](/c-i-solution/)**: Packaged engineering support for factory solar assessments, including power quality pre-studies, DISCOM liaison, and EPC coordination.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm panel-string compatibility and DC:AC ratio before your EPC quotes, particularly important for 3-phase arrays with mixed orientations.
+- **[Download Datasheets](/download-datasheets/)**: Full THD specifications, derating curves, and grid protection compliance certifications for every Qbits 3-phase model.
 
 For a factory commissioning a 200 kW+ system with DG backup, diesel displacement targets, and DISCOM net metering application - [request a factory site survey from the Qbits applications engineering team](/contact-us/). Most industrial proposals come back within 48 hours with a site-specific DG displacement calculation and RPO compliance note included.

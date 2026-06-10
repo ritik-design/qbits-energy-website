@@ -1,7 +1,7 @@
 ---
 title: "Inverter Distributors India: Complete Partnership Guide"
 excerpt: "Distributor selection drives availability, warranty processing, and technical support. Here's how Indian EPCs systematically evaluate distribution partners in 2026."
-description: "Complete guide to selecting inverter distributors in India - national vs regional networks, evaluation criteria, 20 essential supplier questions, warranty processing, and red flags to avoid."
+description: "Complete guide to selecting inverter distributors in India, national vs regional networks, evaluation criteria, 20 essential supplier questions, warranty processing, and red flags to avoid."
 category: "Buying Guide"
 date: 2026-04-04
 readTime: "8 min"

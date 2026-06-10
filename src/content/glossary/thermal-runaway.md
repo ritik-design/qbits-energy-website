@@ -80,7 +80,7 @@ The chain reaction:
 8. Ignition and propagation
 
 Different lithium chemistries have different thermal runaway thresholds:
-- LFP (Lithium Iron Phosphate): 270°C - safest commercial chemistry
+- LFP (Lithium Iron Phosphate): 270°C, safest commercial chemistry
 - NMC (Nickel Manganese Cobalt): 150-180°C
 - LCO (Lithium Cobalt Oxide): 130-160°C
 - LTO (Lithium Titanate): Very stable, rare runaway

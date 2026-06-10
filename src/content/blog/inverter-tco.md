@@ -1,7 +1,7 @@
 ---
 title: "Inverter TCO: Complete Budget Planning Guide for 2026"
-excerpt: "Purchase price is just 25–40% of an inverter's true 25-year cost. Here's the complete TCO framework - covering efficiency losses, warranty gaps, and replacement economics."
-description: "Inverter total cost of ownership analysis for India - upfront costs, operational expenses, efficiency losses, warranty gap costs, and worked TCO comparisons showing how premium inverters save lakhs over budget alternatives."
+excerpt: "Purchase price is just 25–40% of an inverter's true 25-year cost. Here's the complete TCO framework, covering efficiency losses, warranty gaps, and replacement economics."
+description: "Inverter total cost of ownership analysis for India, upfront costs, operational expenses, efficiency losses, warranty gap costs, and worked TCO comparisons showing how premium inverters save lakhs over budget alternatives."
 category: "Buying Guide"
 date: 2026-04-08
 readTime: "9 min"
@@ -127,7 +127,7 @@ Premium costs 57% more upfront, saves 47% over lifetime.
 ## Optimisation Strategies
 
 - Select inverters with **97.5%+ efficiency** and **10+ year warranties**
-- Leverage **AI-powered monitoring** - saves 40–60% maintenance costs
+- Leverage **AI-powered monitoring**: saves 40–60% maintenance costs
 - **IP66 protection** extends life 3–5 years
 - **German-grade components** reduce failure rates 50–60%
 
@@ -142,4 +142,4 @@ Premium costs 57% more upfront, saves 47% over lifetime.
 
 ## Closing
 
-TCO discipline turns inverter procurement from a price-shopping exercise into financial engineering. The 25-year math consistently favours premium inverters in India - and the lifecycle savings often dwarf the upfront premium by 5–10×.
+TCO discipline turns inverter procurement from a price-shopping exercise into financial engineering. The 25-year math consistently favours premium inverters in India, and the lifecycle savings often dwarf the upfront premium by 5–10×.

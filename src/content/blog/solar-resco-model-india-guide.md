@@ -1,6 +1,6 @@
 ---
-title: "Solar RESCO Model India - Complete Guide for C&I Buyers"
-excerpt: "Solar RESCO model India lets C&I buyers get rooftop solar with zero upfront cost - the RESCO owns the system, you pay ₹4–6/unit instead of ₹8–14/unit grid tariff. Full PPA guide inside."
+title: "Solar RESCO Model India, Complete Guide for C&I Buyers"
+excerpt: "Solar RESCO model India lets C&I buyers get rooftop solar with zero upfront cost, the RESCO owns the system, you pay ₹4–6/unit instead of ₹8–14/unit grid tariff. Full PPA guide inside."
 category: Guide
 date: 2026-06-05
 readTime: "17 min"
@@ -31,27 +31,27 @@ faqs:
     a: "RESCO PPA contracts in India typically run for 15–25 years. The most common duration for C&I rooftop projects is 15 years for buyers who want flexibility, and 20–25 years for buyers who want the lowest possible PPA tariff. After the contract ends, options typically include: extending the PPA, purchasing the system from the RESCO at residual value, or having the system removed by the RESCO at no cost to the buyer."
 ---
 
-A factory owner or facility manager evaluating solar in India encounters two fundamental choices: own the system (CAPEX) or have someone else own it and pay per unit generated (RESCO). This guide focuses entirely on the RESCO model - what it means, what the contract terms look like, which companies provide it, and what due diligence prevents expensive surprises in Year 10 of a 20-year commitment.
+A factory owner or facility manager evaluating solar in India encounters two fundamental choices: own the system (CAPEX) or have someone else own it and pay per unit generated (RESCO). This guide focuses entirely on the RESCO model, what it means, what the contract terms look like, which companies provide it, and what due diligence prevents expensive surprises in Year 10 of a 20-year commitment.
 
-> **Direct answer.** The solar RESCO model in India means a Renewable Energy Service Company owns the solar system on your roof and sells you the electricity generated at a PPA tariff of ₹4–6/unit - versus ₹8–14/unit from the grid - with zero upfront capex for the C&I buyer. Savings are real (30–40% bill reduction) but lower than the CAPEX model (60–70%). The "RESCO PPA Due Diligence Checklist" identifies the five contract clauses that determine whether the deal remains beneficial throughout the 15–25 year term.
+> **Direct answer.** The solar RESCO model in India means a Renewable Energy Service Company owns the solar system on your roof and sells you the electricity generated at a PPA tariff of ₹4–6/unit (versus ₹8–14/unit from the grid) with zero upfront capex for the C&I buyer. Savings are real (30–40% bill reduction) but lower than the CAPEX model (60–70%). The "RESCO PPA Due Diligence Checklist" identifies the five contract clauses that determine whether the deal remains beneficial throughout the 15–25 year term.
 
-For the full CAPEX vs RESCO financial comparison, see [solar CAPEX vs OPEX - which model fits your business](/blog/solar-capex-vs-opex-business-india/).
+For the full CAPEX vs RESCO financial comparison, see [solar CAPEX vs OPEX, which model fits your business](/blog/solar-capex-vs-opex-business-india/).
 
-## What RESCO Means - The Model Explained
+## What RESCO Means: The Model Explained
 
 RESCO stands for **Renewable Energy Service Company**. In the RESCO model:
 
 1. The RESCO company finances, procures, installs, and owns the solar system
 2. The system sits on the buyer's roof (a "behind-the-meter" installation)
-3. The buyer signs a **[Power Purchase Agreement (PPA)](/glossary/ppa/)** - a long-term contract to purchase the electricity generated at a fixed (or escalating) per-unit tariff
+3. The buyer signs a **[Power Purchase Agreement (PPA)](/glossary/ppa/)**: a long-term contract to purchase the electricity generated at a fixed (or escalating) per-unit tariff
 4. The RESCO recovers its investment and profit from the PPA tariff over the contract duration
 5. The buyer pays nothing upfront and receives an electricity bill reduction from day one
 
-The PPA tariff is always set below the buyer's current grid tariff - otherwise the model has no value proposition. For a large commercial or industrial buyer paying ₹10–14/unit, a ₹5/unit PPA tariff represents immediate, significant savings. The RESCO's profit comes from the spread between the PPA tariff and the cost of generating solar electricity, which falls over time as the system depreciates.
+The PPA tariff is always set below the buyer's current grid tariff, otherwise the model has no value proposition. For a large commercial or industrial buyer paying ₹10–14/unit, a ₹5/unit PPA tariff represents immediate, significant savings. The RESCO's profit comes from the spread between the PPA tariff and the cost of generating solar electricity, which falls over time as the system depreciates.
 
-This model is also called the **[OPEX model](/glossary/opex/)** - the buyer pays monthly operating expenditure rather than upfront capital expenditure. The distinction matters legally and for tax purposes: in a pure RESCO PPA, you are buying electricity, not leasing equipment.
+This model is also called the **[OPEX model](/glossary/opex/)**: the buyer pays monthly operating expenditure rather than upfront capital expenditure. The distinction matters legally and for tax purposes: in a pure RESCO PPA, you are buying electricity, not leasing equipment.
 
-> **800+ MW.** Cumulative C&I RESCO capacity deployed by Amplus Solar (now TotalEnergies On+) across India - one of the benchmarks for RESCO model viability in the Indian C&I market. *Source - [TotalEnergies On+ India](https://www.totalenergies-on.com/), 2025.*
+> **800+ MW.** Cumulative C&I RESCO capacity deployed by Amplus Solar (now TotalEnergies On+) across India, one of the benchmarks for RESCO model viability in the Indian C&I market. *Source - [TotalEnergies On+ India](https://www.totalenergies-on.com/), 2025.*
 
 ## Top RESCO Providers in India
 
@@ -73,7 +73,7 @@ Pune-based RESCO focused on green energy procurement for corporate buyers with E
 
 Technology-forward RESCO with a strong portfolio in industrial and commercial rooftop and ground-mounted projects. Known for sophisticated grid integration and SCADA monitoring across portfolios. PPA tariff: ₹4.5–6.5/unit.
 
-**Minimum project sizes:** Most major RESCOs have a minimum project size of 50–100 kW due to transaction costs. For systems below 50 kW, the CAPEX model is more accessible - see [solar EPC India guide](/blog/solar-epc-india/) for the CAPEX procurement process.
+**Minimum project sizes:** Most major RESCOs have a minimum project size of 50–100 kW due to transaction costs. For systems below 50 kW, the CAPEX model is more accessible, see [solar EPC India guide](/blog/solar-epc-india/) for the CAPEX procurement process.
 
 ## How a RESCO PPA Contract Works
 
@@ -92,21 +92,21 @@ A RESCO PPA is a complex legal document. These terms determine financial outcome
 
 ## The RESCO PPA Due Diligence Checklist
 
-Before signing any RESCO PPA, verify all five items in this checklist - each represents a common source of long-term value destruction.
+Before signing any RESCO PPA, verify all five items in this checklist, each represents a common source of long-term value destruction.
 
 ### The RESCO PPA Due Diligence Checklist
 
-1. **PPA tariff vs grid tariff trajectory** - Compare the Year 1 PPA tariff to your current grid tariff and project both forward using the escalation clause (PPA) and historical tariff hike rate (grid - typically 5–8% per year in India). If grid tariffs rise faster than PPA escalation, your savings grow over time. If grid tariffs stagnate (unlikely but possible), savings narrow. Model this over the full contract term, not just Year 1.
+1. **PPA tariff vs grid tariff trajectory**: Compare the Year 1 PPA tariff to your current grid tariff and project both forward using the escalation clause (PPA) and historical tariff hike rate (grid, typically 5–8% per year in India). If grid tariffs rise faster than PPA escalation, your savings grow over time. If grid tariffs stagnate (unlikely but possible), savings narrow. Model this over the full contract term, not just Year 1.
 
-2. **Escalation clause compounding** - A 3% annual escalation on a ₹5/unit Year 1 tariff reaches ₹9.03/unit by Year 20. If the grid tariff at Year 20 is ₹12/unit, you save ₹3/unit - still positive. Stress-test the scenario where grid tariffs rise slower than historical trends over the contract's second half.
+2. **Escalation clause compounding**: A 3% annual escalation on a ₹5/unit Year 1 tariff reaches ₹9.03/unit by Year 20. If the grid tariff at Year 20 is ₹12/unit, you save ₹3/unit, still positive. Stress-test the scenario where grid tariffs rise slower than historical trends over the contract's second half.
 
-3. **Exit penalty calculation** - Understand the exact formula: typically the remaining PPA payment obligations discounted to present value. A ₹2 crore project with 10 years remaining may carry an exit penalty of ₹80–120 lakh. This becomes critical if you sell the building, want to switch to CAPEX, or the RESCO underperforms.
+3. **Exit penalty calculation**: Understand the exact formula: typically the remaining PPA payment obligations discounted to present value. A ₹2 crore project with 10 years remaining may carry an exit penalty of ₹80–120 lakh. This becomes critical if you sell the building, want to switch to CAPEX, or the RESCO underperforms.
 
-4. **Minimum generation guarantee and enforcement** - Verify whether the minimum generation guarantee is legally enforceable and what the compensation mechanism is. Insist on independent monitoring access so you can verify RESCO's generation claims independently throughout the contract.
+4. **Minimum generation guarantee and enforcement**: Verify whether the minimum generation guarantee is legally enforceable and what the compensation mechanism is. Insist on independent monitoring access so you can verify RESCO's generation claims independently throughout the contract.
 
-5. **End-of-term system ownership** - Determine who owns the system at contract end and whether you have the right to purchase it at a fair residual value. If the RESCO removes the system, your roof returns to its original state - and you need to re-finance a new solar project at whatever tariffs exist in Year 20.
+5. **End-of-term system ownership**: Determine who owns the system at contract end and whether you have the right to purchase it at a fair residual value. If the RESCO removes the system, your roof returns to its original state, and you need to re-finance a new solar project at whatever tariffs exist in Year 20.
 
-## RESCO vs CAPEX - What the Numbers Look Like
+## RESCO vs CAPEX: What the Numbers Look Like
 
 For a 500 kW factory roof in Karnataka:
 
@@ -128,14 +128,14 @@ The RESCO delivers immediate, zero-risk savings. CAPEX delivers higher savings a
 
 Several mistakes appear repeatedly in C&I RESCO negotiations in India.
 
-- **Not negotiating minimum generation guarantees** - Many standard PPA templates include a generation guarantee but phrase it loosely. Insist on a specific kWh/year guarantee with automatic credit in the next billing cycle if missed - not a "best efforts" clause.
-- **Signing without legal review** - A 20-year, ₹2–5 crore commitment warrants a lawyer experienced in energy contracts reviewing the PPA for favourable jurisdiction clauses, force majeure definitions, and assignment rights.
-- **Ignoring the escalation clause in Year 15+** - Buyers focus on Year 1 savings and ignore the Year 15–20 trajectory. A 3% escalation compounded from ₹5/unit reaches ₹8.5/unit by Year 18 - model the full life scenario.
-- **Not securing independent monitoring access** - Without your own access to the inverter's monitoring data, you cannot independently verify generation claims against which your PPA payments are calculated.
+- **Not negotiating minimum generation guarantees**: Many standard PPA templates include a generation guarantee but phrase it loosely. Insist on a specific kWh/year guarantee with automatic credit in the next billing cycle if missed, not a "best efforts" clause.
+- **Signing without legal review**: A 20-year, ₹2–5 crore commitment warrants a lawyer experienced in energy contracts reviewing the PPA for favourable jurisdiction clauses, force majeure definitions, and assignment rights.
+- **Ignoring the escalation clause in Year 15+**: Buyers focus on Year 1 savings and ignore the Year 15–20 trajectory. A 3% escalation compounded from ₹5/unit reaches ₹8.5/unit by Year 18, model the full life scenario.
+- **Not securing independent monitoring access**: Without your own access to the inverter's monitoring data, you cannot independently verify generation claims against which your PPA payments are calculated.
 
 According to [IRENA's Renewable Power Finance Report](https://www.irena.org/), India's C&I solar PPA market has grown at over 30% annually since 2022, with increasing sophistication in contract structures and greater buyer awareness of PPA risk clauses.
 
-## When RESCO Is the Right Choice - And When It Is Not
+## When RESCO Is the Right Choice: And When It Is Not
 
 **RESCO is superior when:**
 - The building is rented or leased (CAPEX requires long-term roof ownership)
@@ -155,8 +155,8 @@ India's RESCO market is also increasingly shaped by the [Ministry of New and Ren
 
 Whether you choose RESCO or CAPEX, the inverter at the heart of the system determines generation reliability for the full contract term. For CAPEX buyers who own the system directly, Qbits commercial string inverters offer industrial-grade harmonic suppression (THD below 3%), dual-MPPT tracking for complex rooftop orientations common in industrial buildings, and the 12-year full-replacement warranty that protects IRR projections over the first half of the system life.
 
-- **[C&I Solar Solution](/c-i-solution/)** - Qbits industrial solar systems from 50 kW to multi-MW configurations.
-- **[On-Grid Inverters](/on-grid-inverter/)** - Commercial string inverters with industrial specifications.
-- **[Download Datasheets](/download-datasheets/)** - THD, efficiency curves, and MPPT specifications for banker and EPC bid review.
+- **[C&I Solar Solution](/c-i-solution/)**: Qbits industrial solar systems from 50 kW to multi-MW configurations.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Commercial string inverters with industrial specifications.
+- **[Download Datasheets](/download-datasheets/)**: THD, efficiency curves, and MPPT specifications for banker and EPC bid review.
 
-For C&I buyers evaluating whether RESCO or CAPEX makes more financial sense for their specific situation, [talk to a Qbits engineer](/contact-us/). Qbits provides independent IRR modelling that factors in your grid tariff, taxable profit, roof area, and capital cost of funds - the four variables that determine which model wins for your business.
+For C&I buyers evaluating whether RESCO or CAPEX makes more financial sense for their specific situation, [talk to a Qbits engineer](/contact-us/). Qbits provides independent IRR modelling that factors in your grid tariff, taxable profit, roof area, and capital cost of funds, the four variables that determine which model wins for your business.

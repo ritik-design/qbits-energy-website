@@ -29,7 +29,7 @@ Headquartered in Surat, Gujarat. Product range covers 1.5 kW residential string 
 - [Glossary](https://qbitsenergy.com/glossary/): Definitions for solar and power-electronics terms (MPPT, IP66, THD, BIS, IEC, etc.).
 - [String Sizing Calculator](https://qbitsenergy.com/string-sizing-calculator/): Interactive tool for sizing PV strings against Qbits inverters.
 - [Sitemap (HTML)](https://qbitsenergy.com/sitemap/): Browsable index of every page.
-- [Sitemap (XML)](https://qbitsenergy.com/sitemap-index.xml): Machine-readable index for crawlers.
+- [Sitemap (XML)](https://qbitsenergy.com/sitemap.xml): Machine-readable index for crawlers.
 
 ## Key Topics Covered in Blog
 

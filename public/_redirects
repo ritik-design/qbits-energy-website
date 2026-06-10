@@ -4,8 +4,10 @@
 # Netlify / Cloudflare Pages format
 # ============================================================
 
-# ── Standard /sitemap.xml → Astro's /sitemap-index.xml ──────
-/sitemap.xml /sitemap-index.xml 301
+# ── Standard /sitemap.xml served from Astro's sitemap-index.xml ──
+# Status 200 = rewrite/proxy on Cloudflare Pages: URL stays as
+# /sitemap.xml but the body is the generated sitemap index.
+/sitemap.xml /sitemap-index.xml 200
 
 
 # ── Blog posts: same slug, date prefix removed ──────────────

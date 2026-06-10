@@ -95,6 +95,34 @@
   color: #475569;
   font-size: 1.0625rem;
   line-height: 1.75;
+  /* Long URLs, IDs, hashes etc. must break instead of pushing the column wider */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Tables can be very wide; make them scroll inside the column on mobile */
+.blog-content table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .blog-content table {
+    display: table;
+    white-space: normal;
+  }
+}
+
+/* Images/iframes stay within the column */
+.blog-content img,
+.blog-content video,
+.blog-content iframe {
+  max-width: 100%;
+  height: auto;
 }
 
 .blog-content > * + * {

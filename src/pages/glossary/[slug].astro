@@ -165,8 +165,8 @@ const articleSchema = {
     <!-- Body + sidebar -->
     <section class="py-16 lg:py-20">
       <div class="container-main">
-        <div class="grid lg:grid-cols-[1fr_320px] gap-12 lg:gap-16">
-          <article>
+        <div class="grid lg:grid-cols-[minmax(0,1fr)_320px] gap-12 lg:gap-16">
+          <article class="min-w-0">
             <div class="blog-content glossary-content">
               <Content />
             </div>

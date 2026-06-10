@@ -88,13 +88,154 @@ const hybridDocs = [
 >
   <HeaderV2 />
 
-  <main>
+  <main id="main-content">
     <PageHeader
       label="Resources"
       title="Download"
       highlight="Datasheets"
       description="Access product datasheets, manuals, warranty documents, and certifications for all Qbits inverters."
     />
+
+    <!-- Soft email opt-in CTA - bundle all datasheets to your inbox -->
+    <section class="bg-gradient-to-br from-brand-600 via-brand-700 to-slate-900 py-12 lg:py-16 text-white relative overflow-hidden" aria-labelledby="bundle-heading">
+      <div class="absolute -top-32 right-1/4 w-96 h-96 bg-white/10 rounded-full blur-3xl pointer-events-none" aria-hidden="true"></div>
+      <div class="container-main relative grid lg:grid-cols-[1fr_minmax(360px,460px)] gap-8 items-center">
+        <div>
+          <span class="inline-flex items-center gap-2 rounded-full bg-white/10 ring-1 ring-white/20 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-brand-100">
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-300 animate-pulse"></span>
+            EPC / Dealer bundle
+          </span>
+          <h2 id="bundle-heading" class="mt-4 text-2xl sm:text-3xl font-bold leading-tight">
+            Need every datasheet, manual, and certificate in one go?
+          </h2>
+          <p class="mt-3 text-sm text-brand-100 leading-relaxed max-w-xl">
+            Give us your email and we'll send the full Qbits inverter bundle (PDFs + datasheets + IEC/BIS certs) to your inbox within minutes. Use it for EPC bids, BoQ specs, or net-metering paperwork.
+          </p>
+        </div>
+        <form id="datasheet-bundle-form" class="bg-white/10 ring-1 ring-white/20 backdrop-blur-sm rounded-2xl p-5 sm:p-6 space-y-3" action="mailto:service@qbitsenergy.com" method="post" enctype="text/plain">
+          <div>
+            <label for="db-name" class="block text-[10px] font-bold uppercase tracking-wider text-brand-200 mb-1">Name</label>
+            <input type="text" id="db-name" name="name" required maxlength="80" autocomplete="name" class="w-full rounded-lg bg-white/95 text-slate-900 placeholder:text-slate-400 border-0 px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-300 outline-none" placeholder="Your name" />
+          </div>
+          <div>
+            <label for="db-email" class="block text-[10px] font-bold uppercase tracking-wider text-brand-200 mb-1">Work email</label>
+            <input type="email" id="db-email" name="email" required maxlength="120" autocomplete="email" class="w-full rounded-lg bg-white/95 text-slate-900 placeholder:text-slate-400 border-0 px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-300 outline-none" placeholder="you@company.com" />
+          </div>
+          <div>
+            <label for="db-role" class="block text-[10px] font-bold uppercase tracking-wider text-brand-200 mb-1">I am a</label>
+            <select id="db-role" name="role" class="w-full rounded-lg bg-white/95 text-slate-900 border-0 px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-300 outline-none">
+              <option>EPC / installer</option>
+              <option>Dealer / distributor</option>
+              <option>Homeowner</option>
+              <option>Architect / consultant</option>
+              <option>Student / researcher</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
+            <label>Don't fill: <input type="text" id="db-website" name="website" tabindex="-1" autocomplete="off" /></label>
+          </div>
+          <input type="hidden" name="subject" value="Datasheet bundle request" />
+          <button type="submit" id="db-submit" class="w-full rounded-lg bg-white hover:bg-brand-50 text-brand-700 transition-colors px-4 py-3 text-sm font-bold">
+            <span data-db-default>Send me the bundle</span>
+            <span data-db-sending class="hidden">Sending…</span>
+          </button>
+          <p id="db-status" class="text-xs hidden" role="status" aria-live="polite"></p>
+          <p class="text-[10px] text-brand-100/80 leading-relaxed">
+            Or scroll down to grab individual PDFs anonymously. By submitting you agree to our <a href="/privacy-policy/" class="underline hover:text-white">Privacy Policy</a>.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <script is:inline define:vars={{
+        GAS_ENDPOINT: import.meta.env.PUBLIC_GAS_ENDPOINT || 'REPLACE_WITH_DEPLOYED_APPS_SCRIPT_WEB_APP_URL',
+        FORM_TOKEN: import.meta.env.PUBLIC_FORM_TOKEN || '',
+      }}>
+      (() => {
+        const FALLBACK_EMAIL = 'service@qbitsenergy.com';
+        const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
+        const form = document.getElementById('datasheet-bundle-form');
+        if (!form) return;
+        const status = document.getElementById('db-status');
+        const btn = document.getElementById('db-submit');
+        const labelDefault = btn.querySelector('[data-db-default]');
+        const labelSending = btn.querySelector('[data-db-sending]');
+        const setSending = (s) => {
+          btn.disabled = s;
+          labelDefault.classList.toggle('hidden', s);
+          labelSending.classList.toggle('hidden', !s);
+        };
+        const showStatus = (msg, ok) => {
+          status.classList.remove('hidden');
+          status.textContent = msg;
+          status.className = 'text-xs ' + (ok ? 'text-emerald-200' : 'text-rose-200');
+        };
+        const buildMailto = (fd) => {
+          const body =
+            'Name: ' + (fd.get('name') || '') + '\n' +
+            'Email: ' + (fd.get('email') || '') + '\n' +
+            'Role: ' + (fd.get('role') || '') + '\n\n' +
+            'Please send the full Qbits datasheet bundle.';
+          return 'mailto:' + FALLBACK_EMAIL +
+            '?subject=' + encodeURIComponent('Datasheet bundle request') +
+            '&body=' + encodeURIComponent(body);
+        };
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          if (!form.reportValidity()) return;
+          if ((form.elements.namedItem('website') || {}).value) {
+            form.reset();
+            showStatus('Thanks! Bundle on its way to your inbox.', true);
+            return;
+          }
+          const fd = new FormData(form);
+          ['name', 'email'].forEach((k) => {
+            const v = fd.get(k);
+            if (typeof v === 'string') fd.set(k, v.trim());
+          });
+          fd.delete('website');
+          fd.append('source', 'datasheet-bundle');
+          fd.append('page', location.pathname);
+          fd.append('submittedAt', new Date().toISOString());
+          if (FORM_TOKEN) fd.append('token', FORM_TOKEN);
+
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'generate_lead', { form_id: 'datasheet-bundle-form' });
+          }
+
+          setSending(true);
+          if (!isConfigured) {
+            window.location.href = buildMailto(fd);
+            form.reset();
+            showStatus('Opening your email app - please send to complete.', true);
+            setSending(false);
+            return;
+          }
+          try {
+            const res = await fetch(GAS_ENDPOINT, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: new URLSearchParams(fd).toString(),
+            });
+            const data = await res.json().catch(() => ({ ok: res.ok }));
+            if (data.ok) {
+              form.reset();
+              showStatus('Thanks! Bundle on its way to your inbox within minutes.', true);
+            } else {
+              throw new Error(data.error || 'Submission failed');
+            }
+          } catch (err) {
+            console.error(err);
+            window.location.href = buildMailto(fd);
+            form.reset();
+            showStatus('Network issue - opening your email app instead.', false);
+          } finally {
+            setSending(false);
+          }
+        });
+      })();
+    </script>
 
     <!-- Doc Types -->
     <section class="section-padding bg-white" aria-labelledby="doctypes-heading">
@@ -228,7 +369,7 @@ const hybridDocs = [
         <p class="text-lg text-slate-400 mb-10">Contact our support team for additional documentation or technical assistance.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="/contact-us/" class="btn-primary">Contact Support</a>
-          <a href="https://wa.me/919979192935" target="_blank" rel="noopener" class="btn-outline">WhatsApp Us</a>
+          <a href="https://wa.me/919979192935" target="_blank" rel="noopener noreferrer" class="btn-outline">WhatsApp Us</a>
         </div>
       </div>
     </section>

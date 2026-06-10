@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Commissioning: Complete Setup Guide (2026)"
 excerpt: "Commissioning transforms installations into fully functional energy systems. The 7-step protocol determines optimal efficiency from day one and prevents performance issues."
-description: "Comprehensive 7-step solar inverter commissioning protocol — pre-commissioning preparation, electrical testing, system configuration, monitoring setup, performance testing, and warranty-compliant documentation."
+description: "Comprehensive 7-step solar inverter commissioning protocol - pre-commissioning preparation, electrical testing, system configuration, monitoring setup, performance testing, and warranty-compliant documentation."
 category: "Guide"
 date: 2026-04-04
 readTime: "9 min"
@@ -17,11 +17,11 @@ faqs:
   - q: "What essential toolkit do I need for commissioning?"
     a: "Digital multimeter (1000V DC rated), insulation resistance tester (megger), clamp meter, infrared thermometer. Safety: insulated gloves, safety glasses, arc-rated clothing for rooftop work."
   - q: "What's the insulation resistance threshold?"
-    a: "Minimum 1 megohm. Lower readings indicate insulation faults — investigate cable damage, moisture ingress, or panel defects before energising the system."
+    a: "Minimum 1 megohm. Lower readings indicate insulation faults - investigate cable damage, moisture ingress, or panel defects before energising the system."
   - q: "What ventilation clearance is required?"
     a: "30–50 cm minimum on all sides per manufacturer specifications. Inadequate clearance is one of the most common installation errors leading to thermal derating."
   - q: "What grid parameters should I configure for India?"
-    a: "230V ±10% single-phase or 415V ±10% three-phase, 50 Hz ±0.5 Hz frequency. State-specific DISCOM requirements may add additional constraints — verify before commissioning."
+    a: "230V ±10% single-phase or 415V ±10% three-phase, 50 Hz ±0.5 Hz frequency. State-specific DISCOM requirements may add additional constraints - verify before commissioning."
   - q: "Why is commissioning required for warranty activation?"
     a: "Most manufacturers require documented commissioning as a warranty prerequisite, particularly for extended 12-year coverage. Commissioning reports provide evidence of proper installation, configuration, and testing per manufacturer specifications."
 ---
@@ -139,4 +139,4 @@ Solar inverter commissioning transforms installations into fully functional ener
 
 ## Closing
 
-Proper inverter commissioning is the foundation of every successful solar installation. The 7-step protocol — preparation, verification, electrical testing, configuration, monitoring, performance testing, handover — turns equipment into a 25-year asset and protects warranty coverage that may save lakhs over the system's life.
+Proper inverter commissioning is the foundation of every successful solar installation. The 7-step protocol - preparation, verification, electrical testing, configuration, monitoring, performance testing, handover - turns equipment into a 25-year asset and protects warranty coverage that may save lakhs over the system's life.

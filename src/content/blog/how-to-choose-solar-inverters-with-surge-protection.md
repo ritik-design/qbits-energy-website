@@ -1,7 +1,7 @@
 ---
 title: "How to Choose Solar Inverters with Surge Protection (2026)"
 excerpt: "India's grid throws frequent voltage spikes and monsoon lightning at every solar installation. Without robust surge protection, 15-year inverters become 5-year ones."
-description: "Complete guide to surge protection in solar inverters — DC and AC SPD requirements, kA discharge ratings, voltage protection levels, regional risk factors, and warranty implications for India."
+description: "Complete guide to surge protection in solar inverters - DC and AC SPD requirements, kA discharge ratings, voltage protection levels, regional risk factors, and warranty implications for India."
 category: "Buying Guide"
 date: 2026-04-08
 readTime: "7 min"
@@ -21,7 +21,7 @@ faqs:
   - q: "What protection level suits monsoon regions?"
     a: "Specify 40 kA DC and 60 kA AC. Consider Type 1 SPDs for highest lightning density areas (Kerala, NE India, parts of Maharashtra)."
   - q: "Can I retrofit external SPDs to older inverters?"
-    a: "Yes, but proper specification and installation matter. Integrated SPDs remain superior — factory-tuned, fewer connection failures, and warranty-covered."
+    a: "Yes, but proper specification and installation matter. Integrated SPDs remain superior - factory-tuned, fewer connection failures, and warranty-covered."
   - q: "What are the red flags on inverter datasheets?"
     a: "Missing or unclear SPD specifications, requirement for separate SPD purchases, uncertified SPD components, discharge ratings below 15 kA DC or 30 kA AC, and no SPD monitoring or failure indication."
 ---
@@ -96,4 +96,4 @@ Verify the warranty explicitly covers surge-related failures within installation
 
 ## Closing
 
-Surge protection is not optional in India — it is the difference between a 15-year operational asset and a 5-year liability. Specify integrated DC and AC SPDs with adequate kA ratings, demand warranty coverage that includes surge failures, and verify the manufacturer's SPD monitoring capability for proactive replacement.
+Surge protection is not optional in India - it is the difference between a 15-year operational asset and a 5-year liability. Specify integrated DC and AC SPDs with adequate kA ratings, demand warranty coverage that includes surge failures, and verify the manufacturer's SPD monitoring capability for proactive replacement.

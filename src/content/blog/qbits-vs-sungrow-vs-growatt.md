@@ -19,7 +19,7 @@ faqs:
   - q: "Why does inverter warranty matter so much?"
     a: "Inverter-related issues account for approximately 60% of all solar system service calls in India. A 12-year full replacement warranty adds approximately ₹15,000–₹20,000 in value compared to standard 5-year terms and eliminates the cost of mid-life replacement during the system's 25-year life."
   - q: "Do I really need IP66 protection in India?"
-    a: "Yes, especially for rooftop installations. IP66 protects against complete dust ingress and powerful water jets — essential for surviving monsoon rains, dusty industrial environments, and regular high-pressure cleaning. Inverters with lower IP ratings often fail prematurely under these conditions."
+    a: "Yes, especially for rooftop installations. IP66 protects against complete dust ingress and powerful water jets - essential for surviving monsoon rains, dusty industrial environments, and regular high-pressure cleaning. Inverters with lower IP ratings often fail prematurely under these conditions."
   - q: "How does WhatsApp monitoring change the troubleshooting workflow?"
     a: "WhatsApp monitoring delivers real-time alerts directly to the channel installers and clients already use daily. This reduces support calls by 30–40% compared to apps that require separate logins, and lets service teams respond to faults before clients notice generation drops."
   - q: "What is the most important specification difference between these brands?"
@@ -33,7 +33,7 @@ Selecting the right solar inverter brand can make or break your EPC project's pr
 Three major trends are reshaping inverter selection criteria in 2026:
 
 1. **AI-powered monitoring** has moved from premium feature to essential requirement
-2. **Warranty coverage** has become a critical differentiator — extending from a standard 5 years to 10–12 years
+2. **Warranty coverage** has become a critical differentiator - extending from a standard 5 years to 10–12 years
 3. **High-wattage panels (650–750W)** have made DC oversizing capability non-negotiable
 
 Inverter-related issues account for approximately **60% of all solar system service calls** in India. EPCs that prioritise component quality and local service infrastructure report **40–50% fewer warranty claims** and significantly higher customer retention.
@@ -68,19 +68,19 @@ AI-powered **WhatsApp monitoring** delivers:
 
 ### Sungrow
 
-iSolarCloud platform — comprehensive web and mobile dashboards, fleet management, detailed analytics, and remote diagnostics. Ideal for large EPCs managing many sites; interface can overwhelm residential customers.
+iSolarCloud platform - comprehensive web and mobile dashboards, fleet management, detailed analytics, and remote diagnostics. Ideal for large EPCs managing many sites; interface can overwhelm residential customers.
 
 ### Growatt
 
-ShinePhone app — real-time production data, historical access, and basic alerts. Straightforward but limited.
+ShinePhone app - real-time production data, historical access, and basic alerts. Straightforward but limited.
 
 ### Fronius
 
-Solar.web ecosystem — detailed technical data and professional-grade analytics. Excels for commercial projects.
+Solar.web ecosystem - detailed technical data and professional-grade analytics. Excels for commercial projects.
 
 ### Solis
 
-SolisCloud — standard mobile monitoring with reliable but non-distinctive features.
+SolisCloud - standard mobile monitoring with reliable but non-distinctive features.
 
 > **Impact:** intuitive interfaces with native channels reduce support calls by **30–40%**.
 
@@ -115,7 +115,7 @@ Solid manufacturing meeting international standards without component-level diff
 
 ### Qbits
 
-- **IP66 weather protection** — complete dust ingress protection, water jet resistance
+- **IP66 weather protection** - complete dust ingress protection, water jet resistance
 - Comprehensive DC and AC surge protection devices (SPDs)
 - Thermal management maintaining **98% efficiency at ambient temperatures exceeding 45°C**
 - Supports **up to 100% DC oversizing**
@@ -209,18 +209,18 @@ Comprehensive range across residential, commercial, hybrid applications.
 | **Start-up Voltage** | 80V | Standard | Standard | Standard | Standard |
 | **DC Oversizing** | **100%** | Standard | Standard | Standard | Standard |
 | **Efficiency at 45°C+** | **98% maintained** | Derating possible | Derating likely | Derating common | Adequate |
-| **Daily Gen Bonus** | 15–30 min | — | — | — | — |
+| **Daily Gen Bonus** | 15–30 min | - | - | - | - |
 | **Price Position** | Competitive–Premium | Mid–Premium | Budget | Premium | Mid-Market |
 
 ## Final Recommendations by Project Type
 
 ### Residential
 
-**Qbits** — optimal balance of advanced features, extended warranty, and competitive pricing for quality-conscious homeowners.
+**Qbits** - optimal balance of advanced features, extended warranty, and competitive pricing for quality-conscious homeowners.
 
 ### Commercial & Industrial
 
-**Qbits** — comprehensive solutions with IP66 weather protection and surge protection essential for rooftops; extended warranty reduces TCO.
+**Qbits** - comprehensive solutions with IP66 weather protection and surge protection essential for rooftops; extended warranty reduces TCO.
 
 ### Premium Residential
 
@@ -228,12 +228,12 @@ Comprehensive range across residential, commercial, hybrid applications.
 
 ### Large-Scale Commercial / Utility
 
-**Sungrow** — established track record and extensive product range provide credibility and scalability.
+**Sungrow** - established track record and extensive product range provide credibility and scalability.
 
 ### Budget Residential
 
-**Growatt** — competitive bidding enabler, though manage expectations on warranty coverage and features.
+**Growatt** - competitive bidding enabler, though manage expectations on warranty coverage and features.
 
 ## Making the Right Inverter Brand Decision
 
-Brands engineered specifically for Indian conditions — with advanced monitoring, extended warranties, and premium components — deliver superior total cost of ownership over the system's 25-year life. **Qbits combines a 12-year warranty, AI-powered WhatsApp monitoring, German-grade components, IP66 weather protection, and competitive pricing**, making it the optimal choice for EPCs targeting quality-conscious customers without paying the premium European price.
+Brands engineered specifically for Indian conditions - with advanced monitoring, extended warranties, and premium components - deliver superior total cost of ownership over the system's 25-year life. **Qbits combines a 12-year warranty, AI-powered WhatsApp monitoring, German-grade components, IP66 weather protection, and competitive pricing**, making it the optimal choice for EPCs targeting quality-conscious customers without paying the premium European price.

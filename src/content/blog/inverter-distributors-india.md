@@ -1,7 +1,7 @@
 ---
 title: "Inverter Distributors India: Complete Partnership Guide"
 excerpt: "Distributor selection drives availability, warranty processing, and technical support. Here's how Indian EPCs systematically evaluate distribution partners in 2026."
-description: "Complete guide to selecting inverter distributors in India — national vs regional networks, evaluation criteria, 20 essential supplier questions, warranty processing, and red flags to avoid."
+description: "Complete guide to selecting inverter distributors in India - national vs regional networks, evaluation criteria, 20 essential supplier questions, warranty processing, and red flags to avoid."
 category: "Buying Guide"
 date: 2026-04-04
 readTime: "8 min"
@@ -14,7 +14,7 @@ keywords:
   - warranty processing
 faqs:
   - q: "How do I evaluate logistics capabilities?"
-    a: "Request delivery SLAs for different zones — metro cities should see 24–48 hour delivery, remote locations 5–7 days. Verify transit insurance, packaging quality, and damage claim processes."
+    a: "Request delivery SLAs for different zones - metro cities should see 24–48 hour delivery, remote locations 5–7 days. Verify transit insurance, packaging quality, and damage claim processes."
   - q: "What are standard credit terms in solar distribution?"
     a: "Terms range from advance payment for new relationships to 30–45 day credit for established EPCs with proven track records. Build payment history to unlock better terms."
   - q: "Why does technical support matter in distributor selection?"
@@ -22,7 +22,7 @@ faqs:
   - q: "How should warranty claims be handled?"
     a: "Choose distributors with digital warranty systems enabling online registration, real-time tracking, and rapid resolution within 7–15 days. Manual paper-based processes signal future delays."
   - q: "What's the biggest red flag in distributor relationships?"
-    a: "Inconsistent stock availability — combined with poor responsiveness and weak manufacturer relationships, this guarantees project delays and emergency premium costs."
+    a: "Inconsistent stock availability - combined with poor responsiveness and weak manufacturer relationships, this guarantees project delays and emergency premium costs."
 ---
 
 For solar EPCs and installation companies in India's growing renewable energy market, selecting the right inverter distributors is critical to business success. The distribution landscape has evolved significantly, with sophisticated channel networks, digital warranty systems, and specialised technical support becoming standard expectations.

@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Specifications Decoded: 15 Key Parameters"
 excerpt: "EPCs and installers lose thousands per project on spec mismatches. Here are the 15 inverter specifications that actually matter for system performance and ROI."
-description: "Decode the 15 most important solar inverter specifications — DC oversizing, MPPT range, THD, IP rating, efficiency types, temperature derating, communication protocols, warranty terms, and certifications."
+description: "Decode the 15 most important solar inverter specifications - DC oversizing, MPPT range, THD, IP rating, efficiency types, temperature derating, communication protocols, warranty terms, and certifications."
 category: "Guide"
 date: 2026-04-04
 readTime: "10 min"
@@ -14,14 +14,14 @@ keywords:
   - MPPT range
   - THD harmonic distortion
 faqs:
-  - q: "Peak vs weighted efficiency — which matters?"
+  - q: "Peak vs weighted efficiency - which matters?"
     a: "Weighted (Euro/CEC) efficiency matters more. Peak efficiency is best-case at one operating point; weighted accounts for varying irradiance across the day and better represents real-world yield. Look for 97.5–98%+ weighted efficiency."
   - q: "Why does IP rating matter so much in India?"
     a: "Monsoon, coastal salt, and desert dust demand IP66. IP65 is insufficient against wind-driven water and harsh conditions. IP66 provides complete dust protection and resistance to powerful water jets."
   - q: "How much does 0.5% efficiency difference impact ROI?"
     a: "For a 100 kW system generating 150,000 kWh/year, 0.5% loss = 750 kWh = ₹6,000/year = ₹1,50,000+ over 25 years."
   - q: "When is the 12-year warranty premium worth it?"
-    a: "Always for commercial installations. Full replacement warranties eliminate repair downtime, warranty-voiding damage issues, and reduce service call obligations — protecting margins across all projects."
+    a: "Always for commercial installations. Full replacement warranties eliminate repair downtime, warranty-voiding damage issues, and reduce service call obligations - protecting margins across all projects."
   - q: "What's the most overlooked specification?"
     a: "Temperature derating curve. Rooftops in India regularly exceed 50°C, and inverters that derate above this point lose 3–5% summer generation. Always calculate expected output at site ambient, not nameplate."
 ---
@@ -30,7 +30,7 @@ EPCs and solar installation companies in India lose thousands of rupees per proj
 
 ## 1. DC Oversizing Capability
 
-Defines max panel capacity beyond rated AC output. Quality inverters support **100–150% oversizing** — enabling future expansion and optimal energy harvest with modern 750W+ panels.
+Defines max panel capacity beyond rated AC output. Quality inverters support **100–150% oversizing** - enabling future expansion and optimal energy harvest with modern 750W+ panels.
 
 ## 2. Start-Up Voltage and Low-Light Performance
 
@@ -170,4 +170,4 @@ Leading manufacturers verify:
 
 ## Closing
 
-Specifications are not decoration — they are the contract between manufacturer and installer. Understanding what each parameter actually means lets you compare inverters on real-world performance rather than marketing claims, protecting both your projects and your reputation.
+Specifications are not decoration - they are the contract between manufacturer and installer. Understanding what each parameter actually means lets you compare inverters on real-world performance rather than marketing claims, protecting both your projects and your reputation.

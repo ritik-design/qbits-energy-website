@@ -17,7 +17,7 @@ const events = [
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
       {events.map((event) => (
         <div class="group relative rounded-xl overflow-hidden bg-slate-100">
-          <img src={event.image} alt={event.alt} class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <img width="720" height="480" src={event.image} alt={event.alt} class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
       ))}

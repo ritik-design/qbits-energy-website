@@ -1,0 +1,256 @@
+.asp-wrapper {
+    margin: auto;
+    max-width: 1350px;
+}
+
+.asp-toggle {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.asp-toggle-wrap {
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    display: inline-flex;
+    column-gap: 4px;
+    padding: 4px;
+    max-width: 428px;
+    width: 100%;
+}
+
+.asp-toggle button {
+    background-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    flex: 1;
+    padding: 12px 20px;
+    text-transform: inherit;
+}
+
+.asp-toggle button.active {
+    background-color: #149C68;
+    color: #FFFFFF;
+}
+
+#aspMapView {
+    border-radius: 24px;
+    height: 670px;
+    width: 100%;
+    z-index: 1;
+}
+
+.asp-container {
+    display: grid;
+    grid-template-columns: 32.371% 1fr;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.asp-filter {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.asp-filter h4 {
+    border-bottom: 1px solid rgba(21, 22, 26, 0.1);
+    font-weight: 600;
+    line-height: 1.4444444;
+    padding: 20px 20px 16px;
+    margin-bottom: 0;
+}
+
+.asp-filter-content {
+    padding: 20px;
+}
+
+.asp-filter-filed {
+    margin-bottom: 20px;
+}
+
+.asp-filter label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.asp-filter select {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    border: none !important;
+    border-radius: 40px !important;
+    height: 46px !important;
+}
+
+.asp-filter-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 34px;
+}
+
+.asp-filter-actions button {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+    flex: 1;
+    font-size: 16px;
+    padding: 10px;
+    min-height: 48px;
+    text-transform: inherit;
+}
+
+.asp-filter-actions .apply {
+    background: #149C68;
+    border: 1px solid #149C68;
+    color: #FFFFFF;
+}
+
+.gm-style .gm-style-iw {
+    max-width: 400px !important;
+    width: 400px !important;
+}
+
+.gm-ui-hover-effect {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    min-height: 25px !important;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.gm-ui-hover-effect > span {
+    margin: 2px !important;
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.asp-map-popup {
+    display: flex;
+    gap: 15px;
+    position: relative;
+}
+
+.asp-map-popup .asp-actions {
+    right: 0;
+    top: 0;
+}
+
+.asp-list-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.asp-card {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    gap: 15px;
+    padding: 14px;
+    position: relative;
+}
+
+.asp-image {
+    width: 84px;
+}
+
+.asp-image img {
+    border-radius: 4px !important;
+    object-fit: cover;
+    height: 84px !important;
+    width: 84px;
+}
+
+.asp-info {
+    flex: 1;
+}
+
+.asp-info .title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    padding-right: 60px;
+}
+
+.asp-info .designation {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.asp-info .address {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.asp-actions {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+
+.asp-actions svg {
+    display: block;
+}
+
+.asp-pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    grid-column: 1 / -1;
+    width: 100%;
+}
+
+.asp-pagination .asp-page-btn {
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: normal;
+    padding: 0;
+    text-transform: none;
+    width: 42px;
+}
+
+.asp-pagination .asp-page-btn:hover {
+    background-color: transparent;
+}
+
+.asp-pagination .asp-page-current {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media(max-width: 1024.98px) {
+    .asp-container {
+        grid-template-columns: 40% 1fr;
+    }
+
+    .asp-list-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .asp-container {
+        grid-template-columns: 1fr;
+    }
+
+	.gm-style .gm-style-iw {
+		max-width: 300px !important;
+		width: 300px !important;
+	}
+}

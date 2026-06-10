@@ -1,7 +1,7 @@
 ---
 title: "3 kW vs 5 kW vs 10 kW Solar Inverters: Capacity Guide 2026"
 excerpt: "Choosing the right capacity tier determines daily generation, costs, and ROI. Here's the side-by-side comparison for India's three most popular inverter sizes."
-description: "Compare 3 kW, 5 kW, and 10 kW solar inverters for Indian installations — daily generation, panel configuration, pricing, ROI timelines, and the most common capacity selection mistakes."
+description: "Compare 3 kW, 5 kW, and 10 kW solar inverters for Indian installations - daily generation, panel configuration, pricing, ROI timelines, and the most common capacity selection mistakes."
 category: "Buying Guide"
 date: 2026-04-22
 readTime: "7 min"
@@ -15,7 +15,7 @@ keywords:
   - residential solar India
 faqs:
   - q: "Which capacity is most popular in India?"
-    a: "5 kW dominates at 45–50% of residential installations — it suits 3–4 BHK homes, offers optimal cost-per-watt economics, and works with single-phase connections common across India."
+    a: "5 kW dominates at 45–50% of residential installations - it suits 3–4 BHK homes, offers optimal cost-per-watt economics, and works with single-phase connections common across India."
   - q: "Can I oversize panels relative to the inverter?"
     a: "Yes. Modern inverters support 130–200% DC oversizing. A 5 kW inverter can handle 6.5–10 kW of panel capacity, increasing daily energy yield by 8–12%."
   - q: "What's the daily generation difference?"
@@ -26,7 +26,7 @@ faqs:
     a: "3 kW residential: 4–5 years in high-tariff states. 5 kW: 4–5 years. 10 kW commercial: 3.5–4.5 years. Premium inverters with 12-year warranties extend the ROI advantage further."
 ---
 
-Choosing the right inverter capacity is critical for solar system design. Capacity — measured in kilowatts — determines how much DC power converts to usable AC electricity and influences performance, costs, and ROI.
+Choosing the right inverter capacity is critical for solar system design. Capacity - measured in kilowatts - determines how much DC power converts to usable AC electricity and influences performance, costs, and ROI.
 
 ## 3 kW Inverter Capacity
 
@@ -48,7 +48,7 @@ Choosing the right inverter capacity is critical for solar system design. Capaci
 | Price range | ₹28,000–65,000 |
 | Advantages | **Optimal cost-per-watt economics**, single-phase compatible |
 
-The dominant market tier — best balance of capacity, cost, and complexity.
+The dominant market tier - best balance of capacity, cost, and complexity.
 
 ## 10 kW Inverter Capacity
 
@@ -75,10 +75,10 @@ The dominant market tier — best balance of capacity, cost, and complexity.
 
 ## Common Capacity Selection Mistakes
 
-1. **Undersizing to minimise costs** — saving ₹20,000 loses ₹2,00,000 over 25 years
+1. **Undersizing to minimise costs** - saving ₹20,000 loses ₹2,00,000 over 25 years
 2. **Overlooking DC oversizing** (supports 130–200% panel capacity)
 3. **Ignoring future load growth** (EV charging, expansion)
-4. **Choosing based solely on price** — TCO matters more
+4. **Choosing based solely on price** - TCO matters more
 
 ## Modern Panel Impact
 
@@ -103,4 +103,4 @@ Modern units supporting aggressive oversizing can **increase total daily yield b
 
 ## Closing
 
-The 3 kW / 5 kW / 10 kW choice is about matching consumption patterns to inverter capacity with appropriate headroom for future load growth and DC oversizing flexibility. The 5 kW tier wins in most residential applications by combining capacity, cost, and single-phase simplicity — but always run actual consumption analysis before defaulting to the popular choice.
+The 3 kW / 5 kW / 10 kW choice is about matching consumption patterns to inverter capacity with appropriate headroom for future load growth and DC oversizing flexibility. The 5 kW tier wins in most residential applications by combining capacity, cost, and single-phase simplicity - but always run actual consumption analysis before defaulting to the popular choice.

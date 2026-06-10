@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Replacement Costs in India: 2026 Budget Guide"
 excerpt: "An out-of-warranty replacement can cost ₹2–8 lakhs for commercial systems. Here's the 2026 cost breakdown and how warranty coverage transforms 25-year economics."
-description: "2026 budget guide to solar inverter replacement costs in India — equipment, labour, transportation, and downtime. Repair vs replace decision framework and how 12-year warranties save ₹1.2–2.4 lakhs per system."
+description: "2026 budget guide to solar inverter replacement costs in India - equipment, labour, transportation, and downtime. Repair vs replace decision framework and how 12-year warranties save ₹1.2–2.4 lakhs per system."
 category: "Buying Guide"
 date: 2026-05-06
 readTime: "8 min"
@@ -46,13 +46,13 @@ Inverter replacement is one of the largest unplanned costs in a solar project's 
 
 ## 7 Critical Cost Factors
 
-1. **Capacity and type** — larger and hybrid units command premium pricing
-2. **Brand quality** — German-grade components extend lifespan, reducing replacement frequency
-3. **Warranty coverage** — duration and scope dramatically impact total cost
-4. **Site accessibility** — rooftop installations cost more than ground-mounted
-5. **System age** — older systems may require compatibility work
-6. **Service network** — local availability reduces downtime losses
-7. **Urgency** — emergency replacements carry premium charges
+1. **Capacity and type** - larger and hybrid units command premium pricing
+2. **Brand quality** - German-grade components extend lifespan, reducing replacement frequency
+3. **Warranty coverage** - duration and scope dramatically impact total cost
+4. **Site accessibility** - rooftop installations cost more than ground-mounted
+5. **System age** - older systems may require compatibility work
+6. **Service network** - local availability reduces downtime losses
+7. **Urgency** - emergency replacements carry premium charges
 
 ## Warranty Impact: 5-Year vs 12-Year
 
@@ -93,12 +93,12 @@ A **12-year full replacement warranty** means the manufacturer bears the full co
 
 ## Cost Minimisation Strategies
 
-- Select inverters designed for Indian climate — **IP66, surge protection, wide temperature range**
+- Select inverters designed for Indian climate - **IP66, surge protection, wide temperature range**
 - Deploy **AI-powered monitoring** for early fault detection
-- Follow proper installation practices — ventilation, cable sizing, earthing
+- Follow proper installation practices - ventilation, cable sizing, earthing
 - Maintain **annual or bi-annual service** schedules
 - Choose manufacturers with strong India service networks
 
 ## Closing
 
-Replacement cost planning is core financial discipline for any solar project. A 12-year full replacement warranty is not a premium — it is an insurance policy with a guaranteed return for any installation that will run beyond a decade. Combine it with rigorous selection and disciplined maintenance, and replacement becomes a planned year-15+ refresh rather than an emergency.
+Replacement cost planning is core financial discipline for any solar project. A 12-year full replacement warranty is not a premium - it is an insurance policy with a guaranteed return for any installation that will run beyond a decade. Combine it with rigorous selection and disciplined maintenance, and replacement becomes a planned year-15+ refresh rather than an emergency.

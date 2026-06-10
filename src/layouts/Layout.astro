@@ -6,6 +6,8 @@ export interface Props {
   description?: string;
   ogImage?: string;
   canonical?: string;
+  noindex?: boolean;
+  preloadImage?: string;
 }
 
 const {
@@ -13,9 +15,21 @@ const {
   description = 'Qbits Energy manufactures high-efficiency solar inverters for residential, commercial & industrial applications. On-grid & hybrid inverters with advanced MPPT technology.',
   ogImage = '/og-image.webp',
   canonical = Astro.url.pathname,
+  noindex = false,
+  preloadImage,
 } = Astro.props;
 
 const fullTitle = title.includes('Qbits') ? title : `${title} | Qbits Energy`;
+const SITE = 'https://qbitsenergy.com';
+const canonicalUrl = `${SITE}${canonical}`;
+const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${SITE}${ogImage}`;
+
+// Build-time env vars (set in Cloudflare Pages dashboard or .env):
+//   PUBLIC_GTM_ID            — e.g. "GTM-XXXXXXX". When set, GA/GTM snippet renders.
+//   PUBLIC_ROBOTS_NOINDEX    — "true" on preview/staging deployments (keeps pages.dev out of Google).
+const GTM_ID = import.meta.env.PUBLIC_GTM_ID || '';
+const ENV_NOINDEX = String(import.meta.env.PUBLIC_ROBOTS_NOINDEX || '').toLowerCase() === 'true';
+const renderNoindex = noindex || ENV_NOINDEX;
 ---
 
 <!DOCTYPE html>
@@ -23,9 +37,20 @@ const fullTitle = title.includes('Qbits') ? title : `${title} | Qbits Energy`;
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10b981" />
   <title>{fullTitle}</title>
   <meta name="description" content={description} />
-  <link rel="canonical" href={`https://qbitsenergy.com${canonical}`} />
+  <link rel="canonical" href={canonicalUrl} />
+  {renderNoindex && <meta name="robots" content="noindex,nofollow" />}
+
+  {GTM_ID && (
+    <script is:inline set:html={`
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+      var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
+      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','${GTM_ID}');
+    `} />
+  )}
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -33,63 +58,111 @@ const fullTitle = title.includes('Qbits') ? title : `${title} | Qbits Energy`;
   <link rel="shortcut icon" type="image/png" href="/favicon-192x192.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
-  <!-- Fonts -->
+  <!-- Fonts: trimmed from 7 weights to 4 -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
+
+  <!-- LCP preload (per-page) -->
+  {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />}
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content={`https://qbitsenergy.com${canonical}`} />
+  <meta property="og:url" content={canonicalUrl} />
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content={`https://qbitsenergy.com${ogImage}`} />
+  <meta property="og:image" content={ogImageUrl} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="Qbits Energy" />
+  <meta property="og:locale" content="en_IN" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content={`https://qbitsenergy.com${canonical}`} />
+  <meta name="twitter:url" content={canonicalUrl} />
   <meta name="twitter:title" content={fullTitle} />
   <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content={`https://qbitsenergy.com${ogImage}`} />
+  <meta name="twitter:image" content={ogImageUrl} />
 
   <!-- Structured Data - Organization -->
-  <script type="application/ld+json">
-  {
+  <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Qbits Energy",
-    "url": "https://qbitsenergy.com",
-    "logo": "https://qbitsenergy.com/logo.webp",
+    "legalName": "Qbits Inverters Limited",
+    "url": SITE,
+    "logo": `${SITE}/images/logo.webp`,
     "description": "Leading solar inverter manufacturer in India. High-efficiency on-grid and hybrid inverters for residential, commercial and industrial solar installations.",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Heaven Green Energy Limited"
+    },
     "sameAs": [
-      "https://www.linkedin.com/company/qbits-energy"
+      "https://www.linkedin.com/company/qbits-inverter/",
+      "https://www.facebook.com/61575849178110/",
+      "https://www.instagram.com/qbitsenergy/",
+      "https://www.youtube.com/@qbitsenergy"
     ],
-    "contactPoint": {
+    "contactPoint": [{
       "@type": "ContactPoint",
-      "telephone": "+91-xxx-xxx-xxxx",
-      "contactType": "sales",
+      "telephone": "+919979192935",
+      "contactType": "customer service",
       "areaServed": "IN",
       "availableLanguage": ["English", "Hindi"]
-    }
-  }
-  </script>
+    }]
+  })} />
 
-  <!-- Structured Data - Website -->
-  <script type="application/ld+json">
-  {
+  <!-- Structured Data - LocalBusiness -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": `${SITE}/#localbusiness`,
+    "name": "Qbits Energy",
+    "image": `${SITE}/images/logo.webp`,
+    "url": SITE,
+    "telephone": "+919979192935",
+    "email": "service@qbitsenergy.com",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "201, Anupam Square, Mahadev Chowk, Mota Varachha",
+      "addressLocality": "Surat",
+      "addressRegion": "Gujarat",
+      "postalCode": "394101",
+      "addressCountry": "IN"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
+    }
+  })} />
+
+  <!-- Structured Data - WebSite -->
+  <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Qbits Energy",
-    "url": "https://qbitsenergy.com",
+    "url": SITE,
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://qbitsenergy.com/?s={search_term_string}",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${SITE}/search/?q={search_term_string}`
+      },
       "query-input": "required name=search_term_string"
     }
-  }
-  </script>
+  })} />
+
+  <!-- Per-page extra head (schema, preload, etc.) -->
+  <slot name="head" />
 </head>
 <body>
+  {GTM_ID && (
+    <noscript>
+      <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`} height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+  )}
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-brand-600 focus:text-white focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg">Skip to content</a>
   <slot />
 </body>
 </html>

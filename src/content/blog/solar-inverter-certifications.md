@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Certifications: 9 Essential Standards EPCs Must Verify (2026)"
 excerpt: "BIS certification is mandatory. Skipping verification can cost ₹1–10 lakhs in penalties, blocked DISCOM connections, voided warranties, and lost subsidies. Here's the 9-standard verification framework."
-description: "Complete guide to inverter certifications EPCs must verify in India — BIS Compulsory Registration, IEC 62109/62116, ISO 9001, IP66 ratings, anti-islanding, plus a step-by-step verification process and red flags."
+description: "Complete guide to inverter certifications EPCs must verify in India - BIS Compulsory Registration, IEC 62109/62116, ISO 9001, IP66 ratings, anti-islanding, plus a step-by-step verification process and red flags."
 category: "Guide"
 date: 2026-04-04
 readTime: "10 min"
@@ -46,7 +46,7 @@ BIS certification has been **mandatory for grid-connected solar inverters since 
 
 - ISI mark with unique registration number (R-XXXXXXXX format)
 - Verify authenticity through **bis.gov.in's "Check Product Certification"** portal
-- **Model-specific** — not manufacturer-wide
+- **Model-specific** - not manufacturer-wide
 - Match exact model numbers, capacity ratings, and specs
 
 ## 2. IEC Standards: International Quality Benchmarks
@@ -57,7 +57,7 @@ BIS certification has been **mandatory for grid-connected solar inverters since 
 | **IEC 61683** | Performance testing |
 | **IEC 62116** | Anti-islanding protection |
 
-Request complete test reports — not just certificates — from accredited testing laboratories.
+Request complete test reports - not just certificates - from accredited testing laboratories.
 
 ## 3. ISO Quality Management Certifications
 
@@ -239,4 +239,4 @@ Quality compliance drives repeat business and referrals. Cutting corners sacrifi
 
 ## Closing
 
-Certifications are not bureaucratic paperwork — they are the legal and financial protection layer for every solar project. Build a verification process once, train your team, automate the tracking, and you eliminate one of the most preventable categories of project risk in Indian solar.
+Certifications are not bureaucratic paperwork - they are the legal and financial protection layer for every solar project. Build a verification process once, train your team, automate the tracking, and you eliminate one of the most preventable categories of project risk in Indian solar.

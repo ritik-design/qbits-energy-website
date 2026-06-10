@@ -35,7 +35,7 @@ const products = [
       {products.map((product) => (
         <a href={product.href} class="group block bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-brand-200 transition-all duration-300">
           <div class="aspect-square overflow-hidden bg-slate-100">
-            <img src={product.image} alt={product.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+            <img width="1920" height="1080" src={product.image} alt={product.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
           </div>
           <div class="p-4 text-center">
             <h3 class="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors">{product.title}</h3>

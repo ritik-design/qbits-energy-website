@@ -41,16 +41,39 @@ function getFeatureIcon(feature: string): string {
   }
   return 'M5 13l4 4L19 7';
 }
+
+const SITE = 'https://qbitsenergy.com';
+const hybridSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Hybrid Solar Inverters',
+  description: 'Qbits hybrid solar inverters with battery support and seamless grid/off-grid switching for Indian homes and small commercial sites.',
+  numberOfItems: hybridProducts.length,
+  itemListElement: hybridProducts.map((p, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'Product',
+      name: p.name,
+      url: `${SITE}/our-products/${p.id}/`,
+      image: p.image ? `${SITE}${p.image}` : `${SITE}/og-image.webp`,
+      sku: p.id,
+      brand: { '@type': 'Brand', name: 'Qbits Energy' },
+      category: 'Hybrid Solar Inverter',
+    },
+  })),
+};
 ---
 
 <Layout
-  title="Hybrid Inverters | Qbits Energy"
+  title="Hybrid Solar Inverters India - Battery-Ready 3 kW to 12 kW | Qbits Energy"
   description="Intelligent battery-ready hybrid solar inverters from 3kW to 12kW. Seamless grid and off-grid switching with smart energy management."
   canonical="/hybrid-inverter/"
 >
   <HeaderV2 />
+  <script type="application/ld+json" set:html={JSON.stringify(hybridSchema)} />
 
-  <main>
+  <main id="main-content">
     <PageHeader
       label="Hybrid Inverters"
       title="Battery-Ready"
@@ -111,7 +134,7 @@ function getFeatureIcon(feature: string): string {
                 <!-- Product Image -->
                 <div class="relative bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center min-h-[280px]">
                   {product.image ? (
-                    <img src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img width="720" height="480" src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                   ) : (
                     <div class="w-20 h-20 rounded-xl bg-slate-200 border border-slate-300 flex items-center justify-center">
                       <svg class="w-10 h-10 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -187,7 +210,7 @@ function getFeatureIcon(feature: string): string {
                 <!-- Product Image -->
                 <div class="relative bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center min-h-[280px]">
                   {product.image ? (
-                    <img src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                    <img width="720" height="480" src={product.image} alt={product.name} class="max-h-[220px] w-auto object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                   ) : (
                     <div class="w-20 h-20 rounded-xl bg-slate-200 border border-slate-300 flex items-center justify-center">
                       <svg class="w-10 h-10 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

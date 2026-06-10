@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Downtime: 15 Critical Questions Answered"
 excerpt: "Every hour of inverter downtime is lost revenue. A 100 kW commercial system loses ₹2,000–3,500/day. Here's the complete framework for minimising it."
-description: "15 critical questions on solar inverter downtime — causes, financial impact, monitoring solutions, preventive maintenance, weather protection, and warranty-based protection strategies for Indian installations."
+description: "15 critical questions on solar inverter downtime - causes, financial impact, monitoring solutions, preventive maintenance, weather protection, and warranty-based protection strategies for Indian installations."
 category: "Maintenance"
 date: 2026-04-08
 readTime: "8 min"
@@ -17,7 +17,7 @@ faqs:
   - q: "What are the most common causes of inverter downtime?"
     a: "Component degradation, grid voltage fluctuations (±20% or more in many Indian regions), environmental factors (dust, moisture, corrosion), poor installation quality, and lack of preventive maintenance."
   - q: "How much revenue do I lose during downtime?"
-    a: "A 100 kW commercial system loses ₹2,000–₹3,500/day during peak months. 2% annual downtime equates to approximately ₹30,000 in lost savings — and uptime advantages compound over 25 years."
+    a: "A 100 kW commercial system loses ₹2,000–₹3,500/day during peak months. 2% annual downtime equates to approximately ₹30,000 in lost savings - and uptime advantages compound over 25 years."
   - q: "What monitoring features reduce downtime fastest?"
     a: "Real-time systems with instant alerts, AI-powered predictive maintenance, remote diagnostics enabling resolution without site visits, and WhatsApp notifications for immediate response in the Indian context."
   - q: "Which preventive maintenance has the highest impact?"
@@ -36,8 +36,8 @@ Downtime refers to periods when inverters fail to convert DC to AC electricity. 
 
 - **Component degradation and failure** (especially capacitors)
 - **Grid voltage fluctuations** (±20% or more in many Indian regions)
-- **Environmental factors** — dust, moisture, corrosion
-- **Installation quality issues** — loose connections, inadequate ventilation
+- **Environmental factors** - dust, moisture, corrosion
+- **Installation quality issues** - loose connections, inadequate ventilation
 - **Lack of preventive maintenance**
 
 ## Financial Impact
@@ -93,4 +93,4 @@ Downtime refers to periods when inverters fail to convert DC to AC electricity. 
 
 ## Closing
 
-Inverter downtime is not an inevitability — it is an outcome of equipment choice, installation quality, monitoring rigour, and maintenance discipline. Every 1% uptime improvement on a 100 kW commercial system is worth ₹15,000+ annually. Make the upfront investments in monitoring and weather protection, and downtime stops being a meaningful project risk.
+Inverter downtime is not an inevitability - it is an outcome of equipment choice, installation quality, monitoring rigour, and maintenance discipline. Every 1% uptime improvement on a 100 kW commercial system is worth ₹15,000+ annually. Make the upfront investments in monitoring and weather protection, and downtime stops being a meaningful project risk.

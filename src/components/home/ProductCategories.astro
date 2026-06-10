@@ -2,14 +2,14 @@
 const products = [
   {
     title: 'On Grid Inverters',
-    subtitle: '1kW — 125kW',
+    subtitle: '1kW - 125kW',
     desc: 'High-efficiency grid-tied inverters for every scale.',
     href: '/on-grid-inverter/',
     image: '/images/ongrid-res.webp',
   },
   {
     title: 'Hybrid Inverters',
-    subtitle: '3kW — 12kW',
+    subtitle: '3kW - 12kW',
     desc: 'Battery-ready inverters for energy independence.',
     href: '/hybrid-inverter/',
     image: '/images/hybrid.webp',
@@ -33,7 +33,7 @@ const products = [
       {products.map((product) => (
         <a href={product.href} class="group relative rounded-3xl overflow-hidden aspect-[4/3] bg-slate-900">
           <!-- Image -->
-          <img
+          <img width="1920" height="1080"
             src={product.image}
             alt={product.title}
             class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"

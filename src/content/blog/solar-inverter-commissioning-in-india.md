@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Commissioning in India: Complete Guide 2026"
-excerpt: "Commissioning isn't installation — it's the rigorous testing and validation that activates the warranty and establishes the performance baseline. Here's the complete protocol for Indian projects."
-description: "Step-by-step solar inverter commissioning guide for India — pre-commissioning prep, electrical testing, configuration, monitoring setup, protection testing, documentation, and warranty-compliant handover."
+excerpt: "Commissioning isn't installation - it's the rigorous testing and validation that activates the warranty and establishes the performance baseline. Here's the complete protocol for Indian projects."
+description: "Step-by-step solar inverter commissioning guide for India - pre-commissioning prep, electrical testing, configuration, monitoring setup, protection testing, documentation, and warranty-compliant handover."
 category: "Guide"
 date: 2026-04-08
 readTime: "11 min"
@@ -19,7 +19,7 @@ faqs:
   - q: "Who should perform commissioning?"
     a: "EPCs or installation companies typically handle commissioning due to site access and installation familiarity. Manufacturer involvement adds value for large commercial projects or unfamiliar inverter models. Some manufacturers require certified technicians as a warranty condition."
   - q: "Is commissioning required for warranty?"
-    a: "Yes — most quality inverter manufacturers require documented commissioning as a warranty prerequisite, particularly for extended (12-year) warranties. Review warranty terms before installation."
+    a: "Yes - most quality inverter manufacturers require documented commissioning as a warranty prerequisite, particularly for extended (12-year) warranties. Review warranty terms before installation."
   - q: "Can commissioning be done during monsoon?"
     a: "Possible but with precautions. Avoid active rainfall (rooftop safety and water damage risks). Light rain or overcast acceptable for IP66 inverters; performance validation should wait for clear conditions."
   - q: "What earth resistance target should I use?"
@@ -28,7 +28,7 @@ faqs:
 
 Solar inverter commissioning is the critical process of verifying, testing, and validating that installed inverters operate per design specs and manufacturer standards. Professional commissioning ensures optimal performance, regulatory compliance, warranty activation, and reliable operation across India's challenging conditions.
 
-## What Commissioning Is — and What It Is Not
+## What Commissioning Is - and What It Is Not
 
 Commissioning is **not** just installation:
 
@@ -38,10 +38,10 @@ Commissioning is **not** just installation:
 
 ### Key Functions
 
-- **Standards compliance** — validates BIS and IEC adherence
-- **Warranty activation** — most manufacturers require documented commissioning
-- **Performance baseline** — reference for future troubleshooting
-- **ROI impact** — properly commissioned 98% inverters generate significantly more than improperly configured units at 92–94%
+- **Standards compliance** - validates BIS and IEC adherence
+- **Warranty activation** - most manufacturers require documented commissioning
+- **Performance baseline** - reference for future troubleshooting
+- **ROI impact** - properly commissioned 98% inverters generate significantly more than improperly configured units at 92–94%
 
 For a 100 kW commercial installation, this efficiency gap means thousands of kWh annually.
 
@@ -177,8 +177,8 @@ For a 100 kW commercial installation, this efficiency gap means thousands of kWh
 
 | Frequency | Activity |
 | --- | --- |
-| Quarterly | Visual inspections — damage, loose connections, cooling obstruction |
-| Annual | Detailed — ventilation cleaning, grounding, thermal imaging |
+| Quarterly | Visual inspections - damage, loose connections, cooling obstruction |
+| Annual | Detailed - ventilation cleaning, grounding, thermal imaging |
 | Dusty/coastal | Increased cleaning frequency |
 
 ### Performance Tracking

@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Testing & Quality Assurance in India 2026"
 excerpt: "1,000+ automated tests per unit separates 25-year inverters from 7-year inverters. Here's the complete factory-to-field QA framework."
-description: "Complete testing and QA guide for solar inverters in India — BIS/IEC certification, factory test protocols (1,000+ tests), electrical performance validation, environmental testing, commissioning tests, and ongoing monitoring."
+description: "Complete testing and QA guide for solar inverters in India - BIS/IEC certification, factory test protocols (1,000+ tests), electrical performance validation, environmental testing, commissioning tests, and ongoing monitoring."
 category: "Guide"
 date: 2026-04-19
 readTime: "8 min"
@@ -21,7 +21,7 @@ faqs:
   - q: "What commissioning tests are essential?"
     a: "Insulation resistance (>1 megohm), polarity verification, voltage confirmation, grid synchronisation, anti-islanding testing (<2 second disconnect), and monitoring system validation."
   - q: "How does testing impact ROI?"
-    a: "Comprehensive testing extends lifespan to 12–15+ years with minimal degradation — roughly doubling lifetime energy vs poorly tested units that need replacement at year 7."
+    a: "Comprehensive testing extends lifespan to 12–15+ years with minimal degradation - roughly doubling lifetime energy vs poorly tested units that need replacement at year 7."
   - q: "What's the target MPPT accuracy?"
     a: ">99.5%. Combined with weighted efficiency 97.5%+ and grid synchronisation within ±0.1 Hz, this defines the upper tier of testing rigour."
 ---
@@ -44,7 +44,7 @@ Comprehensive testing directly impacts system uptime, warranty claims, and long-
 
 Premium manufacturers conduct **1,000+ automated tests per unit**:
 
-- **Component-level validation** — semiconductors, capacitors, microcontrollers
+- **Component-level validation** - semiconductors, capacitors, microcontrollers
 - **Post-soldering X-ray inspection**
 - **Automated Test Equipment (ATE)** across full operating range
 - **Statistical process control** tracking trends
@@ -63,9 +63,9 @@ Premium manufacturers conduct **1,000+ automated tests per unit**:
 
 India-specific challenges addressed:
 
-- **IP66 validation** — dust chamber, water jet testing per IEC 60529
-- **Temperature cycling** — -10°C to +60°C
-- **Humidity exposure** — 85–95% RH for 1,000+ hours
+- **IP66 validation** - dust chamber, water jet testing per IEC 60529
+- **Temperature cycling** - -10°C to +60°C
+- **Humidity exposure** - 85–95% RH for 1,000+ hours
 - **Surge protection validation** per IEC 61643
 - **Vibration testing** for transport and installation
 
@@ -91,4 +91,4 @@ Essential procedures:
 
 ## Closing
 
-The difference between reliable 25-year installations and failure-prone systems often traces back to testing rigour. Specify inverters with documented 1,000+ test protocols, conduct thorough commissioning, and maintain ongoing monitoring discipline — and quality assurance becomes a competitive moat rather than a checkbox.
+The difference between reliable 25-year installations and failure-prone systems often traces back to testing rigour. Specify inverters with documented 1,000+ test protocols, conduct thorough commissioning, and maintain ongoing monitoring discipline - and quality assurance becomes a competitive moat rather than a checkbox.

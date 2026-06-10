@@ -12,7 +12,23 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  integrations: [react(), sitemap()],
+  integrations: [
+    react(),
+    sitemap({
+      changefreq: 'weekly',
+      priority: 0.7,
+      lastmod: new Date(),
+      serialize(item) {
+        // Higher priority for top-of-funnel landing pages
+        if (item.url.match(/qbitsenergy\.com\/?$/)) item.priority = 1.0;
+        else if (item.url.match(/\/(our-products|on-grid-inverter|hybrid-inverter|contact-us)\/?$/)) item.priority = 0.9;
+        else if (item.url.match(/\/(residential-solution|c-i-solution|why-qbits|about-us|authorized-service-partners)\/?$/)) item.priority = 0.8;
+        else if (item.url.includes('/blog/page/')) item.priority = 0.5;
+        else if (item.url.includes('/blog/')) item.priority = 0.7;
+        return item;
+      },
+    }),
+  ],
 
   // 301 redirects: old WordPress date-based URLs → new /blog/slug/ paths
   redirects: {

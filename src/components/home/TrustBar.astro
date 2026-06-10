@@ -21,7 +21,7 @@ const logos = [
     <div class="trust-logos flex flex-wrap items-center justify-center gap-8 lg:gap-12">
       {logos.map((logo) => (
         <div class="h-14 w-auto flex items-center justify-center grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-500">
-          <img src={logo.src} alt={logo.alt} class="h-full w-auto object-contain max-w-[140px]" loading="lazy" />
+          <img src={logo.src} alt={logo.alt} width="140" height="56" class="h-full w-auto object-contain max-w-[140px]" loading="lazy" decoding="async" />
         </div>
       ))}
     </div>

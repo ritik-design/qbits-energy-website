@@ -24,7 +24,7 @@ const allLogos = [...logos, ...logos, ...logos];
     <div class="flex items-center gap-8 animate-marquee-logos">
       {allLogos.map((logo, i) => (
         <div class="shrink-0 bg-white rounded-xl border border-slate-200 px-8 py-5 flex items-center justify-center h-28 w-48 hover:shadow-md transition-shadow">
-          <img src={logo.src} alt={logo.alt} class="max-h-16 max-w-full object-contain" loading="lazy" />
+          <img width="720" height="480" src={logo.src} alt={logo.alt} class="max-h-16 max-w-full object-contain" loading="lazy" />
         </div>
       ))}
     </div>

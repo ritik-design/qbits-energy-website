@@ -14,7 +14,7 @@ const marqueeText = 'Smart Solar Solutions • Clean Energy Power • High Effic
   <div class="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] overflow-hidden" id="hero-slider">
     {slides.map((slide, i) => (
       <div class={`absolute inset-0 transition-opacity duration-1000 ${i === 0 ? 'opacity-100' : 'opacity-0'}`} data-slide={i}>
-        <img src={slide.image} alt={slide.alt} class="w-full h-full object-cover" loading={i === 0 ? 'eager' : 'lazy'} />
+        <img width="1920" height="1080" src={slide.image} alt={slide.alt} class="w-full h-full object-cover" loading={i === 0 ? 'eager' : 'lazy'} />
         <div class="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent"></div>
       </div>
     ))}

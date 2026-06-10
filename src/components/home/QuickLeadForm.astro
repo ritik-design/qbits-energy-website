@@ -1,0 +1,178 @@
+---
+// Quick lead form surfaced near the top of the homepage.
+// Submits via the same code path as /contact-us/ (Apps Script + mailto fallback).
+---
+
+<section class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 py-16 lg:py-24 border-t border-white/5" aria-labelledby="quick-lead-heading">
+  <div class="container-main">
+    <div class="max-w-5xl mx-auto bg-gradient-to-br from-brand-600/10 via-white/[0.02] to-transparent ring-1 ring-white/10 rounded-3xl p-8 sm:p-10 lg:p-14 backdrop-blur-sm">
+      <div class="grid lg:grid-cols-[1fr_minmax(420px,1fr)] gap-10 lg:gap-14 items-center">
+        <div>
+          <span class="inline-flex items-center gap-2 rounded-full bg-brand-500/15 ring-1 ring-brand-500/30 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brand-400">
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-400 animate-pulse"></span>
+            Free Site Survey
+          </span>
+          <h2 id="quick-lead-heading" class="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
+            Tell us about your roof - we'll size the system.
+          </h2>
+          <p class="mt-5 text-base sm:text-lg text-slate-300 leading-relaxed">
+            Share three details. A Qbits engineer will call back within one business day with a recommended inverter size, expected savings, and a partner near you.
+          </p>
+          <ul class="mt-6 space-y-3 text-sm text-slate-300">
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 mt-0.5 text-brand-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              Honest answer - even if Qbits isn't the right fit.
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 mt-0.5 text-brand-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              No spam, no follow-up sales calls without your permission.
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 mt-0.5 text-brand-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              Prefer WhatsApp? Use the green button bottom-right.
+            </li>
+          </ul>
+        </div>
+
+        <form id="quick-lead-form" class="bg-white rounded-2xl p-6 sm:p-7 shadow-2xl shadow-brand-500/10 space-y-4" action="mailto:service@qbitsenergy.com" method="post" enctype="text/plain">
+          <div>
+            <label for="ql-name" class="block text-xs font-semibold text-slate-600 mb-1.5 uppercase tracking-wider">Full name</label>
+            <input type="text" id="ql-name" name="name" required maxlength="80" autocomplete="name" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all" placeholder="Your name" />
+          </div>
+          <div>
+            <label for="ql-phone" class="block text-xs font-semibold text-slate-600 mb-1.5 uppercase tracking-wider">Phone (we'll call back)</label>
+            <input type="tel" id="ql-phone" name="phone" required pattern="[+0-9 ()\-]{7,16}" inputmode="tel" autocomplete="tel" maxlength="20" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all" placeholder="+91 ..." />
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label for="ql-city" class="block text-xs font-semibold text-slate-600 mb-1.5 uppercase tracking-wider">City</label>
+              <input type="text" id="ql-city" name="city" required maxlength="60" autocomplete="address-level2" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all" placeholder="e.g. Surat" />
+            </div>
+            <div>
+              <label for="ql-size" class="block text-xs font-semibold text-slate-600 mb-1.5 uppercase tracking-wider">System size</label>
+              <select id="ql-size" name="systemSize" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all">
+                <option>Not sure yet</option>
+                <option>1 – 3 kW (small home)</option>
+                <option>3 – 6 kW (typical home)</option>
+                <option>6 – 10 kW (large home)</option>
+                <option>10 – 50 kW (commercial)</option>
+                <option>50 kW + (industrial)</option>
+              </select>
+            </div>
+          </div>
+          <!-- Honeypot -->
+          <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
+            <label>Don't fill: <input type="text" id="ql-website" name="website" tabindex="-1" autocomplete="off" /></label>
+          </div>
+          <input type="hidden" name="subject" value="Quick site-survey request" />
+          <button type="submit" id="ql-submit" class="w-full rounded-xl bg-brand-600 hover:bg-brand-700 transition-all duration-300 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30">
+            <span data-ql-default>Request site survey</span>
+            <span data-ql-sending class="hidden">Sending…</span>
+          </button>
+          <p id="ql-status" class="text-xs mt-1 hidden" role="status" aria-live="polite"></p>
+          <p class="text-[11px] text-slate-400 leading-relaxed">
+            By submitting, you agree to our <a href="/privacy-policy/" class="text-brand-600 hover:underline">Privacy Policy</a>.
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script is:inline define:vars={{
+    GAS_ENDPOINT: import.meta.env.PUBLIC_GAS_ENDPOINT || 'REPLACE_WITH_DEPLOYED_APPS_SCRIPT_WEB_APP_URL',
+    FORM_TOKEN: import.meta.env.PUBLIC_FORM_TOKEN || '',
+  }}>
+  (() => {
+    const FALLBACK_EMAIL = 'service@qbitsenergy.com';
+    const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
+
+    const form = document.getElementById('quick-lead-form');
+    if (!form) return;
+    const status = document.getElementById('ql-status');
+    const btn = document.getElementById('ql-submit');
+    const labelDefault = btn.querySelector('[data-ql-default]');
+    const labelSending = btn.querySelector('[data-ql-sending]');
+
+    const setSending = (sending) => {
+      btn.disabled = sending;
+      labelDefault.classList.toggle('hidden', sending);
+      labelSending.classList.toggle('hidden', !sending);
+    };
+    const showStatus = (msg, ok) => {
+      status.classList.remove('hidden');
+      status.textContent = msg;
+      status.className = 'text-xs mt-1 ' + (ok ? 'text-emerald-600' : 'text-rose-600');
+    };
+    const buildMailto = (fd) => {
+      const body =
+        'Name: ' + (fd.get('name') || '') + '\n' +
+        'Phone: ' + (fd.get('phone') || '') + '\n' +
+        'City: ' + (fd.get('city') || '') + '\n' +
+        'System size: ' + (fd.get('systemSize') || '') + '\n';
+      return 'mailto:' + FALLBACK_EMAIL +
+        '?subject=' + encodeURIComponent('Quick site-survey request from homepage') +
+        '&body=' + encodeURIComponent(body);
+    };
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!form.reportValidity()) return;
+      if ((form.elements.namedItem('website') || {}).value) {
+        form.reset();
+        showStatus('Thanks! We will call you within one business day.', true);
+        return;
+      }
+      const fd = new FormData(form);
+      ['name', 'phone', 'city'].forEach((k) => {
+        const v = fd.get(k);
+        if (typeof v === 'string') fd.set(k, v.trim());
+      });
+      fd.delete('website');
+      fd.append('source', 'home-quick-lead');
+      fd.append('page', location.pathname);
+      fd.append('submittedAt', new Date().toISOString());
+      if (FORM_TOKEN) fd.append('token', FORM_TOKEN);
+
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'generate_lead', { form_id: 'quick-lead-form' });
+      }
+
+      setSending(true);
+      if (!isConfigured) {
+        window.location.href = buildMailto(fd);
+        form.reset();
+        showStatus('Opening your email app - please send to complete.', true);
+        setSending(false);
+        return;
+      }
+      try {
+        const res = await fetch(GAS_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(fd).toString(),
+        });
+        const data = await res.json().catch(() => ({ ok: res.ok }));
+        if (data.ok) {
+          form.reset();
+          showStatus('Thanks! We will call you within one business day.', true);
+        } else {
+          throw new Error(data.error || 'Submission failed');
+        }
+      } catch (err) {
+        console.error(err);
+        window.location.href = buildMailto(fd);
+        form.reset();
+        showStatus('Network issue - opening your email app instead.', false);
+      } finally {
+        setSending(false);
+      }
+    });
+  })();
+</script>

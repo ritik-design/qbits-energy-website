@@ -1,0 +1,38 @@
+# Security headers (Cloudflare Pages format)
+# Applies to every route.
+
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=(), accelerometer=(), gyroscope=(), magnetometer=(), usb=()
+  Cross-Origin-Opener-Policy: same-origin
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://script.google.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self' mailto:
+
+# Cache hashed assets (Astro emits content-hashed filenames under /_astro/)
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache images aggressively
+/images/*
+  Cache-Control: public, max-age=2592000
+
+/blog-images/*
+  Cache-Control: public, max-age=2592000
+
+/homepage/*
+  Cache-Control: public, max-age=2592000
+
+/product-images/*
+  Cache-Control: public, max-age=2592000
+
+/logos/*
+  Cache-Control: public, max-age=2592000
+
+# Favicons
+/favicon*
+  Cache-Control: public, max-age=604800
+
+/apple-touch-icon.png
+  Cache-Control: public, max-age=604800

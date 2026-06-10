@@ -3,9 +3,10 @@ import Layout from '../layouts/Layout.astro';
 import HeaderV2 from '../components/HeaderV2.astro';
 import Footer from '../components/Footer.astro';
 
-// Homepage sections — Premium redesign
+// Homepage sections - Premium redesign
 import HeroPremium from '../components/home/HeroPremium.astro';
 import TrustBar from '../components/home/TrustBar.astro';
+import QuickLeadForm from '../components/home/QuickLeadForm.astro';
 import AboutSection from '../components/home/AboutSection.astro';
 import IndiaChallenges from '../components/home/IndiaChallenges.astro';
 import ProductCategories from '../components/home/ProductCategories.astro';
@@ -28,15 +29,19 @@ import FinalCTA from '../components/home/FinalCTA.astro';
   title="Qbits Energy | Solar Inverter Manufacturer India"
   description="India's leading AI-powered solar inverter brand. On-grid and hybrid inverters with smart monitoring, 12-year warranty, and 98.8% efficiency. BIS & IEC certified."
   canonical="/"
+  preloadImage="/homepage/qbits-hero.webp"
 >
   <HeaderV2 />
 
-  <main>
+  <main id="main-content">
     <!-- 1. Hero -->
     <HeroPremium />
 
     <!-- 2. Trust Bar -->
     <TrustBar />
+
+    <!-- 2b. Quick Lead Form (above the fold, after social proof) -->
+    <QuickLeadForm />
 
     <!-- 3. About Us -->
     <AboutSection />

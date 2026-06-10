@@ -1,7 +1,7 @@
 ---
 title: "How to Find Reliable Inverter Dealers India: 2026 Guide"
-excerpt: "Inverters are 15–20% of project cost. The right dealer ensures availability, warranty processing, and technical support — the wrong one creates cascading project failures."
-description: "Systematic dealer evaluation guide for Indian EPCs — 8 evaluation criteria, vetting checklist, red flags to avoid, and partnership-building framework for reliable inverter sourcing."
+excerpt: "Inverters are 15–20% of project cost. The right dealer ensures availability, warranty processing, and technical support - the wrong one creates cascading project failures."
+description: "Systematic dealer evaluation guide for Indian EPCs - 8 evaluation criteria, vetting checklist, red flags to avoid, and partnership-building framework for reliable inverter sourcing."
 category: "Buying Guide"
 date: 2026-04-08
 readTime: "8 min"
@@ -20,7 +20,7 @@ faqs:
   - q: "How can I verify product authenticity?"
     a: "Manufacturer serial number verification systems, holographic labels on units, and direct manufacturer confirmation of dealer authorisation. Reputable manufacturers provide online verification tools."
   - q: "What's the most common dealer red flag?"
-    a: "Reluctance to provide documentation — manufacturer authorisation letters, BIS certifications, GST registration. Combined with vague technical answers or pressure tactics, this signals problems."
+    a: "Reluctance to provide documentation - manufacturer authorisation letters, BIS certifications, GST registration. Combined with vague technical answers or pressure tactics, this signals problems."
   - q: "How do I start a new dealer relationship?"
     a: "Trial orders of 5–10 units to test product quality, delivery reliability, and warranty service. Scale up gradually as the relationship demonstrates consistency."
 ---
@@ -133,4 +133,4 @@ Move beyond transactional relationships through:
 
 ## Closing
 
-The right dealer relationship compounds over years through better availability, faster warranty resolution, and stronger technical support. Apply the vetting criteria rigorously upfront, document everything, and treat dealer selection as a long-term strategic decision — not a procurement transaction.
+The right dealer relationship compounds over years through better availability, faster warranty resolution, and stronger technical support. Apply the vetting criteria rigorously upfront, document everything, and treat dealer selection as a long-term strategic decision - not a procurement transaction.

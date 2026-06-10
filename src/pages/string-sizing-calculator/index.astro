@@ -39,7 +39,7 @@ const inverterDB = [
 >
   <HeaderV2 />
 
-  <main>
+  <main id="main-content">
     <PageHeader
       label="Solar Tools"
       title="String Sizing"
@@ -111,23 +111,23 @@ const inverterDB = [
               <div id="panel-info" class="bg-brand-50/60 border border-brand-100 rounded-xl px-5 py-4">
                 <p class="text-xs font-semibold uppercase tracking-wider text-brand-700 mb-3">Panel @ STC</p>
                 <div class="grid grid-cols-3 gap-x-4 gap-y-1.5 text-sm">
-                  <div><span class="text-slate-400 text-xs">Voc</span><br/><span class="font-semibold text-slate-800" id="pi-voc">—</span></div>
-                  <div><span class="text-slate-400 text-xs">Vmp</span><br/><span class="font-semibold text-slate-800" id="pi-vmp">—</span></div>
-                  <div><span class="text-slate-400 text-xs">Power</span><br/><span class="font-semibold text-slate-800" id="pi-watt">—</span></div>
-                  <div><span class="text-slate-400 text-xs">Isc</span><br/><span class="font-semibold text-slate-800" id="pi-isc">—</span></div>
-                  <div><span class="text-slate-400 text-xs">Imp</span><br/><span class="font-semibold text-slate-800" id="pi-imp">—</span></div>
-                  <div><span class="text-slate-400 text-xs">T(Voc)</span><br/><span class="font-semibold text-slate-800" id="pi-tc">—</span></div>
+                  <div><span class="text-slate-400 text-xs">Voc</span><br/><span class="font-semibold text-slate-800" id="pi-voc">-</span></div>
+                  <div><span class="text-slate-400 text-xs">Vmp</span><br/><span class="font-semibold text-slate-800" id="pi-vmp">-</span></div>
+                  <div><span class="text-slate-400 text-xs">Power</span><br/><span class="font-semibold text-slate-800" id="pi-watt">-</span></div>
+                  <div><span class="text-slate-400 text-xs">Isc</span><br/><span class="font-semibold text-slate-800" id="pi-isc">-</span></div>
+                  <div><span class="text-slate-400 text-xs">Imp</span><br/><span class="font-semibold text-slate-800" id="pi-imp">-</span></div>
+                  <div><span class="text-slate-400 text-xs">T(Voc)</span><br/><span class="font-semibold text-slate-800" id="pi-tc">-</span></div>
                 </div>
               </div>
               <div id="inverter-info" class="bg-slate-50 border border-slate-200 rounded-xl px-5 py-4">
                 <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-3">Inverter</p>
                 <div class="grid grid-cols-3 gap-x-4 gap-y-1.5 text-sm">
-                  <div><span class="text-slate-400 text-xs">Max DC</span><br/><span class="font-semibold text-slate-800" id="ii-vmax">—</span></div>
-                  <div><span class="text-slate-400 text-xs">MPPT</span><br/><span class="font-semibold text-slate-800" id="ii-mppt">—</span></div>
-                  <div><span class="text-slate-400 text-xs">AC</span><br/><span class="font-semibold text-slate-800" id="ii-ac">—</span></div>
-                  <div><span class="text-slate-400 text-xs">MPPTs</span><br/><span class="font-semibold text-slate-800" id="ii-mppts">—</span></div>
-                  <div><span class="text-slate-400 text-xs">Str</span><br/><span class="font-semibold text-slate-800" id="ii-str">—</span></div>
-                  <div><span class="text-slate-400 text-xs">Iout</span><br/><span class="font-semibold text-slate-800" id="ii-iout">—</span></div>
+                  <div><span class="text-slate-400 text-xs">Max DC</span><br/><span class="font-semibold text-slate-800" id="ii-vmax">-</span></div>
+                  <div><span class="text-slate-400 text-xs">MPPT</span><br/><span class="font-semibold text-slate-800" id="ii-mppt">-</span></div>
+                  <div><span class="text-slate-400 text-xs">AC</span><br/><span class="font-semibold text-slate-800" id="ii-ac">-</span></div>
+                  <div><span class="text-slate-400 text-xs">MPPTs</span><br/><span class="font-semibold text-slate-800" id="ii-mppts">-</span></div>
+                  <div><span class="text-slate-400 text-xs">Str</span><br/><span class="font-semibold text-slate-800" id="ii-str">-</span></div>
+                  <div><span class="text-slate-400 text-xs">Iout</span><br/><span class="font-semibold text-slate-800" id="ii-iout">-</span></div>
                 </div>
               </div>
             </div>
@@ -154,16 +154,16 @@ const inverterDB = [
             <!-- Voltage readouts -->
             <div class="grid grid-cols-3 gap-4 mb-6">
               <div class="bg-slate-50 rounded-xl p-4 text-center">
-                <p class="text-xs text-slate-400 uppercase tracking-wider mb-1" id="s2-lbl-voc">VOC @ —°C</p>
-                <p class="text-2xl font-extrabold text-slate-800" id="s2-voc-cold">—</p>
+                <p class="text-xs text-slate-400 uppercase tracking-wider mb-1" id="s2-lbl-voc">VOC @ -°C</p>
+                <p class="text-2xl font-extrabold text-slate-800" id="s2-voc-cold">-</p>
               </div>
               <div class="bg-brand-50 rounded-xl p-4 text-center ring-2 ring-brand-200">
-                <p class="text-xs text-brand-500 uppercase tracking-wider mb-1" id="s2-lbl-vmp-hot">VMP @ —°C</p>
-                <p class="text-2xl font-extrabold text-brand-700" id="s2-vmp-hot">—</p>
+                <p class="text-xs text-brand-500 uppercase tracking-wider mb-1" id="s2-lbl-vmp-hot">VMP @ -°C</p>
+                <p class="text-2xl font-extrabold text-brand-700" id="s2-vmp-hot">-</p>
               </div>
               <div class="bg-slate-50 rounded-xl p-4 text-center">
-                <p class="text-xs text-slate-400 uppercase tracking-wider mb-1" id="s2-lbl-vmp-cold">VMP @ —°C</p>
-                <p class="text-2xl font-extrabold text-slate-800" id="s2-vmp-cold">—</p>
+                <p class="text-xs text-slate-400 uppercase tracking-wider mb-1" id="s2-lbl-vmp-cold">VMP @ -°C</p>
+                <p class="text-2xl font-extrabold text-slate-800" id="s2-vmp-cold">-</p>
               </div>
             </div>
 
@@ -208,9 +208,9 @@ const inverterDB = [
                   <tr>
                     <th class="px-4 py-3 text-left font-semibold">Panels/String</th>
                     <th class="px-4 py-3 text-left font-semibold">Rating</th>
-                    <th class="px-4 py-3 text-right font-semibold" id="th-voc-cold">VOC @ —°C</th>
-                    <th class="px-4 py-3 text-right font-semibold" id="th-vmp-hot">VMP @ —°C</th>
-                    <th class="px-4 py-3 text-right font-semibold" id="th-vmp-cold">VMP @ —°C</th>
+                    <th class="px-4 py-3 text-right font-semibold" id="th-voc-cold">VOC @ -°C</th>
+                    <th class="px-4 py-3 text-right font-semibold" id="th-vmp-hot">VMP @ -°C</th>
+                    <th class="px-4 py-3 text-right font-semibold" id="th-vmp-cold">VMP @ -°C</th>
                     <th class="px-4 py-3 text-right font-semibold">VOC (STC)</th>
                     <th class="px-4 py-3 text-right font-semibold">VMP (STC)</th>
                     <th class="px-4 py-3 text-right font-semibold">String kWp</th>

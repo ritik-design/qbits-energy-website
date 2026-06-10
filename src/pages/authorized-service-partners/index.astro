@@ -19,7 +19,7 @@ const supportTypes = [
 >
   <HeaderV2 />
 
-  <main>
+  <main id="main-content">
     <PageHeader
       label="Support Network"
       title="Authorized"
@@ -157,7 +157,7 @@ const supportTypes = [
         <p class="text-lg text-brand-100 mb-10">Join our growing network of authorized service partners across India. Get exclusive pricing, training, and marketing support.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="/contact-us/" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-brand-600 shadow-lg hover:bg-brand-50 transition-all">Apply Now</a>
-          <a href="https://wa.me/919979192935" target="_blank" rel="noopener" class="btn-outline">Chat on WhatsApp</a>
+          <a href="https://wa.me/919979192935" target="_blank" rel="noopener noreferrer" class="btn-outline">Chat on WhatsApp</a>
         </div>
       </div>
     </section>
@@ -610,10 +610,10 @@ const supportTypes = [
   }
 
   function photo(p: string | null) {
-    return p ? `${CDN}${p}` : '/default-user.jpg';
+    return p ? `${CDN}${p}` : '/default-user.webp';
   }
 
-  /* ── Map (Leaflet / OpenStreetMap — no API key needed) ── */
+  /* ── Map (Leaflet / OpenStreetMap - no API key needed) ── */
   let leafletMap: any = null;
 
   async function loadMap() {
@@ -663,14 +663,14 @@ const supportTypes = [
         const img = photo(item.photo);
         const popup = `
           <div class="asp-popup" style="position:relative">
-            <img src="${img}" alt="${item.name || ''}" style="border-radius:8px;object-fit:cover;width:60px;height:60px;flex-shrink:0">
+            <img width="720" height="480" src="${img}" alt="${item.name || ''}" style="border-radius:8px;object-fit:cover;width:60px;height:60px;flex-shrink:0">
             <div>
               ${item.name ? `<p class="asp-popup-name">${item.name}</p>` : ''}
               ${item.company_name ? `<p class="asp-popup-company">${item.company_name}${item.designation ? ' · ' + item.designation : ''}</p>` : ''}
               ${item.address ? `<p class="asp-popup-addr">${item.address}${item.city_name ? ', ' + item.city_name : ''}${item.state_name ? ', ' + item.state_name : ''}</p>` : ''}
             </div>
             <div class="asp-popup-actions">
-              ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp">${WA_SVG}</a>` : ''}
+              ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp" rel="noopener noreferrer">${WA_SVG}</a>` : ''}
               ${item.mobile ? `<a href="tel:${item.mobile}" title="Call">${CALL_SVG}</a>` : ''}
             </div>
           </div>`;
@@ -727,7 +727,7 @@ const supportTypes = [
             ${loc ? `<p class="asp-card-loc">${PIN_SVG} ${loc}</p>` : ''}
           </div>
           <div class="asp-card-actions">
-            ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp on ${item.name}">${WA_SVG}</a>` : ''}
+            ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp on ${item.name}" rel="noopener noreferrer">${WA_SVG}</a>` : ''}
             ${item.mobile ? `<a href="tel:${item.mobile}" title="Call ${item.name}">${CALL_SVG}</a>` : ''}
           </div>`;
         grid.appendChild(card);

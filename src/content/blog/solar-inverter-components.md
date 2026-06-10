@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Components: 7 Critical Parts to Inspect"
 excerpt: "An inverter is only as reliable as its weakest component. Here are the 7 parts that determine whether a system runs 25 years or fails in 5."
-description: "Component-level guide to solar inverter quality — capacitors, IGBTs, PCBs, cooling systems, transformers, surge protection devices, and microcontrollers. German-grade vs standard, with verification checklists."
+description: "Component-level guide to solar inverter quality - capacitors, IGBTs, PCBs, cooling systems, transformers, surge protection devices, and microcontrollers. German-grade vs standard, with verification checklists."
 category: "Technology"
 date: 2026-04-08
 readTime: "9 min"
@@ -21,16 +21,16 @@ faqs:
   - q: "What makes a quality PCB?"
     a: "Multi-layer construction (4–6 layers vs single/double), conformal coating against humidity, smooth solder joints, proper component spacing, and minimal flux residue."
   - q: "Are integrated SPDs better than add-on units?"
-    a: "Yes. Integrated SPDs are factory-tuned for the specific inverter, eliminate connection failure points, and respond faster. Look for MOV ratings of 20–40 kA — significantly better than 10 kA alternatives."
+    a: "Yes. Integrated SPDs are factory-tuned for the specific inverter, eliminate connection failure points, and respond faster. Look for MOV ratings of 20–40 kA - significantly better than 10 kA alternatives."
   - q: "How does the financial impact play out over 25 years?"
     a: "For a 100 kW commercial installation: budget inverters total ₹16–22 lakhs (including replacements and downtime); premium German-grade ₹6.5–11 lakhs. Saving of ₹9–11 lakhs over the life of the system."
 ---
 
-An inverter is only as reliable as its weakest component. Poor-quality parts cause early failures, warranty claims, lost production, and damaged customer relationships. German-grade components — manufactured to stringent European standards (VDE, TÜV, IEC) — typically cost 20–30% more but deliver **15–20 year lifespans vs 5–8 years** for standard alternatives.
+An inverter is only as reliable as its weakest component. Poor-quality parts cause early failures, warranty claims, lost production, and damaged customer relationships. German-grade components - manufactured to stringent European standards (VDE, TÜV, IEC) - typically cost 20–30% more but deliver **15–20 year lifespans vs 5–8 years** for standard alternatives.
 
 ## Why Component Quality Matters
 
-In India's challenging climate — extreme heat, monsoon humidity, grid instability — component quality determines whether systems operate reliably for 25 years or fail prematurely.
+In India's challenging climate - extreme heat, monsoon humidity, grid instability - component quality determines whether systems operate reliably for 25 years or fail prematurely.
 
 ## 1. Capacitors
 
@@ -79,12 +79,12 @@ Switch power thousands of times per second.
 
 | Type | Profile |
 | --- | --- |
-| Passive | Heat sinks only — silent, no moving parts |
-| Active | Fans + heat sinks — higher power density, fan failure risk |
+| Passive | Heat sinks only - silent, no moving parts |
+| Active | Fans + heat sinks - higher power density, fan failure risk |
 
 Premium passive designs use substantial aluminium/copper mass, optimised fins, and quality thermal interface materials.
 
-Component lifespan degrades fast at high temperatures — 80°C operation causes severe stress in 60°C ambient.
+Component lifespan degrades fast at high temperatures - 80°C operation causes severe stress in 60°C ambient.
 
 ## 5. Transformers and Inductors
 

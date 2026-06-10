@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Payback Period in India: ROI Guide 2026"
 excerpt: "Inverter efficiency, warranty, and monitoring directly determine how quickly a solar investment pays for itself. Here's the 2026 framework for calculating and accelerating payback."
-description: "Complete inverter payback analysis for India — calculation methodology, premium vs budget TCO comparison, 25-year ROI case studies, net metering impact, and warranty financial value."
+description: "Complete inverter payback analysis for India - calculation methodology, premium vs budget TCO comparison, 25-year ROI case studies, net metering impact, and warranty financial value."
 category: "Buying Guide"
 date: 2026-05-08
 readTime: "10 min"
@@ -90,9 +90,9 @@ Apply 8–10% discount rate for time-value accuracy.
 | --- | --- | --- |
 | Annual generation | 98,175 kWh | 95,131 kWh |
 | Annual savings @ ₹9/kWh | ₹8,83,575 | ₹8,56,181 |
-| Annual savings gap | — | **₹27,394** |
+| Annual savings gap | - | **₹27,394** |
 
-A **₹1,20,000 premium for the 98% inverter** recovers in **~4.4 years** from efficiency alone — before accounting for avoided replacements.
+A **₹1,20,000 premium for the 98% inverter** recovers in **~4.4 years** from efficiency alone - before accounting for avoided replacements.
 
 ## Premium vs Budget: Total Cost of Ownership
 
@@ -107,7 +107,7 @@ A **₹1,20,000 premium for the 98% inverter** recovers in **~4.4 years** from e
 | Category | Premium (98%, 12-yr warranty) | Budget (95%, 5-yr warranty) |
 | --- | --- | --- |
 | 25-year TCO | ₹8,50,000 | ₹12,00,000–14,00,000 |
-| Net advantage | — | **₹3,50,000–5,50,000** |
+| Net advantage | - | **₹3,50,000–5,50,000** |
 
 Premium payback is **3–5 years shorter** on TCO basis.
 
@@ -127,7 +127,7 @@ Dust storms, coastal salt, and monsoon humidity accelerate wear. IP66 prevents i
 
 ### AI-Powered Monitoring
 
-WhatsApp-based real-time alerts detect losses within hours rather than weeks. Unmonitored systems lose **5–12% annually** to undetected faults and soiling. Intelligent monitoring recovers this — accelerating payback by **6–12 months** on commercial systems.
+WhatsApp-based real-time alerts detect losses within hours rather than weeks. Unmonitored systems lose **5–12% annually** to undetected faults and soiling. Intelligent monitoring recovers this - accelerating payback by **6–12 months** on commercial systems.
 
 ## Warranty Coverage and ROI
 
@@ -137,7 +137,7 @@ Inverters typically last 10–15 years. A 12-year full replacement warranty insu
 
 ### 5-Year Warranty: Hidden Cost
 
-Failures at years 7–9 mean full replacement borne by owner — disrupting cash flow and extending effective payback.
+Failures at years 7–9 mean full replacement borne by owner - disrupting cash flow and extending effective payback.
 
 ### Bankability
 
@@ -170,7 +170,7 @@ Active frameworks reduce payback **12–24 months** by monetising surplus export
 
 ### Right-Size with DC Oversizing
 
-Qbits inverters support **up to 100% DC oversizing** — improving capacity utilisation without proportional cost increase.
+Qbits inverters support **up to 100% DC oversizing** - improving capacity utilisation without proportional cost increase.
 
 ### Real-Time Monitoring from Day One
 
@@ -182,7 +182,7 @@ Annual inspections, cleaning, and firmware updates extend inverter life beyond w
 
 ### Surge Protection
 
-Integrated DC/AC SPDs prevent lightning and grid-related failures — critical in rural and semi-urban areas with unstable grids.
+Integrated DC/AC SPDs prevent lightning and grid-related failures - critical in rural and semi-urban areas with unstable grids.
 
 ### Documentation
 
@@ -205,4 +205,4 @@ Complete installation records, commissioning reports, and performance data prote
 
 ## Closing
 
-Inverter payback is not just an upfront-cost calculation — it is a 25-year financial model that combines efficiency, degradation, warranty coverage, monitoring, and grid relationships. Premium inverters with 12-year warranties and AI monitoring consistently win this analysis in India's high-tariff environment, often by 3–5 years of TCO advantage.
+Inverter payback is not just an upfront-cost calculation - it is a 25-year financial model that combines efficiency, degradation, warranty coverage, monitoring, and grid relationships. Premium inverters with 12-year warranties and AI monitoring consistently win this analysis in India's high-tariff environment, often by 3–5 years of TCO advantage.

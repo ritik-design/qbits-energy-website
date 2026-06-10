@@ -94,7 +94,7 @@ const collectionSchema = {
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
 
-  <main class="bg-white">
+  <main id="main-content" class="bg-white">
     <!-- Hero -->
     <section class="relative overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 pt-[104px] lg:pt-[120px]">
       <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
@@ -117,7 +117,7 @@ const collectionSchema = {
             Solar <span class="text-gradient">Glossary</span>
           </h1>
           <p class="mt-6 text-lg text-slate-300 leading-relaxed max-w-2xl">
-            India's most comprehensive A-to-Z dictionary of solar inverter, battery, grid, finance and policy terms — written by engineers, built for installers, EPCs and decision-makers.
+            India's most comprehensive A-to-Z dictionary of solar inverter, battery, grid, finance and policy terms - written by engineers, built for installers, EPCs and decision-makers.
           </p>
 
           <!-- Stats -->
@@ -142,7 +142,7 @@ const collectionSchema = {
             <input
               id="glossary-search"
               type="search"
-              placeholder="Search 150+ terms — try 'MPPT', 'net metering', 'IGBT'…"
+              placeholder="Search 150+ terms - try 'MPPT', 'net metering', 'IGBT'…"
               class="w-full rounded-full bg-white/10 ring-1 ring-white/15 focus:ring-brand-400 focus:bg-white/15 outline-none text-white placeholder:text-slate-400 pl-14 pr-5 py-4 text-sm sm:text-base transition"
               aria-label="Search glossary"
             />
@@ -178,7 +178,7 @@ const collectionSchema = {
             </span>
             <h2 id="categories-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-4">21 categories of solar knowledge</h2>
           </div>
-          <p class="text-sm text-slate-500 max-w-md">From electrical fundamentals to MNRE policy and CEIG approvals — every concept an installer or engineer touches.</p>
+          <p class="text-sm text-slate-500 max-w-md">From electrical fundamentals to MNRE policy and CEIG approvals - every concept an installer or engineer touches.</p>
         </div>
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -223,7 +223,7 @@ const collectionSchema = {
 
         {totalPublished === 0 ? (
           <div class="rounded-2xl ring-1 ring-slate-200 bg-slate-50 p-12 text-center">
-            <p class="text-slate-600">No terms published yet — check back soon.</p>
+            <p class="text-slate-600">No terms published yet - check back soon.</p>
           </div>
         ) : (
           <div class="space-y-12" id="terms-root">

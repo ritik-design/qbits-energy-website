@@ -14,10 +14,10 @@ const milestones = [
 ];
 
 const values = [
-  { title: 'Innovation', desc: 'Continuous improvement through R&D and technology-driven design. Every product cycle brings measurable advancement.', icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
-  { title: 'Integrity', desc: 'Ethical practices and transparent partnerships. We build trust through honest communication and fair dealing.', icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z' },
-  { title: 'Excellence', desc: 'ISO 9001 certification and Adani Solar distributorship. Quality is not checked at the end — it is built in from day one.', icon: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z' },
-  { title: 'Sustainability', desc: 'Positive environmental impact with every installation. We measure success in megawatts of clean energy delivered.', icon: 'M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064' },
+  { title: 'Innovation', desc: 'Continuous improvement through R&D and technology-driven design. Every product cycle brings measurable advancement.', img: '/about/innovation.webp' },
+  { title: 'Integrity', desc: 'Ethical practices and transparent partnerships. We build trust through honest communication and fair dealing.', img: '/about/integrity.webp' },
+  { title: 'Excellence', desc: 'ISO 9001 certification and Adani Solar distributorship. Quality is not checked at the end, it is built in from day one.', img: '/about/excellence.webp' },
+  { title: 'Sustainability', desc: 'Positive environmental impact with every installation. We measure success in megawatts of clean energy delivered.', img: '/about/sustainability.webp' },
 ];
 
 const stats = [
@@ -30,7 +30,7 @@ const stats = [
 const differentiators = [
   { title: 'German IGBT Technology', desc: 'Premium power conversion components selected for 20-year operational life.' },
   { title: '1,000+ Quality Tests', desc: 'Every inverter undergoes rigorous automated testing before dispatch.' },
-  { title: 'Indian Server Data', desc: '100% data sovereignty — all monitoring data stays on Indian servers.' },
+  { title: 'Indian Server Data', desc: '100% data sovereignty - all monitoring data stays on Indian servers.' },
   { title: 'IP66 Enclosure', desc: 'Rugged weather protection designed for harsh Indian rooftop conditions.' },
 ];
 ---
@@ -42,12 +42,12 @@ const differentiators = [
 >
   <HeaderV2 />
 
-  <main>
+  <main id="main-content">
     <PageHeader
       label="About Qbits"
       title="Powering India's"
       highlight="Solar Future"
-      description="From trusted legacy to smart energy innovation — building an energy-independent India, one inverter at a time."
+      description="From trusted legacy to smart energy innovation - building an energy-independent India, one inverter at a time."
       bgImage="/images/features.webp"
     />
 
@@ -82,7 +82,7 @@ const differentiators = [
           <div class="order-1 lg:order-2 relative">
             <div class="absolute -top-10 -right-10 w-72 h-72 bg-brand-100 rounded-full blur-3xl opacity-50"></div>
             <div class="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img src="/images/features.webp" alt="Qbits Inverter Product" class="w-full" loading="lazy" />
+              <img width="720" height="540" src="/about/feature.webp" alt="Qbits Solar Inverter Installation" class="w-full" loading="lazy" />
             </div>
             <div class="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-5 hidden md:block">
               <p class="text-3xl font-bold text-brand-600">8+</p>
@@ -115,7 +115,7 @@ const differentiators = [
           <div class="relative">
             <div class="absolute -top-10 -left-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl opacity-50"></div>
             <div class="relative rounded-2xl overflow-hidden shadow-xl">
-              <img src="/images/smart-features.webp" alt="Qbits Smart Features" class="w-full" loading="lazy" />
+              <img width="720" height="540" src="/images/smart-features.webp" alt="Qbits Smart Features" class="w-full" loading="lazy" />
             </div>
           </div>
           <div>
@@ -241,8 +241,8 @@ const differentiators = [
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {values.map(v => (
             <div class="group bg-slate-50 rounded-2xl p-8 text-center hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 hover:-translate-y-1">
-              <div class="w-16 h-16 mx-auto rounded-2xl bg-brand-100 flex items-center justify-center text-brand-600 mb-6 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
-                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={v.icon}/></svg>
+              <div class="w-20 h-20 mx-auto rounded-2xl bg-white ring-1 ring-brand-100 flex items-center justify-center mb-6 group-hover:ring-brand-300 transition-all duration-500">
+                <img src={v.img} alt={v.title} width="48" height="48" class="w-12 h-12 object-contain" loading="lazy" />
               </div>
               <h3 class="text-xl font-bold text-slate-900 mb-3">{v.title}</h3>
               <p class="text-sm text-slate-500 leading-relaxed">{v.desc}</p>
@@ -267,7 +267,7 @@ const differentiators = [
           To Become India's Leading Smart Energy Powerhouse
         </h2>
         <p class="text-xl text-brand-100 leading-relaxed">
-          Transforming how the nation produces and consumes power. We envision an India where every home and business generates its own clean, affordable electricity — powered by Qbits intelligence.
+          Transforming how the nation produces and consumes power. We envision an India where every home and business generates its own clean, affordable electricity - powered by Qbits intelligence.
         </p>
       </div>
     </section>
@@ -278,7 +278,7 @@ const differentiators = [
       <div class="container-main relative text-center max-w-3xl">
         <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Empowering a Smarter India</h2>
         <p class="text-lg text-slate-400 leading-relaxed mb-10">
-          Qbits is powering possibilities across India — from homes to industries, from villages to metro cities. Join us in building an energy-independent India.
+          Qbits is powering possibilities across India - from homes to industries, from villages to metro cities. Join us in building an energy-independent India.
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="/our-products/" class="btn-primary">Explore Products</a>

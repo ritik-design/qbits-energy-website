@@ -7,8 +7,8 @@
   --color-brand-300: #6ee7b7;
   --color-brand-400: #34d399;
   --color-brand-500: #049D65;
-  --color-brand-600: #059669;
-  --color-brand-700: #047857;
+  --color-brand-600: #047857; /* darkened from #059669 for WCAG AA on white (≈ 5.6:1) */
+  --color-brand-700: #036046;
   --color-brand-800: #065f46;
   --color-brand-900: #064e3b;
 
@@ -30,6 +30,21 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
+  }
+
+  /* Respect reduced-motion preference: kill all animations, scroll-snap, and parallax. */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 
   body {

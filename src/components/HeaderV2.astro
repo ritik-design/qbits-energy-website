@@ -22,6 +22,7 @@ const navLinks = [
     { label: 'Glossary', href: '/glossary/' },
     { label: 'Download Datasheets', href: '/download-datasheets/' },
     { label: 'String Sizing Tool', href: '/string-sizing-calculator/' },
+    { label: 'Search', href: '/search/' },
   ]},
   { label: 'Become a Partner', href: 'https://erp.heavengreenenergy.com/survey/0854d366-a9b3-4d03-8ab9-98a3d8ef47e2/2a85c6e0-a10b-4852-ae0b-fc344322f1aa' },
   { label: 'Help Center', href: '#', children: [
@@ -40,8 +41,12 @@ const navLinks = [
       <!-- Logo -->
       <a href="/" class="flex items-center shrink-0 group" aria-label="Qbits Energy Home">
         <img
-          src="/logo green.webp"
+          src="/logo.webp"
           alt="Qbits Energy"
+          width="140"
+          height="40"
+          fetchpriority="high"
+          decoding="async"
           class="h-10 w-auto"
         />
       </a>
@@ -52,16 +57,17 @@ const navLinks = [
           link.children ? (
             <div class="relative group" data-dropdown>
               <button
-                class="flex items-center gap-1.5 px-4 py-2.5 text-sm font-medium text-white/70 hover:text-white rounded-full hover:bg-white/10 transition-all duration-300 nav-link"
+                type="button"
+                class="dropdown-toggle flex items-center gap-1.5 px-4 py-2.5 text-sm font-medium text-white/70 hover:text-white rounded-full hover:bg-white/10 transition-all duration-300 nav-link"
                 aria-expanded="false"
                 aria-haspopup="true"
               >
                 {link.label}
-                <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180 group-focus-within:rotate-180 group-[.is-open]:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                 </svg>
               </button>
-              <div class="absolute top-full left-0 mt-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0">
+              <div class="absolute top-full left-0 mt-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible group-[.is-open]:opacity-100 group-[.is-open]:visible transition-all duration-300 translate-y-2 group-hover:translate-y-0 group-focus-within:translate-y-0 group-[.is-open]:translate-y-0">
                 <div class="bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl shadow-slate-900/10 border border-slate-100 py-3 overflow-hidden">
                   {link.children.map((child) => (
                     <a
@@ -95,7 +101,7 @@ const navLinks = [
 
       <!-- Actions -->
       <div class="flex items-center gap-4">
-        <a href="https://support.qbitsenergy.com/contactus" target="_blank" rel="noopener" class="hidden sm:inline-flex items-center justify-center gap-2 rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-500/20 transition-all duration-300 hover:bg-brand-600 hover:shadow-brand-500/40 hover:-translate-y-0.5">
+        <a href="/contact-us/" class="hidden sm:inline-flex items-center justify-center gap-2 rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-brand-500/20 transition-all duration-300 hover:bg-brand-600 hover:shadow-brand-500/40 hover:-translate-y-0.5">
           Contact us
         </a>
 
@@ -139,7 +145,7 @@ const navLinks = [
         )
       ))}
       <div class="pt-4 border-t border-slate-100">
-        <a href="https://support.qbitsenergy.com/contactus" target="_blank" rel="noopener" class="flex items-center gap-2 px-4 py-3 text-sm font-medium text-brand-600 bg-brand-50 rounded-xl">
+        <a href="/contact-us/" class="flex items-center gap-2 px-4 py-3 text-sm font-medium text-brand-600 bg-brand-50 rounded-xl">
           Contact us
         </a>
       </div>
@@ -216,5 +222,44 @@ const navLinks = [
     mobileBtn.setAttribute('aria-expanded', String(!isOpen));
     mobileBtn.querySelector('.menu-open')?.classList.toggle('hidden');
     mobileBtn.querySelector('.menu-close')?.classList.toggle('hidden');
+  });
+
+  // Desktop dropdown: keyboard + click toggle. Hover already works via group-hover CSS.
+  const dropdowns = document.querySelectorAll<HTMLElement>('[data-dropdown]');
+  dropdowns.forEach((wrap) => {
+    const btn = wrap.querySelector<HTMLButtonElement>('.dropdown-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const opening = !wrap.classList.contains('is-open');
+      dropdowns.forEach((d) => {
+        d.classList.remove('is-open');
+        d.querySelector('.dropdown-toggle')?.setAttribute('aria-expanded', 'false');
+      });
+      if (opening) {
+        wrap.classList.add('is-open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+  document.addEventListener('click', (e) => {
+    dropdowns.forEach((wrap) => {
+      if (!wrap.contains(e.target as Node)) {
+        wrap.classList.remove('is-open');
+        wrap.querySelector('.dropdown-toggle')?.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      dropdowns.forEach((wrap) => {
+        if (wrap.classList.contains('is-open')) {
+          wrap.classList.remove('is-open');
+          const btn = wrap.querySelector<HTMLButtonElement>('.dropdown-toggle');
+          btn?.setAttribute('aria-expanded', 'false');
+          btn?.focus();
+        }
+      });
+    }
   });
 </script>

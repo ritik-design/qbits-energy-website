@@ -1,7 +1,7 @@
 ---
 title: "Inverter Procurement India: Complete EPC Sourcing Guide 2026"
 excerpt: "Procurement decisions drive margins, timelines, and client relationships. Here's how Indian EPCs source inverters reliably at scale in 2026."
-description: "Complete EPC sourcing guide for solar inverters in India — domestic vs imported, lead times, certifications, payment terms, and the 7 procurement mistakes to avoid."
+description: "Complete EPC sourcing guide for solar inverters in India - domestic vs imported, lead times, certifications, payment terms, and the 7 procurement mistakes to avoid."
 category: "Guide"
 date: 2026-05-11
 readTime: "8 min"
@@ -73,14 +73,14 @@ Request detailed datasheets comparing:
 
 ## Common Procurement Mistakes
 
-1. **Price-only optimisation** — ignores total cost of ownership
-2. **Ignoring BIS certification** — legal and DISCOM exposure
-3. **Underestimating import lead times** — schedule slips
-4. **Neglecting after-sales support evaluation** — service nightmares post-install
-5. **Failing to standardise across projects** — service complexity multiplies
-6. **Skipping incoming inspection** — defects propagate to client sites
-7. **Informal supplier relationships** — no contractual SLA when things go wrong
+1. **Price-only optimisation** - ignores total cost of ownership
+2. **Ignoring BIS certification** - legal and DISCOM exposure
+3. **Underestimating import lead times** - schedule slips
+4. **Neglecting after-sales support evaluation** - service nightmares post-install
+5. **Failing to standardise across projects** - service complexity multiplies
+6. **Skipping incoming inspection** - defects propagate to client sites
+7. **Informal supplier relationships** - no contractual SLA when things go wrong
 
 ## Bottom Line
 
-Inverter procurement is one of the most leveraged decisions in an EPC's business. Build standard evaluation processes, prioritise long-term partnerships with quality manufacturers, and treat warranty terms and service network as core procurement criteria — not negotiable extras.
+Inverter procurement is one of the most leveraged decisions in an EPC's business. Build standard evaluation processes, prioritise long-term partnerships with quality manufacturers, and treat warranty terms and service network as core procurement criteria - not negotiable extras.

@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Sizing: 12 Critical Questions Answered (2026)"
-excerpt: "Selecting the right inverter capacity is the single most impactful design decision on a solar project. Here are the 12 most important sizing questions — covering DC oversizing, MPPT current, temperature corrections, and modern 750W+ panel compatibility."
-description: "How to size a solar inverter correctly — DC-to-AC ratio guidance, string voltage temperature corrections, MPPT current limits, modular expansion strategy, and the most common sizing mistakes EPCs make in India."
+excerpt: "Selecting the right inverter capacity is the single most impactful design decision on a solar project. Here are the 12 most important sizing questions - covering DC oversizing, MPPT current, temperature corrections, and modern 750W+ panel compatibility."
+description: "How to size a solar inverter correctly - DC-to-AC ratio guidance, string voltage temperature corrections, MPPT current limits, modular expansion strategy, and the most common sizing mistakes EPCs make in India."
 category: "Guide"
 date: 2026-03-20
 readTime: "13 min"
@@ -19,11 +19,11 @@ faqs:
   - q: "What happens if I undersize the inverter?"
     a: "Power clipping caps midday production. Annual losses run 15–25%. Sustained high-load operation also accelerates capacitor and semiconductor wear, shortening lifespan from 10–12 years to 6–8."
   - q: "What if I oversize the inverter?"
-    a: "Inverters peak at 30–70% load. Above this, efficiency drops. Below 20% load (morning/evening) efficiency falls to 85–90%. An oversized inverter spends most of its time in this inefficient zone — and costs 40–50% more upfront."
+    a: "Inverters peak at 30–70% load. Above this, efficiency drops. Below 20% load (morning/evening) efficiency falls to 85–90%. An oversized inverter spends most of its time in this inefficient zone - and costs 40–50% more upfront."
   - q: "Can a standard inverter handle modern 750W+ panels?"
     a: "Yes, but string design must adapt. 750W+ panels have higher Voc (50–55V) and Isc (13–14A+), which can mean fewer panels per string and tighter MPPT current limits. Always verify with the inverter datasheet."
   - q: "What's the most common sizing mistake?"
-    a: "Ignoring cold-temperature Voc rise. Northern Indian mornings hit -10°C — string voltage that looks fine at 25°C can exceed the inverter's max DC input at low temperatures, causing damage and voiding warranty."
+    a: "Ignoring cold-temperature Voc rise. Northern Indian mornings hit -10°C - string voltage that looks fine at 25°C can exceed the inverter's max DC input at low temperatures, causing damage and voiding warranty."
 ---
 
 Selecting the right inverter capacity is one of the most critical decisions in solar system design. Get it wrong and you risk reduced energy generation, premature equipment failure, voided warranties, and significant financial losses.
@@ -84,19 +84,19 @@ High-wattage panels have higher voltages and currents:
 
 - May limit panels per string (e.g., 18–20 vs 22–24 for older modules)
 - Verify max DC input voltage across all temperature conditions
-- Apply temperature coefficient (**-0.3% per °C**) — cold mornings push Voc higher
+- Apply temperature coefficient (**-0.3% per °C**) - cold mornings push Voc higher
 - Verify max input current per MPPT channel
 
 ## 4. What Happens If I Undersize the Inverter?
 
-**Power clipping** — the inverter cannot convert all available DC during peak production. A 15 kW DC array on an 8 kW inverter loses 6 kW at peak.
+**Power clipping** - the inverter cannot convert all available DC during peak production. A 15 kW DC array on an 8 kW inverter loses 6 kW at peak.
 
 ### Performance Impact
 
 - Annual energy production reduced **15–25%**
 - Sustained high-load wear accelerates capacitor and semiconductor degradation
 - Lifespan drops from 10–12 years to **6–8 years**
-- Operating efficiency decreases — inverters peak at 30–70% capacity, not 90–100%
+- Operating efficiency decreases - inverters peak at 30–70% capacity, not 90–100%
 
 ### Warning Signs
 
@@ -137,8 +137,8 @@ A 50 kW commercial install using 540W panels (Vmp 41V, Isc 13.2A):
 
 - Inverter: 40 kW with 4 MPPT inputs
 - Four strings of 23 panels (92 panels total, 49.68 kW DC)
-- Each string: 943V Vmp — safely below 1000V limit
-- DC:AC ratio: **1.24:1** — ideal for Indian conditions
+- Each string: 943V Vmp - safely below 1000V limit
+- DC:AC ratio: **1.24:1** - ideal for Indian conditions
 
 ## 7. Should I Size Differently for On-Grid vs Hybrid?
 
@@ -175,16 +175,16 @@ Must also handle:
 
 Also factor:
 
-- **Humidity / salt exposure** — IP66 required
-- **Grid stability** — wide input voltage range and surge protection
+- **Humidity / salt exposure** - IP66 required
+- **Grid stability** - wide input voltage range and surge protection
 
 ## 9. Role of Inverter Efficiency in Sizing
 
 - **Peak efficiency:** best at 50–70% load (98% for Qbits)
-- **European efficiency:** load-weighted average across 5%/10%/20%/30%/50%/100% — 96–97%+ indicates good performance everywhere
+- **European efficiency:** load-weighted average across 5%/10%/20%/30%/50%/100% - 96–97%+ indicates good performance everywhere
 - **CEC efficiency:** similar weighting with different load percentages
 
-Quality inverters maintain **95%+ from 20–100% load**. Lower-quality units drop sharply at low load — bad for morning/evening yield.
+Quality inverters maintain **95%+ from 20–100% load**. Lower-quality units drop sharply at low load - bad for morning/evening yield.
 
 ## 10. How Do I Plan for Future Expansion?
 
@@ -193,7 +193,7 @@ Quality inverters maintain **95%+ from 20–100% load**. Lower-quality units dro
 - **Modular architecture:** multiple smaller inverters (two 25 kW vs one 50 kW). Add a third unit later
 - **DC oversizing headroom:** sizing at 1.1:1 initially with the inverter rated to 1.3:1 = ~18% expansion room
 - **String-level reserves:** avoid fully loading all MPPT inputs; run conduit for future strings
-- **Modular usually beats over-oversizing** — newer inverters arrive every few years
+- **Modular usually beats over-oversizing** - newer inverters arrive every few years
 
 ### Documentation
 
@@ -201,27 +201,27 @@ Note available MPPT capacity, max additional DC input, conduit provisions, recom
 
 ## 11. Common Sizing Mistakes EPCs Make
 
-1. **Ignoring cold-temperature Voc rise** — strings safe at 25°C exceed limits at -10°C
+1. **Ignoring cold-temperature Voc rise** - strings safe at 25°C exceed limits at -10°C
 2. **Miscalculating string voltage** with 750W+ panels
-3. **Overlooking utility interconnection limits** — sanctioned load caps
+3. **Overlooking utility interconnection limits** - sanctioned load caps
 4. **Neglecting monitoring and surge protection**
 5. **Applying old rules to high-wattage panels**
-6. **Unbalanced MPPT loading** — one channel at 8 kW, another at 3 kW
-7. **Exceeding manufacturer DC input limits** — voids warranty
+6. **Unbalanced MPPT loading** - one channel at 8 kW, another at 3 kW
+7. **Exceeding manufacturer DC input limits** - voids warranty
 
 ### Prevention
 
-Standardised sizing procedures incorporating temperature coefficients, voltage calculations, grid requirements, and warranty compliance — and document all calculations.
+Standardised sizing procedures incorporating temperature coefficients, voltage calculations, grid requirements, and warranty compliance - and document all calculations.
 
 ## 12. How Does Monitoring Validate Sizing?
 
-- **Clipping identification** — flat-topped midday curves
-- **Efficiency analysis** — consistent <30% capacity operation
-- **String-level monitoring** — unbalanced MPPT loading
-- **Temperature validation** — verify derating assumptions
-- **AI-powered alerts** — Qbits' WhatsApp monitoring identifies anomalies automatically
-- **Warranty protection** — performance logs prove in-spec operation
-- **Institutional knowledge** — multi-installation data refines future sizing
+- **Clipping identification** - flat-topped midday curves
+- **Efficiency analysis** - consistent <30% capacity operation
+- **String-level monitoring** - unbalanced MPPT loading
+- **Temperature validation** - verify derating assumptions
+- **AI-powered alerts** - Qbits' WhatsApp monitoring identifies anomalies automatically
+- **Warranty protection** - performance logs prove in-spec operation
+- **Institutional knowledge** - multi-installation data refines future sizing
 
 ## Quick Reference
 
@@ -241,4 +241,4 @@ Standardised sizing procedures incorporating temperature coefficients, voltage c
 
 ## Closing
 
-Proper sizing is not a one-formula exercise — it is a balance between DC:AC ratio, string voltage at temperature extremes, MPPT current limits, and the inverter's warranty envelope. The 12 questions above cover the failure modes EPCs see most often. Get them right and you protect both energy yield and warranty coverage.
+Proper sizing is not a one-formula exercise - it is a balance between DC:AC ratio, string voltage at temperature extremes, MPPT current limits, and the inverter's warranty envelope. The 12 questions above cover the failure modes EPCs see most often. Get them right and you protect both energy yield and warranty coverage.

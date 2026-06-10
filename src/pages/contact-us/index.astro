@@ -15,10 +15,10 @@ const contactMethods = [
   },
   {
     title: 'Email Us',
-    desc: 'Send us detailed queries — we respond within 24 hours.',
+    desc: 'Send us detailed queries - we respond within 24 hours.',
     icon: 'M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
-    value: 'Service@qbitsenergy.com',
-    link: 'mailto:Service@qbitsenergy.com',
+    value: 'service@qbitsenergy.com',
+    link: 'mailto:service@qbitsenergy.com',
     action: 'Send Email',
   },
   {
@@ -31,7 +31,7 @@ const contactMethods = [
   },
   {
     title: 'Visit Us',
-    desc: 'Corporate office in Surat, Gujarat — open Mon-Sat.',
+    desc: 'Corporate office in Surat, Gujarat - open Mon-Sat.',
     icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z',
     value: 'Surat, Gujarat, India',
     link: 'https://maps.google.com/?q=Surat,Gujarat',
@@ -55,7 +55,7 @@ const inquiryTypes = [
 >
   <HeaderV2 />
 
-  <main>
+  <main id="main-content">
     <PageHeader
       label="Get in Touch"
       title="Contact"
@@ -86,7 +86,7 @@ const inquiryTypes = [
               <h3 class="text-lg font-bold text-slate-900 mb-2">{method.title}</h3>
               <p class="text-sm text-slate-500 mb-4">{method.desc}</p>
               <p class="text-brand-600 font-semibold text-sm mb-4">{method.value}</p>
-              <a href={method.link} target={method.link.startsWith('http') ? '_blank' : undefined} rel={method.link.startsWith('http') ? 'noopener' : undefined} class="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600 hover:text-brand-700">
+              <a href={method.link} target={method.link.startsWith('http') ? '_blank' : undefined} rel={method.link.startsWith('http') ? 'noopener noreferrer' : undefined} class="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600 hover:text-brand-700">
                 {method.action}
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
               </a>
@@ -110,21 +110,21 @@ const inquiryTypes = [
               <h2 id="form-heading" class="text-2xl font-bold text-slate-900 mt-4 mb-8">
                 Tell Us About Your Project
               </h2>
-              <form id="lead-form" class="space-y-5" novalidate>
+              <form id="lead-form" class="space-y-5" action="mailto:service@qbitsenergy.com" method="post" enctype="text/plain">
                 <div class="grid sm:grid-cols-2 gap-5">
                   <div>
                     <label for="name" class="block text-sm font-medium text-slate-700 mb-1.5">Full Name</label>
-                    <input type="text" id="name" name="name" required class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="Your name" />
+                    <input type="text" id="name" name="name" required maxlength="80" autocomplete="name" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="Your name" />
                   </div>
                   <div>
                     <label for="email" class="block text-sm font-medium text-slate-700 mb-1.5">Email</label>
-                    <input type="email" id="email" name="email" required class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="you@example.com" />
+                    <input type="email" id="email" name="email" required maxlength="120" autocomplete="email" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="you@example.com" />
                   </div>
                 </div>
                 <div class="grid sm:grid-cols-2 gap-5">
                   <div>
                     <label for="phone" class="block text-sm font-medium text-slate-700 mb-1.5">Phone</label>
-                    <input type="tel" id="phone" name="phone" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="+91 ..." />
+                    <input type="tel" id="phone" name="phone" pattern="[+0-9 ()\-]{7,16}" inputmode="tel" autocomplete="tel" maxlength="20" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="+91 ..." />
                   </div>
                   <div>
                     <label for="subject" class="block text-sm font-medium text-slate-700 mb-1.5">Subject</label>
@@ -135,7 +135,11 @@ const inquiryTypes = [
                 </div>
                 <div>
                   <label for="message" class="block text-sm font-medium text-slate-700 mb-1.5">Message</label>
-                  <textarea id="message" name="message" rows="5" required class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all resize-none bg-slate-50/50" placeholder="How can we help you? Tell us about your solar project..."></textarea>
+                  <textarea id="message" name="message" rows="5" required minlength="10" maxlength="2000" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all resize-none bg-slate-50/50" placeholder="How can we help you? Tell us about your solar project..."></textarea>
+                </div>
+                <!-- Honeypot: visible to bots, hidden from humans + screen readers -->
+                <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
+                  <label>Don't fill this: <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" /></label>
                 </div>
                 <button type="submit" id="lead-submit" class="btn-primary w-full sm:w-auto">
                   <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
@@ -144,13 +148,15 @@ const inquiryTypes = [
                 </button>
                 <p id="lead-status" class="text-sm mt-2 hidden" role="status" aria-live="polite"></p>
               </form>
-              <script is:inline>
+              <script is:inline define:vars={{
+                  GAS_ENDPOINT: import.meta.env.PUBLIC_GAS_ENDPOINT || 'REPLACE_WITH_DEPLOYED_APPS_SCRIPT_WEB_APP_URL',
+                  FORM_TOKEN: import.meta.env.PUBLIC_FORM_TOKEN || '',
+                }}>
                 (() => {
-                  // Set this to the deployed Apps Script Web App URL (ends in /exec).
-                  // See google-apps-script/README.md for setup steps.
-                  // Until configured, the form falls back to opening the user's mail
-                  // client with the form contents pre-filled — never silently drops a lead.
-                  const GAS_ENDPOINT = 'REPLACE_WITH_DEPLOYED_APPS_SCRIPT_WEB_APP_URL';
+                  // Set PUBLIC_GAS_ENDPOINT and PUBLIC_FORM_TOKEN in Cloudflare Pages env vars.
+                  // See google-apps-script/README.md for Apps Script setup.
+                  // Until GAS_ENDPOINT is configured, the form falls back to opening the user's mail
+                  // client with the form contents pre-filled - never silently drops a lead.
                   const FALLBACK_EMAIL = 'service@qbitsenergy.com';
                   const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
 
@@ -160,9 +166,23 @@ const inquiryTypes = [
                   const labelDefault = btn.querySelector('[data-label-default]');
                   const labelSending = btn.querySelector('[data-label-sending]');
 
+                  const setSending = (sending) => {
+                    btn.disabled = sending;
+                    labelDefault.classList.toggle('hidden', sending);
+                    labelSending.classList.toggle('hidden', !sending);
+                  };
+
                   const showStatus = (msg, ok) => {
                     status.textContent = msg;
                     status.className = 'text-sm mt-2 ' + (ok ? 'text-emerald-600' : 'text-rose-600');
+                  };
+
+                  const trimFD = (fd) => {
+                    ['name', 'email', 'message', 'phone'].forEach((k) => {
+                      const v = fd.get(k);
+                      if (typeof v === 'string') fd.set(k, v.trim());
+                    });
+                    return fd;
                   };
 
                   const buildMailto = (fd) => {
@@ -181,26 +201,47 @@ const inquiryTypes = [
                       '&body=' + encodeURIComponent(body);
                   };
 
+                  // Override the native mailto action with JS submit handler.
+                  // The form `action="mailto:..."` is the no-JS fallback only.
                   form.addEventListener('submit', async (e) => {
                     e.preventDefault();
                     if (!form.reportValidity()) return;
 
-                    const fd = new FormData(form);
+                    // Honeypot: bots fill this; humans never see it.
+                    if ((form.elements.namedItem('website') || {}).value) {
+                      // Silently pretend success.
+                      form.reset();
+                      showStatus('Thanks! We\u2019ll be in touch within 24 hours.', true);
+                      return;
+                    }
+
+                    const fd = trimFD(new FormData(form));
+                    fd.delete('website');
                     fd.append('source', 'contact-form');
                     fd.append('page', location.pathname);
                     fd.append('userAgent', navigator.userAgent);
+                    fd.append('submittedAt', new Date().toISOString());
+                    if (FORM_TOKEN) fd.append('token', FORM_TOKEN);
+
+                    // Fire analytics event if GA is loaded.
+                    if (typeof window.gtag === 'function') {
+                      window.gtag('event', 'form_submit', {
+                        form_id: 'lead-form',
+                        subject: fd.get('subject'),
+                      });
+                    }
+
+                    setSending(true);
+                    status.className = 'text-sm mt-2 hidden';
 
                     // Fallback: Apps Script not configured yet → open mail client.
                     if (!isConfigured) {
                       window.location.href = buildMailto(fd);
-                      showStatus('Opening your email app — please send the message to complete your inquiry.', true);
+                      form.reset();
+                      showStatus('Opening your email app - please send the message to complete your inquiry.', true);
+                      setSending(false);
                       return;
                     }
-
-                    btn.disabled = true;
-                    labelDefault.classList.add('hidden');
-                    labelSending.classList.remove('hidden');
-                    status.className = 'text-sm mt-2 hidden';
 
                     try {
                       const body = new URLSearchParams(fd).toString();
@@ -218,13 +259,11 @@ const inquiryTypes = [
                       }
                     } catch (err) {
                       console.error(err);
-                      // Network or server failed — fall back to mailto so the lead isn't lost.
                       window.location.href = buildMailto(fd);
-                      showStatus('Network issue — opening your email app instead. Please send to complete.', false);
+                      form.reset();
+                      showStatus('Network issue - opening your email app instead. Please send to complete.', false);
                     } finally {
-                      btn.disabled = false;
-                      labelDefault.classList.remove('hidden');
-                      labelSending.classList.add('hidden');
+                      setSending(false);
                     }
                   });
                 })();
@@ -234,12 +273,28 @@ const inquiryTypes = [
 
           <!-- Sidebar Info -->
           <div class="lg:col-span-2 space-y-6">
+            <!-- Prefer to self-book? Cal.com placeholder. Configure CAL_USERNAME in env to activate. -->
+            <div class="bg-slate-900 rounded-2xl p-8 text-white">
+              <span class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-brand-400">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-400 animate-pulse"></span>
+                Book a slot
+              </span>
+              <h3 class="text-xl font-bold mt-4 mb-2">Prefer to self-book?</h3>
+              <p class="text-sm text-slate-300 leading-relaxed mb-5">
+                Pick a 20-minute slot with a Qbits engineer - sizing, products, partner near you.
+              </p>
+              <a href="https://wa.me/919979192935?text=Hi,%20I%20want%20to%20book%20a%20call%20with%20a%20Qbits%20engineer." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-full bg-brand-500 hover:bg-brand-600 transition-colors px-5 py-2.5 text-sm font-semibold text-white">
+                Book on WhatsApp
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+              </a>
+            </div>
+
             <div class="bg-brand-500 rounded-2xl p-8 text-white">
               <h3 class="text-xl font-bold mb-4">Become a Partner</h3>
               <p class="text-sm text-brand-100 leading-relaxed mb-6">
                 Join our growing network of dealers and distributors across India. Get exclusive pricing, marketing support, and technical training.
               </p>
-              <a href="https://wa.me/919979192935" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-brand-600 hover:bg-brand-50 transition-colors">
+              <a href="https://wa.me/919979192935" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-brand-600 hover:bg-brand-50 transition-colors">
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                 Chat on WhatsApp
               </a>

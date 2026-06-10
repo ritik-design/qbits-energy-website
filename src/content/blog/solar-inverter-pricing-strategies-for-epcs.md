@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Pricing Strategies for EPCs (2026)"
 excerpt: "Lowest price wins few projects worth keeping. Here's how EPCs structure inverter pricing to balance competitive positioning with margin protection in 2026."
-description: "Strategic inverter pricing guide for Indian EPCs — market landscape, markup structures by project type, volume discounts, value-based pricing, on-grid vs hybrid premiums, and technology feature ROI."
+description: "Strategic inverter pricing guide for Indian EPCs - market landscape, markup structures by project type, volume discounts, value-based pricing, on-grid vs hybrid premiums, and technology feature ROI."
 category: "Buying Guide"
 date: 2026-03-24
 readTime: "7 min"
@@ -16,13 +16,13 @@ faqs:
   - q: "What's the price range for solar inverters in India?"
     a: "Entry-level on-grid: ₹4,000–8,000/kW. Premium models: ₹10,000–15,000/kW. German-grade components and 10–12 year extended warranties command 8–12% premiums."
   - q: "What markup should I apply by project type?"
-    a: "Residential: 25–40% markup to cover sales, design, installation support, and customer service. C&I: 15–30% markup — tighter margins offset by higher absolute project values."
+    a: "Residential: 25–40% markup to cover sales, design, installation support, and customer service. C&I: 15–30% markup - tighter margins offset by higher absolute project values."
   - q: "How do volume discount tiers work?"
     a: "Typical tiers: 1–10 units standard, 11–25 units 5% discount, 26–50 units 8%, 51–100 units 12%, 100+ units 15%. Discounts calculated from markup to protect base margins."
   - q: "What's the premium for hybrid inverters?"
     a: "Hybrid inverters command 30–50% price premium over on-grid models. Battery integration costs 2–3× inverter expense, but future-proofing value justifies premium positioning for outage-risk clients."
   - q: "How much does AI monitoring add to cost?"
-    a: "AI-powered monitoring: 8–12% cost premium. Reduces site visits by 40–50%, saving ₹2–3 lakhs annually for typical EPCs — strong ROI on the feature premium."
+    a: "AI-powered monitoring: 8–12% cost premium. Reduces site visits by 40–50%, saving ₹2–3 lakhs annually for typical EPCs - strong ROI on the feature premium."
 ---
 
 India's expanding solar market demands strategic inverter pricing approaches for EPCs and distributors. Success requires balancing competitive positioning with margin protection rather than simply offering the lowest price.
@@ -118,4 +118,4 @@ Future-proofing value justifies premium positioning for clients with outage risk
 
 ## Closing
 
-Strategic pricing is not about being cheapest — it is about being the value choice for the clients you want to keep. Build pricing around TCO storytelling, protect margins through tiered volume discounts, and let technology premiums (AI, IP66, 12-year warranty) carry the differentiation conversation with quality-conscious buyers.
+Strategic pricing is not about being cheapest - it is about being the value choice for the clients you want to keep. Build pricing around TCO storytelling, protect margins through tiered volume discounts, and let technology premiums (AI, IP66, 12-year warranty) carry the differentiation conversation with quality-conscious buyers.

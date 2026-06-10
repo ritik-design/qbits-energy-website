@@ -1,7 +1,7 @@
 ---
 title: "Top Inverter Vendors India: EPC Selection Guide 2026"
 excerpt: "The inverter is the brain of every solar installation. Selecting the right vendor determines warranty experience, support quality, and 25-year project economics."
-description: "Comprehensive vendor selection guide for solar inverters in India — 8 evaluation criteria, due diligence checklist, partnership-building framework, and regional considerations for EPCs."
+description: "Comprehensive vendor selection guide for solar inverters in India - 8 evaluation criteria, due diligence checklist, partnership-building framework, and regional considerations for EPCs."
 category: "Buying Guide"
 date: 2026-05-08
 readTime: "8 min"
@@ -17,15 +17,15 @@ faqs:
     a: "BIS (mandatory under IS 16221), IEC 62109 (safety), IEC 61727 (grid interface), and IP65+ ratings. IP66 is recommended for Indian conditions."
   - q: "Why does warranty type matter?"
     a: "Full replacement warranties dramatically outweigh repair-only terms. The 12-year full replacement standard eliminates mid-life replacement costs (₹2.5–₹3 lakhs for 100 kW) during the system's most failure-prone period."
-  - q: "On-grid vs hybrid — which to prefer?"
-    a: "On-grid for stable-grid regions with reliable connectivity. Hybrid for outage protection, independence, or peak-tariff regions. Many vendors offer both — verify the product range matches your project mix."
+  - q: "On-grid vs hybrid - which to prefer?"
+    a: "On-grid for stable-grid regions with reliable connectivity. Hybrid for outage protection, independence, or peak-tariff regions. Many vendors offer both - verify the product range matches your project mix."
   - q: "How do I verify quality before bulk orders?"
     a: "Factory audits, sample unit testing under realistic conditions, field failure data from existing EPC clients, and validated 3rd-party certification."
   - q: "What after-sales standards should I require?"
     a: "Dedicated technical support channels, SLA commitments (24–48 hour response in major markets), digital warranty systems, and regional service centres mapped to your project territories."
 ---
 
-Selecting the right inverter vendors is critical for EPC companies. The inverter acts as the brain of every solar installation — converting DC to AC, managing grid interaction, and monitoring system health.
+Selecting the right inverter vendors is critical for EPC companies. The inverter acts as the brain of every solar installation - converting DC to AC, managing grid interaction, and monitoring system health.
 
 ## Why Choosing the Right Vendor Matters
 
@@ -81,7 +81,7 @@ Strong vendor relationships deliver faster timelines, better pricing, and superi
 - **German-grade electronic components**
 - **AI-powered monitoring** with WhatsApp integration
 - **12-year full replacement warranty**
-- **India-specific engineering** — IP66, wide voltage tolerance, 50°C+ operation
+- **India-specific engineering** - IP66, wide voltage tolerance, 50°C+ operation
 
 ## Building Long-Term Partnerships
 
@@ -112,4 +112,4 @@ Strong vendor relationships deliver faster timelines, better pricing, and superi
 
 ## Closing
 
-Vendor selection compounds over years. Spend the due diligence time upfront, build relationships with manufacturers whose products and support align with your project mix and geography, and treat the vendor evaluation as a strategic decision — not procurement.
+Vendor selection compounds over years. Spend the due diligence time upfront, build relationships with manufacturers whose products and support align with your project mix and geography, and treat the vendor evaluation as a strategic decision - not procurement.

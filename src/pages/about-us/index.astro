@@ -27,6 +27,33 @@ const stats = [
   { value: '12', label: 'Year Warranty', suffix: 'Y' },
 ];
 
+const team = [
+  {
+    name: 'Nirav Dhanani',
+    role: 'CEO',
+    photo: '/team/nirav-dhanani.webp',
+    linkedin: 'https://www.linkedin.com/in/nirav-dhanani-700332129',
+  },
+  {
+    name: 'Keyur Rakholiya',
+    role: 'CTO',
+    photo: '/team/keyur-rakholiya.webp',
+    linkedin: 'https://www.linkedin.com/in/keyur-rakholiya-6a077885',
+  },
+  {
+    name: 'Akash Hirapara',
+    role: 'CFO',
+    photo: '/team/akash-hirapara.webp',
+    linkedin: 'https://www.linkedin.com/in/akash-hirpara-5b0632ab',
+  },
+  {
+    name: 'Piyush Chandel',
+    role: 'B2B Sales Head',
+    photo: '/team/piyush-chandel.webp',
+    linkedin: null,
+  },
+];
+
 const differentiators = [
   { title: 'German IGBT Technology', desc: 'Premium power conversion components selected for 20-year operational life.' },
   { title: '1,000+ Quality Tests', desc: 'Every inverter undergoes rigorous automated testing before dispatch.' },
@@ -247,6 +274,54 @@ const differentiators = [
               <h3 class="text-xl font-bold text-slate-900 mb-3">{v.title}</h3>
               <p class="text-sm text-slate-500 leading-relaxed">{v.desc}</p>
             </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership Team -->
+    <section class="section-padding bg-slate-50" aria-labelledby="team-heading">
+      <div class="container-main">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="section-label justify-center">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Business Pioneers
+            <span class="w-8 h-px bg-brand-500"></span>
+          </span>
+          <h2 id="team-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
+            Our Leadership Team
+          </h2>
+          <p class="mt-4 text-slate-500">
+            The people building Qbits into India's smartest solar inverter brand.
+          </p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+          {team.map((m) => (
+            <article class="group bg-white rounded-2xl overflow-hidden ring-1 ring-slate-200 hover:ring-brand-300 hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500">
+              <div class="aspect-[4/5] overflow-hidden bg-slate-100">
+                <img
+                  src={m.photo}
+                  alt={`${m.name}, ${m.role}`}
+                  width="600"
+                  height="750"
+                  loading="lazy"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </div>
+              <div class="p-5 sm:p-6">
+                <h3 class="text-lg font-bold text-slate-900">
+                  {m.linkedin ? (
+                    <a href={m.linkedin} target="_blank" rel="noopener noreferrer" class="hover:text-brand-600 inline-flex items-center gap-2">
+                      {m.name}
+                      <svg class="w-4 h-4 text-slate-400 group-hover:text-brand-600" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                  ) : (
+                    m.name
+                  )}
+                </h3>
+                <p class="text-sm text-brand-600 font-semibold mt-1">{m.role}</p>
+              </div>
+            </article>
           ))}
         </div>
       </div>

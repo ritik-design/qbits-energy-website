@@ -1,0 +1,166 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import HeaderV2 from '../../components/HeaderV2.astro';
+import Footer from '../../components/Footer.astro';
+import PageHeader from '../../components/ui/PageHeader.astro';
+
+const blogPosts = (await getCollection('blog')).sort(
+  (a, b) => +new Date(b.data.date) - +new Date(a.data.date)
+);
+const glossary = (await getCollection('glossary')).sort((a, b) =>
+  a.data.term.localeCompare(b.data.term)
+);
+
+const company = [
+  { label: 'Home', href: '/' },
+  { label: 'About Us', href: '/about-us/' },
+  { label: 'Why Qbits', href: '/why-qbits/' },
+  { label: 'Contact Us', href: '/contact-us/' },
+  { label: 'Authorized Service Partners', href: '/authorized-service-partners/' },
+];
+
+const products = [
+  { label: 'All Products', href: '/our-products/' },
+  { label: 'On-Grid Inverters', href: '/on-grid-inverter/' },
+  { label: 'Hybrid Inverters', href: '/hybrid-inverter/' },
+];
+
+const solutions = [
+  { label: 'Residential Solar', href: '/residential-solution/' },
+  { label: 'Commercial & Industrial', href: '/c-i-solution/' },
+];
+
+const resources = [
+  { label: 'Blog', href: '/blog/' },
+  { label: 'Glossary', href: '/glossary/' },
+  { label: 'Download Datasheets', href: '/download-datasheets/' },
+  { label: 'String Sizing Calculator', href: '/string-sizing-calculator/' },
+  { label: 'Search', href: '/search/' },
+];
+
+const legal = [
+  { label: 'Privacy Policy', href: '/privacy-policy/' },
+  { label: 'Terms of Service', href: '/terms/' },
+];
+
+const blogByCategory = blogPosts.reduce<Record<string, typeof blogPosts>>((acc, post) => {
+  const cat = post.data.category || 'General';
+  (acc[cat] ||= []).push(post);
+  return acc;
+}, {});
+const blogCategories = Object.keys(blogByCategory).sort();
+
+const glossaryByLetter = glossary.reduce<Record<string, typeof glossary>>((acc, entry) => {
+  const letter = entry.data.term.charAt(0).toUpperCase();
+  (acc[letter] ||= []).push(entry);
+  return acc;
+}, {});
+const glossaryLetters = Object.keys(glossaryByLetter).sort();
+---
+
+<Layout
+  title="Sitemap | Qbits Energy"
+  description="Complete index of every page on qbitsenergy.com — company info, products, solutions, blog, and glossary."
+  canonical="/sitemap/"
+>
+  <HeaderV2 />
+
+  <main id="main-content">
+    <PageHeader
+      label="Site Index"
+      title="Sitemap"
+      description="Browse every page on Qbits Energy. Looking for the XML version for search engines? Visit /sitemap-index.xml."
+    />
+
+    <section class="section-padding bg-white">
+      <div class="container-main">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12 mb-16">
+          {[
+            { title: 'Company', items: company },
+            { title: 'Products', items: products },
+            { title: 'Solutions', items: solutions },
+            { title: 'Resources', items: resources },
+            { title: 'Legal', items: legal },
+          ].map((group) => (
+            <div>
+              <h2 class="text-sm font-bold uppercase tracking-wider text-brand-600 mb-4 flex items-center gap-2">
+                <span class="w-6 h-px bg-brand-500"></span>
+                {group.title}
+              </h2>
+              <ul class="space-y-2">
+                {group.items.map((it) => (
+                  <li>
+                    <a href={it.href} class="text-slate-700 hover:text-brand-600 hover:underline">{it.label}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        <!-- Blog -->
+        <div class="mt-16 pt-12 border-t border-slate-200">
+          <div class="flex items-baseline justify-between mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Blog <span class="text-slate-400 font-normal text-base">({blogPosts.length} articles)</span></h2>
+            <a href="/blog/" class="text-sm font-semibold text-brand-600 hover:text-brand-700">Visit Blog →</a>
+          </div>
+          <div class="space-y-10">
+            {blogCategories.map((cat) => (
+              <div>
+                <h3 class="text-base font-bold text-slate-900 mb-3">
+                  {cat}
+                  <span class="text-slate-400 font-normal text-sm ml-2">({blogByCategory[cat].length})</span>
+                </h3>
+                <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1.5">
+                  {blogByCategory[cat].map((p) => (
+                    <li>
+                      <a href={`/blog/${p.id}/`} class="text-sm text-slate-600 hover:text-brand-600 hover:underline">{p.data.title}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Glossary -->
+        <div class="mt-16 pt-12 border-t border-slate-200">
+          <div class="flex items-baseline justify-between mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Glossary <span class="text-slate-400 font-normal text-base">({glossary.length} terms)</span></h2>
+            <a href="/glossary/" class="text-sm font-semibold text-brand-600 hover:text-brand-700">Visit Glossary →</a>
+          </div>
+          <div class="space-y-8">
+            {glossaryLetters.map((letter) => (
+              <div>
+                <h3 class="text-base font-bold text-slate-900 mb-3 inline-flex items-center justify-center w-8 h-8 rounded-lg bg-brand-50 text-brand-700">{letter}</h3>
+                <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1.5 mt-2">
+                  {glossaryByLetter[letter].map((g) => (
+                    <li>
+                      <a href={`/glossary/${g.id}/`} class="text-sm text-slate-600 hover:text-brand-600 hover:underline">{g.data.term}</a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div class="mt-16 pt-10 border-t border-slate-200 text-sm text-slate-500">
+          <p>
+            Machine-readable index for search engines:
+            <a href="/sitemap-index.xml" class="text-brand-600 hover:underline">/sitemap-index.xml</a>
+            &middot;
+            LLM-readable summary:
+            <a href="/llms.txt" class="text-brand-600 hover:underline">/llms.txt</a>
+            &middot;
+            Crawler rules:
+            <a href="/robots.txt" class="text-brand-600 hover:underline">/robots.txt</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

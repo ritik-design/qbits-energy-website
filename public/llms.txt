@@ -1,0 +1,54 @@
+# Qbits Energy
+
+> Qbits Inverters Limited is an Indian solar inverter manufacturer (a subsidiary of Heaven Green Energy Limited). We design and build BIS/IEC-certified on-grid and hybrid solar inverters for residential, commercial, and industrial use across India, backed by a 12-year warranty, IP66 enclosures, German IGBTs, and AI-powered WhatsApp monitoring on Indian servers.
+
+Headquartered in Surat, Gujarat. Product range covers 1.5 kW residential string inverters through 320 kW C&I units. We sell through a dealer network, EPCs, and direct B2B; we are not on Amazon.
+
+## Company
+
+- [About Qbits](https://qbitsenergy.com/about-us/): Company story, leadership, ISO 9001 certification, Adani Solar distributorship.
+- [Why Qbits](https://qbitsenergy.com/why-qbits/): Build quality, India-tuned engineering, 12-year warranty, IP66 protection.
+- [Contact](https://qbitsenergy.com/contact-us/): Sales, service, partnership enquiries. Surat HQ.
+- [Authorized Service Partners](https://qbitsenergy.com/authorized-service-partners/): Pan-India installation, maintenance, and warranty support map.
+
+## Products
+
+- [All Inverters](https://qbitsenergy.com/our-products/): Full lineup with specs and datasheets.
+- [On-Grid Inverters](https://qbitsenergy.com/on-grid-inverter/): Grid-tied series from 1.5 kW to 320 kW.
+- [Hybrid Inverters](https://qbitsenergy.com/hybrid-inverter/): Battery-ready residential and C&I hybrid models.
+- [Datasheets](https://qbitsenergy.com/download-datasheets/): Official PDF specifications for every SKU.
+
+## Solutions
+
+- [Residential](https://qbitsenergy.com/residential-solution/): 1 kW–10 kW home rooftop systems.
+- [Commercial & Industrial](https://qbitsenergy.com/c-i-solution/): Factories, warehouses, schools, hospitals, hotels.
+
+## Resources
+
+- [Blog](https://qbitsenergy.com/blog/): Long-form guides on inverter selection, sizing, certifications, PM Surya Ghar, financing, and case studies.
+- [Glossary](https://qbitsenergy.com/glossary/): Definitions for solar and power-electronics terms (MPPT, IP66, THD, BIS, IEC, etc.).
+- [String Sizing Calculator](https://qbitsenergy.com/string-sizing-calculator/): Interactive tool for sizing PV strings against Qbits inverters.
+- [Sitemap (HTML)](https://qbitsenergy.com/sitemap/): Browsable index of every page.
+- [Sitemap (XML)](https://qbitsenergy.com/sitemap-index.xml): Machine-readable index for crawlers.
+
+## Key Topics Covered in Blog
+
+- Solar inverter buying guides for 1 kW, 2 kW, 3 kW, 5 kW, and 10 kW systems.
+- On-grid vs hybrid vs off-grid comparisons.
+- PM Surya Ghar Muft Bijli Yojana eligibility, subsidy amounts, application process, and status checks.
+- Kusum Yojana for agricultural solar.
+- State-by-state solar subsidies (Gujarat, Maharashtra, Tamil Nadu, UP, Karnataka, Kerala, MP, Rajasthan, Telangana, West Bengal, Andhra Pradesh, Bihar, Delhi).
+- Solar financing: SBI, HDFC, IREDA, RESCO/OPEX models, EMI.
+- Inverter technology deep dives: MPPT, dual-MPPT vs single, transformerless, three-phase, anti-islanding, BMS, reactive power.
+- Reliability and maintenance: IP65 vs IP66, monsoon prep, summer derating, ground faults, troubleshooting error codes.
+- Brand comparisons: Qbits vs Sungrow, Growatt, Luminous, Microtek, Deye, UTL, Goodwe, Solis.
+- Indian solar market data, statistics, and rooftop capacity by state.
+
+## Contact
+
+- Email: service@qbitsenergy.com
+- Phone: +91 99791 92935
+- Address: 201, Anupam Square, Mahadev Chowk, Mota Varachha, Surat, Gujarat 394101, India
+- LinkedIn: https://www.linkedin.com/company/qbits-inverter/
+- Instagram: https://www.instagram.com/qbitsenergy/
+- YouTube: https://www.youtube.com/@qbitsenergy

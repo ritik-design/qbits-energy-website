@@ -1,9 +1,9 @@
 ---
 ---
 
-<section class="relative min-h-screen flex items-center overflow-hidden bg-slate-950" aria-labelledby="hero-heading">
-  <!-- Full-width background image -->
-  <div class="absolute inset-0">
+<section class="relative md:min-h-screen md:flex md:items-center overflow-hidden bg-slate-950" aria-labelledby="hero-heading">
+  <!-- Desktop: full-width background image -->
+  <div class="absolute inset-0 hidden md:block">
     <img
       src="/homepage/qbits-hero.webp"
       alt="Qbits solar inverter installation"
@@ -16,23 +16,23 @@
     />
   </div>
 
-  <!-- Floating particles effect -->
-  <div class="absolute inset-0 z-20 overflow-hidden pointer-events-none" aria-hidden="true">
+  <!-- Floating particles effect (desktop only) -->
+  <div class="absolute inset-0 z-20 overflow-hidden pointer-events-none hidden md:block" aria-hidden="true">
     <div class="absolute top-1/4 right-1/4 w-2 h-2 rounded-full bg-brand-400/30 animate-pulse"></div>
     <div class="absolute top-1/3 right-1/3 w-1.5 h-1.5 rounded-full bg-brand-400/20 animate-pulse" style="animation-delay: 1s;"></div>
     <div class="absolute bottom-1/3 right-1/3 w-1 h-1 rounded-full bg-brand-400/40 animate-pulse" style="animation-delay: 2s;"></div>
     <div class="absolute top-2/3 right-1/4 w-2 h-2 rounded-full bg-accent/20 animate-pulse" style="animation-delay: 0.5s;"></div>
   </div>
 
-  <!-- Content - aligned to grid, vertically centered -->
-  <div class="container-main relative z-30 w-full py-24">
-    <div class="max-w-2xl text-left">
+  <!-- Content -->
+  <div class="container-main relative z-30 w-full pt-28 pb-10 md:py-24">
+    <div class="max-w-2xl text-center mx-auto md:mx-0 md:text-left">
       <span class="hero-badge inline-flex items-center gap-2 rounded-full bg-white/5 border border-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-brand-400 mb-6">
         <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
         India's Solar Inverter Pioneer
       </span>
 
-      <h1 id="hero-heading" class="hero-headline text-left text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.05] tracking-tight">
+      <h1 id="hero-heading" class="hero-headline text-center md:text-left text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.05] tracking-tight">
         Built For India's
         <span class="block mt-1 bg-gradient-to-r from-brand-400 via-brand-300 to-accent bg-clip-text text-transparent">
           Toughest Solar
@@ -40,24 +40,41 @@
         <span class="block mt-1">Conditions</span>
       </h1>
 
-      <p class="hero-desc text-left mt-6 text-base sm:text-lg text-white max-w-lg leading-relaxed">
+      <p class="hero-desc text-center md:text-left mt-6 text-base sm:text-lg text-white max-w-lg mx-auto md:mx-0 leading-relaxed">
         High-efficiency solar inverters engineered for India's heat, voltage fluctuations, dust, and demanding grid conditions.
       </p>
 
-      <div class="hero-buttons mt-8 flex flex-col sm:flex-row items-start gap-4">
-        <a href="/our-products/" class="btn-primary text-sm py-3.5 px-8">
+      <div class="hero-buttons mt-8 flex flex-col sm:flex-row items-stretch sm:items-center md:items-start justify-center md:justify-start gap-4">
+        <a href="/our-products/" class="btn-primary text-sm py-3.5 px-8 justify-center">
           Explore Products
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>
-        <a href="/contact-us/" class="btn-outline text-sm py-3.5 px-8">
+        <a href="/contact-us/" class="btn-outline text-sm py-3.5 px-8 justify-center">
           Get a free site survey
         </a>
       </div>
     </div>
+
+    <!-- Mobile: image below content -->
+    <div class="mt-10 md:hidden">
+      <div class="relative rounded-2xl overflow-hidden ring-1 ring-white/10 shadow-2xl">
+        <img
+          src="/homepage/qbits-hero.webp"
+          alt="Qbits solar inverter installation"
+          width="1280"
+          height="900"
+          class="w-full h-auto object-cover"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent pointer-events-none"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- Scroll indicator -->
-  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 flex flex-col items-center gap-2">
+  <!-- Scroll indicator (desktop only) -->
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 hidden md:flex flex-col items-center gap-2">
     <span class="text-xs text-slate-600 uppercase tracking-widest">Scroll</span>
     <svg class="w-5 h-5 text-slate-600 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
   </div>

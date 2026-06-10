@@ -29,7 +29,7 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   /* Respect reduced-motion preference: kill all animations, scroll-snap, and parallax. */
@@ -51,7 +51,7 @@
     font-family: var(--font-sans);
     color: #0f172a;
     background: #ffffff;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   ::selection {
@@ -131,6 +131,8 @@
 
 .blog-content p {
   color: #475569;
+  font-size: 1.0625rem;
+  line-height: 1.75;
 }
 
 .blog-content strong {
@@ -165,6 +167,12 @@
 .blog-content li {
   margin: 0.5rem 0;
   color: #475569;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+.blog-content li p {
+  margin: 0;
 }
 
 .blog-content li::marker {
@@ -260,8 +268,3 @@
   height: auto;
 }
 
-.blog-content > p:first-of-type {
-  font-size: 1.1875rem;
-  line-height: 1.7;
-  color: #334155;
-}

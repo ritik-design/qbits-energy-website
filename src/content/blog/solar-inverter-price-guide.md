@@ -192,7 +192,7 @@ Chinese manufacturers (who dominate the budget and mid-tier) passed through most
 
 Brands investing in warranty reserves cannot pass through all component cost savings. A 12-year full-replacement warranty requires setting aside a financial reserve against future claims. As component costs fell, warranty-focused brands chose to maintain price floors and improve unit quality rather than cut price and reduce warranty reserves. This is rational behaviour, and it is why premium-warranty brands cost more, not because of margin extraction.
 
-The [best solar inverter for India 2026](/blog/best-solar-inverter-india-2026/) guide provides the full brand ranking methodology with efficiency and warranty data.
+The [best solar inverter for India 2026](/blog/best-solar-inverter-india/) guide provides the full brand ranking methodology with efficiency and warranty data.
 
 ### Price Outlook for 2026–27
 

@@ -234,6 +234,6 @@ The monitoring capability is built into every Qbits inverter across all series, 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, 1.5 kW to 50 kW, with WhatsApp-native monitoring, ALMM-listed, and PM Surya Ghar subsidy eligible.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery state-of-charge alerts, backup duration estimates, and full WhatsApp monitoring integration for battery management.
 
-For homeowners comparing the Qbits range against other options in the market before deciding, the [best solar inverter India overview](/blog/best-solar-inverter-india-2026/) has a structured comparison across the brands available in the Indian market today.
+For homeowners comparing the Qbits range against other options in the market before deciding, the [best solar inverter India overview](/blog/best-solar-inverter-india/) has a structured comparison across the brands available in the Indian market today.
 
 If you would like a quote sized to your roof and electricity bill (and configured with WhatsApp monitoring from day one) [talk to a Qbits engineer](/contact-us/). Most quotes come back within 24 hours, and the site survey is free for buyers in our 280+ city service network.

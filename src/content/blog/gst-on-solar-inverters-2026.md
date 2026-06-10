@@ -246,7 +246,7 @@ Imported solar panels carry a 40% Basic Customs Duty (BCD) under the government'
 
 This is why imported panels are largely uncompetitive against [ALMM-listed](/glossary/almm-list/) domestic modules for residential and C&I projects in India. The full landed cost post-duty makes the economics unfavourable compared to quality Indian manufacturers.
 
-For a thorough comparison of inverter options in the current market, the [best solar inverter India 2026](/blog/best-solar-inverter-india-2026/) guide covers domestic and imported options with current pricing including all applicable taxes.
+For a thorough comparison of inverter options in the current market, the [best solar inverter India 2026](/blog/best-solar-inverter-india/) guide covers domestic and imported options with current pricing including all applicable taxes.
 
 ### Mistake 3: Ignoring HSN Code Verification
 

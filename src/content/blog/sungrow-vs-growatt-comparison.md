@@ -41,7 +41,7 @@ This comparison does not declare a winner outright. It runs both brands through 
 
 Both brands are worth serious consideration. Neither is definitively superior for every buyer. The right choice depends on system size, location, budget, and how much weight you place on after-sales when things go wrong on a monsoon Tuesday in a Tier-3 town.
 
-For a broader view of the full inverter brand landscape in India, the [best solar inverter in India 2026 guide](/blog/best-solar-inverter-india-2026/) ranks ten brands across comparable dimensions.
+For a broader view of the full inverter brand landscape in India, the [best solar inverter in India 2026 guide](/blog/best-solar-inverter-india/) ranks ten brands across comparable dimensions.
 
 ## Sungrow and Growatt: Brand Context for Indian Buyers
 

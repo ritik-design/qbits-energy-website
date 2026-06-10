@@ -40,7 +40,7 @@ This comparison is built for homeowners running a 2 to 5 BHK home system between
 
 > **Direct answer.** On a qbits vs luminous comparison across seven axes, Qbits wins five outright (warranty, efficiency, solar features, ALMM compliance, and monitoring) while Luminous wins two (brand reach and Tier-2/3 dealer density). The core reason: Luminous built its reputation on UPS and inverter-batteries; Qbits was engineered specifically as a solar inverter company. That Solar-First vs Battery-First Brand identity gap drives almost every technical difference in this review.
 
-For a broader market context, the [best solar inverter in India 2026](/blog/best-solar-inverter-india-2026/) review places both brands within a ten-brand field and confirms the same pattern: dedicated solar inverter companies consistently outperform UPS-heritage brands on [MPPT](/glossary/mppt/) accuracy and long-term warranty depth.
+For a broader market context, the [best solar inverter in India 2026](/blog/best-solar-inverter-india/) review places both brands within a ten-brand field and confirms the same pattern: dedicated solar inverter companies consistently outperform UPS-heritage brands on [MPPT](/glossary/mppt/) accuracy and long-term warranty depth.
 
 ## The Solar-First vs Battery-First Brand Test
 

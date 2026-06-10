@@ -72,7 +72,7 @@ Several brands sold in India are often marketed with phrases like "assembled in 
 - **SMA**: German. Premium product; minimal India residential presence.
 - **Fronius**: Austrian. Premium price, limited India-focussed service.
 
-None of these are Indian brands. That does not make them bad choices, for a C&I buyer in Mumbai or Bengaluru with access to the manufacturer's regional office, Sungrow or Goodwe may be entirely appropriate. This guide covers the [best solar inverter options across all brands](/blog/best-solar-inverter-india-2026/) if you want a broader comparison. But if you specifically want an inverter that is designed, manufactured, and supported within India, the list below is the one that applies.
+None of these are Indian brands. That does not make them bad choices, for a C&I buyer in Mumbai or Bengaluru with access to the manufacturer's regional office, Sungrow or Goodwe may be entirely appropriate. This guide covers the [best solar inverter options across all brands](/blog/best-solar-inverter-india/) if you want a broader comparison. But if you specifically want an inverter that is designed, manufactured, and supported within India, the list below is the one that applies.
 
 ## The Made-in-India Inverter Scorecard: 4 Criteria for Indian Manufacturing Authenticity
 
@@ -305,4 +305,4 @@ For homes with frequent power cuts, add ₹80,000–₹1.5 Lakh for a hybrid inv
 
 Understanding how to evaluate the [string inverter](/glossary/string-inverter/) architecture used in all the brands reviewed here (versus micro-inverters or central inverters) helps you compare specifications accurately. The [MPPT glossary entry](/glossary/mppt/) explains the tracking technology that determines how much of your panels' rated capacity actually reaches your home's electrical panel.
 
-For a complete review of all inverter brands available in India (including imported brands ranked alongside Indian ones) the [best solar inverter in India 2026](/blog/best-solar-inverter-india-2026/) guide is the companion resource to this post.
+For a complete review of all inverter brands available in India (including imported brands ranked alongside Indian ones) the [best solar inverter in India 2026](/blog/best-solar-inverter-india/) guide is the companion resource to this post.

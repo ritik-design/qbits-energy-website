@@ -98,6 +98,10 @@ export default defineConfig({
     '/2026/03/13/solar-inverter-troubleshooting': '/blog/solar-inverter-troubleshooting',
     '/2026/03/09/solar-inverter-efficiency': '/blog/solar-inverter-efficiency',
 
+    // Slug changed: removed year suffix
+    '/blog/best-solar-inverter-india-2026': '/blog/best-solar-inverter-india',
+    '/blog/best-solar-inverter-india-2026/': '/blog/best-solar-inverter-india/',
+
     // Slug changed
     '/2026/03/04/complete-guide-to-solar-inverters-in-india': '/blog/how-solar-power-system-works-india',
     '/2026/03/12/on-grid-vs-hybrid-solar-inverters-in-india': '/blog/on-grid-vs-hybrid',
@@ -109,14 +113,14 @@ export default defineConfig({
     '/2026/03/05/solar-inverter-cost-breakdown': '/blog/solar-inverter-price-guide',
     '/2026/02/20/is-your-solar-inverter-india-ready-or-just-india-visiting': '/blog/india-grid-tuned-inverters',
     '/2026/02/21/what-does-a-solar-inverter-actually-do-inside': '/blog/how-does-a-solar-inverter-work',
-    '/2026/02/06/best-solar-inverter-in-india': '/blog/best-solar-inverter-india-2026',
+    '/2026/02/06/best-solar-inverter-in-india': '/blog/best-solar-inverter-india',
     '/2026/01/31/solar-inverter-protection-features-india': '/blog/essential-vs-advanced-solar-inverter-features',
     '/2026/01/31/why-safety-features-in-a-solar-inverter-matter-more-than-price': '/blog/essential-vs-advanced-solar-inverter-features',
     '/2026/01/19/which-one-is-best-on-grid-off-grid-or-hybrid-inverter': '/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide',
     '/2026/01/16/what-you-should-keep-in-mind-while-purchasing-an-on-grid-solar-inverter': '/blog/how-to-choose-solar-inverter-for-home-india',
     '/2026/01/07/indias-top-10-solar-inverter-brands-global-giants-vs-indigenous-innovators-2026-edition': '/blog/top-10-solar-inverter-brands-india-2026',
     '/2025/11/17/why-qbits-inverter-are-built-for-india': '/blog/india-grid-tuned-inverters',
-    '/2025/12/29/qbits-powering-the-future-of-solar-with-innovation-and-reliability': '/blog/best-solar-inverter-india-2026',
+    '/2025/12/29/qbits-powering-the-future-of-solar-with-innovation-and-reliability': '/blog/best-solar-inverter-india',
     '/2025/12/31/the-solar-inverter-you-choose-today-decides-the-performance-you-get-for-the-next-20-years': '/blog/solar-inverter-lifespan',
   }
 });

@@ -189,7 +189,7 @@ Not every buyer should default to an Indian-made inverter. A fair assessment req
 
 The conclusion is not that Indian beats imported in every context. For a 500 kW C&I project where the project finance lender has a specific OEM whitelist, or for a premium residential buyer whose sole criterion is the Sungrow brand name, the imported choice has valid grounds. For the large majority of Indian homeowners installing 2–5 kW residential systems under PM Surya Ghar in 2026, the Indian-made choice is the financially superior and operationally safer one.
 
-The [complete 2026 comparison of the best solar inverters in India](/blog/best-solar-inverter-india-2026/) covers the full field (Indian and international) with a methodology-driven ranking.
+The [complete 2026 comparison of the best solar inverters in India](/blog/best-solar-inverter-india/) covers the full field (Indian and international) with a methodology-driven ranking.
 
 ## Common Mistakes Buyers Make When Evaluating "Made in India" Claims
 

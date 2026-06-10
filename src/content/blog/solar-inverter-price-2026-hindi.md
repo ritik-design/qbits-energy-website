@@ -133,7 +133,7 @@ Inverter alone काम नहीं करता - full system price:
 | Deye | ₹22,000–₹32,000 | 5 years | Some models |
 | GoodWe | ₹23,000–₹35,000 | 5-10 years | Phase III |
 
-[Best solar inverter India 2026 comparison](/blog/best-solar-inverter-india-2026/), detailed brand analysis with performance data।
+[Best solar inverter India 2026 comparison](/blog/best-solar-inverter-india/), detailed brand analysis with performance data।
 
 ## Price Mein Kya Hidden Hota Hai
 

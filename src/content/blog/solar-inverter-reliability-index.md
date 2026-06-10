@@ -308,7 +308,7 @@ The [inverter total cost of ownership analysis](/blog/inverter-tco/) quantifies 
 
 The brands that score highest on this reliability index (Qbits, Sungrow, and Fronius) are not coincidentally the brands most frequently recommended in EPC-to-EPC referrals. They have built service ecosystems that allow EPC firms to honour their own client commitments without absorbing service costs out of margin. That is the commercial case for taking reliability scoring seriously at procurement time rather than treating it as a post-problem exercise.
 
-For the [best solar inverter in India 2026](/blog/best-solar-inverter-india-2026/) verdict across a broader set of criteria including price performance and monitoring features, the companion buying guide provides the full picture.
+For the [best solar inverter in India 2026](/blog/best-solar-inverter-india/) verdict across a broader set of criteria including price performance and monitoring features, the companion buying guide provides the full picture.
 
 ---
 

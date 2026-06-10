@@ -36,7 +36,7 @@ faqs:
 
 Solar inverter purchasing decisions in India involve dozens of brand options, and Growatt appears on a significant proportion of quotations that Indian homeowners receive in 2026. Whether the brand appears because your installer genuinely recommends it or because the margin is attractive at the dealer level is worth understanding before you sign.
 
-This review examines Growatt honestly, the genuine strengths, the real weaknesses, and the specific buyer profiles for whom Growatt is a sensible choice versus those who would be better served by a different brand. The [best solar inverter in India 2026 roundup](/blog/best-solar-inverter-india-2026/) covers the broader competitive field; this post goes deeper on Growatt specifically.
+This review examines Growatt honestly, the genuine strengths, the real weaknesses, and the specific buyer profiles for whom Growatt is a sensible choice versus those who would be better served by a different brand. The [best solar inverter in India 2026 roundup](/blog/best-solar-inverter-india/) covers the broader competitive field; this post goes deeper on Growatt specifically.
 
 > **Direct answer.** Growatt is a legitimate global inverter manufacturer with competitive pricing (typically 15–25% below Sungrow at Indian dealer level) and adequate performance for standard residential applications. The MID series suits budget-conscious homeowners in cities with active Growatt distributors. The primary limitations for Indian buyers are a 5-year repair warranty (not full replacement), variable after-sales in Tier-2/3 cities, and ALMM status that requires independent verification before PM Surya Ghar subsidy claims. Apply the Growatt India Verdict, 6-Point Honest Assessment below before committing.
 

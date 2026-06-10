@@ -36,7 +36,7 @@ Running a large villa or a small business on grid power in 2026 is getting harde
 
 > **The best 10kW for 2026 depends on phase connection and use case.** For large villas on single-phase, the Qbits TLS-10K delivers 12-year warranty and ALMM compliance at a competitive price. For small commercial on 3-phase, the Qbits TLD-10K or Sungrow SG10RT are the benchmarks. The Phase and Use-Case Matrix below maps you to the right one before brand shortlisting.
 
-The [best solar inverter in India 2026](/blog/best-solar-inverter-india-2026/) overview covers the full market; this review narrows the lens to the 10 kW segment where two distinct buyer profiles (the large homeowner and the small-to-medium enterprise) converge on the same power class but diverge sharply on technical requirements.
+The [best solar inverter in India 2026](/blog/best-solar-inverter-india/) overview covers the full market; this review narrows the lens to the 10 kW segment where two distinct buyer profiles (the large homeowner and the small-to-medium enterprise) converge on the same power class but diverge sharply on technical requirements.
 
 ## Why 10 kW Is a Boundary Capacity in India
 

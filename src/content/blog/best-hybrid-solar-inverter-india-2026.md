@@ -232,7 +232,7 @@ Every review in this article applies the same five-point evaluation framework. S
 4. **ALMM and subsidy eligibility**: is the inverter on the current MNRE ALMM list? Is it accepted by DISCOMs for PM Surya Ghar applications?
 5. **Monitoring and BMS visibility**: can the homeowner see SOC, charge/discharge power, and fault history without technical assistance? Does the monitoring interface work in low-bandwidth environments common in Tier-2/3 India?
 
-The [best solar inverter India 2026 guide](/blog/best-solar-inverter-india-2026/) covers the broader inverter comparison (including on-grid models) for buyers who have not yet narrowed down to hybrid.
+The [best solar inverter India 2026 guide](/blog/best-solar-inverter-india/) covers the broader inverter comparison (including on-grid models) for buyers who have not yet narrowed down to hybrid.
 
 ## PM Surya Ghar + Hybrid: What the Subsidy Actually Covers
 

@@ -264,6 +264,6 @@ The engineering behind the warranty is equally relevant: [IP66 weather protectio
 
 If you are comparing the Qbits warranty against a specific competing quote and want a side-by-side analysis for your system size and location, [talk to a Qbits engineer at the contact page](/contact-us/), most enquiries receive a detailed response within 24 hours, including a written warranty term comparison relevant to your specific site.
 
-The [complete guide to choosing a solar inverter for your home](/blog/how-to-choose-solar-inverter-for-home-india/) and the [2026 best solar inverter India review](/blog/best-solar-inverter-india-2026/) provide broader context for buyers who want to evaluate warranty alongside efficiency, MPPT configuration, monitoring quality, and total system cost before making a final decision.
+The [complete guide to choosing a solar inverter for your home](/blog/how-to-choose-solar-inverter-for-home-india/) and the [2026 best solar inverter India review](/blog/best-solar-inverter-india/) provide broader context for buyers who want to evaluate warranty alongside efficiency, MPPT configuration, monitoring quality, and total system cost before making a final decision.
 
 "Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone." That is not a marketing line. It is the operational reality that a 12-year full replacement warranty, a 72-hour RMA SLA, and an India-registered service entity make possible.

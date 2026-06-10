@@ -291,4 +291,4 @@ Most buyers of the [most reliable solar inverters in India](/blog/most-reliable-
 
 The full [how to choose a solar inverter for your home in India](/blog/how-to-choose-solar-inverter-for-home-india/) guide covers sizing, technology selection, and feature prioritisation alongside warranty evaluation for buyers who want the complete picture.
 
-For a ranking of the leading inverter brands with their warranty terms compared in full, the [best solar inverter in India](/blog/best-solar-inverter-india-2026/) post provides the current market view.
+For a ranking of the leading inverter brands with their warranty terms compared in full, the [best solar inverter in India](/blog/best-solar-inverter-india/) post provides the current market view.

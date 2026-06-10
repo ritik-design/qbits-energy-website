@@ -229,7 +229,7 @@ Understanding the comparison dimensions is only part of the decision. The mistak
 
 - **Not considering total cost of ownership.** The 10-year worked example above shows how upfront savings reverse when replacement events are factored in. For more detail on this analysis, the [inverter total cost of ownership guide](/blog/inverter-tco/) provides a useful framework applicable to any brand pair.
 
-The [best solar inverter India 2026](/blog/best-solar-inverter-india-2026/) guide benchmarks Luminous, Microtek, and five other brands against each other and against global solar-native standards, which provides a broader perspective before committing to either option.
+The [best solar inverter India 2026](/blog/best-solar-inverter-india/) guide benchmarks Luminous, Microtek, and five other brands against each other and against global solar-native standards, which provides a broader perspective before committing to either option.
 
 ## Where Qbits Fits
 

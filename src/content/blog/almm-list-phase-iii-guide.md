@@ -227,7 +227,7 @@ The 12-year full replacement warranty (issued by an India-registered entity) mea
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM Phase III listed, subsidy-eligible, IP66 rated, and covered by the 12-year full replacement warranty.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery interface and automatic backup switchover; ALMM Phase III listed and suitable for PM Surya Ghar hybrid-system installations where battery subsidy expansion applies.
-- **[Best Solar Inverter in India 2026](/blog/best-solar-inverter-india-2026/)**: independent 5-axis review placing Qbits at position three for overall value, warrany depth, and India-specific fit.
+- **[Best Solar Inverter in India 2026](/blog/best-solar-inverter-india/)**: independent 5-axis review placing Qbits at position three for overall value, warrany depth, and India-specific fit.
 - **[How a Solar Inverter Works](/blog/how-does-a-solar-inverter-work/)**: technical explainer to share with clients who want to understand what they are buying before signing.
 
 When you are ready to add Qbits to your approved vendor list or need ALMM documentation for a specific tender bid, [talk to a Qbits engineer](/contact-us/), project-specific ALMM compliance documentation and warranty term sheets come back within 24 hours.

@@ -201,7 +201,7 @@ Even experienced EPC teams make specification errors that only surface at commis
 - **Assuming firmware can be updated post-installation to solve hardware-limited issues.** Widening a voltage tolerance window through a firmware flash works only when the hardware was designed with that window in mind. If the DC bus capacitors were rated for 253V peak, telling the firmware to allow 270V operation does not change the capacitor's failure mode.
 - **Neglecting the [most reliable inverter assessment](/blog/most-reliable-solar-inverter-india/) for India-specific field data.** Published reliability rankings based on global datasets do not reflect Indian grid stress. Request India-specific MTBF (Mean Time Between Failures) data from manufacturers, and cross-check with installer peers in your geography.
 
-> **Specifying a [top-rated inverter for India 2026](/blog/best-solar-inverter-india-2026/) without verifying India-grid firmware calibration is the single most common source of EPC portfolio underperformance on weak-grid sites.**
+> **Specifying a [top-rated inverter for India 2026](/blog/best-solar-inverter-india/) without verifying India-grid firmware calibration is the single most common source of EPC portfolio underperformance on weak-grid sites.**
 
 ## Where Qbits Fits
 

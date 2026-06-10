@@ -38,7 +38,7 @@ This review applies the **6-Point Comparison Matrix** to score both brands hones
 
 > **Direct answer.** For warranty coverage and post-installation service speed, Qbits leads: 12-year full replacement versus Growatt's 5-year repair warranty, and a <72-hour RMA SLA versus Growatt's typical 3–6 week repair turnaround. For upfront price and established distributor reach, Growatt leads. The 6-Point Comparison Matrix scores Qbits 54/60 and Growatt 42/60, but Growatt remains the right choice for budget-primary buyers and dense Growatt distributor markets.
 
-For a broader brand context, see [our full review of the best solar inverter in India 2026](/blog/best-solar-inverter-india-2026/) and [the top 10 solar inverter brands ranked](/blog/top-10-solar-inverter-brands-india-2026/).
+For a broader brand context, see [our full review of the best solar inverter in India 2026](/blog/best-solar-inverter-india/) and [the top 10 solar inverter brands ranked](/blog/top-10-solar-inverter-brands-india-2026/).
 
 ## Why This Comparison Matters for Indian Buyers
 

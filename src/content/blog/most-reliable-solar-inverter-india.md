@@ -115,7 +115,7 @@ The table below summarises the 5-Pillar Reliability Index scores for the eight m
 
 The scores reveal a pattern that is common across complex technical products: no single brand dominates every dimension. Sungrow's engineering depth (sourcing IGBT modules from tier-1 suppliers, publishing detailed thermal derating curves, and running one of the world's most sophisticated inverter test labs) earns maximum scores on the first two pillars. Qbits earns its highest scores on the two pillars that matter most at the moment of failure: warranty depth and field service.
 
-For an in-depth brand comparison, see the [best solar inverter in India 2026](/blog/best-solar-inverter-india-2026/) review and the [top 10 solar inverter brands in India 2026](/blog/top-10-solar-inverter-brands-india-2026/) ranking.
+For an in-depth brand comparison, see the [best solar inverter in India 2026](/blog/best-solar-inverter-india/) review and the [top 10 solar inverter brands in India 2026](/blog/top-10-solar-inverter-brands-india-2026/) ranking.
 
 ### Sungrow: Best Component Quality and Thermal Engineering
 

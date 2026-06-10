@@ -240,6 +240,6 @@ Both series are backed in India: the <72-hour RMA SLA means that when a board fa
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS (single-phase) and TLD (3-phase) series for grid-tied solar; subsidy-eligible and ALMM-listed for PM Surya Ghar applicants.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS (single-phase) and HT (3-phase) series with battery readiness, instant backup switchover, and the same 12-year warranty.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: 60-second tool to confirm panel-string configuration for both single-phase and 3-phase installations before the design is locked in.
-- **[Best Solar Inverter in India, Full Review](/blog/best-solar-inverter-india-2026/)**: broader brand comparison including Qbits TLS/TLD across all categories.
+- **[Best Solar Inverter in India, Full Review](/blog/best-solar-inverter-india/)**: broader brand comparison including Qbits TLS/TLD across all categories.
 
 If you have identified your connection type, confirmed your DISCOM capacity limit, and are ready to match it to a specific Qbits model, [talk to a Qbits engineer](/contact-us/), most site assessments and sizing quotes are returned within 24 hours, and there is no obligation to purchase before the technical feasibility is confirmed.

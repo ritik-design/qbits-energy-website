@@ -251,7 +251,7 @@ The Qbits vs Microtek decision is complicated by several recurring errors that I
 
 - **Underestimating service response time**: A 1–2 year warranty that covers a failure in month 18 is valuable. But a service network that takes three weeks to respond to a fault outside warranty is a hidden cost. Ask your installer for documented case studies of their after-sales response in your city.
 
-- **Ignoring efficiency losses as small**: 2% sounds negligible. At 5 kW over 12 years, it is ₹13,140 at current tariffs, and tariff rates are rising. The [best solar inverter in India 2026](/blog/best-solar-inverter-india-2026/) ranking weights efficiency alongside warranty and service in its overall scoring.
+- **Ignoring efficiency losses as small**: 2% sounds negligible. At 5 kW over 12 years, it is ₹13,140 at current tariffs, and tariff rates are rising. The [best solar inverter in India 2026](/blog/best-solar-inverter-india/) ranking weights efficiency alongside warranty and service in its overall scoring.
 
 - **Choosing indoor-rated inverters for outdoor sites**: IP20/IP21 inverters installed on open terraces or ground-mount structures degrade faster and may void the manufacturer's warranty. Check the installation manual before signing off on placement. The [solar inverter lifespan guide](/blog/solar-inverter-lifespan/) covers how installation environment affects inverter longevity.
 

@@ -23,21 +23,8 @@ const formatDate = (d: Date) =>
   d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
 const featuredPost = posts.find((p) => p.featured) || posts[0];
-const regularPostsAll = posts.filter((p) => p.slug !== featuredPost?.slug);
-
-const PAGE_SIZE = 12;
-const regularPosts = regularPostsAll.slice(0, PAGE_SIZE);
-const totalPages = Math.max(1, Math.ceil(regularPostsAll.length / PAGE_SIZE));
-const currentPage = 1;
-
-const buildPageNums = (cur: number, total: number): (number | '...')[] => {
-  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
-  if (cur <= 4) return [1, 2, 3, 4, 5, '...', total];
-  if (cur >= total - 3) return [1, '...', total - 4, total - 3, total - 2, total - 1, total];
-  return [1, '...', cur - 1, cur, cur + 1, '...', total];
-};
-const pageNums = buildPageNums(currentPage, totalPages);
-const pageHref = (n: number) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
+const regularPosts = posts.filter((p) => p.slug !== featuredPost?.slug);
+const totalArticles = posts.length;
 ---
 
 <Layout
@@ -102,9 +89,7 @@ const pageHref = (n: number) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
             <h2 id="posts-heading" class="text-3xl font-bold text-slate-900 mt-4">Latest Posts</h2>
           </div>
           <p class="text-sm text-slate-500">
-            Page <span class="font-semibold text-slate-900">{currentPage}</span> of <span class="font-semibold text-slate-900">{totalPages}</span>
-            <span class="mx-2 text-slate-300">|</span>
-            <span class="font-semibold text-slate-900">{regularPostsAll.length + 1}</span> articles
+            <span class="font-semibold text-slate-900">{totalArticles}</span> articles
           </p>
         </div>
 
@@ -132,21 +117,6 @@ const pageHref = (n: number) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
           ))}
         </div>
 
-        {totalPages > 1 && (
-          <nav class="mt-12 flex items-center justify-center gap-2" aria-label="Blog pagination">
-            <span class="inline-flex items-center justify-center min-w-10 h-10 px-3 rounded-full text-sm font-semibold bg-slate-100 text-slate-400 cursor-not-allowed" aria-disabled="true">Prev</span>
-            {pageNums.map((n) => (
-              n === '...' ? (
-                <span class="inline-flex items-center justify-center w-10 h-10 text-sm text-slate-400">…</span>
-              ) : n === currentPage ? (
-                <span class="inline-flex items-center justify-center min-w-10 h-10 px-3 rounded-full text-sm font-bold bg-brand-500 text-white shadow-lg shadow-brand-500/20" aria-current="page">{n}</span>
-              ) : (
-                <a href={pageHref(n)} class="inline-flex items-center justify-center min-w-10 h-10 px-3 rounded-full text-sm font-semibold border border-slate-200 text-slate-700 hover:border-brand-300 hover:text-brand-600 hover:bg-brand-50 transition-colors">{n}</a>
-              )
-            ))}
-            <a href={pageHref(currentPage + 1)} class="inline-flex items-center justify-center min-w-10 h-10 px-3 rounded-full text-sm font-semibold border border-slate-200 text-slate-700 hover:border-brand-300 hover:text-brand-600 hover:bg-brand-50 transition-colors">Next</a>
-          </nav>
-        )}
       </div>
     </section>
 

@@ -58,7 +58,6 @@ export default defineConfig({
         if (item.url.match(/qbitsenergy\.com\/?$/)) item.priority = 1.0;
         else if (item.url.match(/\/(our-products|on-grid-inverter|hybrid-inverter|contact-us)\/?$/)) item.priority = 0.9;
         else if (item.url.match(/\/(residential-solution|c-i-solution|why-qbits|about-us|authorized-service-partners)\/?$/)) item.priority = 0.8;
-        else if (item.url.includes('/blog/page/')) item.priority = 0.5;
         else if (item.url.includes('/blog/')) item.priority = 0.7;
 
         // Per-URL lastmod from blog/glossary frontmatter dates.

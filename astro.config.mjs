@@ -99,7 +99,6 @@ export default defineConfig({
 
     // Slug changed: removed year suffix
     '/blog/best-solar-inverter-india-2026': '/blog/best-solar-inverter-india',
-    '/blog/best-solar-inverter-india-2026/': '/blog/best-solar-inverter-india/',
 
     // Slug changed
     '/2026/03/04/complete-guide-to-solar-inverters-in-india': '/blog/how-solar-power-system-works-india',

@@ -6,6 +6,7 @@ import { join } from 'node:path';
 import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
+import cloudflare from '@astrojs/cloudflare';
 
 // Build url→lastmod map from blog & glossary frontmatter dates at config load.
 function buildLastmodMap() {
@@ -44,6 +45,7 @@ const LASTMOD = buildLastmodMap();
 export default defineConfig({
   site: 'https://qbitsenergy.com',
   output: 'static',
+  adapter: cloudflare({ imageService: 'passthrough' }),
   vite: {
     plugins: [tailwindcss()]
   },

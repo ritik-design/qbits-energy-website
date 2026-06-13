@@ -98,7 +98,7 @@ Locate the nameplate on your inverter (usually a metal or printed label on the h
 
 If you find an IP21 or IP44 inverter mounted in a location that receives driving rain or is within a metre of an opening to the outside, this is a priority-one corrective action before monsoon, not after. Water ingress into terminal blocks creates slow corrosion paths that cause ground faults weeks after the event, and the failure signature (intermittent earth fault alarms, gradually rising leakage current) is easily misread.
 
-Qbits on-grid (TLS, TLD series) and hybrid (HS, HT series) inverters carry IP66 ratings as standard, which is why they can be mounted on exposed exterior walls without a separate weather enclosure. The [IP66 climate survival guide](/blog/ip66-inverters-india-s-climate-survival-guide/) details the specific IEC 60529 test conditions behind that rating if you want to understand what "powerful water jets" means in engineering terms.
+Qbits on-grid (TLS, TLD series) and hybrid (HS, HT series) inverters carry IP66 ratings as standard, which is why they can be mounted on exposed exterior walls without a separate weather enclosure. The [IP66 climate survival guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) details the specific IEC 60529 test conditions behind that rating if you want to understand what "powerful water jets" means in engineering terms.
 
 ## Task 2: Earthing and Grounding Continuity Verification
 

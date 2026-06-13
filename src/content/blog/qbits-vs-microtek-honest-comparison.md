@@ -180,7 +180,7 @@ Qbits inverters carry **IP66 protection**: complete dust ingress prevention and 
 
 Microtek's solar inverter range is typically rated for **indoor installation** (IP20 or IP21 in most models). This is not a quality failure (many inverters are designed for indoor placement) but it creates a practical constraint. Homeowners without a suitable indoor mounting location (a dry utility room, a covered ground-floor alcove) must install the unit in a weather-exposed location with an additional protective housing. This adds installation cost and complexity that is not reflected in the inverter's purchase price.
 
-For comprehensive guidance on IP ratings in Indian weather conditions, the [IP66 inverter climate survival guide](/blog/ip66-inverters-india-s-climate-survival-guide/) explains why coastal, dusty, and monsoon-exposed locations require IP66 or better.
+For comprehensive guidance on IP ratings in Indian weather conditions, the [IP66 inverter climate survival guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) explains why coastal, dusty, and monsoon-exposed locations require IP66 or better.
 
 **After-sales and IP verdict, Qbits: 9/10. Microtek: 5/10.**
 

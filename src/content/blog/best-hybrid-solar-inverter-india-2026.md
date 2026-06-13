@@ -216,7 +216,7 @@ The Growatt SPF 5000 TL HVM is the most widely distributed budget hybrid inverte
 
 The 60 A charge current limit means recharging a 10 kWh LFP battery takes approximately 3.5–4 hours of full solar input, workable in summer but tight during monsoon months with reduced peak sun hours. For a home in Patna or Lucknow with six to eight hours of daily cuts, this recharge rate may not fully restore battery capacity between successive outage events.
 
-The 5-year warranty is the most important limitation. Over a 12-year panel lifespan, a buyer who chooses the Growatt SPF 5000 on price alone may face inverter replacement costs of ₹30,000–₹50,000 within the first decade, costs that eliminate the initial price savings. The [solar inverter replacement cost guide](/blog/solar-inverter-replacement-costs-in-india/) models this total-cost-of-ownership calculation in detail.
+The 5-year warranty is the most important limitation. Over a 12-year panel lifespan, a buyer who chooses the Growatt SPF 5000 on price alone may face inverter replacement costs of ₹30,000–₹50,000 within the first decade, costs that eliminate the initial price savings. The [solar inverter replacement cost guide](/blog/inverter-tco/) models this total-cost-of-ownership calculation in detail.
 
 ALMM listing is absent for most Growatt SPF 5000 variants, making it ineligible for PM Surya Ghar subsidies. This is a critical consideration: the subsidy value for a 3 kW system (₹78,000) is often larger than the price difference between a Growatt and an ALMM-listed competitor.
 

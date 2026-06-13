@@ -382,4 +382,4 @@ Before you sign any purchase order, run through this checklist. The [guide to es
 - ✓ Over-the-air firmware update capability
 - ✓ Integrated arc fault circuit interrupter (AFCI) for rooftop fire safety
 
-The post on [solar inverter quality standards](/blog/solar-inverter-quality/) provides the verification framework for confirming each of these items against a real datasheet before purchase.
+The post on [solar inverter quality standards](/blog/how-to-evaluate-solar-inverter-reliability/) provides the verification framework for confirming each of these items against a real datasheet before purchase.

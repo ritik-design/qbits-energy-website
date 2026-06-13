@@ -289,7 +289,7 @@ For households on the PM Surya Ghar scheme, net metering activation also trigger
 | **Timeline** | 30–50 days typical | 60–90 days typical due to resubmissions |
 | **Re-inspection handling** | Corrects and resubmits within 5–7 days | Delays corrections, extending timeline further |
 
-The track record question is directly relevant to the guide on [how to find reliable inverter dealers in India](/blog/how-to-find-reliable-inverter-dealers-india/), the same due-diligence principles that apply to dealer selection apply to installer selection for net metering purposes. An installer who has completed 20+ successful BESCOM or MSEDCL net metering applications knows exactly what the inspector looks for and prepares accordingly.
+The track record question is directly relevant to the guide on [how to find reliable inverter dealers in India](/blog/inverter-suppliers-india/), the same due-diligence principles that apply to dealer selection apply to installer selection for net metering purposes. An installer who has completed 20+ successful BESCOM or MSEDCL net metering applications knows exactly what the inspector looks for and prepares accordingly.
 
 Ask any installer you are evaluating two questions:
 - How many net metering applications have you submitted to this specific DISCOM in the last 12 months?

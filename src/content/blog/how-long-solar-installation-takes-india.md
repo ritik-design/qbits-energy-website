@@ -199,7 +199,7 @@ Physical installation in Stage 4 is where Qbits inverter specifications directly
 The Qbits WhatsApp monitoring system activates at Stage 4 commissioning: the system immediately begins reporting daily generation and sends alerts for any underperformance during the Stage 5 wait period, so you can verify yield estimates before the net meter is even installed.
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed, DISCOM-approved documentation, BIS certified; 1.5 kW to 50 kW.
-- **[Solar Inverter Commissioning Guide](/blog/solar-inverter-commissioning/)**: Step-by-step Stage 4 commissioning checklist.
+- **[Solar Inverter Commissioning Guide](/blog/solar-inverter-commissioning-in-india/)**: Step-by-step Stage 4 commissioning checklist.
 - **[Authorized Service Partners](/authorized-service-partners/)**: If installation quality issues arise, the 72-hour RMA SLA applies from day one.
 
 To understand what comes after commissioning (reading your first net-metering bill, what the monitoring app shows, and what is normal in the first monsoon season) [talk to a Qbits engineer](/contact-us/). Most post-installation questions are resolved in a 15-minute WhatsApp call.

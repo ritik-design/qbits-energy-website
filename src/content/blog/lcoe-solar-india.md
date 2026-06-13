@@ -120,7 +120,7 @@ The ₹2.75 lakh tax saving arrives in the same financial year as the installati
 
 For companies that cannot fully absorb the depreciation in Year 1 (because taxable profit is insufficient) the depreciation can be carried forward. This delays but does not eliminate the benefit, and the LCOE impact should be modelled with the actual timing of the tax shield to avoid overstating Year 1 savings.
 
-The [solar inverter depreciation tax benefits](/blog/solar-inverter-depreciation-tax-benefits-guide/) guide covers the full interaction between plant life, depreciation schedules, and ITR filing in greater detail for companies with complex tax positions.
+The [solar inverter depreciation tax benefits](/blog/solar-inverter-depreciation-in-india/) guide covers the full interaction between plant life, depreciation schedules, and ITR filing in greater detail for companies with complex tax positions.
 
 ## LCOE Sensitivity Analysis: Where Your Number Will Land
 

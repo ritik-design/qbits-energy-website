@@ -85,7 +85,7 @@ Commercial buyers do **not** qualify for PM Surya Ghar subsidy but benefit from:
 - **Net metering or gross metering** depending on state SERC policy
 - **Input tax credit (ITC) on GST** if the business is GST-registered
 
-The [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-tax-benefits-guide/) explains how to claim these benefits.
+The [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/) explains how to claim these benefits.
 
 ## Three-Phase 10kW System: When You Need It
 

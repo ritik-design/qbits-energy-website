@@ -207,7 +207,7 @@ The IP rating is the second most important compliance check for Indian weather. 
 
 Even well-researched buyers make avoidable errors. These are the five mistakes that show up most often in service calls and customer complaints.
 
-**Mistake 1: Buying on lowest quoted price without checking warranty terms.** A ₹5,000 saving on inverter purchase price can cost ₹25,000–₹40,000 in replacement cost if the inverter fails in year seven and carries only a five-year warranty. The [solar inverter replacement costs in India](/blog/solar-inverter-replacement-costs-in-india/) breakdown shows why warranty length is the single most important financial variable in inverter selection, more important than efficiency at the margin.
+**Mistake 1: Buying on lowest quoted price without checking warranty terms.** A ₹5,000 saving on inverter purchase price can cost ₹25,000–₹40,000 in replacement cost if the inverter fails in year seven and carries only a five-year warranty. The [solar inverter replacement costs in India](/blog/inverter-tco/) breakdown shows why warranty length is the single most important financial variable in inverter selection, more important than efficiency at the margin.
 
 **Mistake 2: Choosing on-grid in a power-cut area.** An on-grid inverter follows an anti-islanding safety protocol: the moment the grid disconnects, the inverter shuts down, regardless of whether solar panels are generating. Homeowners in power-cut zones who install on-grid inverters find that their solar system is non-functional precisely during the hours the grid is absent, which is when electricity is most needed.
 

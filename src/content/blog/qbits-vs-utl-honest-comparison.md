@@ -151,7 +151,7 @@ Qbits inverters are rated **IP66**: complete dust ingress protection and protect
 
 Most UTL solar inverters are rated **IP65**: complete dust protection and protection against low-pressure water jets. This is adequate for sheltered rooftop installations and for buyers in temperate northern Indian climates. For coastal buyers, monsoon-exposed positions, or high-dust desert markets, IP65 leaves more exposure than IP66.
 
-See [the IP66 India climate guide](/blog/ip66-inverters-india-s-climate-survival-guide/) for the full analysis of which Indian cities and geographies benefit most from IP66 protection.
+See [the IP66 India climate guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) for the full analysis of which Indian cities and geographies benefit most from IP66 protection.
 
 | IP Rating | Qbits | UTL |
 | --- | --- | --- |

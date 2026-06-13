@@ -126,7 +126,7 @@ Understanding the failure modes of reactive power configuration prevents commiss
 - **Ignoring night hours**: Solar inverter reactive support is unavailable after sunset. A C&I facility with significant inductive load at night requires a supplementary capacitor bank or STATCOM for round-the-clock compliance. A commissioning design that achieves 0.97 PF during the day and 0.82 PF at night will still incur partial monthly penalties.
 - **No reactive power in the monitoring data**: Ensure the monitoring system logs kVAR output alongside kW generation. Without reactive power data, there is no way to verify the inverter is meeting its reactive set-point or diagnose when it is not.
 
-See the [solar inverter commissioning guide](/blog/solar-inverter-commissioning/) for the complete commissioning workflow, including how reactive power documentation fits into the DISCOM approval package. The [harmonics and THD guide](/blog/thd-solar-inverter/) covers the related power quality topic of harmonic distortion.
+See the [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/) for the complete commissioning workflow, including how reactive power documentation fits into the DISCOM approval package. The [harmonics and THD guide](/blog/thd-solar-inverter/) covers the related power quality topic of harmonic distortion.
 
 ## Reactive Power and Harmonics: The Dual Power Quality Problem
 
@@ -161,7 +161,7 @@ For C&I installations above 100 kW where CEA Grid Code 2020 reactive power requi
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series; TLD series supports reactive power modes for three-phase C&I installations.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HT series three-phase hybrid with battery integration and reactive power support.
-- **[Solar Inverter Commissioning Guide](/blog/solar-inverter-commissioning/)**: DISCOM approval workflow including reactive power documentation requirements.
+- **[Solar Inverter Commissioning Guide](/blog/solar-inverter-commissioning-in-india/)**: DISCOM approval workflow including reactive power documentation requirements.
 - **[THD and Power Quality Guide](/blog/thd-solar-inverter/)**: Related power quality specification for C&I installations.
 
 For a C&I system above 100 kW where reactive power compliance is a DISCOM condition for interconnection, [talk to a Qbits engineer](/contact-us/), the applications engineering team can confirm the correct mode configuration and prepare the reactive power capability documentation.

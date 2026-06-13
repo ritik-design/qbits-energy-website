@@ -270,7 +270,7 @@ Indian homeowners frequently make five predictable mistakes when evaluating inve
 
 **Mistake 5: Treating all efficiency claims as equivalent without asking for IEC 61683 test reports.** IEC 61683 is the international standard for measuring photovoltaic inverter efficiency. Manufacturers who have third-party verified their efficiency to IEC 61683 provide credible numbers; manufacturers who self-certify may not. Always ask whether the efficiency figure comes from IEC 61683 testing or internal measurements.
 
-The [solar inverter quality and testing guide](/blog/solar-inverter-testing-quality-assurance-in-india/) covers which certifications to request before signing a purchase order, including how to verify that the efficiency numbers on a datasheet are backed by independent laboratory testing.
+The [solar inverter quality and testing guide](/blog/how-to-evaluate-solar-inverter-reliability/) covers which certifications to request before signing a purchase order, including how to verify that the efficiency numbers on a datasheet are backed by independent laboratory testing.
 
 Avoiding these five mistakes means you are comparing inverters on equal terms, which almost always moves the decision towards higher-quality products with genuinely verifiable specifications.
 

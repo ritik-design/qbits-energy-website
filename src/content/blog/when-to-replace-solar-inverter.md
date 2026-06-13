@@ -220,7 +220,7 @@ Total 5-year cost of repair path: ₹35,000–₹85,000 in expenditure plus unre
 
 For a 5 kW system generating 7,000 kWh per year at ₹7.5/unit, recovering 15% of lost generation adds ₹7,875 annually. A ₹45,000 replacement investment pays back in under 6 years from generation recovery alone, before accounting for the warranty risk elimination value.
 
-The [solar inverter replacement costs guide](/blog/solar-inverter-replacement-costs-in-india/) has a detailed cost matrix across brands and capacities for 2026.
+The [solar inverter replacement costs guide](/blog/inverter-tco/) has a detailed cost matrix across brands and capacities for 2026.
 
 | Decision Factor | Repair | Replace |
 | --- | --- | --- |

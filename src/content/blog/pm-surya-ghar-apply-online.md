@@ -167,13 +167,13 @@ Applications fail at three main checkpoints: portal submission, DISCOM feasibili
 - **Single-line diagram (SLD) mismatch**: The as-installed configuration must match the SLD submitted to the DISCOM. Any deviation (different panel count, changed string configuration, relocated inverter) requires a revised SLD submission before inspection.
 - **Improper labelling**: Inspectors in several states now check that DC isolators, AC isolators, and the inverter carry the correct safety labels. Ask your installer about labelling compliance before scheduling inspection.
 
-The [how to find reliable inverter dealers in India](/blog/how-to-find-reliable-inverter-dealers-india/) guide is useful for homeowners evaluating installer credibility before finalising the work order. An installer who uses ALMM-listed equipment and follows proper commissioning procedures dramatically reduces the risk of rejection at Step 6.
+The [how to find reliable inverter dealers in India](/blog/inverter-suppliers-india/) guide is useful for homeowners evaluating installer credibility before finalising the work order. An installer who uses ALMM-listed equipment and follows proper commissioning procedures dramatically reduces the risk of rejection at Step 6.
 
 ## PM Surya Ghar and Net Metering: What Changes After Installation
 
 Once the net meter is installed, the household's relationship with the grid changes meaningfully. The bidirectional net meter records both units imported from the grid and units exported to the grid. At the end of each billing cycle, the DISCOM calculates net units: imports minus exports. The homeowner pays only for net imports.
 
-[Net metering](/glossary/net-metering/) under PM Surya Ghar typically follows the state's existing net metering regulation, which may cap the system size at the sanctioned load of the connection or at a fixed percentage of the connected transformer capacity. The [net metering in India complete guide](/blog/solar-inverter-commissioning/) covers the billing mechanics and the state-by-state variation in carry-forward rules for export credits.
+[Net metering](/glossary/net-metering/) under PM Surya Ghar typically follows the state's existing net metering regulation, which may cap the system size at the sanctioned load of the connection or at a fixed percentage of the connected transformer capacity. The [net metering in India complete guide](/blog/solar-inverter-commissioning-in-india/) covers the billing mechanics and the state-by-state variation in carry-forward rules for export credits.
 
 For most 3 kW residential systems in India receiving 4 to 5 peak sun hours per day, monthly generation is approximately 300 to 375 kWh. A household with a monthly bill of ₹2,500 to ₹4,000 (roughly 250 to 450 units) can expect to reduce their net import to near zero or even carry forward credits during summer months, with some grid import returning during monsoon when panel output dips.
 
@@ -197,7 +197,7 @@ Qbits inverters include AI-powered WhatsApp monitoring, which sends generation s
 
 ### Maintenance
 
-The [solar inverter commissioning](/blog/solar-inverter-commissioning/) process sets the baseline. Ongoing maintenance requirements for a residential PM Surya Ghar installation include:
+The [solar inverter commissioning](/blog/solar-inverter-commissioning-in-india/) process sets the baseline. Ongoing maintenance requirements for a residential PM Surya Ghar installation include:
 
 - **Panel cleaning**: every 2 to 4 weeks during dusty months (October to May in north India).
 - **Inverter air-filter inspection**: where applicable, quarterly.

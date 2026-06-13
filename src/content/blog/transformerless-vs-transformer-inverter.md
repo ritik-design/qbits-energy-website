@@ -238,7 +238,7 @@ Peak efficiency (published on the datasheet) is measured at a specific voltage a
 
 **Mistake 5: Skipping leakage current verification at commissioning**
 
-IEC 62109-2 and IS 16169 require the installer to verify that the inverter's residual current monitoring is functioning correctly at commissioning. This is typically done by measuring ground leakage current with a clamp meter at the earth conductor between the inverter PE terminal and the site earth electrode, confirming it is below the trip threshold. Skipping this step means the monitoring circuit's health is unknown, and a latent fault could persist undetected. See the [solar inverter commissioning](/blog/solar-inverter-commissioning/) guide for the complete commissioning checklist.
+IEC 62109-2 and IS 16169 require the installer to verify that the inverter's residual current monitoring is functioning correctly at commissioning. This is typically done by measuring ground leakage current with a clamp meter at the earth conductor between the inverter PE terminal and the site earth electrode, confirming it is below the trip threshold. Skipping this step means the monitoring circuit's health is unknown, and a latent fault could persist undetected. See the [solar inverter commissioning](/blog/solar-inverter-commissioning-in-india/) guide for the complete commissioning checklist.
 
 ## ALMM, PM Surya Ghar, and What Transformerless Means for Subsidised Projects
 

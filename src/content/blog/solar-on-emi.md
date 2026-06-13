@@ -118,7 +118,7 @@ Bank of Baroda's dedicated scheme covers 80–90% of the project cost (after sub
 
 HDFC Bank and Axis Bank do not maintain dedicated solar loan products but extend solar financing through their personal loan and loan-against-property channels. Rates are 10.5–13.5%. The advantage: faster digital processing (5–7 days) and pre-approved limits for existing account holders. The disadvantage: higher rates than PSU banks and a 2–3% foreclosure penalty in the first three years.
 
-For a comprehensive look at the overall cost structure of a solar system before you borrow, the [solar inverter replacement costs guide](/blog/solar-inverter-replacement-costs-in-india/) provides a useful 25-year TCO framework.
+For a comprehensive look at the overall cost structure of a solar system before you borrow, the [solar inverter replacement costs guide](/blog/inverter-tco/) provides a useful 25-year TCO framework.
 
 ## IREDA Concessional Loan: Government-Backed at 7–9%
 

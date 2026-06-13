@@ -203,7 +203,7 @@ ITC delivers greater immediate cash flow when:
 - The business is in a lower income tax bracket or is in a loss position (AD benefit is diminished)
 - Immediate cash flow improvement matters more than long-term tax NPV
 
-For most profitable C&I buyers in India, the practical answer is: **claim both.** The [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-tax-benefits-guide/) covers the AD calculation mechanics in detail for businesses evaluating their tax structure.
+For most profitable C&I buyers in India, the practical answer is: **claim both.** The [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/) covers the AD calculation mechanics in detail for businesses evaluating their tax structure.
 
 > **₹8.8 lakh.** The estimated first-year income tax saving on a ₹1 crore solar investment under India's 40% Accelerated Depreciation benefit at 22% corporate tax rate, independent of ITC, both benefits can be claimed simultaneously. *Source - [Income Tax Act 1961, Section 32](https://incometaxindia.gov.in/), as applicable in FY 2025–26.*
 

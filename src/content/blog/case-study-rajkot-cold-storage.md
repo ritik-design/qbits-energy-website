@@ -149,7 +149,7 @@ How it works for this case study (illustrative):
 - Effective capital cost after Year 1 tax benefit: ₹30 lakh − ₹3.6 lakh = ₹26.4 lakh
 - Revised payback at ₹8 lakh/year savings: approximately **3.3 years**
 
-Over the system's 25-year life, the total depreciation benefit across all years (not just Year 1) amounts to significant additional financial value. The [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-tax-benefits-guide/) explains the full depreciation schedule and how to claim it correctly.
+Over the system's 25-year life, the total depreciation benefit across all years (not just Year 1) amounts to significant additional financial value. The [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/) explains the full depreciation schedule and how to claim it correctly.
 
 The [MNRE's Jawaharlal Nehru National Solar Mission documentation](https://mnre.gov.in/) and Central Board of Direct Taxes notifications have consistently upheld solar power plant eligibility for 40% accelerated depreciation. Businesses that do not factor this benefit into their solar investment analysis are materially underestimating the ROI.
 

@@ -224,7 +224,7 @@ These are the most common errors homeowners and their installers make when buyin
 
 - **Treating warranty length as equivalent across brands**: a 12-year warranty from a brand with an India-registered entity and a pincode-searchable service network is worth the premium over a 10-year warranty from a brand whose nearest service centre is a three-day courier away. Before signing, call the service helpline and ask: "If my unit fails in [your city] next Tuesday, what is the replacement timeline?" The answer tells you more than any brochure.
 
-For a broader view of how to evaluate inverter reliability before committing, the [solar inverter quality guide](/blog/solar-inverter-quality/) and the [best solar inverter India 2026 roundup](/blog/best-solar-inverter-india/) provide supplementary frameworks worth reading before your final decision.
+For a broader view of how to evaluate inverter reliability before committing, the [solar inverter quality guide](/blog/how-to-evaluate-solar-inverter-reliability/) and the [best solar inverter India 2026 roundup](/blog/best-solar-inverter-india/) provide supplementary frameworks worth reading before your final decision.
 
 ## Where Qbits Fits
 

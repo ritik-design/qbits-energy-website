@@ -156,7 +156,7 @@ If the ticket confirmation omits the SLA commitment date and time, call back and
 
 The RMA (Return Merchandise Authorisation) process is where the difference between a 12-year full replacement warranty and a 5-year repair warranty becomes financially concrete. The technician's on-site visit produces one of three outcomes: a field repair (software fix or component swap), a workshop repair (unit taken off-site for 5–14 days), or an RMA (full unit replacement).
 
-> **₹15,000–₹80,000.** The out-of-pocket cost of inverter replacement for a homeowner whose inverter fails outside warranty, or inside a warranty that covers only repair rather than full replacement. *Source - [Solar Inverter Replacement Cost Guide](/blog/solar-inverter-replacement-costs-in-india/), Qbits Editorial, 2026.*
+> **₹15,000–₹80,000.** The out-of-pocket cost of inverter replacement for a homeowner whose inverter fails outside warranty, or inside a warranty that covers only repair rather than full replacement. *Source - [Solar Inverter Replacement Cost Guide](/blog/inverter-tco/), Qbits Editorial, 2026.*
 
 ### Repair is viable when
 
@@ -291,4 +291,4 @@ The [solar inverter lifespan analysis](/blog/solar-inverter-lifespan/) establish
 
 For units older than 8 years, the honest economic answer in most cases is proactive replacement rather than repair, before the next failure happens on a peak summer day when technician availability is at its lowest.
 
-The replacement cost data, broken down by inverter capacity and brand category, is covered in the [solar inverter replacement costs guide](/blog/solar-inverter-replacement-costs-in-india/).
+The replacement cost data, broken down by inverter capacity and brand category, is covered in the [solar inverter replacement costs guide](/blog/inverter-tco/).

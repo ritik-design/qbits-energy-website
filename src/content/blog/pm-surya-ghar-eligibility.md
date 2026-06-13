@@ -231,7 +231,7 @@ Applicants who fail the DISCOM inspection or see their subsidy rejected typicall
 
 - **Ignoring the seven-year prior subsidy check**: This affects inherited or purchased properties where the previous owner may have received a subsidy. A title search or direct query to the DISCOM can clarify whether the connection has a prior subsidy flag.
 
-For a full step-by-step walkthrough of the actual application process, including the portal navigation and document upload sequence, see the guides on [how to find reliable inverter dealers in India](/blog/how-to-find-reliable-inverter-dealers-india/) to identify empanelled vendors in your area.
+For a full step-by-step walkthrough of the actual application process, including the portal navigation and document upload sequence, see the guides on [how to find reliable inverter dealers in India](/blog/inverter-suppliers-india/) to identify empanelled vendors in your area.
 
 ## Where Qbits Fits
 

@@ -217,7 +217,7 @@ The practical implication goes beyond the ALMM checkbox. ALMM Phase III listing 
 
 Qbits' IP66 weather protection exceeds the IP65 floor that most listed inverters provide, which matters in coastal states, high-humidity zones, and the full monsoon cycle that inverters face in West Bengal, Kerala, and Goa. The India-grid-tuned firmware (designed for the 180–270 V voltage band of actual Indian grid conditions) reduces trip events that cause generation loss and customer support calls.
 
-For EPC pricing contexts, the [solar inverter pricing strategies for EPCs](/blog/solar-inverter-pricing-strategies-for-epcs/) post addresses how ALMM status and warranty depth translate into margin protection and customer retention. The [top inverter vendors in India](/blog/top-inverter-vendors-india/) post benchmarks the competitive landscape across technical and commercial dimensions.
+For EPC pricing contexts, the [solar inverter pricing strategies for EPCs](/blog/inverter-tco/) post addresses how ALMM status and warranty depth translate into margin protection and customer retention. The [top inverter vendors in India](/blog/inverter-suppliers-india/) post benchmarks the competitive landscape across technical and commercial dimensions.
 
 ## Where Qbits Fits in Your ALMM-Compliant Project Portfolio
 

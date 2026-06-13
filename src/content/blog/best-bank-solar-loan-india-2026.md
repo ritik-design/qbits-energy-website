@@ -158,7 +158,7 @@ For commercial solar installations (shops, restaurants, clinics, small factories
 - Higher documentation requirement: business registration, GST returns, project report.
 - Rate: 8%–12% depending on the bank and CGTMSE fee.
 
-**Best for:** Small business owners financing a commercial rooftop solar system who want to avoid collateral. See the [solar depreciation tax benefits guide](/blog/solar-inverter-depreciation-tax-benefits-guide/) for how to pair this with accelerated depreciation.
+**Best for:** Small business owners financing a commercial rooftop solar system who want to avoid collateral. See the [solar depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/) for how to pair this with accelerated depreciation.
 
 ## Master Comparison Table: All Six Lenders
 

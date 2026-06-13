@@ -269,7 +269,7 @@ The boundary zone where standard coastal India classification applies. Sea influ
 | 5 km – 15 km | C3 | IP65 | Acrylic C3 | Standard IP65 |
 | > 15 km | C2–C3 | IP65 standard | Optional | Standard IP65 |
 
-For the complementary view on how IP ratings translate across the full range of Indian climate conditions (monsoon, desert, high-altitude) see [IP66 inverters: India's climate survival guide](/blog/ip66-inverters-india-s-climate-survival-guide/).
+For the complementary view on how IP ratings translate across the full range of Indian climate conditions (monsoon, desert, high-altitude) see [IP66 inverters: India's climate survival guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/).
 
 ## Common Mistakes Coastal Buyers Make When Purchasing Solar Inverters
 

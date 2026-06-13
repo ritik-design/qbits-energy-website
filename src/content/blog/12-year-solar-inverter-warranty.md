@@ -63,7 +63,7 @@ The conclusion is direct: if you are specifying or purchasing a solar inverter f
 
 The financial arithmetic of the inverter warranty gap is straightforward, but most buyers encounter it only after the fact.
 
-A residential solar system in India typically lasts 25 years. The solar panels, the mounting structure, and the DC wiring do not normally require replacement during that period. The inverter (the only component that actively converts current on every sunny day) does. Here is the [replacement cost](/blog/solar-inverter-replacement-costs-in-india/) breakdown by system size:
+A residential solar system in India typically lasts 25 years. The solar panels, the mounting structure, and the DC wiring do not normally require replacement during that period. The inverter (the only component that actively converts current on every sunny day) does. Here is the [replacement cost](/blog/inverter-tco/) breakdown by system size:
 
 | System Size | Inverter Replacement Cost (Unit + Labour + Transport) | Replacements at 5-yr Warranty | Replacements at 12-yr Warranty |
 | --- | --- | --- | --- |

@@ -201,7 +201,7 @@ A replacement warranty with a 72-hour dispatch SLA means the system is back onli
 | Risk of repeat failure | Higher | Lower |
 | Documentation of resolution | Often informal | Formal with tracking |
 
-For the [solar inverter replacement cost](/blog/solar-inverter-replacement-costs-in-india/) perspective (what happens when the warranty has lapsed) that post covers the full cost breakdown for out-of-warranty inverter replacement across system sizes.
+For the [solar inverter replacement cost](/blog/inverter-tco/) perspective (what happens when the warranty has lapsed) that post covers the full cost breakdown for out-of-warranty inverter replacement across system sizes.
 
 Understanding the true cost of a repair cycle is also relevant to [solar inverter lifespan](/blog/solar-inverter-lifespan/) planning, where multiple repair events within the inverter's operating life are a known failure pattern.
 

@@ -170,7 +170,7 @@ The AD benefit compounds: in year two, the WDV base drops to ₹21 lakh (₹35 l
 
 One important caveat: C&I buyers registered for GST can claim input tax credit on the inverter and components, but must choose between the ITC route and the AD route in terms of how the asset is reflected on the books. A chartered accountant familiar with both the Income Tax Act and GST rules should be engaged before the purchase order is issued. The [GST on solar inverters guide](/blog/gst-on-solar-inverters-2026/) covers the ITC eligibility rules in detail.
 
-For a deeper breakdown of the depreciation schedule across five years, the [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-tax-benefits-guide/) provides WDV tables and a comparison against the straight-line method.
+For a deeper breakdown of the depreciation schedule across five years, the [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/) provides WDV tables and a comparison against the straight-line method.
 
 > **19% IRR.** The post-tax internal rate of return achievable on a 50 kW rooftop solar installation at a Tamil Nadu textile factory when accelerated depreciation under Section 32 is factored into the financial model, compared with 16% IRR without the AD benefit. *Source, Qbits project financial model, validated against [IRENA Renewable Power Generation Costs 2023](https://www.irena.org/publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023), IRENA, 2024.*
 

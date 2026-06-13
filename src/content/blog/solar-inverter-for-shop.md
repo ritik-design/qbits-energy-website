@@ -122,7 +122,7 @@ Under India's GST framework, a registered business purchasing capital goods for 
 
 A GST-registered business claims the ₹16,800 or ₹28,800 back through GSTR-3B. The net capital expenditure after ITC is therefore equivalent to what the table shows as "pre-GST cost", while a non-registered buyer pays the full amount including GST. For a detailed breakdown of the applicable rates, refer to the [complete guide on GST on solar inverters](/blog/gst-on-solar-inverters-2026/).
 
-Beyond ITC, businesses can also claim 40% accelerated depreciation on solar plant and machinery in the first year under the Income Tax Act. For a shop owner in the 22% or 30% tax bracket, this further reduces the effective capital cost by ₹12,000–₹24,000 on a ₹2 Lakh system. Explore [solar inverter depreciation tax benefits](/blog/solar-inverter-depreciation-tax-benefits-guide/) for the detailed Income Tax calculation.
+Beyond ITC, businesses can also claim 40% accelerated depreciation on solar plant and machinery in the first year under the Income Tax Act. For a shop owner in the 22% or 30% tax bracket, this further reduces the effective capital cost by ₹12,000–₹24,000 on a ₹2 Lakh system. Explore [solar inverter depreciation tax benefits](/blog/solar-inverter-depreciation-in-india/) for the detailed Income Tax calculation.
 
 > **40%.** The accelerated depreciation rate available on solar plant and machinery in Year 1 under the Income Tax Act, per the [Ministry of New and Renewable Energy's fiscal incentive framework](https://mnre.gov.in/), effectively reducing net capital cost by ₹12,000–₹36,000 for a small commercial system depending on the owner's tax bracket.
 
@@ -163,7 +163,7 @@ Market environments subject inverters to conditions that a laboratory test envir
 - **Pressure washing**: many shops and their neighbours clean shopfronts with pressurised hoses; water finds its way through cable glands and vented housings.
 - **Vehicle exhaust** in busy market areas deposits carbon particulates and acidic compounds on unprotected boards.
 
-An IP65 inverter protects against dust (first digit: 6) and against low-pressure water jets (second digit: 5). An [IP66 inverter](/blog/ip66-inverters-india-s-climate-survival-guide/) adds protection against high-pressure, high-volume water jets from any direction, a meaningful difference when a neighbour's pressure washer sends a spray across your wall.
+An IP65 inverter protects against dust (first digit: 6) and against low-pressure water jets (second digit: 5). An [IP66 inverter](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) adds protection against high-pressure, high-volume water jets from any direction, a meaningful difference when a neighbour's pressure washer sends a spray across your wall.
 
 The [IP65 versus IP66 distinction](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) may seem minor, but field data from inverter service teams consistently shows that board-level corrosion from moisture ingress is the leading cause of inverter failure in Tier-2 and Tier-3 market installations. Replacing a circuit board costs ₹8,000–₹15,000 and requires 3–7 days of system downtime, during which your shop absorbs full commercial tariff again. An IP66 inverter typically adds ₹2,000–₹5,000 to the purchase price but eliminates this recurring expense.
 
@@ -200,7 +200,7 @@ Even with the best intentions, shop owners regularly make the following errors t
 
 - **Skipping the DISCOM net metering application pre-check**: Installing first and applying later often results in the DISCOM rejecting the net meter application because the system size exceeds the sanctioned load, or because the installer used a non-ALMM-listed inverter. Check the [ALMM list guide](/blog/almm-list-phase-iii-guide/) before purchasing any inverter.
 
-- **Choosing an inverter based on price alone**: Cheap inverters from unlisted manufacturers fail DISCOM commissioning inspections, voiding any chance of net metering. They also carry no service network in Tier-2 cities. The [solar inverter quality guide](/blog/solar-inverter-quality/) explains the five checks that separate durable commercial-grade units from price-sensitive alternatives.
+- **Choosing an inverter based on price alone**: Cheap inverters from unlisted manufacturers fail DISCOM commissioning inspections, voiding any chance of net metering. They also carry no service network in Tier-2 cities. The [solar inverter quality guide](/blog/how-to-evaluate-solar-inverter-reliability/) explains the five checks that separate durable commercial-grade units from price-sensitive alternatives.
 
 - **Ignoring seasonal load variation**: A salon that runs minimal AC in winter and four hair dryers plus AC in summer has a 3× load swing. Size for the summer peak, not the comfortable winter average, or you will clip generation and trip the inverter during peak summer months.
 

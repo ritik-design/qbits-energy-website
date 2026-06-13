@@ -78,18 +78,28 @@ export default defineConfig({
     // Same slug, date prefix removed
     '/2026/04/04/inverter-overheating': '/blog/inverter-overheating',
     '/2026/04/04/ip65-vs-ip66-solar-inverters-weather-protection-guide': '/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide',
+    '/blog/ip66-inverters-india-s-climate-survival-guide': '/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide',
     '/2026/04/04/solar-inverter-specifications-decoded': '/blog/solar-inverter-specifications-decoded',
-    '/2026/04/04/solar-inverter-depreciation-tax-benefits-guide': '/blog/solar-inverter-depreciation-tax-benefits-guide',
-    '/2026/04/04/solar-inverter-commissioning': '/blog/solar-inverter-commissioning',
+    '/2026/04/04/solar-inverter-depreciation-tax-benefits-guide': '/blog/solar-inverter-depreciation-in-india',
+    '/blog/solar-inverter-depreciation-tax-benefits-guide': '/blog/solar-inverter-depreciation-in-india',
+    '/2026/04/04/solar-inverter-commissioning': '/blog/solar-inverter-commissioning-in-india',
+    '/blog/solar-inverter-commissioning': '/blog/solar-inverter-commissioning-in-india',
     '/2026/04/04/solar-inverter-certifications': '/blog/solar-inverter-certifications',
-    '/2026/04/04/inverter-distributors-india': '/blog/inverter-distributors-india',
+    '/2026/04/04/inverter-distributors-india': '/blog/inverter-suppliers-india',
     '/2026/04/03/inverter-suppliers-india': '/blog/inverter-suppliers-india',
+    '/blog/inverter-distributors-india': '/blog/inverter-suppliers-india',
+    '/blog/top-inverter-vendors-india': '/blog/inverter-suppliers-india',
+    '/blog/how-to-find-reliable-inverter-dealers-india': '/blog/inverter-suppliers-india',
     '/2026/03/26/solar-inverter-failure': '/blog/solar-inverter-failure',
     '/2026/03/25/ai-powered-vs-traditional-inverter-technology-in-india': '/blog/ai-powered-vs-traditional-inverter-technology-in-india',
-    '/2026/03/24/solar-inverter-pricing-strategies-for-epcs': '/blog/solar-inverter-pricing-strategies-for-epcs',
+    '/2026/03/24/solar-inverter-pricing-strategies-for-epcs': '/blog/inverter-tco',
+    '/blog/solar-inverter-pricing-strategies-for-epcs': '/blog/inverter-tco',
+    '/blog/solar-inverter-replacement-costs-in-india': '/blog/inverter-tco',
     '/2026/03/22/inverter-maintenance-india': '/blog/inverter-maintenance-india',
     '/2026/03/22/solar-inverter-regulations-india-2026-bis-iec-compliance': '/blog/solar-inverter-regulations-india-2026-bis-iec-compliance',
-    '/2026/03/22/solar-inverter-quality': '/blog/solar-inverter-quality',
+    '/2026/03/22/solar-inverter-quality': '/blog/how-to-evaluate-solar-inverter-reliability',
+    '/blog/solar-inverter-quality': '/blog/how-to-evaluate-solar-inverter-reliability',
+    '/blog/solar-inverter-testing-quality-assurance-in-india': '/blog/how-to-evaluate-solar-inverter-reliability',
     '/2026/03/20/indian-vs-international-solar-inverters': '/blog/indian-vs-international-solar-inverters',
     '/2026/03/20/solar-inverter-sizing': '/blog/solar-inverter-sizing',
     '/2026/03/18/solar-inverter-lifespan': '/blog/solar-inverter-lifespan',
@@ -101,6 +111,12 @@ export default defineConfig({
 
     // Slug changed: removed year suffix
     '/blog/best-solar-inverter-india-2026': '/blog/best-solar-inverter-india',
+
+    // External inbound links missing the /blog/ prefix or pointing to legacy paths
+    '/solar-battery-backup-calculator': '/blog/solar-battery-backup-calculator',
+    '/how-to-become-a-solar-inverter-partner-in-india': '/blog/how-to-become-a-solar-inverter-partner-in-india',
+    '/blog/solar-net-metering-india': '/blog/net-metering-india-complete-guide',
+    '/product': '/our-products',
 
     // Slug changed
     '/2026/03/04/complete-guide-to-solar-inverters-in-india': '/blog/how-solar-power-system-works-india',

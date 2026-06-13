@@ -130,7 +130,7 @@ The [payback period](/glossary/payback-period/) for C&I solar in India depends h
 
 ## IP66 and Farm Environment Protection: What the Specifications Mean on the Ground
 
-Most solar specification discussions about [IP66](/blog/ip66-inverters-india-s-climate-survival-guide/) focus on monsoon rain. For a dairy farm, the relevant threats are more chemically aggressive.
+Most solar specification discussions about [IP66](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) focus on monsoon rain. For a dairy farm, the relevant threats are more chemically aggressive.
 
 ### Ammonia and Hydrogen Sulphide
 
@@ -215,7 +215,7 @@ Agricultural solar installations share some challenges with industrial rooftop s
 
 - **PSPCL net metering application before commissioning**: Several farms commission systems before the bidirectional meter is installed, then run in zero-export mode for months waiting for PSPCL approval. The correct sequence is: site survey → EPC contract → PSPCL net meter application → PSPCL approval → installation → PSPCL inspection → commissioning. The net meter application should precede installation by at least 4–6 weeks.
 
-For a broader reference on commissioning best practices, the [solar inverter commissioning guide](/blog/solar-inverter-commissioning/) covers the pre-commissioning checklist, PSPCL documentation, and first-week monitoring protocol in detail.
+For a broader reference on commissioning best practices, the [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/) covers the pre-commissioning checklist, PSPCL documentation, and first-week monitoring protocol in detail.
 
 ## First 12 Months: Generation, Savings, and Monitoring Data
 

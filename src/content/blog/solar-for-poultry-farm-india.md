@@ -183,7 +183,7 @@ The 12-year full replacement warranty ensures the inverter is covered through th
 
 - **[Hybrid Inverters](/hybrid-inverter/)**: HT series with battery-backed switchover for uninterrupted ventilation load continuity.
 - **[On-Grid Inverters](/on-grid-inverter/)**: for large farms where on-grid capacity supplements hybrid core.
-- **[Battery Sizing Calculator](/solar-battery-backup-calculator/)**: calculate ventilation load battery backup for your flock size.
+- **[Battery Sizing Calculator](/blog/solar-battery-backup-calculator/)**: calculate ventilation load battery backup for your flock size.
 - **[Authorised Service Partners](/authorized-service-partners/)**: 280+ city service network for 72-hour response anywhere in India.
 
 [Request a poultry farm solar assessment](/contact-us/), Qbits engineers design for ventilation continuity as the primary constraint, not just grid savings. Most commercial proposals are delivered within 48 hours.

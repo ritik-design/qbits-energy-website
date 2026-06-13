@@ -115,7 +115,7 @@ Anchor bolts lose torque over time due to thermal expansion/contraction cycles a
 
 ## Check 6: IP66 Integrity: Checking the Weatherproof Seal
 
-The inverter's [IP66 rating](/blog/ip66-inverters-india-s-climate-survival-guide/) means it is rated to withstand powerful water jets from any direction and complete dust exclusion. However, this rating applies to a new unit with intact gaskets. Over five to seven years of thermal cycling, the rubber door gasket that seals the inverter cover compresses and can develop gaps.
+The inverter's [IP66 rating](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) means it is rated to withstand powerful water jets from any direction and complete dust exclusion. However, this rating applies to a new unit with intact gaskets. Over five to seven years of thermal cycling, the rubber door gasket that seals the inverter cover compresses and can develop gaps.
 
 **What to check:**
 - Open the inverter cover (only if your inverter design provides safe access to the terminal compartment, consult the manual) and inspect the door gasket for cracks, deformation, or gaps.

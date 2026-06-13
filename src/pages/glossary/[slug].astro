@@ -6,13 +6,14 @@ import Footer from '../../components/Footer.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('glossary');
+  const existingSlugs = new Set(entries.map((e) => e.id));
   return entries.map((entry) => ({
     params: { slug: entry.id },
-    props: { entry },
+    props: { entry, existingSlugs },
   }));
 }
 
-const { entry } = Astro.props;
+const { entry, existingSlugs } = Astro.props;
 const { Content, headings } = await render(entry);
 const {
   term,
@@ -25,9 +26,11 @@ const {
   priority,
   updatedDate,
   quickFacts,
-  relatedTerms = [],
+  relatedTerms: relatedTermsRaw = [],
   faqs = [],
 } = entry.data;
+
+const relatedTerms = relatedTermsRaw.filter((r) => existingSlugs.has(r.slug));
 
 const toc = headings.filter((h) => h.depth === 2);
 

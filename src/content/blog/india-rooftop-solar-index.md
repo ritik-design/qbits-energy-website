@@ -109,7 +109,7 @@ Maharashtra is the largest rooftop solar market by installed MW in India, with M
 
 ### Tamil Nadu: Score: 76/100
 
-TANGEDCO has historically been the slowest southern DISCOM on net metering but has improved measurably since 2024. Median approval time is now 41 days, aided by the state's Solar Rooftop and Small Scale Generation Programme. Tamil Nadu's subsidy landscape combines PM Surya Ghar central funds with state-level TNEDA facilitation. Installer density in Chennai, Coimbatore, and Tirupur is high, though rural TANGEDCO feeders have constrained absorption headroom. Upper-slab residential tariff of ₹8.00–₹9.00 per unit sustains 4.8–5.4 year payback, making the state attractive for [solar EPC project development](/blog/solar-inverter-pricing-strategies-for-epcs/).
+TANGEDCO has historically been the slowest southern DISCOM on net metering but has improved measurably since 2024. Median approval time is now 41 days, aided by the state's Solar Rooftop and Small Scale Generation Programme. Tamil Nadu's subsidy landscape combines PM Surya Ghar central funds with state-level TNEDA facilitation. Installer density in Chennai, Coimbatore, and Tirupur is high, though rural TANGEDCO feeders have constrained absorption headroom. Upper-slab residential tariff of ₹8.00–₹9.00 per unit sustains 4.8–5.4 year payback, making the state attractive for [solar EPC project development](/blog/inverter-tco/).
 
 ### Telangana: Score: 74/100
 
@@ -193,7 +193,7 @@ States scoring above 70 represent mature markets where EPC firms should compete 
 
 ### Partner and Distributor Selection
 
-The index state scores translate directly into distributor channel intelligence. A distributor covering Karnataka, Tamil Nadu, and Telangana has a fundamentally different sales cycle, inventory turn, and credit requirement profile than a distributor covering Bihar, Jharkhand, and Odisha. [Inverter distributor partners](/blog/inverter-distributors-india/) serving low-index states should factor in 90–150 day working capital cycles rather than the 30–45 days typical of high-index states.
+The index state scores translate directly into distributor channel intelligence. A distributor covering Karnataka, Tamil Nadu, and Telangana has a fundamentally different sales cycle, inventory turn, and credit requirement profile than a distributor covering Bihar, Jharkhand, and Odisha. [Inverter distributor partners](/blog/inverter-suppliers-india/) serving low-index states should factor in 90–150 day working capital cycles rather than the 30–45 days typical of high-index states.
 
 ## Grid Absorption Capacity: The Factor EPCs Underestimate
 

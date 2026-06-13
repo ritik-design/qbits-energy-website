@@ -229,6 +229,6 @@ The Indian solar inverter market in 2026 rewards brands that can deliver on thre
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW. ALMM-listed, PM Surya Ghar subsidy-eligible, and designed for India's grid voltage band.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness, instant backup switchover, and LFP battery compatibility for power-cut-prone geographies.
-- **[EPC Installer Partnership](/how-to-become-a-solar-inverter-partner-in-india/)**: Channel-protected pricing, MDF support, and a 72-hour RMA SLA that holds in Tier-3 markets, not just metros.
+- **[EPC Installer Partnership](/blog/how-to-become-a-solar-inverter-partner-in-india/)**: Channel-protected pricing, MDF support, and a 72-hour RMA SLA that holds in Tier-3 markets, not just metros.
 
 When you are ready to see how Qbits pricing and compliance documentation fits your project pipeline, the [contact us](/contact-us/) page connects you directly with a channel manager, most EPCs get a complete product and pricing brief within 24 hours.

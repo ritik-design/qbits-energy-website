@@ -83,7 +83,7 @@ Small commercial establishments (clinics, diagnostic centres, retail showrooms, 
 
 A typical SME consuming 40 to 100 kWh per day on a 3-phase connection at a commercial tariff of ₹8 to ₹12 per unit faces a monthly electricity bill of ₹9,600 to ₹36,000. A 10 kW on-grid system generating approximately 38 to 45 kWh per day covers 40 to 100 percent of this demand, depending on the business's operating hours and load profile.
 
-The financial case is compelling on its own, and the accelerated depreciation benefit under Section 32 of the Income Tax Act strengthens it further. Business buyers can claim 40 percent depreciation in year one on the full system cost, reducing their effective outlay by ₹60,000 to ₹80,000 at typical tax rates on a ₹6,00,000 installed system. This effectively shortens the payback period by 12 to 18 months compared with a residential buyer facing the same energy costs. See [Solar Inverter Depreciation Tax Benefits](/blog/solar-inverter-depreciation-tax-benefits-guide/) for a detailed calculation.
+The financial case is compelling on its own, and the accelerated depreciation benefit under Section 32 of the Income Tax Act strengthens it further. Business buyers can claim 40 percent depreciation in year one on the full system cost, reducing their effective outlay by ₹60,000 to ₹80,000 at typical tax rates on a ₹6,00,000 installed system. This effectively shortens the payback period by 12 to 18 months compared with a residential buyer facing the same energy costs. See [Solar Inverter Depreciation Tax Benefits](/blog/solar-inverter-depreciation-in-india/) for a detailed calculation.
 
 ### Key Specification Checks for SME Buyers
 
@@ -251,7 +251,7 @@ The subsidy structure as of June 2026 is as follows:
 
 For a 10 kW residential system, the central subsidy is capped at ₹78,000. The remaining capacity from 3 kW to 10 kW is fully unsubsidised. Some states offer additional state-level subsidies that may partially offset this gap, check your state DISCOM's or RESCO's current scheme documentation for state-specific amounts.
 
-For commercial buyers, PM Surya Ghar is entirely inapplicable, the scheme is restricted to domestic consumers. Commercial buyers should instead focus on accelerated depreciation under Section 32 of the Income Tax Act, net metering billing benefits under their state's commercial solar policy, and [solar inverter depreciation tax benefits](/blog/solar-inverter-depreciation-tax-benefits-guide/) that directly improve the project [IRR](/glossary/irr/).
+For commercial buyers, PM Surya Ghar is entirely inapplicable, the scheme is restricted to domestic consumers. Commercial buyers should instead focus on accelerated depreciation under Section 32 of the Income Tax Act, net metering billing benefits under their state's commercial solar policy, and [solar inverter depreciation tax benefits](/blog/solar-inverter-depreciation-in-india/) that directly improve the project [IRR](/glossary/irr/).
 
 > **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for any residential rooftop system, regardless of capacity above 3 kW. *Source - [PM Surya Ghar Portal, MNRE](https://pmsuryaghar.gov.in/), 2026.*
 

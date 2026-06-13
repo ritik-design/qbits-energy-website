@@ -217,7 +217,7 @@ Choosing between a budget installation and a premium one is not just a question 
 
 The central insight: a budget installation that fails at year 8 costs more over 25 years than a premium installation that runs for 25 years without an inverter replacement. The maths depend on your local tariff and inverter replacement cost, but the direction is consistent.
 
-The [solar inverter replacement costs in India guide](/blog/solar-inverter-replacement-costs-in-india/) has the exact 25-year TCO comparison for three inverter quality tiers.
+The [solar inverter replacement costs in India guide](/blog/inverter-tco/) has the exact 25-year TCO comparison for three inverter quality tiers.
 
 ## Common Mistakes Homeowners Make When Comparing Solar Costs
 

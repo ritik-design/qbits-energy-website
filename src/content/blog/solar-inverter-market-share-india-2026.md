@@ -188,7 +188,7 @@ India's solar inverter distribution operates across several tiers:
 
 **Buyer:** the homeowner or C&I decision-maker who may have no visibility into this chain and relies on installer recommendation.
 
-The distributor tier is where channel protection becomes critical. Brands that allow grey-market pricing (through e-commerce platforms, cross-territory deals, or unofficial importers) undercut their own distributors and create pricing chaos. Qbits' channel strategy (authorised installer network, territory protection, no e-commerce sales) protects distributor margins and therefore their incentive to provide quality after-sales service. For more on how this channel model affects buyer outcomes, see [how to find reliable inverter dealers in India](/blog/how-to-find-reliable-inverter-dealers-india/).
+The distributor tier is where channel protection becomes critical. Brands that allow grey-market pricing (through e-commerce platforms, cross-territory deals, or unofficial importers) undercut their own distributors and create pricing chaos. Qbits' channel strategy (authorised installer network, territory protection, no e-commerce sales) protects distributor margins and therefore their incentive to provide quality after-sales service. For more on how this channel model affects buyer outcomes, see [how to find reliable inverter dealers in India](/blog/inverter-suppliers-india/).
 
 ## Where Qbits Fits
 

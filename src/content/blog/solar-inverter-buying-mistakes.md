@@ -80,7 +80,7 @@ Premium brands offer a different structure: 12-year full unit replacement. If an
 - **Repair timelines are long**: without a local service partner, the faulty unit is shipped to a centralised repair centre. Turnaround times of 6–10 weeks are common outside the top 8 Indian metros.
 - **Efficiency degrades post-repair**: an inverter that has had multiple component replacements rarely returns to nameplate efficiency. A 3% efficiency drop on a 5 kW system costs roughly ₹3,500 per year in lost generation.
 
-The [true cost of solar inverter replacement in India](/blog/solar-inverter-replacement-costs-in-india/) sits between ₹18,000 and ₹28,000 for a residential 3–5 kW unit, depending on the brand and capacity. That number does not include installation labour, re-commissioning, or the generation lost during the replacement window.
+The [true cost of solar inverter replacement in India](/blog/inverter-tco/) sits between ₹18,000 and ₹28,000 for a residential 3–5 kW unit, depending on the brand and capacity. That number does not include installation labour, re-commissioning, or the generation lost during the replacement window.
 
 ### What to Look for in an Inverter Warranty Document
 
@@ -197,7 +197,7 @@ Indian solar buyers have improved dramatically in one area: panel selection. Mos
 
 The gap is the inverter. It is treated as a commodity, as if any box that converts DC to AC is equivalent to any other. That mental model costs money. The inverter is the most electronically complex component of a solar system and the component most likely to need service within the system's operational life. It is also the component most tightly coupled to subsidy eligibility and net metering approval.
 
-The [how to evaluate solar inverter quality](/blog/solar-inverter-quality/) guide provides a technical framework for comparing inverter specifications beyond the basic kW rating. Key parameters that buyers underweight include: CEC efficiency vs peak efficiency, temperature derating at 45 °C ambient, anti-islanding response time, and the presence of surge protection on AC and DC terminals.
+The [how to evaluate solar inverter quality](/blog/how-to-evaluate-solar-inverter-reliability/) guide provides a technical framework for comparing inverter specifications beyond the basic kW rating. Key parameters that buyers underweight include: CEC efficiency vs peak efficiency, temperature derating at 45 °C ambient, anti-islanding response time, and the presence of surge protection on AC and DC terminals.
 
 ### The Hidden Cost of Getting It Wrong: A State-by-State View
 

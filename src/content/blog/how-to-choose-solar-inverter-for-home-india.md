@@ -179,7 +179,7 @@ This is the segment designed specifically for Indian grid conditions, not adapte
 
 This segment presents the highest financial risk to homeowners. Products are typically assembled from mixed-source components, carry limited or non-transferable warranties, and are frequently not ALMM-listed. Purchase price appears low; total cost of ownership over 10 years is almost always the highest in the market. The [Mercom India Solar Market Report Q1 2026](https://www.mercomindia.com/) documented a rise in installation defect rates in states with low DISCOM inspection capacity, with unbranded inverter failures cited as a leading cause.
 
-For a direct specification comparison between leading brands in the Indian market, the [top inverter vendors India](/blog/top-inverter-vendors-india/) post provides a table-driven analysis across warranty, efficiency, ALMM status, and service network.
+For a direct specification comparison between leading brands in the Indian market, the [top inverter vendors India](/blog/inverter-suppliers-india/) post provides a table-driven analysis across warranty, efficiency, ALMM status, and service network.
 
 ## On-Grid vs Hybrid: The Decision You Cannot Easily Reverse
 

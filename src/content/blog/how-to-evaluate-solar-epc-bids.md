@@ -144,7 +144,7 @@ Selecting an EPC contractor is the halfway point in the solar journey. After con
 3. **Witness commissioning**: Be present when the inverter is powered on for the first time. Verify that string voltages, MPPT tracking, and monitoring app connectivity all function correctly on commissioning day.
 4. **Test monitoring before final payment**: Do not release the retention payment until the monitoring system is fully operational and you have verified at least one day's generation data against reasonable expectations.
 
-The [solar inverter commissioning guide](/blog/solar-inverter-commissioning/) walks through the technical checks that should happen on commissioning day, which a buyer can verify independently regardless of the EPC contractor's checklist.
+The [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/) walks through the technical checks that should happen on commissioning day, which a buyer can verify independently regardless of the EPC contractor's checklist.
 
 ## Where Qbits Fits in EPC Bid Evaluation
 

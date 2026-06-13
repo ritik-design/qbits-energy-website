@@ -274,7 +274,7 @@ For a ₹25 lakh system:
 
 This ₹2.5 lakh first-year saving, combined with the fuel savings that begin from Day 1 of commissioning, means many 50 kW solar installations achieve cash-flow breakeven within the first 12 months, even before the annual savings are fully realised.
 
-Our detailed post on [solar inverter depreciation tax benefits](/blog/solar-inverter-depreciation-tax-benefits-guide/) walks through the Section 32 computation with financial year examples. For the accounting treatment across years, see our post on [solar inverter depreciation in India](/blog/solar-inverter-depreciation-in-india/).
+Our detailed [solar inverter depreciation in India guide](/blog/solar-inverter-depreciation-in-india/) walks through the Section 32 computation with financial year examples and the year-by-year WDV schedule for commercial installations.
 
 GST input tax credit is also available on solar equipment for GST-registered businesses, a further cash-flow improvement that reduces the effective CAPEX by 5–12% depending on the GST rate applicable to the business's output supply.
 
@@ -339,7 +339,7 @@ The numbers are unambiguous. Diesel-generated power costs ₹22–27 per kWh all
 
 The strategic question is not whether to switch. It is how fast to transition and which architecture to choose for the interim period. For most factories running a DG set more than four hours per day, the answer is a rooftop solar system sized for full daytime load, with the DG retained as overnight backup during the first two to three years. As battery costs continue to fall (and they will) the DG is phased out entirely.
 
-The [accelerated depreciation benefit](/blog/solar-inverter-depreciation-tax-benefits-guide/) cuts the effective CAPEX by 10–12% in Year 1. The [C&I solar EPC process](/blog/solar-epc-india/) from survey to commissioning typically takes six to ten weeks. The [payback period](/glossary/payback-period/) for a full DG-displacement installation can be under one year.
+The [accelerated depreciation benefit](/blog/solar-inverter-depreciation-in-india/) cuts the effective CAPEX by 10–12% in Year 1. The [C&I solar EPC process](/blog/solar-epc-india/) from survey to commissioning typically takes six to ten weeks. The [payback period](/glossary/payback-period/) for a full DG-displacement installation can be under one year.
 
 There is no financial argument for running diesel at ₹18+ per kWh when solar is available at under ₹4 per kWh. The question is only one of implementation timing and architecture.
 

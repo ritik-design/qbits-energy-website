@@ -88,7 +88,7 @@ At a 25% corporate tax rate, the â‚¹56 lakh deduction creates a tax saving of â‚
 
 This benefit is not available in the OPEX model. The RESCO company claims the depreciation benefit itself, which is one of the primary reasons RESCOs can offer low PPA tariffs, their depreciation-enhanced returns allow them to price competitively while still making adequate risk-adjusted profits.
 
-For a comprehensive guide to the depreciation calculation and its interaction with Income Tax Act provisions, see [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-tax-benefits-guide/).
+For a comprehensive guide to the depreciation calculation and its interaction with Income Tax Act provisions, see [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/).
 
 ## CAPEX Financing Options in India
 

@@ -58,7 +58,7 @@ There are three compounding risk factors that make warranty quality specifically
 
 > **40%.** The proportion of Indian residential solar installers from 2020 who were unreachable or had shut down by 2023, according to JMK Research. This is why brand-backed warranty (not installer-backed assurance) is the only reliable long-term protection for your solar investment. *Source - [JMK Research, India Solar Market Analysis 2024](https://jmkresearch.com/).*
 
-For a detailed breakdown of what an out-of-warranty event actually costs, the [solar inverter replacement costs guide](/blog/solar-inverter-replacement-costs-in-india/) runs the full 2026 numbers across residential and commercial system sizes.
+For a detailed breakdown of what an out-of-warranty event actually costs, the [solar inverter replacement costs guide](/blog/inverter-tco/) runs the full 2026 numbers across residential and commercial system sizes.
 
 ## The Complete Warranty Comparison Table: 8 Brands Ranked
 
@@ -256,7 +256,7 @@ If the brand does not meet its stated SLA (72 hours for Qbits, longer for others
 
 For homeowners who have decided that warranty is their primary selection criterion (and the TCO maths in this guide shows exactly why it should be) Qbits is the clear answer. No other brand in the Indian market combines a 12-year full replacement warranty, a <72-hour RMA SLA, and an India-registered entity that makes enforcement straightforward under Indian law.
 
-The engineering behind the warranty is equally relevant: [IP66 weather protection](/blog/ip66-inverters-india-s-climate-survival-guide/), India-grid-tuned firmware handling 180–270 V without derating, 98% peak efficiency, and AI-powered WhatsApp monitoring that catches faults before they become warranty claims, all contributing to the low failure rates that make a 12-year replacement commitment financially viable for the brand and financially valuable for the buyer.
+The engineering behind the warranty is equally relevant: [IP66 weather protection](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/), India-grid-tuned firmware handling 180–270 V without derating, 98% peak efficiency, and AI-powered WhatsApp monitoring that catches faults before they become warranty claims, all contributing to the low failure rates that make a 12-year replacement commitment financially viable for the brand and financially valuable for the buyer.
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed, subsidy-eligible, and backed by the 12-year replacement warranty. Ideal for homeowners in metro and Tier-2 cities with reliable grid and net metering access.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness, instant backup switchover, and the same 12-year replacement coverage. Recommended for power-cut zones and homeowners planning battery addition within 3–5 years.

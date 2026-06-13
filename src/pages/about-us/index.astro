@@ -51,6 +51,7 @@ const team = [
     role: 'B2B Sales Head',
     photo: '/team/piyush-chandel.webp',
     linkedin: null,
+    objectPosition: 'object-center',
   },
 ];
 
@@ -305,7 +306,7 @@ const differentiators = [
                   width="600"
                   height="750"
                   loading="lazy"
-                  class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                  class={`w-full h-full object-cover ${m.objectPosition ?? 'object-top'} transition-transform duration-700 group-hover:scale-105`}
                 />
               </div>
               <div class="p-5 sm:p-6">

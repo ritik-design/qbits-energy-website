@@ -33,14 +33,12 @@ const products = [
       {products.map((product) => (
         <a href={product.href} class="group flex flex-col">
           <!-- Image -->
-          <div class="rounded-3xl overflow-hidden bg-slate-50 border border-slate-100 aspect-[4/3] flex items-center justify-center p-6 sm:p-8 transition-shadow duration-500 group-hover:shadow-xl group-hover:shadow-brand-500/5">
-            <img width="1920" height="1080"
-              src={product.image}
-              alt={product.title}
-              class="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
-              loading="lazy"
-            />
-          </div>
+          <img width="1920" height="1080"
+            src={product.image}
+            alt={product.title}
+            class="w-full h-auto transition-transform duration-700 group-hover:scale-[1.02]"
+            loading="lazy"
+          />
 
           <!-- Content below image -->
           <div class="mt-6 px-1">

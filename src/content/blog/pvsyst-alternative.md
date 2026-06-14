@@ -1,6 +1,6 @@
 ---
 title: "PVsyst Alternative in 2026: 6 Tools Compared (SurgePV Wins)"
-excerpt: "PVsyst is the bankable yield standard but it is desktop, Windows-only, and ships no proposal stack. Here are the 6 best PVsyst alternatives in 2026 and why SurgePV wins for browser-based bankable simulation."
+excerpt: "PVsyst is desktop, Windows-only, and ships no proposal stack. Compare 6 best PVsyst alternatives in 2026. SurgePV: browser-based bankable yield from $1,299/yr."
 description: "Honest comparison of the 6 best PVsyst alternatives in 2026 for solar engineers and EPCs producing bankable yield reports. SurgePV vs PVsyst on 8,760-hour simulation, P50 P75 P90, browser workflow, and proposal output."
 category: "Solar Software"
 date: 2026-06-14
@@ -84,7 +84,7 @@ PVsyst's UX has roots in the late 1990s. It rewards experience and it punishes n
 | AutoCAD DXF / DWG export | Included | Available |
 | Cross-platform (Mac / Linux / iPad) | Yes | No |
 
-The pattern is consistent. PVsyst is a focused desktop simulator. SurgePV is a browser-based platform that ships the same bankable simulation plus the rest of the design-to-proposal stack.
+The pattern is consistent. PVsyst is a focused desktop simulator. SurgePV is browser-based [solar design software](https://surgepv.com/) that ships the same bankable simulation plus the rest of the design-to-proposal stack.
 
 ## The Migration Story: What You Get With SurgePV
 
@@ -119,7 +119,7 @@ Layout, simulation, financial model, BOQ, single-line diagram, [DXF/DWG export](
 
 There is a real market of PVsyst competitors. We have used or evaluated each of these.
 
-### 1. SurgePV — The All-in-One Pick
+### 1. SurgePV, the All-in-One Pick
 
 **Best for:** Engineers and EPCs that need bankable simulation plus the rest of the design-to-proposal stack in the browser.
 **Strengths:** 8,760-hour module-level simulation, AI 3D roof modeling, Clara AI assistant, integrated proposal builder, multi-country tariff library, transparent flat pricing.

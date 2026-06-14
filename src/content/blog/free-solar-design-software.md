@@ -1,5 +1,5 @@
 ---
-title: "Free Solar Design Software in 2026: What Works, What Has Hidden Catches"
+title: "Free Solar Design Software 2026: What Works + Catches"
 excerpt: "Free solar design software sounds great until you hit project caps, hardware add-ons, or missing simulation depth. Here is what is genuinely free in 2026, what catches lurk, and when SurgePV's flat-priced plan is the better deal."
 description: "Honest review of free solar design software in 2026. OpenSolar, SAM, PVWatts, free trials of SurgePV and Aurora. Real limits, hidden add-on costs, and when paid is cheaper than 'free'."
 category: "Solar Software"
@@ -83,6 +83,16 @@ Limited trial of HelioScope. Project-count restricted.
 The realised cost of free + add-ons + missed engineering depth crosses paid flat-rate platforms at roughly 5 projects per designer per month. At that volume, SurgePV's flat $1,299 to $1,899 per user per year is the cleaner choice.
 
 **Real example:** An installer doing 10 systems per month on OpenSolar free + hardware add-ons typically pays $80 to $150 per month in realised cost = $1,000 to $1,800 per year per seat. SurgePV Individual at $1,899 per year flat ships full 8,760-hour shading, bankable yield, AutoCAD export, and branded proposals.
+
+### Cost: Free Tier vs SurgePV at Team Size
+
+| Team size | OpenSolar free realised | SurgePV plan |
+| --- | --- | --- |
+| 1-seat solo | $1,000 to $1,800 per year | **SurgePV Individual: $1,899 per year** |
+| 3-seat team | $3,500 to $6,000 per year | **SurgePV 3-User Team: $4,497 per year** |
+| 5-seat team | $6,000 to $10,000 per year | **SurgePV 5-User Team: $6,495 per year** |
+
+At any team size past pure solo small-residential, the SurgePV flat plan matches or beats the realised cost of free + add-ons while including bankable simulation and integrated proposals.
 
 ## What You Get When You Upgrade From Free to SurgePV
 

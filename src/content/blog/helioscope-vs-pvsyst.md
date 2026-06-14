@@ -1,7 +1,7 @@
 ---
-title: "HelioScope vs PVsyst in 2026: Engineer's Comparison + Browser Option"
+title: "HelioScope vs PVsyst 2026: Engineer Comparison + Browser"
 excerpt: "HelioScope vs PVsyst is the engineering team's classic decision. PVsyst owns lender acceptance, HelioScope owns browser workflow. Here is the honest comparison and the browser-based bankable option both engineers should consider."
-description: "Head-to-head comparison of HelioScope vs PVsyst in 2026. Bankable simulation, browser vs desktop, pricing, lender acceptance, and the SurgePV option that ships both methodologies in one workflow."
+description: "HelioScope vs PVsyst in 2026: bankable simulation, browser vs desktop, pricing, lender acceptance, plus the SurgePV alternative. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -83,6 +83,10 @@ HelioScope's browser workflow and C&I layout flexibility are more productive day
 ### 1-engineer solo
 - HelioScope Entry + PVsyst Standard: ~$1,700 per year
 - **SurgePV Individual: $1,899 per year** (all included, no Windows VM)
+
+### 3-engineer team
+- HelioScope Mid + PVsyst Standard x 3 + proposal tool: ~$9,000 to $12,000 per year
+- **SurgePV 3-User Team: $4,497 per year** (all included)
 
 ### 5-engineer team
 - HelioScope Mid + PVsyst Standard × 5 + proposal tool + CRM: $15,000 to $20,000 per year

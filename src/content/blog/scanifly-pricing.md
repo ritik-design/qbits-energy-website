@@ -1,7 +1,7 @@
 ---
 title: "Scanifly Pricing in 2026: Real Costs + Cheaper Alternative"
 excerpt: "Scanifly's per-project pricing plus drone operating cost adds up fast for installers running 100+ projects a year. Here is the real Scanifly pricing math and the flat-priced satellite-based alternative."
-description: "Honest breakdown of Scanifly pricing in 2026. Per-project fees, drone operating cost, and a head-to-head with SurgePV's flat per-seat pricing plus AI 3D roof modeling from satellite."
+description: "Scanifly pricing in 2026: per-project fees, drone operating cost, and the SurgePV flat per-seat alternative with AI 3D from satellite. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "9 min"

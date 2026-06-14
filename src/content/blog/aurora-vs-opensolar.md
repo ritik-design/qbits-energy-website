@@ -1,7 +1,7 @@
 ---
 title: "Aurora vs OpenSolar in 2026: Honest Comparison + the Third Option"
 excerpt: "Aurora costs $159 to $259 per user per month. OpenSolar leads with a free tier. Both have ceilings. Here is the honest Aurora vs OpenSolar comparison and the option both users should consider."
-description: "Head-to-head comparison of Aurora Solar vs OpenSolar in 2026. Pricing, AI features, 8,760-hour shading, proposal workflow, multi-country support. Plus the SurgePV option that ships engineering depth at flat per-seat cost."
+description: "Aurora vs OpenSolar in 2026: pricing, AI, 8,760-hour shading, proposals compared. Plus the SurgePV flat per-seat alternative. Compare plans now."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -86,6 +86,11 @@ Free entry tier for installers running simple residential roofs. Active communit
 - Aurora Entry + AI Mode + Sales Mode: ~$2,500 to $3,000 per year
 - OpenSolar free + hardware add-ons at 10 projects per month: $1,000 to $1,800 per year realised
 - **SurgePV Individual: $1,899 per year flat** (all included)
+
+### 3-seat residential team
+- Aurora Mid + AI + Sales Mode: ~$10,000 to $12,000 per year
+- OpenSolar Pro + extensions x 3: ~$3,500 to $6,000 per year realised
+- **SurgePV 3-User Team: $4,497 per year flat** (all included)
 
 ### 5-seat residential + small C&I team
 - Aurora Mid + AI Mode + Sales Mode: $14,000 to $18,000 per year

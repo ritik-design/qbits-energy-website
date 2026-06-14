@@ -1,7 +1,7 @@
 ---
 title: "AI Solar Design in 2026: Clara AI Leads (Aurora AI Mode + Others)"
 excerpt: "AI solar design lets you draft a complete layout from natural language in seconds. Here is how Clara AI in SurgePV compares with Aurora AI Mode and other AI design tools."
-description: "Complete 2026 guide to AI solar design. Clara AI, Aurora AI Mode, Arka360 AI, OpenSolar AI compared on natural-language workflow, AI 3D from satellite, shading optimisation, and pricing."
+description: "AI solar design 2026: Clara AI vs Aurora AI Mode, Arka360 AI, OpenSolar AI. Natural-language layout, AI 3D from satellite, pricing. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "9 min"
@@ -31,7 +31,7 @@ faqs:
     a: "SurgePV's Clara AI is included free on every paid plan at $1,299 to $1,899 per user per year. Aurora AI Mode is $30 to $50 per user per month on top of Aurora's base $159 to $259 per user per month. SurgePV's bundle is the lowest realised cost for AI solar design."
 ---
 
-AI solar design lets you draft a complete PV layout from natural language in seconds. The category went from gimmick to daily driver in 2026, and the leader is [Clara AI](https://surgepv.com/clara-ai) inside [SurgePV](https://surgepv.com/), included on every paid plan. This guide compares Clara AI with Aurora AI Mode and other AI design tools.
+AI solar design lets you draft a complete PV layout from natural language in seconds. The category went from gimmick to daily driver in 2026, and the leader is [Clara AI](https://surgepv.com/clara-ai), the [AI solar design assistant](https://surgepv.com/clara-ai) inside [SurgePV](https://surgepv.com/), included on every paid plan. This guide compares Clara AI with Aurora AI Mode and other AI design tools.
 
 > **TL;DR**
 > - AI solar design now ships natural-language layout drafting, AI 3D from satellite, and shading optimisation.
@@ -81,7 +81,23 @@ For most teams in 2026, Clara AI is the AI solar design tool that wins on capabi
 - Draft proposal copy
 - All in seconds, on every paid plan
 
-## Real Workflow: Natural-Language Design in 5 Minutes
+## Worked Example: Natural-Language Design in 5 Minutes
+
+A typical 9.6 kW US residential project, Clara AI workflow:
+
+| Step | Action | Time |
+| --- | --- | --- |
+| 1 | Type address, AI 3D roof model returns | 58 seconds |
+| 2 | Clara brief: "9.6 kW, dual MPPT, avoid chimney, prioritise south" | 9 seconds typing |
+| 3 | Clara drafts layout (18 × 533 Wp modules, 2 strings) | 14 seconds |
+| 4 | Designer review and small edit | 90 seconds |
+| 5 | 8,760-hour shading and bankable yield (P50 14,820 kWh/yr) | 28 seconds |
+| 6 | Branded proposal generated | 11 seconds |
+| Total | Brief to proposal | 4 minutes 10 seconds |
+
+The same project takes 25 to 45 minutes in non-AI workflows.
+
+## Workflow Steps
 
 1. Type the address. AI 3D model in 60 seconds.
 2. Tell Clara: "Lay out a 9.6 kW system, dual MPPT, avoid the chimney, prioritise south face."
@@ -114,7 +130,7 @@ Total time: under 5 minutes residential.
 - **Choose Aurora AI Mode** only if already committed to Aurora's upper tier.
 - **Choose Arka360 AI** if India-residential is your entire scope.
 
-For most installers and EPCs in 2026, Clara AI is the AI solar design tool that wins on capability, integration, and total cost.
+For most installers and EPCs in 2026, Clara AI inside the [solar design software](https://surgepv.com/) from SurgePV wins on capability, integration, and total cost.
 
 <div class="inline-cta">
 <h3>Ready to design solar in plain English?</h3>

@@ -1,7 +1,7 @@
 ---
 title: "Solargraf Alternative in 2026: 6 Tools Compared (SurgePV Wins)"
 excerpt: "Solargraf is fast for residential proposals but engineering depth, hardware neutrality, and multi-country support are limited under Enphase ownership. Here are the 6 best Solargraf alternatives in 2026."
-description: "Honest comparison of the 6 best Solargraf alternatives in 2026 for installers. SurgePV vs Solargraf on engineering depth, 8,760-hour shading, hardware neutrality, multi-country support, and integrated workflow."
+description: "Compare 6 best Solargraf alternatives in 2026 for installers. SurgePV vs Solargraf on engineering depth, shading, hardware neutrality. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -90,7 +90,7 @@ Solargraf is US-residential focused. SurgePV covers NEC, IEC, AS/NZS, IS code li
 
 ## Other Alternatives to Solargraf
 
-### 1. SurgePV — Hardware-Neutral All-in-One
+### 1. SurgePV: Hardware-Neutral All-in-One
 Full engineering + proposals + multi-country at flat per-seat cost.
 
 ### 2. Aurora Solar

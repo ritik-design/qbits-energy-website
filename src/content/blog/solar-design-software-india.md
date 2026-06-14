@@ -1,7 +1,7 @@
 ---
 title: "Solar Design Software India 2026: SurgePV vs Aurora"
 excerpt: "PM Surya Ghar pushed India past 18 GW of rooftop solar in two years. Pick solar design software India installers actually need: IS code, ALMM, INR pricing, Hindi proposals."
-description: "Solar design software India guide for 2026. SurgePV vs Aurora, HelioScope, Arka360, Solar Ladder. PM Surya Ghar subsidy, IS code, ALMM and INR pricing compared."
+description: "Solar design software India guide 2026. SurgePV vs Aurora, HelioScope, Arka360, Solar Ladder. PM Surya Ghar, IS code, ALMM and INR pricing compared."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
@@ -37,7 +37,7 @@ faqs:
     a: "QuickEstimate is the CRM most Indian residential solar teams pair with SurgePV. It is built for the Indian solar sales motion, so lead capture, site visit scheduling, quote follow-up and customer document collection are all native. The handoff from QuickEstimate lead to SurgePV design to signed proposal is short, which matters when conversion windows in residential PM Surya Ghar deals are measured in days not weeks. For C&I and utility teams, SurgePV also fits alongside Salesforce and Zoho CRM."
 ---
 
-Solar design software India installers need in 2026 looks nothing like what worked five years ago. PM Surya Ghar Muft Bijli Yojana put rooftop solar on the table for one crore households, the residential pipeline exploded past 18 GW of cumulative installations, and the average EPC team in Pune or Lucknow is now shipping more 3 kW systems in a month than they used to do in a year. The bottleneck is no longer customer demand. The bottleneck is how fast you can turn a WhatsApp enquiry into a bankable design, a subsidy-adjusted financial model and a branded proposal the homeowner will sign. This guide compares the platforms Indian installers actually use, and shows where [SurgePV](https://surgepv.com/) fits.
+The [solar design software](https://surgepv.com/) Indian installers need in 2026 looks nothing like what worked five years ago. PM Surya Ghar Muft Bijli Yojana put rooftop solar on the table for one crore households, the residential pipeline exploded past 18 GW of cumulative installations, and the average EPC team in Pune or Lucknow is now shipping more 3 kW systems in a month than they used to do in a year. The bottleneck is no longer customer demand. The bottleneck is how fast you can turn a WhatsApp enquiry into a bankable design, a subsidy-adjusted financial model and a branded proposal the homeowner will sign. This guide compares the platforms Indian installers actually use, and shows where [SurgePV](https://surgepv.com/) fits.
 
 ## TL;DR
 

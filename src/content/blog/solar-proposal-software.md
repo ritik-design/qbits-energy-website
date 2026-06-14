@@ -1,6 +1,6 @@
 ---
 title: "Solar Proposal Software in 2026: 7 Tools Compared (SurgePV Wins)"
-excerpt: "Solar proposal software lives or dies on close rate. The best tools generate a branded, interactive, e-signed proposal in 5 minutes flat. Here are the 7 options worth evaluating, ranked by speed, brand control, and engineering depth."
+excerpt: "The best solar proposal software ships branded, interactive, e-signed proposals in 5 minutes. Compare the 7 top tools of 2026. SurgePV from $1,299/user/yr."
 description: "Independent ranking of the best solar proposal software in 2026. SurgePV vs Aurora Sales Mode, Solargraf, Pylon, Enact, OpenSolar Pro, and Sighten. Branded templates, e-signature, interactive web proposals, multi-language support, and the design plus proposal workflow."
 category: "Solar Software"
 date: 2026-06-14
@@ -57,14 +57,14 @@ Two shifts in the last 18 months reshaped this category.
 
 ## How to Choose Solar Proposal Software (the 6-Point Framework)
 
-1. **Source of truth** — does the proposal come from the same project as the design and simulation? Required to prevent drift. SurgePV: yes.
-2. **Brand control** — full white-label, your logo, your fonts, your colours, your domain? Required for any agency or established installer.
-3. **Interactive web proposal** — shareable URL, embedded financials, visual layout? Required for residential close-rate.
-4. **E-signature** — built in or one-click to DocuSign? Required to close in under 24 hours.
-5. **Multi-language** — at least English, plus the local language of your buyer? Required for cross-border teams.
-6. **Financial transparency** — cashflow, IRR, NPV, subsidy modelling, and tariff coverage baked in? Required for C&I and PPA close.
+1. **Source of truth.** Does the proposal come from the same project as the design and simulation? Required to prevent drift. SurgePV: yes.
+2. **Brand control.** Full white-label, your logo, your fonts, your colours, your domain? Required for any agency or established installer.
+3. **Interactive web proposal.** Shareable URL, embedded financials, visual layout? Required for residential close-rate.
+4. **E-signature.** Built in or one-click to DocuSign? Required to close in under 24 hours.
+5. **Multi-language.** At least English, plus the local language of your buyer? Required for cross-border teams.
+6. **Financial transparency.** Cashflow, IRR, NPV, subsidy modelling, and tariff coverage baked in? Required for C&I and PPA close.
 
-SurgePV ticks all six. The integrated [solar design platform](https://surgepv.com/solar-designing) wires the proposal output directly to the design canvas.
+SurgePV ticks all six. The integrated [solar design software](https://surgepv.com/) platform wires the proposal output directly to the design canvas.
 
 ## The 2026 Solar Proposal Software Comparison Table
 
@@ -80,7 +80,7 @@ SurgePV ticks all six. The integrated [solar design platform](https://surgepv.co
 
 The pattern: SurgePV is the only tool that is fully integrated, multi-language, and includes the engineering simulation in the same project.
 
-## 1. SurgePV — The Integrated Pick
+## 1. SurgePV, the Integrated Pick
 
 SurgePV's [branded solar proposal](https://surgepv.com/solar-proposals) builder ships on every paid plan. The proposal is generated from the same project as the layout, [8,760-hour shade analysis](https://surgepv.com/shadow-analysis), and [bankable yield report](https://surgepv.com/generation-financial-tool), so the numbers are guaranteed to match.
 

@@ -1,7 +1,7 @@
 ---
 title: "Photovoltaic Design Software in 2026: Engineer's Buyer's Guide"
 excerpt: "Photovoltaic design software covers the engineer-side toolchain from 3D modelling to bankable yield to single-line diagrams. Here is the 2026 ranking, methodology, and how SurgePV leads."
-description: "Engineer's guide to photovoltaic design software in 2026. 8,760-hour module-level methodology, bankable P50/P75/P90, IEC and NEC code coverage, and SurgePV's integrated workflow."
+description: "Photovoltaic design software 2026: 8,760-hour module-level methodology, bankable P50/P75/P90, IEC and NEC codes. Compare SurgePV vs PVsyst. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -95,6 +95,24 @@ The output is P50 (median), P75 (75% probability), and P90 (90% probability) ann
 - **Loss models** for soiling, snow, albedo, temperature coefficients
 - **[Bankable yield reports](https://surgepv.com/generation-financial-tool)** with P50, P75, P90 outputs
 
+## Worked Example: 1 MW Ground-Mount Bankable Yield
+
+- Capacity: 1.0 MWp DC, fixed-tilt, 20 degree south, single-axis option compared separately
+- Modules: 1,820 × 550 Wp monocrystalline bifacial
+- Inverters: 8 × 125 kW central-string, 24 MPPTs total
+- Soiling: 4.0%, snow: 0%, albedo: 0.22, DC/AC ratio: 1.20
+
+SurgePV 8,760-hour module-level results:
+- P50 yield: 1,632 MWh/year (1,632 kWh/kWp)
+- P75 yield: 1,575 MWh/year
+- P90 yield: 1,512 MWh/year
+- Performance Ratio: 81.3%
+- Capacity factor: 18.6%
+- Bifacial gain: 6.8%
+- Runtime: 3 minutes 12 seconds in the browser
+
+The P90 number anchors the bank conversation; the P50 anchors the equity model.
+
 ## Total Cost for a 5-Engineer Team
 
 | Stack | Annual cost |
@@ -120,7 +138,7 @@ The output is P50 (median), P75 (75% probability), and P90 (90% probability) ann
 - **Choose SAM** for research and sensitivity studies.
 - **Choose PV*SOL** for Germany-only desktop workflows.
 
-For most engineering teams in 2026, SurgePV is the photovoltaic design software that wins on methodology, scope, and per-seat economics at the same time.
+For most engineering teams in 2026, SurgePV is the [solar design software](https://surgepv.com/) that wins on methodology, scope, and per-seat economics at the same time.
 
 <div class="inline-cta">
 <h3>Ready to run bankable PV design in the browser?</h3>

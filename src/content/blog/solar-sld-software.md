@@ -1,7 +1,7 @@
 ---
 title: "Solar Single Line Diagram Software: Auto-SLD Guide 2026"
 excerpt: "Solar single line diagram software auto-generates the SLD that AHJs, lenders, and installers depend on. Here is what auto-SLD ships in 2026 and which tools do it well."
-description: "Complete 2026 guide to solar single line diagram (SLD) software. Auto-SLD methodology, NEC labelling, AHJ requirements, comparison across SurgePV, Aurora, HelioScope, and how SurgePV ships SLD generation on every paid plan."
+description: "Solar single line diagram software 2026: auto-SLD with NEC labels, AutoCAD DXF/DWG export, AHJ-ready output. Compare SurgePV vs Aurora. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "8 min"
@@ -61,7 +61,7 @@ The single line diagram is the electrical schematic of the PV system, simplified
 - Utility interconnection point
 - Code labels (NEC, IEC, AS/NZS, IS)
 
-## How Auto-SLD Works in SurgePV
+## How Solar Single Line Diagram Software Works in SurgePV
 
 The SLD is generated from the design canvas in real time. Module layout determines string composition; MPPT assignments map to the chosen inverter; conductor sizing follows code; overcurrent protection ratings come from the inverter datasheet. The output is a PDF SLD plus a DXF/DWG for AutoCAD handoff.
 
@@ -88,6 +88,23 @@ The SLD is generated from the design canvas in real time. Module layout determin
 
 Included on every paid plan at $1,299 to $1,899 per user per year.
 
+## Worked Example: 50 kW Rooftop Auto-SLD
+
+- Array: 50 kW (91 modules at 550 Wp)
+- Inverter: 1 × 50 kW string inverter, 6 MPPTs
+- Strings: 6 × 15 modules + 1 string remainder
+- DC isolators: 1 per MPPT (6 total), 1000 V DC rated
+- AC isolator: 1 × 80 A, 415 V AC
+- Conductor: 6 mm² DC string cable, 16 mm² AC tail
+
+SurgePV auto-SLD output:
+- Pages: 1 page A3
+- Code labels: 14 NEC labels auto-placed (DC voltage warning, rapid shutdown, AC disconnect, PV source labels)
+- Generation time: 4 seconds after layout finalised
+- Edit time before AHJ submission: typically 2 to 4 minutes for jurisdiction tweaks
+
+The same SLD exports to DXF for the electrical contractor's AutoCAD overlay.
+
 ## Common Auto-SLD Mistakes
 
 1. **Skipping the code-label review** before AHJ submission
@@ -110,7 +127,7 @@ Included on every paid plan at $1,299 to $1,899 per user per year.
 - **Choose HelioScope** for engineering with limited SLD generation.
 - **Use AutoCAD + manual SLD** only on very specialised projects where the auto-generation does not match the reviewer's preferences.
 
-For most installers in 2026, SurgePV ships the cleanest auto-SLD workflow.
+For most installers in 2026, SurgePV is the [solar design software](https://surgepv.com/) that ships the cleanest auto-SLD workflow.
 
 <div class="inline-cta">
 <h3>Ready for auto-SLD on every project?</h3>

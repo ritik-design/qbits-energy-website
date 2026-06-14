@@ -1,7 +1,7 @@
 ---
 title: "Solar Financial Modeling Software in 2026: Complete Guide"
 excerpt: "Solar financial modeling software turns yield into cashflow, IRR, and NPV that closes the deal. Here are the tools that ship multi-country tariffs and how SurgePV consolidates the stack."
-description: "Complete 2026 guide to solar financial modeling software. Cashflow, IRR, NPV, country-specific tariffs (PM Surya Ghar, SREC, FiT, Einspeisevergütung), loan/lease/PPA structures, and SurgePV's integrated workflow."
+description: "Solar financial modeling software 2026: cashflow, IRR, NPV, country tariffs (PM Surya Ghar, SREC, FiT) and PPA. SurgePV ships it on every plan. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -127,7 +127,7 @@ SurgePV's financial model produces:
 - **Choose Energy Toolbase or Sighten** for US-residential finance-only workflows where design happens elsewhere.
 - **Choose HOMER** for off-grid, hybrid, and storage-heavy financial modelling.
 
-For most installers and EPCs in 2026, SurgePV ships the cleanest integrated financial modelling at the lowest realised total cost. [QuickEstimate](https://quickestimate.co/) pairs as the CRM for the sales workflow.
+For most installers and EPCs in 2026, SurgePV is the [solar design software](https://surgepv.com/) that ships the cleanest integrated financial modelling at the lowest realised total cost. The [bankable yield report](https://surgepv.com/generation-financial-tool) feeds the model directly. [QuickEstimate](https://quickestimate.co/) pairs as the CRM for the sales workflow.
 
 <div class="inline-cta">
 <h3>Ready to close the deal with integrated finance?</h3>

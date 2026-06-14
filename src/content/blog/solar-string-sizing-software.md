@@ -1,7 +1,7 @@
 ---
 title: "Solar String Sizing Software: Complete 2026 Guide"
 excerpt: "Solar string sizing software bounds the panel string length to the inverter's MPPT window across temperature extremes. Here is how to do it right and which tools automate it across 12,000+ inverter models."
-description: "Complete 2026 guide to solar string sizing software. MPPT-bounded auto-sizing, temperature coefficients, voltage limits, NEC and IEC compliance, plus the integrated SurgePV string sizing workflow."
+description: "Solar string sizing software 2026: MPPT-bounded auto-sizing, temperature limits, NEC/IEC compliance, plus the SurgePV workflow. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -31,7 +31,7 @@ faqs:
     a: "Yes. Hybrid inverters add a DC-side battery charge controller, which can change the effective string voltage window during battery charge. SurgePV's string sizing accounts for this when a hybrid inverter is selected."
 ---
 
-Solar string sizing software bounds the PV string length to the inverter's MPPT operating window across temperature extremes. Wrong sizing costs real yield and can trigger inverter protection. This guide explains how string sizing works, the inputs that matter, and how [SurgePV](https://surgepv.com/) automates it across 12,000+ inverter models on every paid plan.
+Solar string sizing software bounds the PV string length to the inverter's MPPT operating window across temperature extremes. Wrong sizing costs real yield and can trigger inverter protection. This guide explains how string sizing works, the inputs that matter, and how [SurgePV](https://surgepv.com/) automates it across 12,000+ inverter models on every paid plan as part of its [solar design platform](https://surgepv.com/solar-designing).
 
 > **TL;DR**
 > - String sizing keeps the inverter operating at peak MPPT year-round.
@@ -67,7 +67,7 @@ SurgePV pulls module datasheet values directly from the 70,000-module database a
 
 ## How SurgePV Automates String Sizing
 
-The design canvas runs string sizing as soon as a module and inverter are selected. The output is the MPPT-bounded string length, plus the recommended layout across multiple MPPTs if the inverter supports it. The free standalone string sizing calculator runs the same methodology outside the design canvas for quick checks.
+The design canvas runs string sizing as soon as a module and inverter are selected. The output is the MPPT-bounded string length, plus the recommended layout across multiple MPPTs if the inverter supports it. [Clara AI](https://surgepv.com/clara-ai) can also pick the string length from a natural-language brief. The free standalone [solar design software](https://surgepv.com/) string sizing calculator runs the same methodology outside the design canvas for quick checks.
 
 ## NEC, IEC, AS/NZS, IS Code Compliance
 

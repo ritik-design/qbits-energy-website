@@ -35,7 +35,7 @@ faqs:
     a: "Yes. SurgePV exports layout, SLD, and site plan as DXF and DWG, preserving layers, line weights, and block references so your CAD team can drop the file straight into their template. You can also export individual sheets as PDF or PNG. The DWG output is AutoCAD 2018 compatible and opens cleanly in BricsCAD and DraftSight."
 ---
 
-Solar permit design software is the difference between shipping a permit pack on Tuesday and waiting on a third-party drafter until Friday. In 2026, installers face the same choice they faced five years ago, only the math has shifted. Design the SLD, layout, and BOQ in-house with the right platform, or outsource the whole pack to a permit-design service. This article walks through what a permit pack actually contains, how a modern [solar design platform](https://surgepv.com/solar-designing) like SurgePV generates each sheet, and the honest tradeoffs between owning the workflow and paying somebody else to draw it for you.
+Solar permit design software is the difference between shipping a permit pack on Tuesday and waiting on a third-party drafter until Friday. In 2026, installers face the same choice they faced five years ago, only the math has shifted. Design the SLD, layout, and BOQ in-house with the right [solar design software](https://surgepv.com/), or outsource the whole pack to a permit-design service. This article walks through what a permit pack actually contains, how a modern [solar design platform](https://surgepv.com/solar-designing) like SurgePV generates each sheet, and the honest tradeoffs between owning the workflow and paying somebody else to draw it for you.
 
 > **TL;DR**
 > - A complete permit pack has 6 to 9 sheets: site plan, layout, SLD, datasheets, labels, structural, and AHJ extras.
@@ -141,7 +141,7 @@ The biggest gap is the CAD export. If your CAD operator cannot drop the SLD into
 
 ## Who Should Choose Each
 
-**Solo installers and 2-person shops doing under 50 jobs per year.** Get an individual SurgePV seat at $1,899 per year. Design in-house. Outsource only the complex commercial jobs to Heaven Designs ([heavendesigns.in](https://heavendesigns.in/)) when they come up.
+**Solo installers and 2-person shops doing under 50 jobs per year.** Get an individual SurgePV seat at $1,899 per year. Design in-house. Outsource only the complex commercial jobs to Heaven Designs when they come up.
 
 **5 to 15 person residential installers doing 100 to 400 jobs per year.** Buy the 3-user or 5-user team plan and run permit design in-house. The per-seat price drops to $1,299 and you get consistent output across the team.
 

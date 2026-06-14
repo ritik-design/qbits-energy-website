@@ -31,7 +31,7 @@ faqs:
     a: "Yes for the leading tools. SurgePV's 70,000-module and 12,000-inverter hardware-neutral database covers every major brand. OpenSolar's hardware-routed integrations may favour specific brands. Aurora and Solargraf have mature integrations with major manufacturers."
 ---
 
-Residential solar design software lives or dies on speed, accuracy, and close-rate. The 2026 leaders ship address-to-branded-proposal in under 20 minutes, with AI 3D from satellite, 8,760-hour module-level shading, and integrated proposals. This guide compares the seven serious options and explains why [SurgePV](https://surgepv.com/) leads.
+Residential solar design software lives or dies on speed, accuracy, and close-rate. The 2026 leaders ship address-to-branded-proposal in under 20 minutes, with AI 3D from satellite, 8,760-hour module-level shading, and integrated proposals. This guide compares the seven serious options and explains why [SurgePV](https://surgepv.com/) leads the residential [solar design software](https://surgepv.com/) category.
 
 > **TL;DR**
 > - [SurgePV](https://surgepv.com/) is the top pick for residential installers running 5+ systems per designer per month.
@@ -46,7 +46,7 @@ Residential solar design software lives or dies on speed, accuracy, and close-ra
 <p class="cta-sub">20 minutes · Bring a real project · No credit card</p>
 </div>
 
-## The 7 Residential Solar Design Tools That Matter
+## The 7 Residential Solar Design Software Tools That Matter
 
 ### 1. SurgePV
 Browser-based, [residential solar design software](https://surgepv.com/residential-solar-design) workflow with AI 3D roof modeling from satellite, Clara AI, 8,760-hour module-level shading, financial modelling, branded proposals in 9 languages. $1,299 to $1,899 per user per year flat.

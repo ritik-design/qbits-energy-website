@@ -1,7 +1,7 @@
 ---
 title: "PV Yield Simulation Software: 2026 Bankable Guide"
 excerpt: "PV yield simulation software turns a layout into a bankable yield report lenders accept. Here is the 8,760-hour module-level methodology, the P50 P75 P90 framework, and which tools ship it."
-description: "Complete 2026 guide to PV yield simulation software. 8,760-hour module-level methodology, P50, P75, P90 outputs, loss modelling, and how SurgePV ships bankable simulation on every paid plan."
+description: "PV yield simulation software 2026: 8,760-hour module-level methodology, P50/P75/P90 outputs, and SurgePV's bankable browser engine. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -135,7 +135,7 @@ Spread of 5.4 percent between P50 and P90 reflects modelled uncertainty around s
 - **Choose PVsyst** when a lender mandates a PVsyst report by name.
 - **Choose SAM** for research and sensitivity studies.
 
-For most installers and EPCs in 2026, SurgePV consolidates the simulation, financial model, and proposal into one workflow at the lowest realised total cost.
+For most installers and EPCs in 2026, SurgePV [solar design software](https://surgepv.com/) consolidates the simulation, financial model, and proposal into one workflow at the lowest realised total cost.
 
 <div class="inline-cta">
 <h3>Ready to produce bankable yield reports on every project?</h3>

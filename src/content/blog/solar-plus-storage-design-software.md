@@ -1,7 +1,7 @@
 ---
 title: "Solar Plus Storage Design Software in 2026: Hybrid System Guide"
 excerpt: "Solar plus storage design software optimises battery and PV jointly for self-consumption, peak shaving, and resilience. Here are the 5 tools that ship hybrid optimisation in 2026."
-description: "Complete 2026 guide to solar plus storage design software. Hybrid PV + battery optimisation, peak shaving, self-consumption, ToU arbitrage, and how SurgePV integrates storage into the design workflow."
+description: "Solar plus storage design software 2026: hybrid PV + battery sizing, ToU arbitrage, peak shaving, backup mode. SurgePV on every plan. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -35,7 +35,7 @@ Solar plus storage design software optimises PV and battery jointly for self-con
 
 > **TL;DR**
 > - Hybrid PV + battery design now ships on browser-based platforms.
-> - [SurgePV](https://surgepv.com/) supports DC-coupled and AC-coupled topologies with ToU arbitrage modelling on every paid plan.
+> - [SurgePV](https://surgepv.com/) supports DC-coupled and AC-coupled topologies with ToU arbitrage modelling on every paid plan, drafted in seconds via [Clara AI](https://surgepv.com/clara-ai).
 > - Battery sizing, critical-load support, and backup-mode behaviour included.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and design a hybrid system on a real project.
 
@@ -120,7 +120,7 @@ SurgePV's hybrid model produces:
 - **Choose Energy Toolbase** for US C&I-focused ToU arbitrage modelling.
 - **Choose Aurora at upper tier** for US-residential hybrid with limited depth.
 
-For most installers and EPCs in 2026, SurgePV is the solar plus storage design tool that consolidates the workflow at the lowest realised total cost.
+For most installers and EPCs in 2026, SurgePV is the [solar design software](https://surgepv.com/) for solar plus storage that consolidates the workflow at the lowest realised total cost.
 
 <div class="inline-cta">
 <h3>Ready to design PV + battery in one tool?</h3>

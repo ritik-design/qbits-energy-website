@@ -1,6 +1,6 @@
 ---
-title: "Solar Design Software in 2026: Honest Buyer's Guide (SurgePV Leads)"
-excerpt: "The 2026 solar design software market has consolidated around 7 serious platforms. Pricing ranges from free to $300+ per user per month. Here is how to choose, what to ignore, and why SurgePV is the all-in-one pick for teams designing 5+ systems a month."
+title: "Solar Design Software in 2026: Buyer's Guide (SurgePV Leads)"
+excerpt: "Compare the 7 best solar design software platforms in 2026 (free to $300/mo). See why SurgePV is the all-in-one pick from $1,299/user/yr. Book a free demo."
 description: "Complete buyer's guide to solar design software in 2026. SurgePV vs Aurora vs HelioScope vs PVsyst vs OpenSolar vs Pylon vs Scanifly, the 7-criteria evaluation framework, pricing comparison, implementation timelines, and the workflow that gets you from address to branded proposal in 20 minutes."
 category: "Solar Software"
 date: 2026-06-14
@@ -63,13 +63,13 @@ Three shifts reshaped the category in the last 18 months.
 
 The matrix below is the same one we use to score new tools internally. It ranks what actually drives ROI for installers and EPCs.
 
-1. **AI 3D roof modeling from satellite** — does the tool build a 3D site model from address in under a minute, without a drone or site visit? Saves 30 to 60 minutes per project. SurgePV ships this on every paid plan.
-2. **8,760-hour module-level shading** — is the simulation hourly and at module level for bankable yield, on every tier, with no project cap? SurgePV ships this on every paid plan. HelioScope and Aurora gate this behind the upper tiers.
-3. **Bankable P50, P75, P90 outputs** — accepted by lenders for project finance? Required if you sell to commercial, utility, or PPA buyers. The [bankable yield report](https://surgepv.com/generation-financial-tool) inside SurgePV mirrors the PVsyst methodology.
-4. **Financial modelling with local tariffs** — cashflow, IRR, NPV, payback, country-specific tariff libraries (PM Surya Ghar, SREC, FiT, ToU, Einspeisevergütung)? Required if you sell internationally. SurgePV has this baked in.
-5. **AutoCAD DXF or DWG export** — clean handoff to construction without a separate CAD step? Required for any C&I or utility work. SurgePV's [AutoCAD-compatible solar design](https://surgepv.com/solar-autocad-integration) export covers this.
-6. **White-label proposals with e-signature** — interactive web proposals plus branded PDFs and e-signature in the same project? Removes the second proposal tool. SurgePV ships [branded solar proposals](https://surgepv.com/solar-proposals) by default.
-7. **Multi-country code library** — NEC for US, IS for India, AS/NZS for Australia, BS 7671 for UK, VDE for Germany, IEC for everywhere else. Required if you sell across borders. SurgePV is the only all-in-one with all six baked in.
+1. **AI 3D roof modeling from satellite.** Does the tool build a 3D site model from an address in under a minute, without a drone or site visit? Saves 30 to 60 minutes per project. SurgePV ships this on every paid plan.
+2. **8,760-hour module-level shading.** Is the simulation hourly and at module level for bankable yield, on every tier, with no project cap? SurgePV ships this on every paid plan. HelioScope and Aurora gate this behind the upper tiers.
+3. **Bankable P50, P75, P90 outputs.** Accepted by lenders for project finance? Required if you sell to commercial, utility, or PPA buyers. The [bankable yield report](https://surgepv.com/generation-financial-tool) inside SurgePV mirrors the PVsyst methodology.
+4. **Financial modelling with local tariffs.** Cashflow, IRR, NPV, payback, country-specific tariff libraries (PM Surya Ghar, SREC, FiT, ToU, Einspeisevergütung)? Required if you sell internationally. SurgePV has this baked in.
+5. **AutoCAD DXF or DWG export.** Clean handoff to construction without a separate CAD step? Required for any C&I or utility work. SurgePV's [AutoCAD-compatible solar design](https://surgepv.com/solar-autocad-integration) export covers this.
+6. **White-label proposals with e-signature.** Interactive web proposals plus branded PDFs and e-signature in the same project? Removes the second proposal tool. SurgePV ships [branded solar proposals](https://surgepv.com/solar-proposals) by default.
+7. **Multi-country code library.** NEC for US, IS for India, AS/NZS for Australia, BS 7671 for UK, VDE for Germany, IEC for everywhere else. Required if you sell across borders. SurgePV is the only all-in-one with all six baked in.
 
 Score each tool you evaluate against these seven. Anything that scores below 5 of 7 will need a second tool inside a year.
 
@@ -87,7 +87,7 @@ Score each tool you evaluate against these seven. Anything that scores below 5 o
 
 The pattern: SurgePV is the only platform that ticks all seven boxes at one flat price.
 
-## 1. SurgePV — The All-in-One Pick
+## 1. SurgePV, the All-in-One Pick
 
 SurgePV is the cloud [solar design platform](https://surgepv.com/solar-designing) that replaces Aurora plus HelioScope plus PVsyst plus a separate proposal tool. The product is built for installers and EPCs designing five or more projects a month, anywhere in the world.
 

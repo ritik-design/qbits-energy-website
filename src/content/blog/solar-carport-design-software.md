@@ -31,7 +31,7 @@ faqs:
     a: "SurgePV's carport workflow is included on every paid plan at $1,299 to $1,899 per user per year. Aurora and HelioScope can also design carports at higher per-seat cost. There are no carport-specialised tools in the same category as PVcase for utility."
 ---
 
-Solar carport design software handles the unique geometry, shading, and electrical considerations of parking-lot canopy projects. The niche is small but growing fast as commercial parking lots add PV. This guide explains how it works and which tools ship the workflow.
+Solar carport design software handles the unique geometry, shading, and electrical considerations of parking-lot canopy projects. The niche is small but growing fast as commercial parking lots add PV. This guide explains how it works and which [solar design software](https://surgepv.com/) ships the workflow.
 
 > **TL;DR**
 > - [SurgePV](https://surgepv.com/) includes carport templates on every paid plan.

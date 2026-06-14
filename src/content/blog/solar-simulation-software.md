@@ -1,7 +1,7 @@
 ---
 title: "Solar Simulation Software in 2026: Complete Buyer's Guide"
 excerpt: "Solar simulation software computes hourly yield from a layout. The bankable standard is 8,760-hour module-level. Here are the 5 tools that ship it and how they compare on price and workflow."
-description: "Complete 2026 guide to solar simulation software. SurgePV vs PVsyst vs HelioScope vs PV*SOL vs SAM. Bankable methodology, browser vs desktop, pricing, and the integrated design-to-proposal workflow."
+description: "Solar simulation software 2026: SurgePV vs PVsyst, HelioScope, PV*SOL, SAM. Bankable 8,760-hour methodology and pricing. Book a free demo today."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -90,6 +90,23 @@ All on every paid plan.
 
 Lenders care about three things: methodology (8,760-hour module-level), reproducibility (a written assumption sheet anyone can rerun), and track record (the simulator has been used on similar projects in the lender's portfolio). PVsyst leads on track record. SurgePV's methodology matches and is gaining acceptance fast.
 
+## Worked Example: 250 kW C&I Rooftop in Bengaluru
+
+- Array: 250 kW (455 modules at 550 Wp)
+- Inverters: 2 × 125 kW string inverters, 12 MPPTs total
+- Soiling loss: 3.5%, snow: 0%, albedo: 0.20
+- Tilt: 12 degrees south, two roof faces with one chimney shadow
+
+SurgePV 8,760-hour module-level simulation outputs:
+- P50 yield: 387,500 kWh/year (1,550 kWh/kWp)
+- P75 yield: 374,000 kWh/year
+- P90 yield: 360,000 kWh/year
+- Performance Ratio: 79.6%
+- Capacity factor: 17.7%
+- Simulation runtime: 1 minute 42 seconds in the browser
+
+Lenders price the loan against the P90 number; the proposal shows the P50.
+
 ## Pricing for 5-Engineer Teams
 
 | Tool | Annual cost (5 seats) |
@@ -115,7 +132,7 @@ Lenders care about three things: methodology (8,760-hour module-level), reproduc
 - **Choose PV*SOL** for Germany-only desktop workflows.
 - **Choose SAM** for research and sensitivity studies.
 
-For most installers and EPCs in 2026, SurgePV is the solar simulation software that consolidates the workflow at the lowest total cost.
+For most installers and EPCs in 2026, SurgePV is the [solar design software](https://surgepv.com/) that consolidates the simulation workflow at the lowest total cost.
 
 <div class="inline-cta">
 <h3>Ready to run bankable simulation in the browser?</h3>

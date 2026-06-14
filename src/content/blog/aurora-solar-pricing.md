@@ -1,7 +1,7 @@
 ---
 title: "Aurora Solar Pricing in 2026: Real Costs + Cheaper Alternative"
 excerpt: "Aurora Solar costs $159 to $259 per user per month before AI Mode and Sales Mode add-ons. Here is the full Aurora pricing breakdown by plan, the hidden extras, and how SurgePV delivers the same outputs for up to 7x less."
-description: "Complete breakdown of Aurora Solar pricing in 2026. Plan-by-plan costs, AI Mode and Sales Mode add-ons, hidden extras like training and integrations, and a head-to-head comparison with SurgePV's flat per-seat pricing."
+description: "Aurora Solar pricing in 2026 broken down: plan costs, AI Mode and Sales Mode add-ons, hidden extras, and the SurgePV alternative. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"

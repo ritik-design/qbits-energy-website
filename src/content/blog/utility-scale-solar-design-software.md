@@ -16,7 +16,7 @@ keywords:
   - utility solar tool
 faqs:
   - q: "What is the best utility-scale solar design software in 2026?"
-    a: "It depends on scope. For pure utility-scale terrain optimisation and site-selection automation, PVcase and RatedPower lead. For developers and EPCs covering utility + C&I + residential in one license, SurgePV is the most complete pick. SurgePV's utility-scale workflow includes 8,760-hour module-level shading, bankable yield, PPA modelling, and AutoCAD export at flat per-seat pricing."
+    a: "The right pick depends on project scope. For pure utility-scale terrain optimisation and site-selection automation, PVcase and RatedPower lead. For developers and EPCs covering utility + C&I + residential in one license, SurgePV is the most complete pick. SurgePV's utility-scale workflow includes 8,760-hour module-level shading, bankable yield, PPA modelling, and AutoCAD export at flat per-seat pricing."
   - q: "Does SurgePV handle gigawatt-scale projects?"
     a: "Yes. SurgePV supports utility-scale ground-mount, tracker, fixed-tilt, and bifacial layouts with 8,760-hour module-level shading. Terrain import works from common GIS formats. For the most complex terrain optimisation at GW scale, PVcase remains specialised."
   - q: "Does utility-scale solar design software produce bankable yield reports?"
@@ -31,7 +31,7 @@ faqs:
     a: "Yes. SurgePV supports single-axis horizontal trackers, fixed-tilt, and bifacial layouts. 8,760-hour module-level shading runs across the tracker geometry. PVcase remains the specialist for complex tracker optimisation on uneven terrain."
 ---
 
-Utility-scale solar design software handles terrain modelling, tracker and ground-mount layouts, and bankable yield at gigawatt scale. The category split between specialised utility tools (PVcase, RatedPower) and multi-segment platforms (SurgePV, HelioScope). This guide compares the five options and explains why [SurgePV](https://surgepv.com/) is the cleanest pick for developers covering more than one segment.
+Utility-scale solar design software handles terrain modelling, tracker and ground-mount layouts, and bankable yield at gigawatt scale. The category splits between specialised utility tools (PVcase, RatedPower) and multi-segment [solar design software](https://surgepv.com/) platforms (SurgePV, HelioScope). This guide compares the five options and explains why [SurgePV](https://surgepv.com/) is the cleanest pick for developers covering more than one segment.
 
 > **TL;DR**
 > - Utility-scale + C&I + residential teams should consolidate on [SurgePV](https://surgepv.com/).
@@ -46,7 +46,7 @@ Utility-scale solar design software handles terrain modelling, tracker and groun
 <p class="cta-sub">20 minutes · Bring a real project · No credit card</p>
 </div>
 
-## The 5 Utility-Scale Tools That Matter
+## The 5 Utility-Scale Solar Design Software Tools That Matter
 
 ### 1. SurgePV
 [Utility-scale solar design software](https://surgepv.com/utility-scale-solar-design) workflow with 8,760-hour module-level shading, terrain import, tracker support, PPA modelling, and AutoCAD export. $1,299 to $1,899 per user per year, flat. Covers utility + C&I + residential.

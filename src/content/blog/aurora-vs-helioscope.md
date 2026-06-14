@@ -1,7 +1,7 @@
 ---
-title: "Aurora vs HelioScope in 2026: Real Comparison + the SurgePV Option"
+title: "Aurora vs HelioScope 2026: Honest Comparison + SurgePV"
 excerpt: "Aurora vs HelioScope is the classic US solar design software debate. Aurora wins on residential, HelioScope wins on engineering. Here is the honest comparison and the option neither user usually considers."
-description: "Head-to-head comparison of Aurora Solar vs HelioScope in 2026. Pricing, 8,760-hour shading, AI features, proposal workflow, multi-country support. Plus the all-in-one SurgePV option that ships both engineering depth and proposals at lower per-seat cost."
+description: "Aurora vs HelioScope in 2026: pricing, 8,760-hour shading, AI, proposals compared. Plus the SurgePV all-in-one option at lower cost. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
@@ -86,6 +86,11 @@ All at flat $1,299 to $1,899 per user per year.
 - Aurora Entry + AI Mode: ~$2,500 per year
 - HelioScope Entry + Solargraf: ~$2,500 per year
 - **SurgePV Individual: $1,899 per year** (all included)
+
+### 3-seat team
+- Aurora Mid + AI + Sales Mode: ~$10,000 to $12,000 per year
+- HelioScope Mid + Solargraf + Excel: ~$8,000 to $10,000 per year
+- **SurgePV 3-User Team: $4,497 per year** (all included)
 
 ### 5-seat team
 - Aurora Mid + AI + Sales Mode: $14,000 to $18,000 per year

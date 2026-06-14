@@ -1,7 +1,7 @@
 ---
-title: "OpenSolar Pricing in 2026: True Cost of 'Free' + Cheaper Alternative"
+title: "OpenSolar Pricing in 2026: True Cost of Free + Alternative"
 excerpt: "OpenSolar starts free, but hardware integrations, proposal extensions, and other add-ons stack quickly at C&I. Here is the real OpenSolar pricing math and the flat-priced SurgePV alternative."
-description: "Honest breakdown of OpenSolar pricing in 2026. Free tier limits, paid extensions and hardware fees, and the real total cost for a residential or C&I installer compared to SurgePV's flat per-seat plan."
+description: "OpenSolar pricing in 2026: free tier limits, paid extensions, hardware fees, and realised total cost vs SurgePV flat per-seat. Compare plans now."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "9 min"
@@ -74,6 +74,16 @@ A residential installer doing 10 systems per month per designer, mostly straight
 - **SurgePV Individual**: $1,899 per year flat, full feature set, no add-ons
 
 At 5+ projects per designer per month with any C&I in the mix, the realised cost on OpenSolar typically matches or exceeds SurgePV's published seat price, without bankable simulation or the integrated proposal stack.
+
+### Total Cost: OpenSolar vs SurgePV at Team Size
+
+| Team size | OpenSolar realised cost | SurgePV plan |
+| --- | --- | --- |
+| 1-seat solo | $1,000 to $1,800 per year | **SurgePV Individual: $1,899 per year** |
+| 3-seat team | $3,500 to $6,000 per year | **SurgePV 3-User Team: $4,497 per year** |
+| 5-seat team | $6,000 to $10,000 per year | **SurgePV 5-User Team: $6,495 per year** |
+
+At every team size past pure solo small-residential, SurgePV's flat plan matches or beats the realised OpenSolar cost while shipping bankable simulation and integrated proposals.
 
 ## What You Get for the Same or Less With SurgePV
 

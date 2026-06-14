@@ -1,7 +1,7 @@
 ---
 title: "Solar Shading Analysis Software: 2026 Guide (8,760-Hour Standard)"
 excerpt: "Solar shading analysis software runs the hourly simulation that turns a layout into a bankable yield report. Here is how 8,760-hour module-level shading works, why it matters, and which tools ship it on every plan."
-description: "Complete guide to solar shading analysis software in 2026. How 8,760-hour module-level shading works, why it matters for bankable yield, and which tools (SurgePV, HelioScope, PVsyst, Aurora) ship it on every plan."
+description: "Solar shading analysis software 2026: how 8,760-hour module-level shading works, why it drives bankable yield, and which tools ship it. Book a SurgePV demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
@@ -31,7 +31,7 @@ faqs:
     a: "Module-level shading catches the impact on individual modules, then propagates through the inverter MPPT logic to produce accurate AC yield. String-level shading averages across the string, which understates the impact when only part of the string is shaded. Module-level is the correct methodology for any project with non-uniform shading patterns."
 ---
 
-Solar shading analysis software runs the hourly simulation that turns a layout into a bankable yield report. The methodology matters: 8,760-hour module-level shading is the industry standard accepted by lenders, while simplified shading models can mislead by 3 to 8 percent on residential and far more on complex C&I rooftops. This guide explains how shading analysis works in 2026 and which tools ship it well.
+Solar shading analysis software runs the hourly simulation that turns a layout into a bankable yield report. The methodology matters: 8,760-hour module-level shading is the industry standard accepted by lenders, while simplified shading models can mislead by 3 to 8 percent on residential and far more on complex C&I rooftops. This guide explains how shading analysis works in 2026 and which [solar design software](https://surgepv.com/) ships it well.
 
 > **TL;DR**
 > - 8,760-hour module-level shading is the bankable standard.
@@ -58,13 +58,13 @@ Inaccurate shading shifts yield by 3 to 8 percent on residential rooftops and 5 
 
 ## What to Look For in Solar Shading Analysis Software
 
-1. **8,760-hour granularity** — not daily averages or sample hours
-2. **Module-level computation** — not string-averaged shading factors
-3. **3D obstruction modelling** — accurate satellite or LIDAR-derived geometry
-4. **Inter-row shading** — required for ground-mount and tracker projects
-5. **Soiling, snow, albedo, temperature coefficients** — bankable methodology
-6. **P50, P75, P90 outputs** — accepted by lenders
-7. **Cloud compute speed** — practical in production workflow
+1. **8,760-hour granularity**: not daily averages or sample hours
+2. **Module-level computation**: not string-averaged shading factors
+3. **3D obstruction modelling**: accurate satellite or LIDAR-derived geometry
+4. **Inter-row shading**: required for ground-mount and tracker projects
+5. **Soiling, snow, albedo, temperature coefficients**: bankable methodology
+6. **P50, P75, P90 outputs**: accepted by lenders
+7. **Cloud compute speed**: practical in production workflow
 
 SurgePV ships all seven on every paid plan.
 

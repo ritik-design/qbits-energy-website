@@ -1,6 +1,6 @@
 ---
 title: "OpenSolar Alternative in 2026: 6 Tools Compared (SurgePV Wins)"
-excerpt: "OpenSolar's free tier is great for small residential, but add-ons stack quickly and C&I shading gets thin fast. Here are the 6 best OpenSolar alternatives in 2026 and why SurgePV is the natural upgrade path."
+excerpt: "OpenSolar's free tier add-ons stack quickly and C&I shading gets thin. Compare the 6 best OpenSolar alternatives in 2026. SurgePV upgrade path from $1,299/yr."
 description: "Honest comparison of the 6 best OpenSolar alternatives in 2026 for installers growing past residential. SurgePV vs OpenSolar on shading, hardware integrations, financial modelling, proposals, and the true total cost when add-ons kick in."
 category: "Solar Software"
 date: 2026-06-14
@@ -110,7 +110,7 @@ Layout, simulation, [solar financial modeling](https://surgepv.com/generation-fi
 
 ## Other Alternatives to OpenSolar (Honest List)
 
-### 1. SurgePV — The All-in-One Pick
+### 1. SurgePV, the All-in-One Pick
 
 **Best for:** Installers and EPCs growing past simple residential who want one license to cover design, simulation, financials, and proposals.
 **Strengths:** AI 3D roof modeling, 8,760-hour module-level shading, Clara AI, integrated proposals, multi-country tariff library, transparent pricing.

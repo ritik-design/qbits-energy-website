@@ -1,7 +1,7 @@
 ---
 title: "Satellite Roof Measurement for Solar: 2026 Guide"
 excerpt: "Satellite roof measurement now reaches LIDAR-grade accuracy from high-resolution imagery, with no drone or site visit. Here is how it works, the accuracy benchmarks, and which platforms ship it well."
-description: "Complete 2026 guide to satellite roof measurement for solar design. How AI 3D roof modeling works, accuracy benchmarks against LIDAR, comparison with drone-based capture, and the SurgePV workflow that ships it on every paid plan."
+description: "Satellite roof measurement for solar 2026: AI 3D roof modeling accuracy vs LIDAR, drone comparison, and the SurgePV workflow. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "9 min"
@@ -101,7 +101,7 @@ Satellite-derived AI 3D struggles on sites with very dense tree canopy, very rec
 - **Choose drone (Scanifly)** for sites with complex obstructions, unusual geometry, or as-built model requirements.
 - **Choose EagleView** for legacy measurement reports where a third-party measurement is contractually required.
 
-For most production solar design in 2026, satellite-based AI 3D inside SurgePV is the cleanest workflow.
+For most production solar design in 2026, satellite-based AI 3D inside SurgePV [solar design software](https://surgepv.com/) is the cleanest workflow.
 
 <div class="inline-cta">
 <h3>Ready to drop the drone for most rooftops?</h3>

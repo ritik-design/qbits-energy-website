@@ -1,7 +1,7 @@
 ---
 title: "Solar BOQ Software: Auto-Generated Bill of Quantities 2026"
 excerpt: "Solar BOQ software auto-generates the bill of quantities the procurement team needs to order modules, inverters, mounting, and BOS. Here is how auto-BOQ works in 2026."
-description: "Complete 2026 guide to solar BOQ (Bill of Quantities) software. Auto-BOQ generation, PM Surya Ghar subsidy mapping for India, hardware-neutral sourcing, and how SurgePV ships BOQ on every paid plan."
+description: "Solar BOQ software 2026: auto-generated bill of quantities, PM Surya Ghar mapping, hardware-neutral procurement export. SurgePV ships BOQ on every plan."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "8 min"
@@ -35,7 +35,7 @@ Solar BOQ software auto-generates the bill of quantities the procurement team ne
 
 > **TL;DR**
 > - Auto-BOQ generates the full procurement list from the design canvas.
-> - [SurgePV](https://surgepv.com/) ships auto-BOQ on every paid plan, hardware-neutral, with PM Surya Ghar mapping for India.
+> - [SurgePV](https://surgepv.com/) ships auto-BOQ on every paid plan, hardware-neutral, with PM Surya Ghar mapping inside the [solar design platform](https://surgepv.com/solar-designing).
 > - [QuickEstimate](https://quickestimate.co/) is the sister CRM that handles procurement and subsidy workflows.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and see the auto-BOQ on a real project.
 
@@ -59,7 +59,7 @@ Solar BOQ software auto-generates the bill of quantities the procurement team ne
 - **Monitoring hardware** (CT clamps, gateway)
 - **Balance of System** (junction boxes, conduit, labels)
 
-## How Auto-BOQ Works in SurgePV
+## How Solar BOQ Software Works in SurgePV
 
 The BOQ pulls from the design canvas in real time. Module count and model come from the layout. Inverter selection and MPPT assignments determine the count. Conductor sizing comes from the string voltage and current. Mounting comes from the roof type and orientation. The output is a single editable BOQ that exports to PDF, XLSX, CSV, and JSON.
 
@@ -90,6 +90,26 @@ For Indian residential installers, BOQ line items must map cleanly to PM Surya G
 
 All on every paid plan.
 
+## Worked Example: 5 kW Residential BOQ in India
+
+A 5 kW residential rooftop, single-MPPT 5 kW string inverter, auto-generated SurgePV BOQ:
+
+| Line item | Qty | Unit |
+| --- | --- | --- |
+| 550 Wp monocrystalline module | 9 | nos |
+| 5 kW string inverter | 1 | nos |
+| Rail (3.3 m) | 6 | nos |
+| Mid clamp | 24 | nos |
+| End clamp | 12 | nos |
+| L-foot mount | 18 | nos |
+| 6 mm² DC cable (red + black) | 60 | m |
+| 4 mm² AC cable | 25 | m |
+| DC isolator 1000 V, 25 A | 1 | nos |
+| AC isolator 32 A | 1 | nos |
+| Earthing kit | 1 | set |
+
+Generation time: under 5 seconds. PM Surya Ghar subsidy line: ₹78,000 central + state share auto-applied. Total BOQ cost computed against the procurement rate card and exported to XLSX for the purchase order.
+
 ## Common BOQ Mistakes
 
 1. **Missing the AC cable length** between inverter and meter
@@ -112,7 +132,7 @@ All on every paid plan.
 - **Choose HelioScope** for C&I engineering with limited BOQ scope.
 - **Use Solar Ladder** for India residential sales workflows that need BOQ + CRM in one product.
 
-For most installers in 2026, SurgePV plus [QuickEstimate](https://quickestimate.co/) is the cleanest auto-BOQ + procurement workflow.
+For most installers in 2026, the [solar design software](https://surgepv.com/) from SurgePV plus [QuickEstimate](https://quickestimate.co/) is the cleanest auto-BOQ + procurement workflow.
 
 <div class="inline-cta">
 <h3>Ready for auto-BOQ that matches the design?</h3>

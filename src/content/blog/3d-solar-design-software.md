@@ -1,7 +1,7 @@
 ---
 title: "3D Solar Design Software in 2026: Honest Comparison Guide"
 excerpt: "3D solar design software produces the site model that drives shading, layout, and proposal visuals. Here is how the major tools stack up on accuracy, speed, and total cost of ownership."
-description: "Complete 2026 guide to 3D solar design software. Accuracy benchmarks, speed comparison across SurgePV, Aurora, Scanifly, SketchUp+Skelion, and how AI 3D from satellite is reshaping the category."
+description: "3D solar design software 2026: accuracy and speed benchmarks across SurgePV, Aurora, Scanifly, and SketchUp+Skelion. Book a free SurgePV demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -100,7 +100,7 @@ For everyday production design at volume, AI 3D from satellite has overtaken the
 1. **Skipping 3D on "simple" projects.** Even simple roofs have obstructions that change shading meaningfully.
 2. **Trusting old imagery.** Trees grow, neighbouring buildings get added. Use current imagery.
 3. **Not validating obstructions.** Spot-check vents, chimneys, AC units against site photos.
-4. **Mixing 3D sources.** Don't combine drone capture with separate 2D layout without verifying alignment.
+4. **Mixing 3D sources.** Do not combine drone capture with separate 2D layout without verifying alignment.
 5. **Ignoring near-field obstructions.** Trees in the neighbouring yard matter for shading.
 
 <div class="inline-cta">
@@ -117,7 +117,7 @@ For everyday production design at volume, AI 3D from satellite has overtaken the
 - **Choose Scanifly** for drone capture as a core differentiator.
 - **Choose SketchUp + Skelion** for power-user CAD authoring on specialised projects.
 
-For most installers and EPCs in 2026, SurgePV's AI 3D from satellite is the cleanest 3D solar design workflow.
+For most installers and EPCs in 2026, SurgePV's AI 3D from satellite is the cleanest 3D [solar design software](https://surgepv.com/) workflow.
 
 <div class="inline-cta">
 <h3>Ready to design solar from satellite in 60 seconds?</h3>

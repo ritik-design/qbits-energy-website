@@ -31,7 +31,7 @@ faqs:
     a: "SurgePV's FPV workflow is included on every paid plan at $1,299 to $1,899 per user per year. There are no specialised FPV-only design tools at the same price point. PVcase and RatedPower can be configured for FPV at enterprise pricing."
 ---
 
-Floating solar (floatovoltaic or FPV) design software handles PV systems mounted on floating platforms over reservoirs, lakes, and irrigation ponds. The water-cooling effect boosts yield, and the geometry has unique considerations. This guide covers the 2026 options and explains how [SurgePV](https://surgepv.com/) ships floating solar on every paid plan.
+Floating solar (floatovoltaic or FPV) design software handles PV systems mounted on floating platforms over reservoirs, lakes, and irrigation ponds. The water-cooling effect boosts yield, and the geometry has unique considerations. This guide covers the 2026 options and explains how [SurgePV](https://surgepv.com/) ships floating solar inside its [solar design software](https://surgepv.com/) on every paid plan.
 
 > **TL;DR**
 > - [SurgePV](https://surgepv.com/) ships floating solar templates on every paid plan.

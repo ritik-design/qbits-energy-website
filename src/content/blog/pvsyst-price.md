@@ -1,7 +1,7 @@
 ---
 title: "PVsyst Price in 2026: Real Costs + Cheaper Browser Alternative"
 excerpt: "PVsyst costs roughly €500 per user per year for the Standard licence, but you also need Windows, a separate proposal tool, and a financial model. Here is the full PVsyst price breakdown and the cheaper browser-based alternative."
-description: "Complete breakdown of PVsyst pricing in 2026. Standard and Premium licences, the hidden cost of Windows-only desktop deployment, and a head-to-head with SurgePV's browser-based bankable simulation."
+description: "PVsyst price in 2026: Standard and Premium licences, Windows-only hidden costs, and the SurgePV browser-based bankable alternative. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "9 min"

@@ -1,7 +1,7 @@
 ---
 title: "Solar Design Software Pricing in 2026: Every Tool Compared"
 excerpt: "Solar design software pricing ranges from free to $300+ per user per month. Here is every tool's published price, what is gated behind upper tiers, and the real total cost of ownership for teams of 1, 3, and 5 seats."
-description: "Complete pricing breakdown of every major solar design software in 2026. SurgePV vs Aurora, HelioScope, PVsyst, OpenSolar, Pylon, Scanifly, Solargraf, PVcase, RatedPower, PV*SOL. Per-seat costs, feature gates, and total cost of ownership math."
+description: "Solar design software pricing in 2026 compared. SurgePV vs Aurora, HelioScope, PVsyst, OpenSolar, Scanifly. Per-seat costs and TCO math. See pricing."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
@@ -132,16 +132,16 @@ Free tier omits hardware integrations, advanced proposal templates, and some sha
 
 ## Hidden Costs to Watch For
 
-1. **AI add-ons** — Aurora AI Mode is a recurring cost on top of the base plan
-2. **Hardware integration fees** — OpenSolar charges for certain inverter integrations
-3. **Per-project fees** — Scanifly's pricing model
-4. **Drone operating cost** — Scanifly workflows
-5. **Windows machine requirement** — PVsyst, PV*SOL
-6. **Separate proposal tool** — HelioScope, PVsyst
-7. **Separate CRM** — most tools (SurgePV pairs with [QuickEstimate](https://quickestimate.co/))
-8. **Training fees** — PVcase, RatedPower
-9. **Project allowance caps** — HelioScope entry, some Aurora plans
-10. **Lender-specific report requirements** — occasional parallel PVsyst run
+1. **AI add-ons**: Aurora AI Mode is a recurring cost on top of the base plan
+2. **Hardware integration fees**: OpenSolar charges for certain inverter integrations
+3. **Per-project fees**: Scanifly's pricing model
+4. **Drone operating cost**: Scanifly workflows
+5. **Windows machine requirement**: PVsyst, PV*SOL
+6. **Separate proposal tool**: HelioScope, PVsyst
+7. **Separate CRM**: most tools (SurgePV pairs with [QuickEstimate](https://quickestimate.co/))
+8. **Training fees**: PVcase, RatedPower
+9. **Project allowance caps**: HelioScope entry, some Aurora plans
+10. **Lender-specific report requirements**: occasional parallel PVsyst run
 
 ## Total Cost of Ownership: a Realistic Example
 

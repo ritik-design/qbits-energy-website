@@ -31,7 +31,7 @@ faqs:
     a: "SurgePV ships IS code coverage, PM Surya Ghar tariffs, and India-specific module/inverter databases. Solar Ladder and Arka360 are India-focused alternatives, lighter on engineering depth. For Indian C&I projects, SurgePV plus QuickEstimate covers design plus subsidy claim workflow."
 ---
 
-Commercial solar design software needs to handle multi-array C&I rooftops, ground-mount projects, bankable yield simulation, PPA financial modelling, AutoCAD export, and a proposal stack that closes commercial deals. This guide compares the six serious options in 2026 and explains why [SurgePV](https://surgepv.com/) leads.
+Commercial solar design software needs to handle multi-array C&I rooftops, ground-mount projects, bankable yield simulation, PPA financial modelling, AutoCAD export, and a proposal stack that closes commercial deals. This guide compares the six serious options in 2026 and explains why [SurgePV](https://surgepv.com/) is the [solar design software](https://surgepv.com/) leader for C&I teams.
 
 > **TL;DR**
 > - C&I requires bankable simulation, PPA modelling, and AutoCAD export at minimum.
@@ -46,7 +46,7 @@ Commercial solar design software needs to handle multi-array C&I rooftops, groun
 <p class="cta-sub">20 minutes · Bring a real project · No credit card</p>
 </div>
 
-## The 6 Commercial Solar Design Tools That Matter
+## The 6 Commercial Solar Design Software Tools That Matter
 
 ### 1. SurgePV
 Full [commercial solar design software](https://surgepv.com/commercial-solar-design) workflow. 8,760-hour module-level shading on every plan. PPA, loan, lease modelling. AutoCAD export. Branded proposals in 9 languages. $1,299 to $1,899 per user per year.

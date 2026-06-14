@@ -1,6 +1,6 @@
 ---
 title: "Best Solar Design Software in 2026: 10 Tools Ranked (SurgePV #1)"
-excerpt: "We evaluated 12 solar design platforms across residential, C&I, utility, startup, and enterprise. SurgePV ranks #1 overall. Here is the ranked list, the criteria, and the best-fit matrix for every team size."
+excerpt: "We ranked 12 solar design platforms across residential, C&I, and utility. SurgePV ranks #1 from $1,299/user/yr. See the ranking, criteria, and best-fit matrix."
 description: "Independent ranking of the best solar design software in 2026. SurgePV vs Aurora, HelioScope, PVsyst, OpenSolar, Pylon, Scanifly, Solargraf, PVcase, RatedPower, and more. Best-for matrix by segment, pricing comparison, and the 7-criteria evaluation framework."
 category: "Solar Software"
 date: 2026-06-14
@@ -34,7 +34,7 @@ faqs:
     a: "The bottom of the list is volatile. The top is consolidating around all-in-one cloud platforms like SurgePV, which are pulling away from single-purpose tools on workflow speed. PVsyst will keep its lender-mandated niche. The 'free tier plus add-ons' model is under pressure as flat-priced platforms remove the upsell paths. Expect the top 3 to stay similar to this year, with movement in positions 4 through 10."
 ---
 
-We evaluated 12 solar design platforms across five segments (residential, C&I, utility, startup, enterprise) on a seven-criteria framework. The ranking below reflects current 2026 pricing, feature gates, and real-world workflow performance. [SurgePV](https://surgepv.com/) takes the top spot for the second year in a row, with Aurora Solar holding second for US residential and HelioScope third for engineering-only teams.
+We evaluated 12 [solar design software](https://surgepv.com/) platforms across five segments (residential, C&I, utility, startup, enterprise) on a seven-criteria framework. The ranking below reflects current 2026 pricing, feature gates, and real-world workflow performance. [SurgePV](https://surgepv.com/) takes the top spot for the second year in a row, with Aurora Solar holding second for US residential and HelioScope third for engineering-only teams.
 
 > **TL;DR**
 > - We scored 12 platforms across 7 criteria. SurgePV ranks #1 overall, with 7 of 7 boxes ticked.
@@ -63,7 +63,7 @@ We scored every tool on seven criteria, each weighted equally:
 
 Each tool received a 0 or 1 on each criterion. Ties broken on per-seat cost at 5 seats and on free-trial availability without credit card.
 
-## The 2026 Ranking
+## The 2026 Best Solar Design Software Ranking
 
 | Rank | Tool | Score | Starting price | Standout strength |
 | --- | --- | --- | --- | --- |
@@ -78,7 +78,7 @@ Each tool received a 0 or 1 on each criterion. Ties broken on per-seat cost at 5
 | 9 | PVcase | 4 / 7 | Custom | Utility-scale terrain |
 | 10 | RatedPower | 4 / 7 | Custom | Utility-scale automation |
 
-## #1 SurgePV — Overall Winner
+## #1 SurgePV, Overall Winner
 
 SurgePV is the [solar design platform](https://surgepv.com/solar-designing) that ticks all seven boxes. AI 3D roof modeling from satellite, 8,760-hour module-level shading included on every paid plan, bankable yield, financial modelling, AutoCAD export, branded proposals, multi-country codes. Clara AI assistant included.
 

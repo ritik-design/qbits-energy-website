@@ -234,16 +234,27 @@ const supportTypes = [
   @media (max-width: 640px) {
     #aspMapView { border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.08); }
     .asp-map-loading, #aspMap { height: 460px; }
+    .leaflet-control-zoom { margin: 10px !important; }
+    .leaflet-control-zoom a {
+      width: 32px !important;
+      height: 32px !important;
+      line-height: 32px !important;
+      font-size: 18px !important;
+    }
+    .leaflet-popup-content { margin: 12px !important; }
+    .leaflet-popup-content-wrapper { border-radius: 12px; }
   }
 
-  /* ── Google Maps InfoWindow overrides ────── */
-  .gm-style .gm-style-iw-c {
-    border-radius: 14px !important;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.12) !important;
-    padding: 14px !important;
+  /* ── Leaflet overrides ───────────────────── */
+  .leaflet-container { font-family: inherit; }
+  .leaflet-popup-content-wrapper {
+    border-radius: 14px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    padding: 0;
   }
-  .gm-style .gm-style-iw-d { overflow: visible !important; }
-  .gm-style .gm-style-iw-tc { display: none !important; }
+  .leaflet-popup-content { margin: 16px; }
+  .leaflet-popup-tip-container { display: none; }
+  .leaflet-control-attribution { font-size: 10px; }
 
   /* ── Spinner ─────────────────────────────── */
   @keyframes asp-spin {
@@ -579,6 +590,8 @@ const supportTypes = [
   }
 </style>
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
 <script>
   /* ── Constants ─────────────────────────────────── */
   const API  = 'https://qbits.quickestimate.co/api/v1/webhook';
@@ -600,18 +613,31 @@ const supportTypes = [
     return p ? `${CDN}${p}` : '/default-user.webp';
   }
 
-  /* ── Map (Google Maps with region=IN so J&K renders as part of India) ── */
-  const GMAPS_KEY = 'AIzaSyCi9epoAEzqNpsuLSIGACaojRdEmL1cLTI';
-  let gMap: any = null;
-  let gInfoWindow: any = null;
-  let gMarkers: any[] = [];
+  /* ── Map (Leaflet + OSM, with India outline overlay so J&K reads as part of India) ── */
+  let leafletMap: any = null;
+
+  // Simplified outline of India (Indian sovereign claim — includes J&K, PoK, Aksai Chin).
+  // Drawn on top of OSM tiles to visually unify Kashmir with the rest of India at country zoom.
+  const INDIA_OUTLINE: [number, number][] = [
+    [37.05, 74.50], [36.20, 75.30], [35.60, 76.80], [35.50, 78.00], [35.30, 79.50],
+    [34.60, 79.70], [33.90, 79.20], [32.90, 79.10], [31.80, 78.80], [30.80, 80.20],
+    [30.20, 81.00], [28.70, 80.50], [27.40, 84.10], [26.80, 88.10], [27.20, 88.90],
+    [27.30, 90.40], [27.10, 91.70], [27.80, 95.40], [28.50, 97.40], [27.70, 97.10],
+    [25.80, 95.20], [24.20, 94.30], [22.40, 93.40], [22.10, 92.50], [23.70, 91.20],
+    [24.20, 92.40], [25.20, 89.90], [26.20, 88.20], [25.20, 88.30], [22.80, 88.20],
+    [21.70, 87.10], [19.20, 84.90], [16.10, 81.90], [13.50, 80.40], [10.90, 79.50],
+    [8.05, 77.55], [8.50, 76.50], [11.50, 75.10], [15.20, 73.70], [18.90, 72.70],
+    [21.60, 72.30], [22.70, 69.40], [23.70, 68.50], [24.50, 68.60], [27.50, 69.90],
+    [29.50, 70.30], [31.20, 74.30], [32.50, 74.70], [33.50, 74.10], [34.50, 73.50],
+    [35.80, 74.10], [37.05, 74.50],
+  ];
 
   async function loadMap() {
     const loading = document.getElementById('aspMapLoading')!;
     try {
       const [json] = await Promise.all([
         get('channel-partner/map-view'),
-        loadGoogleMaps(),
+        loadLeaflet(),
       ]);
 
       if (!json?.data?.length) {
@@ -621,39 +647,47 @@ const supportTypes = [
 
       loading.classList.add('asp-hidden');
 
-      const g = (window as any).google;
+      const L = (window as any).L;
 
-      if (!gMap) {
-        gMap = new g.maps.Map(document.getElementById('aspMap'), {
-          center: { lat: 22.5937, lng: 78.9629 },
-          zoom: 5,
-          mapTypeControl: false,
-          streetViewControl: false,
-          fullscreenControl: true,
+      if (!leafletMap) {
+        leafletMap = L.map('aspMap', { zoomControl: true }).setView([22.5937, 78.9629], 5);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          maxZoom: 18,
+        }).addTo(leafletMap);
+
+        // India boundary overlay (Indian POV — unifies J&K visually with the rest of India).
+        L.polygon(INDIA_OUTLINE, {
+          color: '#049D65',
+          weight: 2.5,
+          opacity: 0.95,
+          fill: false,
+          interactive: false,
+        }).addTo(leafletMap);
+      } else {
+        leafletMap.eachLayer((l: any) => {
+          // Keep tile layer and the boundary polygon; remove only markers.
+          if (l._url || l instanceof L.Polygon) return;
+          l.remove();
         });
-        gInfoWindow = new g.maps.InfoWindow();
       }
-
-      gMarkers.forEach(m => m.setMap(null));
-      gMarkers = [];
 
       const isMobile = window.matchMedia('(max-width: 640px)').matches;
       const markerSize = isMobile ? 32 : 40;
-      const icon = {
-        url: '/icon-marker.svg',
-        scaledSize: new g.maps.Size(markerSize, markerSize),
-        anchor: new g.maps.Point(markerSize / 2, markerSize),
-      };
+      const customIcon = L.icon({
+        iconUrl: '/icon-marker.svg',
+        iconSize: [markerSize, markerSize],
+        iconAnchor: [markerSize / 2, markerSize],
+        popupAnchor: [0, -markerSize],
+      });
 
-      const bounds = new g.maps.LatLngBounds();
+      const bounds: [number, number][] = [];
 
       json.data.forEach((item: any) => {
         if (!item.latitude || !item.longitude) return;
-        const position = {
-          lat: parseFloat(item.latitude),
-          lng: parseFloat(item.longitude),
-        };
-        bounds.extend(position);
+        const lat = parseFloat(item.latitude);
+        const lng = parseFloat(item.longitude);
+        bounds.push([lat, lng]);
 
         const img = photo(item.photo);
         const popup = `
@@ -670,37 +704,24 @@ const supportTypes = [
             </div>
           </div>`;
 
-        const marker = new g.maps.Marker({ position, map: gMap, icon });
-        marker.addListener('click', () => {
-          gInfoWindow.setContent(popup);
-          gInfoWindow.open(gMap, marker);
-        });
-        gMarkers.push(marker);
+        L.marker([lat, lng], { icon: customIcon })
+          .addTo(leafletMap)
+          .bindPopup(popup, { maxWidth: 300 });
       });
 
-      if (gMarkers.length) gMap.fitBounds(bounds, { top: 40, right: 40, bottom: 40, left: 40 });
+      if (bounds.length) leafletMap.fitBounds(bounds, { padding: [40, 40] });
     } catch (e) {
       console.error('[asp] map load failed:', e);
       loading.classList.remove('asp-hidden');
-      loading.innerHTML = '<p style="color:#94a3b8;padding:60px 0;text-align:center">Could not load map. Check the browser console.</p>';
+      loading.innerHTML = '<p style="color:#94a3b8;padding:60px 0;text-align:center">Could not load map.</p>';
     }
   }
 
-  function loadGoogleMaps(): Promise<void> {
-    if ((window as any).google?.maps) return Promise.resolve();
+  function loadLeaflet(): Promise<void> {
+    if ((window as any).L) return Promise.resolve();
     return new Promise((resolve, reject) => {
-      const existing = document.getElementById('gmaps-sdk') as HTMLScriptElement | null;
-      if (existing) {
-        existing.addEventListener('load', () => resolve());
-        existing.addEventListener('error', reject);
-        return;
-      }
       const s = document.createElement('script');
-      s.id = 'gmaps-sdk';
-      // region=IN forces India's official boundary set — J&K shows as part of India.
-      s.src = `https://maps.googleapis.com/maps/api/js?key=${GMAPS_KEY}&region=IN`;
-      s.async = true;
-      s.defer = true;
+      s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
       s.onload = () => resolve();
       s.onerror = reject;
       document.head.appendChild(s);

@@ -680,7 +680,9 @@ const supportTypes = [
 
       if (gMarkers.length) gMap.fitBounds(bounds, { top: 40, right: 40, bottom: 40, left: 40 });
     } catch (e) {
-      loading.innerHTML = '<p style="color:#94a3b8;padding:60px 0;text-align:center">Could not load map.</p>';
+      console.error('[asp] map load failed:', e);
+      loading.classList.remove('asp-hidden');
+      loading.innerHTML = '<p style="color:#94a3b8;padding:60px 0;text-align:center">Could not load map. Check the browser console.</p>';
     }
   }
 

@@ -21,14 +21,21 @@ Receives contact-form submissions from the website, appends each lead to the
 
 ## Wire the website
 
-The website reads two env vars (set in **Cloudflare Pages → Settings → Environment Variables**, or in a local `.env.local`):
+All forms submit to the same-origin Cloudflare Pages Function at `/api/lead`, which
+forwards them to Apps Script. This keeps the Apps Script URL and token out of the
+client-side bundle.
+
+Set these in **Cloudflare Pages → Settings → Environment Variables**:
 
 ```
-PUBLIC_GAS_ENDPOINT=https://script.google.com/macros/s/AKfycb…/exec
-PUBLIC_FORM_TOKEN=any-random-string-here    # optional; see "Token check" below
+GAS_ENDPOINT=https://script.google.com/macros/s/AKfycb…/exec
+FORM_TOKEN=any-random-string-here    # optional but recommended
 ```
 
-Then redeploy. Both the contact form and the homepage quick-lead form will route through the live endpoint. When `PUBLIC_GAS_ENDPOINT` is unset, both forms fall back to opening the user's mail client (mailto) — never silently drops a lead.
+Then redeploy. All three forms (homepage quick lead, contact us, and datasheet
+bundle) route through `/api/lead`. If `GAS_ENDPOINT` is unset or the function is
+unavailable, the forms fall back to opening the user's mail client (mailto) —
+never silently drops a lead.
 
 `.env.example` at the repo root documents every supported var.
 
@@ -39,13 +46,11 @@ To stop randos POSTing directly to the `/exec` URL:
 1. In the Apps Script editor: **Project Settings → Script Properties → Add row**
    - Key: `FORM_TOKEN`
    - Value: any random string (e.g. `paste -d '' a 32-char string here`)
-2. Set `PUBLIC_FORM_TOKEN` in Cloudflare Pages env vars to the same value.
+2. Set `FORM_TOKEN` (without the `PUBLIC_` prefix) in Cloudflare Pages env vars to the same value.
 3. Redeploy the Apps Script (Deploy → Manage deployments → New version).
 4. Redeploy the website.
 
-Now requests without the matching token return `{"ok":false,"error":"forbidden"}` and don't write to the sheet.
-
-It's not a real secret (it ships in the page source) but it eliminates 99% of opportunistic abuse. For real bot protection, layer Cloudflare Turnstile on top.
+Now requests without the matching token return `{"ok":false,"error":"forbidden"}` and don't write to the sheet. The token is appended server-side by `/api/lead`, so it is not exposed to clients.
 
 ## Updating the script later
 

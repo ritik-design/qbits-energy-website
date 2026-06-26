@@ -148,17 +148,11 @@ const inquiryTypes = [
                 </button>
                 <p id="lead-status" class="text-sm mt-2 hidden" role="status" aria-live="polite"></p>
               </form>
-              <script is:inline define:vars={{
-                  GAS_ENDPOINT: import.meta.env.PUBLIC_GAS_ENDPOINT || 'REPLACE_WITH_DEPLOYED_APPS_SCRIPT_WEB_APP_URL',
-                  FORM_TOKEN: import.meta.env.PUBLIC_FORM_TOKEN || '',
-                }}>
+              <script is:inline>
                 (() => {
-                  // Set PUBLIC_GAS_ENDPOINT and PUBLIC_FORM_TOKEN in Cloudflare Pages env vars.
-                  // See google-apps-script/README.md for Apps Script setup.
-                  // Until GAS_ENDPOINT is configured, the form falls back to opening the user's mail
-                  // client with the form contents pre-filled - never silently drops a lead.
+                  const API_PATH = '/api/lead';
                   const FALLBACK_EMAIL = 'service@qbitsenergy.com';
-                  const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
+                  const SUCCESS_MESSAGE = 'Thanks! We’ll be in touch within 24 hours.';
 
                   const form   = document.getElementById('lead-form');
                   const status = document.getElementById('lead-status');
@@ -211,7 +205,7 @@ const inquiryTypes = [
                     if ((form.elements.namedItem('website') || {}).value) {
                       // Silently pretend success.
                       form.reset();
-                      showStatus('Thanks! We\u2019ll be in touch within 24 hours.', true);
+                      showStatus(SUCCESS_MESSAGE, true);
                       return;
                     }
 
@@ -221,7 +215,6 @@ const inquiryTypes = [
                     fd.append('page', location.pathname);
                     fd.append('userAgent', navigator.userAgent);
                     fd.append('submittedAt', new Date().toISOString());
-                    if (FORM_TOKEN) fd.append('token', FORM_TOKEN);
 
                     // Fire analytics event if GA is loaded.
                     if (typeof window.gtag === 'function') {
@@ -234,26 +227,22 @@ const inquiryTypes = [
                     setSending(true);
                     status.className = 'text-sm mt-2 hidden';
 
-                    // Fallback: Apps Script not configured yet → open mail client.
-                    if (!isConfigured) {
-                      window.location.href = buildMailto(fd);
-                      form.reset();
-                      showStatus('Opening your email app - please send the message to complete your inquiry.', true);
-                      setSending(false);
-                      return;
-                    }
-
                     try {
                       const body = new URLSearchParams(fd).toString();
-                      const res = await fetch(GAS_ENDPOINT, {
+                      const res = await fetch(API_PATH, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                         body,
                       });
                       const data = await res.json().catch(() => ({ ok: res.ok }));
+
                       if (data.ok) {
                         form.reset();
-                        showStatus('Thanks! We\u2019ll be in touch within 24 hours.', true);
+                        showStatus(SUCCESS_MESSAGE, true);
+                      } else if (data.mailto) {
+                        window.location.href = data.mailto;
+                        form.reset();
+                        showStatus('Opening your email app - please send the message to complete your inquiry.', true);
                       } else {
                         throw new Error(data.error || 'Submission failed');
                       }

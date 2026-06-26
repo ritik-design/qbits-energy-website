@@ -148,13 +148,11 @@ const hybridDocs = [
       </div>
     </section>
 
-    <script is:inline define:vars={{
-        GAS_ENDPOINT: import.meta.env.PUBLIC_GAS_ENDPOINT || 'REPLACE_WITH_DEPLOYED_APPS_SCRIPT_WEB_APP_URL',
-        FORM_TOKEN: import.meta.env.PUBLIC_FORM_TOKEN || '',
-      }}>
+    <script is:inline>
       (() => {
+        const API_PATH = '/api/lead';
         const FALLBACK_EMAIL = 'service@qbitsenergy.com';
-        const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
+        const SUCCESS_MESSAGE = 'Thanks! Bundle on its way to your inbox.';
         const form = document.getElementById('datasheet-bundle-form');
         if (!form) return;
         const status = document.getElementById('db-status');
@@ -186,7 +184,7 @@ const hybridDocs = [
           if (!form.reportValidity()) return;
           if ((form.elements.namedItem('website') || {}).value) {
             form.reset();
-            showStatus('Thanks! Bundle on its way to your inbox.', true);
+            showStatus(SUCCESS_MESSAGE, true);
             return;
           }
           const fd = new FormData(form);
@@ -198,30 +196,27 @@ const hybridDocs = [
           fd.append('source', 'datasheet-bundle');
           fd.append('page', location.pathname);
           fd.append('submittedAt', new Date().toISOString());
-          if (FORM_TOKEN) fd.append('token', FORM_TOKEN);
 
           if (typeof window.gtag === 'function') {
             window.gtag('event', 'generate_lead', { form_id: 'datasheet-bundle-form' });
           }
 
           setSending(true);
-          if (!isConfigured) {
-            window.location.href = buildMailto(fd);
-            form.reset();
-            showStatus('Opening your email app - please send to complete.', true);
-            setSending(false);
-            return;
-          }
           try {
-            const res = await fetch(GAS_ENDPOINT, {
+            const res = await fetch(API_PATH, {
               method: 'POST',
               headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
               body: new URLSearchParams(fd).toString(),
             });
             const data = await res.json().catch(() => ({ ok: res.ok }));
+
             if (data.ok) {
               form.reset();
               showStatus('Thanks! Bundle on its way to your inbox within minutes.', true);
+            } else if (data.mailto) {
+              window.location.href = data.mailto;
+              form.reset();
+              showStatus('Opening your email app - please send to complete.', true);
             } else {
               throw new Error(data.error || 'Submission failed');
             }

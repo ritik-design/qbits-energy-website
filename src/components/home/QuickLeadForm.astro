@@ -1,6 +1,6 @@
 ---
 // Quick lead form surfaced near the top of the homepage.
-// Submits via the same-origin Cloudflare Pages Function at /api/lead.
+// Posts directly to the Apps Script /exec endpoint with mode: 'no-cors'.
 ---
 
 <section class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 py-16 lg:py-24 border-t border-white/5" aria-labelledby="quick-lead-heading">
@@ -85,11 +85,14 @@
   </div>
 </section>
 
-<script is:inline>
+<script is:inline define:vars={{
+    GAS_ENDPOINT: import.meta.env.PUBLIC_GAS_ENDPOINT || '',
+    FORM_TOKEN: import.meta.env.PUBLIC_FORM_TOKEN || '',
+  }}>
   (() => {
-    const API_PATH = '/api/lead';
     const FALLBACK_EMAIL = 'service@qbitsenergy.com';
     const SUCCESS_MESSAGE = 'Thanks! We will call you within one business day.';
+    const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
 
     const form = document.getElementById('quick-lead-form');
     if (!form) return;
@@ -125,7 +128,6 @@
       e.preventDefault();
       if (!form.reportValidity()) return;
 
-      // Honeypot: bots fill this; humans never see it.
       if ((form.elements.namedItem('website') || {}).value) {
         form.reset();
         showStatus(SUCCESS_MESSAGE, true);
@@ -141,30 +143,34 @@
       fd.append('source', 'home-quick-lead');
       fd.append('page', location.pathname);
       fd.append('submittedAt', new Date().toISOString());
+      if (FORM_TOKEN) fd.append('token', FORM_TOKEN);
 
       if (typeof window.gtag === 'function') {
         window.gtag('event', 'generate_lead', { form_id: 'quick-lead-form' });
       }
 
       setSending(true);
+
+      if (!isConfigured) {
+        window.location.href = buildMailto(fd);
+        form.reset();
+        showStatus('Opening your email app - please send to complete.', true);
+        setSending(false);
+        return;
+      }
+
       try {
-        const res = await fetch(API_PATH, {
+        // no-cors: Apps Script redirects /exec to googleusercontent.com, which
+        // can't be read cross-origin. The POST still reaches the script and
+        // the lead is written + email sent server-side.
+        await fetch(GAS_ENDPOINT, {
           method: 'POST',
+          mode: 'no-cors',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: new URLSearchParams(fd).toString(),
         });
-        const data = await res.json().catch(() => ({ ok: res.ok }));
-
-        if (data.ok) {
-          form.reset();
-          showStatus(SUCCESS_MESSAGE, true);
-        } else if (data.mailto) {
-          window.location.href = data.mailto;
-          form.reset();
-          showStatus('Opening your email app - please send to complete.', true);
-        } else {
-          throw new Error(data.error || 'Submission failed');
-        }
+        form.reset();
+        showStatus(SUCCESS_MESSAGE, true);
       } catch (err) {
         console.error(err);
         window.location.href = buildMailto(fd);

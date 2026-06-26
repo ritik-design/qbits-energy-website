@@ -147,11 +147,14 @@ const inquiryTypes = [
                 </button>
                 <p id="lead-status" class="text-sm mt-2 hidden" role="status" aria-live="polite"></p>
               </form>
-              <script is:inline>
+              <script is:inline define:vars={{
+                  GAS_ENDPOINT: import.meta.env.PUBLIC_GAS_ENDPOINT || '',
+                  FORM_TOKEN: import.meta.env.PUBLIC_FORM_TOKEN || '',
+                }}>
                 (() => {
-                  const API_PATH = '/api/lead';
                   const FALLBACK_EMAIL = 'service@qbitsenergy.com';
-                  const SUCCESS_MESSAGE = 'Thanks! We’ll be in touch within 24 hours.';
+                  const SUCCESS_MESSAGE = 'Thanks! We\u2019ll be in touch within 24 hours.';
+                  const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
 
                   const form   = document.getElementById('lead-form');
                   const status = document.getElementById('lead-status');
@@ -166,56 +169,46 @@ const inquiryTypes = [
                   };
 
                   const showStatus = (msg, ok) => {
+                    status.classList.remove('hidden');
                     status.textContent = msg;
                     status.className = 'text-sm mt-2 ' + (ok ? 'text-emerald-600' : 'text-rose-600');
                   };
 
-                  const trimFD = (fd) => {
-                    ['name', 'email', 'message', 'phone'].forEach((k) => {
-                      const v = fd.get(k);
-                      if (typeof v === 'string') fd.set(k, v.trim());
-                    });
-                    return fd;
-                  };
-
                   const buildMailto = (fd) => {
-                    const name = fd.get('name') || '';
-                    const email = fd.get('email') || '';
-                    const phone = fd.get('phone') || '';
                     const subject = fd.get('subject') || 'Inquiry from qbitsenergy.com';
-                    const message = fd.get('message') || '';
                     const body =
-                      'Name: ' + name + '\n' +
-                      'Email: ' + email + '\n' +
-                      'Phone: ' + phone + '\n\n' +
-                      message;
+                      'Name: ' + (fd.get('name') || '') + '\n' +
+                      'Email: ' + (fd.get('email') || '') + '\n' +
+                      'Phone: ' + (fd.get('phone') || '') + '\n\n' +
+                      (fd.get('message') || '');
                     return 'mailto:' + FALLBACK_EMAIL +
                       '?subject=' + encodeURIComponent(subject) +
                       '&body=' + encodeURIComponent(body);
                   };
 
-                  // Override the native mailto action with JS submit handler.
-                  // The form `action="mailto:..."` is the no-JS fallback only.
                   form.addEventListener('submit', async (e) => {
                     e.preventDefault();
                     if (!form.reportValidity()) return;
 
-                    // Honeypot: bots fill this; humans never see it.
+                    // Honeypot - silently succeed for bots.
                     if ((form.elements.namedItem('website') || {}).value) {
-                      // Silently pretend success.
                       form.reset();
                       showStatus(SUCCESS_MESSAGE, true);
                       return;
                     }
 
-                    const fd = trimFD(new FormData(form));
+                    const fd = new FormData(form);
+                    ['name', 'email', 'message', 'phone'].forEach((k) => {
+                      const v = fd.get(k);
+                      if (typeof v === 'string') fd.set(k, v.trim());
+                    });
                     fd.delete('website');
                     fd.append('source', 'contact-form');
                     fd.append('page', location.pathname);
                     fd.append('userAgent', navigator.userAgent);
                     fd.append('submittedAt', new Date().toISOString());
+                    if (FORM_TOKEN) fd.append('token', FORM_TOKEN);
 
-                    // Fire analytics event if GA is loaded.
                     if (typeof window.gtag === 'function') {
                       window.gtag('event', 'form_submit', {
                         form_id: 'lead-form',
@@ -224,32 +217,34 @@ const inquiryTypes = [
                     }
 
                     setSending(true);
-                    status.className = 'text-sm mt-2 hidden';
+
+                    // No endpoint configured - hand off to the user's mail client.
+                    if (!isConfigured) {
+                      window.location.href = buildMailto(fd);
+                      form.reset();
+                      showStatus('Opening your email app - please send to complete.', true);
+                      setSending(false);
+                      return;
+                    }
 
                     try {
-                      const body = new URLSearchParams(fd).toString();
-                      const res = await fetch(API_PATH, {
+                      // no-cors: Apps Script /exec redirects to googleusercontent.com and
+                      // the redirected response can't be read cross-origin. The POST itself
+                      // still reaches the script - row is appended + notification email sent
+                      // server-side. We just don't try to read an opaque response body.
+                      await fetch(GAS_ENDPOINT, {
                         method: 'POST',
+                        mode: 'no-cors',
                         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                        body,
+                        body: new URLSearchParams(fd).toString(),
                       });
-                      const data = await res.json().catch(() => ({ ok: res.ok }));
-
-                      if (data.ok) {
-                        form.reset();
-                        showStatus(SUCCESS_MESSAGE, true);
-                      } else if (data.mailto) {
-                        window.location.href = data.mailto;
-                        form.reset();
-                        showStatus('Opening your email app - please send the message to complete your inquiry.', true);
-                      } else {
-                        throw new Error(data.error || 'Submission failed');
-                      }
+                      form.reset();
+                      showStatus(SUCCESS_MESSAGE, true);
                     } catch (err) {
                       console.error(err);
                       window.location.href = buildMailto(fd);
                       form.reset();
-                      showStatus('Network issue - opening your email app instead. Please send to complete.', false);
+                      showStatus('Network issue - opening your email app instead.', false);
                     } finally {
                       setSending(false);
                     }

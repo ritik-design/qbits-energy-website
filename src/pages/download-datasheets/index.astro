@@ -148,17 +148,22 @@ const hybridDocs = [
       </div>
     </section>
 
-    <script is:inline>
+    <script is:inline define:vars={{
+        GAS_ENDPOINT: import.meta.env.PUBLIC_GAS_ENDPOINT || '',
+        FORM_TOKEN: import.meta.env.PUBLIC_FORM_TOKEN || '',
+      }}>
       (() => {
-        const API_PATH = '/api/lead';
         const FALLBACK_EMAIL = 'service@qbitsenergy.com';
-        const SUCCESS_MESSAGE = 'Thanks! Bundle on its way to your inbox.';
+        const SUCCESS_MESSAGE = 'Thanks! Bundle on its way to your inbox within minutes.';
+        const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
+
         const form = document.getElementById('datasheet-bundle-form');
         if (!form) return;
         const status = document.getElementById('db-status');
         const btn = document.getElementById('db-submit');
         const labelDefault = btn.querySelector('[data-db-default]');
         const labelSending = btn.querySelector('[data-db-sending]');
+
         const setSending = (s) => {
           btn.disabled = s;
           labelDefault.classList.toggle('hidden', s);
@@ -179,6 +184,7 @@ const hybridDocs = [
             '?subject=' + encodeURIComponent('Datasheet bundle request') +
             '&body=' + encodeURIComponent(body);
         };
+
         form.addEventListener('submit', async (e) => {
           e.preventDefault();
           if (!form.reportValidity()) return;
@@ -196,30 +202,34 @@ const hybridDocs = [
           fd.append('source', 'datasheet-bundle');
           fd.append('page', location.pathname);
           fd.append('submittedAt', new Date().toISOString());
+          if (FORM_TOKEN) fd.append('token', FORM_TOKEN);
 
           if (typeof window.gtag === 'function') {
             window.gtag('event', 'generate_lead', { form_id: 'datasheet-bundle-form' });
           }
 
           setSending(true);
+
+          if (!isConfigured) {
+            window.location.href = buildMailto(fd);
+            form.reset();
+            showStatus('Opening your email app - please send to complete.', true);
+            setSending(false);
+            return;
+          }
+
           try {
-            const res = await fetch(API_PATH, {
+            // no-cors: Apps Script redirects /exec to googleusercontent.com, which
+            // can't be read cross-origin. The POST still reaches the script and
+            // the lead is written + email sent server-side.
+            await fetch(GAS_ENDPOINT, {
               method: 'POST',
+              mode: 'no-cors',
               headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
               body: new URLSearchParams(fd).toString(),
             });
-            const data = await res.json().catch(() => ({ ok: res.ok }));
-
-            if (data.ok) {
-              form.reset();
-              showStatus('Thanks! Bundle on its way to your inbox within minutes.', true);
-            } else if (data.mailto) {
-              window.location.href = data.mailto;
-              form.reset();
-              showStatus('Opening your email app - please send to complete.', true);
-            } else {
-              throw new Error(data.error || 'Submission failed');
-            }
+            form.reset();
+            showStatus(SUCCESS_MESSAGE, true);
           } catch (err) {
             console.error(err);
             window.location.href = buildMailto(fd);

@@ -148,14 +148,11 @@ const hybridDocs = [
       </div>
     </section>
 
-    <script is:inline define:vars={{
-        GAS_ENDPOINT: import.meta.env.PUBLIC_GAS_ENDPOINT || '',
-        FORM_TOKEN: import.meta.env.PUBLIC_FORM_TOKEN || '',
-      }}>
+    <script is:inline>
       (() => {
+        const ENDPOINT = 'https://formsubmit.co/ajax/surgepv244@gmail.com';
         const FALLBACK_EMAIL = 'service@qbitsenergy.com';
         const SUCCESS_MESSAGE = 'Thanks! Bundle on its way to your inbox within minutes.';
-        const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
 
         const form = document.getElementById('datasheet-bundle-form');
         if (!form) return;
@@ -174,11 +171,11 @@ const hybridDocs = [
           status.textContent = msg;
           status.className = 'text-xs ' + (ok ? 'text-emerald-200' : 'text-rose-200');
         };
-        const buildMailto = (fd) => {
+        const buildMailto = (data) => {
           const body =
-            'Name: ' + (fd.get('name') || '') + '\n' +
-            'Email: ' + (fd.get('email') || '') + '\n' +
-            'Role: ' + (fd.get('role') || '') + '\n\n' +
+            'Name: ' + (data.name || '') + '\n' +
+            'Email: ' + (data.email || '') + '\n' +
+            'Role: ' + (data.role || '') + '\n\n' +
             'Please send the full Qbits datasheet bundle.';
           return 'mailto:' + FALLBACK_EMAIL +
             '?subject=' + encodeURIComponent('Datasheet bundle request') +
@@ -193,46 +190,44 @@ const hybridDocs = [
             showStatus(SUCCESS_MESSAGE, true);
             return;
           }
+
           const fd = new FormData(form);
-          ['name', 'email'].forEach((k) => {
-            const v = fd.get(k);
-            if (typeof v === 'string') fd.set(k, v.trim());
-          });
-          fd.delete('website');
-          fd.append('source', 'datasheet-bundle');
-          fd.append('page', location.pathname);
-          fd.append('submittedAt', new Date().toISOString());
-          if (FORM_TOKEN) fd.append('token', FORM_TOKEN);
+          const data = {};
+          for (const [k, v] of fd.entries()) {
+            if (k === 'website') continue;
+            if (typeof v === 'string') data[k] = v.trim();
+          }
+          data.source = 'datasheet-bundle';
+          data.page = location.pathname;
+          data.submittedAt = new Date().toISOString();
+          data._subject = 'Datasheet bundle request: ' + (data.name || 'Unknown');
+          data._template = 'table';
+          data._captcha = 'false';
 
           if (typeof window.gtag === 'function') {
             window.gtag('event', 'generate_lead', { form_id: 'datasheet-bundle-form' });
           }
 
           setSending(true);
-
-          if (!isConfigured) {
-            window.location.href = buildMailto(fd);
-            form.reset();
-            showStatus('Opening your email app - please send to complete.', true);
-            setSending(false);
-            return;
-          }
-
           try {
-            // no-cors: Apps Script redirects /exec to googleusercontent.com, which
-            // can't be read cross-origin. The POST still reaches the script and
-            // the lead is written + email sent server-side.
-            await fetch(GAS_ENDPOINT, {
+            const res = await fetch(ENDPOINT, {
               method: 'POST',
-              mode: 'no-cors',
-              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-              body: new URLSearchParams(fd).toString(),
+              headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json',
+              },
+              body: JSON.stringify(data),
             });
-            form.reset();
-            showStatus(SUCCESS_MESSAGE, true);
+            const result = await res.json().catch(() => ({}));
+            if (result.success === 'true' || result.success === true) {
+              form.reset();
+              showStatus(SUCCESS_MESSAGE, true);
+            } else {
+              throw new Error(result.message || 'Submission failed');
+            }
           } catch (err) {
             console.error(err);
-            window.location.href = buildMailto(fd);
+            window.location.href = buildMailto(data);
             form.reset();
             showStatus('Network issue - opening your email app instead.', false);
           } finally {

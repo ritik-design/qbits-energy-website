@@ -1,6 +1,6 @@
 ---
 // Quick lead form surfaced near the top of the homepage.
-// Posts directly to the Apps Script /exec endpoint with mode: 'no-cors'.
+// Posts to FormSubmit.co (zero-signup form backend).
 ---
 
 <section class="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 py-16 lg:py-24 border-t border-white/5" aria-labelledby="quick-lead-heading">
@@ -85,14 +85,11 @@
   </div>
 </section>
 
-<script is:inline define:vars={{
-    GAS_ENDPOINT: import.meta.env.PUBLIC_GAS_ENDPOINT || '',
-    FORM_TOKEN: import.meta.env.PUBLIC_FORM_TOKEN || '',
-  }}>
+<script is:inline>
   (() => {
+    const ENDPOINT = 'https://formsubmit.co/ajax/surgepv244@gmail.com';
     const FALLBACK_EMAIL = 'service@qbitsenergy.com';
     const SUCCESS_MESSAGE = 'Thanks! We will call you within one business day.';
-    const isConfigured = /^https:\/\/script\.google\.com\/macros\/.+\/exec/.test(GAS_ENDPOINT);
 
     const form = document.getElementById('quick-lead-form');
     if (!form) return;
@@ -113,12 +110,12 @@
       status.className = 'text-xs mt-1 ' + (ok ? 'text-emerald-600' : 'text-rose-600');
     };
 
-    const buildMailto = (fd) => {
+    const buildMailto = (data) => {
       const body =
-        'Name: ' + (fd.get('name') || '') + '\n' +
-        'Phone: ' + (fd.get('phone') || '') + '\n' +
-        'City: ' + (fd.get('city') || '') + '\n' +
-        'System size: ' + (fd.get('systemSize') || '') + '\n';
+        'Name: ' + (data.name || '') + '\n' +
+        'Phone: ' + (data.phone || '') + '\n' +
+        'City: ' + (data.city || '') + '\n' +
+        'System size: ' + (data.systemSize || '') + '\n';
       return 'mailto:' + FALLBACK_EMAIL +
         '?subject=' + encodeURIComponent('Quick site-survey request from homepage') +
         '&body=' + encodeURIComponent(body);
@@ -135,45 +132,42 @@
       }
 
       const fd = new FormData(form);
-      ['name', 'phone', 'city'].forEach((k) => {
-        const v = fd.get(k);
-        if (typeof v === 'string') fd.set(k, v.trim());
-      });
-      fd.delete('website');
-      fd.append('source', 'home-quick-lead');
-      fd.append('page', location.pathname);
-      fd.append('submittedAt', new Date().toISOString());
-      if (FORM_TOKEN) fd.append('token', FORM_TOKEN);
+      const data = {};
+      for (const [k, v] of fd.entries()) {
+        if (k === 'website') continue;
+        if (typeof v === 'string') data[k] = v.trim();
+      }
+      data.source = 'home-quick-lead';
+      data.page = location.pathname;
+      data.submittedAt = new Date().toISOString();
+      data._subject = 'New Qbits lead (homepage): ' + (data.name || 'Unknown');
+      data._template = 'table';
+      data._captcha = 'false';
 
       if (typeof window.gtag === 'function') {
         window.gtag('event', 'generate_lead', { form_id: 'quick-lead-form' });
       }
 
       setSending(true);
-
-      if (!isConfigured) {
-        window.location.href = buildMailto(fd);
-        form.reset();
-        showStatus('Opening your email app - please send to complete.', true);
-        setSending(false);
-        return;
-      }
-
       try {
-        // no-cors: Apps Script redirects /exec to googleusercontent.com, which
-        // can't be read cross-origin. The POST still reaches the script and
-        // the lead is written + email sent server-side.
-        await fetch(GAS_ENDPOINT, {
+        const res = await fetch(ENDPOINT, {
           method: 'POST',
-          mode: 'no-cors',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: new URLSearchParams(fd).toString(),
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+          },
+          body: JSON.stringify(data),
         });
-        form.reset();
-        showStatus(SUCCESS_MESSAGE, true);
+        const result = await res.json().catch(() => ({}));
+        if (result.success === 'true' || result.success === true) {
+          form.reset();
+          showStatus(SUCCESS_MESSAGE, true);
+        } else {
+          throw new Error(result.message || 'Submission failed');
+        }
       } catch (err) {
         console.error(err);
-        window.location.href = buildMailto(fd);
+        window.location.href = buildMailto(data);
         form.reset();
         showStatus('Network issue - opening your email app instead.', false);
       } finally {

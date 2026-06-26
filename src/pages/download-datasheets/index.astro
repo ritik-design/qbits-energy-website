@@ -151,8 +151,8 @@ const hybridDocs = [
     <script is:inline>
       (() => {
         const ENDPOINT = 'https://formsubmit.co/ajax/surgepv244@gmail.com';
-        const FALLBACK_EMAIL = 'service@qbitsenergy.com';
         const SUCCESS_MESSAGE = 'Thanks! Bundle on its way to your inbox within minutes.';
+        const ERROR_MESSAGE = 'Couldn\u2019t send your request. Please email service@qbitsenergy.com.';
 
         const form = document.getElementById('datasheet-bundle-form');
         if (!form) return;
@@ -171,20 +171,13 @@ const hybridDocs = [
           status.textContent = msg;
           status.className = 'text-xs ' + (ok ? 'text-emerald-200' : 'text-rose-200');
         };
-        const buildMailto = (data) => {
-          const body =
-            'Name: ' + (data.name || '') + '\n' +
-            'Email: ' + (data.email || '') + '\n' +
-            'Role: ' + (data.role || '') + '\n\n' +
-            'Please send the full Qbits datasheet bundle.';
-          return 'mailto:' + FALLBACK_EMAIL +
-            '?subject=' + encodeURIComponent('Datasheet bundle request') +
-            '&body=' + encodeURIComponent(body);
-        };
 
         form.addEventListener('submit', async (e) => {
           e.preventDefault();
-          if (!form.reportValidity()) return;
+          if (!form.checkValidity()) {
+            form.reportValidity();
+            return;
+          }
           if ((form.elements.namedItem('website') || {}).value) {
             form.reset();
             showStatus(SUCCESS_MESSAGE, true);
@@ -226,10 +219,8 @@ const hybridDocs = [
               throw new Error(result.message || 'Submission failed');
             }
           } catch (err) {
-            console.error(err);
-            window.location.href = buildMailto(data);
-            form.reset();
-            showStatus('Network issue - opening your email app instead.', false);
+            console.error('Datasheet bundle submission failed:', err);
+            showStatus(ERROR_MESSAGE, false);
           } finally {
             setSending(false);
           }

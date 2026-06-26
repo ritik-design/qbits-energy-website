@@ -88,8 +88,8 @@
 <script is:inline>
   (() => {
     const ENDPOINT = 'https://formsubmit.co/ajax/surgepv244@gmail.com';
-    const FALLBACK_EMAIL = 'service@qbitsenergy.com';
     const SUCCESS_MESSAGE = 'Thanks! We will call you within one business day.';
+    const ERROR_MESSAGE = 'Couldn\u2019t send your request. Please call +91 99791 92935.';
 
     const form = document.getElementById('quick-lead-form');
     if (!form) return;
@@ -110,20 +110,12 @@
       status.className = 'text-xs mt-1 ' + (ok ? 'text-emerald-600' : 'text-rose-600');
     };
 
-    const buildMailto = (data) => {
-      const body =
-        'Name: ' + (data.name || '') + '\n' +
-        'Phone: ' + (data.phone || '') + '\n' +
-        'City: ' + (data.city || '') + '\n' +
-        'System size: ' + (data.systemSize || '') + '\n';
-      return 'mailto:' + FALLBACK_EMAIL +
-        '?subject=' + encodeURIComponent('Quick site-survey request from homepage') +
-        '&body=' + encodeURIComponent(body);
-    };
-
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      if (!form.reportValidity()) return;
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
 
       if ((form.elements.namedItem('website') || {}).value) {
         form.reset();
@@ -166,10 +158,8 @@
           throw new Error(result.message || 'Submission failed');
         }
       } catch (err) {
-        console.error(err);
-        window.location.href = buildMailto(data);
-        form.reset();
-        showStatus('Network issue - opening your email app instead.', false);
+        console.error('Quick-lead submission failed:', err);
+        showStatus(ERROR_MESSAGE, false);
       } finally {
         setSending(false);
       }

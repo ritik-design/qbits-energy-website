@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/3kw-vs-5kw-vs-10kw-solar-inverters.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - 3kw solar system price
   - 3kw solar system price in india

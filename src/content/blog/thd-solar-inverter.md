@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-specifications-decoded.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - what is thd in inverter
   - total harmonic distortion solar inverter

@@ -63,6 +63,7 @@ faqs:
     a: "Slightly. HJT modules often have slightly lower NOCT than PERC."
   - q: "Why is NOCT 800 W/m²?"
     a: "Reflects typical real-world irradiance during operation (less than STC's 1000 W/m²)."
+author: "Nirav Dhanani"
 ---
 
 ## What is NOCT

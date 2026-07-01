@@ -63,6 +63,7 @@ faqs:
     a: "Day one. Customer pays less per unit immediately. The longer the contract, the higher the cumulative savings against retail."
   - q: "What is the cost of a RESCO system to the customer?"
     a: "Zero upfront. Only the monthly PPA bill for electricity consumed."
+author: "Akash Hirapara"
 ---
 
 ## What is RESCO

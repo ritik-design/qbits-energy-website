@@ -63,6 +63,7 @@ faqs:
     a: "No, but distant cash flows are heavily discounted. 25-year solar may discount year 25 cash flow by 80-90 percent."
   - q: "Is NPV bankable?"
     a: "NPV depends on yield, opex and tariff assumptions. P90-based NPV is bankable for lenders."
+author: "Nirav Dhanani"
 ---
 
 ## What is NPV

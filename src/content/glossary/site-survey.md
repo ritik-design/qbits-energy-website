@@ -63,6 +63,7 @@ faqs:
     a: "Summary document from site survey including roof analysis, shading, recommended capacity, expected generation and indicative cost."
   - q: "Can a survey be done remotely?"
     a: "Partially. Google Earth and satellite imagery support initial assessment. Final design requires on-site visit."
+author: "Nirav Dhanani"
 ---
 
 ## What is a site survey

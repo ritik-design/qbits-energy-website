@@ -63,6 +63,7 @@ faqs:
     a: "Modern FRT-compliant inverters are designed to withstand the thermal and current stress of riding through faults. Older non-FRT inverters can suffer DC bus capacitor failure."
   - q: "What standards govern FRT in India?"
     a: "CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019, IS 17387 and IEC 61400-27."
+author: "Keyur Rakholiya"
 ---
 
 ## What is fault ride through

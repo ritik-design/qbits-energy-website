@@ -63,6 +63,7 @@ faqs:
     a: "Yes positively. Reduces effective capex, improving project IRR."
   - q: "What is the future of VGF?"
     a: "Likely expansion to cover round-the-clock renewable, hybrid wind-solar-storage and possibly green hydrogen production."
+author: "Akash Hirapara"
 ---
 
 ## What is Viability Gap Funding

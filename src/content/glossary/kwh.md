@@ -63,6 +63,7 @@ faqs:
     a: "Recording electricity consumption in kWh. Basis of all retail electricity billing."
   - q: "How accurate is kWh measurement?"
     a: "Class 1.0 meter: ±1 percent. Class 0.5S: ±0.5 percent. Class 0.2S: ±0.2 percent."
+author: "Nirav Dhanani"
 ---
 
 ## What is kWh

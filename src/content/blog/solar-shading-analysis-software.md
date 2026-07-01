@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
 image: "/blog-images/solar-shading-analysis-software.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar shading analysis software
   - 8760 hour shading

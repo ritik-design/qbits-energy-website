@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-sizing.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar for poultry farm india
   - poultry farm solar system india

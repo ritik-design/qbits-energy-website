@@ -65,6 +65,7 @@ faqs:
     a: "No. A UPS supplies backup AC from batteries during a power cut. An on grid inverter converts solar DC into AC for grid export and stops working when the grid is down."
   - q: "Do I need earthing for an on grid inverter?"
     a: "Yes. CEA regulations and IS 3043 require a dedicated earth electrode for the inverter chassis and a separate one for the PV array frame. Without proper earthing, residual current devices and surge protection will not work as intended."
+author: "Nirav Dhanani"
 ---
 
 ## What is an on grid inverter

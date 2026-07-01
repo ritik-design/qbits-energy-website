@@ -62,6 +62,7 @@ faqs:
     a: "10-15 years for residential string inverters, 20-25 years for microinverters and central inverters."
   - q: "Is sine wave inverter same as solar inverter?"
     a: "All modern solar inverters are sine wave. The term \"sine wave inverter\" emphasises waveform quality, particularly for off-grid and backup applications."
+author: "Nirav Dhanani"
 ---
 
 ## What is a sine wave inverter

@@ -63,6 +63,7 @@ faqs:
     a: "Yes. PR captures all losses including inverter conversion. Higher inverter efficiency improves PR."
   - q: "What is total system efficiency?"
     a: "PV × MPPT × inverter × cable × transformer. Total losses 15-25 percent from STC to grid."
+author: "Keyur Rakholiya"
 ---
 
 ## What is inverter efficiency

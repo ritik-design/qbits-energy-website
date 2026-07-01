@@ -5,7 +5,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "15 min"
 image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - mnre rooftop scheme
   - mnre rooftop solar scheme 2026

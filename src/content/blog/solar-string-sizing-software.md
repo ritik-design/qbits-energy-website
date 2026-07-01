@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
 image: "/blog-images/solar-string-sizing-software.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar string sizing software
   - solar string sizing calculator

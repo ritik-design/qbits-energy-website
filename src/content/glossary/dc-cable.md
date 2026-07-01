@@ -63,6 +63,7 @@ faqs:
     a: "₹25 to ₹65 per meter for 4 mm² to 16 mm² PV cable in 2026."
   - q: "Does cable need to be earthed?"
     a: "PV cable conductors are not earthed. The shielded variants have shield bonded to earth."
+author: "Nirav Dhanani"
 ---
 
 ## What is DC cable

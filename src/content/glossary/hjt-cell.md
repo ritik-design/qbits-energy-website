@@ -63,6 +63,7 @@ faqs:
     a: "Yes, intrinsically. HJT is the natural choice for premium bifacial installations."
   - q: "Where does HJT make the most sense?"
     a: "High-irradiance hot sites where temperature performance matters, premium rooftops where space is limited, EV solar where weight savings (thinner cells) matter."
+author: "Nirav Dhanani"
 ---
 
 ## What is an HJT cell

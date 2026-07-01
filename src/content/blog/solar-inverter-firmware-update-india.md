@@ -6,7 +6,7 @@ category: Technology
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-monitoring-systems-in-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter firmware update
   - inverter firmware update india

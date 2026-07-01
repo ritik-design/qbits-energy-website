@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-05-11
 readTime: "12 min"
 image: "/blog-images/solar-inverter-grounding.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter grounding india
   - earthing IS 3043

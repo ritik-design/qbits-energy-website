@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "15 min"
 image: "/blog-images/inverter-mppt.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - mppt vs pwm
   - mppt charge controller

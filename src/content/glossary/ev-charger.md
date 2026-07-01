@@ -63,6 +63,7 @@ faqs:
     a: "Off-peak rates are 25 to 30 percent lower than peak. Smart chargers shift charging to off-peak hours automatically."
   - q: "Are there standards for plug types?"
     a: "Yes. Type 2 AC, CCS-2 DC, CHAdeMO are global standards. Bharat AC-001 and DC-001 are Indian-specific."
+author: "Nirav Dhanani"
 ---
 
 ## What is an EV charger

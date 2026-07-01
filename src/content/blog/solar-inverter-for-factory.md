@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-sizing.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter for factory
   - industrial solar inverter India

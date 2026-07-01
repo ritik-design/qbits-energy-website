@@ -63,6 +63,7 @@ faqs:
     a: "MNRE-led mission with ₹19,744 crore outlay to make India a global green hydrogen hub, targeting 5 million tonnes of annual green hydrogen production by 2030."
   - q: "How does MNRE engage with state governments?"
     a: "Through state nodal agencies for renewable energy, state DISCOMs, and through joint schemes with state contribution components."
+author: "Nirav Dhanani"
 ---
 
 ## What is MNRE

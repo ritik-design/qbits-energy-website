@@ -64,6 +64,7 @@ faqs:
     a: "1000 to 1500 V DC. The trend is toward 1500 V to reduce DC cable losses and increase string length."
   - q: "Are central inverters cheaper than string per watt?"
     a: "They were cheaper by 15 to 25 percent before 2020. By 2025 the price gap has shrunk to 5 to 10 percent, and many developers consider string the better lifecycle cost option."
+author: "Nirav Dhanani"
 ---
 
 ## What is a central inverter

@@ -63,6 +63,7 @@ faqs:
     a: "Front side of IBC has no busbars (all contacts on rear). Rear has back contacts in interdigitated pattern."
   - q: "What is the future of busbars?"
     a: "Trend toward fewer/thinner busbars, eventually zero-busbar with direct wire soldering. Higher cell efficiency potential."
+author: "Nirav Dhanani"
 ---
 
 ## What is a busbar

@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-05-07
 readTime: "12 min"
 image: "/blog-images/essential-vs-advanced-solar-inverter-features.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter features india
   - inverter feature comparison

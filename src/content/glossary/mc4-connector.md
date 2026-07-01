@@ -63,6 +63,7 @@ faqs:
     a: "Yes for the PV-side connection. AC side uses microinverter-specific connectors."
   - q: "What is Stäubli MC4-Evo?"
     a: "Newer generation with improved sealing, current rating up to 35 A and 1500 V DC."
+author: "Nirav Dhanani"
 ---
 
 ## What is an MC4 connector

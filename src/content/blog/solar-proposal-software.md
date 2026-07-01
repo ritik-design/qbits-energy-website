@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "13 min"
 image: "/blog-images/solar-proposal-software.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar proposal software
   - solar proposal tool

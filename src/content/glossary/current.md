@@ -63,6 +63,7 @@ faqs:
     a: "Current that returns through an unintended path, often through earth. RCCB detects this and trips."
   - q: "What is the safe current for humans?"
     a: "Below 10 mA causes mild shock. Above 30 mA can cause cardiac arrest. RCCB trip threshold is typically 30 mA for personal protection."
+author: "Nirav Dhanani"
 ---
 
 ## What is current

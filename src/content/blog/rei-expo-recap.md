@@ -6,7 +6,7 @@ category: Industry
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-epc-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - rei 2026 recap
   - REI Expo 2026 solar trends

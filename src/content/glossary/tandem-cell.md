@@ -63,6 +63,7 @@ faqs:
     a: "Initial commercial tandems target 25-year linear performance warranty, matching silicon."
   - q: "Will tandems replace silicon?"
     a: "Not replace, augment. Tandem perovskite-silicon uses silicon as bottom cell. Pure perovskite cells will also play role."
+author: "Nirav Dhanani"
 ---
 
 ## What is a tandem cell

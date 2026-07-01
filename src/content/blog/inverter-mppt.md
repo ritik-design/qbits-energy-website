@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-05-06
 readTime: "11 min"
 image: "/blog-images/inverter-mppt.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - inverter MPPT
   - MPPT tracking efficiency

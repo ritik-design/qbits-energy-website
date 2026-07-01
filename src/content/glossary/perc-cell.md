@@ -63,6 +63,7 @@ faqs:
     a: "PERC cells are intrinsically capable of bifacial operation. Whether a module is bifacial depends on the back sheet or back glass."
   - q: "Why has PERC declined?"
     a: "TOPCon delivers better efficiency at similar cost as Chinese and Indian fab capacity moved to TOPCon from 2023 onward."
+author: "Nirav Dhanani"
 ---
 
 ## What is a PERC cell

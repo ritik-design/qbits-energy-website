@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-05-06
 readTime: "12 min"
 image: "/blog-images/inverter-financing-options-in-india.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar inverter financing india
   - solar EMI scheme

@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-06-05
 readTime: "24 min"
 image: "/blog-images/solar-inverter-sizing.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter for water pump
   - KUSUM solar pump

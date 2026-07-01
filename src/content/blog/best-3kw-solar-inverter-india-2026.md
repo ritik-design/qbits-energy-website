@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "23 min"
 image: "/blog-images/3kw-vs-5kw-vs-10kw-solar-inverters.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - best 3kw solar inverter
   - best 3kw solar inverter india

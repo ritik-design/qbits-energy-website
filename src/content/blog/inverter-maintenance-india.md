@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-03-22
 readTime: "13 min"
 image: "/blog-images/inverter-maintenance-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - inverter maintenance India
   - preventive maintenance solar

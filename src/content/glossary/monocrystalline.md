@@ -63,6 +63,7 @@ faqs:
     a: "Waaree, Adani Green Solar, Tata Power Solar, Vikram Solar, Goldi Solar, Premier Energies, RenewSys, Saatvik Green Energy and a growing list."
   - q: "What is bifacial mono?"
     a: "Monocrystalline cells with transparent or clear back sheet that allow rear-side light absorption, boosting energy yield by 5 to 25 percent depending on installation."
+author: "Nirav Dhanani"
 ---
 
 ## What is a monocrystalline panel

@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-05-08
 readTime: "16 min"
 image: "/blog-images/inverter-tco.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - inverter total cost of ownership
   - inverter TCO india

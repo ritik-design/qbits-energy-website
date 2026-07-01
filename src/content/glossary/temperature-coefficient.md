@@ -63,6 +63,7 @@ faqs:
     a: "Yes. Voc coefficient drives cold-temperature string Voc check. Pmax coefficient affects hot-temperature yield."
   - q: "Is lower coefficient worth premium?"
     a: "In hot Indian climates: yes. HJT's better coefficient provides 2-4 percent more annual yield in dry hot regions."
+author: "Nirav Dhanani"
 ---
 
 ## What is temperature coefficient

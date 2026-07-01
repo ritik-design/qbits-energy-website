@@ -63,6 +63,7 @@ faqs:
     a: "Some perovskite formulations contain lead. Lead-free alternatives in development. Sealed module prevents lead release in normal operation."
   - q: "What is the future of perovskite in India?"
     a: "Initially imported tandem modules. Domestic manufacturing through PLI Tranche II and III. R&D growing in IIT and CSIR institutes."
+author: "Nirav Dhanani"
 ---
 
 ## What is perovskite

@@ -64,6 +64,7 @@ faqs:
     a: "Annual IV curve at standardised conditions, compared to commissioning baseline. Difference attributed to ageing."
   - q: "What is the warranty curve?"
     a: "A linear or step function defining the minimum guaranteed output over time. Manufacturers honour replacement if actual output falls below the curve."
+author: "Nirav Dhanani"
 ---
 
 ## What is module degradation

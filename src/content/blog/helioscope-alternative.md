@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "12 min"
 image: "/blog-images/helioscope-alternative.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - helioscope alternative
   - helioscope competitors

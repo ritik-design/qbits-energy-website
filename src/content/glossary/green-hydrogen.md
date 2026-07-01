@@ -63,6 +63,7 @@ faqs:
     a: "Solar electricity is the lowest-cost renewable for electrolysis. India's solar resource makes green hydrogen economically viable."
   - q: "When does green hydrogen become economic?"
     a: "Cost parity with grey hydrogen expected around 2030 with electrolyser cost decline plus carbon pricing."
+author: "Nirav Dhanani"
 ---
 
 ## What is green hydrogen

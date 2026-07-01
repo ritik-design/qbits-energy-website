@@ -63,6 +63,7 @@ faqs:
     a: "Typically 3-5 years warranty vs 10 for new. Reflects expected service life."
   - q: "Can second-life work in residential?"
     a: "Yes. Quality second-life packs available for residential storage, 30-50 percent cheaper than new."
+author: "Nirav Dhanani"
 ---
 
 ## What is a second-life battery

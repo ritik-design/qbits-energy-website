@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - empanelled vendor solar
   - pm surya ghar empanelled vendor

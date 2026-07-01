@@ -63,6 +63,7 @@ faqs:
     a: "Higher CUF means more energy in the denominator, lowering LCOE. Doubling CUF roughly halves LCOE if costs are unchanged."
   - q: "How is residential LCOE calculated without a PPA?"
     a: "Residential LCOE is computed as system capex plus 25-year O&M, divided by 25-year discounted energy. Compared to retail tariff to compute payback."
+author: "Akash Hirapara"
 ---
 
 ## What is LCOE

@@ -63,6 +63,7 @@ faqs:
     a: "A buffer (typically 3 to 5 percent) for unforeseen costs during construction."
   - q: "Does capex include financing cost?"
     a: "Interest during construction is often included. Long-term debt servicing is not (it falls under operating cost)."
+author: "Nirav Dhanani"
 ---
 
 ## What is CAPEX

@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
 image: "/blog-images/arka360-alternative.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - arka360 alternative
   - alternative to arka360

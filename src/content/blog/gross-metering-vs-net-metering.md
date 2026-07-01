@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "26 min"
 image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - gross vs net metering
   - gross metering vs net metering india

@@ -63,6 +63,7 @@ faqs:
     a: "Yes, with separate MPPT inputs per orientation group."
   - q: "Is true south same as solar south?"
     a: "Solar south refers to the sun's path zenith projection, which equals true south at solar noon."
+author: "Nirav Dhanani"
 ---
 
 ## What is azimuth

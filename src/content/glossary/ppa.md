@@ -63,6 +63,7 @@ faqs:
     a: "Through reverse auction in SECI tenders, where developers bid the lowest tariff at which they will sign a 25-year contract."
   - q: "Are PPAs taxable?"
     a: "Generation revenue under PPA is taxable. Accelerated depreciation and other tax incentives apply to the underlying solar asset."
+author: "Nirav Dhanani"
 ---
 
 ## What is a Power Purchase Agreement

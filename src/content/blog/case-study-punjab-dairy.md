@@ -6,7 +6,7 @@ category: "Case Study"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-epc-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - punjab dairy farm solar
   - agricultural solar inverter punjab

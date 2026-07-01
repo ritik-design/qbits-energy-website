@@ -63,6 +63,7 @@ faqs:
     a: "Within 3-5 percent for ground-validated multi-year averages. Higher uncertainty for individual years."
   - q: "Where is irradiation data found?"
     a: "NIWE Solar Atlas, Solargis, NSRDB, Meteonorm, PVGIS."
+author: "Akash Hirapara"
 ---
 
 ## What is irradiation

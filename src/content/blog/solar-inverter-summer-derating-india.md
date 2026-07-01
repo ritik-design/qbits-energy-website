@@ -6,7 +6,7 @@ category: Guide
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/inverter-overheating.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - inverter derating summer india
   - solar inverter thermal derating

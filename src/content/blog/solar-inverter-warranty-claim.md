@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-troubleshooting.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter warranty claim
   - solar inverter warranty claim india

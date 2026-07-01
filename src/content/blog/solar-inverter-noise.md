@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-05-07
 readTime: "10 min"
 image: "/blog-images/solar-inverter-noise.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter noise india
   - inverter decibel level

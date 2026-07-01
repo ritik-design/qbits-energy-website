@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 readTime: "21 min"
 image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar yield india
   - kwh per kwp india

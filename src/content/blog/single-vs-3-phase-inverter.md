@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/3kw-vs-5kw-vs-10kw-solar-inverters.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - single phase vs 3 phase inverter
   - single phase solar inverter india

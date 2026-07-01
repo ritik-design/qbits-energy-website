@@ -63,6 +63,7 @@ faqs:
     a: "Typically up to 100 kVAR at zero active output, or about 33 kVAR while exporting 100 kW. The exact capability is in the inverter datasheet."
   - q: "Are central inverters used for reactive support?"
     a: "Yes. Utility-scale central inverters often serve as STATCOM-like reactive sources at the plant point of coupling."
+author: "Keyur Rakholiya"
 ---
 
 ## What is reactive power

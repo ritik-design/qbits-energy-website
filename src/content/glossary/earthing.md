@@ -63,6 +63,7 @@ faqs:
     a: "Annually with earth tester. Document resistance values for compliance."
   - q: "Is earthing required for off-grid systems?"
     a: "Yes. Same safety logic applies whether the system is grid-tied or off-grid."
+author: "Nirav Dhanani"
 ---
 
 ## What is earthing

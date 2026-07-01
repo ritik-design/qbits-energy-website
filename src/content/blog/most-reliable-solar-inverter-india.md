@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/how-to-evaluate-solar-inverter-reliability.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - most reliable solar inverter
   - reliable solar inverter india

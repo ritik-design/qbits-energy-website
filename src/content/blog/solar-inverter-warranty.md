@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/solar-inverter-lifespan.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar inverter warranty india
   - solar inverter warranty coverage india

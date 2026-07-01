@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "19 min"
 image: "/blog-images/solar-inverter-manufacturers-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - indian solar inverter brands
   - made in india solar inverter

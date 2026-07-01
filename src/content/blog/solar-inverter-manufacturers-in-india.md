@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-03-15
 readTime: "13 min"
 image: "/blog-images/solar-inverter-manufacturers-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar inverter manufacturers India
   - inverter procurement

@@ -64,6 +64,7 @@ faqs:
     a: "High switching frequency, LCL output filter, multilevel modulation, careful control loop design and well-tuned PWM."
   - q: "Is THD same as THD-F or THD-R?"
     a: "THD-F divides by fundamental. THD-R divides by total rms (including harmonics). Most engineering uses THD-F. Some instruments report THD-R."
+author: "Keyur Rakholiya"
 ---
 
 ## What is THD

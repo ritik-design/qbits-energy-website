@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-lifespan.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar battery life india
   - how long do solar batteries last india

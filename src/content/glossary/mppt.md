@@ -65,6 +65,7 @@ faqs:
     a: "Perturb-and-observe is the most common. Incremental conductance is more accurate in fast-changing conditions. Fractional open-circuit and fractional short-circuit are simple but lower performance. Fuzzy logic and neural network variants exist in research."
   - q: "Is MPPT required in a battery system?"
     a: "Yes, in any modern battery system. The PV charge controller must implement MPPT to extract maximum power before pushing it into the battery. PWM controllers do not perform MPPT."
+author: "Keyur Rakholiya"
 ---
 
 ## What is MPPT

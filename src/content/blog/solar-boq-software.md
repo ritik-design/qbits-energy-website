@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "8 min"
 image: "/blog-images/solar-boq-software.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar boq software
   - solar bill of quantities

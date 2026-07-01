@@ -5,7 +5,7 @@ category: Guide
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-epc-india.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar epc bid evaluation india
   - how to evaluate solar installer india

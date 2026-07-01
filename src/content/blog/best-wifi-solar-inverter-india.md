@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "21 min"
 image: "/blog-images/solar-inverter-monitoring-systems-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - wifi solar inverter india
   - best wifi solar inverter india

@@ -63,6 +63,7 @@ faqs:
     a: "Front-side Voc similar. Bifacial gain adds to current, not voltage."
   - q: "What is the typical Indian module Voc?"
     a: "540 W mono PERC: 49.5 V. 600 W TOPCon: 51-53 V."
+author: "Nirav Dhanani"
 ---
 
 ## What is open circuit voltage (Voc)

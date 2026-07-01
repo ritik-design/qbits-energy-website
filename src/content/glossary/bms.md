@@ -63,6 +63,7 @@ faqs:
     a: "Architecture for large packs where one master BMS coordinates multiple slave BMS units, each managing a subset of cells."
   - q: "Are open-source BMS reliable?"
     a: "Some are well-engineered. For safety-critical applications, certified commercial BMS is recommended."
+author: "Nirav Dhanani"
 ---
 
 ## What is a BMS

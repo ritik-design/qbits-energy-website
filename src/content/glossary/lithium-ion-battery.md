@@ -63,6 +63,7 @@ faqs:
     a: "Battery packs are usually rated IP65 or better for outdoor use. Individual cells are sealed but not designed for submersion. Cabinet design provides protection."
   - q: "Do lithium batteries lose capacity over time?"
     a: "Yes. Typical degradation is 2 to 3 percent per year for LFP under normal cycling. Calendar ageing continues even when idle."
+author: "Nirav Dhanani"
 ---
 
 ## What is a lithium ion battery

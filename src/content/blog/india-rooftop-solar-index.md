@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/solar-epc-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - india rooftop solar 2026
   - rooftop solar india state ranking

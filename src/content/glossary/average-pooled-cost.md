@@ -63,6 +63,7 @@ faqs:
     a: "Generally yes. Solar PPAs at ₹2.50-3/kWh are below APPC, pulling APPC down."
   - q: "What is the difference between APPC and FIT?"
     a: "FIT is set tariff for specific renewable. APPC is weighted average of all sources."
+author: "Nirav Dhanani"
 ---
 
 ## What is APPC

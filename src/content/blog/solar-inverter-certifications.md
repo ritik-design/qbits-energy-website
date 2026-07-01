@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-04-04
 readTime: "10 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - inverter certifications India
   - BIS certification

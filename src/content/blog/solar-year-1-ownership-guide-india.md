@@ -5,7 +5,7 @@ category: Guide
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-commissioning-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar year 1 guide india
   - solar ownership first year india

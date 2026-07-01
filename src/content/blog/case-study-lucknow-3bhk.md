@@ -6,7 +6,7 @@ category: "Case Study"
 date: 2026-06-05
 readTime: "12 min"
 image: "/blog-images/solar-inverter-commissioning-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - lucknow solar installation 3bhk
   - pm surya ghar subsidy lucknow

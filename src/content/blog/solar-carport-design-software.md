@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "8 min"
 image: "/blog-images/solar-carport-design-software.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar carport design software
   - solar canopy design

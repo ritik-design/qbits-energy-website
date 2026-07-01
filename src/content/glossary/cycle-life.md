@@ -63,6 +63,7 @@ faqs:
     a: "Depends. If 80 percent capacity still meets your needs, you can continue using it. Most users replace when capacity becomes inadequate for daily needs."
   - q: "Can old batteries be repurposed?"
     a: "Yes. Second-life applications for retired LFP and NMC packs include stationary storage and grid services. Indian second-life market is emerging."
+author: "Nirav Dhanani"
 ---
 
 ## What is cycle life

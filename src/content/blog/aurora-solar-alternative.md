@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "13 min"
 image: "/blog-images/aurora-solar-alternative.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - aurora solar alternative
   - aurora solar competitors

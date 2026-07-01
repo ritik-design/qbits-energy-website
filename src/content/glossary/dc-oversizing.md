@@ -63,6 +63,7 @@ faqs:
     a: "Yes. Bifacial gain pushes more DC into the inverter. Oversizing captures this without expensive inverter upgrades."
   - q: "How does climate affect optimum DC/AC ratio?"
     a: "Cloudier climates and lower-PSH sites benefit from higher ratios (130 to 140 percent). Sunny sites with frequent peak noon need lower ratios."
+author: "Keyur Rakholiya"
 ---
 
 ## What is DC oversizing

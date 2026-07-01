@@ -63,6 +63,7 @@ faqs:
     a: "PF = cos(arctan(Q/P)). Lower PF means more reactive Q relative to active P."
   - q: "Can solar replace capacitor banks?"
     a: "Yes. Solar inverter reactive capability can replace fixed and automatic capacitor banks for C&I sites."
+author: "Nirav Dhanani"
 ---
 
 ## What is power factor

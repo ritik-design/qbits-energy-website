@@ -63,6 +63,7 @@ faqs:
     a: "Yes. CEA's 2023 time-of-day tariff rules allow state SERCs to implement state-specific ToD tariffs."
   - q: "Which SERCs are considered consumer-friendly for solar?"
     a: "Maharashtra MERC, Karnataka KERC, Delhi DERC, Kerala KSERC and Rajasthan RERC are often cited as having clearer net metering frameworks."
+author: "Nirav Dhanani"
 ---
 
 ## What is a SERC

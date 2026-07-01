@@ -63,6 +63,7 @@ faqs:
     a: "Design SLD → DISCOM-approved SLD → as-built SLD after construction."
   - q: "Should SLD include monitoring?"
     a: "Yes if applicable: SCADA, CT/PT, smart meter connection, cloud monitoring router."
+author: "Nirav Dhanani"
 ---
 
 ## What is a Single Line Diagram

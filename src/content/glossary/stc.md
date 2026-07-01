@@ -63,6 +63,7 @@ faqs:
     a: "Yes. IEC 60904 standard ensures global consistency in STC definition and measurement."
   - q: "Are bifacial modules rated at STC?"
     a: "Front-side rated at STC. Rear-side gain specified separately as bifaciality factor."
+author: "Nirav Dhanani"
 ---
 
 ## What are Standard Test Conditions

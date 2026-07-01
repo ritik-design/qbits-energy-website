@@ -63,6 +63,7 @@ faqs:
     a: "Yes. Utility plants have lower OPEX per MW than rooftop due to scale economies in labour and cleaning."
   - q: "Is residential rooftop O&M outsourced?"
     a: "Often included in EPC AMC packages. Independent O&M for residential is rare."
+author: "Akash Hirapara"
 ---
 
 ## What is OPEX

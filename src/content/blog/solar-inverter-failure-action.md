@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-failure.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter failed
   - solar inverter failure action plan

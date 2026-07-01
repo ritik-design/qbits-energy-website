@@ -5,7 +5,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "21 min"
 image: "/blog-images/inverter-tco.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar vs diesel generator
   - solar vs dg set india

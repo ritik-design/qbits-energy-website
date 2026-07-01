@@ -63,6 +63,7 @@ faqs:
     a: "Application format for electrical installation approval in some states. Form names vary by state."
   - q: "Does CEIG approve net metering?"
     a: "No, that is DISCOM. CEIG ensures the installation is electrically safe to energise."
+author: "Nirav Dhanani"
 ---
 
 ## What is CEIG

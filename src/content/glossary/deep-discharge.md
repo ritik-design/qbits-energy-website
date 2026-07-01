@@ -63,6 +63,7 @@ faqs:
     a: "Rarely on discharge itself. But damaged cells from over-discharge may have higher fire risk on subsequent charging."
   - q: "How is deep discharge prevented?"
     a: "BMS with low-voltage cutoff. EMS strategy keeping SOC above threshold. User education."
+author: "Nirav Dhanani"
 ---
 
 ## What is deep discharge

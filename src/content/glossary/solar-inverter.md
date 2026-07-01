@@ -65,6 +65,7 @@ faqs:
     a: "If the utility grid fails, the inverter must stop exporting within milliseconds - otherwise it could energise a downed line and electrocute a lineman. IEC 62116 and CEA grid codes mandate anti-islanding tests for every grid-tie inverter sold in India."
   - q: "How much does a solar inverter cost in India?"
     a: "Approximate Indian prices (2026): 1–3 kW single-phase string inverter ₹15,000–₹35,000; 5 kW ₹35,000–₹55,000; 10 kW three-phase ₹65,000–₹1,10,000; 5 kW hybrid with battery interface ₹80,000–₹1,40,000. Industrial-grade inverters above 50 kW are priced per kW."
+author: "Nirav Dhanani"
 ---
 
 ## What Is a Solar Inverter?

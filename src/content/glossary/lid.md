@@ -63,6 +63,7 @@ faqs:
     a: "Module flash test before and after stabilisation. IEC 61215 light-soaking test exposes module to known irradiance for 5 to 60 hours."
   - q: "Does cleaning recover LID losses?"
     a: "No. LID is intrinsic to the silicon. Cleaning removes soiling, not LID."
+author: "Nirav Dhanani"
 ---
 
 ## What is LID

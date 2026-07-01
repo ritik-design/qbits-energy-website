@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "22 min"
 image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - best hybrid inverter india
   - best hybrid solar inverter india 2026

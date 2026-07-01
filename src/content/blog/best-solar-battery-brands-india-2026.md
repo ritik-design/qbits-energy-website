@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/solar-inverter-quality.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - best solar battery india
   - best solar battery brands india 2026

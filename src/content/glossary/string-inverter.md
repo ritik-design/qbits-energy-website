@@ -64,6 +64,7 @@ faqs:
     a: "Approximate 2026 prices: 1 to 3 kW single-phase ₹15,000 to ₹35,000, 5 kW ₹35,000 to ₹55,000, 10 kW three-phase ₹65,000 to ₹1,10,000, 50 kW C&I ₹2,50,000 to ₹4,00,000, 100 kW utility-string ₹5,00,000 to ₹7,50,000."
   - q: "Do string inverters need a combiner box?"
     a: "Up to two or three strings, the inverter's built-in inputs are enough. Above that, a DC combiner box with fuses and SPDs is needed before the inverter."
+author: "Nirav Dhanani"
 ---
 
 ## What is a string inverter

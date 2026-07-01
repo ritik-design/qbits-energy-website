@@ -63,6 +63,7 @@ faqs:
     a: "About 0.5 degrees. DNI is measured within a 5 degree field of view around the sun for practical instruments."
   - q: "Where can I find Indian DNI data?"
     a: "NIWE Solar Resource Atlas, Solargis, NSRDB, Meteonorm."
+author: "Nirav Dhanani"
 ---
 
 ## What is DNI

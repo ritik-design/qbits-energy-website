@@ -63,6 +63,7 @@ faqs:
     a: "Yes. PERC, TOPCon, HJT all use half-cut versions in modern modules."
   - q: "Should I prefer half-cut over full-cell?"
     a: "Yes for new installations. Better efficiency, better shade tolerance, minimal cost difference."
+author: "Nirav Dhanani"
 ---
 
 ## What is a half-cut cell

@@ -6,7 +6,7 @@ category: "Case Study"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-sizing.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - bangalore hospital solar
   - hospital solar system india

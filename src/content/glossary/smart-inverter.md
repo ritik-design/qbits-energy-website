@@ -63,6 +63,7 @@ faqs:
     a: "Grid-following smart inverters disconnect on outage. Grid-forming inverters (a smart variant) can continue operating in islanded mode."
   - q: "What is autonomous operation?"
     a: "Smart inverter responds to local grid conditions automatically without operator commands. Most smart functions are autonomous."
+author: "Nirav Dhanani"
 ---
 
 ## What is a smart inverter

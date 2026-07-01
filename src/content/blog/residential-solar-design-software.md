@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
 image: "/blog-images/residential-solar-design-software.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - residential solar design software
   - residential solar design tool

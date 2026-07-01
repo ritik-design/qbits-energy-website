@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 readTime: "21 min"
 image: "/blog-images/solar-inverter-sizing.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter installation cost
   - solar system cost in india

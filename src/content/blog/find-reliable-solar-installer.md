@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/how-to-find-reliable-inverter-dealers-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - reliable solar installer india
   - how to choose solar installer india

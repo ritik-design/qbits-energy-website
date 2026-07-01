@@ -63,6 +63,7 @@ faqs:
     a: "Yes if ALMM-listed."
   - q: "What is the future of p-type?"
     a: "Declining share but still significant for the next 3-5 years. Gallium-doped p-type may extend its life."
+author: "Nirav Dhanani"
 ---
 
 ## What is p-type silicon

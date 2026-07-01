@@ -63,6 +63,7 @@ faqs:
     a: "3-8 percent with regular cleaning. Without cleaning, 10-25 percent."
   - q: "Are dust storms a concern?"
     a: "Yes. Indian summer dust storms can deposit weeks of soiling in hours. Cleaning post-storm is critical."
+author: "Nirav Dhanani"
 ---
 
 ## What is soiling

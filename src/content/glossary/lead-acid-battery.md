@@ -63,6 +63,7 @@ faqs:
     a: "The relative density of the electrolyte, measured with a hydrometer. Indicates state of charge. 1.265 to 1.275 for fully charged tubular at 27°C."
   - q: "What temperature is best for lead acid?"
     a: "20 to 25 degrees Celsius. Every 10-degree rise above 25°C halves lead acid life."
+author: "Nirav Dhanani"
 ---
 
 ## What is a lead acid battery

@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-04-04
 readTime: "10 min"
 image: "/blog-images/solar-inverter-specifications-decoded.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter specifications
   - inverter datasheet

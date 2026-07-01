@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "9 min"
 image: "/blog-images/helioscope-pricing.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - helioscope pricing
   - helioscope cost

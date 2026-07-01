@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-04-22
 readTime: "12 min"
 image: "/blog-images/3kw-vs-5kw-vs-10kw-solar-inverters.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - 3kW solar inverter india
   - 5kW solar inverter india

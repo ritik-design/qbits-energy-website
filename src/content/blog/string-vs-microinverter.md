@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/inverter-voltage-string-vs-mppt-in-solar-inverters.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - string vs microinverter
   - microinverter vs string inverter India

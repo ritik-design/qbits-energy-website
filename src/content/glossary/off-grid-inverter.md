@@ -64,6 +64,7 @@ faqs:
     a: "Inverter electronics last 8 to 12 years. Capacitors and fans are the first to age. Batteries are the limiting factor: 5 to 7 years for tubular lead acid, 10 to 15 years for LFP if operated within rated DoD and temperature."
   - q: "What is the price of an off grid inverter in India?"
     a: "Approximate 2026 prices without battery: 1 kVA ₹10,000 to ₹18,000, 3 kVA ₹25,000 to ₹45,000, 5 kVA ₹50,000 to ₹85,000, 10 kVA ₹1,20,000 to ₹2,00,000. Lithium batteries add ₹40,000 to ₹70,000 per usable kWh."
+author: "Nirav Dhanani"
 ---
 
 ## What is an off grid inverter

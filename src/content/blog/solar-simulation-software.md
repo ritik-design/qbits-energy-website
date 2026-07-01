@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
 image: "/blog-images/solar-simulation-software.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar simulation software
   - pv simulation

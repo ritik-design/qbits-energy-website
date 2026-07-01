@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/qbits-vs-sungrow-vs-growatt.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - qbits vs luminous
   - luminous solar inverter review

@@ -63,6 +63,7 @@ faqs:
     a: "Yes for high-renewable grids. India targets 50+ GWh BESS by 2030 alongside 500 GW renewable capacity."
   - q: "What is the lifetime?"
     a: "Utility LFP BESS: 15-20 years calendar, 5,000-8,000 cycles. Replacement may be needed after 12-15 years for some components."
+author: "Nirav Dhanani"
 ---
 
 ## What is BESS

@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-06-05
 readTime: "10 min"
 image: "/blog-images/solar-inverter-monitoring-systems-in-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter wifi not connecting
   - solar inverter wifi setup india

@@ -63,6 +63,7 @@ faqs:
     a: "An algorithm for counting partial cycles. Used in cycle life estimation when actual cycles are not full DOD."
   - q: "Should I keep the battery at 100 percent SOC always?"
     a: "For lead acid yes (with float charging). For LFP, periodic full charge is good. For NMC, prolonged 100 percent storage accelerates calendar ageing."
+author: "Nirav Dhanani"
 ---
 
 ## What is battery DOD

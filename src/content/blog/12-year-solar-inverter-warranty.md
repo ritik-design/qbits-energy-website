@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-lifespan.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - 12 year solar inverter warranty
   - solar inverter warranty india

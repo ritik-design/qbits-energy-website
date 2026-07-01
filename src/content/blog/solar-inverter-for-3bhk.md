@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-sizing.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter for 3 bhk
   - 5 kw solar system for 3 bhk

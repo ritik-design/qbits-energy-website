@@ -5,7 +5,7 @@ category: "Educational"
 date: 2026-06-05
 readTime: "13 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - ghar mein solar panel kaise lagwayein
   - solar panel installation hindi

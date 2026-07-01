@@ -63,6 +63,7 @@ faqs:
     a: "Yes. Inverter clipping reduces peak output, lowering CUF. DC oversizing trades clipping for more energy capture in shoulder hours, raising CUF overall."
   - q: "What is the typical CUF for residential PM Surya Ghar systems?"
     a: "14 to 17 percent in most Indian conditions. Roof orientation, shading and cleaning frequency drive variation."
+author: "Nirav Dhanani"
 ---
 
 ## What is CUF

@@ -63,6 +63,7 @@ faqs:
     a: "Approximately 5.0 hours/day annual average. Monsoon months drop to 3.5."
   - q: "Where do I find Indian PSH data?"
     a: "NIWE Solar Atlas, Solargis, or computed from GHI in NSRDB and Meteonorm."
+author: "Nirav Dhanani"
 ---
 
 ## What are Peak Sun Hours

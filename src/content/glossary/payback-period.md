@@ -63,6 +63,7 @@ faqs:
     a: "Longer PPA terms with stable revenue support faster project IRR but do not directly change capex payback unless tariff changes."
   - q: "What is the typical PM Surya Ghar payback?"
     a: "2.5 to 4 years for a 3 kW system in most Indian states with retail tariff above ₹7/kWh."
+author: "Akash Hirapara"
 ---
 
 ## What is Payback Period

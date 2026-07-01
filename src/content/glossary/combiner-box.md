@@ -63,6 +63,7 @@ faqs:
     a: "Annually thermography and visual. Replace SPDs at end of life."
   - q: "Are combiner boxes used in microinverter systems?"
     a: "No. Microinverter installations combine on AC side, not DC."
+author: "Nirav Dhanani"
 ---
 
 ## What is a combiner box

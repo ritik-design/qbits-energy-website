@@ -63,6 +63,7 @@ faqs:
     a: "Yes. They are referenced for warranty claims, performance disputes, insurance and resale value over the 25-year project life."
   - q: "What is annual recommissioning?"
     a: "Some O&M contracts include annual revalidation of commissioning baseline."
+author: "Keyur Rakholiya"
 ---
 
 ## What is solar commissioning

@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - gst on solar inverter
   - gst on solar panels india 2026

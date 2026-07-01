@@ -63,6 +63,7 @@ faqs:
     a: "Electricity supply is exempt from GST. Solar power sold to DISCOM not subject to GST."
   - q: "Is GST on solar disputed?"
     a: "Past disputes about effective rate (5% vs 12%). Current 12 percent generally accepted but periodic legal challenges occur."
+author: "Akash Hirapara"
 ---
 
 ## What is GST on solar

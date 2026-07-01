@@ -63,6 +63,7 @@ faqs:
     a: "DISCOMs sign PPAs to meet RPO. C&I open access procures renewable for compliance. Demand drives capacity addition."
   - q: "What is the penalty for non-compliance?"
     a: "Computed by SERC based on shortfall and renewable purchase costs. Can be significant for repeated non-compliance."
+author: "Nirav Dhanani"
 ---
 
 ## What is RPO

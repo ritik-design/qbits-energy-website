@@ -63,6 +63,7 @@ faqs:
     a: "Rarely. Cost not justified for unshaded utility plants. Common in premium residential and partial-shade rooftops."
   - q: "Where are DC optimisers most common?"
     a: "Premium residential rooftops in Europe, US, Australia, Israel. Growing in Indian premium residential."
+author: "Nirav Dhanani"
 ---
 
 ## What is a DC optimiser

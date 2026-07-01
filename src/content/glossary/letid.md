@@ -63,6 +63,7 @@ faqs:
     a: "Not in normal operating conditions. Stabilises after years of operation."
   - q: "What is the future of LeTID?"
     a: "Industry transition to TOPCon n-type largely eliminates LeTID concerns. Legacy PERC modules with potential LeTID remain in field."
+author: "Nirav Dhanani"
 ---
 
 ## What is LeTID

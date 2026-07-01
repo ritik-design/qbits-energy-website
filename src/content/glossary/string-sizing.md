@@ -63,6 +63,7 @@ faqs:
     a: "On the single-line diagram with string layout, module Voc/Vmp, temperature ranges and inverter voltage window."
   - q: "Are different module brands compatible in same string?"
     a: "Best practice no. Different Voc and Vmp cause mismatch loss and undermine string sizing assumptions."
+author: "Keyur Rakholiya"
 ---
 
 ## What is string sizing

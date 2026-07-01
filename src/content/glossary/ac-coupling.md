@@ -63,6 +63,7 @@ faqs:
     a: "Yes, with appropriate EMS coordination. Common in large C&I and utility installations."
   - q: "Does AC coupling require special inverters?"
     a: "Battery inverter must be capable of bidirectional operation and ideally grid-forming for backup. Standard PV inverters work for the PV side."
+author: "Nirav Dhanani"
 ---
 
 ## What is AC coupling

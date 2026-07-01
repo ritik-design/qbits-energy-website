@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - pm surya ghar 2026 update
   - pm surya ghar subsidy amount 2026

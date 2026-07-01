@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-06-05
 readTime: "19 min"
 image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - hybrid inverter battery sizing
   - battery size for hybrid solar inverter India

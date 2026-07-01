@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "24 min"
 image: "/blog-images/solar-inverter-lifespan.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar inverter longest warranty
   - best solar inverter warranty india

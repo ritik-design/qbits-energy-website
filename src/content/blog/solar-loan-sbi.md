@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/inverter-financing-options-in-india.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar loan sbi
   - sbi surya shakti solar finance

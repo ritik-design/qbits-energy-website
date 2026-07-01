@@ -63,6 +63,7 @@ faqs:
     a: "Generally uniform under central rules. State PPAs may have slightly different terms within statutory framework."
   - q: "Does LPS affect tariff?"
     a: "Not directly. LPS is surcharge on delayed payments, not on the tariff itself."
+author: "Nirav Dhanani"
 ---
 
 ## What are Late Payment Surcharge Rules

@@ -63,6 +63,7 @@ faqs:
     a: "Modern LED drivers with PFC need pure sine. Cheap LED bulbs may work on modified but with reduced life."
   - q: "What is the typical THD of pure sine?"
     a: "Modern pure sine inverters: less than 3 percent. Premium designs under 1 percent."
+author: "Nirav Dhanani"
 ---
 
 ## What is pure sine wave

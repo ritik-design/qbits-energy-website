@@ -63,6 +63,7 @@ faqs:
     a: "Yes. PCS standby consumption is real loss. Idle inverter consumes 10-50 W continuously."
   - q: "What is the future of RTE?"
     a: "Cell improvements 1-2 percent every few years. System efficiency through better PCS topology."
+author: "Keyur Rakholiya"
 ---
 
 ## What is round-trip efficiency

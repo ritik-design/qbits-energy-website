@@ -63,6 +63,7 @@ faqs:
     a: "Typically a 7 to 30 day acceptance test comparing actual to expected output. Pass threshold is contractually defined."
   - q: "What is the typical PR for PM Surya Ghar systems?"
     a: "75 to 80 percent for well-installed residential systems. Cleaning, shading control and proper installation determine the actual figure."
+author: "Nirav Dhanani"
 ---
 
 ## What is Performance Ratio

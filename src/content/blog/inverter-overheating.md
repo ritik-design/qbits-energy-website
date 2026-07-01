@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-04-04
 readTime: "10 min"
 image: "/blog-images/inverter-overheating.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - inverter overheating
   - thermal derating

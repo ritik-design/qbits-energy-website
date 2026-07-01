@@ -5,7 +5,7 @@ category: "Educational"
 date: 2026-06-05
 readTime: "14 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter kya hai
   - solar inverter kya hota hai

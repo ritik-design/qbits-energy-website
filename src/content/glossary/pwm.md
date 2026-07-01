@@ -64,6 +64,7 @@ faqs:
     a: "Not directly. PWM controls DC voltage. For AC load control you use phase-cut dimming, AC PWM or a VFD with internal DC link and PWM output stage."
   - q: "What is the price of a PWM charge controller in India?"
     a: "Approximate 2026 prices: 10 A 12 V ₹400 to ₹900, 20 A 12/24 V ₹800 to ₹1,800, 30 A 12/24 V ₹1,200 to ₹2,500. Modern MPPT alternatives start around ₹2,500 to ₹4,500."
+author: "Keyur Rakholiya"
 ---
 
 ## What is PWM

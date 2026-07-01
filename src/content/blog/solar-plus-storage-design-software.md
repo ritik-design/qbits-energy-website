@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
 image: "/blog-images/solar-plus-storage-design-software.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar plus storage design software
   - solar battery design

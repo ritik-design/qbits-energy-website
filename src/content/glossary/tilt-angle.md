@@ -63,6 +63,7 @@ faqs:
     a: "Match to peak irrigation season demand. Pre-monsoon optimisation: latitude + 5 to 10°."
   - q: "Does tilt affect wind load?"
     a: "Yes. Higher tilt increases wind catchment area. Cyclone-prone coastal sites favour lower tilt."
+author: "Nirav Dhanani"
 ---
 
 ## What is tilt angle

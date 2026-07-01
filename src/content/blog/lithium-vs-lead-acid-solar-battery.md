@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "23 min"
 image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - lithium vs lead acid solar
   - lfp vs lead acid battery india

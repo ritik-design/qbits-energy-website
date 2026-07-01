@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-04-08
 readTime: "10 min"
 image: "/blog-images/qbits-vs-sungrow-vs-growatt.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar inverter brands comparison
   - Qbits vs Sungrow vs Growatt

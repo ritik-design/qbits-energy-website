@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "19 min"
 image: "/blog-images/solar-inverter-monitoring-systems-in-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter app
   - solar monitoring app india

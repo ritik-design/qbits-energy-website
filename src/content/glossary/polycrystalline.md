@@ -63,6 +63,7 @@ faqs:
     a: "Wafer thickness is comparable today, 150 to 180 microns for both."
   - q: "Why has poly declined?"
     a: "Cell efficiency caps lower than mono, no clear path to TOPCon or HJT, and converging cost have collapsed poly's value proposition."
+author: "Nirav Dhanani"
 ---
 
 ## What is polycrystalline

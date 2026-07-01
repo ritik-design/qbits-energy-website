@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-05-11
 readTime: "12 min"
 image: "/blog-images/how-to-read-solar-inverter-datasheets.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter datasheet
   - inverter specifications

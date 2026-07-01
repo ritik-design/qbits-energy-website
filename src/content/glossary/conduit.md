@@ -63,6 +63,7 @@ faqs:
     a: "Yes. GI conduit must be bonded to system earth."
   - q: "Is conduit reusable?"
     a: "Yes during major rework. Cables can be drawn out and reinstalled."
+author: "Nirav Dhanani"
 ---
 
 ## What is conduit

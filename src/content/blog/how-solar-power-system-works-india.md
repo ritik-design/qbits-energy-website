@@ -5,7 +5,7 @@ category: Guide
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-components.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - how solar power system works
   - solar system components India

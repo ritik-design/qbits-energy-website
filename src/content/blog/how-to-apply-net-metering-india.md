@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "20 min"
 image: "/blog-images/solar-inverter-integration-in-india.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - how to apply for net metering
   - net metering application india

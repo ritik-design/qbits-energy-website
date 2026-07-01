@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-03-18
 readTime: "9 min"
 image: "/blog-images/solar-inverter-lifespan.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter lifespan
   - inverter replacement cost

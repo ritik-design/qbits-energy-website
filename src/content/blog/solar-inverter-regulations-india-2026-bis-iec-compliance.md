@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-03-22
 readTime: "10 min"
 image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar inverter regulations India
   - BIS IS 16221

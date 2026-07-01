@@ -63,6 +63,7 @@ faqs:
     a: "Yes. String inverters in utility plants are transformerless. Central inverters often transformerless with external transformer."
   - q: "What is the cost premium?"
     a: "Transformerless inverters are cheaper, not more expensive. They have replaced transformer-based as the cost-effective default."
+author: "Keyur Rakholiya"
 ---
 
 ## What is a transformerless inverter

@@ -63,6 +63,7 @@ faqs:
     a: "Yes. Waaree, Adani Green Solar, Tata Power Solar, Vikram Solar and others have brought TOPCon to ALMM-listed mass production."
   - q: "Is TOPCon compatible with standard PERC mounting?"
     a: "Yes. Module form factor and electrical characteristics are similar enough that standard rooftop mounting hardware works."
+author: "Nirav Dhanani"
 ---
 
 ## What is a TOPCon cell

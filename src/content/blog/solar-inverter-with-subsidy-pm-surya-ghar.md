@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar inverter with subsidy
   - pm surya ghar inverter subsidy

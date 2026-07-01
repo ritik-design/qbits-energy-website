@@ -5,7 +5,7 @@ category: "Technical"
 date: 2026-06-05
 readTime: "12 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter band ho jaye kya karein
   - solar inverter not working hindi

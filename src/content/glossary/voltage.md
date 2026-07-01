@@ -63,6 +63,7 @@ faqs:
     a: "Loss of voltage along a conductor due to resistance. Critical for solar DC cabling: target less than 2 percent for short runs, less than 3 percent for long runs."
   - q: "What is BIS standard voltage for India?"
     a: "IS 12360 specifies preferred voltages: 230 V, 415 V, 6.6 kV, 11 kV, 33 kV, 66 kV, 132 kV, 220 kV, 400 kV."
+author: "Nirav Dhanani"
 ---
 
 ## What is voltage

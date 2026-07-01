@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-selection.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - best solar system under 1 lakh
   - solar system under 1 lakh india

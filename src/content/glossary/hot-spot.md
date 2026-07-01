@@ -63,6 +63,7 @@ faqs:
     a: "By IR thermography during O&M. Smart combiner boxes and microinverters report unusual cell temperatures."
   - q: "Are hot spots covered in warranty?"
     a: "Manufacturer-caused defects yes. Bird droppings or external causes typically no."
+author: "Nirav Dhanani"
 ---
 
 ## What is a hot spot

@@ -6,7 +6,7 @@ category: Technology
 date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/ai-powered-vs-traditional-inverter-technology-in-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - india grid solar inverter
   - solar inverter firmware india

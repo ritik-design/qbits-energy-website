@@ -62,6 +62,7 @@ faqs:
     a: "GHI / extraterrestrial irradiance. Indicates how clear the atmosphere is. Lower clearness means relatively more DHI."
   - q: "Where can I find Indian DHI data?"
     a: "NIWE Solar Resource Atlas, Solargis, NSRDB, Meteonorm."
+author: "Nirav Dhanani"
 ---
 
 ## What is DHI

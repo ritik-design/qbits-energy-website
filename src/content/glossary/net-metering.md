@@ -64,6 +64,7 @@ faqs:
     a: "An arrangement where multiple consumers share generation from a single solar plant located elsewhere, with credits proportioned among their meters. Common for group housing in Delhi, Kerala and Karnataka."
   - q: "What documents are needed for net metering?"
     a: "Electricity bill, identity proof, address proof, sanctioned load document, ownership or NOC, inverter ALMM certificate, PV module ALMM certificate, single-line diagram, and DISCOM application form."
+author: "Nirav Dhanani"
 ---
 
 ## What is net metering

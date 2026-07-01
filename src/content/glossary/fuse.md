@@ -63,6 +63,7 @@ faqs:
     a: "Indian solar DC fuses follow IS 13703 and IEC 60269-6. BIS certification applies."
   - q: "Are fuses required for every string?"
     a: "For combiner boxes with 3 or more parallel strings, yes. Smaller installations may omit fuses if reverse current is below module reverse current rating."
+author: "Nirav Dhanani"
 ---
 
 ## What is a fuse

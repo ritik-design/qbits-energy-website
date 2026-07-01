@@ -63,6 +63,7 @@ faqs:
     a: "Shadow covering only part of a panel or string. Causes complex I-V curve with multiple local maxima."
   - q: "How is shading documented?"
     a: "Annual shading loss percentage, monthly shading patterns, and shadow geometry diagrams."
+author: "Nirav Dhanani"
 ---
 
 ## What is shading analysis

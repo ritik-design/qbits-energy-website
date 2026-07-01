@@ -63,6 +63,7 @@ faqs:
     a: "3 to 5 years for standalone pumps, due to fuel cost replacement and subsidy."
   - q: "Where does Component A solar power go?"
     a: "Sold to local DISCOM at a state-determined feed-in tariff, typically ₹3.10 to ₹4.50/kWh."
+author: "Nirav Dhanani"
 ---
 
 ## What is PM-KUSUM

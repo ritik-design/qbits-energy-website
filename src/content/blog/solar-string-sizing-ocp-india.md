@@ -6,7 +6,7 @@ category: Technology
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-sizing.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar string sizing india
   - solar string sizing calculation

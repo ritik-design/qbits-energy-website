@@ -63,6 +63,7 @@ faqs:
     a: "Yes, up to the hybrid inverter's maximum DC capacity and within MPPT current limits."
   - q: "Is the battery DC voltage same as PV string voltage?"
     a: "Not necessarily. The hybrid inverter internally regulates the DC bus, which is independent of both PV string voltage and battery voltage."
+author: "Nirav Dhanani"
 ---
 
 ## What is DC coupling

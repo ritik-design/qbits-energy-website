@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-05-11
 readTime: "14 min"
 image: "/blog-images/inverter-procurement-india.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - inverter procurement India
   - EPC inverter sourcing

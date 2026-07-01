@@ -63,6 +63,7 @@ faqs:
     a: "AD applies to qualifying renewable energy assets. Specific rate of 40 percent is for solar PV."
   - q: "When was AD introduced?"
     a: "Available for solar since 2011. Rate revised over time, currently 40 percent."
+author: "Akash Hirapara"
 ---
 
 ## What is Accelerated Depreciation

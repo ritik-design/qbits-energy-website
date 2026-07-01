@@ -45,6 +45,7 @@ const glossary = defineCollection({
       .array(z.object({ slug: z.string(), term: z.string() }))
       .optional(),
     faqs: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
+    author: z.string().default('Qbits Editorial'),
   }),
 });
 

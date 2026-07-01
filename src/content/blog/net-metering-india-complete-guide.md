@@ -5,7 +5,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "25 min"
 image: "/blog-images/solar-inverter-integration-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - net metering india
   - net metering policy india

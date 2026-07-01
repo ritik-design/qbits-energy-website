@@ -63,6 +63,7 @@ faqs:
     a: "Solargis and NSRDB provide POA estimates for specified tilt/azimuth."
   - q: "Does POA change with seasons?"
     a: "Yes. Higher in summer, lower in winter, with seasonal variation depending on tilt and latitude."
+author: "Nirav Dhanani"
 ---
 
 ## What is Plane of Array irradiance

@@ -63,6 +63,7 @@ faqs:
     a: "Each beneficiary uses their existing meter. A separate generation meter at the solar plant tracks export. The DISCOM applies credits per the agreement."
   - q: "Can I move VNM benefit to a new tenant?"
     a: "Only with a formal change in the beneficiary list, filed with the DISCOM."
+author: "Nirav Dhanani"
 ---
 
 ## What is virtual net metering

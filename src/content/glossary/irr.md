@@ -63,6 +63,7 @@ faqs:
     a: "Yes if modelled. Curtailment reduces cash flow, lowering IRR."
   - q: "What is the typical residential PM Surya Ghar IRR?"
     a: "20 to 30 percent post-subsidy for households with retail tariff above ₹7/kWh, due to the subsidy lowering effective capex."
+author: "Akash Hirapara"
 ---
 
 ## What is IRR

@@ -63,6 +63,7 @@ faqs:
     a: "Current rating and breaking capacity. Residential 25 to 63 A at 6 kA Icn. Industrial up to 125 A at 10 to 25 kA Icn."
   - q: "Are RCCBs BIS-certified?"
     a: "Yes. IS 12640-1 covers AC RCCBs. Manufacturer must hold BIS license."
+author: "Nirav Dhanani"
 ---
 
 ## What is an RCCB

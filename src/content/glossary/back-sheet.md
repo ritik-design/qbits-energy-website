@@ -63,6 +63,7 @@ faqs:
     a: "AAA: all-aluminium-outer alternative. Less common, used in specialty applications."
   - q: "What is the future of back sheets?"
     a: "Glass-glass bifacial gaining share. Higher-performance polymer composites for cost-sensitive monofacial."
+author: "Nirav Dhanani"
 ---
 
 ## What is a back sheet

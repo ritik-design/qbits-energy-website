@@ -6,7 +6,7 @@ category: Technology
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-components.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - transformerless inverter
   - transformer-based inverter

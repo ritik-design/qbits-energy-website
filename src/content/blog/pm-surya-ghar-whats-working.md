@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - pm surya ghar opinion
   - pm surya ghar problems

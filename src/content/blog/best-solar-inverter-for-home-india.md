@@ -5,7 +5,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/essential-vs-advanced-solar-inverter-features.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - best solar inverter for home
   - best solar inverter for home india

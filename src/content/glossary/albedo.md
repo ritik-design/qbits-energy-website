@@ -63,6 +63,7 @@ faqs:
     a: "On-site albedo survey with albedometer. Pre-project for utility-scale plants."
   - q: "Are there albedo databases?"
     a: "Some satellite-derived datasets available (MODIS Albedo Product). On-site measurement preferred for projects."
+author: "Nirav Dhanani"
 ---
 
 ## What is albedo

@@ -63,6 +63,7 @@ faqs:
     a: "Module junction box: 25 to 30 years matching module life. Field junction box: 20+ years with quality."
   - q: "Can multiple cables enter one junction box?"
     a: "Yes via sealed cable glands matched to cable sizes."
+author: "Nirav Dhanani"
 ---
 
 ## What is a junction box

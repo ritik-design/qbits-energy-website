@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "9 min"
 image: "/blog-images/opensolar-pricing.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - opensolar pricing
   - opensolar cost

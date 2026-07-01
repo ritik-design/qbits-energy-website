@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-05-11
 readTime: "12 min"
 image: "/blog-images/inverter-voltage-string-vs-mppt-in-solar-inverters.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - string voltage solar india
   - MPPT voltage range

@@ -63,6 +63,7 @@ faqs:
     a: "Modern AMI smart meters use signed firmware, encrypted communication and tamper detection. Tampering is detected and logged, and the meter switches to safe mode."
   - q: "Are bidirectional meters AMI integrated?"
     a: "Smart bidirectional meters under CEA Smart Meter Regulations 2023 require AMI integration. Older static bidirectional meters may not have AMI."
+author: "Akash Hirapara"
 ---
 
 ## What is a bidirectional meter

@@ -64,6 +64,7 @@ faqs:
     a: "Yes, but additional capacity is not eligible for further subsidy. Subsidy applies once per household."
   - q: "What states are most active under PM Surya Ghar?"
     a: "Gujarat, Maharashtra, Uttar Pradesh, Rajasthan, Andhra Pradesh and Karnataka are the highest-volume states. Implementation pace varies by DISCOM readiness."
+author: "Nirav Dhanani"
 ---
 
 ## What is PM Surya Ghar Muft Bijli Yojana

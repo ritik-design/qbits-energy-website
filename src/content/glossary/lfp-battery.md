@@ -63,6 +63,7 @@ faqs:
     a: "90 to 160 Wh per kg at cell level, 70 to 130 Wh per kg at pack level. NMC is typically 50 to 70 percent denser."
   - q: "Do LFP batteries need a BMS?"
     a: "Yes, mandatory. The BMS balances cells, protects against over-voltage, over-current and over-temperature, and communicates with the inverter."
+author: "Nirav Dhanani"
 ---
 
 ## What is an LFP battery

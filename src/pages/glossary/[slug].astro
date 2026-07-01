@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
+import { getAuthorByName } from '../../data/authors';
 
 export async function getStaticPaths() {
   const entries = await getCollection('glossary');
@@ -28,7 +29,10 @@ const {
   quickFacts,
   relatedTerms: relatedTermsRaw = [],
   faqs = [],
+  author = 'Qbits Editorial',
 } = entry.data;
+
+const authorProfile = getAuthorByName(author);
 
 const relatedTerms = relatedTermsRaw.filter((r) => existingSlugs.has(r.slug));
 
@@ -215,8 +219,32 @@ const articleSchema = {
               </div>
             )}
 
+            <!-- Author box -->
+            {authorProfile && (
+              <div class="mt-12 rounded-2xl bg-gradient-to-br from-slate-50 to-white ring-1 ring-slate-200 p-6">
+                <div class="flex items-start gap-4">
+                  <a href={`/authors/${authorProfile.slug}/`} class="flex-shrink-0">
+                    <img
+                      src={authorProfile.photo}
+                      alt={authorProfile.name}
+                      width="56"
+                      height="56"
+                      class="w-14 h-14 rounded-xl object-cover object-top ring-2 ring-slate-200 hover:ring-brand-400 transition-all"
+                    />
+                  </a>
+                  <div class="flex-1 min-w-0">
+                    <div class="text-xs uppercase tracking-wider text-brand-600 font-bold">Reviewed by</div>
+                    <a href={`/authors/${authorProfile.slug}/`} class="text-base font-bold text-slate-900 hover:text-brand-600 transition-colors block mt-0.5">
+                      {authorProfile.name} <span class="text-sm font-normal text-slate-500">· {authorProfile.role}</span>
+                    </a>
+                    <p class="text-sm text-slate-500 mt-1">{authorProfile.shortBio}</p>
+                  </div>
+                </div>
+              </div>
+            )}
+
             <!-- Back link -->
-            <div class="mt-12 pt-8 border-t border-slate-200">
+            <div class="mt-8 pt-8 border-t border-slate-200">
               <a href="/glossary/" class="inline-flex items-center gap-2 text-brand-600 hover:text-brand-700 font-semibold">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
                 Back to Glossary

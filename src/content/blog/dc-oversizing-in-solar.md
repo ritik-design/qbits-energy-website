@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-04-08
 readTime: "13 min"
 image: "/blog-images/dc-oversizing-in-solar.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - DC oversizing
   - DC AC ratio

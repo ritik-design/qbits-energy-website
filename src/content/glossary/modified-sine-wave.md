@@ -63,6 +63,7 @@ faqs:
     a: "No. Grid-tie requires pure sine for grid synchronisation."
   - q: "Is MSW used in EV chargers?"
     a: "No. EV chargers require pure sine."
+author: "Nirav Dhanani"
 ---
 
 ## What is modified sine wave

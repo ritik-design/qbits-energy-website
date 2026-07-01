@@ -63,6 +63,7 @@ faqs:
     a: "Rules issued under CERC framework requiring DISCOMs to pay generators with escalating penalties for delay, including securitisation pathways."
   - q: "Does CERC regulate green hydrogen?"
     a: "Increasingly, as green hydrogen pricing models intersect with electricity tariffs. CERC has issued draft frameworks for green tariff and green attributes trading."
+author: "Nirav Dhanani"
 ---
 
 ## What is CERC

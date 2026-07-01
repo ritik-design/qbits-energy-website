@@ -63,6 +63,7 @@ faqs:
     a: "Yes. Solar plants under gross metering qualify for 40 percent accelerated depreciation under the Income Tax Act, identical to net metering."
   - q: "What is the typical payback period for gross metering?"
     a: "6 to 9 years for commercial customers depending on FIT. Net metering usually pays back in 4 to 6 years for the same customer category. The gap is the difference between FIT and retail tariff."
+author: "Nirav Dhanani"
 ---
 
 ## What is gross metering

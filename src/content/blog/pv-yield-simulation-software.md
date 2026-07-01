@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
 image: "/blog-images/pv-yield-simulation-software.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - pv yield simulation software
   - solar yield simulation

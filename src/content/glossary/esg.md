@@ -63,6 +63,7 @@ faqs:
     a: "For purchased electricity, yes. Captive coal power replaced by solar reduces Scope 1 emissions."
   - q: "What is greenwashing?"
     a: "Misleading claims about sustainability without substantive action. Real solar adoption avoids this."
+author: "Nirav Dhanani"
 ---
 
 ## What is ESG

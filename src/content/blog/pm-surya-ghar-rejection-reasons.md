@@ -5,7 +5,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "13 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - pm surya ghar rejected
   - pm surya ghar application rejected

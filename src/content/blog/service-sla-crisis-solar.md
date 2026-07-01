@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-downtime.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar service sla india
   - solar inverter after sales service india

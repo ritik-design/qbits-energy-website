@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "19 min"
 image: "/blog-images/qbits-vs-sungrow-vs-growatt.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - best solar inverter india
   - best solar inverter india 2026

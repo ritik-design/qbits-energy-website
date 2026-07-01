@@ -63,6 +63,7 @@ faqs:
     a: "Yes for major imported components. Smaller spares may have different rates."
   - q: "Is the duty likely to change?"
     a: "Government periodically reviews. Major changes unlikely until domestic capacity fully matches demand."
+author: "Nirav Dhanani"
 ---
 
 ## What is customs duty on solar

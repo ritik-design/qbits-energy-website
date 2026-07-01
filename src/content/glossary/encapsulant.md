@@ -63,6 +63,7 @@ faqs:
     a: "Polyvinyl Butyral, encapsulant used in some BIPV applications. Stronger but more expensive."
   - q: "What is the future of encapsulants?"
     a: "POE replacing EVA in premium segments. Liquid encapsulants and high-performance polyolefins emerging."
+author: "Nirav Dhanani"
 ---
 
 ## What is encapsulant

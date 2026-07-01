@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
 image: "/blog-images/aurora-vs-helioscope.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - aurora vs helioscope
   - helioscope vs aurora

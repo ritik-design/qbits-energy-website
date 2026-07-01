@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
 image: "/blog-images/solar-financial-modeling-software.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar financial modeling software
   - solar cashflow model

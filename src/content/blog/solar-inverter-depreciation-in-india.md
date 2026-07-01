@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-04-08
 readTime: "11 min"
 image: "/blog-images/solar-inverter-depreciation-in-india.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar inverter depreciation
   - accelerated depreciation solar india

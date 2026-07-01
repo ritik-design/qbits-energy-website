@@ -63,6 +63,7 @@ faqs:
     a: "Yes. Annual motor and bearing checks. Tracker plants spend 0.5 to 1 percent more on O&M."
   - q: "Can mounting structures be removed and reused?"
     a: "Yes. End-of-life solar plants typically dismount and reuse or scrap mounting for steel recycling."
+author: "Nirav Dhanani"
 ---
 
 ## What is a solar mounting structure

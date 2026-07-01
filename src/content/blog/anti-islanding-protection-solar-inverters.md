@@ -6,7 +6,7 @@ category: Technology
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - anti islanding solar inverter
   - anti islanding protection india

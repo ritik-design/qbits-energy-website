@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-03-16
 readTime: "12 min"
 image: "/blog-images/solar-inverter-selection.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar inverter selection
   - EPC inverter procurement

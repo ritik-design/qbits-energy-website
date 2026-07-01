@@ -63,6 +63,7 @@ faqs:
     a: "Specific yield is normalised by capacity. A 1 kW residential system and a 100 MW utility plant in similar conditions have comparable yield figures."
   - q: "What is the typical yield for PM Surya Ghar systems?"
     a: "Residential PM Surya Ghar systems typically yield 1,250 to 1,550 kWh/kWp in most Indian states, depending on roof orientation and cleaning."
+author: "Keyur Rakholiya"
 ---
 
 ## What is solar yield

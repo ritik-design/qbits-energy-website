@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-05-08
 readTime: "10 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar inverter payback period
   - solar ROI India

@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - 2kw solar system price
   - 2kw solar system price in india

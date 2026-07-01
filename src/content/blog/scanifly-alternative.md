@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
 image: "/blog-images/scanifly-alternative.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - scanifly alternative
   - scanifly competitors

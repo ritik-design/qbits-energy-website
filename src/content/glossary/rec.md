@@ -63,6 +63,7 @@ faqs:
     a: "NLDC verifies metered generation before issuing RECs."
   - q: "What is the floor price?"
     a: "CERC sets floor and forbearance prices. Floor for solar RECs has been around ₹1,000/MWh."
+author: "Nirav Dhanani"
 ---
 
 ## What is a Renewable Energy Certificate

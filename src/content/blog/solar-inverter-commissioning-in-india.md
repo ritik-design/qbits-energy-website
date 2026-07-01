@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-04-08
 readTime: "14 min"
 image: "/blog-images/solar-inverter-commissioning-in-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter commissioning india
   - inverter commissioning protocol

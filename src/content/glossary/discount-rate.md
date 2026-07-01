@@ -63,6 +63,7 @@ faqs:
     a: "Discounted payback (using discount rate) is always longer than simple payback."
   - q: "What is sensitivity to discount rate?"
     a: "Each 1% discount rate change moves LCOE by 8-12 percent for typical solar."
+author: "Nirav Dhanani"
 ---
 
 ## What is discount rate

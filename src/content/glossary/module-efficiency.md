@@ -63,6 +63,7 @@ faqs:
     a: "At Standard Test Conditions (STC): 1000 W/m² irradiance, 25°C cell temperature, AM1.5 spectrum. Measured by flash testers."
   - q: "Does efficiency vary by manufacturer?"
     a: "Yes, by 1 to 3 percentage points. Tier-1 manufacturers typically lead by 0.5 to 1.5 points."
+author: "Keyur Rakholiya"
 ---
 
 ## What is module efficiency

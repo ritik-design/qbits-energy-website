@@ -5,7 +5,7 @@ category: Guide
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-depreciation-tax-benefits-guide.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar irr calculation india
   - solar payback period c&i india

@@ -63,6 +63,7 @@ faqs:
     a: "Technically a statutory body, not a regulator. CERC and SERCs are the regulators. CEA is the technical authority."
   - q: "How can I access CEA reports?"
     a: "Through the CEA website. Monthly reports on generation, capacity, fuel mix and renewable progress are published regularly."
+author: "Nirav Dhanani"
 ---
 
 ## What is CEA

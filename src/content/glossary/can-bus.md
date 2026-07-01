@@ -63,6 +63,7 @@ faqs:
     a: "Yes. CAN is standard in automotive. EVs use CAN extensively for BMS-vehicle communication."
   - q: "What is the future of CAN?"
     a: "Continues as standard. May coexist with Ethernet for higher bandwidth applications."
+author: "Nirav Dhanani"
 ---
 
 ## What is CAN bus

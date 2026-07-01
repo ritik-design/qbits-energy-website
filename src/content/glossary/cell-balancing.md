@@ -63,6 +63,7 @@ faqs:
     a: "Yes for any pack with cells in series. Required for safety and capacity utilisation."
   - q: "What is the typical balancing current?"
     a: "Passive: 50-200 mA. Active: 1-5 A. Higher current allows faster balancing."
+author: "Nirav Dhanani"
 ---
 
 ## What is cell balancing

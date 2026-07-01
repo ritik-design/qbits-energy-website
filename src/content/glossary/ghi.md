@@ -63,6 +63,7 @@ faqs:
     a: "NIWE Solar Resource Atlas, NSRDB, Solargis, Meteonorm."
   - q: "What is the relationship between GHI and PSH?"
     a: "PSH (peak sun hours) is GHI / 1000 W/m². Roughly equal to GHI in kWh/m²/day."
+author: "Nirav Dhanani"
 ---
 
 ## What is GHI

@@ -63,6 +63,7 @@ faqs:
     a: "Solid-state batteries promise 20+ year calendar life. Sodium-ion likely similar to LFP."
   - q: "Does idle storage matter?"
     a: "Yes. Long idle storage at high SOC and high temperature accelerates calendar aging more than moderate cycling."
+author: "Nirav Dhanani"
 ---
 
 ## What is calendar life

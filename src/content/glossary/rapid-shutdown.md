@@ -63,6 +63,7 @@ faqs:
     a: "No. Normal operation unaffected. Triggered only on AC loss or emergency."
   - q: "What is array boundary?"
     a: "Per NEC 690.12, 1 foot (0.3 m) around the array. Voltage outside this must be less than 30 V."
+author: "Nirav Dhanani"
 ---
 
 ## What is rapid shutdown

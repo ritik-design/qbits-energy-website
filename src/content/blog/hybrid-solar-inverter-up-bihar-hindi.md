@@ -5,7 +5,7 @@ category: "Educational"
 date: 2026-06-05
 readTime: "14 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - hybrid solar inverter up bihar hindi
   - bijli cut mein solar

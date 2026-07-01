@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "9 min"
 image: "/blog-images/solar-bid-software.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords: ["solar bid software", "solar proposal software", "solar quoting tool", "solar sales software", "SurgePV", "solar design software", "bankable yield report", "solar financial modeling"]
 faqs:
   - q: "What is solar bid software?"

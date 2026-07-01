@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "8 min"
 image: "/blog-images/floating-solar-design-software.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - floating solar design software
   - floatovoltaic design

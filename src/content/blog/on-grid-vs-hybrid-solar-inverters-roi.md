@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-04-08
 readTime: "14 min"
 image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - on-grid vs hybrid inverter
   - solar inverter ROI India

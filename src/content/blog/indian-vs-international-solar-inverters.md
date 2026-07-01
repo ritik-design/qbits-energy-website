@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-03-20
 readTime: "12 min"
 image: "/blog-images/indian-vs-international-solar-inverters.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - indian solar inverters
   - international inverter brands

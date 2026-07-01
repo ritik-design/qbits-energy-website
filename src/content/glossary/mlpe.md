@@ -63,6 +63,7 @@ faqs:
     a: "Rarely. Cost not justified at utility scale."
   - q: "What is the future of MLPE?"
     a: "Growing in residential globally. Cost reduction expected as scale increases. AI-driven optimisation emerging."
+author: "Nirav Dhanani"
 ---
 
 ## What is MLPE

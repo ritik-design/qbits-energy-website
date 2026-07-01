@@ -6,7 +6,7 @@ category: Technology
 date: 2026-06-05
 readTime: "15 min"
 image: "/blog-images/solar-inverter-specifications-decoded.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - reactive power solar inverter
   - power factor solar inverter india

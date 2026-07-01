@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-05-08
 readTime: "15 min"
 image: "/blog-images/how-to-evaluate-solar-inverter-reliability.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - inverter reliability
   - solar inverter quality

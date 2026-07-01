@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-06-05
 readTime: "13 min"
 image: "/blog-images/solar-inverter-grounding.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter ground fault
   - solar inverter gfci error india

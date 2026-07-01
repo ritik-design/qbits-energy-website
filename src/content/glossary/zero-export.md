@@ -63,6 +63,7 @@ faqs:
     a: "Commission test: increase PV output above load with grid connected, verify meter shows no reverse flow. Repeat at multiple irradiance levels."
   - q: "Can zero export fail?"
     a: "Yes, if the sensor disconnects or the inverter loses communication with the EMS. Modern systems shut the inverter down as a safe fallback."
+author: "Nirav Dhanani"
 ---
 
 ## What is zero export

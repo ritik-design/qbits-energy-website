@@ -64,6 +64,7 @@ faqs:
     a: "Currently no. ALMM applies to modules, cells and inverters. Mounting structures, cables and protection components follow BIS and IS standards separately."
   - q: "What is the impact of ALMM on solar prices?"
     a: "ALMM-listed module prices in India have historically run 5 to 15 percent higher than non-ALMM imports. The gap has narrowed as Indian manufacturing has scaled."
+author: "Nirav Dhanani"
 ---
 
 ## What is ALMM

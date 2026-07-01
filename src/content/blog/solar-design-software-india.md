@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
 image: "/blog-images/solar-design-software-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - "solar design software india"
   - "pv design software india"

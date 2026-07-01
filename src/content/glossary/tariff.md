@@ -63,6 +63,7 @@ faqs:
     a: "Monthly fixed component independent of consumption. Covers connection cost. ₹50-500/month typical."
   - q: "What is the average Indian retail tariff?"
     a: "Approximately ₹5-7/kWh averaged across categories. Significant state variation."
+author: "Nirav Dhanani"
 ---
 
 ## What is electricity tariff

@@ -63,6 +63,7 @@ faqs:
     a: "Switch is for normal operation. Isolator is for safety disconnect with visible isolation."
   - q: "How often should isolators be operated?"
     a: "Operate at least twice a year to verify function. Lubricate contacts as per manufacturer recommendation."
+author: "Nirav Dhanani"
 ---
 
 ## What is an isolator

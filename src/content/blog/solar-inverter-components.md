@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-04-08
 readTime: "9 min"
 image: "/blog-images/solar-inverter-components.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter components
   - capacitor quality

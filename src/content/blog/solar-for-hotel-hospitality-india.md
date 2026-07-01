@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-selection.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar for hotel india
   - hotel solar system india 2026

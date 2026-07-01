@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-sizing.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - off grid battery sizing india
   - off grid solar battery bank sizing

@@ -63,6 +63,7 @@ faqs:
     a: "The inverter sets the power demand. The BMS translates that to current and enforces the C-rate limit."
   - q: "Are there low-C cells designed for energy?"
     a: "Yes. Energy cells favour high capacity over high current. Power cells favour high current over capacity. LFP energy cells dominate stationary storage."
+author: "Nirav Dhanani"
 ---
 
 ## What is C-rate

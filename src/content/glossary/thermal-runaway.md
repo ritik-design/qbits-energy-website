@@ -63,6 +63,7 @@ faqs:
     a: "Water deluge, aerosol, gas-based systems. LFP fires need different approach than typical fires."
   - q: "Are Indian battery cabinets safe?"
     a: "ALMM-listed packs meet IS 16893 safety. Outdoor cabinet design includes thermal management and runaway prevention."
+author: "Nirav Dhanani"
 ---
 
 ## What is thermal runaway

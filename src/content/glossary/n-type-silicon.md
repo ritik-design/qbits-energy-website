@@ -63,6 +63,7 @@ faqs:
     a: "Most modern bifacial modules use TOPCon or HJT n-type. PERC bifacial uses p-type."
   - q: "What is the future of n-type?"
     a: "Dominant cell base. Tandem perovskite-silicon will use n-type silicon bottom cell."
+author: "Nirav Dhanani"
 ---
 
 ## What is n-type silicon

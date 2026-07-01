@@ -63,6 +63,7 @@ faqs:
     a: "Shading caused by mounting rails, cables or structures on the back of the bifacial panel. Reduces rear-side yield. Edge-clamp mounting avoids it."
   - q: "Are bifacial modules heavier?"
     a: "Glass-glass construction adds 10 to 25 percent weight. Carport and ground-mount structures need to be designed accordingly."
+author: "Nirav Dhanani"
 ---
 
 ## What is a bifacial module

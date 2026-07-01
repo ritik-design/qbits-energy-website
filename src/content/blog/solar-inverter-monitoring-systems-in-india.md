@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-03-17
 readTime: "14 min"
 image: "/blog-images/solar-inverter-monitoring-systems-in-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter monitoring India
   - AI inverter monitoring

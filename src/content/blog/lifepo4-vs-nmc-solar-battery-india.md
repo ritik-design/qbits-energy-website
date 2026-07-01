@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "15 min"
 image: "/blog-images/solar-inverter-quality.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - lifepo4 vs nmc battery india
   - lfp vs nmc solar battery india

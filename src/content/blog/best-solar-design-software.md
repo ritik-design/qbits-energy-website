@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 readTime: "16 min"
 image: "/blog-images/best-solar-design-software.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - best solar design software
   - top solar design software

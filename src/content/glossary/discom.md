@@ -63,6 +63,7 @@ faqs:
     a: "Modern DISCOMs are the unbundled successor to state electricity boards. Generation, transmission and distribution were unbundled into separate entities under Electricity Act 2003."
   - q: "Who regulates DISCOMs?"
     a: "State Electricity Regulatory Commissions (SERCs) set tariffs and rules. CERC sets inter-state and central tariffs. CEA sets technical grid standards."
+author: "Nirav Dhanani"
 ---
 
 ## What is a DISCOM

@@ -64,6 +64,7 @@ faqs:
     a: "On the DC side, yes. The maximum DC voltage on the roof is the module Voc, typically 40 to 50 V, instead of 600 to 1500 V on string systems. This eliminates most rooftop DC arc-fault risk."
   - q: "What is the price of a micro inverter in India?"
     a: "Approximate 2026 prices: 250 to 380 W single-panel units ₹6,500 to ₹10,500 each. A 5 kW residential array of 12 to 15 panels needs the same number of micro inverters, costing ₹85,000 to ₹1,50,000 just for the inverters."
+author: "Nirav Dhanani"
 ---
 
 ## What is a micro inverter

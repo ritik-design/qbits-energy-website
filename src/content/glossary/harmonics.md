@@ -64,6 +64,7 @@ faqs:
     a: "Modern multilevel central inverters produce lower THD than basic two-level string inverters because of multilevel switching. Both are well within limits."
   - q: "Are harmonics regulated in India?"
     a: "Yes. CEA Grid Code references IEEE 519 and IEC 61000 limits for distributed generators."
+author: "Nirav Dhanani"
 ---
 
 ## What are harmonics

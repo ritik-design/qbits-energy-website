@@ -63,6 +63,7 @@ faqs:
     a: "Typically held constant. Sophisticated analyses use time-varying WACC for refinancing assumptions."
   - q: "Is WACC same in all states?"
     a: "Slight variation based on DISCOM credit, state-specific regulatory risk."
+author: "Nirav Dhanani"
 ---
 
 ## What is WACC

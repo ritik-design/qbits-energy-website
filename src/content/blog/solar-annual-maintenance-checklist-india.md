@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/inverter-maintenance-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar maintenance checklist india
   - solar annual maintenance india

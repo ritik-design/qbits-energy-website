@@ -63,6 +63,7 @@ faqs:
     a: "10 to 20 years of normal use. Frequent tripping shortens life."
   - q: "Is MCB BIS-certified?"
     a: "Yes for Indian residential. IS 60898 and IS 8828 are the relevant standards."
+author: "Nirav Dhanani"
 ---
 
 ## What is an MCB

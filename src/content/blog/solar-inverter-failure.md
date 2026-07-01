@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-03-26
 readTime: "10 min"
 image: "/blog-images/solar-inverter-failure.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter failure
   - inverter failure rate India

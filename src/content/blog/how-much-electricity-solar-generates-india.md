@@ -5,7 +5,7 @@ category: Guide
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/solar-inverter-sizing.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - how much solar energy generated india
   - solar generation by state india

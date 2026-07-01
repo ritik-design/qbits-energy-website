@@ -6,7 +6,7 @@ category: Case Study
 date: 2026-06-05
 readTime: "14 min"
 image: "/blog-images/solar-epc-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - rajkot cold storage solar
   - solar for cold storage india

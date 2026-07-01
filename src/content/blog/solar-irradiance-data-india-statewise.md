@@ -6,7 +6,7 @@ category: Industry
 date: 2026-06-05
 readTime: "20 min"
 image: "/blog-images/solar-inverter-sizing.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - india solar irradiance data
   - india peak sun hours state

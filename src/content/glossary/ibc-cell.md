@@ -63,6 +63,7 @@ faqs:
     a: "Uniform dark front surface without visible busbars. Often preferred for visible installations."
   - q: "Will IBC become mainstream?"
     a: "Likely remains premium. Manufacturing complexity limits cost reduction relative to TOPCon."
+author: "Nirav Dhanani"
 ---
 
 ## What is an IBC cell

@@ -63,6 +63,7 @@ faqs:
     a: "BMS estimates typically 3-5 percent accurate. Direct measurement more accurate but disruptive."
   - q: "Should I replace battery at 80% SOH?"
     a: "Not necessarily. Continued use possible if capacity meets needs. End of life is decision, not requirement."
+author: "Nirav Dhanani"
 ---
 
 ## What is State of Health

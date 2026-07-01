@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 readTime: "22 min"
 image: "/blog-images/solar-inverter-manufacturers-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar inverter market india
   - india solar inverter industry report

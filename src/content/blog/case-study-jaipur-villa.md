@@ -6,7 +6,7 @@ category: "Case Study"
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - jaipur solar villa
   - 10 kW solar system Jaipur

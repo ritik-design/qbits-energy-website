@@ -6,7 +6,7 @@ category: Maintenance
 date: 2026-06-05
 readTime: "28 min"
 image: "/blog-images/inverter-maintenance-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - monsoon solar prep
   - solar system monsoon maintenance

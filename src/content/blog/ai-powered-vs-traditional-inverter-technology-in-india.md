@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-03-25
 readTime: "10 min"
 image: "/blog-images/ai-powered-vs-traditional-inverter-technology-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - AI inverter
   - smart inverter India

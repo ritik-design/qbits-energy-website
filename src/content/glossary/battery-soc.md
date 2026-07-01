@@ -63,6 +63,7 @@ faqs:
     a: "Typical BMS accuracy is 3 to 5 percent. Premium BMS with Kalman filtering achieves 1 to 2 percent."
   - q: "Should I always charge to 100 percent SOC?"
     a: "For LFP yes, since 100 percent is well-tolerated. For NMC, charging to 80 to 90 percent maximises calendar life."
+author: "Nirav Dhanani"
 ---
 
 ## What is battery SOC

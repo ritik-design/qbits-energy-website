@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-06-05
 readTime: "20 min"
 image: "/blog-images/solar-inverter-selection.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - 3 phase solar inverter india
   - three phase solar inverter

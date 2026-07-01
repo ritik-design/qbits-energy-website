@@ -63,6 +63,7 @@ faqs:
     a: "Standard PPA dispute resolution applies. Most contracts have late payment surcharges and escalation to CERC or SERC. Some DISCOMs have historically paid late by 90 to 180 days."
   - q: "Can FIT projects access accelerated depreciation?"
     a: "Yes. Commercial solar plants under FIT qualify for 40 percent accelerated depreciation under the Income Tax Act."
+author: "Nirav Dhanani"
 ---
 
 ## What is feed in tariff

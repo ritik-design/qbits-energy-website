@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 readTime: "11 min"
 image: "/blog-images/solar-epc-india.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar installer unit economics india
   - solar epc gross margin india

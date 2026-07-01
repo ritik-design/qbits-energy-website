@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-04-08
 readTime: "12 min"
 image: "/blog-images/solar-epc-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar EPC India
   - solar installation company

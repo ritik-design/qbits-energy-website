@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-04-08
 readTime: "12 min"
 image: "/blog-images/solar-inverter-downtime.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - solar inverter downtime india
   - inverter uptime

@@ -63,6 +63,7 @@ faqs:
     a: "Not by name, but the Act's renewable energy and distributed generation provisions support net metering regulations."
   - q: "What is Section 86(1)(e)?"
     a: "The provision empowering SERCs to promote co-generation and renewable sources of energy, including specifying RPO."
+author: "Nirav Dhanani"
 ---
 
 ## What is the Electricity Act 2003

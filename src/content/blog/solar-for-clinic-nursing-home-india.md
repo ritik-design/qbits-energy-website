@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/solar-inverter-quality.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - solar for clinic india
   - nursing home solar system india

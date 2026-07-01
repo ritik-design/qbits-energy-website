@@ -5,7 +5,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "13 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar subsidy kaise milegi
   - solar panel subsidy kaise apply karein

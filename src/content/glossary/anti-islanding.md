@@ -64,6 +64,7 @@ faqs:
     a: "An RLC test load tuned to resonance at 50 Hz is connected. The inverter feeds into the load while the grid is connected. The grid is then disconnected. The inverter must disconnect within 2 seconds across multiple load and power conditions."
   - q: "Are there exemptions from anti-islanding in India?"
     a: "No. All grid-connected solar inverters sold in India must comply with IEC 62116 or IS 17387, which embeds equivalent requirements."
+author: "Keyur Rakholiya"
 ---
 
 ## What is anti-islanding

@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-06-05
 readTime: "16 min"
 image: "/blog-images/inverter-mppt.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - dual mppt solar inverter
   - single mppt inverter

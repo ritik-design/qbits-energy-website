@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/indian-vs-international-solar-inverters.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - sungrow vs growatt
   - sungrow vs growatt solar inverter india

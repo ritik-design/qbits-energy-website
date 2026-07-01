@@ -63,6 +63,7 @@ faqs:
     a: "During clipping, MPPT operates at limit boundary, not true MPP. Brief inefficiency, included in yield modelling."
   - q: "Is clipping covered in PPA?"
     a: "PPA expected generation accounts for clipping. Excessive clipping beyond design may indicate other issues."
+author: "Keyur Rakholiya"
 ---
 
 ## What is clipping loss

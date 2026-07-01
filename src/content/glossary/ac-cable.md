@@ -63,6 +63,7 @@ faqs:
     a: "Each circuit includes a separate earth conductor. Armour of armoured cables is also bonded to earth."
   - q: "What is the typical inverter AC output?"
     a: "Single-phase 230 V, three-phase 415 V. Current depends on capacity: 1 kVA at 230 V draws 4.35 A."
+author: "Nirav Dhanani"
 ---
 
 ## What is AC cable

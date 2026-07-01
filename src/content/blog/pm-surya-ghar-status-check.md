@@ -5,7 +5,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "13 min"
 image: "/blog-images/solar-inverter-commissioning-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - pm surya ghar status
   - pm surya ghar application status check

@@ -63,6 +63,7 @@ faqs:
     a: "Based on load kVA × autonomy time × PR. 5 kVA UPS at 60% load for 30 minutes: ~3 kWh battery."
   - q: "Are UPS BIS certified?"
     a: "Yes. IS 16242 applies to UPS systems. Major Indian manufacturers (Emerson, Schneider, Eaton, Numeric, Su-Kam) listed."
+author: "Nirav Dhanani"
 ---
 
 ## What is UPS

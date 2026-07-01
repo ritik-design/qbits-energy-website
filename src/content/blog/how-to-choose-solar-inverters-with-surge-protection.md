@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-04-08
 readTime: "12 min"
 image: "/blog-images/how-to-choose-solar-inverters-with-surge-protection.svg"
-author: "Qbits Editorial"
+author: "Keyur Rakholiya"
 keywords:
   - surge protection solar inverter india
   - DC SPD AC SPD inverter

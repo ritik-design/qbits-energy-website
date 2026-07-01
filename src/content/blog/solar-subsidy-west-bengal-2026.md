@@ -5,7 +5,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "14 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar subsidy west bengal
   - solar panel subsidy west bengal 2026

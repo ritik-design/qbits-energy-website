@@ -64,6 +64,7 @@ faqs:
     a: "The meter continues to record locally and stores up to 90 days of interval data. Once communication is restored, backlog is uploaded automatically."
   - q: "How do I dispute a smart meter reading?"
     a: "Raise a complaint with the DISCOM with the meter serial number and dispute period. DISCOMs can download interval data from the meter or via AMI for verification."
+author: "Nirav Dhanani"
 ---
 
 ## What is a smart meter

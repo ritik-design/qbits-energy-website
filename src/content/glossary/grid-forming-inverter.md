@@ -63,6 +63,7 @@ faqs:
     a: "Emerging US standard for inverter-based resources including grid-forming capability requirements."
   - q: "Do off-grid inverters grid-form?"
     a: "Yes by definition. They create the entire AC bus for the off-grid system."
+author: "Nirav Dhanani"
 ---
 
 ## What is a grid-forming inverter

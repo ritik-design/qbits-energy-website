@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-06-05
 readTime: "21 min"
 image: "/blog-images/ai-powered-vs-traditional-inverter-technology-in-india.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - ai solar inverter india
   - ai solar monitoring india

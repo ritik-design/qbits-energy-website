@@ -63,6 +63,7 @@ faqs:
     a: "Same as transformers and inverters. Apparent power capacity reflects thermal limit."
   - q: "What is the relationship between kVA and Amperes?"
     a: "I (single-phase) = kVA × 1000 / V. I (three-phase) = kVA × 1000 / (√3 × V)."
+author: "Nirav Dhanani"
 ---
 
 ## What is kVA

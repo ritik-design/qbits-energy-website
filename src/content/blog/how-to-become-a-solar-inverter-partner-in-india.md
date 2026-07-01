@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-05-06
 readTime: "12 min"
 image: "/blog-images/how-to-become-a-solar-inverter-partner-in-india.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - solar inverter distributor india
   - inverter channel partner

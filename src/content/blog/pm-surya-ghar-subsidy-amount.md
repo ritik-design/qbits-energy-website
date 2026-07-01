@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 readTime: "22 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
-author: "Qbits Editorial"
+author: "Akash Hirapara"
 keywords:
   - pm surya ghar subsidy amount
   - pm surya ghar subsidy calculator

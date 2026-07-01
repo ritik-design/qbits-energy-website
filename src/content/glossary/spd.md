@@ -63,6 +63,7 @@ faqs:
     a: "₹500 to ₹3,000 per SPD for residential, ₹3,000 to ₹15,000 for C&I, depending on class and discharge capacity."
   - q: "Does SPD need earthing?"
     a: "Yes, mandatory. The whole purpose is to divert surge current to earth. Without earthing, SPD is non-functional."
+author: "Nirav Dhanani"
 ---
 
 ## What is an SPD

@@ -63,6 +63,7 @@ faqs:
     a: "BIS Care App and the manuf-cert database on the BIS website. Look for the certificate number printed on the product."
   - q: "Can a product be sold without BIS certification?"
     a: "Not legally for products under mandatory certification orders. Sale of uncertified products invites penalties and confiscation."
+author: "Nirav Dhanani"
 ---
 
 ## What is BIS certification

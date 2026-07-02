@@ -141,6 +141,13 @@
         window.gtag('event', 'generate_lead', { form_id: 'quick-lead-form' });
       }
 
+      // Sync to Odoo CRM in parallel — non-blocking, doesn't affect the email-based UX below.
+      fetch('/api/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      }).catch((err) => console.error('CRM sync failed:', err));
+
       setSending(true);
       try {
         const res = await fetch(ENDPOINT, {

@@ -5,9 +5,10 @@ export interface Props {
   highlight?: string;
   description?: string;
   bgImage?: string;
+  centered?: boolean;
 }
 
-const { label, title, highlight, description, bgImage } = Astro.props;
+const { label, title, highlight, description, bgImage, centered = false } = Astro.props;
 ---
 
 <section class="relative pt-28 pb-16 lg:pt-36 lg:pb-24 overflow-hidden bg-slate-950" aria-labelledby="page-heading">
@@ -18,9 +19,9 @@ const { label, title, highlight, description, bgImage } = Astro.props;
     </div>
   )}
 
-  <div class="container-main relative z-20">
+  <div class={`container-main relative z-20 ${centered ? 'text-center' : ''}`}>
     {label && (
-      <span class="section-label text-brand-400">
+      <span class={`section-label text-brand-400 ${centered ? 'justify-center' : ''}`}>
         <span class="w-8 h-px bg-brand-500"></span>
         {label}
       </span>
@@ -30,7 +31,7 @@ const { label, title, highlight, description, bgImage } = Astro.props;
       {highlight && <span class="text-gradient">{` ${highlight}`}</span>}
     </h1>
     {description && (
-      <p class="mt-4 text-lg text-slate-400 max-w-2xl leading-relaxed">{description}</p>
+      <p class={`mt-4 text-lg text-slate-400 leading-relaxed ${centered ? 'mx-auto max-w-2xl' : 'max-w-2xl'}`}>{description}</p>
     )}
   </div>
 </section>

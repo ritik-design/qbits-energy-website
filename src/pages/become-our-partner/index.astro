@@ -1,0 +1,432 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HeaderV2 from '../../components/HeaderV2.astro';
+import Footer from '../../components/Footer.astro';
+import PageHeader from '../../components/ui/PageHeader.astro';
+
+const businessTypes = ['Dealer', 'Distributor', 'EPC', 'System Integrator'];
+const officeTypes = ['Owned', 'Rented'];
+const yesNo = ['Yes', 'No'];
+---
+
+<Layout
+  title="Become Our Partner | Qbits Energy"
+  description="Join the Qbits Energy channel partner program. Apply as a dealer, distributor, EPC or system integrator for solar inverters across India."
+  canonical="/become-our-partner/"
+>
+  <HeaderV2 />
+
+  <main id="main-content">
+    <PageHeader
+      label="Channel Partner"
+      title="Become Our"
+      highlight="Partner"
+      description="Partner with Qbits Energy and grow your solar business with high-efficiency inverters, dedicated support, and exclusive partner benefits."
+      bgImage="/homepage/built-for-india.webp"
+      centered={true}
+    />
+
+    <!-- Partner Form -->
+    <section class="section-padding bg-slate-50" aria-labelledby="form-heading">
+      <div class="container-main">
+        <div class="max-w-4xl mx-auto">
+          <div class="text-center mb-12">
+            <span class="section-label justify-center">
+              <span class="w-8 h-px bg-brand-500"></span>
+              Partner Application
+              <span class="w-8 h-px bg-brand-500"></span>
+            </span>
+            <h2 id="form-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
+              Channel Partner Application Form
+            </h2>
+            <p class="text-slate-500 mt-4">Fill in the details below. Our team will review and reach out within 2-3 business days.</p>
+          </div>
+
+          <form id="partner-form" class="bg-white rounded-2xl shadow-xl shadow-slate-900/5 p-8 lg:p-10 space-y-10" novalidate>
+            <!-- Company Information -->
+            <fieldset class="space-y-5">
+              <legend class="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
+                <span class="w-8 h-8 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center text-sm">1</span>
+                Company Information
+              </legend>
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div class="sm:col-span-2">
+                  <label for="companyName" class="block text-sm font-medium text-slate-700 mb-1.5">Company Name <span class="text-rose-500">*</span></label>
+                  <input type="text" id="companyName" name="companyName" required maxlength="120" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="Registered company name" />
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="registeredAddress" class="block text-sm font-medium text-slate-700 mb-1.5">Registered Address <span class="text-rose-500">*</span></label>
+                  <textarea id="registeredAddress" name="registeredAddress" rows="3" required minlength="10" maxlength="500" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all resize-none bg-slate-50/50" placeholder="Full registered address"></textarea>
+                </div>
+                <div>
+                  <label for="businessEmail" class="block text-sm font-medium text-slate-700 mb-1.5">Official Business Email <span class="text-rose-500">*</span></label>
+                  <input type="email" id="businessEmail" name="businessEmail" required maxlength="120" autocomplete="email" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="info@company.com" />
+                </div>
+                <div>
+                  <label for="whatsappNumber" class="block text-sm font-medium text-slate-700 mb-1.5">WhatsApp Number <span class="text-rose-500">*</span></label>
+                  <input type="tel" id="whatsappNumber" name="whatsappNumber" required pattern="[0-9]{10}" inputmode="tel" maxlength="10" autocomplete="tel" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="10-digit mobile number without country code" />
+                  <p class="text-xs text-slate-500 mt-1">Write mobile number without country code</p>
+                </div>
+                <div>
+                  <label for="website" class="block text-sm font-medium text-slate-700 mb-1.5">Website</label>
+                  <input type="url" id="website" name="website" maxlength="120" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="https://www.company.com" />
+                </div>
+                <div>
+                  <label for="gstPan" class="block text-sm font-medium text-slate-700 mb-1.5">GST / PAN Number</label>
+                  <input type="text" id="gstPan" name="gstPan" maxlength="20" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="GST or PAN number" />
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="gstPanDocument" class="block text-sm font-medium text-slate-700 mb-1.5">GST / PAN Number (Upload Document) <span class="text-rose-500">*</span></label>
+                  <input type="file" id="gstPanDocument" name="gstPanDocument" required accept="image/*,.pdf" class="block w-full text-sm text-slate-600 file:mr-4 file:py-2.5 file:px-4 file:rounded-xl file:border-0 file:text-sm file:font-semibold file:bg-brand-50 file:text-brand-700 hover:file:bg-brand-100 cursor-pointer rounded-xl border border-slate-200 bg-slate-50/50 px-4 py-3 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all" />
+                  <p class="text-xs text-slate-500 mt-1">Note: You can only upload one file. (PDF, JPG or PNG)</p>
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Business Profile -->
+            <fieldset class="space-y-5">
+              <legend class="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
+                <span class="w-8 h-8 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center text-sm">2</span>
+                Business Profile
+              </legend>
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-sm font-medium text-slate-700 mb-3">Business Type</label>
+                  <div class="flex flex-wrap gap-3">
+                    {businessTypes.map(type => (
+                      <label class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50/50 cursor-pointer hover:border-brand-300 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                        <input type="radio" name="businessType" value={type} class="w-4 h-4 text-brand-600 focus:ring-brand-500 border-slate-300" />
+                        <span class="text-sm text-slate-700">{type}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <label for="pmSuryagharName" class="block text-sm font-medium text-slate-700 mb-1.5">PM Suryaghar Registered Name <span class="text-xs text-slate-400 font-normal">(Applicable to EPC)</span></label>
+                  <input type="text" id="pmSuryagharName" name="pmSuryagharName" maxlength="120" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="Registered PM Suryaghar name" />
+                </div>
+                <div>
+                  <label for="annualTurnover" class="block text-sm font-medium text-slate-700 mb-1.5">Annual Turnover (₹)</label>
+                  <input type="text" id="annualTurnover" name="annualTurnover" maxlength="50" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. ₹50 Lakhs" />
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="brandsUsed" class="block text-sm font-medium text-slate-700 mb-1.5">Brands Currently Using in Inverter for Solar Projects</label>
+                  <input type="text" id="brandsUsed" name="brandsUsed" maxlength="250" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. Growatt, SolarEdge, etc." />
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Infrastructure -->
+            <fieldset class="space-y-5">
+              <legend class="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
+                <span class="w-8 h-8 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center text-sm">3</span>
+                Infrastructure & Team
+              </legend>
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-sm font-medium text-slate-700 mb-3">Office Type</label>
+                  <div class="flex flex-wrap gap-3">
+                    {officeTypes.map(type => (
+                      <label class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50/50 cursor-pointer hover:border-brand-300 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                        <input type="radio" name="officeType" value={type} class="w-4 h-4 text-brand-600 focus:ring-brand-500 border-slate-300" />
+                        <span class="text-sm text-slate-700">{type}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-slate-700 mb-3">Warehouse Available</label>
+                  <div class="flex flex-wrap gap-3">
+                    {yesNo.map(type => (
+                      <label class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50/50 cursor-pointer hover:border-brand-300 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                        <input type="radio" name="warehouseAvailable" value={type} class="w-4 h-4 text-brand-600 focus:ring-brand-500 border-slate-300" />
+                        <span class="text-sm text-slate-700">{type}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <label for="warehouseSize" class="block text-sm font-medium text-slate-700 mb-1.5">Warehouse Size in Sq. Feet</label>
+                  <input type="text" id="warehouseSize" name="warehouseSize" maxlength="50" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. 2000 sq ft" />
+                </div>
+                <div>
+                  <label for="salesTeam" class="block text-sm font-medium text-slate-700 mb-1.5">Sales Team Availability <span class="text-xs text-slate-400 font-normal">(Yes or No / in numbers)</span></label>
+                  <input type="text" id="salesTeam" name="salesTeam" maxlength="50" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. Yes, 5 members" />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-slate-700 mb-3">Technical Support Team</label>
+                  <div class="flex flex-wrap gap-3">
+                    {yesNo.map(type => (
+                      <label class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50/50 cursor-pointer hover:border-brand-300 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                        <input type="radio" name="technicalSupportTeam" value={type} class="w-4 h-4 text-brand-600 focus:ring-brand-500 border-slate-300" />
+                        <span class="text-sm text-slate-700">{type}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <label for="serviceTeam" class="block text-sm font-medium text-slate-700 mb-1.5">Service Team Availability <span class="text-xs text-slate-400 font-normal">(Yes or No / in numbers)</span></label>
+                  <input type="text" id="serviceTeam" name="serviceTeam" maxlength="50" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. Yes, 3 members" />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-slate-700 mb-3">Service Center Available</label>
+                  <div class="flex flex-wrap gap-3">
+                    {yesNo.map(type => (
+                      <label class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50/50 cursor-pointer hover:border-brand-300 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                        <input type="radio" name="serviceCenterAvailable" value={type} class="w-4 h-4 text-brand-600 focus:ring-brand-500 border-slate-300" />
+                        <span class="text-sm text-slate-700">{type}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <label for="serviceCenterLocation" class="block text-sm font-medium text-slate-700 mb-1.5">Service Center Location</label>
+                  <input type="text" id="serviceCenterLocation" name="serviceCenterLocation" maxlength="200" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="City, State" />
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Financial Details -->
+            <fieldset class="space-y-5">
+              <legend class="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
+                <span class="w-8 h-8 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center text-sm">4</span>
+                Financial Details
+              </legend>
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="workingCapital" class="block text-sm font-medium text-slate-700 mb-1.5">Working Capital Total Available (In Lacs)</label>
+                  <input type="text" id="workingCapital" name="workingCapital" maxlength="50" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. 25 Lacs" />
+                </div>
+                <div>
+                  <label for="bankLoanAmount" class="block text-sm font-medium text-slate-700 mb-1.5">Total Bank Loan Amount</label>
+                  <input type="text" id="bankLoanAmount" name="bankLoanAmount" maxlength="50" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="Don't include CC and OD limits" />
+                  <p class="text-xs text-slate-500 mt-1">Don't include CC and OD limits</p>
+                </div>
+                <div>
+                  <label for="ccLimits" class="block text-sm font-medium text-slate-700 mb-1.5">CC Limits <span class="text-xs text-slate-400 font-normal">(total CC limits in lacs)</span></label>
+                  <input type="text" id="ccLimits" name="ccLimits" maxlength="50" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. 10 Lacs" />
+                </div>
+                <div>
+                  <label for="otherCapital" class="block text-sm font-medium text-slate-700 mb-1.5">Others (If Any)</label>
+                  <input type="text" id="otherCapital" name="otherCapital" maxlength="100" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="any other capital source - amount" />
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="hypothicatedBank" class="block text-sm font-medium text-slate-700 mb-1.5">Hypothicated To (Bank Name)</label>
+                  <input type="text" id="hypothicatedBank" name="hypothicatedBank" maxlength="120" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="Bank name" />
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Sales Commitment -->
+            <fieldset class="space-y-5">
+              <legend class="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
+                <span class="w-8 h-8 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center text-sm">5</span>
+                Sales Commitment
+              </legend>
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="targetSales" class="block text-sm font-medium text-slate-700 mb-1.5">Target Sales Commitment per Month (Nos.)</label>
+                  <input type="text" id="targetSales" name="targetSales" maxlength="50" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. 20 units" />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-slate-700 mb-3">Ready to Promote Brand in Market?</label>
+                  <div class="flex flex-wrap gap-3">
+                    {yesNo.map(type => (
+                      <label class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50/50 cursor-pointer hover:border-brand-300 transition-colors has-[:checked]:border-brand-500 has-[:checked]:bg-brand-50">
+                        <input type="radio" name="readyToPromote" value={type} class="w-4 h-4 text-brand-600 focus:ring-brand-500 border-slate-300" />
+                        <span class="text-sm text-slate-700">{type}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+                <div class="sm:col-span-2">
+                  <label for="previousExperience" class="block text-sm font-medium text-slate-700 mb-1.5">Previous Experience in Solar Inverter Business</label>
+                  <textarea id="previousExperience" name="previousExperience" rows="4" maxlength="1000" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all resize-none bg-slate-50/50" placeholder="Briefly describe your experience in solar inverter business..."></textarea>
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- Honeypot: visible to bots, hidden from humans + screen readers -->
+            <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
+              <label>Don't fill this: <input type="text" id="website2" name="website2" tabindex="-1" autocomplete="off" /></label>
+            </div>
+
+            <div class="pt-2">
+              <button type="submit" id="partner-submit" class="btn-primary w-full sm:w-auto">
+                <span data-label-default>Submit Application</span>
+                <span data-label-sending class="hidden">Submitting…</span>
+              </button>
+              <p id="partner-status" class="text-sm mt-4 hidden" role="status" aria-live="polite"></p>
+              <p class="text-xs text-slate-500 leading-relaxed mt-4">
+                By submitting, you agree to our <a href="/privacy-policy/" class="text-brand-600 hover:underline">Privacy Policy</a>. Our partner team will contact you within 2-3 business days.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Partner -->
+    <section class="section-padding bg-white" aria-labelledby="why-partner-heading">
+      <div class="container-main">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="section-label justify-center">
+            <span class="w-8 h-px bg-brand-500"></span>
+            Why Partner With Us
+            <span class="w-8 h-px bg-brand-500"></span>
+          </span>
+          <h2 id="why-partner-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
+            Build a Profitable Solar Business Together
+          </h2>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-slate-50 rounded-2xl p-8 text-center hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 hover:-translate-y-1 group">
+            <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Competitive Margins</h3>
+            <p class="text-sm text-slate-500">Attractive pricing and volume-based incentives for every partner tier.</p>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-8 text-center hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 hover:-translate-y-1 group">
+            <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zM12 9v4m0 0h.01"/></svg>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Technical Support</h3>
+            <p class="text-sm text-slate-500">Dedicated account manager and product training for your team.</p>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-8 text-center hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 hover:-translate-y-1 group">
+            <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"/></svg>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Marketing Support</h3>
+            <p class="text-sm text-slate-500">Co-branded materials, lead sharing, and demand-generation campaigns.</p>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-8 text-center hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 hover:-translate-y-1 group">
+            <div class="w-14 h-14 mx-auto rounded-xl bg-brand-100 flex items-center justify-center text-brand-600 mb-5 group-hover:bg-brand-500 group-hover:text-white transition-all duration-500">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Quality Assurance</h3>
+            <p class="text-sm text-slate-500">Reliable, India-tested solar inverters with strong warranty backing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-24 lg:py-32 bg-brand-500 text-white relative overflow-hidden">
+      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+      <div class="absolute -top-40 -right-40 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+      <div class="container-main relative text-center max-w-3xl">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-6">Have Questions Before Applying?</h2>
+        <p class="text-lg text-brand-100 mb-10">Talk to our partnership team directly on WhatsApp or call us for a quick discussion.</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="https://wa.me/919979192935" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-brand-600 shadow-lg hover:bg-brand-50 transition-all">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat on WhatsApp
+          </a>
+          <a href="tel:+919979192935" class="btn-outline">Call +91 99791 92935</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script is:inline>
+  (() => {
+    const ENDPOINT = 'https://formsubmit.co/ajax/ritik@thestacc.com';
+    const SUCCESS_MESSAGE = 'Thank you! Your partner application has been submitted. We will contact you within 2-3 business days.';
+    const ERROR_MESSAGE = 'Sorry, we couldn\'t submit your application. Please call +91 99791 92935 or email service@qbitsenergy.com.';
+
+    const form = document.getElementById('partner-form');
+    const status = document.getElementById('partner-status');
+    const btn = document.getElementById('partner-submit');
+    const labelDefault = btn.querySelector('[data-label-default]');
+    const labelSending = btn.querySelector('[data-label-sending]');
+
+    const setSending = (sending) => {
+      btn.disabled = sending;
+      labelDefault.classList.toggle('hidden', sending);
+      labelSending.classList.toggle('hidden', !sending);
+    };
+
+    const showStatus = (msg, ok) => {
+      status.classList.remove('hidden');
+      status.textContent = msg;
+      status.className = 'text-sm mt-4 ' + (ok ? 'text-emerald-600' : 'text-rose-600');
+      if (ok) status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    };
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      // Honeypot - silently succeed for bots.
+      if ((form.elements.namedItem('website2') || {}).value) {
+        form.reset();
+        showStatus(SUCCESS_MESSAGE, true);
+        return;
+      }
+
+      const fd = new FormData(form);
+      // Remove honeypot and append metadata.
+      fd.delete('website2');
+      fd.append('_subject', 'New Qbits Channel Partner Application: ' + (fd.get('companyName') || 'Unknown'));
+      fd.append('_template', 'table');
+      fd.append('_cc', 'keyur@heavendesigns.in,isha.heaven204@gmail.com');
+      fd.append('_captcha', 'false');
+      fd.append('source', 'partner-form');
+      fd.append('page', location.pathname);
+      fd.append('submittedAt', new Date().toISOString());
+
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'form_submit', {
+          form_id: 'partner-form',
+          subject: 'Channel Partner Application',
+        });
+      }
+
+      // Sync to Odoo CRM in parallel — non-blocking, doesn't affect the email-based UX below.
+      const odooData = {
+        source: 'partner-form',
+        page: location.pathname,
+        submittedAt: new Date().toISOString(),
+      };
+      for (const [key, value] of fd.entries()) {
+        if (key === 'website2' || key.startsWith('_')) continue;
+        if (typeof value === 'string') odooData[key] = value.trim();
+      }
+      fetch('/api/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(odooData),
+      }).catch((err) => console.error('CRM sync failed:', err));
+
+      setSending(true);
+      try {
+        const res = await fetch(ENDPOINT, {
+          method: 'POST',
+          body: fd,
+        });
+        const result = await res.json().catch(() => ({}));
+        if (result.success === 'true' || result.success === true) {
+          form.reset();
+          showStatus(SUCCESS_MESSAGE, true);
+        } else {
+          throw new Error(result.message || 'Submission failed');
+        }
+      } catch (err) {
+        console.error('Partner form submission failed:', err);
+        showStatus(ERROR_MESSAGE, false);
+      } finally {
+        setSending(false);
+      }
+    });
+  })();
+</script>

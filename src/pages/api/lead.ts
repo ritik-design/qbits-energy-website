@@ -12,12 +12,14 @@ const SOURCE_IDS: Record<string, number> = {
   'contact-form': 186, // Qbits Website - Contact Form
   'home-quick-lead': 187, // Qbits Website - Quick Lead
   'datasheet-bundle': 188, // Qbits Website - Datasheet Bundle
+  'partner-form': 189, // Qbits Website - Channel Partner Application
 };
 
 const FORM_TITLES: Record<string, string> = {
   'contact-form': 'Website Inquiry',
   'home-quick-lead': 'Quick Site Survey Request',
   'datasheet-bundle': 'Datasheet Bundle Request',
+  'partner-form': 'Channel Partner Application',
 };
 
 let rpcId = 1;
@@ -105,9 +107,51 @@ function buildDescription(data: Record<string, string>) {
     role: 'Role',
     subject: 'Inquiry Type',
     systemSize: 'System Size',
+    city: 'City',
     message: 'Message',
   };
   const rows = Object.entries(fieldLabels)
+    .filter(([key]) => data[key])
+    .map(([key, label]) => `<b>${label}:</b> ${escapeHtml(data[key])}`);
+  const meta = `Submitted from ${escapeHtml(data.page || 'the Qbits Energy website')}.`;
+  return `<p>${rows.join('<br/>')}</p><p><i>${meta}</i></p>`;
+}
+
+// Partner form field labels mapped to the Odoo fields shared by the user.
+// Fields with a standard crm.lead equivalent are mapped directly; everything
+// else is included in the description so no data is lost.
+const PARTNER_FIELD_LABELS: Record<string, string> = {
+  companyName: 'Company Name',
+  registeredAddress: 'Registered Address',
+  businessEmail: 'Official Business Email',
+  whatsappNumber: 'WhatsApp Number',
+  website: 'Website',
+  gstPan: 'GST / PAN Number',
+  gstPanDocument: 'GST / PAN Document',
+  businessType: 'Business Type',
+  pmSuryagharName: 'PM Suryaghar Registered Name',
+  annualTurnover: 'Annual Turnover (₹)',
+  brandsUsed: 'Brands Currently Using in Inverter for Solar projects',
+  officeType: 'Office Type',
+  warehouseAvailable: 'Warehouse Available',
+  warehouseSize: 'Warehouse Size in Sq. Feet',
+  salesTeam: 'Sales Team Availability',
+  technicalSupportTeam: 'Technical Support Team',
+  serviceTeam: 'Service Team Availability',
+  serviceCenterAvailable: 'Service Center Available',
+  serviceCenterLocation: 'Service Center Location',
+  workingCapital: 'Working Capital Total Available (In Lacs)',
+  bankLoanAmount: 'Total Bank Loan Amount',
+  ccLimits: 'CC Limits',
+  otherCapital: 'Others (If Any)',
+  hypothicatedBank: 'Hypothicated To (Bank Name)',
+  targetSales: 'Target Sales Commitment per Month (Nos.)',
+  readyToPromote: 'Ready to Promote Brand in Market?',
+  previousExperience: 'Previous Experience in Solar Inverter Business',
+};
+
+function buildPartnerDescription(data: Record<string, string>) {
+  const rows = Object.entries(PARTNER_FIELD_LABELS)
     .filter(([key]) => data[key])
     .map(([key, label]) => `<b>${label}:</b> ${escapeHtml(data[key])}`);
   const meta = `Submitted from ${escapeHtml(data.page || 'the Qbits Energy website')}.`;
@@ -132,17 +176,24 @@ export const POST: APIRoute = async ({ request }) => {
     });
   }
 
+  const formSource = data.source && SOURCE_IDS[data.source] ? data.source : 'contact-form';
+  const isPartnerForm = formSource === 'partner-form';
+
   // Honeypot — silently succeed for bots, same as the client-side check.
-  if (data.website) {
+  // Partner form uses a real 'website' field, so its honeypot is named 'website2'.
+  const honeypotKey = isPartnerForm ? 'website2' : 'website';
+  if (data[honeypotKey]) {
     return new Response(JSON.stringify({ success: true }), {
       status: 200,
       headers: { 'Content-Type': 'application/json' },
     });
   }
 
-  const name = (data.name || '').trim();
-  const mobile = (data.phone || '').trim();
-  const email = (data.email || '').trim();
+  // Validation differs by form: partner applications are keyed to the company,
+  // while the contact form is keyed to the person's name.
+  const name = isPartnerForm ? (data.companyName || '').trim() : (data.name || '').trim();
+  const mobile = isPartnerForm ? (data.whatsappNumber || '').trim() : (data.phone || '').trim();
+  const email = isPartnerForm ? (data.businessEmail || '').trim() : (data.email || '').trim();
   if (!name || (!mobile && !email)) {
     return new Response(JSON.stringify({ success: false, message: 'Missing required fields' }), {
       status: 400,
@@ -150,7 +201,6 @@ export const POST: APIRoute = async ({ request }) => {
     });
   }
 
-  const formSource = data.source && SOURCE_IDS[data.source] ? data.source : 'contact-form';
   const sourceId = SOURCE_IDS[formSource];
   const title = `${FORM_TITLES[formSource]} - ${name}`;
 
@@ -165,11 +215,18 @@ export const POST: APIRoute = async ({ request }) => {
       partner_id: partnerId,
       medium_id: WEBSITE_MEDIUM_ID,
       source_id: sourceId,
-      description: buildDescription(data),
+      description: isPartnerForm ? buildPartnerDescription(data) : buildDescription(data),
     };
     if (mobile) leadVals.mobile = mobile;
     if (email) leadVals.email_from = email;
     if (data.city) leadVals.city = data.city.trim();
+
+    // Partner-form specific direct mappings to standard crm.lead fields.
+    if (isPartnerForm) {
+      leadVals.partner_name = name;
+      if (data.registeredAddress) leadVals.street = data.registeredAddress.trim();
+      if (data.website) leadVals.website = data.website.trim();
+    }
 
     const leadId = await odooExecute(env, uid, 'crm.lead', 'create', [leadVals]);
 

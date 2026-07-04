@@ -117,157 +117,112 @@ const DEFAULT_LOADS = [
     />
 
     <section class="section-padding bg-slate-50">
-      <div class="container-main max-w-5xl">
+      <div class="container-main max-w-6xl">
 
-        <!-- Tool Card -->
-        <div class="bg-white rounded-2xl shadow-xl shadow-slate-900/8 overflow-hidden">
-
-          <!-- Tool Header -->
-          <div class="bg-gradient-to-r from-brand-800 to-brand-500 px-8 py-6 text-white">
-            <div class="flex items-center justify-between gap-4 flex-wrap">
-              <div class="flex items-center gap-4">
-                <div class="w-11 h-11 bg-white/20 rounded-xl flex items-center justify-center shrink-0">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                  </svg>
-                </div>
-                <div>
-                  <h2 class="text-lg font-bold leading-tight">String &amp; Battery Sizing Calculator</h2>
-                  <p class="text-sm text-brand-100">On-Grid string sizing &middot; Hybrid PV + battery sizing</p>
-                </div>
-              </div>
-
-              <div id="sysType" class="inline-flex bg-white/15 rounded-full p-1 gap-1">
-                <button type="button" data-type="ongrid" class="sys-btn active px-4 py-2 rounded-full text-xs font-bold transition-colors">On-Grid</button>
-                <button type="button" data-type="hybrid" class="sys-btn px-4 py-2 rounded-full text-xs font-bold transition-colors">Hybrid</button>
-              </div>
-            </div>
+        <!-- Tool header -->
+        <div class="flex items-start gap-4 mb-8">
+          <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-accent to-accent-dark flex items-center justify-center shrink-0 shadow-lg shadow-accent/30">
+            <svg class="w-7 h-7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"></path>
+            </svg>
           </div>
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold text-slate-900 leading-tight">Solar String and Battery Sizing Calculator</h2>
+            <p class="text-slate-500 mt-1">Match your Adani panels to the right Qbits inverter string configuration &mdash; instantly.</p>
+          </div>
+        </div>
 
-          <!-- Section 1: Equipment & Site Conditions -->
-          <div class="px-8 py-7 border-b border-slate-100">
-            <div class="flex items-center gap-3 mb-6">
-              <span class="w-7 h-7 rounded-lg bg-brand-50 text-brand-700 text-sm font-bold flex items-center justify-center shrink-0">1</span>
-              <h3 class="text-base font-bold text-brand-700">Equipment &amp; Site Conditions</h3>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+
+          <!-- LEFT: System Inputs -->
+          <div class="lg:col-span-5 bg-white rounded-2xl shadow-xl shadow-slate-900/8 p-6 sm:p-7">
+            <h3 class="flex items-center gap-2 text-base font-bold text-slate-900 mb-5"><span class="w-2 h-2 rounded-full bg-accent shrink-0"></span>System Inputs</h3>
+
+            <div id="sysType" class="flex bg-slate-100 rounded-xl p-1 gap-1 mb-6">
+              <button type="button" data-type="ongrid" class="sys-btn active flex-1 py-2.5 rounded-lg text-sm font-bold transition-colors">On-Grid</button>
+              <button type="button" data-type="hybrid" class="sys-btn flex-1 py-2.5 rounded-lg text-sm font-bold transition-colors">Hybrid</button>
             </div>
 
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+            <label class="field-label" for="panel-select">Solar Panel (Adani)</label>
+            <select id="panel-select" class="tool-select"></select>
+            <div id="panelChips" class="flex flex-wrap gap-2 mt-3 mb-5"></div>
+
+            <label class="field-label" for="inverter-select">Inverter (Qbits)</label>
+            <select id="inverter-select" class="tool-select"></select>
+            <div id="invChips" class="flex flex-wrap gap-2 mt-3 mb-5"></div>
+
+            <label class="field-label" for="total-panels">Number of Panels</label>
+            <input id="total-panels" type="number" min="1" max="5000" step="1" value="30" class="tool-input mb-5" />
+
+            <div class="grid grid-cols-2 gap-4">
               <div>
-                <label class="field-label">Solar Panel (Adani)</label>
-                <select id="panel-select" class="tool-select"></select>
-              </div>
-              <div>
-                <label class="field-label">Inverter (Qbits)</label>
-                <select id="inverter-select" class="tool-select"></select>
-              </div>
-              <div>
-                <label class="field-label">Number of Panels</label>
-                <input id="total-panels" type="number" min="1" max="5000" step="1" value="30" class="tool-input" />
-              </div>
-              <div>
-                <label class="field-label">Min Temp (&deg;C)</label>
+                <label class="field-label" for="t-min">Min Temp (&deg;C)</label>
                 <input id="t-min" type="number" step="1" value="5" class="tool-input" />
               </div>
-            </div>
-
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
               <div>
-                <label class="field-label">Max Temp (&deg;C)</label>
+                <label class="field-label" for="t-max">Max Temp (&deg;C)</label>
                 <input id="t-max" type="number" step="1" max="50" value="50" class="tool-input" />
               </div>
             </div>
             <p class="text-xs text-slate-400 mt-2 mb-6">Cold min temp raises Voc (over-voltage risk); hot max temp lowers Vmp. Defaults: 5&deg;C / 50&deg;C.</p>
 
-            <!-- Info cards -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div class="bg-brand-50/60 border border-brand-100 rounded-xl px-5 py-4">
-                <p class="text-xs font-semibold uppercase tracking-wider text-brand-700 mb-3">Panel @ STC</p>
-                <div class="grid grid-cols-3 gap-x-4 gap-y-1.5 text-sm">
-                  <div><span class="text-slate-400 text-xs">Voc</span><br /><span class="font-semibold text-slate-800" id="pi-voc">-</span></div>
-                  <div><span class="text-slate-400 text-xs">Vmp</span><br /><span class="font-semibold text-slate-800" id="pi-vmp">-</span></div>
-                  <div><span class="text-slate-400 text-xs">Power</span><br /><span class="font-semibold text-slate-800" id="pi-watt">-</span></div>
-                  <div><span class="text-slate-400 text-xs">Isc</span><br /><span class="font-semibold text-slate-800" id="pi-isc">-</span></div>
-                  <div><span class="text-slate-400 text-xs">Imp</span><br /><span class="font-semibold text-slate-800" id="pi-imp">-</span></div>
-                  <div><span class="text-slate-400 text-xs">T(Voc)</span><br /><span class="font-semibold text-slate-800" id="pi-tc">-</span></div>
+            <!-- Hybrid backup loads -->
+            <div id="hybrid-section" class="hidden">
+              <div class="flex items-start gap-3 bg-blue-50 border border-blue-100 rounded-xl px-4 py-3 mb-5">
+                <svg class="w-4 h-4 text-blue-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke-width="2"></circle><path stroke-linecap="round" stroke-width="2" d="M12 8h.01M11 12h1v4h1"></path></svg>
+                <p class="text-xs text-blue-800 leading-relaxed">PV string sizing uses the hybrid inverter selected above; the battery bank is sized from the backup loads below.</p>
+              </div>
+
+              <label class="field-label">Backup Loads (Hybrid)</label>
+              <div class="rounded-xl border border-slate-200 overflow-hidden">
+                <div class="grid grid-cols-[1fr_70px_50px_56px_28px] gap-2 items-center px-4 py-2.5 bg-slate-50 text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                  <span>Appliance</span><span>Watts</span><span>Qty</span><span>Hrs</span><span></span>
+                </div>
+                <div id="loadRows"></div>
+                <div class="flex justify-between items-center px-4 py-3 bg-accent/10 border-t border-slate-200 text-sm font-bold">
+                  <span class="text-slate-700">Daily energy</span>
+                  <span id="loadTotal" class="text-accent-dark">0 Wh/day</span>
                 </div>
               </div>
-              <div class="bg-slate-50 border border-slate-200 rounded-xl px-5 py-4">
-                <p class="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-3">Inverter</p>
-                <div class="grid grid-cols-3 gap-x-4 gap-y-1.5 text-sm">
-                  <div><span class="text-slate-400 text-xs">Max DC</span><br /><span class="font-semibold text-slate-800" id="ii-vmax">-</span></div>
-                  <div><span class="text-slate-400 text-xs">MPPT</span><br /><span class="font-semibold text-slate-800" id="ii-mppt">-</span></div>
-                  <div><span class="text-slate-400 text-xs">Max AC</span><br /><span class="font-semibold text-slate-800" id="ii-ac">-</span></div>
-                  <div><span class="text-slate-400 text-xs">MPPTs</span><br /><span class="font-semibold text-slate-800" id="ii-mppts">-</span></div>
-                  <div><span class="text-slate-400 text-xs">Efficiency</span><br /><span class="font-semibold text-slate-800" id="ii-eff">-</span></div>
-                  <div><span class="text-slate-400 text-xs">Phase</span><br /><span class="font-semibold text-slate-800" id="ii-phase">-</span></div>
+              <button type="button" id="addLoad" class="mt-2 w-full py-2.5 border border-dashed border-slate-300 rounded-lg text-accent-dark font-semibold text-sm hover:border-accent hover:bg-accent/5 transition-colors">+ Add custom load</button>
+
+              <div class="grid grid-cols-2 gap-4 mt-5">
+                <div>
+                  <label class="field-label" for="dod">Depth of Discharge (%)</label>
+                  <input id="dod" type="number" min="10" max="100" step="1" value="90" class="tool-input" />
+                </div>
+                <div>
+                  <label class="field-label" for="backupDays">Backup Days</label>
+                  <input id="backupDays" type="number" min="0.5" max="7" step="0.5" value="1" class="tool-input" />
                 </div>
               </div>
+              <p class="text-xs text-slate-400 mt-2 mb-6">Battery is sized to cover the daily load at the set DOD, then rounded up to whole 5&nbsp;kWh stackable packs.</p>
             </div>
+
+            <button class="calc-btn w-full py-3.5 rounded-xl font-bold text-white bg-gradient-to-r from-accent to-accent-dark shadow-lg shadow-accent/30 hover:shadow-xl transition-all flex items-center justify-center gap-2" id="calcBtn">
+              <svg class="calc-btn-icon w-[18px] h-[18px]" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0H5a2 2 0 0 1-2-2v-4m6 6h10a2 2 0 0 0 2-2v-4"></path></svg>
+              <span class="calc-btn-label">Calculate String Sizing</span>
+            </button>
           </div>
 
-          <!-- Section 1b: Hybrid backup loads -->
-          <div id="hybrid-section" class="hidden px-8 py-7 border-b border-slate-100">
-            <div class="flex items-center gap-3 mb-4">
-              <span class="w-7 h-7 rounded-lg bg-brand-50 text-brand-700 text-sm font-bold flex items-center justify-center shrink-0">2</span>
-              <h3 class="text-base font-bold text-brand-700">Backup Loads &amp; Battery Settings</h3>
-            </div>
-            <div class="flex items-start gap-3 bg-blue-50 border border-blue-100 rounded-xl px-4 py-3 mb-5">
-              <svg class="w-4 h-4 text-blue-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke-width="2"></circle><path stroke-linecap="round" stroke-width="2" d="M12 8h.01M11 12h1v4h1"></path></svg>
-              <p class="text-xs text-blue-800 leading-relaxed">PV string sizing uses the hybrid inverter selected above; the battery bank is sized from the backup loads below.</p>
-            </div>
-
-            <label class="field-label">Appliances</label>
-            <div class="rounded-xl border border-slate-200 overflow-hidden">
-              <div class="grid grid-cols-[1fr_70px_50px_56px_28px] gap-2 items-center px-4 py-2.5 bg-slate-50 text-[10px] font-bold uppercase tracking-wider text-slate-500">
-                <span>Appliance</span><span>Watts</span><span>Qty</span><span>Hrs</span><span></span>
-              </div>
-              <div id="loadRows"></div>
-              <div class="flex justify-between items-center px-4 py-3 bg-brand-50/60 border-t border-slate-200 text-sm font-bold">
-                <span class="text-slate-600">Daily energy</span>
-                <span id="loadTotal" class="text-brand-700">0 Wh/day</span>
-              </div>
-            </div>
-            <button type="button" id="addLoad" class="mt-2 w-full py-2.5 border border-dashed border-slate-300 rounded-lg text-brand-700 font-semibold text-sm hover:border-brand-400 hover:bg-brand-50/60 transition-colors">+ Add custom load</button>
-
-            <div class="grid grid-cols-2 gap-4 mt-5">
-              <div>
-                <label class="field-label">Depth of Discharge (%)</label>
-                <input id="dod" type="number" min="10" max="100" step="1" value="90" class="tool-input" />
-              </div>
-              <div>
-                <label class="field-label">Backup Days</label>
-                <input id="backupDays" type="number" min="0.5" max="7" step="0.5" value="1" class="tool-input" />
-              </div>
-            </div>
-            <p class="text-xs text-slate-400 mt-2">Battery is sized to cover the daily load at the set DOD, then rounded up to whole 5&nbsp;kWh stackable packs.</p>
-          </div>
-
-          <!-- Section: Results -->
-          <div class="px-8 py-7">
-            <div class="flex items-center gap-3 mb-6">
-              <span class="w-7 h-7 rounded-lg bg-brand-50 text-brand-700 text-sm font-bold flex items-center justify-center shrink-0" id="results-step">2</span>
-              <h3 class="text-base font-bold text-brand-700">Recommended Configuration</h3>
-            </div>
+          <!-- RIGHT: Recommended Configuration -->
+          <div class="lg:col-span-7 bg-white rounded-2xl shadow-xl shadow-slate-900/8 p-6 sm:p-7 lg:sticky lg:top-24">
+            <h3 class="flex items-center gap-2 text-base font-bold text-slate-900 mb-5"><span class="w-2 h-2 rounded-full bg-accent shrink-0"></span>Recommended Configuration</h3>
             <div id="results">
-              <div class="border-2 border-dashed border-slate-200 rounded-2xl py-16 px-6 text-center text-slate-400">
+              <div class="border-2 border-dashed border-slate-200 rounded-2xl py-16 px-6 text-center text-slate-400 min-h-[420px] flex flex-col items-center justify-center">
                 <svg class="w-12 h-12 mx-auto mb-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M3 3v18h18"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M7 14l3-3 3 3 5-6"></path></svg>
                 <p class="font-semibold text-sm text-slate-500">Your optimal string layout will appear here</p>
-                <p class="text-xs mt-1">Pick a panel &amp; inverter above to see the recommendation.</p>
+                <p class="text-xs mt-1">Pick a panel &amp; inverter, then hit Calculate.</p>
               </div>
             </div>
           </div>
 
-        </div><!-- /tool card -->
-
-        <!-- Disclaimer -->
-        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 mt-6 flex items-start gap-3">
-          <svg class="w-5 h-5 text-amber-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
-          </svg>
-          <p class="text-sm text-amber-800 leading-relaxed">
-            This calculator provides estimates using standard temperature derating formulas and MPPT current limits. Always verify against official datasheets and consult a qualified solar engineer before finalising your design. Qbits Energy is not liable for system designs based solely on this tool.
-          </p>
         </div>
+
+        <p class="text-center text-xs text-slate-400 mt-8 leading-relaxed">
+          Engine matches <b class="text-slate-500 font-semibold">Qbits</b> String Sizing logic &middot; Temperature-corrected voltage window, per-MPPT current &amp; DC/AC ratio checks.<br>
+          Indicative sizing tool &mdash; always confirm against the manufacturer datasheet before installation.
+        </p>
 
       </div>
     </section>
@@ -283,17 +238,31 @@ const DEFAULT_LOADS = [
     @apply block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1.5;
   }
   .tool-select, .tool-input {
-    @apply w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm text-slate-800 bg-white outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-100 transition-colors;
+    @apply w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm text-slate-800 bg-white outline-none focus:border-accent focus:ring-2 focus:ring-accent/15 transition-colors;
   }
   .sys-btn {
-    @apply text-white/70;
+    @apply text-slate-500;
   }
   .sys-btn.active {
-    @apply bg-white text-brand-700;
+    @apply bg-white text-slate-900 shadow-sm;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 text-xs font-medium px-3 py-1.5 rounded-full bg-slate-100 text-slate-500 border border-slate-200;
+  }
+  .chip b {
+    @apply text-slate-900 font-bold;
   }
   .load-row-input {
-    @apply w-full px-2 py-1.5 text-sm rounded-md border border-slate-200 outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-100 transition-colors;
+    @apply w-full px-2 py-1.5 text-sm rounded-md border border-slate-200 outline-none focus:border-accent focus:ring-2 focus:ring-accent/15 transition-colors;
   }
+  .calc-btn:disabled {
+    @apply opacity-70 cursor-default;
+  }
+  .spinner {
+    width: 16px; height: 16px; border: 2.5px solid rgba(255,255,255,.45);
+    border-top-color: #fff; border-radius: 50%; animation: spin .7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
   .vmark {
     position: absolute; top: -6px; width: 3px; height: 26px; border-radius: 2px;
     transform: translateX(-50%); transition: left .6s cubic-bezier(.2,.7,.2,1);
@@ -543,18 +512,16 @@ const DEFAULT_LOADS = [
     var p = PANELS[+$('panel-select').value];
     var v = INVERTERS[+$('inverter-select').value];
     if (!p || !v) return;
-    $('pi-voc').textContent  = p.voc + 'V';
-    $('pi-vmp').textContent  = p.vmp + 'V';
-    $('pi-watt').textContent = p.wp + 'W';
-    $('pi-isc').textContent  = p.isc + 'A';
-    $('pi-imp').textContent  = p.imp + 'A';
-    $('pi-tc').textContent   = p.tcVoc + '%/°C';
-    $('ii-vmax').textContent  = v.maxDcV + 'V';
-    $('ii-mppt').textContent  = v.vmin + '–' + v.vmax + 'V';
-    $('ii-ac').textContent    = (v.maxAcW / 1000) + 'kW';
-    $('ii-mppts').textContent = v.mppts.length;
-    $('ii-eff').textContent   = v.eff + '%';
-    $('ii-phase').textContent = v.phase;
+    $('panelChips').innerHTML =
+      '<span class="chip">Voc <b>' + p.voc + 'V</b></span>' +
+      '<span class="chip">Vmp <b>' + p.vmp + 'V</b></span>' +
+      '<span class="chip">Isc <b>' + p.isc + 'A</b></span>' +
+      '<span class="chip">Imp <b>' + p.imp + 'A</b></span>';
+    $('invChips').innerHTML =
+      '<span class="chip">Max DC <b>' + v.maxDcV + 'V</b></span>' +
+      '<span class="chip">MPPT <b>' + v.vmin + '&ndash;' + v.vmax + 'V</b></span>' +
+      '<span class="chip">MPPTs <b>' + v.mppts.length + '</b></span>' +
+      '<span class="chip">Max AC <b>' + (v.maxAcW / 1000) + 'kW</b></span>';
   }
 
   // ── hybrid load table ──────────────────────────────────────────────────────
@@ -787,39 +754,47 @@ const DEFAULT_LOADS = [
   }
 
   // ── wire up ──────────────────────────────────────────────────────────────
-  $('panel-select').addEventListener('change', function () { renderChips(); calculate(); });
-  $('inverter-select').addEventListener('change', function () { renderChips(); calculate(); });
-  $('total-panels').addEventListener('input', calculate);
-  $('t-min').addEventListener('input', calculate);
-  $('t-max').addEventListener('input', calculate);
-  $('dod').addEventListener('input', calculate);
-  $('backupDays').addEventListener('input', calculate);
+  $('panel-select').addEventListener('change', renderChips);
+  $('inverter-select').addEventListener('change', renderChips);
 
   [].slice.call(document.querySelectorAll('#sysType button')).forEach(function (btn) {
     btn.addEventListener('click', function () {
       sysType = btn.getAttribute('data-type');
       [].slice.call(document.querySelectorAll('#sysType button')).forEach(function (b) { b.classList.toggle('active', b === btn); });
       $('hybrid-section').classList.toggle('hidden', sysType !== 'hybrid');
-      $('results-step').textContent = sysType === 'hybrid' ? '3' : '2';
       renderInverterOptions(sysType === 'hybrid' ? 'QBH-8KS48P3' : 'QB-10KTLC');
       renderChips();
-      calculate();
     });
   });
 
-  $('loadRows').addEventListener('input', function () { updateLoadTotal(); calculate(); });
+  $('loadRows').addEventListener('input', updateLoadTotal);
   $('loadRows').addEventListener('click', function (e) {
     if (!e.target.classList.contains('rm')) return;
     var rows = [].slice.call($('loadRows').children);
     var idx = rows.indexOf(e.target.closest('.load-row'));
     if (idx < 0) return;
-    loads = domLoads(); loads.splice(idx, 1); renderLoads(); calculate();
+    loads = domLoads(); loads.splice(idx, 1); renderLoads();
   });
   $('addLoad').addEventListener('click', function () {
-    loads = domLoads(); loads.push({ name: 'Custom load', w: 100, qty: 1, h: 2 }); renderLoads(); calculate();
+    loads = domLoads(); loads.push({ name: 'Custom load', w: 100, qty: 1, h: 2 }); renderLoads();
+  });
+
+  $('calcBtn').addEventListener('click', function () {
+    var btn = this;
+    var icon = btn.querySelector('.calc-btn-icon');
+    var label = btn.querySelector('.calc-btn-label');
+    btn.disabled = true;
+    icon.outerHTML = '<span class="spinner"></span>';
+    label.textContent = 'Calculating…';
+    setTimeout(function () {
+      calculate();
+      btn.disabled = false;
+      var spinner = btn.querySelector('.spinner');
+      if (spinner) spinner.outerHTML = '<svg class="calc-btn-icon w-[18px] h-[18px]" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0H5a2 2 0 0 1-2-2v-4m6 6h10a2 2 0 0 0 2-2v-4"></path></svg>';
+      btn.querySelector('.calc-btn-label').textContent = 'Recalculate';
+    }, 400);
   });
 
   renderLoads();
   fillDropdowns();
-  calculate();
 </script>

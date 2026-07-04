@@ -42,7 +42,15 @@ const yesNo = ['Yes', 'No'];
             <p class="text-slate-500 mt-4">Fill in the details below. Our team will review and reach out within 2-3 business days.</p>
           </div>
 
-          <form id="partner-form" class="bg-white rounded-2xl shadow-xl shadow-slate-900/5 p-8 lg:p-10 space-y-10" novalidate>
+          <form
+            id="partner-form"
+            class="bg-white rounded-2xl shadow-xl shadow-slate-900/5 p-8 lg:p-10 space-y-10"
+            novalidate
+            action="https://formsubmit.co/ritik@thestacc.com"
+            method="POST"
+            enctype="multipart/form-data"
+            target="partner-form-frame"
+          >
             <!-- Company Information -->
             <fieldset class="space-y-5">
               <legend class="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
@@ -251,6 +259,16 @@ const yesNo = ['Yes', 'No'];
               <label>Don't fill this: <input type="text" id="website2" name="website2" tabindex="-1" autocomplete="off" /></label>
             </div>
 
+            <!-- FormSubmit control fields — real inputs so they're included in the
+                 native multipart POST (attachments aren't delivered via fetch/AJAX). -->
+            <input type="hidden" name="_subject" value="New Qbits Channel Partner Application" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_cc" value="keyur@heavendesigns.in,isha.heaven204@gmail.com" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="source" value="partner-form" />
+            <input type="hidden" name="page" value="" />
+            <input type="hidden" name="submittedAt" value="" />
+
             <div class="pt-2">
               <button type="submit" id="partner-submit" class="btn-primary w-full sm:w-auto">
                 <span data-label-default>Submit Application</span>
@@ -262,6 +280,13 @@ const yesNo = ['Yes', 'No'];
               </p>
             </div>
           </form>
+          <iframe
+            name="partner-form-frame"
+            id="partner-form-frame"
+            title="Form submission target"
+            aria-hidden="true"
+            style="display:none"
+          ></iframe>
         </div>
       </div>
     </section>
@@ -336,11 +361,12 @@ const yesNo = ['Yes', 'No'];
 
 <script is:inline>
   (() => {
-    const ENDPOINT = 'https://formsubmit.co/ajax/ritik@thestacc.com';
     const SUCCESS_MESSAGE = 'Thank you! Your partner application has been submitted. We will contact you within 2-3 business days.';
     const ERROR_MESSAGE = 'Sorry, we couldn\'t submit your application. Please call +91 99791 92935 or email service@qbitsenergy.com.';
+    const SUBMIT_TIMEOUT_MS = 20000;
 
     const form = document.getElementById('partner-form');
+    const frame = document.getElementById('partner-form-frame');
     const status = document.getElementById('partner-status');
     const btn = document.getElementById('partner-submit');
     const labelDefault = btn.querySelector('[data-label-default]');
@@ -359,31 +385,28 @@ const yesNo = ['Yes', 'No'];
       if (ok) status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     };
 
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
+    let awaitingResponse = false;
+    let submitTimeout = null;
 
+    form.addEventListener('submit', (e) => {
       if (!form.checkValidity()) {
+        e.preventDefault();
         form.reportValidity();
         return;
       }
 
-      // Honeypot - silently succeed for bots.
+      // Honeypot - silently succeed for bots, never actually submit.
       if ((form.elements.namedItem('website2') || {}).value) {
+        e.preventDefault();
         form.reset();
         showStatus(SUCCESS_MESSAGE, true);
         return;
       }
 
-      const fd = new FormData(form);
-      // Remove honeypot and append metadata.
-      fd.delete('website2');
-      fd.append('_subject', 'New Qbits Channel Partner Application: ' + (fd.get('companyName') || 'Unknown'));
-      fd.append('_template', 'table');
-      fd.append('_cc', 'keyur@heavendesigns.in,isha.heaven204@gmail.com');
-      fd.append('_captcha', 'false');
-      fd.append('source', 'partner-form');
-      fd.append('page', location.pathname);
-      fd.append('submittedAt', new Date().toISOString());
+      form.elements.namedItem('_subject').value =
+        'New Qbits Channel Partner Application: ' + (form.elements.namedItem('companyName').value || 'Unknown');
+      form.elements.namedItem('page').value = location.pathname;
+      form.elements.namedItem('submittedAt').value = new Date().toISOString();
 
       if (typeof window.gtag === 'function') {
         window.gtag('event', 'form_submit', {
@@ -392,15 +415,15 @@ const yesNo = ['Yes', 'No'];
         });
       }
 
-      // Sync to Odoo CRM in parallel — non-blocking, doesn't affect the email-based UX below.
+      // Sync to Odoo CRM in parallel (text fields only) — non-blocking.
       const odooData = {
         source: 'partner-form',
         page: location.pathname,
         submittedAt: new Date().toISOString(),
       };
-      for (const [key, value] of fd.entries()) {
-        if (key === 'website2' || key.startsWith('_')) continue;
-        if (typeof value === 'string') odooData[key] = value.trim();
+      for (const [key, value] of new FormData(form).entries()) {
+        if (key === 'website2' || key.startsWith('_') || typeof value !== 'string') continue;
+        odooData[key] = value.trim();
       }
       fetch('/api/lead', {
         method: 'POST',
@@ -408,25 +431,28 @@ const yesNo = ['Yes', 'No'];
         body: JSON.stringify(odooData),
       }).catch((err) => console.error('CRM sync failed:', err));
 
+      // Not calling e.preventDefault() here — the form submits natively into the
+      // hidden iframe below. FormSubmit's AJAX/fetch endpoint silently drops file
+      // attachments, so a genuine multipart POST is the only way the uploaded
+      // GST/PAN document actually gets delivered.
+      awaitingResponse = true;
       setSending(true);
-      try {
-        const res = await fetch(ENDPOINT, {
-          method: 'POST',
-          body: fd,
-        });
-        const result = await res.json().catch(() => ({}));
-        if (result.success === 'true' || result.success === true) {
-          form.reset();
-          showStatus(SUCCESS_MESSAGE, true);
-        } else {
-          throw new Error(result.message || 'Submission failed');
-        }
-      } catch (err) {
-        console.error('Partner form submission failed:', err);
-        showStatus(ERROR_MESSAGE, false);
-      } finally {
+      clearTimeout(submitTimeout);
+      submitTimeout = setTimeout(() => {
+        if (!awaitingResponse) return;
+        awaitingResponse = false;
         setSending(false);
-      }
+        showStatus(ERROR_MESSAGE, false);
+      }, SUBMIT_TIMEOUT_MS);
+    });
+
+    frame.addEventListener('load', () => {
+      if (!awaitingResponse) return; // ignore the initial blank-frame load
+      awaitingResponse = false;
+      clearTimeout(submitTimeout);
+      setSending(false);
+      form.reset();
+      showStatus(SUCCESS_MESSAGE, true);
     });
   })();
 </script>

@@ -175,7 +175,7 @@ const DEFAULT_LOADS = [
 
               <label class="field-label">Backup Loads (Hybrid)</label>
               <div class="rounded-xl border border-slate-200 overflow-hidden">
-                <div class="grid grid-cols-[1fr_70px_50px_56px_28px] gap-2 items-center px-4 py-2.5 bg-slate-50 text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                <div class="grid grid-cols-[1fr_70px_50px_56px_36px] gap-2 items-center px-4 py-2.5 bg-slate-50 text-[10px] font-bold uppercase tracking-wider text-slate-500">
                   <span>Appliance</span><span>Watts</span><span>Qty</span><span>Hrs</span><span></span>
                 </div>
                 <div id="loadRows"></div>
@@ -247,13 +247,19 @@ const DEFAULT_LOADS = [
     @apply bg-white text-slate-900 shadow-sm;
   }
   .chip {
-    @apply inline-flex items-center gap-1 text-xs font-medium px-3 py-1.5 rounded-full bg-slate-100 text-slate-500 border border-slate-200;
+    @apply flex flex-col items-start gap-0.5 px-3 py-1.5 rounded-lg bg-white border border-slate-200 shadow-sm;
   }
-  .chip b {
-    @apply text-slate-900 font-bold;
+  .chip-label {
+    @apply text-[9px] font-bold uppercase tracking-wider text-slate-400;
+  }
+  .chip-value {
+    @apply text-sm font-bold text-slate-900 tabular-nums;
   }
   .load-row-input {
     @apply w-full px-2 py-1.5 text-sm rounded-md border border-slate-200 outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-100 transition-colors;
+  }
+  .sys-btn, .calc-btn, #addLoad, .rm-btn {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2;
   }
   .calc-btn:disabled {
     @apply opacity-70 cursor-default;
@@ -262,18 +268,10 @@ const DEFAULT_LOADS = [
     width: 16px; height: 16px; border: 2.5px solid rgba(255,255,255,.45);
     border-top-color: #fff; border-radius: 50%; animation: spin .7s linear infinite;
   }
+  @media (prefers-reduced-motion: reduce) {
+    .spinner { animation-duration: 1.4s; }
+  }
   @keyframes spin { to { transform: rotate(360deg); } }
-  .vmark {
-    position: absolute; top: -6px; width: 3px; height: 26px; border-radius: 2px;
-    transform: translateX(-50%); transition: left .6s cubic-bezier(.2,.7,.2,1);
-  }
-  .vmark span {
-    position: absolute; top: 28px; left: 50%; transform: translateX(-50%);
-    font-size: 10px; font-weight: 700; white-space: nowrap;
-  }
-  .vwindow {
-    transition: left .6s cubic-bezier(.2,.7,.2,1), width .6s cubic-bezier(.2,.7,.2,1);
-  }
 </style>
 
 <script define:vars={{ PANELS, INVERTERS, DEFAULT_LOADS }}>
@@ -512,26 +510,29 @@ const DEFAULT_LOADS = [
     var p = PANELS[+$('panel-select').value];
     var v = INVERTERS[+$('inverter-select').value];
     if (!p || !v) return;
+    function chip(label, value) {
+      return '<span class="chip"><span class="chip-label">' + label + '</span><span class="chip-value">' + value + '</span></span>';
+    }
     $('panelChips').innerHTML =
-      '<span class="chip">Voc <b>' + p.voc + 'V</b></span>' +
-      '<span class="chip">Vmp <b>' + p.vmp + 'V</b></span>' +
-      '<span class="chip">Isc <b>' + p.isc + 'A</b></span>' +
-      '<span class="chip">Imp <b>' + p.imp + 'A</b></span>';
+      chip('Voc', p.voc + 'V') +
+      chip('Vmp', p.vmp + 'V') +
+      chip('Isc', p.isc + 'A') +
+      chip('Imp', p.imp + 'A');
     $('invChips').innerHTML =
-      '<span class="chip">Max DC <b>' + v.maxDcV + 'V</b></span>' +
-      '<span class="chip">MPPT <b>' + v.vmin + '&ndash;' + v.vmax + 'V</b></span>' +
-      '<span class="chip">MPPTs <b>' + v.mppts.length + '</b></span>' +
-      '<span class="chip">Max AC <b>' + (v.maxAcW / 1000) + 'kW</b></span>';
+      chip('Max DC', v.maxDcV + 'V') +
+      chip('MPPT', v.vmin + '&ndash;' + v.vmax + 'V') +
+      chip('MPPTs', v.mppts.length) +
+      chip('Max AC', (v.maxAcW / 1000) + 'kW');
   }
 
   // ── hybrid load table ──────────────────────────────────────────────────────
   function loadRowHtml(l) {
-    return '<div class="load-row grid grid-cols-[1fr_70px_50px_56px_28px] gap-2 items-center px-4 py-2 border-t border-slate-200">' +
+    return '<div class="load-row grid grid-cols-[1fr_70px_50px_56px_36px] gap-2 items-center px-4 py-2 border-t border-slate-200">' +
       '<input class="load-row-input" type="text" value="' + esc(l.name) + '" data-f="name">' +
       '<input class="load-row-input" type="number" min="0" step="1" value="' + l.w + '" data-f="w">' +
       '<input class="load-row-input" type="number" min="0" step="1" value="' + l.qty + '" data-f="qty">' +
       '<input class="load-row-input" type="number" min="0" step="0.5" value="' + l.h + '" data-f="h">' +
-      '<button type="button" class="rm text-slate-300 hover:text-red-500 text-xl leading-none" title="Remove">&times;</button>' +
+      '<button type="button" class="rm rm-btn w-9 h-9 rounded-md flex items-center justify-center text-slate-300 hover:text-red-500 hover:bg-red-50 text-xl leading-none transition-colors" aria-label="Remove load" title="Remove">&times;</button>' +
       '</div>';
   }
   function renderLoads() { $('loadRows').innerHTML = loads.map(loadRowHtml).join(''); updateLoadTotal(); }
@@ -569,17 +570,21 @@ const DEFAULT_LOADS = [
     }
     return '<div class="relative overflow-hidden rounded-2xl p-6 text-white bg-gradient-to-br from-brand-900 to-brand-700 mb-5">' +
       '<p class="text-[11px] uppercase tracking-wider font-semibold text-brand-100">Recommended battery bank</p>' +
-      '<div class="flex items-baseline gap-2 mt-1"><span class="text-4xl font-extrabold" id="anPacks">0</span><span class="text-sm font-semibold text-brand-100">&times; 5 kWh packs (stacked)</span></div>' +
+      '<div class="flex items-baseline gap-2 mt-1"><span class="text-4xl font-extrabold tabular-nums tracking-tight" id="anPacks">0</span><span class="text-sm font-semibold text-brand-100">&times; 5 kWh packs (stacked)</span></div>' +
       '<p class="text-sm text-brand-100 mt-1">' + b.installedKwh + ' kWh installed &middot; ' + b.usableKwh.toFixed(1) + ' kWh usable at ' + b.dodPct + '% DOD</p>' +
       '</div>' +
       '<div class="grid grid-cols-3 gap-3 mb-5">' +
-        statTile('anDaily', 'Daily load (kWh)') +
-        statTile('anNeeded', 'Battery needed (kWh)') +
-        statTile('anBackup', 'Backup days') +
+        statTile({ id: 'anDaily', label: 'Daily load (kWh)', icon: ICONS.bolt }) +
+        statTile({ id: 'anNeeded', label: 'Battery needed (kWh)', icon: ICONS.battery }) +
+        statTile({ id: 'anBackup', label: 'Backup days', icon: ICONS.calendar }) +
       '</div>';
+  }
+  function prefersReducedMotion() {
+    return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   }
   function animateNumber(el, to, decimals) {
     if (!el) return;
+    if (prefersReducedMotion()) { el.textContent = to.toFixed(decimals); return; }
     var dur = 600, start = performance.now(), from = 0;
     function frame(now) {
       var t = Math.min(1, (now - start) / dur);
@@ -596,10 +601,24 @@ const DEFAULT_LOADS = [
     animateNumber($('anBackup'), b.days, b.days % 1 ? 1 : 0);
   }
 
-  function statTile(id, label) {
-    return '<div class="bg-white border border-slate-200 rounded-xl px-4 py-3">' +
-      '<div class="text-xl font-extrabold text-slate-900" id="' + id + '">0</div>' +
-      '<div class="text-[11px] font-semibold uppercase tracking-wide text-slate-400 mt-0.5">' + label + '</div>' +
+  // Small consistent-stroke icon set (2px stroke, 24 viewBox) for stat tiles.
+  var ICONS = {
+    bolt:    '<path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/>',
+    battery: '<rect x="2" y="7" width="17" height="10" rx="2"/><path d="M22 10v4"/>',
+    calendar:'<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
+    sun:     '<circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/>',
+    activity:'<path d="M3 12h4l2 7 4-14 2 7h6"/>',
+    layers:  '<path d="m12 2 9 5-9 5-9-5 9-5z"/><path d="m3 12 9 5 9-5"/>',
+  };
+
+  function statTile(opts) {
+    var valCls = opts.valueClass || 'text-slate-900';
+    return '<div class="bg-white border border-slate-200 rounded-xl px-4 py-3 transition-shadow hover:shadow-md">' +
+      '<div class="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wide text-slate-400 mb-1">' +
+        '<svg class="w-3.5 h-3.5 text-brand-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">' + opts.icon + '</svg>' +
+        '<span>' + opts.label + '</span>' +
+      '</div>' +
+      '<div class="text-xl font-extrabold ' + valCls + ' tabular-nums tracking-tight" id="' + opts.id + '">0</div>' +
       '</div>';
   }
 
@@ -672,18 +691,18 @@ const DEFAULT_LOADS = [
     var mpptRows = d.map(function (x) {
       var impCls = x.impOk ? 'text-brand-600' : 'text-red-600 font-bold';
       var iscCls = x.iscOk ? 'text-brand-600' : 'text-red-600 font-bold';
-      return '<div class="flex items-center gap-3 px-4 py-3 border border-slate-200 rounded-xl mb-2 bg-white">' +
-        '<div class="w-10 h-10 rounded-lg bg-brand-50 text-brand-700 border border-brand-100 flex flex-col items-center justify-center text-[10px] font-extrabold leading-tight shrink-0">MPPT<br>' + (x.mpptIndex + 1) + '</div>' +
-        '<div class="flex-1 min-w-0"><div class="text-sm font-bold text-slate-800">' + x.strings + ' string' + (x.strings > 1 ? 's' : '') + ' &times; ' + x.modulesPerString + ' panels</div>' +
+      return '<div class="flex items-center gap-3 px-4 py-3 border border-slate-200 border-l-4 border-l-brand-400 rounded-xl mb-2 bg-white transition-shadow hover:shadow-sm">' +
+        '<div class="w-10 h-10 rounded-lg bg-brand-50 text-brand-700 border border-brand-100 flex flex-col items-center justify-center text-[10px] font-extrabold leading-tight shrink-0 tabular-nums">MPPT<br>' + (x.mpptIndex + 1) + '</div>' +
+        '<div class="flex-1 min-w-0"><div class="text-sm font-bold text-slate-800 tabular-nums">' + x.strings + ' string' + (x.strings > 1 ? 's' : '') + ' &times; ' + x.modulesPerString + ' panels</div>' +
         '<div class="text-xs text-slate-500">' + x.totalModules + ' panels &middot; ' + x.rating.label + '</div></div>' +
-        '<div class="text-right text-xs font-semibold text-slate-500 shrink-0">Imp <span class="' + impCls + '">' + x.impA.toFixed(1) + '/' + x.maxCur + 'A</span><br>Isc <span class="' + iscCls + '">' + x.iscA.toFixed(1) + '/' + x.maxIsc + 'A</span></div>' +
+        '<div class="text-right text-xs font-semibold text-slate-500 shrink-0 tabular-nums">Imp <span class="' + impCls + '">' + x.impA.toFixed(1) + '/' + x.maxCur + 'A</span><br>Isc <span class="' + iscCls + '">' + x.iscA.toFixed(1) + '/' + x.maxIsc + 'A</span></div>' +
         '</div>';
     }).join('');
 
     var rows = validConfigs.map(function (c) {
-      var hlCls = (c.n === primaryN) ? 'bg-brand-50 font-bold' : '';
+      var hlCls = (c.n === primaryN) ? 'bg-brand-50 font-bold' : 'hover:bg-slate-50 transition-colors';
       var rs = RATING_STYLE[c.rating.label];
-      return '<tr class="' + hlCls + '"><td class="px-4 py-2.5">' + c.n + ' panels</td><td class="px-4 py-2.5 text-right tabular-nums">' + c.vocCold.toFixed(0) + 'V</td><td class="px-4 py-2.5 text-right tabular-nums">' + c.vmpHot.toFixed(0) + 'V</td><td class="px-4 py-2.5 text-right tabular-nums">' + c.vmpCold.toFixed(0) + 'V</td>' +
+      return '<tr class="' + hlCls + '"><td class="px-4 py-2.5 tabular-nums">' + c.n + ' panels</td><td class="px-4 py-2.5 text-right tabular-nums">' + c.vocCold.toFixed(0) + 'V</td><td class="px-4 py-2.5 text-right tabular-nums">' + c.vmpHot.toFixed(0) + 'V</td><td class="px-4 py-2.5 text-right tabular-nums">' + c.vmpCold.toFixed(0) + 'V</td>' +
         '<td class="px-4 py-2.5 text-right"><span class="inline-block text-[10px] font-extrabold px-2.5 py-1 rounded-full ' + rs.chip + '">' + c.rating.label + '</span></td></tr>';
     }).join('');
 
@@ -691,34 +710,34 @@ const DEFAULT_LOADS = [
       '<div class="relative overflow-hidden rounded-2xl p-6 text-white bg-gradient-to-br from-slate-900 to-slate-800 mb-5">' +
         '<span class="absolute top-5 right-5 text-[11px] font-extrabold tracking-wide px-3 py-1.5 rounded-full text-white" style="background:' + top.hex + '">' + topLabel + '</span>' +
         '<p class="text-[11px] uppercase tracking-wider font-semibold text-slate-400">Recommended string size</p>' +
-        '<div class="flex items-baseline gap-2 mt-1"><span class="text-4xl font-extrabold" id="anN">0</span><span class="text-sm font-semibold text-slate-400">panels per string</span></div>' +
-        '<p class="text-sm text-slate-300 mt-1">' + totalStrings + ' string' + (totalStrings > 1 ? 's' : '') + ' across ' + d.length + ' MPPT' + (d.length > 1 ? 's' : '') +
+        '<div class="flex items-baseline gap-2 mt-1"><span class="text-4xl font-extrabold tabular-nums tracking-tight" id="anN">0</span><span class="text-sm font-semibold text-slate-400">panels per string</span></div>' +
+        '<p class="text-sm text-slate-300 mt-1 tabular-nums">' + totalStrings + ' string' + (totalStrings > 1 ? 's' : '') + ' across ' + d.length + ' MPPT' + (d.length > 1 ? 's' : '') +
           (nList.length > 1 ? ' &middot; mixed ' + nList.join('/') + ' layout' : '') + '</p>' +
       '</div>' +
 
       '<div class="grid grid-cols-3 gap-3 mb-5">' +
-        statTile('anKwp', 'System size (kWp)') +
-        '<div class="bg-white border border-slate-200 rounded-xl px-4 py-3">' +
-          '<div class="text-xl font-extrabold ' + (dcacOver ? 'text-amber-600' : 'text-slate-900') + '" id="anRatio">0</div>' +
-          '<div class="text-[11px] font-semibold uppercase tracking-wide text-slate-400 mt-0.5">DC / AC ratio' + (dcacOver ? ' &middot; over ' + dcacLimit : '') + '</div>' +
-        '</div>' +
-        '<div class="bg-white border border-slate-200 rounded-xl px-4 py-3">' +
-          '<div class="text-xl font-extrabold text-slate-900" id="anUsed">0</div>' +
-          '<div class="text-[11px] font-semibold uppercase tracking-wide text-slate-400 mt-0.5">Panels used' + (unused > 0 ? ' (' + unused + ' spare)' : '') + '</div>' +
-        '</div>' +
+        statTile({ id: 'anKwp', label: 'System size (kWp)', icon: ICONS.sun }) +
+        statTile({ id: 'anRatio', label: 'DC / AC ratio' + (dcacOver ? ' &middot; over ' + dcacLimit : ''), icon: ICONS.activity, valueClass: dcacOver ? 'text-amber-600' : 'text-slate-900' }) +
+        statTile({ id: 'anUsed', label: 'Panels used' + (unused > 0 ? ' (' + unused + ' spare)' : ''), icon: ICONS.layers }) +
       '</div>' +
 
       notesHtml +
 
       '<div class="mt-5">' +
         '<p class="text-sm font-bold text-slate-800 mb-3">Voltage window at ' + primaryN + ' panels/string</p>' +
-        '<div class="bg-slate-50 border border-slate-200 rounded-xl px-4 pt-4 pb-8">' +
-          '<div class="relative h-4 rounded-full" style="background:linear-gradient(90deg,#fecaca 0%,#fde68a 18%,#bbf7d0 40%,#bbf7d0 78%,#fecaca 100%)">' +
-            '<div class="vwindow absolute top-0 bottom-0 rounded-full" style="background:rgba(4,157,101,.18);border:1.5px solid rgba(4,157,101,.5);left:0;width:0" id="vwin"></div>' +
-            '<div class="vmark" id="mVocCold" style="left:0;background:#dc2626"><span style="color:#dc2626">Voc@cold ' + vocCold.toFixed(0) + 'V</span></div>' +
-            '<div class="vmark" id="mVmpHot" style="left:0;background:#049D65"><span style="color:#049D65;top:-18px">Vmp@hot ' + vmpHot.toFixed(0) + 'V</span></div>' +
+        '<div class="bg-slate-50 border border-slate-200 rounded-xl px-5 pt-9 pb-4" role="img" aria-label="Voltage window chart: safe MPPT range ' + invObj.vmin + ' to ' + invObj.vmax + ' volts. Voc at cold temperature is ' + vocCold.toFixed(0) + ' volts. Vmp at hot temperature is ' + vmpHot.toFixed(0) + ' volts.">' +
+          '<div class="relative h-2.5 rounded-full bg-slate-200">' +
+            '<div id="vwin" class="absolute inset-y-0 rounded-full bg-brand-100 border-2 border-brand-400 transition-all duration-700 ease-out motion-reduce:transition-none" style="left:0;width:0"></div>' +
+            '<div id="mVocCold" class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 transition-all duration-700 ease-out motion-reduce:transition-none" style="left:0">' +
+              '<span class="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap text-[10px] font-extrabold px-2 py-1 rounded-full bg-white border shadow-sm tabular-nums" style="color:#dc2626;border-color:#fecaca">Voc@cold ' + vocCold.toFixed(0) + 'V</span>' +
+              '<span class="block w-2.5 h-2.5 rounded-full border-2 border-white shadow" style="background:#dc2626"></span>' +
+            '</div>' +
+            '<div id="mVmpHot" class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 transition-all duration-700 ease-out motion-reduce:transition-none" style="left:0">' +
+              '<span class="block w-2.5 h-2.5 rounded-full border-2 border-white shadow" style="background:#049D65"></span>' +
+              '<span class="absolute top-4 left-1/2 -translate-x-1/2 whitespace-nowrap text-[10px] font-extrabold px-2 py-1 rounded-full bg-white border shadow-sm tabular-nums" style="color:#049D65;border-color:#a7f3d0">Vmp@hot ' + vmpHot.toFixed(0) + 'V</span>' +
+            '</div>' +
           '</div>' +
-          '<div class="flex justify-between text-[10px] font-semibold text-slate-400 mt-2"><span>0V</span><span>MPPT ' + invObj.vmin + '–' + invObj.vmax + 'V (green)</span><span>' + scaleMax + 'V max</span></div>' +
+          '<div class="flex justify-between text-[10px] font-semibold text-slate-400 mt-9 tabular-nums"><span>0V</span><span class="text-brand-600">Safe MPPT window ' + invObj.vmin + '&ndash;' + invObj.vmax + 'V</span><span>' + scaleMax + 'V max</span></div>' +
         '</div>' +
       '</div>' +
 

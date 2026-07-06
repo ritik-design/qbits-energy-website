@@ -15,13 +15,6 @@ const SOURCE_IDS: Record<string, number> = {
   'partner-form': 189, // Qbits Website - Channel Partner Application
 };
 
-const FORM_TITLES: Record<string, string> = {
-  'contact-form': 'Website Inquiry',
-  'home-quick-lead': 'Quick Site Survey Request',
-  'datasheet-bundle': 'Datasheet Bundle Request',
-  'partner-form': 'Channel Partner Application',
-};
-
 let rpcId = 1;
 
 async function odooCall(baseUrl: string, service: string, method: string, args: unknown[]) {
@@ -202,14 +195,13 @@ export const POST: APIRoute = async ({ request }) => {
   }
 
   const sourceId = SOURCE_IDS[formSource];
-  const title = `${FORM_TITLES[formSource]} - ${name}`;
 
   try {
     const uid = await odooLogin(env);
     const partnerId = await findOrCreateContact(env, uid, { name, mobile, email });
 
     const leadVals: Record<string, unknown> = {
-      name: title,
+      name,
       type: 'opportunity',
       contact_name: name,
       partner_id: partnerId,

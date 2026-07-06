@@ -6,15 +6,58 @@ import Footer from '../../components/Footer.astro';
 import { getAuthorByName } from '../../data/authors';
 
 export async function getStaticPaths() {
+  const STOPWORDS = new Set([
+    'the', 'and', 'for', 'with', 'how', 'what', 'why', 'vs', 'is', 'in', 'of', 'a', 'an',
+    'to', 'on', 'best', 'top', 'guide', 'price', 'cost', 'india', 'solar', 'inverter', 'inverters',
+  ]);
+
+  function keywordSet(...groups) {
+    const words = new Set();
+    for (const text of groups) {
+      if (!text) continue;
+      for (const w of String(text).toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/)) {
+        if (w.length > 2 && !STOPWORDS.has(w)) words.add(w);
+      }
+    }
+    return words;
+  }
+
   const entries = await getCollection('glossary');
+  const blogPosts = await getCollection('blog');
   const existingSlugs = new Set(entries.map((e) => e.id));
-  return entries.map((entry) => ({
-    params: { slug: entry.id },
-    props: { entry, existingSlugs },
-  }));
+
+  const sortedByDate = [...blogPosts].sort((a, b) => +new Date(b.data.date) - +new Date(a.data.date));
+
+  return entries.map((entry) => {
+    const termWords = keywordSet(entry.data.term, ...(entry.data.keywords || []));
+
+    const scored = blogPosts
+      .map((post) => {
+        const postWords = keywordSet(post.data.title, ...(post.data.keywords || []));
+        let score = 0;
+        for (const w of termWords) if (postWords.has(w)) score++;
+        return { post, score };
+      })
+      .filter((s) => s.score > 0)
+      .sort((a, b) => b.score - a.score || +new Date(b.post.data.date) - +new Date(a.post.data.date));
+
+    const chosen = (scored.length > 0 ? scored.map((s) => s.post) : sortedByDate).slice(0, 3);
+
+    const relatedPosts = chosen.map((p) => ({
+      slug: p.id,
+      title: p.data.title,
+      excerpt: p.data.excerpt,
+      category: p.data.category,
+    }));
+
+    return {
+      params: { slug: entry.id },
+      props: { entry, existingSlugs, relatedPosts },
+    };
+  });
 }
 
-const { entry, existingSlugs } = Astro.props;
+const { entry, existingSlugs, relatedPosts } = Astro.props;
 const { Content, headings } = await render(entry);
 const {
   term,
@@ -219,6 +262,24 @@ const articleSchema = {
               </div>
             )}
 
+            <!-- Related blog posts -->
+            {relatedPosts && relatedPosts.length > 0 && (
+              <div class="mt-16 pt-12 border-t border-slate-200" id="from-the-blog">
+                <div class="flex items-center gap-3 mb-6">
+                  <span class="text-brand-600 font-bold uppercase tracking-wider text-xs bg-brand-500/10 px-3 py-1 rounded-full">Read Next</span>
+                  <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">From the Blog</h2>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {relatedPosts.map((rp) => (
+                    <a href={`/blog/${rp.slug}/`} class="group flex flex-col gap-1.5 rounded-xl ring-1 ring-slate-200 bg-white hover:ring-brand-300 hover:bg-brand-50/30 p-4 transition-all">
+                      <span class="text-[10px] font-bold uppercase tracking-wider text-brand-600">{rp.category}</span>
+                      <span class="font-semibold text-slate-900 group-hover:text-brand-600 transition-colors leading-snug">{rp.title}</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
             <!-- Author box -->
             {authorProfile && (
               <div class="mt-12 rounded-2xl bg-gradient-to-br from-slate-50 to-white ring-1 ring-slate-200 p-6">
@@ -282,6 +343,7 @@ const articleSchema = {
                     ))}
                     {faqs.length > 0 && <li><a href="#faqs" class="toc-link block py-1.5 pl-3 border-l-2 border-slate-200 text-slate-600 hover:text-brand-600 hover:border-brand-500 transition-colors">Frequently Asked Questions</a></li>}
                     {relatedTerms.length > 0 && <li><a href="#related-terms" class="toc-link block py-1.5 pl-3 border-l-2 border-slate-200 text-slate-600 hover:text-brand-600 hover:border-brand-500 transition-colors">Related Terms</a></li>}
+                    {relatedPosts.length > 0 && <li><a href="#from-the-blog" class="toc-link block py-1.5 pl-3 border-l-2 border-slate-200 text-slate-600 hover:text-brand-600 hover:border-brand-500 transition-colors">From the Blog</a></li>}
                   </ul>
                 </nav>
               )}

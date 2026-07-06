@@ -80,13 +80,8 @@ const yesNo = ['Yes', 'No'];
                   <input type="url" id="website" name="website" maxlength="120" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="https://www.company.com" />
                 </div>
                 <div>
-                  <label for="gstPan" class="block text-sm font-medium text-slate-700 mb-1.5">GST / PAN Number</label>
+                  <label for="gstPan" class="block text-sm font-medium text-slate-700 mb-1.5">GST Number</label>
                   <input type="text" id="gstPan" name="gstPan" maxlength="20" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="GST or PAN number" />
-                </div>
-                <div class="sm:col-span-2">
-                  <label for="gstPanDocument" class="block text-sm font-medium text-slate-700 mb-1.5">GST / PAN Number (Upload Document) <span class="text-rose-500">*</span></label>
-                  <input type="file" id="gstPanDocument" name="gstPanDocument" required accept="image/*,.pdf" class="block w-full text-sm text-slate-600 file:mr-4 file:py-2.5 file:px-4 file:rounded-xl file:border-0 file:text-sm file:font-semibold file:bg-brand-50 file:text-brand-700 hover:file:bg-brand-100 cursor-pointer rounded-xl border border-slate-200 bg-slate-50/50 px-4 py-3 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all" />
-                  <p class="text-xs text-slate-500 mt-1">Note: You can only upload one file. (PDF, JPG or PNG)</p>
                 </div>
               </div>
             </fieldset>
@@ -119,7 +114,7 @@ const yesNo = ['Yes', 'No'];
                 </div>
                 <div class="sm:col-span-2">
                   <label for="brandsUsed" class="block text-sm font-medium text-slate-700 mb-1.5">Brands Currently Using in Inverter for Solar Projects</label>
-                  <input type="text" id="brandsUsed" name="brandsUsed" maxlength="250" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. Growatt, SolarEdge, etc." />
+                  <input type="text" id="brandsUsed" name="brandsUsed" maxlength="250" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. Qbits, Havells" />
                 </div>
               </div>
             </fieldset>
@@ -234,7 +229,7 @@ const yesNo = ['Yes', 'No'];
               <div class="grid sm:grid-cols-2 gap-5">
                 <div>
                   <label for="targetSales" class="block text-sm font-medium text-slate-700 mb-1.5">Target Sales Commitment per Month (Nos.)</label>
-                  <input type="text" id="targetSales" name="targetSales" maxlength="50" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. 20 units" />
+                  <input type="text" id="targetSales" name="targetSales" maxlength="50" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50" placeholder="e.g. 150" />
                 </div>
                 <div>
                   <label class="block text-sm font-medium text-slate-700 mb-3">Ready to Promote Brand in Market?</label>
@@ -263,7 +258,7 @@ const yesNo = ['Yes', 'No'];
                  native multipart POST (attachments aren't delivered via fetch/AJAX). -->
             <input type="hidden" name="_subject" value="New Qbits Channel Partner Application" />
             <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_cc" value="keyur@heavendesigns.in,isha.heaven204@gmail.com" />
+            <input type="hidden" name="_cc" value="keyur@heavendesigns.in,isha.heaven204@gmail.com,peyush@heavengreenenergy.com,nirav@heavengreenenergy.com" />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="source" value="partner-form" />
             <input type="hidden" name="page" value="" />
@@ -361,7 +356,7 @@ const yesNo = ['Yes', 'No'];
 
 <script is:inline>
   (() => {
-    const SUCCESS_MESSAGE = 'Thank you! Your partner application has been submitted. We will contact you within 2-3 business days.';
+    const SUCCESS_MESSAGE = 'Thank you! Your partner application has been submitted. We will contact you within 2-3 business days. For urgent queries, please call +91 90166 63633.';
     const ERROR_MESSAGE = 'Sorry, we couldn\'t submit your application. Please call +91 99791 92935 or email service@qbitsenergy.com.';
     const SUBMIT_TIMEOUT_MS = 20000;
 

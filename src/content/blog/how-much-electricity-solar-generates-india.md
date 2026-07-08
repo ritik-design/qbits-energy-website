@@ -3,6 +3,7 @@ title: "How Much Electricity Does Solar Generate in India? (State-Wise)"
 excerpt: "How much solar energy is generated in India varies by state. Rajasthan yields 1,800–2,000 kWh/kW/year; Kerala 1,100–1,300 kWh/kW/year. Use this state-wise guide to calculate your system's output."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-sizing.svg"
 author: "Keyur Rakholiya"
@@ -33,6 +34,14 @@ faqs:
 
 The most fundamental question any Indian homeowner asks before investing in solar is also the most practical: how many electricity units will my system actually produce? Not in an advertisement, not on a datasheet, but on your specific rooftop in your specific state. This guide answers that question with state-by-state data, real worked examples, and a named framework for calculating your own system's expected output.
 
+> **TL;DR**
+> - Annual specific yield ranges from about 1,100 kWh/kW in Kerala to 2,000 kWh/kW in Rajasthan.
+> - A 3 kW system generates roughly 3,300-3,900 units/year in Kerala versus 5,400-6,000 units/year in Rajasthan.
+> - Formula: Annual Yield (kWh/kW) = GHI (kWh/m²/day) x 365 x Performance Ratio (0.75-0.82).
+> - Monsoon cloud cover can cut generation to 15-40% of clear-sky output on heavily overcast days.
+> - Soiling, shading, panel degradation, and high ambient temperature all pull real output below datasheet estimates.
+> - Qbits multi-point MPPT recovers an estimated 2-5% more annual generation than inverters with slower tracking cycles.
+
 > **Direct answer.** How much electricity solar generates in India depends primarily on location. Rajasthan and Gujarat yield 1,800–2,000 kWh per kW per year; Karnataka and Tamil Nadu yield 1,500–1,700 kWh/kW/year; Kerala yields 1,100–1,300 kWh/kW/year. A 3 kW system in Rajasthan generates 5,400–6,000 units/year; in Kerala, 3,300–3,900 units/year. "The State-by-State Solar Yield Calculator" framework below shows you how to compute your specific estimate.
 
 Understanding generation expectations before you buy prevents the most common source of post-installation disappointment: a system sized to the wrong state benchmark. For the basics of how a solar system works, see [how does a solar power system work](/blog/how-solar-power-system-works-india/).
@@ -43,7 +52,7 @@ India stretches from latitude 8° N (Kanyakumari, Tamil Nadu) to 37° N (Ladakh)
 
 Three factors drive state-to-state variation in solar electricity generation:
 
-- **Global Horizontal Irradiance (GHI)**: total solar energy reaching a horizontal surface per square metre per day, measured in kWh/m²/day. This is the primary driver of panel output.
+- **[Global Horizontal Irradiance (GHI)](/glossary/ghi/)**: total solar energy reaching a horizontal surface per square metre per day, measured in kWh/m²/day. This is the primary driver of panel output.
 - **Cloud cover and monsoon intensity**: cloud cover reduces irradiance from beam (direct) to diffuse radiation, cutting output to 15–40% of clear-sky values on heavily overcast days.
 - **Temperature**: higher ambient temperatures reduce panel output. Silicon panels lose approximately 0.4–0.5% output per °C above 25 °C (the standard test condition temperature). Rajasthan's summer rooftops reach 65–70 °C panel temperature, reducing output by 16–20% compared to datasheet ratings.
 
@@ -83,7 +92,7 @@ This four-step framework lets you compute your expected annual generation from a
 
 1. **Look up your state's GHI**: Use the table above or the MNRE's India Solar Resource Map available at [mnre.gov.in](https://mnre.gov.in/). For precision, use your pincode-level irradiance from NREL's PVWatts tool.
 
-2. **Calculate your annual specific yield**: Apply a performance ratio (PR) of 0.75–0.82 depending on system quality. Formula: `Annual Yield (kWh/kW) = GHI (kWh/m²/day) × 365 × PR`. For Bangalore with GHI of 5.2 and PR 0.80: `5.2 × 365 × 0.80 = 1,519 kWh/kW/yr`.
+2. **Calculate your annual specific yield**: Apply a [performance ratio (PR)](/glossary/pr/) of 0.75–0.82 depending on system quality. Formula: `Annual Yield (kWh/kW) = GHI (kWh/m²/day) × 365 × PR`. For Bangalore with GHI of 5.2 and PR 0.80: `5.2 × 365 × 0.80 = 1,519 kWh/kW/yr`.
 
 3. **Multiply by system size**: For a 5 kW system in Bangalore: `5 × 1,519 = 7,595 kWh per year` (approximately 633 units/month average).
 
@@ -125,7 +134,7 @@ In Kerala, the June–September monsoon months can produce as few as 250–350 u
 - Monthly average: 475 units
 - At ₹7.5/unit tariff: ₹42,750/year savings
 - Self-consumption (70%): 3,990 units directly used
-- Export (30%): 1,710 units at net metering credit
+- Export (30%): 1,710 units at [net metering](/glossary/net-metering/) credit
 
 **Example 2: 5 kW system in Bengaluru, Karnataka**
 - Annual specific yield: 1,600 kWh/kW/yr
@@ -149,15 +158,15 @@ The self-consumption ratio matters because exported units typically earn a lower
 
 Several factors can reduce actual generation below the theoretical estimates shown above. Understanding them helps you evaluate installer quotes critically.
 
-- **Soiling and dust**: Dust accumulation on panel surfaces reduces generation by 5–20% in dusty regions (Rajasthan, UP, Delhi). Monthly cleaning in the dry season restores output. For tips on maximising output, see [how to maximise solar output in Indian climate](/blog/maximize-solar-output-indian-climate/).
-- **Shading**: A shadow covering just 10% of one panel can reduce that entire string's output by 25–40% due to series connection physics. A thorough shade analysis at the site survey stage is non-negotiable.
-- **Panel degradation**: Quality panels degrade at 0.5–0.7% per year. At Year 10, output is approximately 95% of original; at Year 25, approximately 80–85%.
+- **[Soiling](/glossary/soiling/) and dust**: Dust accumulation on panel surfaces reduces generation by 5–20% in dusty regions (Rajasthan, UP, Delhi). Monthly cleaning in the dry season restores output. For tips on maximising output, see [how to maximise solar output in Indian climate](/blog/maximize-solar-output-indian-climate/).
+- **Shading**: A shadow covering just 10% of one panel can reduce that entire string's output by 25–40% due to series connection physics. A thorough [shade analysis](https://surgepv.com/shadow-analysis/) at the site survey stage is non-negotiable.
+- **Panel [degradation](/glossary/degradation/)**: Quality panels degrade at 0.5–0.7% per year. At Year 10, output is approximately 95% of original; at Year 25, approximately 80–85%.
 - **Inverter clipping**: If your inverter is undersized relative to the panel array, it limits output at peak irradiance hours, the inverter effectively clips the peak. See [inverter clipping explained](/blog/inverter-clipping-explained/) for the diagnosis and fix.
 - **High ambient temperature**: Panel output drops 0.4–0.5% per °C above 25 °C. On a 45 °C ambient day in Rajasthan, panel temperatures reach 60–70 °C, reducing nameplate output by 14–18%.
 
 ## How to Use This Data When Evaluating Installer Quotes
 
-Every reputable solar installer should provide a **Detailed Project Report (DPR)** or simulation output that shows:
+Every reputable solar installer should provide a **Detailed Project Report (DPR)** or [simulation software](https://surgepv.com/solar-simulation-software/) output that shows:
 
 - Monthly generation estimates for all 12 months
 - Annual generation total
@@ -179,4 +188,4 @@ The Qbits WhatsApp monitoring system reports daily generation in kWh, compares i
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery integration for households in monsoon-heavy states where evening consumption exceeds daytime generation.
 - **[Authorized Service Partners](/authorized-service-partners/)**: Pan-India service network to ensure underperformance is diagnosed and resolved within the 72-hour RMA SLA.
 
-When your installer quotes a generation figure, [talk to a Qbits engineer](/contact-us/) to independently verify the estimate using state-specific irradiance data, most clients find this cross-check prevents a 10–20% yield expectation mismatch.
+When your installer quotes a generation figure, [talk to a Qbits engineer](/contact-us/) to independently verify the estimate using state-specific irradiance data, most clients find this cross-check prevents a 10–20% yield expectation mismatch, and running your own numbers through a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) beforehand makes that conversation more productive.

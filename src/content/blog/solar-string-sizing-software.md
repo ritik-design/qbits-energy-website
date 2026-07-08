@@ -4,6 +4,7 @@ excerpt: "Solar string sizing software bounds the panel string length to the inv
 description: "Solar string sizing software 2026: MPPT-bounded auto-sizing, temperature limits, NEC/IEC compliance, plus the SurgePV workflow. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/solar-string-sizing-software.svg"
 author: "Keyur Rakholiya"
@@ -48,7 +49,7 @@ Solar string sizing software bounds the PV string length to the inverter's MPPT 
 
 ## What String Sizing Does
 
-The inverter's MPPT window has a minimum operating voltage and a maximum allowed input voltage. The PV string voltage varies with temperature, dropping at hot module temperatures and rising at cold start-up. The right string length keeps the operating voltage range inside the MPPT window across the site's temperature extremes.
+The inverter's [MPPT](/glossary/mppt/) window has a minimum operating voltage and a maximum allowed input voltage. The PV string voltage varies with temperature, dropping at hot module temperatures and rising at cold start-up. The right string length keeps the operating voltage range inside the MPPT window across the site's temperature extremes.
 
 **Cold-end check:** at the record minimum module temperature (often the coldest sunrise of the year), the string Voc must stay below the inverter Vmax to avoid tripping protection or damaging the inverter.
 
@@ -56,8 +57,8 @@ The inverter's MPPT window has a minimum operating voltage and a maximum allowed
 
 ## Inputs That Matter
 
-1. **Module Voc and Vmp** at STC
-2. **Module temperature coefficients** (β for Voc, γ for Vmp)
+1. **Module [Voc](/glossary/open-circuit-voltage/) and Vmp** at [STC](/glossary/stc/)
+2. **Module [temperature coefficients](/glossary/temperature-coefficient/)** (β for Voc, γ for Vmp)
 3. **Site cold-temperature extreme** (typically the record low minus margin)
 4. **Site hot-cell-temperature extreme** (often record-air-temperature + 25 to 35 °C cell rise)
 5. **Inverter MPPT Vmin and Vmax**
@@ -67,7 +68,7 @@ SurgePV pulls module datasheet values directly from the 70,000-module database a
 
 ## How SurgePV Automates String Sizing
 
-The design canvas runs string sizing as soon as a module and inverter are selected. The output is the MPPT-bounded string length, plus the recommended layout across multiple MPPTs if the inverter supports it. [Clara AI](https://surgepv.com/clara-ai) can also pick the string length from a natural-language brief. The free standalone [solar design software](https://surgepv.com/) string sizing calculator runs the same methodology outside the design canvas for quick checks.
+The design canvas runs string sizing as soon as a module and inverter are selected. The output is the MPPT-bounded string length, plus the recommended layout across [multiple MPPTs](/blog/dual-mppt-vs-single-mppt/) if the inverter supports it. [Clara AI](https://surgepv.com/clara-ai) can also pick the string length from a natural-language brief. The free standalone [string sizing calculator](https://surgepv.com/tools/string-sizing-calculator/) runs the same methodology outside the design canvas for quick checks, alongside the full [SurgePV platform](https://surgepv.com/).
 
 ## NEC, IEC, AS/NZS, IS Code Compliance
 
@@ -78,7 +79,7 @@ The design canvas runs string sizing as soon as a module and inverter are select
 | AS/NZS 4777.2 | Australia | Temperature-coefficient-derived |
 | IS 16221 | India | Datasheet + cold-extreme margin |
 
-SurgePV applies the relevant code margin based on the project's site location.
+SurgePV applies the relevant code margin based on the project's site location. For India-specific string sizing and overcurrent protection reference values, see our [solar string sizing and OCP guide](/blog/solar-string-sizing-ocp-india/). For projects that need a fully stamped compliance package beyond the calculator output, EPCs often turn to a dedicated [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) service.
 
 ## Solar String Sizing Across Competing Tools
 
@@ -95,7 +96,7 @@ For installers using Qbits or other hybrid inverters, SurgePV's auto-sizing hand
 ## Common String Sizing Mistakes
 
 1. **Using STC values without temperature correction**. Cold-Voc check fails in real conditions.
-2. **Ignoring inverter MPPT clipping at oversizing**. DC oversizing of 1.3 to 1.5× helps yield; sizing without it under-utilises the inverter.
+2. **Ignoring inverter [MPPT clipping](/blog/inverter-clipping-explained/) at oversizing**. [DC oversizing](/blog/dc-oversizing-in-solar/) of 1.3 to 1.5× helps yield; sizing without it under-utilises the inverter.
 3. **Not adjusting for site-specific cold extreme**. A 100-year cold event matters for code margin.
 4. **Mixing module models in a string**. Mismatch losses can cancel any expected gain.
 5. **Skipping the hot-end check on tracker projects**. Module cell temperatures rise higher than fixed-tilt.
@@ -105,7 +106,7 @@ For installers using Qbits or other hybrid inverters, SurgePV's auto-sizing hand
 - Module: 540 W, Voc 49.5 V, Vmp 41.8 V, β = -0.27%/°C, γ = -0.35%/°C
 - Site cold extreme: -5 °C cell
 - Site hot extreme: 70 °C cell
-- Inverter: 5 kW hybrid, MPPT 80 V to 550 V, dual MPPT
+- Inverter: 5 kW [hybrid inverter](/glossary/hybrid-inverter/), MPPT 80 V to 550 V, dual MPPT
 
 Cold-Voc at -5 °C cell: 49.5 × (1 + 0.27 × 30) / 100 = 49.5 × 1.081 = ~53.5 V per module.
 Max string length: 550 / 53.5 = 10 modules per string.
@@ -129,7 +130,7 @@ Workable range: 3 to 10 modules per string per MPPT. SurgePV picks 5 modules per
 - **Choose PVsyst** for desktop bankable workflows.
 - **Choose Aurora upper tier** for US-residential.
 
-For most installers in 2026, SurgePV ships the cleanest combined workflow at the lowest realised cost.
+For most installers in 2026, SurgePV ships the cleanest combined workflow at the lowest realised cost. String sizing usually happens after [8,760-hour shading analysis](/blog/solar-shading-analysis-software/) and [solar simulation](/blog/solar-simulation-software/), and feeds directly into [auto-generated single line diagrams](/blog/solar-sld-software/).
 
 <div class="inline-cta">
 <h3>Ready to auto-size strings on every project?</h3>

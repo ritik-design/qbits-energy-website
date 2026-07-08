@@ -4,6 +4,7 @@ excerpt: "How installers use solar permit design software to produce AHJ-ready S
 description: "Solar permit design software for installers in 2026. Auto-SLD, NEC labels, AutoCAD export, and when to design in-house versus outsource permit packs."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "9 min"
 image: "/blog-images/solar-permit-design-software.svg"
 author: "Nirav Dhanani"
@@ -55,12 +56,12 @@ Solar permit design software is the difference between shipping a permit pack on
 Every Authority Having Jurisdiction wants a slightly different bundle, but the spine of a permit pack is consistent across the United States, Australia, the EU, and most of South Asia. If your software cannot produce these seven artifacts, you are going to spend hours in CAD every job.
 
 1. **Site plan.** A scaled overhead drawing of the property with the array footprint, setbacks from ridges and edges, location of the main service panel, point of utility connection, and access pathways. Most AHJs want 1:200 or 1:100 scale.
-2. **Electrical layout.** Module locations on the roof or ground, string assignments, MLPE positions if used, conduit runs, and combiner or string inverter locations.
-3. **Single line diagram (SLD).** The schematic that walks from PV array through DC disconnect, inverter, AC disconnect, production meter, and main service panel. This is the most-scrutinized sheet.
+2. **Electrical layout.** Module locations on the roof or ground, string assignments, [MLPE](/glossary/mlpe/) positions if used, conduit runs, and combiner or string inverter locations.
+3. **[Single line diagram](/blog/solar-sld-software/) (SLD).** The schematic that walks from PV array through DC disconnect, inverter, AC disconnect, production meter, and main service panel. This is the most-scrutinized sheet.
 4. **Equipment datasheets.** Module, inverter, optimizer, and racking cut sheets, usually appended as PDF pages.
 5. **Code compliance labels.** NEC 690 and 705 labels for the US, IEC 60364-7-712 for Europe, AS-NZS 5033 for Australia and New Zealand, IS 16221 for India.
-6. **Structural attestation.** A roof attachment schedule and, in many jurisdictions, a stamped letter from a licensed structural engineer.
-7. **AHJ-specific extras.** Some cities want a placard schedule, others want a fire access diagram, others want a battery storage addendum.
+6. **Structural attestation.** A roof attachment schedule and, in many jurisdictions, a stamped letter from a licensed structural engineer, the kind of [structural and civil engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) work Heaven Designs handles for stamped submittals.
+7. **AHJ-specific extras.** Some cities want a placard schedule, others want a fire access diagram, others want a [battery storage addendum](/blog/solar-plus-storage-design-software/).
 
 Skip one of these and the AHJ comes back with a correction notice, costing you a week.
 
@@ -76,7 +77,7 @@ SurgePV was built to replace the old four-tool stack of Aurora plus HelioScope p
 
 **CAD export.** When your CAD operator needs to add a custom title block or a city-specific cover sheet, [DXF/DWG export](https://surgepv.com/solar-autocad-integration) preserves layers, line weights, and block structure. The DWG opens cleanly in AutoCAD 2018 and later, BricsCAD, and DraftSight.
 
-**Proposal in the same file.** The same project drives the [branded solar proposal](https://surgepv.com/solar-proposals) and the permit pack, so the homeowner sees the same kWh number that the AHJ approves.
+**Proposal in the same file.** The same project drives the [branded solar proposal](https://surgepv.com/solar-proposals) and the permit pack, so the homeowner sees the same kWh number that the AHJ approves, a workflow our [solar proposal software](/blog/solar-proposal-software/) comparison covers in more depth.
 
 This is what [solar design software for installers](https://surgepv.com/for-solar-installers) looks like when it is built for the job rather than retrofitted from a yield simulator.
 
@@ -113,7 +114,7 @@ Pair either approach with [QuickEstimate](https://quickestimate.co/) for the ups
 | Branded proposal in same file | Yes | Separate tool | Limited |
 | Starting seat price (annual) | $1,899 | $2,400+ | $1,800 |
 
-The biggest gap is the CAD export. If your CAD operator cannot drop the SLD into AutoCAD, every revision means a redraw. SurgePV writes clean DWG by default. If you want to dig into [SurgePV pricing](https://surgepv.com/pricing) and what each tier includes, the per-seat math gets very compelling at the 3-user and 5-user team plans.
+The biggest gap is the CAD export. If your CAD operator cannot drop the SLD into AutoCAD, every revision means a redraw. SurgePV writes clean DWG by default, a gap our [Aurora Solar alternative](/blog/aurora-solar-alternative/) comparison also flags. If you want to dig into [SurgePV pricing](https://surgepv.com/pricing) and what each tier includes, the per-seat math gets very compelling at the 3-user and 5-user team plans.
 
 <div class="inline-cta">
 <h3>Flat Per-Seat Pricing, No Project Caps</h3>
@@ -135,17 +136,17 @@ The biggest gap is the CAD export. If your CAD operator cannot drop the SLD into
 
 1. **Hand-drawing the SLD in Visio or PowerPoint.** Every revision is a manual redraw, and label compliance is a coin flip.
 2. **Using last year's NEC label set.** AHJs reject packs that reference NEC 2017 in a NEC 2023 jurisdiction.
-3. **Sizing conductors from memory.** Ambient temperature, conduit fill, and continuous current factors stack quickly. Let the software do the math.
-4. **Skipping the rapid shutdown label.** This is the single most common rejection reason in US residential permits.
+3. **Sizing conductors from memory.** Ambient temperature, conduit fill, and continuous [current](/glossary/current/) factors stack quickly. Let the software do the math.
+4. **Skipping the [rapid shutdown](/glossary/rapid-shutdown/) label.** This is the single most common rejection reason in US residential permits.
 5. **Outsourcing every pack without tracking the math.** If you are at 60 jobs a year, you are spending $15,000 to $25,000 a year on permit drawings. One SurgePV seat covers that and gives you a yield report and a proposal builder.
 
 ## Who Should Choose Each
 
 **Solo installers and 2-person shops doing under 50 jobs per year.** Get an individual SurgePV seat at $1,899 per year. Design in-house. Outsource only the complex commercial jobs to Heaven Designs when they come up.
 
-**5 to 15 person residential installers doing 100 to 400 jobs per year.** Buy the 3-user or 5-user team plan and run permit design in-house. The per-seat price drops to $1,299 and you get consistent output across the team.
+**5 to 15 person residential installers doing 100 to 400 jobs per year.** Buy the 3-user or 5-user team plan and run permit design in-house. The per-seat price drops to $1,299 and you get consistent output across the team, a workflow covered further in our [residential solar design software](/blog/residential-solar-design-software/) guide.
 
-**EPCs doing commercial and utility-scale.** Use [SurgePV](https://surgepv.com/) for the engineering model, yield report, and base electrical drawings. Hand the package to your in-house PE for stamping, or route the stamp through Heaven Designs.
+**EPCs doing commercial and utility-scale.** Use [SurgePV](https://surgepv.com/) for the engineering model, yield report, and base electrical drawings, the same territory our [utility-scale solar design software](/blog/utility-scale-solar-design-software/) comparison covers. Hand the package to your in-house PE for stamping, or route the stamp through Heaven Designs.
 
 **Shops with spiky volume.** Run a hybrid. SurgePV handles steady-state. When volume doubles for a quarter, outsource the overflow rather than hiring a fourth designer you will not need in six months.
 

@@ -3,6 +3,7 @@ title: "How to Check PM Surya Ghar Application Status, Step-by-Step"
 excerpt: "Check PM Surya Ghar status at pmsuryaghar.gov.in using your mobile number or application ID. Full step-by-step guide for 2026 with stage-by-stage timelines."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "13 min"
 image: "/blog-images/solar-inverter-commissioning-in-india.svg"
 author: "Nirav Dhanani"
@@ -33,9 +34,17 @@ faqs:
     a: "The PM Surya Ghar status can be checked via the portal at pmsuryaghar.gov.in (requires internet) or via the official mobile app. There is no USSD or SMS-based status check available. If you do not have reliable internet access, visit your local Common Service Centre (CSC) - most CSC operators are familiar with the PM Surya Ghar portal and can pull your status on your behalf using your application ID."
 ---
 
-You submitted your PM Surya Ghar application, chose an empanelled vendor, and now you are waiting. But the portal is not exactly transparent about what is happening, and the difference between "Pending at DISCOM" and "Feasibility Check Pending" can mean weeks of different wait times. This guide covers exactly how to check your PM Surya Ghar status, what each stage means, and what to do when it stalls.
+You submitted your PM Surya Ghar application, [chose an empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/), and now you are waiting. But the portal is not exactly transparent about what is happening, and the difference between "Pending at DISCOM" and "Feasibility Check Pending" can mean weeks of different wait times. This guide covers exactly how to check your PM Surya Ghar status, what each stage means, and what to do when it stalls.
 
 > **Direct answer.** Check PM Surya Ghar status by logging in to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} with your registered mobile number and OTP. Navigate to the Application Status section. The portal shows your current stage, date of last update, and any pending actions. Average processing time is 45 to 90 days across states in 2026.
+
+> **TL;DR**
+> - Log in at pmsuryaghar.gov.in with your registered mobile number and OTP, then open the Application Status section to see your current stage.
+> - Average processing time is 45 to 90 days end to end, against the official 30-day target.
+> - Net metering activation is usually the longest single stage, averaging 15 to 45 days depending on the DISCOM.
+> - If a stage has not moved in 21 days, raise a portal grievance; escalate to the DISCOM helpline after 45 days and to a written complaint after 60 days.
+> - A "Rejected" status usually means a document or eligibility issue, most are fixable by correcting the flagged item and reapplying.
+> - The subsidy shows as "Disbursed" on the portal and should reach your bank account within 2 to 3 working days via PFMS.
 
 The status check process sounds simple, but knowing what each status means and how long each stage should realistically take is the information most applicants are missing. This guide fills that gap completely. For the full context on the scheme, see the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/).
 
@@ -115,7 +124,7 @@ Common rejection reasons and their fixes:
 - **Outdated electricity bill**: Bill older than 90 days. Fix: download a fresh bill from the DISCOM portal and reapply.
 - **Ineligible connection category**: Commercial or industrial meter submitted. Fix: only domestic connections qualify; the meter category must match residential.
 - **Incomplete documents**: One document not properly uploaded. Fix: check the rejection notice for the specific document, re-upload at full quality, and resubmit.
-- **Property ownership issue**: Rental agreement submitted instead of ownership document. Fix: landlord must apply, or ownership transfer must be completed first.
+- **[Property ownership issue](/blog/pm-surya-ghar-eligibility/)**: Rental agreement submitted instead of ownership document. Fix: landlord must apply, or ownership transfer must be completed first.
 
 For a full guide on handling rejected applications, including the appeal process and timeline expectations, see [PM Surya Ghar rejection reasons](/blog/pm-surya-ghar-rejection-reasons/).
 
@@ -124,8 +133,8 @@ For a full guide on handling rejected applications, including the appeal process
 The net metering connection stage is where most applications wait the longest. Once installation is complete and your vendor has submitted the completion report, your DISCOM must:
 
 1. Schedule a physical inspection of the installation
-2. Send a field officer to verify that the system matches the approved specifications
-3. Replace your existing single-direction meter with a bidirectional smart meter
+2. Send a field officer to verify that the system matches the approved specifications, which is easier to defend if your installer kept proper [as-built documentation](https://heavendesigns.in/solar-post-design/) from the original design
+3. Replace your existing single-direction meter with a [bidirectional smart meter](/glossary/bidirectional-meter/)
 4. Activate the net metering account in their billing system
 5. Issue a net metering connection certificate
 
@@ -137,7 +146,7 @@ To understand the net metering process in full, including how to apply for it in
 
 ## Tracking the Subsidy Disbursal Stage
 
-Once your DISCOM issues the net metering connection certificate and marks the inspection as complete, the subsidy disbursal is handled by MNRE through the PFMS system. The timeline from inspection completion to disbursal is approximately 20 to 30 days in most states.
+Once your DISCOM issues the net metering connection certificate and marks the inspection as complete, the [subsidy disbursal](/blog/pm-surya-ghar-subsidy-amount/) is handled by MNRE through the PFMS system. The timeline from inspection completion to disbursal is approximately 20 to 30 days in most states.
 
 You will receive:
 - An SMS on your registered mobile number when the subsidy is disbursed

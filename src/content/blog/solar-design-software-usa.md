@@ -7,6 +7,7 @@ date: 2026-06-14
 readTime: "12 min"
 image: "/blog-images/solar-design-software-usa.svg"
 author: "Nirav Dhanani"
+updatedDate: 2026-07-08
 keywords:
   - "solar design software usa"
   - "solar design tool us"
@@ -55,11 +56,11 @@ US solar installers searching for [solar design software](https://surgepv.com/) 
 
 The US market has the deepest design tool ecosystem in the world, but it also has the most demanding compliance and financial modeling requirements. A platform that ships in Germany or Australia and bolts on US features rarely survives a real design review. Here is the checklist that matters.
 
-**NEC code coverage.** NEC 2023 is adopted in most states, with NEC 2026 rolling out through 2026 and 2027. The platform must handle rapid shutdown under 690.12, string sizing and voltage at the lowest expected ambient temperature under 690.7, conductor sizing under 690.8, overcurrent protection, equipment grounding under 690.45, and labeling under 690.56. Teams without a built-in code library spend hours per project cross-checking PDFs.
+**NEC code coverage.** NEC 2023 is adopted in most states, with NEC 2026 rolling out through 2026 and 2027. The platform must handle [rapid shutdown](/glossary/rapid-shutdown/) under 690.12, string sizing and voltage at the lowest expected ambient temperature under 690.7, conductor sizing under 690.8, overcurrent protection, equipment [grounding](/glossary/earthing/) under 690.45, and labeling under 690.56. Teams without a built-in code library spend hours per project cross-checking PDFs.
 
-**Federal ITC plus bonus depreciation.** The 30 percent residential ITC, the 30 percent commercial base ITC, the 10 percent domestic content bonus, the 10 percent energy community bonus, the low-income community adders, and MACRS five-year bonus depreciation all flow into deal math. A residential calculator that only shows the 30 percent number understates value for commercial projects by 20 to 40 points of IRR.
+**Federal ITC plus bonus depreciation.** The 30 percent residential ITC, the 30 percent commercial base ITC, the 10 percent domestic content bonus, the 10 percent energy community bonus, the low-income community adders, and [MACRS five-year bonus depreciation](/glossary/accelerated-depreciation/) all flow into deal math. A residential calculator that only shows the 30 percent number understates value for commercial projects by 20 to 40 points of [IRR](/glossary/irr/).
 
-**State SRECs.** New Jersey SREC-II, Maryland SREC, Massachusetts SMART, Illinois Shines, Pennsylvania, DC, Ohio, and Delaware each price solar production differently. Forward strip pricing, program caps, and registration windows shift quarterly. Static spreadsheets go stale in weeks.
+**State SRECs.** New Jersey SREC-II, Maryland [SREC](/glossary/rec/), Massachusetts SMART, Illinois Shines, Pennsylvania, DC, Ohio, and Delaware each price solar production differently. Forward strip pricing, program caps, and registration windows shift quarterly. Static spreadsheets go stale in weeks.
 
 **ToU rate structures.** PG&E EV2-A, SCE TOU-D-PRIME, SDG&E EV-TOU-5, Xcel Colorado TOU, Eversource Massachusetts, and dozens of municipal utility schedules now define the bill that solar plus battery offsets. Without 8,760-hour modeling and battery dispatch logic, NEM 3.0 designs in California are guesswork.
 
@@ -67,7 +68,7 @@ The US market has the deepest design tool ecosystem in the world, but it also ha
 
 ## Aurora Owns US Residential, But At What Cost
 
-Aurora Solar is the default US residential design platform for a reason. The remote site assessment, the LIDAR-derived 3D, the deep utility tariff library, the Sales Mode close-on-the-doorstep workflow, and the AI Mode auto-design all sit on years of investment that competitors are still catching up to. Aurora also has the strongest lender and utility relationships, which matters for teams selling through national finance partners.
+[Aurora Solar](/blog/aurora-solar-alternative/) is the default US residential design platform for a reason. The remote site assessment, the LIDAR-derived 3D, the deep utility tariff library, the Sales Mode close-on-the-doorstep workflow, and the AI Mode auto-design all sit on years of investment that competitors are still catching up to. Aurora also has the strongest lender and utility relationships, which matters for teams selling through national finance partners.
 
 The cost reflects that depth. Public and reported pricing puts Aurora Design at roughly $159 to $259 per user per month depending on tier and contract length. AI Mode is an additional seat fee. Sales Mode is a separate license. Lite Mode for canvassers is cheaper but locks down design output. For a 5-person team running a typical residential workflow with two designers on AI Mode and three sellers on Sales Mode, the annual spend lands in the $14,000 to $18,000 range, sometimes higher with onboarding and integrations.
 
@@ -85,7 +86,7 @@ That cost is justifiable for a 200-install-per-year shop in San Diego or Long Is
 
 **AI 3D and shading.** SurgePV ships [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite plus 8,760-hour module-level [shade analysis](https://surgepv.com/shadow-analysis) on every plan, not as an add-on. For NEM 3.0 in California or any battery-paired design, this is the difference between a real number and a guess.
 
-**Bankable yield.** Every project exports a [bankable yield report](https://surgepv.com/generation-financial-tool) with P50, P75, and P90 numbers ready for lender review. Aurora customers usually pull this from PVsyst as a separate step.
+**Bankable yield.** Every project exports a [bankable yield report](https://surgepv.com/generation-financial-tool) with [P50, P75, and P90](/glossary/p50-p90/) numbers ready for lender review. Aurora customers usually pull this from PVsyst as a separate step.
 
 **Branded proposals.** A [branded solar proposal](https://surgepv.com/solar-proposals) in nine languages exports from the same workspace, with US currency, US units, and US tariff math. For installers serving Spanish-speaking customers in California, Texas, Arizona, Florida, or New York, the bilingual proposal is included.
 
@@ -95,7 +96,7 @@ That cost is justifiable for a 200-install-per-year shop in San Diego or Long Is
 
 **Clara AI.** [Clara AI](https://surgepv.com/clara-ai) answers code, financial, and design questions inside the workspace, the way a senior designer would. For [installers](https://surgepv.com/for-solar-installers), this collapses the training curve for new hires.
 
-SurgePV is built for [residential solar design software](https://surgepv.com/residential-solar-design) workflows and [commercial solar design software](https://surgepv.com/commercial-solar-design) workflows in the same workspace, so a team that runs both does not pay two stacks.
+SurgePV is built for [residential solar design software](https://surgepv.com/residential-solar-design) workflows and [commercial solar design software](https://surgepv.com/commercial-solar-design) workflows in the same workspace, so a team that runs both does not pay two stacks. See [SurgePV's independent reviews](https://surgepv.com/reviews/) for how installers running exactly this dual workload rate the switch from Aurora.
 
 ## Solar Design Software for USA Comparison
 
@@ -112,7 +113,7 @@ SurgePV is built for [residential solar design software](https://surgepv.com/res
 | Multi-country tariff library | Yes | Limited | Limited | Yes | Limited | Limited |
 | 5-seat US team annual cost | $6,495 | $14K-$18K | $7K-$10K | Free-$8K | $3K-$6K | $5K-$9K |
 
-OpenSolar runs a freemium model with revenue from hardware referrals, which is cheaper at small scale but pushes a hardware bias. HelioScope is strong on C&I yield but does not ship a proposal. Pylon is the cheapest seat but thin on SREC and bonus depreciation. Solargraf, owned by Enphase, leans Enphase-friendly.
+[OpenSolar](/blog/opensolar-alternative/) runs a freemium model with revenue from hardware referrals, which is cheaper at small scale but pushes a hardware bias. [HelioScope](/blog/helioscope-alternative/) is strong on C&I yield but does not ship a proposal. [Pylon](/blog/pylon-alternative/) is the cheapest seat but thin on SREC and bonus depreciation. [Solargraf](/blog/solargraf-alternative/), owned by Enphase, leans Enphase-friendly.
 
 <div class="inline-cta">
 <h3>Flat per-seat pricing, no AI Mode upcharge</h3>
@@ -132,19 +133,19 @@ For a 5-seat team running a typical US residential and light C&I workflow:
 - **Pylon:** Roughly $3,000 to $6,000 per year for 5 seats. Thinner financial and SREC modeling.
 - **Solargraf:** Roughly $5,000 to $9,000 per year for 5 seats.
 
-For a 3-seat team, SurgePV is $4,497 per year. For an individual, $1,899. CRM and pipeline can connect through [QuickEstimate](https://quickestimate.co/) if the team wants a lightweight sales pipeline alongside the design platform. See [SurgePV pricing](https://surgepv.com/pricing) for the current rates.
+For a 3-seat team, SurgePV is $4,497 per year. For an individual, $1,899. CRM and pipeline can connect through [QuickEstimate](https://quickestimate.co/) if the team wants a lightweight sales pipeline alongside the design platform. See [SurgePV pricing](https://surgepv.com/pricing) for the current rates, or the full [solar design software pricing](/blog/solar-design-software-pricing/) comparison for how the US numbers stack up against every other platform.
 
 ## Real Workflow: California Residential With NEM 3.0 Plus ITC in 20 Minutes
 
 Here is what a real California residential design looks like inside SurgePV. A 2,400 square foot home in Sacramento, SMUD service area, 9.6 kW DC system with a 13.5 kWh battery, $34,500 contract price.
 
-**Minute 1 to 4.** Drop the address. AI 3D pulls satellite plus LIDAR and builds the roof model. Edit ridge lines if needed. Apply fire setbacks per California Title 24 and SMUD AHJ overlay.
+**Minute 1 to 4.** Drop the address. AI 3D pulls satellite plus LIDAR and builds the roof model. Edit ridge lines if needed. Apply fire setbacks per California Title 24 and SMUD AHJ overlay, with the [Net Billing Tariff under NEM 3.0](/glossary/net-metering/) applied later in the financial model.
 
 **Minute 4 to 9.** Layout 24 modules at 400 W across two south-facing planes. String into two MPPTs. NEC string sizing checks voltage at minimum design temperature. Rapid shutdown configuration confirmed under 690.12. Conductor sizing flagged green.
 
 **Minute 9 to 14.** Run 8,760-hour module-level shading. The neighbor's oak on the south-southwest takes 3.2 percent off annual yield. Result: 14,820 kWh per year specific yield 1,544 kWh per kW.
 
-**Minute 14 to 17.** Apply SMUD residential ToU with battery dispatch optimized for peak shaving. Layer the 30 percent federal ITC and California SGIP for the battery where eligible. Cash flow over 25 years with a 3 percent escalator. Payback at 6.4 years, 25-year savings of $58,200.
+**Minute 14 to 17.** Apply SMUD residential ToU with [battery dispatch optimized](/blog/battery-sizing-hybrid-solar/) for peak shaving. Layer the 30 percent federal ITC and California SGIP for the battery where eligible. Cash flow over 25 years with a 3 percent escalator. Payback at 6.4 years, 25-year savings of $58,200.
 
 **Minute 17 to 20.** Generate the branded bilingual proposal in English plus Spanish. Export DWG for the structural engineer. Export the bankable P50/P75/P90 yield report for the lender. Total time: 20 minutes for a deal-ready package.
 

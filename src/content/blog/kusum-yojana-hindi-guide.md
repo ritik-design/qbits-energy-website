@@ -3,6 +3,7 @@ title: "KUSUM Yojana Kya Hai - किसानों के लिए Solar Subs
 excerpt: "KUSUM Yojana 2026: kisan solar pump subsidy, Component A/B/C explain, apply kaise karein, kitni subsidy milegi, poori jankari Hindi mein। PM Surya Ghar se kya fark hai।"
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "13 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Nirav Dhanani"
@@ -31,15 +32,23 @@ faqs:
     a: "KUSUM Component B solar pump installation की total timeline 3 से 12 महीने है - state और application process के हिसाब से। Rajasthan और Gujarat में faster processing है; Bihar और Odisha में ज्यादा time लगता है। Central portal नहीं है, इसलिए state-wise variability ज्यादा है।"
 ---
 
-KUSUM Yojana India के किसानों के लिए सबसे बड़ी solar subsidy scheme है (लेकिन इसकी जानकारी शहरी लोगों की तरह widespread नहीं है। किसान जो diesel pump पर हज़ारों रुपए महीने खर्च करते हैं, वो KUSUM के through solar pump install करके उसे permanently eliminate कर सकते हैं) 60% subsidy के साथ। इस guide में पूरी जानकारी है।
+KUSUM Yojana [MNRE](/glossary/mnre/) की India के किसानों के लिए सबसे बड़ी solar subsidy scheme है (लेकिन इसकी जानकारी शहरी लोगों की तरह widespread नहीं है। किसान जो diesel pump पर हज़ारों रुपए महीने खर्च करते हैं, वो KUSUM के through solar pump install करके उसे permanently eliminate कर सकते हैं) 60% subsidy के साथ। इस guide में पूरी जानकारी है।
 
 > **एक line में जवाब।** KUSUM Yojana किसानों को solar pump subsidy देती है - 60% (30% central + 30% state)। तीन components हैं: land lease (A), standalone solar pump (B), और grid-connected pump solarisation (C)। PM Surya Ghar homeowners के लिए है; KUSUM farmers के लिए।
+
+> **TL;DR**
+> - KUSUM Yojana ke teen components hain: Component A (barren land par solar plant), Component B (off-grid standalone solar pump), aur Component C (grid-connected pump ka solarisation).
+> - Component B mein farmer sirf 40% khud pay karta hai (60% subsidy - 30% central + 30% state), kuch states mein state top-up se yeh 20-25% tak kam ho jaata hai.
+> - ALMM-listed panels aur inverters/pump controllers har component ke liye mandatory hain, warna subsidy release nahi hoti.
+> - KUSUM ke liye koi single national portal nahi hai - application state nodal agency (RREC, MEDA, GEDA, UPNEDA, PEDA) ke through hoti hai.
+> - PM Surya Ghar aur KUSUM alag schemes hain - ek hi farmer household dono ka fayda ek saath le sakta hai (ghar ke liye Surya Ghar, khet ke liye KUSUM).
+> - Component B ka payback typically 1-2 saal mein aata hai, diesel cost completely eliminate hone ki wajah se.
 
 According to [MNRE KUSUM portal](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2025 तक 2 lakh+ standalone solar pumps KUSUM Component B के under install हो चुके हैं। Target 3.5 million farmers तक scheme पहुँचाना है। अभी scheme active है और applications open हैं।
 
 ## KUSUM Yojana Kya Hai: Three Components
 
-KUSUM का full form: **K**isan **U**rja **S**uraksha evam **U**tthaan **M**ahabhiyan।
+KUSUM का full form: **K**isan **U**rja **S**uraksha evam **U**tthaan **M**ahabhiyan। Detailed technical definition ke liye [KUSUM glossary entry](/glossary/kusum/) dekhein।
 
 ### Component A: Decentralised Solar Plants on Agricultural Land
 
@@ -48,8 +57,10 @@ KUSUM का full form: **K**isan **U**rja **S**uraksha evam **U**tthaan **M**ah
 **कैसे काम करता है:**
 - Farmer अपनी land lease पर देता है (25-year lease)
 - Developer 0.5 MW से 2 MW solar plant install करता है
-- Solar power local DISCOM को बेचा जाता है
+- Solar power local [DISCOM](/glossary/discom/) को बेचा जाता है
 - Farmer को annual lease rent मिलती है: ₹20,000-60,000/acre/year
+
+Lease sign karne se pehle land ki technical suitability check karna zaroori hai - grid proximity, soil condition, access road. [Land feasibility aur site survey services](https://heavendesigns.in/site-survey-land-feasibility-services/) is tarah ke long-term commitment se pehle useful reference hain.
 
 **Who manages:** State DISCOMs और state nodal agencies। Farmer को कुछ नहीं करना - passive income।
 
@@ -79,7 +90,7 @@ Payback in 1-2 years in most cases, diesel eliminate होने से।
 **कैसे काम करता है:**
 - Farmer के pump पर solar panels add होते हैं
 - Solar power पहले pump चलाती है
-- Excess solar grid को export होती है - feed-in tariff पर income
+- Excess solar grid को export होती है - [feed-in tariff](/glossary/feed-in-tariff/) पर income
 - Agricultural electricity bill drastically कम होती है
 
 **Income dual है:** (1) Electricity bill savings (2) Grid export income
@@ -142,7 +153,7 @@ KUSUM के लिए कोई single national portal नहीं है - st
 
 ## KUSUM Mein ALMM Compliance
 
-KUSUM subsidised installations में भी ALMM-listed components mandatory हैं:
+KUSUM subsidised installations में भी [ALMM-listed](/glossary/almm-list/) components mandatory हैं:
 - Solar panels → ALMM Part I में listed
 - Solar inverters/controllers → ALMM Part II में listed
 - [MNRE ALMM verification](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}
@@ -162,6 +173,10 @@ Non-ALMM equipment install होने पर subsidy release नहीं ह�
 | **Payback period** | - | **~13 months** |
 
 Payback under 2 साल - diesel eliminate होने से यह one of the best agricultural investments है। According to [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"}, KUSUM Component B installations में diesel-to-solar switch सबसे rapid ROI deliver करता है।
+
+## KUSUM Mein Inverter Ki Zaroorat Se Pehle: Vendor Research
+
+Empanelled vendor list se select karne se pehle, vendor ke past projects aur field reputation verify karna smart hai. General solar EPC directories jaise [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) area ke installers ka background samajhne mein help kar sakte hain, lekin final selection state ke empanelled list se hi karna mandatory hai.
 
 ## Common Mistakes KUSUM Mein
 
@@ -203,7 +218,7 @@ Rajasthan is India's top KUSUM state. Per [MNRE KUSUM data](https://mnre.gov.in/
 - Annual diesel savings per farmer: ₹1.1-1.4 lakh
 - RVUN managing Component A ground-mounted projects
 
-Key Rajasthan KUSUM portal: RAJKISAN portal at rajkisan.rajasthan.gov.in
+Key Rajasthan KUSUM portal: RAJKISAN portal at rajkisan.rajasthan.gov.in। Ghar ke liye separate PM Surya Ghar subsidy chahne wale Rajasthan farmers [Rajasthan solar subsidy guide](/blog/solar-subsidy-rajasthan-2026/) dekh sakte hain।
 
 ### Maharashtra: Component C Leader
 
@@ -212,6 +227,8 @@ Maharashtra leads Component C (grid-connected pump solarisation):
 - MSEDCL (Maharashtra State Electricity Distribution Co) manages KUSUM
 - Average export income for Component C farmer: ₹45,000-80,000/year
 - Feed-in tariff: ₹3.00-3.30/unit
+
+Feeder-level Component C tenders in Maharashtra are structurally similar to other states' DISCOM-led solarisation programs - EPCs bidding on such work can review [PM-KUSUM/DREGP feeder solarisation scope](https://heavengreenenergy.com/drebp-pm-kusum/) as a reference for typical tender requirements.
 
 ### Gujarat: Fast Implementation
 

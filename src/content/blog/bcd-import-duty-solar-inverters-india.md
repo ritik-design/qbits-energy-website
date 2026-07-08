@@ -4,6 +4,7 @@ excerpt: "BCD on solar inverters India: 20% Basic Customs Duty applies to import
 description: "Understanding BCD and import duties on solar inverters in India 2026. How 20% BCD impacts Chinese OEMs, the ALMM list requirement for PM Surya Ghar, and what this means for EPCs."
 category: Policy
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
 author: "Nirav Dhanani"
@@ -32,7 +33,14 @@ faqs:
     a: "No standardised government calculator exists, but EPCs can compute import duty incidence as follows: (CIF value × BCD rate) + (CIF + BCD) × Social Welfare Surcharge (SWS at 10% of BCD) + (CIF + BCD + SWS) × IGST rate. For a typical 10 kW inverter with CIF of ₹40,000: BCD = ₹8,000; SWS = ₹800; IGST at 18% on (₹40,000 + ₹8,000 + ₹800) = ₹8,784; total duties = ₹17,584. The Import Duty Impact Calculator framework in this guide formalises this calculation."
 ---
 
-For EPC installers in India, the inverter procurement decision in 2026 is not just about specifications and price, it is increasingly shaped by customs policy and regulatory compliance. The Basic Customs Duty (BCD) of 20% on imported solar inverters, combined with the ALMM list requirement for PM Surya Ghar-subsidised projects, has created a significant structural cost and compliance difference between imported and domestic inverters.
+For EPC installers in India, the inverter procurement decision in 2026 is not just about specifications and price, it is increasingly shaped by customs policy and regulatory compliance. The [Basic Customs Duty (BCD)](/glossary/customs-duty/) of 20% on imported solar inverters, combined with the ALMM list requirement for PM Surya Ghar-subsidised projects, has created a significant structural cost and compliance difference between imported and domestic inverters.
+
+> **TL;DR**
+> - BCD on imported solar inverters (HS code 8504) is 20% as of 2026; modules attract 40% and cells 25%, on top of IGST at 12-18% and a 10% Social Welfare Surcharge on the BCD amount.
+> - Inverters manufactured in India, regardless of the parent company's ownership, attract zero BCD and only domestic GST, a structural cost gap of roughly 20-25% versus imported units.
+> - BCD and ALMM listing are separate but reinforcing policies: BCD raises the landed cost of imported inverters while ALMM restricts which models qualify for the PM Surya Ghar subsidy at all.
+> - Chinese OEMs such as Sungrow, Growatt, Huawei, and Deye are exposed to the full 20% BCD on units imported directly, unless they scale India manufacturing.
+> - On a 10 kW imported inverter with ₹40,000 CIF value, total duties add up to roughly ₹17,584, pushing the landed cost to ₹57,584 before freight.
 
 Understanding these policies is not just about compliance. It is about margin protection, project eligibility, and competitive positioning in a market where 90%+ of residential installations are now linked to subsidy and net metering programmes.
 
@@ -66,7 +74,7 @@ The Import Duty Impact Calculator applies the following formula:
 **Step 1:** BCD = CIF Value × BCD Rate
 **Step 2:** Social Welfare Surcharge (SWS) = BCD × 10%
 **Step 3:** IGST base = CIF + BCD + SWS
-**Step 4:** IGST = IGST base × IGST Rate
+**Step 4:** [IGST](/blog/gst-on-solar-inverters-2026/) = IGST base × IGST Rate
 **Step 5:** Total incidence = BCD + SWS + IGST
 
 **Example:** 10 kW imported inverter, CIF value ₹40,000
@@ -93,6 +101,8 @@ Apply this five-step framework to any inverter procurement decision involving an
 3. **Calculate SWS**: multiply BCD by 10% (Social Welfare Surcharge is levied on BCD).
 4. **Calculate IGST**: sum CIF + BCD + SWS, then multiply by the applicable IGST rate (12% or 18% depending on product classification).
 5. **Compare with ALMM-listed domestic alternative**: the domestic product's true cost is ex-works price + domestic freight + GST input credit. The net difference reveals the true import premium.
+
+Pairing this framework with a broader [solar design and estimation toolkit](https://surgepv.com/tools/) lets EPCs model landed cost alongside system design and string sizing in the same workflow, rather than treating customs math as a separate spreadsheet exercise.
 
 For an EPC doing 50 residential installations per month using a 5 kW imported inverter at ₹25,000 CIF:
 
@@ -180,7 +190,7 @@ Monitor policy changes at [MNRE](https://mnre.gov.in/) and [CBIC](https://www.cb
 
 ## Common EPC Mistakes in Import Duty Management
 
-- **Using ex-works prices in project BOMs**: ex-works pricing from a Chinese supplier is meaningless without adding the full duty incidence. BOMs submitted to clients should reflect landed costs.
+- **Using ex-works prices in project BOMs**: ex-works pricing from a Chinese supplier is meaningless without adding the full duty incidence. BOMs submitted to clients should reflect landed costs, [quotation software that itemises landed cost line by line](https://quickestimate.co/features/quotation-system/) rather than ex-works pricing prevents this discrepancy from reaching the client.
 - **Not verifying ALMM at procurement**: assuming an inverter model is ALMM-listed based on brand reputation rather than checking the current list. Models are removed when manufacturers fail to renew listing.
 - **Choosing imported inverters to save ₹5,000/unit while losing PM Surya Ghar subsidy eligibility**: the subsidy is ₹30,000–₹78,000 per system. No unit-level saving justifies losing the entire subsidy for the homeowner.
 - **Not building BCD escalation risk into multi-year EPC contracts**: if BCD increases from 20% to 30% mid-contract, the EPC absorbs the margin hit unless the contract has a material cost escalation clause.
@@ -189,7 +199,7 @@ For the full EPC procurement framework, read the [inverter procurement India gui
 
 ## Where Qbits Fits
 
-Qbits inverters are manufactured in India, BIS-certified, and ALMM-listed, which means EPCs using Qbits on PM Surya Ghar projects do not pay any BCD, do not carry import duty risk, and supply ALMM-compliant equipment without DISCOM rejection risk.
+Qbits inverters are manufactured in India, [BIS-certified](/glossary/bis-certification/), and ALMM-listed, which means EPCs using Qbits on PM Surya Ghar projects do not pay any BCD, do not carry import duty risk, and supply ALMM-compliant equipment without DISCOM rejection risk.
 
 The 12-year full replacement warranty eliminates the after-sales support gaps that some imported brands create in Indian Tier-2 and Tier-3 markets. The <72-hour RMA SLA backed by an authorised service partner network covering 280+ cities is a direct alternative to the extended wait times that arise when an imported inverter requires manufacturer-side warranty support.
 

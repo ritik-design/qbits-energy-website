@@ -4,6 +4,7 @@ excerpt: "Solar subsidy in Karnataka 2026 combines PM Surya Ghar (₹78,000 for 
 description: "Solar subsidy in Karnataka 2026: PM Surya Ghar amounts, BESCOM and other DISCOM net-metering steps, Karnataka state policy, timeline, and a Bangalore homeowner example."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
 author: "Akash Hirapara"
@@ -38,6 +39,13 @@ featured: false
 Karnataka homeowners asking about solar in 2026 have one distinct advantage over most other Indian states: BESCOM, which covers Bangalore and the surrounding districts, operates one of the most digitised solar net metering portals in the country. Combined with Karnataka's high solar irradiance, 5.0 to 6.0 kWh/m²/day in much of the state, and the central PM Surya Ghar subsidy of up to ₹78,000 for a 3 kW system, rooftop solar in Karnataka delivers some of the most attractive payback economics in India.
 
 This guide covers the complete Karnataka solar subsidy picture: what the central scheme provides, how BESCOM's online application process works, what the four non-BESCOM DISCOMs (HESCOM, MESCOM, CESC, GESCOM) require, realistic timelines, the documents you will need, and a worked example from a Bangalore homeowner.
+
+> **TL;DR**
+> - Karnataka relies on the central PM Surya Ghar subsidy alone (up to ₹78,000 for 3 kW); there is no separate state cash top-up as of 2026.
+> - BESCOM (Bangalore) runs the most digitised solar portal of Karnataka's five DISCOMs, with a 45 to 75 day timeline versus 60 to 130 days for HESCOM, MESCOM, CESC, or GESCOM.
+> - Bangalore's monsoon (June to September) cuts generation by 30 to 40 percent, so payback estimates should use annual figures, not summer peak output.
+> - KERC's net metering framework settles surplus units annually at the export tariff (₹3.00–₹4.00/unit), well below the ₹5–₹8/unit import tariff, so self-consumption is significantly more valuable than export.
+> - A Whitefield case example (3 kW, ₹2,00,000 gross cost, ₹78,000 subsidy) reached roughly 3.7 years' payback.
 
 > **Karnataka's solar subsidy in 2026 rests primarily on the central PM Surya Ghar scheme.** The scheme provides up to ₹78,000 for a 3 kW residential system. Karnataka does not currently operate a separate state cash top-up comparable to Gujarat's programme. What Karnataka provides instead is high irradiance (5.0–5.5 kWh/m²/day in Bangalore, up to 6.0 in northern Karnataka), BESCOM's relatively efficient online portal, and a KERC net metering framework that credits surplus generation annually at approximately ₹3.00–₹4.00 per unit.
 
@@ -80,11 +88,11 @@ Navigating the Karnataka solar subsidy process requires managing five distinct e
 
 1. **National portal registration**: Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your DISCOM consumer number, Aadhaar details, and bank information before any installation begins. Registration after installation creates verification complications and often delays subsidy disbursement.
 
-2. **DISCOM technical feasibility**: Submit to your DISCOM (BESCOM for Bangalore, or one of the four regional DISCOMs) for technical feasibility approval. BESCOM accepts online submissions through its consumer portal; other DISCOMs may require in-person submission at divisional offices.
+2. **DISCOM technical feasibility**: Submit to your [DISCOM](/glossary/discom/) (BESCOM for Bangalore, or one of the four regional DISCOMs) for technical feasibility approval. BESCOM accepts online submissions through its consumer portal; other DISCOMs may require in-person submission at divisional offices.
 
 3. **ALMM-compliant installation**: Only panels and inverters on the current MNRE ALMM list qualify. Verify specific model numbers on the [MNRE ALMM list](https://mnre.gov.in/almm-list/), the list updates quarterly. The [ALMM guide](/blog/almm-list-phase-iii-guide/) explains which phase applies to your application.
 
-4. **Net meter commissioning**: After installation, the DISCOM replaces your existing meter with a bidirectional smart meter. BESCOM's queue for this step typically runs 30 to 45 days post-inspection.
+4. **Net meter commissioning**: After installation, the DISCOM replaces your existing meter with a [bidirectional smart meter](/glossary/bidirectional-meter/). BESCOM's queue for this step typically runs 30 to 45 days post-inspection.
 
 5. **Subsidy disbursement**: After commissioning is confirmed on the PM Surya Ghar portal, the central subsidy transfers to your Aadhaar-linked bank account within 30 days. Karnataka does not currently have a parallel state disbursement mechanism for a separate top-up.
 
@@ -183,7 +191,7 @@ Karnataka's monsoon (June–September) does not significantly slow the applicati
 
 Priya Sharma owns a 4 BHK independent house in Whitefield, Bangalore, served by BESCOM. Her monthly bill averages ₹4,200 (500–600 units per month, including air conditioning). Here is her solar subsidy experience.
 
-**System specification**: 3 kW on-grid, ALMM-listed monocrystalline panels (9 × 335 Wp), BIS-certified single-phase string inverter, rooftop mounting on 240 sq ft shadow-free terrace area.
+**System specification**: 3 kW on-grid, ALMM-listed [monocrystalline](/glossary/monocrystalline/) panels (9 × 335 Wp), BIS-certified single-phase [string inverter](/glossary/string-inverter/), rooftop mounting on 240 sq ft shadow-free terrace area.
 
 **Costs and subsidies**:
 - Gross system cost: ₹2,00,000 (installed)
@@ -214,11 +222,11 @@ For most Bangalore homeowners with reliable BESCOM supply and no critical backup
 
 ## Common Mistakes Karnataka Solar Applicants Make
 
-- **Not verifying vendor DISCOM empanelment**: Karnataka has many solar installers, but only DISCOM-empanelled vendors can process PM Surya Ghar applications. Ask the vendor to show their empanelment certificate for the specific DISCOM (BESCOM, HESCOM, etc.) before paying any advance.
+- **Not verifying vendor DISCOM empanelment**: Karnataka has many solar installers, but only DISCOM-empanelled vendors can process PM Surya Ghar applications. Ask the vendor to show their empanelment certificate for the specific DISCOM (BESCOM, HESCOM, etc.) before paying any advance; a directory such as [Heaven Green Energy's local installer finder](https://heavengreenenergy.com/solar-near-me/){target="_blank" rel="noopener"} is a reasonable starting point for shortlisting vendors to verify.
 - **Installing before DISCOM feasibility approval**: Even if the installer assures you approval is "just a formality," install only after the written feasibility consent letter arrives. Pre-installation claims are frequently not honoured if the feasibility is later denied or modified.
 - **Choosing a 5 kW system when the bill supports only 3 kW**: The PM Surya Ghar subsidy is capped at 3 kW regardless of system size. For a Bangalore home consuming 450–600 units per month, a 3 kW system covers most of the bill without over-generating and exporting at the lower tariff.
 - **Skipping ALMM verification**: The ALMM list changes quarterly. A model proposed by an installer today may have been delisted three months ago. Check the [MNRE ALMM list](https://mnre.gov.in/almm-list/) directly for the exact panel and inverter models in your quote.
-- **Underestimating the monsoon impact on payback**: Bangalore's June–September monsoon reduces daily generation by 40 to 50 percent compared to peak months. Payback calculations should use annual generation figures, not summer peak figures, to avoid overestimating economics.
+- **Underestimating the monsoon impact on payback**: Bangalore's June–September monsoon reduces daily generation by 40 to 50 percent compared to peak months. Payback calculations should use annual generation figures, not summer peak figures, to avoid overestimating economics; [SurgePV's financial modeling tool](https://surgepv.com/generation-financial-tool/){target="_blank" rel="noopener"} lets you factor seasonal generation swings into the payback estimate rather than relying on a flat monthly average.
 
 The [net metering India complete guide](/blog/net-metering-india-complete-guide/) and the [how to apply for net metering guide](/blog/how-to-apply-net-metering-india/) together provide the full procedural background before the BESCOM portal application.
 

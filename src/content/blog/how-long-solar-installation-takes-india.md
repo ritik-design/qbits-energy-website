@@ -3,6 +3,7 @@ title: "How Long Does Solar Installation Take in India? - Timeline"
 excerpt: "Solar installation time in India ranges from 1 to 4 months. Physical installation takes 1–2 days; DISCOM net metering approval takes 15–90 days and is the main bottleneck in most states."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "15 min"
 image: "/blog-images/solar-inverter-commissioning-in-india.svg"
 author: "Keyur Rakholiya"
@@ -33,13 +34,21 @@ faqs:
 
 You have decided to go solar. The quotes are in, the subsidy is understood, the system is sized, and now the most practical question: how long before the panels are on the roof and the meter is running backwards? The honest answer involves two very different timelines: the physical installation (fast) and the DISCOM approval (slow and variable by state). This guide maps every stage with realistic durations.
 
+> **TL;DR**
+> - Total time from enquiry to commissioning is 1-4 months; physical installation itself takes only 1-2 days.
+> - DISCOM net metering approval is the real bottleneck, 15-30 days in Gujarat versus 60-90 days in Kerala.
+> - Equipment procurement typically adds 5-10 days for residential systems, longer for large commercial orders.
+> - PM Surya Ghar mandates DISCOM timelines (15 days feasibility, 30 days inspection, 10 days for the net meter), but state-level enforcement varies widely.
+> - Subsidy disbursement follows about 30 days after the DISCOM issues the commissioning certificate.
+> - Picking an installer who already holds inverter and panel stock is the single biggest lever homeowners have over the timeline.
+
 > **Direct answer.** Solar installation time in India is 1–4 months total. The physical installation of panels, inverter, and wiring takes 1–2 days. Equipment procurement adds 5–10 days. The dominant delay is DISCOM net metering approval, 15 days in Gujarat, 30–60 days in most states, 60–90 days in Kerala. The "Solar Installation Timeline: 6 Stages" framework below maps every phase with state-specific DISCOM data.
 
 For what to expect after your system is commissioned, see [what to expect in Year 1 of solar ownership India](/blog/solar-year-1-ownership-guide-india/). According to [JMK Research's India Rooftop Solar H2 2025 Report](https://jmkresearch.com/), India added a record 5.2 GW of rooftop solar in FY2025, with residential installations accounting for the majority, making DISCOM net metering capacity the new national constraint.
 
 ## Stage 1: Site Survey (Day 1)
 
-The site survey is the starting gun. A qualified site assessor from your chosen installer visits your home to capture the technical data needed for system design.
+The [site survey](/glossary/site-survey/) is the starting gun. A qualified site assessor from your chosen installer visits your home to capture the technical data needed for system design. Larger commercial projects often commission a formal [site survey and land feasibility study](https://heavendesigns.in/site-survey-land-feasibility-services/) before design work even begins, since roof load, shading, and grid access all need sign-off first.
 
 A thorough site survey covers:
 
@@ -55,9 +64,9 @@ A serious site survey takes 45–90 minutes and should produce a written report.
 
 ## Stage 2: Quotation and Agreement (3–7 Days)
 
-After the site survey, a competent installer produces a detailed quotation within 3–5 working days. The quotation should include:
+After the site survey, a competent installer produces a detailed quotation within 3–5 working days. Installers running dedicated [quotation software](https://quickestimate.co/features/quotation-system/) instead of manual spreadsheets typically turn this stage around faster and with fewer line-item errors. The quotation should include:
 
-- Panel make, model, wattage, and ALMM certification status
+- Panel make, model, wattage, and [ALMM](/glossary/almm-list/) certification status
 - Inverter make, model, rated capacity, and warranty terms
 - DC cable specification (voltage rating, cross-section, length)
 - Mounting structure type (ground mount, rooftop ballasted, or flush mount)
@@ -91,12 +100,12 @@ This is the fastest stage. A residential 3–6 kW system is physically installed
 
 **Day 2 (or afternoon of Day 1 for smaller systems):** DC wiring from panels to inverter; inverter mounting on the wall; AC wiring from inverter to the distribution board; earthing and bonding; final inspection by the site supervisor.
 
-**Commissioning** happens on the same day as physical completion. The system immediately begins generating electricity, though it may run in zero-export mode until the DISCOM net meter is installed.
+**[Commissioning](/glossary/commissioning/)** happens on the same day as physical completion. The system immediately begins generating electricity, though it may run in zero-export mode until the DISCOM net meter is installed.
 
 Key safety tasks during installation include:
 - DC cable routing through conduit (UV-protected, rodent-proof)
 - [MC4 connector](/glossary/mc4-connector/) assembly and torque verification
-- Surge protection device (SPD) installation at both DC and AC sides
+- [Surge protection device (SPD)](/glossary/spd/) installation at both DC and AC sides
 - Earth continuity testing across the entire array
 
 For the commissioning checklist, see [solar inverter commissioning in India](/blog/solar-inverter-commissioning-in-india/).
@@ -111,7 +120,7 @@ This is the stage that determines whether your total timeline is 1 month or 4 mo
 2. DISCOM technical inspection of the installation
 3. Technical feasibility confirmation (the feeder can accommodate your system's export capacity)
 4. Approval of the single-line diagram and inverter specifications
-5. DISCOM crew dispatched to install the bidirectional net meter
+5. DISCOM crew dispatched to install the [bidirectional net meter](/glossary/bidirectional-meter/)
 6. Net meter installation and calibration
 7. Commissioning certificate issued
 
@@ -168,7 +177,7 @@ State-level subsidies vary and are disbursed separately via state DISCOM channel
 
 **Delay 4: Structural issues discovered during installation.** If the roof requires reinforcement or the distribution board needs upgrading, add 3–7 days for remedial work.
 
-The [find a reliable solar installer](/blog/find-reliable-solar-installer/) guide covers how to evaluate installers on their DISCOM approval track record, an underrated criterion that directly affects your total timeline.
+The [find a reliable solar installer](/blog/find-reliable-solar-installer/) guide covers how to evaluate installers on their DISCOM approval track record, an underrated criterion that directly affects your total timeline. Homeowners comparing full-service [solar EPC](https://heavengreenenergy.com/solar-epc/) companies against smaller local installers should weigh this track record alongside price, since a turnkey EPC typically owns the DISCOM follow-up rather than leaving it to the homeowner.
 
 ## How PM Surya Ghar Has Changed the Timeline
 

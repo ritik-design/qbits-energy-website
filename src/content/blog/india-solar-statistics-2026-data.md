@@ -4,6 +4,7 @@ excerpt: "India solar statistics 2026: 100+ GW total installed capacity, 13.9 GW
 description: "Complete India solar statistics 2026 data reference. Total capacity, rooftop solar breakdown, PM Surya Ghar progress, state rankings, investment figures, employment, and 500 GW by 2030 pathway."
 category: Industry
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "22 min"
 image: "/blog-images/solar-inverter-manufacturers-in-india.svg"
 author: "Nirav Dhanani"
@@ -33,6 +34,13 @@ faqs:
 ---
 
 India's solar story is one of the most dramatic energy transitions in global history. A country that barely registered on the global solar map in 2010 (with less than 30 MW of installed capacity) has crossed 100 GW of cumulative solar capacity in 2026, making it the fourth-largest solar market in the world behind China, the United States, and Germany. This data reference compiles the most important India solar statistics for 2026 from official sources, research organisations, and government portals, structured for quick citation and reference.
+
+> **TL;DR**
+> - India's total solar installed capacity crossed roughly 100 GW by March 2026, the world's fourth-largest solar market behind China, the US, and Germany.
+> - Rooftop solar accounts for about 13.9 GW of that total, with PM Surya Ghar driving the fastest growth in the residential segment.
+> - The solar sector employs 240,000–280,000 people directly and drew USD 8–10 billion in investment in 2025.
+> - Solar generates roughly 7–8% of India's electricity today, versus a targeted 15–18% by 2030.
+> - India needs to add 45–50 GW of solar per year through 2030 to hit its 280–300 GW target, nearly double the 24–26 GW added in 2025.
 
 > **As of March 2026, India's total solar installed capacity has crossed approximately 100 GW, representing the world's fourth-largest solar market.** The sector employs over 250,000 people directly, attracted USD 8–10 billion in 2025 investment, and is targeting 280–300 GW of solar as part of the 500 GW non-fossil fuel commitment by 2030. The India Solar at a Glance: 10 Key Metrics framework organises these numbers for quick reference and decision support.
 
@@ -113,7 +121,7 @@ The gap between applications and completions reflects several implementation cha
 - **Installer capacity**: the PM Surya Ghar empanelled vendor programme (vendors registered on the national portal to install under the scheme) has created quality and capacity constraints in high-demand states.
 - **Consumer financing**: while the subsidy covers ₹78,000 of a ₹1.5–₹2 lakh system cost, the remaining consumer contribution requires either savings or a loan. The government's collateral-free solar loan programme through nationalised banks has had variable uptake.
 
-State-wise, Gujarat leads in completed installations, followed by Rajasthan and Maharashtra. For more on the scheme's mechanics and application process, see [how to apply for PM Surya Ghar](/blog/pm-surya-ghar-apply-online/).
+State-wise, Gujarat leads in completed installations, followed by Rajasthan and Maharashtra. For more on the scheme's mechanics and application process, see [how to apply for PM Surya Ghar](/blog/pm-surya-ghar-apply-online/). For a rooftop-specific breakdown of these state rankings, see [India rooftop solar capacity by state](/blog/india-rooftop-solar-capacity-state-2026/).
 
 > **₹75,021 crore.** The total government budget approved for PM Surya Ghar Muft Bijli Yojana, one of the largest single-scheme allocations for residential energy transition in India's fiscal history. *Source - [PM Surya Ghar Official Portal](https://pmsuryaghar.gov.in/), 2026.*
 
@@ -165,7 +173,7 @@ India's solar manufacturing base has grown significantly under the Production Li
 
 **Module manufacturing:** As of 2025, India's solar cell and module manufacturing capacity has grown to approximately 40–50 GW per year, with major manufacturers including Adani Solar, Waaree, Vikram Solar, and Tata Power Solar. The PLI scheme has attracted ₹45,000 crore of committed investment in the solar manufacturing supply chain.
 
-**Inverter manufacturing:** The ALMM Phase III list for solar inverters (launched in 2024) has created a mandatory approved list for inverters used in PM Surya Ghar installations. As of 2026, approximately 30–40 inverter manufacturers appear on the ALMM Phase III list, including both domestic manufacturers and Indian entities sourcing from verified overseas manufacturing. Brands on the list must comply with BIS/IEC standards and demonstrate local service capabilities.
+**Inverter manufacturing:** The ALMM Phase III list for solar inverters (launched in 2024) has created a mandatory approved list for inverters used in PM Surya Ghar installations. As of 2026, approximately 30–40 inverter manufacturers appear on the ALMM Phase III list, including both domestic manufacturers and Indian entities sourcing from verified overseas manufacturing. Brands on the list must comply with BIS/IEC standards and demonstrate local service capabilities. For a breakdown of which brands hold the largest share of this list, see [solar inverter market share in India](/blog/solar-inverter-market-share-india-2026/).
 
 The [ALMM list Phase III guide](/blog/almm-list-phase-iii-guide/) explains in detail which inverter brands are listed, how the listing process works, and why ALMM status matters for subsidy eligibility.
 
@@ -185,7 +193,7 @@ India's solar sector has been one of the largest recipients of renewable energy 
 - Kusum Yojana (agricultural solar): ₹34,035 crore budget for 30,800 MW of agricultural solar capacity, see the [Kusum Yojana agricultural solar guide](/blog/kusum-yojana-agricultural-solar-subsidy/).
 - PLI scheme for solar module manufacturing: ₹24,000 crore.
 
-**Project-level economics:** According to Mercom India's 2025 analysis, the Levelised Cost of Energy (LCOE) from new utility-scale solar in India has fallen to approximately ₹2.0–₹2.5 per kWh on a life-cycle basis, below the running cost of existing coal plants at ₹2.5–₹3.5 per kWh. For residential systems, the all-in residential solar LCOE (after subsidy) is approximately ₹3.5–₹4.5 per kWh over a 25-year system life, well below the grid retail tariff of ₹7–₹10 per kWh in most urban areas.
+**Project-level economics:** According to Mercom India's 2025 analysis, the Levelised Cost of Energy (LCOE) from new utility-scale solar in India has fallen to approximately ₹2.0–₹2.5 per kWh on a life-cycle basis, below the running cost of existing coal plants at ₹2.5–₹3.5 per kWh. For residential systems, the all-in residential solar LCOE (after subsidy) is approximately ₹3.5–₹4.5 per kWh over a 25-year system life, well below the grid retail tariff of ₹7–₹10 per kWh in most urban areas. Investors and finance teams modelling these cash flows over a full 25-year horizon can use a dedicated [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) rather than a static spreadsheet.
 
 ## Employment: Solar Sector Job Creation
 
@@ -199,7 +207,7 @@ The [IRENA Renewable Energy and Jobs Annual Review 2025](https://www.irena.org/p
 
 Indirect and induced employment (from equipment supply chains, financial services, logistics, and grid infrastructure) adds approximately 600,000–800,000 additional positions, bringing the broader solar-adjacent employment count to approximately 900,000 as of 2025.
 
-India has committed to creating 500,000 additional green energy jobs by 2030 under its NDC commitments and the National Green Hydrogen Mission ancillary targets.
+India has committed to creating 500,000 additional green energy jobs by 2030 under its NDC commitments and the National Green Hydrogen Mission ancillary targets. Installers looking to join this growing workforce can explore [becoming a channel partner](https://heavengreenenergy.com/become-channel-partner/) with an established solar EPC network.
 
 ## 2030 Pathway: The Road to 500 GW
 

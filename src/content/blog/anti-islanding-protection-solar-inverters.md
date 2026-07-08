@@ -7,6 +7,7 @@ date: 2026-06-05
 readTime: "17 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Keyur Rakholiya"
+updatedDate: 2026-07-08
 keywords:
   - anti islanding solar inverter
   - anti islanding protection india
@@ -36,6 +37,13 @@ faqs:
 
 Every time a DISCOM crew goes out to repair a feeder that has tripped at the substation, they assume the downstream conductors are dead. If a rooftop solar inverter continues to energise those conductors, the crew faces a live-line hazard on what they believe is a de-energised circuit. This is the islanding problem, and it is the reason every grid-connected solar inverter sold or installed in India must include anti-islanding protection certified to IEC 62116 and compliant with CEA Grid Code 2020.
 
+> **TL;DR**
+> - Anti-islanding must trip a grid-connected inverter within 2 seconds of grid loss, per IEC 62116 and CEA Grid Code 2020.
+> - Qbits inverters combine ROCOF and vector shift detection, eliminating the non-detection zone that defeats passive-only protection.
+> - BIS has adopted the standard as IS/IEC 62116, and DISCOMs require the certificate for the exact firmware version before approving grid interconnection.
+> - Passive voltage and frequency protection alone can miss an island when local load closely matches inverter output, the non-detection zone (NDZ).
+> - Most modern inverters trip in under 200 milliseconds, well inside the 2-second regulatory limit.
+
 > **Direct answer.** Anti-islanding protection forces a solar inverter to stop feeding power into the grid within 2 seconds whenever the utility grid goes down. Qbits inverters use a two-layer scheme (ROCOF (Rate of Change of Frequency) and vector shift) to detect grid loss even in the hardest-to-detect near-unity load scenarios, satisfying IEC 62116 requirements and CEA Grid Code 2020 for every DISCOM commissioning inspection.
 
 For EPC installers, anti-islanding is not a theoretical concern. It is a line item on the DISCOM inspection checklist, and failing it means the system does not get grid-interconnection approval, which means no net-metering credit and a very unhappy customer. Understanding how the protection works (and how to verify it before installation) is the fastest way to eliminate commissioning delays.
@@ -46,7 +54,7 @@ An islanding condition occurs when a section of the distribution grid becomes el
 
 The hazard is twofold. First, utility workers expect de-energised conductors when a feeder trips; an energised island creates an electrocution risk. Second, the island may be running at a voltage and frequency outside normal range, which can damage connected equipment or cause instability when the grid reconnects.
 
-CEA Grid Code 2020, formally the Technical Standards for Connectivity of Distributed Generation Resources issued by the Central Electricity Authority, mandates that every distributed generation inverter must detect the islanding condition and disconnect from the grid within the prescribed time. The standard applies regardless of system size, a 3 kW residential rooftop and a 500 kW factory rooftop are both subject to the same requirement.
+CEA Grid Code 2020, formally the Technical Standards for Connectivity of Distributed Generation Resources issued by the [Central Electricity Authority](/glossary/cea/), mandates that every distributed generation inverter must detect the islanding condition and disconnect from the grid within the prescribed time. The standard applies regardless of system size, a 3 kW residential rooftop and a 500 kW factory rooftop are both subject to the same requirement.
 
 | Protection layer | What it monitors | Trip threshold (indicative) | Trip time |
 | --- | --- | --- | --- |
@@ -65,7 +73,7 @@ According to [IRENA's report on distributed generation grid integration](https:/
 
 ## The IEC 62116 Standard: India's Certification Requirement
 
-[IEC 62116](https://www.iec.ch/){target="_blank" rel="noopener"} is the international test standard titled "Utility-Interconnected Photovoltaic Inverters, Test Procedure of Islanding Prevention Measures." The Bureau of Indian Standards has adopted it as IS/IEC 62116, and BIS [BIS certification](/glossary/bis-certification/) is required for every inverter sold or installed in India.
+[IEC 62116](https://www.iec.ch/){target="_blank" rel="noopener"} is the international test standard titled "Utility-Interconnected Photovoltaic Inverters, Test Procedure of Islanding Prevention Measures." The Bureau of Indian Standards has adopted it as IS/IEC 62116, and BIS [BIS certification](/glossary/bis-certification/) is required for every inverter sold or installed in India. Anti-islanding is one part of a wider compliance picture, the [solar inverter regulations India 2026 BIS/IEC compliance guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) covers the complete certification landscape.
 
 The test procedure is deliberately adversarial. It creates a resonant RLC load circuit whose impedance is tuned so that the local load power factor and real power closely match the inverter output, the worst-case NDZ condition. The test then disconnects the utility and measures how long the inverter takes to trip.
 
@@ -149,7 +157,7 @@ The inspector will ask for:
 
 - **IEC 62116 / IS/IEC 62116 test certificate** for the exact model and firmware version installed.
 - **Commissioning report** confirming protection relay settings match CEA Grid Code 2020 requirements.
-- **Single-line diagram** showing the connection point, isolators, and protection relay locations.
+- **Single-line diagram** showing the connection point, [isolators](https://heavengreenenergy.com/products/acdb-dcdb/), and protection relay locations, typically prepared as part of the [electrical and CEIG drawing package](https://heavendesigns.in/electrical-ceig-drawings/) an EPC submits to the DISCOM.
 
 If the inverter brand's local distributor cannot produce these documents, the commissioning process stalls. EPC teams who work with Qbits receive a pre-formatted commissioning pack that includes the IEC 62116 certificate, the CEA Grid Code compliance declaration, and the [single-line diagram](/glossary/single-line-diagram/) template, reducing inspection preparation time significantly.
 
@@ -188,7 +196,7 @@ EPC engineers sometimes conflate anti-islanding with [fault ride-through](/gloss
 | Grid frequency transient | Stay connected within bounds | CEA Grid Code 2020, Section 4.2 |
 | Grid loss sustained (>2 s) | Trip and stay disconnected | IEC 62116 |
 
-The inverter control system must distinguish between a voltage sag that lasts 100 ms and will recover (where FRT requires the inverter to stay connected and support the grid) and a genuine grid disconnection (where anti-islanding requires immediate trip). This distinction is implemented through voltage, frequency, and time-domain criteria working together.
+The inverter control system must distinguish between a voltage sag that lasts 100 ms and will recover (where FRT requires the inverter to stay connected and support the grid, the same behaviour that defines a [grid-forming inverter](/glossary/grid-forming-inverter/)) and a genuine grid disconnection (where anti-islanding requires immediate trip). This distinction is implemented through voltage, frequency, and time-domain criteria working together.
 
 Qbits inverters comply with both FRT and anti-islanding requirements simultaneously, which is the more difficult engineering problem to solve compared to implementing either in isolation.
 

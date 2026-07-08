@@ -4,6 +4,7 @@ excerpt: "GST on solar inverter is 12% since 2024; panels are also 12%. This gui
 description: "GST on solar inverters is 12% in 2026. Full breakdown of rates by component, HSN codes, ITC eligibility, PM Surya Ghar impact, and the accelerated depreciation vs ITC decision for C&I buyers."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "18 min"
 image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
 author: "Akash Hirapara"
@@ -36,11 +37,18 @@ faqs:
 
 Every homeowner who gets a solar quote in India eventually spots an asterisk: prices shown may or may not include GST. Most installers work both ways, and the confusion costs buyers real money. A 5 kW system quoted at ₹3.00 lakh looks very different when ₹40,000 in GST gets added at billing. Businesses face a parallel but different problem: they can recover that GST through Input Tax Credit, but only if their paperwork is airtight and their accountant understands composite supply rules.
 
+> **TL;DR**
+> - GST on solar inverters and panels is 12% (HSN 8504 40 and 8541 40 respectively), up from 5% since the GST Council's October 2021 revision.
+> - Balance-of-system items, mounting structures, cables, and installation services, carry 18% GST; lithium-ion batteries are 18%, lead-acid batteries 28%.
+> - A blended residential 5 kW system works out to roughly 12-14% effective GST, around ₹27,840 on a ₹2.03 lakh pre-GST project.
+> - Residential buyers cannot claim Input Tax Credit; GST-registered businesses can, and profitable C&I buyers can typically claim both ITC and Accelerated Depreciation since they sit in different tax regimes.
+> - The PM Surya Ghar subsidy is not a GST rebate, it is calculated on a GST-inclusive benchmark cost, so the tax is implicitly absorbed but never separately refunded.
+
 This guide cuts through the confusion. It covers GST rates for every component of a solar system, the 2021 rate change history, how GST interacts with the PM Surya Ghar subsidy, who can claim ITC and who cannot, and (for commercial buyers) whether accelerated depreciation or ITC is the smarter tax lever.
 
 > **Direct answer.** The GST rate on solar inverters in India is 12% as of 2026, under HSN code 8504. Solar panels also attract 12%, while batteries are taxed at 18% (lithium-ion) or 28% (lead-acid). Installation services carry 18% GST. The blended effective rate on a complete 5 kW residential system (using The Solar System GST Breakdown framework) works out to approximately 12–14% of total project cost. Residential buyers cannot reclaim this through ITC; businesses can.
 
-The GST rate on solar inverters specifically changed in October 2021, moving from 5% to 12% under the GST Council's 45th meeting resolution. That single decision added ₹2,000–₹4,000 to every residential inverter sale and triggered significant industry pushback. The rate has not changed since. Understanding why it matters (and how to plan around it) is what this post is for.
+The [GST rate on solar inverters](/glossary/gst-on-solar/) specifically changed in October 2021, moving from 5% to 12% under the GST Council's 45th meeting resolution. That single decision added ₹2,000–₹4,000 to every residential inverter sale and triggered significant industry pushback. The rate has not changed since. Understanding why it matters (and how to plan around it) is what this post is for.
 
 ## GST Rates on Solar Equipment: Component-by-Component Table
 
@@ -143,7 +151,7 @@ This is a critical point often missed: **the subsidy absorbs some of the GST bur
 
 For a detailed guide on subsidy calculations and the application process, the [PM Surya Ghar Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the online portal workflow step by step.
 
-The PM Surya Ghar programme also requires that the installed inverter appears on the [ALMM List](/glossary/almm-list/), a detail with direct GST implications. ALMM-listed inverters from Indian manufacturers attract 12% GST. Non-ALMM imported inverters attract 12% IGST plus 40% BCD, effectively making them cost-prohibitive for subsidy-eligible residential installations.
+The PM Surya Ghar programme also requires that the installed inverter appears on the [ALMM List](/glossary/almm-list/), a detail with direct GST implications. ALMM-listed inverters from Indian manufacturers attract 12% GST. Non-ALMM imported inverters attract 12% IGST plus 40% [BCD](/glossary/customs-duty/), effectively making them cost-prohibitive for subsidy-eligible residential installations, the [full BCD and import duty breakdown](/blog/bcd-import-duty-solar-inverters-india/) covers this calculation component by component.
 
 ## ITC Eligibility: Who Can Claim It and Who Cannot
 
@@ -154,7 +162,7 @@ Input Tax Credit (ITC) is the mechanism by which a GST-registered business offse
 - **Manufacturers and industrial units**: A factory registered under GST that installs a rooftop solar plant and uses the power in its production process can claim ITC on panels, inverters, structure, cables, and installation services.
 - **Commercial establishments**: Offices, retail chains, hospitals, educational institutions registered for GST can claim ITC on solar assets used in their taxable activities.
 - **C&I developers and IPPs**: Independent power producers selling electricity to DISCOMs or captive consumers under open access can claim ITC on project costs (note: electricity supply itself is GST-exempt, which creates a partial ITC restriction discussed below).
-- **RESCO operators**: Third-party solar asset owners renting power under a Power Purchase Agreement can claim ITC as the asset is in their name and they are the taxable supply originator.
+- **[RESCO](/glossary/resco/) operators**: Third-party solar asset owners renting power under a [Power Purchase Agreement](/glossary/ppa/) can claim ITC as the asset is in their name and they are the taxable supply originator.
 
 ### Who Cannot Claim ITC on Solar
 
@@ -192,7 +200,7 @@ For a commercial or industrial buyer, this is the most consequential tax decisio
 AD delivers greater rupee benefit when:
 
 - The business has high taxable income and is in the 30% income tax bracket (not 22%)
-- The project is structured as direct ownership (CAPEX model)
+- The project is structured as direct ownership ([CAPEX](/glossary/capex/) model)
 - GST output liability is low (reducing the practical utility of ITC)
 
 ### When ITC Wins Over AD
@@ -252,6 +260,8 @@ For a thorough comparison of inverter options in the current market, the [best s
 
 Many smaller installers use generic HSN codes on invoices. If the inverter is billed under a wrong HSN (e.g., a general electrical equipment code with a different GST rate), it creates a mismatch in the GSTN system. For C&I buyers, this means ITC may be blocked or reversed when the supplier's GSTR-1 and the buyer's GSTR-2B do not reconcile.
 
+Buyer-facing quotes are just as prone to this error, using [quotation software that separates HSN-coded line items automatically](https://quickestimate.co/features/quotation-system/) reduces the chance of a mismatched or generic code reaching the customer invoice.
+
 Always verify:
 
 - **HSN 8504 40** for solar inverters (string, hybrid, central)
@@ -293,4 +303,4 @@ Realistic near-term scenarios:
 
 The [Mercom India](https://www.mercomindia.com/) solar market tracker publishes rate updates when GST Council meetings address solar-specific notifications, it is the most reliable source for following this space.
 
-For businesses building 5-year financial models, it is prudent to stress-test scenarios with both the current 12% rate and a potential 5% rate to understand the sensitivity of [IRR](/glossary/irr/) and payback to tax changes. The [solar inverter payback period in India](/blog/solar-inverter-payback-period-in-india/) post provides a modelling framework that can be adapted for GST sensitivity analysis.
+For businesses building 5-year financial models, it is prudent to stress-test scenarios with both the current 12% rate and a potential 5% rate, using a [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) to understand the sensitivity of [IRR](/glossary/irr/) and payback to tax changes. The [solar inverter payback period in India](/blog/solar-inverter-payback-period-in-india/) post provides a modelling framework that can be adapted for GST sensitivity analysis.

@@ -3,6 +3,7 @@ title: "Net Metering in India, Complete 2026 Guide"
 excerpt: "Net metering in India credits exported solar units against your bill. This 2026 guide covers DISCOM rates, application steps, and the Net Metering ROI Stack."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "25 min"
 image: "/blog-images/solar-inverter-integration-in-india.svg"
 author: "Nirav Dhanani"
@@ -40,6 +41,14 @@ When your rooftop solar produces more than your household consumes, that surplus
 This isn't academic. Net metering is the policy lever that turns a ₹1.5–₹3 lakh rooftop investment into a 4–7 year payback, and it's a prerequisite for the PM Surya Ghar subsidy up to ₹78,000 on a 3 kW system.
 
 > **Net metering in India credits surplus rooftop solar you export to the grid against your import, so you pay only for the net difference on your monthly bill.** A 3 kW system on a typical Indian home with good sun hours and net metering at retail tariff can offset ₹800–₹1,500 per month in electricity costs, cutting a ₹2,000 bill to near zero and delivering full payback in 4–7 years. This guide covers state-wise DISCOM rates, the application process, and the Net Metering ROI Stack framework for calculating your true benefit.
+
+> **TL;DR**
+> - A bidirectional meter records import and export separately; the DISCOM bills you only on the net difference each cycle.
+> - Export credit rates vary sharply by state: BESCOM and MSEDCL credit at full retail tariff, while JVVNL and DHBVN credit at the lower APPC rate.
+> - The Net Metering ROI Stack has four layers: reduced import units, export credits, depreciation benefit (for business use), and the PM Surya Ghar subsidy.
+> - Net metering gives zero backup during a power cut because the inverter shuts down for anti-islanding protection; a hybrid inverter with battery is required for outage backup.
+> - ALMM-listed inverters and IEC 62116 anti-islanding certification are mandatory for both DISCOM commissioning and PM Surya Ghar subsidy eligibility.
+> - Most applications complete in 30 to 90 days, with the DISCOM's technical feasibility study and physical inspection as the main bottlenecks.
 
 Net metering is enabled by a [bidirectional meter](/glossary/bidirectional-meter/) that records energy flowing in both directions, import from the grid and export from your solar panels. The [DISCOM](/glossary/discom/) reads both registers and subtracts export from import each billing cycle. For a full technical overview of how the mechanism is structured, the [net metering glossary entry](/glossary/net-metering/) covers definitions, meter specifications, and state regulatory variations in detail.
 
@@ -89,7 +98,7 @@ TANGEDCO's dual-track approach (retail credit up to 10 kW, mandatory gross meter
 
 ## The Net Metering ROI Stack: A 4-Layer Savings Model
 
-Most solar calculators show only the bill savings from self-consumption. The full financial picture is richer. The Net Metering ROI Stack is a 4-layer model that shows how individual savings levers compound into your true payback period. Apply all four layers before accepting any vendor's quoted payback number.
+Most solar calculators show only the bill savings from self-consumption, useful for a quick first-pass number (a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) gives you one in minutes) but not the full financial picture. The Net Metering ROI Stack is a 4-layer model that shows how individual savings levers compound into your true payback period. Apply all four layers before accepting any vendor's quoted payback number.
 
 ### Layer 1: Reduced Import Units
 
@@ -164,6 +173,8 @@ The [on-grid vs hybrid inverter ROI comparison](/blog/on-grid-vs-hybrid-solar-in
 - ✗ Longer payback (8–12 years all-in)
 - ✗ More complex commissioning and monitoring
 
+Getting the [battery bank sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) right before quoting a hybrid system is what separates a genuinely useful backup from a battery that is either too small to matter or too large to pay back.
+
 For households in states with frequent outages (parts of Uttar Pradesh, Bihar, and Jharkhand) the hybrid system with battery makes practical sense even at higher cost, because the backup value is real and immediate. For households in Gujarat, Karnataka, and Maharashtra with reliable grids, net metering alone delivers superior economics.
 
 ## How to Apply for Net Metering in India: Step-by-Step Process
@@ -176,7 +187,7 @@ The application process is governed by your state's SERC net metering regulation
 
 3. **Register on PM Surya Ghar portal**: If claiming the central subsidy, register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/). The portal auto-routes your application to the relevant state nodal agency and DISCOM. Upload identity proof, address proof, electricity bill, and bank account details.
 
-4. **Submit DISCOM net metering application**: Either through the PM Surya Ghar portal (which forwards to the DISCOM) or directly through the DISCOM's own portal. Attach the single-line diagram, inverter ALMM certificate, module ALMM certificate, and the prescribed application form. Some states also require a structural stability certificate for the roof-mounting structure.
+4. **Submit DISCOM net metering application**: Either through the PM Surya Ghar portal (which forwards to the DISCOM) or directly through the DISCOM's own portal. Attach the single-line diagram, inverter ALMM certificate, module ALMM certificate, and the prescribed application form. A professionally drafted [single-line diagram and CEIG-compliant electrical drawing](https://heavendesigns.in/electrical-ceig-drawings/) reduces the chance of a DISCOM rejection over an ambiguous or non-standard SLD. Some states also require a structural stability certificate for the roof-mounting structure.
 
 5. **DISCOM technical feasibility study (TFS)**: The DISCOM's distribution engineer assesses whether the local feeder can absorb the proposed solar capacity without voltage rise, frequency deviation, or protection relay issues. The TFS typically takes 7–21 days. If the feeder is already at capacity, the permissible size may be reduced. Get the TFS in writing.
 

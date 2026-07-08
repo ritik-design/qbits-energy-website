@@ -4,6 +4,7 @@ excerpt: "On grid vs hybrid: the direct comparison most guides skip. Run the 3-V
 description: "Compare on-grid and hybrid solar inverters on cost, backup, battery payback, and India grid quality. Decision matrix + named framework to close the buying decision."
 category: "Comparison"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "18 min"
 image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
 author: "Nirav Dhanani"
@@ -38,6 +39,14 @@ You've done your research, you've got a few quotes, and now you're at the decisi
 
 The answer turns on three variables most comparison articles ignore: how many hours a day your area loses power, whether the battery math actually works in your favour, and how much you value the option to expand later. Get those three right and the decision makes itself.
 
+> **TL;DR**
+> - On-grid inverters cost less (₹30,000–₹60,000 for 5 kW) and pay back faster (4–6 years), but shut down completely during a power cut due to mandatory anti-islanding protection.
+> - Hybrid inverters cost 30–50% more at the inverter level and add ₹70,000–₹1,20,000 for a 10 kWh battery, but switch to backup power within 10–20 milliseconds of an outage.
+> - Both inverter types qualify equally for the PM Surya Ghar subsidy; the battery itself is never subsidised.
+> - Hybrid becomes the financially better choice once daily outages exceed roughly two hours or diesel backup costs exceed ₹20,000 a year.
+> - Qbits HS and HT hybrid inverters work in full grid-tied mode with no battery connected, so buyers can add storage later without replacing the inverter.
+> - The 3-Variable Hybrid Test (outage hours, battery payback, future-proofing value) below turns this into a concrete, ten-minute calculation.
+
 **Short version.** Pick on-grid if your grid is reliable (under one hour of daily outage) and payback speed is the priority. Expect 4–6 years with PM Surya Ghar subsidy. Pick hybrid if your area loses power for two or more hours daily, if you already spend ₹15,000–₹25,000 a year on diesel backup, or if you want a battery within five years. The 3-Variable Test below confirms which one fits.
 
 The wider context (including off-grid systems) is covered in the [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/). This post focuses on the narrower, more common choice: two grid-connected formats, one buying decision.
@@ -51,7 +60,7 @@ A [hybrid inverter](/glossary/hybrid-inverter/) does everything an on-grid unit 
 | Dimension | On-Grid Inverter | Hybrid Inverter |
 | --- | --- | --- |
 | Works during power cut | ✗ Shuts down (anti-islanding) | ✓ Switches to battery instantly |
-| Battery port | ✗ None | ✓ Built-in (DC-coupled) |
+| Battery port | ✗ None | ✓ Built-in ([DC-coupled](/glossary/dc-coupling/)) |
 | Net metering eligible | ✓ Yes | ✓ Yes |
 | PM Surya Ghar subsidy | ✓ Inverter qualifies | ✓ Inverter qualifies (battery does not) |
 | Upfront inverter cost (5 kW) | ₹30,000–₹60,000 | ₹75,000–₹1,50,000 |
@@ -103,7 +112,7 @@ Cities with well-developed transmission infrastructure and active DISCOM investm
 
 ## Variable 2: The Battery Payback Maths
 
-The hybrid premium has two components: the extra cost of the hybrid inverter over an on-grid model of the same capacity, and the cost of the battery bank itself. Both must earn their return.
+The hybrid premium has two components: the extra cost of the hybrid inverter over an on-grid model of the same capacity, and the cost of [sizing the battery bank](/blog/battery-sizing-hybrid-solar/) correctly for your actual backup load. Both must earn their return, and both numbers should come from an itemised quote from a qualified [residential solar installer](https://heavengreenenergy.com/residential-solar/) rather than a back-of-envelope guess.
 
 ### Worked example: 5 kW system, UP homeowner
 
@@ -143,7 +152,7 @@ The same calculation for a Bangalore homeowner with under 30 minutes of daily ou
 
 The extra ₹1,55,000 takes 3.7 years longer to recover with zero backup usage, that is the cost of insurance against outages that almost never occur. For most Bangalore homeowners, the on-grid system is the financially superior choice.
 
-For a complete long-term ROI model comparing both types across 25 years, see the [on-grid vs hybrid solar inverters ROI guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/).
+For a complete long-term ROI model comparing both types across 25 years, see the [on-grid vs hybrid solar inverters ROI guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/), or run your own numbers through a dedicated [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) if you want to stress-test the assumptions yourself.
 
 ## Variable 3: Future-Proofing and the Battery-Ready Option
 
@@ -195,7 +204,7 @@ The 30–50 percent price difference between an on-grid and hybrid inverter of t
 
 **1. Backup capability**: The inverter hardware includes a transfer switch that disconnects from the grid and connects to the battery within 10–20 milliseconds during an outage. Your refrigerator, computer, fans, and lights continue running without interruption. This is the primary value driver for most buyers.
 
-**2. Battery management intelligence**: A hybrid inverter's firmware manages the battery's [state of charge](/glossary/battery-soc/), deciding when to charge from solar, when to discharge to the home, when to top up from the grid at off-peak tariff hours, and how to protect the battery from over-discharge. An on-grid inverter has none of this logic; it simply converts and exports.
+**2. Battery management intelligence**: A hybrid inverter's firmware manages the battery's [state of charge](/glossary/battery-soc/), deciding when to charge from solar, when to discharge to the home, when to top up from the grid at off-peak [tariff](/glossary/tariff/) hours, and how to protect the battery from over-discharge. An on-grid inverter has none of this logic; it simply converts and exports.
 
 **3. The platform option**: As discussed in Variable 3, the hybrid inverter is a platform that retains value as battery prices fall. An on-grid inverter, once installed, cannot be upgraded without hardware replacement.
 

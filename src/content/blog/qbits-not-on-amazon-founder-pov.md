@@ -4,6 +4,7 @@ excerpt: "Qbits inverters are not sold on Amazon, Flipkart, or any online market
 description: "Qbits founder explains why solar inverters should not be sold on Amazon or Flipkart. Covers grey market risk, installation dependency, warranty fraud, and the Qbits authorised distributor channel strategy."
 category: "Industry"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "9 min"
 image: "/blog-images/inverter-distributors-india.svg"
 author: "Nirav Dhanani"
@@ -34,6 +35,14 @@ This post explains why, not as a marketing exercise, but because the reasoning m
 
 > **The short version.** Solar inverters require installation, configuration, and post-installation support that online marketplaces cannot provide. Selling on Amazon creates grey market risk, undercuts authorised partners, destroys warranty integrity, and ultimately harms the customer. We chose not to do it.
 
+> **TL;DR**
+> - Qbits inverters are sold exclusively through authorised distributors and EPC installers, never on Amazon, Flipkart, or any marketplace.
+> - Marketplace listings compress price to the only differentiator, which pulls in grey market stock with no valid warranty and no ALMM registration.
+> - Grey market equipment can be export-diverted, B-grade factory rejects, refurbished returns, or outright counterfeit, none of it traceable in Qbits' service database.
+> - Authorised distributors get geographic territory protection, marketing development funds, and priority inventory, protections a marketplace listing would erase overnight.
+> - JMK Research has found post-installation warranty claim rates on marketplace-sourced solar equipment run 3–4 times higher than for equipment bought through authorised channels.
+> - The trade-off is real: Qbits gives up marketplace volume and faster brand awareness in exchange for installation quality and warranty integrity that actually hold up over ten years.
+
 ## Solar Inverters Are Not Consumer Electronics
 
 The foundational reason Qbits is not on Amazon is that a solar inverter is not a product in the consumer electronics sense. It is a component in a system.
@@ -47,7 +56,7 @@ When someone buys a solar inverter, the situation is entirely different:
 - The inverter must be configured for the specific grid parameters of the installation location (grid voltage range, anti-islanding protection settings per [IEC 62116](https://www.iec.ch/), export limiting if required)
 - The system requires DISCOM approval and a bidirectional meter for net metering
 - Earthing must be done to [IS 3043](https://www.bis.gov.in/) standards
-- For PM Surya Ghar subsidy, the inverter must be ALMM-listed and installed by an empanelled installer, see the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) for the eligibility requirements
+- For PM Surya Ghar subsidy, the inverter must be [ALMM-listed](/glossary/almm-list/) and installed by an [empanelled installer](/blog/empanelled-vendor-pm-surya-ghar/), see the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) for the eligibility requirements
 
 None of this happens when someone orders an inverter off Amazon and calls a local electrician to install it. What happens instead is a poorly configured system that underperforms, a warranty that is questionable at best, and (in worst cases) a safety risk from improper DC wiring or missing surge protection.
 
@@ -89,7 +98,7 @@ The answer is: our channel structure.
 
 Authorised Qbits distributors receive geographic territory protection. We do not appoint two distributors in the same city. A distributor in Pune has Pune. A distributor in Nashik has Nashik. They are not competing with each other on Qbits products.
 
-This matters because building a solar distribution business requires:
+This matters because [building a solar distribution business](https://surgepv.com/hub/solar-business/software-stack/) requires:
 - Warehouse space and working capital tied up in inventory
 - A trained technical team that can support EPC installers
 - Demonstration units and showroom space
@@ -103,12 +112,12 @@ In the marketplace model, the manufacturer wins (more volume) and the customer l
 
 If you are a homeowner reading this because you searched for Qbits on Amazon and found nothing:
 
-The correct way to buy a Qbits system is through an authorised installer who partners with an authorised Qbits distributor. Reading the [solar year 1 ownership guide](/blog/solar-year-1-ownership-guide-india/) will help you understand what to expect from a properly commissioned installation. Your installer should be able to show you their Qbits authorisation, the product's serial number, and register the warranty with you at commissioning.
+The correct way to buy a Qbits system is through an authorised installer, a full-service [solar EPC provider](https://heavengreenenergy.com/solar-epc/) who partners with an authorised Qbits distributor. Reading the [solar year 1 ownership guide](/blog/solar-year-1-ownership-guide-india/) will help you understand what to expect from a properly commissioned installation. Your installer should be able to show you their Qbits authorisation, the product's serial number, and register the warranty with you at commissioning.
 
 This is not us making your purchase harder. This is us ensuring that your system is:
 - Correctly sized for your roof and load
 - Properly commissioned with the right grid parameters
-- Covered by a warranty that is actually valid
+- Covered by a [warranty that is actually valid](/blog/solar-inverter-warranty/)
 - Supported by a service team that can diagnose remotely via WhatsApp monitoring
 
 An inverter bought online and installed by an unvetted local electrician is cheaper today and more expensive over ten years. The bill from a bad installation (a misfire that damages the inverter in year two, or a ground fault that was never properly detected) costs far more than the price difference between online and authorised supply.

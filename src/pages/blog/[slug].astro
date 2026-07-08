@@ -46,6 +46,7 @@ const {
   description,
   category,
   date,
+  updatedDate,
   readTime,
   image,
   author,
@@ -59,6 +60,10 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
   day: 'numeric',
 });
 const isoDate = new Date(date).toISOString();
+const formattedUpdatedDate = updatedDate
+  ? new Date(updatedDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+  : null;
+const updatedIso = updatedDate ? new Date(updatedDate).toISOString() : isoDate;
 
 const authorProfile = getAuthorByName(author);
 
@@ -79,7 +84,7 @@ const articleSchema = {
   description: description || excerpt,
   image: `${siteUrl}${image}`,
   datePublished: isoDate,
-  dateModified: isoDate,
+  dateModified: updatedIso,
   author: {
     '@type': 'Organization',
     name: author,
@@ -195,6 +200,12 @@ const breadcrumbSchema = {
               )}
               <div class="flex items-center gap-3 text-xs text-slate-400 mt-0.5">
                 <span>{formattedDate}</span>
+                {formattedUpdatedDate && formattedUpdatedDate !== formattedDate && (
+                  <>
+                    <span class="w-1 h-1 rounded-full bg-slate-500"></span>
+                    <span>Updated {formattedUpdatedDate}</span>
+                  </>
+                )}
                 <span class="w-1 h-1 rounded-full bg-slate-500"></span>
                 <span>{readTime} read</span>
               </div>

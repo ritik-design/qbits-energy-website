@@ -7,6 +7,7 @@ date: 2026-06-14
 readTime: "10 min"
 image: "/blog-images/solar-design-software-uk.svg"
 author: "Nirav Dhanani"
+updatedDate: 2026-07-08
 keywords:
   - solar design software UK
   - UK solar design software
@@ -53,13 +54,13 @@ The [solar design software](https://surgepv.com/) UK installers can rely on must
 
 A UK design workflow is different from a US one in five concrete ways.
 
-**BS 7671 18th Edition Amendment 3.** The current wiring regulations include updated guidance for solar PV systems, surge protective devices, and arc fault detection where appropriate. A platform that prompts string voltage limits, isolation requirements, and DC cable derating against BS 7671 saves hours of cross referencing.
+**BS 7671 18th Edition Amendment 3.** The current wiring regulations include updated guidance for solar PV systems, [surge protective devices](/glossary/spd/), and arc fault detection where appropriate. A platform that prompts [string voltage limits](/glossary/string-sizing/), isolation requirements, and DC cable derating against BS 7671 saves hours of cross referencing.
 
-**G98 and G99 grid connection.** Any inverter connected to a UK Distribution Network Operator needs either a G98 notification for small single phase systems or a G99 application for larger or three phase systems. The DNO expects a clear single line diagram, inverter protection settings, and export capacity figures.
+**G98 and G99 grid connection.** Any inverter connected to a UK Distribution Network Operator needs either a G98 notification for small single phase systems or a G99 application for larger or three phase systems. The DNO expects a clear [single line diagram](/glossary/single-line-diagram/), inverter protection settings, and export capacity figures.
 
 **MCS scheme certification.** The Microgeneration Certification Scheme is the route to consumer protection and to most domestic incentive eligibility. MCS umbrella schemes need installer numbers, datasheet references, generation estimates, and standard consumer code wording.
 
-**SEG and legacy FiT tariffs.** The Smart Export Guarantee replaced the Feed in Tariff for new installs in 2020. Licensed suppliers publish export rates that range from around 3p to 15p per kWh. Designers need to model export income against self consumption assumptions, often with a battery in the loop.
+**SEG and legacy FiT tariffs.** The Smart Export Guarantee replaced the [Feed in Tariff](/glossary/feed-in-tariff/) for new installs in 2020. Licensed suppliers publish export rates that range from around 3p to 15p per kWh. Designers need to model export income against self consumption assumptions, often with a battery in the loop.
 
 **ECO4 and Great British Insulation Scheme.** Many domestic solar installs in 2026 are being bundled with insulation work under ECO4 obligations. Software that can carry mixed measures and produce a clear homeowner proposal supports retrofit one stop shops.
 
@@ -67,13 +68,13 @@ US-first tools rarely cover all five.
 
 ## Why US-First Tools Underperform in the UK
 
-**Aurora Solar** is the dominant US design platform. The engineering is strong and the AI features are mature. However, Aurora ships NEC code defaults, US utility rate plans, and proposal templates focused on net metering and PPA financing. UK users have to override most of those defaults and rebuild SEG logic in spreadsheets. Aurora has no native BS 7671 references and no MCS proposal template.
+[**Aurora Solar**](/blog/aurora-solar-alternative/) is the dominant US design platform. The engineering is strong and the [AI design tools](https://surgepv.com/best-solar-software/ai-solar-design-tools/) are mature. However, Aurora ships NEC code defaults, US utility rate plans, and proposal templates focused on net metering and PPA financing. UK users have to override most of those defaults and rebuild SEG logic in spreadsheets. Aurora has no native BS 7671 references and no MCS proposal template.
 
-**HelioScope** is the engineer favourite for utility scale yield analysis. The shading model and SAM based yield engine are credible. HelioScope is a pure engineering tool, with no proposal output, no UK tariff modelling, and no contact management. A UK installer needs at least three more pieces of software around it to close a deal.
+[**HelioScope**](/blog/helioscope-alternative/) is the engineer favourite for utility scale yield analysis. The shading model and SAM based yield engine are credible. HelioScope is a pure engineering tool, with no proposal output, no UK tariff modelling, and no contact management. A UK installer needs at least three more pieces of software around it to close a deal.
 
-**OpenSolar** has more UK presence than the others. It is free at entry level, which appeals to smaller installers. The trade off is that OpenSolar relies on advertising and partner referrals for revenue, the bankable yield reporting is shallow compared to dedicated tools, and the code library does not match a BS 7671 first workflow. For an installer who wants premium proposals and an audit trail for finance partners, OpenSolar can feel thin.
+[**OpenSolar**](/blog/opensolar-alternative/) has more UK presence than the others. It is free at entry level, which appeals to smaller installers. The trade off is that OpenSolar relies on advertising and partner referrals for revenue, the bankable yield reporting is shallow compared to dedicated tools, and the code library does not match a BS 7671 first workflow. For an installer who wants premium proposals and an audit trail for finance partners, OpenSolar can feel thin.
 
-**Solargraf** comes from the Enphase ecosystem and is biased toward US microinverter projects.
+[**Solargraf**](/blog/solargraf-alternative/) comes from the Enphase ecosystem and is biased toward US microinverter projects.
 
 The result is that UK installers stitch together design, proposal, and compliance work across three or four tools and a folder of spreadsheets.
 
@@ -87,7 +88,7 @@ The result is that UK installers stitch together design, proposal, and complianc
 
 **BS 7671 code library.** The single line diagram view references BS 7671 18th Edition Amendment 3 alongside the IET Code of Practice for grid connected PV. Designers see string voltage and cable derating prompts as they configure the system.
 
-**SEG tariff and yield reporting.** The financial engine produces a [bankable yield report](https://surgepv.com/generation-financial-tool) with P50, P75, and P90 scenarios. Designers enter the homeowner SEG export rate and self consumption assumption, and SurgePV outputs year by year income alongside payback and IRR.
+**SEG tariff and yield reporting.** The financial engine produces a [bankable yield report](https://surgepv.com/generation-financial-tool) with [P50, P75, and P90](/glossary/p50-p90/) scenarios. Designers enter the homeowner SEG export rate and self consumption assumption, and SurgePV outputs year by year income alongside payback and IRR.
 
 **Branded MCS-ready proposals.** A [branded solar proposal](https://surgepv.com/solar-proposals) carries MCS installer numbers, datasheets, generation forecast, CO2 saving, and standard wording. Proposals are available in nine languages, useful for installers serving multilingual customers across Greater London, the Midlands, and Scotland.
 
@@ -129,7 +130,7 @@ The table is intentionally focused on UK relevant capability, not raw feature co
 
 Aurora Solar in 2026 lands between £1,500 and £2,450 per seat per year depending on the tier required to unlock AI 3D and shading. HelioScope is around £1,500 per seat per year and only covers the engineering layer. OpenSolar starts free, however the paid tier needed for premium proposal and CRM features moves the cost toward £600 per seat. Solargraf is quoted on request and is usually bundled with hardware commitments.
 
-For a five person UK installer, the difference between SurgePV at £5,125 a year and Aurora at £10,000 a year is enough to fund another field surveyor or a small van.
+For a five person UK installer, the difference between SurgePV at £5,125 a year and Aurora at £10,000 a year is enough to fund another field surveyor or a small van. The full [solar design software pricing](/blog/solar-design-software-pricing/) comparison breaks down the same math for every platform on the market.
 
 ## Real Workflow: 4 kW Residential Project With SEG Income Calculation
 
@@ -139,7 +140,7 @@ Consider a typical 4 kW domestic install in Birmingham on a south facing pitched
 
 **Layout.** Ten 400 W panels are placed on the south slope. SurgePV runs the 8,760-hour shading model and flags 3.1 percent annual loss from the chimney on the two affected panels. The designer accepts the layout because the loss is acceptable.
 
-**Electrical design.** A single 3.68 kW hybrid inverter is selected to stay under the G98 threshold for single phase notification. SurgePV pulls cable sizing prompts from the BS 7671 library and exports a DXF single line diagram for the contractor.
+**Electrical design.** A single 3.68 kW [hybrid inverter](/glossary/hybrid-inverter/) is selected to stay under the G98 threshold for single phase notification. SurgePV pulls [cable sizing](/glossary/dc-cable/) prompts from the BS 7671 library and exports a DXF single line diagram for the contractor.
 
 **Tariff and finance.** The designer enters a SEG export rate of 15p per kWh from a major supplier and a self consumption assumption of 35 percent without a battery, rising to 60 percent with a 5 kWh battery. SurgePV produces P50, P75, and P90 yield figures. The base case shows 3,720 kWh annual generation, £190 saved on imported electricity, and £363 of SEG income without a battery. With the battery, the SEG figure drops to £223, however bill savings climb to £334.
 

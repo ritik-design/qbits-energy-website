@@ -4,6 +4,7 @@ excerpt: "How a Chennai IT park installed 200 kW of rooftop solar to cut power c
 description: "Detailed case study of a 200 kW rooftop solar installation at a Chennai IT park: load profile analysis, TANGEDCO HT net metering, power quality management, ESG reporting integration, and 20-year financial model."
 category: "Case Study"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "14 min"
 image: "/blog-images/solar-epc-india.svg"
 author: "Nirav Dhanani"
@@ -32,9 +33,17 @@ faqs:
 
 An IT park generating revenue around the clock cannot afford power disruptions. But in Chennai (where TANGEDCO HT tariff rates have crossed ₹9/unit for high-demand commercial consumers) the electricity bill line item was large enough to attract board-level attention.
 
-This case study documents the engineering, approval, and financial journey of a 200 kW rooftop solar system installed at a Chennai IT park: how the system was designed for a 24/7 load profile, how the TANGEDCO HT net metering process was navigated, how power quality risk was managed, and what the numbers look like at month 18 of operation.
+This case study documents the engineering, approval, and financial journey of a 200 kW rooftop solar system installed at a Chennai IT park: how the system was designed for a 24/7 load profile, how the TANGEDCO HT [net metering](/glossary/net-metering/) process was navigated, how power quality risk was managed, and what the numbers look like at month 18 of operation.
 
 > **Direct answer.** A 200 kW solar installation at a 24/7 IT park in Chennai requires three design decisions that differ from standard commercial solar: daytime-only sizing (not total consumption), HT net metering with protection relay panel, and power quality management to protect sensitive IT equipment. With TANGEDCO HT tariffs at ₹8.5–9.5/unit and Chennai's solar irradiation, this size system typically delivers a payback period of 4.5–5.5 years and a 25-year IRR of 22–28%.
+
+> **TL;DR**
+> - A 200 kW system was deliberately sized below the IT park's 380–420 kW daytime load floor to maximise self-consumption rather than fill the available 4,200 m² of roof.
+> - Four 50 kW three-phase inverters gave roof-section independence, redundancy, and per-section monitoring instead of one 200 kW central unit.
+> - TANGEDCO HT net metering required a dedicated protection relay panel and took roughly 85–110 days from DPR submission to energisation.
+> - Selected inverters held output THD below 3%, protecting sensitive server, UPS, and networking loads without adding a battery system.
+> - Simple payback was 4.9 years unassisted, dropping to 4.2 years with 40% accelerated depreciation; 25-year IRR ranged 22.8–26.4%.
+> - Monitoring data feeds directly into BRSR Scope 2 reporting, cutting roughly three person-days of manual ESG data collection per quarter.
 
 ## The Facility and the Energy Problem
 
@@ -50,7 +59,7 @@ The facility is an IT services park in the OMR (Old Mahabalipuram Road) corridor
 | Tariff category | HT-II (a) - HT Industrial/Commercial |
 | Fixed demand charge | ₹350/kVA/month |
 | Energy charge | ₹8.60/unit (slab above 500 units/kVA) |
-| Power factor penalty trigger | < 0.85 PF |
+| [Power factor](/glossary/power-factor/) penalty trigger | < 0.85 PF |
 
 The facility management team had already implemented energy efficiency measures: LED lighting throughout, BMS-controlled HVAC scheduling, and variable frequency drives on chiller pumps. The remaining large, controllable cost was grid power, and the rooftop offered approximately 6,000 m² of usable space.
 
@@ -77,6 +86,8 @@ The correct sizing logic for a 24/7 facility:
 
 ## Equipment Selection and System Design
 
+This stage followed a structured [commercial solar design](https://surgepv.com/commercial-solar-design/) process to translate the sizing decision into a bankable equipment list.
+
 **Inverter configuration:**
 The 200 kW system uses four 50 kW three-phase on-grid inverters in a distributed string inverter architecture. This was chosen over a single 200 kW central inverter for three reasons:
 
@@ -85,16 +96,16 @@ The 200 kW system uses four 50 kW three-phase on-grid inverters in a distributed
 3. **Monitoring granularity:** Each inverter has independent monitoring, generation data per section is visible in the monitoring dashboard, enabling fast identification of any underperforming section.
 
 **Panel specification:**
-400 Wp bifacial monocrystalline panels, ALMM-listed (important for commercial systems applying for any future government scheme or banking benefit). Total array: 500 panels at 400 Wp = 200 kWp installed.
+400 Wp bifacial monocrystalline panels, [ALMM-listed](/glossary/almm-list/) (important for commercial systems applying for any future government scheme or banking benefit). Total array: 500 panels at 400 Wp = 200 kWp installed.
 
 **Cabling and protection:**
 - DC string cables: 4 mm² DC-rated cable (UV-resistant, double-insulated)
 - AC feeder cables from inverters to main LT panel: 70 mm² armoured cable
-- Surge protection devices (SPD) at DC and AC stages rated for the Chennai coastal zone (Class II SPD minimum)
+- [Surge protection devices](/glossary/spd/) (SPD) at DC and AC stages rated for the Chennai coastal zone (Class II SPD minimum)
 - String monitoring dongles for each inverter for remote diagnostics
 
 **Earthing system:**
-Separate GI earth electrode array for the PV system, bonded to the facility's existing earthing system per IS 3043. For coastal Chennai, earthing resistance target was below 2Ω - achieved with deep-driven copper-clad rods and chemical earthing compound.
+Separate GI earth electrode array for the PV system, bonded to the facility's existing [earthing](/glossary/earthing/) system per IS 3043. For coastal Chennai, earthing resistance target was below 2Ω - achieved with deep-driven copper-clad rods and chemical earthing compound. The rooftop mounting layout itself was verified against local wind-load requirements as part of the project's [structural engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) sign-off.
 
 ## TANGEDCO HT Net Metering: The Approval Process
 
@@ -104,7 +115,7 @@ This was the most complex and time-consuming element of the project. For HT conn
 - Over/under frequency protection (81 relay)
 - Reverse power relay (32 relay)
 - Earth fault protection (64 relay)
-- Anti-islanding protection per IEC 62116
+- [Anti-islanding](/glossary/anti-islanding/) protection per IEC 62116
 
 The protection relay panel must be inspected and approved by the TANGEDCO chief engineer before the system can be energised and connected to the net metering arrangement. [IEC 62116, Test Procedures for Anti-Islanding Protection](https://www.iec.ch/homepage) is the international standard that governs inverter anti-islanding testing, ensuring that grid-connected solar systems disconnect within 2 seconds of utility grid loss.
 
@@ -117,7 +128,7 @@ The protection relay panel must be inspected and approved by the TANGEDCO chief 
 | Stage 3 | Protection relay panel drawing approval | 10–20 days |
 | Stage 4 | Physical installation and internal commissioning | 30 days (parallel with approvals) |
 | Stage 5 | TANGEDCO site inspection | 7–15 days after application |
-| Stage 6 | Meter change (bidirectional meter installation) | 10–20 days |
+| Stage 6 | Meter change ([bidirectional meter](/glossary/bidirectional-meter/) installation) | 10–20 days |
 | Stage 7 | System energisation and monitoring start | Day ~85–100 |
 
 **Total approval-to-energisation timeline: approximately 85–110 days** from DPR submission for an HT connection in Tamil Nadu. This is significantly longer than LT residential net metering (30–60 days) and should be factored into project planning and any promised ROI dates.
@@ -129,7 +140,7 @@ The protection relay panel must be inspected and approved by the TANGEDCO chief 
 IT parks have power quality requirements that standard commercial solar deployments do not face. Server equipment, network switches, and UPS systems are sensitive to. See the [solar inverter downtime guide](/blog/solar-inverter-downtime/) for how inverter power quality affects critical commercial operations and total cost of ownership calculations:
 
 - Voltage transients (spikes above 110% of nominal)
-- Harmonic distortion (THD should be below 5% for sensitive equipment)
+- Harmonic distortion ([THD](/glossary/thd/) should be below 5% for sensitive equipment)
 - Frequency deviations (IT UPS typically expects ±0.5 Hz)
 
 **How the solar system addressed power quality:**
@@ -179,7 +190,7 @@ The original scope included a battery system alongside the solar panels, on the 
 | Earthing and surge protection | ₹2,00,000 |
 | TANGEDCO fees and DPR costs | ₹1,50,000 |
 | Installation and commissioning | ₹7,00,000 |
-| **Total CAPEX** | **₹1,01,00,000 (₹1.01 crore)** |
+| **Total [CAPEX](/glossary/capex/)** | **₹1,01,00,000 (₹1.01 crore)** |
 
 **Cost per Wp installed:** ₹50.5/Wp, within the ₹45–58/Wp range typical for quality HT commercial installations in 2025–26.
 
@@ -195,16 +206,16 @@ The original scope included a battery system alongside the solar panels, on the 
 
 | Metric | Without Acc. Depreciation | With 40% Acc. Depreciation |
 | --- | --- | --- |
-| Simple payback period | 4.9 years | 4.2 years |
-| NPV at 12% discount rate (25 years) | ₹2.8 crore | ₹3.1 crore |
-| IRR (25-year) | 22.8% | 26.4% |
+| Simple [payback period](/glossary/payback-period/) | 4.9 years | 4.2 years |
+| [NPV](/glossary/npv/) at 12% discount rate (25 years) | ₹2.8 crore | ₹3.1 crore |
+| [IRR](/glossary/irr/) (25-year) | 22.8% | 26.4% |
 | Year 25 cumulative savings | ₹6.2 crore | ₹6.5 crore |
 
-Accelerated depreciation applies at 40% in Year 1 under Schedule II of the Income Tax Act for renewable energy equipment. At a 30% corporate tax bracket, this provides a tax shield of approximately ₹12.1 lakh in Year 1, reducing the effective payback period by approximately 9 months.
+[Accelerated depreciation](/glossary/accelerated-depreciation/) applies at 40% in Year 1 under Schedule II of the Income Tax Act for renewable energy equipment. At a 30% corporate tax bracket, this provides a tax shield of approximately ₹12.1 lakh in Year 1, reducing the effective payback period by approximately 9 months. A [solar financial model](https://surgepv.com/generation-financial-tool/) built with the facility's own tariff slabs and escalation assumptions is the fastest way to stress-test these figures before signing an EPC contract.
 
 ## ESG and Sustainability Reporting Integration
 
-For the IT company operating this park, the solar installation is a reportable item in two frameworks:
+For the IT company operating this park, the solar installation is a reportable item in two frameworks that feed into its broader [ESG](/glossary/esg/) strategy:
 
 **BRSR (Business Responsibility and Sustainability Reporting):**
 [SEBI requires listed companies to report on BRSR metrics](https://www.sebi.gov.in/) including Scope 2 greenhouse gas emissions. Solar generation directly reduces Scope 2 emissions. Using the [CEA national grid emission factor of 0.716 kg CO2/kWh (2023–24)](https://cea.nic.in/cdm-co2-baseline-database/):
@@ -227,7 +238,7 @@ The facility management team uses the monitoring data (available through the inv
 
 **4. Do not add batteries for power quality.** If the facility already has double-conversion UPS, adding a battery system to the solar installation does not improve power quality. The UPS already provides this. Battery additions for commercial IT parks are justified only for grid-outage resilience, not power quality.
 
-**5. Get drawings TANGEDCO-ready before submission.** Engage a Tamil Nadu Electrical Licensing Board-registered electrical consultant for DPR and protection relay panel drawings. TANGEDCO rejections for format issues are the most common delay cause in HT approvals.
+**5. Get drawings TANGEDCO-ready before submission.** Engage a Tamil Nadu Electrical Licensing Board-registered electrical consultant for DPR and [protection relay panel drawings](https://heavendesigns.in/electrical-ceig-drawings/). TANGEDCO rejections for format issues are the most common delay cause in HT approvals.
 
 ## Where Qbits Fits
 
@@ -239,4 +250,4 @@ Qbits' TLD three-phase on-grid inverters were selected for this installation bas
 - **[Solar IRR and Payback Guide for C&I](/blog/solar-irr-payback-ci-india/)**: the full 20-year financial model framework for commercial solar decisions.
 - **[How to Evaluate Solar EPC Bids](/blog/how-to-evaluate-solar-epc-bids/)**: 15-criteria checklist for commercial procurement teams.
 
-For IT parks, hospitals, educational institutions, or other 24/7 commercial facilities considering rooftop solar, [talk to a Qbits engineer](/contact-us/), our commercial team can develop a site-specific generation estimate, HT net metering strategy, and financial model within 5 working days.
+For IT parks, hospitals, educational institutions, or other 24/7 commercial facilities considering rooftop solar, [talk to a Qbits engineer](/contact-us/), our commercial team can develop a site-specific generation estimate, HT net metering strategy, and financial model within 5 working days. Facilities that also need a turnkey installation partner beyond equipment supply can evaluate [commercial solar installation](https://heavengreenenergy.com/commercial-solar/) services for end-to-end EPC delivery.

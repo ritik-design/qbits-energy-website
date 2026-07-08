@@ -4,6 +4,7 @@ excerpt: "Solar CAPEX vs OPEX India: own the system (CAPEX) for 18–25% IRR or 
 description: "When CAPEX beats OPEX and when OPEX wins for C&I solar in India. Decision matrix, IRR comparison, and the 4-Question CAPEX vs OPEX Test for factories, offices, and institutions."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
 author: "Akash Hirapara"
@@ -38,9 +39,17 @@ For the Surat renter: OPEX, let a RESCO install for free, pay ₹5 per unit, sav
 
 The answer changes entirely based on ownership, tenure, and capital availability. This guide maps the decision matrix precisely.
 
+> **TL;DR**
+> - CAPEX (owning the system) suits building owners with 10+ year tenure and access to capital, delivering 18–25% IRR.
+> - OPEX/RESCO suits tenants and capital-constrained buyers, delivering 20–35% lower bills with zero upfront cost.
+> - The 4-Question CAPEX vs OPEX Test checks building ownership, tenancy horizon, cost of capital, and balance-sheet policy in that order.
+> - A 150 kW CAPEX system in Maharashtra can deliver roughly ₹5.5 crore in 25-year savings versus about ₹2.5 crore under OPEX/RESCO.
+> - Accelerated depreciation (40% in Year 1 under Section 32) applies only to the CAPEX owner, not to a RESCO's PPA customer.
+> - MSME loans under CGTMSE can bridge the gap, letting a building owner get CAPEX ownership benefits without depleting working capital.
+
 > **Direct answer.** C&I solar CAPEX delivers an IRR of 18–25% for building owners with 10+ year tenure and access to capital; OPEX/RESCO delivers 20–35% lower electricity bills with zero upfront cost for tenants or capital-constrained buyers. Apply the 4-Question CAPEX vs OPEX Test in this guide to identify your optimal model in under three minutes.
 
-The guide covers CAPEX vs OPEX across four dimensions: financial returns, balance sheet treatment, risk allocation, and operational implications, with a decision matrix and worked IRR examples.
+The guide covers CAPEX vs OPEX across four dimensions: financial returns, balance sheet treatment, risk allocation, and operational implications, with a decision matrix and worked IRR examples. For a systems-size-by-systems-size breakdown of the same decision aimed at C&I buyers evaluating specific project economics, see the companion [solar CAPEX vs OPEX guide for businesses](/blog/solar-capex-vs-opex-business-india/).
 
 ## The Core Difference: Ownership vs Access
 
@@ -49,12 +58,12 @@ The guide covers CAPEX vs OPEX across four dimensions: financial returns, balanc
 **CAPEX Solar:**
 - You buy and own the system.
 - Asset appears on your balance sheet.
-- You claim depreciation (40% in Year 1).
+- You claim [accelerated depreciation](/glossary/accelerated-depreciation/) (40% in Year 1).
 - You bear performance risk (if the inverter fails, you replace it).
 - You capture the full electricity saving as financial return.
 - Payback: 4–6 years. System life: 25 years. IRR: 18–25%.
 
-**OPEX Solar (RESCO/PPA):**
+**OPEX Solar ([RESCO](/glossary/resco/)/[PPA](/glossary/ppa/)):**
 - The solar developer owns the system.
 - No asset on your balance sheet.
 - You pay a PPA tariff per unit generated.
@@ -177,9 +186,9 @@ For buyers who own the building but lack liquidity for full CAPEX, MSME loans un
 
 At 8% MSME loan rate on ₹97.5 Lakh for 7 years, the monthly EMI is approximately ₹1.52 Lakh. The system generates electricity savings of ₹1.83 Lakh per month (₹21.9 Lakh annually), creating a cash-flow-positive installation from month one, the system pays its own EMI.
 
-This hybrid approach delivers ownership (and all its long-term benefits) without depleting working capital.
+This hybrid approach delivers ownership (and all its long-term benefits) without depleting working capital. Buyers weighing the EMI-vs-savings maths for their own site can also run it through [SurgePV's solar financial modelling tool](https://surgepv.com/generation-financial-tool/) to stress-test the numbers under different loan tenures.
 
-For a full solar loan comparison, read the [best bank for solar loan in India](/blog/best-bank-solar-loan-india-2026/) guide. [IRENA's analysis of C&I solar financing models in Asia](https://www.irena.org/Finance-and-Investment/Renewable-energy-finance){target="_blank" rel="noopener"} confirms that CAPEX ownership delivers IRR 8–12 percentage points higher than equivalent OPEX/PPA arrangements for building owners with long tenure, across markets including India, Vietnam, and Thailand. [Bridge to India's C&I solar market report](https://bridgetoindia.com/){target="_blank" rel="noopener"} documents that CAPEX accounts for 72% of all C&I rooftop solar installed in India in 2025, reflecting the strong economics for building owners. [CERC tariff orders](https://www.cercind.gov.in/){target="_blank" rel="noopener"} underpin the commercial grid tariff projections used in this comparison, commercial LT tariffs in Maharashtra, Karnataka, and Gujarat have increased 6–9% annually over the past five years, a trend that directly improves CAPEX IRR going forward. [MNRE's Rooftop Solar Scheme Phase II guidelines](https://mnre.gov.in/){target="_blank" rel="noopener"} confirm that PM Surya Ghar subsidies apply only to CAPEX ownership models (not OPEX/RESCO) for residential installations.
+For a full solar loan comparison, read the [best bank for solar loan in India](/blog/best-bank-solar-loan-india-2026/) guide, and for a deeper dive into how the RESCO/PPA structure itself works, see the [solar RESCO model India guide](/blog/solar-resco-model-india-guide/). [IRENA's analysis of C&I solar financing models in Asia](https://www.irena.org/Finance-and-Investment/Renewable-energy-finance){target="_blank" rel="noopener"} confirms that CAPEX ownership delivers IRR 8–12 percentage points higher than equivalent OPEX/PPA arrangements for building owners with long tenure, across markets including India, Vietnam, and Thailand. [Bridge to India's C&I solar market report](https://bridgetoindia.com/){target="_blank" rel="noopener"} documents that CAPEX accounts for 72% of all C&I rooftop solar installed in India in 2025, reflecting the strong economics for building owners. [CERC tariff orders](https://www.cercind.gov.in/){target="_blank" rel="noopener"} underpin the commercial grid tariff projections used in this comparison, commercial LT tariffs in Maharashtra, Karnataka, and Gujarat have increased 6–9% annually over the past five years, a trend that directly improves CAPEX IRR going forward. [MNRE's Rooftop Solar Scheme Phase II guidelines](https://mnre.gov.in/){target="_blank" rel="noopener"} confirm that PM Surya Ghar subsidies apply only to CAPEX ownership models (not OPEX/RESCO) for residential installations.
 
 ## Common Mistakes in CAPEX vs OPEX Decision-Making
 
@@ -200,5 +209,7 @@ For factories, warehouses, schools, and commercial buildings that have answered 
 - **[C&I Solutions](/c-i-solution/)**: end-to-end commercial solar solutions with site assessment, system design, and ALMM-compliant equipment.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for C&I buyers who want battery backup for essential loads.
 - **[Authorised Service Partners](/authorized-service-partners/)**: nationwide service network for the full 12-year warranty period.
+
+For factories and commercial buildings that need engineering drawings and structural sign-off before a CAPEX installation begins, [Heaven Designs' solar civil and structural engineering service](https://heavendesigns.in/solar-civil-and-structural-engineering/) covers the rooftop load and staad-pro calculations most lenders and municipal authorities require.
 
 [Request a commercial site assessment](/contact-us/), Qbits engineers can model the CAPEX IRR for your specific site, load profile, and tariff, and compare it against the OPEX scenario in a single structured proposal.

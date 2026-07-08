@@ -4,6 +4,7 @@ excerpt: "Agrivoltaic design software lets you co-locate PV with crops. SurgePV 
 description: "Design agrivoltaic systems 70% faster with SurgePV. Crop-aware shading, tractor clearance, bankable yield. From $1,299/seat. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "9 min"
 image: "/blog-images/agrivoltaic-design-software.svg"
 author: "Nirav Dhanani"
@@ -52,7 +53,7 @@ Choosing the right agrivoltaic design software is the single biggest decision in
 
 ## What Is Agrivoltaics?
 
-Agrivoltaics, sometimes called agri-PV or dual-use solar, is the practice of generating electricity from PV modules on the same land that grows crops or grazes livestock. Instead of fencing off a field and covering it with low-mounted modules, you raise the array on tall posts, widen the rows, and select panel transparency so a measured fraction of sunlight reaches the soil.
+Agrivoltaics, sometimes called agri-PV or dual-use solar, is the practice of generating electricity from PV modules on the same land that grows crops or grazes livestock. Instead of fencing off a field and covering it with a conventional [ground-mount solar park](https://heavengreenenergy.com/ground-mount-solar-park/) at low-mounted heights, you raise the array on tall posts, widen the rows, and select panel transparency so a measured fraction of sunlight reaches the soil.
 
 The core trade-off is light. A traditional ground-mount system blocks roughly 95% of direct sunlight beneath the rows. An agrivoltaic system aims for 30% to 50% ground-level light transmission, depending on the crop. Lettuce, spinach, berries, and forage grass tolerate or even prefer this shaded micro-climate. Wheat, maize, and most fruiting vegetables need more light and tolerate less.
 
@@ -60,7 +61,7 @@ Panel spacing, height, and tilt all become variables in a multi-objective optimi
 
 ## Why Agrivoltaic Design Differs From Regular Ground-Mount
 
-A regular ground-mount farm targets one number: levelised cost of energy. An agrivoltaic farm targets two: LCOE and crop revenue per hectare. That changes four design parameters in a fundamental way.
+A regular ground-mount farm targets one number: [levelised cost of energy](/glossary/lcoe/). An agrivoltaic farm targets two: LCOE and crop revenue per hectare. That changes four design parameters in a fundamental way.
 
 **Panel height.** Standard fixed-tilt ground mounts sit 0.6 to 1.0 metres above the soil. Agrivoltaic systems sit 2.1 metres minimum for sheep grazing, 4.5 metres or more for tractor and combine access. Higher posts mean heavier foundations, more steel, and bigger wind loads.
 
@@ -72,13 +73,13 @@ A regular ground-mount farm targets one number: levelised cost of energy. An agr
 
 ## How Agrivoltaic Design Works Inside SurgePV
 
-SurgePV ships an agrivoltaic template that loads the right defaults the moment you draw your farm plot. The template sets elevated mounting between 2.1 and 5 metres, widens the row pitch, defaults to bifacial modules to capture crop-reflected light, and switches the shading engine to report both module and ground irradiance.
+SurgePV ships an agrivoltaic template that loads the right defaults the moment you draw your farm plot. The template sets elevated mounting between 2.1 and 5 metres, widens the row pitch, defaults to [bifacial modules](/glossary/bifacial-module/) to capture crop-reflected light, and switches the shading engine to report both module and ground irradiance.
 
 Start by importing the parcel from satellite. SurgePV's [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) is built for buildings, but the same satellite import pipeline reads bare ground, slopes, hedgerows, and existing farm tracks. You do not need a drone flight or a site visit to get a usable terrain model.
 
 Next, brief [Clara AI](https://surgepv.com/clara-ai), the natural-language design assistant. Tell Clara "elevated agrivoltaic system over 12 hectares, sheep grazing, 4 metre clearance, target 40% ground light", and Clara lays out the array. From there, run the [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) to get the hourly module-level and ground-level light maps for a full year.
 
-Once the layout is locked, generate the [bankable yield report](https://surgepv.com/generation-financial-tool) with P50, P75, and P90 scenarios. Export the wiring diagram via [DXF/DWG export](https://surgepv.com/solar-autocad-integration) for the structural team. Finish with a [branded solar proposal](https://surgepv.com/solar-proposals) that the farmer signs digitally in their preferred language.
+Once the layout is locked, generate the [bankable yield report](https://surgepv.com/generation-financial-tool) with [P50, P75, and P90](/glossary/p50-p90/) scenarios. Export the wiring diagram via [DXF/DWG export](https://surgepv.com/solar-autocad-integration) for the [structural and civil engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) team. Finish with a [branded solar proposal](https://surgepv.com/solar-proposals) that the farmer signs digitally in their preferred language.
 
 For larger schemes above 5 megawatts, SurgePV scales into [utility-scale solar design software](https://surgepv.com/utility-scale-solar-design) territory with the same agrivoltaic settings carried through. The tool you learn for a 200 kW village system is the same tool you use for a 50 MW agri-PV park.
 
@@ -117,7 +118,7 @@ SurgePV is the only platform on this list that combines an agrivoltaic template,
 
 ## Common Mistakes
 
-1. **Modelling the farm as a normal ground-mount.** Designers run a default ground-mount layout, then add tall posts as an afterthought. The bill of materials misses 30% of the steel.
+1. **Modelling the farm as a normal ground-mount.** Designers run a default ground-mount layout, then add tall posts as an afterthought. The bill of materials misses 30% of the steel. Running [STAAD Pro structural calculations](https://heavendesigns.in/staad-pro-report-calculations/) on the elevated posts before finalising the BOM catches this early.
 2. **Ignoring tractor turning radius at row ends.** A 4 metre headland is not enough for a modern combine. Fix this on the canvas, not on site.
 3. **Treating ground irradiance as a uniform number.** Crops respond to peak shade, not average shade. Always look at the worst-month hourly map.
 4. **Skipping the bifacial gain.** Agrivoltaic geometry is the single best case for bifacial. Designers who skip it leave 10% yield on the table.
@@ -135,18 +136,18 @@ A 5 hectare agrivoltaic project in Maharashtra hosts turmeric under elevated bif
 - Open-field control revenue, turmeric only: $58,000 per year
 - Open-field control revenue, conventional ground-mount only: $238,000 per year
 
-The dual-use case beats both single-use cases by a margin of 31% over solar-only and 5.4x over agriculture-only. SurgePV models all three scenarios side by side in the same project file.
+The dual-use case beats both single-use cases by a margin of 31% over solar-only and 5.4x over agriculture-only. SurgePV models all three scenarios side by side in the same project file. Many Indian agrivoltaic projects on farmer land also qualify under [PM-KUSUM](/glossary/kusum/) Component A, which specifically targets solar generation on agricultural land, on top of any state feed-in tariff.
 
 ## Who Should Choose Each Tool
 
 - **SurgePV** for installers and EPCs who want one [solar design platform](https://surgepv.com/) that covers agrivoltaics, rooftop, and utility scale at a flat per-seat price.
-- **HelioScope** for residential rooftop teams who do not touch agrivoltaics.
-- **PVsyst** for academic researchers who need full control over every loss coefficient and have a week to spend on each project.
-- **PVcase** for large utility-scale developers who already own AutoCAD licences and want a Civil 3D plugin.
+- **[HelioScope](/blog/helioscope-alternative/)** for residential rooftop teams who do not touch agrivoltaics.
+- **[PVsyst](/blog/pvsyst-alternative/)** for academic researchers who need full control over every loss coefficient and have a week to spend on each project.
+- **[PVcase](/blog/pvcase-alternative/)** for large utility-scale developers who already own AutoCAD licences and want a Civil 3D plugin.
 
-If your team also runs CRM and quoting workflows outside the design tool, pair SurgePV with [QuickEstimate](https://quickestimate.co/) for the sales pipeline. The combination covers design, proposal, and lead management without three separate logins.
+If your team also runs CRM and quoting workflows outside the design tool, pair SurgePV with [QuickEstimate](https://quickestimate.co/) for the sales pipeline. The combination covers design, proposal, and [lead management](https://quickestimate.co/features/lead-capture/) without three separate logins.
 
-For most installers, the right pick is the cheapest [solar design software](https://surgepv.com/) that produces a bankable report and an AutoCAD-ready drawing on day one. That is [SurgePV](https://surgepv.com/), and the [AI solar design assistant](https://surgepv.com/clara-ai) inside it cuts design time by 70% versus the Aurora plus HelioScope plus PVsyst stack.
+For most installers, the right pick is the cheapest [solar design software](https://surgepv.com/) that produces a bankable report and an AutoCAD-ready drawing on day one. That is [SurgePV](https://surgepv.com/), and the [AI solar design assistant](https://surgepv.com/clara-ai) inside it cuts design time by 70% versus the [Aurora](/blog/aurora-solar-alternative/) plus HelioScope plus PVsyst stack.
 
 <div class="inline-cta">
 <h3>Stop Stitching Three Tools Together for One Agrivoltaic Project</h3>

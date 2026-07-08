@@ -4,6 +4,7 @@ excerpt: "Solar single line diagram software auto-generates the SLD that AHJs, l
 description: "Solar single line diagram software 2026: auto-SLD with NEC labels, AutoCAD DXF/DWG export, AHJ-ready output. Compare SurgePV vs Aurora. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "8 min"
 image: "/blog-images/solar-sld-software.svg"
 author: "Nirav Dhanani"
@@ -48,22 +49,22 @@ Solar single line diagram software auto-generates the electrical schematic AHJs 
 
 ## What an SLD Shows
 
-The single line diagram is the electrical schematic of the PV system, simplified to one line per circuit. It includes:
+The [single line diagram](/glossary/single-line-diagram/) is the electrical schematic of the PV system, simplified to one line per circuit. It includes:
 
-- PV modules with string-level grouping
-- MPPT assignments per inverter input
+- PV modules with string-level grouping, tied directly to the [string sizing](/blog/solar-string-sizing-software/) that set the module count per string
+- [MPPT](/glossary/mppt/) assignments per inverter input
 - Inverter model and ratings
-- DC disconnect and overcurrent protection
+- DC disconnect and [overcurrent protection](/blog/solar-string-sizing-ocp-india/)
 - AC disconnect and breaker
-- AC combiner if used (multi-inverter)
+- AC combiner box if used (multi-inverter), typically an [ACDB/DCDB assembly](https://heavengreenenergy.com/products/acdb-dcdb/) on the physical installation
 - Conductor sizing and labelling
-- Grounding and bonding details
-- Utility interconnection point
-- Code labels (NEC, IEC, AS/NZS, IS)
+- [Grounding and bonding](/blog/solar-inverter-grounding/) details
+- Utility [interconnection point](/glossary/bidirectional-meter/)
+- Code labels (NEC, [IEC, AS/NZS, IS](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/))
 
 ## How Solar Single Line Diagram Software Works in SurgePV
 
-The SLD is generated from the design canvas in real time. Module layout determines string composition; MPPT assignments map to the chosen inverter; conductor sizing follows code; overcurrent protection ratings come from the inverter datasheet. The output is a PDF SLD plus a DXF/DWG for AutoCAD handoff.
+The SLD is generated from the design canvas in real time, downstream of the same [8,760-hour shading analysis](/blog/solar-shading-analysis-software/) and [solar simulation](/blog/solar-simulation-software/) that already ran on the layout. Module layout determines string composition; MPPT assignments map to the chosen inverter; conductor sizing follows code; overcurrent protection ratings come from the inverter datasheet. The output is a PDF SLD plus a DXF/DWG for AutoCAD handoff. For projects that need a fully stamped electrical drawing package beyond the auto-generated SLD, EPCs typically turn to a dedicated [electrical drawings and CEIG documentation](https://heavendesigns.in/electrical-ceig-drawings/) service.
 
 ## Auto-SLD Across Competing Tools
 
@@ -127,7 +128,7 @@ The same SLD exports to DXF for the electrical contractor's AutoCAD overlay.
 - **Choose HelioScope** for engineering with limited SLD generation.
 - **Use AutoCAD + manual SLD** only on very specialised projects where the auto-generation does not match the reviewer's preferences.
 
-For most installers in 2026, SurgePV is the [solar design software](https://surgepv.com/) that ships the cleanest auto-SLD workflow.
+For most installers in 2026, SurgePV is the [solar design software](https://surgepv.com/) that ships the cleanest auto-SLD workflow. Once the SLD is finalised, the same canvas typically feeds [solar takeoff software](/blog/solar-takeoff-software/) to generate the procurement bill of quantities.
 
 <div class="inline-cta">
 <h3>Ready for auto-SLD on every project?</h3>

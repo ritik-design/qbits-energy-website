@@ -4,6 +4,7 @@ excerpt: "Solar subsidy in Delhi 2026 stacks PM Surya Ghar (₹78,000 for 3 kW) 
 description: "Solar subsidy in Delhi 2026: PM Surya Ghar amounts, Delhi state top-up, BSES and TPDDL net-metering steps, flat/apartment rules, timeline, and a worked homeowner example."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "18 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
 author: "Akash Hirapara"
@@ -38,6 +39,13 @@ featured: false
 Delhi homeowners asking about solar in 2026 face a city-specific puzzle: three different DISCOMs serve different parts of the capital, the state adds its own layer of incentives, apartment and flat installations require RWA approvals that can take months, and the net metering process has more steps than most other states. The financial upside is real (a 3 kW system can attract ₹78,000 or more in central subsidies) but only if you understand the full process across BSES Rajdhani, BSES Yamuna, and TPDDL before you sign a vendor contract.
 
 This guide walks through every layer of the Delhi solar subsidy stack: the central PM Surya Ghar scheme, the Delhi state top-up, the DISCOM-specific net metering steps, the flat/apartment rules that trip up most urban applicants, and a worked example from a homeowner in south Delhi.
+
+> **TL;DR**
+> - Delhi stacks the central PM Surya Ghar subsidy (up to ₹78,000 for 3 kW) with a reported state top-up of approximately ₹2,000/kW, verify current status at derc.gov.in.
+> - Three DISCOMs serve Delhi, BSES Rajdhani (south/west), BSES Yamuna (east/central), and TPDDL (north/north-west), and your application routes through whichever one bills your address.
+> - Apartment installations need a signed RWA no-objection certificate and, for buildings older than 1990, a structural load assessment before the DISCOM will process feasibility.
+> - Realistic end-to-end timeline is 90 to 120 days, with the DISCOM meter change step causing most delays.
+> - A worked south Delhi example (3 kW, ₹1,95,000 gross cost) landed at roughly 3.2 years payback after ₹84,000 in combined subsidy.
 
 > **Delhi's solar subsidy in 2026 uses a two-layer stack.** The central PM Surya Ghar Muft Bijli Yojana provides up to ₹78,000 for a 3 kW residential system. The Delhi government is reported to offer an additional ₹2,000 per kW state top-up, verify current status at derc.gov.in before applying. Three DISCOMs (BSES Rajdhani, BSES Yamuna, and TPDDL) each run their own net metering and commissioning process, so the correct entry point depends entirely on which utility currently bills your address.
 
@@ -99,7 +107,7 @@ Each pillar must be completed in order. Applicants who install first and registe
 
 ## Delhi's Three DISCOMs: Which One Is Yours?
 
-Delhi's electricity distribution is split across three private distribution companies, each with its own application portal, technical team, and processing timelines. Choosing the wrong contact point adds weeks of unnecessary delay.
+Delhi's electricity distribution is split across three private [DISCOMs](/glossary/discom/), each with its own application portal, technical team, and processing timelines. Choosing the wrong contact point adds weeks of unnecessary delay.
 
 ### BSES Rajdhani Power Limited (BRPL)
 
@@ -121,7 +129,7 @@ TPDDL serves north Delhi (Civil Lines, Model Town) and north-west Delhi (Rohini,
 
 ## Net Metering in Delhi: How the DERC Process Works
 
-Delhi's net metering regime is governed by the DERC (Delhi Electricity Regulatory Commission), which issues Renewable Energy Net Metering Regulations specifying timelines, tariffs, and obligations for both DISCOMs and consumers.
+Delhi's [net metering](/glossary/net-metering/) regime is governed by the DERC (Delhi Electricity Regulatory Commission), which issues Renewable Energy Net Metering Regulations specifying timelines, tariffs, and obligations for both DISCOMs and consumers.
 
 Under the DERC framework, the net metering process follows this sequence:
 
@@ -129,8 +137,8 @@ Under the DERC framework, the net metering process follows this sequence:
 - **Step 2: Technical feasibility**: DISCOM sends an engineer to assess your meter board, connection capacity, and rooftop structure. They check whether your sanctioned load can support the proposed solar system.
 - **Step 3: Feasibility approval letter**: If approved, you receive a written consent to proceed. If refused (rare for standard sizes), you can appeal to DERC.
 - **Step 4: Installation**: Empanelled vendor installs the system. Only ALMM-listed components. Work must match the approved design.
-- **Step 5: Inspection + meter change**: DISCOM inspects the installation and replaces the single-direction meter with a bidirectional smart meter. This is the most time-consuming step in Delhi.
-- **Step 6: Net meter activation**: From meter activation, your solar generation units are credited against consumption. Surplus is banked monthly and settled at the applicable DERC export tariff annually.
+- **Step 5: Inspection + meter change**: DISCOM inspects the installation and replaces the single-direction meter with a [bidirectional smart meter](/glossary/bidirectional-meter/). This is the most time-consuming step in Delhi.
+- **Step 6: Net meter activation**: From meter activation, your solar generation units are credited against consumption. Surplus is banked monthly and settled at the applicable DERC [export tariff](/glossary/feed-in-tariff/) annually.
 
 > **Delhi's net metering export rate** is governed by the applicable DERC tariff order. As of the most recent DERC order, residential rooftop solar export attracts approximately ₹3.00–₹4.50 per unit. *Source - [Delhi Electricity Regulatory Commission](https://derc.gov.in/), applicable tariff order.*
 
@@ -146,7 +154,7 @@ The practical rules for Delhi apartments in 2026:
 
 - **Individual connection required**: You must hold the electricity connection in your own name (not in a landlord's or previous owner's name) to be the primary subsidy applicant.
 - **RWA NOC is mandatory**: Your Resident Welfare Association (or housing society management committee) must provide a written no-objection certificate permitting rooftop installation. Without this, the DISCOM will not process the technical feasibility.
-- **Structural load assessment**: Many older Delhi apartment buildings (DDA flats, 1970s–1990s construction) require a structural engineer's certificate confirming the roof can support panel mounting systems. Installers should flag this requirement upfront.
+- **Structural load assessment**: Many older Delhi apartment buildings (DDA flats, 1970s–1990s construction) require a structural engineer's certificate confirming the roof can support panel mounting systems. Installers should flag this requirement upfront, and RWAs pursuing community solar often bring in a [structural and civil engineering consultant](https://heavendesigns.in/solar-civil-and-structural-engineering/){target="_blank" rel="noopener"} to produce this certificate before the DISCOM will sign off.
 - **Shadow-free area per flat**: A 3 kW system requires approximately 200 square feet of shadow-free rooftop. In multi-storey buildings, the effective shadow-free area per flat is often smaller than required, limiting system size to 1–2 kW per unit.
 - **Community solar option**: RWAs can pursue a single larger system (up to the building's aggregate sanctioned load) on behalf of all residents. This requires a single DISCOM application from the RWA, with generation credited to a common meter and distributed via a sub-metering arrangement. The subsidy is limited per individual beneficiary connection.
 
@@ -188,7 +196,7 @@ Missing any of these at the time of DISCOM submission delays the feasibility pro
 
 Ramesh Kapoor owns a 3 BHK independent floor in Saket, south Delhi, served by BSES Rajdhani. His monthly electricity bill is approximately ₹3,800 (average consumption: 450 units per month in summer, 250 in winter). Here is how his solar journey unfolded.
 
-**System specification**: 3 kW on-grid, ALMM-listed bifacial monocrystalline panels (9 × 335 Wp), BIS-certified string inverter, rooftop mounting on 200 sq ft shadow-free terrace.
+**System specification**: 3 kW on-grid, ALMM-listed [bifacial](/glossary/bifacial-module/) [monocrystalline](/glossary/monocrystalline/) panels (9 × 335 Wp), BIS-certified string inverter, rooftop mounting on 200 sq ft shadow-free terrace.
 
 **Costs and subsidies**:
 - Gross system cost: ₹1,95,000 (installed, including net meter wiring)
@@ -201,7 +209,7 @@ Ramesh Kapoor owns a 3 BHK independent floor in Saket, south Delhi, served by BS
 - Annual self-consumption savings: approximately ₹31,500 (at ₹7/unit blended tariff)
 - Annual export earnings (10% of generation at ₹3.5/unit): approximately ₹1,575
 - Total annual benefit: approximately ₹33,000–₹35,000
-- Payback period: approximately 3.2 years post-subsidy
+- Payback period: approximately 3.2 years post-subsidy (run your own numbers with [SurgePV's solar financial modeling tool](https://surgepv.com/generation-financial-tool/){target="_blank" rel="noopener"} if your consumption or tariff slab differs from Ramesh's)
 
 **What caused delays**: BSES Rajdhani's meter change took 38 days from post-installation inspection, longer than estimated. Ramesh followed up twice in person at the BRPL service centre, which he believes accelerated the final schedule. Total time from registration to first solar bill: 97 days.
 

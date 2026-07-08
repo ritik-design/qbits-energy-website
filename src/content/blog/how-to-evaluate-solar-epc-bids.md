@@ -3,6 +3,7 @@ title: "How to Evaluate Solar EPC Bids in India, 15 Criteria"
 excerpt: "How to evaluate solar EPC bids in India: use the 15-Point EPC Bid Scorecard covering ALMM compliance, BOS quality, string monitoring, payment milestones, and performance guarantees."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-epc-india.svg"
 author: "Akash Hirapara"
@@ -35,17 +36,25 @@ Receiving solar EPC bids from multiple contractors is a necessary step toward a 
 
 > **Direct answer.** Evaluate solar EPC bids in India using the 15-Point EPC Bid Scorecard: ALMM-listed equipment, inverter warranty depth, BOS quality, string monitoring, DISCOM approval support, commissioning SLA, milestone payment structure, performance guarantee, installation insurance, O&M contract, IRR simulation transparency, vertical references, RERA compliance, GST registration, and quality certification. Scoring each bidder against these criteria converts a price comparison into a total-value comparison.
 
+> **TL;DR**
+> - Two EPC bids at the same ₹/kW rate can differ by ₹4-5 lakh in 25-year returns based on equipment quality, warranty depth, and installer track record alone.
+> - Score every bidder 0-2 across all 15 criteria; a total below 20/30 warrants caution, above 25/30 signals a competitive bid.
+> - Non-ALMM equipment disqualifies the project from the PM Surya Ghar subsidy and typically carries faster degradation.
+> - A 12-year full-replacement inverter warranty avoids a ₹35,000-₹80,000 out-of-pocket replacement that a 5-year warranty leaves you exposed to.
+> - Never accept a 100% upfront payment demand; a staged milestone structure tied to delivery and commissioning protects your financial recourse.
+> - Verified references from the same system size, same DISCOM area, and installations completed within the last 12 months are the most underused evaluation tool.
+
 For the financial context of what these criteria protect (including IRR and payback calculations) see [solar IRR and payback for C&I in India](/blog/solar-irr-payback-ci-india/).
 
 ## Why Price Comparison Alone Fails
 
-A bid at ₹52,000/kW using non-ALMM panels with a 5-year inverter warranty is not cheaper than a bid at ₹58,000/kW using ALMM-listed panels with a 12-year inverter warranty. Here is why, using real cost data from [Bridge to India's India Solar Rooftop Cost Report](https://bridgetoindia.com/):
+A bid at ₹52,000/kW using non-[ALMM](/glossary/almm-list/) panels with a 5-year inverter [warranty](/blog/solar-inverter-warranty/) is not cheaper than a bid at ₹58,000/kW using ALMM-listed panels with a 12-year inverter warranty. Here is why, using real cost data from [Bridge to India's India Solar Rooftop Cost Report](https://bridgetoindia.com/):
 
 - The non-ALMM bid disqualifies you from the central PM Surya Ghar subsidy (₹78,000 for 3 kW), the true cost rises by ₹78,000 immediately
 - The 5-year inverter warranty means you pay ₹35,000–₹80,000 for a replacement in Year 6–8, which the 12-year warranty absorbs at no cost
 - Non-ALMM panels may degrade at 1.5% per year (vs 0.5% for certified panels), cumulative generation loss over 25 years exceeds ₹1.5 lakh for a 5 kW system
 
-The true cost comparison requires calculating total cost of ownership (TCO) over the system's life, not just the installation day invoice. Before evaluating bids, read [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) to understand the technical criteria that determine long-term performance.
+The true cost comparison requires calculating total cost of ownership (TCO) over the system's life, not just the installation day invoice. Before evaluating bids, read [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) to understand the technical criteria that determine long-term performance. For contractors who offer full turnkey installation as part of the bid, [Heaven Green Energy's solar EPC service](https://heavengreenenergy.com/solar-epc/) is one example of what a complete turnkey scope looks like, useful as a reference point when checking whether a bid's scope is genuinely comprehensive.
 
 ## The 15-Point EPC Bid Scorecard
 
@@ -59,27 +68,27 @@ Score each bidder 0–2 on each criterion (0 = missing, 1 = present but weak, 2 
 
 3. **BOS quality, DC cables**: DC cables must be rated for 1,000 V (IEC 62930 or equivalent), UV-resistant, and cross-section matched to the string current. Underrated cables overheat, degrade, and create fire risk. Ask the contractor to specify cable voltage rating, cross-section, and manufacturer in the BOM. Score: 0 if not specified, 1 if specified but generic, 2 if specified with rated specifications.
 
-4. **String monitoring included**: For systems above 5 kW, independent string-level current monitoring identifies underperforming strings before they compound into significant generation losses. This feature should be included in the inverter or as a separate monitoring device, not charged as an add-on. Score: 0 if not included, 2 if included.
+4. **String monitoring included**: For systems above 5 kW, independent string-level current monitoring identifies underperforming strings before they compound into significant generation losses. This feature should be included in the inverter or as a separate monitoring device, not charged as an add-on. See [how to read a solar monitoring app](/blog/how-to-read-solar-monitoring-app-india/) for what a properly monitored system should show you day to day. Score: 0 if not included, 2 if included.
 
-5. **DISCOM approval support scope**: The EPC bid should explicitly include preparation and submission of the DISCOM net metering application and associated documentation (single-line diagram, technical specifications, DISCOM forms). Ask if the contractor handles follow-up until the net meter is installed. Score: 0 if excluded, 1 if application only, 2 if full follow-through.
+5. **[DISCOM](/glossary/discom/) approval support scope**: The EPC bid should explicitly include preparation and submission of the DISCOM net metering application and associated documentation (single-line diagram, technical specifications, DISCOM forms). Ask if the contractor handles follow-up until the net meter is installed. Score: 0 if excluded, 1 if application only, 2 if full follow-through.
 
 6. **Commissioning SLA**: A specific date or maximum timeline from installation completion to commissioning and DISCOM inspection. Avoid open-ended commitments. Score: 0 if not specified, 1 if vague ("within a few months"), 2 if specific date with penalty clause.
 
 7. **Payment milestone structure**: Maximum 30% advance; linked to equipment delivery (30–40%) and commissioning (20–30%); retention released after DISCOM meter installation (5–10%). Score: 0 if 100% upfront requested, 1 if milestones exist but are unbalanced, 2 if clearly staged milestones.
 
-8. **Performance ratio (PR) guarantee**: A written guarantee of minimum PR (0.75–0.80 for Indian residential conditions, 0.76–0.82 for commercial) with a defined measurement methodology and compensation for shortfall. Score: 0 if absent, 1 if verbal or unspecified, 2 if written with measurement formula.
+8. **[Performance ratio (PR)](/glossary/pr/) guarantee**: A written guarantee of minimum PR (0.75–0.80 for Indian residential conditions, 0.76–0.82 for commercial) with a defined measurement methodology and compensation for shortfall. Score: 0 if absent, 1 if verbal or unspecified, 2 if written with measurement formula.
 
 9. **Insurance during installation**: Workmen's compensation insurance and property insurance during the installation period. If a panel falls through your roof or a worker is injured, who is liable? Score: 0 if not mentioned, 2 if insurance certificates provided.
 
 10. **O&M contract post-installation**: A separate, signed O&M agreement for at least 12 months covering cleaning schedule, annual electrical inspection, fault response SLA, and escalation mechanism. Score: 0 if excluded, 1 if verbal, 2 if documented with SLAs.
 
-11. **IRR simulation transparency**: For C&I buyers, a full IRR model showing monthly generation estimates, self-consumption assumptions, tariff savings, and payback calculation. Contractors who provide opaque "payback in 4 years" claims without supporting assumptions cannot be trusted. Score: 0 if no simulation, 1 if simulation without methodology, 2 if full transparent model.
+11. **[IRR](/glossary/irr/) simulation transparency**: For C&I buyers, a full IRR model showing monthly generation estimates, self-consumption assumptions, tariff savings, and payback calculation. Contractors who provide opaque "payback in 4 years" claims without supporting assumptions cannot be trusted, and a proper simulation should look similar in rigour to [SurgePV's generation and financial modeling tool](https://surgepv.com/generation-financial-tool/) that professional design teams use to back their numbers. Score: 0 if no simulation, 1 if simulation without methodology, 2 if full transparent model.
 
 12. **References from similar vertical**: At least three verifiable references from installations of similar size and type (residential/commercial/industrial). Contact each reference and ask specifically about commissioning delays, DISCOM approval timeline, and any post-installation issues. Score: 0 if none, 1 if references provided but not verified, 2 if verified references in similar vertical.
 
 13. **RERA compliance for residential complexes**: For multi-unit residential society installations, the EPC contractor should confirm awareness of applicable state RERA provisions regarding common area installation approvals, society NOC requirements, and audit compliance. Score: 0 if unaware, 1 if acknowledged, 2 if documented process.
 
-14. **GST registration**: Verified GST registration is mandatory for any EPC contractor issuing a tax invoice. A contractor without GST registration is either operating below the threshold (implying a very small operation) or is non-compliant. Score: 0 if not provided, 2 if GSTIN verified.
+14. **[GST](/glossary/gst-on-solar/) registration**: Verified GST registration is mandatory for any EPC contractor issuing a tax invoice. A contractor without GST registration is either operating below the threshold (implying a very small operation) or is non-compliant. Score: 0 if not provided, 2 if GSTIN verified.
 
 15. **ISO 9001 or equivalent quality certification**: Quality management certification indicates documented internal processes for installation, commissioning, and defect management. Not all good contractors have ISO 9001, but its presence is a positive signal. Score: 0 if absent, 1 if in process, 2 if certified and current.
 
@@ -106,8 +115,8 @@ Beyond the scorecard, these specific warning signs in an EPC bid should trigger 
 - **100% advance payment requested**: standard for unfinanced or financially weak contractors; structurally removes buyer protection
 - **Annual generation estimates with round numbers** (e.g., "5 kW × 4 units/day × 365 = 7,300 units") without irradiance data or PR assumptions, indicates no site-specific simulation was done
 - **"We handle everything" verbal O&M with no written agreement**: unenforceable; the best installers put O&M terms in writing
-- **No mention of earthing or SPD** in the technical scope, safety omissions that indicate cost-cutting at the expense of system protection
-- **Inverter brand not mentioned** until you ask, the inverter is 25–30% of total system cost; any contractor who does not lead with the inverter specification is obscuring a key quality decision
+- **No mention of [earthing](/glossary/earthing/) or [SPD](/glossary/spd/)** in the technical scope, safety omissions that indicate cost-cutting at the expense of system protection
+- **Inverter brand not mentioned** until you ask, the inverter is 25–30% of total system cost; any contractor who does not lead with the inverter specification is obscuring a key quality decision. Once the brand is disclosed, use [how to read solar inverter datasheets](/blog/how-to-read-solar-inverter-datasheets/) to verify the specification claims independently rather than taking the bid document at face value
 
 ## Verifying ALMM and BIS Compliance in EPC Bids
 
@@ -115,7 +124,7 @@ ALMM and BIS compliance is the foundation of any credible EPC bid. Here is how t
 
 **ALMM verification:** Visit [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/) and search for the specific panel and inverter models listed in the EPC bid. The ALMM list is updated quarterly; ensure you are checking the current version. If the model is not listed, ask the contractor for the date of expected ALMM inclusion, some recently launched models are in process.
 
-**BIS verification:** For inverters, BIS certification under IS 16221 (or IEC 62109 equivalence) is mandatory for legally selling inverters in India. The BIS certificate number should appear on the inverter label and can be verified at [bis.gov.in](https://bis.gov.in/).
+**BIS verification:** For inverters, [BIS certification](/glossary/bis-certification/) under IS 16221 (or IEC 62109 equivalence) is mandatory for legally selling inverters in India. The BIS certificate number should appear on the inverter label and can be verified at [bis.gov.in](https://bis.gov.in/).
 
 **DISCOM pre-approval:** Some DISCOMs maintain their own approved vendor lists for net metering eligible equipment. In Karnataka (BESCOM) and Tamil Nadu (TANGEDCO), verifying that the proposed equipment appears on the DISCOM's pre-approved list reduces the risk of inspection rejection.
 

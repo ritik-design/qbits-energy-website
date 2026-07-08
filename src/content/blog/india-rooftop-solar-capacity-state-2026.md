@@ -4,6 +4,7 @@ excerpt: "India rooftop solar capacity by state 2026: Gujarat leads with highest
 description: "Official India rooftop solar capacity data by state 2026. State-wise capacity table, PM Surya Ghar connection rankings, leading and laggard states, DISCOM readiness, and the State Solar Readiness Index."
 category: Industry
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "20 min"
 image: "/blog-images/solar-inverter-manufacturers-in-india.svg"
 author: "Nirav Dhanani"
@@ -33,6 +34,13 @@ faqs:
 ---
 
 India's rooftop solar sector has grown from less than 1 GW in 2015 to approximately 13.9 GW by early 2026, a trajectory that would have seemed implausible a decade ago. Yet the growth is deeply uneven across states: Gujarat, Rajasthan, Karnataka, and Tamil Nadu collectively account for approximately 65–70% of installed rooftop capacity, while populous states like Bihar and West Bengal have barely begun their rooftop transition. This reference compiles official data on state-wise rooftop solar capacity, PM Surya Ghar connections, and the structural factors that explain why some states lead and others lag.
+
+> **TL;DR**
+> - Gujarat leads India's state rooftop rankings with 3.0–3.5 GW installed, backed by 15–30 day DISCOM net metering approvals.
+> - Bihar, West Bengal, and Jharkhand lag furthest behind, with DISCOM approval delays running 90+ days.
+> - India has installed roughly 13.9 GW of rooftop solar against a 40 GW target for 2026–27.
+> - Gujarat and Rajasthan together account for approximately 40% of national PM Surya Ghar completions.
+> - The State Solar Readiness Index scores states on DISCOM speed, subsidy availability, tariff, GHI, and installer density.
 
 > **Gujarat leads India's state rooftop solar rankings with approximately 3.0–3.5 GW installed, driven by high irradiance, efficient DISCOMs, and cumulative policy support. Bihar, West Bengal, and Jharkhand lag significantly due to DISCOM financial stress and slower approval processes.** The State Solar Readiness Index (a 5-metric composite) explains these divergences and predicts which states will accelerate in the next three years.
 
@@ -73,7 +81,7 @@ PM Surya Ghar's impact on state-wise rankings is visible in the comparison betwe
 As of early 2026, the top five states by PM Surya Ghar connections sanctioned:
 
 1. **Uttar Pradesh**: highest applications received nationally (reflecting UP's massive population and 6–10 hour daily power cuts creating strong backup demand), though conversion to completion is lower than Gujarat.
-2. **Gujarat**: leads in completions (actual installations) relative to sanctions, reflecting DISCOM efficiency.
+2. **Gujarat**: leads in completions (actual installations) relative to sanctions, reflecting [DISCOM](/glossary/discom/) efficiency.
 3. **Rajasthan**: strong both in applications and completions.
 4. **Karnataka**: consistent high performer across all metrics.
 5. **Maharashtra**: high application volume from Mumbai and Pune urban areas.
@@ -88,7 +96,7 @@ Four states consistently lead India's rooftop solar rankings. Understanding why 
 
 ### Gujarat: The Rooftop Solar Champion
 
-Gujarat's leadership in rooftop solar is not accidental. The state has invested in solar policy since the Gujarat Solar Power Policy of 2009, predating national programmes by years. The Surya Gujarat scheme (state-level residential subsidy) created installer infrastructure and consumer familiarity with rooftop solar that PM Surya Ghar then accelerated further.
+Gujarat's leadership in rooftop solar is not accidental. The state has invested in solar policy since the Gujarat Solar Power Policy of 2009, predating national programmes by years. The [Surya Gujarat scheme](/blog/solar-subsidy-gujarat-2026/) (state-level residential subsidy) created installer infrastructure and consumer familiarity with rooftop solar that PM Surya Ghar then accelerated further.
 
 DISCOM performance is the most specific differentiator: Gujarat's DISCOMs (PGVCL, MGVCL, UGVCL, and DGVCL) have invested in digital processes for net metering applications. Average approval timelines in Gujarat are among the shortest in India at 15–30 days. Gujarat's retail electricity tariff of ₹5–₹7/unit creates adequate economic incentive for solar adoption, and the state's high [GHI of 5.5–6.0 kWh/m²/day](https://www.irena.org/solar) ensures strong generation yields.
 
@@ -116,11 +124,11 @@ Bihar's rooftop solar penetration is very low despite being India's third-larges
 - **Lower income levels**: Bihar's per-capita income is below the national average, making the consumer contribution to even subsidised solar systems a challenge.
 - **Power cut severity and duration**: ironically, Bihar's 6–10 hour daily power cuts create strong demand for solar with battery backup, but also mean the grid is less available for net metering credit banking.
 
-Bihar's performance under PM Surya Ghar is improving (applications have grown significantly) but completions remain below target due to DISCOM bottlenecks.
+Bihar's performance under [PM Surya Ghar](/glossary/pm-surya-ghar/) is improving (applications have grown significantly) but completions remain below target due to DISCOM bottlenecks.
 
 ### West Bengal
 
-West Bengal's WBSEDCL has historically been among India's slower DISCOMs for net metering processing. Complex bureaucratic procedures and multiple site visit requirements have deterred installers from targeting West Bengal aggressively. The state's high population density in urban areas (Kolkata and surroundings) creates significant rooftop solar potential that remains underexploited.
+West Bengal's WBSEDCL has historically been among India's slower DISCOMs for [net metering](/glossary/net-metering/) processing. Complex bureaucratic procedures and multiple site visit requirements have deterred installers from targeting West Bengal aggressively. The state's high population density in urban areas (Kolkata and surroundings) creates significant rooftop solar potential that remains underexploited.
 
 ### Uttar Pradesh
 
@@ -142,7 +150,7 @@ Every state's rooftop solar adoption rate can be explained through five measurab
 
 4. **Solar Irradiance (GHI)**: [GHI](/glossary/ghi/) determines how much energy panels generate. Rajasthan and Gujarat (GHI 5.8–6.5 kWh/m²/day) generate more per kWp than Kerala or West Bengal (GHI 4.0–4.5 kWh/m²/day), shortening payback periods. Source: [NREL NSRDB India data](https://nsrdb.nrel.gov/), 2024.
 
-5. **Installer Density and Training**: states with established installer ecosystems (Gujarat, Karnataka, Tamil Nadu) complete installations faster and at better quality than states where installer training is limited. PM Surya Ghar empanelled vendor counts per state track this metric.
+5. **Installer Density and Training**: states with established installer ecosystems (Gujarat, Karnataka, Tamil Nadu) complete installations faster and at better quality than states where installer training is limited. [PM Surya Ghar empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) counts per state track this metric, and buyers anywhere can start by using a [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) to find vetted installers near them.
 
 | State | DISCOM Speed | State Subsidy | Tariff | GHI | Installer Density | Total Score (25) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -187,7 +195,7 @@ India has approximately 60+ DISCOMs operating across states. Their performance o
 - WBSEDCL (West Bengal)
 - Several UP DISCOMs (variable by territory)
 
-For a comprehensive guide to the net metering application process across DISCOMs, see [how to apply for net metering in India](/blog/how-to-apply-net-metering-india/).
+For a comprehensive guide to the net metering application process across DISCOMs, see [how to apply for net metering in India](/blog/how-to-apply-net-metering-india/). Before that step, homeowners can rough out expected output with [online solar design tools and calculators](https://surgepv.com/tools/).
 
 ## Where Qbits Fits
 

@@ -4,6 +4,7 @@ excerpt: "Hybrid inverter battery sizing in 5 steps: identify critical loads, se
 description: "Step-by-step hybrid inverter battery sizing guide for Indian homes. Covers load calculation, DoD, C-rate limits, 48V vs 96V systems, and worked examples for UP and Mumbai with LFP vs lead-acid comparison."
 category: "Buying Guide"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "19 min"
 image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
 author: "Keyur Rakholiya"
@@ -38,6 +39,13 @@ Planning the battery bank for a hybrid solar inverter is the decision that separ
 
 The five-step framework above (the **BLADE Method** (Backup Load Assessment and Design Engine)) is described in full in the next sections. Each step includes a worked calculation so you can fill in your own numbers as you read. Understanding the method also protects you from the three most common and expensive battery sizing mistakes that Indian homeowners make every year.
 
+> **TL;DR**
+> - Size a battery bank from critical backup load, not total home load: a 3BHK typically needs only 1.5–3 kW of backup versus 5–9 kW of total load.
+> - Gross battery kWh = (critical load kW × backup hours) ÷ depth of discharge, using 0.80 DoD for LFP or 0.50 DoD for lead-acid.
+> - A 3BHK in Lucknow with 8-hour outages needs roughly 15–20 kWh of LFP capacity; a 2BHK in Mumbai with 2-hour outages needs only 2.5–5 kWh.
+> - Match the battery to the inverter's charge current so it stays near or below 0.5C, and confirm system voltage (48V for 3–7 kW inverters, 96V for 7–15 kW).
+> - LFP costs more upfront than lead-acid but needs one replacement in 10 years versus three to four for lead-acid, making its total cost of ownership lower.
+
 ## Why Hybrid Inverter Battery Sizing Starts with Loads, Not Inverter Capacity
 
 The inverter's rated capacity (say, 5 kW or 10 kW) tells you the maximum power it can supply at any instant. It says nothing about how much energy your home needs over eight hours of a power cut. Energy is power multiplied by time, and battery capacity is measured in kilowatt-hours (kWh), not kilowatts.
@@ -50,7 +58,7 @@ The second misunderstanding is total home load versus critical load. During a po
 - **Critical backup load**: what must run during a power cut: 1.5–3 kW for a 3BHK. Used to size the battery bank in kWh.
 - **Backup duration**: how many hours per day the grid is unavailable in your district. The single biggest driver of battery cost.
 
-This distinction is the foundation of the BLADE Method. The guide to [choosing a solar inverter for your home](/blog/how-to-choose-solar-inverter-for-home-india/) covers the inverter-sizing side; this post focuses exclusively on the battery bank.
+This distinction is the foundation of the BLADE Method. The guide to [choosing a solar inverter for your home](/blog/how-to-choose-solar-inverter-for-home-india/) covers the inverter-sizing side, and the [5-step hybrid inverter selection guide](/blog/how-to-choose-hybrid-solar-inverter/) walks through matching the inverter itself to your roof and backup needs; this post focuses exclusively on the battery bank. For EPCs modelling storage capacity across multiple client sites, [SurgePV's battery and energy storage sizing tools](https://surgepv.com/hub/energy-storage/battery-sizing/) automate a version of the same load-and-duration calculation used here.
 
 ## Step 1: Identify Critical Backup Loads (Not Total Home Load)
 
@@ -273,9 +281,9 @@ Battery sizing does not exist in isolation. The solar array must be large enough
 
 The recharge energy formula:
 
-**Solar kWp required for recharge = (Battery kWh ÷ DoD × 1.0) ÷ (Peak Sun Hours × 0.80)**
+**Solar kWp required for recharge = (Battery kWh ÷ DoD × 1.0) ÷ ([Peak Sun Hours](/glossary/peak-sun-hours/) × 0.80)**
 
-The 0.80 factor accounts for panel degradation, cable losses, MPPT efficiency, and inverter conversion losses. Peak sun hours for major Indian cities:
+The 0.80 factor accounts for panel degradation, cable losses, MPPT efficiency, and the battery's [round-trip efficiency](/glossary/round-trip-efficiency/) during charge and discharge. Peak sun hours for major Indian cities:
 
 | City | Peak Sun Hours (annual average) | Peak Summer |
 | --- | --- | --- |
@@ -304,4 +312,4 @@ Homeowners who have run the BLADE Method and arrived at a battery specification 
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel string compatibility with your chosen hybrid inverter model before finalising the design.
 - **[Authorised Service Partners](/authorized-service-partners/)**: pincode-searchable network that handles BMS configuration, battery commissioning, and the 12-year warranty RMA process.
 
-Once the battery size is confirmed and the inverter model is selected, the final step is commissioning, configuring the charge current, DoD limit, and time-of-use settings in the inverter's control panel. [Talk to a Qbits engineer](/contact-us/) about your specific load profile and local outage data; most sizing consultations are completed within 24 hours and come with a written recommendation you can share with your installer.
+Once the battery size is confirmed and the inverter model is selected, the final step is commissioning, configuring the charge current, DoD limit, and time-of-use settings in the inverter's control panel. This is typically handled by your turnkey installer as part of [residential solar EPC scope](https://heavengreenenergy.com/solar-epc/) rather than something a homeowner configures alone. [Talk to a Qbits engineer](/contact-us/) about your specific load profile and local outage data; most sizing consultations are completed within 24 hours and come with a written recommendation you can share with your installer.

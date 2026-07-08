@@ -4,6 +4,7 @@ excerpt: "The PM Surya Ghar 2026 update brings ALMM Phase III mandates, faster D
 description: "PM Surya Ghar 2026 update: ALMM Phase III now mandatory, subsidy amounts unchanged at ₹78,000 cap, state top-up revisions, faster portals, and common rejection reasons."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Nirav Dhanani"
@@ -41,6 +42,14 @@ This post is the PM Surya Ghar 2026 update that cuts through the noise. It cover
 > **Direct answer.** The PM Surya Ghar 2026 update keeps the central subsidy unchanged at ₹78,000 maximum (₹30,000/kW for first 2 kW, ₹18,000 for the third kW) while adding ALMM Phase III as a mandatory inverter compliance gate, streamlining the portal, and improving DISCOM approval timelines in major states. The 1-crore-homes national target remains active. Using the Qbits 5-Gate Subsidy Readiness Checklist before installation ensures your claim clears all 2026 requirements.
 
 The scheme has been running since February 2024. What makes 2026 different is that the government moved from launch mode to quality-enforcement mode. The [ALMM list](/glossary/almm-list/) now covers inverters specifically under Phase III, the portal has a redesigned dashboard, and DISCOM inspections are faster in digitally integrated states. For homeowners, the opportunity has not shrunk, but the paperwork precision required has increased.
+
+> **TL;DR**
+> - The central subsidy is unchanged in 2026: ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third, capped at ₹78,000 regardless of system size.
+> - ALMM Phase III made inverter listing mandatory from April 2026, a non-listed inverter now triggers automatic commissioning-report rejection with no appeal.
+> - A January 2026 portal redesign and an MNRE circular cutting the DISCOM feasibility window to 15 working days have shortened timelines in digitally integrated states.
+> - State top-ups moved in different directions: Gujarat increased its top-up while Uttar Pradesh paused its scheme pending DISCOM restructuring.
+> - Over 6 lakh of the scheme's 1-crore-household target were completed as of mid-2026, backed by a ₹75,021 crore central outlay.
+> - Empanelled vendor standards rose, installers now need a minimum completed-installation track record and updated bank guarantees to stay listed.
 
 ## PM Surya Ghar Scheme Progress: Where Things Stand in Mid-2026
 
@@ -123,7 +132,7 @@ The empanelled vendor qualification bar also rose in 2025-26. DISCOMs now requir
 - A minimum number of completed installations with DISCOM commissioning records (the threshold varies by state but is typically 10–25 completed rooftop systems).
 - Updated bank guarantee amounts in line with revised guidelines.
 
-This has reduced the number of low-quality pop-up installers who were taking deposits and delivering substandard work. The practical benefit for homeowners is that any vendor you find on the PM Surya Ghar portal has cleared a higher baseline than before. Read the [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) to understand how to verify a vendor's current standing before you pay.
+This has reduced the number of low-quality pop-up installers who were taking deposits and delivering substandard work. The practical benefit for homeowners is that any vendor you find on the PM Surya Ghar portal has cleared a higher baseline than before. Read the [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) to understand how to verify a vendor's current standing before you pay. Installers looking to meet the tightened bar can review what it takes to [become a certified channel partner](https://heavengreenenergy.com/become-channel-partner/) with an established EPC network.
 
 ## The Qbits 5-Gate Subsidy Readiness Checklist
 
@@ -141,7 +150,7 @@ Most subsidy rejections in 2026 trace back to one of five gates in the applicati
 
 5. **Gate 5, Commissioning report and inspection sequence**: The DISCOM inspection must happen first. Only after the inspector signs off can the empanelled vendor upload the commissioning report. Uploading the report before the inspection is complete voids that report submission.
 
-This framework applies in every state. The specific documents differ slightly (some DISCOMs require an electrical safety certificate from a licenced wireman; some states require a building completion certificate), but all five gates exist across every DISCOM in the country.
+This framework applies in every state. The specific documents differ slightly (some DISCOMs require an electrical safety certificate from a licenced wireman; some states require a building completion certificate and CEIG-approved [electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) before final sign-off), but all five gates exist across every DISCOM in the country.
 
 ## Application Process: Step-by-Step for 2026
 
@@ -165,7 +174,7 @@ Your empanelled vendor installs the system. They submit a request for DISCOM com
 
 ### Step 5: Upload Commissioning Report and Claim Subsidy
 
-After successful inspection, the vendor uploads the commissioning report with the site photographs, meter serial numbers, and equipment serial numbers. You upload your bank details and confirm them via Aadhaar OTP. MNRE targets 30 days for subsidy credit after this step.
+After successful inspection, the vendor uploads the commissioning report with the site photographs, meter serial numbers, and equipment serial numbers. You upload your bank details and confirm them via Aadhaar OTP. MNRE targets 30 days for subsidy credit after this step, and you can [track your application through each stage](/blog/pm-surya-ghar-status-check/) on the portal dashboard.
 
 For a full walkthrough with state-specific variations, see the [PM Surya Ghar apply online guide](/blog/pm-surya-ghar-apply-online/).
 
@@ -196,7 +205,7 @@ Rejection data from empanelled vendors and MNRE circulars point to six recurring
 - **Net-metering not activated before claim**: The bidirectional meter must be installed and the meter number registered before the subsidy claim is processed. Filing early without this causes automatic return.
 - **Commissioning report before inspection**: Some vendors, trying to be efficient, upload the report before the DISCOM inspector visits. The portal now flags this sequence error and voids the submission.
 
-The [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/) covers edge cases including agricultural connections, joint-ownership scenarios, and what to do if your DISCOM is not yet onboarded.
+For a fix-by-fix breakdown of these and other failure points, plus the reapplication process, see the [PM Surya Ghar rejection reasons guide](/blog/pm-surya-ghar-rejection-reasons/). The [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/) covers edge cases including agricultural connections, joint-ownership scenarios, and what to do if your DISCOM is not yet onboarded.
 
 ## On-Grid vs Hybrid: Which System Type to Choose Under PM Surya Ghar
 

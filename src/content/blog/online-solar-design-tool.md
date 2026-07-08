@@ -4,6 +4,7 @@ excerpt: "Online solar design tools let you design a system in the browser witho
 description: "Online solar design tool 2026: SurgePV vs Aurora, HelioScope, OpenSolar, Pylon, Solargraf, SAM. Speed, accuracy, pricing. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/online-solar-design-tool.svg"
 author: "Nirav Dhanani"
@@ -52,19 +53,19 @@ Online solar design tools let you design a complete PV system in the browser, wi
 [SurgePV](https://surgepv.com/) ships [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design), [8,760-hour shade analysis](https://surgepv.com/shadow-analysis), bankable yield, [solar financial modeling](https://surgepv.com/generation-financial-tool), AutoCAD export, and [branded solar proposals](https://surgepv.com/solar-proposals) on every paid plan. $1,299 to $1,899 per user per year flat.
 
 ### 2. Aurora Solar
-US-residential-focused cloud tool. $159 to $259 per user per month. AI Mode and Sales Mode add-ons.
+US-residential-focused cloud tool. $159 to $259 per user per month. AI Mode and Sales Mode add-ons. See the full [Aurora Solar alternative comparison](/blog/aurora-solar-alternative/) for a deeper breakdown.
 
 ### 3. HelioScope
-Browser-based engineering simulator. $99 to $300+ per user per month. No native proposal builder.
+Browser-based engineering simulator. $99 to $300+ per user per month. No native proposal builder. Our [HelioScope alternative guide](/blog/helioscope-alternative/) covers the trade-offs in detail.
 
 ### 4. OpenSolar
-Free entry tier. Add-ons stack at C&I. Simplified shading.
+Free entry tier. Add-ons stack at C&I. Simplified shading. The [OpenSolar alternative breakdown](/blog/opensolar-alternative/) walks through when the free tier stops paying off.
 
 ### 5. Pylon
-US residential proposal-led tool. Per-feature pricing.
+US residential proposal-led tool. Per-feature pricing. More detail in the [Pylon alternative comparison](/blog/pylon-alternative/).
 
 ### 6. Solargraf
-Residential proposal templates, Enphase-owned.
+Residential proposal templates, Enphase-owned. See the [Solargraf alternative review](/blog/solargraf-alternative/) for the full picture.
 
 ### 7. SAM Online (NREL beta)
 Free research tool, not production-grade.
@@ -85,12 +86,12 @@ Free research tool, not production-grade.
 
 1. **Build the 3D site model** from address in seconds
 2. **Auto-layout** modules with code-aware setbacks
-3. **Run 8,760-hour module-level shading**
-4. **Produce bankable P50, P75, P90** yield reports
-5. **Tie into a financial model** with country tariffs
-6. **Export AutoCAD** plans and single-line diagrams
-7. **Generate branded proposals** with e-signature
-8. **Hand off to a CRM** for sales workflow
+3. **Run 8,760-hour module-level [shading analysis](/glossary/shading-analysis/)**
+4. **Produce bankable [P50, P75, P90](/glossary/p50-p90/)** yield reports
+5. **Tie into a [financial model](/blog/solar-financial-modeling-software/)** with country tariffs
+6. **Export AutoCAD** plans and [single-line diagrams](/glossary/single-line-diagram/)
+7. **Generate [branded proposals](/blog/solar-proposal-software/)** with e-signature
+8. **[Hand off to a CRM](https://quickestimate.co/features/pipeline-management/)** for sales workflow
 
 SurgePV ships all eight. Most alternatives miss two or more.
 

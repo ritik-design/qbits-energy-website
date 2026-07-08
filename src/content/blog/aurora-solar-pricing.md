@@ -4,6 +4,7 @@ excerpt: "Aurora Solar costs $159 to $259 per user per month before AI Mode and 
 description: "Aurora Solar pricing in 2026 broken down: plan costs, AI Mode and Sales Mode add-ons, hidden extras, and the SurgePV alternative. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/aurora-solar-pricing.svg"
 author: "Nirav Dhanani"
@@ -31,7 +32,7 @@ faqs:
     a: "Book a free SurgePV demo, run a 4-to-6-week parallel migration, and cancel Aurora at renewal. Most teams hit project parity within a week of starting the SurgePV free trial. AI 3D roof modeling rebuilds site geometry from satellite in seconds, so the engineering setup phase is fast."
 ---
 
-Aurora Solar's published pricing sits in the upper band of the solar design software market. This guide breaks down every plan and add-on, names the hidden costs, and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat $1,299 to $1,899 per user per year.
+Aurora Solar's published pricing sits in the upper band of the [solar design software](/blog/solar-design-software/) market. This guide breaks down every plan and add-on, names the hidden costs, and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat $1,299 to $1,899 per user per year. For the wider picture beyond price, see our full [Aurora Solar alternative comparison](/blog/aurora-solar-alternative/).
 
 > **TL;DR**
 > - Aurora Solar costs $159 to $259 per user per month ($1,908 to $3,108 per user per year).
@@ -60,11 +61,11 @@ Prices are illustrative, sourced from third-party trackers and public reviews on
 
 ## Hidden Costs to Watch For
 
-1. **AI Mode add-on** ($30 to $50 per user per month). Required for the modern design workflow.
-2. **Sales Mode add-on**. Required for native proposal output. Otherwise you bolt on Solargraf or a separate tool.
+1. **AI Mode add-on** ($30 to $50 per user per month). Required for the modern [AI solar design](/blog/ai-solar-design-software/) workflow.
+2. **Sales Mode add-on**. Required for native proposal output. Otherwise you bolt on [Solargraf](/blog/solargraf-alternative/) or a separate tool.
 3. **Training fees** for new teams. Variable.
 4. **CRM integration** fees. Variable.
-5. **Multi-language proposals** are limited; cross-border teams often need a separate proposal tool.
+5. **Multi-language proposals** are limited; cross-border teams often need a [separate proposal tool](/blog/solar-proposal-software/).
 6. **8,760-hour shading** is tier-gated. Lower tiers ship simplified shading that does not meet bankability bar.
 
 ## Total Cost: Aurora vs SurgePV at Team Size
@@ -81,14 +82,14 @@ Prices are illustrative, sourced from third-party trackers and public reviews on
 - Aurora Mid + AI Mode + Sales Mode: $14,000 to $18,000 per year
 - **SurgePV 5-User Team: $6,495 per year** (all included)
 
-The pattern: SurgePV is between 50 and 65 percent cheaper at each team size, with the same engineering depth and broader country and language coverage. The full [SurgePV pricing](https://surgepv.com/pricing) page lays out every plan.
+The pattern: SurgePV is between 50 and 65 percent cheaper at each team size, with the same engineering depth and broader country and language coverage. The full [SurgePV pricing](https://surgepv.com/pricing) page lays out every plan, and our [solar design software pricing comparison](/blog/solar-design-software-pricing/) benchmarks every major platform side by side.
 
 ## What You Get for Less With SurgePV
 
 - **[AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design)** from satellite in under 60 seconds
 - **[Clara AI](https://surgepv.com/clara-ai)** natural-language design assistant, no AI Mode add-on
 - **[8,760-hour shade analysis](https://surgepv.com/shadow-analysis)** module-level on every paid plan
-- **[Bankable yield reports](https://surgepv.com/generation-financial-tool)** with P50, P75, P90
+- **[Bankable yield reports](https://surgepv.com/generation-financial-tool)** with [P50, P75, P90](/glossary/p50-p90/) confidence bands
 - **[DXF/DWG export](https://surgepv.com/solar-autocad-integration)** for AutoCAD handoff
 - **[Branded solar proposals](https://surgepv.com/solar-proposals)** with e-signature in 9 languages, no Sales Mode add-on
 - **[QuickEstimate](https://quickestimate.co/)** as the sister CRM, API handoff
@@ -110,7 +111,7 @@ The pattern: SurgePV is between 50 and 65 percent cheaper at each team size, wit
 
 ## Verdict on Aurora Solar Pricing
 
-Aurora is a strong product, especially for US-residential teams already on the upper tier. But the published per-seat pricing plus required add-ons creates a total annual cost that is hard to justify against flat-priced platforms like SurgePV which ship the same engineering depth, the AI assistant, and the proposal stack at $1,299 to $1,899 per user per year. For most teams in 2026, the cost math points toward SurgePV.
+Aurora is a strong product, especially for US-residential teams already on the upper tier. But the published per-seat pricing plus required add-ons creates a total annual cost that is hard to justify against flat-priced platforms like SurgePV which ship the same engineering depth, the AI assistant, and the proposal stack at $1,299 to $1,899 per user per year. For most teams in 2026, the cost math points toward SurgePV. If HelioScope is also on your shortlist, read our [Aurora vs HelioScope comparison](/blog/aurora-vs-helioscope/); if OpenSolar's free tier is tempting, check [Aurora vs OpenSolar](/blog/aurora-vs-opensolar/) before committing, or browse the full [best solar design software ranking](/blog/best-solar-design-software/) for the complete 2026 picture. Teams that also want a dedicated [solar quotation and proposal workflow](https://quickestimate.co/features/quotation-system/) downstream of the design often pair SurgePV with QuickEstimate for the sales handoff.
 
 <div class="inline-cta">
 <h3>Ready to see the cost math on your team?</h3>

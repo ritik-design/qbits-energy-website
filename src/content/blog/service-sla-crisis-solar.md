@@ -4,6 +4,7 @@ excerpt: "India's solar service SLA crisis is real: average fault resolution tak
 description: "A founder's perspective on India's solar after-sales service gap, no declared SLAs, 3–8 week resolution times, and why MNRE must mandate service standards before consumer trust collapses."
 category: "Industry"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-inverter-downtime.svg"
 author: "Nirav Dhanani"
@@ -46,6 +47,14 @@ That message is not unusual. I hear versions of it every week. And as someone bu
 
 This is a founder's view. I am not writing this as a neutral observer. I am writing it because fixing this problem is the only way the Indian solar industry earns the trust it needs to reach the government's 2030 targets, and because we at Qbits are putting our money where this argument is by building the service infrastructure to back it up.
 
+> **TL;DR**
+> - Average solar inverter fault resolution in India takes 3-8 weeks, and most brands publish no declared, binding service SLA.
+> - Tier-2/3 cities, which account for the majority of PM Surya Ghar installations, often sit 300 km from the nearest service support.
+> - A 6-week downtime event on a 5 kW residential system costs ₹18,000-₹28,000 once lost generation, continued DISCOM billing, and loan EMIs are combined.
+> - The proposed 5-Gate Solar Service SLA Standard sets 2-hour ticket acknowledgement, 72-hour on-site visits, and 7-day system restoration with a generation credit for breaches.
+> - MNRE currently mandates BIS, IEC, and ALMM product standards but no after-sales service performance standard.
+> - Qbits has committed to a declared 72-hour RMA SLA, WhatsApp-first fault logging, and a 280-city service partner network with regional spare-parts inventory.
+
 ## The Scale of the Problem: What the Numbers Actually Show
 
 The Indian rooftop solar market has crossed 18 GW of cumulative capacity, according to [Mercom India's Q1 2026 market report](https://www.mercomindia.com/). With an average system size of 4–5 kW for residential installations, that is roughly 3.5–4 million active rooftop systems. If even 3% of those systems experience a fault in any given year (a conservative figure given India's grid instability and monsoon conditions) that is over 100,000 service events annually. [JMK Research's rooftop solar deployment tracker](https://jmkresearch.com/) confirms that residential installations now account for over 45% of cumulative rooftop capacity, making residential service the single largest segment of unmet demand.
@@ -86,7 +95,7 @@ But that is only the visible cost. The hidden costs are larger and they hit the 
 
 - **Continued DISCOM billing**: the electricity connection to the property remains active regardless of whether the solar system is generating. The homeowner receives a full consumption bill during the downtime period. For a household that was generating 60–70% of its consumption from solar, a 6-week downtime event means 6 weeks of near-full grid bills, an additional ₹4,000–₹8,000 on top of normal post-solar costs.
 - **Loan EMI continues**: 40–60% of new residential solar installations in India are financed, per [Bridge to India's India Solar Rooftop Market Outlook](https://bridgetoindia.com/). The EMI on a ₹2.5 Lakh system financed at 9% over 7 years is approximately ₹3,800 per month, payable whether the system generates or not.
-- **Installer reputational damage**: every referral the installer loses during the downtime period is a compounding cost that does not appear on any balance sheet. In the Indian solar market, where word-of-mouth drives 60–70% of residential sales conversions, a single 6-week downtime event can cost the installer 3–5 prospective sales.
+- **Installer reputational damage**: every referral the installer loses during the downtime period is a compounding cost that does not appear on any balance sheet, one that feeds directly into the [unit economics of an Indian solar installer](/blog/unit-economics-indian-solar-installer/). In the Indian solar market, where word-of-mouth drives 60–70% of residential sales conversions, a single 6-week downtime event can cost the installer 3–5 prospective sales.
 - **Net metering credit erosion**: systems with active net metering connections cannot export units during downtime, eroding the net metering credit balance that homeowners depend on to offset night-time consumption. In states with monthly settlement cycles, a full month of downtime can eliminate the credit buffer for that billing cycle entirely.
 
 The full economic cost of a 6-week downtime event on a 5 kW residential system (combining lost savings, continued DISCOM billing, continued loan EMI, and foregone net metering credits) runs to ₹18,000–₹28,000 in the affected period. That is equivalent to 7–10% of the original system cost, incurred in a single failure event. [IRENA's 2025 report on distributed solar finance](https://www.irena.org/) notes that the payback period sensitivity to downtime events is significantly underestimated in most project financial models in emerging markets.
@@ -175,7 +184,7 @@ The growth of the Indian solar market depends on homeowner trust. Homeowner trus
 
 ## Where the EPC Installer Fits: Choosing a Brand That Backs You
 
-For EPC installers reading this, the after-sales service SLA is not just a homeowner problem, it is your problem. When an inverter fails and the brand does not respond, the homeowner calls you. Your reputation is the first one damaged. Your relationship is the first one strained.
+For [EPC installers](https://heavengreenenergy.com/solar-epc/) reading this, the after-sales service SLA is not just a homeowner problem, it is your problem. When an inverter fails and the brand does not respond, the homeowner calls you. Your reputation is the first one damaged. Your relationship is the first one strained.
 
 Before committing your next project to any brand, apply this checklist:
 
@@ -206,7 +215,7 @@ Qbits has declared a 72-hour RMA SLA from ticket approval to replacement unit di
 
 We built this infrastructure before we had the volume to justify it economically, because we believe the service model has to be built first, before the installs, not after. Building service infrastructure reactively (scaling up call centres and technicians after the installed base breaks) is how the industry got into the current crisis.
 
-The 12-year full replacement warranty is the other side of this commitment. A replacement warranty only makes sense if you have the logistics infrastructure to back it up. A repair warranty (which is what most brands offer) is a concession that the brand cannot reliably dispatch a replacement unit within a service-relevant timeframe.
+The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) is the other side of this commitment. A replacement warranty only makes sense if you have the logistics infrastructure to back it up. A repair warranty (which is what most brands offer) is a concession that the brand cannot reliably dispatch a replacement unit within a service-relevant timeframe.
 
 When you are comparing brands for your next project or your next installation, look at three things: do they have a declared SLA in writing, do they have service infrastructure in your geography, and does their warranty promise replacement or repair. Those three questions separate brands that are serious about after-sales from brands that are hoping you will not have a problem.
 

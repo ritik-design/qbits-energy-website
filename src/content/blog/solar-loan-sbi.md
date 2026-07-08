@@ -4,6 +4,7 @@ excerpt: "The SBI solar loan (Surya Shakti Solar Finance) offers up to 7-year te
 description: "SBI solar loan guide for Indian homeowners: Surya Shakti scheme rates (9–11%), eligibility, 7 documents checklist, EMI table, and comparison with IREDA and private banks."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/inverter-financing-options-in-india.svg"
 author: "Akash Hirapara"
@@ -41,6 +42,14 @@ The answer is yes, through a product called SBI Surya Shakti Solar Finance. This
 > **Direct answer.** The SBI solar loan, known as Surya Shakti Solar Finance, offers Indian homeowners a tenure of up to 7 years at approximately 9–11% per annum. Eligibility requires property ownership, a CIBIL score of 700 or above, and income proof. Register on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) before applying, the DISCOM sanction letter from that process is a mandatory document at the bank.
 
 The SBI solar loan sits at the intersection of two government priorities: expanding rooftop solar capacity and deepening financial inclusion. That intersection is why the [PM Surya Ghar Muft Bijli Yojana](/blog/pm-surya-ghar-yojana-complete-guide/) named SBI as a preferred lending partner, the bank's 22,000+ branch network means most Indian homeowners can access this financing without travelling to a state capital.
+
+> **TL;DR**
+> - SBI Surya Shakti Solar Finance offers up to 7-year tenure at roughly 9-11% interest, MCLR-linked, with up to 90% loan-to-value.
+> - Eligibility needs property ownership, CIBIL 700+, and income proof; the DISCOM sanction letter from PM Surya Ghar registration is a mandatory document.
+> - Seven documents are required: Aadhaar, PAN, income proof, electricity bill, property documents, DISCOM sanction letter, and an ALMM-empanelled vendor quotation.
+> - On a 3 kW system, the post-subsidy loan amount is around ₹1,02,000, with EMI (7-year) of about ₹1,626/month against an estimated ₹2,000 monthly bill saving.
+> - SBI's rate (9-11%) sits between IREDA's lower 8-9.5% and private banks' 10.5-14%, but SBI's branch reach and PM Surya Ghar tie-up make it the most accessible default for most homeowners.
+> - The PM Surya Ghar subsidy arrives after installation, so it should be used as a principal prepayment, not treated as a down payment.
 
 ## What Is the SBI Surya Shakti Solar Finance Scheme
 
@@ -117,7 +126,7 @@ The application journey has five distinct stages. Understanding what happens at 
 
 - **Step 2: Obtain DISCOM sanction letter**: After portal registration, your DISCOM inspects the connection feasibility and issues a technical sanction for net metering. This takes 7–15 working days in most states. Do not visit the bank before you have this letter in hand.
 
-- **Step 3: Get a vendor quotation**: Obtain a written quotation from an ALMM-empanelled installer. The quotation must include the system size, component specifications, and a line-by-line cost breakdown. Confirm that the inverter is ALMM-listed, this is mandatory for PM Surya Ghar subsidy eligibility. Learn about [ALMM-listed products](/blog/almm-list-phase-iii-guide/) to understand what qualifies.
+- **Step 3: Get a vendor quotation**: Obtain a [formal, itemised quotation](https://quickestimate.co/features/quotation-system/) from an ALMM-empanelled installer. The quotation must include the system size, component specifications, and a line-by-line cost breakdown. Confirm that the inverter is ALMM-listed, this is mandatory for PM Surya Ghar subsidy eligibility. Learn about [ALMM-listed products](/blog/almm-list-phase-iii-guide/) to understand what qualifies.
 
 - **Step 4: Visit SBI branch and submit the application**: Carry all seven documents from the checklist above. Visit the branch nearest to the installation property. The loan officer will conduct a preliminary assessment, collect documents, and initiate the credit appraisal. An existing SBI account holder can also start the preliminary application online via YONO and visit the branch only for document submission.
 
@@ -125,7 +134,7 @@ The application journey has five distinct stages. Understanding what happens at 
 
 ## EMI Estimates: What the SBI Solar Loan Costs Each Month
 
-The table below models monthly EMI at 10% per annum (mid-range of the 9–11% band) across three common system sizes and two tenure options. EMI values are approximate and should be confirmed with an amortisation calculator at the time of application.
+The table below models monthly EMI at 10% per annum (mid-range of the 9–11% band) across three common system sizes and two tenure options. EMI values are approximate and should be confirmed with an amortisation calculator at the time of application; you can also cross-check the underlying system cost and savings assumptions with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) before finalising your loan amount.
 
 | System size | Approx. system cost | Post-subsidy loan amount | 5-year EMI | 7-year EMI | Monthly bill saving (est.) | Net monthly outflow |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -236,6 +245,6 @@ Getting the loan approved is step one. Getting the full financial value out of t
 
 - **Understand payback period vs loan tenure**: The [solar inverter payback period](/blog/solar-inverter-payback-period-in-india/) for a 3–5 kW system in India typically ranges from 4–6 years at current electricity tariffs. This means the system pays for itself before the 7-year loan ends, creating a period of pure surplus generation during the final 1–3 years of the loan tenure.
 
-- **Claim accelerated depreciation if self-employed**: Self-employed professionals and business owners who install solar at a property used partly for business can claim 40% accelerated depreciation in the first year under the Income Tax Act, significantly reducing the effective cost of the installation. Consult a chartered accountant to confirm eligibility.
+- **Claim accelerated depreciation if self-employed**: Self-employed professionals and business owners who install solar at a property used partly for business can claim 40% [accelerated depreciation](/glossary/accelerated-depreciation/) in the first year under the Income Tax Act, significantly reducing the effective cost of the installation. Consult a chartered accountant to confirm eligibility.
 
 The intersection of a subsidised government scheme, a low-interest SBI loan, net metering income, and accelerated depreciation is where the financial case for residential solar becomes genuinely compelling, not just in theory, but on an actual monthly cash flow basis.

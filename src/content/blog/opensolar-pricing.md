@@ -4,6 +4,7 @@ excerpt: "OpenSolar starts free, but hardware integrations, proposal extensions,
 description: "OpenSolar pricing in 2026: free tier limits, paid extensions, hardware fees, and realised total cost vs SurgePV flat per-seat. Compare plans now."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "9 min"
 image: "/blog-images/opensolar-pricing.svg"
 author: "Nirav Dhanani"
@@ -31,7 +32,7 @@ faqs:
     a: "Book a free SurgePV demo, run a 4-week parallel migration, and drop the OpenSolar add-ons once your team is comfortable. SurgePV's AI 3D from satellite rebuilds site geometry in seconds, so the engineering setup phase is fast."
 ---
 
-OpenSolar leads with a free tier and funds the business with hardware-routed integrations and paid extensions. This guide breaks down the real cost math and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat per-seat pricing.
+OpenSolar leads with a free tier and funds the business with hardware-routed integrations and paid extensions. This guide breaks down the real cost math and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat per-seat pricing. For the feature-by-feature comparison, see our [OpenSolar alternative guide](/blog/opensolar-alternative/) and the broader [solar design software pricing roundup](/blog/solar-design-software-pricing/).
 
 > **TL;DR**
 > - OpenSolar entry tier is free. Add-ons stack quickly at C&I and on advanced residential.
@@ -58,13 +59,13 @@ OpenSolar does not publish a single seat-based price for the full feature set. T
 
 ## What Is Limited in the Free Tier
 
-- Simplified shading model, not full 8,760-hour module-level
-- No bankable P50, P75, P90 yield reports
+- Simplified [shading analysis](/glossary/shading-analysis/) model, not full 8,760-hour module-level
+- No bankable [P50, P75, P90](/glossary/p50-p90/) yield reports
 - Limited multi-country code coverage
-- Advanced proposal templates behind paid add-ons
+- Advanced proposal templates behind paid add-ons, a gap covered in our [solar proposal software guide](/blog/solar-proposal-software/)
 - Hardware integrations routed through OpenSolar's partners
 
-For full [PV simulation](https://surgepv.com/solar-simulation-software), [bankable yield reports](https://surgepv.com/generation-financial-tool), and a hardware-neutral database, SurgePV's flat plan is the typical upgrade path.
+For full [PV simulation](https://surgepv.com/solar-simulation-software), [bankable yield reports](https://surgepv.com/generation-financial-tool), and a hardware-neutral database, SurgePV's flat plan is the typical upgrade path, the same methodology detailed in our [PV yield simulation software guide](/blog/pv-yield-simulation-software/).
 
 ## Realised Cost: a Real Installer Math
 
@@ -87,8 +88,8 @@ At every team size past pure solo small-residential, SurgePV's flat plan matches
 
 ## What You Get for the Same or Less With SurgePV
 
-- **[AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design)** from satellite in under 60 seconds
-- **[Clara AI](https://surgepv.com/clara-ai)** natural-language design assistant
+- **[AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design)** from satellite in under 60 seconds, the technique covered in our [satellite roof measurement guide](/blog/satellite-roof-measurement-solar/)
+- **[Clara AI](https://surgepv.com/clara-ai)** natural-language design assistant, part of the broader shift covered in [AI solar design software](/blog/ai-solar-design-software/)
 - **Full 8,760-hour module-level shading** on every paid plan
 - **Bankable P50, P75, P90** yield reports
 - **Hardware-neutral** 70,000-module, 12,000-inverter database

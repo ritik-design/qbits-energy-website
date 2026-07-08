@@ -4,6 +4,7 @@ excerpt: "Solar inverter keeps turning off in India? Find the cause fast, grid v
 description: "Fix a solar inverter that keeps switching off in India. Diagnose grid voltage trips, overtemperature shutdowns, anti-islanding, overload faults, and when to call installer."
 category: "Maintenance"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "11 min"
 image: "/blog-images/solar-inverter-failure.svg"
 author: "Keyur Rakholiya"
@@ -32,6 +33,14 @@ faqs:
 
 Your solar inverter starts up in the morning, generates power for a few hours, then switches off. Half an hour later it restarts automatically, generates for an hour, then trips again. By evening you have lost hours of potential generation to repeated cycling, and you are not sure whether this is a serious fault or a normal protective response.
 
+> **TL;DR**
+> - Four causes explain almost every repeated trip: grid voltage outside the 180-270 V range (most common), over-temperature shutdown, anti-islanding trips during power cuts, and overload from high-inrush loads.
+> - A trip that auto-restarts after roughly 5 minutes is usually a correct protective response to the grid, not a hardware fault.
+> - Anti-islanding trips during DISCOM power cuts are mandatory and correct under IEC 62116; they are not a malfunction.
+> - Cleaning dust-blocked cooling vents resolves 40-50% of over-temperature shutdown cases.
+> - The monitoring app's event log, cross-referenced with voltage, temperature, and power readings at the trip timestamp, pinpoints the cause in about 3 minutes.
+> - More than 10 trips per day, or a trip that does not auto-restart, warrants a call to your installer.
+
 This is one of the most anxiety-inducing solar system behaviours for Indian homeowners, and one of the most misdiagnosed. The good news is that a solar inverter that keeps switching off is almost always reacting correctly to an external condition. Understanding which condition is causing the trip tells you exactly what to fix.
 
 > **Direct answer.** A solar inverter that keeps switching off in India has four primary causes: grid voltage outside the 180–270 V operating range (most common), over-temperature shutdown from inadequate ventilation, anti-islanding trips during utility power cuts, and overload from high-inrush loads. Each cause has a distinct signature in the monitoring app and a specific fix.
@@ -48,11 +57,11 @@ Before diagnosing, clarify what the inverter is actually doing:
 | Trips off when a specific appliance is switched on | Overload trip | Monitoring app AC power spike |
 | Trips off at the same time each day (summer) | Over-temperature shutdown | Inverter temperature log |
 | Trips off during every DISCOM power cut | Anti-islanding - normal and mandatory | No action needed; confirm with app log |
-| Trips off and stays off | Hardware fault or persistent grid issue | Contact installer |
+| Trips off and stays off | [Hardware fault](/blog/solar-inverter-failure/) or persistent grid issue | Contact installer |
 
 ## Cause 1: Grid Voltage Out of Range (Most Common in India)
 
-The single most common cause of repeated solar inverter trips in India is grid voltage that falls outside the inverter's permitted operating range: 180 V at the lower end and 270 V (or 253 V for stricter IEC compliance) at the upper end.
+The single most common cause of repeated solar inverter trips in India is grid [voltage](/glossary/voltage/) that falls outside the inverter's permitted operating range: 180 V at the lower end and 270 V (or 253 V for stricter IEC compliance) at the upper end.
 
 ### Under-Voltage Trips (Below 180 V)
 
@@ -86,7 +95,7 @@ Solar inverters in India face thermal conditions that are among the most demandi
 
 ### The Over-Temperature Diagnosis Framework
 
-1. **Check the monitoring app temperature log:** Most modern inverters report their internal temperature continuously. Plot the temperature curve against the trip times. If temperature rises above 65–70 °C at the trip time, thermal derating and eventual shutdown is the cause.
+1. **Check the monitoring app temperature log:** Most modern inverters report their internal temperature continuously. Plot the temperature curve against the trip times. If temperature rises above 65–70 °C at the trip time, thermal derating and eventual shutdown is the cause. The [inverter overheating guide](/blog/inverter-overheating/) covers the full diagnostic and prevention framework for this fault type.
 
 2. **Check the installation environment:** Walk to the inverter during the hottest part of the day (around 2 PM in summer). Is the ambient air temperature around the inverter significantly higher than the surrounding area? Metal sheds, enclosed meter rooms without ventilation, and south-facing walls with no shade can create micro-climates 15–25 °C hotter than open air.
 
@@ -101,7 +110,7 @@ Solar inverters in India face thermal conditions that are among the most demandi
 
 ## Cause 3: Anti-Islanding Trips During Power Cuts
 
-If your inverter trips every time the DISCOM cuts power (and restarts reliably once power returns) you are experiencing anti-islanding protection functioning correctly. This is not a fault.
+If your inverter trips every time the DISCOM cuts power (and restarts reliably once power returns) you are experiencing [anti-islanding](/glossary/anti-islanding/) protection functioning correctly. This is not a fault.
 
 [IEC 62116](https://www.iec.ch/){target="_blank" rel="noopener"} and the [Central Electricity Regulatory Commission](https://cerc.gov.in/){target="_blank" rel="noopener"} grid code require all grid-connected inverters in India to disconnect within 2 seconds of detecting a grid outage. The reason is safety: solar panels continue generating DC even during a grid outage, and if the inverter were to continue feeding AC into the grid, it could electrocute a lineman working on what they believe to be a de-energised distribution line.
 
@@ -167,11 +176,15 @@ Not every inverter shutdown requires a site visit. Understanding the boundary be
 - Overload trips that require load management planning or inverter configuration changes
 - The inverter does not restart automatically after a grid-voltage trip (potential hold-time misconfiguration)
 
+If you no longer have an active installer relationship, [find a local solar installer](https://heavengreenenergy.com/solar-near-me/) who can carry out the site inspection.
+
 **Call immediately, do not wait:**
 - Trips accompanied by an unfamiliar fault code not in the error code table
 - Any shutdown accompanied by unusual smells, sounds, or visible component damage
 - Trips on a warranty-covered unit where the installer is unresponsive
 - Trips that started after a lightning event or a particularly severe power surge
+
+For any of these urgent scenarios, the [72-hour action plan for a failed solar inverter](/blog/solar-inverter-failure-action/) walks through the diagnosis, escalation, and warranty-claim sequence step by step.
 
 The [Central Electricity Authority (CEA)](https://cea.nic.in/){target="_blank" rel="noopener"} Technical Standards for Connectivity of Distributed Generation Resources require that any protective trip outside defined grid parameters be investigated and documented by a competent person, this is a compliance obligation, not a suggestion. For Qbits inverters, the AI WhatsApp monitoring system logs every trip event and its associated parameter readings, allowing our service team to diagnose the root cause remotely from the event log without a site visit in most cases. [Talk to a Qbits engineer](/contact-us/) if your current inverter's service response has been inadequate. Homeowners dealing with grid voltage issues can also review the [solar inverter low output causes guide](/blog/solar-inverter-low-output-causes-india/) to understand how voltage fluctuations reduce generation even on non-trip days.
 

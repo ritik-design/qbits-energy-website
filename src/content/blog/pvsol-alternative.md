@@ -4,6 +4,7 @@ excerpt: "PV*SOL is a strong German desktop simulator but locks you into Windows
 description: "Compare 6 best PV*SOL alternatives in 2026. SurgePV vs PV*SOL on browser workflow, shading, bankable yield, multi-country tariffs. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/pvsol-alternative.svg"
 author: "Nirav Dhanani"
@@ -51,7 +52,7 @@ If you are looking for a PV*SOL alternative in 2026, you are most likely a desig
 PV*SOL is a Windows-desktop application. Mac and Linux users either dual-boot or skip it. SurgePV is browser-based on any modern device.
 
 ### Regional scope
-PV*SOL is strongest in Germany and central Europe. Multi-country tariff and code coverage outside that region is light. SurgePV ships NEC, IEC, AS/NZS, IS code libraries with PM Surya Ghar, SREC, FiT, and Einspeisevergütung tariffs out of the box.
+PV*SOL is strongest in Germany and central Europe. Multi-country tariff and code coverage outside that region is light. SurgePV ships NEC, IEC, AS/NZS, IS code libraries with [PM Surya Ghar](/glossary/pm-surya-ghar/), SREC, [FiT](/glossary/feed-in-tariff/), and Einspeisevergütung tariffs out of the box.
 
 ### Missing proposal and financial stack
 PV*SOL stops at the simulation output. SurgePV ships [solar financial modeling](https://surgepv.com/generation-financial-tool), [branded solar proposals](https://surgepv.com/solar-proposals), and bankable yield in the same project.
@@ -62,7 +63,7 @@ PV*SOL stops at the simulation output. SurgePV ships [solar financial modeling](
 | --- | --- | --- |
 | Browser, cloud-based | Yes | No, Windows desktop |
 | 8,760-hour module-level shading | Included all plans | Yes |
-| Bankable P50 / P75 / P90 | Included | Yes |
+| Bankable [P50 / P75 / P90](/glossary/p50-p90/) | Included | Yes |
 | AI 3D roof from satellite | Included all plans | Limited |
 | Multi-country code library | NEC, IEC, AS/NZS, IS | Europe focus |
 | White-label web proposals | Included | Limited |
@@ -92,19 +93,19 @@ PV*SOL stops at the simulation output. SurgePV ships [solar financial modeling](
 ### 1. SurgePV: All-in-One Pick
 Browser-based, multi-country, full design-to-proposal stack.
 
-### 2. PVsyst
+### 2. [PVsyst](/blog/pvsyst-alternative/)
 Desktop bankable simulator, Windows-only, single-seat.
 
-### 3. HelioScope
+### 3. [HelioScope](/blog/helioscope-alternative/)
 Browser simulation, $99 to $300+ per user per month.
 
 ### 4. SAM
 Free research tool, not production EPC.
 
-### 5. Aurora Solar
+### 5. [Aurora Solar](/blog/aurora-solar-alternative/)
 US residential focus.
 
-### 6. QuickEstimate
+### 6. [QuickEstimate](https://quickestimate.co/)
 Sister CRM, pairs cleanly with SurgePV.
 
 ## Pricing

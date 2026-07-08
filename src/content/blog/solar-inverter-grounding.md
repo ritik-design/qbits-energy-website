@@ -35,9 +35,17 @@ faqs:
     a: "Poor grounding accelerates PID significantly. When module frames are inadequately grounded, voltage potential can develop between the cell layer and the frame, causing ion migration that degrades panel output over years - typically 5-15% additional generation loss beyond normal degradation. Quality grounding with frame earthing and proper inverter topology prevents this degradation mechanism. This is one of the most underweighted reasons why proper grounding directly affects long-term ROI."
   - q: "What testing should be done at commissioning to verify proper grounding?"
     a: "Six tests minimum: (1) Earth resistance measurement at the main earth electrode - below 5 ohms. (2) Continuity testing across all earthed components - inverter chassis, module frames, mounting structures, combiner boxes, SPDs all bonded together. (3) Insulation resistance between DC strings and ground - above 1 megohm. (4) AC neutral-to-earth voltage measurement - should be near zero. (5) ISO/IMD functionality verification on transformerless inverters. (6) Visual inspection of all earth connection torque and corrosion protection. Document all six tests with measured values and photographic evidence in the commissioning report."
+updatedDate: 2026-07-08
 ---
 
 Proper inverter grounding is essential for solar PV installations in India - protecting both equipment and personnel while ensuring regulatory compliance with Indian electrical standards. Inadequate grounding is one of the most common causes of preventable inverter failures, the easiest installation issue to get wrong, and the single most common reason for warranty claim rejections.
+
+> **TL;DR**
+> - [Earthing](/glossary/earthing/) protects personnel and equipment; grounding establishes the neutral voltage reference - both are mandatory and governed by IS 3043:2018 and CEA Regulations 2013.
+> - Target earth resistance is below 5 ohms (preferably below 1 ohm for commercial sites), with copper conductors mandatory in corrosive coastal zones instead of galvanised iron.
+> - Most modern transformerless inverters use a floating DC input with grounded AC neutrals, requiring an Insulation Monitoring Device (IMD) to detect DC-side faults.
+> - Poor grounding is a documented reason manufacturers reject warranty claims, and it accelerates Potential Induced Degradation (PID), causing 5-15% additional panel output loss over time.
+> - Six tests - earth resistance, continuity, insulation resistance, ISO/IMD function, AC neutral-to-earth voltage, and visual inspection - must be documented at commissioning with photographic evidence.
 
 This guide consolidates the complete EPC grounding framework: earthing and grounding fundamentals, the governing standards (IS 3043:2018, CEA Regulations 2013, IEC 62305), conductor sizing and electrode design, AC vs DC grounding in modern inverters, SPD integration for surge resilience, hybrid system specific requirements, testing protocols at commissioning, the 8 common mistakes that void warranties, and the compliance checklist that protects both safety and ROI.
 
@@ -47,7 +55,7 @@ This guide consolidates the complete EPC grounding framework: earthing and groun
 
 | Term | Definition | Purpose |
 | --- | --- | --- |
-| **Earthing** | Connects non-current-carrying metal parts (chassis, frames, structures) to ground | Personnel safety - diverts fault current safely |
+| **[Earthing](/glossary/earthing/)** | Connects non-current-carrying metal parts (chassis, frames, structures) to ground | Personnel safety - diverts fault current safely |
 | **Grounding** | Intentional connection of neutral conductors to ground | Voltage reference for protective devices |
 
 Both are required in any solar installation. The terms are often used interchangeably in Indian practice but the distinction matters for IS 3043 compliance and warranty defence.

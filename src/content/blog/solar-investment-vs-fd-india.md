@@ -4,6 +4,7 @@ excerpt: "Solar vs FD investment in India: solar delivers IRR of 18–22% vs FD'
 description: "Compare solar investment vs fixed deposit in India. Solar IRR of 18–22% beats FD at 7.5%, but liquidity, risk, and tenure differ. Full financial model and decision guide."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
 author: "Akash Hirapara"
@@ -40,6 +41,14 @@ This guide does the maths honestly. Solar wins on return. FD wins on liquidity. 
 
 The comparison is not purely about rate of return. Solar is illiquid, maintenance-dependent, location-specific, and irreversible in the short run. FDs are liquid, zero-maintenance, portable, and breakable in 24 hours. Understanding both sides honestly leads to a better decision than simply chasing the higher number.
 
+> **TL;DR**
+> - A 3 kW solar system delivers an IRR of roughly 18–22% versus an FD's 7.5% pre-tax (about 5.25% post-tax in the 30% bracket).
+> - Post-subsidy net capex of ₹1,02,000 (after the ₹78,000 PM Surya Ghar subsidy) brings simple payback to 3.5–5 years on a 25-year asset.
+> - Solar savings are not taxed as income; FD interest is fully taxable, widening the effective return gap further.
+> - Rising electricity tariffs (5–7% annually) push solar's effective return up over time; FD returns are fixed at the contracted rate.
+> - FD wins on liquidity, breakable in 24–48 hours versus solar's 5+ year illiquid horizon, and carries DICGC insurance up to ₹5 Lakh.
+> - A hybrid approach, part solar and part FD, balances higher returns with emergency liquidity for households that need both.
+
 ## The Base Case: ₹3,00,000 Invested: Solar vs FD
 
 Fix the amount at ₹3,00,000, a round number representing either a meaningful FD or a post-subsidy solar investment for a 3–5 kW rooftop system. Both scenarios start with the same cash outgo on Day 1.
@@ -74,7 +83,7 @@ The FD's headline 7.5% becomes roughly 5.25% post-tax in the highest bracket. Fo
 | IRR over 25 years (₹8/unit) | ~22% |
 | IRR over 25 years (₹6/unit) | ~16% |
 
-Note: The IRR calculation uses net capex of ₹1,02,000 (post-subsidy) against 25 years of annual electricity savings. Even at conservative ₹6/unit savings, solar beats FD's 7.5% headline rate.
+Note: The [IRR](/glossary/irr/) calculation uses net capex of ₹1,02,000 (post-subsidy) against 25 years of annual electricity savings. Even at conservative ₹6/unit savings, solar beats FD's 7.5% headline rate. Running the numbers on your own roof size and tariff is easier with a dedicated [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) rather than a spreadsheet built from scratch.
 
 > **₹43,800.** Estimated annual electricity savings from a 3 kW solar system generating 5,475 kWh per year at ₹8 per unit, approximately 1.95× the ₹22,500 annual income from a ₹3,00,000 FD at 7.5%. *Source - [MNRE Solar Resource Atlas](https://mnre.gov.in/), 2025.*
 
@@ -95,7 +104,7 @@ Apply this framework to your numbers: your electricity tariff, your tax bracket,
 
 The advantages of solar over FD go beyond raw IRR:
 
-- **Inflation protection**: electricity tariffs rise; FD rates are locked or reset at lower levels in a low-rate environment. Solar locks in free electricity at tomorrow's tariff.
+- **Inflation protection**: [electricity tariffs](/glossary/tariff/) rise; FD rates are locked or reset at lower levels in a low-rate environment. Solar locks in free electricity at tomorrow's tariff, a trend covered in [electricity tariff hikes in 2026](/blog/electricity-tariff-hikes-solar/).
 - **Tax-free savings**: residential electricity savings are not counted as taxable income. FD interest is fully taxable.
 - **Property value uplift**: a solar-equipped home commands a premium at resale. This is increasingly true in metro markets where buyers are energy-cost-aware.
 - **Environmental benefit**: 3 kW of solar displaces approximately 5–7 tonnes of CO₂ per year, relevant for households that value ESG alignment. [IEA data on India's grid emission factor](https://www.iea.org/countries/india) confirms the grid runs at approximately 0.86 kgCO₂/kWh, making rooftop solar one of the highest-impact personal carbon reduction actions available to Indian homeowners.

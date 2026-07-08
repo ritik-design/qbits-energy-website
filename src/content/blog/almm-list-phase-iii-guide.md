@@ -4,6 +4,7 @@ excerpt: "The ALMM list determines which inverters qualify for PM Surya Ghar sub
 description: "Complete EPC guide to ALMM Phase III: what it covers, how to verify inverter and BOS compliance before quoting, tender implications, and the 5-check compliance checklist."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "18 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Nirav Dhanani"
@@ -34,7 +35,14 @@ faqs:
     a: "In a purely private transaction where the end customer explicitly waives the PM Surya Ghar subsidy and the project involves no government funding, DISCOM tender requirement, or public utility interconnect condition, an EPC can technically install a non-ALMM inverter. However, this creates significant commercial and liability risks. The customer may later seek the subsidy and hold the EPC responsible for disqualification. Insurance and financing providers are increasingly requiring ALMM compliance as a bankability criterion. Most professional EPCs maintain a policy of specifying only ALMM-listed products across all project types to eliminate ambiguity."
 ---
 
-Every EPC in India has faced the same conversation: a client asks why a particular inverter is on your approved vendor list, and the answer ("it has to be ALMM-listed") is met with a blank stare. The Approved List of Models and Manufacturers is not optional paperwork. It is the gate between your client receiving ₹78,000 in PM Surya Ghar subsidy and receiving nothing at all. For EPCs running 20 or more installs per month, an ALMM mis-specification does not just cost one client their subsidy, it damages the EPC's relationship with the local DISCOM, delays commissioning across the portfolio, and triggers procurement firefighting that no project timeline has margin for.
+Every EPC in India has faced the same conversation: a client asks why a particular inverter is on your approved vendor list, and the answer ("it has to be ALMM-listed") is met with a blank stare. The Approved List of Models and Manufacturers is not optional paperwork. It is the gate between your client receiving ₹78,000 in PM Surya Ghar subsidy and receiving nothing at all. For EPCs running 20 or more installs per month, an ALMM mis-specification does not just cost one client their subsidy, it damages the EPC's relationship with the local [DISCOM](/glossary/discom/), delays commissioning across the portfolio, and triggers procurement firefighting that no project timeline has margin for.
+
+> **TL;DR**
+> - ALMM Phase III added inverters, mounting structures, and combiner boxes to a framework that previously covered only modules (Phase I) and extended module types (Phase II).
+> - Non-ALMM equipment forfeits the PM Surya Ghar subsidy and disqualifies government tender bids outright, it is a pass-or-fail technical criterion, not a scoring one.
+> - The 5-Check ALMM Compliance Protocol, live list verification at quote date, model-level (not manufacturer-level) confirmation, a procurement-order clause, a pre-commissioning recheck, and a client contract clause, closes the gaps that cause most rejections.
+> - Systems already commissioned under a valid ALMM listing are grandfathered even if the product is delisted later; only new orders after the delisting date are affected.
+> - Qbits' TLS/TLD on-grid and HS/HT hybrid series are ALMM Phase III listed across 1.5 kW to 100 kW, backed by a 12-year full replacement warranty.
 
 This guide is written for EPC installers who need to understand not just what the ALMM list is, but how to operationalise it across their procurement, quoting, tendering, and contract workflows.
 
@@ -44,7 +52,7 @@ The practical complexity is not in understanding what the list is, it is in mana
 
 ## What the ALMM List Is and Why MNRE Created It
 
-The [ALMM list](/glossary/almm-list/) exists because India's solar industry grew fast enough to attract a volume of substandard and mis-labelled imported equipment that threatened both installation quality and the policy intent behind domestic manufacturing incentives. When the government began offering subsidies for rooftop solar through schemes that later became [PM Surya Ghar Muft Bijli Yojana](/blog/pm-surya-ghar-yojana-complete-guide/), it needed a mechanism to ensure that subsidy money was not funding imported equipment dressed up with domestic labels.
+The [ALMM list](/glossary/almm-list/) exists because India's solar industry grew fast enough to attract a volume of substandard and mis-labelled imported equipment that threatened both installation quality and the policy intent behind [domestic manufacturing incentives](/blog/bcd-import-duty-solar-inverters-india/). When the government began offering subsidies for rooftop solar through schemes that later became [PM Surya Ghar Muft Bijli Yojana](/blog/pm-surya-ghar-yojana-complete-guide/), it needed a mechanism to ensure that subsidy money was not funding imported equipment dressed up with domestic labels.
 
 [MNRE](/glossary/mnre/) published the first iteration of the ALMM framework as a gazette notification establishing that only models from manufacturers meeting specified quality and origin criteria would be eligible for use in government-backed solar programmes. The framework created an approved list that manufacturers must apply to join, with the requirement to demonstrate that their products meet Bureau of Indian Standards specifications, satisfy IEC testing benchmarks, and comply with declared origin rules.
 
@@ -138,7 +146,7 @@ Three practical obligations follow from this language:
 
 - **Substitution provisions**: Many multi-year government contracts include provisions for product substitution if an approved product is discontinued or delisted. Understand these provisions before signing. They typically require MNRE-notified alternatives of equivalent or superior specification, and the substitution must be approved by the tendering authority before procurement.
 
-For EPC teams managing multiple concurrent government project contracts, a formal ALMM compliance register (tracking which projects use which listed products, with ALMM verification dates and responsible team members) is not an administrative luxury. It is the minimum documentation standard that DISCOMs and government auditors expect to see.
+For EPC teams managing multiple concurrent government project contracts, a formal ALMM compliance register (tracking which projects use which listed products, with ALMM verification dates and responsible team members) is not an administrative luxury. It is the minimum documentation standard that DISCOMs and government auditors expect to see. Larger EPCs running MW-scale tender portfolios across multiple sites often pair this register with dedicated [MW-scale EPC project management consultancy](https://heavendesigns.in/mw-scale-project-management-consultancy/) to keep compliance, procurement, and site scheduling synchronised.
 
 The [solar EPC India](/blog/solar-epc-india/) post covers broader EPC business operations, and the [inverter procurement guide](/blog/inverter-procurement-india/) addresses the full procurement framework for inverter selection beyond ALMM, including warranty evaluation and supply chain risk assessment.
 
@@ -173,7 +181,7 @@ For products in your warehouse or in transit at the time of delisting, work with
 
 ## ALMM and PM Surya Ghar: The Subsidy Connection Every EPC Must Understand
 
-The PM Surya Ghar Muft Bijli Yojana is the largest rooftop solar subsidy programme India has ever run. The central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the third kW (capping at ₹78,000 for a 3 kW system) represents a significant portion of system cost for residential buyers. For EPCs, subsidy eligibility is the primary commercial differentiator: a customer who qualifies for the subsidy has a meaningfully better return on investment, a shorter payback period, and a stronger reason to sign the contract.
+The PM Surya Ghar Muft Bijli Yojana is the largest rooftop solar subsidy programme India has ever run. The central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the third kW (capping at ₹78,000 for a 3 kW system) represents a significant portion of [system cost](/blog/gst-on-solar-inverters-2026/) for residential buyers. For EPCs, subsidy eligibility is the primary commercial differentiator: a customer who qualifies for the subsidy has a meaningfully better return on investment, a shorter payback period, and a stronger reason to sign the contract.
 
 The ALMM requirement sits at the centre of this subsidy mechanism. The PM Surya Ghar portal and the DISCOM commissioning inspection process both check ALMM status before subsidy disbursement is triggered. This is not a post-hoc audit, the DISCOM technical feasibility officer will ask about the proposed equipment at the pre-approval stage, and the commissioning officer will verify equipment ALMM status during the site inspection.
 
@@ -181,7 +189,7 @@ For EPCs who are also empanelled vendors under the PM Surya Ghar programme (a se
 
 The linkage between ALMM status, [net metering](/glossary/net-metering/) approval, and subsidy disbursement means that the three compliance checks happen sequentially in the project lifecycle:
 
-1. DISCOM technical feasibility approval (verifies proposed ALMM-listed equipment before installation)
+1. [DISCOM technical feasibility approval](/blog/how-to-apply-net-metering-india/) (verifies proposed ALMM-listed equipment before installation)
 2. Commissioning inspection (verifies installed equipment matches approved list and ALMM status)
 3. Subsidy disbursement (triggered only after step 2 is passed)
 
@@ -203,7 +211,7 @@ For EPCs who offer extended warranty packages or who are themselves responsible 
 
 For commercial and industrial solar projects above 100 kW where the buyer is financing the installation through a solar loan, RESCO arrangement, or lease model, the financing entity's technical due diligence process checks equipment specifications. ALMM-listed inverters from recognised manufacturers pass this due diligence straightforwardly. Non-listed equipment (even from technically capable manufacturers) requires additional documentation and may result in a higher cost of capital or outright financing rejection.
 
-EPCs bidding on C&I projects for buyers who intend to use project finance should treat ALMM compliance as a bankability requirement on par with IEC certification, not merely as a government scheme condition.
+EPCs bidding on C&I projects for buyers who intend to use project finance should treat ALMM compliance as a bankability requirement on par with IEC certification, not merely as a government scheme condition. Running the numbers through a dedicated [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) before submission helps EPCs pre-empt the lender's bankability questions rather than answer them after a term sheet stalls.
 
 The [inverter TCO](/blog/inverter-tco/) post covers the full cost-of-ownership framework that C&I buyers apply, including financing costs and how equipment certification status affects capital access.
 

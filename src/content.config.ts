@@ -9,6 +9,7 @@ const blog = defineCollection({
     description: z.string().optional(),
     category: z.string(),
     date: z.coerce.date(),
+    updatedDate: z.coerce.date().optional(),
     readTime: z.string(),
     image: z.string().default('/images/hybrid.webp'),
     author: z.string().default('Qbits Editorial'),

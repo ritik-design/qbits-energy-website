@@ -4,6 +4,7 @@ excerpt: "Solar for rented home India: tenants have 4 realistic options, portabl
 description: "Can tenants install solar in a rented home in India? Honest guide to portable solar, balcony panels, landlord negotiation, net metering, and PM Surya Ghar subsidy access for renters."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-inverter-selection.svg"
 author: "Akash Hirapara"
@@ -39,6 +40,14 @@ That assumption is wrong. Tenants in India have more solar options in 2026 than 
 > **Direct answer.** Tenants in India can access solar in four ways: portable solar systems (no permission needed), balcony-mounted panels (reversible installation), landlord-tenant solar agreements (where the landlord owns the system and the tenant gets cheaper electricity), or negotiating ownership rights in the lease. PM Surya Ghar subsidy goes to the electricity meter holder, negotiate subsidy sharing with your landlord before installation begins.
 
 This guide maps every option available to Indian tenants and renters, with the negotiation language and policy references needed to make it happen.
+
+> **TL;DR**
+> - Tenants have four realistic solar paths: portable power stations, balcony-mounted panels, a landlord-owned system with shared savings, or negotiated ownership rights in the lease.
+> - Portable and balcony solar (under 1 kW, plug-in) need no landlord NOC or DISCOM approval because they do not export to the grid.
+> - PM Surya Ghar subsidy goes to the electricity meter holder, usually the landlord in Indian rentals, so subsidy sharing must be negotiated upfront.
+> - A landlord-owned 2 kW system can cut a tenant's electricity rate from ₹8–10/unit grid tariff to roughly ₹4–5/unit in exchange for a modest rent increase.
+> - Net metering in a tenant's name is possible in Maharashtra, Karnataka, Gujarat, Rajasthan, and Delhi, but requires the meter to be in the tenant's name plus landlord NOC.
+> - Every ownership term (who owns the system, removal rights, subsidy sharing) should be documented in a lease addendum before installation begins.
 
 ## Why Tenants Need Solar Options
 
@@ -135,7 +144,7 @@ The pitch to the landlord:
 3. The tenant gets electricity at the solar rate (₹4–5/unit) instead of the grid rate (₹8–10/unit).
 4. At the end of the tenancy, the landlord owns an appreciating asset that increases rental value.
 
-This model is gaining traction in Pune, Bangalore, and Hyderabad rental markets where tech-sector tenants are aware of solar benefits and willing to pay a green premium. For comparison with commercial CAPEX and RESCO models, see the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-india-guide/).
+This model is gaining traction in Pune, Bangalore, and Hyderabad rental markets where tech-sector tenants are aware of solar benefits and willing to pay a green premium. For comparison with commercial CAPEX and RESCO models, see the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-india-guide/). A landlord weighing whether the 2 kW investment pencils out can estimate the payback with [Heaven Green Energy's solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) before committing.
 
 ## Option 4: Negotiating PM Surya Ghar with Your Landlord
 
@@ -229,5 +238,7 @@ Qbits serves the EPC installer and homeowner who installs a permanent system, ei
 - **[On-Grid Inverters](/on-grid-inverter/)**: for tenant-landlord agreements where the grid connection and net metering is the primary goal.
 - **[Battery Backup Calculator](/blog/solar-battery-backup-calculator/)**: calculate the battery size needed for critical load backup at a rented home.
 - **[Authorised Service Partners](/authorized-service-partners/)**: local service in 280+ cities means a tenant can get inverter support regardless of which city the rental property is in.
+
+Once a landlord agrees to install, [Heaven Green Energy's installer directory](https://heavengreenenergy.com/solar-near-me/) helps locate a vetted local installer for the physical installation.
 
 [Talk to a Qbits engineer](/contact-us/) about the right solar configuration for a rented home, whether permanent grid-connected or hybrid with battery, the system design should match the tenancy structure and the tenant's timeline for recovery.

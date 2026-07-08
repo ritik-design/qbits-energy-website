@@ -7,6 +7,7 @@ date: 2026-06-14
 readTime: "11 min"
 image: "/blog-images/solar-design-software-australia.svg"
 author: "Nirav Dhanani"
+updatedDate: 2026-07-08
 keywords:
   - solar design software Australia
   - AS/NZS 4777.2 solar design
@@ -54,11 +55,11 @@ Australia has the highest per capita rooftop solar penetration on the planet, wh
 The Australian PV market does not look like the United States, India, or Europe, and the design tool has to reflect that. The non negotiable list for 2026 is short but unforgiving.
 
 - **AS/NZS 4777.2 grid connection.** Every grid connected inverter sold or commissioned in Australia must comply with the AS/NZS 4777.2:2020 region settings. The design tool needs to expose volt watt, volt var, and fixed power factor curves per DNSP region, and it needs to apply export limits before the layout is locked. Otherwise the install gets rejected at the meter swap.
-- **AS/NZS 5033 array installation.** DC string voltage limits, isolator placement, and array fault current calculations are not optional. The tool should validate the string design against the inverter MPPT window across the full Australian temperature range, from a 45 degree Celsius rooftop in Mildura to a minus 5 degree Celsius morning in the Snowy Mountains.
+- **AS/NZS 5033 array installation.** DC string voltage limits, [isolator](/glossary/isolator/) placement, and array fault current calculations are not optional. The tool should validate the [string design](/glossary/string-sizing/) against the inverter [MPPT window](/glossary/mppt/) across the full Australian temperature range, from a 45 degree Celsius rooftop in Mildura to a minus 5 degree Celsius morning in the Snowy Mountains.
 - **CER accreditation paperwork.** A CER accredited designer and installer have to lodge documentation with the Clean Energy Regulator to claim STCs. The design tool should hand over a clean package, not a half formatted PDF that needs an hour of editing.
 - **SRES STC calculation.** The Small-scale Renewable Energy Scheme deems certificates to 2030 based on the postcode zone rating. The financial model has to calculate STC count and apply the point of sale discount in real time, because customers ask about it on the first call.
-- **State feed-in tariff decline.** NSW retailers now publish FiTs between four and seven cents per kWh. Victoria has removed its minimum FiT entirely. The default export rate in the tool should be conservative, not the eleven cent legacy figure many US built tools still ship with.
-- **Daytime curtailment and battery self-consumption.** Daytime wholesale prices in South Australia and Victoria regularly go negative. The design has to push solar into the battery first, then offset evening import. Without that logic the payback maths is fiction.
+- **State feed-in tariff decline.** NSW retailers now publish [feed-in tariffs](/glossary/feed-in-tariff/) between four and seven cents per kWh. Victoria has removed its minimum FiT entirely. The default export rate in the tool should be conservative, not the eleven cent legacy figure many US built tools still ship with.
+- **Daytime curtailment and battery self-consumption.** Daytime wholesale prices in South Australia and Victoria regularly go negative. The design has to push solar into the battery first, then offset evening import. Without accurate [battery sizing and dispatch modelling](https://surgepv.com/hub/energy-storage/battery-sizing/) the payback maths is fiction.
 
 A tool that does not handle every line on this list will leak hours on every job, and those hours come out of installer margin.
 
@@ -66,13 +67,13 @@ A tool that does not handle every line on this list will leak hours on every job
 
 The popular global names each have a different Australian gap.
 
-**Aurora Solar** is engineering grade and bankable, but it is built around the United States interconnection workflow, NEC code references, and IRS depreciation models. The AS/NZS code library is light, the SRES STC engine is not native, and the state FiT defaults need manual override on every job. Pricing also sits in the four to ten thousand USD per seat band, which is hard to justify for a residential heavy AU book.
+[**Aurora Solar**](/blog/aurora-solar-alternative/) is engineering grade and bankable, but it is built around the United States interconnection workflow, NEC code references, and IRS depreciation models. The AS/NZS code library is light, the SRES STC engine is not native, and the state FiT defaults need manual override on every job. Pricing also sits in the four to ten thousand USD per seat band, which is hard to justify for a residential heavy AU book.
 
-**OpenSolar** has strong Australian penetration because it is free at point of use and the proposal output is genuinely slick. The trade off is engineering depth. Shading is simpler than 8,760 hour module level analysis, the AS/NZS compliance evidence is thinner than a CDIP designer wants, and the financial model is opinionated about how STCs and FiTs are presented. For volume residential sales it works. For commercial, ground mount, or anything that needs a bankable P50 P75 P90, it runs out of road.
+[**OpenSolar**](/blog/opensolar-alternative/) has strong Australian penetration because it is free at point of use and the proposal output is genuinely slick. The trade off is engineering depth. Shading is simpler than 8,760 hour module level analysis, the AS/NZS compliance evidence is thinner than a CDIP designer wants, and the financial model is opinionated about how STCs and FiTs are presented. For volume residential sales it works. For commercial, ground mount, or anything that needs a bankable P50 P75 P90, it runs out of road.
 
-**HelioScope** still does the best job on commercial single line diagrams and CAD level array layouts, but the Australian code library is a bolt on rather than a native feature, and the proposal layer is weak. Most AU users end up exporting to a separate tool for the customer facing PDF.
+[**HelioScope**](/blog/helioscope-alternative/) still does the best job on commercial [single line diagrams](/glossary/single-line-diagram/) and CAD level array layouts, but the Australian code library is a bolt on rather than a native feature, and the proposal layer is weak. Most AU users end up exporting to a separate tool for the customer facing PDF.
 
-**PVcase and Solar Choice tooling** are aimed at utility scale and lead generation respectively, which leaves a gap in the middle of the market where most CER accredited installers actually live.
+[**PVcase**](/blog/pvcase-alternative/) and Solar Choice tooling are aimed at utility scale and lead generation respectively, which leaves a gap in the middle of the market where most CER accredited installers actually live.
 
 ## How SurgePV Handles Australian Workflows
 
@@ -80,7 +81,7 @@ The popular global names each have a different Australian gap.
 
 The workflow starts with [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite imagery. The designer types the address, the platform reconstructs the roof planes and obstructions in seconds, and the AI auto places the modules at the regulatory setbacks. The AS/NZS 5033 string design runs in the background and flags any layout that breaches the MPPT window or the maximum system voltage at the local minimum temperature.
 
-The [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) runs on every plan, not as a paid upgrade. That matters in Australia because winter sun angles in Hobart and Launceston can shade an entire south facing string for hours, and the older monthly shading models simply do not catch it. The output rolls straight into the [bankable yield report](https://surgepv.com/generation-financial-tool) with P50, P75, and P90 figures, which is what financiers and commercial procurement teams ask for.
+The [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) runs on every plan, not as a paid upgrade. That matters in Australia because winter sun angles in Hobart and Launceston can shade an entire south facing string for hours, and the older monthly shading models simply do not catch it. The output rolls straight into the [bankable yield report](https://surgepv.com/generation-financial-tool) with P50, P75, and P90 figures, which is what financiers and commercial procurement teams ask for. Those [P50, P75, and P90](/glossary/p50-p90/) figures are the same statistical confidence bands lenders expect from any bankable yield study.
 
 The financial engine ships the AS/NZS 4777.2 inverter library, the SRES STC zone ratings, the state FiT defaults, and the federal and state battery rebate logic. [Clara AI](https://surgepv.com/clara-ai) sits across the workflow and answers natural language questions like "what is the self-consumption rate if we add a ten kilowatt hour battery" without the designer leaving the page. The output is a [branded solar proposal](https://surgepv.com/solar-proposals) with the array, the compliance summary, the STC discount, the FiT income, and the payback figure on one signed PDF. That is the package a CER accredited designer needs, and it is the package a customer will actually read.
 
@@ -124,11 +125,11 @@ Against an OpenSolar baseline of zero, the SurgePV seat cost has to be earned on
 
 ## Real Workflow: 6.6 kW Residential + 10 kWh Battery in NSW in 20 Minutes
 
-A working example, drawn from a typical Sydney metro job, makes the workflow concrete. The site is a 1990s era brick veneer house in a Western Sydney postcode, north north west facing pitched tile roof, single phase supply, existing 6.6 kilowatt system being upgraded to add battery storage. The customer brief is a battery sized to cover the evening peak.
+A working example, drawn from a typical Sydney metro job, makes the workflow concrete. The site is a 1990s era brick veneer house in a Western Sydney postcode, north north west facing pitched tile roof, single phase supply, existing 6.6 kilowatt system being upgraded to add battery storage. The customer brief is a [battery sized to cover the evening peak](/blog/battery-sizing-hybrid-solar/).
 
-- **Minute 0 to 4.** Designer enters the address. AI 3D roof modeling pulls the satellite imagery and reconstructs the roof. The designer drops a 6.6 kilowatt array of 16 by 415 watt modules and the platform auto checks AS/NZS 5033 setbacks and a single 5 kilowatt AS/NZS 4777.2 compliant inverter.
+- **Minute 0 to 4.** Designer enters the address. AI 3D roof modeling pulls the satellite imagery and reconstructs the roof. The designer drops a 6.6 kilowatt array of 16 by 415 watt modules and the platform auto checks AS/NZS 5033 setbacks and a single 5 kilowatt AS/NZS 4777.2 compliant [on-grid inverter](/glossary/on-grid-inverter/).
 - **Minute 4 to 9.** The 8,760 hour shade analysis runs against the neighbouring jacaranda and the chimney. Two modules on the southern edge get downgraded to a separate MPPT. Annual yield comes in at 9,420 kilowatt hours P50.
-- **Minute 9 to 14.** Designer adds a 10 kilowatt hour AC coupled battery. The dispatch model pushes daytime solar into the battery first, exports the surplus at the NSW retailer FiT of 5 cents per kilowatt hour, and discharges in the evening peak to offset import at 32 cents per kilowatt hour. Self-consumption rate climbs from 28 percent solar only to 71 percent solar plus battery.
+- **Minute 9 to 14.** Designer adds a 10 kilowatt hour [AC coupled](/glossary/ac-coupling/) battery. The dispatch model pushes daytime solar into the battery first, exports the surplus at the NSW retailer FiT of 5 cents per kilowatt hour, and discharges in the evening peak to offset import at 32 cents per kilowatt hour. Self-consumption rate climbs from 28 percent solar only to 71 percent solar plus battery.
 - **Minute 14 to 17.** SRES STC engine calculates 73 STCs for the existing array upgrade context, applied at the current spot price. Federal Cheaper Home Batteries discount is layered onto the battery line item. Net customer price drops to AU$13,840 installed.
 - **Minute 17 to 20.** Branded proposal generates with the array layout, the compliance summary, the yield, the STC and battery rebate breakdown, the self-consumption rate, and a 6.1 year payback. PDF is emailed before the designer closes the tab.
 

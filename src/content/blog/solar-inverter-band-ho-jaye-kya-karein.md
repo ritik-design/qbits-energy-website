@@ -6,6 +6,7 @@ date: 2026-06-05
 readTime: "12 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Keyur Rakholiya"
+updatedDate: 2026-07-08
 keywords:
   - solar inverter band ho jaye kya karein
   - solar inverter not working hindi
@@ -32,6 +33,14 @@ faqs:
 ---
 
 Solar inverter बंद हो जाए तो panic न करें। ज्यादातर cases में कारण simple होते हैं और खुद troubleshoot किए जा सकते हैं। Serious faults में professional चाहिए - लेकिन पहले basic checks। इस guide में systematic troubleshooting process है।
+
+> **TL;DR**
+> - Power cut में on-grid inverter का बंद होना normal है - anti-islanding protection के कारण, कोई action नहीं चाहिए।
+> - Display off लेकिन grid power है तो DC isolator, AC circuit breaker और RCCB check करें।
+> - Error code note करें - Grid Voltage/Frequency errors अक्सर self-clear होते हैं, ground fault और insulation error के लिए vendor चाहिए।
+> - Overheating rokne के लिए inverter को shade में रखें और ventilation clearance ensure करें।
+> - Burning smell, ground fault या physical damage दिखे तो तुरंत DC isolator off करके vendor को call करें।
+> - Qbits inverters पर 72-hour RMA SLA है - fault confirm होने के बाद replacement उतनी जल्दी मिलता है।
 
 > **Safety first।** कोई भी internal wiring न छुएँ। Electrical shock fatal हो सकता है। Basic visual checks और switches (यही खुद करें। Internal components) हमेशा certified technician से।
 
@@ -63,7 +72,7 @@ Solar inverter बंद हो जाए तो panic न करें। ज�
 
 **On-grid solar inverter power cut में बंद होना 100% normal है।**
 
-Anti-islanding protection: Grid नहीं है तो inverter automatically disconnect होता है (यह mandatory safety feature है। Power cut में inverter पर कोई error नहीं होती) बस off हो जाता है।
+[Anti-islanding protection](/glossary/anti-islanding/): Grid नहीं है तो inverter automatically disconnect होता है (यह mandatory safety feature है। Power cut में inverter पर कोई error नहीं होती) बस off हो जाता है।
 
 **Power cut खत्म होने पर:**
 - Grid restore होने के 2-5 minutes बाद inverter automatically restart होता है
@@ -71,7 +80,7 @@ Anti-islanding protection: Grid नहीं है तो inverter automaticall
 - Display on होगी, generation शुरू होगी
 
 **Power cut area में backup चाहिए?**
-[Hybrid solar inverter](/hybrid-inverter/) में battery होती है - power cut में भी solar benefit मिलता है।
+[Hybrid solar inverter](/hybrid-inverter/) में battery होती है - power cut में भी solar benefit मिलता है। Battery capacity कितनी चाहिए, यह [battery sizing guide](https://surgepv.com/hub/energy-storage/battery-sizing/){target="_blank" rel="noopener"} से समझा जा सकता है।
 
 ## Category B: Switches और Circuit Breakers
 
@@ -81,10 +90,10 @@ Display off लेकिन grid power है - check करें:
 
 | Item | Location | Action |
 | --- | --- | --- |
-| **DC Isolator (Main)** | Near inverter, outdoor | Check position - should be ON |
+| **[DC Isolator](/glossary/isolator/) (Main)** | Near inverter, outdoor | Check position - should be ON |
 | **AC Circuit Breaker** | Main electrical panel | Check if tripped - reset |
 | **Solar Sub-breaker** | Near inverter, AC side | ON position? |
-| **RCCB (Earth leakage)** | Main panel | Tripped? Reset |
+| **[RCCB](/glossary/rccb/) (Earth leakage)** | Main panel | Tripped? Reset |
 
 DC isolator आमतौर पर red handle वाला switch होता है - ON position में।
 
@@ -94,7 +103,7 @@ DC isolator आमतौर पर red handle वाला switch होता �
 3. फिर ON position में flip करें
 4. Inverter restart होगा
 
-अगर breaker फिर trip हो तो - internal fault हो सकती है, vendor call करें।
+अगर breaker फिर trip हो तो - internal fault हो सकती है, vendor call करें। अगर inverter बार-बार (repeatedly) band ho raha hai, sirf ek baar nahi, toh [solar inverter keeps switching off guide](/blog/solar-inverter-keeps-switching-off-fix/) detailed diagnosis देती है।
 
 ## Category C: Display On लेकिन Error Code
 
@@ -161,8 +170,9 @@ India के hot states (Rajasthan, MP, Telangana) में 45°C summers म�
 - App पर actual kWh vs expected compare करें
 - Historical data देखें - कब से कम है?
 - String-wise data available है? कौन सी string down है?
+- Apna app sahi se padh nahi paa rahe? [Solar monitoring app padhne ki guide](/blog/solar-inverter-app-monitoring/) se samjhein kaunsa data important hai।
 
-**Check 4, MPPT Issues**
+**Check 4, [MPPT](/glossary/mppt/) Issues**
 - MPPT voltage readings app पर check करें
 - Expected DC voltage = Panels × Voc (datasheet से)
 - Low voltage = Panel or string issue
@@ -188,7 +198,7 @@ Beeping patterns और meanings:
 ### Professional Needed: Do Not DIY
 
 - **Burning smell या visible burn marks**: Emergency shutdown और call
-- **Ground fault / Insulation error**: DC wiring leakage, dangerous
+- **[Ground fault](/blog/solar-inverter-ground-fault-guide/) / Insulation error**: DC wiring leakage, dangerous
 - **Error code that doesn't clear after grid restore**: Internal fault
 - **Physical damage**: Water ingress, rodent damage, impact
 - **Any internal component visible issue**
@@ -199,7 +209,7 @@ Beeping patterns और meanings:
 - Dust cleaning on panels (inverter off first)
 - Ventilation area clearing
 - AC circuit breaker reset
-- Monitoring app reconnect
+- [Monitoring app reconnect](/blog/solar-inverter-wifi-not-connecting-fix/)
 - DC isolator toggle (after confirming no smell/smoke)
 - Solar app data check and comparison
 
@@ -214,6 +224,8 @@ Beeping patterns और meanings:
 3. **Claim initiation**: Vendor manufacturer को claim file करेगा
 4. **Resolution**: Replacement part या full unit replacement
 5. **Reinstallation**: Certified technician करेगा
+
+अगर original installer की contact details नहीं मिल रही, तो [नज़दीकी भरोसेमंद solar installer](https://heavengreenenergy.com/solar-near-me/) ढूंढ सकते हैं जो certified technician भेज सके।
 
 **Important documents ready रखें:**
 - Warranty card / warranty certificate
@@ -233,13 +245,13 @@ Beeping patterns और meanings:
 - Monitoring data regularly review करें
 - Pre-monsoon inspection करें (April-May)
 
-[Solar annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/), complete preventive maintenance guide।
+[Solar annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/), complete preventive maintenance guide। Iss guide ke aage bhi common problems face ho rahe hain toh [solar inverter troubleshooting, 15 common problems](/blog/solar-inverter-troubleshooting/) mein broader coverage hai।
 
 ## Qbits Support: Agar Inverter Qbits Ka Hai
 
 Qbits TLS series और HS series के लिए:
 
-- **72-hour RMA SLA**: Fault confirmed से 72 घंटे में replacement
+- **72-hour RMA SLA**: Fault confirmed से 72 घंटे में replacement - full [72-hour action plan](/blog/solar-inverter-failure-action/) यहाँ देखें
 - **Phone support**: Error code diagnosis phone पर
 - **Service network**: [Authorized service partners](/authorized-service-partners/) India-wide
 
@@ -276,8 +288,8 @@ Providing this information upfront reduces diagnostic time from days to hours. [
 
 Before monsoon (April-May each year), do a pre-monsoon check:
 
-- **All DC connections**: Tighten all MC4 connectors, check for corrosion
-- **Earthing wire**: Confirm earthing rod connections are secure
+- **All DC connections**: Tighten all [MC4 connectors](/glossary/mc4-connector/), check for corrosion
+- **Earthing wire**: Confirm [earthing](/glossary/earthing/) rod connections are secure
 - **Inverter mounting**: Verify it cannot be water-submerged in heavy rain
 - **Cable conduits**: Check that conduits have no gaps allowing water ingress
 - **App monitoring**: Set up alerts for performance drops

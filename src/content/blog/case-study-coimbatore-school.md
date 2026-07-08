@@ -4,6 +4,7 @@ excerpt: "A Coimbatore CBSE school cut its electricity bill by ₹3.2 Lakh/year 
 description: "How a 1,200-student Coimbatore CBSE school achieved 85% solar self-consumption, ₹3–3.5 Lakh annual savings, and a 4-year payback with a 25 kW Qbits on-grid system and TNEB net metering."
 category: "Case Study"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
 author: "Nirav Dhanani"
@@ -42,6 +43,14 @@ What these same administrators often did not yet appreciate was that their schoo
 
 > **Direct answer.** A 25 kW on-grid solar system is the right size for a 1,200-student CBSE school with 20–25 air-conditioned classrooms in Tamil Nadu. The School Solar ROI Framework (matching system capacity to the 8 AM–4 PM load window, measuring self-consumption rate, applying TNEB net metering, and layering Accelerated Depreciation) produces savings of ₹3–3.5 Lakh per year, a payback period of approximately 4 years, and a cumulative 25-year saving of ₹60–70 Lakh at today's tariff.
 
+> **TL;DR**
+> - A 25 kW on-grid system was sized to the school's measured 20 kW daytime peak, not its 50 kVA sanctioned load, to avoid chronic low-tariff export.
+> - Schools align unusually well with solar because occupancy hours (8 AM–4 PM) overlap almost exactly with peak generation, driving 80–90% self-consumption.
+> - TNEB net metering took 74 days from application to bidirectional meter installation, with vacation-month exports banked as credits against peak academic-term consumption.
+> - Total system cost was ₹14.2 Lakh, falling to an effective ₹12.5 Lakh after 40% Year-1 accelerated depreciation.
+> - Simple payback was 4.1 years, improving to 3.6 years with the depreciation benefit; 25-year IRR was approximately 26%.
+> - A lobby monitoring display doubled as a physics-curriculum teaching tool and a visible marker of institutional quality for parents.
+
 The framework applies broadly to any CBSE school in the 500–2,000 student range, though the exact numbers will shift with roof orientation, tariff slab, and sanctioned load. The sections below work through each dimension of the decision so that school management committees can replicate the analysis for their own campus.
 
 ## Why Schools Are the Ideal Solar Candidate in Tamil Nadu
@@ -74,7 +83,7 @@ The school's sanctioned load with TANGEDCO was 50 kVA. The actual measured peak 
 | Miscellaneous (water coolers, pumps) | Various | 0.8 kW | 0.50 |
 | **Total peak demand** | | **~20 kW** | |
 
-A system sized at 20 kW would match peak demand but leave no headroom for future load additions, the management was planning two additional smart classrooms with interactive boards. A 25 kW system was chosen to cover the expanded load while keeping the DC oversizing ratio at a sensible 1.26× relative to peak AC demand.
+A system sized at 20 kW would match peak demand but leave no headroom for future load additions, the management was planning two additional smart classrooms with interactive boards. A 25 kW system was chosen to cover the expanded load while keeping the [DC oversizing](/glossary/dc-oversizing/) ratio at a sensible 1.26× relative to peak AC demand.
 
 The 25 kW system uses a single Qbits TLD-25K three-phase on-grid inverter, handling the school's three-phase TANGEDCO supply without the phase-imbalance issues that arise when multiple single-phase inverters are installed on different phases independently. Three-phase architecture is important for schools with centralised AC systems, since split-phase loading causes neutral current issues in LT distribution panels.
 
@@ -92,7 +101,7 @@ Size the solar system to cover 95–105% of the daytime peak load, not the total
 
 ### Step 3: Apply TNEB Net Metering Correctly
 
-Under [TNERC net metering regulations](https://www.tneb.in/), commercial consumers can net exported units against imported units at the prevailing tariff, with annual settlement of accumulated credits. The critical insight is that during vacation periods (May–June and December–January) the school generates solar power but consumes almost nothing. Those export units accumulate as credits. During peak academic months (July–November), the school draws on those credits to offset high-consumption months. The net metering mechanism effectively lets the school use the grid as a zero-cost battery across the year.
+Under [TNERC net metering regulations](https://www.tneb.in/), commercial consumers can [net meter](/glossary/net-metering/) exported units against imported units at the prevailing tariff, with annual settlement of accumulated credits. The critical insight is that during vacation periods (May–June and December–January) the school generates solar power but consumes almost nothing. Those export units accumulate as credits. During peak academic months (July–November), the school draws on those credits to offset high-consumption months. The net metering mechanism effectively lets the school use the grid as a zero-cost battery across the year.
 
 ### Step 4: Layer Accelerated Depreciation
 
@@ -106,12 +115,12 @@ The [site survey](/glossary/site-survey/) identified 160 square metres of unshad
 
 - **String configuration**: 21 panels per string, 3 strings, Voc at standard test conditions 43.2 V × 21 = 907 V (within the inverter's 1,000 V maximum DC input)
 - **MPPT channels**: Two, allowing the installer to split the array across two roof sections with slightly different shading profiles
-- **Panel type**: 400 Wp monocrystalline [PERC](/glossary/perc-cell/) half-cut modules, ALMM-listed
-- **Mounting structure**: Hot-dip galvanised MS railing at 10° tilt, anchored without penetrating the waterproofing membrane using ballast-weighted brackets
+- **Panel type**: 400 Wp monocrystalline [PERC](/glossary/perc-cell/) half-cut modules, [ALMM-listed](/glossary/almm-list/)
+- **Mounting structure**: Hot-dip galvanised MS railing at 10° tilt, anchored without penetrating the waterproofing membrane using ballast-weighted brackets, an approach worked out through detailed [rooftop engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) rather than a generic bracket layout
 
 The inverter was installed in the electrical room adjacent to the main distribution board, an air-conditioned space that ensures the inverter operates below 35 °C ambient, avoiding the thermal derating that affects rooftop-mounted inverters in Tamil Nadu's 40–45 °C summer afternoons. For a 25 kW unit drawing ₹14 Lakh in capital expenditure, protecting the inverter from thermal stress adds years to its operational life.
 
-The Qbits TLD-25K's IP66 rating provides weather protection against the heavy south-west monsoon rains that reach Coimbatore in June–August. The school originally requested a wall-mounted outdoor location near the panels to reduce DC cable length, but the EPC team recommended the indoor electrical room for both temperature and security reasons, an outdoor inverter in a school compound is accessible to students and vulnerable to accidental contact.
+The Qbits TLD-25K's [IP66 rating](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) provides weather protection against the heavy south-west monsoon rains that reach Coimbatore in June–August. The school originally requested a wall-mounted outdoor location near the panels to reduce DC cable length, but the EPC team recommended the indoor electrical room for both temperature and security reasons, an outdoor inverter in a school compound is accessible to students and vulnerable to accidental contact.
 
 ## Annual Generation, Self-Consumption, and Net Metering Numbers
 
@@ -165,7 +174,7 @@ The capital expenditure for the complete system (panels, inverter, mounting stru
 | 25-year cumulative saving (at 5% annual tariff escalation) | ₹1.42 Crore |
 | IRR (25-year horizon) | ~26% |
 
-The 25-year projection assumes a 0.55% annual panel degradation rate, consistent with PERC half-cut module warranties and validated by [NREL's long-term PV module degradation study](https://www.nrel.gov/pv/module-reliability.html), and a 5% per year electricity tariff escalation, which is conservative relative to TANGEDCO's historical tariff revision frequency. Even at zero escalation, the 25-year saving exceeds ₹75 Lakh.
+The 25-year projection assumes a 0.55% annual panel degradation rate, consistent with PERC half-cut module warranties and validated by [NREL's long-term PV module degradation study](https://www.nrel.gov/pv/module-reliability.html), and a 5% per year electricity tariff escalation, which is conservative relative to TANGEDCO's historical tariff revision frequency. Even at zero escalation, the 25-year saving exceeds ₹75 Lakh. Management committees wanting to stress-test these assumptions against their own tariff slab and roof data can build a [custom solar financial model](https://surgepv.com/generation-financial-tool/) rather than relying on a single EPC's projection.
 
 For the school management committee, the [payback period](/glossary/payback-period/) of 4.1 years is the number that typically closes the decision. A 4-year payback on a 25-year asset means 21 years of near-free electricity. For a charitable school trust managing a tight operating budget, that is a materially different financial position from paying ₹6–7 Lakh per year to TANGEDCO indefinitely.
 
@@ -198,7 +207,7 @@ The school gathered the following documents for the TANGEDCO net metering applic
 - Latest three months of electricity bills (for sanctioned load verification)
 - School's property tax receipt and ownership document
 - Society/trust registration certificate
-- Single-line diagram of the proposed solar installation, signed by a licensed electrical contractor
+- [Single-line diagram](https://heavendesigns.in/electrical-ceig-drawings/) of the proposed solar installation, signed by a licensed electrical contractor
 - Technical specification of the inverter and panels, including ALMM certification numbers
 - No-objection certificate from the school's electrical contractor
 
@@ -250,7 +259,9 @@ The [solar inverter payback period](/blog/solar-inverter-payback-period-in-india
 
 Schools in the 20–50 kW range looking for a dependable on-grid inverter with a long warranty, clean waveform output, and monitoring that does not require a dedicated IT administrator are the profile Qbits designed for.
 
-The Qbits TLD-25K is the inverter used in this Coimbatore school installation. It carries a 12-year full replacement warranty (not prorated) which means if the unit fails in year 10, the school receives a new inverter at no cost, with no depreciated value deduction. For a school trust managing a 25-year asset, this warranty depth is financially material. The IP66 enclosure handles Coimbatore's monsoon season without additional protective housing, and the AI-powered WhatsApp monitoring pushes daily generation summaries to the school's management team automatically.
+The Qbits TLD-25K is the inverter used in this Coimbatore school installation. It carries a [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) (not prorated) which means if the unit fails in year 10, the school receives a new inverter at no cost, with no depreciated value deduction. For a school trust managing a 25-year asset, this warranty depth is financially material. The IP66 enclosure handles Coimbatore's monsoon season without additional protective housing, and the AI-powered WhatsApp monitoring pushes daily generation summaries to the school's management team automatically.
+
+Schools that need a single turnkey partner for the full project, not just equipment supply, can also evaluate [commercial solar installation](https://heavengreenenergy.com/commercial-solar/) services covering site survey, structural design, and EPC delivery in one contract.
 
 The on-grid product range for schools and other C&I buyers:
 
@@ -274,7 +285,7 @@ Before a school management committee authorises a solar installation, every item
 - ✓ Three-phase vs single-phase inverter decision made based on supply configuration
 - ✓ Shading analysis completed using PVSyst or equivalent simulation
 - ✓ DC and AC SPD specified in the bill of materials
-- ✓ ALMM-listed panels and BIS-certified inverter confirmed
+- ✓ ALMM-listed panels and [BIS-certified](/glossary/bis-certification/) inverter confirmed
 - ✓ Net metering pre-approval feasibility checked with local TANGEDCO division
 
 **Contract verification**

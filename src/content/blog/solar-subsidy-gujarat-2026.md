@@ -4,6 +4,7 @@ excerpt: "Solar subsidy in Gujarat stacks central PM Surya Ghar (₹78,000) with
 description: "Solar subsidy in Gujarat 2026: how PM Surya Ghar and Surya Gujarat combine, DISCOM-wise application steps, net metering rates, and a 3 kW worked example for homeowners."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "18 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
 author: "Akash Hirapara"
@@ -38,6 +39,13 @@ featured: false
 Gujarat homeowners asking about solar in 2026 face a question that is both financially significant and administratively layered: how do the central PM Surya Ghar subsidy and the state Surya Gujarat scheme work together, how much can you actually save, and which of the four Gujarat DISCOMs do you apply through? The answer determines whether a 3 kW rooftop system costs you ₹1,50,000 or closer to ₹40,000 out of pocket, a difference large enough to cut payback from six years to under two.
 
 This guide works through the full Gujarat solar subsidy stack (both schemes, all four DISCOMs, the GEDA application process, net metering buyback rates, and a worked example from an Ahmedabad homeowner's perspective) so you can go from reading to applying with a clear checklist in hand.
+
+> **TL;DR**
+> - Gujarat stacks the central PM Surya Ghar subsidy (₹78,000 for 3 kW) with the Surya Gujarat state top-up (₹10,000–₹20,000/kW), reaching ₹1,08,000–₹1,38,000 combined for a 3 kW system.
+> - Four DISCOMs cover the state: DGVCL (Surat), PGVCL (Rajkot), MGVCL (Vadodara), and UGVCL (Ahmedabad), each with its own processing timeline of roughly 30 to 65 days.
+> - Both the national PM Surya Ghar portal and the GEDA state portal must be registered separately, the state top-up does not flow automatically from the central application.
+> - Net metering banking resets annually in March, so commissioning between April and September maximises the first-year banking window.
+> - An Ahmedabad worked example (3 kW, ₹1,62,000 gross cost) reached roughly 1.2 years' payback after combined subsidies of ₹1,23,000.
 
 > **Gujarat's solar subsidy in 2026 stacks two programmes.** The central PM Surya Ghar Muft Bijli Yojana provides ₹78,000 for a 3 kW residential system. The Surya Gujarat state scheme administered by GEDA adds a further ₹10,000–₹20,000 per kW top-up. Combined, the total subsidy for a 3 kW system reaches ₹1,08,000–₹1,38,000, potentially cutting net cost below ₹40,000 for a standard installation.
 
@@ -144,7 +152,7 @@ Once your rooftop solar system is commissioned in Gujarat, the financial relatio
 
 **How Gujarat's net metering works:**
 
-- Your existing meter is replaced with a bidirectional smart meter at no cost to you (DISCOM-supplied under the PM Surya Ghar scheme)
+- Your existing meter is replaced with a [bidirectional smart meter](/glossary/bidirectional-meter/) at no cost to you (DISCOM-supplied under the PM Surya Ghar scheme)
 - During the day when your solar generation exceeds consumption, surplus units are exported to the grid
 - The GERC-set [feed-in tariff](/glossary/feed-in-tariff/) (buyback rate) applies to exported units
 - Surplus units are "banked" in your DISCOM account and can offset future bills for up to 12 months
@@ -186,7 +194,7 @@ The Gujarat solar subsidy application involves two parallel tracks (the national
 
 3. **Obtain DISCOM technical feasibility approval.** The DISCOM reviews your application and confirms grid capacity at your connection point. MNRE mandates 15 days; Gujarat DISCOMs typically respond in 7–20 days depending on load on the approval desk.
 
-4. **Select a GEDA-registered and DISCOM-empanelled vendor.** Your installer must appear on both lists. Verify on the respective portals, not on the vendor's printed literature. Confirm that the specific inverter model being proposed appears on the MNRE ALMM list; a non-ALMM inverter means subsidy rejection regardless of how smooth the rest of the process goes. Check [PM Surya Ghar eligibility requirements](/blog/pm-surya-ghar-eligibility/) if uncertain about which equipment qualifies.
+4. **Select a GEDA-registered and DISCOM-empanelled vendor.** Your installer must appear on both lists. Verify on the respective portals, not on the vendor's printed literature. [Heaven Green Energy's residential solar installation page](https://heavengreenenergy.com/residential-solar/){target="_blank" rel="noopener"} is a useful reference for what a properly scoped EPC contract should cover if you are comparing quotes for the first time. Confirm that the specific inverter model being proposed appears on the MNRE ALMM list; a non-ALMM inverter means subsidy rejection regardless of how smooth the rest of the process goes. Check [PM Surya Ghar eligibility requirements](/blog/pm-surya-ghar-eligibility/) if uncertain about which equipment qualifies.
 
 5. **Install, commission, and notify DISCOM for inspection.** The DISCOM engineer visits to verify installation, confirm ALMM equipment, inspect earthing and safety, and arrange bidirectional smart meter installation. This step typically takes 7–20 days from notification.
 
@@ -210,7 +218,7 @@ A typical Ahmedabad homeowner in a 3 BHK apartment, monthly electricity consumpt
 **System design:**
 
 - **Capacity:** 3 kW on-grid
-- **Panels:** 8 × 380 Wp monocrystalline (ALMM-listed)
+- **Panels:** 8 × 380 Wp [monocrystalline](/glossary/monocrystalline/) (ALMM-listed)
 - **Inverter:** 3 kW ALMM-listed on-grid (single-phase)
 - **Mounting:** Elevated MS structure, 15-degree tilt
 - **Expected generation:** ~420 units/month (based on Ahmedabad 5.0 peak sun hours average)
@@ -229,7 +237,7 @@ A typical Ahmedabad homeowner in a 3 BHK apartment, monthly electricity consumpt
 | **Simple payback period** | **~1.2 years** |
 | **25-year total saving (at 2026 tariffs, no escalation)** | **~₹7.9 Lakh** |
 
-With even a modest 5% annual electricity tariff escalation (consistent with historical Gujarat retail tariff trends) the 25-year saving rises to approximately ₹12–14 Lakh. The [payback period](/glossary/payback-period/) below 18 months makes this one of the strongest residential solar ROI cases in India.
+With even a modest 5% annual electricity tariff escalation (consistent with historical Gujarat retail tariff trends) the 25-year saving rises to approximately ₹12–14 Lakh. The [payback period](/glossary/payback-period/) below 18 months makes this one of the strongest residential solar ROI cases in India, and homeowners who want to stress-test the escalation assumption against their own bill can do so with [SurgePV's financial modeling tool](https://surgepv.com/generation-financial-tool/){target="_blank" rel="noopener"}.
 
 **Timeline for this Ahmedabad applicant:**
 

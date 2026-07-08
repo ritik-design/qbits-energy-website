@@ -4,6 +4,7 @@ excerpt: "A solar inverter for EV charging needs at least 5 kW hybrid capacity t
 description: "Learn how to size a solar inverter for EV charging at home in India, covering charger types, load calculations, hybrid vs on-grid trade-offs, and the EV-Solar Stack framework."
 category: Buying Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-inverter-sizing.svg"
 author: "Keyur Rakholiya"
@@ -36,7 +37,15 @@ faqs:
     a: "For most 2–4 BHK homeowners with a single EV and a 3.3 kW home charger, the Qbits HS 5 kW hybrid inverter is the recommended starting point. It supports dual-MPPT for split-roof configurations, handles battery voltages from 48 V to 192 V, and switches to battery power in under 20 milliseconds during grid outages so evening EV charging is uninterrupted. The 12-year full replacement warranty means the inverter outlasts the EV's first battery lifecycle with zero maintenance cost risk."
 ---
 
-The number of electric vehicles on Indian roads crossed 5 million units in early 2026, with Tata Nexon EV, Ather 450X, and Ola S1 Pro leading the residential charging wave. For homeowners already paying ₹8,000–₹15,000 per month in electricity bills, adding an EV charger to that load is genuinely worrying. The logical next question ("can I run my EV on solar?") has a real answer, but the setup requires careful thought about inverter type, system size, and nighttime charging behaviour.
+The number of electric vehicles on Indian roads crossed 5 million units in early 2026, with Tata Nexon EV, Ather 450X, and Ola S1 Pro leading the residential charging wave. For homeowners already paying ₹8,000–₹15,000 per month in electricity bills, adding an EV charger to that load is genuinely worrying, and it is exactly the kind of load a properly scoped [residential solar installation](https://heavengreenenergy.com/residential-solar/) needs to plan for upfront rather than retrofit later. The logical next question ("can I run my EV on solar?") has a real answer, but the setup requires careful thought about inverter type, system size, and nighttime charging behaviour.
+
+> **TL;DR**
+> - A solar-plus-EV setup needs at least a 5 kW hybrid inverter with a 10 kWh battery and a 5–7 kW array to meaningfully offset charging costs.
+> - On-grid inverters cannot dispatch stored energy at night, so overnight EV charging still comes fully from the grid; only a hybrid inverter with a battery solves this.
+> - The EV-Solar Stack framework sizes the system in four steps: EV daily charging load, home base load, required solar array, and battery bank capacity.
+> - A 5 kW hybrid inverter with a 10 kWh battery is the sweet spot for most Indian homeowners with a compact EV like the Tata Nexon, covering roughly 40–55% of charging needs.
+> - V2G (vehicle-to-grid) is not yet commercially available in India as of mid-2026; choosing a hybrid inverter with an AC-coupled port keeps the upgrade path open.
+> - A worked Thane, Maharashtra example shows a 5 kW hybrid system with a 10 kWh battery paying back in roughly 3.7–4.1 years after PM Surya Ghar subsidy.
 
 > **Direct answer.** A solar inverter for EV charging at home requires a minimum 5 kW hybrid inverter paired with a 10 kWh battery and a 5–7 kW solar array. This combination offsets 60–80% of EV charging costs on an Ather or Ola scooter, or 40–55% for a Tata Nexon EV, while also covering household loads. The EV-Solar Stack framework (four sizing steps covering charger wattage, home base load, solar yield, and battery depth) determines the exact configuration before you buy anything.
 
@@ -104,7 +113,7 @@ The battery must store enough energy to cover:
 - Essential home loads through 8 hours of night (e.g., 4 kWh)
 - Reserve buffer at 20% state of charge to protect battery life
 
-Minimum usable capacity = 8 + 4 + 3 (buffer) = **15 kWh usable**, which corresponds to an 18–20 kWh LFP (lithium iron phosphate) battery bank at 80% depth of discharge.
+Minimum usable capacity = 8 + 4 + 3 (buffer) = **15 kWh usable**, which corresponds to an 18–20 kWh LFP (lithium iron phosphate) battery bank at 80% depth of discharge. The [battery sizing guide for hybrid solar inverters](/blog/battery-sizing-hybrid-solar/) covers this calculation for non-EV loads too, and SurgePV's [battery and energy storage sizing hub](https://surgepv.com/hub/energy-storage/battery-sizing/) is a useful reference for comparing chemistries and bank configurations across brands.
 
 For a two-wheeler EV owner with an Ather or Ola, the numbers compress significantly: EV daily draw of 1.5 kWh means a 5 kW solar + 5 kWh battery system is ample.
 
@@ -209,7 +218,7 @@ Homeowners combining solar and EV charging run into predictable errors that add 
 
 **Not checking net metering compatibility before installing a battery.** Several DISCOMs in India (notably in parts of Tamil Nadu and West Bengal) still do not permit hybrid inverters on net metering connections, or require a separate application process. Verify with your DISCOM before selecting the inverter model. The [net metering India complete guide](/blog/net-metering-india-complete-guide/) covers state-by-state approval procedures.
 
-**Neglecting to consult a [best hybrid solar inverter](/blog/best-hybrid-solar-inverter-india-2026/) comparison** before committing to a brand. Specifications on paper (particularly battery compatibility and V2G readiness) vary significantly between manufacturers, and the cheapest option rarely supports the widest range of battery brands.
+**Neglecting to consult a [best hybrid solar inverter](/blog/best-hybrid-solar-inverter-india-2026/) comparison** before committing to a brand. Specifications on paper (particularly battery compatibility and V2G readiness) vary significantly between manufacturers, and the cheapest option rarely supports the widest range of battery brands. The [5-step decision guide to choosing a hybrid solar inverter](/blog/how-to-choose-hybrid-solar-inverter/) is a useful companion checklist for narrowing the shortlist before requesting quotes.
 
 ## Real Calculation: 3 BHK, Tata Nexon EV, Mumbai
 
@@ -233,7 +242,7 @@ A 10.7 kW array is impractical for a 3 BHK flat roof. The realistic decision is 
 - **Solar:** 5 kW (9 × 545 Wp panels, ~280 sq ft)
 - **Inverter:** 5 kW hybrid (Qbits HS series)
 - **Battery:** 10 kWh LFP, covers EV partial charge (5–6 kWh) + essential overnight home load (4 kWh)
-- **Total system cost:** ₹2.8 Lakh (solar + inverter) + ₹1.4 Lakh (battery) = ₹4.2 Lakh before subsidy
+- **Total system cost:** ₹2.8 Lakh (solar + inverter) + ₹1.4 Lakh (battery) = ₹4.2 Lakh before subsidy (get this itemised on a [written quotation](https://quickestimate.co/features/quotation-system/) before signing)
 - **PM Surya Ghar subsidy:** approximately ₹60,000 for 3 kW eligible portion
 - **Net investment:** ~₹3.6 Lakh
 - **Monthly saving:** ₹4,500 (home) + ₹2,800 (EV partial offset) = ₹7,300/month

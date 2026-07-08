@@ -38,9 +38,18 @@ faqs:
     a: "No. By Year 10, a ₹4 lakh inverter under WDV would show a book value of approximately ₹4,239 - just 0.6% of original cost. The same inverter is typically still operating at 96-97% efficiency with 5-8 years of useful life remaining. Book value is an accounting construct for tax purposes, not a measure of physical or operational value. Premium inverters with 12-year warranties protect the operational value through the entire depreciation period."
   - q: "What documentation do I need to defend the depreciation claim during a tax audit?"
     a: "Maintain: (1) purchase invoice with GST showing inverter as plant and machinery, (2) commissioning certificate from EPC, (3) DISCOM net metering activation certificate, (4) annual operation logs / monitoring data, (5) year-by-year depreciation schedule prepared by a chartered accountant, (6) asset register with unique serial number tracking. Together these establish put-to-use date, ownership, business use, and continued operation."
+updatedDate: 2026-07-08
 ---
 
 For commercial and industrial buyers investing in solar across India, understanding inverter depreciation is the single highest-leverage financial decision in the procurement process. Inverters represent **15-20% of total system investment**, and depreciation strategy alone can shift a project from a marginal seven-year payback into a compelling five-year return.
+
+> **TL;DR**
+> - Solar inverters qualify for **40% [WDV](/glossary/accelerated-depreciation/) accelerated depreciation** under Section 32, but only for business-owned (CAPEX) systems - residential and [RESCO/PPA](/glossary/resco/) models do not qualify.
+> - A ₹40 lakh inverter investment yields ₹16 lakh of first-year depreciation, worth ₹4.8 lakh in tax savings at the 30% corporate rate.
+> - The depreciation clock starts on the commissioning date, not the purchase date - commission before late September to cross the 180-day threshold and claim full first-year depreciation.
+> - WDV front-loads the tax shield and typically beats the Straight Line Method for [IRR](/glossary/irr/) because it matches early-year loan repayment cash flow.
+> - Capital subsidies like PM Surya Ghar reduce the depreciable base, so coordinate commissioning and subsidy disbursement timing with your CA.
+> - Accelerated depreciation can compress simple payback from roughly 7.1 years to 5.2 years on a representative 100 kW commercial installation.
 
 This guide consolidates the regulatory framework, calculation methods, year-by-year cash impact, commissioning timing, and selection criteria that determine whether you capture the full tax shield or leave 25-40% of project economics on the table.
 
@@ -52,7 +61,7 @@ Capital subsidies (PM Surya Ghar, state programmes) get most of the press attent
 - **₹10+ lakh cumulative tax shield over five years** (typically 26%+ of original investment)
 - **1.5-2 years compressed off the payback period** vs the same project without depreciation
 
-For a manufacturing plant, cold storage, hospital, or commercial complex, depreciation converts solar from a sustainability spend into a working-capital strategy. The Income Tax Act treats solar inverters as plant and machinery under Section 32, which is the most favourable asset class for depreciation purposes.
+For a manufacturing plant, [cold storage facility](/blog/solar-inverter-for-cold-storage-india/), hospital, or commercial complex, depreciation converts solar from a sustainability spend into a working-capital strategy. The Income Tax Act treats solar inverters as plant and machinery under Section 32, which is the most favourable asset class for depreciation purposes.
 
 ## The 40% WDV Rate Explained
 
@@ -93,7 +102,7 @@ Indian tax law allows depreciation under two methods. For solar inverters, the c
 | Simple to forecast | Worse cash-flow alignment |
 | Predictable expense pattern | Slower payback compression |
 
-**Recommendation for most C&I buyers:** WDV. The front-loaded shield matches the heaviest cash outflow years (loan principal repayment, working capital tied up in installation), and the IRR uplift typically exceeds 200 basis points compared to SLM.
+**Recommendation for most C&I buyers:** WDV. The front-loaded shield matches the heaviest cash outflow years (loan principal repayment, working capital tied up in installation), and the [IRR](/glossary/irr/) uplift typically exceeds 200 basis points compared to SLM. For the broader capital-structure decision this sits inside, see [Solar CAPEX vs OPEX: which model fits your business](/blog/solar-capex-vs-opex-business-india/).
 
 ## Year-by-Year Depreciation Schedule
 
@@ -143,7 +152,7 @@ A critical point that confuses many CFOs and operations heads: **book value does
 | Remaining useful life | 5-8 years |
 | Replacement cost (new equivalent) | Similar to original |
 
-The inverter on your balance sheet at near-zero book value is still generating revenue. Treat book value as a tax instrument; treat physical condition as the operational reality. This is why **inverter warranty length matters strategically** - a 12-year manufacturer warranty protects the physical asset through the critical depreciation period (years 1-7) when project IRR is most sensitive to downtime.
+The inverter on your balance sheet at near-zero book value is still generating revenue. Treat book value as a tax instrument; treat physical condition as the operational reality. This is why **[inverter warranty length](/blog/solar-inverter-warranty/) matters strategically** - a 12-year manufacturer warranty protects the physical asset through the critical depreciation period (years 1-7) when project IRR is most sensitive to downtime.
 
 ## Strategic Timing Decisions
 
@@ -155,7 +164,7 @@ The inverter on your balance sheet at near-zero book value is still generating r
 
 ### Coordinating with capital subsidies
 
-PM Surya Ghar, PM-KUSUM, and state capital subsidies all reduce the depreciable base. A ₹40 lakh project receiving ₹6 lakh of subsidy is depreciated on ₹34 lakh, not ₹40 lakh. Net effect on tax shield is approximately ₹1.8 lakh reduction in first-year savings - still a strong positive, but plan around it.
+[PM Surya Ghar](/blog/pm-surya-ghar-yojana-complete-guide/), [PM-KUSUM](/glossary/kusum/), and state capital subsidies all reduce the depreciable base. A ₹40 lakh project receiving ₹6 lakh of subsidy is depreciated on ₹34 lakh, not ₹40 lakh. Net effect on tax shield is approximately ₹1.8 lakh reduction in first-year savings - still a strong positive, but plan around it.
 
 ### Tax holiday and MAT considerations
 
@@ -165,7 +174,7 @@ For SEZ units, eligible manufacturing under Section 115BAB (concessional rate), 
 
 Maintain the following as a single bound file per system, accessible during any tax officer review:
 
-1. **Purchase invoice with GST** showing inverter classified as plant and machinery
+1. **[Purchase invoice with GST](/blog/gst-on-solar-inverters-2026/)** showing inverter classified as plant and machinery
 2. **Commissioning certificate** from the EPC contractor
 3. **DISCOM net metering activation** certificate showing energisation date
 4. **Annual operation logs** or monitoring system data (proves continued business use)
@@ -182,7 +191,7 @@ Not all inverters are equal when viewed through the depreciation lens. The finan
 - **Extended warranty coverage** - 12+ years preferred (matches the critical depreciation window plus buffer)
 - **Proven field reliability** - low MTBF, transparent failure-rate data
 - **High efficiency** - 98%+ rated; protects generation revenue that pays back the asset
-- **ALMM Phase III listed** - mandatory for any government-linked project and subsidy eligibility
+- **[ALMM Phase III](/blog/almm-list-phase-iii-guide/) listed** - mandatory for any government-linked project and subsidy eligibility
 - **Strong documentation and digital warranty systems** - reduces audit friction and supports warranty claims
 - **Indian manufacturer support** - faster RMA SLA protects revenue during the critical first 5 years
 
@@ -205,7 +214,7 @@ For commercial and industrial buyers building a depreciation-led financial model
 - **Digital warranty system** - serial-number tracking and commissioning timestamps that auto-populate the documentation required for tax audit defence
 - **[Authorized Service Partners](/authorized-service-partners/)** - 72-hour RMA SLA across India, minimising the downtime risk that breaks depreciation-based ROI assumptions
 
-For a CFO or facility head ready to model a specific commercial installation with the full depreciation tax shield, [talk to a Qbits engineer](/contact-us/) - the team can provide a year-by-year cash-flow model alongside the technical specification within 48 hours of receiving your annual electricity consumption profile.
+For a CFO or facility head ready to model a specific commercial installation with the full depreciation tax shield, [talk to a Qbits engineer](/contact-us/) - the team can provide a year-by-year cash-flow model alongside the technical specification within 48 hours of receiving your annual electricity consumption profile. Businesses that want to run their own numbers first can also build a project-level [solar financial model](https://surgepv.com/generation-financial-tool/) before finalising the inverter specification.
 
 ## Closing
 

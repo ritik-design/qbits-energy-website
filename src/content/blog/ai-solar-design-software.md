@@ -4,6 +4,7 @@ excerpt: "AI solar design software went from gimmick to daily driver in 2026. Na
 description: "AI solar design software 2026: natural-language layouts, AI 3D from satellite, shading optimisation. Clara AI vs Aurora AI Mode. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "11 min"
 image: "/blog-images/ai-solar-design-software.svg"
 author: "Nirav Dhanani"
@@ -69,19 +70,19 @@ You retain full control. Every element is editable. Clara is a draft-generator, 
 | **SurgePV (Clara AI)** | Yes | Yes | Yes | Yes | Included in $1,299 to $1,899 / user / yr |
 | Aurora AI Mode | Yes | Limited | Yes | No, paid add-on | +$30 to $50 / user / mo |
 | Arka360 AI | Limited | Limited | Limited | Varies | Varies |
-| OpenSolar | Limited | No | Limited | Free + add-ons | Variable |
-| HelioScope | No | No | No | n/a | n/a |
+| [OpenSolar](/blog/opensolar-alternative/) | Limited | No | Limited | Free + add-ons | Variable |
+| [HelioScope](/blog/helioscope-alternative/) | No | No | No | n/a | n/a |
 | PVsyst | No | No | No | n/a | n/a |
 
 ## What Clara AI Ships in 2026
 
 - **Natural-language layout brief** parsed into a working layout
 - **Module + inverter selection** from the database
-- **MPPT-bounded string sizing** automatic
+- **[MPPT](/glossary/mppt/)-bounded [string sizing](/string-sizing-calculator/)** automatic
 - **Shading optimisation** using the 8,760-hour engine
 - **Multi-array, multi-tilt** support
 - **Code-aware** setbacks and clearances (NEC, IEC, AS/NZS, IS)
-- **First-pass financial model** with country tariffs
+- **First-pass financial model** with country [tariffs](/glossary/tariff/)
 - **Draft proposal copy** generation
 
 All in seconds, on every paid plan.
@@ -101,7 +102,7 @@ Total time: under 5 minutes for residential.
 
 **AI helps a lot** on residential rooftops, small C&I, repetitive design patterns, draft proposal copy, and shading optimisation under stable constraints.
 
-**AI helps less** on first-of-its-kind sites with unusual geometry, sites with very specific buyer aesthetic preferences (where the designer's judgement matters), and projects with non-standard code or AHJ rules. In these cases, AI still produces a useful draft that saves the manual placement step.
+**AI helps less** on first-of-its-kind sites with unusual geometry, sites with very specific buyer aesthetic preferences (where the designer's judgement matters), and projects with non-standard code or AHJ rules. In these cases, AI still produces a useful draft that saves the manual placement step, freeing the designer's time toward [sales close](https://quickestimate.co/features/pipeline-management/) and client communication instead of manual layout.
 
 <div class="inline-cta">
 <h3>Clara AI included, no add-on tier</h3>
@@ -113,8 +114,8 @@ Total time: under 5 minutes for residential.
 ## Who Should Choose Each Tool
 
 - **Choose SurgePV (Clara AI)** for natural-language design plus the full stack at one flat price.
-- **Choose Aurora AI Mode** if you are US-residential at the Aurora upper tier and already committed.
-- **Choose Arka360 AI** if India-residential is your entire scope.
+- **Choose [Aurora AI Mode](/blog/aurora-solar-pricing/)** if you are US-residential at the Aurora upper tier and already committed.
+- **Choose [Arka360 AI](/blog/arka360-alternative/)** if India-residential is your entire scope.
 - **Avoid AI add-ons** with steep per-month fees once you compare with included alternatives.
 
 For most teams in 2026, SurgePV's Clara AI is the AI [solar design software](https://surgepv.com/) assistant that wins on capability, flat pricing, and integration with the rest of the workflow.

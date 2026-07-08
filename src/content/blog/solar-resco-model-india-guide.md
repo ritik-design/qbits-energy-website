@@ -3,6 +3,7 @@ title: "Solar RESCO Model India, Complete Guide for C&I Buyers"
 excerpt: "Solar RESCO model India lets C&I buyers get rooftop solar with zero upfront cost, the RESCO owns the system, you pay ₹4–6/unit instead of ₹8–14/unit grid tariff. Full PPA guide inside."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-epc-india.svg"
 author: "Akash Hirapara"
@@ -31,7 +32,14 @@ faqs:
     a: "RESCO PPA contracts in India typically run for 15–25 years. The most common duration for C&I rooftop projects is 15 years for buyers who want flexibility, and 20–25 years for buyers who want the lowest possible PPA tariff. After the contract ends, options typically include: extending the PPA, purchasing the system from the RESCO at residual value, or having the system removed by the RESCO at no cost to the buyer."
 ---
 
-A factory owner or facility manager evaluating solar in India encounters two fundamental choices: own the system (CAPEX) or have someone else own it and pay per unit generated (RESCO). This guide focuses entirely on the RESCO model, what it means, what the contract terms look like, which companies provide it, and what due diligence prevents expensive surprises in Year 10 of a 20-year commitment.
+A factory owner or facility manager evaluating solar in India encounters two fundamental choices: own the system ([CAPEX](/glossary/capex/)) or have someone else own it and pay per unit generated ([RESCO](/glossary/resco/)). This guide focuses entirely on the RESCO model, what it means, what the contract terms look like, which companies provide it, and what due diligence prevents expensive surprises in Year 10 of a 20-year commitment.
+
+> **TL;DR**
+> - RESCO means a Renewable Energy Service Company owns the solar system on your roof and sells you the electricity at a PPA tariff of ₹4–6/unit versus ₹8–14/unit from the grid, with zero upfront capex.
+> - Savings under RESCO are real (30–40% bill reduction) but lower than the CAPEX model (60–70%), because the RESCO, not the buyer, claims the 80% accelerated depreciation benefit.
+> - PPA contracts run 15–25 years with a typical 2–3% annual tariff escalation; the five-point due diligence checklist covers tariff trajectory, escalation compounding, exit penalties, generation guarantees, and end-of-term ownership.
+> - Amplus Solar (TotalEnergies On+), Fourth Partner Energy, CleanMax, and Amp Energy are the leading C&I RESCO providers in India.
+> - RESCO suits rented buildings, capital-constrained buyers, and companies with low taxable profit; CAPEX wins when capital and taxable profit are both available.
 
 > **Direct answer.** The solar RESCO model in India means a Renewable Energy Service Company owns the solar system on your roof and sells you the electricity generated at a PPA tariff of ₹4–6/unit (versus ₹8–14/unit from the grid) with zero upfront capex for the C&I buyer. Savings are real (30–40% bill reduction) but lower than the CAPEX model (60–70%). The "RESCO PPA Due Diligence Checklist" identifies the five contract clauses that determine whether the deal remains beneficial throughout the 15–25 year term.
 
@@ -73,7 +81,7 @@ Pune-based RESCO focused on green energy procurement for corporate buyers with E
 
 Technology-forward RESCO with a strong portfolio in industrial and commercial rooftop and ground-mounted projects. Known for sophisticated grid integration and SCADA monitoring across portfolios. PPA tariff: ₹4.5–6.5/unit.
 
-**Minimum project sizes:** Most major RESCOs have a minimum project size of 50–100 kW due to transaction costs. For systems below 50 kW, the CAPEX model is more accessible, see [solar EPC India guide](/blog/solar-epc-india/) for the CAPEX procurement process.
+**Minimum project sizes:** Most major RESCOs have a minimum project size of 50–100 kW due to transaction costs. For systems below 50 kW, the CAPEX model is more accessible, see [solar EPC India guide](/blog/solar-epc-india/) for the CAPEX procurement process. Buyers pursuing that route often bring in a turnkey [commercial solar EPC provider](https://heavengreenenergy.com/commercial-solar/) to handle installation once the financing model is decided.
 
 ## How a RESCO PPA Contract Works
 
@@ -122,7 +130,7 @@ For a 500 kW factory roof in Karnataka:
 | Payback period | Immediate (no capex) | 3.5–4.5 years |
 | Maintenance risk | RESCO | Owner |
 
-The RESCO delivers immediate, zero-risk savings. CAPEX delivers higher savings and strong [IRR](/glossary/irr/) but requires capital and management attention. For the CAPEX IRR model with worked numbers, see [solar IRR and payback for C&I in India](/blog/solar-irr-payback-ci-india/).
+The RESCO delivers immediate, zero-risk savings. CAPEX delivers higher savings and strong [IRR](/glossary/irr/) but requires capital and management attention. For the CAPEX IRR model with worked numbers, see [solar IRR and payback for C&I in India](/blog/solar-irr-payback-ci-india/). Modelling both scenarios side by side is easier with a dedicated [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) built for IRR and PPA comparisons.
 
 ## Common RESCO Mistakes C&I Buyers Make
 
@@ -141,11 +149,11 @@ According to [IRENA's Renewable Power Finance Report](https://www.irena.org/), I
 - The building is rented or leased (CAPEX requires long-term roof ownership)
 - Capital is constrained and high grid tariffs create strong savings motivation
 - The company has low or zero taxable profit (accelerated depreciation benefit has no value)
-- Multiple sites need to be managed under a single procurement arrangement
+- Multiple sites need to be managed under a single procurement arrangement, a scenario where independent [MW-scale project management](https://heavendesigns.in/mw-scale-project-management-consultancy/) support helps standardise due diligence across locations
 
 **CAPEX is superior when:**
 - The building is owned long-term with capital available
-- The company has significant taxable profits (80% depreciation in Year 1 under Section 32 of the IT Act, per [CBDT guidelines](https://www.incometax.gov.in/), creates a substantial tax shield)
+- The company has significant taxable profits (80% [accelerated depreciation](/glossary/accelerated-depreciation/) in Year 1 under Section 32 of the IT Act, per [CBDT guidelines](https://www.incometax.gov.in/), creates a substantial tax shield)
 - The buyer qualifies for green loans from [IREDA](https://www.ireda.in/) or SBI at 8–11% interest
 - The buyer wants full asset ownership and control over O&M quality
 

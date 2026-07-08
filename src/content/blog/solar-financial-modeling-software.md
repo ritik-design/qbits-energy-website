@@ -4,6 +4,7 @@ excerpt: "Solar financial modeling software turns yield into cashflow, IRR, and 
 description: "Solar financial modeling software 2026: cashflow, IRR, NPV, country tariffs (PM Surya Ghar, SREC, FiT) and PPA. SurgePV ships it on every plan. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/solar-financial-modeling-software.svg"
 author: "Akash Hirapara"
@@ -31,7 +32,7 @@ faqs:
     a: "Yes. SurgePV exports cashflow, IRR, NPV, and payback in PDF, XLSX, and CSV formats. Branded proposal output embeds the financial summary for buyer-facing conversations."
 ---
 
-Solar financial modeling software turns the bankable yield simulation into cashflow, IRR, NPV, and payback that closes the deal. The right tool ties yield to tariffs, supports loan/lease/PPA structures, and produces lender-ready outputs. This guide compares the 2026 options and explains why [SurgePV](https://surgepv.com/) consolidates the stack.
+Solar financial modeling software turns the bankable yield simulation into cashflow, IRR, NPV, and payback that closes the deal. The right tool ties yield to tariffs, supports loan/lease/PPA structures, and produces lender-ready outputs. This guide compares the 2026 options and explains why [SurgePV](https://surgepv.com/) consolidates the stack, alongside the broader [solar design software](/blog/solar-design-software/) landscape it sits inside.
 
 > **TL;DR**
 > - Financial modelling turns yield into cashflow, IRR, NPV, and buyer-facing projections.
@@ -49,23 +50,23 @@ Solar financial modeling software turns the bankable yield simulation into cashf
 ## What Solar Financial Modeling Computes
 
 - **Annual revenue** from yield × tariff per kWh
-- **Subsidy recognition** (PM Surya Ghar, SREC, ITC)
+- **Subsidy recognition** ([PM Surya Ghar](/glossary/pm-surya-ghar/), SREC, ITC)
 - **OPEX** (cleaning, monitoring, insurance, replacement reserves)
 - **Loan repayment** schedule
 - **Lease structure** if applicable
-- **PPA cashflow** with escalation
-- **Tax depreciation** schedule
+- **[PPA](/glossary/ppa/) cashflow** with escalation
+- **[Accelerated depreciation](/glossary/accelerated-depreciation/)** schedule
 - **Cashflow** annual and cumulative
-- **IRR, NPV, payback**
+- **[IRR](/glossary/irr/), [NPV](/glossary/npv/), [payback period](/glossary/payback-period/)**
 - **Sensitivity analysis** on key assumptions
 
 ## Country Tariff Coverage in SurgePV
 
 | Country | Tariff structures supported |
 | --- | --- |
-| India | PM Surya Ghar, state net metering, ToU |
+| India | PM Surya Ghar, state [net metering](/glossary/net-metering/), ToU |
 | US | Federal ITC, state SRECs, net metering, ToU, ADRs |
-| UK | SEG, legacy FiT, ToU |
+| UK | SEG, legacy [FiT](/glossary/feed-in-tariff/), ToU |
 | Germany | Einspeisevergütung, ToU |
 | Australia | Net metering, FiT, ToU |
 | EU general | National FiT and net metering |
@@ -75,15 +76,15 @@ For custom or exotic tariffs, manual inputs are supported.
 
 ## What SurgePV Bundles With Financial Modelling
 
-- 8,760-hour bankable yield as the input
-- Country-specific tariff library
+- 8,760-hour bankable yield as the input, the same output covered in our [PV yield simulation software](/blog/pv-yield-simulation-software/) guide
+- Country-specific [tariff](/glossary/tariff/) library
 - Loan, lease, PPA structures
 - Tax depreciation schedule
 - OPEX assumptions by climate
 - Cashflow, IRR, NPV, payback
 - Sensitivity analysis
 - PDF, XLSX, CSV export
-- Financial summary embedded in [branded solar proposals](https://surgepv.com/solar-proposals)
+- Financial summary embedded in [branded solar proposals](https://surgepv.com/solar-proposals), the same output our [solar proposal software](/blog/solar-proposal-software/) comparison covers
 
 All on every paid plan at $1,299 to $1,899 per user per year.
 
@@ -111,7 +112,7 @@ SurgePV's financial model produces:
 - Year-1 net cash inflow: ₹46,750
 - Payback: 4.2 years (post-subsidy)
 - 25-year IRR: 19.4%
-- 25-year NPV at 8% discount: ₹6,20,000
+- 25-year NPV at 8% [discount rate](/glossary/discount-rate/): ₹6,20,000
 
 <div class="inline-cta">
 <h3>Country tariffs, PPA structures, IRR, and proposal in one tool</h3>
@@ -123,11 +124,11 @@ SurgePV's financial model produces:
 ## Who Should Choose Each Tool
 
 - **Choose SurgePV** for integrated yield + financial modelling + proposals in one workflow.
-- **Choose Aurora Sales Mode** for US-residential financial modelling at the upper tier.
+- **Choose Aurora Sales Mode** for US-residential financial modelling at the upper tier, though see our [Aurora Solar alternative](/blog/aurora-solar-alternative/) comparison first.
 - **Choose Energy Toolbase or Sighten** for US-residential finance-only workflows where design happens elsewhere.
 - **Choose HOMER** for off-grid, hybrid, and storage-heavy financial modelling.
 
-For most installers and EPCs in 2026, SurgePV is the [solar design software](https://surgepv.com/) that ships the cleanest integrated financial modelling at the lowest realised total cost. The [bankable yield report](https://surgepv.com/generation-financial-tool) feeds the model directly. [QuickEstimate](https://quickestimate.co/) pairs as the CRM for the sales workflow.
+For most installers and EPCs in 2026, SurgePV is the [solar design platform](https://surgepv.com/) that ships the cleanest integrated financial modelling at the lowest realised total cost. The [bankable yield report](https://surgepv.com/generation-financial-tool) feeds the model directly. [QuickEstimate](https://quickestimate.co/) pairs as the CRM for the sales workflow.
 
 <div class="inline-cta">
 <h3>Ready to close the deal with integrated finance?</h3>

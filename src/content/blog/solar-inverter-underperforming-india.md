@@ -4,6 +4,7 @@ excerpt: "Solar inverter underperforming in India? The 10-Cause Underperformance
 description: "10 causes of solar inverter underperformance in India: dust, thermal derating, inverter clipping, shading, panel ageing, loose DC connections, wrong string sizing, grid voltage, firmware, and monitoring misconfiguration."
 category: "Maintenance"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-troubleshooting.svg"
 author: "Keyur Rakholiya"
@@ -39,6 +40,13 @@ faqs:
 Your solar monitoring app shows your 5 kW system generating 16 units per day on a clear April morning. Your installer projected 22–24 units for this month. No error codes are displaying. The inverter is running normally. The generation curve looks like a normal bell shape, but you are missing 25–30% of projected output.
 
 This is solar inverter underperformance: partial yield loss without system shutdown. Unlike an offline inverter that demands immediate attention, underperformance hides in the data and silently costs generation units day after day without triggering a single alarm.
+
+> **TL;DR**
+> - Underperformance means the inverter is running and producing power, but yield sits below the expected kWh for current irradiance, a different problem from zero-output downtime.
+> - The 10-Cause Underperformance Audit orders causes from easiest to hardest to diagnose; causes 1–5 (dust, thermal derating, clipping, shading, ageing panels) resolve roughly 85% of cases without a technician.
+> - A healthy Indian rooftop system runs a Performance Ratio of 0.75–0.85; a PR below 0.70 on a 7-day rolling average confirms a real underperformance condition worth investigating.
+> - Dust and soiling is the single most common cause, cutting output 10–30% within 3–5 weeks in arid zones like Rajasthan and Gujarat.
+> - Qbits AI monitoring surfaces 8 of the 10 causes remotely using performance ratio, per-string MPPT data, grid voltage, and inverter temperature logs.
 
 > **Direct answer.** The 10-Cause Underperformance Audit diagnoses partial yield loss in Indian solar inverters: (1) dust and soiling, (2) thermal derating, (3) inverter clipping, (4) partial shading, (5) ageing panels, (6) loose DC connections, (7) wrong string sizing, (8) grid voltage fluctuation, (9) outdated firmware, (10) monitoring misconfiguration. Work through the causes in order, the first five resolve approximately 85% of underperformance cases without a technician.
 
@@ -114,7 +122,7 @@ The first five causes account for approximately 85% of underperformance cases in
 
 **Self-diagnosis:** Walk the roof during peak sun hours (10:00 AM–1:00 PM) and observe shadows on any panel. Check for tree branch growth since installation, new water tank or antenna additions, neighbouring building construction, or bird nests at the array edge. Compare per-string MPPT data in the monitoring application, a string consistently at 60–70% of the other string's output suggests shading on the weaker string.
 
-**Fix:** Remove or reposition movable obstructions. For permanent obstructions such as adjacent buildings, consult an installer about redesigning string groupings to isolate shaded panels on a separate MPPT input.
+**Fix:** Remove or reposition movable obstructions. For permanent obstructions such as adjacent buildings, consult a [verified local installer](https://heavengreenenergy.com/solar-near-me/) about redesigning string groupings to isolate shaded panels on a separate MPPT input.
 
 ### Cause 5: Ageing Panels and Gradual Degradation
 
@@ -153,7 +161,7 @@ These three causes require physical inspection of DC components or review of 7-d
 
 **Background:** DC connections between panels and the inverter (MC4 connectors, combiner box terminals, and string fuse holders) develop micro-resistance over time from thermal cycling (daily temperature swings from 10 °C to 55 °C on rooftops), UV degradation of rubber seals, and vibration from wind loading. A resistive connection dissipates power as heat rather than delivering it to the inverter.
 
-**Self-diagnosis:** Inspect all accessible MC4 connectors visually. Signs of degradation: discolouration of the plastic body (yellowing or brown), heat marks on the locking ring, or difficulty in the mating action. Combiner box terminals may show similar discolouration.
+**Self-diagnosis:** Inspect all accessible [MC4 connectors](/glossary/mc4-connector/) visually. Signs of degradation: discolouration of the plastic body (yellowing or brown), heat marks on the locking ring, or difficulty in the mating action. Combiner box terminals, part of the array's [balance of system](https://heavengreenenergy.com/products/balance-of-system/), may show similar discolouration.
 
 **Fix:** Connections showing discolouration must be replaced, do not attempt to re-crimp or remate a connection that has overheated. For in-warranty systems, contact the installer. Include DC connection inspection in the [annual inverter maintenance schedule](/blog/inverter-maintenance-india/).
 
@@ -171,7 +179,7 @@ These three causes require physical inspection of DC components or review of 7-d
 | Too many panels in string | MPPT voltage at upper limit or startup problems | 10–30% yield loss; system may not start in peak summer |
 | Mixed panel models in one string | MPPT voltage unstable, hunting | 5–20% yield loss depending on mismatch |
 
-**Fix:** String re-sizing is a design change requiring panel reconfiguration. Use the [string sizing calculator](/string-sizing-calculator/) to verify optimal string voltage. The [string sizing](/glossary/string-sizing/) glossary entry explains the MPPT voltage window calculation method.
+**Fix:** String re-sizing is a design change requiring panel reconfiguration. Use the [string sizing calculator](/string-sizing-calculator/) to verify optimal string voltage. The [string sizing](/glossary/string-sizing/) glossary entry explains the MPPT voltage window calculation method, and a properly reviewed [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) prevents this error from reaching installation in the first place.
 
 ### Cause 8: Grid Voltage Fluctuation
 

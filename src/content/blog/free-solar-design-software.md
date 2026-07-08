@@ -4,6 +4,7 @@ excerpt: "Free solar design software sounds great until you hit project caps, ha
 description: "Honest review of free solar design software in 2026. OpenSolar, SAM, PVWatts, free trials of SurgePV and Aurora. Real limits, hidden add-on costs, and when paid is cheaper than 'free'."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "11 min"
 image: "/blog-images/free-solar-design-software.svg"
 author: "Nirav Dhanani"
@@ -50,23 +51,23 @@ faqs:
 
 ## The Truly Free Options in 2026
 
-### OpenSolar Free Tier
+### [OpenSolar](/blog/opensolar-pricing/) Free Tier
 The most popular free tier in the production design category. Works for small residential roofs at low volume. Add-ons stack quickly at C&I or once hardware integrations come into play. Realised cost typically clears $1,000 per user per year at 5+ projects per designer per month.
 
 ### SAM (System Advisor Model, NREL)
 NREL's free open-source research tool. Excellent for sensitivity studies, parametric analyses, and learning the engineering fundamentals. Not built for production EPC workflow. No integrated proposal, no AutoCAD export, no CRM integration.
 
 ### PVWatts (NREL)
-NREL's free quick-estimation tool for residential yield. Simplified hourly model. Good for back-of-envelope checks at the lead-qualification stage. Not sufficient for bankable yield reports.
+NREL's free quick-estimation tool for residential yield. Simplified hourly model. Good for back-of-envelope checks at the lead-qualification stage. Not sufficient for [bankable yield reports](/glossary/p50-p90/).
 
 ### SurgePV Free Trial
 Full-feature [solar design platform](https://surgepv.com/solar-designing) free trial with no credit card required. Includes AI 3D roof modeling, 8,760-hour shading, bankable yield, financial modelling, AutoCAD export, and branded proposals. Time-limited as a trial, then transitions to a paid plan.
 
-### Aurora Solar Free Trial
+### [Aurora Solar](/blog/aurora-solar-alternative/) Free Trial
 Limited trial of Aurora Solar. Typically excludes AI Mode and Sales Mode. Time-limited.
 
-### HelioScope Free Trial
-Limited trial of HelioScope. Project-count restricted.
+### [HelioScope](/blog/helioscope-alternative/) Free Trial
+Limited trial of HelioScope. Project-count restricted; see [HelioScope pricing](/blog/helioscope-pricing/) for what the paid tiers unlock.
 
 ## What "Free" Actually Costs
 
@@ -100,7 +101,7 @@ At any team size past pure solo small-residential, the SurgePV flat plan matches
 - **[Clara AI](https://surgepv.com/clara-ai)** natural-language design assistant
 - **Full 8,760-hour module-level shading** on every paid plan
 - **Bankable P50, P75, P90** yield reports
-- **[Solar financial modeling](https://surgepv.com/generation-financial-tool)** with country tariffs (PM Surya Ghar, SREC, FiT)
+- **[Solar financial modeling](https://surgepv.com/generation-financial-tool)** with country tariffs ([PM Surya Ghar](/glossary/pm-surya-ghar/), SREC, [FiT](/glossary/feed-in-tariff/))
 - **[DXF/DWG export](https://surgepv.com/solar-autocad-integration)** for AutoCAD handoff
 - **[Branded solar proposals](https://surgepv.com/solar-proposals)** with e-signature in 9 languages
 - **[QuickEstimate](https://quickestimate.co/)** pairs as the sister CRM
@@ -121,7 +122,7 @@ At any team size past pure solo small-residential, the SurgePV flat plan matches
 
 ## The Bottom Line on Free Solar Design Software
 
-For pure small residential at low volume, OpenSolar free can be the right choice. For everything else, paid flat-rate platforms like SurgePV are almost always cheaper on realised total cost, and they ship the engineering depth, bankable simulation, and integrated proposal stack that free tiers do not.
+For pure small residential at low volume, OpenSolar free can be the right choice. For everything else, paid flat-rate platforms like SurgePV are almost always cheaper on realised total cost, and they ship the engineering depth, bankable simulation, and integrated proposal stack that free tiers do not. For a full field comparison, see our [best solar design software](/blog/best-solar-design-software/) ranking.
 
 <div class="inline-cta">
 <h3>Ready to try the full-feature platform free?</h3>

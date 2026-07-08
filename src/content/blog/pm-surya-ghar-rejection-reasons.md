@@ -3,6 +3,7 @@ title: "PM Surya Ghar Application Rejected, Why and What to Do"
 excerpt: "PM Surya Ghar rejected? Top reasons include name mismatch, outdated bills, non-ALMM inverters, and property issues. Full recovery guide for 2026."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "13 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Nirav Dhanani"
@@ -34,6 +35,14 @@ faqs:
 A PM Surya Ghar rejection is frustrating, especially after weeks of waiting. But the majority of rejections are fixable, the challenge is understanding exactly what went wrong and responding to the right authority in the right way. This guide covers every common rejection reason, the recovery path for each, and how to avoid the mistakes that cause rejections in the first place.
 
 > **Direct answer.** The most common PM Surya Ghar rejection reasons are name mismatch across documents (35–40% of rejections), outdated electricity bill, non-ALMM-listed components, property ownership issues, and ineligible connection type. Most rejections are correctable, fix the flagged issue and reapply within 30 days to retain your position in the review queue.
+
+> **TL;DR**
+> - Name mismatch across Aadhaar, electricity bill, PAN, and bank account causes 35–40% of all rejections.
+> - An electricity bill older than 90 days is rejected at the document verification stage.
+> - A non-ALMM-listed inverter fails DISCOM inspection even after installation is complete, and the subsidy is withheld until it is replaced.
+> - Commercial, industrial, and agricultural connections, and rental properties without a landlord NOC, are categorically ineligible.
+> - Most rejections are correctable, fix the flagged issue and reapply within 15 to 30 days to keep your place in the DISCOM queue.
+> - Unresolved rejections can be escalated through the portal grievance system, the MNRE helpline, or the CPGRAMS portal.
 
 Rejection is not a permanent outcome in most cases. What matters is correctly diagnosing the cause, fixing it once, and resubmitting cleanly. The [PM Surya Ghar documents guide](/blog/pm-surya-ghar-documents-required/) covers how to prepare a clean document set before your next submission.
 
@@ -75,7 +84,7 @@ Most DISCOMs require the electricity bill to be within 90 days of the applicatio
 
 The PM Surya Ghar scheme mandates that all solar components (panels and inverters) be sourced from the [ALMM list](/glossary/almm-list/) (Approved List of Models and Manufacturers) maintained by MNRE. An inverter not on this list fails the DISCOM inspection after installation, and the subsidy is not released.
 
-> **Phase III ALMM compliance** is the current requirement. The list is updated quarterly by MNRE and is available at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}. Before confirming your inverter choice, verify the specific model number appears on the current list, not just the brand name.
+> **[Phase III ALMM compliance](/blog/almm-list-phase-iii-guide/)** is the current requirement. The list is updated quarterly by MNRE and is available at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}. Before confirming your inverter choice, verify the specific model number appears on the current list, not just the brand name.
 
 **Fix:** If the rejection is at the application stage due to the vendor proposing a non-listed model, change vendors or request a different inverter model from the same vendor. If the installation has already happened with a non-compliant inverter, the inverter must be replaced before inspection.
 
@@ -87,7 +96,7 @@ PM Surya Ghar subsidies apply to residential/domestic electricity connections on
 
 ### 5. Property Ownership Issue
 
-The scheme requires the applicant to own the roof. Tenants, sub-tenants, and encroachers cannot apply. Additionally, some property types require specific documents that are frequently missing.
+The scheme [requires the applicant to own the roof](/blog/pm-surya-ghar-eligibility/). Tenants, sub-tenants, and encroachers cannot apply. Additionally, some property types require specific documents that are frequently missing.
 
 **Fix:** Confirm you have a valid ownership document matching the installation site. See the full breakdown in the [PM Surya Ghar documents guide](/blog/pm-surya-ghar-documents-required/) for acceptable ownership proof types by property category.
 
@@ -108,8 +117,8 @@ Subsidies above ₹50,000 require PAN to be linked to Aadhaar, per Income Tax De
 This is distinct from document rejection. A technical feasibility rejection means the DISCOM engineer determined your roof or connection cannot support the proposed solar system.
 
 Common technical rejection reasons:
-- **Insufficient roof area**: A 3 kW system requires approximately 25–30 square metres of unshaded roof area. A smaller roof may only qualify for a 1 kW or 2 kW system.
-- **Structural concern**: Older buildings, terraced structures, or roofs with significant shade may require structural reinforcement that the DISCOM flags as a concern.
+- **Insufficient roof area**: A 3 kW system requires approximately 25–30 square metres of unshaded roof area. A smaller roof may only qualify for a 1 kW or 2 kW system. A professional [site survey and land feasibility check](https://heavendesigns.in/site-survey-land-feasibility-services/) before you sign a vendor contract catches this before the DISCOM does.
+- **Structural concern**: Older buildings, terraced structures, or roofs with significant shade may require [structural reinforcement](https://heavendesigns.in/solar-civil-and-structural-engineering/) that the DISCOM flags as a concern.
 - **Connection load limit**: Your existing sanctioned load may be lower than the proposed system requires.
 
 **Fix:** Request the feasibility report in writing from your DISCOM. If your roof can support a smaller system, reapply for the smaller capacity. If the structural concern is addressable, get a structural engineer's certificate and submit it with your reapplication.
@@ -167,7 +176,7 @@ Preventing this requires verifying the inverter's ALMM compliance before signing
 
 ## Where Qbits Fits
 
-Choosing an ALMM-compliant inverter at the vendor selection stage eliminates the most expensive form of PM Surya Ghar rejection. Qbits inverters carry ALMM Phase III listing, BIS certification, and IEC 62116 compliance, all required for PM Surya Ghar inspection clearance.
+Choosing an ALMM-compliant inverter at the vendor selection stage eliminates the most expensive form of PM Surya Ghar rejection. Qbits inverters carry ALMM Phase III listing, [BIS certification](/blog/solar-inverter-certifications/), and IEC 62116 compliance, all required for PM Surya Ghar inspection clearance.
 
 Three pages that help you select the right system before vendor confirmation:
 

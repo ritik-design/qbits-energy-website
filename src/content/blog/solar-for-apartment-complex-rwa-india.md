@@ -4,6 +4,7 @@ excerpt: "Solar for apartment complex India: common area solar (lift, lights, pu
 description: "How solar works for apartment complexes and RWAs in India. Common area vs individual flat models, DISCOM rules for group housing, RWA approval, and the Maharashtra net metering framework."
 category: Buying Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-inverter-integration-in-india.svg"
 author: "Akash Hirapara"
@@ -36,6 +37,14 @@ The good news is that both common area solar and individual flat solar are viabl
 
 > **Direct answer.** Apartment complex solar in India operates through two distinct models: (1) common area solar (one system on one meter for lifts, lighting, and pumps) which is straightforward and reduces monthly maintenance charges; and (2) individual flat solar, each flat applies separately for their own net metering connection. Maharashtra has the most advanced virtual net metering framework for group housing. Use the RWA Solar Decision Framework in this guide to identify the right model for your society.
 
+> **TL;DR**
+> - Common area solar (10-50 kW on the society meter) needs only one DISCOM application and RWA authorisation, and directly reduces the monthly maintenance charge.
+> - Individual flat solar requires a separate DISCOM application per flat but unlocks the PM Surya Ghar subsidy of up to ₹78,000 per eligible flat owner.
+> - Maharashtra is the most advanced state for group housing, permitting virtual net metering that splits one system's savings across many flat meters.
+> - A 30 kW rooftop system on a 100-flat society typically pays back in about 4.2 years and cuts roughly ₹350-700 off each flat's monthly maintenance bill.
+> - The RWA Solar Decision Framework uses the society's common area bill, DISCOM readiness, AGM authorisation, and roof ownership to pick the right model.
+> - Societies should reserve 5-10% of annual savings for cleaning and the eventual Year 12-15 inverter replacement.
+
 ## Understanding the Two Models: Common Area vs Individual Flat
 
 Every apartment complex solar decision begins with a fundamental question: is the solar system connected to the society's common area electricity meter, or to individual flat owners' meters?
@@ -57,7 +66,7 @@ Every apartment complex solar decision begins with a fundamental question: is th
 
 ### Model 2: Individual Flat Solar
 
-**How it works:** Each flat owner installs a small solar system (typically 2–5 kW) connected to their own flat's electricity meter. Net metering allows the flat owner to export surplus generation and receive credits against their monthly bill.
+**How it works:** Each flat owner installs a small solar system (typically 2–5 kW) connected to their own flat's electricity meter. [Net metering](/glossary/net-metering/) allows the flat owner to export surplus generation and receive credits against their monthly bill.
 
 **Advantages:**
 - PM Surya Ghar subsidy of up to ₹78,000 available to each eligible flat owner.
@@ -102,7 +111,7 @@ Maharashtra has the most developed regulatory framework for group housing solar 
 - Individual flat owners in multi-storey buildings can apply for PM Surya Ghar with their individual consumer numbers.
 - Residential group housing societies are specifically addressed in MERC's (Maharashtra Electricity Regulatory Commission) net metering orders.
 
-Under Maharashtra's virtual net metering framework, a 50-flat society can install a 30 kW rooftop system on the common area and distribute the savings (roughly 15,000 units/month) across all 50 flats' individual meters in proportion to their ownership share or maintenance contribution.
+Under Maharashtra's virtual net metering framework, a 50-flat society can install a 30 kW rooftop system on the common area and distribute the savings (roughly 15,000 units/month) across all 50 flats' individual meters in proportion to their ownership share or maintenance contribution. For a real-world example of this model working end to end, see the [case study of solar for a Noida apartment complex (RWA)](/blog/case-study-noida-apartment-rwa/).
 
 > **Policy reference.** MERC's Electricity Supply Code and various amendments have progressively expanded net metering eligibility for group housing societies. The [MNRE Net Metering Guidelines](https://mnre.gov.in/) provide the national framework, while state electricity regulatory commissions (SERCs) implement state-specific variations. *Source - [MNRE](https://mnre.gov.in/), 2025.*
 
@@ -136,13 +145,15 @@ For a 100-flat society, this translates to approximately ₹438 per flat per mon
 ## Step-by-Step Process for Common Area Solar in an Apartment Complex
 
 **Step 1: Load audit and roof assessment**
-Collect 12 months of common area electricity bills. Assess usable roof area (subtracting water tanks, lift rooms, and setback requirements). Typical 100-flat apartment roofs have 2,000–5,000 sq ft of usable area.
+Collect 12 months of common area electricity bills. Assess usable roof area (subtracting water tanks, lift rooms, and setback requirements). Typical 100-flat apartment roofs have 2,000–5,000 sq ft of usable area. A formal [site survey and land feasibility assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) is worth commissioning for larger societies, since terrace obstructions and shading from adjacent towers are easy to underestimate from a rooftop walk-through alone.
 
 **Step 2: Managing committee resolution**
 Agenda the solar proposal at a managing committee meeting. If the capex exceeds the committee's authority threshold, hold an AGM. Pass a resolution specifying system size, cost, vendor selection method, and financing (corpus fund, maintenance surplus, or bank loan).
 
 **Step 3: Vendor quotation and selection**
-Obtain at least three quotations from ALMM-compliant installers. Evaluate on system size, inverter brand (ALMM-listed), warranty, net metering experience in multi-storey buildings, and service track record.
+Obtain at least three quotations from ALMM-compliant installers, ideally ones with dedicated [solar EPC / turnkey installation](https://heavengreenenergy.com/solar-epc/) experience in multi-storey group housing. Evaluate on system size, inverter brand (ALMM-listed), warranty, net metering experience in multi-storey buildings, and service track record.
+
+Before signing with any vendor, the managing committee should work through the [solar system quotation checklist](/blog/solar-quotation-checklist/) so the comparison covers warranty terms, service commitments, and net metering support, not just the headline price.
 
 **Step 4: DISCOM application for net metering**
 The society applies for net metering under the common area consumer number. Submit: system design drawing, single-line diagram, inverter specifications (ALMM listing), and society registration documents.

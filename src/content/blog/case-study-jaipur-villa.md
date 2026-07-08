@@ -4,6 +4,7 @@ excerpt: "A Jaipur villa owner cut a ₹19,000/month bill to near-zero with a 10
 description: "Real numbers from a 10 kW on-grid solar installation on a Jaipur 4BHK villa, generation, savings, JVVNL net metering, Rajasthan subsidy, and 4-year payback math."
 category: "Case Study"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
 author: "Nirav Dhanani"
@@ -42,6 +43,14 @@ What happened after a 10 kW Qbits on-grid solar system went live on the south-fa
 
 > **Direct answer.** A 10 kW on-grid solar system on a Jaipur villa generates approximately 21,500 kWh per year, reduces a ₹19,000/month electricity bill by 80–90%, and achieves payback in roughly 4 years at the JVVNL tariff of ₹7.5–8 per unit. The Rajasthan Solar ROI Stack (the four-factor framework explained in this post) shows why Rajasthan's irradiance premium, IP66 necessity, DC oversizing at 1.25:1, and JVVNL net metering together make this the fastest-payback state in India for residential solar.
 
+> **TL;DR**
+> - Jaipur's 6.2 kWh/m²/day GHI is roughly 24% above the national average, adding an estimated 3,000 kWh/year of extra generation on a 10 kW system.
+> - A 25-panel, 10 kWp array (1.19:1 effective DC oversizing at 70°C) was specified to offset thermal derating that would otherwise cut summer output by 10-15%.
+> - IP66 enclosure protection, not IP65, was treated as non-negotiable to keep Rajasthan's fine desert dust out of the inverter cavity.
+> - Net capex after the ₹1.41 Lakh PM Surya Ghar subsidy was ₹5.79 Lakh, against Year 1 savings of ₹1.37 Lakh.
+> - Simple payback came out to 4.24 years, with 10-year cumulative savings projected at ₹17.18 Lakh.
+> - On-grid was chosen over hybrid because Civil Lines, Jaipur averages under 30 minutes of outages a week, making battery backup financially unjustified.
+
 Rajasthan is simultaneously the most lucrative and the most demanding environment for solar in India. The same heat that makes the desert state a solar superpower also kills undersized, poorly rated inverters within three to five years. Understanding why (and specifying the system correctly from day one) is the difference between a 4-year and a 9-year payback.
 
 ## The Jaipur Villa: Load Profile and Pre-Solar Bill
@@ -76,7 +85,7 @@ This is why the specification of this system prioritised two non-negotiable item
 
 ## System Design: 10 kW Qbits On-Grid, 25 Panels, 1.25:1 DC Oversizing
 
-The system installed on this Jaipur villa uses the following configuration:
+Following a structured [residential solar design](https://surgepv.com/residential-solar-design/) process rather than a generic template, the system installed on this Jaipur villa uses the following configuration:
 
 - **Inverter**: Qbits TLS-10K on-grid string inverter, 10 kW AC output, IP66-rated, dual MPPT, operating range 100–550V DC, 180–270V AC grid tolerance, BIS and ALMM-compliant
 - **Panels**: 25 × 400 Wp monocrystalline PERC panels (10,000 Wp = 10 kWp nameplate), all south-facing, 10° tilt on flat terrace mounting structure
@@ -86,7 +95,7 @@ The system installed on this Jaipur villa uses the following configuration:
 
   To compensate and reach closer to the 10 kW inverter's rated input, the installer specified 25 panels of 400 Wp rather than 20, yielding 10 kWp nominal. When operating temperature is accounted for, the effective DC input during peak summer hours aligns with the inverter's optimal input range without forced clipping.
 
-- **String configuration**: 2 MPPT inputs, String 1 = 13 panels (5,200 Wp), String 2 = 12 panels (4,800 Wp), both south-facing, no shading obstructions confirmed via site survey
+- **String configuration**: 2 MPPT inputs, String 1 = 13 panels (5,200 Wp), String 2 = 12 panels (4,800 Wp), both south-facing, no shading obstructions confirmed via a pre-installation [site survey](https://heavendesigns.in/site-survey-land-feasibility-services/)
 - **Mounting**: Hot-dip galvanised MS mounting structure at 10° tilt (optimised for Jaipur latitude 26.9° N, balancing annual yield and monsoon wind load)
 - **Protection**: AC/DC isolators, DC SPD (surge protection device), AC MCB, RCCB at the distribution board, CEIG compliance for the Rajasthan grid connection
 
@@ -169,7 +178,7 @@ Before applying, the installer confirmed three technical preconditions: (a) the 
 
 ### Step 2: JVVNL Online Application
 
-The application was submitted on the JVVNL consumer portal with the following documents: copy of electricity connection, site plan showing panel layout, single-line diagram of the solar system, inverter BIS/ALMM certificate, and the installer's credentials.
+The application was submitted on the JVVNL consumer portal with the following documents: copy of electricity connection, site plan showing panel layout, a [single-line diagram](https://heavendesigns.in/electrical-ceig-drawings/) of the solar system, inverter BIS/ALMM certificate, and the installer's credentials.
 
 ### Step 3: Technical Inspection
 
@@ -302,7 +311,7 @@ For buyers whose properties face more than two hours of daily outages, or who ar
 
 ## Where Qbits Fits in a Jaipur Villa Installation
 
-Villa owners in Jaipur who prioritise long-term financial return over short-term cost minimisation land on Qbits for three concrete reasons: the 12-year full replacement warranty, the IP66 rating that the Rajasthan climate demands, and the AI-powered WhatsApp monitoring that removes the anxiety of owning an asset you cannot see every day.
+Villa owners in Jaipur who prioritise long-term financial return over short-term cost minimisation land on Qbits for three concrete reasons: the 12-year full replacement warranty, the IP66 rating that the Rajasthan climate demands, and the AI-powered WhatsApp monitoring that removes the anxiety of owning an asset you cannot see every day. Owners who also want a single turnkey partner for the physical build, not just the inverter, can evaluate [residential solar installation](https://heavengreenenergy.com/residential-solar/) services covering everything from mounting to commissioning.
 
 The Qbits TLS-10K used in this case study is from the TLS series, purpose-built for single-phase residential and light commercial applications. For similar villas considering three-phase connections (common in properties with large motor loads), the TLD series covers the same power range.
 

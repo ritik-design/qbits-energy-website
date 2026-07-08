@@ -4,6 +4,7 @@ excerpt: "Gross vs net metering determines how your solar is billed. Compare bot
 description: "Gross metering pays a fixed FiT on all solar generation. Net metering credits exports against imports. Compare rates, payback, and state rules to pick the right option in India."
 category: "Comparison"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "26 min"
 image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
 author: "Nirav Dhanani"
@@ -35,6 +36,13 @@ faqs:
 ---
 
 When you install a 5 kW rooftop solar system in India, one question determines whether your investment pays back in five years or ten: does your state meter all the electricity your panels generate, or only the surplus you export? That question separates gross metering from net metering, and the answer sits in your state SERC's tariff order, not in the brochure your installer handed you.
+
+> **TL;DR**
+> - Net metering credits only exported surplus against imports at the retail tariff; gross metering sells all generation to the DISCOM at a fixed feed-in tariff while you pay full consumption separately.
+> - For a typical 5 kW Bengaluru system, net metering pays back in roughly 6.6 years versus roughly 25.5 years under gross metering at a ₹3.50/unit FiT.
+> - Tamil Nadu mandates gross metering above 10 kW for residential systems; most other major states (Karnataka, Maharashtra, Gujarat, Kerala) offer retail-tariff net metering with no such cap.
+> - CERC's 2023 regulations introduced net billing as a third mechanism, crediting exports at a SERC-set rate that can be lower than retail tariff while still valuing self-consumption at full retail.
+> - Gross metering only makes financial sense for low-occupancy commercial premises, states with unusually high feed-in tariffs, or large C&I arrays with battery dispatch strategies.
 
 Most buyers encounter the term "net metering" and assume it is the only option. A significant number of Indian states and system-size brackets, however, operate under gross metering frameworks where the billing mechanics are fundamentally different. Choosing the wrong metering mode (or not knowing which applies to your system) can add years to your payback period.
 
@@ -148,7 +156,7 @@ This proprietary framework replaces the need to read through five years of SERC 
 3. **What is the gross FiT rate as a percentage of your retail tariff?**
    Divide your state's current gross FiT rate by your retail tariff rate (use the rate at which you are billed, not the lowest slab). If the ratio is above 85%, gross metering may be competitive. If the ratio is below 70%, net metering delivers materially better financial returns regardless of self-consumption profile. Below 60% (which covers most of India in 2026) net metering is the dominant choice.
 
-Apply the tree to a worked example: a homeowner in Chennai (TANGEDCO) planning a 12 kW system. Question 1, Tamil Nadu mandates gross metering above 10 kW for residential, so the decision is made. Question 2 and 3 are moot. Now the same homeowner downsizes to 10 kW, Question 1 confirms net metering is available. Question 2: the family is home during solar hours, self-consumption is ~55%. Question 3: TANGEDCO retail tariff is ₹6/unit, gross FiT would be ₹3.00/unit (50% ratio). Answer: net metering at 10 kW is the clear winner.
+Before applying the tree, it helps to run your own rooftop and monthly bill through a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) to get a rough generation and consumption baseline. Apply the tree to a worked example: a homeowner in Chennai (TANGEDCO) planning a 12 kW system. Question 1, Tamil Nadu mandates gross metering above 10 kW for residential, so the decision is made. Question 2 and 3 are moot. Now the same homeowner downsizes to 10 kW, Question 1 confirms net metering is available. Question 2: the family is home during solar hours, self-consumption is ~55%. Question 3: TANGEDCO retail tariff is ₹6/unit, gross FiT would be ₹3.00/unit (50% ratio). Answer: net metering at 10 kW is the clear winner.
 
 ## 5 kW System ROI: Net Metering vs Gross Metering Payback Calculation
 
@@ -193,7 +201,7 @@ At a ₹3.50/unit FiT versus ₹7.00/unit retail tariff, the payback gap is enor
 
 The caveat: this calculation assumes BESCOM retail-tariff net metering. In Rajasthan (APPC-rate net metering at ₹3.65/unit), the net metering payback extends to ~12 years, much closer to gross metering in that state. The decision tree in the previous section accounts for this through Question 3 (FiT-to-retail-tariff ratio).
 
-For a deeper analysis of payback across all system sizes and state tariff environments, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) covers 1 kW to 50 kW scenarios with state-specific tariff inputs. For broader residential solar economics across India, [JMK Research's India Rooftop Solar Annual Report](https://jmkresearch.com/) tracks installation costs, DISCOM performance, and tariff trends by state.
+For a deeper analysis of payback across all system sizes and state tariff environments, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) covers 1 kW to 50 kW scenarios with state-specific tariff inputs. Installers who need to run this net-versus-gross calculation across many customer tariff slabs rather than one worked example can automate it with a [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) instead of rebuilding the spreadsheet each time. For broader residential solar economics across India, [JMK Research's India Rooftop Solar Annual Report](https://jmkresearch.com/) tracks installation costs, DISCOM performance, and tariff trends by state.
 
 ## State-by-State Verdict: Net Metering vs Gross Metering Best Choice
 

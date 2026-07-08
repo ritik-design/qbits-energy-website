@@ -3,6 +3,7 @@ title: "Solar Subsidy Kaise Milegi 2026, Step-by-Step Hindi Guide"
 excerpt: "Solar subsidy kaise milegi 2026: PM Surya Ghar mein ₹78,000 kaise apply karein, documents, ALMM compliance, aur subsidy bank mein kab aayegi, puri jankari Hindi mein।"
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "13 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Akash Hirapara"
@@ -32,6 +33,13 @@ faqs:
 ---
 
 Solar subsidy पाना complicated लगता है (लेकिन process को steps में समझें तो straightforward है। सबसे बड़ी problem यह है कि बहुत से लोग wrong information पर depend करते हैं) vendor की बात मान लेते हैं, document checklist नहीं देखते, और बाद में subsidy reject होती है। इस guide में हर step clear है।
+
+> **TL;DR**
+> - Central PM Surya Ghar subsidy ₹78,000 तक मिलती है 3 kW system पर, पूरा process pmsuryaghar.gov.in पर online है।
+> - Eligibility के लिए domestic connection और घर का मालिक होना जरूरी है, agricultural और commercial connection वाले eligible नहीं हैं।
+> - पाँच documents चाहिए: Aadhaar (mobile-linked), latest electricity bill, PAN card, bank passbook/cheque, aur property proof।
+> - सबसे common rejection reasons हैं wrong DISCOM selection, non-ALMM components, aur bank account Aadhaar से unlinked होना।
+> - Total timeline 45 से 90 दिन है, average आमतौर पर 60-90 दिन लगते हैं।
 
 > **Short answer।** Solar subsidy पाने के लिए: pmsuryaghar.gov.in → Aadhaar verify → documents upload → DISCOM visit wait → ALMM-listed vendor से installation → inspection → bank में ₹78,000। Total time 45-90 दिन।
 
@@ -106,7 +114,7 @@ Apply करने से पहले eligibility confirm करें:
 1. **[pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}** open करें
 2. **"Apply for Rooftop Solar"** button click करें
 3. **State select करें**: dropdown से
-4. **DISCOM select करें**: अपने electricity bill से DISCOM का नाम देखें
+4. **[DISCOM](/glossary/discom/) select करें**: अपने electricity bill से DISCOM का नाम देखें
 5. **Consumer number enter करें**: bill पर print होता है, usually 10-12 digits
 6. **Mobile number और email**: notifications के लिए
 7. **Aadhaar OTP verify करें**: Aadhaar-linked mobile पर OTP आएगा
@@ -147,7 +155,7 @@ Registration के बाद DISCOM का field engineer आपके घर v
 - Non-ALMM components = No subsidy
 
 **Check 2, Multiple Quotes**
-- Minimum 2-3 vendors से quote लें
+- Minimum 2-3 vendors से quote लें, अगर अपने area में vendors ढूँढने में problem हो रही है तो [Heaven Green Energy का installer locator](https://heavengreenenergy.com/solar-near-me/){target="_blank" rel="noopener"} check कर सकते हैं
 - Same specification पर price compare करें
 - ₹15,000-30,000 difference normal है vendors में
 
@@ -220,11 +228,11 @@ Net metering active होने से पहले export income नहीं 
 
 ## Net Metering Se Extra Income
 
-Solar subsidy के अलावा net metering से monthly income भी होती है। Daytime में जब घर में ज्यादा बिजली बनती है उससे ज्यादा use होती है, तो excess grid को export होती है।
+Solar subsidy के अलावा [net metering](/glossary/net-metering/) से monthly income भी होती है। Daytime में जब घर में ज्यादा बिजली बनती है उससे ज्यादा use होती है, तो excess grid को export होती है।
 
 Export income = Export units × DISCOM buy-back rate
 
-Example: 3 kW system, 300 units monthly generation, 200 units self-consumption → 100 units export → ₹2.50/unit = ₹250/month additional income।
+Example: 3 kW system, 300 units monthly generation, 200 units self-consumption → 100 units export → ₹2.50/unit = ₹250/month additional income। Apna khud ka number nikaalne ke liye [SurgePV ke free solar tools](https://surgepv.com/tools/){target="_blank" rel="noopener"} use kar sakte hain.
 
 Over 25 साल: ₹250 × 12 × 25 = ₹75,000 extra income (inflation-adjusted और तेज़)।
 
@@ -284,24 +292,18 @@ Subsidy bank में आने के बाद करने वाली च�
 Solar subsidy पर tax implications जानना जरूरी है:
 
 - **Subsidy taxable है?**: Capital subsidy के रूप में treat होती है - income नहीं। Current Income Tax guidelines के under, government solar scheme subsidies homeowner के हाथ में taxable income नहीं हैं।
-- **GST on system**: Solar panels पर 5% GST, inverter पर 12% GST। Vendor quote में GST clearly mentioned होना चाहिए।
-- **Solar depreciation**: Commercial properties में solar system पर 40% accelerated depreciation benefit available है।
+- **[GST on system](/glossary/gst-on-solar/)**: Solar panels पर 5% GST, inverter पर 12% GST। Vendor quote में GST clearly mentioned होना चाहिए।
+- **Solar depreciation**: Commercial properties में solar system पर 40% [accelerated depreciation](/glossary/accelerated-depreciation/) benefit available है।
 
 Tax advisor से अपनी specific situation consult करें। [Solar inverter depreciation guide](/blog/solar-inverter-depreciation-in-india/) में details हैं।
 
 
-## Solar Subsidy Application: Frequently Asked Questions
+## Kuch Practical Scenarios Jo Aksar Confuse Karte Hain
 
-**Q: क्या subsidy form download करना होता है?**
-A: नहीं। PM Surya Ghar पूरी तरह online है - pmsuryaghar.gov.in पर directly apply होता है। No physical form, no district office visit required। [Solar subsidy form guide](/blog/solar-subsidy-form-download-guide/) में legacy form vs new online process explain है।
+Naye applicants ke दिमाग में कुछ scenarios बार-बार आते हैं जो ऊपर के steps में सीधे cover नहीं हुए। सबसे पहले, subsidy form download करने की कोई जरूरत नहीं होती - PM Surya Ghar पूरी तरह online है, pmsuryaghar.gov.in पर directly apply होता है, no physical form aur no district office visit required. [Solar subsidy form guide](/blog/solar-subsidy-form-download-guide/) में legacy form vs new online process explain है।
 
-**Q: Solar subsidy Aadhar card के नाम पर आती है या electricity bill के नाम पर?**
-A: Electricity bill और bank account दोनों ideally same name पर होने चाहिए। Aadhaar-linked bank account mandatory है। कुछ cases में DISCOM discrepancy allow करती है - but matching करना best practice है।
+Naam-matching bhi ek common confusion hai: electricity bill aur bank account dono ideally same name par hone chahiye, kyunki Aadhaar-linked bank account mandatory hai. Kuch cases mein DISCOM discrepancy allow karti hai, lekin matching karna best practice hai. Joint bank account mein bhi subsidy aa sakti hai, bas account Aadhaar-linked hona chahiye aur joint account ke first holder ka Aadhaar link hona zaroori hai.
 
-**Q: क्या joint account में subsidy आ सकती है?**
-A: हाँ, joint bank account में subsidy आ सकती है - लेकिन account Aadhaar-linked होना चाहिए। Joint account में first account holder का Aadhaar link होना चाहिए।
-
-**Q: Non-ownership flat में (society maintained building) apply कैसे करें?**
-A: Housing society या RWA के through application करें। Society के नाम पर electricity connection होता है typically। कुछ states में individual flat owner का domestic connection होता है - उस case में directly apply कर सकते हैं। Society NOC document upload करना होगा।
+Society-maintained building ya non-ownership flat mein apply karna ek aur common sawaal hai. Aise cases mein housing society ya RWA ke through application karein, kyunki society ke naam par electricity connection typically hota hai. Kuch states mein individual flat owner ka domestic connection hota hai, us case mein directly apply kar sakte hain, bas Society NOC document upload karna hoga.
 
 These practical scenarios are covered in detail in the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/), India's most comprehensive solar subsidy resource.

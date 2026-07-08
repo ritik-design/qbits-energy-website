@@ -3,6 +3,7 @@ title: "Is Solar Worth It in India in 2026? - The Honest Answer"
 excerpt: "Is solar worth it in India in 2026? Yes, for homeowners with bills above ₹3,000/month, their own roof, and a 5-year horizon. The Solar Decision Test gives you the honest answer in 5 questions."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
 author: "Akash Hirapara"
@@ -35,11 +36,19 @@ Every month, thousands of Indian homeowners weigh the solar decision after a ste
 
 > **Direct answer.** Solar is worth it in India in 2026 for homeowners who own their roof, pay electricity bills above ₹3,000 per month, and plan to stay in the property for 5+ years. A 3 kW system costs ₹2.5–3 lakh post-subsidy, saves ₹4,000–5,000 per month, and pays back in 5–6 years, leaving 6–7 years of pure savings within the 12-year inverter warranty alone. "The Solar Decision Test: 5 Yes/No Questions" below is the fastest way to a reliable answer for your situation.
 
+> **TL;DR**
+> - A 3 kW system costs ₹2.2-2.97 lakh after the ₹78,000 PM Surya Ghar subsidy and pays back in 5-7 years depending on state tariff and irradiance.
+> - Score yourself on the 5-question Solar Decision Test (roof ownership, bill size, tenure, roof access, grid stability), 5/5 means proceed, 2/5 or below means revisit later.
+> - Rajasthan and Gujarat offer the fastest paybacks (4-6 years); Kerala is slowest (6-8 years) due to lower irradiance and slower DISCOM approvals.
+> - Tenants cannot claim the subsidy or register net metering in their own name, making solar impractical without landlord cooperation.
+> - Total 25-year return on a ₹2.5 lakh post-subsidy investment is typically ₹8-12 lakh, a 3.2-4.8x return.
+> - The inverter is the highest-risk component; a 12-year full-replacement warranty protects the pure-savings phase after payback.
+
 The analysis below is deliberately honest. Solar is a strong investment for the right buyer and a mediocre one for the wrong buyer. Understanding the difference saves both money and disappointment.
 
 ## The Real Numbers: What a 3 kW System Costs and Saves
 
-Before the decision framework, let us establish the actual financial picture for the most common residential system size in India.
+Before the decision framework, let us establish the actual financial picture for the most common [residential solar](https://heavengreenenergy.com/residential-solar/) system size in India.
 
 **System: 3 kW on-grid solar, India 2026**
 
@@ -59,9 +68,9 @@ Before the decision framework, let us establish the actual financial picture for
 
 *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/) for subsidy amounts; [IRENA Renewable Power Generation Costs 2024](https://www.irena.org/Publications/2025/Mar/Renewable-Power-Generation-Costs-in-2024) for system cost benchmarks.*
 
-The table above assumes net metering at grid tariff parity. States where DISCOMs offer lower feed-in tariffs for exports (rather than full net metering credit) will show slightly lower savings; states with higher domestic tariffs will show higher savings.
+The table above assumes net metering at grid tariff parity. States where DISCOMs offer lower feed-in tariffs for exports (rather than full net metering credit) will show slightly lower savings; states with higher domestic tariffs will show higher savings. See the [net metering guide for India](/blog/net-metering-india-complete-guide/) for how export credit rates vary state by state, and a formal [financial modeling tool](https://surgepv.com/generation-financial-tool/) if you want a month-by-month projection rather than the simplified annual figures here.
 
-> **₹78,000.** Maximum PM Surya Ghar Muft Bijli Yojana central subsidy for a 3 kW residential system, credited directly to the bank account of the verified homeowner within 30 days of DISCOM inspection. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
+> **₹78,000.** Maximum PM Surya Ghar Muft Bijli Yojana central subsidy for a 3 kW residential system, credited directly to the bank account of the verified homeowner within 30 days of [DISCOM](/glossary/discom/) inspection. Use the [PM Surya Ghar subsidy calculator](/blog/pm-surya-ghar-subsidy-amount/) to find the exact amount for your system size. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ## The Solar Decision Test: 5 Yes/No Questions
 
@@ -69,7 +78,7 @@ This five-question framework is the fastest diagnostic for whether solar makes f
 
 ### The Solar Decision Test: 5 Yes/No Questions
 
-1. **Do you own the roof?**: Net metering registration, DISCOM connection, and PM Surya Ghar subsidy are all issued to the property owner. Tenants face insurmountable legal hurdles without the owner's active participation. *Yes = 1 point.*
+1. **Do you own the roof?**: [Net metering](/glossary/net-metering/) registration, DISCOM connection, and PM Surya Ghar subsidy are all issued to the property owner. Tenants face insurmountable legal hurdles without the owner's active participation, see [PM Surya Ghar eligibility](/blog/pm-surya-ghar-eligibility/) for the full ownership and documentation requirements. *Yes = 1 point.*
 
 2. **Is your monthly electricity bill above ₹3,000?**: At ₹3,000/month (roughly 350–400 units in most states), a 3 kW system pays back in under 7 years. Below ₹2,000/month, the required system is so small that installation economics rarely justify the project. *Yes = 1 point.*
 
@@ -117,7 +126,7 @@ If you live in an area of UP, Bihar, or interior Maharashtra with 4–8 hours of
 
 ## The Real Payback Period: State by State
 
-Payback period is the most-cited and most-misunderstood solar metric. Here is an honest state-by-state comparison for a 3 kW system.
+[Payback period](/glossary/payback-period/) is the most-cited and most-misunderstood solar metric. Here is an honest state-by-state comparison for a 3 kW system.
 
 | State | Avg Irradiance | Residential Tariff | Annual Savings | Payback (post-subsidy) |
 | --- | --- | --- | --- | --- |

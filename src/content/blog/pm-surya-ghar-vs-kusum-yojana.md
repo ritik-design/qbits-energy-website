@@ -3,6 +3,7 @@ title: "PM Surya Ghar vs KUSUM Yojana, Which Scheme Is Right for You?"
 excerpt: "PM Surya Ghar vs KUSUM: homes use PM Surya Ghar for rooftop subsidies; farmers use KUSUM for pump solarisation and ground-mounted systems. Full 2026 comparison."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "13 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Nirav Dhanani"
@@ -31,9 +32,17 @@ faqs:
     a: "Under KUSUM Component C, your agricultural pump is solarised - it generates solar power that first powers the pump. Any excess generation is exported to the DISCOM grid at a feed-in tariff rate. This means your agricultural electricity bill can drop to near zero during sunny months, and you receive income from exported units. In some states, this generates a net annual income of ₹50,000 to ₹1.5 lakh per solarised pump for farmers with surplus solar capacity."
 ---
 
-Two major government schemes, two different beneficiary groups, and considerable confusion between them. Homeowners ask about KUSUM when they should be looking at PM Surya Ghar; farmers hear about PM Surya Ghar when KUSUM Component B is actually the right fit. This guide draws a clear line between the two schemes so you apply to the one that actually applies to your situation.
+Two major government schemes, two different beneficiary groups, and considerable confusion between them. Homeowners ask about [KUSUM](/glossary/kusum/) when they should be looking at PM Surya Ghar; farmers hear about PM Surya Ghar when KUSUM Component B is actually the right fit. This guide draws a clear line between the two schemes so you apply to the one that actually applies to your situation.
 
 > **Direct answer.** PM Surya Ghar is for residential homeowners with a domestic electricity connection seeking rooftop solar subsidies. KUSUM Yojana is for farmers seeking to solarise agricultural pumps or install solar on agricultural land. The two schemes serve different beneficiary groups, different connection types, and different MNRE objectives. Choosing the wrong scheme results in an ineligible application.
+
+> **TL;DR**
+> - PM Surya Ghar covers residential rooftop solar on a domestic electricity connection; KUSUM covers agricultural pumps and farmland-based solar.
+> - PM Surya Ghar pays up to ₹78,000 central subsidy for a 3 kW system; KUSUM pays 30% central plus roughly 30% state subsidy, leaving the farmer around 40% of the cost.
+> - KUSUM has three components: Component A (leasing land for 0.5–2 MW ground-mounted plants), Component B (standalone off-grid solar pumps), and Component C (solarising existing grid-connected pumps).
+> - PM Surya Ghar applications average 45–90 days through a single national portal; KUSUM applications run 3–12 months through state nodal agencies.
+> - Both schemes require ALMM-listed panels and inverters, non-compliant equipment disqualifies the subsidy under either scheme.
+> - A household with both a home and farmland can apply to both schemes at once, since they cover separate connections and separate installations.
 
 Both schemes fall under [MNRE's rooftop solar programme](/blog/mnre-rooftop-solar-scheme/) framework but address fundamentally different energy problems. According to [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"}, India's residential solar market and agricultural solar market are both growing at over 35% annually but require completely different policy interventions. Understanding the distinction takes five minutes and prevents weeks of misdirected applications.
 
@@ -56,7 +65,7 @@ Both schemes fall under [MNRE's rooftop solar programme](/blog/mnre-rooftop-sola
 
 ## PM Surya Ghar: Who Should Apply
 
-PM Surya Ghar is the right choice if your situation matches all of these criteria:
+[PM Surya Ghar](/glossary/pm-surya-ghar/) is the right choice if your situation matches all of these criteria:
 
 - You own a house, flat, or independent dwelling
 - Your electricity connection is in the residential/domestic category
@@ -64,7 +73,7 @@ PM Surya Ghar is the right choice if your situation matches all of these criteri
 - You pay a monthly electricity bill of ₹2,000 or more that you want to reduce
 - You are eligible for the DISCOM's net metering programme in your state
 
-The subsidy of up to ₹78,000 for a 3 kW system, combined with net metering income, typically delivers a 5 to 8 year payback period on a standard residential installation, as supported by [IRENA's India solar analysis](https://www.irena.org/){target="_blank" rel="noopener"} showing residential solar IRRs of 15 to 22% in Indian metro markets. After payback, the solar system generates effectively free electricity for its remaining 20+ year life.
+The subsidy of up to ₹78,000 for a 3 kW system, combined with net metering income, typically delivers a 5 to 8 year payback period on a standard residential installation, as supported by [IRENA's India solar analysis](https://www.irena.org/){target="_blank" rel="noopener"} showing residential solar [IRRs](/glossary/irr/) of 15 to 22% in Indian metro markets. After payback, the solar system generates effectively free electricity for its remaining 20+ year life.
 
 For the complete application process, see [how to apply for PM Surya Ghar online](/blog/pm-surya-ghar-apply-online/). For required documents, see the [PM Surya Ghar documents checklist](/blog/pm-surya-ghar-documents-required/).
 
@@ -74,9 +83,9 @@ KUSUM Yojana addresses the energy challenges of India's agricultural sector thro
 
 ### Component A: Decentralised Ground-Mounted Solar Plants
 
-Farmers and rural landowners with barren, fallow, or marginal agricultural land can lease it for solar plants of 0.5 MW to 2 MW capacity. The solar power generated is sold to the local DISCOM at a fixed tariff. The farmer earns annual lease income (₹20,000 to ₹60,000 per acre per year in most states) without installing or maintaining the system. The investor or developer handles all technical work; the farmer provides land access.
+Farmers and rural landowners with barren, fallow, or marginal agricultural land can lease it for [solar plants](https://heavengreenenergy.com/ground-mount-solar-park/) of 0.5 MW to 2 MW capacity. The solar power generated is sold to the local DISCOM at a fixed tariff. The farmer earns annual lease income (₹20,000 to ₹60,000 per acre per year in most states) without installing or maintaining the system. The investor or developer handles all technical work; the farmer provides land access.
 
-This component is best for large landholders with land that has low agricultural productivity.
+This component is best for large landholders with land that has low agricultural productivity. Landowners who want to keep part of the plot under cultivation while hosting panels should also look at [agrivoltaic design approaches](/blog/agrivoltaic-design-software/), which combine crop production with solar generation on the same land.
 
 ### Component B: Standalone Solar Pumps
 
@@ -86,7 +95,7 @@ This component is ideal for farmers in areas with poor or absent grid connectivi
 
 ### Component C: Solarisation of Grid-Connected Pumps
 
-Existing grid-connected agricultural pump users can add solar panels to their pumps. The solar power first runs the pump, and surplus is exported to the DISCOM grid at a feed-in tariff. This is the most financially attractive component for farmers who already have a grid connection, the solar system simultaneously eliminates pump electricity costs and generates export income.
+Existing grid-connected agricultural pump users can add solar panels to their pumps. The solar power first runs the pump, and surplus is exported to the DISCOM grid at a [feed-in tariff](/glossary/feed-in-tariff/). This is the most financially attractive component for farmers who already have a grid connection, the solar system simultaneously eliminates pump electricity costs and generates export income. Installers scoping these projects can find dedicated [PM-KUSUM ground-mount and pump solarisation resources](https://heavengreenenergy.com/drebp-pm-kusum/) covering component-specific requirements.
 
 A 5 HP pump with a 7.5 kW solar system can generate ₹50,000 to ₹1 lakh per year in feed-in tariff income in sunny states (Rajasthan, Gujarat, MP), with a payback period of 3 to 5 years after subsidies.
 

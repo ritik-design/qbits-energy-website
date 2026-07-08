@@ -4,6 +4,7 @@ excerpt: "THD in an inverter is the percentage of non-fundamental harmonic conte
 description: "What is THD in an inverter, why IEEE 519 caps it at 5% VTHD at PCC and 3% for sensitive loads, and how Qbits inverters achieve <3% THD using LC filters, IGBT selection and PWM control."
 category: "Technology"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-specifications-decoded.svg"
 author: "Keyur Rakholiya"
@@ -37,6 +38,13 @@ faqs:
 ---
 
 Solar projects in hospitals, data centres, pharmaceutical facilities, and precision manufacturing plants face a procurement question that goes beyond panel count and kWp: what is the THD specification of the inverter under evaluation, and does it meet the distortion limits that apply to sensitive loads?
+
+> **TL;DR**
+> - THD measures the harmonic content of an inverter's AC output relative to the 50 Hz fundamental; IEEE 519 caps voltage THD at 5% at the PCC below 69 kV, while IS 17387 requires current THD below 3% at rated output in India.
+> - Qbits inverters hold under 3% current THD at rated output across the TLS, TLD, HS, and HT series, verified in BIS and IEC certification test reports.
+> - High THD overheats motors and transformers, trips VFDs and UPS bypass systems, and can disqualify an inverter from hospital, data centre, and precision manufacturing projects, where the effective design target is 3% VTHD or tighter.
+> - THD rises sharply at partial load, a unit reading 2% ITHD at 100% output can show 8-12% at 10% output, so procurement specs should require THD data at 100%, 25%, and 10% load points.
+> - Quality inverters control THD through high switching frequency, LCL output filters, precision IGBT selection, feedforward harmonic compensation, and interleaved carrier phase shifting.
 
 The question matters because every switching inverter injects harmonic currents into the AC grid as a side effect of its DC-to-AC conversion process. When those harmonics are controlled correctly, the inverter operates within IEEE 519 and IS 17387 limits and is invisible to connected equipment. When they are not (due to weak filters, low-quality IGBTs, or inadequate control design) the result is waveform distortion that causes equipment overheating, VFD trips, UPS faults, and, in extreme cases, medical device calibration errors.
 
@@ -182,7 +190,7 @@ The THD requirements are not uniform across C&I applications. The table below ma
 
 ### Hospital Projects: The Mandatory Checklist
 
-For hospital solar installations, the EPC must verify three THD-related items before the inverter specification is finalised:
+EPCs delivering [commercial solar installations](https://heavengreenenergy.com/commercial-solar/) for healthcare campuses treat power quality as a contractual line item, not a nice-to-have, because a hospital procurement contract can carry supply-quality penalty clauses that a standard rooftop job never sees. For hospital solar installations, the EPC must verify three THD-related items before the inverter specification is finalised:
 
 - **Inverter ITHD at rated and partial load**: request test reports, not just datasheet figures.
 - **Background VTHD at the PCC**: measure existing grid distortion before the solar plant energises. If background distortion is already 2.5%, the inverter headroom is only 0.5% VTHD additional before hitting the 3% design target.
@@ -248,7 +256,7 @@ For EPC teams specifying inverters on sensitive-load projects:
 - **[Hybrid Inverters (HS / HT series)](/hybrid-inverter/)**: Battery-ready with seamless backup switchover. Less than 3% ITHD at rated output, making them appropriate for data centre edge deployments and hospital UPS integration where solar + storage topology is specified.
 - **[Download datasheets](/download-datasheets/)**: Full harmonic specifications, individual harmonic test data, and BIS / IEC certification references are included in the technical datasheet package for all current series.
 
-When you are ready to evaluate THD performance against a specific project specification (including background VTHD at the site and load-point requirements) the Qbits engineering team provides site-specific harmonic assessments at no cost for projects above 50 kW. [Contact the team](/contact-us/) with the site address and single-line diagram to get started.
+When you are ready to evaluate THD performance against a specific project specification (including background VTHD at the site and load-point requirements) the Qbits engineering team provides site-specific harmonic assessments at no cost for projects above 50 kW. [Contact the team](/contact-us/) with the site address and a [single-line diagram](https://heavendesigns.in/electrical-ceig-drawings/) to get started, if the project does not yet have one prepared, an engineering partner can produce the electrical and CEIG drawings alongside the harmonic assessment.
 
 ## THD Across Inverter Technologies: String, Central, and Hybrid
 

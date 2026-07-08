@@ -4,6 +4,7 @@ excerpt: "Solar shading analysis software runs the hourly simulation that turns 
 description: "Solar shading analysis software 2026: how 8,760-hour module-level shading works, why it drives bankable yield, and which tools ship it. Book a SurgePV demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "11 min"
 image: "/blog-images/solar-shading-analysis-software.svg"
 author: "Nirav Dhanani"
@@ -48,37 +49,37 @@ Solar shading analysis software runs the hourly simulation that turns a layout i
 
 ## What 8,760-Hour Module-Level Shading Means
 
-A year has 8,760 hours. The simulation computes the sun position at every hour, projects shadows from every obstruction in the 3D model, and calculates the shading factor on each PV module independently. This module-level result then feeds the MPPT logic of each inverter, producing accurate AC yield.
+A year has 8,760 hours. The simulation computes the sun position at every hour, projects shadows from every obstruction in the 3D model, and calculates the shading factor on each PV module independently. This module-level result then feeds the [MPPT](/glossary/mppt/) logic of each inverter, producing accurate AC yield.
 
 The methodology has three quality dimensions: hourly granularity (8,760 vs daily averages), per-module computation (vs string averaging), and 3D geometry accuracy. SurgePV ships full quality on every paid plan.
 
 ## Why Shading Matters for Bankable Yield
 
-Inaccurate shading shifts yield by 3 to 8 percent on residential rooftops and 5 to 15 percent on complex C&I sites with inter-row or microclimate effects. On a 100 kW commercial system at $0.12/kWh, that is $1,800 to $9,000 per year of yield-prediction error. Lenders require methodology accepted by the project-finance community before funding.
+Inaccurate shading shifts yield by 3 to 8 percent on residential rooftops and 5 to 15 percent on complex C&I sites with inter-row or microclimate effects. On a 100 kW commercial system at $0.12/kWh, that is $1,800 to $9,000 per year of yield-prediction error. Lenders require methodology accepted by the project-finance community before funding, which is why [PV yield simulation software](/blog/pv-yield-simulation-software/) and shading analysis are usually evaluated together rather than as separate purchases.
 
 ## What to Look For in Solar Shading Analysis Software
 
 1. **8,760-hour granularity**: not daily averages or sample hours
 2. **Module-level computation**: not string-averaged shading factors
-3. **3D obstruction modelling**: accurate satellite or LIDAR-derived geometry
+3. **3D obstruction modelling**: accurate satellite or LIDAR-derived geometry, comparable in precision to a professional [site survey and land feasibility study](https://heavendesigns.in/site-survey-land-feasibility-services/)
 4. **Inter-row shading**: required for ground-mount and tracker projects
-5. **Soiling, snow, albedo, temperature coefficients**: bankable methodology
-6. **P50, P75, P90 outputs**: accepted by lenders
+5. **[Soiling](/glossary/soiling/), snow, [albedo](/glossary/albedo/), [temperature coefficients](/glossary/temperature-coefficient/)**: bankable methodology
+6. **[P50, P75, P90](/glossary/p50-p90/) outputs**: accepted by lenders
 7. **Cloud compute speed**: practical in production workflow
 
 SurgePV ships all seven on every paid plan.
 
 ## How SurgePV Runs Shading Analysis
 
-**Step 1: AI 3D roof modeling.** Satellite imagery builds the site geometry in under 60 seconds. [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) handles obstructions, ridges, setbacks.
+**Step 1: AI 3D roof modeling.** Satellite imagery builds the site geometry in under 60 seconds, the same approach compared across tools in our [3D solar design software guide](/blog/3d-solar-design-software/). [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) handles obstructions, ridges, setbacks.
 
 **Step 2: Layout placement.** Manual or auto-design with [Clara AI](https://surgepv.com/clara-ai) drafts a module layout that respects shading priorities.
 
-**Step 3: 8,760-hour simulation.** The [solar simulation software](https://surgepv.com/solar-simulation-software) engine runs the hourly computation in the browser, module-by-module.
+**Step 3: 8,760-hour simulation.** The [solar simulation software](https://surgepv.com/solar-simulation-software) engine runs the hourly computation in the browser, module-by-module — see our deep dive on [how the underlying simulation engine works](/blog/solar-simulation-software/) for the full methodology.
 
 **Step 4: Bankable yield output.** P50, P75, P90 reports export to PDF or stay inline in the [bankable yield report](https://surgepv.com/generation-financial-tool).
 
-**Step 5: Proposal.** The [branded solar proposal](https://surgepv.com/solar-proposals) pulls shading-informed yield into the buyer-facing document.
+**Step 5: Proposal.** The [branded solar proposal](https://surgepv.com/solar-proposals) pulls shading-informed yield into the buyer-facing document, and teams that need a separate customer-facing quote often route the same numbers into [QuickEstimate's quotation system](https://quickestimate.co/features/quotation-system/).
 
 ## Solar Shading Analysis in Competing Tools
 
@@ -133,7 +134,7 @@ The 4 percent difference matters when financial modelling, IRR, and payback depe
 - **Choose PVsyst** for lender-mandated PVsyst reports.
 - **Choose Aurora upper tier** for US-residential.
 
-For most installers and EPCs in 2026, SurgePV ships the same bankable methodology at the lowest realised total cost.
+For most installers and EPCs in 2026, SurgePV ships the same bankable methodology at the lowest realised total cost. Once shading is dialed in, the workflow typically moves to [solar string sizing software](/blog/solar-string-sizing-software/), then [auto-generated single line diagrams](/blog/solar-sld-software/), and finally [solar takeoff software](/blog/solar-takeoff-software/) for procurement.
 
 <div class="inline-cta">
 <h3>Ready to run real bankable shading on your projects?</h3>

@@ -4,6 +4,7 @@ excerpt: "A Tirupur textile processing unit replaced ₹12–13 Lakh of annual T
 description: "How a Tirupur textile mill sized, installed, and optimised a 100 kW on-grid solar system with Qbits inverters, energy audit, system design, THD compliance, ALMM net metering, and financial outcomes."
 category: "Case Study"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-epc-india.svg"
 author: "Nirav Dhanani"
@@ -38,9 +39,17 @@ faqs:
 
 The power cut arrived on a Tuesday afternoon (always a Tuesday, it seems) and the dyeing vats came to a halt while the compressors spun down. For a Tirupur textile processing unit running 16-hour production shifts, every unscheduled outage translates to rejected batches, delayed shipments, and a TANGEDCO bill that keeps climbing regardless. This case study documents how a representative Tirupur textile mill (a composite profile drawn from actual C&I installations in Tirupur district) decided to size, finance, install, and operate a 100 kW on-grid solar system, and what the numbers look like 12 months in.
 
+> **TL;DR**
+> - A 100 kW on-grid solar system at a Tirupur textile mill generates approximately 165,000 kWh/year of self-consumed energy, saving ₹12–13 Lakh annually against TANGEDCO's commercial tariff.
+> - Total installed cost is ₹55–60 Lakh, giving a simple payback of about 4.5 years, or roughly 3.5–4 years after Section 32 accelerated depreciation.
+> - The system uses two Qbits TLD-50 (50 kW) inverters instead of one 100 kW unit, so a single inverter fault costs the mill only half its solar output, not all of it.
+> - THD below 2.5% at full load keeps dyeing machines, VFD-controlled compressors, and other process-sensitive equipment safe from harmonic-related overheating and nuisance tripping.
+> - A string-level fault flagged by AI-powered WhatsApp monitoring was fixed within 2 hours 15 minutes of occurring, recovering generation worth roughly ₹4,200 that a quarterly manual inspection would have missed.
+> - Year 1 actuals landed close to projection: 181,400 kWh generated (a 2.3% variance) at a 78.5% Performance Ratio against an 80% PVsyst estimate.
+
 > **Direct answer.** A 100 kW on-grid solar system at a Tirupur textile processing unit generating approximately 165,000 kWh per year at ₹7.5–8.5 per unit saves ₹12–13 Lakh annually against TANGEDCO commercial tariffs. With a total installed cost of ₹55–60 Lakh, the simple payback period is 4.5 years. The Qbits C&I Solar Deployment Framework (covering energy audit, system sizing, THD compliance, ALMM approval, and live monitoring) is the structured process that gets these numbers from projection to reality.
 
-The textile cluster around Tirupur is one of India's most energy-intensive manufacturing zones, producing over 90% of India's knitwear exports and consuming electricity at the rate of a small city. For factory owners and procurement managers in this environment, solar is not an ideological choice, it is a tariff-arbitrage decision made on spreadsheets. This post works through that spreadsheet, section by section, using industry-accurate data.
+The textile cluster around Tirupur is one of India's most energy-intensive manufacturing zones, producing over 90% of India's knitwear exports and consuming electricity at the rate of a small city. For factory owners and procurement managers in this environment, [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) is not an ideological choice, it is a tariff-arbitrage decision made on spreadsheets. This post works through that spreadsheet, section by section, using industry-accurate data.
 
 ## Step 1: Energy Audit: What the Mill Actually Consumes
 
@@ -115,7 +124,7 @@ The Qbits TLD-50 is a three-phase, transformerless [string inverter](/glossary/s
 
 ### Cabling and Earthing
 
-DC cabling used 4 mm² and 6 mm² UV-resistant twin-core cables, routed in perforated cable trays mounted under the panel frames to minimise thermal exposure. AC cables from each inverter to the main switchboard were sized at 35 mm² aluminium, calculated for a 1% maximum voltage drop at full load current. The earthing system followed CEA (Measures Relating to Safety and Electric Supply) Regulations 2010, with a dedicated earth electrode for each inverter frame and the array structure bonded to the building's main earth bar.
+DC cabling used 4 mm² and 6 mm² UV-resistant twin-core cables, routed in perforated cable trays mounted under the panel frames to minimise thermal exposure. AC cables from each inverter to the main switchboard were sized at 35 mm² aluminium, calculated for a 1% maximum voltage drop at full load current. The [earthing](/glossary/earthing/) system followed [CEA](/glossary/cea/) (Measures Relating to Safety and Electric Supply) Regulations 2010, with a dedicated earth electrode for each inverter frame and the array structure bonded to the building's main earth bar.
 
 For a detailed look at how string sizing and DC cabling calculations work in practice, the [DC oversizing guide](/blog/dc-oversizing-in-solar/) covers the methodology for Tamil Nadu's temperature derating conditions.
 
@@ -144,7 +153,7 @@ This is consistent with what [IRENA's distributed solar analysis](https://www.ir
 
 ## Step 6: Financial Outcome: The Numbers That Drove the Decision
 
-The financial model was built bottom-up, not top-down. The EPC contractor and the mill's finance team worked from the generation estimate, the current tariff, and the projected tariff escalation, not from a marketing payback claim.
+The [financial model](https://surgepv.com/generation-financial-tool/) was built bottom-up, not top-down. The EPC contractor and the mill's finance team worked from the generation estimate, the current tariff, and the projected tariff escalation, not from a marketing payback claim.
 
 | Financial variable | Value |
 | --- | --- |
@@ -159,8 +168,8 @@ The financial model was built bottom-up, not top-down. The EPC contractor and th
 | Accelerated depreciation tax shield (40% first year, 25% bracket) | ₹5.8 Lakh (Year 1) |
 | **Net effective capital outlay (after Year 1 tax shield)** | **₹52.2 Lakh** |
 | **Simple payback period** | **~4.4 years** |
-| **25-year NPV (7% discount rate, 3% tariff escalation)** | **₹1.8 Crore** |
-| **IRR** | **~22%** |
+| **25-year [NPV](/glossary/npv/) (7% discount rate, 3% tariff escalation)** | **₹1.8 Crore** |
+| **[IRR](/glossary/irr/)** | **~22%** |
 
 The IRR of 22% compares favourably with a fixed deposit rate of 6.5–7.5% and even most listed equity indices over a comparable horizon. For a textile manufacturer with a 25–30% effective tax rate, the accelerated depreciation benefit under Section 32 of the Income Tax Act is a first-year cash return that meaningfully reduces the effective capital at risk.
 
@@ -197,7 +206,7 @@ The Tamil Nadu net-metering process for C&I systems above 10 kW involves:
 
 ### Stage 1: Application to TANGEDCO
 
-The applicant submits a net-metering application with: single-line diagram, inverter and module specifications, ALMM certificate numbers, structural load calculation, and the EPC contractor's CEA licence. The [ALMM list](/glossary/almm-list/) maintained by MNRE is the gating document, if the inverter model is not listed, TANGEDCO rejects the application outright.
+The applicant submits a net-metering application with: a [single-line diagram](https://heavendesigns.in/electrical-ceig-drawings/), inverter and module specifications, ALMM certificate numbers, a [structural load calculation](https://heavendesigns.in/solar-civil-and-structural-engineering/), and the EPC contractor's CEA licence. The [ALMM list](/glossary/almm-list/) maintained by MNRE is the gating document, if the inverter model is not listed, TANGEDCO rejects the application outright.
 
 Qbits inverters are ALMM Phase III listed. The certificate number appears on the product label and in the MNRE ALMM database, allowing the TANGEDCO officer to verify compliance without additional testing.
 
@@ -219,7 +228,7 @@ Eleven weeks after commissioning, the Qbits AI monitoring platform sent a WhatsA
 
 **String 4 (Inverter 1, MPPT-A) is underperforming by 18% relative to expected yield for current irradiance. Immediate inspection recommended.**
 
-The plant's maintenance technician checked the string combiner box within 90 minutes and found a loose MC4 connector on panel row 7, the connection had partially pulled free during the previous weekend's roof-waterproofing work by a third-party contractor. The connector was re-crimped and tightened. Total downtime from fault to resolution: 2 hours and 15 minutes.
+The plant's maintenance technician checked the string [combiner box](/glossary/combiner-box/) within 90 minutes and found a loose MC4 connector on panel row 7, the connection had partially pulled free during the previous weekend's roof-waterproofing work by a third-party contractor. The connector was re-crimped and tightened. Total downtime from fault to resolution: 2 hours and 15 minutes.
 
 The estimated generation loss from that string during the 11 weeks it likely took to develop: approximately 520 kWh, worth ₹4,160 at ₹8.0/unit. Had the issue not been flagged by the monitoring system, the mill would have discovered it during the next quarterly manual inspection, losing an additional estimated 800–1,000 kWh before remediation.
 

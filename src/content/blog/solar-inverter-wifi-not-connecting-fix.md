@@ -4,6 +4,7 @@ excerpt: "Solar inverter wifi not connecting? Fix it in minutes. Step-by-step gu
 description: "Fix your solar inverter wifi connection in India. Diagnose 2.4 GHz vs 5 GHz issues, dongle resets, app pairing failures, router firewall blocks, and escalation paths."
 category: "Maintenance"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/solar-inverter-monitoring-systems-in-india.svg"
 author: "Keyur Rakholiya"
@@ -33,6 +34,13 @@ faqs:
 You checked your solar monitoring app this morning and found the inverter offline, no generation data, no alerts, and a WiFi icon with a red cross on the inverter's LCD display. You know the sun is shining and the panels are presumably working, but you are flying blind without the monitoring connection.
 
 WiFi connectivity issues are the most common service query Qbits receives from new system owners, and the overwhelming majority resolve within 10 minutes once the root cause is identified. This guide walks through every step in the correct diagnostic order so you do not waste time on the wrong fix.
+
+> **TL;DR**
+> - Solar inverter WiFi failures trace to five causes: wrong frequency band, changed router credentials, a dongle needing reset, router or ISP firewall blocking the cloud server, or the inverter being out of WiFi range.
+> - Frequency-band mismatch is the single biggest cause, responsible for over 40% of inverter WiFi failures in India, because nearly all inverter WiFi modules support only 2.4 GHz, not 5 GHz.
+> - Most inverter WiFi modules have a practical range of 10–20 metres through one or two walls; a repeater, mesh node, or 4G SIM datalogger fixes range-limited installs.
+> - A dongle reset takes about 60–90 seconds to re-pair once the reset button is held for 8–10 seconds and the phone connects to the dongle's temporary access-point network.
+> - Qbits inverters with AI WhatsApp monitoring send an automatic alert if the system stays offline for more than 15 minutes during daylight hours.
 
 > **Direct answer.** Solar inverter WiFi connection failures have five main causes: wrong frequency band (5 GHz instead of 2.4 GHz), incorrect credentials after a router change, dongle firmware issue requiring a reset, router firewall blocking the cloud server, or the inverter being out of range. Work through these in order, most resolve at step one or two.
 
@@ -97,7 +105,7 @@ If credentials and band are correct but the inverter still will not connect, the
 
 ## Step 5: Check Router Firewall and Port Rules
 
-If the dongle connects to your WiFi (solid LED, correct SSID shown in router client list) but the monitoring app still shows the inverter as offline, the data cannot reach the cloud server. This is a router or ISP firewall issue. The [Ministry of New and Renewable Energy (MNRE)](https://mnre.gov.in/){target="_blank" rel="noopener"} PM Surya Ghar programme requires that rooftop solar systems maintain continuous cloud-based monitoring as part of the grid integration conditions, a blocked port or ISP filter can technically put a system out of programme compliance.
+If the dongle connects to your WiFi (solid LED, correct SSID shown in router client list) but the monitoring app still shows the inverter as offline, the data cannot reach the cloud server. This is a router or ISP firewall issue. The [Ministry of New and Renewable Energy (MNRE)](/glossary/mnre/) [PM Surya Ghar](/glossary/pm-surya-ghar/) programme requires that rooftop solar systems maintain continuous cloud-based monitoring as part of the grid integration conditions, a blocked port or ISP filter can technically put a system out of programme compliance.
 
 **Check outbound ports:** Most inverter cloud platforms use port 443 (HTTPS) and some use port 8899 or port 502 for Modbus-over-TCP. Log in to your router admin panel and check if any outbound port blocking rules exist.
 
@@ -129,7 +137,7 @@ Sometimes the inverter hardware is connected correctly but the monitoring app ha
 
 - **Wrong account:** You logged into a different account than the one linked to the inverter. Verify you are using the same email or phone number used during initial setup.
 - **Region mismatch:** Some monitoring apps have regional servers, Indian accounts must use the India server endpoint. If you changed your app region setting, the inverter data will not appear.
-- **Inverter assigned to a different account:** If the system was installed by an EPC and they registered the inverter under their company account, the inverter may not appear under your personal account. Contact the installer to transfer ownership.
+- **Inverter assigned to a different account:** If the system was installed by an [EPC](https://heavengreenenergy.com/solar-epc/) and they registered the inverter under their company account, the inverter may not appear under your personal account. Contact the installer to transfer ownership.
 
 ## Step 8: Factory Reset and Re-Commission (Last Resort)
 
@@ -143,7 +151,7 @@ If all previous steps fail, a full factory reset of the inverter's communication
 
 ## Where Qbits Fits
 
-Qbits inverters with AI WhatsApp monitoring take a different approach to connectivity, the system sends proactive alerts to your WhatsApp number rather than requiring you to check an app. If the inverter loses WiFi and is offline for more than 15 minutes during daylight hours, you receive an automatic notification. This eliminates the scenario where you discover a monitoring gap days later.
+Qbits inverters with [AI WhatsApp monitoring](/blog/whatsapp-solar-monitoring/) take a different approach to connectivity, the system sends proactive alerts to your WhatsApp number rather than requiring you to check an app. If the inverter loses WiFi and is offline for more than 15 minutes during daylight hours, you receive an automatic notification. This eliminates the scenario where you discover a monitoring gap days later.
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series with built-in WiFi monitoring module and WhatsApp alert integration.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with full monitoring including battery state-of-charge reporting and night-time alert capability.

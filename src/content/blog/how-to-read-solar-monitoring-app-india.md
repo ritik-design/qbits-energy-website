@@ -3,6 +3,7 @@ title: "How to Read Your Solar Inverter Monitoring App, Full Guide"
 excerpt: "How to read your solar inverter monitoring app India: today's generation, grid export, self-consumption ratio, inverter temperature, MPPT voltage, and 6 daily numbers that matter."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-monitoring-systems-in-india.svg"
 author: "Keyur Rakholiya"
@@ -35,6 +36,14 @@ Your solar monitoring app shows dozens of numbers, graphs, and alerts every day.
 
 > **Direct answer.** The Solar App Daily Check: 6 Numbers That Matter are, Today's Generation (kWh), Lifetime Generation (kWh), Grid Export (kWh), Self-Consumption Ratio (%), Inverter Temperature (°C), and Current Power (W). Compare today's generation to the expected output for your system size and weather, track self-consumption above 70%, alert at inverter temperature above 65 °C, and verify MPPT voltage is within the inverter's operating range. The full interpretation guide for each metric is below.
 
+> **TL;DR**
+> - Today's Generation below 60% of your state's clear-sky benchmark on a clear day signals a fault worth investigating.
+> - Self-consumption ratio above 70% is the target; below 50% is a missed financial opportunity worth shifting loads to fix.
+> - Inverter temperature above 65°C is a warning threshold, above 70°C usually indicates a cooling fault.
+> - Grid export and monthly generation figures should match your DISCOM bill within 5%; a persistent gap suggests meter calibration drift.
+> - MPPT voltage should sit within the inverter's published range; a persistent reading near the lower limit on clear days suggests a string fault.
+> - Qbits' WhatsApp monitoring pushes daily and fault alerts automatically, so you only need to open the app when something is flagged.
+
 After you understand the monitoring app, the natural next step is understanding what to expect across a full year, see [what to expect in Year 1 of solar ownership India](/blog/solar-year-1-ownership-guide-india/) for the month-by-month guide.
 
 ## Metric 1: Today's Generation (kWh)
@@ -62,7 +71,7 @@ If your app consistently shows Today's Generation at less than 60% of the expect
 
 Lifetime Generation is the cumulative energy produced since the system was commissioned. This number grows every day and is the running total of your solar investment's output.
 
-**How to calculate money saved:** Multiply Lifetime Generation by your effective tariff rate.
+**How to calculate money saved:** Multiply Lifetime Generation by your effective tariff rate, or use a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) to get a more precise figure that accounts for your state's tariff slabs.
 
 Example: Lifetime Generation = 12,500 kWh. Grid tariff = ₹8/unit. Approximate money saved = 12,500 × 8 = ₹1,00,000.
 
@@ -74,7 +83,7 @@ According to [IRENA's Renewable Energy Statistics 2025](https://www.irena.org/Pu
 
 ## Metric 3: Grid Export (kWh)
 
-Grid Export is the total energy your solar system sent to the DISCOM grid during the day. This happens when your panels produce more power than your home is consuming at that moment, typically midday when the sun is brightest and air conditioners have not yet started their peak afternoon cycle.
+Grid Export is the total energy your solar system sent to the [DISCOM](/glossary/discom/) grid during the day, recorded through the [bidirectional meter](/glossary/bidirectional-meter/) installed at your connection point. This happens when your panels produce more power than your home is consuming at that moment, typically midday when the sun is brightest and air conditioners have not yet started their peak afternoon cycle.
 
 **Why it matters:**
 - Exported units should appear as credits on your monthly DISCOM bill
@@ -91,7 +100,7 @@ Self-consumption ratio is the percentage of your solar generation consumed direc
 
 **Why it matters financially:** Self-consumed units save you the full grid tariff (e.g., ₹9/unit). Exported units earn the typically lower net-metering credit (e.g., ₹4.5/unit in Karnataka). A 1,000 kWh/month system with 80% self-consumption earns ₹7,200 from solar (800 × ₹9 + 200 × ₹4.5). The same system with 50% self-consumption earns ₹6,750 (500 × ₹9 + 500 × ₹4.5) - ₹450 less per month from the same generation.
 
-**How to improve self-consumption:** Schedule high-consumption appliances (washing machine, dishwasher, pressure pump, EV charging) to run between 10 AM and 3 PM. In hybrid systems, programme the battery to absorb surplus generation rather than exporting it.
+**How to improve self-consumption:** Schedule high-consumption appliances (washing machine, dishwasher, pressure pump, EV charging) to run between 10 AM and 3 PM. In hybrid systems, programme the battery to absorb surplus generation rather than exporting it, correct [battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) determines how much surplus the system can actually absorb before it has to export.
 
 ## Metric 5: Inverter Temperature (°C)
 
@@ -115,7 +124,7 @@ According to [IEC 62109-1 safety standards for solar inverters](https://www.iec.
 
 These two metrics work together to tell you whether the inverter is operating at the optimal point on the panel's power curve.
 
-**MPPT Voltage:** Should fall within the inverter's published MPPT range (typically 200–800 V for residential systems). On a clear morning as irradiance builds, MPPT voltage rises and stabilises in the mid-to-upper MPPT range. Persistent low MPPT voltage on clear days suggests a string fault (one or more panels are not contributing their full voltage) or a loose DC connection.
+**[MPPT](/glossary/mppt/) Voltage:** Should fall within the inverter's published MPPT range (typically 200–800 V for residential systems). On a clear morning as irradiance builds, MPPT voltage rises and stabilises in the mid-to-upper MPPT range. Persistent low MPPT voltage on clear days suggests a string fault (one or more panels are not contributing their full voltage) or a loose DC connection.
 
 **Current Power (W):** Compare this to `System kW × Current Irradiance fraction`. If the sun is at 80% of peak irradiance (partly cloudy) and your 5 kW system shows 2 kW current power (40% of capacity), there may be a problem beyond cloud cover. On a fully clear midday, a 5 kW system should show 4.3–4.8 kW (accounting for temperature derating). Consistently below 80% of expected clear-sky output is the trigger for the diagnostic checks in [why is my solar inverter underperforming](/blog/solar-inverter-underperforming-india/).
 

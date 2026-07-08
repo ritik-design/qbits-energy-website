@@ -3,6 +3,7 @@ title: "Solar IRR and Payback for C&I in India, Real Math"
 excerpt: "Solar IRR calculation India for C&I: a 100 kW Karnataka system at ₹70 lakh capex delivers 22% IRR and 4.5-year payback with accelerated depreciation. Full 5-line business case inside."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-inverter-depreciation-tax-benefits-guide.svg"
 author: "Keyur Rakholiya"
@@ -33,6 +34,14 @@ faqs:
 
 Every C&I decision-maker who asks "should we invest in solar?" eventually asks "what exactly is the return, and how confident can we be in that number?" This guide walks through a complete, honest IRR calculation for a 100 kW C&I system in India, line by line, including the accelerated depreciation tax shield that most solar sales pitches either ignore or overstate.
 
+> **TL;DR**
+> - A 100 kW C&I system in Karnataka at ₹70 lakh capex delivers roughly 22% IRR and a 4.5-year payback once the accelerated depreciation tax shield is applied.
+> - Accelerated depreciation lets a profitable company deduct 80% of the asset cost in Year 1, turning ₹70 lakh gross capex into a ₹14 lakh Year 1 tax saving and an effective net capex of ₹56 lakh.
+> - Without accelerated depreciation, the same system's IRR drops to roughly 17% and payback stretches to 5–7 years.
+> - Grid tariff is the single most important variable: IRR ranges from ~16% at ₹7/unit to ~28% at ₹12/unit on the same system.
+> - Self-consumption ratio matters almost as much, 50% self-consumption yields ~17% IRR while 90% self-consumption yields ~25% on identical generation.
+> - NPV over 25 years at an 8% discount rate is about ₹1.8 crore in the base case, rising to ~₹2.3 crore if a 12-year full-replacement warranty avoids the Year 12 inverter replacement cost.
+
 > **Direct answer.** A 100 kW C&I solar system in Karnataka: ₹70 lakh capex; 1,40,000 kWh annual generation; ₹9/unit tariff saved; 80% self-consumption; accelerated depreciation tax shield ₹14 lakh in Year 1. Simple payback: 4.5 years. NPV over 25 years at 8% discount rate: ~₹1.8 Crore. IRR: 22%. The "5-Line C&I Solar Business Case" framework produces this number in five inputs. Every variable is explained and stress-tested below.
 
 For the broader context of CAPEX vs OPEX decision-making, see [solar CAPEX vs OPEX, which model fits your business India](/blog/solar-capex-vs-opex-business-india/).
@@ -49,15 +58,15 @@ All IRR and payback calculations start with credible input assumptions. Here are
 | Annual generation | 1,40,000 kWh | 100 kW × 1,400 kWh/kW/yr |
 | Grid tariff (HT commercial) | ₹9/unit | BESCOM HT-2 commercial tariff 2025–26 |
 | Self-consumption ratio | 80% | Typical for manufacturing/industrial load |
-| Export rate (net metering) | ₹4.5/unit | BESCOM export credit rate |
+| Export rate ([net metering](/glossary/net-metering/)) | ₹4.5/unit | BESCOM export credit rate |
 | Corporate tax rate | 25% | Standard rate under Indian Income Tax Act |
-| Panel degradation rate | 0.5%/yr | ALMM-compliant monocrystalline panels |
+| Panel degradation rate | 0.5%/yr | [ALMM](/glossary/almm-list/)-compliant monocrystalline panels |
 | Annual tariff escalation | 6% per year | Historical BESCOM HT tariff escalation rate |
-| NPV discount rate | 8% | Conservative WACC for Karnataka C&I borrower |
+| NPV [discount rate](/glossary/discount-rate/) | 8% | Conservative [WACC](/glossary/wacc/) for Karnataka C&I borrower |
 
 ## The 5-Line C&I Solar Business Case
 
-This framework reduces the full financial analysis to five inputs that any CFO or finance team can verify and model in 30 minutes.
+This framework reduces the full financial analysis to five inputs that any CFO or finance team can verify and model in 30 minutes. Running the same numbers on a different roof size or tariff is faster with a dedicated [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) than rebuilding the spreadsheet each time.
 
 ### The 5-Line C&I Solar Business Case
 
@@ -65,17 +74,17 @@ This framework reduces the full financial analysis to five inputs that any CFO o
 
 2. **Annual Savings** = (Self-consumed kWh × Grid tariff) + (Exported kWh × Export rate) = (1,12,000 × ₹9) + (28,000 × ₹4.5) = ₹10,08,000 + ₹1,26,000 = **₹11,34,000**
 
-3. **Year 1 Tax Benefit (Accelerated Depreciation)** = 80% of CAPEX × Tax rate = ₹56,00,000 × 25% = **₹14,00,000**
+3. **Year 1 Tax Benefit ([Accelerated Depreciation](/glossary/accelerated-depreciation/))** = 80% of [CAPEX](/glossary/capex/) × Tax rate = ₹56,00,000 × 25% = **₹14,00,000**
 
 4. **Effective Net CAPEX** = Total CAPEX − Year 1 Tax Benefit = ₹70,00,000 − ₹14,00,000 = **₹56,00,000**
 
-5. **Simple Payback** = Effective Net CAPEX ÷ Annual Savings = ₹56,00,000 ÷ ₹11,34,000 = **4.9 years** (approximately 4.5 years with Year 1 savings accelerated by timing)
+5. **Simple [Payback](/glossary/payback-period/)** = Effective Net CAPEX ÷ Annual Savings = ₹56,00,000 ÷ ₹11,34,000 = **4.9 years** (approximately 4.5 years with Year 1 savings accelerated by timing)
 
 At Step 4, the effective net CAPEX after the Year 1 tax shield becomes the real economic cost of the investment. The company has essentially received ₹14 lakh from the government to subsidise its solar investment, making the true net cost ₹56 lakh for a ₹70 lakh asset.
 
 ## The Full 25-Year Cash Flow Model
 
-Simple payback tells you when you recover the capital. IRR and NPV tell you the quality of the investment over its full life. Here is the simplified 25-year cash flow structure.
+Simple payback tells you when you recover the capital. [IRR](/glossary/irr/) and NPV tell you the quality of the investment over its full life. Here is the simplified 25-year cash flow structure.
 
 | Period | Cash Flow | Notes |
 | --- | --- | --- |
@@ -102,11 +111,11 @@ Three variables most significantly affect the C&I solar IRR. This sensitivity an
 | Grid tariff | ₹9/unit → 22% IRR | ₹7/unit → 16% IRR | ₹12/unit → 28% IRR |
 | Self-consumption | 80% → 22% IRR | 50% → 17% IRR | 90% → 25% IRR |
 | With/Without depreciation | With (22%) | Without (17%) | N/A |
-| Financing rate | 8% (own equity) | 12% (NBFC loan) → 14% equity IRR | 8.5% IREDA → 21% equity IRR |
+| Financing rate | 8% (own equity) | 12% (NBFC loan) → 14% equity IRR | 8.5% [IREDA](/blog/solar-loan-ireda/) → 21% equity IRR |
 
 The sensitivity table reveals two conclusions for decision-making:
 
-1. **Grid tariff is the dominant variable**: A high-tariff state (Maharashtra commercial at ₹11–14/unit) makes solar a 25–30% IRR investment even without accelerated depreciation.
+1. **Grid tariff is the dominant variable**: A high-tariff state (Maharashtra commercial at ₹11–14/unit) makes solar a 25–30% IRR investment even without accelerated depreciation. This is the same tariff-escalation dynamic covered in [electricity tariff hikes in 2026](/blog/electricity-tariff-hikes-solar/), which is compressing paybacks across residential and C&I alike.
 
 2. **Self-consumption is the operational driver**: A facility that can shift load to daytime hours (running compressors, mills, or pumps during solar hours) adds 3–5% to IRR by converting export income (₹4.5/unit) to self-consumption savings (₹9/unit).
 
@@ -139,17 +148,17 @@ Any credible IRR model should be stress-tested across three scenarios.
 
 Even in the conservative scenario, solar generates a 13% IRR, which, while not exceptional, still exceeds the risk-free rate for a fixed, depreciating asset with no market volatility. In the base and optimistic scenarios, solar is one of the highest-returning infrastructure investments available to Indian C&I companies.
 
-India's C&I solar market continues to grow rapidly: according to [JMK Research's C&I Solar Market Report 2025](https://jmkresearch.com/), commercial and industrial rooftop solar additions grew 42% in FY2025, with average project IRR rising as grid tariffs accelerated faster than installation costs fell. [IRENA's India Solar Cost Report 2024](https://www.irena.org/) confirms that India's commercial solar LCOE fell below ₹3/unit (the lowest globally) making the IRR spread versus grid tariffs wider than ever.
+India's C&I solar market continues to grow rapidly: according to [JMK Research's C&I Solar Market Report 2025](https://jmkresearch.com/), commercial and industrial rooftop solar additions grew 42% in FY2025, with average project IRR rising as grid tariffs accelerated faster than installation costs fell. [IRENA's India Solar Cost Report 2024](https://www.irena.org/) confirms that India's commercial solar LCOE fell below ₹3/unit (the lowest globally) making the IRR spread versus grid tariffs wider than ever. Turning that demand into installed capacity still depends on execution quality, which is why the [commercial solar installation](https://heavengreenenergy.com/commercial-solar/) partner a company picks matters almost as much as the IRR model itself.
 
 ## Building the Business Case for Internal Approval
 
 For CFOs and plant managers who need to present the solar business case internally, the 5-Line C&I Solar Business Case framework provides the structure. Attach these three supporting documents:
 
-1. **Site survey report with generation estimate**: monthly generation projections from a PVSyst or equivalent simulation, not rule-of-thumb calculations
+1. **Site survey report with generation estimate**: monthly generation projections from a PVSyst or equivalent simulation, not rule-of-thumb calculations, ideally backed by a proper [site survey and land feasibility assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) before the numbers go to the board
 2. **EPC bid comparison**: using the [15-Point EPC Bid Scorecard](/blog/how-to-evaluate-solar-epc-bids/) to document the selection rationale
 3. **Tax benefit confirmation**: letter from the company's CA confirming the 80% accelerated depreciation eligibility and expected Year 1 tax saving
 
-This package makes the solar decision defensible to the board or investment committee, reduces approval time, and creates a clear success metric (actual generation vs projected) for post-implementation review.
+This package makes the solar decision defensible to the board or investment committee, reduces approval time, and creates a clear success metric (actual generation vs projected) for post-implementation review. Once the model is approved internally, translating it into a formal client-facing proposal is faster with a [quotation system](https://quickestimate.co/features/quotation-system/) built for solar sales than re-keying the same numbers into a generic document.
 
 ## Where Qbits Fits in the C&I IRR Model
 

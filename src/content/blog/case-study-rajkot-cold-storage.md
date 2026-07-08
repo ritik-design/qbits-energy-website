@@ -4,6 +4,7 @@ excerpt: "A 40kW 3-phase solar system at a Rajkot cold storage cut electricity b
 description: "Case study: 40kW 3-phase on-grid solar at a Rajkot cold storage facility. System design, compressor load management, generation data, ROI, and payback analysis. Data illustrative pending client confirmation."
 category: Case Study
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "14 min"
 image: "/blog-images/solar-epc-india.svg"
 author: "Nirav Dhanani"
@@ -32,7 +33,15 @@ faqs:
     a: "A 40 kW commercial solar installation in Gujarat requires: (1) Net metering application to the relevant DISCOM (PGVCL, MGVCL, UGVCL, or DGVCL depending on location) - includes technical inspection and bidirectional meter installation; (2) structural clearance from a licensed structural engineer for roof mounting; (3) electrical safety certificate from a licensed electrical contractor; (4) single-line diagram submission to the DISCOM; and (5) for systems above 10 kW, a protection relay study may be required. The empanelled vendor programme under PM Surya Ghar does not apply to systems above 10 kW; commercial systems follow standard DISCOM commercial net metering procedures."
 ---
 
-Cold storage facilities are among the highest electricity consumers in India's agricultural supply chain. A typical medium-sized cold storage operation running compressors around the clock draws 15,000–25,000 kWh per month, generating electricity bills of ₹1.5–₹2.5 lakh every 30 days at Gujarat commercial tariffs. With margins under pressure from rising fuel costs and competitive market pricing, cold storage operators across Rajkot, Ahmedabad, Surat, and Rajkot have increasingly looked to solar to reduce their largest operating expense.
+Cold storage facilities are among the highest electricity consumers in India's agricultural supply chain. A typical medium-sized cold storage operation running compressors around the clock draws 15,000–25,000 kWh per month, generating electricity bills of ₹1.5–₹2.5 lakh every 30 days at Gujarat commercial tariffs. With margins under pressure from rising fuel costs and competitive market pricing, cold storage operators across Rajkot, Ahmedabad, Surat, and Rajkot have increasingly looked to [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) to reduce their largest operating expense.
+
+> **TL;DR**
+> - A 40 kW 3-phase on-grid solar system at a 200 MT Rajkot cold storage facility generates approximately 66,000 kWh/year (illustrative figures).
+> - Estimated savings run about ₹85,000/month, or ₹7.5–9.0 Lakh/year, against a system cost of roughly ₹30–32 Lakh.
+> - Simple payback is approximately 3.5–4.0 years, improving to about 2.5–3.0 years once 40% first-year accelerated depreciation is applied.
+> - The facility self-consumes roughly 96% of solar generation (63,500 of 66,000 kWh), so the design leans on self-consumption rather than net-metering export credit.
+> - Low-THD, LVRT-capable inverters are required so compressor motor inrush current and VFD harmonics do not cause nuisance tripping.
+> - All figures in this case study are illustrative pending confirmation of actual client data by the Qbits ops team.
 
 > **A 40 kW 3-phase on-grid solar system at a Rajkot cold storage facility generates approximately 66,000 kWh per year (illustrative), saving approximately ₹85,000/month in electricity costs at ₹10/unit average tariff. Payback at 3–4 years.** The Cold Storage Solar ROI Framework demonstrates how compressor load profile, Gujarat irradiance, and power quality requirements together determine the optimal system design.
 
@@ -74,7 +83,7 @@ Sizing a solar system for a cold storage load requires balancing several competi
 
 **Load profile analysis:** Cold storage compressors are not constant loads, they cycle on and off based on thermostat control. Load logging over 30 days prior to solar design showed an average daytime demand of approximately 35–45 kW, with peaks to 55 kW when all compressors run simultaneously. A 40 kW solar system matches the average daytime demand, providing near-total solar offset during generation hours without significant export.
 
-**Roof area constraint:** The facility's flat concrete roof above the storage area offered approximately 250 m² of usable roof space, sufficient for 130 panels of 310 Wp each (130 × 0.31 kWp = 40.3 kWp). This confirmed 40 kW as the maximum system size within roof constraints.
+**Roof area constraint:** The facility's flat concrete roof above the storage area offered approximately 250 m² of usable roof space, confirmed through a [roof area and land feasibility survey](https://heavendesigns.in/site-survey-land-feasibility-services/), sufficient for 130 panels of 310 Wp each (130 × 0.31 kWp = 40.3 kWp). This confirmed 40 kW as the maximum system size within roof constraints.
 
 **3-phase requirement:** All four compressors are 3-phase motors operating at 415V. A single-phase solar inverter cannot be used for a 3-phase commercial load, it would create phase imbalance and could damage motor windings. The system design uses Qbits Q40T (40 kW 3-phase string inverter), which outputs balanced 3-phase 415V AC and connects to the facility's main distribution panel.
 
@@ -89,7 +98,7 @@ Sizing a solar system for a cold storage load requires balancing several competi
 | DC/AC ratio | 1.01 (minimal oversizing for a high-load facility) |
 | Mounting | Flat roof, hot-dip galvanised mild steel structure, 5° tilt |
 | Monitoring | Qbits AI WhatsApp monitoring + power quality logging |
-| Net metering | PGVCL commercial net metering, bidirectional meter |
+| Net metering | PGVCL commercial net metering, [bidirectional meter](/glossary/bidirectional-meter/) |
 
 ## System Performance: Illustrative Results
 
@@ -107,7 +116,7 @@ Sizing a solar system for a cold storage load requires balancing several competi
 | October | 5,800 | 5,600 | 200 |
 | **Annual total** | **66,000** | **63,500** | **2,500** |
 
-The minimal export (approximately 2,500 kWh annually) reflects the high load alignment, the facility almost entirely self-consumes its solar generation. This is the ideal operating scenario for a commercial facility: no reliance on net metering credit banking, simple financial accounting, and maximum bill reduction.
+The minimal export (approximately 2,500 kWh annually) reflects the high load alignment, the facility almost entirely self-consumes its solar generation. This is the ideal operating scenario for a commercial facility: no reliance on [net metering](/glossary/net-metering/) credit banking, simple financial accounting, and maximum bill reduction.
 
 ## Cold Storage Solar ROI Framework
 
@@ -123,7 +132,7 @@ This framework provides a structured approach to evaluating solar ROI for any co
 
 4. **Offset Calculation**: Solar offset = Min(Generation, Daytime Load). If the system generates 66,000 kWh and daytime consumption is 75,000 kWh, offset is 66,000 kWh (100% self-consumed). Savings = 66,000 × tariff per unit.
 
-5. **Payback and IRR**: total system cost ÷ annual savings = simple payback. For a ₹30 lakh system at ₹10 lakh/year savings: 3 years payback. Internal Rate of Return (IRR) over 25-year system life typically 20–30% for well-designed cold storage systems in Gujarat.
+5. **Payback and IRR**: total system cost ÷ annual savings = [simple payback](/glossary/payback-period/). For a ₹30 lakh system at ₹10 lakh/year savings: 3 years payback. [Internal Rate of Return (IRR)](/glossary/irr/) over 25-year system life typically 20–30% for well-designed cold storage systems in Gujarat. Facility owners who want to run this math for their own site can build a bottom-up [solar financial model](https://surgepv.com/generation-financial-tool/) using their actual load-logging data rather than relying on generic per-kW rules of thumb.
 
 **Illustrative financials for this case study:**
 
@@ -133,7 +142,7 @@ This framework provides a structured approach to evaluating solar ROI for any co
 | Annual savings | ₹7.5–₹9.0 lakh | 66,000 kWh × ₹10/unit blended tariff savings |
 | Simple payback | 3.5–4.0 years | Before accelerated depreciation benefit |
 | Payback with 40% AD | 2.5–3.0 years | Accelerated depreciation saves ~₹12–₹13 lakh in tax in Year 1 |
-| 25-year savings (NPV) | ₹1.2–₹1.8 crore | At 7% discount rate, 5% tariff escalation |
+| 25-year savings ([NPV](/glossary/npv/)) | ₹1.2–₹1.8 crore | At 7% discount rate, 5% tariff escalation |
 
 **[DATA TO BE CONFIRMED BY QBITS OPS TEAM: Actual system cost, actual meter data, actual savings verified against PGVCL bills]**
 
@@ -159,7 +168,7 @@ Cold storage compressors present specific power quality challenges that a solar 
 
 **Voltage sag on compressor startup:** Each compressor draws 6–8× rated current at motor start. On a 15 kW compressor, this is a 90–120 A inrush for 2–3 seconds. The solar inverter must not interpret this voltage sag as a grid fault and trip. Quality string inverters with low-voltage ride-through (LVRT) capability sustain operation through brief voltage sags below 80% of nominal voltage, Qbits Q40T series includes LVRT compliant with Indian grid code.
 
-**Harmonic distortion from variable speed drives (VSDs):** If the facility uses VSD-controlled compressors (increasingly common for energy efficiency), the VSDs inject harmonic currents into the supply bus. The solar inverter's output THD should be below 3% to ensure the inverter does not aggravate existing harmonic levels. Total harmonic distortion is a specification visible in inverter datasheets, see [how to read solar inverter datasheets](/blog/how-to-read-solar-inverter-datasheets/). [IEC 61000-3-12](https://www.iec.ch/homepage) sets harmonic current emission limits for equipment connected to medium-voltage grids, relevant for 40 kW+ commercial installations.
+**Harmonic distortion from variable speed drives (VSDs):** If the facility uses VSD-controlled compressors (increasingly common for energy efficiency), the VSDs inject [harmonic](/glossary/harmonics/) currents into the supply bus. The solar inverter's output [THD](/glossary/thd/) should be below 3% to ensure the inverter does not aggravate existing harmonic levels. Total harmonic distortion is a specification visible in inverter datasheets, see [how to read solar inverter datasheets](/blog/how-to-read-solar-inverter-datasheets/). [IEC 61000-3-12](https://www.iec.ch/homepage) sets harmonic current emission limits for equipment connected to medium-voltage grids, relevant for 40 kW+ commercial installations.
 
 **Power quality monitoring outcome:** The monitoring installation revealed that PGVCL grid supply at the facility had intermittent voltage sags below 200V during peak demand hours (evenings), not caused by the solar system. This data was provided to PGVCL for grid quality improvement. Having a monitoring record establishes the baseline condition and protects the facility from unfair blame for power quality issues arising from grid infrastructure.
 

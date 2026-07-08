@@ -4,6 +4,7 @@ excerpt: "Noida apartment solar case study: how a resident welfare association s
 description: "Illustrative solar case study for a Noida apartment complex RWA. Covers metering complexity, shared roof ownership, DISCOM approval, and results. Data to be confirmed by Qbits ops team."
 category: "Case Study"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "12 min"
 image: "/blog-images/solar-inverter-commissioning-in-india.svg"
 author: "Nirav Dhanani"
@@ -34,11 +35,19 @@ faqs:
 
 ---
 
-The managing committee of a 96-unit apartment complex in Sector 50, Noida had been discussing solar for three years. The idea kept failing at the same three hurdles: the residents could not agree on who would benefit, the DISCOM net metering setup for a society seemed impossibly complex, and the ₹18 lakh capital expenditure required a general body super-majority that the committee had never managed to achieve on anything.
+The managing committee of a 96-unit apartment complex in Sector 50, Noida had been discussing solar for three years. The idea kept failing at the same three hurdles: the residents could not agree on who would benefit, the [DISCOM](/glossary/discom/) [net metering](/glossary/net-metering/) setup for a society seemed impossibly complex, and the ₹18 lakh capital expenditure required a general body super-majority that the committee had never managed to achieve on anything.
 
 This case study documents how the project finally moved from proposal to generating panels, and what every RWA secretary, managing committee treasurer, and facility manager needs to know before attempting a similar installation.
 
 > **Direct answer.** A 120-panel, 50 kW solar installation on a Noida RWA terrace reduces the society's common electricity cost by approximately ₹5–7 lakh per year. The three key challenges (shared roof governance, metering complexity, and UPPCL approval) each have specific solutions that the right EPC partner can navigate. This illustrative case documents the approach; exact figures to be confirmed with Qbits deployment data before publication.
+
+> **TL;DR**
+> - A 96-unit Noida RWA broke a three-year solar stalemate by choosing common-area-only solar over virtual net metering, avoiding UPPCL's slower VNM approval track.
+> - The illustrative 50 kW, 100–120 panel system covers common loads only: lifts, water pumps, corridor lighting, security, and the clubhouse.
+> - UPPCL net metering took 78 days from application to meter installation, close to the 90-day target but on the slower end.
+> - Estimated annual electricity savings are ~₹5.1 lakh, cutting the common-area bill from ~₹7.2 lakh to ~₹2.1 lakh and lowering each flat's maintenance levy by roughly ₹530/month.
+> - Simple payback is projected at 7–8 years, with a 12-year full-replacement inverter warranty and a committee-run sinking fund for eventual inverter replacement.
+> - All generation, cost, and savings figures in this case are illustrative and marked for confirmation by the Qbits ops team before publication.
 
 ## The Challenge: Why RWA Solar Is Different from a Home Installation
 
@@ -52,7 +61,7 @@ The Noida RWA committee drafted a resolution that addressed three objections rai
 *Resolution:* The solar benefit is distributed across the common electricity account (lifts, corridor lights, water pump, security lights). All 96 flats pay equally into the common maintenance fund and therefore share the cost equally; all benefit equally through lower maintenance fund contributions.
 
 **Objection 2, "What if the panels damage the terrace waterproofing?"**
-*Resolution:* The selected EPC contractor provided a written structural indemnity and a 5-year waterproofing warranty for the terrace area around each anchor point.
+*Resolution:* The selected EPC contractor provided a written [structural indemnity](https://heavendesigns.in/solar-civil-and-structural-engineering/) and a 5-year waterproofing warranty for the terrace area around each anchor point.
 
 **Objection 3, "What happens when the system needs replacement in 10–12 years?"**
 *Resolution:* The depreciation schedule was built into the 10-year maintenance fund projection, the committee allocated ₹1.2 lakh annually toward a sinking fund for future inverter replacement.
@@ -63,11 +72,11 @@ For a 96-unit society with one common meter and 96 individual flat meters, the m
 
 **Option A, Common area only:** Solar powers the society's common meter (lifts, lights, pumps). Net metering on the common consumer number. Each flat benefits indirectly through lower monthly maintenance billing. Simplest to implement; does not require virtual net metering.
 
-**Option B, Virtual net metering:** Solar generation credited proportionally to individual flat electricity accounts. More complex, requires UPPCL virtual net metering approval (as of 2026, UPPCL's VNM framework is functional but approval timelines vary by circle).
+**Option B, [Virtual net metering](/glossary/virtual-net-metering/):** Solar generation credited proportionally to individual flat electricity accounts. More complex, requires UPPCL virtual net metering approval (as of 2026, UPPCL's VNM framework is functional but approval timelines vary by circle).
 
-**Option C, RESCO/PPA by a third-party developer:** The developer installs and owns the system; the society pays a PPA rate lower than current UPPCL tariff. No capital required from the society.
+**Option C, [RESCO](/glossary/resco/)/[PPA](/glossary/ppa/) by a third-party developer:** The developer installs and owns the system; the society pays a PPA rate lower than current UPPCL tariff. No capital required from the society.
 
-The committee chose Option A (common area solar) as the path of least resistance. The UPPCL net metering application for the common meter proceeded on the standard residential/commercial net metering track.
+The committee chose Option A (common area solar) as the path of least resistance. The UPPCL net metering application for the common meter proceeded on the standard residential/commercial net metering track. For the metering mechanics across other DISCOMs beyond UPPCL, the [complete net metering guide for India](/blog/net-metering-india-complete-guide/) covers the state-by-state framework.
 
 ### Challenge 3: UPPCL Approval Timeline
 
@@ -85,7 +94,7 @@ Illustrative system specification based on a representative 50 kW RWA installati
 | --- | --- |
 | System size | 50 kW |
 | Panel count | 100–120 panels (400–500 Wp each) |
-| Inverter | String inverter(s), ALMM-listed |
+| Inverter | String inverter(s), [ALMM-listed](/glossary/almm-list/) |
 | Mounting | Aluminium tilt mounting on RCC terrace |
 | Net metering | Common area consumer number |
 | Monitoring | Cloud-based app; managing committee access |
@@ -136,13 +145,13 @@ Over 20 years, the society saves approximately ₹1.75 crore on common electrici
 
 Three financial instruments that RWA committees often overlook can materially improve the economics of apartment complex solar:
 
-**1. PM Surya Ghar Subsidy for Group Housing:** As noted in the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/), group housing societies qualify for central subsidies. The RWA can register on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) as a group housing connection and claim subsidy on the aggregate system capacity proportional to residential units. This can reduce the out-of-pocket system cost by ₹5–₹15 lakh depending on system size.
+**1. PM Surya Ghar Subsidy for Group Housing:** As noted in the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/), group housing societies qualify for central subsidies. The RWA can register on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) as a group housing connection and claim subsidy on the aggregate system capacity proportional to residential units. The exact per-kW slab structure is broken down in the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/), which can reduce the out-of-pocket system cost by ₹5–₹15 lakh depending on system size.
 
-**2. Depreciation for RWA as a registered body:** Registered cooperative housing societies can claim accelerated depreciation on solar assets under Section 32 of the Income Tax Act if the society is registered as a taxable entity. Societies with annual income above the basic exemption threshold should consult a chartered accountant on this benefit.
+**2. Depreciation for RWA as a registered body:** Registered cooperative housing societies can claim [accelerated depreciation](/glossary/accelerated-depreciation/) on solar assets under Section 32 of the Income Tax Act if the society is registered as a taxable entity. Societies with annual income above the basic exemption threshold should consult a chartered accountant on this benefit.
 
-**3. IREDA financing for housing societies:** [IREDA (Indian Renewable Energy Development Agency)](https://www.ireda.in/) offers subsidised financing for solar projects including those by cooperative housing societies. Interest rates at 8–9.5% with 5–7 year tenors can finance the full system cost, making the monthly EMI repayment lower than the monthly savings, meaning the project is cash-flow positive from Month 1.
+**3. IREDA financing for housing societies:** [IREDA (Indian Renewable Energy Development Agency)](https://www.ireda.in/) offers subsidised financing for solar projects including those by cooperative housing societies, and the [solar loan from IREDA guide](/blog/solar-loan-ireda/) walks through eligibility and the application process for a resident welfare association. Interest rates at 8–9.5% with 5–7 year tenors can finance the full system cost, making the monthly EMI repayment lower than the monthly savings, meaning the project is cash-flow positive from Month 1.
 
-According to [Mercom India's tracking of residential solar financing](https://www.mercomindia.com/), cooperative housing societies that use IREDA or bank financing for solar achieve significantly higher adoption rates than those requiring full up-front capital from the maintenance fund.
+According to [Mercom India's tracking of residential solar financing](https://www.mercomindia.com/), cooperative housing societies that use IREDA or bank financing for solar achieve significantly higher adoption rates than those requiring full up-front capital from the maintenance fund. Committees wanting to stress-test their own tariff slab and escalation assumptions rather than rely on a single EPC's projection can build a [custom solar financial model](https://surgepv.com/generation-financial-tool/) with the society's actual billing data.
 
 ## Why Monitoring Matters for RWA Transparency
 
@@ -184,7 +193,7 @@ Once the solar system is commissioned and generating, RWAs enter the operational
 
 ## Where Qbits Fits for RWA Solar
 
-Managing committees and facility managers who want a single-point responsibility (from site survey to DISCOM application to monitoring setup to warranty support) find that Qbits' installer network covers Noida and the Delhi-NCR region with experienced teams who have completed multiple RWA and commercial campus installations.
+Managing committees and facility managers who want a single-point responsibility (from [site survey](/glossary/site-survey/) to DISCOM application to monitoring setup to warranty support) find that Qbits' installer network covers Noida and the Delhi-NCR region with experienced teams who have completed multiple RWA and commercial campus installations. Societies that want the physical build bundled with equipment supply, not just the inverter, can also evaluate [residential solar installation](https://heavengreenenergy.com/residential-solar/) services covering mounting, terrace waterproofing, and commissioning under one contract.
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series; ALMM-listed and PM Surya Ghar subsidy-eligible, critical for the RWA subsidy application.
 - **[Authorized Service Partners](/authorized-service-partners/)**: certified installer network covering Noida and the Delhi-NCR region.

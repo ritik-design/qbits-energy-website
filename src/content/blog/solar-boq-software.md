@@ -4,6 +4,7 @@ excerpt: "Solar BOQ software auto-generates the bill of quantities the procureme
 description: "Solar BOQ software 2026: auto-generated bill of quantities, PM Surya Ghar mapping, hardware-neutral procurement export. SurgePV ships BOQ on every plan."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "8 min"
 image: "/blog-images/solar-boq-software.svg"
 author: "Akash Hirapara"
@@ -31,7 +32,7 @@ faqs:
     a: "Yes. SurgePV's BOQ includes mounting rails, clamps, end clamps, mid clamps, ballast for flat roofs, and structural attachment hardware based on the roof type and orientation."
 ---
 
-Solar BOQ software auto-generates the bill of quantities the procurement team needs. The auto-BOQ removes the manual list-building step and the errors that come with it. This guide explains how auto-BOQ works in 2026 and which tools ship it well.
+Solar BOQ software auto-generates the bill of quantities the procurement team needs. The auto-BOQ removes the manual list-building step and the errors that come with it. This guide explains how auto-BOQ works in 2026 — a close relative of [solar takeoff software](/blog/solar-takeoff-software/) — and which tools ship it well.
 
 > **TL;DR**
 > - Auto-BOQ generates the full procurement list from the design canvas.
@@ -50,14 +51,14 @@ Solar BOQ software auto-generates the bill of quantities the procurement team ne
 
 - **PV modules** with manufacturer, model, wattage, count
 - **Inverters** with manufacturer, model, ratings, count
-- **Mounting structure** rails, clamps, ballast, structural fasteners
-- **DC cables** with size, length, type
-- **AC cables** with size, length, type
-- **DC and AC isolators** and combiner boxes
-- **Breakers and overcurrent protection**
-- **Grounding and bonding hardware**
+- **[Mounting structure](/glossary/mounting-structure/)** rails, clamps, ballast, structural fasteners
+- **[DC cables](/glossary/dc-cable/)** with size, length, type
+- **[AC cables](/glossary/ac-cable/)** with size, length, type
+- **DC and AC [isolators](/glossary/isolator/)** and [combiner boxes](/glossary/combiner-box/)
+- **Breakers and overcurrent protection** ([MCB](/glossary/mcb/))
+- **[Grounding and bonding](/glossary/earthing/)** hardware
 - **Monitoring hardware** (CT clamps, gateway)
-- **Balance of System** (junction boxes, conduit, labels)
+- **[Balance of System](https://heavengreenenergy.com/products/balance-of-system/)** (junction boxes, conduit, labels)
 
 ## How Solar BOQ Software Works in SurgePV
 
@@ -76,7 +77,7 @@ The BOQ pulls from the design canvas in real time. Module count and model come f
 
 ## PM Surya Ghar Subsidy Mapping for India
 
-For Indian residential installers, BOQ line items must map cleanly to PM Surya Ghar Muft Bijli Yojana subsidy eligibility. SurgePV's financial model includes this mapping, and the QuickEstimate sister CRM handles lead capture, follow-ups, and the subsidy claim workflow through to disbursement.
+For Indian residential installers, BOQ line items must map cleanly to [PM Surya Ghar](/glossary/pm-surya-ghar/) Muft Bijli Yojana subsidy eligibility. SurgePV's financial model includes this mapping, and the QuickEstimate sister CRM handles lead capture, follow-ups, and the subsidy claim workflow through to disbursement.
 
 ## What SurgePV Bundles With Auto-BOQ
 
@@ -114,7 +115,7 @@ Generation time: under 5 seconds. PM Surya Ghar subsidy line: ₹78,000 central 
 
 1. **Missing the AC cable length** between inverter and meter
 2. **Forgetting ballast for flat C&I rooftops**
-3. **Under-sizing DC isolators** for the actual string short-circuit current
+3. **Under-sizing DC isolators** for the actual [string sizing](/glossary/string-sizing/) short-circuit current
 4. **Missing AHJ-required labels** in the BOQ
 5. **Not accounting for spare parts** (cables, fuses, fasteners)
 
@@ -130,7 +131,7 @@ Generation time: under 5 seconds. PM Surya Ghar subsidy line: ₹78,000 central 
 - **Choose SurgePV** for auto-BOQ on every paid plan, hardware-neutral, with PM Surya Ghar mapping for India.
 - **Choose Aurora upper tier** for US-residential with mature AHJ BOQ workflows.
 - **Choose HelioScope** for C&I engineering with limited BOQ scope.
-- **Use Solar Ladder** for India residential sales workflows that need BOQ + CRM in one product.
+- **Use [Solar Ladder](/blog/solar-ladder-alternative/)** for India residential sales workflows that need BOQ + CRM in one product.
 
 For most installers in 2026, the [solar design software](https://surgepv.com/) from SurgePV plus [QuickEstimate](https://quickestimate.co/) is the cleanest auto-BOQ + procurement workflow.
 

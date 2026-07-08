@@ -4,6 +4,7 @@ excerpt: "PVsyst costs roughly €500 per user per year for the Standard licence
 description: "PVsyst price in 2026: Standard and Premium licences, Windows-only hidden costs, and the SurgePV browser-based bankable alternative. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "9 min"
 image: "/blog-images/pvsyst-price.svg"
 author: "Nirav Dhanani"
@@ -31,7 +32,7 @@ faqs:
     a: "Book a free SurgePV demo, rebuild three or four recent PVsyst projects in the free trial, verify P50/P75/P90 outputs align, and run a parallel quarter while maintaining PVsyst for any lender-mandated reports. Most teams reach simulation parity within a week."
 ---
 
-PVsyst is the bankable yield standard, but the Standard licence price is only one line in the full cost of running PVsyst in production. This guide breaks down the real cost, names the hidden extras, and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat browser-based pricing.
+PVsyst is the bankable yield standard, but the Standard licence price is only one line in the full cost of running PVsyst in production. This guide breaks down the real cost, names the hidden extras, and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat browser-based pricing. For the full feature-by-feature breakdown rather than just the numbers, see our [PVsyst alternative comparison](/blog/pvsyst-alternative/).
 
 > **TL;DR**
 > - PVsyst Standard licence is roughly €500 per user per year. Premium is custom.
@@ -60,7 +61,7 @@ The Standard licence is the headline number, but the real cost of running PVsyst
 ## What Is Missing From PVsyst
 
 - No native [branded solar proposal](https://surgepv.com/solar-proposals) builder
-- No real [solar financial modeling](https://surgepv.com/generation-financial-tool) (Excel bolt-on typical)
+- No real [solar financial modeling](https://surgepv.com/generation-financial-tool) (Excel bolt-on typical, with manual [IRR](/glossary/irr/) and [payback period](/glossary/payback-period/) calculations)
 - No AI design assistant like [Clara AI](https://surgepv.com/clara-ai)
 - No [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite
 - No cloud collaboration
@@ -80,8 +81,8 @@ SurgePV is typically 30 to 50 percent cheaper at team scale once the multi-tool 
 ## What You Get for Less With SurgePV
 
 - **Browser-based** on Mac, Linux, Windows, Chromebook, iPad
-- **8,760-hour module-level shading** matching PVsyst's bankable methodology
-- **Bankable P50, P75, P90** outputs
+- **[8,760-hour module-level shading](/blog/solar-shading-analysis-software/)** matching PVsyst's bankable methodology
+- **Bankable [P50, P75, P90](/glossary/p50-p90/)** outputs
 - **[AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design)** from satellite, no drone
 - **[Clara AI](https://surgepv.com/clara-ai)** natural-language design assistant
 - **[Solar financial modeling](https://surgepv.com/generation-financial-tool)** with country tariffs

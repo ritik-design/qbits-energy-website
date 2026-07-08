@@ -4,6 +4,7 @@ excerpt: "5kW solar system price in India ranges from ₹2,40,000 to ₹3,50,000
 description: "Complete 5kW solar system cost in India 2026: on-grid vs hybrid price difference, PM Surya Ghar subsidy, panel/inverter/BOS breakdown, payback period, and which Qbits inverter fits a 5kW system."
 category: "Buying Guide"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "18 min"
 image: "/blog-images/solar-inverter-sizing.svg"
 author: "Akash Hirapara"
@@ -40,11 +41,18 @@ This guide answers both. It applies the **True Cost of Going Solar** framework t
 
 **Short version.** A 5kW on-grid system costs ₹2,40,000 to ₹3,00,000 gross in India in 2026. A 5kW hybrid runs ₹3,00,000 to ₹3,80,000. After the ₹78,000 PM Surya Ghar subsidy (capped at this level for any system above 3kW), net outlay is ₹1,62,000 to ₹2,22,000 for on-grid. At ₹7/unit and 23 kWh/day, payback lands in 3 to 5 years. The framework below verifies every line item before you sign.
 
+> **TL;DR**
+> - A 5kW on-grid system costs ₹2,40,000–₹3,00,000 gross; a 5kW hybrid costs ₹3,00,000–₹3,80,000, before subsidy.
+> - The PM Surya Ghar subsidy caps at ₹78,000 for any system above 3kW, so a 5kW installation gets no extra subsidy over a 3kW one.
+> - A well-installed 5kW system generates 20–27 kWh/day (7,000–9,000 kWh/year), enough for a 3 BHK or 4 BHK home.
+> - Payback lands in 3.3 to 3.6 years for on-grid at typical residential tariffs of ₹6–₹8/unit.
+> - The system needs 9 to 14 panels depending on wattage, and pairs with the Qbits [TLD-5000](/on-grid-inverter/) (on-grid) or [HS-5000 / HT-5000](/hybrid-inverter/) (hybrid), both carrying a 12-year full replacement warranty.
+
 ## The True Cost of Going Solar: 5kW Edition
 
 The **True Cost of Going Solar** framework breaks every solar project into five components. For a 5kW system, here is what each component looks like:
 
-1. **Solar panels (₹/Wp)**: At 5,000 Wp, panels represent the single largest cost. Quality monocrystalline PERC panels cost ₹22–₹26/Wp; TOPCon panels run ₹26–₹30/Wp. Panel cost for a 5kW system: ₹1,10,000 to ₹1,50,000.
+1. **Solar panels (₹/Wp)**: At 5,000 Wp, panels represent the single largest cost. Quality [monocrystalline](/glossary/monocrystalline/) [PERC](/glossary/perc-cell/) panels cost ₹22–₹26/Wp; [TOPCon](/glossary/topcon-cell/) panels run ₹26–₹30/Wp. Panel cost for a 5kW system: ₹1,10,000 to ₹1,50,000.
 2. **Inverter**: A 5kW on-grid string inverter costs ₹28,000 to ₹55,000. A 5kW hybrid inverter costs ₹50,000 to ₹90,000. The gap is wide because hybrid inverters carry built-in charge controllers, battery management interfaces, and transfer switches.
 3. **Balance of System (BOS)**: Mounting structure, DC/AC cabling, junction boxes, surge protectors, earthing system, and net meter interface. For a 5kW system: ₹30,000 to ₹50,000.
 4. **Installation and commissioning**: Labour, civil work, DISCOM net metering application, and commissioning inspection. For a 5kW system: ₹18,000 to ₹30,000.
@@ -113,9 +121,9 @@ A 5kW system is designed for a **3 BHK or 4 BHK** Indian home or a small commerc
 | Water pump (1 HP) | 750 W | 1 hr | 0.75 |
 | **Total** | | | **~29 kWh/day** |
 
-A 5kW system in central India generates 22 to 27 kWh/day. The gap between ~29 kWh consumption and ~25 kWh generation is covered by grid export credits (net metering) banked from lower-consumption daytime hours when the AC runs less. In practice, most 4 BHK households find a 5kW system eliminates 70–85% of their DISCOM bill.
+A 5kW system in central India generates 22 to 27 kWh/day. The gap between ~29 kWh consumption and ~25 kWh generation is covered by grid export credits ([net metering](/glossary/net-metering/)) banked from lower-consumption daytime hours when the AC runs less. In practice, most 4 BHK households find a 5kW system eliminates 70–85% of their [DISCOM](/glossary/discom/) bill.
 
-For the inverter sizing specifics and which Qbits SKU pairs with a 5kW system, the [best 5kW solar inverter guide for India](/blog/best-5kw-solar-inverter-india-2026/) gives a brand-by-brand comparison.
+For the inverter sizing specifics and which Qbits SKU pairs with a 5kW system, the [best 5kW solar inverter guide for India](/blog/best-5kw-solar-inverter-india-2026/) gives a brand-by-brand comparison. If your consumption profile sits between capacities, the [3kW vs 5kW vs 10kW solar inverter capacity guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) walks through the decision, and homeowners with larger loads can compare against the [10kW solar system price guide](/blog/10kw-solar-system-price-india/). For turnkey installation quotes on a 5kW residential rooftop, [Heaven Green Energy's residential solar installation service](https://heavengreenenergy.com/residential-solar/) is a useful benchmark for EPC scope and pricing outside the Qbits network.
 
 ## PM Surya Ghar Subsidy for 5kW: The Important Nuance
 
@@ -153,7 +161,9 @@ For the complete PM Surya Ghar application and eligibility process, read the [PM
 - Net cost: ₹2,20,000
 - **Payback: 3.3 years**
 
-> **8,395 kWh/year.** Estimated annual generation from a well-installed 5kW solar system at 4.6 peak sun hours/day (India average). At ₹7/unit, this delivers ₹58,765 in annual bill savings. *Source - [IRENA Renewable Power Generation Costs 2024](https://www.irena.org/Publications/2025/Mar/Renewable-Power-Generation-Costs-in-2024){target="_blank" rel="noopener"}, IRENA 2025.*
+> **8,395 kWh/year.** Estimated annual generation from a well-installed 5kW solar system at 4.6 [peak sun hours](/glossary/peak-sun-hours/)/day (India average). At ₹7/unit, this delivers ₹58,765 in annual bill savings. *Source - [IRENA Renewable Power Generation Costs 2024](https://www.irena.org/Publications/2025/Mar/Renewable-Power-Generation-Costs-in-2024){target="_blank" rel="noopener"}, IRENA 2025.*
+
+For a state-by-state breakdown of how tariff and irradiance change the payback math, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) compares seven Indian states side by side. Homeowners who want to model their own numbers before committing can also run a rough estimate through [Heaven Green Energy's solar savings calculator](https://heavengreenenergy.com/solar-calculator/).
 
 ## Which Qbits Inverter for a 5kW System?
 
@@ -170,11 +180,11 @@ For homes with three-phase supply (typically larger villas and bungalows), the H
 
 ## Common Mistakes When Buying a 5kW System
 
-- **Choosing a non-ALMM-listed inverter**: Costs you ₹78,000 in lost subsidy. Always verify ALMM listing at the [MNRE ALMM portal](https://mnre.gov.in/almm-list/) before purchase. India's ALMM Phase III has made compliance mandatory for subsidy-eligible installations.
+- **Choosing a non-[ALMM](/glossary/almm-list/)-listed inverter**: Costs you ₹78,000 in lost subsidy. Always verify ALMM listing at the [MNRE ALMM portal](https://mnre.gov.in/almm-list/) before purchase. The [ALMM Phase III guide](/blog/almm-list-phase-iii-guide/) explains why compliance is now mandatory for subsidy-eligible installations.
 - **Undersizing the mounting structure**: A 5kW system carries 10+ panels weighing 250+ kg. Use a structural-load-rated mounting frame, especially on RCC terraces.
 - **Not checking dual-MPPT need**: If your panels face two different orientations (east and west, or roofs at different tilts), a dual-MPPT inverter extracts significantly more energy than single-MPPT. The [dual MPPT vs single MPPT guide](/blog/dual-mppt-vs-single-mppt/) covers this.
 - **Ignoring the net metering application timeline**: DISCOM net meter application can take 30 to 90 days in some states. During this period, surplus solar is wasted. Apply on the day of commissioning.
-- **Not accounting for panel degradation**: All panels degrade approximately 0.5–0.7% per year. At year 25, a 5kW system generates ~85% of its initial output. Factor this into payback calculations. Research from [NREL on solar panel degradation rates](https://www.nrel.gov/){target="_blank" rel="noopener"} confirms median degradation of 0.5% per year globally, with Indian high-temperature conditions slightly accelerating this rate. The [MNRE solar radiation atlas](https://mnre.gov.in/){target="_blank" rel="noopener"} provides state-level peak sun hour data for accurate generation estimates.
+- **Not accounting for panel [degradation](/glossary/degradation/)**: All panels degrade approximately 0.5–0.7% per year. At year 25, a 5kW system generates ~85% of its initial output. Factor this into payback calculations. Research from [NREL on solar panel degradation rates](https://www.nrel.gov/){target="_blank" rel="noopener"} confirms median degradation of 0.5% per year globally, with Indian high-temperature conditions slightly accelerating this rate. The [MNRE solar radiation atlas](https://mnre.gov.in/){target="_blank" rel="noopener"} provides state-level peak sun hour data for accurate generation estimates.
 
 ## Where Qbits Fits
 

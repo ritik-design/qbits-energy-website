@@ -4,6 +4,7 @@ excerpt: "Reactive power support from solar inverters can eliminate DISCOM power
 description: "Complete guide to reactive power support in solar inverters for India, VARs, power factor, CEA Grid Code 2020 requirements for >100 kW plants, and the Reactive Power Compliance Test for EPC teams."
 category: Technology
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "15 min"
 image: "/blog-images/solar-inverter-specifications-decoded.svg"
 author: "Keyur Rakholiya"
@@ -32,11 +33,18 @@ faqs:
     a: "Most Indian DISCOMs impose a power factor penalty when the average power factor at the metering point falls below 0.95 during any billing month. The penalty structure varies by state SERC tariff orders but typically ranges from 0.5% to 2% surcharge on the energy bill per 0.01 unit of power factor below 0.95, up to a maximum of 15–20% surcharge. Some DISCOMs also offer a power factor incentive (rebate) for maintaining PF above 0.99. For a factory with a ₹10 Lakh monthly electricity bill, a 0.85 power factor can result in ₹1–2 Lakh per month in penalties - making solar inverter reactive support a financially significant capability."
 ---
 
-Every DISCOM in India has a power factor clause in its tariff schedule. Maintain power factor above 0.95 and you pay the base rate. Drop below 0.95 (as most factories with induction motors do) and the surcharge appears on every bill, month after month. A solar inverter with reactive power support capability can compensate for the lagging reactive demand of inductive loads during daylight hours, eliminating or reducing the penalty without buying a dedicated power factor correction panel.
+Every DISCOM in India has a power factor clause in its tariff schedule. Maintain power factor above 0.95 and you pay the base rate. Drop below 0.95 (as most factories with induction motors do) and the surcharge appears on every bill, month after month. A solar inverter with [reactive power](/glossary/reactive-power/) support capability can compensate for the lagging reactive demand of inductive loads during daylight hours, eliminating or reducing the penalty without buying a dedicated power factor correction panel.
+
+> **TL;DR**
+> - CEA Grid Code 2020 requires solar plants above 100 kW to operate within 0.95 lagging to 0.95 leading power factor; plants above 1 MW must also support automatic voltage regulation (AVR) mode.
+> - A factory at 0.85 power factor can incur a 10-15% DISCOM surcharge, roughly ₹1-2 Lakh per month on a ₹10 Lakh electricity bill.
+> - A solar inverter running below its full kVA rating has spare reactive-power headroom (kVAR² = kVA² − kW²) that can supply a facility's daytime reactive demand at no extra hardware cost.
+> - Reactive power support only works during daylight hours; a supplementary capacitor bank or STATCOM is still needed for night-time power factor compliance.
+> - The four-step Reactive Power Compliance Test (baseline measurement, capability confirmation, mode configuration, documentation) is what EPCs need to pass DISCOM commissioning inspection on the first attempt.
 
 > **Direct answer.** Reactive power support allows a solar inverter to supply VARs alongside real power, improving the facility's power factor at the metering point. CEA Grid Code 2020 mandates this capability for grid-connected solar plants above 100 kW, requiring operation within 0.95 lagging to 0.95 leading power factor. The Reactive Power Compliance Test defines the four steps an EPC must complete to demonstrate compliance.
 
-For EPC teams designing C&I solar installations at factories, schools, or hospitals, reactive power capability is a specification requirement, not an optional feature. Failing to address it results in either a DISCOM interconnection objection or a continued power factor penalty after the solar system is commissioned.
+For EPC teams designing [C&I solar installations](https://heavengreenenergy.com/commercial-solar/) at factories, schools, or hospitals, reactive power capability is a specification requirement, not an optional feature. Failing to address it results in either a DISCOM interconnection objection or a continued power factor penalty after the solar system is commissioned.
 
 ## What Reactive Power Is: VARs, Power Factor, and Why It Costs Money
 
@@ -61,7 +69,7 @@ The reactive power component (measured in kVAR, kilovolt-ampere reactive) flows 
 
 The financial case for reactive power correction from the solar inverter rests on three numbers: the current power factor penalty, the cost of dedicated power factor correction equipment, and the inverter's reactive power headroom at typical solar generation levels.
 
-A commercial building or factory with a 300 kW solar installation from Qbits running at 220 kW average generation on a typical day operates at 73% of rated real power output. The inverter's 300 kVA apparent power rating means there is 210 kVAR of reactive power headroom available at that generation level (from the relationship kVAR² = kVA² − kW²).
+A [factory with heavy VFD, compressor, and welding loads](/blog/solar-inverter-for-factory/) running a 300 kW solar installation from Qbits at 220 kW average generation on a typical day operates at 73% of rated real power output. The inverter's 300 kVA apparent power rating means there is 210 kVAR of reactive power headroom available at that generation level (from the relationship kVAR² = kVA² − kW²).
 
 If the building's inductive load demand is 150 kVAR during the same hours, the inverter can supply all of it, eliminating the daytime power factor deficit and with it the associated penalty on daytime consumption.
 
@@ -87,7 +95,7 @@ Reactive power support in automatic mode is mandatory. The inverter must impleme
 - **AVR (Automatic Voltage Regulation) mode**: The inverter actively maintains a target voltage at the point of common coupling by adjusting reactive output.
 - **Remote set-point capability**: DISCOM load dispatch centre must be able to adjust the reactive power set-point remotely via SCADA or direct communication link.
 
-EPC teams handling utility-scale or large C&I installations must address all three requirements in the protection and control design. Failing the reactive power capability test during DISCOM commissioning inspection is a common delay cause at this scale.
+EPC teams handling utility-scale or large C&I installations must address all three requirements in the protection and control design. Failing the reactive power capability test during DISCOM commissioning inspection is a common delay cause at this scale, which is why reactive power mode selection belongs in the [commercial solar design](https://surgepv.com/commercial-solar-design/) phase, not retrofitted at commissioning.
 
 ## Active vs Passive Reactive Power Correction: Solar Inverter vs Capacitor Bank
 
@@ -113,7 +121,7 @@ This four-step framework defines how an EPC team should verify reactive power co
 1. **Baseline measurement**: At the DISCOM meter, measure the existing power factor without solar inverter reactive support active. Record the worst-case (minimum) power factor during typical operating hours using a power quality analyser. This is the target condition the inverter must correct.
 2. **Inverter reactive capability confirmation**: At the expected average solar generation level, calculate the available reactive power headroom. For a 100 kW inverter operating at 70 kW: available kVAR = √(100² − 70²) = 71 kVAR. Confirm this exceeds the reactive demand from step 1.
 3. **Mode configuration and testing**: Configure the inverter's reactive power mode per the DISCOM's interconnection agreement (fixed PF, Q mode, or droop). Apply the configuration and measure the resulting power factor at the DISCOM meter under typical load. Confirm it meets the 0.95 minimum requirement.
-4. **Documentation package**: Prepare the reactive power compliance documentation: inverter specification sheet showing kVA rating and reactive power capability, inverter settings screenshot showing the active reactive power mode, and the power quality report from step 3 confirming the achieved power factor. This package accompanies the commissioning application to the DISCOM.
+4. **Documentation package**: Prepare the reactive power compliance documentation: inverter specification sheet showing kVA rating and reactive power capability, inverter settings screenshot showing the active reactive power mode, and the power quality report from step 3 confirming the achieved power factor. This package accompanies the commissioning application to the DISCOM, alongside the [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/) already prepared for the interconnection submission.
 
 > **[IEA's Global Solar report](https://www.iea.org/reports/solar-pv-global-supply-chains){target="_blank" rel="noopener"} notes that reactive power management is the grid integration challenge that most frequently delays large-scale solar commissioning**: particularly in developing markets where distribution networks are voltage-constrained. [IRENA's distributed energy resources report](https://www.irena.org/publications/2022/Jan/Distributed-Renewables-for-Universal-Energy-Access){target="_blank" rel="noopener"} recommends dynamic reactive power support from inverters as the most cost-effective grid support mechanism for distribution-connected solar.
 

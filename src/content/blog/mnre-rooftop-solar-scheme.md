@@ -3,6 +3,7 @@ title: "MNRE Rooftop Solar Scheme, Complete 2026 Guide"
 excerpt: "The MNRE rooftop solar scheme covers PM Surya Ghar subsidies, ALMM compliance, and empanelled vendor rules. Complete 2026 guide for homeowners and installers."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "15 min"
 image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
 author: "Nirav Dhanani"
@@ -35,7 +36,14 @@ The Ministry of New and Renewable Energy (MNRE) runs the largest residential sol
 
 > **Direct answer.** The MNRE rooftop solar scheme provides subsidies of up to ₹78,000 for 3 kW residential rooftop systems. It requires ALMM-listed components, installation by empanelled vendors registered on pmsuryaghar.gov.in, and Aadhaar-verified bank account for direct benefit transfer. The scheme targets 10 million Indian households and is India's primary vehicle for residential solar expansion through 2027.
 
-India's total installed rooftop solar capacity crossed 18 GW by early 2026, according to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}, with residential installations growing at over 40% annually, driven almost entirely by the PM Surya Ghar scheme. The [ALMM list](/glossary/almm-list/) and empanelled vendor framework are the quality guardrails that make this possible at scale.
+> **TL;DR**
+> - MNRE runs the scheme through a layered DBT structure: MNRE sets policy, the state nodal agency coordinates, the DISCOM inspects and activates net metering, and PFMS transfers the subsidy.
+> - Central subsidy is ₹30,000/kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000 regardless of system size above 3 kW.
+> - Only ALMM-listed panels and inverters qualify, and only MNRE-empanelled vendors can execute a subsidised installation.
+> - The official target is 30 days from installation to subsidy disbursal, but the real-world average is 45 to 90 days depending on state DISCOM capacity.
+> - State schemes such as Surya Gujarat and Tamil Nadu's programme add a top-up subsidy on top of the central amount in most states.
+
+India's total installed rooftop solar capacity crossed 18 GW by early 2026, according to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}, with residential installations growing at over 40% annually, driven almost entirely by the PM Surya Ghar scheme, a pace of growth mirrored by the expansion of [residential solar installation](https://heavengreenenergy.com/residential-solar/) capacity among EPC firms nationally. The [ALMM list](/glossary/almm-list/) and empanelled vendor framework are the quality guardrails that make this possible at scale.
 
 ## MNRE's Policy Architecture: How the Scheme Is Structured
 
@@ -103,7 +111,7 @@ Your choice of empanelled vendor affects:
 3. **Service accountability**: Empanelled vendors are traceable through the portal; non-empanelled ones are not
 4. **Post-installation support**: The vendor's upload of your completion report is the trigger for your subsidy, vendors who disappear after installation leave you stranded
 
-The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) covers how to verify vendor empanelment status, what to include in your installation agreement, and what to do if your vendor fails to submit your completion report.
+The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) covers how to verify vendor empanelment status, what to include in your installation agreement, and what to do if your vendor fails to submit your completion report. Homeowners researching candidates before checking a name against the state's empanelled list can use a directory such as [finding a local solar installer](https://heavengreenenergy.com/solar-near-me/) to shortlist companies with an established residential track record in their pincode.
 
 ## The MNRE 5-Step Application Process Framework
 
@@ -113,8 +121,8 @@ Every PM Surya Ghar application follows this framework regardless of state or DI
 
 1. **Register and document**: Create an account on pmsuryaghar.gov.in, complete Aadhaar-based eKYC, and upload all required documents (electricity bill, PAN, bank details, property proof). The [documents guide](/blog/pm-surya-ghar-documents-required/) covers the full checklist.
 2. **DISCOM verification**: Your application enters the DISCOM review queue. The DISCOM verifies your consumer number, connection category, and document authenticity. Timeline: 7 to 21 days.
-3. **Vendor selection and installation**: After feasibility approval, select an empanelled vendor from the portal's pincode-filtered list. Negotiate cost, confirm ALMM-listed components, sign agreement, and schedule installation. Installation takes 1 to 3 days for residential systems.
-4. **Net metering and inspection**: Your vendor submits the completion report. Your DISCOM schedules a physical inspection and replaces your meter with a bidirectional smart meter. Timeline: 15 to 45 days depending on state.
+3. **Vendor selection and installation**: After feasibility approval, select an empanelled vendor from the portal's pincode-filtered list. Negotiate cost, confirm ALMM-listed components, sign agreement, and schedule installation. Requesting a structured, itemised quote (the kind produced by [solar quotation software](https://quickestimate.co/features/quotation-system/)) makes it easier to compare component-level pricing across two or three empanelled vendors before signing. Installation takes 1 to 3 days for residential systems.
+4. **Net metering and inspection**: Your vendor submits the completion report. Your DISCOM schedules a physical inspection and replaces your meter with a [bidirectional smart meter](/glossary/bidirectional-meter/). Timeline: 15 to 45 days depending on state.
 5. **Subsidy disbursal**: After inspection clearance, MNRE initiates the PFMS transfer to your bank account. Timeline: 20 to 30 days after inspection.
 
 ## State-Level Variations on the MNRE Scheme

@@ -4,6 +4,7 @@ excerpt: "Residential solar design software needs to be fast, accurate, and prod
 description: "Honest comparison of the best residential solar design software in 2026. SurgePV vs Aurora vs OpenSolar vs Pylon vs Solargraf. Speed, accuracy, total cost of ownership for residential installers."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/residential-solar-design-software.svg"
 author: "Nirav Dhanani"
@@ -51,22 +52,22 @@ Residential solar design software lives or dies on speed, accuracy, and close-ra
 ### 1. SurgePV
 Browser-based, [residential solar design software](https://surgepv.com/residential-solar-design) workflow with AI 3D roof modeling from satellite, Clara AI, 8,760-hour module-level shading, financial modelling, branded proposals in 9 languages. $1,299 to $1,899 per user per year flat.
 
-### 2. Aurora Solar
+### 2. [Aurora Solar](/blog/aurora-solar-alternative/)
 US-residential premium. $159 to $259 per user per month. AI Mode and Sales Mode add-ons.
 
-### 3. OpenSolar
+### 3. [OpenSolar](/blog/opensolar-alternative/)
 Free entry tier. Add-ons stack at C&I or advanced residential.
 
-### 4. Pylon
+### 4. [Pylon](/blog/pylon-alternative/)
 US-residential proposal-led. Per-feature pricing.
 
-### 5. Solargraf
+### 5. [Solargraf](/blog/solargraf-alternative/)
 Residential proposal templates. Enphase-owned.
 
-### 6. Enact Solar
+### 6. [Enact Solar](/blog/enact-solar-alternative/)
 Residential proposal-first. English-only.
 
-### 7. Arka360
+### 7. [Arka360](/blog/arka360-alternative/)
 India-residential AI-led. Engineering depth limited.
 
 ## Residential Solar Design at a Glance
@@ -86,7 +87,7 @@ India-residential AI-led. Engineering depth limited.
 - [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite
 - [Clara AI](https://surgepv.com/clara-ai) natural-language design
 - [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) on every plan
-- [Solar financial modeling](https://surgepv.com/generation-financial-tool) with PM Surya Ghar, SREC, net metering
+- [Solar financial modeling](https://surgepv.com/generation-financial-tool) with [PM Surya Ghar](/glossary/pm-surya-ghar/), SREC, [net metering](/glossary/net-metering/)
 - [DXF/DWG export](https://surgepv.com/solar-autocad-integration) for AutoCAD handoff
 - [Branded solar proposals](https://surgepv.com/solar-proposals) with e-signature in 9 languages
 - [QuickEstimate](https://quickestimate.co/) pairs as the sister CRM

@@ -4,6 +4,7 @@ excerpt: "PM Surya Ghar subsidy amount is ₹30,000 per kW for the first 2 kW an
 description: "Calculate your exact PM Surya Ghar subsidy amount by system size. Full slab table, state top-up data, group housing rules, and The PM Surya Ghar Subsidy Stack framework explained."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "22 min"
 image: "/blog-images/solar-inverter-payback-period-in-india.svg"
 author: "Akash Hirapara"
@@ -41,6 +42,14 @@ This post gives you the complete slab-by-slab subsidy calculator, a state-wise t
 > **Direct answer.** The PM Surya Ghar subsidy amount is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kilowatt, giving a maximum central subsidy of ₹78,000 for any system 3 kW or above. The subsidy is capped at 3 kW per household. Systems above 3 kW receive the same ₹78,000; group housing societies receive ₹18,000 per kW capped at ₹50,000 per unit. State governments add top-ups in Gujarat, Maharashtra, Rajasthan, and UP.
 
 The subsidy is disbursed as a one-time [direct benefit transfer](/glossary/net-metering/) into your Aadhaar-linked bank account after your [DISCOM](/glossary/discom/) verifies commissioning, it is not a discount at the point of purchase. Understanding that sequence matters enormously for cash-flow planning. The full five-step application process is covered in the [PM Surya Ghar Muft Bijli Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/); this post focuses exclusively on the rupee amounts, how they stack, and how to calculate your personal figure.
+
+> **TL;DR**
+> - The central subsidy is ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW, a maximum of ₹78,000, capped at 3 kW regardless of actual system size.
+> - Group housing societies (RWA common-area systems) get ₹18,000 per kW, capped at ₹50,000 per dwelling unit, up to 500 kW per society.
+> - Gujarat, Maharashtra, Rajasthan, and Uttar Pradesh add state-level top-ups on top of the central amount, in some cases nearly doubling the combined subsidy.
+> - The subsidy is a post-installation reimbursement, not a point-of-sale discount, it lands in your bank account 30 to 90 days after DISCOM commissioning verification.
+> - A non-ALMM-listed inverter or panel disqualifies the entire claim, not just the non-compliant component.
+> - The subsidy is tied to the electricity consumer number, one claim per connection, not one per property.
 
 ## PM Surya Ghar Subsidy Amount Slab Table: Every System Size Calculated
 
@@ -171,7 +180,7 @@ Look up your state in the table in the previous section. Add the confirmed state
 
 ### Step 4: Calculate Net Cost and Payback
 
-Subtract the combined subsidy from the vendor quote to get your net cost. Divide net cost by annual electricity bill savings to estimate payback years.
+Subtract the combined subsidy from the vendor quote to get your net cost. Divide net cost by annual electricity bill savings to estimate [payback years](/glossary/payback-period/).
 
 **Example (Pune, 3 kW, no state top-up):**
 - Gross system cost: ₹1,60,000
@@ -180,7 +189,7 @@ Subtract the combined subsidy from the vendor quote to get your net cost. Divide
 - Annual savings at ₹8/unit on 400 units/month: ₹38,400
 - Payback: ₹82,000 ÷ ₹38,400 = **2.1 years**
 
-For a more granular payback analysis factoring in net metering export credits, fixed charges, and tariff escalation over 25 years, the [PM Surya Ghar apply online guide](/blog/pm-surya-ghar-apply-online/) includes a worked financial model with state-specific tariff inputs.
+For a more granular payback analysis factoring in net metering export credits, fixed charges, and tariff escalation over 25 years, the [PM Surya Ghar apply online guide](/blog/pm-surya-ghar-apply-online/) includes a worked financial model with state-specific tariff inputs. You can also [track exactly where your application sits](/blog/pm-surya-ghar-status-check/) at each stage between commissioning and the bank transfer, and EPC teams building the underlying system design often run the same 25-year cash flow at project level using [solar financial modeling software](https://surgepv.com/generation-financial-tool/).
 
 ## ALMM Compliance: The Hidden Condition That Controls Your Entire Subsidy
 
@@ -208,7 +217,7 @@ Errors in the application process are more common than DISCOM officers would pre
 - **Missing NACH mandate**: The portal requires a signed NACH mandate even though the subsidy is a one-time credit rather than a recurring payment. Skipping this form stalls disbursement at the final stage.
 - **Uploading illegible documents**: Electricity bills must clearly show the consumer number. Property documents must be legible to the survey or flat number. Portal verification teams return blurry uploads without processing them.
 
-For the full step-by-step application sequence and document checklist, read the [PM Surya Ghar apply online complete guide](/blog/pm-surya-ghar-apply-online/), it covers every portal field and common rejection patterns in detail.
+For the full step-by-step application sequence and document checklist, read the [PM Surya Ghar apply online complete guide](/blog/pm-surya-ghar-apply-online/), it covers every portal field and common rejection patterns in detail. If your application has already come back rejected, the [PM Surya Ghar rejection reasons guide](/blog/pm-surya-ghar-rejection-reasons/) walks through the fix for each cause.
 
 ## Net Metering and Your Monthly Saving After Subsidy
 
@@ -224,7 +233,7 @@ The financial arithmetic of net metering is straightforward:
 | Matched consumption (380 units) | 390 units | 380 units | Near-zero bill (only fixed charges) |
 | High consumption (550 units) | 390 units | 550 units | Pay for 160 net units + fixed charges |
 
-Export tariffs in India range from ₹2.50 to ₹5.00 per unit depending on state and DISCOM, set by State Electricity Regulatory Commissions (SERCs). Because the export tariff is lower than the retail import tariff (typically ₹6 to ₹10 per unit), self-consuming solar generation is always more valuable than exporting it. Size your system and time high-consumption appliances (dishwasher, washing machine, water heating) to run during the solar generation window.
+[Export tariffs](/glossary/tariff/) in India range from ₹2.50 to ₹5.00 per unit depending on state and DISCOM, set by State Electricity Regulatory Commissions (SERCs). Because the export tariff is lower than the retail import tariff (typically ₹6 to ₹10 per unit), self-consuming solar generation is always more valuable than exporting it. Size your system and time high-consumption appliances (dishwasher, washing machine, water heating) to run during the solar generation window.
 
 For a state-by-state breakdown of net metering tariffs, banking rules, and annual settlement processes, refer to the [net metering India complete guide](/blog/net-metering-india-complete-guide/).
 
@@ -244,7 +253,7 @@ The central subsidy cap at 3 kW creates a natural decision point: install exactl
 
 **Recommendation:** If your average monthly consumption is under 400 units, install exactly 3 kW. The subsidy efficiency (₹26,000 per kW) is maximum, and payback is fastest. If your consumption is 400 to 600 units, a 4 to 5 kW system reduces your bill more completely, and the payback remains acceptable at 3 to 4 years even without additional central subsidy on the extra capacity.
 
-For households consuming above 600 units per month (typically 3 to 5 BHK homes with multiple air conditioners) consider evaluating whether a 5 kW on-grid system or a smaller hybrid system with battery storage makes more sense. The [how to choose solar inverter for home India guide](/blog/how-to-choose-solar-inverter-for-home-india/) covers the full sizing decision including hybrid versus on-grid trade-offs.
+For households consuming above 600 units per month (typically 3 to 5 BHK homes with multiple air conditioners) consider evaluating whether a 5 kW on-grid system or a smaller hybrid system with battery storage makes more sense. The [how to choose solar inverter for home India guide](/blog/how-to-choose-solar-inverter-for-home-india/) covers the full sizing decision including hybrid versus on-grid trade-offs, or run your own numbers through a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) before finalising system size.
 
 ## Where Qbits Fits in Your PM Surya Ghar Calculation
 
@@ -288,4 +297,4 @@ For homeowners who are unsure whether their specific connection, roof, or consum
 
 The pm surya ghar subsidy amount calculation is not complex, but it rewards the homeowner who does it carefully before signing a vendor contract. Know your system size, apply the slab formula, stack your state top-up, verify ALMM compliance on every piece of equipment proposed, and budget for the post-installation reimbursement timing. Those five inputs give you the exact rupee figure that the scheme puts into your account, and the net cost number that determines how quickly your roof starts paying for itself.
 
-The scheme runs to March 2027 under the current [MNRE](https://mnre.gov.in/) allocation. Every month of delay is a month of electricity bills that could have been offset. Calculate your number, verify your eligibility, and apply, the process, once understood, is manageable.
+The scheme runs to March 2027 under the current [Ministry of New and Renewable Energy](https://mnre.gov.in/) allocation. Every month of delay is a month of electricity bills that could have been offset. Calculate your number, verify your eligibility, and apply, the process, once understood, is manageable.

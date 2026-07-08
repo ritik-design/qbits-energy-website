@@ -3,6 +3,7 @@ title: "What to Expect in Year 1 of Solar Ownership India"
 excerpt: "Solar Year 1 in India: DISCOM delays in Month 1, first net metering bill in Month 2, monsoon dip in Month 6, and annual review in Month 12. The Solar Year-1 Calendar explained."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-commissioning-in-india.svg"
 author: "Nirav Dhanani"
@@ -33,18 +34,25 @@ faqs:
 
 The first year of solar ownership in India follows a predictable pattern, but most homeowners do not know what that pattern is. According to [JMK Research's India Rooftop Solar 2025 Consumer Survey](https://jmkresearch.com/), 42% of solar homeowners reported being "surprised" by the monsoon generation dip in their first year, indicating that pre-commissioning expectation-setting is a critical gap in India's solar industry. [IRENA's analysis of residential solar systems](https://www.irena.org/) shows that systems monitored actively in Year 1 have 15% lower incidence of warranty claims in Years 2–5, because early detection of faults prevents cascading damage. The result is unnecessary anxiety about delays that are normal, seasonal dips that were always expected, and missed maintenance tasks that compound into losses in Year 2. This month-by-month guide maps the entire first year so you know what is coming and what to do about it.
 
+> **TL;DR**
+> - Month 1 typically brings a DISCOM net metering connection delay (15–90 days, worst in Kerala, fastest in Gujarat) that is normal, not a fault.
+> - Month 2's first net metering bill shows Import, Export, and Net Consumption; a 5–10% gap versus the monitoring app's export figure is normal calibration tolerance.
+> - Months 6 through 8 bring the monsoon dip, generation falling to as low as 30% of clear-sky peak during July–August, which is expected weather behaviour, not a system defect.
+> - Month 12 calls for a formal annual review: comparing actual generation to the installer's estimate, a technical inspection, and confirming both panel and inverter warranty registration.
+> - Zero generation on a clear day, a burning smell, or a repeated isolation fault all warrant an immediate call to the installer rather than a wait-and-watch approach.
+
 > **Direct answer.** The Solar Year-1 Calendar for Indian rooftop solar: Month 1 (DISCOM connection delay (normal, 15–90 days); Month 2) first net metering bill (learn to read it); Month 3 (first panel cleaning; Months 4–5) summer peak generation (compare to estimate); Month 6 (monsoon dip (normal); Months 7–9) good generation resumes; Months 10–11 (winter slight dip; Month 12) annual review. The framework below explains what is normal versus what needs a call to your installer.
 
 For the monitoring app metrics you will be watching throughout Year 1, see [how to read your solar inverter monitoring app](/blog/how-to-read-solar-monitoring-app-india/).
 
 ## Month 1: DISCOM Connection Delay (Normal)
 
-The most common complaint in Month 1 is not a technical problem, it is bureaucratic delay. Your panels are on the roof, the inverter is commissioned, and the system is generating power. But the DISCOM has not yet installed the bidirectional net meter, so:
+The most common complaint in Month 1 is not a technical problem, it is bureaucratic delay. Your panels are on the roof, the inverter is commissioned, and the system is generating power. But the [DISCOM](/glossary/discom/) has not yet installed the [bidirectional net meter](/glossary/bidirectional-meter/), so:
 
-- The system may be running in **zero-export mode** (the inverter's built-in zero-export function prevents power flowing to the grid through the old one-way meter)
-- Or the installer has applied for net metering and the DISCOM inspection is pending
+- The system may be running in **[zero-export](/glossary/zero-export/) mode** (the inverter's built-in zero-export function prevents power flowing to the grid through the old one-way meter)
+- Or the installer has applied for [net metering](/glossary/net-metering/) and the DISCOM inspection is pending
 
-**Is this normal?** Completely. DISCOM net metering approval takes 15 days (Gujarat, best case) to 90 days (Kerala, worst case) from application submission. In the PM Surya Ghar scheme, the mandated timeline is 30 days, but enforcement is inconsistent across states.
+**Is this normal?** Completely. DISCOM net metering approval takes 15 days (Gujarat, best case) to 90 days (Kerala, worst case) from application submission. In the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/), the mandated timeline is 30 days, but enforcement is inconsistent across states.
 
 **What you can do:** Ask your installer for the application reference number and track status on your state DISCOM portal or the PM Surya Ghar portal. Follow up weekly. If 45 days have passed without inspection, file a formal complaint through the DISCOM's consumer grievance cell.
 
@@ -118,7 +126,7 @@ The 12-month mark is the time for a formal Year 1 review. Complete all of the fo
 **Financial review:**
 - Total annual generation (from monitoring app) vs installer's Year 1 estimate
 - Total bill savings (from DISCOM bills before and after solar)
-- Payback progress: Year 1 savings ÷ System cost = percentage of capital recovered
+- Payback progress: Year 1 savings ÷ System cost = percentage of capital recovered. A [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) can project the remaining payback timeline using your actual Year 1 numbers.
 
 **Technical review (do this with your installer or service partner):**
 - String voltage check with a multimeter, verify each string is producing expected voltage
@@ -127,7 +135,7 @@ The 12-month mark is the time for a formal Year 1 review. Complete all of the fo
 - Inverter error log review, are there recurring fault codes that were not reported?
 - Warranty registration confirmation, both panels and inverter
 
-**Documentation:** File your Year 1 annual review report (from the service visit), all DISCOM bills from the past 12 months, monitoring app annual generation report, and warranty certificate copies. These documents are essential for any future warranty claim.
+**Documentation:** File your Year 1 annual review report (from the service visit), all DISCOM bills from the past 12 months, monitoring app annual generation report, and [warranty](/blog/solar-inverter-warranty/) certificate copies. These documents are essential for any future warranty claim. If your installer did not hand over an as-built record at commissioning, a [post-installation as-built design report](https://heavendesigns.in/solar-post-design/) is worth requesting now, it becomes useful for insurance claims and resale documentation.
 
 The [solar annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/) provides the full 10-point technical checklist for the Year 1 review and every subsequent year.
 

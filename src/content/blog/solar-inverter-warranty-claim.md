@@ -4,6 +4,7 @@ excerpt: "Filing a solar inverter warranty claim in India does not have to be a 
 description: "Complete step-by-step guide to filing a solar inverter warranty claim in India. Covers required documents, covered faults, escalation paths, and Qbits' 72-hour RMA process."
 category: "Maintenance"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-inverter-troubleshooting.svg"
 author: "Keyur Rakholiya"
@@ -38,6 +39,13 @@ Your solar inverter stopped generating last Thursday. The display shows an error
 
 This situation plays out across India every week. Solar inverters account for approximately 60% of all residential solar service calls, and the claim process (when buyers go into it unprepared) can stretch from a few days into months of frustration. The problem is almost never the warranty itself. It is the gap between the warranty promise and the claim procedure that most buyers never read until something goes wrong.
 
+> **TL;DR**
+> - A solar inverter warranty claim in India runs on five documents: purchase invoice, commissioning report, DISCOM interconnection approval, fault evidence file, and warranty registration confirmation.
+> - Inverters account for roughly 60% of all residential solar service calls in India, making the inverter the single highest-risk component for warranty disputes.
+> - Replacement-warranty brands like Qbits dispatch a new unit within 72 hours of approval; repair-only brands average 6–8 weeks, which can cost a 5 kW homeowner ₹6,300–₹8,400 in lost generation per event.
+> - Lightning damage is excluded unless a properly installed Surge Protection Device is shown to have failed; physical damage, improper installation, and unauthorised repairs are excluded everywhere.
+> - If a brand denies or stalls a valid claim, the Consumer Protection Act 2019 allows a no-lawyer filing at the District Consumer Disputes Redressal Commission via e-DAAKHIL for claims under ₹50 lakh.
+
 This guide covers the entire solar inverter warranty claim process in India from end to end: the five documents you need before you make the first call, how to distinguish covered manufacturing faults from excluded causes, the difference between replacement and repair coverage, what a realistic claim timeline looks like, and exactly what legal tools are available when a brand delays or denies without justification.
 
 > **Direct answer.** A solar inverter warranty claim in India follows a structured five-step process, document the fault, assemble the 5-Document Warranty Claim Pack, open a formal ticket, undergo diagnosis, and confirm resolution or escalate. Brands offering full replacement coverage with a published 72-hour RMA SLA resolve claims in under four days; repair-only brands average 6 to 8 weeks. The Consumer Protection Act 2019 gives Indian homeowners enforceable rights against unjustified denials, including a no-lawyer consumer court pathway for claims under ₹50 lakh.
@@ -54,7 +62,7 @@ This framework, the **5-Document Warranty Claim Pack**: covers every document th
 
 ### Document 1: Original Purchase Invoice
 
-The purchase invoice must show the brand name, inverter model, serial number, purchase date, seller name and address, and the sale price including GST. This is the foundational document for every warranty interaction, without it, the brand cannot confirm that the unit was sold through an authorised channel or that the warranty period is still active.
+The purchase invoice must show the brand name, inverter model, serial number, purchase date, seller name and address, and the sale price including [GST](/glossary/gst-on-solar/). This is the foundational document for every warranty interaction, without it, the brand cannot confirm that the unit was sold through an authorised channel or that the warranty period is still active.
 
 If you purchased through an installer who bundled the inverter into an overall system cost, request a line-item invoice that separates the inverter from other equipment. A combined invoice without individual product serial numbers is not sufficient for a warranty claim.
 
@@ -72,7 +80,7 @@ Request the commissioning report the day the system is handed over. Do not accep
 
 For grid-tied systems (which covers the majority of residential installations in India) your [DISCOM](/glossary/discom/) issues a formal interconnection approval or net-metering sanction letter before the system is allowed to export power to the grid. This letter confirms that the installation met the DISCOM's technical requirements at the time of commissioning.
 
-In warranty disputes, this document serves as independent third-party confirmation that the system was installed to regulatory standards. Brands sometimes attempt to void claims on the grounds of "improper installation", the DISCOM approval letter is the strongest counter-evidence available.
+In warranty disputes, this document serves as independent third-party confirmation that the system was installed to regulatory standards. Brands sometimes attempt to void claims on the grounds of "improper installation", the DISCOM approval letter is the strongest counter-evidence available. Getting the underlying [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/) right at the design stage is what makes this DISCOM approval straightforward to obtain in the first place.
 
 ### Document 4: Fault Evidence File
 
@@ -114,9 +122,9 @@ Understanding the excluded causes is equally important. The following failure mo
 
 - **Lightning damage without SPD**: a direct lightning strike or a major induced voltage transient that damages the inverter is excluded. However, if a [Surge Protection Device](/glossary/spd/) was installed and functioning correctly, the brand must prove the SPD failed rather than simply citing "lightning damage."
 - **Physical damage**: damage from impact, improper handling, pest ingress (rats, lizards, insects), water ingress above the rated IP protection level, or animal interference.
-- **Improper installation**: installation by an uncertified technician, incorrect wiring configurations, or non-compliance with the manufacturer's installation manual.
+- **Improper installation**: installation by an uncertified technician, incorrect wiring configurations, or non-compliance with the manufacturer's installation manual. Choosing a [verified solar installer](/blog/find-reliable-solar-installer/) or a full-service [solar EPC contractor](https://heavengreenenergy.com/solar-epc/) at the outset keeps this exclusion from becoming relevant at all.
 - **User modification**: any internal repair, component substitution, or firmware modification performed by someone other than an authorised service technician.
-- **Operation outside rated parameters**: DC input voltage or current exceeding the inverter's rated maximums, which can occur when installers aggressively DC-oversize the panel array.
+- **Operation outside rated parameters**: DC input voltage or current exceeding the inverter's rated maximums, which can occur when installers aggressively [DC-oversize](/blog/dc-oversizing-in-solar/) the panel array.
 - **Natural calamities**: flood damage, fire damage, and direct lightning strikes are typically excluded even with proper protective equipment installed.
 
 The most important distinction for Indian homeowners is between **lightning damage** (legitimately excluded, but requiring the brand to prove causation) and **grid voltage fluctuation damage** (which should not be excluded for inverters marketed as India-grid compatible). This distinction is where many valid claims are wrongly denied.

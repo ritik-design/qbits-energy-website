@@ -4,6 +4,7 @@ excerpt: "HDFC solar loan options include Green Home Loan for owner-occupied pro
 description: "Complete guide to HDFC solar loan 2026: Green Home Loan vs Personal Loan, interest rates, documentation, processing time, and PM Surya Ghar subsidy integration."
 category: Policy
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/inverter-financing-options-in-india.svg"
 author: "Akash Hirapara"
@@ -33,6 +34,13 @@ faqs:
 ---
 
 Electricity bills crossing ₹8,000 per month have pushed thousands of Indian homeowners into a familiar search loop: find a good solar system, check subsidy eligibility, and then hit the question of financing. HDFC Bank (with over 8,000 branches and a pre-existing home loan relationship with millions of Indians) is a natural first port of call. Yet the search results for "HDFC solar loan" tend to surface generic personal loan pages, leaving applicants confused about which product actually applies to their case.
+
+> **TL;DR**
+> - HDFC has no single "solar loan" product: owner-occupied homeowners use the Green Home Loan or a top-up on an existing home loan at ~8.5-10% p.a.; everyone else uses a Personal Loan at ~10.5-24% p.a.
+> - IREDA (~7%) and SBI (~7.5-8%) beat HDFC on interest rate, but HDFC wins on branch accessibility and faster processing for existing customers.
+> - The PM Surya Ghar subsidy (up to ₹78,000 for a 3 kW system) is paid directly to the beneficiary's bank account regardless of financing route, and is typically used to prepay the loan principal once credited.
+> - The Green Home Loan top-up route requires property ownership and an existing HDFC home loan relationship for the fastest processing; the Personal Loan route needs neither but costs more.
+> - Choosing the wrong product at the branch, asking for a "solar loan" and getting routed to a generic Personal Loan, is the single most common and most expensive mistake applicants make.
 
 This guide clarifies exactly which HDFC product covers solar panels for owner-occupied homes, which covers everything else, how the rates compare with IREDA and SBI, and how to integrate PM Surya Ghar subsidy into the repayment structure.
 
@@ -148,6 +156,8 @@ The HDFC Personal Loan matches IREDA's total interest outgo at a 5-year tenure, 
 
 ### The HDFC Solar Loan Decision Tree
 
+Before working through the loan amount question, it helps to confirm the system size and payback assumptions with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/), the loan amount should match what the roof and consumption profile actually justify, not just what a vendor quotes.
+
 This framework helps you identify your optimal financing path in four questions:
 
 1. **Do you own the property where solar will be installed?**
@@ -191,7 +201,7 @@ HDFC's valuator visits the property within 3–5 working days. The property's fa
 On approval, HDFC issues a sanction letter. Disbursement is made either directly to the solar vendor (preferred for documentation purposes) or to the applicant's bank account.
 
 **Step 7: Solar Installation and Subsidy Application**
-The empanelled vendor installs the system, applies for net metering via the state DISCOM, and registers the installation on the PM Surya Ghar portal. Once DISCOM verification is complete, the subsidy is credited directly to the homeowner's bank account, typically within 30–90 days of grid connection.
+The empanelled vendor installs the [residential solar system](https://heavengreenenergy.com/residential-solar/), [applies for net metering](/blog/how-to-apply-net-metering-india/) via the state [DISCOM](/glossary/discom/), and registers the installation on the [PM Surya Ghar portal](/blog/pm-surya-ghar-apply-online/). Once DISCOM verification is complete, the subsidy is credited directly to the homeowner's bank account, typically within 30–90 days of grid connection.
 
 **Step 8: Prepay with Subsidy**
 Once the subsidy is credited, use it to prepay a lump sum on the HDFC loan. HDFC typically allows partial prepayment on home loans after 12 months without foreclosure penalty.

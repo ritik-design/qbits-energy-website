@@ -4,6 +4,7 @@ excerpt: "Solar inverter failed? This 72-hour action plan walks you through ever
 description: "Step-by-step 72-hour action plan for homeowners whose solar inverter has stopped working. Covers fault code reading, service escalation, repair vs replacement, and warranty SLA."
 category: "Maintenance"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-failure.svg"
 author: "Keyur Rakholiya"
@@ -37,6 +38,14 @@ faqs:
 ---
 
 Your inverter display just went dark, or a red LED is flashing, or the app sent you an alert at 9 am saying output dropped to zero, and now you are standing in the sun wondering what to do. This is the most common panic moment in residential solar ownership, and it is almost always more manageable than it feels in that first minute.
+
+> **TL;DR**
+> - Always confirm the grid is live before treating a dark inverter as a failure; anti-islanding protection shuts the unit down within 0.2 seconds of a grid outage.
+> - The 72-Hour Recovery Protocol has four phases: diagnose (Hour 0-1), log and escalate (Hour 1-4), technician dispatch (Hour 4-24), and resolve (Hour 24-72).
+> - Overtemperature and isolation faults together account for roughly 55% of residential service calls in India.
+> - Never reset a fault code before photographing or writing it down, doing so destroys the diagnostic data a technician needs.
+> - Repair suits fan, capacitor, or firmware issues on units under 3 years old; replacement is right when isolation resistance falls below 500 kΩ or the unit is past 7 years.
+> - A 12-year full replacement warranty makes replacement free; a 5-year repair-only warranty can leave you paying ₹15,000-₹80,000 out of pocket.
 
 > **Direct answer.** When a solar inverter fails, the 72-Hour Inverter Recovery Protocol gives you four clear phases: diagnose in the first hour (grid fault or inverter fault, read the LED code), log and escalate in hours 1–4 (photograph the fault, call your installer), expect a service ticket and technician dispatch by Hour 24, and resolve via repair or warranty replacement by Hour 72. A 12-year full replacement warranty changes the financial outcome completely, a failed inverter costs you zero, not ₹15,000–₹80,000.
 
@@ -72,7 +81,7 @@ Indian grid conditions and climate create a distinct failure signature that diff
 
 > **55%.** Overtemperature and isolation faults together account for approximately 55% of all residential solar inverter service calls logged in India, according to field data compiled by [NREL's India-focused reliability studies](https://www.nrel.gov/solar/).
 
-The table below maps the five most common fault types to their probable causes, typical LED presentation, and recommended first action for the homeowner.
+The table below maps the five most common fault types to their probable causes, typical LED presentation, and recommended first action for the homeowner. For the complete code-by-code reference across brands, see the [solar inverter error codes guide](/blog/solar-inverter-error-codes-guide/).
 
 | Fault Code | Fault Name | Probable Cause | LED Pattern | Homeowner Action |
 | --- | --- | --- | --- | --- |
@@ -82,7 +91,7 @@ The table below maps the five most common fault types to their probable causes, 
 | E007 / ISO | Isolation Fault | Damaged DC cable insulation, moisture ingress | Solid red | Do not reset; this is a safety fault requiring technician |
 | E009 / ARC | AFCI Arc Fault | Loose MC4 connector, damaged panel junction box | Solid red | Do not reset; potential fire risk; call installer immediately |
 
-The isolation fault (E007 / ISO) and arc fault (E009 / ARC) require immediate professional attention and must not be reset without a technician inspecting the DC wiring. These two faults together represent roughly 18% of service calls but carry the highest safety risk if ignored or blindly cleared.
+The isolation fault (E007 / ISO) and arc fault (E009 / ARC) require immediate professional attention and must not be reset without a technician inspecting the DC wiring. These two faults together represent roughly 18% of service calls but carry the highest safety risk if ignored or blindly cleared. The [solar inverter ground fault troubleshooting guide](/blog/solar-inverter-ground-fault-guide/) covers the full megger-test diagnostic protocol for isolation faults specifically, while grid-voltage codes that keep tripping and self-clearing are covered in the [solar inverter keeps switching off guide](/blog/solar-inverter-keeps-switching-off-fix/).
 
 ### What NOT to do in Hour 0–1
 
@@ -104,7 +113,7 @@ This is the named framework that structures your recovery from the moment the fa
 
 ### Phase 2: Log and Escalate (Hour 1–4)
 
-5. **Call your installer**: Your first call should be to the installation company, not the inverter brand. The installer knows your specific system layout, your DC string configuration, and your local grid conditions. Give them the six-item information set: model, serial number, installation date, fault code, fault time, and recent grid events.
+5. **Call your installer**: Your first call should be to the installation company, not the inverter brand. If you no longer have an active installer relationship, [find a local solar installer](https://heavengreenenergy.com/solar-near-me/) who can dispatch a technician quickly. The installer knows your specific system layout, your DC string configuration, and your local grid conditions. Give them the six-item information set: model, serial number, installation date, fault code, fault time, and recent grid events.
 6. **Log a brand service ticket**: If your installer is unresponsive after 2 hours, call the inverter manufacturer's service line directly. Provide the same information and request a ticket number. A ticket number is your SLA clock start.
 7. **Email confirmation**: Send a brief email to both parties with the fault code, ticket number, and the timestamp of your first report. This creates a timestamped record that protects you if SLA disputes arise later.
 
@@ -255,7 +264,7 @@ If E001 appears during a midday peak in summer:
 When a homeowner's inverter fails, the two things that determine whether this is a minor inconvenience or a major financial event are the service SLA and the warranty depth. Qbits is built precisely for this scenario: a solar inverter brand that picks up the phone on a Tuesday afternoon and has a technician on-site within 72 hours, backed by a 12-year full replacement warranty that means a failed inverter costs you zero, not ₹15,000–₹80,000.
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed, BIS-certified, with IP66 weather protection and the [fault-ride-through](/glossary/fault-ride-through/) capability that prevents nuisance trips on India's volatile grid.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness, so critical loads continue even while the inverter is under service or during a DISCOM outage.
+- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness ([battery sizing guidance](https://surgepv.com/hub/energy-storage/battery-sizing/) can help right-size the bank), so critical loads continue even while the inverter is under service or during a DISCOM outage.
 - **[Authorized Service Partners](/authorized-service-partners/)**: Pincode-searchable network of trained service engineers for the less-than-72-hour RMA SLA. Find your nearest service partner before you need one.
 
 If your current inverter has failed and you are evaluating whether repair or replacement is the right answer, [talk to a Qbits engineer](/contact-us/), most assessments are completed within 24 hours and there is no obligation.

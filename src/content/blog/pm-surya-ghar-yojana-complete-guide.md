@@ -3,6 +3,7 @@ title: "PM Surya Ghar Muft Bijli Yojana, Complete 2026 Guide"
 excerpt: "PM Surya Ghar offers up to ₹78,000 subsidy for residential rooftop solar. This complete 2026 guide covers eligibility, application steps, state topups, and ALMM rules."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "22 min"
 image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
 author: "Nirav Dhanani"
@@ -39,9 +40,17 @@ Every month, millions of Indian homeowners pay electricity bills that could be z
 
 This guide covers the subsidy slabs, eligibility, the five-step application, state top-ups, the common mistakes, and what to look for in an inverter so the claim actually clears.
 
+> **TL;DR**
+> - PM Surya Ghar gives a central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000 for a 3 kW or larger system.
+> - Only [ALMM-listed](/glossary/almm-list/) inverters and panels qualify - a non-ALMM inverter is the single most common reason claims get rejected.
+> - The application follows five steps: portal registration, DISCOM feasibility approval, empanelled-vendor installation, smart-meter commissioning inspection, and bank-detail upload for disbursement.
+> - Several states (Gujarat, Maharashtra, UP, Tamil Nadu, Karnataka) add ₹10,000-₹30,000 on top of the central amount.
+> - The CAPEX (self-owned) model captures the full subsidy and 25-year savings; the RESCO model usually does not pass the subsidy to the homeowner.
+> - Payback after subsidy typically runs 2-3 years, with 25-year savings of ₹7-10 lakh on a 3 kW system.
+
 > **PM Surya Ghar Muft Bijli Yojana** is the Government of India's flagship residential rooftop solar scheme, launched in February 2024 with a target of one crore (10 million) households by March 2027. It provides a central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the third kilowatt (up to a maximum of ₹78,000) paid directly into the homeowner's bank account after installation and grid commissioning.
 
-The scheme replaces the earlier Grid Connected Rooftop Solar Programme Phase II and operates through a single national portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/), co-ordinated by [MNRE](https://mnre.gov.in/) and implemented through state DISCOMs. Understanding the scheme from end to end (not just the subsidy headline) is what separates a successful application from a stalled one.
+The scheme replaces the earlier Grid Connected Rooftop Solar Programme Phase II, sits inside MNRE's broader [rooftop solar scheme](/blog/mnre-rooftop-solar-scheme/) architecture, and operates through a single national portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/), co-ordinated by [MNRE](https://mnre.gov.in/) and implemented through state DISCOMs. Understanding the scheme from end to end (not just the subsidy headline) is what separates a successful application from a stalled one.
 
 ## What PM Surya Ghar Is: and What It Means for Your Electricity Bill
 
@@ -61,13 +70,13 @@ Consider a homeowner in Pune paying ₹8,000 per month on a 600-unit consumption
 - **Payback period after subsidy:** 2–3 years
 - **25-year saving:** ₹7 lakh to ₹10 lakh
 
-Those numbers explain why the scheme received over 1.5 crore registrations within 18 months of launch, according to data tracked by [Mercom India](https://www.mercomindia.com/). The financial case, even without subsidies, is compelling. With the subsidy, it is close to irresistible for anyone who owns their roof.
+Those numbers explain why the scheme received over 1.5 crore registrations within 18 months of launch, according to data tracked by [Mercom India](https://www.mercomindia.com/). Homeowners who want to sanity-check their own roof before applying can run the numbers through a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) to see the payback range for their specific bill and roof size. The financial case, even without subsidies, is compelling. With the subsidy, it is close to irresistible for anyone who owns their roof.
 
 > **₹75,000 crore.** The total outlay of PM Surya Ghar Muft Bijli Yojana (India's single largest rooftop solar scheme) announced at scheme launch in February 2024. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ## Subsidy Amounts by System Size
 
-The central subsidy under PM Surya Ghar is structured in two slabs, with a hard cap at 3 kW regardless of the size of system you install. The table below shows the exact amounts for the 2026 scheme year.
+The central subsidy under PM Surya Ghar is structured in two slabs, with a hard cap at 3 kW regardless of the size of system you install. The table below shows the exact amounts for the 2026 scheme year; for an interactive breakdown by exact system size and state, use the [PM Surya Ghar subsidy calculator](/blog/pm-surya-ghar-subsidy-amount/).
 
 | System Size | Subsidy Rate | Central Subsidy | Free Units per Month (approx.) |
 | --- | --- | --- | --- |
@@ -92,7 +101,9 @@ Eligibility criteria are broader than most homeowners assume. The scheme is deli
 - **Valid DISCOM connection**: you must have an active metered electricity account. Off-grid households without a DISCOM connection are not eligible, though they may qualify for separate MNRE off-grid schemes.
 - **Ownership or NOC**: you must own the property where the solar system will be installed, or hold a valid no-objection certificate from the Resident Welfare Association if you are an apartment owner. Tenants are not eligible without the property owner's involvement.
 - **No prior subsidy on the same connection**: the scheme allows one subsidy claim per electricity consumer number. If your connection has already received a PM Surya Ghar or Phase II RCTS subsidy, it is not eligible again.
-- **Empanelled vendor and ALMM equipment**: the installation must be carried out by a DISCOM-empanelled vendor using [ALMM](/glossary/almm-list/)-listed inverters and panels. This is the single most common cause of rejected claims.
+- **Empanelled vendor and ALMM equipment**: the installation must be carried out by a DISCOM-empanelled vendor using [ALMM](/glossary/almm-list/)-listed inverters and panels. This is the single most common cause of rejected claims - the full breakdown of [why empanelled vendor status matters](/blog/empanelled-vendor-pm-surya-ghar/) is worth reading before you sign anything.
+
+For a line-by-line look at who exactly qualifies (age, ownership type, connection category, and the edge cases DISCOMs flag most), see the dedicated [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/).
 - **Sanctioned load compatibility**: your DISCOM will verify that the proposed solar capacity does not exceed your sanctioned load. If needed, you can apply to increase your sanctioned load first.
 
 There is no requirement that you be a first-time solar buyer, no restriction on which Indian state you live in (all 28 states and 8 union territories are covered), and no minimum bill amount threshold. Even households with modest bills can benefit if they have a south-facing roof and ownership.
@@ -105,7 +116,7 @@ The most common reason applicants lose their subsidy is not ineligibility, it is
 
 Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and create an account using your mobile number, state, and DISCOM name. You will need your electricity consumer number from your bill. The portal sends an OTP to your registered mobile. Complete Aadhaar-based e-KYC through the portal.
 
-**Documents needed at this stage:** Electricity bill (consumer number and DISCOM name), Aadhaar number, mobile number linked to Aadhaar.
+**Documents needed at this stage:** Electricity bill (consumer number and DISCOM name), Aadhaar number, mobile number linked to Aadhaar. A full checklist for every stage of the journey, not just registration, is in the [PM Surya Ghar documents required guide](/blog/pm-surya-ghar-documents-required/).
 
 **Time:** 15–30 minutes if documents are ready.
 
@@ -121,7 +132,7 @@ After registration, submit the formal application with your proposed system capa
 
 ### Step 3: Select an Empanelled Vendor and Install the System
 
-Once you receive DISCOM feasibility approval (the portal shows a green status update), you can select a vendor. The portal lists all empanelled vendors by state and district, with contact details.
+Once you receive DISCOM feasibility approval (the portal shows a green status update), you can select a vendor. The portal lists all empanelled vendors by state and district, with contact details. If you want an independent second opinion on roof layout or shading before locking in a vendor's design, national EPCs such as [Heaven Green Energy's residential solar service](https://heavengreenenergy.com/residential-solar/) will assess a roof outside the DISCOM's empanelled list too.
 
 **Critical check before signing any contract:**
 - Verify the vendor's empanelment status on the portal, not on their brochure or calling card.
@@ -150,7 +161,7 @@ After the DISCOM issues the commissioning certificate (a formal document confirm
 - Bank account details (preferably the account linked to your Aadhaar)
 - A signed NACH mandate (bank auto-debit form), used by MNRE for future communications, not for deducting money
 
-MNRE then verifies the documents and initiates direct bank transfer. The portal shows a disbursement status tracker.
+MNRE then verifies the documents and initiates direct bank transfer. The portal shows a disbursement status tracker - see the [PM Surya Ghar status check guide](/blog/pm-surya-ghar-status-check/) for exactly what each tracker stage means and how to escalate a stuck application.
 
 **Time:** 30–60 days from document submission to bank credit in most states.
 
@@ -187,7 +198,7 @@ The ALMM was created to prevent low-quality, uncertified equipment from entering
 ### What ALMM Compliance Means for Homeowners
 
 - **Subsidy eligibility:** Non-ALMM inverter = subsidy rejected. No exceptions.
-- **Quality floor:** ALMM-listed inverters have passed BIS testing and MNRE technical scrutiny. You get a product that has been independently verified.
+- **Quality floor:** ALMM-listed inverters have passed [BIS testing](/glossary/bis-certification/) and MNRE technical scrutiny. You get a product that has been independently verified.
 - **Warranty enforcement:** ALMM-listed manufacturers have submitted performance and warranty commitments to MNRE. This gives homeowners an additional layer of protection.
 - **Resale value:** A home with an ALMM-documented solar system is easier to sell than one with unverifiable equipment.
 
@@ -202,7 +213,7 @@ For more on why certifications matter beyond subsidy, read the [solar inverter c
 
 ## Common Application Mistakes: and How to Avoid Them
 
-The PM Surya Ghar portal logs millions of applications. DISCOM officers and scheme administrators report the same cluster of errors repeatedly. Here are the ones most likely to delay or deny your claim.
+The PM Surya Ghar portal logs millions of applications. DISCOM officers and scheme administrators report the same cluster of errors repeatedly. Here are the ones most likely to delay or deny your claim; if your claim has already been turned down, the [PM Surya Ghar rejection reasons guide](/blog/pm-surya-ghar-rejection-reasons/) walks through how to appeal each scenario.
 
 - **Installing before DISCOM feasibility approval**: The DISCOM must approve your application before physical installation begins. Installing first means the system may not qualify for commissioning under the scheme, and the subsidy is denied. Always wait for the green status on the portal.
 - **Using a non-empanelled vendor**: Only vendors on the DISCOM's empanelled list are eligible to execute PM Surya Ghar installations. Verify empanelment on the portal (not on business cards or social media). Schemes like "we handle everything" from unverified vendors should trigger immediate caution.
@@ -258,7 +269,7 @@ PM Surya Ghar can be accessed through two fundamentally different financing stru
 | **Exit flexibility** | High - you own the asset | Low - long-term contract (typically 15–25 years) |
 | **Best for** | Homeowners with capital or loan access | Homeowners who cannot arrange upfront finance |
 
-**The CAPEX model is strongly preferred for PM Surya Ghar** because the central subsidy is designed for owner-installers. Under a [RESCO](/glossary/resco/) arrangement, the subsidy technically belongs to whoever is the registered applicant, and in most RESCO contracts, that is the RESCO company, not the homeowner. Read the contract carefully before proceeding with any RESCO offer that claims to "pass on the subsidy to you."
+**The [CAPEX](/glossary/capex/) model is strongly preferred for PM Surya Ghar** because the central subsidy is designed for owner-installers. Under a [RESCO](/glossary/resco/) arrangement, the subsidy technically belongs to whoever is the registered applicant, and in most RESCO contracts, that is the RESCO company, not the homeowner. Read the contract carefully before proceeding with any RESCO offer that claims to "pass on the subsidy to you."
 
 **Pros of CAPEX:**
 - ✓ Full ₹78,000 subsidy lands in your account
@@ -282,7 +293,7 @@ PM Surya Ghar can be accessed through two fundamentally different financing stru
 - ✗ If RESCO goes bankrupt, you may have an orphaned system on your roof
 - ✗ Returns are significantly lower than CAPEX ownership
 
-For homeowners who need financing assistance for the CAPEX route, the [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers MNRE's bank partnership programme, which offers concessional home loans for PM Surya Ghar applicants through SBI, Canara Bank, PNB, and Bank of Baroda at subsidised interest rates.
+For homeowners who need financing assistance for the CAPEX route, the [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers MNRE's bank partnership programme, which offers concessional home loans for PM Surya Ghar applicants through SBI, Canara Bank, PNB, and Bank of Baroda at subsidised interest rates. Before picking a lender, it's worth comparing rates side by side in the [best bank for a solar loan guide](/blog/best-bank-solar-loan-india-2026/), since IREDA, SBI, and HDFC differ meaningfully on tenure and processing time.
 
 ## Where Qbits Fits in PM Surya Ghar
 
@@ -318,7 +329,7 @@ The Central Government extended the scheme deadline from its original March 2026
 
 ### States Leading Installations
 
-Gujarat continues to lead nationally, driven by high retail tariffs, strong GEDA (Gujarat Energy Development Agency) implementation, and combined central-plus-state subsidies. Maharashtra, Rajasthan, and Andhra Pradesh follow. Uttar Pradesh has seen significant growth in FY2025–26 after DISCOM restructuring improved application processing speed.
+Gujarat continues to lead nationally, driven by high retail tariffs, strong GEDA (Gujarat Energy Development Agency) implementation, and combined central-plus-state subsidies. Maharashtra, Rajasthan, and [Andhra Pradesh](/blog/solar-subsidy-andhra-pradesh-2026/) follow. Uttar Pradesh has seen significant growth in FY2025–26 after DISCOM restructuring improved application processing speed.
 
 For homeowners in states with lower installation rates, this is actually an advantage: shorter queues, faster DISCOM processing, and less competition for empanelled vendor slots.
 

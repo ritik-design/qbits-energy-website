@@ -4,6 +4,7 @@ excerpt: "The solar inverter with subsidy under PM Surya Ghar is not a separate 
 description: "PM Surya Ghar subsidy covers the full solar system (panels + inverter + installation) as a lump sum, not the inverter alone. Learn the 3-Layer Subsidy Stack and the exact out-of-pocket cost."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
 author: "Akash Hirapara"
@@ -41,6 +42,14 @@ The [PM Surya Ghar Muft Bijli Yojana](/glossary/pm-surya-ghar/) subsidy is not a
 > **Direct answer.** Under PM Surya Ghar, the solar inverter subsidy is built into a system-level lump sum of ₹30,000 per kW (up to 2 kW) and ₹18,000 per kW (third kW), capped at ₹78,000 for a 3 kW system. You cannot claim subsidy on an inverter purchased separately. The inverter must be ALMM Phase III listed, installed by an empanelled vendor, and pass DISCOM commissioning, only then does the 3-Layer Solar Subsidy Stack deliver the full benefit to your bank account.
 
 Understanding this distinction changes every decision you make: which vendor to hire, which inverter to approve, and exactly what you will pay out of pocket after the government contribution arrives. This guide walks through the mechanics, the maths, and the compliance steps, so you claim every rupee you are entitled to.
+
+> **TL;DR**
+> - PM Surya Ghar subsidy is paid on the complete installed system, not on a separately purchased inverter - buying an inverter alone earns nothing.
+> - The maximum central subsidy is ₹78,000 for a 3 kW system: ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW.
+> - The inverter model must be on the MNRE [ALMM Phase III list](/glossary/almm-list/); a non-ALMM inverter blocks the commissioning certificate and the entire subsidy.
+> - State top-ups (Gujarat, Maharashtra, UP, Tamil Nadu, Karnataka) stack on top of the central amount, taking the combined subsidy on a 3 kW system as high as ₹1,38,000.
+> - After the full subsidy stack, a 3 kW system's net out-of-pocket cost can fall to ₹30,000-₹90,000 depending on state, with payback under 14 months in the best cases.
+> - Only DISCOM-empanelled vendors can execute a subsidy-eligible installation - a non-empanelled contractor voids the claim regardless of equipment quality.
 
 ## What the PM Surya Ghar Subsidy Actually Covers
 
@@ -188,6 +197,8 @@ A quality ALMM-listed single-phase 3 kW on-grid inverter from a verified Indian 
 | Net metering and DISCOM charges | ₹5,000–₹10,000 |
 | **Total (complete system, installed)** | **₹1,15,000–₹1,66,000** |
 
+These figures are already inclusive of applicable [GST on solar equipment](/blog/gst-on-solar-inverters-2026/), which is charged at a concessional rate compared to standard goods. If your vendor's quote does not clearly state whether GST is included, ask before comparing it against another vendor's number.
+
 After the ₹78,000 central subsidy, the effective cost of the complete system (including the inverter) falls to ₹37,000–₹88,000 depending on your state, vendor efficiency, and system specification. The inverter's share of that remaining cost is ₹0–₹28,000 in real terms, because the subsidy is credited against the system total, not ring-fenced to any single component.
 
 > **30–35 lakh households** had commissioned PM Surya Ghar installations as of Q1 2026 (out of over 1 crore registrations) indicating that the bottleneck is not demand but execution speed at the DISCOM and vendor level. *Source - [Mercom India](https://www.mercomindia.com/), Q1 2026.*
@@ -241,11 +252,12 @@ The second non-negotiable requirement (after ALMM compliance) is vendor empanelm
 2. The portal lists empanelled vendors with their registration number, contact details, and active status.
 3. Cross-verify the vendor's empanelment number directly with your DISCOM's customer service, not just from the vendor's own marketing materials.
 4. Check how many installations the vendor has completed under PM Surya Ghar, experienced vendors know the inspection and documentation process and avoid the errors that delay commissioning.
+5. If you want a second point of comparison outside the DISCOM's empanelled list, a [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) can surface EPCs with a track record in your city for reference pricing and reviews.
 
 **Warning signs to watch for:**
 
 - **Vendors who ask you to pay the full amount before feasibility approval**: The DISCOM must approve the application first. Any vendor who installs before approval is creating a problem for your subsidy claim.
-- **Vendors who cannot produce the ALMM model number in writing**: The model number and ALMM listing should be explicitly stated in the contract and quote document.
+- **Vendors who cannot produce the ALMM model number in writing**: The model number and ALMM listing should be explicitly stated in a proper [itemised quotation](https://quickestimate.co/features/quotation-system/) rather than a verbal estimate or a WhatsApp message.
 - **Unusually low quotes**: Quotes significantly below market rate (below ₹40,000 per kW installed) often indicate sub-standard or non-ALMM components.
 - **No written warranty terms**: The warranty must be documented in the contract with the manufacturer's name, model, duration, and service escalation process.
 
@@ -292,6 +304,8 @@ The [CAPEX](/glossary/capex/) model delivers the best long-term return under PM 
 2. **Vendor Net-Price Model**: As discussed in the disbursement section, many empanelled vendors offer net pricing where you pay only the post-subsidy amount. This is effectively vendor-financed bridging, though homeowners bear the risk of subsidy timing mismatch.
 
 3. **Rooftop Solar Loan Products**: Several NBFCs and fintech lenders (specifically solar-focused products from Tata Capital, Mahindra Finance, and state-specific institutions) offer purpose-built rooftop solar loans with tenures of 3–7 years at rates between 9% and 13%, calibrated against the payback period of the specific system.
+
+4. **EMI Through the Vendor or a Partner Lender**: Many empanelled vendors now offer a no-cost or low-cost EMI plan on the post-subsidy balance, spreading the ₹42,000–₹1,02,000 net cost over 12–36 months instead of a single upfront payment. The [solar system on EMI guide](/blog/solar-on-emi/) breaks down which financiers offer this and how the maths compares to a lump-sum payment.
 
 For a complete comparison of MNRE-partnered bank loans, NBFC products, and the vendor net-price model (with worked examples of EMI and payback under each) the [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers every scenario.
 

@@ -3,6 +3,7 @@ title: "Ghar Mein Solar Panel Kaise Lagwayein, Complete Hindi Guide 2026"
 excerpt: "Ghar mein solar panel kaise lagwayein: site survey, system sizing, vendor selection, installation process, net metering, aur PM Surya Ghar subsidy, step-by-step Hindi guide।"
 category: "Educational"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "13 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Nirav Dhanani"
@@ -33,13 +34,20 @@ faqs:
 
 घर में solar panel लगवाना एक बड़ा decision है (₹1-2 lakh investment, 25 साल का commitment। लेकिन process को समझ लें तो यह बिल्कुल manageable है। इस guide में घर में solar panel लगवाने का पूरा process है) शुरू से अंत तक, हर step detail में।
 
+> **TL;DR**
+> - Ghar mein solar lagwane ke 7 steps hain: site check, system sizing, PM Surya Ghar application, vendor selection, installation, net metering, subsidy receipt
+> - Physical installation sirf 1-3 din ka kaam hai, lekin poora process (application se subsidy tak) 2-4 mahine leta hai
+> - 3 kW system ki gross cost ₹1.5-2.2 lakh hai, subsidy ke baad net cost ₹72,000-1.07 lakh reh jaati hai
+> - South-facing roof best generation deta hai, north-facing roof mein 30-40% kam generation hota hai
+> - ALMM-listed panels/inverter aur DISCOM-empanelled vendor subsidy aur net metering dono ke liye mandatory hain
+
 > **Process overview।** घर में solar लगवाने के 7 steps हैं: (1) Eligibility और site check, (2) System sizing, (3) PM Surya Ghar application, (4) Vendor selection, (5) Installation, (6) Net metering, (7) Subsidy receipt। Physical installation सिर्फ 1-3 दिन का काम है।
 
-[MNRE data](https://mnre.gov.in/){target="_blank" rel="noopener"} के अनुसार, 2025-26 में India में 15 lakh+ residential solar systems install हुए। PM Surya Ghar ने process को significant simplify किया है। जानिए exactly क्या करना है।
+[MNRE data](https://mnre.gov.in/){target="_blank" rel="noopener"} के अनुसार, 2025-26 में India में 15 lakh+ residential solar systems install हुए। [PM Surya Ghar](/glossary/pm-surya-ghar/) ने process को significant simplify किया है। जानिए exactly क्या करना है।
 
 ## Step 1: Site Assessment - Roof Suitable Hai?
 
-Solar panel लगाने से पहले roof की suitability check करें।
+Solar panel लगाने से पहले roof की suitability check करें। Complex या large roofs ke liye [Heaven Designs' site survey and land feasibility service](https://heavendesigns.in/site-survey-land-feasibility-services/) ek detailed professional assessment provide karti hai।
 
 ### The 4-Point Roof Check Framework
 
@@ -53,7 +61,7 @@ Solar panel लगाने से पहले roof की suitability check �
 - Trees, water tanks, neighbouring buildings, AC units - सब shadow sources हैं
 - Partial shadow भी production significantly कम करती है
 
-**Check 3, Roof Direction**
+**Check 3, Roof [Azimuth](/glossary/azimuth/) / Direction**
 - South-facing: Best, 100% generation potential
 - South-East / South-West: Good, 90-95%
 - East या West only: Acceptable, 70-80%
@@ -98,7 +106,7 @@ Subsidy के लिए पहले application, फिर installation - य�
 ### Application Process
 
 1. **pmsuryaghar.gov.in** पर जाएँ
-2. State और DISCOM select करें (electricity bill देखें)
+2. State और [DISCOM](/glossary/discom/) select करें (electricity bill देखें)
 3. Consumer number enter करें
 4. Aadhaar OTP से verify करें
 5. Documents upload करें:
@@ -114,7 +122,7 @@ Application submit होने के बाद DISCOM feasibility visit हो
 
 ## Step 4: Vendor Selection - Critical Step
 
-Portal पर आपके district के approved vendors दिखेंगे। यह selection सबसे important decision है।
+Portal पर आपके district के approved vendors दिखेंगे। यह selection सबसे important decision है। Portal ke bahar bhi [nearby installers dhundhne ka tool](https://heavengreenenergy.com/solar-near-me/) reference ke liye use kar sakte hain।
 
 ### The 5-Point Vendor Selection Framework
 
@@ -183,7 +191,7 @@ Installation के same day या next day vendor net metering application sub
 **Process:**
 1. Vendor DISCOM को net metering application submit करता है
 2. DISCOM engineer आकर system inspect करता है
-3. Bidirectional meter install होता है (old meter replace)
+3. [Bidirectional meter](/glossary/bidirectional-meter/) install होता है (old meter replace)
 4. Net metering active, import और export दोनों track होता है
 
 **Timeline:**

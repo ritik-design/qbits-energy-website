@@ -4,6 +4,7 @@ excerpt: "Solar plus storage design software optimises battery and PV jointly fo
 description: "Solar plus storage design software 2026: hybrid PV + battery sizing, ToU arbitrage, peak shaving, backup mode. SurgePV on every plan. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/solar-plus-storage-design-software.svg"
 author: "Nirav Dhanani"
@@ -62,15 +63,15 @@ SurgePV models the first four; the fifth is specialised utility-grid territory.
 
 ## What SurgePV Bundles With Solar Plus Storage Design
 
-- DC-coupled and AC-coupled hybrid topologies
-- Battery sizing recommendations from load profile
-- 12,000-inverter database including hybrid inverter brands
+- [DC-coupled](/glossary/dc-coupling/) and [AC-coupled](/glossary/ac-coupling/) hybrid topologies
+- [Battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) recommendations from load profile, including [battery SOC](/glossary/battery-soc/)-aware dispatch
+- 12,000-inverter database including [hybrid inverter](/glossary/hybrid-inverter/) brands
 - 8,760-hour hourly battery cycling computations
 - Time-of-use arbitrage modelling tied to country tariffs
 - Backup-mode and critical-load circuit support
-- Anti-islanding protection on the SLD
-- Bankable yield + battery dispatch in financial model
-- Auto-BOQ with battery and battery-side BOS
+- [Anti-islanding](/glossary/anti-islanding/) protection on the [single line diagram](/blog/solar-sld-software/)
+- Bankable yield + battery dispatch in the [financial model](/blog/solar-financial-modeling-software/)
+- [Auto-BOQ](/blog/solar-boq-software/) with battery and battery-side BOS
 
 All on every paid plan at $1,299 to $1,899 per user per year.
 
@@ -96,15 +97,15 @@ SurgePV's hybrid model produces:
 - Self-consumption rate: 78%
 - ToU arbitrage value: ₹18,000/year
 - Backup capacity: 18 hours essential loads
-- 25-year IRR with battery: 14.8% (vs 11.2% PV-only)
+- 25-year [IRR](/glossary/irr/) with battery: 14.8% (vs 11.2% PV-only)
 
 ## Common Solar Plus Storage Mistakes
 
 1. **Sizing the battery to the PV array** instead of the load profile
 2. **Ignoring ToU rate structure** during battery sizing
 3. **Skipping the critical-load schedule** for backup-mode design
-4. **Mismatching inverter and battery chemistry** (AC voltage, communications protocol)
-5. **Not modelling cycle life** in the 25-year economics
+4. **Mismatching inverter and battery chemistry** (AC voltage, [CAN bus](/glossary/can-bus/) communications protocol, [LFP](/glossary/lfp-battery/) vs [lithium-ion](/glossary/lithium-ion-battery/) chemistry)
+5. **Not modelling [cycle life](/glossary/cycle-life/)** in the 25-year economics
 
 <div class="inline-cta">
 <h3>Hybrid PV + battery in one workflow at flat per-seat pricing</h3>
@@ -118,7 +119,7 @@ SurgePV's hybrid model produces:
 - **Choose SurgePV** for integrated PV + battery design plus the full design-to-proposal stack.
 - **Choose HOMER** for deep off-grid and hybrid optimisation on specialised projects.
 - **Choose Energy Toolbase** for US C&I-focused ToU arbitrage modelling.
-- **Choose Aurora at upper tier** for US-residential hybrid with limited depth.
+- **Choose Aurora at upper tier** for US-residential hybrid with limited depth, though see our [Aurora Solar alternative](/blog/aurora-solar-alternative/) comparison first.
 
 For most installers and EPCs in 2026, SurgePV is the [solar design software](https://surgepv.com/) for solar plus storage that consolidates the workflow at the lowest realised total cost.
 

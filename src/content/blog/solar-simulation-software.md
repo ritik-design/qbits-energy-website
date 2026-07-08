@@ -4,6 +4,7 @@ excerpt: "Solar simulation software computes hourly yield from a layout. The ban
 description: "Solar simulation software 2026: SurgePV vs PVsyst, HelioScope, PV*SOL, SAM. Bankable 8,760-hour methodology and pricing. Book a free demo today."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/solar-simulation-software.svg"
 author: "Nirav Dhanani"
@@ -31,7 +32,7 @@ faqs:
     a: "Yes for SAM (NREL) and partially for HelioScope. SurgePV supports project-level variants for sensitivity comparison. For deep parametric work, SAM remains the research tool of choice."
 ---
 
-Solar simulation software is the engine that turns a layout into a bankable yield report. The bankable standard is 8,760-hour module-level. This guide compares the five tools that ship the methodology and explains why [SurgePV](https://surgepv.com/) leads on integrated workflow.
+Solar simulation software is the engine that turns a layout into a [bankable yield report](/blog/pv-yield-simulation-software/). The bankable standard is 8,760-hour module-level. This guide compares the five tools that ship the methodology and explains why [SurgePV](https://surgepv.com/) leads on integrated workflow.
 
 > **TL;DR**
 > - 8,760-hour module-level simulation is the bankable standard for project finance.
@@ -77,32 +78,32 @@ NREL's open-source simulators. Excellent for research and sensitivity studies. N
 
 - **AI 3D roof modeling** from satellite
 - **Clara AI** natural-language design assistant
-- **8,760-hour module-level shading**
-- **Bankable P50, P75, P90 yield reports**
+- **[8,760-hour module-level shading](/blog/solar-shading-analysis-software/)**
+- **Bankable [P50, P75, P90](/glossary/p50-p90/) yield reports**
 - **70,000-module, 12,000-inverter database**
 - **Country-specific tariff library and financial model**
-- **DXF/DWG AutoCAD export**
+- **[DXF/DWG AutoCAD export](/blog/solar-sld-software/)**
 - **Branded proposals with e-signature**
 
 All on every paid plan.
 
 ## Lender Acceptance: What Actually Matters
 
-Lenders care about three things: methodology (8,760-hour module-level), reproducibility (a written assumption sheet anyone can rerun), and track record (the simulator has been used on similar projects in the lender's portfolio). PVsyst leads on track record. SurgePV's methodology matches and is gaining acceptance fast.
+Lenders care about three things: methodology (8,760-hour module-level), reproducibility (a written assumption sheet anyone can rerun), and track record (the simulator has been used on similar projects in the lender's portfolio). PVsyst leads on track record. SurgePV's methodology matches and is gaining acceptance fast. For projects that need a fully documented engineering package alongside the simulation, EPCs often source that from a dedicated [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) partner.
 
 ## Worked Example: 250 kW C&I Rooftop in Bengaluru
 
 - Array: 250 kW (455 modules at 550 Wp)
 - Inverters: 2 × 125 kW string inverters, 12 MPPTs total
-- Soiling loss: 3.5%, snow: 0%, albedo: 0.20
-- Tilt: 12 degrees south, two roof faces with one chimney shadow
+- [Soiling](/glossary/soiling/) loss: 3.5%, snow: 0%, [albedo](/glossary/albedo/): 0.20
+- [Tilt](/glossary/tilt-angle/): 12 degrees south, two roof faces with one chimney shadow
 
 SurgePV 8,760-hour module-level simulation outputs:
 - P50 yield: 387,500 kWh/year (1,550 kWh/kWp)
 - P75 yield: 374,000 kWh/year
 - P90 yield: 360,000 kWh/year
-- Performance Ratio: 79.6%
-- Capacity factor: 17.7%
+- [Performance Ratio](/glossary/pr/): 79.6%
+- [Capacity factor](/glossary/cuf/): 17.7%
 - Simulation runtime: 1 minute 42 seconds in the browser
 
 Lenders price the loan against the P90 number; the proposal shows the P50.
@@ -116,6 +117,8 @@ Lenders price the loan against the P90 number; the proposal shows the P50.
 | HelioScope Mid + Solargraf + CRM | $12,000 to $16,000 |
 | PV*SOL Standard × 5 + proposal + CRM | $10,000 to $14,000 |
 | SAM | Free, but not production-grade |
+
+Teams that also need a buyer-facing quotation workflow once the simulation is locked often pair the output with [QuickEstimate's proposal generator](https://quickestimate.co/features/proposal-generator/).
 
 <div class="inline-cta">
 <h3>Consolidate the simulation stack into one license</h3>
@@ -132,7 +135,7 @@ Lenders price the loan against the P90 number; the proposal shows the P50.
 - **Choose PV*SOL** for Germany-only desktop workflows.
 - **Choose SAM** for research and sensitivity studies.
 
-For most installers and EPCs in 2026, SurgePV is the [solar design software](https://surgepv.com/) that consolidates the simulation workflow at the lowest total cost.
+For most installers and EPCs in 2026, SurgePV is the [solar design software](https://surgepv.com/) that consolidates the simulation workflow at the lowest total cost. From there, most teams move into [solar string sizing software](/blog/solar-string-sizing-software/) and then [solar takeoff software](/blog/solar-takeoff-software/) to turn the simulated layout into a procurement-ready bid.
 
 <div class="inline-cta">
 <h3>Ready to run bankable simulation in the browser?</h3>

@@ -4,6 +4,7 @@ excerpt: "3D solar design software produces the site model that drives shading, 
 description: "3D solar design software 2026: accuracy and speed benchmarks across SurgePV, Aurora, Scanifly, and SketchUp+Skelion. Book a free SurgePV demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/3d-solar-design-software.svg"
 author: "Nirav Dhanani"
@@ -48,11 +49,11 @@ faqs:
 
 ## What 3D Solar Design Software Does
 
-The 3D model captures the site geometry: roof planes, ridges, obstructions, setbacks, tilt, azimuth, and surrounding context (trees, neighbouring buildings). Every downstream calculation depends on accurate 3D: shading simulation, panel layout, BOQ, single-line diagram, and the visual on the proposal.
+The 3D model captures the site geometry: roof planes, ridges, obstructions, setbacks, [tilt](/glossary/tilt-angle/), [azimuth](/glossary/azimuth/), and surrounding context (trees, neighbouring buildings). Every downstream calculation depends on accurate 3D: shading simulation, panel layout, BOQ, [single-line diagram](/glossary/single-line-diagram/), and the visual on the proposal.
 
 ## How AI 3D From Satellite Works
 
-The process is three steps: pull high-resolution satellite imagery, infer roof geometry via deep learning, present the layout-ready 3D model in the design canvas. SurgePV's [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) handles complex hip-and-ridge residential as well as flat C&I rooftops, in under 60 seconds.
+The process is three steps: pull high-resolution satellite imagery, infer roof geometry via deep learning, present the layout-ready 3D model in the design canvas. SurgePV's [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) handles complex hip-and-ridge residential as well as flat C&I rooftops, in under 60 seconds. This mirrors the process professional engineering teams use for [3D pre-design and site modeling](https://heavendesigns.in/solar-3d-pre-design/) on complex commercial sites, compressed from days of manual work into under a minute.
 
 ## 3D Solar Design Software Across Competing Tools
 
@@ -90,7 +91,7 @@ All included on every paid plan at $1,299 to $1,899 per user per year.
 ## When to Use AI 3D vs Drone vs Manual CAD
 
 - **AI 3D from satellite (SurgePV):** default for residential and small C&I. Fastest, lowest cost, sufficient accuracy on most rooftops.
-- **Drone capture (Scanifly):** sites with heavy obstructions, unusual geometry, or as-built model requirements.
+- **Drone capture (Scanifly):** sites with heavy obstructions, unusual geometry, or as-built model requirements, comparable to a full [site survey and land feasibility](https://heavendesigns.in/site-survey-land-feasibility-services/) assessment before civil works begin.
 - **Manual CAD (SketchUp + Skelion):** very specific engineering control or specialised projects where the designer wants full geometry authoring.
 
 For everyday production design at volume, AI 3D from satellite has overtaken the other two on total cost and cycle time.
@@ -113,11 +114,11 @@ For everyday production design at volume, AI 3D from satellite has overtaken the
 ## Who Should Choose Each Tool
 
 - **Choose SurgePV** for AI 3D from satellite at scale, integrated with the full design-to-proposal stack.
-- **Choose Aurora upper tier** for US-residential 3D with manual control.
-- **Choose Scanifly** for drone capture as a core differentiator.
+- **Choose [Aurora Solar](/blog/aurora-solar-alternative/)** for US-residential 3D with manual control at the upper tier.
+- **Choose [Scanifly](/blog/scanifly-alternative/)** for drone capture as a core differentiator.
 - **Choose SketchUp + Skelion** for power-user CAD authoring on specialised projects.
 
-For most installers and EPCs in 2026, SurgePV's AI 3D from satellite is the cleanest 3D [solar design software](https://surgepv.com/) workflow.
+For most installers and EPCs in 2026, SurgePV's AI 3D from satellite is the cleanest 3D [solar design software](https://surgepv.com/) workflow. Once the model is locked, the next steps are a full [shading analysis](/glossary/shading-analysis/) and weighing the result against the broader [best solar design software](/blog/best-solar-design-software/) field, including how AI 3D compares to [HelioScope's](/blog/helioscope-alternative/) 2.5D layout approach and [OpenSolar's](/blog/opensolar-alternative/) manual modelling workflow.
 
 <div class="inline-cta">
 <h3>Ready to design solar from satellite in 60 seconds?</h3>

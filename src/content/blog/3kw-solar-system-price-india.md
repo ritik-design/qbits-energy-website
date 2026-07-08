@@ -7,6 +7,7 @@ date: 2026-06-05
 readTime: "18 min"
 image: "/blog-images/3kw-vs-5kw-vs-10kw-solar-inverters.svg"
 author: "Akash Hirapara"
+updatedDate: 2026-07-08
 keywords:
   - 3kw solar system price
   - 3kw solar system price in india
@@ -34,6 +35,14 @@ faqs:
 
 Your electricity bill crossed ₹6,000 a month. You own a 2 or 3 BHK independent home. You want to know whether a 3kW solar system brings that bill close to zero. The 3kW size is India's most popular residential solar tier because it matches the PM Surya Ghar maximum subsidy cap (₹78,000), fits a typical 2–3 BHK load profile, and delivers the best cost-per-unit-of-generation in the residential band. This guide is the cost breakdown, payback math, and an honest read on what 3kW does and doesn't cover.
 
+> **TL;DR**
+> - A 3kW on-grid system costs ₹1.6 lakh to ₹2.1 lakh before subsidy, and ₹82,000 to ₹1.32 lakh net after the ₹78,000 PM Surya Ghar subsidy.
+> - It generates 11 to 15 units (kWh) per day, or 3,600 to 5,000 kWh per year.
+> - Payback is typically 3 to 5 years depending on your state's electricity tariff.
+> - 3kW is the PM Surya Ghar subsidy ceiling, systems above 3kW get no additional central subsidy.
+> - It suits a standard 3 BHK home with one 1.5-ton AC, a second smaller AC, a fridge, and a geyser.
+> - It uses 6 panels and needs about 18 to 22 square metres of shadow-free roof.
+
 **Short version.** A 3kW system costs ₹1.6 lakh to ₹2.1 lakh in India before subsidy. After the ₹78,000 PM Surya Ghar subsidy, net is ₹82,000 to ₹1.32 lakh. At ₹7/unit and 12 units/day generation, payback is 3 to 4 years. 3kW is the maximum-subsidy tier under PM Surya Ghar. Every rupee above 3kW is unsubsidised. For larger homes, see the [5kW system guide](/blog/5kw-solar-system-price-india/).
 
 The 3kW size is India's residential solar benchmark for a reason: it's the band where subsidy peaks, roof requirements stay manageable (18–22 sq m), and the system covers most of a typical urban household's daytime consumption.
@@ -45,7 +54,7 @@ A complete 3kW on-grid residential system in India includes the following compon
 | Component | Specification | Typical Cost (₹) |
 | --- | --- | --- |
 | Solar panels (6 × 535 Wp monocrystalline) | Tier-1 brand, 25-yr performance warranty | ₹62,000 – ₹80,000 |
-| On-grid solar inverter (3 kW) | BIS certified, ALMM-listed, dual MPPT | ₹24,000 – ₹36,000 |
+| On-grid solar inverter (3 kW) | [BIS certified](/glossary/bis-certification/), ALMM-listed, dual [MPPT](/glossary/mppt/) | ₹24,000 – ₹36,000 |
 | Balance of System (BOS) | DC/AC cables, SPD, MCB, RCCB, DC isolator, earthing | ₹14,000 – ₹20,000 |
 | Mounting structure | GI/aluminium, flat or sloped roof | ₹14,000 – ₹20,000 |
 | Installation and commissioning | Labour, wiring, DISCOM net-meter application | ₹18,000 – ₹26,000 |
@@ -54,7 +63,7 @@ A complete 3kW on-grid residential system in India includes the following compon
 | PM Surya Ghar central subsidy | ₹30,000/kW × 2kW + ₹18,000 for third kW | −₹78,000 |
 | **Net cost to homeowner** | | **₹68,000 – ₹1,24,000** |
 
-At the mid-range of this table (net cost ≈ ₹96,000), you receive a complete, warranty-backed, ALMM-compliant system from a reputable installer using Tier-1 panels.
+At the mid-range of this table (net cost ≈ ₹96,000), you receive a complete, warranty-backed, ALMM-compliant system from a reputable installer using Tier-1 panels. For a component-by-component look at how the 12% and 5% GST rates apply, the [GST on solar systems guide](/blog/gst-on-solar-inverters-2026/) has the full breakdown.
 
 > **₹78,000.** The maximum PM Surya Ghar central subsidy available for a residential solar system, applicable to the third kilowatt at ₹18,000. Any capacity above 3kW receives no additional central subsidy. *Source - [MNRE PM Surya Ghar Scheme Guidelines](https://pmsuryaghar.gov.in/), 2026.*
 
@@ -88,7 +97,7 @@ A 3kW system generating 12 units/day covers approximately 82% of this household'
 
 **Assumptions:** Net cost ₹1,00,000 (midpoint after ₹78,000 subsidy). Peak sun hours: 4.0 to 5.5 by region. Annual yield assumes 0.5% panel degradation per year. *Source for irradiance data - [NREL India Solar Resource Map](https://www.nrel.gov/international/india.html).* India's solar installations grew 26% year-over-year in 2024, with residential rooftop being the fastest-growing segment. *Source - [Mercom India Q4 2024 Solar Market Report](https://www.mercomindia.com/).*
 
-Over 25 years, a 3kW system at ₹7/unit tariff saves approximately ₹6.5 to ₹8 lakh in electricity costs, a 6–8× return on the net investment of ₹1 lakh.
+Over 25 years, a 3kW system at ₹7/unit tariff saves approximately ₹6.5 to ₹8 lakh in electricity costs, a 6–8× return on the net investment of ₹1 lakh. A dedicated [payback period calculator](https://surgepv.com/tools/payback-period-calculator/) can help you re-run this math against your own tariff slab and generation estimate.
 
 ## The 5-Point 3kW System Specification Checklist
 
@@ -102,7 +111,7 @@ Before signing any quotation for a 3kW system, verify these five points in writi
 
 3. **Warranty entity**: The warranty card must name an Indian legal entity with a registered Indian address. International warranty cards backed by Chinese or European parent companies are legally unenforceable in Indian consumer courts. Ask for the Indian warranty provider's company registration number (CIN).
 
-4. **Cable specification**: DC cables should be at least 4mm² (6mm² recommended for runs over 15 metres). AC cable from inverter to main DB should be 4mm² for a 3kW system. Undersized cables cause voltage drop, heating, and fire risk.
+4. **Cable specification**: [DC cables](/glossary/dc-cable/) should be at least 4mm² (6mm² recommended for runs over 15 metres). AC cable from inverter to main DB should be 4mm² for a 3kW system. Undersized cables cause voltage drop, heating, and fire risk.
 
 5. **Net-meter application commitment**: The installer should commit in writing to filing the net-meter application with your DISCOM within 7 days of installation completion. The [net metering guide](/blog/how-to-apply-net-metering-india/) covers what to expect from the DISCOM response timeline.
 
@@ -118,7 +127,7 @@ The PM Surya Ghar subsidy structure rewards the 3kW size disproportionately:
 | 4kW | ₹78,000 | ~34% |
 | 5kW | ₹78,000 | ~28% |
 
-The subsidy caps at ₹78,000 for 3kW and does not increase for 4kW or 5kW systems. This means the effective subsidy per kW drops sharply above 3kW. If your consumption genuinely requires 4kW or 5kW, size up, but if you are on the borderline, 3kW delivers the highest subsidy-per-kW benefit.
+The subsidy caps at ₹78,000 for 3kW and does not increase for 4kW or 5kW systems. This means the effective subsidy per kW drops sharply above 3kW. If your consumption genuinely requires 4kW or 5kW, size up, but if you are on the borderline, 3kW delivers the highest subsidy-per-kW benefit. The [3kW vs 5kW vs 10kW capacity guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) compares generation and payback across all three tiers side by side if you are still deciding between sizes.
 
 > **India's rooftop solar target.** The Government of India's PM Surya Ghar scheme aims to install rooftop solar across 1 crore homes by March 2027, with a budget outlay of ₹75,021 crore. The 3kW residential tier is the programme's primary focus segment. *Source - [MNRE Press Release](https://mnre.gov.in/), February 2024.*
 
@@ -142,7 +151,7 @@ Buying the most popular size does not automatically mean you are buying it corre
 - **Accepting roof utilisation shortcuts**: A 3kW system needs 18–22 sq m of unshaded roof. If your installer suggests cramming 6 panels into 14 sq m with overlapping shadows, the actual output will be 15–25% lower than projected.
 - **Not specifying monitoring requirements**: A 3kW system without Wi-Fi or 4G monitoring gives you no visibility into daily generation. Request a monitoring system with app access. Verify the monitoring platform has a history view of at least 12 months.
 - **Ignoring the 3kW subsidy cap**: Some installers size a 3.5kW or 4kW system without explaining that subsidy does not increase above 3kW. The extra capacity is unsubsidised. If you genuinely need 4kW, fine, but do not pay for 4kW unknowingly expecting 4kW of subsidy.
-- **Using a non-empanelled installer**: Only empanelled (DISCOM-approved) installers can file the PM Surya Ghar subsidy application. An unlicensed installer cannot process your subsidy. Verify empanelment status with your DISCOM before signing the contract.
+- **Using a non-empanelled installer**: Only empanelled (DISCOM-approved) installers can file the PM Surya Ghar subsidy application. An unlicensed installer cannot process your subsidy. Verify empanelment status with your DISCOM before signing the contract, a [directory of local solar installers](https://heavengreenenergy.com/solar-near-me/) is a reasonable starting point for cross-checking a vendor's track record.
 
 Read the [solar inverter buying mistakes guide](/blog/solar-inverter-buying-mistakes/) before committing to any vendor. India's [BIS certification mandate](https://bis.gov.in/) under IS 16221 requires all grid-connected inverters to pass safety and performance testing before sale, always ask for the BIS certificate number when evaluating any inverter brand.
 

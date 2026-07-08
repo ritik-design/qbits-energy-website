@@ -4,6 +4,7 @@ excerpt: "A solar inverter for AC load must handle inrush current, not just runn
 description: "Size a solar inverter for air conditioner loads in India, tonnage to kW conversion, starting current, hybrid vs on-grid for backup, and Qbits SKU recommendations."
 category: Buying Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-inverter-sizing.svg"
 author: "Keyur Rakholiya"
@@ -36,7 +37,15 @@ faqs:
     a: "Two 1.5-ton inverter ACs running simultaneously draw roughly 3 kW, with startup surges reaching 6–8 kW if both start at once. Add 1–2 kW for fans, lights, and a refrigerator and you reach a peak demand of 8–10 kW. The Qbits HS 10 kW hybrid inverter covers this load with headroom, provides battery-backed AC operation during power cuts, and includes AI WhatsApp monitoring to track consumption per phase - a strong fit for a 3–4 BHK home in any Indian city."
 ---
 
-Air conditioning consumes more than 40% of the electricity bill in a typical Indian 3-BHK home during summer months, according to the [Bureau of Energy Efficiency Annual Report](https://beeindia.gov.in/en/annual-report) (BEE, 2025). When a homeowner decides to go solar, the first question is almost always: can the solar system actually run my ACs, and if so, how big does the inverter need to be? The short answer involves more than multiplying the tonnage by a conversion factor. Starting current, power factor, daytime-versus-night-time operation, and the on-grid-versus-hybrid choice all shape the final system design. This guide walks through each variable, gives real sizing examples for 1.5-ton and 2-ton units, and maps the right Qbits SKU to each scenario.
+Air conditioning consumes more than 40% of the electricity bill in a typical Indian 3-BHK home during summer months, according to the [Bureau of Energy Efficiency Annual Report](https://beeindia.gov.in/en/annual-report) (BEE, 2025). Households evaluating a full [residential solar installation](https://heavengreenenergy.com/residential-solar/) rather than a standalone inverter swap should factor AC load into the system design from day one, since it typically dominates the home's peak demand. When a homeowner decides to go solar, the first question is almost always: can the solar system actually run my ACs, and if so, how big does the inverter need to be? The short answer involves more than multiplying the tonnage by a conversion factor. Starting current, power factor, daytime-versus-night-time operation, and the on-grid-versus-hybrid choice all shape the final system design. This guide walks through each variable, gives real sizing examples for 1.5-ton and 2-ton units, and maps the right Qbits SKU to each scenario.
+
+> **TL;DR**
+> - Size an inverter for AC load by inrush current, not running watts: a 1.5-ton AC surges to 4.5–5.75 kW at start-up even though it only runs at 1.4–1.6 kW.
+> - The AC-Load Inrush Matrix multiplies running kW by 3 (inverter AC) or 5 (non-inverter AC) to find peak surge, then matches that against the inverter's surge rating.
+> - On-grid inverters shut down during power cuts by law; only a hybrid inverter with a battery bank can keep an AC running through an outage.
+> - Two 1.5-ton inverter ACs in a standard 3-BHK need a 5–6 kW inverter with a 200% surge rating (roughly 10 kW peak).
+> - Running a 1.5-ton AC for 8 hours at night needs about 10–12 kWh of usable battery capacity, or 15 kWh of rated LFP capacity at 80% DoD.
+> - The Qbits HS and HT hybrid series ship with a 200% peak surge rating, so a 5 kW unit can supply 10 kW for the compressor's start-up window.
 
 > **Direct answer.** A solar inverter for AC load must handle inrush current (the startup surge), not just steady-state running watts. Apply the AC-Load Inrush Matrix: multiply nameplate tonnage by 1.2 to get running kW, then multiply by 3 to get peak surge kW, and select an inverter whose surge rating exceeds that figure. For backup during power cuts, a hybrid inverter is mandatory, an on-grid inverter shuts down by law when the grid fails.
 
@@ -231,7 +240,7 @@ A **soft-start capacitor**: a ₹2,000–4,000 add-on, reduces the locked-rotor 
 
 ## Common Sizing Mistakes and How to Avoid Them
 
-Homeowners and even some installers make consistent errors when sizing inverters for AC-heavy homes. Recognising these patterns saves money and prevents repeat service calls.
+Homeowners and even some installers make consistent errors when sizing inverters for AC-heavy homes. Recognising these patterns saves money and prevents repeat service calls; the broader [5 mistakes to avoid when buying a solar inverter](/blog/solar-inverter-buying-mistakes/) covers the general buying pitfalls beyond AC-specific sizing.
 
 - **Mistake: Sizing only for running load**: The most frequent error. A homeowner sees "1.5 kW running" on the AC data plate and orders a 2 kW inverter. The inverter trips on first start-up. Always apply the AC-Load Inrush Matrix from Section 2: multiply running load by 3 for startup surge and verify the inverter's peak surge rating.
 
@@ -241,7 +250,7 @@ Homeowners and even some installers make consistent errors when sizing inverters
 
 - **Mistake: Choosing on-grid in a power-cut zone**: An on-grid inverter shut down during a 6-hour summer power cut means six hours without AC despite a fully generating rooftop array. Verify your area's grid reliability before choosing inverter topology. The [on-grid vs hybrid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) covers the full framework.
 
-- **Mistake: Under-sizing the battery for night-time AC**: A 5 kWh battery will run a 1.5-ton AC for roughly 3 hours at full load. Many buyers expect 6–8 hours and are disappointed. Calculate the battery capacity using the formula: usable kWh = (AC kW × night hours) ÷ 0.85 (inverter round-trip efficiency). Then add 25% margin for ambient temperature losses.
+- **Mistake: Under-sizing the battery for night-time AC**: A 5 kWh battery will run a 1.5-ton AC for roughly 3 hours at full load. Many buyers expect 6–8 hours and are disappointed. Calculate the battery capacity using the formula: usable kWh = (AC kW × night hours) ÷ 0.85 (inverter round-trip efficiency). Then add 25% margin for ambient temperature losses. The [battery sizing guide for hybrid solar inverters](/blog/battery-sizing-hybrid-solar/) works through this calculation in full, and SurgePV's [battery and energy storage sizing hub](https://surgepv.com/hub/energy-storage/battery-sizing/) is a useful cross-check for readers comparing LFP bank configurations across brands.
 
 - **Mistake: Not accounting for AC start-up in hybrid systems**: Hybrid inverter battery discharge mode has the same surge limitation as grid-tied mode. The battery + inverter combination must supply the same start-up surge as the grid would. Verify that the hybrid inverter's backup output rating (not just its solar MPPT rating) covers the surge. For a deeper look at hybrid system design, the [on-grid vs hybrid solar inverters ROI guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/) provides payback scenarios for both topologies.
 

@@ -4,6 +4,7 @@ excerpt: "PV yield simulation software turns a layout into a bankable yield repo
 description: "PV yield simulation software 2026: 8,760-hour module-level methodology, P50/P75/P90 outputs, and SurgePV's bankable browser engine. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/pv-yield-simulation-software.svg"
 author: "Nirav Dhanani"
@@ -50,14 +51,14 @@ PV yield simulation software turns a layout into a bankable yield report lenders
 
 The simulator computes the AC electricity output of a PV system across a year, hour by hour, accounting for:
 
-- **Solar resource** (irradiance per hour from meteorological data)
+- **Solar resource** ([irradiance](/glossary/irradiation/) per hour from meteorological data)
 - **Module behaviour** (IV curve at varying irradiance and cell temperature)
 - **Shading factor** per module from 3D geometry
 - **Soiling** by site climate zone
 - **Snow loss** for cold regions
-- **Albedo** for ground-reflected light on bifacial or tilted modules
-- **Module temperature** from ambient + irradiance + NOCT
-- **Inverter behaviour** (MPPT tracking, clipping, efficiency curve)
+- **[Albedo](/glossary/albedo/)** for ground-reflected light on [bifacial modules](/glossary/bifacial-module/) or tilted modules
+- **Module temperature** from ambient + irradiance + [NOCT](/glossary/noct/)
+- **Inverter behaviour** ([MPPT](/glossary/mppt/) tracking, clipping, efficiency curve)
 - **DC and AC system losses** (wiring, transformer, availability)
 
 The output is annual AC yield, expressed in P50, P75, P90 probability bands for lender consumption.
@@ -101,11 +102,11 @@ All included on every paid plan.
 
 ## Common PV Yield Simulation Mistakes
 
-1. **Trusting simplified shading models for bankable reports.** Use 8,760-hour module-level.
+1. **Trusting simplified shading models for bankable reports.** Use 8,760-hour module-level, the [bankable simulation methodology](https://surgepv.com/best-solar-software/bankable-simulation/) lenders expect.
 2. **Stale meteorological data.** Use recent decadal averages or measurement-validated datasets.
-3. **Optimistic soiling assumptions.** Match local climate; arid-dusty zones lose 4 to 8 percent without cleaning.
-4. **Ignoring inverter clipping at DC oversizing.** Model it explicitly.
-5. **Missing degradation in long-term cashflow models.** Use 0.5 percent annual standard, more for low-quality modules.
+3. **Optimistic [soiling](/glossary/soiling/) assumptions.** Match local climate; arid-dusty zones lose 4 to 8 percent without cleaning.
+4. **Ignoring [inverter clipping](/blog/inverter-clipping-explained/) at [DC oversizing](/glossary/dc-oversizing/).** Model it explicitly.
+5. **Missing [module degradation](/glossary/degradation/) in long-term cashflow models.** Use 0.5 percent annual standard, more for low-quality modules.
 
 ## Example: 100 kW C&I Rooftop in Pune
 

@@ -4,6 +4,7 @@ excerpt: "Floating solar (floatovoltaics) design software handles the platform g
 description: "Complete 2026 guide to floating solar design software. Floatovoltaic platform geometry, water-cooling yield boost, anchoring considerations, and how SurgePV ships floating solar on every paid plan."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "8 min"
 image: "/blog-images/floating-solar-design-software.svg"
 author: "Nirav Dhanani"
@@ -50,22 +51,22 @@ Floating solar (floatovoltaic or FPV) design software handles PV systems mounted
 
 - Floating platform layout over a water body
 - Module placement on pontoons or floats
-- Water-cooling temperature coefficient adjustment
+- Water-cooling [temperature coefficient](/glossary/temperature-coefficient/) adjustment
 - Anchoring geometry handoff to the marine engineer
-- 8,760-hour module-level shading
-- Bankable P50, P75, P90 yield with water-cooling boost
+- [8,760-hour module-level shading](/glossary/shading-analysis/)
+- Bankable [P50, P75, P90](/glossary/p50-p90/) yield with water-cooling boost
 - AutoCAD DXF/DWG export
-- PPA financial modelling for project owner contracts
+- [PPA](/glossary/ppa/) financial modelling for project owner contracts
 
 ## SurgePV Floating Solar Workflow
 
 1. Define the water body footprint via satellite or GIS import.
-2. Apply the FPV template with the chosen pontoon spacing and tilt.
+2. Apply the FPV template with the chosen pontoon spacing and [tilt](/glossary/tilt-angle/).
 3. [Clara AI](https://surgepv.com/clara-ai) drafts the panel layout.
 4. Run [8,760-hour shading](https://surgepv.com/shadow-analysis) with water-cooling adjustment.
 5. Run the [bankable yield report](https://surgepv.com/generation-financial-tool).
 6. Generate the [branded solar proposal](https://surgepv.com/solar-proposals).
-7. Export [DXF/DWG drawings](https://surgepv.com/solar-autocad-integration) for the anchoring engineer.
+7. Export [DXF/DWG drawings](https://surgepv.com/solar-autocad-integration) for the [anchoring engineer](https://heavendesigns.in/solar-civil-and-structural-engineering/).
 
 ## Common Floating Solar Mistakes
 
@@ -73,7 +74,7 @@ Floating solar (floatovoltaic or FPV) design software handles PV systems mounted
 2. **Skipping wave-loading considerations** in pontoon design
 3. **Not accounting for water-level variation** on anchoring geometry
 4. **Mixing FPV with land array shading models** without water-cooling adjustment
-5. **Forgetting submarine cable losses** to shore
+5. **Forgetting submarine [AC cable](/glossary/ac-cable/) losses** to shore
 
 <div class="inline-cta">
 <h3>Floating solar on every paid plan</h3>
@@ -85,7 +86,7 @@ Floating solar (floatovoltaic or FPV) design software handles PV systems mounted
 ## Who Should Choose Each Tool
 
 - **Choose SurgePV** for floating solar plus the rest of the workflow at flat per-seat cost.
-- **Choose PVsyst** for lender-mandated bankable reports on first-of-its-kind FPV projects.
+- **Choose [PVsyst](/blog/pvsyst-alternative/)** for lender-mandated bankable reports on first-of-its-kind FPV projects.
 - **Choose specialist marine engineering tools** for the anchoring side, which SurgePV does not handle.
 
 For most installers and EPCs doing floating solar in 2026, SurgePV is the cleanest workflow.

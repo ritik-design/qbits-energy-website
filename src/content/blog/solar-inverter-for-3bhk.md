@@ -4,6 +4,7 @@ excerpt: "The right solar inverter for a 3 BHK home is a 5 kW on-grid or hybrid 
 description: "Size a solar inverter for a 3 BHK home in India: step-by-step load calculator, 5 kW system cost, PM Surya Ghar subsidy, on-grid vs hybrid decision, and best picks."
 category: Buying Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-sizing.svg"
 author: "Keyur Rakholiya"
@@ -37,6 +38,14 @@ faqs:
 ---
 
 Every year, thousands of Indian families living in 3 BHK homes receive electricity bills between ₹8,000 and ₹15,000 per month and conclude that solar is the logical next step. The question that follows ("what size solar inverter do I need for my 3 BHK?") sounds simple but conceals a cascade of decisions: how many kilowatts, on-grid or hybrid, how much roof space, which subsidy slab, and how long until the investment pays back. This guide answers all of those questions with actual numbers, a step-by-step load calculation for a real Delhi home, and a decision framework that removes the guesswork.
+
+> **TL;DR**
+> - A 3 BHK home typically needs a 5 kW solar inverter sized for a 4–7 kW peak load from two ACs, a refrigerator, geyser, and lighting.
+> - On-grid inverters win on payback (2–4 years) in reliable-grid cities like Bangalore and Chennai; hybrid inverters with a 5–10 kWh battery suit power-cut zones like UP and Bihar.
+> - PM Surya Ghar subsidy caps at ₹78,000 for a 5 kW system, since only the first 3 kW slab qualifies for central subsidy.
+> - A 5 kW system needs roughly 340–360 sq ft of shadow-free roof and generates 550–750 kWh per month depending on the city.
+> - Net cost after subsidy runs ₹1.1–2 Lakh for on-grid, with typical Delhi payback of 2–4 years at current tariffs.
+> - Qbits TLS (on-grid) and HS (hybrid) 5 kW SKUs both carry 12-year full-replacement warranties and IP66 protection.
 
 > **Direct answer.** A 3 BHK home in India typically needs a 5 kW solar inverter and system. The combined load of two 1.5-ton ACs, a refrigerator, washing machine, water heater, lights, and fans runs 4–7 kW peak. A 5 kW on-grid inverter is the right pick for grid-reliable cities (Bangalore, Mumbai, Chennai); a 5 kW hybrid inverter with a 5–10 kWh battery suits power-cut zones (UP, Bihar, rural Maharashtra). Apply the 3BHK Inverter Decision Framework in §4 to confirm which path fits your home.
 
@@ -95,7 +104,7 @@ This is the question every 3 BHK homeowner faces after settling on 5 kW: should 
 
 1. **Daily power cut duration**: measure the average cut duration in your area over the past three months. Fewer than 2 hours per day: on-grid wins on payback. More than 4 hours per day: hybrid is justified. Between 2–4 hours: run the payback calculation in Step 2 below before deciding.
 
-2. **Critical load requirement**: identify which loads must run through a power cut. Ceiling fans, LED lights, refrigerator, and Wi-Fi are "essential loads" at roughly 600–800 W. Both ACs running through a cut require 3–4 kW of battery capacity minimum. A 5 kWh LFP battery at 80% DoD delivers 4 kWh, sufficient for 4–5 hours of essential loads or 1.5–2 hours of both ACs.
+2. **Critical load requirement**: identify which loads must run through a power cut. Ceiling fans, LED lights, refrigerator, and Wi-Fi are "essential loads" at roughly 600–800 W. Both ACs running through a cut require 3–4 kW of battery capacity minimum. A 5 kWh LFP battery at 80% DoD delivers 4 kWh, sufficient for 4–5 hours of essential loads or 1.5–2 hours of both ACs. For the full methodology behind sizing that battery bank correctly, see [how to size a battery for a hybrid solar inverter](/blog/battery-sizing-hybrid-solar/); SurgePV's [battery and energy storage sizing hub](https://surgepv.com/hub/energy-storage/battery-sizing/) covers the underlying engineering in more depth for readers comparing chemistries and bank configurations.
 
 3. **Payback delta**: the hybrid premium (typically ₹1.2–1.5 Lakh more than an equivalent on-grid system) needs to be recovered through avoided backup costs (DG fuel, UPS batteries) or avoided electricity charges during cuts. If your current DG or UPS cost exceeds ₹1,500/month, the hybrid payback delta closes in 6–8 years. If you have no power cut and no backup cost, the on-grid system pays back 2–3 years faster.
 
@@ -215,7 +224,7 @@ One of the most common anxieties among 3 BHK homeowners is whether the rooftop h
 - **Add edge setback from parapet wall (typically 1 m on all sides for a 3 BHK terrace)**: adds approximately 30–40 sq ft of perimeter exclusion
 - **Practical roof requirement**: **340–360 sq ft of usable, shadow-free roof area**
 
-Most 3 BHK homes in India have a flat terrace of 600–900 sq ft. Shadow-free area depends on the water tank position, parapet wall height, and staircase head. A quick [shading analysis](/glossary/shading-analysis/) using a solar pathfinder or a free tool like PVGIS confirms available area before purchase.
+Most 3 BHK homes in India have a flat terrace of 600–900 sq ft. Shadow-free area depends on the water tank position, parapet wall height, and staircase head. A quick [shading analysis](/glossary/shading-analysis/) using a solar pathfinder or a free tool like PVGIS confirms available area before purchase. For terraces with complex shading from adjacent buildings or overhead tanks, a professional [site survey and land feasibility assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) quantifies usable roof area more precisely than a manual measurement.
 
 If shadow-free area is limited to 250–300 sq ft (for instance, due to a large overhead tank or adjacent building shadow), consider using higher-efficiency panels (≥ 22% module efficiency) at 580–605 Wp each, which can achieve 5 kW with 9 panels and save 15–20 sq ft.
 
@@ -260,7 +269,7 @@ Buying a solar inverter is a decision that stays with the home for 12–25 years
 
 **Skipping the net metering application.** An on-grid inverter without a net meter is technically off-grid, it cannot feed surplus power to the grid, so the system shuts down when household consumption falls below generation. Net metering is mandatory for an on-grid system to function correctly and for the PM Surya Ghar subsidy to remain valid. The [net metering application guide](/blog/how-to-apply-net-metering-india/) covers the step-by-step process for each DISCOM.
 
-**Accepting a non-empanelled vendor.** PM Surya Ghar subsidy requires the installation to be performed by a DISCOM-empanelled vendor. Installing through an un-empanelled contractor (even with ALMM-listed equipment) voids the subsidy claim. Check the national portal before signing any contract.
+**Accepting a non-empanelled vendor.** PM Surya Ghar subsidy requires the installation to be performed by a DISCOM-empanelled vendor. Installing through an un-empanelled contractor (even with ALMM-listed equipment) voids the subsidy claim. Verifying installer credentials is one of the [eight verification steps for finding a reliable solar installer](/blog/find-reliable-solar-installer/) that every buyer should complete before signing, and a directory such as [heavengreenenergy.com's local installer search](https://heavengreenenergy.com/solar-near-me/) is a useful starting point for cross-checking a vendor's service footprint. Check the national portal before signing any contract, and run the final quotation against the [12-point solar quotation checklist](/blog/solar-quotation-checklist/) to confirm every line item is accounted for.
 
 ## Where Qbits Fits
 

@@ -4,6 +4,7 @@ excerpt: "Aurora costs $159 to $259 per user per month. OpenSolar leads with a f
 description: "Aurora vs OpenSolar in 2026: pricing, AI, 8,760-hour shading, proposals compared. Plus the SurgePV flat per-seat alternative. Compare plans now."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "10 min"
 image: "/blog-images/aurora-vs-opensolar.svg"
 author: "Nirav Dhanani"
@@ -31,7 +32,7 @@ faqs:
     a: "Book a free SurgePV demo, run a 4-to-6-week parallel migration, and cancel both at renewal. SurgePV's AI 3D from satellite rebuilds site geometry from Aurora projects in seconds, and OpenSolar projects map across the same hardware-neutral database."
 ---
 
-Aurora and OpenSolar sit at opposite ends of the residential solar design software market. Aurora is the premium US-residential pick. OpenSolar leads with a free tier and add-on extensions. Both have ceilings. This guide compares them honestly and introduces the third option: [SurgePV](https://surgepv.com/) ships engineering depth plus proposals at flat per-seat cost.
+Aurora and OpenSolar sit at opposite ends of the [residential solar design software](/blog/residential-solar-design-software/) market. Aurora is the premium US-residential pick. OpenSolar leads with a free tier and add-on extensions. Both have ceilings. This guide compares them honestly and introduces the third option: [SurgePV](https://surgepv.com/) ships engineering depth plus proposals at flat per-seat cost.
 
 > **TL;DR**
 > - Aurora is residential-premium at $159 to $259 per user per month, AI Mode and Sales Mode extra.
@@ -63,21 +64,21 @@ Aurora and OpenSolar sit at opposite ends of the residential solar design softwa
 | Free trial, no credit card | Limited | Free tier | Yes |
 
 ## Where Aurora Wins
-Strong US residential 3D, mature AHJ library, large installed base, and integrated Sales Mode at the upper tier. Best for established residential installers committed to the premium tier.
+Strong US residential 3D, mature AHJ library, large installed base, and integrated Sales Mode at the upper tier. Best for established residential installers committed to the premium tier. See our [Aurora Solar pricing breakdown](/blog/aurora-solar-pricing/) for exact plan costs, or [Aurora vs HelioScope](/blog/aurora-vs-helioscope/) if engineering depth matters more than proposals.
 
 ## Where OpenSolar Wins
-Free entry tier for installers running simple residential roofs. Active community and reasonable design experience at the entry level.
+Free entry tier for installers running simple residential roofs. Active community and reasonable design experience at the entry level. Our [OpenSolar pricing guide](/blog/opensolar-pricing/) covers the true cost of "free" once add-ons stack up, and the [OpenSolar alternative comparison](/blog/opensolar-alternative/) ranks six tools if you are ready to move on.
 
 ## Why SurgePV Is the Third Option
 [SurgePV](https://surgepv.com/) is built for installers who outgrew OpenSolar's free tier but cannot justify Aurora's premium pricing. The product ships:
 
-- **[AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design)** from satellite, no drone
+- **[AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design)** from satellite, no drone (see our [satellite roof measurement guide](/blog/satellite-roof-measurement-solar/) for how this compares to drone capture)
 - **[8,760-hour shade analysis](https://surgepv.com/shadow-analysis)** at module level on every plan
-- **Bankable P50, P75, P90** yield reports
+- **Bankable [P50, P75, P90](/glossary/p50-p90/)** yield reports
 - **[Clara AI](https://surgepv.com/clara-ai)** natural-language design assistant
 - **[Solar financial modeling](https://surgepv.com/generation-financial-tool)** with country-specific tariffs
 - **[DXF/DWG export](https://surgepv.com/solar-autocad-integration)** for AutoCAD handoff
-- **[Branded solar proposals](https://surgepv.com/solar-proposals)** with e-signature in 9 languages
+- **[Branded solar proposals](https://surgepv.com/solar-proposals)** with e-signature in 9 languages, well beyond a basic [proposal generator](https://quickestimate.co/features/proposal-generator/)
 - **[QuickEstimate](https://quickestimate.co/)** as the sister CRM
 
 ## Pricing Comparison
@@ -110,7 +111,7 @@ Free entry tier for installers running simple residential roofs. Active communit
 - **Choose OpenSolar free** if pure small residential is your entire scope and add-ons stay manageable.
 - **Choose SurgePV** if you want engineering depth, multi-country support, and flat per-seat pricing.
 
-For most installers in 2026, the third option is the answer.
+For most installers in 2026, the third option is the answer. See the full [best solar design software ranking](/blog/best-solar-design-software/) if you want to weigh more than these two, or our [free solar design software guide](/blog/free-solar-design-software/) for what else exists at zero cost.
 
 <div class="inline-cta">
 <h3>Ready to skip the Aurora-vs-OpenSolar decision?</h3>

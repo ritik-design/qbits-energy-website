@@ -4,6 +4,7 @@ excerpt: "Solar carport design software handles the structural, electrical, and 
 description: "Complete 2026 guide to solar carport design software. Carport-specific structural considerations, 8,760-hour shading on canopy arrays, EV charger integration, and the SurgePV carport workflow."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "8 min"
 image: "/blog-images/solar-carport-design-software.svg"
 author: "Nirav Dhanani"
@@ -31,7 +32,7 @@ faqs:
     a: "SurgePV's carport workflow is included on every paid plan at $1,299 to $1,899 per user per year. Aurora and HelioScope can also design carports at higher per-seat cost. There are no carport-specialised tools in the same category as PVcase for utility."
 ---
 
-Solar carport design software handles the unique geometry, shading, and electrical considerations of parking-lot canopy projects. The niche is small but growing fast as commercial parking lots add PV. This guide explains how it works and which [solar design software](https://surgepv.com/) ships the workflow.
+Solar carport design software handles the unique geometry, shading, and electrical considerations of parking-lot canopy projects. The niche is small but growing fast as commercial parking lots add PV. This guide explains how it works and which [solar design software](https://surgepv.com/) ships the workflow, alongside other niche categories like [agrivoltaic design software](/blog/agrivoltaic-design-software/) and [floating solar design software](/blog/floating-solar-design-software/).
 
 > **TL;DR**
 > - [SurgePV](https://surgepv.com/) includes carport templates on every paid plan.
@@ -48,19 +49,19 @@ Solar carport design software handles the unique geometry, shading, and electric
 
 ## What Solar Carport Design Software Handles
 
-- **Carport canopy geometry** with configurable height, span, and tilt
+- **Carport canopy geometry** with configurable height, span, and [tilt angle](/glossary/tilt-angle/)
 - **Module layout** across the canopy
 - **8,760-hour module-level shading** across the array
-- **Structural drawing handoff** to the structural engineer
-- **EV charger placement** and load modelling
+- **Structural drawing handoff** to a [structural and civil engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) partner
+- **[EV charger](/glossary/ev-charger/) placement** and load modelling
 - **Lighting under-canopy** placement
-- **Bankable yield reports** with P50, P75, P90
-- **PPA financial modelling** for parking-lot owner contracts
+- **Bankable yield reports** with [P50, P75, P90](/glossary/p50-p90/)
+- **[PPA](/glossary/ppa/) financial modelling** for parking-lot owner contracts
 - **AutoCAD DXF/DWG export** for construction
 
 ## SurgePV Carport Workflow
 
-1. Type the address. AI 3D site model includes the parking lot footprint.
+1. Type the address. [AI 3D](https://surgepv.com/3d-solar-roof-design) site model includes the parking lot footprint, the same [3D solar design](/blog/3d-solar-design-software/) technology used for rooftop projects.
 2. Apply the carport template at the chosen height and tilt.
 3. [Clara AI](https://surgepv.com/clara-ai) drafts the panel layout.
 4. Run [8,760-hour shading](https://surgepv.com/shadow-analysis) across the canopy.
@@ -84,7 +85,7 @@ Solar carport design software handles the unique geometry, shading, and electric
 2. **Skipping inter-row shading** on multi-row carport arrays
 3. **Forgetting structural snow load** in cold-region designs
 4. **Missing EV charger load contribution** to project financials
-5. **Not modelling under-canopy lighting energy** in the OPEX
+5. **Not modelling under-canopy lighting energy** in the [OPEX](/glossary/opex/)
 
 <div class="inline-cta">
 <h3>Carport design on every plan, no specialist tool needed</h3>
@@ -95,9 +96,9 @@ Solar carport design software handles the unique geometry, shading, and electric
 
 ## Who Should Choose Each Tool
 
-- **Choose SurgePV** for carport plus rooftop plus ground-mount plus utility in one license.
-- **Choose Aurora upper tier** for US-residential teams adding occasional carports.
-- **Choose HelioScope** for engineering-only carport simulation.
+- **Choose SurgePV** for carport plus rooftop plus [ground-mount](https://heavengreenenergy.com/ground-mount-solar-park/) plus utility in one license.
+- **Choose [Aurora](/blog/aurora-solar-alternative/) upper tier** for US-residential teams adding occasional carports.
+- **Choose [HelioScope](/blog/helioscope-alternative/)** for engineering-only carport simulation.
 
 For most installers and EPCs doing solar carports in 2026, SurgePV is the cleanest workflow at the lowest total cost.
 

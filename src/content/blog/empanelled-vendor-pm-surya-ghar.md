@@ -4,6 +4,7 @@ excerpt: "An empanelled vendor solar installer is mandatory for PM Surya Ghar su
 description: "Empanelled vendor solar checklist for PM Surya Ghar: what DISCOM registration means, how to verify on pmsuryaghar.gov.in, red flags, and 5 questions to ask before you sign."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Akash Hirapara"
@@ -33,6 +34,13 @@ faqs:
 ---
 
 You have spent weeks researching rooftop solar. You have compared system sizes, read through subsidy slabs, and you are now ready to hire someone. Then a neighbour tells you: "Make sure the vendor is empanelled, or you lose the subsidy." Suddenly the homework is not done yet.
+
+> **TL;DR**
+> - An empanelled vendor is a solar installer formally registered with your state DISCOM, vetted for technical and financial capacity, and bound by benchmark pricing norms.
+> - Only empanelled vendors can submit the commissioning report that triggers PM Surya Ghar subsidy disbursement, non-empanelled installers cannot get your claim processed at all.
+> - Verify a vendor's registration number directly on pmsuryaghar.gov.in, and separately confirm ALMM listing for both the proposed inverter and solar panel models.
+> - The portal's grievance mechanism gives empanelled-vendor customers a formal recourse channel, with a 7-day acknowledgement and 30-day resolution requirement, that does not exist outside the scheme.
+> - Losing the subsidy due to a non-empanelled or non-ALMM-compliant vendor has no appeals process; the applicant bears the full ₹78,000-plus loss.
 
 For most homeowners, "empanelled vendor" is a term they encounter late in the process, after they have already received two or three quotes from solar companies they found on Google or WhatsApp. This guide explains exactly what empanelment means, why it is the single most consequential vendor qualification under PM Surya Ghar, and how to verify any installer before you sign anything.
 
@@ -89,7 +97,7 @@ Go to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and select "Rooftop Sola
 
 ### Step 2: Navigate to the Vendor List
 
-Once logged in, select your state and then your DISCOM from the dropdown menus. Look for the "Empanelled Vendor List" or "Registered Vendor List" section, the exact label varies slightly by DISCOM interface. The list shows vendor names, registration numbers, coverage districts, and often a contact number.
+Once logged in, select your state and then your DISCOM from the dropdown menus. Look for the "Empanelled Vendor List" or "Registered Vendor List" section, the exact label varies slightly by DISCOM interface. The list shows vendor names, registration numbers, coverage districts, and often a contact number. A directory such as [HeavenGreen's local solar installer finder](https://heavengreenenergy.com/solar-near-me/) can be a useful cross-check for reviews and service history once you have a shortlist of registration numbers from the portal.
 
 ### Step 3: Search by District
 
@@ -138,7 +146,7 @@ Empanelment and ALMM compliance are two separate but interlocking requirements u
 
 The [ALMM list (Approved List of Models and Manufacturers)](/glossary/almm-list/) is maintained by MNRE and covers two separate categories: solar photovoltaic modules and solar inverters. Each category has its own approval process, testing standards, and list. A component must appear in the correct category to satisfy scheme requirements.
 
-For solar panels, the test standards include IEC 61215 and IEC 61730, internationally recognised quality benchmarks. For inverters, the BIS certification under IS 16221 / IEC 62109 is the primary gate, along with grid connectivity standards required under [Central Electricity Authority](https://cea.nic.in/) regulations.
+For solar panels, the test standards include [IEC 61215](/glossary/iec-61215/) and IEC 61730, internationally recognised quality benchmarks. For inverters, the [BIS certification](/glossary/bis-certification/) under IS 16221 / IEC 62109 is the primary gate, along with grid connectivity standards required under [Central Electricity Authority](https://cea.nic.in/) regulations.
 
 | Component | ALMM Category | Key Standard | Test Frequency |
 | --- | --- | --- | --- |
@@ -177,7 +185,7 @@ After logging into [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/), registered
 - A description of the problem (poor generation, incomplete installation, documentation not submitted, equipment substitution)
 - Supporting evidence where available (photographs, WhatsApp messages, invoices showing different equipment than contracted)
 
-The complaint is routed to the state DISCOM's nodal officer for PM Surya Ghar. The DISCOM is required to acknowledge the grievance within 7 days and resolve it within 30 days. For unresolved complaints, escalation is possible to the state electricity regulatory commission.
+The complaint is routed to the state DISCOM's nodal officer for PM Surya Ghar. The DISCOM is required to acknowledge the grievance within 7 days and resolve it within 30 days. For unresolved complaints, escalation is possible to the [state electricity regulatory commission](/glossary/serc/).
 
 ### What Enforcement Looks Like
 
@@ -196,7 +204,7 @@ This enforcement chain is what makes empanelment meaningful, it is not just a pi
 
 Every year, a significant number of PM Surya Ghar applicants fail at the commissioning inspection stage, not because their roof was unsuitable or their paperwork was wrong, but because their vendor was not properly empanelled or because the installed equipment was not ALMM-listed. The subsidy is forfeited in its entirety.
 
-The financial consequence is stark. For a 3 kW system, losing the PM Surya Ghar central subsidy means forfeiting ₹78,000 that the government was prepared to transfer directly to your bank account. In states with additional state subsidies (Gujarat, Maharashtra, UP, Tamil Nadu) the total loss including state top-ups can exceed ₹1 Lakh.
+The financial consequence is stark. For a 3 kW system, losing the [PM Surya Ghar central subsidy](/blog/pm-surya-ghar-subsidy-amount/) means forfeiting ₹78,000 that the government was prepared to transfer directly to your bank account. In states with additional state subsidies (Gujarat, Maharashtra, UP, Tamil Nadu) the total loss including state top-ups can exceed ₹1 Lakh.
 
 There is no appeals process for a commissioning failure due to non-ALMM equipment. The applicant must either have the non-compliant equipment replaced (at their cost, since the vendor is responsible but often unwilling) or start a fresh application with a different empanelled vendor.
 

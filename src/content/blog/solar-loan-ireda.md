@@ -4,6 +4,7 @@ excerpt: "IREDA solar loan (Suryodaya) offers 7–9% interest for residential so
 description: "Complete IREDA solar loan guide for Indian homeowners, Suryodaya scheme rates, partner banks, eligibility rules, subsidy + loan stacking, and monthly EMI calculator."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "18 min"
 image: "/blog-images/inverter-financing-options-in-india.svg"
 author: "Akash Hirapara"
@@ -37,6 +38,14 @@ Your electricity bill crosses ₹8,000 a month, your neighbour just went solar, 
 > **Direct answer.** The IREDA solar loan (Suryodaya scheme) offers Indian homeowners 7–9% interest on residential solar financing, routed through partner banks like SBI, PNB, and Bank of Baroda. When stacked with the PM Surya Ghar subsidy of up to ₹78,000, the net out-of-pocket loan for a 3 kW system falls to ₹72,000–₹1.2 Lakh, translating to a monthly EMI of ₹1,400–₹2,500 that is typically lower than the electricity bill savings from day one.
 
 Understanding how the [IREDA solar loan](https://ireda.in/) works (and how to combine it with the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/)) can reduce your real cost of going solar by 40% or more compared to taking a plain commercial personal loan. This guide walks through every step: eligibility, the application process, the partner bank list, the repayment mathematics, and the named framework that ties it all together.
+
+> **TL;DR**
+> - IREDA's Suryodaya scheme routes concessional 7-9% interest loans through partner banks (SBI, PNB, Bank of Baroda, Canara, Indian Bank) and select NBFCs for PM Surya Ghar-eligible rooftop solar.
+> - Loans up to ₹10 Lakh are collateral-free, and eligibility requires DISCOM sanction plus ALMM-listed equipment - the same gates as the subsidy itself.
+> - On a typical 3 kW system, the net loan amount after the ₹78,000 central subsidy is around ₹72,000, with an EMI of roughly ₹1,459/month against ₹2,800-₹4,200 in monthly electricity savings.
+> - A CIBIL score of 700+ is required, with the best rates (near 7%) reserved for scores above 750.
+> - Because the subsidy arrives after commissioning, it is best used as a lump-sum prepayment against the loan principal rather than banked separately.
+> - Commercial personal loans (10.5-14%) and NBFC solar loans (8.5-12%) remain the fallback for applicants who do not qualify for the IREDA channel.
 
 ## What Is IREDA and the Suryodaya Residential Solar Loan?
 
@@ -72,7 +81,7 @@ This architecture means the loan application experience looks exactly like a reg
 | --- | --- | --- |
 | 1. Portal Registration | Register on pmsuryaghar.gov.in, upload electricity bill + Aadhaar | 1 day |
 | 2. DISCOM Sanction | DISCOM checks roof size, load, grid capacity | 7–21 days |
-| 3. Vendor Quote | Get written quote from empanelled installer with ALMM model numbers | 1–3 days |
+| 3. Vendor Quote | Get a [formal, itemised quotation](https://quickestimate.co/features/quotation-system/) from empanelled installer with ALMM model numbers | 1–3 days |
 | 4. Bank Loan Processing | Submit documents to IREDA partner bank; credit check, sanction | 7–14 days |
 | 5. Installation + Subsidy | Installer commissions, DISCOM inspects, subsidy disbursed to bank | 30–90 days |
 
@@ -163,7 +172,7 @@ The subsidy, when it arrives 30–90 days post-installation, can be used to eith
 
 ## EMI Calculator: 3 kW, 5 kW, and 10 kW Systems
 
-Use these tables to estimate your monthly commitment. All figures use 8% interest rate at 5-year tenure. System costs are midpoint estimates; actual costs vary by state, vendor, and roof complexity.
+Use these tables to estimate your monthly commitment. All figures use 8% interest rate at 5-year tenure. System costs are midpoint estimates; actual costs vary by state, vendor, and roof complexity - a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) can help you plug in your own roof size and tariff to sanity-check these midpoints before you approach a bank.
 
 **3 kW On-Grid System**
 

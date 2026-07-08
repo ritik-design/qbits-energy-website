@@ -4,6 +4,7 @@ excerpt: "Satellite roof measurement now reaches LIDAR-grade accuracy from high-
 description: "Satellite roof measurement for solar 2026: AI 3D roof modeling accuracy vs LIDAR, drone comparison, and the SurgePV workflow. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "9 min"
 image: "/blog-images/satellite-roof-measurement-solar.svg"
 author: "Nirav Dhanani"
@@ -52,20 +53,20 @@ The process is three steps:
 
 **Step 1: Image fetch.** Pull the latest high-resolution satellite imagery (often 30 cm/pixel or better) for the project address.
 
-**Step 2: AI 3D reconstruction.** Deep learning models trained on LIDAR-paired imagery infer roof planes, ridges, obstructions, and setbacks. SurgePV's model handles complex hip-and-ridge geometry as well as flat C&I rooftops.
+**Step 2: AI 3D reconstruction.** Deep learning models trained on LIDAR-paired imagery infer roof planes, ridges, obstructions, [roof azimuth](/glossary/azimuth/), and setbacks. SurgePV's model handles complex hip-and-ridge geometry as well as flat C&I rooftops, echoing the broader shift toward [AI solar design software](/blog/ai-solar-design-software/) across the industry.
 
 **Step 3: Layout-ready geometry.** The 3D model lands in the design canvas, ready for module placement, [8,760-hour shading](https://surgepv.com/shadow-analysis), and the rest of the [solar design platform](https://surgepv.com/solar-designing) workflow.
 
 ## Accuracy Benchmarks
 
-SurgePV benchmarks satellite-derived AI 3D against LIDAR ground truth on a sample of residential and C&I rooftops:
+SurgePV benchmarks satellite-derived AI 3D against LIDAR ground truth on a sample of [residential](/residential-solution/) and [C&I](/c-i-solution/) rooftops:
 
-- **Roof plane tilt:** within 2 degrees
+- **[Roof plane tilt](/glossary/tilt-angle/):** within 2 degrees
 - **Roof area:** within 3 percent
 - **Obstruction detection:** captures chimneys, vents, AC units, skylights
 - **Ridge and setback positioning:** within 30 cm
 
-This level of accuracy is sufficient for shading simulation, BOQ generation, and bankable yield reports for residential and small-to-mid C&I projects.
+This level of accuracy is sufficient for shading simulation, [BOQ generation](/blog/solar-boq-software/), and bankable yield reports for residential and small-to-mid C&I projects.
 
 ## Satellite vs Drone Capture
 
@@ -93,15 +94,15 @@ All included on every paid plan at $1,299 to $1,899 per user per year.
 
 ## Limitations to Know
 
-Satellite-derived AI 3D struggles on sites with very dense tree canopy, very recent construction not yet in current imagery, and unusual geometry like curved roofs. For those sites, drone capture remains the right call and SurgePV supports drone-model import as a base layer.
+Satellite-derived AI 3D struggles on sites with very dense tree canopy, very recent construction not yet in current imagery, and unusual geometry like curved roofs. For those sites, drone capture remains the right call, a proper [site survey and land feasibility](https://heavendesigns.in/site-survey-land-feasibility-services/) check is worth the trip, and SurgePV supports drone-model import as a base layer.
 
 ## Who Should Choose Each Approach
 
 - **Choose satellite (SurgePV)** for residential and small C&I rooftops, anywhere imagery quality is good. Default for any installer running more than 20 projects per year.
-- **Choose drone (Scanifly)** for sites with complex obstructions, unusual geometry, or as-built model requirements.
+- **Choose drone ([Scanifly](/blog/scanifly-alternative/))** for sites with complex obstructions, unusual geometry, or as-built model requirements.
 - **Choose EagleView** for legacy measurement reports where a third-party measurement is contractually required.
 
-For most production solar design in 2026, satellite-based AI 3D inside SurgePV [solar design software](https://surgepv.com/) is the cleanest workflow.
+For most production solar design in 2026, satellite-based AI 3D inside SurgePV [solar design software](https://surgepv.com/) is the cleanest workflow, and it sits alongside the broader category of [3D solar design software](/blog/3d-solar-design-software/) that installers are standardizing on.
 
 <div class="inline-cta">
 <h3>Ready to drop the drone for most rooftops?</h3>

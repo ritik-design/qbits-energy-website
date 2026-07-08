@@ -4,6 +4,7 @@ excerpt: "Scanifly's per-project pricing plus drone operating cost adds up fast 
 description: "Scanifly pricing in 2026: per-project fees, drone operating cost, and the SurgePV flat per-seat alternative with AI 3D from satellite. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
+updatedDate: 2026-07-08
 readTime: "9 min"
 image: "/blog-images/scanifly-pricing.svg"
 author: "Nirav Dhanani"
@@ -51,17 +52,17 @@ Scanifly's per-project pricing model works at low volume and becomes painful at 
 | Cost component | Range | Notes |
 | --- | --- | --- |
 | Scanifly per-project | Varies | Site size dependent |
-| Drone capex amortised | $50 to $200 per project | Initial $2,000 to $10,000 drone |
+| Drone [capex](/glossary/capex/) amortised | $50 to $200 per project | Initial $2,000 to $10,000 drone |
 | Pilot time | $50 to $150 per project | Travel + capture time |
 | FAA Part 107 compliance | Variable | US-specific |
 | Insurance | Variable | Per pilot annual |
 | Travel | Variable | Distance-dependent |
 
-The headline Scanifly fee is only one line. Total per-project cost for a residential rooftop typically lands $80 to $200, and for C&I, often $200 to $500+.
+The headline Scanifly fee is only one line. Total per-project cost for a residential rooftop typically lands $80 to $200, and for [C&I](/c-i-solution/), often $200 to $500+. For crews that still send a pilot onsite, that spend competes with a proper [site survey and land feasibility](https://heavendesigns.in/site-survey-land-feasibility-services/) check already budgeted for the project.
 
 ## Real Volume Math
 
-A 100-system-per-year installer running Scanifly plus drone ops typically pays $10,000 to $30,000 per year just for measurement, before any design tool, financial model, or proposal stack.
+A 100-system-per-year installer running Scanifly plus drone ops typically pays $10,000 to $30,000 per year just for measurement, before any design tool, financial model, or proposal stack. Our full [Scanifly alternative comparison](/blog/scanifly-alternative/) breaks down the feature gap beyond price.
 
 | Volume | Scanifly stack total | SurgePV 5-User Team |
 | --- | --- | --- |
@@ -74,15 +75,19 @@ At any volume above 50 projects per year, SurgePV's flat per-seat plan is dramat
 
 ## What You Get for Less With SurgePV
 
+For the accuracy math behind the satellite-only workflow, see our [satellite roof measurement guide](/blog/satellite-roof-measurement-solar/).
+
 - **[AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design)** from satellite in under 60 seconds, no drone
 - **Drone model import** for the sites that genuinely benefit
 - **[Clara AI](https://surgepv.com/clara-ai)** natural-language design assistant
-- **8,760-hour module-level shading** on every paid plan
-- **Bankable P50, P75, P90** yield reports
+- **8,760-hour module-level [shading analysis](/glossary/shading-analysis/)** on every paid plan
+- **Bankable [P50, P75, P90](/glossary/p50-p90/)** yield reports
 - **[Solar financial modeling](https://surgepv.com/generation-financial-tool)** with country tariffs
 - **[DXF/DWG export](https://surgepv.com/solar-autocad-integration)** for AutoCAD handoff
 - **[Branded proposals](https://surgepv.com/solar-proposals)** with e-signature in 9 languages
 - **[QuickEstimate](https://quickestimate.co/)** pairs as the sister CRM
+
+This satellite-first, AI-assisted approach mirrors the direction the wider [AI solar design software](/blog/ai-solar-design-software/) market is heading in 2026, and the same proposal engine is covered in our [solar bid software guide](/blog/solar-bid-software/).
 
 <div class="inline-cta">
 <h3>Replace per-project drone fees with one flat license</h3>
@@ -98,7 +103,7 @@ At any volume above 50 projects per year, SurgePV's flat per-seat plan is dramat
 3. Keep drone ops available for sites that genuinely benefit, import those models.
 4. Drop the per-project Scanifly fees on the rest of the pipeline.
 
-For most installers in 2026, SurgePV is the alternative that wins on volume economics, scope, and team workflow at the same time.
+For most installers in 2026, SurgePV is the alternative that wins on volume economics, scope, and team workflow at the same time. See the full field in our ranked guide to the [best solar design software](/blog/best-solar-design-software/).
 
 <div class="inline-cta">
 <h3>Ready to design without a drone on most sites?</h3>

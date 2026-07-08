@@ -3,6 +3,7 @@ title: "PM Surya Ghar, How to Apply Online Step by Step (2026)"
 excerpt: "Learn how to apply for PM Surya Ghar online in 8 steps, from registration on pmsuryaghar.gov.in to subsidy in your bank account. Full 2026 guide."
 category: "Policy"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "16 min"
 image: "/blog-images/solar-inverter-commissioning-in-india.svg"
 author: "Nirav Dhanani"
@@ -39,11 +40,19 @@ This guide walks through every stage of the PM Surya Ghar application process on
 
 > **Direct answer.** To apply for PM Surya Ghar online, register on pmsuryaghar.gov.in with your Aadhaar-linked mobile number and electricity consumer number, submit rooftop details for DISCOM feasibility approval (2–7 working days), choose an ALMM-listed empanelled installer, complete the installation, pass DISCOM inspection with net meter installation, upload the commissioning certificate, and receive the subsidy (up to ₹78,000) directly in your bank account within 15–30 days.
 
+> **TL;DR**
+> - The application runs through 8 sequential steps on pmsuryaghar.gov.in, from Aadhaar-based registration through DISCOM feasibility, installer selection, installation, inspection, and subsidy credit.
+> - Central subsidy is ₹30,000 for 1 kW, ₹60,000 for 2 kW, and ₹78,000 for 3 kW or above, credited via NACH after DISCOM verification.
+> - Only ALMM-listed panels and inverters from MNRE-empanelled installers qualify; non-ALMM equipment is the single most common rejection reason at DISCOM inspection.
+> - End-to-end timeline is typically 30 to 90 days, with DISCOM inspection (Step 6) as the most variable stage.
+> - Renters can apply with a landlord NOC, but the subsidy is credited to the applicant's own bank account, not the landlord's.
+> - Applications most often fail at three checkpoints: portal submission (document quality, consumer number mismatch), DISCOM feasibility review (network capacity), and DISCOM inspection (non-ALMM equipment, SLD mismatch).
+
 The scheme is formally named PM Surya Ghar Muft Bijli Yojana and was launched by the Government of India in February 2024 under the Ministry of New and Renewable Energy ([MNRE](https://mnre.gov.in)). It targets one crore households by 2027. Understanding the [PM Surya Ghar](/glossary/pm-surya-ghar/) programme structure (particularly the DISCOM-mediated verification flow) is essential before starting the application, because the subsidy is not paid until the local distribution company confirms successful installation.
 
 ## What Is PM Surya Ghar Muft Bijli Yojana and Who Is Eligible
 
-PM Surya Ghar Muft Bijli Yojana is a rooftop solar subsidy programme under which the Government of India provides direct-benefit transfers to residential consumers who install grid-connected rooftop solar systems. The scheme is administered jointly by MNRE and [DISCOM](/glossary/discom/)s (Distribution Companies) in each state.
+PM Surya Ghar Muft Bijli Yojana is a rooftop solar subsidy programme under which the Government of India provides direct-benefit transfers to residential consumers who install grid-connected rooftop solar systems. The scheme is administered jointly by MNRE and [DISCOM](/glossary/discom/)s (Distribution Companies) in each state, and it has driven a sharp rise in demand for [residential solar installation](https://heavengreenenergy.com/residential-solar/) capacity among EPC firms across the country.
 
 ### Eligibility criteria
 
@@ -99,7 +108,7 @@ This is the full eight-step PM Surya Ghar application process as structured on p
 
 3. **Receive DISCOM feasibility approval**: Your local [DISCOM](/glossary/discom/) reviews the application and the technical parameters: feeder load capacity, transformer capacity, and net metering availability in your area. This typically takes 2 to 7 working days. You will receive an SMS and email notification of the approval or rejection. If approved, you may proceed to choose an installer.
 
-4. **Choose an empanelled installer**: Log back in and navigate to the vendor list for your state. The portal displays MNRE-empanelled installers along with their ratings and contact details. Request quotes from at least two to three installers. Confirm that the installer proposes equipment (both panels and inverter) from the [ALMM list](/glossary/almm-list/), as non-ALMM equipment disqualifies the subsidy. Once you select an installer, confirm the selection on the portal and sign a work order.
+4. **Choose an empanelled installer**: Log back in and navigate to the vendor list for your state. The portal displays MNRE-empanelled installers along with their ratings and contact details. Request quotes from at least two to three installers, a structured, itemised [solar quotation](https://quickestimate.co/features/quotation-system/) makes it much easier to compare component-level pricing than a one-line total from each vendor. Confirm that the installer proposes equipment (both panels and inverter) from the [ALMM list](/glossary/almm-list/), as non-ALMM equipment disqualifies the subsidy. Once you select an installer, confirm the selection on the portal and sign a work order.
 
 5. **Install the solar system**: The empanelled installer carries out the full installation: mounting structure, panel placement, DC wiring, AC wiring, inverter installation, earthing, and surge protection. A grid-connected [on-grid inverter](/glossary/on-grid-inverter/) is used for PM Surya Ghar systems as these must export surplus power to the grid via net metering. The typical installation takes one to three days depending on system size and roof complexity.
 
@@ -164,7 +173,7 @@ Applications fail at three main checkpoints: portal submission, DISCOM feasibili
 
 - **Non-ALMM equipment installed**: This is the most serious rejection reason. If the installer uses panels or an inverter not on the ALMM list, the entire installation must be replaced before subsidy processing can resume.
 - **Earthing and surge protection deficiency**: DISCOM inspectors check earthing continuity, the presence of an AC-side DC injection protection device, and surge protection devices on both DC and AC strings. Ensure your installer follows the commissioning checklist in the [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/).
-- **Single-line diagram (SLD) mismatch**: The as-installed configuration must match the SLD submitted to the DISCOM. Any deviation (different panel count, changed string configuration, relocated inverter) requires a revised SLD submission before inspection.
+- **Single-line diagram (SLD) mismatch**: The as-installed configuration must match the SLD submitted to the DISCOM. Any deviation (different panel count, changed string configuration, relocated inverter) requires a revised SLD submission before inspection. A properly prepared [CEIG-compliant electrical drawing](https://heavendesigns.in/electrical-ceig-drawings/) at the design stage prevents this mismatch from occurring in the first place.
 - **Improper labelling**: Inspectors in several states now check that DC isolators, AC isolators, and the inverter carry the correct safety labels. Ask your installer about labelling compliance before scheduling inspection.
 
 The [how to find reliable inverter dealers in India](/blog/inverter-suppliers-india/) guide is useful for homeowners evaluating installer credibility before finalising the work order. An installer who uses ALMM-listed equipment and follows proper commissioning procedures dramatically reduces the risk of rejection at Step 6.
@@ -173,7 +182,7 @@ The [how to find reliable inverter dealers in India](/blog/inverter-suppliers-in
 
 Once the net meter is installed, the household's relationship with the grid changes meaningfully. The bidirectional net meter records both units imported from the grid and units exported to the grid. At the end of each billing cycle, the DISCOM calculates net units: imports minus exports. The homeowner pays only for net imports.
 
-[Net metering](/glossary/net-metering/) under PM Surya Ghar typically follows the state's existing net metering regulation, which may cap the system size at the sanctioned load of the connection or at a fixed percentage of the connected transformer capacity. The [net metering in India complete guide](/blog/solar-inverter-commissioning-in-india/) covers the billing mechanics and the state-by-state variation in carry-forward rules for export credits.
+[Net metering](/glossary/net-metering/) under PM Surya Ghar typically follows the state's existing net metering regulation, which may cap the system size at the sanctioned load of the connection or at a fixed percentage of the connected transformer capacity. The [net metering in India complete guide](/blog/net-metering-india-complete-guide/) covers the billing mechanics and the state-by-state variation in carry-forward rules for export credits.
 
 For most 3 kW residential systems in India receiving 4 to 5 peak sun hours per day, monthly generation is approximately 300 to 375 kWh. A household with a monthly bill of ₹2,500 to ₹4,000 (roughly 250 to 450 units) can expect to reduce their net import to near zero or even carry forward credits during summer months, with some grid import returning during monsoon when panel output dips.
 

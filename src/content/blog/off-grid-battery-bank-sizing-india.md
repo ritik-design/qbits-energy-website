@@ -4,6 +4,7 @@ excerpt: "Size your off-grid solar battery bank in India with the 5-Step Battery
 description: "Off-grid solar battery bank sizing India: step-by-step 5-Step Battery Bank Formula, daily load calculation, autonomy days, DoD, temperature buffer for Indian conditions, and a Tier-3 village home example."
 category: "Guide"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "17 min"
 image: "/blog-images/solar-inverter-sizing.svg"
 author: "Akash Hirapara"
@@ -36,13 +37,21 @@ In Tier-3 villages across Rajasthan, Jharkhand, Chhattisgarh, and Assam, grid re
 
 The sizing calculation is not complicated, but it must be done correctly. Undersized batteries run out at 2 AM; oversized batteries waste money on capacity that never gets used. The 20% India-specific heat buffer is the step most guides leave out, an omission that causes real systems to underperform.
 
+> **TL;DR**
+> - Size an off-grid battery bank with the 5-Step Battery Bank Formula: daily load (kWh) × autonomy days ÷ depth of discharge, then add a 20% temperature buffer for Indian heat.
+> - Autonomy needs range from 1–1.5 days in Rajasthan, Gujarat, and MP to 2–3 days in Kerala, Assam, and the Himalayan states.
+> - LiFePO4 batteries support 80% depth of discharge, while VRLA (lead-acid) is limited to 50% to avoid premature failure.
+> - A Tier-3 Rajasthan village home consuming about 7 kWh/day needs roughly a 16 kWh nominal battery bank for 1.5 days of autonomy.
+> - Battery capacity drops to around 78% of rated capacity at 45°C, which is why the temperature buffer step matters in Indian summers.
+> - Qbits HS and HT series hybrid inverters can be configured for pure off-grid operation with LiFePO4 battery banks over CAN bus.
+
 > **Direct answer.** Use the **5-Step Battery Bank Formula** to size an off-grid battery bank in India: (1) calculate daily load (kWh), (2) choose autonomy days (1–3 for India), (3) choose DoD (80% for LiFePO4, 50% for VRLA), (4) battery bank = (daily load × autonomy days) ÷ DoD, (5) add 20% temperature buffer for India's heat. For a typical Tier-3 village home consuming 3 kWh/day with 2 days' autonomy on LiFePO4: (3 × 2) ÷ 0.8 × 1.20 = 9kWh nominal bank size.
 
 ## Why Off-Grid Sizing Is Different From On-Grid
 
 An on-grid system is forgiving. If you slightly undersize, the grid fills the gap. If you oversize, surplus goes to net metering.
 
-An off-grid system has no such safety net. When the battery runs out, the lights go out. This makes accurate sizing critical, not for financial optimisation, but for basic functionality.
+An off-grid system has no such safety net. When the battery runs out, the lights go out. This makes accurate sizing critical, not for financial optimisation, but for basic functionality. If you are instead sizing a battery for a grid-connected home that only needs outage backup, the [battery sizing for hybrid solar inverters guide](/blog/battery-sizing-hybrid-solar/) uses a shorter, backup-duration-based method rather than the multi-day autonomy approach used here.
 
 Additionally, off-grid systems must account for:
 
@@ -96,11 +105,11 @@ For off-grid systems:
 
 | Chemistry | Recommended DoD | Notes |
 | --- | --- | --- |
-| LiFePO4 | 80% | Designed for 80% DoD - no penalty to cycle life |
+| [LiFePO4](/glossary/lfp-battery/) | 80% | Designed for 80% DoD - no penalty to [cycle life](/glossary/cycle-life/) |
 | VRLA (flat plate) | 50% | Beyond 50% causes rapid sulfation and capacity loss |
 | VRLA (tubular) | 60% | Tubular plates handle slightly deeper discharge |
 
-For our Rajasthan example using LiFePO4: **DoD = 80%**
+For our Rajasthan example using LiFePO4: **[DoD](/glossary/battery-dod/) = 80%**. For a broader look at how LiFePO4 stacks up against older lead-acid chemistry on cost and lifespan, see the [lithium vs lead-acid solar battery comparison](/blog/lithium-vs-lead-acid-solar-battery/).
 
 ## Step 4: Apply the 5-Step Battery Bank Formula
 
@@ -119,6 +128,8 @@ Round up to **16 kWh** nominal battery bank for the Rajasthan village home examp
 - 4 × Pylontech US3000C (3.5kWh each) = 14kWh + 1 × US2000C (2.4kWh) = **16.4kWh total**
 - 7 × Pylontech US2000C (2.4kWh each) = **16.8kWh total**
 - 4 × Livguard 2.5kWh modules = **10kWh** (insufficient, would need 7 modules)
+
+For a closer look at Pylontech module compatibility, pricing, and BMS communication protocols, see the [Pylontech battery India review](/blog/pylontech-battery-india-review/).
 
 ## Step 5: Add 20% Temperature Buffer (India-Specific)
 
@@ -160,7 +171,7 @@ Let us apply the formula to a different location: a semi-rural home in Jharkhand
 
 The battery bank determines your storage; the solar panel array determines your daily charging capacity. They must be matched.
 
-**Formula:** Panel kWp = (Daily load kWh × 1.25 safety factor) ÷ Peak sun hours (PSH)
+**Formula:** Panel kWp = (Daily load kWh × 1.25 safety factor) ÷ [Peak sun hours (PSH)](/glossary/peak-sun-hours/)
 
 | Location | PSH (annual average) | PSH (worst month) |
 | --- | --- | --- |
@@ -186,11 +197,11 @@ Panel kWp = (2 × 1.25) ÷ 3.2 = 2.5 ÷ 3.2 = **0.78 kWp → round up to 1 kWp**
 - **Not sizing for the worst solar month**: Sizing for annual average PSH means the system runs short in December (north India) or July (monsoon regions). Always size for the worst month's PSH.
 - **Forgetting battery self-discharge in long-storage scenarios**: Agricultural solar systems may have minimal cycling in winter. VRLA self-discharges at 3–4% per month; over 3 months without cycling, 10–12% capacity is lost. LiFePO4 self-discharges at 1–2% per month, far less of an issue. The [IEC 61427-1 standard for off-grid photovoltaic battery systems](https://www.iec.ch/){target="_blank" rel="noopener"} provides the testing methodology used to verify battery performance claims for solar applications. [NREL's off-grid solar electrification research](https://www.nrel.gov/){target="_blank" rel="noopener"} confirms that battery oversizing (rather than undersizing) is the more common and more costly mistake in off-grid projects, resulting in stranded capital rather than operational failure.
 
-For detailed battery brand comparison for off-grid systems, read the [best solar battery brands India guide](/blog/best-solar-battery-brands-india-2026/). For pricing across chemistries and capacities, read the [solar battery price guide](/blog/solar-battery-price-guide-india-2026/). For understanding how long batteries last in Indian conditions before sizing for replacement cost, read the [solar battery lifespan India guide](/blog/how-long-solar-batteries-last-india/).
+For detailed battery brand comparison for off-grid systems, read the [best solar battery brands India guide](/blog/best-solar-battery-brands-india-2026/). For pricing across chemistries and capacities, read the [solar battery price guide](/blog/solar-battery-price-guide-india-2026/). For understanding how long batteries last in Indian conditions before sizing for replacement cost, read the [solar battery lifespan India guide](/blog/how-long-solar-batteries-last-india/). Installers who need to model battery bank sizing and generation yield together before quoting a rural off-grid project can use [SurgePV's battery and energy storage sizing tools](https://surgepv.com/hub/energy-storage/battery-sizing/) to cross-check the manual calculation above.
 
 ## Where Qbits Fits for Off-Grid Systems
 
-Qbits HS and HT series hybrid inverters support off-grid configuration with LiFePO4 battery banks. The HS series (single-phase, 3kW–10kW) and HT series (three-phase, 5kW–100kW) can be configured for:
+Qbits HS and HT series hybrid inverters support off-grid configuration with LiFePO4 battery banks over CAN bus [BMS](/glossary/bms/) communication for accurate state-of-charge reporting. The HS series (single-phase, 3kW–10kW) and HT series (three-phase, 5kW–100kW) can be configured for:
 
 - **Pure off-grid mode**: No grid connection; solar charges battery; inverter runs from battery.
 - **Off-grid with generator backup**: Diesel or petrol generator supplements solar on multi-cloudy-day sequences; inverter charges battery from generator.
@@ -201,4 +212,4 @@ Qbits HS and HT series hybrid inverters support off-grid configuration with LiFe
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Verify your off-grid panel array string configuration before ordering.
 - **[Authorised Service Partners](/authorized-service-partners/)**: Service network in 280+ cities including Tier-2/3 markets most relevant for off-grid applications.
 
-[Talk to a Qbits engineer at contact-us](/contact-us/) about the right off-grid or hybrid configuration for your location, load profile, and grid reliability.
+[Talk to a Qbits engineer at contact-us](/contact-us/) about the right off-grid or hybrid configuration for your location, load profile, and grid reliability. If you still need to shortlist a local installer for the actual battery and panel installation, [Heaven Green Energy's installer directory](https://heavengreenenergy.com/solar-near-me/) covers rural and Tier-2/3 markets across India.

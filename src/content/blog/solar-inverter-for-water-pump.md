@@ -4,6 +4,7 @@ excerpt: "A solar inverter for a water pump must handle 5–7× inrush current a
 description: "Solar inverter for water pump, covers KUSUM Component-B, HP-to-kW conversion, inrush current, on-grid vs standalone pump controllers, and sizing for 1 HP to 5 HP agricultural pumps in India."
 category: "Buying Guide"
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "24 min"
 image: "/blog-images/solar-inverter-sizing.svg"
 author: "Keyur Rakholiya"
@@ -41,6 +42,13 @@ Water pump irrigation accounts for a significant share of India's agricultural e
 The challenge is that pumps are not simple resistive loads. A water pump motor (whether a submersible borewell pump or a surface centrifugal pump) draws a sharp current spike every time it starts. Get the solar system wrong, and the inverter trips every morning when the pump tries to start. Get it right, and a well-designed solar pump system runs for 25 years with near-zero maintenance.
 
 This guide covers the full picture: the difference between a solar pump controller and a solar inverter, how KUSUM scheme subsidies apply, how to convert HP to kW for sizing, and which Qbits products fit grid-connected agricultural pump setups.
+
+> **TL;DR**
+> - Pump motors draw 5–7× their rated current at start-up, so a plain UPS-style inverter without VFD control will trip repeatedly; a dedicated pump controller or an oversized on-grid inverter is required.
+> - Use the Pump Sizing Triangle: convert HP to kW (×0.746), divide by motor efficiency (÷0.80), then multiply by 1.5–2.0 for inrush headroom.
+> - Standalone off-grid pumps (KUSUM Component-B) need a dedicated solar pump controller with VFD and get 60% total subsidy; grid-connected pumps (KUSUM Component-C) need a standard on-grid inverter and no DISCOM approval is skipped.
+> - A 2 HP submersible pump needs roughly 2.2–2.5 kWp of panels; a 5 HP pump needs 4.5–5.5 kWp.
+> - Qbits manufactures grid-tied on-grid and hybrid inverters for Component-C setups, not standalone Component-B pump controllers.
 
 > **Direct answer.** A solar inverter for a water pump must be sized for inrush current, motors draw 5–7× their rated current at start-up. Use the Pump Sizing Triangle: (1) convert HP to kW (×0.746), (2) divide by motor efficiency (÷0.80), (3) multiply by 1.5 for inrush headroom. For standalone off-grid pumps, choose a dedicated solar pump controller with VFD; for grid-connected pumps under KUSUM Component-C, a standard on-grid inverter sized to the solar array is correct. KUSUM Component-B subsidises standalone solar pumps at 60% total subsidy for 0.5–7.5 HP systems.
 
@@ -107,7 +115,7 @@ The [KUSUM scheme](/blog/kusum-yojana-agricultural-solar-subsidy/) (Kisan Urja S
 
 ### Component-A: Solar Power Plants on Farm Land
 
-Component-A targets land-owning farmers with barren or fallow land. A developer or the farmer installs a ground-mount solar power plant (up to 2 MWp per application) and sells power to the DISCOM at a state-determined tariff. The farmer earns land lease income. This component is not about pumps, it is about decentralised solar generation. If you want to lease your farm land for a solar plant and earn rental income, Component-A is the route.
+Component-A targets land-owning farmers with barren or fallow land. A developer or the farmer installs a [ground-mount solar power plant](https://heavendesigns.in/solar-ground-mount-design/) (up to 2 MWp per application) and sells power to the DISCOM at a state-determined tariff. The farmer earns land lease income. This component is not about pumps, it is about decentralised solar generation. If you want to lease your farm land for a solar plant and earn rental income, Component-A is the route.
 
 ### Component-B: Standalone Solar Pumps (Off-Grid)
 
@@ -119,7 +127,7 @@ The funding structure:
 - Farmer upfront contribution: 10% of benchmark cost
 - Bank loan (NABARD / rural banks): 30% at concessional rates
 
-The entire system (panels, pump controller, mounting structure, and submersible or surface pump) is covered under the benchmark cost. Installation is through empanelled vendors approved by the state nodal agency. Applications go through state agriculture department portals.
+The entire system (panels, pump controller, mounting structure, and submersible or surface pump) is covered under the benchmark cost. Installation is through empanelled vendors approved by the state nodal agency, and some solar EPCs run dedicated [PM-KUSUM installation programmes](https://heavengreenenergy.com/drebp-pm-kusum/) that handle vendor empanelment and subsidy paperwork on the farmer's behalf. Applications go through state agriculture department portals.
 
 ### Component-C: Solarisation of Grid-Connected Pumps
 
@@ -198,7 +206,7 @@ Different farm situations call for different solar topologies. The right choice 
 
 | | Pros | Cons |
 | --- | --- | --- |
-| **Standalone Solar Pump (off-grid, Component-B)** | ✓ No DISCOM approval needed ✓ 60% subsidy under KUSUM ✓ Eliminates diesel cost entirely ✓ No monthly electricity bill | ✗ Pump runs only when sun shines ✗ Cannot pump at night or in monsoon cloud cover ✗ Battery storage adds ₹1.5–3 lakh extra |
+| **Standalone Solar Pump (off-grid, Component-B)** | ✓ No DISCOM approval needed ✓ 60% subsidy under KUSUM ✓ Eliminates diesel cost entirely ✓ No monthly electricity bill | ✗ Pump runs only when sun shines ✗ Cannot pump at night or in monsoon cloud cover ✗ [Battery storage](https://surgepv.com/hub/energy-storage/battery-sizing/) adds ₹1.5–3 lakh extra |
 | **Grid-Connected Solar (on-grid, Component-C)** | ✓ Pump runs on grid any time ✓ Solar offsets electricity bill ✓ Surplus power earns feed-in income ✓ Higher pump reliability | ✗ Requires stable grid feeder ✗ DISCOM net metering approval required ✗ Lower subsidy compared to Component-B |
 | **Hybrid (solar + battery + grid)** | ✓ Runs pump at night from battery ✓ Grid backup ensures continuity ✓ Maximum energy independence | ✗ Highest capital cost ✗ Battery replacement every 8–12 years ✗ Complex installation |
 
@@ -250,9 +258,11 @@ Qbits Energy manufactures grid-tied on-grid and hybrid solar inverters, not stan
 
 Where Qbits inverters are the correct choice is KUSUM Component-C and any other grid-connected agricultural solar system. A farmer with an existing electric pump who wants to reduce the electricity bill by generating solar power needs a BIS-certified, ALMM-listed on-grid inverter connected to a solar array, and that is precisely what the Qbits TLS and TLD series deliver. With 12-year full replacement warranty, IP66 weather protection for outdoor agricultural installations, and India-grid-tuned firmware that handles 180–270 V rural feeder voltage swings without nuisance tripping, Qbits inverters are well-suited for farm-side grid-connected solar.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed and subsidy-eligible for KUSUM Component-C and PM Surya Ghar setups.
+- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, [ALMM-listed](/glossary/almm-list/) and subsidy-eligible for KUSUM Component-C and PM Surya Ghar setups.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness for farms that want backup power or night-time pump operation from stored solar energy.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Use this free tool to confirm your panel-string configuration matches the selected Qbits inverter's MPPT voltage range before finalising the design.
+
+EPCs sourcing pump-site inverters at scale can use the [solar inverter manufacturers in India evaluation guide](/blog/solar-inverter-manufacturers-in-india/) to check certification depth and service-network coverage before shortlisting a vendor for a multi-farm rollout.
 
 For Component-C projects or any grid-connected farm solar query, [talk to a Qbits engineer at our contact page](/contact-us/), most sizing quotes come back within 24 hours with a system design tailored to your feeder voltage, pump load, and available roof or ground area.
 

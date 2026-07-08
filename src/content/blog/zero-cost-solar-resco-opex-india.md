@@ -4,6 +4,7 @@ excerpt: "Zero cost solar India via RESCO: pay ₹4–6/unit instead of ₹8–1
 description: "How zero cost solar works in India via RESCO and OPEX models. PPA tariff comparison, who offers RESCO, contract terms, exit clauses, and what happens after 15 years."
 category: Guide
 date: 2026-06-05
+updatedDate: 2026-07-08
 readTime: "18 min"
 image: "/blog-images/solar-epc-india.svg"
 author: "Akash Hirapara"
@@ -32,9 +33,17 @@ faqs:
     a: "Key items to verify before signing a RESCO agreement: (1) PPA tariff and annual escalation clause (2–3% escalation is normal; fixed tariff is best); (2) term of contract (15–25 years); (3) minimum generation guarantee clause - does the RESCO compensate you if generation falls below a guaranteed minimum?; (4) exit clause terms and penalties; (5) what happens to the system at contract expiry; (6) insurance responsibility; (7) the RESCO's financials and track record - you need them to last the full contract term."
 ---
 
-For a commercial buyer (a factory manager, hotel owner, or school administrator) the pitch for rooftop solar often stalls at one question: who puts up the capital? Solar installations of 100 kW to 1 MW cost ₹40 Lakh to ₹4 crore. That kind of capex competes with machinery purchases, working capital, and inventory. The answer to that stall is the RESCO model, also called the zero-cost solar or OPEX model in India.
+For a commercial buyer (a factory manager, hotel owner, or school administrator) the pitch for rooftop solar often stalls at one question: who puts up the capital? Solar installations of 100 kW to 1 MW cost ₹40 Lakh to ₹4 crore. That kind of capex competes with machinery purchases, working capital, and inventory. The answer to that stall is the [RESCO model](/glossary/resco/), also called the zero-cost solar or OPEX model in India.
 
 Under a RESCO arrangement, a specialised company installs the solar system on your roof at zero cost, owns and operates it for 15–25 years, and sells you the electricity at ₹4–6 per unit, well below the ₹8–12 per unit you currently pay the DISCOM. You save money from day one without spending a rupee on equipment.
+
+> **TL;DR**
+> - Zero cost solar in India works through the RESCO model: a Renewable Energy Service Company owns the system and sells you electricity under a PPA at ₹4–6/unit, versus ₹8–12/unit from the grid.
+> - There is no upfront payment; the RESCO bears the capex, performance, and maintenance risk, while you keep only the electricity savings.
+> - Amplus Solar (PETRONAS), Fourth Partner Energy, and CleanMax Solar are the largest RESCO providers for Indian C&I rooftops.
+> - The eight-point due diligence checklist covers the escalation clause, contract term, minimum generation guarantee, exit penalty, and post-contract asset disposition.
+> - PM Surya Ghar subsidy is not available under RESCO since the RESCO, not the premises owner, owns the system.
+> - At contract expiry, outcomes are typically system removal, ownership transfer at a nominal price, or renewal at a lower renegotiated tariff.
 
 > **Direct answer.** Zero cost solar in India works through the RESCO (Renewable Energy Service Company) model, where the solar company owns the system and sells electricity to you via a PPA at ₹4–6 per unit, saving ₹2–6 per unit versus grid rates. The RESCO Due Diligence Checklist in this guide covers the contract terms that separate a sound PPA from an expensive mistake.
 
@@ -42,7 +51,7 @@ The RESCO model solves the capital constraint but shifts ownership and upside to
 
 ## How the RESCO Model Works: The Basics
 
-RESCO stands for Renewable Energy Service Company. The model is structured around a Power Purchase Agreement (PPA), a long-term contract between the RESCO (as seller) and the premises owner or occupant (as buyer) for solar-generated electricity.
+RESCO stands for Renewable Energy Service Company. The model is structured around a [Power Purchase Agreement (PPA)](/glossary/ppa/), a long-term contract between the RESCO (as seller) and the premises owner or occupant (as buyer) for solar-generated electricity.
 
 The mechanics are straightforward:
 
@@ -62,7 +71,7 @@ The mechanics are straightforward:
 | Inverter and electrical equipment | Yes | No |
 | Rooftop access | No | Yes (license granted to RESCO) |
 | Electricity savings | No | Yes (pays lower per-unit rate) |
-| PM Surya Ghar subsidy | RESCO may claim (commercial) | Not available for premises owner |
+| [PM Surya Ghar](/blog/pm-surya-ghar-yojana-complete-guide/) subsidy | RESCO may claim (commercial) | Not available for premises owner |
 | Maintenance responsibility | RESCO | None |
 | System performance risk | RESCO | None (fixed tariff) |
 
@@ -82,7 +91,7 @@ The business case for RESCO pivots on the spread between the PPA tariff you pay 
 
 > **₹4–6/unit.** The typical PPA tariff charged by Indian RESCO providers for commercial rooftop solar under long-term contracts, compared to commercial grid tariffs of ₹8–12/unit, a saving of ₹2–8 per unit on every unit the solar system generates. *Source - [Bridge to India Solar Rooftop Market Report](https://bridgetoindia.com/), 2025.*
 
-The saving accrues immediately (from the first month the system is commissioned) without any upfront payment. For a 100 kW system generating 450 units per day (1,40,000 units per year), a ₹3/unit saving translates to ₹4.2 Lakh per year, purely from switching to RESCO.
+The saving accrues immediately (from the first month the system is commissioned) without any upfront payment. For a 100 kW system generating 450 units per day (1,40,000 units per year), a ₹3/unit saving translates to ₹4.2 Lakh per year, purely from switching to RESCO. A [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) lets you run the same comparison against a CAPEX ownership scenario for your own load profile.
 
 ## Who Offers RESCO Solar in India?
 
@@ -96,7 +105,7 @@ Fourth Partner focuses on the mid-market (100 kW–2 MW range) and is particular
 
 ### CleanMax Solar
 
-CleanMax is one of India's pioneering RESCO developers, with installations across manufacturing, pharma, food processing, and IT parks. They offer both rooftop PPA and open-access (ground-mounted, long-distance PPA) structures. CleanMax is particularly strong in contracts for large multi-location corporate accounts.
+CleanMax is one of India's pioneering RESCO developers, with installations across manufacturing, pharma, food processing, and IT parks. They offer both rooftop PPA and open-access (ground-mounted, long-distance PPA) structures. CleanMax is particularly strong in contracts for large multi-location corporate accounts. Buyers managing similar multi-site rollouts often engage independent [MW-scale project management](https://heavendesigns.in/mw-scale-project-management-consultancy/) support to standardise due diligence across locations.
 
 ### Smaller and Regional RESCO Providers
 
@@ -160,9 +169,9 @@ Negotiate the preferred exit clause explicitly at the time of signing, do not le
 
 ## Where Qbits Fits
 
-Qbits primarily serves CAPEX (ownership) buyers, homeowners, EPCs, and C&I buyers who want to own their solar system. For C&I buyers evaluating RESCO vs CAPEX, Qbits provides the inverter component under the CAPEX model, paired with 3-phase commercial inverters (50 kW to 125 kW), IP66 enclosures for industrial environments, and the AI WhatsApp monitoring system that tracks fleet performance across multiple sites.
+Qbits primarily serves [CAPEX](/glossary/capex/) (ownership) buyers, homeowners, EPCs, and C&I buyers who want to own their solar system. For C&I buyers evaluating RESCO vs CAPEX, Qbits provides the inverter component under the CAPEX model, paired with 3-phase commercial inverters (50 kW to 125 kW), IP66 enclosures for industrial environments, and the AI WhatsApp monitoring system that tracks fleet performance across multiple sites.
 
-For C&I buyers who decide CAPEX ownership is the right call (because they own the building, have long tenure, or have access to low-cost institutional financing) Qbits delivers the inverter side of the equation with India's strongest service SLA.
+For C&I buyers who decide CAPEX ownership is the right call (because they own the building, have long tenure, or have access to low-cost institutional financing) Qbits delivers the inverter side of the equation with India's strongest service SLA, while a turnkey [commercial solar EPC partner](https://heavengreenenergy.com/commercial-solar/) can handle installation and mounting alongside it.
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD 3-phase series for industrial and commercial installations from 20 kW to 100 kW.
 - **[C&I Solutions](/c-i-solution/)**: complete commercial solar solutions with site assessment, system design, and ALMM-compliant equipment.

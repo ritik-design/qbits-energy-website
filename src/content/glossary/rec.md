@@ -5,7 +5,7 @@ description: "RECs are tradable certificates representing renewable energy gener
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is rec
   - renewable energy certificate
@@ -70,12 +70,19 @@ author: "Nirav Dhanani"
 
 A Renewable Energy Certificate (REC) is a tradable instrument representing the renewable attribute of one megawatt-hour (MWh) of electricity generated from a renewable source. It is the Indian market-based mechanism that separates the green attribute from the underlying electricity, allowing generators to monetise the renewable attribute through trading on power exchanges.
 
-Introduced by CERC in 2010 (CERC REC Regulations 2010), the REC mechanism enables Renewable Purchase Obligation (RPO) compliance for distribution licensees and open access consumers. A generator selling electricity at a non-preferential tariff can claim RECs for the renewable generation; an obligated entity short on physical renewable purchases can buy RECs to fulfil RPO.
+> **TL;DR**
+> - One REC represents 1 MWh (1,000 kWh) of verified renewable generation, tradable separately from the underlying electricity.
+> - Indian RECs are issued by NLDC under CERC regulations and traded only on IEX and PXIL, on scheduled monthly sessions.
+> - Solar REC prices have fallen from ₹9,300 to ₹13,400/MWh in the early 2010s to roughly ₹1,000 to ₹1,500/MWh in 2023-2024.
+> - RECs let DISCOMs and open access consumers meet Renewable Purchase Obligation (RPO) targets even without a matching physical PPA.
+> - RECs are valid for 1,095 days from issue and are recognised by RE100 and BRSR for corporate green claims, but do not substitute for physical renewable generation.
+
+Introduced by CERC in 2010 (CERC REC Regulations 2010), the REC mechanism enables Renewable Purchase Obligation ([RPO](/glossary/rpo/)) compliance for distribution licensees and open access consumers. A generator selling electricity at a non-preferential tariff can claim RECs for the renewable generation; an obligated entity short on physical renewable purchases can buy RECs to fulfil RPO.
 
 For Indian solar, RECs are most relevant for:
-- Renewable generators selling electricity at average pooled cost
-- Open access consumers procuring solar with separated REC
-- Corporates pursuing voluntary green claims under RE100, BRSR or ESG frameworks
+- Renewable generators selling electricity at [average pooled cost](/glossary/average-pooled-cost/)
+- Open access consumers procuring solar with separated REC, common among [large industrial buyers](https://heavengreenenergy.com/industrial-solar/)
+- Corporates pursuing voluntary green claims under RE100, BRSR or [ESG](/glossary/esg/) frameworks
 
 ## Why RECs matter
 
@@ -145,11 +152,11 @@ RECs valid for 1,095 days (3 years) from issue. Older versions had 730 days.
 
 ## Real-world applications
 
-Renewable generator monetisation when selling at low PPA tariff or average pooled cost.
+Renewable generator monetisation when selling at low [PPA](/glossary/ppa/) tariff or average pooled cost.
 
-DISCOM RPO compliance.
+[DISCOM](/glossary/discom/) RPO compliance.
 
-Open access consumer RPO compliance.
+Open access consumer RPO compliance, often paired with a [C&I solar procurement strategy](/c-i-solution/).
 
 Corporate voluntary renewable claims.
 
@@ -163,7 +170,7 @@ BRSR renewable energy share reporting.
 |---|---|---|
 | Standard PPA | Yes | Yes (bundled) |
 | Unbundled PPA + REC | Yes (electricity) | Yes (REC separately) |
-| Net metering | Yes (net) | Bundled |
+| [Net metering](/glossary/net-metering/) | Yes (net) | Bundled |
 | REC-only | No | Yes |
 
 ## Advantages
@@ -204,7 +211,7 @@ Corporate buyer scepticism about additionality claims.
 
 ## Best practices
 
-Combine RECs with physical renewable generation.
+Combine RECs with physical renewable generation, such as [on-site commercial solar](https://heavengreenenergy.com/commercial-solar/), rather than relying on certificates alone.
 
 Verify CERC certificate before trading.
 
@@ -220,7 +227,7 @@ NLDC operates the REC registry.
 
 IEX and PXIL are the only authorised trading platforms.
 
-CERC REC Regulations 2022 set the current framework.
+[CERC](/glossary/cerc/) REC Regulations 2022 set the current framework.
 
 Total RECs issued cumulative through 2024: roughly 100 million.
 

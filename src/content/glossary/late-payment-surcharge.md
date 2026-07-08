@@ -5,7 +5,7 @@ description: "LPS Rules 2022 force DISCOM payment discipline. Full guide to mech
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - late payment surcharge
   - lps rules 2022
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 The Late Payment Surcharge Rules 2022, notified by the Ministry of Power in June 2022, establish a statutory framework for enforcing payment discipline by DISCOMs to electricity generators. The rules apply escalating financial penalties on delayed PPA payments, providing legal mechanism for solar developers and other generators to recover delays.
 
-Before LPS Rules 2022, DISCOM payment delays were chronic and largely unenforceable. Some financially stressed state DISCOMs delayed renewable PPA payments by 6-12 months, causing developer cash flow stress and impeding new investment. The rules created mandatory escalating penalties:
+Before LPS Rules 2022, DISCOM payment delays were chronic and largely unenforceable. Some financially stressed state [DISCOMs](/glossary/discom/) delayed renewable [PPA](/glossary/ppa/) payments by 6-12 months, causing developer cash flow stress and impeding new investment. The rules created mandatory escalating penalties:
 
 - 0-45 days delay: bank rate + 1 percent per annum
 - 45-180 days: bank rate + 2 percent
@@ -79,11 +79,18 @@ Before LPS Rules 2022, DISCOM payment delays were chronic and largely unenforcea
 
 For Indian solar, LPS Rules 2022 are a key risk mitigant. Lenders and equity investors now factor LPS recovery into project economics, improving bankability and reducing financing cost.
 
+> **TL;DR**
+> - LPS Rules 2022, notified by the Ministry of Power in June 2022, force DISCOMs to pay escalating penalties on delayed PPA payments.
+> - Surcharge rates step up from bank rate + 1 percent (0-45 days late) to bank rate + 4 percent (past 365 days).
+> - Before the rules, some financially stressed DISCOMs delayed renewable payments by 6 to 12 months, hurting developer cash flow.
+> - Post-LPS, lender risk perception has improved and cost of debt for solar projects has fallen from roughly 9-10 percent to 8-9 percent.
+> - Disputed LPS claims escalate to SERC or CERC, giving generators a statutory recovery path rather than relying on goodwill.
+
 ## Why LPS matters
 
-Payment certainty. Statutory backing for PPA payment terms.
+Payment certainty. Statutory backing for PPA payment terms, backed by the broader [Electricity Act 2003](/glossary/electricity-act-2003/) framework.
 
-Lender comfort. Improves project bankability.
+Lender comfort. Improves project [bankability](/glossary/irr/) and equity IRR outcomes.
 
 Cash flow protection. Financial penalty on delayed payments.
 

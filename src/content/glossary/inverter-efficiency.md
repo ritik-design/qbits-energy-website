@@ -72,15 +72,22 @@ Inverter efficiency is the ratio of AC output power delivered to the grid (or lo
 
 Inverter efficiency varies with load level, input voltage and operating temperature. Manufacturers report peak efficiency (highest value across all operating points) and weighted efficiency that aggregates performance across realistic load distributions. European weighted (ηEU) and California Energy Commission (CEC) weighted are the two standard methods.
 
-For modern Indian solar inverters, peak efficiency typically reaches 97 to 98.6 percent for string inverters, 95 to 97 percent for microinverters and 98.5 to 99 percent for central inverters. European weighted efficiency lands 0.3 to 1.0 percentage points below peak.
+For modern Indian [solar inverters](/glossary/solar-inverter/), peak efficiency typically reaches 97 to 98.6 percent for [string inverters](/glossary/string-inverter/), 95 to 97 percent for [microinverters](/glossary/micro-inverter/) and 98.5 to 99 percent for [central inverters](/glossary/central-inverter/). European weighted efficiency lands 0.3 to 1.0 percentage points below peak. For a deeper look at why the gap between 95, 97 and 98 percent matters in practice, see [solar inverter efficiency explained](/blog/solar-inverter-efficiency/).
+
+> **TL;DR**
+> - Inverter efficiency is the ratio of AC output power to DC input power, with the loss dissipated as heat in switching and magnetic components.
+> - Modern Indian string inverters reach 97 to 98.6 percent peak efficiency and 96.5 to 98 percent European weighted (ηEU) efficiency, the bankable figure used for yield modelling.
+> - Efficiency peaks around 50 to 70 percent load and drops off at very light loads and in hot ambient conditions above 40 to 45°C.
+> - Central inverters lead at 98.5 to 99 percent, string inverters follow at 97 to 98.6 percent, and microinverters trail at 95 to 97 percent due to smaller scale and more conversion stages.
+> - A 1 percent efficiency gain compounds into meaningfully more annual energy and a lower LCOE over a 25-year project life.
 
 ## Why inverter efficiency matters
 
-Annual yield. 1 percent efficiency difference is 1 percent more annual energy.
+Annual [yield](/glossary/solar-yield/). 1 percent efficiency difference is 1 percent more annual energy.
 
-LCOE. Higher efficiency reduces ₹/kWh over project life.
+[LCOE](/glossary/lcoe/). Higher efficiency reduces ₹/kWh over project life.
 
-PR. Inverter efficiency is one of the components of overall PR.
+[PR](/glossary/pr/). Inverter efficiency is one of the components of overall PR.
 
 Heat management. Higher efficiency means less waste heat to dissipate.
 
@@ -176,17 +183,17 @@ Verify efficiency at multiple load levels in datasheet.
 
 Use ηEU as the bankable figure.
 
-Consider lifetime efficiency degradation.
+Consider lifetime efficiency [degradation](/glossary/degradation/).
 
 ## Indian market context
 
-ALMM-listed inverters meet MNRE efficiency minimums (typically ηEU > 96 percent).
+[ALMM-listed](/glossary/almm-list/) inverters meet [MNRE](/glossary/mnre/) efficiency minimums (typically ηEU > 96 percent).
 
 Major Indian brands publish both peak and ηEU in datasheets.
 
 SECI tender bid documents reference minimum efficiency.
 
-PM Surya Ghar accepts ALMM-listed inverters with appropriate efficiency.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) accepts ALMM-listed inverters with appropriate efficiency.
 
 ## Standards and certifications
 

@@ -5,7 +5,7 @@ description: "A string inverter converts DC from a series-connected PV string in
 category: "Inverter Types"
 categorySlug: "inverter-types"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is string inverter
   - string inverter india
@@ -28,11 +28,8 @@ relatedTerms:
   - { slug: "hybrid-inverter", term: "Hybrid Inverter" }
   - { slug: "mppt", term: "MPPT" }
   - { slug: "open-circuit-voltage", term: "Open Circuit Voltage (Voc)" }
-  - { slug: "short-circuit-current", term: "Short Circuit Current (Isc)" }
   - { slug: "string-sizing", term: "String Sizing" }
   - { slug: "dc-oversizing", term: "DC Oversizing" }
-  - { slug: "shading-loss", term: "Shading Loss" }
-  - { slug: "module-level-power-electronics", term: "Module Level Power Electronics" }
 faqs:
   - q: "What is a string inverter in simple words?"
     a: "It is a single inverter that handles a row of solar panels wired in series, like beads on a thread. One inverter, many panels, one cable to the grid."
@@ -69,7 +66,14 @@ author: "Nirav Dhanani"
 
 ## What is a string inverter
 
-A string inverter is a centralised solar inverter that converts the combined DC output of one or more series-connected strings of PV modules into AC. A string is a chain of modules wired positive to negative in a row, adding up their voltages. The inverter sees the sum of those voltages at the input and runs MPPT on the whole string at once.
+A string inverter is a centralised [solar inverter](/glossary/solar-inverter/) that converts the combined DC output of one or more series-connected strings of PV modules into AC. A string is a chain of modules wired positive to negative in a row, adding up their voltages. The inverter sees the sum of those voltages at the input and runs [MPPT](/glossary/mppt/) on the whole string at once.
+
+> **TL;DR**
+> - A string inverter converts the combined DC output of one or more series-connected PV strings into AC, running MPPT across the whole string at once.
+> - String inverters cost ₹2–6 per watt versus ₹8–14 for microinverters, and hold roughly 85% of the Indian solar market in 2025.
+> - DC oversizing of 115–130% is standard practice in India and raises annual yield by 4–9% compared to 100% matching.
+> - ALMM listing and BIS certification under IS 16221/IS 17387 are mandatory for subsidy eligibility and DISCOM commissioning.
+> - Typical lifespan is 10–15 years, with capacitors and fans wearing first.
 
 It is the most common inverter topology in Indian solar. Residential rooftops use single-phase string inverters in the 1 to 10 kW range. Commercial and industrial sites use three-phase string inverters from 10 to 100 kW. Utility-scale plants increasingly use 200 to 350 kW string inverters distributed across the field instead of central 1 MW units.
 
@@ -79,13 +83,13 @@ The defining trade-off is granularity. A string inverter optimises a string, not
 
 Imagine a row of solar panels wired in a single chain on the roof. The chain produces high-voltage DC. One wire runs down to the inverter on the wall. The inverter is the single point of conversion for that whole chain.
 
-Compare this with microinverters, where each panel has its own little inverter underneath. String is centralised, micro is distributed. Centralised is cheaper. Distributed is more flexible.
+Compare this with [microinverters](/glossary/micro-inverter/), where each panel has its own little inverter underneath. String is centralised, micro is distributed. Centralised is cheaper. Distributed is more flexible - see [string inverter vs microinverter](/blog/string-vs-microinverter/) for how that plays out on a real Indian roof.
 
 For a typical Indian rooftop with one clean south-facing slope, string is the obvious answer. For a roof with a tree to one side, a chimney casting shade for half the day, and two orientations, microinverters or DC optimisers earn their cost.
 
 ## Why string inverters matter
 
-Cost per installed watt. String inverters cost ₹2 to ₹6 per watt against ₹8 to ₹14 per watt for microinverters. Across an Indian rooftop market that grew from 8 GW to over 40 GW between 2020 and 2025, the cost gap drove almost all deployments to string.
+Cost per installed watt. String inverters cost ₹2 to ₹6 per watt against ₹8 to ₹14 per watt for microinverters; see our [solar inverter installation cost](/blog/solar-inverter-installation-cost/) breakdown for real Indian numbers. Across an Indian rooftop market that grew from 8 GW to over 40 GW between 2020 and 2025, the cost gap drove almost all deployments to string. EPCs quoting these jobs typically run the numbers through [quotation software](https://quickestimate.co/features/quotation-system/) built for solar sales teams.
 
 Field serviceability. One inverter on a wall is easier to swap than 20 microinverters on a roof. Mean time to repair is hours, not days.
 
@@ -103,15 +107,15 @@ Internally the data path through a string inverter follows the same five-stage m
 4. Inversion. IGBT or SiC switches chop the DC bus at 16 to 50 kHz. An LCL filter smooths the chopped output into a sine wave.
 5. Grid synchronisation. A phase-locked loop matches grid voltage and frequency. Anti-islanding logic guards against islanding.
 
-The string-specific part is the MPPT stage. Each MPPT input tracks one string. A 10 kW inverter with two MPPTs lets the installer point two strings in different directions, each tracked independently. A 50 kW unit might have 4 to 6 MPPTs, allowing six different sub-arrays.
+The string-specific part is the MPPT stage. Each MPPT input tracks one string. A 10 kW inverter with two MPPTs lets the installer point two strings in different directions, each tracked independently - a scenario covered in [dual MPPT vs single MPPT](/blog/dual-mppt-vs-single-mppt/). A 50 kW unit might have 4 to 6 MPPTs, allowing six different sub-arrays.
 
 ## Technical deep dive
 
 ### String sizing
 
-String length is bounded above by the maximum DC input voltage of the inverter and bounded below by the MPPT lower window.
+String length is bounded above by the maximum DC input voltage of the inverter and bounded below by the MPPT lower window; our [string sizing](/glossary/string-sizing/) glossary entry and the [solar string sizing and overcurrent protection](/blog/solar-string-sizing-ocp-india/) guide cover the full EPC workflow.
 
-Upper bound. At the coldest expected ambient, panel Voc rises. Indian winter minima for the Voc derate are commonly taken as 5 degrees Celsius, with Voc = Voc(STC) × (1 + βVoc × (Tmin − 25)). For 40 modules of Voc 41 V at 5 degrees with βVoc of −0.27 percent per degree, string Voc is 40 × 41 × (1 + 0.054) = 1729 V. Above the inverter limit of typically 1100 V residential or 1500 V utility, you must reduce string length.
+Upper bound. At the coldest expected ambient, panel [open-circuit voltage (Voc)](/glossary/open-circuit-voltage/) rises. Indian winter minima for the Voc derate are commonly taken as 5 degrees Celsius, with Voc = Voc(STC) × (1 + βVoc × (Tmin − 25)). For 40 modules of Voc 41 V at 5 degrees with βVoc of −0.27 percent per degree, string Voc is 40 × 41 × (1 + 0.054) = 1729 V. Above the inverter limit of typically 1100 V residential or 1500 V utility, you must reduce string length. SurgePV's [string sizing calculator](https://surgepv.com/tools/) automates this Voc-derate math for design teams running many roof configurations.
 
 Lower bound. At the hottest noon, panel Vmp drops. Indian rooftop modules at 60 degrees Celsius see Vmp around 32 V instead of nameplate 34 V. For a 100 V MPPT lower limit, minimum string length is roughly 100 / 32 = 4 modules.
 
@@ -131,7 +135,7 @@ Current. Per-string short-circuit current must stay under the inverter input cur
 
 ### DC oversizing
 
-DC oversizing is the practice of connecting more PV than the inverter AC rating. Indian conditions justify 115 to 130 percent ratio for most rooftops. The inverter clips midday output above its AC rating, but the day starts and ends earlier and later at the rated output, raising annual yield by 4 to 9 percent compared to 100 percent matching.
+[DC oversizing](/glossary/dc-oversizing/) is the practice of connecting more PV than the inverter AC rating; see our [DC oversizing in solar](/blog/dc-oversizing-in-solar/) FAQ guide for the full ROI math. Indian conditions justify 115 to 130 percent ratio for most rooftops. The inverter clips midday output above its AC rating, a behaviour explained in detail in [inverter clipping explained](/blog/inverter-clipping-explained/), but the day starts and ends earlier and later at the rated output, raising annual yield by 4 to 9 percent compared to 100 percent matching.
 
 DC oversize ratio = PV DC kWp / inverter AC kW.
 
@@ -175,7 +179,7 @@ Inverter end-of-life is the system end-of-life unless replaced. Microinverters t
 
 ## Common problems
 
-MPPT input current overload. Adding one more module per string in summer pushes Isc past the input limit. The inverter clips current, yield drops, and the user blames the panels.
+MPPT input current overload. Adding one more module per string in summer pushes Isc past the input limit. The inverter clips current, yield drops, and the user blames the panels. Our [solar inverter troubleshooting](/blog/solar-inverter-troubleshooting/) guide walks through diagnosing these string-level faults.
 
 DC isolator faults. Indian rooftops in monsoon corrode cheap DC isolators. Use IP66 or better, replace at 5 to 7 years.
 
@@ -199,7 +203,7 @@ Mount in a shaded, ventilated location with the manufacturer's clearance specifi
 
 Use Class II SPDs on DC and AC sides.
 
-Earth the inverter chassis and the array frame separately, then bond at the main earth bar.
+[Earth](/glossary/earthing/) the inverter chassis and the array frame separately, then bond at the main earth bar.
 
 Plan DC oversize between 115 and 125 percent for Indian rooftops unless the inverter datasheet states otherwise.
 
@@ -211,14 +215,14 @@ Plan DC oversize between 115 and 125 percent for Indian rooftops unless the inve
 | Cost per watt (₹) | 2 to 6 | 8 to 14 | 1.5 to 3 |
 | Shade tolerance | Low to medium | High | Lowest |
 | Mean time to repair | Hours | 1 to 2 days | Hours but huge impact |
-| Best site | Unshaded rooftop, C&I, utility | Complex shaded residential | 5 MW and above utility |
+| Best site | Unshaded rooftop, C&I, utility | Complex shaded residential | 5 MW and above [utility](/glossary/central-inverter/) |
 | Indian market share 2025 | ~85% | ~5% | ~10% |
 
 ## Indian market context
 
-ALMM listing is mandatory for any string inverter sold under PM Surya Ghar, MNRE programmes and state subsidies. BIS certification under IS 16221 and IS 17387 applies. CEA grid standards govern interconnection.
+[ALMM listing](/glossary/almm-list/) is mandatory for any string inverter sold under PM Surya Ghar, MNRE programmes and state subsidies. [BIS certification](/glossary/bis-certification/) under IS 16221 and IS 17387 applies. CEA grid standards govern interconnection.
 
-Common string inverter brands in India include Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Huawei, Sineng, Fronius, SMA, Tata Power Solar and Luminous. Most three-phase utility-string inverters used in large plants are sourced from Sungrow, Sineng, Huawei and Solis as of 2026.
+Common string inverter brands in India include Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Huawei, Sineng, Fronius, SMA, Tata Power Solar and Luminous; EPCs evaluating vendors can cross-check options against our [solar inverter manufacturers in India](/blog/solar-inverter-manufacturers-in-india/) evaluation guide, or source stock directly through Heaven Green Energy's [solar inverter shop](https://heavengreenenergy.com/products/solar-inverters/). Most three-phase utility-string inverters used in large plants are sourced from Sungrow, Sineng, Huawei and Solis as of 2026.
 
 CEIG approvals are needed for systems above 10 kW in many states, with the inverter forming a key part of the single-line diagram.
 

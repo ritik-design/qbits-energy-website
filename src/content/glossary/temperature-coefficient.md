@@ -5,7 +5,7 @@ description: "Temperature coefficient measures module power loss with heat. Full
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - temperature coefficient
   - module temperature
@@ -68,25 +68,33 @@ author: "Nirav Dhanani"
 
 ## What is temperature coefficient
 
-Temperature coefficient is the percentage change in a solar module's electrical parameters per degree Celsius change in operating temperature above Standard Test Conditions (STC = 25°C cell temperature). Three coefficients are reported in module datasheets:
+Temperature coefficient is the percentage change in a solar module's electrical parameters per degree Celsius change in operating temperature above [Standard Test Conditions (STC = 25°C cell temperature)](/glossary/stc/). Three coefficients are reported in module datasheets:
 
-- Voc temperature coefficient (β_Voc or simply β): change in open-circuit voltage. Typically -0.27 to -0.30%/°C for PERC.
+- Voc temperature coefficient (β_Voc or simply β): change in [open-circuit voltage](/glossary/open-circuit-voltage/). Typically -0.27 to -0.30%/°C for PERC.
 - Isc temperature coefficient (α_Isc): change in short-circuit current. Slightly positive, typically +0.04 to +0.06%/°C.
 - Pmax temperature coefficient (γ_Pmax): change in maximum power. Typically -0.34 to -0.37%/°C for PERC.
 
-The Pmax coefficient is the most important for yield calculation. A PERC module at 60°C cell temperature (35°C above STC) loses approximately 35 × 0.36% = 12.6% power compared to STC. In Indian summer conditions, this loss is the dominant performance derate.
+The Pmax coefficient is the most important for yield calculation. A PERC module at 60°C cell temperature (35°C above STC) loses approximately 35 × 0.36% = 12.6% power compared to STC. In Indian summer conditions, this loss is the dominant performance derate, explained in detail in [why solar inverters produce less in Indian summer](/blog/solar-inverter-summer-derating-india/).
 
-For Indian solar, temperature coefficient is critical because rooftop and ground-mount panels regularly reach 60-80°C in summer. Cell technologies with better coefficients (HJT, TOPCon) provide measurable yield advantages in hot climates.
+For Indian solar, temperature coefficient is critical because rooftop and ground-mount panels regularly reach 60-80°C in summer. Cell technologies with better coefficients ([HJT](/glossary/hjt-cell/), [TOPCon](/glossary/topcon-cell/)) provide measurable yield advantages in hot climates.
+
+> **TL;DR**
+> - Temperature coefficient is the percentage power loss per degree Celsius a module runs above STC's 25°C reference.
+> - Pmax coefficients run -0.34 to -0.37%/°C for PERC, -0.30 to -0.33%/°C for TOPCon, and -0.24 to -0.28%/°C for HJT, the best-performing mainstream cell in heat.
+> - Indian summer cell temperatures commonly reach 60 to 80°C, meaning temperature derate is often the single largest loss in mid-day yield.
+> - At 60°C cell temperature, PERC loses about 12.6 percent power versus STC while HJT loses about 9.1 percent, a 3.5 percentage-point gap.
+> - HJT's better coefficient can add 2 to 4 percent more annual yield in hot, dry Indian regions like Rajasthan and Gujarat.
+> - Voc coefficient also drives cold-morning string sizing checks, since voltage rises as cell temperature falls below 25°C.
 
 ## Why temperature coefficient matters
 
 Hot climate yield. Indian summer cell temperatures reach 75-80°C; lower coefficient means less yield loss.
 
-Cell technology selection. HJT's superior coefficient justifies premium in hot regions.
+Cell technology selection. HJT's superior coefficient and higher [module efficiency](/glossary/module-efficiency/) justify a premium in hot regions.
 
-String sizing. Voc coefficient determines cold-morning Voc derate.
+[String sizing](/glossary/string-sizing/). Voc coefficient determines cold-morning Voc derate.
 
-Yield modelling. Required input for accurate PVsyst simulations.
+Yield modelling. Required input for accurate [solar yield](/glossary/solar-yield/) simulations, including tools such as SurgePV's [solar simulation software](https://surgepv.com/solar-simulation-software/).
 
 Lifecycle yield. Cumulative impact over 25 years is significant.
 
@@ -126,7 +134,7 @@ Across Indian summer (≈800 hours at cell temp > 60°C):
 
 ### NOCT-based estimation
 
-NOCT (Nominal Operating Cell Temperature) is the cell temperature at 800 W/m², 20°C ambient, 1 m/s wind.
+[NOCT](/glossary/noct/) (Nominal Operating Cell Temperature) is the cell temperature at 800 W/m², 20°C ambient, 1 m/s wind.
 
 Cell temperature approximation:
 T_cell = T_ambient + (NOCT, 20) × (Irradiance / 800)
@@ -144,7 +152,7 @@ PVsyst yield modelling input.
 
 String sizing cold/hot calculations.
 
-Module selection for hot climates.
+Module selection for hot climates, part of a broader strategy to [maximise solar output in Indian conditions](/blog/maximize-solar-output-indian-climate/).
 
 Bankable yield assessment.
 
@@ -166,7 +174,7 @@ Indian summer cell temperatures: 65-80°C common.
 
 Temperature derate dominates in mid-day yield modelling.
 
-HJT premium increasingly justified in dry hot regions (Rajasthan, Gujarat).
+HJT premium increasingly justified in dry hot regions (Rajasthan, Gujarat), where [detailed rooftop engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) accounts for elevated cell temperatures.
 
 ALMM-listed modules report standard coefficients.
 

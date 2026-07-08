@@ -5,7 +5,7 @@ description: "Site survey is the pre-installation assessment of a solar site. Fu
 category: "Installation"
 categorySlug: "installation"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is site survey
   - solar site survey
@@ -32,6 +32,8 @@ relatedTerms:
   - { slug: "ground-mount", term: "Ground Mount" }
   - { slug: "earthing", term: "Earthing" }
   - { slug: "pm-surya-ghar", term: "PM Surya Ghar" }
+  - { slug: "kusum", term: "PM-KUSUM" }
+  - { slug: "dc-cable", term: "DC Cable" }
 faqs:
   - q: "What is a site survey in simple words?"
     a: "An on-site visit to check whether solar can be installed at your location, how big a system will fit, and what it will cost. Done before any design or quotation."
@@ -68,9 +70,17 @@ author: "Nirav Dhanani"
 
 ## What is a site survey
 
-A site survey is the systematic on-site assessment of a proposed solar installation location. It evaluates roof or ground area, structural capacity, shading patterns, electrical infrastructure, sanctioned load, accessibility, regulatory feasibility and customer requirements. The survey produces a feasibility report that forms the basis for system design, quotation and DISCOM application.
+A site survey is the systematic on-site assessment of a proposed solar installation location. It evaluates roof or ground area, structural capacity, [shading patterns](/glossary/shading-analysis/), electrical infrastructure, sanctioned load, accessibility, regulatory feasibility and customer requirements. For complex commercial or ground-mount projects, EPCs often bring in [professional site survey and land feasibility services](https://heavendesigns.in/site-survey-land-feasibility-services/) to validate technical viability before a contract is signed. The survey produces a feasibility report that forms the basis for system design, quotation and [DISCOM application](/glossary/discom/).
 
-For Indian solar installations, the site survey is the critical first step in any project. PM Surya Ghar residential applications, C&I rooftop tenders and utility-scale plant development all begin with a site survey. Survey quality directly affects project economics, regulatory compliance and customer satisfaction.
+> **TL;DR**
+> - A site survey is the on-site assessment of roof or land area, structural capacity, shading, electrical infrastructure and regulatory feasibility done before solar design begins.
+> - Residential surveys take 1 to 4 hours, C&I surveys 4 to 8 hours, and utility-scale surveys 1 to 5 days.
+> - The survey output is a feasibility report used for system design, quotation and net metering applications with the DISCOM.
+> - Drone surveys are increasingly used on large rooftops and ground-mount sites to capture orthomosaics, 3D models and shading data.
+> - Old RCC, metal sheet and asbestos roofs typically need structural engineering review before installation.
+> - PM Surya Ghar, C&I rooftop tenders and PM-KUSUM agri-pump projects all begin with a site survey.
+
+For Indian solar installations, the site survey is the critical first step in any project. [PM Surya Ghar](/glossary/pm-surya-ghar/) residential applications, [C&I rooftop tenders](/blog/how-to-evaluate-solar-epc-bids/) and utility-scale plant development all begin with a site survey. Survey quality directly affects project economics, regulatory compliance and customer satisfaction.
 
 ## Why site surveys matter
 
@@ -80,7 +90,7 @@ Cost estimation. Material quantities depend on actual dimensions and roof types.
 
 Risk identification. Structural, electrical and shading risks emerge during survey.
 
-DISCOM application. Net metering application requires site-specific data.
+DISCOM application. [Net metering](/glossary/net-metering/) application requires site-specific data.
 
 Customer expectation setting. Honest survey prevents overpromise on yield.
 
@@ -93,12 +103,12 @@ Compliance verification. CEIG and DISCOM rules vary by site type.
 | Site location | Address, GPS coordinates |
 | Roof or land area | Dimensions, total available area |
 | Roof type | RCC, metal sheet, tile, asbestos |
-| Structural capacity | Bay layout, beam spacing, age, load capability |
+| Structural capacity | Bay layout, beam spacing, age, load capability for the [mounting structure](/glossary/mounting-structure/) |
 | Shading | Trees, buildings, parapets, water tanks |
-| Orientation | True azimuth and tilt of available area |
+| Orientation | True [azimuth](/glossary/azimuth/) and [tilt](/glossary/tilt-angle/) of available area |
 | Electrical infrastructure | Mains panel, sanctioned load, phase configuration |
 | Connection distance | Distance from array to inverter location |
-| Earthing | Existing earth pits, soil type |
+| Earthing | Existing [earth pits](/glossary/earthing/), soil type |
 | Photographs | Roof, mains panel, surroundings, electricity bill |
 | Customer requirements | Backup needs, expansion plans, budget |
 
@@ -114,10 +124,12 @@ Compliance verification. CEIG and DISCOM rules vary by site type.
 6. Inspect mains electrical panel.
 7. Record sanctioned load from bill.
 8. Locate suitable inverter wall (shaded, ventilated).
-9. Plan AC cable route to mains panel.
+9. Plan [AC cable](/glossary/ac-cable/) route to mains panel.
 10. Identify earth pit location.
 
 ### Drone survey (large rooftops and ground-mount)
+
+For large or complex sites, many EPCs supplement the manual walkthrough with a [satellite roof measurement](/blog/satellite-roof-measurement-solar/) pass or a dedicated [3D pre-design site modeling](https://heavendesigns.in/solar-3d-pre-design/) service that combines drone capture with CAD-ready outputs.
 
 | Stage | Output |
 |---|---|
@@ -133,14 +145,14 @@ Roof load assessment for residential RCC:
 - Wind load: 1.2 to 1.5 kN/m²
 - Total imposed load: ~50 to 70 kg/m² peak
 
-Typical RCC residential roofs comfortably handle this. Old houses, metal sheet roofs and asbestos roofs need engineering review.
+Typical RCC residential roofs comfortably handle this. Old houses, metal sheet roofs and asbestos roofs need [structural engineering review](https://heavendesigns.in/solar-civil-and-structural-engineering/).
 
 ### Electrical infrastructure check
 
 | Parameter | What to verify |
 |---|---|
 | Sanctioned load | From electricity bill, in kW or kVA |
-| Phase configuration | Single-phase 230 V or three-phase 415 V |
+| Phase configuration | Single-phase 230 V or [three-phase 415 V](/blog/single-vs-3-phase-inverter/) |
 | Mains panel capacity | Adequate breaker for solar AC |
 | Earth pit | Existing or to be created |
 | Cable route | Distance from inverter to mains |
@@ -150,7 +162,7 @@ Typical RCC residential roofs comfortably handle this. Old houses, metal sheet r
 
 Residential PM Surya Ghar pre-application.
 
-C&I rooftop tender pre-bid survey.
+C&I rooftop tender pre-bid survey, typically conducted by the [turnkey EPC contractor](https://heavengreenenergy.com/solar-epc/).
 
 Utility-scale solar park site selection.
 
@@ -158,7 +170,7 @@ Carport solar feasibility.
 
 Floating solar reservoir assessment.
 
-PM-KUSUM agri solar pump survey.
+[PM-KUSUM](/glossary/kusum/) agri solar pump survey.
 
 ## Common site survey problems
 
@@ -243,7 +255,7 @@ Site survey is the foundation of any solar installation. It evaluates roof or la
 
 ## Need professional site survey for solar?
 
-QBits Energy conducts comprehensive site surveys for residential, C&I and utility solar projects across India, with photographic documentation, shading analysis and feasibility reporting.
+QBits Energy conducts comprehensive site surveys for residential, [C&I](/c-i-solution/) and utility solar projects across India, with photographic documentation, shading analysis and feasibility reporting. [Get in touch](/contact-us/) to schedule a survey for your project.
 
 ## Sources
 

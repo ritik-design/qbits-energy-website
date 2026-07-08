@@ -5,7 +5,7 @@ description: "CAPEX is the upfront capital expenditure for a solar project. Full
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is capex
   - solar capex
@@ -68,29 +68,36 @@ author: "Nirav Dhanani"
 
 ## What is CAPEX
 
-CAPEX, Capital Expenditure, is the total upfront cost of designing, procuring, installing and commissioning a solar PV project. It is one of the two big cost categories in project economics, alongside OPEX (operating expenditure). For solar specifically, capex dominates the lifecycle cost structure because operating costs are low.
+CAPEX, Capital Expenditure, is the total upfront cost of designing, procuring, installing and commissioning a solar PV project. It is one of the two big cost categories in project economics, alongside [OPEX](/glossary/opex/) (operating expenditure). C&I buyers deciding between owning the asset outright or paying for power as a service should see our [CAPEX vs OPEX decision guide](/blog/solar-capex-vs-opex-business-india/) before committing to a structure. For solar specifically, capex dominates the lifecycle cost structure because operating costs are low.
 
 Indian solar capex includes modules, inverter, mounting structure, DC and AC cables, transformer, switchgear, civil work, labour, project management, financing during construction, contingency, taxes and connection charges. For utility-scale plants land cost is also included. For rooftop projects existing roof eliminates that line item.
 
 Capex per watt has fallen dramatically over the past decade. Utility solar fell from ₹15 crore per MW in 2012 to ₹3.5 to ₹4.5 crore per MW in 2026. The collapse was driven primarily by silicon module price reduction, with BOS and labour also falling.
 
+> **TL;DR**
+> - CAPEX is the total upfront cost to design, procure, install and commission a solar project, distinct from ongoing OPEX.
+> - Indian utility-scale capex sits at ₹3.5 to ₹4.5 crore per MW (₹35 to ₹45 per Wp) in 2026, down from ₹12 to ₹15 crore per MW in 2012.
+> - Modules are the single largest line item, typically 35 to 50 percent of total capex.
+> - Residential rooftop capex ranges ₹40 to ₹70 per Wp before subsidy, dropping to ₹10 to ₹30 per Wp after PM Surya Ghar.
+> - Capex is the direct input that LCOE, IRR and payback calculations all build on.
+
 ## CAPEX explained simply
 
-To build a solar plant, you need to buy panels, inverters, racking, wires, transformers, and pay for installation. Add it all up. That total is the capex. For a 1 MW utility plant in India today, that is roughly ₹3.5 to ₹4.5 crore. For a 3 kW home rooftop, around ₹1.65 lakh.
+To build a solar plant, you need to buy panels, [inverters](/our-products/), racking, wires, transformers, and pay for installation. Add it all up. That total is the capex. For a 1 MW utility plant in India today, that is roughly ₹3.5 to ₹4.5 crore. For a 3 kW home rooftop, around ₹1.65 lakh.
 
 ## Why CAPEX matters
 
 Project budgeting. The customer needs to know the cost before committing.
 
-Financial modelling. LCOE, IRR and payback all start from capex.
+Financial modelling. [LCOE](/glossary/lcoe/), [IRR](/glossary/irr/) and [payback period](/glossary/payback-period/) all start from capex.
 
 Tariff discovery. SECI tender economics rest on capex assumptions.
 
 PPA negotiation. The developer must recover capex through PPA revenue.
 
-Customer financing. Loans size against capex.
+Customer financing. Loans size against capex, and buyers comparing lenders can start with our [best bank for solar loan comparison](/blog/best-bank-solar-loan-india-2026/).
 
-Subsidy quantification. PM Surya Ghar caps capex eligibility for subsidy.
+Subsidy quantification. PM Surya Ghar caps capex eligibility for subsidy, with the exact numbers broken down in our [PM Surya Ghar subsidy calculator guide](/blog/pm-surya-ghar-subsidy-amount/).
 
 ## How CAPEX is calculated
 
@@ -155,7 +162,7 @@ The trajectory plateaued around 2020 to 2024, with mild upward pressure from raw
 
 PPA tariff bidding under SECI tenders.
 
-Customer cost estimation for rooftop solar.
+Customer [cost estimation for rooftop solar](https://heavengreenenergy.com/solar-calculator/).
 
 State SERC tariff order benchmarking.
 
@@ -163,7 +170,7 @@ Bank loan sizing.
 
 PM Surya Ghar subsidy disbursement calculation.
 
-Investor pitch documents.
+Investor pitch documents, typically built on the same [solar financial modeling](https://surgepv.com/generation-financial-tool/) inputs used for PPA bidding.
 
 ## Advantages
 
@@ -209,7 +216,7 @@ Factor in transformer upgrade and connection charges separately.
 
 Plan for monsoon delays in construction schedule.
 
-Track capex against budget through project phases.
+Track capex against budget through project phases, ideally with dedicated [project management consultancy](https://heavendesigns.in/project-management-consultancy/) for larger builds.
 
 ## Comparison: capex by configuration
 
@@ -227,7 +234,7 @@ Major capex drivers in 2026: ALMM-listed module prices ₹16 to ₹22 per Wp, BI
 
 PLI scheme reduced reliance on imported cells and modules. Domestic capex has stabilised.
 
-PM Surya Ghar subsidy effectively halves residential capex for systems up to 3 kW.
+[PM Surya Ghar subsidy](/blog/solar-inverter-with-subsidy-pm-surya-ghar/) effectively halves residential capex for systems up to 3 kW.
 
 Major Indian EPCs publish typical capex bands for tender comparison.
 

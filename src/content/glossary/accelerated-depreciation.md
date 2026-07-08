@@ -5,7 +5,7 @@ description: "Accelerated depreciation provides 40% first-year tax write-off. Fu
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - accelerated depreciation
   - 40 percent depreciation
@@ -72,19 +72,26 @@ Accelerated Depreciation (AD) is the tax provision under Section 32 of the India
 
 For a C&I customer with sufficient taxable income, AD provides immediate tax savings of approximately 8.8 percent of the solar capex (40% depreciation × 22% corporate tax rate). Combined with ongoing depreciation over subsequent years, AD reduces effective solar capex by 15-25 percent on present-value basis.
 
-For Indian solar, AD is one of the major tax incentives that makes commercial rooftop and utility solar economically attractive. C&I customers structuring solar through CAPEX model benefit directly. RESCO operators benefit as they are the asset owners. Residential customers cannot directly claim AD as the benefit requires business income to offset.
+For Indian solar, AD is one of the major tax incentives that makes commercial rooftop and utility solar economically attractive. C&I customers structuring solar through [CAPEX model](/glossary/capex/) benefit directly. RESCO operators benefit as they are the asset owners. Residential customers cannot directly claim AD as the benefit requires business income to offset. A full walkthrough of how this plays out on an actual balance sheet is covered in our [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/).
+
+> **TL;DR**
+> - Accelerated Depreciation (AD) lets Indian businesses write off 40 percent of solar plant cost in year one under Section 32 of the Income Tax Act.
+> - For a ₹1 crore C&I plant, that is roughly ₹8.8 lakh in first-year tax savings at a 22 percent corporate tax rate.
+> - AD reduces effective solar capex by 15 to 25 percent on a present-value basis and lifts project IRR by 2 to 3 percentage points.
+> - Only taxpaying businesses and RESCO operators can claim AD; residential customers cannot.
+> - It is not stacked with PM Surya Ghar, which is a residential capex subsidy rather than a corporate tax benefit.
 
 ## Why AD matters
 
 Capex reduction. Effectively reduces solar investment by 15-25 percent.
 
-IRR boost. Improves project IRR by 2-3 percentage points.
+IRR boost. Improves [project IRR](/glossary/irr/) by 2-3 percentage points, a dynamic broken down in detail in our [solar IRR and payback math for C&I](/blog/solar-irr-payback-ci-india/) piece.
 
-Payback acceleration. Reduces payback period by 6-12 months.
+Payback acceleration. Reduces [payback period](/glossary/payback-period/) by 6-12 months.
 
-Cash flow timing. Year 1 tax savings improve early cash flow.
+Cash flow timing. Year 1 tax savings improve early cash flow, which also shifts the project's [NPV](/glossary/npv/) calculation in the owner's favour.
 
-C&I attractiveness. Major driver of commercial solar adoption.
+C&I attractiveness. Major driver of commercial solar adoption, alongside the broader [CAPEX vs OPEX decision](/blog/solar-capex-vs-opex-business-india/) C&I buyers weigh before committing to ownership.
 
 ## AD calculation example
 
@@ -149,11 +156,11 @@ Effective capex reduction: 16.8% on present value basis.
 
 ## Real-world applications
 
-C&I rooftop solar (most common AD beneficiary).
+[C&I rooftop solar](https://heavengreenenergy.com/commercial-solar/) (most common AD beneficiary).
 
-RESCO-mode third-party ownership.
+[RESCO](/glossary/resco/)-mode third-party ownership, covered further in our [Solar RESCO Model guide for C&I buyers](/blog/solar-resco-model-india-guide/).
 
-Utility-scale captive solar.
+Utility-scale captive solar, where [MW-scale project management](https://heavendesigns.in/mw-scale-project-management-consultancy/) coordinates commissioning timelines with the tax year.
 
 Solar plus storage with combined depreciation.
 
@@ -167,7 +174,7 @@ Maintain detailed asset records.
 
 Coordinate with tax advisor.
 
-Use AD in financial models for accurate IRR.
+Use AD in [financial models](https://surgepv.com/generation-financial-tool/) for accurate IRR.
 
 Document equipment ALMM listing for subsidy compatibility.
 
@@ -181,7 +188,7 @@ RESCO model leverages AD by holding ownership at the developer level.
 
 Major Indian corporates (Reliance, Tata, Adani, Mahindra) use AD strategically.
 
-CERC tariff orders factor AD in benchmark tariff methodology.
+[CERC](/glossary/cerc/) tariff orders factor AD in benchmark tariff methodology.
 
 ## Standards and certifications
 

@@ -5,7 +5,7 @@ description: "Commissioning is the formal handover of a solar plant after testin
 category: "Installation"
 categorySlug: "installation"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is solar commissioning
   - solar plant commissioning
@@ -68,7 +68,15 @@ author: "Keyur Rakholiya"
 
 ## What is solar commissioning
 
-Solar commissioning is the formal process of testing, validating, and handing over a newly installed solar PV plant to its operator or owner. It is the bridge between construction completion and revenue-generating operation. Commissioning includes electrical safety testing, performance verification, regulatory approvals (DISCOM, CEIG), bidirectional meter installation, documentation transfer and the formal declaration of Commercial Operation Date (COD).
+Solar commissioning is the formal process of testing, validating, and handing over a newly installed solar PV plant to its operator or owner. It is the bridge between construction completion and revenue-generating operation. Commissioning includes electrical safety testing, performance verification, regulatory approvals ([DISCOM](/glossary/discom/), [CEIG](/glossary/ceig/)), bidirectional meter installation, documentation transfer and the formal declaration of Commercial Operation Date (COD). Our [step-by-step EPC guide to solar inverter commissioning in India](/blog/solar-inverter-commissioning-in-india/) walks through the same sequence in more field detail.
+
+> **TL;DR**
+> - Commissioning is the formal testing, validation and handover of a completed solar plant, ending in the Commercial Operation Date (COD).
+> - It covers electrical safety testing, grid synchronisation, DISCOM meter installation, CEIG energisation approval and documentation handover.
+> - Residential PM Surya Ghar commissioning takes 1 to 5 days; utility plants take 2 to 8 weeks under full IEC 62446 procedures.
+> - The anti-islanding test requires the inverter to disconnect within 2 seconds of a grid outage and stay off through a 60 to 300 second reconnection delay.
+> - Minimum insulation resistance is 1 MΩ for the DC string and inverter chassis, and 0.5 MΩ for AC cable, tested with a 500 V DC megger.
+> - PM Surya Ghar subsidy disbursement is gated on DISCOM commissioning confirmation, so incomplete commissioning paperwork directly delays payout.
 
 For Indian solar, commissioning quality affects three things directly: subsidy disbursement under PM Surya Ghar, PPA revenue recognition for utility plants, and the baseline against which long-term performance is measured. Disciplined commissioning produces documented evidence that the plant meets design specifications and complies with all applicable standards.
 
@@ -76,9 +84,9 @@ For Indian solar, commissioning quality affects three things directly: subsidy d
 
 Regulatory compliance. CEIG energisation approval and DISCOM commissioning are both mandatory.
 
-Subsidy disbursement. PM Surya Ghar requires verified commissioning data.
+Subsidy disbursement. [PM Surya Ghar](/glossary/pm-surya-ghar/) requires verified commissioning data.
 
-PPA revenue. COD triggers tariff billing for utility plants.
+PPA revenue. COD triggers tariff billing for utility plants under the [power purchase agreement](/glossary/ppa/).
 
 Warranty baseline. Manufacturer warranties activate at commissioning date.
 
@@ -92,8 +100,8 @@ Insurance. Insurers require commissioning report for plant policy issuance.
 2. Mechanical verification (mounting torque, structure stability).
 3. Electrical testing (insulation, continuity, polarity, earthing).
 4. Functional testing (inverter start-up, communication, monitoring).
-5. Grid synchronisation testing (anti-islanding, voltage and frequency response).
-6. DISCOM meter installation (bidirectional smart meter).
+5. Grid synchronisation testing ([anti-islanding](/glossary/anti-islanding/), voltage and frequency response).
+6. DISCOM meter installation ([bidirectional smart meter](/glossary/bidirectional-meter/)).
 7. CEIG energisation approval.
 8. Performance verification (PR check at rated conditions).
 9. Documentation handover (as-built drawings, test certificates, manuals).
@@ -111,7 +119,7 @@ Insurance. Insurers require commissioning report for plant policy issuance.
 | AC system | Phase rotation, voltage in range, frequency lock |
 | Earthing | Resistance < 5 Ω, continuity verified |
 | Protection | RCCB function, MCB rating, SPD indicators |
-| Documentation | SLD, manuals, warranties |
+| Documentation | [SLD](/glossary/single-line-diagram/), manuals, warranties |
 
 ### Anti-islanding test
 
@@ -146,11 +154,11 @@ Acceptable threshold typically 78 to 82 percent for utility plants at commission
 
 ## Real-world applications
 
-PM Surya Ghar residential subsidy activation.
+PM Surya Ghar residential subsidy activation, the same DISCOM sequence covered in our [guide to applying for net metering in India](/blog/how-to-apply-net-metering-india/).
 
-C&I rooftop commissioning for billing reconciliation.
+C&I rooftop commissioning for billing reconciliation on [commercial solar installations](https://heavengreenenergy.com/commercial-solar/).
 
-Utility-scale PPA COD declaration.
+Utility-scale PPA COD declaration, the kind of milestone tracked in [MW-scale EPC project management](https://heavendesigns.in/mw-scale-project-management-consultancy/).
 
 Off-grid commissioning for warranty handover.
 
@@ -202,7 +210,7 @@ Maintain digital copies for future reference.
 
 PM Surya Ghar portal tracks commissioning status across DISCOMs.
 
-ALMM-listed equipment is verified at commissioning.
+[ALMM-listed](/glossary/almm-list/) equipment is verified at commissioning.
 
 CEIG approval is mandatory for installations above state-specific thresholds.
 

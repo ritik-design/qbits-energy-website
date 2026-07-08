@@ -70,13 +70,20 @@ author: "Nirav Dhanani"
 
 Voltage is the electrical potential difference between two points in a circuit. It is the driving force that moves electric charge through a conductor under a load. The SI unit is the volt (V), defined as one joule of energy per coulomb of charge moved.
 
+> **TL;DR**
+> - Voltage is electrical potential difference, measured in volts (V), and it drives current through a circuit per Ohm's law (V = I × R).
+> - Indian solar DC strings run 300 to 600 V for residential systems and 600 to 1500 V for utility-scale systems.
+> - Grid-side AC voltage is 230 V single-phase or 415 V three-phase at the LT level, rising to 400 kV at transmission.
+> - String voltage must stay within the inverter's MPPT window across temperature swings; cold mornings can push Voc up by roughly 5 percent.
+> - CEA's grid code allows steady-state voltage variation of +5% to -10%, with tighter limits for short-term fluctuation.
+
 In any circuit, voltage and current are related through Ohm's law (V = I × R), and power is the product of voltage and current (P = V × I).
 
 For Indian solar, voltage matters at multiple levels:
 - DC string voltage: 300 to 600 V residential, 600 to 1500 V utility
 - Inverter AC output: 230 V single-phase or 415 V three-phase
 - Grid connection: 415 V (LT) up to 400 kV (transmission)
-- Battery DC voltage: 12 V, 24 V, 48 V, 96 V or higher
+- Battery DC voltage: 12 V, 24 V, 48 V, 96 V or higher, integrated with the inverter via [AC coupling](/glossary/ac-coupling/) or [DC coupling](/glossary/dc-coupling/)
 
 ## Why voltage matters
 

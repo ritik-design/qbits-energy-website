@@ -5,7 +5,7 @@ description: "AC cable carries inverter AC to grid/load. Full guide to specifica
 category: "Installation"
 categorySlug: "installation"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is ac cable
   - solar ac cable
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "earthing", term: "Earthing" }
   - { slug: "bidirectional-meter", term: "Bidirectional Meter" }
+  - { slug: "ceig", term: "CEIG" }
 faqs:
   - q: "What is AC cable in simple words?"
     a: "The cable that carries electricity from the solar inverter to your distribution board and the grid meter. Same family as building wiring but sized for the inverter output."
@@ -68,17 +69,25 @@ author: "Nirav Dhanani"
 
 ## What is AC cable
 
-AC cable, in the context of solar PV, refers to the alternating-current cable that carries the inverter's AC output through protection devices to the distribution board, bidirectional meter and grid connection point. Unlike specialised PV DC cable, AC cable for solar uses the same general-purpose building cable categories: PVC-insulated (IS 694), PVC-armoured (IS 1554) and XLPE-insulated (IS 7098).
+AC cable, in the context of solar PV, refers to the alternating-current cable that carries the [solar inverter's](/glossary/solar-inverter/) AC output through protection devices to the [AC distribution board](https://heavengreenenergy.com/products/acdb-dcdb/), bidirectional meter and grid connection point. Unlike specialised [PV DC cable](/glossary/dc-cable/), AC cable for solar uses the same general-purpose building cable categories: PVC-insulated (IS 694), PVC-armoured (IS 1554) and XLPE-insulated (IS 7098).
+
+> **TL;DR**
+> - AC cable carries the solar inverter's AC output through protection devices to the distribution board, bidirectional meter and grid connection point.
+> - Indian solar AC cabling uses PVC (IS 694), PVC-armoured (IS 1554) or XLPE (IS 7098) copper cable, sized from 2.5 mm² to 240 mm² depending on capacity.
+> - Target voltage drop is 2 to 3 percent on inverter-to-meter runs; a 5 kW single-phase run typically needs 6 mm² Cu cable over a 15 m run.
+> - Indian colour code runs red/yellow/blue for phases, black for neutral and green for earth.
+> - Copper is the standard up to 50 mm²; larger utility trunk runs sometimes use aluminium for cost reasons.
+> - Quality PVC AC cable lasts 25 to 30 years; XLPE lasts 40+ years in a protected installation.
 
 Indian solar AC cables are predominantly stranded copper conductors with PVC sheath for indoor runs, PVC-armoured for outdoor or buried runs, and XLPE for higher temperature ratings or large utility applications. Cross-section selection follows current ampacity (per IS 732 tables) and voltage drop targets (typically 2 to 3 percent).
 
-For residential PM Surya Ghar systems, AC cable runs from the inverter location to the existing distribution board where the bidirectional meter is installed. Distances are typically 5 to 30 metres. C&I and utility installations have larger and longer AC cable runs, with sizing based on detailed voltage drop and ampacity calculations.
+For residential [PM Surya Ghar](/glossary/pm-surya-ghar/) systems, AC cable runs from the inverter location to the existing distribution board where the [bidirectional meter](/glossary/bidirectional-meter/) is installed. Distances are typically 5 to 30 metres. C&I and utility installations have larger and longer AC cable runs, with sizing based on detailed voltage drop and ampacity calculations.
 
 ## Why AC cable matters
 
 Yield. Voltage drop in AC cable reduces export and increases bills.
 
-Safety. Inadequate sizing causes heating, insulation failure and fires.
+Safety. Inadequate sizing causes heating, insulation failure and fires — the same failure modes covered in our guide to [solar inverter grounding and electrical safety](/blog/solar-inverter-grounding/).
 
 Regulatory compliance. IS 732 wiring code and CEA Measures Relating to Safety require proper cable sizing.
 
@@ -152,7 +161,7 @@ C&I rooftop solar AC trunk runs.
 
 Utility plant LT to step-up transformer.
 
-EV charger AC supply.
+[EV charger](/glossary/ev-charger/) AC supply, sized the same way as inverter output.
 
 Commercial building AC distribution.
 
@@ -182,7 +191,7 @@ Follow Indian colour code.
 
 Use proper cable glands with IP ratings.
 
-Document cable cross-section on the SLD.
+Document cable cross-section on the [single line diagram](/glossary/single-line-diagram/).
 
 Annual thermography during preventive maintenance.
 
@@ -201,13 +210,13 @@ Use proper torque on terminations.
 
 ## Indian market context
 
-Major Indian AC cable brands: Polycab, Havells, KEI, RR Kabel, Finolex, Universal, Apar.
+Major Indian AC cable brands include Polycab, Havells, KEI, RR Kabel, Finolex, Universal and Apar — many of the same names covered in our [guide to inverter suppliers and distributors in India](/blog/inverter-suppliers-india/).
 
 ALMM does not certify AC cables. BIS certification under IS 694 / IS 1554 / IS 7098 applies.
 
 PM Surya Ghar residential installations use 4 mm² to 10 mm² Cu PVC.
 
-CEIG drawing approval verifies AC cable selections.
+[CEIG](/glossary/ceig/) drawing approval verifies AC cable selections as part of the [electrical drawing package](https://heavendesigns.in/electrical-ceig-drawings/) submitted for approval.
 
 Utility plants use 35 mm² to 240 mm² Cu / Al cables in trunk runs.
 

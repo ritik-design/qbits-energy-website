@@ -5,7 +5,7 @@ description: "Transformerless inverters skip the isolation transformer for highe
 category: "Inverter Types"
 categorySlug: "inverter-types"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is transformerless inverter
   - transformerless solar
@@ -31,7 +31,8 @@ relatedTerms:
   - { slug: "rccb", term: "RCCB" }
   - { slug: "anti-islanding", term: "Anti-Islanding" }
   - { slug: "iec-62109", term: "IEC 62109" }
-  - { slug: "leakage-current", term: "Leakage Current" }
+  - { slug: "central-inverter", term: "Central Inverter" }
+  - { slug: "hybrid-inverter", term: "Hybrid Inverter" }
 faqs:
   - q: "What is a transformerless inverter in simple words?"
     a: "A solar inverter without the big iron transformer inside. Lighter, smaller, more efficient, but needs special protection against DC leakage to earth."
@@ -68,11 +69,18 @@ author: "Keyur Rakholiya"
 
 ## What is a transformerless inverter
 
-A transformerless inverter, also called TL inverter, is a solar inverter that omits the galvanic isolation transformer found in older inverter designs. Instead, the inverter uses high-frequency PWM switching, an LCL output filter and dedicated protection circuits to interface the PV array directly with the AC grid.
+A transformerless inverter, also called TL inverter, is a [solar inverter](/glossary/solar-inverter/) that omits the galvanic isolation transformer found in older inverter designs. Instead, the inverter uses high-frequency [PWM](/glossary/pwm/) switching, an LCL output filter and dedicated protection circuits to interface the PV array directly with the AC grid.
 
-The transformer removal eliminates 2 to 4 percent of conversion losses (transformer copper and core losses), raising peak inverter efficiency to 97-98.6 percent for modern designs. The inverter also becomes 30 to 50 percent lighter and 20 to 40 percent cheaper than equivalent transformer-isolated designs.
+> **TL;DR**
+> - A transformerless inverter skips the galvanic isolation transformer, raising peak efficiency to 97-98.6 percent versus 94-96 percent for transformer-based designs.
+> - It is also 30-50 percent lighter and 20-40 percent cheaper than an equivalent transformer-isolated inverter.
+> - The trade-off is no galvanic isolation, so it needs a Type B RCCB, PV insulation monitoring, and a floating (ungrounded) PV array.
+> - Common topologies are H5, H6, HERIC, NPC and T-type, each trading component count for efficiency.
+> - Almost all ALMM-listed residential and C&I inverters sold in India today are transformerless.
 
-The trade-off is the absence of galvanic isolation between PV DC and AC grid. This requires Type B RCCB for fault current detection, PV insulation monitoring (Riso test on startup) and floating (ungrounded) PV array configuration. Modern transformerless inverters from major brands meet all relevant safety standards.
+The transformer removal eliminates 2 to 4 percent of conversion losses (transformer copper and core losses), raising peak inverter efficiency to 97-98.6 percent for modern designs; see [transformerless vs transformer-based solar inverters](/blog/transformerless-vs-transformer-inverter/) for a side-by-side breakdown. The inverter also becomes 30 to 50 percent lighter and 20 to 40 percent cheaper than equivalent transformer-isolated designs.
+
+The trade-off is the absence of galvanic isolation between PV DC and AC grid. This requires Type B [RCCB](/glossary/rccb/) for fault current detection, PV insulation monitoring (Riso test on startup) and a floating (ungrounded) PV array configuration instead of conventional [earthing](/glossary/earthing/). Modern transformerless inverters from major brands meet all relevant safety standards.
 
 ## Why transformerless matters
 
@@ -96,7 +104,7 @@ A typical transformerless inverter has these stages:
 4. LCL filter smoothing chopped output to clean sine wave.
 5. Direct AC connection to grid through contactor.
 
-Compared to transformer-isolated designs, the omitted line-frequency transformer would have provided 50 Hz galvanic isolation. Without it, the inverter's safety design must include ground fault detection (Type B RCCB), PV insulation monitoring, and common-mode current control.
+Compared to transformer-isolated designs, the omitted line-frequency transformer would have provided 50 Hz galvanic isolation. Without it, the inverter's safety design must include ground fault detection (Type B RCCB), PV insulation monitoring, and common-mode current control - the same core process our [how does a solar inverter work](/blog/how-does-a-solar-inverter-work/) guide covers stage by stage.
 
 ## Technical deep dive
 
@@ -124,6 +132,8 @@ Compared to transformer-isolated designs, the omitted line-frequency transformer
 
 ### Efficiency comparison
 
+For the full context on why each percentage point of efficiency matters over a 25-year system life, see [solar inverter efficiency explained](/blog/solar-inverter-efficiency/).
+
 | Topology | Peak efficiency | European weighted |
 |---|---|---|
 | Line-frequency transformer | 94-96% | 92-94% |
@@ -138,11 +148,11 @@ Indian residential rooftop solar.
 
 C&I rooftop solar string inverters.
 
-Utility-scale string inverters.
+Utility-scale [string inverters](/glossary/string-inverter/).
 
-Central inverters with external step-up transformer.
+[Central inverters](/glossary/central-inverter/) with external step-up transformer.
 
-Hybrid inverters for solar-plus-storage.
+[Hybrid inverters](/glossary/hybrid-inverter/) for solar-plus-storage, where correctly [sizing the battery bank](https://surgepv.com/hub/energy-storage/battery-sizing/) alongside the transformerless front end determines usable backup.
 
 ## Advantages
 
@@ -176,7 +186,7 @@ Type B RCCB nuisance tripping from accumulated capacitive leakage.
 
 Insulation monitor false positives during heavy rain.
 
-Ground fault detection requiring inverter shutdown for resolution.
+Ground fault detection requiring inverter shutdown for resolution. See [solar inverter ground fault error troubleshooting](/blog/solar-inverter-ground-fault-guide/) for the full diagnostic sequence.
 
 ## Best practices
 
@@ -192,9 +202,9 @@ Verify floating PV configuration during commissioning.
 
 ## Indian market context
 
-ALMM-listed inverters are predominantly transformerless.
+[ALMM-listed](/glossary/almm-list/) inverters are predominantly transformerless.
 
-Major brands (Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Tata Power Solar) ship transformerless residential and C&I inverters.
+Major brands (Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Tata Power Solar) ship transformerless residential and C&I inverters, and ready-stocked units are also available through Heaven Green Energy's [solar inverter catalogue](https://heavengreenenergy.com/products/solar-inverters/).
 
 Utility central inverters from Sineng, Huawei, Sungrow use transformerless multi-level topology.
 
@@ -206,7 +216,7 @@ CEA Grid Code and IS 17387 accommodate transformerless designs.
 
 | Standard | Scope |
 |---|---|
-| IEC 62109-2 | Particular requirements for inverters |
+| [IEC 62109](/glossary/iec-62109/)-2 | Particular requirements for inverters |
 | IEC 61727 | Utility interface |
 | IS 17387 | Indian grid interconnection |
 | IS 16221 | Indian inverter safety |

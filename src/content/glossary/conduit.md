@@ -5,7 +5,7 @@ description: "Conduit protects and routes electrical cables. Full guide to types
 category: "Installation"
 categorySlug: "installation"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is conduit
   - solar conduit
@@ -70,6 +70,14 @@ author: "Nirav Dhanani"
 
 Conduit is the protective tubing through which electrical cables are routed in buildings, plants and outdoor installations. It shields cables from mechanical damage, UV exposure, water, dust, rodents and fire. For solar PV installations, conduit serves dual purposes: physical protection of the cable run and code compliance with IS 732 wiring code and CEA Measures Relating to Safety.
 
+> **TL;DR**
+> - Conduit is protective tubing that routes and shields [DC](/glossary/dc-cable/) and [AC](/glossary/ac-cable/) solar cables from UV, mechanical damage, rodents and water.
+> - Indian solar uses rigid PVC for most runs, flexible PVC for short equipment connections, GI in industrial settings, and HDPE underground.
+> - Common sizes run 20 to 25 mm for residential, 32 to 50 mm for C&I, and 50 to 100 mm for utility DC trunk runs.
+> - Cable fill ratio should stay under roughly 40 percent so cables can dissipate heat properly.
+> - Outdoor conduit and cable glands need IP65 minimum; GI conduit must be electrically bonded to system earth.
+> - PVC softens above 60°C, so higher-temperature variants are needed for hot inverter exit points.
+
 Indian solar installations use rigid PVC conduit for most cable runs, flexible PVC for short connections to equipment, GI (galvanised iron) for industrial environments and HDPE for buried installations. Selection depends on environment, cable types and mechanical requirements.
 
 ## Why conduit matters
@@ -127,8 +135,8 @@ Beyond fill ratio causes cable heating and reduces ampacity.
 | Component | Required IP |
 |---|---|
 | Conduit + glands | IP65 |
-| Junction box | IP65 |
-| Combiner box | IP65 or IP66 |
+| [Junction box](/glossary/junction-box/) | IP65 |
+| [Combiner box](/glossary/combiner-box/) | IP65 or IP66 |
 
 ### Bonding
 
@@ -138,13 +146,13 @@ PVC conduit is non-conductive; cables inside use separate earth conductor.
 
 ## Real-world applications
 
-Rooftop residential solar DC and AC runs.
+Rooftop residential solar DC and AC runs, the same scope covered in our [timeline for how long solar installation takes in India](/blog/how-long-solar-installation-takes-india/).
 
 Roof-to-inverter cable routing.
 
 Inverter-to-distribution-board AC runs.
 
-Utility ground-mount cable trenches.
+Utility ground-mount cable trenches, planned as part of [ground-mount design engineering](https://heavendesigns.in/solar-ground-mount-design/).
 
 Carport DC routing.
 
@@ -176,9 +184,9 @@ Use cable glands rated IP65 at all entries.
 
 Apply sealant at junction box entries.
 
-Bond GI conduit to earth.
+Bond GI conduit to [earth](/glossary/earthing/).
 
-Document conduit routes on the SLD.
+Document conduit routes on the [single line diagram](/glossary/single-line-diagram/).
 
 Use proper deburring tools on cut ends.
 
@@ -200,9 +208,9 @@ ALMM does not list conduits. BIS certification under IS 9537 (PVC) and related s
 
 PM Surya Ghar residential installations use 20 to 32 mm UV-rated PVC conduit.
 
-C&I rooftops use combination of rigid PVC for cable runs and flexible PVC for equipment connections.
+C&I rooftops use combination of rigid PVC for cable runs and flexible PVC for equipment connections — routing decisions that EPCs typically evaluate during [solar EPC bid evaluation](/blog/how-to-evaluate-solar-epc-bids/).
 
-Utility plants use HDPE for buried runs and GI or PVC overhead.
+Utility plants use HDPE for buried runs and GI or PVC overhead, often specified as part of [turnkey solar EPC installation](https://heavengreenenergy.com/solar-epc/) scope.
 
 ## Standards and certifications
 

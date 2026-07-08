@@ -5,7 +5,7 @@ description: "Solar yield is the annual energy generated per kW of installed sol
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is solar yield
   - specific yield solar
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "degradation", term: "Module Degradation" }
   - { slug: "bifacial-module", term: "Bifacial Module" }
   - { slug: "shading-loss", term: "Shading Loss" }
+  - { slug: "soiling", term: "Soiling" }
 faqs:
   - q: "What is solar yield in simple words?"
     a: "How many units of electricity each kilowatt of installed solar generates over a year. A 5 kW system generating 7,500 kWh per year has a yield of 1,500 kWh per kWp."
@@ -70,9 +71,17 @@ author: "Keyur Rakholiya"
 
 Solar yield, also called specific yield or normalised yield, is the annual energy generated per kilowatt of installed solar capacity, expressed in kWh per kWp per year. It is the practical performance benchmark for solar installations and the basis for PPA pricing, payback calculations and project finance.
 
-Solar yield captures everything that affects annual generation: irradiance, technology, orientation, temperature, shading, soiling, equipment efficiency and operational quality. Two plants with the same nameplate but in different locations or with different design have different yields.
+Solar yield captures everything that affects annual generation: irradiance, technology, orientation, [temperature coefficient](/glossary/temperature-coefficient/) losses, shading, [soiling](/glossary/soiling/), equipment efficiency and operational quality. Two plants with the same nameplate but in different locations or with different design have different yields.
 
-For Indian solar, yield ranges from 1,200 kWh/kWp in the north-eastern states to 1,900 kWh/kWp in Rajasthan and Gujarat for utility-scale bifacial tracker plants. Residential rooftop yields are typically 100 to 200 kWh/kWp lower due to suboptimal orientation and shading.
+For Indian solar, yield ranges from 1,200 kWh/kWp in the north-eastern states to 1,900 kWh/kWp in Rajasthan and Gujarat for utility-scale bifacial tracker plants. Residential rooftop yields are typically 100 to 200 kWh/kWp lower due to suboptimal orientation and shading, a gap explored in detail in [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/).
+
+> **TL;DR**
+> - Solar yield (specific yield) is annual energy generated per kW of installed capacity, in kWh/kWp/year, and is the basis for PPA pricing and payback calculations.
+> - Indian utility plants achieve 1,500 to 1,900 kWh/kWp/year; C&I rooftop runs 1,300 to 1,650; residential rooftop 1,250 to 1,550.
+> - Yield = Peak Sun Hours x 365 x Performance Ratio, linking three of the most important Indian solar performance metrics.
+> - Rajasthan and Gujarat post the highest yields nationally; the north-east and eastern states post the lowest.
+> - Single-axis trackers add 15 to 35 percent yield over fixed-tilt; bifacial modules add another 5 to 25 percent depending on albedo and clearance.
+> - Modules degrade 0.3 to 0.55 percent per year, so 25-year average yield runs about 8 to 12 percent below year-1 output.
 
 ## Solar yield explained simply
 
@@ -82,17 +91,17 @@ Yield is the practical number you use to estimate how much electricity your sola
 
 ## Why solar yield matters
 
-PPA pricing. The expected yield underwrites the revenue calculation.
+[PPA](/glossary/ppa/) pricing. The expected yield underwrites the revenue calculation.
 
-Payback. Bill saving = yield × tariff. Higher yield, faster payback.
+Payback. Bill saving = yield × tariff, calculable with a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/). Higher yield, faster payback.
 
-Project finance. Lenders model annual debt service against yield.
+Project finance. Lenders model annual debt service against [P50/P90](/glossary/p50-p90/) yield estimates.
 
 Operations. Annual yield against expected reveals plant issues.
 
 Customer expectations. Marketing materials and sales pitches quote expected yield.
 
-PR and CUF derivation. Yield is the bridge between the two.
+[PR](/glossary/pr/) and [CUF](/glossary/cuf/) derivation. Yield is the bridge between the two.
 
 ## How specific yield is calculated
 
@@ -102,7 +111,7 @@ Example: A 1 MWp plant generates 1,650 MWh in a year.
 Specific yield = 1,650,000 / 1,000 = 1,650 kWh/kWp/year
 
 Alternative formulation:
-Specific yield = PSH × 365 × PR
+Specific yield = [Peak Sun Hours](/glossary/peak-sun-hours/) × 365 × PR
 
 For PSH = 5.5, PR = 0.80:
 Yield = 5.5 × 365 × 0.80 = 1,606 kWh/kWp/year
@@ -163,7 +172,7 @@ C&I solar payback analysis.
 
 Residential PM Surya Ghar bill saving estimates.
 
-Lender financial modelling.
+Lender financial modelling, often run through tools such as SurgePV's [generation and financial modelling tool](https://surgepv.com/generation-financial-tool/).
 
 State SERC tariff benchmarking.
 
@@ -205,13 +214,13 @@ Yield reduction over years overlooked in lifecycle estimates.
 
 Use P50 yield for planning, P90 for lender models.
 
-Source irradiance data from validated sources (NSRDB, NIWE, Solargis).
+Source irradiance data from validated sources (NSRDB, NIWE, Solargis), cross-checked against [state-wise irradiance benchmarks](/blog/solar-irradiance-data-india-statewise/).
 
-Apply realistic loss assumptions in yield modelling.
+Apply realistic loss assumptions in yield modelling, using [solar design calculators](https://surgepv.com/tools/) built for this purpose.
 
 Monitor monthly yield against expected.
 
-Plan annual cleaning to maintain yield.
+Plan annual cleaning to maintain yield, especially ahead of [monsoon season](/blog/monsoon-solar-prep/).
 
 Track yield trend over years for degradation assessment.
 

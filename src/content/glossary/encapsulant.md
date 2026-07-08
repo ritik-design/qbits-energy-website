@@ -5,7 +5,7 @@ description: "Encapsulant seals solar cells in modules. Full guide to EVA, POE a
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - encapsulant
   - eva encapsulant
@@ -68,14 +68,21 @@ author: "Nirav Dhanani"
 
 ## What is encapsulant
 
-Encapsulant is the polymer material that surrounds and seals solar cells between the front glass and the back sheet (or rear glass) of a PV module. The encapsulant performs multiple critical functions: electrical insulation between cells and module exterior, mechanical protection of cells during thermal cycling and physical impact, moisture barrier preventing water ingress, and optical transparency allowing sunlight to reach the cells.
+Encapsulant is the polymer material that surrounds and seals solar cells between the front glass and the [back sheet](/glossary/back-sheet/) (or rear glass) of a PV module. The encapsulant performs multiple critical functions: electrical insulation between cells and module exterior, mechanical protection of cells during thermal cycling and physical impact, moisture barrier preventing water ingress, and optical transparency allowing sunlight to reach the cells.
 
 Two major encapsulant types are used in modern solar modules:
 
 - EVA (Ethylene Vinyl Acetate): traditional choice since the 1980s. Inexpensive, well-understood, widely used. Susceptible to UV-induced browning and sodium ion permeability causing PID over time.
-- POE (Polyolefin Elastomer): premium alternative. Better UV stability, lower moisture absorption, PID-resistant. Standard in premium and bifacial modules.
+- POE (Polyolefin Elastomer): premium alternative. Better UV stability, lower moisture absorption, PID-resistant. Standard in premium and [bifacial modules](/glossary/bifacial-module/).
 
 For Indian solar, encapsulant choice affects long-term performance more than efficiency. PID-resistant EVA or POE is increasingly specified for systems with grounded inverter configurations. Premium bifacial modules from Indian manufacturers typically use POE.
+
+> **TL;DR**
+> - Encapsulant is the polymer layer sealing solar cells between glass and back sheet, giving electrical insulation, moisture protection and optical transparency.
+> - EVA is the traditional, cheaper choice; POE costs 30 to 50 percent more per kg but resists PID and lasts 30 to 40 years against 25 to 30 for EVA.
+> - PID (Potential-Induced Degradation) occurs when sodium ions from the glass migrate through the encapsulant to the cells under high voltage stress; PID-resistant EVA and POE block this.
+> - Lamination bonds glass, encapsulant, cells and back sheet together under heat (about 150°C) and vacuum for 10 to 20 minutes.
+> - Premium bifacial, TOPCon and HJT modules typically use POE on both sides; ALMM-listed modules must meet IEC 61215 requirements covering encapsulant performance.
 
 ## Why encapsulant matters
 
@@ -136,7 +143,7 @@ Bifacial performance. Rear-side requires UV-stable encapsulant.
 
 ### PID resistance
 
-PID (Potential-Induced Degradation) occurs when sodium ions from glass migrate through encapsulant to cells under high voltage stress. PID-resistant encapsulants (high-volume-resistivity EVA, POE) block this migration.
+PID (Potential-Induced Degradation) occurs when sodium ions from glass migrate through encapsulant to cells under high voltage stress. PID-resistant encapsulants (high-volume-resistivity EVA, POE) block this migration. Encapsulant quality also plays a supporting role in two other degradation mechanisms tracked separately, [LID](/glossary/lid/) and [LeTID](/glossary/letid/), even though both are driven primarily by cell doping rather than the encapsulant itself.
 
 ## Real-world applications
 
@@ -144,7 +151,7 @@ All solar PV modules (essential component).
 
 EVA: cost-sensitive PERC modules.
 
-POE: premium PERC, all TOPCon, HJT, bifacial.
+POE: premium PERC, all [TOPCon](/glossary/topcon-cell/), [HJT](/glossary/hjt-cell/), bifacial.
 
 PVB: BIPV applications.
 
@@ -174,7 +181,7 @@ Acid formation possible.
 
 EVA browning in older modules.
 
-PID losses in modules without PID-resistant encapsulant.
+PID losses in modules without PID-resistant encapsulant, a slow but cumulative form of [module degradation](/glossary/degradation/).
 
 Delamination in coastal humid conditions.
 
@@ -192,9 +199,9 @@ Use IS 14286 certified modules.
 
 ## Indian market context
 
-Major Indian modules use PID-resistant EVA or POE.
+Major Indian modules destined for [residential rooftop solar](https://surgepv.com/residential-solar-design/) use PID-resistant EVA or POE.
 
-ALMM-listed modules meet IEC 61215 requirements covering encapsulant performance.
+ALMM-listed modules meet [IEC 61215](/glossary/iec-61215/) requirements covering encapsulant performance.
 
 Premium bifacial modules typically POE.
 
@@ -216,7 +223,7 @@ Encapsulant seals solar cells inside modules, providing electrical insulation, m
 
 ## Need quality encapsulated modules?
 
-QBits Energy supplies ALMM-listed modules with PID-tested encapsulants for residential, C&I and utility solar across India.
+QBits Energy supplies ALMM-listed modules with PID-tested encapsulants for residential, [C&I](https://heavengreenenergy.com/commercial-solar/) and utility solar across India.
 
 ## Sources
 

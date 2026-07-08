@@ -5,7 +5,7 @@ description: "Hot spots cause localised heating in shaded cells. Full guide to c
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - hot spot solar
   - solar cell hot spot
@@ -32,6 +32,9 @@ relatedTerms:
   - { slug: "micro-inverter", term: "Micro Inverter" }
   - { slug: "dc-optimiser", term: "DC Optimiser" }
   - { slug: "iec-61215", term: "IEC 61215" }
+  - { slug: "soiling", term: "Soiling" }
+  - { slug: "encapsulant", term: "Encapsulant" }
+  - { slug: "almm-list", term: "ALMM List" }
 faqs:
   - q: "What is a hot spot in simple words?"
     a: "A spot on a solar panel that gets dangerously hot because one cell is shaded or damaged while others around it keep producing current. The shaded cell becomes a load and heats up."
@@ -70,9 +73,16 @@ author: "Nirav Dhanani"
 
 A hot spot in a solar PV module is a region of localised excessive heating, typically affecting one or a few cells, caused by the cell being forced to operate in reverse bias (acting as a load instead of a generator) while string current flows through it. The cell dissipates the entire string current at high voltage, generating significant heat that can reach 100-200°C.
 
-Hot spots originate from any condition that reduces one cell's current generation below the string current: partial shading from external objects, cell defects from manufacturing, cell cracks from thermal stress or handling, bird droppings, leaves, soiling concentrated on one cell, or simply mismatched cell aging.
+Hot spots originate from any condition that reduces one cell's current generation below the string current: partial [shading](/glossary/shading-analysis/) from external objects, cell defects from manufacturing, cell cracks from thermal stress or handling, bird droppings, leaves, [soiling](/glossary/soiling/) concentrated on one cell, or simply mismatched cell aging.
 
-Modern PV modules include bypass diodes in the junction box. When string current cannot flow through a shaded or damaged cell, the diode provides an alternative path, limiting the hot spot energy. Without bypass diodes, hot spots could permanently damage encapsulant, back sheet and cells.
+Modern PV modules include bypass diodes in the [junction box](/glossary/junction-box/). When string current cannot flow through a shaded or damaged cell, the diode provides an alternative path, limiting the hot spot energy. Without bypass diodes, hot spots could permanently damage [encapsulant](/glossary/encapsulant/), back sheet and cells.
+
+> **TL;DR**
+> - A hot spot is localised overheating in a solar cell, usually reaching 100 to 200°C, caused by partial shading, soiling, bird droppings or cell defects forcing that cell into reverse bias.
+> - Bypass diodes inside the junction box limit hot spot damage by routing current around the affected sub-string, but do not eliminate the risk entirely.
+> - Standard modules use 3 bypass diodes; premium designs use 6 for finer sub-string protection.
+> - Severe, unmitigated hot spots can permanently damage encapsulant, back sheet and cells, and modules must pass the IEC 61215 hot spot test to certify survival.
+> - Annual infrared thermography during O&M is the standard way to detect developing hot spots, and microinverters or DC optimisers further reduce risk through per-panel operation.
 
 ## Why hot spots matter
 
@@ -167,9 +177,9 @@ Clean modules regularly.
 
 Manage trees and obstructions.
 
-Use modules with sufficient bypass diodes.
+Use modules with [sufficient bypass diode and junction box protection](https://heavengreenenergy.com/products/balance-of-system/).
 
-Use microinverters or DC optimisers in shading-prone sites.
+Use [microinverters](/glossary/micro-inverter/) or [DC optimisers](/glossary/dc-optimiser/) in shading-prone sites.
 
 Replace damaged modules promptly.
 
@@ -192,9 +202,9 @@ Indian solar plants periodically experience hot spots from:
 - Dust and soiling on specific cells
 - Construction debris adjacent to arrays
 
-Annual IR thermography is standard O&M practice for utility and large C&I plants.
+Annual IR thermography is standard O&M practice for utility and large [C&I plants](/c-i-solution/).
 
-ALMM-listed modules meet IEC 61215 hot spot tests.
+[ALMM-listed](/glossary/almm-list/) modules meet [IEC 61215](/glossary/iec-61215/) hot spot tests.
 
 ## Standards and certifications
 

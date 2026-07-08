@@ -5,7 +5,7 @@ description: "Grid-forming inverters create voltage and frequency. Full guide to
 category: "Grid Compliance"
 categorySlug: "grid-compliance"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - grid forming inverter
   - grid forming vs grid following
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "lithium-ion-battery", term: "Lithium Ion Battery" }
   - { slug: "reactive-power", term: "Reactive Power" }
   - { slug: "frequency-response", term: "Frequency Response" }
+  - { slug: "on-grid-inverter", term: "On Grid Inverter" }
 faqs:
   - q: "What is a grid-forming inverter in simple words?"
     a: "An inverter that makes its own voltage and frequency, like a generator. Used when there's no grid (microgrid) or when supporting weak grids."
@@ -70,9 +71,16 @@ author: "Nirav Dhanani"
 
 A grid-forming inverter (GFM) is an inverter that establishes voltage and frequency on its own, providing a stable AC bus that other devices can synchronise to. This contrasts with the dominant grid-following (GFL) inverter that requires an existing grid voltage and frequency to operate.
 
+> **TL;DR**
+> - A grid-forming inverter creates its own voltage and frequency reference, unlike a standard grid-following inverter that synchronises to an existing grid signal.
+> - GFM capability is required for islanded operation: microgrids, off-grid systems and hybrid inverters running in backup mode.
+> - Grid-forming inverters can provide black start, synthetic inertia and frequency support, services traditionally supplied by synchronous generators.
+> - India has no specific grid-forming mandate yet, but Australia's AEMO already requires it for some BESS projects, and IEEE 2800 is an emerging US standard.
+> - Grid-forming inverters typically cost 20 to 50 percent more than equivalent grid-following inverters due to more complex control and larger overcurrent rating.
+
 Grid-forming inverters are essential for islanded operation where no grid exists (microgrids, off-grid systems, hybrid backup) and increasingly valued at utility scale where high renewable penetration requires inverters to provide grid-stabilising services traditionally supplied by synchronous generators.
 
-For Indian solar, grid-forming capability appears in hybrid inverters operating in backup mode (creating an islanded AC bus during grid outages), off-grid inverters and emerging utility-scale BESS providing fast frequency response and inertia. The capability is becoming a competitive advantage as renewable penetration rises.
+For Indian solar, grid-forming capability appears in [hybrid inverters](/glossary/hybrid-inverter/) operating in backup mode (creating an islanded AC bus during grid outages), off-grid inverters and emerging utility-scale [BESS](/glossary/bess/) providing fast frequency response and inertia. The capability is becoming a competitive advantage as renewable penetration rises.
 
 ## Why grid-forming inverters matter
 

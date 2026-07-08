@@ -5,7 +5,7 @@ description: "Battery SOC is the percentage of remaining charge in a battery. Fu
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is battery soc
   - state of charge battery
@@ -68,9 +68,17 @@ author: "Nirav Dhanani"
 
 ## What is battery SOC
 
-State of Charge (SOC) is the percentage of remaining usable energy in a battery relative to its rated capacity. 100 percent means fully charged. 0 percent means fully discharged. SOC is the most important real-time operating metric for any battery system, used by the Battery Management System (BMS), inverter, energy management system and the user.
+State of Charge (SOC) is the percentage of remaining usable energy in a battery relative to its rated capacity. 100 percent means fully charged. 0 percent means fully discharged. SOC is the most important real-time operating metric for any battery system, used by the [Battery Management System (BMS)](/glossary/bms/), inverter, energy management system and the user.
 
-For solar storage, SOC informs every decision: when to charge, when to discharge, when to derate the inverter to protect the battery and when to switch to grid backup. It also gates protection cutoffs that prevent the battery from going below safe minimum.
+> **TL;DR**
+> - SOC is the percentage of usable energy left in a battery right now, the counterpart to Depth of Discharge.
+> - There is no direct SOC sensor; the BMS estimates it from coulomb counting, open-circuit voltage and, in premium packs, a Kalman filter.
+> - Typical BMS accuracy is 3 to 5 percent, with Kalman-filtered BMS reaching 1 to 2 percent.
+> - Recommended operating windows differ by chemistry: roughly 10 to 100 percent for LFP, 20 to 90 percent for NMC, and 50 to 100 percent for lead acid cycling.
+> - SOC is not the same as SOH (State of Health); SOC is instantaneous, SOH tracks long-term capacity fade.
+> - Cold temperatures can make a battery read a higher SOC than the energy it can actually deliver.
+
+For solar storage, SOC informs every decision: when to charge, when to discharge, when to derate the inverter to protect the battery and when to switch to grid backup. It also gates protection cutoffs that prevent the battery from going below safe minimum, the threshold defined by [Depth of Discharge](/glossary/battery-dod/).
 
 ## SOC explained simply
 
@@ -132,9 +140,11 @@ Where η_coulomb is the coulombic efficiency, typically 99 to 99.9 percent for L
 
 | Chemistry | Recommended operating window |
 |---|---|
-| LFP | 10 to 100 percent |
+| [LFP](/glossary/lfp-battery/) | 10 to 100 percent |
 | NMC | 20 to 90 percent for best calendar life |
-| Lead acid | 50 to 100 percent for cycling |
+| [Lead acid](/glossary/lead-acid-battery/) | 50 to 100 percent for cycling |
+
+These SOC windows are the same inputs [energy storage sizing tools](https://surgepv.com/hub/energy-storage/battery-sizing/) use to calculate usable capacity from nominal battery capacity.
 
 ### Charge stages and SOC
 
@@ -146,7 +156,7 @@ Where η_coulomb is the coulombic efficiency, typically 99 to 99.9 percent for L
 
 ## Real-world applications
 
-Hybrid inverter charge and discharge control.
+[Hybrid inverter](/glossary/hybrid-inverter/) charge and discharge control, covered in depth in our [BMS in hybrid solar inverters guide](/blog/bms-hybrid-solar-inverter-explained/).
 
 Off-grid inverter low-voltage cutoff.
 
@@ -186,13 +196,13 @@ Temperature dependence adds complexity.
 
 SOC jumping suddenly. BMS recalibration event during full charge or after long rest.
 
-Battery showing 30 percent SOC but inverter shuts down. Cell-level imbalance. One cell at minimum voltage drags down the whole pack.
+Battery showing 30 percent SOC but inverter shuts down. Cell-level imbalance, the condition [cell balancing](/glossary/cell-balancing/) is designed to prevent. One cell at minimum voltage drags down the whole pack.
 
 App SOC differs from BMS SOC. Communication lag or different rounding. Trust the BMS.
 
 SOC drift. Coulomb counting accumulates error. Periodic full charge resets reference.
 
-SOC shows 100 percent but battery delivers only 70 percent of rated runtime. SOH degradation has reduced usable capacity. SOC and SOH are different metrics.
+SOC shows 100 percent but battery delivers only 70 percent of rated runtime. [SOH](/glossary/soh/) degradation has reduced usable capacity. SOC and SOH are different metrics. For a real-world sense of how much backup this translates to, see our [solar battery backup time calculator](/blog/solar-battery-backup-calculator/).
 
 ## Best practices
 

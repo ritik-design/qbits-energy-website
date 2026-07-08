@@ -5,7 +5,7 @@ description: "APPC is the DISCOM's blended power procurement cost. Full guide an
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - average pooled cost
   - appc
@@ -68,23 +68,30 @@ author: "Nirav Dhanani"
 
 ## What is APPC
 
-Average Pooled Cost (APPC), also called Average Pooled Power Cost, is the weighted-average cost at which a DISCOM procures electricity from its diverse power purchase portfolio: thermal, hydro, nuclear, gas, renewable, banking and short-term sources. Each source's cost is weighted by the energy procured to derive the blended APPC.
+Average Pooled Cost (APPC), also called Average Pooled Power Cost, is the weighted-average cost at which a [DISCOM](/glossary/discom/) procures electricity from its diverse power purchase portfolio: thermal, hydro, nuclear, gas, renewable, banking and short-term sources. Each source's cost is weighted by the energy procured to derive the blended APPC.
 
 APPC is used as a benchmark in several Indian electricity regulations:
-- Valuation of excess net metering credits at year-end (in some states)
-- Floor and forbearance price for RECs
-- Comparison benchmark for renewable PPAs
+- Valuation of excess [net metering](/glossary/net-metering/) credits at year-end (in some states)
+- Floor and forbearance price for [RECs](/glossary/rec/)
+- Comparison benchmark for renewable [PPAs](/glossary/ppa/)
 - Reference for cross-subsidy surcharge calculation in open access
 
 Indian state APPCs typically range from ₹4 to ₹5.5/kWh, varying by state and revised annually. APPC has been declining for many states as cheap solar and wind PPAs displace expensive thermal contracts.
 
+> **TL;DR**
+> - APPC is the weighted-average cost at which a DISCOM buys power across its entire portfolio: thermal, hydro, nuclear and renewables.
+> - Indian state APPCs run roughly ₹4 to ₹5.5/kWh and are revised annually in SERC tariff orders.
+> - Some states cash out excess net metering credits at APPC, which is lower than the retail tariff of ₹7 to ₹9/kWh.
+> - REC floor and forbearance prices reference APPC, and it also benchmarks renewable PPA discovery.
+> - Solar PPAs at ₹2.50 to ₹3/kWh sit well below APPC, gradually pulling the blended figure down.
+
 ## Why APPC matters
 
-Net metering credit valuation. Year-end excess credits may be cashed out at APPC in some states.
+Net metering credit valuation. Year-end excess credits may be cashed out at APPC in some states, which is one reason homeowners weighing [gross metering vs net metering](/blog/gross-metering-vs-net-metering/) need to understand the trade-off before sizing a [residential rooftop system](https://heavengreenenergy.com/residential-solar/).
 
-REC pricing. CERC sets REC floor and forbearance referencing APPC.
+REC pricing. [CERC](/glossary/cerc/) sets REC floor and forbearance referencing APPC.
 
-PPA benchmarking. Solar PPAs below APPC indicate cost savings to DISCOM.
+PPA benchmarking. Solar PPAs below APPC indicate cost savings to DISCOM, a comparison developers run through [solar financial modeling](https://surgepv.com/generation-financial-tool/) tools before bidding.
 
 Cross-subsidy. Reference for surcharge calculation on open access.
 
@@ -133,18 +140,18 @@ Indian APPC has shown:
 
 For year-end credit cash-out at APPC:
 - Excess generation valued at ₹4-5/kWh
-- Lower than retail tariff of ₹7-9/kWh
+- Lower than retail [tariff](/glossary/tariff/) of ₹7-9/kWh
 - Discourages oversizing solar beyond consumption
 
 ### REC pricing reference
 
 CERC REC framework:
-- Floor: based on differential between APPC and renewable LCOE
+- Floor: based on differential between APPC and renewable [LCOE](/glossary/lcoe/)
 - Forbearance (cap): set by CERC
 
 ## Real-world applications
 
-Net metering credit valuation in select states.
+Net metering credit valuation in select states, detailed state-by-state in our [net metering guide for India](/blog/net-metering-india-complete-guide/).
 
 REC market pricing.
 

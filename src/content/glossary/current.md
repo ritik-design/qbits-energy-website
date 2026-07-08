@@ -5,7 +5,7 @@ description: "Current is the flow of electric charge. Full guide to AC, DC and s
 category: "Electrical Basics"
 categorySlug: "electrical-basics"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is current
   - solar current
@@ -32,6 +32,8 @@ relatedTerms:
   - { slug: "ac-cable", term: "AC Cable" }
   - { slug: "current-transformer", term: "Current Transformer" }
   - { slug: "fault-current", term: "Fault Current" }
+  - { slug: "bms", term: "BMS" }
+  - { slug: "spd", term: "SPD" }
 faqs:
   - q: "What is current in simple words?"
     a: "The flow of electric charge through a wire. Measured in amperes (A). One amp is one coulomb of charge per second."
@@ -68,7 +70,14 @@ author: "Nirav Dhanani"
 
 ## What is current
 
-Current is the rate of flow of electric charge through a conductor, measured in amperes (A). One ampere equals one coulomb of charge per second. Current is driven by voltage and limited by the resistance of the circuit, per Ohm's law: I = V / R.
+Current is the rate of flow of electric charge through a conductor, measured in amperes (A). One ampere equals one coulomb of charge per second. Current is driven by [voltage](/glossary/voltage/) and limited by the resistance of the circuit, per Ohm's law: I = V / R.
+
+> **TL;DR**
+> - Current is the flow of electric charge, measured in amperes (A), and driven by voltage per Ohm's law (I = V / R).
+> - Indian solar PV strings typically carry 10 to 18 A DC; three-phase inverter AC output can reach 15 to 250 A per phase.
+> - Cable cross-section must match current per IS 732 ampacity tables to avoid overheating and voltage drop.
+> - Fuses and breakers must be rated above the maximum expected fault current, and RCCBs trip at around 30 mA to protect against residual current.
+> - Combiner box fuses are typically sized 1.25 to 1.5 times a string's short-circuit current (Isc).
 
 In any solar system, current flows through cables, connectors, switches, fuses and ultimately through the load. The current rating of each component must accommodate the maximum expected current under normal operation and short-circuit conditions.
 
@@ -76,11 +85,11 @@ In any solar system, current flows through cables, connectors, switches, fuses a
 
 Cable sizing. Current determines minimum cable cross-section. Higher current requires larger conductors.
 
-Protection. Fuses and breakers are rated by current. Their interrupting capacity must exceed the maximum fault current.
+Protection. [Fuses](/glossary/fuse/) and breakers are rated by current. Their interrupting capacity must exceed the maximum fault current.
 
-Inverter sizing. Maximum DC input current per MPPT limits string parallel combinations.
+Inverter sizing. Maximum DC input current per [MPPT](/glossary/mppt/) limits string parallel combinations.
 
-Power calculation. P = V × I for DC. P = V × I × cos(φ) for AC.
+Power calculation. P = V × I for DC. P = V × I × cos(φ), where cos(φ) is the [power factor](/glossary/power-factor/), for AC.
 
 Safety. Shock injury severity depends on current through the body.
 
@@ -96,6 +105,8 @@ Heating. I²R losses cause cables and connectors to heat up. Excessive current c
 | Three-phase inverter AC output | 15 to 250 A AC per phase |
 | Battery charge / discharge | 10 to 200 A DC |
 | Transformer LT side | 100 to 2000 A AC |
+
+Battery current draw depends heavily on capacity and discharge rate; getting this sizing right for hybrid systems is covered in SurgePV's [battery and energy storage sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) guidance. The choice between single-phase and three-phase inverter architecture also determines how AC output current is split across phases, as explained in our [single-phase vs 3-phase solar inverter guide](/blog/single-vs-3-phase-inverter/).
 
 ## Technical deep dive
 
@@ -136,15 +147,15 @@ Derate for temperature, grouping and installation method.
 Short-circuit fault currents in solar systems:
 - DC fault from PV: limited to Isc (no amplification)
 - AC fault from grid: typically 5 to 25 kA depending on grid impedance
-- Battery fault: very high, several kA, limited by BMS
+- Battery fault: very high, several kA, limited by the [BMS](/glossary/bms/)
 
 ## Real-world applications
 
-DC cable sizing in solar arrays.
+[DC cable](/glossary/dc-cable/) sizing in solar arrays.
 
-AC cable sizing from inverter to AC panel.
+[AC cable](/glossary/ac-cable/) sizing from inverter to AC panel.
 
-Fuse selection for combiner boxes.
+Fuse selection for [DCDB combiner boxes](https://heavengreenenergy.com/products/acdb-dcdb/).
 
 Breaker selection at distribution boards.
 
@@ -160,7 +171,7 @@ Inverter MPPT current limit exceeded by parallel strings.
 
 Fuse rating wrong for available fault current.
 
-RCCB nuisance tripping due to capacitive earth currents in long DC cables.
+[RCCB](/glossary/rccb/) nuisance tripping due to capacitive earth currents in long DC cables.
 
 Connector heating due to loose terminations.
 
@@ -170,9 +181,9 @@ Size cables for normal operation plus derate for installation.
 
 Verify fuse and breaker ratings against expected fault current.
 
-Use Class II SPDs on DC and AC sides.
+Use Class II [SPDs](/glossary/spd/) on DC and AC sides.
 
-Specify combiner box fuse ratings 1.25 to 1.5 × Isc per string.
+Specify combiner box fuse ratings 1.25 to 1.5 × Isc per string, as detailed in our [solar string sizing and overcurrent protection guide](/blog/solar-string-sizing-ocp-india/).
 
 Annual thermography to catch heating issues.
 
@@ -182,13 +193,13 @@ Match MPPT current limit to total string parallel current.
 
 CEA Grid Code specifies fault current envelopes for grid connection.
 
-IS 732 (Wiring Code) sets cable ampacity tables.
+IS 732 (Wiring Code) sets cable ampacity tables. These ratings need to be reflected accurately on stamped [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/) before a project is cleared for connection.
 
 IS 14772 and IS 60898 cover residential breakers.
 
 IS 13947 covers industrial breakers.
 
-ALMM-listed inverters specify maximum DC input current per MPPT.
+[ALMM-listed](/glossary/almm-list/) inverters specify maximum DC input current per MPPT.
 
 ## Standards and certifications
 

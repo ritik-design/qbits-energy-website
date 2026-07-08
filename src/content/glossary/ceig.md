@@ -5,7 +5,7 @@ description: "CEIG is the state-level electrical safety authority that approves 
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is ceig
   - chief electrical inspector
@@ -70,7 +70,14 @@ author: "Nirav Dhanani"
 
 The Chief Electrical Inspector to Government (CEIG) is the state-level statutory authority responsible for electrical safety approval of electrical installations within the state. Each state has an Electrical Inspectorate headed by the CEIG, operating under powers conferred by the Indian Electricity Rules 1956 (and successor regulations) and state-specific electricity acts.
 
-For solar projects, the CEIG approves the single-line diagram, plant electrical layout, earthing arrangement, transformer installation, HT/LT switchgear, fire safety arrangements and overall electrical safety design. Approval is required before the installation can be energised and is independent of DISCOM grid interconnection commissioning.
+> **TL;DR**
+> - CEIG (Chief Electrical Inspector to Government) is the state electrical safety authority that must approve solar installations before energisation.
+> - Approval covers the single-line diagram, earthing, transformer installation, HT/LT switchgear and fire safety, and is separate from DISCOM grid interconnection.
+> - Most states require CEIG approval above 10 kW, and it is always required for HT connections and utility-scale plants.
+> - Drawing approval typically takes 15 to 45 days, with site inspection and energisation approval adding another 7 to 21 days.
+> - Earthing inadequacy and incomplete single-line diagrams are the most common causes of first-inspection rejection.
+
+For solar projects, the CEIG approves the [single-line diagram](/glossary/single-line-diagram/), plant electrical layout, [earthing](/glossary/earthing/) arrangement, transformer installation, HT/LT switchgear, fire safety arrangements and overall electrical safety design. Approval is required before the installation can be energised and is independent of [DISCOM](/glossary/discom/) grid interconnection commissioning.
 
 The threshold for CEIG approval varies by state. Most states require approval for installations above 10 kW or for any HT-connected installation. Some states require approval for all rooftop solar installations regardless of size.
 
@@ -80,7 +87,7 @@ Before your solar plant can be turned on, the state electrical inspectorate has 
 
 ## Why CEIG matters
 
-Statutory electrical safety. CEIG approval is mandatory before energisation of installations above the state threshold.
+Statutory electrical safety. CEIG approval is mandatory before energisation of installations above the state threshold, and sits alongside broader [BIS/IEC compliance requirements for solar inverters](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/).
 
 Drawing approval. Single-line diagram approval ensures design soundness.
 
@@ -160,7 +167,7 @@ State-specific document format requirements.
 
 ## Best practices
 
-Engage a licensed electrical contractor familiar with the local CEIG.
+Engage a licensed electrical contractor familiar with the local CEIG, or work with a firm that already prepares [CEIG-compliant electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) as part of the design package.
 
 Submit drawings early, ideally during installation phase.
 
@@ -168,7 +175,7 @@ Use standard symbols and notations on the SLD.
 
 Specify earthing resistance below 5 ohms.
 
-Photograph earthing pits and SPD installation for documentation.
+Photograph earthing pits and [SPD](/glossary/spd/) installation for documentation.
 
 Coordinate fire safety NOC in parallel with CEIG application.
 
@@ -176,7 +183,7 @@ Coordinate fire safety NOC in parallel with CEIG application.
 
 Maharashtra Electrical Inspectorate, Karnataka CEIG, Tamil Nadu CEIG, Andhra Pradesh DEI and Gujarat CEIG are among the more active state inspectorates for solar.
 
-CEA Measures Relating to Safety and Electric Supply Regulations 2023 provide the national framework that state CEIGs follow.
+[CEA](/glossary/cea/) Measures Relating to Safety and Electric Supply Regulations 2023 provide the national framework that state CEIGs follow.
 
 CEIG fees and process steps vary materially across states. Some states have moved to online application portals; others remain paper-based.
 

@@ -5,7 +5,7 @@ description: "SERCs are state electricity regulators that set retail tariffs and
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is serc
   - state electricity regulatory commission
@@ -68,9 +68,16 @@ author: "Nirav Dhanani"
 
 ## What is a SERC
 
-A State Electricity Regulatory Commission is the statutory regulator that governs the electricity sector within a state. Constituted under the Electricity Act 2003, SERCs set retail tariffs for state DISCOMs, regulate intra-state transmission utilities, notify net metering and gross metering regulations, and adjudicate disputes within the state.
+A State Electricity Regulatory Commission is the statutory regulator that governs the electricity sector within a state. Constituted under the [Electricity Act 2003](/glossary/electricity-act-2003/), SERCs set retail [tariffs](/glossary/tariff/) for state [DISCOMs](/glossary/discom/), regulate intra-state transmission utilities, notify net metering and gross metering regulations, and adjudicate disputes within the state.
 
-For Indian solar, the SERC is the most consequential regulatory body for distributed and rooftop systems. The retail tariff at which solar offsets consumption is set by the SERC. The net metering framework, the gross metering thresholds, the time-of-day tariff structure, the reactive power penalties and the RPO obligations all flow from SERC orders.
+> **TL;DR**
+> - A SERC (State Electricity Regulatory Commission) is each state's own electricity regulator, distinct from CERC which handles inter-state and central matters.
+> - SERCs set the retail tariff, which is the single biggest factor in solar payback, and notify net metering and gross metering rules.
+> - Rules vary materially by state — Maharashtra MERC, Karnataka KERC, Delhi DERC and others each publish their own net metering and time-of-day tariff orders.
+> - Tariff orders are typically revised annually, with multi-year orders spanning 3 to 5 years and annual true-ups.
+> - SERC orders can be appealed to the Appellate Tribunal for Electricity (APTEL) and then the Supreme Court.
+
+For Indian solar, the SERC is the most consequential regulatory body for distributed and rooftop systems. The retail tariff at which solar offsets consumption is set by the SERC. The [net metering](/glossary/net-metering/) framework, the [gross metering](/glossary/gross-metering/) thresholds, the time-of-day tariff structure, the reactive power penalties and the RPO obligations all flow from SERC orders.
 
 ## SERC explained simply
 
@@ -78,11 +85,11 @@ Your state has its own electricity regulator. They decide how much you pay per u
 
 ## Why SERCs matter
 
-Retail tariffs. The single biggest factor in solar payback calculation.
+Retail tariffs. The single biggest factor in solar payback calculation — run your own numbers with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) once you know your state's tariff order.
 
 Net metering rules. Cap, credit value and carry-forward rules are state-specific.
 
-DISCOM oversight. SERCs approve DISCOM revenue requirements and tariff trajectories.
+DISCOM oversight. SERCs approve DISCOM revenue requirements and tariff trajectories, working alongside [CERC](/glossary/cerc/) on the parts of the market that cross state lines.
 
 RPO setting. State-specific renewable purchase trajectories drive solar offtake.
 
@@ -136,7 +143,7 @@ Setting net metering caps that limit residential system size.
 
 Defining gross metering FIT for C&I.
 
-Approving virtual or group net metering frameworks.
+Approving [virtual net metering](/glossary/virtual-net-metering/) or group net metering frameworks.
 
 Setting power factor penalty schedules.
 
@@ -164,13 +171,13 @@ Implementation depends on DISCOM cooperation.
 
 ## Indian market context
 
-Maharashtra MERC has been at the frontier of net metering and ToD tariffs.
+Maharashtra MERC has been at the frontier of net metering and ToD tariffs; see our [Maharashtra solar subsidy guide](/blog/solar-subsidy-maharashtra-2026/) for how MEDA and the central stack interact locally.
 
-Karnataka KERC has experimented with group net metering and rooftop solar PPAs.
+Karnataka KERC has experimented with group net metering and rooftop solar PPAs, detailed alongside BESCOM rules in our [Karnataka solar subsidy guide](/blog/solar-subsidy-karnataka-2026/).
 
 Delhi DERC operates with three private DISCOMs and has the most mature smart metering framework.
 
-Tamil Nadu TNERC has moved C&I customers above thresholds to gross metering.
+Tamil Nadu TNERC has moved C&I customers above thresholds to gross metering, a shift covered in our [Tamil Nadu solar subsidy guide](/blog/solar-subsidy-tamil-nadu-2026/).
 
 Andhra Pradesh APERC has tightened net metering rules and introduced gross metering for larger systems.
 

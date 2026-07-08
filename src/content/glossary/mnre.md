@@ -5,7 +5,7 @@ description: "MNRE is India's Ministry of New and Renewable Energy. Full guide t
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is mnre
   - mnre india
@@ -70,9 +70,16 @@ author: "Nirav Dhanani"
 
 The Ministry of New and Renewable Energy (MNRE) is the central government ministry responsible for renewable energy in India. Headquartered in New Delhi, MNRE designs national policy, runs subsidy and tender programmes, sets equipment specifications, funds R&D and coordinates with states, regulators and the private sector across the renewable energy value chain.
 
+> **TL;DR**
+> - MNRE (Ministry of New and Renewable Energy) is India's central renewable energy ministry, tracing back to 1982 and renamed to its current form in 2006.
+> - It runs PM Surya Ghar, PM-KUSUM, the solar PLI manufacturing scheme, and controls ALMM equipment listing for subsidised projects.
+> - MNRE sets policy and disburses subsidy; it does not set tariffs (CERC/SERC) or write technical grid standards (CEA).
+> - SECI, IREDA and NISE are the main implementing institutions that report to MNRE.
+> - India's target is 500 GW of non-fossil capacity by 2030, with roughly 280-300 GW expected to come from solar.
+
 MNRE evolved from the Department of Non-Conventional Energy Sources (1982), which became the Ministry of Non-Conventional Energy Sources in 1992, and the Ministry of New and Renewable Energy in 2006. India's renewable capacity growth from 18 GW in 2010 to over 200 GW by 2025 ran almost entirely through MNRE schemes and policies.
 
-For Indian solar specifically, MNRE controls ALMM listing, PM Surya Ghar, PM-KUSUM, rooftop solar guidelines, off-grid solar applications, the solar PLI scheme and the National Green Hydrogen Mission. Anyone designing, financing or building a solar project in India interacts with MNRE rules at some point.
+For Indian solar specifically, MNRE controls [ALMM](/glossary/almm-list/) listing, [PM Surya Ghar](/glossary/pm-surya-ghar/), [PM-KUSUM](/glossary/kusum/), rooftop solar guidelines, off-grid solar applications, the solar PLI scheme and the National Green Hydrogen Mission. Anyone designing, financing or building a solar project in India interacts with MNRE rules at some point — our [MNRE Rooftop Solar Scheme guide](/blog/mnre-rooftop-solar-scheme/) walks through the residential programme in detail.
 
 ## MNRE explained simply
 
@@ -109,7 +116,7 @@ International engagement. International Solar Alliance, IRENA, ISA initiatives a
 | Solar PLI Scheme | 65 GW domestic solar manufacturing |
 | National Green Hydrogen Mission | 5 MMT annual green hydrogen by 2030 |
 | Off-grid solar | Solar lanterns, home systems, micro-grids |
-| Solar Parks | 40 GW capacity across India |
+| [Solar Parks](https://heavengreenenergy.com/ground-mount-solar-park/) | 40 GW capacity across India |
 | Wind-Solar Hybrid Policy | Co-located projects framework |
 
 ## Institutions under MNRE
@@ -126,7 +133,7 @@ Setting ALMM compliance as the precondition for subsidy.
 
 Coordinating PM Surya Ghar across all 28 states.
 
-Issuing guidelines that DISCOMs use for net metering operationalisation.
+Issuing guidelines that [DISCOMs](/glossary/discom/) use for [net metering](/glossary/net-metering/) operationalisation.
 
 Funding rural and off-grid renewable applications.
 
@@ -152,7 +159,7 @@ Subsidy disbursement timelines often slip.
 
 Equipment standards lag international best practice.
 
-Coordination with CEA and CERC has historical friction.
+Coordination with [CEA](/glossary/cea/) and [CERC](/glossary/cerc/) has historical friction.
 
 Scheme design changes between phases can disrupt market expectations.
 
@@ -198,7 +205,7 @@ MNRE's 500 GW non-fossil capacity target by 2030 underwrites the entire current 
 
 The PLI scheme for solar PV manufacturing is being implemented in phases, with Tranche I and II tendered.
 
-The National Green Hydrogen Mission seeks to position India as a global green hydrogen exporter.
+The [National Green Hydrogen Mission](/glossary/green-hydrogen/) seeks to position India as a global green hydrogen exporter.
 
 Coordination with the Ministry of Power and the Ministry of Heavy Industries on grid integration and EV alignment is increasingly important.
 
@@ -212,7 +219,7 @@ State-level renewable policies generally follow MNRE direction, with state-speci
 | MNRE Specifications for Solar PV | Inverter and module technical requirements |
 | ALMM | Approved equipment list |
 | BIS certification framework | Quality compliance |
-| MNRE empanelment criteria | Vendor qualification |
+| [MNRE empanelment criteria](https://heavengreenenergy.com/become-channel-partner/) | Vendor qualification |
 
 ## Common mistakes
 

@@ -5,7 +5,7 @@ description: "ESG covers Environmental, Social and Governance reporting. Full gu
 category: "ESG"
 categorySlug: "esg"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is esg
   - esg solar
@@ -23,6 +23,7 @@ relatedTerms:
   - { slug: "rec", term: "Renewable Energy Certificate" }
   - { slug: "rpo", term: "RPO" }
   - { slug: "green-hydrogen", term: "Green Hydrogen" }
+  - { slug: "ev-charger", term: "EV Charger" }
   - { slug: "ppa", term: "Power Purchase Agreement" }
   - { slug: "resco", term: "RESCO" }
   - { slug: "open-access", term: "Open Access" }
@@ -74,13 +75,21 @@ For corporates, ESG reporting has shifted from voluntary to increasingly mandato
 
 Solar adoption is the most visible and quantifiable lever for the E (environmental) component. Solar directly reduces Scope 2 emissions (from purchased electricity) and supports corporate net-zero commitments. Indian listed companies report renewable energy share in their BRSR submissions, making solar adoption a tracked metric.
 
+> **TL;DR**
+> - ESG (Environmental, Social, Governance) is the framework Indian corporates use to report sustainability performance, with BRSR mandatory for the top 1,000 listed companies since FY 2022-23.
+> - Solar is the most direct, auditable lever for the E score, cutting Scope 2 emissions from purchased electricity.
+> - A 5 kW rooftop system avoids about 5.3 tonnes CO2 a year; a 1 MW C&I plant avoids roughly 1,200 tonnes annually, using India's grid emission factor of 0.71 kgCO2/kWh.
+> - BRSR Core, applicable to the top 150 listed companies, requires third-party assurance of ESG data.
+> - Common Indian C&I targets sit at 30 to 50 percent renewable energy share by 2030, tracked through metered solar generation.
+> - Combining on-site solar with PPAs, RECs and RESCO models is the standard way corporates build a credible, greenwashing-resistant ESG strategy.
+
 ## Why ESG matters
 
 Regulatory compliance. BRSR is mandatory for Indian listed companies.
 
 Investor screening. ESG funds screen companies on E, S and G metrics.
 
-Cost of capital. Strong ESG performers access cheaper finance.
+Cost of capital. Strong ESG performers access cheaper finance, and lenders increasingly weigh a company's [cost of capital](/glossary/wacc/) against its renewable energy share.
 
 Talent attraction. Younger workforce values ESG-aligned employers.
 
@@ -100,6 +109,8 @@ Risk management. Climate risks materially affect business.
 | Net-zero alignment | Visible step toward commitment |
 | Reporting | Direct, auditable kWh contribution |
 
+Corporates typically start with a [turnkey commercial solar installation](https://heavengreenenergy.com/commercial-solar/) sized against annual grid consumption, then layer in a [power purchase agreement](/glossary/ppa/) for loads beyond rooftop capacity or a [RESCO](/glossary/resco/) partner that owns and maintains the plant on a zero-capex basis. For sizing and return calculations at C&I scale, see [Solar IRR and Payback for C&I in India](/blog/solar-irr-payback-ci-india/).
+
 ## Technical deep dive
 
 ### Indian BRSR structure
@@ -118,9 +129,9 @@ Indian grid emission factor (2024 approximate): 0.71 kgCO2/kWh.
 
 Each MWh of grid electricity replaced by solar avoids 0.71 tonnes CO2.
 
-A 5 kW residential rooftop generating 7,500 kWh/year avoids 5.3 tonnes CO2.
+A [5 kW residential rooftop system](/blog/5kw-solar-system-price-india/) generating 7,500 kWh/year avoids 5.3 tonnes CO2.
 
-A 1 MW C&I plant avoids 1,200 tonnes CO2 annually.
+A 1 MW [C&I solar plant](/c-i-solution/) avoids 1,200 tonnes CO2 annually.
 
 ### Indian ESG reporting standards
 
@@ -138,7 +149,7 @@ A 1 MW C&I plant avoids 1,200 tonnes CO2 annually.
 For a company:
 RE share (%) = (Solar kWh + Other RE kWh) / Total electricity kWh × 100
 
-Common Indian C&I corporate targets: 30 to 50 percent RE share by 2030.
+Common Indian C&I corporate targets: 30 to 50 percent RE share by 2030. Corporates modelling the glide path to that target often use [solar financial modeling tools](https://surgepv.com/generation-financial-tool/) to project savings against BRSR-linked commitments.
 
 ## Real-world applications
 
@@ -152,7 +163,7 @@ Investor presentations to ESG funds.
 
 Supply chain sustainability disclosures.
 
-Tender bid documents with ESG scoring.
+[Tender bid documents](/blog/how-to-evaluate-solar-epc-bids/) with ESG scoring.
 
 ## Advantages of solar for ESG
 
@@ -162,7 +173,7 @@ Visible to all stakeholders.
 
 Aligned with global frameworks.
 
-Cost reduction alongside ESG benefit.
+Cost reduction alongside ESG benefit, aligned with a favourable [LCOE](/glossary/lcoe/) trend.
 
 Long-term commitment (25-year asset).
 
@@ -190,7 +201,7 @@ Failure to align ESG strategy with operational practice.
 
 ## Best practices
 
-Combine on-site solar with off-site PPAs and RECs as needed.
+Combine on-site solar with off-site PPAs and [RECs](/glossary/rec/) as needed.
 
 Use third-party verified emission data.
 
@@ -212,7 +223,9 @@ SEBI also mandates sustainability disclosures for IPOs and rights issues.
 
 Major Indian corporates with significant solar adoption: Tata Group, Reliance Industries, Mahindra Group, Infosys, Wipro, TCS.
 
-RE100 (renewable electricity 100 percent target) membership growing among Indian corporates.
+RE100 (renewable electricity 100 percent target) membership growing among Indian corporates, reflected in broader [India solar statistics](/blog/india-solar-statistics-2026-data/) for 2026.
+
+Multi-site corporate rollouts often require [MW-scale EPC project management](https://heavendesigns.in/mw-scale-project-management-consultancy/) to keep BRSR-linked installation timelines on track. Some large industrial ESG programmes now extend decarbonisation beyond electricity to [green hydrogen](/glossary/green-hydrogen/) for hard-to-abate processes and to [EV charger](/glossary/ev-charger/) rollouts for fleet electrification.
 
 ## Standards and certifications
 

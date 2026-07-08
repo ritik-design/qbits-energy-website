@@ -5,7 +5,7 @@ description: "Lead acid batteries are the oldest rechargeable battery technology
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is lead acid battery
   - tubular battery solar
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "equalisation", term: "Equalisation Charging" }
   - { slug: "specific-gravity", term: "Specific Gravity" }
   - { slug: "round-trip-efficiency", term: "Round Trip Efficiency" }
+  - { slug: "ups", term: "UPS" }
 faqs:
   - q: "What is a lead acid battery in simple words?"
     a: "A rechargeable battery using lead plates dipped in sulphuric acid. The oldest commercial rechargeable battery, still widely used because it is cheap and reliable for short-duration backup."
@@ -70,9 +71,16 @@ author: "Nirav Dhanani"
 
 A lead acid battery is a rechargeable electrochemical cell using lead metal and lead dioxide electrodes immersed in dilute sulphuric acid electrolyte. Invented by Gaston Planté in 1859, it is the oldest commercial rechargeable battery and remains in widespread use for automotive starting, uninterruptible power supplies, telecom backup and cost-sensitive solar off-grid systems.
 
-For Indian solar, lead acid is the legacy chemistry that powered the rural off-grid revolution from 2000 to 2020. Tubular flooded lead acid was the workhorse for solar home systems, telecom towers and small commercial backup. From 2022 onward, LFP has displaced lead acid in most new installations, but lead acid remains relevant in cost-sensitive segments and in automotive applications.
+For Indian solar, lead acid is the legacy chemistry that powered the rural off-grid revolution from 2000 to 2020. Tubular flooded lead acid was the workhorse for solar home systems, telecom towers and small commercial backup. From 2022 onward, [LFP](/glossary/lfp-battery/) has displaced lead acid in most new installations, but lead acid remains relevant in cost-sensitive segments and in automotive applications.
 
-Major Indian manufacturers include Exide, Amara Raja, HBL Power Systems, Su-kam, Luminous and Tata Green Batteries. India's lead acid recycling industry is one of the most mature globally, recovering over 95 percent of lead content.
+Major Indian manufacturers include Exide, Amara Raja, HBL Power Systems, Su-kam, Luminous and Tata Green Batteries (see our [Exide vs Amaron battery comparison](/blog/exide-vs-amaron-solar-battery-india/) for a head-to-head). India's lead acid recycling industry is one of the most mature globally, recovering over 95 percent of lead content.
+
+> **TL;DR**
+> - Lead acid batteries use lead electrodes in sulphuric acid electrolyte and cost roughly ₹8,000 to ₹15,000 per kWh, the cheapest chemistry available.
+> - Tubular flooded lead acid delivers 5 to 7 years of service at 50 percent depth of discharge, with 800 to 1,500 cycles.
+> - Round-trip efficiency is 75 to 85 percent, well below LFP's 92 to 95 percent.
+> - India recycles over 95 percent of lead content, one of the highest recovery rates globally.
+> - LFP has displaced lead acid in most new daily-cycling solar installations since 2022, but lead acid remains standard for UPS standby and cost-sensitive rural off-grid systems.
 
 ## Lead acid battery explained simply
 
@@ -82,7 +90,7 @@ For a small rural home with two hours of evening load, a tubular lead acid still
 
 ## Why lead acid still matters
 
-Cost. Lowest upfront cost per kWh of any commercial chemistry.
+Cost. Lowest upfront cost per kWh of any commercial chemistry (see our [solar battery price guide](/blog/solar-battery-price-guide-india-2026/) for current ranges).
 
 Indian manufacturing maturity. Decades of domestic supply chain, recycling and service network.
 
@@ -132,7 +140,7 @@ Equalisation: 2.5 to 2.6 V/cell, 15 to 15.5 V for 12 V.
 | 50% | 800 to 1,500 |
 | 30% | 1,500 to 3,000 |
 
-For solar service, 50 percent DoD is the practical sweet spot for tubular flooded.
+For solar service, 50 percent [depth of discharge](/glossary/battery-dod/) is the practical sweet spot for tubular flooded, and it directly sets the pack's usable [cycle life](/glossary/cycle-life/).
 
 ### Specific gravity
 
@@ -142,13 +150,13 @@ For solar service, 50 percent DoD is the practical sweet spot for tubular floode
 | 50% SOC | 1.225 |
 | Discharged | 1.155 to 1.180 |
 
-Hydrometer reading is the most reliable SOC indicator for flooded lead acid.
+Hydrometer reading is the most reliable [state of charge](/glossary/battery-soc/) indicator for flooded lead acid.
 
 ## Real-world applications
 
-Rural off-grid solar. Tubular flooded packs of 200 to 1,000 Ah at 12 or 24 V.
+Rural off-grid solar. Tubular flooded packs of 200 to 1,000 Ah at 12 or 24 V, often paired with an [off-grid inverter](/glossary/off-grid-inverter/) and installed as part of turnkey [residential solar installations](https://heavengreenenergy.com/residential-solar/) in unelectrified or low-reliability areas.
 
-UPS systems. Indoor flat plate or VRLA AGM, designed for standby with occasional discharge.
+UPS systems. Indoor flat plate or VRLA AGM, designed for standby with occasional discharge (see our [UPS](/glossary/ups/) glossary entry for how these systems differ from solar inverters).
 
 Telecom backup. Historically VRLA AGM, increasingly being replaced by LFP.
 
@@ -182,13 +190,13 @@ Maintenance required for flooded types.
 
 Performance degrades sharply above 30 degrees Celsius.
 
-Round-trip efficiency 75 to 85 percent against 92 to 95 for LFP.
+[Round-trip efficiency](/glossary/round-trip-efficiency/) 75 to 85 percent against 92 to 95 for LFP.
 
 Lead toxicity requires careful handling.
 
 ## Common problems
 
-Premature failure. Almost always traceable to chronic deep cycling below 50 percent SOC, missed top-up, or high temperature.
+Premature failure. Almost always traceable to chronic deep cycling below 50 percent SOC, missed top-up, or high temperature — see [how long solar batteries actually last in Indian conditions](/blog/how-long-solar-batteries-last-india/) for typical failure timelines.
 
 Sulphation. Hardened lead sulphate on plates that does not dissolve. Battery shows full voltage but no capacity.
 
@@ -220,6 +228,8 @@ Replace as a bank, not individual cells.
 
 ## Comparison: lead acid vs LFP vs NMC
 
+Modern [lithium-ion battery](/glossary/lithium-ion-battery/) chemistries outperform lead acid on nearly every metric except upfront cost. For a full head-to-head on real-world Indian pricing and lifespan, see our [lithium vs lead-acid battery comparison](/blog/lithium-vs-lead-acid-solar-battery/).
+
 | Feature | Tubular lead acid | LFP | NMC |
 |---|---|---|---|
 | Cycles at 80% DoD | 350 to 550 | 4,500 to 6,000 | 2,000 to 4,000 |
@@ -237,7 +247,7 @@ Telecom operators have shifted most new tower deployments to LFP. Existing lead 
 
 Recycling is mandated under Battery Waste Management Rules 2022, with extended producer responsibility on manufacturers.
 
-Major brands include Exide, Amara Raja, HBL, Su-kam, Luminous and Tata Green Batteries.
+Major brands include Exide, Amara Raja, HBL, Su-kam, Luminous and Tata Green Batteries; our [best solar battery brands in India](/blog/best-solar-battery-brands-india-2026/) roundup compares them across chemistries. Correctly sizing whichever bank you choose matters as much as the brand — [SurgePV's battery sizing guide](https://surgepv.com/hub/energy-storage/battery-sizing/) walks through the calculation.
 
 For PM Surya Ghar net-metered systems, batteries are not subsidised; both lead acid and LFP can be used for backup as user choice.
 

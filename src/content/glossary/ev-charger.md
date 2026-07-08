@@ -5,7 +5,7 @@ description: "EV chargers supply electricity to electric vehicles. Full guide to
 category: "ESG"
 categorySlug: "esg"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is ev charger
   - ev charger india
@@ -70,6 +70,14 @@ author: "Nirav Dhanani"
 
 An EV charger is the equipment that supplies electrical energy from the grid (or directly from renewable sources) to charge the battery of an electric vehicle. EV chargers come in several categories distinguished by power level, AC vs DC delivery, plug standards and intelligence (smart charging features).
 
+> **TL;DR**
+> - An EV charger delivers AC or DC power to an electric vehicle battery; Indian standards include Bharat AC-001 (3.3 kW), Bharat DC-001, Type 2 AC and CCS-2 DC fast charging.
+> - A residential 3.3 to 7.4 kW AC charger fully charges a typical EV in 6 to 12 hours; DC fast chargers reach 80 percent in 20 to 45 minutes.
+> - A 5 kW rooftop solar system comfortably covers typical daily EV charging load for an Indian household.
+> - Public charging infrastructure has grown past 23,000 chargers nationally, driven by FAME II and PM e-DRIVE subsidies.
+> - Smart chargers can schedule charging to match solar generation or off-peak ToD tariff windows, cutting both cost and grid stress.
+> - BIS certification under IS 17017 and OCPP support are the two checks that matter most when buying a charger.
+
 For Indian EV charging, multiple standards coexist:
 - Bharat AC-001 (3.3 kW): designed for two and three-wheelers
 - Bharat DC-001 (10-15 kW): for early-generation four-wheelers
@@ -77,7 +85,7 @@ For Indian EV charging, multiple standards coexist:
 - CCS-2 (50 to 350 kW DC): for fast charging passenger cars
 - CHAdeMO (50 kW DC): older fast-charging standard
 
-Solar integration is increasingly common, with solar carports, rooftop solar paired with EV charging and smart chargers that schedule charging to match solar generation.
+Solar integration is increasingly common, with [solar carport](/blog/solar-carport-design-software/) installs, rooftop solar paired with EV charging and smart chargers that schedule charging to match solar generation.
 
 ## Why EV chargers matter
 
@@ -85,9 +93,9 @@ EV adoption. Without charging infrastructure, EV adoption stalls.
 
 Grid integration. Smart EV charging supports grid balancing.
 
-Solar synergy. Daytime EV charging matches solar generation profile.
+Solar synergy. Daytime EV charging matches [solar generation profile](/glossary/solar-yield/).
 
-ESG contribution. Zero-emission mobility supports corporate sustainability targets.
+ESG contribution. Zero-emission mobility supports corporate [sustainability targets](/glossary/esg/).
 
 National mission. FAME II, PM e-DRIVE and state EV policies drive deployment.
 
@@ -136,6 +144,8 @@ DC fast charging:
 | Net metering shared with EV | Solar offsets EV consumption via meter |
 | Dedicated solar carport | Carport-integrated chargers |
 | Battery buffer | Solar + battery + charger for high-power charging |
+
+Homeowners planning a dedicated setup can follow a full [solar inverter for EV charging](/blog/solar-inverter-for-ev-charging/) buildout guide, and a [licensed residential solar installer](https://heavengreenenergy.com/residential-solar/) can size the system to the charging load. Sites using a battery buffer for high-power charging typically start from a [battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) exercise before selecting a [lithium-ion battery](/glossary/lithium-ion-battery/) bank.
 
 ### Smart charging features
 

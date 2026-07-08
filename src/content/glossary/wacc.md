@@ -5,7 +5,7 @@ description: "WACC is the blended cost of debt and equity. Full guide to solar p
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - wacc
   - weighted average cost of capital
@@ -68,7 +68,14 @@ author: "Nirav Dhanani"
 
 ## What is WACC
 
-WACC (Weighted Average Cost of Capital) is the blended cost of financing for a project, calculated as the weighted average of the cost of debt and the cost of equity, with weights based on each source's share of total project financing. It is the discount rate used in NPV and LCOE calculations to translate future cash flows to present value.
+WACC (Weighted Average Cost of Capital) is the blended cost of financing for a project, calculated as the weighted average of the cost of debt and the cost of equity, with weights based on each source's share of total project financing. It is the [discount rate](/glossary/discount-rate/) used in [NPV](/glossary/npv/) and [LCOE](/glossary/lcoe/) calculations to translate future cash flows to present value.
+
+> **TL;DR**
+> - WACC is the blended cost of debt and equity financing, weighted by each source's share of total project cost, and is used as the discount rate in NPV and LCOE calculations.
+> - Indian solar WACC in 2026 runs 8 to 10 percent for utility projects, 9 to 11 percent for C&I, and 10 to 12 percent for residential rooftop.
+> - WACC has fallen from 14 to 15 percent in 2010 to 8 to 10 percent today as PPAs became standardised and projects more bankable.
+> - Typical Indian solar leverage is 70/30 debt-to-equity; higher leverage lowers WACC but raises financial risk.
+> - Every 200 bps change in WACC moves LCOE by roughly ₹0.30/kWh for a 100 MW plant, so WACC directly affects PPA tariff bidding.
 
 For Indian solar projects, WACC typically ranges from 8 to 12 percent post-tax depending on project type and risk profile:
 - Utility-scale solar with strong PPA: 8-10 percent
@@ -90,9 +97,9 @@ NPV calculation. Project economics depends on discount rate.
 
 LCOE. Higher WACC means higher LCOE.
 
-PPA tariff bidding. WACC determines minimum acceptable tariff.
+PPA tariff bidding. WACC determines the minimum acceptable [PPA](/glossary/ppa/) tariff.
 
-Project selection. Projects with IRR below WACC destroy value.
+Project selection. Projects with [IRR](/glossary/irr/) below WACC destroy value, a comparison worked through in [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/).
 
 Lender vs equity. Tension between debt cost (lower) and equity return (higher).
 
@@ -110,7 +117,7 @@ Lender vs equity. Tension between debt cost (lower) and equity return (higher).
 
 ### WACC calculation example
 
-For a 100 MW Indian utility solar project:
+For a 100 MW Indian utility solar project, the kind typically run under [MW-scale EPC project management](https://heavendesigns.in/mw-scale-project-management-consultancy/):
 - Capex: ₹400 crore
 - Debt: ₹280 crore (70%) at 8.5% pre-tax, 6.6% after-tax (T=22.4%)
 - Equity: ₹120 crore (30%) at 15%
@@ -164,7 +171,7 @@ NPV and IRR analysis.
 
 LCOE modelling.
 
-Investor pitch materials.
+Investor pitch materials, frequently built around a [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) to test WACC sensitivity.
 
 PPA negotiations.
 
@@ -201,7 +208,7 @@ International lenders (ADB, World Bank, KfW) provide longer tenors at competitiv
 
 Green bonds increasingly used for solar finance.
 
-PLI scheme reduces equipment cost, supporting lower capex and IRR.
+PLI scheme reduces equipment cost, supporting lower [capex](/glossary/capex/) and IRR.
 
 ## Standards and certifications
 

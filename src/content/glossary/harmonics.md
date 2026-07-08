@@ -5,7 +5,7 @@ description: "Harmonics are unwanted higher-frequency components in AC power tha
 category: "Power Quality"
 categorySlug: "power-quality"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what are harmonics
   - power harmonics
@@ -71,6 +71,14 @@ author: "Nirav Dhanani"
 
 Harmonics are sinusoidal components of voltage or current at integer multiples of the fundamental frequency. In a 50 Hz Indian grid, the 3rd harmonic is at 150 Hz, the 5th at 250 Hz, the 7th at 350 Hz, and so on. Any periodic non-sinusoidal waveform can be decomposed into a sum of harmonics through Fourier analysis.
 
+> **TL;DR**
+> - Harmonics are voltage or current components at integer multiples of the 50 Hz fundamental, caused by non-linear loads and switching converters like solar inverters.
+> - IEEE 519 limits most utility connections to under 5 percent current [THD](/glossary/thd/), with tighter limits on individual harmonic orders such as the 5th and 7th.
+> - Modern solar inverters use LCL output filters and high switching frequencies to keep output THD below 3 percent, well within IS 17387 and CEA Grid Code limits.
+> - Triplen harmonics (3rd, 9th, 15th) add up in the neutral conductor of three-phase systems and can overheat wiring.
+> - Uncontrolled harmonics shorten transformer, motor and capacitor life, sometimes halving capacitor lifespan at 5 percent THD.
+> - Harmonics interact closely with [power factor](/glossary/power-factor/) and [reactive power](/glossary/reactive-power/), the other two headline power quality metrics for solar plants.
+
 A perfect sine wave has only the fundamental. A distorted waveform has the fundamental plus harmonic content. Power systems are designed for sine waves. Harmonics cause heating, vibration, equipment ageing and measurement errors. Standards like IEEE 519 and IEC 61000 limit harmonic content to keep power quality manageable.
 
 Solar inverters, like all switching converters, generate some harmonic content as part of their normal operation. Output filters, multilevel topologies and high switching frequencies keep modern inverter harmonic output well within applicable limits.
@@ -81,7 +89,7 @@ Imagine pure music: a single sine-wave tone. Now imagine you add a second tone t
 
 The grid is supposed to deliver a clean 50 Hz sine wave. Anything that distorts it, switching electronics in inverters, computers, drives, fluorescent lamps, adds ragged shapes that are mathematically expressible as a stack of higher-frequency sine waves. Those are harmonics.
 
-A small amount of harmonic ripple is harmless. Too much causes real problems: transformers run hot, motors vibrate, capacitors blow up, breakers nuisance-trip, and meters read wrong.
+A small amount of harmonic ripple is harmless. Too much causes real problems: transformers run hot, motors vibrate, capacitors blow up, breakers nuisance-trip, and meters read wrong. The measure engineers quote to summarise all this ripple in one number is [Total Harmonic Distortion (THD)](/glossary/thd/).
 
 ## Why harmonics matter
 

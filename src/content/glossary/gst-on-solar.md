@@ -5,7 +5,7 @@ description: "GST on solar equipment is 12 percent for modules and inverters. Fu
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - gst on solar
   - solar gst rate
@@ -80,15 +80,22 @@ GST (Goods and Services Tax) on solar in India is the consumption tax applied to
 - Battery storage equipment: 18%
 - Electricity supply: Exempt
 
-The 2021 rate increase from 5 percent to 12 percent for solar equipment was controversial. The current 12 percent rate adds approximately 12-15 percent to total project cost. Business customers can claim input tax credit (ITC) to offset their own GST obligations, while residential customers (including PM Surya Ghar beneficiaries) cannot.
+The 2021 rate increase from 5 percent to 12 percent for solar equipment was controversial. The current 12 percent rate adds approximately 12-15 percent to total project cost. Business customers can claim input tax credit (ITC) to offset their own GST obligations, while residential customers (including PM Surya Ghar beneficiaries) cannot. The full rate breakdown by component is worked through in our [GST on solar inverters and panels guide](/blog/gst-on-solar-inverters-2026/).
+
+> **TL;DR**
+> - GST on solar equipment (modules, inverters, cables) is 12 percent; installation and civil work services attract 18 percent.
+> - Total GST adds roughly 12 to 15 percent to overall project cost.
+> - Business customers recover GST through input tax credit; residential customers, including PM Surya Ghar beneficiaries, absorb it in full.
+> - The rate rose from 5 percent at GST's 2017 introduction to 12 percent from October 2021.
+> - Electricity supply itself is GST-exempt, so solar power sold to a DISCOM is not taxed.
 
 ## Why GST on solar matters
 
-Project cost. Adds 12-15 percent to total capex.
+Project cost. Adds 12-15 percent to total [capex](/glossary/capex/).
 
-ITC for business. Recoverable for taxpaying corporates.
+ITC for business. Recoverable for taxpaying corporates, alongside [accelerated depreciation](/glossary/accelerated-depreciation/) benefits.
 
-PM Surya Ghar impact. Residential customers absorb full GST.
+PM Surya Ghar impact. Residential customers absorb full GST, which is why our [PM Surya Ghar subsidy calculator](/blog/pm-surya-ghar-subsidy-amount/) walks through net cost after both GST and subsidy.
 
 Cash flow. GST timing affects working capital.
 
@@ -99,7 +106,7 @@ PPA economics. GST affects developer cost structure.
 | Item | Rate |
 |---|---|
 | Solar PV modules and cells | 12% |
-| Solar inverters (HSN 8504) | 12% |
+| [Solar inverters](/glossary/solar-inverter/) (HSN 8504) | 12% |
 | Solar pumps | 12% |
 | Solar lanterns | 12% |
 | Mounting structures (solar-specific) | 12% |
@@ -134,7 +141,7 @@ For 100 kW C&I:
 - ITC recovery (for business with output GST): ₹5.2 lakh
 - Net effective cost: ₹40 lakh
 
-For business customers, GST is effectively pass-through (collected and offset).
+For business customers, GST is effectively pass-through (collected and offset), a structure most [commercial EPC installations](https://heavengreenenergy.com/commercial-solar/) already factor into their quotes.
 
 ### Historical timeline
 
@@ -157,11 +164,11 @@ Business customer:
 
 Project cost budgeting.
 
-Tax structure decisions (CAPEX vs RESCO).
+Tax structure decisions ([CAPEX vs RESCO](/glossary/resco/)).
 
-Financial modelling.
+Financial modelling, typically run through [solar financial modeling](https://surgepv.com/generation-financial-tool/) software rather than manual spreadsheets.
 
-Tender bid pricing.
+Tender bid [pricing](https://quickestimate.co/pricing/) for EPCs quoting customers.
 
 Working capital management.
 

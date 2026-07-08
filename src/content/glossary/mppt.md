@@ -5,7 +5,7 @@ description: "MPPT (Maximum Power Point Tracking) is the algorithm that extracts
 category: "MPPT and Strings"
 categorySlug: "mppt-strings"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is mppt
   - mppt full form
@@ -34,6 +34,7 @@ relatedTerms:
   - { slug: "shading-loss", term: "Shading Loss" }
   - { slug: "dc-optimiser", term: "DC Optimiser" }
   - { slug: "string-sizing", term: "String Sizing" }
+  - { slug: "temperature-coefficient", term: "Temperature Coefficient" }
 faqs:
   - q: "What is MPPT in solar in simple words?"
     a: "MPPT is the smart control inside a solar inverter or charge controller that constantly finds the voltage at which the panels produce the most watts. Because that sweet spot shifts with sun and temperature, MPPT runs all day every day."
@@ -70,7 +71,15 @@ author: "Keyur Rakholiya"
 
 ## What is MPPT
 
-MPPT stands for Maximum Power Point Tracking. It is the algorithm, paired with a DC-DC converter, that continuously adjusts the operating point of a solar PV array to extract the most power available at any moment. Every modern solar inverter, hybrid inverter, off grid inverter, charge controller and microinverter includes MPPT.
+MPPT stands for Maximum Power Point Tracking. It is the algorithm, paired with a DC-DC converter, that continuously adjusts the operating point of a solar PV array to extract the most power available at any moment. Every modern [solar inverter](/glossary/solar-inverter/), [hybrid inverter](/glossary/hybrid-inverter/), [off grid inverter](/glossary/off-grid-inverter/), charge controller and [microinverter](/glossary/micro-inverter/) includes MPPT.
+
+> **TL;DR**
+> - MPPT (Maximum Power Point Tracking) is the algorithm that continuously adjusts a PV array's operating voltage to extract the maximum available power.
+> - It raises energy yield 15 to 30 percent over fixed-voltage operation.
+> - Every modern solar inverter and charge controller implements MPPT; PWM controllers do not.
+> - Tracking algorithms like perturb-and-observe refresh the operating point every 5 to 20 ms.
+> - Strings must be sized so Vmp and Voc stay inside the inverter's MPPT voltage window across temperatures.
+> - Splitting a single MPPT across mismatched orientations can cost 4 to 12 percent of annual yield.
 
 The need arises from the shape of the PV cell I-V curve. A panel's voltage and current are not independent. As you load the panel more, voltage drops and current rises, and the product, power, peaks somewhere in the middle. That peak is the maximum power point, or MPP. The MPP shifts with irradiance, temperature, shading and module age.
 
@@ -88,11 +97,11 @@ When a cloud passes, the sweet spot shifts. MPPT chases it. When a tree shades h
 
 Energy yield. The 15 to 30 percent gain over fixed-voltage operation is the single largest improvement in PV system economics from the 1990s to today.
 
-Battery charging efficiency. In off grid and hybrid systems, MPPT charge controllers extract more energy than PWM controllers from the same array, especially when battery voltage is significantly lower than panel Vmp.
+Battery charging efficiency. In off grid and hybrid systems, MPPT charge controllers extract more energy than [PWM](/glossary/pwm/) controllers from the same array, especially when battery voltage is significantly lower than panel Vmp. SurgePV's [battery sizing guide](https://surgepv.com/hub/energy-storage/battery-sizing/) walks through matching charge controller output to bank capacity in more detail.
 
 Robustness to weather. MPPT tracks the moving MPP across the day, handling cloud passages, temperature swings and shifting irradiance without operator intervention.
 
-Multi-orientation system support. Multiple MPPT inputs let one inverter handle east-facing and west-facing strings independently, with each tracked to its own MPP.
+Multi-orientation system support. Multiple MPPT inputs let one inverter handle east-facing and west-facing strings independently, with each tracked to its own MPP — our [dual MPPT vs single MPPT guide](/blog/dual-mppt-vs-single-mppt/) covers when a second tracker earns back its cost.
 
 Standardisation. Every credible solar inverter in India implements MPPT. The Indian rooftop market would not function without it.
 

@@ -5,7 +5,7 @@ description: "SPDs protect electrical systems from voltage surges and lightning 
 category: "Protection"
 categorySlug: "protection"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is spd
   - surge protection device
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "ac-cable", term: "AC Cable" }
   - { slug: "isolator", term: "Isolator" }
   - { slug: "distribution-board", term: "Distribution Board" }
+  - { slug: "ev-charger", term: "EV Charger" }
 faqs:
   - q: "What is SPD in simple words?"
     a: "A device that diverts dangerous voltage spikes (from lightning or switching) safely to earth, protecting your inverter, panels and appliances."
@@ -70,9 +71,17 @@ author: "Nirav Dhanani"
 
 A Surge Protection Device (SPD) is an electrical device designed to limit transient overvoltages and divert surge currents to ground, protecting downstream equipment from damage. SPDs are essential for solar installations in lightning-prone areas, which includes most of India.
 
-SPDs use voltage-limiting components, most commonly metal oxide varistors (MOVs), gas discharge tubes (GDTs) or silicon avalanche diodes. Under normal voltage, the SPD presents very high impedance and draws negligible current. When voltage exceeds the clamping threshold, impedance drops dramatically, allowing surge current to flow to earth instead of damaging equipment.
+SPDs use voltage-limiting components, most commonly metal oxide varistors (MOVs), gas discharge tubes (GDTs) or silicon avalanche diodes. Under normal voltage, the SPD presents very high impedance and draws negligible current. When voltage exceeds the clamping threshold, impedance drops dramatically, allowing surge current to flow to [earth](/glossary/earthing/) instead of damaging equipment.
 
-For Indian solar installations, CEA Measures Relating to Safety and IS 17387 require SPD on both the DC side (between PV modules and inverter) and the AC side (between inverter and grid). Indian thunderstorm activity makes SPD non-optional for plant longevity.
+> **TL;DR**
+> - An SPD diverts transient overvoltage from lightning or switching events to earth, protecting the inverter, modules and connected appliances downstream.
+> - Indian solar installations need SPDs on both the DC side (between modules and inverter) and the AC side (between inverter and grid); CEA Measures and IS 17387 make this mandatory.
+> - Type 2 SPDs (8/20 µs test waveform) cover most solar sub-distribution needs; Type 1 (10/350 µs) is added at the service entry on buildings with a lightning protection system.
+> - An SPD only works if it is properly earthed, and it wears out with every surge it absorbs, so its status indicator needs checking.
+> - Replace an SPD immediately when its indicator shows end-of-life, and budget for replacement every 5 to 10 years in lightning-prone regions even without a visible trigger.
+> - SPD cost (a few thousand rupees) is negligible next to the inverter and module investment it protects.
+
+For Indian solar installations, CEA Measures Relating to Safety and IS 17387 require SPD on both the DC side (between PV modules and inverter) and the AC side (between inverter and grid). Indian thunderstorm activity makes SPD non-optional for plant longevity, a risk our [surge protection buyer's guide](/blog/how-to-choose-solar-inverters-with-surge-protection/) covers in more depth.
 
 ## Why SPDs matter
 
@@ -140,17 +149,17 @@ Most solar installations use Type 2. Service entry to lightning-protected buildi
 
 ## Real-world applications
 
-Solar inverter DC input protection.
+[Solar inverter](/glossary/solar-inverter/) DC input protection.
 
 Solar inverter AC output protection.
 
-Combiner box on utility plants.
+[Combiner box](/glossary/combiner-box/) on utility plants.
 
-Distribution panel at building entry.
+[Distribution panel](https://heavengreenenergy.com/products/acdb-dcdb/) at building entry.
 
 Telecom tower equipment protection.
 
-EV charger protection.
+[EV charger](/glossary/ev-charger/) protection.
 
 ## Common SPD problems
 
@@ -182,7 +191,7 @@ Replace SPDs immediately when end-of-life indicated.
 
 Coordinate Type 1 with Type 2 if both used.
 
-Use back-up fuse to disconnect failed SPD.
+Use a back-up [fuse](/glossary/fuse/) to disconnect a failed SPD.
 
 ## Comparison: SPD types
 
@@ -194,7 +203,7 @@ Use back-up fuse to disconnect failed SPD.
 
 ## Indian market context
 
-Major Indian SPD brands include Phoenix Contact, ABB, Schneider Electric, Siemens, Havells, OBO, Citel, DEHN and Mersen.
+Major Indian SPD brands include Phoenix Contact, ABB, Schneider Electric, Siemens, Havells, OBO, Citel, DEHN and Mersen, most of which are stocked through EPC channels like [Heaven Green Energy's equipment shop](https://heavengreenenergy.com/shop/).
 
 ALMM does not list SPDs. BIS certification under IS 16480 applies.
 

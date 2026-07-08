@@ -5,7 +5,7 @@ description: "DOD is how deeply a battery is discharged in each cycle. Full guid
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is battery dod
   - depth of discharge
@@ -68,9 +68,17 @@ author: "Nirav Dhanani"
 
 ## What is battery DOD
 
-Depth of Discharge (DOD) is the percentage of a battery's nominal capacity that has been discharged from full. It is the inverse of State of Charge: SOC + DOD = 100 percent at any moment. The term is used in two senses: instantaneous DOD (right now) and cycle DOD (the deepest point in a charge-discharge cycle).
+Depth of Discharge (DOD) is the percentage of a battery's nominal capacity that has been discharged from full. It is the inverse of [State of Charge](/glossary/battery-soc/): SOC + DOD = 100 percent at any moment. The term is used in two senses: instantaneous DOD (right now) and cycle DOD (the deepest point in a charge-discharge cycle).
 
-For solar storage design, the relevant metric is cycle DOD. Sizing decisions, warranty terms and cycle life predictions all use cycle DOD. A 10 kWh nominal battery sized for 80 percent DOD provides 8 kWh of usable energy per cycle.
+> **TL;DR**
+> - DOD is the percentage of a battery's capacity used in a cycle; SOC + DOD always equals 100 percent.
+> - LFP tolerates 80 to 90 percent DOD daily, while lead acid needs 50 percent or shallower for reasonable cycle life.
+> - Deeper DOD per cycle means more usable energy today but fewer total cycles before end of life.
+> - Sizing formula: required nominal kWh = usable kWh ÷ (DOD × round-trip efficiency).
+> - Manufacturer warranties specify a cycle count at a given DOD, and operating beyond it can void the warranty.
+> - Real-world solar storage rarely hits full DOD; rainflow counting tracks the partial cycles that actually occur.
+
+For solar storage design, the relevant metric is cycle DOD. Sizing decisions, warranty terms and [cycle life](/glossary/cycle-life/) predictions all use cycle DOD. A 10 kWh nominal battery sized for 80 percent DOD provides 8 kWh of usable energy per cycle.
 
 DOD is the single most important design choice in battery sizing after capacity itself. Choosing the right DOD for the chemistry balances upfront capex against cycle life and lifecycle cost.
 
@@ -78,7 +86,7 @@ DOD is the single most important design choice in battery sizing after capacity 
 
 If your battery holds 10 kWh when full and you discharge it down to 2 kWh, you used 80 percent. That is 80 percent DOD. Cycle life depends on how deep you go each cycle.
 
-For lead acid, going deeper than 50 percent per cycle damages the battery quickly. For LFP, you can comfortably do 80 to 90 percent every day. Different chemistries, different DOD habits.
+For [lead acid batteries](/glossary/lead-acid-battery/), going deeper than 50 percent per cycle damages the battery quickly. For [LFP](/glossary/lfp-battery/), you can comfortably do 80 to 90 percent every day. Different chemistries, different DOD habits.
 
 ## Why DOD matters
 
@@ -94,7 +102,7 @@ User experience. Apparent runtime depends on usable capacity, which depends on D
 
 ## How DOD affects cycle life
 
-Cycle life is the number of full charge-discharge cycles before capacity drops to a specified threshold, typically 80 percent of original. At lower DOD, more cycles are possible.
+[Cycle life](/glossary/cycle-life/) is the number of full charge-discharge cycles before capacity drops to a specified threshold, typically 80 percent of original. At lower DOD, more cycles are possible.
 
 For LFP, an approximate relationship:
 
@@ -119,13 +127,13 @@ Required nominal kWh = usable kWh / (DOD × η_rt)
 
 Example: A residence needs 6 kWh usable per day, designs for 80 percent DOD on LFP at 92 percent round-trip:
 Nominal = 6 / (0.80 × 0.92) = 8.15 kWh
-Round up to nearest commercial size, typically 10 kWh nominal.
+Round up to nearest commercial size, typically 10 kWh nominal. Tools built for [battery and energy storage sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) use this same usable-kWh-over-DOD approach when speccing hybrid solar storage for installers.
 
 ### DOD vs Calendar ageing trade-off
 
-Beyond cycle life, calendar ageing happens whether the battery is cycled or not. Calendar ageing is faster at high SOC and high temperature.
+Beyond cycle life, calendar ageing happens whether the battery is cycled or not. [Calendar ageing](/glossary/calendar-life/) is faster at high SOC and high temperature, a dynamic explored further in [how long solar batteries actually last in Indian heat](/blog/how-long-solar-batteries-last-india/).
 
-For lithium-ion, holding the battery at 100 percent SOC accelerates calendar ageing. Operating at 80 to 90 percent average SOC balances cycle life and calendar life.
+For [lithium-ion batteries](/glossary/lithium-ion-battery/), holding the battery at 100 percent SOC accelerates calendar ageing. Operating at 80 to 90 percent average SOC balances cycle life and calendar life.
 
 ### Partial DOD cycling
 
@@ -137,7 +145,7 @@ Cumulative cycle equivalents are computed via rainflow counting.
 
 ### DOD and round-trip efficiency
 
-Round-trip efficiency varies slightly with DOD. Higher DOD includes lower-SOC operation, where coulombic and voltage efficiency dip slightly.
+[Round-trip efficiency](/glossary/round-trip-efficiency/) varies slightly with DOD. Higher DOD includes lower-SOC operation, where coulombic and voltage efficiency dip slightly.
 
 | Chemistry | Round-trip at 50% DOD | Round-trip at 100% DOD |
 |---|---|---|
@@ -147,7 +155,7 @@ Round-trip efficiency varies slightly with DOD. Higher DOD includes lower-SOC op
 
 ## Real-world applications
 
-Residential storage sizing for hybrid solar.
+Residential storage sizing for [hybrid solar](/glossary/hybrid-inverter/).
 
 Telecom backup with deep discharge during long outages.
 
@@ -254,7 +262,7 @@ DOD is the depth of each charge-discharge cycle, expressed as a percentage of no
 
 ## Need DOD-correct battery sizing?
 
-QBits Energy sizes solar storage systems by usable kWh at appropriate DOD, matched to chemistry, inverter compatibility and warranty terms.
+QBits Energy sizes solar storage systems by usable kWh at appropriate DOD, matched to chemistry, inverter compatibility and warranty terms. For the full sizing walkthrough, see [how to size a battery for a hybrid solar inverter](/blog/battery-sizing-hybrid-solar/).
 
 ## Sources
 

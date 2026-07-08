@@ -5,7 +5,7 @@ description: "PM-KUSUM is India's agricultural solar scheme. Full guide to Compo
 category: "Policies"
 categorySlug: "policies"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is pm kusum
   - kusum scheme
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "net-metering", term: "Net Metering" }
   - { slug: "capex", term: "CAPEX" }
   - { slug: "irr", term: "IRR" }
+  - { slug: "payback-period", term: "Payback Period" }
 faqs:
   - q: "What is PM-KUSUM in simple words?"
     a: "A central scheme that subsidises solar for farmers: standalone solar pumps, solarisation of grid-connected pumps and decentralised solar plants on farm land."
@@ -72,7 +73,15 @@ PM-KUSUM, Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan, is the Gov
 
 The scheme addresses three distinct agricultural energy challenges: barren farm land that can host solar plants (Component A), farmers without grid access who rely on diesel pumps (Component B), and grid-connected pumps that subsidise DISCOMs (Component C). Each component has its own subsidy structure, eligible technology and implementation pathway.
 
-Implementation runs through state agencies (state nodal agencies for renewable energy) with central financial support from MNRE. Banks provide concessional finance for the farmer share of capex. ALMM-listed equipment is required for subsidy disbursement.
+Implementation runs through state agencies (state nodal agencies for renewable energy) with central financial support from [MNRE](/glossary/mnre/). Banks provide concessional finance for the farmer share of capex. [ALMM-listed](/glossary/almm-list/) equipment is required for subsidy disbursement.
+
+> **TL;DR**
+> - PM-KUSUM targets 35 GW of agricultural solar by 2026 across three components: A (decentralised plants), B (standalone pumps) and C (grid-connected pump solarisation).
+> - Component A targets 10 GW on barren farm land, Component B targets 14 lakh standalone pumps, and Component C targets 35 lakh grid-connected pump solarisations.
+> - Subsidy covers up to 60 percent of capex, split 30 percent central and 30 percent state, with the farmer paying 10 percent plus a 30 percent bank loan.
+> - Launched in March 2019, the scheme requires ALMM-listed modules and inverters for subsidy disbursement.
+> - Component B leads adoption at roughly 24 percent of target, while Components A and C lag due to land aggregation and DISCOM coordination delays.
+> - Component A power is sold to the local DISCOM at a state-set [feed-in tariff](/glossary/feed-in-tariff/), typically ₹3.10 to ₹4.50 per kWh.
 
 ## PM-KUSUM components
 
@@ -88,11 +97,11 @@ Diesel replacement. 35 lakh diesel pumps consume billions of litres of fuel annu
 
 Farmer income. Solar offers free electricity plus surplus revenue.
 
-DISCOM relief. Agricultural subsidy is one of the largest DISCOM losses. Solarisation reduces it.
+DISCOM relief. Agricultural subsidy is one of the largest [DISCOM](/glossary/discom/) losses. Solarisation reduces it.
 
 Carbon abatement. Estimated 30 to 50 million tonnes CO2 saved annually at target capacity.
 
-Rural electrification. Component B brings electricity where the grid does not reach.
+Rural electrification. Component B brings electricity where the grid does not reach, often paired with an [off grid inverter](/glossary/off-grid-inverter/) for standalone pump loads.
 
 Land utilisation. Component A monetises barren land.
 
@@ -127,7 +136,7 @@ Land utilisation. Component A monetises barren land.
 | Eligible pumps | Existing grid-connected agricultural |
 | Subsidy structure | Similar to Component B |
 | Surplus power | Sold to DISCOM at FIT |
-| Net metering | Applicable for individual pump solarisation |
+| [Net metering](/glossary/net-metering/) | Applicable for individual pump solarisation |
 | Feeder solarisation | Aggregate solar at substation level |
 
 ### Equipment requirements

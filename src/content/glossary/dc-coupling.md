@@ -5,7 +5,7 @@ description: "DC coupling shares a common DC bus between solar PV and battery in
 category: "System Layout"
 categorySlug: "system-layout"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is dc coupling
   - dc coupled solar battery
@@ -32,6 +32,8 @@ relatedTerms:
   - { slug: "battery-soc", term: "Battery SOC" }
   - { slug: "self-consumption", term: "Self Consumption" }
   - { slug: "dc-bus", term: "DC Bus" }
+  - { slug: "grid-forming-inverter", term: "Grid-Forming Inverter" }
+  - { slug: "string-sizing", term: "String Sizing" }
 faqs:
   - q: "What is DC coupling in simple words?"
     a: "Solar panels and battery share a common DC bus inside one hybrid inverter. One box, one DC connection between PV and battery, one AC output to the home."
@@ -68,11 +70,18 @@ author: "Nirav Dhanani"
 
 ## What is DC coupling
 
-DC coupling is a solar-plus-storage system architecture in which the PV array and the battery bank share a common internal DC bus inside a single hybrid inverter. PV power feeds the DC bus through MPPT-controlled boost converters. Battery power flows in and out through a bidirectional DC-DC converter. A single AC inversion stage converts the DC bus into grid-quality AC.
+DC coupling is a solar-plus-storage system architecture in which the PV array and the battery bank share a common internal DC bus inside a single [hybrid inverter](/glossary/hybrid-inverter/). PV power feeds the DC bus through MPPT-controlled boost converters. Battery power flows in and out through a bidirectional DC-DC converter. A single AC inversion stage converts the DC bus into grid-quality AC.
 
-This architecture contrasts with AC coupling, where PV inverter and battery inverter are separate units connected through the AC bus. DC coupling is the dominant topology for new residential and small commercial solar-plus-storage systems because of higher round-trip efficiency, lower capex and simpler installation.
+> **TL;DR**
+> - DC coupling shares PV and battery on one internal DC bus inside a single hybrid inverter, unlike AC coupling's two separate inverters.
+> - Round-trip efficiency is 91 to 94 percent, versus 84 to 89 percent for AC coupling, since energy passes through one fewer conversion stage.
+> - It is roughly 15 to 20 percent cheaper than AC coupling for new installations and is the dominant architecture for new residential and small commercial solar-plus-storage systems.
+> - Grid-forming backup during outages is typically built in, since PV and battery already share one inverter.
+> - Retrofitting DC coupling onto existing PV is difficult, since it usually requires replacing the existing PV inverter with a hybrid inverter.
 
-In Indian solar, DC coupling appears in residential hybrid systems from Sungrow, Solis, Goodwe, Solax, Deye, Growatt, Tata Power Solar, Luminous and others. Most new hybrid inverter sales are DC coupled by default.
+This architecture contrasts with [AC coupling](/glossary/ac-coupling/), where PV inverter and battery inverter are separate units connected through the AC bus. DC coupling is the dominant topology for new residential and small commercial solar-plus-storage systems because of higher round-trip efficiency, lower capex and simpler installation.
+
+In Indian solar, DC coupling appears in residential hybrid systems from Sungrow, Solis, Goodwe, Solax, [Deye, Growatt](/blog/deye-vs-growatt-india/), Tata Power Solar, Luminous and others. Most new hybrid inverter sales are DC coupled by default.
 
 ## DC coupling explained simply
 
@@ -90,7 +99,7 @@ Smaller footprint. Single wall-mounted device.
 
 Simpler wiring. One inverter, one AC connection, one battery cable.
 
-Backup default. Hybrid inverters typically include grid-forming backup output.
+Backup default. Hybrid inverters typically include [grid-forming](/glossary/grid-forming-inverter/) backup output.
 
 Better self-consumption. EMS sees both PV and battery directly, simplifying optimisation.
 
@@ -130,7 +139,7 @@ The battery connects through a buck-boost converter that decouples battery volta
 
 ### MPPT count
 
-Typical residential hybrids have 1 to 4 MPPTs. Each MPPT can track a different orientation or shading group.
+Typical residential hybrids have 1 to 4 [MPPTs](/glossary/mppt/). Each MPPT can track a different orientation or [shading group](/glossary/shading-analysis/).
 
 ### EMS integration
 
@@ -138,9 +147,9 @@ Because PV and battery are on the same DC bus inside one device, the EMS sees bo
 
 ## Real-world applications
 
-Residential hybrid solar. The dominant Indian residential storage architecture.
+[Residential hybrid solar](https://heavengreenenergy.com/residential-solar/). The dominant Indian residential storage architecture.
 
-Small commercial hybrid systems. 5 to 50 kW range.
+[Small commercial hybrid systems](https://heavengreenenergy.com/commercial-solar/). 5 to 50 kW range.
 
 Microgrid hybrid inverters. Multi-MPPT plus battery interface for off-grid villages.
 
@@ -180,9 +189,9 @@ Inverter end of life forces battery system retirement (or replacement).
 
 ## Common problems
 
-Battery compatibility list mismatch. Cells or BMS protocol unsupported.
+Battery compatibility list mismatch. Cells or [BMS](/glossary/bms/) protocol unsupported.
 
-PV string voltage outside MPPT window during cold mornings or hot noons.
+[PV string voltage](/glossary/string-sizing/) outside MPPT window during cold mornings or hot noons.
 
 Inverter overload tripping when both PV and battery surge.
 
@@ -190,7 +199,7 @@ DC arc fault detection nuisance trips.
 
 Communication loss between BMS and inverter pauses charging.
 
-Firmware update needed to support new battery firmware.
+[Firmware update](/blog/solar-inverter-firmware-update-india/) needed to support new battery firmware.
 
 ## Best practices
 
@@ -221,11 +230,11 @@ Specify cabinet ventilation for the inverter.
 
 ## Indian market context
 
-DC coupling dominates Indian residential hybrid solar. Major hybrid inverter brands in the Indian market: Sungrow, Solis, Goodwe, Solax, Deye, Growatt, Luxpower, Tata Power Solar, Luminous and Microtek.
+DC coupling dominates Indian residential hybrid solar. Major hybrid inverter brands in the Indian market: Sungrow, Solis, Goodwe, Solax, Deye, Growatt, Luxpower, Tata Power Solar, [Luminous and Microtek](/blog/luminous-vs-microtek-comparison/).
 
-Battery compatibility lists vary by brand. Most hybrids communicate over CAN bus with LFP packs from Pylon Tech, BYD, Goodwe Storage, Sungrow battery and similar.
+Battery compatibility lists vary by brand. Most hybrids communicate over CAN bus with [LFP](/glossary/lfp-battery/) packs from [Pylon Tech](/blog/pylontech-battery-india-review/), BYD, Goodwe Storage, Sungrow battery and similar.
 
-ALMM listing applies to the hybrid inverter. Battery side is not subsidised under PM Surya Ghar but must be BIS-certified for safety compliance.
+ALMM listing applies to the hybrid inverter. Battery side is not subsidised under [PM Surya Ghar](/glossary/pm-surya-ghar/) but must be BIS-certified for safety compliance.
 
 CEA Grid Code applies to the AC side. Anti-islanding, FRT and reactive power requirements apply to the inverter's grid interaction.
 

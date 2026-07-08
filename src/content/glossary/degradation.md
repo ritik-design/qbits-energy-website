@@ -5,7 +5,7 @@ description: "Module degradation is the gradual loss of solar panel output over 
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is module degradation
   - solar panel degradation
@@ -33,6 +33,10 @@ relatedTerms:
   - { slug: "almm-list", term: "ALMM List" }
   - { slug: "hot-spot", term: "Hot Spot" }
   - { slug: "encapsulant", term: "Encapsulant" }
+  - { slug: "back-sheet", term: "Back Sheet" }
+  - { slug: "junction-box", term: "Junction Box" }
+  - { slug: "almm-list", term: "ALMM List" }
+  - { slug: "solar-yield", term: "Solar Yield" }
 faqs:
   - q: "What is module degradation in simple words?"
     a: "The loss of solar panel output over time. A new panel produces a little less every year, and after 25 years it makes about 84 to 88 percent of what it did originally."
@@ -69,11 +73,18 @@ author: "Nirav Dhanani"
 
 ## What is module degradation
 
-Module degradation is the gradual decline in solar PV module electrical output over its operating life, driven by physical, electrochemical and environmental mechanisms. Some degradation is intrinsic to crystalline silicon physics (light-induced defect formation), some is mechanical (micro-cracks from thermal cycling), some is electrochemical (PID under voltage stress), some is material ageing (encapsulant yellowing, back sheet embrittlement).
+Module degradation is the gradual decline in solar PV module electrical output over its operating life, driven by physical, electrochemical and environmental mechanisms. Some degradation is intrinsic to crystalline silicon physics (light-induced defect formation), some is mechanical (micro-cracks from thermal cycling), some is electrochemical (PID under voltage stress), some is material ageing ([encapsulant](/glossary/encapsulant/) yellowing, back sheet embrittlement).
 
-For modern mono PERC modules, total degradation is approximately 1 to 2 percent in the first 100 hours (LID), then linear 0.45 to 0.55 percent per year, giving 25-year retention of 84 to 87 percent of original nameplate. TOPCon and HJT achieve marginally better numbers.
+For modern [mono PERC](/glossary/perc-cell/) modules, total degradation is approximately 1 to 2 percent in the first 100 hours ([LID](/glossary/lid/)), then linear 0.45 to 0.55 percent per year, giving 25-year retention of 84 to 87 percent of original nameplate. [TOPCon](/glossary/topcon-cell/) and [HJT](/glossary/hjt-cell/) achieve marginally better numbers.
 
 Degradation determines lifecycle yield, warranty terms and replacement planning. Bankability of solar projects depends on degradation assumptions matching field reality.
+
+> **TL;DR**
+> - Module degradation is the gradual, permanent decline in solar panel output over its operating life, driven by LID, PID, LeTID and material ageing.
+> - Modern modules lose 1 to 2 percent in the first 100 hours (LID), then degrade linearly at about 0.30 to 0.55 percent per year.
+> - 25-year retention ranges from 84 to 87 percent for mono PERC up to 88 to 92 percent for HJT.
+> - PID can cause up to 30 percent loss over 5 to 10 years in modules without PID-resistant encapsulant, while LeTID adds 1 to 5 percent under heat and light.
+> - Degradation is irreversible and distinct from soiling, which is a reversible, cleanable loss.
 
 ## Degradation explained simply
 
@@ -138,7 +149,7 @@ Technology comparison. Degradation rates differentiate PERC, TOPCon and HJT.
 | Magnitude | Variable, can be significant in poor-quality modules |
 | Mitigation | Robust manufacturing, careful handling |
 
-### Back sheet degradation
+### [Back sheet](/glossary/back-sheet/) degradation
 
 | Aspect | Detail |
 |---|---|
@@ -181,7 +192,7 @@ Tier-1 manufacturers typically warrant 0.45 to 0.55 percent annual against 0.55 
 
 ## Real-world applications
 
-Lifecycle yield modelling.
+Lifecycle [solar yield](/glossary/solar-yield/) modelling.
 
 Performance warranty enforcement.
 
@@ -217,11 +228,11 @@ Back sheet cracking in tropical climates.
 
 Encapsulant browning visible after 10 to 15 years.
 
-Hot spot induced local degradation.
+[Hot spot](/glossary/hot-spot/) induced local degradation.
 
 Snail trail cosmetic marks (often benign).
 
-Junction box bypass diode failure.
+[Junction box](/glossary/junction-box/) bypass diode failure.
 
 ## Best practices
 
@@ -252,15 +263,15 @@ Track yield against warranty curve.
 
 ## Indian market context
 
-ALMM-listed Indian modules typically warrant linear degradation of 0.45 to 0.55 percent per year with 84 to 87 percent retention at year 25.
+[ALMM-listed](/glossary/almm-list/) Indian modules, [available through authorized solar equipment suppliers](https://heavengreenenergy.com/shop/), typically warrant linear degradation of 0.45 to 0.55 percent per year with 84 to 87 percent retention at year 25.
 
 PID test certification under IEC 62804 is increasingly demanded by Indian project developers.
 
-LeTID has affected some PERC installations from the late 2010s. Modern PERC processes control LeTID.
+[LeTID](/glossary/letid/) has affected some PERC installations from the late 2010s. Modern PERC processes control LeTID.
 
 Climate variation across India (cold Himalayas to hot Rajasthan to humid coast) creates region-specific degradation profiles.
 
-PM Surya Ghar requires modules with linear performance warranty.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) requires modules with linear performance warranty.
 
 ## Standards and certifications
 

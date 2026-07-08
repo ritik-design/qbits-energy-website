@@ -5,7 +5,7 @@ description: "An on grid inverter (grid-tie inverter) converts solar DC into AC 
 category: "Inverter Types"
 categorySlug: "inverter-types"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is on grid inverter
   - grid tie inverter
@@ -34,6 +34,8 @@ relatedTerms:
   - { slug: "thd", term: "Total Harmonic Distortion (THD)" }
   - { slug: "almm-list", term: "ALMM List" }
   - { slug: "discom", term: "DISCOM" }
+  - { slug: "central-inverter", term: "Central Inverter" }
+  - { slug: "transformerless-inverter", term: "Transformerless Inverter" }
 faqs:
   - q: "What is an on grid inverter in simple words?"
     a: "It is a solar inverter that converts panel DC into AC and pushes it straight into the electricity grid. If the grid goes down, the inverter switches off. There is no battery and no backup."
@@ -76,6 +78,14 @@ On the grid side it behaves as a controlled current source. The grid sets the vo
 
 There is no battery, no transfer switch, and no standby mode. When the grid disappears, the inverter must disconnect within milliseconds. This is the most important safety property of a grid-tie inverter, and it is the reason on-grid systems do not provide backup during outages.
 
+> **TL;DR**
+> - An on grid inverter converts PV DC into AC and feeds it directly into the utility grid, with no battery and no backup during outages.
+> - It disconnects within milliseconds of a grid outage, an anti-islanding behaviour required to protect line workers.
+> - It dominates Indian rooftop solar and is the inverter type PM Surya Ghar and most C&I schemes are designed around.
+> - It costs roughly 35 to 50 percent less than an equivalent hybrid system because batteries are skipped entirely.
+> - Peak efficiency reaches 97 to 98.6 percent, the highest of any inverter type since there is no battery round-trip loss.
+> - In India it must be ALMM-listed and BIS-certified under IS 16221 and IS 17387 to qualify for subsidy.
+
 In India, on grid inverters dominate the rooftop solar market. The MNRE PM Surya Ghar Muft Bijli Yojana, almost all C&I projects, and the bulk of state subsidy programs are designed around grid-connected, net-metered systems using on grid inverters.
 
 ## On grid inverter explained simply
@@ -88,7 +98,7 @@ For most Indian homes with a reliable enough grid, this is the cheapest and simp
 
 ## Why on grid inverters matter
 
-Cost. On grid systems are roughly 35 to 50 percent cheaper than equivalent hybrid systems because batteries are skipped entirely. A typical 5 kW rooftop in India costs ₹2.5 to ₹3.5 lakh on-grid, against ₹4.5 to ₹6.5 lakh with storage.
+Cost. On grid systems are roughly 35 to 50 percent cheaper than equivalent [hybrid systems](/glossary/hybrid-inverter/) because batteries are skipped entirely. A typical 5 kW rooftop in India costs ₹2.5 to ₹3.5 lakh on-grid, against ₹4.5 to ₹6.5 lakh with storage.
 
 Efficiency. There is no round-trip loss in a battery. Every kWh of solar generated either powers the load directly or goes to the grid at near-unity efficiency. Hybrid systems typically lose 10 to 15 percent in charge and discharge cycles.
 
@@ -101,10 +111,10 @@ Policy fit. India's net metering framework, smart-meter rollouts and ALMM list a
 The path from sunlight to grid current follows five stages.
 
 1. DC collection. PV strings feed the inverter through fused combiner boxes. Each MPPT input has its own voltage and current sensor.
-2. MPPT control. The processor sweeps the array voltage to find the knee of the I-V curve, then holds the operating point there. Most algorithms use perturb-and-observe or incremental conductance, refreshed every few milliseconds.
+2. [MPPT](/glossary/mppt/) control. The processor sweeps the array voltage to find the knee of the I-V curve, then holds the operating point there. Most algorithms use perturb-and-observe or incremental conductance, refreshed every few milliseconds.
 3. DC boost or buck. A boost converter raises array voltage to the DC bus level needed for inversion, typically 380 to 800 V depending on AC side.
 4. Inversion. IGBT or SiC switches chop the DC bus at 16 to 50 kHz using pulse-width modulation. An LCL filter smooths the chopped output into a clean sine wave.
-5. Grid synchronisation and export. A phase-locked loop matches the inverter output to grid voltage and frequency. Anti-islanding logic continuously checks that the grid is alive. If grid voltage, frequency or impedance moves outside the configured window, the AC contactor opens.
+5. Grid synchronisation and export. A phase-locked loop matches the inverter output to grid voltage and frequency. [Anti-islanding](/glossary/anti-islanding/) logic continuously checks that the grid is alive. If grid voltage, frequency or impedance moves outside the configured window, the AC contactor opens.
 
 All of this happens with a control loop running at the millisecond scale. Modern inverters also report telemetry over Modbus or SunSpec, push it to the cloud over WiFi or 4G, and accept remote firmware updates.
 
@@ -137,18 +147,18 @@ The Indian CEA grid code and IEEE 1547 require the inverter to ride through spec
 |---|---|---|---|
 | Transformer-based, line frequency | 94 to 96% | Older 1 to 5 kW units | Heavy, robust, expensive |
 | High-frequency transformer | 95 to 97% | 1 to 10 kW | Lighter, still isolated |
-| Transformerless | 97 to 98.6% | Modern 1 to 100 kW | Lightest, requires PV negative isolation monitor |
+| [Transformerless](/glossary/transformerless-inverter/) | 97 to 98.6% | Modern 1 to 100 kW | Lightest, requires PV negative isolation monitor |
 | Multilevel (NPC, T-type) | 98 to 99% | Central 50 kW and above | Lower switching losses, lower THD |
 
 ## Real-world applications
 
-Residential solar. Single-phase 1 to 10 kW on grid inverters dominate Indian rooftop projects. Net metering credits surplus and offsets daytime consumption. Typical payback in India: 4 to 6 years.
+[Residential solar](https://surgepv.com/residential-solar-design/). Single-phase 1 to 10 kW on grid inverters dominate Indian rooftop projects. Net metering credits surplus and offsets daytime consumption. Typical payback in India: 4 to 6 years.
 
-Commercial solar. Three-phase 10 to 100 kW inverters power offices, schools, hospitals and small factories. Net or gross metering with state-specific tariffs. Payback in India is 3 to 5 years for daytime-heavy loads.
+[Commercial solar](https://surgepv.com/commercial-solar-design/). Three-phase 10 to 100 kW inverters power offices, schools, hospitals and small factories. Net or gross metering with state-specific tariffs. Payback in India is 3 to 5 years for daytime-heavy loads.
 
-Industrial solar. 50 to 500 kW three-phase inverters connect to LT or HT panels through transformers. Reactive power support is often contractually required by the DISCOM.
+Industrial solar. 50 to 500 kW three-phase inverters connect to LT or HT panels through transformers, often delivered under a turnkey [solar EPC contract](https://heavengreenenergy.com/solar-epc/). Reactive power support is often contractually required by the DISCOM.
 
-Utility-scale solar. 1 to 5 MW central or large string inverters feed step-up transformers at 33 to 66 kV. These plants supply power under PPA contracts at fixed tariffs.
+Utility-scale solar. 1 to 5 MW [central](/glossary/central-inverter/) or large [string inverters](/glossary/string-inverter/) feed step-up transformers at 33 to 66 kV. These plants supply power under PPA contracts at fixed tariffs.
 
 PM Surya Ghar projects. Subsidised 1 to 10 kW residential systems under the central scheme almost always use on grid inverters, paired with a single-phase or three-phase bidirectional meter.
 
@@ -186,6 +196,8 @@ Schedule a 6-monthly check of DC connectors, fan filters and AC torque. Replace 
 
 ## Comparison: on grid vs other inverter types
 
+For a full decision framework across all three architectures, see [On-Grid vs Hybrid Inverter, Which Should You Actually Buy?](/blog/on-grid-vs-hybrid/) and the [off grid inverter](/glossary/off-grid-inverter/) glossary entry.
+
 | Feature | On grid | Off grid | Hybrid |
 |---|---|---|---|
 | Battery required | No | Yes | Optional but typical |
@@ -197,11 +209,11 @@ Schedule a 6-monthly check of DC connectors, fan filters and AC torque. Replace 
 
 ## Indian market context
 
-The MNRE ALMM List of Models and Manufacturers is the gating document for any on grid inverter sold under a subsidised or government-tendered scheme. Inverters must additionally hold BIS certification under IS 16221 (safety) and IS 17387 (grid interconnection).
+The [MNRE ALMM List](/glossary/almm-list/) of Models and Manufacturers is the gating document for any on grid inverter sold under a subsidised or government-tendered scheme. Inverters must additionally hold BIS certification under IS 16221 (safety) and IS 17387 (grid interconnection).
 
-State DISCOMs enforce CEA grid standards through commissioning tests. The standard tests include anti-islanding within 2 seconds of grid loss, THD under 3 percent at rated output and 50 Hz frequency lock-in within ±0.5 Hz.
+State [DISCOMs](/glossary/discom/) enforce CEA grid standards through commissioning tests. The standard tests include anti-islanding within 2 seconds of grid loss, [THD](/glossary/thd/) under 3 percent at rated output and 50 Hz frequency lock-in within ±0.5 Hz.
 
-Net metering rules differ by state. Maharashtra and Gujarat allow net metering up to the sanctioned load. Karnataka and Tamil Nadu have moved towards gross metering for larger systems. Delhi and Kerala allow virtual net metering for group housing.
+[Net metering](/glossary/net-metering/) rules differ by state. Maharashtra and Gujarat allow net metering up to the sanctioned load. Karnataka and Tamil Nadu have moved towards [gross metering](/glossary/gross-metering/) for larger systems. Delhi and Kerala allow virtual net metering for group housing.
 
 ALMM compliance was reinstated in April 2024 after a temporary suspension. As of 2026, only ALMM-listed inverters are eligible for central subsidy, PM Surya Ghar disbursements and CPSU tenders.
 
@@ -220,7 +232,7 @@ ALMM compliance was reinstated in April 2024 after a temporary suspension. As of
 
 ## Common mistakes
 
-Buying an inverter that is too small to save a few rupees. A 4 kW inverter on a 5 kW array sees clipping every clear day from 10 am to 2 pm.
+Buying an inverter that is too small to save a few rupees. A 4 kW inverter on a 5 kW array sees [clipping](/blog/inverter-clipping-explained/) every clear day from 10 am to 2 pm.
 
 Mounting the inverter on a west wall or inside an unventilated cupboard. Both push internal temperatures above derating limits.
 
@@ -232,7 +244,7 @@ Skipping surge protection. Indian thunderstorm zones see lightning surges that f
 
 Forgetting to commission the cloud monitoring. Without it, the first sign of trouble is a lower-than-expected bill three months later.
 
-Letting the warranty card sit in a drawer. Registering the inverter on the manufacturer portal within 30 days is usually mandatory for extended warranty.
+Letting the [warranty card](/blog/solar-inverter-warranty/) sit in a drawer. Registering the inverter on the manufacturer portal within 30 days is usually mandatory for extended warranty.
 
 Mixing inverter brands on the same site. Different anti-islanding algorithms can interact badly, causing nuisance trips.
 

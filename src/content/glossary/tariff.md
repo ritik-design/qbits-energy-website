@@ -5,7 +5,7 @@ description: "Electricity tariff is the per-unit price of electricity. Full guid
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - electricity tariff india
   - solar tariff
@@ -70,6 +70,13 @@ author: "Nirav Dhanani"
 
 Electricity tariff is the per-unit price of electricity, denominated in ₹/kWh (rupees per kilowatt-hour). Indian electricity tariffs are structured by customer category (residential, commercial, industrial, agricultural), consumption slab (low, medium, high), voltage class (LT vs HT), and increasingly by time of day.
 
+> **TL;DR**
+> - Tariff is the per-unit price of electricity, set annually by state SERCs for retail customers and by CERC for inter-state matters.
+> - Indian residential tariffs range roughly ₹3 to ₹12/kWh by slab; commercial ₹7 to ₹10/kWh; industrial ₹5.50 to ₹9/kWh, with 50 to 100 percent variation across states.
+> - Time-of-day (ToD) tariffs, notified by CEA in 2023, charge up to 20 percent more at peak hours and up to 20 percent less off-peak.
+> - Higher retail tariffs directly shorten solar payback, since rooftop solar offsets retail-priced consumption rather than wholesale-priced PPA generation.
+> - C&I tariffs run above the cost of supply to cross-subsidise residential and agricultural categories, which is a major reason C&I solar economics are attractive.
+
 The tariff structure typically includes:
 - Energy charge: ₹/kWh consumed
 - Fixed charge: ₹/month or ₹/kVA
@@ -77,17 +84,17 @@ The tariff structure typically includes:
 - Cross-subsidy surcharge: for open access consumers
 - Taxes and levies: electricity duty, GST on related services
 
-State Electricity Regulatory Commissions (SERCs) set retail tariffs through annual tariff orders, while CERC sets central tariffs for inter-state matters. Tariff design balances cost recovery for DISCOMs, affordability for residential customers, and competitive rates for industrial growth.
+State Electricity Regulatory Commissions ([SERCs](/glossary/serc/)) set retail tariffs through annual tariff orders, while [CERC](/glossary/cerc/) sets central tariffs for inter-state matters. Tariff design balances cost recovery for DISCOMs, affordability for residential customers, and competitive rates for industrial growth.
 
 ## Why tariffs matter
 
 Customer cost. Direct impact on energy bill.
 
-Solar payback. Higher retail tariff means faster solar payback through offsetting consumption.
+Solar payback. Higher retail tariff means faster [solar payback](/glossary/payback-period/) through offsetting consumption, a dynamic accelerating as covered in [Electricity Tariff Hikes in 2026, Why Solar Pays Off Faster Now](/blog/electricity-tariff-hikes-solar/).
 
-PPA structuring. PPA tariff is the contracted long-term price.
+PPA structuring. [PPA](/glossary/ppa/) tariff is the contracted long-term price.
 
-FIT design. Sets feed-in tariff for renewable export.
+FIT design. Sets [feed-in tariff](/glossary/feed-in-tariff/) for renewable export.
 
 Open access decisions. Tariff differential drives open access procurement.
 
@@ -149,15 +156,15 @@ Vary significantly by state.
 Residential and agricultural tariffs typically below cost of supply.
 C&I tariffs above cost of supply, cross-subsidising other categories.
 
-Cross-subsidy surcharge applied on open access consumers to compensate DISCOMs.
+Cross-subsidy surcharge applied on open access consumers to compensate [DISCOMs](/glossary/discom/).
 
 ## Real-world applications
 
 Customer billing.
 
-Solar payback calculation.
+Solar payback calculation, often via a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/).
 
-PPA negotiation.
+PPA negotiation, supported by a [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) to test tariff scenarios.
 
 FIT design.
 
@@ -179,9 +186,9 @@ Document tariff assumption in financial models.
 
 DISCOM tariff orders revised annually.
 
-Smart meter rollout supports ToD implementation.
+[Smart meter](/glossary/smart-meter/) rollout supports ToD implementation.
 
-PM Surya Ghar customers see direct retail tariff offset.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) customers see direct retail tariff offset, detailed further in the [PM Surya Ghar subsidy calculator guide](/blog/pm-surya-ghar-subsidy-amount/).
 
 CERC and SERCs coordinate tariff methodology through Forum of Regulators.
 

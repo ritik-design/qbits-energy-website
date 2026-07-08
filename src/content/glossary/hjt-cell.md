@@ -5,7 +5,7 @@ description: "HJT (Heterojunction) is the premium next-gen solar cell technology
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is hjt cell
   - heterojunction solar
@@ -70,9 +70,16 @@ author: "Nirav Dhanani"
 
 HJT, Heterojunction Technology, is a high-efficiency crystalline silicon solar cell architecture that combines a c-Si wafer with thin amorphous silicon (a-Si) layers deposited on both surfaces. The amorphous silicon provides excellent electrical passivation, separating the silicon-metal interface from the active region of the cell and dramatically reducing electron recombination.
 
-HJT delivers the highest mainstream cell efficiency (25 to 26 percent), the best temperature coefficient (-0.24 to -0.28 percent per degree Celsius), the highest bifaciality factor (90 to 95 percent) and the lowest annual degradation (0.30 to 0.40 percent). These advantages come at a manufacturing cost premium of roughly 15 to 25 percent over PERC.
+HJT delivers the highest mainstream cell efficiency (25 to 26 percent), the best temperature coefficient (-0.24 to -0.28 percent per degree Celsius), the highest bifaciality factor (90 to 95 percent) and the lowest annual degradation (0.30 to 0.40 percent). These advantages come at a manufacturing cost premium of roughly 15 to 25 percent over PERC, comparable to what buyers pay for [IBC cells](/glossary/ibc-cell/), the other leading premium silicon architecture.
 
 In Indian solar, HJT is the premium choice for rooftop installations where space and yield matter, for high-irradiance hot sites, and for EV solar where weight and aesthetics carry value. ALMM listing for HJT modules is growing as PLI-funded Indian capacity comes online.
+
+> **TL;DR**
+> - HJT combines crystalline silicon with thin amorphous silicon passivation layers, reaching 25 to 26 percent cell efficiency, the highest of any mainstream commercial cell.
+> - Its temperature coefficient (-0.24 to -0.28 percent per °C) is the best among silicon technologies, meaning less yield loss on hot Indian rooftops.
+> - HJT has the highest bifaciality factor (90 to 95 percent), ahead of TOPCon (80 to 85 percent) and PERC (70 to 80 percent).
+> - Annual degradation is the lowest of mainstream cells at 0.30 to 0.40 percent, with 88 to 92 percent output retained at year 25.
+> - The cost premium is 15 to 25 percent over PERC and 10 to 15 percent over TOPCon; Indian ALMM listings for HJT remain limited but are growing as of 2026.
 
 ## HJT explained simply
 
@@ -82,19 +89,19 @@ Adding the amorphous layer on both sides (top and bottom) plus a transparent con
 
 ## Why HJT matters
 
-Efficiency leader. 25 to 26 percent cell efficiency is the upper limit for single-junction silicon in mass production.
+Efficiency leader. 25 to 26 percent cell efficiency is the upper limit for single-junction silicon in mass production, translating into among the highest [module efficiency](/glossary/module-efficiency/) ratings on the market.
 
 Best temperature performance. Indian summer sites with 50+ degree Celsius module temperatures lose less yield with HJT than with any other technology.
 
 Highest bifaciality. 90 to 95 percent rear-side response captures the full bifacial benefit.
 
-Lowest degradation. 0.30 to 0.40 percent annual loss is the longest-lasting silicon technology in commercial production.
+Lowest degradation. 0.30 to 0.40 percent annual loss is the slowest rate of [module degradation](/glossary/degradation/) among silicon technologies in commercial production.
 
-Pathway to tandem. HJT is the silicon bottom-cell base for perovskite-silicon tandem cells in development.
+Pathway to tandem. HJT is the silicon bottom-cell base for perovskite-silicon [tandem cells](/glossary/tandem-cell/) in development.
 
 ## How HJT works
 
-1. n-type crystalline silicon wafer at the centre.
+1. [N-type](/glossary/n-type-silicon/) crystalline silicon wafer at the centre.
 2. Intrinsic amorphous silicon (i-a-Si) deposited on both surfaces. This passivates the silicon surface.
 3. Doped amorphous silicon (p-a-Si front, n-a-Si rear) added on top of intrinsic layers. Forms the heterojunction.
 4. Transparent conducting oxide (TCO, usually indium tin oxide) deposited on both surfaces. Provides lateral conductivity.

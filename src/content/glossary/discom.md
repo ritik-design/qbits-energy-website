@@ -5,7 +5,7 @@ description: "A DISCOM is an electricity distribution company that delivers powe
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is discom
   - discom india
@@ -72,7 +72,14 @@ A DISCOM is the electricity distribution company that delivers power to retail c
 
 DISCOMs are the operational interface between customers and the electricity system. Generators sell into the grid through transmission utilities. Transmission utilities deliver to substations. DISCOMs take it from there: 11 kV and 33 kV distribution feeders, low-tension service connections, customer meters and bills.
 
-For solar customers, the DISCOM is the single most important counterparty. Net metering applications, smart-meter installation, commissioning, billing, subsidy disbursement and ongoing dispute resolution all route through the DISCOM.
+> **TL;DR**
+> - A DISCOM (Distribution Company) is the retail electricity utility that bills customers and owns the local wires — roughly 70 to 75 operate across India.
+> - For solar, the DISCOM approves net metering, installs the bidirectional meter and commissions the grid connection.
+> - Target turnaround under PM Surya Ghar is 30 days, though actual timelines range from 30 to 90 days depending on DISCOM capacity.
+> - Most DISCOMs are state-owned, but private operators like Tata Power Delhi, BSES and Adani Electricity Mumbai generally process solar faster.
+> - RDSS reform targets bringing AT&C losses down to 12-15 percent by 2026 through smart metering and infrastructure upgrades.
+
+For solar customers, the DISCOM is the single most important counterparty. [Net metering](/glossary/net-metering/) applications, smart-meter installation, commissioning, billing, subsidy disbursement and ongoing dispute resolution all route through the DISCOM. Application steps and required documents vary meaningfully by state, which is why we maintain a [state-by-state guide to applying for net metering in India](/blog/how-to-apply-net-metering-india/).
 
 ## DISCOM explained simply
 
@@ -84,7 +91,7 @@ Gatekeepers of grid connection. No grid-tied solar runs without DISCOM commissio
 
 Net metering administration. Application, approval, meter installation and billing all sit with the DISCOM.
 
-PM Surya Ghar implementation. Subsidy disbursement waits for DISCOM commissioning data.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) implementation. Subsidy disbursement waits for DISCOM commissioning data.
 
 Technical feasibility. The DISCOM determines whether the feeder can absorb requested solar capacity.
 
@@ -124,7 +131,7 @@ Net metering application submission.
 
 Technical feasibility study by DISCOM engineering team.
 
-Smart bidirectional meter procurement and installation.
+Smart [bidirectional meter](/glossary/bidirectional-meter/) procurement and installation.
 
 Witnessed anti-islanding test at commissioning.
 
@@ -152,7 +159,7 @@ Subsidy disbursement delays where commissioning lag is high.
 
 Technical feasibility studies can stall in feeders with high penetration.
 
-Net metering caps and gross metering threshold differences across states.
+Net metering caps and [gross metering](/glossary/gross-metering/) threshold differences across states, explained side by side in our [gross metering vs net metering comparison](/blog/gross-metering-vs-net-metering/).
 
 Customer service quality variation.
 
@@ -180,7 +187,7 @@ Engage with the local DISCOM office at the application stage.
 
 Document all submissions with date-stamped receipts.
 
-Escalate to nodal officers when timelines slip.
+Escalate to nodal officers when timelines slip, or work with a [local installer who already tracks DISCOM turnaround times](https://heavengreenenergy.com/solar-near-me/) in your area.
 
 Use CGRF when nodal officers do not respond.
 
@@ -212,9 +219,9 @@ PM Surya Ghar success depends materially on DISCOM execution capacity.
 
 | Standard | Scope |
 |---|---|
-| Electricity Act 2003 | DISCOM mandate and licensing |
-| State SERC regulations | Tariff and service rules |
-| CEA Technical Standards 2019 | Grid connectivity |
+| [Electricity Act 2003](/glossary/electricity-act-2003/) | DISCOM mandate and licensing |
+| State [SERC](/glossary/serc/) regulations | Tariff and service rules |
+| [CEA](/glossary/cea/) Technical Standards 2019 | Grid connectivity |
 | CEA Smart Meter Regulations 2023 | Meter requirements |
 | MNRE rooftop guidelines | Net metering interface |
 | RDSS guidelines | Reform framework |
@@ -225,7 +232,7 @@ Treating all DISCOMs as identical. Each has its own portal, forms and bottleneck
 
 Skipping the technical feasibility step.
 
-Engaging non-empanelled vendors expecting subsidy.
+Engaging non-empanelled vendors expecting subsidy — see [why empanelled vendor status matters for PM Surya Ghar](/blog/empanelled-vendor-pm-surya-ghar/).
 
 Not retaining receipts and seal numbers at meter installation.
 

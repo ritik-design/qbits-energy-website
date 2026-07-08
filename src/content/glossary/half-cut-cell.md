@@ -5,7 +5,7 @@ description: "Half-cut cell modules split standard solar cells in half for highe
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is half cut cell
   - half cell module
@@ -68,11 +68,18 @@ author: "Nirav Dhanani"
 
 ## What is a half-cut cell
 
-A half-cut cell module is a photovoltaic module whose cells have been laser-cut in half along their midline, doubling the cell count and halving the current flowing through each cell. The reduced per-cell current cuts I²R resistive losses in the interconnect ribbons and the junction box, raising module efficiency by 1 to 3 percent.
+A half-cut cell module is a photovoltaic module whose cells have been laser-cut in half along their midline, doubling the cell count and halving the current flowing through each cell. The reduced per-cell current cuts I²R resistive losses in the interconnect ribbons and the junction box, raising [module efficiency](/glossary/module-efficiency/) by 1 to 3 percent.
 
 The architecture also enables dual-string interconnection inside the module: the top half forms one string and the bottom half forms another. When partial shading affects the lower row, only that string is curtailed, while the upper string continues at full output. Conventional full-cell modules with linear interconnection lose entire strings under any panel-edge shading.
 
-Half-cut cell modules have become the default in Indian and global crystalline silicon solar from 2020 onward. Most ALMM-listed modules in 2024 to 2026 are half-cut, with full-cell modules persisting only in legacy spare supply.
+Half-cut cell modules have become the default in Indian and global crystalline silicon solar from 2020 onward. Most modules on the current [ALMM List Phase III](/blog/almm-list-phase-iii-guide/) in 2024 to 2026 are half-cut, with full-cell modules persisting only in legacy spare supply.
+
+> **TL;DR**
+> - Half-cut cells are laser-cut in half, halving current per cell and quartering the I²R resistive losses in the interconnect ribbons.
+> - The gain is roughly 1 to 3 percent module efficiency, about 5 to 15 extra watts per panel.
+> - Dual-string wiring means shading on one half of the module only curtails that half's string, giving better partial-shade tolerance than full-cell designs.
+> - Typical modules use 120 or 144 half-cells (equivalent to 60 or 72 full cells) with 3 or 6 bypass diodes.
+> - Half-cut is now the default across PERC, TOPCon and HJT in Indian ALMM-listed modules from 2020 onward.
 
 ## Half-cut explained simply
 
@@ -88,7 +95,7 @@ Lower hot-spot temperature. Lower current means lower local heating under partia
 
 Better partial shade response. Dual-string architecture isolates shaded sections.
 
-Standard at module level. Almost all new module manufacturing uses half-cut.
+Standard at module level. Almost all new module manufacturing uses half-cut, and it works seamlessly with standard [string inverters](/glossary/string-inverter/) without any special MPPT configuration.
 
 Minimal cost premium. Manufacturing additional cost is small, easily recovered in yield gain.
 
@@ -98,7 +105,7 @@ Minimal cost premium. Manufacturing additional cost is small, easily recovered i
 2. Two half-cells produced, each half the area of the original.
 3. Half-cells are interconnected in series.
 4. The top half of the module and the bottom half are wired as separate strings.
-5. Each half-string has its own bypass diode in the junction box.
+5. Each half-string has its own bypass diode in the [junction box](/glossary/junction-box/).
 6. Under uniform illumination, both halves contribute equal power.
 7. Under partial shading, only the affected half is curtailed.
 
@@ -126,6 +133,8 @@ A 144 half-cell module is roughly the same physical size as a 72 full-cell modul
 
 ### Combination with cell technology
 
+Half-cut compatibility spans [PERC](/glossary/perc-cell/), [TOPCon](/glossary/topcon-cell/) and [HJT](/glossary/hjt-cell/) alike:
+
 | Cell tech | Half-cut form |
 |---|---|
 | PERC | Standard 144 half-cell PERC mono |
@@ -148,13 +157,13 @@ Utility-scale solar parks.
 
 C&I solar.
 
-Solar carports and ground-mount.
+Solar carports and [ground-mount structures](https://heavengreenenergy.com/products/mounting-structures/).
 
 Floating solar.
 
-PM-KUSUM solar pumping with rooftop.
+[PM-KUSUM](/glossary/kusum/) solar pumping with rooftop.
 
-Residential under PM Surya Ghar.
+Residential under [PM Surya Ghar](/blog/pm-surya-ghar-yojana-complete-guide/).
 
 ## Advantages
 
@@ -216,7 +225,7 @@ Half-cut technology is standard in Indian ALMM-listed modules from 2020 onward. 
 
 PM Surya Ghar accepts half-cut ALMM-listed modules.
 
-SECI utility tender bid documents typically assume half-cut.
+[SECI utility tender](https://surgepv.com/utility-scale-solar-design/) bid documents typically assume half-cut.
 
 Full-cell module shipments are largely for legacy replacement supply.
 

@@ -5,7 +5,7 @@ description: "AC coupling connects battery storage to solar through the AC bus. 
 category: "System Layout"
 categorySlug: "system-layout"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is ac coupling
   - ac coupled solar battery
@@ -32,6 +32,8 @@ relatedTerms:
   - { slug: "anti-islanding", term: "Anti-Islanding" }
   - { slug: "self-consumption", term: "Self Consumption" }
   - { slug: "retrofit", term: "Retrofit" }
+  - { slug: "micro-inverter", term: "Micro Inverter" }
+  - { slug: "bess", term: "BESS" }
 faqs:
   - q: "What is AC coupling in simple words?"
     a: "Solar panels and battery each have their own inverter, and they meet on the AC side. A common setup when you add a battery to an existing solar system."
@@ -70,7 +72,14 @@ author: "Nirav Dhanani"
 
 AC coupling is a solar-plus-storage system architecture in which the PV inverter and the battery inverter are physically separate units, each independently connected to the AC bus. The PV inverter converts DC from panels to AC. The battery inverter converts AC to DC for battery charging and DC to AC for battery discharging. The AC bus is the common meeting point.
 
-This architecture contrasts with DC coupling, where PV and battery share a single internal DC bus inside a hybrid inverter. AC coupling is the standard topology for retrofitting battery storage onto existing PV systems, for utility-scale BESS where PV and battery are sized independently, and for installations with microinverters or DC optimisers on the PV side.
+> **TL;DR**
+> - AC coupling uses two separate inverters joined at the AC bus, instead of sharing one internal DC bus inside a single hybrid inverter.
+> - Round-trip efficiency runs 84 to 89 percent, about 5 percent lower than DC coupling because of an extra AC-DC conversion stage.
+> - It is the standard choice for retrofitting battery storage onto existing PV systems and for utility-scale BESS where PV and battery are sized independently.
+> - Backup power during a grid outage requires the battery inverter to be grid-forming, not just grid-following.
+> - AC coupling costs 15 to 30 percent more capex per kWh than DC coupling but is the only option compatible with microinverter-based PV arrays.
+
+This architecture contrasts with [DC coupling](/glossary/dc-coupling/), where PV and battery share a single internal DC bus inside a [hybrid inverter](/glossary/hybrid-inverter/). AC coupling is the standard topology for retrofitting battery storage onto existing PV systems, for utility-scale [BESS](/glossary/bess/) where PV and battery are sized independently, and for installations with [microinverters](/glossary/micro-inverter/) or [DC optimisers](/glossary/dc-optimiser/) on the PV side.
 
 In Indian solar, AC coupling appears in residential battery retrofits (adding Tesla Powerwall, Enphase IQ Battery or local battery inverters to existing PV) and in C&I and utility-scale BESS where battery and PV are independent assets.
 
@@ -78,7 +87,7 @@ In Indian solar, AC coupling appears in residential battery retrofits (adding Te
 
 Picture two separate boxes on the wall. One handles the solar panels and turns DC into AC. The other handles the battery and converts back and forth between AC and DC. The wires between them carry AC. That is AC coupling.
 
-The advantage is flexibility: you can add a battery later without ripping out the PV inverter, and you can scale battery and PV independently. The downside is one extra AC-to-DC conversion, which costs about 5 percent in round-trip efficiency.
+The advantage is flexibility: you can add a battery later without ripping out the PV inverter, and you can scale battery and PV independently. The downside is one extra AC-to-DC conversion, which costs about 5 percent in [round-trip efficiency](/glossary/round-trip-efficiency/).
 
 ## Why AC coupling matters
 
@@ -104,7 +113,7 @@ In a typical residential AC-coupled system:
 4. Battery inverter monitors AC bus voltage and frequency, plus a CT or smart meter measuring net power flow.
 5. When PV output exceeds load, battery inverter converts AC to DC and charges battery.
 6. When load exceeds PV, battery inverter discharges, converting DC back to AC.
-7. When grid is lost, grid-forming battery inverter creates an island AC bus and the PV inverter continues to feed it.
+7. When grid is lost, [grid-forming](/glossary/grid-forming-inverter/) battery inverter creates an island AC bus and the PV inverter continues to feed it.
 
 Frequency-shift battery control: when the battery is full and PV is still generating, the battery inverter slightly shifts AC frequency, signalling the PV inverter to reduce output. This avoids overcharging.
 
@@ -146,11 +155,11 @@ Method used in islanded AC-coupled systems:
 
 ### Sizing
 
-PV inverter and battery inverter sizes can differ. A common residential pattern: 5 kW PV inverter plus 5 kW / 10 kWh battery inverter.
+PV inverter and battery inverter sizes can differ. A common residential [battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) pattern: 5 kW PV inverter plus 5 kW / 10 kWh battery inverter.
 
 ## Real-world applications
 
-Residential battery retrofit on existing PV.
+[Residential battery retrofit](https://heavengreenenergy.com/residential-solar/) on existing PV.
 
 Enphase microinverter systems with AC battery storage.
 
@@ -184,7 +193,7 @@ Higher capex.
 
 More physical equipment, more wall space.
 
-Two warranties to track.
+[Two warranties to track](/blog/solar-inverter-warranty/), one for each inverter.
 
 Frequency-shift PV throttling requires inverter compatibility.
 
@@ -198,7 +207,7 @@ CT polarity reversed at battery inverter sense input.
 
 EMS strategy fighting between PV inverter export limit and battery inverter charging.
 
-Grid-tied PV inverter tripping when frequency shifts during islanded operation.
+Grid-tied PV inverter tripping due to [anti-islanding protection](/blog/anti-islanding-protection-solar-inverters/) reacting to frequency shifts during islanded operation.
 
 Compatibility issues between PV inverter and battery inverter brands.
 
@@ -214,7 +223,7 @@ Coordinate EMS to avoid charge/discharge oscillation.
 
 Plan for AC bus disconnect arrangement during maintenance.
 
-Document the single-line diagram showing both inverters.
+Document the [single-line diagram](/glossary/single-line-diagram/) showing both inverters.
 
 ## Comparison: AC vs DC coupling
 
@@ -238,7 +247,7 @@ Major battery inverters in the Indian AC-coupling market include Goodwe Storage,
 
 C&I and utility AC-coupled installations are growing as battery storage joins existing solar plants.
 
-PM Surya Ghar does not subsidise batteries, but supports AC-coupled retrofits where the original PV system was funded under the scheme.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) does not subsidise batteries, but supports AC-coupled retrofits where the original PV system was funded under the scheme.
 
 ## Standards and certifications
 
@@ -261,7 +270,7 @@ Underestimating round-trip efficiency loss in financial modelling.
 
 Skipping CT polarity verification.
 
-Forgetting that two inverters mean two warranties and two firmware update channels.
+Forgetting that two inverters mean two warranties and two [firmware update channels](/blog/solar-inverter-firmware-update-india/).
 
 Not planning AC bus disconnect for maintenance.
 

@@ -5,7 +5,7 @@ description: "SLD is the simplified one-line electrical drawing. Full guide to s
 category: "Installation"
 categorySlug: "installation"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is single line diagram
   - sld solar
@@ -32,6 +32,8 @@ relatedTerms:
   - { slug: "rccb", term: "RCCB" }
   - { slug: "earthing", term: "Earthing" }
   - { slug: "isolator", term: "Isolator" }
+  - { slug: "mppt", term: "MPPT" }
+  - { slug: "solar-inverter", term: "Solar Inverter" }
 faqs:
   - q: "What is an SLD in simple words?"
     a: "A simplified electrical drawing that shows what's connected to what, using one line per circuit. Essential for solar approval and installation."
@@ -68,11 +70,19 @@ author: "Nirav Dhanani"
 
 ## What is a Single Line Diagram
 
-A Single Line Diagram (SLD), also called one-line diagram, is a simplified electrical schematic that represents a power system using a single line for each three-phase or multi-conductor cable. Standard symbols denote components: PV array, inverter, transformer, breakers, isolators, meters and earthing.
+A Single Line Diagram (SLD), also called one-line diagram, is a simplified electrical schematic that represents a power system using a single line for each three-phase or multi-conductor cable. Standard symbols denote components: PV array, [inverter](/glossary/solar-inverter/), transformer, [isolators](/glossary/isolator/), meters and [earthing](/glossary/earthing/).
 
-For solar projects, the SLD is the primary technical document for DISCOM net metering approval, CEIG drawing approval, commissioning verification and operational reference. It captures the electrical architecture without the complexity of full multi-line wiring diagrams.
+> **TL;DR**
+> - An SLD is a simplified one-line electrical drawing showing every component and connection in a solar plant, using standard IEC 60617 symbols.
+> - It is the primary document for DISCOM net metering approval, CEIG drawing approval, commissioning verification and future O&M reference.
+> - SLDs go through three revisions: design SLD, DISCOM-approved SLD, and as-built SLD after construction.
+> - A typical 3 kW residential SLD covers roughly 10 to 15 components; a 100 MW utility plant needs multiple sheets of modular block diagrams.
+> - CEIG drawing approval is mandatory in most states above a roughly 10 kW threshold, and the submitted SLD must carry a licensed electrical engineer's seal.
+> - Design tools such as AutoCAD, EPLAN, PVcase, Aurora and Helioscope can generate SLD outputs directly alongside the electrical design.
 
-A well-prepared SLD enables anyone familiar with electrical symbols to understand the plant's structure: string configuration, MPPT allocation, protection coordination, earthing arrangement and grid connection point.
+For solar projects, the SLD is the primary technical document for [DISCOM](/glossary/discom/) net metering approval, [CEIG](/glossary/ceig/) drawing approval, [commissioning](/glossary/commissioning/) verification and operational reference. It captures the electrical architecture without the complexity of full multi-line wiring diagrams.
+
+A well-prepared SLD enables anyone familiar with electrical symbols to understand the plant's structure: string configuration, [MPPT](/glossary/mppt/) allocation, protection coordination, earthing arrangement and grid connection point.
 
 ## Why SLDs matter
 
@@ -93,7 +103,7 @@ Compliance audit. Future audits reference the original SLD.
 | Component | Information shown |
 |---|---|
 | PV array | String layout, modules per string, total kWp |
-| DC combiner | Number of strings, fuse ratings, DC isolator |
+| [DC combiner](/glossary/combiner-box/) | Number of strings, fuse ratings, DC isolator |
 | DC cable | Size, length, voltage rating |
 | Inverter | Make, model, AC and DC ratings, MPPT configuration |
 | AC cable | Size, length, voltage rating |
@@ -158,7 +168,7 @@ PM Surya Ghar DISCOM application.
 
 C&I rooftop tender documentation.
 
-Utility solar EPC contract drawings.
+Utility solar EPC contract drawings, the same design output covered in our [solar SLD software guide](/blog/solar-sld-software/) for auto-generating single line diagrams.
 
 CEIG drawing approval submission.
 
@@ -194,7 +204,7 @@ Mark conductor sizes and lengths.
 
 Include earthing arrangement.
 
-Get sealed by licensed electrical engineer.
+Get sealed by a licensed electrical engineer, typically prepared alongside [electrical drawings and CEIG documentation](https://heavendesigns.in/electrical-ceig-drawings/).
 
 Maintain version control: design → approved → as-built.
 
@@ -219,7 +229,7 @@ State DISCOMs publish SLD format requirements in net metering procedures.
 
 Major Indian EPCs use AutoCAD and EPLAN for SLD preparation.
 
-PVcase, Aurora and Helioscope generate SLD outputs alongside design.
+PVcase, Aurora and [Helioscope](https://surgepv.com/compare/helioscope-vs-surgepv/) generate SLD outputs alongside design, one of several capabilities compared across [solar design software platforms](https://surgepv.com/compare/best-solar-design-software/).
 
 ## Standards and certifications
 

@@ -5,7 +5,7 @@ description: "PERC cells use a passivated rear contact to boost solar cell effic
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is perc cell
   - perc solar
@@ -70,7 +70,14 @@ author: "Nirav Dhanani"
 
 PERC, Passivated Emitter and Rear Contact, is a crystalline silicon solar cell architecture that adds a passivated dielectric layer at the rear of the cell. The layer serves two functions: it reflects unabsorbed light back into the silicon for a second chance at absorption, and it reduces the recombination of charge carriers at the rear surface. Together these effects raise cell open-circuit voltage and short-circuit current, lifting efficiency by 1 to 2 percentage points over standard back-contact cells.
 
-PERC was the dominant cell technology globally and in India from roughly 2017 to 2024. It enabled the rapid efficiency progression that brought mono crystalline modules from 17 to 22 percent. From 2023 onward, TOPCon has progressively replaced PERC in new gigawatt-scale manufacturing capacity, with HJT entering the premium segment.
+> **TL;DR**
+> - PERC adds a passivated rear layer that reflects unabsorbed light and cuts electron recombination, lifting cell efficiency by 1 to 2 percentage points over standard back-contact cells.
+> - PERC was the dominant cell technology worldwide and in India from 2017 to 2024, driving mono crystalline modules from 17 to 22 percent efficiency.
+> - Mono PERC reaches 22 to 23 percent efficiency at the cell level and 20 to 22 percent at the module level.
+> - Annual degradation runs 0.45 to 0.55 percent, with most modules warranted for 84 to 87 percent retention at year 25.
+> - TOPCon is replacing PERC in new gigawatt-scale manufacturing, though most ALMM-listed modules in 2026 are still PERC.
+
+PERC was the dominant cell technology globally and in India from roughly 2017 to 2024. It enabled the rapid efficiency progression that brought [mono crystalline](/glossary/monocrystalline/) modules from 17 to 22 percent. From 2023 onward, [TOPCon](/glossary/topcon-cell/) has progressively replaced PERC in new gigawatt-scale manufacturing capacity, with [HJT](/glossary/hjt-cell/) entering the premium segment.
 
 In Indian manufacturing, PERC remains the dominant installed cell base but new capacity additions are increasingly TOPCon. Most ALMM-listed modules in 2026 are PERC, with TOPCon listings growing rapidly.
 
@@ -78,15 +85,15 @@ In Indian manufacturing, PERC remains the dominant installed cell base but new c
 
 A standard solar cell has the front side designed to absorb light and the back side as a plain conductor. Some light slips through the silicon without being absorbed. In PERC, the back side gets a thin reflective and passivating layer. Light that would otherwise be lost bounces back into the silicon. Electrons that would otherwise recombine at the rear stay alive longer.
 
-The result: 1 to 2 percent more electricity from the same cell area. Multiplied across a 5 kW rooftop system or a 100 MW plant, that is real money.
+The result: 1 to 2 percent more electricity from the same cell area. Multiplied across a [5 kW rooftop system](/blog/5kw-solar-system-price-india/) or a 100 MW plant, that is real money.
 
 ## Why PERC matters
 
-Efficiency uplift. The 1 to 2 percentage point gain over previous technology unlocked sub-22 percent module efficiency at commodity prices.
+Efficiency uplift. The 1 to 2 percentage point gain over previous technology unlocked sub-22 percent [module efficiency](/glossary/module-efficiency/) at commodity prices.
 
 Mass commercialisation. The architecture is compatible with existing PECVD and printing equipment, allowing rapid retooling.
 
-Bifacial enabler. The rear passivation layer is intrinsically transparent enough to support bifacial operation.
+Bifacial enabler. The rear passivation layer is intrinsically transparent enough to support [bifacial operation](/glossary/bifacial-module/).
 
 Cost trajectory. PERC drove industry cost-per-watt below ₹15 at the wholesale level.
 
@@ -143,16 +150,16 @@ PERC cells are intrinsically capable of bifacial operation, with bifaciality fac
 
 | Mechanism | PERC behaviour |
 |---|---|
-| Initial LID | 1 to 2% in first 100 hours |
-| LeTID | Concern in early PERC, controlled by gallium doping and other techniques |
-| Annual degradation | 0.45 to 0.55%/year |
+| [Initial LID](/glossary/lid/) | 1 to 2% in first 100 hours |
+| [LeTID](/glossary/letid/) | Concern in early PERC, controlled by gallium doping and other techniques |
+| [Annual degradation](/glossary/degradation/) | 0.45 to 0.55%/year |
 | 25-year retention | 84 to 87% |
 
 ## Real-world applications
 
-Indian rooftop solar, residential and C&I.
+Indian rooftop solar, [residential](https://heavengreenenergy.com/residential-solar/) and [C&I](https://heavengreenenergy.com/commercial-solar/) installations.
 
-Utility solar parks (now transitioning to TOPCon).
+[Utility solar parks](https://surgepv.com/utility-scale-solar-design/) (now transitioning to TOPCon).
 
 Carports, ground-mount and floating solar.
 
@@ -184,7 +191,7 @@ Less attractive for very high-density applications.
 
 ## Common problems
 
-LeTID in legacy PERC. Modern designs are improved.
+LeTID in legacy PERC modules. Modern designs are improved.
 
 PID in modules without PID-resistant materials.
 
@@ -196,7 +203,7 @@ Bypass diode failure in junction boxes.
 
 ## Best practices
 
-Verify ALMM and BIS for any PERC module purchased.
+Verify [ALMM](/glossary/almm-list/) and [BIS](/glossary/bis-certification/) for any PERC module purchased.
 
 Specify PID resistance test certificate.
 
@@ -227,7 +234,7 @@ PLI scheme tranches encouraged transition to TOPCon. New Indian gigawatt-scale c
 
 ALMM List I includes both PERC and TOPCon modules from major Indian manufacturers.
 
-PM Surya Ghar accepts ALMM-listed PERC modules.
+[PM Surya Ghar](/blog/empanelled-vendor-pm-surya-ghar/) accepts ALMM-listed PERC modules.
 
 ## Standards and certifications
 
@@ -261,7 +268,7 @@ PERC was the dominant solar cell architecture from 2017 to 2024 and remains a ma
 
 ## Need ALMM-listed PERC or TOPCon modules?
 
-QBits Energy supplies ALMM-listed PERC and TOPCon modules from leading Indian manufacturers for residential, C&I and utility solar projects.
+QBits Energy supplies ALMM-listed PERC and TOPCon modules from leading Indian manufacturers, alongside our [on-grid inverters](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/), for [residential](/residential-solution/) and [C&I solar](/c-i-solution/) projects.
 
 ## Sources
 

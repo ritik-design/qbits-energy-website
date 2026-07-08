@@ -5,7 +5,7 @@ description: "GHI is the total solar irradiance on a horizontal surface. Full gu
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is ghi
   - global horizontal irradiance
@@ -68,25 +68,33 @@ author: "Nirav Dhanani"
 
 ## What is GHI
 
-Global Horizontal Irradiance (GHI) is the total solar radiation received on a horizontal surface at the Earth's surface. It is the sum of direct beam radiation (Direct Normal Irradiance projected onto horizontal), diffuse radiation from the sky (Diffuse Horizontal Irradiance) and ground-reflected radiation (typically negligible for horizontal-facing).
+Global Horizontal Irradiance (GHI) is the total solar radiation received on a horizontal surface at the Earth's surface. It is the sum of direct beam radiation ([Direct Normal Irradiance](/glossary/dni/) projected onto horizontal), diffuse radiation from the sky ([Diffuse Horizontal Irradiance](/glossary/dhi/)) and ground-reflected radiation (typically negligible for horizontal-facing).
 
-GHI is measured in W/m² as instantaneous irradiance, or in kWh/m² as integrated irradiation over time. Daily GHI in India averages 4.5 to 6.5 kWh/m²; annual GHI ranges from 1,200 to 2,200 kWh/m² depending on region.
+> **TL;DR**
+> - GHI is the total solar radiation hitting a horizontal surface, the baseline measure of how sunny a site is.
+> - Indian annual GHI runs from about 1,200 kWh/m² in the north-east to over 2,200 kWh/m² in western Rajasthan and Ladakh.
+> - GHI equals DNI projected onto horizontal plus DHI: GHI = DNI × cos(zenith) + DHI.
+> - Solar yield is roughly proportional to GHI, so it directly feeds P50/P90 yield models and PPA tariff economics.
+> - [Peak sun hours](/glossary/peak-sun-hours/) is simply daily GHI expressed as hours at 1 kW/m², making the two numbers interchangeable in practice.
+> - Multi-year averaged, ground-validated GHI (not a single year) is the bankable standard for project finance.
 
-For Indian solar resource assessment, GHI is the foundational measurement. Plane-of-array irradiance (the irradiance actually hitting the tilted module) is derived from GHI, DNI and DHI through geometric transformations.
+GHI is measured in W/m² as instantaneous irradiance, or in kWh/m² as integrated [irradiation](/glossary/irradiation/) over time. Daily GHI in India averages 4.5 to 6.5 kWh/m²; annual GHI ranges from 1,200 to 2,200 kWh/m² depending on region.
+
+For Indian solar resource assessment, GHI is the foundational measurement, tracked in detail in QBits' [state-wise solar irradiance data](/blog/solar-irradiance-data-india-statewise/). [Plane-of-array irradiance](/glossary/plane-of-array/) (the irradiance actually hitting the tilted module) is derived from GHI, DNI and DHI through geometric transformations.
 
 ## Why GHI matters
 
-Solar resource baseline. GHI defines how much solar energy is available at a site.
+Solar resource baseline. GHI defines how much solar energy is available at a site, a figure worth cross-checking with QBits' guide to [maximising solar output in Indian climate conditions](/blog/maximize-solar-output-indian-climate/).
 
 Yield modelling. P50 and P90 yield models use GHI as primary input.
 
-Plant siting. High-GHI regions favour utility-scale plants.
+Plant siting. High-GHI regions favour [utility-scale solar plants](https://surgepv.com/utility-scale-solar-design/).
 
-Performance benchmarking. PR is normalised against plane-of-array irradiance derived from GHI.
+Performance benchmarking. [Performance Ratio](/glossary/pr/) is normalised against plane-of-array irradiance derived from GHI.
 
 PPA tariff modelling. Higher-GHI sites can support lower PPA tariffs.
 
-CUF prediction. CUF correlates strongly with GHI.
+CUF prediction. [CUF](/glossary/cuf/) correlates strongly with GHI, as shown across the state benchmarks in QBits' [solar yield in India report](/blog/solar-yield-india/).
 
 ## GHI equation
 
@@ -171,7 +179,7 @@ State-wise solar policy benchmarking.
 
 Tariff order LCOE inputs.
 
-Residential rooftop sizing.
+Residential rooftop sizing, often estimated with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) before a formal proposal is issued.
 
 ## GHI quality classifications
 
@@ -218,7 +226,7 @@ ISRO Bhuvan Solar provides free Indian satellite GHI data.
 
 Major Indian utility solar projects use Solargis or Meteonorm P50/P90 data.
 
-SECI tender bid documents reference GHI data for capacity allocation by state.
+SECI tender bid documents reference GHI data for capacity allocation by state, and are typically supported by formal [engineering resource center](https://heavendesigns.in/resource-center/) documentation during due diligence.
 
 ## Standards and certifications
 

@@ -5,7 +5,7 @@ description: "Customs duty on imported solar equipment is 40 percent BCD on modu
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - customs duty solar
   - bcd solar
@@ -68,22 +68,29 @@ author: "Nirav Dhanani"
 
 ## What is customs duty on solar
 
-Basic Customs Duty (BCD) is the import tax applied to solar equipment entering India. The current 40 percent BCD on solar PV modules, imposed in April 2022, is a major Indian trade policy supporting domestic solar manufacturing. Combined with Social Welfare Surcharge and IGST on imports, the total import burden adds approximately 50-65 percent to invoice value at landed cost.
+Basic Customs Duty (BCD) is the import tax applied to solar equipment entering India. The current 40 percent BCD on solar PV modules, imposed in April 2022, is a major Indian trade policy supporting domestic solar manufacturing, discussed in more depth in our [BCD and import duty guide for solar inverters](/blog/bcd-import-duty-solar-inverters-india/). Combined with Social Welfare Surcharge and IGST on imports, the total import burden adds approximately 50-65 percent to invoice value at landed cost.
+
+> **TL;DR**
+> - Basic Customs Duty on solar imports is 40 percent on modules, 25 percent on cells and 7.5 percent on inverters, in force since April 2022.
+> - Add Social Welfare Surcharge and IGST and the total landed cost runs 50 to 65 percent above invoice value.
+> - Projects built with imported modules see a 15 to 25 percent capex increase compared with ALMM-listed Indian modules.
+> - The duty is a deliberate lever to grow domestic manufacturing, which scaled from 10 GW of module capacity in 2020 to 60+ GW by 2024.
+> - Sourcing ALMM-listed Indian modules is the standard way developers avoid the duty entirely.
 
 Customs duty rates on solar equipment:
 - PV modules: 40% BCD
 - PV cells: 25% BCD
-- Solar inverters: 7.5% BCD
+- [Solar inverters](/glossary/solar-inverter/): 7.5% BCD
 - Mounting structures: 10-18% BCD depending on type
 - Cables: 10-18% BCD
 - Batteries (lithium): 15% BCD
 - EV chargers: 15% BCD
 
-The 40 percent BCD on modules is one of the highest sectoral customs duties in India and a major driver of domestic manufacturing expansion under PLI scheme. Solar developers and EPCs shift to ALMM-listed Indian modules to avoid the duty, supporting Indian manufacturers.
+The 40 percent BCD on modules is one of the highest sectoral customs duties in India and a major driver of domestic manufacturing expansion under PLI scheme. Solar developers and EPCs shift to [ALMM-listed](/glossary/almm-list/) Indian modules to avoid the duty, supporting Indian manufacturers.
 
 ## Why customs duty matters
 
-Project cost. Adds 15-25 percent to projects using imported modules.
+Project cost. Adds 15-25 percent to [capex](/glossary/capex/) for projects using imported modules.
 
 Domestic manufacturing. Drives Indian capacity expansion.
 
@@ -98,7 +105,7 @@ Pricing of Indian modules. Domestic prices can rise to imports, duty without los
 For ₹10 invoice value of imported module:
 - Basic Customs Duty (40%): ₹4.00
 - Social Welfare Surcharge (10% of BCD): ₹0.40
-- IGST (12% of total): ₹1.73
+- [IGST](/glossary/gst-on-solar/) (12% of total): ₹1.73
 - Total landed: ₹16.13
 
 Effective duty: 61% over invoice value.
@@ -150,11 +157,13 @@ PLI Phase I and II investments driving rapid expansion.
 | Project import scheme | Reduced duty for approved projects |
 | Some PM Surya Ghar imports | Case-by-case bulk arrangements |
 
+Bulk import arrangements for subsidised rooftop programmes are covered further in our guide to [applying for PM Surya Ghar](/blog/pm-surya-ghar-apply-online/).
+
 ## Real-world applications
 
-Project cost budgeting.
+Project [cost budgeting](https://surgepv.com/tools/).
 
-Module sourcing strategy (Indian vs imported).
+Module [sourcing strategy](https://heavengreenenergy.com/shop/) (Indian vs imported).
 
 PPA tariff bidding.
 
@@ -178,7 +187,7 @@ Consult customs broker for complex imports.
 
 40% BCD on modules has driven major Indian manufacturing expansion.
 
-PLI Tranche I and II support gigawatt-scale cell and module factories.
+PLI Tranche I and II, administered under [MNRE](/glossary/mnre/) guidelines, support gigawatt-scale cell and module factories.
 
 Major Indian module manufacturers (Waaree, Adani Green Solar, Tata Power Solar, Vikram Solar) at full capacity utilisation.
 

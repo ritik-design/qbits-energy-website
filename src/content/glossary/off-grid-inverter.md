@@ -5,7 +5,7 @@ description: "An off grid inverter runs solar systems independent of the utility
 category: "Inverter Types"
 categorySlug: "inverter-types"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is off grid inverter
   - standalone solar inverter
@@ -33,6 +33,8 @@ relatedTerms:
   - { slug: "inverter-efficiency", term: "Inverter Efficiency" }
   - { slug: "deep-discharge", term: "Deep Discharge" }
   - { slug: "pure-sine-wave", term: "Pure Sine Wave" }
+  - { slug: "lfp-battery", term: "LFP Battery" }
+  - { slug: "kusum", term: "PM-KUSUM" }
 faqs:
   - q: "What is an off grid inverter in simple words?"
     a: "It is a solar inverter that makes its own electricity from a battery, without needing the utility grid. It is the right choice when there is no grid connection, or when the grid is unusable for long stretches."
@@ -73,7 +75,15 @@ An off grid inverter, also called a standalone inverter or island inverter, is a
 
 It sits at the centre of a closed system. PV modules feed a charge controller, which charges the battery. The inverter pulls DC from the battery and produces 230 V, 50 Hz AC for household and three-phase 400 V, 50 Hz for industrial sites. When the sun is out and the battery is full, surplus PV is either dumped or curtailed by the charge controller. There is nowhere for it to go.
 
-Off grid inverters used to be the only practical option for solar in unelectrified India. They are now a niche segment, since rural electrification under Saubhagya and the rapid rollout of net-metered rooftop solar have pushed most installations toward grid-tie. The niche remains real: telecom backhaul sites, border outposts, mountain villages without reliable supply, mid-stream irrigation, and ecology-sensitive resorts that cannot tolerate diesel.
+> **TL;DR**
+> - An off grid inverter creates its own AC voltage and frequency from a battery bank, with no connection to the utility grid.
+> - It is a niche segment in India today, mainly telecom towers, border outposts, remote villages, irrigation pumps and eco-resorts.
+> - Lithium iron phosphate has replaced lead acid as the default battery chemistry for serious off grid work.
+> - End-to-end efficiency from PV to AC load lands at 78 to 88 percent, lower than on grid or hybrid because of extra conversion and battery round-trip losses.
+> - PM Surya Ghar does not fund off grid systems since the scheme is grid-tied by design.
+> - Sizing mistakes, not equipment failures, cause most real-world off grid problems.
+
+Off grid inverters used to be the only practical option for solar in unelectrified India. They are now a niche segment, since rural electrification under Saubhagya and the rapid rollout of net-metered rooftop solar have pushed most installations toward [grid-tie systems](/glossary/on-grid-inverter/). The niche remains real: telecom backhaul sites, border outposts, mountain villages without reliable supply, mid-stream irrigation, and ecology-sensitive resorts that cannot tolerate diesel.
 
 ## Off grid inverter explained simply
 
@@ -98,8 +108,8 @@ Resilience for institutions. Schools, primary health centres and water pump stat
 A typical off grid system has four functional blocks.
 
 1. PV array. Strings sized to charge the battery within solar window hours.
-2. Charge controller. MPPT or PWM. Limits charge current, applies bulk, absorption and float stages, and protects the battery from overvoltage.
-3. Battery bank. Sized to support load through one or two cloudy days. Lithium iron phosphate is the modern default. Tubular lead acid still appears in cost-sensitive rural projects.
+2. Charge controller. [MPPT](/glossary/mppt/) or [PWM](/glossary/pwm/). Limits charge current, applies bulk, absorption and float stages, and protects the battery from overvoltage.
+3. Battery bank. Sized to support load through one or two cloudy days. [Lithium iron phosphate](/glossary/lfp-battery/) is the modern default. Tubular lead acid still appears in cost-sensitive rural projects.
 4. Inverter. Pulls battery DC, runs it through a high-frequency or low-frequency inverter stage, and outputs AC.
 
 Internal sequence of events:
@@ -110,7 +120,7 @@ Internal sequence of events:
 4. A control loop regulates output voltage to 230 V and frequency to 50 Hz, even as the load fluctuates.
 5. Protection circuits monitor battery voltage, output current and inverter temperature. Cutoffs kick in at low SOC, overload and overtemperature.
 
-Many integrated off grid inverters also include an AC input. When a diesel genset or weak grid is available, the inverter can either charge the battery from that source or pass it through to loads. This crossover is what distinguishes a true hybrid from a pure off grid unit.
+Many integrated off grid inverters also include an AC input. When a diesel genset or weak grid is available, the inverter can either charge the battery from that source or pass it through to loads. This crossover is what distinguishes a true [hybrid inverter](/glossary/hybrid-inverter/) from a pure off grid unit.
 
 ## Technical deep dive
 
@@ -122,9 +132,9 @@ For a household with a 1.5 kW continuous load and a 1 ton AC compressor that sta
 
 ### Sizing the battery
 
-Battery capacity in usable kWh equals daily AC consumption divided by inverter efficiency divided by DoD. For 6 kWh of daily consumption at 90 percent inverter efficiency and 80 percent DoD on LFP, you need 6 / 0.9 / 0.8 = 8.3 kWh nominal capacity.
+Battery capacity in usable kWh equals daily AC consumption divided by inverter efficiency divided by [DoD](/glossary/battery-dod/). For 6 kWh of daily consumption at 90 percent inverter efficiency and 80 percent DoD on LFP, you need 6 / 0.9 / 0.8 = 8.3 kWh nominal capacity. See [Off-Grid Solar Battery Bank Sizing, India Complete Guide](/blog/off-grid-battery-bank-sizing-india/) for a full worked methodology.
 
-Add a multiplier of 1.5 to 2 for autonomy through cloudy days. The same site sized for one day of autonomy needs roughly 12 to 16 kWh nominal LFP.
+Add a multiplier of 1.5 to 2 for autonomy through cloudy days, sized against [energy storage capacity](https://surgepv.com/hub/energy-storage/battery-sizing/) rather than nameplate rating. The same site sized for one day of autonomy needs roughly 12 to 16 kWh nominal LFP.
 
 ### Sizing the PV array
 
@@ -145,11 +155,11 @@ In practice add 25 to 50 percent overhead for monsoon, dust and morning load bef
 
 Rural households. Single-phase 1 to 5 kVA inverters with 3 to 10 kWh of battery serve lighting, fans, mobile charging, fridge and television in unelectrified or weak-grid villages.
 
-Solar water pumping. Three-phase off grid inverters drive submersible pumps for irrigation and drinking water under MNRE PM-KUSUM Component B. Many use direct PV-to-pump operation without battery, with frequency control standing in for charge regulation.
+[Solar water pumping](/blog/solar-inverter-for-water-pump/). Three-phase off grid inverters drive submersible pumps for irrigation and drinking water under MNRE [PM-KUSUM](/glossary/kusum/) Component B, a scheme covered in depth by [heavengreenenergy.com's PM-KUSUM guide](https://heavengreenenergy.com/drebp-pm-kusum/). Many use direct PV-to-pump operation without battery, with frequency control standing in for charge regulation.
 
 Telecom towers. Hybrid configurations with off grid inverter, lithium battery and diesel backup. Diesel runtime is cut by 70 to 90 percent compared to pure diesel sites.
 
-Eco-resorts and remote tourism. Off grid inverters in 5 to 50 kVA range, often three-phase. Used where grid extension cost exceeds ₹5 lakh per kilometre or where the site is in a protected zone.
+Eco-resorts and remote tourism. Off grid inverters in 5 to 50 kVA range, often three-phase. Used where grid extension cost exceeds ₹5 lakh per kilometre or where the site is in a protected zone, which usually calls for a dedicated [site survey and land feasibility study](https://heavendesigns.in/site-survey-land-feasibility-services/) before design begins.
 
 Defence and border outposts. 5 to 100 kVA off grid systems, often with hardened enclosures and dust filtration. Used by ITBP, BSF and Army at high altitude and remote posts.
 
@@ -201,11 +211,13 @@ Use a low-voltage disconnect. The inverter should cut load at 20 percent SOC for
 
 Document the load list at the time of installation. Use a printed sticker on the inverter naming the maximum simultaneous load. Train the user with examples of what can run together and what cannot.
 
-Use pure sine wave for almost all loads. Modified sine kills CFLs, BLDC motors and many LED drivers.
+Use [pure sine wave](/glossary/pure-sine-wave/) for almost all loads. [Modified sine wave](/glossary/modified-sine-wave/) kills CFLs, BLDC motors and many LED drivers.
 
 Plan for capacity expansion. Lithium-only systems are easier to expand than mixed chemistry, but each step still requires a balancing exercise and a charge controller resize.
 
 ## Comparison: off grid vs on grid vs hybrid
+
+For a fuller decision framework across all three architectures, see [On-Grid vs Hybrid vs Off-Grid Inverters, The 2026 Decision Guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/).
 
 | Feature | Off grid | On grid | Hybrid |
 |---|---|---|---|
@@ -222,9 +234,9 @@ The MNRE supports off grid solar through several streams. PM-KUSUM Component A f
 
 Telecom operators including Reliance Jio, Bharti Airtel and Tata Communications have moved roughly 50,000 towers to solar-plus-battery operation, cutting diesel usage by 70 to 90 percent.
 
-Off grid inverters for subsidised projects must hold BIS certification under IS 16221 and follow MNRE technical specifications for capacity, surge and battery interface. Listed manufacturers tend to include Su-kam, Luminous, Microtek, Sofar, Victron, Schneider and a growing list of Indian OEMs.
+Off grid inverters for subsidised projects must hold [BIS certification](/glossary/bis-certification/) under IS 16221 and follow MNRE technical specifications for capacity, surge and battery interface. Listed manufacturers tend to include Su-kam, Luminous, Microtek, Sofar, Victron, Schneider and a growing list of Indian OEMs.
 
-PM Surya Ghar does not fund off grid systems. The scheme is grid-tied by design.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) does not fund off grid systems. The scheme is grid-tied by design.
 
 ## Standards and certifications
 

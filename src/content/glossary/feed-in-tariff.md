@@ -5,7 +5,7 @@ description: "Feed In Tariff (FIT) is a fixed price the utility pays for solar g
 category: "Policies"
 categorySlug: "policies"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is feed in tariff
   - fit india
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "capex", term: "CAPEX" }
   - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "smart-meter", term: "Smart Meter" }
+  - { slug: "rpo", term: "RPO" }
 faqs:
   - q: "What is feed in tariff in simple words?"
     a: "It is the price the utility pays you for every unit of solar power you send to the grid. A regulator fixes the rate, and it stays constant for the contract term, usually 25 years."
@@ -73,14 +74,22 @@ Feed in tariff is a regulated per-kWh price paid by the utility to a renewable e
 In India, FIT appears in several forms:
 
 - State SERC tariff orders for gross-metered rooftop solar, setting prices like ₹3.20 per kWh for new commercial connections.
-- SECI and CPSU tender results for utility-scale solar, which crystallise into long-term PPAs at the discovered tariff.
+- SECI and CPSU tender results for utility-scale solar, which crystallise into long-term [power purchase agreements](/glossary/ppa/) at the discovered tariff.
 - State agency tenders for distributed solar parks under category-specific FITs.
 
 The FIT mechanism gave Indian solar its early policy lift in the 2010 to 2014 period, when tariffs above ₹15 per kWh underwrote the first 5 GW of capacity. Tariffs have since fallen below ₹2.50 per kWh for utility solar, reflecting the dramatic fall in capex.
 
+> **TL;DR**
+> - A feed in tariff is a regulator-fixed price locked into a long-term contract, usually 25 years, paid per kWh exported to the grid.
+> - Indian utility-scale FITs fell from ₹17.91 per kWh in 2010 to under ₹2.60 per kWh by 2024 as solar capex collapsed.
+> - State-set FITs for [gross-metered](/glossary/gross-metering/) rooftop and small commercial solar typically run ₹2.40 to ₹4.50 per kWh, depending on state and category.
+> - FIT differs from [net metering](/glossary/net-metering/): FIT pays a fixed price for every exported unit, while net metering offsets your bill at retail rates.
+> - Late DISCOM payments are the most common real-world problem, sometimes stretching 90 to 240 days.
+> - FIT contracts are typically 20 to 25 years and are usually grandfathered even if the regulator revises rates for new projects.
+
 ## Feed in tariff explained simply
 
-A regulator decides that any new solar plant signed up this year will be paid a fixed rate per unit for the next 25 years. The DISCOM signs a contract with each generator at that rate. Every unit sent to the grid earns the same fixed price, in good years and bad. The generator knows exactly what to expect, the bank knows what to lend against, and the plant gets built.
+A regulator decides that any new solar plant signed up this year will be paid a fixed rate per unit for the next 25 years. The [DISCOM](/glossary/discom/) signs a contract with each generator at that rate. Every unit sent to the grid earns the same fixed price, in good years and bad. The generator knows exactly what to expect, the bank knows what to lend against, and the plant gets built.
 
 That predictability is the entire point of FIT. Without it, building a 25-year asset against fluctuating spot prices would be nearly impossible.
 
@@ -90,7 +99,7 @@ Investment certainty. Banks finance solar projects on the strength of a 25-year 
 
 Renewable capacity addition. India's growth from under 1 GW solar in 2010 to over 90 GW by 2025 ran almost entirely on FIT and tender-based PPA structures.
 
-DISCOM procurement. State DISCOMs sign FIT-based PPAs to meet their Renewable Purchase Obligation.
+DISCOM procurement. State DISCOMs sign FIT-based PPAs to meet their [Renewable Purchase Obligation](/glossary/rpo/).
 
 Rooftop solar for larger customers. Gross-metered rooftop solar in many states is the only mechanism for systems above the net metering cap.
 
@@ -104,21 +113,21 @@ Policy lever. Regulators use FIT level to encourage or slow specific segments. H
 4. The plant is commissioned and generation begins.
 5. A dedicated generation meter records exported energy.
 6. The DISCOM pays the developer monthly at FIT rate multiplied by metered generation.
-7. Disputes are resolved through CERC or SERC.
+7. Disputes are resolved through [CERC](/glossary/cerc/) or [SERC](/glossary/serc/).
 
 ## Technical deep dive
 
 ### FIT setting methodology
 
-Regulators model the levelised cost of energy (LCOE) for a representative plant. The LCOE is built up from:
+Regulators model the [levelised cost of energy (LCOE)](/glossary/lcoe/) for a representative plant. The LCOE is built up from:
 
 - Capex per MW
-- Capacity utilisation factor (CUF)
+- [Capacity utilisation factor (CUF)](/glossary/cuf/)
 - Operating costs
 - Working capital, debt service and equity return
 - Plant life
 
-FIT is set close to LCOE, sometimes with a small premium for distributed segments.
+FIT is set close to LCOE, sometimes with a small premium for distributed segments. Developers and EPCs modelling this trade-off across multiple sites often lean on [purpose-built solar financial modeling tools](https://surgepv.com/generation-financial-tool/) to stress-test capex, CUF and tariff assumptions before bidding.
 
 ### Sample FIT history
 
@@ -154,7 +163,7 @@ Distributed solar under state agencies like Solar Energy Corporation of Karnatak
 
 CPSU programmes setting FIT for self-consumption-plus-export configurations.
 
-PM-KUSUM Component C feeders, where FIT is set for agriculture-feeder solarisation.
+[PM-KUSUM](/glossary/kusum/) Component C feeders, where FIT is set for agriculture-feeder solarisation, a segment [installers pairing solar EPC with KUSUM feeder work](https://heavengreenenergy.com/drebp-pm-kusum/) know well.
 
 ## Advantages of FIT
 
@@ -219,6 +228,8 @@ Pursue late payment surcharge claims to deter chronic delays.
 | Used for | Distributed and historical utility | Modern utility solar | Residential rooftop |
 | Risk allocation | Regulator | Bidder | Customer |
 
+Homeowners deciding between gross-metered FIT and standard net metering should also see our state-by-state guide on [how to apply for net metering in India](/blog/how-to-apply-net-metering-india/).
+
 ## Indian market context
 
 The CERC and state SERCs publish FIT tariff orders periodically. The Forum of Regulators provides cross-state coordination.
@@ -233,11 +244,11 @@ The Late Payment Surcharge Rules 2022 created a mechanism for DISCOMs to clear o
 
 | Standard | Scope |
 |---|---|
-| Electricity Act 2003 | Statutory basis |
+| [Electricity Act 2003](/glossary/electricity-act-2003/) | Statutory basis |
 | CERC Tariff Regulations | Methodology |
 | SERC tariff orders | Per-state FITs |
 | Late Payment Surcharge Rules 2022 | Payment discipline |
-| CEA Technical Standards 2019 | Connectivity |
+| [CEA](/glossary/cea/) Technical Standards 2019 | Connectivity |
 
 ## Common mistakes
 
@@ -257,11 +268,11 @@ Ignoring tariff order amendments published mid-year.
 
 ## Key takeaways
 
-Feed in tariff is the regulated long-term price that makes solar PV financing possible. Indian FITs have fallen from above ₹15 per kWh in 2010 to below ₹2.50 per kWh in 2024 as capex has collapsed. State SERC orders and SECI tender results define the current FIT landscape. Payment discipline, PPA structure and contract clauses matter as much as the headline rate.
+Feed in tariff is the regulated long-term price that makes solar PV financing possible. Indian FITs have fallen from above ₹15 per kWh in 2010 to below ₹2.50 per kWh in 2024 as capex has collapsed. State SERC orders and SECI tender results define the current FIT landscape. Payment discipline, PPA structure and contract clauses matter as much as the headline rate. For customers weighing FIT-based export against self-consumption, our guide to [solar inverter payback period across Indian states](/blog/solar-inverter-payback-period/) works through the underlying math.
 
 ## Need FIT guidance for your solar project?
 
-QBits Energy advises rooftop and small commercial developers on FIT eligibility, gross metering structure and DISCOM coordination across Indian states.
+QBits Energy advises rooftop and small commercial developers on FIT eligibility, gross metering structure and DISCOM coordination across Indian states. Explore our [C&I solar solutions](/c-i-solution/) or [on grid inverter](/on-grid-inverter/) range for gross-metered and export-tied installations.
 
 ## Sources
 

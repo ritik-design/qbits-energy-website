@@ -5,7 +5,7 @@ description: "MCB is an electrical protection device for overcurrent and short c
 category: "Protection"
 categorySlug: "protection"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is mcb
   - miniature circuit breaker
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "junction-box", term: "Junction Box" }
   - { slug: "single-line-diagram", term: "Single Line Diagram" }
+  - { slug: "discom", term: "DISCOM" }
 faqs:
   - q: "What is an MCB in simple words?"
     a: "An automatic switch that cuts the power if too much current flows. Replaces fuses in modern installations. Resettable after tripping."
@@ -68,11 +69,19 @@ author: "Nirav Dhanani"
 
 ## What is an MCB
 
-A Miniature Circuit Breaker (MCB) is an electromechanical protection device that interrupts current flow in a circuit when an overcurrent or short-circuit condition is detected. It combines thermal-magnetic tripping with manual switching, providing both protection and isolation in a compact wall-mounted module.
+A Miniature Circuit Breaker (MCB) is an electromechanical protection device that interrupts [current](/glossary/current/) flow in a circuit when an overcurrent or short-circuit condition is detected. It combines thermal-magnetic tripping with manual switching, providing both protection and isolation in a compact wall-mounted module.
+
+> **TL;DR**
+> - An MCB is a resettable AC overcurrent breaker: a thermal element trips on sustained overload, a magnetic element trips instantly on short circuit.
+> - It replaced rewireable fuses in Indian homes and businesses from the 1990s and is standard on solar AC circuits.
+> - MCB Type (B, C or D) must match the load's inrush profile; a 5 kW solar inverter (about 22 A) typically needs a 32 A MCB with 25 percent headroom.
+> - MCBs protect the AC side only. DC-side solar strings use DC-rated fuses or isolators because of different arc-extinguishing needs.
+> - Breaking capacity must exceed the expected short-circuit current at the installation point: 6 kA for residential, 10 kA for commercial, 25 kA or more for industrial.
+> - Indian MCBs are BIS-certified under IS 60898, and DISCOM commissioning checks MCB selection at the AC interconnection.
 
 MCBs replaced traditional rewireable fuses in Indian residential and commercial installations from the 1990s. They offer multiple advantages: resettable operation (no fuse element to replace), faster response to faults, integrated isolation and visual indication of state.
 
-For solar installations, MCBs protect the AC side: at the inverter output, in sub-distribution boards, and in individual home circuits. DC protection uses DC-rated fuses or DC-specific isolators because of differences in arc extinguishing.
+For solar installations, MCBs protect the AC side: at the [solar inverter](/glossary/solar-inverter/) output, in [sub-distribution boards](https://heavengreenenergy.com/products/acdb-dcdb/), and in individual home circuits. DC protection uses DC-rated [fuses](/glossary/fuse/) or DC-specific [isolators](/glossary/isolator/) because of differences in arc extinguishing.
 
 ## Why MCBs matter
 
@@ -173,7 +182,7 @@ Use TP+N for three-phase to break all conductors.
 
 Annual visual inspection.
 
-Thermography check during preventive maintenance.
+Thermography check during [preventive maintenance](/blog/inverter-maintenance-india/).
 
 Replace after major fault event.
 
@@ -194,7 +203,7 @@ PM Surya Ghar residential systems use MCBs on the AC side at the bidirectional m
 
 ALMM does not list MCBs separately. BIS certification under IS 60898 applies.
 
-DISCOM commissioning verifies MCB selection at the AC interconnection.
+[DISCOM](/glossary/discom/) [commissioning](/blog/solar-inverter-commissioning-in-india/) verifies MCB selection at the AC interconnection. MCB and [RCCB](/glossary/rccb/) ratings are typically shown on the [electrical interconnection drawings](https://heavendesigns.in/electrical-ceig-drawings/) prepared for CEIG and DISCOM approval.
 
 ## Standards and certifications
 

@@ -5,7 +5,7 @@ description: "Mounting structures hold solar panels in place. Full guide to type
 category: "Installation"
 categorySlug: "installation"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is solar mounting structure
   - solar racking
@@ -68,7 +68,15 @@ author: "Nirav Dhanani"
 
 ## What is a solar mounting structure
 
-A solar mounting structure is the mechanical framework that supports PV modules at the designed tilt angle and azimuth, transferring wind uplift, snow and gravity loads from the modules to the building roof or the ground. The structure also provides the bonding path for module frames to earth.
+A solar mounting structure is the mechanical framework that supports PV modules at the designed [tilt angle](/glossary/tilt-angle/) and [azimuth](/glossary/azimuth/), transferring wind uplift, snow and gravity loads from the modules to the building roof or the ground. The structure also provides the bonding path for module frames to [earth](/glossary/earthing/).
+
+> **TL;DR**
+> - A mounting structure holds PV modules at the design tilt and orientation, transferring wind, snow and dead loads to the roof or ground, and bonding module frames to earth.
+> - Indian mounting is most commonly hot-dip galvanised iron (GI), with zinc coating from 80 g/m² inland up to 300 g/m² for coastal durability.
+> - Wind load design follows IS 875 Part 3: 47 to 55 m/s for coastal regions versus 39 to 44 m/s for most of the Indian plains.
+> - Mounting typically accounts for 8 to 15 percent of total solar plant capex, ranging from roughly ₹4/Wp for rooftop to ₹7 to 10/Wp for single-axis trackers.
+> - Single-axis trackers add 15 to 25 percent more yield but raise both capex and O&M compared with fixed-tilt mounting.
+> - Hot-dip GI structures last 20 to 25 years, aluminium 25 to 30 years, and 316L stainless steel 30+ years in highly corrosive environments.
 
 Indian solar mounting structures are most commonly fabricated from hot-dip galvanised iron (GI) with zinc coating between 80 and 300 g/m² depending on environment. Aluminium structures appear in premium rooftop installations where weight matters. Stainless steel is used in highly corrosive coastal environments.
 
@@ -86,7 +94,7 @@ Maintenance access. Walkways and serviceability are designed into the mounting.
 
 Project economics. Mounting accounts for 8 to 15 percent of solar plant capex.
 
-Regulatory compliance. CEIG approval and CEA safety regulations apply.
+Regulatory compliance. [CEIG](/glossary/ceig/) approval and CEA safety regulations apply.
 
 ## Mounting structure types
 
@@ -159,9 +167,9 @@ Regulatory compliance. CEIG approval and CEA safety regulations apply.
 
 ## Real-world applications
 
-PM Surya Ghar rooftop installations.
+PM Surya Ghar rooftop installations, the kind covered in our [Lucknow 3BHK hybrid solar case study](/blog/case-study-lucknow-3bhk/).
 
-C&I rooftop on industrial sheds.
+C&I rooftop on industrial sheds, typically delivered under [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) scope.
 
 Utility solar parks.
 
@@ -171,7 +179,7 @@ Floating solar reservoirs.
 
 Agrivoltaics over crops.
 
-Solar pumps under PM-KUSUM.
+Solar pumps under [PM-KUSUM](/glossary/kusum/).
 
 ## Common mounting problems
 
@@ -203,7 +211,7 @@ Anti-theft hardware in unattended sites.
 
 Annual visual inspection and torque check.
 
-Document mounting structure on the SLD.
+Document mounting structure on the [single line diagram](/glossary/single-line-diagram/).
 
 ## Comparison: mounting types
 
@@ -217,11 +225,11 @@ Document mounting structure on the SLD.
 
 ## Indian market context
 
-Major Indian mounting structure brands: Tata BlueScope, Mahindra Susten, Esennar, Hexa Power, NextMSC, Mounting Systems India.
+Major Indian mounting structure brands: Tata BlueScope, Mahindra Susten, Esennar, Hexa Power, NextMSC, Mounting Systems India — the same category of [mounting structure products](https://heavengreenenergy.com/products/mounting-structures/) sold through solar equipment suppliers.
 
 ALMM does not certify mounting structures separately. MNRE technical specifications apply.
 
-CEIG drawing approval verifies structural compliance.
+CEIG drawing approval verifies structural compliance, backed by [structural and civil engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) calculations for larger projects.
 
 PM Surya Ghar residential typically uses GI rail-and-clamp systems.
 

@@ -5,7 +5,7 @@ description: "An isolator provides safe disconnect during maintenance. Full guid
 category: "Installation"
 categorySlug: "installation"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is isolator
   - dc isolator solar
@@ -70,9 +70,17 @@ author: "Nirav Dhanani"
 
 An isolator is a manually operated mechanical switch that creates a visible disconnection between electrical equipment and its power source. Unlike circuit breakers, isolators do not trip automatically on fault conditions; their purpose is safe disconnect for maintenance, inspection or emergency.
 
-For solar PV installations, isolators are required on both DC and AC sides. The DC isolator sits at the inverter DC input or inside the combiner box, rated for the system DC voltage (1000 V or 1500 V) and arc-interrupting capability designed for DC. The AC isolator sits between the inverter AC output and the distribution board or bidirectional meter, allowing the inverter to be isolated from the grid for servicing.
+> **TL;DR**
+> - An isolator is a manual safety switch for visible disconnection, not an automatic overcurrent device like an MCB.
+> - Solar plants need both a DC isolator (PV side) and an AC isolator (inverter output), each rated for its own voltage class.
+> - Typical DC isolator ratings are 16, 25 or 32 A continuous at 1000 or 1500 V DC, with 2 or 4 poles depending on string configuration.
+> - AC isolators cannot safely interrupt DC current because DC lacks a natural zero crossing — the two are never interchangeable.
+> - Branded isolators (Schneider, ABB, Phoenix Contact, Siemens) last 10,000+ operations; unbranded units commonly fail within 1 to 2 years.
+> - CEA Measures Relating to Safety require isolators at defined points, and DISCOM commissioning checks for their presence before activation.
 
-CEA Measures Relating to Safety and Electric Supply Regulations 2023 mandate isolators at defined points in any grid-connected solar installation. DISCOM commissioning verifies presence of both DC and AC isolators.
+For solar PV installations, isolators are required on both DC and AC sides. The DC isolator sits at the inverter DC input or inside the [combiner box](/glossary/combiner-box/), rated for the system DC voltage (1000 V or 1500 V) and arc-interrupting capability designed for DC. The AC isolator sits between the inverter AC output and the distribution board or [bidirectional meter](/glossary/bidirectional-meter/), allowing the inverter to be isolated from the grid for servicing.
+
+CEA Measures Relating to Safety and Electric Supply Regulations 2023 mandate isolators at defined points in any grid-connected solar installation. [DISCOM](/glossary/discom/) commissioning verifies presence of both DC and AC isolators.
 
 ## Why isolators matter
 
@@ -84,7 +92,7 @@ Lockout-tagout (LOTO). Padlock-able isolators enable formal safety procedures.
 
 Regulatory compliance. CEA Measures Relating to Safety require isolators.
 
-Code compliance. CEIG and DISCOM verify isolator presence.
+Code compliance. [CEIG](/glossary/ceig/) and DISCOM verify isolator presence.
 
 ## Isolator types
 
@@ -146,15 +154,15 @@ Most modern solar isolators are load-break switch-disconnectors, allowing operat
 
 ## Real-world applications
 
-PV array isolation at combiner box.
+PV array isolation at the combiner box, one of the [balance of system components](https://heavengreenenergy.com/products/balance-of-system/) sourced alongside the inverter.
 
-Inverter DC input isolation.
+Inverter DC input isolation, a step covered in our [solar inverter integration EPC setup guide](/blog/solar-inverter-integration-in-india/).
 
 Inverter AC output isolation.
 
 Bidirectional meter line side isolation.
 
-Hybrid battery DC isolation.
+Hybrid battery DC isolation, sized alongside the battery in our [hybrid solar inverter battery sizing guide](/blog/battery-sizing-hybrid-solar/).
 
 Emergency disconnect at building entry.
 
@@ -182,7 +190,7 @@ Specify IP65 or better for outdoor installation.
 
 Include lockout provision.
 
-Document isolator ratings on the SLD.
+Document isolator ratings on the [single line diagram](/glossary/single-line-diagram/).
 
 Operate at least twice yearly to verify function.
 
@@ -200,13 +208,13 @@ Thermography during O&M.
 
 ## Indian market context
 
-Major Indian DC isolator brands: Schneider Electric, ABB, Phoenix Contact, Siemens, Havells, L&T, Camsco, Polytron.
+Major Indian DC isolator brands: Schneider Electric, ABB, Phoenix Contact, Siemens, Havells, L&T, Camsco, Polytron — many of the same brands compared in our [guide to inverter suppliers and distributors in India](/blog/inverter-suppliers-india/).
 
 ALMM does not list isolators. BIS certification under IS 13947 applies.
 
 DISCOM commissioning verifies isolator presence and rating.
 
-CEIG drawing approval requires isolators marked at correct locations on SLD.
+CEIG drawing approval requires isolators marked at correct locations on the SLD, part of the [electrical drawing package](https://heavendesigns.in/electrical-ceig-drawings/) an EPC submits.
 
 PM Surya Ghar residential installations include both DC and AC isolators.
 

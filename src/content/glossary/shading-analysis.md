@@ -5,7 +5,7 @@ description: "Shading analysis quantifies yield loss from obstructions. Full gui
 category: "System Layout"
 categorySlug: "system-layout"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is shading analysis
   - solar shading
@@ -70,15 +70,22 @@ author: "Nirav Dhanani"
 
 Shading analysis is the process of quantifying solar PV yield loss caused by obstructions blocking direct sunlight reaching the array. Obstructions include trees, neighbouring buildings, chimneys, parapets, water tanks, satellite dishes, mounting frames and inter-row shadows from other panels. Shading analysis uses sun-path geometry combined with three-dimensional obstruction mapping to compute the time-dependent shading pattern across the year.
 
-Shading impact on PV is non-linear. A small shadow on one cell can cut a series-connected string's output by 30 to 90 percent without bypass diode protection. Modern modules include bypass diodes that limit this loss, but partial shading still causes significant yield reduction. System-level mitigation includes string splitting across MPPT inputs, microinverters and DC optimisers.
+> **TL;DR**
+> - Shading analysis quantifies solar yield loss from obstructions like trees, buildings, parapets and inter-row shadows, using sun-path geometry and 3D obstruction mapping.
+> - A shadow on even one cell can cut a series-connected string's output by 30 to 90 percent without bypass diode protection.
+> - PVsyst and Helioscope are the industry-standard tools for bankable shading analysis on C&I and utility projects.
+> - Annual shading loss above 5 percent typically triggers a design change; string splitting, DC optimisers and microinverters recover 30 to 90 percent of the lost output.
+> - Indian rooftop shading usually comes from water tanks, parapets, adjacent buildings and trees, making site-specific analysis essential.
+
+Shading impact on PV is non-linear. A small shadow on one cell can cut a series-connected string's output by 30 to 90 percent without bypass diode protection. Modern modules include bypass diodes that limit this loss, but partial shading still causes significant yield reduction. System-level mitigation includes string splitting across [MPPT](/glossary/mppt/) inputs, [microinverters](/glossary/micro-inverter/) and [DC optimisers](/glossary/dc-optimiser/).
 
 For Indian rooftop solar, shading analysis is essential because urban rooftops are crowded with obstructions. Trees in residential settings, chimneys, neighbouring buildings, water tanks and parapets all contribute to shading loss. Utility-scale installations care about inter-row shading from system geometry.
 
 ## Why shading analysis matters
 
-Yield accuracy. Without shading analysis, P50 yield estimates are systematically optimistic.
+Yield accuracy. Without shading analysis, [P50](/glossary/p50-p90/) yield estimates are systematically optimistic.
 
-Design optimisation. Module placement, tilt and string layout decisions depend on shading patterns.
+Design optimisation. Module placement, tilt and string layout decisions depend on [shading patterns](/blog/solar-shading-analysis-software/).
 
 Equipment selection. Heavy shading favours microinverters or DC optimisers.
 
@@ -90,9 +97,9 @@ System ROI. Shading loss directly reduces revenue.
 
 ## How shading analysis works
 
-1. Map site location and orientation.
+1. [Map site location](/glossary/site-survey/) and orientation.
 2. Identify all obstructions (trees, buildings, structures) with height and position.
-3. Generate 3D model in shading analysis software.
+3. Generate a [3D model](https://heavendesigns.in/solar-3d-pre-design/) in shading analysis software.
 4. Compute sun-path geometry for the year.
 5. Calculate shadow patterns hour by hour.
 6. Quantify shading loss per module or per string.
@@ -181,7 +188,7 @@ Self-shading from oversized panels close to parapets.
 
 ## Best practices
 
-Conduct shading analysis at design stage with software.
+Conduct [shading analysis](https://surgepv.com/shadow-analysis/) at design stage with software.
 
 Include conservative tree growth projection (10 to 15 years).
 
@@ -235,7 +242,7 @@ Using summer-only analysis, missing winter sun angle issues.
 
 Inadequate row spacing on ground-mount plants.
 
-Mixed-orientation strings without per-MPPT separation.
+Mixed-orientation strings without [per-MPPT separation](/blog/dual-mppt-vs-single-mppt/).
 
 Trusting brochure shading claims without site-specific analysis.
 

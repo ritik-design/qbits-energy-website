@@ -5,7 +5,7 @@ description: "A PPA is a long-term contract for sale of solar electricity. Full 
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is ppa
   - power purchase agreement
@@ -68,11 +68,18 @@ author: "Nirav Dhanani"
 
 ## What is a Power Purchase Agreement
 
-A Power Purchase Agreement (PPA) is a long-term, contractual sale-of-electricity arrangement between a power generator and a buyer (offtaker). For Indian solar, the standard form is a 25-year contract between a solar developer and either a DISCOM (through SECI or state agency tenders) or a corporate buyer (open access or rooftop RESCO).
+A Power Purchase Agreement (PPA) is a long-term, contractual sale-of-electricity arrangement between a power generator and a buyer (offtaker). For Indian solar, the standard form is a 25-year contract between a solar developer and either a [DISCOM](/glossary/discom/) (through SECI or state agency tenders) or a corporate buyer (open access or rooftop [RESCO](/glossary/resco/)).
+
+> **TL;DR**
+> - A PPA is a long-term contract, typically 25 years for Indian solar, where a generator agrees to supply electricity at a fixed or formula-based tariff and a buyer agrees to take it.
+> - Utility-scale SECI PPA tariffs sit at ₹2.40 to ₹3.00 per kWh in 2026, down from ₹17.91 in 2010.
+> - Rooftop RESCO and C&I open access PPAs typically price at a 10 to 30 percent discount to retail tariffs.
+> - The PPA is the core bankability document: lenders model project debt service directly against contracted PPA revenue.
+> - Payment security (letter of credit, escrow) and curtailment compensation clauses are the terms most likely to cause disputes with DISCOM offtakers.
 
 A PPA specifies the tariff, contract duration, expected generation profile, curtailment compensation, payment security, force majeure, change-in-law treatment and dispute resolution. The PPA is the foundation document for project financing: lenders model expected revenue against PPA terms.
 
-For Indian solar PPAs in 2026, utility-scale tariffs sit at ₹2.40 to ₹3.00 per kWh, discovered through reverse auctions under SECI and CPSU tenders. C&I open access PPAs and rooftop RESCO PPAs typically sit at a 10 to 30 percent discount to retail tariffs.
+For Indian solar PPAs in 2026, utility-scale [tariffs](/glossary/tariff/) sit at ₹2.40 to ₹3.00 per kWh, discovered through reverse auctions under SECI and CPSU tenders. C&I open access PPAs and rooftop RESCO PPAs, covered in the [RESCO model guide for C&I buyers](/blog/solar-resco-model-india-guide/), typically sit at a 10 to 30 percent discount to retail tariffs.
 
 ## PPA explained simply
 
@@ -95,8 +102,8 @@ Foundation for renewable build-out. India's 200+ GW of renewable capacity rests 
 1. Tender or bilateral negotiation establishes tariff and terms.
 2. Developer wins tender or negotiation.
 3. PPA executed with buyer.
-4. Project financial close with lenders, using PPA as core revenue document.
-5. Construction begins.
+4. Project financial close with lenders, using PPA as core revenue document, often supported by a [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) to stress-test cash flow.
+5. Construction begins, typically executed by a [commercial solar EPC contractor](https://heavengreenenergy.com/commercial-solar/) for C&I and utility sites.
 6. Commercial operation date (COD) reached.
 7. Buyer pays for energy delivered, billed monthly per PPA tariff.
 8. Performance metrics monitored against PPA terms.
@@ -147,7 +154,7 @@ Foundation for renewable build-out. India's 200+ GW of renewable capacity rests 
 
 ### Payment security mechanism
 
-Letter of credit (typically 1-month equivalent revenue) and revolving escrow. Late Payment Surcharge Rules 2022 provide additional remedies for payment delay.
+Letter of credit (typically 1-month equivalent revenue) and revolving escrow. The [Late Payment Surcharge](/glossary/late-payment-surcharge/) Rules 2022 provide additional remedies for payment delay.
 
 ## Real-world applications
 
@@ -220,9 +227,11 @@ Plan for renewal or extension as plant approaches PPA term end.
 | SECI PPA | Utility-scale developer |
 | C&I open access PPA | Large industrial customer |
 | Rooftop RESCO PPA | Rooftop with rented ownership |
-| Net metering | Residential and small C&I |
-| Gross metering | Mid-size C&I in select states |
+| [Net metering](/glossary/net-metering/) | Residential and small C&I |
+| [Gross metering](/glossary/gross-metering/) | Mid-size C&I in select states |
 | Spot market | Short-term sales |
+
+Choosing between these depends heavily on state rules; the [net metering versus gross metering comparison](/blog/gross-metering-vs-net-metering/) walks through which fits which customer profile, and the [complete guide to net metering in India](/blog/net-metering-india-complete-guide/) covers state-by-state application.
 
 ## Indian market context
 
@@ -234,7 +243,7 @@ Open access C&I PPAs are growing in Karnataka, Maharashtra, Tamil Nadu and Andhr
 
 The Late Payment Surcharge Rules 2022 created a mechanism for DISCOMs to clear outstanding dues with escalating penalties.
 
-Group captive solar under Section 9 of Electricity Act 2003 allows C&I customers to take equity in solar plants and procure power without DISCOM surcharges.
+Group captive solar under Section 9 of [Electricity Act 2003](/glossary/electricity-act-2003/) allows C&I customers to take equity in solar plants and procure power without DISCOM surcharges.
 
 ## Standards and certifications
 

@@ -5,7 +5,7 @@ description: "RESCO is the third-party solar ownership model where developer own
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is resco
   - renewable energy service company
@@ -68,7 +68,14 @@ author: "Akash Hirapara"
 
 ## What is RESCO
 
-RESCO, Renewable Energy Service Company, is a solar deployment model in which a third-party developer designs, finances, installs, owns and operates the solar PV system on the customer's premises, and sells the generated electricity to the customer at a discounted PPA tariff. The customer commits zero upfront capex and pays only the monthly electricity bill at the RESCO tariff for the contract term, typically 15 to 25 years.
+RESCO, Renewable Energy Service Company, is a solar deployment model in which a third-party developer designs, finances, installs, owns and operates the solar PV system on the customer's premises, and sells the generated electricity to the customer at a discounted [PPA](/glossary/ppa/) tariff. The customer commits zero upfront [capex](/glossary/capex/) and pays only the monthly electricity bill at the RESCO tariff for the contract term, typically 15 to 25 years.
+
+> **TL;DR**
+> - RESCO is the zero-capex solar model: a third-party developer owns and operates the system, and the customer buys the electricity at a discounted PPA tariff.
+> - RESCO tariffs typically run ₹4.5 to ₹7/kWh, a 10 to 30 percent discount to a C&I retail tariff of ₹7 to ₹10/kWh.
+> - Contracts run 15 to 25 years, with the developer bearing performance risk and O&M responsibility for the full term.
+> - India's C&I rooftop solar market, largely built through RESCO, grew from about 1 GW in 2017 to over 10 GW by 2025.
+> - PM Surya Ghar subsidy goes to the system owner, so it does not apply to RESCO; capex-based residential solar dominates the subsidised segment instead.
 
 The model first scaled in the United States around 2010 as residential solar PPAs (SolarCity, Sunrun). In India, RESCO has scaled primarily in C&I rooftop solar from 2015 onward, with major players including Cleantech Solar, Amplus, Fourth Partner Energy, ReNew, Tata Power Solar, Azure Power and others.
 
@@ -78,29 +85,29 @@ For C&I customers, RESCO eliminates the capex barrier and outsources operational
 
 A solar company says: I will put solar panels on your factory roof for free. You buy the electricity from me at a discount to what the DISCOM charges. I make money over time, you save money from day one.
 
-The catch is a long-term contract (typically 15 to 25 years). You commit to buying the electricity, the developer commits to delivering it. Both sides win if the math works.
+The catch is a long-term contract (typically 15 to 25 years). You commit to buying the electricity, the developer commits to delivering it. Both sides win if the math works. This zero-upfront structure is broken down in more detail in [Zero Cost Solar India, RESCO and OPEX Models Explained](/blog/zero-cost-solar-resco-opex-india/).
 
 ## Why RESCO matters
 
 Zero capex. Removes the upfront barrier to C&I solar adoption.
 
-Outsourced O&M. Customer focuses on core business; developer manages the asset.
+Outsourced O&M. Customer focuses on core business; developer carries the [OPEX](/glossary/opex/) burden and manages the asset.
 
 Day-one savings. PPA tariff is below retail from month one.
 
 Bankability. Developers raise project finance against committed PPA cash flow.
 
-Scale. India's C&I rooftop sector grew from 1 GW in 2017 to over 10 GW by 2025 substantially through RESCO.
+Scale. India's C&I rooftop sector grew from 1 GW in 2017 to over 10 GW by 2025 substantially through RESCO, a shift covered in the [complete RESCO model guide for C&I buyers](/blog/solar-resco-model-india-guide/).
 
 Lower risk for customer. Performance risk sits with developer.
 
 ## How RESCO works
 
 1. Developer evaluates customer's electricity bill, sanctioned load and roof area.
-2. Developer proposes a PPA tariff (typically 10 to 30 percent below retail).
+2. Developer proposes a PPA tariff (typically 10 to 30 percent below retail), backed by a system layout produced with [commercial solar design software](https://surgepv.com/commercial-solar-design/).
 3. Customer signs 15 to 25 year PPA with the developer.
 4. Developer arranges project finance, installs and commissions the system.
-5. System generates electricity, customer consumes it directly through net metering.
+5. System generates electricity, customer consumes it directly through [net metering](/glossary/net-metering/).
 6. Monthly meter reading and PPA invoice from developer.
 7. At end of PPA term, system either transfers to customer (at nominal value) or is removed.
 
@@ -116,6 +123,8 @@ Lower risk for customer. Performance risk sits with developer.
 | RESCO tariff | ₹4.5 to ₹7/kWh typical |
 | Annual savings | 25 to 35% of solar-offset bill |
 | Total savings over 25 years | 200 to 500% of original capex equivalent |
+
+Because there is no capex outlay, the [payback period](/glossary/payback-period/) metric does not apply to RESCO customers; day-one savings against the RESCO tariff are the relevant measure instead.
 
 ### RESCO economics for the developer
 
@@ -140,7 +149,7 @@ Lower risk for customer. Performance risk sits with developer.
 
 ## Real-world applications
 
-C&I rooftop solar across manufacturing, IT, retail and hospitality sectors.
+[C&I rooftop solar installation](https://heavengreenenergy.com/commercial-solar/) across manufacturing, IT, retail and hospitality sectors.
 
 Multi-site retail chains.
 
@@ -221,7 +230,7 @@ Major Indian RESCO developers include Cleantech Solar, Amplus Energy, Fourth Par
 
 Investment-grade C&I customers are the primary RESCO market. Smaller customers face limited developer interest due to credit risk.
 
-PM Surya Ghar does not subsidise RESCO residential. Capex-based residential dominates the subsidised segment.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) does not subsidise RESCO residential. Capex-based residential dominates the subsidised segment.
 
 Recent SECI tenders include RESCO-style PPA structures for institutional and government rooftops.
 

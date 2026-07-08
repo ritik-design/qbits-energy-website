@@ -5,7 +5,7 @@ description: "Fault ride through (FRT) keeps solar inverters connected through b
 category: "Grid Compliance"
 categorySlug: "grid-compliance"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is fault ride through
   - lvrt
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "discom", term: "DISCOM" }
   - { slug: "harmonics", term: "Harmonics" }
   - { slug: "thd", term: "THD" }
+  - { slug: "cea", term: "CEA" }
 faqs:
   - q: "What is fault ride through in simple words?"
     a: "A rule that says a solar inverter must stay connected when the grid briefly goes wobbly, instead of switching off. Solar plants are big enough now that mass disconnection during a wobble would itself crash the grid."
@@ -70,9 +71,17 @@ author: "Keyur Rakholiya"
 
 Fault Ride Through (FRT) is the grid-code requirement that an inverter-based generator stay connected to the grid during brief voltage and frequency disturbances, and support voltage and frequency recovery through reactive and active power injection. FRT includes Low Voltage Ride Through (LVRT) for dips and High Voltage Ride Through (HVRT) for swells.
 
-The requirement emerged from wind power experience in the 2000s, when fault-driven mass disconnection of wind farms threatened grid stability. As solar PV capacity grew to gigawatt scale, the same logic applied. Modern grid codes require both wind and solar inverters to behave as grid-supporting devices, not as fragile loads.
+> **TL;DR**
+> - FRT requires solar and wind inverters to stay connected through brief voltage or frequency disturbances instead of tripping, while injecting reactive support.
+> - CEA Grid Code 2019 makes FRT mandatory in India for generators above 10 kW; IS 17387 covers the equivalent testing.
+> - LVRT requires ride-through down to 15 percent of nominal voltage for 150 ms, with a recovery curve back to 0.85 pu by 1500 ms.
+> - Reactive current injection during a dip can reach up to 100 percent of rated apparent power to help voltage recover.
+> - FRT is distinct from anti-islanding: FRT keeps the inverter connected through a brief disturbance, while anti-islanding disconnects it when the grid is genuinely lost.
+> - Non-compliant trips during real grid events can trigger PPA penalties on utility-scale plants.
 
-In India, the CEA Technical Standards for Connectivity to the Grid 2019 set FRT profiles for generators above 10 kW. IS 17387 incorporates equivalent FRT testing. Utility plant PPAs reference these requirements with penalties for non-compliance.
+The requirement emerged from wind power experience in the 2000s, when fault-driven mass disconnection of wind farms threatened grid stability. As solar PV capacity grew to gigawatt scale, the same logic applied. Modern grid codes require both wind and [solar inverters](/glossary/solar-inverter/) to behave as grid-supporting devices, not as fragile loads.
+
+In India, the [CEA](/glossary/cea/) Technical Standards for Connectivity to the Grid 2019 set FRT profiles for generators above 10 kW. IS 17387 incorporates equivalent FRT testing. Utility plant [PPAs](/glossary/ppa/) reference these requirements with penalties for non-compliance.
 
 ## Fault ride through explained simply
 
@@ -90,14 +99,14 @@ PPA compliance. Utility solar PPAs reference FRT compliance. Non-compliant trips
 
 Reduced cascading risk. FRT support during a fault helps the protection system isolate the fault correctly.
 
-Smart inverter foundation. FRT is one of the core smart-inverter functions that also include reactive power, voltage support and frequency response.
+Smart inverter foundation. FRT is one of the core [smart-inverter](/glossary/smart-inverter/) functions that also include reactive power, voltage support and frequency response.
 
 ## How FRT works
 
 1. The inverter continuously monitors voltage and frequency at its AC terminals.
 2. When voltage drops below the trip threshold, conventional protection would disconnect. FRT logic instead checks if the voltage trajectory is inside the protected ride-through profile.
 3. If yes, the inverter stays connected.
-4. During the dip, the inverter injects reactive current up to 100 percent of rated apparent power, supporting voltage at the connection point.
+4. During the dip, the inverter injects [reactive current](/glossary/reactive-power/) up to 100 percent of rated apparent power, supporting voltage at the connection point.
 5. Active power is temporarily reduced to free apparent power capacity for reactive injection.
 6. Once voltage recovers, the inverter ramps active power back up over a defined recovery period.
 7. If the voltage trajectory falls below the protected profile, the inverter trips as a last resort.
@@ -139,7 +148,7 @@ After voltage recovers above 0.9 pu, the inverter ramps active power back to pre
 
 ## Real-world applications
 
-Utility solar plants under SECI and CPSU PPAs.
+[Utility-scale solar plants](https://surgepv.com/utility-scale-solar-design/) under SECI and CPSU PPAs.
 
 C&I plants above 10 kW connected to LT or HT.
 
@@ -167,7 +176,7 @@ Hardware stress. Inverter components experience thermal and current cycling duri
 
 Coordination complexity. FRT settings must align with upstream protection.
 
-False ride-through during real grid loss could compromise safety unless coordinated with anti-islanding.
+False ride-through during real grid loss could compromise safety unless coordinated with [anti-islanding](/glossary/anti-islanding/) protection.
 
 Older inverters cannot be retrofitted. Replacement is the only path to FRT compliance.
 
@@ -183,7 +192,7 @@ PPA penalty for non-compliant trips during real grid events.
 
 Coordination conflict with anti-islanding. Both protections trigger simultaneously.
 
-Old inverter without FRT capability blocks DISCOM commissioning of a large solar plant.
+Old inverter without FRT capability blocks DISCOM commissioning of a large [solar EPC](https://heavengreenenergy.com/solar-epc/) project.
 
 DISCOM does not have programmable grid simulator for type test.
 
@@ -191,15 +200,15 @@ DISCOM does not have programmable grid simulator for type test.
 
 Specify FRT compliance to CEA Grid Code 2019 in inverter purchase contracts.
 
-Validate type test reports from accredited labs.
+Validate type test reports from accredited labs against recognised [inverter certification standards](/blog/solar-inverter-certifications/).
 
-Conduct plant-level FRT test at commissioning, witnessed by DISCOM.
+Conduct plant-level FRT test at commissioning, witnessed by DISCOM, backed by [CEIG-approved electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) where required.
 
 Coordinate FRT settings with upstream protection during plant design.
 
 Document FRT events for compliance audits.
 
-Update firmware periodically.
+[Update firmware periodically](/blog/solar-inverter-firmware-update-india/).
 
 Plan for combined LVRT, HVRT and frequency response settings.
 
@@ -220,7 +229,7 @@ SECI tender bid documents and IPP PPAs include FRT compliance clauses with penal
 
 Major inverter brands like Sungrow, Sineng, Huawei, ABB, Solis, Goodwe and others maintain FRT-compliant model series for the Indian market.
 
-Plant-level FRT testing is performed at commissioning by DISCOMs using available grid simulator capability or by relay-driven switching.
+Plant-level FRT testing is performed at commissioning by [DISCOMs](/glossary/discom/) using available grid simulator capability or by relay-driven switching.
 
 ## Standards and certifications
 

@@ -5,7 +5,7 @@ description: "The Electricity Act 2003 is India's foundational electricity law. 
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - electricity act 2003
   - indian electricity act
@@ -70,9 +70,16 @@ author: "Nirav Dhanani"
 
 The Electricity Act 2003 is India's foundational law governing the electricity sector. Enacted on 10 June 2003, it consolidated and replaced three earlier statutes and restructured the sector around competition, regulation and renewable energy promotion. The Act applies across India to generation, transmission, distribution, trading and use of electricity.
 
-Key reforms introduced by the Act include unbundling of state electricity boards into separate generation, transmission and distribution companies, statutory empowerment of independent regulators CERC and SERCs, introduction of open access, recognition of distributed and renewable generation, and creation of the Appellate Tribunal for Electricity.
+> **TL;DR**
+> - The Electricity Act 2003 is India's foundational electricity law, enacted 10 June 2003, replacing three earlier statutes.
+> - It unbundled state electricity boards into separate generation, transmission and distribution entities and created the independent regulators CERC and SERC.
+> - Section 86(1)(e) is the statutory basis for Renewable Purchase Obligation and state net metering regulations.
+> - Section 42 introduced open access, letting large customers procure power from any generator; Section 9 enables captive generation.
+> - Disputes escalate through the Appellate Tribunal for Electricity (APTEL) and then the Supreme Court.
 
-For Indian solar, the Act provides the statutory basis for Renewable Purchase Obligation, open access, captive generation, net metering regulation by SERCs, and the regulatory commission structure that approves rooftop solar, gross metering and PPAs.
+Key reforms introduced by the Act include unbundling of state electricity boards into separate generation, transmission and distribution companies, statutory empowerment of independent regulators [CERC](/glossary/cerc/) and [SERCs](/glossary/serc/), introduction of open access, recognition of distributed and renewable generation, and creation of the Appellate Tribunal for Electricity.
+
+For Indian solar, the Act provides the statutory basis for Renewable Purchase Obligation, open access, captive generation, [net metering](/glossary/net-metering/) regulation by SERCs, and the regulatory commission structure that approves rooftop solar, gross metering and [PPAs](/glossary/ppa/).
 
 ## Electricity Act 2003 explained simply
 
@@ -115,17 +122,17 @@ Net metering. Operationalised through SERC regulations under Act powers.
 
 ## Real-world applications
 
-State SERC net metering regulations under Section 86 powers.
+State SERC net metering regulations under Section 86 powers, covered state by state in our [complete guide to net metering in India](/blog/net-metering-india-complete-guide/).
 
 CERC REC Regulations operationalising RPO compliance.
 
-Open access for C&I customers procuring solar from third-party plants.
+Open access for C&I customers procuring solar from third-party plants, a structure increasingly built into [commercial solar design](https://surgepv.com/commercial-solar-design/) workflows.
 
 Captive solar plants under Section 9.
 
 PPA contracts under Section 86 frameworks.
 
-Distribution licensing of new private DISCOMs.
+Distribution licensing of new private [DISCOMs](/glossary/discom/).
 
 ## Advantages
 
@@ -167,7 +174,7 @@ REC trading on power exchanges operates under CERC frameworks rooted in the Act.
 
 Open access for solar procurement is a growing trend, especially in Karnataka, Maharashtra, Andhra Pradesh and Tamil Nadu.
 
-Captive solar under Section 9 has grown significantly for C&I customers seeking sustainability and cost reduction.
+Captive solar under Section 9 has grown significantly for C&I customers seeking sustainability and cost reduction, often delivered through [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) programmes.
 
 ## Standards and references
 

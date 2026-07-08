@@ -5,7 +5,7 @@ description: "Anti-islanding is the inverter protection that disconnects solar e
 category: "Protection"
 categorySlug: "protection"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is anti-islanding
   - anti-islanding protection
@@ -33,6 +33,8 @@ relatedTerms:
   - { slug: "frequency-response", term: "Frequency Response" }
   - { slug: "discom", term: "DISCOM" }
   - { slug: "smart-inverter", term: "Smart Inverter" }
+  - { slug: "almm-list", term: "ALMM List" }
+  - { slug: "bis-certification", term: "BIS Certification" }
 faqs:
   - q: "What is anti-islanding in simple words?"
     a: "It is the safety feature that tells your solar inverter to switch off when the utility grid goes down. Without it, your inverter could keep pushing power into a wire that linemen think is dead, and someone could get electrocuted."
@@ -69,7 +71,15 @@ author: "Keyur Rakholiya"
 
 ## What is anti-islanding
 
-Anti-islanding is the protection function in a grid-tied solar inverter that detects a loss of the utility grid and rapidly disconnects the inverter's AC output. It prevents the inverter from continuing to energise a section of the distribution network after the upstream feeder has been switched off, isolated by a protection device, or damaged.
+Anti-islanding is the protection function in a [grid-tied solar inverter](/glossary/on-grid-inverter/) that detects a loss of the utility grid and rapidly disconnects the inverter's AC output. It prevents the inverter from continuing to energise a section of the distribution network after the upstream feeder has been switched off, isolated by a protection device, or damaged. Our [anti-islanding protection guide](/blog/anti-islanding-protection-solar-inverters/) walks through the Indian compliance side of this in more depth.
+
+> **TL;DR**
+> - Anti-islanding is the inverter safety function that detects a utility grid outage and disconnects the inverter's AC output, typically within 100 to 500 ms and always inside the IEC 62116 limit of 2 seconds.
+> - It exists to protect utility lineworkers from being shocked by a rooftop solar inverter that keeps feeding a line the DISCOM believes is dead.
+> - India makes it mandatory under IEC 62116, IS 17387 and the CEA grid code, and DISCOMs verify it at commissioning.
+> - Modern inverters combine passive detection (voltage, frequency, phase) with active detection (small injected disturbances) to shrink the non-detection zone.
+> - Off-grid inverters do not need anti-islanding since they are never connected to the utility grid.
+> - Disabling anti-islanding to stop nuisance tripping is illegal and voids warranty.
 
 The hazard it addresses is direct and physical. When a feeder is de-energised by the DISCOM for maintenance, fault clearance or a downed line, the lineworker assumes the section is dead. If a solar inverter on a customer's roof continues to push power into that section, the line stays live. The lineman touches it and is electrocuted. Anti-islanding is the layer of protection that keeps this from happening.
 
@@ -144,13 +154,13 @@ The standard test connects the inverter through a resonant RLC load tuned to 50 
 
 ## Real-world applications
 
-Residential rooftop solar. Every grid-tied home solar inverter in India has anti-islanding. It is invisible until a grid outage, when the inverter shuts off automatically.
+[Residential rooftop solar](https://heavengreenenergy.com/residential-solar/). Every grid-tied home solar inverter in India has anti-islanding. It is invisible until a grid outage, when the inverter shuts off automatically.
 
-Commercial and industrial solar. C&I inverters with multiple MPPTs and three-phase output have the same requirement.
+[Commercial and industrial solar](https://heavengreenenergy.com/commercial-solar/). C&I inverters with multiple [MPPTs](/glossary/mppt/) and three-phase output have the same requirement.
 
-Utility-scale solar. Central and string inverters in solar parks have anti-islanding, although the priority shifts toward fault ride-through and reactive power support.
+Utility-scale solar. [Central inverters](/glossary/central-inverter/) and [string inverters](/glossary/string-inverter/) in solar parks have anti-islanding, although the priority shifts toward fault ride-through and reactive power support.
 
-Hybrid systems. The grid-tie side of a hybrid inverter has anti-islanding. The off-grid backup side forms an intentional island after the grid is confirmed lost.
+Hybrid systems. The grid-tie side of a [hybrid inverter](/glossary/hybrid-inverter/) has anti-islanding. The off-grid backup side forms an intentional island after the grid is confirmed lost.
 
 Microgrids. Intentional islanding is allowed for microgrids designed to operate disconnected, with separate protection coordination.
 
@@ -184,7 +194,7 @@ Frequent unexpected trips. Investigate whether the grid actually went out of tri
 
 Inverter not reconnecting after grid restore. The standard reconnection delay is 60 to 300 seconds. The inverter holds off until it confirms steady grid voltage and frequency.
 
-Anti-islanding test fails at commissioning. The inverter took longer than 2 seconds. Possible causes are firmware misconfiguration, undersized AC contactor, or a software bug. Update firmware.
+Anti-islanding test fails at [commissioning](/blog/solar-inverter-commissioning-in-india/). The inverter took longer than 2 seconds. Possible causes are firmware misconfiguration, undersized AC contactor, or a software bug. [Update the firmware](/blog/solar-inverter-firmware-update-india/).
 
 False trip during cloud passage. Cloud edges can cause inverter active power to swing, which can cross a passive detection threshold. Modern firmware handles this, older firmware may need an update.
 
@@ -221,13 +231,13 @@ Avoid mixing inverter brands on small sites unless tested for multi-inverter com
 
 ## Indian market context
 
-India's CEA Technical Standards for Connectivity to the Grid 2019 require anti-islanding compliance for all distributed solar inverters. ALMM listing requires IEC 62116 type test evidence or equivalent IS 17387 compliance. BIS certification under IS 16221 and IS 17387 covers the safety and grid interconnection aspects.
+India's CEA Technical Standards for Connectivity to the Grid 2019 require anti-islanding compliance for all distributed solar inverters. [ALMM listing](/glossary/almm-list/) requires IEC 62116 type test evidence or equivalent IS 17387 compliance. [BIS certification](/glossary/bis-certification/) under IS 16221 and IS 17387 covers the safety and grid interconnection aspects.
 
-DISCOM commissioning protocols include a witnessed anti-islanding test. The test is typically performed by opening the customer's main switch with the inverter running at moderate load and confirming the inverter trips within 2 seconds.
+[DISCOM](/glossary/discom/) commissioning protocols include a witnessed anti-islanding test. The test is typically performed by opening the customer's main switch with the inverter running at moderate load and confirming the inverter trips within 2 seconds.
 
 For large utility solar plants, anti-islanding is supplemented by upstream protection at the substation. CEA grid code, IEC 61400-27 and SECI PPA terms all reference anti-islanding compliance.
 
-Common Indian inverter brands like Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Huawei, Sineng, Luminous and Tata Power Solar ship with IEC 62116 certified anti-islanding as standard.
+Common Indian inverter brands like Sungrow, Solis, Goodwe, [Growatt](/blog/growatt-solar-inverter-review-india/), Solax, Deye, Huawei, Sineng, Luminous and Tata Power Solar ship with IEC 62116 certified anti-islanding as standard.
 
 ## Standards and certifications
 

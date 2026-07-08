@@ -5,7 +5,7 @@ description: "Round trip efficiency measures battery storage energy loss. Full g
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - round trip efficiency
   - battery rte
@@ -74,9 +74,16 @@ RTE has two levels:
 - Cell-level RTE: measures only battery cell efficiency
 - System-level RTE: includes PCS (inverter) conversion losses, BMS power consumption, thermal management losses
 
-For LFP cells, cell-level RTE is 92-95 percent. System-level RTE for residential LFP storage with hybrid inverter: 85-92 percent. The remaining 8-15 percent is lost as heat or consumed by control electronics.
+For [LFP](/glossary/lfp-battery/) cells, cell-level RTE is 92-95 percent. System-level RTE for residential LFP storage with [hybrid inverter](/glossary/hybrid-inverter/): 85-92 percent. The remaining 8-15 percent is lost as heat or consumed by control electronics.
 
-For Indian solar storage, RTE directly impacts storage economics. Higher RTE means more usable energy per kWh of battery capacity, lower Levelised Cost of Storage (LCOS) and faster payback. RTE is one of the key metrics for storage system selection alongside cycle life and calendar life.
+For Indian solar storage, RTE directly impacts storage economics. Higher RTE means more usable energy per kWh of battery capacity, lower Levelised Cost of Storage (LCOS) and faster payback. RTE is one of the key metrics for storage system selection alongside [cycle life](/glossary/cycle-life/) and [calendar life](/glossary/calendar-life/).
+
+> **TL;DR**
+> - Round-trip efficiency (RTE) is energy out divided by energy in, expressed as a percentage.
+> - LFP cell-level RTE is 92 to 95 percent; system-level RTE (including inverter and BMS losses) drops to 85 to 92 percent.
+> - Lead acid RTE is much lower, at 75 to 85 percent cell-level and 65 to 80 percent system-level.
+> - Higher C-rate, temperature extremes and battery aging all reduce RTE.
+> - Each 5 percent drop in RTE increases the Levelised Cost of Storage (LCOS) by roughly 6 percent, so RTE is a core input to storage economics.
 
 ## Why RTE matters
 
@@ -91,6 +98,8 @@ Heat generation. RTE losses appear as heat, requiring thermal management.
 EMS optimisation. RTE affects best dispatch strategy.
 
 ## RTE by chemistry and level
+
+[Lithium-ion batteries](/glossary/lithium-ion-battery/) clear [lead acid](/glossary/lead-acid-battery/) by a wide margin here, one of the main reasons LFP has displaced lead acid in most new Indian solar storage deployments.
 
 | Chemistry | Cell RTE | System RTE |
 |---|---|---|
@@ -121,10 +130,10 @@ EMS optimisation. RTE affects best dispatch strategy.
 
 | Factor | Effect |
 |---|---|
-| C-rate (charge/discharge speed) | Higher C = lower RTE |
+| [C-rate](/glossary/c-rate/) (charge/discharge speed) | Higher C = lower RTE |
 | Temperature | Optimal 20-30°C |
 | State of charge range | Edges (very high or low SOC) less efficient |
-| Cell aging | RTE declines with SOH |
+| Cell aging | RTE declines with [SOH](/glossary/soh/) |
 | Cell quality | Manufacturing variation |
 | BMS efficiency | Balancing and standby |
 
@@ -151,7 +160,7 @@ Example: 95% × 0.97 × 0.97 × 0.99 = 88.4%
 Levelised Cost of Storage:
 LCOS = (Capex + lifetime opex) / (Cycles × usable kWh × RTE)
 
-Each 5 percent RTE reduction increases LCOS by ~6 percent.
+Each 5 percent RTE reduction increases LCOS by ~6 percent — see our [solar inverter efficiency](/blog/solar-inverter-efficiency/) explainer for how conversion losses on the AC side compound with battery-side RTE.
 
 ## Real-world applications
 
@@ -161,13 +170,13 @@ EMS dispatch optimisation.
 
 LCOS calculation.
 
-Solar self-consumption modelling.
+Solar self-consumption modelling, including [solar cost and savings calculators](https://heavengreenenergy.com/solar-calculator/) that account for storage losses.
 
 Bankable storage projections.
 
 ## Best practices
 
-Compare system RTE not just cell RTE.
+Compare system RTE not just cell RTE, and factor it into capacity planning the way SurgePV's [battery and energy storage sizing guide](https://surgepv.com/hub/energy-storage/battery-sizing/) recommends.
 
 Operate at moderate C-rate for best RTE.
 
@@ -185,7 +194,7 @@ Hybrid inverter manufacturers report PCS efficiency.
 
 BESS VGF scheme implicitly assumes 90%+ system RTE.
 
-Real-world Indian residential RTE: 85-90 percent typical.
+Real-world Indian residential RTE: 85-90 percent typical, a figure worth checking against manufacturer claims when comparing the [best hybrid solar inverters in India](/blog/best-hybrid-solar-inverter-india-2026/).
 
 ## Standards and certifications
 

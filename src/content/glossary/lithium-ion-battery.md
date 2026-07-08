@@ -5,7 +5,7 @@ description: "A lithium-ion battery stores energy through reversible Li-ion inte
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is lithium ion battery
   - li-ion battery solar
@@ -32,6 +32,8 @@ relatedTerms:
   - { slug: "ac-coupling", term: "AC Coupling" }
   - { slug: "dc-coupling", term: "DC Coupling" }
   - { slug: "round-trip-efficiency", term: "Round Trip Efficiency" }
+  - { slug: "thermal-runaway", term: "Thermal Runaway" }
+  - { slug: "soh", term: "State of Health" }
 faqs:
   - q: "What is a lithium ion battery in simple words?"
     a: "A rechargeable battery where lithium ions shuttle between two electrodes to store and release energy. It is the technology inside modern phone batteries, EVs and solar home batteries."
@@ -72,13 +74,20 @@ A lithium-ion battery is a rechargeable electrochemical storage device in which 
 
 For solar applications, lithium-ion batteries cover a range of chemistries with different trade-offs. Lithium iron phosphate (LFP) dominates stationary storage because of safety, cycle life and cost. Lithium nickel manganese cobalt oxide (NMC) is preferred in EVs for energy density. Smaller volumes of lithium cobalt oxide (LCO) and lithium manganese oxide (LMO) appear in consumer electronics and certain niche applications.
 
-In India, lithium-ion installations for solar storage grew from under 100 MWh in 2020 to several gigawatt-hours by 2025, driven by the falling cost of LFP, growth of hybrid inverters, and the National Electric Mobility Mission expanding battery manufacturing.
+In India, lithium-ion installations for solar storage grew from under 100 MWh in 2020 to several gigawatt-hours by 2025, driven by the falling cost of [LFP](/glossary/lfp-battery/), growth of [hybrid inverters](/glossary/hybrid-inverter/), and the National Electric Mobility Mission expanding battery manufacturing.
+
+> **TL;DR**
+> - Lithium-ion batteries store energy by shuttling lithium ions between two electrodes, and the family includes LFP, NMC, NCA, LCO and LMO chemistries.
+> - LFP dominates Indian stationary solar storage (4,000 to 8,000 cycles) while NMC is preferred in EVs for its higher energy density.
+> - Round-trip efficiency is 92 to 96 percent at cell level for lithium-ion versus 75 to 85 percent for lead acid.
+> - Indian LFP storage costs roughly ₹40,000 to ₹70,000 per usable kWh installed in 2026, falling 6 to 10 percent annually.
+> - A Battery Management System (BMS) is essential in every lithium-ion pack to balance cells and enforce voltage, current and temperature protection limits.
 
 ## Lithium ion battery explained simply
 
 A lithium-ion battery has two electrodes separated by an electrolyte. When you charge it, lithium ions move from one electrode to the other through the electrolyte. When you use it, the ions move back, releasing energy. The shuttle happens thousands of times before the materials degrade enough to retire the battery.
 
-Compared to lead acid, lithium-ion stores roughly three times more energy per kilogram, lasts three to five times longer, charges faster, requires no watering and tolerates partial-state-of-charge cycling.
+Compared to a [lead acid battery](/glossary/lead-acid-battery/), lithium-ion stores roughly three times more energy per kilogram, lasts three to five times longer, charges faster, requires no watering and tolerates partial-state-of-charge cycling — see our [lithium vs lead-acid comparison](/blog/lithium-vs-lead-acid-solar-battery/) for real Indian pricing and payback numbers.
 
 ## Why lithium ion batteries matter
 
@@ -107,7 +116,7 @@ Discharging:
 3. Electrons flow through external circuit, powering the load.
 4. Cell voltage drops as state of charge decreases.
 
-Charge and discharge cycles are managed by a Battery Management System (BMS) that monitors voltage, current, temperature and SOC, balances cells, and enforces protection limits.
+Charge and discharge cycles are managed by a [BMS](/glossary/bms/) that monitors voltage, current, temperature and [SOC](/glossary/battery-soc/), balances cells, and enforces protection limits — our [BMS in hybrid solar inverters](/blog/bms-hybrid-solar-inverter-explained/) guide explains how this communicates with the inverter.
 
 ## Technical deep dive
 
@@ -146,15 +155,15 @@ Charge and discharge cycles are managed by a Battery Management System (BMS) tha
 LFP: 92 to 95 percent.
 NMC: 93 to 96 percent.
 
-Includes inverter losses for AC-coupled systems, which lowers system round-trip to 85 to 90 percent.
+Includes inverter losses for [AC-coupled](/glossary/ac-coupling/) systems, which lowers system [round-trip efficiency](/glossary/round-trip-efficiency/) to 85 to 90 percent.
 
 ## Real-world applications
 
-Residential hybrid solar. 3 to 15 kWh LFP packs paired with hybrid inverters.
+Residential hybrid solar. 3 to 15 kWh LFP packs paired with hybrid inverters — see [how to size a battery for a hybrid solar inverter](/blog/battery-sizing-hybrid-solar/) for the sizing method.
 
 Small commercial backup. 15 to 100 kWh LFP for clinics, schools and small offices.
 
-C&I peak shaving. 100 kWh to 5 MWh systems for demand charge reduction.
+C&I peak shaving. 100 kWh to 5 MWh systems for demand charge reduction, sized using load-profile methods like SurgePV's [battery and energy storage sizing guide](https://surgepv.com/hub/energy-storage/battery-sizing/) and typically bundled into a [commercial solar installation](https://heavengreenenergy.com/commercial-solar/).
 
 Utility battery storage. Multi-megawatt LFP packs for grid services.
 
@@ -182,7 +191,7 @@ Higher upfront cost than lead acid.
 
 Temperature sensitivity. Cold reduces capacity, heat reduces life.
 
-Thermal runaway risk in NMC, mitigated by LFP.
+[Thermal runaway](/glossary/thermal-runaway/) risk in NMC, mitigated by LFP.
 
 Recycling infrastructure still maturing.
 
@@ -196,7 +205,7 @@ Over-temperature in summer cabinets. Forced ventilation required.
 
 Cell imbalance after years of cycling. BMS balancing should handle, but extreme imbalance requires service.
 
-Calendar ageing during long idle periods.
+Calendar ageing during long idle periods, tracked through declining [State of Health](/glossary/soh/).
 
 Connector corrosion in high-humidity environments.
 
@@ -210,7 +219,7 @@ Plan for 20 to 30 degree Celsius ambient through ventilation or shading.
 
 Use a BMS-supported pack with CAN bus communication to inverter.
 
-Cycle within rated DoD (typically 80 to 90 percent for LFP).
+Cycle within the rated [depth of discharge](/glossary/battery-dod/) (typically 80 to 90 percent for LFP) to protect [cycle life](/glossary/cycle-life/).
 
 Schedule firmware updates for BMS.
 
@@ -231,7 +240,7 @@ Document warranty terms, including cycle and calendar conditions.
 
 Major LFP cell manufacturing investments in India include Reliance New Energy, Ola Electric, Amara Raja, Exide and Tata Chemicals. Cell-level production capacity is ramping toward 50 GWh by 2027.
 
-Major battery pack assemblers and integrators include Inverted Energy, Loom Solar, Luminous, Su-kam, Microtek, Goodwe Storage, Sungrow, Pylon Tech (India operations) and Tata Power Solar.
+Major battery pack assemblers and integrators include Inverted Energy, Loom Solar, Luminous, Su-kam, Microtek, Goodwe Storage, Sungrow, Pylon Tech (India operations) and Tata Power Solar; our [best solar battery brands in India](/blog/best-solar-battery-brands-india-2026/) guide reviews them and our [solar battery price guide](/blog/solar-battery-price-guide-india-2026/) tracks current pricing. As retired EV cells enter the market, [second-life batteries](/glossary/second-life-battery/) are also starting to supply lower-cost stationary storage.
 
 PM Surya Ghar does not subsidise residential batteries. The Viability Gap Funding scheme for utility-scale storage and the PLI for advanced chemistry cells aim to expand domestic capacity.
 

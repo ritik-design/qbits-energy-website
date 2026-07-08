@@ -5,7 +5,7 @@ description: "The ALMM List is the MNRE-approved list of solar modules and inver
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - almm list
   - almm india
@@ -69,11 +69,19 @@ author: "Nirav Dhanani"
 
 ## What is ALMM
 
-The Approved List of Models and Manufacturers (ALMM) is an MNRE-maintained list of solar PV modules, solar cells and solar inverters whose manufacturers and specific models meet quality, performance and origin requirements set by the Ministry. Equipment used in subsidised solar projects in India must come from manufacturers and models on the ALMM List.
+The Approved List of Models and Manufacturers (ALMM) is an [MNRE](/glossary/mnre/)-maintained list of solar PV modules, solar cells and [solar inverters](/glossary/solar-inverter/) whose manufacturers and specific models meet quality, performance and origin requirements set by the Ministry. Equipment used in subsidised solar projects in India must come from manufacturers and models on the ALMM List.
 
-ALMM was introduced in April 2019 under MNRE Office Memorandum and has gone through suspension, reinstatement and several revisions. As of 2026, ALMM is fully operational for modules (List I) and inverters (List III), with cells (List II) being phased in for higher-tier projects.
+> **TL;DR**
+> - ALMM (Approved List of Models and Manufacturers) is an MNRE-maintained list; equipment must be on it to qualify for subsidised or government-tendered Indian solar projects.
+> - It is mandatory for PM Surya Ghar, PM-KUSUM, SECI and most state tenders, but not for private commercial projects.
+> - The list has three parts: List I (modules), List II (cells) and List III (inverters).
+> - BIS certification is a prerequisite, followed by NISE factory inspection before listing is granted.
+> - ALMM status must be confirmed on the date of supply, not just the date of order, since listings can be revoked mid-project.
+> - ALMM-listed module prices have historically run 5 to 15 percent above non-ALMM imports.
 
-ALMM listing requires BIS certification as a prerequisite, plus origin documentation, factory inspection by the National Institute of Solar Energy (NISE), and ongoing surveillance. Listings are routinely revoked when conditions change.
+ALMM was introduced in April 2019 under MNRE Office Memorandum and has gone through suspension, reinstatement and several revisions. As of 2026, ALMM is fully operational for modules (List I) and inverters (List III), with cells (List II) being phased in for higher-tier projects. A detailed breakdown of what changed in the latest revision is covered in our [ALMM List Phase III guide for buyers and EPCs](/blog/almm-list-phase-iii-guide/).
+
+ALMM listing requires [BIS certification](/glossary/bis-certification/) as a prerequisite, plus origin documentation, factory inspection by the National Institute of Solar Energy (NISE), and ongoing surveillance. Listings are routinely revoked when conditions change.
 
 ## ALMM explained simply
 
@@ -81,7 +89,7 @@ If you are building a solar project that gets subsidy from the central governmen
 
 ## Why ALMM matters
 
-Subsidy gating. PM Surya Ghar, PM-KUSUM and CPSU schemes disburse subsidy only against ALMM equipment.
+Subsidy gating. [PM Surya Ghar](/glossary/pm-surya-ghar/), [PM-KUSUM](/glossary/kusum/) and CPSU schemes disburse subsidy only against ALMM equipment.
 
 Quality floor. ALMM verifies BIS compliance, factory inspection and ongoing surveillance.
 
@@ -98,8 +106,10 @@ Investor confidence. ALMM listing is a signal of regulatory acceptance and ongoi
 3. NISE conducts factory inspection at the manufacturing facility.
 4. MNRE reviews and issues ALMM listing order.
 5. Listing is published on MNRE website.
-6. DISCOMs and tender authorities reference the published list.
+6. [DISCOMs](/glossary/discom/) and tender authorities reference the published list.
 7. Periodic surveillance may revoke listing for non-compliance.
+
+For EPCs assembling subsidised rooftop or ground-mount portfolios, sourcing ALMM-listed equipment through a [turnkey solar EPC partner](https://heavengreenenergy.com/solar-epc/) that already tracks listing status simplifies compliance and avoids last-minute substitutions.
 
 ## Technical deep dive
 
@@ -147,7 +157,7 @@ Reduces import dependency in solar.
 
 ## Limitations
 
-Acts as a trade barrier under WTO interpretations.
+Acts as a trade barrier under WTO interpretations, a concern that echoes debates around [import duties on solar inverters in India](/blog/bcd-import-duty-solar-inverters-india/).
 
 Listing process can take 6 to 12 months, delaying new product launches.
 
@@ -200,6 +210,8 @@ The PLI scheme accelerated Indian module manufacturing capacity, with several gi
 | IS 17387 | Inverter grid interconnection |
 | BIS certification | Quality compliance prerequisite |
 | NISE inspection protocol | Factory inspection |
+
+These IS standards sit inside the wider [BIS/IEC compliance framework for solar inverters](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) that Indian buyers and EPCs must verify before commissioning.
 
 ## Common mistakes
 

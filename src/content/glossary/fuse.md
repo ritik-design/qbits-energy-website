@@ -5,7 +5,7 @@ description: "A fuse is an overcurrent protection device that melts under fault 
 category: "Protection"
 categorySlug: "protection"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is fuse
   - solar fuse
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "short-circuit-current", term: "Short Circuit Current" }
   - { slug: "dc-cable", term: "DC Cable" }
   - { slug: "junction-box", term: "Junction Box" }
+  - { slug: "open-circuit-voltage", term: "Open Circuit Voltage" }
 faqs:
   - q: "What is a fuse in simple words?"
     a: "A wire link inside a glass or ceramic tube that melts when too much current flows, breaking the circuit. One-shot, must be replaced after each blow."
@@ -68,11 +69,19 @@ author: "Nirav Dhanani"
 
 ## What is a fuse
 
-A fuse is a one-shot overcurrent protection device consisting of a calibrated metal element enclosed in an insulating body. When current through the element exceeds the rated value for a defined time, the element heats above its melting point, vaporises, and interrupts the circuit. After operation, the fuse must be replaced.
+A fuse is a one-shot overcurrent protection device consisting of a calibrated metal element enclosed in an insulating body. When [current](/glossary/current/) through the element exceeds the rated value for a defined time, the element heats above its melting point, vaporises, and interrupts the circuit. After operation, the fuse must be replaced.
+
+> **TL;DR**
+> - A fuse is a one-time overcurrent device: a calibrated metal element that melts and permanently opens the circuit when current exceeds its rating.
+> - Solar DC strings use gPV fuses rated 1000 to 1500 V DC with 10 kA breaking capacity, purpose-built for DC arc extinction.
+> - Fuses are sized at roughly 1.5 times module Isc, then rounded up to the nearest standard rating.
+> - AC fuses must never be used on DC circuits because they cannot reliably extinguish a DC arc, which has no zero crossing.
+> - Combiner boxes with three or more parallel strings need fuse protection against reverse current; smaller residential systems with one or two strings often skip it.
+> - A fuse is reusable-in-name-only: after it blows, replace it, but only after diagnosing and fixing the fault that caused it.
 
 For solar applications, specialised photovoltaic DC fuses (designated gPV) are used. These are rated for the unique conditions of solar DC: high voltage (1000 V or 1500 V DC), bidirectional fault current possible, and arc-interrupting capability designed for DC without zero crossing.
 
-Indian solar installations use DC fuses primarily in combiner boxes for string-level protection, sized at typically 1.5 times module Isc. AC-side fuses are used in specialty applications; most AC protection uses MCBs and MCCBs.
+Indian solar installations use DC fuses primarily in [combiner boxes](/glossary/combiner-box/) for string-level protection, sized at typically 1.5 times module Isc. AC-side fuses are used in specialty applications; most AC protection uses [MCBs](/glossary/mcb/) and MCCBs. Our [string sizing and overcurrent protection guide](/blog/solar-string-sizing-ocp-india/) covers how fuse sizing fits into the broader string design.
 
 ## Why fuses matter
 
@@ -123,9 +132,9 @@ For DC fuses, arc extinction is more challenging because DC has no zero crossing
 
 Rated current I_fuse = 1.5 × Isc_module
 
-Example: 16 A Isc module → 24 A fuse, round to nearest standard (25 A).
+Example: 16 A Isc module → 24 A fuse, round to nearest standard (25 A). Use [SurgePV's string sizing calculator](https://surgepv.com/tools/string-sizing-calculator/) to cross-check fuse and [string sizing](/glossary/string-sizing/) together for a given module and inverter combination.
 
-Voltage rating must equal or exceed maximum string Voc at cold temperatures.
+Voltage rating must equal or exceed maximum string [Voc](/glossary/open-circuit-voltage/) at cold temperatures.
 
 Reverse current rating must accommodate reverse current from N-1 parallel strings, where N is the total number of parallel strings in the combiner box.
 
@@ -144,7 +153,7 @@ Combiner box string protection in utility plants.
 
 Inverter input fuses for parallel string protection.
 
-DC isolator integrated fuses.
+DC [isolator](/glossary/isolator/) integrated fuses.
 
 Specialty AC fuse applications.
 
@@ -200,7 +209,7 @@ Residential rooftop systems with 1 or 2 strings often omit fuses since reverse c
 
 C&I rooftop systems with 3 or more parallel strings typically include fuse protection.
 
-BIS certification under IS 13703 for low voltage fuses.
+BIS certification under IS 13703 for low voltage fuses. Installers sourcing pre-wired [DCDB and ACDB enclosures with integrated fuse protection](https://heavengreenenergy.com/products/acdb-dcdb/) can skip building combiner assemblies from scratch on site.
 
 ## Standards and certifications
 

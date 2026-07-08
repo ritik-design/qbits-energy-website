@@ -5,7 +5,7 @@ description: "kWh is the unit of electrical energy. Full guide to calculation, b
 category: "Electrical Basics"
 categorySlug: "electrical-basics"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is kwh
   - kilowatt hour
@@ -32,6 +32,8 @@ relatedTerms:
   - { slug: "peak-sun-hours", term: "Peak Sun Hours" }
   - { slug: "cuf", term: "CUF" }
   - { slug: "energy-meter", term: "Energy Meter" }
+  - { slug: "ppa", term: "Power Purchase Agreement" }
+  - { slug: "pm-surya-ghar", term: "PM Surya Ghar" }
 faqs:
   - q: "What is kWh in simple words?"
     a: "The unit on your electricity bill. One kWh equals one kilowatt of power used for one hour, or 1000 watts for 1 hour. A 100-watt bulb running for 10 hours uses 1 kWh."
@@ -70,6 +72,13 @@ author: "Nirav Dhanani"
 
 A kilowatt-hour (kWh) is the unit of electrical energy equivalent to one kilowatt (kW) of power used for one hour. It is the standard billing unit for electricity in most of the world, including India. 1 kWh = 1000 watt-hours = 3.6 megajoules.
 
+> **TL;DR**
+> - A kWh is the unit of electrical energy equal to 1 kW of power sustained for 1 hour; it is the standard unit on every Indian electricity bill.
+> - kWh = power (kW) × time (hours); a 2 kW AC running 8 hours uses 16 kWh.
+> - A typical Indian home consumes 200 to 500 kWh per month, with retail tariffs ranging roughly ₹3 to ₹12 per kWh depending on the slab.
+> - A 3 kW solar system generates around 4,200 kWh per year in typical Indian conditions.
+> - Net metering credits and PPA tariffs (₹/kWh) are both denominated in kWh.
+
 All retail electricity billing, solar yield measurement, PPA pricing, regulatory energy accounting and consumer-facing energy data is denominated in kWh. The unit bridges power, time and cost into a single intuitive quantity.
 
 For Indian solar, kWh is the unit of generation (annual yield in kWh, monthly export in kWh), the unit of consumption offset (kWh saved against retail bill), and the unit of credit under net metering (kWh exported and credited).
@@ -78,15 +87,15 @@ For Indian solar, kWh is the unit of generation (annual yield in kWh, monthly ex
 
 Universal billing unit. Every Indian electricity bill is in kWh.
 
-PPA pricing. ₹/kWh is the standard tariff format.
+[PPA](/glossary/ppa/) pricing. ₹/kWh is the standard [tariff](/glossary/tariff/) format.
 
-Solar yield. Specific yield in kWh/kWp/year is the standard performance metric.
+Solar yield. Specific yield in kWh/kWp/year is the standard performance metric, as explained in our [solar yield](/glossary/solar-yield/) glossary entry.
 
-Customer comparison. Solar saves a specific number of kWh, compared to retail tariff per kWh.
+Customer comparison. Solar saves a specific number of kWh, compared to retail tariff per kWh — a saving customers can estimate with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/).
 
-Net metering. Export and import credited in kWh.
+Net metering. Export and import credited in kWh under [net metering](/glossary/net-metering/), which differs from [gross metering](/blog/gross-metering-vs-net-metering/) in how credits are calculated.
 
-Regulatory benchmarking. CUF derived from kWh against capacity.
+Regulatory benchmarking. [CUF](/glossary/cuf/) derived from kWh against capacity.
 
 ## How kWh is calculated
 
@@ -97,7 +106,7 @@ For variable loads: kWh = ∫P(t) dt over the period
 Examples:
 - 100 W bulb for 10 hours: 0.1 × 10 = 1 kWh
 - 1.5 ton AC (2 kW) for 8 hours: 2 × 8 = 16 kWh
-- 1 kW solar panel × 5 peak sun hours = 5 kWh per day
+- 1 kW solar panel × 5 [peak sun hours](/glossary/peak-sun-hours/) = 5 kWh per day
 
 ## Technical deep dive
 
@@ -138,6 +147,8 @@ State-specific. Always consult the current tariff order.
 | Bengaluru rooftop residential | 1,400 to 1,550 |
 | Kolkata rooftop residential | 1,200 to 1,400 |
 
+For a full state-by-state breakdown of these benchmarks, see our guide to [solar yield in India](/blog/solar-yield-india/).
+
 ### Multiples and submultiples
 
 | Unit | Value |
@@ -152,7 +163,7 @@ State-specific. Always consult the current tariff order.
 
 Electricity billing for all customer categories.
 
-PPA tariff pricing.
+PPA tariff pricing, which feeds into [generation and revenue financial modeling](https://surgepv.com/generation-financial-tool/).
 
 Solar yield reporting.
 
@@ -168,7 +179,7 @@ Meter inaccuracy (older meters drift).
 
 Billing slab boundary effects (small variation pushing into higher slab).
 
-Net metering credit miscalculation.
+Net metering credit miscalculation, often traceable back to unfamiliarity with the [net metering application process](/blog/how-to-apply-net-metering-india/).
 
 Time-of-day rate confusion.
 
@@ -188,7 +199,7 @@ Maintain solar generation logs to support net metering claims.
 
 ## Indian market context
 
-PM Surya Ghar promises up to 300 kWh/month free electricity for participating residential customers.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) promises up to 300 kWh/month free electricity for participating residential customers.
 
 CEA monthly reports publish state-wise generation in MWh and TWh.
 

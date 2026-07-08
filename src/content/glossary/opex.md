@@ -5,7 +5,7 @@ description: "OPEX is the recurring operating cost of a solar project. Full guid
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is opex
   - solar opex
@@ -70,7 +70,14 @@ author: "Akash Hirapara"
 
 OPEX, Operating Expenditure, is the recurring cost of running a solar plant over its operational life. It includes preventive and corrective maintenance, module and array cleaning, monitoring, insurance, security, land lease (for utility), property tax, spare parts, and replacement of consumable components.
 
-OPEX is one of two cost categories in solar lifecycle economics, alongside CAPEX. While CAPEX dominates the cost structure of solar (typically 80 to 90 percent of lifecycle cost), OPEX directly affects net cash flow and LCOE. Lower OPEX means more revenue retained per kWh sold.
+> **TL;DR**
+> - OPEX is the recurring cost of running a solar plant over its 25-year life, covering cleaning, maintenance, insurance, land lease and spare parts.
+> - Indian utility-scale OPEX runs ₹5 to ₹12 lakh per MW per year; C&I rooftop ₹4 to ₹8 lakh; residential ₹3,000 to ₹8,000 per kW per year.
+> - Cleaning and preventive maintenance account for 40 to 60 percent of total OPEX, the single largest component.
+> - OPEX typically escalates 3 to 5 percent per year and sits in the numerator of the LCOE formula, so higher OPEX raises LCOE.
+> - RESCO PPAs require the developer to carry OPEX for the full contract term, typically 15 to 25 years.
+
+OPEX is one of two cost categories in solar lifecycle economics, alongside [CAPEX](/glossary/capex/). While CAPEX dominates the cost structure of solar (typically 80 to 90 percent of lifecycle cost), OPEX directly affects net cash flow and [LCOE](/glossary/lcoe/). Lower OPEX means more revenue retained per kWh sold. Buyers weighing the two models in detail can compare them in the [CAPEX vs OPEX decision guide for C&I buyers](/blog/solar-capex-vs-opex-india-guide/).
 
 For Indian solar, utility-scale OPEX typically runs ₹5 to ₹12 lakh per MW per year. C&I rooftop runs ₹4 to ₹8 lakh per MW per year. Residential rooftop OPEX is around ₹3,000 to ₹8,000 per kW per year, often bundled into AMC packages.
 
@@ -86,11 +93,11 @@ LCOE input. Lower OPEX directly reduces LCOE.
 
 Project finance. Lenders model OPEX in cash flow projections.
 
-PPA economics. Net revenue = PPA revenue minus OPEX.
+PPA economics. Net revenue = [PPA](/glossary/ppa/) revenue minus OPEX.
 
 Plant performance. Inadequate OPEX leads to declining output and revenue.
 
-Long-term contracts. RESCO PPAs require committed OPEX over 25 years.
+Long-term contracts. [RESCO](/glossary/resco/) PPAs require committed OPEX over 25 years, a structure explained in detail in [Zero Cost Solar India, RESCO and OPEX Models Explained](/blog/zero-cost-solar-resco-opex-india/).
 
 Customer expectation. Residential customers often expect "set and forget" OPEX, leading to disappointed yield.
 
@@ -131,6 +138,8 @@ For a 1 MW utility plant in 2026:
 - Annual OPEX = ₹8 lakh
 - Net cash flow before debt = ₹38.75 lakh
 - OPEX as % of revenue = 17%
+
+Developers modelling this trade-off across a portfolio typically run it through a dedicated [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) rather than a spreadsheet, since OPEX escalation compounds differently from revenue escalation over 25 years.
 
 ### Cleaning frequency in Indian conditions
 
@@ -208,7 +217,7 @@ Audit OPEX against budget quarterly.
 
 Insure adequately for natural disasters.
 
-Track soiling losses against cleaning ROI.
+Track [soiling](/glossary/soiling/) losses against cleaning ROI.
 
 ## Comparison: OPEX components across project types
 
@@ -227,7 +236,7 @@ CERC Tariff Regulations 2024 set benchmark O&M cost assumptions for utility sola
 
 State SERC tariff orders reference O&M costs in feed-in tariff setting.
 
-Major O&M operators in Indian solar include Tata Power Solar, Mahindra Susten, Sterling and Wilson, Larsen and Toubro, ReNew O&M and various specialised firms.
+Major O&M operators in Indian solar include Tata Power Solar, Mahindra Susten, Sterling and Wilson, Larsen and Toubro, ReNew O&M and various specialised firms, alongside full-service [solar EPC providers](https://heavengreenenergy.com/solar-epc/) that bundle O&M into turnkey contracts.
 
 PM Surya Ghar mandates 5-year comprehensive maintenance bundled with installation.
 
@@ -261,7 +270,7 @@ Treating monitoring as optional.
 
 ## Key takeaways
 
-OPEX is the recurring cost of running a solar plant over 25 years. Indian utility OPEX runs ₹5 to ₹12 lakh per MW per year. C&I rooftop ₹4 to ₹8. Residential ₹3,000 to ₹8,000 per kW. Cleaning, preventive maintenance and insurance dominate. Disciplined OPEX sustains performance and protects PPA economics. Underbudgeting OPEX is the most common path to disappointed yield.
+OPEX is the recurring cost of running a solar plant over 25 years. Indian utility OPEX runs ₹5 to ₹12 lakh per MW per year. C&I rooftop ₹4 to ₹8. Residential ₹3,000 to ₹8,000 per kW. Cleaning, preventive maintenance and insurance dominate. Disciplined OPEX sustains performance and protects PPA economics. Underbudgeting OPEX is the most common path to a stretched [payback period](/glossary/payback-period/) and disappointed yield.
 
 ## Need solar plant O&M contracts that work?
 

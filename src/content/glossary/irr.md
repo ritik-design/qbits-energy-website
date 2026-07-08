@@ -5,7 +5,7 @@ description: "IRR is the discount rate that makes a project NPV zero. Full guide
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is irr
   - internal rate of return
@@ -70,9 +70,16 @@ author: "Akash Hirapara"
 
 Internal Rate of Return (IRR) is the discount rate at which the net present value (NPV) of a project's cash flows equals zero. It is the standard return metric in project finance and the headline number investors use to evaluate solar projects. IRR captures both the absolute return and the timing of cash flows in a single percentage.
 
-IRR is calculated iteratively from the cash flow stream: capex outflow at year zero, annual operating cash flows over the project life, and any salvage value at end of life. The discount rate that makes the present value of all flows sum to zero is the IRR.
+IRR is calculated iteratively from the cash flow stream: [capex](/glossary/capex/) outflow at year zero, annual operating cash flows over the project life, and any salvage value at end of life. The discount rate that makes the present value of all flows sum to zero is the IRR. Our [Solar IRR and Payback for C&I in India](/blog/solar-irr-payback-ci-india/) piece walks through this math on a real project.
 
-For Indian solar, project IRR typically ranges 10 to 18 percent for utility plants, 14 to 22 percent for C&I rooftop, and 18 to 30 percent for residential rooftop with PM Surya Ghar subsidy. Higher IRR reflects favourable tariff, low capex, high yield and short payback.
+For Indian solar, project IRR typically ranges 10 to 18 percent for utility plants, 14 to 22 percent for C&I rooftop, and 18 to 30 percent for residential rooftop with PM Surya Ghar subsidy. Higher IRR reflects favourable tariff, low capex, high yield and short [payback](/glossary/payback-period/).
+
+> **TL;DR**
+> - IRR is the discount rate at which a project's NPV equals zero, and it is the headline return metric investors use for solar.
+> - Indian utility solar runs 10 to 18 percent project IRR (14 to 18 percent equity IRR); C&I rooftop runs 14 to 22 percent.
+> - Residential rooftop with PM Surya Ghar subsidy can reach 18 to 30 percent IRR because the subsidy cuts effective capex.
+> - Project IRR covers all pre-financing cash flows; equity IRR covers only post-debt-service cash flows and is usually higher.
+> - A project only creates value once IRR exceeds WACC, so the two numbers should always be compared together.
 
 ## IRR explained simply
 
@@ -82,7 +89,7 @@ The bigger the IRR, the better the project for investors.
 
 ## Why IRR matters
 
-Investment decision. Investors compare IRR to their hurdle rate.
+Investment decision. Investors compare IRR to their hurdle rate, typically anchored to [WACC](/glossary/wacc/) or the project's [discount rate](/glossary/discount-rate/).
 
 Project ranking. Multiple projects compared head-to-head.
 
@@ -96,7 +103,7 @@ Capital allocation. Within renewables portfolios, IRR drives capital flow.
 
 ## How IRR is calculated
 
-NPV = Σ (CF_t / (1 + r)^t) for t = 0 to T
+[NPV](/glossary/npv/) = Σ (CF_t / (1 + r)^t) for t = 0 to T
 
 Where:
 - CF_t = net cash flow in year t (negative for capex, positive for operating cash flow)
@@ -151,9 +158,9 @@ PPA tariff floor setting.
 
 Bank loan structuring.
 
-Residential customer payback evaluation.
+Residential customer [payback evaluation](/blog/solar-inverter-payback-period-in-india/).
 
-C&I solar procurement model selection (CAPEX vs RESCO).
+C&I solar [procurement model selection (CAPEX vs RESCO)](/blog/solar-capex-vs-opex-business-india/), including choosing between [on-grid and hybrid inverter](/blog/on-grid-vs-hybrid-solar-inverters-roi/) configurations that affect the return profile.
 
 Sustainability investment portfolio allocation.
 
@@ -185,7 +192,7 @@ IRR sensitive to ALMM premium and module price volatility.
 
 Curtailment risk reducing project IRR below hurdle rate.
 
-Late payment surcharge from DISCOMs eroding IRR.
+[Late payment surcharge](/glossary/late-payment-surcharge/) from DISCOMs eroding IRR.
 
 OPEX escalation eating into IRR over 25 years.
 
@@ -195,7 +202,7 @@ End-of-life decommissioning cost ignored, overstating IRR.
 
 Use realistic P50 yield with appropriate degradation.
 
-Stress-test IRR under low yield, high opex and DISCOM payment delay scenarios.
+Stress-test IRR under low yield, high opex and DISCOM payment delay scenarios, ideally inside [solar financial modeling](https://surgepv.com/generation-financial-tool/) software rather than a static spreadsheet.
 
 Compare to WACC and hurdle rate.
 
@@ -219,7 +226,7 @@ Use post-tax IRR for realistic investor return.
 
 SECI utility solar tender economics target project IRR of 11 to 14 percent.
 
-C&I RESCO developers target equity IRR of 16 to 20 percent.
+C&I RESCO developers target equity IRR of 16 to 20 percent on [commercial rooftop installations](https://heavengreenenergy.com/commercial-solar/).
 
 PM Surya Ghar residential customers see IRR of 20 to 30 percent post-subsidy due to capex reduction.
 

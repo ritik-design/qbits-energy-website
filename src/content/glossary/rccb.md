@@ -5,7 +5,7 @@ description: "RCCB protects against earth leakage and electric shock. Full guide
 category: "Protection"
 categorySlug: "protection"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is rccb
   - residual current circuit breaker
@@ -32,6 +32,8 @@ relatedTerms:
   - { slug: "solar-inverter", term: "Solar Inverter" }
   - { slug: "residual-current", term: "Residual Current" }
   - { slug: "leakage-current", term: "Leakage Current" }
+  - { slug: "transformerless-inverter", term: "Transformerless Inverter" }
+  - { slug: "ev-charger", term: "EV Charger" }
 faqs:
   - q: "What is RCCB in simple words?"
     a: "A safety switch that trips when electricity leaks to earth, usually because someone is being shocked or there is faulty insulation. Saves lives."
@@ -72,17 +74,25 @@ A Residual Current Circuit Breaker (RCCB), also called Residual Current Device (
 
 The standard sensitivity for personal shock protection is 30 mA. At this level the device trips before electrical current through a human body reaches the threshold of cardiac fibrillation. 100 mA and 300 mA RCCBs exist for equipment protection only.
 
+> **TL;DR**
+> - An RCCB compares current going out on phase against current returning on neutral; any imbalance means leakage, and it trips in milliseconds.
+> - Standard sensitivity for personal shock protection is 30 mA, tripping within about 30 ms, well before current through a human body reaches the fibrillation threshold.
+> - RCCB only catches earth leakage, not overcurrent; pair it with an MCB, or use an RCBO that combines both in one device.
+> - Type A RCCBs suit general residential circuits; Type B is required for transformerless solar inverters, which can leak smooth DC current on fault.
+> - RCCB protection is mandatory on the AC side of Indian solar installations under CEA safety regulations, and it only works if the earthing behind it is sound.
+> - Test the RCCB monthly with its built-in TEST button, and have it professionally tested annually.
+
 For solar installations, RCCB is mandatory on the AC side under Indian CEA safety regulations. Hybrid and off-grid systems may include DC-side leakage detection through inverter-integrated functions.
 
 ## Why RCCB matters
 
 Life safety. The primary reason for mandatory installation. Saves users from fatal electric shock.
 
-Fire prevention. Earth leakage current dissipating into damp insulation can cause fires. RCCB trips before this.
+Fire prevention. Earth leakage current dissipating into damp insulation can cause fires. RCCB trips before this. Sound [earthing](/glossary/earthing/) is a prerequisite for any of this to work.
 
 Regulatory compliance. CEA Measures Relating to Safety and Electric Supply Regulations 2023 require RCCB on all final circuits.
 
-DISCOM commissioning. RCCB protection is verified at commissioning.
+[DISCOM](/glossary/discom/) commissioning. RCCB protection is verified at [commissioning](/blog/solar-inverter-commissioning-in-india/).
 
 Insurance. Insurers may require RCCB-protected installations for solar plant coverage.
 
@@ -138,13 +148,13 @@ Solar inverters with transformerless topology produce smooth DC leakage on fault
 
 Residential AC distribution at main incomer.
 
-Commercial sub-distribution.
+[Commercial sub-distribution](https://heavengreenenergy.com/products/acdb-dcdb/).
 
-Solar inverter AC output protection.
+[Solar inverter](/glossary/solar-inverter/) AC output protection.
 
-Hybrid inverter backup output.
+[Hybrid inverter](/glossary/hybrid-inverter/) backup output.
 
-EV charger protection.
+[EV charger](/glossary/ev-charger/) protection, covered in more detail in our [solar inverter for EV charging](/blog/solar-inverter-for-ev-charging/) guide.
 
 Healthcare equipment circuits.
 
@@ -194,7 +204,7 @@ PM Surya Ghar residential installations include RCCB at the AC distribution.
 
 DISCOM commissioning verifies RCCB protection.
 
-Type B RCCB demand has grown with transformerless solar inverter adoption.
+Type B RCCB demand has grown with [transformerless solar inverter](/glossary/transformerless-inverter/) adoption.
 
 State-level building codes increasingly mandate RCCB on all residential circuits.
 

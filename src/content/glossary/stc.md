@@ -5,7 +5,7 @@ description: "STC is the laboratory rating standard for solar modules. Full guid
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - standard test conditions
   - stc solar
@@ -75,9 +75,17 @@ STC (Standard Test Conditions) are the laboratory reference conditions used worl
 - Solar spectrum: AM1.5G (Air Mass 1.5 Global reference)
 - Solar zenith angle: 48° (corresponding to AM1.5)
 
-Module nameplate ratings (Pmax, Voc, Vmp, Isc, Imp) are measured at STC. The "Wp" or "Watt-peak" designation refers to STC power output. A 540 Wp module produces 540 W at STC.
+Module nameplate ratings (Pmax, [Voc](/glossary/open-circuit-voltage/), Vmp, Isc, Imp) are measured at STC. The "Wp" or "Watt-peak" designation refers to STC power output. A 540 Wp module produces 540 W at STC.
 
-For Indian solar, STC ratings provide standardised comparison but do not directly reflect operating conditions. Indian summer noon typically operates at 65-75°C cell temperature with 800-1000 W/m² irradiance, producing actual output 10-20 percent below STC nameplate.
+For Indian solar, STC ratings provide standardised comparison but do not directly reflect operating conditions. Indian summer noon typically operates at 65-75°C cell temperature with 800-1000 W/m² irradiance, producing actual output 10-20 percent below STC nameplate, a gap explained further in [why solar inverters produce less in Indian summer](/blog/solar-inverter-summer-derating-india/).
+
+> **TL;DR**
+> - STC (Standard Test Conditions) is the lab reference for module ratings: 1000 W/m² irradiance, 25°C cell temperature, AM1.5G spectrum.
+> - The "Wp" printed on every module datasheet is its STC power output, and it is the reference point for warranty enforcement.
+> - Indian summer operating conditions run 65 to 80°C cell temperature versus STC's 25°C, so real output lands 10 to 20 percent below nameplate.
+> - Translating STC to real-world output requires the module's [temperature coefficient](/glossary/temperature-coefficient/) and the actual irradiance level.
+> - NOCT, not STC, is the standard used to estimate realistic operating temperature and yield.
+> - All ALMM-listed and BIS-certified modules sold in India are rated and tested at STC under IEC 60904 and IS 14286.
 
 ## Why STC matters
 
@@ -101,9 +109,13 @@ Standards basis. IEC 61215, IEC 61853 all reference STC.
 | Spectrum | AM1.5G | Variable |
 | Output | Nameplate | 70-85% of nameplate |
 
+Datasheets typically pair STC ratings with a [NOCT](/glossary/noct/) rating to give installers a more realistic operating benchmark.
+
 ## Technical deep dive
 
 ### STC parameters in module datasheet
+
+Different cell technologies, from standard [monocrystalline PERC](/glossary/perc-cell/) to [TOPCon](/glossary/topcon-cell/), report distinct STC efficiency figures even though every module is measured under the same test conditions.
 
 | Parameter | Description |
 |---|---|
@@ -145,11 +157,11 @@ Where γ is temperature coefficient (negative).
 
 Module specification.
 
-Sales and procurement.
+Sales and procurement, including [module and equipment purchasing](https://heavengreenenergy.com/shop/).
 
 Warranty enforcement.
 
-Yield modelling baseline.
+Yield modelling baseline for [solar yield](/glossary/solar-yield/) projections, often run through [solar design software](https://surgepv.com/compare/best-solar-design-software/).
 
 System sizing.
 
@@ -161,9 +173,9 @@ Manufacturer guarantees minimum nameplate Wp. Higher tolerance modules cost slig
 
 ## Indian market context
 
-All ALMM-listed Indian modules rated at STC.
+All [ALMM-listed](/glossary/almm-list/) Indian modules rated at STC.
 
-BIS certification under IS 14286 includes STC measurement.
+[BIS certification](/glossary/bis-certification/) under IS 14286 includes STC measurement.
 
 Indian flash testing labs include NISE, TUV Rheinland India, Intertek India, Bureau Veritas India.
 
@@ -174,7 +186,7 @@ Major Indian manufacturers run in-house flash testing during production.
 | Standard | Scope |
 |---|---|
 | IEC 60904 | PV device measurement |
-| IEC 61215 | Module qualification including STC |
+| [IEC 61215](/glossary/iec-61215/) | Module qualification including STC |
 | IEC 61853 | Performance over operating conditions |
 | IS 14286 | Indian module standard |
 

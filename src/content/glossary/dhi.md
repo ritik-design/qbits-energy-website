@@ -5,7 +5,7 @@ description: "DHI is the diffuse component of solar irradiance. Full guide to me
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is dhi
   - diffuse horizontal irradiance
@@ -69,19 +69,27 @@ author: "Nirav Dhanani"
 
 Diffuse Horizontal Irradiance (DHI) is the solar radiation received on a horizontal surface from all directions of the sky except the direct beam from the sun. It is the scattered light produced by atmospheric scattering of sunlight by air molecules, clouds, aerosols and water vapour.
 
-Measured in W/m² as irradiance and kWh/m² as integrated irradiation, DHI complements the direct beam (DNI) and together with the projected direct beam makes up the total Global Horizontal Irradiance (GHI):
+Measured in W/m² as irradiance and kWh/m² as integrated [irradiation](/glossary/irradiation/), DHI complements the direct beam ([DNI](/glossary/dni/)) and together with the projected direct beam makes up the total Global Horizontal Irradiance ([GHI](/glossary/ghi/)):
 
 GHI = DNI × cos(θz) + DHI
 
-For Indian solar, DHI ranges from 600 to 950 kWh/m²/year. Humid coastal regions and monsoon periods have proportionally higher DHI. DHI is critical for accurate yield modelling, bifacial gain calculation and building daylighting design.
+> **TL;DR**
+> - DHI is scattered sky light, not the direct sunbeam, and it is what illuminates a cloudy day.
+> - Indian DHI ranges from about 600 kWh/m²/year in dry, clear regions to 950 kWh/m²/year in humid and monsoon-affected regions.
+> - Diffuse light contributes roughly 15-30% of plane-of-array irradiance for a typical fixed-tilt Indian installation.
+> - DHI rises sharply during the monsoon because clouds scatter direct beam into diffuse, even as DNI drops.
+> - It is measured with a shaded pyranometer or rotating shadowband, or calculated as GHI minus the projected DNI.
+> - Accurate DHI is essential for bifacial yield gain and building daylighting design, not just fixed-tilt PV.
+
+For Indian solar, DHI ranges from 600 to 950 kWh/m²/year. Humid coastal regions and monsoon periods have proportionally higher DHI. DHI is critical for accurate yield modelling, [bifacial gain](/glossary/bifacial-module/) calculation and building daylighting design.
 
 ## Why DHI matters
 
-PV yield modelling. Diffuse light contributes 15 to 30 percent of POA irradiance for fixed tilt arrays.
+PV yield modelling. Diffuse light contributes 15 to 30 percent of [plane of array](/glossary/plane-of-array/) irradiance for fixed tilt arrays, which is why bankable [PV yield simulation software](/blog/pv-yield-simulation-software/) models GHI, DNI and DHI separately rather than relying on GHI alone.
 
-Bifacial yield. DHI determines sky diffuse contribution to rear-side gain.
+Bifacial yield. DHI determines sky diffuse contribution to rear-side gain, alongside ground [albedo](/glossary/albedo/).
 
-Cloudy day generation. Most generation under clouds is from DHI.
+Cloudy day generation. Most generation under clouds is from DHI, a pattern documented across the [monsoon solar prep checklist](/blog/monsoon-solar-prep/) QBits publishes for Indian installers.
 
 Building daylighting. North-facing windows in northern hemisphere rely on DHI.
 
@@ -134,19 +142,19 @@ The diffuse-on-tilt component uses sky models (isotropic, Hay, Perez):
 
 Diffuse on tilt = DHI × f(tilt, sky model)
 
-For most Indian sites, diffuse contributes 20 to 30 percent of POA on annual basis.
+For most Indian sites, diffuse contributes 20 to 30 percent of POA on annual basis, which is why [peak sun hours](/glossary/peak-sun-hours/) calculated from GHI alone can understate the diffuse contribution on a tilted roof.
 
 ## Real-world applications
 
-Yield modelling for utility solar plants.
+Yield modelling for utility solar plants, typically run through [PV simulation software](https://surgepv.com/solar-simulation-software/) that separates DNI and DHI inputs.
 
 Bifacial yield projection.
 
-Building integrated PV design.
+Building integrated PV design, often coordinated with [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) teams.
 
 Architectural daylighting (BIPV facades).
 
-Cloudy-day generation estimation.
+Cloudy-day generation estimation, an important input during [pre-monsoon inspection planning](/blog/pre-monsoon-solar-inspection-checklist/) for existing rooftop systems.
 
 ## Common DHI problems
 

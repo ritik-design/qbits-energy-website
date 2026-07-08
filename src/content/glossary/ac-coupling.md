@@ -159,7 +159,7 @@ PV inverter and battery inverter sizes can differ. A common residential [battery
 
 ## Real-world applications
 
-[Residential battery retrofit](https://heavengreenenergy.com/residential-solar/) on existing PV.
+Residential battery retrofit on existing PV.
 
 Enphase microinverter systems with AC battery storage.
 

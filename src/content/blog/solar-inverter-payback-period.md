@@ -37,7 +37,7 @@ faqs:
 
 Your electricity bill arrives. The numbers on the last page (₹6,800, ₹9,200, ₹12,000) keep climbing, and every neighbour who installed solar three years ago now talks about bills that are practically zero. The question is no longer *whether* solar makes financial sense. The question is: **how long before it actually pays for itself, and does that number change if you live in Ahmedabad versus Lucknow?**
 
-This post answers that question with actual arithmetic. Not marketing ranges. Not "typically 5–7 years" platitudes. State tariff rates from published [DISCOM](/glossary/discom/) tariff orders, irradiance figures from MNRE data, subsidy stacks as of June 2026, and a replicable formula you can apply to your own roof. If you would rather skip the manual arithmetic, a [solar cost calculator](https://heavengreenenergy.com/solar-calculator/) can produce a quick ballpark for your roof, though the state-specific numbers below will be more precise.
+This post answers that question with actual arithmetic. Not marketing ranges. Not "typically 5–7 years" platitudes. State tariff rates from published [DISCOM](/glossary/discom/) tariff orders, irradiance figures from MNRE data, subsidy stacks as of June 2026, and a replicable formula you can apply to your own roof. If you would rather skip the manual arithmetic, a solar cost calculator can produce a quick ballpark for your roof, though the state-specific numbers below will be more precise.
 
 > **TL;DR**
 > - Solar inverter payback in India ranges from 3.7 years (Rajasthan) to 6.4 years (Delhi) for a 5 kW on-grid system after PM Surya Ghar subsidy.

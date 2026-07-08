@@ -1,6 +1,7 @@
 ---
-title: "Solar Inverter Price 2026 - भारत में कीमत और Comparison (Hindi)"
+title: "Solar Inverter Price 2026 - भारत में कीमत (Hindi)"
 excerpt: "Solar inverter price 2026: 1 kW से 10 kW तक on-grid, hybrid, off-grid inverter की कीमत। Brand comparison, hidden costs, aur best value options, Hindi guide।"
+description: "1 kW से 10 kW तक solar inverter की price 2026 में kya hai? Brand comparison, hidden costs, aur best value options - complete Hindi guide."
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "13 min"
@@ -186,7 +187,7 @@ PM Surya Ghar में Made-in-India panels prefer होती हैं - saf
 
 ## Price Negotiate Kaise Karein
 
-Negotiate शुरू करने से पहले, अपना ballpark budget तैयार करें - एक [solar cost calculator](https://heavengreenenergy.com/solar-calculator/) आपके roof size और location के हिसाब से quick estimate देता है, और authorized dealers के alawa [solar equipment listings](https://heavengreenenergy.com/products/solar-inverters/) browse करके भी price benchmark कर सकते हैं।
+Negotiate शुरू करने से पहले, अपना ballpark budget तैयार करें - एक solar cost calculator आपके roof size और location के हिसाब से quick estimate देता है, और authorized dealers के alawa solar equipment listings browse करके भी price benchmark कर सकते हैं।
 
 Vendor से price negotiate करने के tips:
 

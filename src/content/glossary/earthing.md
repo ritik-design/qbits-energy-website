@@ -95,7 +95,7 @@ Equipment protection. Earth fault current trips overcurrent devices.
 
 Lightning protection. Lightning current must reach earth through a low-impedance path.
 
-Regulatory compliance. [CEIG approval](https://heavendesigns.in/electrical-ceig-drawings/) requires earthing testing.
+Regulatory compliance. CEIG approval requires earthing testing.
 
 ## Earthing system components
 
@@ -216,7 +216,7 @@ CEA Measures Relating to Safety 2023 require earthing of all electrical installa
 
 IS 3043 is the comprehensive Indian earthing code.
 
-[PM Surya Ghar](/glossary/pm-surya-ghar/) [residential installations](https://heavengreenenergy.com/residential-solar/) follow IS 3043 with at least two earth pits typical.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) residential installations follow IS 3043 with at least two earth pits typical.
 
 Utility-scale solar plants use chemical earthing for low resistance and long life.
 

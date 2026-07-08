@@ -1,6 +1,7 @@
 ---
-title: "On-Grid vs Hybrid vs Off-Grid Inverters, The 2026 Decision Guide"
+title: "On-Grid vs Hybrid vs Off-Grid: Decision Guide"
 excerpt: "On grid vs hybrid vs off grid: choose the right solar inverter type for your home or business in India using our 3-Question framework and region-wise guidance."
+description: "Choosing between on-grid, hybrid, and off-grid inverters? Use this 3-question framework plus region-wise guidance to pick the right type for your home."
 category: "Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -218,7 +219,7 @@ A correctly sized off-grid system requires:
 3. **Solar array sizing**: battery capacity ÷ peak sun hours × 1.25 (losses factor). For Rajasthan at 5.5 peak sun hours: 7,500 Wh ÷ 5.5 × 1.25 ≈ 1,700 Wp minimum array.
 4. **Inverter sizing**: must handle the peak simultaneous load, not just the average. Include motor-start surges (submersible pumps can draw 3–5× rated power at startup).
 
-The [DC oversizing guide](/blog/dc-oversizing-in-solar/) explains why an off-grid array is typically sized 20–30 percent larger than the inverter's rated input to compensate for temperature-related derating on hot summer afternoons. For a fuller worked example of the same five-step sizing method applied to a rural village home, see the [off-grid battery bank sizing guide](/blog/off-grid-battery-bank-sizing-india/). Remote off-grid sites also benefit from a proper feasibility check before installation, [Heaven Designs' site survey and land feasibility service](https://heavendesigns.in/site-survey-land-feasibility-services/) is built for exactly this kind of pre-installation assessment.
+The [DC oversizing guide](/blog/dc-oversizing-in-solar/) explains why an off-grid array is typically sized 20–30 percent larger than the inverter's rated input to compensate for temperature-related derating on hot summer afternoons. For a fuller worked example of the same five-step sizing method applied to a rural village home, see the [off-grid battery bank sizing guide](/blog/off-grid-battery-bank-sizing-india/). Remote off-grid sites also benefit from a proper feasibility check before installation, Heaven Designs' site survey and land feasibility service is built for exactly this kind of pre-installation assessment.
 
 ### Off-Grid Pros and Cons
 
@@ -299,7 +300,7 @@ The "Built in India, backed in India" commitment translates to a practical servi
 
 - **[On-Grid Inverters (TLS/TLD Series)](/on-grid-inverter/)**: 1.5 kW to 50 kW single and three-phase, ALMM-listed, PM Surya Ghar eligible, 98% peak efficiency. Best for grid-reliable zones targeting fastest payback.
 - **[Hybrid Inverters (HS/HT Series)](/hybrid-inverter/)**: battery-ready with automatic grid failover in under 20 ms, dual-MPPT, compatible with LFP and lithium-ion battery banks. Best for high-outage zones or homeowners wanting future battery expansion.
-- **[Residential Solutions](/residential-solution/)**: complete rooftop packages with panel and inverter pairing, DISCOM documentation support, and subsidy filing assistance. For turnkey installation once you have picked your inverter type, [Heaven Green Energy's residential solar installation service](https://heavengreenenergy.com/residential-solar/) handles the on-site EPC work.
+- **[Residential Solutions](/residential-solution/)**: complete rooftop packages with panel and inverter pairing, DISCOM documentation support, and subsidy filing assistance. For turnkey installation once you have picked your inverter type, Heaven Green Energy's residential solar installation service handles the on-site EPC work.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel-string compatibility for your chosen inverter in under 60 seconds before your installer quotes.
 
 If you have run through the 3-Question Inverter Type Test and identified your category but need help selecting the right capacity or confirming subsidy eligibility for your state, [talk to a Qbits engineer](/contact-us/), most site assessments and sizing recommendations come back within 24 hours.

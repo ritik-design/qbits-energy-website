@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter for Hospital, Continuity, THD, and Compliance"
+title: "Solar Inverter for Hospital, Continuity and THD"
 excerpt: "A solar inverter for hospital use must deliver zero-transfer-time switching, <3% THD, and NABH-compatible backup for ICU, OT, and life-safety loads. Here is how to specify one."
-description: "Specify a solar inverter for hospital use correctly, covering hybrid topology, THD limits, NABH and NBC 2016 compliance, dual-source switching, and typical 50–200 kW sizing."
+description: "Specify a solar inverter for hospital use: hybrid topology, THD limits, NABH and NBC 2016 compliance, dual-source switching, and 50–200 kW sizing."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -123,7 +123,7 @@ The [NABH Facility Management and Safety](https://nabh.co/) module, applicable t
 - An equipment inventory that lists the kVA rating and backup duration for each critical load.
 - Staff training records demonstrating that facility engineers understand the power system architecture.
 
-A hospital that installs solar without updating its FMS documentation is installing the technology correctly but creating a compliance gap. The [commercial and institutional EPC contractor](https://heavengreenenergy.com/commercial-solar/) and the hospital's facility management team must co-author an updated single-line diagram (SLD) (see [single-line diagram](/glossary/single-line-diagram/)) that reflects the post-solar architecture, and this SLD must become part of the NABH audit file.
+A hospital that installs solar without updating its FMS documentation is installing the technology correctly but creating a compliance gap. The commercial and institutional EPC contractor and the hospital's facility management team must co-author an updated single-line diagram (SLD) (see [single-line diagram](/glossary/single-line-diagram/)) that reflects the post-solar architecture, and this SLD must become part of the NABH audit file.
 
 ### AERB Considerations for Imaging Facilities
 
@@ -157,7 +157,7 @@ Hospital energy consumption is higher per square metre than almost any commercia
 
 2. **Load classification**: Apply the 3-Tier Hospital Load Classification from §3. Identify the kW rating of Tier 3 (solar-eligible) loads. This is the maximum inverter capacity that will see consistent solar utilisation.
 
-3. **Rooftop area assessment**: Measure the [usable shadow-free area](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/), considering HVAC units, water tanks, and setback requirements. At 6–7 Wp per square foot (65–75 Wp per square metre) for standard bifacial modules at 20° tilt, a 150 kW system requires approximately 800–900 square metres of usable roof area.
+3. **Rooftop area assessment**: Measure the usable shadow-free area, considering HVAC units, water tanks, and setback requirements. At 6–7 Wp per square foot (65–75 Wp per square metre) for standard bifacial modules at 20° tilt, a 150 kW system requires approximately 800–900 square metres of usable roof area.
 
 4. **Inverter capacity selection**: Size the inverter(s) at 90–95% of the DC array capacity (DC:AC ratio of 1.05–1.1). For a 150 kW array, two 75 kW or three 50 kW hybrid inverters provide the redundancy that a hospital's continuous-operation requirement demands. Single-inverter configurations are inappropriate for healthcare facilities.
 

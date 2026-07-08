@@ -163,7 +163,7 @@ Distributed solar under state agencies like Solar Energy Corporation of Karnatak
 
 CPSU programmes setting FIT for self-consumption-plus-export configurations.
 
-[PM-KUSUM](/glossary/kusum/) Component C feeders, where FIT is set for agriculture-feeder solarisation, a segment [installers pairing solar EPC with KUSUM feeder work](https://heavengreenenergy.com/drebp-pm-kusum/) know well.
+[PM-KUSUM](/glossary/kusum/) Component C feeders, where FIT is set for agriculture-feeder solarisation, a segment installers pairing solar EPC with KUSUM feeder work know well.
 
 ## Advantages of FIT
 

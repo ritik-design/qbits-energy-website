@@ -1,6 +1,7 @@
 ---
-title: "How Long Does Solar Installation Take in India? - Timeline"
+title: "How Long Does Solar Installation Take in India?"
 excerpt: "Solar installation time in India ranges from 1 to 4 months. Physical installation takes 1–2 days; DISCOM net metering approval takes 15–90 days and is the main bottleneck in most states."
+description: "Solar installation in India takes 1 to 4 months overall. Physical setup takes 1–2 days; DISCOM net metering approval is the main bottleneck at 15–90 days."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -48,7 +49,7 @@ For what to expect after your system is commissioned, see [what to expect in Yea
 
 ## Stage 1: Site Survey (Day 1)
 
-The [site survey](/glossary/site-survey/) is the starting gun. A qualified site assessor from your chosen installer visits your home to capture the technical data needed for system design. Larger commercial projects often commission a formal [site survey and land feasibility study](https://heavendesigns.in/site-survey-land-feasibility-services/) before design work even begins, since roof load, shading, and grid access all need sign-off first.
+The [site survey](/glossary/site-survey/) is the starting gun. A qualified site assessor from your chosen installer visits your home to capture the technical data needed for system design. Larger commercial projects often commission a formal site survey and land feasibility study before design work even begins, since roof load, shading, and grid access all need sign-off first.
 
 A thorough site survey covers:
 
@@ -177,7 +178,7 @@ State-level subsidies vary and are disbursed separately via state DISCOM channel
 
 **Delay 4: Structural issues discovered during installation.** If the roof requires reinforcement or the distribution board needs upgrading, add 3–7 days for remedial work.
 
-The [find a reliable solar installer](/blog/find-reliable-solar-installer/) guide covers how to evaluate installers on their DISCOM approval track record, an underrated criterion that directly affects your total timeline. Homeowners comparing full-service [solar EPC](https://heavengreenenergy.com/solar-epc/) companies against smaller local installers should weigh this track record alongside price, since a turnkey EPC typically owns the DISCOM follow-up rather than leaving it to the homeowner.
+The [find a reliable solar installer](/blog/find-reliable-solar-installer/) guide covers how to evaluate installers on their DISCOM approval track record, an underrated criterion that directly affects your total timeline. Homeowners comparing full-service solar EPC companies against smaller local installers should weigh this track record alongside price, since a turnkey EPC typically owns the DISCOM follow-up rather than leaving it to the homeowner.
 
 ## How PM Surya Ghar Has Changed the Timeline
 

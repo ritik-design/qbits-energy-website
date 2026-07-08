@@ -162,7 +162,7 @@ Cross-subsidy surcharge applied on open access consumers to compensate [DISCOMs]
 
 Customer billing.
 
-Solar payback calculation, often via a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/).
+Solar payback calculation, often via a solar savings calculator.
 
 PPA negotiation, supported by a [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) to test tariff scenarios.
 

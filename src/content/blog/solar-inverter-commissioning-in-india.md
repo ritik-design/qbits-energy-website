@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Commissioning in India: Complete EPC Setup Guide 2026"
+title: "Solar Inverter Commissioning in India: Setup Guide"
 excerpt: "Commissioning is not installation - it is the rigorous testing, configuration, validation, and documentation that activates the warranty, establishes the performance baseline, and protects the next 25 years of system economics. Here is the complete protocol for Indian projects."
-description: "Step-by-step solar inverter commissioning guide for India: 7-step protocol, pre-commissioning preparation, electrical testing thresholds, system configuration for Indian grid, monitoring setup, protection testing, warranty documentation, common Indian challenges, and post-commissioning monitoring."
+description: "Step-by-step solar inverter commissioning guide for India: pre-commissioning checks, electrical testing, grid configuration, and warranty documentation."
 category: "Guide"
 date: 2026-04-08
 readTime: "14 min"
@@ -47,7 +47,7 @@ Solar inverter commissioning is the critical process of verifying, testing, and 
 > - Premium inverters should show 98%+ efficiency at rated power; anything dropping to 92-94% at commissioning should be flagged as a warranty concern.
 > - The most common EPC mistake is incomplete documentation, not poor installation - missing photo evidence and warranty registration cause disputes years later.
 
-This guide consolidates the complete EPC commissioning protocol used by India's most operationally mature solar businesses: pre-commissioning preparation, electrical testing thresholds, system configuration for Indian grid conditions, monitoring infrastructure setup, protection and safety testing, warranty-compliant documentation, the common Indian commissioning challenges, and post-commissioning monitoring that turns equipment into a 25-year asset. Many [solar EPC](https://heavengreenenergy.com/solar-epc/) teams treat commissioning as a formality; the operationally mature ones treat it as a distinct, billable discipline.
+This guide consolidates the complete EPC commissioning protocol used by India's most operationally mature solar businesses: pre-commissioning preparation, electrical testing thresholds, system configuration for Indian grid conditions, monitoring infrastructure setup, protection and safety testing, warranty-compliant documentation, the common Indian commissioning challenges, and post-commissioning monitoring that turns equipment into a 25-year asset. Many solar EPC teams treat commissioning as a formality; the operationally mature ones treat it as a distinct, billable discipline.
 
 ## What Commissioning Is and What It Is Not
 
@@ -194,7 +194,7 @@ Performance validation under live conditions:
 - Manufacturer **digital warranty registration** completed and confirmation captured
 - BIS and IEC compliance certificates attached
 - Comprehensive photographic evidence of cable terminations, mounting, sealing
-- [As-built electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) and layouts matching the CEIG-approved design
+- As-built electrical drawings and layouts matching the CEIG-approved design
 - **Client handover package**: full report, manuals, monitoring credentials, maintenance schedules
 - Maintenance schedule reviewed with owner
 - Post-commissioning follow-up scheduled (30-day initial monitoring review)

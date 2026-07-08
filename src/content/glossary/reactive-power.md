@@ -84,7 +84,7 @@ Inductive loads like motors and fluorescent lights need that sloshing to magneti
 
 Voltage stability. Voltage on AC networks is governed by reactive balance. Reactive shortage causes voltage collapse.
 
-Power factor. C&I customers pay reactive penalties when power factor falls below state thresholds.
+Power factor. C&I customers pay reactive penalties when power factor falls below state thresholds; see [reactive power in solar inverters, an India buyer's guide](/blog/reactive-power-solar-inverters-india/) for how factories eliminate this charge without a dedicated correction panel.
 
 Grid integration of solar. Inverters injecting controlled reactive power help DISCOMs absorb more rooftop solar without voltage issues.
 
@@ -249,7 +249,7 @@ Forgetting that reactive capability reduces with active output.
 
 Ignoring power factor on the customer bill.
 
-Using old capacitor banks when smart inverters could do the job.
+Using old capacitor banks when smart inverters could do the job, and skipping a resonance check when both are present on the same feeder; see [THD in solar inverters](/blog/thd-solar-inverter/) for how fixed capacitor banks can amplify a specific harmonic order once a solar inverter joins the circuit.
 
 Not specifying reactive capability in inverter purchase orders.
 

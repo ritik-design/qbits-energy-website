@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter for Coastal Locations, Salt, Humidity, and IP66 Defence"
+title: "Solar Inverter for Coastal Areas, Salt & IP66"
 excerpt: "Solar inverter coastal India installations face 2–3× higher failure rates from salt fog and humidity. Learn what IP66, C5-M coating, and conformal PCBs mean for your coastal home."
-description: "Coastal India's salt fog and 90%+ humidity corrode standard inverters within 2–3 years. This guide covers IP ratings, corrosion categories, and the minimum spec for Mumbai, Chennai, and Kochi homes."
+description: "Coastal India's salt fog and 90%+ humidity corrode standard inverters within 2–3 years. This guide covers IP ratings and minimum spec for coastal homes."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -189,7 +189,7 @@ The inverter enclosure specification is critical, but the installation environme
 - **RCC/concrete flat roofs**: common in Tamil Nadu, Kerala, and coastal Maharashtra. Concrete is a good thermal mass; the roof surface temperature peaks at 55–60 °C on a clear summer afternoon but cools overnight to near-ambient. This moderate temperature cycling is manageable for inverter enclosures with adequate gasket materials.
 - **Metal (GI sheet or colour-coated) sloped roofs**: common in coastal Karnataka, Goa, and parts of Odisha. Metal roofs can reach 70–75 °C by mid-afternoon (far hotter than a concrete roof) and cool rapidly at night. The resulting 40–50 °C daily temperature swing is severe for enclosure gaskets and causes condensation risk to be significantly higher than on concrete roofs.
 
-For metal roof installations in coastal zones, the inverter should be mounted on a stand that creates a 50–100 mm air gap between the inverter back-panel and the metal roof surface. This air gap reduces conductive heat transfer, lowers the inverter's ambient temperature by 5–10 °C, and mitigates the chimney-effect heat concentration that occurs when a flat-backed inverter is bolted directly to a hot metal surface. For roofs with unusual structural loading or corrosion-prone steel, a specialist [civil and structural engineering assessment](https://heavendesigns.in/solar-civil-and-structural-engineering/) is worth commissioning before the mounting structure is finalised.
+For metal roof installations in coastal zones, the inverter should be mounted on a stand that creates a 50–100 mm air gap between the inverter back-panel and the metal roof surface. This air gap reduces conductive heat transfer, lowers the inverter's ambient temperature by 5–10 °C, and mitigates the chimney-effect heat concentration that occurs when a flat-backed inverter is bolted directly to a hot metal surface. For roofs with unusual structural loading or corrosion-prone steel, a specialist civil and structural engineering assessment is worth commissioning before the mounting structure is finalised.
 
 | Roof Type | Peak Surface Temp | Day-Night ΔT | Gasket Risk | Condensation Risk | Mounting Recommendation |
 | --- | --- | --- | --- | --- | --- |
@@ -288,7 +288,7 @@ Understanding the specification is one thing; navigating the purchase process is
 
 - **Not verifying conformal coating in writing**: The phrase "suitable for humid environments" on a product brochure does not confirm conformal coating. Request the datasheet page that specifies PCB coating type and the corrosion category (C3, C4, or C5) for which it is rated. If this information is not in the datasheet, the PCB is almost certainly uncoated.
 
-- **Choosing the cheapest installer**: The quality of cable gland sealing, DC connector assembly, and mounting structure installation is as important as the inverter specification itself. A perfectly-specified IP66 inverter will fail prematurely if its cable glands are not correctly torqued, leaving a salt-ingress pathway. Verify that your installer is experienced with coastal solar installations specifically, cross-checking their track record through a directory such as [heavengreenenergy.com's local installer search](https://heavengreenenergy.com/solar-near-me/) and applying the broader criteria in [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/).
+- **Choosing the cheapest installer**: The quality of cable gland sealing, DC connector assembly, and mounting structure installation is as important as the inverter specification itself. A perfectly-specified IP66 inverter will fail prematurely if its cable glands are not correctly torqued, leaving a salt-ingress pathway. Verify that your installer is experienced with coastal solar installations specifically, cross-checking their track record against [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/).
 
 - **Ignoring the mounting structure material**: A coastal-rated inverter mounted on a rusting GI steel bracket or with zinc-plated screws will be undercut by galvanic corrosion at the mounting points within 3–5 years. The mounting hardware should be specified alongside the inverter, not as an afterthought.
 

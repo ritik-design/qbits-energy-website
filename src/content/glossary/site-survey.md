@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 ## What is a site survey
 
-A site survey is the systematic on-site assessment of a proposed solar installation location. It evaluates roof or ground area, structural capacity, [shading patterns](/glossary/shading-analysis/), electrical infrastructure, sanctioned load, accessibility, regulatory feasibility and customer requirements. For complex commercial or ground-mount projects, EPCs often bring in [professional site survey and land feasibility services](https://heavendesigns.in/site-survey-land-feasibility-services/) to validate technical viability before a contract is signed. The survey produces a feasibility report that forms the basis for system design, quotation and [DISCOM application](/glossary/discom/).
+A site survey is the systematic on-site assessment of a proposed solar installation location. It evaluates roof or ground area, structural capacity, [shading patterns](/glossary/shading-analysis/), electrical infrastructure, sanctioned load, accessibility, regulatory feasibility and customer requirements. For complex commercial or ground-mount projects, EPCs often bring in professional site survey and land feasibility services to validate technical viability before a contract is signed. The survey produces a feasibility report that forms the basis for system design, quotation and [DISCOM application](/glossary/discom/).
 
 > **TL;DR**
 > - A site survey is the on-site assessment of roof or land area, structural capacity, shading, electrical infrastructure and regulatory feasibility done before solar design begins.
@@ -129,7 +129,7 @@ Compliance verification. CEIG and DISCOM rules vary by site type.
 
 ### Drone survey (large rooftops and ground-mount)
 
-For large or complex sites, many EPCs supplement the manual walkthrough with a [satellite roof measurement](/blog/satellite-roof-measurement-solar/) pass or a dedicated [3D pre-design site modeling](https://heavendesigns.in/solar-3d-pre-design/) service that combines drone capture with CAD-ready outputs.
+For large or complex sites, many EPCs supplement the manual walkthrough with a [satellite roof measurement](/blog/satellite-roof-measurement-solar/) pass or a dedicated 3D pre-design site modeling service that combines drone capture with CAD-ready outputs.
 
 | Stage | Output |
 |---|---|
@@ -145,7 +145,7 @@ Roof load assessment for residential RCC:
 - Wind load: 1.2 to 1.5 kN/m²
 - Total imposed load: ~50 to 70 kg/m² peak
 
-Typical RCC residential roofs comfortably handle this. Old houses, metal sheet roofs and asbestos roofs need [structural engineering review](https://heavendesigns.in/solar-civil-and-structural-engineering/).
+Typical RCC residential roofs comfortably handle this. Old houses, metal sheet roofs and asbestos roofs need structural engineering review.
 
 ### Electrical infrastructure check
 
@@ -162,7 +162,7 @@ Typical RCC residential roofs comfortably handle this. Old houses, metal sheet r
 
 Residential PM Surya Ghar pre-application.
 
-C&I rooftop tender pre-bid survey, typically conducted by the [turnkey EPC contractor](https://heavengreenenergy.com/solar-epc/).
+C&I rooftop tender pre-bid survey, typically conducted by the turnkey EPC contractor.
 
 Utility-scale solar park site selection.
 

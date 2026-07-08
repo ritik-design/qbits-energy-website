@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Integration in India: Complete 7-Phase EPC Setup Guide 2026"
+title: "Solar Inverter Integration, 7-Phase EPC Setup Guide"
 excerpt: "Grid instability, voltage fluctuations, and diverse state-by-state DISCOM regulations make proper inverter integration the make-or-break execution phase for every Indian solar project. Here is the complete 7-phase integration framework EPCs use to turn design into a reliable 25-year operational asset."
-description: "Complete solar inverter integration guide for India in 2026: 7-phase EPC framework covering site assessment, mechanical installation, DC-side configuration, AC connection, hybrid battery integration, monitoring system setup, smart feature activation, post-commissioning verification, DISCOM compliance, and the documentation that protects warranty validity."
+description: "Solar inverter integration guide for India: 7-phase EPC framework covering site assessment, DC/AC wiring, battery setup, monitoring, and DISCOM compliance."
 category: "Guide"
 date: 2026-05-11
 readTime: "12 min"
@@ -45,7 +45,7 @@ Grid instability, voltage fluctuations, and diverse state-by-state DISCOM regula
 > - [LiFePO4](/blog/lifepo4-vs-nmc-solar-battery-india/) is the dominant battery chemistry for hybrid systems, offering 4,000-6,000 cycle life and safe operation up to 60 deg C.
 > - A minimum 7-day post-commissioning verification window catches installation issues before final handover and protects the warranty claim later.
 
-This guide presents the complete 7-phase EPC integration framework Indian solar businesses use to translate design into commissioned, warranty-protected, 25-year reliable systems. It applies equally to installers running a full in-house [solar EPC](https://heavengreenenergy.com/solar-epc/) operation and to teams outsourcing parts of the mechanical or electrical scope. Each phase has specific deliverables, documentation requirements, and quality gates that must be cleared before progressing.
+This guide presents the complete 7-phase EPC integration framework Indian solar businesses use to translate design into commissioned, warranty-protected, 25-year reliable systems. It applies equally to installers running a full in-house solar EPC operation and to teams outsourcing parts of the mechanical or electrical scope. Each phase has specific deliverables, documentation requirements, and quality gates that must be cleared before progressing.
 
 ## Phase 1: Pre-Installation Planning and Site Assessment
 
@@ -53,7 +53,7 @@ The phase that determines whether the rest of the integration succeeds.
 
 ### Site assessment
 
-- **Roof structural assessment** for panel and inverter load, ideally backed by a proper [site survey and land feasibility check](https://heavendesigns.in/site-survey-land-feasibility-services/)
+- **Roof structural assessment** for panel and inverter load, ideally backed by a proper site survey and land feasibility check
 - **Roof orientation and tilt analysis** for solar yield
 - **Shading study** across daily and seasonal patterns
 - **12-month consumption review** from electricity bills
@@ -78,7 +78,7 @@ The phase that determines whether the rest of the integration succeeds.
 ### Documentation produced
 
 - Site assessment report
-- [Single-line electrical diagram](https://heavendesigns.in/electrical-ceig-drawings/) (SLD)
+- Single-line electrical diagram (SLD)
 - Component bill of materials
 - DISCOM application package
 - Customer approval of design specifications

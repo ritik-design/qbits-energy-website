@@ -79,7 +79,7 @@ For Indian solar installations at latitude-equivalent tilt, POA typically exceed
 
 ## Why POA matters
 
-Yield prediction. POA directly drives PV power output.
+Yield prediction. POA directly drives PV power output; see [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/) for state-level yield outcomes built on POA-based modelling.
 
 PR calculation. PR normalises actual generation against POA-derived expectation.
 
@@ -168,7 +168,7 @@ Use POA for PR calculation, not GHI.
 
 Install in-plane pyranometers on utility plants.
 
-Use Perez sky model for highest accuracy.
+Use Perez sky model for highest accuracy, the default in bankable software covered in [PV Yield Simulation Software: 2026 Bankable Guide](/blog/pv-yield-simulation-software/).
 
 Apply realistic albedo for ground reflection.
 
@@ -182,7 +182,7 @@ PVsyst, SAM and PVGIS provide POA calculation.
 
 Bifacial yield models include detailed rear-side POA.
 
-NIWE and Solargis provide tilt-specific POA estimates.
+NIWE and Solargis provide tilt-specific POA estimates; for the state-wise GHI and peak sun hour benchmarks feeding these calculations, see [Solar Irradiance Data India, State-Wise Peak Sun Hours](/blog/solar-irradiance-data-india-statewise/).
 
 ## Standards and certifications
 

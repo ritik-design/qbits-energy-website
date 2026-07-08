@@ -142,7 +142,7 @@ Each individual MLPE device has 1 percent failure rate, but multiplied across al
 
 For a closer look at how the two MLPE categories perform on Indian roofs, see [String Inverter vs Microinverter, The Indian Roof Reality](/blog/string-vs-microinverter/).
 
-[Premium residential rooftops](https://heavengreenenergy.com/residential-solar/).
+Premium residential rooftops.
 
 Shaded complex roofs.
 

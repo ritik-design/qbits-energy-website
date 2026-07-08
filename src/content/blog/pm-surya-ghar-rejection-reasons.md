@@ -1,6 +1,7 @@
 ---
-title: "PM Surya Ghar Application Rejected, Why and What to Do"
+title: "PM Surya Ghar Rejected: Why and What to Do"
 excerpt: "PM Surya Ghar rejected? Top reasons include name mismatch, outdated bills, non-ALMM inverters, and property issues. Full recovery guide for 2026."
+description: "PM Surya Ghar application rejected? Top reasons include name mismatch, outdated bills, non-ALMM inverters, and property issues. Recovery guide for 2026."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -117,8 +118,8 @@ Subsidies above ₹50,000 require PAN to be linked to Aadhaar, per Income Tax De
 This is distinct from document rejection. A technical feasibility rejection means the DISCOM engineer determined your roof or connection cannot support the proposed solar system.
 
 Common technical rejection reasons:
-- **Insufficient roof area**: A 3 kW system requires approximately 25–30 square metres of unshaded roof area. A smaller roof may only qualify for a 1 kW or 2 kW system. A professional [site survey and land feasibility check](https://heavendesigns.in/site-survey-land-feasibility-services/) before you sign a vendor contract catches this before the DISCOM does.
-- **Structural concern**: Older buildings, terraced structures, or roofs with significant shade may require [structural reinforcement](https://heavendesigns.in/solar-civil-and-structural-engineering/) that the DISCOM flags as a concern.
+- **Insufficient roof area**: A 3 kW system requires approximately 25–30 square metres of unshaded roof area. A smaller roof may only qualify for a 1 kW or 2 kW system. A professional site survey and land feasibility check before you sign a vendor contract catches this before the DISCOM does.
+- **Structural concern**: Older buildings, terraced structures, or roofs with significant shade may require structural reinforcement that the DISCOM flags as a concern.
 - **Connection load limit**: Your existing sanctioned load may be lower than the proposed system requires.
 
 **Fix:** Request the feasibility report in writing from your DISCOM. If your roof can support a smaller system, reapply for the smaller capacity. If the structural concern is addressable, get a structural engineer's certificate and submit it with your reapplication.

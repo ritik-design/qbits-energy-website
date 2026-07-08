@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter vs UPS, What's the Real Difference?"
 excerpt: "Solar inverter vs UPS: a solar inverter converts solar DC to AC; a UPS charges a battery from the grid for backup. Learn which suits your home in India."
-description: "Clear breakdown of solar inverter vs UPS differences, including hybrid inverters, cost comparison, and the common mistake Indian buyers make before purchasing."
+description: "Clear breakdown of solar inverter vs UPS differences, including hybrid inverters, cost comparison, and the common buyer mistake in India."
 category: Comparison
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -71,7 +71,7 @@ The upfront cost looks modest, a 1.5 kVA inverter plus a 150 Ah tubular battery 
 - **Battery replacement**: tubular lead-acid batteries last 3–5 years under regular cycling. A replacement battery costs ₹8,000–₹15,000. That is a mandatory recurring expense the dealer rarely highlights at the time of purchase.
 - **No electricity generation**: a UPS does not offset your grid bill at all. Your daytime solar potential sits unused.
 
-Over a 10-year horizon, a UPS system that looked like a ₹25,000 purchase often costs ₹70,000–₹1,00,000 in total (charging electricity + two battery replacements + maintenance). This is the comparison that changes minds. Running your own household numbers through a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) alongside the UPS figures above makes the total-cost gap concrete rather than theoretical.
+Over a 10-year horizon, a UPS system that looked like a ₹25,000 purchase often costs ₹70,000–₹1,00,000 in total (charging electricity + two battery replacements + maintenance). This is the comparison that changes minds. Running your own household numbers through a solar cost and savings calculator alongside the UPS figures above makes the total-cost gap concrete rather than theoretical.
 
 ## What a Solar Inverter (On-Grid) Does
 
@@ -136,7 +136,7 @@ This is the most common question in Indian solar buyer groups, and the answer de
 
 **The workaround**: adding an external MPPT charge controller between the panels and an existing battery, is technically possible but produces a patchwork system with no grid export, no remote monitoring, and no warranty coverage as an integrated product.
 
-The clean answer for most homeowners who want both solar generation and backup capability is a purpose-built solar hybrid inverter from the start. The [how a solar inverter works guide](/blog/how-does-a-solar-inverter-work/) explains the internal architecture differences in technical detail. Homeowners who would rather have a qualified team survey the roof and design the hybrid system end to end can start with [Heaven Green Energy's residential solar installation service](https://heavengreenenergy.com/residential-solar/).
+The clean answer for most homeowners who want both solar generation and backup capability is a purpose-built solar hybrid inverter from the start. The [how a solar inverter works guide](/blog/how-does-a-solar-inverter-work/) explains the internal architecture differences in technical detail. Homeowners who would rather have a qualified team survey the roof and design the hybrid system end to end can start with Heaven Green Energy's residential solar installation service.
 
 ## The India Buying Mistake That Costs ₹30,000+
 

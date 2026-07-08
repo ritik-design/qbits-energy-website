@@ -1,6 +1,7 @@
 ---
-title: "Solar RESCO Model India, Complete Guide for C&I Buyers"
+title: "Solar RESCO Model India: Guide for C&I Buyers"
 excerpt: "Solar RESCO model India lets C&I buyers get rooftop solar with zero upfront cost, the RESCO owns the system, you pay ₹4–6/unit instead of ₹8–14/unit grid tariff. Full PPA guide inside."
+description: "RESCO lets C&I buyers get rooftop solar at zero upfront cost, paying ₹4-6/unit instead of ₹8-14/unit grid tariff. Full PPA terms and top providers inside."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -81,7 +82,7 @@ Pune-based RESCO focused on green energy procurement for corporate buyers with E
 
 Technology-forward RESCO with a strong portfolio in industrial and commercial rooftop and ground-mounted projects. Known for sophisticated grid integration and SCADA monitoring across portfolios. PPA tariff: ₹4.5–6.5/unit.
 
-**Minimum project sizes:** Most major RESCOs have a minimum project size of 50–100 kW due to transaction costs. For systems below 50 kW, the CAPEX model is more accessible, see [solar EPC India guide](/blog/solar-epc-india/) for the CAPEX procurement process. Buyers pursuing that route often bring in a turnkey [commercial solar EPC provider](https://heavengreenenergy.com/commercial-solar/) to handle installation once the financing model is decided.
+**Minimum project sizes:** Most major RESCOs have a minimum project size of 50–100 kW due to transaction costs. For systems below 50 kW, the CAPEX model is more accessible, see [solar EPC India guide](/blog/solar-epc-india/) for the CAPEX procurement process. Buyers pursuing that route often bring in a turnkey commercial solar EPC provider to handle installation once the financing model is decided.
 
 ## How a RESCO PPA Contract Works
 
@@ -149,7 +150,7 @@ According to [IRENA's Renewable Power Finance Report](https://www.irena.org/), I
 - The building is rented or leased (CAPEX requires long-term roof ownership)
 - Capital is constrained and high grid tariffs create strong savings motivation
 - The company has low or zero taxable profit (accelerated depreciation benefit has no value)
-- Multiple sites need to be managed under a single procurement arrangement, a scenario where independent [MW-scale project management](https://heavendesigns.in/mw-scale-project-management-consultancy/) support helps standardise due diligence across locations
+- Multiple sites need to be managed under a single procurement arrangement, a scenario where independent MW-scale project management support helps standardise due diligence across locations
 
 **CAPEX is superior when:**
 - The building is owned long-term with capital available

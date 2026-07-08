@@ -1,7 +1,7 @@
 ---
-title: "Solar Investment vs Fixed Deposit, Which Wins in India?"
+title: "Solar Investment vs Fixed Deposit, Which Wins?"
 excerpt: "Solar vs FD investment in India: solar delivers IRR of 18–22% vs FD's 7.5%, but FD is liquid and solar is not. The financial maths, honest trade-offs, and who should choose what."
-description: "Compare solar investment vs fixed deposit in India. Solar IRR of 18–22% beats FD at 7.5%, but liquidity, risk, and tenure differ. Full financial model and decision guide."
+description: "Solar vs FD in India: solar delivers 18–22% IRR versus FD's 7.5%, but FD is liquid and solar is not. The full financial model and decision guide."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08

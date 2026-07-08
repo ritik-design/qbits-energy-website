@@ -163,7 +163,7 @@ Bulk import arrangements for subsidised rooftop programmes are covered further i
 
 Project [cost budgeting](https://surgepv.com/tools/).
 
-Module [sourcing strategy](https://heavengreenenergy.com/shop/) (Indian vs imported).
+Module sourcing strategy (Indian vs imported).
 
 PPA tariff bidding.
 

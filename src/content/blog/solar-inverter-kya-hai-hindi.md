@@ -1,6 +1,7 @@
 ---
-title: "Solar Inverter Kya Hai? - पूरी जानकारी हिंदी में (2026)"
+title: "Solar Inverter Kya Hai? - पूरी जानकारी हिंदी में"
 excerpt: "Solar inverter kya hai: DC se AC convert karta hai, types, kaise kaam karta hai, on-grid vs hybrid vs off-grid, ghar ke liye sahi inverter kaise chunein।"
+description: "Solar inverter kya hai aur kaise kaam karta hai? On-grid, hybrid aur off-grid types, working process, aur ghar ke liye sahi inverter chunne ka guide."
 category: "Educational"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -115,7 +116,7 @@ Grid se bilkul alag kaam karta hai. Badi [off-grid inverter](/glossary/off-grid-
 2. **DC cables**: Panels se inverter tak DC power carry hoti hai
 3. **[MPPT](/glossary/mppt/)**: Inverter ka Maximum Power Point Tracker panels se maximum power nikalta hai
 4. **Conversion**: DC ko 230V, 50Hz AC mein convert hoti hai
-5. **AC distribution**: Meter se ghar ke circuits mein bijli jaati hai, isme [ACDB/DCDB panels](https://heavengreenenergy.com/products/acdb-dcdb/) protection aur switching ka kaam karte hain
+5. **AC distribution**: Meter se ghar ke circuits mein bijli jaati hai, isme ACDB/DCDB panels protection aur switching ka kaam karte hain
 6. **Grid export**: Excess power grid ko export hoti hai, meter backwards chalta hai
 7. **Battery (hybrid only)**: Excess power battery mein store hoti hai
 
@@ -247,7 +248,7 @@ Sahi inverter selection ke liye [Qbits engineer se baat karein](/contact-us/), a
 
 ## Solar Inverter Brands in India 2026: Overview
 
-Understanding the brand landscape helps you make an informed choice. Aap [Heaven Green Energy's inverter shop](https://heavengreenenergy.com/products/solar-inverters/) par different brands aur models ke specifications directly compare kar sakte hain.
+Understanding the brand landscape helps you make an informed choice. Aap Heaven Green Energy's inverter shop par different brands aur models ke specifications directly compare kar sakte hain.
 
 **Indian manufacturers:** Luminous, UTL, Sukam, Microtek, strong distribution network, good service in Tier 2 and Tier 3 cities, warranty 2-5 years standard.
 

@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Sizing: 12 Critical Questions Answered (2026)"
+title: "Solar Inverter Sizing: 12 Key Questions (2026)"
 excerpt: "Selecting the right inverter capacity is the single most impactful design decision on a solar project. Here are the 12 most important sizing questions, covering DC oversizing, MPPT current, temperature corrections, and modern 750W+ panel compatibility."
-description: "How to size a solar inverter correctly, DC-to-AC ratio guidance, string voltage temperature corrections, MPPT current limits, modular expansion strategy, and the most common sizing mistakes EPCs make in India."
+description: "How to size a solar inverter correctly: DC-to-AC ratio, string voltage temperature corrections, MPPT limits, and common sizing mistakes EPCs make."
 category: "Guide"
 date: 2026-03-20
 updatedDate: 2026-07-08
@@ -208,7 +208,7 @@ Quality inverters maintain **95%+ from 20–100% load**. Lower-quality units dro
 
 ### Documentation
 
-Note available MPPT capacity, max additional DC input, conduit provisions, recommended expansion configs. For larger commercial arrays, a formal [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) package keeps this documentation consistent across phases.
+Note available MPPT capacity, max additional DC input, conduit provisions, recommended expansion configs. For larger commercial arrays, a formal rooftop detailed engineering design package keeps this documentation consistent across phases.
 
 ## 11. Common Sizing Mistakes EPCs Make
 

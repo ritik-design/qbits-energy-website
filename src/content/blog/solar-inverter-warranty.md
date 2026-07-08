@@ -1,7 +1,7 @@
 ---
-title: "The Honest Truth About Solar Inverter Warranty in India"
+title: "Solar Inverter Warranty in India: The Honest Truth"
 excerpt: "Solar inverter warranty in India is misunderstood by most buyers. Learn the 4 dirty secrets, what a good warranty really covers, and your rights under Indian law."
-description: "Most solar inverter warranties in India are not what buyers expect. This guide exposes the 4 hidden traps, explains what good warranty looks like, and covers your legal rights."
+description: "Solar inverter warranties in India are often misunderstood. Learn the 4 hidden traps, what good warranty looks like, and your legal rights."
 category: "Technology"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -101,7 +101,7 @@ First, the warranty claim process typically requires the installer to initiate o
 
 Second, the installer's assurances (verbal promises to handle any future problems) have no contractual backing. The binding obligation is in the brand's warranty document, not in a verbal promise from your solar salesperson.
 
-The only protection against installer disappearance is a warranty backed directly by the brand, with a homeowner-accessible claim process that does not require installer co-ordination. [Authorised service partners](/authorized-service-partners/) operating under the brand's direct umbrella (not sub-contracted installers) provide this continuity, the same reason it is worth favouring an established [turnkey solar EPC](https://heavengreenenergy.com/solar-epc/) with a multi-year track record over a small dealership that may not exist in five years.
+The only protection against installer disappearance is a warranty backed directly by the brand, with a homeowner-accessible claim process that does not require installer co-ordination. [Authorised service partners](/authorized-service-partners/) operating under the brand's direct umbrella (not sub-contracted installers) provide this continuity, the same reason it is worth favouring an established turnkey solar EPC with a multi-year track record over a small dealership that may not exist in five years.
 
 > **40%.** The proportion of Indian residential solar installers active in 2020 who were unreachable or had shut operations by 2023. This is why brand-backed warranty (directly accessible by the homeowner) is the only reliable long-term protection for any solar investment in India. *Source - [JMK Research, India Solar Market Analysis 2024](https://jmkresearch.com/).*
 
@@ -268,7 +268,7 @@ Consumer court decisions consistently favour buyers who document their case syst
 
 The following mistakes are responsible for the majority of warranty claim denials in India. Each is avoidable with simple precautions taken at or before installation.
 
-- **Using an uncertified installer**: most brands require installation by a certified or authorised partner. An installation by an uncertified electrician voids the warranty before the system is even commissioned. Verify your installer's brand authorisation before signing the installation contract, or start from a [directory of vetted local solar installers](https://heavengreenenergy.com/solar-near-me/) rather than the first quote that arrives.
+- **Using an uncertified installer**: most brands require installation by a certified or authorised partner. An installation by an uncertified electrician voids the warranty before the system is even commissioned. Verify your installer's brand authorisation before signing the installation contract, or start from a directory of vetted local solar installers rather than the first quote that arrives.
 
 - **Missing the commissioning certificate**: the commissioning certificate is the document that timestamps the warranty start date. Without it, the brand defaults to the manufacture date for warranty calculations. Request the commissioning certificate from your installer at system handover.
 

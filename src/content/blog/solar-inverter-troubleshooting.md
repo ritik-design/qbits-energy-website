@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Troubleshooting: 15 Common Problems & Expert Solutions (2026)"
+title: "Solar Inverter Troubleshooting: 15 Common Problems"
 excerpt: "A practical, step-by-step troubleshooting guide covering the 15 most common solar inverter problems EPCs and facility owners encounter in India, from no display to anti-islanding nuisance trips."
-description: "Diagnose and resolve the 15 most common solar inverter issues, power output drops, overheating, ground faults, communication errors, hybrid battery integration, arc faults, and more. Built for Indian EPCs and installation companies."
+description: "Diagnose and fix the 15 most common solar inverter issues: power drops, overheating, ground faults, communication errors, and hybrid battery faults."
 category: "Maintenance"
 date: 2026-03-13
 updatedDate: 2026-07-08
@@ -72,7 +72,7 @@ Grid parameter errors occur frequently in India, particularly in rural and semi-
 
 - Verify with a quality multimeter or power analyser
 - If grid is genuinely out of spec, the inverter is functioning correctly
-- Solutions: voltage stabilisers, utility coordination, or a hybrid inverter with battery backup
+- Solutions: voltage stabilisers, utility coordination, or a [hybrid inverter](/hybrid-inverter/) with battery backup
 - Verify grounding resistance stays below 5 ohms with clean, tight connections
 
 ## 3. Low Power Output or Reduced Efficiency
@@ -159,7 +159,7 @@ Inverters continuously monitor insulation resistance between DC circuits and gro
 4. Readings should exceed 1 megohm, preferably several megohms
 5. If low, isolate strings one at a time to identify the faulty circuit
 
-For AC-side faults, inspect the AC disconnect, breaker panel, and all AC wiring; verify neutral and ground are properly separated. Faults that trace back to the original design rather than field workmanship are best caught earlier, through properly reviewed [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/) at the design stage rather than discovered after commissioning.
+For AC-side faults, inspect the AC disconnect, breaker panel, and all AC wiring; verify neutral and ground are properly separated. Faults that trace back to the original design rather than field workmanship are best caught earlier, through properly reviewed electrical and CEIG drawings at the design stage rather than discovered after commissioning.
 
 ## 7. DC Overvoltage or String Configuration Errors
 
@@ -227,7 +227,7 @@ Hybrid systems add complexity, issues can originate from inverter, battery, or c
 ### Monsoon Season
 
 - Verify IP ratings (IP65 minimum, IP66 preferred)
-- Reseal cable entry points before monsoon using proper [balance of system](https://heavengreenenergy.com/products/balance-of-system/) weatherproofing components
+- Reseal cable entry points before monsoon using proper balance of system weatherproofing components
 - Inspect [SPDs](/glossary/spd/) after severe storms, many have visual indicators
 
 ### Dust and Pollution
@@ -382,6 +382,8 @@ Effective troubleshooting extends far beyond reactive problem-solving. A 100 kW 
 - **Environmental protection**: IP66
 - **Warranty coverage**: 12-year full replacement
 - **Support infrastructure**: India-based technical support, digital warranty system, training programs
+
+Browse the full [Qbits product range](/our-products/) for on-grid and hybrid specs side by side, or [talk to a Qbits engineer](/contact-us/) if a fault trail keeps pointing back to a sizing or compatibility question rather than a field fix.
 
 ## Need Direct Support?
 

@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter with Subsidy, How PM Surya Ghar Discount Works"
+title: "Solar Inverter Subsidy: How PM Surya Ghar Works"
 excerpt: "The solar inverter with subsidy under PM Surya Ghar is not a separate payment, it is a lump sum per kW on the complete system. Here is how the math works."
-description: "PM Surya Ghar subsidy covers the full solar system (panels + inverter + installation) as a lump sum, not the inverter alone. Learn the 3-Layer Subsidy Stack and the exact out-of-pocket cost."
+description: "PM Surya Ghar subsidy covers the full solar system as a lump sum, not the inverter alone. Learn the 3-Layer Subsidy Stack and exact out-of-pocket cost."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -252,7 +252,7 @@ The second non-negotiable requirement (after ALMM compliance) is vendor empanelm
 2. The portal lists empanelled vendors with their registration number, contact details, and active status.
 3. Cross-verify the vendor's empanelment number directly with your DISCOM's customer service, not just from the vendor's own marketing materials.
 4. Check how many installations the vendor has completed under PM Surya Ghar, experienced vendors know the inspection and documentation process and avoid the errors that delay commissioning.
-5. If you want a second point of comparison outside the DISCOM's empanelled list, a [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) can surface EPCs with a track record in your city for reference pricing and reviews.
+5. If you want a second point of comparison outside the DISCOM's empanelled list, a local solar installer directory can surface EPCs with a track record in your city for reference pricing and reviews.
 
 **Warning signs to watch for:**
 

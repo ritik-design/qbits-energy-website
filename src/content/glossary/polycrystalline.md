@@ -76,7 +76,7 @@ In India, polycrystalline dominated rooftop and utility solar from 2010 to 2020.
 
 ## Polycrystalline explained simply
 
-Think of mono silicon as a single ice crystal grown slowly under controlled conditions, and poly silicon as ice cubes frozen quickly into a tray with many grains. The poly version is faster and cheaper to make but the grain boundaries inside reduce efficiency. A poly cell converts about 17 to 19 percent of sunlight to electricity, against 20 to 23 percent for modern mono.
+Think of mono silicon as a single ice crystal grown slowly under controlled conditions, and poly silicon as ice cubes frozen quickly into a tray with many grains. The poly version is faster and cheaper to make but the grain boundaries inside reduce efficiency. A poly cell converts about 17 to 19 percent of sunlight to electricity, against 20 to 23 percent for modern mono. Most Indian buyers now know to ask whether a quote is mono or poly; see [common solar inverter buying mistakes](/blog/solar-inverter-buying-mistakes/) for why the same scrutiny needs to extend to the inverter, not just the panel.
 
 ## Why polycrystalline still matters
 
@@ -174,6 +174,8 @@ Slightly worse degradation profile.
 ALMM listings increasingly dominated by mono.
 
 Bifacial development limited.
+
+For a cost breakdown that puts budget polycrystalline modules side by side with mid-range PERC and premium TOPCon panels, see [10kW solar system price in India](/blog/10kw-solar-system-price-india/).
 
 ## Common problems
 

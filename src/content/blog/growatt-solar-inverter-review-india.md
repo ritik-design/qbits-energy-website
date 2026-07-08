@@ -1,7 +1,7 @@
 ---
-title: "Growatt Solar Inverter Review for India 2026, Honest Assessment"
+title: "Growatt Solar Inverter Review India 2026: Honest"
 excerpt: "Our growatt solar inverter review finds a genuinely capable mid-market brand with competitive pricing and wide availability, but variable after-sales in Tier-2/3 India and a 5-year warranty require careful consideration."
-description: "An honest 2026 review of Growatt solar inverters for the Indian market, covering MID, SPF, and MAX series, ALMM status, warranty depth, ShinePhone monitoring, and who should buy Growatt vs who should look elsewhere."
+description: "An honest 2026 review of Growatt solar inverters for India: MID, SPF, and MAX series, ALMM status, warranty depth, and ShinePhone monitoring quality."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -60,7 +60,7 @@ In India, Growatt operates through a network of regional distributors rather tha
 - **Global shipments**: Growatt has shipped inverters to over 100 countries, with residential on-grid and hybrid models dominant in Asia-Pacific and Europe.
 - **India distributor model**: no dedicated Growatt India manufacturing or large-scale India-specific service entity at the time of writing; service fulfilment routes through regional distributors.
 - **Price positioning**: deliberately mid-market; Growatt does not compete on specifications at the premium end but on price-to-performance ratio for standard applications.
-- **Product breadth**: MID series (residential on-grid), SPF series (hybrid/off-grid), MAX series (commercial string), and a growing storage range; this breadth allows [EPCs](https://heavengreenenergy.com/solar-epc/) to source a full system from one supplier.
+- **Product breadth**: MID series (residential on-grid), SPF series (hybrid/off-grid), MAX series (commercial string), and a growing storage range; this breadth allows EPCs to source a full system from one supplier.
 
 > **100+ GW.** Growatt's cumulative global shipped capacity as of 2025, making it one of the top-five inverter manufacturers by volume. *Source - [Growatt Corporate Profile](https://www.growatt.com/about-us/), 2025.*
 

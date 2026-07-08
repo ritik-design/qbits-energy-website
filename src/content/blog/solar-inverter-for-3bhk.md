@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter for a 3 BHK Home, Real Sizing and Best Picks"
+title: "Solar Inverter for a 3 BHK Home, Sizing and Picks"
 excerpt: "The right solar inverter for a 3 BHK home is a 5 kW on-grid or hybrid unit. This guide covers load calculation, PM Surya Ghar subsidy, roof space, and real cost breakdown."
-description: "Size a solar inverter for a 3 BHK home in India: step-by-step load calculator, 5 kW system cost, PM Surya Ghar subsidy, on-grid vs hybrid decision, and best picks."
+description: "Size a solar inverter for a 3 BHK home in India: load calculator, 5 kW system cost, PM Surya Ghar subsidy, and on-grid vs hybrid decision guide."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -224,7 +224,7 @@ One of the most common anxieties among 3 BHK homeowners is whether the rooftop h
 - **Add edge setback from parapet wall (typically 1 m on all sides for a 3 BHK terrace)**: adds approximately 30–40 sq ft of perimeter exclusion
 - **Practical roof requirement**: **340–360 sq ft of usable, shadow-free roof area**
 
-Most 3 BHK homes in India have a flat terrace of 600–900 sq ft. Shadow-free area depends on the water tank position, parapet wall height, and staircase head. A quick [shading analysis](/glossary/shading-analysis/) using a solar pathfinder or a free tool like PVGIS confirms available area before purchase. For terraces with complex shading from adjacent buildings or overhead tanks, a professional [site survey and land feasibility assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) quantifies usable roof area more precisely than a manual measurement.
+Most 3 BHK homes in India have a flat terrace of 600–900 sq ft. Shadow-free area depends on the water tank position, parapet wall height, and staircase head. A quick [shading analysis](/glossary/shading-analysis/) using a solar pathfinder or a free tool like PVGIS confirms available area before purchase. For terraces with complex shading from adjacent buildings or overhead tanks, a professional site survey and land feasibility assessment quantifies usable roof area more precisely than a manual measurement.
 
 If shadow-free area is limited to 250–300 sq ft (for instance, due to a large overhead tank or adjacent building shadow), consider using higher-efficiency panels (≥ 22% module efficiency) at 580–605 Wp each, which can achieve 5 kW with 9 panels and save 15–20 sq ft.
 
@@ -269,7 +269,7 @@ Buying a solar inverter is a decision that stays with the home for 12–25 years
 
 **Skipping the net metering application.** An on-grid inverter without a net meter is technically off-grid, it cannot feed surplus power to the grid, so the system shuts down when household consumption falls below generation. Net metering is mandatory for an on-grid system to function correctly and for the PM Surya Ghar subsidy to remain valid. The [net metering application guide](/blog/how-to-apply-net-metering-india/) covers the step-by-step process for each DISCOM.
 
-**Accepting a non-empanelled vendor.** PM Surya Ghar subsidy requires the installation to be performed by a DISCOM-empanelled vendor. Installing through an un-empanelled contractor (even with ALMM-listed equipment) voids the subsidy claim. Verifying installer credentials is one of the [eight verification steps for finding a reliable solar installer](/blog/find-reliable-solar-installer/) that every buyer should complete before signing, and a directory such as [heavengreenenergy.com's local installer search](https://heavengreenenergy.com/solar-near-me/) is a useful starting point for cross-checking a vendor's service footprint. Check the national portal before signing any contract, and run the final quotation against the [12-point solar quotation checklist](/blog/solar-quotation-checklist/) to confirm every line item is accounted for.
+**Accepting a non-empanelled vendor.** PM Surya Ghar subsidy requires the installation to be performed by a DISCOM-empanelled vendor. Installing through an un-empanelled contractor (even with ALMM-listed equipment) voids the subsidy claim. Verifying installer credentials is one of the [eight verification steps for finding a reliable solar installer](/blog/find-reliable-solar-installer/) that every buyer should complete before signing. Check the national portal before signing any contract, and run the final quotation against the [12-point solar quotation checklist](/blog/solar-quotation-checklist/) to confirm every line item is accounted for.
 
 ## Where Qbits Fits
 

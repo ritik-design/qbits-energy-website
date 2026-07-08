@@ -70,13 +70,13 @@ author: "Akash Hirapara"
 
 Viability Gap Funding (VGF) is a capital subsidy mechanism providing a one-time grant from government to bridge the gap between a project's total cost and its commercial viability. The grant covers the difference between what the project can earn at competitive tariffs and the capex required for the project to be built. VGF supports infrastructure and emerging technologies that are socially or strategically desirable but not yet commercially viable.
 
-In Indian solar, the most significant current VGF programme supports Battery Energy Storage Systems (BESS) connected to the grid for renewable energy. Launched in September 2023 with ₹3,760 crore outlay, the scheme targets 4 GWh of storage capacity, providing up to ₹40 lakh per MWh (about ₹13.4 lakh per MW for 4-hour storage) or 30 percent of project cost, whichever is lower.
+In Indian solar, the most significant current VGF programme supports Battery Energy Storage Systems (BESS) connected to the grid for renewable energy. Launched in September 2023 with ₹3,760 crore outlay, the scheme targets 4 GWh of storage capacity, part of a broader wave of BESS-plus-solar tenders reshaping India's renewable pipeline (see [India Solar Statistics 2026, Complete Data Reference](/blog/india-solar-statistics-2026-data/)), providing up to ₹40 lakh per MWh (about ₹13.4 lakh per MW for 4-hour storage) or 30 percent of project cost, whichever is lower.
 
 VGF mechanisms have historically been used for various infrastructure including solar manufacturing demonstrations, agricultural solar pumps and other emerging technology areas. The BESS VGF is the largest current solar-related VGF programme in India.
 
 ## Why VGF matters
 
-Storage rollout. Bridges cost gap for utility-scale BESS not yet commercially viable.
+Storage rollout. Bridges cost gap for utility-scale BESS not yet commercially viable, a different track from the household [PM Surya Ghar subsidy](/blog/pm-surya-ghar-subsidy-amount/), which funds rooftop capex directly rather than grid storage capacity.
 
 Renewable integration. Enables high renewable penetration through firm dispatch.
 

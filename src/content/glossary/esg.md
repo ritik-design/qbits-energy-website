@@ -109,7 +109,7 @@ Risk management. Climate risks materially affect business.
 | Net-zero alignment | Visible step toward commitment |
 | Reporting | Direct, auditable kWh contribution |
 
-Corporates typically start with a [turnkey commercial solar installation](https://heavengreenenergy.com/commercial-solar/) sized against annual grid consumption, then layer in a [power purchase agreement](/glossary/ppa/) for loads beyond rooftop capacity or a [RESCO](/glossary/resco/) partner that owns and maintains the plant on a zero-capex basis. For sizing and return calculations at C&I scale, see [Solar IRR and Payback for C&I in India](/blog/solar-irr-payback-ci-india/).
+Corporates typically start with a turnkey commercial solar installation sized against annual grid consumption, then layer in a [power purchase agreement](/glossary/ppa/) for loads beyond rooftop capacity or a [RESCO](/glossary/resco/) partner that owns and maintains the plant on a zero-capex basis. For sizing and return calculations at C&I scale, see [Solar IRR and Payback for C&I in India](/blog/solar-irr-payback-ci-india/).
 
 ## Technical deep dive
 
@@ -225,7 +225,7 @@ Major Indian corporates with significant solar adoption: Tata Group, Reliance In
 
 RE100 (renewable electricity 100 percent target) membership growing among Indian corporates, reflected in broader [India solar statistics](/blog/india-solar-statistics-2026-data/) for 2026.
 
-Multi-site corporate rollouts often require [MW-scale EPC project management](https://heavendesigns.in/mw-scale-project-management-consultancy/) to keep BRSR-linked installation timelines on track. Some large industrial ESG programmes now extend decarbonisation beyond electricity to [green hydrogen](/glossary/green-hydrogen/) for hard-to-abate processes and to [EV charger](/glossary/ev-charger/) rollouts for fleet electrification.
+Multi-site corporate rollouts often require MW-scale EPC project management to keep BRSR-linked installation timelines on track. Some large industrial ESG programmes now extend decarbonisation beyond electricity to [green hydrogen](/glossary/green-hydrogen/) for hard-to-abate processes and to [EV charger](/glossary/ev-charger/) rollouts for fleet electrification.
 
 ## Standards and certifications
 

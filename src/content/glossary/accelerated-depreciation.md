@@ -156,11 +156,11 @@ Effective capex reduction: 16.8% on present value basis.
 
 ## Real-world applications
 
-[C&I rooftop solar](https://heavengreenenergy.com/commercial-solar/) (most common AD beneficiary).
+C&I rooftop solar (most common AD beneficiary).
 
 [RESCO](/glossary/resco/)-mode third-party ownership, covered further in our [Solar RESCO Model guide for C&I buyers](/blog/solar-resco-model-india-guide/).
 
-Utility-scale captive solar, where [MW-scale project management](https://heavendesigns.in/mw-scale-project-management-consultancy/) coordinates commissioning timelines with the tax year.
+Utility-scale captive solar, where MW-scale project management coordinates commissioning timelines with the tax year.
 
 Solar plus storage with combined depreciation.
 

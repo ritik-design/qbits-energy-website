@@ -70,13 +70,13 @@ author: "Nirav Dhanani"
 
 CAN (Controller Area Network) bus is a serial communication protocol used between Battery Management Systems (BMS) and solar inverters (and other devices) to exchange operational data. Originally developed by Bosch in the 1980s for automotive applications, CAN has become the standard communication protocol for modern lithium-ion battery storage in solar applications.
 
-CAN bus uses differential signalling on a twisted pair (CAN_H and CAN_L) with 120-ohm termination. Standard CAN operates at up to 1 Mbit/s, with CAN FD (Flexible Data-Rate) supporting up to 8 Mbit/s. The protocol is robust against electrical noise and supports multi-device networks.
+CAN bus uses differential signalling on a twisted pair (CAN_H and CAN_L) with 120-ohm termination. Standard CAN operates at up to 1 Mbit/s, with CAN FD (Flexible Data-Rate) supporting up to 8 Mbit/s. The protocol is robust against electrical noise and supports multi-device networks. See [Battery Management System (BMS) in Hybrid Solar Inverters, Decoded](/blog/bms-hybrid-solar-inverter-explained/) for how CAN bus compares with RS485 Modbus in real BMS-inverter pairings.
 
 For solar hybrid inverter-battery integration, CAN bus enables continuous data exchange:
 - Battery: reports SOC, voltage, current, temperature, SOH, alarms
 - Inverter: receives data, sends control commands, requests data
 
-For Indian solar, CAN bus is the dominant communication protocol for hybrid inverter battery packs. Compatibility between specific inverter brands and battery brands depends on protocol matching, leading to inverter-battery compatibility lists.
+For Indian solar, CAN bus is the dominant communication protocol for hybrid inverter battery packs. Compatibility between specific inverter brands and battery brands depends on protocol matching, leading to inverter-battery compatibility lists — a check covered in [How to Choose a Hybrid Solar Inverter, 5-Step Decision Guide](/blog/how-to-choose-hybrid-solar-inverter/).
 
 ## Why CAN bus matters
 

@@ -1,7 +1,7 @@
 ---
-title: "Inverter Financing Options in India: Complete Buyer's & EPC Guide 2026"
+title: "Inverter Financing Options in India"
 excerpt: "Solar inverters represent 15-20% of project costs. The right financing strategy turns capital-intensive purchases into manageable, ROI-positive investments. Here is the complete framework covering upfront cash, EMI loans, CAPEX vs OPEX models, leasing, PM Surya Ghar subsidies, accelerated depreciation, and the decision framework for every buyer profile."
-description: "Complete inverter financing guide for India 2026: upfront cash purchase, EMI loan options with current interest rates (9.5-14%), CAPEX vs OPEX comparison, operating and finance leasing, PM Surya Ghar and PM-KUSUM subsidies, accelerated depreciation under Section 32, bank and NBFC options, documentation requirements, and decision framework by buyer profile."
+description: "Complete solar inverter financing guide for India: EMI rates (9.5-14%), CAPEX vs OPEX, leasing, PM Surya Ghar subsidies, and accelerated depreciation."
 category: "Buying Guide"
 date: 2026-05-06
 readTime: "12 min"
@@ -171,7 +171,7 @@ Government programs are layered on top of any of the above financing options.
 | **[GST input credit](/glossary/gst-on-solar/)** | Recoverable input GST | GST-registered business buyers |
 | **[Custom duty exemptions](/glossary/customs-duty/)** | For specific [ALMM](/blog/almm-list-phase-iii-guide/)-listed equipment | Project-specific eligibility |
 
-The combination of subsidy plus financing plus tax benefits can reduce effective project cost by 35-50% for eligible buyers. Before applying, most residential buyers ballpark their expected savings with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) so the financing conversation with the bank starts from a realistic number.
+The combination of subsidy plus financing plus tax benefits can reduce effective project cost by 35-50% for eligible buyers. Before applying, most residential buyers ballpark their expected savings with a solar cost and savings calculator so the financing conversation with the bank starts from a realistic number.
 
 ## Financing Option 6: IREDA and Bank-Specific Solar Products
 

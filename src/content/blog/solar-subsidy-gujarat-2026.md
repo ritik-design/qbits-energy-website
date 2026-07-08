@@ -1,7 +1,7 @@
 ---
-title: "Solar Subsidy in Gujarat 2026, Surya Gujarat + Central Stack"
+title: "Solar Subsidy in Gujarat 2026, Surya Gujarat"
 excerpt: "Solar subsidy in Gujarat stacks central PM Surya Ghar (₹78,000) with Surya Gujarat state top-up, cutting a 3 kW system cost below ₹60,000. Full breakdown inside."
-description: "Solar subsidy in Gujarat 2026: how PM Surya Ghar and Surya Gujarat combine, DISCOM-wise application steps, net metering rates, and a 3 kW worked example for homeowners."
+description: "Solar subsidy in Gujarat 2026: how PM Surya Ghar and Surya Gujarat combine, DISCOM-wise application steps, net metering rates, and a 3 kW worked example."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -194,7 +194,7 @@ The Gujarat solar subsidy application involves two parallel tracks (the national
 
 3. **Obtain DISCOM technical feasibility approval.** The DISCOM reviews your application and confirms grid capacity at your connection point. MNRE mandates 15 days; Gujarat DISCOMs typically respond in 7–20 days depending on load on the approval desk.
 
-4. **Select a GEDA-registered and DISCOM-empanelled vendor.** Your installer must appear on both lists. Verify on the respective portals, not on the vendor's printed literature. [Heaven Green Energy's residential solar installation page](https://heavengreenenergy.com/residential-solar/){target="_blank" rel="noopener"} is a useful reference for what a properly scoped EPC contract should cover if you are comparing quotes for the first time. Confirm that the specific inverter model being proposed appears on the MNRE ALMM list; a non-ALMM inverter means subsidy rejection regardless of how smooth the rest of the process goes. Check [PM Surya Ghar eligibility requirements](/blog/pm-surya-ghar-eligibility/) if uncertain about which equipment qualifies.
+4. **Select a GEDA-registered and DISCOM-empanelled vendor.** Your installer must appear on both lists. Verify on the respective portals, not on the vendor's printed literature. Heaven Green Energy's residential solar installation page{target="_blank" rel="noopener"} is a useful reference for what a properly scoped EPC contract should cover if you are comparing quotes for the first time. Confirm that the specific inverter model being proposed appears on the MNRE ALMM list; a non-ALMM inverter means subsidy rejection regardless of how smooth the rest of the process goes. Check [PM Surya Ghar eligibility requirements](/blog/pm-surya-ghar-eligibility/) if uncertain about which equipment qualifies.
 
 5. **Install, commission, and notify DISCOM for inspection.** The DISCOM engineer visits to verify installation, confirm ALMM equipment, inspect earthing and safety, and arrange bidirectional smart meter installation. This step typically takes 7–20 days from notification.
 

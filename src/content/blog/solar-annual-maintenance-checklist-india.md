@@ -1,7 +1,7 @@
 ---
 title: "Solar System Annual Maintenance Checklist India"
 excerpt: "The complete solar maintenance checklist for India, a 4-season calendar covering pre-monsoon inspection, monsoon care, post-monsoon cleaning, winter tilt, summer inverter check, and year-round inverter health. Protect your 25-year investment."
-description: "Complete solar maintenance checklist India. The 4-Season Solar Maintenance Calendar covers pre-monsoon, monsoon, post-monsoon, winter, and summer tasks. 10-point annual checklist for panels, inverter, MC4 connectors, earthing, and battery."
+description: "Complete solar maintenance checklist India: a 4-season calendar for pre-monsoon, monsoon, post-monsoon, winter, and summer panel and inverter care."
 category: "Maintenance"
 date: 2026-06-05
 readTime: "18 min"
@@ -202,7 +202,7 @@ The [inverter maintenance India guide](/blog/inverter-maintenance-india/) covers
 
 ## When to Call a Professional: Clear Decision Framework
 
-Annual maintenance involves both homeowner-safe tasks and tasks that require qualified electricians. Confusing the two creates either unnecessary call-out costs or genuine safety risks. Homeowners without an existing service relationship can locate a vetted [residential solar EPC near them](https://heavengreenenergy.com/solar-near-me/) for the electrician-only items on this list.
+Annual maintenance involves both homeowner-safe tasks and tasks that require qualified electricians. Confusing the two creates either unnecessary call-out costs or genuine safety risks. Homeowners without an existing service relationship can locate a vetted residential solar EPC near them for the electrician-only items on this list.
 
 **Homeowner-safe tasks (no electrical risk):**
 - Panel cleaning (from ground or ladder with appropriate safety, never on a wet roof)

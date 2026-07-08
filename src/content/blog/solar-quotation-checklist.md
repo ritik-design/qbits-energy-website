@@ -1,7 +1,7 @@
 ---
-title: "Solar System Quotation, 12 Things to Verify Before Signing"
+title: "Solar Quotation Checklist: 12 Things to Verify"
 excerpt: "Use this solar quotation checklist to verify inverter warranty, ALMM compliance, panel wattage, net metering provisions, and after-sales SLA before committing to any installer."
-description: "A 12-point solar quotation checklist for Indian homeowners covering inverter specs, subsidy eligibility, ALMM compliance, wire quality, net metering, and post-installation support."
+description: "A 12-point solar quotation checklist for Indian homeowners: inverter specs, subsidy eligibility, ALMM compliance, wire quality, and net metering checks."
 category: Buying Guide
 date: 2026-06-05
 readTime: "16 min"
@@ -280,14 +280,14 @@ The 12-Point Quote Audit Framework catches specification errors, but there are s
 - **Accepting verbal commitments**: Warranty duration, ALMM status, and SLA response times are meaningless unless they appear in the signed quotation or agreement. Installers who resist putting commitments in writing are signalling that they do not intend to honour them.
 - **Comparing only the headline price per kW**: A ₹55,000/kW quotation with a 12-year inverter warranty, Tier-1 panels, and full net metering support may be cheaper over 10 years than a ₹48,000/kW quote with 5-year warranty and excluded net metering.
 - **Ignoring the inverter brand in favour of the panel brand**: Many homeowners recognise panel brands (Adani, Waaree, Tata) but are unfamiliar with inverter brands. The [how to choose a solar inverter for home](/blog/how-to-choose-solar-inverter-for-home-india/) guide explains why inverter selection is at least as important as panel selection for long-term system performance.
-- **Skipping the site survey step**: A quotation prepared without a physical [site survey](https://heavendesigns.in/site-survey-land-feasibility-services/) (or at minimum a satellite roof measurement) cannot accurately specify the number of panels, cable lengths, or structure type. Always ask whether the installer visited or measured the site before sending numbers.
+- **Skipping the site survey step**: A quotation prepared without a physical site survey (or at minimum a satellite roof measurement) cannot accurately specify the number of panels, cable lengths, or structure type. Always ask whether the installer visited or measured the site before sending numbers.
 - **Not verifying the installer's track record**: Ask for a list of completed residential installations in your city or district from the past 12 months. A legitimate installer will provide references. Check whether those installations have active net metering, it is a reliable proxy for full-service delivery.
 
 Use the [solar inverter specifications decoded guide](/blog/solar-inverter-specifications-decoded/) to cross-check the inverter model number listed in the quotation against its datasheet specifications, particularly efficiency curve, MPPT range, and compliance certifications.
 
 ## Where Qbits Fits
 
-Homeowners who apply the 12-Point Quote Audit Framework frequently find that the inverter line item becomes the most consequential choice in the quotation. Qbits inverters are designed specifically to pass every audit point without negotiation: 12-year full-replacement warranty, IP66 weather protection for India's harshest climates, ALMM-listed across product lines, BIS and IEC certified, and WhatsApp-native AI monitoring included for the full warranty period. Homeowners who would rather hand off the entire process, equipment, wiring, and DISCOM paperwork, to a single accountable party can also compare full [residential solar installation](https://heavengreenenergy.com/residential-solar/) packages rather than assembling the checklist themselves.
+Homeowners who apply the 12-Point Quote Audit Framework frequently find that the inverter line item becomes the most consequential choice in the quotation. Qbits inverters are designed specifically to pass every audit point without negotiation: 12-year full-replacement warranty, IP66 weather protection for India's harshest climates, ALMM-listed across product lines, BIS and IEC certified, and WhatsApp-native AI monitoring included for the full warranty period. Homeowners who would rather hand off the entire process, equipment, wiring, and DISCOM paperwork, to a single accountable party can also compare full residential solar installation packages rather than assembling the checklist themselves.
 
 The [on-grid inverter range](/on-grid-inverter/), TLS and TLD series from 1.5 kW to 50 kW, covers the full residential load spectrum and is subsidy-eligible through the PM Surya Ghar programme. For homeowners who want battery-ready future-proofing, the [hybrid inverter range](/hybrid-inverter/) (HS and HT series) adds reliable backup and battery management without compromising the monitoring or warranty structure.
 

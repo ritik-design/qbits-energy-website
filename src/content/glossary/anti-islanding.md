@@ -154,9 +154,9 @@ The standard test connects the inverter through a resonant RLC load tuned to 50 
 
 ## Real-world applications
 
-[Residential rooftop solar](https://heavengreenenergy.com/residential-solar/). Every grid-tied home solar inverter in India has anti-islanding. It is invisible until a grid outage, when the inverter shuts off automatically.
+Residential rooftop solar. Every grid-tied home solar inverter in India has anti-islanding. It is invisible until a grid outage, when the inverter shuts off automatically.
 
-[Commercial and industrial solar](https://heavengreenenergy.com/commercial-solar/). C&I inverters with multiple [MPPTs](/glossary/mppt/) and three-phase output have the same requirement.
+Commercial and industrial solar. C&I inverters with multiple [MPPTs](/glossary/mppt/) and three-phase output have the same requirement.
 
 Utility-scale solar. [Central inverters](/glossary/central-inverter/) and [string inverters](/glossary/string-inverter/) in solar parks have anti-islanding, although the priority shifts toward fault ride-through and reactive power support.
 

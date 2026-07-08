@@ -1,5 +1,5 @@
 ---
-title: "Best Bank for Solar Loan in India 2026, IREDA vs SBI vs HDFC"
+title: "Best Bank for Solar Loan 2026, IREDA vs SBI vs HDFC"
 excerpt: "Best solar loan in India 2026: IREDA leads on rate (~7%), SBI on accessibility, HDFC on branch network. Compare all six lenders on five factors before applying."
 description: "IREDA vs SBI vs HDFC vs Canara vs Bank of Baroda for solar loans in India 2026. Ranked comparison table, 5-Factor Scorecard, and step-by-step guidance."
 category: Comparison
@@ -218,7 +218,7 @@ Most homeowners who end up with a suboptimal loan make the same few errors:
 - **Not checking subsidy compatibility**: some fintech solar EMI products (buy-now-pay-later schemes) are not compatible with PM Surya Ghar subsidy processing, since the DISCOM requires a formal vendor invoice.
 - **Ignoring tenure impact**: a shorter tenure reduces total interest but increases EMI. If the EMI exceeds monthly electricity savings, the solar system is cash-flow negative until the loan is paid off.
 - **Not accounting for prepayment**: the PM Surya Ghar subsidy is credited 30–90 days post-installation. Most lenders allow lump-sum prepayment. Plan for this explicitly in your loan structure.
-- **Choosing an unempanelled vendor to save ₹5,000 on system cost**: this blocks access to IREDA rates and PM Surya Ghar subsidy. The savings evaporate against the rate penalty. Comparing quotes from established [solar EPC and turnkey installation](https://heavengreenenergy.com/solar-epc/) providers, who are typically already empanelled, avoids this trap entirely.
+- **Choosing an unempanelled vendor to save ₹5,000 on system cost**: this blocks access to IREDA rates and PM Surya Ghar subsidy. The savings evaporate against the rate penalty. Comparing quotes from established solar EPC and turnkey installation providers, who are typically already empanelled, avoids this trap entirely.
 
 For a broader comparison of all financing options including RESCO and zero-cost models, read the [inverter financing options in India](/blog/inverter-financing-options-in-india/) overview.
 

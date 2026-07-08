@@ -172,7 +172,7 @@ False north reference from old building drawings.
 
 ## Best practices
 
-Use GPS or a [surveying tool](https://heavendesigns.in/site-survey-land-feasibility-services/) for orientation when accuracy matters.
+Use GPS or a surveying tool for orientation when accuracy matters.
 
 Apply magnetic declination correction if compass-based.
 

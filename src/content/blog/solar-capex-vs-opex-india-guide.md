@@ -1,7 +1,7 @@
 ---
-title: "Solar CAPEX vs OPEX, The C&I Buyer Decision Guide India"
+title: "Solar CAPEX vs OPEX: The C&I Buyer Decision Guide"
 excerpt: "Solar CAPEX vs OPEX India: own the system (CAPEX) for 18–25% IRR or use RESCO/OPEX for zero upfront and 20–35% lower bills. The 4-Question Test reveals which model wins for your site."
-description: "When CAPEX beats OPEX and when OPEX wins for C&I solar in India. Decision matrix, IRR comparison, and the 4-Question CAPEX vs OPEX Test for factories, offices, and institutions."
+description: "When CAPEX beats OPEX for C&I solar in India: decision matrix, IRR comparison, and the 4-Question Test for factories, offices, and institutions."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -210,6 +210,6 @@ For factories, warehouses, schools, and commercial buildings that have answered 
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for C&I buyers who want battery backup for essential loads.
 - **[Authorised Service Partners](/authorized-service-partners/)**: nationwide service network for the full 12-year warranty period.
 
-For factories and commercial buildings that need engineering drawings and structural sign-off before a CAPEX installation begins, [Heaven Designs' solar civil and structural engineering service](https://heavendesigns.in/solar-civil-and-structural-engineering/) covers the rooftop load and staad-pro calculations most lenders and municipal authorities require.
+For factories and commercial buildings that need engineering drawings and structural sign-off before a CAPEX installation begins, Heaven Designs' solar civil and structural engineering service covers the rooftop load and staad-pro calculations most lenders and municipal authorities require.
 
 [Request a commercial site assessment](/contact-us/), Qbits engineers can model the CAPEX IRR for your specific site, load profile, and tariff, and compare it against the OPEX scenario in a single structured proposal.

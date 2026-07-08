@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter for AC Load, Sizing Math and SKU Picks"
+title: "Solar Inverter for AC Load, Sizing and SKU Picks"
 excerpt: "A solar inverter for AC load must handle inrush current, not just running watts. Learn the tonnage-to-kW formula, hybrid vs on-grid choice, and right-sized Qbits SKUs."
-description: "Size a solar inverter for air conditioner loads in India, tonnage to kW conversion, starting current, hybrid vs on-grid for backup, and Qbits SKU recommendations."
+description: "Size a solar inverter for AC loads in India: tonnage to kW conversion, starting current, hybrid vs on-grid backup, and recommended Qbits SKUs."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -37,7 +37,7 @@ faqs:
     a: "Two 1.5-ton inverter ACs running simultaneously draw roughly 3 kW, with startup surges reaching 6–8 kW if both start at once. Add 1–2 kW for fans, lights, and a refrigerator and you reach a peak demand of 8–10 kW. The Qbits HS 10 kW hybrid inverter covers this load with headroom, provides battery-backed AC operation during power cuts, and includes AI WhatsApp monitoring to track consumption per phase - a strong fit for a 3–4 BHK home in any Indian city."
 ---
 
-Air conditioning consumes more than 40% of the electricity bill in a typical Indian 3-BHK home during summer months, according to the [Bureau of Energy Efficiency Annual Report](https://beeindia.gov.in/en/annual-report) (BEE, 2025). Households evaluating a full [residential solar installation](https://heavengreenenergy.com/residential-solar/) rather than a standalone inverter swap should factor AC load into the system design from day one, since it typically dominates the home's peak demand. When a homeowner decides to go solar, the first question is almost always: can the solar system actually run my ACs, and if so, how big does the inverter need to be? The short answer involves more than multiplying the tonnage by a conversion factor. Starting current, power factor, daytime-versus-night-time operation, and the on-grid-versus-hybrid choice all shape the final system design. This guide walks through each variable, gives real sizing examples for 1.5-ton and 2-ton units, and maps the right Qbits SKU to each scenario.
+Air conditioning consumes more than 40% of the electricity bill in a typical Indian 3-BHK home during summer months, according to the [Bureau of Energy Efficiency Annual Report](https://beeindia.gov.in/en/annual-report) (BEE, 2025). Households evaluating a full residential solar installation rather than a standalone inverter swap should factor AC load into the system design from day one, since it typically dominates the home's peak demand. When a homeowner decides to go solar, the first question is almost always: can the solar system actually run my ACs, and if so, how big does the inverter need to be? The short answer involves more than multiplying the tonnage by a conversion factor. Starting current, power factor, daytime-versus-night-time operation, and the on-grid-versus-hybrid choice all shape the final system design. This guide walks through each variable, gives real sizing examples for 1.5-ton and 2-ton units, and maps the right Qbits SKU to each scenario.
 
 > **TL;DR**
 > - Size an inverter for AC load by inrush current, not running watts: a 1.5-ton AC surges to 4.5–5.75 kW at start-up even though it only runs at 1.4–1.6 kW.

@@ -1,7 +1,7 @@
 ---
-title: "Essential vs Advanced Solar Inverter Features India: Complete Buyer's Guide 2026"
+title: "Essential vs Advanced Solar Inverter Features"
 excerpt: "Which inverter features are legally and operationally non-negotiable, and which advanced features deliver real ROI? Here is the complete comparison framework Indian EPCs and homeowners use to specify inverters in 2026 - feature-by-feature, with the actual rupee impact of each advanced capability."
-description: "Complete comparison of essential vs advanced solar inverter features for Indian projects: efficiency, weather protection, AI monitoring, IP66, DC oversizing, 12-year warranties, integrated SPDs, low start-up voltage, quiet operation. Project-type matching and budget-constrained selection guidance."
+description: "Comparison of essential vs advanced solar inverter features: efficiency, weather protection, AI monitoring, IP66, DC oversizing, and warranties for India."
 category: "Buying Guide"
 date: 2026-05-07
 updatedDate: 2026-07-08

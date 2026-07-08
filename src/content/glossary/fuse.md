@@ -209,7 +209,7 @@ Residential rooftop systems with 1 or 2 strings often omit fuses since reverse c
 
 C&I rooftop systems with 3 or more parallel strings typically include fuse protection.
 
-BIS certification under IS 13703 for low voltage fuses. Installers sourcing pre-wired [DCDB and ACDB enclosures with integrated fuse protection](https://heavengreenenergy.com/products/acdb-dcdb/) can skip building combiner assemblies from scratch on site.
+BIS certification under IS 13703 for low voltage fuses. Installers sourcing pre-wired DCDB and ACDB enclosures with integrated fuse protection can skip building combiner assemblies from scratch on site.
 
 ## Standards and certifications
 

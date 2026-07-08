@@ -1,6 +1,7 @@
 ---
-title: "What Is Solar Energy, Complete Beginner's Guide for India"
+title: "What Is Solar Energy, Beginner's Guide for India"
 excerpt: "What is solar energy? It is electricity generated from sunlight using photovoltaic cells. India gets 300 sunny days a year, making solar one of the smartest investments for homeowners."
+description: "What is solar energy? Electricity generated from sunlight via photovoltaic cells. With 300 sunny days a year, it's one of India's smartest investments."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -177,9 +178,9 @@ A beginner's guide is incomplete without addressing the limitations that sales p
 
 - **Solar does not power your home at night (on-grid)**: Without a battery, your panels produce zero output after sunset. You draw from the grid exactly as before, but your net meter credit offsets those units.
 - **Panel output degrades over time**: Quality panels [degrade](/glossary/degradation/) at 0.5–0.7% per year. After 25 years, output is 85–90% of the original. This is accounted for in the manufacturer's linear power warranty.
-- **Roof area is a limiting factor**: Each kW of solar requires roughly 8–10 sq ft of shadow-free roof area. A 3 kW system needs approximately 24–30 sq ft of usable south- or west-facing roof space, a figure worth confirming with a proper [site survey](https://heavendesigns.in/site-survey-land-feasibility-services/) rather than a rough measurement.
+- **Roof area is a limiting factor**: Each kW of solar requires roughly 8–10 sq ft of shadow-free roof area. A 3 kW system needs approximately 24–30 sq ft of usable south- or west-facing roof space, a figure worth confirming with a proper site survey rather than a rough measurement.
 - **DISCOM approval takes time**: Net metering approval from your state DISCOM can take 15 days to 3 months depending on the state. Kerala is notoriously slow; Gujarat and Maharashtra are faster.
-- **Not all installers are equal**: A poorly installed system with undersized DC cables, improperly matched strings, or an uncertified inverter can underperform by 15–25% and void warranties. The [ALMM list](/blog/almm-list-phase-iii-guide/) is the government's quality filter; insist on ALMM-listed equipment installed by a vetted [local solar installer](https://heavengreenenergy.com/solar-near-me/).
+- **Not all installers are equal**: A poorly installed system with undersized DC cables, improperly matched strings, or an uncertified inverter can underperform by 15–25% and void warranties. The [ALMM list](/blog/almm-list-phase-iii-guide/) is the government's quality filter; insist on ALMM-listed equipment installed by a vetted local solar installer.
 
 ## Common Beginner Myths About Solar Energy in India
 
@@ -204,4 +205,4 @@ Three pages worth bookmarking as you move from understanding to buying:
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with integrated battery management and automatic backup switching.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Enter your panel model and roof details; the tool confirms the right inverter size and string configuration in 60 seconds.
 
-When you are ready to move from reading to quoting, [talk to a Qbits engineer](/contact-us/), most homeowners get a detailed site proposal within 24 hours, or start with a turnkey [residential solar installation](https://heavengreenenergy.com/residential-solar/) provider if you also need help with mounting and commissioning. The next step in the learning journey is the [PM Surya Ghar Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/), which explains exactly how to claim the central government subsidy and navigate the DISCOM registration process.
+When you are ready to move from reading to quoting, [talk to a Qbits engineer](/contact-us/), most homeowners get a detailed site proposal within 24 hours, or start with a turnkey residential solar installation provider if you also need help with mounting and commissioning. The next step in the learning journey is the [PM Surya Ghar Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/), which explains exactly how to claim the central government subsidy and navigate the DISCOM registration process.

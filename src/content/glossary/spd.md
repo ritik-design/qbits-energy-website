@@ -155,7 +155,7 @@ Solar inverter AC output protection.
 
 [Combiner box](/glossary/combiner-box/) on utility plants.
 
-[Distribution panel](https://heavengreenenergy.com/products/acdb-dcdb/) at building entry.
+Distribution panel at building entry.
 
 Telecom tower equipment protection.
 
@@ -203,7 +203,7 @@ Use a back-up [fuse](/glossary/fuse/) to disconnect a failed SPD.
 
 ## Indian market context
 
-Major Indian SPD brands include Phoenix Contact, ABB, Schneider Electric, Siemens, Havells, OBO, Citel, DEHN and Mersen, most of which are stocked through EPC channels like [Heaven Green Energy's equipment shop](https://heavengreenenergy.com/shop/).
+Major Indian SPD brands include Phoenix Contact, ABB, Schneider Electric, Siemens, Havells, OBO, Citel, DEHN and Mersen, most of which are stocked through EPC channels like Heaven Green Energy's equipment shop.
 
 ALMM does not list SPDs. BIS certification under IS 16480 applies.
 

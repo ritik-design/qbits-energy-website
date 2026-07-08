@@ -1,7 +1,7 @@
 ---
-title: "ALMM List Phase III, Complete Guide for Buyers and EPCs 2026"
+title: "ALMM List Phase III Guide for Buyers and EPCs 2026"
 excerpt: "The ALMM list determines which inverters qualify for PM Surya Ghar subsidy. This 2026 guide covers Phase III scope, how EPCs check compliance, and what happens when a product gets delisted."
-description: "Complete EPC guide to ALMM Phase III: what it covers, how to verify inverter and BOS compliance before quoting, tender implications, and the 5-check compliance checklist."
+description: "EPC guide to ALMM Phase III: what it covers, how to verify inverter and BOS compliance before quoting, tender implications, and a 5-check checklist."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -146,7 +146,7 @@ Three practical obligations follow from this language:
 
 - **Substitution provisions**: Many multi-year government contracts include provisions for product substitution if an approved product is discontinued or delisted. Understand these provisions before signing. They typically require MNRE-notified alternatives of equivalent or superior specification, and the substitution must be approved by the tendering authority before procurement.
 
-For EPC teams managing multiple concurrent government project contracts, a formal ALMM compliance register (tracking which projects use which listed products, with ALMM verification dates and responsible team members) is not an administrative luxury. It is the minimum documentation standard that DISCOMs and government auditors expect to see. Larger EPCs running MW-scale tender portfolios across multiple sites often pair this register with dedicated [MW-scale EPC project management consultancy](https://heavendesigns.in/mw-scale-project-management-consultancy/) to keep compliance, procurement, and site scheduling synchronised.
+For EPC teams managing multiple concurrent government project contracts, a formal ALMM compliance register (tracking which projects use which listed products, with ALMM verification dates and responsible team members) is not an administrative luxury. It is the minimum documentation standard that DISCOMs and government auditors expect to see. Larger EPCs running MW-scale tender portfolios across multiple sites often pair this register with dedicated MW-scale EPC project management consultancy to keep compliance, procurement, and site scheduling synchronised.
 
 The [solar EPC India](/blog/solar-epc-india/) post covers broader EPC business operations, and the [inverter procurement guide](/blog/inverter-procurement-india/) addresses the full procurement framework for inverter selection beyond ALMM, including warranty evaluation and supply chain risk assessment.
 

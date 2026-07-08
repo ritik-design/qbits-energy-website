@@ -1,5 +1,5 @@
 ---
-title: "Aurora vs HelioScope 2026: Honest Comparison + SurgePV"
+title: "Aurora vs HelioScope 2026: Honest Comparison"
 excerpt: "Aurora vs HelioScope is the classic US solar design software debate. Aurora wins on residential, HelioScope wins on engineering. Here is the honest comparison and the option neither user usually considers."
 description: "Aurora vs HelioScope in 2026: pricing, 8,760-hour shading, AI, proposals compared. Plus the SurgePV all-in-one option at lower cost. Book a demo."
 category: "Solar Software"
@@ -76,7 +76,7 @@ HelioScope is the stronger choice for engineering-led teams. The simulation engi
 - **[AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design)** from satellite, no drone or site visit
 - **[Clara AI](https://surgepv.com/clara-ai)** natural-language design assistant
 - **[Solar financial modeling](https://surgepv.com/generation-financial-tool)** with multi-country tariffs
-- **[DXF/DWG export](https://surgepv.com/solar-autocad-integration)** for AutoCAD handoff, useful when you route [detailed electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) to a specialist engineering partner
+- **[DXF/DWG export](https://surgepv.com/solar-autocad-integration)** for AutoCAD handoff, useful when you route detailed electrical drawings to a specialist engineering partner
 - **[QuickEstimate](https://quickestimate.co/)** as the sister CRM via API
 
 All at flat $1,299 to $1,899 per user per year.
@@ -113,7 +113,7 @@ For the same math applied to every major platform, see our [solar design softwar
 - **Choose HelioScope** if your team is engineering-only and someone else handles sales and proposals.
 - **Choose SurgePV** if you want both, or if you operate across more than one country, or if you want flat per-seat pricing without add-on creep.
 
-For most teams in 2026, the third option is the answer. For pure utility-scale terrain optimisation neither tool covers well, see our [PVcase alternative](/blog/pvcase-alternative/) and [RatedPower alternative](/blog/ratedpower-alternative/) guides, or browse the full [best solar design software ranking](/blog/best-solar-design-software/) for every segment.
+For most teams in 2026, the third option is the answer. For pure utility-scale terrain optimisation neither tool covers well, see our [PVcase alternative](/blog/pvcase-alternative/) and [RatedPower alternative](/blog/ratedpower-alternative/) guides, or browse the full [best solar design software ranking](/blog/best-solar-design-software/) for every segment. Once the shading and string layout are locked in either tool, matching them to an [on-grid](/on-grid-inverter/) or [hybrid inverter](/hybrid-inverter/) still happens outside the design software, and Qbits' [C&I solution](/c-i-solution/) team can confirm the fit for larger commercial arrays.
 
 <div class="inline-cta">
 <h3>Ready to skip the both-versus-either debate?</h3>

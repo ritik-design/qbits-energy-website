@@ -1,7 +1,7 @@
 ---
-title: "Prepping Your Solar System for the Indian Monsoon, Complete Checklist"
+title: "Monsoon Solar Prep: Complete Checklist for India"
 excerpt: "Monsoon solar prep done right protects generation, safety, and warranties. This 10-point checklist covers panels, IP ratings, earthing, SPDs, and monitoring before June rains hit."
-description: "A complete pre-monsoon checklist for Indian solar system owners, panel inspection, inverter IP rating, earthing, SPD testing, MC4 waterproofing, and monitoring setup."
+description: "A complete pre-monsoon checklist for Indian solar owners: panel inspection, inverter IP rating, earthing, SPD testing, and MC4 waterproofing."
 category: Maintenance
 date: 2026-06-05
 readTime: "28 min"
@@ -104,7 +104,7 @@ Locate the nameplate on your inverter (usually a metal or printed label on the h
 - **Covered outdoor area (balcony soffit, shed roof, verandah ceiling)**: IP65 minimum, IP66 recommended.
 - **Exposed outdoor wall or rooftop enclosure**: IP66 mandatory.
 
-If you find an IP21 or IP44 inverter mounted in a location that receives driving rain or is within a metre of an opening to the outside, this is a priority-one corrective action before monsoon, not after. Water ingress into terminal blocks creates slow corrosion paths that cause ground faults weeks after the event, and the failure signature (intermittent earth fault alarms, gradually rising leakage current) is easily misread. Relocating an inverter or adding a weather enclosure is installation work best handled by an established [residential solar EPC](https://heavengreenenergy.com/residential-solar/) rather than attempted as a DIY fix.
+If you find an IP21 or IP44 inverter mounted in a location that receives driving rain or is within a metre of an opening to the outside, this is a priority-one corrective action before monsoon, not after. Water ingress into terminal blocks creates slow corrosion paths that cause ground faults weeks after the event, and the failure signature (intermittent earth fault alarms, gradually rising leakage current) is easily misread. Relocating an inverter or adding a weather enclosure is installation work best handled by an established residential solar EPC rather than attempted as a DIY fix.
 
 Qbits on-grid (TLS, TLD series) and hybrid (HS, HT series) inverters carry IP66 ratings as standard, which is why they can be mounted on exposed exterior walls without a separate weather enclosure. The [IP66 climate survival guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) details the specific IEC 60529 test conditions behind that rating if you want to understand what "powerful water jets" means in engineering terms.
 
@@ -124,7 +124,7 @@ Both must be intact before monsoon, because lightning-induced transients look fo
 
 A standard multimeter in continuity mode is sufficient for the frame and chassis checks. Set the probes between two points; if the resistance reads above 1 Ω or the continuity beeper does not sound, trace the bond back to find the broken or corroded link.
 
-The earth electrode test is more involved, it requires an earth resistance tester (also called a Megger or earth tester) to measure actual electrode resistance. For residential systems, the electrode resistance should not exceed 10 Ω per IS 3043; ideally below 5 Ω. The [IEC 60364-5-54](https://www.iec.ch/) standard defines acceptable earthing conductor sizes and electrode configurations for low-voltage electrical installations, the same framework Indian standards reference. If you do not own an earth tester, this is a task for your EPC or a licensed electrician, the underlying [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/) prepared at commissioning are the reference document a technician should be checking the as-built earthing layout against. The [solar inverter grounding](/blog/solar-inverter-grounding/) article covers the IS 3043 requirements in detail, including the difference between rod electrodes, plate electrodes, and grid electrodes for different soil conditions.
+The earth electrode test is more involved, it requires an earth resistance tester (also called a Megger or earth tester) to measure actual electrode resistance. For residential systems, the electrode resistance should not exceed 10 Ω per IS 3043; ideally below 5 Ω. The [IEC 60364-5-54](https://www.iec.ch/) standard defines acceptable earthing conductor sizes and electrode configurations for low-voltage electrical installations, the same framework Indian standards reference. If you do not own an earth tester, this is a task for your EPC or a licensed electrician, the underlying electrical and CEIG drawings prepared at commissioning are the reference document a technician should be checking the as-built earthing layout against. The [solar inverter grounding](/blog/solar-inverter-grounding/) article covers the IS 3043 requirements in detail, including the difference between rod electrodes, plate electrodes, and grid electrodes for different soil conditions.
 
 > Monsoon is actually the best time to test earth resistance, wet soil has lower resistivity, so a reading during June/July represents a favourable condition. If resistance is high even when the soil is wet, it will be significantly worse in the dry season.
 
@@ -261,7 +261,7 @@ Work systematically from the roof surface upward:
 | Frame member | Visual corrosion inspection | No exposed bare steel |
 | Fastener material | Check for galvanic pairs | No white or orange powder at contact points |
 
-A frame that passes this check will handle typical monsoon gusts (60–80 km/h) without issue. A frame that fails on any criterion should be corrected before the first monsoon storm, not scheduled for the post-monsoon season. For larger arrays, the wind-load calculations behind the original rail spacing and anchor spec typically come from a [structural and civil engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) review done at design time, that document is worth pulling out when deciding whether an observed issue is cosmetic or structural.
+A frame that passes this check will handle typical monsoon gusts (60–80 km/h) without issue. A frame that fails on any criterion should be corrected before the first monsoon storm, not scheduled for the post-monsoon season. For larger arrays, the wind-load calculations behind the original rail spacing and anchor spec typically come from a structural and civil engineering review done at design time, that document is worth pulling out when deciding whether an observed issue is cosmetic or structural.
 
 ## How to Prioritise If You Cannot Do Everything at Once
 

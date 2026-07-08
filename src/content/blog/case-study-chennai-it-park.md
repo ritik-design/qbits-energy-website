@@ -1,7 +1,7 @@
 ---
 title: "Case Study, 200 kW Solar at a Chennai IT Park"
 excerpt: "How a Chennai IT park installed 200 kW of rooftop solar to cut power costs, meet ESG targets, and navigate TANGEDCO's net metering process for HT commercial connections."
-description: "Detailed case study of a 200 kW rooftop solar installation at a Chennai IT park: load profile analysis, TANGEDCO HT net metering, power quality management, ESG reporting integration, and 20-year financial model."
+description: "How a Chennai IT park sized a 200 kW rooftop solar system: load profile analysis, TANGEDCO HT net metering, power quality, and a 20-year financial model."
 category: "Case Study"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -105,7 +105,7 @@ The 200 kW system uses four 50 kW three-phase on-grid inverters in a distributed
 - String monitoring dongles for each inverter for remote diagnostics
 
 **Earthing system:**
-Separate GI earth electrode array for the PV system, bonded to the facility's existing [earthing](/glossary/earthing/) system per IS 3043. For coastal Chennai, earthing resistance target was below 2Ω - achieved with deep-driven copper-clad rods and chemical earthing compound. The rooftop mounting layout itself was verified against local wind-load requirements as part of the project's [structural engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) sign-off.
+Separate GI earth electrode array for the PV system, bonded to the facility's existing [earthing](/glossary/earthing/) system per IS 3043. For coastal Chennai, earthing resistance target was below 2Ω - achieved with deep-driven copper-clad rods and chemical earthing compound. The rooftop mounting layout itself was verified against local wind-load requirements as part of the project's structural engineering sign-off.
 
 ## TANGEDCO HT Net Metering: The Approval Process
 
@@ -238,7 +238,7 @@ The facility management team uses the monitoring data (available through the inv
 
 **4. Do not add batteries for power quality.** If the facility already has double-conversion UPS, adding a battery system to the solar installation does not improve power quality. The UPS already provides this. Battery additions for commercial IT parks are justified only for grid-outage resilience, not power quality.
 
-**5. Get drawings TANGEDCO-ready before submission.** Engage a Tamil Nadu Electrical Licensing Board-registered electrical consultant for DPR and [protection relay panel drawings](https://heavendesigns.in/electrical-ceig-drawings/). TANGEDCO rejections for format issues are the most common delay cause in HT approvals.
+**5. Get drawings TANGEDCO-ready before submission.** Engage a Tamil Nadu Electrical Licensing Board-registered electrical consultant for DPR and protection relay panel drawings. TANGEDCO rejections for format issues are the most common delay cause in HT approvals.
 
 ## Where Qbits Fits
 
@@ -250,4 +250,4 @@ Qbits' TLD three-phase on-grid inverters were selected for this installation bas
 - **[Solar IRR and Payback Guide for C&I](/blog/solar-irr-payback-ci-india/)**: the full 20-year financial model framework for commercial solar decisions.
 - **[How to Evaluate Solar EPC Bids](/blog/how-to-evaluate-solar-epc-bids/)**: 15-criteria checklist for commercial procurement teams.
 
-For IT parks, hospitals, educational institutions, or other 24/7 commercial facilities considering rooftop solar, [talk to a Qbits engineer](/contact-us/), our commercial team can develop a site-specific generation estimate, HT net metering strategy, and financial model within 5 working days. Facilities that also need a turnkey installation partner beyond equipment supply can evaluate [commercial solar installation](https://heavengreenenergy.com/commercial-solar/) services for end-to-end EPC delivery.
+For IT parks, hospitals, educational institutions, or other 24/7 commercial facilities considering rooftop solar, [talk to a Qbits engineer](/contact-us/), our commercial team can develop a site-specific generation estimate, HT net metering strategy, and financial model within 5 working days. Facilities that also need a turnkey installation partner beyond equipment supply can evaluate commercial solar installation services for end-to-end EPC delivery.

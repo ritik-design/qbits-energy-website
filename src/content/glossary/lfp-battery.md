@@ -161,7 +161,7 @@ Telecom towers. 5 to 50 kWh LFP packs replacing lead acid, cutting diesel use.
 
 Small commercial backup. 15 to 100 kWh packs for shops, clinics, schools.
 
-C&I peak shaving. 100 kWh to 1 MWh packs for demand charge management, typically specified alongside a [commercial solar installation](https://heavengreenenergy.com/commercial-solar/); SurgePV's [battery and energy storage sizing guide](https://surgepv.com/hub/energy-storage/battery-sizing/) covers the load-profile math EPCs use to size these banks.
+C&I peak shaving. 100 kWh to 1 MWh packs for demand charge management, typically specified alongside a commercial solar installation; SurgePV's [battery and energy storage sizing guide](https://surgepv.com/hub/energy-storage/battery-sizing/) covers the load-profile math EPCs use to size these banks.
 
 Utility frequency regulation. Multi-megawatt LFP packs participating in ancillary services.
 

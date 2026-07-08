@@ -160,7 +160,7 @@ Delamination in humid environments.
 
 ## Best practices
 
-Specify Tedlar/Kynar (PVDF) or glass-glass for premium installations, a decision typically locked in during [detailed rooftop engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) rather than left to the installer on site.
+Specify Tedlar/Kynar (PVDF) or glass-glass for premium installations, a decision typically locked in during detailed rooftop engineering design rather than left to the installer on site.
 
 Verify IEC 61730 fire rating.
 
@@ -176,7 +176,7 @@ Glass-glass bifacial growing share.
 
 ALMM-listed modules meet [IEC 61215](/glossary/iec-61215/) and 61730 requirements, a status buyers should confirm against the current [ALMM List Phase III](/blog/almm-list-phase-iii-guide/) before ordering.
 
-[PM Surya Ghar](/blog/pm-surya-ghar-yojana-complete-guide/) requires ALMM-listed modules with appropriate back sheet, whether the installation is a small residential rooftop or a larger [EPC-managed installation](https://heavengreenenergy.com/solar-epc/).
+[PM Surya Ghar](/blog/pm-surya-ghar-yojana-complete-guide/) requires ALMM-listed modules with appropriate back sheet, whether the installation is a small residential rooftop or a larger EPC-managed installation.
 
 ## Standards and certifications
 

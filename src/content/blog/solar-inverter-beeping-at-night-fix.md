@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Beeping at Night, Causes and Fix"
 excerpt: "Solar inverter beeping at night? Decode every alarm: battery low SOC, grid disconnect, overtemperature, and fault log alerts. Find the cause and silence it safely."
-description: "Why is your solar inverter beeping at night? Diagnose battery low SOC alarms, grid disconnect alerts, temperature faults, and alarm code lookup for India. Fix guide inside."
+description: "Why is your solar inverter beeping at night? Diagnose battery low SOC alarms, grid disconnect alerts, and temperature faults, plus how to fix it."
 category: "Maintenance"
 date: 2026-06-05
 readTime: "10 min"
@@ -122,7 +122,7 @@ Night-time over-temperature alarms are more common in:
 
 **How to identify:** Check the inverter temperature reading in the monitoring app at the time of the alarm. If it is above 60 °C several hours after solar generation stopped, the cooling is inadequate. The [IEA's India Energy Outlook report](https://www.iea.org/){target="_blank" rel="noopener"} notes that Indian residential solar installations face among the most demanding ambient temperature conditions globally, with summer night temperatures in Rajasthan, Gujarat, and Maharashtra regularly exceeding 30 °C, a baseline that leaves very little thermal headroom for poorly ventilated inverters. The [Bureau of Indian Standards (BIS)](https://bis.gov.in/){target="_blank" rel="noopener"} product certification for inverters used under the PM Surya Ghar programme includes thermal performance testing at 45 °C ambient, systems running at or above this ambient temperature require particularly good installation ventilation.
 
-**Fix:** Clean cooling vents (a very common root cause), ensure adequate clearance around the unit, and consider whether the installation location can be improved, this placement decision is best made at the [detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) stage for new installations rather than retrofitted after the inverter is already mounted. For immediate relief, a small external fan directing air across the inverter vents can temporarily resolve nighttime over-temperature while a permanent solution is planned. The broader relationship between ambient heat and output loss is covered in the [solar inverter summer derating guide](/blog/solar-inverter-summer-derating-india/).
+**Fix:** Clean cooling vents (a very common root cause), ensure adequate clearance around the unit, and consider whether the installation location can be improved, this placement decision is best made at the detailed engineering design stage for new installations rather than retrofitted after the inverter is already mounted. For immediate relief, a small external fan directing air across the inverter vents can temporarily resolve nighttime over-temperature while a permanent solution is planned. The broader relationship between ambient heat and output loss is covered in the [solar inverter summer derating guide](/blog/solar-inverter-summer-derating-india/).
 
 ## Cause 4: Fault Log Alarm
 

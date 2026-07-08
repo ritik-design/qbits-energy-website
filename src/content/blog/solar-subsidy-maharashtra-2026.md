@@ -1,7 +1,7 @@
 ---
-title: "Solar Subsidy in Maharashtra 2026, MEDA + Central Combined"
+title: "Solar Subsidy in Maharashtra 2026, MEDA+Central"
 excerpt: "Solar subsidy in Maharashtra stacks PM Surya Ghar (up to ₹78,000) with MEDA state incentives. Full guide: DISCOMs, net metering, and payback worked example."
-description: "Maharashtra solar subsidy 2026: PM Surya Ghar central subsidy + MEDA state scheme + MSEDCL net metering. Full guide with worked example, DISCOM comparisons, and step-by-step process."
+description: "Maharashtra solar subsidy 2026: PM Surya Ghar central subsidy plus MEDA state scheme and MSEDCL net metering, with a worked example and DISCOM comparison."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -216,7 +216,7 @@ After the 4.2 to 4.8 year payback window, the system generates pure financial su
 
 Maharashtra has a large agricultural economy, and the PM Surya Ghar scheme (which targets residential rooftops) is entirely separate from the KUSUM (Kisan Urja Suraksha evam Utthaan Mahabhiyan) scheme for farmers.
 
-The [KUSUM](/glossary/kusum/) scheme's Component B covers [standalone solar-powered agricultural pump sets](https://heavengreenenergy.com/drebp-pm-kusum/). In Maharashtra, KUSUM is implemented through MEDA and MSEDCL jointly. Eligible farmers receive:
+The [KUSUM](/glossary/kusum/) scheme's Component B covers standalone solar-powered agricultural pump sets. In Maharashtra, KUSUM is implemented through MEDA and MSEDCL jointly. Eligible farmers receive:
 
 - **30% central government subsidy** (MNRE)
 - **30% Maharashtra state subsidy** (MEDA/state budget)
@@ -258,7 +258,7 @@ Installers and consumers who have navigated the Maharashtra solar subsidy proces
 - **Installing before DISCOM feasibility approval**: the PM Surya Ghar portal requires a valid feasibility letter before the commissioning report is accepted. Systems installed without prior approval are ineligible for the central subsidy regardless of equipment quality.
 - **Using a non-ALMM inverter**: even a technically sound inverter from a reputable brand will fail MSEDCL's commissioning inspection if it is not on the MNRE ALMM list. Verify every proposed inverter model at [mnre.gov.in](https://mnre.gov.in/) before signing any installation contract.
 - **Applying to MEDA after MSEDCL has already processed the commissioning**: some applicants forget to file the MEDA application simultaneously with the commissioning process. MEDA applications should be submitted at Step 4 (installation complete, commissioning pending) rather than after commissioning.
-- **Choosing a non-empanelled installer**: MSEDCL maintains its own [empanelled vendor list](https://heavengreenenergy.com/solar-near-me/) which sometimes differs from the national portal's empanelled list. Confirm your installer is on both.
+- **Choosing a non-empanelled installer**: MSEDCL maintains its own empanelled vendor list which sometimes differs from the national portal's empanelled list. Confirm your installer is on both.
 - **Ignoring the sanctioned load**: if your proposed solar system capacity exceeds your sanctioned load, MSEDCL will reject the feasibility application. Check your bill for "sanctioned load" or "contracted demand" before sizing the system.
 - **Not linking Aadhaar to the bank account**: PM Surya Ghar subsidy is disbursed via DBT (Direct Benefit Transfer) to the Aadhaar-linked bank account. If Aadhaar is not seeded with your bank account, the transfer fails silently.
 

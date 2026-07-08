@@ -1,7 +1,7 @@
 ---
 title: "Case Study, 100 kW Solar at a Tirupur Textile Mill"
 excerpt: "A Tirupur textile processing unit replaced ₹12–13 Lakh of annual TANGEDCO bills with a 100 kW Qbits on-grid solar system, full payback in 4.5 years."
-description: "How a Tirupur textile mill sized, installed, and optimised a 100 kW on-grid solar system with Qbits inverters, energy audit, system design, THD compliance, ALMM net metering, and financial outcomes."
+description: "How a Tirupur textile mill sized and installed a 100 kW on-grid solar system with Qbits inverters: energy audit, THD compliance, and ALMM net metering."
 category: "Case Study"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -49,7 +49,7 @@ The power cut arrived on a Tuesday afternoon (always a Tuesday, it seems) and th
 
 > **Direct answer.** A 100 kW on-grid solar system at a Tirupur textile processing unit generating approximately 165,000 kWh per year at ₹7.5–8.5 per unit saves ₹12–13 Lakh annually against TANGEDCO commercial tariffs. With a total installed cost of ₹55–60 Lakh, the simple payback period is 4.5 years. The Qbits C&I Solar Deployment Framework (covering energy audit, system sizing, THD compliance, ALMM approval, and live monitoring) is the structured process that gets these numbers from projection to reality.
 
-The textile cluster around Tirupur is one of India's most energy-intensive manufacturing zones, producing over 90% of India's knitwear exports and consuming electricity at the rate of a small city. For factory owners and procurement managers in this environment, [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) is not an ideological choice, it is a tariff-arbitrage decision made on spreadsheets. This post works through that spreadsheet, section by section, using industry-accurate data.
+The textile cluster around Tirupur is one of India's most energy-intensive manufacturing zones, producing over 90% of India's knitwear exports and consuming electricity at the rate of a small city. For factory owners and procurement managers in this environment, industrial solar installation is not an ideological choice, it is a tariff-arbitrage decision made on spreadsheets. This post works through that spreadsheet, section by section, using industry-accurate data.
 
 ## Step 1: Energy Audit: What the Mill Actually Consumes
 
@@ -206,7 +206,7 @@ The Tamil Nadu net-metering process for C&I systems above 10 kW involves:
 
 ### Stage 1: Application to TANGEDCO
 
-The applicant submits a net-metering application with: a [single-line diagram](https://heavendesigns.in/electrical-ceig-drawings/), inverter and module specifications, ALMM certificate numbers, a [structural load calculation](https://heavendesigns.in/solar-civil-and-structural-engineering/), and the EPC contractor's CEA licence. The [ALMM list](/glossary/almm-list/) maintained by MNRE is the gating document, if the inverter model is not listed, TANGEDCO rejects the application outright.
+The applicant submits a net-metering application with: a single-line diagram, inverter and module specifications, ALMM certificate numbers, a structural load calculation, and the EPC contractor's CEA licence. The [ALMM list](/glossary/almm-list/) maintained by MNRE is the gating document, if the inverter model is not listed, TANGEDCO rejects the application outright.
 
 Qbits inverters are ALMM Phase III listed. The certificate number appears on the product label and in the MNRE ALMM database, allowing the TANGEDCO officer to verify compliance without additional testing.
 

@@ -165,7 +165,7 @@ SECI-tendered utility BESS for renewable firming.
 
 State DISCOM BESS for distribution support.
 
-C&I peak shaving for [industrial customers](https://heavengreenenergy.com/industrial-solar/).
+C&I peak shaving for industrial customers.
 
 Solar + BESS hybrid plants.
 

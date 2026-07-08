@@ -192,7 +192,7 @@ PPA penalty for non-compliant trips during real grid events.
 
 Coordination conflict with anti-islanding. Both protections trigger simultaneously.
 
-Old inverter without FRT capability blocks DISCOM commissioning of a large [solar EPC](https://heavengreenenergy.com/solar-epc/) project.
+Old inverter without FRT capability blocks DISCOM commissioning of a large solar EPC project.
 
 DISCOM does not have programmable grid simulator for type test.
 
@@ -202,7 +202,7 @@ Specify FRT compliance to CEA Grid Code 2019 in inverter purchase contracts.
 
 Validate type test reports from accredited labs against recognised [inverter certification standards](/blog/solar-inverter-certifications/).
 
-Conduct plant-level FRT test at commissioning, witnessed by DISCOM, backed by [CEIG-approved electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) where required.
+Conduct plant-level FRT test at commissioning, witnessed by DISCOM, backed by CEIG-approved electrical drawings where required.
 
 Coordinate FRT settings with upstream protection during plant design.
 

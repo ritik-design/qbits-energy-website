@@ -77,7 +77,7 @@ Before LPS Rules 2022, DISCOM payment delays were chronic and largely unenforcea
 - 180-365 days: bank rate + 3 percent
 - Above 365 days: bank rate + 4 percent
 
-For Indian solar, LPS Rules 2022 are a key risk mitigant. Lenders and equity investors now factor LPS recovery into project economics, improving bankability and reducing financing cost.
+For Indian solar, LPS Rules 2022 are a key risk mitigant. Lenders and equity investors now factor LPS recovery into project economics, improving bankability and reducing financing cost. C&I buyers evaluating a RESCO PPA instead of direct DISCOM sale should still weigh payment discipline; see the [Solar RESCO Model India Complete Guide](/blog/solar-resco-model-india-guide/) for how PPA tariff and contract risk are assessed on the buyer side.
 
 > **TL;DR**
 > - LPS Rules 2022, notified by the Ministry of Power in June 2022, force DISCOMs to pay escalating penalties on delayed PPA payments.
@@ -90,7 +90,7 @@ For Indian solar, LPS Rules 2022 are a key risk mitigant. Lenders and equity inv
 
 Payment certainty. Statutory backing for PPA payment terms, backed by the broader [Electricity Act 2003](/glossary/electricity-act-2003/) framework.
 
-Lender comfort. Improves project [bankability](/glossary/irr/) and equity IRR outcomes.
+Lender comfort. Improves project [bankability](/glossary/irr/) and equity IRR outcomes; the [LCOE of Solar in India](/blog/lcoe-solar-india/) guide covers the DSCR and off-take security documentation lenders check alongside payment discipline.
 
 Cash flow protection. Financial penalty on delayed payments.
 

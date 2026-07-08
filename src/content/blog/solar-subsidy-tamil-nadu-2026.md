@@ -1,7 +1,7 @@
 ---
-title: "Solar Subsidy in Tamil Nadu 2026, TANGEDCO Reality Check"
+title: "Solar Subsidy in Tamil Nadu 2026, TANGEDCO Guide"
 excerpt: "Solar subsidy in Tamil Nadu stacks PM Surya Ghar (₹78,000) with TEDA schemes, but TANGEDCO net metering takes 60–120 days. Full honest guide for TN homeowners."
-description: "Solar subsidy Tamil Nadu 2026: PM Surya Ghar central subsidy, TEDA state schemes, TANGEDCO net metering reality, FiT rates, and a Chennai 3 kW worked example."
+description: "Solar subsidy Tamil Nadu 2026: PM Surya Ghar subsidy, TEDA state schemes, TANGEDCO net metering reality, FiT rates, and a Chennai 3 kW worked example."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -132,7 +132,7 @@ This named framework is the practical guide for any Tamil Nadu homeowner who wan
 
 1. **Verify your sanctioned load before sizing your system.** TANGEDCO's technical feasibility assessment checks whether your proposed solar capacity is within your sanctioned load limit. If your sanctioned load is 3 kW and you apply for a 5 kW solar system, expect a rejection. Check your electricity bill for your sanctioned load or visit the SDE office. If you need a higher load, apply for a load enhancement (LT connection upgrade) before submitting the solar application, this adds 30 to 60 days but avoids a rejection restart.
 
-2. **Use only [TANGEDCO-empanelled installers](https://heavengreenenergy.com/solar-near-me/) with ALMM-compliant equipment.** Non-empanelled installers cannot submit your net metering application through TANGEDCO's system. Verify empanelment on the TANGEDCO portal or at [tangedco.gov.in](https://tangedco.gov.in/) before signing any contract. Separately confirm that the panels and inverter are on the current MNRE ALMM list, this is a hard requirement for subsidy eligibility.
+2. **Use only TANGEDCO-empanelled installers with ALMM-compliant equipment.** Non-empanelled installers cannot submit your net metering application through TANGEDCO's system. Verify empanelment on the TANGEDCO portal or at [tangedco.gov.in](https://tangedco.gov.in/) before signing any contract. Separately confirm that the panels and inverter are on the current MNRE ALMM list, this is a hard requirement for subsidy eligibility.
 
 3. **Submit complete documentation on the first attempt.** Incomplete applications are not held in a partial-approval state, they are returned to the queue. A document rejection restarts your 60–120 day clock. The complete document set includes: latest electricity bill, Aadhaar and PAN, property ownership proof, rooftop photographs, single-line diagram, equipment specification sheets, and the TANGEDCO application form duly signed. For apartments, include the RWA NOC.
 

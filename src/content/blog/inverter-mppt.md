@@ -1,7 +1,7 @@
 ---
 title: "Inverter MPPT: 8 Critical Selection Factors (2026)"
 excerpt: "A poorly matched MPPT setup can drain 10–15% of annual yield in India's climate. Here are the 8 most important MPPT factors to evaluate on every inverter datasheet."
-description: "Learn how to evaluate inverter MPPT specifications (number of channels, voltage range, tracking efficiency, DC oversizing, shading tolerance, low-light performance, monitoring, and warranty) for Indian solar projects."
+description: "How to evaluate inverter MPPT specs: channel count, voltage range, tracking efficiency, DC oversizing, and warranty for Indian solar projects."
 category: "Technology"
 date: 2026-05-06
 updatedDate: 2026-07-08
@@ -212,7 +212,7 @@ The [12-year solar inverter warranty](/blog/12-year-solar-inverter-warranty/) is
 
 ### Worked Example: 10 kW Dual-Orientation Rooftop in Ahmedabad
 
-Consider a 10 kW residential rooftop split across south-facing (6 kWp) and east-facing (4 kWp). Panels: 500W modules with Voc 49.5V, Vmpp 41.2V. Min site temperature 5°C; max panel temperature 75°C. This is exactly the kind of calculation a [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) package should document before installation begins.
+Consider a 10 kW residential rooftop split across south-facing (6 kWp) and east-facing (4 kWp). Panels: 500W modules with Voc 49.5V, Vmpp 41.2V. Min site temperature 5°C; max panel temperature 75°C. This is exactly the kind of calculation a rooftop detailed engineering design package should document before installation begins.
 
 **Temperature-corrected Voc at 5°C:**
 

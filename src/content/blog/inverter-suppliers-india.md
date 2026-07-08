@@ -1,7 +1,7 @@
 ---
-title: "Inverter Suppliers India: Complete EPC Guide to Vendors, Distributors & Dealers 2026"
+title: "Inverter Suppliers India: Vendor & Dealer Guide"
 excerpt: "Inverters drive 15-20% of project cost and 100% of warranty risk. Here's the single framework Indian EPCs use to evaluate manufacturers, distributors, dealers, and channel partners - and what separates a 10-year partnership from a one-project transaction."
-description: "Complete 2026 guide for Indian EPCs evaluating solar inverter suppliers, vendors, distributors, and dealers: market landscape, 8-criteria vendor framework, 20-question distributor checklist, dealer vetting protocol, certifications, warranty infrastructure, regional supplier mapping, red flags, and partnership building."
+description: "Guide for Indian EPCs evaluating solar inverter suppliers, vendors, and dealers: scoring framework, certifications, warranty infrastructure, red flags."
 category: "Buying Guide"
 date: 2026-05-08
 readTime: "16 min"
@@ -315,7 +315,7 @@ For EPCs and dealers evaluating long-term supplier partnerships, Qbits offers a 
 - **[Authorized Service Partners](/authorized-service-partners/)** programme - manufacturer-backed dealer and service network
 - **[Become a Partner](/contact-us/)** - structured onboarding with technical training, digital warranty access, and joint marketing support
 
-EPCs and installers weighing whether to add channel-partner relationships beyond inverters can compare notes against how other verticals structure this - for instance, [becoming a channel partner](https://heavengreenenergy.com/become-channel-partner/) for a turnkey solar EPC follows a similar documentation-and-trial-order pattern to what's described above.
+EPCs and installers weighing whether to add channel-partner relationships beyond inverters can compare notes against how other verticals structure this - for instance, becoming a channel partner for a turnkey solar EPC follows a similar documentation-and-trial-order pattern to what's described above.
 
 To discuss a dealer, distributor, or direct EPC relationship, [talk to a Qbits engineer](/contact-us/) - the channel team can provide commercial terms, regional availability, and trial order proposals within 48 hours.
 

@@ -74,7 +74,7 @@ For Indian solar applications, UPS systems integrate with solar PV in two ways:
 1. Solar hybrid UPS: UPS with solar charging input, reducing grid charging cost
 2. Hybrid inverter as UPS: solar inverter with grid backup function
 
-Modern Indian residential UPS systems are increasingly solar-integrated, replacing traditional grid-only UPS. The home UPS market in India has shifted toward "solar UPS" or "hybrid solar UPS" terminology for products that combine solar PV input with battery backup function.
+Modern Indian residential UPS systems are increasingly solar-integrated, replacing traditional grid-only UPS. The home UPS market in India has shifted toward "solar UPS" or "hybrid solar UPS" terminology for products that combine solar PV input with battery backup function. See [Solar Inverter vs UPS, What's the Real Difference?](/blog/solar-inverter-vs-ups/) for a clear breakdown of when a hybrid inverter replaces a standalone UPS.
 
 ## Why UPS matters
 
@@ -161,7 +161,7 @@ Choose UPS type based on load sensitivity.
 
 Match battery to expected backup time.
 
-Use LFP for longer life and lower maintenance.
+Use LFP for longer life and lower maintenance; see [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/) for cycle life, DoD and 10-year TCO numbers.
 
 Plan for periodic battery replacement.
 

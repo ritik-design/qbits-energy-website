@@ -1,7 +1,7 @@
 ---
 title: "BCD and Import Duties on Solar Inverters India 2026"
 excerpt: "BCD on solar inverters India: 20% Basic Customs Duty applies to imported inverters, making Chinese brands costlier while ALMM compliance gives Made-in-India products a structural advantage."
-description: "Understanding BCD and import duties on solar inverters in India 2026. How 20% BCD impacts Chinese OEMs, the ALMM list requirement for PM Surya Ghar, and what this means for EPCs."
+description: "BCD and import duties on solar inverters in India 2026: how 20% BCD impacts Chinese OEMs, the ALMM list requirement, and what it means for EPCs."
 category: Policy
 date: 2026-06-05
 updatedDate: 2026-07-08

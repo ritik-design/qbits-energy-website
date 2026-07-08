@@ -1,7 +1,7 @@
 ---
 title: "How to Maximise Solar Output in Indian Climate"
 excerpt: "Maximise solar output in India by tuning tilt angle for your latitude, cleaning at the right frequency, eliminating shade, and using AI monitoring to catch losses early."
-description: "The 6-Lever Solar Output Maximiser for Indian homeowners: tilt angle by latitude, cleaning frequency by climate zone, shade avoidance, net metering time-shifting, summer derating fixes, and seasonal adjustments."
+description: "The 6-Lever Solar Output Maximiser for Indian homeowners: tilt angle by latitude, cleaning frequency by climate zone, and summer derating fixes."
 category: "Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -103,7 +103,7 @@ India spans latitudes from approximately 8°N (Kanyakumari) to 37°N (Ladakh), g
 
 Data derived from [NREL's India solar resource analysis](https://www.nrel.gov/){target="_blank" rel="noopener"} and the [IEA India solar deployment reports](https://www.iea.org/countries/india){target="_blank" rel="noopener"}.
 
-**For flat terrace installations:** [Tilt-mounting structures](https://heavengreenenergy.com/products/mounting-structures/) add ₹5,000–₹15,000 per kW to installation cost but improve annual generation by 8–15%. At typical Indian tariffs of ₹7–9 per unit, the additional units generated repay the extra mounting cost within 2–4 years.
+**For flat terrace installations:** Tilt-mounting structures add ₹5,000–₹15,000 per kW to installation cost but improve annual generation by 8–15%. At typical Indian tariffs of ₹7–9 per unit, the additional units generated repay the extra mounting cost within 2–4 years.
 
 **For sloped roof installations:** A south-facing sloped roof at 15°–25° is already near-optimal and requires no additional tilt structure. East or west-facing sloped roofs justify flush mounting as the lowest-cost approach, the orientation trade-off is addressed next.
 

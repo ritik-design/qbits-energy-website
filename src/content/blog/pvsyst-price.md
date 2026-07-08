@@ -1,5 +1,5 @@
 ---
-title: "PVsyst Price in 2026: Real Costs + Cheaper Browser Alternative"
+title: "PVsyst Price 2026: Real Cost + Alternative"
 excerpt: "PVsyst costs roughly €500 per user per year for the Standard licence, but you also need Windows, a separate proposal tool, and a financial model. Here is the full PVsyst price breakdown and the cheaper browser-based alternative."
 description: "PVsyst price in 2026: Standard and Premium licences, Windows-only hidden costs, and the SurgePV browser-based bankable alternative. Book a free demo."
 category: "Solar Software"
@@ -104,7 +104,7 @@ SurgePV is typically 30 to 50 percent cheaper at team scale once the multi-tool 
 3. Verify P50, P75, P90 outputs align.
 4. Run a parallel quarter, keep PVsyst available for any lender-mandated reports.
 
-For most engineering teams in 2026, SurgePV is the alternative that wins on platform flexibility, scope, and per-seat cost at the same time.
+For most engineering teams in 2026, SurgePV is the alternative that wins on platform flexibility, scope, and per-seat cost at the same time. Once the simulation and proposal are signed off, the design still needs inverter hardware behind it, browse the [Qbits product range](/our-products/) or [talk to a Qbits engineer](/contact-us/) about matching on-grid or hybrid inverters to the system just modeled.
 
 <div class="inline-cta">
 <h3>Ready to bring bankable simulation into the browser?</h3>

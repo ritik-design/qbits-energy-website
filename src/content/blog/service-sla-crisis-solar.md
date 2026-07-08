@@ -1,7 +1,7 @@
 ---
 title: "Solar Service SLA Crisis in India, A Founder's View"
 excerpt: "India's solar service SLA crisis is real: average fault resolution takes 3–8 weeks, most brands have no declared SLA, and Tier-2/3 cities have no local service centre. Here is why the industry must fix this now."
-description: "A founder's perspective on India's solar after-sales service gap, no declared SLAs, 3–8 week resolution times, and why MNRE must mandate service standards before consumer trust collapses."
+description: "A founder's view on India's solar service SLA crisis: no declared SLAs, 3–8 week resolution times, and why MNRE must mandate service standards now."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -184,7 +184,7 @@ The growth of the Indian solar market depends on homeowner trust. Homeowner trus
 
 ## Where the EPC Installer Fits: Choosing a Brand That Backs You
 
-For [EPC installers](https://heavengreenenergy.com/solar-epc/) reading this, the after-sales service SLA is not just a homeowner problem, it is your problem. When an inverter fails and the brand does not respond, the homeowner calls you. Your reputation is the first one damaged. Your relationship is the first one strained.
+For EPC installers reading this, the after-sales service SLA is not just a homeowner problem, it is your problem. When an inverter fails and the brand does not respond, the homeowner calls you. Your reputation is the first one damaged. Your relationship is the first one strained.
 
 Before committing your next project to any brand, apply this checklist:
 

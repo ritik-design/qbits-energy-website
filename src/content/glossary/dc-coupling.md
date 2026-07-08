@@ -147,9 +147,9 @@ Because PV and battery are on the same DC bus inside one device, the EMS sees bo
 
 ## Real-world applications
 
-[Residential hybrid solar](https://heavengreenenergy.com/residential-solar/). The dominant Indian residential storage architecture.
+Residential hybrid solar. The dominant Indian residential storage architecture.
 
-[Small commercial hybrid systems](https://heavengreenenergy.com/commercial-solar/). 5 to 50 kW range.
+Small commercial hybrid systems. 5 to 50 kW range.
 
 Microgrid hybrid inverters. Multi-MPPT plus battery interface for off-grid villages.
 

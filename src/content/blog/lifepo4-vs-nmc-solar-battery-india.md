@@ -1,7 +1,7 @@
 ---
-title: "LiFePO4 vs NMC Battery for Solar in India, Which Wins?"
+title: "LiFePO4 vs NMC Battery for Solar in India"
 excerpt: "LiFePO4 vs NMC battery for solar in India: LiFePO4 wins on safety, cycle life, and heat tolerance at 45°C+. NMC wins on energy density and lower upfront cost. The India Climate Battery Test explained."
-description: "LiFePO4 vs NMC solar battery India comparison: safety, cycle life, energy density, heat tolerance at 45°C, pricing, and which chemistry wins for Indian residential solar. The India Climate Battery Test."
+description: "LiFePO4 vs NMC solar battery comparison for India: safety, cycle life, heat tolerance at 45°C, pricing, and which chemistry wins for residential solar."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -162,7 +162,7 @@ NMC batteries in the solar storage segment are less common in India than LiFePO4
 
 - **EV battery [second-life](/glossary/second-life-battery/) modules**: Some domestic EV manufacturers resell battery modules from vehicles that no longer meet automotive range requirements but retain 70–80% capacity, suitable for stationary storage at a significant discount.
 - **Industrial UPS brands**: Several imported UPS brands use NMC cells in their lithium backup ranges, available through B2B channels.
-- **Integrated storage systems**: Some international solar-storage brands (not widely distributed in India as of 2026) offer NMC-based wall-mount battery systems. EPC teams sourcing complete battery-and-BOS packages for residential projects can compare bundled options through [HeavenGreen Energy's solar equipment shop](https://heavengreenenergy.com/shop/).
+- **Integrated storage systems**: Some international solar-storage brands (not widely distributed in India as of 2026) offer NMC-based wall-mount battery systems. EPC teams sourcing complete battery-and-BOS packages for residential projects can compare bundled options through HeavenGreen Energy's solar equipment shop.
 
 For most Indian homeowners, LiFePO4 from Pylontech, Livguard, or LOOM Solar is the practical choice, NMC is not widely available as a standalone solar battery product from established brands with India service networks.
 

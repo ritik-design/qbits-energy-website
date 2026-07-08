@@ -154,7 +154,7 @@ Hydrometer reading is the most reliable [state of charge](/glossary/battery-soc/
 
 ## Real-world applications
 
-Rural off-grid solar. Tubular flooded packs of 200 to 1,000 Ah at 12 or 24 V, often paired with an [off-grid inverter](/glossary/off-grid-inverter/) and installed as part of turnkey [residential solar installations](https://heavengreenenergy.com/residential-solar/) in unelectrified or low-reliability areas.
+Rural off-grid solar. Tubular flooded packs of 200 to 1,000 Ah at 12 or 24 V, often paired with an [off-grid inverter](/glossary/off-grid-inverter/) and installed as part of turnkey residential solar installations in unelectrified or low-reliability areas.
 
 UPS systems. Indoor flat plate or VRLA AGM, designed for standby with occasional discharge (see our [UPS](/glossary/ups/) glossary entry for how these systems differ from solar inverters).
 

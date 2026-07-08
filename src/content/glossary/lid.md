@@ -84,7 +84,7 @@ The reason: tiny defects form when light hits silicon containing certain impurit
 
 Warranty curves. Manufacturer linear performance warranty includes LID as the first-year drop.
 
-Yield modelling. P50 yield models apply LID derate in year 1.
+Yield modelling. P50 yield models apply LID derate in year 1, one of several loss factors covered in [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/).
 
 Technology comparison. PERC has LID; TOPCon has less; HJT has effectively none.
 
@@ -195,7 +195,7 @@ Choose gallium-doped PERC or n-type TOPCon for low-LID applications.
 
 Indian ALMM-listed modules typically include LID in their performance warranty curves.
 
-Major Indian manufacturers have transitioned to gallium-doped PERC and increasingly to n-type TOPCon, reducing field LID.
+Major Indian manufacturers have transitioned to gallium-doped PERC and increasingly to n-type TOPCon, reducing field LID, as with the ALMM-listed mono PERC modules deployed in [Punjab Dairy Farm Solar, Replacing Diesel with Clean Energy](/blog/case-study-punjab-dairy/).
 
 Yield models used in SECI and CPSU tender bids include LID derate in year 1.
 

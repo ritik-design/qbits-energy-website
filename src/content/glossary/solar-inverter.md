@@ -221,7 +221,7 @@ Central inverters of 1.5–4.4 MVA, or strings of 250 kW grid-forming inverters,
 
 - Match **MPPT voltage window** to string Voc at the coldest expected ambient (-10 °C for North India, +5 °C for South).
 - Size the inverter at **80–120% of the array's STC DC rating** for India's hot climate; oversize PV slightly to harvest more cloudy-day energy.
-- Verify **[ALMM List of Models and Manufacturers](/glossary/almm-list/)** listing before procurement, DISCOMs will not energise non-listed inverters. Ready-stocked, ALMM-listed hardware is available through Heaven Green Energy's [solar inverter catalogue](https://heavengreenenergy.com/products/solar-inverters/) for installers who need fast fulfilment.
+- Verify **[ALMM List of Models and Manufacturers](/glossary/almm-list/)** listing before procurement, DISCOMs will not energise non-listed inverters. Ready-stocked, ALMM-listed hardware is available through Heaven Green Energy's solar inverter catalogue for installers who need fast fulfilment.
 - Mount in a **shaded, ventilated location**; never on a south-facing exposed wall in India.
 - Pull **firmware versions and event logs quarterly**; many faults are visible weeks before they shut the plant down.
 - Maintain **3 m clearance for cable bending radius** on three-phase inverters above 30 kW.
@@ -266,7 +266,7 @@ A solar inverter sold for grid-tie use in India must satisfy four overlapping re
 - **CEA Technical Standards for Connectivity to the Grid (Amendment)**: defines voltage and frequency ride-through, anti-islanding, and reactive-power support obligations.
 - **State DISCOM regulations**: net metering, gross metering or net billing rules vary by state, with state-specific export caps and inverter approval lists.
 
-For C&I projects above 1 MW, a CEIG (Chief Electrical Inspector) approval is required, and the inverter SLD, factory test certificates and earthing design must all be submitted. Most Tier-1 vendors maintain a dedicated *type-test and CEIG support file* for Indian customers, and specialist partners like Heaven Designs prepare the underlying [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/) that this approval depends on.
+For C&I projects above 1 MW, a CEIG (Chief Electrical Inspector) approval is required, and the inverter SLD, factory test certificates and earthing design must all be submitted. Most Tier-1 vendors maintain a dedicated *type-test and CEIG support file* for Indian customers, and specialist partners like Heaven Designs prepare the underlying electrical and CEIG drawings that this approval depends on.
 
 ## Standards and Certifications
 

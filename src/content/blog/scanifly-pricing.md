@@ -1,5 +1,5 @@
 ---
-title: "Scanifly Pricing in 2026: Real Costs + Cheaper Alternative"
+title: "Scanifly Pricing 2026: Real Costs + Alternative"
 excerpt: "Scanifly's per-project pricing plus drone operating cost adds up fast for installers running 100+ projects a year. Here is the real Scanifly pricing math and the flat-priced satellite-based alternative."
 description: "Scanifly pricing in 2026: per-project fees, drone operating cost, and the SurgePV flat per-seat alternative with AI 3D from satellite. Book a demo."
 category: "Solar Software"
@@ -58,7 +58,7 @@ Scanifly's per-project pricing model works at low volume and becomes painful at 
 | Insurance | Variable | Per pilot annual |
 | Travel | Variable | Distance-dependent |
 
-The headline Scanifly fee is only one line. Total per-project cost for a residential rooftop typically lands $80 to $200, and for [C&I](/c-i-solution/), often $200 to $500+. For crews that still send a pilot onsite, that spend competes with a proper [site survey and land feasibility](https://heavendesigns.in/site-survey-land-feasibility-services/) check already budgeted for the project.
+The headline Scanifly fee is only one line. Total per-project cost for a residential rooftop typically lands $80 to $200, and for [C&I](/c-i-solution/), often $200 to $500+. For crews that still send a pilot onsite, that spend competes with a proper site survey and land feasibility check already budgeted for the project.
 
 ## Real Volume Math
 

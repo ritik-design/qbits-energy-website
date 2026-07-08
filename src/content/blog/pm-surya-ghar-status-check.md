@@ -1,6 +1,7 @@
 ---
-title: "How to Check PM Surya Ghar Application Status, Step-by-Step"
+title: "How to Check PM Surya Ghar Application Status"
 excerpt: "Check PM Surya Ghar status at pmsuryaghar.gov.in using your mobile number or application ID. Full step-by-step guide for 2026 with stage-by-stage timelines."
+description: "Check your PM Surya Ghar application status at pmsuryaghar.gov.in using your mobile number or application ID. Step-by-step guide with stage timelines."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -133,7 +134,7 @@ For a full guide on handling rejected applications, including the appeal process
 The net metering connection stage is where most applications wait the longest. Once installation is complete and your vendor has submitted the completion report, your DISCOM must:
 
 1. Schedule a physical inspection of the installation
-2. Send a field officer to verify that the system matches the approved specifications, which is easier to defend if your installer kept proper [as-built documentation](https://heavendesigns.in/solar-post-design/) from the original design
+2. Send a field officer to verify that the system matches the approved specifications, which is easier to defend if your installer kept proper as-built documentation from the original design
 3. Replace your existing single-direction meter with a [bidirectional smart meter](/glossary/bidirectional-meter/)
 4. Activate the net metering account in their billing system
 5. Issue a net metering connection certificate

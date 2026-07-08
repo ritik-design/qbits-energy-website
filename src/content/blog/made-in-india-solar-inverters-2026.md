@@ -1,5 +1,5 @@
 ---
-title: "Made-in-India Solar Inverters 2026, Why Local Beats Imported"
+title: "Made-in-India Solar Inverters: Why Local Wins"
 excerpt: "Made in India solar inverter brands now outperform imports on subsidy eligibility, after-sales response, and India-grid firmware. Here is what the data shows."
 description: "Why made in India solar inverters beat imported brands in 2026, ALMM compliance, PLI quality push, 72-hr RMA SLA, and India-grid-tuned firmware explained."
 category: "Comparison"
@@ -195,7 +195,7 @@ Not every buyer should default to an Indian-made inverter. A fair assessment req
 | **Monitoring platform depth** | ✓ WhatsApp-native, India-preferred | ✓ Cloud platforms, often EU/US-centric |
 | **Import duty exposure** | ✓ No BCD on domestic product | ✗ BCD + GST raises landed cost |
 
-The conclusion is not that Indian beats imported in every context. For a 500 kW C&I project where the project finance lender has a specific OEM whitelist, or for a premium residential buyer whose sole criterion is the Sungrow brand name, the imported choice has valid grounds. For the large majority of Indian homeowners installing 2–5 kW residential systems under PM Surya Ghar in 2026, the Indian-made choice is the financially superior and operationally safer one. Homeowners who have not yet chosen an installer can compare vetted EPCs through [HeavenGreen Energy's residential solar installation service](https://heavengreenenergy.com/residential-solar/) before finalising an inverter brand.
+The conclusion is not that Indian beats imported in every context. For a 500 kW C&I project where the project finance lender has a specific OEM whitelist, or for a premium residential buyer whose sole criterion is the Sungrow brand name, the imported choice has valid grounds. For the large majority of Indian homeowners installing 2–5 kW residential systems under PM Surya Ghar in 2026, the Indian-made choice is the financially superior and operationally safer one. Homeowners who have not yet chosen an installer can compare vetted EPCs through HeavenGreen Energy's residential solar installation service before finalising an inverter brand.
 
 The [complete 2026 comparison of the best solar inverters in India](/blog/best-solar-inverter-india/) covers the full field (Indian and international) with a methodology-driven ranking.
 

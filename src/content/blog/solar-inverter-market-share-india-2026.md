@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Market Share India 2026, Brand Data and Trends"
+title: "Solar Inverter Market Share India 2026, Brand Data"
 excerpt: "Solar inverter market share India 2026: Sungrow leads utility, Growatt and Luminous dominate residential. Full brand breakdown across string, micro, and central segments with price band analysis."
-description: "India solar inverter market share 2026, brand rankings for residential, C&I, and utility segments. Sungrow, Growatt, Luminous, Havells, SMA, Huawei, and domestic OEMs compared. ALMM brand data included."
+description: "India solar inverter market share 2026: brand rankings across residential, C&I, and utility segments, covering Sungrow, Growatt, Luminous, and more."
 category: Industry
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -177,7 +177,7 @@ When an installer recommends a specific inverter brand citing "market share" or 
 
 - **Market share at installation vs at warranty claim**: a brand might have 20% market share at installation but account for 40% of warranty disputes if its products have reliability issues. Field reliability data from installers is often more informative than shipment data.
 
-- **Regional vs national**: a brand with high market share nationally may have minimal presence in your specific state or city, limiting its service network relevance to you. Verify that the brand's authorised service partners operate in your district, not just in the nearest metro, a [local installer directory](https://heavengreenenergy.com/solar-near-me/) is a useful cross-check against the installer's own claims.
+- **Regional vs national**: a brand with high market share nationally may have minimal presence in your specific state or city, limiting its service network relevance to you. Verify that the brand's authorised service partners operate in your district, not just in the nearest metro, a local installer directory is a useful cross-check against the installer's own claims.
 
 - **Historical vs current**: India's inverter market is evolving rapidly under ALMM requirements and PM Surya Ghar demand. A brand dominant in 2020 may have lost share to domestic ALMM-listed competitors in 2024–2026. Ask for recent data, not three-year-old rankings.
 
@@ -193,7 +193,7 @@ India's solar inverter distribution operates across several tiers:
 
 **Tier 2, State or regional distributor:** handles volumes of 50–500 units per month per brand, provides credit to sub-dealers, and manages regional inventory. Distributor relationships determine which brands reach which geographies. A brand without a committed regional distributor in Bihar will effectively have no presence there regardless of national market share.
 
-**Tier 3, [EPC installer and dealer](https://heavengreenenergy.com/become-channel-partner/):** the entity that sells to the end customer, installs the system, and provides first-line service. Installer familiarity with a specific brand determines installation quality and service speed. Installers tend to carry two to three brands (one premium and one budget option) switching based on customer budget.
+**Tier 3, EPC installer and dealer:** the entity that sells to the end customer, installs the system, and provides first-line service. Installer familiarity with a specific brand determines installation quality and service speed. Installers tend to carry two to three brands (one premium and one budget option) switching based on customer budget.
 
 **Buyer:** the homeowner or C&I decision-maker who may have no visibility into this chain and relies on installer recommendation.
 

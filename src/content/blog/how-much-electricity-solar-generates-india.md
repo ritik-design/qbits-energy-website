@@ -1,6 +1,7 @@
 ---
-title: "How Much Electricity Does Solar Generate in India? (State-Wise)"
+title: "How Much Electricity Does Solar Generate in India?"
 excerpt: "How much solar energy is generated in India varies by state. Rajasthan yields 1,800–2,000 kWh/kW/year; Kerala 1,100–1,300 kWh/kW/year. Use this state-wise guide to calculate your system's output."
+description: "Solar generation in India varies by state: Rajasthan yields 1,800–2,000 kWh/kW/year, Kerala 1,100–1,300 kWh/kW/year. Estimate your output."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -188,4 +189,4 @@ The Qbits WhatsApp monitoring system reports daily generation in kWh, compares i
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery integration for households in monsoon-heavy states where evening consumption exceeds daytime generation.
 - **[Authorized Service Partners](/authorized-service-partners/)**: Pan-India service network to ensure underperformance is diagnosed and resolved within the 72-hour RMA SLA.
 
-When your installer quotes a generation figure, [talk to a Qbits engineer](/contact-us/) to independently verify the estimate using state-specific irradiance data, most clients find this cross-check prevents a 10–20% yield expectation mismatch, and running your own numbers through a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) beforehand makes that conversation more productive.
+When your installer quotes a generation figure, [talk to a Qbits engineer](/contact-us/) to independently verify the estimate using state-specific irradiance data, most clients find this cross-check prevents a 10–20% yield expectation mismatch, and running your own numbers through a solar savings calculator beforehand makes that conversation more productive.

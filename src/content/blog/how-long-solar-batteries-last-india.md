@@ -1,7 +1,7 @@
 ---
-title: "How Long Do Solar Batteries Last in India? (Heat and Cycle Reality)"
+title: "How Long Do Solar Batteries Last in India?"
 excerpt: "Solar battery lifespan in India: VRLA lasts 3–5 years, LiFePO4 8–12 years, NMC 6–10 years. Heat (45°C+) reduces capacity 15–20%. The 4-Factor Battery Lifespan Calculator explained."
-description: "How long do solar batteries last in India? VRLA 3–5 years, LiFePO4 8–12 years. India's 45°C+ heat reduces lithium capacity 15–20%. The 4-Factor Battery Lifespan Calculator with real data."
+description: "Solar battery lifespan in India: VRLA lasts 3–5 years, LiFePO4 8–12 years. India's 45°C+ heat cuts lithium capacity by 15–20%."
 category: "Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -26,7 +26,7 @@ faqs:
   - q: "How can I extend the life of my solar battery in India?"
     a: "Five practices extend solar battery life in India: (1) install batteries indoors in a space below 35°C ambient; (2) for VRLA, never discharge below 50% DoD - configure the inverter cut-off at 11.5V for a 12V battery; (3) perform an equalising charge every 3 months for VRLA; (4) keep batteries clean and dry - prevent moisture-driven terminal corrosion; (5) use an inverter with a proper battery-type-specific charging algorithm (IUoU for VRLA, CC-CV for lithium) configured for your chemistry."
   - q: "Is a LiFePO4 battery worth buying for India?"
-    a: "Yes, for most Indian homeowners. LiFePO4 batteries cost 3 to 5 times more upfront than VRLA but last 2 to 3 times longer in India's heat, require zero maintenance, support 80% DoD (versus 50% for VRLA), and have a lower 10-year total cost of ownership, a gap worth checking against your own bill using a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/). The exception is buyers who have fewer than 100 power cut cycles per year - in that case, a VRLA battery's low cost and easy local replacement may be the pragmatic choice."
+    a: "Yes, for most Indian homeowners. LiFePO4 batteries cost 3 to 5 times more upfront than VRLA but last 2 to 3 times longer in India's heat, require zero maintenance, support 80% DoD (versus 50% for VRLA), and have a lower 10-year total cost of ownership, a gap worth checking against your own bill using a solar savings calculator. The exception is buyers who have fewer than 100 power cut cycles per year - in that case, a VRLA battery's low cost and easy local replacement may be the pragmatic choice."
   - q: "What warranty should I expect on a solar battery in India?"
     a: "Warranty terms vary significantly by chemistry and brand. VRLA batteries carry 24 to 60 months warranty from brands like Exide, Amaron, and Luminous. LiFePO4 batteries carry 5 to 10 years from brands like Pylontech (10 years), Livguard (7–10 years), and LOOM Solar Atom (5 years). A longer warranty is meaningful only if the brand has a responsive India service network and a clear warranty replacement process - check both before purchasing."
   - q: "Can high charge rates shorten solar battery life in India?"

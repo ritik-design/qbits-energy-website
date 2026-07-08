@@ -1,7 +1,7 @@
 ---
-title: "String Inverter vs Microinverter, The Indian Roof Reality"
+title: "String vs Microinverter, Indian Roof Reality"
 excerpt: "String vs microinverter: for most Indian roofs, string inverters win on cost, serviceability, and proven reliability. Learn the 4-step shade test to know when microinverters are worth the 40–60% premium."
-description: "String inverter vs microinverter compared for Indian homes, shading impact, cost difference, serviceability in Tier-2/3 cities, power optimisers, and the 4-step roof shade test."
+description: "String inverter vs microinverter for Indian homes: shading impact, cost difference, Tier-2/3 serviceability, and a 4-step roof shade test."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -176,7 +176,7 @@ India's solar inverter market installed approximately 14 GW of residential and s
 
 **Service network density matters enormously.** India has over 600 districts. A broken inverter that cannot be serviced for three weeks is not a minor inconvenience, it is three weeks of zero generation on a system that was supposed to be generating its payback. String inverter service networks in India are dense and well-established. Every major solar EPC, every local electrician with solar experience, and every authorised service centre can diagnose and replace a string inverter board. Microinverter service is concentrated in a handful of cities.
 
-**Multi-MPPT string inverters have closed the gap.** A [review of the best solar inverters in India](/blog/best-solar-inverter-india/) shows that virtually every reputable string inverter above 3 kW now ships with dual-MPPT as standard. On a typical Indian rooftop with minor shade sources, a well-configured dual-MPPT string inverter recovers 85–95 percent of the generation that microinverters would deliver, at half the hardware cost. Turnkey [residential solar installation](https://heavengreenenergy.com/residential-solar/) providers across India default to string inverters for exactly this reason, they are the configuration their field technicians can service without specialised training.
+**Multi-MPPT string inverters have closed the gap.** A [review of the best solar inverters in India](/blog/best-solar-inverter-india/) shows that virtually every reputable string inverter above 3 kW now ships with dual-MPPT as standard. On a typical Indian rooftop with minor shade sources, a well-configured dual-MPPT string inverter recovers 85–95 percent of the generation that microinverters would deliver, at half the hardware cost. Turnkey residential solar installation providers across India default to string inverters for exactly this reason, they are the configuration their field technicians can service without specialised training.
 
 **The ALMM and BIS compliance framework.** String inverters from established Indian and international manufacturers are broadly ALMM-listed and BIS-certified. Microinverters from global brands like Enphase may not be on the ALMM list for PM Surya Ghar subsidy purposes, which can affect subsidy eligibility for buyers applying under the scheme. The [MNRE ALMM portal](https://mnre.gov.in/almm-list/) publishes the current list of approved models, always verify before specifying a product for a subsidy-eligible installation. This is a material, India-specific consideration that does not appear in global microinverter comparisons.
 

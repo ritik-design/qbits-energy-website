@@ -72,11 +72,11 @@ LeTID (Light and Elevated Temperature Induced Degradation) is a degradation mech
 
 The mechanism involves hydrogen-related defects formed during cell manufacturing that become recombination-active under heat and light. The exact atomic-level mechanism is still researched, but is associated with hydrogen passivation processes used in PERC cell production.
 
-For Indian solar, LeTID is a particular concern because Indian summer conditions (cell temperatures of 60-80°C during noon) accelerate the mechanism. Modern Indian PERC manufacturers implement LeTID mitigation through controlled hydrogen passivation, optimised cooling profiles and dedicated regeneration treatments. TOPCon n-type cells largely eliminate LeTID due to different material composition.
+For Indian solar, LeTID is a particular concern because Indian summer conditions (cell temperatures of 60-80°C during noon) accelerate the mechanism; [Solar Performance in Indian Winters, What to Expect](/blog/solar-performance-indian-winters-guide/) covers the same PERC temperature coefficient from the opposite seasonal angle. Modern Indian PERC manufacturers implement LeTID mitigation through controlled hydrogen passivation, optimised cooling profiles and dedicated regeneration treatments. TOPCon n-type cells largely eliminate LeTID due to different material composition.
 
 ## Why LeTID matters
 
-Long-term yield. LeTID can reduce 25-year energy yield by several percent.
+Long-term yield. LeTID can reduce 25-year energy yield by several percent, one of several degradation mechanisms that a realistic generation estimate needs to account for; see [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/) for how module degradation is factored into yield projections.
 
 Warranty enforcement. Excessive LeTID may trigger warranty claims.
 

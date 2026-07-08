@@ -1,7 +1,7 @@
 ---
 title: "Solar Yield in India, kWh-per-kW Benchmarks by State"
 excerpt: "Solar yield in India ranges from 1,200 to 1,800 kWh per kWp per year depending on state. Use these benchmarks to verify any installer's generation promise before you sign."
-description: "State-by-state solar yield benchmarks for India, kWh per kWp, loss factors, and the 3-Factor Yield Verification Method to sanity-check any installer's generation estimate."
+description: "Solar yield in India ranges 1,200-1,800 kWh per kWp a year by state. Use these benchmarks to check any installer's generation promise before you sign."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -259,7 +259,7 @@ C&I buyers and homeowners who have done the benchmark math know exactly what gen
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for buyers who want battery-ready infrastructure alongside the yield benefits of grid-tied operation.
 - **[C&I Solar Solutions](/c-i-solution/)**: Designed for factory and commercial rooftop projects where yield accuracy and monitoring transparency are part of the project specification.
 
-When you are ready to move from benchmark verification to an actual proposal, a Qbits engineer can run a site-specific yield estimate for your location using NSRDB irradiance data and your roof's actual orientation. [Talk to the team at contact-us](/contact-us/) and receive a written generation estimate with explicit loss assumptions, the kind of document the 3-Factor Yield Verification Method is designed to validate. Homeowners who want a rough before-and-after savings number ahead of that conversation can start with a general-purpose [solar savings calculator](https://heavengreenenergy.com/solar-calculator/).
+When you are ready to move from benchmark verification to an actual proposal, a Qbits engineer can run a site-specific yield estimate for your location using NSRDB irradiance data and your roof's actual orientation. [Talk to the team at contact-us](/contact-us/) and receive a written generation estimate with explicit loss assumptions, the kind of document the 3-Factor Yield Verification Method is designed to validate. Homeowners who want a rough before-and-after savings number ahead of that conversation can start with a general-purpose solar savings calculator.
 
 ## Understanding the Yield-Payback Connection
 

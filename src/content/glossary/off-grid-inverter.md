@@ -155,11 +155,11 @@ In practice add 25 to 50 percent overhead for monsoon, dust and morning load bef
 
 Rural households. Single-phase 1 to 5 kVA inverters with 3 to 10 kWh of battery serve lighting, fans, mobile charging, fridge and television in unelectrified or weak-grid villages.
 
-[Solar water pumping](/blog/solar-inverter-for-water-pump/). Three-phase off grid inverters drive submersible pumps for irrigation and drinking water under MNRE [PM-KUSUM](/glossary/kusum/) Component B, a scheme covered in depth by [heavengreenenergy.com's PM-KUSUM guide](https://heavengreenenergy.com/drebp-pm-kusum/). Many use direct PV-to-pump operation without battery, with frequency control standing in for charge regulation.
+[Solar water pumping](/blog/solar-inverter-for-water-pump/). Three-phase off grid inverters drive submersible pumps for irrigation and drinking water under MNRE [PM-KUSUM](/glossary/kusum/) Component B. Many use direct PV-to-pump operation without battery, with frequency control standing in for charge regulation.
 
 Telecom towers. Hybrid configurations with off grid inverter, lithium battery and diesel backup. Diesel runtime is cut by 70 to 90 percent compared to pure diesel sites.
 
-Eco-resorts and remote tourism. Off grid inverters in 5 to 50 kVA range, often three-phase. Used where grid extension cost exceeds ₹5 lakh per kilometre or where the site is in a protected zone, which usually calls for a dedicated [site survey and land feasibility study](https://heavendesigns.in/site-survey-land-feasibility-services/) before design begins.
+Eco-resorts and remote tourism. Off grid inverters in 5 to 50 kVA range, often three-phase. Used where grid extension cost exceeds ₹5 lakh per kilometre or where the site is in a protected zone, which usually calls for a dedicated site survey and land feasibility study before design begins.
 
 Defence and border outposts. 5 to 100 kVA off grid systems, often with hardened enclosures and dust filtration. Used by ITBP, BSF and Army at high altitude and remote posts.
 

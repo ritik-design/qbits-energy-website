@@ -125,7 +125,7 @@ P-type silicon with boron and dissolved oxygen forms boron-oxygen (B-O) complexe
 
 ## Real-world applications
 
-Legacy PERC installations.
+Legacy PERC installations, though showcase floors are shifting fast toward n-type panels (see [REI Expo 2026 Recap, Top Trends from India's Biggest Solar Exhibition](/blog/rei-expo-recap/)).
 
 ALMM-listed PERC modules.
 
@@ -151,7 +151,7 @@ LeTID concern in some PERC variants.
 
 Lower efficiency ceiling.
 
-Worse temperature performance.
+Worse temperature performance, which shows up as measurable yield loss during Indian summer peaks (see [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)).
 
 Lower bifaciality.
 
@@ -161,7 +161,7 @@ P-type PERC dominated Indian module manufacturing from 2020-2024.
 
 Major Indian PERC manufacturers transitioning to TOPCon n-type.
 
-ALMM List I still includes p-type PERC modules.
+ALMM List I still includes p-type PERC modules; see [ALMM List Phase III, Complete Guide for Buyers and EPCs 2026](/blog/almm-list-phase-iii-guide/) for the latest listing rules.
 
 PM Surya Ghar accepts both p-type and n-type modules.
 

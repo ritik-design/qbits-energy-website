@@ -1,7 +1,7 @@
 ---
-title: "How to Evaluate Solar Inverter Reliability, Quality & Testing: Complete EPC Guide 2026"
+title: "How to Evaluate Solar Inverter Reliability"
 excerpt: "EPCs building the strongest reputations select inverters systematically by reliability, quality, and testing rigour - not by lowest price. Here are the 9 reliability indicators, 8 quality red flags, and complete factory-to-field testing framework that predict 25-year performance."
-description: "Complete framework for evaluating solar inverter reliability, quality, and testing in India: 9 reliability indicators (components, certifications, factory testing, warranty, track record, weather protection, surge, monitoring, efficiency), 8 quality red flags, BIS/IEC testing standards, factory protocols, commissioning tests, and supplier verification checklist."
+description: "How EPCs evaluate solar inverter reliability and quality: 9 indicators, 8 red flags, and a factory-to-field testing framework for 25-year performance."
 category: "Buying Guide"
 date: 2026-05-08
 readTime: "15 min"
@@ -64,7 +64,7 @@ A single warranty event on a 100 kW commercial installation costs:
 - **₹2,000-3,000 per day** in downtime revenue loss during the RMA cycle (typically 7-14 days)
 - **Customer relationship damage** that erodes future referrals
 
-Multiplied across an EPC's annual project pipeline, the cost difference between reliability-led procurement and price-only procurement is typically 5-10% of total revenue. Reliability is not a quality nice-to-have - it is the core operational lever. EPCs running a [turnkey solar EPC operation](https://heavengreenenergy.com/solar-epc/) feel this compounding effect most directly, since a single warranty dispute on one project damages the referral pipeline for the next.
+Multiplied across an EPC's annual project pipeline, the cost difference between reliability-led procurement and price-only procurement is typically 5-10% of total revenue. Reliability is not a quality nice-to-have - it is the core operational lever. EPCs running a turnkey solar EPC operation feel this compounding effect most directly, since a single warranty dispute on one project damages the referral pipeline for the next.
 
 ## The 9 Critical Reliability Indicators
 

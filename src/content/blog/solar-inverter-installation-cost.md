@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Installation Cost in India, Real Numbers"
+title: "Solar Inverter Installation Cost, Real Numbers"
 excerpt: "Solar inverter installation cost in India ranges from ₹1.5 Lakh for 3 kW to ₹6 Lakh for 10 kW before subsidy. Get the full breakdown: panels, inverter, BOS, labour, net metering fees."
-description: "Real solar inverter installation cost data for India: 3 kW, 5 kW, and 10 kW system breakdowns, PM Surya Ghar subsidy impact, regional price variation, and 12 red flags in a solar quote."
+description: "Real solar inverter installation cost data for India: 3 kW, 5 kW, and 10 kW breakdowns, PM Surya Ghar subsidy impact, and 12 red flags in a solar quote."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -66,7 +66,7 @@ The table below shows the actual installed cost breakdown across the three most 
 | Commissioning & Documentation | ₹2,000–₹4,000 | ₹2,500–₹5,000 | ₹4,000–₹8,000 |
 | **Total Range (Before Subsidy)** | **₹1.5 L–₹2 L** | **₹2.5 L–₹3.5 L** | **₹4.5 L–₹6 L** |
 
-These numbers assume a standard flat concrete rooftop in a Tier-2 city, a mid-market 545 Wp mono panel, and a domestic on-grid inverter with [BIS certification](/glossary/bis-certification/). Deviations from each of these assumptions move the number, the sections below explain each driver. You can cross-check any of these figures against an independent [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) before signing an installer's quote.
+These numbers assume a standard flat concrete rooftop in a Tier-2 city, a mid-market 545 Wp mono panel, and a domestic on-grid inverter with [BIS certification](/glossary/bis-certification/). Deviations from each of these assumptions move the number, the sections below explain each driver. You can cross-check any of these figures against an independent solar cost and savings calculator before signing an installer's quote.
 
 According to [JMK Research's India Solar Market Update](https://jmkresearch.com/) (Q1 2026), residential solar installations in India crossed 2 GW of cumulative capacity in FY2025, with average per-watt installed costs declining 8–12% year-on-year as panel prices continued to fall globally.
 
@@ -145,7 +145,7 @@ Two quotes for a "5 kW solar system" can differ by ₹50,000–₹80,000. This s
 
 - **Inverter brand tier**: A budget no-name inverter saves ₹8,000–₹18,000 on day one but carries no meaningful warranty. A mid-tier BIS-certified domestic inverter with a 5-year warranty saves less upfront. A premium domestic brand with a 12-year full-replacement warranty costs the most initially but eliminates one full replacement cycle over 25 years. The [best solar inverter for home India guide](/blog/best-solar-inverter-for-home-india/) ranks the current field across warranty depth, service SLA, and ALMM status.
 - **Panel wattage and technology**: A quote using older 330 Wp poly panels needs more panels for the same capacity, increasing mounting and labour costs. A quote using 545–550 Wp mono half-cut panels is more space-efficient but commands a higher per-watt panel price. The net effect on total system cost is often minimal, but higher-wattage panels are better for rooftops with limited shadow-free area.
-- **Roof type and structural work**: Flat concrete rooftop installs are the baseline. Sloped tile roofs add ₹5,000–₹12,000. Metal sheet roofs add ₹3,000–₹8,000 for specialised clamps. Any roof requiring reinforced structural members (hollow slab, old construction, terrace with planters) can add ₹15,000–₹40,000 in [structural engineering work](https://heavendesigns.in/solar-civil-and-structural-engineering/).
+- **Roof type and structural work**: Flat concrete rooftop installs are the baseline. Sloped tile roofs add ₹5,000–₹12,000. Metal sheet roofs add ₹3,000–₹8,000 for specialised clamps. Any roof requiring reinforced structural members (hollow slab, old construction, terrace with planters) can add ₹15,000–₹40,000 in structural engineering work.
 - **Cable run length**: If your main DB panel is on the ground floor and the rooftop is 40 feet above, the AC cable run adds cost. Every 10 metres of additional 10 mm² AC cable adds roughly ₹600–₹900 in material alone.
 - **Earthing and protection hardware**: A complete earthing system with a copper rod, surge protection device on the DC string, and an AC-side SPD is mandatory for any system near a lightning-prone area. Some quotes include this; many do not. The omission saves ₹3,000–₹5,000 on paper but creates real safety and warranty risk.
 - **DISCOM application complexity**: Net metering applications in some states (parts of UP, Jharkhand, Odisha) require site inspection visits, notarised documents, and multiple rounds of DISCOM approvals. Installers who know local DISCOMs price the soft-cost risk correctly; those who do not will either underquote and then pass the cost to you or leave the application incomplete.

@@ -1,5 +1,5 @@
 ---
-title: "Enact Solar Alternative in 2026: 6 Tools Compared (SurgePV Wins)"
+title: "Enact Solar Alternative 2026: 6 Tools Compared"
 excerpt: "Enact Solar is solid for residential proposal-first workflows but engineering depth and multi-country scope are limited. Here are the 6 best Enact Solar alternatives in 2026."
 description: "Compare 6 best Enact Solar alternatives in 2026. SurgePV vs Enact on engineering depth, shading, bankable yield, multi-country tariffs. Book a demo."
 category: "Solar Software"

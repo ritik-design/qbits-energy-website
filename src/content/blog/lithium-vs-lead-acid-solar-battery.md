@@ -1,7 +1,7 @@
 ---
-title: "Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes"
+title: "Lithium vs Lead-Acid Solar Battery for Indian Homes"
 excerpt: "Lithium vs lead acid solar: LFP batteries cost 3× more upfront but deliver 10× the cycles, making them cheaper per kWh stored over a decade in Indian hybrid systems."
-description: "Compare lithium (LFP) vs lead-acid solar batteries for Indian homes on cycle life, DoD, temperature performance, maintenance, cost, and 10-year TCO. Decision framework included."
+description: "Compare lithium (LFP) vs lead-acid solar batteries for Indian homes on cycle life, depth of discharge, heat performance, maintenance, and 10-year cost."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08

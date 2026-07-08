@@ -1,5 +1,5 @@
 ---
-title: "Solar Design Software Germany: SurgePV vs PV*SOL 2026"
+title: "Solar Design Software Germany: SurgePV vs PV*SOL"
 excerpt: "Honest comparison of solar design software for German installers. VDE compliance, EEG tariff modelling, Mieterstrom, and how SurgePV stacks up against PV*SOL."
 description: "Compare solar design software Germany for 2026. VDE-AR-N 4105, EEG Einspeisevergütung, KfW, Mieterstrom, German proposals, and SurgePV vs PV*SOL pricing."
 category: "Solar Software"
@@ -90,7 +90,7 @@ The market has also changed. AI 3D from satellite imagery, browser-based collabo
 
 **Clara AI.** [Clara AI](https://surgepv.com/clara-ai) sits inside the platform and answers design questions, drafts customer email copy in German, and surfaces compliance flags as designers work.
 
-**AutoCAD DXF and DWG export.** Construction drawings export to AutoCAD formats that Netzbetreiber and [structural engineers](https://heavendesigns.in/solar-civil-and-structural-engineering/) accept, which removes the conversion step that older cloud tools forced.
+**AutoCAD DXF and DWG export.** Construction drawings export to AutoCAD formats that Netzbetreiber and structural engineers accept, which removes the conversion step that older cloud tools forced.
 
 For teams building German installation businesses, the platform is positioned as [solar design software for installers](https://surgepv.com/for-solar-installers) rather than a pure simulation tool.
 
@@ -139,9 +139,9 @@ Take a realistic example. A four-unit apartment building in Cologne with 80 squa
 
 **Step 2 layout.** Designer drops 24 modules at 415 watts each, totalling 9.96 kWp. Clara AI flags the chimney shadow on the western edge and recommends shifting two modules eastward. The 8,760-hour shading run confirms 3.1 percent annual loss after the shift.
 
-**Step 3 compliance.** VDE-AR-N 4105 profile applied. String voltage checked against DIN VDE 0100-712 at the coldest design temperature. Inverter selected at 8 kW with reactive power capability. [Single-line diagram](/glossary/single-line-diagram/) generated for the Netzbetreiber application.
+**Step 3 compliance.** VDE-AR-N 4105 profile applied. String voltage checked against DIN VDE 0100-712 at the coldest design temperature. An [on-grid inverter](/on-grid-inverter/) is selected at 8 kW with reactive power capability. [Single-line diagram](/glossary/single-line-diagram/) generated for the Netzbetreiber application.
 
-**Step 4 economics.** Expected yield is 9,400 kWh per year. Tenant base load across four units totals 11,200 kWh per year, so self-consumption hits roughly 62 percent of generation, equivalent to 5,830 kWh sold to tenants at 28 cents per kilowatt-hour Mieterstrom tariff. The 3,570 kWh surplus feeds in at the EEG residential surplus rate of 7.94 cents per kilowatt-hour. Mieterstromzuschlag applied where qualified. Annual landlord revenue lands at approximately €1,930 in tenant tariff plus EEG income, against a system cost of €14,500 and a battery upgrade option costed separately.
+**Step 4 economics.** Expected yield is 9,400 kWh per year. Tenant base load across four units totals 11,200 kWh per year, so self-consumption hits roughly 62 percent of generation, equivalent to 5,830 kWh sold to tenants at 28 cents per kilowatt-hour Mieterstrom tariff. The 3,570 kWh surplus feeds in at the EEG residential surplus rate of 7.94 cents per kilowatt-hour. Mieterstromzuschlag applied where qualified. Annual landlord revenue lands at approximately €1,930 in tenant tariff plus EEG income, against a system cost of €14,500 and a [hybrid inverter](/hybrid-inverter/) battery upgrade option costed separately.
 
 **Step 5 proposal.** German-language proposal generated with cover page, system schematic, yield chart, twenty-year cashflow, EEG income table, and KfW Erneuerbare Energien Standard financing reference. Sent to the landlord by email.
 

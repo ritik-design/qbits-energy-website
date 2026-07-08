@@ -171,7 +171,7 @@ Most utility bifacial uses glass-glass. Rooftop bifacial often uses transparent 
 
 ## Real-world applications
 
-[Utility-scale solar parks](https://surgepv.com/utility-scale-solar-design/). Bifacial is now standard for new [ground-mount](https://heavengreenenergy.com/ground-mount-solar-park/) projects above 5 MW.
+[Utility-scale solar parks](https://surgepv.com/utility-scale-solar-design/). Bifacial is now standard for new ground-mount projects above 5 MW.
 
 [Solar carports](/blog/solar-carport-design-software/) with reflective surfaces underneath.
 
@@ -302,7 +302,7 @@ Bifacial modules are the new standard for Indian utility solar and increasingly 
 
 ## Need bifacial-ready solar design?
 
-QBits Energy designs bifacial-optimised utility and C&I solar plants with [ground-condition surveys](https://heavendesigns.in/site-survey-land-feasibility-services/), mounting design and inverter sizing tailored to the actual albedo at your site.
+QBits Energy designs bifacial-optimised utility and C&I solar plants with ground-condition surveys, mounting design and inverter sizing tailored to the actual albedo at your site.
 
 ## Sources
 

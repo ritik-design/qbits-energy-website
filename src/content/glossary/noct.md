@@ -89,7 +89,7 @@ Mounting impact. Rooftop close-mount has higher effective NOCT than open ground-
 
 PR calculation. Operating temperature derating must be applied.
 
-PVsyst input. NOCT or operating temperature model required.
+PVsyst input. NOCT or operating temperature model required, as detailed in [PV Yield Simulation Software: 2026 Bankable Guide](/blog/pv-yield-simulation-software/).
 
 ## NOCT estimation
 
@@ -165,7 +165,7 @@ Document NOCT assumption in yield reports.
 
 ## Indian market context
 
-Indian rooftop close-mounting often raises effective NOCT.
+Indian rooftop close-mounting often raises effective NOCT, compounding the output loss covered in [Why Solar Inverters Produce Less in Indian Summer, Derating Explained](/blog/solar-inverter-summer-derating-india/).
 
 Major Indian module manufacturers report NOCT in datasheets.
 

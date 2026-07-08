@@ -1,7 +1,7 @@
 ---
-title: "Solar for School and College India, Complete Buyer's Guide"
+title: "Solar for School and College India"
 excerpt: "Solar for school India is ideal: daytime-only loads match solar generation perfectly, summer vacation produces exportable surplus, and on-grid systems pay back in 3–5 years."
-description: "Complete guide to solar for schools and colleges in India. Load analysis, on-grid vs RESCO, CBSE Green School, MNRE school solar programme, summer surplus, and the School Solar Load Audit."
+description: "Guide to solar for schools and colleges in India: load analysis, on-grid vs RESCO, CBSE Green School, and the MNRE school solar programme."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -149,7 +149,7 @@ For the full RESCO model explanation, see the [zero cost solar RESCO guide](/blo
 
 ## Worked ROI for a 1,000-Student Private School
 
-School management committees sizing their own scenario can cross-check the numbers below with a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/).
+School management committees sizing their own scenario can cross-check the numbers below with a solar savings calculator.
 
 | Parameter | Value |
 | --- | --- |
@@ -169,7 +169,7 @@ If the school qualifies for a MSME loan at 9% for 7 years, the EMI is approximat
 - **Not exploring RESCO for budget schools**: private unaided schools with thin margins immediately dismiss solar as a capital expense. RESCO eliminates the capex and delivers savings from month one.
 - **Skipping the DISCOM net metering application**: a school that installs solar but does not complete net metering loses the summer surplus credit, a significant portion of the annual return.
 - **Not factoring in CBSE GSP points**: for schools actively pursuing CBSE Green School certification, solar should be a line item in the sustainability strategy, not a separate decision.
-- **Installing on a structurally inadequate roof**: older school buildings with aging concrete roofs may require a [structural and civil engineering assessment](https://heavendesigns.in/solar-civil-and-structural-engineering/) before solar installation. Do not skip the structural check.
+- **Installing on a structurally inadequate roof**: older school buildings with aging concrete roofs may require a structural and civil engineering assessment before solar installation. Do not skip the structural check.
 
 For the full ALMM compliance and subsidy application process, read the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) and the [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/). [IRENA's 2025 report on renewable energy for education institutions](https://www.irena.org/Publications){target="_blank" rel="noopener"} documents that schools and universities in Asia represent one of the largest untapped rooftop solar opportunities globally, with consistent daytime load profiles and large roof areas per electricity-consuming unit. [JMK Research's India institutional solar market data](https://jmkresearch.com/){target="_blank" rel="noopener"} identifies the education sector as the second-fastest growing institutional solar segment in India after healthcare, driven by CBSE and UGC sustainability mandates. [IEA's data on India's energy transition](https://www.iea.org/countries/india){target="_blank" rel="noopener"} confirms that institutional and commercial solar in India is growing at 30%+ annually, with education and healthcare driving adoption in the 20–100 kW system size bracket. [SECI's government school solar scheme data](https://www.seci.co.in/){target="_blank" rel="noopener"} documents that over 10,000 government schools have installed solar under RESCO-based programmes in India as of 2025, with Tamil Nadu, Karnataka, and Rajasthan leading state-level programmes.
 

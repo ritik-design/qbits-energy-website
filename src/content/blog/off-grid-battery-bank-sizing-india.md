@@ -1,7 +1,7 @@
 ---
-title: "Off-Grid Solar Battery Bank Sizing, India Complete Guide"
+title: "Off-Grid Solar Battery Bank Sizing for India"
 excerpt: "Size your off-grid solar battery bank in India with the 5-Step Battery Bank Formula: daily load × autonomy days ÷ DoD + 20% heat buffer. Worked example for a rural Indian home included."
-description: "Off-grid solar battery bank sizing India: step-by-step 5-Step Battery Bank Formula, daily load calculation, autonomy days, DoD, temperature buffer for Indian conditions, and a Tier-3 village home example."
+description: "Off-grid solar battery bank sizing for India: the 5-Step Battery Bank Formula covering daily load, autonomy days, and depth of discharge."
 category: "Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -212,4 +212,4 @@ Qbits HS and HT series hybrid inverters support off-grid configuration with LiFe
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Verify your off-grid panel array string configuration before ordering.
 - **[Authorised Service Partners](/authorized-service-partners/)**: Service network in 280+ cities including Tier-2/3 markets most relevant for off-grid applications.
 
-[Talk to a Qbits engineer at contact-us](/contact-us/) about the right off-grid or hybrid configuration for your location, load profile, and grid reliability. If you still need to shortlist a local installer for the actual battery and panel installation, [Heaven Green Energy's installer directory](https://heavengreenenergy.com/solar-near-me/) covers rural and Tier-2/3 markets across India.
+[Talk to a Qbits engineer at contact-us](/contact-us/) about the right off-grid or hybrid configuration for your location, load profile, and grid reliability. If you still need to shortlist a local installer for the actual battery and panel installation, Heaven Green Energy's installer directory covers rural and Tier-2/3 markets across India.

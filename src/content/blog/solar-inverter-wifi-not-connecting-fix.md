@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Not Connecting to WiFi, Fix Guide India"
+title: "Solar Inverter Not Connecting to WiFi, Fix Guide"
 excerpt: "Solar inverter wifi not connecting? Fix it in minutes. Step-by-step guide covering 2.4 GHz vs 5 GHz, dongle reset, app pairing, and factory reset for Indian inverters."
-description: "Fix your solar inverter wifi connection in India. Diagnose 2.4 GHz vs 5 GHz issues, dongle resets, app pairing failures, router firewall blocks, and escalation paths."
+description: "Fix your solar inverter wifi connection: 2.4 GHz vs 5 GHz issues, dongle resets, app pairing failures, router firewall blocks, and escalation paths."
 category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -137,7 +137,7 @@ Sometimes the inverter hardware is connected correctly but the monitoring app ha
 
 - **Wrong account:** You logged into a different account than the one linked to the inverter. Verify you are using the same email or phone number used during initial setup.
 - **Region mismatch:** Some monitoring apps have regional servers, Indian accounts must use the India server endpoint. If you changed your app region setting, the inverter data will not appear.
-- **Inverter assigned to a different account:** If the system was installed by an [EPC](https://heavengreenenergy.com/solar-epc/) and they registered the inverter under their company account, the inverter may not appear under your personal account. Contact the installer to transfer ownership.
+- **Inverter assigned to a different account:** If the system was installed by an EPC and they registered the inverter under their company account, the inverter may not appear under your personal account. Contact the installer to transfer ownership.
 
 ## Step 8: Factory Reset and Re-Commission (Last Resort)
 

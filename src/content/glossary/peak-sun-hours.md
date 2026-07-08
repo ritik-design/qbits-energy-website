@@ -72,7 +72,7 @@ Peak Sun Hours (PSH) is a simplified measure of solar resource expressed as the 
 
 PSH (hours/day) = Daily GHI (kWh/m²/day) / 1 kW/m²
 
-For Indian sites, PSH ranges from 4.0 to 6.5 hours/day on annual average. PSH is widely used in residential and off-grid sizing because it gives an intuitive single number for daily solar resource.
+For Indian sites, PSH ranges from 4.0 to 6.5 hours/day on annual average. PSH is widely used in residential and off-grid sizing because it gives an intuitive single number for daily solar resource. See [Solar Irradiance Data India, State-Wise Peak Sun Hours](/blog/solar-irradiance-data-india-statewise/) for the full state and city breakdown behind the regional table below.
 
 ## Why PSH matters
 
@@ -141,6 +141,8 @@ PV size = (Daily load × autonomy factor) / (PSH × PR × battery efficiency)
 For 5 kWh daily load, 1.3 oversize, 5 PSH, 0.85 PR, 0.92 battery:
 PV size = (5 × 1.3) / (5 × 0.85 × 0.92) = 6.5 / 3.91 = 1.66 kWp
 
+See [Off-Grid Solar Battery Bank Sizing, India Complete Guide](/blog/off-grid-battery-bank-sizing-india/) for a full worked methodology covering autonomy days and depth of discharge.
+
 ### Seasonal variation (Delhi example)
 
 | Month | Approximate PSH |
@@ -165,7 +167,7 @@ Residential and small commercial solar sizing.
 
 Off-grid system design.
 
-Solar pumping capacity calculation.
+Solar pumping capacity calculation, for example sizing [solar inverters for water pumps](/blog/solar-inverter-for-water-pump/) against site PSH.
 
 Customer quick-estimate tools.
 

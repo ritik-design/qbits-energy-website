@@ -1,7 +1,7 @@
 ---
-title: "Pylontech Battery India, Review, Compatibility and Pricing"
+title: "Pylontech Battery India: Review & Pricing"
 excerpt: "Pylontech battery India review 2026: US2000C and US3000C pricing (₹60,000–₹80,000), 10-year warranty, CAN/RS485 BMS protocol, and compatibility with Qbits hybrid inverters. Full breakdown."
-description: "Pylontech battery India review 2026: US2000C and US3000C specifications, pricing ₹60,000–₹80,000 per module, CAN bus BMS compatibility, 10-year warranty, and how it performs in India's 45°C climate."
+description: "Pylontech battery India review: US2000C and US3000C pricing (₹60,000-80,000), 10-year warranty, CAN bus BMS protocol, and hybrid inverter compatibility."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -185,7 +185,7 @@ LiFePO4 chemistry is the most heat-tolerant lithium technology commercially avai
 | 3 BHK, 2 ACs | ~3,000W | 3 hours | 3× US3000C (9.45kWh usable) |
 | Small commercial | ~5,000W | 4 hours | 2× US5000 (8.64kWh usable) |
 
-The [off-grid battery bank sizing guide](/blog/off-grid-battery-bank-sizing-india/) provides the complete calculation methodology including temperature derating for Indian conditions. For small commercial deployments such as shops, clinics, or offices, sizing follows the same essential-load logic but with a different load profile, see Heaven Green Energy's [commercial solar installation](https://heavengreenenergy.com/commercial-solar/) guidance for load-side considerations beyond the battery itself.
+The [off-grid battery bank sizing guide](/blog/off-grid-battery-bank-sizing-india/) provides the complete calculation methodology including temperature derating for Indian conditions. For small commercial deployments such as shops, clinics, or offices, sizing follows the same essential-load logic but with a different load profile, see Heaven Green Energy's commercial solar installation guidance for load-side considerations beyond the battery itself.
 
 ## Common Mistakes When Buying Pylontech in India
 

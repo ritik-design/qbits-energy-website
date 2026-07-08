@@ -1,6 +1,7 @@
 ---
 title: "MNRE Rooftop Solar Scheme, Complete 2026 Guide"
 excerpt: "The MNRE rooftop solar scheme covers PM Surya Ghar subsidies, ALMM compliance, and empanelled vendor rules. Complete 2026 guide for homeowners and installers."
+description: "MNRE's PM Surya Ghar scheme gives up to ₹78,000 subsidy for rooftop solar in India. Guide to ALMM rules, empanelled vendors, and applications."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -43,7 +44,7 @@ The Ministry of New and Renewable Energy (MNRE) runs the largest residential sol
 > - The official target is 30 days from installation to subsidy disbursal, but the real-world average is 45 to 90 days depending on state DISCOM capacity.
 > - State schemes such as Surya Gujarat and Tamil Nadu's programme add a top-up subsidy on top of the central amount in most states.
 
-India's total installed rooftop solar capacity crossed 18 GW by early 2026, according to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}, with residential installations growing at over 40% annually, driven almost entirely by the PM Surya Ghar scheme, a pace of growth mirrored by the expansion of [residential solar installation](https://heavengreenenergy.com/residential-solar/) capacity among EPC firms nationally. The [ALMM list](/glossary/almm-list/) and empanelled vendor framework are the quality guardrails that make this possible at scale.
+India's total installed rooftop solar capacity crossed 18 GW by early 2026, according to [JMK Research](https://jmkresearch.com/){target="_blank" rel="noopener"}, with residential installations growing at over 40% annually, driven almost entirely by the PM Surya Ghar scheme, a pace of growth mirrored by the expansion of residential solar installation capacity among EPC firms nationally. The [ALMM list](/glossary/almm-list/) and empanelled vendor framework are the quality guardrails that make this possible at scale.
 
 ## MNRE's Policy Architecture: How the Scheme Is Structured
 
@@ -111,7 +112,7 @@ Your choice of empanelled vendor affects:
 3. **Service accountability**: Empanelled vendors are traceable through the portal; non-empanelled ones are not
 4. **Post-installation support**: The vendor's upload of your completion report is the trigger for your subsidy, vendors who disappear after installation leave you stranded
 
-The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) covers how to verify vendor empanelment status, what to include in your installation agreement, and what to do if your vendor fails to submit your completion report. Homeowners researching candidates before checking a name against the state's empanelled list can use a directory such as [finding a local solar installer](https://heavengreenenergy.com/solar-near-me/) to shortlist companies with an established residential track record in their pincode.
+The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) covers how to verify vendor empanelment status, what to include in your installation agreement, and what to do if your vendor fails to submit your completion report. Homeowners researching candidates before checking a name against the state's empanelled list can use a directory such as finding a local solar installer to shortlist companies with an established residential track record in their pincode.
 
 ## The MNRE 5-Step Application Process Framework
 

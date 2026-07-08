@@ -1,7 +1,7 @@
 ---
-title: "How to Find a Reliable Solar Installer in India, 8 Verification Steps"
+title: "How to Find a Reliable Solar Installer, 8 Steps"
 excerpt: "Finding a reliable solar installer in India protects your ₹1.5–2.5 lakh investment. Use these 8 verification steps to avoid bad contractors and costly re-installations."
-description: "Reliable solar installer India: 8 verification steps covering PM Surya Ghar empanelment, ALMM equipment, DISCOM commissioning record, licensed electricians, AMC terms, and more."
+description: "Reliable solar installer India: 8 verification steps covering PM Surya Ghar empanelment, ALMM equipment, DISCOM commissioning record, and AMC terms."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -80,7 +80,7 @@ This proprietary framework provides a repeatable, evidence-based method to evalu
 7. **Post-Installation Monitoring Setup**: Confirm the installer will configure your inverter's monitoring system and that you will receive a live generation alert before they leave the site.
 8. **AMC Offer and Terms**: Require a written Annual Maintenance Contract specifying visit frequency, fault response time (target: 48–72 hours), scope of work, and price.
 
-Apply this checklist to every installer you shortlist. Any installer who refuses to provide information for any of these eight steps should be disqualified without negotiation. If you have not yet built a shortlist, a [local installer directory such as Heaven Green Energy's](https://heavengreenenergy.com/solar-near-me/) is a reasonable starting point, provided you still run every candidate through the checklist below.
+Apply this checklist to every installer you shortlist. Any installer who refuses to provide information for any of these eight steps should be disqualified without negotiation. If you have not yet built a shortlist, a local installer directory such as Heaven Green Energy's is a reasonable starting point, provided you still run every candidate through the checklist below.
 
 ## Step 1: Verify PM Surya Ghar Empanelment on the MNRE Portal
 

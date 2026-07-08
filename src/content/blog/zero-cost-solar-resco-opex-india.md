@@ -1,7 +1,7 @@
 ---
-title: "Zero Cost Solar India, RESCO and OPEX Models Explained"
+title: "Zero Cost Solar India: RESCO & OPEX Models"
 excerpt: "Zero cost solar India via RESCO: pay ₹4–6/unit instead of ₹8–12 grid tariff, with no upfront capex. Understand PPA contracts, OPEX models, and the RESCO Due Diligence Checklist."
-description: "How zero cost solar works in India via RESCO and OPEX models. PPA tariff comparison, who offers RESCO, contract terms, exit clauses, and what happens after 15 years."
+description: "How zero cost solar works in India via RESCO and OPEX models: PPA tariff comparison, who offers RESCO, contract terms, and what happens after 15 years."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -105,7 +105,7 @@ Fourth Partner focuses on the mid-market (100 kW–2 MW range) and is particular
 
 ### CleanMax Solar
 
-CleanMax is one of India's pioneering RESCO developers, with installations across manufacturing, pharma, food processing, and IT parks. They offer both rooftop PPA and open-access (ground-mounted, long-distance PPA) structures. CleanMax is particularly strong in contracts for large multi-location corporate accounts. Buyers managing similar multi-site rollouts often engage independent [MW-scale project management](https://heavendesigns.in/mw-scale-project-management-consultancy/) support to standardise due diligence across locations.
+CleanMax is one of India's pioneering RESCO developers, with installations across manufacturing, pharma, food processing, and IT parks. They offer both rooftop PPA and open-access (ground-mounted, long-distance PPA) structures. CleanMax is particularly strong in contracts for large multi-location corporate accounts. Buyers managing similar multi-site rollouts often engage independent MW-scale project management support to standardise due diligence across locations.
 
 ### Smaller and Regional RESCO Providers
 
@@ -171,7 +171,7 @@ Negotiate the preferred exit clause explicitly at the time of signing, do not le
 
 Qbits primarily serves [CAPEX](/glossary/capex/) (ownership) buyers, homeowners, EPCs, and C&I buyers who want to own their solar system. For C&I buyers evaluating RESCO vs CAPEX, Qbits provides the inverter component under the CAPEX model, paired with 3-phase commercial inverters (50 kW to 125 kW), IP66 enclosures for industrial environments, and the AI WhatsApp monitoring system that tracks fleet performance across multiple sites.
 
-For C&I buyers who decide CAPEX ownership is the right call (because they own the building, have long tenure, or have access to low-cost institutional financing) Qbits delivers the inverter side of the equation with India's strongest service SLA, while a turnkey [commercial solar EPC partner](https://heavengreenenergy.com/commercial-solar/) can handle installation and mounting alongside it.
+For C&I buyers who decide CAPEX ownership is the right call (because they own the building, have long tenure, or have access to low-cost institutional financing) Qbits delivers the inverter side of the equation with India's strongest service SLA, while a turnkey commercial solar EPC partner can handle installation and mounting alongside it.
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD 3-phase series for industrial and commercial installations from 20 kW to 100 kW.
 - **[C&I Solutions](/c-i-solution/)**: complete commercial solar solutions with site assessment, system design, and ALMM-compliant equipment.

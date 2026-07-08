@@ -1,7 +1,7 @@
 ---
-title: "Solar System for 2 BHK India, Sizing, Cost, and Best Picks"
+title: "Solar System for 2 BHK India, Sizing and Cost"
 excerpt: "A 2 BHK Indian home needs a 3kW solar system. Monthly consumption is 400–550 units. Net cost after ₹78,000 PM Surya Ghar subsidy is ₹72,000–₹1,30,000. Complete sizing guide inside."
-description: "Right-sized solar for a 2 BHK Indian home: load calculation, why 3kW is the standard, PM Surya Ghar subsidy, net cost breakdown, payback period, and the best inverter picks for 2 BHK homes."
+description: "Right-sized solar for a 2 BHK Indian home: load calculation, why 3kW is standard, PM Surya Ghar subsidy, net cost breakdown, and the best inverter picks."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -80,7 +80,7 @@ A 3kW solar system in central India generates 13 to 16 kWh/day, covering the loa
 1. **Solar panels**: 5 to 6 panels of 530–575 Wp for a 3kW system. At ₹22–₹26/Wp: ₹66,000–₹78,000 for panels alone.
 2. **Inverter**: A 3kW [ALMM-listed](/blog/almm-list-phase-iii-guide/) on-grid inverter: ₹18,000–₹35,000. Hybrid inverters cost ₹40,000–₹70,000 for the same capacity.
 3. **Balance of System**: Mounting structure, DC and AC cables, junction box, SPDs, earthing, net meter interface. For 3kW: ₹22,000–₹35,000.
-4. **Installation and commissioning**: Labour, DISCOM net metering application, commissioning inspection, similar to the [residential solar installation](https://heavengreenenergy.com/residential-solar/) workflow EPCs follow nationwide. For 3kW: ₹14,000–₹22,000.
+4. **Installation and commissioning**: Labour, DISCOM net metering application, commissioning inspection, similar to the residential solar installation workflow EPCs follow nationwide. For 3kW: ₹14,000–₹22,000.
 5. **GST**: Approximately 12% on the total system. For a 3kW system: ₹14,000–₹20,000.
 
 Full 3kW cost table for a 2 BHK:
@@ -187,7 +187,7 @@ These echo the broader patterns in our [solar inverter buying mistakes guide](/b
 - **Choosing an inverter based on brand recognition alone**: Luminous and Microtek have strong UPS brand recognition, but their solar inverters differ significantly in warranty (typically 2–5 years) and ALMM compliance status versus Qbits' 12-year warranty. The [solar inverter buying guide for homeowners](/blog/how-to-choose-solar-inverter-for-home-india/) covers the evaluation criteria.
 - **Skipping shadow analysis**: A 3kW system on a 2 BHK terrace with a water tank, staircase, or neighbouring building shadow can produce like a 2kW system. Request a [shadow analysis](https://surgepv.com/shadow-analysis/) report from your installer before signing.
 - **Not verifying GST invoice**: The PM Surya Ghar subsidy claim requires a proper GST invoice from an empanelled installer. An unregistered installer cannot process the subsidy. Read the [GST on solar systems guide](/blog/gst-on-solar-inverters-2026/) to understand what to check.
-- **Ignoring the installer's net metering track record**: Some installers commission the panels but delay or skip the DISCOM net metering application. [Vet the installer's track record](https://heavengreenenergy.com/solar-near-me/) before signing, without net metering, surplus power is wasted.
+- **Ignoring the installer's net metering track record**: Some installers commission the panels but delay or skip the DISCOM net metering application. Vet the installer's track record before signing, without net metering, surplus power is wasted.
 
 ## Where Qbits Fits for a 2 BHK Home
 

@@ -1,5 +1,6 @@
 ---
-title: "Solar Subsidy in Bihar 2026, BSPHCL + Power-Cut Context"
+title: "Solar Subsidy in Bihar 2026, BSPHCL Guide"
+description: "Bihar solar subsidy 2026: up to ₹78,000 central PM Surya Ghar via BSPHCL. Why hybrid beats on-grid given power cuts, plus eligibility and steps."
 excerpt: "Solar subsidy in Bihar 2026: ₹78,000 central PM Surya Ghar via BSPHCL. Power cuts make hybrid solar essential. Full eligibility, BSPHCL process, and guide."
 category: "Policy"
 date: 2026-06-05
@@ -97,7 +98,7 @@ Select the correct entity on the portal. Entering the wrong consumer number unde
 3. **Complete Aadhaar eKYC**: Enter Aadhaar number, receive OTP on your Aadhaar-linked mobile.
 4. **Upload documents**: Latest BSPHCL bill, Aadhaar, PAN, bank passbook, property proof. Rural applicants may include a self-declaration letter if formal title documents are unavailable.
 5. **DISCOM feasibility visit**: A BSPHCL field engineer assesses your roof. District towns: 3 to 5 weeks. Rural areas: 4 to 7 weeks.
-6. **Select empanelled vendor**: Vendor density is highest in Patna; rural districts may have only 2 to 5 vendor choices. Get quotes from at least 2 vendors before confirming, and if you are struggling to find a district-level installer, [Heaven Green Energy's installer locator](https://heavengreenenergy.com/solar-near-me/){target="_blank" rel="noopener"} is a useful starting point for identifying EPC contractors serving Bihar.
+6. **Select empanelled vendor**: Vendor density is highest in Patna; rural districts may have only 2 to 5 vendor choices. Get quotes from at least 2 vendors before confirming, and if you are struggling to find a district-level installer, Heaven Green Energy's installer locator{target="_blank" rel="noopener"} is a useful starting point for identifying EPC contractors serving Bihar.
 7. **Installation, meter replacement, inspection**: Installation: 2 to 3 days. BSPHCL meter replacement: 30 to 60 days. Subsidy: 20 to 30 days after inspection.
 
 ## Choosing the Right System for Bihar

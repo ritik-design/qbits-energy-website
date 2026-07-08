@@ -152,7 +152,7 @@ Sweet spot around 1.30 for monofacial fixed-tilt at Indian conditions.
 
 ## Real-world applications
 
-[Utility solar plant design](https://heavengreenenergy.com/ground-mount-solar-park/).
+Utility solar plant design.
 
 [C&I rooftop sizing](/c-i-solution/).
 

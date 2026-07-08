@@ -1,6 +1,7 @@
 ---
 title: "What to Expect in Year 1 of Solar Ownership India"
 excerpt: "Solar Year 1 in India: DISCOM delays in Month 1, first net metering bill in Month 2, monsoon dip in Month 6, and annual review in Month 12. The Solar Year-1 Calendar explained."
+description: "What to expect in Year 1 of solar ownership in India: DISCOM delays in Month 1, your first net metering bill, the monsoon dip, and the annual review."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -126,7 +127,7 @@ The 12-month mark is the time for a formal Year 1 review. Complete all of the fo
 **Financial review:**
 - Total annual generation (from monitoring app) vs installer's Year 1 estimate
 - Total bill savings (from DISCOM bills before and after solar)
-- Payback progress: Year 1 savings ÷ System cost = percentage of capital recovered. A [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) can project the remaining payback timeline using your actual Year 1 numbers.
+- Payback progress: Year 1 savings ÷ System cost = percentage of capital recovered. A solar savings calculator can project the remaining payback timeline using your actual Year 1 numbers.
 
 **Technical review (do this with your installer or service partner):**
 - String voltage check with a multimeter, verify each string is producing expected voltage
@@ -135,7 +136,7 @@ The 12-month mark is the time for a formal Year 1 review. Complete all of the fo
 - Inverter error log review, are there recurring fault codes that were not reported?
 - Warranty registration confirmation, both panels and inverter
 
-**Documentation:** File your Year 1 annual review report (from the service visit), all DISCOM bills from the past 12 months, monitoring app annual generation report, and [warranty](/blog/solar-inverter-warranty/) certificate copies. These documents are essential for any future warranty claim. If your installer did not hand over an as-built record at commissioning, a [post-installation as-built design report](https://heavendesigns.in/solar-post-design/) is worth requesting now, it becomes useful for insurance claims and resale documentation.
+**Documentation:** File your Year 1 annual review report (from the service visit), all DISCOM bills from the past 12 months, monitoring app annual generation report, and [warranty](/blog/solar-inverter-warranty/) certificate copies. These documents are essential for any future warranty claim. If your installer did not hand over an as-built record at commissioning, a post-installation as-built design report is worth requesting now, it becomes useful for insurance claims and resale documentation.
 
 The [solar annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/) provides the full 10-point technical checklist for the Year 1 review and every subsequent year.
 

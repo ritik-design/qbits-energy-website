@@ -94,7 +94,7 @@ All included on every paid plan at $1,299 to $1,899 per user per year.
 
 ## Limitations to Know
 
-Satellite-derived AI 3D struggles on sites with very dense tree canopy, very recent construction not yet in current imagery, and unusual geometry like curved roofs. For those sites, drone capture remains the right call, a proper [site survey and land feasibility](https://heavendesigns.in/site-survey-land-feasibility-services/) check is worth the trip, and SurgePV supports drone-model import as a base layer.
+Satellite-derived AI 3D struggles on sites with very dense tree canopy, very recent construction not yet in current imagery, and unusual geometry like curved roofs. For those sites, drone capture remains the right call, a proper site survey and land feasibility check is worth the trip, and SurgePV supports drone-model import as a base layer.
 
 ## Who Should Choose Each Approach
 

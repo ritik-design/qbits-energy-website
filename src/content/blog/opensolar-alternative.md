@@ -1,7 +1,7 @@
 ---
-title: "OpenSolar Alternative in 2026: 6 Tools Compared (SurgePV Wins)"
+title: "OpenSolar Alternative 2026: 6 Tools Compared"
 excerpt: "OpenSolar's free tier add-ons stack quickly and C&I shading gets thin. Compare the 6 best OpenSolar alternatives in 2026. SurgePV upgrade path from $1,299/yr."
-description: "Honest comparison of the 6 best OpenSolar alternatives in 2026 for installers growing past residential. SurgePV vs OpenSolar on shading, hardware integrations, financial modelling, proposals, and the true total cost when add-ons kick in."
+description: "Honest comparison of the 6 best OpenSolar alternatives for installers growing past residential, on shading, hardware integrations, and true total cost."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -60,7 +60,7 @@ OpenSolar's shading model is fine for straightforward residential rooftops with 
 
 ### Hardware integrations and lock-in
 
-OpenSolar's hardware integrations are useful, but the model encourages routing certain manufacturers and add-ons through the platform. Teams that want hardware neutrality and a clean BOQ export sometimes find this constraining.
+OpenSolar's hardware integrations are useful, but the model encourages routing certain manufacturers and add-ons through the platform. Teams that want hardware neutrality and a clean BOQ export sometimes find this constraining. Installers who prefer to shop inverters on spec rather than platform routing can pull datasheets straight from a manufacturer's [full product catalog](/our-products/), including the [C&I-scale packages](/c-i-solution/) for projects that outgrow simple residential add-ons.
 
 ### Proposal output and brand control
 

@@ -1,7 +1,7 @@
 ---
 title: "Inverter Overheating: 18 Critical Questions Answered"
 excerpt: "Indian rooftop temperatures regularly exceed 45°C, pushing inverters into thermal derating and shutdown. This guide answers the 18 most common questions on solar inverter overheating, causes, warning signs, and prevention."
-description: "Complete guide to solar inverter overheating in India, causes, thermal derating thresholds, warning signs, prevention strategies, IP66 weather protection, and how to select inverters that resist 50°C+ ambient conditions."
+description: "Solar inverter overheating in India: causes, thermal derating thresholds, warning signs, and how to pick inverters that resist 50°C+ heat."
 category: "Maintenance"
 date: 2026-04-04
 readTime: "10 min"
@@ -122,7 +122,7 @@ Extreme overheating risks component failure, electrical arcing, smoke, or fire.
 - **Prefer:** shaded areas, north-facing walls, under stairwells, beneath shade structures
 - **Avoid:** enclosed spaces, metal enclosures, near heat-generating equipment
 
-Factory floors are the toughest case for this rule, inverters on an [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) sit near compressors, welding equipment, and VFDs that all add ambient heat on top of the rooftop temperature itself.
+Factory floors are the toughest case for this rule, inverters on an industrial solar installation sit near compressors, welding equipment, and VFDs that all add ambient heat on top of the rooftop temperature itself.
 
 ### Ventilation Clearances
 
@@ -135,7 +135,7 @@ A shade canopy **30–40 cm above the inverter** reduces surface temperatures by
 
 ### Orientation
 
-North- or east-facing preferred, minimises direct sun during peak heat hours (11 AM–4 PM). For new installations, this placement decision is best made at the [detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) stage rather than adjusted after the inverter is already mounted.
+North- or east-facing preferred, minimises direct sun during peak heat hours (11 AM–4 PM). For new installations, this placement decision is best made at the detailed engineering design stage rather than adjusted after the inverter is already mounted.
 
 ### IP66 Weather Protection
 

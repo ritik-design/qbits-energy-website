@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Components: 7 Critical Parts to Inspect"
+title: "Solar Inverter Components: 7 Parts to Inspect"
 excerpt: "An inverter is only as reliable as its weakest component. Here are the 7 parts that determine whether a system runs 25 years or fails in 5."
-description: "Component-level guide to solar inverter quality, capacitors, IGBTs, PCBs, cooling systems, transformers, surge protection devices, and microcontrollers. German-grade vs standard, with verification checklists."
+description: "Component-level guide to solar inverter quality: capacitors, IGBTs, PCBs, cooling systems, transformers, and surge protection devices."
 category: "Technology"
 date: 2026-04-08
 updatedDate: 2026-07-08
@@ -111,7 +111,7 @@ Critical in India's unstable grid conditions.
 | 20–40 kA | Premium |
 | 10 kA | Inadequate for Indian conditions |
 
-Integrated SPDs are factory-tuned and have fewer failure points than add-on units. A properly rated [SPD](/glossary/spd/) is typically housed alongside the [AC and DC distribution boxes](https://heavengreenenergy.com/products/acdb-dcdb/) at the inverter's input and output terminals.
+Integrated SPDs are factory-tuned and have fewer failure points than add-on units. A properly rated [SPD](/glossary/spd/) is typically housed alongside the AC and DC distribution boxes at the inverter's input and output terminals.
 
 ## 7. Microcontrollers and Communication Modules
 
@@ -162,8 +162,8 @@ This is the same total-cost-of-ownership math covered in the [inverter TCO guide
 6. Testing protocols and defect rates? The [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) guide covers the testing and quality checks EPCs should request.
 7. Relevant certifications (BIS, IEC, VDE)?
 
-Buyers comparing complete inverter units rather than individual components can browse [solar inverters](https://heavengreenenergy.com/products/solar-inverters/) alongside these questions to see how different brands disclose their bill of materials.
+Buyers comparing complete inverter units rather than individual components can browse [Qbits' on-grid and hybrid inverter range](/our-products/) alongside these questions to see how different brands disclose their bill of materials.
 
 ## Bottom Line
 
-The brand on the box matters less than the components inside it. Capacitor temperature rating, IGBT manufacturer, PCB construction, and SPD ratings determine whether you are buying 5 years or 20 years of reliable operation. The 20–30% premium for German-grade components is the most ROI-positive procurement decision in solar.
+The brand on the box matters less than the components inside it. Capacitor temperature rating, IGBT manufacturer, PCB construction, and SPD ratings determine whether you are buying 5 years or 20 years of reliable operation. The 20–30% premium for German-grade components is the most ROI-positive procurement decision in solar. Qbits builds every [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) to this component standard as the default, not as an upsell.

@@ -1,7 +1,7 @@
 ---
-title: "Anti-Islanding Protection in Solar Inverters, India Explained"
+title: "Anti-Islanding Protection in Solar Inverters"
 excerpt: "Anti-islanding protection stops your solar inverter from feeding power into a dead grid, protecting linemen and meeting IEC 62116 and CEA Grid Code 2020 mandates."
-description: "Learn what anti-islanding protection is, how ROCOF and vector shift detection work, IEC 62116 requirements, and how Qbits inverters pass DISCOM commissioning inspections."
+description: "What anti-islanding protection is, how ROCOF and vector shift detection work, IEC 62116 requirements, and how Qbits inverters pass DISCOM inspections."
 category: Technology
 date: 2026-06-05
 readTime: "17 min"
@@ -157,7 +157,7 @@ The inspector will ask for:
 
 - **IEC 62116 / IS/IEC 62116 test certificate** for the exact model and firmware version installed.
 - **Commissioning report** confirming protection relay settings match CEA Grid Code 2020 requirements.
-- **Single-line diagram** showing the connection point, [isolators](https://heavengreenenergy.com/products/acdb-dcdb/), and protection relay locations, typically prepared as part of the [electrical and CEIG drawing package](https://heavendesigns.in/electrical-ceig-drawings/) an EPC submits to the DISCOM.
+- **Single-line diagram** showing the connection point, isolators, and protection relay locations, typically prepared as part of the electrical and CEIG drawing package an EPC submits to the DISCOM.
 
 If the inverter brand's local distributor cannot produce these documents, the commissioning process stalls. EPC teams who work with Qbits receive a pre-formatted commissioning pack that includes the IEC 62116 certificate, the CEA Grid Code compliance declaration, and the [single-line diagram](/glossary/single-line-diagram/) template, reducing inspection preparation time significantly.
 

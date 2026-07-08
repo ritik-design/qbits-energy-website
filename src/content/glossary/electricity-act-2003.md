@@ -174,7 +174,7 @@ REC trading on power exchanges operates under CERC frameworks rooted in the Act.
 
 Open access for solar procurement is a growing trend, especially in Karnataka, Maharashtra, Andhra Pradesh and Tamil Nadu.
 
-Captive solar under Section 9 has grown significantly for C&I customers seeking sustainability and cost reduction, often delivered through [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) programmes.
+Captive solar under Section 9 has grown significantly for C&I customers seeking sustainability and cost reduction, often delivered through industrial solar installation programmes.
 
 ## Standards and references
 

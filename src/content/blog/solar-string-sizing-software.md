@@ -79,7 +79,7 @@ The design canvas runs string sizing as soon as a module and inverter are select
 | AS/NZS 4777.2 | Australia | Temperature-coefficient-derived |
 | IS 16221 | India | Datasheet + cold-extreme margin |
 
-SurgePV applies the relevant code margin based on the project's site location. For India-specific string sizing and overcurrent protection reference values, see our [solar string sizing and OCP guide](/blog/solar-string-sizing-ocp-india/). For projects that need a fully stamped compliance package beyond the calculator output, EPCs often turn to a dedicated [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) service.
+SurgePV applies the relevant code margin based on the project's site location. For India-specific string sizing and overcurrent protection reference values, see our [solar string sizing and OCP guide](/blog/solar-string-sizing-ocp-india/). For projects that need a fully stamped compliance package beyond the calculator output, EPCs often turn to a dedicated rooftop detailed engineering design service.
 
 ## Solar String Sizing Across Competing Tools
 

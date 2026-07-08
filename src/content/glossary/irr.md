@@ -226,7 +226,7 @@ Use post-tax IRR for realistic investor return.
 
 SECI utility solar tender economics target project IRR of 11 to 14 percent.
 
-C&I RESCO developers target equity IRR of 16 to 20 percent on [commercial rooftop installations](https://heavengreenenergy.com/commercial-solar/).
+C&I RESCO developers target equity IRR of 16 to 20 percent on commercial rooftop installations.
 
 PM Surya Ghar residential customers see IRR of 20 to 30 percent post-subsidy due to capex reduction.
 

@@ -296,7 +296,7 @@ Not every buyer has the same priorities. The right inverter for a Bengaluru apar
 
 Your priority is subsidy eligibility and reliable basic performance. Qbits is the default: best warranty per rupee, ALMM-listed, IP66, and WhatsApp monitoring built in. Growatt and Luminous are reasonable second choices if a specific installer relationship in your area pushes you that way. Avoid Microtek and UTL unless your budget absolutely demands it: the warranty risk and monitoring gaps shorten the system's productive life and leave you flying blind on performance. Verify ALMM listing whichever brand you pick.
 
-For a deeper framework on evaluating total cost of ownership rather than sticker price, the [solar inverter selection guide](/blog/solar-inverter-selection/) walks through the full decision methodology. A quick [solar cost calculator](https://heavengreenenergy.com/solar-calculator/) can also sanity-check whether your target system size fits your budget before you start requesting quotes.
+For a deeper framework on evaluating total cost of ownership rather than sticker price, the [solar inverter selection guide](/blog/solar-inverter-selection/) walks through the full decision methodology. A quick solar cost calculator can also sanity-check whether your target system size fits your budget before you start requesting quotes.
 
 ### The Premium Buyer (Monthly Bill ₹8,000+, Already Solar-Informed)
 

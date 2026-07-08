@@ -1,7 +1,7 @@
 ---
-title: "Luminous vs Microtek Solar Inverter: Indian Brands Compared 2026"
+title: "Luminous vs Microtek Solar Inverter Compared"
 excerpt: "Luminous vs Microtek solar inverter compared on warranty, monitoring, price, and after-sales. A neutral verdict for Indian homeowners choosing in 2026."
-description: "Comparing Luminous and Microtek solar inverters on warranty, ALMM status, monitoring app quality, price, and 10-year ownership cost. Includes a worked 3 kW example and honest verdict."
+description: "Comparing Luminous and Microtek solar inverters on warranty, ALMM status, monitoring app, price, and 10-year ownership cost, with an honest verdict."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -204,7 +204,7 @@ Both Luminous and Microtek have national service networks built over decades of 
 
 The service experience reported by buyers on forums such as [Reddit's r/india](https://www.reddit.com/r/india/) and consumer forums consistently highlights two themes: (1) Luminous service centres are easier to find and slightly faster, and (2) neither brand offers the 72-hour RMA SLA that solar-native manufacturers with dedicated solar service infrastructure have established as the new standard.
 
-For a homeowner in Tier-3 India, the practical question is not which brand's national service network is larger, it is which brand has a qualified technician within 50 km who can diagnose a solar inverter fault correctly. That question deserves a local answer, not a national marketing claim. Buyers who have not yet finalised an installer can cross-check coverage using [HeavenGreen Energy's installer finder](https://heavengreenenergy.com/solar-near-me/) before locking in a brand and service commitment together.
+For a homeowner in Tier-3 India, the practical question is not which brand's national service network is larger, it is which brand has a qualified technician within 50 km who can diagnose a solar inverter fault correctly. That question deserves a local answer, not a national marketing claim. Buyers who have not yet finalised an installer can cross-check coverage using HeavenGreen Energy's installer finder before locking in a brand and service commitment together.
 
 ## Pros and Cons: Luminous vs Microtek at a Glance
 

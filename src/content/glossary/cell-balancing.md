@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 Cell balancing is the process of equalising voltages across individual cells in a battery pack with cells connected in series. Without balancing, manufacturing tolerances, temperature differences and aging variations cause cells to drift apart in voltage, leading to reduced pack capacity (limited by the weakest cell), accelerated degradation and potential safety issues.
 
-The Battery Management System (BMS) implements balancing through two approaches:
+The [Battery Management System (BMS)](/blog/bms-hybrid-solar-inverter-explained/) implements balancing through two approaches:
 
 Passive balancing: dissipates excess charge from higher-voltage cells through small resistors. Excess energy converted to heat. Simple and cheap but wastes energy.
 
@@ -147,7 +147,7 @@ Balancing maintains usable capacity through aging.
 
 All lithium-ion battery packs with cells in series.
 
-Residential and C&I solar storage.
+Residential and C&I solar storage, where correct [hybrid inverter battery sizing](/blog/battery-sizing-hybrid-solar/) assumes the pack stays balanced across its rated DOD.
 
 EVs and electric two-wheelers.
 
@@ -179,7 +179,7 @@ Supports older cells better.
 
 ## Indian market context
 
-Indian LFP residential packs (Pylon Tech, BYD, Goodwe, Sungrow) use passive balancing standard.
+Indian LFP residential packs, including [Pylontech](/blog/pylontech-battery-india-review/), BYD, Goodwe and Sungrow, use passive balancing standard.
 
 Premium packs and EV packs increasingly use active balancing.
 

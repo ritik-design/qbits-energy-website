@@ -1,7 +1,7 @@
 ---
-title: "HDFC Solar Loan India 2026, Rates, Eligibility, and Process"
+title: "HDFC Solar Loan India 2026: Rates & Eligibility"
 excerpt: "HDFC solar loan options include Green Home Loan for owner-occupied properties and Personal Loan for others. Compare rates, eligibility, and subsidy integration before applying."
-description: "Complete guide to HDFC solar loan 2026: Green Home Loan vs Personal Loan, interest rates, documentation, processing time, and PM Surya Ghar subsidy integration."
+description: "Guide to HDFC solar loan 2026: Green Home Loan vs Personal Loan, interest rates, documentation, processing time, and PM Surya Ghar subsidy integration."
 category: Policy
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -156,7 +156,7 @@ The HDFC Personal Loan matches IREDA's total interest outgo at a 5-year tenure, 
 
 ### The HDFC Solar Loan Decision Tree
 
-Before working through the loan amount question, it helps to confirm the system size and payback assumptions with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/), the loan amount should match what the roof and consumption profile actually justify, not just what a vendor quotes.
+Before working through the loan amount question, it helps to confirm the system size and payback assumptions with a solar cost and savings calculator, the loan amount should match what the roof and consumption profile actually justify, not just what a vendor quotes.
 
 This framework helps you identify your optimal financing path in four questions:
 
@@ -201,7 +201,7 @@ HDFC's valuator visits the property within 3–5 working days. The property's fa
 On approval, HDFC issues a sanction letter. Disbursement is made either directly to the solar vendor (preferred for documentation purposes) or to the applicant's bank account.
 
 **Step 7: Solar Installation and Subsidy Application**
-The empanelled vendor installs the [residential solar system](https://heavengreenenergy.com/residential-solar/), [applies for net metering](/blog/how-to-apply-net-metering-india/) via the state [DISCOM](/glossary/discom/), and registers the installation on the [PM Surya Ghar portal](/blog/pm-surya-ghar-apply-online/). Once DISCOM verification is complete, the subsidy is credited directly to the homeowner's bank account, typically within 30–90 days of grid connection.
+The empanelled vendor installs the residential solar system, [applies for net metering](/blog/how-to-apply-net-metering-india/) via the state [DISCOM](/glossary/discom/), and registers the installation on the [PM Surya Ghar portal](/blog/pm-surya-ghar-apply-online/). Once DISCOM verification is complete, the subsidy is credited directly to the homeowner's bank account, typically within 30–90 days of grid connection.
 
 **Step 8: Prepay with Subsidy**
 Once the subsidy is credited, use it to prepay a lump sum on the HDFC loan. HDFC typically allows partial prepayment on home loans after 12 months without foreclosure penalty.

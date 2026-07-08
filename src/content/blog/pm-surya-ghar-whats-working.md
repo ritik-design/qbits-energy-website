@@ -1,7 +1,7 @@
 ---
-title: "PM Surya Ghar, What Works, What Does Not, and What Must Change"
+title: "PM Surya Ghar: What Works, What Doesn't"
 excerpt: "An honest pm surya ghar opinion from inside the industry: the portal works, ALMM standards are real, but DISCOM backlogs and apartment exclusions are stalling 30 million rooftops."
-description: "Founder POV on PM Surya Ghar Muft Bijli Yojana, what the scheme has achieved, where structural bottlenecks persist, and three changes that would double adoption rates."
+description: "An honest PM Surya Ghar assessment from the industry: the portal works, ALMM standards are real, but DISCOM backlogs are stalling 30 million rooftops."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -30,7 +30,7 @@ faqs:
   - q: "What three policy changes would most improve PM Surya Ghar adoption?"
     a: "The three highest-impact changes are: (1) Mandatory 60-day DISCOM processing SLA with automatic subsidy top-up if the DISCOM misses it - this one change would resolve most homeowner frustration. (2) A community solar provision allowing apartment buildings to install one rooftop system and distribute credits across all flat owners through virtual net metering. (3) Minimum AMC standards for empanelled vendors, including a guaranteed site visit within 48 hours of a complaint - today there is no post-installation service obligation."
   - q: "Does PM Surya Ghar work for rural households?"
-    a: "Rural adoption remains low for two reasons. First, rural DISCOMs often lack the metering infrastructure needed for net metering. Second, the subsidy disbursement requires an Aadhaar-linked bank account and an active DISCOM connection - both of which rural households sometimes lack. The government's [PM-KUSUM scheme](https://heavengreenenergy.com/drebp-pm-kusum/) is better suited to agricultural and rural contexts. For rural residential households, the scheme works where DISCOM infrastructure is reasonably modern, which covers roughly 60% of rural India by 2026 estimates."
+    a: "Rural adoption remains low for two reasons. First, rural DISCOMs often lack the metering infrastructure needed for net metering. Second, the subsidy disbursement requires an Aadhaar-linked bank account and an active DISCOM connection - both of which rural households sometimes lack. The government's PM-KUSUM scheme is better suited to agricultural and rural contexts. For rural residential households, the scheme works where DISCOM infrastructure is reasonably modern, which covers roughly 60% of rural India by 2026 estimates."
   - q: "Which states are implementing PM Surya Ghar most effectively?"
     a: "Gujarat, Karnataka, and Maharashtra consistently process applications fastest and have the highest per-capita registrations. Gujarat benefits from a long tradition of solar-friendly DISCOM policy and a dedicated renewable energy cell in GUVNL. Karnataka's BESCOM has a dedicated rooftop solar team. Maharashtra's MSEDCL has digitised its inspection workflow. States with slower uptake include Bihar, Jharkhand, and parts of Uttar Pradesh, where DISCOM digitisation lags."
   - q: "What does PM Surya Ghar mean for solar inverter buyers choosing equipment?"
@@ -178,7 +178,7 @@ The government has signalled awareness of these gaps in recent MNRE consultation
 
 Knowing the programme's structural problems helps, but most homeowners who have a bad experience trace it to one of a small set of avoidable mistakes.
 
-- **Choosing an empanelled vendor purely on price**: the empanelment list guarantees eligibility, not quality. The cheapest empanelled vendor in your area may have the longest after-sales queue. Call three or four references before deciding, or cross-check candidates against a [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) that lists more options than the DISCOM empanelment shortlist alone.
+- **Choosing an empanelled vendor purely on price**: the empanelment list guarantees eligibility, not quality. The cheapest empanelled vendor in your area may have the longest after-sales queue. Call three or four references before deciding, or cross-check candidates against a local solar installer directory that lists more options than the DISCOM empanelment shortlist alone.
 - **Not verifying ALMM status independently**: do not take the installer's word. Look up the inverter model on the live MNRE list yourself. [ALMM Phase III](/blog/almm-list-phase-iii-guide/) changed the eligible model list significantly; an older quotation may include a since-de-listed product.
 - **Underestimating the net metering wait**: plan your finances assuming a 90-day wait from commissioning to subsidy disbursement, even in fast-processing states. If it comes sooner, the positive surprise is welcome. If it takes longer, you will not be caught short.
 - **Ignoring the warranty length**: the [subsidy payback period calculation](/blog/pm-surya-ghar-subsidy-amount/) assumes the system generates reliably for at least 4–5 years. An inverter with a 5-year warranty that fails in year 4 can turn a positive ROI negative. The [solar inverter warranty](/blog/solar-inverter-warranty/) you accept at contract stage is the single biggest risk lever in the entire transaction.

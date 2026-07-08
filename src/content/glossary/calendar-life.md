@@ -71,11 +71,11 @@ author: "Nirav Dhanani"
 Calendar life is the chronological aging of a battery regardless of cycling. Even an unused battery sitting on a shelf degrades over years due to chemical processes: electrolyte breakdown, solid-electrolyte interphase (SEI) layer growth, side reactions and material decomposition. Calendar life sets an upper bound on battery service regardless of usage pattern.
 
 Combined with cycle life (number of charge-discharge cycles), calendar life determines total battery service life. Whichever expires first ends usable service. For solar storage with one cycle per day:
-- LFP: cycle life 4,500-8,000 cycles = 12-22 years. Calendar life 10-15 years. Calendar typically dominant.
+- LFP: cycle life 4,500-8,000 cycles = 12-22 years. Calendar life 10-15 years. Calendar typically dominant, consistent with the 10-15 year figures quoted for quality LFP packs in [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/).
 - NMC: cycle life 2,000-4,000 cycles = 5-11 years. Calendar life 8-12 years. Cycle often dominant.
 - Lead acid: 5-7 years calendar. 500-1,500 cycles. Calendar dominant.
 
-For Indian solar, calendar life is critical because Indian summer conditions (40-45°C ambient) significantly accelerate calendar aging. Cabinet ventilation and shaded installation extend life.
+For Indian solar, calendar life is critical because Indian summer conditions (40-45°C ambient) significantly accelerate calendar aging, a reality quantified in [How Long Do Solar Batteries Last in India? (Heat and Cycle Reality)](/blog/how-long-solar-batteries-last-india/). Cabinet ventilation and shaded installation extend life.
 
 ## Why calendar life matters
 

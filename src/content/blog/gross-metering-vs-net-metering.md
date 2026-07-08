@@ -1,7 +1,7 @@
 ---
-title: "Gross Metering vs Net Metering, Which Should You Choose?"
+title: "Gross Metering vs Net Metering: Which to Choose?"
 excerpt: "Gross vs net metering determines how your solar is billed. Compare both mechanisms, state policies, payback math, and a Decision Tree to pick the right option."
-description: "Gross metering pays a fixed FiT on all solar generation. Net metering credits exports against imports. Compare rates, payback, and state rules to pick the right option in India."
+description: "Gross metering pays a fixed FiT on all solar generation; net metering credits exports against imports. Compare rates, payback, and state rules in India."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -156,7 +156,7 @@ This proprietary framework replaces the need to read through five years of SERC 
 3. **What is the gross FiT rate as a percentage of your retail tariff?**
    Divide your state's current gross FiT rate by your retail tariff rate (use the rate at which you are billed, not the lowest slab). If the ratio is above 85%, gross metering may be competitive. If the ratio is below 70%, net metering delivers materially better financial returns regardless of self-consumption profile. Below 60% (which covers most of India in 2026) net metering is the dominant choice.
 
-Before applying the tree, it helps to run your own rooftop and monthly bill through a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) to get a rough generation and consumption baseline. Apply the tree to a worked example: a homeowner in Chennai (TANGEDCO) planning a 12 kW system. Question 1, Tamil Nadu mandates gross metering above 10 kW for residential, so the decision is made. Question 2 and 3 are moot. Now the same homeowner downsizes to 10 kW, Question 1 confirms net metering is available. Question 2: the family is home during solar hours, self-consumption is ~55%. Question 3: TANGEDCO retail tariff is ₹6/unit, gross FiT would be ₹3.00/unit (50% ratio). Answer: net metering at 10 kW is the clear winner.
+Before applying the tree, it helps to run your own rooftop and monthly bill through a solar savings calculator to get a rough generation and consumption baseline. Apply the tree to a worked example: a homeowner in Chennai (TANGEDCO) planning a 12 kW system. Question 1, Tamil Nadu mandates gross metering above 10 kW for residential, so the decision is made. Question 2 and 3 are moot. Now the same homeowner downsizes to 10 kW, Question 1 confirms net metering is available. Question 2: the family is home during solar hours, self-consumption is ~55%. Question 3: TANGEDCO retail tariff is ₹6/unit, gross FiT would be ₹3.00/unit (50% ratio). Answer: net metering at 10 kW is the clear winner.
 
 ## 5 kW System ROI: Net Metering vs Gross Metering Payback Calculation
 

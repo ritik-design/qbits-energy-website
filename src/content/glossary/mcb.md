@@ -81,7 +81,7 @@ A Miniature Circuit Breaker (MCB) is an electromechanical protection device that
 
 MCBs replaced traditional rewireable fuses in Indian residential and commercial installations from the 1990s. They offer multiple advantages: resettable operation (no fuse element to replace), faster response to faults, integrated isolation and visual indication of state.
 
-For solar installations, MCBs protect the AC side: at the [solar inverter](/glossary/solar-inverter/) output, in [sub-distribution boards](https://heavengreenenergy.com/products/acdb-dcdb/), and in individual home circuits. DC protection uses DC-rated [fuses](/glossary/fuse/) or DC-specific [isolators](/glossary/isolator/) because of differences in arc extinguishing.
+For solar installations, MCBs protect the AC side: at the [solar inverter](/glossary/solar-inverter/) output, in sub-distribution boards, and in individual home circuits. DC protection uses DC-rated [fuses](/glossary/fuse/) or DC-specific [isolators](/glossary/isolator/) because of differences in arc extinguishing.
 
 ## Why MCBs matter
 
@@ -203,7 +203,7 @@ PM Surya Ghar residential systems use MCBs on the AC side at the bidirectional m
 
 ALMM does not list MCBs separately. BIS certification under IS 60898 applies.
 
-[DISCOM](/glossary/discom/) [commissioning](/blog/solar-inverter-commissioning-in-india/) verifies MCB selection at the AC interconnection. MCB and [RCCB](/glossary/rccb/) ratings are typically shown on the [electrical interconnection drawings](https://heavendesigns.in/electrical-ceig-drawings/) prepared for CEIG and DISCOM approval.
+[DISCOM](/glossary/discom/) [commissioning](/blog/solar-inverter-commissioning-in-india/) verifies MCB selection at the AC interconnection. MCB and [RCCB](/glossary/rccb/) ratings are typically shown on the electrical interconnection drawings prepared for CEIG and DISCOM approval.
 
 ## Standards and certifications
 

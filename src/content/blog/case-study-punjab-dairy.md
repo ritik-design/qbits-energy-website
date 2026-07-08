@@ -1,7 +1,7 @@
 ---
-title: "Punjab Dairy Farm Solar, Replacing Diesel with Clean Energy"
+title: "Punjab Dairy Farm Solar, Replacing Diesel"
 excerpt: "A 500-cow Punjab dairy farm cut diesel costs by ₹60,000/month and achieved a 3.5-year payback with a 30 kW Qbits on-grid solar system under KUSUM Component-C."
-description: "How a Ludhiana-district dairy farm eliminated ₹7–8 Lakh in annual diesel and tariff costs using a 30 kW rooftop solar system, KUSUM Component-C subsidy, and IP66-rated inverters."
+description: "How a Ludhiana-district dairy farm cut ₹7–8 Lakh in annual diesel and tariff costs with a 30 kW rooftop solar system and KUSUM Component-C subsidy."
 category: "Case Study"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -107,7 +107,7 @@ Under Component-C, the central government provides a 30% capital subsidy and the
 
 The representative farm also applied 40% [accelerated depreciation](/glossary/accelerated-depreciation/) in Year 1 under Section 32 of the Income Tax Act, reducing the effective after-tax capital outlay further to approximately ₹5.5–6 Lakh in present-value terms, a benefit available to any agricultural business paying income tax on profits.
 
-The KUSUM scheme also connects to the broader [PM KUSUM](/glossary/kusum/) framework under MNRE's rural electrification agenda, which has a national target of solarising 20 lakh grid-connected agricultural pumps by 2026. Farmers evaluating whether their state's [KUSUM / DREBP implementation](https://heavengreenenergy.com/drebp-pm-kusum/) route applies to their connection type should confirm the exact subsidy stacking rules with their EPC before submitting a PEDA application, since disbursement timelines and documentation vary by state nodal agency.
+The KUSUM scheme also connects to the broader [PM KUSUM](/glossary/kusum/) framework under MNRE's rural electrification agenda, which has a national target of solarising 20 lakh grid-connected agricultural pumps by 2026. Farmers evaluating whether their state's KUSUM / DREBP implementation route applies to their connection type should confirm the exact subsidy stacking rules with their EPC before submitting a PEDA application, since disbursement timelines and documentation vary by state nodal agency.
 
 ## Punjab Dairy Farm Solar ROI: The 5-Point Financial Model
 
@@ -214,7 +214,7 @@ For the representative farm's financial profile (strong diesel expenditure, PSPC
 
 Agricultural solar installations share some challenges with industrial rooftop systems but add farm-specific complications that standard EPC teams occasionally overlook.
 
-- **Roof load verification before panel mounting**: Corrugated iron or asbestos cement shed roofs vary significantly in structural capacity. The representative farm's EPC team engaged a structural engineer, following the same [structural and civil engineering assessment](https://heavendesigns.in/solar-civil-and-structural-engineering/) process used on larger rooftop projects, to confirm the shed purlins could carry 10–12 kg/m² additional dead load from panels and rails before proceeding. Skipping this step has caused partial roof collapses on farms that installed on ageing shed structures.
+- **Roof load verification before panel mounting**: Corrugated iron or asbestos cement shed roofs vary significantly in structural capacity. The representative farm's EPC team engaged a structural engineer, following the same structural and civil engineering assessment process used on larger rooftop projects, to confirm the shed purlins could carry 10–12 kg/m² additional dead load from panels and rails before proceeding. Skipping this step has caused partial roof collapses on farms that installed on ageing shed structures.
 
 - **DC cable routing away from cattle**: DC cables at 600–1,000 V pose an electrocution risk if chewed by rodents or contacted by cattle tails during maintenance. The representative farm ran all DC wiring inside galvanised steel conduits sealed at both ends, with no exposed cable runs below 2.5 metres height.
 

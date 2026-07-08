@@ -136,7 +136,7 @@ Spread of 5.4 percent between P50 and P90 reflects modelled uncertainty around s
 - **Choose PVsyst** when a lender mandates a PVsyst report by name.
 - **Choose SAM** for research and sensitivity studies.
 
-For most installers and EPCs in 2026, SurgePV [solar design software](https://surgepv.com/) consolidates the simulation, financial model, and proposal into one workflow at the lowest realised total cost.
+For most installers and EPCs in 2026, SurgePV [solar design software](https://surgepv.com/) consolidates the simulation, financial model, and proposal into one workflow at the lowest realised total cost. A bankable P90 number only matters once it is paired with hardware that hits it in the field — Qbits' [C&I solution](/c-i-solution/) is engineered around exactly this kind of yield modelling, and the team can [walk through a specific project's numbers](/contact-us/) on request.
 
 <div class="inline-cta">
 <h3>Ready to produce bankable yield reports on every project?</h3>

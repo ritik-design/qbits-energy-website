@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Noise India: Complete Guide to Decibel Levels, Causes & Silent Operation 2026"
+title: "Solar Inverter Noise India, Decibel Levels & Causes"
 excerpt: "Inverter noise has become a real operational concern as rooftop solar moves closer to bedrooms, living rooms, and conference rooms across India. Here is the complete guide to normal decibel ranges, root causes, warning signs, silent-operation technologies, optimal placement, and how to specify quiet inverters that protect customer satisfaction."
-description: "Complete guide to solar inverter noise in India: normal dB ranges for residential and commercial, root cause analysis (cooling fans, transformer hum, mechanical issues, grid effects), warning signs requiring action, silent-operation technologies, optimal installation placement, climate impact on noise levels, post-installation noise reduction techniques, troubleshooting steps, and EPC noise specification criteria."
+description: "Guide to solar inverter noise in India: normal decibel ranges, root causes like cooling fans and transformer hum, warning signs, and silent-operation tips."
 category: "Maintenance"
 date: 2026-05-07
 updatedDate: 2026-07-08
@@ -81,7 +81,7 @@ In Indian climate conditions, ambient temperatures regularly hit 40-48 deg C in 
 
 ### 3. Loose components and poor mounting
 
-[Mounting hardware](https://heavengreenenergy.com/products/mounting-structures/) that loosens over time creates rattling vibrations that resonate with the building structure. Anti-vibration mounting pads and properly torqued hardware prevent this.
+Mounting hardware that loosens over time creates rattling vibrations that resonate with the building structure. Anti-vibration mounting pads and properly torqued hardware prevent this.
 
 ### 4. Grid fluctuations causing electrical interference
 
@@ -150,7 +150,7 @@ Placement choices have larger impact on noise impact than the inverter's publish
 
 ### Key placement principles
 
-- **[Structural isolation](https://heavendesigns.in/solar-civil-and-structural-engineering/)** - mount on solid walls, not shared partition walls
+- **Structural isolation** - mount on solid walls, not shared partition walls
 - **Adequate ventilation** - minimum 30-50 cm clearance per manufacturer specification
 - **Shade protection** - direct sunlight increases heat load
 - **Accessibility** - service technician access for maintenance
@@ -217,7 +217,7 @@ Systematic noise diagnosis:
 
 ## EPC Noise Specification Criteria for Procurement
 
-EPCs specifying inverters for [turnkey rooftop and commercial installations](https://heavengreenenergy.com/solar-epc/) should add noise level as a procurement criterion alongside efficiency, IP rating, and warranty:
+EPCs specifying inverters for turnkey rooftop and commercial installations should add noise level as a procurement criterion alongside efficiency, IP rating, and warranty:
 
 | Specification | Target | Notes |
 | --- | --- | --- |

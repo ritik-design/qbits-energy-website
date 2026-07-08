@@ -1,6 +1,7 @@
 ---
 title: "Solar Subsidy in West Bengal 2026, WBSEDCL + Central"
 excerpt: "Solar subsidy in West Bengal 2026 combines ₹78,000 central PM Surya Ghar with WBSEDCL net metering. Full eligibility, application process, and state-specific guide."
+description: "West Bengal's 2026 solar subsidy combines PM Surya Ghar (up to ₹78,000) with WBSEDCL net metering. Eligibility and application steps inside."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -96,7 +97,7 @@ Households consuming above 250 units per month (typically those running 1 to 2 A
 3. **Aadhaar OTP verification**: Complete eKYC with your Aadhaar-linked mobile OTP.
 4. **Document upload**: Upload your latest WBSEDCL bill, Aadhaar, PAN, bank passbook first page, and property ownership proof. For Kolkata area flat owners on CESC, include housing society NOC.
 5. **WBSEDCL feasibility assessment**: A WBSEDCL engineer visits your site. In Kolkata districts, this takes 10 to 15 days; in rural districts, 21 to 35 days.
-6. **Vendor selection**: Select from the portal's district-filtered empanelled vendor list. Vendor density is higher near Kolkata and Siliguri; rural districts may have fewer choices. For end-to-end installation support across several Bengal districts, HeavenGreen Energy's [residential solar installation](https://heavengreenenergy.com/residential-solar/) service is worth comparing alongside portal-listed vendors.
+6. **Vendor selection**: Select from the portal's district-filtered empanelled vendor list. Vendor density is higher near Kolkata and Siliguri; rural districts may have fewer choices. For end-to-end installation support across several Bengal districts, HeavenGreen Energy's residential solar installation service is worth comparing alongside portal-listed vendors.
 7. **Installation and meter**: Installation takes 1 to 2 days. WBSEDCL installs a [bidirectional meter](/glossary/bidirectional-meter/): 21 to 45 days.
 8. **Subsidy credit**: [MNRE](/glossary/mnre/) transfers the subsidy to your bank account within 30 days of inspection clearance.
 
@@ -133,7 +134,7 @@ These procedural errors, several of which mirror the causes in the national [PM 
 
 ## West Bengal Solar ROI: A Numbers Case Study
 
-Consider a typical Kolkata-adjacent household in Hooghly district (WBSEDCL area) consuming 280 units per month at an average tariff of ₹6.80/unit. You can run the same numbers for your own district using a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/):
+Consider a typical Kolkata-adjacent household in Hooghly district (WBSEDCL area) consuming 280 units per month at an average tariff of ₹6.80/unit. You can run the same numbers for your own district using a solar savings calculator:
 
 | Item | Amount |
 | --- | --- |

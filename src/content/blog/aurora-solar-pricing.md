@@ -1,5 +1,5 @@
 ---
-title: "Aurora Solar Pricing in 2026: Real Costs + Cheaper Alternative"
+title: "Aurora Solar Pricing 2026: Costs + Alternative"
 excerpt: "Aurora Solar costs $159 to $259 per user per month before AI Mode and Sales Mode add-ons. Here is the full Aurora pricing breakdown by plan, the hidden extras, and how SurgePV delivers the same outputs for up to 7x less."
 description: "Aurora Solar pricing in 2026 broken down: plan costs, AI Mode and Sales Mode add-ons, hidden extras, and the SurgePV alternative. Book a free demo."
 category: "Solar Software"
@@ -111,7 +111,7 @@ The pattern: SurgePV is between 50 and 65 percent cheaper at each team size, wit
 
 ## Verdict on Aurora Solar Pricing
 
-Aurora is a strong product, especially for US-residential teams already on the upper tier. But the published per-seat pricing plus required add-ons creates a total annual cost that is hard to justify against flat-priced platforms like SurgePV which ship the same engineering depth, the AI assistant, and the proposal stack at $1,299 to $1,899 per user per year. For most teams in 2026, the cost math points toward SurgePV. If HelioScope is also on your shortlist, read our [Aurora vs HelioScope comparison](/blog/aurora-vs-helioscope/); if OpenSolar's free tier is tempting, check [Aurora vs OpenSolar](/blog/aurora-vs-opensolar/) before committing, or browse the full [best solar design software ranking](/blog/best-solar-design-software/) for the complete 2026 picture. Teams that also want a dedicated [solar quotation and proposal workflow](https://quickestimate.co/features/quotation-system/) downstream of the design often pair SurgePV with QuickEstimate for the sales handoff.
+Aurora is a strong product, especially for US-residential teams already on the upper tier. But the published per-seat pricing plus required add-ons creates a total annual cost that is hard to justify against flat-priced platforms like SurgePV which ship the same engineering depth, the AI assistant, and the proposal stack at $1,299 to $1,899 per user per year. For most teams in 2026, the cost math points toward SurgePV. If HelioScope is also on your shortlist, read our [Aurora vs HelioScope comparison](/blog/aurora-vs-helioscope/); if OpenSolar's free tier is tempting, check [Aurora vs OpenSolar](/blog/aurora-vs-opensolar/) before committing, or browse the full [best solar design software ranking](/blog/best-solar-design-software/) for the complete 2026 picture. Teams that also want a dedicated [solar quotation and proposal workflow](https://quickestimate.co/features/quotation-system/) downstream of the design often pair SurgePV with QuickEstimate for the sales handoff. Once the pricing math is settled and the design shipped, the hardware side is just as much of the total project cost — Qbits' [full inverter catalog](/our-products/) covers on-grid and hybrid options, and the team is happy to [walk through spec fit](/contact-us/) for a specific project.
 
 <div class="inline-cta">
 <h3>Ready to see the cost math on your team?</h3>

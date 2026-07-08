@@ -187,7 +187,7 @@ Engage with the local DISCOM office at the application stage.
 
 Document all submissions with date-stamped receipts.
 
-Escalate to nodal officers when timelines slip, or work with a [local installer who already tracks DISCOM turnaround times](https://heavengreenenergy.com/solar-near-me/) in your area.
+Escalate to nodal officers when timelines slip, or work with a local installer who already tracks DISCOM turnaround times in your area.
 
 Use CGRF when nodal officers do not respond.
 

@@ -152,7 +152,7 @@ Roof-to-inverter cable routing.
 
 Inverter-to-distribution-board AC runs.
 
-Utility ground-mount cable trenches, planned as part of [ground-mount design engineering](https://heavendesigns.in/solar-ground-mount-design/).
+Utility ground-mount cable trenches, planned as part of ground-mount design engineering.
 
 Carport DC routing.
 
@@ -210,7 +210,7 @@ PM Surya Ghar residential installations use 20 to 32 mm UV-rated PVC conduit.
 
 C&I rooftops use combination of rigid PVC for cable runs and flexible PVC for equipment connections — routing decisions that EPCs typically evaluate during [solar EPC bid evaluation](/blog/how-to-evaluate-solar-epc-bids/).
 
-Utility plants use HDPE for buried runs and GI or PVC overhead, often specified as part of [turnkey solar EPC installation](https://heavengreenenergy.com/solar-epc/) scope.
+Utility plants use HDPE for buried runs and GI or PVC overhead, often specified as part of turnkey solar EPC installation scope.
 
 ## Standards and certifications
 

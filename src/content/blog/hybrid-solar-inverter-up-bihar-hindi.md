@@ -1,6 +1,7 @@
 ---
-title: "Hybrid Solar Inverter UP Bihar ke Liye, Hindi Guide 2026"
+title: "Hybrid Solar Inverter UP Bihar ke Liye"
 excerpt: "Hybrid solar inverter UP Bihar ke liye: bijli cut mein bhi solar chale, battery backup, BSPHCL/UPPCL process, PM Surya Ghar subsidy, aur ROI, complete Hindi guide।"
+description: "Hybrid solar inverter UP Bihar ke liye: bijli cut mein bhi solar chale, battery backup, BSPHCL/UPPCL process, aur PM Surya Ghar subsidy ki puri guide।"
 category: "Educational"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -135,7 +136,7 @@ UP में multiple [DISCOMs](/glossary/discom/) हैं। अपनी ele
 3. **Aadhaar OTP verify करें**
 4. **Documents upload करें**: Bill, Aadhaar, PAN, bank passbook, property proof
 5. **Feasibility visit wait करें**: Urban: 2-3 weeks, Rural: 3-6 weeks
-6. **Hybrid vendor select करें**: ALMM-listed hybrid inverter mandatory, [apne area mein installer dhundhein](https://heavengreenenergy.com/solar-near-me/) shortlisting shuru karne ke liye
+6. **Hybrid vendor select करें**: ALMM-listed hybrid inverter mandatory, apne area mein installer dhundhein shortlisting shuru karne ke liye
 7. **Installation**: 2-3 दिन
 8. **[Net metering](/glossary/net-metering/) application**: Immediately after installation
 9. **DISCOM inspection → Subsidy bank में**
@@ -223,7 +224,7 @@ UP या Bihar में अपने district का power cut pattern, monthl
 
 ## Common Vendor Claims to Verify in UP-Bihar Market
 
-The hybrid solar market in UP-Bihar has many vendors, quality varies significantly. Common claims to verify. Working with an established [turnkey EPC provider](https://heavengreenenergy.com/solar-epc/) that stands behind its installation quality reduces this risk considerably.
+The hybrid solar market in UP-Bihar has many vendors, quality varies significantly. Common claims to verify. Working with an established turnkey EPC provider that stands behind its installation quality reduces this risk considerably.
 
 **Claim: "100% bijli cut solution"**
 Reality: Hybrid solar with 5 kWh battery covers 4-6 hours of essential loads. If your outage is 10+ hours, battery may not last. Calculate your essential load and match battery capacity accordingly.

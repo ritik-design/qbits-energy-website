@@ -1,5 +1,6 @@
 ---
-title: "Solar Subsidy in Madhya Pradesh 2026, MPEZ/MPPKVVCL Process"
+title: "Solar Subsidy in Madhya Pradesh 2026, MPPKVVCL"
+description: "Madhya Pradesh solar subsidy 2026: up to ₹78,000 PM Surya Ghar via MPPKVVCL, MP's high solar irradiance advantage, ALMM compliance, and application steps."
 excerpt: "Solar subsidy in MP 2026: ₹78,000 PM Surya Ghar via MPPKVVCL and MPEZ. High DNI advantage, ALMM compliance, step-by-step application guide for homeowners."
 category: "Policy"
 date: 2026-06-05
@@ -151,7 +152,7 @@ MP DISCOMs generally follow the standard PM Surya Ghar document set. However, ba
 
 - **Roof rights declaration**: Required for flats and apartments in Bhopal and Indore, confirming you have authority to install on the roof.
 - **Land records (khasra/khatoni)**: Rural MP applicants in districts without formal property title deeds may need to submit khasra or khatoni records from the tehsil office as property proof.
-- **MSME certificate** (if applicable), For [rooftop solar on small commercial premises](https://heavengreenenergy.com/commercial-solar/), the DISCOM may request business registration documents. Purely residential applications do not need this.
+- **MSME certificate** (if applicable), For rooftop solar on small commercial premises, the DISCOM may request business registration documents. Purely residential applications do not need this.
 
 For the complete standard document checklist applicable in all MP DISCOMs, the [PM Surya Ghar documents required guide](/blog/pm-surya-ghar-documents-required/) covers every document with preparation tips that reduce back-and-forth with DISCOM offices.
 

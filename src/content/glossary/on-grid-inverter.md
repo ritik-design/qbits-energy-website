@@ -156,7 +156,7 @@ The Indian CEA grid code and IEEE 1547 require the inverter to ride through spec
 
 [Commercial solar](https://surgepv.com/commercial-solar-design/). Three-phase 10 to 100 kW inverters power offices, schools, hospitals and small factories. Net or gross metering with state-specific tariffs. Payback in India is 3 to 5 years for daytime-heavy loads.
 
-Industrial solar. 50 to 500 kW three-phase inverters connect to LT or HT panels through transformers, often delivered under a turnkey [solar EPC contract](https://heavengreenenergy.com/solar-epc/). Reactive power support is often contractually required by the DISCOM.
+Industrial solar. 50 to 500 kW three-phase inverters connect to LT or HT panels through transformers, often delivered under a turnkey solar EPC contract. Reactive power support is often contractually required by the DISCOM.
 
 Utility-scale solar. 1 to 5 MW [central](/glossary/central-inverter/) or large [string inverters](/glossary/string-inverter/) feed step-up transformers at 33 to 66 kV. These plants supply power under PPA contracts at fixed tariffs.
 

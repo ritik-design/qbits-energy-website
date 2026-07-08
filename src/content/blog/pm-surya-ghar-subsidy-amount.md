@@ -1,7 +1,7 @@
 ---
-title: "PM Surya Ghar Subsidy Calculator, Find Your Exact Amount"
+title: "PM Surya Ghar Subsidy Calculator"
 excerpt: "PM Surya Ghar subsidy amount is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, maximum ₹78,000. Use this slab calculator to find your exact rupee figure."
-description: "Calculate your exact PM Surya Ghar subsidy amount by system size. Full slab table, state top-up data, group housing rules, and The PM Surya Ghar Subsidy Stack framework explained."
+description: "PM Surya Ghar subsidy is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third, capped at ₹78,000. Use this slab calculator to find your amount."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -253,7 +253,7 @@ The central subsidy cap at 3 kW creates a natural decision point: install exactl
 
 **Recommendation:** If your average monthly consumption is under 400 units, install exactly 3 kW. The subsidy efficiency (₹26,000 per kW) is maximum, and payback is fastest. If your consumption is 400 to 600 units, a 4 to 5 kW system reduces your bill more completely, and the payback remains acceptable at 3 to 4 years even without additional central subsidy on the extra capacity.
 
-For households consuming above 600 units per month (typically 3 to 5 BHK homes with multiple air conditioners) consider evaluating whether a 5 kW on-grid system or a smaller hybrid system with battery storage makes more sense. The [how to choose solar inverter for home India guide](/blog/how-to-choose-solar-inverter-for-home-india/) covers the full sizing decision including hybrid versus on-grid trade-offs, or run your own numbers through a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) before finalising system size.
+For households consuming above 600 units per month (typically 3 to 5 BHK homes with multiple air conditioners) consider evaluating whether a 5 kW on-grid system or a smaller hybrid system with battery storage makes more sense. The [how to choose solar inverter for home India guide](/blog/how-to-choose-solar-inverter-for-home-india/) covers the full sizing decision including hybrid versus on-grid trade-offs, or run your own numbers through a solar cost and savings calculator before finalising system size.
 
 ## Where Qbits Fits in Your PM Surya Ghar Calculation
 

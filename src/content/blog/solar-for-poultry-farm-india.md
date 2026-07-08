@@ -1,7 +1,7 @@
 ---
-title: "Solar for Poultry Farm India, Load Analysis and System Sizing"
+title: "Solar for Poultry Farm India: Sizing Guide"
 excerpt: "Solar for poultry farm India: ventilation fans are the critical 24/7 load, battery backup is essential because birds die without airflow. KUSUM eligibility and broiler vs layer sizing inside."
-description: "Complete guide to solar for poultry farm India. Ventilation load analysis, battery backup sizing, broiler vs layer differences, KUSUM scheme eligibility, and the Poultry Farm Solar Priority Matrix."
+description: "Guide to solar for poultry farms in India: ventilation load analysis, battery backup sizing, broiler vs layer differences, and KUSUM eligibility."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -127,7 +127,7 @@ The KUSUM scheme (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan) ha
 - **Component B**: Solarisation of existing agricultural pump sets.
 - **Component C**: Solarisation of grid-connected agricultural pump sets.
 
-Poultry farms on agricultural land with agri-classified electricity connections may qualify under Component A (for [ground-mounted solar](https://heavendesigns.in/solar-ground-mount-design/) on farm land) or [Component B](https://heavengreenenergy.com/drebp-pm-kusum/) (for solarisation of water pump sets used in the farm). The eligibility criteria vary by state:
+Poultry farms on agricultural land with agri-classified electricity connections may qualify under Component A (for ground-mounted solar on farm land) or Component B (for solarisation of water pump sets used in the farm). The eligibility criteria vary by state:
 
 - **Karnataka, Maharashtra, Rajasthan, UP**: have implemented KUSUM with poultry/animal husbandry included as qualifying activities.
 - **States with narrow agri definitions**: some states restrict KUSUM to crop irrigation, excluding poultry.

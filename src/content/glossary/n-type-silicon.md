@@ -80,7 +80,7 @@ Higher efficiency. N-type bulk lifetime supports cell efficiencies of 24-26 perc
 
 No LID. Eliminates the boron-oxygen defect mechanism causing first-year degradation in p-type.
 
-Better temperature performance. Lower temperature coefficient.
+Better temperature performance. Lower temperature coefficient, which shows up as measurable yield gains in Indian heat (see [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)).
 
 Bifacial leadership. HJT n-type achieves 90-95 percent bifaciality factor.
 
@@ -131,7 +131,7 @@ PV cells use lightly to moderately doped n-type for the base.
 
 ## Real-world applications
 
-TOPCon modules from Waaree, Adani Green Solar, Tata Power Solar.
+TOPCon modules from Waaree, Adani Green Solar, Tata Power Solar, with 700W+ n-type bifacial panels increasingly common on Indian showcase floors (see [REI Expo 2026 Recap, Top Trends from India's Biggest Solar Exhibition](/blog/rei-expo-recap/)).
 
 HJT modules from premium manufacturers.
 
@@ -165,7 +165,7 @@ PLI scheme tranches incentivise n-type capacity.
 
 Major Indian manufacturers transitioning to n-type TOPCon.
 
-ALMM-listed n-type modules growing.
+ALMM-listed n-type modules growing, tracked in the [ALMM List Phase III, Complete Guide for Buyers and EPCs 2026](/blog/almm-list-phase-iii-guide/).
 
 PM Surya Ghar accepts n-type modules.
 

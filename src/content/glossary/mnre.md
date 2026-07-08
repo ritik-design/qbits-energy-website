@@ -116,7 +116,7 @@ International engagement. International Solar Alliance, IRENA, ISA initiatives a
 | Solar PLI Scheme | 65 GW domestic solar manufacturing |
 | National Green Hydrogen Mission | 5 MMT annual green hydrogen by 2030 |
 | Off-grid solar | Solar lanterns, home systems, micro-grids |
-| [Solar Parks](https://heavengreenenergy.com/ground-mount-solar-park/) | 40 GW capacity across India |
+| Solar Parks | 40 GW capacity across India |
 | Wind-Solar Hybrid Policy | Co-located projects framework |
 
 ## Institutions under MNRE
@@ -219,7 +219,7 @@ State-level renewable policies generally follow MNRE direction, with state-speci
 | MNRE Specifications for Solar PV | Inverter and module technical requirements |
 | ALMM | Approved equipment list |
 | BIS certification framework | Quality compliance |
-| [MNRE empanelment criteria](https://heavengreenenergy.com/become-channel-partner/) | Vendor qualification |
+| MNRE empanelment criteria | Vendor qualification |
 
 ## Common mistakes
 

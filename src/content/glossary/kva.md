@@ -151,7 +151,7 @@ A transformer's nameplate kVA rating defines its thermal capacity. Operating at 
 
 ## Real-world applications
 
-[Solar inverter](/glossary/solar-inverter/) selection, including from a range of [kVA-rated inverters](https://heavengreenenergy.com/products/solar-inverters/).
+[Solar inverter](/glossary/solar-inverter/) selection, including from a range of kVA-rated inverters.
 
 Home backup [hybrid inverter](/glossary/hybrid-inverter/) sizing, covered in our [best hybrid solar inverters in India](/blog/best-hybrid-solar-inverter-india-2026/) roundup.
 

@@ -1,7 +1,7 @@
 ---
-title: "How to Choose Solar Inverters with Surge Protection: Complete India Guide 2026"
+title: "How to Choose Solar Inverters with Surge Protection"
 excerpt: "India's grid throws frequent voltage spikes and monsoon lightning at every solar installation. Without robust surge protection, 15-year inverters become 5-year liabilities. Here is the complete specification framework Indian EPCs use to choose surge-protected inverters."
-description: "Complete guide to surge protection in solar inverters for India: DC and AC SPD requirements, Type 1 and Type 2 classification, kA discharge ratings, voltage protection levels, integrated vs external SPD comparison, regional lightning risk mapping, certification requirements (IEC 61643), warranty implications, and red flags to avoid."
+description: "How to specify surge-protected solar inverters in India: DC/AC SPD requirements, Type 1 vs Type 2, kA ratings, and certification standards to check."
 category: "Buying Guide"
 date: 2026-04-08
 readTime: "12 min"
@@ -84,7 +84,7 @@ For any Indian installation, surge protection is not a discretionary feature - i
 | **AC SPDs** | Protect grid connection against utility-side transients and switching surges |
 | **Integrated SPDs** | Factory-installed inside the inverter, factory-tuned to specific electrical characteristics |
 
-On installations that separate the protection hardware from the inverter, DC and AC SPDs are typically housed within the [ACDB/DCDB assembly](https://heavengreenenergy.com/products/acdb-dcdb/) alongside fuses and isolators - which is why field-installed protection has more connection points and more potential failure modes than a factory-integrated design.
+On installations that separate the protection hardware from the inverter, DC and AC SPDs are typically housed within the ACDB/DCDB assembly alongside fuses and isolators - which is why field-installed protection has more connection points and more potential failure modes than a factory-integrated design.
 
 ### Integrated vs external SPDs
 
@@ -187,7 +187,7 @@ Even premium SPDs underperform with poor installation. Apply these practices:
 - **Earth resistance** below 5 ohms per BIS IS 3043 at the SPD ground connection
 - **Photographic documentation** of all SPD installations at commissioning for warranty defence
 
-For larger commercial and industrial sites, SPD placement and earthing layout are usually captured in the project's [electrical drawings and CEIG documentation](https://heavendesigns.in/electrical-ceig-drawings/) before installation begins, so the protection scheme is reviewable rather than improvised on site.
+For larger commercial and industrial sites, SPD placement and earthing layout are usually captured in the project's electrical drawings and CEIG documentation before installation begins, so the protection scheme is reviewable rather than improvised on site.
 
 ## Maintenance and Replacement Schedule
 
@@ -199,7 +199,7 @@ For larger commercial and industrial sites, SPD placement and earthing layout ar
 | Scheduled replacement (no activation) | Every 3-5 years | Every 5-7 years |
 | Earth resistance verification | Annual | Biennial |
 
-EPCs running this schedule across a large installed base often fold SPD checks into a broader [O&M and turnkey installation programme](https://heavengreenenergy.com/solar-epc/) so inspection cadence stays consistent site to site rather than depending on individual technician memory.
+EPCs running this schedule across a large installed base often fold SPD checks into a broader O&M and turnkey installation programme so inspection cadence stays consistent site to site rather than depending on individual technician memory.
 
 ## Inverter Selection Criteria for Surge-Resilient Operation
 

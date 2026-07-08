@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Depreciation in India: Complete Tax Benefits Guide 2026"
+title: "Solar Inverter Depreciation in India: Tax Benefits"
 excerpt: "Accelerated depreciation at 40% WDV can shave 1.9 years off your solar payback and unlock ₹4.8 lakh in first-year tax savings on a ₹40 lakh inverter investment. Here's the complete framework Indian businesses use."
-description: "Complete guide to solar inverter depreciation in India for commercial and industrial buyers: accelerated 40% WDV rate, Section 32 eligibility, WDV vs SLM comparison, year-by-year savings, commissioning timing, subsidy interaction, and ROI impact for 2026."
+description: "Guide to solar inverter depreciation in India: accelerated 40% WDV rate, Section 32 eligibility, WDV vs SLM comparison, and year-by-year tax savings."
 category: "Guide"
 date: 2026-04-08
 readTime: "11 min"

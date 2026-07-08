@@ -80,7 +80,7 @@ A grid-forming inverter (GFM) is an inverter that establishes voltage and freque
 
 Grid-forming inverters are essential for islanded operation where no grid exists (microgrids, off-grid systems, hybrid backup) and increasingly valued at utility scale where high renewable penetration requires inverters to provide grid-stabilising services traditionally supplied by synchronous generators.
 
-For Indian solar, grid-forming capability appears in [hybrid inverters](/glossary/hybrid-inverter/) operating in backup mode (creating an islanded AC bus during grid outages), off-grid inverters and emerging utility-scale [BESS](/glossary/bess/) providing fast frequency response and inertia. The capability is becoming a competitive advantage as renewable penetration rises.
+For Indian solar, grid-forming capability appears in [hybrid inverters](/glossary/hybrid-inverter/) operating in backup mode (creating an islanded AC bus during grid outages), off-grid inverters and emerging utility-scale [BESS](/glossary/bess/) providing fast frequency response and inertia. The capability is becoming a competitive advantage as renewable penetration rises, and it is the key distinction covered in this [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/).
 
 ## Why grid-forming inverters matter
 
@@ -145,7 +145,7 @@ In contrast, grid-following inverters use the grid voltage as reference and prod
 
 Off-grid solar microgrids.
 
-Hybrid solar backup output.
+Hybrid solar backup output, the core use case covered in [sizing a hybrid inverter for power-cut backup](/blog/solar-inverter-power-cut-backup/).
 
 Utility-scale BESS providing grid services.
 
@@ -218,7 +218,7 @@ No specific regulatory requirement yet.
 
 Utility-scale BESS adoption growing, with grid-forming as differentiator.
 
-Major hybrid inverter brands (Sungrow, Solis, Goodwe, Solax, Deye, Victron) offer grid-forming backup.
+Major hybrid inverter brands (Sungrow, Solis, Goodwe, Solax, Deye, Victron) offer grid-forming backup, one of the criteria in this [5-step hybrid inverter selection guide](/blog/how-to-choose-hybrid-solar-inverter/).
 
 Emerging requirements expected as renewable penetration rises.
 

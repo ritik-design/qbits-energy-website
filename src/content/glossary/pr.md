@@ -228,7 +228,7 @@ Use temperature-corrected PR for quality assessment.
 | Floating solar | 78 to 83% (lower cell temperature) |
 | Older 5+ year utility | 73 to 78% |
 
-EPCs delivering [C&I rooftop installations](https://heavengreenenergy.com/commercial-solar/) or [residential rooftop systems](https://heavengreenenergy.com/residential-solar/) should set PR targets appropriate to each segment before commissioning, since acceptance thresholds differ meaningfully by plant type.
+EPCs delivering C&I rooftop installations or residential rooftop systems should set PR targets appropriate to each segment before commissioning, since acceptance thresholds differ meaningfully by plant type.
 
 ## Indian market context
 

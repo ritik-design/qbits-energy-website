@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Brand Reliability Index, Qbits Original Research"
+title: "Solar Inverter Reliability Index, Qbits Research"
 excerpt: "The solar inverter reliability index scores 8 major brands on 5 weighted factors, warranty depth, India service density, component quality, grid compliance, and field return rates."
-description: "Qbits 5-Factor Solar Inverter Reliability Index: transparent methodology, honest scoring across 8 brands, Sungrow, Fronius, Goodwe, Solis, Growatt, Luminous, Microtek, Qbits."
+description: "Qbits 5-Factor Solar Inverter Reliability Index: transparent scoring across 8 brands, Sungrow, Fronius, Goodwe, Solis, Growatt, Luminous, Qbits."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -323,13 +323,13 @@ For the [best solar inverter in India 2026](/blog/best-solar-inverter-india/) ve
 
 ## Where Qbits Fits in Your Procurement Decision
 
-For EPC installers managing multi-site portfolios across Tier-2 and Tier-3 India, Qbits is built around the two factors that carry the most weight in this index: 12-year full replacement warranty (highest in class on the 30% factor) and a declared 72-hour RMA service-level agreement backed by a pincode-searchable authorised service partner network (near-highest on the 25% factor). ALMM Phase III listing and full BIS/IEC compliance stack mean Qbits qualifies for PM Surya Ghar subsidy projects without additional verification overhead. This is the same procurement logic that underpins a broader [EPC turnkey installation](https://heavengreenenergy.com/solar-epc/) program, where equipment reliability and site execution both need to hold up over a multi-year warranty period.
+For EPC installers managing multi-site portfolios across Tier-2 and Tier-3 India, Qbits is built around the two factors that carry the most weight in this index: 12-year full replacement warranty (highest in class on the 30% factor) and a declared 72-hour RMA service-level agreement backed by a pincode-searchable authorised service partner network (near-highest on the 25% factor). ALMM Phase III listing and full BIS/IEC compliance stack mean Qbits qualifies for PM Surya Ghar subsidy projects without additional verification overhead. This is the same procurement logic that underpins a broader EPC turnkey installation program, where equipment reliability and site execution both need to hold up over a multi-year warranty period.
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, 1.5 kW to 50 kW. ALMM-listed, BIS-certified, subsidy-eligible. IP66 weather protection standard across the range.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery-ready integration and India-grid-tuned firmware for voltage swings between 180 V and 270 V.
 - **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable network with the 72-hour RMA SLA. Verify your project geography before quoting.
 - **[Download Datasheets](/download-datasheets/)**: Full component specifications, efficiency curves, and certifications documentation for tender submissions.
 
-Distributors and EPC firms evaluating a longer-term supply relationship, rather than a one-off order, can also review what it takes to [become a channel partner](https://heavengreenenergy.com/become-channel-partner/) for a solar hardware brand, since the same service and warranty commitments scored in this index apply to partner-level agreements.
+Distributors and EPC firms evaluating a longer-term supply relationship, rather than a one-off order, can also review what it takes to become a channel partner for a solar hardware brand, since the same service and warranty commitments scored in this index apply to partner-level agreements.
 
 When you are ready to discuss procurement volumes, channel pricing, or project-specific sizing, [talk to a Qbits engineer](/contact-us/), most project queries receive a response within one business day. Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone.

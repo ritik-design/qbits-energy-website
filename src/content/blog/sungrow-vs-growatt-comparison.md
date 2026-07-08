@@ -1,7 +1,7 @@
 ---
-title: "Sungrow vs Growatt Solar Inverter, Premium vs Mid-Market Compared 2026"
+title: "Sungrow vs Growatt, Premium vs Mid-Market Compared"
 excerpt: "Sungrow vs Growatt: which Chinese inverter brand wins in India? This comparison covers efficiency, warranty, price, monitoring, and after-sales across 5 key dimensions."
-description: "Sungrow vs Growatt solar inverter compared across 5 dimensions for Indian buyers in 2026, efficiency, warranty depth, price premium, monitoring, and Tier-2 after-sales."
+description: "Sungrow vs Growatt solar inverter compared for Indian buyers: efficiency, warranty depth, price premium, monitoring, and Tier-2 after-sales."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -178,7 +178,7 @@ Key limitations:
 - **Fleet management is limited**: EPCs managing multiple sites find the multi-site view of ShinePhone less capable than iSolarCloud
 - **Alert specificity is low**: fault notifications indicate "inverter fault" without granular diagnostic data, requiring a physical site visit to diagnose
 
-For homeowners with a single residential system and reliable internet, ShinePhone is functional. For [EPCs](https://heavengreenenergy.com/solar-epc/) managing 20+ sites, the gap versus iSolarCloud is substantial. The [solar inverter monitoring systems guide](/blog/solar-inverter-monitoring-systems-in-india/) covers the full range of monitoring options available in India in 2026.
+For homeowners with a single residential system and reliable internet, ShinePhone is functional. For EPCs managing 20+ sites, the gap versus iSolarCloud is substantial. The [solar inverter monitoring systems guide](/blog/solar-inverter-monitoring-systems-in-india/) covers the full range of monitoring options available in India in 2026.
 
 ## After-Sales in India: The Shared Weakness
 
@@ -240,7 +240,7 @@ For Indian buyers considering hybrid systems, the [best hybrid solar inverter in
 
 ## The 5 kW Worked Example: Is Sungrow Worth the Premium?
 
-Let us make the comparison concrete with a real scenario. A homeowner in Jaipur planning a [residential solar installation](https://heavengreenenergy.com/residential-solar/) wants a 5 kW on-grid system. They have received two quotes:
+Let us make the comparison concrete with a real scenario. A homeowner in Jaipur planning a residential solar installation wants a 5 kW on-grid system. They have received two quotes:
 
 - **Quote A (Sungrow SG5.0RS-ADA):** ₹1,85,000 total system cost (inverter + panels + installation)
 - **Quote B (Growatt MIN 5000TL-X):** ₹1,67,000 total system cost (same panels, same installer)

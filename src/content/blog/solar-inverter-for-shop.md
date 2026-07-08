@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter for a Small Shop or Retail Store"
 excerpt: "A solar inverter for shop use cuts a ₹15,000/month commercial electricity bill to near-zero in 3–5 years. Here is the complete sizing, GST, and net-metering guide."
-description: "Complete guide to choosing a solar inverter for a small shop in India, load analysis, 1.5–5 kW sizing, commercial net metering, GST input credit, and payback calculator."
+description: "Guide to choosing a solar inverter for a small shop in India: load analysis, 1.5–5 kW sizing, commercial net metering, GST input credit, and payback."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -214,7 +214,7 @@ Even with the best intentions, shop owners regularly make the following errors t
 
 - **Ignoring seasonal load variation**: A salon that runs minimal AC in winter and four hair dryers plus AC in summer has a 3× load swing. Size for the summer peak, not the comfortable winter average, or you will clip generation and trip the inverter during peak summer months.
 
-- **Not verifying the installer's empanelment status**: For net metering in most states, the installing vendor must be empanelled by the DISCOM or state nodal agency. Using an un-empanelled installer means the DISCOM will not commission the net meter and your system operates at a disadvantage (no export credit). A [verified local installer directory](https://heavengreenenergy.com/solar-near-me/) is a useful starting point for confirming empanelment status before signing a contract.
+- **Not verifying the installer's empanelment status**: For net metering in most states, the installing vendor must be empanelled by the DISCOM or state nodal agency. Using an un-empanelled installer means the DISCOM will not commission the net meter and your system operates at a disadvantage (no export credit). A verified local installer directory is a useful starting point for confirming empanelment status before signing a contract.
 
 - **Missing the GST ITC window**: ITC must be claimed in the return for the tax period in which the invoice is received. Waiting until the next financial year to file can forfeit the credit under GST's time-bound ITC rules. Flag your purchase to your accountant in the same month the inverter is delivered.
 

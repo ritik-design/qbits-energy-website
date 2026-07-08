@@ -1,5 +1,5 @@
 ---
-title: "Solar Single Line Diagram Software: Auto-SLD Guide 2026"
+title: "Solar Single Line Diagram Software: 2026 Guide"
 excerpt: "Solar single line diagram software auto-generates the SLD that AHJs, lenders, and installers depend on. Here is what auto-SLD ships in 2026 and which tools do it well."
 description: "Solar single line diagram software 2026: auto-SLD with NEC labels, AutoCAD DXF/DWG export, AHJ-ready output. Compare SurgePV vs Aurora. Book a free demo."
 category: "Solar Software"
@@ -56,7 +56,7 @@ The [single line diagram](/glossary/single-line-diagram/) is the electrical sche
 - Inverter model and ratings
 - DC disconnect and [overcurrent protection](/blog/solar-string-sizing-ocp-india/)
 - AC disconnect and breaker
-- AC combiner box if used (multi-inverter), typically an [ACDB/DCDB assembly](https://heavengreenenergy.com/products/acdb-dcdb/) on the physical installation
+- AC combiner box if used (multi-inverter), typically an ACDB/DCDB assembly on the physical installation
 - Conductor sizing and labelling
 - [Grounding and bonding](/blog/solar-inverter-grounding/) details
 - Utility [interconnection point](/glossary/bidirectional-meter/)
@@ -64,7 +64,7 @@ The [single line diagram](/glossary/single-line-diagram/) is the electrical sche
 
 ## How Solar Single Line Diagram Software Works in SurgePV
 
-The SLD is generated from the design canvas in real time, downstream of the same [8,760-hour shading analysis](/blog/solar-shading-analysis-software/) and [solar simulation](/blog/solar-simulation-software/) that already ran on the layout. Module layout determines string composition; MPPT assignments map to the chosen inverter; conductor sizing follows code; overcurrent protection ratings come from the inverter datasheet. The output is a PDF SLD plus a DXF/DWG for AutoCAD handoff. For projects that need a fully stamped electrical drawing package beyond the auto-generated SLD, EPCs typically turn to a dedicated [electrical drawings and CEIG documentation](https://heavendesigns.in/electrical-ceig-drawings/) service.
+The SLD is generated from the design canvas in real time, downstream of the same [8,760-hour shading analysis](/blog/solar-shading-analysis-software/) and [solar simulation](/blog/solar-simulation-software/) that already ran on the layout. Module layout determines string composition; MPPT assignments map to the chosen inverter; conductor sizing follows code; overcurrent protection ratings come from the inverter datasheet. The output is a PDF SLD plus a DXF/DWG for AutoCAD handoff. For projects that need a fully stamped electrical drawing package beyond the auto-generated SLD, EPCs typically turn to a dedicated electrical drawings and CEIG documentation service.
 
 ## Auto-SLD Across Competing Tools
 
@@ -84,7 +84,7 @@ The SLD is generated from the design canvas in real time, downstream of the same
 - NEC, IEC, AS/NZS, IS code labels
 - Editable output for site-specific tweaks
 - Multi-inverter, multi-MPPT support
-- Hybrid inverter battery-side schematic
+- [Hybrid inverter](/hybrid-inverter/) battery-side schematic
 - Single-page or multi-page output for AHJ submission
 
 Included on every paid plan at $1,299 to $1,899 per user per year.
@@ -128,7 +128,7 @@ The same SLD exports to DXF for the electrical contractor's AutoCAD overlay.
 - **Choose HelioScope** for engineering with limited SLD generation.
 - **Use AutoCAD + manual SLD** only on very specialised projects where the auto-generation does not match the reviewer's preferences.
 
-For most installers in 2026, SurgePV is the [solar design software](https://surgepv.com/) that ships the cleanest auto-SLD workflow. Once the SLD is finalised, the same canvas typically feeds [solar takeoff software](/blog/solar-takeoff-software/) to generate the procurement bill of quantities.
+For most installers in 2026, SurgePV is the [solar design software](https://surgepv.com/) that ships the cleanest auto-SLD workflow. Once the SLD is finalised, the same canvas typically feeds [solar takeoff software](/blog/solar-takeoff-software/) to generate the procurement bill of quantities. The next step is matching the SLD's inverter block to real hardware, EPCs spec'ing [on-grid inverters](/on-grid-inverter/) for the design can [talk to a Qbits engineer](/contact-us/) about datasheet-level compatibility.
 
 <div class="inline-cta">
 <h3>Ready for auto-SLD on every project?</h3>

@@ -1,7 +1,7 @@
 ---
-title: "Solar for Rented Homes, What Indian Tenants Can Actually Do"
+title: "Solar for Rented Homes: What Tenants Can Do"
 excerpt: "Solar for rented home India: tenants have 4 realistic options, portable kits, balcony panels, negotiating with the landlord, or a solar UPS. Standard rooftop solar needs landlord permission."
-description: "Can tenants install solar in a rented home in India? Honest guide to portable solar, balcony panels, landlord negotiation, net metering, and PM Surya Ghar subsidy access for renters."
+description: "Can tenants install solar in a rented home in India? Guide to portable solar, balcony panels, landlord negotiation, and subsidy access for renters."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -144,7 +144,7 @@ The pitch to the landlord:
 3. The tenant gets electricity at the solar rate (₹4–5/unit) instead of the grid rate (₹8–10/unit).
 4. At the end of the tenancy, the landlord owns an appreciating asset that increases rental value.
 
-This model is gaining traction in Pune, Bangalore, and Hyderabad rental markets where tech-sector tenants are aware of solar benefits and willing to pay a green premium. For comparison with commercial CAPEX and RESCO models, see the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-india-guide/). A landlord weighing whether the 2 kW investment pencils out can estimate the payback with [Heaven Green Energy's solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) before committing.
+This model is gaining traction in Pune, Bangalore, and Hyderabad rental markets where tech-sector tenants are aware of solar benefits and willing to pay a green premium. For comparison with commercial CAPEX and RESCO models, see the [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-india-guide/). A landlord weighing whether the 2 kW investment pencils out can estimate the payback with Heaven Green Energy's solar cost and savings calculator before committing.
 
 ## Option 4: Negotiating PM Surya Ghar with Your Landlord
 
@@ -239,6 +239,6 @@ Qbits serves the EPC installer and homeowner who installs a permanent system, ei
 - **[Battery Backup Calculator](/blog/solar-battery-backup-calculator/)**: calculate the battery size needed for critical load backup at a rented home.
 - **[Authorised Service Partners](/authorized-service-partners/)**: local service in 280+ cities means a tenant can get inverter support regardless of which city the rental property is in.
 
-Once a landlord agrees to install, [Heaven Green Energy's installer directory](https://heavengreenenergy.com/solar-near-me/) helps locate a vetted local installer for the physical installation.
+Once a landlord agrees to install, Heaven Green Energy's installer directory helps locate a vetted local installer for the physical installation.
 
 [Talk to a Qbits engineer](/contact-us/) about the right solar configuration for a rented home, whether permanent grid-connected or hybrid with battery, the system design should match the tenancy structure and the tenant's timeline for recovery.

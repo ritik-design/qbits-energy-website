@@ -68,7 +68,7 @@ SurgePV is the [solar design software](https://surgepv.com/) built around this f
 
 **Step 4: Financial model.** The tool pulls the local tariff automatically. [PM Surya Ghar](/glossary/pm-surya-ghar/) for India, SREC and [net metering](/glossary/net-metering/) for the United States, [Feed in Tariff](/glossary/feed-in-tariff/) and Einspeisevergütung for Germany, Time of Use for Australia and California. The model outputs [payback](/glossary/payback-period/), IRR, [NPV](/glossary/npv/), and 25 year cash flow tied to the simulated generation, not a guess.
 
-**Step 5: Branded proposal.** SurgePV generates a [branded solar proposal](https://surgepv.com/solar-proposals) in the installer's colors, logo, language, and currency. Nine languages are supported. The designer reviews, hits export, and sends. The same project file produces the engineering [DXF/DWG export](https://surgepv.com/solar-autocad-integration) for installation — the same signed-off drawing set that would otherwise need a separate [detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) pass — which kills the second design pass that wastes engineering hours on every won deal.
+**Step 5: Branded proposal.** SurgePV generates a [branded solar proposal](https://surgepv.com/solar-proposals) in the installer's colors, logo, language, and currency. Nine languages are supported. The designer reviews, hits export, and sends. The same project file produces the engineering [DXF/DWG export](https://surgepv.com/solar-autocad-integration) for installation — the same signed-off drawing set that would otherwise need a separate detailed engineering design pass — which kills the second design pass that wastes engineering hours on every won deal.
 
 For sales-led teams, SurgePV pairs naturally with [solar sales software](https://surgepv.com/for-solar-sales-professionals) workflows and CRMs like [QuickEstimate](https://quickestimate.co/features/pipeline-management/), the sister product for pipeline tracking.
 
@@ -116,7 +116,7 @@ Five mistakes show up in 80 percent of lost solar bids.
 
 **Stale tariffs.** Net metering rules change every year in every market. A proposal quoting last year's tariff structure dies in due diligence. The tool must pull tariff data automatically. Manual tariff entry is a tax on accuracy.
 
-**Wrong [DC/AC ratio](/glossary/dc-oversizing/).** Residential bids often default to 1.0 because the tool does not flag [clipping](/glossary/clipping-loss/). C&I and utility projects need 1.15 to 1.30 depending on irradiance. A bid with the wrong ratio either over-sizes capex or under-delivers generation. The shading and inverter selection have to be linked.
+**Wrong [DC/AC ratio](/glossary/dc-oversizing/).** Residential bids often default to 1.0 because the tool does not flag [clipping](/glossary/clipping-loss/). C&I and utility projects need 1.15 to 1.30 depending on irradiance, and the inverter itself usually comes from a dedicated [C&I solution](/c-i-solution/) line rather than a residential SKU. A bid with the wrong ratio either over-sizes capex or under-delivers generation. The shading and inverter selection have to be linked.
 
 **Generic proposal copy.** A proposal that reads like a brochure loses to one that quotes the customer's actual electricity bill, the actual roof, and the actual savings. The bid tool needs to embed real numbers in the prose, not just tables.
 
@@ -131,7 +131,7 @@ Five mistakes show up in 80 percent of lost solar bids.
 - **[Solargraf](/blog/solargraf-alternative/).** Pure residential sales teams in North America with simple tariff structures and no engineering output requirement.
 - **[OpenSolar](/blog/opensolar-alternative/).** Solo installers and small residential shops on a tight budget who can accept hour-averaging yield instead of bankable simulation.
 
-For most growing solar businesses serving residential plus commercial, SurgePV is the only option that does not force a trade-off between speed and accuracy.
+For most growing solar businesses serving residential plus commercial, SurgePV is the only option that does not force a trade-off between speed and accuracy. Once a bid is won, EPCs sourcing the actual hardware can [talk to a Qbits engineer](/contact-us/) to match inverter selection to the string design the bid already modeled.
 
 <div class="inline-cta">
 <h3>Stop losing bids to slow tools</h3>

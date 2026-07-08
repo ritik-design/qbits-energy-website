@@ -123,7 +123,7 @@ Smart bidirectional meter specification for net metering.
 
 Anti-islanding and fault ride-through requirements for distributed solar above 10 kW.
 
-Construction approval for transmission and distribution infrastructure, where projects typically need [CEIG-compliant electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) prepared against CEA's construction standards.
+Construction approval for transmission and distribution infrastructure, where projects typically need CEIG-compliant electrical drawings prepared against CEA's construction standards.
 
 Renewable energy generation reporting.
 

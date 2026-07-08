@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Certifications: 9 Essential Standards EPCs Must Verify (2026)"
+title: "Solar Inverter Certifications: 9 Standards to Verify"
 excerpt: "BIS certification is mandatory. Skipping verification can cost ₹1–10 lakhs in penalties, blocked DISCOM connections, voided warranties, and lost subsidies. Here's the 9-standard verification framework."
-description: "Complete guide to inverter certifications EPCs must verify in India, BIS Compulsory Registration, IEC 62109/62116, ISO 9001, IP66 ratings, anti-islanding, plus a step-by-step verification process and red flags."
+description: "Guide to inverter certifications EPCs must verify in India: BIS registration, IEC 62109/62116, ISO 9001, IP66 ratings, and anti-islanding checks."
 category: "Guide"
 date: 2026-04-04
 readTime: "10 min"
@@ -36,7 +36,7 @@ Every year, Indian solar companies face project delays, warranty disputes, and l
 > - Non-certified equipment risks ₹1–10 lakh BIS Act penalties, DISCOM connection refusal, voided warranties, and revoked subsidies.
 > - Nine red flags (blurry documents, unverifiable numbers, unaccredited labs, and more) help procurement teams spot fake certificates before they cause a project failure.
 
-Certification verification sits inside a broader procurement discipline - the same rigor that turnkey [solar EPC teams](https://heavengreenenergy.com/solar-epc/) apply when sourcing equipment for installation, and the same evidence trail covered in the [solar inverter regulations India 2026 (BIS/IEC compliance) guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/).
+Certification verification sits inside a broader procurement discipline - the same rigor that turnkey solar EPC teams apply when sourcing equipment for installation, and the same evidence trail covered in the [solar inverter regulations India 2026 (BIS/IEC compliance) guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/).
 
 ## Why Inverter Certifications Matter
 
@@ -249,4 +249,4 @@ Quality compliance drives repeat business and referrals. Cutting corners sacrifi
 
 ## Closing
 
-Certifications are not bureaucratic paperwork, they are the legal and financial protection layer for every solar project. Build a verification process once, train your team, automate the tracking, and you eliminate one of the most preventable categories of project risk in Indian solar. The same verified equipment then needs a rigorous [commissioning process](/blog/solar-inverter-commissioning-in-india/) on site - certification confirms the inverter is legally and technically sound; commissioning confirms it is correctly installed and configured.
+Certifications are not bureaucratic paperwork, they are the legal and financial protection layer for every solar project. Build a verification process once, train your team, automate the tracking, and you eliminate one of the most preventable categories of project risk in Indian solar. The same verified equipment then needs a rigorous [commissioning process](/blog/solar-inverter-commissioning-in-india/) on site - certification confirms the inverter is legally and technically sound; commissioning confirms it is correctly installed and configured. Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/) ship with the full BIS/IEC/ISO documentation pack referenced above as standard, so procurement teams get the audit trail without chasing it after the PO is signed, [talk to a Qbits engineer](/contact-us/) to review the certification file for a specific project.

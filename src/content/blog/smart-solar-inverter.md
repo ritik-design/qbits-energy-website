@@ -1,7 +1,7 @@
 ---
-title: "Smart Solar Inverter India, Which Features Are Worth Paying For"
+title: "Smart Solar Inverter India, Which Features Matter"
 excerpt: "Smart solar inverter India buyers face a ₹8,000–₹25,000 premium for 'smart' features. This guide separates genuine value from marketing fluff using the 6-Feature ROI Filter."
-description: "Smart solar inverter India, which features deliver real ROI: WiFi monitoring, WhatsApp alerts, dual MPPT, anti-islanding, AFCI, zero-export, remote firmware updates. Full 2026 guide."
+description: "Smart solar inverter India: which features deliver real ROI, WiFi monitoring, WhatsApp alerts, dual MPPT, AFCI, and zero-export. Full 2026 buying guide."
 category: "Technology"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -262,7 +262,7 @@ The following table applies the 6-Feature ROI Filter to summarise which smart fe
 Indian homeowners consistently make several avoidable errors when evaluating smart inverter features. Knowing these mistakes before signing a purchase order costs nothing and can save tens of thousands of rupees.
 
 - **Paying a premium for bundled features you will never use**: A salesperson who bundles advanced grid-support functions (reactive power control, volt-var response) into a residential proposal is adding cost for a feature that delivers no value to a homeowner. These are C&I and utility-scale features irrelevant to a residential on-grid installation.
-- **Treating shade optimisation as a substitute for proper site planning**: MLPE is not a solution for a poorly planned installation layout. The [solar inverter selection guide](/blog/solar-inverter-selection/) covers how proper site assessment eliminates most shading problems before they require hardware solutions, and a documented [site survey and land feasibility check](https://heavendesigns.in/site-survey-land-feasibility-services/) before installation catches most of these issues upfront.
+- **Treating shade optimisation as a substitute for proper site planning**: MLPE is not a solution for a poorly planned installation layout. The [solar inverter selection guide](/blog/solar-inverter-selection/) covers how proper site assessment eliminates most shading problems before they require hardware solutions, and a documented site survey and land feasibility check before installation catches most of these issues upfront.
 - **Assuming app-based monitoring is sufficient without checking your own habits**: Be honest about how often you will open a dedicated monitoring app. If the answer is "whenever I remember," WhatsApp-native monitoring will serve you better.
 - **Not verifying DISCOM-specific requirements before specifying export control**: Adding a CT sensor and export-control firmware to an installation in a state with open net metering is unnecessary cost. Equally, forgetting export control in a DISCOM that requires it is a compliance failure. Always verify before purchase.
 - **Ignoring OTA capability as a "nice to have"**: Treating OTA firmware updates as optional ignores the ten-year cost of on-site service visits and the risk of falling out of grid-code compliance. OTA is infrastructure for the asset's longevity, not a luxury feature.

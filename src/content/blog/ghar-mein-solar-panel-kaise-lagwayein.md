@@ -1,6 +1,7 @@
 ---
-title: "Ghar Mein Solar Panel Kaise Lagwayein, Complete Hindi Guide 2026"
+title: "Ghar Mein Solar Panel Kaise Lagwayein: Hindi Guide"
 excerpt: "Ghar mein solar panel kaise lagwayein: site survey, system sizing, vendor selection, installation process, net metering, aur PM Surya Ghar subsidy, step-by-step Hindi guide।"
+description: "Ghar mein solar panel kaise lagwayein: site survey, sizing, PM Surya Ghar subsidy, vendor selection, installation aur net metering ka Hindi guide."
 category: "Educational"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -47,7 +48,7 @@ faqs:
 
 ## Step 1: Site Assessment - Roof Suitable Hai?
 
-Solar panel लगाने से पहले roof की suitability check करें। Complex या large roofs ke liye [Heaven Designs' site survey and land feasibility service](https://heavendesigns.in/site-survey-land-feasibility-services/) ek detailed professional assessment provide karti hai।
+Solar panel लगाने से पहले roof की suitability check करें। Complex या large roofs ke liye Heaven Designs' site survey and land feasibility service ek detailed professional assessment provide karti hai।
 
 ### The 4-Point Roof Check Framework
 
@@ -122,7 +123,7 @@ Application submit होने के बाद DISCOM feasibility visit हो
 
 ## Step 4: Vendor Selection - Critical Step
 
-Portal पर आपके district के approved vendors दिखेंगे। यह selection सबसे important decision है। Portal ke bahar bhi [nearby installers dhundhne ka tool](https://heavengreenenergy.com/solar-near-me/) reference ke liye use kar sakte hain।
+Portal पर आपके district के approved vendors दिखेंगे। यह selection सबसे important decision है। Portal ke bahar bhi nearby installers dhundhne ka tool reference ke liye use kar sakte hain।
 
 ### The 5-Point Vendor Selection Framework
 

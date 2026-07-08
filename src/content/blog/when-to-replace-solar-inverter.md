@@ -1,7 +1,7 @@
 ---
-title: "When to Replace Your Old Solar Inverter, 7-Year Health Check"
+title: "When to Replace Your Old Solar Inverter"
 excerpt: "Replace old solar inverter when generation drops >15%, fault codes appear weekly, capacitors degrade, or spare parts vanish. The 7-Point Inverter Health Check tells you repair, replace, or upgrade."
-description: "Use the 7-Point Inverter Health Check to decide whether your 5–12 year old solar inverter needs repair, replacement, or a hybrid upgrade. India-specific guidance with cost comparison."
+description: "Use the 7-Point Inverter Health Check to decide if your 5-12 year old solar inverter needs repair, replacement, or a hybrid upgrade, with cost comparison."
 category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -109,7 +109,7 @@ The generation baseline is the most objective data point in the entire health ev
 
 **Step 3, Calculate the decline percentage.** Subtract current monthly generation from baseline monthly generation, divide by baseline, and multiply by 100. A 5-year-old system showing 8% below baseline is within acceptable panel degradation range. The same system showing 18% below baseline has a problem that panels alone cannot explain.
 
-**Step 4, Isolate the inverter.** Ask [your installer](https://heavengreenenergy.com/solar-near-me/) to measure panel [open-circuit voltage](/glossary/open-circuit-voltage/) (Voc) strings individually. If panel output is within 5% of nameplate ratings but inverter AC output is proportionally lower, the efficiency loss is in the inverter's conversion stage, confirming a replacement case.
+**Step 4, Isolate the inverter.** Ask your installer to measure panel [open-circuit voltage](/glossary/open-circuit-voltage/) (Voc) strings individually. If panel output is within 5% of nameplate ratings but inverter AC output is proportionally lower, the efficiency loss is in the inverter's conversion stage, confirming a replacement case.
 
 > **15–20%.** The generation decline threshold that typically indicates inverter conversion efficiency has fallen below economic justification for repair. *Source - [NREL National Solar Radiation Database technical documentation](https://nsrdb.nrel.gov/), 2025.*
 

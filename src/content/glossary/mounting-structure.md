@@ -169,7 +169,7 @@ Regulatory compliance. [CEIG](/glossary/ceig/) approval and CEA safety regulatio
 
 PM Surya Ghar rooftop installations, the kind covered in our [Lucknow 3BHK hybrid solar case study](/blog/case-study-lucknow-3bhk/).
 
-C&I rooftop on industrial sheds, typically delivered under [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) scope.
+C&I rooftop on industrial sheds, typically delivered under industrial solar installation scope.
 
 Utility solar parks.
 
@@ -225,11 +225,11 @@ Document mounting structure on the [single line diagram](/glossary/single-line-d
 
 ## Indian market context
 
-Major Indian mounting structure brands: Tata BlueScope, Mahindra Susten, Esennar, Hexa Power, NextMSC, Mounting Systems India — the same category of [mounting structure products](https://heavengreenenergy.com/products/mounting-structures/) sold through solar equipment suppliers.
+Major Indian mounting structure brands: Tata BlueScope, Mahindra Susten, Esennar, Hexa Power, NextMSC, Mounting Systems India — the same category of mounting structure products sold through solar equipment suppliers.
 
 ALMM does not certify mounting structures separately. MNRE technical specifications apply.
 
-CEIG drawing approval verifies structural compliance, backed by [structural and civil engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) calculations for larger projects.
+CEIG drawing approval verifies structural compliance, backed by structural and civil engineering calculations for larger projects.
 
 PM Surya Ghar residential typically uses GI rail-and-clamp systems.
 

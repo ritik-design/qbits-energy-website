@@ -1,7 +1,7 @@
 ---
-title: "Inverter Voltage: String Voltage vs MPPT Voltage in Solar Inverters India 2026"
+title: "String Voltage vs MPPT Voltage: Inverter Guide"
 excerpt: "A miscalculated string voltage trips protection circuits, voids warranties, and can permanently damage expensive inverter hardware. Here is the complete temperature-corrected design framework Indian EPCs use to size strings safely across cold Himalayan mornings and 65 deg C+ Rajasthan rooftop conditions."
-description: "Complete guide to string voltage vs MPPT voltage in solar inverters for Indian conditions: definitions and roles, temperature coefficient effects, cold-zone Voc spike calculations, hot-zone Vmp drop analysis, six-step design process, worked calculation examples, safety margins, common design mistakes, and inverter selection criteria."
+description: "String voltage vs MPPT voltage in solar inverters for India: temperature coefficient effects, six-step design process, and common mistakes."
 category: "Technology"
 date: 2026-05-11
 updatedDate: 2026-07-08
@@ -118,7 +118,7 @@ Qbits' [string sizing calculator](/string-sizing-calculator/) automates the six 
 
 ### Step 1: Determine site temperature extremes
 
-Use Indian Meteorological Department (IMD) data for the specific district or use the closest weather station's minimum and maximum recorded temperatures from the last 10-20 years. For panel temperature in hot zones, add 25-30 deg C to ambient (panel surface heating). A proper [site survey and land feasibility](https://heavendesigns.in/site-survey-land-feasibility-services/) assessment captures this site-specific temperature data before the string design is finalised.
+Use Indian Meteorological Department (IMD) data for the specific district or use the closest weather station's minimum and maximum recorded temperatures from the last 10-20 years. For panel temperature in hot zones, add 25-30 deg C to ambient (panel surface heating). A proper site survey and land feasibility assessment captures this site-specific temperature data before the string design is finalised.
 
 ### Step 2: Calculate worst-case Voc at minimum site temperature
 

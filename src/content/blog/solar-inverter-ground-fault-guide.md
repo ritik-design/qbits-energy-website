@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Ground Fault Error, Troubleshooting Guide India"
+title: "Solar Inverter Ground Fault Error, Troubleshooting"
 excerpt: "Solar inverter ground fault errors explained for India. Learn GFCI causes, safety implications, multimeter insulation resistance tests, and when to replace wiring."
-description: "Complete guide to solar inverter ground fault errors in India. Covers GFCI diagnosis, DC insulation resistance test, CEA wiring standards, and repair vs replacement decisions."
+description: "Guide to solar inverter ground fault errors in India: GFCI diagnosis, DC insulation resistance testing, CEA wiring standards, and repair vs replacement."
 category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -79,7 +79,7 @@ Quality inverters, including those compliant with [IEC 62109-1](https://www.iec.
 
 ### Cause 1: Damaged MC4 Connector (Most Common)
 
-[MC4 connectors](/glossary/mc4-connector/) (the push-lock connectors that join panel output leads and DC string cables) are the most common ground fault origin point in Indian residential systems. Sourcing quality [balance of system components](https://heavengreenenergy.com/products/balance-of-system/), connectors, junction boxes, and DC cable rated for outdoor UV exposure, reduces the odds of a ground fault developing in the first place. After 3–8 years of outdoor exposure, the internal rubber seals degrade, the metal contacts can corrode, and the clamping mechanism may loosen.
+[MC4 connectors](/glossary/mc4-connector/) (the push-lock connectors that join panel output leads and DC string cables) are the most common ground fault origin point in Indian residential systems. Sourcing quality balance of system components, connectors, junction boxes, and DC cable rated for outdoor UV exposure, reduces the odds of a ground fault developing in the first place. After 3–8 years of outdoor exposure, the internal rubber seals degrade, the metal contacts can corrode, and the clamping mechanism may loosen.
 
 **Failure modes:**
 - A partially mated connector allows moisture ingress, water bridges the contact gap to the metal locking sleeve, which is connected to the panel frame and therefore to earth
@@ -181,7 +181,7 @@ For both ground faults and arc faults, the highest-risk period in India is immed
 
 ## CEA Wiring Safety Standards Relevant to Ground Faults
 
-Indian solar installations are governed by CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations 2013, which require, and EPCs specifying [CEIG-compliant electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) at the design stage build these requirements in from the start:
+Indian solar installations are governed by CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations 2013, which require, and EPCs specifying CEIG-compliant electrical drawings at the design stage build these requirements in from the start:
 
 - All DC conductors to be insulated, rated for the maximum system voltage, UV-resistant and double-insulated
 - DC earthing of the array frame with a proper earthing conductor sized per IS 3043

@@ -1,7 +1,7 @@
 ---
-title: "Battery Management System (BMS) in Hybrid Solar Inverters, Decoded"
+title: "BMS in Hybrid Solar Inverters, Decoded"
 excerpt: "A BMS in a hybrid solar inverter handles cell balancing, SOC estimation, overcharge protection, and temperature monitoring. Here is how each layer works in India."
-description: "Deep-dive into the 6-layer BMS protocol stack for hybrid solar inverters, cell balancing, SOC estimation, CAN bus vs RS485, and Qbits HS/HT compatibility with Pylontech, Dyness, and PACE batteries."
+description: "Deep-dive into the 6-layer BMS protocol stack for hybrid solar inverters: cell balancing, SOC estimation, CAN bus vs RS485, and battery compatibility."
 category: Technology
 date: 2026-06-05
 readTime: "18 min"
@@ -189,7 +189,7 @@ EPC teams encounter a predictable set of BMS-related problems during commissioni
 - **Address conflict on RS485 bus**: If multiple batteries share an RS485 bus, each must have a unique Modbus device address. Most BMS units default to address 1. Duplicate addresses cause communication collisions. Fix: configure each battery to a unique address before connecting.
 - **CAN termination missing**: CAN bus requires 120 Ω termination resistors at each physical end of the cable. Most inverters have an internal termination resistor that must be enabled via a DIP switch or software setting. Missing termination causes reflections and data errors at higher data rates. Symptom: intermittent BMS communication errors that become worse as cable length increases.
 - **SOC calibration not performed**: After initial installation, the BMS SOC estimate may be uncalibrated. Perform one full charge-to-100%-SOC cycle followed by discharge to 20% SOC to allow the BMS coulomb counter to calibrate. Skipping this causes the inverter to start grid charging too early or too late during the first weeks of operation.
-- **BMS firmware out of date**: Battery manufacturers release BMS firmware updates that fix communication bugs and improve SOC accuracy. An inverter [firmware update](/blog/solar-inverter-firmware-update-india/) may require a matching BMS firmware version. Always check the compatibility matrix for both before updating either, and source replacement packs against a verified [balance-of-system catalogue](https://heavengreenenergy.com/products/balance-of-system/) rather than an unverified aftermarket seller.
+- **BMS firmware out of date**: Battery manufacturers release BMS firmware updates that fix communication bugs and improve SOC accuracy. An inverter [firmware update](/blog/solar-inverter-firmware-update-india/) may require a matching BMS firmware version. Always check the compatibility matrix for both before updating either, and source replacement packs against a verified balance-of-system catalogue rather than an unverified aftermarket seller.
 
 Refer to the [battery sizing for hybrid solar](/blog/battery-sizing-hybrid-solar/) guide for how to calculate the correct pack size before finalising BMS specifications, and to the [hybrid inverter selection guide](/blog/how-to-choose-hybrid-solar-inverter/) for how BMS compatibility factors into overall system design. EPCs modelling storage capacity across multiple projects can also use [SurgePV's battery sizing workflow](https://surgepv.com/hub/energy-storage/battery-sizing/) to standardise the calculation.
 

@@ -1,7 +1,7 @@
 ---
-title: "What to Do When Your Solar Inverter Fails, 72-Hour Action Plan"
+title: "Solar Inverter Fails? 72-Hour Action Plan"
 excerpt: "Solar inverter failed? This 72-hour action plan walks you through every step (from Hour 0 diagnosis to RMA resolution) so you lose the least generation possible."
-description: "Step-by-step 72-hour action plan for homeowners whose solar inverter has stopped working. Covers fault code reading, service escalation, repair vs replacement, and warranty SLA."
+description: "Solar inverter failed? This 72-hour action plan covers fault code reading, service escalation, repair vs replacement, and warranty SLA."
 category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -113,7 +113,7 @@ This is the named framework that structures your recovery from the moment the fa
 
 ### Phase 2: Log and Escalate (Hour 1–4)
 
-5. **Call your installer**: Your first call should be to the installation company, not the inverter brand. If you no longer have an active installer relationship, [find a local solar installer](https://heavengreenenergy.com/solar-near-me/) who can dispatch a technician quickly. The installer knows your specific system layout, your DC string configuration, and your local grid conditions. Give them the six-item information set: model, serial number, installation date, fault code, fault time, and recent grid events.
+5. **Call your installer**: Your first call should be to the installation company, not the inverter brand. If you no longer have an active installer relationship, find a local solar installer who can dispatch a technician quickly. The installer knows your specific system layout, your DC string configuration, and your local grid conditions. Give them the six-item information set: model, serial number, installation date, fault code, fault time, and recent grid events.
 6. **Log a brand service ticket**: If your installer is unresponsive after 2 hours, call the inverter manufacturer's service line directly. Provide the same information and request a ticket number. A ticket number is your SLA clock start.
 7. **Email confirmation**: Send a brief email to both parties with the fault code, ticket number, and the timestamp of your first report. This creates a timestamped record that protects you if SLA disputes arise later.
 

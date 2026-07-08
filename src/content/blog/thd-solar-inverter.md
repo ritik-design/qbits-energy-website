@@ -1,7 +1,7 @@
 ---
-title: "THD in Solar Inverters, Why It Matters for Sensitive Loads"
+title: "THD in Solar Inverters, Why It Matters"
 excerpt: "THD in an inverter is the percentage of non-fundamental harmonic content in its AC output. High THD damages motors, trips VFDs, faults UPS systems, and disqualifies inverters from hospital and data centre projects."
-description: "What is THD in an inverter, why IEEE 519 caps it at 5% VTHD at PCC and 3% for sensitive loads, and how Qbits inverters achieve <3% THD using LC filters, IGBT selection and PWM control."
+description: "What is THD in a solar inverter, why IEEE 519 caps it at 5% at PCC and 3% for sensitive loads, and how Qbits inverters hit under 3% THD with LC filters."
 category: "Technology"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -190,7 +190,7 @@ The THD requirements are not uniform across C&I applications. The table below ma
 
 ### Hospital Projects: The Mandatory Checklist
 
-EPCs delivering [commercial solar installations](https://heavengreenenergy.com/commercial-solar/) for healthcare campuses treat power quality as a contractual line item, not a nice-to-have, because a hospital procurement contract can carry supply-quality penalty clauses that a standard rooftop job never sees. For hospital solar installations, the EPC must verify three THD-related items before the inverter specification is finalised:
+EPCs delivering commercial solar installations for healthcare campuses treat power quality as a contractual line item, not a nice-to-have, because a hospital procurement contract can carry supply-quality penalty clauses that a standard rooftop job never sees. For hospital solar installations, the EPC must verify three THD-related items before the inverter specification is finalised:
 
 - **Inverter ITHD at rated and partial load**: request test reports, not just datasheet figures.
 - **Background VTHD at the PCC**: measure existing grid distortion before the solar plant energises. If background distortion is already 2.5%, the inverter headroom is only 0.5% VTHD additional before hitting the 3% design target.
@@ -256,7 +256,7 @@ For EPC teams specifying inverters on sensitive-load projects:
 - **[Hybrid Inverters (HS / HT series)](/hybrid-inverter/)**: Battery-ready with seamless backup switchover. Less than 3% ITHD at rated output, making them appropriate for data centre edge deployments and hospital UPS integration where solar + storage topology is specified.
 - **[Download datasheets](/download-datasheets/)**: Full harmonic specifications, individual harmonic test data, and BIS / IEC certification references are included in the technical datasheet package for all current series.
 
-When you are ready to evaluate THD performance against a specific project specification (including background VTHD at the site and load-point requirements) the Qbits engineering team provides site-specific harmonic assessments at no cost for projects above 50 kW. [Contact the team](/contact-us/) with the site address and a [single-line diagram](https://heavendesigns.in/electrical-ceig-drawings/) to get started, if the project does not yet have one prepared, an engineering partner can produce the electrical and CEIG drawings alongside the harmonic assessment.
+When you are ready to evaluate THD performance against a specific project specification (including background VTHD at the site and load-point requirements) the Qbits engineering team provides site-specific harmonic assessments at no cost for projects above 50 kW. [Contact the team](/contact-us/) with the site address and a single-line diagram to get started, if the project does not yet have one prepared, an engineering partner can produce the electrical and CEIG drawings alongside the harmonic assessment.
 
 ## THD Across Inverter Technologies: String, Central, and Hybrid
 

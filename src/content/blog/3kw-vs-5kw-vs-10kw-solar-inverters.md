@@ -1,7 +1,7 @@
 ---
-title: "3 kW vs 5 kW vs 10 kW Solar Inverters India: Complete Capacity Guide 2026"
+title: "3kW vs 5kW vs 10kW Solar Inverters India Guide"
 excerpt: "Choosing 3 kW vs 5 kW vs 10 kW determines daily generation, panel configuration, ROI timeline, and 25-year economics. Here is the complete side-by-side comparison for India's three most popular residential and small commercial inverter sizes - with sizing rules, cost analysis, and the mistakes that cost ₹2 lakh+ over the system lifetime."
-description: "Complete comparison of 3 kW, 5 kW, and 10 kW solar inverters for Indian homes and small commercial installations: daily generation, panel configuration, cost analysis, PM Surya Ghar subsidy interaction, single-phase vs three-phase requirements, DC oversizing, ROI timelines, performance under Indian climate, and the most expensive capacity selection mistakes."
+description: "Compare 3 kW, 5 kW, and 10 kW solar inverters for Indian homes: daily generation, cost analysis, subsidy interaction, phase needs, and ROI timelines."
 category: "Buying Guide"
 date: 2026-04-22
 readTime: "12 min"
@@ -262,7 +262,7 @@ Target inverter generation that covers 80-100% of projected consumption. Net met
 
 ### Step 4: Validate against roof area and electrical connection
 
-Confirm the panel array (DC kW) fits the available roof area without shading, a [3D site pre-design survey](https://heavendesigns.in/solar-3d-pre-design/) can model panel layout and shadow impact on the actual roof geometry before procurement. Confirm the inverter capacity matches single-phase vs three-phase reality. Only then commit to the capacity tier.
+Confirm the panel array (DC kW) fits the available roof area without shading, a 3D site pre-design survey can model panel layout and shadow impact on the actual roof geometry before procurement. Confirm the inverter capacity matches single-phase vs three-phase reality. Only then commit to the capacity tier.
 
 ## Where Qbits Fits Across the Capacity Range
 

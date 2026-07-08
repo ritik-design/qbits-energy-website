@@ -115,7 +115,7 @@ Example: A 540 W module of dimensions 2278 × 1134 mm (2.58 m²) has efficiency:
 
 ### NOCT vs STC
 
-Real-world operating conditions are very different from STC. NOCT (Nominal Operating Cell Temperature) is the cell temperature at 800 W/m², 20°C ambient, 1 m/s wind. Typical NOCT for modern modules: 42 to 45°C. At NOCT, module output is roughly 75 to 80 percent of STC nameplate.
+Real-world operating conditions are very different from STC. NOCT (Nominal Operating Cell Temperature) is the cell temperature at 800 W/m², 20°C ambient, 1 m/s wind. Typical NOCT for modern modules: 42 to 45°C. At NOCT, module output is roughly 75 to 80 percent of STC nameplate. [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/) shows how this STC-to-field gap plays out across Indian climate zones.
 
 ### Module efficiency progression
 
@@ -187,7 +187,7 @@ Comparing modules at STC nameplate without considering temperature coefficient.
 
 Ignoring NOCT in real-world yield prediction.
 
-Confusing cell efficiency with module efficiency.
+Confusing cell efficiency with module efficiency. Module efficiency is also a distinct metric from the inverter's own conversion efficiency; see [Solar Inverter Efficiency Explained](/blog/solar-inverter-efficiency/) for the separate 95 to 98 percent weighted-efficiency rating that determines how much of the module's output actually reaches the meter.
 
 Believing manufacturer marketing without verifying flash test reports.
 

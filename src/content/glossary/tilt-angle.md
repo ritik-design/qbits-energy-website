@@ -149,7 +149,7 @@ Pitch ≈ 2.3 × cos(25°) + 1.5 m shadow allowance ≈ 3.6 m
 
 ## Real-world applications
 
-[Utility ground-mount fixed-tilt arrays](https://heavengreenenergy.com/ground-mount-solar-park/).
+Utility ground-mount fixed-tilt arrays.
 
 Single-axis trackers (variable through day).
 
@@ -169,7 +169,7 @@ Wrong tilt assumed in yield modelling.
 
 Inter-row shading at high tilt with narrow pitch.
 
-[Wind uplift](https://heavendesigns.in/solar-civil-and-structural-engineering/) on steep tilts in cyclone zones.
+Wind uplift on steep tilts in cyclone zones.
 
 Dust accumulation on flat rooftop arrays.
 

@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Manufacturers in India: Evaluation Guide for EPCs & Distributors (2026)"
+title: "Solar Inverter Manufacturers, EPC Evaluation Guide"
 excerpt: "A structured framework for assessing solar inverter manufacturers, covering production capabilities, component quality, certifications, warranty infrastructure, and service network coverage."
-description: "Complete evaluation guide for solar inverter manufacturers in India. Covers manufacturing standards, German-grade vs standard components, BIS/IEC certifications, warranty infrastructure, climate zone considerations, and a weighted scoring framework for procurement decisions."
+description: "Evaluation guide for solar inverter manufacturers in India: manufacturing standards, component quality, BIS/IEC certification, and warranty infrastructure."
 category: "Buying Guide"
 date: 2026-03-15
 updatedDate: 2026-07-08
@@ -145,7 +145,7 @@ European efficiency ratings do not reflect Indian patterns. Verify:
 
 ### Indian Manufacturers
 
-- ✅ [Local support infrastructure](https://heavengreenenergy.com/solar-epc/)
+- ✅ Local support infrastructure
 - ✅ Faster service response
 - ✅ Regulatory alignment
 - ✅ Tier-2/3 city service coverage
@@ -203,7 +203,7 @@ Comprehensive ranges (residential 3–10 kW through industrial 50 kW+) simplify 
 
 Look for:
 
-- [Preferential pricing and dedicated channel support](https://heavengreenenergy.com/become-channel-partner/)
+- Preferential pricing and dedicated channel support
 - Co-branded marketing materials
 - Technical training and certification
 - Inventory management and drop-shipping
@@ -242,4 +242,4 @@ Score each manufacturer 1–10 per factor, multiply by weight, sum totals. Docum
 
 ## Conclusion
 
-Manufacturer selection is not a one-time event, it is a continuous evaluation. Start with pilots, validate through rigorous due diligence, and build relationships gradually. In India's exponentially growing solar market, prioritise manufacturers demonstrating genuine quality commitment, transparent operations, robust warranty infrastructure, and [India-specific engineering](https://heavendesigns.in/our-services/). The right partner becomes a strategic alliance, not a transactional supplier. For the procurement process itself, the [inverter procurement India guide](/blog/inverter-procurement-india/) and [how to evaluate solar EPC bids](/blog/how-to-evaluate-solar-epc-bids/) cover the sourcing and bid-comparison steps that follow manufacturer shortlisting.
+Manufacturer selection is not a one-time event, it is a continuous evaluation. Start with pilots, validate through rigorous due diligence, and build relationships gradually. In India's exponentially growing solar market, prioritise manufacturers demonstrating genuine quality commitment, transparent operations, robust warranty infrastructure, and India-specific engineering. The right partner becomes a strategic alliance, not a transactional supplier. For the procurement process itself, the [inverter procurement India guide](/blog/inverter-procurement-india/) and [how to evaluate solar EPC bids](/blog/how-to-evaluate-solar-epc-bids/) cover the sourcing and bid-comparison steps that follow manufacturer shortlisting.

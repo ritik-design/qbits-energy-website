@@ -150,7 +150,7 @@ Yield modelling for utility solar plants, typically run through [PV simulation s
 
 Bifacial yield projection.
 
-Building integrated PV design, often coordinated with [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) teams.
+Building integrated PV design, often coordinated with rooftop detailed engineering design teams.
 
 Architectural daylighting (BIPV facades).
 

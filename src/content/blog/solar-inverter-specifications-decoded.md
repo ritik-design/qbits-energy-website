@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Specifications Decoded: 15 Key Parameters"
+title: "Solar Inverter Specifications Decoded: 15 Parameters"
 excerpt: "EPCs and installers lose thousands per project on spec mismatches. Here are the 15 inverter specifications that actually matter for system performance and ROI."
-description: "Decode the 15 most important solar inverter specifications, DC oversizing, MPPT range, THD, IP rating, efficiency types, temperature derating, communication protocols, warranty terms, and certifications."
+description: "Decode the 15 solar inverter specifications that matter: DC oversizing, MPPT range, THD, IP rating, efficiency, temperature derating, certifications."
 category: "Guide"
 date: 2026-04-04
 updatedDate: 2026-07-08
@@ -138,7 +138,7 @@ See the [9 essential certification standards EPCs must verify](/blog/solar-inver
 - Display type
 - Ventilation clearances (typically **30–50 cm**)
 
-These affect installation labour and cost. Engineering teams building a full technical package often cross-reference these physical dimensions against site drawings held in an [engineering resource center](https://heavendesigns.in/resource-center/) before finalising the layout.
+These affect installation labour and cost. Engineering teams building a full technical package often cross-reference these physical dimensions against site drawings held in an engineering resource center before finalising the layout.
 
 ## 14. [Hybrid Inverter](/glossary/hybrid-inverter/)-Specific Parameters
 

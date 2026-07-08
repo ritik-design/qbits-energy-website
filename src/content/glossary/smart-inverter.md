@@ -82,7 +82,7 @@ Voltage regulation. Volt-var control reduces distribution feeder voltage problem
 
 Frequency regulation. Frequency-watt response supports grid frequency stability.
 
-Reactive power. Replaces fixed capacitor banks with dynamic support.
+Reactive power. Replaces fixed capacitor banks with dynamic support; see [reactive power in solar inverters, an India buyer's guide](/blog/reactive-power-solar-inverters-india/) for the DISCOM power factor penalty this eliminates.
 
 Fault tolerance. FRT keeps inverters online during brief disturbances.
 
@@ -176,7 +176,7 @@ Requires DISCOM coordination.
 
 Inverter operating point affected by grid conditions.
 
-Older inverters cannot retrofit (replacement needed).
+Older inverters cannot retrofit (replacement needed). Not every feature marketed as "smart" delivers grid-support value; see [smart solar inverter India, which features are worth paying for](/blog/smart-solar-inverter/) for a buyer-side filter that separates genuine capability from marketing.
 
 ## Common smart inverter problems
 

@@ -1,5 +1,5 @@
 ---
-title: "AI Solar Design in 2026: Clara AI Leads (Aurora AI Mode + Others)"
+title: "AI Solar Design 2026: Clara AI Leads"
 excerpt: "AI solar design lets you draft a complete layout from natural language in seconds. Here is how Clara AI in SurgePV compares with Aurora AI Mode and other AI design tools."
 description: "AI solar design 2026: Clara AI vs Aurora AI Mode, Arka360 AI, OpenSolar AI. Natural-language layout, AI 3D from satellite, pricing. Book a free demo."
 category: "Solar Software"
@@ -131,7 +131,7 @@ Total time: under 5 minutes residential. For teams that also need lead capture a
 - **Choose [Aurora AI Mode](/blog/aurora-solar-pricing/)** only if already committed to Aurora's upper tier.
 - **Choose Arka360 AI** if India-residential is your entire scope.
 
-For most installers and EPCs in 2026, Clara AI inside the [solar design software](https://surgepv.com/) from SurgePV wins on capability, integration, and total cost.
+For most installers and EPCs in 2026, Clara AI inside the [solar design software](https://surgepv.com/) from SurgePV wins on capability, integration, and total cost. Once the layout and MPPT string count are locked, the next step is matching them to a compatible [on-grid](/on-grid-inverter/) or [hybrid inverter](/hybrid-inverter/), and Qbits' engineering team can [walk through the spec fit on a short call](/contact-us/).
 
 <div class="inline-cta">
 <h3>Ready to design solar in plain English?</h3>

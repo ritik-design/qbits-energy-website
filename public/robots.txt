@@ -3,7 +3,6 @@
 
 User-agent: *
 Allow: /
-Disallow: /search
 
 # XML sitemap
 Sitemap: https://qbitsenergy.com/sitemap.xml

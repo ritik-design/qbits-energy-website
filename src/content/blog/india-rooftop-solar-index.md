@@ -1,7 +1,7 @@
 ---
 title: "India Rooftop Solar Index 2026, Annual Qbits Report"
 excerpt: "India rooftop solar 2026 decoded: the Qbits Rooftop Solar Readiness Index scores 18 states on net metering speed, subsidy access, installer density, grid capacity, and tariff payback."
-description: "Annual Qbits index ranking Indian states on 5 rooftop solar readiness factors. Top 5 states, bottom 3 laggards, national trend data, and EPC channel intelligence for 2026."
+description: "The Qbits Rooftop Solar Readiness Index scores 18 Indian states on net metering speed, subsidy access, installer density, grid capacity, and payback."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -201,7 +201,7 @@ States scoring above 70 represent mature markets where EPC firms should compete 
 
 ### Partner and Distributor Selection
 
-The index state scores translate directly into distributor channel intelligence. A distributor covering Karnataka, Tamil Nadu, and Telangana has a fundamentally different sales cycle, inventory turn, and credit requirement profile than a distributor covering Bihar, Jharkhand, and Odisha. [Inverter distributor partners](/blog/inverter-suppliers-india/) serving low-index states should factor in 90–150 day working capital cycles rather than the 30–45 days typical of high-index states. EPCs evaluating expansion into a new state can also explore [becoming a channel partner](https://heavengreenenergy.com/become-channel-partner/) with an established turnkey installer network already active there.
+The index state scores translate directly into distributor channel intelligence. A distributor covering Karnataka, Tamil Nadu, and Telangana has a fundamentally different sales cycle, inventory turn, and credit requirement profile than a distributor covering Bihar, Jharkhand, and Odisha. [Inverter distributor partners](/blog/inverter-suppliers-india/) serving low-index states should factor in 90–150 day working capital cycles rather than the 30–45 days typical of high-index states. EPCs evaluating expansion into a new state can also explore becoming a channel partner with an established turnkey installer network already active there.
 
 ## Grid Absorption Capacity: The Factor EPCs Underestimate
 

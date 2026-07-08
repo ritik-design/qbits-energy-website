@@ -1,5 +1,6 @@
 ---
-title: "Solar Subsidy Kaise Milegi 2026, Step-by-Step Hindi Guide"
+title: "Solar Subsidy Kaise Milegi 2026, Hindi Guide"
+description: "Solar subsidy kaise milegi 2026: PM Surya Ghar mein ₹78,000 tak apply karne ka process, documents, ALMM compliance, aur bank transfer timeline, Hindi mein।"
 excerpt: "Solar subsidy kaise milegi 2026: PM Surya Ghar mein ₹78,000 kaise apply karein, documents, ALMM compliance, aur subsidy bank mein kab aayegi, puri jankari Hindi mein।"
 category: "Policy"
 date: 2026-06-05
@@ -155,7 +156,7 @@ Registration के बाद DISCOM का field engineer आपके घर v
 - Non-ALMM components = No subsidy
 
 **Check 2, Multiple Quotes**
-- Minimum 2-3 vendors से quote लें, अगर अपने area में vendors ढूँढने में problem हो रही है तो [Heaven Green Energy का installer locator](https://heavengreenenergy.com/solar-near-me/){target="_blank" rel="noopener"} check कर सकते हैं
+- Minimum 2-3 vendors से quote लें, अगर अपने area में vendors ढूँढने में problem हो रही है तो Heaven Green Energy का installer locator{target="_blank" rel="noopener"} check कर सकते हैं
 - Same specification पर price compare करें
 - ₹15,000-30,000 difference normal है vendors में
 

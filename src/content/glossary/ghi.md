@@ -179,7 +179,7 @@ State-wise solar policy benchmarking.
 
 Tariff order LCOE inputs.
 
-Residential rooftop sizing, often estimated with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) before a formal proposal is issued.
+Residential rooftop sizing, often estimated with a solar cost and savings calculator before a formal proposal is issued.
 
 ## GHI quality classifications
 
@@ -226,7 +226,7 @@ ISRO Bhuvan Solar provides free Indian satellite GHI data.
 
 Major Indian utility solar projects use Solargis or Meteonorm P50/P90 data.
 
-SECI tender bid documents reference GHI data for capacity allocation by state, and are typically supported by formal [engineering resource center](https://heavendesigns.in/resource-center/) documentation during due diligence.
+SECI tender bid documents reference GHI data for capacity allocation by state, and are typically supported by formal engineering resource center documentation during due diligence.
 
 ## Standards and certifications
 

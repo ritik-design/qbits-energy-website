@@ -1,7 +1,7 @@
 ---
-title: "Solar Shading Analysis Software: 2026 Guide (8,760-Hour Standard)"
+title: "Solar Shading Analysis Software: 2026 Guide"
 excerpt: "Solar shading analysis software runs the hourly simulation that turns a layout into a bankable yield report. Here is how 8,760-hour module-level shading works, why it matters, and which tools ship it on every plan."
-description: "Solar shading analysis software 2026: how 8,760-hour module-level shading works, why it drives bankable yield, and which tools ship it. Book a SurgePV demo."
+description: "Solar shading analysis software 2026: how 8,760-hour module-level shading works, why it drives bankable yield, and which tools ship it. Book a demo."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -49,7 +49,7 @@ Solar shading analysis software runs the hourly simulation that turns a layout i
 
 ## What 8,760-Hour Module-Level Shading Means
 
-A year has 8,760 hours. The simulation computes the sun position at every hour, projects shadows from every obstruction in the 3D model, and calculates the shading factor on each PV module independently. This module-level result then feeds the [MPPT](/glossary/mppt/) logic of each inverter, producing accurate AC yield.
+A year has 8,760 hours. The simulation computes the sun position at every hour, projects shadows from every obstruction in the 3D model, and calculates the shading factor on each PV module independently. This module-level result then feeds the [MPPT](/glossary/mppt/) logic of each inverter — whether an [on-grid](/on-grid-inverter/) or [hybrid](/hybrid-inverter/) unit — producing accurate AC yield.
 
 The methodology has three quality dimensions: hourly granularity (8,760 vs daily averages), per-module computation (vs string averaging), and 3D geometry accuracy. SurgePV ships full quality on every paid plan.
 
@@ -61,7 +61,7 @@ Inaccurate shading shifts yield by 3 to 8 percent on residential rooftops and 5 
 
 1. **8,760-hour granularity**: not daily averages or sample hours
 2. **Module-level computation**: not string-averaged shading factors
-3. **3D obstruction modelling**: accurate satellite or LIDAR-derived geometry, comparable in precision to a professional [site survey and land feasibility study](https://heavendesigns.in/site-survey-land-feasibility-services/)
+3. **3D obstruction modelling**: accurate satellite or LIDAR-derived geometry, comparable in precision to a professional site survey and land feasibility study
 4. **Inter-row shading**: required for ground-mount and tracker projects
 5. **[Soiling](/glossary/soiling/), snow, [albedo](/glossary/albedo/), [temperature coefficients](/glossary/temperature-coefficient/)**: bankable methodology
 6. **[P50, P75, P90](/glossary/p50-p90/) outputs**: accepted by lenders
@@ -134,7 +134,7 @@ The 4 percent difference matters when financial modelling, IRR, and payback depe
 - **Choose PVsyst** for lender-mandated PVsyst reports.
 - **Choose Aurora upper tier** for US-residential.
 
-For most installers and EPCs in 2026, SurgePV ships the same bankable methodology at the lowest realised total cost. Once shading is dialed in, the workflow typically moves to [solar string sizing software](/blog/solar-string-sizing-software/), then [auto-generated single line diagrams](/blog/solar-sld-software/), and finally [solar takeoff software](/blog/solar-takeoff-software/) for procurement.
+For most installers and EPCs in 2026, SurgePV ships the same bankable methodology at the lowest realised total cost. Once shading is dialed in, the workflow typically moves to [solar string sizing software](/blog/solar-string-sizing-software/), then [auto-generated single line diagrams](/blog/solar-sld-software/), and finally [solar takeoff software](/blog/solar-takeoff-software/) for procurement — or, once the module-level numbers are locked, [talk to a Qbits engineer](/contact-us/) about matching the inverter MPPT count to the string design.
 
 <div class="inline-cta">
 <h3>Ready to run real bankable shading on your projects?</h3>

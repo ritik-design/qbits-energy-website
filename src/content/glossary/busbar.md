@@ -177,11 +177,11 @@ Reduced contact at busbar-ribbon interface.
 
 Indian ALMM-listed modules predominantly 9BB-12BB.
 
-Major manufacturers (Waaree, Adani Green Solar, Vikram, Tata Power Solar) ship MBB modules across [monocrystalline](/glossary/monocrystalline/) [PERC](/glossary/perc-cell/) and [TOPCon](/glossary/topcon-cell/) platforms.
+Major manufacturers (Waaree, Adani Green Solar, Vikram, Tata Power Solar) ship MBB modules across [monocrystalline](/glossary/monocrystalline/) [PERC](/glossary/perc-cell/) and [TOPCon](/glossary/topcon-cell/) platforms, the same module choices weighed in [Solar Inverter for a 3 BHK Home, Real Sizing and Best Picks](/blog/solar-inverter-for-3bhk/) when a roof-constrained residential system needs higher-wattage panels.
 
 0BB and SmartWire entering premium Indian segment.
 
-PM Surya Ghar accepts MBB modules.
+PM Surya Ghar accepts MBB modules that clear the [ALMM list](/blog/almm-list-phase-iii-guide/) requirements for subsidy disbursement.
 
 ## Standards and certifications
 

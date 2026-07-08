@@ -1,7 +1,7 @@
 ---
-title: "On-Grid vs Hybrid Inverter, Which Should You Actually Buy?"
+title: "On-Grid vs Hybrid Inverter: Which Should You Buy?"
 excerpt: "On grid vs hybrid: the direct comparison most guides skip. Run the 3-Variable Hybrid Test to find out whether the hybrid premium is justified for your home."
-description: "Compare on-grid and hybrid solar inverters on cost, backup, battery payback, and India grid quality. Decision matrix + named framework to close the buying decision."
+description: "Compare on-grid and hybrid solar inverters on cost, backup, and battery payback for Indian grid quality, with a decision matrix to close the buying call."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -112,7 +112,7 @@ Cities with well-developed transmission infrastructure and active DISCOM investm
 
 ## Variable 2: The Battery Payback Maths
 
-The hybrid premium has two components: the extra cost of the hybrid inverter over an on-grid model of the same capacity, and the cost of [sizing the battery bank](/blog/battery-sizing-hybrid-solar/) correctly for your actual backup load. Both must earn their return, and both numbers should come from an itemised quote from a qualified [residential solar installer](https://heavengreenenergy.com/residential-solar/) rather than a back-of-envelope guess.
+The hybrid premium has two components: the extra cost of the hybrid inverter over an on-grid model of the same capacity, and the cost of [sizing the battery bank](/blog/battery-sizing-hybrid-solar/) correctly for your actual backup load. Both must earn their return, and both numbers should come from an itemised quote from a qualified residential solar installer rather than a back-of-envelope guess.
 
 ### Worked example: 5 kW system, UP homeowner
 

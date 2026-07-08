@@ -1,7 +1,7 @@
 ---
-title: "Transformerless vs Transformer-Based Solar Inverters, Decoded"
+title: "Transformerless vs Transformer Solar Inverters"
 excerpt: "Transformerless inverters deliver 97–99% efficiency vs 94–96% for transformer-based designs, and dominate modern Indian solar projects. Here is what every EPC needs to know."
-description: "EPC guide: transformerless vs transformer-based solar inverters, efficiency, weight, safety, BIS IS 16169 compliance, and when each design wins on Indian projects."
+description: "EPC guide: transformerless vs transformer-based solar inverters, efficiency, weight, safety, BIS IS 16169 compliance, and when each design wins."
 category: Technology
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -92,7 +92,7 @@ Rather than evaluating transformerless versus transformer-based on a single axis
 
 1. **Efficiency delta over project life**: Quantify the annual generation difference at the site's peak sun hours and panel wattage. A 2% efficiency gain on a 100 kW C&I project at 5 peak sun hours yields roughly 3,650 kWh/year additional generation. At ₹7.5/unit, that is ₹27,375/year, or roughly ₹6.8 Lakh over a 25-year project life. Before taxes and discounting, that is real margin the client captures.
 
-2. **Structural weight budget**: [Rooftop structural engineering assessments](https://heavendesigns.in/solar-civil-and-structural-engineering/) in India typically allow 15–25 kg/m² for all rooftop loads. A transformerless inverter at 9–14 kg versus a transformer-based unit at 18–28 kg frees up load budget that matters on older RCC rooftops (pre-2000 construction) and industrial tin-sheet structures.
+2. **Structural weight budget**: Rooftop structural engineering assessments in India typically allow 15–25 kg/m² for all rooftop loads. A transformerless inverter at 9–14 kg versus a transformer-based unit at 18–28 kg frees up load budget that matters on older RCC rooftops (pre-2000 construction) and industrial tin-sheet structures.
 
 3. **Compliance posture for the tender**: Confirm the DISCOM's technical specification and the client's internal engineering standard. Most post-2018 tender documents permit transformerless designs under BIS IS 16169. Some pre-2018 public-sector tenders still specify "galvanic isolation" explicitly, those require a transformer-based unit or a formal derogation.
 
@@ -262,7 +262,7 @@ For PM Surya Ghar projects specifically, the efficiency advantage of transformer
 
 ## Where Qbits Fits
 
-Qbits TLS series inverters are transformerless on-grid designs, engineered specifically for Indian grid conditions: 180–270 V grid voltage tolerance, 45 °C+ ambient temperature derating curves tested on Indian rooftops, and India-grid-tuned firmware that handles voltage sag and frequency excursions without nuisance tripping. They carry BIS IS 16169 certification, IEC 62109 compliance, and ALMM listing, meeting every requirement for PM Surya Ghar and standard net-metering projects, whether the EPC is running a [residential rooftop installation](https://heavengreenenergy.com/residential-solar/) or a tender-driven C&I job. The 12-year full replacement warranty covers the inverter unit, not just parts, for the first third of the system's life.
+Qbits TLS series inverters are transformerless on-grid designs, engineered specifically for Indian grid conditions: 180–270 V grid voltage tolerance, 45 °C+ ambient temperature derating curves tested on Indian rooftops, and India-grid-tuned firmware that handles voltage sag and frequency excursions without nuisance tripping. They carry BIS IS 16169 certification, IEC 62109 compliance, and ALMM listing, meeting every requirement for PM Surya Ghar and standard net-metering projects, whether the EPC is running a residential rooftop installation or a tender-driven C&I job. The 12-year full replacement warranty covers the inverter unit, not just parts, for the first third of the system's life.
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS series from 1.5 kW to 50 kW; transformerless, ALMM-listed, IP66-rated for Indian weather.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery-ready architecture; suitable for sites needing backup alongside grid-tied operation.

@@ -1,7 +1,7 @@
 ---
-title: "Indian vs International Solar Inverters: Complete Comparison Guide 2026"
+title: "Indian vs International Solar Inverters"
 excerpt: "Indian inverters now match international brands on quality while offering 15-30% lower prices and superior India-specific engineering. Here is the complete side-by-side comparison covering performance, components, pricing, warranty, service, and the decision framework Indian EPCs use."
-description: "Complete comparison of Indian vs international solar inverter brands in 2026: performance benchmarks, component quality, pricing and TCO, warranty terms, service network, smart features, India-specific engineering advantages, decision framework, and where each brand category fits in residential, commercial, and utility-scale projects."
+description: "Indian inverters now match international brands on quality while costing 15-30% less. Full comparison of performance, warranty, service, and pricing."
 category: "Buying Guide"
 date: 2026-03-20
 readTime: "12 min"
@@ -198,7 +198,7 @@ For projects on fixed commissioning timelines, the schedule risk of imported sup
 
 ### Avoid commodity unbranded imports
 
-Regardless of Indian or international origin, avoid commodity imports without verified BIS, ALMM, and IEC certifications, without verified India service presence, and without operational warranty channels. The cost savings rarely justify the warranty exposure. Buying through a verified [solar inverter shop](https://heavengreenenergy.com/products/solar-inverters/) with documented sourcing is a simple way to avoid this trap on smaller orders.
+Regardless of Indian or international origin, avoid commodity imports without verified BIS, ALMM, and IEC certifications, without verified India service presence, and without operational warranty channels. The cost savings rarely justify the warranty exposure. Buying through a verified solar inverter shop with documented sourcing is a simple way to avoid this trap on smaller orders.
 
 ## Key Decision Numbers Summary
 

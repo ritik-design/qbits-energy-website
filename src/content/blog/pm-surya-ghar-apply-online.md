@@ -1,6 +1,7 @@
 ---
-title: "PM Surya Ghar, How to Apply Online Step by Step (2026)"
+title: "PM Surya Ghar: How to Apply Online (2026)"
 excerpt: "Learn how to apply for PM Surya Ghar online in 8 steps, from registration on pmsuryaghar.gov.in to subsidy in your bank account. Full 2026 guide."
+description: "Apply for PM Surya Ghar online in 8 steps, from registration on pmsuryaghar.gov.in to subsidy credit in your bank account. Full 2026 walkthrough."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -52,7 +53,7 @@ The scheme is formally named PM Surya Ghar Muft Bijli Yojana and was launched by
 
 ## What Is PM Surya Ghar Muft Bijli Yojana and Who Is Eligible
 
-PM Surya Ghar Muft Bijli Yojana is a rooftop solar subsidy programme under which the Government of India provides direct-benefit transfers to residential consumers who install grid-connected rooftop solar systems. The scheme is administered jointly by MNRE and [DISCOM](/glossary/discom/)s (Distribution Companies) in each state, and it has driven a sharp rise in demand for [residential solar installation](https://heavengreenenergy.com/residential-solar/) capacity among EPC firms across the country.
+PM Surya Ghar Muft Bijli Yojana is a rooftop solar subsidy programme under which the Government of India provides direct-benefit transfers to residential consumers who install grid-connected rooftop solar systems. The scheme is administered jointly by MNRE and [DISCOM](/glossary/discom/)s (Distribution Companies) in each state, and it has driven a sharp rise in demand for residential solar installation capacity among EPC firms across the country.
 
 ### Eligibility criteria
 
@@ -173,7 +174,7 @@ Applications fail at three main checkpoints: portal submission, DISCOM feasibili
 
 - **Non-ALMM equipment installed**: This is the most serious rejection reason. If the installer uses panels or an inverter not on the ALMM list, the entire installation must be replaced before subsidy processing can resume.
 - **Earthing and surge protection deficiency**: DISCOM inspectors check earthing continuity, the presence of an AC-side DC injection protection device, and surge protection devices on both DC and AC strings. Ensure your installer follows the commissioning checklist in the [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/).
-- **Single-line diagram (SLD) mismatch**: The as-installed configuration must match the SLD submitted to the DISCOM. Any deviation (different panel count, changed string configuration, relocated inverter) requires a revised SLD submission before inspection. A properly prepared [CEIG-compliant electrical drawing](https://heavendesigns.in/electrical-ceig-drawings/) at the design stage prevents this mismatch from occurring in the first place.
+- **Single-line diagram (SLD) mismatch**: The as-installed configuration must match the SLD submitted to the DISCOM. Any deviation (different panel count, changed string configuration, relocated inverter) requires a revised SLD submission before inspection. A properly prepared CEIG-compliant electrical drawing at the design stage prevents this mismatch from occurring in the first place.
 - **Improper labelling**: Inspectors in several states now check that DC isolators, AC isolators, and the inverter carry the correct safety labels. Ask your installer about labelling compliance before scheduling inspection.
 
 The [how to find reliable inverter dealers in India](/blog/inverter-suppliers-india/) guide is useful for homeowners evaluating installer credibility before finalising the work order. An installer who uses ALMM-listed equipment and follows proper commissioning procedures dramatically reduces the risk of rejection at Step 6.

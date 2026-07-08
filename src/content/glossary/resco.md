@@ -149,7 +149,7 @@ Because there is no capex outlay, the [payback period](/glossary/payback-period/
 
 ## Real-world applications
 
-[C&I rooftop solar installation](https://heavengreenenergy.com/commercial-solar/) across manufacturing, IT, retail and hospitality sectors.
+C&I rooftop solar installation across manufacturing, IT, retail and hospitality sectors.
 
 Multi-site retail chains.
 

@@ -1,5 +1,5 @@
 ---
-title: "Photovoltaic Design Software in 2026: Engineer's Buyer's Guide"
+title: "Photovoltaic Design Software 2026: Buyer's Guide"
 excerpt: "Photovoltaic design software covers the engineer-side toolchain from 3D modelling to bankable yield to single-line diagrams. Here is the 2026 ranking, methodology, and how SurgePV leads."
 description: "Photovoltaic design software 2026: 8,760-hour module-level methodology, bankable P50/P75/P90, IEC and NEC codes. Compare SurgePV vs PVsyst. Book a demo."
 category: "Solar Software"
@@ -59,7 +59,7 @@ Photovoltaic design software covers seven engineering jobs:
 6. **BOQ** auto-generation for procurement
 7. **AutoCAD export** for construction handoff
 
-SurgePV ships all seven on every paid plan. PVsyst covers 3 and 4. HelioScope covers 2 through 5. Aurora covers 1 through 5 at the upper tier. Teams without an in-house PV engineer often pair the software output with outsourced [structural and electrical engineering services](https://heavendesigns.in/our-services/) for stamped drawings on larger projects.
+SurgePV ships all seven on every paid plan. PVsyst covers 3 and 4. HelioScope covers 2 through 5. Aurora covers 1 through 5 at the upper tier. Teams without an in-house PV engineer often pair the software output with outsourced structural and electrical engineering services for stamped drawings on larger projects.
 
 ## The Bankable Methodology
 
@@ -139,7 +139,7 @@ The P90 number anchors the bank conversation; the P50 anchors the equity model.
 - **Choose SAM** for research and sensitivity studies.
 - **Choose PV*SOL** for Germany-only desktop workflows, reviewed in our [PV*SOL alternative guide](/blog/pvsol-alternative/).
 
-For most engineering teams in 2026, SurgePV is the [solar design software](https://surgepv.com/) that wins on methodology, scope, and per-seat economics at the same time.
+For most engineering teams in 2026, SurgePV is the [solar design software](https://surgepv.com/) that wins on methodology, scope, and per-seat economics at the same time. Once the bankable yield numbers are locked, the MPPT and string-voltage windows still need to be checked against real hardware; [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) datasheets are worth pulling before the BOQ is finalised, and a [Qbits engineer](/contact-us/) can walk through the fit spec by spec.
 
 <div class="inline-cta">
 <h3>Ready to run bankable PV design in the browser?</h3>

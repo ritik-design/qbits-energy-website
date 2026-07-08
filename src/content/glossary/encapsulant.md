@@ -72,7 +72,7 @@ Encapsulant is the polymer material that surrounds and seals solar cells between
 
 Two major encapsulant types are used in modern solar modules:
 
-- EVA (Ethylene Vinyl Acetate): traditional choice since the 1980s. Inexpensive, well-understood, widely used. Susceptible to UV-induced browning and sodium ion permeability causing PID over time.
+- EVA (Ethylene Vinyl Acetate): traditional choice since the 1980s. Inexpensive, well-understood, widely used. Susceptible to UV-induced browning and sodium ion permeability causing PID over time, though when correctly formulated it still underpins the 25 to 30-year linear performance guarantees discussed in [what a 12-year inverter warranty actually covers](/blog/12-year-solar-inverter-warranty/).
 - POE (Polyolefin Elastomer): premium alternative. Better UV stability, lower moisture absorption, PID-resistant. Standard in premium and [bifacial modules](/glossary/bifacial-module/).
 
 For Indian solar, encapsulant choice affects long-term performance more than efficiency. PID-resistant EVA or POE is increasingly specified for systems with grounded inverter configurations. Premium bifacial modules from Indian manufacturers typically use POE.
@@ -143,7 +143,7 @@ Bifacial performance. Rear-side requires UV-stable encapsulant.
 
 ### PID resistance
 
-PID (Potential-Induced Degradation) occurs when sodium ions from glass migrate through encapsulant to cells under high voltage stress. PID-resistant encapsulants (high-volume-resistivity EVA, POE) block this migration. Encapsulant quality also plays a supporting role in two other degradation mechanisms tracked separately, [LID](/glossary/lid/) and [LeTID](/glossary/letid/), even though both are driven primarily by cell doping rather than the encapsulant itself.
+PID (Potential-Induced Degradation) occurs when sodium ions from glass migrate through encapsulant to cells under high voltage stress. PID-resistant encapsulants (high-volume-resistivity EVA, POE) block this migration; older EVA that has hydrolysed under humidity can even register as an [inverter ground fault](/blog/solar-inverter-ground-fault-guide/) once it becomes conductive enough to create a leakage path. Encapsulant quality also plays a supporting role in two other degradation mechanisms tracked separately, [LID](/glossary/lid/) and [LeTID](/glossary/letid/), even though both are driven primarily by cell doping rather than the encapsulant itself.
 
 ## Real-world applications
 
@@ -179,7 +179,7 @@ Acid formation possible.
 
 ## Common encapsulant problems
 
-EVA browning in older modules.
+EVA browning in older modules, one of the causes screened for during a [solar inverter low-output audit](/blog/solar-inverter-low-output-causes-india/).
 
 PID losses in modules without PID-resistant encapsulant, a slow but cumulative form of [module degradation](/glossary/degradation/).
 
@@ -223,7 +223,7 @@ Encapsulant seals solar cells inside modules, providing electrical insulation, m
 
 ## Need quality encapsulated modules?
 
-QBits Energy supplies ALMM-listed modules with PID-tested encapsulants for residential, [C&I](https://heavengreenenergy.com/commercial-solar/) and utility solar across India.
+QBits Energy supplies ALMM-listed modules with PID-tested encapsulants for residential, C&I and utility solar across India.
 
 ## Sources
 

@@ -204,7 +204,7 @@ Mark conductor sizes and lengths.
 
 Include earthing arrangement.
 
-Get sealed by a licensed electrical engineer, typically prepared alongside [electrical drawings and CEIG documentation](https://heavendesigns.in/electrical-ceig-drawings/).
+Get sealed by a licensed electrical engineer, typically prepared alongside electrical drawings and CEIG documentation.
 
 Maintain version control: design → approved → as-built.
 

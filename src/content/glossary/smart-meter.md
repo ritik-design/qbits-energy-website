@@ -188,7 +188,7 @@ Phase loss alarms after monsoon. Loose neutral connections trip protections.
 
 Prepaid balance miscalculations. Tariff slab changes propagate slowly to local wallet logic.
 
-Net metering export register mis-configured. Solar customers see zero export. Fix at AMI head end.
+Net metering export register mis-configured. Solar customers see zero export. Fix at AMI head end. See [net metering in India, complete 2026 guide](/blog/net-metering-india-complete-guide/) for the full DISCOM application sequence that ends with this meter swap.
 
 Time drift. Older meters without periodic time sync gradually drift, affecting time-of-day billing.
 
@@ -206,7 +206,7 @@ Audit the first three bills against your own consumption observations.
 
 Use the DISCOM consumer app or web portal to track interval data weekly.
 
-For solar customers, confirm export register is configured. Test by exporting briefly and verifying the export register increments.
+For solar customers, confirm export register is configured. Test by exporting briefly and verifying the export register increments. [How to apply for net metering in India](/blog/how-to-apply-net-metering-india/) walks through the inspection step where the DISCOM installs this bidirectional meter.
 
 For prepaid customers, set low-balance alerts and auto-recharge if available.
 

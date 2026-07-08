@@ -1,7 +1,7 @@
 ---
-title: "Solar Battery Price Guide India 2026, From 100Ah to 200Ah"
+title: "Solar Battery Price Guide India 2026"
 excerpt: "Solar battery prices in India 2026: VRLA 100Ah from ₹8,000, lithium 2.4kWh from ₹40,000. Complete price table by chemistry, capacity, and brand with backup time calculations for Indian homes."
-description: "Solar battery price guide India 2026: complete price table by chemistry (VRLA vs lithium), capacity (100Ah to 200Ah for VRLA, 2.4kWh to 5kWh for lithium), brand, and backup time calculations."
+description: "Solar battery price guide India 2026: price table by chemistry (VRLA vs lithium), capacity from 100Ah to 5kWh, brand, and backup time calculations."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -152,7 +152,7 @@ For more on the lithium vs lead-acid decision, read the [lithium vs lead acid so
 - **Not accounting for temperature derating**: Battery Ah specifications are given at 25°C. At 40°C, actual capacity is 85–92% of rated. Size up by 10–15% when installing in hot climates. [IRENA's storage technology cost data](https://www.irena.org/Energy-Transition/Technology/Battery-storage) confirms that ambient temperature is the dominant factor in battery capacity derating for tropical installations.
 - **Using unrecognised brands without IEC 62619 certification**: Any lithium battery installed in a grid-connected solar system in India must comply with [IEC 62619](https://www.iec.ch/) safety standards. Non-certified batteries pose fire risk and may void the inverter warranty. Always ask for the IEC certification certificate before purchase.
 - **Ignoring DISCOM export limits when sizing storage**: Excess battery storage capacity beyond what the inverter can charge and discharge within daily generation cycles adds cost without adding value. Consult the [net metering India guide](/blog/how-to-apply-net-metering-india/) to understand how storage interacts with export credits. [JMK Research battery storage market data](https://jmkresearch.com/) notes that over-specified storage is one of the top two reasons for poor solar storage ROI in Indian residential projects.
-- **Buying imported brands without verifying local service**: For VRLA, the service network of Exide and Amaron is unmatched. For lithium, verify the distributor's authorisation and service process before purchasing. See the [Exide vs Amaron solar battery comparison](/blog/exide-vs-amaron-solar-battery-india/) for a full breakdown of brand service quality, or purchase through a [verified equipment retailer](https://heavengreenenergy.com/shop/) that stands behind the certification. [MNRE's rooftop solar guidelines](https://mnre.gov.in/){target="_blank" rel="noopener"} require all storage systems to meet minimum safety certifications, confirm your chosen battery has BIS or IEC 62619 certification before purchase.
+- **Buying imported brands without verifying local service**: For VRLA, the service network of Exide and Amaron is unmatched. For lithium, verify the distributor's authorisation and service process before purchasing. See the [Exide vs Amaron solar battery comparison](/blog/exide-vs-amaron-solar-battery-india/) for a full breakdown of brand service quality, or purchase through a verified equipment retailer that stands behind the certification. [MNRE's rooftop solar guidelines](https://mnre.gov.in/){target="_blank" rel="noopener"} require all storage systems to meet minimum safety certifications, confirm your chosen battery has BIS or IEC 62619 certification before purchase.
 
 ## Where Qbits Fits in Battery System Integration
 

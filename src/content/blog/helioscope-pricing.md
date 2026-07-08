@@ -1,5 +1,5 @@
 ---
-title: "HelioScope Pricing in 2026: Real Costs + Cheaper Alternative"
+title: "HelioScope Pricing 2026: Real Costs + Alternative"
 excerpt: "HelioScope costs $99 to $300+ per user per month, ships no native proposal builder, and gates module-level shading. Here is the full HelioScope pricing breakdown and how SurgePV delivers the same simulation for 35 to 60 percent less."
 description: "HelioScope pricing in 2026 broken down: plan tiers, project caps, missing proposal stack, and the SurgePV flat per-seat alternative. Compare now."
 category: "Solar Software"
@@ -109,7 +109,7 @@ SurgePV at each team size is 40 to 60 percent cheaper with the proposal stack an
 3. Run a parallel quarter for new pipeline.
 4. Cancel HelioScope at renewal.
 
-For most engineering teams in 2026, SurgePV is the alternative that wins on simulation parity, scope, and per-seat cost at the same time — see the [best solar design software comparison](https://surgepv.com/compare/best-solar-design-software/) for the full field.
+For most engineering teams in 2026, SurgePV is the alternative that wins on simulation parity, scope, and per-seat cost at the same time — see the [best solar design software comparison](https://surgepv.com/compare/best-solar-design-software/) for the full field. Once the simulation numbers are settled, the next line item is hardware — EPCs specifying [on-grid inverters](/on-grid-inverter/) for the project can [talk to a Qbits engineer](/contact-us/) to confirm efficiency and warranty terms before the BOQ locks.
 
 <div class="inline-cta">
 <h3>Ready to drop the multi-tool stack?</h3>

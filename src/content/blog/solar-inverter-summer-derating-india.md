@@ -1,7 +1,7 @@
 ---
-title: "Why Solar Inverters Produce Less in Indian Summer, Derating Explained"
+title: "Solar Inverter Derating in Indian Summer, Explained"
 excerpt: "Inverter derating in summer India cuts output by 5–15% as rooftop temperatures hit 60–70 °C. Learn the derating curve, the Summer Derating Estimation Formula, and what you can do about it."
-description: "Thermal derating reduces solar inverter output by 5–15% during Indian summers when ambient temperatures exceed 25 °C. Understand the derating curve, roof heat effects, and how to minimise losses."
+description: "Thermal derating cuts solar inverter output by 5–15% in Indian summers above 25°C. Learn the derating curve, roof heat effects, and how to cut losses."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -160,7 +160,7 @@ Knowing the derating mechanism is useful; knowing what to do about it is essenti
 
 - **Choose an inverter with a higher derating start temperature**: request the derating curve from any inverter supplier before purchase. Inverters specifying derating onset at 40 °C ambient rather than 25 °C will produce substantially more summer units in Indian conditions. This is a specification that should appear in every solar quotation.
 
-- **Consider an indoor installation with cable run**: adding 3–5 metres of DC cable to route the inverter inside a utility room with ventilation adds negligible cost but can eliminate outdoor thermal stress entirely. Discuss this option with your [residential solar installer](https://heavengreenenergy.com/residential-solar/) before the system is mounted.
+- **Consider an indoor installation with cable run**: adding 3–5 metres of DC cable to route the inverter inside a utility room with ventilation adds negligible cost but can eliminate outdoor thermal stress entirely. Discuss this option with your residential solar installer before the system is mounted.
 
 ## Common Installation Mistakes That Worsen Summer Derating
 
@@ -168,7 +168,7 @@ Even well-intentioned installers frequently make placement decisions that maximi
 
 [IRENA's analysis of rooftop solar yield in South Asian climates](https://www.irena.org/solar) notes that thermal losses from poor inverter placement account for an estimated 3–8% of annual generation losses across the region, losses that are entirely avoidable with better installation practices. [Mercom India's residential solar quality report](https://www.mercomindia.com/) similarly identifies inverter placement and ventilation as among the top three correctable field issues observed during post-installation audits of residential systems.
 
-- **South or west-facing wall mounting**: convenient for cable routing, but these orientations face peak afternoon sun directly. An east or north-facing wall is almost always thermally superior. A proper [site survey and land feasibility assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) before installation catches this kind of orientation mistake before the mounting brackets go up.
+- **South or west-facing wall mounting**: convenient for cable routing, but these orientations face peak afternoon sun directly. An east or north-facing wall is almost always thermally superior. A proper site survey and land feasibility assessment before installation catches this kind of orientation mistake before the mounting brackets go up.
 
 - **Stacking inverters side-by-side with no gap**: multiple inverters in close proximity create a combined heat plume. Each inverter raises the ambient temperature for its neighbours. The same solar quotation checklist that verifies panel specifications should verify inverter clearance spacing. See [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) for a full pre-purchase review protocol.
 

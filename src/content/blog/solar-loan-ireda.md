@@ -1,7 +1,7 @@
 ---
 title: "Solar Loan from IREDA, Complete Guide for Homeowners"
 excerpt: "IREDA solar loan (Suryodaya) offers 7–9% interest for residential solar under PM Surya Ghar. This guide covers eligibility, partner banks, subsidy stacking, and exact EMI math."
-description: "Complete IREDA solar loan guide for Indian homeowners, Suryodaya scheme rates, partner banks, eligibility rules, subsidy + loan stacking, and monthly EMI calculator."
+description: "Complete IREDA solar loan guide: Suryodaya scheme rates, partner banks, eligibility rules, subsidy stacking, and monthly EMI calculator."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -172,7 +172,7 @@ The subsidy, when it arrives 30–90 days post-installation, can be used to eith
 
 ## EMI Calculator: 3 kW, 5 kW, and 10 kW Systems
 
-Use these tables to estimate your monthly commitment. All figures use 8% interest rate at 5-year tenure. System costs are midpoint estimates; actual costs vary by state, vendor, and roof complexity - a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) can help you plug in your own roof size and tariff to sanity-check these midpoints before you approach a bank.
+Use these tables to estimate your monthly commitment. All figures use 8% interest rate at 5-year tenure. System costs are midpoint estimates; actual costs vary by state, vendor, and roof complexity - a solar cost and savings calculator can help you plug in your own roof size and tariff to sanity-check these midpoints before you approach a bank.
 
 **3 kW On-Grid System**
 

@@ -1,7 +1,7 @@
 ---
-title: "Solar Loan from SBI, Eligibility, Rates, and How to Apply"
+title: "Solar Loan from SBI, Eligibility and Rates"
 excerpt: "The SBI solar loan (Surya Shakti Solar Finance) offers up to 7-year tenure at 9–11% interest, here is what you need to qualify and exactly how to apply."
-description: "SBI solar loan guide for Indian homeowners: Surya Shakti scheme rates (9–11%), eligibility, 7 documents checklist, EMI table, and comparison with IREDA and private banks."
+description: "SBI solar loan guide: Surya Shakti scheme rates (9–11%), eligibility, documents checklist, EMI table, and comparison with IREDA and private banks."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -134,7 +134,7 @@ The application journey has five distinct stages. Understanding what happens at 
 
 ## EMI Estimates: What the SBI Solar Loan Costs Each Month
 
-The table below models monthly EMI at 10% per annum (mid-range of the 9–11% band) across three common system sizes and two tenure options. EMI values are approximate and should be confirmed with an amortisation calculator at the time of application; you can also cross-check the underlying system cost and savings assumptions with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) before finalising your loan amount.
+The table below models monthly EMI at 10% per annum (mid-range of the 9–11% band) across three common system sizes and two tenure options. EMI values are approximate and should be confirmed with an amortisation calculator at the time of application; you can also cross-check the underlying system cost and savings assumptions with a solar cost and savings calculator before finalising your loan amount.
 
 | System size | Approx. system cost | Post-subsidy loan amount | 5-year EMI | 7-year EMI | Monthly bill saving (est.) | Net monthly outflow |
 | --- | --- | --- | --- | --- | --- | --- |

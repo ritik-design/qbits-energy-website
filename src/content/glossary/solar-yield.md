@@ -93,7 +93,7 @@ Yield is the practical number you use to estimate how much electricity your sola
 
 [PPA](/glossary/ppa/) pricing. The expected yield underwrites the revenue calculation.
 
-Payback. Bill saving = yield × tariff, calculable with a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/). Higher yield, faster payback.
+Payback. Bill saving = yield × tariff, calculable with a solar savings calculator. Higher yield, faster payback.
 
 Project finance. Lenders model annual debt service against [P50/P90](/glossary/p50-p90/) yield estimates.
 

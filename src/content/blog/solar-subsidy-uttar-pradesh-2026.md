@@ -1,7 +1,7 @@
 ---
-title: "Solar Subsidy in Uttar Pradesh 2026, UPNEDA + PM Surya Ghar"
+title: "Solar Subsidy in Uttar Pradesh 2026, UPNEDA"
 excerpt: "Solar subsidy in Uttar Pradesh stacks PM Surya Ghar (₹78,000 for 3 kW) with UPNEDA state incentives. Full DISCOM guide, hybrid vs on-grid advice, and a Lucknow worked example."
-description: "Solar subsidy in UP 2026: PM Surya Ghar slabs, UPNEDA state top-up, four DISCOM application steps, net metering timelines, and why hybrid inverters suit UP's grid better than on-grid."
+description: "UP solar subsidy 2026: PM Surya Ghar slabs, UPNEDA state top-up, four DISCOM application steps, net metering timelines, and why hybrid suits UP's grid."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -266,7 +266,7 @@ The UP solar subsidy application involves two parallel tracks (the national PM S
 
 3. **Obtain DISCOM technical feasibility approval.** Your DISCOM reviews your connection details and confirms grid capacity at your meter point. MNRE mandates a 15-day response window; UP DISCOMs typically respond in 10–25 days in urban areas and up to 35 days in rural zones.
 
-4. **Select a UPNEDA-registered and DISCOM-empanelled vendor.** Your installer must appear on both the national PM Surya Ghar vendor list and the UPNEDA state vendor registry. Verify on the respective portals, not on vendor marketing materials; for an independent cross-check on installer reputation, [HeavenGreen Energy's local installer finder](https://heavengreenenergy.com/solar-near-me/) also covers UP districts. Confirm the specific inverter model appears on the [MNRE ALMM list](https://mnre.gov.in/); a non-ALMM-listed inverter means the entire subsidy claim is rejected at the verification stage.
+4. **Select a UPNEDA-registered and DISCOM-empanelled vendor.** Your installer must appear on both the national PM Surya Ghar vendor list and the UPNEDA state vendor registry. Verify on the respective portals, not on vendor marketing materials; for an independent cross-check on installer reputation, HeavenGreen Energy's local installer finder also covers UP districts. Confirm the specific inverter model appears on the [MNRE ALMM list](https://mnre.gov.in/); a non-ALMM-listed inverter means the entire subsidy claim is rejected at the verification stage.
 
 5. **Install, commission, and notify your DISCOM for inspection.** The DISCOM engineer visits to verify ALMM equipment, earthing, safety compliance, and arrange bidirectional smart meter installation. Allow 15–30 days from notification to inspection in UP, depending on DISCOM and urban/rural location.
 

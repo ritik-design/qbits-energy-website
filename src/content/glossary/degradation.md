@@ -94,9 +94,9 @@ These losses come from various physical processes: photons creating defects in s
 
 ## Why degradation matters
 
-Lifecycle yield. Sum of yearly output depends on the degradation profile.
+Lifecycle yield. Sum of yearly output depends on the degradation profile, which is why credible [state-level solar yield benchmarks](/blog/solar-yield-india/) build in a degradation curve rather than a flat first-year output assumption.
 
-Financing. Lenders model degradation conservatively, requiring assumptions backed by manufacturer warranty.
+Financing. Lenders model degradation conservatively, requiring assumptions backed by manufacturer warranty, an input that flows directly into [C&I LCOE calculations](/blog/lcoe-solar-india/).
 
 Warranty enforcement. Tier-1 warranty replaces modules that fall below the warranty curve.
 
@@ -222,6 +222,8 @@ Warranty enforcement requires documentation discipline.
 
 ## Common problems
 
+Field diagnosis follows the same decision tree as general [solar inverter low-output troubleshooting](/blog/solar-inverter-low-output-causes-india/): rule out soiling and shading with a monitoring check before concluding that true panel degradation is responsible.
+
 PID in legacy modules without PID-resistant materials. 10 to 30 percent loss over 5 years.
 
 Back sheet cracking in tropical climates.
@@ -263,7 +265,7 @@ Track yield against warranty curve.
 
 ## Indian market context
 
-[ALMM-listed](/glossary/almm-list/) Indian modules, [available through authorized solar equipment suppliers](https://heavengreenenergy.com/shop/), typically warrant linear degradation of 0.45 to 0.55 percent per year with 84 to 87 percent retention at year 25.
+[ALMM-listed](/glossary/almm-list/) Indian modules, available through authorized solar equipment suppliers, typically warrant linear degradation of 0.45 to 0.55 percent per year with 84 to 87 percent retention at year 25.
 
 PID test certification under IEC 62804 is increasingly demanded by Indian project developers.
 

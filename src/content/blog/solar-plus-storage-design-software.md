@@ -1,5 +1,5 @@
 ---
-title: "Solar Plus Storage Design Software in 2026: Hybrid System Guide"
+title: "Solar Plus Storage Design Software 2026"
 excerpt: "Solar plus storage design software optimises battery and PV jointly for self-consumption, peak shaving, and resilience. Here are the 5 tools that ship hybrid optimisation in 2026."
 description: "Solar plus storage design software 2026: hybrid PV + battery sizing, ToU arbitrage, peak shaving, backup mode. SurgePV on every plan. Book a free demo."
 category: "Solar Software"

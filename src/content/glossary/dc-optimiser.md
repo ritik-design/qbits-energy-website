@@ -143,13 +143,13 @@ Lower cost than microinverters. Roughly 30 percent cheaper than full microinvert
 
 ## Real-world applications
 
-[Premium residential rooftops](https://heavengreenenergy.com/residential-solar/) with partial shading.
+Premium residential rooftops with partial shading.
 
 Mixed-orientation rooftops.
 
 Tile or complex roofs.
 
-Sites with safety-critical rapid shutdown requirements verified against [electrical and CEIG compliance drawings](https://heavendesigns.in/electrical-ceig-drawings/).
+Sites with safety-critical rapid shutdown requirements verified against electrical and CEIG compliance drawings.
 
 [C&I rooftop designs](https://surgepv.com/commercial-solar-design/) with chimneys, tanks or adjacent buildings.
 

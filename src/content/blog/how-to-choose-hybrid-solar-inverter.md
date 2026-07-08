@@ -1,7 +1,7 @@
 ---
-title: "How to Choose a Hybrid Solar Inverter, 5-Step Decision Guide"
+title: "How to Choose a Hybrid Solar Inverter (5 Steps)"
 excerpt: "How to choose a hybrid solar inverter in 5 steps: confirm you need one, size for your roof, size for battery backup, check transfer time, and verify certifications."
-description: "A BOFU buyer's guide to choosing a hybrid solar inverter in India, 5 structured steps covering backup need, solar sizing, battery capacity, transfer time, and certifications."
+description: "A buyer's guide to choosing a hybrid solar inverter: 5 steps covering backup need, sizing, battery capacity, transfer time, and certifications."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08

@@ -1,5 +1,5 @@
 ---
-title: "Solar Design Software Pricing in 2026: Every Tool Compared"
+title: "Solar Design Software Pricing 2026: Every Tool"
 excerpt: "Solar design software pricing ranges from free to $300+ per user per month. Here is every tool's published price, what is gated behind upper tiers, and the real total cost of ownership for teams of 1, 3, and 5 seats."
 description: "Solar design software pricing in 2026 compared. SurgePV vs Aurora, HelioScope, PVsyst, OpenSolar, Scanifly. Per-seat costs and TCO math. See pricing."
 category: "Solar Software"
@@ -180,7 +180,7 @@ Onboarding lost productivity is the most underestimated cost line in any softwar
 - **Choose [OpenSolar](/blog/opensolar-alternative/) free** if small residential is your entire scope.
 - **Choose [PVcase](/blog/pvcase-alternative/) or [RatedPower](/blog/ratedpower-alternative/)** for utility-only at enterprise scale.
 
-For most installers and EPCs evaluating solar design software pricing in 2026, the headline number is SurgePV's $1,299 to $1,899 per user per year. The full [SurgePV pricing](https://surgepv.com/pricing) page lays out every plan, and the [free demo](https://surgepv.com/demo) is the cleanest way to test the workflow before committing.
+For most installers and EPCs evaluating solar design software pricing in 2026, the headline number is SurgePV's $1,299 to $1,899 per user per year. The full [SurgePV pricing](https://surgepv.com/pricing) page lays out every plan, and the [free demo](https://surgepv.com/demo) is the cleanest way to test the workflow before committing. Once the design tool is chosen, EPCs still need to price the physical build, Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) catalog is a useful reference point for that side of the budget, and the team can walk through current pricing on a [call](/contact-us/).
 
 <div class="inline-cta">
 <h3>Ready to see the per-seat math on a real project?</h3>

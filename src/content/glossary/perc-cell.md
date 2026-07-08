@@ -157,7 +157,7 @@ PERC cells are intrinsically capable of bifacial operation, with bifaciality fac
 
 ## Real-world applications
 
-Indian rooftop solar, [residential](https://heavengreenenergy.com/residential-solar/) and [C&I](https://heavengreenenergy.com/commercial-solar/) installations.
+Indian rooftop solar, residential and C&I installations.
 
 [Utility solar parks](https://surgepv.com/utility-scale-solar-design/) (now transitioning to TOPCon).
 

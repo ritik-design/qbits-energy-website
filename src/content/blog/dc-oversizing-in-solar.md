@@ -1,7 +1,7 @@
 ---
-title: "DC Oversizing in Solar: Complete FAQ Guide for Maximum ROI"
+title: "DC Oversizing in Solar: FAQ Guide for Maximum ROI"
 excerpt: "DC oversizing has shifted from optional optimisation to standard practice. Here are the ratios, safety calculations, and ROI math that make it work for Indian solar projects."
-description: "Definitive guide to DC oversizing in solar inverters, optimal DC:AC ratios by region, warranty implications, safety calculations, surge protection, and a worked Mumbai 50 kW ROI case study."
+description: "DC oversizing in solar inverters: optimal DC:AC ratios by region, warranty implications, safety calculations, and a worked Mumbai 50 kW ROI case study."
 category: "Technology"
 date: 2026-04-08
 readTime: "13 min"
@@ -42,7 +42,7 @@ DC oversizing means connecting more solar panel capacity (DC watts) to an invert
 
 This works because panels rarely produce nameplate output. Temperature, dust, angle of incidence, and atmospheric conditions keep actual output below STC ratings most hours. Strategic oversizing keeps the inverter operating in its optimal efficiency range longer.
 
-Modern inverters like Qbits support **up to 100% DC oversizing**: connecting double the DC capacity vs AC rating. The [inverter clipping FAQ](/blog/inverter-clipping-explained/) covers what happens to the excess DC production on high-irradiance days. Success depends on staying within max input specs: DC input power, voltage, and current.
+Modern inverters like [Qbits](/our-products/) support **up to 100% DC oversizing**: connecting double the DC capacity vs AC rating. The [inverter clipping FAQ](/blog/inverter-clipping-explained/) covers what happens to the excess DC production on high-irradiance days. Success depends on staying within max input specs: DC input power, voltage, and current.
 
 ## Why DC Oversizing Matters
 
@@ -109,7 +109,7 @@ DC oversizing can actually **extend operational life** by keeping the inverter i
 
 ### Warranty Coverage
 
-Qbits provides **12-year full replacement warranty** covering systems with up to 100% DC oversizing, provided installations stay within max input voltage and current specs.
+[Qbits](/hybrid-inverter/) provides **12-year full replacement warranty** covering systems with up to 100% DC oversizing, provided installations stay within max input voltage and current specs.
 
 Before implementing, verify these on the datasheet:
 
@@ -151,7 +151,7 @@ Larger arrays mean larger lightning targets:
 - Supplementary external SPDs at array level for [lightning-prone regions during monsoon](/blog/monsoon-solar-prep/)
 - Robust [grounding](/glossary/earthing/) with multiple ground rods and low-resistance connections
 
-These components are commonly sourced as part of a [balance-of-system package](https://heavengreenenergy.com/products/balance-of-system/) alongside the inverter, rather than specified piecemeal.
+These components are commonly sourced as part of a balance-of-system package alongside the inverter, rather than specified piecemeal.
 
 ### String Configuration
 
@@ -246,4 +246,4 @@ Track performance at the MPPT channel level, not just total system output. Ident
 
 ## Bottom Line
 
-DC oversizing is no longer experimental, it is a standard practice for maximising solar performance and ROI when implemented within manufacturer specs. Properly designed systems deliver 10–20% more annual energy, improved capacity factors, better cloudy-day performance, and reduced LCOE. For Indian EPCs, mastering oversizing is a competitive advantage in an increasingly sophisticated market.
+DC oversizing is no longer experimental, it is a standard practice for maximising solar performance and ROI when implemented within manufacturer specs. Properly designed systems deliver 10–20% more annual energy, improved capacity factors, better cloudy-day performance, and reduced LCOE. For Indian EPCs, mastering oversizing is a competitive advantage in an increasingly sophisticated market. Before finalising a ratio on a specific site, it is worth [talking to a Qbits engineer](/contact-us/) to confirm max input specs against the exact datasheet in question.

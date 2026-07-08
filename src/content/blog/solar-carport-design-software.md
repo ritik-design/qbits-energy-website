@@ -1,7 +1,7 @@
 ---
 title: "Solar Carport Design Software in 2026: Niche Guide"
 excerpt: "Solar carport design software handles the structural, electrical, and yield design for parking-lot canopies. Here is how to do it right and which tools ship the workflow."
-description: "Complete 2026 guide to solar carport design software. Carport-specific structural considerations, 8,760-hour shading on canopy arrays, EV charger integration, and the SurgePV carport workflow."
+description: "2026 guide to solar carport design software: structural notes, 8,760-hour shading on canopy arrays, EV charger integration, and the SurgePV workflow."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -52,7 +52,7 @@ Solar carport design software handles the unique geometry, shading, and electric
 - **Carport canopy geometry** with configurable height, span, and [tilt angle](/glossary/tilt-angle/)
 - **Module layout** across the canopy
 - **8,760-hour module-level shading** across the array
-- **Structural drawing handoff** to a [structural and civil engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) partner
+- **Structural drawing handoff** to a structural and civil engineering partner
 - **[EV charger](/glossary/ev-charger/) placement** and load modelling
 - **Lighting under-canopy** placement
 - **Bankable yield reports** with [P50, P75, P90](/glossary/p50-p90/)
@@ -96,11 +96,11 @@ Solar carport design software handles the unique geometry, shading, and electric
 
 ## Who Should Choose Each Tool
 
-- **Choose SurgePV** for carport plus rooftop plus [ground-mount](https://heavengreenenergy.com/ground-mount-solar-park/) plus utility in one license.
+- **Choose SurgePV** for carport plus rooftop plus ground-mount plus utility in one license.
 - **Choose [Aurora](/blog/aurora-solar-alternative/) upper tier** for US-residential teams adding occasional carports.
 - **Choose [HelioScope](/blog/helioscope-alternative/)** for engineering-only carport simulation.
 
-For most installers and EPCs doing solar carports in 2026, SurgePV is the cleanest workflow at the lowest total cost.
+For most installers and EPCs doing solar carports in 2026, SurgePV is the cleanest workflow at the lowest total cost. On the hardware side, carport arrays paired with EV chargers often make the case for a [hybrid inverter](/hybrid-inverter/) or the [C&I solution](/c-i-solution/) lineup, depending on whether the lot owner wants battery backup for the chargers.
 
 <div class="inline-cta">
 <h3>Ready to design solar carports in one tool?</h3>

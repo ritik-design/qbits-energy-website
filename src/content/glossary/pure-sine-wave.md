@@ -184,7 +184,7 @@ Compatibility issues with very old equipment.
 
 Verify pure sine claim with THD measurement.
 
-Specify THD under 3 percent in purchase orders when sourcing [solar inverters](https://heavengreenenergy.com/products/solar-inverters/).
+Specify THD under 3 percent in purchase orders when sourcing solar inverters.
 
 Use [ALMM-listed](/glossary/almm-list/) inverters for guaranteed pure sine.
 

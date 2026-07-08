@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Efficiency Explained, Why 95% vs 97% vs 98% Matters"
+title: "Solar Inverter Efficiency: 95% vs 97% vs 98%"
 excerpt: "Solar inverter efficiency determines how many units you actually harvest from your panels. The gap between 95% and 98% costs Indian homeowners ₹40,000+ over 25 years on a 5 kW system."
-description: "Understand solar inverter efficiency (peak, European, and CEC ratings) and calculate the real rupee difference between 95%, 97%, and 98% efficient inverters on Indian rooftops."
+description: "Understand solar inverter efficiency ratings and calculate the real rupee difference between 95%, 97%, and 98% efficient inverters on Indian rooftops."
 category: "Technology"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -293,7 +293,7 @@ Buyers who want verified 98% peak efficiency, strong European efficiency in the 
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness; efficiency specifications are maintained even during battery charge and discharge cycles.
 - **[Download Datasheets](/download-datasheets/)**: full efficiency curves (peak, European efficiency, and 10% load efficiency) are available for every Qbits model; verify the numbers before committing.
 
-When you are ready to compare actual efficiency specifications against your specific site conditions (roof orientation, local temperature range, tariff structure) the [string sizing calculator](/string-sizing-calculator/) can help confirm system sizing before you get formal quotes from a [residential solar installer](https://heavengreenenergy.com/residential-solar/). For a site-specific yield analysis based on your actual location and DISCOM tariff, [talk to a Qbits engineer](/contact-us/), the conversation takes less than 30 minutes and produces a yield projection that uses your actual conditions rather than laboratory averages.
+When you are ready to compare actual efficiency specifications against your specific site conditions (roof orientation, local temperature range, tariff structure) the [string sizing calculator](/string-sizing-calculator/) can help confirm system sizing before you get formal quotes from a residential solar installer. For a site-specific yield analysis based on your actual location and DISCOM tariff, [talk to a Qbits engineer](/contact-us/), the conversation takes less than 30 minutes and produces a yield projection that uses your actual conditions rather than laboratory averages.
 
 ## Certifications That Verify Efficiency Claims
 

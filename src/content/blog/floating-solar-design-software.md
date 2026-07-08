@@ -1,7 +1,7 @@
 ---
-title: "Floating Solar Design Software in 2026: Floatovoltaic Guide"
+title: "Floating Solar Design Software: Floatovoltaic Guide"
 excerpt: "Floating solar (floatovoltaics) design software handles the platform geometry, water-cooling effects, and bankable yield for reservoir-mounted PV. Here is the 2026 guide."
-description: "Complete 2026 guide to floating solar design software. Floatovoltaic platform geometry, water-cooling yield boost, anchoring considerations, and how SurgePV ships floating solar on every paid plan."
+description: "2026 guide to floating solar design software: floatovoltaic platform geometry, water-cooling yield boost, anchoring, and SurgePV's floating solar plan."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -66,7 +66,7 @@ Floating solar (floatovoltaic or FPV) design software handles PV systems mounted
 4. Run [8,760-hour shading](https://surgepv.com/shadow-analysis) with water-cooling adjustment.
 5. Run the [bankable yield report](https://surgepv.com/generation-financial-tool).
 6. Generate the [branded solar proposal](https://surgepv.com/solar-proposals).
-7. Export [DXF/DWG drawings](https://surgepv.com/solar-autocad-integration) for the [anchoring engineer](https://heavendesigns.in/solar-civil-and-structural-engineering/).
+7. Export [DXF/DWG drawings](https://surgepv.com/solar-autocad-integration) for the anchoring engineer.
 
 ## Common Floating Solar Mistakes
 
@@ -89,7 +89,7 @@ Floating solar (floatovoltaic or FPV) design software handles PV systems mounted
 - **Choose [PVsyst](/blog/pvsyst-alternative/)** for lender-mandated bankable reports on first-of-its-kind FPV projects.
 - **Choose specialist marine engineering tools** for the anchoring side, which SurgePV does not handle.
 
-For most installers and EPCs doing floating solar in 2026, SurgePV is the cleanest workflow.
+For most installers and EPCs doing floating solar in 2026, SurgePV is the cleanest workflow. On the hardware side, large FPV arrays are typically paired with [on-grid inverters](/on-grid-inverter/) sized for the utility interconnection, and Qbits' [C&I solution](/c-i-solution/) team can help spec strings once the anchoring layout is locked.
 
 <div class="inline-cta">
 <h3>Ready to design floating solar in one tool?</h3>

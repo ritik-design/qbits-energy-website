@@ -86,7 +86,7 @@ Different lithium chemistries have different thermal runaway thresholds:
 - LCO (Lithium Cobalt Oxide): 130-160°C
 - LTO (Lithium Titanate): Very stable, rare runaway
 
-For Indian solar storage, LFP's superior thermal stability makes it the dominant choice. NMC reserves the EV market where energy density justifies the higher risk profile.
+For Indian solar storage, LFP's superior thermal stability makes it the dominant choice. NMC reserves the EV market where energy density justifies the higher risk profile. See [LiFePO4 vs NMC Battery for Solar in India, Which Wins?](/blog/lifepo4-vs-nmc-solar-battery-india/) for a heat-tolerance test at 45°C ambient and a full chemistry comparison.
 
 ## Why thermal runaway matters
 
@@ -173,7 +173,7 @@ Customer safety education.
 
 Use only IEC 62619 / IS 16893 certified cells.
 
-Choose LFP for stationary residential storage.
+Choose LFP for stationary residential storage; see [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/) for the safety and TCO case against lead acid.
 
 Implement BMS with temperature monitoring and cutoffs.
 

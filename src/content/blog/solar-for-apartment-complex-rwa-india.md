@@ -1,7 +1,7 @@
 ---
-title: "Solar for Apartment Complex (RWA) India, How It Works"
+title: "Solar for Apartment Complex (RWA) India"
 excerpt: "Solar for apartment complex India: common area solar (lift, lights, pumps) is straightforward with a single connection; individual flat solar requires separate applications per unit. RWA guide inside."
-description: "How solar works for apartment complexes and RWAs in India. Common area vs individual flat models, DISCOM rules for group housing, RWA approval, and the Maharashtra net metering framework."
+description: "How solar works for apartment complexes and RWAs in India: common area vs individual flat models, DISCOM rules, RWA approval, and net metering."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -145,13 +145,13 @@ For a 100-flat society, this translates to approximately ₹438 per flat per mon
 ## Step-by-Step Process for Common Area Solar in an Apartment Complex
 
 **Step 1: Load audit and roof assessment**
-Collect 12 months of common area electricity bills. Assess usable roof area (subtracting water tanks, lift rooms, and setback requirements). Typical 100-flat apartment roofs have 2,000–5,000 sq ft of usable area. A formal [site survey and land feasibility assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) is worth commissioning for larger societies, since terrace obstructions and shading from adjacent towers are easy to underestimate from a rooftop walk-through alone.
+Collect 12 months of common area electricity bills. Assess usable roof area (subtracting water tanks, lift rooms, and setback requirements). Typical 100-flat apartment roofs have 2,000–5,000 sq ft of usable area. A formal site survey and land feasibility assessment is worth commissioning for larger societies, since terrace obstructions and shading from adjacent towers are easy to underestimate from a rooftop walk-through alone.
 
 **Step 2: Managing committee resolution**
 Agenda the solar proposal at a managing committee meeting. If the capex exceeds the committee's authority threshold, hold an AGM. Pass a resolution specifying system size, cost, vendor selection method, and financing (corpus fund, maintenance surplus, or bank loan).
 
 **Step 3: Vendor quotation and selection**
-Obtain at least three quotations from ALMM-compliant installers, ideally ones with dedicated [solar EPC / turnkey installation](https://heavengreenenergy.com/solar-epc/) experience in multi-storey group housing. Evaluate on system size, inverter brand (ALMM-listed), warranty, net metering experience in multi-storey buildings, and service track record.
+Obtain at least three quotations from ALMM-compliant installers, ideally ones with dedicated solar EPC / turnkey installation experience in multi-storey group housing. Evaluate on system size, inverter brand (ALMM-listed), warranty, net metering experience in multi-storey buildings, and service track record.
 
 Before signing with any vendor, the managing committee should work through the [solar system quotation checklist](/blog/solar-quotation-checklist/) so the comparison covers warranty terms, service commitments, and net metering support, not just the headline price.
 

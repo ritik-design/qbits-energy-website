@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 Cycle life is the number of full charge-discharge cycles a battery can deliver before its usable capacity drops below a defined threshold, typically 80 percent of original rated capacity. Some standards use 70 percent as the threshold. Cycle life is the primary durability metric for batteries used in cycling applications like solar storage and EVs.
 
-Cycle life depends on chemistry, depth of discharge per cycle, temperature, charge and discharge rate, and storage conditions between cycles. The relationship is non-linear and chemistry-specific. The same battery may deliver 4,000 cycles at 80 percent DOD and 6,000 cycles at 50 percent DOD.
+Cycle life depends on chemistry, depth of discharge per cycle, temperature, charge and discharge rate, and storage conditions between cycles. The relationship is non-linear and chemistry-specific. The same battery may deliver 4,000 cycles at 80 percent DOD and 6,000 cycles at 50 percent DOD, which is why cycle life is the deciding factor in the [LiFePO4 vs NMC comparison](/blog/lifepo4-vs-nmc-solar-battery-india/) for Indian solar storage.
 
 For solar storage, cycle life translates to lifecycle cost. A battery rated for 6,000 cycles at 80 percent DOD over 15 years performs roughly one cycle per day for the full life of the system, matching the typical solar storage duty cycle.
 
@@ -80,7 +80,7 @@ Imagine a rechargeable battery as a pair of shoes. Every time you charge and dis
 
 ## Why cycle life matters
 
-Battery longevity. The primary reason customers compare batteries.
+Battery longevity. The primary reason customers compare batteries, as explored in [how long solar batteries actually last in India's heat](/blog/how-long-solar-batteries-last-india/).
 
 Lifecycle cost. ₹/kWh-cycle is the right way to compare battery economics.
 
@@ -205,7 +205,7 @@ Operate at recommended DOD and temperature.
 
 Use rainflow counting for partial cycle accumulation.
 
-Plan replacement budget around expected cycle and calendar life.
+Plan replacement budget around expected cycle and calendar life, starting from a proper [hybrid inverter battery sizing](/blog/battery-sizing-hybrid-solar/) exercise that accounts for DOD and C-rate limits.
 
 Get cycle warranty terms in writing.
 

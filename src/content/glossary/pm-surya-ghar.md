@@ -97,7 +97,9 @@ Energy bill relief. Households get up to 300 kWh per month free, reducing energy
 
 ## How the application process works
 
-1. Register on pmsuryaghar.gov.in with mobile number, electricity bill and Aadhaar.
+For a screen-by-screen walkthrough of the portal itself, see [PM Surya Ghar apply online guide](/blog/pm-surya-ghar-apply-online/).
+
+1. Register on pmsuryaghar.gov.in with mobile number, electricity bill and Aadhaar. Keep the [documents required for PM Surya Ghar](/blog/pm-surya-ghar-documents-required/) ready before starting, since an incomplete upload is the most common reason applications stall at step one.
 2. Submit application with sanctioned load, roof area and basic site details.
 3. DISCOM reviews technical feasibility and approves capacity.
 4. Customer selects an empanelled vendor from the portal list.
@@ -216,6 +218,8 @@ Audit the first three bills against expected generation.
 Plan installation in October to January for fastest commissioning in most states.
 
 ## Comparison: PM Surya Ghar vs prior schemes
+
+Households sometimes confuse the residential rooftop scheme with the agricultural pump scheme it is often mentioned alongside; see [PM Surya Ghar vs Kusum Yojana](/blog/pm-surya-ghar-vs-kusum-yojana/) for how the two differ in eligibility and subsidy structure.
 
 | Feature | PM Surya Ghar | Phase II RTS | PM-KUSUM |
 |---|---|---|---|

@@ -1,7 +1,7 @@
 ---
-title: "Solar Irradiance Data India, State-Wise Peak Sun Hours"
+title: "Solar Irradiance Data India, Peak Sun Hours"
 excerpt: "India solar irradiance data by state: Rajasthan leads with 6.5 kWh/m²/day GHI. Complete state-wise GHI, DHI, DNI, peak sun hours table and the Solar Irradiance Tier Classification for system sizing."
-description: "Complete India solar irradiance data by state. State-wise GHI, DHI, DNI, and peak sun hours table sourced from NREL NSRDB and IRENA. Seasonal variation, system sizing implications, and tier classification."
+description: "State-wise India solar irradiance data: GHI, DHI, DNI, and peak sun hours sourced from NREL NSRDB and IRENA, with seasonal variation and sizing tips."
 category: Industry
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -142,7 +142,7 @@ For buyers comparing quotes from different installers, irradiance data provides 
 
 This simple comparison shows that a buyer in Patna needs approximately 25% more installed capacity than a buyer in Jaipur to generate the same annual kWh. If an installer in Patna quotes the same system size as one in Jaipur for the same consumption, the Patna buyer will be systematically disappointed in their bill savings.
 
-The [string sizing calculator](/string-sizing-calculator/) incorporates location-specific irradiance data to help validate system sizing proposals. Cross-referencing your installer's proposed system size against your city's peak sun hours is a 60-second check that reveals whether the system is sized for your actual consumption or for a more favourable location's irradiance numbers. A general-purpose [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) can provide a similar sanity check on the bill-savings side of the same proposal.
+The [string sizing calculator](/string-sizing-calculator/) incorporates location-specific irradiance data to help validate system sizing proposals. Cross-referencing your installer's proposed system size against your city's peak sun hours is a 60-second check that reveals whether the system is sized for your actual consumption or for a more favourable location's irradiance numbers. A general-purpose solar savings calculator can provide a similar sanity check on the bill-savings side of the same proposal.
 
 ## Best and Most Challenging States for Solar Investment
 
@@ -187,6 +187,6 @@ India's solar irradiance diversity means that inverter specifications must adapt
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series with wide MPPT voltage ranges suited for high-irradiance string configurations in Rajasthan/Gujarat and lower-irradiance configurations in Tier 3/4 zones.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: enter your city's GHI data to verify string voltage stays within safe limits across summer and winter temperature extremes.
 - **[Download Datasheets](/download-datasheets/)**: verify the inverter's low-irradiance startup threshold, important for foggy North India winters and Kerala monsoon conditions.
-- **[Contact Qbits](/contact-us/)**: for EPC firms designing systems in challenging irradiance zones (Tier 3/4), our engineering team can provide location-specific system design support. For zones where a formal irradiance and shadow study is warranted before quoting, a [site survey and land feasibility assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) is worth commissioning up front.
+- **[Contact Qbits](/contact-us/)**: for EPC firms designing systems in challenging irradiance zones (Tier 3/4), our engineering team can provide location-specific system design support. For zones where a formal irradiance and shadow study is warranted before quoting, a site survey and land feasibility assessment is worth commissioning up front.
 
 The state-wise irradiance data in this reference is updated with the most current NREL NSRDB dataset. For site-specific modelling with hourly irradiance profiles, the [NREL PVWATTS calculator](https://pvwatts.nrel.gov/) provides free, precise yield estimates for any Indian address.

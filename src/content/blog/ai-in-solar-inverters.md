@@ -1,7 +1,7 @@
 ---
-title: "How AI Is Changing Solar Inverter Performance in India"
+title: "How AI Is Changing Solar Inverter Performance"
 excerpt: "AI solar inverter technology in India is shifting from reactive maintenance to predictive intelligence, detecting faults, optimising MPPT, and sending WhatsApp alerts before problems become failures."
-description: "How AI changes solar inverter performance in India: predictive fault detection, dynamic MPPT, load forecasting, anomaly alerts, and WhatsApp monitoring, what the technology does and what it cannot."
+description: "How AI changes solar inverter performance in India: predictive fault detection, dynamic MPPT, load forecasting, and WhatsApp anomaly alerts."
 category: "Technology"
 date: 2026-06-05
 readTime: "21 min"
@@ -129,7 +129,7 @@ AI monitoring is powerful within its scope. Outside that scope, the technology h
 
 **AI cannot prevent damage from sudden high-energy events.** Lightning strikes, severe grid surges, flooding, and physical impact damage components faster than any monitoring system can respond. Proper surge protection devices ([SPDs](/glossary/spd/)), earthing, and physical mounting are the defences against these events, AI is a complement to these measures, not a replacement.
 
-**AI cannot substitute for a competent installation.** Earthing faults, incorrect string sizing, poor DC cable management, and inadequate ventilation are installation-stage issues. An AI monitoring system that inherits a poorly installed system will generate alerts, but cannot fix problems introduced by a substandard [EPC installation](https://heavengreenenergy.com/solar-epc/).
+**AI cannot substitute for a competent installation.** Earthing faults, incorrect string sizing, poor DC cable management, and inadequate ventilation are installation-stage issues. An AI monitoring system that inherits a poorly installed system will generate alerts, but cannot fix problems introduced by a substandard EPC installation.
 
 **AI performance depends on communication continuity.** If the Wi-Fi router at the installation fails, or if a mobile data connection drops, the cloud platform loses telemetry. Most platforms flag communication loss as an alert in itself, but the diagnostic capability is suspended until connectivity restores. Installations in areas with unreliable internet connections should plan for this limitation.
 
@@ -165,7 +165,7 @@ For homeowners evaluating which inverter to buy, the monitoring capability sits 
 
 ## Choosing a Solar Inverter with AI: A Practical Checklist
 
-Before selecting an inverter based on its AI monitoring claims, verify these points with the supplier or a [certified local installer](https://heavengreenenergy.com/solar-near-me/), the [smart solar inverter](/blog/smart-solar-inverter/) guide covers which features beyond monitoring are worth paying for:
+Before selecting an inverter based on its AI monitoring claims, verify these points with the supplier or a certified local installer, the [smart solar inverter](/blog/smart-solar-inverter/) guide covers which features beyond monitoring are worth paying for:
 
 - **Does the monitoring use machine learning or fixed thresholds?** Ask for a sample anomaly alert that was sent to a real customer. Fixed-threshold systems produce generic alerts; ML systems produce specific diagnoses.
 - **Is the platform cloud-based or device-only?** Device-only processing cannot draw on fleet-wide learning or update its models as the technology improves.

@@ -1,7 +1,7 @@
 ---
-title: "Solar Subsidy in Andhra Pradesh 2026, APEPDCL + APNPDCL"
+title: "Solar Subsidy Andhra Pradesh 2026, APEPDCL+APNPDCL"
 excerpt: "Solar subsidy in Andhra Pradesh 2026 provides PM Surya Ghar up to ₹78,000 via APEPDCL and APNPDCL, the two DISCOMs serving AP's coastal and inland regions. Full process inside."
-description: "Solar subsidy in Andhra Pradesh 2026: PM Surya Ghar amounts, APEPDCL and APNPDCL net-metering steps, AP state solar policy, timeline, and a Visakhapatnam homeowner case."
+description: "Solar subsidy in Andhra Pradesh 2026: PM Surya Ghar amounts, APEPDCL/APNPDCL net-metering steps, state policy, timeline, and a Visakhapatnam case."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -73,7 +73,7 @@ NREDCAP (New and Renewable Energy Development Corporation of Andhra Pradesh) is 
 - The state does not currently offer a separate residential cash subsidy on top of the central scheme
 - NREDCAP's [nredcap.in](https://www.nredcap.in/) portal provides state policy updates and vendor information
 
-AP's industrial solar sector (particularly in the Krishna–Guntur belt and Visakhapatnam's industrial corridor) has created a well-developed installer network that benefits residential buyers in adjacent areas. Experienced EPCs in AP's commercial market have also entered the residential space, offering higher quality installation than purely residential-focused installers in lower-experience markets. A [directory of local solar installers](https://heavengreenenergy.com/solar-near-me/) can help you shortlist EPCs with an established track record in your specific AP district before requesting quotes.
+AP's industrial solar sector (particularly in the Krishna–Guntur belt and Visakhapatnam's industrial corridor) has created a well-developed installer network that benefits residential buyers in adjacent areas. Experienced EPCs in AP's commercial market have also entered the residential space, offering higher quality installation than purely residential-focused installers in lower-experience markets. A directory of local solar installers can help you shortlist EPCs with an established track record in your specific AP district before requesting quotes.
 
 ## The 5-Pillar AP Subsidy Stack Framework
 
@@ -186,7 +186,7 @@ Venkata Rao owns an independent house in Rushikonda, Visakhapatnam, served by AP
 ## Common Mistakes AP Solar Applicants Make
 
 - **Not specifying IP66 in coastal locations**: The IP65 vs IP66 distinction is commercially significant in Vizag, Kakinada, and Machilipatnam. The [IP66 vs IP65 comparison](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) quantifies why the additional cost is justified in coastal environments.
-- **Ignoring cyclone wind load requirements**: AP's coastline is within the Bay of Bengal cyclone belt. Mounting structures should be rated for the appropriate wind speed zone. Ask vendors for IS/IEC wind load certification on proposed mounting systems, or commission independent [structural and civil engineering calculations](https://heavendesigns.in/solar-civil-and-structural-engineering/) for larger or coastal-exposed installations.
+- **Ignoring cyclone wind load requirements**: AP's coastline is within the Bay of Bengal cyclone belt. Mounting structures should be rated for the appropriate wind speed zone. Ask vendors for IS/IEC wind load certification on proposed mounting systems, or commission independent structural and civil engineering calculations for larger or coastal-exposed installations.
 - **Applying to the wrong DISCOM**: APEPDCL and APNPDCL have distinct geographic coverage. Your electricity bill is the only reliable guide.
 - **Not verifying ALMM status for proposed panels**: AP's active C&I solar market means many panel models are available; not all are ALMM-listed. Verify at the [MNRE ALMM list](https://mnre.gov.in/almm-list/) before signing.
 

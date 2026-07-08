@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter and System on EMI, All Finance Options"
+title: "Solar Inverter on EMI: 6 Finance Options"
 excerpt: "Solar inverter on EMI is available through six paths, bank loans, IREDA, NBFCs, no-cost credit cards, RESCO, and PM Surya Ghar concessional loans. Compare all options here."
-description: "Complete guide to buying solar on EMI in India, 6 financing paths, rate-wise comparison table, 3 kW EMI calculator, and the Solar Finance Decision Tree framework."
+description: "Buying solar on EMI in India: 6 financing paths compared, rate table, 3 kW EMI calculator, and the Solar Finance Decision Tree framework."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -222,7 +222,7 @@ The [complete PM Surya Ghar guide](/blog/pm-surya-ghar-yojana-complete-guide/) w
 
 ## EMI Calculator: 3 kW System at ₹1.5 Lakh
 
-The table below calculates monthly EMIs for a 3 kW solar system at a post-subsidy cost of ₹1.5 lakh, across the six financing paths at their representative rates and tenures. Run your own numbers through a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) if your roof size or tariff differs meaningfully from the midpoint used here.
+The table below calculates monthly EMIs for a 3 kW solar system at a post-subsidy cost of ₹1.5 lakh, across the six financing paths at their representative rates and tenures. Run your own numbers through a solar cost and savings calculator if your roof size or tariff differs meaningfully from the midpoint used here.
 
 **System:** 3 kW on-grid | **Post-subsidy cost:** ₹1,50,000 | **Expected monthly savings:** ₹2,800–₹3,600
 

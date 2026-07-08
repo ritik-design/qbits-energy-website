@@ -1,7 +1,7 @@
 ---
-title: "IP65 vs IP66 Solar Inverters: India Weather Protection Guide 2026"
+title: "IP65 vs IP66 Solar Inverters: Weather Protection"
 excerpt: "Both ratings stop dust completely. The difference is water - and in India's monsoons, coastal salt, and dust storms, that difference is the gap between an inverter that lives 15 years and one that fails in 3."
-description: "Complete IP65 vs IP66 comparison for solar inverters in India: IEC 60529 testing standards, regional climate matching, real-world failure rates, 10-year and 15-year TCO analysis, engineering features, installation best practices, and warranty implications."
+description: "IP65 vs IP66 solar inverters in India: IEC 60529 standards, regional climate matching, real-world failure rates, and 10-15 year TCO analysis."
 category: "Technology"
 date: 2026-04-08
 updatedDate: 2026-07-08
@@ -171,14 +171,14 @@ The IP rating delivers its protection only if installation follows the manufactu
 - **Annual gasket and seal inspections** with photographic documentation, folded into the broader [inverter maintenance schedule](/blog/inverter-maintenance-india/)
 - **Cable entries documented at commissioning** with photographs to support any future warranty claim
 
-Even IP66 fails if cable glands are loose, drip loops are skipped, or the inverter is mounted at a backward tilt where water pools at gasket lines. Mounting-frame wind and water-shedding geometry is usually decided during [structural and civil engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) sign-off, so the inverter tilt spec should be confirmed against that drawing set, not decided on-site by the installation crew.
+Even IP66 fails if cable glands are loose, drip loops are skipped, or the inverter is mounted at a backward tilt where water pools at gasket lines. Mounting-frame wind and water-shedding geometry is usually decided during structural and civil engineering sign-off, so the inverter tilt spec should be confirmed against that drawing set, not decided on-site by the installation crew.
 
 ## Regional Installation Considerations
 
 ### Monsoon zones (Kerala, Konkan, North-East)
 
 - Vertical mounting only - any reverse tilt invites water pooling
-- Humidity management through ventilated [mounting structures](https://heavengreenenergy.com/products/mounting-structures/)
+- Humidity management through ventilated mounting structures
 - Condensation control via daily thermal cycling design
 
 Running a [pre-monsoon inspection](/blog/pre-monsoon-solar-inspection-checklist/) before every rainy season catches gasket and seal degradation while it is still a five-minute fix rather than a warranty claim.

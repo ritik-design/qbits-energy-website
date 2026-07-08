@@ -40,14 +40,9 @@ const productSchema = {
     url: SITE,
   },
   category: isOnGrid ? 'On-Grid Solar Inverter' : 'Hybrid Solar Inverter',
-  offers: {
-    '@type': 'Offer',
-    url: productUrl,
-    priceCurrency: 'INR',
-    availability: 'https://schema.org/InStock',
-    itemCondition: 'https://schema.org/NewCondition',
-    seller: { '@type': 'Organization', name: 'Qbits Energy' },
-  },
+  // No `offers` block: pricing is quote-based through the dealer/partner network, not
+  // published per-unit. An Offer without a required `price` fails Rich Results validation,
+  // so a valid Product with no offers is correct here rather than a fabricated price.
 };
 
 const breadcrumbSchema = {
@@ -65,6 +60,7 @@ const breadcrumbSchema = {
   title={`${product.name} | Qbits Energy`}
   description={`${product.name} - ${categoryLabel} solar inverter with ${product.efficiency} efficiency, ${product.mppt} MPPT, and ${product.warranty}.`}
   canonical={`/our-products/${product.id}/`}
+  ogImage={`/og/product-${product.id}.webp`}
 >
   <HeaderV2 />
   <script type="application/ld+json" set:html={JSON.stringify(productSchema)} />

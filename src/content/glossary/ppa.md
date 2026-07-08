@@ -103,7 +103,7 @@ Foundation for renewable build-out. India's 200+ GW of renewable capacity rests 
 2. Developer wins tender or negotiation.
 3. PPA executed with buyer.
 4. Project financial close with lenders, using PPA as core revenue document, often supported by a [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) to stress-test cash flow.
-5. Construction begins, typically executed by a [commercial solar EPC contractor](https://heavengreenenergy.com/commercial-solar/) for C&I and utility sites.
+5. Construction begins, typically executed by a commercial solar EPC contractor for C&I and utility sites.
 6. Commercial operation date (COD) reached.
 7. Buyer pays for energy delivered, billed monthly per PPA tariff.
 8. Performance metrics monitored against PPA terms.

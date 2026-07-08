@@ -1,7 +1,7 @@
 ---
-title: "Why Qbits Solar Inverters Are Not on Amazon, Founder POV"
+title: "Why Qbits Isn't on Amazon: Founder POV"
 excerpt: "Qbits inverters are not sold on Amazon, Flipkart, or any online marketplace. This is a deliberate decision. Here is the reasoning behind it, and what it means for buyers and distributors."
-description: "Qbits founder explains why solar inverters should not be sold on Amazon or Flipkart. Covers grey market risk, installation dependency, warranty fraud, and the Qbits authorised distributor channel strategy."
+description: "Qbits founder explains why solar inverters shouldn't be sold on Amazon or Flipkart, covering grey market risk, warranty fraud, and the distributor model."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -112,7 +112,7 @@ In the marketplace model, the manufacturer wins (more volume) and the customer l
 
 If you are a homeowner reading this because you searched for Qbits on Amazon and found nothing:
 
-The correct way to buy a Qbits system is through an authorised installer, a full-service [solar EPC provider](https://heavengreenenergy.com/solar-epc/) who partners with an authorised Qbits distributor. Reading the [solar year 1 ownership guide](/blog/solar-year-1-ownership-guide-india/) will help you understand what to expect from a properly commissioned installation. Your installer should be able to show you their Qbits authorisation, the product's serial number, and register the warranty with you at commissioning.
+The correct way to buy a Qbits system is through an authorised installer, a full-service solar EPC provider who partners with an authorised Qbits distributor. Reading the [solar year 1 ownership guide](/blog/solar-year-1-ownership-guide-india/) will help you understand what to expect from a properly commissioned installation. Your installer should be able to show you their Qbits authorisation, the product's serial number, and register the warranty with you at commissioning.
 
 This is not us making your purchase harder. This is us ensuring that your system is:
 - Correctly sized for your roof and load

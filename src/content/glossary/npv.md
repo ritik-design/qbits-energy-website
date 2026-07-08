@@ -80,7 +80,7 @@ Where:
 
 Positive NPV indicates the project creates value (returns exceed cost of capital). Negative NPV indicates value destruction. Zero NPV indicates exactly meeting cost of capital.
 
-For Indian solar projects, NPV is one of the primary investment metrics alongside IRR. NPV provides absolute value of project worth, while IRR provides percentage return. Together they fully characterise project economics.
+For Indian solar projects, NPV is one of the primary investment metrics alongside IRR. NPV provides absolute value of project worth, while IRR provides percentage return. Together they fully characterise project economics, alongside [LCOE](/blog/lcoe-solar-india/), which converts the same discounted cash flows into a per-unit cost of energy.
 
 ## Why NPV matters
 
@@ -146,11 +146,11 @@ For Indian utility solar:
 Cash flow in year 25 at 10% WACC:
 PV = Future Cash Flow / (1.10)^25 = Future / 10.83
 
-A ₹100 cash flow in year 25 is worth only ₹9.23 today at 10% WACC.
+A ₹100 cash flow in year 25 is worth only ₹9.23 today at 10% WACC. For a full worked example of IRR and payback alongside NPV on an Indian C&I project, see [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/).
 
 ## Real-world applications
 
-Project investment decisions.
+Project investment decisions, often cross-checked against the simpler [payback period](/blog/solar-inverter-payback-period-in-india/) metric that smaller C&I buyers understand more intuitively.
 
 PPA tariff floor setting.
 

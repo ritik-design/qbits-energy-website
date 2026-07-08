@@ -1,7 +1,7 @@
 ---
-title: "Free Solar Design Software 2026: What Works + Catches"
+title: "Free Solar Design Software 2026: Works + Catches"
 excerpt: "Free solar design software sounds great until you hit project caps, hardware add-ons, or missing simulation depth. Here is what is genuinely free in 2026, what catches lurk, and when SurgePV's flat-priced plan is the better deal."
-description: "Honest review of free solar design software in 2026. OpenSolar, SAM, PVWatts, free trials of SurgePV and Aurora. Real limits, hidden add-on costs, and when paid is cheaper than 'free'."
+description: "Honest review of free solar design software in 2026: OpenSolar, SAM, PVWatts, and free trials of SurgePV and Aurora, real limits, and hidden add-on costs."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -122,7 +122,7 @@ At any team size past pure solo small-residential, the SurgePV flat plan matches
 
 ## The Bottom Line on Free Solar Design Software
 
-For pure small residential at low volume, OpenSolar free can be the right choice. For everything else, paid flat-rate platforms like SurgePV are almost always cheaper on realised total cost, and they ship the engineering depth, bankable simulation, and integrated proposal stack that free tiers do not. For a full field comparison, see our [best solar design software](/blog/best-solar-design-software/) ranking.
+For pure small residential at low volume, OpenSolar free can be the right choice. For everything else, paid flat-rate platforms like SurgePV are almost always cheaper on realised total cost, and they ship the engineering depth, bankable simulation, and integrated proposal stack that free tiers do not. For a full field comparison, see our [best solar design software](/blog/best-solar-design-software/) ranking. Whichever design tool a residential installer settles on, Qbits' [residential solution](/residential-solution/) and full [product catalog](/our-products/) cover the hardware side of that same small-residential segment.
 
 <div class="inline-cta">
 <h3>Ready to try the full-feature platform free?</h3>

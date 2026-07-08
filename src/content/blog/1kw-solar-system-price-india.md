@@ -1,7 +1,7 @@
 ---
-title: "1kW Solar System Price in India 2026, Complete Cost Breakdown"
+title: "1kW Solar System Price in India 2026: Cost Breakdown"
 excerpt: "1kW solar system price in India ranges from ₹65,000 to ₹85,000 before subsidy. After PM Surya Ghar subsidy, net cost drops to ₹35,000–₹50,000. Full breakdown inside."
-description: "Complete 1kW solar system cost breakdown: panels, inverter, BOS, installation, GST, and PM Surya Ghar subsidy. Payback calculator and what to expect from a 1kW on-grid system."
+description: "1kW solar system cost breakdown: panels, inverter, GST, and PM Surya Ghar subsidy. Payback calculator and what to expect from a 1kW on-grid system."
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "16 min"
@@ -144,7 +144,7 @@ If all three answers check out, a 1kW on-grid system is a strong first step into
 The PM Surya Ghar Muft Bijli Yojana subsidy is available to all residential consumers with a valid electricity connection in India. Here is the process for a 1kW system:
 
 - **Step 1**: Register on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) with your electricity consumer number, Aadhaar, and mobile number.
-- **Step 2**: Select an empanelled vendor from your DISCOM's list. Only empanelled vendors can install subsidy-eligible systems, you can also cross-check installer credentials using a [directory of local solar installers](https://heavengreenenergy.com/solar-near-me/) before committing.
+- **Step 2**: Select an empanelled vendor from your DISCOM's list. Only empanelled vendors can install subsidy-eligible systems, you can also cross-check installer credentials using a directory of local solar installers before committing.
 - **Step 3**: The vendor submits the application and technical documents to the DISCOM for feasibility approval.
 - **Step 4**: After feasibility is approved (7–30 days), the vendor installs the system.
 - **Step 5**: The DISCOM inspector visits to verify the installation and activate the net meter.
@@ -165,7 +165,7 @@ The subsidy is applicable only on on-grid (grid-tied) systems. Off-grid and hybr
 | **Roof area needed** | 6–8 sq m | 12–16 sq m |
 | **Best for** | Apartments, small homes, bill < ₹3,000 | Independent homes, bill ₹3,000–₹7,000 |
 
-The payback period is similar because the subsidy also scales with system size. If your budget allows, a 2kW system often makes more sense than a 1kW system because it covers a wider range of your consumption and reduces the incremental cost per unit of capacity. For a side-by-side look at how capacity choice affects generation and ROI at larger sizes, the [3kW vs 5kW vs 10kW inverter capacity guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) is a useful reference once your household load grows past what a 1kW or 2kW system can cover. If you would rather get a quick online estimate before calling a vendor, a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) can give you a ballpark generation and payback figure using just your monthly bill and pincode.
+The payback period is similar because the subsidy also scales with system size. If your budget allows, a 2kW system often makes more sense than a 1kW system because it covers a wider range of your consumption and reduces the incremental cost per unit of capacity. For a side-by-side look at how capacity choice affects generation and ROI at larger sizes, the [3kW vs 5kW vs 10kW inverter capacity guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) is a useful reference once your household load grows past what a 1kW or 2kW system can cover. If you would rather get a quick online estimate before calling a vendor, a solar savings calculator can give you a ballpark generation and payback figure using just your monthly bill and pincode.
 
 ## State-Wise Price Variation for 1kW Solar Systems
 

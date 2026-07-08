@@ -82,7 +82,7 @@ No front-side shading. Cleaner aesthetic and more active area.
 
 Premium positioning. Long warranty (25-40 years) and premium pricing.
 
-Space efficiency. More watts per square metre for space-constrained installations.
+Space efficiency. More watts per square metre for space-constrained installations, the same trade-off homeowners weigh when picking higher-wattage modules in [Solar Inverter for a 3 BHK Home, Real Sizing and Best Picks](/blog/solar-inverter-for-3bhk/).
 
 Aesthetic appeal. Uniform dark front surface.
 
@@ -179,7 +179,7 @@ Limited IBC availability in India.
 
 Maxeon distributes through partners.
 
-PM Surya Ghar accepts IBC modules if ALMM-listed.
+PM Surya Ghar accepts IBC modules if they clear the [ALMM list](/blog/almm-list-phase-iii-guide/) requirements that also govern inverters and balance-of-system gear.
 
 Premium installations may source IBC through specialty channels.
 

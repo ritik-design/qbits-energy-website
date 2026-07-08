@@ -168,7 +168,7 @@ C&I rooftop solar.
 
 Combiner box to inverter trunk runs.
 
-Ground-mount string runs, sized alongside the array layout in [ground mount solar](https://heavengreenenergy.com/ground-mount-solar-park/) projects.
+Ground-mount string runs, sized alongside the array layout in ground mount solar projects.
 
 Charge controller PV inputs.
 
@@ -228,7 +228,7 @@ C&I rooftops use 4 mm² to 10 mm² in string runs.
 
 Utility plants use 4 mm² strings to 70 mm² DC trunks.
 
-[CEIG](/glossary/ceig/) drawing approval, prepared as part of the [electrical drawing package](https://heavendesigns.in/electrical-ceig-drawings/), verifies cable cross-sections.
+[CEIG](/glossary/ceig/) drawing approval, prepared as part of the electrical drawing package, verifies cable cross-sections.
 
 ## Standards and certifications
 

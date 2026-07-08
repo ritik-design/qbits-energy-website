@@ -147,7 +147,7 @@ Utility solar [PPA](/glossary/ppa/) bid economics.
 
 C&I rooftop yield maximisation.
 
-[Bifacial plant design](https://heavendesigns.in/solar-ground-mount-design/).
+Bifacial plant design.
 
 Tracker plant design.
 

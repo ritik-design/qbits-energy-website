@@ -150,11 +150,11 @@ For a 1 MW utility plant in Indian conditions:
 
 ## Real-world applications
 
-Utility solar plant O&M, often bundled by the same [turnkey EPC contractor](https://heavengreenenergy.com/solar-epc/) that built the plant.
+Utility solar plant O&M, often bundled by the same turnkey EPC contractor that built the plant.
 
 C&I rooftop cleaning programmes.
 
-Residential rooftop maintenance, usually arranged through a [local installer](https://heavengreenenergy.com/solar-near-me/).
+Residential rooftop maintenance, usually arranged through a local installer.
 
 Floating solar (water cleaning).
 

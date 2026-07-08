@@ -1,7 +1,7 @@
 ---
-title: "The Real Unit Economics of an Indian Solar Installer, Founder POV"
+title: "Real Unit Economics of an Indian Solar Installer"
 excerpt: "What does a solar EPC business actually earn per kW installed? Revenue, gross margin, customer acquisition cost, after-sales cost, and cash cycle, the numbers most installers do not talk about."
-description: "Founder POV on solar EPC unit economics in India: revenue per kW, gross margin by system size, customer acquisition cost, installation cost structure, after-sales burden, and cash cycle. Real numbers for Indian installers."
+description: "What a solar EPC business actually earns per kW installed: revenue, gross margin, customer acquisition cost, after-sales cost, and cash cycle."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -188,6 +188,6 @@ The installers who build durable businesses share three characteristics:
 
 3. **They choose inverter brands that reduce their operational cost.** Remote diagnostics, fast RMA, and ALMM compliance are not premium features, they are cost-reduction tools.
 
-Qbits' distributor and EPC partner program is built around this reality, supporting partners with the remote diagnostic tools, RMA process, and margin structure that makes the unit economics work. If you are an EPC installer or distributor interested in what this partnership looks like in practice, [talk to our commercial team](/contact-us/) or review the [authorised service partner network](/authorized-service-partners/). For a sense of what a similar arrangement looks like from the installation side, see what it takes to [become a channel partner](https://heavengreenenergy.com/become-channel-partner/) with a solar EPC and equipment network.
+Qbits' distributor and EPC partner program is built around this reality, supporting partners with the remote diagnostic tools, RMA process, and margin structure that makes the unit economics work. If you are an EPC installer or distributor interested in what this partnership looks like in practice, [talk to our commercial team](/contact-us/) or review the [authorised service partner network](/authorized-service-partners/). For a sense of what a similar arrangement looks like from the installation side, see what it takes to become a channel partner with a solar EPC and equipment network.
 
 For technical references, the [solar EPC bid evaluation guide](/blog/how-to-evaluate-solar-epc-bids/) and [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/) cover the customer-facing financial frameworks that EPC teams use to close commercial deals.

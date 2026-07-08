@@ -157,7 +157,7 @@ Where γ is temperature coefficient (negative).
 
 Module specification.
 
-Sales and procurement, including [module and equipment purchasing](https://heavengreenenergy.com/shop/).
+Sales and procurement, including module and equipment purchasing.
 
 Warranty enforcement.
 

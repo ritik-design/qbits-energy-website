@@ -90,7 +90,7 @@ Tracker yield. Trackers maximise the use of DNI by keeping panels perpendicular 
 
 Bifacial yield. The DNI/DHI ratio affects rear-side reflection gain, together with ground [albedo](/glossary/albedo/).
 
-Plant siting. High-DNI sites favour tracker and CSP technologies, and are typically confirmed through a formal [site survey and land feasibility assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) before financial close.
+Plant siting. High-DNI sites favour tracker and CSP technologies, and are typically confirmed through a formal site survey and land feasibility assessment before financial close.
 
 Resource assessment. DNI is one of three core measurements alongside GHI and DHI, tracked in the [state-wise Indian solar irradiance data](/blog/solar-irradiance-data-india-statewise/) QBits compiles annually.
 
@@ -147,7 +147,7 @@ CSP plant siting (limited Indian deployment).
 
 Tracker plant yield modelling, usually run through [utility-scale solar design](https://surgepv.com/utility-scale-solar-design/) workflows that account for DNI-driven tracker backtracking.
 
-Bifacial plant gain prediction for [ground mount solar](https://heavengreenenergy.com/ground-mount-solar-park/) installations.
+Bifacial plant gain prediction for ground mount solar installations.
 
 Solar pumping with tracking.
 

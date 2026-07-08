@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter for Power-Cut Backup, UP, Bihar, MH Buyer's Guide"
+title: "Solar Inverter for Power-Cut Backup, UP, Bihar, MH"
 excerpt: "A solar inverter for power-cut backup must be a hybrid model, standard on-grid inverters shut off the moment the grid fails. This guide covers state load-shedding data, battery sizing, and how to choose the right system for UP, Bihar, and Maharashtra."
-description: "Learn why on-grid inverters fail during power cuts, how hybrid inverters keep your home running, and how to size a battery for 4–8 hour backup in UP, Bihar, MH, and Jharkhand."
+description: "Why on-grid inverters fail during power cuts, how hybrid inverters keep your home running, and battery sizing for 4–8 hour backup in UP, Bihar, MH."
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "18 min"
@@ -277,7 +277,7 @@ For buyers who have already mapped their load, determined their battery size usi
 
 ## Commissioning, DISCOM Approval, and After-Sales in High-Cut States
 
-Purchasing the right hardware is only one part of the journey. In UP, Bihar, and Maharashtra, the post-purchase process involves several regulatory and practical steps that differ from low-cut states. Homeowners who prefer a single turnkey provider to manage this end-to-end (equipment, wiring, and DISCOM paperwork) rather than coordinating it themselves often work with a [residential solar EPC](https://heavengreenenergy.com/residential-solar/).
+Purchasing the right hardware is only one part of the journey. In UP, Bihar, and Maharashtra, the post-purchase process involves several regulatory and practical steps that differ from low-cut states. Homeowners who prefer a single turnkey provider to manage this end-to-end (equipment, wiring, and DISCOM paperwork) rather than coordinating it themselves often work with a residential solar EPC.
 
 ### DISCOM Net Metering Application
 

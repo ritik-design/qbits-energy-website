@@ -1,7 +1,7 @@
 ---
-title: "On-Grid vs Hybrid Solar Inverters: ROI Guide for India 2026"
+title: "On-Grid vs Hybrid Solar Inverters: ROI Guide"
 excerpt: "A complete cost, ROI, and decision-framework breakdown comparing on-grid and hybrid solar inverters for residential and commercial projects across India."
-description: "Compare on-grid and hybrid solar inverters across upfront cost, 25-year ROI, backup capability, battery integration, and regional grid conditions in India. Includes a 6-step EPC decision framework."
+description: "Compare on-grid and hybrid solar inverters on upfront cost, 25-year ROI, backup capability, and battery integration, plus a 6-step EPC decision framework."
 category: "Buying Guide"
 date: 2026-04-08
 updatedDate: 2026-07-08
@@ -196,7 +196,7 @@ A commercial facility generating peak solar at midday but consuming peak in the 
 - Large-scale (above 100 kW)
 - Open-access power agreements
 
-**Example:** 100 kW on-grid for a manufacturing facility. ₹45,00,000 system generates 1,50,000 units/year, saves ₹12,00,000/year at ₹8/unit - **3.75-year payback**. Industrial EPCs sizing similar projects can reference Heaven Green Energy's [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) framework for turnkey execution on facilities at this scale.
+**Example:** 100 kW on-grid for a manufacturing facility. ₹45,00,000 system generates 1,50,000 units/year, saves ₹12,00,000/year at ₹8/unit - **3.75-year payback**. Industrial EPCs sizing similar projects can reference Heaven Green Energy's industrial solar installation framework for turnkey execution on facilities at this scale.
 
 ### When Hybrid Wins
 

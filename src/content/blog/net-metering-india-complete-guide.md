@@ -1,6 +1,7 @@
 ---
 title: "Net Metering in India, Complete 2026 Guide"
 excerpt: "Net metering in India credits exported solar units against your bill. This 2026 guide covers DISCOM rates, application steps, and the Net Metering ROI Stack."
+description: "Net metering in India credits exported solar units against your bill. Guide to DISCOM rates, application steps, and the Net Metering ROI Stack."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -98,7 +99,7 @@ TANGEDCO's dual-track approach (retail credit up to 10 kW, mandatory gross meter
 
 ## The Net Metering ROI Stack: A 4-Layer Savings Model
 
-Most solar calculators show only the bill savings from self-consumption, useful for a quick first-pass number (a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) gives you one in minutes) but not the full financial picture. The Net Metering ROI Stack is a 4-layer model that shows how individual savings levers compound into your true payback period. Apply all four layers before accepting any vendor's quoted payback number.
+Most solar calculators show only the bill savings from self-consumption, useful for a quick first-pass number (a solar savings calculator gives you one in minutes) but not the full financial picture. The Net Metering ROI Stack is a 4-layer model that shows how individual savings levers compound into your true payback period. Apply all four layers before accepting any vendor's quoted payback number.
 
 ### Layer 1: Reduced Import Units
 
@@ -187,7 +188,7 @@ The application process is governed by your state's SERC net metering regulation
 
 3. **Register on PM Surya Ghar portal**: If claiming the central subsidy, register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/). The portal auto-routes your application to the relevant state nodal agency and DISCOM. Upload identity proof, address proof, electricity bill, and bank account details.
 
-4. **Submit DISCOM net metering application**: Either through the PM Surya Ghar portal (which forwards to the DISCOM) or directly through the DISCOM's own portal. Attach the single-line diagram, inverter ALMM certificate, module ALMM certificate, and the prescribed application form. A professionally drafted [single-line diagram and CEIG-compliant electrical drawing](https://heavendesigns.in/electrical-ceig-drawings/) reduces the chance of a DISCOM rejection over an ambiguous or non-standard SLD. Some states also require a structural stability certificate for the roof-mounting structure.
+4. **Submit DISCOM net metering application**: Either through the PM Surya Ghar portal (which forwards to the DISCOM) or directly through the DISCOM's own portal. Attach the single-line diagram, inverter ALMM certificate, module ALMM certificate, and the prescribed application form. A professionally drafted single-line diagram and CEIG-compliant electrical drawing reduces the chance of a DISCOM rejection over an ambiguous or non-standard SLD. Some states also require a structural stability certificate for the roof-mounting structure.
 
 5. **DISCOM technical feasibility study (TFS)**: The DISCOM's distribution engineer assesses whether the local feeder can absorb the proposed solar capacity without voltage rise, frequency deviation, or protection relay issues. The TFS typically takes 7–21 days. If the feeder is already at capacity, the permissible size may be reduced. Get the TFS in writing.
 

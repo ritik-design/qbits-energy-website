@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Keeps Switching Off, What to Do India"
 excerpt: "Solar inverter keeps turning off in India? Find the cause fast, grid voltage range, overtemperature, anti-islanding trips, overload. Step-by-step diagnosis inside."
-description: "Fix a solar inverter that keeps switching off in India. Diagnose grid voltage trips, overtemperature shutdowns, anti-islanding, overload faults, and when to call installer."
+description: "Fix a solar inverter that keeps switching off: diagnose grid voltage trips, overtemperature shutdowns, anti-islanding, and overload faults."
 category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -176,7 +176,7 @@ Not every inverter shutdown requires a site visit. Understanding the boundary be
 - Overload trips that require load management planning or inverter configuration changes
 - The inverter does not restart automatically after a grid-voltage trip (potential hold-time misconfiguration)
 
-If you no longer have an active installer relationship, [find a local solar installer](https://heavengreenenergy.com/solar-near-me/) who can carry out the site inspection.
+If you no longer have an active installer relationship, find a local solar installer who can carry out the site inspection.
 
 **Call immediately, do not wait:**
 - Trips accompanied by an unfamiliar fault code not in the error code table

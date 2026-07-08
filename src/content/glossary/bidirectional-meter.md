@@ -70,7 +70,7 @@ author: "Akash Hirapara"
 
 A bidirectional meter is an electricity energy meter that measures and records energy flowing in both directions through the service connection. It has separate cumulative registers for energy imported from the grid and energy exported to the grid, plus time-stamped interval logs that can be retrieved by the utility.
 
-It is the meter type required for any consumer who exports electricity to the grid: net-metered rooftop solar, gross-metered systems, virtual net-metered group housing, and small captive plants with surplus export. In a typical Indian residential rooftop installation, a single bidirectional meter replaces the existing one-way meter at the service entrance.
+It is the meter type required for any consumer who exports electricity to the grid: net-metered rooftop solar, gross-metered systems, virtual net-metered group housing, and small captive plants with surplus export. In a typical Indian residential rooftop installation, a single bidirectional meter replaces the existing one-way meter at the service entrance. See [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/) for how this billing mechanism works end to end.
 
 CEA Smart Meter Regulations 2023 require AMI-enabled bidirectional smart meters for all new net-metered connections. Class 1.0 for single-phase residential, class 0.5S for three-phase, and class 0.2S for HT applications.
 
@@ -78,7 +78,7 @@ CEA Smart Meter Regulations 2023 require AMI-enabled bidirectional smart meters 
 
 A normal electricity meter has one dial that goes up when you use electricity. A bidirectional meter has two: one for what you take from the grid and one for what you send back. Solar panels on your roof can push power into the grid during the day, and the meter quietly records both flows.
 
-At the end of the month the DISCOM looks at both numbers. If you sent more than you took, you get credit. If you took more, you pay for the difference. The meter does not care which way the wind is blowing inside the wires. It just keeps two separate counts.
+At the end of the month the DISCOM looks at both numbers. If you sent more than you took, you get credit — see [Gross Metering vs Net Metering, Which Should You Choose?](/blog/gross-metering-vs-net-metering/) for how this billing arrangement compares against the gross-metering alternative. If you took more, you pay for the difference. The meter does not care which way the wind is blowing inside the wires. It just keeps two separate counts.
 
 ## Why bidirectional meters matter
 
@@ -185,7 +185,7 @@ Specify class 0.5S or better for any installation above 5 kW.
 
 Confirm meter make and model is in the DISCOM-approved list before purchase.
 
-Witness installation and note all register readings, seal numbers and serial numbers on the commissioning report.
+Witness installation and note all register readings, seal numbers and serial numbers on the commissioning report, following the step-by-step process in [How to Apply for Net Metering in India, State by State (2026)](/blog/how-to-apply-net-metering-india/).
 
 Audit the first three bills against inverter monitoring data. Most errors surface in the first three months.
 

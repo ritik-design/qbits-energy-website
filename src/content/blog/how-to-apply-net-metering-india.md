@@ -1,7 +1,7 @@
 ---
-title: "How to Apply for Net Metering in India, State by State (2026)"
+title: "How to Apply for Net Metering in India"
 excerpt: "Learn how to apply for net metering in India with this 2026 state-by-state guide, 6 steps, full document checklist, DISCOM portal links, and tips to avoid rejection."
-description: "Step-by-step guide to applying for net metering in India. Covers the universal 6-step process, required documents, state DISCOM portals, timelines, and common rejection reasons."
+description: "Step-by-step guide to applying for net metering in India: the 6-step process, required documents, DISCOM portals, timelines, and common rejection reasons."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -153,7 +153,7 @@ This framework captures every document and verification item that a successful n
 
 5. **Inverter datasheet**: The manufacturer's official technical datasheet for the specific inverter model installed. Should clearly show the model number (matching the ALMM-listed designation), rated output power, voltage range, efficiency rating, and IEC 62116 compliance notation. Cross-check the model number against the current [ALMM list](/glossary/almm-list/).
 
-6. **Single-line diagram (SLD)**: The electrical schematic showing the solar system layout: panel strings, DC combiner (if used), DC isolator, inverter, AC isolator, energy meter, and grid connection point. Homeowners whose installer does not prepare this in-house sometimes commission it separately from an [electrical and CEIG drawing service](https://heavendesigns.in/electrical-ceig-drawings/). The SLD must reflect the actual as-installed configuration, any deviation during DISCOM inspection triggers rejection.
+6. **Single-line diagram (SLD)**: The electrical schematic showing the solar system layout: panel strings, DC combiner (if used), DC isolator, inverter, AC isolator, energy meter, and grid connection point. Homeowners whose installer does not prepare this in-house sometimes commission it separately from an electrical and CEIG drawing service. The SLD must reflect the actual as-installed configuration, any deviation during DISCOM inspection triggers rejection.
 
 7. **Installer empanelment certificate**: Confirms the vendor is officially empanelled under PM Surya Ghar or the relevant state scheme. Download from the pmsuryaghar.gov.in portal or the state DISCOM portal.
 

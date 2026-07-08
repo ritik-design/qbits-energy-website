@@ -71,7 +71,7 @@ author: "Keyur Rakholiya"
 
 Total Harmonic Distortion (THD) is the ratio of the root-mean-square sum of all harmonic components in a waveform to the rms of the fundamental component, expressed as a percentage. It is the most widely used single number for waveform distortion in power systems.
 
-THD applies to both voltage and current. For solar inverters, the headline figure is current THD at the AC output at rated power, typically less than 3 percent. For DISCOM compliance, the voltage THD at the point of common coupling is the metric, typically less than 5 percent under IEEE 519 for systems below 69 kV.
+THD applies to both voltage and current. For solar inverters, the headline figure is current THD at the AC output at rated power, typically less than 3 percent. For DISCOM compliance, the voltage THD at the point of common coupling is the metric, typically less than 5 percent under IEEE 519 for systems below 69 kV. See [THD in Solar Inverters, Why It Matters for Sensitive Loads](/blog/thd-solar-inverter/) for how LC filters, IGBT selection and PWM control keep output THD under 3 percent in practice.
 
 A perfect sine wave has zero THD. A pure square wave has roughly 48 percent THD. Real-world distribution-grid voltage in India ranges from less than 1 percent in clean industrial zones to 5 or 6 percent in commercial and IT-heavy areas with high non-linear load.
 
@@ -192,7 +192,7 @@ Inverter THD higher than spec at light load. Often a control loop tuning issue.
 
 Grid voltage THD too high to allow inverter normal operation.
 
-Resonance with site capacitor banks amplifies a specific harmonic, raising THD selectively.
+Resonance with site capacitor banks amplifies a specific harmonic, raising THD selectively. Indian agricultural and mixed industrial feeders are a common source of this problem; see [India Grid Solar Inverter Firmware, A Founder Engineering Guide](/blog/tuning-inverters-indian-grid/) for measured feeder THD levels and how PLL harmonic rejection keeps inverter output clean even when supply THD reaches 8-10 percent.
 
 Measurement artefacts from low-quality CTs or PTs.
 

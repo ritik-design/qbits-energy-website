@@ -73,7 +73,7 @@ Net metering is a billing mechanism under which a utility credits a rooftop sola
 
 The arrangement turns the utility grid into a virtual battery. Solar generated during the day in excess of on-site load flows back to the grid and is credited. At night, when the panels are idle, the customer draws from the grid against those credits. Over a month or a year, the bill drops by the value of the credited solar.
 
-Net metering is the default Indian rooftop solar billing mechanism for residential and small commercial customers. It is mandated by the Electricity Act 2003 and operationalised by state electricity regulatory commissions. As of 2026, all 28 states and most union territories have notified net metering regulations, with PM Surya Ghar layered on top for residential subsidies.
+Net metering is the default Indian rooftop solar billing mechanism for residential and small commercial customers. It is mandated by the Electricity Act 2003 and operationalised by state electricity regulatory commissions. As of 2026, all 28 states and most union territories have notified net metering regulations, with PM Surya Ghar layered on top for residential subsidies. See [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/) for the full mechanics and state-by-state rules.
 
 ## Net metering explained simply
 
@@ -213,9 +213,11 @@ Audit the first three bills carefully. Most DISCOM billing errors show up in the
 
 Read the state regulation, not just the brochure. Net metering rules vary materially across states.
 
-Register the system on the PM Surya Ghar portal if applicable. Subsidy disbursement and meter installation are coordinated through the portal.
+Register the system on the PM Surya Ghar portal if applicable. Subsidy disbursement and meter installation are coordinated through the portal. For the exact state-by-state application steps, see [How to Apply for Net Metering in India, State by State (2026)](/blog/how-to-apply-net-metering-india/).
 
 ## Comparison: net vs gross vs feed-in tariff
+
+Choosing between the two mechanisms depends mainly on daytime self-consumption share; see [Gross Metering vs Net Metering, Which Should You Choose?](/blog/gross-metering-vs-net-metering/) for a worked decision framework.
 
 | Feature | Net metering | Gross metering | Feed-in tariff |
 |---|---|---|---|

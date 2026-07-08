@@ -138,7 +138,7 @@ DISCOM RPO compliance through SECI tendered PPAs.
 
 C&I open access consumers procuring renewable.
 
-Captive plants pairing with renewable installations.
+Captive plants pairing with renewable installations. For factories with captive power plants above 1 MW, rooftop solar counts directly toward the solar RPO sub-target; see [solar inverter for factory and industrial loads](/blog/solar-inverter-for-factory/) for how RPO shortfall penalties change the project economics.
 
 REC trading for last-mile compliance.
 
@@ -190,7 +190,7 @@ Sub-target enforcement (solar, hydro, wind specific).
 
 ## Best practices
 
-Sign PPAs early in trajectory to lock in lower tariffs.
+Sign PPAs early in trajectory to lock in lower tariffs. Large consumers evaluating the open access route should model the [levelised cost of solar](/blog/lcoe-solar-india/) against wheeling and banking charges before committing.
 
 Diversify across solar, wind, hydro and biomass.
 

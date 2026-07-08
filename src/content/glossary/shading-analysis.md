@@ -99,7 +99,7 @@ System ROI. Shading loss directly reduces revenue.
 
 1. [Map site location](/glossary/site-survey/) and orientation.
 2. Identify all obstructions (trees, buildings, structures) with height and position.
-3. Generate a [3D model](https://heavendesigns.in/solar-3d-pre-design/) in shading analysis software.
+3. Generate a 3D model in shading analysis software.
 4. Compute sun-path geometry for the year.
 5. Calculate shadow patterns hour by hour.
 6. Quantify shading loss per module or per string.

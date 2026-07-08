@@ -1,7 +1,7 @@
 ---
-title: "3kW Solar System Price in India 2026, Complete Cost Breakdown"
+title: "3kW Solar System Price in India 2026: Cost Breakdown"
 excerpt: "3kW solar system price in India is ₹1.6 lakh to ₹2.1 lakh before subsidy. After PM Surya Ghar subsidy of ₹78,000, net cost falls to ₹82,000–₹1.32 lakh. Full breakdown inside."
-description: "Complete 3kW solar system cost breakdown for India 2026: panels, inverter, BOS, GST minus subsidy. Payback calculator, load profile for 3 BHK homes, and buying guide."
+description: "3kW solar system cost breakdown for India 2026: panels, inverter, GST minus subsidy. Payback calculator and load profile for 3 BHK homes."
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "18 min"
@@ -151,7 +151,7 @@ Buying the most popular size does not automatically mean you are buying it corre
 - **Accepting roof utilisation shortcuts**: A 3kW system needs 18–22 sq m of unshaded roof. If your installer suggests cramming 6 panels into 14 sq m with overlapping shadows, the actual output will be 15–25% lower than projected.
 - **Not specifying monitoring requirements**: A 3kW system without Wi-Fi or 4G monitoring gives you no visibility into daily generation. Request a monitoring system with app access. Verify the monitoring platform has a history view of at least 12 months.
 - **Ignoring the 3kW subsidy cap**: Some installers size a 3.5kW or 4kW system without explaining that subsidy does not increase above 3kW. The extra capacity is unsubsidised. If you genuinely need 4kW, fine, but do not pay for 4kW unknowingly expecting 4kW of subsidy.
-- **Using a non-empanelled installer**: Only empanelled (DISCOM-approved) installers can file the PM Surya Ghar subsidy application. An unlicensed installer cannot process your subsidy. Verify empanelment status with your DISCOM before signing the contract, a [directory of local solar installers](https://heavengreenenergy.com/solar-near-me/) is a reasonable starting point for cross-checking a vendor's track record.
+- **Using a non-empanelled installer**: Only empanelled (DISCOM-approved) installers can file the PM Surya Ghar subsidy application. An unlicensed installer cannot process your subsidy. Verify empanelment status with your DISCOM before signing the contract, a directory of local solar installers is a reasonable starting point for cross-checking a vendor's track record.
 
 Read the [solar inverter buying mistakes guide](/blog/solar-inverter-buying-mistakes/) before committing to any vendor. India's [BIS certification mandate](https://bis.gov.in/) under IS 16221 requires all grid-connected inverters to pass safety and performance testing before sale, always ask for the BIS certificate number when evaluating any inverter brand.
 

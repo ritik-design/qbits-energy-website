@@ -145,7 +145,7 @@ DC fast charging:
 | Dedicated solar carport | Carport-integrated chargers |
 | Battery buffer | Solar + battery + charger for high-power charging |
 
-Homeowners planning a dedicated setup can follow a full [solar inverter for EV charging](/blog/solar-inverter-for-ev-charging/) buildout guide, and a [licensed residential solar installer](https://heavengreenenergy.com/residential-solar/) can size the system to the charging load. Sites using a battery buffer for high-power charging typically start from a [battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) exercise before selecting a [lithium-ion battery](/glossary/lithium-ion-battery/) bank.
+Homeowners planning a dedicated setup can follow a full [solar inverter for EV charging](/blog/solar-inverter-for-ev-charging/) buildout guide, and a licensed residential solar installer can size the system to the charging load. Sites using a battery buffer for high-power charging typically start from a [battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) exercise before selecting a [lithium-ion battery](/glossary/lithium-ion-battery/) bank.
 
 ### Smart charging features
 

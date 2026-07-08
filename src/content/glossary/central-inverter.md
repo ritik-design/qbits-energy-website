@@ -160,7 +160,7 @@ Hybrid wind-solar plants. Sites combining wind and solar PV often use central in
 
 Solar-plus-storage utility plants. Central inverters paired with [battery containers](/glossary/bess/) form the AC bus for hybrid PCS skids.
 
-Industrial captive plants. 5 to 50 MW [industrial captive solar plants](https://heavengreenenergy.com/industrial-solar/) for cement, steel and chemicals customers often use central inverters for cost efficiency.
+Industrial captive plants. 5 to 50 MW industrial captive solar plants for cement, steel and chemicals customers often use central inverters for cost efficiency.
 
 ## Advantages of a central inverter
 
@@ -267,7 +267,7 @@ Central inverters remain the dominant topology for very large Indian utility sol
 
 ## Looking for utility-scale solar engineering?
 
-QBits Energy works with EPCs and IPPs on central inverter selection, plant layout, DC architecture and grid compliance for utility-scale solar in India. For plants needing structural and civil engineering alongside inverter selection, [Heaven Designs' MW-scale EPC project management](https://heavendesigns.in/mw-scale-project-management-consultancy/) covers site survey through commissioning. Reach out for design support on your next plant.
+QBits Energy works with EPCs and IPPs on central inverter selection, plant layout, DC architecture and grid compliance for utility-scale solar in India. For plants needing structural and civil engineering alongside inverter selection, Heaven Designs' MW-scale EPC project management covers site survey through commissioning. Reach out for design support on your next plant.
 
 ## Sources
 

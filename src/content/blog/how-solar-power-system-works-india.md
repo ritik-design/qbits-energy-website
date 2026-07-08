@@ -1,6 +1,7 @@
 ---
-title: "How Does a Solar Power System Work, From Panel to Meter"
+title: "How Does a Solar Power System Work in India?"
 excerpt: "How does a solar power system work? Sunlight hits PV panels, DC flows through the inverter converting to 230 V AC, powers appliances, and surplus exports via the net meter to the grid."
+description: "Sunlight hits PV panels, DC flows through the inverter converting to 230 V AC, powers appliances, and surplus exports via the net meter to the grid."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -68,7 +69,7 @@ The combiner box serves three practical purposes:
 - **DC isolation**: provides a safety isolator for maintenance or emergency shutdown
 - **Current aggregation**: routes the combined DC output in a single cable pair to the inverter
 
-Residential systems of 3–6 kW may skip a dedicated combiner box and connect strings directly to the inverter's DC input terminals (most residential inverters accept 2–4 strings). Commercial systems above 10 kW almost always use a combiner box, typically packaged as part of a dedicated [ACDB/DCDB panel](https://heavengreenenergy.com/products/acdb-dcdb/) that also houses the AC-side protection.
+Residential systems of 3–6 kW may skip a dedicated combiner box and connect strings directly to the inverter's DC input terminals (most residential inverters accept 2–4 strings). Commercial systems above 10 kW almost always use a combiner box, typically packaged as part of a dedicated ACDB/DCDB panel that also houses the AC-side protection.
 
 The DC cables between panels, combiner box, and inverter must be rated for 1,000 V (or 1,500 V for larger systems), UV-resistant, and sized for the maximum short-circuit current of the array. Undersized DC cables are a leading cause of resistive losses and heat-related failures in improperly installed systems.
 
@@ -162,8 +163,8 @@ The 7-stage journey above only delivers the promised financial returns if every 
 | Solar panels | ALMM-listed vs uncertified | ₹80,000–₹1,50,000 in lost generation from higher degradation |
 | DC cables | 1,000 V rated vs undersized | 3–5% resistive loss, potential fire risk from overheating |
 | Inverter | MPPT efficiency + warranty depth | 2–4% generation loss; replacement cost ₹25,000–₹80,000 if it fails in Year 5 |
-| Net meter | DISCOM-approved only | Non-approved meters may fail [interconnection inspection](https://heavendesigns.in/electrical-ceig-drawings/); restart the clock on approval |
-| [Mounting structure](https://heavengreenenergy.com/products/mounting-structures/) | Hot-dip galvanised vs basic painted | 10–15 year lifespan difference in coastal/humid regions |
+| Net meter | DISCOM-approved only | Non-approved meters may fail interconnection inspection; restart the clock on approval |
+| Mounting structure | Hot-dip galvanised vs basic painted | 10–15 year lifespan difference in coastal/humid regions |
 
 The inverter is the most consequential quality decision because it sits at Stage 4 (the heart of the system) and because its failure destroys generation from every other component while it is offline. A 12-year full-replacement warranty means a failed inverter in Year 7 costs you nothing but a service call. See [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) for the evaluation framework.
 

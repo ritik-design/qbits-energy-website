@@ -1,7 +1,7 @@
 ---
-title: "Solar String Sizing and Overcurrent Protection India, EPC Guide"
+title: "Solar String Sizing & Overcurrent Protection"
 excerpt: "Solar string sizing in India starts with inverter MPPT voltage limits, temperature-corrected Voc calculations, and fuse ratings sized for parallel string Isc. Here is the 5-step method."
-description: "Step-by-step solar string sizing guide for EPC teams in India, Voc temperature correction, 1.25 safety factor, Isc fuse sizing for parallel strings, and the 5-Step String Sizing Loop."
+description: "Step-by-step solar string sizing guide for Indian EPC teams: Voc temperature correction, 1.25 safety factor, Isc fuse sizing, and the 5-Step Sizing Loop."
 category: Technology
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -152,7 +152,7 @@ The [inverter MPPT guide](/blog/inverter-mppt/) explains how the MPPT algorithm 
 
 ## Step 5: Calculate Isc for Fuse Selection
 
-For systems with a single string per MPPT input, no [string fuse](/glossary/fuse/) is required in the string circuit, the [DC cable](/glossary/dc-cable/) is sized for 1.25 × Isc, and the inverter's input protection covers the MPPT. For two or more parallel strings sharing an MPPT input, each string must have an individual overcurrent protection device, typically terminated at a combiner box or the [DCDB](https://heavengreenenergy.com/products/acdb-dcdb/) ahead of the inverter's DC input.
+For systems with a single string per MPPT input, no [string fuse](/glossary/fuse/) is required in the string circuit, the [DC cable](/glossary/dc-cable/) is sized for 1.25 × Isc, and the inverter's input protection covers the MPPT. For two or more parallel strings sharing an MPPT input, each string must have an individual overcurrent protection device, typically terminated at a combiner box or the DCDB ahead of the inverter's DC input.
 
 ### The Fuse Sizing Formula
 
@@ -221,4 +221,4 @@ Getting string sizing right before installation protects both the inverter inves
 - **[DC Oversizing in Solar](/blog/dc-oversizing-in-solar/)**: Related guide on DC:AC ratio and how it interacts with string sizing decisions.
 - **[Inverter MPPT Guide](/blog/inverter-mppt/)**: How MPPT algorithm interacts with string voltage during low-irradiance conditions.
 
-For large-scale EPC projects where string sizing needs to be documented for DISCOM or bancability review, [talk to a Qbits engineer](/contact-us/), the applications team can provide string sizing calculations in a structured format suitable for project design reports, the kind of documentation that pairs with [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/) when a project moves into detailed engineering.
+For large-scale EPC projects where string sizing needs to be documented for DISCOM or bancability review, [talk to a Qbits engineer](/contact-us/), the applications team can provide string sizing calculations in a structured format suitable for project design reports, the kind of documentation that pairs with electrical and CEIG drawings when a project moves into detailed engineering.

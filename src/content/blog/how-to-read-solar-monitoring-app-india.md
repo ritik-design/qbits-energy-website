@@ -1,6 +1,7 @@
 ---
-title: "How to Read Your Solar Inverter Monitoring App, Full Guide"
+title: "How to Read Your Solar Monitoring App"
 excerpt: "How to read your solar inverter monitoring app India: today's generation, grid export, self-consumption ratio, inverter temperature, MPPT voltage, and 6 daily numbers that matter."
+description: "How to read your solar inverter monitoring app: today's generation, grid export, self-consumption ratio, temperature, and the 6 daily numbers that matter."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -71,7 +72,7 @@ If your app consistently shows Today's Generation at less than 60% of the expect
 
 Lifetime Generation is the cumulative energy produced since the system was commissioned. This number grows every day and is the running total of your solar investment's output.
 
-**How to calculate money saved:** Multiply Lifetime Generation by your effective tariff rate, or use a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) to get a more precise figure that accounts for your state's tariff slabs.
+**How to calculate money saved:** Multiply Lifetime Generation by your effective tariff rate, or use a solar savings calculator to get a more precise figure that accounts for your state's tariff slabs.
 
 Example: Lifetime Generation = 12,500 kWh. Grid tariff = ₹8/unit. Approximate money saved = 12,500 × 8 = ₹1,00,000.
 

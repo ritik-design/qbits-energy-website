@@ -88,7 +88,7 @@ Bifacial yield. Higher albedo means higher rear-side power generation, reflected
 
 Project economics. Bifacial gain reduces LCOE.
 
-Site selection. High-albedo sites favoured for bifacial plants, which is why [site survey and land feasibility studies](https://heavendesigns.in/site-survey-land-feasibility-services/) for utility projects now record ground albedo alongside slope and soil data.
+Site selection. High-albedo sites favoured for bifacial plants, which is why site survey and land feasibility studies for utility projects now record ground albedo alongside slope and soil data.
 
 Ground preparation. White gravel and similar treatments justified by albedo-driven yield.
 
@@ -145,7 +145,7 @@ For a 1 MW utility plant:
 
 ## Real-world applications
 
-Utility bifacial plant ground preparation, often planned alongside a [ground mount solar](https://heavengreenenergy.com/ground-mount-solar-park/) layout.
+Utility bifacial plant ground preparation, often planned alongside a ground mount solar layout.
 
 Carport with white roof surface.
 

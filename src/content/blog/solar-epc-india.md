@@ -1,7 +1,7 @@
 ---
-title: "Solar EPC India: Complete Guide for Installation Companies (2026)"
+title: "Solar EPC India: Guide for Installation Companies"
 excerpt: "A full-lifecycle EPC playbook for Indian solar projects, covering site assessment, engineering design, procurement, installation, commissioning, monitoring, and warranty management."
-description: "Complete solar EPC India guide for installation companies. 7 project phases, equipment selection criteria, BIS/IEC compliance, commissioning protocols, and future-proofing strategies for 2026."
+description: "Complete solar EPC India guide for installation companies, covering site assessment, procurement, commissioning, and warranty management."
 category: "Guide"
 date: 2026-04-08
 updatedDate: 2026-07-08
@@ -39,7 +39,7 @@ The Indian solar sector is growing at unprecedented speed, with EPC companies at
 
 ## Understanding Solar EPC Services
 
-EPC encompasses the complete lifecycle of solar projects, integrating **engineering design, equipment procurement, and construction execution** into a single delivery model. The role is part technical consultant, part project manager, part operations lead. Companies weighing whether to build this capability in-house or partner with a turnkey provider can compare against [Heaven Green Energy's solar EPC and turnkey installation service](https://heavengreenenergy.com/solar-epc/) as a reference point for scope and delivery model.
+EPC encompasses the complete lifecycle of solar projects, integrating **engineering design, equipment procurement, and construction execution** into a single delivery model. The role is part technical consultant, part project manager, part operations lead. Companies weighing whether to build this capability in-house or partner with a turnkey provider can compare against Heaven Green Energy's solar EPC and turnkey installation service as a reference point for scope and delivery model.
 
 ### Key Challenges Facing Indian EPCs
 
@@ -58,7 +58,7 @@ EPC encompasses the complete lifecycle of solar projects, integrating **engineer
 - **Orientation documentation**: tilt, azimuth, distinct roof planes
 - **Ground-mounted sites**: topography, soil conditions, accessibility
 
-EPCs handling larger or more complex sites often outsource this step. [Heaven Designs' site survey and land feasibility service](https://heavendesigns.in/site-survey-land-feasibility-services/) covers structural and topographic assessment for both rooftop and ground-mount projects, and [Heaven Designs' solar 3D pre-design service](https://heavendesigns.in/solar-3d-pre-design/) models shading and orientation before the crew ever visits site.
+EPCs handling larger or more complex sites often outsource this step. Heaven Designs' site survey and land feasibility service covers structural and topographic assessment for both rooftop and ground-mount projects, and Heaven Designs' solar 3D pre-design service models shading and orientation before the crew ever visits site.
 
 ### Load Analysis and System Sizing
 
@@ -114,7 +114,7 @@ For a deeper walkthrough of the DC oversizing decision itself, see the [DC overs
 - **DC and AC [surge protection devices (SPDs)](/glossary/spd/)**
 - Isolation switches and labelling per BIS/IEC standards
 
-EPCs who need certified electrical drawings for CEIG or DISCOM approval at this stage typically outsource to a specialist, [Heaven Designs' electrical drawings and CEIG documentation service](https://heavendesigns.in/electrical-ceig-drawings/) covers exactly this deliverable.
+EPCs who need certified electrical drawings for CEIG or DISCOM approval at this stage typically outsource to a specialist, Heaven Designs' electrical drawings and CEIG documentation service covers exactly this deliverable.
 
 ## 3. Procurement: Sourcing Quality Components
 

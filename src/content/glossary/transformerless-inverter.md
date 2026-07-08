@@ -204,7 +204,7 @@ Verify floating PV configuration during commissioning.
 
 [ALMM-listed](/glossary/almm-list/) inverters are predominantly transformerless.
 
-Major brands (Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Tata Power Solar) ship transformerless residential and C&I inverters, and ready-stocked units are also available through Heaven Green Energy's [solar inverter catalogue](https://heavengreenenergy.com/products/solar-inverters/).
+Major brands (Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Tata Power Solar) ship transformerless residential and C&I inverters, and ready-stocked units are also available through Heaven Green Energy's solar inverter catalogue.
 
 Utility central inverters from Sineng, Huawei, Sungrow use transformerless multi-level topology.
 

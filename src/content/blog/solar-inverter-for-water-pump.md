@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter for Water Pump, KUSUM-Compatible Picks"
+title: "Solar Inverter for Water Pump, KUSUM Picks"
 excerpt: "A solar inverter for a water pump must handle 5–7× inrush current at motor start. This guide covers pump sizing, KUSUM Component-B eligibility, and the right inverter setup for Indian farmers."
-description: "Solar inverter for water pump, covers KUSUM Component-B, HP-to-kW conversion, inrush current, on-grid vs standalone pump controllers, and sizing for 1 HP to 5 HP agricultural pumps in India."
+description: "Solar inverter for water pumps in India: KUSUM Component-B, HP-to-kW conversion, inrush current, and sizing for 1 HP to 5 HP agricultural pumps."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -115,7 +115,7 @@ The [KUSUM scheme](/blog/kusum-yojana-agricultural-solar-subsidy/) (Kisan Urja S
 
 ### Component-A: Solar Power Plants on Farm Land
 
-Component-A targets land-owning farmers with barren or fallow land. A developer or the farmer installs a [ground-mount solar power plant](https://heavendesigns.in/solar-ground-mount-design/) (up to 2 MWp per application) and sells power to the DISCOM at a state-determined tariff. The farmer earns land lease income. This component is not about pumps, it is about decentralised solar generation. If you want to lease your farm land for a solar plant and earn rental income, Component-A is the route.
+Component-A targets land-owning farmers with barren or fallow land. A developer or the farmer installs a ground-mount solar power plant (up to 2 MWp per application) and sells power to the DISCOM at a state-determined tariff. The farmer earns land lease income. This component is not about pumps, it is about decentralised solar generation. If you want to lease your farm land for a solar plant and earn rental income, Component-A is the route.
 
 ### Component-B: Standalone Solar Pumps (Off-Grid)
 
@@ -127,7 +127,7 @@ The funding structure:
 - Farmer upfront contribution: 10% of benchmark cost
 - Bank loan (NABARD / rural banks): 30% at concessional rates
 
-The entire system (panels, pump controller, mounting structure, and submersible or surface pump) is covered under the benchmark cost. Installation is through empanelled vendors approved by the state nodal agency, and some solar EPCs run dedicated [PM-KUSUM installation programmes](https://heavengreenenergy.com/drebp-pm-kusum/) that handle vendor empanelment and subsidy paperwork on the farmer's behalf. Applications go through state agriculture department portals.
+The entire system (panels, pump controller, mounting structure, and submersible or surface pump) is covered under the benchmark cost. Installation is through empanelled vendors approved by the state nodal agency, and some solar EPCs run dedicated PM-KUSUM installation programmes that handle vendor empanelment and subsidy paperwork on the farmer's behalf. Applications go through state agriculture department portals.
 
 ### Component-C: Solarisation of Grid-Connected Pumps
 

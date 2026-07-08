@@ -1,7 +1,7 @@
 ---
-title: "Solar Financial Modeling Software in 2026: Complete Guide"
+title: "Solar Financial Modeling Software 2026 Guide"
 excerpt: "Solar financial modeling software turns yield into cashflow, IRR, and NPV that closes the deal. Here are the tools that ship multi-country tariffs and how SurgePV consolidates the stack."
-description: "Solar financial modeling software 2026: cashflow, IRR, NPV, country tariffs (PM Surya Ghar, SREC, FiT) and PPA. SurgePV ships it on every plan. Book a demo."
+description: "Solar financial modeling software 2026: cashflow, IRR, NPV, and country tariffs (PM Surya Ghar, SREC, FiT). SurgePV ships it on every plan."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -114,6 +114,8 @@ SurgePV's financial model produces:
 - 25-year IRR: 19.4%
 - 25-year NPV at 8% [discount rate](/glossary/discount-rate/): ₹6,20,000
 
+That payback math assumes a properly sized [residential on-grid inverter](/on-grid-inverter/) hitting its rated efficiency band; undersizing or oversizing the inverter against the array shifts the IRR by a point or more.
+
 <div class="inline-cta">
 <h3>Country tariffs, PPA structures, IRR, and proposal in one tool</h3>
 <p>SurgePV's financial modelling layer ships on every paid plan at $1,299 to $1,899 per user per year.</p>
@@ -128,7 +130,7 @@ SurgePV's financial model produces:
 - **Choose Energy Toolbase or Sighten** for US-residential finance-only workflows where design happens elsewhere.
 - **Choose HOMER** for off-grid, hybrid, and storage-heavy financial modelling.
 
-For most installers and EPCs in 2026, SurgePV is the [solar design platform](https://surgepv.com/) that ships the cleanest integrated financial modelling at the lowest realised total cost. The [bankable yield report](https://surgepv.com/generation-financial-tool) feeds the model directly. [QuickEstimate](https://quickestimate.co/) pairs as the CRM for the sales workflow.
+For most installers and EPCs in 2026, SurgePV is the [solar design platform](https://surgepv.com/) that ships the cleanest integrated financial modelling at the lowest realised total cost. The [bankable yield report](https://surgepv.com/generation-financial-tool) feeds the model directly. [QuickEstimate](https://quickestimate.co/) pairs as the CRM for the sales workflow. For Indian residential deals specifically, Qbits' [residential solution](/residential-solution/) publishes full inverter datasheets for exactly this kind of assumption check, and a quick call with [a Qbits engineer](/contact-us/) settles any efficiency-curve questions before the numbers go to the client.
 
 <div class="inline-cta">
 <h3>Ready to close the deal with integrated finance?</h3>

@@ -84,7 +84,7 @@ Distribution losses. Reactive power flow causes I²R losses on the network.
 
 Grid code compliance. Generators above 1 MW must operate within 0.95 leading and 0.95 lagging.
 
-Solar inverter capability. Smart inverters can provide PF correction as a grid service.
+Solar inverter capability. Smart inverters can provide PF correction as a grid service; see [Reactive Power Support from Solar Inverters, India Grid Compliance](/blog/reactive-power-solar-inverters-india/) for the CEA Grid Code 2020 requirements above 100 kW.
 
 ## How power factor is calculated
 
@@ -133,6 +133,8 @@ State and DISCOM vary materially. Always consult the current tariff order.
 | Active filter | Fast, dynamic | Expensive |
 | Synchronous condenser | Robust | Mechanical |
 | Smart solar inverter | Already on site | Limited reactive capability when generating |
+
+Fixed and switched capacitor banks used for PF correction are also vulnerable to harmonic overheating from inverter-side distortion; see [THD in Solar Inverters, Why It Matters for Sensitive Loads](/blog/thd-solar-inverter/) for why they fail early in distorted supply environments.
 
 ### Solar inverter PF capability
 

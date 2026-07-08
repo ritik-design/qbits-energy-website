@@ -163,7 +163,7 @@ Higher [electricity tariffs](/glossary/tariff/) and disciplined [OPEX](/glossary
 
 ## Real-world applications
 
-Residential sales pitches, often anchored to a quick [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) to set customer expectations before diving into detailed payback math.
+Residential sales pitches, often anchored to a quick solar savings calculator to set customer expectations before diving into detailed payback math.
 
 C&I solar procurement decisions.
 

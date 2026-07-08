@@ -1,7 +1,7 @@
 ---
-title: "Solar Subsidy in Rajasthan 2026, RVUNL + High DNI Advantage"
+title: "Solar Subsidy in Rajasthan 2026, High DNI Edge"
 excerpt: "Solar subsidy in Rajasthan 2026 combines PM Surya Ghar (₹78,000 for 3 kW) with India's highest solar irradiance (6.0 kWh/m²/day) and three DISCOMs: JVVNL, AVVNL, JdVVNL."
-description: "Solar subsidy in Rajasthan 2026: PM Surya Ghar amounts, JVVNL AVVNL JdVVNL net-metering steps, RRECL role, KUSUM Component A, high DNI advantage, and a Jaipur homeowner case."
+description: "Solar subsidy in Rajasthan 2026: PM Surya Ghar amounts, JVVNL/AVVNL/JdVVNL net-metering steps, RRECL's role, and India's highest irradiance advantage."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -65,7 +65,7 @@ The central PM Surya Ghar Muft Bijli Yojana, launched in February 2024, is admin
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly into the homeowner's bank account after DISCOM commissioning is verified on the national portal. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-Eligibility requires ALMM-listed panels, a [BIS-certified](/glossary/bis-certification/) inverter, and a [DISCOM](/glossary/discom/)-empanelled installer. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains how to check vendor status before committing. In Rajasthan, this step is particularly important because [the market includes many small installers](https://heavengreenenergy.com/solar-near-me/) who claim empanelment without being formally registered with the relevant DISCOM.
+Eligibility requires ALMM-listed panels, a [BIS-certified](/glossary/bis-certification/) inverter, and a [DISCOM](/glossary/discom/)-empanelled installer. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains how to check vendor status before committing. In Rajasthan, this step is particularly important because the market includes many small installers who claim empanelment without being formally registered with the relevant DISCOM.
 
 ## The High DNI Advantage: Why Rajasthan Gets More From the Same Subsidy
 
@@ -142,7 +142,7 @@ The vendor empanelment list at [rrecl.rajasthan.gov.in](https://rrecl.rajasthan.
 
 While KUSUM Component A is not a homeowner subsidy, it is worth understanding because many Rajasthan solar inquiries conflate it with PM Surya Ghar. Rajasthan has been the most active state in KUSUM Component A nationally, due to the availability of vast barren land and the government's push to bring agricultural solar generation online.
 
-KUSUM Component A allows landowners to set up [500 kW to 2 MW solar plants on barren, fallow, or cultivable land](https://heavengreenenergy.com/ground-mount-solar-park/), with DISCOMs (JVVNL, AVVNL, JdVVNL) purchasing the power at a fixed tariff. Rajasthan farmers and landowners who meet the land size criteria should explore this through [RRECL](https://rrecl.rajasthan.gov.in/) as a separate income-generating opportunity. It is not a residential rooftop solar scheme.
+KUSUM Component A allows landowners to set up 500 kW to 2 MW solar plants on barren, fallow, or cultivable land, with DISCOMs (JVVNL, AVVNL, JdVVNL) purchasing the power at a fixed tariff. Rajasthan farmers and landowners who meet the land size criteria should explore this through [RRECL](https://rrecl.rajasthan.gov.in/) as a separate income-generating opportunity. It is not a residential rooftop solar scheme.
 
 > **Rajasthan has commissioned more KUSUM Component A capacity than any other Indian state.** The state's barren land availability and RRECL's active facilitation have made it a benchmark for agricultural solar development in India. *Source - [MNRE KUSUM Portal](https://mnre.gov.in/solar-energy/schemes/kusum/), 2026.*
 

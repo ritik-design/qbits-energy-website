@@ -1,7 +1,7 @@
 ---
-title: "How to Read Solar Inverter Datasheets: 11 Critical Specs for EPCs"
+title: "How to Read Solar Inverter Datasheets"
 excerpt: "A specification-by-specification guide to reading solar inverter datasheets, covering weighted efficiency, MPPT range, temperature derating, surge protection, certifications, and warranty fine print."
-description: "Learn how to read a solar inverter datasheet the way an EPC procurement engineer does. 11 critical specs, red flags to watch for, and a comparison checklist tailored for Indian solar projects."
+description: "How to read a solar inverter datasheet like an EPC procurement engineer: 11 critical specs, red flags, and a comparison checklist for Indian projects."
 category: "Guide"
 date: 2026-05-11
 updatedDate: 2026-07-08
@@ -209,4 +209,4 @@ Score each inverter on each criterion:
 
 Reading an inverter datasheet with this level of rigour is the single most effective way to protect your projects from underperformance and warranty disputes. The 11 specifications above give you a complete framework for evaluating any inverter against the real demands of Indian solar installations.
 
-Once the datasheet has passed this checklist, the next step is folding it into your broader sourcing process, covered in the [inverter procurement India guide](/blog/inverter-procurement-india/), and applying the same rigour when [evaluating solar EPC bids](/blog/how-to-evaluate-solar-epc-bids/) that specify the inverter. Qbits publishes full weighted-efficiency, derating, and warranty data on every datasheet for exactly this reason, so EPCs sourcing [on-grid](/on-grid-inverter/) or [hybrid inverters](/hybrid-inverter/) can score the product against this checklist without chasing missing numbers. If a supplier's datasheet also needs to sit alongside a turnkey installation scope, [Heaven Green Energy's inverter product range](https://heavengreenenergy.com/products/solar-inverters/) is a useful reference for how a complete BOS package is typically documented. To get a spec-by-spec walkthrough of a specific datasheet, [talk to a Qbits engineer](/contact-us/).
+Once the datasheet has passed this checklist, the next step is folding it into your broader sourcing process, covered in the [inverter procurement India guide](/blog/inverter-procurement-india/), and applying the same rigour when [evaluating solar EPC bids](/blog/how-to-evaluate-solar-epc-bids/) that specify the inverter. Qbits publishes full weighted-efficiency, derating, and warranty data on every datasheet for exactly this reason, so EPCs sourcing [on-grid](/on-grid-inverter/) or [hybrid inverters](/hybrid-inverter/) can score the product against this checklist without chasing missing numbers. If a supplier's datasheet also needs to sit alongside a turnkey installation scope, Heaven Green Energy's inverter product range is a useful reference for how a complete BOS package is typically documented. To get a spec-by-spec walkthrough of a specific datasheet, [talk to a Qbits engineer](/contact-us/).

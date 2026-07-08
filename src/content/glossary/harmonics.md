@@ -101,9 +101,9 @@ Resonance. Harmonics excite LC resonances on the network, causing voltage spikes
 
 Metering. Older meters mis-record under high distortion. Even modern meters specify accuracy only up to defined THD levels.
 
-Anti-islanding interference. PLL inside inverters can lock onto harmonic components in highly distorted grids, causing trips.
+Anti-islanding interference. PLL inside inverters can lock onto harmonic components in highly distorted grids, causing trips. Facilities that also manage power factor penalties alongside harmonics often specify inverters with reactive power support; see [Reactive Power Support from Solar Inverters, India Grid Compliance](/blog/reactive-power-solar-inverters-india/) for the CEA Grid Code requirements.
 
-DISCOM compliance. Indian large C&I and utility connections include harmonic limits referencing IEEE 519.
+DISCOM compliance. Indian large C&I and utility connections include harmonic limits referencing IEEE 519, and hospital or data-centre loads typically demand tighter limits still; see [THD in Solar Inverters, Why It Matters for Sensitive Loads](/blog/thd-solar-inverter/) for the sensitive-load thresholds.
 
 ## How harmonics arise
 

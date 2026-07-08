@@ -1,7 +1,7 @@
 ---
 title: "Solar Performance in Indian Winters, What to Expect"
 excerpt: "Solar performance in winter India drops 20–30% below summer peaks due to lower sun angles and shorter days, but cold air actually improves panel efficiency. Here is the full picture by region."
-description: "Indian winter reduces solar output by 20–30% versus summer peak. Understand the Winter Performance Correction Factor by region, including North India fog effects and how to set realistic expectations."
+description: "Indian winter cuts solar output 20-30% below summer peak. See the Winter Performance Correction Factor by region, fog effects, and realistic expectations."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -119,7 +119,7 @@ Every solar buyer in India should apply a simple regional correction factor when
 | Bengaluru | March (≈580 kWh) | 0.78 | ≈452 kWh |
 | Shimla | June (≈450 kWh) | 0.35 | ≈158 kWh |
 
-These are approximate figures based on publicly available [IRENA solar resource data](https://www.irena.org/solar) for India. Buyers should request location-specific data from PVGIS or PVsyst from their installer, or run a preliminary estimate through a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) before comparing quotes.
+These are approximate figures based on publicly available [IRENA solar resource data](https://www.irena.org/solar) for India. Buyers should request location-specific data from PVGIS or PVsyst from their installer, or run a preliminary estimate through a solar savings calculator before comparing quotes.
 
 ## How Net Metering Manages Winter Shortfalls
 

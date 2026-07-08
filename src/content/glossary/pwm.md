@@ -148,7 +148,7 @@ The switching efficiency is high, 95 to 99 percent. The overall yield efficiency
 For a 36-cell panel at Vmp 17.5 V charging a 12.6 V battery:
 η_PWM_yield = (12.6 / 17.5) × 0.98 = 70.5 percent
 
-The MPPT alternative at 98 percent conversion efficiency captures the panel's full power and delivers it at battery voltage, yielding closer to 96 percent. The gap is the energy lost to operating below Vmp.
+The MPPT alternative at 98 percent conversion efficiency captures the panel's full power and delivers it at battery voltage, yielding closer to 96 percent. The gap is the energy lost to operating below Vmp. For selection criteria across MPPT inverter options, see [Inverter MPPT: 8 Critical Selection Factors (2026)](/blog/inverter-mppt/).
 
 ### Inverter PWM techniques
 
@@ -192,7 +192,7 @@ Panel-battery voltage matching. A 12 V battery requires a 36-cell, 17 V panel. M
 
 Battery wear. Without absorption-float-equalisation discipline, PWM controllers can undercharge or overcharge batteries. Quality matters.
 
-No multi-MPPT. A PWM controller cannot manage two strings of different sizes or orientations.
+No multi-MPPT. A PWM controller cannot manage two strings of different sizes or orientations; see [Dual MPPT vs Single MPPT, When You Actually Need It](/blog/dual-mppt-vs-single-mppt/) for when that limitation actually matters.
 
 ## Common problems
 
@@ -234,6 +234,8 @@ Reserve PWM for systems where the cost difference against MPPT is significant re
 | Cost (10 A 12 V) | ₹400 to 900 | ₹2,500 to 4,500 |
 | Max panel Voc | Battery class | Up to 100 V or more |
 | Best fit | Solar lanterns, small home kits | Modern solar at all scales |
+
+For a full side-by-side comparison of yield, cost and use cases, see [MPPT vs PWM Charge Controller, Why MPPT Wins Every Time](/blog/mppt-vs-pwm/).
 
 ## Indian market context
 

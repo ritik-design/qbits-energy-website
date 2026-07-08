@@ -87,7 +87,7 @@ Indian state APPCs typically range from ₹4 to ₹5.5/kWh, varying by state and
 
 ## Why APPC matters
 
-Net metering credit valuation. Year-end excess credits may be cashed out at APPC in some states, which is one reason homeowners weighing [gross metering vs net metering](/blog/gross-metering-vs-net-metering/) need to understand the trade-off before sizing a [residential rooftop system](https://heavengreenenergy.com/residential-solar/).
+Net metering credit valuation. Year-end excess credits may be cashed out at APPC in some states, which is one reason homeowners weighing [gross metering vs net metering](/blog/gross-metering-vs-net-metering/) need to understand the trade-off before sizing a residential rooftop system.
 
 REC pricing. [CERC](/glossary/cerc/) sets REC floor and forbearance referencing APPC.
 

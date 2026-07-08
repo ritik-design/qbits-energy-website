@@ -1,6 +1,7 @@
 ---
 title: "Solar IRR and Payback for C&I in India, Real Math"
 excerpt: "Solar IRR calculation India for C&I: a 100 kW Karnataka system at ₹70 lakh capex delivers 22% IRR and 4.5-year payback with accelerated depreciation. Full 5-line business case inside."
+description: "A 100 kW C&I solar system in Karnataka at ₹70 lakh capex delivers 22% IRR and 4.5-year payback with accelerated depreciation. Full business case inside."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -148,13 +149,13 @@ Any credible IRR model should be stress-tested across three scenarios.
 
 Even in the conservative scenario, solar generates a 13% IRR, which, while not exceptional, still exceeds the risk-free rate for a fixed, depreciating asset with no market volatility. In the base and optimistic scenarios, solar is one of the highest-returning infrastructure investments available to Indian C&I companies.
 
-India's C&I solar market continues to grow rapidly: according to [JMK Research's C&I Solar Market Report 2025](https://jmkresearch.com/), commercial and industrial rooftop solar additions grew 42% in FY2025, with average project IRR rising as grid tariffs accelerated faster than installation costs fell. [IRENA's India Solar Cost Report 2024](https://www.irena.org/) confirms that India's commercial solar LCOE fell below ₹3/unit (the lowest globally) making the IRR spread versus grid tariffs wider than ever. Turning that demand into installed capacity still depends on execution quality, which is why the [commercial solar installation](https://heavengreenenergy.com/commercial-solar/) partner a company picks matters almost as much as the IRR model itself.
+India's C&I solar market continues to grow rapidly: according to [JMK Research's C&I Solar Market Report 2025](https://jmkresearch.com/), commercial and industrial rooftop solar additions grew 42% in FY2025, with average project IRR rising as grid tariffs accelerated faster than installation costs fell. [IRENA's India Solar Cost Report 2024](https://www.irena.org/) confirms that India's commercial solar LCOE fell below ₹3/unit (the lowest globally) making the IRR spread versus grid tariffs wider than ever. Turning that demand into installed capacity still depends on execution quality, which is why the commercial solar installation partner a company picks matters almost as much as the IRR model itself.
 
 ## Building the Business Case for Internal Approval
 
 For CFOs and plant managers who need to present the solar business case internally, the 5-Line C&I Solar Business Case framework provides the structure. Attach these three supporting documents:
 
-1. **Site survey report with generation estimate**: monthly generation projections from a PVSyst or equivalent simulation, not rule-of-thumb calculations, ideally backed by a proper [site survey and land feasibility assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) before the numbers go to the board
+1. **Site survey report with generation estimate**: monthly generation projections from a PVSyst or equivalent simulation, not rule-of-thumb calculations, ideally backed by a proper site survey and land feasibility assessment before the numbers go to the board
 2. **EPC bid comparison**: using the [15-Point EPC Bid Scorecard](/blog/how-to-evaluate-solar-epc-bids/) to document the selection rationale
 3. **Tax benefit confirmation**: letter from the company's CA confirming the 80% accelerated depreciation eligibility and expected Year 1 tax saving
 

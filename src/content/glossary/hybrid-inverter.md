@@ -99,7 +99,7 @@ Resilience for unreliable grids. Many Indian cities still see 10 to 30 outages a
 
 Self-consumption optimisation. As DISCOMs move from generous net metering to time-of-day tariffs and gross metering, storing midday solar for evening use will outpace exporting it.
 
-Demand-charge management for [C&I sites](https://heavengreenenergy.com/commercial-solar/). Hybrid inverters with energy management software can peak-shave above sanctioned demand, cutting demand charges by 15 to 30 percent in commercial buildings.
+Demand-charge management for C&I sites. Hybrid inverters with energy management software can peak-shave above sanctioned demand, cutting demand charges by 15 to 30 percent in commercial buildings.
 
 Microgrid and electrification. Small commercial campuses, schools and rural clinics use hybrid inverters as the heart of a microgrid that includes PV, battery and an occasional diesel input.
 
@@ -160,7 +160,7 @@ Backup load is often a subset of total home load, wired to a separate backup dis
 
 ## Real-world applications
 
-[Indian rooftops](https://heavengreenenergy.com/residential-solar/) with frequent outages. A 5 kVA hybrid with 5 kWh of LFP backs up lights, fans, fridge, TV and a few small loads for 6 to 10 hours. Common in tier 2 and 3 cities.
+Indian rooftops with frequent outages. A 5 kVA hybrid with 5 kWh of LFP backs up lights, fans, fridge, TV and a few small loads for 6 to 10 hours. Common in tier 2 and 3 cities.
 
 Small businesses and clinics. 5 to 15 kVA hybrid systems power critical loads during planned and unplanned outages, replacing diesel gensets for sub-30 kW sites.
 

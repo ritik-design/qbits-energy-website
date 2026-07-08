@@ -1,7 +1,7 @@
 ---
-title: "India Grid Solar Inverter Firmware, A Founder Engineering Guide"
+title: "India Grid Solar Inverter Firmware, Engineer's Guide"
 excerpt: "India grid solar inverter firmware must handle 180–270V swings, DG microsurges, and harmonic-heavy feeders. Here is the engineering behind Qbits' India-tuned approach."
-description: "Qbits engineers explain the firmware decisions that make an India grid solar inverter reliable: wide MPPT windows, LVRT/HVRT ride-through, adaptive anti-islanding, and CEA 2010/2022 compliance."
+description: "Qbits engineers explain the firmware behind a reliable India grid solar inverter: wide MPPT windows, LVRT/HVRT ride-through, and adaptive anti-islanding."
 category: Technology
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -206,7 +206,7 @@ The [CEA](/glossary/cea/) connectivity standards govern eight technical paramete
 - **Active power ramp rate**: maximum 10% per second on reconnection after a grid fault
 - **Protection coordination**: over-current, under-current, and earth fault protection settings documented
 
-The compliance documentation that DISCOMs accept includes the BIS IS 16169 test report (which references CEA standards), the inverter commissioning report from a certified electrical contractor, and, for systems above 100 kW, a [single-line diagram with protection relay settings](https://heavendesigns.in/electrical-ceig-drawings/). EPCs who specify inverters with clear BIS and CEA compliance documentation significantly reduce interconnection approval timelines, Qbits' experience shows a 35–50% reduction in DISCOM back-and-forth when complete documentation is submitted at the first application.
+The compliance documentation that DISCOMs accept includes the BIS IS 16169 test report (which references CEA standards), the inverter commissioning report from a certified electrical contractor, and, for systems above 100 kW, a single-line diagram with protection relay settings. EPCs who specify inverters with clear BIS and CEA compliance documentation significantly reduce interconnection approval timelines, Qbits' experience shows a 35–50% reduction in DISCOM back-and-forth when complete documentation is submitted at the first application.
 
 For the [BIS certification](/glossary/bis-certification/) pathway in detail, the [solar inverter certifications guide](/blog/solar-inverter-certifications/) covers the testing sequence and lab empanelment requirements.
 
@@ -269,7 +269,7 @@ Qbits designed the TLS, TLD, HS, and HT series for the Indian grid conditions do
 
 The 12-year full replacement warranty is the commitment that backs that architecture. A manufacturer that offers 12 years on hardware deployed daily on Indian grid conditions has priced its firmware performance honestly. When the inverter trips less often, components cycle less, and the expected replacement interval extends beyond what a 5-year warranty would require.
 
-EPCs specifying for projects across India (from Tier-1 commercial rooftops in Pune to [agricultural solar under KUSUM](https://heavengreenenergy.com/drebp-pm-kusum/) in Rajasthan) will find the technical documentation ready for DISCOM submission:
+EPCs specifying for projects across India (from Tier-1 commercial rooftops in Pune to agricultural solar under KUSUM in Rajasthan) will find the technical documentation ready for DISCOM submission:
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ITFA firmware standard, BIS IS 16169 certified, ALMM-listed.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with full ITFA plus battery-ready architecture for sites with on-site DG or frequent load shedding.

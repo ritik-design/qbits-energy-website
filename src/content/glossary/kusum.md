@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 ## What is PM-KUSUM
 
-PM-KUSUM, Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan, is the Government of India's flagship scheme for agricultural solar, launched in March 2019. It targets 35 GW of solar capacity in agriculture by 2026 through three components: A, B and C.
+PM-KUSUM, Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan, is the Government of India's flagship scheme for agricultural solar, launched in March 2019. It targets 35 GW of solar capacity in agriculture by 2026 through three components: A, B and C. For a full walkthrough of subsidy amounts and state-wise application steps, see the [KUSUM Yojana Agricultural Solar Subsidy Complete Guide 2026](/blog/kusum-yojana-agricultural-solar-subsidy/).
 
 The scheme addresses three distinct agricultural energy challenges: barren farm land that can host solar plants (Component A), farmers without grid access who rely on diesel pumps (Component B), and grid-connected pumps that subsidise DISCOMs (Component C). Each component has its own subsidy structure, eligible technology and implementation pathway.
 
@@ -101,7 +101,7 @@ DISCOM relief. Agricultural subsidy is one of the largest [DISCOM](/glossary/dis
 
 Carbon abatement. Estimated 30 to 50 million tonnes CO2 saved annually at target capacity.
 
-Rural electrification. Component B brings electricity where the grid does not reach, often paired with an [off grid inverter](/glossary/off-grid-inverter/) for standalone pump loads.
+Rural electrification. Component B brings electricity where the grid does not reach, often paired with an [off grid inverter](/glossary/off-grid-inverter/) for standalone pump loads. Sizing the pump controller correctly matters as much as the subsidy; see [Solar Inverter for Water Pump, KUSUM-Compatible Picks](/blog/solar-inverter-for-water-pump/) for HP-to-kW conversion and inrush current guidance.
 
 Land utilisation. Component A monetises barren land.
 

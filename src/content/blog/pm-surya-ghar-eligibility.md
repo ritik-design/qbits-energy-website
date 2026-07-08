@@ -1,6 +1,7 @@
 ---
 title: "PM Surya Ghar Eligibility: Who Qualifies in 2026?"
 excerpt: "PM Surya Ghar eligibility requires Indian citizenship, a residential connection, property ownership, and an ALMM inverter. Find out who qualifies."
+description: "PM Surya Ghar eligibility requires Indian citizenship, a residential DISCOM connection, property ownership, and an ALMM-listed inverter. Who qualifies?"
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -91,7 +92,7 @@ Before visiting a vendor or logging into the PM Surya Ghar portal, run through t
 
 5. **Prior Subsidy Gate**: Have you or any previous owner of this connection received a rooftop solar subsidy from the central government in the last seven years? If no, clear this gate and proceed. If yes, check with your DISCOM whether an upgrade application is possible, or wait until the seven-year window has elapsed.
 
-Clearing all five gates takes about ten minutes and saves weeks of misdirected effort. The five-gate pass means you can confidently approach an empanelled vendor and begin the formal application process on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), or use a [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) to shortlist vetted teams near you before you commit to a quote.
+Clearing all five gates takes about ten minutes and saves weeks of misdirected effort. The five-gate pass means you can confidently approach an empanelled vendor and begin the formal application process on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), or use a local solar installer directory to shortlist vetted teams near you before you commit to a quote.
 
 ## Eligibility Status by Consumer Type
 
@@ -240,7 +241,7 @@ Applicants who fail the DISCOM inspection or see their [subsidy rejected](/blog/
 
 - **Ignoring the seven-year prior subsidy check**: This affects inherited or purchased properties where the previous owner may have received a subsidy. A title search or direct query to the DISCOM can clarify whether the connection has a prior subsidy flag.
 
-For a full step-by-step walkthrough of the actual application process, including the portal navigation and document upload sequence, see the guides on [how to find reliable inverter dealers in India](/blog/inverter-suppliers-india/) to identify empanelled vendors in your area. Homeowners who want a single turnkey partner for site assessment through commissioning can also compare [residential solar installation](https://heavengreenenergy.com/residential-solar/) packages from EPC providers in the wider Qbits network.
+For a full step-by-step walkthrough of the actual application process, including the portal navigation and document upload sequence, see the guides on [how to find reliable inverter dealers in India](/blog/inverter-suppliers-india/) to identify empanelled vendors in your area. Homeowners who want a single turnkey partner for site assessment through commissioning can also compare residential solar installation packages from EPC providers in the wider Qbits network.
 
 ## Where Qbits Fits
 

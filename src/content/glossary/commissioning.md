@@ -156,9 +156,9 @@ Acceptable threshold typically 78 to 82 percent for utility plants at commission
 
 PM Surya Ghar residential subsidy activation, the same DISCOM sequence covered in our [guide to applying for net metering in India](/blog/how-to-apply-net-metering-india/).
 
-C&I rooftop commissioning for billing reconciliation on [commercial solar installations](https://heavengreenenergy.com/commercial-solar/).
+C&I rooftop commissioning for billing reconciliation on commercial solar installations.
 
-Utility-scale PPA COD declaration, the kind of milestone tracked in [MW-scale EPC project management](https://heavendesigns.in/mw-scale-project-management-consultancy/).
+Utility-scale PPA COD declaration, the kind of milestone tracked in MW-scale EPC project management.
 
 Off-grid commissioning for warranty handover.
 

@@ -1,7 +1,7 @@
 ---
-title: "Case Study, 40kW Solar at a Rajkot Cold Storage Facility"
+title: "40kW Solar at a Rajkot Cold Storage Facility"
 excerpt: "A 40kW 3-phase solar system at a Rajkot cold storage cut electricity bills by ~₹85,000/month with 66,000 kWh/year generation. Illustrative case study with real system specs and ROI framework."
-description: "Case study: 40kW 3-phase on-grid solar at a Rajkot cold storage facility. System design, compressor load management, generation data, ROI, and payback analysis. Data illustrative pending client confirmation."
+description: "Case study: 40kW 3-phase on-grid solar at a Rajkot cold storage facility, system design, compressor load management, generation data, and payback ROI."
 category: Case Study
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -33,7 +33,7 @@ faqs:
     a: "A 40 kW commercial solar installation in Gujarat requires: (1) Net metering application to the relevant DISCOM (PGVCL, MGVCL, UGVCL, or DGVCL depending on location) - includes technical inspection and bidirectional meter installation; (2) structural clearance from a licensed structural engineer for roof mounting; (3) electrical safety certificate from a licensed electrical contractor; (4) single-line diagram submission to the DISCOM; and (5) for systems above 10 kW, a protection relay study may be required. The empanelled vendor programme under PM Surya Ghar does not apply to systems above 10 kW; commercial systems follow standard DISCOM commercial net metering procedures."
 ---
 
-Cold storage facilities are among the highest electricity consumers in India's agricultural supply chain. A typical medium-sized cold storage operation running compressors around the clock draws 15,000–25,000 kWh per month, generating electricity bills of ₹1.5–₹2.5 lakh every 30 days at Gujarat commercial tariffs. With margins under pressure from rising fuel costs and competitive market pricing, cold storage operators across Rajkot, Ahmedabad, Surat, and Rajkot have increasingly looked to [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) to reduce their largest operating expense.
+Cold storage facilities are among the highest electricity consumers in India's agricultural supply chain. A typical medium-sized cold storage operation running compressors around the clock draws 15,000–25,000 kWh per month, generating electricity bills of ₹1.5–₹2.5 lakh every 30 days at Gujarat commercial tariffs. With margins under pressure from rising fuel costs and competitive market pricing, cold storage operators across Rajkot, Ahmedabad, Surat, and Rajkot have increasingly looked to industrial solar installation to reduce their largest operating expense.
 
 > **TL;DR**
 > - A 40 kW 3-phase on-grid solar system at a 200 MT Rajkot cold storage facility generates approximately 66,000 kWh/year (illustrative figures).
@@ -83,7 +83,7 @@ Sizing a solar system for a cold storage load requires balancing several competi
 
 **Load profile analysis:** Cold storage compressors are not constant loads, they cycle on and off based on thermostat control. Load logging over 30 days prior to solar design showed an average daytime demand of approximately 35–45 kW, with peaks to 55 kW when all compressors run simultaneously. A 40 kW solar system matches the average daytime demand, providing near-total solar offset during generation hours without significant export.
 
-**Roof area constraint:** The facility's flat concrete roof above the storage area offered approximately 250 m² of usable roof space, confirmed through a [roof area and land feasibility survey](https://heavendesigns.in/site-survey-land-feasibility-services/), sufficient for 130 panels of 310 Wp each (130 × 0.31 kWp = 40.3 kWp). This confirmed 40 kW as the maximum system size within roof constraints.
+**Roof area constraint:** The facility's flat concrete roof above the storage area offered approximately 250 m² of usable roof space, confirmed through a roof area and land feasibility survey, sufficient for 130 panels of 310 Wp each (130 × 0.31 kWp = 40.3 kWp). This confirmed 40 kW as the maximum system size within roof constraints.
 
 **3-phase requirement:** All four compressors are 3-phase motors operating at 415V. A single-phase solar inverter cannot be used for a 3-phase commercial load, it would create phase imbalance and could damage motor windings. The system design uses Qbits Q40T (40 kW 3-phase string inverter), which outputs balanced 3-phase 415V AC and connects to the facility's main distribution panel.
 

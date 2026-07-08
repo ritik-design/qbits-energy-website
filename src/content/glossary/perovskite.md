@@ -146,7 +146,7 @@ Commercial products lag lab by 3-5 percentage points.
 
 ## Real-world applications
 
-Premium tandem solar modules (entering market 2026+).
+Premium tandem solar modules (entering market 2026+), following the same wattage and efficiency escalation already visible in the 700W+ TOPCon panels shown at Indian trade shows (see [REI Expo 2026 Recap, Top Trends from India's Biggest Solar Exhibition](/blog/rei-expo-recap/)).
 
 BIPV with semi-transparent perovskite.
 
@@ -186,7 +186,7 @@ Pre-commercial in India.
 
 R&D at IIT Bombay, IIT Madras, CSIR-CEERI, NPL.
 
-PLI Tranche II and III may include perovskite.
+PLI Tranche II and III may include perovskite, building on the roughly 40-50 GW/year module manufacturing base India has already built under the PLI scheme (see [India Solar Statistics 2026, Complete Data Reference](/blog/india-solar-statistics-2026-data/)).
 
 Initial commercial adoption likely 2026-2028.
 

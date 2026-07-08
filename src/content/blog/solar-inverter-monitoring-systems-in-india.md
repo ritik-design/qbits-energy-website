@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Monitoring Systems in India (2026)"
 excerpt: "From basic LCD displays to AI-powered WhatsApp alerts, modern inverter monitoring is the difference between 90% and 99% system uptime. Here's the complete guide for Indian installations."
-description: "Complete guide to solar inverter monitoring in India, Wi-Fi vs 4G vs Bluetooth connectivity, AI-powered alerts, WhatsApp integration, performance metrics, multi-site management, and ROI of professional monitoring."
+description: "Guide to solar inverter monitoring in India: Wi-Fi vs 4G vs Bluetooth connectivity, AI-powered alerts, WhatsApp integration, and monitoring ROI."
 category: "Technology"
 date: 2026-03-17
 updatedDate: 2026-07-08
@@ -315,7 +315,7 @@ Selecting the right technology partner is crucial. Look for:
 - India-based server storage
 - Comprehensive monitoring platform with strong support
 
-Qbits inverters include all of these as standard, with **12-year full replacement warranty** and **IP66 protection** for the underlying hardware. EPC teams evaluating monitoring platforms alongside their broader tech stack can compare notes with [solar installer software](https://surgepv.com/for-solar-installers/) built for the same portfolio-management workflow, and homeowners comparing a full system quote can check current pricing on a [solar cost calculator](https://heavengreenenergy.com/solar-calculator/) alongside the monitoring specification.
+Qbits inverters include all of these as standard, with **12-year full replacement warranty** and **IP66 protection** for the underlying hardware. EPC teams evaluating monitoring platforms alongside their broader tech stack can compare notes with [solar installer software](https://surgepv.com/for-solar-installers/) built for the same portfolio-management workflow, and homeowners comparing a full system quote can check current pricing on a solar cost calculator alongside the monitoring specification.
 
 ## Closing
 

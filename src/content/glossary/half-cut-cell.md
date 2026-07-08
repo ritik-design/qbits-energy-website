@@ -157,7 +157,7 @@ Utility-scale solar parks.
 
 C&I solar.
 
-Solar carports and [ground-mount structures](https://heavengreenenergy.com/products/mounting-structures/).
+Solar carports and ground-mount structures.
 
 Floating solar.
 

@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter for Factory and Industrial Loads, VFDs, Compressors, Welding"
+title: "Solar Inverter for Factory and Industrial Loads"
 excerpt: "A solar inverter for factory use must handle VFDs, compressors, and welding machines without tripping. This guide covers THD limits, 3-phase sizing, DG displacement, and RPO compliance for Indian C&I buyers."
-description: "Complete guide to solar inverters for factories and industrial plants in India, THD requirements, 3-phase vs single-phase, string vs central inverters, DG displacement math, net metering thresholds, RPO compliance."
+description: "Guide to solar inverters for factories in India: THD requirements, 3-phase sizing, string vs central inverters, DG displacement math, and RPO compliance."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -37,7 +37,7 @@ faqs:
     a: "An industrial solar inverter for grid-connected factory use must include anti-islanding protection compliant with IEC 62116, over and under voltage and frequency protection as per CEA grid connectivity norms, DC injection limit below 0.5% of rated output current, fault ride-through (FRT) capability for momentary grid dips, and earth fault detection. For factories with DG sets, the inverter must have DG synchronisation logic or a transfer switch to prevent back-feeding onto the DG when the grid is off - a common but dangerous oversight in EPC designs."
 ---
 
-Running a factory on an unpredictable grid (with VFDs tripping, compressors hunting, and DG fuel bills climbing) is the exact problem an [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) is designed to solve. The challenge is not simply adding panels to a rooftop. It is selecting an inverter that handles non-linear industrial loads, stays in spec through 45 °C ambient temperatures, and meets India's evolving grid protection standards, all while delivering the [IRR](/glossary/irr/) your finance team approved at sanction.
+Running a factory on an unpredictable grid (with VFDs tripping, compressors hunting, and DG fuel bills climbing) is the exact problem an industrial solar installation is designed to solve. The challenge is not simply adding panels to a rooftop. It is selecting an inverter that handles non-linear industrial loads, stays in spec through 45 °C ambient temperatures, and meets India's evolving grid protection standards, all while delivering the [IRR](/glossary/irr/) your finance team approved at sanction.
 
 > **Direct answer.** A solar inverter for factory use must be 3-phase, produce current with [total harmonic distortion](/glossary/thd/) below 5% (CEA standard) or below 3% for sensitive CNC and VFD loads, carry ALMM certification for projects above 500 kWp, and be sized to the factory's average daytime demand, not its peak connected load. Apply the 5-Factor Industrial Inverter Qualification Test before specifying any inverter for a plant exceeding 50 kW.
 
@@ -131,7 +131,7 @@ A [central inverter](/glossary/central-inverter/) aggregates all DC from the arr
 
 **Limitations:**
 - Single point of failure, a fault takes the entire system offline until a service team arrives
-- Requires dedicated space (AC room), [civil and structural engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) work, and a controlled environment
+- Requires dedicated space (AC room), civil and structural engineering work, and a controlled environment
 - Repair lead times of 5–15 days for major board failures
 - Less suitable for phased expansion
 

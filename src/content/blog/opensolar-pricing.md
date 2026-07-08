@@ -1,5 +1,5 @@
 ---
-title: "OpenSolar Pricing in 2026: True Cost of Free + Alternative"
+title: "OpenSolar Pricing 2026: True Cost of Free"
 excerpt: "OpenSolar starts free, but hardware integrations, proposal extensions, and other add-ons stack quickly at C&I. Here is the real OpenSolar pricing math and the flat-priced SurgePV alternative."
 description: "OpenSolar pricing in 2026: free tier limits, paid extensions, hardware fees, and realised total cost vs SurgePV flat per-seat. Compare plans now."
 category: "Solar Software"
@@ -92,7 +92,7 @@ At every team size past pure solo small-residential, SurgePV's flat plan matches
 - **[Clara AI](https://surgepv.com/clara-ai)** natural-language design assistant, part of the broader shift covered in [AI solar design software](/blog/ai-solar-design-software/)
 - **Full 8,760-hour module-level shading** on every paid plan
 - **Bankable P50, P75, P90** yield reports
-- **Hardware-neutral** 70,000-module, 12,000-inverter database
+- **Hardware-neutral** 70,000-module, 12,000-inverter database spanning [on-grid](/on-grid-inverter/) and [hybrid](/hybrid-inverter/) lines, including Qbits
 - **[Solar financial modeling](https://surgepv.com/generation-financial-tool)** with country tariffs
 - **[DXF/DWG export](https://surgepv.com/solar-autocad-integration)** for AutoCAD handoff
 - **[Branded proposals](https://surgepv.com/solar-proposals)** with e-signature in 9 languages, no add-on tier

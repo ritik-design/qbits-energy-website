@@ -1,7 +1,7 @@
 ---
-title: "Solar Battery Backup Time Calculator, Real Math for Indian Homes"
+title: "Solar Battery Backup Time Calculator: Indian Homes"
 excerpt: "Solar battery backup time = (battery kWh × DoD) ÷ load kW. This calculator-style guide walks Indian homeowners through the exact formula with worked examples for 5, 10, and 15 kWh banks."
-description: "Calculate real solar battery backup time for your Indian home. Covers DoD, LFP vs lead-acid, inverter efficiency losses, and a full backup-hours table by load and battery size."
+description: "Calculate real solar battery backup time for your Indian home. Covers DoD, LFP vs lead-acid, inverter efficiency losses, and a backup-hours table."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -393,7 +393,7 @@ A large battery bank paired with inadequate solar capacity will never fully rech
 **Mistake 5: Buying the cheapest inverter with a premium battery**
 The battery's [BMS](/glossary/bms/) communicates cell-level health data to the inverter. A budget inverter without proper BMS protocol support will ignore this data and apply generic charge curves, potentially overcharging lithium cells or under-utilizing capacity. The inverter-battery pair must be validated together, not purchased from separate bottom-of-market vendors.
 
-For guidance on identifying reliable inverter vendors in your region, the [best hybrid solar inverter guide for India](/blog/best-hybrid-solar-inverter-india-2026/) provides a ranked comparison with battery compatibility data for the top models, and Heaven Green Energy's [find a local solar installer](https://heavengreenenergy.com/solar-near-me/) directory helps homeowners verify installer credentials before committing to a battery quote.
+For guidance on identifying reliable inverter vendors in your region, the [best hybrid solar inverter guide for India](/blog/best-hybrid-solar-inverter-india-2026/) provides a ranked comparison with battery compatibility data for the top models, and Heaven Green Energy's find a local solar installer directory helps homeowners verify installer credentials before committing to a battery quote.
 
 > *Source - [CEA Annual Report on Power Sector](https://cea.nic.in/annual-growth-report/), Central Electricity Authority of India, 2025.* Average transmission and distribution losses in Indian states ranged from 14% to 31% in FY 2023–24, with rural feeders in UP and Bihar experiencing the highest reported values, a direct indicator of grid instability and power-cut frequency in these regions.
 

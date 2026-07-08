@@ -72,7 +72,7 @@ State of Health (SOH) is the percentage of original capacity remaining in a batt
 
 SOH is distinct from SOC (State of Charge). SOC changes constantly during normal operation, while SOH changes slowly over years. SOH represents the underlying capacity available for use; SOC represents how much of that capacity is currently charged.
 
-For solar storage, SOH tracking is critical for warranty enforcement, replacement planning and lifecycle cost calculation. Modern BMS estimate SOH from coulomb counting, internal resistance measurements and voltage characteristics. Customer-facing apps typically display SOH alongside SOC.
+For solar storage, SOH tracking is critical for warranty enforcement, replacement planning and lifecycle cost calculation. Modern BMS estimate SOH from coulomb counting, internal resistance measurements and voltage characteristics. Customer-facing apps typically display SOH alongside SOC. See [how long do solar batteries last in India](/blog/how-long-solar-batteries-last-india/) for how Indian heat above 45°C accelerates the SOH decline that ends a battery's useful life.
 
 ## Why SOH matters
 
@@ -95,6 +95,8 @@ Diagnostics. Slower SOH decline indicates good operation.
 | Lead acid (tubular) | 0% (replaced by 5-7 years) | 5-7 years |
 | Sodium-ion | 80-90% | Comparable to LFP |
 | Vanadium flow | 95+% | 20+ years |
+
+LFP's slower SOH decline is one of the main reasons it has displaced NMC in most new Indian residential storage; see [LiFePO4 vs NMC solar battery in India](/blog/lifepo4-vs-nmc-solar-battery-india/) for the full chemistry comparison.
 
 ## Technical deep dive
 

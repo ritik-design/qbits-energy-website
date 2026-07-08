@@ -1,6 +1,7 @@
 ---
-title: "How to Choose a Solar Inverter for Home in India (2026 Guide)"
+title: "How to Choose a Solar Inverter for Home in India"
 excerpt: "Learn how to choose a solar inverter for your home in India using a 7-point scorecard covering warranty, MPPT, ALMM compliance, IP rating, and monitoring."
+description: "Choose the right solar inverter for your home in India using a 7-point scorecard covering warranty, MPPT, ALMM compliance, IP rating, and monitoring."
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "19 min"
@@ -85,7 +86,7 @@ The table below maps the three types across the dimensions that matter most for 
 
 **Hybrid inverters** make sense when your area experiences 2 or more hours of load-shedding per day, when you want energy independence from rising tariffs, or when you are planning to add battery storage in the next 3 to 5 years. A [hybrid inverter](/hybrid-inverter/) purchased today eliminates the need to rewire the system when you add batteries later. The 25 to 40% premium over on-grid alternatives is recovered through avoided generator fuel costs and the growing battery price curve.
 
-If you would rather have a turnkey team handle panels, mounting, and commissioning alongside the inverter choice, a full [residential solar installation](https://heavengreenenergy.com/residential-solar/) provider can bundle the entire scope into one contract.
+If you would rather have a turnkey team handle panels, mounting, and commissioning alongside the inverter choice, a full residential solar installation provider can bundle the entire scope into one contract.
 
 **Off-grid inverters** are a niche product. If your property has grid access, an off-grid system is almost never the right choice because it forfeits net metering credits, PM Surya Ghar subsidies, and the ability to draw from the grid during low-generation periods (cloudy days, winter months). Off-grid is appropriate for farms, remote bungalows, and properties where grid extension is prohibitively expensive.
 
@@ -250,7 +251,7 @@ This section consolidates the guidance above into a step-by-step sequence for th
 
 **Week 2, Shortlist installers and inverter options:**
 
-- **Request three quotes** from DISCOM-empanelled installers only. Non-empanelled installers cannot process PM Surya Ghar subsidy paperwork. If you don't already have a shortlist, a [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) can help you find DISCOM-empanelled options in your city quickly.
+- **Request three quotes** from DISCOM-empanelled installers only. Non-empanelled installers cannot process PM Surya Ghar subsidy paperwork. If you don't already have a shortlist, a local solar installer directory can help you find DISCOM-empanelled options in your city quickly.
 - **Apply the 7-Point Scorecard** to each inverter proposed. Ask for the ALMM listing number and BIS certificate number from each vendor.
 - **Check the ALMM list** at [mnre.gov.in](https://mnre.gov.in/), enter the inverter model name and confirm it appears in the Phase III list.
 - **Request warranty documentation**: the physical warranty card or the manufacturer's written warranty terms, not a verbal assurance.
@@ -258,7 +259,7 @@ This section consolidates the guidance above into a step-by-step sequence for th
 **Week 3, Verify, calculate, and decide:**
 
 - **Run the TCO comparison**: add inverter cost + estimated one replacement at year 8 (if warranty is under 12 years) + monitoring subscription fees over 12 years. Compare across your three shortlisted options.
-- **Calculate subsidy-adjusted payback**: use the PM Surya Ghar subsidy calculator on the portal, or a general-purpose [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) for a quick estimate, then confirm with the arithmetic: (net system cost after subsidy) ÷ (annual kWh × tariff rate) = payback in years.
+- **Calculate subsidy-adjusted payback**: use the PM Surya Ghar subsidy calculator on the portal, or a general-purpose solar savings calculator for a quick estimate, then confirm with the arithmetic: (net system cost after subsidy) ÷ (annual kWh × tariff rate) = payback in years.
 - **Read the [solar inverter specifications decoded](/blog/solar-inverter-specifications-decoded/)** post before signing, it explains every line on the datasheet in plain language so you can verify the specs match what was quoted verbally.
 - **Confirm installation date and DISCOM application timeline**: net metering approval in many states takes 30 to 90 days. Plan accordingly.
 

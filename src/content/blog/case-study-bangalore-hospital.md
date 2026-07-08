@@ -1,7 +1,7 @@
 ---
-title: "Case Study, 50 kW Solar at a Bangalore Multi-Specialty Hospital"
+title: "50 kW Solar at a Bangalore Multi-Specialty Hospital"
 excerpt: "Bangalore hospital solar: a 50 kW on-grid system serving non-critical loads saved ₹6.5 Lakh/year with a 5-year payback, zero THD interference, and BESCOM net metering."
-description: "How a 100-bed Bangalore hospital cut its BESCOM bill by ₹6–7 Lakh annually with a 50 kW on-grid solar system, covering load audit, THD compliance, BESCOM net metering, and 5-year payback math."
+description: "How a 100-bed Bangalore hospital cut its BESCOM bill by ₹6–7 Lakh a year with a 50 kW on-grid solar system: load audit, THD compliance, and net metering."
 category: "Case Study"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -33,7 +33,7 @@ faqs:
     a: "Yes. Under Section 32 of the Income Tax Act, solar energy equipment - including inverters, panels, and mounting structures - qualifies for 40% accelerated depreciation in the year of commissioning when the installation is used for business purposes. A private hospital registered as a company or LLP can claim this benefit against taxable income from its healthcare operations. In a 50 kW installation costing ₹31 Lakh, a hospital in the 30% tax bracket saves approximately ₹3.7 Lakh in tax in year one, reducing the effective capital outlay to ₹27.3 Lakh and shortening the payback period by nearly one year."
 ---
 
-Running a 100-bed hospital in Bangalore is an exercise in relentless cost management. BESCOM bills for commercial healthcare connections average ₹8.5–9 per unit (among the steepest commercial tariffs in Karnataka) and a facility of this size runs 24 hours a day across HVAC, medical imaging, operating theatres, ICUs, lighting, and kitchen loads. Monthly electricity expenditure of ₹5–6 Lakh is routine before any expansion. Against this backdrop, a multi-specialty hospital in Bangalore undertook a [structured solar feasibility study](https://heavendesigns.in/site-survey-land-feasibility-services/) in late 2025, engaging a Qbits-certified EPC to assess whether rooftop solar was viable, safe, and bankable for a healthcare environment.
+Running a 100-bed hospital in Bangalore is an exercise in relentless cost management. BESCOM bills for commercial healthcare connections average ₹8.5–9 per unit (among the steepest commercial tariffs in Karnataka) and a facility of this size runs 24 hours a day across HVAC, medical imaging, operating theatres, ICUs, lighting, and kitchen loads. Monthly electricity expenditure of ₹5–6 Lakh is routine before any expansion. Against this backdrop, a multi-specialty hospital in Bangalore undertook a structured solar feasibility study in late 2025, engaging a Qbits-certified EPC to assess whether rooftop solar was viable, safe, and bankable for a healthcare environment.
 
 > **Direct answer.** A 50 kW on-grid solar system serving the non-critical load bank of a 100-bed Bangalore hospital can generate approximately 75,000 kWh annually, saving ₹6–7 Lakh per year at current BESCOM tariffs. With total project cost around ₹31 Lakh, simple payback is 4.8–5.2 years. The critical design rule: operating theatre, ICU, and medical imaging circuits stay entirely on a separate UPS and diesel generator circuit, solar touches only the non-critical general supply bus, ensuring clinical operations face zero disruption.
 
@@ -95,7 +95,7 @@ Before equipment selection, the EPC applied a structured decision process specif
 
 5. **Monitoring and escalation path**: Establish a documented alert hierarchy: who receives fault notifications, what the response time commitment is, and which inverter fault codes trigger an emergency shutdown of the solar feed. The hospital's maintenance engineer must have direct access to inverter status data, not filtered through a third-party portal.
 
-This framework is applicable to any healthcare facility from 20 kW to 2 MW, and it mirrors the segregation discipline used across Qbits-certified [commercial solar installations](https://heavengreenenergy.com/commercial-solar/) more broadly. The principles scale; only the equipment ratings change.
+This framework is applicable to any healthcare facility from 20 kW to 2 MW, and it mirrors the segregation discipline used across Qbits-certified commercial solar installations more broadly. The principles scale; only the equipment ratings change.
 
 ## System Design: 1 × 50 kW, 125 Panels, 3-Phase On-Grid
 
@@ -156,7 +156,7 @@ The EPC submitted a pre-application to the BESCOM subdivision office confirming 
 
 A complete application package was submitted including:
 - Completed Form-A (BESCOM net metering application)
-- [Single-line diagram and CEIG-ready electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) signed by a licensed electrical contractor
+- Single-line diagram and CEIG-ready electrical drawings signed by a licensed electrical contractor
 - Inverter compliance certificate (BIS IS 16221)
 - Structural safety certificate for the mounting structure
 - Site photographs

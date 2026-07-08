@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Firmware Update India, When, How and Why"
+title: "Solar Inverter Firmware Update, When, How and Why"
 excerpt: "Solar inverter firmware updates fix bugs, add CEA Grid Code 2020 compliance, and improve MPPT performance. Here is when, how, and what can go wrong in India."
-description: "Step-by-step guide to updating solar inverter firmware in India, OTA via WiFi, manual USB updates, recovery from partial failure, and the Firmware Update Safety Protocol."
+description: "Step-by-step guide to updating solar inverter firmware in India: OTA via WiFi, manual USB updates, and recovery from partial update failure."
 category: Technology
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -55,7 +55,7 @@ Beyond compliance, three practical benefits drive firmware updates for installed
 
 ### Grid Code Compliance Updates
 
-CEA Grid Code 2020 specifies voltage protection bands (180–270 V), frequency bands (47.5–51.5 Hz), and rate-of-change-of-frequency thresholds (±0.5 Hz/s) that inverters must trip within. When these thresholds are revised, inverters must update their firmware to implement the new values. A DISCOM inspection after a threshold change can flag an inverter running old parameters as non-compliant, the same kind of compliance check covered in a site's [electrical drawings and CEIG documentation](https://heavendesigns.in/electrical-ceig-drawings/).
+CEA Grid Code 2020 specifies voltage protection bands (180–270 V), frequency bands (47.5–51.5 Hz), and rate-of-change-of-frequency thresholds (±0.5 Hz/s) that inverters must trip within. When these thresholds are revised, inverters must update their firmware to implement the new values. A DISCOM inspection after a threshold change can flag an inverter running old parameters as non-compliant, the same kind of compliance check covered in a site's electrical drawings and CEIG documentation.
 
 ### MPPT Algorithm Improvements
 
@@ -186,7 +186,7 @@ Every Qbits inverter displays its current firmware version in the information me
 
 When reporting a firmware issue to Qbits support, always provide the complete version string including the build variant letter. A support team member can immediately identify whether your version is current, whether a relevant update exists, and what changes are included.
 
-EPC installers managing multiple sites, whether running a small rooftop business or a full [turnkey EPC operation](https://heavengreenenergy.com/solar-epc/), should log the firmware version for every inverter in the site register. [Mercom India's 2025 operations and maintenance report](https://www.mercomindia.com/){target="_blank" rel="noopener"} found that 34% of avoidable yield losses in managed rooftop portfolios were attributable to inverters running outdated firmware, specifically outdated MPPT algorithm versions that had been improved in subsequent releases.
+EPC installers managing multiple sites, whether running a small rooftop business or a full turnkey EPC operation, should log the firmware version for every inverter in the site register. [Mercom India's 2025 operations and maintenance report](https://www.mercomindia.com/){target="_blank" rel="noopener"} found that 34% of avoidable yield losses in managed rooftop portfolios were attributable to inverters running outdated firmware, specifically outdated MPPT algorithm versions that had been improved in subsequent releases.
 
 The [IEA's guidance on distributed solar operations](https://www.iea.org/reports/solar-pv-global-supply-chains){target="_blank" rel="noopener"} similarly recommends annual firmware audits as a minimum maintenance task for grid-connected solar fleets.
 

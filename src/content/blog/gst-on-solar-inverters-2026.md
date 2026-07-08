@@ -1,7 +1,7 @@
 ---
-title: "GST on Solar Inverters and Panels 2026, The Full Picture"
+title: "GST on Solar Inverters and Panels 2026"
 excerpt: "GST on solar inverter is 12% since 2024; panels are also 12%. This guide breaks down every component rate, ITC eligibility, and the true cost impact for homeowners and businesses."
-description: "GST on solar inverters is 12% in 2026. Full breakdown of rates by component, HSN codes, ITC eligibility, PM Surya Ghar impact, and the accelerated depreciation vs ITC decision for C&I buyers."
+description: "GST on solar inverters is 12% in 2026. Full breakdown of rates by component, HSN codes, ITC eligibility, and PM Surya Ghar impact for Indian buyers."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08

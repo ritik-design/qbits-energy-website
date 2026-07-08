@@ -161,7 +161,7 @@ About 0.07 to 0.09 percentage points better than PERC.
 
 Premium residential rooftop solar.
 
-C&I rooftops with limited space.
+C&I rooftops with limited space, the same space-constrained logic that drove the bifacial module choice in [Case Study, 200 kW Solar at a Chennai IT Park](/blog/case-study-chennai-it-park/).
 
 Solar carports and shading structures.
 
@@ -249,7 +249,7 @@ HJT manufacturing in India is at early commercial stage as of 2026, with PLI Tra
 
 International HJT brands present in India: Risen, Huasun, Meyer Burger (limited).
 
-ALMM List I has limited but growing HJT entries.
+ALMM List I has limited but growing HJT entries; see the [ALMM List Phase III Complete Guide](/blog/almm-list-phase-iii-guide/) for how bifacial module listings fit the current MNRE framework.
 
 PM Surya Ghar accepts ALMM-listed HJT modules.
 

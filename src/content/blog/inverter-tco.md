@@ -1,7 +1,7 @@
 ---
-title: "Inverter TCO India: Complete 2026 Guide to Pricing, Replacement Costs & Total Ownership"
+title: "Inverter TCO India: Pricing & Replacement Costs"
 excerpt: "Purchase price is just 25-40% of an inverter's true 25-year cost. Here is the complete TCO framework for Indian buyers - covering pricing tiers, efficiency losses, warranty gaps, replacement economics, and the 5-10x return premium inverters deliver over budget alternatives."
-description: "Complete inverter total cost of ownership analysis for India: upfront pricing tiers, EPC markup strategies, operational expenses, efficiency losses, warranty gap costs, replacement cost framework, repair vs replace decision, and worked TCO comparisons showing how premium inverters save lakhs over budget alternatives across residential and commercial systems."
+description: "Inverter total cost of ownership in India: pricing tiers, efficiency losses, warranty gap costs, and TCO comparisons showing premium inverters save lakhs."
 category: "Buying Guide"
 date: 2026-05-08
 updatedDate: 2026-07-08

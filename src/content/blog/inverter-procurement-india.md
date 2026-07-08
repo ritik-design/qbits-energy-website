@@ -1,7 +1,7 @@
 ---
-title: "Inverter Procurement India: Complete EPC Sourcing Guide 2026"
+title: "Inverter Procurement India: EPC Sourcing Guide"
 excerpt: "Inverter procurement drives 15-20% of EPC project cost, all of the warranty risk, and most of the post-commissioning support load. Here is the systematic framework Indian EPCs use to source inverters reliably at scale in 2026 - from spec to RFQ to factory audit to contract."
-description: "Complete 2026 EPC sourcing guide for solar inverters in India: domestic vs imported supply, technical specification, BIS/ALMM/IEC certifications, lead times, payment terms, RFQ structure, factory audit checklist, quality acceptance criteria, the 7 procurement mistakes to avoid, and a procurement scorecard for repeatable supplier evaluation."
+description: "EPC guide to inverter procurement in India: domestic vs imported supply, BIS/ALMM/IEC certification, lead times, RFQs, and 7 mistakes to avoid."
 category: "Guide"
 date: 2026-05-11
 updatedDate: 2026-07-08
@@ -59,7 +59,7 @@ India's solar market presents procurement conditions found in few other geograph
 - **Complex tax and import structures** - GST, basic customs duty, social welfare surcharge, anti-dumping duty on imported cells, IGCRD scheme exemptions
 - **Evolving regulations** - ALMM Phase III, PM Surya Ghar updates, state-specific net metering policies all moving on six to twelve month cycles
 
-For a mid-sized EPC handling 50-100 projects monthly, ad-hoc procurement creates cascading failures - one delayed shipment cancels a commissioning window, one warranty dispute consumes a project manager's month, one ALMM mistake disqualifies a project from the subsidy that justified the bid. Repeatable procurement processes prevent these failures from compounding, which is why EPCs running large multi-site pipelines increasingly lean on structured [project management consultancy](https://heavendesigns.in/project-management-consultancy/) support to keep procurement, engineering, and commissioning schedules synchronised.
+For a mid-sized EPC handling 50-100 projects monthly, ad-hoc procurement creates cascading failures - one delayed shipment cancels a commissioning window, one warranty dispute consumes a project manager's month, one ALMM mistake disqualifies a project from the subsidy that justified the bid. Repeatable procurement processes prevent these failures from compounding, which is why EPCs running large multi-site pipelines increasingly lean on structured project management consultancy support to keep procurement, engineering, and commissioning schedules synchronised.
 
 ## The Indian Inverter Supply Landscape in 2026
 

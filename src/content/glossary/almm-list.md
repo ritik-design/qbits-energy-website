@@ -109,7 +109,7 @@ Investor confidence. ALMM listing is a signal of regulatory acceptance and ongoi
 6. [DISCOMs](/glossary/discom/) and tender authorities reference the published list.
 7. Periodic surveillance may revoke listing for non-compliance.
 
-For EPCs assembling subsidised rooftop or ground-mount portfolios, sourcing ALMM-listed equipment through a [turnkey solar EPC partner](https://heavengreenenergy.com/solar-epc/) that already tracks listing status simplifies compliance and avoids last-minute substitutions.
+For EPCs assembling subsidised rooftop or ground-mount portfolios, sourcing ALMM-listed equipment through a turnkey solar EPC partner that already tracks listing status simplifies compliance and avoids last-minute substitutions.
 
 ## Technical deep dive
 

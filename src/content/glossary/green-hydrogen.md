@@ -72,7 +72,7 @@ Green hydrogen is hydrogen gas (H2) produced through electrolysis of water using
 
 This contrasts with grey hydrogen (steam methane reforming of natural gas, emitting CO2), blue hydrogen (grey with carbon capture and storage) and brown/black hydrogen (from coal). Green hydrogen is the only truly zero-emission form, making it central to deep decarbonisation strategies for sectors where direct electrification is difficult.
 
-India launched the National Green Hydrogen Mission in January 2023 with a target of 5 million tonnes annual green hydrogen production by 2030, supported by approximately 125 GW of dedicated renewable energy capacity. The mission has an outlay of ₹19,744 crore and aims to position India as a global green hydrogen hub.
+India launched the National Green Hydrogen Mission in January 2023 with a target of 5 million tonnes annual green hydrogen production by 2030, supported by approximately 125 GW of dedicated renewable energy capacity. The mission has an outlay of ₹19,744 crore and aims to position India as a global green hydrogen hub, running alongside the broader [500 GW renewable capacity roadmap](/blog/india-solar-statistics-2026-data/) that solar is expected to anchor.
 
 ## Why green hydrogen matters
 
@@ -80,7 +80,7 @@ Hard-to-abate sectors. Steel, fertiliser, refineries, heavy mobility cannot easi
 
 Carbon abatement at scale. 5 MMT green hydrogen avoids ~50 MMT CO2 annually.
 
-Export potential. India's solar resource makes it cost-competitive globally.
+Export potential. India's solar resource makes it cost-competitive globally, as [falling C&I solar LCOE](/blog/lcoe-solar-india/) directly lowers the cost of electricity feeding the electrolyser.
 
 Energy security. Reduces fossil fuel import dependence.
 
@@ -215,7 +215,7 @@ National Green Hydrogen Mission launched January 2023.
 
 SIGHT Tranche I tendered in 2024 for 412,000 tonnes annual production.
 
-Major Indian and international electrolyser manufacturers establishing capacity.
+Major Indian and international electrolyser manufacturers establishing capacity, a trend visible on the trade floor at events like [REI Expo](/blog/rei-expo-recap/), where green-hydrogen exhibitors now sit alongside solar and storage.
 
 Green ammonia export pilots underway.
 

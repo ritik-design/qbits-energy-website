@@ -1,5 +1,5 @@
 ---
-title: "Agrivoltaic Design Software: The 2026 Installer Guide"
+title: "Agrivoltaic Design Software: 2026 Installer Guide"
 excerpt: "Agrivoltaic design software lets you co-locate PV with crops. SurgePV ships agrivoltaic templates with 8,760-hour shading on every paid plan from $1,299/seat."
 description: "Design agrivoltaic systems 70% faster with SurgePV. Crop-aware shading, tractor clearance, bankable yield. From $1,299/seat. Book a demo."
 category: "Solar Software"
@@ -53,7 +53,7 @@ Choosing the right agrivoltaic design software is the single biggest decision in
 
 ## What Is Agrivoltaics?
 
-Agrivoltaics, sometimes called agri-PV or dual-use solar, is the practice of generating electricity from PV modules on the same land that grows crops or grazes livestock. Instead of fencing off a field and covering it with a conventional [ground-mount solar park](https://heavengreenenergy.com/ground-mount-solar-park/) at low-mounted heights, you raise the array on tall posts, widen the rows, and select panel transparency so a measured fraction of sunlight reaches the soil.
+Agrivoltaics, sometimes called agri-PV or dual-use solar, is the practice of generating electricity from PV modules on the same land that grows crops or grazes livestock. Instead of fencing off a field and covering it with a conventional ground-mount solar park at low-mounted heights, you raise the array on tall posts, widen the rows, and select panel transparency so a measured fraction of sunlight reaches the soil.
 
 The core trade-off is light. A traditional ground-mount system blocks roughly 95% of direct sunlight beneath the rows. An agrivoltaic system aims for 30% to 50% ground-level light transmission, depending on the crop. Lettuce, spinach, berries, and forage grass tolerate or even prefer this shaded micro-climate. Wheat, maize, and most fruiting vegetables need more light and tolerate less.
 
@@ -79,7 +79,7 @@ Start by importing the parcel from satellite. SurgePV's [AI 3D roof modeling](ht
 
 Next, brief [Clara AI](https://surgepv.com/clara-ai), the natural-language design assistant. Tell Clara "elevated agrivoltaic system over 12 hectares, sheep grazing, 4 metre clearance, target 40% ground light", and Clara lays out the array. From there, run the [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) to get the hourly module-level and ground-level light maps for a full year.
 
-Once the layout is locked, generate the [bankable yield report](https://surgepv.com/generation-financial-tool) with [P50, P75, and P90](/glossary/p50-p90/) scenarios. Export the wiring diagram via [DXF/DWG export](https://surgepv.com/solar-autocad-integration) for the [structural and civil engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) team. Finish with a [branded solar proposal](https://surgepv.com/solar-proposals) that the farmer signs digitally in their preferred language.
+Once the layout is locked, generate the [bankable yield report](https://surgepv.com/generation-financial-tool) with [P50, P75, and P90](/glossary/p50-p90/) scenarios. Export the wiring diagram via [DXF/DWG export](https://surgepv.com/solar-autocad-integration) for the structural and civil engineering team. Finish with a [branded solar proposal](https://surgepv.com/solar-proposals) that the farmer signs digitally in their preferred language.
 
 For larger schemes above 5 megawatts, SurgePV scales into [utility-scale solar design software](https://surgepv.com/utility-scale-solar-design) territory with the same agrivoltaic settings carried through. The tool you learn for a 200 kW village system is the same tool you use for a 50 MW agri-PV park.
 
@@ -118,7 +118,7 @@ SurgePV is the only platform on this list that combines an agrivoltaic template,
 
 ## Common Mistakes
 
-1. **Modelling the farm as a normal ground-mount.** Designers run a default ground-mount layout, then add tall posts as an afterthought. The bill of materials misses 30% of the steel. Running [STAAD Pro structural calculations](https://heavendesigns.in/staad-pro-report-calculations/) on the elevated posts before finalising the BOM catches this early.
+1. **Modelling the farm as a normal ground-mount.** Designers run a default ground-mount layout, then add tall posts as an afterthought. The bill of materials misses 30% of the steel. Running STAAD Pro structural calculations on the elevated posts before finalising the BOM catches this early.
 2. **Ignoring tractor turning radius at row ends.** A 4 metre headland is not enough for a modern combine. Fix this on the canvas, not on site.
 3. **Treating ground irradiance as a uniform number.** Crops respond to peak shade, not average shade. Always look at the worst-month hourly map.
 4. **Skipping the bifacial gain.** Agrivoltaic geometry is the single best case for bifacial. Designers who skip it leave 10% yield on the table.
@@ -147,7 +147,7 @@ The dual-use case beats both single-use cases by a margin of 31% over solar-only
 
 If your team also runs CRM and quoting workflows outside the design tool, pair SurgePV with [QuickEstimate](https://quickestimate.co/) for the sales pipeline. The combination covers design, proposal, and [lead management](https://quickestimate.co/features/lead-capture/) without three separate logins.
 
-For most installers, the right pick is the cheapest [solar design software](https://surgepv.com/) that produces a bankable report and an AutoCAD-ready drawing on day one. That is [SurgePV](https://surgepv.com/), and the [AI solar design assistant](https://surgepv.com/clara-ai) inside it cuts design time by 70% versus the [Aurora](/blog/aurora-solar-alternative/) plus HelioScope plus PVsyst stack.
+For most installers, the right pick is the cheapest [solar design software](https://surgepv.com/) that produces a bankable report and an AutoCAD-ready drawing on day one. That is [SurgePV](https://surgepv.com/), and the [AI solar design assistant](https://surgepv.com/clara-ai) inside it cuts design time by 70% versus the [Aurora](/blog/aurora-solar-alternative/) plus HelioScope plus PVsyst stack. Once the array geometry is locked, matching it to a [hybrid inverter](/hybrid-inverter/) sized for the elevated string layout is the next step — [talk to a Qbits engineer](/contact-us/) for that walkthrough.
 
 <div class="inline-cta">
 <h3>Stop Stitching Three Tools Together for One Agrivoltaic Project</h3>

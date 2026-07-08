@@ -166,7 +166,7 @@ CUF = (5.5 × 365 × 0.78) / 24 / 365 = 17.9 percent
 
 ## Real-world applications
 
-PPA tariff bidding under [SECI tenders for utility ground-mount plants](https://heavengreenenergy.com/ground-mount-solar-park/).
+PPA tariff bidding under SECI tenders for utility ground-mount plants.
 
 Bank loan sizing for utility solar projects.
 

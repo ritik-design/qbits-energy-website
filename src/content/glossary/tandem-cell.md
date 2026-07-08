@@ -186,7 +186,7 @@ R&D growing at IITs and CSIR institutes.
 
 Initial deployment likely through imports.
 
-PLI Tranche III may include tandem manufacturing.
+PLI Tranche III may include tandem manufacturing, building on the ₹45,000 crore already committed to domestic module capacity under the current PLI scheme; see [India solar statistics 2026](/blog/india-solar-statistics-2026-data/) for the current manufacturing base tandem production would need to scale into.
 
 ALMM listing requires standards updates.
 

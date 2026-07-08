@@ -1,7 +1,7 @@
 ---
-title: "India Rooftop Solar Capacity by State 2026, Official Data"
+title: "India Rooftop Solar Capacity by State (2026)"
 excerpt: "India rooftop solar capacity by state 2026: Gujarat leads with highest PM Surya Ghar completions, Bihar and WB lag. Complete state-wise table with DISCOM performance data and a 5-metric readiness index."
-description: "Official India rooftop solar capacity data by state 2026. State-wise capacity table, PM Surya Ghar connection rankings, leading and laggard states, DISCOM readiness, and the State Solar Readiness Index."
+description: "Official India rooftop solar capacity data by state for 2026: state-wise table, PM Surya Ghar rankings, leading and laggard states, and DISCOM readiness."
 category: Industry
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -150,7 +150,7 @@ Every state's rooftop solar adoption rate can be explained through five measurab
 
 4. **Solar Irradiance (GHI)**: [GHI](/glossary/ghi/) determines how much energy panels generate. Rajasthan and Gujarat (GHI 5.8–6.5 kWh/m²/day) generate more per kWp than Kerala or West Bengal (GHI 4.0–4.5 kWh/m²/day), shortening payback periods. Source: [NREL NSRDB India data](https://nsrdb.nrel.gov/), 2024.
 
-5. **Installer Density and Training**: states with established installer ecosystems (Gujarat, Karnataka, Tamil Nadu) complete installations faster and at better quality than states where installer training is limited. [PM Surya Ghar empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) counts per state track this metric, and buyers anywhere can start by using a [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) to find vetted installers near them.
+5. **Installer Density and Training**: states with established installer ecosystems (Gujarat, Karnataka, Tamil Nadu) complete installations faster and at better quality than states where installer training is limited. [PM Surya Ghar empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) counts per state track this metric, and buyers anywhere can start by using a local solar installer directory to find vetted installers near them.
 
 | State | DISCOM Speed | State Subsidy | Tariff | GHI | Installer Density | Total Score (25) |
 | --- | --- | --- | --- | --- | --- | --- |

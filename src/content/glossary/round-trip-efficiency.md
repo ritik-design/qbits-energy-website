@@ -170,7 +170,7 @@ EMS dispatch optimisation.
 
 LCOS calculation.
 
-Solar self-consumption modelling, including [solar cost and savings calculators](https://heavengreenenergy.com/solar-calculator/) that account for storage losses.
+Solar self-consumption modelling, including solar cost and savings calculators that account for storage losses.
 
 Bankable storage projections.
 

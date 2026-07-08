@@ -81,12 +81,12 @@ Introduced by CERC in 2010 (CERC REC Regulations 2010), the REC mechanism enable
 
 For Indian solar, RECs are most relevant for:
 - Renewable generators selling electricity at [average pooled cost](/glossary/average-pooled-cost/)
-- Open access consumers procuring solar with separated REC, common among [large industrial buyers](https://heavengreenenergy.com/industrial-solar/)
+- Open access consumers procuring solar with separated REC, common among large industrial buyers
 - Corporates pursuing voluntary green claims under RE100, BRSR or [ESG](/glossary/esg/) frameworks
 
 ## Why RECs matter
 
-RPO compliance. RECs enable DISCOMs and obligated entities to meet renewable purchase obligations even when physical renewables are unavailable.
+RPO compliance. RECs enable DISCOMs and obligated entities to meet renewable purchase obligations even when physical renewables are unavailable. For a captive factory, avoiding an RPO shortfall penalty (often priced at the going REC rate) is a second financial lever alongside the direct bill savings; see [solar inverter for factory and industrial loads](/blog/solar-inverter-for-factory/) for the worked penalty math.
 
 Generator revenue. Provides a second revenue stream beyond electricity sale.
 
@@ -158,7 +158,7 @@ Renewable generator monetisation when selling at low [PPA](/glossary/ppa/) tarif
 
 Open access consumer RPO compliance, often paired with a [C&I solar procurement strategy](/c-i-solution/).
 
-Corporate voluntary renewable claims.
+Corporate voluntary renewable claims, often structured by RESCOs for corporate buyers pursuing RE100 commitments; see [the solar RESCO model in India](/blog/solar-resco-model-india-guide/) for how developers bundle wheeling, banking and REC procurement into a single PPA.
 
 RE100 reporting.
 
@@ -211,7 +211,7 @@ Corporate buyer scepticism about additionality claims.
 
 ## Best practices
 
-Combine RECs with physical renewable generation, such as [on-site commercial solar](https://heavengreenenergy.com/commercial-solar/), rather than relying on certificates alone.
+Combine RECs with physical renewable generation, such as on-site commercial solar, rather than relying on certificates alone.
 
 Verify CERC certificate before trading.
 

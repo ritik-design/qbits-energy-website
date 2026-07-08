@@ -236,7 +236,7 @@ CERC Tariff Regulations 2024 set benchmark O&M cost assumptions for utility sola
 
 State SERC tariff orders reference O&M costs in feed-in tariff setting.
 
-Major O&M operators in Indian solar include Tata Power Solar, Mahindra Susten, Sterling and Wilson, Larsen and Toubro, ReNew O&M and various specialised firms, alongside full-service [solar EPC providers](https://heavengreenenergy.com/solar-epc/) that bundle O&M into turnkey contracts.
+Major O&M operators in Indian solar include Tata Power Solar, Mahindra Susten, Sterling and Wilson, Larsen and Toubro, ReNew O&M and various specialised firms, alongside full-service solar EPC providers that bundle O&M into turnkey contracts.
 
 PM Surya Ghar mandates 5-year comprehensive maintenance bundled with installation.
 

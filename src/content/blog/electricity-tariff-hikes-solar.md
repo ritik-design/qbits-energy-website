@@ -1,7 +1,7 @@
 ---
-title: "Electricity Tariff Hikes in 2026, Why Solar Pays Off Faster Now"
+title: "Electricity Tariff Hikes 2026: Solar Pays Off Faster"
 excerpt: "Electricity tariff hike 2026 data shows 6–9% annual rises across India. A 5 kW solar system that once had a 7-year payback now clears in under 5 years, here is the math."
-description: "Indian electricity tariffs rose 6–9% annually over the past decade. The 2026 hikes in MSEDCL, UPPCL, BESCOM, and RERC states push solar payback periods below 5 years."
+description: "Indian electricity tariffs rose 6-9% annually over the past decade. 2026 hikes in MSEDCL, UPPCL, BESCOM, and RERC states push solar payback below 5 years."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -106,7 +106,7 @@ Understanding when solar is right for your household requires more than a single
 
 4. **Divide net cost by annual savings**: Net cost equals installed system price minus PM Surya Ghar subsidy (if applicable). At ₹60,000 per kW installed cost, a 5 kW system costs ₹3,00,000. Subtract the central subsidy (capped at ₹78,000 for up to 3 kW under PM Surya Ghar, with top-up state subsidies available in some states). Net cost at ₹3,00,000 with no subsidy: payback = ₹3,00,000 ÷ ₹63,072 = 4.76 years at current Maharashtra tariffs.
 
-This framework makes the tariff variable explicit. Most payback calculators use a single static tariff number, the TASR approach runs the same calculation at the current tariff and at a projected tariff 3–5 years ahead, giving a range rather than a single point estimate. For a fast first estimate before working through the full TASR model, a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) can approximate the numbers in minutes.
+This framework makes the tariff variable explicit. Most payback calculators use a single static tariff number, the TASR approach runs the same calculation at the current tariff and at a projected tariff 3–5 years ahead, giving a range rather than a single point estimate. For a fast first estimate before working through the full TASR model, a solar savings calculator can approximate the numbers in minutes.
 
 ## Worked Example: Same System, Two Tariff Realities
 

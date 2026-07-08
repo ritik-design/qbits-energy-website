@@ -1,7 +1,7 @@
 ---
-title: "Best Solar Design Software in 2026: 10 Tools Ranked (SurgePV #1)"
+title: "Best Solar Design Software 2026 (SurgePV #1)"
 excerpt: "We ranked 12 solar design platforms across residential, C&I, and utility. SurgePV ranks #1 from $1,299/user/yr. See the ranking, criteria, and best-fit matrix."
-description: "Independent ranking of the best solar design software in 2026. SurgePV vs Aurora, HelioScope, PVsyst, OpenSolar, Pylon, Scanifly, Solargraf, PVcase, RatedPower, and more. Best-for matrix by segment, pricing comparison, and the 7-criteria evaluation framework."
+description: "Independent ranking of the best solar design software in 2026. SurgePV vs Aurora, HelioScope, PVsyst, OpenSolar, Scanifly, PVcase, and more, with pricing."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -236,7 +236,7 @@ Most SurgePV teams keep their existing CRM or upgrade to [QuickEstimate](https:/
 - **Choose Scanifly** if drone capture is your differentiator.
 - **Choose PVcase or RatedPower** for utility-scale only.
 
-For everyone else, the verdict is unchanged. SurgePV is the best solar design software in 2026.
+For everyone else, the verdict is unchanged. SurgePV is the best solar design software in 2026. Once the layout and BOQ are locked, EPCs sourcing hardware can browse Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) ranges to match the design, or [talk to a Qbits engineer](/contact-us/) about a specific spec.
 
 <div class="inline-cta">
 <h3>Ready to switch to the #1-ranked solar design platform?</h3>

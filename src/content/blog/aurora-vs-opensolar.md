@@ -1,5 +1,5 @@
 ---
-title: "Aurora vs OpenSolar in 2026: Honest Comparison + the Third Option"
+title: "Aurora vs OpenSolar 2026: Honest Comparison"
 excerpt: "Aurora costs $159 to $259 per user per month. OpenSolar leads with a free tier. Both have ceilings. Here is the honest Aurora vs OpenSolar comparison and the option both users should consider."
 description: "Aurora vs OpenSolar in 2026: pricing, AI, 8,760-hour shading, proposals compared. Plus the SurgePV flat per-seat alternative. Compare plans now."
 category: "Solar Software"
@@ -111,7 +111,7 @@ Free entry tier for installers running simple residential roofs. Active communit
 - **Choose OpenSolar free** if pure small residential is your entire scope and add-ons stay manageable.
 - **Choose SurgePV** if you want engineering depth, multi-country support, and flat per-seat pricing.
 
-For most installers in 2026, the third option is the answer. See the full [best solar design software ranking](/blog/best-solar-design-software/) if you want to weigh more than these two, or our [free solar design software guide](/blog/free-solar-design-software/) for what else exists at zero cost.
+For most installers in 2026, the third option is the answer. See the full [best solar design software ranking](/blog/best-solar-design-software/) if you want to weigh more than these two, or our [free solar design software guide](/blog/free-solar-design-software/) for what else exists at zero cost. Whichever design tool wins the shortlist, the residential jobs it produces still need hardware behind them — Qbits' [residential solution](/residential-solution/) pairs well with either platform's output, and the [on-grid inverter](/on-grid-inverter/) lineup covers the most common spec.
 
 <div class="inline-cta">
 <h3>Ready to skip the Aurora-vs-OpenSolar decision?</h3>

@@ -1,6 +1,7 @@
 ---
-title: "Solar vs Diesel Generator in India, Cost, Payback and When to Switch"
+title: "Solar vs Diesel Generator, Cost and When to Switch"
 excerpt: "Solar costs ₹7/kWh over 25 years; diesel generators cost ₹18–22/kWh today. This analysis shows C&I buyers exactly when solar beats diesel-with IRR math."
+description: "Solar costs ₹7/kWh over 25 years; diesel generators cost ₹18-22/kWh today. See exactly when C&I buyers should switch from diesel to solar, with IRR math."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -248,7 +249,7 @@ This sequence is standard in EPC practice and does not require custom control ha
 
 ## The Hybrid Solar-Plus-DG Configuration: The Middle Ground
 
-Not every factory can switch to 100% solar immediately. Some sites have critical overnight loads. Others have monsoon-season production demands that create multi-day generation gaps. For these buyers, the hybrid solar-plus-DG configuration is the pragmatic transition architecture. For multi-site or MW-scale rollouts, dedicated [MW-scale EPC project management](https://heavendesigns.in/mw-scale-project-management-consultancy/) support keeps the DG-to-solar transition on schedule across every facility rather than relying on ad-hoc site-by-site coordination.
+Not every factory can switch to 100% solar immediately. Some sites have critical overnight loads. Others have monsoon-season production demands that create multi-day generation gaps. For these buyers, the hybrid solar-plus-DG configuration is the pragmatic transition architecture. For multi-site or MW-scale rollouts, dedicated MW-scale EPC project management support keeps the DG-to-solar transition on schedule across every facility rather than relying on ad-hoc site-by-site coordination.
 
 ### How hybrid solar-plus-DG works
 
@@ -346,7 +347,7 @@ If you are evaluating a DG displacement project or a new solar installation for 
 
 The numbers are unambiguous. Diesel-generated power costs ₹22–27 per kWh all-in. Solar-generated power over 25 years costs ₹2–3.5 per kWh. The spread is ₹18–25 per kWh, a gap so wide that even under conservative assumptions (partial DG displacement, high CAPEX, low grid tariff savings), C&I solar delivers IRR above 18% for most Indian industrial sites.
 
-The strategic question is not whether to switch. It is how fast to transition and which architecture to choose for the interim period. For most factories running a DG set more than four hours per day, the answer is a rooftop solar system sized for full daytime load, with the DG retained as overnight backup during the first two to three years. As battery costs continue to fall (and they will) the DG is phased out entirely. Factories and process plants that need a turnkey partner for the physical installation, not just the inverter, can start with an [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) EPC team that handles everything from mounting to commissioning.
+The strategic question is not whether to switch. It is how fast to transition and which architecture to choose for the interim period. For most factories running a DG set more than four hours per day, the answer is a rooftop solar system sized for full daytime load, with the DG retained as overnight backup during the first two to three years. As battery costs continue to fall (and they will) the DG is phased out entirely. Factories and process plants that need a turnkey partner for the physical installation, not just the inverter, can start with an industrial solar installation EPC team that handles everything from mounting to commissioning.
 
 The [accelerated depreciation benefit](/blog/solar-inverter-depreciation-in-india/) cuts the effective CAPEX by 10–12% in Year 1. The [C&I solar EPC process](/blog/solar-epc-india/) from survey to commissioning typically takes six to ten weeks. The [payback period](/glossary/payback-period/) for a full DG-displacement installation can be under one year.
 

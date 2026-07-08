@@ -1,6 +1,7 @@
 ---
-title: "KUSUM Yojana Kya Hai - किसानों के लिए Solar Subsidy Guide (2026)"
+title: "KUSUM Yojana Kya Hai - किसानों के लिए Solar Guide"
 excerpt: "KUSUM Yojana 2026: kisan solar pump subsidy, Component A/B/C explain, apply kaise karein, kitni subsidy milegi, poori jankari Hindi mein। PM Surya Ghar se kya fark hai।"
+description: "KUSUM Yojana mein kisan ko 60% subsidy milti hai solar pump ke liye. Component A, B, C, apply kaise karein - poori jankari Hindi mein."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -60,7 +61,7 @@ KUSUM का full form: **K**isan **U**rja **S**uraksha evam **U**tthaan **M**ah
 - Solar power local [DISCOM](/glossary/discom/) को बेचा जाता है
 - Farmer को annual lease rent मिलती है: ₹20,000-60,000/acre/year
 
-Lease sign karne se pehle land ki technical suitability check karna zaroori hai - grid proximity, soil condition, access road. [Land feasibility aur site survey services](https://heavendesigns.in/site-survey-land-feasibility-services/) is tarah ke long-term commitment se pehle useful reference hain.
+Lease sign karne se pehle land ki technical suitability check karna zaroori hai - grid proximity, soil condition, access road. Land feasibility aur site survey services is tarah ke long-term commitment se pehle useful reference hain.
 
 **Who manages:** State DISCOMs और state nodal agencies। Farmer को कुछ नहीं करना - passive income।
 
@@ -176,7 +177,7 @@ Payback under 2 साल - diesel eliminate होने से यह one of t
 
 ## KUSUM Mein Inverter Ki Zaroorat Se Pehle: Vendor Research
 
-Empanelled vendor list se select karne se pehle, vendor ke past projects aur field reputation verify karna smart hai. General solar EPC directories jaise [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) area ke installers ka background samajhne mein help kar sakte hain, lekin final selection state ke empanelled list se hi karna mandatory hai.
+Empanelled vendor list se select karne se pehle, vendor ke past projects aur field reputation verify karna smart hai. General solar EPC directories jaise local solar installer directory area ke installers ka background samajhne mein help kar sakte hain, lekin final selection state ke empanelled list se hi karna mandatory hai.
 
 ## Common Mistakes KUSUM Mein
 
@@ -228,7 +229,7 @@ Maharashtra leads Component C (grid-connected pump solarisation):
 - Average export income for Component C farmer: ₹45,000-80,000/year
 - Feed-in tariff: ₹3.00-3.30/unit
 
-Feeder-level Component C tenders in Maharashtra are structurally similar to other states' DISCOM-led solarisation programs - EPCs bidding on such work can review [PM-KUSUM/DREGP feeder solarisation scope](https://heavengreenenergy.com/drebp-pm-kusum/) as a reference for typical tender requirements.
+Feeder-level Component C tenders in Maharashtra are structurally similar to other states' DISCOM-led solarisation programs - EPCs bidding on such work can review PM-KUSUM/DREGP feeder solarisation scope as a reference for typical tender requirements.
 
 ### Gujarat: Fast Implementation
 

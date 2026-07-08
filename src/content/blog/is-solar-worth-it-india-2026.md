@@ -1,6 +1,7 @@
 ---
-title: "Is Solar Worth It in India in 2026? - The Honest Answer"
+title: "Is Solar Worth It in India in 2026?"
 excerpt: "Is solar worth it in India in 2026? Yes, for homeowners with bills above ₹3,000/month, their own roof, and a 5-year horizon. The Solar Decision Test gives you the honest answer in 5 questions."
+description: "Is solar worth it in India in 2026? Yes, for homeowners with bills above ₹3,000/month, own roof, and a 5-year horizon — the Solar Decision Test explains."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -48,7 +49,7 @@ The analysis below is deliberately honest. Solar is a strong investment for the 
 
 ## The Real Numbers: What a 3 kW System Costs and Saves
 
-Before the decision framework, let us establish the actual financial picture for the most common [residential solar](https://heavengreenenergy.com/residential-solar/) system size in India.
+Before the decision framework, let us establish the actual financial picture for the most common residential solar system size in India.
 
 **System: 3 kW on-grid solar, India 2026**
 

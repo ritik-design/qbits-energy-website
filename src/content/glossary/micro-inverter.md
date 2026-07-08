@@ -147,7 +147,7 @@ Micro inverter systems integrate with batteries through [AC coupling](/glossary/
 
 ## Real-world applications
 
-[Indian premium residential](https://heavengreenenergy.com/residential-solar/). Customers on complex flat-roof penthouses, terraces with parapet shade, or sites with seasonal tree shade. 3 to 10 kW arrays with one micro inverter per panel.
+Indian premium residential. Customers on complex flat-roof penthouses, terraces with parapet shade, or sites with seasonal tree shade. 3 to 10 kW arrays with one micro inverter per panel.
 
 Small commercial. Cafes, boutique hotels and design studios where panel-level monitoring is part of the brand story.
 
@@ -238,7 +238,7 @@ Enphase entered the Indian residential solar market actively from 2022. ALMM lis
 
 Premium installers in Bengaluru, Hyderabad, Pune, Mumbai, NCR and the Delhi NCR region are the leading micro inverter adopters. Tier 2 and 3 city installers are mostly on string inverters.
 
-DISCOM net metering and CEIG processes accept micro inverter systems, but the documentation expects a [single-line diagram](/glossary/single-line-diagram/) with branch-level detail; installers unfamiliar with the branch-level format often turn to specialists for [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/).
+DISCOM net metering and CEIG processes accept micro inverter systems, but the documentation expects a [single-line diagram](/glossary/single-line-diagram/) with branch-level detail; installers unfamiliar with the branch-level format often turn to specialists for electrical and CEIG drawings.
 
 [BIS certification](/glossary/bis-certification/) under IS 16221 and IS 17387 applies to micro inverters as it does to string inverters. Anti-islanding compliance under IEC 62116 is per unit.
 

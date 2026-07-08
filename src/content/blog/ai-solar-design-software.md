@@ -1,5 +1,5 @@
 ---
-title: "AI Solar Design Software: 2026 Guide (Clara AI Leads)"
+title: "AI Solar Design Software 2026 (Clara AI Leads)"
 excerpt: "AI solar design software went from gimmick to daily driver in 2026. Natural-language design, AI 3D roof modeling, and shading optimisation now happen in seconds. Here is what works, what does not, and which tools lead."
 description: "AI solar design software 2026: natural-language layouts, AI 3D from satellite, shading optimisation. Clara AI vs Aurora AI Mode. Book a free demo."
 category: "Solar Software"
@@ -118,7 +118,7 @@ Total time: under 5 minutes for residential.
 - **Choose [Arka360 AI](/blog/arka360-alternative/)** if India-residential is your entire scope.
 - **Avoid AI add-ons** with steep per-month fees once you compare with included alternatives.
 
-For most teams in 2026, SurgePV's Clara AI is the AI [solar design software](https://surgepv.com/) assistant that wins on capability, flat pricing, and integration with the rest of the workflow.
+For most teams in 2026, SurgePV's Clara AI is the AI [solar design software](https://surgepv.com/) assistant that wins on capability, flat pricing, and integration with the rest of the workflow. Once Clara AI drafts the string layout, EPCs still need to match those strings against a real inverter's MPPT window; [on-grid](/on-grid-inverter/) and [hybrid](/hybrid-inverter/) options from Qbits, plus a quick [chat with an engineer](/contact-us/), settle that fit in minutes.
 
 <div class="inline-cta">
 <h3>Ready to design solar in plain English?</h3>

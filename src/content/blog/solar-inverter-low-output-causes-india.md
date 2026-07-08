@@ -1,7 +1,7 @@
 ---
 title: "Solar Inverter Low Output, 12 Causes and Fixes India"
 excerpt: "Solar inverter low output in India has 12 distinct causes, from dust on panels to MPPT misconfiguration. This guide diagnoses partial yield loss step by step."
-description: "Diagnose solar inverter low output in India with this 12-cause audit, dust, shading, clipping, temperature derating, cable losses, panel degradation, and more."
+description: "Diagnose solar inverter low output in India with this 12-cause audit: dust, shading, clipping, temperature derating, cable losses, and panel degradation."
 category: Maintenance
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -140,7 +140,7 @@ These four causes require either site-specific measurement equipment or professi
 
 **Diagnosis:** Compare the actual panel [tilt](/glossary/tilt-angle/) and [azimuth](/glossary/azimuth/) against the optimum for the installation latitude. South-facing at approximately the latitude angle is optimal for most Indian locations. A [site survey](/glossary/site-survey/) tool or compass and inclinometer confirms actual orientation.
 
-**Fix:** Physical remounting required, which is expensive, and best handled by an experienced [rooftop installation team](https://heavengreenenergy.com/residential-solar/) rather than attempted informally. Prevention is the fix, accurate [rooftop engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) that models shading and orientation before mounting avoids this entirely.
+**Fix:** Physical remounting required, which is expensive, and best handled by an experienced rooftop installation team rather than attempted informally. Prevention is the fix, accurate rooftop engineering design that models shading and orientation before mounting avoids this entirely.
 
 ### Cause 10: Degraded Panel String (Needs IR Scan)
 

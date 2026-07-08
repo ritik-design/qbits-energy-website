@@ -1,7 +1,7 @@
 ---
-title: "KUSUM Yojana, Agricultural Solar Subsidy Complete Guide 2026"
+title: "KUSUM Yojana: Agricultural Solar Subsidy Guide"
 excerpt: "KUSUM Yojana subsidises 60% of solar pump and plant costs for Indian farmers. This complete 2026 guide covers all three components, eligibility, state programs, and how to apply."
-description: "KUSUM Yojana covers Component A solar plants, Component B standalone pumps, and Component C grid-connected pumps. Full 2026 guide to subsidies, eligibility, and state-wise application."
+description: "KUSUM Yojana subsidises 60% of agricultural solar costs: solar plants, standalone pumps, and grid pump solarisation. Full guide to eligibility."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -64,7 +64,7 @@ The farmer (or farmer group, FPO, panchayat, or water user association) particip
 1. **As a land lessor**: The farmer leases the land to a developer selected through a state tender process. The developer builds, owns, and operates the plant. The farmer receives annual land lease income of ₹0.30 to ₹1 per kWh equivalent (typically ₹20,000 to ₹40,000 per acre per year, depending on the state and FIT) without investing capital or managing the plant.
 2. **As an independent power producer**: The farmer installs the plant independently (or through a developer they commission directly), enters a Power Purchase Agreement with the local DISCOM, and receives the full feed-in tariff revenue. This route requires more capital and project management skill but returns higher income.
 
-Before committing to either route, it is worth confirming the land is actually suitable for a multi-decade solar lease. Soil condition, grid proximity, and access roads all affect feasibility, and a [land feasibility and site survey assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) done before signing a 25-year lease avoids costly surprises after a developer has already been selected.
+Before committing to either route, it is worth confirming the land is actually suitable for a multi-decade solar lease. Soil condition, grid proximity, and access roads all affect feasibility, and a land feasibility and site survey assessment done before signing a 25-year lease avoids costly surprises after a developer has already been selected.
 
 The central government provides no direct capex subsidy for Component A. The economics work through the feed-in tariff, states like Rajasthan, Maharashtra, and Gujarat have set FITs in the range of ₹3.10 to ₹4.50 per kWh for KUSUM Component A plants.
 
@@ -187,7 +187,7 @@ KUSUM is emphatically a state-level scheme. There is no single national applicat
 
 5. **Bank loan processing**: If applying for the bank-financed 30%, the farmer approaches an empanelled bank (NABARD, SBI, Bank of Baroda, or state cooperative banks) with the provisional approval letter. The bank processes the loan, typically in 20 to 45 days. Loan disbursement goes directly to the vendor, not the farmer.
 
-6. **Vendor assignment and equipment selection**: The state nodal agency either assigns a vendor from an empanelled list or allows the farmer to choose from the list. ALMM-listed solar panels and inverters are mandatory. The vendor installs the pump system within 15 to 30 days of material procurement. For farmers weighing whether to pursue a KUSUM plant through a state tender or a privately commissioned Component A project, reviewing how a [turnkey solar EPC company](https://heavengreenenergy.com/solar-epc/) scopes a rural ground-mount project gives a useful benchmark for what full-service installation should include.
+6. **Vendor assignment and equipment selection**: The state nodal agency either assigns a vendor from an empanelled list or allows the farmer to choose from the list. ALMM-listed solar panels and inverters are mandatory. The vendor installs the pump system within 15 to 30 days of material procurement. For farmers weighing whether to pursue a KUSUM plant through a state tender or a privately commissioned Component A project, reviewing how a turnkey solar EPC company scopes a rural ground-mount project gives a useful benchmark for what full-service installation should include.
 
 7. **Commissioning and subsidy claim**: After installation, the vendor submits a commissioning report. The state nodal agency verifies and triggers subsidy disbursement to the vendor (for the subsidy portions) and activates the bank loan for the farmer's loan portion.
 
@@ -205,7 +205,7 @@ Maharashtra implements KUSUM primarily through MEDA (Maharashtra Energy Developm
 
 ### Punjab
 
-Punjab's agriculture relies almost entirely on grid-connected tubewells, making it a natural fit for Component C feeder solarisation. PEDA (Punjab Energy Development Agency) leads implementation. The challenge in Punjab is that most agricultural connections are unmetered flat-rate connections, complicating the accounting for surplus solar generation. PEDA has piloted individual pump solarisation in several districts. Component B has lower relevance in Punjab given near-universal grid coverage of agricultural pumps. EPCs bidding on feeder-level DISCOM tenders will find [Heaven Green Energy's PM-KUSUM/DREGP feeder solarisation overview](https://heavengreenenergy.com/drebp-pm-kusum/) a useful reference for how these bundled tenders are typically scoped.
+Punjab's agriculture relies almost entirely on grid-connected tubewells, making it a natural fit for Component C feeder solarisation. PEDA (Punjab Energy Development Agency) leads implementation. The challenge in Punjab is that most agricultural connections are unmetered flat-rate connections, complicating the accounting for surplus solar generation. PEDA has piloted individual pump solarisation in several districts. Component B has lower relevance in Punjab given near-universal grid coverage of agricultural pumps. EPCs bidding on feeder-level DISCOM tenders will find Heaven Green Energy's PM-KUSUM/DREGP feeder solarisation overview a useful reference for how these bundled tenders are typically scoped.
 
 ### Uttar Pradesh
 

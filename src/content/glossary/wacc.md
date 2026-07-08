@@ -117,7 +117,7 @@ Lender vs equity. Tension between debt cost (lower) and equity return (higher).
 
 ### WACC calculation example
 
-For a 100 MW Indian utility solar project, the kind typically run under [MW-scale EPC project management](https://heavendesigns.in/mw-scale-project-management-consultancy/):
+For a 100 MW Indian utility solar project, the kind typically run under MW-scale EPC project management:
 - Capex: ₹400 crore
 - Debt: ₹280 crore (70%) at 8.5% pre-tax, 6.6% after-tax (T=22.4%)
 - Equity: ₹120 crore (30%) at 15%

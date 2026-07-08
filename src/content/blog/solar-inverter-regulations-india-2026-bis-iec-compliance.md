@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Regulations India 2026: BIS/IEC Compliance Guide"
+title: "Solar Inverter Regulations 2026: BIS/IEC Compliance"
 excerpt: "BIS certification is mandatory. MNRE specs are binding. State variations apply. Here's the full 2026 compliance framework every EPC and distributor needs."
-description: "Complete 2026 regulatory guide for solar inverters in India, BIS certification under IS 16221, IEC standards, MNRE performance requirements, CEA grid norms, state-specific variations, and penalty exposure."
+description: "2026 regulatory guide for solar inverters in India: BIS certification under IS 16221, IEC standards, MNRE requirements, CEA grid norms, and penalties."
 category: "Guide"
 date: 2026-03-22
 updatedDate: 2026-07-08
@@ -35,7 +35,7 @@ This guide covers the regulatory requirements for solar inverters in India in 20
 > - MNRE mandates minimum weighted efficiency of 96–97%, anti-islanding detection within 2 seconds, and Total Harmonic Distortion below 5%.
 > - States layer on their own rules, Rajasthan requires IP65+ and remote monitoring, Maharashtra caps THD at 3% above 50 kW, Karnataka mandates a 5-year minimum warranty.
 > - Non-compliance risks range from subsidy claim denial to penalties up to 10× equipment value and insurance voidance.
-> - Qbits inverters already exceed the 2026 baseline with 12-year full replacement warranties and 1,000+ automated quality tests per unit.
+> - Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/) already exceed the 2026 baseline with 12-year full replacement warranties and 1,000+ automated quality tests per unit.
 
 ## Key Regulatory Bodies
 
@@ -108,7 +108,7 @@ This guide covers the regulatory requirements for solar inverters in India in 20
 
 ### Project
 
-- Installation reports with site conditions and connections, often prepared alongside [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/) for DISCOM submission
+- Installation reports with site conditions and connections, often prepared alongside electrical and CEIG drawings for DISCOM submission
 - Commissioning reports with grid synchronisation verification, part of a full [solar inverter commissioning](/blog/solar-inverter-commissioning-in-india/) workflow
 - Anti-islanding protection test results
 - Performance validation records
@@ -154,4 +154,4 @@ Leading [solar inverter manufacturers](/blog/solar-inverter-manufacturers-in-ind
 
 ## Closing
 
-Compliance is not a one-time hurdle, it is an ongoing operational discipline. Build certification verification into procurement, train your team on state-specific variations, and treat non-compliance as the existential risk it is. For EPCs running full turnkey projects, this discipline needs to be embedded across the entire [solar EPC and installation](https://heavengreenenergy.com/solar-epc/) workflow, not bolted on as a final checklist item. Qbits inverters carry 12-year full replacement warranties, German-grade components, 1,000+ automated quality tests per unit, BIS, and IEC certifications, exceeding current Indian regulations.
+Compliance is not a one-time hurdle, it is an ongoing operational discipline. Build certification verification into procurement, train your team on state-specific variations, and treat non-compliance as the existential risk it is. For EPCs running full turnkey projects, this discipline needs to be embedded across the entire solar EPC and installation workflow, not bolted on as a final checklist item. Qbits inverters carry 12-year full replacement warranties, German-grade components, 1,000+ automated quality tests per unit, BIS, and IEC certifications, exceeding current Indian regulations. To verify a specific model's certification before procurement, [talk to a Qbits engineer](/contact-us/).

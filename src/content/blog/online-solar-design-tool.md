@@ -133,7 +133,7 @@ The full [SurgePV pricing](https://surgepv.com/pricing) page lays out every plan
 - **Choose Pylon or Solargraf** for fast residential proposals only.
 - **Choose SAM Online** for research and sensitivity studies.
 
-For most installers and EPCs in 2026, SurgePV is the online [solar design software](https://surgepv.com/) that wins on speed, scope, and economics.
+For most installers and EPCs in 2026, SurgePV is the online [solar design software](https://surgepv.com/) that wins on speed, scope, and economics. Once the layout and yield numbers are locked in the browser, sourcing the hardware is the next step; Qbits' [full product catalog](/our-products/) covers the on-grid and hybrid lines most designs call for, and the team is reachable directly [here](/contact-us/) for spec questions.
 
 <div class="inline-cta">
 <h3>Ready to design solar in the browser, end to end?</h3>

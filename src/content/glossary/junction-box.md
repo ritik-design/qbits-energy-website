@@ -175,7 +175,7 @@ UV crack on plastic enclosures.
 
 ## Best practices
 
-Use IP65 minimum for field junction boxes, IP66 in coastal areas — a specification typically nailed down during [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/).
+Use IP65 minimum for field junction boxes, IP66 in coastal areas — a specification typically nailed down during rooftop detailed engineering design.
 
 Match cable glands to cable diameter.
 
@@ -208,7 +208,7 @@ Field junction box brands in India: Schneider, ABB, Phoenix Contact, Boschke, He
 
 ALMM does not list junction boxes separately. Module ALMM listing includes the junction box implicitly.
 
-PM Surya Ghar residential installations may use field junction boxes for protection device housing at the inverter location, typically supplied as part of a [residential solar installation](https://heavengreenenergy.com/residential-solar/) package.
+PM Surya Ghar residential installations may use field junction boxes for protection device housing at the inverter location, typically supplied as part of a residential solar installation package.
 
 ## Standards and certifications
 

@@ -1,7 +1,7 @@
 ---
-title: "12-Year Solar Inverter Warranty: The New Industry Baseline"
+title: "12-Year Solar Inverter Warranty: New Baseline"
 excerpt: "A 12 year solar inverter warranty is now the benchmark, not a premium. Why 5-year coverage is inadequate for a 25-year solar asset and what the market shift means for Indian homeowners."
-description: "Why the industry is moving to 12-year solar inverter warranties, the hidden cost of shorter coverage, and how Qbits is the only Indian brand offering 12-year full replacement as standard."
+description: "Why the industry is moving to 12-year solar inverter warranties, and how Qbits offers 12-year full replacement as the standard in India."
 category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -35,7 +35,7 @@ faqs:
     a: "ALMM Phase III raises the component quality floor for inverters seeking MNRE listing - manufacturers must demonstrate higher-grade capacitors, thermal management, and PCB protection to qualify. Better components directly correlate with longer service life and support longer warranty commitments. As Phase III compliance becomes mandatory for PM Surya Ghar subsidy eligibility, brands that relied on lower-grade components to offer cheap pricing will face pressure to either upgrade their bill of materials or exit the subsidy-eligible market. This quality gate should progressively shift the Indian market toward longer, more substantive warranties over the 2025–2027 period."
 ---
 
-When a homeowner signs a 25-year solar loan or commits to a rooftop installation through a [turnkey solar EPC](https://heavengreenenergy.com/solar-epc/), they're making a capital decision that spans a generation. The panels carry a 25-year product warranty and a 30-year linear performance guarantee: the manufacturer promises the modules will still produce at least 80 percent of rated output three decades from now. Then there's the inverter. For most of the past decade, standard warranty on Indian market inverters has been 2 to 5 years. That covers maybe 10 to 20 percent of the asset's operating life. That gap isn't a footnote. It's where most of the financial risk in a residential solar system lives.
+When a homeowner signs a 25-year solar loan or commits to a rooftop installation through a turnkey solar EPC, they're making a capital decision that spans a generation. The panels carry a 25-year product warranty and a 30-year linear performance guarantee: the manufacturer promises the modules will still produce at least 80 percent of rated output three decades from now. Then there's the inverter. For most of the past decade, standard warranty on Indian market inverters has been 2 to 5 years. That covers maybe 10 to 20 percent of the asset's operating life. That gap isn't a footnote. It's where most of the financial risk in a residential solar system lives.
 
 > **TL;DR**
 > - A 12-year full replacement warranty is now the credible minimum for a 25-year solar asset; most Indian brands still ship 5-year, repair-based coverage.

@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Selection: 10 Critical Criteria for EPCs"
+title: "Solar Inverter Selection: 10 Criteria for EPCs"
 excerpt: "An EPC-focused framework for selecting solar inverters, from component quality and warranty terms to monitoring, IP66 protection, DC oversizing, and total cost of ownership."
-description: "How EPCs and installation companies should select solar inverters. 10 evaluation criteria, red flags to avoid, a procurement checklist, and total-cost-of-ownership analysis for the Indian market."
+description: "How EPCs should select solar inverters: 10 evaluation criteria, red flags to avoid, and total-cost-of-ownership analysis for the Indian market."
 category: "Buying Guide"
 date: 2026-03-16
 readTime: "12 min"
@@ -155,7 +155,7 @@ Quality manufacturer support includes:
 - **Comprehensive installation documentation** and training
 - **Responsive technical support**: test it during evaluation
 - **India-based spare parts inventory**
-- **Partner programs** with technical training, marketing support, preferential pricing, [channel partner programmes](https://heavengreenenergy.com/become-channel-partner/) are worth comparing if your firm is scaling installation volume
+- **Partner programs** with technical training, marketing support, preferential pricing, channel partner programmes are worth comparing if your firm is scaling installation volume
 
 **Red flags:** Poor support responsiveness, limited documentation, no training, adversarial relationships.
 
@@ -232,4 +232,4 @@ The Indian solar market evolves fast. Next-generation inverters offer capabiliti
 
 Budget inverters appear to save money but often cost more through reduced efficiency, shorter lifespans, and reputation damage. Calculate TCO honestly, prioritise long-term value, and select inverters that support your business growth.
 
-EPCs whose in-house team is stretched thin on structural or electrical documentation during a scale-up phase sometimes bring in dedicated [solar engineering services](https://heavendesigns.in/our-services/) for design and civil work rather than slowing down inverter procurement to compensate. [String sizing](/glossary/string-sizing/) is one of the technical checks worth automating early, the [string sizing calculator](/string-sizing-calculator/) confirms panel-string configuration against the chosen inverter's MPPT input range before ordering. For inverter-specific procurement questions, [talk to a Qbits engineer](/contact-us/), and see the [on-grid inverter](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) range pages for full spec sheets.
+EPCs whose in-house team is stretched thin on structural or electrical documentation during a scale-up phase sometimes bring in dedicated solar engineering services for design and civil work rather than slowing down inverter procurement to compensate. [String sizing](/glossary/string-sizing/) is one of the technical checks worth automating early, the [string sizing calculator](/string-sizing-calculator/) confirms panel-string configuration against the chosen inverter's MPPT input range before ordering. For inverter-specific procurement questions, [talk to a Qbits engineer](/contact-us/), and see the [on-grid inverter](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) range pages for full spec sheets.

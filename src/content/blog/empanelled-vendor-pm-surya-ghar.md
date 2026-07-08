@@ -1,7 +1,7 @@
 ---
 title: "Empanelled Vendor for PM Surya Ghar, Why It Matters"
 excerpt: "An empanelled vendor solar installer is mandatory for PM Surya Ghar subsidy. Learn what empanelment means, how to verify vendors on the portal, and what questions to ask before signing."
-description: "Empanelled vendor solar checklist for PM Surya Ghar: what DISCOM registration means, how to verify on pmsuryaghar.gov.in, red flags, and 5 questions to ask before you sign."
+description: "Empanelled vendor checklist for PM Surya Ghar: what DISCOM registration means, how to verify on pmsuryaghar.gov.in, red flags, and questions to ask first."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -97,7 +97,7 @@ Go to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and select "Rooftop Sola
 
 ### Step 2: Navigate to the Vendor List
 
-Once logged in, select your state and then your DISCOM from the dropdown menus. Look for the "Empanelled Vendor List" or "Registered Vendor List" section, the exact label varies slightly by DISCOM interface. The list shows vendor names, registration numbers, coverage districts, and often a contact number. A directory such as [HeavenGreen's local solar installer finder](https://heavengreenenergy.com/solar-near-me/) can be a useful cross-check for reviews and service history once you have a shortlist of registration numbers from the portal.
+Once logged in, select your state and then your DISCOM from the dropdown menus. Look for the "Empanelled Vendor List" or "Registered Vendor List" section, the exact label varies slightly by DISCOM interface. The list shows vendor names, registration numbers, coverage districts, and often a contact number. A directory such as HeavenGreen's local solar installer finder can be a useful cross-check for reviews and service history once you have a shortlist of registration numbers from the portal.
 
 ### Step 3: Search by District
 

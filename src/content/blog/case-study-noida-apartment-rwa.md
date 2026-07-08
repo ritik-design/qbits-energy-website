@@ -1,7 +1,7 @@
 ---
-title: "Case Study, Solar for a Noida Apartment Complex (RWA)"
+title: "Solar for a Noida Apartment Complex (RWA)"
 excerpt: "Noida apartment solar case study: how a resident welfare association solved shared roof ownership, metering complexity, and DISCOM approval for a multi-unit RWA solar project."
-description: "Illustrative solar case study for a Noida apartment complex RWA. Covers metering complexity, shared roof ownership, DISCOM approval, and results. Data to be confirmed by Qbits ops team."
+description: "Illustrative case study for a Noida apartment complex RWA: metering complexity, shared roof ownership, and DISCOM approval for a multi-unit solar project."
 category: "Case Study"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -61,7 +61,7 @@ The Noida RWA committee drafted a resolution that addressed three objections rai
 *Resolution:* The solar benefit is distributed across the common electricity account (lifts, corridor lights, water pump, security lights). All 96 flats pay equally into the common maintenance fund and therefore share the cost equally; all benefit equally through lower maintenance fund contributions.
 
 **Objection 2, "What if the panels damage the terrace waterproofing?"**
-*Resolution:* The selected EPC contractor provided a written [structural indemnity](https://heavendesigns.in/solar-civil-and-structural-engineering/) and a 5-year waterproofing warranty for the terrace area around each anchor point.
+*Resolution:* The selected EPC contractor provided a written structural indemnity and a 5-year waterproofing warranty for the terrace area around each anchor point.
 
 **Objection 3, "What happens when the system needs replacement in 10–12 years?"**
 *Resolution:* The depreciation schedule was built into the 10-year maintenance fund projection, the committee allocated ₹1.2 lakh annually toward a sinking fund for future inverter replacement.
@@ -193,7 +193,7 @@ Once the solar system is commissioned and generating, RWAs enter the operational
 
 ## Where Qbits Fits for RWA Solar
 
-Managing committees and facility managers who want a single-point responsibility (from [site survey](/glossary/site-survey/) to DISCOM application to monitoring setup to warranty support) find that Qbits' installer network covers Noida and the Delhi-NCR region with experienced teams who have completed multiple RWA and commercial campus installations. Societies that want the physical build bundled with equipment supply, not just the inverter, can also evaluate [residential solar installation](https://heavengreenenergy.com/residential-solar/) services covering mounting, terrace waterproofing, and commissioning under one contract.
+Managing committees and facility managers who want a single-point responsibility (from [site survey](/glossary/site-survey/) to DISCOM application to monitoring setup to warranty support) find that Qbits' installer network covers Noida and the Delhi-NCR region with experienced teams who have completed multiple RWA and commercial campus installations. Societies that want the physical build bundled with equipment supply, not just the inverter, can also evaluate residential solar installation services covering mounting, terrace waterproofing, and commissioning under one contract.
 
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series; ALMM-listed and PM Surya Ghar subsidy-eligible, critical for the RWA subsidy application.
 - **[Authorized Service Partners](/authorized-service-partners/)**: certified installer network covering Noida and the Delhi-NCR region.

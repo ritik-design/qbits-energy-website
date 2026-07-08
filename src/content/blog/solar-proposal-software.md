@@ -1,7 +1,7 @@
 ---
-title: "Solar Proposal Software in 2026: 7 Tools Compared (SurgePV Wins)"
+title: "Solar Proposal Software 2026: 7 Tools Compared"
 excerpt: "The best solar proposal software ships branded, interactive, e-signed proposals in 5 minutes. Compare the 7 top tools of 2026. SurgePV from $1,299/user/yr."
-description: "Independent ranking of the best solar proposal software in 2026. SurgePV vs Aurora Sales Mode, Solargraf, Pylon, Enact, OpenSolar Pro, and Sighten. Branded templates, e-signature, interactive web proposals, multi-language support, and the design plus proposal workflow."
+description: "Independent ranking of the best solar proposal software in 2026: SurgePV vs Aurora, Solargraf, Pylon, Enact, OpenSolar Pro, and Sighten, compared."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -183,7 +183,7 @@ Real teams average 3 to 5 minutes for residential, 8 to 12 minutes for C&I where
 - **Choose OpenSolar Pro** if you are already on OpenSolar and need advanced proposal features.
 - **Choose Sighten** if you only need residential finance modelling.
 
-For most installers and EPCs in 2026, the verdict is the same. SurgePV is the solar proposal software that wins on integration, speed, brand control, and per-seat cost, the same conclusion reached in our broader [solar design software](/blog/solar-design-software/) buyer's guide.
+For most installers and EPCs in 2026, the verdict is the same. SurgePV is the solar proposal software that wins on integration, speed, brand control, and per-seat cost, the same conclusion reached in our broader [solar design software](/blog/solar-design-software/) buyer's guide. Once the buyer signs, the next line item is hardware; EPCs sourcing [on-grid](/on-grid-inverter/) or [hybrid inverters](/hybrid-inverter/) for the job can start pricing that piece the same week the proposal closes.
 
 <div class="inline-cta">
 <h3>Ready to send proposals in 5 minutes instead of 30?</h3>

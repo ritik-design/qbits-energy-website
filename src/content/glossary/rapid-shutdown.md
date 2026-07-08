@@ -142,9 +142,9 @@ Australian residential.
 
 European installations (emerging).
 
-[Indian premium residential](https://heavengreenenergy.com/residential-solar/) with international standards.
+Indian premium residential with international standards.
 
-[Commercial buildings](https://heavengreenenergy.com/commercial-solar/) with strict fire codes.
+Commercial buildings with strict fire codes.
 
 [Hospital](/blog/solar-inverter-for-hospital/) and [school](/blog/solar-for-school-college-india/) roofs.
 

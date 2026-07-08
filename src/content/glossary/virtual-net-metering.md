@@ -72,7 +72,7 @@ Virtual net metering is a billing arrangement under which the energy exported by
 
 The arrangement solves a real problem in Indian solar adoption: many sites have roof space without significant load, and many sites have load without usable roof space. VNM separates the two, letting a clinic build solar on a school's roof, or a housing society share rooftop generation across hundreds of flats.
 
-Notified frameworks exist in Delhi, Kerala, Karnataka, Maharashtra, Tamil Nadu and Andhra Pradesh. Other states have draft regulations or pilot programmes.
+Notified frameworks exist in Delhi, Kerala, Karnataka, Maharashtra, Tamil Nadu and Andhra Pradesh. Other states have draft regulations or pilot programmes. For the single-meter case these frameworks build on, see [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/).
 
 ## Virtual net metering explained simply
 
@@ -169,7 +169,7 @@ Disputes over allocation percentages can sour society relationships.
 
 ## Common problems
 
-DISCOM rejects the agreement due to format issues. Use the prescribed template from the SERC regulation.
+DISCOM rejects the agreement due to format issues. Use the prescribed template from the SERC regulation; see [How to Apply for Net Metering in India, State by State (2026)](/blog/how-to-apply-net-metering-india/) for the standard 6-step process and common rejection reasons.
 
 Beneficiary list goes stale as flat owners change. Schedule annual updates.
 

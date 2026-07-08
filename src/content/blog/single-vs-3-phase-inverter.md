@@ -1,7 +1,7 @@
 ---
-title: "Single-Phase vs 3-Phase Solar Inverter, Which Fits Your Home or Business?"
+title: "Single-Phase vs 3-Phase Solar Inverter: Which Fits?"
 excerpt: "Choosing between a single phase vs 3 phase inverter starts with your electricity connection, most homes use single-phase, most factories need 3-phase. Here is how to decide."
-description: "Single phase vs 3 phase solar inverter, learn how to identify your connection type, DISCOM capacity limits, wiring differences, and which Qbits series fits each setup."
+description: "Single-phase vs 3-phase solar inverter: learn how to identify your connection type, DISCOM capacity limits, and which inverter series fits your setup."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -77,7 +77,7 @@ The correct way to identify your connection type requires looking at the physica
 
 Here are three reliable methods, in order of accuracy:
 
-**Method 1, Count the wires at your main switchboard.** Switch off the main breaker and locate the point where the utility supply enters your building. Count the insulated wires coming in. Two wires (one red or brown live, one black or blue neutral) indicate single-phase. Four wires (three coloured lives (red, yellow, blue) plus one black or grey neutral) indicate 3-phase. If you are unsure, ask a licensed electrician to verify; do not touch live conductors yourself. For larger commercial or 3-phase installations, a [certified electrical drawing and CEIG approval package](https://heavendesigns.in/electrical-ceig-drawings/) documents the exact wiring and load distribution your DISCOM will ask to see before sanctioning the connection.
+**Method 1, Count the wires at your main switchboard.** Switch off the main breaker and locate the point where the utility supply enters your building. Count the insulated wires coming in. Two wires (one red or brown live, one black or blue neutral) indicate single-phase. Four wires (three coloured lives (red, yellow, blue) plus one black or grey neutral) indicate 3-phase. If you are unsure, ask a licensed electrician to verify; do not touch live conductors yourself. For larger commercial or 3-phase installations, a certified electrical drawing and CEIG approval package documents the exact wiring and load distribution your DISCOM will ask to see before sanctioning the connection.
 
 **Method 2, Measure the incoming voltage.** A single-phase connection measures approximately 230 V between the live wire and neutral. On a 3-phase connection, measuring between any two live wires reads approximately 415 V, while measuring from any live wire to neutral still reads 230 V. An electrician with a multimeter or clamp meter can confirm this in 60 seconds.
 
@@ -127,7 +127,7 @@ For homeowners in standard 2–4 BHK homes, single-phase solar almost always suf
 
 ### VFD-Driven Motors and Industrial Pumps
 
-Variable Frequency Drives control the speed of 3-phase induction motors by varying the frequency and voltage of the supply. Submersible pumps above 3 HP, industrial blowers, compressors, and textile machinery are common examples. These loads require 3-phase supply, a single-phase inverter cannot power them. Trying to run a 3-phase motor on single-phase supply causes overheating and winding failure within hours. Factories sizing a 3-phase system around these loads typically need a specialised [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) partner who can coordinate the electrical design with existing plant machinery rather than a standard residential EPC team.
+Variable Frequency Drives control the speed of 3-phase induction motors by varying the frequency and voltage of the supply. Submersible pumps above 3 HP, industrial blowers, compressors, and textile machinery are common examples. These loads require 3-phase supply, a single-phase inverter cannot power them. Trying to run a 3-phase motor on single-phase supply causes overheating and winding failure within hours. Factories sizing a 3-phase system around these loads typically need a specialised industrial solar installation partner who can coordinate the electrical design with existing plant machinery rather than a standard residential EPC team.
 
 ### Large Central Air Conditioning Systems
 
@@ -180,7 +180,7 @@ The process involves four steps:
 
 1. **Application to DISCOM.** Submit a request for enhancement of sanctioned load and conversion of supply type from single-phase to 3-phase at your local DISCOM office or online portal. You will need proof of ownership or tenancy, a copy of your electricity bill, and a load schedule listing all connected equipment.
 
-2. **Technical feasibility check.** The DISCOM engineer will inspect the nearest distribution transformer and feeder to confirm there is spare capacity for your upgraded connection. In densely built urban areas, this step can take 30–90 days. A prior [site survey and land feasibility assessment](https://heavendesigns.in/site-survey-land-feasibility-services/) can flag transformer or feeder constraints before you file the DISCOM application, avoiding a rejected upgrade request.
+2. **Technical feasibility check.** The DISCOM engineer will inspect the nearest distribution transformer and feeder to confirm there is spare capacity for your upgraded connection. In densely built urban areas, this step can take 30–90 days. A prior site survey and land feasibility assessment can flag transformer or feeder constraints before you file the DISCOM application, avoiding a rejected upgrade request.
 
 3. **Connection upgrade and new meter.** If feasibility is confirmed, a 3-phase service connection is drawn from the nearest distribution point, and a 3-phase bidirectional smart meter is installed. You pay the applicable charges, typically ₹8,000–₹25,000 depending on the state and distance to the nearest 3-phase feeder.
 

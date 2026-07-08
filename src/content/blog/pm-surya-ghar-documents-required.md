@@ -1,6 +1,7 @@
 ---
-title: "PM Surya Ghar Documents Required, Complete Checklist 2026"
+title: "PM Surya Ghar Documents Required Checklist"
 excerpt: "PM Surya Ghar documents required include Aadhaar, electricity bill, bank details, and property proof. Full checklist to avoid rejection in 2026."
+description: "PM Surya Ghar documents required: Aadhaar, electricity bill, bank details, and property proof. Full checklist to avoid rejection in 2026."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -143,7 +144,7 @@ The central PM Surya Ghar scheme has a standard document set, but individual DIS
 | **Bihar** | BSPHCL | Self-declaration letter for roof ownership in many cases |
 | **Karnataka** | BESCOM | Encumbrance certificate for some property types |
 
-Always verify current requirements with your specific DISCOM before submitting, as these requirements are updated periodically. Your [empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) typically knows the current DISCOM requirements in your state and can guide you through the process, and a directory such as [finding a local solar installer](https://heavengreenenergy.com/solar-near-me/) is a useful starting point if you have not shortlisted one yet.
+Always verify current requirements with your specific DISCOM before submitting, as these requirements are updated periodically. Your [empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) typically knows the current DISCOM requirements in your state and can guide you through the process, and a directory such as finding a local solar installer is a useful starting point if you have not shortlisted one yet.
 
 ## Common Document Mistakes That Cause Rejection
 
@@ -182,7 +183,7 @@ Some applicants waste days chasing documents that are not actually required. The
 
 - **Income proof**: PM Surya Ghar has no income ceiling. There is no requirement for a salary slip, Form 16, or ITR.
 - **Caste certificate**: The scheme is available to all categories; no reservation-based certification is required.
-- **Roof structural certificate**: Not required at the application stage (though your installer will assess roof strength during the [site survey](https://heavendesigns.in/site-survey-land-feasibility-services/)).
+- **Roof structural certificate**: Not required at the application stage (though your installer will assess roof strength during the site survey).
 - **NOC from neighbours**: Not required unless local municipal regulations specify otherwise for specific roof configurations.
 - **Original documents**: The portal accepts digital copies only. Original documents are not submitted anywhere in the online process.
 

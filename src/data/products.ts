@@ -44,7 +44,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['8 + 4 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/1kw.png',
+    image: '/homepage-new/1kw.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf',
   },
   {
@@ -67,7 +67,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/5kw.png',
+    image: '/homepage-new/5kw.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_4.6-6.0-kw_1MPPT_1Phs.pdf',
   },
   {
@@ -90,7 +90,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/3kw.png',
+    image: '/homepage-new/3kw.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf',
   },
   // On-Grid Three Phase TLC
@@ -114,7 +114,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['8 + 4 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/10kw.png',
+    image: '/homepage-new/10kw.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf',
   },
   {
@@ -137,7 +137,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/25kw.png',
+    image: '/homepage-new/25kw.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_20.0-30.0-kw_3Phs.pdf',
   },
   {
@@ -183,7 +183,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['8 + 4 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/50kw.png',
+    image: '/homepage-new/50kw.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_40.0-50.0-kw_3Phs.pdf',
   },
   {
@@ -229,7 +229,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/110kw.png',
+    image: '/homepage-new/110kw.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_70.0-100.0-kw_3Phs.pdf',
   },
   {
@@ -252,7 +252,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['8 + 4 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/explore-technology.png',
+    image: '/homepage-new/explore-technology.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_80.0-125.0-kw_3Phs.pdf',
   },
   {
@@ -299,7 +299,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/hybrid.png',
+    image: '/homepage-new/hybrid.webp',
     datasheet: '/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf',
   },
   {
@@ -322,7 +322,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/hybrid.png',
+    image: '/homepage-new/hybrid.webp',
     datasheet: '/datasheets/products/Qbits-Hybride-Inverter-Catalogue-2.pdf',
   },
   {
@@ -345,7 +345,7 @@ export const products: Product[] = [
     warranty: '8 + 4 Years',
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
-    image: '/homepage-new/hybrid.png',
+    image: '/homepage-new/hybrid.webp',
     datasheet: '/datasheets/products/Qbits-Hybride-Inverter-Catalogue-3.pdf',
   },
 ];

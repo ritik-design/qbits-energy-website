@@ -1,7 +1,7 @@
 ---
-title: "PM Surya Ghar 2026 Update, What Changed and What It Means for You"
+title: "PM Surya Ghar 2026 Update: What Changed"
 excerpt: "The PM Surya Ghar 2026 update brings ALMM Phase III mandates, faster DISCOM approvals, and state top-up changes. Here is what every homeowner must know before applying."
-description: "PM Surya Ghar 2026 update: ALMM Phase III now mandatory, subsidy amounts unchanged at ₹78,000 cap, state top-up revisions, faster portals, and common rejection reasons."
+description: "PM Surya Ghar 2026 update: ALMM Phase III now mandatory, subsidy unchanged at ₹78,000 cap, state top-up revisions, faster portals, and rejection reasons."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -132,7 +132,7 @@ The empanelled vendor qualification bar also rose in 2025-26. DISCOMs now requir
 - A minimum number of completed installations with DISCOM commissioning records (the threshold varies by state but is typically 10–25 completed rooftop systems).
 - Updated bank guarantee amounts in line with revised guidelines.
 
-This has reduced the number of low-quality pop-up installers who were taking deposits and delivering substandard work. The practical benefit for homeowners is that any vendor you find on the PM Surya Ghar portal has cleared a higher baseline than before. Read the [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) to understand how to verify a vendor's current standing before you pay. Installers looking to meet the tightened bar can review what it takes to [become a certified channel partner](https://heavengreenenergy.com/become-channel-partner/) with an established EPC network.
+This has reduced the number of low-quality pop-up installers who were taking deposits and delivering substandard work. The practical benefit for homeowners is that any vendor you find on the PM Surya Ghar portal has cleared a higher baseline than before. Read the [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) to understand how to verify a vendor's current standing before you pay. Installers looking to meet the tightened bar can review what it takes to become a certified channel partner with an established EPC network.
 
 ## The Qbits 5-Gate Subsidy Readiness Checklist
 
@@ -150,7 +150,7 @@ Most subsidy rejections in 2026 trace back to one of five gates in the applicati
 
 5. **Gate 5, Commissioning report and inspection sequence**: The DISCOM inspection must happen first. Only after the inspector signs off can the empanelled vendor upload the commissioning report. Uploading the report before the inspection is complete voids that report submission.
 
-This framework applies in every state. The specific documents differ slightly (some DISCOMs require an electrical safety certificate from a licenced wireman; some states require a building completion certificate and CEIG-approved [electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) before final sign-off), but all five gates exist across every DISCOM in the country.
+This framework applies in every state. The specific documents differ slightly (some DISCOMs require an electrical safety certificate from a licenced wireman; some states require a building completion certificate and CEIG-approved electrical drawings before final sign-off), but all five gates exist across every DISCOM in the country.
 
 ## Application Process: Step-by-Step for 2026
 

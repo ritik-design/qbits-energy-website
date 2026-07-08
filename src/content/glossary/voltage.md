@@ -95,7 +95,7 @@ Safety. DC above 50 V and AC above 50 V are shock hazards. Solar DC strings of 6
 
 Standards compliance. Indian grid code specifies voltage envelopes for connection.
 
-Inverter selection. Single-phase vs three-phase choice depends on service voltage.
+Inverter selection. Single-phase vs three-phase choice depends on service voltage; see [Single-Phase vs 3-Phase Solar Inverter, Which Fits Your Home or Business?](/blog/single-vs-3-phase-inverter/) for how to identify your connection type and DISCOM capacity limits.
 
 ## Indian voltage levels
 
@@ -129,7 +129,7 @@ A 14-module string with each module Voc 41 V, Vmp 34 V:
 At cold winter mornings, Voc temperature derate adds ~5 percent:
 - Cold Voc = 574 × 1.05 = 603 V
 
-Must stay below inverter maximum DC input (e.g., 600 V residential, 1500 V utility).
+Must stay below inverter maximum DC input (e.g., 600 V residential, 1500 V utility). See [Inverter Voltage: String Voltage vs MPPT Voltage in Solar Inverters India 2026](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/) for cold-zone Voc spike calculations and a full string-design worked example.
 
 ### Voltage drop in DC cables
 

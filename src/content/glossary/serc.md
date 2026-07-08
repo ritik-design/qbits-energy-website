@@ -85,7 +85,7 @@ Your state has its own electricity regulator. They decide how much you pay per u
 
 ## Why SERCs matter
 
-Retail tariffs. The single biggest factor in solar payback calculation — run your own numbers with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) once you know your state's tariff order.
+Retail tariffs. The single biggest factor in solar payback calculation — run your own numbers with a solar cost and savings calculator once you know your state's tariff order.
 
 Net metering rules. Cap, credit value and carry-forward rules are state-specific.
 

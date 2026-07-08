@@ -198,11 +198,11 @@ Document combiner box layout on the [single line diagram](/glossary/single-line-
 
 ## Indian market context
 
-Major Indian combiner box manufacturers: Tata Power Solar, Aerovironment, Phoenix Contact, Schneider Electric, Sterling and Wilson, BCH, Chint India. These sit alongside other [balance of system components](https://heavengreenenergy.com/products/balance-of-system/) an EPC procures for the same DC array.
+Major Indian combiner box manufacturers: Tata Power Solar, Aerovironment, Phoenix Contact, Schneider Electric, Sterling and Wilson, BCH, Chint India. These sit alongside other balance of system components an EPC procures for the same DC array.
 
 Smart combiner adoption is increasing as utility plants demand string-level monitoring.
 
-Utility plants under SECI tenders specify IP65 IP66 combiner boxes as standard. Getting the combiner box layout and cable routing right at the design stage is part of the [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) process for larger installations.
+Utility plants under SECI tenders specify IP65 IP66 combiner boxes as standard. Getting the combiner box layout and cable routing right at the design stage is part of the rooftop detailed engineering design process for larger installations.
 
 CEIG drawing approval verifies combiner box specifications.
 

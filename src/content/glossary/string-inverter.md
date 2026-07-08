@@ -222,7 +222,7 @@ Plan DC oversize between 115 and 125 percent for Indian rooftops unless the inve
 
 [ALMM listing](/glossary/almm-list/) is mandatory for any string inverter sold under PM Surya Ghar, MNRE programmes and state subsidies. [BIS certification](/glossary/bis-certification/) under IS 16221 and IS 17387 applies. CEA grid standards govern interconnection.
 
-Common string inverter brands in India include Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Huawei, Sineng, Fronius, SMA, Tata Power Solar and Luminous; EPCs evaluating vendors can cross-check options against our [solar inverter manufacturers in India](/blog/solar-inverter-manufacturers-in-india/) evaluation guide, or source stock directly through Heaven Green Energy's [solar inverter shop](https://heavengreenenergy.com/products/solar-inverters/). Most three-phase utility-string inverters used in large plants are sourced from Sungrow, Sineng, Huawei and Solis as of 2026.
+Common string inverter brands in India include Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Huawei, Sineng, Fronius, SMA, Tata Power Solar and Luminous; EPCs evaluating vendors can cross-check options against our [solar inverter manufacturers in India](/blog/solar-inverter-manufacturers-in-india/) evaluation guide, or source stock directly through Heaven Green Energy's solar inverter shop. Most three-phase utility-string inverters used in large plants are sourced from Sungrow, Sineng, Huawei and Solis as of 2026.
 
 CEIG approvals are needed for systems above 10 kW in many states, with the inverter forming a key part of the single-line diagram.
 

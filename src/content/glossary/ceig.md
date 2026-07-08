@@ -167,7 +167,7 @@ State-specific document format requirements.
 
 ## Best practices
 
-Engage a licensed electrical contractor familiar with the local CEIG, or work with a firm that already prepares [CEIG-compliant electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) as part of the design package.
+Engage a licensed electrical contractor familiar with the local CEIG, or work with a firm that already prepares CEIG-compliant electrical drawings as part of the design package.
 
 Submit drawings early, ideally during installation phase.
 

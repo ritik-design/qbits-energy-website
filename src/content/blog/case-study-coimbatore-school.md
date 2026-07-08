@@ -1,7 +1,7 @@
 ---
 title: "Case Study, 25 kW Solar at a Coimbatore CBSE School"
 excerpt: "A Coimbatore CBSE school cut its electricity bill by ₹3.2 Lakh/year with a 25 kW on-grid solar system, 85% self-consumption, 4-year payback, and TNEB net metering in place."
-description: "How a 1,200-student Coimbatore CBSE school achieved 85% solar self-consumption, ₹3–3.5 Lakh annual savings, and a 4-year payback with a 25 kW Qbits on-grid system and TNEB net metering."
+description: "How a 1,200-student Coimbatore CBSE school achieved 85% solar self-consumption, ₹3–3.5 Lakh annual savings, and a 4-year payback with TNEB net metering."
 category: "Case Study"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -116,7 +116,7 @@ The [site survey](/glossary/site-survey/) identified 160 square metres of unshad
 - **String configuration**: 21 panels per string, 3 strings, Voc at standard test conditions 43.2 V × 21 = 907 V (within the inverter's 1,000 V maximum DC input)
 - **MPPT channels**: Two, allowing the installer to split the array across two roof sections with slightly different shading profiles
 - **Panel type**: 400 Wp monocrystalline [PERC](/glossary/perc-cell/) half-cut modules, [ALMM-listed](/glossary/almm-list/)
-- **Mounting structure**: Hot-dip galvanised MS railing at 10° tilt, anchored without penetrating the waterproofing membrane using ballast-weighted brackets, an approach worked out through detailed [rooftop engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) rather than a generic bracket layout
+- **Mounting structure**: Hot-dip galvanised MS railing at 10° tilt, anchored without penetrating the waterproofing membrane using ballast-weighted brackets, an approach worked out through detailed rooftop engineering design rather than a generic bracket layout
 
 The inverter was installed in the electrical room adjacent to the main distribution board, an air-conditioned space that ensures the inverter operates below 35 °C ambient, avoiding the thermal derating that affects rooftop-mounted inverters in Tamil Nadu's 40–45 °C summer afternoons. For a 25 kW unit drawing ₹14 Lakh in capital expenditure, protecting the inverter from thermal stress adds years to its operational life.
 
@@ -207,7 +207,7 @@ The school gathered the following documents for the TANGEDCO net metering applic
 - Latest three months of electricity bills (for sanctioned load verification)
 - School's property tax receipt and ownership document
 - Society/trust registration certificate
-- [Single-line diagram](https://heavendesigns.in/electrical-ceig-drawings/) of the proposed solar installation, signed by a licensed electrical contractor
+- Single-line diagram of the proposed solar installation, signed by a licensed electrical contractor
 - Technical specification of the inverter and panels, including ALMM certification numbers
 - No-objection certificate from the school's electrical contractor
 
@@ -261,7 +261,7 @@ Schools in the 20–50 kW range looking for a dependable on-grid inverter with a
 
 The Qbits TLD-25K is the inverter used in this Coimbatore school installation. It carries a [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) (not prorated) which means if the unit fails in year 10, the school receives a new inverter at no cost, with no depreciated value deduction. For a school trust managing a 25-year asset, this warranty depth is financially material. The IP66 enclosure handles Coimbatore's monsoon season without additional protective housing, and the AI-powered WhatsApp monitoring pushes daily generation summaries to the school's management team automatically.
 
-Schools that need a single turnkey partner for the full project, not just equipment supply, can also evaluate [commercial solar installation](https://heavengreenenergy.com/commercial-solar/) services covering site survey, structural design, and EPC delivery in one contract.
+Schools that need a single turnkey partner for the full project, not just equipment supply, can also evaluate commercial solar installation services covering site survey, structural design, and EPC delivery in one contract.
 
 The on-grid product range for schools and other C&I buyers:
 

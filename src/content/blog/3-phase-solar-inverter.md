@@ -1,7 +1,7 @@
 ---
-title: "3-Phase Solar Inverter in India, Complete Buyer's Guide"
+title: "3-Phase Solar Inverter in India: Buyer's Guide"
 excerpt: "A 3 phase solar inverter India installation is mandatory for any sanctioned load above 10 kW. This guide covers sizing, THD limits, AD tax benefits, and the 6-step C&I checklist."
-description: "Complete buyer's guide to 3-phase solar inverters in India, who needs them, how to size them, THD compliance, accelerated depreciation benefits, net metering rules, and the Qbits TLD/HT product range."
+description: "Buyer's guide to 3-phase solar inverters in India: who needs them, how to size them, THD compliance, depreciation benefits, and net metering rules."
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "20 min"
@@ -59,7 +59,7 @@ The Central Electricity Authority mandates three-phase connections for loads abo
 
 Facility types that typically require three-phase solar inverters:
 
-- **Textile mills and garment factories**: motor-driven looms, compressors, and VFD-controlled spindles draw balanced three-phase loads ranging from 50 kW to several MW. Even a mid-sized weaving unit with 200 looms typically runs a 200–500 kW sanctioned demand. These are the same facility profiles served by [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) providers who handle the civil, electrical, and structural scope alongside the inverter itself.
+- **Textile mills and garment factories**: motor-driven looms, compressors, and VFD-controlled spindles draw balanced three-phase loads ranging from 50 kW to several MW. Even a mid-sized weaving unit with 200 looms typically runs a 200–500 kW sanctioned demand. These are the same facility profiles served by industrial solar installation providers who handle the civil, electrical, and structural scope alongside the inverter itself.
 - **Cold-storage and food processing**: refrigeration compressors are the dominant load, almost exclusively three-phase. A 500-tonne cold-store typically carries a 100–150 kW connected load.
 - **Hospitals and clinics**: central sterile supply units, imaging equipment (MRI, CT), and HVAC all require three-phase supply. Power continuity requirements make the HT hybrid series particularly relevant here.
 - **Shopping malls and commercial complexes**: chillers, escalators, and common-area lighting panels all draw three-phase power. Gross connected load for a 50,000 sq ft mall routinely exceeds 500 kW.
@@ -195,7 +195,7 @@ The [net metering India complete guide](/blog/net-metering-india-complete-guide/
 
 ### Three-Phase Net Metering Application Process
 
-1. **Apply to the DISCOM** with the technical proposal ([single-line diagram](/glossary/single-line-diagram/), inverter datasheet, proposed panel layout). Many C&I buyers outsource the [electrical drawing and CEIG documentation](https://heavendesigns.in/electrical-ceig-drawings/) package to a specialist engineering firm rather than relying on the EPC's in-house team.
+1. **Apply to the DISCOM** with the technical proposal ([single-line diagram](/glossary/single-line-diagram/), inverter datasheet, proposed panel layout). Many C&I buyers outsource the electrical drawing and CEIG documentation package to a specialist engineering firm rather than relying on the EPC's in-house team.
 2. **DISCOM technical inspection**: the distribution engineer verifies the proposed connection point and metering arrangement.
 3. **Bidirectional meter installation**: for three-phase connections, the meter must be a three-phase, four-wire bidirectional energy meter capable of recording import and export on each phase separately.
 4. **Agreement signing**: interconnection agreement and net metering agreement with the DISCOM.

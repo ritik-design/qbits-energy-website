@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 ## What is deep discharge
 
-Deep discharge refers to discharging a battery to a low state of charge, typically below 20 percent SOC for lithium-ion batteries or below 50 percent SOC for lead acid batteries. The exact threshold depends on chemistry: each chemistry has its own depth-of-discharge (DOD) tolerance based on cell physics.
+Deep discharge refers to discharging a battery to a low state of charge, typically below 20 percent SOC for lithium-ion batteries or below 50 percent SOC for lead acid batteries. The exact threshold depends on chemistry: each chemistry has its own depth-of-discharge (DOD) tolerance based on cell physics, a gap covered in full in [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/).
 
 Going beyond recommended DOD damages cells through various mechanisms:
 - Lithium-ion: SEI layer growth, lithium plating, electrode mechanical stress, possible thermal issues
@@ -77,7 +77,7 @@ Going beyond recommended DOD damages cells through various mechanisms:
 
 Modern lithium battery management systems (BMS) prevent damaging deep discharge through low-voltage cutoff. Users cannot accidentally over-discharge protected lithium packs. Lead acid systems may include charge controller low-voltage disconnect, but discipline is also user responsibility.
 
-For Indian solar storage, understanding deep discharge limits is essential for system sizing, battery selection and operation. Operating within recommended DOD significantly extends battery service life.
+For Indian solar storage, understanding deep discharge limits is essential for system sizing, battery selection and operation. See [Off-Grid Solar Battery Bank Sizing, India Complete Guide](/blog/off-grid-battery-bank-sizing-india/) for a full worked methodology using DOD. Operating within recommended DOD significantly extends battery service life.
 
 ## Why deep discharge matters
 

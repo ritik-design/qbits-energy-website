@@ -1,7 +1,7 @@
 ---
-title: "Case Study (10 kW Solar on a Jaipur Villa) 4-Year Payback"
+title: "Case Study, 10kW Solar on a Jaipur Villa"
 excerpt: "A Jaipur villa owner cut a ₹19,000/month bill to near-zero with a 10 kW on-grid solar system. Rajasthan irradiance + IP66 inverter = 4-year payback."
-description: "Real numbers from a 10 kW on-grid solar installation on a Jaipur 4BHK villa, generation, savings, JVVNL net metering, Rajasthan subsidy, and 4-year payback math."
+description: "Real numbers from a 10 kW on-grid solar installation on a Jaipur 4BHK villa: generation, savings, JVVNL net metering, and a 4-year payback."
 category: "Case Study"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -95,7 +95,7 @@ Following a structured [residential solar design](https://surgepv.com/residentia
 
   To compensate and reach closer to the 10 kW inverter's rated input, the installer specified 25 panels of 400 Wp rather than 20, yielding 10 kWp nominal. When operating temperature is accounted for, the effective DC input during peak summer hours aligns with the inverter's optimal input range without forced clipping.
 
-- **String configuration**: 2 MPPT inputs, String 1 = 13 panels (5,200 Wp), String 2 = 12 panels (4,800 Wp), both south-facing, no shading obstructions confirmed via a pre-installation [site survey](https://heavendesigns.in/site-survey-land-feasibility-services/)
+- **String configuration**: 2 MPPT inputs, String 1 = 13 panels (5,200 Wp), String 2 = 12 panels (4,800 Wp), both south-facing, no shading obstructions confirmed via a pre-installation site survey
 - **Mounting**: Hot-dip galvanised MS mounting structure at 10° tilt (optimised for Jaipur latitude 26.9° N, balancing annual yield and monsoon wind load)
 - **Protection**: AC/DC isolators, DC SPD (surge protection device), AC MCB, RCCB at the distribution board, CEIG compliance for the Rajasthan grid connection
 
@@ -178,7 +178,7 @@ Before applying, the installer confirmed three technical preconditions: (a) the 
 
 ### Step 2: JVVNL Online Application
 
-The application was submitted on the JVVNL consumer portal with the following documents: copy of electricity connection, site plan showing panel layout, a [single-line diagram](https://heavendesigns.in/electrical-ceig-drawings/) of the solar system, inverter BIS/ALMM certificate, and the installer's credentials.
+The application was submitted on the JVVNL consumer portal with the following documents: copy of electricity connection, site plan showing panel layout, a single-line diagram of the solar system, inverter BIS/ALMM certificate, and the installer's credentials.
 
 ### Step 3: Technical Inspection
 
@@ -311,7 +311,7 @@ For buyers whose properties face more than two hours of daily outages, or who ar
 
 ## Where Qbits Fits in a Jaipur Villa Installation
 
-Villa owners in Jaipur who prioritise long-term financial return over short-term cost minimisation land on Qbits for three concrete reasons: the 12-year full replacement warranty, the IP66 rating that the Rajasthan climate demands, and the AI-powered WhatsApp monitoring that removes the anxiety of owning an asset you cannot see every day. Owners who also want a single turnkey partner for the physical build, not just the inverter, can evaluate [residential solar installation](https://heavengreenenergy.com/residential-solar/) services covering everything from mounting to commissioning.
+Villa owners in Jaipur who prioritise long-term financial return over short-term cost minimisation land on Qbits for three concrete reasons: the 12-year full replacement warranty, the IP66 rating that the Rajasthan climate demands, and the AI-powered WhatsApp monitoring that removes the anxiety of owning an asset you cannot see every day. Owners who also want a single turnkey partner for the physical build, not just the inverter, can evaluate residential solar installation services covering everything from mounting to commissioning.
 
 The Qbits TLS-10K used in this case study is from the TLS series, purpose-built for single-phase residential and light commercial applications. For similar villas considering three-phase connections (common in properties with large motor loads), the TLD series covers the same power range.
 

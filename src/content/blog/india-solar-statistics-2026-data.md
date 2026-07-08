@@ -1,7 +1,7 @@
 ---
 title: "India Solar Statistics 2026, Complete Data Reference"
 excerpt: "India solar statistics 2026: 100+ GW total installed capacity, 13.9 GW rooftop, PM Surya Ghar crossing 10 million connections. Complete data reference for capacity, investment, jobs, and 2030 targets."
-description: "Complete India solar statistics 2026 data reference. Total capacity, rooftop solar breakdown, PM Surya Ghar progress, state rankings, investment figures, employment, and 500 GW by 2030 pathway."
+description: "Complete India solar statistics for 2026: total capacity, rooftop breakdown, PM Surya Ghar progress, state rankings, investment figures, and 2030 targets."
 category: Industry
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -207,7 +207,7 @@ The [IRENA Renewable Energy and Jobs Annual Review 2025](https://www.irena.org/p
 
 Indirect and induced employment (from equipment supply chains, financial services, logistics, and grid infrastructure) adds approximately 600,000–800,000 additional positions, bringing the broader solar-adjacent employment count to approximately 900,000 as of 2025.
 
-India has committed to creating 500,000 additional green energy jobs by 2030 under its NDC commitments and the National Green Hydrogen Mission ancillary targets. Installers looking to join this growing workforce can explore [becoming a channel partner](https://heavengreenenergy.com/become-channel-partner/) with an established solar EPC network.
+India has committed to creating 500,000 additional green energy jobs by 2030 under its NDC commitments and the National Green Hydrogen Mission ancillary targets. Installers looking to join this growing workforce can explore becoming a channel partner with an established solar EPC network.
 
 ## 2030 Pathway: The Road to 500 GW
 

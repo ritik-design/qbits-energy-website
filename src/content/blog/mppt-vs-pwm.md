@@ -1,7 +1,7 @@
 ---
-title: "MPPT vs PWM Charge Controller, Why MPPT Wins Every Time"
+title: "MPPT vs PWM Charge Controller Comparison"
 excerpt: "MPPT vs PWM: MPPT charge controllers extract 10–30% more energy from the same panels by tracking the maximum power point. Learn when PWM still makes sense and when MPPT is mandatory."
-description: "Compare MPPT vs PWM charge controllers, how each works, the energy loss in PWM systems, a worked 300W example, and when to choose MPPT for off-grid solar in India."
+description: "Compare MPPT vs PWM charge controllers: how each works, energy loss in PWM systems, a worked 300W example, and when to choose MPPT for off-grid solar."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -33,7 +33,7 @@ faqs:
     a: "Technically yes, but the energy waste is extreme. A modern 300 W panel typically has Vmp around 34 to 38 V. A PWM charge controller on a 12 V battery would clamp that panel to 12 V, recovering only about one-third of the available voltage and therefore one-third of the available power. A 300 W panel paired with a PWM 12 V controller effectively behaves like a 100 W panel. For any modern panel above 150 W, MPPT is the only sensible choice."
 ---
 
-Every off-grid solar system needs something to manage the flow of power from the panel to the battery. That job belongs to the charge controller, one of the core [balance-of-system components](https://heavengreenenergy.com/products/balance-of-system/) alongside the wiring, protection gear, and mounting hardware that hold a solar installation together. Two technologies compete for it: PWM (Pulse Width Modulation) and MPPT (Maximum Power Point Tracking). On paper, they both connect a panel to a battery. In practice, they produce dramatically different amounts of energy from the same equipment.
+Every off-grid solar system needs something to manage the flow of power from the panel to the battery. That job belongs to the charge controller, one of the core balance-of-system components alongside the wiring, protection gear, and mounting hardware that hold a solar installation together. Two technologies compete for it: PWM (Pulse Width Modulation) and MPPT (Maximum Power Point Tracking). On paper, they both connect a panel to a battery. In practice, they produce dramatically different amounts of energy from the same equipment.
 
 This guide explains how each technology works, why the efficiency gap is as large as it is, and exactly when MPPT is mandatory, versus the narrow situations where PWM might still make sense.
 

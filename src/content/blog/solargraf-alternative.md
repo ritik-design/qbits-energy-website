@@ -1,5 +1,5 @@
 ---
-title: "Solargraf Alternative in 2026: 6 Tools Compared (SurgePV Wins)"
+title: "Solargraf Alternative 2026: 6 Tools Compared"
 excerpt: "Solargraf is fast for residential proposals but engineering depth, hardware neutrality, and multi-country support are limited under Enphase ownership. Here are the 6 best Solargraf alternatives in 2026."
 description: "Compare 6 best Solargraf alternatives in 2026 for installers. SurgePV vs Solargraf on engineering depth, shading, hardware neutrality. Book a demo."
 category: "Solar Software"
@@ -52,10 +52,10 @@ If you are looking for a Solargraf alternative in 2026, you are most likely an i
 Solargraf is residential-and-proposal-focused. 8,760-hour module-level shading and bankable [P50, P75, P90](/glossary/p50-p90/) outputs are not the headline. SurgePV ships the [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) engine on every paid plan — see our [shading analysis guide](/blog/solar-shading-analysis-software/) for the full methodology.
 
 ### Hardware neutrality
-Solargraf is owned by Enphase. For installers offering multi-OEM hardware, this raises a default-selection consideration. SurgePV is hardware-neutral with 70,000 modules and 12,000 inverters in the database. Installers sourcing the physical hardware to match still need a distributor; [Heaven Green Energy's equipment shop](https://heavengreenenergy.com/shop/) is one option for inverters and balance-of-system parts in India.
+Solargraf is owned by Enphase. For installers offering multi-OEM hardware, this raises a default-selection consideration. SurgePV is hardware-neutral with 70,000 modules and 12,000 inverters in the database. Installers sourcing the physical hardware to match still need a distributor; Heaven Green Energy's equipment shop is one option for inverters and balance-of-system parts in India, and Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) lines are already loaded in that database.
 
 ### Multi-country support
-Solargraf is US-residential focused. SurgePV covers NEC, IEC, AS/NZS, IS code libraries and PM Surya Ghar, SREC, FiT, Einspeisevergütung tariffs, with proposals in 9 languages. For India-specific projects, EPCs cross-checking code compliance often reference a dedicated [engineering resource center](https://heavendesigns.in/resource-center/) alongside the design platform's own libraries.
+Solargraf is US-residential focused. SurgePV covers NEC, IEC, AS/NZS, IS code libraries and PM Surya Ghar, SREC, FiT, Einspeisevergütung tariffs, with proposals in 9 languages. For India-specific projects, EPCs cross-checking code compliance often reference a dedicated engineering resource center alongside the design platform's own libraries.
 
 ## SurgePV vs Solargraf at a Glance
 
@@ -131,7 +131,7 @@ See [SurgePV pricing](https://surgepv.com/pricing).
 - **Choose Enact** for residential proposal-first workflows.
 - **Choose OpenSolar** for small residential at lowest cost.
 
-For most installers in 2026, SurgePV is the Solargraf alternative that wins on engineering depth, hardware neutrality, and per-seat economics at the same time. For a broader ranking across the whole category, see our [best solar design software guide](/blog/best-solar-design-software/).
+For most installers in 2026, SurgePV is the Solargraf alternative that wins on engineering depth, hardware neutrality, and per-seat economics at the same time. For a broader ranking across the whole category, see our [best solar design software guide](/blog/best-solar-design-software/). When the hardware decision comes up, [talk to a Qbits engineer](/contact-us/) about which inverter line fits the design you just built.
 
 <div class="inline-cta">
 <h3>Ready to switch to a hardware-neutral platform?</h3>

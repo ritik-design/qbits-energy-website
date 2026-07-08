@@ -1,7 +1,7 @@
 ---
-title: "Best 3kW Solar Inverter in India 2026, Reviewed for 2BHK Homes"
+title: "Best 3kW Solar Inverter in India 2026"
 excerpt: "The best 3kW solar inverter in India maximises PM Surya Ghar subsidy at ₹78,000, the peak benefit threshold. Five inverters reviewed for 2BHK loads, with cost and payback data."
-description: "Compare the best 3kW solar inverters in India 2026. On-grid and hybrid picks reviewed for 2BHK homes, with PM Surya Ghar subsidy analysis, load calculator, and warranty breakdown."
+description: "Compare the best 3kW solar inverters in India 2026 for 2BHK homes: on-grid and hybrid picks, PM Surya Ghar subsidy analysis, and warranty breakdown."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -275,7 +275,7 @@ The table below uses a standard 3 kW system bill of materials (8 × 400 Wp panel
 | **Goodwe GW3000D-NS** | ₹22,000–₹30,000 | ₹1,42,000–₹1,80,000 | ₹78,000 | **₹64,000–₹1,02,000** |
 | **Growatt MID-3KTL3-X** | ₹18,000–₹25,000 | ₹1,38,000–₹1,75,000 | ₹78,000 | **₹60,000–₹97,000** |
 
-For homeowners who want a like-for-like cost estimate before calling an installer, a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) is a useful sanity check against the table above. Annual savings at a ₹9/unit tariff on 15 units/day average generation = ₹49,275. Payback ranges from 3.5 years (Growatt, lowest net cost, optimistic tariff) to 5.5 years (Qbits HS-3K hybrid, cautious tariff estimate). After payback, the system generates free electricity for 15–20 years of panel life.
+For homeowners who want a like-for-like cost estimate before calling an installer, a solar cost and savings calculator is a useful sanity check against the table above. Annual savings at a ₹9/unit tariff on 15 units/day average generation = ₹49,275. Payback ranges from 3.5 years (Growatt, lowest net cost, optimistic tariff) to 5.5 years (Qbits HS-3K hybrid, cautious tariff estimate). After payback, the system generates free electricity for 15–20 years of panel life.
 
 > **3 kW solar systems in India generated an average of 4,200–5,500 units annually in 2024–25, with peak sun hour variations of 4.0–5.5 hours depending on state and season.** *Source - [NREL India Solar Resource Data](https://www.nrel.gov/), 2025.*
 
@@ -301,7 +301,7 @@ Even buyers who have researched thoroughly make avoidable errors at the purchase
 
 **Mistake 1: Choosing on-grid in a power-cut area.** The most costly mistake in this size category. An on-grid inverter follows the IEC 62116 anti-islanding protocol, it disconnects from the load the instant the grid fails, regardless of solar availability. Homeowners in power-cut states who install on-grid inverters discover on the first hot afternoon that their solar system produces nothing during the grid outage. The solution is either a hybrid inverter from the start or a traditional battery backup system running in parallel, which costs more and reduces the overall system efficiency.
 
-**Finding a vetted installer.** Buyers who do not already have a shortlisted vendor can start with a [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) to compare quotes before locking in a brand.
+**Finding a vetted installer.** Buyers who do not already have a shortlisted vendor can start with a local solar installer directory to compare quotes before locking in a brand.
 
 **Mistake 2: Buying without verifying the installer's portal registration.** PM Surya Ghar subsidy is disbursed only when an application is submitted through the national portal by a registered vendor. An unregistered installer (regardless of quote price or installation quality) cannot complete the subsidy application. Before signing any agreement, ask the installer to show you their vendor registration number on the PM Surya Ghar portal.
 

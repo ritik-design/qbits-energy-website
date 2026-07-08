@@ -1,7 +1,7 @@
 ---
 title: "Case Study, 5 kW Hybrid Solar on a 3 BHK in Lucknow"
 excerpt: "How a Lucknow family cut their electricity bill by 82% and eliminated power-cut disruption with a 5 kW hybrid solar system and PM Surya Ghar subsidy, the complete journey."
-description: "Real case study of a 5 kW hybrid solar installation on a 3 BHK home in Lucknow, UP. Covers PM Surya Ghar subsidy claim, hybrid inverter + LFP battery selection, UPPCL net metering, and first-year bill analysis."
+description: "Real case study of a 5 kW hybrid solar installation on a 3 BHK home in Lucknow: PM Surya Ghar subsidy, battery selection, and UPPCL net metering."
 category: "Case Study"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -132,7 +132,7 @@ The installer submitted the subsidy application on behalf of the family after UP
 
 UPPCL's net metering process for Lucknow (LESA area) involves:
 
-1. **Online application submission:** On the UPPCL consumer portal, with system details, installer details, and a [structural safety certificate](https://heavendesigns.in/solar-civil-and-structural-engineering/).
+1. **Online application submission:** On the UPPCL consumer portal, with system details, installer details, and a structural safety certificate.
 2. **Technical scrutiny:** LESA subdivision office reviews the application and raises queries if documentation is incomplete.
 3. **Site inspection:** LESA engineers visit to verify the installation matches the application.
 4. **Bidirectional meter installation:** LESA installs a [bidirectional meter](/glossary/bidirectional-meter/) (replacing the existing single-direction meter).
@@ -252,4 +252,4 @@ The Verma family's system used a Qbits HS-5 hybrid inverter with AI WhatsApp mon
 - **[Solar Year 1 Ownership Guide](/blog/solar-year-1-ownership-guide-india/)**: what to expect in the first 12 months as a new solar homeowner.
 - **[PM Surya Ghar Application Steps](/blog/pm-surya-ghar-apply-online/)**: step-by-step portal guide for UP residents applying under the national scheme.
 
-For families in Lucknow, Kanpur, Varanasi, Agra, and other UP cities considering hybrid solar with UPPCL net metering, [talk to a Qbits engineer](/contact-us/), our UP service network can provide a site-specific assessment, fog-adjusted generation estimate, and PM Surya Ghar subsidy calculation. Families who prefer a single turnkey contractor for the physical build as well as equipment can also compare full [residential solar installation](https://heavengreenenergy.com/residential-solar/) packages that bundle mounting, wiring, and commissioning.
+For families in Lucknow, Kanpur, Varanasi, Agra, and other UP cities considering hybrid solar with UPPCL net metering, [talk to a Qbits engineer](/contact-us/), our UP service network can provide a site-specific assessment, fog-adjusted generation estimate, and PM Surya Ghar subsidy calculation. Families who prefer a single turnkey contractor for the physical build as well as equipment can also compare full residential solar installation packages that bundle mounting, wiring, and commissioning.

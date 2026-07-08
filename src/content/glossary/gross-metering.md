@@ -78,7 +78,7 @@ In Indian rooftop solar, gross metering is the secondary mechanism after net met
 
 Picture two pipes between your house and the grid. One pipe carries solar power out at a wholesale price. The other pipe carries grid power in at a retail price. The two pipes do not interact. The DISCOM pays you for what flows out, and you pay the DISCOM for what flows in. No netting, no carry-forward, no balance.
 
-If the retail price is ₹7 per kWh and the wholesale price is ₹3 per kWh, you make ₹3 per solar kWh and pay ₹7 per grid kWh. You earn less per unit of solar than under net metering, where every solar unit offsets a retail unit.
+If the retail price is ₹7 per kWh and the wholesale price is ₹3 per kWh, you make ₹3 per solar kWh and pay ₹7 per grid kWh. You earn less per unit of solar than under net metering, where every solar unit offsets a retail unit. See [Gross Metering vs Net Metering, Which Should You Choose?](/blog/gross-metering-vs-net-metering/) for a worked payback comparison between the two mechanisms.
 
 Gross metering exists because some DISCOMs cannot absorb the revenue loss from widespread net metering. Where the regulator has chosen gross, customers either accept the lower returns or stay off the rooftop programme.
 
@@ -225,7 +225,7 @@ Tamil Nadu was the first major state to move large commercial customers from net
 
 The CERC Tariff Regulations and Forum of Regulators have published guidance on FIT setting methodology, which most state regulators follow with local variations.
 
-PM Surya Ghar Muft Bijli Yojana is restricted to net-metered residential customers in most state implementations. Gross-metered installations do not receive central subsidy.
+PM Surya Ghar Muft Bijli Yojana is restricted to net-metered residential customers in most state implementations. Gross-metered installations do not receive central subsidy; see the [PM Surya Ghar Muft Bijli Yojana Complete 2026 Guide](/blog/pm-surya-ghar-yojana-complete-guide/) for the full eligibility rules.
 
 State DISCOMs and SERCs revise FIT every two to three years through a public consultation process. Existing contracts are usually grandfathered, but new connections enter the latest tariff order.
 

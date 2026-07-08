@@ -59,8 +59,8 @@ Every Authority Having Jurisdiction wants a slightly different bundle, but the s
 2. **Electrical layout.** Module locations on the roof or ground, string assignments, [MLPE](/glossary/mlpe/) positions if used, conduit runs, and combiner or string inverter locations.
 3. **[Single line diagram](/blog/solar-sld-software/) (SLD).** The schematic that walks from PV array through DC disconnect, inverter, AC disconnect, production meter, and main service panel. This is the most-scrutinized sheet.
 4. **Equipment datasheets.** Module, inverter, optimizer, and racking cut sheets, usually appended as PDF pages.
-5. **Code compliance labels.** NEC 690 and 705 labels for the US, IEC 60364-7-712 for Europe, AS-NZS 5033 for Australia and New Zealand, IS 16221 for India.
-6. **Structural attestation.** A roof attachment schedule and, in many jurisdictions, a stamped letter from a licensed structural engineer, the kind of [structural and civil engineering](https://heavendesigns.in/solar-civil-and-structural-engineering/) work Heaven Designs handles for stamped submittals.
+5. **Code compliance labels.** NEC 690 and 705 labels for the US, IEC 60364-7-712 for Europe, AS-NZS 5033 for Australia and New Zealand, IS 16221 for India — the same standard [Qbits' on-grid](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/) are certified against.
+6. **Structural attestation.** A roof attachment schedule and, in many jurisdictions, a stamped letter from a licensed structural engineer, the kind of structural and civil engineering work Heaven Designs handles for stamped submittals.
 7. **AHJ-specific extras.** Some cities want a placard schedule, others want a fire access diagram, others want a [battery storage addendum](/blog/solar-plus-storage-design-software/).
 
 Skip one of these and the AHJ comes back with a correction notice, costing you a week.
@@ -97,7 +97,7 @@ The honest answer is that both have a place. Here is the framing I give installe
 - The project is a complex commercial or utility-scale system that needs detailed structural stamps and PE seals.
 - You are early in your business and one or two designers cannot justify a $1,899 annual seat.
 
-For overflow, hybrid permit packs, and stamped commercial drawings, Heaven Designs ([heavendesigns.in](https://heavendesigns.in/)) is the sister brand we point installers to. They use SurgePV under the hood, so the deliverable lands in the same file format your in-house team already understands.
+For overflow, hybrid permit packs, and stamped commercial drawings, Heaven Designs (heavendesigns.in) is the sister brand we point installers to. They use SurgePV under the hood, so the deliverable lands in the same file format your in-house team already understands.
 
 Pair either approach with [QuickEstimate](https://quickestimate.co/) for the upstream takeoff and feasibility step before the permit pack starts.
 
@@ -146,7 +146,7 @@ The biggest gap is the CAD export. If your CAD operator cannot drop the SLD into
 
 **5 to 15 person residential installers doing 100 to 400 jobs per year.** Buy the 3-user or 5-user team plan and run permit design in-house. The per-seat price drops to $1,299 and you get consistent output across the team, a workflow covered further in our [residential solar design software](/blog/residential-solar-design-software/) guide.
 
-**EPCs doing commercial and utility-scale.** Use [SurgePV](https://surgepv.com/) for the engineering model, yield report, and base electrical drawings, the same territory our [utility-scale solar design software](/blog/utility-scale-solar-design-software/) comparison covers. Hand the package to your in-house PE for stamping, or route the stamp through Heaven Designs.
+**EPCs doing commercial and utility-scale.** Use [SurgePV](https://surgepv.com/) for the engineering model, yield report, and base electrical drawings, the same territory our [utility-scale solar design software](/blog/utility-scale-solar-design-software/) comparison covers. Hand the package to your in-house PE for stamping, or route the stamp through Heaven Designs. For the inverter line item on that BOQ, [a Qbits engineer](/contact-us/) can confirm IS 16221 label requirements against the actual datasheet before the pack goes to the AHJ.
 
 **Shops with spiky volume.** Run a hybrid. SurgePV handles steady-state. When volume doubles for a quarter, outsource the overflow rather than hiring a fourth designer you will not need in six months.
 

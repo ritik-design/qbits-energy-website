@@ -155,7 +155,7 @@ Short-circuit fault currents in solar systems:
 
 [AC cable](/glossary/ac-cable/) sizing from inverter to AC panel.
 
-Fuse selection for [DCDB combiner boxes](https://heavengreenenergy.com/products/acdb-dcdb/).
+Fuse selection for DCDB combiner boxes.
 
 Breaker selection at distribution boards.
 
@@ -193,7 +193,7 @@ Match MPPT current limit to total string parallel current.
 
 CEA Grid Code specifies fault current envelopes for grid connection.
 
-IS 732 (Wiring Code) sets cable ampacity tables. These ratings need to be reflected accurately on stamped [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/) before a project is cleared for connection.
+IS 732 (Wiring Code) sets cable ampacity tables. These ratings need to be reflected accurately on stamped electrical and CEIG drawings before a project is cleared for connection.
 
 IS 14772 and IS 60898 cover residential breakers.
 

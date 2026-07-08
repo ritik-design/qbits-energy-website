@@ -1,7 +1,7 @@
 ---
-title: "Solar for Clinic and Nursing Home India, Reliability First"
+title: "Solar for Clinic and Nursing Home India"
 excerpt: "Solar for clinic India must prioritise zero-transfer-time backup for vaccine refrigerators, ECG machines, and surgical lights. Here is the complete healthcare solar reliability guide."
-description: "Solar for clinic and nursing home India: hybrid inverter sizing, THD limits, vaccine refrigerator backup, CPCB fire safety, net metering ROI, and the 6-Point Healthcare Solar Reliability Checklist."
+description: "Solar for clinics and nursing homes in India: hybrid inverter sizing, THD limits, vaccine refrigerator backup, fire safety, and net metering ROI."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -105,7 +105,7 @@ Separating these three categories into distinct electrical circuits is the singl
 
 ### The 6-Point Healthcare Solar Reliability Checklist
 
-Before finalising or approving a solar proposal for a healthcare facility, every item on this checklist must be verified in writing, not assumed. Working with a [commercial solar EPC experienced in turnkey healthcare installations](https://heavengreenenergy.com/commercial-solar/) makes this considerably easier, since compliance documentation is already standardised in their proposal process:
+Before finalising or approving a solar proposal for a healthcare facility, every item on this checklist must be verified in writing, not assumed. Working with a commercial solar EPC experienced in turnkey healthcare installations makes this considerably easier, since compliance documentation is already standardised in their proposal process:
 
 1. **Transfer time verified on the inverter datasheet**: the critical load circuit must use a hybrid inverter with transfer time stated as < 10 milliseconds for truly critical loads (online UPS topology) or < 30 milliseconds for semi-critical loads. Marketing language such as "zero-gap switchover" is not sufficient; demand the millisecond figure from the technical datasheet.
 
@@ -115,7 +115,7 @@ Before finalising or approving a solar proposal for a healthcare facility, every
 
 4. **DG auto-start interface configured and tested**: the hybrid inverter must include a dry-contact output for automatic DG start signal. This starts the generator when battery [state of charge](/glossary/battery-soc/) reaches 20% (80% depth of discharge), maintaining backup continuity beyond the battery window. Test this sequence (with the DG physically running) during commissioning.
 
-5. **Critical load circuit segregation completed**: vaccine refrigerators and reception ACs must be on separate, labelled circuits. Load segregation prevents non-critical equipment from draining battery capacity reserved for medical loads. The single-line diagram must show this separation explicitly, drawn to the same standard as the [electrical and CEIG drawings](https://heavendesigns.in/electrical-ceig-drawings/) used for commercial and healthcare EPC submissions.
+5. **Critical load circuit segregation completed**: vaccine refrigerators and reception ACs must be on separate, labelled circuits. Load segregation prevents non-critical equipment from draining battery capacity reserved for medical loads. The single-line diagram must show this separation explicitly, drawn to the same standard as the electrical and CEIG drawings used for commercial and healthcare EPC submissions.
 
 6. **CPCB and fire safety compliance documented**: the battery room installation must have a fire NOC, ventilation meeting minimum 10 air changes per hour, ambient temperature monitoring, and a smoke detector. This documentation is required for NABH accreditation and any future insurance claim.
 

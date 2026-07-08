@@ -44,7 +44,7 @@ Every month, finance managers at Indian factories, hospitals, and commercial bui
 
 > **Direct answer.** The LCOE of solar in India for a 50 kW C&I rooftop installation is ₹2.5–3.5/kWh, calculated as total discounted lifetime cost (CAPEX + O&M) divided by total discounted lifetime generation (91,250 kWh in Year 1, declining 0.5%/year over 25 years, at an 8–10% discount rate). This is two to four times cheaper than the commercial grid tariff and five to eight times cheaper than diesel generation. The C&I LCOE Calculator (6 Inputs, One Number) gives any CFO or CA a defensible figure in under 30 minutes.
 
-This post walks through the complete LCOE formula, real numbers for a 50 kWp commercial plant, the accelerated depreciation adjustment that most finance managers miss, a full sensitivity analysis table, and the conditions under which LCOE analysis becomes a banking requirement rather than an optional exercise. Many of these facilities eventually hand the build itself to a [commercial solar installation](https://heavengreenenergy.com/commercial-solar/) partner once the LCOE case is approved.
+This post walks through the complete LCOE formula, real numbers for a 50 kWp commercial plant, the accelerated depreciation adjustment that most finance managers miss, a full sensitivity analysis table, and the conditions under which LCOE analysis becomes a banking requirement rather than an optional exercise. Many of these facilities eventually hand the build itself to a commercial solar installation partner once the LCOE case is approved.
 
 ## What LCOE Means: The Formula Explained
 

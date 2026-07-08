@@ -141,7 +141,7 @@ For 100 kW C&I:
 - ITC recovery (for business with output GST): ₹5.2 lakh
 - Net effective cost: ₹40 lakh
 
-For business customers, GST is effectively pass-through (collected and offset), a structure most [commercial EPC installations](https://heavengreenenergy.com/commercial-solar/) already factor into their quotes.
+For business customers, GST is effectively pass-through (collected and offset), a structure most commercial EPC installations already factor into their quotes.
 
 ### Historical timeline
 

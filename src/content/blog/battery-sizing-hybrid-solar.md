@@ -1,7 +1,7 @@
 ---
 title: "How to Size a Battery for a Hybrid Solar Inverter"
 excerpt: "Hybrid inverter battery sizing in 5 steps: identify critical loads, set backup hours, calculate kWh using DoD, match charge current, pick voltage. Worked examples for 3BHK Lucknow and 2BHK Mumbai."
-description: "Step-by-step hybrid inverter battery sizing guide for Indian homes. Covers load calculation, DoD, C-rate limits, 48V vs 96V systems, and worked examples for UP and Mumbai with LFP vs lead-acid comparison."
+description: "Hybrid inverter battery sizing guide for Indian homes: load calculation, DoD, C-rate limits, 48V vs 96V systems, and LFP vs lead-acid comparison."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -312,4 +312,4 @@ Homeowners who have run the BLADE Method and arrived at a battery specification 
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel string compatibility with your chosen hybrid inverter model before finalising the design.
 - **[Authorised Service Partners](/authorized-service-partners/)**: pincode-searchable network that handles BMS configuration, battery commissioning, and the 12-year warranty RMA process.
 
-Once the battery size is confirmed and the inverter model is selected, the final step is commissioning, configuring the charge current, DoD limit, and time-of-use settings in the inverter's control panel. This is typically handled by your turnkey installer as part of [residential solar EPC scope](https://heavengreenenergy.com/solar-epc/) rather than something a homeowner configures alone. [Talk to a Qbits engineer](/contact-us/) about your specific load profile and local outage data; most sizing consultations are completed within 24 hours and come with a written recommendation you can share with your installer.
+Once the battery size is confirmed and the inverter model is selected, the final step is commissioning, configuring the charge current, DoD limit, and time-of-use settings in the inverter's control panel. This is typically handled by your turnkey installer as part of residential solar EPC scope rather than something a homeowner configures alone. [Talk to a Qbits engineer](/contact-us/) about your specific load profile and local outage data; most sizing consultations are completed within 24 hours and come with a written recommendation you can share with your installer.

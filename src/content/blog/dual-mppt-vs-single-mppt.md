@@ -1,7 +1,7 @@
 ---
 title: "Dual MPPT vs Single MPPT, When You Actually Need It"
 excerpt: "Dual MPPT solar inverters solve real problems, but only on specific rooftops. Most Indian homes with a single south-facing roof get no extra yield from the second tracker."
-description: "Dual MPPT vs single MPPT: which solar inverter architecture suits your Indian rooftop? Covers east-west splits, partial shading, cost premium, and a 5-step decision flowchart."
+description: "Dual MPPT vs single MPPT: which architecture suits your Indian rooftop? Covers east-west splits, partial shading, cost premium, and a decision flowchart."
 category: "Technology"
 date: 2026-06-05
 readTime: "16 min"
@@ -123,7 +123,7 @@ Factories, warehouses, hospitals, and schools (the C&I segment) often have shed 
 
 This is a structured decision framework you can apply to your own rooftop before finalising inverter specifications. Work through each step in sequence.
 
-1. **Map every section of your usable roof area**: Identify all roof sections where panels will be placed. Note the compass facing (north, south, east, west) and the tilt angle (flat, 10°, 20°, or pitched) for each section. If every panel will go on one section with the same facing and tilt, you have a uniform roof and single MPPT is sufficient. A professional [3D pre-design survey](https://heavendesigns.in/solar-3d-pre-design/) can map every face and tilt before the inverter spec is finalised, if you would rather not do this by hand.
+1. **Map every section of your usable roof area**: Identify all roof sections where panels will be placed. Note the compass facing (north, south, east, west) and the tilt angle (flat, 10°, 20°, or pitched) for each section. If every panel will go on one section with the same facing and tilt, you have a uniform roof and single MPPT is sufficient. A professional 3D pre-design survey can map every face and tilt before the inverter spec is finalised, if you would rather not do this by hand.
 
 2. **Identify permanent obstructions that cast shadows on panel rows**: Walk the roof at three times: 9 am, 12 noon, and 4 pm on a clear day, and observe where shadows fall from water tanks, parapet walls, AC units, antenna masts, and adjacent buildings. Tools like [SurgePV's shadow analysis](https://surgepv.com/shadow-analysis) can automate this walk-through with 3D satellite modelling instead of a physical roof visit. If shadows from a fixed structure hit any planned panel rows during the hours of 9 am to 3 pm, you have a systematic shading split and dual MPPT is worth considering.
 
@@ -131,7 +131,7 @@ This is a structured decision framework you can apply to your own rooftop before
 
 4. **Estimate the cost premium and payback**: [Get quotes](/blog/solar-quotation-checklist/) for both single and dual MPPT models from the same inverter brand. The typical premium is ₹5,000–₹15,000. At ₹8/kWh avoided tariff, and assuming dual MPPT recovers 8% of annual yield on a 5 kW system generating 7,000 kWh per year, the annual gain is 560 kWh × ₹8 = ₹4,480. At ₹10,000 premium, payback is approximately 2.2 years. If your roof does not have distinct shading zones or orientations, this recovery is zero.
 
-5. **Confirm with a [site survey](/glossary/site-survey/) from a certified installer**: A 30-minute site survey with a compass, a tilt meter, and a shadow-casting demonstration at the equinox delivers certainty that no rule-of-thumb can match. Any [certified local installer](https://heavengreenenergy.com/solar-near-me/) quoting a Qbits or other inverter for your system should be conducting this survey before specifying MPPT channel count.
+5. **Confirm with a [site survey](/glossary/site-survey/) from a certified installer**: A 30-minute site survey with a compass, a tilt meter, and a shadow-casting demonstration at the equinox delivers certainty that no rule-of-thumb can match. Any certified local installer quoting a Qbits or other inverter for your system should be conducting this survey before specifying MPPT channel count.
 
 Apply this test honestly. Many homeowners who get sold dual MPPT inverters at a premium would score "single MPPT is adequate" at step one.
 

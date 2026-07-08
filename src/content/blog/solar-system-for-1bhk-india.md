@@ -1,7 +1,7 @@
 ---
-title: "Solar System for 1 BHK, What You Actually Need (India 2026)"
+title: "Solar System for 1 BHK, What You Actually Need"
 excerpt: "A 1 BHK home in India needs a 1–2kW on-grid solar system. Monthly consumption is 250–350 units. Net cost after PM Surya Ghar subsidy is ₹35,000–₹90,000. Full sizing guide inside."
-description: "Right-sized solar for a 1 BHK Indian home: load calculation, 1kW vs 2kW comparison, PM Surya Ghar subsidy, net cost, payback period, and which inverter to choose for small residential solar."
+description: "Right-sized solar for a 1 BHK Indian home: load calculation, 1kW vs 2kW comparison, PM Surya Ghar subsidy, net cost, and which inverter to choose."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -107,7 +107,7 @@ The **True Cost of Going Solar** framework identifies five cost components for a
 1. **Solar panels**: 2 to 4 panels of 500–550 Wp. Panel cost at ₹22–₹26/Wp: ₹22,000–₹57,200 depending on system size and panel quality.
 2. **Inverter**: A 1kW or 2kW ALMM-listed on-grid inverter: ₹10,000–₹25,000. Smaller inverters cost less in absolute terms but have similar quality tiers.
 3. **Balance of System (BOS)**: Mounting structure, cables, junction box, SPD, [earthing](/glossary/earthing/), [net meter interface](/glossary/net-metering/). For 1–2kW: ₹12,000–₹20,000.
-4. **Installation and commissioning**: Labour, civil, DISCOM application, following the same [residential solar installation](https://heavengreenenergy.com/residential-solar/) process EPCs use nationwide. For 1–2kW: ₹8,000–₹15,000.
+4. **Installation and commissioning**: Labour, civil, DISCOM application, following the same residential solar installation process EPCs use nationwide. For 1–2kW: ₹8,000–₹15,000.
 5. **[GST](/blog/gst-on-solar-inverters-2026/)**: 12% on panels, 12–18% on inverter and BOS. Approximate GST on 1–2kW system: ₹6,000–₹12,000.
 
 | Cost Component | 1kW System | 2kW System |
@@ -197,7 +197,7 @@ India's rooftop solar market grew by approximately 26% in 2024, with the sub-3kW
 - **Buying a [3kW system](/blog/3kw-solar-system-price-india/) on the salesperson's advice**: A 3kW system for a 200-unit/month 1 BHK will export most of its generation to the grid at a net metering rate that may be lower than the tariff you pay. The payback advantage disappears and you spend ₹50,000–₹70,000 more unnecessarily.
 - **Choosing a non-ALMM inverter**: Saves ₹3,000–₹5,000 on the inverter but loses ₹30,000 to ₹60,000 in PM Surya Ghar subsidy. A straightforward error with a large financial consequence, and one of the recurring patterns in our [solar inverter buying mistakes guide](/blog/solar-inverter-buying-mistakes/).
 - **Not checking net metering eligibility**: Apartment dwellers need to confirm that the DISCOM meters their unit individually (not the entire building) and that net metering is permitted in the building's electricity connection terms.
-- **Ignoring installation quality**: A 1kW system has only 2 panels. Saving ₹2,000 on a cut-rate installer who does not earth the system correctly creates a genuine safety risk, better to [find a vetted local installer](https://heavengreenenergy.com/solar-near-me/) than the cheapest bidder. The [BIS certification mandate](https://bis.gov.in/) under IS 16221 and the CEA safety standards are non-negotiable for all grid-connected residential installations in India.
+- **Ignoring installation quality**: A 1kW system has only 2 panels. Saving ₹2,000 on a cut-rate installer who does not earth the system correctly creates a genuine safety risk, better to find a vetted local installer than the cheapest bidder. The [BIS certification mandate](https://bis.gov.in/) under IS 16221 and the CEA safety standards are non-negotiable for all grid-connected residential installations in India.
 - **Forgetting to apply for net metering**: Without a bi-directional net meter from your DISCOM, surplus solar power is wasted. The [net metering application guide](/blog/how-to-apply-net-metering-india/) walks through the process state by state.
 
 ## Where Qbits Fits for a 1 BHK Home

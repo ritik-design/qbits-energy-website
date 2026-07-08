@@ -75,7 +75,7 @@ A hot spot in a solar PV module is a region of localised excessive heating, typi
 
 Hot spots originate from any condition that reduces one cell's current generation below the string current: partial [shading](/glossary/shading-analysis/) from external objects, cell defects from manufacturing, cell cracks from thermal stress or handling, bird droppings, leaves, [soiling](/glossary/soiling/) concentrated on one cell, or simply mismatched cell aging.
 
-Modern PV modules include bypass diodes in the [junction box](/glossary/junction-box/). When string current cannot flow through a shaded or damaged cell, the diode provides an alternative path, limiting the hot spot energy. Without bypass diodes, hot spots could permanently damage [encapsulant](/glossary/encapsulant/), back sheet and cells.
+Modern PV modules include bypass diodes in the [junction box](/glossary/junction-box/). When string current cannot flow through a shaded or damaged cell, the diode provides an alternative path, limiting the hot spot energy. Without bypass diodes, hot spots could permanently damage [encapsulant](/glossary/encapsulant/), back sheet and cells. Field technicians confirm suspected hot spots the same way described in this [solar inverter low-output diagnostic guide](/blog/solar-inverter-low-output-causes-india/): an infrared thermal scan during peak sun that reveals failed cells generating heat instead of current.
 
 > **TL;DR**
 > - A hot spot is localised overheating in a solar cell, usually reaching 100 to 200°C, caused by partial shading, soiling, bird droppings or cell defects forcing that cell into reverse bias.
@@ -159,7 +159,7 @@ Partial shading (chimneys, trees, water tanks).
 
 Bird droppings.
 
-Leaf accumulation.
+Leaf accumulation, which is why a [pre-monsoon inspection](/blog/pre-monsoon-solar-inspection-checklist/) that clears debris before the wet season also reduces hot spot risk.
 
 Cell micro-cracks.
 
@@ -171,13 +171,13 @@ Insufficient bypass diodes for module size.
 
 ## Best practices
 
-Annual IR thermography during O&M.
+Annual IR thermography during O&M, or the simple hand-hover check described in this [monsoon prep checklist](/blog/monsoon-solar-prep/) for spotting a warmer panel before it is investigated formally.
 
 Clean modules regularly.
 
 Manage trees and obstructions.
 
-Use modules with [sufficient bypass diode and junction box protection](https://heavengreenenergy.com/products/balance-of-system/).
+Use modules with sufficient bypass diode and junction box protection.
 
 Use [microinverters](/glossary/micro-inverter/) or [DC optimisers](/glossary/dc-optimiser/) in shading-prone sites.
 

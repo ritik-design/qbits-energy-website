@@ -72,7 +72,7 @@ Open Circuit Voltage (Voc) is the voltage across the terminals of a solar PV mod
 
 Voc is determined by the cell technology (Voc per cell at STC is approximately 0.6-0.7 V for modern silicon cells) and the number of cells in series. A 60-cell PERC module has Voc ≈ 60 × 0.61 = 36.6 V. A 144 half-cell module has Voc ≈ 144 × 0.34 = 49 V (each half-cell ~0.34 V).
 
-For solar system design, Voc is critical for string sizing. Cold-temperature Voc determines the maximum number of modules per string, bounded by the inverter's absolute maximum DC input voltage. Exceeding this limit on the first cold morning destroys the inverter.
+For solar system design, Voc is critical for string sizing. Cold-temperature Voc determines the maximum number of modules per string, bounded by the inverter's absolute maximum DC input voltage. Exceeding this limit on the first cold morning destroys the inverter. See [Solar String Sizing and Overcurrent Protection India, EPC Guide](/blog/solar-string-sizing-ocp-india/) for the full 5-step sizing method EPC teams use to avoid this.
 
 ## Why Voc matters
 
@@ -97,7 +97,7 @@ Where:
 For typical Indian conditions with T_min = 5°C:
 Voc(cold) = Voc × (1 + (-0.0027) × (-20)) = Voc × 1.054
 
-So cold Voc is ~5.4 percent higher than STC Voc.
+So cold Voc is ~5.4 percent higher than STC Voc. Colder zones see a much larger spike, up to 13.5 percent above STC at -20°C in Himalayan winter sites, as detailed in [Inverter Voltage: String Voltage vs MPPT Voltage in Solar Inverters India 2026](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/).
 
 ## Technical deep dive
 

@@ -1,7 +1,7 @@
 ---
-title: "REI Expo 2026 Recap, Top Trends from India's Biggest Solar Exhibition"
+title: "REI Expo 2026 Recap: Top Solar Industry Trends"
 excerpt: "The rei 2026 recap reveals nine market-shifting trends: AI monitoring going standard, hybrid inverter dominance, 700W+ module compatibility, and ALMM Phase III reshaping EPC procurement."
-description: "REI Expo 2026 analysis: AI monitoring standard, hybrid inverter surge, bifacial adoption, 700W+ modules, ALMM Phase III compliance, and made-in-India inverters dominating trade floors."
+description: "REI Expo 2026 analysis: AI monitoring goes standard, hybrid inverter surge, bifacial adoption, and ALMM Phase III reshaping EPC procurement decisions."
 category: Industry
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -175,7 +175,7 @@ REI 2026 featured two adjacent themes that are beginning to converge into a sing
 
 ### Battery Storage Integration
 
-The clearest signal from the battery storage showcases at REI 2026 is that LFP battery integration is moving from project-specific add-on to default system architecture for [commercial rooftop installations](https://heavengreenenergy.com/commercial-solar/) above 25 kW. Vendors were presenting integrated solar-plus-storage systems (not inverter plus separate battery rack) with a single monitoring interface, single commissioning protocol, and single warranty documentation set.
+The clearest signal from the battery storage showcases at REI 2026 is that LFP battery integration is moving from project-specific add-on to default system architecture for commercial rooftop installations above 25 kW. Vendors were presenting integrated solar-plus-storage systems (not inverter plus separate battery rack) with a single monitoring interface, single commissioning protocol, and single warranty documentation set.
 
 The economic driver is straightforward. Commercial electricity tariffs in industrial states like Maharashtra, Tamil Nadu, and Karnataka now exceed ₹9–₹12/unit for peak demand periods. A 100 kW solar array paired with 200 kWh of LFP storage can shift 60–70% of peak demand hours to self-consumption, delivering a direct saving of ₹5–₹8/unit compared to grid purchase during those hours. Getting that ratio right depends on correct [battery sizing for the load profile](https://surgepv.com/hub/energy-storage/battery-sizing/), since an undersized pack erodes the payback case and an oversized one blows the capex budget.
 

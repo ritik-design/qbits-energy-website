@@ -1,7 +1,7 @@
 ---
-title: "Solar for Petrol Pump India, ROI, Load Analysis and Setup"
+title: "Solar for Petrol Pump India: ROI and Setup"
 excerpt: "Solar for petrol pump India: 15–25 kW systems offset fuel dispensers, compressors, and canopy lighting with 3–4 year payback. PESO compliance and canopy mounting are the key technical challenges."
-description: "Complete guide to solar for petrol pump India. Load analysis, PESO regulations, canopy installation, system sizing 15–25 kW, ROI model, and the Petrol Pump Solar Compliance Checklist."
+description: "Guide to solar for petrol pumps in India: load analysis, PESO regulations, canopy installation, system sizing, and ROI model."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -93,9 +93,9 @@ Based on PESO/IEC zone classifications:
 
 ### The Petrol Pump Solar Compliance Checklist
 
-1. **Engage a PESO-registered installer**: verify the solar EPC has experience with petrol pump installations and can provide PESO-compliant zone drawings. A [directory of local qualified solar installers](https://heavengreenenergy.com/solar-near-me/) is a reasonable starting point for shortlisting candidates.
+1. **Engage a PESO-registered installer**: verify the solar EPC has experience with petrol pump installations and can provide PESO-compliant zone drawings. A directory of local qualified solar installers is a reasonable starting point for shortlisting candidates.
 2. **Commission a Zone Classification Drawing**: a PESO-certified engineer prepares a drawing showing Zone 0/1/2 boundaries, verifying where solar equipment can and cannot be placed.
-3. **Confirm canopy structural capacity**: obtain a structural engineer's certificate confirming the canopy can bear the panel load (typically 15–25 kg/sq metre for panels + frame). This is the same category of [structural and civil engineering assessment](https://heavendesigns.in/solar-civil-and-structural-engineering/) used for any non-standard rooftop or canopy solar mounting scenario.
+3. **Confirm canopy structural capacity**: obtain a structural engineer's certificate confirming the canopy can bear the panel load (typically 15–25 kg/sq metre for panels + frame). This is the same category of structural and civil engineering assessment used for any non-standard rooftop or canopy solar mounting scenario.
 4. **Use IP65+ or explosion-proof rated DC components**: junction boxes, cable glands, and connectors within Zone 2 areas must meet zone-appropriate ratings.
 5. **Inverter placement outside hazardous zone**: document the inverter location on the zone drawing. Typically an electrical room or separate enclosure ≥ 8m from dispensers.
 6. **Earth continuity testing**: solar system earthing must be verified before commissioning. Do not bypass the petrol pump's existing earthing bonding.

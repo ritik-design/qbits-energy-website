@@ -70,9 +70,9 @@ author: "Nirav Dhanani"
 
 C-rate is the current flowing into or out of a battery, expressed as a multiple of the nominal capacity. The reference is 1C, the current that would fully charge or fully discharge the battery in one hour. C/2 is half that current and takes two hours. 2C is double and takes half an hour. The notation is universal across battery chemistries and applications.
 
-For solar storage, C-rate matters for two reasons: it affects the round-trip efficiency and heating of the battery during operation, and it determines the power capability of the system. A 10 kWh battery rated for 0.5C continuous discharge can deliver 5 kW of power continuously. The same battery at 1C delivers 10 kW but with higher losses and faster ageing.
+For solar storage, C-rate matters for two reasons: it affects the round-trip efficiency and heating of the battery during operation, and it determines the power capability of the system. See [How to Size a Battery for a Hybrid Solar Inverter](/blog/battery-sizing-hybrid-solar/) for how C-rate limits interact with inverter charge current in a full sizing worksheet. A 10 kWh battery rated for 0.5C continuous discharge can deliver 5 kW of power continuously. The same battery at 1C delivers 10 kW but with higher losses and faster ageing.
 
-Cells are designed for either energy (high capacity, lower C-rate) or power (lower capacity, higher C-rate). Solar storage uses energy-optimised LFP cells with continuous C-rate of 0.5C and peak C-rate of 1C.
+Cells are designed for either energy (high capacity, lower C-rate) or power (lower capacity, higher C-rate). Solar storage uses energy-optimised LFP cells with continuous C-rate of 0.5C and peak C-rate of 1C, well below the charge rate that noticeably shortens VRLA and LFP life, as shown in [How Long Do Solar Batteries Last in India? (Heat and Cycle Reality)](/blog/how-long-solar-batteries-last-india/).
 
 ## C-rate explained simply
 

@@ -72,7 +72,7 @@ Levelised Cost of Energy (LCOE) is the per-kWh cost of electricity from a genera
 
 LCOE accounts for capex, fixed and variable O&M, financing cost, fuel cost (zero for solar), expected lifetime energy generation and degradation. It produces a single number expressed in ₹/kWh that captures the full lifecycle cost of generation.
 
-For Indian solar, LCOE has fallen from above ₹17 per kWh in 2010 to ₹2.5 to ₹3.5 per kWh for utility plants in 2026. C&I rooftop LCOE lands at ₹3.0 to ₹4.5 per kWh, residential at ₹2.0 to ₹6.0 per kWh depending on subsidy.
+For Indian solar, LCOE has fallen from above ₹17 per kWh in 2010 to ₹2.5 to ₹3.5 per kWh for utility plants in 2026. C&I rooftop LCOE lands at ₹3.0 to ₹4.5 per kWh, residential at ₹2.0 to ₹6.0 per kWh depending on subsidy. See [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/) for a worked capex-to-LCOE calculation on a real commercial rooftop.
 
 ## LCOE explained simply
 
@@ -86,7 +86,7 @@ PPA tariff setting. SECI bids and CERC tariff orders use LCOE as the underlying 
 
 Investment decision. Developers compare projected LCOE against expected PPA prices.
 
-Customer economics. Residential and C&I solar customers compare LCOE to their retail tariff.
+Customer economics. Residential and C&I solar customers compare LCOE to their retail tariff. For the return-side counterpart to this comparison, see [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/).
 
 Technology comparison. Solar vs coal vs gas vs wind on like-for-like cost basis.
 

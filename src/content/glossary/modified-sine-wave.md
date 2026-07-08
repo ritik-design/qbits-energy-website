@@ -196,7 +196,7 @@ Motor noise and reduced AC cooling.
 
 Avoid MSW for any modern application.
 
-Verify pure sine in purchase orders, whether buying a single inverter or sourcing [solar equipment](https://heavengreenenergy.com/shop/) in bulk.
+Verify pure sine in purchase orders, whether buying a single inverter or sourcing solar equipment in bulk.
 
 Specify THD limit under 5 percent.
 

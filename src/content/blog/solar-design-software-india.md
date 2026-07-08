@@ -84,7 +84,7 @@ SurgePV is built by the Heaven Group team, the same engineers and designers behi
 
 The platform combines [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite imagery, [Clara AI](https://surgepv.com/clara-ai) for automated string layout and BoM, [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) at module level on every plan, and [bankable yield report](https://surgepv.com/generation-financial-tool) outputs with [P50, P75 and P90](/glossary/p50-p90/) numbers that lenders accept. The proposal builder produces a [branded solar proposal](https://surgepv.com/solar-proposals) with Hindi-readable output, INR currency and a subsidy line item.
 
-For the India layer specifically, SurgePV includes the IS code clearance library, the ALMM-aware module catalogue across 70,000 modules and 12,000 inverters, the [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy structure, and the DISCOM state tariff library covering the major utilities. AutoCAD DXF and DWG export means the engineering drawings hand off cleanly to the [structural and electrical contractors](https://heavendesigns.in/electrical-ceig-drawings/). This is [solar design software for installers](https://surgepv.com/for-solar-installers) who actually need to ship in India, not a tool that pretends India is just another configuration of the US workflow.
+For the India layer specifically, SurgePV includes the IS code clearance library, the ALMM-aware module catalogue across 70,000 modules and 12,000 inverters, the [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy structure, and the DISCOM state tariff library covering the major utilities. AutoCAD DXF and DWG export means the engineering drawings hand off cleanly to the structural and electrical contractors. This is [solar design software for installers](https://surgepv.com/for-solar-installers) who actually need to ship in India, not a tool that pretends India is just another configuration of the US workflow.
 
 The [residential solar design software](https://surgepv.com/residential-solar-design) workflow was specifically scoped around PM Surya Ghar volume coming from tier-2 and tier-3 cities, where the customer touchpoint is short and the sales team is often non-technical.
 
@@ -152,9 +152,9 @@ SurgePV is the design and proposal layer. Two sister brands close the loop for I
 
 [QuickEstimate](https://quickestimate.co/) is the CRM. Lead capture from WhatsApp, the PM Surya Ghar national portal and Facebook ads flows into QuickEstimate, gets qualified, scheduled for site visit, and pushed across to SurgePV for design. Quote follow-up, document collection and DISCOM application tracking stay in the CRM. For Indian residential teams running 200 plus leads a month, this pairing is what most of them eventually settle on.
 
-[Heaven Green Energy](https://heavengreenenergy.com/) is the EPC service arm. If a designer or sales team uses SurgePV to produce a proposal but does not have the field crew or BoM procurement strength to execute, Heaven Green Energy steps in as the EPC partner. It is the right handoff for newer entrants and for inter-city projects where local presence is thin.
+Heaven Green Energy is the EPC service arm. If a designer or sales team uses SurgePV to produce a proposal but does not have the field crew or BoM procurement strength to execute, Heaven Green Energy steps in as the EPC partner. It is the right handoff for newer entrants and for inter-city projects where local presence is thin.
 
-[Qbits](https://qbitsenergy.com/) is the inverter lineup, and the SurgePV inverter library includes the Qbits range so compatibility checks, [MPPT](/glossary/mppt/) planning and warranty terms are visible at design time.
+[Qbits](https://qbitsenergy.com/) is the inverter lineup, and the SurgePV inverter library includes the Qbits range — spanning [on-grid](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/) — so compatibility checks, [MPPT](/glossary/mppt/) planning and warranty terms are visible at design time.
 
 ## Who Should Choose Each Tool
 
@@ -162,7 +162,7 @@ Different ICPs need different tools. Pick the one that matches your reality.
 
 **Residential PM Surya Ghar installer in tier-2 city.** Choose SurgePV. The AI 3D, Clara AI design assistant, Hindi-readable proposal and subsidy maths are the exact workflow covered in the [residential solar design software comparison](/blog/residential-solar-design-software/). Pair with QuickEstimate CRM.
 
-**C&I EPC team doing 100 kW to 5 MW rooftops.** Choose SurgePV. The 8,760-hour module-level shading, bankable P50/P75/P90 yield report and AutoCAD DXF export pass lender and structural engineering review without rework.
+**C&I EPC team doing 100 kW to 5 MW rooftops.** Choose SurgePV. The 8,760-hour module-level shading, bankable P50/P75/P90 yield report and AutoCAD DXF export pass lender and structural engineering review without rework. For the inverter spec itself, [talk to a Qbits engineer](/contact-us/) to line up MPPT count and string count against the design.
 
 **Utility-scale developer in India.** Use SurgePV for the early-stage feasibility, financial modeling and bid package, then continue into PVsyst or HelioScope for the deep simulation that an EPC contractor or O&M lender requires. The interoperability is straightforward.
 

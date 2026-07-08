@@ -72,7 +72,7 @@ TOPCon, Tunnel Oxide Passivated Contact, is a next-generation crystalline silico
 
 TOPCon delivers 24 to 25 percent cell efficiency, with module efficiency landing at 22 to 23.5 percent. Compared to PERC, TOPCon offers 1 to 2 percentage points higher efficiency, a better temperature coefficient, lower LeTID and a higher bifaciality factor (80 to 85 percent against 70 to 80 for PERC).
 
-From 2024 onward, TOPCon has become the dominant cell technology for new module manufacturing capacity globally and in India. Major Indian manufacturers have transitioned or are transitioning from PERC to TOPCon in their new gigawatt-scale plants.
+From 2024 onward, TOPCon has become the dominant cell technology for new module manufacturing capacity globally and in India. Major Indian manufacturers have transitioned or are transitioning from PERC to TOPCon in their new gigawatt-scale plants. See [How Solar Power Systems Work in India](/blog/how-solar-power-system-works-india/) for where cell technology fits in the rest of a rooftop system.
 
 ## TOPCon explained simply
 
@@ -137,7 +137,7 @@ The tunnel oxide passivates the silicon-metal interface electronically, reducing
 | Voc coefficient | -0.25 to -0.28%/°C |
 | Pmax coefficient | -0.30 to -0.33%/°C |
 
-About 0.04 to 0.05 percentage points better than PERC.
+About 0.04 to 0.05 percentage points better than PERC. This temperature advantage matters most in Indian summers; see [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/) for how module temperature derating affects real-world generation in hot states like Rajasthan.
 
 ### Degradation
 

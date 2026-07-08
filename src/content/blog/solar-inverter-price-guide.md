@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Price Guide India, 3kW, 5kW, 10kW Compared"
+title: "Solar Inverter Price Guide: 3kW, 5kW, 10kW Compared"
 excerpt: "Solar inverter price in India ranges from ₹18,000 for a 1kW on-grid unit to ₹4.5 Lakh for a 50kW hybrid. Compare budget, mid, and premium tiers across every capacity."
-description: "Transparent solar inverter price list India 2026: 1kW to 50kW, on-grid vs hybrid, budget to premium. Includes GST note, brand tiers, and warranty value analysis."
+description: "Transparent solar inverter price list India 2026: 1kW to 50kW, on-grid vs hybrid, budget to premium. GST note, brand tiers, warranty analysis."
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "20 min"
@@ -102,7 +102,7 @@ Adds inverter mounting, AC disconnect switch, surge protection device (SPD), con
 
 ### Full-Project Cost (Including Net Metering)
 
-The complete solar system (panels, inverter, mounting, cabling, switchgear, DISCOM inspection fee, and net metering application) is the number that drives your actual payback period. Net metering fees range from ₹500 to ₹5,000 depending on DISCOM and state. A 5kW residential system installed with net metering typically costs ₹2.2–₹3.5 Lakh all-in before subsidy. A [solar cost calculator](https://heavengreenenergy.com/solar-calculator/) can produce a quick full-system estimate for your roof before you start collecting formal quotes.
+The complete solar system (panels, inverter, mounting, cabling, switchgear, DISCOM inspection fee, and net metering application) is the number that drives your actual payback period. Net metering fees range from ₹500 to ₹5,000 depending on DISCOM and state. A 5kW residential system installed with net metering typically costs ₹2.2–₹3.5 Lakh all-in before subsidy. A solar cost calculator can produce a quick full-system estimate for your roof before you start collecting formal quotes.
 
 > **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a residential system up to 3 kW, paid directly to the buyer's bank account after the DISCOM verifies installation. This subsidy applies to the full system, not the inverter alone. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
@@ -213,7 +213,7 @@ Prices are expected to remain broadly stable at current levels. Commodity input 
 
 Buyers who enter the solar inverter market without price context make predictable errors. The most expensive ones are below.
 
-- **Comparing ex-works to delivered prices**: Always confirm whether the quoted price includes freight, GST, and dealer margin, or is a net factory gate figure. A ₹10,000 apparent saving can vanish entirely in logistics. Cross-checking a couple of vendor quotes against a [solar equipment marketplace listing](https://heavengreenenergy.com/products/solar-inverters/) helps spot this gap quickly.
+- **Comparing ex-works to delivered prices**: Always confirm whether the quoted price includes freight, GST, and dealer margin, or is a net factory gate figure. A ₹10,000 apparent saving can vanish entirely in logistics. Cross-checking a couple of vendor quotes against a solar equipment marketplace listing helps spot this gap quickly.
 - **Ignoring warranty terms**: "5-year warranty" may mean 5-year repair warranty (labour only, parts not covered after year 2) or 5-year full replacement. Read the warranty card, not just the headline years.
 - **Overlooking installation cost in the payback calculation**: A ₹10,000 cheaper inverter with a ₹15,000 more expensive installation (due to brand-specific mounting requirements) saves nothing. [Replacement costs](/blog/inverter-tco/) compound this if the unit fails.
 - **Choosing capacity based on price per kW alone**: A 10kW inverter at ₹9,000/kW may seem more economical than a 5kW unit at ₹12,000/kW, but oversizing your inverter relative to your sanctioned load or roof area wastes capital and may violate DISCOM limits.

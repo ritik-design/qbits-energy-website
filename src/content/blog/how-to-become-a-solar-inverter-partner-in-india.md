@@ -1,7 +1,7 @@
 ---
-title: "How to Become a Solar Inverter Partner in India: Complete Distributor & Dealer Guide 2026"
+title: "How to Become a Solar Inverter Partner in India"
 excerpt: "India's solar boom is creating substantial partnership opportunities for distributors, dealers, channel partners, and installers. Here is the complete framework to evaluate manufacturers, structure the partnership, secure territory rights, manage margins, and build a sustainable solar distribution business in 2026."
-description: "Complete guide to becoming a solar inverter distributor, dealer, or channel partner in India: partnership model types, manufacturer evaluation criteria, territory structures and rights, investment requirements, margin and credit terms, training programs, after-sales support frameworks, high-opportunity states, application process, required documentation, and success factors for sustainable partnerships."
+description: "Complete guide to becoming a solar inverter distributor or dealer in India: partnership models, territory rights, margins, and how to apply."
 category: "Guide"
 date: 2026-05-06
 updatedDate: 2026-07-08
@@ -58,7 +58,7 @@ Indian inverter manufacturers typically offer three partnership models with dist
 | **Dealer** | Smaller scale, serves specific city or district | ₹3-10 lakh | Local electrical contractors, established retailers |
 | **Channel Partner** | Combines sales, installation, and service operations | ₹5-25 lakh | [EPCs](/blog/solar-epc-india/) adding inverter sourcing to existing services |
 
-Some EPCs skip building their own distribution relationships entirely and instead join an established installer network as a [channel partner](https://heavengreenenergy.com/become-channel-partner/), trading some margin for faster access to supply, training, and lead flow.
+Some EPCs skip building their own distribution relationships entirely and instead join an established installer network as a channel partner, trading some margin for faster access to supply, training, and lead flow.
 
 ### Territory rights structures
 

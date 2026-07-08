@@ -1,7 +1,7 @@
 ---
 title: "Best Solar System Under ₹1 Lakh in India 2026"
 excerpt: "Under ₹1 lakh buys a 1–2kW on-grid solar system after PM Surya Ghar subsidy in India 2026. Three verified budget options and the ₹1 Lakh Solar Budget Checklist to avoid wasting money."
-description: "Best solar systems under ₹1 lakh India 2026: what your budget actually buys, three system options (1kW, 2kW, hybrid-lite), PM Surya Ghar subsidy impact, and the ₹1 Lakh Solar Budget Checklist."
+description: "Best solar systems under ₹1 lakh in India for 2026: what your budget buys, three system options, PM Surya Ghar subsidy impact, and a budget checklist."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -93,7 +93,7 @@ The most important variable is subsidy. The difference between claiming and not 
 
 **What you miss:** No battery backup during power cuts. Cannot run two ACs simultaneously.
 
-This is also the capacity where most [residential turnkey EPC installers](https://heavengreenenergy.com/residential-solar/) concentrate their standard packages, since it balances subsidy efficiency with genuine load coverage for small homes.
+This is also the capacity where most residential turnkey EPC installers concentrate their standard packages, since it balances subsidy efficiency with genuine load coverage for small homes.
 
 ### Option 3: 3kW Budget On-Grid: Stretching the ₹1 Lakh Budget
 
@@ -158,7 +158,7 @@ The 13,000 kWh generation difference between budget and quality over 25 years eq
 - Annual savings: ₹10,731
 - **Payback: 4.2 years**
 
-For the full payback methodology with degradation rates and tariff escalation, see the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/). Homeowners who want a rough estimate before requesting quotes can also run their bill through [Heaven Green Energy's solar savings calculator](https://heavengreenenergy.com/solar-calculator/).
+For the full payback methodology with degradation rates and tariff escalation, see the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/). Homeowners who want a rough estimate before requesting quotes can also run their bill through Heaven Green Energy's solar savings calculator.
 
 ## State-Wise Under-₹1 Lakh Net Cost Reality
 

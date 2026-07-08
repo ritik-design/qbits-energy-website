@@ -162,7 +162,7 @@ The trajectory plateaued around 2020 to 2024, with mild upward pressure from raw
 
 PPA tariff bidding under SECI tenders.
 
-Customer [cost estimation for rooftop solar](https://heavengreenenergy.com/solar-calculator/).
+Customer cost estimation for rooftop solar.
 
 State SERC tariff order benchmarking.
 
@@ -216,7 +216,7 @@ Factor in transformer upgrade and connection charges separately.
 
 Plan for monsoon delays in construction schedule.
 
-Track capex against budget through project phases, ideally with dedicated [project management consultancy](https://heavendesigns.in/project-management-consultancy/) for larger builds.
+Track capex against budget through project phases, ideally with dedicated project management consultancy for larger builds.
 
 ## Comparison: capex by configuration
 

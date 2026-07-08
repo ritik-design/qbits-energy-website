@@ -1,7 +1,7 @@
 ---
-title: "Solar Subsidy in Delhi 2026, BSES, TPDDL + Central Stack"
+title: "Solar Subsidy in Delhi 2026, BSES + TPDDL"
 excerpt: "Solar subsidy in Delhi 2026 stacks PM Surya Ghar (₹78,000 for 3 kW) with a ₹2,000/kW Delhi state top-up across BSES Rajdhani, BSES Yamuna, and TPDDL. Full process inside."
-description: "Solar subsidy in Delhi 2026: PM Surya Ghar amounts, Delhi state top-up, BSES and TPDDL net-metering steps, flat/apartment rules, timeline, and a worked homeowner example."
+description: "Solar subsidy in Delhi 2026: PM Surya Ghar amounts, state top-up, BSES and TPDDL net-metering steps, flat/apartment rules, timeline, and a worked example."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -154,7 +154,7 @@ The practical rules for Delhi apartments in 2026:
 
 - **Individual connection required**: You must hold the electricity connection in your own name (not in a landlord's or previous owner's name) to be the primary subsidy applicant.
 - **RWA NOC is mandatory**: Your Resident Welfare Association (or housing society management committee) must provide a written no-objection certificate permitting rooftop installation. Without this, the DISCOM will not process the technical feasibility.
-- **Structural load assessment**: Many older Delhi apartment buildings (DDA flats, 1970s–1990s construction) require a structural engineer's certificate confirming the roof can support panel mounting systems. Installers should flag this requirement upfront, and RWAs pursuing community solar often bring in a [structural and civil engineering consultant](https://heavendesigns.in/solar-civil-and-structural-engineering/){target="_blank" rel="noopener"} to produce this certificate before the DISCOM will sign off.
+- **Structural load assessment**: Many older Delhi apartment buildings (DDA flats, 1970s–1990s construction) require a structural engineer's certificate confirming the roof can support panel mounting systems. Installers should flag this requirement upfront, and RWAs pursuing community solar often bring in a structural and civil engineering consultant{target="_blank" rel="noopener"} to produce this certificate before the DISCOM will sign off.
 - **Shadow-free area per flat**: A 3 kW system requires approximately 200 square feet of shadow-free rooftop. In multi-storey buildings, the effective shadow-free area per flat is often smaller than required, limiting system size to 1–2 kW per unit.
 - **Community solar option**: RWAs can pursue a single larger system (up to the building's aggregate sanctioned load) on behalf of all residents. This requires a single DISCOM application from the RWA, with generation credited to a common meter and distributed via a sub-metering arrangement. The subsidy is limited per individual beneficiary connection.
 

@@ -1,7 +1,7 @@
 ---
-title: "How Does a Solar Inverter Work? - Complete 2026 Guide"
+title: "How Does a Solar Inverter Work? 2026 Guide"
 excerpt: "A solar inverter converts DC electricity from solar panels into AC power your home uses. Learn the 5-stage conversion process, inverter types, and how MPPT maximises yield."
-description: "Understand exactly how a solar inverter works, DC-to-AC conversion, MPPT tracking, Indian grid compatibility, inverter types, and what to look for when buying in India."
+description: "How a solar inverter works: DC-to-AC conversion, MPPT tracking, Indian grid compatibility, inverter types, and what to look for when buying in India."
 category: "Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -100,7 +100,7 @@ Every rooftop solar project in India uses one of three inverter topologies, and 
 
 An [on-grid inverter](/glossary/on-grid-inverter/) connects your solar array directly to the utility grid with no battery in between. During daylight hours, the inverter feeds solar power to your loads first and exports any surplus to the grid through a [bidirectional meter](/glossary/bidirectional-meter/). At night or during low-generation periods, the grid supplies your loads as normal.
 
-On-grid inverters are the most cost-effective topology and dominate [residential rooftop installations](https://heavengreenenergy.com/residential-solar/) in India because they qualify for PM Surya Ghar Muft Bijli Yojana subsidies (provided the inverter is on the MNRE [ALMM list](/glossary/almm-list/)). They deliver the fastest payback (typically 4–6 years for a residential system) because there is no battery cost to recover.
+On-grid inverters are the most cost-effective topology and dominate residential rooftop installations in India because they qualify for PM Surya Ghar Muft Bijli Yojana subsidies (provided the inverter is on the MNRE [ALMM list](/glossary/almm-list/)). They deliver the fastest payback (typically 4–6 years for a residential system) because there is no battery cost to recover.
 
 The critical limitation: when the utility grid goes down, the on-grid inverter automatically shuts off. This is not a design flaw, it is a mandatory safety requirement under IEC 62116. An inverter that continued generating during a grid outage would feed live electricity onto lines that grid workers assume are de-energised, creating a lethal hazard.
 
@@ -211,7 +211,7 @@ Hybrid inverters with battery backup sidestep this problem by operating in islan
 
 ### 50 Hz Frequency Stability
 
-The Indian grid operates at 50 Hz, but the actual frequency fluctuates more than in synchronous European grids. Under-frequency events (below 49.5 Hz) indicate generation shortfall; over-frequency events (above 50.5 Hz) indicate surplus generation. Grid codes from [CERC](https://www.cerc.gov.in/) and state regulators require solar inverters to respond to frequency events by curtailing output (in over-frequency) or riding through them without tripping (in under-frequency), a function called [fault ride-through](/glossary/fault-ride-through/) capability. Inverters without proper frequency response firmware can be rejected during [grid interconnection approval](https://heavendesigns.in/electrical-ceig-drawings/), the electrical drawing and CEIG documentation stage most DISCOMs require before commissioning.
+The Indian grid operates at 50 Hz, but the actual frequency fluctuates more than in synchronous European grids. Under-frequency events (below 49.5 Hz) indicate generation shortfall; over-frequency events (above 50.5 Hz) indicate surplus generation. Grid codes from [CERC](https://www.cerc.gov.in/) and state regulators require solar inverters to respond to frequency events by curtailing output (in over-frequency) or riding through them without tripping (in under-frequency), a function called [fault ride-through](/glossary/fault-ride-through/) capability. Inverters without proper frequency response firmware can be rejected during grid interconnection approval, the electrical drawing and CEIG documentation stage most DISCOMs require before commissioning.
 
 The [dc-oversizing in solar](/blog/dc-oversizing-in-solar/) article explains how these Indian grid realities interact with array sizing decisions, particularly DC oversizing ratios appropriate for different Indian climate zones.
 

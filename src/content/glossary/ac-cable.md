@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 ## What is AC cable
 
-AC cable, in the context of solar PV, refers to the alternating-current cable that carries the [solar inverter's](/glossary/solar-inverter/) AC output through protection devices to the [AC distribution board](https://heavengreenenergy.com/products/acdb-dcdb/), bidirectional meter and grid connection point. Unlike specialised [PV DC cable](/glossary/dc-cable/), AC cable for solar uses the same general-purpose building cable categories: PVC-insulated (IS 694), PVC-armoured (IS 1554) and XLPE-insulated (IS 7098).
+AC cable, in the context of solar PV, refers to the alternating-current cable that carries the [solar inverter's](/glossary/solar-inverter/) AC output through protection devices to the AC distribution board, bidirectional meter and grid connection point. Unlike specialised [PV DC cable](/glossary/dc-cable/), AC cable for solar uses the same general-purpose building cable categories: PVC-insulated (IS 694), PVC-armoured (IS 1554) and XLPE-insulated (IS 7098).
 
 > **TL;DR**
 > - AC cable carries the solar inverter's AC output through protection devices to the distribution board, bidirectional meter and grid connection point.
@@ -216,7 +216,7 @@ ALMM does not certify AC cables. BIS certification under IS 694 / IS 1554 / IS 7
 
 PM Surya Ghar residential installations use 4 mm² to 10 mm² Cu PVC.
 
-[CEIG](/glossary/ceig/) drawing approval verifies AC cable selections as part of the [electrical drawing package](https://heavendesigns.in/electrical-ceig-drawings/) submitted for approval.
+[CEIG](/glossary/ceig/) drawing approval verifies AC cable selections as part of the electrical drawing package submitted for approval.
 
 Utility plants use 35 mm² to 240 mm² Cu / Al cables in trunk runs.
 

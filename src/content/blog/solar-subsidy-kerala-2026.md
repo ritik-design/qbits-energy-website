@@ -1,7 +1,7 @@
 ---
-title: "Solar Subsidy in Kerala 2026, KSEB Process and Reality Check"
+title: "Solar Subsidy in Kerala 2026, KSEB Reality Check"
 excerpt: "Solar subsidy in Kerala 2026 gives PM Surya Ghar up to ₹78,000 for 3 kW via KSEB, but expect 90–120 day timelines, monsoon generation loss, and KSEB bureaucracy."
-description: "Solar subsidy in Kerala 2026: PM Surya Ghar amounts, KSEB net-metering steps and real timelines, monsoon shadow effects, Kerala state policy, and an honest homeowner case."
+description: "Solar subsidy in Kerala 2026: PM Surya Ghar amounts, KSEB net-metering steps and real timelines, monsoon effects, state policy, and an honest case."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -65,7 +65,7 @@ The central PM Surya Ghar Muft Bijli Yojana, administered through [pmsuryaghar.g
 
 > **₹78,000.** The maximum central subsidy for a 3 kW residential system, disbursed directly to the homeowner's bank account after KSEB commissioning is confirmed on the national portal. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-To qualify, the installation must use ALMM-listed panels, a [BIS-certified](/glossary/bis-certification/) inverter, and a KSEB-empanelled installer. Verification of empanelment is especially important in [Kerala's growing but uneven solar installer market](https://heavengreenenergy.com/solar-near-me/). The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains the verification process.
+To qualify, the installation must use ALMM-listed panels, a [BIS-certified](/glossary/bis-certification/) inverter, and a KSEB-empanelled installer. Verification of empanelment is especially important in Kerala's growing but uneven solar installer market. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains the verification process.
 
 ## Kerala's Irradiance Reality: Honest Generation Numbers
 
@@ -83,7 +83,7 @@ Before calculating payback, Kerala homeowners need accurate generation estimates
 
 > **4.2 kWh/m²/day.** Average solar irradiance in Kochi, approximately 20 percent lower than Bangalore and 30 percent lower than Jaipur, with significant seasonal variation due to Kerala's dual monsoon seasons. *Source - [NREL Global Solar Atlas](https://globalsolaratlas.info/), 2026.*
 
-These numbers should be the basis for [payback calculations](https://heavengreenenergy.com/solar-calculator/), not peak summer month figures that are 40 to 60 percent higher than the annual average. For a side-by-side sense of what the same system earns under stronger sunshine, the [solar subsidy Karnataka guide](/blog/solar-subsidy-karnataka-2026/) covers Bangalore's BESCOM process and generation numbers.
+These numbers should be the basis for payback calculations, not peak summer month figures that are 40 to 60 percent higher than the annual average. For a side-by-side sense of what the same system earns under stronger sunshine, the [solar subsidy Karnataka guide](/blog/solar-subsidy-karnataka-2026/) covers Bangalore's BESCOM process and generation numbers.
 
 ## The 5-Pillar Kerala Solar Application Framework
 

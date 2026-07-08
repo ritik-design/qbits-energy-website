@@ -1,7 +1,7 @@
 ---
 title: "Solar Subsidy in Telangana 2026, TSSPDCL + TSNPDCL"
 excerpt: "Solar subsidy in Telangana 2026 provides PM Surya Ghar up to ₹78,000 via TSSPDCL (Hyderabad) and TSNPDCL, backed by Telangana Solar Policy 2021 and strong C&I solar growth."
-description: "Solar subsidy in Telangana 2026: PM Surya Ghar amounts, TSSPDCL and TSNPDCL net-metering steps, Telangana Solar Policy 2021, C&I solar context, and a Hyderabad homeowner case."
+description: "Solar subsidy in Telangana 2026: PM Surya Ghar amounts, TSSPDCL and TSNPDCL net-metering steps, Telangana Solar Policy 2021, and a Hyderabad case."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -63,7 +63,7 @@ The central PM Surya Ghar Muft Bijli Yojana, administered through [pmsuryaghar.g
 
 > **₹78,000.** The maximum central subsidy for a 3 kW residential system, disbursed directly to the homeowner's bank account after DISCOM commissioning is confirmed on the national portal. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-Eligibility requires ALMM-listed panels, [BIS-certified](/glossary/bis-certification/) inverter, and installation by a TSSPDCL or TSNPDCL-empanelled vendor. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains the verification process, particularly important in [Hyderabad's large installer market](https://heavengreenenergy.com/solar-near-me/) where claims of empanelment need independent confirmation.
+Eligibility requires ALMM-listed panels, [BIS-certified](/glossary/bis-certification/) inverter, and installation by a TSSPDCL or TSNPDCL-empanelled vendor. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains the verification process, particularly important in Hyderabad's large installer market where claims of empanelment need independent confirmation.
 
 ## Telangana Solar Policy 2021: What It Means for Homeowners
 
@@ -124,7 +124,7 @@ Consumer portal reference: [tsnpdcl.in](https://www.tsnpdcl.in/).
 
 ## Hyderabad's C&I Solar Market: How It Helps Residential Buyers
 
-Hyderabad has one of India's highest concentrations of [commercial and industrial solar installations](https://heavengreenenergy.com/industrial-solar/), driven by:
+Hyderabad has one of India's highest concentrations of commercial and industrial solar installations, driven by:
 
 - **Tech park demand**: HITEC City, Gachibowli, and Nanakramguda corridors host dozens of large campuses with 500 kW to 5 MW rooftop solar installations
 - **Pharmaceutical sector**: The Genome Valley, IDA Nacharam, and Uppal pharmaceutical clusters have large C&I solar footprints

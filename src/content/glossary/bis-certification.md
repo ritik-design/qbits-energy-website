@@ -132,7 +132,7 @@ ALMM application gating.
 
 Customs clearance for imported solar equipment.
 
-DISCOM commissioning verification, which on larger sites runs alongside [CEIG electrical drawing approvals](https://heavendesigns.in/electrical-ceig-drawings/) prepared for the same installation.
+DISCOM commissioning verification, which on larger sites runs alongside CEIG electrical drawing approvals prepared for the same installation.
 
 ## Advantages
 
@@ -227,7 +227,7 @@ BIS Certification is mandatory for solar modules and inverters sold in India und
 
 ## Need help with BIS certification for solar equipment?
 
-QBits Energy supplies only BIS-certified and ALMM-listed solar equipment, with verified certificates on every shipment, sourced through the same rigor a [turnkey solar EPC](https://heavengreenenergy.com/solar-epc/) partner expects from its inverter supplier.
+QBits Energy supplies only BIS-certified and ALMM-listed solar equipment, with verified certificates on every shipment, sourced through the same rigor a turnkey solar EPC partner expects from its inverter supplier.
 
 ## Sources
 

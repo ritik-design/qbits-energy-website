@@ -163,7 +163,7 @@ Residential hybrid solar. 3 to 15 kWh LFP packs paired with hybrid inverters —
 
 Small commercial backup. 15 to 100 kWh LFP for clinics, schools and small offices.
 
-C&I peak shaving. 100 kWh to 5 MWh systems for demand charge reduction, sized using load-profile methods like SurgePV's [battery and energy storage sizing guide](https://surgepv.com/hub/energy-storage/battery-sizing/) and typically bundled into a [commercial solar installation](https://heavengreenenergy.com/commercial-solar/).
+C&I peak shaving. 100 kWh to 5 MWh systems for demand charge reduction, sized using load-profile methods like SurgePV's [battery and energy storage sizing guide](https://surgepv.com/hub/energy-storage/battery-sizing/) and typically bundled into a commercial solar installation.
 
 Utility battery storage. Multi-megawatt LFP packs for grid services.
 

@@ -1,5 +1,5 @@
 ---
-title: "5 Mistakes to Avoid When Buying a Solar Inverter in India"
+title: "5 Mistakes to Avoid When Buying a Solar Inverter"
 excerpt: "Mistakes buying a solar inverter cost Indian homeowners ₹25,000–₹60,000 in avoidable losses. Here are the 5 most expensive errors, and how to sidestep each one."
 description: "The 5 most expensive mistakes when buying a solar inverter in India, from choosing on price alone to skipping the ALMM list. Avoid them before you sign."
 category: Buying Guide
@@ -172,7 +172,7 @@ The [solar inverter reliability index](/blog/solar-inverter-reliability-index/) 
 
 ### How to Evaluate a Brand's Service Network Before You Buy
 
-- **Ask for the nearest authorised service centre address**: not the brand's head office, the nearest field partner. A real network produces an address and phone number instantly, similar to how a [local solar installer directory](https://heavengreenenergy.com/solar-near-me/) surfaces verified providers by pincode.
+- **Ask for the nearest authorised service centre address**: not the brand's head office, the nearest field partner. A real network produces an address and phone number instantly, similar to how a local solar installer directory surfaces verified providers by pincode.
 - **Call that number**: verify it is answered and staffed by someone who knows the product.
 - **Check the brand's authorised service partner page**: legitimate national brands maintain a pincode-searchable directory.
 - **Ask the installer about past service experiences**: an EPC installer in your area who has worked with the brand multiple times is the best proxy for real service quality.

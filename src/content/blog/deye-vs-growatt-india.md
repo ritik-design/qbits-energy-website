@@ -1,7 +1,7 @@
 ---
-title: "Deye vs Growatt, Emerging Brand vs Market Leader India"
+title: "Deye vs Growatt: Emerging Brand vs Market Leader"
 excerpt: "Deye vs Growatt for India 2026: hybrid features, BMS compatibility, SOLARMAN vs ShinePhone, India after-sales service, pricing, and warranty terms compared honestly."
-description: "Deye is growing fast in India's hybrid segment. Growatt is the established market leader. Compare both on hybrid features, BMS support, app, service, warranty, and price for Indian buyers."
+description: "Deye is growing fast in India's hybrid segment; Growatt is the established leader. Compare hybrid features, BMS support, app, service, warranty, and price."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -144,7 +144,7 @@ ShinePhone's hybrid monitoring features are functional but less detailed than SO
 
 Deye entered the Indian market around 2022 and has been building its distributor network primarily in Gujarat, Maharashtra, and Rajasthan. These are the states where Deye has its strongest penetration. Outside these markets, authorised Deye service is limited, and warranty claim resolution may require shipping the unit to a regional hub, adding 2–4 weeks to turnaround time.
 
-Deye does not operate an India-registered entity as of mid-2026. Warranty claims are processed through the authorised distributor. This is an important structural risk: the warranty is only as reliable as the distributor's own commitment and financial stability. Before buying, it is worth confirming there is a genuine [local solar installer](https://heavengreenenergy.com/solar-near-me/) in the buyer's own city who already stocks Deye spares, rather than relying on a distant regional hub.
+Deye does not operate an India-registered entity as of mid-2026. Warranty claims are processed through the authorised distributor. This is an important structural risk: the warranty is only as reliable as the distributor's own commitment and financial stability. Before buying, it is worth confirming there is a genuine local solar installer in the buyer's own city who already stocks Deye spares, rather than relying on a distant regional hub.
 
 **Score: 5/10**: Newer India presence; good service in Gujarat/Maharashtra/Rajasthan; thin elsewhere. No India entity.
 

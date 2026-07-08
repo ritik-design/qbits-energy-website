@@ -199,7 +199,7 @@ Inverter audible noise.
 
 ## Best practices
 
-Verify pure sine and THD spec in datasheet, whether buying direct from an OEM or through a [solar equipment retailer](https://heavengreenenergy.com/products/solar-inverters/).
+Verify pure sine and THD spec in datasheet, whether buying direct from an OEM or through a solar equipment retailer.
 
 Use [ALMM-listed](/glossary/almm-list/) inverters.
 

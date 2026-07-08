@@ -174,7 +174,7 @@ Indian summer cell temperatures: 65-80°C common.
 
 Temperature derate dominates in mid-day yield modelling.
 
-HJT premium increasingly justified in dry hot regions (Rajasthan, Gujarat), where [detailed rooftop engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) accounts for elevated cell temperatures.
+HJT premium increasingly justified in dry hot regions (Rajasthan, Gujarat), where detailed rooftop engineering design accounts for elevated cell temperatures.
 
 ALMM-listed modules report standard coefficients.
 

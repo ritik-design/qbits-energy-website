@@ -1,6 +1,7 @@
 ---
 title: "How to Evaluate Solar EPC Bids in India, 15 Criteria"
 excerpt: "How to evaluate solar EPC bids in India: use the 15-Point EPC Bid Scorecard covering ALMM compliance, BOS quality, string monitoring, payment milestones, and performance guarantees."
+description: "Evaluate solar EPC bids in India with a 15-point scorecard covering ALMM compliance, BOS quality, string monitoring, and payment milestones."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -54,7 +55,7 @@ A bid at ₹52,000/kW using non-[ALMM](/glossary/almm-list/) panels with a 5-yea
 - The 5-year inverter warranty means you pay ₹35,000–₹80,000 for a replacement in Year 6–8, which the 12-year warranty absorbs at no cost
 - Non-ALMM panels may degrade at 1.5% per year (vs 0.5% for certified panels), cumulative generation loss over 25 years exceeds ₹1.5 lakh for a 5 kW system
 
-The true cost comparison requires calculating total cost of ownership (TCO) over the system's life, not just the installation day invoice. Before evaluating bids, read [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) to understand the technical criteria that determine long-term performance. For contractors who offer full turnkey installation as part of the bid, [Heaven Green Energy's solar EPC service](https://heavengreenenergy.com/solar-epc/) is one example of what a complete turnkey scope looks like, useful as a reference point when checking whether a bid's scope is genuinely comprehensive.
+The true cost comparison requires calculating total cost of ownership (TCO) over the system's life, not just the installation day invoice. Before evaluating bids, read [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) to understand the technical criteria that determine long-term performance. For contractors who offer full turnkey installation as part of the bid, Heaven Green Energy's solar EPC service is one example of what a complete turnkey scope looks like, useful as a reference point when checking whether a bid's scope is genuinely comprehensive.
 
 ## The 15-Point EPC Bid Scorecard
 

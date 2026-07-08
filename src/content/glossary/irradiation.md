@@ -70,11 +70,11 @@ author: "Akash Hirapara"
 
 Irradiation is the total solar energy received per unit area over a specified time period, expressed in kWh/m² or MJ/m². It is the time integral of irradiance (instantaneous power per area). Daily irradiation is typical for solar PV design; annual irradiation is the standard for resource benchmarking; hourly irradiation supports detailed yield modelling.
 
-For Indian solar, irradiation is the foundational measurement for resource assessment, yield prediction and plant siting. Daily irradiation in India averages 4.5-6.5 kWh/m²/day (varying by location and season). Annual irradiation ranges from 1,200 kWh/m²/year in the north-east to over 2,200 in western Rajasthan and Ladakh.
+For Indian solar, irradiation is the foundational measurement for resource assessment, yield prediction and plant siting. Daily irradiation in India averages 4.5-6.5 kWh/m²/day (varying by location and season). Annual irradiation ranges from 1,200 kWh/m²/year in the north-east to over 2,200 in western Rajasthan and Ladakh. See [Solar Irradiance Data India, State-Wise Peak Sun Hours](/blog/solar-irradiance-data-india-statewise/) for the full state-by-state GHI, DHI and DNI table.
 
 ## Why irradiation matters
 
-Yield prediction. Direct proportional relationship to PV plant generation.
+Yield prediction. Direct proportional relationship to PV plant generation. See [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/) for a worked verification method that sanity-checks generation estimates against irradiation.
 
 Plant siting. High-irradiation sites favour utility-scale plants.
 

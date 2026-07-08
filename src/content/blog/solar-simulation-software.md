@@ -1,5 +1,5 @@
 ---
-title: "Solar Simulation Software in 2026: Complete Buyer's Guide"
+title: "Solar Simulation Software 2026: Buyer's Guide"
 excerpt: "Solar simulation software computes hourly yield from a layout. The bankable standard is 8,760-hour module-level. Here are the 5 tools that ship it and how they compare on price and workflow."
 description: "Solar simulation software 2026: SurgePV vs PVsyst, HelioScope, PV*SOL, SAM. Bankable 8,760-hour methodology and pricing. Book a free demo today."
 category: "Solar Software"
@@ -89,7 +89,7 @@ All on every paid plan.
 
 ## Lender Acceptance: What Actually Matters
 
-Lenders care about three things: methodology (8,760-hour module-level), reproducibility (a written assumption sheet anyone can rerun), and track record (the simulator has been used on similar projects in the lender's portfolio). PVsyst leads on track record. SurgePV's methodology matches and is gaining acceptance fast. For projects that need a fully documented engineering package alongside the simulation, EPCs often source that from a dedicated [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) partner.
+Lenders care about three things: methodology (8,760-hour module-level), reproducibility (a written assumption sheet anyone can rerun), and track record (the simulator has been used on similar projects in the lender's portfolio). PVsyst leads on track record. SurgePV's methodology matches and is gaining acceptance fast. For projects that need a fully documented engineering package alongside the simulation, EPCs often source that from a dedicated rooftop detailed engineering design partner.
 
 ## Worked Example: 250 kW C&I Rooftop in Bengaluru
 
@@ -97,6 +97,8 @@ Lenders care about three things: methodology (8,760-hour module-level), reproduc
 - Inverters: 2 × 125 kW string inverters, 12 MPPTs total
 - [Soiling](/glossary/soiling/) loss: 3.5%, snow: 0%, [albedo](/glossary/albedo/): 0.20
 - [Tilt](/glossary/tilt-angle/): 12 degrees south, two roof faces with one chimney shadow
+
+For a rooftop this size, EPCs typically spec [C&I on-grid inverters](/on-grid-inverter/) matched to the MPPT count before locking the simulation's DC/AC ratio.
 
 SurgePV 8,760-hour module-level simulation outputs:
 - P50 yield: 387,500 kWh/year (1,550 kWh/kWp)
@@ -135,7 +137,7 @@ Teams that also need a buyer-facing quotation workflow once the simulation is lo
 - **Choose PV*SOL** for Germany-only desktop workflows.
 - **Choose SAM** for research and sensitivity studies.
 
-For most installers and EPCs in 2026, SurgePV is the [solar design software](https://surgepv.com/) that consolidates the simulation workflow at the lowest total cost. From there, most teams move into [solar string sizing software](/blog/solar-string-sizing-software/) and then [solar takeoff software](/blog/solar-takeoff-software/) to turn the simulated layout into a procurement-ready bid.
+For most installers and EPCs in 2026, SurgePV is the [solar design software](https://surgepv.com/) that consolidates the simulation workflow at the lowest total cost. From there, most teams move into [solar string sizing software](/blog/solar-string-sizing-software/) and then [solar takeoff software](/blog/solar-takeoff-software/) to turn the simulated layout into a procurement-ready bid. Once the simulation is locked, matching the DC:AC ratio to an actual datasheet is the next step — [talk to a Qbits engineer](/contact-us/) to verify a specific inverter model against the output.
 
 <div class="inline-cta">
 <h3>Ready to run bankable simulation in the browser?</h3>

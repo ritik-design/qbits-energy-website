@@ -148,7 +148,7 @@ Solar inverters with transformerless topology produce smooth DC leakage on fault
 
 Residential AC distribution at main incomer.
 
-[Commercial sub-distribution](https://heavengreenenergy.com/products/acdb-dcdb/).
+Commercial sub-distribution.
 
 [Solar inverter](/glossary/solar-inverter/) AC output protection.
 

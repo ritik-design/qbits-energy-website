@@ -1,7 +1,7 @@
 ---
 title: "10kW Solar System Price in India 2026, Complete Cost"
 excerpt: "10kW solar system price in India ranges from ₹4,50,000 to ₹6,50,000 before subsidy. PM Surya Ghar subsidy is capped at ₹78,000. Covers large villas and small commercial premises."
-description: "Complete 10kW solar system cost in India 2026: panels, inverter, BOS, installation, GST, residential and commercial pricing, 3-phase options, ITC benefit for commercial buyers, payback calculation."
+description: "10kW solar system cost in India 2026: panels, inverter, GST, residential vs commercial pricing, 3-phase options, and payback calculation."
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "18 min"
@@ -179,7 +179,7 @@ For comparison with smaller system sizes and their pricing, read the [5kW solar 
 ## Common Mistakes in 10kW System Purchases
 
 - **Choosing a single-phase inverter for a three-phase home**: This causes phase imbalance and may trigger DISCOM penalties. Confirm your connection type before purchasing.
-- **Skipping structural engineering**: A 20-panel [mounting structure](/glossary/mounting-structure/) on an RCC terrace carries 500+ kg. Get a structural certification from a licensed engineer, firms offering dedicated [structural and civil engineering for rooftop solar](https://heavendesigns.in/solar-civil-and-structural-engineering/) can provide this as a standalone service. [IRENA's India country report](https://www.irena.org/countries/India) notes that mounting failures are among the top three causes of rooftop solar underperformance in Asia.
+- **Skipping structural engineering**: A 20-panel [mounting structure](/glossary/mounting-structure/) on an RCC terrace carries 500+ kg. Get a structural certification from a licensed engineer, firms offering dedicated structural and civil engineering for rooftop solar can provide this as a standalone service. [IRENA's India country report](https://www.irena.org/countries/India) notes that mounting failures are among the top three causes of rooftop solar underperformance in Asia.
 - **Not claiming accelerated depreciation**: Commercial buyers who miss this benefit leave ₹60,000–₹1,10,000 on the table. File with your CA in the same year as installation.
 - **Purchasing a non-ALMM inverter for a residential system**: Forfeits the ₹78,000 PM Surya Ghar subsidy. The [ALMM list guide](/blog/almm-list-phase-iii-guide/) explains how to verify compliance.
 - **No shade analysis**: A 10kW system on a partially shaded terrace can underperform a 7kW system by 20%. [Shading analysis](/glossary/shading-analysis/) is non-negotiable at this investment level, and dedicated [shading analysis tools](https://surgepv.com/shadow-analysis/) used by professional designers model tree and structure shadows hour-by-hour across the year rather than relying on a single site visit. [NREL tools for shade analysis](https://www.nrel.gov/pv/system-advisor-model.html) and satellite-based irradiance software are now standard practice for reputable installers in India.
@@ -195,4 +195,4 @@ For a 10kW residential villa or small commercial installation, Qbits offers matc
 
 Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone. [Request a 10kW system quote at contact-us](/contact-us/) with your bill and property details.
 
-If you would rather have a single partner handle sourcing, structural work, and DISCOM paperwork end to end instead of coordinating each vendor yourself, a [turnkey residential solar EPC](https://heavengreenenergy.com/residential-solar/) can bundle the inverter, panels, and installation into one contract.
+If you would rather have a single partner handle sourcing, structural work, and DISCOM paperwork end to end instead of coordinating each vendor yourself, a turnkey residential solar EPC can bundle the inverter, panels, and installation into one contract.

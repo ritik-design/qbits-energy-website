@@ -126,7 +126,7 @@ Module efficiency is lower than individual cell efficiency due to cell spacing, 
 | Voc temp coefficient (%/°C) | -0.27 to -0.30 | -0.25 to -0.28 | -0.21 to -0.25 |
 | Pmax temp coefficient (%/°C) | -0.34 to -0.37 | -0.30 to -0.33 | -0.24 to -0.28 |
 
-HJT panels lose less power in heat, giving better real-world yield in Indian conditions.
+HJT panels lose less power in heat, giving better real-world yield in Indian conditions, the same -0.35%/°C PERC coefficient measured in the field in [Case Study (10 kW Solar on a Jaipur Villa), 4-Year Payback](/blog/case-study-jaipur-villa/).
 
 ### Degradation
 
@@ -225,7 +225,7 @@ Monitor I-V curves at annual inspection.
 
 Major Indian monocrystalline module manufacturers include Waaree Energies, Adani Green Solar, Tata Power Solar, Vikram Solar, Goldi Solar, Premier Energies, RenewSys, Saatvik Green Energy and Mundra Solar.
 
-ALMM List I includes most Indian mono manufacturers across PERC, TOPCon and emerging HJT.
+ALMM List I includes most Indian mono manufacturers across PERC, TOPCon and emerging HJT; see the [ALMM List Phase III Complete Guide](/blog/almm-list-phase-iii-guide/) for how bifacial and double-glass mono formats are treated under the current listing phases.
 
 PLI scheme for solar PV manufacturing accelerated Indian mono capacity to over 50 GW annually by 2026.
 

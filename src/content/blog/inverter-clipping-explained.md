@@ -1,7 +1,7 @@
 ---
-title: "Inverter Clipping Explained: 12 FAQs About DC Oversizing"
+title: "Inverter Clipping Explained: DC Oversizing FAQs"
 excerpt: "Clipping isn't a fault, it's a deliberate design trade-off that improves ROI. Here's what clipping is, when to design for it, and how to explain it to clients."
-description: "Complete FAQ guide to inverter clipping and DC oversizing, how clipping works, why intentional clipping improves ROI, optimal thresholds (1-3% annual), warranty implications, and on-grid vs hybrid differences."
+description: "Clipping isn't a fault, it's a design trade-off that improves ROI. What inverter clipping is, when to design for it, and how it affects warranty."
 category: "Technology"
 date: 2026-05-06
 updatedDate: 2026-07-08
@@ -94,7 +94,7 @@ Intentional clipping through strategic oversizing typically delivers **superior 
 - High-irradiance sites (Rajasthan, Gujarat, Karnataka) suit aggressive oversizing
 - C&I rooftops with limited area benefit most from oversizing
 
-Getting the DC:AC ratio right at this stage is a job for [detailed rooftop engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/), not a rule of thumb applied after the panels are already on order.
+Getting the DC:AC ratio right at this stage is a job for detailed rooftop engineering design, not a rule of thumb applied after the panels are already on order.
 
 ## 6. What Is the Optimal Clipping Threshold?
 
@@ -214,3 +214,5 @@ Premium platforms integrate weather forecasting with monitoring, enabling sophis
 ## Closing
 
 Clipping is not a fault, it is a design choice that, properly applied, lowers cost per kWh and improves long-term ROI. The 1–3% annual loss range is where modern Indian solar projects find the sweet spot between additional panels and clipped peaks. Communicate the trade-off clearly to clients and the economics speak for themselves.
+
+Getting the DC:AC ratio right starts with matching the array to a specific inverter model. EPCs speccing [on-grid](/on-grid-inverter/) or [hybrid systems](/hybrid-inverter/) can check the published oversizing limit against the layout before panels are ordered, and a quick call with [a Qbits engineer](/contact-us/) settles any borderline ratio fast.

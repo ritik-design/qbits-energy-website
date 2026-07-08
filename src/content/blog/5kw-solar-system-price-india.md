@@ -1,7 +1,7 @@
 ---
 title: "5kW Solar System Price in India 2026, Complete Cost"
 excerpt: "5kW solar system price in India ranges from ₹2,40,000 to ₹3,50,000 before subsidy. After PM Surya Ghar subsidy (capped at ₹78,000 for >3kW), net cost is ₹1,62,000–₹2,72,000. Full breakdown."
-description: "Complete 5kW solar system cost in India 2026: on-grid vs hybrid price difference, PM Surya Ghar subsidy, panel/inverter/BOS breakdown, payback period, and which Qbits inverter fits a 5kW system."
+description: "5kW solar system cost in India 2026: on-grid vs hybrid price difference, PM Surya Ghar subsidy, panel/inverter breakdown, and payback period."
 category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -123,7 +123,7 @@ A 5kW system is designed for a **3 BHK or 4 BHK** Indian home or a small commerc
 
 A 5kW system in central India generates 22 to 27 kWh/day. The gap between ~29 kWh consumption and ~25 kWh generation is covered by grid export credits ([net metering](/glossary/net-metering/)) banked from lower-consumption daytime hours when the AC runs less. In practice, most 4 BHK households find a 5kW system eliminates 70–85% of their [DISCOM](/glossary/discom/) bill.
 
-For the inverter sizing specifics and which Qbits SKU pairs with a 5kW system, the [best 5kW solar inverter guide for India](/blog/best-5kw-solar-inverter-india-2026/) gives a brand-by-brand comparison. If your consumption profile sits between capacities, the [3kW vs 5kW vs 10kW solar inverter capacity guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) walks through the decision, and homeowners with larger loads can compare against the [10kW solar system price guide](/blog/10kw-solar-system-price-india/). For turnkey installation quotes on a 5kW residential rooftop, [Heaven Green Energy's residential solar installation service](https://heavengreenenergy.com/residential-solar/) is a useful benchmark for EPC scope and pricing outside the Qbits network.
+For the inverter sizing specifics and which Qbits SKU pairs with a 5kW system, the [best 5kW solar inverter guide for India](/blog/best-5kw-solar-inverter-india-2026/) gives a brand-by-brand comparison. If your consumption profile sits between capacities, the [3kW vs 5kW vs 10kW solar inverter capacity guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) walks through the decision, and homeowners with larger loads can compare against the [10kW solar system price guide](/blog/10kw-solar-system-price-india/). For turnkey installation quotes on a 5kW residential rooftop, Heaven Green Energy's residential solar installation service is a useful benchmark for EPC scope and pricing outside the Qbits network.
 
 ## PM Surya Ghar Subsidy for 5kW: The Important Nuance
 
@@ -163,7 +163,7 @@ For the complete PM Surya Ghar application and eligibility process, read the [PM
 
 > **8,395 kWh/year.** Estimated annual generation from a well-installed 5kW solar system at 4.6 [peak sun hours](/glossary/peak-sun-hours/)/day (India average). At ₹7/unit, this delivers ₹58,765 in annual bill savings. *Source - [IRENA Renewable Power Generation Costs 2024](https://www.irena.org/Publications/2025/Mar/Renewable-Power-Generation-Costs-in-2024){target="_blank" rel="noopener"}, IRENA 2025.*
 
-For a state-by-state breakdown of how tariff and irradiance change the payback math, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) compares seven Indian states side by side. Homeowners who want to model their own numbers before committing can also run a rough estimate through [Heaven Green Energy's solar savings calculator](https://heavengreenenergy.com/solar-calculator/).
+For a state-by-state breakdown of how tariff and irradiance change the payback math, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) compares seven Indian states side by side. Homeowners who want to model their own numbers before committing can also run a rough estimate through Heaven Green Energy's solar savings calculator.
 
 ## Which Qbits Inverter for a 5kW System?
 

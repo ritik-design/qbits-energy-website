@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter for Cold Storage India, Sizing, VFDs and Best Picks"
+title: "Solar Inverter for Cold Storage, Sizing and VFDs"
 excerpt: "Solar inverter for cold storage India must handle compressor startup surges (6–8× nameplate), THD < 5%, and 24/7 load. A 40 kW cold storage typically needs 30–50 kW solar."
-description: "Complete guide to solar inverter selection for cold storage in India. VFD compatibility, THD requirements, surge capacity, sizing protocol, and 3-phase inverter recommendations."
+description: "Guide to solar inverter selection for cold storage in India: VFD compatibility, THD limits, surge capacity, and 3-phase inverter sizing protocol."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -33,7 +33,7 @@ faqs:
     a: "Cold storage facilities connected to HT (High Tension) or LT (Low Tension) commercial connections must apply for net metering through the respective state DISCOM. Large cold storage units above 100 kW may require open access approval for third-party solar or RESCO arrangements. The standard grid-tied solar connection process - single-line diagram approval, anti-islanding certification, bidirectional meter installation - applies. State-specific regulations vary; Karnataka, Maharashtra, Tamil Nadu, and Gujarat have well-established commercial net metering processes."
 ---
 
-Cold storage is one of the most demanding [industrial solar installations](https://heavengreenenergy.com/industrial-solar/) in India, not because the technology is unfamiliar, but because the electrical loads are unforgiving. Compressor motors start at 6–8 times their running current. VFDs generate harmonic currents that must not interfere with the inverter's output. Temperature-sensitive goods cannot tolerate power interruptions. And the facility operates around the clock, making 24/7 reliability non-negotiable.
+Cold storage is one of the most demanding industrial solar installations in India, not because the technology is unfamiliar, but because the electrical loads are unforgiving. Compressor motors start at 6–8 times their running current. VFDs generate harmonic currents that must not interfere with the inverter's output. Temperature-sensitive goods cannot tolerate power interruptions. And the facility operates around the clock, making 24/7 reliability non-negotiable.
 
 Get the solar system design right, and a cold storage facility sees some of the best ROI in commercial solar - ₹8–12 per unit electricity bills dropping dramatically for a load that runs constantly. Get it wrong, and you face nuisance tripping, compressor damage, and spoiled inventory.
 
@@ -140,7 +140,7 @@ This six-step process ensures the solar system is correctly specified for a cold
 | Large (100 tons) | 100–150 kW | 75–100 kW | 3-phase central/multi-string | 100 kWh+ lithium |
 | Multi-chamber (250 tons) | 250–350 kW | 150–200 kW | Multiple 50–100 kW strings | 200 kWh+ lithium |
 
-For facilities with DG backup (common in cold storage), the solar system must be configured to interlock correctly with the DG, preventing parallel operation unless the inverter is specified for DG-synchronous operation. Pre-engineered cold storage buildings with lightweight steel roofing should also have their mounting loads checked through a [structural and civil engineering assessment](https://heavendesigns.in/solar-civil-and-structural-engineering/) before the array is finalised.
+For facilities with DG backup (common in cold storage), the solar system must be configured to interlock correctly with the DG, preventing parallel operation unless the inverter is specified for DG-synchronous operation. Pre-engineered cold storage buildings with lightweight steel roofing should also have their mounting loads checked through a structural and civil engineering assessment before the array is finalised.
 
 For a real-world reference point, the [case study on a 40kW solar installation at a Rajkot cold storage facility](/blog/case-study-rajkot-cold-storage/) walks through an actual sizing decision, compressor load profile, and payback outcome for a facility in this size band.
 

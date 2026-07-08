@@ -1,6 +1,7 @@
 ---
-title: "Solar CAPEX vs OPEX, Which Model Fits Your Business India?"
+title: "Solar CAPEX vs OPEX: Which Model Fits Your Business?"
 excerpt: "Solar CAPEX vs OPEX: own the system for 18–25% IRR and 60–70% savings, or go RESCO for zero capex and 30–40% savings. The 4-question decision matrix resolves the right choice."
+description: "Solar CAPEX delivers 18–25% IRR and 60–70% savings if you own your building and have capital. OPEX/RESCO needs zero capex, with 30–40% savings instead."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -157,6 +158,6 @@ Qbits commercial string inverters for C&I applications offer:
 - **[On-Grid Inverters](/on-grid-inverter/)**: Commercial string inverters with industrial THD specifications.
 - **[Download Datasheets](/download-datasheets/)**: Technical specifications for banker review and EPC bid evaluation.
 
-For projects above a few hundred kW, CAPEX buyers usually also need dedicated project management. [Heaven Designs' MW-scale EPC project management consultancy](https://heavendesigns.in/mw-scale-project-management-consultancy/) covers the engineering coordination that a large CAPEX rooftop or ground-mount build requires.
+For projects above a few hundred kW, CAPEX buyers usually also need dedicated project management. Heaven Designs' MW-scale EPC project management consultancy covers the engineering coordination that a large CAPEX rooftop or ground-mount build requires.
 
 To get a CAPEX IRR model for your specific plant (incorporating your grid tariff, roof area, financing cost, and tax position) [talk to a Qbits engineer](/contact-us/). The analysis is free and typically takes 24 hours with your last electricity bill and basic plant information.

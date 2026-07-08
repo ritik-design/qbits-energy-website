@@ -118,7 +118,7 @@ Late payment enforcement. The Late Payment Surcharge Rules 2022 operate within C
 
 ## Real-world applications
 
-SECI solar PPAs and discovered tariffs, which developers typically stress-test with a [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) before bidding.
+SECI solar PPAs and discovered tariffs, which developers typically stress-test with a [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) before bidding, benchmarking the discovered tariff against their own [LCOE](/blog/lcoe-solar-india/).
 
 REC trading for renewable purchase obligation compliance.
 
@@ -152,7 +152,7 @@ REC market depth has been thin in some periods.
 
 ## Indian market context
 
-The CERC Tariff Regulations 2024 superseded the 2019 edition with updated benchmarks.
+The CERC Tariff Regulations 2024 superseded the 2019 edition with updated benchmarks, arriving against a backdrop of broader state-level tariff increases discussed in [Electricity Tariff Hikes in 2026, Why Solar Pays Off Faster Now](/blog/electricity-tariff-hikes-solar/).
 
 The REC framework has gone through multiple revisions, with the latest CERC REC Regulations 2022 introducing changes around floor price and validity.
 

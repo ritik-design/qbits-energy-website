@@ -154,7 +154,7 @@ Most modern solar isolators are load-break switch-disconnectors, allowing operat
 
 ## Real-world applications
 
-PV array isolation at the combiner box, one of the [balance of system components](https://heavengreenenergy.com/products/balance-of-system/) sourced alongside the inverter.
+PV array isolation at the combiner box, one of the balance of system components sourced alongside the inverter.
 
 Inverter DC input isolation, a step covered in our [solar inverter integration EPC setup guide](/blog/solar-inverter-integration-in-india/).
 
@@ -214,7 +214,7 @@ ALMM does not list isolators. BIS certification under IS 13947 applies.
 
 DISCOM commissioning verifies isolator presence and rating.
 
-CEIG drawing approval requires isolators marked at correct locations on the SLD, part of the [electrical drawing package](https://heavendesigns.in/electrical-ceig-drawings/) an EPC submits.
+CEIG drawing approval requires isolators marked at correct locations on the SLD, part of the electrical drawing package an EPC submits.
 
 PM Surya Ghar residential installations include both DC and AC isolators.
 

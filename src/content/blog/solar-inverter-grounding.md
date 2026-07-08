@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Grounding: Complete India EPC Safety Guide 2026"
+title: "Solar Inverter Grounding, India EPC Safety Guide"
 excerpt: "Proper grounding protects equipment, people, and warranty validity in every solar PV installation. Here is the complete grounding framework aligned to IS 3043 and CEA Regulations 2013 - covering earthing fundamentals, conductor sizing, electrode design, SPD integration, hybrid system requirements, and the 8 mistakes that void warranties."
-description: "Complete grounding guide for solar inverters in India aligned to IS 3043:2018 and CEA Regulations 2013: earthing vs grounding fundamentals, components requiring earthing, conductor sizing, electrode design, AC vs DC grounding, SPD integration, hybrid system requirements, testing protocols, compliance checklist, and 8 critical installation mistakes to avoid."
+description: "Grounding guide for solar inverters in India: IS 3043 and CEA 2013 compliant earthing, conductor sizing, SPD integration, and 8 warranty-voiding mistakes."
 category: "Guide"
 date: 2026-05-11
 readTime: "12 min"

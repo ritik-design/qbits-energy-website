@@ -1,6 +1,7 @@
 ---
 title: "PM Surya Ghar Muft Bijli Yojana, Complete 2026 Guide"
 excerpt: "PM Surya Ghar offers up to ₹78,000 subsidy for residential rooftop solar. This complete 2026 guide covers eligibility, application steps, state topups, and ALMM rules."
+description: "PM Surya Ghar offers up to ₹78,000 subsidy for residential rooftop solar. This complete 2026 guide covers eligibility, application steps, and ALMM rules."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -70,7 +71,7 @@ Consider a homeowner in Pune paying ₹8,000 per month on a 600-unit consumption
 - **Payback period after subsidy:** 2–3 years
 - **25-year saving:** ₹7 lakh to ₹10 lakh
 
-Those numbers explain why the scheme received over 1.5 crore registrations within 18 months of launch, according to data tracked by [Mercom India](https://www.mercomindia.com/). Homeowners who want to sanity-check their own roof before applying can run the numbers through a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/) to see the payback range for their specific bill and roof size. The financial case, even without subsidies, is compelling. With the subsidy, it is close to irresistible for anyone who owns their roof.
+Those numbers explain why the scheme received over 1.5 crore registrations within 18 months of launch, according to data tracked by [Mercom India](https://www.mercomindia.com/). Homeowners who want to sanity-check their own roof before applying can run the numbers through a solar cost and savings calculator to see the payback range for their specific bill and roof size. The financial case, even without subsidies, is compelling. With the subsidy, it is close to irresistible for anyone who owns their roof.
 
 > **₹75,000 crore.** The total outlay of PM Surya Ghar Muft Bijli Yojana (India's single largest rooftop solar scheme) announced at scheme launch in February 2024. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
@@ -132,7 +133,7 @@ After registration, submit the formal application with your proposed system capa
 
 ### Step 3: Select an Empanelled Vendor and Install the System
 
-Once you receive DISCOM feasibility approval (the portal shows a green status update), you can select a vendor. The portal lists all empanelled vendors by state and district, with contact details. If you want an independent second opinion on roof layout or shading before locking in a vendor's design, national EPCs such as [Heaven Green Energy's residential solar service](https://heavengreenenergy.com/residential-solar/) will assess a roof outside the DISCOM's empanelled list too.
+Once you receive DISCOM feasibility approval (the portal shows a green status update), you can select a vendor. The portal lists all empanelled vendors by state and district, with contact details. If you want an independent second opinion on roof layout or shading before locking in a vendor's design, national EPCs such as Heaven Green Energy's residential solar service will assess a roof outside the DISCOM's empanelled list too.
 
 **Critical check before signing any contract:**
 - Verify the vendor's empanelment status on the portal, not on their brochure or calling card.

@@ -1,7 +1,7 @@
 ---
-title: "2kW Solar System Price in India 2026, Complete Cost Breakdown"
+title: "2kW Solar System Price in India 2026: Cost Breakdown"
 excerpt: "2kW solar system price in India ranges from ₹1.1 lakh to ₹1.5 lakh before subsidy. After PM Surya Ghar subsidy of ₹60,000, net cost drops to ₹50,000–₹90,000. Full breakdown here."
-description: "Complete 2kW solar system cost breakdown: panels, inverter, BOS, installation, GST minus subsidy. Payback calculator, load examples, and what a 2kW system can power in India 2026."
+description: "2kW solar system cost breakdown: panels, inverter, GST minus subsidy. Payback calculator, load examples, and what a 2kW system can power."
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "17 min"
@@ -95,7 +95,7 @@ A 2kW system generating 8 units/day in a city like Bengaluru or Hyderabad can ef
 
 **Assumptions:** Net cost ₹65,000 (midpoint after ₹60,000 subsidy). Generation based on 4.5–5.5 peak sun hours depending on location. Tariff escalation not modelled (would further shorten payback). Annual generation degrades ~0.5% per year per panel manufacturer data. *Source for peak sun hours - [NREL India Solar Resource](https://www.nrel.gov/international/india.html).*
 
-Over 25 years, a 2kW system at ₹7/unit saves approximately ₹4.5 to ₹5.5 lakh in electricity costs, an exceptional return on a net investment of ₹65,000. If you want a quick second opinion on these numbers before finalising a quotation, an [online solar savings calculator](https://heavengreenenergy.com/solar-calculator/) can cross-check generation and payback using your own bill and pincode.
+Over 25 years, a 2kW system at ₹7/unit saves approximately ₹4.5 to ₹5.5 lakh in electricity costs, an exceptional return on a net investment of ₹65,000. If you want a quick second opinion on these numbers before finalising a quotation, an online solar savings calculator can cross-check generation and payback using your own bill and pincode.
 
 ## The 4-Factor 2kW System Sizing Test
 
@@ -202,4 +202,4 @@ The 12-year full replacement warranty on Qbits inverters is particularly meaning
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm your 4-panel string matches the MPPT input range before ordering.
 - **[Residential Solar Solutions](/residential-solution/)**: Complete on-grid and hybrid packages for 2 BHK and 3 BHK homes across India.
 
-[Contact a Qbits engineer](/contact-us/) with your electricity bill and roof details, most quotes come back within 24 hours, shipped to 280+ Indian cities. If you would prefer a single turnkey contractor to handle sourcing and installation rather than assembling components yourself, a [residential solar EPC provider](https://heavengreenenergy.com/solar-epc/) can bundle the entire job under one contract.
+[Contact a Qbits engineer](/contact-us/) with your electricity bill and roof details, most quotes come back within 24 hours, shipped to 280+ Indian cities. If you would prefer a single turnkey contractor to handle sourcing and installation rather than assembling components yourself, a residential solar EPC provider can bundle the entire job under one contract.

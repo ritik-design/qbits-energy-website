@@ -1,7 +1,7 @@
 ---
-title: "Solar Inverter Error Codes, Complete India Troubleshooting Guide"
+title: "Solar Inverter Error Codes: India Troubleshooting"
 excerpt: "Solar inverter error codes decoded for Indian homeowners. Learn what F-codes, E-codes, and grid fault codes mean, plus first-response steps for every category."
-description: "Complete guide to solar inverter error codes in India. Decode F-codes, E-codes, grid fault codes, and GFCI alarms with first-response troubleshooting steps."
+description: "Guide to solar inverter error codes in India. Decode F-codes, E-codes, and grid fault codes, with first-response troubleshooting steps."
 category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -145,7 +145,7 @@ Isolation faults are the most serious category of solar inverter error codes. Th
 
 The DC side of a solar system operates at up to 600–1000 V in string configurations. If insulation fails (through cable damage, water ingress, a cracked panel junction box, or a corroded MC4 connector) current can flow through an unintended path to the [earthing](/glossary/earthing/) system. Unlike a house wiring short-circuit that trips an MCB quickly, a DC ground fault can sustain an arc that generates temperatures above 1,400 °C. [NREL's arc fault research](https://www.nrel.gov/){target="_blank" rel="noopener"} documents multiple rooftop fires traceable to undetected DC arc faults.
 
-Indian CEA wiring regulations (IS 16169) require insulation resistance between the DC array and the earth to be above 1 MΩ at commissioning. Annual checks are recommended, and EPCs specifying [CEIG-compliant electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) at the design stage reduce the odds of isolation faults traced back to wiring errors. For the full step-by-step diagnostic protocol, including the megger test procedure, see the [solar inverter ground fault troubleshooting guide](/blog/solar-inverter-ground-fault-guide/).
+Indian CEA wiring regulations (IS 16169) require insulation resistance between the DC array and the earth to be above 1 MΩ at commissioning. Annual checks are recommended, and EPCs specifying CEIG-compliant electrical drawings at the design stage reduce the odds of isolation faults traced back to wiring errors. For the full step-by-step diagnostic protocol, including the megger test procedure, see the [solar inverter ground fault troubleshooting guide](/blog/solar-inverter-ground-fault-guide/).
 
 ### First Response to an Isolation Fault Code
 
@@ -231,7 +231,7 @@ Not every error code requires the same escalation path. Use this framework:
 - Internal hardware fault codes (F10+, IGBT, relay, board failures)
 - Any fault appearing within the warranty period that the installer cannot resolve within their stated SLA
 
-For Qbits inverters, the WhatsApp support escalation path is: log the fault via the monitoring app → receive an automated triage response → a service engineer calls back within 4 business hours → on-site dispatch arranged within 48–72 hours. The [warranty claim process](/blog/solar-inverter-warranty-claim/) explains how to document faults for a successful warranty claim, and the [72-hour action plan for a failed inverter](/blog/solar-inverter-failure-action/) walks through the full recovery timeline hour by hour. If you are still choosing an installer, review how [turnkey EPC providers](https://heavengreenenergy.com/solar-epc/) structure their post-installation service commitments before you sign.
+For Qbits inverters, the WhatsApp support escalation path is: log the fault via the monitoring app → receive an automated triage response → a service engineer calls back within 4 business hours → on-site dispatch arranged within 48–72 hours. The [warranty claim process](/blog/solar-inverter-warranty-claim/) explains how to document faults for a successful warranty claim, and the [72-hour action plan for a failed inverter](/blog/solar-inverter-failure-action/) walks through the full recovery timeline hour by hour. If you are still choosing an installer, review how turnkey EPC providers structure their post-installation service commitments before you sign.
 
 ## Where Qbits Fits
 

@@ -91,7 +91,7 @@ Universal billing unit. Every Indian electricity bill is in kWh.
 
 Solar yield. Specific yield in kWh/kWp/year is the standard performance metric, as explained in our [solar yield](/glossary/solar-yield/) glossary entry.
 
-Customer comparison. Solar saves a specific number of kWh, compared to retail tariff per kWh — a saving customers can estimate with a [solar cost and savings calculator](https://heavengreenenergy.com/solar-calculator/).
+Customer comparison. Solar saves a specific number of kWh, compared to retail tariff per kWh — a saving customers can estimate with a solar cost and savings calculator.
 
 Net metering. Export and import credited in kWh under [net metering](/glossary/net-metering/), which differs from [gross metering](/blog/gross-metering-vs-net-metering/) in how credits are calculated.
 

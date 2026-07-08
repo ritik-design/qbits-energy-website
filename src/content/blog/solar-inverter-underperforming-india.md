@@ -1,7 +1,7 @@
 ---
-title: "Why Is My Solar Inverter Underperforming? 10 Causes India"
+title: "Solar Inverter Underperforming? 10 Causes in India"
 excerpt: "Solar inverter underperforming in India? The 10-Cause Underperformance Audit diagnoses partial yield loss (below expected kWh) step by step with self-diagnose guidance."
-description: "10 causes of solar inverter underperformance in India: dust, thermal derating, inverter clipping, shading, panel ageing, loose DC connections, wrong string sizing, grid voltage, firmware, and monitoring misconfiguration."
+description: "10 causes of solar inverter underperformance in India: dust, thermal derating, clipping, shading, loose DC connections, and grid voltage issues."
 category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -122,7 +122,7 @@ The first five causes account for approximately 85% of underperformance cases in
 
 **Self-diagnosis:** Walk the roof during peak sun hours (10:00 AM–1:00 PM) and observe shadows on any panel. Check for tree branch growth since installation, new water tank or antenna additions, neighbouring building construction, or bird nests at the array edge. Compare per-string MPPT data in the monitoring application, a string consistently at 60–70% of the other string's output suggests shading on the weaker string.
 
-**Fix:** Remove or reposition movable obstructions. For permanent obstructions such as adjacent buildings, consult a [verified local installer](https://heavengreenenergy.com/solar-near-me/) about redesigning string groupings to isolate shaded panels on a separate MPPT input.
+**Fix:** Remove or reposition movable obstructions. For permanent obstructions such as adjacent buildings, consult a verified local installer about redesigning string groupings to isolate shaded panels on a separate MPPT input.
 
 ### Cause 5: Ageing Panels and Gradual Degradation
 
@@ -161,7 +161,7 @@ These three causes require physical inspection of DC components or review of 7-d
 
 **Background:** DC connections between panels and the inverter (MC4 connectors, combiner box terminals, and string fuse holders) develop micro-resistance over time from thermal cycling (daily temperature swings from 10 °C to 55 °C on rooftops), UV degradation of rubber seals, and vibration from wind loading. A resistive connection dissipates power as heat rather than delivering it to the inverter.
 
-**Self-diagnosis:** Inspect all accessible [MC4 connectors](/glossary/mc4-connector/) visually. Signs of degradation: discolouration of the plastic body (yellowing or brown), heat marks on the locking ring, or difficulty in the mating action. Combiner box terminals, part of the array's [balance of system](https://heavengreenenergy.com/products/balance-of-system/), may show similar discolouration.
+**Self-diagnosis:** Inspect all accessible [MC4 connectors](/glossary/mc4-connector/) visually. Signs of degradation: discolouration of the plastic body (yellowing or brown), heat marks on the locking ring, or difficulty in the mating action. Combiner box terminals, part of the array's balance of system, may show similar discolouration.
 
 **Fix:** Connections showing discolouration must be replaced, do not attempt to re-crimp or remate a connection that has overheated. For in-warranty systems, contact the installer. Include DC connection inspection in the [annual inverter maintenance schedule](/blog/inverter-maintenance-india/).
 
@@ -179,7 +179,7 @@ These three causes require physical inspection of DC components or review of 7-d
 | Too many panels in string | MPPT voltage at upper limit or startup problems | 10–30% yield loss; system may not start in peak summer |
 | Mixed panel models in one string | MPPT voltage unstable, hunting | 5–20% yield loss depending on mismatch |
 
-**Fix:** String re-sizing is a design change requiring panel reconfiguration. Use the [string sizing calculator](/string-sizing-calculator/) to verify optimal string voltage. The [string sizing](/glossary/string-sizing/) glossary entry explains the MPPT voltage window calculation method, and a properly reviewed [rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) prevents this error from reaching installation in the first place.
+**Fix:** String re-sizing is a design change requiring panel reconfiguration. Use the [string sizing calculator](/string-sizing-calculator/) to verify optimal string voltage. The [string sizing](/glossary/string-sizing/) glossary entry explains the MPPT voltage window calculation method, and a properly reviewed rooftop detailed engineering design prevents this error from reaching installation in the first place.
 
 ### Cause 8: Grid Voltage Fluctuation
 

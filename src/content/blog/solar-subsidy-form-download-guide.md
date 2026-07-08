@@ -1,7 +1,7 @@
 ---
-title: "Solar Subsidy Form, How to Download and Fill It Correctly"
+title: "Solar Subsidy Form: How to Download & Fill It"
 excerpt: "Solar panel subsidy form download is done on pmsuryaghar.gov.in after Aadhaar eKYC. This guide walks through every field, common errors, and submission steps."
-description: "Step-by-step guide to downloading and correctly filling the solar panel subsidy form on PM Surya Ghar portal, field-by-field walkthrough, common errors, and submission."
+description: "Step-by-step guide to downloading and filling the solar subsidy form on the PM Surya Ghar portal: field walkthrough, common errors, and submission."
 category: Policy
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -177,7 +177,7 @@ Section 6 is the installer selection section. Selecting the wrong installer (par
 
 **How to use the section:**
 
-The portal displays a filtered list of empanelled vendors based on your state and pincode. Each listing shows the vendor's registration number, company name, contact details, and completed PM Surya Ghar installation count. If your area shows few options, a directory like [Heaven Green Energy's local installer finder](https://heavengreenenergy.com/solar-near-me/){target="_blank" rel="noopener"} is a useful cross-check for vetting EPC contractors beyond the portal list.
+The portal displays a filtered list of empanelled vendors based on your state and pincode. Each listing shows the vendor's registration number, company name, contact details, and completed PM Surya Ghar installation count. If your area shows few options, a directory like Heaven Green Energy's local installer finder{target="_blank" rel="noopener"} is a useful cross-check for vetting EPC contractors beyond the portal list.
 
 - **Verify empanelment is current**: empanelment can lapse. Even if a vendor shows on the list today, confirm their registration expiry date with the vendor directly.
 - **Check installation count**: vendors with more completed PM Surya Ghar installations understand the portal submission requirements, which is as important as their technical competence.

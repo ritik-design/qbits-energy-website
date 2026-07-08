@@ -1,6 +1,7 @@
 ---
-title: "Best Solar Inverter for Home in India 2026, Reviewed by Home Size"
+title: "Best Solar Inverter for Home 2026, by Home Size"
 excerpt: "The best solar inverter for home in India matches your BHK to the right kW and type. This guide covers 1BHK to Villa with 2026 cost and payback data."
+description: "Match your BHK to the right size: a 1 BHK needs 2–3 kW on-grid, a 3 BHK power-cut zone needs 5 kW hybrid, a villa 8–10 kW. Costs and payback for 2026."
 category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -79,7 +80,7 @@ Before the full framework, here is the fast lookup table. Find your home type, c
 | **4 BHK** | 3+ AC (1.5–2T), fridge, washing machine | 8–10 kW | On-grid | ₹80,000–₹1.2 Lakh | ₹4.5–₹6.0 Lakh | 5–6 years |
 | **Villa / Premium** | 3+ AC, pool pump, EV charger, home theatre | 8–10 kW+ | Hybrid | ₹1.2–₹2.0 Lakh | ₹8.0–₹15 Lakh | 5–7 years |
 
-Costs are indicative for June 2026. Full system costs include panels, mounting structure, DC and AC cabling, and installation. Subsidy under [PM Surya Ghar](https://pmsuryaghar.gov.in/) can reduce effective cost by ₹30,000–₹78,000 for systems up to 3 kW, and proportionally above that. A [solar cost calculator](https://heavengreenenergy.com/solar-calculator/) can give a rough system-level estimate for your specific roof before you request formal quotes.
+Costs are indicative for June 2026. Full system costs include panels, mounting structure, DC and AC cabling, and installation. Subsidy under [PM Surya Ghar](https://pmsuryaghar.gov.in/) can reduce effective cost by ₹30,000–₹78,000 for systems up to 3 kW, and proportionally above that. A solar cost calculator can give a rough system-level estimate for your specific roof before you request formal quotes.
 
 > **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the homeowner's bank account after DISCOM verification of installation. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
@@ -223,7 +224,7 @@ Even well-researched buyers make avoidable errors. These are the five mistakes t
 
 **Mistake 4: Ignoring the monitoring capability.** A solar system with no monitoring is a black box. Without generation data, you cannot verify whether the system is performing to specification, detect a faulty string early, or substantiate a warranty claim. Insist on monitoring that provides daily generation data accessible from your phone, and confirm it works on your home's Wi-Fi or mobile network before installation.
 
-**Mistake 5: Not verifying the installer's DISCOM registration.** PM Surya Ghar subsidy disbursement requires the installer to be registered on the national portal. An unregistered installer (regardless of how competitive their quote is) cannot complete the subsidy application on your behalf. Always ask for the installer's registration number before signing any agreement, and cross-check them against a [directory of local solar installers](https://heavengreenenergy.com/solar-near-me/) if you have not shortlisted one yet.
+**Mistake 5: Not verifying the installer's DISCOM registration.** PM Surya Ghar subsidy disbursement requires the installer to be registered on the national portal. An unregistered installer (regardless of how competitive their quote is) cannot complete the subsidy application on your behalf. Always ask for the installer's registration number before signing any agreement, and cross-check them against a directory of local solar installers if you have not shortlisted one yet.
 
 The [3 kW vs 5 kW vs 10 kW solar inverters](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) guide addresses the capacity selection dimension of these mistakes in detail, with year-by-year generation and savings projections.
 

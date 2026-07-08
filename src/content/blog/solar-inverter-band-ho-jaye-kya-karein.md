@@ -1,6 +1,7 @@
 ---
-title: "Solar Inverter Band Ho Jaye Toh Kya Karein, Hindi Troubleshooting Guide"
+title: "Solar Inverter Band Ho Jaye Toh Kya Karein"
 excerpt: "Solar inverter band ho jaye toh kya karein: display off, error code, beeping, low output, causes aur fixes step-by-step Hindi mein। Kab professional call karein।"
+description: "Solar inverter band ho jaye toh kya karein? Display off, error code, beeping ke causes aur fixes step-by-step Hindi mein, kab vendor ko call karein."
 category: "Technical"
 date: 2026-06-05
 readTime: "12 min"
@@ -225,7 +226,7 @@ Beeping patterns और meanings:
 4. **Resolution**: Replacement part या full unit replacement
 5. **Reinstallation**: Certified technician करेगा
 
-अगर original installer की contact details नहीं मिल रही, तो [नज़दीकी भरोसेमंद solar installer](https://heavengreenenergy.com/solar-near-me/) ढूंढ सकते हैं जो certified technician भेज सके।
+अगर original installer की contact details नहीं मिल रही, तो नज़दीकी भरोसेमंद solar installer ढूंढ सकते हैं जो certified technician भेज सके।
 
 **Important documents ready रखें:**
 - Warranty card / warranty certificate

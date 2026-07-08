@@ -1,7 +1,7 @@
 ---
-title: "Solar for Hotels and Hospitality India, Complete 2026 Guide"
+title: "Solar for Hotels and Hospitality India"
 excerpt: "Solar for hotel India: HVAC is the largest load, hybrid inverters cover essential operations, and electricity at ₹8–12/unit makes payback under 5 years typical. Full load analysis inside."
-description: "Complete guide to solar for hotels and hospitality businesses in India 2026. Load mapping, on-grid vs hybrid, seasonal variation, FHRAI sustainability push, and ROI analysis."
+description: "Guide to solar for hotels and hospitality businesses in India: load mapping, on-grid vs hybrid, seasonal variation, and ROI analysis."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -175,7 +175,7 @@ The commercial hospitality segment is one of the fastest-growing segments in Ind
 - **Not applying for accelerated depreciation**: hotels are commercial entities and can claim 40% depreciation in Year 1, reducing effective capex by ₹5–10 Lakh on a typical system.
 - **Choosing an unqualified installer for commercial systems**: residential-scale EPCs may not have experience with 3-phase systems, net metering applications for commercial connections, or roof structural assessments.
 
-For guidance on finding a qualified installer for your property, see the [find reliable solar installer guide](/blog/find-reliable-solar-installer/). Hotel groups managing multiple properties often standardise on a single [commercial solar EPC partner](https://heavengreenenergy.com/commercial-solar/) to keep installation quality and warranty terms consistent across the portfolio.
+For guidance on finding a qualified installer for your property, see the [find reliable solar installer guide](/blog/find-reliable-solar-installer/). Hotel groups managing multiple properties often standardise on a single commercial solar EPC partner to keep installation quality and warranty terms consistent across the portfolio.
 
 ## Where Qbits Fits
 

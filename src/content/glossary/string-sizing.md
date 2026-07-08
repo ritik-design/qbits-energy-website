@@ -75,7 +75,7 @@ The two binding constraints:
 1. Maximum string Voc at coldest expected temperature must stay below the inverter's absolute maximum DC input voltage.
 2. Minimum string Vmp at hottest expected operating temperature must stay above the inverter's MPPT lower limit.
 
-A string longer than the upper limit can damage the inverter on the first cold morning. A string shorter than the lower limit forces the inverter outside its MPPT window during hot periods, losing yield.
+A string longer than the upper limit can damage the inverter on the first cold morning. A string shorter than the lower limit forces the inverter outside its MPPT window during hot periods, losing yield. See [string voltage vs MPPT voltage in solar inverters](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/) for the full temperature-corrected design framework Indian EPCs use across cold Himalayan mornings and 65°C+ Rajasthan rooftops.
 
 ## Why string sizing matters
 
@@ -184,7 +184,7 @@ Use site-specific Tmin and Tmax for derating.
 
 Apply 5 percent safety margin on maximum Voc.
 
-Document string sizing on the single-line diagram.
+Document string sizing on the single-line diagram, including the fuse rating for parallel strings; see [solar string sizing and overcurrent protection in India](/blog/solar-string-sizing-ocp-india/) for the 5-step method EPC teams use to size both together.
 
 Verify with PVsyst or inverter manufacturer's sizing tool.
 

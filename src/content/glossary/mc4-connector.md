@@ -155,7 +155,7 @@ Charge controller PV inputs.
 
 Microinverter PV-side connections.
 
-Field DC junction connections, part of the broader [balance of system](https://heavengreenenergy.com/products/balance-of-system/) that an EPC sources alongside modules and inverters.
+Field DC junction connections, part of the broader balance of system that an EPC sources alongside modules and inverters.
 
 ## Common MC4 problems
 

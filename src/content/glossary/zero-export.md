@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 Zero export is a solar inverter control mode that prevents any net power flow from the PV plant back into the utility grid. The inverter continuously monitors current at the grid connection point and modulates its own output so that site consumption equals or exceeds PV generation at every instant. Surplus solar is either curtailed in real time or stored in a battery.
 
-The mode is widely used where net metering is not available, where the DISCOM does not allow export, or where the customer wants to comply with sanctioned demand limits. In Indian C&I solar, zero export is the standard fallback when full net metering or gross metering is not on offer.
+The mode is widely used where net metering is not available, where the DISCOM does not allow export, or where the customer wants to comply with sanctioned demand limits. In Indian C&I solar, zero export is the standard fallback when full net metering or gross metering is not on offer; see [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/) for when net metering itself is actually available.
 
 ## Zero export explained simply
 
@@ -201,7 +201,7 @@ Document the sensor location and wiring on the single-line diagram.
 
 ## Indian market context
 
-CEA Grid Code allows DISCOMs to impose export limits. Many state SERCs have notified zero export rules for systems above sanctioned demand or for HT category.
+CEA Grid Code allows DISCOMs to impose export limits. Many state SERCs have notified zero export rules for systems above sanctioned demand or for HT category. For a side-by-side look at how these rules compare against the export-friendly alternatives, see [Gross Metering vs Net Metering, Which Should You Choose?](/blog/gross-metering-vs-net-metering/).
 
 Major inverter brands like Sungrow, Solis, Goodwe, Growatt, Solax and Deye ship zero export support with compatible meters.
 

@@ -1,7 +1,7 @@
 ---
-title: "Solar Subsidy in Karnataka 2026, BESCOM + PM Surya Ghar"
+title: "Solar Subsidy in Karnataka 2026, BESCOM Guide"
 excerpt: "Solar subsidy in Karnataka 2026 combines PM Surya Ghar (₹78,000 for 3 kW) with BESCOM's online net-metering portal, Karnataka's high urban solar adoption, and 5.5 peak sun hours."
-description: "Solar subsidy in Karnataka 2026: PM Surya Ghar amounts, BESCOM and other DISCOM net-metering steps, Karnataka state policy, timeline, and a Bangalore homeowner example."
+description: "Solar subsidy in Karnataka 2026: PM Surya Ghar amounts, BESCOM and other DISCOM net-metering steps, state policy, and a Bangalore homeowner example."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -222,7 +222,7 @@ For most Bangalore homeowners with reliable BESCOM supply and no critical backup
 
 ## Common Mistakes Karnataka Solar Applicants Make
 
-- **Not verifying vendor DISCOM empanelment**: Karnataka has many solar installers, but only DISCOM-empanelled vendors can process PM Surya Ghar applications. Ask the vendor to show their empanelment certificate for the specific DISCOM (BESCOM, HESCOM, etc.) before paying any advance; a directory such as [Heaven Green Energy's local installer finder](https://heavengreenenergy.com/solar-near-me/){target="_blank" rel="noopener"} is a reasonable starting point for shortlisting vendors to verify.
+- **Not verifying vendor DISCOM empanelment**: Karnataka has many solar installers, but only DISCOM-empanelled vendors can process PM Surya Ghar applications. Ask the vendor to show their empanelment certificate for the specific DISCOM (BESCOM, HESCOM, etc.) before paying any advance; a directory such as Heaven Green Energy's local installer finder{target="_blank" rel="noopener"} is a reasonable starting point for shortlisting vendors to verify.
 - **Installing before DISCOM feasibility approval**: Even if the installer assures you approval is "just a formality," install only after the written feasibility consent letter arrives. Pre-installation claims are frequently not honoured if the feasibility is later denied or modified.
 - **Choosing a 5 kW system when the bill supports only 3 kW**: The PM Surya Ghar subsidy is capped at 3 kW regardless of system size. For a Bangalore home consuming 450–600 units per month, a 3 kW system covers most of the bill without over-generating and exporting at the lower tariff.
 - **Skipping ALMM verification**: The ALMM list changes quarterly. A model proposed by an installer today may have been delisted three months ago. Check the [MNRE ALMM list](https://mnre.gov.in/almm-list/) directly for the exact panel and inverter models in your quote.

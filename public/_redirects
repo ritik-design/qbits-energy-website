@@ -1,8 +1,13 @@
 # ============================================================
 # Cloudflare Pages / Workers _redirects
-# Note: 301 redirects are now declared in astro.config.mjs
-# (the Astro Cloudflare adapter emits them into this file at build time)
-# Keep only rewrites here that Astro's `redirects` config can't express.
+#
+# 301s are hand-authored here (one line each) rather than via Astro's
+# `redirects` config: the Cloudflare Workers static-assets adapter caps
+# _redirects at 100 rules, and Astro's adapter emits BOTH a with- and
+# without-trailing-slash variant per entry (trailingSlash: 'ignore'),
+# doubling the line count and blowing the cap once the list grew past ~50
+# entries. All sources below use the trailing-slash form, matching both
+# WordPress's own permalink structure and this site's directory-style URLs.
 # ============================================================
 
 # ── Standard /sitemap.xml served from Astro's sitemap-index.xml ──
@@ -20,3 +25,83 @@
 /category/* /blog/ 301
 # Old WordPress shop landing page.
 /shop/ /our-products/ 301
+
+# ── Legacy WordPress date-based URLs → new /blog/slug/ paths ──
+# Same slug, date prefix removed
+/2026/04/04/inverter-overheating/ /blog/inverter-overheating/ 301
+/2026/04/04/ip65-vs-ip66-solar-inverters-weather-protection-guide/ /blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/ 301
+/blog/ip66-inverters-india-s-climate-survival-guide/ /blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/ 301
+/2026/04/04/solar-inverter-specifications-decoded/ /blog/solar-inverter-specifications-decoded/ 301
+/2026/04/04/solar-inverter-depreciation-tax-benefits-guide/ /blog/solar-inverter-depreciation-in-india/ 301
+/blog/solar-inverter-depreciation-tax-benefits-guide/ /blog/solar-inverter-depreciation-in-india/ 301
+/2026/04/04/solar-inverter-commissioning/ /blog/solar-inverter-commissioning-in-india/ 301
+/blog/solar-inverter-commissioning/ /blog/solar-inverter-commissioning-in-india/ 301
+/2026/04/04/solar-inverter-certifications/ /blog/solar-inverter-certifications/ 301
+/2026/04/04/inverter-distributors-india/ /blog/inverter-suppliers-india/ 301
+/2026/04/03/inverter-suppliers-india/ /blog/inverter-suppliers-india/ 301
+/blog/inverter-distributors-india/ /blog/inverter-suppliers-india/ 301
+/blog/top-inverter-vendors-india/ /blog/inverter-suppliers-india/ 301
+/blog/how-to-find-reliable-inverter-dealers-india/ /blog/inverter-suppliers-india/ 301
+/2026/03/26/solar-inverter-failure/ /blog/solar-inverter-failure/ 301
+/2026/03/25/ai-powered-vs-traditional-inverter-technology-in-india/ /blog/ai-powered-vs-traditional-inverter-technology-in-india/ 301
+/2026/03/24/solar-inverter-pricing-strategies-for-epcs/ /blog/inverter-tco/ 301
+/blog/solar-inverter-pricing-strategies-for-epcs/ /blog/inverter-tco/ 301
+/blog/solar-inverter-replacement-costs-in-india/ /blog/inverter-tco/ 301
+/2026/03/22/inverter-maintenance-india/ /blog/inverter-maintenance-india/ 301
+/2026/03/22/solar-inverter-regulations-india-2026-bis-iec-compliance/ /blog/solar-inverter-regulations-india-2026-bis-iec-compliance/ 301
+/2026/03/22/solar-inverter-quality/ /blog/how-to-evaluate-solar-inverter-reliability/ 301
+/blog/solar-inverter-quality/ /blog/how-to-evaluate-solar-inverter-reliability/ 301
+/blog/solar-inverter-testing-quality-assurance-in-india/ /blog/how-to-evaluate-solar-inverter-reliability/ 301
+/2026/03/20/indian-vs-international-solar-inverters/ /blog/indian-vs-international-solar-inverters/ 301
+/2026/03/20/solar-inverter-sizing/ /blog/solar-inverter-sizing/ 301
+/2026/03/18/solar-inverter-lifespan/ /blog/solar-inverter-lifespan/ 301
+/2026/03/17/solar-inverter-monitoring-systems-in-india/ /blog/solar-inverter-monitoring-systems-in-india/ 301
+/2026/03/16/solar-inverter-selection/ /blog/solar-inverter-selection/ 301
+/2026/03/15/solar-inverter-manufacturers-in-india/ /blog/solar-inverter-manufacturers-in-india/ 301
+/2026/03/13/solar-inverter-troubleshooting/ /blog/solar-inverter-troubleshooting/ 301
+/2026/03/09/solar-inverter-efficiency/ /blog/solar-inverter-efficiency/ 301
+
+# Slug changed: removed year suffix
+/blog/best-solar-inverter-india-2026/ /blog/best-solar-inverter-india/ 301
+
+# External inbound links missing the /blog/ prefix or pointing to legacy paths
+/solar-battery-backup-calculator/ /blog/solar-battery-backup-calculator/ 301
+/how-to-become-a-solar-inverter-partner-in-india/ /blog/how-to-become-a-solar-inverter-partner-in-india/ 301
+/blog/solar-net-metering-india/ /blog/net-metering-india-complete-guide/ 301
+/product/ /our-products/ 301
+
+# Slug changed
+/2026/03/04/complete-guide-to-solar-inverters-in-india/ /blog/how-solar-power-system-works-india/ 301
+/2026/03/12/on-grid-vs-hybrid-solar-inverters-in-india/ /blog/on-grid-vs-hybrid/ 301
+/2026/03/11/solar-inverter-roi-calculator/ /blog/solar-inverter-payback-period-in-india/ 301
+/2026/03/10/solar-inverter-installation-in-india/ /blog/solar-inverter-commissioning-in-india/ 301
+/2026/03/09/hybrid-solar-inverters-in-india/ /blog/best-hybrid-solar-inverter-india-2026/ 301
+/2026/03/08/solar-inverter-warranty-explained/ /blog/solar-inverter-warranty/ 301
+/2026/03/07/top-solar-inverter-brands-in-india/ /blog/top-10-solar-inverter-brands-india-2026/ 301
+/2026/03/05/solar-inverter-cost-breakdown/ /blog/solar-inverter-price-guide/ 301
+/2026/02/20/is-your-solar-inverter-india-ready-or-just-india-visiting/ /blog/india-grid-tuned-inverters/ 301
+/2026/02/21/what-does-a-solar-inverter-actually-do-inside/ /blog/how-does-a-solar-inverter-work/ 301
+/2026/02/06/best-solar-inverter-in-india/ /blog/best-solar-inverter-india/ 301
+/2026/01/31/solar-inverter-protection-features-india/ /blog/essential-vs-advanced-solar-inverter-features/ 301
+/2026/01/31/why-safety-features-in-a-solar-inverter-matter-more-than-price/ /blog/essential-vs-advanced-solar-inverter-features/ 301
+/2026/01/19/which-one-is-best-on-grid-off-grid-or-hybrid-inverter/ /blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/ 301
+/2026/01/16/what-you-should-keep-in-mind-while-purchasing-an-on-grid-solar-inverter/ /blog/how-to-choose-solar-inverter-for-home-india/ 301
+/2026/01/07/indias-top-10-solar-inverter-brands-global-giants-vs-indigenous-innovators-2026-edition/ /blog/top-10-solar-inverter-brands-india-2026/ 301
+/2025/11/17/why-qbits-inverter-are-built-for-india/ /blog/india-grid-tuned-inverters/ 301
+/2025/12/29/qbits-powering-the-future-of-solar-with-innovation-and-reliability/ /blog/best-solar-inverter-india/ 301
+/2025/12/31/the-solar-inverter-you-choose-today-decides-the-performance-you-get-for-the-next-20-years/ /blog/solar-inverter-lifespan/ 301
+
+# More stale WordPress date-prefixed URLs surfaced in Search Console crawl stats
+/2026/04/08/on-grid-vs-hybrid-solar-inverters-roi/ /blog/on-grid-vs-hybrid-solar-inverters-roi/ 301
+/2026/04/08/qbits-vs-sungrow-vs-growatt/ /blog/qbits-vs-sungrow-vs-growatt/ 301
+/2026/04/08/solar-inverter-components/ /blog/solar-inverter-components/ 301
+/2026/04/08/solar-inverter-commissioning-in-india/ /blog/solar-inverter-commissioning-in-india/ 301
+/2026/04/08/solar-inverter-downtime/ /blog/solar-inverter-downtime/ 301
+/2026/04/08/how-to-find-reliable-inverter-dealers-india/ /blog/inverter-suppliers-india/ 301
+/2026/04/08/inverter-tco/ /blog/inverter-tco/ 301
+/2026/04/08/how-to-choose-solar-inverters-with-surge-protectio/ /blog/how-to-choose-solar-inverters-with-surge-protection/ 301
+/2026/05/06/inverter-financing-options-in-india/ /blog/inverter-financing-options-in-india/ 301
+/2026/05/11/how-to-read-solar-inverter-datasheets/ /blog/how-to-read-solar-inverter-datasheets/ 301
+/2026/05/11/solar-inverter-grounding/ /blog/solar-inverter-grounding/ 301
+/2026/05/11/inverter-procurement-india/ /blog/inverter-procurement-india/ 301
+/2026/03/16/solar-inverter-selection-10-critical-criteria-for-epcs/ /blog/solar-inverter-selection/ 301

@@ -18,9 +18,6 @@
 /images/*
   Cache-Control: public, max-age=2592000
 
-/blog-images/*
-  Cache-Control: public, max-age=2592000
-
 /homepage/*
   Cache-Control: public, max-age=2592000
 

@@ -9,3 +9,14 @@
 # Status 200 = rewrite/proxy: URL stays as /sitemap.xml but the body
 # is the generated sitemap index.
 /sitemap.xml /sitemap-index.xml 200
+
+# ── Wildcard 301s: Astro's `redirects` config can't express splats ──
+# Blog feature-image SVGs were removed site-wide; old direct links go to /blog/.
+/blog-images/* /blog/ 301
+# Old WordPress pagination (/blog/page/2/, etc.) has no equivalent; the blog
+# index isn't paginated.
+/blog/page/* /blog/ 301
+# Old WordPress category taxonomy pages (/category/xyz/) — nearest equivalent.
+/category/* /blog/ 301
+# Old WordPress shop landing page.
+/shop/ /our-products/ 301

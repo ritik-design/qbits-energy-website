@@ -142,5 +142,20 @@ export default defineConfig({
     '/2025/11/17/why-qbits-inverter-are-built-for-india': '/blog/india-grid-tuned-inverters/',
     '/2025/12/29/qbits-powering-the-future-of-solar-with-innovation-and-reliability': '/blog/best-solar-inverter-india/',
     '/2025/12/31/the-solar-inverter-you-choose-today-decides-the-performance-you-get-for-the-next-20-years': '/blog/solar-inverter-lifespan/',
+
+    // More stale WordPress date-prefixed URLs surfaced in Search Console crawl stats
+    '/2026/04/08/on-grid-vs-hybrid-solar-inverters-roi': '/blog/on-grid-vs-hybrid-solar-inverters-roi/',
+    '/2026/04/08/qbits-vs-sungrow-vs-growatt': '/blog/qbits-vs-sungrow-vs-growatt/',
+    '/2026/04/08/solar-inverter-components': '/blog/solar-inverter-components/',
+    '/2026/04/08/solar-inverter-commissioning-in-india': '/blog/solar-inverter-commissioning-in-india/',
+    '/2026/04/08/solar-inverter-downtime': '/blog/solar-inverter-downtime/',
+    '/2026/04/08/how-to-find-reliable-inverter-dealers-india': '/blog/inverter-suppliers-india/',
+    '/2026/04/08/inverter-tco': '/blog/inverter-tco/',
+    '/2026/04/08/how-to-choose-solar-inverters-with-surge-protectio': '/blog/how-to-choose-solar-inverters-with-surge-protection/',
+    '/2026/05/06/inverter-financing-options-in-india': '/blog/inverter-financing-options-in-india/',
+    '/2026/05/11/how-to-read-solar-inverter-datasheets': '/blog/how-to-read-solar-inverter-datasheets/',
+    '/2026/05/11/solar-inverter-grounding': '/blog/solar-inverter-grounding/',
+    '/2026/05/11/inverter-procurement-india': '/blog/inverter-procurement-india/',
+    '/2026/03/16/solar-inverter-selection-10-critical-criteria-for-epcs': '/blog/solar-inverter-selection/',
   }
 });

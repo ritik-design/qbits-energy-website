@@ -31,7 +31,6 @@ export async function getStaticPaths() {
           category: p.data.category,
           date: p.data.date,
           readTime: p.data.readTime,
-          image: p.data.image,
         })),
       },
     };
@@ -48,7 +47,6 @@ const {
   date,
   updatedDate,
   readTime,
-  image,
   author,
   keywords = [],
   faqs = [],
@@ -82,7 +80,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: title,
   description: description || excerpt,
-  image: `${siteUrl}${image}`,
+  image: `${siteUrl}/og/blog-${post.id}.webp`,
   datePublished: isoDate,
   dateModified: updatedIso,
   author: {
@@ -372,10 +370,7 @@ const breadcrumbSchema = {
           </div>
           <div class="grid md:grid-cols-3 gap-6">
             {relatedPosts.map((rp) => (
-              <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 group">
-                <a href={`/blog/${rp.slug}/`} class="block aspect-[16/10] overflow-hidden bg-slate-50">
-                  <img src={rp.image} alt={rp.title} class="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105" loading="lazy" width="640" height="400" />
-                </a>
+              <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-500 group ring-1 ring-slate-100">
                 <div class="p-6">
                   <div class="flex items-center gap-3 text-xs text-slate-400 mb-3">
                     <span class="text-brand-600 font-bold uppercase tracking-wider text-[10px] bg-brand-50 px-2 py-0.5 rounded-full">{rp.category}</span>

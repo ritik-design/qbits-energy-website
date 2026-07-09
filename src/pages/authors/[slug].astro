@@ -128,18 +128,6 @@ const personSchema = {
                 : '';
               return (
                 <article class="group bg-white rounded-2xl overflow-hidden ring-1 ring-slate-200 hover:ring-brand-300 hover:shadow-xl hover:shadow-brand-500/5 transition-all duration-300 flex flex-col">
-                  {post.data.image && (
-                    <a href={`/blog/${post.id}/`} class="block aspect-[16/9] overflow-hidden bg-slate-100 flex-shrink-0">
-                      <img
-                        src={post.data.image}
-                        alt={post.data.title}
-                        width="640"
-                        height="360"
-                        loading="lazy"
-                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      />
-                    </a>
-                  )}
                   <div class="p-5 sm:p-6 flex flex-col flex-1">
                     {categorySlug && (
                       <a

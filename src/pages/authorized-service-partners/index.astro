@@ -89,6 +89,14 @@ const supportTypes = [
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#049D65" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="asp-spin"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" opacity="0.3"/><path d="M21 12a9 9 0 00-9-9"/></svg>
             <p>Loading map…</p>
           </div>
+          <div class="asp-map-tools" id="aspMapTools" hidden>
+            <button id="aspNearMe" class="asp-nearme" type="button">
+              <svg class="asp-nearme-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/><circle cx="12" cy="12" r="8"/></svg>
+              <span id="aspNearMeLabel">Near Me</span>
+            </button>
+            <button id="aspShowAll" class="asp-showall" type="button" hidden>Show all India</button>
+            <p class="asp-map-note" id="aspMapNote" role="status" aria-live="polite" hidden></p>
+          </div>
           <div id="aspMap" role="application" aria-label="Map of authorized service partners across India. The partner list below contains the same information in accessible form."></div>
         </div>
 
@@ -234,6 +242,59 @@ const supportTypes = [
   @media (max-width: 640px) {
     #aspMapView { border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.08); }
     .asp-map-loading, #aspMap { height: 460px; }
+  }
+
+  /* ── Map tools (Near Me) ─────────────────── */
+  .asp-map-tools {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    left: 12px;
+    position: absolute;
+    top: 12px;
+    z-index: 5;
+    max-width: calc(100% - 24px);
+  }
+  .asp-nearme,
+  .asp-showall {
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.14);
+    color: #0f172a;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: 600;
+    gap: 7px;
+    padding: 9px 16px;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+  }
+  .asp-nearme:hover,
+  .asp-showall:hover { background: #f1f5f9; }
+  .asp-nearme.is-active {
+    background: #049D65;
+    border-color: #049D65;
+    color: #fff;
+  }
+  .asp-nearme[disabled] { cursor: default; opacity: 0.75; }
+  .asp-nearme.is-busy .asp-nearme-icon { animation: asp-spin 0.9s linear infinite; }
+  .asp-map-note {
+    background: rgba(15,23,42,0.86);
+    border-radius: 50px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    padding: 7px 14px;
+  }
+  .asp-map-note[hidden] { display: none; }
+  @media (max-width: 640px) {
+    .asp-map-tools { left: 8px; top: 8px; gap: 6px; max-width: calc(100% - 16px); }
+    .asp-nearme, .asp-showall { font-size: 12px; padding: 8px 13px; }
+    .asp-map-note { font-size: 11px; padding: 6px 11px; }
   }
 
   /* ── Google Maps InfoWindow overrides ────── */
@@ -602,9 +663,171 @@ const supportTypes = [
 
   /* ── Map (Google Maps with region=IN so J&K renders as part of India) ── */
   const GMAPS_KEY = 'AIzaSyCi9epoAEzqNpsuLSIGACaojRdEmL1cLTI';
+  const NEAR_ME_RADIUS_KM = 50;
+  const INDIA_CENTER = { lat: 22.5937, lng: 78.9629 };
+
   let gMap: any = null;
   let gInfoWindow: any = null;
   let gMarkers: any[] = [];
+  let gUserMarker: any = null;
+  // Every partner from map-view, kept so "Near Me" can filter without a refetch.
+  let allPartners: any[] = [];
+  // What's currently plotted: all partners, or the "Near Me" subset.
+  let activeSet: any[] = [];
+
+  /* The map-view endpoint accepts latitude/longitude/radius but ignores them —
+     it returns the full partner set regardless. Distance filtering is ours. */
+  function distanceKm(lat1: number, lon1: number, lat2: number, lon2: number) {
+    const R = 6371;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat / 2) ** 2 +
+      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+
+  function markerIcon(g: any) {
+    const size = window.matchMedia('(max-width: 640px)').matches ? 32 : 40;
+    return {
+      url: '/icon-marker.svg',
+      scaledSize: new g.maps.Size(size, size),
+      anchor: new g.maps.Point(size / 2, size),
+    };
+  }
+
+  function popupHTML(item: any) {
+    const img = photo(item.photo);
+    const dist = typeof item._distance === 'number'
+      ? `<p class="asp-popup-addr" style="margin-top:3px;color:#049D65;font-weight:600">${item._distance.toFixed(1)} km away</p>`
+      : '';
+    return `
+      <div class="asp-popup" style="position:relative">
+        <img width="720" height="480" src="${img}" alt="${item.name || ''}" style="border-radius:8px;object-fit:cover;width:60px;height:60px;flex-shrink:0">
+        <div>
+          ${item.name ? `<p class="asp-popup-name">${item.name}</p>` : ''}
+          ${item.company_name ? `<p class="asp-popup-company">${item.company_name}${item.designation ? ' · ' + item.designation : ''}</p>` : ''}
+          ${item.address ? `<p class="asp-popup-addr">${item.address}${item.city_name ? ', ' + item.city_name : ''}${item.state_name ? ', ' + item.state_name : ''}</p>` : ''}
+          ${dist}
+        </div>
+        <div class="asp-popup-actions">
+          ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp" rel="noopener noreferrer">${WA_SVG}</a>` : ''}
+          ${item.mobile ? `<a href="tel:${item.mobile}" title="Call">${CALL_SVG}</a>` : ''}
+        </div>
+      </div>`;
+  }
+
+  function clusterIcon(g: any, count: number) {
+    const size = count < 10 ? 36 : count < 100 ? 44 : count < 500 ? 52 : 60;
+    const svg =
+      `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">` +
+      `<circle cx="${size / 2}" cy="${size / 2}" r="${size / 2 - 1}" fill="#049D65" fill-opacity="0.28"/>` +
+      `<circle cx="${size / 2}" cy="${size / 2}" r="${size / 2 - 6}" fill="#049D65" stroke="#fff" stroke-width="2"/>` +
+      `</svg>`;
+    return {
+      url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg),
+      scaledSize: new g.maps.Size(size, size),
+      anchor: new g.maps.Point(size / 2, size / 2),
+    };
+  }
+
+  /* Google renders 2600+ overlapping pins as one unreadable blob, so group them
+     into pixel-grid clusters at the current zoom and only draw what's on screen. */
+  function drawMarkers() {
+    if (!gMap) return;
+    const g = (window as any).google;
+    const proj = gMap.getProjection();
+    const zoom = gMap.getZoom();
+    const viewport = gMap.getBounds();
+    if (!proj || zoom == null || !viewport) return;
+
+    gMarkers.forEach(m => m.setMap(null));
+    gMarkers = [];
+
+    // Pad the viewport so pins just off-screen don't pop in late while panning.
+    const ne = viewport.getNorthEast(), sw = viewport.getSouthWest();
+    const padLat = (ne.lat() - sw.lat()) * 0.15, padLng = (ne.lng() - sw.lng()) * 0.15;
+    const inView = (lat: number, lng: number) =>
+      lat >= sw.lat() - padLat && lat <= ne.lat() + padLat &&
+      lng >= sw.lng() - padLng && lng <= ne.lng() + padLng;
+
+    const scale = 2 ** zoom;
+    const CELL = 62;
+    const cells = new Map<string, any[]>();
+
+    activeSet.forEach((item: any) => {
+      const lat = parseFloat(item.latitude), lng = parseFloat(item.longitude);
+      if (Number.isNaN(lat) || Number.isNaN(lng) || !inView(lat, lng)) return;
+      const pt = proj.fromLatLngToPoint(new g.maps.LatLng(lat, lng));
+      const key = `${Math.floor(pt.x * scale / CELL)}:${Math.floor(pt.y * scale / CELL)}`;
+      const bucket = cells.get(key);
+      if (bucket) bucket.push(item); else cells.set(key, [item]);
+    });
+
+    const pinIcon = markerIcon(g);
+
+    cells.forEach(group => {
+      if (group.length === 1) {
+        const item = group[0];
+        const position = { lat: parseFloat(item.latitude), lng: parseFloat(item.longitude) };
+        const marker = new g.maps.Marker({ position, map: gMap, icon: pinIcon, title: item.name || undefined });
+        const html = popupHTML(item);
+        marker.addListener('click', () => {
+          gInfoWindow.setContent(html);
+          gInfoWindow.open(gMap, marker);
+        });
+        gMarkers.push(marker);
+        return;
+      }
+
+      // Cluster: sit it on the group's centroid and zoom into its extent on click.
+      let sLat = 0, sLng = 0;
+      const cBounds = new g.maps.LatLngBounds();
+      group.forEach((i: any) => {
+        const la = parseFloat(i.latitude), ln = parseFloat(i.longitude);
+        sLat += la; sLng += ln;
+        cBounds.extend({ lat: la, lng: ln });
+      });
+      const center = { lat: sLat / group.length, lng: sLng / group.length };
+
+      const marker = new g.maps.Marker({
+        position: center,
+        map: gMap,
+        icon: clusterIcon(g, group.length),
+        label: { text: String(group.length), color: '#fff', fontSize: '12px', fontWeight: '700' },
+        title: `${group.length} partners — click to zoom in`,
+        zIndex: 1000 + group.length,
+      });
+      marker.addListener('click', () => {
+        // Identical coords would collapse to a zero-size box; nudge the zoom instead.
+        if (cBounds.getNorthEast().equals(cBounds.getSouthWest())) {
+          gMap.setCenter(center);
+          gMap.setZoom(Math.min(18, (gMap.getZoom() ?? 5) + 3));
+        } else {
+          gMap.fitBounds(cBounds, 60);
+        }
+      });
+      gMarkers.push(marker);
+    });
+  }
+
+  function renderMarkers(items: any[], focus: { lat: number; lng: number } | null) {
+    const g = (window as any).google;
+    gInfoWindow?.close();
+    activeSet = items.filter((i: any) => i.latitude && i.longitude);
+
+    const bounds = new g.maps.LatLngBounds();
+    activeSet.forEach((i: any) => bounds.extend({ lat: parseFloat(i.latitude), lng: parseFloat(i.longitude) }));
+    if (focus) bounds.extend(focus);
+
+    if (activeSet.length) {
+      gMap.fitBounds(bounds, { top: 60, right: 40, bottom: 40, left: 40 });
+    } else if (focus) {
+      gMap.setCenter(focus);
+      gMap.setZoom(9);
+    }
+    drawMarkers(); // fitBounds also fires 'idle', which redraws at the settled zoom
+    return activeSet.length;
+  }
 
   async function loadMap() {
     const loading = document.getElementById('aspMapLoading')!;
@@ -619,72 +842,119 @@ const supportTypes = [
         return;
       }
 
+      allPartners = json.data;
       loading.classList.add('asp-hidden');
 
       const g = (window as any).google;
-
       if (!gMap) {
         gMap = new g.maps.Map(document.getElementById('aspMap'), {
-          center: { lat: 22.5937, lng: 78.9629 },
+          center: INDIA_CENTER,
           zoom: 5,
           mapTypeControl: false,
           streetViewControl: false,
           fullscreenControl: true,
         });
         gInfoWindow = new g.maps.InfoWindow();
+        // Re-cluster whenever the view settles after a zoom or pan.
+        gMap.addListener('idle', drawMarkers);
       }
 
-      gMarkers.forEach(m => m.setMap(null));
-      gMarkers = [];
-
-      const isMobile = window.matchMedia('(max-width: 640px)').matches;
-      const markerSize = isMobile ? 32 : 40;
-      const icon = {
-        url: '/icon-marker.svg',
-        scaledSize: new g.maps.Size(markerSize, markerSize),
-        anchor: new g.maps.Point(markerSize / 2, markerSize),
-      };
-
-      const bounds = new g.maps.LatLngBounds();
-
-      json.data.forEach((item: any) => {
-        if (!item.latitude || !item.longitude) return;
-        const position = {
-          lat: parseFloat(item.latitude),
-          lng: parseFloat(item.longitude),
-        };
-        bounds.extend(position);
-
-        const img = photo(item.photo);
-        const popup = `
-          <div class="asp-popup" style="position:relative">
-            <img width="720" height="480" src="${img}" alt="${item.name || ''}" style="border-radius:8px;object-fit:cover;width:60px;height:60px;flex-shrink:0">
-            <div>
-              ${item.name ? `<p class="asp-popup-name">${item.name}</p>` : ''}
-              ${item.company_name ? `<p class="asp-popup-company">${item.company_name}${item.designation ? ' · ' + item.designation : ''}</p>` : ''}
-              ${item.address ? `<p class="asp-popup-addr">${item.address}${item.city_name ? ', ' + item.city_name : ''}${item.state_name ? ', ' + item.state_name : ''}</p>` : ''}
-            </div>
-            <div class="asp-popup-actions">
-              ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp" rel="noopener noreferrer">${WA_SVG}</a>` : ''}
-              ${item.mobile ? `<a href="tel:${item.mobile}" title="Call">${CALL_SVG}</a>` : ''}
-            </div>
-          </div>`;
-
-        const marker = new g.maps.Marker({ position, map: gMap, icon });
-        marker.addListener('click', () => {
-          gInfoWindow.setContent(popup);
-          gInfoWindow.open(gMap, marker);
-        });
-        gMarkers.push(marker);
-      });
-
-      if (gMarkers.length) gMap.fitBounds(bounds, { top: 40, right: 40, bottom: 40, left: 40 });
+      renderMarkers(allPartners, null);
+      if ('geolocation' in navigator) {
+        document.getElementById('aspMapTools')!.hidden = false;
+      }
     } catch (e) {
       console.error('[asp] map load failed:', e);
       loading.classList.remove('asp-hidden');
       loading.innerHTML = '<p style="color:#94a3b8;padding:60px 0;text-align:center">Could not load map. Check the browser console.</p>';
     }
   }
+
+  /* ── Near Me ────────────────────────────────── */
+  function note(msg: string) {
+    const el = document.getElementById('aspMapNote')!;
+    el.textContent = msg;
+    el.hidden = !msg;
+  }
+
+  function getPosition(): Promise<GeolocationPosition> {
+    return new Promise((resolve, reject) =>
+      navigator.geolocation.getCurrentPosition(resolve, reject, {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 300000,
+      })
+    );
+  }
+
+  function showAllIndia() {
+    const btn = document.getElementById('aspNearMe')!;
+    btn.classList.remove('is-active');
+    document.getElementById('aspShowAll')!.hidden = true;
+    document.getElementById('aspNearMeLabel')!.textContent = 'Near Me';
+    gUserMarker?.setMap(null);
+    gUserMarker = null;
+    note('');
+    renderMarkers(allPartners, null);
+  }
+
+  async function nearMe() {
+    const btn = document.getElementById('aspNearMe') as HTMLButtonElement;
+    const label = document.getElementById('aspNearMeLabel')!;
+
+    btn.disabled = true;
+    btn.classList.add('is-busy');
+    label.textContent = 'Locating…';
+    note('');
+
+    try {
+      const pos = await getPosition();
+      const me = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+
+      const nearby = allPartners
+        .filter(p => p.latitude && p.longitude)
+        .map(p => ({ ...p, _distance: distanceKm(me.lat, me.lng, parseFloat(p.latitude), parseFloat(p.longitude)) }))
+        .filter(p => !Number.isNaN(p._distance) && p._distance <= NEAR_ME_RADIUS_KM)
+        .sort((a, b) => a._distance - b._distance);
+
+      const g = (window as any).google;
+      gUserMarker?.setMap(null);
+      gUserMarker = new g.maps.Marker({
+        position: me,
+        map: gMap,
+        title: 'Your location',
+        zIndex: 999,
+        icon: {
+          path: g.maps.SymbolPath.CIRCLE,
+          scale: 7,
+          fillColor: '#2563eb',
+          fillOpacity: 1,
+          strokeColor: '#fff',
+          strokeWeight: 2.5,
+        },
+      });
+
+      renderMarkers(nearby, me);
+      btn.classList.add('is-active');
+      label.textContent = 'Near Me';
+      document.getElementById('aspShowAll')!.hidden = false;
+      note(nearby.length
+        ? `${nearby.length} partner${nearby.length === 1 ? '' : 's'} within ${NEAR_ME_RADIUS_KM} km`
+        : `No partners within ${NEAR_ME_RADIUS_KM} km — use “Show all India”.`);
+    } catch (e: any) {
+      // Denied, unavailable, or timed out — the all-India map stays as it was.
+      label.textContent = 'Near Me';
+      note(e?.code === 1
+        ? 'Location permission denied. Showing all partners across India.'
+        : 'Could not get your location. Showing all partners across India.');
+    } finally {
+      btn.disabled = false;
+      btn.classList.remove('is-busy');
+    }
+  }
+
+  document.getElementById('aspNearMe')?.addEventListener('click', nearMe);
+  document.getElementById('aspShowAll')?.addEventListener('click', showAllIndia);
 
   function loadGoogleMaps(): Promise<void> {
     if ((window as any).google?.maps) return Promise.resolve();

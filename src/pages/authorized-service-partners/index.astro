@@ -859,9 +859,12 @@ const supportTypes = [
         gMap.addListener('idle', drawMarkers);
       }
 
+      // Draw all-India first so there's always a usable map, then narrow to the
+      // visitor's area if they allow it. Avoids a blank map behind the prompt.
       renderMarkers(allPartners, null);
       if ('geolocation' in navigator) {
         document.getElementById('aspMapTools')!.hidden = false;
+        autoLocate();
       }
     } catch (e) {
       console.error('[asp] map load failed:', e);
@@ -880,7 +883,8 @@ const supportTypes = [
   function getPosition(): Promise<GeolocationPosition> {
     return new Promise((resolve, reject) =>
       navigator.geolocation.getCurrentPosition(resolve, reject, {
-        enableHighAccuracy: true,
+        // Coarse is plenty for a 50km radius, and it resolves far faster than GPS.
+        enableHighAccuracy: false,
         timeout: 10000,
         maximumAge: 300000,
       })
@@ -898,7 +902,9 @@ const supportTypes = [
     renderMarkers(allPartners, null);
   }
 
-  async function nearMe() {
+  /* auto = fired on page load rather than by a click. It stays quiet on failure,
+     because a visitor who never asked for this shouldn't be shown an error. */
+  async function nearMe(auto = false) {
     const btn = document.getElementById('aspNearMe') as HTMLButtonElement;
     const label = document.getElementById('aspNearMeLabel')!;
 
@@ -916,6 +922,10 @@ const supportTypes = [
         .map(p => ({ ...p, _distance: distanceKm(me.lat, me.lng, parseFloat(p.latitude), parseFloat(p.longitude)) }))
         .filter(p => !Number.isNaN(p._distance) && p._distance <= NEAR_ME_RADIUS_KM)
         .sort((a, b) => a._distance - b._distance);
+
+      // Nobody nearby: on auto-load keep the national view rather than dropping
+      // the visitor onto an empty map. On an explicit click, say so instead.
+      if (auto && !nearby.length) return;
 
       const g = (window as any).google;
       gUserMarker?.setMap(null);
@@ -936,24 +946,36 @@ const supportTypes = [
 
       renderMarkers(nearby, me);
       btn.classList.add('is-active');
-      label.textContent = 'Near Me';
       document.getElementById('aspShowAll')!.hidden = false;
       note(nearby.length
         ? `${nearby.length} partner${nearby.length === 1 ? '' : 's'} within ${NEAR_ME_RADIUS_KM} km`
         : `No partners within ${NEAR_ME_RADIUS_KM} km — use “Show all India”.`);
     } catch (e: any) {
       // Denied, unavailable, or timed out — the all-India map stays as it was.
-      label.textContent = 'Near Me';
-      note(e?.code === 1
-        ? 'Location permission denied. Showing all partners across India.'
-        : 'Could not get your location. Showing all partners across India.');
+      if (!auto) {
+        note(e?.code === 1
+          ? 'Location permission denied. Showing all partners across India.'
+          : 'Could not get your location. Showing all partners across India.');
+      }
     } finally {
       btn.disabled = false;
       btn.classList.remove('is-busy');
+      label.textContent = 'Near Me';
     }
   }
 
-  document.getElementById('aspNearMe')?.addEventListener('click', nearMe);
+  /* Focus the map on the visitor's area as soon as the page opens. */
+  async function autoLocate() {
+    try {
+      // Already refused before? Don't re-prompt or surface a pointless error.
+      const status = await (navigator as any).permissions?.query({ name: 'geolocation' });
+      if (status?.state === 'denied') return;
+    } catch { /* Permissions API unsupported — just try. */ }
+    nearMe(true);
+  }
+
+  // Wrapped: a raw listener would pass the MouseEvent in as `auto`.
+  document.getElementById('aspNearMe')?.addEventListener('click', () => nearMe(false));
   document.getElementById('aspShowAll')?.addEventListener('click', showAllIndia);
 
   function loadGoogleMaps(): Promise<void> {

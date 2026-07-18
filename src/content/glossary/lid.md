@@ -5,7 +5,7 @@ description: "LID is the initial drop in solar panel output during early operati
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is lid
   - light induced degradation
@@ -68,15 +68,22 @@ author: "Nirav Dhanani"
 
 ## What is LID
 
-LID, Light-Induced Degradation, is the initial loss of efficiency in crystalline silicon solar cells during the first 100 hours of exposure to sunlight. It is caused primarily by the formation of boron-oxygen complexes in p-type silicon containing both boron dopant and oxygen impurities. The defect traps electrons, reducing open-circuit voltage and short-circuit current, lowering Pmax by 1 to 2.5 percent.
+> **TL;DR**
+> - LID is the 1 to 2.5 percent output drop crystalline silicon modules experience in their first 100 hours of sun exposure.
+> - It comes from boron-oxygen defects forming in boron-doped p-type silicon, an effect intrinsic to standard PERC cells.
+> - Gallium-doped PERC cuts LID to roughly 0.5 to 1 percent, while n-type TOPCon and HJT cells effectively eliminate the mechanism.
+> - LID is a one-time, largely irreversible loss under field conditions and is distinct from ongoing annual degradation and from LeTID.
+> - Manufacturer performance warranties and P50 yield models already bake LID into their first-year output assumptions.
 
-LID was first identified in the 1970s and became a major concern for p-type PERC in the 2010s as module-level efficiencies pushed higher. The mechanism is intrinsic to boron-doped p-type silicon. Switching to gallium doping or to n-type silicon (TOPCon, HJT) eliminates most or all of the mechanism.
+LID, Light-Induced Degradation, is the initial loss of efficiency in crystalline silicon solar cells during the first 100 hours of exposure to sunlight. It is caused primarily by the formation of boron-oxygen complexes in [p-type silicon](/glossary/p-type-silicon/) containing both boron dopant and oxygen impurities. The defect traps electrons, reducing open-circuit voltage and short-circuit current, lowering Pmax by 1 to 2.5 percent.
+
+LID was first identified in the 1970s and became a major concern for p-type [PERC](/glossary/perc-cell/) in the 2010s as [module-level efficiencies](/glossary/module-efficiency/) pushed higher. The mechanism is intrinsic to boron-doped p-type silicon. Switching to gallium doping or to [n-type silicon](/glossary/n-type-silicon/) ([TOPCon](/glossary/topcon-cell/), [HJT](/glossary/hjt-cell/)) eliminates most or all of the mechanism.
 
 For Indian solar, LID is built into all modern warranty curves and yield models. A new module is expected to drop 1 to 2 percent in its first month and then degrade linearly thereafter.
 
 ## LID explained simply
 
-When you first turn on a solar panel and leave it in the sun, the output drops by about 1.5 percent in the first month and stabilises. After that, the year-on-year degradation is a slower 0.5 percent or so.
+When you first turn on a solar panel and leave it in the sun, the output drops by about 1.5 percent in the first month and stabilises. After that, the year-on-year [degradation](/glossary/degradation/) is a slower 0.5 percent or so.
 
 The reason: tiny defects form when light hits silicon containing certain impurities. The defects make a small fraction of the silicon less efficient at converting sunlight. Once all the possible defects have formed, the loss stops.
 
@@ -132,7 +139,7 @@ Some manufacturers quote nameplate Pmax including LID effect; others quote pre-L
 
 ## Real-world applications
 
-First-year yield modelling for solar plants.
+First-year yield modelling for solar plants, often run through tools like [SurgePV's solar simulation software](https://surgepv.com/solar-simulation-software/) to capture LID derate alongside other loss factors.
 
 Performance warranty enforcement.
 
@@ -222,7 +229,7 @@ Customer dispute over first-year output without LID baseline.
 
 Mixing LID-affected and LID-free modules in yield averages.
 
-Confusing LID with LeTID.
+Confusing LID with [LeTID](/glossary/letid/).
 
 ## Key takeaways
 

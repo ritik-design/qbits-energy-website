@@ -5,7 +5,7 @@ description: "Net metering credits surplus solar power exported to the grid. Ful
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is net metering
   - net metering india
@@ -69,6 +69,13 @@ author: "Nirav Dhanani"
 
 ## What is net metering
 
+> **TL;DR**
+> - Net metering credits solar customers for electricity exported to the grid via a bidirectional meter, so you pay only for import minus export.
+> - It is the default Indian rooftop billing mechanism, mandated under the Electricity Act 2003 and notified by state SERCs.
+> - Export credit is usually valued at the retail tariff, though this varies by state and system size cap.
+> - PM Surya Ghar's residential subsidy assumes net metering is operational, so DISCOM commissioning and meter installation must be completed first.
+> - Typical Indian residential payback under net metering is 4 to 6 years, versus 10 years or more without it.
+
 Net metering is a billing mechanism under which a utility credits a rooftop solar customer for electricity exported to the grid. A single bidirectional meter, installed at the service connection, records two numbers in every billing cycle: energy imported from the grid and energy exported to the grid. The customer pays for the net, the import minus the export.
 
 The arrangement turns the utility grid into a virtual battery. Solar generated during the day in excess of on-site load flows back to the grid and is credited. At night, when the panels are idle, the customer draws from the grid against those credits. Over a month or a year, the bill drops by the value of the credited solar.
@@ -91,7 +98,7 @@ Customer acquisition. Indian rooftop solar grew from less than 1 GW installed in
 
 Grid value. Distributed solar reduces peak demand, lowers distribution losses on the feeder, and defers investment in distribution capacity.
 
-Policy alignment. PM Surya Ghar Muft Bijli Yojana, the largest subsidy programme for Indian rooftop solar, assumes net metering. The subsidy is meaningful only if generated power is credited.
+Policy alignment. [PM Surya Ghar](/glossary/pm-surya-ghar/) Muft Bijli Yojana, the largest subsidy programme for Indian rooftop solar, assumes net metering. The subsidy is meaningful only if generated power is credited.
 
 Empowerment. Net metering turns a passive electricity consumer into a prosumer with a direct relationship with the energy economy.
 
@@ -102,12 +109,12 @@ The mechanical steps from rooftop panels to monthly bill follow a defined sequen
 1. The solar PV system generates DC. The inverter converts it to AC.
 2. The AC first flows to the household load. Lights, fans, fridge and other appliances consume it.
 3. Surplus AC, when generation exceeds load, flows out through the home distribution board to the service drop.
-4. The bidirectional smart meter records both directions. Modern smart meters log import and export separately, with timestamps.
-5. The DISCOM reads the meter monthly, by physical visit or by AMI remote read.
+4. The [bidirectional meter](/glossary/bidirectional-meter/) records both directions. Modern [smart meters](/glossary/smart-meter/) log import and export separately, with timestamps.
+5. The [DISCOM](/glossary/discom/) reads the meter monthly, by physical visit or by AMI remote read.
 6. The bill is calculated as net = import minus export. Surplus credits carry forward.
 7. At financial year-end, residual credits are either cashed out or lapsed, per state rules.
 
-Anti-islanding protection in the inverter ensures that during a grid outage, the export contactor opens and no power flows back into a dead grid. The bidirectional meter does not record export during outages because the inverter is off.
+[Anti-islanding](/glossary/anti-islanding/) protection in the [on grid inverter](/glossary/on-grid-inverter/) ensures that during a grid outage, the export contactor opens and no power flows back into a dead grid. The bidirectional meter does not record export during outages because the inverter is off.
 
 ## Technical deep dive
 
@@ -147,7 +154,7 @@ DISCOMs may charge customers with poor power factor a reactive power penalty. Mo
 
 ## Real-world applications
 
-Residential rooftops. The largest user category. 1 to 10 kW systems on independent houses across India.
+Residential rooftops. The largest user category. 1 to 10 kW systems on independent houses across India, typically installed through turnkey EPCs such as [Heaven Green Energy's residential solar](https://heavengreenenergy.com/residential-solar/) service.
 
 Schools and colleges. 5 to 100 kW systems with net metering eligible under state caps. Some states offer enhanced credit for educational institutions.
 
@@ -179,7 +186,7 @@ Variable credit value. Some states pay below retail tariff, reducing the value o
 
 Time-of-day mismatch. Solar peaks at noon, retail tariffs are flat. Customers do not capture peak hour value unless time-of-day tariffs are introduced.
 
-DISCOM resistance in some states. Where solar adoption is high, DISCOMs lobby for caps and switches to gross metering to protect retail revenue.
+DISCOM resistance in some states. Where solar adoption is high, DISCOMs lobby for caps and switches to [gross metering](/glossary/gross-metering/) to protect retail revenue.
 
 Application bottlenecks. Technical feasibility studies and meter installation can take 30 to 90 days even after subsidy approval.
 
@@ -219,7 +226,7 @@ Register the system on the PM Surya Ghar portal if applicable. Subsidy disbursem
 
 Choosing between the two mechanisms depends mainly on daytime self-consumption share; see [Gross Metering vs Net Metering, Which Should You Choose?](/blog/gross-metering-vs-net-metering/) for a worked decision framework.
 
-| Feature | Net metering | Gross metering | Feed-in tariff |
+| Feature | Net metering | Gross metering | [Feed-in tariff](/glossary/feed-in-tariff/) |
 |---|---|---|---|
 | Export credit basis | Offset import at retail | All export at FiT | All export at FiT |
 | Self-consumption used? | Yes | No | No |
@@ -235,7 +242,7 @@ State-level net metering regulations are notified by State Electricity Regulator
 
 CEA Smart Meter Regulations 2023 require smart bidirectional meters for all net-metered connections, with AMI integration to the DISCOM head end. Rollout is uneven, with some districts still on conventional meters as of 2025.
 
-Virtual and group net metering frameworks exist in Delhi, Kerala, Karnataka, Maharashtra and a few other states, enabling shared rooftop solar for group housing and multi-occupancy buildings.
+[Virtual net metering](/glossary/virtual-net-metering/) and group net metering frameworks exist in Delhi, Kerala, Karnataka, Maharashtra and a few other states, enabling shared rooftop solar for group housing and multi-occupancy buildings.
 
 ## Standards and certifications
 

@@ -5,7 +5,7 @@ description: "Zero export is an inverter control mode that prevents solar power 
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is zero export
   - zero export inverter
@@ -25,13 +25,10 @@ relatedTerms:
   - { slug: "on-grid-inverter", term: "On Grid Inverter" }
   - { slug: "hybrid-inverter", term: "Hybrid Inverter" }
   - { slug: "smart-meter", term: "Smart Meter" }
-  - { slug: "ems", term: "Energy Management System" }
-  - { slug: "current-transformer", term: "Current Transformer" }
   - { slug: "anti-islanding", term: "Anti-Islanding" }
   - { slug: "discom", term: "DISCOM" }
-  - { slug: "self-consumption", term: "Self Consumption" }
   - { slug: "battery-soc", term: "Battery SOC" }
-  - { slug: "captive-plant", term: "Captive Plant" }
+  - { slug: "bess", term: "BESS" }
 faqs:
   - q: "What is zero export in simple words?"
     a: "A control feature that keeps solar power from flowing back to the utility grid. The inverter watches the meter and throttles down whenever site consumption would otherwise be exceeded."
@@ -68,9 +65,17 @@ author: "Nirav Dhanani"
 
 ## What is zero export
 
+> **TL;DR**
+> - Zero export throttles inverter output so no power flows back to the grid, matching generation to site consumption in real time.
+> - It is the standard fallback for Indian C&I and HT customers where net metering is unavailable or capped.
+> - A CT or smart meter feeds the inverter every 100 to 500 ms; response time requirements tighten from residential to utility scale.
+> - Curtailment typically wastes 5 to 25 percent of potential generation unless battery storage absorbs the surplus.
+> - Payback is usually 6 to 9 years, longer than the 4 to 6 years typical of net-metered systems.
+> - Correct CT placement and polarity, plus a commissioning test, are the most common points of failure.
+
 Zero export is a solar inverter control mode that prevents any net power flow from the PV plant back into the utility grid. The inverter continuously monitors current at the grid connection point and modulates its own output so that site consumption equals or exceeds PV generation at every instant. Surplus solar is either curtailed in real time or stored in a battery.
 
-The mode is widely used where net metering is not available, where the DISCOM does not allow export, or where the customer wants to comply with sanctioned demand limits. In Indian C&I solar, zero export is the standard fallback when full net metering or gross metering is not on offer; see [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/) for when net metering itself is actually available.
+The mode is widely used where net metering is not available, where the [DISCOM](/glossary/discom/) does not allow export, or where the customer wants to comply with sanctioned demand limits. In Indian C&I solar, zero export is the standard fallback when full net metering or gross metering is not on offer; see [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/) for when net metering itself is actually available.
 
 ## Zero export explained simply
 
@@ -92,7 +97,7 @@ Lower DISCOM negotiation overhead. Zero export systems are often approved faster
 
 ## How zero export works
 
-1. A CT or smart meter at the grid connection point measures direction and magnitude of current.
+1. A CT or [smart meter](/glossary/smart-meter/) at the grid connection point measures direction and magnitude of current.
 2. The reading is fed to the inverter or plant controller through Modbus or RS485.
 3. The controller compares site consumption to PV generation every 100 to 500 ms.
 4. When generation exceeds consumption, the controller commands the inverter to reduce output.
@@ -124,9 +129,9 @@ With multiple inverters, a plant controller orchestrates curtailment. Without a 
 
 ## Real-world applications
 
-C&I rooftop solar where net metering cap is exceeded.
+C&I rooftop solar where net metering cap is exceeded, commonly installed via a [commercial solar EPC](https://heavengreenenergy.com/commercial-solar/).
 
-HT customers in states that prohibit export.
+HT customers in states that prohibit export, frequently under an [industrial solar installation](https://heavengreenenergy.com/industrial-solar/) contract.
 
 Captive plants supplying a fixed share of internal load.
 
@@ -136,7 +141,7 @@ Diesel hybrid sites where reverse flow to a genset is unsafe.
 
 ## Advantages
 
-Enables solar installation where net metering is unavailable.
+Enables solar installation where net metering is unavailable, using either an [on grid inverter](/glossary/on-grid-inverter/) with a sensor feed or a [hybrid inverter](/glossary/hybrid-inverter/) with battery absorption.
 
 Forces self-consumption optimisation, often improving economics under time-of-use tariffs.
 
@@ -182,7 +187,7 @@ Test zero export at commissioning with PV output exceeding load.
 
 Run a 24-hour monitoring trace to verify no reverse flow.
 
-Add battery storage if surplus generation exceeds 15 percent of total generation.
+Add [battery storage](/glossary/bess/) if surplus generation exceeds 15 percent of total generation.
 
 Use a plant controller for sites with three or more inverters.
 
@@ -214,7 +219,7 @@ PM Surya Ghar is built around net metering. Zero export systems do not qualify f
 | Standard | Scope |
 |---|---|
 | CEA Grid Code 2019 | Connectivity requirements |
-| IEC 62116 | Anti-islanding (related but distinct) |
+| IEC 62116 | [Anti-islanding](/glossary/anti-islanding/) (related but distinct) |
 | State SERC export rules | Per-state limits |
 | IS 16444 | Smart meter Standard |
 | Inverter manufacturer compatibility lists | Sensor pairing |

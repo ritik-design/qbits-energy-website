@@ -5,7 +5,7 @@ description: "PWM (Pulse Width Modulation) is the switching technique behind sol
 category: "MPPT and Strings"
 categorySlug: "mppt-strings"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is pwm
   - pwm full form
@@ -28,6 +28,7 @@ relatedTerms:
   - { slug: "battery-soc", term: "Battery SOC" }
   - { slug: "lead-acid-battery", term: "Lead Acid Battery" }
   - { slug: "lithium-ion-battery", term: "Lithium Ion Battery" }
+  - { slug: "lfp-battery", term: "LFP Battery" }
   - { slug: "sine-wave-inverter", term: "Sine Wave Inverter" }
   - { slug: "modified-sine-wave", term: "Modified Sine Wave" }
   - { slug: "solar-lantern", term: "Solar Lantern" }
@@ -73,6 +74,14 @@ PWM stands for Pulse Width Modulation. It is a switching technique where a trans
 
 PWM appears in two distinct roles in solar systems. As a charge controller topology, PWM refers to a controller that connects the PV array directly to the battery through a switch, with the switch pulsing on and off to regulate charging current. As an inverter modulation technique, PWM refers to the high-frequency switching of IGBT or MOSFET devices to chop a DC bus into a synthesised AC waveform.
 
+> **TL;DR**
+> - PWM (Pulse Width Modulation) means two different things in solar: a low-cost charge controller topology, and the switching technique used inside every modern inverter.
+> - As a charge controller, PWM connects the panel directly to the battery, forcing it away from its maximum power point and losing 15 to 30 percent of available energy versus MPPT.
+> - PWM controllers only work when panel voltage class matches the battery voltage class — a 36-cell, 17 V panel for a 12 V battery, for example.
+> - As an inverter modulation technique, PWM chops a DC bus at 16 to 50 kHz; an LC filter smooths the pulses into the clean sine wave delivered to the grid or load.
+> - PWM charge controllers remain common below 200 W, mainly in solar lanterns and small rural home lighting systems, while MPPT dominates grid-tied and hybrid systems.
+> - A 10 A 12 V PWM controller costs roughly ₹400-900 in 2026, versus ₹2,500-4,500 for an equivalent MPPT controller.
+
 This article focuses primarily on PWM as a charge controller topology, with a section on PWM as the inversion technique inside modern solar inverters. Both meanings appear in solar engineering documents, and confusion between them is one of the most common mix-ups in installer training.
 
 ## PWM explained simply
@@ -85,9 +94,9 @@ Same trick, different scale. The first is a coarse on-off pattern at hundreds of
 
 ## Why PWM matters
 
-Charge controller cost. PWM controllers are 3 to 5 times cheaper than MPPT controllers at the same current rating. For solar lanterns, small home lighting and entry-level rural systems, this cost difference matters more than the yield gain.
+Charge controller cost. PWM controllers are 3 to 5 times cheaper than [MPPT](/glossary/mppt/) controllers at the same current rating. For solar lanterns, small home lighting and entry-level rural systems, this cost difference matters more than the yield gain.
 
-Inverter modulation. PWM is the fundamental modulation technique in every modern solar inverter. Without PWM there is no chopped DC bus and no synthesised sine wave.
+Inverter modulation. PWM is the fundamental modulation technique in every modern [solar inverter](/glossary/solar-inverter/). Without PWM there is no chopped DC bus and no synthesised sine wave.
 
 Motor drive control. PWM at the heart of every VFD allows variable-frequency, variable-voltage output for AC motor speed control, including in solar pumping.
 
@@ -101,13 +110,13 @@ LED dimming. PWM dimming is the standard for solar streetlights and LED drivers.
 
 1. The PV array is connected to the battery through a power switch, typically a MOSFET.
 2. A voltage sensor measures battery voltage.
-3. A controller compares the measured voltage to a target setpoint for the current charge stage (bulk, absorption or float).
+3. A controller compares the measured voltage, used as a proxy for [battery SOC](/glossary/battery-soc/), to a target setpoint for the current charge stage (bulk, absorption or float).
 4. If battery voltage is below the target, the switch stays on, current flows freely.
 5. As battery voltage approaches the target, the controller starts pulsing the switch on and off.
 6. The pulse width shrinks as the battery approaches full charge, tapering current.
 7. In float stage, the pulse width is just enough to maintain battery voltage against self-discharge.
 
-There is no DC-DC conversion. The panel voltage is pulled down to the battery voltage during the on-time of each pulse. Power transfer happens at battery voltage, current times battery voltage, not at panel Vmp.
+There is no DC-DC conversion. The panel voltage is pulled down to the battery voltage during the on-time of each pulse, well below the panel's [open-circuit voltage](/glossary/open-circuit-voltage/). Power transfer happens at battery voltage, current times battery voltage, not at panel Vmp.
 
 ### As an inverter switching technique
 
@@ -137,7 +146,7 @@ For inverters, D varies sinusoidally with time. The peak of the AC waveform corr
 | Float | Maintenance charge, low current | 13.4 to 13.8 V |
 | Equalisation (lead acid only) | Periodic overcharge to balance cells | 15.0 to 15.5 V, monthly |
 
-LFP batteries do not need absorption-float cycling like lead acid. PWM controllers in LFP mode hold a constant voltage near 14.0 V for a 12 V LFP pack and rely on the BMS for cell balancing.
+[LFP batteries](/glossary/lfp-battery/) do not need absorption-float cycling like [lead acid batteries](/glossary/lead-acid-battery/). PWM controllers in LFP mode hold a constant voltage near 14.0 V for a 12 V LFP pack and rely on the BMS for cell balancing.
 
 ### PWM efficiency in charge controllers
 
@@ -164,13 +173,13 @@ The MPPT alternative at 98 percent conversion efficiency captures the panel's fu
 
 Solar lanterns and home lighting kits. PWM controllers in the 1 to 10 A range, often integrated with the LED driver.
 
-Small DC home systems. Rural solar home systems in the 50 to 200 W range with one or two LED bulbs, a mobile charger and a DC fan.
+Small DC home systems. Rural off-grid solar home systems in the 50 to 200 W range with one or two LED bulbs, a mobile charger and a DC fan.
 
 Street lighting. Solar streetlights with integrated PWM controllers manage battery charging and LED dimming.
 
 Solar pumps. VFDs in solar pump controllers use PWM to vary motor frequency. The pump runs faster in strong sun, slower in weak sun, without any battery.
 
-UPS inverters. Home UPS inverters use PWM modulation to chop battery DC into AC at 50 Hz with low THD.
+UPS inverters. Home UPS inverters use PWM modulation to chop battery DC into AC at 50 Hz with low THD, producing a true [sine wave inverter](/glossary/sine-wave-inverter/) output rather than the older [modified sine wave](/glossary/modified-sine-wave/) design.
 
 Variable speed drives. Industrial motor drives use PWM at 4 to 16 kHz to control three-phase motor speed.
 
@@ -245,7 +254,7 @@ MNRE specifications for solar lanterns and small home lighting systems under IEC
 
 For grid-connected rooftop solar and any system using MPPT-capable inverters, PWM is not used.
 
-Inverters certified under ALMM and BIS use PWM at the modulation stage. The grid-tie inverter market is universally PWM-based at the inversion stage.
+Inverters certified under ALMM and BIS use PWM at the modulation stage. The grid-tie [inverter market](https://heavengreenenergy.com/products/solar-inverters/) is universally PWM-based at the inversion stage.
 
 ## Standards and certifications
 

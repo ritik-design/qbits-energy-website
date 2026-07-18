@@ -5,7 +5,7 @@ description: "Peak Sun Hours is a simple measure of daily solar resource. Full g
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is peak sun hours
   - psh
@@ -68,7 +68,15 @@ author: "Nirav Dhanani"
 
 ## What are Peak Sun Hours
 
-Peak Sun Hours (PSH) is a simplified measure of solar resource expressed as the number of hours per day during which solar irradiance averages 1,000 W/m² (1 kW/m²). It is the time integral of daily GHI normalised by STC reference irradiance.
+Peak Sun Hours (PSH) is a simplified measure of solar resource expressed as the number of hours per day during which solar irradiance averages 1,000 W/m² (1 kW/m²). It is the time integral of daily [GHI](/glossary/ghi/) normalised by [STC](/glossary/stc/) reference irradiance.
+
+> **TL;DR**
+> - PSH is a simplified single-number measure of daily solar resource, equal to daily GHI divided by 1 kW/m².
+> - Indian PSH ranges from 4.0 to 6.5 hours/day annual average — highest in western Rajasthan and Ladakh (6.0-6.5), lowest in the north-east (4.0-4.5).
+> - Daily yield (kWh) = capacity (kW) × PSH × Performance Ratio, giving a quick sizing shortcut for residential and off-grid systems.
+> - PSH swings seasonally: Delhi peaks around 6.5-6.8 hours/day in April-May and drops to 3.8-4.0 during monsoon and winter months.
+> - It is numerically equal to daily GHI in kWh/m²/day, but ignores POA tilt gains, temperature and soiling losses that PR captures separately.
+> - Utility-scale developers use full hourly GHI/DNI/DHI simulation rather than PSH alone for bankable yield estimates.
 
 PSH (hours/day) = Daily GHI (kWh/m²/day) / 1 kW/m²
 
@@ -80,9 +88,9 @@ Simplified sizing. PSH × capacity × PR = daily energy. Direct sizing formula.
 
 Customer communication. Customers grasp "5 hours of sun per day" easily.
 
-Off-grid design. PSH drives PV-to-load sizing for standalone systems.
+Off-grid design. PSH drives PV-to-load sizing for [off-grid inverter](/glossary/off-grid-inverter/) systems.
 
-Yield estimation. Quick annual yield: capacity × PSH × 365 × PR.
+Yield estimation. Quick annual [solar yield](/glossary/solar-yield/): capacity × PSH × 365 × [PR](/glossary/pr/).
 
 Regional comparison. Single number to compare solar potential across locations.
 
@@ -169,7 +177,7 @@ Off-grid system design.
 
 Solar pumping capacity calculation, for example sizing [solar inverters for water pumps](/blog/solar-inverter-for-water-pump/) against site PSH.
 
-Customer quick-estimate tools.
+Customer-facing [quick-estimate tools](https://heavengreenenergy.com/solar-calculator/), such as PSH-driven solar savings calculators.
 
 State-wise solar potential comparison.
 
@@ -177,7 +185,7 @@ State-wise solar potential comparison.
 
 Ignores temperature, soiling, shading separately (PR captures these).
 
-GHI-based PSH not optimal for tilted arrays without POA correction.
+GHI-based PSH not optimal for tilted arrays without [plane of array](/glossary/plane-of-array/) correction.
 
 Does not capture intra-day variability.
 
@@ -191,7 +199,7 @@ Apply realistic PR for the application.
 
 For tilted arrays, use POA-based PSH.
 
-Validate against ground irradiance data when available.
+Validate against ground irradiance data gathered during [site survey](/glossary/site-survey/) when available.
 
 Communicate PSH alongside expected yield.
 
@@ -203,7 +211,7 @@ PM Surya Ghar customer education materials use PSH to explain expected generatio
 
 Residential rooftop sizing typically uses 4.5 to 5.5 PSH depending on city.
 
-Utility solar developers use full hourly simulation with GHI, DNI and DHI rather than PSH alone.
+Utility solar developers use full hourly simulation with GHI, [DNI](/glossary/dni/) and [DHI](/glossary/dhi/) rather than PSH alone, typically inside bankable [solar simulation software](https://surgepv.com/solar-simulation-software/).
 
 Off-grid solar under PM-KUSUM and rural electrification programmes use PSH-based sizing.
 

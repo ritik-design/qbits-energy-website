@@ -5,7 +5,7 @@ description: "Tandem cells stack multiple materials for higher efficiency. Full 
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - tandem solar cell
   - tandem perovskite silicon
@@ -72,13 +72,21 @@ A tandem solar cell stacks two or more semiconductor materials with different ba
 
 The fundamental advantage: each material is optimised for its portion of the spectrum, reducing thermalisation losses. Single-junction silicon is limited by the Shockley-Queisser efficiency ceiling of ~33 percent under standard test conditions. Tandems break this limit by working as multiple cells together.
 
-Terrestrial tandem cells in commercial development pair perovskite (top, wide bandgap) with silicon (bottom, narrow bandgap). Lab cells have exceeded 33.9 percent efficiency (2024). Initial commercial products from Oxford PV achieve 26-28 percent module efficiency. Mass-market adoption is expected 2027-2030.
+Terrestrial tandem cells in commercial development pair [perovskite](/glossary/perovskite/) (top, wide bandgap) with silicon (bottom, narrow bandgap). Lab cells have exceeded 33.9 percent efficiency under [STC](/glossary/stc/) (2024). Initial commercial products from Oxford PV achieve 26-28 percent module efficiency. Mass-market adoption is expected 2027-2030.
+
+> **TL;DR**
+> - A tandem cell stacks two or more semiconductor materials with different bandgaps to capture more of the solar spectrum than a single-junction cell can.
+> - Perovskite-silicon tandems are the leading terrestrial approach, pairing a wide-bandgap perovskite top cell with a silicon bottom cell (often TOPCon or HJT).
+> - Lab efficiency has reached 33.9 percent under STC (2024), above the ~33 percent Shockley-Queisser ceiling for single-junction silicon.
+> - Oxford PV began limited commercial production in 2024 at 26-28 percent module efficiency; mass-market adoption is expected around 2027-2030.
+> - Commercial tandems currently carry a 50-100 percent cost premium over standard PERC, expected to fall to 20-40 percent by 2030.
+> - India has no tandem manufacturing or ALMM listing yet; deployment is expected to start through imports before local PLI-backed production.
 
 ## Why tandem cells matter
 
 Higher efficiency. Breaks single-junction silicon's ceiling.
 
-Better LCOE potential. More watts per square metre reduces balance-of-system cost.
+Better LCOE potential. More [watts per square metre](/glossary/module-efficiency/) reduces balance-of-system cost.
 
 Future of solar. Likely dominant cell technology by 2035.
 
@@ -109,7 +117,7 @@ Industry transformation. Reshapes module manufacturing.
 
 | Top cell | Bottom cell | Use |
 |---|---|---|
-| Perovskite | Silicon (TOPCon/HJT) | Terrestrial commercial |
+| Perovskite | Silicon ([TOPCon](/glossary/topcon-cell/)/[HJT](/glossary/hjt-cell/)) | Terrestrial commercial |
 | Perovskite | Perovskite | Pure perovskite tandems (emerging) |
 | GaInP | GaAs | Space, concentrator |
 | InGaP | InGaAs | Triple junction space |
@@ -188,7 +196,7 @@ Initial deployment likely through imports.
 
 PLI Tranche III may include tandem manufacturing, building on the ₹45,000 crore already committed to domestic module capacity under the current PLI scheme; see [India solar statistics 2026](/blog/india-solar-statistics-2026-data/) for the current manufacturing base tandem production would need to scale into.
 
-ALMM listing requires standards updates.
+[ALMM](/glossary/almm-list/) listing requires standards updates.
 
 ## Standards and certifications
 

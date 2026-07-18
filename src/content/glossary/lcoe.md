@@ -5,7 +5,7 @@ description: "LCOE is the lifetime cost of electricity from a solar plant. Full 
 category: "Finance"
 categorySlug: "finance"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is lcoe
   - levelised cost of energy
@@ -68,9 +68,16 @@ author: "Akash Hirapara"
 
 ## What is LCOE
 
+> **TL;DR**
+> - LCOE is the per-kWh cost of electricity from a plant over its full life, with [CAPEX](/glossary/capex/), [OPEX](/glossary/opex/), financing and degradation all discounted to present value.
+> - Indian utility solar LCOE has fallen from above ₹17/kWh in 2010 to ₹2.5-3.5/kWh in 2026; C&I rooftop runs ₹3.0-4.5/kWh.
+> - The discount rate used is the project's [WACC](/glossary/wacc/), typically 8 to 10 percent for Indian utility solar.
+> - LCOE is the underlying cost basis for [PPA](/glossary/ppa/) tariff discovery, distinct from the negotiated tariff itself, which sits slightly above LCOE.
+> - Higher [CUF](/glossary/cuf/) and lower [module degradation](/glossary/degradation/) both push LCOE down, since more lifetime energy sits in the denominator.
+
 Levelised Cost of Energy (LCOE) is the per-kWh cost of electricity from a generation plant, averaged over its entire operating life, with all costs and all energy discounted to present value. It is the standard metric for comparing the cost of different generation technologies and the basis for PPA tariff setting, regulatory benchmarking and investment decisions.
 
-LCOE accounts for capex, fixed and variable O&M, financing cost, fuel cost (zero for solar), expected lifetime energy generation and degradation. It produces a single number expressed in ₹/kWh that captures the full lifecycle cost of generation.
+LCOE accounts for [CAPEX](/glossary/capex/), fixed and variable [OPEX](/glossary/opex/), financing cost, fuel cost (zero for solar), expected lifetime energy generation and [degradation](/glossary/degradation/). It produces a single number expressed in ₹/kWh that captures the full lifecycle cost of generation.
 
 For Indian solar, LCOE has fallen from above ₹17 per kWh in 2010 to ₹2.5 to ₹3.5 per kWh for utility plants in 2026. C&I rooftop LCOE lands at ₹3.0 to ₹4.5 per kWh, residential at ₹2.0 to ₹6.0 per kWh depending on subsidy. See [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/) for a worked capex-to-LCOE calculation on a real commercial rooftop.
 
@@ -82,11 +89,11 @@ The big advantage of LCOE is it boils 25 years of solar economics into one numbe
 
 ## Why LCOE matters
 
-PPA tariff setting. SECI bids and CERC tariff orders use LCOE as the underlying methodology.
+PPA tariff setting. SECI bids and [CERC](/glossary/cerc/) tariff orders use LCOE as the underlying methodology.
 
-Investment decision. Developers compare projected LCOE against expected PPA prices.
+Investment decision. Developers compare projected LCOE against expected [Power Purchase Agreement](/glossary/ppa/) prices, work [SurgePV's solar financial modelling tools](https://surgepv.com/generation-financial-tool/) are built to run at the proposal stage.
 
-Customer economics. Residential and C&I solar customers compare LCOE to their retail tariff. For the return-side counterpart to this comparison, see [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/).
+Customer economics. Residential and C&I solar customers compare LCOE to their retail tariff, a comparison [QuickEstimate's pricing and cost estimation tool](https://quickestimate.co/pricing/) is built to surface during the quotation stage. For the return-side counterpart to this comparison, see [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/).
 
 Technology comparison. Solar vs coal vs gas vs wind on like-for-like cost basis.
 
@@ -133,10 +140,10 @@ Inputs needed:
 |---|---|
 | Capex (₹ Cr/MW) | 3.5 to 4.5 |
 | Annual O&M (₹ Lakh/MW) | 5 to 8 |
-| Year 1 yield (kWh/kWp) | 1,650 to 1,800 |
+| Year 1 [yield](/glossary/solar-yield/) (kWh/kWp) | 1,650 to 1,800 |
 | Degradation (%/year) | 0.50 to 0.55 |
 | Plant life (years) | 25 |
-| WACC (%) | 8 to 10 |
+| [WACC](/glossary/wacc/) (%) | 8 to 10 |
 
 ### Sensitivity
 
@@ -232,7 +239,7 @@ Update LCOE as capex and tariff trajectories shift.
 |---|---|
 | Utility solar | 2.5 to 3.5 |
 | C&I rooftop | 3.0 to 4.5 |
-| Residential rooftop with PM Surya Ghar subsidy | 2.0 to 3.5 |
+| Residential rooftop with [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy | 2.0 to 3.5 |
 | Residential rooftop without subsidy | 4.0 to 6.0 |
 | Off-grid solar with battery | 8.0 to 14.0 |
 | Floating solar | 3.0 to 4.0 |

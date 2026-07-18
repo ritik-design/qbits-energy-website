@@ -5,7 +5,7 @@ description: "VGF bridges economic gap for unviable projects. Full guide to Indi
 category: "Policies"
 categorySlug: "policies"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - viability gap funding
   - vgf solar storage
@@ -27,11 +27,7 @@ relatedTerms:
   - { slug: "ppa", term: "Power Purchase Agreement" }
   - { slug: "lcoe", term: "LCOE" }
   - { slug: "capex", term: "CAPEX" }
-  - { slug: "round-the-clock", term: "Round-the-Clock" }
-  - { slug: "ancillary-services", term: "Ancillary Services" }
-  - { slug: "renewable-purchase-obligation", term: "RPO" }
   - { slug: "pm-surya-ghar", term: "PM Surya Ghar" }
-  - { slug: "secl", term: "SECI" }
 faqs:
   - q: "What is VGF in simple words?"
     a: "A government grant that fills the gap between what a project costs and what it can earn back commercially, making otherwise-unviable projects financeable."
@@ -68,9 +64,17 @@ author: "Akash Hirapara"
 
 ## What is Viability Gap Funding
 
-Viability Gap Funding (VGF) is a capital subsidy mechanism providing a one-time grant from government to bridge the gap between a project's total cost and its commercial viability. The grant covers the difference between what the project can earn at competitive tariffs and the capex required for the project to be built. VGF supports infrastructure and emerging technologies that are socially or strategically desirable but not yet commercially viable.
+> **TL;DR**
+> - VGF is a one-time government grant that bridges the gap between a project's total cost and its commercial viability.
+> - India's largest current solar-adjacent VGF programme funds grid-connected BESS: ₹3,760 crore for 4 GWh of storage.
+> - Support is capped at ₹40 lakh per MWh or 30 percent of project cost, whichever is lower.
+> - MNRE administers the scheme through SECI, with milestone-based disbursement.
+> - VGF is separate from the PLI scheme for cell manufacturing and from the residential PM Surya Ghar subsidy.
+> - Reduced effective capex typically improves project IRR by 2 to 3 percentage points.
 
-In Indian solar, the most significant current VGF programme supports Battery Energy Storage Systems (BESS) connected to the grid for renewable energy. Launched in September 2023 with ₹3,760 crore outlay, the scheme targets 4 GWh of storage capacity, part of a broader wave of BESS-plus-solar tenders reshaping India's renewable pipeline (see [India Solar Statistics 2026, Complete Data Reference](/blog/india-solar-statistics-2026-data/)), providing up to ₹40 lakh per MWh (about ₹13.4 lakh per MW for 4-hour storage) or 30 percent of project cost, whichever is lower.
+Viability Gap Funding (VGF) is a capital subsidy mechanism providing a one-time grant from government to bridge the gap between a project's total cost and its commercial viability. The grant covers the difference between what the project can earn at competitive tariffs and the [capex](/glossary/capex/) required for the project to be built. VGF supports infrastructure and emerging technologies that are socially or strategically desirable but not yet commercially viable.
+
+In Indian solar, the most significant current VGF programme supports Battery Energy Storage Systems ([BESS](/glossary/bess/)) connected to the grid for renewable energy. Launched in September 2023 with ₹3,760 crore outlay, the scheme targets 4 GWh of storage capacity, part of a broader wave of BESS-plus-solar tenders reshaping India's renewable pipeline (see [India Solar Statistics 2026, Complete Data Reference](/blog/india-solar-statistics-2026-data/)), providing up to ₹40 lakh per MWh (about ₹13.4 lakh per MW for 4-hour storage) or 30 percent of project cost, whichever is lower.
 
 VGF mechanisms have historically been used for various infrastructure including solar manufacturing demonstrations, agricultural solar pumps and other emerging technology areas. The BESS VGF is the largest current solar-related VGF programme in India.
 
@@ -123,6 +127,8 @@ For 100 MW / 400 MWh BESS:
 - Net effective capex: ₹840-1,040 crore
 - Effective IRR improvement: 2-3 percentage points
 
+Developers typically run these VGF-adjusted scenarios through dedicated [solar financial modelling tools](https://surgepv.com/generation-financial-tool/) before submitting SECI bids.
+
 ### Related programmes
 
 | Programme | Focus |
@@ -136,7 +142,7 @@ For 100 MW / 400 MWh BESS:
 
 Utility-scale standalone BESS.
 
-Solar + storage hybrid plants.
+Solar + storage hybrid plants, typically laid out with [solar-plus-storage design software](/blog/solar-plus-storage-design-software/).
 
 Wind + storage plants.
 
@@ -189,7 +195,7 @@ Future expansion expected in 2025-2027.
 
 ## Key takeaways
 
-VGF (Viability Gap Funding) is a capital subsidy bridging gap between project cost and commercial viability. Indian solar storage VGF: ₹3,760 crore for 4 GWh BESS, ₹40 lakh per MWh or 30 percent of cost. Administered by MNRE through SECI. Critical for early-stage storage rollout. Complementary to PLI for cells. Likely to expand to round-the-clock renewable and green hydrogen.
+VGF (Viability Gap Funding) is a capital subsidy bridging gap between project cost and commercial viability. Indian solar storage VGF: ₹3,760 crore for 4 GWh BESS, ₹40 lakh per MWh or 30 percent of cost. Administered by [MNRE](/glossary/mnre/) through SECI. Critical for early-stage storage rollout. Complementary to PLI for cells. Likely to expand to round-the-clock renewable and green hydrogen.
 
 ## Need VGF support for your storage project?
 

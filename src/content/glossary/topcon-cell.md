@@ -5,7 +5,7 @@ description: "TOPCon (Tunnel Oxide Passivated Contact) is the leading next-gen s
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is topcon cell
   - topcon solar
@@ -68,9 +68,17 @@ author: "Nirav Dhanani"
 
 ## What is a TOPCon cell
 
+> **TL;DR**
+> - TOPCon uses an ultra-thin tunnel oxide plus doped polysilicon layer at the rear to passivate contacts and cut recombination.
+> - It delivers 24 to 25 percent cell efficiency versus 22 to 23 percent for standard PERC cells.
+> - TOPCon has a better temperature coefficient, lower LeTID and a higher bifaciality factor (80 to 85 percent) than PERC.
+> - From 2024 onward it is the dominant new-build cell technology in Indian and global manufacturing.
+> - It carries roughly a 5 to 10 percent capex premium over PERC, a gap that is narrowing as capacity scales.
+> - Major Indian ALMM-listed manufacturers include Waaree, Adani Green Solar, Tata Power Solar and Vikram Solar.
+
 TOPCon, Tunnel Oxide Passivated Contact, is a next-generation crystalline silicon solar cell architecture that uses an ultra-thin tunnel oxide layer (1 to 2 nanometres of silicon dioxide) plus a thin doped polysilicon layer at the rear surface. The combined structure provides excellent electrical passivation of the rear contact while still allowing current to tunnel through to the metallisation.
 
-TOPCon delivers 24 to 25 percent cell efficiency, with module efficiency landing at 22 to 23.5 percent. Compared to PERC, TOPCon offers 1 to 2 percentage points higher efficiency, a better temperature coefficient, lower LeTID and a higher bifaciality factor (80 to 85 percent against 70 to 80 for PERC).
+TOPCon delivers 24 to 25 percent cell efficiency, with [module efficiency](/glossary/module-efficiency/) landing at 22 to 23.5 percent. Compared to [PERC](/glossary/perc-cell/), TOPCon offers 1 to 2 percentage points higher efficiency, a better temperature coefficient, lower [LeTID](/glossary/letid/) and a higher bifaciality factor (80 to 85 percent against 70 to 80 for PERC).
 
 From 2024 onward, TOPCon has become the dominant cell technology for new module manufacturing capacity globally and in India. Major Indian manufacturers have transitioned or are transitioning from PERC to TOPCon in their new gigawatt-scale plants. See [How Solar Power Systems Work in India](/blog/how-solar-power-system-works-india/) for where cell technology fits in the rest of a rooftop system.
 
@@ -96,7 +104,7 @@ Industry transition. Major capacity additions in 2024 to 2026 are TOPCon-first.
 
 ## How TOPCon works
 
-1. Light absorbed in n-type silicon substrate.
+1. Light absorbed in [n-type silicon](/glossary/n-type-silicon/) substrate.
 2. P-N junction (front emitter, n-base) separates carriers.
 3. Electrons collect at front contact through standard silver paste fingers.
 4. Holes travel toward rear, encounter the tunnel oxide.
@@ -150,7 +158,7 @@ About 0.04 to 0.05 percentage points better than PERC. This temperature advantag
 
 ### Bifaciality
 
-TOPCon bifaciality factor: 80 to 85 percent. Combined with rear-side power generation, total annual yield gain over monofacial PERC can reach 25 to 30 percent.
+TOPCon bifaciality factor: 80 to 85 percent. Combined with rear-side power generation typical of a [bifacial module](/glossary/bifacial-module/), total annual yield gain over monofacial PERC can reach 25 to 30 percent.
 
 ## Real-world applications
 
@@ -212,7 +220,7 @@ Verify PID test certification.
 
 Specify positive power tolerance.
 
-Confirm bifaciality factor in datasheet.
+Confirm bifaciality factor in the [datasheet](/download-datasheets/).
 
 Use proper torque on MC4 connectors.
 
@@ -222,7 +230,7 @@ Document module serial numbers at commissioning.
 
 ## Comparison: TOPCon vs PERC vs HJT
 
-| Feature | TOPCon | PERC | HJT |
+| Feature | TOPCon | PERC | [HJT](/glossary/hjt-cell/) |
 |---|---|---|---|
 | Cell efficiency | 24 to 25% | 22 to 23% | 25 to 26% |
 | Module efficiency | 22 to 23.5% | 20 to 22% | 23 to 24% |
@@ -239,9 +247,9 @@ Indian PLI tranches incentivise transition from PERC to TOPCon. Tranche II inclu
 
 Major Indian TOPCon manufacturers in 2026: Waaree, Adani Green Solar, Tata Power Solar, Vikram Solar, Premier Energies, Goldi Solar, Saatvik Green Energy.
 
-ALMM List I additions in 2025 to 2026 are predominantly TOPCon.
+[ALMM List](/glossary/almm-list/) I additions in 2025 to 2026 are predominantly TOPCon.
 
-SECI utility tender bid documents increasingly specify TOPCon performance assumptions.
+SECI utility tender bid documents increasingly specify TOPCon performance assumptions, often modelled with [solar simulation and PV modelling software](https://surgepv.com/solar-simulation-software/) during project design.
 
 PM Surya Ghar accepts ALMM-listed TOPCon modules.
 
@@ -255,7 +263,7 @@ PM Surya Ghar accepts ALMM-listed TOPCon modules.
 | IEC 62804 | PID test |
 | IS 14286 | Indian Standard for crystalline modules |
 | MNRE ALMM | Listing for subsidies |
-| BIS certification | Quality compliance |
+| [BIS certification](/glossary/bis-certification/) | Quality compliance |
 
 ## Common mistakes
 
@@ -271,7 +279,7 @@ Treating TOPCon as a marketing label without verifying actual cell architecture.
 
 ## Key takeaways
 
-TOPCon is the dominant new-build cell technology from 2024 onward. Higher efficiency, lower temperature loss, lower degradation and better bifaciality make it the rational choice for any new Indian solar project where the 5 to 10 percent capex premium is acceptable. The Indian manufacturing transition is rapidly underway, with most ALMM additions now TOPCon.
+TOPCon is the dominant new-build cell technology from 2024 onward. Higher efficiency, lower temperature loss, lower [degradation](/glossary/degradation/) and better bifaciality make it the rational choice for any new Indian solar project where the 5 to 10 percent capex premium is acceptable. The Indian manufacturing transition is rapidly underway, with most ALMM additions now TOPCon.
 
 ## Need ALMM-listed TOPCon modules?
 

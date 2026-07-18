@@ -5,7 +5,7 @@ description: "Power factor is the ratio of active to apparent power. Full guide 
 category: "Power Quality"
 categorySlug: "power-quality"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is power factor
   - power factor calculation
@@ -70,7 +70,15 @@ author: "Nirav Dhanani"
 
 Power factor (PF) is the ratio of active power (the power that does useful work) to apparent power (the total power flowing) in an AC circuit. It is a dimensionless number between -1 and 1, often expressed as a fraction or percentage. PF equals cos(φ), where φ is the phase angle between voltage and current in the AC circuit.
 
-A PF of 1.0 (unity) means all the power flowing is being used productively. A PF of 0.7 means only 70 percent of the apparent power is doing work; the rest is reactive power oscillating between source and load.
+A PF of 1.0 (unity) means all the power flowing is being used productively. A PF of 0.7 means only 70 percent of the apparent power is doing work; the rest is [reactive power](/glossary/reactive-power/) oscillating between source and load.
+
+> **TL;DR**
+> - Power factor is the ratio of active power (kW) to apparent power (kVA) in an AC circuit, equal to cos(φ) between voltage and current.
+> - Indian DISCOMs penalise C&I customers with PF below thresholds ranging from 0.85 to 0.95, at roughly 1 percent of the bill per 0.01 shortfall.
+> - Motors and other inductive loads are the usual cause of poor PF, dragging typical industrial PF down to 0.85-0.90 or lower when lightly loaded.
+> - Modern smart solar inverters can inject or absorb reactive power to correct site PF, often replacing traditional capacitor banks.
+> - CEA Grid Code 2019 requires generators above 10 kW to operate within 0.95 leading and 0.95 lagging PF.
+> - Poor PF does not directly waste energy but increases current for the same active power, raising I²R losses and heating in cables and transformers.
 
 For Indian C&I customers, DISCOMs penalise poor PF. Maintaining PF above 0.95 saves money and reduces grid losses. Modern solar inverters can actively support PF by injecting or absorbing reactive power.
 
@@ -82,18 +90,18 @@ Equipment loading. Lower PF means higher current for the same active power, load
 
 Distribution losses. Reactive power flow causes I²R losses on the network.
 
-Grid code compliance. Generators above 1 MW must operate within 0.95 leading and 0.95 lagging.
+Grid code compliance. Generators above 1 MW must operate within 0.95 leading and 0.95 lagging, alongside [fault ride through](/glossary/fault-ride-through/) requirements during grid disturbances.
 
-Solar inverter capability. Smart inverters can provide PF correction as a grid service; see [Reactive Power Support from Solar Inverters, India Grid Compliance](/blog/reactive-power-solar-inverters-india/) for the CEA Grid Code 2020 requirements above 100 kW.
+Solar inverter capability. [Smart inverters](/glossary/smart-inverter/) can provide PF correction as a grid service; see [Reactive Power Support from Solar Inverters, India Grid Compliance](/blog/reactive-power-solar-inverters-india/) for the CEA Grid Code 2020 requirements above 100 kW.
 
 ## How power factor is calculated
 
-PF = P / S = kW / kVA = cos(φ)
+PF = P / S = kW / [kVA](/glossary/kva/) = cos(φ)
 
 Where:
 - P = active power (kW)
 - S = apparent power (kVA)
-- φ = phase angle between voltage and current
+- φ = phase angle between [voltage](/glossary/voltage/) and [current](/glossary/current/)
 
 Q = S × sin(φ) = reactive power (kVAR)
 S² = P² + Q²
@@ -163,7 +171,7 @@ PF penalty continuing despite inverter installation. Inverter not configured for
 
 Capacitor bank over-compensating, producing leading PF.
 
-Resonance between capacitor bank and inverter harmonics.
+Resonance between capacitor bank and inverter [harmonics](/glossary/harmonics/).
 
 PF varying widely through the day, hard to manage with fixed capacitors.
 
@@ -183,7 +191,7 @@ Annual PF audit during preventive maintenance.
 
 ## Indian market context
 
-CEA Grid Code 2019 requires generators above 10 kW to operate at PF between 0.95 leading and 0.95 lagging.
+CEA Grid Code 2019 requires generators above 10 kW to operate at PF between 0.95 leading and 0.95 lagging, a requirement typically documented in the project's [electrical drawings and CEIG submission](https://heavendesigns.in/electrical-ceig-drawings/).
 
 Major Indian DISCOMs (MSEDCL, BESCOM, TNERC, BSES) include PF penalty schedules in tariff orders.
 

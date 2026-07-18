@@ -5,7 +5,7 @@ description: "Polycrystalline (multi-crystalline) solar panels use cast silicon 
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is polycrystalline
   - poly solar panel
@@ -70,13 +70,21 @@ author: "Nirav Dhanani"
 
 Polycrystalline solar, also called multi-crystalline silicon (mc-Si), refers to PV modules whose cells are cut from silicon wafers cast from molten silicon that solidifies as multiple grains. The wafers contain many small crystals separated by grain boundaries. Cells are processed through diffusion, metallisation and interconnection similar to monocrystalline.
 
-For two decades polycrystalline was the cost-effective workhorse of global solar deployment. Lower manufacturing energy, simpler casting process and easier ingot growth gave poly a structural cost advantage. From roughly 2020 onward, monocrystalline manufacturing scaled to a point where mono cost per watt fell below poly, eliminating poly's commercial advantage. By 2026, poly is a legacy technology with limited new deployment.
+> **TL;DR**
+> - Polycrystalline (multi-crystalline) solar cells are cast from molten silicon that solidifies into many small crystal grains, unlike single-crystal monocrystalline wafers.
+> - Module efficiency tops out around 17-19 percent, well below the 20-23 percent typical of modern mono PERC and TOPCon modules.
+> - Since roughly 2020, mono manufacturing scaled enough that mono cost per watt fell below poly, erasing poly's historical cost advantage.
+> - Poly degrades slightly faster (0.6-0.8 percent per year) and has a worse temperature coefficient than mono, both of which matter in Indian summer heat.
+> - ALMM List I is now dominated by mono modules; poly listings are limited and shrinking, and most major Indian manufacturers have shifted their lines to mono.
+> - Poly still serves legacy installations and spare-module replacement supply, but is not a sensible choice for new Indian solar projects in 2026.
 
-In India, polycrystalline dominated rooftop and utility solar from 2010 to 2020. Tata Power Solar, Vikram Solar, Waaree and several others sold gigawatts of poly modules during this period. From 2022 onward, ALMM listings shifted heavily toward mono, and most new Indian installations specify mono.
+For two decades polycrystalline was the cost-effective workhorse of global solar deployment. Lower manufacturing energy, simpler casting process and easier ingot growth gave poly a structural cost advantage. From roughly 2020 onward, [monocrystalline](/glossary/monocrystalline/) manufacturing scaled to a point where mono cost per watt fell below poly, eliminating poly's commercial advantage. By 2026, poly is a legacy technology with limited new deployment.
+
+In India, polycrystalline dominated rooftop and utility solar from 2010 to 2020. Tata Power Solar, Vikram Solar, Waaree and several others sold gigawatts of poly modules during this period. From 2022 onward, [ALMM listings](/glossary/almm-list/) shifted heavily toward mono, and most new Indian installations specify mono.
 
 ## Polycrystalline explained simply
 
-Think of mono silicon as a single ice crystal grown slowly under controlled conditions, and poly silicon as ice cubes frozen quickly into a tray with many grains. The poly version is faster and cheaper to make but the grain boundaries inside reduce efficiency. A poly cell converts about 17 to 19 percent of sunlight to electricity, against 20 to 23 percent for modern mono. Most Indian buyers now know to ask whether a quote is mono or poly; see [common solar inverter buying mistakes](/blog/solar-inverter-buying-mistakes/) for why the same scrutiny needs to extend to the inverter, not just the panel.
+Think of mono silicon as a single ice crystal grown slowly under controlled conditions, and poly silicon as ice cubes frozen quickly into a tray with many grains. The poly version is faster and cheaper to make but the grain boundaries inside reduce efficiency. A poly cell converts about 17 to 19 percent of sunlight to electricity, against 20 to 23 percent for modern mono, a gap captured directly in [module efficiency](/glossary/module-efficiency/) ratings. Most Indian buyers now know to ask whether a quote is mono or poly; see [common solar inverter buying mistakes](/blog/solar-inverter-buying-mistakes/) for why the same scrutiny needs to extend to the [solar inverter](/glossary/solar-inverter/), not just the panel.
 
 ## Why polycrystalline still matters
 
@@ -111,7 +119,7 @@ The fundamental physics is identical to monocrystalline. The difference is the s
 | 2020 | 19.5% (PERC poly) |
 | 2022 | 20.0% (PERC poly, plateau) |
 
-PERC technology added efficiency to poly but the gap to mono never closed.
+[PERC](/glossary/perc-cell/) technology added efficiency to poly but the gap to mono never closed.
 
 ### Module efficiency
 
@@ -135,8 +143,8 @@ Poly is slightly worse at high temperatures, which matters in Indian summers.
 
 | Mechanism | Poly |
 |---|---|
-| LID first month | 1 to 2.5% |
-| Annual degradation | 0.6 to 0.8%/year |
+| [LID](/glossary/lid/) first month | 1 to 2.5% |
+| Annual [degradation](/glossary/degradation/) | 0.6 to 0.8%/year |
 | 25-year retention | 80 to 83% |
 
 ## Real-world applications
@@ -173,7 +181,7 @@ Slightly worse degradation profile.
 
 ALMM listings increasingly dominated by mono.
 
-Bifacial development limited.
+[Bifacial module](/glossary/bifacial-module/) development limited.
 
 For a cost breakdown that puts budget polycrystalline modules side by side with mid-range PERC and premium TOPCon panels, see [10kW solar system price in India](/blog/10kw-solar-system-price-india/).
 
@@ -193,7 +201,7 @@ Soiling losses similar to mono, 5 to 25 percent depending on cleaning schedule.
 
 ## Best practices
 
-Verify ALMM listing and BIS certification.
+Verify ALMM listing and [BIS certification](/glossary/bis-certification/).
 
 Match replacement modules to original Voc, Imp and Vmp specifications.
 

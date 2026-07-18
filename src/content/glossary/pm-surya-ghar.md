@@ -5,7 +5,7 @@ description: "PM Surya Ghar Muft Bijli Yojana is India's central rooftop solar s
 category: "Policies"
 categorySlug: "policies"
 priority: "P0"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - pm surya ghar
   - pm surya ghar muft bijli yojana
@@ -71,25 +71,33 @@ author: "Nirav Dhanani"
 
 PM Surya Ghar Muft Bijli Yojana is the Government of India's flagship residential rooftop solar subsidy scheme. Launched on 13 February 2024 by Prime Minister Narendra Modi, it aims to install rooftop solar at 10 million Indian homes by 2027 and to provide up to 300 kWh of free electricity per month to participating households.
 
-The scheme provides central financial assistance directly to residential customers, ranging from ₹30,000 for a 1 kW system to ₹78,000 for systems of 3 kW and above. Implementation runs through the National Portal (pmsuryaghar.gov.in), with DISCOMs and empanelled vendors handling installation and commissioning.
+The scheme provides central financial assistance directly to residential customers, ranging from ₹30,000 for a 1 kW system to ₹78,000 for systems of 3 kW and above. Implementation runs through the National Portal (pmsuryaghar.gov.in), with [DISCOMs](/glossary/discom/) and empanelled vendors handling installation and commissioning.
+
+> **TL;DR**
+> - PM Surya Ghar Muft Bijli Yojana is India's central rooftop solar subsidy scheme, launched February 2024, targeting 10 million homes by 2027.
+> - Central subsidy ranges from ₹30,000 for 1 kW up to a cap of ₹78,000 for 3 kW and larger systems, paid directly to the customer's bank account.
+> - Only ALMM-listed inverters and panels qualify, and the system must be commissioned with net metering through a bidirectional smart meter.
+> - Typical payback period for a subsidised 3 kW system is 2.5 to 4 years, against a net capex of roughly ₹87,000 after subsidy.
+> - Only DISCOM-empanelled vendors can claim the subsidy on the customer's behalf; battery storage is not covered.
+> - The scheme is distinct from PM-KUSUM, which subsidises agricultural solar pumps rather than residential rooftop systems.
 
 PM Surya Ghar replaces and expands the earlier Grid Connected Rooftop Solar Programme Phase II. The total scheme outlay is approximately ₹75,000 crore over the implementation period.
 
 ## PM Surya Ghar explained simply
 
-The government will pay up to ₹78,000 toward the cost of a rooftop solar system at your home. You apply online, pick an approved installer, get the system installed and connected to the grid through a net meter, and the subsidy lands in your bank account afterwards. The system then offsets your monthly bill, often to zero or near zero, for the next 25 years.
+The government will pay up to ₹78,000 toward the cost of a rooftop solar system at your home. You apply online, pick an approved installer, get the system installed and connected to the grid through a net meter, and the subsidy lands in your bank account afterwards. The system then offsets your monthly bill, often to zero or near zero, for the next 25 years, provided the [on grid inverter](/glossary/on-grid-inverter/) is correctly commissioned.
 
-For a typical Indian middle-class home with a 3 kW system, the math works out to a payback of three to four years and roughly 25 years of largely free electricity after that.
+For a typical Indian middle-class home with a 3 kW system, the math works out to a [payback period](/glossary/payback-period/) of three to four years and roughly 25 years of largely free electricity after that.
 
 ## Why PM Surya Ghar matters
 
-Capex reduction. The subsidy cuts upfront cost by 35 to 50 percent for typical residential systems.
+[Capex](/glossary/capex/) reduction. The subsidy cuts upfront cost by 35 to 50 percent for typical residential systems.
 
 Scale. The 10 million household target is roughly 30 GW of distributed solar by 2027, comparable to a few years of utility-scale capacity addition.
 
-DISCOM standardisation. The scheme forces standard processes, smart-meter rollout and net metering across states.
+DISCOM standardisation. The scheme forces standard processes, [smart meter](/glossary/smart-meter/) rollout and [net metering](/glossary/net-metering/) across states.
 
-ALMM enforcement. Only ALMM-listed inverters and panels qualify, lifting compliance across the supply chain.
+ALMM enforcement. Only [ALMM-listed](/glossary/almm-list/) inverters and panels qualify, lifting compliance across the supply chain.
 
 Climate contribution. 30 GW residential solar avoids approximately 50 million tonnes of CO2 annually.
 
@@ -104,9 +112,9 @@ For a screen-by-screen walkthrough of the portal itself, see [PM Surya Ghar appl
 3. DISCOM reviews technical feasibility and approves capacity.
 4. Customer selects an empanelled vendor from the portal list.
 5. Vendor installs the system using ALMM-listed inverter and panels.
-6. DISCOM installs bidirectional smart meter, completes commissioning and issues commissioning report.
+6. DISCOM installs a [bidirectional meter](/glossary/bidirectional-meter/), completes commissioning and issues commissioning report.
 7. Customer uploads commissioning report and bank details on portal.
-8. MNRE disburses subsidy by direct bank transfer within 30 days.
+8. [MNRE](/glossary/mnre/) disburses subsidy by direct bank transfer within 30 days.
 
 ## Technical deep dive
 
@@ -145,7 +153,7 @@ For RWA and group housing common-area systems:
 
 ## Real-world applications
 
-Independent residential houses, 1 to 10 kW range.
+Independent [residential solar](https://heavengreenenergy.com/residential-solar/) houses, 1 to 10 kW range.
 
 RWA and group housing societies with common-area solar.
 
@@ -219,7 +227,7 @@ Plan installation in October to January for fastest commissioning in most states
 
 ## Comparison: PM Surya Ghar vs prior schemes
 
-Households sometimes confuse the residential rooftop scheme with the agricultural pump scheme it is often mentioned alongside; see [PM Surya Ghar vs Kusum Yojana](/blog/pm-surya-ghar-vs-kusum-yojana/) for how the two differ in eligibility and subsidy structure.
+Households sometimes confuse the residential rooftop scheme with the agricultural pump scheme it is often mentioned alongside, [PM-KUSUM](/glossary/kusum/); see [PM Surya Ghar vs Kusum Yojana](/blog/pm-surya-ghar-vs-kusum-yojana/) for how the two differ in eligibility and subsidy structure.
 
 | Feature | PM Surya Ghar | Phase II RTS | PM-KUSUM |
 |---|---|---|---|

@@ -5,7 +5,7 @@ description: "A smart meter is an AMI-enabled electricity meter with two-way com
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is smart meter
   - smart meter india
@@ -73,7 +73,15 @@ A smart meter is an electricity meter with embedded two-way digital communicatio
 
 Smart meters form the customer end of Advanced Metering Infrastructure (AMI), a closed loop of meter, communication network, head-end system and meter data management system (MDMS) operated by the DISCOM. Through this loop, billing, demand-response, distributed generation and outage management are automated.
 
-In India, the Revamped Distribution Sector Scheme (RDSS) funds the rollout of approximately 250 million smart meters between 2022 and 2026. CEA Smart Meter Regulations 2023 set the technical and procedural framework. Bidirectional smart meters are the standard for net-metered rooftop solar customers under PM Surya Ghar and previous schemes.
+In India, the Revamped Distribution Sector Scheme (RDSS) funds the rollout of approximately 250 million smart meters between 2022 and 2026. CEA Smart Meter Regulations 2023 set the technical and procedural framework. [Bidirectional smart meters](/glossary/bidirectional-meter/) are the standard for net-metered rooftop solar customers under PM Surya Ghar and previous schemes.
+
+> **TL;DR**
+> - A smart meter is a two-way digital meter that logs interval consumption, communicates with the DISCOM automatically and supports remote connect/disconnect and tamper detection.
+> - India's RDSS scheme is rolling out roughly 250 million smart meters between 2022 and 2026 under CEA Smart Meter Regulations 2023.
+> - Bidirectional smart meters that record both import and export are mandatory for net-metered rooftop solar and are a pre-condition for PM Surya Ghar subsidy disbursement.
+> - Smart meters communicate over RF mesh, PLC, or cellular/NB-IoT to the DISCOM's AMI head end, and store 35 to 90 days of interval data locally if communication drops.
+> - They are class 1.0 or better accuracy, more accurate than the class 2.0 electromechanical meters they replace.
+> - Common problems include export-register misconfiguration for solar customers, RF communication dropouts and false tamper alarms.
 
 ## Smart meter explained simply
 
@@ -89,7 +97,7 @@ DISCOM efficiency. Eliminating manual meter reading saves on operating cost and 
 
 Time-of-day tariffs. CEA notified time-of-day tariff rules in 2023, allowing differential pricing across solar hours and evening peaks. Smart meters are the enabler.
 
-Distributed generation. Net metering, gross metering, virtual net metering and PPAs all need accurate interval data with import-export segregation. Only smart meters deliver this.
+Distributed generation. [Net metering](/glossary/net-metering/), gross metering, virtual net metering and PPAs all need accurate interval data with import-export segregation, and that same data feeds a [solar savings calculator](https://heavengreenenergy.com/solar-calculator/) for self-consumption estimates. Only smart meters deliver this.
 
 Outage management. Smart meters report outages and restorations. Outage data feeds the DISCOM's reliability indices and tied investment decisions.
 
@@ -146,11 +154,11 @@ Commercial and industrial billing with maximum demand and reactive energy regist
 
 Distribution transformer metering at consumer aggregation level for AT&C loss tracking.
 
-EV charging stations as commercial customers with time-of-day tariffs.
+[EV charging](/glossary/ev-charger/) stations as commercial customers with time-of-day tariffs.
 
 Prepaid metering for high-default areas where postpaid billing has failed.
 
-PM Surya Ghar disbursement, which requires smart bidirectional metering as a pre-condition.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) disbursement, which requires smart bidirectional metering as a pre-condition.
 
 ## Advantages
 
@@ -198,7 +206,7 @@ App display lag. Some DISCOM apps show data with 24 to 72 hour delay due to MDMS
 
 ## Best practices
 
-Insist on DISCOM-approved meter models and AMI-integrated installation.
+Insist on [DISCOM](/glossary/discom/)-approved meter models and AMI-integrated installation.
 
 Witness meter installation. Note serial number, seal numbers, CT polarity and configuration.
 
@@ -232,7 +240,7 @@ CEA Smart Meter Regulations 2023 set technical and rollout requirements. Time-of
 
 Major smart meter OEMs in India include Genus Power, HPL Electric, Secure Meters, Larsen and Toubro, Itron, Landis+Gyr and Honeywell.
 
-PM Surya Ghar disbursement is tied to smart bidirectional meter installation.
+PM Surya Ghar disbursement is tied to smart bidirectional meter installation; see [PM Surya Ghar: how to apply online](/blog/pm-surya-ghar-apply-online/) for the full application sequence.
 
 ## Standards and certifications
 

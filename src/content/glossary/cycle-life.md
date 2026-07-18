@@ -5,7 +5,7 @@ description: "Cycle life is the number of charge-discharge cycles a battery deli
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is cycle life
   - battery cycle life
@@ -30,8 +30,6 @@ relatedTerms:
   - { slug: "c-rate", term: "C-Rate" }
   - { slug: "bms", term: "BMS" }
   - { slug: "round-trip-efficiency", term: "Round Trip Efficiency" }
-  - { slug: "rainflow-counting", term: "Rainflow Counting" }
-  - { slug: "warranty", term: "Battery Warranty" }
 faqs:
   - q: "What is cycle life in simple words?"
     a: "How many times you can fully charge and discharge a battery before it loses too much capacity to be useful. LFP typically lasts 4,000 to 8,000 cycles."
@@ -70,13 +68,21 @@ author: "Nirav Dhanani"
 
 Cycle life is the number of full charge-discharge cycles a battery can deliver before its usable capacity drops below a defined threshold, typically 80 percent of original rated capacity. Some standards use 70 percent as the threshold. Cycle life is the primary durability metric for batteries used in cycling applications like solar storage and EVs.
 
-Cycle life depends on chemistry, depth of discharge per cycle, temperature, charge and discharge rate, and storage conditions between cycles. The relationship is non-linear and chemistry-specific. The same battery may deliver 4,000 cycles at 80 percent DOD and 6,000 cycles at 50 percent DOD, which is why cycle life is the deciding factor in the [LiFePO4 vs NMC comparison](/blog/lifepo4-vs-nmc-solar-battery-india/) for Indian solar storage.
+Cycle life depends on chemistry, depth of discharge per cycle, temperature, charge and discharge rate, and storage conditions between cycles. The relationship is non-linear and chemistry-specific. The same battery may deliver 4,000 cycles at 80 percent [DOD](/glossary/battery-dod/) and 6,000 cycles at 50 percent DOD, which is why cycle life is the deciding factor in the [LiFePO4 vs NMC comparison](/blog/lifepo4-vs-nmc-solar-battery-india/) for Indian solar storage.
+
+> **TL;DR**
+> - Cycle life is the number of full charge-discharge cycles a battery delivers before capacity drops to a defined threshold, typically 80 percent of original capacity.
+> - LFP delivers roughly 4,000 to 8,000 cycles at 80 percent DOD, NMC 2,000 to 4,000, and lead-acid 500 to 1,500.
+> - Cycle life is strongly DOD-dependent and non-linear: shallower discharges, such as 50 percent DOD, extend cycle count well beyond the 80 percent DOD rating.
+> - Total battery ageing combines cycle ageing and calendar ageing; whichever exhausts first ends useful life.
+> - Indian residential LFP storage warranties typically guarantee 4,500 to 6,000 cycles at 80 percent DOD over 10 years.
+> - Comparing batteries on lifecycle cost (₹/kWh-cycle) at the intended DOD is more meaningful than comparing headline cycle counts alone.
 
 For solar storage, cycle life translates to lifecycle cost. A battery rated for 6,000 cycles at 80 percent DOD over 15 years performs roughly one cycle per day for the full life of the system, matching the typical solar storage duty cycle.
 
 ## Cycle life explained simply
 
-Imagine a rechargeable battery as a pair of shoes. Every time you charge and discharge, you walk in them once. The shoes wear out after enough wear. Battery cycle life is how many cycles before the wear shows. Some batteries are like sneakers (LFP, thousands of cycles). Some are like dress shoes (lead acid, hundreds of cycles).
+Imagine a rechargeable battery as a pair of shoes. Every time you charge and discharge, you walk in them once. The shoes wear out after enough wear. Battery cycle life is how many cycles before the wear shows. Some batteries are like sneakers ([LFP](/glossary/lfp-battery/), thousands of cycles). Some are like dress shoes ([lead acid](/glossary/lead-acid-battery/), hundreds of cycles).
 
 ## Why cycle life matters
 
@@ -137,7 +143,7 @@ This gives:
 
 ### Calendar life
 
-Calendar life is the chronological life regardless of cycling. LFP calendar life is 10 to 15 years. NMC is 8 to 12 years. Both age while sitting unused.
+[Calendar life](/glossary/calendar-life/) is the chronological life regardless of cycling. LFP calendar life is 10 to 15 years. NMC is 8 to 12 years. Both age while sitting unused.
 
 ### Combined ageing
 
@@ -147,15 +153,15 @@ Whichever exhausts first dictates end of life. For a battery cycled once daily, 
 
 ### Capacity fade curve
 
-Capacity does not drop linearly. Typical LFP curve:
+Capacity does not drop linearly, and the decline is tracked as falling [State of Health](/glossary/soh/). Typical LFP curve:
 - 0 to 70 percent of cycle life: roughly linear 0.5 to 1 percent loss per year.
 - 70 to 100 percent of cycle life: accelerating to 2 to 3 percent loss per year.
 
 ## Real-world applications
 
-Solar storage payback modelling.
+[Solar storage payback modelling](https://surgepv.com/generation-financial-tool/).
 
-EV residual value estimation.
+EV residual value estimation, including [second-life battery](/glossary/second-life-battery/) repurposing of retired packs for stationary storage.
 
 Telecom backup replacement planning.
 
@@ -189,11 +195,11 @@ End-of-life threshold (70 vs 80 percent) affects the headline number.
 
 ## Common problems
 
-Cycle life shorter than expected. Usually traceable to higher DOD, higher temperature, or higher C-rate than assumed.
+Cycle life shorter than expected. Usually traceable to higher DOD, higher temperature, or higher [C-rate](/glossary/c-rate/) than assumed.
 
 Calendar ageing dominating cycle life in shallow-cycling applications.
 
-Cycle counter miscounting partial cycles. Rainflow counting is the correct method.
+Cycle counter miscounting partial cycles inside the [BMS](/glossary/bms/). Rainflow counting is the correct method.
 
 Different cycle life cited at different DOD assumptions causing customer confusion.
 

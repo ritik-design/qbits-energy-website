@@ -5,7 +5,7 @@ description: "A bidirectional meter records both energy import and export for ne
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is bidirectional meter
   - bidirectional energy meter
@@ -25,13 +25,8 @@ relatedTerms:
   - { slug: "gross-metering", term: "Gross Metering" }
   - { slug: "discom", term: "DISCOM" }
   - { slug: "on-grid-inverter", term: "On Grid Inverter" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
-  - { slug: "ami", term: "AMI" }
-  - { slug: "mdms", term: "MDMS" }
-  - { slug: "tod-tariff", term: "ToD Tariff" }
   - { slug: "reactive-power", term: "Reactive Power" }
-  - { slug: "four-quadrant-meter", term: "Four Quadrant Meter" }
-  - { slug: "ct-pt", term: "CT and PT" }
+  - { slug: "virtual-net-metering", term: "Virtual Net Metering" }
 faqs:
   - q: "What is a bidirectional meter in simple words?"
     a: "An electricity meter that can run in both directions. It records energy flowing from the grid into your home and also energy flowing from your solar panels back to the grid."
@@ -74,6 +69,14 @@ It is the meter type required for any consumer who exports electricity to the gr
 
 CEA Smart Meter Regulations 2023 require AMI-enabled bidirectional smart meters for all new net-metered connections. Class 1.0 for single-phase residential, class 0.5S for three-phase, and class 0.2S for HT applications.
 
+> **TL;DR**
+> - A bidirectional meter records energy import and export in separate registers, and is the metering device required for net-metered rooftop solar.
+> - CEA Smart Meter Regulations 2023 require AMI-enabled bidirectional smart meters for all new net-metered connections.
+> - Accuracy classes are 1.0 for residential single-phase, 0.5S for LT commercial/industrial, and 0.2S for HT and CT-operated installations.
+> - The DISCOM owns, seals and installs the meter; it cannot be self-installed or self-purchased.
+> - Typical Indian residential pricing runs from roughly ₹4,000 to ₹15,000 depending on phase and accuracy class.
+> - Most billing errors, such as an unconfigured export register or reversed CT polarity, surface within the first three bills and should be audited early.
+
 ## Bidirectional meter explained simply
 
 A normal electricity meter has one dial that goes up when you use electricity. A bidirectional meter has two: one for what you take from the grid and one for what you send back. Solar panels on your roof can push power into the grid during the day, and the meter quietly records both flows.
@@ -88,9 +91,9 @@ Statutory compliance. CEA Smart Meter Regulations 2023 require smart bidirection
 
 Accurate billing. The meter is the single source of truth between customer and DISCOM. Disputes about export credits go back to meter logs.
 
-AMI integration. Smart bidirectional meters push reads to the DISCOM head end automatically, reducing meter-reading staff workload and human-entry errors.
+AMI integration. Smart bidirectional meters push reads to the [DISCOM](/glossary/discom/) head end automatically, reducing meter-reading staff workload and human-entry errors. A basic [smart meter](/glossary/smart-meter/) adds these communications, time-of-day registers and remote disconnect on top of the core bidirectional capability.
 
-Time-of-day capable. Modern smart meters log energy in 15 or 30-minute intervals, supporting time-of-day tariffs and demand response.
+Time-of-day capable. Modern smart meters log energy in 15 or 30-minute intervals, supporting time-of-day tariffs and demand response — see [Electricity Tariff Hikes 2026: Solar Pays Off Faster](/blog/electricity-tariff-hikes-solar/) for how rising ToD tariffs change the payback math.
 
 ## How a bidirectional meter works
 
@@ -121,7 +124,7 @@ A four-quadrant meter measures active and reactive power in both directions:
 - Q3: active export, reactive export (capacitive load)
 - Q4: active import, reactive export
 
-Net-metered residential typically uses Q1 and Q2 only. Large C&I requires all four for reactive energy billing.
+Net-metered residential typically uses Q1 and Q2 only. Large C&I requires all four for [reactive energy billing](/blog/reactive-power-solar-inverters-india/).
 
 ### Communication
 
@@ -135,11 +138,11 @@ Net-metered residential typically uses Q1 and Q2 only. Large C&I requires all fo
 
 ## Real-world applications
 
-Net-metered rooftop solar at homes, schools and small commercial.
+Net-metered [rooftop solar installations](https://heavengreenenergy.com/residential-solar/) at homes, schools and small commercial buildings.
 
 Gross-metered C&I plants using two unidirectional meters or one four-quadrant bidirectional meter with configured registers.
 
-Virtual and group net metering at housing societies where one bulk bidirectional meter is shared across multiple sub-meters.
+[Virtual net metering](/glossary/virtual-net-metering/) at housing societies where one bulk bidirectional meter is shared across multiple sub-meters.
 
 Captive power plants with grid backup, where the bidirectional meter records both export from the captive plant and import from the grid.
 
@@ -193,7 +196,7 @@ Demand AMI integration. Manual reads invite errors and delays.
 
 Plan for periodic firmware update access. Some DISCOMs require remote update consent.
 
-Keep a copy of the single-line diagram showing meter location, CT placement and seal numbers.
+Keep a copy of the [single-line diagram](https://heavendesigns.in/electrical-ceig-drawings/) showing meter location, CT placement and seal numbers.
 
 ## Comparison: bidirectional vs unidirectional vs four-quadrant
 
@@ -213,7 +216,7 @@ Genus Power, HPL Electric, Secure Meters, Larsen and Toubro, Itron, Landis+Gyr a
 
 State DISCOMs maintain approved meter model lists. Maharashtra MSEDCL, Karnataka BESCOM, Delhi BSES Rajdhani and Tata Power Delhi all publish current lists periodically.
 
-PM Surya Ghar disbursement requires the bidirectional meter installed and commissioned. Subsidy is released after this step.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) disbursement requires the bidirectional meter installed and commissioned; see [PM Surya Ghar: How to Apply Online](/blog/pm-surya-ghar-apply-online/) for the full sequence. Subsidy is released after this step.
 
 ## Standards and certifications
 

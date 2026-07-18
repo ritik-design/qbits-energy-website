@@ -5,7 +5,7 @@ description: "Cell balancing equalises voltages across battery cells. Full guide
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - cell balancing
   - battery balancing
@@ -76,15 +76,23 @@ Passive balancing: dissipates excess charge from higher-voltage cells through sm
 
 Active balancing: transfers excess energy from higher cells to lower cells through switched capacitors, transformers or other energy-transfer circuits. Energy-efficient but complex and expensive.
 
-For Indian solar storage, passive balancing dominates due to simplicity and cost-effectiveness. Premium and high-performance applications use active balancing for higher efficiency and faster equalisation.
+> **TL;DR**
+> - Cell balancing equalises voltages across the individual cells in a series-connected battery pack; without it, pack capacity is limited to the weakest cell.
+> - Passive balancing dissipates excess charge from higher-voltage cells as heat through small resistors, at roughly 50-200 mA per cell.
+> - Active balancing transfers charge between cells via switched capacitors or transformers, recovering 70 to 95 percent of the transferred energy instead of dissipating it.
+> - Passive balancing dominates Indian residential LFP storage for cost reasons; active balancing is used in premium, EV and utility-scale packs.
+> - A new pack typically shows 1 to 2 percent capacity variation between cells, growing to 5 to 10 percent by 10 years without effective balancing.
+> - Balancing is a standard function inside the BMS, and cell voltage spread should be monitored over time to catch developing imbalance early.
+
+For Indian solar storage, passive balancing dominates due to simplicity and cost-effectiveness. Premium and high-performance applications use active balancing for higher efficiency and faster equalisation, with balancing status typically reported to the inverter over [CAN bus](/glossary/can-bus/) for remote monitoring.
 
 ## Why cell balancing matters
 
 Pack capacity. Imbalanced pack capacity = weakest cell capacity.
 
-Cycle life. Balanced cells age uniformly; imbalanced cells degrade faster.
+Cycle life. Balanced cells age uniformly through their rated [cycle life](/glossary/cycle-life/); imbalanced cells degrade faster.
 
-Safety. Imbalance can lead to overcharge of weakest cell.
+Safety. Imbalance can lead to overcharge of the weakest cell, which raises the risk of [thermal runaway](/glossary/thermal-runaway/) in extreme cases.
 
 Warranty. Manufacturer warranties assume balanced operation.
 
@@ -135,7 +143,7 @@ Typical passive balancing current: 50-200 mA per cell. Balancing happens during 
 
 ### Cell aging effects on balance
 
-Cell capacity variations grow with aging:
+Cell capacity variations, tracked as declining [State of Health](/glossary/soh/), grow with aging alongside [calendar life](/glossary/calendar-life/) effects:
 - New pack: 1-2% capacity variation
 - 5 years: 3-5% variation
 - 10 years: 5-10% variation
@@ -145,9 +153,9 @@ Balancing maintains usable capacity through aging.
 
 ## Real-world applications
 
-All lithium-ion battery packs with cells in series.
+All [lithium-ion battery](/glossary/lithium-ion-battery/) packs with cells in series.
 
-Residential and C&I solar storage, where correct [hybrid inverter battery sizing](/blog/battery-sizing-hybrid-solar/) assumes the pack stays balanced across its rated DOD.
+Residential and C&I solar storage, where correct [hybrid inverter battery sizing](/blog/battery-sizing-hybrid-solar/) assumes the pack stays balanced across its rated [DOD](/glossary/battery-dod/).
 
 EVs and electric two-wheelers.
 

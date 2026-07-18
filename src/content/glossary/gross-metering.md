@@ -5,7 +5,7 @@ description: "Gross metering sells all solar generation to the DISCOM at a feed-
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is gross metering
   - gross metering india
@@ -68,9 +68,17 @@ author: "Nirav Dhanani"
 
 ## What is gross metering
 
+> **TL;DR**
+> - Gross metering exports 100 percent of solar generation to the DISCOM at a contracted [feed-in tariff](/glossary/feed-in-tariff/), while grid consumption is billed separately at retail tariff.
+> - It uses two unidirectional meters: one for generation, one for consumption, unlike [net metering](/glossary/net-metering/), which nets both against a single register.
+> - Indian FIT rates in 2026 typically run ₹2.5 to ₹4.5 per kWh, well below retail tariff, so per-unit returns are lower than net metering.
+> - Most states reserve gross metering for systems above 100 kW, mainly larger commercial and industrial customers.
+> - Typical payback is 6 to 9 years for commercial customers, against 4 to 6 years under net metering.
+> - Gross-metered systems do not qualify for the PM Surya Ghar subsidy in most state implementations.
+
 Gross metering is a billing arrangement under which the entire solar PV generation from a customer's plant is exported to the utility grid at a contracted feed-in tariff. The customer pays separately for grid consumption at the applicable retail tariff. Generation and consumption are decoupled and billed on two distinct meters.
 
-Mechanically, gross metering uses two unidirectional energy meters at the service connection. One sits on the solar plant output and records only the energy sold to the DISCOM. The other sits on the consumption side and records only the energy bought from the DISCOM. The customer receives a monthly settlement equal to FIT times generation, and pays a monthly bill equal to retail tariff times consumption.
+Mechanically, gross metering uses two unidirectional energy meters at the service connection. One sits on the solar plant output and records only the energy sold to the [DISCOM](/glossary/discom/). The other sits on the consumption side and records only the energy bought from the DISCOM. The customer receives a monthly settlement equal to FIT times generation, and pays a monthly bill equal to retail tariff times consumption.
 
 In Indian rooftop solar, gross metering is the secondary mechanism after net metering. As of 2026 it is used primarily for larger commercial and industrial customers in states where DISCOMs have lobbied for revenue protection, and for utility-scale rooftop solar where net metering caps make full export the only practical arrangement.
 
@@ -90,7 +98,7 @@ Larger system thresholds. Net metering caps in most states stop at 100 to 1000 k
 
 Open access alternative. Gross metering is functionally a small-scale open access arrangement. The customer becomes a power producer with a DISCOM offtake contract.
 
-Predictable revenue. The FIT is contractually fixed for the plant life, typically 25 years. The economics are easier to model than retail tariffs that change every year.
+Predictable revenue. The FIT is contractually fixed for the plant life, typically 25 years. The economics are easier to model than retail tariffs that change every year, and [SurgePV's financial modelling tools](https://surgepv.com/generation-financial-tool/) can run the FIT-based cash flow alongside a net-metering scenario for comparison.
 
 Time-of-day independence. The FIT is flat. Solar generation profile does not need to match peak retail tariff slots.
 
@@ -105,7 +113,7 @@ The flow from solar plant to monthly settlement is straightforward.
 5. The DISCOM bills generation at FIT, consumption at retail tariff.
 6. Monthly settlement is the difference: revenue from FIT minus cost of retail consumption.
 
-Both meters are smart, AMI-enabled, and accuracy class 0.5S or better. The generation meter must be sealed and certified by the DISCOM.
+Both meters are [smart, AMI-enabled](/glossary/smart-meter/), and accuracy class 0.5S or better. The generation meter must be sealed and certified by the DISCOM.
 
 ## Technical deep dive
 
@@ -141,13 +149,13 @@ Gross metering contracts run for the plant life, usually 25 years. The FIT is co
 
 ## Real-world applications
 
-Large C&I rooftops. 500 kW to 5 MW rooftop or carport plants on factories, warehouses and IT campuses in states where net metering caps prevent full benefit.
+Large C&I rooftops. 500 kW to 5 MW rooftop or carport plants on factories, warehouses and IT campuses in states where net metering caps prevent full benefit — the same category of project [Heaven Green Energy's commercial solar installation](https://heavengreenenergy.com/commercial-solar/) teams size for gross-metered DISCOM contracts.
 
 State-mandated systems. Some states require gross metering above specific thresholds, leaving the customer no net metering alternative.
 
 Investor-owned rooftop assets. Third-party developers building rooftop plants on rented roofs use gross metering or PPAs to capture the entire generation revenue.
 
-Group housing societies. In states without virtual net metering, common-area solar plants use gross metering to share revenue.
+Group housing societies. In states without [virtual net metering](/glossary/virtual-net-metering/), common-area solar plants use gross metering to share revenue.
 
 Distributed utility-scale. Sub-megawatt plants on land or rooftops in states like Telangana use gross metering as a simpler alternative to formal open access.
 
@@ -159,7 +167,7 @@ Predictable contracted revenue. The FIT is fixed for 25 years and easy to model 
 
 Decouples generation from consumption. The customer can sell all generation regardless of on-site load pattern.
 
-Eligible for accelerated depreciation, tax incentives and most other commercial solar incentives.
+Eligible for [accelerated depreciation](/glossary/accelerated-depreciation/), tax incentives and most other commercial solar incentives.
 
 Simple billing logic. Two meters, two bills, no netting arithmetic.
 
@@ -209,7 +217,7 @@ Confirm the FIT carries through ownership change clauses, especially for investo
 
 Document the single-line diagram with both meters clearly identified to avoid future audit disputes.
 
-## Comparison: gross vs net vs feed-in tariff
+## Comparison: gross vs [net metering](/glossary/net-metering/) vs feed-in tariff
 
 | Feature | Gross metering | Net metering | FIT (utility) |
 |---|---|---|---|
@@ -227,7 +235,7 @@ The CERC Tariff Regulations and Forum of Regulators have published guidance on F
 
 PM Surya Ghar Muft Bijli Yojana is restricted to net-metered residential customers in most state implementations. Gross-metered installations do not receive central subsidy; see the [PM Surya Ghar Muft Bijli Yojana Complete 2026 Guide](/blog/pm-surya-ghar-yojana-complete-guide/) for the full eligibility rules.
 
-State DISCOMs and SERCs revise FIT every two to three years through a public consultation process. Existing contracts are usually grandfathered, but new connections enter the latest tariff order.
+State DISCOMs and [SERCs](/glossary/serc/) revise FIT every two to three years through a public consultation process. Existing contracts are usually grandfathered, but new connections enter the latest tariff order.
 
 ## Standards and certifications
 

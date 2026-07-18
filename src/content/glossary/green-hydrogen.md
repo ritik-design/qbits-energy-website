@@ -5,7 +5,7 @@ description: "Green hydrogen is hydrogen produced from renewable electricity. Fu
 category: "ESG"
 categorySlug: "esg"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is green hydrogen
   - green hydrogen india
@@ -23,15 +23,10 @@ relatedTerms:
   - { slug: "mnre", term: "MNRE" }
   - { slug: "esg", term: "ESG" }
   - { slug: "rec", term: "REC" }
-  - { slug: "carbon-credit", term: "Carbon Credit" }
   - { slug: "ppa", term: "Power Purchase Agreement" }
-  - { slug: "open-access", term: "Open Access" }
   - { slug: "solar-yield", term: "Solar Yield" }
   - { slug: "lcoe", term: "LCOE" }
   - { slug: "ev-charger", term: "EV Charger" }
-  - { slug: "net-zero", term: "Net Zero" }
-  - { slug: "round-the-clock", term: "Round The Clock Power" }
-  - { slug: "electrolyser", term: "Electrolyser" }
 faqs:
   - q: "What is green hydrogen in simple words?"
     a: "Hydrogen made by splitting water with electricity from solar or wind. The cleanest form of hydrogen, with no carbon emissions in production."
@@ -72,7 +67,15 @@ Green hydrogen is hydrogen gas (H2) produced through electrolysis of water using
 
 This contrasts with grey hydrogen (steam methane reforming of natural gas, emitting CO2), blue hydrogen (grey with carbon capture and storage) and brown/black hydrogen (from coal). Green hydrogen is the only truly zero-emission form, making it central to deep decarbonisation strategies for sectors where direct electrification is difficult.
 
-India launched the National Green Hydrogen Mission in January 2023 with a target of 5 million tonnes annual green hydrogen production by 2030, supported by approximately 125 GW of dedicated renewable energy capacity. The mission has an outlay of ₹19,744 crore and aims to position India as a global green hydrogen hub, running alongside the broader [500 GW renewable capacity roadmap](/blog/india-solar-statistics-2026-data/) that solar is expected to anchor.
+India launched the National Green Hydrogen Mission in January 2023, led by the [MNRE](/glossary/mnre/), with a target of 5 million tonnes annual green hydrogen production by 2030, supported by approximately 125 GW of dedicated renewable energy capacity. The mission has an outlay of ₹19,744 crore and aims to position India as a global green hydrogen hub, running alongside the broader [500 GW renewable capacity roadmap](/blog/india-solar-statistics-2026-data/) that solar is expected to anchor.
+
+> **TL;DR**
+> - Green hydrogen is produced by electrolysing water with renewable electricity, with zero direct carbon emissions, unlike grey (natural gas) or blue (gas plus CCS) hydrogen.
+> - India's National Green Hydrogen Mission targets 5 million tonnes of annual production by 2030, backed by roughly 125 GW of dedicated renewable capacity and a ₹19,744 crore outlay.
+> - Producing 1 kg of green hydrogen takes roughly 50 kWh of renewable electricity and about 10 kg of water.
+> - Indian green hydrogen costs around $4 to $6/kg today, targeting $2/kg by 2030 as electrolyser and renewable power costs fall.
+> - Key end uses are ammonia and fertiliser, oil refining, green steel (DRI), methanol and heavy-mobility fuel cells.
+> - Round-the-clock renewable supply, combining solar, wind and storage, is essential since electrolysers run most efficiently near continuous operation.
 
 ## Why green hydrogen matters
 
@@ -89,7 +92,7 @@ Industrial transformation. Anchors a new domestic value chain.
 ## Production process
 
 1. Water purification.
-2. Electricity delivered to electrolyser from renewable source.
+2. Electricity delivered to electrolyser from a dedicated [industrial-scale solar](https://heavengreenenergy.com/industrial-solar/) or wind installation.
 3. Electrolyser splits water: 2H2O → 2H2 + O2.
 4. Hydrogen compressed and stored.
 5. Oxygen vented or sold.
@@ -189,7 +192,7 @@ Water consumption (~10 kg water per kg H2).
 
 Electrolyser cost decline pace.
 
-Renewable PPA structuring for round-the-clock supply.
+Renewable [PPA](/glossary/ppa/) structuring for round-the-clock supply.
 
 Water availability in arid regions.
 
@@ -199,15 +202,15 @@ Off-take agreements still maturing.
 
 ## Best practices
 
-Site projects near both renewable resource and water availability.
+Site projects near both strong [solar yield](/glossary/solar-yield/) and water availability.
 
-Use round-the-clock renewable through wind plus solar plus storage.
+Use round-the-clock renewable through wind plus [utility-scale solar](https://surgepv.com/utility-scale-solar-design/) plus storage.
 
 Plan for downstream off-take before electrolyser commissioning.
 
 Align with SIGHT eligibility for incentives.
 
-Document carbon abatement for ESG and credits.
+Document carbon abatement for [ESG](/glossary/esg/) reporting and credits.
 
 ## Indian market context
 

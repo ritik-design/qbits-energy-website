@@ -5,7 +5,7 @@ description: "SOH measures battery long-term degradation. Full guide to estimati
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - state of health battery
   - soh battery
@@ -70,9 +70,17 @@ author: "Nirav Dhanani"
 
 State of Health (SOH) is the percentage of original capacity remaining in a battery, measuring long-term degradation accumulated over time and usage. A new battery has SOH of 100 percent. Over years of operation, SOH gradually drops due to chemical and mechanical aging mechanisms. End of life is typically defined as SOH reaching 80 percent of original capacity (some standards use 70 percent threshold).
 
-SOH is distinct from SOC (State of Charge). SOC changes constantly during normal operation, while SOH changes slowly over years. SOH represents the underlying capacity available for use; SOC represents how much of that capacity is currently charged.
+SOH is distinct from [SOC (State of Charge)](/glossary/battery-soc/). SOC changes constantly during normal operation, while SOH changes slowly over years. SOH represents the underlying capacity available for use; SOC represents how much of that capacity is currently charged.
 
-For solar storage, SOH tracking is critical for warranty enforcement, replacement planning and lifecycle cost calculation. Modern BMS estimate SOH from coulomb counting, internal resistance measurements and voltage characteristics. Customer-facing apps typically display SOH alongside SOC. See [how long do solar batteries last in India](/blog/how-long-solar-batteries-last-india/) for how Indian heat above 45°C accelerates the SOH decline that ends a battery's useful life.
+For solar storage, SOH tracking is critical for warranty enforcement, replacement planning and lifecycle cost calculation. Modern [BMS](/glossary/bms/) estimate SOH from coulomb counting, internal resistance measurements and voltage characteristics. Customer-facing apps typically display SOH alongside SOC. See [how long do solar batteries last in India](/blog/how-long-solar-batteries-last-india/) for how Indian heat above 45°C accelerates the SOH decline that ends a battery's useful life.
+
+> **TL;DR**
+> - State of Health (SOH) is the percentage of original capacity remaining in a battery; it starts at 100 percent and typically ends at 80 percent, which is the usual end-of-life threshold.
+> - SOH is distinct from SOC: SOC changes constantly with charging and discharging, SOH changes slowly over years of aging.
+> - Cycle count, depth of discharge, temperature, charge rate and calendar age all drive SOH decline.
+> - Indian residential LFP systems typically hold 85-92 percent SOH at 10 years versus 75-85 percent for NMC, which is why LFP has displaced NMC in most new installs.
+> - Modern BMS estimate SOH via coulomb counting, internal resistance and open-circuit voltage curves, typically accurate to within 2-5 percent.
+> - Battery warranties reference minimum SOH thresholds (commonly 70-80 percent) at the warranty end date rather than a fixed cycle count alone.
 
 ## Why SOH matters
 
@@ -96,7 +104,7 @@ Diagnostics. Slower SOH decline indicates good operation.
 | Sodium-ion | 80-90% | Comparable to LFP |
 | Vanadium flow | 95+% | 20+ years |
 
-LFP's slower SOH decline is one of the main reasons it has displaced NMC in most new Indian residential storage; see [LiFePO4 vs NMC solar battery in India](/blog/lifepo4-vs-nmc-solar-battery-india/) for the full chemistry comparison.
+[LFP](/glossary/lfp-battery/)'s slower SOH decline is one of the main reasons it has displaced NMC in most new Indian residential storage; see [LiFePO4 vs NMC solar battery in India](/blog/lifepo4-vs-nmc-solar-battery-india/) for the full chemistry comparison.
 
 ## Technical deep dive
 
@@ -157,11 +165,11 @@ Second-life battery sorting.
 
 ## Best practices
 
-Operate within manufacturer's DOD and temperature recommendations.
+Operate within manufacturer's [DOD](/glossary/battery-dod/) and temperature recommendations.
 
 Maintain BMS firmware updates.
 
-Track SOH annually through BMS reports.
+Track SOH annually through BMS reports, factoring the results into your next [battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) calculation for replacement or expansion.
 
 Document SOH at warranty milestones.
 
@@ -171,11 +179,11 @@ Plan replacement budget for expected end of life.
 
 ALMM-listed and IS 16893 certified battery packs include BMS with SOH reporting.
 
-Major Indian residential storage brands (Goodwe, Sungrow, Solis, BYD, Pylon Tech) display SOH in apps.
+Major Indian residential [hybrid inverter](/hybrid-inverter/) storage brands (Goodwe, Sungrow, Solis, BYD, Pylon Tech) display SOH in apps.
 
 Warranty enforcement increasingly references SOH measurement.
 
-Second-life market emerging for retired EV batteries with SOH 70-80%.
+[Second-life](/glossary/second-life-battery/) market emerging for retired EV batteries with SOH 70-80%.
 
 ## Standards and certifications
 

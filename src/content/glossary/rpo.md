@@ -5,7 +5,7 @@ description: "RPO is the mandatory renewable share for Indian utilities. Full gu
 category: "Policies"
 categorySlug: "policies"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is rpo
   - renewable purchase obligation
@@ -68,11 +68,19 @@ author: "Nirav Dhanani"
 
 ## What is RPO
 
-Renewable Purchase Obligation (RPO) is the mandate under Indian electricity regulation requiring distribution licensees, large open access consumers and captive power plants to source a minimum percentage of their electricity from renewable sources. RPO trajectories are set by State Electricity Regulatory Commissions (SERCs) under Section 86 of the Electricity Act 2003, with Ministry of Power notifications providing national guidance.
+Renewable Purchase Obligation (RPO) is the mandate under Indian electricity regulation requiring distribution licensees, large open access consumers and captive power plants to source a minimum percentage of their electricity from renewable sources. RPO trajectories are set by [State Electricity Regulatory Commissions (SERCs)](/glossary/serc/) under Section 86 of the [Electricity Act 2003](/glossary/electricity-act-2003/), with Ministry of Power notifications providing national guidance.
 
 The Ministry of Power notification in 2022 set a uniform national RPO trajectory rising from 24.61 percent in FY 2022-23 to 43.33 percent by FY 2029-30. State SERCs adapt this to local conditions, with some states ahead and others lagging.
 
-Compliance options include direct PPAs with renewable generators, on-site renewable generation, REC purchases on power exchanges and other CERC-approved mechanisms. Non-compliance attracts penalties set by SERCs.
+Compliance options include direct [PPAs](/glossary/ppa/) with renewable generators, on-site renewable generation, [REC](/glossary/rec/) purchases on power exchanges and other [CERC](/glossary/cerc/)-approved mechanisms. Non-compliance attracts penalties set by SERCs.
+
+> **TL;DR**
+> - RPO requires DISCOMs, open access consumers above 1 MW and captive power plants above 1 MW to source a minimum share of electricity from renewables.
+> - The national trajectory set by the Ministry of Power rises from 24.61 percent in FY 2022-23 to 43.33 percent by FY 2029-30.
+> - Compliance runs through direct PPAs, on-site renewable generation, REC purchases on IEX/PXIL, or a mix of the three.
+> - Non-compliance draws a penalty computed as shortfall MWh times marginal renewable purchase cost, with enforcement strengthening since the 2022 Ministry of Power notification.
+> - States like Karnataka, Tamil Nadu, Rajasthan and Gujarat are generally compliant; Uttar Pradesh and Bihar have shown significant historical shortfall.
+> - RPO demand is a primary driver of DISCOM PPA signing and REC market liquidity in India.
 
 ## Why RPO matters
 
@@ -134,7 +142,7 @@ Computed as: Shortfall MWh × marginal renewable purchase cost. State-specific.
 
 ## Real-world applications
 
-DISCOM RPO compliance through SECI tendered PPAs.
+[DISCOM](/glossary/discom/) RPO compliance through SECI tendered PPAs.
 
 C&I open access consumers procuring renewable.
 
@@ -190,7 +198,7 @@ Sub-target enforcement (solar, hydro, wind specific).
 
 ## Best practices
 
-Sign PPAs early in trajectory to lock in lower tariffs. Large consumers evaluating the open access route should model the [levelised cost of solar](/blog/lcoe-solar-india/) against wheeling and banking charges before committing.
+Sign PPAs early in trajectory to lock in lower tariffs. Large consumers evaluating the open access route should model the [levelised cost of solar](/blog/lcoe-solar-india/) against wheeling and banking charges before committing, using a [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) that accounts for tariff escalation and RPO-driven PPA terms.
 
 Diversify across solar, wind, hydro and biomass.
 
@@ -212,7 +220,7 @@ DISCOM RPO compliance reported in annual reports.
 
 Corporate RE100 voluntary commitments parallel mandatory RPO.
 
-National RPO target 43.33 percent by 2029-30 aligns with 500 GW non-fossil capacity by 2030.
+National RPO target 43.33 percent by 2029-30 aligns with India's 500 GW non-fossil capacity target for 2030; see [India solar statistics 2026](/blog/india-solar-statistics-2026-data/) for the capacity trajectory this RPO demand is driving.
 
 ## Standards and certifications
 
@@ -222,7 +230,7 @@ National RPO target 43.33 percent by 2029-30 aligns with 500 GW non-fossil capac
 | Ministry of Power RPO notification 2022 | National trajectory |
 | State SERC RPO regulations | State-level implementation |
 | CERC REC Regulations | Compliance through RECs |
-| MNRE renewable capacity targets | Aligned with RPO |
+| [MNRE](/glossary/mnre/) renewable capacity targets | Aligned with RPO |
 
 ## Common mistakes
 

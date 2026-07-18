@@ -5,7 +5,7 @@ description: "P-type silicon is the traditional solar cell base. Full guide to p
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - p-type silicon
   - p type solar cell
@@ -70,9 +70,17 @@ author: "Nirav Dhanani"
 
 P-type silicon is crystalline silicon intentionally doped with a small concentration of boron atoms (typically 1015-1017 atoms/cm³). Boron has three valence electrons (one less than silicon's four), creating "holes" or electron deficiencies that act as positive charge carriers. The result: silicon with hole carriers (p for positive).
 
-P-type silicon has been the traditional base material for solar cells since the early decades of PV. PERC (Passivated Emitter and Rear Contact) cells, which dominated solar from 2017 to 2024, are built on p-type wafers. Earlier cell technologies (BSF, Al-BSF) also used p-type.
+> **TL;DR**
+> - P-type silicon is boron-doped crystalline silicon that carries current through electron "holes" — the traditional base for PERC cells, which dominated solar from 2017 to 2024.
+> - Its main weakness is boron-oxygen light-induced degradation (LID), cutting efficiency 1-2.5 percent in the first 100 hours; gallium-doped p-type avoids this.
+> - N-type silicon used in TOPCon and HJT cells is displacing p-type in new manufacturing, since it reaches higher efficiency without LID.
+> - P-type PERC tops out near 23 percent cell efficiency versus 26%+ for n-type HJT, and has a worse temperature coefficient (-0.36%/°C vs -0.31%/°C).
+> - ALMM List I still includes p-type PERC modules, and PM Surya Ghar accepts both p-type and n-type panels.
+> - P-type wafers remain roughly 5-8 percent cheaper than n-type, so it will persist in legacy and cost-sensitive segments for several years.
 
-The Indian solar industry's gradual transition to n-type TOPCon from 2024 onward marks the end of p-type's dominance. P-type will persist in legacy installations, cost-sensitive markets and gallium-doped variants for the next several years, but new manufacturing capacity is increasingly n-type.
+P-type silicon has been the traditional base material for solar cells since the early decades of PV. [PERC (Passivated Emitter and Rear Contact) cells](/glossary/perc-cell/), which dominated solar from 2017 to 2024, are built on p-type wafers. Earlier cell technologies (BSF, Al-BSF) also used p-type.
+
+The Indian solar industry's gradual transition to [n-type](/glossary/n-type-silicon/) [TOPCon](/glossary/topcon-cell/) from 2024 onward marks the end of p-type's dominance. P-type will persist in legacy installations, cost-sensitive markets and gallium-doped variants for the next several years, but new manufacturing capacity is increasingly n-type.
 
 ## Why p-type matters
 
@@ -112,9 +120,11 @@ Historical understanding. P-type technology informs ongoing cell development.
 
 ### Boron-oxygen LID
 
-P-type silicon with boron and dissolved oxygen forms boron-oxygen (B-O) complexes under light. The defects trap charge carriers, reducing efficiency by 1-2.5 percent in the first 100 hours of operation. Gallium-doped p-type silicon eliminates this mechanism.
+P-type silicon with boron and dissolved oxygen forms boron-oxygen (B-O) complexes under light. The defects trap charge carriers, reducing efficiency by 1-2.5 percent in the first 100 hours of operation — the same mechanism covered in the [LID](/glossary/lid/) entry. Gallium-doped p-type silicon eliminates this mechanism.
 
 ### Cell technologies using p-type
+
+Traditional [polycrystalline](/glossary/polycrystalline/) wafers were also p-type, though most of that capacity has since shifted to mono PERC or TOPCon lines.
 
 | Cell | Status |
 |---|---|
@@ -147,13 +157,13 @@ ALMM-listed broadly.
 
 LID losses.
 
-LeTID concern in some PERC variants.
+[LeTID](/glossary/letid/) concern in some PERC variants.
 
 Lower efficiency ceiling.
 
 Worse temperature performance, which shows up as measurable yield loss during Indian summer peaks (see [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)).
 
-Lower bifaciality.
+Lower bifaciality than [bifacial n-type modules](/glossary/bifacial-module/).
 
 ## Indian market context
 
@@ -163,7 +173,7 @@ Major Indian PERC manufacturers transitioning to TOPCon n-type.
 
 ALMM List I still includes p-type PERC modules; see [ALMM List Phase III, Complete Guide for Buyers and EPCs 2026](/blog/almm-list-phase-iii-guide/) for the latest listing rules.
 
-PM Surya Ghar accepts both p-type and n-type modules.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) accepts both p-type and n-type modules.
 
 ## Standards and certifications
 

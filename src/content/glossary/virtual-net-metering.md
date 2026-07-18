@@ -5,7 +5,7 @@ description: "Virtual net metering shares solar export credits across multiple e
 category: "Metering and Grid"
 categorySlug: "metering-grid"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is virtual net metering
   - vnm india
@@ -21,16 +21,11 @@ quickFacts:
   relatedTechnologies: "Smart meter, bidirectional meter, AMI, MDMS, virtual ledger"
 relatedTerms:
   - { slug: "net-metering", term: "Net Metering" }
-  - { slug: "group-net-metering", term: "Group Net Metering" }
   - { slug: "gross-metering", term: "Gross Metering" }
-  - { slug: "rooftop-solar", term: "Rooftop Solar" }
   - { slug: "smart-meter", term: "Smart Meter" }
   - { slug: "bidirectional-meter", term: "Bidirectional Meter" }
   - { slug: "discom", term: "DISCOM" }
-  - { slug: "ami", term: "AMI" }
-  - { slug: "rwa", term: "RWA" }
   - { slug: "resco", term: "RESCO" }
-  - { slug: "self-consumption", term: "Self Consumption" }
   - { slug: "pm-surya-ghar", term: "PM Surya Ghar" }
 faqs:
   - q: "What is virtual net metering in simple words?"
@@ -68,7 +63,15 @@ author: "Nirav Dhanani"
 
 ## What is virtual net metering
 
-Virtual net metering is a billing arrangement under which the energy exported by a single solar PV plant is credited to multiple electricity accounts, in proportions defined by an agreement filed with the DISCOM. The beneficiary accounts can belong to the same owner or to a group of related owners. Physical location of the consumption points need not coincide with the plant location, although both are typically within the same DISCOM area.
+> **TL;DR**
+> - VNM credits solar export from one plant to multiple electricity accounts, in shares set by an agreement filed with the DISCOM.
+> - It solves the roof-load mismatch: sites with good roofs but little load can share generation with sites that have load but no roof.
+> - Notified frameworks exist in Delhi, Kerala, Karnataka, Maharashtra, Tamil Nadu and Andhra Pradesh; others are still draft or pilot.
+> - Housing societies use it most often, splitting common-area solar generation across individual flat meters.
+> - Beneficiary meters must generally sit within the same DISCOM area, and allocation agreements need periodic updates.
+> - PM Surya Ghar's subsidy structure is built around single residential connections, so VNM fit is limited and state-dependent.
+
+Virtual net metering is a billing arrangement under which the energy exported by a single solar PV plant is credited to multiple electricity accounts, in proportions defined by an agreement filed with the [DISCOM](/glossary/discom/). The beneficiary accounts can belong to the same owner or to a group of related owners. Physical location of the consumption points need not coincide with the plant location, although both are typically within the same DISCOM area.
 
 The arrangement solves a real problem in Indian solar adoption: many sites have roof space without significant load, and many sites have load without usable roof space. VNM separates the two, letting a clinic build solar on a school's roof, or a housing society share rooftop generation across hundreds of flats.
 
@@ -131,7 +134,7 @@ Credits are usually applied at the retail tariff of each beneficiary, capped at 
 
 ## Real-world applications
 
-Group housing societies. Common-area roof shared across flats.
+Group housing societies. Common-area roof shared across flats, typically installed through a [residential solar EPC partner](https://heavengreenenergy.com/residential-solar/).
 
 Government departments. One agency installs on its main building, credits multiple sub-offices.
 
@@ -141,7 +144,7 @@ Industrial townships where some buildings have roof, others have load.
 
 Religious institutions and trust-owned property portfolios.
 
-PM Surya Ghar adjacent projects where residential aggregation is the route.
+[PM Surya Ghar](/glossary/pm-surya-ghar/) adjacent projects where residential aggregation is the route.
 
 ## Advantages
 
@@ -199,7 +202,7 @@ Negotiate plant ownership and end-of-life arrangements in the original agreement
 
 ## Comparison: VNM vs net vs gross
 
-| Feature | VNM | Net metering | Gross metering |
+| Feature | VNM | Net metering | [Gross metering](/glossary/gross-metering/) |
 |---|---|---|---|
 | Beneficiaries | Multiple | Single | Single |
 | Generation location | Anywhere in DISCOM | At consumption point | At consumption point |
@@ -213,7 +216,7 @@ Delhi's GNM regulations from 2014 were the first major Indian VNM-like framework
 
 MNRE rooftop solar programme has progressively recognised group housing and aggregation. PM Surya Ghar guidelines acknowledge GNM but implementation through state nodal agencies is uneven.
 
-DISCOM administrative capacity for VNM is the binding constraint. States with stronger AMI and MDMS infrastructure handle VNM cleanly. States with manual billing struggle.
+DISCOM administrative capacity for VNM is the binding constraint. States with stronger AMI, [smart meter](/glossary/smart-meter/) and MDMS infrastructure handle VNM cleanly. States with manual billing struggle.
 
 ## Standards and certifications
 

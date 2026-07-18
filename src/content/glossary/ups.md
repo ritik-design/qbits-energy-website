@@ -5,7 +5,7 @@ description: "UPS provides backup power. Full guide to types and solar integrati
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - ups
   - uninterruptible power supply
@@ -68,11 +68,19 @@ author: "Nirav Dhanani"
 
 ## What is UPS
 
+> **TL;DR**
+> - UPS switches automatically from grid to battery within milliseconds to keep critical loads running through an outage.
+> - Three main types exist: offline (basic), line-interactive (voltage regulation) and online double-conversion (zero transfer time, most expensive).
+> - Indian residential UPS is increasingly solar-integrated, blurring the line with hybrid solar inverters.
+> - LFP is gaining share over lead-acid batteries in UPS systems for longer life and lower maintenance.
+> - A typical Indian home needs roughly 1 to 1.5 kVA and a 3 kWh battery for four hours of critical-load backup.
+> - IEC 62040 and IS 16242 are the governing UPS standards in India.
+
 UPS (Uninterruptible Power Supply) is a backup power system that provides continuous AC power to critical loads during grid outages, switching automatically from grid to battery within milliseconds. The system consists of a rectifier (or AC-DC converter), battery, inverter and bypass switch.
 
 For Indian solar applications, UPS systems integrate with solar PV in two ways:
 1. Solar hybrid UPS: UPS with solar charging input, reducing grid charging cost
-2. Hybrid inverter as UPS: solar inverter with grid backup function
+2. [Hybrid inverter](/glossary/hybrid-inverter/) as UPS: solar inverter with grid backup function
 
 Modern Indian residential UPS systems are increasingly solar-integrated, replacing traditional grid-only UPS. The home UPS market in India has shifted toward "solar UPS" or "hybrid solar UPS" terminology for products that combine solar PV input with battery backup function. See [Solar Inverter vs UPS, What's the Real Difference?](/blog/solar-inverter-vs-ups/) for a clear breakdown of when a hybrid inverter replaces a standalone UPS.
 
@@ -84,7 +92,7 @@ Sensitive equipment. Computers, medical devices, telecommunications protection.
 
 Power quality. Voltage regulation and surge protection.
 
-Solar integration. Solar UPS combines backup and renewable generation.
+Solar integration. Solar UPS combines backup and renewable generation, often through the same architecture as an [off grid inverter](/glossary/off-grid-inverter/).
 
 ## UPS types
 
@@ -105,7 +113,7 @@ Solar integration. Solar UPS combines backup and renewable generation.
 3. Battery connected to DC bus (standby or charging)
 4. Bypass switch for emergency
 
-Online provides zero transfer time and clean output regardless of grid quality.
+Online provides zero transfer time and clean, [pure sine wave](/glossary/pure-sine-wave/) output regardless of grid quality.
 
 ### Battery selection for UPS
 
@@ -118,13 +126,13 @@ Online provides zero transfer time and clean output regardless of grid quality.
 
 ### Indian solar UPS market
 
-Major brands: Microtek, Luminous, Su-Kam, V-Guard, APC, Numeric, Schneider Electric, Eaton, Emerson.
+Major brands: Microtek, Luminous, Su-Kam, V-Guard, APC, Numeric, Schneider Electric, Eaton, Emerson. For solar-ready inverter hardware sourced through an EPC, see [Heaven Green Energy's solar inverter range](https://heavengreenenergy.com/products/solar-inverters/).
 
 Solar hybrid models from Microtek, Luminous, Su-Kam dominate Indian residential market.
 
 ### Sizing example
 
-For Indian home critical loads:
+For Indian home critical loads, using the same battery-bank logic as [off-grid solar battery bank sizing](/blog/off-grid-battery-bank-sizing-india/):
 - 2-3 ceiling fans (240 W)
 - 5-8 LED lights (60 W)
 - 1 fridge (250 W average)
@@ -177,7 +185,7 @@ Solar UPS share growing 30-40 percent yearly.
 
 PM Surya Ghar adjacent UPS adoption increasing.
 
-LFP UPS gaining share over lead acid.
+[LFP](/glossary/lfp-battery/) UPS gaining share over [lead acid](/glossary/lead-acid-battery/).
 
 Online UPS market focused on data centres and IT.
 

@@ -5,7 +5,7 @@ description: "THD measures harmonic content in voltage or current. Full guide to
 category: "Power Quality"
 categorySlug: "power-quality"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is thd
   - total harmonic distortion
@@ -69,11 +69,19 @@ author: "Keyur Rakholiya"
 
 ## What is THD
 
-Total Harmonic Distortion (THD) is the ratio of the root-mean-square sum of all harmonic components in a waveform to the rms of the fundamental component, expressed as a percentage. It is the most widely used single number for waveform distortion in power systems.
+Total Harmonic Distortion (THD) is the ratio of the root-mean-square sum of all [harmonic](/glossary/harmonics/) components in a waveform to the rms of the fundamental component, expressed as a percentage. It is the most widely used single number for waveform distortion in power systems.
 
-THD applies to both voltage and current. For solar inverters, the headline figure is current THD at the AC output at rated power, typically less than 3 percent. For DISCOM compliance, the voltage THD at the point of common coupling is the metric, typically less than 5 percent under IEEE 519 for systems below 69 kV. See [THD in Solar Inverters, Why It Matters for Sensitive Loads](/blog/thd-solar-inverter/) for how LC filters, IGBT selection and PWM control keep output THD under 3 percent in practice.
+THD applies to both voltage and current. For [solar inverters](/glossary/solar-inverter/), the headline figure is current THD at the AC output at rated power, typically less than 3 percent. For DISCOM compliance, the voltage THD at the point of common coupling is the metric, typically less than 5 percent under IEEE 519 for systems below 69 kV. See [THD in Solar Inverters, Why It Matters for Sensitive Loads](/blog/thd-solar-inverter/) for how LC filters, IGBT selection and PWM control keep output THD under 3 percent in practice.
 
 A perfect sine wave has zero THD. A pure square wave has roughly 48 percent THD. Real-world distribution-grid voltage in India ranges from less than 1 percent in clean industrial zones to 5 or 6 percent in commercial and IT-heavy areas with high non-linear load.
+
+> **TL;DR**
+> - THD is the ratio of the rms sum of harmonic components to the fundamental rms, expressed as a percentage, and is the single most-quoted power quality number.
+> - Solar inverters should deliver less than 3 percent current THD at rated output; modern inverters often achieve under 2 percent.
+> - THD is worse at light load: typical current THD rises from 1.5-2.5 percent at 100 percent load to 6-12 percent at 10 percent load.
+> - IEEE 519 sets voltage THD limits of 5 percent (systems under 69 kV) and 8 percent current TDD depending on system strength; CEA Grid Code 2019 and IS 17387 reference the same limits in India.
+> - A perfect sine wave has 0 percent THD; a square wave has roughly 48 percent, dominated by the 3rd, 5th and 7th harmonics.
+> - Compliance measurement requires class A power quality analysers per IEC 61000-4-30 with 10-minute aggregation, not instantaneous snapshots.
 
 ## THD explained simply
 
@@ -206,7 +214,7 @@ Specify THD at rated load AND at light load in inverter purchase orders.
 
 Use class A power quality analysers per IEC 61000-4-30 for compliance measurements.
 
-Conduct THD audit at commissioning of any plant above 100 kW.
+Conduct a THD audit at commissioning of any plant above 100 kW, referencing the [CEIG-approved electrical drawings](https://heavendesigns.in/electrical-ceig-drawings/) for the design assumptions.
 
 Check for resonance before installing capacitor banks.
 
@@ -228,9 +236,9 @@ Use 10-minute aggregated values for compliance, not instantaneous snapshots.
 
 CEA Grid Code 2019 references IEEE 519 and IEC 61000 for THD limits. IS 17387 incorporates THD limits for inverter type tests.
 
-ALMM-listed inverters meet THD below 3 percent at rated output. BIS certification under IS 17387 includes THD measurement.
+[ALMM](/glossary/almm-list/)-listed inverters meet THD below 3 percent at rated output. BIS certification under IS 17387 includes THD measurement.
 
-DISCOM commissioning for plants above 100 kW typically includes a power quality audit covering voltage and current THD at the PCC.
+[DISCOM](/glossary/discom/) commissioning for plants above 100 kW typically includes a power quality audit covering voltage and current THD at the PCC.
 
 State industrial power quality standards reference IEEE 519, with state-specific reactive and harmonic penalty schedules.
 

@@ -5,7 +5,7 @@ description: "NPV is the present value of project cash flows minus capex. Full g
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - npv
   - net present value
@@ -68,7 +68,14 @@ author: "Nirav Dhanani"
 
 ## What is NPV
 
-Net Present Value (NPV) is the sum of all discounted future cash flows from a project, minus the initial investment. The discount rate (typically WACC) converts future cash to present value, accounting for time value of money and risk.
+> **TL;DR**
+> - NPV is the sum of all discounted future cash flows minus the initial investment; a positive NPV means the project creates value.
+> - Formula: NPV = -Initial Investment + Σ(CF_t / (1+r)^t), where r is typically WACC and t runs over the project life.
+> - For Indian solar, NPV is highly sensitive to capex, yield and tariff assumptions; a 10 percent yield increase can lift NPV by 12 to 15 percent.
+> - NPV and IRR are used together: NPV gives absolute value in currency, IRR gives the percentage return.
+> - Developers typically bid a PPA tariff that produces NPV equal to zero at their target WACC.
+
+Net Present Value (NPV) is the sum of all discounted future cash flows from a project, minus the initial investment. The [discount rate](/glossary/discount-rate/) (typically [WACC](/glossary/wacc/)) converts future cash to present value, accounting for time value of money and risk.
 
 NPV formula:
 NPV = -Initial Investment + Σ (CF_t / (1+r)^t) for t = 1 to T
@@ -80,7 +87,7 @@ Where:
 
 Positive NPV indicates the project creates value (returns exceed cost of capital). Negative NPV indicates value destruction. Zero NPV indicates exactly meeting cost of capital.
 
-For Indian solar projects, NPV is one of the primary investment metrics alongside IRR. NPV provides absolute value of project worth, while IRR provides percentage return. Together they fully characterise project economics, alongside [LCOE](/blog/lcoe-solar-india/), which converts the same discounted cash flows into a per-unit cost of energy.
+For Indian solar projects, NPV is one of the primary investment metrics alongside [IRR](/glossary/irr/). NPV provides absolute value of project worth, while IRR provides percentage return. Together they fully characterise project economics, alongside [LCOE](/blog/lcoe-solar-india/), which converts the same discounted cash flows into a per-unit cost of energy.
 
 ## Why NPV matters
 
@@ -90,7 +97,7 @@ Value creation. Positive NPV creates shareholder value.
 
 Comparison. Direct comparison of project values.
 
-PPA bidding. Tariff that produces NPV ≥ 0 at WACC.
+[PPA](/glossary/ppa/) bidding. Tariff that produces NPV ≥ 0 at WACC.
 
 Capital allocation. Within portfolios, highest NPV projects prioritised.
 
@@ -104,7 +111,7 @@ For a 1 MW Indian utility solar project:
 | 1-25 (operating) | ~37 per year | varies | 335 |
 | NPV | | | -65 |
 
-Need either lower capex, higher tariff, or lower WACC to make NPV positive.
+Need either lower [capex](/glossary/capex/), higher tariff, or lower WACC to make NPV positive.
 
 ## Technical deep dive
 
@@ -114,7 +121,7 @@ Need either lower capex, higher tariff, or lower WACC to make NPV positive.
 |---|---|
 | Capex | Outflow (year 0) |
 | Annual revenue (PPA) | Inflow |
-| Annual O&M | Outflow |
+| Annual [O&M](/glossary/opex/) | Outflow |
 | Annual debt service | Outflow |
 | Annual tax | Outflow |
 | Terminal value (year 25) | Inflow |
@@ -162,15 +169,15 @@ Sustainability investment screening.
 
 ## Best practices
 
-Use realistic yield (P50 for planning, P90 for risk).
+Use realistic [yield](/glossary/solar-yield/) ([P50 for planning, P90 for risk](/glossary/p50-p90/)).
 
 Apply correct WACC.
 
-Include degradation in annual cash flows.
+Include [degradation](/glossary/degradation/) in annual cash flows.
 
 Document all assumptions transparently.
 
-Conduct sensitivity analysis.
+Conduct sensitivity analysis, for example using [SurgePV's generation and financial modelling tool](https://surgepv.com/generation-financial-tool/).
 
 Report both NPV and IRR.
 

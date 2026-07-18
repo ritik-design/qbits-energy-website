@@ -5,7 +5,7 @@ description: "Calendar life is chronological battery aging. Full guide to mechan
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - calendar life battery
   - battery aging
@@ -70,10 +70,18 @@ author: "Nirav Dhanani"
 
 Calendar life is the chronological aging of a battery regardless of cycling. Even an unused battery sitting on a shelf degrades over years due to chemical processes: electrolyte breakdown, solid-electrolyte interphase (SEI) layer growth, side reactions and material decomposition. Calendar life sets an upper bound on battery service regardless of usage pattern.
 
-Combined with cycle life (number of charge-discharge cycles), calendar life determines total battery service life. Whichever expires first ends usable service. For solar storage with one cycle per day:
-- LFP: cycle life 4,500-8,000 cycles = 12-22 years. Calendar life 10-15 years. Calendar typically dominant, consistent with the 10-15 year figures quoted for quality LFP packs in [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/).
+> **TL;DR**
+> - Calendar life is chronological battery aging that happens even without cycling, driven by SEI growth, electrolyte breakdown and side reactions.
+> - LFP calendar life is roughly 10 to 15 years at 25°C; NMC runs 8 to 12 years; tubular lead-acid is 5 to 7 years.
+> - Every 10°C rise above 25°C roughly halves calendar life, so Indian summer cabinet temperatures of 45 to 50°C significantly cut LFP service life.
+> - Storing a battery at 100 percent SOC accelerates calendar aging 1.5 to 2x compared with storing at a moderate 50 percent SOC.
+> - Manufacturer warranties combine calendar years and cycle counts, such as "10 years OR 6,000 cycles, whichever comes first."
+> - Whichever expires first, calendar life or cycle life, ends the battery's usable service life.
+
+Combined with [cycle life](/glossary/cycle-life/) (number of charge-discharge cycles), calendar life determines total battery service life. Whichever expires first ends usable service. For solar storage with one cycle per day:
+- [LFP](/glossary/lfp-battery/): cycle life 4,500-8,000 cycles = 12-22 years. Calendar life 10-15 years. Calendar typically dominant, consistent with the 10-15 year figures quoted for quality LFP packs in [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/).
 - NMC: cycle life 2,000-4,000 cycles = 5-11 years. Calendar life 8-12 years. Cycle often dominant.
-- Lead acid: 5-7 years calendar. 500-1,500 cycles. Calendar dominant.
+- [Lead acid](/glossary/lead-acid-battery/): 5-7 years calendar. 500-1,500 cycles. Calendar dominant.
 
 For Indian solar, calendar life is critical because Indian summer conditions (40-45°C ambient) significantly accelerate calendar aging, a reality quantified in [How Long Do Solar Batteries Last in India? (Heat and Cycle Reality)](/blog/how-long-solar-batteries-last-india/). Cabinet ventilation and shaded installation extend life.
 
@@ -83,11 +91,11 @@ Lifecycle cost. Calendar life often dominates over cycle life in solar storage.
 
 Warranty terms. Manufacturer warranties include calendar period.
 
-Replacement planning. Sets upper bound on service.
+Replacement planning. Sets upper bound on service, tracked over time via the battery's [State of Health](/glossary/soh/).
 
 Idle storage. Inventory aging matters for distributors.
 
-Indian climate impact. Hot conditions accelerate aging.
+Indian climate impact. Hot conditions accelerate aging, compounded by high [C-rate](/glossary/c-rate/) operation that adds further internal heating.
 
 ## Calendar life by chemistry
 
@@ -111,7 +119,7 @@ Indian climate impact. Hot conditions accelerate aging.
 | SEI layer growth | Solid-electrolyte interphase thickens, increasing impedance |
 | Lithium plating | At low temperatures and high SOC |
 | Cathode dissolution | Side reaction at cathode surface |
-| Electrolyte decomposition | Chemical breakdown over time |
+| Electrolyte decomposition | Chemical breakdown over time, in extreme cases contributing to [thermal runaway](/glossary/thermal-runaway/) risk |
 | Gas evolution | Internal pressure buildup |
 | Active material loss | Mechanical degradation |
 
@@ -135,7 +143,7 @@ Indian summer cabinet temperatures of 45-50°C significantly reduce calendar lif
 | 25% | 1.0-1.1x |
 | 0% (over-discharged) | Risk of damage |
 
-Storage at 50 percent SOC at cool temperature minimises calendar aging.
+Storage at 50 percent [SOC](/glossary/battery-soc/) at cool temperature minimises calendar aging.
 
 ### Indian residential storage typical service life
 
@@ -148,11 +156,11 @@ Storage at 50 percent SOC at cool temperature minimises calendar aging.
 
 ## Real-world applications
 
-Battery sizing for required project life.
+[Battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) for required project life.
 
 Warranty enforcement.
 
-Cabinet thermal management design.
+[Cabinet and balance-of-system](https://heavengreenenergy.com/products/balance-of-system/) thermal management design.
 
 Inventory management.
 

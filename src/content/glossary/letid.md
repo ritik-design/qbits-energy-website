@@ -5,7 +5,7 @@ description: "LeTID is heat-light degradation in PERC cells. Full guide to mecha
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - letid
   - light elevated temperature induced degradation
@@ -68,7 +68,14 @@ author: "Nirav Dhanani"
 
 ## What is LeTID
 
-LeTID (Light and Elevated Temperature Induced Degradation) is a degradation mechanism affecting PERC (Passivated Emitter and Rear Contact) solar cells under combined exposure to light and elevated temperatures (typically 60-90°C). Unlike LID (Light-Induced Degradation), which occurs within the first 100 hours of light exposure, LeTID develops slowly over months and years, eventually causing 1-5 percent loss of module capacity.
+> **TL;DR**
+> - LeTID is a slow degradation mechanism in [PERC cells](/glossary/perc-cell/) caused by combined light and heat exposure (60-90°C), unlike [LID](/glossary/lid/), which resolves within the first 100 hours.
+> - Total impact is 1-5 percent [module degradation](/glossary/degradation/) over months to years, plateauing after 2-5 years.
+> - Modern LeTID-controlled PERC limits loss to under 1 percent; [TOPCon](/glossary/topcon-cell/) and [HJT](/glossary/hjt-cell/) n-type cells largely eliminate the mechanism.
+> - Indian heat accelerates LeTID, since cell temperatures of 60-80°C are common on rooftops during summer noon.
+> - Mitigation is a manufacturing choice: controlled hydrogen passivation, optimised firing profiles, or switching to n-type silicon.
+
+LeTID (Light and Elevated Temperature Induced Degradation) is a degradation mechanism affecting [PERC](/glossary/perc-cell/) (Passivated Emitter and Rear Contact) solar cells under combined exposure to light and elevated temperatures (typically 60-90°C). Unlike [LID](/glossary/lid/) (Light-Induced Degradation), which occurs within the first 100 hours of light exposure, LeTID develops slowly over months and years, eventually causing 1-5 percent loss of module capacity.
 
 The mechanism involves hydrogen-related defects formed during cell manufacturing that become recombination-active under heat and light. The exact atomic-level mechanism is still researched, but is associated with hydrogen passivation processes used in PERC cell production.
 
@@ -82,7 +89,7 @@ Warranty enforcement. Excessive LeTID may trigger warranty claims.
 
 Indian climate sensitivity. Hot conditions accelerate LeTID.
 
-Cell technology choice. N-type cells avoid the mechanism.
+Cell technology choice. [N-type silicon](/glossary/n-type-silicon/) cells avoid the mechanism.
 
 Manufacturing differentiation. LeTID control distinguishes quality manufacturers.
 
@@ -114,7 +121,7 @@ Manufacturing differentiation. LeTID control distinguishes quality manufacturers
 | Standard PERC | 1-3% |
 | LeTID-controlled PERC | <1% |
 | Modern best PERC | <0.5% |
-| TOPCon/HJT n-type | Negligible |
+| [TOPCon](/glossary/topcon-cell/)/[HJT](/glossary/hjt-cell/) n-type | Negligible |
 
 ### Test methods
 
@@ -140,7 +147,7 @@ Manufacturing differentiation. LeTID control distinguishes quality manufacturers
 2. Optimised firing temperature profile.
 3. Carrier injection regeneration treatment.
 4. Process audits at cell fabrication.
-5. Choice of n-type silicon (eliminates mechanism).
+5. Choice of [n-type silicon](/glossary/n-type-silicon/) (eliminates mechanism).
 
 ## Real-world applications
 
@@ -150,7 +157,7 @@ Performance warranty enforcement.
 
 Cell technology selection.
 
-Indian climate-specific module specification.
+Indian climate-specific module specification, the kind of judgment call [Heaven Green Energy's residential installation](https://heavengreenenergy.com/residential-solar/) teams make when comparing PERC and TOPCon options for a hot-climate rooftop.
 
 ## Common LeTID problems
 

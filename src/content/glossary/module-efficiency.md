@@ -5,7 +5,7 @@ description: "Module efficiency is the percentage of sunlight converted to elect
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is module efficiency
   - solar panel efficiency
@@ -68,11 +68,18 @@ author: "Keyur Rakholiya"
 
 ## What is module efficiency
 
-Module efficiency is the percentage of solar irradiance striking a photovoltaic module that is converted into electrical energy output, measured at Standard Test Conditions (STC): 1000 W/m² irradiance, 25 degrees Celsius cell temperature, and AM1.5 reference spectrum. It is the headline performance metric for PV modules, used to compare technologies and to size systems against available roof or land area.
+> **TL;DR**
+> - Module efficiency is the percentage of sunlight a PV module converts into electricity, measured at Standard Test Conditions.
+> - Mainstream crystalline silicon modules run 20 to 24 percent: mono PERC 20-22%, mono TOPCon 22-23.5%, HJT 23-24%.
+> - Module efficiency trails cell efficiency by 1 to 2 percentage points because of cell spacing, frame area and glass transmission losses.
+> - Higher efficiency means fewer modules and lower mounting and labour cost for the same capacity, which matters most on space-constrained rooftops.
+> - STC nameplate efficiency overstates real-world output; NOCT and temperature coefficient determine actual field performance.
+
+Module efficiency is the percentage of solar irradiance striking a photovoltaic module that is converted into electrical energy output, measured at [Standard Test Conditions (STC)](/glossary/stc/): 1000 W/m² irradiance, 25 degrees Celsius cell temperature, and AM1.5 reference spectrum. It is the headline performance metric for PV modules, used to compare technologies and to size systems against available roof or land area.
 
 Module efficiency is lower than cell efficiency, by typically 1 to 2 percentage points. The gap is from cell spacing within the module, opaque frame area, glass transmission losses and minor electrical interconnection losses.
 
-For modern crystalline silicon modules, mainstream efficiency lands at 20 to 24 percent. Mono PERC sits at 20 to 22 percent. Mono TOPCon at 22 to 23.5 percent. HJT at 23 to 24 percent. Premium specialty cells (IBC, tandem perovskite/silicon) reach 25 to 27 percent.
+For modern crystalline silicon modules, mainstream efficiency lands at 20 to 24 percent. Mono [PERC](/glossary/perc-cell/) sits at 20 to 22 percent. Mono [TOPCon](/glossary/topcon-cell/) at 22 to 23.5 percent. [HJT](/glossary/hjt-cell/) at 23 to 24 percent. Premium specialty cells (IBC, tandem perovskite/silicon) reach 25 to 27 percent.
 
 ## Module efficiency explained simply
 
@@ -80,7 +87,7 @@ If you shine 1000 watts of sunlight per square metre on a solar panel and the pa
 
 ## Why module efficiency matters
 
-Space-constrained installations. Indian rooftops are limited. Higher efficiency means more capacity per square metre.
+Space-constrained installations. Indian rooftops are limited. Higher efficiency means more capacity per square metre, a constraint that [SurgePV's residential solar design](https://surgepv.com/residential-solar-design/) tools account for when laying out panel counts against available roof area.
 
 Lifecycle yield. Higher efficiency at the same area generates more kWh annually for 25 years.
 
@@ -115,7 +122,7 @@ Example: A 540 W module of dimensions 2278 × 1134 mm (2.58 m²) has efficiency:
 
 ### NOCT vs STC
 
-Real-world operating conditions are very different from STC. NOCT (Nominal Operating Cell Temperature) is the cell temperature at 800 W/m², 20°C ambient, 1 m/s wind. Typical NOCT for modern modules: 42 to 45°C. At NOCT, module output is roughly 75 to 80 percent of STC nameplate. [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/) shows how this STC-to-field gap plays out across Indian climate zones.
+Real-world operating conditions are very different from STC. [NOCT](/glossary/noct/) (Nominal Operating Cell Temperature) is the cell temperature at 800 W/m², 20°C ambient, 1 m/s wind. Typical NOCT for modern modules: 42 to 45°C. At NOCT, module output is roughly 75 to 80 percent of STC nameplate. [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/) shows how this STC-to-field gap plays out across Indian climate zones.
 
 ### Module efficiency progression
 
@@ -149,7 +156,7 @@ Product gives typical module efficiency 85 to 90 percent of cell efficiency.
 
 ## Real-world applications
 
-Rooftop sizing for limited-area installations.
+Rooftop sizing for limited-area installations, the kind of layout work [Heaven Designs' rooftop detailed engineering design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/) handles for EPCs.
 
 Utility-scale yield modelling.
 
@@ -159,7 +166,7 @@ Building-integrated PV.
 
 EV solar.
 
-Bifacial yield projections.
+[Bifacial module](/glossary/bifacial-module/) yield projections.
 
 ## Advantages of higher efficiency
 
@@ -179,11 +186,11 @@ Higher efficiency typically carries cost premium.
 
 Returns diminish on land-rich utility sites where area is abundant.
 
-Efficiency at STC does not directly translate to real-world yield (temperature, soiling, angle all matter).
+Efficiency at STC does not directly translate to real-world yield (temperature, soiling, angle and long-term [degradation](/glossary/degradation/) all matter).
 
 ## Common problems
 
-Comparing modules at STC nameplate without considering temperature coefficient.
+Comparing modules at STC nameplate without considering [temperature coefficient](/glossary/temperature-coefficient/).
 
 Ignoring NOCT in real-world yield prediction.
 

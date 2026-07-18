@@ -5,7 +5,7 @@ description: "String sizing determines how many panels per string for a solar in
 category: "MPPT and Strings"
 categorySlug: "mppt-strings"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is string sizing
   - solar string size
@@ -68,7 +68,7 @@ author: "Keyur Rakholiya"
 
 ## What is string sizing
 
-String sizing is the design process of determining the number of solar modules connected in series to form a string that feeds one MPPT input of a solar inverter. The optimal string length is constrained by the inverter's MPPT voltage window and the temperature-dependent behaviour of module open-circuit voltage (Voc) and voltage at maximum power (Vmp).
+String sizing is the design process of determining the number of solar modules connected in series to form a string that feeds one [MPPT](/glossary/mppt/) input of a [solar inverter](/glossary/solar-inverter/). The optimal string length is constrained by the inverter's MPPT voltage window and the temperature-dependent behaviour of module [open-circuit voltage (Voc)](/glossary/open-circuit-voltage/) and voltage at maximum power (Vmp).
 
 The two binding constraints:
 
@@ -76,6 +76,14 @@ The two binding constraints:
 2. Minimum string Vmp at hottest expected operating temperature must stay above the inverter's MPPT lower limit.
 
 A string longer than the upper limit can damage the inverter on the first cold morning. A string shorter than the lower limit forces the inverter outside its MPPT window during hot periods, losing yield. See [string voltage vs MPPT voltage in solar inverters](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/) for the full temperature-corrected design framework Indian EPCs use across cold Himalayan mornings and 65°C+ Rajasthan rooftops.
+
+> **TL;DR**
+> - String sizing sets how many modules connect in series per MPPT input, bounded by the inverter's MPPT voltage window at cold and hot temperature extremes.
+> - Maximum string Voc at the coldest expected temperature must stay below the inverter's absolute maximum DC input voltage, or the inverter can be destroyed.
+> - Minimum string Vmp at the hottest expected temperature must stay above the inverter's MPPT lower limit, or yield is lost to de-rating.
+> - Indian design uses region-specific Tmin, from 18°C in coastal Tamil Nadu down to -15°C in Ladakh, and Tmax cell temperatures of 65-80°C.
+> - A worked Mumbai C&I example with a 540 W module and a 200-950 V MPPT window yields an acceptable string range of 6 to 21 modules.
+> - Temperature coefficients vary by cell technology: PERC derates faster than TOPCon, which derates faster than HJT.
 
 ## Why string sizing matters
 
@@ -97,7 +105,7 @@ Voc_string_cold = N × Voc_module_STC × (1 + βVoc × (Tmin_cell − 25))
 
 Where:
 - N = number of modules in series
-- βVoc = temperature coefficient of Voc (negative number, in %/°C as decimal)
+- βVoc = [temperature coefficient](/glossary/temperature-coefficient/) of Voc (negative number, in %/°C as decimal)
 - Tmin_cell = minimum expected cell temperature (≈ ambient at dawn)
 
 Constraint: Voc_string_cold ≤ V_inverter_max_DC
@@ -184,9 +192,9 @@ Use site-specific Tmin and Tmax for derating.
 
 Apply 5 percent safety margin on maximum Voc.
 
-Document string sizing on the single-line diagram, including the fuse rating for parallel strings; see [solar string sizing and overcurrent protection in India](/blog/solar-string-sizing-ocp-india/) for the 5-step method EPC teams use to size both together.
+Document string sizing on the single-line diagram, including the fuse rating for parallel strings routed through a [combiner box](/glossary/combiner-box/); see [solar string sizing and overcurrent protection in India](/blog/solar-string-sizing-ocp-india/) for the 5-step method EPC teams use to size both together.
 
-Verify with PVsyst or inverter manufacturer's sizing tool.
+Verify with PVsyst, the inverter manufacturer's sizing tool, or a browser-based [solar design tool](https://surgepv.com/tools/).
 
 Match string lengths within one MPPT.
 
@@ -211,7 +219,7 @@ PVsyst is the industry standard for utility-scale string sizing in India.
 
 ALMM-listed module datasheets provide Voc, Vmp and temperature coefficients required for sizing.
 
-CEIG drawing approval includes verification of string configuration.
+[CEIG drawing approval](https://heavendesigns.in/electrical-ceig-drawings/) includes verification of string configuration.
 
 PM Surya Ghar residential installations use installer-side sizing tools.
 

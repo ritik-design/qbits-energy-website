@@ -5,7 +5,7 @@ description: "NOCT is realistic operating cell temperature. Full guide to estima
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - noct
   - nominal operating cell temperature
@@ -68,7 +68,14 @@ author: "Nirav Dhanani"
 
 ## What is NOCT
 
-NOCT (Nominal Operating Cell Temperature) is the equilibrium cell temperature of a solar PV module operating under standardised conditions designed to reflect realistic outdoor operation, distinct from the laboratory conditions of STC. NOCT conditions:
+> **TL;DR**
+> - NOCT is the equilibrium cell temperature at 800 W/m² irradiance, 20°C ambient and 1 m/s wind, closer to real operating conditions than STC's 25°C baseline.
+> - Modern modules report NOCT of 42 to 45°C; older module designs run 47 to 50°C.
+> - Close-mounted rooftop installations raise effective NOCT by 3 to 8°C above open-rack values because of reduced airflow.
+> - Indian summer noon conditions can push cell temperature to 70 to 75°C, far above the 25°C STC baseline.
+> - Every 10°C drop in operating cell temperature adds roughly 3.6 percent yield for a typical PERC module.
+
+NOCT (Nominal Operating Cell Temperature) is the equilibrium cell temperature of a solar PV module operating under standardised conditions designed to reflect realistic outdoor operation, distinct from the laboratory conditions of [STC](/glossary/stc/). NOCT conditions:
 
 - Irradiance: 800 W/m² (lower than STC's 1000 W/m²)
 - Ambient air temperature: 20°C
@@ -81,13 +88,13 @@ For Indian solar, NOCT-based cell temperature estimation is essential because ac
 
 ## Why NOCT matters
 
-Realistic yield modelling. STC overstates expected output by ignoring operating temperature.
+Realistic [yield modelling](/glossary/solar-yield/). STC overstates expected output by ignoring operating temperature.
 
 Cell technology comparison. Modules with lower NOCT run cooler and produce more.
 
 Mounting impact. Rooftop close-mount has higher effective NOCT than open ground-mount.
 
-PR calculation. Operating temperature derating must be applied.
+[PR](/glossary/pr/) calculation. Operating temperature derating must be applied.
 
 PVsyst input. NOCT or operating temperature model required, as detailed in [PV Yield Simulation Software: 2026 Bankable Guide](/blog/pv-yield-simulation-software/).
 
@@ -108,7 +115,7 @@ T_cell = 35 + (25) × (1.125) = 35 + 28 = 63°C
 | Standard mono | 44-46°C |
 | Older designs | 47-50°C |
 | Thin film | 45-48°C |
-| HJT premium | 41-43°C |
+| [HJT](/glossary/hjt-cell/) premium | 41-43°C |
 | Frameless glass-glass | 43-45°C |
 | Building-integrated PV | 50-65°C (limited ventilation) |
 
@@ -133,19 +140,19 @@ T_cell = 35 + (25) × (1.125) = 35 + 28 = 63°C
 
 ### Better cooling = higher yield
 
-For PERC at γ = -0.36%/°C, every 10°C reduction in operating cell temperature:
-- +3.6% efficiency
+For [PERC](/glossary/perc-cell/) at γ = -0.36%/°C, every 10°C reduction in operating cell temperature:
+- +3.6% [module efficiency](/glossary/module-efficiency/)
 - +3.6% yield
 
 Optimised mounting and ventilation pays back through yield gains.
 
 ## Real-world applications
 
-Yield modelling.
+Yield modelling, commonly run through platforms like [SurgePV's solar simulation software](https://surgepv.com/solar-simulation-software/).
 
 Cell technology comparison for hot climates.
 
-Mounting design (clearance specification).
+[Mounting structure](/glossary/mounting-structure/) design (clearance specification).
 
 Rooftop vs ground-mount yield comparison.
 
@@ -155,7 +162,7 @@ BIPV thermal management.
 
 Use NOCT-based operating temperature for yield models.
 
-Specify open rack mounting where possible.
+Specify open rack mounting where possible, using appropriately rated [mounting structures](https://heavengreenenergy.com/products/mounting-structures/).
 
 Maintain rear-side air flow.
 

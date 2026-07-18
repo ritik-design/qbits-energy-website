@@ -5,7 +5,7 @@ description: "N-type silicon is the base material for TOPCon and HJT cells. Full
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - n-type silicon
   - n type solar cell
@@ -68,11 +68,18 @@ author: "Nirav Dhanani"
 
 ## What is n-type silicon
 
+> **TL;DR**
+> - N-type silicon is phosphorus-doped silicon that uses electrons as the majority charge carrier, versus boron-doped p-type silicon, which uses holes.
+> - It is the base material for TOPCon, HJT and IBC cells, which reach 24-26 percent cell efficiency versus 22-23 percent for p-type PERC.
+> - N-type eliminates boron-oxygen LID entirely and has better high-temperature performance than p-type.
+> - HJT n-type modules achieve the highest bifaciality factor (90-95 percent) among current cell technologies.
+> - Indian manufacturing is transitioning from p-type PERC to n-type TOPCon and HJT, with the wafer cost premium narrowing to under 5 percent.
+
 N-type silicon is crystalline silicon intentionally doped with a small concentration of phosphorus atoms (typically 1014-1016 atoms/cm³). The phosphorus atoms have five valence electrons (one more than silicon's four), and the extra electron becomes a free charge carrier. The result: silicon with an excess of free electrons (n for negative).
 
-N-type silicon serves as the base material for high-efficiency solar cells including TOPCon (Tunnel Oxide Passivated Contact), HJT (Heterojunction Technology) and IBC (Interdigitated Back Contact). Compared to p-type silicon (boron-doped, with hole carriers), n-type offers higher minority carrier lifetime, elimination of boron-oxygen light-induced degradation (LID), and better high-temperature performance.
+N-type silicon serves as the base material for high-efficiency solar cells including [TOPCon](/glossary/topcon-cell/) (Tunnel Oxide Passivated Contact), [HJT](/glossary/hjt-cell/) (Heterojunction Technology) and [IBC](/glossary/ibc-cell/) (Interdigitated Back Contact). Compared to [p-type silicon](/glossary/p-type-silicon/) (boron-doped, with hole carriers), n-type offers higher minority carrier lifetime, elimination of boron-oxygen [light-induced degradation (LID)](/glossary/lid/), and better high-temperature performance.
 
-The Indian solar industry's transition from p-type PERC to n-type TOPCon (2024 onward) and HJT (emerging premium segment) reflects the broader global shift toward n-type silicon as the foundation for next-generation high-efficiency PV.
+The Indian solar industry's transition from p-type [PERC](/glossary/perc-cell/) to n-type TOPCon (2024 onward) and HJT (emerging premium segment) reflects the broader global shift toward n-type silicon as the foundation for next-generation high-efficiency PV.
 
 ## Why n-type matters
 
@@ -82,7 +89,7 @@ No LID. Eliminates the boron-oxygen defect mechanism causing first-year degradat
 
 Better temperature performance. Lower temperature coefficient, which shows up as measurable yield gains in Indian heat (see [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)).
 
-Bifacial leadership. HJT n-type achieves 90-95 percent bifaciality factor.
+[Bifacial](/glossary/bifacial-module/) leadership. HJT n-type achieves 90-95 percent bifaciality factor.
 
 Future-ready. Foundation for tandem cells and beyond.
 
@@ -137,7 +144,7 @@ HJT modules from premium manufacturers.
 
 Future tandem perovskite-silicon cells.
 
-Premium residential and C&I solar installations.
+Premium residential and [C&I solar installations](https://heavengreenenergy.com/commercial-solar/).
 
 ## Advantages
 

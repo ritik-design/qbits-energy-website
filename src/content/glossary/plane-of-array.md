@@ -5,7 +5,7 @@ description: "POA is irradiance on tilted PV surface. Full guide to calculation 
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - plane of array
   - poa irradiance
@@ -68,12 +68,20 @@ author: "Nirav Dhanani"
 
 ## What is Plane of Array irradiance
 
-Plane of Array (POA) irradiance, also called Global Tilted Irradiance (GTI), is the solar radiation hitting the actual tilted surface of PV modules. Unlike GHI which measures irradiance on horizontal, POA accounts for the panel's specific tilt and azimuth orientation. POA is the direct input to PV power calculation.
+Plane of Array (POA) irradiance, also called Global Tilted Irradiance (GTI), is the solar radiation hitting the actual tilted surface of PV modules. Unlike [GHI](/glossary/ghi/) which measures irradiance on horizontal, POA accounts for the panel's specific [tilt angle](/glossary/tilt-angle/) and [azimuth](/glossary/azimuth/) orientation. POA is the direct input to PV power calculation.
+
+> **TL;DR**
+> - POA (Plane of Array) irradiance is the solar radiation hitting the actual tilted PV surface, combining direct beam, diffuse sky and ground-reflected components.
+> - For Indian latitude tilt, POA typically runs 8-12 percent higher than horizontal GHI on an annual basis.
+> - The Perez sky model is the industry default for the diffuse component, used in PVsyst and SAM for the highest accuracy (±2-4 percent).
+> - Performance Ratio should be calculated against POA, not GHI, since POA-based PR isolates true plant quality from weather effects.
+> - Bifacial modules need an additional rear-side POA calculation based on ground albedo and view factors, adding 5-25 percent gain.
+> - Single-axis trackers push POA to 1.25-1.35× horizontal GHI, versus 1.10-1.15× for fixed-tilt arrays at latitude tilt.
 
 POA combines three components:
-1. Direct beam: DNI projected onto the tilted plane
-2. Diffuse: DHI on tilted plane (calculated through sky models)
-3. Ground-reflected: GHI multiplied by albedo and view factor from the array to the ground
+1. Direct beam: [DNI](/glossary/dni/) projected onto the tilted plane
+2. Diffuse: [DHI](/glossary/dhi/) on tilted plane (calculated through sky models)
+3. Ground-reflected: GHI multiplied by [albedo](/glossary/albedo/) and view factor from the array to the ground
 
 For Indian solar installations at latitude-equivalent tilt, POA typically exceeds horizontal GHI by 8-12 percent on annual basis. South-facing tilted panels capture significantly more energy than horizontal because they better match the sun's path.
 
@@ -81,7 +89,7 @@ For Indian solar installations at latitude-equivalent tilt, POA typically exceed
 
 Yield prediction. POA directly drives PV power output; see [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/) for state-level yield outcomes built on POA-based modelling.
 
-PR calculation. PR normalises actual generation against POA-derived expectation.
+PR calculation. [Performance Ratio](/glossary/pr/) normalises actual generation against POA-derived expectation.
 
 Bifacial analysis. Rear-side POA is critical for bifacial gain.
 
@@ -143,7 +151,7 @@ Single-axis trackers continuously adjust tilt and azimuth to track the sun:
 
 ## Real-world applications
 
-Yield prediction software inputs.
+[Solar yield](/glossary/solar-yield/) prediction software inputs, combined with [module efficiency](/glossary/module-efficiency/) to derive expected AC output.
 
 Plant performance monitoring.
 
@@ -152,6 +160,8 @@ PR calculation.
 Bifacial analysis.
 
 Tracker yield prediction.
+
+Row-spacing and [shading analysis](/glossary/shading-analysis/), since inter-row shade directly subtracts from POA at low sun angles — dedicated tools such as [SurgePV's shadow analysis module](https://surgepv.com/shadow-analysis/) model this at the individual-cell level.
 
 ## Comparison: GHI vs POA
 

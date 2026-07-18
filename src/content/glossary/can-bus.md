@@ -5,7 +5,7 @@ description: "CAN bus is standard battery-inverter communication. Full guide and
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - can bus
   - can communication
@@ -31,7 +31,6 @@ relatedTerms:
   - { slug: "soh", term: "State of Health" }
   - { slug: "cell-balancing", term: "Cell Balancing" }
   - { slug: "ev-charger", term: "EV Charger" }
-  - { slug: "ems", term: "Energy Management System" }
 faqs:
   - q: "What is CAN bus in simple words?"
     a: "A common language that battery and inverter use to talk to each other. The battery tells the inverter how full it is, how hot it is, and what it can do."
@@ -68,12 +67,20 @@ author: "Nirav Dhanani"
 
 ## What is CAN bus
 
-CAN (Controller Area Network) bus is a serial communication protocol used between Battery Management Systems (BMS) and solar inverters (and other devices) to exchange operational data. Originally developed by Bosch in the 1980s for automotive applications, CAN has become the standard communication protocol for modern lithium-ion battery storage in solar applications.
+CAN (Controller Area Network) bus is a serial communication protocol used between [Battery Management Systems (BMS)](/glossary/bms/) and solar inverters (and other devices) to exchange operational data. Originally developed by Bosch in the 1980s for automotive applications, CAN has become the standard communication protocol for modern [lithium-ion battery](/glossary/lithium-ion-battery/) storage in solar applications.
+
+> **TL;DR**
+> - CAN bus is the serial protocol connecting a battery's BMS and the solar inverter to exchange SOC, voltage, current, temperature and control data.
+> - Standard CAN runs at up to 1 Mbit/s; CAN FD extends this to up to 8 Mbit/s.
+> - It uses a twisted pair (CAN_H/CAN_L) with 120-ohm termination at each end, with a maximum cable length of about 40m at 1 Mbit/s.
+> - ISO 11898 defines the physical and data-link layers; the application layer (message format) is manufacturer-specific, which is why compatibility lists matter.
+> - Major inverter brands such as Sungrow, Solis, Goodwe, Solax and Deye publish compatibility lists for supported battery brands; mixing unlisted brands fails or runs degraded.
+> - CAN has no built-in security; modern battery packs add encryption and authentication on top of it.
 
 CAN bus uses differential signalling on a twisted pair (CAN_H and CAN_L) with 120-ohm termination. Standard CAN operates at up to 1 Mbit/s, with CAN FD (Flexible Data-Rate) supporting up to 8 Mbit/s. The protocol is robust against electrical noise and supports multi-device networks. See [Battery Management System (BMS) in Hybrid Solar Inverters, Decoded](/blog/bms-hybrid-solar-inverter-explained/) for how CAN bus compares with RS485 Modbus in real BMS-inverter pairings.
 
-For solar hybrid inverter-battery integration, CAN bus enables continuous data exchange:
-- Battery: reports SOC, voltage, current, temperature, SOH, alarms
+For solar [hybrid inverter](/glossary/hybrid-inverter/)-battery integration, CAN bus enables continuous data exchange:
+- Battery: reports [SOC](/glossary/battery-soc/), voltage, current, temperature, [SOH](/glossary/soh/), alarms
 - Inverter: receives data, sends control commands, requests data
 
 For Indian solar, CAN bus is the dominant communication protocol for hybrid inverter battery packs. Compatibility between specific inverter brands and battery brands depends on protocol matching, leading to inverter-battery compatibility lists — a check covered in [How to Choose a Hybrid Solar Inverter, 5-Step Decision Guide](/blog/how-to-choose-hybrid-solar-inverter/).
@@ -147,7 +154,7 @@ Mixing brands outside compatibility lists fails or operates degraded.
 
 Hybrid inverter to battery communication.
 
-Multi-module battery expansion.
+Multi-module battery expansion, coordinated through CAN-reported [cell balancing](/glossary/cell-balancing/) status across packs.
 
 EV BMS to vehicle control.
 
@@ -157,7 +164,7 @@ Backup power systems.
 
 ## Best practices
 
-Verify CAN protocol compatibility before procurement.
+Verify CAN protocol compatibility before [inverter and battery procurement](https://heavengreenenergy.com/products/solar-inverters/).
 
 Use proper twisted pair cable.
 
@@ -173,7 +180,7 @@ Document protocol version in design.
 
 CAN bus is standard for Indian hybrid solar storage.
 
-Major Indian LFP brands (Pylon Tech, BYD, Goodwe Storage, Sungrow, Solax) support CAN.
+Major Indian [LFP](/glossary/lfp-battery/) brands (Pylon Tech, BYD, Goodwe Storage, Sungrow, Solax) support CAN.
 
 Inverter compatibility lists published by manufacturers.
 

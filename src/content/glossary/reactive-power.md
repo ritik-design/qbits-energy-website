@@ -5,7 +5,7 @@ description: "Reactive power is the non-working component of AC power that maint
 category: "Power Quality"
 categorySlug: "power-quality"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - what is reactive power
   - kvar
@@ -22,16 +22,12 @@ quickFacts:
 relatedTerms:
   - { slug: "power-factor", term: "Power Factor" }
   - { slug: "kva", term: "kVA" }
-  - { slug: "kvar", term: "kVAR" }
-  - { slug: "apparent-power", term: "Apparent Power" }
-  - { slug: "active-power", term: "Active Power" }
   - { slug: "harmonics", term: "Harmonics" }
   - { slug: "thd", term: "THD" }
   - { slug: "fault-ride-through", term: "Fault Ride Through" }
   - { slug: "smart-inverter", term: "Smart Inverter" }
-  - { slug: "voltage-regulation", term: "Voltage Regulation" }
-  - { slug: "grid-code", term: "Grid Code" }
   - { slug: "central-inverter", term: "Central Inverter" }
+  - { slug: "anti-islanding", term: "Anti-Islanding" }
 faqs:
   - q: "What is reactive power in simple words?"
     a: "AC power that bounces back and forth between source and load without doing any actual work. It is needed to keep voltage stable and to magnetise motors, but it does not turn lights on or run a fan."
@@ -74,6 +70,14 @@ In phasor terms, voltage and current in an AC circuit are not always in phase. A
 
 Modern grid-tied solar inverters are reactive-power-capable devices. They can inject leading or lagging reactive on demand, supporting site power factor, contributing to grid voltage regulation, and meeting smart-inverter requirements under CEA Grid Code 2019.
 
+> **TL;DR**
+> - Reactive power (kVAR) is the non-working AC component that maintains voltage and magnetises motors and transformers, unlike active power (kW) which does actual work.
+> - Apparent power (kVA) is the vector sum of active and reactive power; power factor is the ratio of active to apparent power.
+> - Modern smart inverters can inject or absorb reactive power up to about 33 percent of rated kVA while delivering full active power, rising to 100 percent at zero active output.
+> - CEA Grid Code 2019 requires generators above 10 kW to maintain power factor between 0.95 leading and 0.95 lagging at full output.
+> - DISCOMs penalise power factor below 0.85 to 0.95, and inverter reactive support can replace capacitor banks with millisecond-level dynamic response.
+> - Whether the capability actually delivers value depends on commissioning configuration, firmware and plant-level coordination across multiple inverters.
+
 ## Reactive power explained simply
 
 Picture pouring water down a slide. The water doing work is like active power: it lands at the bottom and powers something. Some water sloshes back and forth on the slide, never reaching the bottom, but its motion keeps the slide wet and smooth. That sloshing is like reactive power: it does not turn anything on, but the slide cannot work without it.
@@ -84,13 +88,13 @@ Inductive loads like motors and fluorescent lights need that sloshing to magneti
 
 Voltage stability. Voltage on AC networks is governed by reactive balance. Reactive shortage causes voltage collapse.
 
-Power factor. C&I customers pay reactive penalties when power factor falls below state thresholds; see [reactive power in solar inverters, an India buyer's guide](/blog/reactive-power-solar-inverters-india/) for how factories eliminate this charge without a dedicated correction panel.
+Power factor. C&I customers pay reactive penalties when [power factor](/glossary/power-factor/) falls below state thresholds; see [reactive power in solar inverters, an India buyer's guide](/blog/reactive-power-solar-inverters-india/) for how factories eliminate this charge without a dedicated correction panel.
 
 Grid integration of solar. Inverters injecting controlled reactive power help DISCOMs absorb more rooftop solar without voltage issues.
 
-Smart-inverter functions. Volt-var, volt-watt and power-factor control all rely on reactive power capability.
+[Smart-inverter functions](/glossary/smart-inverter/). Volt-var, volt-watt and power-factor control all rely on reactive power capability.
 
-Capacitor bank replacement. Smart inverters can replace traditional capacitor banks at industrial sites, with dynamic response instead of stepped switching.
+Capacitor bank replacement. Smart inverters can replace traditional capacitor banks at [industrial sites](https://heavengreenenergy.com/industrial-solar/), with dynamic response instead of stepped switching.
 
 ## How reactive power works
 
@@ -133,7 +137,7 @@ The capability curve is bounded by the rated apparent power S.
 
 ### Capability vs grid code
 
-CEA Grid Code 2019 requires generators above 10 kW to provide power factor between 0.95 leading and 0.95 lagging at full output, with extended reactive capability at lower outputs.
+[CEA Grid Code 2019](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) requires generators above 10 kW to provide power factor between 0.95 leading and 0.95 lagging at full output, with extended reactive capability at lower outputs.
 
 ### Reactive billing
 
@@ -145,7 +149,7 @@ Penalty rate is usually a fraction of the active tariff applied to excess reacti
 
 ## Real-world applications
 
-Industrial sites using solar inverters as dynamic reactive sources, eliminating older capacitor banks.
+Industrial sites using solar inverters as dynamic reactive sources, eliminating older capacitor banks; see [solar inverter for factory and industrial loads](/blog/solar-inverter-for-factory/) for sizing guidance.
 
 Utility solar plants providing scheduled reactive support per dispatch instructions.
 
@@ -221,7 +225,7 @@ Maintain firmware updates. Smart-inverter functions improve with each release.
 
 CEA Grid Code 2019 mandates reactive capability and smart-inverter functions for generators above 10 kW. State DISCOMs increasingly use inverter reactive capability for feeder voltage regulation.
 
-Large C&I customers actively configure solar inverters to maintain power factor at unity, avoiding penalty.
+Large [C&I customers](/c-i-solution/) actively configure solar inverters to maintain power factor at unity, avoiding penalty.
 
 Utility solar plants under SECI PPA include reactive dispatch terms, where the plant controller responds to TSO commands.
 

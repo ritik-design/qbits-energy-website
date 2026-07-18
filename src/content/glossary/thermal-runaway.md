@@ -5,7 +5,7 @@ description: "Thermal runaway is uncontrolled battery overheating. Full guide to
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - thermal runaway
   - battery fire
@@ -32,6 +32,7 @@ relatedTerms:
   - { slug: "cycle-life", term: "Cycle Life" }
   - { slug: "deep-discharge", term: "Deep Discharge" }
   - { slug: "hybrid-inverter", term: "Hybrid Inverter" }
+  - { slug: "bess", term: "BESS" }
 faqs:
   - q: "What is thermal runaway in simple words?"
     a: "A battery overheating uncontrollably, where the heat triggers more chemical reactions that release more heat, leading to fire or explosion."
@@ -68,7 +69,15 @@ author: "Nirav Dhanani"
 
 ## What is thermal runaway
 
-Thermal runaway is uncontrolled self-heating of a battery cell, where rising temperature triggers exothermic chemical reactions that release additional heat, further increasing temperature in a positive feedback loop. Without intervention, thermal runaway leads to cell venting, fire and potential explosion. In lithium-ion batteries, thermal runaway is the most serious safety concern.
+> **TL;DR**
+> - Thermal runaway is uncontrolled self-heating in a battery cell that triggers a fire- or explosion-causing chain reaction.
+> - LFP is the most resistant common lithium chemistry (270°C onset); NMC is more vulnerable (150-180°C).
+> - Triggers include overcharge, over-discharge, internal or external short circuits, mechanical damage and manufacturing defects.
+> - BMS protection, thermal management and correct cabinet design are the primary safeguards.
+> - LFP dominates Indian residential and small commercial storage largely because of this safety margin.
+> - IEC 62619, IS 16893 and UL 9540A set the relevant certification and fire-test benchmarks.
+
+Thermal runaway is uncontrolled self-heating of a battery cell, where rising temperature triggers exothermic chemical reactions that release additional heat, further increasing temperature in a positive feedback loop. Without intervention, thermal runaway leads to cell venting, fire and potential explosion. In [lithium-ion batteries](/glossary/lithium-ion-battery/), thermal runaway is the most serious safety concern.
 
 The chain reaction:
 1. Initial trigger (mechanical, electrical, thermal abuse)
@@ -81,7 +90,7 @@ The chain reaction:
 8. Ignition and propagation
 
 Different lithium chemistries have different thermal runaway thresholds:
-- LFP (Lithium Iron Phosphate): 270°C, safest commercial chemistry
+- [LFP](/glossary/lfp-battery/) (Lithium Iron Phosphate): 270°C, safest commercial chemistry
 - NMC (Nickel Manganese Cobalt): 150-180°C
 - LCO (Lithium Cobalt Oxide): 130-160°C
 - LTO (Lithium Titanate): Very stable, rare runaway
@@ -96,7 +105,7 @@ Insurance. Insurers assess thermal runaway risk.
 
 Installation. Indoor vs outdoor placement depends on risk.
 
-Cabinet design. Ventilation and fire suppression considerations.
+Cabinet design. Ventilation and fire suppression considerations for [BESS](/glossary/bess/) enclosures.
 
 Customer trust. Adoption depends on safety confidence.
 
@@ -159,7 +168,7 @@ Customer trust. Adoption depends on safety confidence.
 
 ## Real-world applications
 
-Battery cabinet safety design.
+Battery cabinet safety design, often planned alongside [battery and energy storage sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) during system design.
 
 Insurance underwriting.
 
@@ -171,11 +180,11 @@ Customer safety education.
 
 ## Best practices
 
-Use only IEC 62619 / IS 16893 certified cells.
+Use only [IEC 62619](/glossary/iec-62619/) / IS 16893 certified cells.
 
 Choose LFP for stationary residential storage; see [Lithium vs Lead-Acid Solar Battery, Honest Comparison for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/) for the safety and TCO case against lead acid.
 
-Implement BMS with temperature monitoring and cutoffs.
+Implement a [BMS](/glossary/bms/) with temperature monitoring and cutoffs.
 
 Maintain cabinet ambient below 30°C.
 
@@ -191,7 +200,7 @@ LFP dominates Indian residential and small commercial storage.
 
 ALMM and IS 16893 certification ensures basic safety.
 
-Major Indian brands (Goodwe Storage, Sungrow, Pylon Tech, BYD) ship LFP with BMS protection.
+Major Indian brands (Goodwe Storage, Sungrow, [Pylon Tech](/blog/pylontech-battery-india-review/), BYD) ship LFP with BMS protection.
 
 EV LFP adoption (Ola Electric, BYD) supported by safety profile.
 

@@ -5,7 +5,7 @@ description: "Irradiation is solar energy received over time. Full guide to unit
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-18
 keywords:
   - solar irradiation
   - irradiation units
@@ -68,6 +68,13 @@ author: "Akash Hirapara"
 
 ## What is irradiation
 
+> **TL;DR**
+> - Irradiation is solar energy received per unit area over time (kWh/m²), the integral of instantaneous [GHI](/glossary/ghi/)-style irradiance over a period.
+> - Indian daily irradiation runs 4.5-6.5 kWh/m²/day; annual irradiation spans 1,200 kWh/m²/year in the north-east to over 2,200 in Rajasthan and Ladakh.
+> - [Plane of array](/glossary/plane-of-array/) irradiation on a tilted module typically exceeds horizontal GHI by 5 to 15 percent at optimum tilt.
+> - Yield (kWh) scales directly with irradiation: Capacity × Irradiation × [Performance Ratio](/glossary/pr/) / G_STC.
+> - Bankable project finance uses multi-year ground-validated irradiation data with [P50 / P90](/glossary/p50-p90/) distributions to account for roughly ±5 percent inter-annual variability.
+
 Irradiation is the total solar energy received per unit area over a specified time period, expressed in kWh/m² or MJ/m². It is the time integral of irradiance (instantaneous power per area). Daily irradiation is typical for solar PV design; annual irradiation is the standard for resource benchmarking; hourly irradiation supports detailed yield modelling.
 
 For Indian solar, irradiation is the foundational measurement for resource assessment, yield prediction and plant siting. Daily irradiation in India averages 4.5-6.5 kWh/m²/day (varying by location and season). Annual irradiation ranges from 1,200 kWh/m²/year in the north-east to over 2,200 in western Rajasthan and Ladakh. See [Solar Irradiance Data India, State-Wise Peak Sun Hours](/blog/solar-irradiance-data-india-statewise/) for the full state-by-state GHI, DHI and DNI table.
@@ -88,10 +95,10 @@ Performance benchmarking. PR is normalised against irradiation.
 
 | Type | Description |
 |---|---|
-| GHI (Global Horizontal Irradiation) | On horizontal surface |
-| DNI (Direct Normal Irradiation) | On surface perpendicular to sun |
-| DHI (Diffuse Horizontal Irradiation) | Sky-scattered on horizontal |
-| POA (Plane of Array Irradiation) | On tilted module surface |
+| [GHI](/glossary/ghi/) (Global Horizontal Irradiation) | On horizontal surface |
+| [DNI](/glossary/dni/) (Direct Normal Irradiation) | On surface perpendicular to sun |
+| [DHI](/glossary/dhi/) (Diffuse Horizontal Irradiation) | Sky-scattered on horizontal |
+| [POA](/glossary/plane-of-array/) (Plane of Array Irradiation) | On tilted module surface |
 | GTI (Global Tilted Irradiation) | Same as POA |
 
 ## Technical deep dive
@@ -122,7 +129,7 @@ Performance benchmarking. PR is normalised against irradiation.
 
 ### POA vs GHI
 
-POA irradiation typically exceeds GHI for south-facing tilted modules:
+POA irradiation typically exceeds GHI for south-facing [tilt angle](/glossary/tilt-angle/)-optimised modules:
 - POA gain at optimum tilt: +5 to +15 percent over GHI
 - POA reduction at horizontal: 0% (POA = GHI)
 - POA reduction at flat south-facing wall: -50% to -70%
@@ -147,11 +154,11 @@ POA irradiation typically exceeds GHI for south-facing tilted modules:
 
 ## Real-world applications
 
-Solar plant siting.
+Solar plant siting, the same groundwork [SurgePV's shading analysis](https://surgepv.com/shadow-analysis/) tools use to translate raw irradiation data into a site-specific generation estimate.
 
 Bankable yield modelling.
 
-PR calculation.
+[PR](/glossary/pr/) calculation.
 
 PPA tariff inputs.
 
@@ -167,7 +174,7 @@ Cross-validate satellite data against ground stations.
 
 Document irradiation source in yield reports.
 
-Apply P50 and P90 distributions for project finance.
+Apply [P50 and P90](/glossary/p50-p90/) distributions for project finance.
 
 Account for inter-annual variability (typically ±5 percent).
 
@@ -181,7 +188,7 @@ Meteonorm and PVGIS used for residential and small commercial.
 
 SECI tender bids use validated multi-year irradiation.
 
-PM Surya Ghar residential uses location-based estimates.
+PM Surya Ghar residential uses location-based estimates, and homeowners comparing quotes can cross-check the assumed irradiation against [Heaven Green Energy's solar calculator](https://heavengreenenergy.com/solar-calculator/) before signing.
 
 ## Standards and certifications
 

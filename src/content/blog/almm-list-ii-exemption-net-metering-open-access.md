@@ -50,7 +50,7 @@ The chronology matters, because the current position is the product of several n
 | 28 Jul 2025 | MNRE reiteration | The 1 June 2026 cell requirement was confirmed, giving the market advance notice |
 | 25 May 2026 | MNRE OM 283/63/2025 | No blanket extension beyond 1 June 2026; only case-by-case relief for projects already in progress |
 | 01 Jun 2026 | ALMM List-II in force | Cell-level compliance became mandatory for newly commissioned net-metering and open-access projects |
-| 18 Jul 2026 | MNRE OM 283/53/2026 | Limited exemption window extended to 31 December 2026 for net-metering and open-access projects |
+| 18 Jul 2026 | MNRE Office Memorandum | Limited exemption window extended to 31 December 2026 for net-metering and open-access projects |
 | 31 Dec 2026 | Window closes | Projects commissioned from 1 January 2027 must comply with ALMM List-II in full |
 
 The single most important shift is psychological as much as regulatory. Before July, a developer holding non-compliant cell inventory faced an immediate wall on 1 June. Now there is a defined runway to 31 December 2026, which is enough to commission projects that are genuinely close to completion. The ministry has separately clarified how the cut-off reads for different site types, including that rooftop projects on government buildings commissioned before 1 June 2026 stay exempt while later ones must comply, as reported by [Saur Energy](https://www.saurenergy.com/solar-energy-news/mnre-clarifies-almm-cell-norms-for-rooftop-solar-projects-on-government-buildings-12138579). What has not changed is the destination. The ministry framed the window as a way to protect investments already made in module inventory while giving domestic cell manufacturers demand certainty to scale, and it was explicit that there would be no blanket extension of the policy for all solar projects. According to the [Ministry of New and Renewable Energy](https://mnre.gov.in/), strengthening domestic manufacturing remains the governing priority behind the whole sequence.
@@ -162,3 +162,15 @@ The projects most exposed to this deadline are the ones where every component ha
 ---
 
 The ALMM List-II exemption window is a reprieve with a fixed end, not a change of direction. The ministry has been consistent that domestic cell manufacturing is the destination, and the 31 December 2026 date is the last stretch of runway for net-metering and open-access projects to commission on the old terms. Developers and EPCs who run the 4-Gate ALMM List-II Commissioning Check now, confirm their category, protect their commissioning date, plan their sourcing, and document their progress, convert a policy deadline into a managed schedule. The ones who wait until December to check will find the window, and every DISCOM inspection slot behind it, already full.
+
+## Sources and Official Notices
+
+Every date, figure, and rule in this guide traces back to a primary MNRE notice or a named industry report. Verify the current position directly against these before acting on a live project, as the ministry updates the position through fresh notifications.
+
+- **[MNRE Approved List of Models and Manufacturers (ALMM) portal](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/)** — the master page for ALMM List-I, List-II, and the enlisted cell capacity figures.
+- **[MNRE Current Notices](https://mnre.gov.in/en/notice-category/current-notices/)** — where the 18 July 2026 notice on the limited exemption window till 31 December 2026 is published.
+- **[MNRE notice: no blanket extension of ALMM List-II beyond 01.06.2026](https://mnre.gov.in/en/notice/almm-no-blanket-extension-of-almm-list-ii-beyond-01-06-2026-subject-to-protection-of-investments-already-made/)** — the 25 May 2026 notice (OM 283/63/2025-GRID SOLAR) establishing the no-blanket-extension position and case-by-case relief.
+- **[Business Standard: government extends exemption for net-metering and open-access RE projects till December](https://www.business-standard.com/industry/news/govt-extends-exemption-for-net-metering-open-access-re-projects-till-dec-126071800902_1.html)** — reporting on the 18 July 2026 extension.
+- **[Mercom India: developers seek ALMM List-II extension, manufacturers push back](https://www.mercomindia.com/developers-seek-almm-list-ii-extension-solar-manufacturers-push-back)** — the module-versus-cell capacity gap and industry positions.
+- **[Saur Energy: MNRE clarifies ALMM cell norms for rooftop solar on government buildings](https://www.saurenergy.com/solar-energy-news/mnre-clarifies-almm-cell-norms-for-rooftop-solar-projects-on-government-buildings-12138579)** — clarification on how the cut-off reads for government-building rooftops.
+- **[National DCR Portal (NISE)](https://solardcrportal.nise.res.in/)** — the designated portal for case-by-case commissioning extension requests.

@@ -5,7 +5,7 @@ description: "Inverter efficiency is the ratio of AC output to DC input. Full gu
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P1"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - inverter efficiency
   - european weighted efficiency
@@ -146,7 +146,7 @@ Modern inverters operate at rated power up to 40-45°C ambient. Above this, outp
 
 ## Real-world applications
 
-Inverter selection on bankable yield models.
+Inverter selection on [bankable yield models](https://surgepv.com/hub/solar-designing/energy-simulation/).
 
 PR calculation at commissioning.
 

@@ -5,7 +5,7 @@ description: "Voltage is the electrical potential difference. Full guide to AC, 
 category: "Electrical Basics"
 categorySlug: "electrical-basics"
 priority: "P2"
-updatedDate: 2026-06-04
+updatedDate: 2026-07-08
 keywords:
   - what is voltage
   - voltage solar
@@ -151,7 +151,7 @@ This drives cable cross-section selection.
 
 ## Real-world applications
 
-Solar DC string design.
+[Solar DC string design](https://heavendesigns.in/solar-rooftop-detailed-engineering-design/).
 
 Inverter selection and sizing.
 

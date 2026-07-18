@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-07-18
 readTime: "18 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Qbits Editorial"
+author: "Nirav Dhanani"
 keywords:
   - almm list-ii exemption
   - almm list-ii solar cells

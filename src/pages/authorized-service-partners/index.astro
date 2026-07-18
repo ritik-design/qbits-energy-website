@@ -89,14 +89,6 @@ const supportTypes = [
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#049D65" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="asp-spin"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" opacity="0.3"/><path d="M21 12a9 9 0 00-9-9"/></svg>
             <p>Loading map…</p>
           </div>
-          <div class="asp-map-tools" id="aspMapTools" hidden>
-            <button id="aspNearMe" class="asp-nearme" type="button">
-              <svg class="asp-nearme-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/><circle cx="12" cy="12" r="8"/></svg>
-              <span id="aspNearMeLabel">Near Me</span>
-            </button>
-            <button id="aspShowAll" class="asp-showall" type="button" hidden>Show all India</button>
-            <p class="asp-map-note" id="aspMapNote" role="status" aria-live="polite" hidden></p>
-          </div>
           <div id="aspMap" role="application" aria-label="Map of authorized service partners across India. The partner list below contains the same information in accessible form."></div>
         </div>
 
@@ -242,59 +234,6 @@ const supportTypes = [
   @media (max-width: 640px) {
     #aspMapView { border-radius: 14px; box-shadow: 0 2px 16px rgba(0,0,0,0.08); }
     .asp-map-loading, #aspMap { height: 460px; }
-  }
-
-  /* ── Map tools (Near Me) ─────────────────── */
-  .asp-map-tools {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    left: 12px;
-    position: absolute;
-    top: 12px;
-    z-index: 5;
-    max-width: calc(100% - 24px);
-  }
-  .asp-nearme,
-  .asp-showall {
-    align-items: center;
-    background: #fff;
-    border: 1px solid #e2e8f0;
-    border-radius: 50px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.14);
-    color: #0f172a;
-    cursor: pointer;
-    display: inline-flex;
-    font-size: 13px;
-    font-weight: 600;
-    gap: 7px;
-    padding: 9px 16px;
-    transition: background 0.2s, color 0.2s, border-color 0.2s;
-  }
-  .asp-nearme:hover,
-  .asp-showall:hover { background: #f1f5f9; }
-  .asp-nearme.is-active {
-    background: #049D65;
-    border-color: #049D65;
-    color: #fff;
-  }
-  .asp-nearme[disabled] { cursor: default; opacity: 0.75; }
-  .asp-nearme.is-busy .asp-nearme-icon { animation: asp-spin 0.9s linear infinite; }
-  .asp-map-note {
-    background: rgba(15,23,42,0.86);
-    border-radius: 50px;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 500;
-    margin: 0;
-    padding: 7px 14px;
-  }
-  .asp-map-note[hidden] { display: none; }
-  @media (max-width: 640px) {
-    .asp-map-tools { left: 8px; top: 8px; gap: 6px; max-width: calc(100% - 16px); }
-    .asp-nearme, .asp-showall { font-size: 12px; padding: 8px 13px; }
-    .asp-map-note { font-size: 11px; padding: 6px 11px; }
   }
 
   /* ── Google Maps InfoWindow overrides ────── */
@@ -663,28 +602,20 @@ const supportTypes = [
 
   /* ── Map (Google Maps with region=IN so J&K renders as part of India) ── */
   const GMAPS_KEY = 'AIzaSyCi9epoAEzqNpsuLSIGACaojRdEmL1cLTI';
-  const NEAR_ME_RADIUS_KM = 50;
   const INDIA_CENTER = { lat: 22.5937, lng: 78.9629 };
+  // Zoom the map opens at once we've centred it on the visitor — regional scale,
+  // close enough to see nearby partners, far enough to zoom out for all of India.
+  const USER_FOCUS_ZOOM = 9;
 
   let gMap: any = null;
   let gInfoWindow: any = null;
   let gMarkers: any[] = [];
   let gUserMarker: any = null;
-  // Every partner from map-view, kept so "Near Me" can filter without a refetch.
+  // Every partner from map-view. All of them stay plotted at all times, so
+  // zooming out from the visitor's area always reveals the full national set.
   let allPartners: any[] = [];
-  // What's currently plotted: all partners, or the "Near Me" subset.
+  // What's currently plotted — always the full set; kept so drawMarkers can read it.
   let activeSet: any[] = [];
-
-  /* The map-view endpoint accepts latitude/longitude/radius but ignores them —
-     it returns the full partner set regardless. Distance filtering is ours. */
-  function distanceKm(lat1: number, lon1: number, lat2: number, lon2: number) {
-    const R = 6371;
-    const dLat = (lat2 - lat1) * Math.PI / 180;
-    const dLon = (lon2 - lon1) * Math.PI / 180;
-    const a = Math.sin(dLat / 2) ** 2 +
-      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
-    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  }
 
   function markerIcon(g: any) {
     const size = window.matchMedia('(max-width: 640px)').matches ? 32 : 40;
@@ -697,9 +628,6 @@ const supportTypes = [
 
   function popupHTML(item: any) {
     const img = photo(item.photo);
-    const dist = typeof item._distance === 'number'
-      ? `<p class="asp-popup-addr" style="margin-top:3px;color:#049D65;font-weight:600">${item._distance.toFixed(1)} km away</p>`
-      : '';
     return `
       <div class="asp-popup" style="position:relative">
         <img width="720" height="480" src="${img}" alt="${item.name || ''}" style="border-radius:8px;object-fit:cover;width:60px;height:60px;flex-shrink:0">
@@ -707,7 +635,6 @@ const supportTypes = [
           ${item.name ? `<p class="asp-popup-name">${item.name}</p>` : ''}
           ${item.company_name ? `<p class="asp-popup-company">${item.company_name}${item.designation ? ' · ' + item.designation : ''}</p>` : ''}
           ${item.address ? `<p class="asp-popup-addr">${item.address}${item.city_name ? ', ' + item.city_name : ''}${item.state_name ? ', ' + item.state_name : ''}</p>` : ''}
-          ${dist}
         </div>
         <div class="asp-popup-actions">
           ${item.whatsapp_no ? `<a href="https://wa.me/${item.whatsapp_no}" target="_blank" title="WhatsApp" rel="noopener noreferrer">${WA_SVG}</a>` : ''}
@@ -859,13 +786,11 @@ const supportTypes = [
         gMap.addListener('idle', drawMarkers);
       }
 
-      // Draw all-India first so there's always a usable map, then narrow to the
-      // visitor's area if they allow it. Avoids a blank map behind the prompt.
+      // Plot every partner up front so there's always a usable all-India map,
+      // then just re-centre on the visitor's area if they allow it. The plotted
+      // set never changes, so zooming back out always shows all of India.
       renderMarkers(allPartners, null);
-      if ('geolocation' in navigator) {
-        document.getElementById('aspMapTools')!.hidden = false;
-        autoLocate();
-      }
+      focusOnUser();
     } catch (e) {
       console.error('[asp] map load failed:', e);
       loading.classList.remove('asp-hidden');
@@ -873,17 +798,11 @@ const supportTypes = [
     }
   }
 
-  /* ── Near Me ────────────────────────────────── */
-  function note(msg: string) {
-    const el = document.getElementById('aspMapNote')!;
-    el.textContent = msg;
-    el.hidden = !msg;
-  }
-
+  /* ── Focus on the visitor's area ────────────── */
   function getPosition(): Promise<GeolocationPosition> {
     return new Promise((resolve, reject) =>
       navigator.geolocation.getCurrentPosition(resolve, reject, {
-        // Coarse is plenty for a 50km radius, and it resolves far faster than GPS.
+        // Coarse resolves far faster than GPS and is plenty to centre the map.
         enableHighAccuracy: false,
         timeout: 10000,
         maximumAge: 300000,
@@ -891,43 +810,23 @@ const supportTypes = [
     );
   }
 
-  function showAllIndia() {
-    const btn = document.getElementById('aspNearMe')!;
-    btn.classList.remove('is-active');
-    document.getElementById('aspShowAll')!.hidden = true;
-    document.getElementById('aspNearMeLabel')!.textContent = 'Near Me';
-    gUserMarker?.setMap(null);
-    gUserMarker = null;
-    note('');
-    renderMarkers(allPartners, null);
-  }
-
-  /* auto = fired on page load rather than by a click. It stays quiet on failure,
-     because a visitor who never asked for this shouldn't be shown an error. */
-  async function nearMe(auto = false) {
-    const btn = document.getElementById('aspNearMe') as HTMLButtonElement;
-    const label = document.getElementById('aspNearMeLabel')!;
-
-    btn.disabled = true;
-    btn.classList.add('is-busy');
-    label.textContent = 'Locating…';
-    note('');
+  /* On page load, centre the map on the visitor and drop a "you are here" pin so
+     nearby partners are front and centre. Every partner stays plotted, so the
+     visitor can just zoom out to see all of India. Silent on failure — someone
+     who never asked to be located shouldn't be shown an error. */
+  async function focusOnUser() {
+    if (!('geolocation' in navigator)) return;
+    try {
+      // Already refused before? Don't re-prompt or surface a pointless error.
+      const status = await (navigator as any).permissions?.query({ name: 'geolocation' });
+      if (status?.state === 'denied') return;
+    } catch { /* Permissions API unsupported — just try. */ }
 
     try {
       const pos = await getPosition();
       const me = { lat: pos.coords.latitude, lng: pos.coords.longitude };
-
-      const nearby = allPartners
-        .filter(p => p.latitude && p.longitude)
-        .map(p => ({ ...p, _distance: distanceKm(me.lat, me.lng, parseFloat(p.latitude), parseFloat(p.longitude)) }))
-        .filter(p => !Number.isNaN(p._distance) && p._distance <= NEAR_ME_RADIUS_KM)
-        .sort((a, b) => a._distance - b._distance);
-
-      // Nobody nearby: on auto-load keep the national view rather than dropping
-      // the visitor onto an empty map. On an explicit click, say so instead.
-      if (auto && !nearby.length) return;
-
       const g = (window as any).google;
+
       gUserMarker?.setMap(null);
       gUserMarker = new g.maps.Marker({
         position: me,
@@ -944,39 +843,12 @@ const supportTypes = [
         },
       });
 
-      renderMarkers(nearby, me);
-      btn.classList.add('is-active');
-      document.getElementById('aspShowAll')!.hidden = false;
-      note(nearby.length
-        ? `${nearby.length} partner${nearby.length === 1 ? '' : 's'} within ${NEAR_ME_RADIUS_KM} km`
-        : `No partners within ${NEAR_ME_RADIUS_KM} km — use “Show all India”.`);
-    } catch (e: any) {
-      // Denied, unavailable, or timed out — the all-India map stays as it was.
-      if (!auto) {
-        note(e?.code === 1
-          ? 'Location permission denied. Showing all partners across India.'
-          : 'Could not get your location. Showing all partners across India.');
-      }
-    } finally {
-      btn.disabled = false;
-      btn.classList.remove('is-busy');
-      label.textContent = 'Near Me';
-    }
+      // Re-centre only — activeSet stays as the full set, so zooming out reveals
+      // every partner. 'idle' fires after this and re-clusters for the new view.
+      gMap.setCenter(me);
+      gMap.setZoom(USER_FOCUS_ZOOM);
+    } catch { /* Denied, unavailable, or timed out — the all-India view stays. */ }
   }
-
-  /* Focus the map on the visitor's area as soon as the page opens. */
-  async function autoLocate() {
-    try {
-      // Already refused before? Don't re-prompt or surface a pointless error.
-      const status = await (navigator as any).permissions?.query({ name: 'geolocation' });
-      if (status?.state === 'denied') return;
-    } catch { /* Permissions API unsupported — just try. */ }
-    nearMe(true);
-  }
-
-  // Wrapped: a raw listener would pass the MouseEvent in as `auto`.
-  document.getElementById('aspNearMe')?.addEventListener('click', () => nearMe(false));
-  document.getElementById('aspShowAll')?.addEventListener('click', showAllIndia);
 
   function loadGoogleMaps(): Promise<void> {
     if ((window as any).google?.maps) return Promise.resolve();

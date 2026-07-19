@@ -38,6 +38,8 @@ Anyone managing a net-metering or open-access solar project through the second h
 
 The distinction that trips people up is that this is a cell-level rule, not a module-level or inverter-level one. The [ALMM framework](/glossary/almm-list/) has governed modules for years, but List-II pushes compliance one layer deeper into the supply chain. This guide is written for EPC installers and commercial and industrial buyers who need to know exactly what changed on 18 July 2026, who qualifies, and how to keep a project on the right side of the line.
 
+> **Read the official notification.** The full MNRE Office Memorandum No. 283/53/2026-GRID SOLAR, dated 18 July 2026, sets out the exemption window in the ministry's own words. Keep a copy on the project file for DISCOM queries. **[Download the ALMM List-II exemption OM (PDF)](https://www.heavengreenenergy.com/documents/mnre-almm-list-2-exemption-om-283-53-2026.pdf)**
+
 ## What the ALMM List-II Exemption Window Actually Changes
 
 The rule that came into force on 1 June 2026 was straightforward on paper: net-metering and open-access renewable energy projects commissioned on or after that date had to source modules from ALMM List-I and cells from ALMM List-II. In practice, domestic cell supply was not ready for that switch across every technology, and developers with modules already built on non-approved cells faced stranded inventory. The July 2026 office memorandum resolves the near-term pressure without abandoning the policy: it extends the exemption to 31 December 2026 for the two named categories, then holds the line.
@@ -50,8 +52,10 @@ The chronology matters, because the current position is the product of several n
 | 28 Jul 2025 | MNRE reiteration | The 1 June 2026 cell requirement was confirmed, giving the market advance notice |
 | 25 May 2026 | MNRE OM 283/63/2025 | No blanket extension beyond 1 June 2026; only case-by-case relief for projects already in progress |
 | 01 Jun 2026 | ALMM List-II in force | Cell-level compliance became mandatory for newly commissioned net-metering and open-access projects |
-| 18 Jul 2026 | MNRE Office Memorandum | Limited exemption window extended to 31 December 2026 for net-metering and open-access projects |
+| 18 Jul 2026 | MNRE OM 283/53/2026 | Limited exemption window extended to 31 December 2026 for net-metering and open-access projects |
 | 31 Dec 2026 | Window closes | Projects commissioned from 1 January 2027 must comply with ALMM List-II in full |
+
+> **Get the source document.** The 18 July 2026 memorandum supersedes the 25 May 2026 order and confirms the 31 December 2026 commissioning window in full. **[Download the full memorandum (PDF, 562 KB)](https://www.heavengreenenergy.com/documents/mnre-almm-list-2-exemption-om-283-53-2026.pdf)**
 
 The single most important shift is psychological as much as regulatory. Before July, a developer holding non-compliant cell inventory faced an immediate wall on 1 June. Now there is a defined runway to 31 December 2026, which is enough to commission projects that are genuinely close to completion. The ministry has separately clarified how the cut-off reads for different site types, including that rooftop projects on government buildings commissioned before 1 June 2026 stay exempt while later ones must comply, as reported by [Saur Energy](https://www.saurenergy.com/solar-energy-news/mnre-clarifies-almm-cell-norms-for-rooftop-solar-projects-on-government-buildings-12138579). What has not changed is the destination. The ministry framed the window as a way to protect investments already made in module inventory while giving domestic cell manufacturers demand certainty to scale, and it was explicit that there would be no blanket extension of the policy for all solar projects. According to the [Ministry of New and Renewable Energy](https://mnre.gov.in/), strengthening domestic manufacturing remains the governing priority behind the whole sequence.
 
@@ -167,6 +171,7 @@ The ALMM List-II exemption window is a reprieve with a fixed end, not a change o
 
 Every date, figure, and rule in this guide traces back to a primary MNRE notice or a named industry report. Verify the current position directly against these before acting on a live project, as the ministry updates the position through fresh notifications.
 
+- **[MNRE Office Memorandum No. 283/53/2026-GRID SOLAR, dated 18 July 2026 (PDF)](https://www.heavengreenenergy.com/documents/mnre-almm-list-2-exemption-om-283-53-2026.pdf)** — the primary notification establishing the limited exemption window till 31 December 2026 for net-metering and open-access projects.
 - **[MNRE Approved List of Models and Manufacturers (ALMM) portal](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/)** — the master page for ALMM List-I, List-II, and the enlisted cell capacity figures.
 - **[MNRE Current Notices](https://mnre.gov.in/en/notice-category/current-notices/)** — where the 18 July 2026 notice on the limited exemption window till 31 December 2026 is published.
 - **[MNRE notice: no blanket extension of ALMM List-II beyond 01.06.2026](https://mnre.gov.in/en/notice/almm-no-blanket-extension-of-almm-list-ii-beyond-01-06-2026-subject-to-protection-of-investments-already-made/)** — the 25 May 2026 notice (OM 283/63/2025-GRID SOLAR) establishing the no-blanket-extension position and case-by-case relief.

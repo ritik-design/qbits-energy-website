@@ -1,0 +1,116 @@
+---
+import { latestEvent } from '../../data/events';
+
+interface Props {
+  /** Max photos to show. Omit to show every photo for the event. */
+  limit?: number;
+  /** Show the "See all photos" link through to /events. */
+  showLink?: boolean;
+  /** Section background. Defaults to white. */
+  background?: 'white' | 'slate';
+  /** Render as <h1> on the dedicated events page. */
+  headingLevel?: 'h1' | 'h2';
+}
+
+const {
+  limit,
+  showLink = false,
+  background = 'white',
+  headingLevel = 'h2',
+} = Astro.props;
+
+const event = latestEvent;
+const photos = limit ? event.photos.slice(0, limit) : event.photos;
+const hasMore = photos.length < event.photos.length;
+
+const Heading = headingLevel;
+const sectionBg = background === 'slate' ? 'bg-slate-50' : 'bg-white';
+---
+
+<section
+  class:list={['py-20 sm:py-28 lg:py-36', sectionBg]}
+  aria-labelledby="events-heading"
+>
+  <div class="container-main">
+    <div class="text-center max-w-3xl mx-auto mb-14">
+      <span class="section-label justify-center">
+        <span class="w-8 h-px bg-brand-500"></span>
+        Event Highlights
+      </span>
+      <Heading
+        id="events-heading"
+        class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-6 leading-tight"
+      >
+        Meet Qbits <span class="text-gradient">On The Ground</span>
+      </Heading>
+      <p class="text-slate-600 leading-relaxed mt-6">{event.summary}</p>
+
+      <!-- Event meta: the specifics are what make the photos read as real -->
+      <div
+        class="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 mt-8 text-sm text-slate-500"
+      >
+        <span class="inline-flex items-center gap-2 font-semibold text-slate-900">
+          <svg class="w-4 h-4 text-brand-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4" />
+          </svg>
+          {event.name}
+        </span>
+        <span class="inline-flex items-center gap-2">
+          <svg class="w-4 h-4 text-brand-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3M3 11h18M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          <time datetime={event.startDate}>{event.dates}</time>
+        </span>
+        <span class="inline-flex items-center gap-2">
+          <svg class="w-4 h-4 text-brand-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          {event.venue}, {event.city}
+        </span>
+      </div>
+    </div>
+
+    <!--
+      Flex rather than grid: photo counts that aren't a multiple of 3 leave a
+      stranded tile on the last row under `grid`. Flex-wrap + justify-center
+      centres the remainder instead.
+    -->
+    <ul class="flex flex-wrap justify-center gap-6 list-none p-0 m-0">
+      {photos.map((photo, i) => (
+        <li class="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]">
+          <figure class="group m-0">
+            <div class="relative rounded-2xl overflow-hidden bg-slate-100 aspect-[4/3] ring-1 ring-slate-900/5">
+              <img
+                src={photo.image}
+                alt={photo.alt}
+                width="1000"
+                height="750"
+                loading={i < 3 ? 'eager' : 'lazy'}
+                decoding="async"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            <figcaption class="text-sm text-slate-600 leading-relaxed mt-3">
+              {photo.caption}
+            </figcaption>
+          </figure>
+        </li>
+      ))}
+    </ul>
+
+    {showLink && hasMore && (
+      <div class="text-center mt-12">
+        <a
+          href="/events"
+          class="inline-flex items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors"
+        >
+          See all photos from {event.shortName}
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    )}
+  </div>
+</section>

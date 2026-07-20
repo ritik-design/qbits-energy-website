@@ -1,0 +1,85 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HeaderV2 from '../../components/HeaderV2.astro';
+import Footer from '../../components/Footer.astro';
+import PageHeader from '../../components/ui/PageHeader.astro';
+import EventGallery from '../../components/home/EventGallery.astro';
+import { eventsByRecency, latestEvent } from '../../data/events';
+
+const SITE = 'https://qbitsenergy.com';
+
+// Event structured data — helps these show up as rich results.
+const eventSchema = eventsByRecency.map((event) => ({
+  '@context': 'https://schema.org',
+  '@type': 'ExhibitionEvent',
+  name: event.name,
+  startDate: event.startDate,
+  endDate: event.endDate,
+  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+  eventStatus: 'https://schema.org/EventScheduled',
+  location: {
+    '@type': 'Place',
+    name: event.venue,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: event.city,
+      addressRegion: event.state,
+      addressCountry: 'IN',
+    },
+  },
+  image: event.photos.slice(0, 3).map((p) => `${SITE}${p.image}`),
+  description: event.summary,
+  performer: {
+    '@type': 'Organization',
+    name: 'Qbits Energy',
+    url: SITE,
+  },
+}));
+---
+
+<Layout
+  title="Events & Exhibitions | Qbits Energy"
+  description="Photos from the solar trade shows and exhibitions where Qbits Energy exhibits — including Global Solar Expo Varanasi 2026. Meet our team and see our inverters in person."
+  canonical="/events/"
+  ogImage={latestEvent.photos[0].image}
+>
+  <HeaderV2 />
+
+  <main id="main-content">
+    <PageHeader
+      label="Events & Exhibitions"
+      title="Where You Can"
+      highlight="Meet Us"
+      description="We show up at India's solar trade shows with the full product range and the engineers who built it. Here is where we have been."
+      bgImage={latestEvent.photos[0].image}
+      centered
+    />
+
+    <EventGallery background="white" />
+
+    <!-- Invitation to meet at the next show -->
+    <section class="py-20 sm:py-28 bg-slate-950" aria-labelledby="meet-heading">
+      <div class="container-main text-center max-w-2xl">
+        <h2 id="meet-heading" class="text-3xl sm:text-4xl font-bold text-white leading-tight">
+          Exhibiting Near You?
+        </h2>
+        <p class="text-slate-400 leading-relaxed mt-6">
+          Tell us where you're based and we'll let you know when the Qbits team is
+          at a show nearby, or arrange a product walkthrough at your office instead.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 mt-10">
+          <a href="/contact-us/" class="btn-primary">Get In Touch</a>
+          <a href="/become-our-partner/" class="btn-outline">Become A Partner</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify(eventSchema)}
+    is:inline
+  />
+</Layout>

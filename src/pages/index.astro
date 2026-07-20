@@ -19,6 +19,7 @@ import Certifications from '../components/home/Certifications.astro';
 import ServiceNetwork from '../components/home/ServiceNetwork.astro';
 import CompanyStats from '../components/home/CompanyStats.astro';
 import SuccessStories from '../components/home/SuccessStories.astro';
+import EventGallery from '../components/home/EventGallery.astro';
 import Resources from '../components/home/Resources.astro';
 import DealerProgram from '../components/home/DealerProgram.astro';
 import FinalCTA from '../components/home/FinalCTA.astro';
@@ -78,13 +79,16 @@ import FinalCTA from '../components/home/FinalCTA.astro';
     <!-- 14. Success Stories -->
     <SuccessStories />
 
-    <!-- 15. Dealer Program -->
+    <!-- 15. Event Highlights -->
+    <EventGallery limit={6} showLink background="white" />
+
+    <!-- 16. Dealer Program -->
     <DealerProgram />
 
-    <!-- 16. Resources -->
+    <!-- 17. Resources -->
     <Resources />
 
-    <!-- 17. Final CTA -->
+    <!-- 18. Final CTA -->
     <FinalCTA />
   </main>
 

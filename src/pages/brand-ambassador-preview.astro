@@ -1,0 +1,69 @@
+---
+// Internal preview page — noindexed. Compare all brand ambassador section designs
+// side by side, pick one, then move the chosen component into index.astro and
+// delete this page.
+import Layout from '../layouts/Layout.astro';
+import HeaderV2 from '../components/HeaderV2.astro';
+import Footer from '../components/Footer.astro';
+
+import AmbassadorSplitDark from '../components/brand-ambassador/AmbassadorSplitDark.astro';
+import AmbassadorBanner from '../components/brand-ambassador/AmbassadorBanner.astro';
+import AmbassadorQuote from '../components/brand-ambassador/AmbassadorQuote.astro';
+import AmbassadorBento from '../components/brand-ambassador/AmbassadorBento.astro';
+import AmbassadorStrip from '../components/brand-ambassador/AmbassadorStrip.astro';
+
+const variants = [
+  { n: 1, title: 'Cinematic Split (Dark)', note: 'Standalone announcement below the hero, or hero of a dedicated page.' },
+  { n: 2, title: 'Full-Bleed Banner', note: 'Campaign-scale. Needs one strong wide photo.' },
+  { n: 3, title: 'Editorial Quote (Light)', note: 'Calm and premium. Blends into the light homepage sections.' },
+  { n: 4, title: 'Bento Gallery', note: 'Use when there are 5+ shoot photos to show.' },
+  { n: 5, title: 'Compact Strip', note: 'Slim and reusable across product / dealer pages.' },
+];
+---
+
+<Layout title="Brand Ambassador — Design Preview" noindex>
+  <HeaderV2 />
+
+  <main id="main-content">
+    <div class="bg-slate-100 pt-32 pb-16">
+      <div class="container-main">
+        <p class="text-xs font-bold uppercase tracking-[0.25em] text-slate-500">Internal Preview · Not Indexed</p>
+        <h1 class="mt-4 text-4xl sm:text-5xl font-bold text-slate-900">Brand Ambassador Sections</h1>
+        <p class="mt-4 max-w-2xl text-slate-600">
+          Five designs, all using placeholder images from <code class="rounded bg-white px-1.5 py-0.5 text-sm">/public/brand-ambassador/</code>.
+          Replace those files with the real photos (same filenames, same aspect ratios) and every
+          variant updates at once.
+        </p>
+        <ol class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {variants.map((v) => (
+            <li>
+              <a href={`#variant-${v.n}`} class="block rounded-xl border border-slate-200 bg-white p-4 transition-colors hover:border-brand-500">
+                <p class="text-sm font-bold text-slate-900">{v.n}. {v.title}</p>
+                <p class="mt-1 text-xs text-slate-500">{v.note}</p>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </div>
+
+    {variants.map((v) => (
+      <div id={`variant-${v.n}`} class="border-y border-dashed border-slate-300 bg-slate-900 py-3">
+        <div class="container-main">
+          <p class="text-xs font-bold uppercase tracking-[0.25em] text-brand-400">
+            Variant {v.n} — {v.title}
+          </p>
+        </div>
+      </div>
+      <Fragment>
+        {v.n === 1 && <AmbassadorSplitDark />}
+        {v.n === 2 && <AmbassadorBanner />}
+        {v.n === 3 && <AmbassadorQuote />}
+        {v.n === 4 && <AmbassadorBento />}
+        {v.n === 5 && <AmbassadorStrip />}
+      </Fragment>
+    ))}
+  </main>
+
+  <Footer />
+</Layout>

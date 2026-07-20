@@ -4,6 +4,7 @@ import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 import EventGallery from '../../components/home/EventGallery.astro';
+import AmbassadorTeam from '../../components/brand-ambassador/AmbassadorTeam.astro';
 
 const milestones = [
   { year: '2016', title: 'Heaven Green Energy Founded', desc: 'Started solar EPC and installation services across Gujarat.' },
@@ -328,6 +329,9 @@ const differentiators = [
         </div>
       </div>
     </section>
+
+    <!-- Brand Ambassador -->
+    <AmbassadorTeam />
 
     <!-- Event Highlights -->
     <EventGallery limit={6} showLink background="white" />

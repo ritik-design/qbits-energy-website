@@ -1,19 +1,28 @@
 ---
+// Background slides cross-fade behind the hero copy. First slide is eager +
+// high priority (it is the LCP image); the rest lazy-load.
+const slides = [
+  { src: '/homepage/hero-dilip-joshi.webp', alt: 'Dilip Joshi, Qbits Energy brand ambassador, holding a Qbits solar inverter' },
+  { src: '/homepage/qbits-hero.webp', alt: 'Qbits solar inverter installation' },
+];
 ---
 
 <section class="relative md:min-h-screen md:flex md:items-center overflow-hidden bg-slate-950" aria-labelledby="hero-heading">
-  <!-- Desktop: full-width background image -->
-  <div class="absolute inset-0 hidden md:block">
-    <img
-      src="/homepage/qbits-hero.webp"
-      alt="Qbits solar inverter installation"
-      width="1920"
-      height="1080"
-      class="hero-bg w-full h-full object-cover object-bottom scale-[1.05] origin-bottom"
-      loading="eager"
-      fetchpriority="high"
-      decoding="async"
-    />
+  <!-- Desktop: full-width background slider -->
+  <div class="absolute inset-0 hidden md:block" aria-hidden="true">
+    {slides.map((slide, i) => (
+      <img
+        src={slide.src}
+        alt={slide.alt}
+        width="1920"
+        height="1080"
+        class="hero-slide absolute inset-0 w-full h-full object-cover object-bottom scale-[1.05] origin-bottom"
+        style={`animation-delay: ${i * 6}s;`}
+        loading={i === 0 ? 'eager' : 'lazy'}
+        fetchpriority={i === 0 ? 'high' : 'auto'}
+        decoding="async"
+      />
+    ))}
   </div>
 
   <!-- Floating particles effect (desktop only) -->
@@ -69,6 +78,34 @@
       />
     </div>
   </div>
+
+  <style>
+    /* Two-slide cross-fade. Each slide is visible for ~6s of the 12s cycle,
+       with a 1s overlap so neither the copy nor the page background flashes. */
+    .hero-slide {
+      opacity: 0;
+      animation: hero-slide-fade 12s linear infinite;
+    }
+
+    @keyframes hero-slide-fade {
+      0%    { opacity: 1; }
+      42%   { opacity: 1; }
+      50%   { opacity: 0; }
+      92%   { opacity: 0; }
+      100%  { opacity: 1; }
+    }
+
+    /* No motion: show the first slide only, held still. */
+    @media (prefers-reduced-motion: reduce) {
+      .hero-slide {
+        animation: none;
+        opacity: 0;
+      }
+      .hero-slide:first-child {
+        opacity: 1;
+      }
+    }
+  </style>
 
   <!-- Scroll indicator (desktop only) -->
   <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 hidden md:flex flex-col items-center gap-2">

@@ -1,0 +1,70 @@
+---
+// Variant 2 — Full-bleed cinematic banner
+// Big, campaign-style. Works well as a page opener or as a break between two
+// dense content sections.
+const {
+  image = '/brand-ambassador/banner-wide.webp',
+  name = 'Dilip Joshi',
+} = Astro.props;
+---
+
+<section class="relative isolate min-h-[36rem] lg:min-h-[42rem] overflow-hidden bg-slate-950" aria-labelledby="amb-banner-heading">
+  <img
+    src={image}
+    alt={`${name} announced as Brand Ambassador of Qbits Energy`}
+    width="2400"
+    height="1200"
+    class="absolute inset-0 h-full w-full object-cover"
+    loading="lazy"
+  />
+
+  <!-- Legibility scrims -->
+  <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-950/20" aria-hidden="true"></div>
+  <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-slate-950/40" aria-hidden="true"></div>
+
+  <div class="container-main relative z-10 flex min-h-[36rem] lg:min-h-[42rem] items-center py-20">
+    <div class="max-w-2xl">
+      <span class="section-label text-brand-400">
+        <span class="h-px w-8 bg-brand-500"></span>
+        Brand Ambassador
+      </span>
+
+      <h2 id="amb-banner-heading" class="mt-6 text-5xl sm:text-6xl lg:text-7xl font-bold leading-[0.95] text-white">
+        {name}
+      </h2>
+
+      <p class="mt-6 text-xl sm:text-2xl font-medium text-white/80">
+        Now the face of <span class="text-gradient font-bold">Qbits Energy</span>
+      </p>
+
+      <p class="mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-slate-300">
+        India knows the name. India trusts the name. And from today, that name stands
+        alongside the solar inverters powering homes and businesses across the country.
+      </p>
+
+      <div class="mt-10 flex flex-wrap items-center gap-x-10 gap-y-6 border-t border-white/15 pt-8">
+        <div>
+          <p class="text-3xl font-bold text-white">10,000+</p>
+          <p class="mt-1 text-xs uppercase tracking-[0.18em] text-slate-400">Installations</p>
+        </div>
+        <div>
+          <p class="text-3xl font-bold text-white">8 + 4 Yr</p>
+          <p class="mt-1 text-xs uppercase tracking-[0.18em] text-slate-400">Warranty</p>
+        </div>
+        <div>
+          <p class="text-3xl font-bold text-white">98.8%</p>
+          <p class="mt-1 text-xs uppercase tracking-[0.18em] text-slate-400">Efficiency</p>
+        </div>
+      </div>
+
+      <div class="mt-10">
+        <a href="/our-products/" class="btn-primary">
+          See The Range
+          <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

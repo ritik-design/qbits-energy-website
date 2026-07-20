@@ -1,0 +1,100 @@
+---
+// Variant 1 — Cinematic split announcement (dark)
+// Best as a standalone section right below the homepage hero, or as the hero of a
+// dedicated /brand-ambassador page.
+const {
+  image = '/brand-ambassador/portrait-cutout.webp',
+  name = 'Dilip Joshi',
+} = Astro.props;
+
+const points = [
+  'A household name trusted across every Indian home',
+  'The same reliability people expect from Qbits inverters',
+  'Bringing solar confidence to Tier 2 & Tier 3 India',
+];
+---
+
+<section class="relative overflow-hidden bg-slate-950 py-20 sm:py-28 lg:py-32" aria-labelledby="amb-split-heading">
+  <!-- Ambient background -->
+  <div class="absolute inset-0" aria-hidden="true">
+    <div class="absolute -top-40 -right-32 w-[36rem] h-[36rem] rounded-full bg-brand-500/15 blur-[120px]"></div>
+    <div class="absolute -bottom-56 -left-40 w-[32rem] h-[32rem] rounded-full bg-accent/10 blur-[120px]"></div>
+    <div
+      class="absolute inset-0 opacity-[0.07]"
+      style="background-image:linear-gradient(to right,#fff 1px,transparent 1px),linear-gradient(to bottom,#fff 1px,transparent 1px);background-size:72px 72px;"
+    ></div>
+  </div>
+
+  <div class="container-main relative z-10">
+    <div class="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+      <!-- Copy -->
+      <div>
+        <span class="inline-flex items-center gap-3 rounded-full border border-brand-500/30 bg-brand-500/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.22em] text-brand-300">
+          <span class="relative flex h-2 w-2">
+            <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-400 opacity-75"></span>
+            <span class="relative inline-flex h-2 w-2 rounded-full bg-brand-400"></span>
+          </span>
+          Now Announcing
+        </span>
+
+        <h2 id="amb-split-heading" class="mt-7 text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.05]">
+          Meet Our New<br />
+          <span class="text-gradient">Brand Ambassador</span>
+        </h2>
+
+        <p class="mt-4 text-2xl sm:text-3xl font-semibold text-white/90">{name}</p>
+
+        <p class="mt-6 max-w-lg text-base sm:text-lg text-slate-400 leading-relaxed">
+          Trust is not something you can advertise — it is something you earn, year after year.
+          That is exactly what {name} has done with Indian families, and exactly what Qbits Energy
+          does with every inverter that leaves our factory.
+        </p>
+
+        <ul class="mt-9 space-y-4">
+          {points.map((point) => (
+            <li class="flex items-start gap-3">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-500/20">
+                <svg class="h-3.5 w-3.5 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
+                </svg>
+              </span>
+              <span class="text-sm sm:text-base text-slate-300">{point}</span>
+            </li>
+          ))}
+        </ul>
+
+        <div class="mt-11 flex flex-wrap items-center gap-4">
+          <a href="/our-products/" class="btn-primary">
+            Explore Qbits Inverters
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+          <a href="/become-our-partner/" class="btn-outline">Become A Partner</a>
+        </div>
+      </div>
+
+      <!-- Portrait -->
+      <div class="relative">
+        <div class="absolute inset-x-6 bottom-0 top-10 rounded-[2.5rem] bg-gradient-to-t from-brand-500/25 to-transparent blur-2xl" aria-hidden="true"></div>
+        <div class="relative overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900">
+          <img
+            src={image}
+            alt={`${name}, Brand Ambassador of Qbits Energy`}
+            width="1000"
+            height="1250"
+            class="w-full h-auto object-cover"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/10 to-transparent" aria-hidden="true"></div>
+
+          <!-- Name plate -->
+          <div class="absolute inset-x-6 bottom-6 rounded-2xl border border-white/10 bg-white/10 p-5 backdrop-blur-xl">
+            <p class="text-lg font-bold text-white">{name}</p>
+            <p class="mt-0.5 text-xs uppercase tracking-[0.18em] text-brand-300">Brand Ambassador · Qbits Energy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

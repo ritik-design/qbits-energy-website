@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
+import AmbassadorDealer from '../../components/brand-ambassador/AmbassadorDealer.astro';
 
 const businessTypes = ['Dealer', 'Distributor', 'EPC', 'System Integrator'];
 const officeTypes = ['Owned', 'Rented'];
@@ -284,6 +285,9 @@ const yesNo = ['Yes', 'No'];
         </div>
       </div>
     </section>
+
+    <!-- Brand Ambassador -->
+    <AmbassadorDealer />
 
     <!-- Why Partner -->
     <section class="section-padding bg-white" aria-labelledby="why-partner-heading">

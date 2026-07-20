@@ -4,6 +4,7 @@ import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 import { getProductsByCategory } from '../../data/products';
+import AmbassadorProduct from '../../components/brand-ambassador/AmbassadorProduct.astro';
 
 const onGridProducts = getProductsByCategory('on-grid');
 const singlePhase = onGridProducts.filter(p => p.phase === 'single');
@@ -222,6 +223,12 @@ const onGridSchema = {
         </div>
       </div>
     </section>
+
+    <!-- Brand Ambassador -->
+    <AmbassadorProduct
+      product="Qbits on-grid inverter"
+      image="/brand-ambassador/product-dilip-joshi.webp"
+    />
 
     <!-- CTA -->
     <section class="py-24 lg:py-32 bg-slate-950 relative overflow-hidden">

@@ -10,8 +10,8 @@ const highlights = [
 <section class="py-20 sm:py-28 lg:py-36 bg-white overflow-hidden" aria-labelledby="about-heading">
   <div class="container-main">
     <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-      <!-- Left: Content -->
-      <div class="order-2 lg:order-1">
+      <!-- Right: Content -->
+      <div class="order-2 lg:order-2">
         <span class="section-label">
           <span class="w-8 h-px bg-brand-500"></span>
           About Us
@@ -48,20 +48,17 @@ const highlights = [
         </div>
       </div>
 
-      <!-- Right: Video -->
-      <div class="order-1 lg:order-2 relative">
-        <div class="rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
-          <video
+      <!-- Left: Team with brand ambassador (sticks while the copy scrolls past) -->
+      <div class="order-1 lg:order-1 relative lg:sticky lg:top-28 lg:self-start">
+        <div class="rounded-3xl overflow-hidden shadow-2xl bg-slate-900">
+          <img
+            src="/brand-ambassador/team-dilip-joshi.webp"
+            alt="The Qbits Energy team with brand ambassador Dilip Joshi"
+            width="1535"
+            height="1024"
             class="w-full h-auto block"
-            src="/about-video.mp4"
-            autoplay
-            muted
-            loop
-            playsinline
-            preload="metadata"
-            poster="/images/features.webp"
-            style="aspect-ratio: 4/3; object-fit: cover;"
-          ></video>
+            loading="lazy"
+          />
         </div>
         <div class="absolute -inset-4 bg-brand-500/5 rounded-[2rem] blur-3xl -z-10"></div>
       </div>

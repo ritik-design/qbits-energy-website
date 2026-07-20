@@ -1,0 +1,59 @@
+---
+// Variant 4 — Bento gallery grid
+// Use when there are several campaign / shoot photos to show at once.
+const { name = 'Dilip Joshi' } = Astro.props;
+
+const shots = [
+  { src: '/brand-ambassador/landscape-1.webp', alt: 'Campaign shoot', span: 'sm:col-span-2 sm:row-span-2', ratio: 'aspect-[4/3]' },
+  { src: '/brand-ambassador/square-1.webp', alt: 'Portrait moment', span: '', ratio: 'aspect-square' },
+  { src: '/brand-ambassador/portrait-2.webp', alt: 'Studio portrait', span: 'sm:row-span-2', ratio: 'aspect-[3/4] sm:aspect-auto sm:h-full' },
+  { src: '/brand-ambassador/square-2.webp', alt: 'Behind the scenes', span: '', ratio: 'aspect-square' },
+  { src: '/brand-ambassador/landscape-2.webp', alt: 'With the Qbits team', span: 'sm:col-span-2', ratio: 'aspect-[16/9]' },
+];
+---
+
+<section class="section-padding bg-white" aria-labelledby="amb-bento-heading">
+  <div class="container-main">
+    <div class="mb-14 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+      <div class="max-w-2xl">
+        <span class="section-label">
+          <span class="h-px w-8 bg-brand-500"></span>
+          The Announcement
+        </span>
+        <h2 id="amb-bento-heading" class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-slate-900">
+          {name} Joins <span class="text-gradient">Qbits Energy</span>
+        </h2>
+        <p class="mt-5 text-base sm:text-lg leading-relaxed text-slate-600">
+          Moments from the day we welcomed our new brand ambassador — and the beginning of a
+          campaign built on the one thing Indian households care about most: dependability.
+        </p>
+      </div>
+
+      <a href="/events/" class="inline-flex shrink-0 items-center gap-2 rounded-full border-2 border-slate-200 px-7 py-3.5 text-sm font-semibold text-slate-700 transition-all duration-300 hover:border-brand-500 hover:text-brand-600">
+        View All Moments
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 sm:auto-rows-[13rem]">
+      {shots.map((shot) => (
+        <figure class={`group relative overflow-hidden rounded-2xl bg-slate-100 ${shot.span}`}>
+          <img
+            src={shot.src}
+            alt={`${name} — ${shot.alt}`}
+            width="1600"
+            height="1000"
+            class={`h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 ${shot.ratio}`}
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" aria-hidden="true"></div>
+          <figcaption class="absolute bottom-4 left-4 translate-y-2 text-sm font-medium text-white opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+            {shot.alt}
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>

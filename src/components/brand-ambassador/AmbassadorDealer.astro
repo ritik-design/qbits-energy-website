@@ -1,0 +1,90 @@
+---
+// Dealer / partner page — "sell a brand India already knows".
+// Argument is aimed at the dealer's own risk, not at the homeowner.
+const {
+  image = '/brand-ambassador/portrait-1.webp',
+  name = 'Dilip Joshi',
+} = Astro.props;
+
+const proof = [
+  {
+    title: 'Recognition before you speak',
+    desc: 'Your customer already knows the face on the brochure. The trust conversation starts halfway done.',
+  },
+  {
+    title: 'Campaign assets you can use',
+    desc: 'Co-branded standees, posters, and social creatives featuring our brand ambassador, free for active partners.',
+  },
+  {
+    title: 'A brand that invests in demand',
+    desc: 'National-level brand building means warmer leads walking into your showroom, not just cold quotations.',
+  },
+];
+---
+
+<section class="relative overflow-hidden bg-slate-950 py-20 sm:py-28" aria-labelledby="amb-dealer-heading">
+  <div class="absolute inset-0" aria-hidden="true">
+    <div class="absolute -right-40 -top-32 h-[30rem] w-[30rem] rounded-full bg-brand-500/15 blur-[110px]"></div>
+    <div class="absolute -bottom-40 -left-32 h-96 w-96 rounded-full bg-accent/10 blur-[110px]"></div>
+  </div>
+
+  <div class="container-main relative z-10">
+    <div class="grid items-center gap-12 lg:grid-cols-12 lg:gap-16">
+      <!-- Portrait -->
+      <div class="lg:col-span-4">
+        <div class="relative mx-auto max-w-sm">
+          <div class="overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900">
+            <img
+              src={image}
+              alt={`${name}, Brand Ambassador of Qbits Energy, holding a Qbits solar inverter`}
+              width="1200"
+              height="1600"
+              class="h-auto w-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div class="absolute -bottom-5 -right-4 hidden rounded-2xl bg-brand-500 px-5 py-3.5 shadow-lg shadow-brand-500/30 sm:block">
+            <p class="text-[0.65rem] font-bold uppercase tracking-[0.18em] text-white/80">Brand Ambassador</p>
+            <p class="mt-0.5 text-base font-bold text-white">{name}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copy -->
+      <div class="lg:col-span-8">
+        <span class="section-label text-brand-400">
+          <span class="h-px w-8 bg-brand-500"></span>
+          Brand Ambassador
+        </span>
+
+        <h2 id="amb-dealer-heading" class="mt-6 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-white">
+          Sell A Brand India <span class="text-gradient">Already Trusts</span>
+        </h2>
+
+        <p class="mt-6 max-w-2xl text-base sm:text-lg leading-relaxed text-slate-400">
+          When you put your name behind an inverter, you are lending your customer your own
+          reputation. {name} now stands behind Qbits Energy, so that is one less thing you
+          have to argue for.
+        </p>
+
+        <div class="mt-10 grid gap-5 sm:grid-cols-3">
+          {proof.map((item) => (
+            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+              <h3 class="text-sm font-bold text-white">{item.title}</h3>
+              <p class="mt-2 text-xs leading-relaxed text-slate-400">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="mt-10">
+          <a href="#partner-form" class="btn-primary">
+            Apply To Become A Partner
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

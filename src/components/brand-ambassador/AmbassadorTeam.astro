@@ -1,0 +1,61 @@
+---
+// About Us page — the team photo told as a company moment, sitting naturally
+// after the leadership section.
+const {
+  image = '/brand-ambassador/team-dilip-joshi.webp',
+  secondImage = '/brand-ambassador/team-dilip-joshi-2.webp',
+  name = 'Dilip Joshi',
+} = Astro.props;
+---
+
+<section class="section-padding bg-white" aria-labelledby="amb-team-heading">
+  <div class="container-main">
+    <div class="mx-auto mb-14 max-w-2xl text-center">
+      <span class="section-label">
+        <span class="h-px w-8 bg-brand-500"></span>
+        Brand Ambassador
+      </span>
+      <h2 id="amb-team-heading" class="mt-6 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-slate-900">
+        The Day {name} Joined <span class="text-gradient">The Qbits Family</span>
+      </h2>
+    </div>
+
+    <figure>
+      <div class="grid gap-5 lg:grid-cols-2 lg:gap-6">
+        <div class="overflow-hidden rounded-[2rem] bg-slate-900 shadow-2xl">
+          <img
+            src={image}
+            alt={`The Qbits Energy team with brand ambassador ${name}`}
+            width="1535"
+            height="1024"
+            class="h-auto w-full object-cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="overflow-hidden rounded-[2rem] bg-slate-900 shadow-2xl">
+          <img
+            src={secondImage}
+            alt={`The Qbits Energy team presenting a memento to ${name}`}
+            width="1536"
+            height="1024"
+            class="h-auto w-full object-cover"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+      <figcaption class="mx-auto mt-10 grid max-w-5xl gap-10 lg:grid-cols-2 lg:gap-16">
+        <p class="text-base sm:text-lg leading-relaxed text-slate-600">
+          Qbits was built by engineers, not marketers. So bringing on a brand ambassador was
+          never about borrowing fame. It was about finding someone whose reputation was earned
+          the same way ours is: slowly, by not letting people down.
+        </p>
+        <p class="text-base sm:text-lg leading-relaxed text-slate-600">
+          {name} has spent decades being welcomed into Indian homes. Our inverters sit on the
+          roofs of those same homes, expected to run for twenty years without being thought
+          about. That is the standard we are holding ourselves to.
+        </p>
+      </figcaption>
+    </figure>
+  </div>
+</section>

@@ -7,7 +7,10 @@ const highlights = [
 ];
 ---
 
-<section class="py-20 sm:py-28 lg:py-36 bg-white overflow-hidden" aria-labelledby="about-heading">
+<!-- overflow-x-clip, not overflow-hidden: `hidden` makes this a scroll container
+     and breaks the sticky image column below. `clip` still contains the blurred
+     glow horizontally without that side effect. -->
+<section class="py-20 sm:py-28 lg:py-36 bg-white overflow-x-clip" aria-labelledby="about-heading">
   <div class="container-main">
     <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
       <!-- Right: Content -->

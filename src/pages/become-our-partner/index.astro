@@ -47,10 +47,8 @@ const yesNo = ['Yes', 'No'];
             id="partner-form"
             class="bg-white rounded-2xl shadow-xl shadow-slate-900/5 p-8 lg:p-10 space-y-10"
             novalidate
-            action="https://formsubmit.co/ritik@thestacc.com"
-            method="POST"
-            enctype="multipart/form-data"
-            target="partner-form-frame"
+            action="#"
+            method="post"
           >
             <!-- Company Information -->
             <fieldset class="space-y-5">
@@ -255,15 +253,6 @@ const yesNo = ['Yes', 'No'];
               <label>Don't fill this: <input type="text" id="website2" name="website2" tabindex="-1" autocomplete="off" /></label>
             </div>
 
-            <!-- FormSubmit control fields — real inputs so they're included in the
-                 native multipart POST (attachments aren't delivered via fetch/AJAX). -->
-            <input type="hidden" name="_subject" value="New Qbits Channel Partner Application" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="source" value="partner-form" />
-            <input type="hidden" name="page" value="" />
-            <input type="hidden" name="submittedAt" value="" />
-
             <div class="pt-2">
               <button type="submit" id="partner-submit" class="btn-primary w-full sm:w-auto">
                 <span data-label-default>Submit Application</span>
@@ -275,13 +264,6 @@ const yesNo = ['Yes', 'No'];
               </p>
             </div>
           </form>
-          <iframe
-            name="partner-form-frame"
-            id="partner-form-frame"
-            title="Form submission target"
-            aria-hidden="true"
-            style="display:none"
-          ></iframe>
         </div>
       </div>
     </section>
@@ -359,12 +341,13 @@ const yesNo = ['Yes', 'No'];
 
 <script is:inline>
   (() => {
+    // Email notification path (FormSubmit AJAX). Odoo CRM is the system of record
+    // and is awaited below so a silent CRM failure cannot look like success.
+    const EMAIL_ENDPOINT = 'https://formsubmit.co/ajax/ritik@thestacc.com';
     const SUCCESS_MESSAGE = 'Thank you! Your partner application has been submitted. We will contact you within 2-3 business days. For urgent queries, please call +91 90166 63633.';
     const ERROR_MESSAGE = 'Sorry, we couldn\'t submit your application. Please call +91 99791 92935 or email service@qbitsenergy.com.';
-    const SUBMIT_TIMEOUT_MS = 20000;
 
     const form = document.getElementById('partner-form');
-    const frame = document.getElementById('partner-form-frame');
     const status = document.getElementById('partner-status');
     const btn = document.getElementById('partner-submit');
     const labelDefault = btn.querySelector('[data-label-default]');
@@ -383,28 +366,33 @@ const yesNo = ['Yes', 'No'];
       if (ok) status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     };
 
-    let awaitingResponse = false;
-    let submitTimeout = null;
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
 
-    form.addEventListener('submit', (e) => {
       if (!form.checkValidity()) {
-        e.preventDefault();
         form.reportValidity();
         return;
       }
 
       // Honeypot - silently succeed for bots, never actually submit.
       if ((form.elements.namedItem('website2') || {}).value) {
-        e.preventDefault();
         form.reset();
         showStatus(SUCCESS_MESSAGE, true);
         return;
       }
 
-      form.elements.namedItem('_subject').value =
-        'New Qbits Channel Partner Application: ' + (form.elements.namedItem('companyName').value || 'Unknown');
-      form.elements.namedItem('page').value = location.pathname;
-      form.elements.namedItem('submittedAt').value = new Date().toISOString();
+      const data = {
+        source: 'partner-form',
+        page: location.pathname,
+        submittedAt: new Date().toISOString(),
+      };
+      for (const [key, value] of new FormData(form).entries()) {
+        if (key === 'website2' || typeof value !== 'string') continue;
+        data[key] = value.trim();
+      }
+      data._subject = 'New Qbits Channel Partner Application: ' + (data.companyName || 'Unknown');
+      data._template = 'table';
+      data._captcha = 'false';
 
       if (typeof window.gtag === 'function') {
         window.gtag('event', 'form_submit', {
@@ -413,44 +401,60 @@ const yesNo = ['Yes', 'No'];
         });
       }
 
-      // Sync to Odoo CRM in parallel (text fields only) — non-blocking.
-      const odooData = {
-        source: 'partner-form',
-        page: location.pathname,
-        submittedAt: new Date().toISOString(),
-      };
-      for (const [key, value] of new FormData(form).entries()) {
-        if (key === 'website2' || key.startsWith('_') || typeof value !== 'string') continue;
-        odooData[key] = value.trim();
-      }
-      fetch('/api/lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(odooData),
-      }).catch((err) => console.error('CRM sync failed:', err));
-
-      // Not calling e.preventDefault() here — the form submits natively into the
-      // hidden iframe below. FormSubmit's AJAX/fetch endpoint silently drops file
-      // attachments, so a genuine multipart POST is the only way the uploaded
-      // GST/PAN document actually gets delivered.
-      awaitingResponse = true;
       setSending(true);
-      clearTimeout(submitTimeout);
-      submitTimeout = setTimeout(() => {
-        if (!awaitingResponse) return;
-        awaitingResponse = false;
-        setSending(false);
-        showStatus(ERROR_MESSAGE, false);
-      }, SUBMIT_TIMEOUT_MS);
-    });
+      try {
+        // Run email + CRM in parallel. Succeed if Odoo accepts the lead
+        // (primary) OR FormSubmit accepts the email (backup). Fail only if both fail.
+        const [crmResult, emailResult] = await Promise.allSettled([
+          fetch('/api/lead', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data),
+          }).then(async (res) => {
+            const body = await res.json().catch(() => ({}));
+            if (!res.ok || body.success === false) {
+              throw new Error(body.message || 'CRM sync failed');
+            }
+            return body;
+          }),
+          fetch(EMAIL_ENDPOINT, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Accept': 'application/json',
+            },
+            body: JSON.stringify(data),
+          }).then(async (res) => {
+            const body = await res.json().catch(() => ({}));
+            if (!(body.success === 'true' || body.success === true)) {
+              throw new Error(body.message || 'Email submission failed');
+            }
+            return body;
+          }),
+        ]);
 
-    frame.addEventListener('load', () => {
-      if (!awaitingResponse) return; // ignore the initial blank-frame load
-      awaitingResponse = false;
-      clearTimeout(submitTimeout);
-      setSending(false);
-      form.reset();
-      showStatus(SUCCESS_MESSAGE, true);
+        const crmOk = crmResult.status === 'fulfilled';
+        const emailOk = emailResult.status === 'fulfilled';
+
+        if (!crmOk) {
+          console.error('CRM sync failed:', crmResult.reason);
+        }
+        if (!emailOk) {
+          console.error('Email notification failed:', emailResult.reason);
+        }
+
+        if (crmOk || emailOk) {
+          form.reset();
+          showStatus(SUCCESS_MESSAGE, true);
+        } else {
+          throw new Error('Both CRM and email submission failed');
+        }
+      } catch (err) {
+        console.error('Partner form submission failed:', err);
+        showStatus(ERROR_MESSAGE, false);
+      } finally {
+        setSending(false);
+      }
     });
   })();
 </script>

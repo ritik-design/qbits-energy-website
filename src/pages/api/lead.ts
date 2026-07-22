@@ -199,8 +199,13 @@ export const POST: APIRoute = async ({ request }) => {
     const uid = await odooLogin(env);
     const partnerId = await findOrCreateContact(env, uid, { name, mobile, email });
 
+    // Partner applications get an explicit title prefix so they are easy to
+    // find in Odoo (filter/search "Channel Partner"). Other forms keep the
+    // plain customer name as the opportunity title.
+    const leadName = isPartnerForm ? `Channel Partner - ${name}` : name;
+
     const leadVals: Record<string, unknown> = {
-      name,
+      name: leadName,
       type: 'opportunity',
       contact_name: name,
       partner_id: partnerId,
@@ -216,7 +221,10 @@ export const POST: APIRoute = async ({ request }) => {
     if (isPartnerForm) {
       leadVals.partner_name = name;
       if (data.registeredAddress) leadVals.street = data.registeredAddress.trim();
-      if (data.website) leadVals.website = data.website.trim();
+      // Only map website when it looks like a URL — Odoo can reject free text
+      // and that would drop the entire opportunity.
+      const website = (data.website || '').trim();
+      if (website && /^https?:\/\//i.test(website)) leadVals.website = website;
     }
 
     const leadId = await odooExecute(env, uid, 'crm.lead', 'create', [leadVals]);

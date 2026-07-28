@@ -83,6 +83,10 @@ Three specific changes are under discussion, and they solve three different prob
 
 For nearly every homeowner, no. The math runs against waiting, and it is worth showing why with numbers rather than a general reassurance.
 
+![Timeline showing how long Indian policy proposals typically take to move from media reports to MNRE notification, based on the original PM Surya Ghar rollout](/blog-images/pm-surya-ghar-battery-storage-update-timeline.svg)
+
+![Real residential rooftop solar installation](/images/ongrid-res.webp)
+
 A 3 kW rooftop system installed today, after the ₹78,000 central subsidy plus most state top-ups, typically nets a payback period of 4 to 6 years, according to the current [PM Surya Ghar subsidy structure](/blog/pm-surya-ghar-subsidy-amount/). Every month you delay is a month at full DISCOM tariff, which for a mid-size urban home running ₹4,000 to ₹7,000 in monthly bills is real money walking out the door.
 
 Compare that to the likely timeline for PM Surya Ghar 2.0. Using the original scheme's own history as the benchmark, a proposal reported in the press in mid-2026 realistically reaches a notified, applicable state sometime in 2027 or later, after draft circulation, inter-ministerial review, and budget approval. That is 12 to 24 months of full-tariff electricity bills weighed against a storage subsidy whose amount is not yet known.
@@ -137,6 +141,10 @@ The tradeoff is added complexity. Metered, ongoing verification requires smart m
 ## How Homeowners Can Prepare
 
 You do not need to wait for official guidelines to make sensible decisions today.
+
+![Homeowner prep checklist for PM Surya Ghar 2.0: apply now, choose a hybrid inverter, keep generation records, verify ALMM compliance, stay informed](/blog-images/pm-surya-ghar-battery-storage-update-checklist.svg)
+
+![Real hybrid solar inverter installation with battery-ready wiring](/images/hybrid.webp)
 
 1. **Apply under the current scheme now.** The live PM Surya Ghar subsidy is real money on the table today. Waiting for a proposal with no confirmed date or amount is the more expensive choice for almost every homeowner. Start with the [eligibility check](/blog/pm-surya-ghar-eligibility/) and [document checklist](/blog/pm-surya-ghar-documents-required/).
 

@@ -1,0 +1,34 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 520'>
+  <rect width='800' height='520' fill='#0f172a'/>
+  <rect x='0' y='0' width='6' height='520' fill='#F69133'/>
+  <text x='40' y='48' fill='#ffffff' font-family='Arial, Helvetica, sans-serif' font-size='28' font-weight='bold'>Homeowner Prep Checklist</text>
+  <!-- Row 1 -->
+  <circle cx='64' cy='110' r='22' fill='#049D65'/>
+  <path d='M54 110 L60 116 L74 102' fill='none' stroke='#ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+  <text x='104' y='102' fill='#f1f5f9' font-family='Arial, Helvetica, sans-serif' font-size='18' font-weight='bold'>Apply Now</text>
+  <text x='104' y='126' fill='#94a3b8' font-family='Arial, Helvetica, sans-serif' font-size='14'>Use the live PM Surya Ghar subsidy today</text>
+  <line x1='40' y1='156' x2='760' y2='156' stroke='#1e293b' stroke-width='1'/>
+  <!-- Row 2 -->
+  <circle cx='64' cy='200' r='22' fill='#049D65'/>
+  <path d='M54 200 L60 206 L74 192' fill='none' stroke='#ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+  <text x='104' y='192' fill='#f1f5f9' font-family='Arial, Helvetica, sans-serif' font-size='18' font-weight='bold'>Choose Hybrid Inverter</text>
+  <text x='104' y='216' fill='#94a3b8' font-family='Arial, Helvetica, sans-serif' font-size='14'>Keeps battery options open for later</text>
+  <line x1='40' y1='246' x2='760' y2='246' stroke='#1e293b' stroke-width='1'/>
+  <!-- Row 3 -->
+  <circle cx='64' cy='290' r='22' fill='#049D65'/>
+  <path d='M54 290 L60 296 L74 282' fill='none' stroke='#ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+  <text x='104' y='282' fill='#f1f5f9' font-family='Arial, Helvetica, sans-serif' font-size='18' font-weight='bold'>Keep Generation Records</text>
+  <text x='104' y='306' fill='#94a3b8' font-family='Arial, Helvetica, sans-serif' font-size='14'>Useful if performance-based subsidy arrives</text>
+  <line x1='40' y1='336' x2='760' y2='336' stroke='#1e293b' stroke-width='1'/>
+  <!-- Row 4 -->
+  <circle cx='64' cy='380' r='22' fill='#049D65'/>
+  <path d='M54 380 L60 386 L74 372' fill='none' stroke='#ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+  <text x='104' y='372' fill='#f1f5f9' font-family='Arial, Helvetica, sans-serif' font-size='18' font-weight='bold'>Verify ALMM Compliance</text>
+  <text x='104' y='396' fill='#94a3b8' font-family='Arial, Helvetica, sans-serif' font-size='14'>Quality standards will only get stricter</text>
+  <line x1='40' y1='426' x2='760' y2='426' stroke='#1e293b' stroke-width='1'/>
+  <!-- Row 5 -->
+  <circle cx='64' cy='470' r='22' fill='#049D65'/>
+  <path d='M54 470 L60 476 L74 462' fill='none' stroke='#ffffff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+  <text x='104' y='462' fill='#f1f5f9' font-family='Arial, Helvetica, sans-serif' font-size='18' font-weight='bold'>Stay Informed</text>
+  <text x='104' y='486' fill='#94a3b8' font-family='Arial, Helvetica, sans-serif' font-size='14'>Track official MNRE notifications, not rumors</text>
+</svg>

@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-07-28
 updatedDate: 2026-07-28
 readTime: "13 min"
-image: "/blog-images/pm-surya-ghar-battery-storage-update.svg"
+image: "/product-images/product-image-2.webp"
 author: "Akash Hirapara"
 keywords:
   - pm surya ghar 2.0
@@ -77,15 +77,11 @@ Three specific changes are under discussion, and they solve three different prob
 | Subsidy cap | ₹78,000 for a 3 kW system | Not yet announced |
 | Application window | Open now via the [national portal](/blog/pm-surya-ghar-apply-online/) | Does not exist yet |
 
-![Three pillars of PM Surya Ghar 2.0: battery storage, shared rooftop solar, and generation-linked payout](/blog-images/pm-surya-ghar-battery-storage-update-pillars.svg)
+![A Qbits hybrid inverter wall-mounted outside a home, ready for solar and battery input](/product-images/product-image-2.webp)
 
 ## Should I Wait Before Installing Solar?
 
 For nearly every homeowner, no. The math runs against waiting, and it is worth showing why with numbers rather than a general reassurance.
-
-![Timeline showing how long Indian policy proposals typically take to move from media reports to MNRE notification, based on the original PM Surya Ghar rollout](/blog-images/pm-surya-ghar-battery-storage-update-timeline.svg)
-
-![Real residential rooftop solar installation](/images/ongrid-res.webp)
 
 A 3 kW rooftop system installed today, after the ₹78,000 central subsidy plus most state top-ups, typically nets a payback period of 4 to 6 years, according to the current [PM Surya Ghar subsidy structure](/blog/pm-surya-ghar-subsidy-amount/). Every month you delay is a month at full DISCOM tariff, which for a mid-size urban home running ₹4,000 to ₹7,000 in monthly bills is real money walking out the door.
 
@@ -118,8 +114,6 @@ This is where the proposal has the most direct financial impact, so it is worth 
 | Payback on battery alone (bill savings only) | N/A | 14-20 years |
 | Payback on battery with a hypothetical 40% subsidy | N/A | 8-12 years |
 
-![Bar chart comparing monthly savings without a battery (₹630) versus with a 5kWh battery (₹950 to ₹1,050)](/blog-images/pm-surya-ghar-battery-storage-update-savings.svg)
-
 The unsubsidised payback period on a battery, at 14 to 20 years, is longer than most homeowners will keep the same battery, since lithium batteries used daily typically last 8 to 12 years before capacity fade makes replacement worthwhile. This is exactly the gap a PM Surya Ghar 2.0 storage subsidy is reportedly meant to close. Even a moderate subsidy, in the 30 to 40 percent range seen in other Indian storage incentive pilots, would bring payback into the 8 to 12 year range, which is a realistic decision for most homeowners.
 
 Backup power during outages is a separate, non-financial value that does not show up in a bill-savings calculation but matters in states with frequent DISCOM interruptions, such as parts of Uttar Pradesh, Bihar, and rural Maharashtra.
@@ -142,9 +136,7 @@ The tradeoff is added complexity. Metered, ongoing verification requires smart m
 
 You do not need to wait for official guidelines to make sensible decisions today.
 
-![Homeowner prep checklist for PM Surya Ghar 2.0: apply now, choose a hybrid inverter, keep generation records, verify ALMM compliance, stay informed](/blog-images/pm-surya-ghar-battery-storage-update-checklist.svg)
-
-![Real hybrid solar inverter installation with battery-ready wiring](/images/hybrid.webp)
+![Close-up of a Qbits hybrid inverter, showing the battery and solar input terminals a future storage subsidy would use](/product-images/image.png)
 
 1. **Apply under the current scheme now.** The live PM Surya Ghar subsidy is real money on the table today. Waiting for a proposal with no confirmed date or amount is the more expensive choice for almost every homeowner. Start with the [eligibility check](/blog/pm-surya-ghar-eligibility/) and [document checklist](/blog/pm-surya-ghar-documents-required/).
 

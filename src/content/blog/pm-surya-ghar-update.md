@@ -63,6 +63,8 @@ The pace of disbursement accelerated in early 2026 for three reasons: the portal
 
 For context, India had approximately 11 GW of total rooftop solar capacity at the end of 2025 according to the [Central Electricity Authority](https://cea.nic.in/) (CEA), making the scheme's 1-crore target a transformational addition that would nearly double the residential segment's contribution.
 
+The government is separately reported to be evaluating a follow-up expansion, described as [PM Surya Ghar 2.0](/blog/pm-surya-ghar-battery-storage-update/), that would add battery storage subsidies and a shared rooftop model, though this remains an unnotified proposal as of mid-2026.
+
 ## What the PM Surya Ghar Subsidy Structure Looks Like in 2026
 
 The central government subsidy amounts have not changed since the scheme launched. This is important because social media posts frequently circulate false claims that the subsidy has been reduced or that a new, higher amount has been approved.

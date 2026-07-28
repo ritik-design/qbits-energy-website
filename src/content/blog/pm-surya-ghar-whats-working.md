@@ -105,7 +105,7 @@ This is perhaps the most important structural gap, given that approximately 30â€
 
 What does not exist is a virtual [net metering](/glossary/net-metering/) mechanism that would allow a single rooftop plant (installed by the RWA or a developer) to distribute energy credits across all flat owners' electricity bills. This is the mechanism that makes community solar viable in markets like the United States and several European countries. Without it, the 30â€“40 million households in urban apartment blocks are effectively excluded from PM Surya Ghar's core benefit, regardless of their willingness to pay.
 
-The government is aware of this gap. Several state electricity regulatory commissions have published draft virtual net metering regulations. But the implementation has not kept pace with the demand. Our analysis of [gross metering versus net metering](/blog/gross-metering-vs-net-metering/) explains how metering policy directly affects whether apartment installations pencil out financially.
+The government is aware of this gap. Several state electricity regulatory commissions have published draft virtual net metering regulations. But the implementation has not kept pace with the demand. Our analysis of [gross metering versus net metering](/blog/gross-metering-vs-net-metering/) explains how metering policy directly affects whether apartment installations pencil out financially. A proposed [PM Surya Ghar 2.0 update](/blog/pm-surya-ghar-battery-storage-update/) reportedly under government review would address this directly through a shared rooftop model, alongside battery storage subsidies, though it remains unnotified.
 
 ### Limited Rural DISCOM Bandwidth
 

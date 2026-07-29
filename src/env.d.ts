@@ -8,6 +8,7 @@ interface Env {
   ODOO_DB: string;
   ODOO_USERNAME: string;
   ODOO_PASSWORD: string;
+  RESEND_API_KEY: string;
 }
 
 type Runtime = import('@astrojs/cloudflare').Runtime<Env>;

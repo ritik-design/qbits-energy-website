@@ -98,6 +98,7 @@ function escapeHtml(str: string) {
 function buildDescription(data: Record<string, string>) {
   const fieldLabels: Record<string, string> = {
     role: 'Role',
+    companyName: 'Company Name',
     subject: 'Inquiry Type',
     systemSize: 'System Size',
     city: 'City',

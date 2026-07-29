@@ -122,15 +122,12 @@ const hybridDocs = [
             <input type="email" id="db-email" name="email" required maxlength="120" autocomplete="email" class="w-full rounded-lg bg-white/95 text-slate-900 placeholder:text-slate-400 border-0 px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-300 outline-none" placeholder="you@company.com" />
           </div>
           <div>
-            <label for="db-role" class="block text-[10px] font-bold uppercase tracking-wider text-brand-200 mb-1">I am a</label>
-            <select id="db-role" name="role" class="w-full rounded-lg bg-white/95 text-slate-900 border-0 px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-300 outline-none">
-              <option>EPC / installer</option>
-              <option>Dealer / distributor</option>
-              <option>Homeowner</option>
-              <option>Architect / consultant</option>
-              <option>Student / researcher</option>
-              <option>Other</option>
-            </select>
+            <label for="db-phone" class="block text-[10px] font-bold uppercase tracking-wider text-brand-200 mb-1">Mobile number</label>
+            <input type="tel" id="db-phone" name="phone" required maxlength="20" inputmode="tel" pattern="[0-9+\-\s()]{10,20}" autocomplete="tel" class="w-full rounded-lg bg-white/95 text-slate-900 placeholder:text-slate-400 border-0 px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-300 outline-none" placeholder="+91 98765 43210" />
+          </div>
+          <div>
+            <label for="db-company" class="block text-[10px] font-bold uppercase tracking-wider text-brand-200 mb-1">Company name</label>
+            <input type="text" id="db-company" name="companyName" required maxlength="120" autocomplete="organization" class="w-full rounded-lg bg-white/95 text-slate-900 placeholder:text-slate-400 border-0 px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-300 outline-none" placeholder="Your company" />
           </div>
           <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
             <label>Don't fill: <input type="text" id="db-website" name="website" tabindex="-1" autocomplete="off" /></label>
@@ -150,8 +147,8 @@ const hybridDocs = [
 
     <script is:inline>
       (() => {
-        const ENDPOINT = 'https://formsubmit.co/ajax/ritik@thestacc.com';
-        const SUCCESS_MESSAGE = 'Thanks! Bundle on its way to your inbox within minutes.';
+        const ENDPOINT = '/api/datasheet-bundle';
+        const SUCCESS_MESSAGE = 'Thanks! Check your inbox — the catalogue is on its way.';
         const ERROR_MESSAGE = 'Couldn\u2019t send your request. Please email service@qbitsenergy.com.';
 
         const form = document.getElementById('datasheet-bundle-form');
@@ -193,9 +190,6 @@ const hybridDocs = [
           data.source = 'datasheet-bundle';
           data.page = location.pathname;
           data.submittedAt = new Date().toISOString();
-          data._subject = 'Datasheet bundle request: ' + (data.name || 'Unknown');
-          data._template = 'table';
-          data._captcha = 'false';
 
           if (typeof window.gtag === 'function') {
             window.gtag('event', 'generate_lead', { form_id: 'datasheet-bundle-form' });

@@ -4,7 +4,7 @@ excerpt: "Solar for farmhouse setups need hybrid inverters and batteries because
 description: "A complete solar for farmhouse guide for India: weak rural grids, hybrid plus battery design, AC and pump loads, land vs rooftop mounting, remote monitoring, cost, and payback."
 category: "Guide"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "18 min"
 image: "/blog-images/solar-for-farmhouse-india.svg"
 author: "Keyur Rakholiya"
@@ -22,7 +22,7 @@ faqs:
   - q: "Can a solar system run a bore well pump at a farmhouse?"
     a: "Yes, if the inverter is sized for the pump's starting surge. A 1 HP pump draws about 0.75 kW running but 2.5 to 3 times that at start-up, and a 3 HP pump can surge past 6 kW. The practical approach is to run the pump during peak solar hours and size the inverter at least 1.5 times the pump's surge load, or use a dedicated solar pump controller. A hybrid inverter with a battery handles pump starts cleanly even when the grid is down."
   - q: "Is PM Surya Ghar subsidy available for farmhouse solar?"
-    a: "The PM Surya Ghar Muft Bijli Yojana subsidy applies to residential rooftop systems, so a farmhouse qualifies only if the electricity connection is a domestic (residential) category connection and the panels are mounted on a rooftop. Ground-mounted systems and agricultural or commercial category connections do not qualify. The central subsidy is ₹30,000 for the first 1 kW, ₹18,000 per kW for the next 2 kW, and ₹9,000 per kW above 3 kW up to 10 kW, with the inverter on the ALMM list installed by a registered vendor."
+    a: "The PM Surya Ghar Muft Bijli Yojana subsidy applies to residential rooftop systems, so a farmhouse qualifies only if the electricity connection is a domestic (residential) category connection and the panels are mounted on a rooftop. Ground-mounted systems and agricultural or commercial category connections do not qualify. The central subsidy is ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW, capped at ₹78,000 with nothing paid above 3 kW, and it requires the inverter to be on the ALMM list and installed by a registered vendor."
   - q: "Should I mount solar panels on the farmhouse roof or on the land?"
     a: "Rooftop mounting is cheaper and is the only option eligible for the PM Surya Ghar subsidy, but many farmhouse roofs are small, shaded by trees, or not oriented well. Ground mounting on farmhouse land costs roughly 10 to 20 percent more per kW because of the structure, civil work, and cabling, but it allows perfect orientation, easy cleaning, and any capacity you want. Most owners with one acre or more choose a ground-mounted array near the boundary wall and keep the roof free."
   - q: "How do I monitor a farmhouse solar system with poor internet?"
@@ -121,7 +121,7 @@ Farmhouses are one of the few residential cases in India where ground mounting i
 | Security | Out of reach | Needs fencing or boundary placement |
 | Land use | None | 60 to 100 sq m per 5 kWp |
 
-The subsidy point decides many projects. PM Surya Ghar Muft Bijli Yojana covers residential rooftop systems only, according to MNRE (2026). The central subsidy is ₹30,000 for the first 1 kW and ₹18,000 per kW for the next 2 kW. Above 3 kW it is ₹9,000 per kW, up to 10 kW. If your farmhouse connection is a domestic category connection and the roof is usable, rooftop mounting plus subsidy is hard to beat.
+The subsidy point decides many projects. PM Surya Ghar Muft Bijli Yojana covers residential rooftop systems only, according to MNRE (2026). The central subsidy is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, a maximum of ₹78,000. Nothing more is paid for capacity above 3 kW. If your farmhouse connection is a domestic category connection and the roof is usable, rooftop mounting plus subsidy is hard to beat.
 
 The exception is common, though. Many farmhouse roofs are sloped tile or sheet roofs with poor orientation, heavy tree shade, or structural doubts. In that case, choose a ground-mounted array along the boundary wall. Oriented true south at a 20 to 25 degree tilt, it generates 8 to 12 percent more than a badly oriented roof array. It can also scale to any size. Spend the extra 10 to 20 percent on structure and civil work, and treat the lost subsidy as the price of a better plant.
 
@@ -165,7 +165,7 @@ Here is the complete 2026 cost picture for the two most common farmhouse configu
 | Structure, cabling, protection | ₹0.5 to ₹0.8 Lakh | ₹0.9 to ₹1.3 Lakh |
 | Installation and commissioning | ₹0.3 to ₹0.5 Lakh | ₹0.5 to ₹0.8 Lakh |
 | **Total (rooftop)** | **₹5.5 to ₹7.3 Lakh** | **₹9.5 to ₹12.4 Lakh** |
-| Subsidy (if rooftop, residential) | Up to ₹78,000 to ₹84,000 | Up to ₹84,000 |
+| Subsidy (if rooftop, residential) | Up to ₹78,000 | Up to ₹78,000 |
 | **Net cost after subsidy** | **₹4.7 to ₹6.5 Lakh** | **₹8.7 to ₹11.6 Lakh** |
 
 Ground mounting adds roughly ₹40,000 to ₹80,000 for the 5 kW case and removes the subsidy, so model both paths before deciding.

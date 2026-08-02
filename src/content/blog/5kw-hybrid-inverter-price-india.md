@@ -4,7 +4,7 @@ excerpt: "5kW hybrid inverter price in India 2026 by brand: Deye, Growatt, Sungr
 description: "Deep dive on 5kW hybrid inverter prices in India for 2026. Brand-wise price bands, feature-level cost drivers, battery pairing costs, PM Surya Ghar subsidy eligibility, and a value verdict for 3BHK homes."
 category: "Buying Guide"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "17 min"
 image: "/blog-images/5kw-hybrid-inverter-price-india.svg"
 author: "Nirav Dhanani"
@@ -23,9 +23,9 @@ faqs:
   - q: "Is a 5kW hybrid inverter enough for a 3BHK home?"
     a: "Yes, a 5kW hybrid inverter covers a typical Indian 3BHK home well. The standard 3BHK peak load of one 1.5-tonne AC, four fans, a fridge, a TV, a washing machine, and full lighting runs 3.5 to 4.5 kW, so 5 kW leaves 10 to 15% headroom. With a 5 kWh battery, the hybrid runs essential loads (fans, lights, fridge, Wi-Fi) for 6 to 8 hours during an outage, or one AC for 2 to 3 hours."
   - q: "Does a 5kW hybrid inverter get PM Surya Ghar subsidy?"
-    a: "Yes, a 5kW hybrid system qualifies for PM Surya Ghar Muft Bijli Yojana subsidy when it is grid-connected, uses an ALMM-listed inverter, and is installed by an empanelled vendor. The maximum central subsidy for 5 kW is ₹84,000: ₹30,000 for the first kW, ₹18,000 per kW for the next 2 kW, and ₹9,000 per kW above 3 kW. The subsidy covers system capacity only, so the battery cost is not subsidised."
+    a: "Yes, a 5kW hybrid system qualifies for PM Surya Ghar Muft Bijli Yojana subsidy when it is grid-connected, uses an ALMM-listed inverter, and is installed by an empanelled vendor. The maximum central subsidy is ₹78,000: ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW. That ₹78,000 is a hard cap at the 3 kW band, so a 5 kW system receives the same ₹78,000 as a 3 kW system. The subsidy covers system capacity only, so the battery cost is not subsidised."
   - q: "Which is the cheapest 5kW hybrid inverter in India?"
-    a: "The cheapest genuine 5kW hybrid inverters in India come from Luminous and UTL at ₹48,000 to ₹58,000, and from Deye's dealer channel at ₹55,000 to ₹75,000 depending on the variant. Prices below ₹45,000 for a 5kW hybrid usually indicate grey imports without ALMM listing or valid manufacturer warranty, which forfeits up to ₹84,000 of PM Surya Ghar subsidy. Cheapest sticker price is rarely cheapest per warranty year: divide the price by warranty years before comparing."
+    a: "The cheapest genuine 5kW hybrid inverters in India come from Luminous and UTL at ₹48,000 to ₹58,000, and from Deye's dealer channel at ₹55,000 to ₹75,000 depending on the variant. Prices below ₹45,000 for a 5kW hybrid usually indicate grey imports without ALMM listing or valid manufacturer warranty, which forfeits up to ₹78,000 of PM Surya Ghar subsidy. Cheapest sticker price is rarely cheapest per warranty year: divide the price by warranty years before comparing."
   - q: "What battery size should I pair with a 5kW hybrid inverter?"
     a: "Most 3BHK homes pair a 5kW hybrid inverter with a 5 kWh battery, which covers 6 to 8 hours of essential loads during outages. If your area sees only short one to two hour cuts, a 3 kWh bank (₹66,000 to ₹84,000 in LFP) is enough. If you want overnight backup with one AC running, size up to 10 kWh (₹2.2 Lakh to ₹2.8 Lakh). Match the battery voltage platform to the inverter: 48 V low-voltage banks for Deye and Qbits HS-5K, proprietary high-voltage banks for Sungrow."
   - q: "Can I buy a 5kW hybrid inverter now and add the battery later?"
@@ -41,12 +41,12 @@ Search for 5kW hybrid inverter price in India and you will find listings from �
 > - A 5kW hybrid inverter in India costs ₹48,000 to ₹1,35,000 in 2026, inverter only, across three tiers from Luminous to Sungrow.
 > - Mid-market units (Qbits HS-5K, Deye, Growatt) run ₹68,000 to ₹1,01,000. Premium Sungrow SH5.0RS lists at ₹1,10,000 to ₹1,35,000.
 > - The battery costs more than the inverter: a 5 kWh LFP bank adds ₹1.1 Lakh to ₹1.4 Lakh at ₹22,000 to ₹28,000 per kWh.
-> - A 5kW hybrid earns the full ₹84,000 PM Surya Ghar central subsidy when grid-connected and ALMM-listed. Battery cost is not subsidised.
+> - A 5kW hybrid earns the full ₹78,000 PM Surya Ghar central subsidy when grid-connected and ALMM-listed. The central subsidy is capped at the 3 kW band, so 5 kW gets the same ₹78,000 as 3 kW. Battery cost is not subsidised.
 > - Qbits HS-5K carries the longest warranty in the segment: 12 years full replacement, versus 5 years from Deye and Growatt.
 > - A 3BHK with 2 or more hours of daily cuts pays back a 5kW hybrid plus 5 kWh battery in 5 to 7 years at ₹8 per unit.
 > - Buying hybrid now and adding the battery later saves ₹60,000 to ₹90,000 versus converting an on-grid system after the fact.
 
-**Short version.** A genuine, ALMM-listed 5kW hybrid inverter costs ₹68,000 to ₹1,35,000 in India in 2026 depending on brand and warranty. The Qbits HS-5K at ₹68,000 to ₹85,000 with a 12-year full replacement warranty is the value pick. Add ₹1.1 Lakh to ₹1.4 Lakh for a 5 kWh lithium battery, then subtract ₹84,000 in PM Surya Ghar subsidy on the system.
+**Short version.** A genuine, ALMM-listed 5kW hybrid inverter costs ₹68,000 to ₹1,35,000 in India in 2026 depending on brand and warranty. The Qbits HS-5K at ₹68,000 to ₹85,000 with a 12-year full replacement warranty is the value pick. Add ₹1.1 Lakh to ₹1.4 Lakh for a 5 kWh lithium battery, then subtract ₹78,000 in PM Surya Ghar subsidy on the system.
 
 This post goes deep on the 5 kW size only. If you are still comparing across sizes, the [hybrid inverter price in India](/blog/hybrid-inverter-price-india/) guide covers 3 kW to 10 kW in one place. If you have not yet decided between hybrid and on-grid, the [on-grid vs hybrid](/blog/on-grid-vs-hybrid/) comparison settles the topology question first.
 
@@ -64,7 +64,7 @@ Live listings confirm the spread. The Deye SUN-5K-SG04LP1-EU lists between ₹81
 
 On an installed price-per-watt basis, a 5 kW Deye hybrid system works out near ₹13.6 per watt in 2026. Growatt sits near ₹15.0, Sungrow near ₹18.4, and Luminous near ₹19.0, according to [SVN SafeTech's 2026 brand comparison](https://svnsafetech.in/blog/solar-inverter-brands-comparison-2026), 2026. Per-watt figures include panels and installation, so they reflect the whole quote, not the inverter sticker.
 
-One red flag: any 5kW hybrid quoted below ₹45,000 retail is almost certainly a grey import without valid ALMM listing or manufacturer warranty. That "saving" forfeits up to ₹84,000 of subsidy. Walk away.
+One red flag: any 5kW hybrid quoted below ₹45,000 retail is almost certainly a grey import without valid ALMM listing or manufacturer warranty. That "saving" forfeits up to ₹78,000 of subsidy. Walk away.
 
 ## What Actually Moves the Price: Feature-Level Cost Drivers
 
@@ -132,7 +132,7 @@ The [best 5kW solar inverter in India 2026](/blog/best-5kw-solar-inverter-india-
 
 Grid-connected hybrid systems qualify for the full PM Surya Ghar Muft Bijli Yojana central subsidy on the same terms as on-grid systems. The inverter must be ALMM-listed. The installer must be an empanelled vendor on the national portal.
 
-The central subsidy pays ₹30,000 for the first kW and ₹18,000 per kW for the next 2 kW. Above 3 kW up to 10 kW, it pays ₹9,000 per kW, according to the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), 2026. For 5 kW that totals ₹84,000, credited to your bank account after DISCOM verification.
+The central subsidy pays ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, according to the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), 2026. It stops there: ₹78,000 is the maximum for any residential system, so a 5 kW installation claims the same ₹78,000 as a 3 kW one. It is credited to your bank account by Direct Benefit Transfer after DISCOM commissioning.
 
 Worked example, 5kW hybrid with battery in a Tier-2 city (labelled hypothetical, mid-market pricing):
 
@@ -142,11 +142,11 @@ Worked example, 5kW hybrid with battery in a Tier-2 city (labelled hypothetical,
 | 5 kWp panels, structure, cabling, installation | ₹2,05,000 |
 | 5 kWh LFP battery | ₹1,25,000 |
 | **Gross system cost** | **₹4,05,000** |
-| Less: PM Surya Ghar central subsidy | ₹84,000 |
+| Less: PM Surya Ghar central subsidy | ₹78,000 |
 | Less: State subsidy (varies by state) | ₹15,000 |
-| **Net homeowner cost** | **₹3,06,000** |
+| **Net homeowner cost** | **₹3,12,000** |
 
-Drop the battery and the same system nets near ₹1,81,000. Note two things. First, the subsidy applies to system capacity, not inverter type. The hybrid premium is neither subsidised nor penalised. Second, the battery earns no central subsidy at all. That is why the battery-later strategy works: claim the full subsidy now, add storage when LFP prices fall further. The [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) guide has the state-by-state top-up detail.
+Drop the battery and the same system nets near ₹1,87,000. Note two things. First, the subsidy applies to system capacity, not inverter type. The hybrid premium is neither subsidised nor penalised. Second, the battery earns no central subsidy at all. That is why the battery-later strategy works: claim the full subsidy now, add storage when LFP prices fall further. The [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) guide has the state-by-state top-up detail.
 
 ## Myth-Busting and Tradeoffs at the 5 kW Size
 
@@ -154,7 +154,7 @@ The 5 kW hybrid segment attracts three persistent myths. Each one costs buyers m
 
 **Myth 1: "Buy on-grid now, upgrade to hybrid later."** There is no upgrade path. Adding battery capability to an on-grid system means replacing the entire inverter at ₹60,000 to ₹90,000 plus rewiring. Buying the hybrid upfront with the battery port unused costs ₹20,000 to ₹40,000 extra. It works exactly like an on-grid unit until you add storage. If there is any realistic chance you want backup within five years, hybrid now is the cheaper path.
 
-**Myth 2: "A hybrid without battery is wasted money."** Wrong. An unused battery port is an option you hold. The inverter still exports solar, still earns the full ₹84,000 subsidy, and still runs your home from the grid. When your grid worsens or LFP drops another 20%, you add storage for the battery cost alone.
+**Myth 2: "A hybrid without battery is wasted money."** Wrong. An unused battery port is an option you hold. The inverter still exports solar, still earns the full ₹78,000 subsidy, and still runs your home from the grid. When your grid worsens or LFP drops another 20%, you add storage for the battery cost alone.
 
 **Myth 3: "The cheapest 5kW hybrid is the smart buy."** Divide price by warranty years before deciding. A ₹55,000 hybrid with a 5-year warranty costs ₹11,000 per year of coverage. A ₹75,000 Qbits HS-5K with a 12-year full replacement warranty costs ₹6,250 per year. The "expensive" unit is 43% cheaper per protected year. It also covers years 6 to 12, when inverters on 180 to 270 V grids in 40 to 45 °C summers start to fail.
 
@@ -178,7 +178,7 @@ The deciding question is not which brand. It is which ownership cost. A 5kW hybr
 
 ## Conclusion: What You Should Actually Pay
 
-A fair 2026 price for a 5kW hybrid inverter in India is ₹68,000 to ₹85,000 for a mid-market unit with a long warranty. The inverter plus a 5 kWh LFP battery runs ₹1.8 Lakh to ₹2.7 Lakh together. Pay less and you are likely buying a 5-year warranty or a grey import. Pay more and you should be getting Sungrow-grade software and efficiency in return. After the ₹84,000 PM Surya Ghar subsidy, a complete 5kW hybrid system with battery lands near ₹3 Lakh net. Payback runs 5 to 7 years in power-cut states.
+A fair 2026 price for a 5kW hybrid inverter in India is ₹68,000 to ₹85,000 for a mid-market unit with a long warranty. The inverter plus a 5 kWh LFP battery runs ₹1.8 Lakh to ₹2.7 Lakh together. Pay less and you are likely buying a 5-year warranty or a grey import. Pay more and you should be getting Sungrow-grade software and efficiency in return. After the ₹78,000 PM Surya Ghar subsidy, a complete 5kW hybrid system with battery lands near ₹3 Lakh net. Payback runs 5 to 7 years in power-cut states.
 
 Three actions before you sign anything:
 

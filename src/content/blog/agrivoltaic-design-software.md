@@ -33,7 +33,7 @@ faqs:
   - q: "Can lenders fund agrivoltaic projects?"
     a: "Yes, but lenders require bankable yield reports with P50, P75, and P90 scenarios plus a defensible irradiance model. SurgePV produces P50/P75/P90 reports using the same NREL SAM engine that lenders trust for utility-scale projects. The model accounts for elevated mounting losses, bifacial gains from crop reflectance, and tractor shading. The output PDF is the document you submit to the financier, no second tool required."
   - q: "How much does agrivoltaic design software cost?"
-    a: "SurgePV pricing starts at $1,899 per user per year for the Individual plan, drops to $1,499 for a 3-User Team, and $1,299 for a 5-User Team. Enterprise is custom-quoted. Every paid tier includes the agrivoltaic template, Clara AI, 8,760-hour shading, AutoCAD export, and branded proposals. Compared with Aurora Solar at roughly $9,000 per seat for an equivalent feature set, SurgePV is up to 7x cheaper at the team tier."
+    a: "SurgePV pricing starts at $1,899 per user per year for the Individual plan, drops to $1,499 for a 3-User Team, and $1,299 for a 5-User Team. Enterprise is custom-quoted. Every paid tier includes the agrivoltaic template, Clara AI, 8,760-hour shading, AutoCAD export, and branded proposals. Aurora Solar is quote-based and publishes no list price, so the only fair comparison is our published number against your own written Aurora quote. What we can state flatly is our side: $1,299 per seat per year at the 5-User tier, flat, with the agrivoltaic feature set included rather than licensed separately."
   - q: "Does agrivoltaic software handle tracker designs?"
     a: "Yes. SurgePV models both single-axis and dual-axis trackers with agrivoltaic spacing. Trackers are particularly well-suited to agrivoltaics because tilt can be optimised through the day to balance crop light against panel yield. The platform supports smart-tracking strategies that prioritise ground irradiance during sensitive crop growth windows, then flip to maximum production at other times. The 8,760-hour engine reports both modes side by side."
   - q: "Can I export agrivoltaic drawings to AutoCAD?"
@@ -93,18 +93,20 @@ For larger schemes above 5 megawatts, SurgePV scales into [utility-scale solar d
 
 | Capability | SurgePV | HelioScope | PVsyst | PVcase |
 |---|---|---|---|---|
-| Agrivoltaic template | Yes, on every paid plan | No | Manual workaround | Add-on module |
-| Ground irradiance output | Yes, 8,760-hour | No | Yes, manual setup | Yes |
-| Tractor clearance presets | Yes | No | No | Partial |
-| AI 3D from satellite | Yes | No | No | No |
-| Natural-language brief (AI) | Clara AI | No | No | No |
+| Agrivoltaic template | Yes, on every paid plan | Not positioned as | Manual workaround | Add-on module |
+| Ground irradiance output | Yes, 8,760-hour | Not positioned as | Yes, manual setup | Yes |
+| Tractor clearance presets | Yes | Not positioned as | Not positioned as | Partial |
+| AI 3D from satellite | Yes | Not positioned as | Not positioned as | Not positioned as |
+| Natural-language brief (AI) | Clara AI | Not positioned as | Not positioned as | Not positioned as |
 | Bifacial + agrivoltaic combined | Yes | Limited | Yes | Yes |
 | Bankable P50/P75/P90 PDF | Yes, built-in | Separate report | Yes | Yes |
-| AutoCAD DXF/DWG export | Yes, native | No | No | Yes |
-| Branded proposal + e-signature | Yes | No | No | No |
-| Annual price per seat | $1,299 to $1,899 | $2,400 to $4,800 | Roughly $1,200 | Roughly $3,000 to $5,000 |
+| AutoCAD DXF/DWG export | Yes, native | Not positioned as | Not positioned as | Yes |
+| Branded proposal + e-signature | Yes | Not positioned as | Not positioned as | Not positioned as |
+| Annual price per seat | $1,299 to $1,899, published | $2,400 to $4,800, published list | Roughly $1,200 | Quote-based, confirm with the vendor |
 
-SurgePV is the only platform on this list that combines an agrivoltaic template, AI-driven design, bankable yield, and a branded proposal in one product at a flat per-seat price.
+"Not positioned as" means the capability is not part of that vendor's published feature set at time of writing, rather than a claim it cannot be forced. Vendors ship new modules continually, so confirm current scope and pricing with each before you decide.
+
+Among the platforms on this list, SurgePV is the one combining an agrivoltaic template, AI-driven design, bankable yield and a branded proposal in a single product at a flat published per-seat price.
 
 <div class="inline-cta">
 <h3>One Flat Price Per Seat, No Module Add-Ons</h3>
@@ -153,7 +155,7 @@ The dual-use case beats both single-use cases by a margin of 31% over solar-only
 
 If your team also runs CRM and quoting workflows outside the design tool, pair SurgePV with [QuickEstimate](https://quickestimate.co/) for the sales pipeline. The combination covers design, proposal, and [lead management](https://quickestimate.co/features/lead-capture/) without three separate logins.
 
-For most installers, the right pick is the cheapest [solar design software](https://surgepv.com/) that produces a bankable report and an AutoCAD-ready drawing on day one. That is [SurgePV](https://surgepv.com/), and the [AI solar design assistant](https://surgepv.com/clara-ai) inside it cuts design time by 70% versus the [Aurora](/blog/aurora-solar-alternative/) plus HelioScope plus PVsyst stack. Once the array geometry is locked, matching it to a [hybrid inverter](/hybrid-inverter/) sized for the elevated string layout is the next step — [talk to a Qbits engineer](/contact-us/) for that walkthrough.
+For most installers, the right pick is the cheapest [solar design software](https://surgepv.com/) that produces a bankable report and an AutoCAD-ready drawing on day one. That is [SurgePV](https://surgepv.com/), and the [AI solar design assistant](https://surgepv.com/clara-ai) inside it cut design time by roughly 70% in our own testing against an [Aurora](/blog/aurora-solar-alternative/) plus HelioScope plus PVsyst stack. Once the array geometry is locked, matching it to a [hybrid inverter](/hybrid-inverter/) sized for the elevated string layout is the next step. [Talk to a Qbits engineer](/contact-us/) for that walkthrough.
 
 <div class="inline-cta">
 <h3>Stop Stitching Three Tools Together for One Agrivoltaic Project</h3>
@@ -180,7 +182,7 @@ Typical clearance ranges from 2.1 metres for sheep grazing to 4.5 metres or high
 Yes, but lenders require bankable yield reports with P50, P75, and P90 scenarios plus a defensible irradiance model. SurgePV produces P50/P75/P90 reports using the same NREL SAM engine that lenders trust for utility-scale projects. The model accounts for elevated mounting losses, bifacial gains from crop reflectance, and tractor shading. The output PDF is the document you submit to the financier, no second tool required.
 
 **How much does agrivoltaic design software cost?**
-SurgePV pricing starts at $1,899 per user per year for the Individual plan, drops to $1,499 for a 3-User Team, and $1,299 for a 5-User Team. Enterprise is custom-quoted. Every paid tier includes the agrivoltaic template, Clara AI, 8,760-hour shading, AutoCAD export, and branded proposals. Compared with Aurora Solar at roughly $9,000 per seat for an equivalent feature set, SurgePV is up to 7x cheaper at the team tier.
+SurgePV pricing starts at $1,899 per user per year for the Individual plan, drops to $1,499 for a 3-User Team, and $1,299 for a 5-User Team. Enterprise is custom-quoted. Every paid tier includes the agrivoltaic template, Clara AI, 8,760-hour shading, AutoCAD export, and branded proposals. Aurora Solar is quote-based and publishes no list price, so the only fair comparison is our published number against your own written Aurora quote. What we can state flatly is our side: $1,299 per seat per year at the 5-User tier, flat, with the agrivoltaic feature set included rather than licensed separately.
 
 **Does agrivoltaic software handle tracker designs?**
 Yes. SurgePV models both single-axis and dual-axis trackers with agrivoltaic spacing. Trackers are particularly well-suited to agrivoltaics because tilt can be optimised through the day to balance crop light against panel yield. The platform supports smart-tracking strategies that prioritise ground irradiance during sensitive crop growth windows, then flip to maximum production at other times. The 8,760-hour engine reports both modes side by side.

@@ -4,7 +4,7 @@ excerpt: "Solar subsidy 2026 for every Indian state: central PM Surya Ghar CFA u
 description: "Complete 2026 guide to solar subsidy in India. Central PM Surya Ghar CFA structure, state-by-state top-up table for all 28 states, DISCOM net metering rules, application steps, and links to detailed state guides."
 category: "Policy"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "24 min"
 image: "/blog-images/solar-subsidy-all-states.svg"
 author: "Akash Hirapara"
@@ -63,7 +63,7 @@ The Central Financial Assistance (CFA) under PM Surya Ghar Muft Bijli Yojana is 
 | 10 kW | ₹78,000 | ₹7,800 |
 | Housing society / RWA (up to 500 kW) | ₹18,000 per kW | ₹18,000 |
 
-Three things in this table surprise people. First, the subsidy per kW falls sharply above 3 kW. That is why the 3 kW size has the highest subsidy coverage, roughly 40 to 45 percent of typical system cost. Second, there is no additional CFA for capacity above 3 kW. Many older articles get this wrong by quoting an extra ₹9,000 per kW tier that no longer applies. Third, the RWA channel is genuinely generous: a 100 kW society rooftop earns ₹18 lakh.
+Three things in this table surprise people. First, the central subsidy stops entirely above 3 kW. That is why the 3 kW size has the highest subsidy coverage, roughly 40 to 45 percent of typical system cost. Second, a 5 kW or 10 kW home system receives exactly the same ₹78,000 as a 3 kW one. Many older articles get this wrong by quoting an extra ₹9,000 per kW tier that no longer applies. Third, the RWA channel is genuinely generous: a 100 kW society rooftop earns ₹18 lakh.
 
 The CFA is paid as a Direct Benefit Transfer (DBT) to the homeowner's bank account. Payment typically lands within 30 days of commissioning and DISCOM verification, according to the [PM Surya Ghar national portal](https://pmsuryaghar.gov.in/), 2026. The [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) post breaks the math down for every size from 1 kW to 10 kW.
 

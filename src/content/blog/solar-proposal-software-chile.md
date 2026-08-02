@@ -140,7 +140,7 @@ Common on larger Chilean projects, and the usual home of a retail rate applied t
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
 | PVsyst | Manual | Manual | Yes | Manual | No | ~EUR 500 |
-| PV*SOL | Manual | Manual | Yes | No | Partial | ~EUR 1,000+ |
+| PV*SOL | Manual | Manual | Yes | No | Partial | ~EUR 585 to 845 |
 | HelioScope | No | No | Partial | No | No | $1,188 to $3,600+ |
 | Aurora Solar | No | No | Partial | No | No | $1,908 to $3,108+ |
 | Spreadsheet + PVsyst | Manual | Manual | Manual | Manual | Manual | Effectively free |

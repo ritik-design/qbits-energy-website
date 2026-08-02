@@ -57,7 +57,7 @@ Without maintenance: **2–3% annual efficiency degradation** vs **0.5%** with p
 - [Anti-islanding protection](/glossary/anti-islanding/) testing
 - [MPPT](/glossary/mppt/) efficiency checks
 
-These checks matter most on units already built for Indian conditions — [Qbits on-grid inverters](/on-grid-inverter/) ship with IP66 enclosures and the anti-islanding protection tested above as standard.
+These checks matter most on units already built for Indian conditions. [Qbits on-grid inverters](/on-grid-inverter/) ship with IP66 enclosures and the anti-islanding protection tested above as standard.
 
 ### Hybrid Inverters
 
@@ -300,4 +300,4 @@ Remote diagnostics solve **70–80%** of issues without site visits. Single tech
 
 ## Bottom Line
 
-Systematic maintenance turns a 10–15 year inverter into a 15+ year asset, a horizon covered in detail in the [solar inverter lifespan planning guide](/blog/solar-inverter-lifespan/). The cost is small (₹15,000–₹25,000/year for 100 kW), the ROI is enormous (1200–1600%), and the difference between a well-maintained and neglected system shows up directly in client energy bills. For the seasonal calendar this daily/weekly/quarterly cadence fits into, see the [solar system annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/). None of this offsets a poorly specified unit in the first place — [talk to a Qbits engineer](/contact-us/) before procurement to confirm the maintenance profile of a specific model.
+Systematic maintenance turns a 10–15 year inverter into a 15+ year asset, a horizon covered in detail in the [solar inverter lifespan planning guide](/blog/solar-inverter-lifespan/). The cost is small (₹15,000–₹25,000/year for 100 kW), the ROI is enormous (1200–1600%), and the difference between a well-maintained and neglected system shows up directly in client energy bills. For the seasonal calendar this daily/weekly/quarterly cadence fits into, see the [solar system annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/). None of this offsets a poorly specified unit in the first place. [Talk to a Qbits engineer](/contact-us/) before procurement to confirm the maintenance profile of a specific model.

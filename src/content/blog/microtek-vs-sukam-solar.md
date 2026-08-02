@@ -4,7 +4,7 @@ excerpt: "Microtek vs Su-Kam solar inverter compared on price, MPPT range, warra
 description: "An honest Microtek vs Su-Kam solar inverter comparison for Indian buyers in 2026: solar range, MPPT technology, warranty, service network, price, and where Qbits fits."
 category: "Comparison"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "16 min"
 image: "/blog-images/microtek-vs-sukam-solar.svg"
 author: "Nirav Dhanani"
@@ -26,7 +26,7 @@ faqs:
   - q: "What warranty do Microtek and Su-Kam offer on solar inverters?"
     a: "Microtek advertises up to 10 years warranty on its grid-tie solar inverters and typically 2 to 5 years on solar PCU and hybrid UPS models, so the warranty varies sharply by product line. Su-Kam solar PCUs are commonly sold with 2 to 3 year warranties, based on current IndiaMART dealer listings. By comparison, newer specialist brands like Qbits offer 12-year full replacement warranties as standard, which is the longest coverage currently available from an Indian manufacturer."
   - q: "Are Microtek and Su-Kam inverters eligible for PM Surya Ghar subsidy?"
-    a: "Subsidy eligibility depends on the exact model being ALMM-listed and the system being grid-connected through a registered vendor, not on the brand name. Microtek has grid-tie models on the ALMM list, but several of its PCU and off-grid models are not eligible because off-grid systems do not qualify for the scheme. Su-Kam's ALMM presence is limited, and you should verify the specific model number on the MNRE ALMM portal before assuming eligibility. A non-listed inverter can cost you ₹66,000 to ₹84,000 in forfeited central subsidy on a 3 to 5 kW system."
+    a: "Subsidy eligibility depends on the exact model being ALMM-listed and the system being grid-connected through a registered vendor, not on the brand name. Microtek has grid-tie models on the ALMM list, but several of its PCU and off-grid models are not eligible because off-grid systems do not qualify for the scheme. Su-Kam's ALMM presence is limited, and you should verify the specific model number on the MNRE ALMM portal before assuming eligibility. A non-listed inverter can cost you up to ₹78,000 in forfeited central subsidy on a 3 to 5 kW system."
   - q: "Which is better for a power-cut area, Microtek or Su-Kam?"
     a: "Both brands built their reputations on backup power, and both sell solar PCUs that run loads from solar and battery during outages. Microtek's current MPPT PCU range is the more reliable pick today because of active service support. That said, buyers in power-cut areas should also price a modern hybrid inverter: a unit like the Qbits HS-5K switches to battery in under 20 milliseconds, carries a 12-year full replacement warranty, and supports lithium batteries, which neither legacy brand matches at a comparable price."
 featured: false

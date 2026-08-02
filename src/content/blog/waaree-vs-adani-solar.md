@@ -4,7 +4,7 @@ excerpt: "Waaree vs Adani Solar compared for 2026: panel prices from Rs 15-22 pe
 description: "An honest Waaree vs Adani Solar comparison for India in 2026: panel technology, per-watt pricing, warranties, ALMM List-I and List-II status, inverter ecosystem play, and where a specialist inverter brand fits."
 category: "Comparison"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "19 min"
 image: "/blog-images/waaree-vs-adani-solar.svg"
 author: "Nirav Dhanani"
@@ -20,7 +20,7 @@ faqs:
   - q: "What is the price difference between Waaree and Adani solar panels in 2026?"
     a: "In 2026, Adani Solar non-DCR modules typically sell at Rs 15 to 17 per Wp, while Waaree non-DCR modules sit at Rs 18 to 22 per Wp depending on technology. On a 5 kW residential system, that gap works out to roughly Rs 10,000 to Rs 20,000 on the panel line item. DCR (domestic content requirement) modules from both brands cost more, around Rs 27 per Wp. Remember that panels are only 25 to 35 percent of total installed system cost, so the brand gap shrinks to 4 to 7 percent of your final bill."
   - q: "Are Waaree and Adani panels eligible for the PM Surya Ghar subsidy?"
-    a: "Yes, both Waaree Energies and Adani Solar hold multiple model listings on the MNRE ALMM List-I, which is the mandatory eligibility requirement for the PM Surya Ghar central subsidy of up to Rs 78,000 for a 3 kW system and Rs 84,000 for a 5 kW system. Both also clear BIS IS 14286 and IEC 61215 certification. Always verify the exact model number in your installer quote against the live ALMM register, because listings are model-specific and the list is updated quarterly."
+    a: "Yes, both Waaree Energies and Adani Solar hold multiple model listings on the MNRE ALMM List-I, which is the mandatory eligibility requirement for the PM Surya Ghar central subsidy of up to Rs 78,000, a figure capped at the 3 kW band and unchanged for a 5 kW system. Both also clear BIS IS 14286 and IEC 61215 certification. Always verify the exact model number in your installer quote against the live ALMM register, because listings are model-specific and the list is updated quarterly."
   - q: "Do Waaree and Adani make their own solar inverters?"
     a: "Waaree retails its own branded on-grid and hybrid inverters through its online store and dealer network, with a 5 kW three-phase on-grid unit priced around Rs 60,000 to 61,000 in 2026. Adani Solar does not manufacture residential inverters; it is a module and cell manufacturer, and its rooftop systems are sold through EPC partners who pair Adani panels with third-party inverters. Neither brand's core engineering depth is in power electronics, which is why many installers pair these panels with a specialist inverter brand."
   - q: "What warranties do Waaree and Adani offer on solar panels?"
@@ -95,7 +95,7 @@ The [solar inverter warranty](/blog/solar-inverter-warranty/) guide covers what 
 
 ## ALMM Status and the Made-in-India Angle in 2026
 
-Both Waaree and Adani hold multiple listings on the MNRE ALMM List-I. Systems built with either brand qualify for the PM Surya Ghar central subsidy, up to Rs 78,000 for 3 kW and Rs 84,000 for 5 kW. The [ALMM list](/glossary/almm-list/) is updated quarterly and listings are model-specific, so verify the exact model number in your quote, not the brand name.
+Both Waaree and Adani hold multiple listings on the MNRE ALMM List-I. Systems built with either brand qualify for the PM Surya Ghar central subsidy, up to Rs 78,000 for 3 kW and the same Rs 78,000 for 5 kW, because the central scheme caps at the 3 kW band. The [ALMM list](/glossary/almm-list/) is updated quarterly and listings are model-specific, so verify the exact model number in your quote, not the brand name.
 
 The bigger 2026 story is ALMM List-II. From 1 June 2026, modules in subsidised projects must use cells approved under the cell-level list. This extends domestic sourcing rules upstream, according to [Renewable Mirror's ALMM-II coverage](https://www.renewablemirror.com/top-integrated-solar-manufacturers-in-india-to-watch-ahead-of-almm-ii-rollout/). This favours manufacturers with in-house cell lines. Adani is fully integrated at Mundra, and Waaree operates its own cell capacity, so both brands clear this bar comfortably. The [ALMM List Phase III guide](/blog/almm-list-phase-iii-guide/) explains the listing tiers in detail.
 

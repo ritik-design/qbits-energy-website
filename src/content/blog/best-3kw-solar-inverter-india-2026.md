@@ -4,7 +4,7 @@ excerpt: "The best 3kW solar inverter in India maximises PM Surya Ghar subsidy a
 description: "Compare the best 3kW solar inverters in India 2026 for 2BHK homes: on-grid and hybrid picks, PM Surya Ghar subsidy analysis, and warranty breakdown."
 category: "Comparison"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-08-02
 readTime: "23 min"
 image: "/blog-images/3kw-vs-5kw-vs-10kw-solar-inverters.svg"
 author: "Nirav Dhanani"
@@ -22,7 +22,7 @@ faqs:
   - q: "What is the price of a 3kW solar inverter in India in 2026?"
     a: "The price of a 3 kW solar inverter in India in 2026 ranges from ₹20,000–₹28,000 for budget on-grid brands such as Growatt and Goodwe, ₹28,000–₹38,000 for mid-market on-grid models from Qbits and Sungrow, and ₹38,000–₹55,000 for hybrid models from Qbits and Sungrow. These are inverter-only prices excluding panels, mounting structure, cabling, and installation. A full 3 kW system (all-in) typically costs ₹1.5–₹2.2 Lakh before subsidy. After applying the maximum PM Surya Ghar central subsidy of ₹78,000, the net system cost drops to ₹72,000–₹1.42 Lakh."
   - q: "What is the PM Surya Ghar subsidy for a 3kW solar system?"
-    a: "The central government subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system is ₹78,000 - the maximum subsidy available under the scheme. This comprises ₹30,000 for the first 1 kW and ₹24,000 per kW for the next 2 kW (2 × ₹24,000 = ₹48,000), totalling ₹78,000. The subsidy is paid directly into the homeowner's bank account by the DISCOM after verifying that the installation is complete, the inverter is ALMM-listed, and the system is net-metered. Some states add a top-up subsidy over and above the central amount."
+    a: "The central government subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system is ₹78,000 - the maximum subsidy available under the scheme. This comprises ₹30,000 per kW for the first 2 kW (2 × ₹30,000 = ₹60,000) and ₹18,000 for the third kW, totalling ₹78,000. The subsidy is paid directly into the homeowner's bank account by the DISCOM after verifying that the installation is complete, the inverter is ALMM-listed, and the system is net-metered. Some states add a top-up subsidy over and above the central amount."
   - q: "Is 3kW enough for a 2BHK home in India?"
     a: "Yes, 3 kW is sufficient for a typical Indian 2 BHK home running one 1-tonne air conditioner, three fans, a fridge, a TV, and lights simultaneously - a combined load of approximately 2.3–2.8 kW. A 3 kW inverter provides adequate headroom for this profile. However, if the 2 BHK has a 1.5-tonne air conditioner or runs two ACs simultaneously, 3 kW will fall short and a 5 kW inverter is the correct specification. The 3 kW size is the most popular choice precisely because it matches the average 2 BHK load while maximising the PM Surya Ghar subsidy at ₹78,000."
   - q: "Should I choose on-grid or hybrid for a 3kW system?"
@@ -33,12 +33,12 @@ faqs:
     a: "Qbits TLS-3K is the strongest choice for Indian conditions because it offers 12-year full replacement warranty - the longest in the market - combined with IP66 weather protection, ALMM Phase III listing, 98% peak efficiency, and AI-powered WhatsApp monitoring. It handles the 180–270 V Indian grid range without tripping and is backed by a documented 72-hour RMA service commitment. For buyers who need backup power, the Qbits HS-3K hybrid variant adds battery readiness with the same warranty and compliance credentials. Both models are eligible for the full ₹78,000 PM Surya Ghar central subsidy."
 ---
 
-The 3 kW slot is the most important size category in India's residential solar market. Not because of any convention, but because of one specific policy: PM Surya Ghar subsidy peaks at ₹78,000 for a 3 kW system. Every kilowatt above that earns sharply less. For most 2 BHK homeowners, 3 kW is the mathematically right size.
+The 3 kW slot is the most important size category in India's residential solar market. Not because of any convention, but because of one specific policy: PM Surya Ghar subsidy peaks at ₹78,000 for a 3 kW system. Every kilowatt above that earns nothing extra from the central scheme. For most 2 BHK homeowners, 3 kW is the mathematically right size.
 
 The market for it is crowded. Search "best 3kW solar inverter" and you get dozens of brands, inflated efficiency claims, and prices that don't compare cleanly without a framework. This guide reviews five inverters (two Qbits, one each from Sungrow, Goodwe, Growatt) against a structured method, maps which loads a 3 kW unit actually supports in a 2 BHK, and shows the net cost after the subsidy for each.
 
 > **TL;DR**
-> - 3 kW is the subsidy sweet spot: PM Surya Ghar pays a maximum ₹78,000 at exactly 3 kW, with sharply diminishing subsidy per kW above that.
+> - 3 kW is the subsidy sweet spot: PM Surya Ghar pays a maximum ₹78,000 at exactly 3 kW, and no additional central subsidy at all for capacity above that.
 > - A typical 2 BHK (1T AC, fridge, 3 fans, TV, lights) draws about 1,775 W running load, comfortably inside a 3 kW inverter's capacity.
 > - The Qbits TLS-3K (on-grid) and HS-3K (hybrid) both carry a 12-year full replacement warranty, versus 5 years standard from Sungrow, Goodwe, and Growatt.
 > - On-grid inverters shut down completely during a grid outage (anti-islanding); hybrid is the correct choice in areas with 2+ hours of daily power cuts.
@@ -52,7 +52,7 @@ The [on-grid inverter](/glossary/on-grid-inverter/) and [hybrid inverter](/gloss
 
 The PM Surya Ghar Muft Bijli Yojana subsidy structure is not linear. It is designed to channel the maximum government support towards the 3 kW threshold, and the arithmetic makes this clear.
 
-The subsidy slab for residential systems works as follows: ₹30,000 for the first 1 kW, ₹24,000 per kW for the 2nd and 3rd kW, and only ₹9,000 per kW for capacity above 3 kW up to 10 kW. A 3 kW system therefore receives ₹30,000 + ₹24,000 + ₹24,000 = ₹78,000. A 4 kW system receives the same ₹78,000 plus ₹9,000 = ₹87,000. For that additional 1 kW of inverter and panel cost (typically ₹25,000–₹35,000 of hardware) the buyer receives only ₹9,000 in incremental subsidy. The net additional cost for going from 3 kW to 4 kW is therefore ₹16,000–₹26,000, with no corresponding improvement in subsidy rate.
+The subsidy slab for residential systems works as follows: ₹30,000 per kW for the first 2 kW, plus ₹18,000 for the third kW, and nothing at all for capacity above 3 kW. A 3 kW system therefore receives ₹30,000 + ₹30,000 + ₹18,000 = ₹78,000, which is the hard cap. A 4 kW system receives exactly the same ₹78,000. For that additional 1 kW of inverter and panel cost (typically ₹25,000–₹35,000 of hardware) the buyer receives zero incremental subsidy. The net additional cost for going from 3 kW to 4 kW is therefore the full ₹25,000–₹35,000, with no subsidy offset at all.
 
 This makes 3 kW the inflection point. For 2 BHK homeowners whose load profile fits within 3 kW, there is no financial reason to go larger purely for subsidy purposes.
 

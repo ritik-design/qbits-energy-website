@@ -4,7 +4,7 @@ excerpt: "Fronius vs SMA compared for India: 2026 prices after import duty, warr
 description: "An honest Fronius vs SMA comparison for Indian buyers in 2026, covering landed prices with import duty, warranty depth, service networks, PM Surya Ghar eligibility, and the value case for Indian-made alternatives."
 category: "Comparison"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "17 min"
 image: "/blog-images/fronius-vs-sma-india.svg"
 author: "Nirav Dhanani"
@@ -23,7 +23,7 @@ faqs:
   - q: "What warranty do Fronius and SMA offer in India?"
     a: "Fronius offers a 5-year standard warranty in India, extendable to 10 years on registration in some markets, and up to 15 or 25 years in select regions at extra cost. SMA offers 5 years standard with an optional extension to 10 years. By comparison, Qbits offers a 12-year full replacement warranty as standard on its residential inverters, with no registration conditions and no prorated reduction. Warranty depth matters most in years six to ten, which is exactly where imported units become expensive to repair once the standard term ends."
   - q: "Are Fronius and SMA inverters eligible for PM Surya Ghar subsidy?"
-    a: "Yes, imported inverters can be eligible for PM Surya Ghar Muft Bijli Yojana subsidy, but only if the exact model number appears on the MNRE's ALMM list for inverters. Some Fronius and SMA models are listed, but listing is model-specific and changes quarterly. Before paying an advance, ask your installer for the ALMM certificate number of the quoted model and verify it on the official portal. A non-listed model forfeits up to ₹78,000 to ₹84,000 in central subsidy on a 3 to 5 kW system."
+    a: "Yes, imported inverters can be eligible for PM Surya Ghar Muft Bijli Yojana subsidy, but only if the exact model number appears on the MNRE's ALMM list for inverters. Some Fronius and SMA models are listed, but listing is model-specific and changes quarterly. Before paying an advance, ask your installer for the ALMM certificate number of the quoted model and verify it on the official portal. A non-listed model forfeits up to ₹78,000 in central subsidy on a 3 to 5 kW system."
   - q: "How long does Fronius or SMA service take in India?"
     a: "Service turnaround for both brands depends on the local distributor and whether spare parts are in country. Warranty replacements handled through the importer typically take one to four weeks once a fault is confirmed, and out-of-warranty board repairs can take longer because parts ship from Europe. There is no published on-site service-level agreement for residential customers in most Indian cities. Qbits, by contrast, commits to a 72-hour on-site RMA SLA through its authorised service partner network across 280 plus Indian cities."
   - q: "Is the Fronius GEN24 hybrid worth buying in India?"
@@ -99,7 +99,7 @@ Qbits runs a 72-hour on-site RMA SLA through its authorised service partner netw
 
 ## Subsidy Eligibility: The ALMM Gate
 
-Premium pricing means nothing if the inverter kills your subsidy. Under PM Surya Ghar Muft Bijli Yojana, the central subsidy is ₹30,000 for the first kW and ₹18,000 per kW for the next 2 kW. Above 3 kW, the rate is ₹9,000 per kW. The total is capped at ₹78,000 for systems of 3 kW and above, according to the [PM Surya Ghar portal, 2026](https://pmsuryaghar.gov.in/). A 5 kW system qualifies for up to ₹78,000.
+Premium pricing means nothing if the inverter kills your subsidy. Under PM Surya Ghar Muft Bijli Yojana, the central subsidy is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW. Nothing is paid on capacity above 3 kW. The total is capped at ₹78,000 for systems of 3 kW and above, according to the [PM Surya Ghar portal, 2026](https://pmsuryaghar.gov.in/). A 5 kW system qualifies for the same ₹78,000.
 
 The hard gate is the ALMM list for inverters maintained by MNRE. Your subsidy is released only after the DISCOM verifies that the exact installed model is listed. Some Fronius and SMA models appear on the list, but listing is model-specific and revised periodically. A Fronius Primo variant listed this quarter is not a guarantee that the Symo variant your installer quoted is listed too. Our [ALMM list guide](/blog/almm-list-phase-iii-guide/) explains how to verify a model in five minutes. The [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) post has the full state-wise math.
 

@@ -17,13 +17,13 @@ keywords:
   - pvsyst vs surgepv price
 faqs:
   - q: "How much does PVsyst cost in 2026?"
-    a: "PVsyst's Standard licence is roughly €500 per user per year. The Premium licence is custom-priced for larger projects and premium support. PVsyst is desktop, Windows-only, and single-seat, so multi-seat teams accumulate licences linearly."
+    a: "PVsyst's published Standard licence is roughly €500 per user per year at time of writing. The Premium licence is custom-priced for larger projects and premium support. PVsyst is desktop, Windows-only, and single-seat, so multi-seat teams accumulate licences linearly."
   - q: "Does the PVsyst price include a proposal builder?"
-    a: "No. PVsyst is simulation-only. Teams maintain a separate proposal tool, financial model, and CRM. SurgePV includes a branded proposal builder with e-signature in 9 languages on every paid plan."
+    a: "PVsyst is positioned as a simulation tool rather than a proposal tool, so teams typically maintain a separate proposal tool, financial model, and CRM alongside it. Confirm current scope with the vendor. SurgePV includes a branded proposal builder with e-signature in 9 languages on every paid plan."
   - q: "What is the total cost of running PVsyst plus the rest of the stack?"
     a: "For a 5-engineer team, PVsyst plus a proposal tool plus a financial model plus a CRM typically lands $8,000 to $12,000 per year. SurgePV's 5-User Team plan at $6,495 per year all-in usually beats this with the browser-based workflow and the integrated proposal stack."
   - q: "Will browser-based simulation like SurgePV produce yield reports lenders accept?"
-    a: "Yes for most lenders. SurgePV's 8,760-hour module-level simulation mirrors PVsyst's bankable methodology and produces the P50, P75, P90 outputs lenders ask for. A small number of lenders still mandate a PVsyst report by name on first-of-its-kind projects, which can be produced in parallel."
+    a: "In most cases yes, though requirements vary by lender, so confirm before you commit. SurgePV's 8,760-hour module-level simulation mirrors PVsyst's bankable methodology and produces the P50, P75, P90 outputs lenders typically ask for. Some lenders still mandate a PVsyst report by name on first-of-its-kind projects, which can be produced in parallel."
   - q: "Do I need a Windows machine to use PVsyst?"
     a: "Yes. PVsyst is Windows-desktop only. Mac and Linux users need a virtual machine or dual-boot. SurgePV is browser-based on any modern device including Mac, Linux, Chromebook, and iPad."
   - q: "Is PVsyst worth the price?"
@@ -37,7 +37,7 @@ PVsyst is the bankable yield standard, but the Standard licence price is only on
 > **TL;DR**
 > - PVsyst Standard licence is roughly €500 per user per year. Premium is custom.
 > - Windows-only desktop. Mac and Linux users need a VM.
-> - No proposal builder, no real financial model, no AI. Multi-tool stack required.
+> - Positioned as a simulation tool, not a proposal or financial-modelling tool, so most teams run a multi-tool stack.
 > - [SurgePV](https://surgepv.com/) ships the same bankable simulation in the browser, plus proposals plus financials, at $1,299 to $1,899 per user per year.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and rebuild a PVsyst project on the call.
 
@@ -60,13 +60,15 @@ The Standard licence is the headline number, but the real cost of running PVsyst
 
 ## What Is Missing From PVsyst
 
-- No native [branded solar proposal](https://surgepv.com/solar-proposals) builder
-- No real [solar financial modeling](https://surgepv.com/generation-financial-tool) (Excel bolt-on typical, with manual [IRR](/glossary/irr/) and [payback period](/glossary/payback-period/) calculations)
-- No AI design assistant like [Clara AI](https://surgepv.com/clara-ai)
-- No [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite
-- No cloud collaboration
-- No browser access (Mac, Linux, iPad excluded)
-- No multi-language proposal output
+PVsyst is positioned as a bankable simulation tool, so the items below sit outside its scope and teams add them elsewhere. Confirm the current feature list with the vendor.
+
+- Not positioned as a [branded solar proposal](https://surgepv.com/solar-proposals) builder, so quoting runs in separate software
+- Its economic outputs cover system-level cost and energy inputs rather than a full proposal-grade [financial model](https://surgepv.com/generation-financial-tool), so [IRR](/glossary/irr/) and [payback period](/glossary/payback-period/) work is commonly finished in Excel
+- An AI design assistant of the [Clara AI](https://surgepv.com/clara-ai) kind is not part of its published feature set at time of writing
+- [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite is not a positioned use case
+- Real-time cloud collaboration is not part of the desktop model
+- Runs as a Windows desktop application rather than in the browser, so Mac, Linux, and iPad users need a VM
+- Multi-language proposal output is not a positioned use case
 
 ## Total Cost: PVsyst + Stack vs SurgePV
 

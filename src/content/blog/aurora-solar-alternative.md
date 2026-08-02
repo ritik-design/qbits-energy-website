@@ -1,6 +1,6 @@
 ---
 title: "Aurora Solar Alternative 2026: 7 Tools Compared"
-excerpt: "Aurora Solar costs $159 to $259 per user per month. Compare the 7 best Aurora Solar alternatives in 2026 and switch to SurgePV from $1,299/user/yr. Book a demo."
+excerpt: "Aurora Solar is quote-based and publishes no list price. Compare the 7 best Aurora Solar alternatives in 2026 and switch to SurgePV from a published $1,299/user/yr. Book a demo."
 description: "Honest comparison of the 7 best Aurora Solar alternatives in 2026 for installers and EPCs: pricing, 8,760-hour shading, AI 3D roof modeling, and proposals."
 category: "Solar Software"
 date: 2026-06-14
@@ -18,27 +18,27 @@ keywords:
   - aurora solar replacement
 faqs:
   - q: "Is SurgePV cheaper than Aurora Solar?"
-    a: "Yes, by a wide margin. Aurora Solar costs $159 to $259 per user per month, which works out to roughly $1,908 to $3,108 per user per year. SurgePV starts at $1,899 per user per year on the Individual plan and drops to $1,299 per user per year on the 5-User Team plan. For a five-person design team, the annual difference is roughly $9,000 to $18,000, with the same outputs and a full proposal stack included."
+    a: "On the figures buyers report, yes, by a wide margin. Aurora does not publish a list price, so its pricing is quote-based and reported figures vary, commonly cited at $159 to $259 per user per month, which would work out to roughly $1,908 to $3,108 per user per year. Confirm the number with Aurora. SurgePV is published at $1,899 per user per year on the Individual plan and $1,299 per user per year on the 5-User Team plan. Price a five-person team off those reported Aurora bands and the annual difference runs into five figures, with a full proposal stack included on the SurgePV side."
   - q: "Does SurgePV do 8,760-hour shading like Aurora?"
     a: "Yes. SurgePV runs a full 8,760-hour module-level shading simulation, the same hourly granularity Aurora uses, and the same standard PVsyst and lenders accept for bankable yield reports. The shading engine is included on every paid plan, not gated behind an upgrade tier, and runs in the browser without a separate desktop install."
   - q: "Can I migrate my existing Aurora Solar projects to SurgePV?"
     a: "Most working assets transfer cleanly. Project geometry, panel layouts, and site context can be rebuilt from the same satellite imagery in minutes thanks to SurgePV's AI 3D roof modeling. BOQs, single-line diagrams, financial models, and proposals are regenerated inside SurgePV rather than ported, which usually produces a cleaner output. Your onboarding call covers a project-by-project migration plan."
   - q: "What does SurgePV have that Aurora Solar does not?"
-    a: "Three things matter most: Clara AI, a natural-language design assistant that drafts a complete layout from an address; multi-country code and tariff coverage out of the box, including India PM Surya Ghar, Australia AS/NZS, EU and US rules; and an integrated proposal builder with e-signature, so you do not need to bolt on Solargraf or another tool. Pricing is also flat per seat, with no AI Mode add-on or per-design fee."
+    a: "Three things matter most on the SurgePV side: Clara AI, a natural-language design assistant that drafts a complete layout from an address; multi-country code and tariff coverage out of the box, including India PM Surya Ghar, Australia AS/NZS, EU and US rules; and an integrated proposal builder with e-signature, so there is nothing to bolt on for quoting. SurgePV also publishes a flat per-seat price with no separately licensed AI module and no per-design fee, where Aurora describes AI Mode and Sales Mode as separate licences. Aurora's scope changes over time, so confirm its current coverage with the vendor."
   - q: "Why do installers switch from Aurora Solar to SurgePV?"
-    a: "The three reasons that come up most often are price, breadth, and speed. Price, because Aurora's mid and top tiers cost more than most teams need. Breadth, because Aurora's strength is the United States and SurgePV ships with codes and tariffs for six continents. Speed, because SurgePV's AI 3D model from satellite and Clara AI cut the average address-to-branded-proposal time to under 20 minutes."
+    a: "The three reasons that come up most often in our own sales conversations are price, breadth, and speed. Price, because on the reported bands Aurora's mid and top tiers cost more than most teams need. Breadth, because Aurora's strength is the United States and SurgePV ships with codes and tariffs for six continents. Speed, because SurgePV's AI 3D model from satellite and Clara AI cut the average address-to-branded-proposal time to under 20 minutes."
   - q: "Is there a free trial of SurgePV?"
     a: "Yes. SurgePV offers a free trial with no credit card required. You can sign up, model a real project, and generate a branded proposal before committing to a plan. The team also runs free 20-minute live walkthroughs where a SurgePV engineer designs one of your real projects on the call."
   - q: "Does SurgePV work for commercial and utility-scale projects, not just residential?"
     a: "Yes. SurgePV supports residential rooftop, C&I rooftop, ground-mount, carports, BIPV, agrivoltaic, and floating solar. The 8,760-hour simulation runs at module level for any project size, and the platform produces bankable P50, P75, and P90 yield reports that lenders accept for project finance."
   - q: "What is the best Aurora Solar alternative for an EPC team of three to five designers?"
-    a: "SurgePV. The 3-User Team plan is $1,499 per user per year and the 5-User Team plan is $1,299 per user per year, both with the full feature set, including AI 3D roof modeling, 8,760-hour shading, financial modeling, and white-label proposals. At that team size the annual saving against Aurora is typically $9,000 to $18,000 with no loss of capability."
+    a: "SurgePV. The 3-User Team plan is $1,499 per user per year and the 5-User Team plan is $1,299 per user per year, both with the full feature set, including AI 3D roof modeling, 8,760-hour shading, financial modeling, and white-label proposals. Priced against the Aurora figures buyers commonly report, the annual saving at that team size runs into five figures with no loss of capability. Aurora quotes individually, so confirm your own number first."
 ---
 
-If you are searching for an Aurora Solar alternative in 2026, you are not alone. Aurora is a capable platform, but its $159 to $259 per user per month pricing, US-skewed code library, and decision to lock 8,760-hour shading and AI Mode behind upper tiers have pushed many installers and EPCs to look elsewhere. This guide compares seven realistic [solar design software](https://surgepv.com/) options, names the trade-offs honestly, and explains why we recommend [SurgePV](https://surgepv.com/) for most teams that design five or more solar projects a month.
+If you are searching for an Aurora Solar alternative in 2026, you are not alone. Aurora is a capable platform, but the seat pricing buyers report for it, commonly cited at $159 to $259 per user per month, its US-centred code library, and the way hourly shading and AI Mode sit in higher tiers and separate licences have pushed plenty of installers and EPCs to look elsewhere. Aurora prices on quote and repackages over time, so check both with the vendor. This guide compares seven realistic [solar design software](https://surgepv.com/) options, names the trade-offs honestly, and explains why we recommend [SurgePV](https://surgepv.com/) for most teams that design five or more solar projects a month.
 
 > **TL;DR**
-> - Aurora users leave for three reasons: price ($1,908 to $3,108 per user per year), feature gating on lower tiers, and weak global code coverage.
+> - Aurora users tell us they leave for three reasons: price (quote-based, reported at roughly $1,908 to $3,108 per user per year, confirm with the vendor), feature tiering, and a code library centred on the United States.
 > - [SurgePV](https://surgepv.com/) is the all-in-one replacement. AI 3D roof modeling, 8,760-hour shading, bankable yield, AutoCAD export, and white-label proposals in one license at $1,299 to $1,899 per user per year.
 > - You can [book a free SurgePV demo](https://surgepv.com/demo) and design one of your real projects on the call. No slides, no credit card.
 
@@ -51,33 +51,33 @@ If you are searching for an Aurora Solar alternative in 2026, you are not alone.
 
 ## Why Installers Look for an Aurora Solar Alternative
 
-Aurora Solar built its reputation on residential design accuracy in the United States. Most teams who shop for an alternative are not unhappy with the engineering output. They are unhappy with what surrounds it. Pull through the public reviews on G2 and Reddit, and the same four themes appear in almost every thread.
+Aurora Solar built its reputation on residential design accuracy in the United States. Most teams who shop for an alternative are not unhappy with the engineering output. They are unhappy with what surrounds it. Across public review sites and installer forums, and in the switching conversations we have, the same four themes keep coming up.
 
 ### Pricing pressure
 
-Aurora's published pricing on third-party trackers sits between $159 per user per month on the entry-grade plan and $259 per user per month on the higher tiers. That is roughly $1,908 to $3,108 per user per year. Add the AI Mode upgrade and the Sales Mode bundle, and a five-seat team can land north of $20,000 per year before anyone has generated a single proposal. For installers used to per-design or seat-based tools that cost a third of that, Aurora's contract feels heavy.
+Aurora does not publish a list price. Pricing is quote-based, and the figures reported on third-party trackers vary, typically landing between $159 per user per month on the entry-grade plan and $259 per user per month on the higher tiers. That would be roughly $1,908 to $3,108 per user per year. Add the AI Mode and Sales Mode licences on top of that, and a five-seat team can find the annual total running past $20,000 before anyone has generated a single proposal. Confirm the real number with Aurora. For installers used to seat-based tools that cost a third of that, the contract feels heavy.
 
 ### Features gated by tier
 
-8,760-hour shading is what makes a yield report bankable. Single-point or simplified shading is not the same product. Many Aurora users report that to get the full hourly engine, plus advanced 3D, plus the AI features, you have to climb at least two tiers. SurgePV ships the full [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) engine on every paid plan, including the Individual tier, alongside a full [PV simulation](https://surgepv.com/solar-simulation-software) stack.
+8,760-hour shading is what makes a yield report bankable. Single-point or simplified shading is not the same product. Buyers we speak to report having to climb tiers, and add separately licensed modules, to get the full hourly engine plus advanced 3D plus the AI features together. Packaging changes, so ask Aurora what your quote includes. SurgePV ships the full [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) engine on every paid plan, including the Individual tier, alongside a full [PV simulation](https://surgepv.com/solar-simulation-software) stack.
 
 ### US-skewed library
 
-Aurora is the strongest platform in the United States. Outside it, the cracks show. NEC rules are deeply wired, but IS code for India, AS/NZS for Australia, BS 7671 for the United Kingdom, VDE for Germany, and IEC for Latin America are either missing or partial. Tariff libraries are similar. If you sell [PM Surya Ghar](/glossary/pm-surya-ghar/) in India or Einspeisevergütung schemes in Germany, you end up redoing the financial model by hand instead of using a built-in [bankable yield report](https://surgepv.com/generation-financial-tool) tied to local rates.
+Aurora is one of the strongest platforms in the United States. Outside it, the fit gets harder. NEC rules are deeply wired, and Aurora markets itself around the US market rather than around IS code for India, AS/NZS for Australia, BS 7671 for the United Kingdom, VDE for Germany, or IEC for Latin America. Buyers outside the US should test those specific standards on a real project rather than assume coverage either way. Tariff libraries follow the same pattern. If you sell [PM Surya Ghar](/glossary/pm-surya-ghar/) in India or Einspeisevergütung schemes in Germany, you end up redoing the financial model by hand instead of using a built-in [bankable yield report](https://surgepv.com/generation-financial-tool) tied to local rates.
 
 ### Speed and Mac performance
 
-A recurring complaint in installer forums is the 3D renderer's responsiveness on Mac and on lower-spec laptops. Aurora is a heavy product. SurgePV is browser-first and is engineered to load a finished 3D model in under a minute, even on a Chromebook or an iPad. The same project can be opened on mobile during a site walk and pushed straight into a [solar design platform](https://surgepv.com/solar-designing) workflow back at the desk.
+A theme we see raised in installer forums is 3D renderer responsiveness on Mac and on lower-spec laptops. Performance depends heavily on the machine and the project, so test it on your own hardware. SurgePV is browser-first and is engineered to load a finished 3D model in under a minute, even on a Chromebook or an iPad. The same project can be opened on mobile during a site walk and pushed straight into a [solar design platform](https://surgepv.com/solar-designing) workflow back at the desk.
 
 ## SurgePV vs Aurora Solar at a Glance
 
 | Capability | SurgePV | Aurora Solar |
 | --- | --- | --- |
-| Starting price | $1,299 / user / yr (5-seat) | ~$1,908 / user / yr (entry) |
-| Top published price | $1,899 / user / yr | ~$3,108 / user / yr |
+| Starting price | $1,299 / user / yr (5-seat), published | ~$1,908 / user / yr (entry), reported |
+| Top price | $1,899 / user / yr, published | ~$3,108 / user / yr, reported |
 | Free trial, no credit card | Yes | Limited |
 | AI 3D roof from satellite | Included all plans | AI Mode add-on |
-| 8,760-hour module-level shading | Included all plans | Gated on lower tiers |
+| 8,760-hour module-level shading | Included all plans | Tier-dependent, check your quote |
 | Bankable P50 / P75 / P90 | Included | Available |
 | AI design assistant | Clara AI, included | AI Mode, paid add-on |
 | Module / inverter database | 70,000 / 12,000 | Large but US-skewed |
@@ -87,14 +87,14 @@ A recurring complaint in installer forums is the 3D renderer's responsiveness on
 | Languages supported | 9 | English primary |
 | Cloud, browser-based | Native | Native |
 
-The pattern is consistent. Aurora unbundles to upsell. SurgePV bundles to compete on total cost of ownership. For a five-seat design team, the gap on annual contract is roughly $9,000 to $18,000.
+The pattern is consistent. Aurora sells design, AI, and sales presentation as separate licences. SurgePV bundles them and competes on total cost of ownership. Priced off the reported Aurora bands, the gap for a five-seat design team runs into five figures a year, though only your two written quotes settle it.
 
 ## The Migration Story: What You Get With SurgePV
 
 Switching from Aurora is not just a price move. It is a workflow move. Here is the feature map most teams care about.
 
 **AI 3D roof modeling from satellite**
-You type the address. SurgePV pulls high-resolution satellite imagery and builds a 3D model with roof planes, obstructions, ridges, and setbacks in under 60 seconds. No drone, no on-site visit, no separate measurement service. Accuracy benchmarks against LIDAR ground truth come in around 3 percent. See how [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) is wired into the design canvas.
+You type the address. SurgePV pulls high-resolution satellite imagery and builds a 3D model with roof planes, obstructions, ridges, and setbacks in under 60 seconds. No drone, no on-site visit, no separate measurement service. In SurgePV's own internal testing against LIDAR ground truth, deviation comes in around 3 percent, which is a vendor figure worth checking on your own buildings during a trial. See how [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) is wired into the design canvas.
 
 **Clara AI, natural-language design**
 Tell [Clara AI](https://surgepv.com/clara-ai) "lay out a 9.6 kW system with two MPPT strings, avoid the chimney setback, prioritise the south face" and she drafts the design before you finish your coffee. You stay in control and edit anything, but the first pass is done. This is the [AI solar design assistant](https://surgepv.com/clara-ai) Aurora's AI Mode gestures at, included by default.
@@ -112,8 +112,8 @@ NEC, IEC, AS/NZS, IS code libraries. PM Surya Ghar, [SREC](/glossary/rec/), [FiT
 [QuickEstimate](https://quickestimate.co/) is the sister CRM most SurgePV teams pair with. It handles lead capture, follow-ups, PM Surya Ghar subsidy auto-calculation, and the e-signed contract once SurgePV produces the design. The two products were built to hand off to each other cleanly.
 
 <div class="inline-cta">
-<h3>Get the same Aurora outputs for up to 7x less</h3>
-<p>SurgePV starts at $1,299 per user per year for teams of 5, versus Aurora's $159 to $259 per user per month. Same 8,760-hour engine, full proposal suite, included AI.</p>
+<h3>Same Aurora outputs, at a published flat per-seat price</h3>
+<p>SurgePV is published at $1,299 per user per year for teams of 5, with the 8,760-hour engine, full proposal suite, and Clara AI included. Aurora is quote-based and publishes no list price, so put our number next to your written Aurora quote.</p>
 <a href="https://surgepv.com/pricing" class="cta-btn" target="_blank" rel="noopener noreferrer">Compare Plans <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Annual billing · Cancel anytime · Includes Clara AI</p>
 </div>
@@ -127,21 +127,21 @@ There is a real market of Aurora competitors. We have used or evaluated each of 
 **Best for:** Installers and EPCs designing five or more projects a month, in any country, who want one license to replace Aurora, HelioScope, PVsyst, and Solargraf.
 **Strengths:** AI 3D roof modeling from satellite, 8,760-hour shading at module level on every plan, Clara AI assistant, branded proposals with e-signature in the same workflow, multi-country code and tariff library, transparent flat pricing.
 **Weaknesses:** Newer than Aurora, so the user community is smaller. Some niche US AHJ permit quirks are still maturing.
-**SurgePV vs Aurora Solar:** Same engineering depth, broader country coverage, integrated proposal stack, roughly one-third the annual cost at the 5-seat team tier.
+**SurgePV vs Aurora Solar:** In our view, comparable engineering depth, broader country coverage, and an integrated proposal stack, at a published $1,299 per seat per year on the 5-seat team tier. Aurora quotes individually, so compare that against your own written quote.
 
 ### 2. [HelioScope](/blog/helioscope-alternative/)
 
 **Best for:** Engineers in commercial and utility design who want a pure simulation tool and already have a separate proposal workflow.
 **Strengths:** Strong reputation among engineering teams, mature 8,760-hour simulation, layout flexibility for C&I.
-**Weaknesses:** Published pricing ranges from $99 to over $300 per user per month depending on tier and feature set. No native proposal builder. UX is engineer-first, which slows sales staff.
-**SurgePV vs HelioScope:** SurgePV ships the same 8,760-hour simulation, plus the proposal and CRM-adjacent stack HelioScope has never built.
+**Weaknesses:** Published pricing at the time of writing ranges from $99 to over $300 per user per month depending on tier and feature set. Not positioned as a proposal tool, so most teams pair it with separate quoting. UX is engineer-first, which slows sales staff.
+**SurgePV vs HelioScope:** SurgePV ships the same 8,760-hour simulation, plus the proposal and CRM-adjacent layer HelioScope leaves to other tools.
 
 ### 3. [OpenSolar](/blog/opensolar-alternative/)
 
 **Best for:** Small residential installers who are highly price-sensitive and design simple roofs.
 **Strengths:** Free entry tier. Reasonable design experience for straightforward residential systems. Active community.
-**Weaknesses:** The "free" model is funded by add-ons. Hardware integrations and certain proposal features cost extra. The simulation engine is not on the same level as a true 8,760-hour PVsyst-class product, and C&I shading gets thin fast.
-**SurgePV vs OpenSolar:** If you are growing past residential or you need bankable yield reports, SurgePV is the upgrade path. OpenSolar's pricing model breaks down at C&I.
+**Weaknesses:** OpenSolar describes its model publicly as free to installers, funded through hardware and finance partners, with some capability sold as paid extensions. In our own testing the simulation engine is not aimed at PVsyst-class hourly reporting, and C&I shading work gets thin faster than it does in engineering-first tools.
+**SurgePV vs OpenSolar:** If you are growing past residential or you need bankable yield reports, SurgePV is the upgrade path. In our view the OpenSolar model is scoped for residential rather than C&I.
 
 ### 4. [Pylon](/blog/pylon-alternative/)
 
@@ -154,14 +154,14 @@ There is a real market of Aurora competitors. We have used or evaluated each of 
 
 **Best for:** Installers whose differentiator is drone-based site capture and as-built models.
 **Strengths:** High-fidelity drone capture. Strong measurement accuracy if you already operate a drone fleet.
-**Weaknesses:** Drone-dependent workflow adds cost and operational overhead. Not a full design platform. Per-project pricing.
-**SurgePV vs Scanifly:** SurgePV's AI 3D model from satellite reaches comparable accuracy on most rooftops without a drone or a site visit. Faster, cheaper, and includes the rest of the design stack.
+**Weaknesses:** The drone-led workflow adds cost and operational overhead. Positioned as survey and as-built capture rather than as a full design and proposal platform, so most teams run it alongside one. Pricing is quote-based and reported structures vary, so confirm with the vendor.
+**SurgePV vs Scanifly:** In our own testing, SurgePV's AI 3D model from satellite is close enough on most standard rooftops to design from without a drone or a site visit. Faster and cheaper per project, and it includes the rest of the design stack.
 
 ### 6. [Solargraf](/blog/solargraf-alternative/)
 
 **Best for:** Residential-only teams that want fast templated proposals and care less about engineering depth.
 **Strengths:** Good-looking proposal templates. Fast quote generation.
-**Weaknesses:** Owned by Enphase, which colours hardware-neutral design. Engineering tooling is shallower than Aurora or SurgePV. Subscription pricing per seat.
+**Weaknesses:** Owned by Enphase, so buyers who want a demonstrably hardware-neutral workflow should satisfy themselves on that point directly. In our view the engineering tooling is shallower than Aurora or SurgePV. Subscription pricing per seat.
 **SurgePV vs Solargraf:** SurgePV gives you the same proposal speed plus full engineering, multi-OEM hardware neutrality, and bankable simulation in one tool. If proposals are the bottleneck, the [solar proposal software](https://surgepv.com/solar-proposals) inside SurgePV is the direct replacement.
 
 ### 7. QuickEstimate (paired with SurgePV)
@@ -173,22 +173,22 @@ There is a real market of Aurora competitors. We have used or evaluated each of 
 
 ## Pricing: Aurora vs SurgePV vs the Field
 
-We pulled current published pricing from each vendor's site, plus public reviews on G2 and Capterra. Prices below are illustrative and round to the published bands at the time of writing. Always confirm with the vendor before signing.
+Where a vendor publishes prices, the figures below come from its own site at the time of writing. Where it does not, and Aurora and Scanifly do not, the figures are reported bands from third-party trackers and buyers, and they vary. Everything here is illustrative. Always confirm with the vendor before signing.
 
-| Tool | Plan | Published price | Notes |
+| Tool | Plan | Price | Notes |
 | --- | --- | --- | --- |
-| SurgePV | Individual | $1,899 / user / yr | Full feature set, Clara AI included |
-| SurgePV | 3-User Team | $1,499 / user / yr | Up to 3 seats |
-| SurgePV | 5-User Team | $1,299 / user / yr | Up to 5 seats, lowest unit cost |
-| Aurora Solar | Entry | ~$1,908 / user / yr | AI Mode and Sales Mode are extra |
-| Aurora Solar | Mid / Higher | ~$2,388 to $3,108 / user / yr | 8,760-hour shading typically here |
-| HelioScope | Per user | $99 to $300+ / user / month | Engineering focus, no proposals |
-| OpenSolar | Free + add-ons | Free entry, paid extensions | Add-ons stack quickly at C&I |
+| SurgePV | Individual | $1,899 / user / yr, published | Full feature set, Clara AI included |
+| SurgePV | 3-User Team | $1,499 / user / yr, published | Up to 3 seats |
+| SurgePV | 5-User Team | $1,299 / user / yr, published | Up to 5 seats, lowest unit cost |
+| Aurora Solar | Entry | ~$1,908 / user / yr, reported | Quote-based, reported figures vary. AI Mode and Sales Mode separately licensed |
+| Aurora Solar | Mid / Higher | ~$2,388 to $3,108 / user / yr, reported | Quote-based, confirm with the vendor |
+| HelioScope | Per user | $99 to $300+ / user / month, published list at time of writing | Engineering focus, quoting handled elsewhere |
+| OpenSolar | Free + add-ons | Free to installers, paid extensions | Partner-funded model, per the vendor |
 | Pylon | Module-based | Varies | Per-feature pricing |
-| Scanifly | Per project | Varies | Plus drone operating cost |
-| Solargraf | Per seat | ~$1,200 to $2,400 / user / yr | Residential-leaning |
+| Scanifly | Per project | Quote-based, reported figures vary | Plus drone operating cost |
+| Solargraf | Per seat | ~$1,200 to $2,400 / user / yr, reported | Quote-based, confirm with the vendor. Residential-leaning |
 
-For a five-person design team running Aurora at the middle tier, total cost lands around $14,000 to $18,000 per year. SurgePV's 5-User Team plan is $6,495 per year, all-in, with the AI assistant included. That is the headline number that drives most of the switching decisions we see. The full [SurgePV pricing](https://surgepv.com/pricing) page lays out every plan side by side.
+Price a five-person design team against the reported Aurora bands at the middle tier and the total works out around $14,000 to $18,000 per year. That is arithmetic on reported figures rather than a quotation, since Aurora prices individually. SurgePV's 5-User Team plan is $6,495 per year, all-in, with the AI assistant included. That is the headline number that drives most of the switching decisions we see. The full [SurgePV pricing](https://surgepv.com/pricing) page lays out every plan side by side.
 
 ## How to Switch From Aurora Solar to SurgePV
 
@@ -215,7 +215,15 @@ For everyone else, the verdict is unchanged. SurgePV is the Aurora alternative t
 
 <div class="inline-cta">
 <h3>Ready to cut design time by 70 percent?</h3>
-<p>SurgePV combines AI 3D roof modeling, 8,760-hour shading, bankable yield reports, and white-label proposals in one platform, at a fraction of Aurora or HelioScope pricing.</p>
+<p>SurgePV combines AI 3D roof modeling, 8,760-hour shading, bankable yield reports, and white-label proposals in one platform, at a flat published per-seat price. Aurora is quote-based, so bring your quote and compare.</p>
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
+
+## About This Comparison
+
+Pricing, features and product positioning described here were checked in July 2026 using publicly available vendor information. Vendors change pricing, packaging and capabilities without notice, and several do not publish prices at all. Treat every figure as a starting point for your own enquiry rather than a quotation, and confirm current terms directly with each vendor before making a purchasing decision.
+
+All product names, logos and trademarks are the property of their respective owners. Reference to them here is for identification and comparison only and does not imply any affiliation with, sponsorship by, or endorsement from those companies. SurgePV is a Qbits Energy product, so treat this as a vendor comparison written by an interested party and weigh it alongside independent sources and your own trial of the tools.
+
+Where we could not verify a claim from a primary source we have said so in the text rather than repeating it. If you believe anything here is inaccurate or out of date, contact us and we will review and correct it.

@@ -4,7 +4,7 @@ excerpt: "Huawei vs Sungrow in India 2026: residential and C&I ranges, real pric
 description: "Huawei vs Sungrow solar inverter comparison for India 2026. Compare SUN2000 vs SG series on price, efficiency, warranty, service network, and RMA experience, with Qbits as the local-service alternative."
 category: "Comparison"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "18 min"
 image: "/blog-images/huawei-vs-sungrow-india.svg"
 author: "Nirav Dhanani"
@@ -25,7 +25,7 @@ faqs:
   - q: "What warranty do Huawei and Sungrow offer in India?"
     a: "Sungrow offers a 10-year standard warranty on its residential SG and SH ranges in India, extendable up to 25 years at additional cost. Huawei's standard warranty on C&I SUN2000 inverters is 60 months, or 5 years, per its official warranty policy document, with paid extensions available. Warranty terms in India depend on buying through authorised channels, since grey-market units carry no India warranty. For comparison, Qbits offers a 12-year full replacement warranty as standard on its TLS and HS series."
   - q: "Is Sungrow ALMM listed and eligible for PM Surya Ghar subsidy?"
-    a: "Yes, Sungrow's residential and commercial models sold through official India channels appear on the ALMM register and qualify for PM Surya Ghar Muft Bijli Yojana subsidy when installed by an empanelled vendor. The central subsidy is Rs 30,000 for the first kW, Rs 18,000 per kW for the next 2 kW, and Rs 9,000 per kW above 3 kW up to 10 kW. Always verify the specific model number on the current ALMM list, because listing is model-specific and updated periodically."
+    a: "Yes, Sungrow's residential and commercial models sold through official India channels appear on the ALMM register and qualify for PM Surya Ghar Muft Bijli Yojana subsidy when installed by an empanelled vendor. The central subsidy is Rs 30,000 per kW for the first 2 kW and Rs 18,000 for the third kW, capped at Rs 78,000 with nothing paid on capacity above 3 kW. Always verify the specific model number on the current ALMM list, because listing is model-specific and updated periodically."
   - q: "How fast is warranty claim service for Chinese inverter brands in India?"
     a: "Industry-observed warranty claim response times in India run 4 to 6 days for Sungrow through its 25-plus city network, and longer in Tier-3 towns where service rides on EPC partners. Huawei claims in the residential segment depend heavily on the importing distributor, so timelines vary widely by city. Parts for less common models sometimes ship from overseas, adding 2 to 4 weeks. Indian manufacturers with local spare stock, such as Qbits with its under-72-hour RMA SLA, close this gap structurally."
   - q: "Should I buy a Chinese inverter or a made-in-India inverter in 2026?"

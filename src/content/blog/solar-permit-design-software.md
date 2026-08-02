@@ -59,7 +59,7 @@ Every Authority Having Jurisdiction wants a slightly different bundle, but the s
 2. **Electrical layout.** Module locations on the roof or ground, string assignments, [MLPE](/glossary/mlpe/) positions if used, conduit runs, and combiner or string inverter locations.
 3. **[Single line diagram](/blog/solar-sld-software/) (SLD).** The schematic that walks from PV array through DC disconnect, inverter, AC disconnect, production meter, and main service panel. This is the most-scrutinized sheet.
 4. **Equipment datasheets.** Module, inverter, optimizer, and racking cut sheets, usually appended as PDF pages.
-5. **Code compliance labels.** NEC 690 and 705 labels for the US, IEC 60364-7-712 for Europe, AS-NZS 5033 for Australia and New Zealand, IS 16221 for India — the same standard [Qbits' on-grid](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/) are certified against.
+5. **Code compliance labels.** NEC 690 and 705 labels for the US, IEC 60364-7-712 for Europe, AS-NZS 5033 for Australia and New Zealand, IS 16221 for India, the same standard [Qbits' on-grid](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/) are certified against.
 6. **Structural attestation.** A roof attachment schedule and, in many jurisdictions, a stamped letter from a licensed structural engineer, the kind of structural and civil engineering work Heaven Designs handles for stamped submittals.
 7. **AHJ-specific extras.** Some cities want a placard schedule, others want a fire access diagram, others want a [battery storage addendum](/blog/solar-plus-storage-design-software/).
 

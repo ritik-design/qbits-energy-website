@@ -141,7 +141,7 @@ Still common, and the most likely place a pre-2022 net metering assumption is qu
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
 | PVsyst | Yes | Partial | Manual | Manual | No | ~EUR 500 |
-| PV*SOL | Yes | Yes | Manual | Manual | Partial | ~EUR 1,000+ |
+| PV*SOL | Yes | Yes | Manual | Manual | Partial | ~EUR 585 to 845 |
 | OpenSolar | Partial | Partial | No | No | Yes | Free |
 | Aurora Solar | Yes | Yes | No | No | Yes | $1,908 to $3,108+ |
 | Spreadsheet | Manual | Manual | Manual | Manual | No | Effectively free |

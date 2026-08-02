@@ -19,7 +19,7 @@ faqs:
   - q: "Which is better, HelioScope or PVsyst?"
     a: "It depends on what 'better' means. PVsyst has 20+ years of lender acceptance and is the desktop standard for bankable yield reports. HelioScope is browser-based with strong C&I layout flexibility. For lender-mandated reports, PVsyst still leads. For everyday production design and engineering, HelioScope is more productive. SurgePV ships browser-based bankable simulation that mirrors PVsyst's methodology plus full layout and proposal tools."
   - q: "Are HelioScope and PVsyst yield reports equivalent?"
-    a: "Both use 8,760-hour module-level simulation methodologies. PVsyst's specific report format is mandated by some lenders. HelioScope's outputs are accepted by most others. Differences are small in P50, larger in long-tail P90 outputs depending on shading and soiling assumptions. SurgePV's methodology mirrors PVsyst's bankable approach."
+    a: "Both use 8,760-hour module-level simulation methodologies. PVsyst's specific report format is mandated by some lenders, and HelioScope outputs are widely used in project-finance submissions, so confirm what your lender requires. Differences are small in P50, larger in long-tail P90 outputs depending on shading and soiling assumptions. SurgePV's methodology mirrors PVsyst's bankable approach."
   - q: "Is HelioScope or PVsyst cheaper?"
     a: "PVsyst Standard at ~€500 per user per year is cheaper at the headline number. HelioScope at $99 to $300+ per user per month is more expensive on the seat fee. Total cost at team scale is closer once you account for PVsyst's missing proposal stack, Windows-only constraint, and per-seat desktop licensing."
   - q: "Can I use HelioScope and PVsyst together?"
@@ -37,7 +37,7 @@ HelioScope and PVsyst are the two tools most engineering teams compare when bank
 > **TL;DR**
 > - PVsyst is the desktop standard for lender-mandated yield reports.
 > - HelioScope is the browser-based engineering productivity tool.
-> - Both miss the proposal stack and the financial model.
+> - Neither is positioned as a proposal or financial-modelling tool, so both are usually paired with other software.
 > - [SurgePV](https://surgepv.com/) ships browser-based bankable simulation matching PVsyst's methodology, plus AI design, plus proposals, plus financials at $1,299 to $1,899 per user per year.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and rebuild a real project on the call.
 
@@ -57,11 +57,13 @@ HelioScope and PVsyst are the two tools most engineering teams compare when bank
 | Bankable P50 / P75 / P90 | Yes | Industry standard | Yes |
 | Pricing | $99 to $300+ / user / mo | ~€500 / user / yr | $1,299 to $1,899 / user / yr |
 | Lender acceptance | Most lenders | Industry standard | Most lenders |
-| AI design assistant | Not available | Not available | Clara AI included |
-| Native proposals | Not supported | Not supported | Included |
-| Financial modelling | Limited | Limited | Included |
+| AI design assistant | Not in published scope | Not in published scope | Clara AI included |
+| Native proposals | Not a positioned use case | Not a positioned use case | Included |
+| Financial modelling | Energy-focused outputs | Energy-focused outputs | Full proposal-grade model |
 | AutoCAD DXF / DWG | Available | Available | Included |
 | Mac / Linux / iPad | Yes | No (VM required) | Yes |
+
+Rows reflect each vendor's published feature set and pricing at time of writing. Confirm current scope and price with each vendor before deciding.
 
 ## Where PVsyst Wins
 [PVsyst](/blog/pvsyst-alternative/) has two decades of lender acceptance and remains the desktop standard for [bankable yield reports](/glossary/p50-p90/). Some IPP and project-finance workflows still mandate PVsyst-format outputs.
@@ -106,7 +108,7 @@ HelioScope and PVsyst are the two tools most engineering teams compare when bank
 - **Choose HelioScope** if browser-based engineering productivity is your single biggest constraint and you have a separate proposal tool.
 - **Choose SurgePV** if you want browser-based bankable simulation plus the proposal stack plus financials in one license.
 
-For most engineering teams in 2026, SurgePV consolidates the HelioScope plus PVsyst plus proposal stack into one workflow — see the full [HelioScope vs PVsyst comparison](https://surgepv.com/compare/helioscope-vs-pvsyst/) for the complete breakdown.
+For most engineering teams in 2026, SurgePV consolidates the HelioScope plus PVsyst plus proposal stack into one workflow. See the full [HelioScope vs PVsyst comparison](https://surgepv.com/compare/helioscope-vs-pvsyst/) for the complete breakdown.
 
 <div class="inline-cta">
 <h3>Ready to bring the full stack into one browser tool?</h3>

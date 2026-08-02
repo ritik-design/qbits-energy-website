@@ -4,7 +4,7 @@ excerpt: "Enphase vs SolarEdge compared for Indian rooftops: architecture, Rs/W 
 description: "Enphase vs SolarEdge in India 2026: microinverter vs power optimizer architecture, India pricing in Rs/W, warranty and service reality, shading use cases, and when an Indian string or hybrid inverter delivers better value."
 category: "Comparison"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "18 min"
 image: "/blog-images/enphase-vs-solaredge-india.svg"
 author: "Keyur Rakholiya"
@@ -23,7 +23,7 @@ faqs:
   - q: "What warranty do Enphase and SolarEdge offer in India?"
     a: "Enphase offers a 10-year standard warranty on microinverters sold in India, extendable to 15 or 25 years for a one-time fee paid within 6 months of installation, according to Ornate Solar (2026). SolarEdge offers 12 years on the inverter and 25 years on the power optimizers, with inverter extension to 20 or 25 years available at extra cost. The SolarEdge optimizer warranty is the longest component coverage in this comparison, but the inverter itself, the part most likely to fail, is covered for less than half the system's design life unless you pay for the extension. Qbits offers 12 years of full replacement coverage as standard on its string and hybrid inverters."
   - q: "Do Enphase and SolarEdge inverters qualify for PM Surya Ghar subsidy?"
-    a: "Subsidy eligibility under PM Surya Ghar depends on the exact model being on the ALMM list and the system being installed by an empanelled vendor, not on the brand alone. Both Enphase and SolarEdge have ALMM-listed models for the Indian market, but listing is model-specific and changes quarterly, so verify the certificate number for the exact unit in your quote on the MNRE portal before signing. A non-listed model forfeits Rs 66,000 to Rs 84,000 in central subsidy on a 3 to 5 kW residential system. Most Indian string inverter brands, including Qbits, maintain ALMM listing across their residential range."
+    a: "Subsidy eligibility under PM Surya Ghar depends on the exact model being on the ALMM list and the system being installed by an empanelled vendor, not on the brand alone. Both Enphase and SolarEdge have ALMM-listed models for the Indian market, but listing is model-specific and changes quarterly, so verify the certificate number for the exact unit in your quote on the MNRE portal before signing. A non-listed model forfeits up to Rs 78,000 in central subsidy on a 3 to 5 kW residential system. Most Indian string inverter brands, including Qbits, maintain ALMM listing across their residential range."
   - q: "How much more energy do microinverters produce on a shaded roof?"
     a: "On a roof with genuine partial shading, module-level power electronics recover roughly 5 to 25 percent more energy than a single-MPPT string inverter, depending on shade severity and duration. The gain is highest when one or two panels are shaded for several hours daily, such as from a water tank, chimney, or neighbouring building. On an unshaded, single-orientation roof, the real-world gain shrinks to 1 to 3 percent, which rarely justifies the cost premium. A dual-MPPT string inverter with the shaded panels on their own string captures most of the recoverable energy on split roofs, which is why a shade survey should come before the architecture decision."
   - q: "What happens when an Enphase microinverter fails versus a SolarEdge inverter?"

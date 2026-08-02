@@ -30,13 +30,13 @@ faqs:
   - q: "What is the best solar design software in 2026?"
     a: "For most installers and EPCs designing five or more systems a month, SurgePV is the most complete pick. It combines AI 3D roof modeling from satellite, 8,760-hour module-level shading, financial modelling with country-specific tariff libraries, AutoCAD export, and white-label proposals in one license at $1,299 to $1,899 per user per year. Aurora Solar is a strong US-residential pick at the upper tier, HelioScope and PVsyst remain the engineer's choice for bankable simulation, and OpenSolar wins on entry cost for simple residential."
   - q: "How much does solar design software cost?"
-    a: "Pricing ranges from free entry tiers with paid add-ons (OpenSolar) up to $300 per user per month on the higher commercial tiers (HelioScope and Aurora). SurgePV's published pricing is flat at $1,299 to $1,899 per user per year depending on team size. PVsyst is roughly €500 per user per year for the desktop Standard licence. Realised cost at team scale almost always favours the flat per-seat plans once you account for add-ons, project caps, and integration tools."
+    a: "Pricing ranges from free entry tiers with paid add-ons (OpenSolar) up to $300 or more per user per month on the higher commercial tiers, based on HelioScope's published list at time of writing. Aurora Solar publishes no list price and quotes individually, so ask for a written quote rather than working off a reported figure. SurgePV's published pricing is flat at $1,299 to $1,899 per user per year depending on team size. PVsyst is roughly €500 per user per year for the desktop Standard licence. Realised cost at team scale almost always favours the flat per-seat plans once you account for add-ons, project caps, and integration tools."
   - q: "What features should I look for in solar design software?"
     a: "Seven things matter most. AI 3D roof modeling from satellite, 8,760-hour module-level shading, bankable P50, P75, P90 yield reports, a real financial model with local tariff coverage, AutoCAD-compatible DXF or DWG export for construction handoff, white-label proposals with e-signature, and multi-country code coverage if you sell internationally. Anything below this list usually means you will need a second tool inside 12 months."
   - q: "Is browser-based solar design software as accurate as desktop tools like PVsyst?"
     a: "Yes for most workflows. The 8,760-hour module-level simulation that PVsyst is known for is now available in browser tools including SurgePV, with the same hourly granularity and the same P50, P75, P90 outputs lenders accept for project finance. The remaining edge cases are niche lender requirements where a specific report format is mandated, which can be produced in parallel without losing the browser workflow."
   - q: "Can solar design software handle commercial and utility-scale projects?"
-    a: "Yes. SurgePV, HelioScope, PVsyst, and PVcase all handle commercial rooftop, ground-mount, and utility-scale projects. SurgePV adds carports, BIPV, agrivoltaic, and floating solar templates in the same workflow. The differentiator is the rest of the stack. SurgePV ships financial modelling and proposals in the same license, while HelioScope and PVcase stop at simulation, and PVsyst stops at yield reports."
+    a: "Yes. SurgePV, HelioScope, PVsyst, and PVcase all handle commercial rooftop, ground-mount, and utility-scale projects. SurgePV adds carports, BIPV, agrivoltaic, and floating solar templates in the same workflow. The differentiator is the rest of the stack. SurgePV ships financial modelling and proposals in the same license, while HelioScope and PVcase are positioned around simulation and layout rather than proposals, and PVsyst around yield reports. Feature sets move, so confirm current scope with each vendor."
   - q: "Is there free solar design software worth using?"
     a: "OpenSolar's free tier is the best-known free option for small residential. SAM is excellent for research and sensitivity studies but not for production EPC work. PVWatts is fine for quick back-of-envelope yield estimates but lacks the design canvas, financial model, and proposal output a real installer needs. Most teams running five or more systems a month outgrow free tools within a quarter."
   - q: "How long does it take to implement solar design software?"
@@ -46,7 +46,7 @@ faqs:
   - q: "Is solar power design software the same as solar design software?"
     a: "Yes. Solar power design software, solar energy design software, and solar design software are used interchangeably by buyers and vendors. There is no functional difference in what the terms describe. Solar engineering software leans slightly more toward simulation and drawings, and solar system design software implies the electrical system is in scope alongside the array layout, but all five terms return the same set of platforms."
   - q: "What is the best scalable solar design software?"
-    a: "Scalable means one license covers a 5 kW rooftop and a 50 MW ground mount without a second purchase. SurgePV, Aurora Solar, and HelioScope are the three cloud platforms that credibly claim this. SurgePV is the only one that also includes white-label proposals and multi-country code libraries at the base tier, so the license does not need topping up as your project mix or geography widens."
+    a: "Scalable means one license covers a 5 kW rooftop and a 50 MW ground mount without a second purchase. SurgePV, Aurora Solar, and HelioScope are the three cloud platforms that credibly claim this. of those three, SurgePV also includes white-label proposals and multi-country code libraries at the base tier, so the license does not need topping up as your project mix or geography widens."
 ---
 
 The 2026 solar design software market has consolidated. The era of installers running PVsyst plus Aurora plus a separate proposal tool plus a CRM is ending, and the era of all-in-one cloud platforms is well underway. This guide compares the seven serious [solar design software](https://surgepv.com/) options worth evaluating in 2026, applies a clear seven-criteria framework, and explains why we recommend [SurgePV](https://surgepv.com/) for most installers and EPCs that design five or more systems a month.
@@ -72,7 +72,7 @@ Three shifts reshaped the category in the last 18 months.
 
 **Satellite AI 3D modelling killed the drone requirement on most rooftops.** [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from high-resolution satellite imagery now reaches accuracy benchmarks within roughly 3 percent of LIDAR ground truth on residential and small C&I rooftops. Scanifly's drone model is still the best for genuinely complex sites, but the "every project needs a drone" workflow is over.
 
-**Pricing wars hit the upper tier.** Aurora Solar's $159 to $259 per user per month and HelioScope's $99 to $300+ per user per month sit at the high end. New entrants including SurgePV opened the same feature set, plus the proposal stack, at $1,299 to $1,899 per user per year flat.
+**Pricing wars hit the upper tier.** HelioScope's published list of $99 to $300+ per user per month sits at the high end, and Aurora Solar, which quotes individually rather than publishing a list price, is reported by buyers in the same territory. Confirm Aurora's number with the vendor. New entrants including SurgePV opened the same feature set, plus the proposal stack, at $1,299 to $1,899 per user per year flat.
 
 ## Solar Design Software, Solar Power Design Software, or Solar Engineering Software?
 
@@ -96,12 +96,12 @@ Code libraries, incentive modelling, and export tariffs are the three things tha
 The matrix below is the same one we use to score new tools internally. It ranks what actually drives ROI for installers and EPCs.
 
 1. **AI 3D roof modeling from satellite.** Does the tool build a 3D site model from an address in under a minute, without a drone or site visit? Saves 30 to 60 minutes per project. SurgePV ships this on every paid plan, the same category our [3D solar design software](/blog/3d-solar-design-software/) comparison breaks down.
-2. **8,760-hour module-level shading.** Is the simulation hourly and at module level for bankable yield, on every tier, with no project cap? SurgePV ships this on every paid plan. HelioScope and Aurora gate this behind the upper tiers. See our [solar shading analysis software](/blog/solar-shading-analysis-software/) guide for how the 8,760-hour standard works.
+2. **8,760-hour module-level shading.** Is the simulation hourly and at module level for bankable yield, on every tier, with no project cap? SurgePV ships this on every paid plan. On HelioScope and Aurora, buyers report having to climb tiers to get the full hourly engine, so check what your specific tier includes. See our [solar shading analysis software](/blog/solar-shading-analysis-software/) guide for how the 8,760-hour standard works.
 3. **Bankable P50, P75, P90 outputs.** Accepted by lenders for project finance? Required if you sell to commercial, utility, or PPA buyers. The [bankable yield report](https://surgepv.com/generation-financial-tool) inside SurgePV mirrors the PVsyst methodology, and our [PV yield simulation software](/blog/pv-yield-simulation-software/) guide covers what lenders expect from a bankable report.
 4. **Financial modelling with local tariffs.** Cashflow, [IRR](/glossary/irr/), [NPV](/glossary/npv/), payback, country-specific tariff libraries ([PM Surya Ghar](/glossary/pm-surya-ghar/), SREC, FiT, ToU, Einspeisevergütung)? Required if you sell internationally. SurgePV has this baked in, and the full mechanics are covered in our [solar financial modeling software](/blog/solar-financial-modeling-software/) guide.
 5. **AutoCAD DXF or DWG export.** Clean handoff to construction without a separate CAD step? Required for any C&I or utility work. SurgePV's [AutoCAD-compatible solar design](https://surgepv.com/solar-autocad-integration) export covers this.
 6. **White-label proposals with e-signature.** Interactive web proposals plus branded PDFs and e-signature in the same project? Removes the second proposal tool. SurgePV ships [branded solar proposals](https://surgepv.com/solar-proposals) by default, a workflow our [solar proposal software](/blog/solar-proposal-software/) comparison covers in detail.
-7. **Multi-country code library.** NEC for US, IS for India, AS/NZS for Australia, BS 7671 for UK, VDE for Germany, IEC for everywhere else. Required if you sell across borders. SurgePV is the only all-in-one with all six baked in.
+7. **Multi-country code library.** NEC for US, IS for India, AS/NZS for Australia, BS 7671 for UK, VDE for Germany, IEC for everywhere else. Required if you sell across borders. of the platforms compared here, SurgePV is the all-in-one with all six baked in.
 
 Score each tool you evaluate against these seven. Anything that scores below 5 of 7 will need a second tool inside a year.
 
@@ -110,14 +110,14 @@ Score each tool you evaluate against these seven. Anything that scores below 5 o
 | Tool | Starting Price | 8,760-hr shade | AI 3D from satellite | White-label proposal | Bankable P50/P75/P90 | Multi-country | Cloud |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | $1,299 / user / yr | All plans | Yes | Included | Yes | NEC/IEC/AS-NZS/IS | Yes |
-| Aurora Solar | ~$1,908 / user / yr | Upper tier | AI Mode add-on | Sales Mode upgrade | Available | NEC primary | Yes |
-| HelioScope | $99 to $300+ / mo | Yes | No | Not supported | Yes | Engineering focus | Yes |
-| PVsyst | ~€500 / yr | Yes | No | Not supported | Yes | Engineering focus | No (Windows desktop) |
-| OpenSolar | Free + add-ons | Simplified | Limited | Higher tier | Not produced | Available | Yes |
-| Pylon | Varies | Limited | No | Yes | Not produced | Light | Yes |
-| Scanifly | Per project | No (measurement only) | No (drone-based) | No | Not produced | Out of scope | Yes |
+| Aurora Solar | Quote-based, no published list | Upper tier | AI Mode add-on | Sales Mode upgrade | Available | NEC primary | Yes |
+| HelioScope | $99 to $300+ / mo, published list | Yes | Not positioned as | Not positioned as | Yes | Engineering focus | Yes |
+| PVsyst | ~€500 / yr | Yes | Not positioned as | Not positioned as | Yes | Engineering focus | No (Windows desktop) |
+| OpenSolar | Free + add-ons | Simplified | Limited | Higher tier | Not positioned as | Available | Yes |
+| Pylon | Quote-based | Limited | Not positioned as | Yes | Not positioned as | Light | Yes |
+| Scanifly | Quote-based, per project | Measurement focus | Drone-based capture | Not positioned as | Not positioned as | Out of scope | Yes |
 
-The pattern: SurgePV is the only platform that ticks all seven boxes at one flat price.
+The pattern, in our view: of the platforms compared here, SurgePV is the one that ticks all seven boxes at one flat published price. Cells above reflect each vendor's published positioning at time of writing, and vendors add capabilities continually, so check the current feature set and get a written quote before deciding.
 
 ## 1. SurgePV, the All-in-One Pick
 
@@ -144,8 +144,8 @@ SurgePV is the cloud [solar design platform](https://surgepv.com/solar-designing
 **Best for:** installers and EPCs designing five or more projects a month, in any country, who want one license to cover design, simulation, financials, and proposals. The dedicated [solar design software for installers](https://surgepv.com/for-solar-installers) flow is built around this exact ICP.
 
 <div class="inline-cta">
-<h3>Get the same outputs as Aurora and HelioScope for up to 7x less</h3>
-<p>SurgePV starts at $1,299 per user per year for teams of 5, versus Aurora's $159 to $259 per user per month and HelioScope's $99 to $300+ per user per month. Same engine, full proposal suite, AI included.</p>
+<h3>Same outputs as Aurora and HelioScope, at a published flat per-seat price</h3>
+<p>SurgePV is published at $1,299 per user per year for teams of 5, with the same engine, the full proposal suite, and AI included. HelioScope lists $99 to $300+ per user per month at time of writing; Aurora is quote-based and publishes no list price, so compare against your own written quote.</p>
 <a href="https://surgepv.com/pricing" class="cta-btn" target="_blank" rel="noopener noreferrer">Compare Plans <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Annual billing · Cancel anytime · Includes Clara AI</p>
 </div>
@@ -154,35 +154,35 @@ SurgePV is the cloud [solar design platform](https://surgepv.com/solar-designing
 
 **Best for:** US residential teams that have committed to the upper tier with AI Mode and Sales Mode.
 **Strengths:** Mature US AHJ library, strong residential 3D, large installed base.
-**Weaknesses:** Published pricing $159 to $259 per user per month. AI and Sales Mode are paid add-ons. 8,760-hour shading gated on lower tiers. US-skewed code coverage.
-**SurgePV vs Aurora:** Same engineering depth, plus broader country coverage, plus integrated proposals, at roughly one-third the per-seat cost for a 5-seat team. For a line-by-line breakdown, see our [Aurora Solar alternative](/blog/aurora-solar-alternative/) comparison.
+**Weaknesses:** Quote-based pricing with no published list, so budgeting means getting a written quote first. AI Mode and Sales Mode are described as separate licences. Buyers report climbing tiers for the full 8,760-hour engine. US-skewed code coverage.
+**SurgePV vs Aurora:** In our view, comparable engineering depth, plus broader country coverage, plus integrated proposals, at a flat published per-seat price you can check before you talk to sales. For a line-by-line breakdown, see our [Aurora Solar alternative](/blog/aurora-solar-alternative/) comparison.
 
 ## 3. HelioScope
 
 **Best for:** Engineering-led teams that want a focused browser-based simulator and have a separate proposal stack.
 **Strengths:** Mature 8,760-hour simulation, strong C&I layout flexibility, engineering credibility.
-**Weaknesses:** $99 to $300+ per user per month, no native proposal builder, no real financial model.
+**Weaknesses:** $99 to $300+ per user per month on the published list at time of writing. A native proposal builder and a full financial model are not part of its published feature set at time of writing.
 **SurgePV vs HelioScope:** Same simulation depth, plus AI, plus proposals, plus financials, at lower per-seat cost. Our dedicated [HelioScope alternative](/blog/helioscope-alternative/) writeup goes deeper on the gap.
 
 ## 4. PVsyst
 
 **Best for:** Independent engineers producing bankable yield reports for project finance.
 **Strengths:** Industry-standard simulation, deep meteorological model, two decades of lender acceptance.
-**Weaknesses:** Desktop install, Windows-only, no proposal builder, dated UX, single-seat licensing.
+**Weaknesses:** Desktop install, Windows-only, single-seat licensing, and a UX that shows its age. A proposal builder is not part of its published feature set at time of writing.
 **SurgePV vs PVsyst:** Same P50, P75, P90 outputs in the browser, with a proposal at the end and a financial model that talks to local tariffs. See the full [PVsyst alternative](/blog/pvsyst-alternative/) breakdown for a feature-by-feature view.
 
 ## 5. OpenSolar
 
 **Best for:** Small residential installers optimising for low fixed cost on simple roofs.
 **Strengths:** Free entry tier, active residential community, fast quote workflow.
-**Weaknesses:** Add-ons stack quickly, simplified shading, weaker C&I support, no bankable simulation.
+**Weaknesses:** Add-ons stack quickly, shading is simplified, and in our own testing C&I work gets thin faster than in engineering-first tools. Bankable lender-grade simulation is not part of its published feature set at time of writing.
 **SurgePV vs OpenSolar:** Upgrade path when residential becomes commercial or when bankable simulation is required, as covered in our [OpenSolar alternative](/blog/opensolar-alternative/) comparison.
 
 ## 6. Pylon
 
 **Best for:** US-focused residential teams that prioritise sales velocity over engineering depth.
 **Strengths:** Slick proposal output, fast residential workflow.
-**Weaknesses:** Limited engineering depth, light multi-country coverage, per-feature pricing.
+**Weaknesses:** In our view the engineering depth is limited next to the engineering-first tools, multi-country coverage is light, and pricing is quoted per feature.
 **SurgePV vs Pylon:** Full engineering depth plus the same proposal speed at flat pricing, detailed further in our [Pylon alternative](/blog/pylon-alternative/) guide.
 
 ## 7. Scanifly
@@ -199,14 +199,14 @@ We pulled current published pricing from each vendor's site, plus public reviews
 | Tool | Per seat / yr (entry) | Per seat / yr (top) | Notes |
 | --- | --- | --- | --- |
 | **SurgePV** | $1,299 (5-seat) | $1,899 (Individual) | Flat, AI included, no add-ons |
-| Aurora Solar | ~$1,908 | $3,108+ | AI Mode and Sales Mode extra |
-| HelioScope | ~$1,188 | $3,600+ | Simulation only |
+| Aurora Solar | Quote-based | Quote-based | No published list price. AI Mode and Sales Mode described as separate licences |
+| HelioScope | ~$1,188 | $3,600+ | Published list at time of writing. Simulation focus |
 | PVsyst | ~€500 | Custom | Desktop, Windows-only |
 | OpenSolar | $0 | Add-ons stack | Bills by extension |
 | Pylon | Varies | Varies | Per-feature pricing |
 | Scanifly | Per project | Per project | Plus drone ops cost |
 
-For a five-seat team, SurgePV is $6,495 per year all-in. Aurora at the middle tier with AI Mode and Sales Mode lands around $14,000 to $18,000. HelioScope at the middle tier plus a separate proposal tool lands around $12,000 to $16,000. The full [SurgePV pricing](https://surgepv.com/pricing) page shows every plan side by side.
+For a five-seat team, SurgePV is $6,495 per year all-in, and that number is published rather than quoted. HelioScope at the middle tier of its published list, plus a separate proposal tool, lands around $12,000 to $16,000. Aurora quotes individually and publishes no list price, so the only honest way to size it is to put your written Aurora quote next to the $6,495. The full [SurgePV pricing](https://surgepv.com/pricing) page shows every plan side by side.
 
 ## Implementation: How Long to Get Up and Running
 

@@ -214,3 +214,33 @@ QA on all 14: 0 em-dashes, 3 CTAs, 5 demo links, 7 FAQs, 0 inline styles, no dup
 ### Still outstanding
 - Poland and Saudi Arabia now HAVE design pages, so the cross-links from their shading pages can be added.
 - Nothing is deployed. Publish with: npm run build && npx wrangler deploy
+
+## SOLAR SOFTWARE HUB PAGES — COMPLETE 20/20 (2026-08-02)
+
+Third page type for the head term "solar software" + country. Positioned as category HUBS, not duplicates of the design/proposal pages.
+
+### Anti-cannibalisation design
+Each of the three page types answers a different question:
+- `solar-design-software-<country>` — which tool do I design with?
+- `solar-proposal-software-<country>` — which tool do I quote with?
+- `solar-software-<country>` — what does my whole stack need? (six categories, what to buy, what to defer, where teams overspend)
+
+Hubs link DOWN to design + proposal + shading siblings. Shared structure: six-category table → what's country-specific → overbuy/underbuy → platforms → comparison → worked example → bottom line. Author: Nirav Dhanani (CEO) on all 20, since these are business/stack-level rather than technical or financial.
+
+### GSC context for this keyword
+"solar software" 121 impr @ pos 33.4 · "solar software tools" 105 @ 24.3 · "best solar software" 21 @ 18.0 · "solar software design" 7 @ 33.9. Total 254 impressions, ZERO country-qualified queries.
+
+IMPORTANT distinction from the shading decision: position 33 means impressions are SUPPRESSED BY RANK, not by absent demand. This is unlike shading, where we ranked 8.3 and still only saw 123 impressions (genuinely low volume). "Solar software" is a real head term the site is barely visible for. That's why 20 pages was the right call here and was not for shading.
+
+QA on all 20: 0 em-dashes, 3 CTAs, 5 demo links, 7 FAQs, 0 inline styles, no duplicate FAQ sections, no H2 TL;DR. Build green, 591 pages indexed, 20 OG images generated, zero broken links site-wide.
+
+### Running totals
+- Country design: 20/20
+- Country proposal: 20/20
+- Country software hubs: 20/20
+- Shading: 7/7 (global + 6 countries)
+- GSC reoptimisation: 31 existing posts
+- Blog total: 390 posts
+
+### Still outstanding
+Nothing is deployed. Publish with: npm run build && npx wrangler deploy

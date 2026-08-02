@@ -17,13 +17,13 @@ keywords:
   - aurora helioscope alternative
 faqs:
   - q: "Which is better, Aurora Solar or HelioScope?"
-    a: "It depends on your team's primary job. Aurora is stronger for US residential sales-led teams that want proposals built into the design tool. HelioScope is stronger for engineering teams that prioritise simulation depth. Both cost between $99 and $300+ per user per month. SurgePV ships both engineering depth and integrated proposals at $1,299 to $1,899 per user per year flat."
+    a: "It depends on your team's primary job. Aurora is stronger for US residential sales-led teams that want proposals built into the design tool. HelioScope is stronger for engineering teams that prioritise simulation depth. Both sit in the $99 to $300+ per user per month band, using HelioScope's published rates and indicative third-party figures for Aurora, which does not publish list pricing. SurgePV ships both engineering depth and integrated proposals at $1,299 to $1,899 per user per year flat."
   - q: "Is Aurora or HelioScope cheaper?"
-    a: "HelioScope's entry tier at ~$99 per user per month is the lower entry point. Aurora's entry tier at ~$159 per user per month is higher but includes more residential design tooling. At the upper tiers, both cost $200 to $300+ per user per month. SurgePV's flat $1,299 to $1,899 per user per year is the lowest-cost option that ships the same engineering depth plus the proposal stack."
+    a: "HelioScope's published entry tier at about $99 per user per month is the lower entry point. Aurora does not publish list pricing, but third-party trackers put its entry tier near $159 per user per month at time of writing, higher but including more residential design tooling. At the upper tiers, both cost $200 to $300+ per user per month. SurgePV's flat $1,299 to $1,899 per user per year is the lowest-cost option that ships the same engineering depth plus the proposal stack."
   - q: "Which has better 8,760-hour shading, Aurora or HelioScope?"
     a: "HelioScope's simulation engine is widely considered the more mature engineering tool. Aurora's 8,760-hour shading is competitive at the upper tier. SurgePV ships an 8,760-hour module-level engine that matches the bankable methodology PVsyst uses, on every paid plan."
   - q: "Can I use Aurora for engineering and HelioScope for proposals?"
-    a: "That is the wrong direction. Aurora has a proposal builder via Sales Mode; HelioScope does not. Most teams running both pick Aurora for residential workflow and HelioScope for C&I engineering, which is a two-tool stack. SurgePV consolidates both into one license."
+    a: "That is the wrong direction. Aurora offers a proposal builder via Sales Mode, while HelioScope is not positioned as a proposal tool. Most teams running both pick Aurora for residential workflow and HelioScope for C&I engineering, which is a two-tool stack. SurgePV consolidates both into one license."
   - q: "Why would I consider SurgePV instead of Aurora or HelioScope?"
     a: "Three reasons. First, total cost: SurgePV at flat $1,299 to $1,899 per user per year beats the realised cost of either Aurora or HelioScope at team size by 35 to 65 percent. Second, all-in-one: SurgePV ships both engineering depth (8,760-hour module-level shading, bankable yield) and a proposal stack (e-signature, 9 languages). Third, multi-country: NEC, IEC, AS/NZS, IS code libraries plus country-specific tariffs."
   - q: "Which is best for utility-scale, Aurora or HelioScope?"
@@ -54,19 +54,21 @@ The Aurora vs HelioScope debate has been running for years. Aurora wins on sales
 | --- | --- | --- | --- |
 | Starting price | ~$159 / user / mo | ~$99 / user / mo | $1,299 / user / yr (5-seat) |
 | Top price | ~$259 / user / mo | $300+ / user / mo | $1,899 / user / yr (Individual) |
-| AI 3D roof from satellite | AI Mode add-on | Not supported | Included all plans |
+| AI 3D roof from satellite | AI Mode add-on | Not in published scope | Included all plans |
 | 8,760-hour module-level shading | Upper tier | Mid + higher tier | Included all plans |
 | Bankable P50 / P75 / P90 | Available | Yes | Included |
-| AI design assistant | AI Mode (paid) | Not available | Clara AI included |
-| Native proposals | Sales Mode (paid) | Not supported | Included |
+| AI design assistant | AI Mode (paid) | Not in published scope | Clara AI included |
+| Native proposals | Sales Mode (paid) | Not a positioned use case | Included |
 | Multi-country code library | US primary | Engineering focus | NEC, IEC, AS/NZS, IS |
 | Cloud, browser-based | Yes | Yes | Yes |
+
+Rows reflect each vendor's published feature set and pricing at time of writing. Aurora does not publish list pricing, so its figures are indicative from third-party trackers. Confirm current scope and price with each vendor.
 
 ## Where Aurora Wins
 Aurora is the stronger choice for US residential teams that want one tool for design and proposal, especially at the upper tier with AI Mode and Sales Mode. The 3D modelling for residential rooftops is mature and the user base is large. See our [Aurora Solar pricing breakdown](/blog/aurora-solar-pricing/) for the exact plan costs behind that upper tier.
 
 ## Where HelioScope Wins
-HelioScope is the stronger choice for engineering-led teams. The simulation engine is widely respected, C&I layout flexibility is strong, and engineers find the UX productive. There is no native proposal builder. Our [HelioScope pricing guide](/blog/helioscope-pricing/) covers plan costs in detail, and the [HelioScope alternative comparison](/blog/helioscope-alternative/) ranks six tools if you are weighing a full switch.
+HelioScope is the stronger choice for engineering-led teams. The simulation engine is widely respected, C&I layout flexibility is strong, and engineers find the UX productive. It is not positioned as a proposal tool, so most teams pair it with separate quoting software. Our [HelioScope pricing guide](/blog/helioscope-pricing/) covers plan costs in detail, and the [HelioScope alternative comparison](/blog/helioscope-alternative/) ranks six tools if you are weighing a full switch.
 
 ## Why SurgePV Is the Third Option Worth Considering
 [SurgePV](https://surgepv.com/) is built around the realisation that most teams need both engineering depth and a proposal stack. The product ships:

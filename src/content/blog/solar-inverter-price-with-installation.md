@@ -4,7 +4,7 @@ excerpt: "Solar inverter price with installation in India 2026: itemized all-in 
 description: "The inverter sticker price is only 25 to 40 percent of what you actually pay. Itemized all-in cost breakdown for 3 kW, 5 kW and 10 kW solar systems in India 2026, including labour, cabling, earthing, structure, net meter fees and commissioning, plus the questions to ask installers to avoid hidden charges."
 category: "Buying Guide"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "17 min"
 image: "/blog-images/solar-inverter-price-with-installation.svg"
 author: "Nirav Dhanani"
@@ -17,7 +17,7 @@ keywords:
   - solar installation labour cost india
 faqs:
   - q: "What is the real price of a 5 kW solar inverter with installation in India in 2026?"
-    a: "The inverter alone costs ₹45,000 to ₹65,000 for a good on-grid 5 kW unit in 2026. But a complete 5 kW solar system with panels, mounting structure, cabling, earthing, protection boxes, net metering and installation labour costs ₹2.6 Lakh to ₹3.4 Lakh before subsidy. After the PM Surya Ghar central subsidy of up to ₹84,000, the effective homeowner cost falls to roughly ₹1.8 Lakh to ₹2.6 Lakh depending on panel brand and installer pricing."
+    a: "The inverter alone costs ₹45,000 to ₹65,000 for a good on-grid 5 kW unit in 2026. But a complete 5 kW solar system with panels, mounting structure, cabling, earthing, protection boxes, net metering and installation labour costs ₹2.6 Lakh to ₹3.4 Lakh before subsidy. After the PM Surya Ghar central subsidy of up to ₹78,000, the effective homeowner cost falls to roughly ₹1.8 Lakh to ₹2.6 Lakh depending on panel brand and installer pricing."
   - q: "Why is the installed price so much higher than the inverter price?"
     a: "The inverter is only one of seven or eight cost components in a rooftop solar system. Panels are the largest cost, typically 50 to 60 percent of the total. The mounting structure adds 8 to 12 percent, DC and AC cabling with protection boxes adds 8 to 10 percent, and labour plus commissioning adds 8 to 12 percent. On a 5 kW system, everything except the inverter accounts for roughly ₹2 Lakh to ₹2.7 Lakh of the ₹2.6 Lakh to ₹3.4 Lakh all-in price."
   - q: "How much does solar installation labour cost in India in 2026?"
@@ -27,7 +27,7 @@ faqs:
   - q: "Is the net meter cost included in solar installation quotes?"
     a: "Often it is not. Many installers quote the system price without the net meter application fee, the bidirectional meter cost or DISCOM inspection charges. Depending on your state DISCOM, these add ₹3,000 to ₹12,000 to your final bill. Ask explicitly whether the quote covers net metering end to end, including the application, the meter and the DISCOM liaison, before signing anything."
   - q: "Does the PM Surya Ghar subsidy cover installation charges?"
-    a: "Yes, indirectly. The PM Surya Ghar central subsidy is calculated on system capacity, not on component cost, so it applies against the total installed system price. The subsidy is ₹30,000 for the first 1 kW, ₹18,000 per kW for the next 2 kW, and ₹9,000 per kW above 3 kW up to 10 kW. For a 5 kW system that totals ₹84,000, which typically covers 25 to 32 percent of the all-in installed cost. The system must use ALMM-listed components and an empanelled vendor."
+    a: "Yes, indirectly. The PM Surya Ghar central subsidy is calculated on system capacity, not on component cost, so it applies against the total installed system price. The subsidy is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000 with nothing paid above 3 kW. A 5 kW system therefore claims the same ₹78,000 as a 3 kW system, which typically covers 23 to 30 percent of the all-in installed cost. The system must use ALMM-listed components and an empanelled vendor."
   - q: "Should I buy the inverter separately and hire an installer?"
     a: "For most homeowners, no. Buying the inverter separately saves at most 5 to 8 percent on the component price, but you lose single-point warranty accountability. When the system underperforms, the panel seller blames the installer and the installer blames the inverter. A single EPC contract with an itemized quote gives you one party responsible for generation, warranty and subsidy paperwork. Separate purchase only makes sense for experienced buyers managing their own C&I project."
 featured: false
@@ -45,7 +45,7 @@ This guide closes that gap. You will see exactly what each component costs in 20
 > - Installation labour runs ₹15,000 to ₹25,000 on a 5 kW system; cabling and protection boxes add ₹25,000 to ₹38,000.
 > - Earthing (2 to 3 pits) and lightning protection add ₹6,000 to ₹15,000 and are the most commonly skipped items in cheap quotes.
 > - Net meter fees and DISCOM charges add ₹3,000 to ₹12,000 and are excluded from many headline quotes.
-> - PM Surya Ghar subsidy of up to ₹84,000 on a 5 kW system applies against the installed cost, cutting net homeowner spend by 25 to 32 percent.
+> - PM Surya Ghar subsidy of up to ₹78,000 applies against the installed cost, cutting net homeowner spend by 23 to 30 percent. It is capped at the 3 kW band, so a 5 kW system gets the same ₹78,000.
 > - A quote that is 20 percent below market almost always excludes structure, earthing or net metering. Itemized quotes are the only safe comparison.
 
 **Short version.** In 2026, the solar inverter price with installation in India is roughly ₹1.8 Lakh to ₹2.4 Lakh for a 3 kW system. A 5 kW system runs ₹2.6 Lakh to ₹3.4 Lakh and a 10 kW system ₹4.8 Lakh to ₹6.2 Lakh, all-in before subsidy. The inverter itself is only ₹25,000 to ₹1.2 Lakh of that. Always compare itemized quotes, not inverter sticker prices.
@@ -144,19 +144,19 @@ Itemized quotes are the exception in the Indian residential market, not the rule
 
 ## How Subsidy Changes the Real All-In Cost
 
-The PM Surya Ghar Muft Bijli Yojana subsidy applies to the installed residential system, calculated by capacity. The central subsidy scale is ₹30,000 for the first 1 kW and ₹18,000 per kW for the next 2 kW. Above 3 kW, the rate is ₹9,000 per kW up to 10 kW.
+The PM Surya Ghar Muft Bijli Yojana subsidy applies to the installed residential system, calculated by capacity. The central subsidy scale is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW. Above 3 kW there is no further central subsidy, so ₹78,000 is the maximum.
 
 | System Size | All-In Cost (Before Subsidy) | Central Subsidy | Effective Cost |
 | --- | --- | --- | --- |
 | 3 kW | ₹1.6L to ₹2.4L | ₹78,000 | ₹0.8L to ₹1.6L |
-| 5 kW | ₹2.5L to ₹3.6L | ₹84,000 | ₹1.7L to ₹2.8L |
-| 10 kW | ₹4.7L to ₹6.7L | ₹1,17,000 | ₹3.5L to ₹5.5L |
+| 5 kW | ₹2.5L to ₹3.6L | ₹78,000 | ₹1.7L to ₹2.8L |
+| 10 kW | ₹4.7L to ₹6.7L | ₹78,000 | ₹3.9L to ₹5.9L |
 
 Subsidy figures are per the structure published on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), 2026. The [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) guide on this site tracks state top-ups.
 
 Three conditions gate the subsidy, and all three connect to installation:
 
-- The inverter and panels must be ALMM-listed. A cheaper non-ALMM inverter forfeits ₹78,000 to ₹1,17,000 in subsidy, which dwarfs any saving on the unit price.
+- The inverter and panels must be ALMM-listed. A cheaper non-ALMM inverter forfeits up to ₹78,000 in subsidy, which dwarfs any saving on the unit price.
 - The vendor must be empanelled on the PM Surya Ghar portal. The subsidy application goes through the installer.
 - The system must be net metered and commissioned with DISCOM verification. This is why a quote that excludes net metering can quietly cost you the entire subsidy.
 

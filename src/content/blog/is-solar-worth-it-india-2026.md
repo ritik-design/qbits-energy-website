@@ -1,7 +1,7 @@
 ---
 title: "Is Solar Worth It in India in 2026?"
 excerpt: "Is solar worth it in India in 2026? Yes, for homeowners with bills above ₹3,000/month, their own roof, and a 5-year horizon. The Solar Decision Test gives you the honest answer in 5 questions."
-description: "Is solar worth it in India in 2026? Yes, for homeowners with bills above ₹3,000/month, own roof, and a 5-year horizon — the Solar Decision Test explains."
+description: "Is solar worth it in India in 2026? Yes, for homeowners with bills above ₹3,000/month, own roof, and a 5-year horizon. The Solar Decision Test explains."
 category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08

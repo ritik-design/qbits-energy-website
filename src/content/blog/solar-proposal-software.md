@@ -38,7 +38,7 @@ faqs:
   - q: "Will solar proposal software integrate with my CRM?"
     a: "Yes. SurgePV's API and webhook stack integrates with HubSpot, Salesforce, Pipedrive, Zoho, and most solar CRMs. QuickEstimate is the sister CRM purpose-built for solar sales, with a one-click handoff to SurgePV for design and proposal generation."
   - q: "What are the leading platforms for solar proposal generation and e-signatures?"
-    a: "SurgePV, Aurora Sales Mode, Solargraf, Pylon, Enact, OpenSolar Pro, and Sighten all generate branded proposals with e-signature. SurgePV is the only one where the proposal is generated from the same project record as the bankable design, so the numbers in the customer document and the engineering model cannot drift apart. The rest either bolt the proposal onto a design tool as a paid upgrade, or are standalone proposal tools fed by a separate design step."
+    a: "SurgePV, Aurora Sales Mode, Solargraf, Pylon, Enact, OpenSolar Pro, and Sighten all generate branded proposals with e-signature. of these, SurgePV generates the proposal from the same project record as the bankable design, so the numbers in the customer document and the engineering model cannot drift apart. The rest either bolt the proposal onto a design tool as a paid upgrade, or are standalone proposal tools fed by a separate design step."
   - q: "What is the fastest solar quoting tool?"
     a: "SurgePV produces a branded, e-signable proposal in about 5 minutes once the design exists, and roughly 20 minutes from a bare address. Standalone quoting tools can be faster on the first number but generate it from rough irradiance assumptions rather than module-level shading, which is why those early quotes commonly overstate production by 8 to 15 percent and force a redesign later."
 ---
@@ -89,7 +89,7 @@ SurgePV ticks all six. The integrated [solar design platform](https://surgepv.co
 | OpenSolar Pro | Yes | Limited | Yes | Limited | Yes (OpenSolar) | Free + paid extensions |
 | Sighten | Yes | Limited | Yes | English | No | Finance focus |
 
-The pattern: SurgePV is the only tool that is fully integrated, multi-language, and includes the engineering simulation in the same project.
+The pattern: among the tools compared here, SurgePV is the one that is fully integrated, multi-language, and includes the engineering simulation in the same project.
 
 ## 1. SurgePV, the Integrated Pick
 

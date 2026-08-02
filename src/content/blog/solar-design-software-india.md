@@ -107,7 +107,7 @@ The comparison below focuses on what matters when you are quoting a real Indian 
 | Clara AI design assistant | Yes | No equivalent | No | Limited | No | No |
 | Built by India delivery team | Yes (Heaven Designs) | No | No | No | Yes | Yes |
 
-The pattern is clear. Global tools win on simulation depth but lose on India workflow. Indian-built tools win on subsidy and tariff coverage but lose on AI 3D fidelity, module-level shading and bankable yield. SurgePV is the only platform that ships both layers on every plan.
+The pattern is clear. Global tools win on simulation depth but lose on India workflow. Indian-built tools win on subsidy and tariff coverage but lose on AI 3D fidelity, module-level shading and bankable yield. of the platforms compared here, SurgePV ships both layers on every plan.
 
 <div class="inline-cta">
 <h3>One Price. Everything Included.</h3>

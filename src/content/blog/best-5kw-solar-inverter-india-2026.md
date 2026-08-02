@@ -4,7 +4,7 @@ excerpt: "The best 5kW solar inverter for Indian 3BHK homes depends on grid reli
 description: "Compare the best 5kW solar inverters in India 2026 by use case, on-grid, hybrid, and budget, with PM Surya Ghar subsidy, specs, and warranty analysis."
 category: "Comparison"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-08-02
 readTime: "21 min"
 image: "/blog-images/3kw-vs-5kw-vs-10kw-solar-inverters.svg"
 author: "Nirav Dhanani"
@@ -24,7 +24,7 @@ faqs:
   - q: "Is a 5kW solar system enough for a 3BHK home in India?"
     a: "Yes, a 5 kW solar system covers the typical load profile of an Indian 3 BHK home well. A standard 3 BHK running one 1.5-tonne AC, four fans, a fridge, a TV, a washing machine, and lights peaks at approximately 3.5–4.5 kW. A 5 kW system provides 10–15% headroom over this peak, accounting for surge loads. Daily generation from a 5 kW system averages 18–22 units in most Indian cities with 4.5–5.5 peak sun hours, which typically matches or exceeds the daily consumption of a mid-sized 3 BHK family."
   - q: "What subsidy is available on a 5kW solar system under PM Surya Ghar?"
-    a: "Under PM Surya Ghar Muft Bijli Yojana, the central subsidy for a 5 kW system is capped at the 3 kW subsidy amount plus a partial rate for the remaining 2 kW. The subsidy is ₹30,000 for the first 1 kW, ₹18,000 per kW for the next 2 kW (total ₹66,000 for 3 kW), and ₹9,000 per kW for capacity above 3 kW up to 10 kW. For a 5 kW system, the subsidy amounts to ₹66,000 plus ₹18,000 (2 kW × ₹9,000), totalling ₹84,000 maximum central subsidy. The inverter must be ALMM-listed and installed by a registered vendor."
+    a: "Under PM Surya Ghar Muft Bijli Yojana, the central subsidy for a 5 kW system is capped at the 3 kW subsidy amount. The subsidy is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, totalling ₹78,000, and nothing is paid on capacity above 3 kW. For a 5 kW system the maximum central subsidy is therefore ₹78,000, the same as for a 3 kW system. The inverter must be ALMM-listed and installed by a registered vendor."
   - q: "What is the difference between a 5kW on-grid and 5kW hybrid inverter?"
     a: "A 5 kW on-grid inverter converts solar energy to AC power and exports surplus to the grid; it shuts down automatically during any grid outage due to anti-islanding safety requirements and cannot provide backup power. A 5 kW hybrid inverter does everything the on-grid does, but also manages a battery bank - charging batteries from solar and discharging them to power your home during grid outages. The hybrid option costs ₹20,000–₹40,000 more but is essential in areas with frequent power cuts. Both are eligible for PM Surya Ghar subsidy when grid-connected and ALMM-listed."
   - q: "Which brand has the best warranty on a 5kW solar inverter in India?"
@@ -44,7 +44,7 @@ About 4,000 people a month search for the best 5 kW solar inverter in India. Mos
 > - 5 kW matches the peak load of a typical 3 BHK home (one 1.5T AC plus fans, fridge, TV, and washing machine), generating 18–25 units per day.
 > - Grid reliability decides the topology: on-grid for areas with under an hour of daily outages, hybrid for two hours or more.
 > - The Qbits TLS-5K and HS-5K both carry a 12-year full replacement warranty, versus 5 years standard from Sungrow, Goodwe, and Growatt.
-> - PM Surya Ghar's maximum central subsidy for a 5 kW residential system is ₹84,000, not the commonly assumed 3 kW cap of ₹78,000.
+> - PM Surya Ghar's central subsidy is hard capped at the 3 kW band, so a 5 kW residential system receives ₹78,000, the same as a 3 kW system.
 > - A well-financed 5 kW system in a metro can pay back in under 3 years once subsidy and net-metering credit are applied.
 > - Dual-MPPT is essential for east-west or L-shaped roofs, recovering 8–15% more generation than a single-MPPT unit on mismatched arrays.
 
@@ -98,7 +98,7 @@ This is the named framework for this post. Run through the four questions in ord
 
 2. **Do you plan to add battery storage within the next five years?**: If yes, buy a hybrid inverter now even if you do not plan to install the battery immediately. Adding battery capability later requires replacing the entire inverter on an on-grid unit, which costs ₹45,000–₹70,000. A hybrid inverter with the battery port unused costs ₹20,000–₹35,000 more at purchase, but eliminates the rewiring and replacement cost later. If your answer is definitively no (you live in a metro with reliable grid power and no plans to change) an on-grid unit is the financially correct choice.
 
-3. **Is the installer quoting an ALMM-listed model?**: This is a non-negotiable gate. PM Surya Ghar subsidy is only released after your DISCOM verifies that the installed inverter is on the [ALMM list](/glossary/almm-list/). A non-ALMM inverter means you forfeit ₹66,000–₹84,000 in central subsidy on a 5 kW system. Always ask the installer for the ALMM certificate number for the specific model being quoted, not just the brand name, because ALMM listing is model-specific, not brand-wide.
+3. **Is the installer quoting an ALMM-listed model?**: This is a non-negotiable gate. PM Surya Ghar subsidy is only released after your DISCOM verifies that the installed inverter is on the [ALMM list](/glossary/almm-list/). A non-ALMM inverter means you forfeit up to ₹78,000 in central subsidy on a 5 kW system. Always ask the installer for the ALMM certificate number for the specific model being quoted, not just the brand name, because ALMM listing is model-specific, not brand-wide.
 
 4. **What is the effective warranty cost per year?**: Take the inverter purchase price, divide by the warranty years, and compare brands on warranty cost per year rather than sticker price. A ₹50,000 inverter with a 12-year warranty costs ₹4,167 per year of coverage. A ₹35,000 inverter with a 5-year warranty costs ₹7,000 per year. The cheaper unit costs 68% more per year of protection, and does not cover the years when the inverter is most likely to need service (years six through ten of a typical 180–270 V Indian grid operating environment).
 
@@ -106,17 +106,17 @@ Applying this test honestly to your situation produces one of two answers: on-gr
 
 ## PM Surya Ghar Subsidy on a 5 kW System: The Complete Economics
 
-The PM Surya Ghar Muft Bijli Yojana subsidy structure is often misunderstood in the context of a 5 kW system. Many homeowners assume the subsidy caps at 3 kW and nothing above that is covered. That is incorrect.
+The PM Surya Ghar Muft Bijli Yojana subsidy structure is often misunderstood in the context of a 5 kW system. Some quotes promise extra central subsidy for the capacity above 3 kW. That is incorrect: the scheme caps out at the 3 kW band.
 
 The central subsidy scale for residential systems is:
 
-- **First 1 kW**: ₹30,000 (flat)
-- **Next 2 kW (i.e., 1–3 kW)**: ₹18,000 per kW = ₹36,000
-- **Above 3 kW up to 10 kW**: ₹9,000 per kW
+- **First 2 kW**: ₹30,000 per kW = ₹60,000
+- **Third kW**: ₹18,000
+- **Above 3 kW**: no additional central subsidy
 
-For a 5 kW system: ₹30,000 + ₹36,000 + (2 kW × ₹9,000) = **₹84,000** maximum central subsidy.
+For a 5 kW system: ₹60,000 + ₹18,000 = **₹78,000** maximum central subsidy, the same amount a 3 kW system receives.
 
-> **₹84,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a 5 kW residential rooftop system, credited directly to the homeowner's bank account after DISCOM verification of installation. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
+> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for any residential rooftop system, including a 5 kW one, paid by Direct Benefit Transfer into the homeowner's bank account after DISCOM commissioning. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 Several states add their own top-up subsidy. Gujarat, Rajasthan, and Uttar Pradesh have announced state-level incentives ranging from ₹10,000 to ₹30,000 per kW in certain categories. The [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) guide has the state-by-state breakdown.
 
@@ -127,13 +127,13 @@ Assume a Mumbai home with a ₹9,000/month electricity bill (approximately 900�
 | Item | Amount |
 | --- | --- |
 | Full system cost (5 kW, all-in) | ₹2,80,000 |
-| Less: PM Surya Ghar central subsidy | ₹84,000 |
+| Less: PM Surya Ghar central subsidy | ₹78,000 |
 | Less: State subsidy (Maharashtra estimate) | ₹20,000 |
-| **Net homeowner cost** | **₹1,76,000** |
+| **Net homeowner cost** | **₹1,82,000** |
 | Annual electricity savings (6,500 units × ₹8.50) | ₹55,250 |
 | Annual net metering export credit (est.) | ₹8,000 |
 | **Annual effective benefit** | **₹63,250** |
-| **Payback period** | **~2.8 years** |
+| **Payback period** | **~2.9 years** |
 
 This is why the 5 kW segment has the highest BOFU (bottom-of-funnel) search volume in the Indian residential solar market. The economics are compelling and well-understood by buyers who have done even basic research. For the full financial model with year-by-year savings, the [solar inverter payback period](/blog/solar-inverter-payback-period-in-india/) guide covers every tariff band from ₹5 to ₹12 per unit.
 
@@ -266,7 +266,7 @@ Even well-researched buyers make avoidable errors at the 5 kW tier. These five m
 
 **Mistake 1: Buying on-grid in a power-cut zone.** The anti-islanding protection in every grid-tied inverter disconnects the system the instant the grid fails. A 5 kW on-grid inverter in Lucknow is completely non-functional during the four to six hours of summer load shedding that are typical in many UP districts, precisely the hours when your AC would be running at peak. The inverter is not broken; it is doing exactly what it is supposed to do. But it is useless to you.
 
-**Mistake 2: Failing to verify ALMM listing for the specific model.** Installers sometimes quote a brand that has ALMM listing on some models but not the exact unit being installed. The subsidy application will be rejected at the DISCOM verification stage. This mistake costs the homeowner ₹66,000–₹84,000 in forfeited subsidy and often requires a partial system replacement. Always ask for the ALMM certificate number for the exact model number in the quote. The [how to choose a solar inverter for home in India](/blog/how-to-choose-solar-inverter-for-home-india/) guide covers the full verification process.
+**Mistake 2: Failing to verify ALMM listing for the specific model.** Installers sometimes quote a brand that has ALMM listing on some models but not the exact unit being installed. The subsidy application will be rejected at the DISCOM verification stage. This mistake costs the homeowner up to ₹78,000 in forfeited subsidy and often requires a partial system replacement. Always ask for the ALMM certificate number for the exact model number in the quote. The [how to choose a solar inverter for home in India](/blog/how-to-choose-solar-inverter-for-home-india/) guide covers the full verification process.
 
 **Mistake 3: Buying a 5 kW inverter with a single MPPT for an L-shaped or east-west roof.** Single-MPPT inverters optimise for the single best operating point across all panels simultaneously. If half your panels face east and half face west, the inverter compromises between the two string voltages all day, losing 10–15% of potential generation. A dual-MPPT inverter tracks each string independently and captures full generation from both orientations. On a 5 kW system generating 20 units per day, that 15% loss is 3 units per day - ₹9,000–₹12,000 per year at current tariffs.
 

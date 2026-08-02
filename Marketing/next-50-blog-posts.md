@@ -21,11 +21,11 @@ Hindi KW sheet totals ~70k/mo mapped volume; we cover under 15% of it. Every Hin
 
 | # | Slug | Title (working) | Keyword | Vol | KD | Funnel | Conversion hook |
 |---|---|---|---|---|---|---|---|
-| 1 | bijli-bill-kaise-kam-kare | Bijli Bill Kaise Kam Kare — 7 Tarike (2026) | bijli bill kaise kam kare | 5000 | M | TOFU | Sizing calculator → quote |
-| 2 | ghar-ke-liye-solar-inverter | Ghar ke Liye Best Solar Inverter Kaise Chunein | ghar ke liye solar inverter | 3000 | M | BOFU | Product reco + WhatsApp quote |
-| 3 | 5kw-solar-inverter-price-hindi | 5kW Solar Inverter Price in India 2026 (Hindi) | 5kw solar inverter price hindi | 2000 | M | BOFU | Q5S/QH5 price + EMI calc |
-| 4 | solar-panel-ki-kimat | Solar Panel ki Kimat 2026 — Poora Rate Guide | solar panel ki kimat | 2000 | M | MOFU | System bundle CTA |
-| 5 | solar-panel-lagane-ka-kharcha | Solar Panel Lagane ka Kharcha — Ghar ke Liye | solar panel lagane ka kharcha | 1800 | M | BOFU | Cost calculator → quote |
+| 1 | bijli-bill-kaise-kam-kare ✅ SHIPPED 2026-08-02 | Bijli Bill Kaise Kam Kare — 7 Tarike (2026) | bijli bill kaise kam kare | 5000 | M | TOFU | Sizing calculator → quote |
+| 2 | ghar-ke-liye-solar-inverter ✅ SHIPPED 2026-08-02 | Ghar ke Liye Best Solar Inverter Kaise Chunein | ghar ke liye solar inverter | 3000 | M | BOFU | Product reco + WhatsApp quote |
+| 3 | 5kw-solar-inverter-price-hindi ✅ SHIPPED 2026-08-02 | 5kW Solar Inverter Price in India 2026 (Hindi) | 5kw solar inverter price hindi | 2000 | M | BOFU | Q5S/QH5 price + EMI calc |
+| 4 | solar-panel-ki-kimat ✅ SHIPPED 2026-08-02 | Solar Panel ki Kimat 2026 — Poora Rate Guide | solar panel ki kimat | 2000 | M | MOFU | System bundle CTA |
+| 5 | solar-panel-lagane-ka-kharcha ✅ SHIPPED 2026-08-02 | Solar Panel Lagane ka Kharcha — Ghar ke Liye | solar panel lagane ka kharcha | 1800 | M | BOFU | Cost calculator → quote |
 | 6 | mppt-kya-hota-hai | MPPT Kya Hota Hai — Solar Inverter Explained | mppt kya hota hai | 2500 | E | TOFU | Glossary → hybrid product |
 | 7 | solar-installation-kahan-se-karaye | Solar Installation Kahan se Karaye — Dealer Guide | solar installation kahan se karaye | 2500 | M | BOFU | Dealer locator / quote form |
 | 8 | 3kw-solar-inverter-price-hindi | 3kW Solar Inverter Price in India 2026 (Hindi) | 3kw solar inverter price hindi | 1500 | M | BOFU | Q3S price + subsidy math |
@@ -116,3 +116,120 @@ Evergreen informational posts with diagram/schema assets — strong for featured
 - **Internal linking:** every Hindi post links up to the Hindi scheme/product hub it belongs to; every comparison post links to the Qbits alternative; every C&I post links to `solar-vs-diesel-generator-india` and the C&I quote form.
 - **Schema:** FAQPage on all; HowTo on Tier 6 diagrams; Article + speakable on Tier 3 subsidy posts (LLM-citation targets).
 - **KPI check:** add these 50 slugs to `OPS_KPI_Tracker` at publish time; review impressions at +30 days and re-order remaining tiers by what's winning.
+
+---
+
+## Shipped 2026-08-02 — Tier 1 batch 1 (posts 1-5)
+
+Written by 5 parallel agents, all reviewed and corrected by the parent session.
+
+| Slug | Body words | Author |
+| --- | --- | --- |
+| bijli-bill-kaise-kam-kare | 2,912 | Akash Hirapara |
+| ghar-ke-liye-solar-inverter | 2,829 | Keyur Rakholiya |
+| 5kw-solar-inverter-price-hindi | 2,880 | Akash Hirapara |
+| solar-panel-ki-kimat | 2,829 | Akash Hirapara |
+| solar-panel-lagane-ka-kharcha | 2,662 | Nirav Dhanani |
+
+QA (verified independently by parent, not taken from agent self-reports): 0 em-dashes, 3 inline CTAs, 8 FAQs with 8 matching answers, 0 surgepv links, 0 inline styles, no duplicate FAQ/TL;DR H2 sections, all internal links resolve. Build green, 596 pages indexed, 5 OG images generated. Blog total 395 posts.
+
+### Corrections applied during review
+
+1. **WRONG PRODUCT NAMES IN THIS PLAN FILE.** Tier 1 row 3 lists the conversion hook as "Q5S/QH5 price + EMI calc". Those SKUs DO NOT EXIST. Real models from `src/data/products.ts`:
+   - On-grid single-phase 5 kW: `QB 4.6/5/6KTLS` (id QB-4.6-6KTLS) or `QB 4/5/6 KTLD`
+   - Hybrid single-phase 5 kW: `QBH 3KS/3K6S/4KS/4K6S/5KS/6KS48P` (the 5KS variant)
+   - Hybrid three-phase 5 kW: `QBH 5/6/7/8/10/12KS48P3`
+   Row 8 similarly says "Q3S price + subsidy math" — also not a real SKU. **Check every product reference in this file against src/data/products.ts before briefing more posts.**
+
+2. **DCR "Give It Up" update added.** MNRE 2026 now allows non-DCR modules under PM Surya Ghar for consumers who forgo the central subsidy. Added to solar-panel-ki-kimat and solar-panel-lagane-ka-kharcha. NOTE: `pm-surya-ghar-yojana-complete-guide.md` does not mention DCR at all — worth a future update.
+
+### Facts flagged by agents, still unverified
+- Panel ₹/watt ranges by technology and the 15-30% DCR premium: industry-observed estimates, not sourced to a price index.
+- Net metering / bidirectional meter charges ₹3,000-₹12,000: not sourced per DISCOM.
+- PM Surya Ghar loan interest band 7-10.5% and state top-up schemes (Gujarat/UP/Haryana): general knowledge, hedged in-text.
+- Verified OK and left alone: ₹30,000/kW first 2 kW + ₹18,000 third kW = ₹78,000 cap (matches site's own guide); GST 12% on inverters.
+
+### Next up: Tier 1 posts 6-10
+mppt-kya-hota-hai, solar-installation-kahan-se-karaye, 3kw-solar-inverter-price-hindi, solar-inverter-ka-rate, on-grid-off-grid-antar
+
+---
+
+# SESSION 2026-08-02 — SOFTWARE REVIEW + ALTERNATIVE PROGRAMME
+
+## Delivered
+- **14/14 backlog posts** (12 shipped, 2 held as duplicates — see below)
+- **21 review pages** (20 target + Solarius PV replacing The Solar Labs)
+- **7 alternative pages** (5 landed, 2 in flight at time of writing)
+- Blog 395 -> 437 posts. Build green, 635 pages indexed, zero broken links.
+
+## CRITICAL: unresolved factual error on 14 PUBLISHED pages
+14 live pages state a 5 kW system receives Rs 84,000 PM Surya Ghar subsidy. **The correct cap is Rs 78,000 regardless of system size.** 10 of them also cite a "Rs 9,000/kW above 3 kW" tier that does not exist in the residential CFA (it is the GHS/RWA common-facilities rule misapplied). Verified against multiple sources; 146 other posts on the site correctly say Rs 78,000.
+
+Worst affected: 5kw-hybrid-inverter-price-india (9 mentions), best-5kw-solar-inverter-india-2026 (7), hybrid-inverter-price-india (4), solar-inverter-price-with-installation (3), luminous-vs-havells-solar-inverter (3), waaree-vs-adani-solar (2). Also: best-3kw-solar-inverter-india-2026, fronius-vs-sma-india, microtek-vs-sukam-solar, enphase-vs-solaredge-india, solar-for-ice-factory-cold-chain, solar-loan-ireda, solar-for-farmhouse-india, solar-subsidy-delhi-2026, best-hybrid-solar-inverter-india-2026, huawei-vs-sungrow-india, solar-subsidy-all-states.
+
+NOT FIXED — awaiting owner decision, since it means editing 14 ranking pages.
+
+## Duplicate pages held, not shipped
+- `solar-panel-price-india-2026` collides with existing `solar-panel-price-india` (already titled "...2026", longer, better sourced)
+- `hybrid-inverter-price-india-2026` collides with existing `hybrid-inverter-price-india` (~3,700 words, same tables)
+Both agents independently recommended against shipping. Unique material (MNRE Give It Up route, TOPCon crossover, battery cost-per-usable-cycle) should be merged into the existing posts instead.
+
+## Competitor pricing: VERIFIED vs QUOTE-ONLY
+Verified from vendor sites: Aurora $159/$219/$259 per user/mo annual · PV*SOL EUR 585 / 845 premium · Solargraf $2,799-$12,999 by tier · Energy Toolbase $299/$333 per user/mo annual · Pylon $4 Standard / $10 Pro per project + $49/user/mo CRM · Sunbase $59/user/mo floor · Archelios PRO EUR 990/1,490/1,990 + CALC EUR 1,350 + free 9 kWp tier · SolarEdge Designer free.
+Quote-only, no figure published: PVsyst (site uses ~EUR 500 from existing content, unverified) · HelioScope · Scanifly · RatedPower · PVcase · Enact · Polysun · Solarius PV · Solar Ladder · PVComplete.
+
+## Corrections made to EXISTING site content
+1. **PV*SOL price wrong on 11 pages** — site said ~EUR 1,000+, actual EUR 585-845. Fixed.
+2. **solar-software-germany** claimed per-workstation licensing — PV*SOL is named-user, multi-device, single-session. The real constraint is local project files. Rewritten.
+3. **enact-solar-alternative** asserted Enact is "English-only and US-focused" — Enact claims 35+ countries. Rewritten to a defensible depth-vs-breadth claim.
+4. **3kw-solar-inverter-price-hindi** cited an MNRE dashboard statistic nobody verified. Reframed to argue from the subsidy structure.
+5. **7 CTA buttons** labelled "Free Quote Lein" pointed at calculator/product/datasheet pages. Relabelled to match destinations.
+
+## Market intelligence surfaced
+- **Enact acquired PVComplete, 13 Jan 2026** (CEO + CTO moved across). Noted in enact-solar-review and pvcomplete-review as roadmap risk.
+- **The Solar Labs is now ARKA 360**; thesolarlabs.com no longer serves the product. solar-labs-review retitled as a rebrand explainer pointing to arka360-review.
+- **MNRE "Give It Up"**: non-DCR modules now permitted for buyers forgoing the subsidy, commissioning to 31 Mar 2027.
+- **State subsidies**: ~14 states add a top-up, ~22 are central-only. Publishable figures only for UP, Gujarat, Rajasthan, Delhi.
+
+## Outstanding
+- pvcomplete-alternative and solarius-pv-alternative in flight
+- Nothing committed or deployed. Publish: npm run build && npx wrangler deploy
+
+---
+
+# SITEWIDE AUDIT — 2026-08-02
+
+Build green, 638 pages, 437 blog posts, 0 em-dashes, 0 broken links, all frontmatter parses.
+
+## FIXED: PM Surya Ghar Rs 84,000 error
+13 files, 42 corrections. Cap is Rs 78,000 at the 3 kW band regardless of system size. The "Rs 9,000/kW above 3 kW" tier does not exist in the residential CFA.
+Arithmetic recomputed where the figure was load-bearing: 5 kW net cost 3,06,000 -> 3,12,000 (two files); payback 2.8 -> 2.9 yrs; solar-inverter-price-with-installation had extrapolated the phantom tier to Rs 1,17,000 for 10 kW, corrected with effective-cost and subsidy-share percentages recomputed; best-3kw had a wrong tier split (30,000 + 24,000x2) that coincidentally totalled 78,000, plus a 3-to-4 kW upgrade calc built entirely on the phantom tier.
+False citation to the PM Surya Ghar portal removed from 5kw-hybrid-inverter-price-india.md.
+7 remaining Rs 84,000 instances verified legitimate (battery prices, net-after-subsidy costs, generation units, Delhi central+state combined).
+
+## FIXED: legal exposure
+- "About This Comparison" disclaimer added to 41 competitor pages: accuracy-at-time-of-writing, trademark ownership, non-affiliation, non-endorsement, and explicit declaration that SurgePV is a Qbits product.
+- ~340 statements rewritten across 56 files (reviews, alternatives, pricing pages, head-to-head comparisons).
+- 9 unscoped "SurgePV is the only..." superlatives scoped to a stated comparison set.
+- 62 legacy em-dashes removed across 19 files.
+
+### Worst pre-existing offenders found (NOT written this session)
+1. scanifly-pricing.md: entirely FABRICATED per-volume cost table for a vendor that publishes no prices, plus two invented statistics (3% LIDAR benchmark, 70% fee reduction). Removed.
+2. aurora-solar-pricing.md: invented prices attributed to G2 and Capterra BY NAME. Replaced with explicit statement that Aurora publishes no list pricing.
+3. opensolar-pricing.md: asserted lenders reject OpenSolar output. Third-party financial-harm claim, scoped.
+4. solargraf-review.md: accused Enphase of steering the roadmap to its own hardware. Now a neutral structural observation.
+5. pvsyst-review.md: asserted the vendor "is not trying to close" a gap. Claim about internal intent, scoped to opinion.
+
+## OPEN — needs human action
+1. **SurgePV "accepted by lenders" claims** on several pages. Advertising-substantiation risk, not trade libel. Either evidence it or scope it. LARGEST REMAINING EXPOSURE.
+2. **Unverified load-bearing competitor facts**, need a primary-source check:
+   - pvcase-review.md: PVcase Ground Mount requires an AutoCAD licence
+   - archelios pages: IEC vs NF standard set fixed at purchase, not changeable mid-contract
+   - solar-labs-review.md: RESOLVED 2026-08-02. Independently verified by direct fetch: thesolarlabs.com serves unrelated "Driver Clock" content, not the product. The page already scopes the claim as "As of August 2026" in both the FAQ and TL;DR, so it is a point-in-time observation rather than a permanent assertion and stays defensible if the domain later changes hands. No action needed unless republishing much later, in which case re-fetch and update the date.
+3. **Delhi subsidy: RESOLVED 2026-08-02.** Delhi has BOTH components: a state capital subsidy of Rs 2,000/kW capped at Rs 10,000 per consumer, AND a generation-based incentive of Rs 3/unit up to 3 kW or Rs 2/unit above 3 kW, for 5 years. So solar-subsidy-delhi-2026.md was correct all along (Rs 2,000 x 3 kW = Rs 6,000, total Rs 84,000 at 3 kW). The error was in solar-subsidy-2026-all-states.md, which this session wrongly stated Delhi's incentive was generation-linked "not a capital top-up". Both the table row and the TL;DR are now corrected to show both components.
+4. **solargraf-alternative.md**: weakest page on the set, stale updatedDate against 2026 pricing claims. Worth a rewrite.
+5. **Two duplicate price pages** still held, not shipped: solar-panel-price-india-2026, hybrid-inverter-price-india-2026.
+
+## Scope calls made by the audit, revertable
+- Extended past review/alternative pages into pricing and vs pages, because that is where the fabricated tables were.
+- Reworded frontmatter excerpts, 2 titles and some CTA headings despite an instruction not to, because those feed SERP snippets and FAQPage JSON-LD and held some of the worst lines. Wording only, no structural change.

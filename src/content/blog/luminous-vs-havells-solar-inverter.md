@@ -4,7 +4,7 @@ excerpt: "Luminous vs Havells solar inverter compared on range, efficiency, warr
 description: "Luminous vs Havells solar inverter comparison for India in 2026: on-grid and off-grid range, efficiency, warranty terms, service network, real prices, and which brand fits which home."
 category: "Comparison"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "17 min"
 image: "/blog-images/luminous-vs-havells-solar-inverter.svg"
 author: "Nirav Dhanani"
@@ -26,7 +26,7 @@ faqs:
   - q: "Do Luminous and Havells make hybrid solar inverters?"
     a: "Havells does not currently sell a residential hybrid solar inverter in India; its solar range is on-grid only, from 1.1 kW to 255 kW. Luminous sells off-grid solar PCU and UPS-style units (NXG range, 850 VA to 1500 VA) that work with batteries, but these are not true hybrid string inverters with MPPT battery integration at the 3 kW to 10 kW residential scale. If you want a hybrid inverter that manages solar, grid, and a lithium battery together, you will need to look at dedicated hybrid brands such as Qbits, Deye, or Growatt."
   - q: "Are Luminous and Havells solar inverters ALMM listed?"
-    a: "Both brands have models on the ALMM (Approved List of Models and Manufacturers) maintained by MNRE, which is mandatory for claiming PM Surya Ghar subsidy. However, ALMM listing is model-specific, not brand-wide. Before purchase, ask your installer for the ALMM certificate number of the exact model being quoted and verify it on the MNRE portal. Installing a non-listed variant can forfeit ₹78,000 to ₹84,000 of central subsidy on a 3 kW to 5 kW system."
+    a: "Both brands have models on the ALMM (Approved List of Models and Manufacturers) maintained by MNRE, which is mandatory for claiming PM Surya Ghar subsidy. However, ALMM listing is model-specific, not brand-wide. Before purchase, ask your installer for the ALMM certificate number of the exact model being quoted and verify it on the MNRE portal. Installing a non-listed variant can forfeit up to ₹78,000 of central subsidy on a 3 kW to 5 kW system."
   - q: "Which brand has a better service network in India, Luminous or Havells?"
     a: "Luminous has the deeper solar service footprint, inherited from its home inverter and battery business that reaches most Indian districts, including Tier-3 towns. Havells has a strong electrical distribution network but its solar-specific service is concentrated in larger cities and works through channel partners. In metro and Tier-1 cities, both brands service adequately. In smaller towns, Luminous typically resolves issues faster because local technicians already stock its parts for the home UPS line."
 featured: false
@@ -44,7 +44,7 @@ This comparison covers both brands honestly: their current India range, efficien
 > - A 5 kW Havells Enviro GTi 5000 D has an MRP of about ₹60,150; a Luminous NXI 150 (5 kW) streets at ₹42,000 to ₹55,000.
 > - Havells includes built-in zero export and free lifetime app monitoring; Luminous counters with the wider Tier-3 service network.
 > - Neither brand offers a true residential hybrid string inverter at 3 kW to 10 kW, which matters in power-cut states.
-> - PM Surya Ghar subsidy (₹78,000 at 3 kW, ₹84,000 at 5 kW) requires an ALMM-listed model, so verify the exact model number, not just the brand.
+> - PM Surya Ghar subsidy (₹78,000, capped at the 3 kW band and unchanged at 5 kW) requires an ALMM-listed model, so verify the exact model number, not just the brand.
 > - Qbits offers a 12-year full replacement warranty and IP66 hybrid options for buyers who want longer protection than either brand provides.
 
 **Short version.** For a pure on-grid rooftop system in a city with reliable power, Havells is the stronger pick: better efficiency, 10-year standard warranty, and built-in zero export. For homes that need battery backup or sit in Tier-3 towns, Luminous is more practical thanks to its off-grid range and deeper service reach. If you want a hybrid inverter or warranty cover beyond 10 years, compare both against Qbits before signing.
@@ -125,7 +125,7 @@ This is the section that should drive your decision, because a solar inverter is
 
 **Luminous warranty.** Luminous typically ships the NXI range with 5 years standard warranty. Several dealers advertise 10 years, structured as 5 years standard plus 5 years extended. The extended half sometimes requires registration or carries different terms, so get the warranty certificate in writing before paying. Where Luminous wins back ground is service depth: its technician network, built on the home UPS business, reaches most Indian districts. In a Tier-3 town, a Luminous failure often gets a same-week visit. A smaller brand might take three.
 
-**The subsidy angle.** Both brands have ALMM-listed models, which is mandatory for PM Surya Ghar subsidy. The central subsidy pays ₹78,000 on a 3 kW system and up to ₹84,000 on a 5 kW system. Source: the [PM Surya Ghar portal, 2026](https://pmsuryaghar.gov.in/). But listing is model-specific. Verify the exact model number on the [MNRE portal](https://mnre.gov.in/) before installation. The [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) walks through the verification process.
+**The subsidy angle.** Both brands have ALMM-listed models, which is mandatory for PM Surya Ghar subsidy. The central subsidy pays ₹78,000 on a 3 kW system, and a 5 kW system receives the same ₹78,000 because the scheme is capped at the 3 kW band. Source: the [PM Surya Ghar portal, 2026](https://pmsuryaghar.gov.in/). But listing is model-specific. Verify the exact model number on the [MNRE portal](https://mnre.gov.in/) before installation. The [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) walks through the verification process.
 
 > **What most buyers get wrong.** They compare warranty years, not warranty terms. A 10-year warranty that covers only parts, or that prorates after year five, is worth far less than an 8-year full replacement warranty. Ask both dealers one question: if the inverter dies in year seven, do I get a new unit, a repaired unit, or a depreciated credit? The answer changes the math more than any efficiency figure.
 

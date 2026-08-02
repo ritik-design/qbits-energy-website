@@ -135,7 +135,7 @@ The Spanish default in smaller practices, and the usual origin of the annual-tot
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
 | PVsyst | Manual | Partial | Manual | No | No | ~EUR 500 |
-| PV*SOL | Partial | Partial | Manual | Partial | Partial | ~EUR 1,000+ |
+| PV*SOL | Partial | Partial | Manual | Partial | Partial | ~EUR 585 to 845 |
 | OpenSolar | No | No | No | No | Yes | Free |
 | Aurora Solar | No | No | No | No | No | $1,908 to $3,108+ |
 | Spreadsheet | Manual | Manual | Manual | Manual | Manual | Effectively free |

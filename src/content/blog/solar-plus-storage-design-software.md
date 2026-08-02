@@ -59,11 +59,11 @@ Three trends converged: battery costs fell below $200/kWh installed, ToU tariffs
 
 ## Operating Modes Solar Plus Storage Software Handles
 
-1. **Self-consumption** — maximise PV consumed on-site rather than exported
-2. **Peak shaving** — reduce demand charges on commercial bills
-3. **ToU arbitrage** — charge battery off-peak, discharge at peak
-4. **Backup / resilience** — islanded operation during grid outages
-5. **Wholesale market participation** — battery dispatch into grid markets (utility scale)
+1. **Self-consumption:** maximise PV consumed on-site rather than exported
+2. **Peak shaving:** reduce demand charges on commercial bills
+3. **ToU arbitrage:** charge battery off-peak, discharge at peak
+4. **Backup / resilience:** islanded operation during grid outages
+5. **Wholesale market participation:** battery dispatch into grid markets (utility scale)
 
 SurgePV models the first four; the fifth is specialised utility-grid territory.
 

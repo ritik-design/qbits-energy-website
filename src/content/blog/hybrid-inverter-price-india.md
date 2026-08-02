@@ -4,7 +4,7 @@ excerpt: "Hybrid solar inverter price in India 2026 by size and brand: 3kW to 10
 description: "Hybrid solar inverter price in India 2026 explained: 3kW, 5kW, 8kW, and 10kW price bands by brand tier, cost drivers like MPPT count and warranty, hybrid vs on-grid price delta, battery add-on costs, and value picks with PM Surya Ghar subsidy math."
 category: "Buying Guide"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-08-02
 readTime: "17 min"
 image: "/blog-images/hybrid-inverter-price-india.svg"
 author: "Nirav Dhanani"
@@ -21,7 +21,7 @@ faqs:
   - q: "How much more does a hybrid inverter cost than an on-grid inverter?"
     a: "A hybrid inverter costs ₹20,000 to ₹40,000 more than an equivalent on-grid inverter at the same capacity. For example, a 5 kW on-grid inverter from a mid-market brand costs ₹40,000 to ₹62,000, while a 5 kW hybrid from the same tier costs ₹55,000 to ₹85,000. The premium pays for the battery management system, bidirectional DC-DC converter, and automatic backup switchover hardware. In areas with two or more hours of daily power cuts, the premium usually pays back through avoided diesel generator running costs within three to five years."
   - q: "Is a hybrid inverter eligible for PM Surya Ghar subsidy?"
-    a: "Yes, a hybrid inverter is eligible for PM Surya Ghar Muft Bijli Yojana subsidy as long as the system is grid-connected, the inverter model is ALMM-listed, and it is installed by an empanelled vendor. The central subsidy is ₹30,000 for the first kW, ₹18,000 per kW for the next 2 kW, and ₹9,000 per kW above 3 kW up to 10 kW. A 5 kW hybrid system therefore qualifies for up to ₹84,000 in central subsidy, the same as an on-grid system of the same size."
+    a: "Yes, a hybrid inverter is eligible for PM Surya Ghar Muft Bijli Yojana subsidy as long as the system is grid-connected, the inverter model is ALMM-listed, and it is installed by an empanelled vendor. The central subsidy is ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW, and nothing above 3 kW. A 5 kW hybrid system therefore qualifies for up to ₹78,000 in central subsidy, the same as an on-grid system of the same size and the same as a 3 kW system."
   - q: "What is the price of a 5kW hybrid inverter in India in 2026?"
     a: "A 5 kW hybrid inverter in India costs ₹48,000 to ₹90,000 in 2026 depending on brand tier. Budget brands like UTL and Microtek hybrids sit at ₹48,000 to ₹58,000. Mid-market models from Qbits (HS-5K), Deye, and Growatt range from ₹55,000 to ₹85,000. Premium models like the Sungrow SH5.0RS run ₹75,000 to ₹90,000. The Qbits HS-5K at ₹68,000 to ₹85,000 carries a 12-year full replacement warranty, the longest in the segment, versus 5 years standard from most competitors."
   - q: "Does the hybrid inverter price include the battery?"
@@ -42,10 +42,10 @@ This guide fixes that. It lays out 2026 hybrid inverter prices for every common 
 > - A hybrid inverter costs ₹20,000 to ₹40,000 more than an equivalent on-grid inverter at the same capacity.
 > - The battery is never included: LFP storage adds ₹22,000 to ₹28,000 per kWh, so a 5 kWh bank adds ₹1.1 Lakh or more.
 > - Three things drive hybrid pricing: battery port hardware, MPPT count, and warranty depth. Warranty is the most financially significant.
-> - Hybrid systems are fully eligible for PM Surya Ghar central subsidy (up to ₹84,000 for 5 kW) when grid-connected and ALMM-listed.
+> - Hybrid systems are fully eligible for PM Surya Ghar central subsidy (up to ₹78,000, capped at the 3 kW band) when grid-connected and ALMM-listed.
 > - Qbits HS series hybrids carry a 12-year full replacement warranty with a sub-72-hour RMA service commitment, the longest coverage in the Indian market.
 
-**Short version.** Hybrid solar inverter price in India in 2026 runs from ₹38,000 for a budget 3 kW unit to ₹1,60,000 for a premium 10 kW three-phase unit. The 5 kW sweet spot costs ₹55,000 to ₹85,000 from mid-market brands like Qbits and Deye. Add ₹20,000 to ₹40,000 versus on-grid, plus the battery cost separately, and factor in up to ₹84,000 of PM Surya Ghar subsidy on a 5 kW system.
+**Short version.** Hybrid solar inverter price in India in 2026 runs from ₹38,000 for a budget 3 kW unit to ₹1,60,000 for a premium 10 kW three-phase unit. The 5 kW sweet spot costs ₹55,000 to ₹85,000 from mid-market brands like Qbits and Deye. Add ₹20,000 to ₹40,000 versus on-grid, plus the battery cost separately, and factor in up to ₹78,000 of PM Surya Ghar subsidy on a 5 kW system.
 
 If you are still deciding whether you need a hybrid at all, the [on-grid vs hybrid comparison](/blog/on-grid-vs-hybrid/) covers the topology question first. This post assumes the hybrid decision is made and answers the money question.
 
@@ -110,7 +110,7 @@ The volume segment. This is where competition is fiercest and value is best. The
 
 ### 8 kW Hybrid (₹85,000 to ₹1,30,000)
 
-The 8 kW size serves large villas, 4 to 5 BHK homes with two or three ACs, and small clinics. Three-phase supply becomes common here. The mid-market band (Qbits HS-8K, Deye SUN-8K) at ₹85,000 to ₹1,10,000 is where most buyers should shop. Budget options below ₹80,000 at this capacity are rare and often lack three-phase certification. Subsidy at 8 kW totals ₹78,000 plus ₹9,000 per kW for the 5 kW above the 3 kW slab, up to the 10 kW residential cap.
+The 8 kW size serves large villas, 4 to 5 BHK homes with two or three ACs, and small clinics. Three-phase supply becomes common here. The mid-market band (Qbits HS-8K, Deye SUN-8K) at ₹85,000 to ₹1,10,000 is where most buyers should shop. Budget options below ₹80,000 at this capacity are rare and often lack three-phase certification. Subsidy at 8 kW is still ₹78,000, because the central scheme is capped at the 3 kW band and pays nothing extra for capacity above it.
 
 ### 10 kW Hybrid (₹95,000 to ₹1,60,000)
 
@@ -132,7 +132,7 @@ The practical recommendation: buy the hybrid inverter now and size the battery f
 
 ## Subsidy Math: What a Hybrid System Actually Costs After PM Surya Ghar
 
-Hybrid systems connected to the grid qualify for the full PM Surya Ghar Muft Bijli Yojana central subsidy. The inverter and panels must be ALMM-listed and the vendor empanelled. The central subsidy scale is ₹30,000 for the first kW and ₹18,000 per kW for the next 2 kW. Above 3 kW it is ₹9,000 per kW up to 10 kW, according to the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), 2026.
+Hybrid systems connected to the grid qualify for the full PM Surya Ghar Muft Bijli Yojana central subsidy. The inverter and panels must be ALMM-listed and the vendor empanelled. The central subsidy scale is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000 with nothing paid above 3 kW, according to the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), 2026.
 
 Worked example, 5 kW hybrid system with battery in a city like Indore (illustrative, labelled hypothetical):
 
@@ -142,11 +142,11 @@ Worked example, 5 kW hybrid system with battery in a city like Indore (illustrat
 | 5 kWp panels, structure, cabling, installation | ₹2,05,000 |
 | 5 kWh LFP battery | ₹1,25,000 |
 | **Gross system cost** | **₹4,05,000** |
-| Less: PM Surya Ghar central subsidy | ₹84,000 |
+| Less: PM Surya Ghar central subsidy | ₹78,000 |
 | Less: State subsidy (varies, ₹0 to ₹30,000) | ₹15,000 |
-| **Net homeowner cost** | **₹3,06,000** |
+| **Net homeowner cost** | **₹3,12,000** |
 
-Without the battery, the same system nets near ₹1,81,000. Several states add top-ups; the [solar subsidy in Uttar Pradesh](/blog/solar-subsidy-uttar-pradesh-2026/) and [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) guides carry the state-by-state detail. Note the subsidy applies to the system capacity, not the inverter type, so the hybrid premium is not subsidised, but neither is it penalised.
+Without the battery, the same system nets near ₹1,87,000. Several states add top-ups; the [solar subsidy in Uttar Pradesh](/blog/solar-subsidy-uttar-pradesh-2026/) and [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) guides carry the state-by-state detail. Note the subsidy applies to the system capacity, not the inverter type, so the hybrid premium is not subsidised, but neither is it penalised.
 
 Net metering rules apply identically to hybrid systems in export mode, which keeps the daytime savings intact. The [net metering complete guide](/blog/net-metering-india-complete-guide/) explains the DISCOM approval flow.
 

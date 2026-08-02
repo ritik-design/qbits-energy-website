@@ -129,7 +129,7 @@ Common in smaller French practices, and the single most likely place an abolishe
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
 | PVsyst | Manual | Yes | Partial | Manual | No | ~EUR 500 |
-| PV*SOL | Manual | Yes | Yes | Partial | Partial | ~EUR 1,000+ |
+| PV*SOL | Manual | Yes | Yes | Partial | Partial | ~EUR 585 to 845 |
 | OpenSolar | No | Partial | Partial | No | Yes | Free |
 | Aurora Solar | No | Yes | Yes | No | No | $1,908 to $3,108+ |
 | Spreadsheet | Manual | Manual | Manual | Manual | Manual | Effectively free |

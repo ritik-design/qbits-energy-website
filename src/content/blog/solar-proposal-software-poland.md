@@ -133,7 +133,7 @@ The Polish default in smaller practices, and the most likely place a single hard
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Yes | Yes | Yes | $1,299 to $1,899 |
 | PVsyst | Manual | Manual | No | Manual | No | ~EUR 500 |
-| PV*SOL | Partial | Manual | Manual | Partial | Partial | ~EUR 1,000+ |
+| PV*SOL | Partial | Manual | Manual | Partial | Partial | ~EUR 585 to 845 |
 | OpenSolar | No | No | No | Partial | Yes | Free |
 | Aurora Solar | No | No | No | Yes | No | $1,908 to $3,108+ |
 | Spreadsheet | Manual | Manual | Manual | Manual | Manual | Effectively free |

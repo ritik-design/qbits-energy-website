@@ -19,23 +19,23 @@ faqs:
   - q: "Is SurgePV a real alternative to PVcase for utility-scale projects?"
     a: "Yes, for most utility-scale and large C&I workflows. SurgePV supports ground-mount, terrain import from common GIS formats, multi-array layouts, and 8,760-hour module-level shading at any project size. The [utility-scale solar design software](https://surgepv.com/utility-scale-solar-design) workflow handles the engineering depth, financial modelling, AutoCAD export, and bankable yield in one license. PVcase still leads on the most complex terrain optimisation use cases."
   - q: "Is SurgePV cheaper than PVcase?"
-    a: "Yes for most teams. PVcase is enterprise-priced with custom contracts. SurgePV's flat per-seat pricing is $1,299 to $1,899 per user per year, with the 5-User Team plan at the lowest end. For C&I and utility teams that also design residential or rooftop projects, SurgePV's multi-segment scope removes the need for a second tool."
+    a: "We cannot answer that with a figure, because PVcase does not publish prices. Its pricing page describes a quote-based model that varies by team size and by which of its products you license, so ask the vendor for a written quote. What we do publish is SurgePV's flat per-seat pricing of $1,299 to $1,899 per user per year, with the 5-User Team plan at the lowest end, which is the number to compare that quote against. For C&I and utility teams that also design residential or rooftop projects, SurgePV's multi-segment scope removes the need for a second tool."
   - q: "Does SurgePV produce bankable P50, P75, P90 yield for utility projects?"
     a: "Yes. SurgePV's 8,760-hour module-level simulation produces P50, P75, P90 outputs accepted by lenders for project finance. The methodology mirrors PVsyst, in the browser, with no project caps."
   - q: "What does SurgePV have that PVcase does not?"
-    a: "Residential and small C&I depth, integrated proposal stack with e-signature, branded white-label PDFs, Clara AI design assistant, multi-country tariff library, and flat per-seat pricing. PVcase is utility-focused and stops at the engineering output."
+    a: "Residential and small C&I depth, integrated proposal stack with e-signature, branded white-label PDFs, Clara AI design assistant, multi-country tariff library, and flat per-seat pricing. PVcase is positioned for utility-scale and C&I ground and roof work, and its marketed output is the engineering deliverable rather than a homeowner-facing proposal, so confirm current scope with the vendor."
   - q: "Why do developers switch from PVcase to SurgePV?"
-    a: "Three reasons. First, scope: utility-only is rare, and teams that also design rooftop or C&I need one tool. Second, total cost: SurgePV's flat per-seat plan often beats PVcase's enterprise contract. Third, workflow consolidation: SurgePV ships financial modelling, AutoCAD export, and proposals in the same project."
+    a: "In our experience with teams that have evaluated both, three reasons come up. First, scope: a purely utility pipeline is rare, and teams that also design rooftop or C&I prefer one tool. Second, budget predictability: SurgePV's per-seat price is published and flat, whereas PVcase is quote-based, so run the comparison on a written quote rather than on an assumed figure. Third, workflow consolidation: SurgePV ships financial modelling, AutoCAD export, and proposals in the same project."
   - q: "Is there a free trial of SurgePV?"
     a: "Yes. SurgePV offers a free trial with no credit card. You can model a real utility-scale ground-mount project, run the 8,760-hour shading, and produce the bankable yield report before committing to a plan."
   - q: "Will lenders accept SurgePV yield reports for utility-scale project finance?"
     a: "Most do. SurgePV's methodology mirrors PVsyst's 8,760-hour module-level approach, and the outputs include the P50, P75, P90 metrics lenders typically ask for. For lenders with a stated PVsyst-by-name requirement on first-of-its-kind projects, you can run PVsyst in parallel while using SurgePV for the production workflow."
 ---
 
-If you are looking for a PVcase alternative in 2026, you are most likely a utility-scale developer or large EPC who values PVcase's terrain modelling but is feeling the enterprise contract or the narrow workflow scope. This guide compares six realistic alternatives and explains why we recommend [SurgePV](https://surgepv.com/) for teams that want utility depth plus the rest of the design-to-proposal stack. For a broader category view, see our [utility-scale solar design software comparison](/blog/utility-scale-solar-design-software/).
+If you are looking for a PVcase alternative in 2026, you are most likely a utility-scale developer or large EPC who values PVcase's terrain modelling but is feeling the enterprise contract cycle or the deliberately narrow workflow scope. This guide compares six realistic alternatives and explains why we recommend [SurgePV](https://surgepv.com/) for teams that want utility depth plus the rest of the design-to-proposal stack. For a broader category view, see our [utility-scale solar design software comparison](/blog/utility-scale-solar-design-software/).
 
 > **TL;DR**
-> - PVcase users look for alternatives for three reasons: enterprise pricing, utility-only scope, and the missing proposal and financial stack.
+> - PVcase users tell us they look for alternatives for three reasons: quote-based enterprise pricing, a utility-scale focus, and wanting the proposal and financial stack in the same tool.
 > - [SurgePV](https://surgepv.com/) covers utility-scale plus C&I plus residential in one license, with 8,760-hour shading, bankable yield, AutoCAD export, and proposals at $1,299 to $1,899 per user per year.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your real utility-scale projects on the call.
 
@@ -49,28 +49,30 @@ If you are looking for a PVcase alternative in 2026, you are most likely a utili
 ## Why Developers Look for a PVcase Alternative
 
 ### Enterprise pricing and contract length
-PVcase is sold via custom enterprise contracts. SurgePV's flat per-seat pricing is $1,299 to $1,899 per user per year, with no minimum contract duration past annual billing.
+PVcase is quote-based and sold via custom contracts, so we will not put a number on it. SurgePV's flat per-seat pricing is published at $1,299 to $1,899 per user per year, with no minimum contract duration past annual billing. Get the PVcase quote in writing and compare against that.
 
 ### Utility-only scope
-Teams that also design C&I rooftop or residential need a second tool with PVcase. SurgePV covers all three segments in one license, including the [residential](https://surgepv.com/residential-solar-design), [commercial](https://surgepv.com/commercial-solar-design), and [utility-scale](https://surgepv.com/utility-scale-solar-design) workflows.
+Teams that also design C&I rooftop or residential generally pair PVcase with a second tool, because residential is not a segment it positions itself for. SurgePV covers all three segments in one license, including the [residential](https://surgepv.com/residential-solar-design), [commercial](https://surgepv.com/commercial-solar-design), and [utility-scale](https://surgepv.com/utility-scale-solar-design) workflows.
 
 ### Missing proposal and financial stack
-PVcase stops at engineering output. SurgePV ships [solar financial modeling](https://surgepv.com/generation-financial-tool), [branded proposals](/blog/solar-proposal-software/), and bankable yield in the same project.
+PVcase's marketed output is the engineering deliverable rather than a branded client proposal. SurgePV ships [solar financial modeling](https://surgepv.com/generation-financial-tool), [branded proposals](/blog/solar-proposal-software/), and bankable yield in the same project.
 
 ## SurgePV vs PVcase at a Glance
 
 | Capability | SurgePV | PVcase |
 | --- | --- | --- |
 | Utility-scale terrain | Native | Industry-leading |
-| C&I rooftop | Native | Out of scope |
-| Residential | Native | Out of scope |
+| C&I rooftop | Native | Roof Mount targets C&I, not residential |
+| Residential | Native | Not a marketed segment |
 | 8,760-hour module-level shading | Included all plans | Yes |
 | Bankable P50 / P75 / P90 | Included | Available |
 | AI 3D roof from satellite | Included all plans | Not focus |
-| White-label web proposals | Included | Not supported |
-| Financial modelling, IRR, NPV | Included | Limited |
+| White-label web proposals | Included | Not a marketed capability |
+| Financial modelling, IRR, NPV | Included | Present, engineering-oriented |
 | AutoCAD DXF / DWG export | Included | Native |
-| Pricing | Flat per seat | Enterprise contract |
+| Pricing | Flat per seat, published | Quote-based, not published |
+
+The PVcase column reflects how the vendor publicly positions and markets the product at the time of writing, not a test of every feature in every release. Confirm current scope with the vendor.
 
 See the [full SurgePV vs PVcase comparison](https://surgepv.com/compare/pvcase-vs-surgepv/) for a deeper feature-by-feature walkthrough.
 
@@ -98,7 +100,7 @@ See the [full SurgePV vs PVcase comparison](https://surgepv.com/compare/pvcase-v
 Utility + C&I + residential in one license. Flat per-seat.
 
 ### 2. RatedPower
-Utility-scale automation. Enterprise pricing. Utility-only scope. See the [RatedPower alternative comparison](/blog/ratedpower-alternative/).
+Utility-scale automation. Quote-based pricing. Utility-scale focus. See the [RatedPower alternative comparison](/blog/ratedpower-alternative/).
 
 ### 3. HelioScope
 Browser-based simulation. Strong C&I, weaker pure utility terrain. Full breakdown in our [HelioScope alternative guide](/blog/helioscope-alternative/).
@@ -117,8 +119,8 @@ Sister CRM, hands off cleanly with SurgePV.
 | Tool | Pricing | Notes |
 | --- | --- | --- |
 | **SurgePV** | $1,299 to $1,899 / user / yr | All segments |
-| PVcase | Enterprise | Utility focus |
-| RatedPower | Enterprise | Utility automation |
+| PVcase | Quote-based, not published | Utility focus |
+| RatedPower | Quote-based, not published | Utility automation |
 | HelioScope | $1,188 to $3,600+ / user / yr | Simulation only |
 | PVsyst | ~€500 / user / yr | Desktop |
 | Aurora | ~$1,908 to $3,108 | US residential |
@@ -142,3 +144,11 @@ For most utility-and-C&I-and-residential teams in 2026, SurgePV is the PVcase al
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
+
+## About This Comparison
+
+Pricing, features and product positioning described here were checked in July 2026 using publicly available vendor information. Vendors change pricing, packaging and capabilities without notice, and several do not publish prices at all. Treat every figure as a starting point for your own enquiry rather than a quotation, and confirm current terms directly with each vendor before making a purchasing decision.
+
+All product names, logos and trademarks are the property of their respective owners. Reference to them here is for identification and comparison only and does not imply any affiliation with, sponsorship by, or endorsement from those companies. SurgePV is a Qbits Energy product, so treat this as a vendor comparison written by an interested party and weigh it alongside independent sources and your own trial of the tools.
+
+Where we could not verify a claim from a primary source we have said so in the text rather than repeating it. If you believe anything here is inaccurate or out of date, contact us and we will review and correct it.

@@ -296,6 +296,12 @@ PM Surya Ghar can be accessed through two fundamentally different financing stru
 
 For homeowners who need financing assistance for the CAPEX route, the [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers MNRE's bank partnership programme, which offers concessional home loans for PM Surya Ghar applicants through SBI, Canara Bank, PNB, and Bank of Baroda at subsidised interest rates. Before picking a lender, it's worth comparing rates side by side in the [best bank for a solar loan guide](/blog/best-bank-solar-loan-india-2026/), since IREDA, SBI, and HDFC differ meaningfully on tenure and processing time.
 
+## For Installers: Quoting PM Surya Ghar Projects Accurately
+
+If you are on the installing side of this scheme rather than the buying side, the subsidy math is where quotes go wrong. The ₹78,000 cap, the slab structure, and the DISCOM-specific net metering rules all have to land in the customer's payback figure correctly, and a spreadsheet that has not been updated since the last slab revision will quietly overstate the return.
+
+Design platforms that ship an Indian tariff and subsidy library handle this at design time instead. Our [solar design software India](/blog/solar-design-software-india/) comparison covers which tools carry IS code libraries, the ALMM module database, INR pricing, and PM Surya Ghar subsidy auto-calculation, and which ones expect you to bolt that on yourself.
+
 ## Where Qbits Fits in PM Surya Ghar
 
 Qbits Energy inverters are ALMM-listed, which means every Qbits on-grid and hybrid inverter qualifies your PM Surya Ghar installation for the full ₹78,000 central subsidy. Beyond subsidy eligibility, Qbits products are built specifically for Indian grid and weather conditions: they handle the 180–270 V voltage fluctuations common in Tier-2 and Tier-3 DISCOM areas, carry IP66 weather protection for monsoon durability, and come with a 12-year full replacement warranty, more than double the five-year minimum the scheme mandates.

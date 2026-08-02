@@ -1,7 +1,7 @@
 ---
-title: "Solar Design Software USA: 2026 Installer Guide"
-excerpt: "Compare the best solar design software for USA installers in 2026. NEC, ITC, SRECs, ToU, and a cheaper Aurora alternative that ships P50/P75/P90."
-description: "Solar design software USA 2026: NEC 2026, federal ITC, state SRECs, ToU. Aurora vs SurgePV vs HelioScope vs OpenSolar pricing and feature comparison."
+title: "Best Solar Design Software USA: 2026 Guide"
+excerpt: "The best solar design software USA installers need ships an NEC code library, the 30% ITC with bonus adders, state SRECs, and NEM 3.0 modelling. Seven tools compared."
+description: "Best solar design software USA 2026. SurgePV vs Aurora, HelioScope, OpenSolar, Pylon on NEC 2023, the 30% ITC, state SRECs and NEM 3.0 self-consumption."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "12 min"
@@ -21,7 +21,7 @@ faqs:
   - q: "What is the best solar design software for US installers in 2026?"
     a: "The best solar design software for US installers in 2026 depends on team size and scope. Aurora Solar remains the deepest residential platform on its home turf, but seat costs run $159 to $259 per user per month plus add-ons. SurgePV offers a cheaper alternative at $1,299 to $1,899 per user per year with NEC code library, federal ITC plus bonus depreciation modeling, state SREC support, ToU tariffs, AI 3D from satellite, 8,760-hour shading, and bankable P50/P75/P90 yield reports included on every plan. HelioScope suits commercial C&I, OpenSolar fits high-volume residential sales teams, and Pylon serves smaller crews."
   - q: "Does SurgePV cover NEC 2026 code?"
-    a: "Yes. SurgePV ships a maintained NEC code library that covers NEC 2023 and NEC 2026 rules relevant to PV design, including rapid shutdown under 690.12, conductor sizing under 690.8, overcurrent under 690.9, and grounding under 690.45. The platform flags string sizing violations, voltage drop above set thresholds, and disconnect requirements before you export a permit pack. AHJ-specific overlays let teams adjust setbacks, fire access pathways, and structural attachment notes per jurisdiction. Updates ship cloud-side so every user is on the current code without manual installs."
+    a: "Yes. NFPA published NEC 2026 on 10 October 2025, and roughly 7 states had adopted it by mid 2026 while about 35 remain on NEC 2023. SurgePV ships a maintained NEC code library covering both editions, relevant to PV design, including rapid shutdown under 690.12, conductor sizing under 690.8, overcurrent under 690.9, and grounding under 690.45. The platform flags string sizing violations, voltage drop above set thresholds, and disconnect requirements before you export a permit pack. AHJ-specific overlays let teams adjust setbacks, fire access pathways, and structural attachment notes per jurisdiction. Updates ship cloud-side so every user is on the current code without manual installs."
   - q: "Does SurgePV model the federal ITC and bonus depreciation?"
     a: "Yes. SurgePV includes the federal Investment Tax Credit at the current statutory rate, domestic content bonus, energy community bonus, and low-income community bonus where applicable. The financial engine layers bonus depreciation under MACRS five-year for commercial projects, allowing accurate after-tax IRR and NPV for C&I deals. Residential calculators show net cost after the 30 percent ITC, state incentives, and utility rebates. Cash, loan, lease, and PPA structures all flow into the same proposal, so customers see monthly cash flow and 25-year savings without a separate spreadsheet."
   - q: "How does SurgePV pricing compare to Aurora Solar?"
@@ -38,12 +38,13 @@ faqs:
 
 US solar installers searching for [solar design software](https://surgepv.com/) for USA workflows in 2026 face a market that looks nothing like 2022. The Inflation Reduction Act pushed residential and C&I pipelines to record highs, the 30 percent federal ITC plus domestic content and energy community bonuses changed deal math, and NEM 3.0 in California rewrote residential payback overnight. At the same time, residential customer acquisition cost climbed past $4,000 per install in many markets, which means every minute spent rebuilding a layout or re-keying a proposal is margin lost. This guide compares the realistic options for US installers, covers NEC 2023 and 2026 code support, federal ITC plus state SREC modeling, ToU rate structures, and AHJ permit packs, and shows where [SurgePV](https://surgepv.com/) fits as a cheaper alternative to Aurora with broader feature scope and multi-country reach.
 
-## TL;DR
-
-- Aurora Solar owns US residential design and runs $159 to $259 per user per month, plus AI Mode and Sales Mode add-ons.
-- SurgePV delivers NEC coverage, federal ITC, state SRECs, ToU, AI 3D, and 8,760-hour shading for $1,299 to $1,899 per user per year.
-- A 5-seat US team typically pays $14K to $18K on Aurora versus $6,495 on SurgePV, a 55 to 65 percent saving.
-- SurgePV is the practical choice for US installers who care about price, want bankable P50/P75/P90, or plan to expand into Mexico, the Caribbean, or Canada.
+> **TL;DR**
+> - Aurora Solar owns US residential design and runs $159 to $259 per user per month, plus AI Mode and Sales Mode add-ons.
+> - SurgePV delivers NEC coverage, federal ITC, state SRECs, ToU, AI 3D, and 8,760-hour shading for $1,299 to $1,899 per user per year.
+> - A 5-seat US team typically pays $14K to $18K on Aurora versus $6,495 on SurgePV, a 55 to 65 percent saving.
+> - SurgePV is the practical choice for US installers who care about price, want bankable P50/P75/P90, or plan to expand into Mexico, the Caribbean, or Canada.
+> - The 30% federal ITC runs through 2032 under Section 25D residential and Section 48E commercial, according to the IRS (2026).
+> - [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your real US projects on the call.
 
 <div class="inline-cta">
 <h3>See SurgePV on a real US project in 20 minutes</h3>
@@ -54,9 +55,9 @@ US solar installers searching for [solar design software](https://surgepv.com/) 
 
 ## What US Installers Actually Need From Solar Design Software
 
-The US market has the deepest design tool ecosystem in the world, but it also has the most demanding compliance and financial modeling requirements. A platform that ships in Germany or Australia and bolts on US features rarely survives a real design review. Here is the checklist that matters.
+The global [solar design software](/blog/solar-design-software/) buyer's guide covers the platform-by-platform comparison; this page covers what is specific to the US. The US market has the deepest design tool ecosystem in the world, but it also has the most demanding compliance and financial modeling requirements. A platform that ships in Germany or Australia and bolts on US features rarely survives a real design review. Here is the checklist that matters.
 
-**NEC code coverage.** NEC 2023 is adopted in most states, with NEC 2026 rolling out through 2026 and 2027. The platform must handle [rapid shutdown](/glossary/rapid-shutdown/) under 690.12, string sizing and voltage at the lowest expected ambient temperature under 690.7, conductor sizing under 690.8, overcurrent protection, equipment [grounding](/glossary/earthing/) under 690.45, and labeling under 690.56. Teams without a built-in code library spend hours per project cross-checking PDFs.
+**NEC code coverage.** NEC 2023 is the working edition in roughly 35 states as of mid 2026, with 6 states still on NEC 2020 and 7 having moved to NEC 2026, which NFPA published on 10 October 2025. Adoption is decided state by state and often county by county, so a national tool has to track the edition per jurisdiction rather than per country. The platform must handle [rapid shutdown](/glossary/rapid-shutdown/) under 690.12, string sizing and voltage at the lowest expected ambient temperature under 690.7, conductor sizing under 690.8, overcurrent protection, equipment [grounding](/glossary/earthing/) under 690.45, and labeling under 690.56. Teams without a built-in code library spend hours per project cross-checking PDFs.
 
 **Federal ITC plus bonus depreciation.** The 30 percent residential ITC, the 30 percent commercial base ITC, the 10 percent domestic content bonus, the 10 percent energy community bonus, the low-income community adders, and [MACRS five-year bonus depreciation](/glossary/accelerated-depreciation/) all flow into deal math. A residential calculator that only shows the 30 percent number understates value for commercial projects by 20 to 40 points of [IRR](/glossary/irr/).
 
@@ -121,6 +122,26 @@ SurgePV is built for [residential solar design software](https://surgepv.com/res
 <a href="https://surgepv.com/pricing" class="cta-btn" target="_blank" rel="noopener noreferrer">Compare Plans <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Annual billing · Cancel anytime · Includes Clara AI</p>
 </div>
+
+## US Incentives The Design Tool Has To Model
+
+The federal Investment Tax Credit sits at a 30% base through 2032, according to the IRS (2026). Residential claims run under Section 25D. Commercial claims run under Section 48E, where the credit reaches 50% by stacking a 10% domestic content bonus and a 10% energy community bonus. Systems above 1 MW AC must meet prevailing wage and apprenticeship requirements to earn the full rate rather than the 6% base, and a tool that ignores that threshold overstates the credit five-fold on larger commercial work.
+
+| Incentive | Applies to | Value |
+| --- | --- | --- |
+| ITC Section 25D | Residential | 30% base through 2032 |
+| ITC Section 48E | Commercial | 30% base, up to 50% with both bonus adders |
+| Domestic content bonus | Commercial | +10% |
+| Energy community bonus | Commercial | +10% |
+| MACRS depreciation | Commercial | 5 year schedule, changes after-tax IRR materially |
+
+State layers sit on top. SREC markets operate in New Jersey under SREC-II, Massachusetts under SMART, Illinois under Illinois Shines, plus Maryland, Pennsylvania, Ohio, and DC. Block pricing and program caps move several times a year, so a maintained library beats a hand-built template as soon as you sell across a state line. SurgePV's [IRA solar tax credit guide](https://www.surgepv.com/solar-compliance/usa/guides/ira-solar-tax-credits) and the wider [US compliance library](https://www.surgepv.com/solar-compliance/usa) carry the current detail.
+
+Export compensation is the other half of the picture, and it is no longer uniform. California NEM 3.0 credits exports at roughly $0.05 to $0.08 per kWh against retail near $0.40, New York runs the formula-based VDER, Arizona credits near $0.09 per kWh, and New Jersey still pays close to full retail under NEM Plus.
+
+> **What most US buyers get wrong.** They evaluate design tools on modelling accuracy and treat the financial engine as a reporting layer. Under NEM 3.0 the financial engine is what decides whether the system is sized correctly, because self-consumption rather than offset now drives the return. A design tool that cannot dispatch a battery against an hourly load profile is making the sizing decision badly, not just presenting it badly.
+
+The customer-facing half of this decision, meaning proposal generation, e-signature, and financing presentation, is covered in our [best solar proposal software USA](/blog/solar-proposal-software-usa/) comparison. Teams working across the border should also see the [solar design software Canada](/blog/solar-design-software-canada/) guide, since SurgePV ships CSA C22.1 and NEC in the same license.
 
 ## US Pricing Comparison, Annualized in USD
 
@@ -195,36 +216,3 @@ US solar design software in 2026 is no longer a one-vendor market. Aurora is the
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
 
-## Frequently Asked Questions
-
-### What is the best solar design software for US installers in 2026?
-
-The best solar design software for US installers in 2026 depends on team size and scope. Aurora Solar remains the deepest residential platform on its home turf, but seat costs run $159 to $259 per user per month plus add-ons. SurgePV offers a cheaper alternative at $1,299 to $1,899 per user per year with NEC code library, federal ITC plus bonus depreciation modeling, state SREC support, ToU tariffs, AI 3D from satellite, 8,760-hour shading, and bankable P50/P75/P90 yield reports included on every plan. HelioScope suits commercial C&I, OpenSolar fits high-volume residential sales teams, and Pylon serves smaller crews.
-
-### Does SurgePV cover NEC 2026 code?
-
-Yes. SurgePV ships a maintained NEC code library that covers NEC 2023 and NEC 2026 rules relevant to PV design, including rapid shutdown under 690.12, conductor sizing under 690.8, overcurrent under 690.9, and grounding under 690.45. The platform flags string sizing violations, voltage drop above set thresholds, and disconnect requirements before you export a permit pack. AHJ-specific overlays let teams adjust setbacks, fire access pathways, and structural attachment notes per jurisdiction. Updates ship cloud-side so every user is on the current code without manual installs.
-
-### Does SurgePV model the federal ITC and bonus depreciation?
-
-Yes. SurgePV includes the federal Investment Tax Credit at the current statutory rate, domestic content bonus, energy community bonus, and low-income community bonus where applicable. The financial engine layers bonus depreciation under MACRS five-year for commercial projects, allowing accurate after-tax IRR and NPV for C&I deals. Residential calculators show net cost after the 30 percent ITC, state incentives, and utility rebates. Cash, loan, lease, and PPA structures all flow into the same proposal, so customers see monthly cash flow and 25-year savings without a separate spreadsheet.
-
-### How does SurgePV pricing compare to Aurora Solar?
-
-Aurora Solar publishes seat pricing around $159 to $259 per user per month for the core design product, with AI Mode, Sales Mode, and Lite Mode billed separately. For a 5-seat US team the realistic all-in spend lands around $14,000 to $18,000 per year. SurgePV charges $1,899 per user per year for an individual, $1,499 per user per year on a 3-user team, and $1,299 per user per year on a 5-user team. A 5-seat team pays $6,495 per year, with Clara AI, AI 3D, 8,760-hour shading, and bankable yield reports included rather than gated behind tiers.
-
-### Does SurgePV handle state SRECs (NJ, MD, MA, IL, etc)?
-
-Yes. The US tariff library inside SurgePV covers state Solar Renewable Energy Credit markets including New Jersey SREC-II, Maryland SREC, Massachusetts SMART, Illinois Shines, Pennsylvania, Washington DC, Ohio, and Delaware. Designers select the state and program, and the financial engine layers SREC revenue onto the 25-year cash flow with realistic forward strip pricing and program caps. The library is maintained centrally, so when New Jersey moves from SREC-II to a successor program or Illinois adjusts block pricing, every user sees the update without rebuilding templates.
-
-### Can SurgePV model NEM 3.0 in California?
-
-Yes. SurgePV handles California Net Billing Tariff under NEM 3.0 with the avoided cost calculator export rates, monthly netting, and the 8,760-hour interval modeling required to value battery dispatch correctly. The platform pairs PV generation with battery dispatch logic against ToU rate structures for PG&E EV2-A, SCE TOU-D-PRIME, and SDG&E EV-TOU-5. Designers see the realistic bill offset, ITC plus SGIP stacking where eligible, and payback that reflects NEM 3.0 economics rather than the legacy NEM 2.0 numbers that overstate value.
-
-### Is SurgePV a good Aurora alternative for US installers?
-
-Yes for most teams. Aurora is deeper on US residential automation and has stronger brand recognition with utilities and lenders. SurgePV matches Aurora on NEC code coverage, federal ITC and SREC modeling, ToU tariffs, AI 3D from satellite, and 8,760-hour module-level shading, and beats it on price by 50 to 70 percent at typical team sizes. SurgePV also ships bankable P50/P75/P90 yield reports and proposals in nine languages, which matters for installers expanding from Texas into Mexico or from Florida into the Caribbean. Aurora wins for pure US residential at scale; SurgePV wins on cost and international reach.
-
-### Does SurgePV support multi-language proposals?
-
-Yes. SurgePV ships branded solar proposals in nine languages including English, Spanish, French, Portuguese, German, Italian, Dutch, Polish, and Mandarin. US installers serving Spanish-speaking customers in California, Texas, Arizona, Florida, and New York can deliver a fully translated proposal with US currency, US units, and US tariff math without maintaining a parallel template. Teams expanding into Mexico, the Caribbean, Canada, or Latin America can serve those markets from the same workspace using the same module and inverter database.

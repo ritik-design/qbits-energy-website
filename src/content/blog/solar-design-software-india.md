@@ -1,7 +1,7 @@
 ---
-title: "Solar Design Software India 2026: SurgePV vs Aurora"
-excerpt: "PM Surya Ghar pushed India past 18 GW of rooftop solar in two years. Pick solar design software India installers actually need: IS code, ALMM, INR pricing, Hindi proposals."
-description: "Solar design software India guide 2026. SurgePV vs Aurora, HelioScope, Arka360, Solar Ladder. PM Surya Ghar, IS code, ALMM and INR pricing compared."
+title: "Best Solar Design Software India: 2026 Guide"
+excerpt: "The best solar design software India installers need ships IS codes, the ALMM database, PM Surya Ghar subsidy slabs and INR pricing. Seven tools compared for 2026."
+description: "Best solar design software India 2026. SurgePV vs Aurora, HelioScope, Arka360, Solar Ladder on IS code, ALMM, PM Surya Ghar subsidy and DISCOM net metering."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
@@ -9,16 +9,16 @@ image: "/blog-images/solar-design-software-india.svg"
 author: "Nirav Dhanani"
 updatedDate: 2026-07-08
 keywords:
-  - "solar design software india"
-  - "pv design software india"
-  - "solar software for indian installers"
-  - "pm surya ghar design software"
-  - "surgepv india"
-  - "aurora solar india alternative"
-  - "arka360 alternative"
-  - "solar ladder alternative"
-  - "is code solar design"
-  - "almm module database"
+  - solar design software india
+  - pv design software india
+  - solar software for indian installers
+  - pm surya ghar design software
+  - surgepv india
+  - aurora solar india alternative
+  - arka360 alternative
+  - solar ladder alternative
+  - is code solar design
+  - almm module database
 faqs:
   - q: "What is the best solar design software for India in 2026?"
     a: "For India in 2026, the best solar design software is the one that ships PM Surya Ghar Muft Bijli Yojana subsidy logic, IS code clearances, ALMM module filtering, DISCOM-specific tariffs and INR currency out of the box. SurgePV is built by the Heaven Designs team that has delivered over 10,000 commercial designs and includes all of these India layers on every plan, alongside AI 3D modeling from satellite and 8,760-hour module-level shading. Global tools like Aurora and HelioScope are technically strong but require workaround configuration for Indian projects."
@@ -40,12 +40,12 @@ faqs:
 
 The [solar design software](https://surgepv.com/) Indian installers need in 2026 looks nothing like what worked five years ago. PM Surya Ghar Muft Bijli Yojana put rooftop solar on the table for one crore households, the residential pipeline exploded past 18 GW of cumulative installations, and the average EPC team in Pune or Lucknow is now shipping more 3 kW systems in a month than they used to do in a year. The bottleneck is no longer customer demand. The bottleneck is how fast you can turn a WhatsApp enquiry into a bankable design, a subsidy-adjusted financial model and a branded proposal the homeowner will sign. This guide compares the platforms Indian installers actually use, and shows where [SurgePV](https://surgepv.com/) fits.
 
-## TL;DR
-
-- PM Surya Ghar central subsidy of ₹78,000 for 3 kW systems, plus state top-ups, has made residential the fastest-growing segment in India.
-- Most global solar design software was built for US or European workflows and does not natively cover IS code, ALMM, DISCOM tariffs or INR.
-- SurgePV ships IS code clearances, an ALMM-aware module database, PM Surya Ghar subsidy logic, DISCOM tariff library and INR currency on every plan.
-- Pricing in INR is roughly ₹1,09,000 to ₹1,60,000 per user per year, with Clara AI and 8,760-hour shading included.
+> **TL;DR**
+> - PM Surya Ghar central subsidy of ₹78,000 for 3 kW systems, plus state top-ups, has made residential the fastest-growing segment in India.
+> - Most global solar design software was built for US or European workflows and does not natively cover IS code, ALMM, DISCOM tariffs or INR.
+> - SurgePV ships IS code clearances, an ALMM-aware module database, PM Surya Ghar subsidy logic, DISCOM tariff library and INR currency on every plan.
+> - Pricing in INR is roughly ₹1,09,000 to ₹1,60,000 per user per year, with Clara AI and 8,760-hour shading included.
+> - [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your real projects on the call.
 
 <div class="inline-cta">
 <h3>See SurgePV on a Real PM Surya Ghar Project</h3>
@@ -154,7 +154,10 @@ SurgePV is the design and proposal layer. Two sister brands close the loop for I
 
 Heaven Green Energy is the EPC service arm. If a designer or sales team uses SurgePV to produce a proposal but does not have the field crew or BoM procurement strength to execute, Heaven Green Energy steps in as the EPC partner. It is the right handoff for newer entrants and for inter-city projects where local presence is thin.
 
-[Qbits](https://qbitsenergy.com/) is the inverter lineup, and the SurgePV inverter library includes the Qbits range — spanning [on-grid](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/) — so compatibility checks, [MPPT](/glossary/mppt/) planning and warranty terms are visible at design time.
+[Qbits](https://qbitsenergy.com/) is the inverter lineup, and the SurgePV inverter library includes the Qbits range, spanning [on-grid](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/), so compatibility checks, [MPPT](/glossary/mppt/) planning and warranty terms are visible at design time.
+
+
+The customer-facing half of this decision, meaning proposal generation, financing presentation and e-signature, is covered in our [best solar proposal software India](/blog/solar-proposal-software-india/) comparison.
 
 ## Who Should Choose Each Tool
 
@@ -177,36 +180,3 @@ Different ICPs need different tools. Pick the one that matches your reality.
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
 
-## Frequently Asked Questions
-
-### What is the best solar design software for India in 2026?
-
-For India in 2026, the best solar design software is the one that ships PM Surya Ghar Muft Bijli Yojana subsidy logic, IS code clearances, ALMM module filtering, DISCOM-specific tariffs and INR currency out of the box. SurgePV is built by the Heaven Designs team that has delivered over 10,000 commercial designs and includes all of these India layers on every plan, alongside AI 3D modeling from satellite and 8,760-hour module-level shading. Global tools like Aurora and HelioScope are technically strong but require workaround configuration for Indian projects.
-
-### Does SurgePV calculate PM Surya Ghar subsidy?
-
-Yes. SurgePV ships the PM Surya Ghar Muft Bijli Yojana subsidy structure inside the financial model. For a typical 3 kW residential system you can apply the central financial assistance of ₹78,000, layer state top-ups where applicable, and show net customer outflow, payback and IRR in INR. The proposal output renders the subsidy block in plain language for homeowners, which is what tier-2 and tier-3 city installers told the Heaven team they actually needed in the field.
-
-### Does SurgePV cover IS code and ALMM module list?
-
-Yes. The IS code clearance library inside SurgePV includes IS 16221, IS 16270, IS 14286, and the relevant earthing, lightning and fire-setback rules. The module database is ALMM-aware, so when an Indian project requires only Approved List of Models and Manufacturers entries, the catalogue filters down to ALMM-eligible modules. The inverter library covers 12,000 plus units, and you can flag preferred OEMs at organisation level so junior designers do not select unapproved equipment by mistake.
-
-### Can SurgePV produce proposals in Hindi or regional Indian languages?
-
-SurgePV supports Hindi-readable proposal output options alongside English, which matters when the homeowner in a tier-2 city wants to read the document themselves before signing. The financial summary, subsidy block and savings projection translate cleanly. Branding is customisable so the EPC logo, colours and contact details appear on every page. Roadmap items include additional regional languages for Tamil, Telugu, Marathi and Bengali, prioritised based on installer demand.
-
-### How much does SurgePV cost in INR?
-
-SurgePV pricing in INR works out to roughly ₹1,60,000 per user per year on the Individual plan at $1,899, ₹1,26,000 on the 3-User Team plan at $1,499 per seat, and ₹1,09,000 on the 5-User Team plan at $1,299 per seat, at recent exchange rates. Every plan includes Clara AI, AI 3D modeling, 8,760-hour shading, IS code library and the PM Surya Ghar financial model. There are no extra charges for AI credits or proposal exports. Free trial requires no credit card.
-
-### Will SurgePV work for residential PM Surya Ghar projects in tier-2 cities?
-
-Yes, and the Heaven Designs team specifically scoped the residential workflow around the PM Surya Ghar volume that is now coming from tier-2 and tier-3 cities. You enter the address, the AI captures the roof in 3D from satellite imagery, Clara AI lays out a string design, the 8,760-hour shading runs at module level, the financial model applies the ₹78,000 central subsidy plus any state top-up, and the branded proposal exports in under 20 minutes. Salespeople do not need an engineering background to operate it.
-
-### Does SurgePV handle DISCOM state-specific tariffs?
-
-Yes. SurgePV ships a DISCOM tariff library covering domestic, commercial and industrial slabs across the major Indian state utilities, including BESCOM, TANGEDCO, MSEDCL, BSES, Tata Power-DDL, UPPCL, Adani Electricity and PSPCL. Tariffs are updated as state regulators publish revised orders. You can also override at project level for industrial customers on dedicated CT-PT metering or open-access arrangements. The savings model uses the applicable tariff so the homeowner sees an honest payback number.
-
-### What CRM works best with SurgePV for Indian solar sales?
-
-QuickEstimate is the CRM most Indian residential solar teams pair with SurgePV. It is built for the Indian solar sales motion, so lead capture, site visit scheduling, quote follow-up and customer document collection are all native. The handoff from QuickEstimate lead to SurgePV design to signed proposal is short, which matters when conversion windows in residential PM Surya Ghar deals are measured in days not weeks. For C&I and utility teams, SurgePV also fits alongside Salesforce and Zoho CRM.

@@ -80,7 +80,7 @@ The result exports as a [branded solar proposal](https://surgepv.com/solar-propo
 
 ## Solar Takeoff Software Across Tools
 
-Most platforms market themselves as solar design software. Far fewer ship a true auto-takeoff. The table below compares the four most common tools an estimator will evaluate in 2026.
+Most platforms market themselves as [solar design software](/blog/solar-design-software/). Far fewer ship a true auto-takeoff. The table below compares the four most common tools an estimator will evaluate in 2026.
 
 | Capability | SurgePV | Aurora | HelioScope | OpenSolar |
 |---|---|---|---|---|

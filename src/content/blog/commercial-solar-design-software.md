@@ -32,7 +32,7 @@ faqs:
     a: "SurgePV ships IS code coverage, PM Surya Ghar tariffs, and India-specific module/inverter databases. Solar Ladder and Arka360 are India-focused alternatives, lighter on engineering depth. For Indian C&I projects, SurgePV plus QuickEstimate covers design plus subsidy claim workflow."
 ---
 
-Commercial solar design software needs to handle multi-array C&I rooftops, ground-mount projects, bankable yield simulation, PPA financial modelling, AutoCAD export, and a proposal stack that closes commercial deals. This guide compares the six serious options in 2026 and explains why [SurgePV](https://surgepv.com/) is the [solar design software](https://surgepv.com/) leader for C&I teams.
+Commercial [solar design software](/blog/solar-design-software/) needs to handle multi-array C&I rooftops, ground-mount projects, bankable yield simulation, PPA financial modelling, AutoCAD export, and a proposal stack that closes commercial deals. This guide compares the six serious options in 2026 and explains why [SurgePV](https://surgepv.com/) is the [solar design software](https://surgepv.com/) leader for C&I teams.
 
 > **TL;DR**
 > - C&I requires bankable simulation, PPA modelling, and AutoCAD export at minimum.
@@ -107,6 +107,14 @@ Desktop bankable simulation for lender-mandated reports. No proposal stack. See 
 <a href="https://surgepv.com/pricing" class="cta-btn" target="_blank" rel="noopener noreferrer">Compare Plans <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Annual billing · Cancel anytime · Includes Clara AI</p>
 </div>
+
+## Where C&I Projects Spill Outside the Rooftop
+
+Most C&I pipelines eventually include something that is not a flat roof. The two that come up most often are parking structures and batteries.
+
+Parking canopies are their own design problem: fixed tilt set by vehicle clearance rather than roof pitch, a column grid aligned to bays that constrains module placement, and inter-row shading between canopy runs. Our [solar carport design software](/blog/solar-carport-design-software/) guide covers the workflow. Where the site adds a battery for peak shaving against demand charges, [solar plus storage design software](/blog/solar-plus-storage-design-software/) explains why sizing the array and the battery together produces a smaller, cheaper battery than sizing them in sequence.
+
+On the engineering side, the deliverables C&I clients and AHJs ask for are covered in [photovoltaic design software](/blog/photovoltaic-design-software/) for the full engineer's toolchain and [solar SLD software](/blog/solar-sld-software/) for the electrical drawing set.
 
 ## Who Should Choose Each Tool
 

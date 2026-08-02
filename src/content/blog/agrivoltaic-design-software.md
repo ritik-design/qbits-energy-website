@@ -1,7 +1,7 @@
 ---
-title: "Agrivoltaic Design Software: 2026 Installer Guide"
+title: "Agrivoltaic Design Software 2026: Installer Guide"
 excerpt: "Agrivoltaic design software lets you co-locate PV with crops. SurgePV ships agrivoltaic templates with 8,760-hour shading on every paid plan from $1,299/seat."
-description: "Design agrivoltaic systems 70% faster with SurgePV. Crop-aware shading, tractor clearance, bankable yield. From $1,299/seat. Book a demo."
+description: "Design agrivoltaic systems faster with SurgePV agrivoltaic design software. Crop-aware shading, tractor clearance, bankable yield. From $1,299/seat."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -17,6 +17,10 @@ keywords:
   - crop shading analysis
   - ground irradiance
   - solar farming
+  - agrivoltaics design tool
+  - agrivoltaic solar software
+  - dual use solar design software
+  - agri pv design software
 faqs:
   - q: "What is agrivoltaic design software?"
     a: "Agrivoltaic design software is a solar design platform that models PV arrays co-located with active agriculture. It calculates panel height, row spacing for tractor access, ground irradiance for crops, and dual revenue streams from electricity and farming. SurgePV ships an agrivoltaic template on every paid plan, including 8,760-hour shading that reports both module yield and ground-level light transmission so agronomists and lenders can sign off on the same model."
@@ -34,6 +38,8 @@ faqs:
     a: "Yes. SurgePV models both single-axis and dual-axis trackers with agrivoltaic spacing. Trackers are particularly well-suited to agrivoltaics because tilt can be optimised through the day to balance crop light against panel yield. The platform supports smart-tracking strategies that prioritise ground irradiance during sensitive crop growth windows, then flip to maximum production at other times. The 8,760-hour engine reports both modes side by side."
   - q: "Can I export agrivoltaic drawings to AutoCAD?"
     a: "Yes. SurgePV exports DXF and DWG files directly from the design canvas. The export includes module layout, cable runs, combiner boxes, fence lines, and crop-row geometry. Civil engineers and structural drafters can open the file in AutoCAD or Civil 3D without reformatting. This removes the round-trip between PVsyst, HelioScope, and AutoCAD that traditional agrivoltaic workflows still require."
+  - q: "What makes agrivoltaic solar software different from standard ground-mount design?"
+    a: "The optimisation target changes. Standard ground-mount maximises energy yield, so you minimise inter-row spacing to whatever shading loss you will tolerate. Agrivoltaics has a second constraint: ground-level irradiance has to stay high enough for the crop underneath, and row spacing has to clear farm machinery. That turns it into a two-variable problem where the best PV layout is deliberately not the highest-yield layout."
 ---
 
 Choosing the right agrivoltaic design software is the single biggest decision in a dual-use solar project. Agrivoltaics co-locates PV with active agriculture, and the geometry, shading model, and financial assumptions all differ from a regular ground-mount farm. [SurgePV](https://surgepv.com/) ships an agrivoltaic template on every paid plan, with elevated mounting defaults, ground-irradiance output, and 8,760-hour shading that reports both kWh and crop-level light transmission. This guide explains how agrivoltaic design differs, what to look for in a tool, and why we recommend SurgePV over HelioScope, PVsyst, and PVcase for dual-use projects in 2026.

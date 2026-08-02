@@ -1,7 +1,7 @@
 ---
-title: "Solar Design Software Australia: 2026 Buyer Guide"
-excerpt: "How Australian installers use SurgePV to design AS/NZS compliant rooftop systems, model STCs and state FiTs, and shift load to batteries."
-description: "Best solar design software Australia 2026. AS/NZS 4777.2 and 5033, SRES STC, state FiTs, battery self-consumption, and a SurgePV workflow."
+title: "Best Solar Design Software Australia: 2026 Guide"
+excerpt: "The best solar design software Australia installers need ships AS/NZS 5033, AS 4777.2, STC deeming and DNSP export limits. Seven tools compared for 2026."
+description: "Best solar design software Australia 2026. SurgePV vs Aurora, OpenSolar, PVsyst on AS/NZS 5033, AS 4777.2, CEC accreditation, STC deeming and export limits."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
@@ -34,14 +34,14 @@ faqs:
     a: "Yes. SurgePV is built around the documentation that a CER accredited designer and installer need to lodge an STC claim. The proposal pack includes the array layout from AI 3D roof modeling, the AS/NZS 5033 string design, the AS/NZS 4777.2 inverter compliance summary, the 8,760 hour shading report, the bankable yield estimate, and the SRES STC calculation. Designers can export the array as AutoCAD DXF or DWG for the SLD and structural drawings, which keeps the audit trail tidy if a CER spot check lands."
 ---
 
-Australia has the highest per capita rooftop solar penetration on the planet, which is exactly why choosing the right solar design software Australia installers can trust has become a margin question rather than a tooling question. More than four million households now run rooftop PV, the Small-scale Renewable Energy Scheme still pays a meaningful STC subsidy through 2030, and almost every state has cut its feed-in tariff to between four and seven cents per kilowatt hour. That combination has pushed the design conversation away from raw nameplate kilowatts and toward self-consumption, battery sizing, and AS/NZS compliance evidence. The tool an Australian installer picks in 2026 either accelerates that workflow or quietly burns the gross margin.
+Australia has the highest per capita rooftop solar penetration on the planet, which is exactly why choosing the right [solar design software](/blog/solar-design-software/) Australia installers can trust has become a margin question rather than a tooling question. More than four million households now run rooftop PV, the Small-scale Renewable Energy Scheme still pays a meaningful STC subsidy through 2030, and almost every state has cut its feed-in tariff to between four and seven cents per kilowatt hour. That combination has pushed the design conversation away from raw nameplate kilowatts and toward self-consumption, battery sizing, and AS/NZS compliance evidence. The tool an Australian installer picks in 2026 either accelerates that workflow or quietly burns the gross margin.
 
-## TL;DR
-
-- Australia needs AS/NZS 4777.2, AS/NZS 5033, SRES STC calculation, and state FiT logic, not just a US style sales proposal.
-- Falling export prices mean the real design metric is self-consumption rate, which forces battery modelling into every job.
-- [SurgePV](https://surgepv.com/) is the [solar design software](https://surgepv.com/) built for that brief, with 8,760 hour shading, bankable yield, and Clara AI on every plan.
-- SurgePV pricing starts at 1,899 USD per user per year, which lands near AU$2,900 with no per project fees.
+> **TL;DR**
+> - Australia needs AS/NZS 4777.2, AS/NZS 5033, SRES STC calculation, and state FiT logic, not just a US style sales proposal.
+> - Falling export prices mean the real design metric is self-consumption rate, which forces battery modelling into every job.
+> - [SurgePV](https://surgepv.com/) is the [solar design software](https://surgepv.com/) built for that brief, with 8,760 hour shading, bankable yield, and Clara AI on every plan.
+> - SurgePV pricing starts at 1,899 USD per user per year, which lands near AU$2,900 with no per project fees.
+> - [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your real projects on the call.
 
 <div class="inline-cta">
 <h3>See SurgePV on a Real Australian Roof</h3>
@@ -135,6 +135,9 @@ A working example, drawn from a typical Sydney metro job, makes the workflow con
 
 The same job in a tool that does not ship native Australian logic takes 45 to 60 minutes because the designer has to override the FiT, calculate STCs in a separate spreadsheet, and rebuild the financial model by hand.
 
+
+The customer-facing half of this decision, meaning proposal generation, financing presentation and e-signature, is covered in our [best solar proposal software Australia](/blog/solar-proposal-software-australia/) comparison.
+
 ## Who Should Choose Each Tool
 
 - **Choose OpenSolar** if you sell more than 30 residential jobs a month at thin margin, you do not need bankable yield, and the engineering depth on commercial work is not a constraint.
@@ -150,32 +153,3 @@ The same job in a tool that does not ship native Australian logic takes 45 to 60
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
 
-## Frequently Asked Questions
-
-### What is the best solar design software for Australian installers in 2026?
-
-The best solar design software Australia installers can use in 2026 depends on workload. For volume residential proposals OpenSolar remains popular because it is free. For installers who want engineering depth, AS/NZS 4777.2 compliance checks, AS/NZS 5033 string design, 8,760 hour shading on every plan, and bankable P50 P75 P90 yield, SurgePV is the strongest commercial option. It also ships SRES STC calculation, state feed-in tariff libraries, and battery self-consumption modelling, so a CER accredited designer can produce a CEC compliant proposal in around twenty minutes per site.
-
-### Does SurgePV cover AS/NZS 4777.2 grid connection?
-
-Yes. SurgePV ships an AS/NZS 4777.2 and AS/NZS 5033 code library that flags inverter export limits, anti islanding settings, DC string voltage caps, and array isolation requirements before a designer locks the layout. The platform pulls inverter datasheets with declared AS/NZS 4777.2.2 region settings, so volt watt and volt var curves match the relevant DNSP profile. Designers can document compliance directly inside the proposal pack, which speeds CER STC paperwork and reduces back and forth with inspectors during pre approval.
-
-### Can SurgePV calculate SRES STC value?
-
-Yes. SurgePV calculates the Small-scale Technology Certificate count for any system up to 100 kW using the postcode zone rating, deeming period to 2030, and the entered STC spot price. The output appears directly inside the bankable yield report and the branded proposal, so customers see the gross system price, the STC point of sale discount, and the net cash price on one page. Designers can override the STC price as the market moves, and the SRES line item updates the payback maths automatically.
-
-### Does SurgePV model state feed-in tariffs?
-
-Yes. SurgePV ships a state feed-in tariff library covering NSW, VIC, QLD, SA, WA, TAS, ACT, and NT, with separate fields for retailer FiT, time of export windows where applicable, and any solar buyback caps. Because Australian FiTs have fallen sharply, the financial model defaults to a low export rate and weights the savings toward self-consumption. Designers can edit the FiT, the tariff structure, and the import rate per site, which is essential when comparing single rate, time of use, and demand tariffs.
-
-### How much does SurgePV cost in Australian dollars?
-
-SurgePV is billed annually in USD. The Individual plan is 1,899 USD per user per year, which is roughly AU$2,900 at current rates. The 3 User Team plan is 1,499 USD per seat per year, roughly AU$2,290 per seat. The 5 User Team plan is 1,299 USD per seat per year, roughly AU$1,985 per seat. Pricing is flat per seat with no per project, per proposal, or per kilowatt charges. Every plan includes Clara AI, 8,760 hour shade analysis, bankable yield, and the AS/NZS code library.
-
-### Can SurgePV design solar plus battery systems for Australia?
-
-Yes. SurgePV models AC coupled and DC coupled batteries with a dispatch logic that pushes solar into the battery first, then exports the surplus at the state feed-in tariff. The financial model tracks self-consumption rate, grid import offset, and round trip losses, which is the calculation Australian customers actually care about now that daytime export prices are low. Designers can stack the Federal Cheaper Home Batteries discount and any state battery rebate inside the proposal so the customer sees the true net price.
-
-### Is SurgePV CER-accreditation friendly?
-
-Yes. SurgePV is built around the documentation that a CER accredited designer and installer need to lodge an STC claim. The proposal pack includes the array layout from AI 3D roof modeling, the AS/NZS 5033 string design, the AS/NZS 4777.2 inverter compliance summary, the 8,760 hour shading report, the bankable yield estimate, and the SRES STC calculation. Designers can export the array as AutoCAD DXF or DWG for the SLD and structural drawings, which keeps the audit trail tidy if a CER spot check lands.

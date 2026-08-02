@@ -220,6 +220,12 @@ The [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/) covers t
 | | ✓ Subsidy disbursement pathway assured | ✗ Registration check requires portal access |
 | **Overall verdict** | The constraints protect the homeowner more than they limit them | Working outside the system removes all protections |
 
+## For Vendors: Getting the Proposal Right Before the Site Visit
+
+Empanelment gets you on the list. Winning the job still comes down to the proposal, and homeowners comparing three quotes will notice which one shows real numbers for their actual roof rather than a generic per-kW rate.
+
+That means the design has to reflect the roof's usable slopes, shading from the neighbour's water tank, and the correct PM Surya Ghar subsidy slab for the sanctioned load. Tools that carry an Indian tariff and ALMM library do this without manual lookup; our [solar design software India](/blog/solar-design-software-india/) guide compares the options on IS code coverage, ALMM database, INR pricing, and Hindi proposal output.
+
 ## Where Qbits Fits
 
 Buyers going through PM Surya Ghar need an inverter that is both ALMM-listed and backed by genuine after-sales support, because the subsidy risk sits entirely with the equipment specification, and the long-term savings sit with the inverter's reliability over 12 or more years. Qbits inverters are ALMM-listed, BIS-certified to IS 16221, IP66 weather-rated, and carry a 12-year full replacement warranty, the longest in the Indian residential segment.

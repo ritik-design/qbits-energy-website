@@ -1,7 +1,7 @@
 ---
-title: "Solar Carport Design Software in 2026: Niche Guide"
+title: "Solar Carport Design Software 2026: Niche Guide"
 excerpt: "Solar carport design software handles the structural, electrical, and yield design for parking-lot canopies. Here is how to do it right and which tools ship the workflow."
-description: "2026 guide to solar carport design software: structural notes, 8,760-hour shading on canopy arrays, EV charger integration, and the SurgePV workflow."
+description: "2026 guide to solar carport design software: structural notes, 8,760-hour shading on canopy arrays, EV charger integration and the SurgePV workflow."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -15,6 +15,10 @@ keywords:
   - solar carport tool
   - carport pv design
   - solar parking canopy
+  - solar carport software
+  - carport solar design tool
+  - solar canopy design software
+  - ev carport solar design
 faqs:
   - q: "What is solar carport design software?"
     a: "Solar carport design software handles the layout, shading, electrical, and structural design for solar canopies over parking lots. It combines elevated module layouts, EV charger integration, lighting placement, and bankable yield simulation. SurgePV supports carport templates on every paid plan."
@@ -30,6 +34,8 @@ faqs:
     a: "Solar carport design software focuses on the electrical and yield design. Structural engineering for the canopy itself typically happens in a separate structural CAD package. SurgePV exports DXF/DWG drawings that the structural engineer uses as the basis for the structural design."
   - q: "What does solar carport design software cost?"
     a: "SurgePV's carport workflow is included on every paid plan at $1,299 to $1,899 per user per year. Aurora and HelioScope can also design carports at higher per-seat cost. There are no carport-specialised tools in the same category as PVcase for utility."
+  - q: "What should solar carport software handle that rooftop tools do not?"
+    a: "Four things. Canopy geometry with a fixed tilt and clear height set by vehicle access rather than roof pitch. Column grid alignment to the parking bay layout, which constrains where modules can go. Inter-row shading between canopy runs, which is far more significant than on a single rooftop plane. And EV charger load, since most carports now pair with charging and the DC:AC sizing has to account for it."
 ---
 
 Solar carport design software handles the unique geometry, shading, and electrical considerations of parking-lot canopy projects. The niche is small but growing fast as commercial parking lots add PV. This guide explains how it works and which [solar design software](https://surgepv.com/) ships the workflow, alongside other niche categories like [agrivoltaic design software](/blog/agrivoltaic-design-software/) and [floating solar design software](/blog/floating-solar-design-software/).

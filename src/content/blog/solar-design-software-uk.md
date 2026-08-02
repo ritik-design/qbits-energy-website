@@ -1,7 +1,7 @@
 ---
-title: "Solar Design Software UK: Best Tools for 2026"
-excerpt: "Compare solar design software for UK installers in 2026. SurgePV covers BS 7671, SEG tariffs, MCS outputs, and G99 grid forms in one cloud workspace."
-description: "UK solar design software guide for 2026. SurgePV vs Aurora, HelioScope, OpenSolar on BS 7671, SEG modelling, MCS proposals, and G99 readiness."
+title: "Best Solar Design Software UK: 2026 Guide"
+excerpt: "The best solar design software UK installers need ships BS 7671 checks, G98 and G99 routing, MCS filtering and SEG modelling. Seven tools compared for 2026."
+description: "Best solar design software UK 2026. SurgePV vs Aurora, OpenSolar, Easy PV on BS 7671, G98 vs G99, MCS certification and Smart Export Guarantee modelling."
 category: "Solar Software"
 date: 2026-06-14
 readTime: "10 min"
@@ -36,12 +36,12 @@ faqs:
 
 The [solar design software](https://surgepv.com/) UK installers can rely on must do more than draw panels on a roof. The 2026 UK solar market is shaped by the Smart Export Guarantee, the MCS certification scheme, BS 7671 18th Edition Amendment 3, and G98 or G99 grid connection rules. Residential installs have climbed past 240,000 a year, ECO4 and the Great British Insulation Scheme are pushing more low income homes onto solar plus battery, and commercial rooftop is accelerating on warehouses and schools. Most popular design platforms were built for the United States and miss these UK specifics. This guide compares the leading options and shows how [SurgePV](https://surgepv.com/) handles UK workflows from site capture to signed proposal.
 
-## TL;DR
-
-- UK installers need BS 7671 references, SEG tariff modelling, MCS-ready outputs, and G99 documentation in one place.
-- US-first tools like Aurora and HelioScope skew toward NEC and rate tariffs that do not match the UK reality.
-- SurgePV ships UK code references, SEG modelling, AutoCAD DXF and DWG exports, and branded proposals from £1,025 per seat per year on the 5-User Team plan.
-- OpenSolar has a UK footprint but trails on bankable yield reporting and code depth.
+> **TL;DR**
+> - UK installers need BS 7671 references, SEG tariff modelling, MCS-ready outputs, and G99 documentation in one place.
+> - US-first tools like Aurora and HelioScope skew toward NEC and rate tariffs that do not match the UK reality.
+> - SurgePV ships UK code references, SEG modelling, AutoCAD DXF and DWG exports, and branded proposals from £1,025 per seat per year on the 5-User Team plan.
+> - OpenSolar has a UK footprint but trails on bankable yield reporting and code depth.
+> - [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your real projects on the call.
 
 <div class="inline-cta">
 <h3>See SurgePV on a UK Project Live</h3>
@@ -148,6 +148,9 @@ Consider a typical 4 kW domestic install in Birmingham on a south facing pitched
 
 The full sequence takes a trained UK designer about twenty five minutes. The same job in a stack of US-first software and spreadsheets typically takes a morning.
 
+
+The customer-facing half of this decision, meaning proposal generation, financing presentation and e-signature, is covered in our [best solar proposal software UK](/blog/solar-proposal-software-uk/) comparison.
+
 ## Who Should Choose Each Tool for UK Solar Design
 
 - **Independent UK installers doing both domestic and light commercial.** SurgePV is the best fit. Single price, BS 7671 and SEG built in, branded MCS-ready proposals.
@@ -163,32 +166,3 @@ The full sequence takes a trained UK designer about twenty five minutes. The sam
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
 
-## Frequently Asked Questions
-
-### What is the best solar design software for UK installers in 2026?
-
-For UK installers in 2026, the best all-in-one solar design software is SurgePV. It combines AI 3D roof modelling from satellite imagery, 8,760-hour module-level shading, BS 7671 code references, SEG and legacy FiT tariff modelling, and branded proposals in nine languages. Aurora and HelioScope remain strong on engineering analytics but skew toward the US market and do not include native UK tariff or compliance content. OpenSolar has a UK footprint and a free tier, however it lags on bankable yield reporting and code library depth. SurgePV gives independent installers a single workspace from site capture through to a signed MCS-ready proposal at a predictable annual per seat fee.
-
-### Does SurgePV cover BS 7671 18th Edition?
-
-Yes. SurgePV ships a UK code library that references BS 7671 18th Edition Amendment 3 along with the IET Code of Practice for grid-connected solar PV systems. The platform flags string voltage limits, DC and AC cable sizing assumptions, surge protection guidance, and earthing notes inside the single line diagram view. Designers can export AutoCAD DXF and DWG drawings that an electrical contractor can hand to a registered competent person for sign off. SurgePV does not replace the certifying electrician, but it removes hours of cross referencing between separate spreadsheets, software, and printed regulation handbooks.
-
-### Can SurgePV model the SEG (Smart Export Guarantee)?
-
-Yes. SurgePV includes a tariff engine that accepts the export rate offered by the homeowner chosen SEG licensee. Designers enter the pence per kWh figure, choose whether the system is metered for half hourly export, and apply assumptions for self consumption and battery cycling. The platform then produces a bankable P50, P75, and P90 yield report alongside a year by year SEG income forecast. Legacy Feed in Tariff customers who are moving to a new system after their FiT window closes can also model the transition. SurgePV updates default tariff assumptions when new supplier rates publish.
-
-### How much does SurgePV cost in pounds for UK installers?
-
-SurgePV is priced in US dollars and billed annually. The Individual plan is $1,899 per user per year, which equates to roughly £1,500 at recent exchange rates. The 3-User Team plan drops to $1,499 per seat, about £1,180. The 5-User Team plan is $1,299 per seat, about £1,025. Every plan includes Clara AI, 8,760-hour module-level shading, bankable yield reports, AutoCAD exports, and the UK code library. There are no design credits or proposal limits. A free trial without a credit card lets a UK installer test a real project before committing to annual billing.
-
-### Is SurgePV MCS-compatible for proposal output?
-
-SurgePV is built to produce documentation that maps cleanly to the MCS certification scheme. The proposal includes annual generation, system size in kWp, panel and inverter datasheets, shading losses, performance ratio, and a CO2 saving estimate. Designers can add MCS installer numbers, warranty terms, and standard wording for the consumer code. The drawings exported in DXF or DWG support the technical pack an MCS umbrella scheme requires for sign off. SurgePV is not a certification body, so the registered MCS contractor still owns the final compliance step, but the platform removes most of the manual rebuilding that other tools require.
-
-### Does SurgePV handle G99 grid connection requirements?
-
-Yes. SurgePV captures the data UK installers need to complete G98 and G99 grid connection applications with their Distribution Network Operator. Designers can record total installed capacity, inverter make and model, fault level contribution, and the type of protection settings used. The single line diagram exports support the schematic that DNOs require. For G99 applications above the G98 threshold, the platform helps document export limiting where applicable. SurgePV does not file the application for you, however it gives the engineer everything needed to complete the DNO form quickly and avoid rejections caused by missing technical detail.
-
-### Will SurgePV work for both residential and commercial solar in the UK?
-
-Yes. SurgePV handles UK residential projects from a 3 kW pitched tile roof up to commercial flat roofs and ground mount arrays of several megawatts. Residential designers benefit from AI 3D capture, fast SEG modelling, and branded homeowner proposals. Commercial teams use the same workspace for shared panel libraries, CAD exports, multi-inverter layouts, and detailed performance ratio reporting. The 8,760-hour shading engine matters more on commercial sites where parapets and rooftop plant cause complex shadow patterns. One subscription covers both segments, so a UK installer growing from domestic into light commercial does not need to buy a second platform.

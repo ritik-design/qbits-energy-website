@@ -345,6 +345,12 @@ Use the [string sizing calculator](/string-sizing-calculator/) to confirm panel-
 
 The [3 kW vs 5 kW vs 10 kW solar inverter guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) covers capacity selection in detail, including the financial break-even points between capacity tiers.
 
+## For Installers: Sizing PV and Battery Together
+
+The sizing tables above assume the array is already fixed and the battery gets chosen to match. On new installs, that ordering costs the customer money. Battery capacity requirements fall once the array is sized with the storage in mind, because more of the generation curve can be time-shifted rather than exported at a low feed-in rate.
+
+Joint optimisation is a design-tool feature rather than a spreadsheet exercise. Our [solar plus storage design software](/blog/solar-plus-storage-design-software/) comparison covers which platforms optimise the PV array and the battery as one problem, and why sizing them in sequence typically produces an oversized, overpriced battery.
+
 ## Where Qbits Fits in the Hybrid Inverter Market
 
 Qbits builds hybrid inverters at its Indian manufacturing facility for buyers who need a system that performs reliably across India's full climate range, 48 °C summer rooftops in Rajasthan, 95% humidity monsoons in coastal Maharashtra, and the sustained voltage fluctuations (180–270 V) that characterise Tier-2 and Tier-3 DISCOM feeders. The 12-year full replacement warranty, IP66 weather rating, and AI-powered WhatsApp monitoring are the three specifications that distinguish Qbits from both expensive global OEMs and cheaper local assemblers.

@@ -129,6 +129,14 @@ Teams that also need a buyer-facing quotation workflow once the simulation is lo
 <p class="cta-sub">Annual billing · Cancel anytime · Includes Clara AI</p>
 </div>
 
+## Related Engineering Workflows
+
+Simulation is one stage of the engineer's toolchain, and the stages either side of it decide how much the simulation is worth.
+
+Upstream, the loss figure is only as good as the shade model feeding it, which is why [solar shading analysis software](/blog/solar-shading-analysis-software/) at 8,760-hour module-level resolution is the input that matters most. Downstream, lenders want the output packaged a specific way, covered in [PV yield simulation software](/blog/pv-yield-simulation-software/). For the full engineer-side stack from 3D model to stamped drawings, see [photovoltaic design software](/blog/photovoltaic-design-software/).
+
+If you would rather run all of this in the browser than on a Windows desktop, [cloud solar design software](/blog/cloud-solar-design-software/) explains why the compute-bound simulation step is exactly where cloud pulls ahead.
+
 ## Who Should Choose Each
 
 - **Choose SurgePV** for browser-based bankable simulation tied to the full design-to-proposal stack.

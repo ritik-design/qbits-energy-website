@@ -190,6 +190,13 @@ Run these five questions before accepting any layout proposal.
 
 Ask for the simulated specific yield in kWh per kWp per year for each variant, and the monthly generation split. The right layout shows itself in those two numbers.
 
+<div class="inline-cta">
+<h3>Installers: run the east-west vs south comparison in 20 minutes</h3>
+<p>SurgePV models both orientations on the real roof geometry from satellite, runs 8,760-hour module-level shading on each, and returns the specific yield for both variants side by side in one branded proposal.</p>
+<a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
+<p class="cta-sub">20 minutes · Bring a real project · No credit card</p>
+</div>
+
 ## Conclusion: The Bottom Line
 
 South-facing is the best orientation only when your roof can actually deliver it. Many Indian homes have gabled roofs, shaded south slopes, or evening-heavy consumption. For them, east-west solar design trades a 5 to 15 percent theoretical yield penalty for more usable energy. It also delivers more capacity per square metre and friendlier inverter economics. With a dual-MPPT inverter and a modest DC oversize, the real-world gap shrinks to a number most homeowners will never notice on their bills.

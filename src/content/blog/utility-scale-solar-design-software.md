@@ -1,6 +1,6 @@
 ---
 title: "Utility-Scale Solar Design Software Compared"
-excerpt: "Utility-scale solar design software handles terrain modelling, tracker layouts, and bankable yield at gigawatt scale. Here are the 5 tools that matter in 2026 and how they compare."
+excerpt: "Utility-scale [solar design software](/blog/solar-design-software/) handles terrain modelling, tracker layouts, and bankable yield at gigawatt scale. Here are the 5 tools that matter in 2026 and how they compare."
 description: "Honest comparison of the best utility-scale solar design software in 2026: SurgePV vs PVcase vs RatedPower vs PVsyst vs HelioScope on terrain and yield."
 category: "Solar Software"
 date: 2026-06-14
@@ -107,6 +107,17 @@ For developers running utility + C&I + residential, SurgePV is dramatically chea
 <a href="https://surgepv.com/pricing" class="cta-btn" target="_blank" rel="noopener noreferrer">Compare Plans <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Annual billing · Cancel anytime · Includes Clara AI</p>
 </div>
+
+## Adjacent Project Types in the Same License
+
+Utility-scale portfolios rarely stay purely ground-mount. If your pipeline includes non-standard mounting, these are the design workflows that come up most and how they differ:
+
+- Reservoir, pond, and canal arrays need float-grid geometry and the water-cooling thermal correction. See [floating solar design software](/blog/floating-solar-design-software/).
+- Land shared with crops adds a ground-irradiance constraint and machinery clearance on top of yield. See [agrivoltaic design software](/blog/agrivoltaic-design-software/).
+- Parking-lot canopies bring structural column grids and EV charger load into the sizing. See [solar carport design software](/blog/solar-carport-design-software/).
+- Co-located batteries need the array and the battery optimised jointly, not in sequence. See [solar plus storage design software](/blog/solar-plus-storage-design-software/).
+
+SurgePV covers all four inside the same license, which is the main reason developers with a mixed pipeline consolidate onto one platform rather than buying a specialist tool per mounting type.
 
 ## Who Should Choose Each Tool
 

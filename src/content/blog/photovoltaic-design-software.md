@@ -1,7 +1,7 @@
 ---
 title: "Photovoltaic Design Software 2026: Buyer's Guide"
 excerpt: "Photovoltaic design software covers the engineer-side toolchain from 3D modelling to bankable yield to single-line diagrams. Here is the 2026 ranking, methodology, and how SurgePV leads."
-description: "Photovoltaic design software 2026: 8,760-hour module-level methodology, bankable P50/P75/P90, IEC and NEC codes. Compare SurgePV vs PVsyst. Book a demo."
+description: "Photovoltaic design software 2026: PV design software compared on 8,760-hour methodology, bankable P50/P75/P90, IEC and NEC codes. SurgePV vs PVsyst."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -15,6 +15,11 @@ keywords:
   - pv simulation software
   - solar engineering tool
   - pv yield software
+  - photovoltaic system design software
+  - pv system design software
+  - pv design software comparison
+  - photovoltaic simulation software
+  - solar cad software
 faqs:
   - q: "What is photovoltaic design software?"
     a: "Photovoltaic (PV) design software is the engineer-side toolchain that covers 3D site modelling, layout, 8,760-hour simulation, bankable yield reports, single-line diagrams, BOQ, and AutoCAD export. The formal engineering audience uses 'photovoltaic' over the colloquial 'solar' to signal the bankable engineering depth. SurgePV is the most complete browser-based PV design platform in 2026."
@@ -30,6 +35,8 @@ faqs:
     a: "Yes for the major platforms. SurgePV supports utility-scale ground-mount, tracker, fixed-tilt, and bifacial layouts with 8,760-hour module-level shading. PVcase and RatedPower are specialised utility tools with stronger terrain optimisation but narrower workflow scope."
   - q: "What does photovoltaic design software cost?"
     a: "SurgePV's flat per-seat pricing is $1,299 to $1,899 per user per year. PVsyst Standard is ~€500 per user per year (desktop). HelioScope is $99 to $300+ per user per month. Aurora Solar is $159 to $259 per user per month. For total cost of ownership at team scale, SurgePV's flat plan usually wins."
+  - q: "What is the difference between PV design software and photovoltaic system design software?"
+    a: "None in practice. Engineers abbreviate to PV design software; procurement and academic documents write it out. The one meaningful signal is the word 'system': PV system design software implies module and inverter selection, string sizing against MPPT windows, DC:AC ratio, protection and conductor sizing, and the single line diagram are all in scope, not just array layout and a kWh figure."
 ---
 
 Photovoltaic design software is the engineer's toolchain that covers 3D modelling, bankable simulation, [single-line diagrams](/glossary/single-line-diagram/), [BOQ](/blog/solar-boq-software/), AutoCAD export, and integrated proposals. The formal "photovoltaic" framing signals engineering depth and lender acceptance. This guide explains the 2026 methodology and ranks the major tools alongside our companion [PV yield simulation software guide](/blog/pv-yield-simulation-software/).
@@ -84,6 +91,22 @@ The output is P50 (median), P75 (75% probability), and P90 (90% probability) ann
 | Aurora Solar | Upper tier | Yes | Yes | Available | Yes | $1,908 to $3,108+ / user / yr |
 | SAM | Yes | No | No | No | Desktop (free) | Free |
 | PV*SOL | Yes | Limited | Limited | Available | Desktop | ~€1,000 / user / yr |
+
+## PV Design Software vs Photovoltaic System Design Software
+
+The abbreviation tracks the audience. Engineers write **PV design software**; procurement documents and academic sources write **photovoltaic system design software**. They mean the same category.
+
+Where the wording does carry information is the word "system". **PV system design software** and **photovoltaic system design software** imply the full electrical system is in scope, not just the array geometry:
+
+- Module and inverter selection against real datasheets
+- [String sizing](/blog/solar-string-sizing-software/) against MPPT voltage windows at record low and high temperatures
+- DC:AC ratio and clipping analysis
+- Protection, conductor sizing, and the [single line diagram](/blog/solar-sld-software/)
+- Balance of system and the resulting [BOQ](/blog/solar-boq-software/)
+
+A tool that only places modules and returns a kWh figure is not doing system design, whatever the marketing says. The test is simple: ask whether it will refuse a string configuration that violates the inverter's cold-morning Voc limit. Platforms that do full system design catch it at design time. Platforms that do not will hand you a layout that fails inspection.
+
+Note that **solar CAD software** is a different category again. AutoCAD with a PV plugin draws the deliverable but does not simulate. Modern platforms including SurgePV invert that relationship: simulate first, then [export DXF or DWG](https://surgepv.com/solar-autocad-integration) to CAD for the stamped drawing set.
 
 ## Where SurgePV Wins on Engineering Depth
 

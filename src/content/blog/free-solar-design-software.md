@@ -120,6 +120,16 @@ At any team size past pure solo small-residential, the SurgePV flat plan matches
 - **Use PVWatts** for quick lead-qualification yield checks.
 - **Use the SurgePV free trial** if you are evaluating a production-grade platform on a real project.
 
+## If Free Is Not Enough, Start Here
+
+The free tiers work until your project mix outgrows them. Depending on which constraint you hit first, these are the guides that pick up where the free options stop:
+
+- Hit the accuracy ceiling on shading or yield? Start with [photovoltaic design software](/blog/photovoltaic-design-software/) and [PV yield simulation software](/blog/pv-yield-simulation-software/).
+- Need a browser platform without an install? See the [online solar design tool](/blog/online-solar-design-tool/) comparison and [cloud solar design software](/blog/cloud-solar-design-software/).
+- Losing deals on the customer document? See [solar proposal software](/blog/solar-proposal-software/).
+- Designing homes at volume? See [residential solar design software](/blog/residential-solar-design-software/).
+- Selling in India under PM Surya Ghar? See [solar design software India](/blog/solar-design-software-india/) for IS code, ALMM, and INR pricing coverage.
+
 ## The Bottom Line on Free Solar Design Software
 
 For pure small residential at low volume, OpenSolar free can be the right choice. For everything else, paid flat-rate platforms like SurgePV are almost always cheaper on realised total cost, and they ship the engineering depth, bankable simulation, and integrated proposal stack that free tiers do not. For a full field comparison, see our [best solar design software](/blog/best-solar-design-software/) ranking. Whichever design tool a residential installer settles on, Qbits' [residential solution](/residential-solution/) and full [product catalog](/our-products/) cover the hardware side of that same small-residential segment.

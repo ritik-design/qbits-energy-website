@@ -1,7 +1,7 @@
 ---
-title: "PV Yield Simulation Software: 2026 Bankable Guide"
+title: "PV Yield Simulation Software 2026: Bankable Guide"
 excerpt: "PV yield simulation software turns a layout into a bankable yield report lenders accept. Here is the 8,760-hour module-level methodology, the P50 P75 P90 framework, and which tools ship it."
-description: "PV yield simulation software 2026: 8,760-hour module-level methodology, P50/P75/P90 outputs, and SurgePV's bankable browser engine. Book a free demo."
+description: "PV yield simulation software 2026: the 8,760-hour module-level methodology, P50/P75/P90 outputs and SurgePV's bankable browser simulation engine."
 category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
@@ -15,6 +15,10 @@ keywords:
   - p50 p75 p90 solar
   - pv simulation
   - solar performance simulation
+  - solar yield simulation software
+  - pv simulation software
+  - solar energy simulation software
+  - pv performance simulation tool
 faqs:
   - q: "What is PV yield simulation software?"
     a: "PV yield simulation software computes the annual electricity output of a solar PV system based on site location, module specifications, inverter behaviour, shading, soiling, temperature coefficients, and DC/AC loss models. The output is typically expressed in P50, P75, P90 probability terms used by lenders for project finance decisions."
@@ -30,6 +34,8 @@ faqs:
     a: "Yes for bankable simulators. SurgePV includes soiling profiles by climate zone, snow loss modelling for cold regions, albedo for ground-reflected light, and module temperature coefficients on every paid plan."
   - q: "Can I run PV yield simulation alongside financial modelling?"
     a: "Yes, and you should. The yield simulation feeds the cashflow model directly. SurgePV ties the 8,760-hour engine to the financial modelling layer in the same project, so cashflow, IRR, NPV, and payback are computed from the same bankable yield numbers that go to lenders."
+  - q: "Is PV yield simulation software the same as solar energy simulation software?"
+    a: "Broadly yes. Solar energy simulation software, solar yield simulation software, and PV performance simulation tools all describe engines that convert a layout plus a weather file into an annual energy figure. What separates bankable tools from the rest is not the label but the resolution: 8,760 hourly steps at module level, with a documented loss chain and P50, P75, P90 outputs. Anything running monthly averages or array-level shading is an estimator, not a bankable simulation."
 ---
 
 PV yield simulation software turns a layout into a bankable yield report lenders accept for project finance. This guide explains the 8,760-hour module-level methodology, the P50, P75, P90 framework, and the [SurgePV](https://surgepv.com/) workflow that ships browser-based bankable [PV simulation](https://surgepv.com/solar-simulation-software) on every paid plan.

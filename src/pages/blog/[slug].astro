@@ -217,12 +217,13 @@ const breadcrumbSchema = {
     <!-- Body: content + sticky sidebar -->
     <section class="py-16 lg:py-20">
       <div class="container-main">
-        <div class="grid lg:grid-cols-[minmax(0,1fr)_320px] gap-12 lg:gap-16">
-          <article class="min-w-0">
-            <div class="blog-content">
+        <div class="grid lg:grid-cols-[minmax(0,1fr)_320px] gap-12 lg:gap-x-16 lg:gap-y-0">
+          <article class="min-w-0 lg:contents">
+            <div class="blog-content min-w-0 lg:col-start-1 lg:row-start-1">
               <Content />
             </div>
 
+            <div class="min-w-0 lg:col-start-1 lg:row-start-2">
             <!-- FAQ -->
             {faqs.length > 0 && (
               <div class="mt-16 pt-12 border-t border-slate-200">
@@ -312,10 +313,11 @@ const breadcrumbSchema = {
                 </div>
               </div>
             </div>
+            </div>
           </article>
 
-          <!-- Sticky sidebar -->
-          <aside class="lg:block lg:self-start">
+          <!-- Sticky sidebar: sticks only alongside the article body, releases once it ends -->
+          <aside class="lg:block lg:self-start lg:col-start-2 lg:row-start-1">
             <div class="lg:sticky lg:top-28 space-y-6 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:pr-1 lg:-mr-1">
               <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-brand-600 via-brand-700 to-slate-900 p-6 text-white shadow-xl">
                 <div class="absolute -top-10 -right-10 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>

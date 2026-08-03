@@ -3,8 +3,8 @@ title: "The Solar Labs Review 2026: Now Sold as ARKA 360"
 excerpt: "The Solar Labs is no longer sold under that name. The product is now ARKA 360. What changed, verified India pricing, and whether it still fits your team."
 description: "The Solar Labs review 2026: the India-origin solar design and proposal platform now sold as ARKA 360, with verified India pricing from Rs 46,000 to Rs 1,00,000 a year, genuine strengths, honest limits and alternatives."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-labs-review.svg"
 author: "Nirav Dhanani"
@@ -42,7 +42,7 @@ If you are searching for a The Solar Labs review in 2026, the first useful thing
 > - As of August 2026 the thesolarlabs.com domain no longer serves the product; the live product and pricing sit at arka360.com.
 > - Published India pricing is ₹7,500 to ₹16,500 a month, or ₹46,000 to ₹1,00,000 a year, plus 18% GST.
 > - Genuine strengths: built for Indian workflows rather than translated from a US product, browser-based, and design carries through to a sales proposal in one tool.
-> - SurgePV runs $1,299 to $1,899 per user per year with ALMM-aware modules, PM Surya Ghar bands, DISCOM tariffs, IS code clearances and multi-country coverage in one licence.
+> - SurgePV runs $1,299 to $1,899 per user per year with ALMM-aware modules, [PM Surya Ghar](/glossary/pm-surya-ghar/) bands, [DISCOM](/glossary/discom/) tariffs, IS code clearances and multi-country coverage in one licence.
 
 **Short version.** The Solar Labs is an India-built solar design and proposal platform, now sold under the ARKA 360 name, with published India plans from ₹46,000 to ₹1,00,000 a year before GST. It fits Indian residential and small commercial installers well because it was scoped around their workflow. It fits less well where lender-grade yield reporting or single-licence multi-country compliance is the requirement.
 

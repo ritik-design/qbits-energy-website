@@ -281,6 +281,15 @@ Net metering is the billing mechanism that makes Indian rooftop solar economics 
 
 QBits Energy guides residential and commercial customers through the net metering application, DISCOM approvals, ALMM-compliant equipment selection and PM Surya Ghar subsidy claim. Reach out for end-to-end support.
 
+## Further reading
+
+For how Net Metering plays out in real projects, these guides go deeper:
+
+- [Gross Metering vs Net Metering: Which to Choose?](/blog/gross-metering-vs-net-metering/)
+- [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/)
+- [Solar Subsidy in Delhi 2026, BSES + TPDDL](/blog/solar-subsidy-delhi-2026/)
+- [Solar Subsidy in Telangana 2026, TSSPDCL + TSNPDCL](/blog/solar-subsidy-telangana-2026/)
+
 ## Sources
 
 - Electricity Act 2003, Government of India.

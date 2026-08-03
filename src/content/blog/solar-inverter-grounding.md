@@ -249,6 +249,8 @@ Related guides:
 
 For specific grounding queries on complex projects or coastal/Himalayan installations, [talk to a Qbits engineer](/contact-us/) - the team can provide site-specific grounding specifications within 48 hours.
 
+Elsewhere in the Heaven Group network, see [earthing and lightning protection](https://heavendesigns.in/blog/solar-earthing-lightning-protection) and [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation).
+
 ## Closing
 
 Grounding is the invisible foundation of every safe and warranty-compliant solar installation. Get it right at commissioning and you eliminate one of the most common causes of inverter failure, warranty disputes, and long-term yield erosion. The framework above - IS 3043 compliance, proper electrode design, low earth resistance, all metal components bonded, integrated SPD routing, full testing documentation - is the same one used by India's most operationally mature EPCs. Invest the few hours upfront for 25 years of reliable, warranty-protected operation. The cost of getting grounding right is trivial; the cost of getting it wrong compounds across every fault event, every warranty rejection, and every accelerated degradation cycle for the life of the system.

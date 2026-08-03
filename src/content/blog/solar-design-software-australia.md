@@ -3,11 +3,11 @@ title: "Best Solar Design Software Australia: 2026 Guide"
 excerpt: "The best solar design software Australia installers need ships AS/NZS 5033, AS 4777.2, STC deeming and DNSP export limits. Seven tools compared for 2026."
 description: "Best solar design software Australia 2026. SurgePV vs Aurora, OpenSolar, PVsyst on AS/NZS 5033, AS 4777.2, CEC accreditation, STC deeming and export limits."
 category: "Solar Software"
-date: 2026-06-14
+date: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-australia.svg"
 author: "Nirav Dhanani"
-updatedDate: 2026-07-08
+updatedDate: 2026-08-03
 keywords:
   - solar design software Australia
   - AS/NZS 4777.2 solar design
@@ -34,7 +34,7 @@ faqs:
     a: "Yes. SurgePV is built around the documentation that a CER accredited designer and installer need to lodge an STC claim. The proposal pack includes the array layout from AI 3D roof modeling, the AS/NZS 5033 string design, the AS/NZS 4777.2 inverter compliance summary, the 8,760 hour shading report, the bankable yield estimate, and the SRES STC calculation. Designers can export the array as AutoCAD DXF or DWG for the SLD and structural drawings, which keeps the audit trail tidy if a CER spot check lands."
 ---
 
-Australia has the highest per capita rooftop solar penetration on the planet, which is exactly why choosing the right [solar design software](/blog/solar-design-software/) Australia installers can trust has become a margin question rather than a tooling question. More than four million households now run rooftop PV, the Small-scale Renewable Energy Scheme still pays a meaningful STC subsidy through 2030, and almost every state has cut its feed-in tariff to between four and seven cents per kilowatt hour. That combination has pushed the design conversation away from raw nameplate kilowatts and toward self-consumption, battery sizing, and AS/NZS compliance evidence. The tool an Australian installer picks in 2026 either accelerates that workflow or quietly burns the gross margin.
+[Australia](/blog/solar-software-australia/) has the highest per capita rooftop solar penetration on the planet, which is exactly why choosing the right [solar design software](/blog/solar-design-software/) Australia installers can trust has become a margin question rather than a tooling question. More than four million households now run rooftop PV, the Small-scale Renewable Energy Scheme still pays a meaningful STC subsidy through 2030, and almost every state has cut its feed-in tariff to between four and seven cents per kilowatt hour. That combination has pushed the design conversation away from raw nameplate kilowatts and toward self-consumption, battery sizing, and AS/NZS compliance evidence. The tool an Australian installer picks in 2026 either accelerates that workflow or quietly burns the gross margin.
 
 > **TL;DR**
 > - Australia needs AS/NZS 4777.2, AS/NZS 5033, SRES STC calculation, and state FiT logic, not just a US style sales proposal.

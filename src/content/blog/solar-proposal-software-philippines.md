@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Philippines: 2026"
 excerpt: "The best solar proposal software Philippines installers need prices export at the blended generation rate, not retail. Six tools compared for 2026."
 description: "Best solar proposal software Philippines 2026. SurgePV vs OpenSolar, Aurora, PVsyst on ERC net metering, the blended generation rate, the 1 MW cap and CoC rules."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-philippines.svg"
 author: "Akash Hirapara"
@@ -33,17 +33,17 @@ faqs:
 featured: false
 ---
 
-The most expensive line in a Philippine solar proposal is usually the export assumption, and most software gets it wrong by default. Net metering under ERC Resolution No. 09, Series of 2013 credits exported energy at the blended generation rate, which for a Meralco customer runs roughly PHP 5 to 6 per kWh. Imported energy costs the full retail tariff, including transmission, distribution, system loss and universal charges. Any tool that nets the two at the same rate, which is the default behaviour in most US and European platforms, overstates the return on every system that exports. This guide compares the platforms Philippine installers should shortlist for quoting.
+The most expensive line in a Philippine solar proposal is usually the export assumption, and most software gets it wrong by default. [Net metering](https://quickestimate.co/blog/what-is-net-metering) under ERC Resolution No. 09, Series of 2013 credits exported energy at the blended generation rate, which for a Meralco customer runs roughly PHP 5 to 6 per kWh. Imported energy costs the full retail [tariff](/glossary/tariff/), including transmission, distribution, system loss and universal charges. Any tool that nets the two at the same rate, which is the default behaviour in most US and European platforms, overstates the return on every system that exports. This guide compares the platforms Philippine installers should shortlist for quoting.
 
 > **TL;DR**
 > - Export is credited at the blended generation rate, roughly PHP 5 to 6 per kWh for Meralco, around 50 to 60 percent of retail.
 > - Monthly credits roll over but may be forfeited at year-end settlement, which constrains sensible sizing.
 > - An April 2026 DOE circular raised the non-residential cap from 100 kW to 1 MW.
 > - Distribution utilities must decide a complete application within 10 working days. LGU permit and CFEI follow within 3.
-> - Republic Act 9513 makes net metering a statutory right for on-grid RE end-users.
+> - Republic Act 9513 makes [net metering](/glossary/net-metering/) a statutory right for on-grid RE end-users.
 > - [SurgePV](https://surgepv.com/) prices export at BGC and quotes from the design record at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for Philippine installers in 2026 is SurgePV, because it lets you price export at the blended generation rate rather than retail, models year-end credit forfeiture, and generates the customer document from the same 8,760-hour engineering record. OpenSolar is the practical choice for small residential on entry cost. PVsyst remains the bankable reference for large commercial.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Philippine installers in 2026 is SurgePV, because it lets you price export at the blended generation rate rather than retail, models year-end credit forfeiture, and generates the customer document from the same 8,760-hour engineering record. OpenSolar is the practical choice for small residential on entry cost. PVsyst remains the bankable reference for large commercial.
 
 Philippine electricity is among the most expensive in Southeast Asia, which makes the underlying case for solar strong. It also means the buyer is often comparing several quotes and is sensitive to numbers that do not hold up. For the design-side comparison see our [best solar design software Philippines](/blog/solar-design-software-philippines/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
 
@@ -142,6 +142,8 @@ After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quic
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/philippines" target="_blank" rel="noopener noreferrer">Philippines compliance library</a></p>
 </div>
+
+A proposal tool only earns its place inside a working stack. The [wider solar software picture in the Philippines](/blog/solar-software-philippines/) covers what sits either side of it.
 
 ## The Bottom Line
 

@@ -3,11 +3,11 @@ title: "Best Solar Design Software Germany: 2026 Guide"
 excerpt: "The best solar design software Germany installers need ships VDE-AR-N 4105 checks, EEG tariffs and the Solarspitzengesetz rule. Seven tools compared for 2026."
 description: "Best solar design software Germany 2026. SurgePV vs PV*SOL, Aurora, PVsyst on VDE-AR-N 4105, Einspeisevergütung, Solarspitzengesetz and the 60% feed-in cap."
 category: "Solar Software"
-date: 2026-06-14
+date: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-germany.svg"
 author: "Nirav Dhanani"
-updatedDate: 2026-07-08
+updatedDate: 2026-08-03
 keywords:
   - solar design software Germany
   - PV*SOL alternative
@@ -149,6 +149,8 @@ Total designer time from address entry to sent proposal is approximately 35 minu
 
 
 The customer-facing half of this decision, meaning proposal generation, financing presentation and e-signature, is covered in our [best solar proposal software Germany](/blog/solar-proposal-software-germany/) comparison.
+
+Design is one layer. For how simulation, proposal, compliance and CRM fit around it, see the [full solar software stack for Germany](/blog/solar-software-germany/).
 
 ## Who Should Choose Each Tool for German Solar Design
 

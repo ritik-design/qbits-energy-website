@@ -239,6 +239,15 @@ LID is the initial efficiency loss in the first 100 hours of solar exposure for 
 
 QBits Energy provides yield modelling and PPA-grade performance projections that correctly account for LID, LeTID and long-term degradation for Indian solar projects.
 
+## Further reading
+
+For how LID plays out in real projects, these guides go deeper:
+
+- [How to Evaluate Solar Inverter Reliability](/blog/how-to-evaluate-solar-inverter-reliability/)
+- [Solar Inverter Commissioning in India: Setup Guide](/blog/solar-inverter-commissioning-in-india/)
+- [Anti-Islanding Protection in Solar Inverters](/blog/anti-islanding-protection-solar-inverters/)
+- [Aurora Solar Review 2026: Pricing, Strengths and Where It Falls Short](/blog/aurora-solar-review/)
+
 ## Sources
 
 - Schmidt J., Aberle A. G., Hezel R., Investigation of carrier lifetime instabilities in Cz-grown silicon, Proceedings of IEEE PVSC, 1997.

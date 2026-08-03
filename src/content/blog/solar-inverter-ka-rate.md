@@ -38,9 +38,9 @@ Agar aapko sirf ek cheez chahiye, yaani number, to ye page usi ke liye hai। Ya
 
 > **TL;DR**
 > - 3 kW on-grid inverter ka rate ₹15,000 se ₹35,000, 5 kW on-grid ₹22,000 se ₹55,000, 10 kW on-grid ₹45,000 se ₹95,000।
-> - Same size par hybrid inverter 40 se 80 percent mehnga, battery cost usme shamil nahi।
+> - Same size par [hybrid inverter](/glossary/hybrid-inverter/) 40 se 80 percent mehnga, battery cost usme shamil nahi।
 > - Rate per kW size badhne ke saath girta hai, 2 kW par lagbhag ₹8,000 per kW, 10 kW par lagbhag ₹6,000 per kW।
-> - Ek hi size mein rate 4 cheezon se hilta hai: phase, MPPT count, warranty tier, aur ALMM status।
+> - Ek hi size mein rate 4 cheezon se hilta hai: phase, [MPPT](/glossary/mppt/) count, warranty tier, aur ALMM status।
 > - Solar inverter par GST 12 percent, quote mein alag line item hona chahiye।
 > - Ye rates market conditions, state aur installer ke hisaab se badalte hain, final number quote se hi milega।
 

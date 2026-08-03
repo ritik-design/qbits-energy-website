@@ -256,6 +256,15 @@ String sizing is the design step that matches modules to inverter MPPT window ac
 
 QBits Energy provides PVsyst-validated string sizing for residential, C&I and utility solar projects across Indian temperature zones.
 
+## Further reading
+
+For how String Sizing plays out in real projects, these guides go deeper:
+
+- [Solar String Sizing Software: Complete 2026 Guide](/blog/solar-string-sizing-software/)
+- [Solar String Sizing & Overcurrent Protection](/blog/solar-string-sizing-ocp-india/)
+- [String Voltage vs MPPT Voltage: Inverter Guide](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/)
+- [Solar Inverter Sizing: 12 Key Questions (2026)](/blog/solar-inverter-sizing/)
+
 ## Sources
 
 - Manufacturer string sizing tools from Sungrow, Solis, Goodwe, Solax, Growatt, Deye.

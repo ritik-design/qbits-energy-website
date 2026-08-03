@@ -175,6 +175,15 @@ CEA is the technical authority of the Indian electricity sector. Its grid code, 
 
 QBits Energy designs and installs solar systems that meet CEA Technical Standards 2019 and Smart Meter Regulations 2023 across Indian DISCOM areas.
 
+## Further reading
+
+For how CEA plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Firmware Update, When, How and Why](/blog/solar-inverter-firmware-update-india/)
+- [Solar Inverter Grounding, India EPC Safety Guide](/blog/solar-inverter-grounding/)
+- [Reactive Power Support from Solar Inverters India](/blog/reactive-power-solar-inverters-india/)
+- [Anti-Islanding Protection in Solar Inverters](/blog/anti-islanding-protection-solar-inverters/)
+
 ## Sources
 
 - Central Electricity Authority, official website and publications.

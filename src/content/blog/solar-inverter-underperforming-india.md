@@ -44,7 +44,7 @@ This is solar inverter underperformance: partial yield loss without system shutd
 > **TL;DR**
 > - Underperformance means the inverter is running and producing power, but yield sits below the expected kWh for current irradiance, a different problem from zero-output downtime.
 > - The 10-Cause Underperformance Audit orders causes from easiest to hardest to diagnose; causes 1–5 (dust, thermal derating, clipping, shading, ageing panels) resolve roughly 85% of cases without a technician.
-> - A healthy Indian rooftop system runs a Performance Ratio of 0.75–0.85; a PR below 0.70 on a 7-day rolling average confirms a real underperformance condition worth investigating.
+> - A healthy Indian rooftop system runs a [Performance Ratio](/glossary/pr/) of 0.75–0.85; a PR below 0.70 on a 7-day rolling average confirms a real underperformance condition worth investigating.
 > - Dust and soiling is the single most common cause, cutting output 10–30% within 3–5 weeks in arid zones like Rajasthan and Gujarat.
 > - Qbits AI monitoring surfaces 8 of the 10 causes remotely using performance ratio, per-string MPPT data, grid voltage, and inverter temperature logs.
 
@@ -256,6 +256,8 @@ A 25% yield shortfall is rarely explained by a single cause. In Indian condition
 - **Sudden new shortfall:** Cause 4 (new tree growth creating morning shade on one string) combined with Cause 6 (an MC4 connector degraded during the last maintenance visit).
 
 The audit's sequential structure ensures each resolved cause reduces the measured gap, making residual causes progressively more visible in monitoring data. A common approach is to address cause 1 first (panel cleaning), measure the remaining gap, then continue down the list until the performance ratio returns above 0.75.
+
+Elsewhere in the Heaven Group network, see [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation) and [DC wiring loss optimisation](https://heavendesigns.in/blog/pvsyst-dc-wiring-loss-optimization).
 
 ## Where Qbits Fits
 

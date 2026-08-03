@@ -3,8 +3,8 @@ title: "PVsyst Review 2026: Still the Bankable Standard, But For Whom?"
 excerpt: "An honest PVsyst review for 2026. What the licence costs, why lenders name it in contracts, where it genuinely leads, and the buyers it does not fit."
 description: "PVsyst review 2026: per-seat desktop licensing around the EUR 500 range, bankable P50/P75/P90 output, deep loss modelling, and the limits that matter for installers who need proposals."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/pvsyst-review.svg"
 author: "Keyur Rakholiya"
@@ -38,9 +38,9 @@ featured: false
 PVsyst occupies an unusual position in solar software. Almost nobody argues that it is pleasant to use, and almost nobody argues that it is wrong. It has been the reference simulator for bankable energy assessments for two decades, which means its output shows up in term sheets, technical due diligence packs, and power purchase agreements as a named requirement rather than a preference. This review looks at what PVsyst costs in 2026, what it genuinely does better than anything else, where the fit breaks down, and which buyers should shortlist something else. The conclusion is less about quality than about scope, because the most common mistake with PVsyst is not buying a bad tool. It is buying a good tool and expecting it to do a job it was never built for.
 
 > **TL;DR**
-> - PVsyst is sold as a per-seat desktop licence, with the Standard tier commonly reported around the EUR 500 per user per year mark. Confirm current pricing with the vendor.
+> - PVsyst is sold as a per-seat desktop licence, with the Standard tier commonly reported around the EUR 500 per user per year mark. Confirm [current](/glossary/current/) pricing with the vendor.
 > - It is the reference tool for bankable P50, P75, and P90 yield, with loss modelling and shading geometry that hold up under lender scrutiny.
-> - It is not positioned as a proposal or customer-document tool, and as of writing is not sold with tariff or incentive libraries, so local economics are built by hand. Confirm current scope with the vendor.
+> - It is not positioned as a proposal or customer-document tool, and as of writing is not sold with [tariff](/glossary/tariff/) or incentive libraries, so local economics are built by hand. Confirm current scope with the vendor.
 > - It is a desktop product licensed per machine, which suits a specialist and frustrates a collaborative team.
 > - Buy it if a lender names it or you do bankable studies. Pair it with something else if you also need to sell.
 

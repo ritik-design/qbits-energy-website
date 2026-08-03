@@ -221,6 +221,15 @@ Perovskite is the most promising next-generation solar technology, with tandem p
 
 QBits Energy tracks emerging solar technologies including perovskite tandem cells for future Indian deployment.
 
+## Further reading
+
+For how Perovskite plays out in real projects, these guides go deeper:
+
+- [Solar Performance in Indian Winters, What to Expect](/blog/solar-performance-indian-winters-guide/)
+- [MPPT vs PWM Charge Controller Comparison](/blog/mppt-vs-pwm/)
+- [Solar Inverter Efficiency: 95% vs 97% vs 98%](/blog/solar-inverter-efficiency/)
+- [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)
+
 ## Sources
 
 - NREL Best Research-Cell Efficiency Chart.

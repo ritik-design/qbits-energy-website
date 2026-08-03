@@ -42,7 +42,7 @@ Every summer in Uttar Pradesh, Bihar, Jharkhand, and parts of Maharashtra follow
 The reason is not a defect. It is a mandatory safety feature called [anti-islanding](/glossary/anti-islanding/). The solution, however, is straightforward: a [hybrid inverter](/glossary/hybrid-inverter/) paired with a battery bank. This guide explains exactly why on-grid inverters cannot deliver backup, how to size a battery for the load-shedding hours typical of UP, Bihar, and Maharashtra, and which Qbits HS and HT series models to specify for maximum uptime.
 
 > **TL;DR**
-> - Standard on-grid inverters shut off within 2 seconds of a grid outage by law (anti-islanding); only a hybrid inverter with a battery bank can keep a home powered during a cut.
+> - Standard on-grid inverters shut off within 2 seconds of a grid outage by law (anti-islanding); only a [hybrid inverter](/glossary/hybrid-inverter/) with a battery bank can keep a home powered during a cut.
 > - The 4-Variable Backup Sizing Method (critical load × backup hours × safety factor ÷ battery DoD) gives the correct battery size for your home.
 > - A typical 3 BHK home needs a 5–7.2 kWh battery for 4 hours of backup, or 10–12 kWh for 6–8 hour cuts common in UP and Bihar.
 > - LFP batteries cost more upfront per kWh than lead-acid but need less gross capacity (80–90% DoD vs 50%) and last 3,000–6,000 cycles versus 500–800.

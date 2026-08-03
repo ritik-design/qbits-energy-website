@@ -273,6 +273,15 @@ Monocrystalline is now the default cell technology for Indian solar. Mono PERC d
 
 QBits Energy supplies ALMM-listed mono PERC, TOPCon and HJT modules from leading Indian manufacturers for residential, C&I and utility solar.
 
+## Further reading
+
+For how Monocrystalline plays out in real projects, these guides go deeper:
+
+- [Best Solar System Under ₹1 Lakh in India 2026](/blog/best-solar-system-under-1-lakh/)
+- [1kW Solar System Price in India 2026: Cost Breakdown](/blog/1kw-solar-system-price-india/)
+- [2kW Solar System Price in India 2026: Cost Breakdown](/blog/2kw-solar-system-price-india/)
+- [Solar Subsidy Form: How to Download & Fill It](/blog/solar-subsidy-form-download-guide/)
+
 ## Sources
 
 - IEC 61215, Terrestrial photovoltaic modules: Design qualification and type approval.

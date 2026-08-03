@@ -41,7 +41,7 @@ Receiving solar EPC bids from multiple contractors is a necessary step toward a 
 > - Two EPC bids at the same ₹/kW rate can differ by ₹4-5 lakh in 25-year returns based on equipment quality, warranty depth, and installer track record alone.
 > - Score every bidder 0-2 across all 15 criteria; a total below 20/30 warrants caution, above 25/30 signals a competitive bid.
 > - Non-ALMM equipment disqualifies the project from the PM Surya Ghar subsidy and typically carries faster degradation.
-> - A 12-year full-replacement inverter warranty avoids a ₹35,000-₹80,000 out-of-pocket replacement that a 5-year warranty leaves you exposed to.
+> - A 12-year full-replacement inverter warranty avoids a ₹35,000-₹80,000 out-of-pocket replacement that a [5-year](https://www.heavengreenenergy.com/blog/local-installer-vs-branded-epc-5-year-cost) warranty leaves you exposed to.
 > - Never accept a 100% upfront payment demand; a staged milestone structure tied to delivery and commissioning protects your financial recourse.
 > - Verified references from the same system size, same DISCOM area, and installations completed within the last 12 months are the most underused evaluation tool.
 

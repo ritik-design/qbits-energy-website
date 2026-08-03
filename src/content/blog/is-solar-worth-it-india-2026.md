@@ -170,6 +170,14 @@ Structural suitability depends on roof construction, not building age. A structu
 **"My neighbour's system underperformed."**
 This is often an installer quality issue, not a solar technology issue. Underperforming systems typically have oversized inverters (so they never operate at efficient MPPT range), ALMM non-listed panels with higher degradation, or poor DC cable sizing that creates resistive losses. See [solar inverter buying mistakes](/blog/solar-inverter-buying-mistakes/) for the checklist that prevents this.
 
+What the trade floor signalled this year is summarised in [the REI Expo 2026 recap](/blog/rei-expo-recap/).
+
+Payback varies sharply by state, compared across seven of them in [solar inverter payback period](/blog/solar-inverter-payback-period/).
+
+Against a fixed deposit specifically, the maths is set out in [solar investment vs FD](/blog/solar-investment-vs-fd-india/).
+
+Seasonal variation is examined in [solar performance in Indian winters](/blog/solar-performance-indian-winters-guide/).
+
 ## Where Qbits Fits
 
 The financial returns described above depend entirely on every component working at specification for the full warranty period. The inverter is the highest-risk component, it converts every watt the panels produce, operates in Indian summer heat year after year, and costs ₹40,000–₹80,000 to replace if it fails prematurely.

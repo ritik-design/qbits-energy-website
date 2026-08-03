@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Poland: 2026 Guide"
 excerpt: "RCEm moved 40 percent in a single month. A Polish proposal quoting one export rate as fact is quoting a number that will be wrong by the time it is signed. Six tools compared."
 description: "Best solar proposal software Poland 2026. SurgePV vs Aurora, PVsyst, PV*SOL on net billing, RCEm volatility, Mój Prąd storage weighting, 8 percent VAT and honest payback ranges."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-poland.svg"
 author: "Akash Hirapara"
@@ -44,7 +44,7 @@ The hardest number in a Polish solar proposal is the one nobody can pin down. RC
 > - Present payback as a range: roughly 9 to 13 years without storage, 7 to 10 with, 5 to 6 with subsidy.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for Polish installers in 2026 is SurgePV, because it prices exported and self-consumed energy separately against net billing and presents payback as a tested range. PVsyst is the bankable simulation reference with no proposal layer. Aurora assumes US net metering, which Poland moved away from in 2022.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Polish installers in 2026 is SurgePV, because it prices exported and self-consumed energy separately against net billing and presents payback as a tested range. PVsyst is the bankable simulation reference with no proposal layer. Aurora assumes US [net metering](/glossary/net-metering/), which [Poland](/blog/solar-software-poland/) moved away from in 2022.
 
 For the design-side comparison see our [best solar design software Poland](/blog/solar-design-software-poland/) guide, the shading treatment in [solar shading analysis software Poland](/blog/solar-shading-analysis-software-poland/), and the global [solar proposal software](/blog/solar-proposal-software/) ranking.
 

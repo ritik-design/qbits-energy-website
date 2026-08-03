@@ -239,6 +239,15 @@ Grid-forming inverters establish voltage and frequency independently, enabling i
 
 QBits Energy supplies hybrid and off-grid inverters with grid-forming capability for backup applications, microgrids and emerging utility BESS across India.
 
+## Further reading
+
+For how Grid-Forming Inverter plays out in real projects, these guides go deeper:
+
+- [Best 3kW Solar Inverter in India 2026](/blog/best-3kw-solar-inverter-india-2026/)
+- [On-Grid vs Hybrid vs Off-Grid: Decision Guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/)
+- [Best On-Grid Solar Inverter 2026, Top Picks](/blog/best-on-grid-solar-inverter-india-2026/)
+- [3-Phase Solar Inverter in India: Buyer's Guide](/blog/3-phase-solar-inverter/)
+
 ## Sources
 
 - IEEE 2800 (under development), Inverter-Based Resources Requirements.

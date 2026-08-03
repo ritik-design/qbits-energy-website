@@ -207,6 +207,13 @@ Irradiation is solar energy per unit area over time, measured in kWh/m² or MJ/m
 
 QBits Energy provides solar resource assessment using ground-validated multi-year irradiation data for Indian utility, C&I and residential solar projects.
 
+## Further reading
+
+For how Irradiation plays out in real projects, these guides go deeper:
+
+- [How Much Electricity Does Solar Generate in India?](/blog/how-much-electricity-solar-generates-india/)
+- [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)
+
 ## Sources
 
 - ISO 9060, Pyranometer classification.

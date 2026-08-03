@@ -268,6 +268,15 @@ Cycle life is the number of charge-discharge cycles a battery delivers before ca
 
 QBits Energy compares battery options on lifecycle cost at intended DOD for solar storage applications across India.
 
+## Further reading
+
+For how Cycle Life plays out in real projects, these guides go deeper:
+
+- [LiFePO4 vs NMC Battery for Solar in India](/blog/lifepo4-vs-nmc-solar-battery-india/)
+- [How Long Do Solar Batteries Last in India?](/blog/how-long-solar-batteries-last-india/)
+- [How to Size a Battery for a Hybrid Solar Inverter](/blog/battery-sizing-hybrid-solar/)
+- [Lithium vs Lead-Acid Solar Battery for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/)
+
 ## Sources
 
 - IEC 61960:2017, Performance requirements for secondary lithium cells.

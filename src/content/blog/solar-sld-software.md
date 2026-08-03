@@ -38,7 +38,7 @@ faqs:
     a: "Yes. Solar SLD software, solar single line diagram software, and solar one line diagram software all describe tools that generate the electrical schematic showing modules, strings, combiners, inverters, protection, and the point of interconnection. The distinction that matters is auto-generated versus drawn: auto-SLD derives the diagram from the design you already built, so it cannot contradict the string configuration. A hand-drawn SLD in CAD can, and that mismatch is a common AHJ rejection."
 ---
 
-Solar single line diagram software auto-generates the electrical schematic AHJs and lenders depend on. The auto-SLD has become a non-negotiable feature on modern solar design platforms. This guide explains how it works in 2026 and which tools do it well.
+Solar [single line diagram](https://www.surgepv.com/blog/solar-single-line-diagram) software auto-generates the electrical schematic AHJs and lenders depend on. The auto-SLD has become a non-negotiable feature on modern solar design platforms. This guide explains how it works in 2026 and which tools do it well.
 
 > **TL;DR**
 > - Auto-generated solar SLDs are now standard on cloud platforms.

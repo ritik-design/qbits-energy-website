@@ -233,6 +233,15 @@ DC oversizing connects more PV than inverter AC rating, raising yield and reduci
 
 QBits Energy designs solar plants with PVsyst-optimised DC/AC ratios for residential, C&I and utility applications across Indian regions.
 
+## Further reading
+
+For how DC Oversizing plays out in real projects, these guides go deeper:
+
+- [Inverter Clipping Explained: DC Oversizing FAQs](/blog/inverter-clipping-explained/)
+- [DC Oversizing in Solar: FAQ Guide for Maximum ROI](/blog/dc-oversizing-in-solar/)
+- [Solar Inverter Sizing: 12 Key Questions (2026)](/blog/solar-inverter-sizing/)
+- [Solar Inverter Monitoring Systems in India (2026)](/blog/solar-inverter-monitoring-systems-in-india/)
+
 ## Sources
 
 - PVsyst software documentation on DC/AC ratio optimisation.

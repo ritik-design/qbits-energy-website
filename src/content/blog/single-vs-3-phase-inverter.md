@@ -34,9 +34,9 @@ faqs:
 featured: false
 ---
 
-Every solar installation in India begins with a question that the salesperson rarely asks upfront: what type of electricity connection does your building have? The answer (single-phase or 3-phase) determines which inverter you can legally install, how large your solar system can be, and whether you qualify for net metering at all. Getting this wrong means your DISCOM will refuse to commission the system, your subsidy claim will fail, and you may need to replace expensive equipment before the first unit of solar power reaches your meter.
+Every solar installation in India begins with a question that the salesperson rarely asks upfront: what type of electricity connection does your building have? The answer ([single-phase](https://www.surgepv.com/blog/three-phase-vs-single-phase-solar-inverter) or 3-phase) determines which inverter you can legally install, how large your solar system can be, and whether you qualify for net metering at all. Getting this wrong means your DISCOM will refuse to commission the system, your subsidy claim will fail, and you may need to replace expensive equipment before the first unit of solar power reaches your meter.
 
-This guide explains the difference between single-phase and 3-phase inverters in plain language, gives you a verified method to identify your own connection type, walks through the DISCOM capacity rules, and maps every configuration to the right Qbits inverter series.
+This guide explains the difference between [single-phase](https://www.surgepv.com/blog/solar-heat-pump-ev-single-phase) and 3-phase inverters in plain language, gives you a verified method to identify your own connection type, walks through the DISCOM capacity rules, and maps every configuration to the right Qbits inverter series.
 
 > **TL;DR**
 > - Your electricity connection type, not panel count or inverter brand, decides whether you need a single-phase or 3-phase inverter.

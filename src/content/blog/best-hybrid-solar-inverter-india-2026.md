@@ -50,7 +50,7 @@ That's the angle here. Each model below is assessed on battery compatibility: wh
 > - Backup duration follows a simple formula: battery kWh ÷ critical load kW × 0.85–0.90 efficiency factor.
 > - PM Surya Ghar subsidises the ALMM-listed inverter and panels, up to ₹78,000 for 3 kW and above, but never the battery bank itself.
 
-**Short version.** The best hybrid inverter for 2026 for most homeowners is the Qbits HS Series (3–10 kW): supports LFP and lead-acid, talks CAN and RS485, 12-year full replacement warranty, ALMM-listed for PM Surya Ghar. The Battery Match Matrix below maps your specific load, battery size, and outage duration to the right model before purchase.
+**Short version.** The best [hybrid inverter](https://www.surgepv.com/blog/hybrid-inverter-guide) for 2026 for most homeowners is the Qbits HS Series (3–10 kW): supports LFP and lead-acid, talks CAN and RS485, 12-year full replacement warranty, ALMM-listed for PM Surya Ghar. The Battery Match Matrix below maps your specific load, battery size, and outage duration to the right model before purchase.
 
 The [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) covers which inverter type suits your region. This review assumes you have already decided on hybrid and need to choose the right model.
 

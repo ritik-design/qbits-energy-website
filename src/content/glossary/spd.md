@@ -247,6 +247,14 @@ SPDs are mandatory protection devices for Indian solar installations. Type 2 SPD
 
 QBits Energy designs and installs Indian solar systems with appropriately specified SPDs, earthing and lightning protection coordination across all customer segments.
 
+## Further reading
+
+For how SPD plays out in real projects, these guides go deeper:
+
+- [How to Choose Solar Inverters with Surge Protection](/blog/how-to-choose-solar-inverters-with-surge-protection/)
+- [Solar Inverter Components: 7 Parts to Inspect](/blog/solar-inverter-components/)
+- [Monsoon Solar Prep: Complete Checklist for India](/blog/monsoon-solar-prep/)
+
 ## Sources
 
 - IS 16480, Indian Standard for surge protection devices.

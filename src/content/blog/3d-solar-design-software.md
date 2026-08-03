@@ -127,6 +127,8 @@ For everyday production design at volume, AI 3D from satellite has overtaken the
 <p class="cta-sub">Annual billing · Cancel anytime · Includes Clara AI</p>
 </div>
 
+Automated layout is one part of a broader shift covered in [AI solar design](/blog/ai-solar-design/).
+
 ## Who Should Choose Each Tool
 
 - **Choose SurgePV** for AI 3D from satellite at scale, integrated with the full design-to-proposal stack.

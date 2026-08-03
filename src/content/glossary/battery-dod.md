@@ -264,6 +264,15 @@ DOD is the depth of each charge-discharge cycle, expressed as a percentage of no
 
 QBits Energy sizes solar storage systems by usable kWh at appropriate DOD, matched to chemistry, inverter compatibility and warranty terms. For the full sizing walkthrough, see [how to size a battery for a hybrid solar inverter](/blog/battery-sizing-hybrid-solar/).
 
+## Further reading
+
+For how Battery DOD plays out in real projects, these guides go deeper:
+
+- [LiFePO4 vs NMC Battery for Solar in India](/blog/lifepo4-vs-nmc-solar-battery-india/)
+- [Off-Grid Solar Battery Bank Sizing for India](/blog/off-grid-battery-bank-sizing-india/)
+- [How Long Do Solar Batteries Last in India?](/blog/how-long-solar-batteries-last-india/)
+- [How to Size a Battery for a Hybrid Solar Inverter](/blog/battery-sizing-hybrid-solar/)
+
 ## Sources
 
 - IEC 61960:2017, Performance requirements for secondary lithium cells.

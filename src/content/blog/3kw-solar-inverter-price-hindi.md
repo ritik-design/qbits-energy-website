@@ -35,7 +35,7 @@ faqs:
 featured: false
 ---
 
-3 kW तय हो चुका है और अब सिर्फ एक सवाल बचा है: असल में कितने पैसे लगेंगे। यह guide उसी एक size की है। Inverter की price tier by tier, on-grid और hybrid का exact gap, panels और installation मिलाकर पूरा system कितने का पड़ेगा, subsidy के बाद जेब से कितना जाएगा, EMI कैसी बनेगी और पैसा कितने साल में वापस आएगा। एक बात शुरू में ही समझ लीजिए, यही 3 kW को खास बनाती है: PM Surya Ghar की पूरी ₹78,000 subsidy ठीक 3 kW पर पूरी हो जाती है, और उससे बड़ा system लेने पर एक रुपया extra नहीं मिलता। यानी हर invest किए रुपये पर सबसे भारी सरकारी हिस्सा 3 kW वाले को मिलता है। अभी capacity पर decide कर रहे हैं तो [1 kW से 10 kW तक का पूरा price guide](/blog/solar-inverter-price-2026-hindi/) देख लें।
+3 kW तय हो चुका है और अब सिर्फ एक सवाल बचा है: असल में कितने पैसे लगेंगे। यह guide उसी एक size की है। Inverter की price tier by tier, on-grid और hybrid का exact gap, panels और installation मिलाकर पूरा system कितने का पड़ेगा, subsidy के बाद जेब से कितना जाएगा, EMI कैसी बनेगी और पैसा कितने साल में वापस आएगा। एक बात शुरू में ही समझ लीजिए, यही 3 kW को खास बनाती है: [PM Surya Ghar](/glossary/pm-surya-ghar/) की पूरी ₹78,000 subsidy ठीक 3 kW पर पूरी हो जाती है, और उससे बड़ा system लेने पर एक रुपया extra नहीं मिलता। यानी हर invest किए रुपये पर सबसे भारी सरकारी हिस्सा 3 kW वाले को मिलता है। अभी capacity पर decide कर रहे हैं तो [1 kW से 10 kW तक का पूरा price guide](/blog/solar-inverter-price-2026-hindi/) देख लें।
 
 > **TL;DR**
 > - 3kW on-grid inverter ₹18,000 से ₹35,000, 3kW hybrid ₹32,000 से ₹62,000, tier के हिसाब से।
@@ -234,6 +234,8 @@ Answer capsule: PM Surya Ghar के तहत 3 kW तक के residential ro
 <a href="/residential-solution/" class="cta-btn">Residential Solutions Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">ALMM Phase III equipment, 72-ghante RMA SLA।</p>
 </div>
+
+Elsewhere in the Heaven Group network, see [Installed cost ka pura breakdown](https://quickestimate.co/blog/cost-breakdown-solar-installation) and [Inverter badalne ka kharcha](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost).
 
 ## The Bottom Line
 

@@ -207,6 +207,15 @@ Calendar life is chronological battery aging regardless of cycling. LFP: 10-15 y
 
 QBits Energy supplies LFP battery systems with thermal management designed for extended calendar life in Indian climate conditions.
 
+## Further reading
+
+For how Calendar Life plays out in real projects, these guides go deeper:
+
+- [How Long Do Solar Batteries Last in India?](/blog/how-long-solar-batteries-last-india/)
+- [Best Solar Battery Brands in India 2026](/blog/best-solar-battery-brands-india-2026/)
+- [Solar Battery Price Guide India 2026](/blog/solar-battery-price-guide-india-2026/)
+- [LiFePO4 vs NMC Battery for Solar in India](/blog/lifepo4-vs-nmc-solar-battery-india/)
+
 ## Sources
 
 - IEC 61960, Cell performance.

@@ -225,6 +225,15 @@ MLPE encompasses microinverters and DC optimisers, providing panel-level optimis
 
 QBits Energy installs microinverter and DC optimiser systems for premium residential and complex-geometry rooftops across India.
 
+## Further reading
+
+For how MLPE plays out in real projects, these guides go deeper:
+
+- [String vs Microinverter, Indian Roof Reality](/blog/string-vs-microinverter/)
+- [Solar Shading Analysis Software 2026: Guide](/blog/solar-shading-analysis-software/)
+- [How Does a Solar Power System Work in India?](/blog/how-solar-power-system-works-india/)
+- [Enphase vs SolarEdge in India 2026: Are Premium Micros Worth It?](/blog/enphase-vs-solaredge-india/)
+
 ## Sources
 
 - IEC 62109, Inverter safety.

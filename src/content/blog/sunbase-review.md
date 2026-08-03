@@ -3,8 +3,8 @@ title: "Sunbase Review 2026: Solar CRM and Field Ops, Assessed"
 excerpt: "An honest Sunbase Data review for 2026. What it is, what it costs, where it is strong, and why comparing it to Aurora or PVsyst is the wrong test."
 description: "Sunbase Data review 2026: a modular solar CRM, door-to-door sales and operations platform starting at $59 per user per month. Verified pricing, real strengths, honest limits, and how it pairs with a design platform."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/sunbase-review.svg"
 author: "Akash Hirapara"
@@ -35,13 +35,13 @@ faqs:
 featured: false
 ---
 
-Most reviews of Sunbase go wrong in the first paragraph, because they line it up against Aurora Solar or PVsyst and then mark it down for things it never set out to do. Sunbase is not a design engine. It is a CRM, field sales, and operations platform sold to solar, roofing, and construction contractors, and it should be judged on that job. This review covers what Sunbase actually is, what its own site says about pricing, where the product is genuinely strong, where it stops short of a dedicated design platform, and which buyer it fits. The useful question is not whether Sunbase beats a simulation tool. It is which layer of your stack it occupies, and what you still need beside it.
+Most reviews of [Sunbase](/blog/sunbase-alternative/) go wrong in the first paragraph, because they line it up against Aurora Solar or PVsyst and then mark it down for things it never set out to do. Sunbase is not a design engine. It is a CRM, field sales, and operations platform sold to solar, roofing, and construction contractors, and it should be judged on that job. This review covers what Sunbase actually is, what its own site says about pricing, where the product is genuinely strong, where it stops short of a dedicated design platform, and which buyer it fits. The useful question is not whether Sunbase beats a simulation tool. It is which layer of your stack it occupies, and what you still need beside it.
 
 > **TL;DR**
 > - Sunbase is a modular contractor management platform covering CRM, proposals, project management, inventory, financials, and reporting for solar, roofing, and construction.
 > - Its published starting price is $59 per user per month, with no fixed public tiers and quotes built per business.
 > - Real strengths sit in field sales: territory mapping, route planning, rep tracking, canvassing lead capture, and contract plus e-signature flow.
-> - It is not a design or simulation tool, and it says so, positioning instead as something that integrates with separate solar design software.
+> - It is not a design or simulation tool, and it says so, positioning instead as something that integrates with separate solar [design software](https://heavendesigns.in/blog/solar-design-software-pricing/).
 > - Most volume installers should run a CRM like Sunbase alongside a design platform, not instead of one.
 
 **Short version.** Sunbase is a modular solar CRM and field operations platform starting at $59 per user per month, strongest at door-to-door sales workflow, pipeline management, proposals with e-signature, and post-sale project tracking. It is not an engineering design tool and does not claim to be. Judged as a CRM it is a credible option. Judged against Aurora or PVsyst it is the wrong category entirely.

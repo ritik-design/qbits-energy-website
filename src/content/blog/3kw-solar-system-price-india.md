@@ -33,7 +33,7 @@ faqs:
     a: "A 3kW solar system can run two 1-ton ACs simultaneously but only during peak sunshine hours (10 AM to 3 PM) when the system is producing close to its rated output. Running two ACs of 750W each draws 1,500W, leaving 1,500W for other loads. During morning and evening hours, the system output drops and the ACs draw supplementary power from the grid. For consistent two-AC coverage, a 4kW or 5kW system is recommended."
 ---
 
-Your electricity bill crossed ₹6,000 a month. You own a 2 or 3 BHK independent home. You want to know whether a 3kW solar system brings that bill close to zero. The 3kW size is India's most popular residential solar tier because it matches the PM Surya Ghar maximum subsidy cap (₹78,000), fits a typical 2–3 BHK load profile, and delivers the best cost-per-unit-of-generation in the residential band. This guide is the cost breakdown, payback math, and an honest read on what 3kW does and doesn't cover.
+Your electricity bill crossed ₹6,000 a month. You own a 2 or 3 BHK independent home. You want to know whether a 3kW solar system brings that bill close to zero. The 3kW size is India's most popular residential solar tier because it matches the [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) maximum subsidy cap (₹78,000), fits a typical 2–3 BHK load profile, and delivers the best cost-per-unit-of-generation in the residential band. This guide is the [cost breakdown](https://www.heavengreenenergy.com/blog/solar-panel-cost-breakdown), payback math, and an honest read on what 3kW does and doesn't cover.
 
 > **TL;DR**
 > - A 3kW on-grid system costs ₹1.6 lakh to ₹2.1 lakh before subsidy, and ₹82,000 to ₹1.32 lakh net after the ₹78,000 PM Surya Ghar subsidy.
@@ -43,7 +43,7 @@ Your electricity bill crossed ₹6,000 a month. You own a 2 or 3 BHK independent
 > - It suits a standard 3 BHK home with one 1.5-ton AC, a second smaller AC, a fridge, and a geyser.
 > - It uses 6 panels and needs about 18 to 22 square metres of shadow-free roof.
 
-**Short version.** A 3kW system costs ₹1.6 lakh to ₹2.1 lakh in India before subsidy. After the ₹78,000 PM Surya Ghar subsidy, net is ₹82,000 to ₹1.32 lakh. At ₹7/unit and 12 units/day generation, payback is 3 to 4 years. 3kW is the maximum-subsidy tier under PM Surya Ghar. Every rupee above 3kW is unsubsidised. For larger homes, see the [5kW system guide](/blog/5kw-solar-system-price-india/).
+**Short version.** A [3kW system](https://www.heavengreenenergy.com/blog/3kw-solar-system-in-india) costs ₹1.6 lakh to ₹2.1 lakh in India before subsidy. After the ₹78,000 PM Surya Ghar subsidy, net is ₹82,000 to ₹1.32 lakh. At ₹7/unit and 12 units/day generation, payback is 3 to 4 years. 3kW is the maximum-subsidy tier under PM Surya Ghar. Every rupee above 3kW is unsubsidised. For larger homes, see the [5kW system guide](/blog/5kw-solar-system-price-india/).
 
 The 3kW size is India's residential solar benchmark for a reason: it's the band where subsidy peaks, roof requirements stay manageable (18–22 sq m), and the system covers most of a typical urban household's daytime consumption.
 

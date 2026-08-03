@@ -257,6 +257,15 @@ GHI is the foundational solar resource measurement, the total solar radiation hi
 
 QBits Energy provides solar resource assessment and yield modelling using validated GHI data sources for Indian utility, C&I and residential projects.
 
+## Further reading
+
+For how GHI plays out in real projects, these guides go deeper:
+
+- [Solar Irradiance Data India, Peak Sun Hours](/blog/solar-irradiance-data-india-statewise/)
+- [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)
+- [India Rooftop Solar Capacity by State (2026)](/blog/india-rooftop-solar-capacity-state-2026/)
+- [Solar Performance in Indian Winters, What to Expect](/blog/solar-performance-indian-winters-guide/)
+
 ## Sources
 
 - NIWE Solar Resource Atlas.

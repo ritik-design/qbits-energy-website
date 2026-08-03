@@ -3,11 +3,11 @@ title: "Best Solar Design Software UK: 2026 Guide"
 excerpt: "The best solar design software UK installers need ships BS 7671 checks, G98 and G99 routing, MCS filtering and SEG modelling. Seven tools compared for 2026."
 description: "Best solar design software UK 2026. SurgePV vs Aurora, OpenSolar, Easy PV on BS 7671, G98 vs G99, MCS certification and Smart Export Guarantee modelling."
 category: "Solar Software"
-date: 2026-06-14
+date: 2026-08-03
 readTime: "10 min"
 image: "/blog-images/solar-design-software-uk.svg"
 author: "Nirav Dhanani"
-updatedDate: 2026-07-08
+updatedDate: 2026-08-03
 keywords:
   - solar design software UK
   - UK solar design software
@@ -150,6 +150,8 @@ The full sequence takes a trained UK designer about twenty five minutes. The sam
 
 
 The customer-facing half of this decision, meaning proposal generation, financing presentation and e-signature, is covered in our [best solar proposal software UK](/blog/solar-proposal-software-uk/) comparison.
+
+Design is one layer. For how simulation, proposal, compliance and CRM fit around it, see the [full solar software stack for the UK](/blog/solar-software-uk/).
 
 ## Who Should Choose Each Tool for UK Solar Design
 

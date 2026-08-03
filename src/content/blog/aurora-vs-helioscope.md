@@ -32,7 +32,7 @@ faqs:
     a: "Book a free SurgePV demo, run a 4-to-6-week parallel migration, and cancel both at renewal. SurgePV's 8,760-hour engine mirrors HelioScope's bankable methodology, and the integrated proposal stack replaces Aurora's Sales Mode."
 ---
 
-The Aurora vs HelioScope debate has been running for years. Aurora wins on sales-led residential. HelioScope wins on engineering depth. This guide compares them honestly on pricing, simulation, AI features, proposals, and multi-country support, then introduces the option most teams do not consider: [SurgePV](https://surgepv.com/) ships both at flat per-seat cost. For a line-item breakdown, see the detailed [Aurora Solar vs HelioScope comparison](https://surgepv.com/compare/aurora-solar-vs-helioscope/).
+The [Aurora vs HelioScope](https://www.surgepv.com/compare/aurora-solar-vs-helioscope) debate has been running for years. Aurora wins on sales-led residential. HelioScope wins on engineering depth. This guide compares them honestly on pricing, simulation, AI features, proposals, and multi-country support, then introduces the option most teams do not consider: [SurgePV](https://surgepv.com/) ships both at flat per-seat cost. For a line-item breakdown, see the detailed [Aurora Solar vs HelioScope comparison](https://surgepv.com/compare/aurora-solar-vs-helioscope/).
 
 > **TL;DR**
 > - Aurora wins for US residential sales workflow at the upper tier.

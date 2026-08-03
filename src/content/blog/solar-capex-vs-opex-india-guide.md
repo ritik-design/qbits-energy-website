@@ -42,7 +42,7 @@ The answer changes entirely based on ownership, tenure, and capital availability
 > **TL;DR**
 > - CAPEX (owning the system) suits building owners with 10+ year tenure and access to capital, delivering 18–25% IRR.
 > - OPEX/RESCO suits tenants and capital-constrained buyers, delivering 20–35% lower bills with zero upfront cost.
-> - The 4-Question CAPEX vs OPEX Test checks building ownership, tenancy horizon, cost of capital, and balance-sheet policy in that order.
+> - The 4-Question [CAPEX vs OPEX](https://heavendesigns.in/blog/solar-ppa-vs-capex-vs-opex-india/) Test checks building ownership, tenancy horizon, cost of capital, and balance-sheet policy in that order.
 > - A 150 kW CAPEX system in Maharashtra can deliver roughly ₹5.5 crore in 25-year savings versus about ₹2.5 crore under OPEX/RESCO.
 > - Accelerated depreciation (40% in Year 1 under Section 32) applies only to the CAPEX owner, not to a RESCO's PPA customer.
 > - MSME loans under CGTMSE can bridge the gap, letting a building owner get CAPEX ownership benefits without depleting working capital.

@@ -33,14 +33,14 @@ faqs:
     a: "A 1kW solar system requires 6 to 9 square metres of shadow-free roof area (2 panels of 500 Wp each). A 2kW system requires 12 to 18 square metres (4 panels of 500 Wp each). Most 1 BHK apartments and independent houses have sufficient terrace or roof space. Renters in apartments should note that rooftop rights typically belong to the building owner, and DISCOM net metering is usually available only to the electricity consumer on record."
 ---
 
-Your 1 BHK electricity bill has crossed ₹1,500 per month and you have been thinking about solar. But every solar company wants to sell you a 3kW system, and the quotes feel oversized for a home with one bedroom, one living area, and a small kitchen.
+Your 1 BHK electricity bill has crossed ₹1,500 per month and you have been thinking about solar. But every solar company wants to sell you a [3kW system](https://www.heavengreenenergy.com/blog/3kw-solar-system-in-india), and the quotes feel oversized for a home with one bedroom, one living area, and a small kitchen.
 
 The question is not what the salesperson wants to sell you. The question is: what does a 1 BHK home actually need?
 
 > **TL;DR**
 > - A 1 BHK without AC needs a 1kW on-grid system; a 1 BHK with a 1-ton AC needs 2kW.
 > - Monthly consumption ranges 150–350 units without AC to 300–450 units with AC.
-> - PM Surya Ghar subsidy is ₹30,000 for 1kW and ₹60,000 for 2kW, cutting net cost to ₹35,000–₹70,000.
+> - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy is ₹30,000 for 1kW and ₹60,000 for 2kW, cutting net cost to ₹35,000–₹70,000.
 > - Payback lands in 4–7 years at current tariffs of ₹6–₹8 per unit.
 > - The Qbits TLS-1500 (1.5kW) and TLS-2000 (2kW) are the recommended ALMM-listed on-grid inverters for this segment.
 > - Do not accept a 3kW quote for a genuine 1 BHK load, it oversizes the system and wastes roof space.

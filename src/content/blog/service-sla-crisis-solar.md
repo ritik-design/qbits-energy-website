@@ -52,7 +52,7 @@ This is a founder's view. I am not writing this as a neutral observer. I am writ
 > - Tier-2/3 cities, which account for the majority of PM Surya Ghar installations, often sit 300 km from the nearest service support.
 > - A 6-week downtime event on a 5 kW residential system costs ₹18,000-₹28,000 once lost generation, continued DISCOM billing, and loan EMIs are combined.
 > - The proposed 5-Gate Solar Service SLA Standard sets 2-hour ticket acknowledgement, 72-hour on-site visits, and 7-day system restoration with a generation credit for breaches.
-> - MNRE currently mandates BIS, IEC, and ALMM product standards but no after-sales service performance standard.
+> - MNRE currently mandates BIS, IEC, and ALMM product standards but no [after-sales service](https://quickestimate.co/blog/solar-after-sales-service) performance standard.
 > - Qbits has committed to a declared 72-hour RMA SLA, WhatsApp-first fault logging, and a 280-city service partner network with regional spare-parts inventory.
 
 ## The Scale of the Problem: What the Numbers Actually Show

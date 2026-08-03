@@ -285,6 +285,15 @@ PM Surya Ghar Muft Bijli Yojana is India's most significant residential rooftop 
 
 QBits Energy is an empanelled rooftop solar vendor under PM Surya Ghar across multiple Indian states. We handle the full application, DISCOM coordination, installation and subsidy claim end to end.
 
+## Further reading
+
+For how PM Surya Ghar plays out in real projects, these guides go deeper:
+
+- [PM Surya Ghar Muft Bijli Yojana, Complete 2026 Guide](/blog/pm-surya-ghar-yojana-complete-guide/)
+- [Solar Subsidy in Gujarat 2026, Surya Gujarat](/blog/solar-subsidy-gujarat-2026/)
+- [Surya Gujarat Scheme 2026: Amount, Eligibility, and How to Apply](/blog/surya-gujarat-scheme-guide/)
+- [Solar Subsidy in Uttar Pradesh 2026, UPNEDA](/blog/solar-subsidy-uttar-pradesh-2026/)
+
 ## Sources
 
 - PM Surya Ghar Muft Bijli Yojana scheme guidelines, Ministry of New and Renewable Energy, Government of India.

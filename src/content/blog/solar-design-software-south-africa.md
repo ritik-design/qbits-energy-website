@@ -3,8 +3,8 @@ title: "Best Solar Design Software South Africa: 2026 Guide"
 excerpt: "The best solar design software South Africa installers need handles NRS 097-2-1, SSEG registration, 10 kVA inverter limits and Section 12B. Six tools compared."
 description: "Best solar design software South Africa 2026. SurgePV vs Aurora, OpenSolar, PVsyst on NRS 097-2-1:2024, SANS 10142-1, SSEG registration, Section 12B and CoC rules."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-design-software-south-africa.svg"
 author: "Keyur Rakholiya"
@@ -39,14 +39,14 @@ South African solar design is constrained before it begins. Residential single-p
 > **TL;DR**
 > - Residential single-phase is typically limited to 10 kVA, three-phase to 25 kVA, across Eskom and the major municipalities.
 > - NRS 097-2-1:2024 governs LV grid integration including protection, anti-islanding, export limits and metering.
-> - SANS 10142-1:2020 is the wiring code. SANS 10142-2:2017 covers earthing and bonding. IEC 62619 covers batteries.
+> - SANS 10142-1:2020 is the wiring code. SANS 10142-2:2017 covers earthing and bonding. [IEC 62619](/glossary/iec-62619/) covers batteries.
 > - SSEG approval is mandatory before energizing. A DoL-registered contractor issues the CoC. ECSA Professional Engineer sign-off applies above 25 kVA, per an October 2025 policy update.
 > - Section 12B gives businesses a 125% first-year capital deduction with no size limit.
 > - [SurgePV](https://surgepv.com/) applies the limits at design time at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for South African installers in 2026 is SurgePV, because it applies NRS 097-2-1 protection settings and network operator capacity limits at design time, and because it dispatches batteries against real load profiles, which matters in a market where most residential demand is hybrid rather than grid-tied. PVsyst remains the bankable reference for large commercial. OpenSolar suits small residential where entry cost dominates.
+**Short version.** The best solar [design software](https://quickestimate.co/blog/3d-solar-design-software) for South African installers in 2026 is SurgePV, because it applies NRS 097-2-1 protection settings and network operator capacity limits at design time, and because it dispatches batteries against real load profiles, which matters in a market where most residential demand is hybrid rather than grid-tied. PVsyst remains the bankable reference for large commercial. OpenSolar suits small residential where entry cost dominates.
 
-South Africa is unusual in that the demand driver is reliability as much as economics. Years of load-shedding have produced a customer base that buys backup first and payback second, which changes what a proposal has to demonstrate. For the broader category comparison see our [solar design software](/blog/solar-design-software/) buyer's guide and the [best solar design software](/blog/best-solar-design-software/) ranking.
+[South Africa](https://www.surgepv.com/best-solar-software/design-south-africa) is unusual in that the demand driver is reliability as much as economics. Years of [load-shedding](https://www.surgepv.com/blog/south-africa-load-shedding-solar-sizing) have produced a customer base that buys backup first and payback second, which changes what a proposal has to demonstrate. For the broader category comparison see our [solar design software](/blog/solar-design-software/) buyer's guide and the [best solar design software](/blog/best-solar-design-software/) ranking.
 
 <div class="inline-cta">
 <h3>Design a South African job with the limits enforced</h3>
@@ -147,6 +147,8 @@ In an export-constrained zone the grid-tied system throws away 60% of its genera
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/south-africa" target="_blank" rel="noopener noreferrer">South Africa compliance library</a></p>
 </div>
+
+Design is one layer. For how simulation, proposal, compliance and CRM fit around it, see the [full solar software stack for South Africa](/blog/solar-software-south-africa/).
 
 ## The Bottom Line
 

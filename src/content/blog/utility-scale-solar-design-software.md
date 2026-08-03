@@ -32,10 +32,10 @@ faqs:
     a: "Yes. SurgePV supports single-axis horizontal trackers, fixed-tilt, and bifacial layouts. 8,760-hour module-level shading runs across the tracker geometry. PVcase remains the specialist for complex tracker optimisation on uneven terrain."
 ---
 
-Utility-scale solar design software handles terrain modelling, tracker and ground-mount layouts, and bankable yield at gigawatt scale. The category splits between specialised utility tools (PVcase, RatedPower) and multi-segment [solar design software](https://surgepv.com/) platforms (SurgePV, HelioScope). This guide compares the five options and explains why [SurgePV](https://surgepv.com/) is the cleanest pick for developers covering more than one segment.
+[Utility-scale](https://heavendesigns.in/blog/utility-scale-solar-design-software/) solar [design software](https://quickestimate.co/blog/utility-scale-solar-design-software) handles terrain modelling, tracker and [ground-mount](https://www.surgepv.com/best-solar-software/ground-mount-design) layouts, and bankable yield at gigawatt scale. The category splits between specialised utility tools (PVcase, RatedPower) and multi-segment [solar design software](https://surgepv.com/) platforms (SurgePV, HelioScope). This guide compares the five options and explains why [SurgePV](https://surgepv.com/) is the cleanest pick for developers covering more than one segment.
 
 > **TL;DR**
-> - Utility-scale + C&I + residential teams should consolidate on [SurgePV](https://surgepv.com/).
+> - [Utility-scale](https://www.surgepv.com/best-solar-software/utility-scale-design) + C&I + residential teams should consolidate on [SurgePV](https://surgepv.com/).
 > - PVcase and RatedPower lead on pure utility terrain and site-selection automation.
 > - PVsyst remains lender-mandated on some first-of-its-kind utility projects.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and design a real utility-scale project on the call.

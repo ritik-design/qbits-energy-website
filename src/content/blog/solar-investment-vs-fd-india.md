@@ -37,7 +37,7 @@ Every month, millions of Indian households receive an electricity bill and simul
 
 This guide does the maths honestly. Solar wins on return. FD wins on liquidity. The decision is not as simple as picking the higher IRR.
 
-> **Direct answer.** At ₹8/unit electricity tariff, a 3 kW solar system delivers an IRR of approximately 18–22%, more than double the FD rate of 7.5%. With PM Surya Ghar subsidy of ₹78,000, the break-even occurs in 3.5–5 years on a system that lasts 25 years. Use the Solar vs FD Financial Crossover framework to decide which is right for your stage of life and liquidity needs.
+> **Direct answer.** At ₹8/unit electricity tariff, a 3 kW solar system delivers an IRR of approximately 18–22%, more than double the FD rate of 7.5%. With [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy of ₹78,000, the break-even occurs in 3.5–5 years on a system that lasts 25 years. Use the Solar vs FD Financial Crossover framework to decide which is right for your stage of life and liquidity needs.
 
 The comparison is not purely about rate of return. Solar is illiquid, maintenance-dependent, location-specific, and irreversible in the short run. FDs are liquid, zero-maintenance, portable, and breakable in 24 hours. Understanding both sides honestly leads to a better decision than simply chasing the higher number.
 
@@ -167,6 +167,8 @@ For the full PM Surya Ghar subsidy calculation, read the [PM Surya Ghar subsidy 
 > **Tariff context.** Average residential electricity tariff in India increased from approximately ₹4.50 per unit in 2014 to ₹8–10 per unit in 2024, a compounded annual increase of approximately 6%. *Source - [CEA Annual General Review](https://cea.nic.in/), 2024.*
 
 For a full payback period model, including state-specific irradiance data, read the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/). India's residential tariff trajectory is well-documented by the [Central Electricity Regulatory Commission](https://cerc.gov.in/) and confirms the 5–7% annual increase pattern that makes solar's returns improve year over year. [IRENA's India energy outlook](https://www.irena.org/countries/India) projects electricity tariffs will continue rising through 2030 as coal costs and infrastructure spending increase, further strengthening the solar-vs-FD case.
+
+A state by state payback comparison is in [solar inverter payback period](/blog/solar-inverter-payback-period/).
 
 ## Where Qbits Fits
 

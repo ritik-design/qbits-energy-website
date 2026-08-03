@@ -36,17 +36,17 @@ faqs:
 featured: false
 ---
 
-Kerala's solar subsidy story in 2026 requires an honest framing that many installers skip: the state has lower irradiance than most Indian states, the single DISCOM (KSEB) has a notoriously complex net metering bureaucracy that extends timelines to 90–120 days, and the five-to-six month monsoon season reduces annual generation significantly. None of this makes rooftop solar a bad decision in Kerala (the economics still work, particularly given Kerala's higher electricity tariffs) but understanding the realistic timeline and generation expectations before signing a contract is essential.
+Kerala's solar subsidy story in 2026 requires an honest framing that many installers skip: the state has lower irradiance than most Indian states, the single DISCOM (KSEB) has a notoriously complex [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) bureaucracy that extends timelines to 90–120 days, and the five-to-six month monsoon season reduces annual generation significantly. None of this makes rooftop solar a bad decision in Kerala (the economics still work, particularly given Kerala's higher electricity tariffs) but understanding the realistic timeline and generation expectations before signing a contract is essential.
 
 > **TL;DR**
-> - Kerala's only solar subsidy in 2026 is the central PM Surya Ghar scheme: up to ₹78,000 for a 3 kW system.
-> - KSEB is the sole DISCOM and net metering approval realistically takes 90 to 120 days, longer than most states.
+> - Kerala's only solar subsidy in 2026 is the central [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-application-process) scheme: up to ₹78,000 for a 3 kW system.
+> - KSEB is the sole DISCOM and [net metering](https://www.heavengreenenergy.com/blog/solar-net-metering) approval realistically takes 90 to 120 days, longer than most states.
 > - Kerala's irradiance (4.0–4.8 kWh/m²/day) is 15–30% lower than Karnataka or Tamil Nadu, and the dual monsoon cuts monthly generation by 40–50% from June to September.
 > - Kerala's higher electricity tariffs (₹6–₹9/unit) offset the lower irradiance, keeping post-subsidy payback at a realistic 4 to 5 years.
 > - Coastal homes in Kochi, Kozhikode, and Thiruvananthapuram need IP66-rated equipment for salt-laden air; interior districts see longer KSEB timelines.
 > - Kerala does not run a separate state cash top-up; ANERT's role for individual homeowners is facilitative, not a direct subsidy channel.
 
-The central PM Surya Ghar subsidy of ₹78,000 for a 3 kW system is fully available to Kerala homeowners. The financial case is sound. The KSEB process requires patience and active follow-up.
+The central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) of ₹78,000 for a 3 kW system is fully available to Kerala homeowners. The financial case is sound. The KSEB process requires patience and active follow-up.
 
 > **Kerala's solar subsidy in 2026 is the central PM Surya Ghar scheme: up to ₹78,000 for a 3 kW residential system.** Kerala does not currently offer a separate state top-up. KSEB, the sole DISCOM, handles net metering applications with end-to-end timelines of 90 to 120 days, longer than most Indian states. Annual generation in Kerala (4.2 kWh/m²/day average) is 15 to 30 percent lower than in Karnataka or Tamil Nadu, but Kerala's higher electricity tariffs (₹6–₹9/unit) maintain competitive economics. Payback of 4 to 5 years post-subsidy is realistic for most Kerala homeowners.
 

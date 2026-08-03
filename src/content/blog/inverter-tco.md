@@ -46,7 +46,7 @@ faqs:
 
 Solar inverter selection should not focus on purchase price alone. Total cost of ownership (TCO) analysis reveals that budget inverters at ₹30,000 may cost significantly more over 12-15 years than premium options at ₹50,000 once efficiency losses, maintenance, warranty coverage, and replacement events are accounted for. For commercial installations the gap widens to lakhs of rupees.
 
-This guide consolidates the complete TCO framework Indian buyers and EPCs use to make inverter procurement decisions: market pricing tiers, EPC markup strategies and volume discounts, full TCO cost categories, efficiency loss math, warranty actuarial valuation, the 7 critical replacement cost factors, the repair-vs-replace decision framework, and worked TCO comparisons across residential and commercial installations. The 25-year math consistently favours premium inverters in India, and the lifecycle savings often dwarf the upfront premium by 5-10x.
+This guide consolidates the complete TCO framework Indian buyers and EPCs use to make inverter procurement decisions: market pricing tiers, EPC markup strategies and volume discounts, full TCO cost categories, efficiency loss math, warranty actuarial valuation, the 7 critical [replacement cost](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost) factors, the repair-vs-replace decision framework, and worked TCO comparisons across residential and commercial installations. The 25-year math consistently favours premium inverters in India, and the lifecycle savings often dwarf the upfront premium by 5-10x.
 
 > **TL;DR**
 > - Purchase price is only 25-40% of an inverter's 25-year TCO; the rest comes from operations, efficiency loss, warranty gaps, and replacement events.

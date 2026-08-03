@@ -42,10 +42,10 @@ faqs:
     a: "The optimisation target changes. Standard ground-mount maximises energy yield, so you minimise inter-row spacing to whatever shading loss you will tolerate. Agrivoltaics has a second constraint: ground-level irradiance has to stay high enough for the crop underneath, and row spacing has to clear farm machinery. That turns it into a two-variable problem where the best PV layout is deliberately not the highest-yield layout."
 ---
 
-Choosing the right agrivoltaic design software is the single biggest decision in a dual-use solar project. Agrivoltaics co-locates PV with active agriculture, and the geometry, shading model, and financial assumptions all differ from a regular ground-mount farm. [SurgePV](https://surgepv.com/) ships an agrivoltaic template on every paid plan, with elevated mounting defaults, ground-irradiance output, and 8,760-hour shading that reports both kWh and crop-level light transmission. This guide explains how agrivoltaic design differs, what to look for in a tool, and why we recommend SurgePV over HelioScope, PVsyst, and PVcase for dual-use projects in 2026.
+Choosing the right [agrivoltaic design](https://www.surgepv.com/best-solar-software/agrivoltaic-design) software is the single biggest decision in a dual-use solar project. Agrivoltaics co-locates PV with active agriculture, and the geometry, shading model, and financial assumptions all differ from a regular ground-mount farm. [SurgePV](https://surgepv.com/) ships an agrivoltaic template on every paid plan, with elevated mounting defaults, ground-irradiance output, and 8,760-hour shading that reports both kWh and crop-level light transmission. This guide explains how agrivoltaic design differs, what to look for in a tool, and why we recommend SurgePV over HelioScope, PVsyst, and PVcase for dual-use projects in 2026.
 
 > **TL;DR**
-> - Agrivoltaic design software must model elevated mounting, wider row pitch, tractor clearance, and ground irradiance, not just module yield.
+> - [Agrivoltaic design software](https://heavendesigns.in/blog/agrivoltaic-design-software/) must model elevated mounting, wider row pitch, tractor clearance, and ground irradiance, not just module yield.
 > - SurgePV ships an agrivoltaic template on every paid plan starting at $1,299 per seat per year.
 > - Bankable P50/P75/P90 reports, AutoCAD DXF/DWG export, and Clara AI brief-to-design are included.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and bring a real farm site.

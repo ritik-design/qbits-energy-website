@@ -48,7 +48,7 @@ This review covers the Sungrow product range available in India (SG series, SH s
 > - The 6-point assessment scores Sungrow at 41/60, a strong fit for C&I and premium metro buyers, a weaker fit for budget-conscious or Tier-2/3 homeowners.
 > - Every score in this review is our own editorial judgement against our six-point framework, not measured test data or an independent benchmark.
 
-> **Direct answer.** Sungrow is a premium-tier solar inverter brand and a genuinely good choice for C&I buyers and metro-based premium residential installations in India. Its efficiency ratings, iSolarCloud monitoring, and global track record justify its price for buyers who need bankability. For Tier-2 and Tier-3 buyers, budget-constrained homeowners, or PM Surya Ghar ALMM-mandatory installs, the price premium, the repair-based 5-year standard warranty, and the distance to the nearest listed service centre make alternatives worth serious consideration. Apply "The Sungrow India Verdict, 6-Point Honest Assessment" to decide.
+> **Direct answer.** Sungrow is a premium-tier solar inverter brand and a genuinely good choice for C&I buyers and metro-based premium residential installations in India. Its efficiency ratings, iSolarCloud monitoring, and global track record justify its price for buyers who need bankability. For Tier-2 and Tier-3 buyers, budget-constrained homeowners, or PM Surya Ghar ALMM-mandatory installs, the price premium, the repair-based 5-year standard warranty, and the distance to the nearest listed service centre make alternatives worth serious consideration. Apply "The [Sungrow India](/blog/huawei-vs-sungrow-india/) Verdict, 6-Point Honest Assessment" to decide.
 
 The [ALMM list](/glossary/almm-list/) status of specific Sungrow models (addressed in Point 4 of the assessment below) is the single most consequential factor for PM Surya Ghar buyers, and it changes more frequently than most dealers acknowledge.
 
@@ -261,6 +261,8 @@ Buyers who want comparable efficiency to Sungrow, with a meaningfully stronger w
 - **[Authorised Service Partners](/authorized-service-partners/)**: pincode-searchable network with documented 72-hour RMA SLA, including Tier-2 and Tier-3 coverage.
 
 For buyers who want a detailed side-by-side specification comparison or a project-specific recommendation, the Qbits team responds to most enquiries within 24 hours. [Request a quote with your roof area and monthly bill](/contact-us/), it is a useful data point regardless of which brand you ultimately choose.
+
+Elsewhere in the Heaven Group network, see [BIS inverter certification](https://heavendesigns.in/blog/bis-solar-inverter-certification-process) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
 
 ## Sungrow India Scorecard: Summary
 

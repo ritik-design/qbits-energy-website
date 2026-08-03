@@ -32,7 +32,7 @@ In India's rapidly expanding solar landscape, installing panels and inverters ma
 > **TL;DR**
 > - Monitored solar systems achieve 98–99% uptime versus 90–95% for unmonitored systems, worth an extra 35,000–80,000 kWh/year on a 100 kW commercial installation.
 > - Wi-Fi suits residential and small commercial sites with reliable internet; 4G/cellular covers remote sites lacking broadband, at ₹200–500/month for 50–200 MB of data.
-> - Performance Ratio (PR) is the key health metric: 75–85% indicates a well-maintained system, below 70% signals a real fault requiring investigation.
+> - [Performance Ratio](https://www.surgepv.com/blog/solar-performance-ratio-guide) (PR) is the key health metric: 75–85% indicates a well-maintained system, below 70% signals a real fault requiring investigation.
 > - WhatsApp-integrated AI alerts cut support calls by 30–40% because they reach installers and homeowners on the platform they already check constantly.
 > - String-level monitoring catches a single failed panel early (a 20–30% drop in that string's output) before it grows into a larger fault.
 > - For a 50 kW system generating 75,000 kWh annually, professional monitoring adds ₹90,000–₹1,50,000/year in recovered yield.

@@ -3,8 +3,8 @@ title: "Best Solar Design Software France: 2026 Guide"
 excerpt: "Since 5 June 2026 surplus sells at 1.1 centimes and the autoconsommation bonus is gone. French design is now entirely about self-consumption. Six tools compared."
 description: "Best solar design software France 2026. SurgePV vs PV*SOL, Aurora, PVsyst on the S21 reform, the end of the prime à l'autoconsommation, 1.1 c/kWh surplus buyback and NF C 15-712."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-france.svg"
 author: "Keyur Rakholiya"
@@ -34,7 +34,7 @@ faqs:
 featured: false
 ---
 
-French solar design changed shape on 5 June 2026. The revised S21 tariff arrêté abolished the prime à l'autoconsommation for new installations and cut the surplus buyback rate to 1.1 centimes per kWh excluding tax. Against a regulated retail price many times higher, the value of an exported kilowatt-hour collapsed by an order of magnitude. Every design habit built over the previous decade, filling the available roof, treating surplus as revenue, positioning storage as an optional extra, is now wrong. This guide covers what French design software has to do under the new regime, and which tools do it.
+French solar design changed shape on 5 June 2026. The revised S21 tariff arrêté abolished the prime à l'autoconsommation for new installations and cut the surplus buyback rate to 1.1 centimes per kWh excluding tax. Against a regulated retail price many times higher, the value of an exported kilowatt-hour collapsed by an order of magnitude. Every design habit built over the previous decade, filling the available roof, treating surplus as revenue, positioning storage as an optional extra, is now wrong. This guide covers what French [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has to do under the new regime, and which tools do it.
 
 > **TL;DR**
 > - The prime à l'autoconsommation was abolished for new installations from 5 June 2026 under the revised S21 arrêté.
@@ -42,10 +42,10 @@ French solar design changed shape on 5 June 2026. The revised S21 tariff arrêt�
 > - Connection requests validated by Enedis before 5 June 2026 keep the old tariffs and bonus for twenty years.
 > - Design now optimises self-consumption, not generation, which requires hourly load modelling rather than annual totals.
 > - Storage moved from upsell to central design question, because it converts 1.1 centime energy into retail-value energy.
-> - NF C 15-712-1 governs grid-connected PV, alongside NF C 15-100, with a Consuel attestation required before commissioning.
+> - NF C 15-712-1 governs grid-connected PV, alongside NF C 15-100, with a Consuel attestation required before [commissioning](/glossary/commissioning/).
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for French installers in 2026 is SurgePV, because the reform turned French design into an hourly self-consumption and storage optimisation problem, and SurgePV runs 8,760-hour simulation with battery dispatch against French tariffs. PVsyst remains the bankable reference for large ground-mount. PV*SOL is credible for European residential detail. Aurora assumes US net metering, which France has never operated.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for French installers in 2026 is SurgePV, because the reform turned French design into an hourly self-consumption and storage optimisation problem, and SurgePV runs 8,760-hour simulation with battery dispatch against French tariffs. PVsyst remains the bankable reference for large ground-mount. PV*SOL is credible for European residential detail. Aurora assumes US [net metering](/glossary/net-metering/), which [France](/blog/solar-software-france/) has never operated.
 
 For the quoting side see our [best solar proposal software France](/blog/solar-proposal-software-france/) guide, and the global [best solar design software](/blog/best-solar-design-software/) ranking for the category without the local lens.
 

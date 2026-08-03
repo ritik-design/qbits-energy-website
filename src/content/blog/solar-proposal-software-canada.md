@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Canada: 2026 Guide"
 excerpt: "The best solar proposal software Canada installers need models ten provincial net metering frameworks and the Clean Technology ITC. Six tools compared for 2026."
 description: "Best solar proposal software Canada 2026. SurgePV vs Aurora, OpenSolar, Solargraf on provincial net metering, Clean Tech ITC, provincial rebates and CSA certification."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-proposal-software-canada.svg"
 author: "Akash Hirapara"
@@ -34,7 +34,7 @@ faqs:
 featured: false
 ---
 
-Canada does not have a national solar proposal. It has ten of them. Export credit runs from $0.04390 per kWh under Manitoba net billing to full retail near $0.145 in Ontario, a spread of more than three times on identical hardware. Settlement periods range from monthly in Alberta to a 24 month reset in Quebec. Capacity caps run from 100 kW to 5 MW. On top of that sits a federal Clean Technology ITC that pays businesses 30% refundable and pays homeowners nothing, plus six live provincial programs and two that closed recently and still appear in circulating templates. This guide compares the platforms Canadian installers should shortlist, judged on whether they model the province rather than the country.
+[Canada](/blog/solar-software-canada/) does not have a national solar proposal. It has ten of them. Export credit runs from $0.04390 per kWh under Manitoba net billing to full retail near $0.145 in Ontario, a spread of more than three times on identical hardware. Settlement periods range from monthly in Alberta to a 24 month reset in Quebec. Capacity caps run from 100 kW to 5 MW. On top of that sits a federal Clean Technology ITC that pays businesses 30% refundable and pays homeowners nothing, plus six live provincial programs and two that closed recently and still appear in circulating templates. This guide compares the platforms Canadian installers should shortlist, judged on whether they model the province rather than the country.
 
 > **TL;DR**
 > - Export credits range from $0.04390 per kWh in Manitoba to roughly $0.145 in Ontario. There is no national rate.
@@ -44,7 +44,7 @@ Canada does not have a national solar proposal. It has ten of them. Export credi
 > - Components need CSA, cUL, cETL or cULus marks from an SCC-accredited body or they cannot legally be installed.
 > - [SurgePV](https://surgepv.com/) carries the provincial libraries at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for Canadian installers in 2026 is SurgePV, because it models the customer's actual provincial net metering framework, applies the federal Clean Technology ITC correctly to business buyers only, carries the live provincial rebate programs, and generates the document from the same engineering record. OpenSolar suits simple residential on cost. Aurora and Solargraf are US-structured and need manual handling of Canadian specifics.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Canadian installers in 2026 is SurgePV, because it models the customer's actual provincial [net metering](https://quickestimate.co/blog/what-is-net-metering) framework, applies the federal Clean Technology ITC correctly to business buyers only, carries the live provincial rebate programs, and generates the document from the same engineering record. OpenSolar suits simple residential on cost. Aurora and Solargraf are US-structured and need manual handling of Canadian specifics.
 
 Canadian solar is a smaller market than the US by volume but has larger average system sizes and a bigger share of commercial and agricultural work. That mix favours proposal tools that handle business tax treatment properly rather than residential-only platforms. For the design-side comparison see our [best solar design software Canada](/blog/solar-design-software-canada/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the Canadian lens.
 

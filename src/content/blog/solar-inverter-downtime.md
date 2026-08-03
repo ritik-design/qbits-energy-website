@@ -262,6 +262,8 @@ Related guides:
 
 For uptime-focused procurement discussions or warranty-aligned project structuring, [talk to a Qbits engineer](/contact-us/) - the team can provide uptime SLA proposals and reference customer introductions within 48 hours.
 
+Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included) and [what a replacement costs](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost).
+
 ## Closing
 
 Inverter downtime is not an inevitability - it is an outcome of equipment choice, installation quality, monitoring rigour, and maintenance discipline. Every 1% uptime improvement on a 100 kW commercial system is worth approximately ₹15,000+ annually, compounding to ₹4,00,000+ over 25 years. Make the upfront investments in IP66 protection, premium components, AI monitoring, and 12-year warranty backing, combined with disciplined preventive maintenance, and downtime stops being a meaningful project risk. The framework above is the same one used by India's most operationally mature solar businesses - apply it consistently and uptime becomes a competitive moat.

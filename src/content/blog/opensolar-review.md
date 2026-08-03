@@ -3,8 +3,8 @@ title: "OpenSolar Review 2026: Genuinely Free, With Real Trade-offs"
 excerpt: "An honest OpenSolar review for 2026. Why the free model is real, what it does well, where the engineering thins out, and when a growing installer outgrows it."
 description: "OpenSolar review 2026: how the free business model works, genuine strengths in residential layout and proposals, real limits on bankable yield and tariff depth, and the alternatives worth testing."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/opensolar-review.svg"
 author: "Nirav Dhanani"
@@ -41,7 +41,7 @@ Most software reviews start from the assumption that you are choosing between th
 > - OpenSolar is free to installers with no seat fee, and that is real, not a trial or a bait tier.
 > - The vendor publicly describes the model as funded by hardware and finance partners on the other side of the transaction, which is worth understanding when you look at where the product invests.
 > - It is genuinely good at fast residential layout, presentable customer proposals, and lowering the barrier for a new installer.
-> - It is thinner than paid tools on bankable yield reporting, code depth, hourly battery and self-consumption modelling, and tariff libraries outside Australia, the UK, and Ireland.
+> - It is thinner than paid tools on bankable yield reporting, code depth, hourly battery and self-consumption modelling, and [tariff](/glossary/tariff/) libraries outside Australia, the UK, and Ireland.
 > - The honest question is not whether it is worth the money. It is when your project mix outgrows it, which is usually a mix change rather than a volume number.
 
 **Short version.** OpenSolar is a free cloud solar design and proposal platform, which the vendor describes as funded by hardware and finance partners rather than by installer subscriptions. It is a legitimately good residential tool: fast layouts, clean customer-facing documents, strong presence in Australia, the UK, and Ireland. Its limits show on bankable yield reporting, hourly battery modelling, and markets outside its core territories.

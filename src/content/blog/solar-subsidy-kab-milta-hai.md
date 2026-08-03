@@ -38,14 +38,14 @@ featured: false
 Solar lagwane wale har ghar ka sabse bada sawaal price nahi hota, timing hota hai। "Paisa kab wapas aayega" yeh question har quote discussion mein aata hai, aur yahi wo jagah hai jahan sabse zyada galat expectations set hoti hain। Kuch vendors bolte hain "do mahine mein subsidy aa jayegi", kuch bolte hain "installation ke saath hi adjust ho jayegi"। Dono statements aam taur par galat hain। Is guide mein poora process stage-by-stage tod kar rakha gaya hai, har stage ke realistic din ke saath, aur yeh bhi ki kis stage par sabse zyada delay hota hai। Agar aapko process ke steps aur eligibility samajhni hai to uske liye alag companion guide hai; yeh page sirf timeline par focus karta hai।
 
 > **TL;DR**
-> - Subsidy DBT ke through consumer ke bank account mein aati hai, aur sirf DISCOM commissioning ke baad, installation ke pehle ya beech mein nahi।
+> - Subsidy DBT ke through consumer ke bank account mein aati hai, aur sirf [DISCOM](/glossary/discom/) commissioning ke baad, installation ke pehle ya beech mein nahi।
 > - Registration se paisa aane tak realistic total 3 se 6 mahine, best case 75 se 90 din।
 > - Central subsidy pehle 2 kW par ₹30,000 per kW, teesre kW par ₹18,000, 3 kW band par cap ₹78,000।
 > - Sabse lamba wait typically DISCOM feasibility approval aur net meter installation par hota hai, installation par nahi।
 > - Claim submit hone ke baad DBT credit typically 30 se 60 din, agar bank details first attempt mein sahi hon।
 > - Har number ek range hai, official SLA nahi। State DISCOM aur season se timeline badalti hai।
 
-**Chhota jawab.** Solar ka subsidy DISCOM commissioning certificate milne ke baad milta hai, us se pehle kabhi nahi। Commissioning ke baad aap portal par bank details ke saath subsidy claim submit karte hain, aur typically 30 se 60 din mein paisa Direct Benefit Transfer se aapke account mein aata hai। Registration se DBT tak poora elapsed time aam taur par 3 se 6 mahine rehta hai।
+**Chhota jawab.** Solar ka subsidy DISCOM commissioning certificate milne ke baad milta hai, us se pehle kabhi nahi। [Commissioning](/glossary/commissioning/) ke baad aap portal par bank details ke saath subsidy claim submit karte hain, aur typically 30 se 60 din mein paisa Direct Benefit Transfer se aapke account mein aata hai। Registration se DBT tak poora elapsed time aam taur par 3 se 6 mahine rehta hai।
 
 Yeh baat pehle hi clear kar lena zaroori hai kyunki isse aapka cash flow plan badalta hai। Aapko system ka poora paisa pehle dena hai, subsidy baad mein refund ki tarah aati hai। Process ke steps, documents aur eligibility ke liye [solar subsidy kaise milegi ka step-by-step guide](/blog/solar-subsidy-kaise-milegi-hindi/) padhein, aur scheme ke rules aur amounts ke liye [PM Surya Ghar Yojana ki complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) dekhein।
 
@@ -221,6 +221,8 @@ Poora control kisi ka nahi hota, lekin kuch cheezein genuinely fark daalti hain�
 6. **ALMM listed equipment hi lagwayein.** Non-listed equipment inspection par reject hota hai aur poora timeline reset ho jaata hai।
 
 Ek nuance: tez hone ke chakkar mein cheap non-listed inverter mat lagwa lena। Woh 30 din bacha kar 90 din ka rework de sakta hai, aur worst case subsidy hi cancel ho sakti hai।
+
+Elsewhere in the Heaven Group network, see [PM Surya Ghar cost by system size](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) and [installer kaise chunein](https://www.heavengreenenergy.com/blog/how-to-choose-solar-installer).
 
 ## Bottom Line
 

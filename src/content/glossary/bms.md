@@ -287,6 +287,15 @@ A BMS is mandatory for every lithium battery pack. It protects cells, balances v
 
 QBits Energy supplies battery packs with BMS-validated compatibility for major hybrid inverter brands across Indian solar projects.
 
+## Further reading
+
+For how BMS plays out in real projects, these guides go deeper:
+
+- [BMS in Hybrid Solar Inverters, Decoded](/blog/bms-hybrid-solar-inverter-explained/)
+- [How to Size a Battery for a Hybrid Solar Inverter](/blog/battery-sizing-hybrid-solar/)
+- [LiFePO4 vs NMC Battery for Solar in India](/blog/lifepo4-vs-nmc-solar-battery-india/)
+- [Solar for Poultry Farm India: Sizing Guide](/blog/solar-for-poultry-farm-india/)
+
 ## Sources
 
 - IEC 62619:2017, Safety requirements for secondary lithium cells.

@@ -34,17 +34,17 @@ faqs:
 featured: false
 ---
 
-5 kW तय कर लिया है और अब सिर्फ यह जानना है कि असली में कितना खर्च आएगा। सही जगह पर हैं। इस guide में सिर्फ 5 kW की बात है: inverter की price tier by tier, on-grid और hybrid का exact gap, battery जोड़ने पर कितना बढ़ेगा, panels और installation मिलाकर full system कितने का पड़ेगा, PM Surya Ghar से कितना वापस आएगा, EMI कैसी बनेगी और पैसा कितने साल में निकलेगा। एक बात पहले ही साफ कर दें क्योंकि यही सबसे महँगी गलतफहमी है: 5 kW लेने पर subsidy 5 गुना नहीं मिलती। Subsidy 3 kW पर रुक जाती है। पूरा हिसाब नीचे है। अगर आप अभी capacity decide कर रहे हैं और 1 kW से 10 kW तक की तुलना चाहिए, तो [सभी sizes का solar inverter price guide](/blog/solar-inverter-price-2026-hindi/) देख लें, यह post सिर्फ 5 kW के लिए है।
+5 kW तय कर लिया है और अब सिर्फ यह जानना है कि असली में कितना खर्च आएगा। सही जगह पर हैं। इस guide में सिर्फ 5 kW की बात है: inverter की price tier by tier, on-grid और hybrid का exact gap, battery जोड़ने पर कितना बढ़ेगा, panels और installation मिलाकर full system कितने का पड़ेगा, [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) से कितना वापस आएगा, EMI कैसी बनेगी और पैसा कितने साल में निकलेगा। एक बात पहले ही साफ कर दें क्योंकि यही सबसे महँगी गलतफहमी है: 5 kW लेने पर subsidy 5 गुना नहीं मिलती। Subsidy 3 kW पर रुक जाती है। पूरा हिसाब नीचे है। अगर आप अभी capacity decide कर रहे हैं और 1 kW से 10 kW तक की तुलना चाहिए, तो [सभी sizes का solar inverter price guide](/blog/solar-inverter-price-2026-hindi/) देख लें, यह post सिर्फ 5 kW के लिए है।
 
 > **TL;DR**
 > - 5kW on-grid inverter ₹28,000 से ₹55,000, 5kW hybrid ₹48,000 से ₹85,000, brand tier के हिसाब से।
 > - Full 5 kW on-grid system installed: ₹2.20 lakh से ₹3.05 lakh। Hybrid with 5 kWh battery: ₹3.40 lakh से ₹4.70 lakh।
-> - PM Surya Ghar central subsidy 5 kW पर ₹78,000, यानी maximum, क्योंकि subsidy 3 kW पर cap है। 4th और 5th kW पर शून्य।
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) central subsidy 5 kW पर ₹78,000, यानी maximum, क्योंकि subsidy 3 kW पर cap है। 4th और 5th kW पर शून्य।
 > - 5 kW system रोज़ 18-22 units देता है, महीने का 550-650 units, एक 3BHK घर के लिए पर्याप्त।
 > - Solar inverter पर GST 12% है और subsidy के लिए ALMM listed equipment mandatory है।
 > - ₹2.5 lakh net cost पर 5-साल EMI लगभग ₹5,200 महीना, जो अक्सर bill saving से ही निकल जाती है।
 
-**Short version.** 2026 में 5kW solar inverter की price ₹28,000 से ₹55,000 है on-grid के लिए, और ₹48,000 से ₹85,000 hybrid के लिए। Panels, structure और installation मिलाकर पूरा 5 kW on-grid system ₹2.20 lakh से ₹3.05 lakh में लगता है। PM Surya Ghar की ₹78,000 subsidy घटाने के बाद net cost ₹1.42 lakh से ₹2.27 lakh आती है।
+**Short version.** 2026 में 5kW solar inverter की price ₹28,000 से ₹55,000 है on-grid के लिए, और ₹48,000 से ₹85,000 hybrid के लिए। Panels, structure और installation मिलाकर पूरा 5 kW on-grid system ₹2.20 lakh से ₹3.05 lakh में लगता है। [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) की ₹78,000 subsidy घटाने के बाद net cost ₹1.42 lakh से ₹2.27 lakh आती है।
 
 ये सारी numbers ranges हैं, exact figure नहीं, और यह जानबूझकर है। जो vendor आपको ₹2,47,350 का सटीक number बिना roof देखे बता दे, उसकी quote में कुछ न कुछ बाद में जुड़ने वाला है।
 

@@ -33,17 +33,17 @@ faqs:
     a: "An on-grid solar system connects to the DISCOM grid and cannot operate during grid outages (anti-islanding shut-down). It does not require a battery bank. An off-grid system operates independently of the grid, requiring a battery bank for nighttime and cloudy-day power, and a larger solar array to charge the battery daily. Off-grid systems are more expensive (₹80,000–₹3,00,000 more) but essential for rural areas without grid connectivity. A hybrid system bridges both - on-grid operation when grid is available, battery backup during outages."
 ---
 
-In Tier-3 villages across Rajasthan, Jharkhand, Chhattisgarh, and Assam, grid reliability is not a given. For homeowners in these locations (or anyone who needs genuinely grid-independent power) an off-grid solar system with a properly sized battery bank is the answer.
+In Tier-3 villages across Rajasthan, Jharkhand, Chhattisgarh, and Assam, grid reliability is not a given. For homeowners in these locations (or anyone who needs genuinely grid-independent power) an [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) solar system with a properly sized battery bank is the answer.
 
 The sizing calculation is not complicated, but it must be done correctly. Undersized batteries run out at 2 AM; oversized batteries waste money on capacity that never gets used. The 20% India-specific heat buffer is the step most guides leave out, an omission that causes real systems to underperform.
 
 > **TL;DR**
-> - Size an off-grid battery bank with the 5-Step Battery Bank Formula: daily load (kWh) × autonomy days ÷ depth of discharge, then add a 20% temperature buffer for Indian heat.
+> - Size an [off-grid](/blog/on-grid-off-grid-antar/) battery bank with the 5-Step Battery Bank Formula: daily load (kWh) × autonomy days ÷ depth of discharge, then add a 20% temperature buffer for Indian heat.
 > - Autonomy needs range from 1–1.5 days in Rajasthan, Gujarat, and MP to 2–3 days in Kerala, Assam, and the Himalayan states.
 > - LiFePO4 batteries support 80% depth of discharge, while VRLA (lead-acid) is limited to 50% to avoid premature failure.
 > - A Tier-3 Rajasthan village home consuming about 7 kWh/day needs roughly a 16 kWh nominal battery bank for 1.5 days of autonomy.
 > - Battery capacity drops to around 78% of rated capacity at 45°C, which is why the temperature buffer step matters in Indian summers.
-> - Qbits HS and HT series hybrid inverters can be configured for pure off-grid operation with LiFePO4 battery banks over CAN bus.
+> - Qbits HS and HT series hybrid inverters can be configured for pure [off-grid](https://quickestimate.co/glossary/off-grid-solar) operation with LiFePO4 battery banks over CAN bus.
 
 > **Direct answer.** Use the **5-Step Battery Bank Formula** to size an off-grid battery bank in India: (1) calculate daily load (kWh), (2) choose autonomy days (1–3 for India), (3) choose DoD (80% for LiFePO4, 50% for VRLA), (4) battery bank = (daily load × autonomy days) ÷ DoD, (5) add 20% temperature buffer for India's heat. For a typical Tier-3 village home consuming 3 kWh/day with 2 days' autonomy on LiFePO4: (3 × 2) ÷ 0.8 × 1.20 = 9kWh nominal bank size.
 

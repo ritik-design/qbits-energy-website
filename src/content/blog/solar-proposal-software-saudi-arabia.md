@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Saudi Arabia: 2026 Guide"
 excerpt: "A Saudi proposal that quotes generation instead of displaced consumption is answering the wrong question. Exports earn 5 halalas; the tariff tier decides everything. Six tools compared."
 description: "Best solar proposal software Saudi Arabia 2026. SurgePV vs Aurora, PVsyst, HelioScope on net billing at 5 halalas, tiered commercial and industrial tariffs, the 5 MW cap and soiling assumptions."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-saudi-arabia.svg"
 author: "Akash Hirapara"
@@ -33,18 +33,18 @@ faqs:
 featured: false
 ---
 
-A Saudi solar proposal has one question to answer, and it is not how much energy the system will generate. Under the Small-Scale Solar PV framework surplus credits at roughly 5 halalas per kWh while commercial import tariffs run in tiers up to around 32 and industrial up to around 20. Value comes almost entirely from displaced consumption, so the number that matters is how much of the generation the facility actually uses and what tier that displaced energy would have cost. A proposal built around annual yield is answering a question the customer is not asking, and it will produce a payback figure that can be wrong by a factor of two or more. This guide compares the platforms Saudi installers should shortlist.
+A [Saudi](/blog/solar-software-saudi-arabia/) solar proposal has one question to answer, and it is not how much energy the system will generate. Under the Small-Scale Solar PV framework surplus credits at roughly 5 halalas per kWh while commercial import tariffs run in tiers up to around 32 and industrial up to around 20. Value comes almost entirely from displaced consumption, so the number that matters is how much of the generation the facility actually uses and what tier that displaced energy would have cost. A proposal built around annual yield is answering a question the customer is not asking, and it will produce a payback figure that can be wrong by a factor of two or more. This guide compares the platforms Saudi installers should shortlist.
 
 > **TL;DR**
 > - Exports credit at around 5 halalas per kWh; commercial imports reach roughly 32 and industrial around 20.
 > - The return comes from displaced consumption, so the customer's tariff tier is the first question, not the roof.
 > - A well-designed Saudi system exports little, so a large export revenue line signals an oversized system.
-> - Soiling of 2 to 5 percent per day means European yield assumptions overstate delivered output substantially.
+> - [Soiling](/glossary/soiling/) of 2 to 5 percent per day means European yield assumptions overstate delivered output substantially.
 > - State the cleaning regime the yield depends on, and quote maintenance alongside the system.
 > - The 5 MW aggregate cap per distribution area can constrain multi-site portfolios and should be confirmed.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for Saudi installers in 2026 is SurgePV, because it prices displaced consumption at the customer's actual tariff tier, models realistic soiling, and generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora assumes US net metering, which the Kingdom does not operate.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Saudi installers in 2026 is SurgePV, because it prices displaced consumption at the customer's actual tariff tier, models realistic soiling, and generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora assumes US net metering, which the Kingdom does not operate.
 
 For the design-side comparison see our [best solar design software Saudi Arabia](/blog/solar-design-software-saudi-arabia/) guide, the shading treatment in [solar shading analysis software Saudi Arabia](/blog/solar-shading-analysis-software-saudi-arabia/), and the global [solar proposal software](/blog/solar-proposal-software/) ranking.
 

@@ -276,6 +276,15 @@ MPPT is the algorithm that pulls 15 to 30 percent more energy out of a solar arr
 
 QBits Energy supports installers and EPCs on inverter selection, MPPT count and string sizing for residential, commercial and utility solar across India. Reach out for site-specific design help.
 
+## Further reading
+
+For how MPPT plays out in real projects, these guides go deeper:
+
+- [MPPT vs PWM Charge Controller Comparison](/blog/mppt-vs-pwm/)
+- [MPPT Kya Hota Hai: Solar Inverter Explained (2026)](/blog/mppt-kya-hota-hai/)
+- [How Does a Solar Inverter Work? 2026 Guide](/blog/how-does-a-solar-inverter-work/)
+- [Solar Inverter for Water Pump, KUSUM Picks](/blog/solar-inverter-for-water-pump/)
+
 ## Sources
 
 - EN 50530:2010, Overall efficiency of grid-connected photovoltaic inverters, MPPT efficiency test procedure.

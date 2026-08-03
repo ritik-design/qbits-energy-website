@@ -33,7 +33,7 @@ faqs:
     a: "Technically yes, but the energy waste is extreme. A modern 300 W panel typically has Vmp around 34 to 38 V. A PWM charge controller on a 12 V battery would clamp that panel to 12 V, recovering only about one-third of the available voltage and therefore one-third of the available power. A 300 W panel paired with a PWM 12 V controller effectively behaves like a 100 W panel. For any modern panel above 150 W, MPPT is the only sensible choice."
 ---
 
-Every off-grid solar system needs something to manage the flow of power from the panel to the battery. That job belongs to the charge controller, one of the core balance-of-system components alongside the wiring, protection gear, and mounting hardware that hold a solar installation together. Two technologies compete for it: PWM (Pulse Width Modulation) and MPPT (Maximum Power Point Tracking). On paper, they both connect a panel to a battery. In practice, they produce dramatically different amounts of energy from the same equipment.
+Every off-grid solar system needs something to manage the flow of power from the panel to the battery. That job belongs to the [charge controller](https://www.surgepv.com/glossary/charge-controller), one of the core balance-of-system components alongside the wiring, protection gear, and mounting hardware that hold a solar installation together. Two technologies compete for it: PWM (Pulse Width Modulation) and MPPT (Maximum Power Point Tracking). On paper, they both connect a panel to a battery. In practice, they produce dramatically different amounts of energy from the same equipment.
 
 This guide explains how each technology works, why the efficiency gap is as large as it is, and exactly when MPPT is mandatory, versus the narrow situations where PWM might still make sense.
 
@@ -47,7 +47,7 @@ This guide explains how each technology works, why the efficiency gap is as larg
 
 > **Direct answer.** MPPT charge controllers extract 10 to 30 percent more energy than PWM controllers from the same solar panels by operating the panels at their maximum power point voltage rather than clamping them to battery voltage. For any modern panel above 150 W (including every 375 W to 545 W panel sold in India today) MPPT is mandatory. PWM makes sense only for very small systems below 100 W using older 36-cell panels designed to match a 12 V battery.
 
-The distinction matters most in off-grid and standalone systems that use a separate charge controller. In grid-tied and hybrid inverters, [MPPT](/glossary/mppt/) is already embedded, the debate does not apply to them.
+The distinction matters most in off-grid and standalone systems that use a separate [charge controller](https://quickestimate.co/glossary/solar-charge-controller). In grid-tied and hybrid inverters, [MPPT](/glossary/mppt/) is already embedded, the debate does not apply to them.
 
 ## What Is a PWM Charge Controller and How Does It Lose Energy
 

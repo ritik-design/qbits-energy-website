@@ -38,13 +38,13 @@ faqs:
     a: "Broadly yes. Solar energy simulation software, solar yield simulation software, and PV performance simulation tools all describe engines that convert a layout plus a weather file into an annual energy figure. What separates bankable tools from the rest is not the label but the resolution: 8,760 hourly steps at module level, with a documented loss chain and P50, P75, P90 outputs. Anything running monthly averages or array-level shading is an estimator, not a bankable simulation."
 ---
 
-PV yield simulation software turns a layout into a bankable yield report lenders accept for project finance. This guide explains the 8,760-hour module-level methodology, the P50, P75, P90 framework, and the [SurgePV](https://surgepv.com/) workflow that ships browser-based bankable [PV simulation](https://surgepv.com/solar-simulation-software) on every paid plan.
+[PV yield](https://heavendesigns.in/blog/pv-yield-simulation-software/) [simulation software](https://heavendesigns.in/blog/solar-simulation-software/) turns a layout into a bankable yield report lenders accept for project finance. This guide explains the 8,760-hour module-level methodology, the P50, P75, P90 framework, and the [SurgePV](https://surgepv.com/) workflow that ships browser-based bankable [PV simulation](https://surgepv.com/solar-simulation-software) on every paid plan.
 
 > **TL;DR**
 > - 8,760-hour module-level simulation is the bankable standard.
 > - [SurgePV](https://surgepv.com/) ships this engine on every paid plan, tied to a [bankable yield report](https://surgepv.com/generation-financial-tool).
 > - PVsyst remains lender-mandated on some first-of-its-kind projects.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and run a bankable simulation on a real project.
+> - [Book a free SurgePV demo](https://surgepv.com/demo) and run a [bankable simulation](https://www.surgepv.com/best-solar-software/bankable-simulation) on a real project.
 
 <div class="inline-cta">
 <h3>Bankable simulation in the browser, same methodology as PVsyst</h3>

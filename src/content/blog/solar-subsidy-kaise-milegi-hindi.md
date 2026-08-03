@@ -36,7 +36,7 @@ faqs:
 Solar subsidy पाना complicated लगता है (लेकिन process को steps में समझें तो straightforward है। सबसे बड़ी problem यह है कि बहुत से लोग wrong information पर depend करते हैं) vendor की बात मान लेते हैं, document checklist नहीं देखते, और बाद में subsidy reject होती है। इस guide में हर step clear है।
 
 > **TL;DR**
-> - Central PM Surya Ghar subsidy ₹78,000 तक मिलती है 3 kW system पर, पूरा process pmsuryaghar.gov.in पर online है।
+> - Central [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy ₹78,000 तक मिलती है 3 kW system पर, पूरा process pmsuryaghar.gov.in पर online है।
 > - Eligibility के लिए domestic connection और घर का मालिक होना जरूरी है, agricultural और commercial connection वाले eligible नहीं हैं।
 > - पाँच documents चाहिए: Aadhaar (mobile-linked), latest electricity bill, PAN card, bank passbook/cheque, aur property proof।
 > - सबसे common rejection reasons हैं wrong DISCOM selection, non-ALMM components, aur bank account Aadhaar से unlinked होना।
@@ -298,6 +298,12 @@ Solar subsidy पर tax implications जानना जरूरी है:
 
 Tax advisor से अपनी specific situation consult करें। [Solar inverter depreciation guide](/blog/solar-inverter-depreciation-in-india/) में details हैं।
 
+
+Empanelled vendor chunne ki poori guide [solar installation kahan se karaye](/blog/solar-installation-kahan-se-karaye/) mein hai.
+
+Subsidy ke baad net kharcha kitna padta hai, dekhein [solar panel lagane ka kharcha](/blog/solar-panel-lagane-ka-kharcha/).
+
+Sabhi rajyon ki tulna [solar subsidy 2026, all states](/blog/solar-subsidy-2026-all-states/) mein hai.
 
 ## Kuch Practical Scenarios Jo Aksar Confuse Karte Hain
 

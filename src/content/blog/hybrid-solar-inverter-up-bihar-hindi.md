@@ -38,9 +38,9 @@ UP और Bihar में solar का scenario बाकी India से fundam
 > **TL;DR**
 > - UP-Bihar mein daily power cut 4-10 ghante hoti hai, aur on-grid solar anti-islanding ki wajah se power cut mein automatically band ho jaata hai
 > - 4+ ghante daily outage waale areas mein hybrid solar + LFP battery on-grid se better investment hai
-> - 3 kW hybrid + 5 kWh LFP battery ki gross cost ₹2.8-3.5 lakh hai, PM Surya Ghar subsidy (sirf solar components par, battery par nahi) ke baad net cost ₹2.0-2.7 lakh
+> - 3 kW hybrid + 5 kWh LFP battery ki gross cost ₹2.8-3.5 lakh hai, [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) (sirf solar components par, battery par nahi) ke baad net cost ₹2.0-2.7 lakh
 > - Payback period 4-6 saal hai, largely DG generator fuel cost eliminate hone ki wajah se
-> - Hybrid inverter mein 150-270V AC input range, IP66 protection, aur 60°C internal rating chahiye UPPCL/BSPHCL ke voltage swings aur summer heat ke liye
+> - [Hybrid inverter](/glossary/hybrid-inverter/) mein 150-270V AC input range, IP66 protection, aur 60°C internal rating chahiye UPPCL/BSPHCL ke voltage swings aur summer heat [ke liye](/blog/ghar-ke-liye-solar-inverter-size-hindi/)
 
 > **Clear answer।** UP और Bihar में, जहाँ daily power cut 4+ घंटे है, hybrid solar inverter with LFP battery on-grid से बेहतर investment है। DG generator cost eliminate होती है, [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy (solar components पर) मिलती है, और effective payback 4-6 साल है।
 

@@ -35,7 +35,7 @@ faqs:
     a: "Both on-grid and hybrid inverters offer Wi-Fi or 4G monitoring through a manufacturer app or portal. Hybrid inverters additionally show battery state of charge, battery charge and discharge cycles, and backup status - data that on-grid units do not generate. Qbits inverters in both the on-grid TLS/TLD series and the hybrid HS/HT series include AI-powered WhatsApp monitoring, which sends yield alerts and fault notifications directly to the homeowner without requiring a separate app download."
 ---
 
-You've done your research, you've got a few quotes, and now you're at the decision that stops most homeowners cold: on-grid or hybrid? The three-way guide that includes off-grid lives elsewhere. This post is the head-to-head. On-grid costs less and pays back faster. Hybrid costs more but keeps the lights on through power cuts. The question is whether the price gap is worth it for *your* specific situation.
+You've done your research, you've got a few quotes, and now you're at the decision that stops most homeowners cold: on-grid or hybrid? The three-way guide that includes [off-grid](https://www.surgepv.com/blog/on-grid-vs-off-grid-vs-hybrid-solar) lives elsewhere. This post is the head-to-head. On-grid costs less and pays back faster. Hybrid costs more but keeps the lights on through power cuts. The question is whether the price gap is worth it for *your* specific situation.
 
 The answer turns on three variables most comparison articles ignore: how many hours a day your area loses power, whether the battery math actually works in your favour, and how much you value the option to expand later. Get those three right and the decision makes itself.
 
@@ -49,7 +49,7 @@ The answer turns on three variables most comparison articles ignore: how many ho
 
 **Short version.** Pick on-grid if your grid is reliable (under one hour of daily outage) and payback speed is the priority. Expect 4–6 years with PM Surya Ghar subsidy. Pick hybrid if your area loses power for two or more hours daily, if you already spend ₹15,000–₹25,000 a year on diesel backup, or if you want a battery within five years. The 3-Variable Test below confirms which one fits.
 
-The wider context (including off-grid systems) is covered in the [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/). This post focuses on the narrower, more common choice: two grid-connected formats, one buying decision.
+The wider context (including [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) systems) is covered in the [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/). This post focuses on the narrower, more common choice: two grid-connected formats, one buying decision.
 
 ## On-Grid vs Hybrid: Core Differences at a Glance
 

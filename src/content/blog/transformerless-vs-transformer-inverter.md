@@ -46,7 +46,7 @@ The reality is more nuanced. Transformerless design is not a cost-cutting measur
 > - Transformer-based units remain the right call for sites needing hard galvanic isolation, such as sensitive medical or lab equipment, pre-2018 DISCOM tenders that mandate isolation, and floating solar near water.
 > - ALMM listing does not discriminate by topology; Qbits' transformerless TLS series is ALMM-listed and carries current IS 16169 certification.
 
-> **Direct answer.** A transformerless inverter delivers 97–99% peak efficiency versus 94–96% for transformer-based designs, weighs 30–50% less, and is fully permitted under BIS IS 16169 and IEC 62109 for Indian grid-tied installations. The "4-Spec Comparison for Indian EPCs" framework (covering efficiency, weight, safety compliance, and tender eligibility) is the fastest way to choose the right topology for each project.
+> **Direct answer.** A [transformerless inverter](https://www.surgepv.com/blog/transformer-vs-transformerless-solar-inverter) delivers 97–99% peak efficiency versus 94–96% for transformer-based designs, weighs 30–50% less, and is fully permitted under BIS IS 16169 and IEC 62109 for Indian grid-tied installations. The "4-Spec Comparison for Indian EPCs" framework (covering efficiency, weight, safety compliance, and tender eligibility) is the fastest way to choose the right topology for each project.
 
 The [galvanic isolation](/glossary/anti-islanding/) question is where most of the anxiety lives, and it deserves a direct answer before any technical comparison: modern transformerless inverters do not skip safety, they shift safety from hardware to software, and international standards confirm the outcome is equivalent.
 

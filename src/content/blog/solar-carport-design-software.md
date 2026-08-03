@@ -38,7 +38,7 @@ faqs:
     a: "Four things. Canopy geometry with a fixed tilt and clear height set by vehicle access rather than roof pitch. Column grid alignment to the parking bay layout, which constrains where modules can go. Inter-row shading between canopy runs, which is far more significant than on a single rooftop plane. And EV charger load, since most carports now pair with charging and the DC:AC sizing has to account for it."
 ---
 
-Solar carport design software handles the unique geometry, shading, and electrical considerations of parking-lot canopy projects. The niche is small but growing fast as commercial parking lots add PV. This guide explains how it works and which [solar design software](https://surgepv.com/) ships the workflow, alongside other niche categories like [agrivoltaic design software](/blog/agrivoltaic-design-software/) and [floating solar design software](/blog/floating-solar-design-software/).
+Solar carport [design software](https://www.surgepv.com/blog/ai-solar-design-software) handles the unique geometry, shading, and electrical considerations of parking-lot canopy projects. The niche is small but growing fast as commercial parking lots add PV. This guide explains how it works and which [solar design software](https://surgepv.com/) ships the workflow, alongside other niche categories like [agrivoltaic design software](/blog/agrivoltaic-design-software/) and [floating solar design software](/blog/floating-solar-design-software/).
 
 > **TL;DR**
 > - [SurgePV](https://surgepv.com/) includes carport templates on every paid plan.

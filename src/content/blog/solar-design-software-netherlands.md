@@ -3,8 +3,8 @@ title: "Best Solar Design Software Netherlands: 2026 Guide"
 excerpt: "Salderingsregeling ends 1 January 2027. The best solar design software Netherlands installers need models self-consumption hourly, not annual netting. Six tools compared."
 description: "Best solar design software Netherlands 2026. SurgePV vs Aurora, OpenSolar, PV*SOL on the salderingsregeling phase-out, NEN 1010, terugleverkosten and battery sizing."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-design-software-netherlands.svg"
 author: "Keyur Rakholiya"
@@ -34,7 +34,7 @@ faqs:
 featured: false
 ---
 
-Dutch residential solar is five months from the largest change in its economics since the salderingsregeling was introduced. Net metering ends on 1 January 2027, confirmed when the Senate approved the termination in December 2024. From that date, exported electricity earns whatever compensation the supplier sets, expected in the range of 5 to 10 cents per kWh, while imported electricity continues to cost retail. Payback periods that run seven to nine years today are projected to move to 12 to 17 years. Every design assumption built on annual netting stops being valid at once, and most solar design software in use in the Netherlands still encodes it. This guide compares the platforms Dutch installers should be moving to now.
+Dutch residential solar is five months from the largest change in its economics since the salderingsregeling was introduced. Net metering ends on 1 January 2027, confirmed when the Senate approved the termination in December 2024. From that date, exported electricity earns whatever compensation the supplier sets, expected in the range of 5 to 10 cents per kWh, while imported electricity continues to cost retail. Payback periods that run seven to nine years today are projected to move to 12 to 17 years. Every design assumption built on annual netting stops being valid at once, and most solar [design software](https://heavendesigns.in/blog/3d-solar-design-software/) in use in the [Netherlands](/blog/solar-software-netherlands/) still encodes it. This guide compares the platforms Dutch installers should be moving to now.
 
 > **TL;DR**
 > - The salderingsregeling ends on 1 January 2027. The Senate approved termination in December 2024.
@@ -44,7 +44,7 @@ Dutch residential solar is five months from the largest change in its economics 
 > - After the change, hourly self-consumption is the only design variable that matters. Annual kWh stops predicting savings.
 > - [SurgePV](https://surgepv.com/) runs 8,760-hour simulation with battery dispatch at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for Dutch installers in 2026 is SurgePV, because the end of the salderingsregeling on 1 January 2027 makes hourly self-consumption the deciding design variable, and SurgePV runs 8,760-hour module-level simulation with battery dispatch against a real load profile. PV*SOL is credible on simulation but desktop-bound. OpenSolar and Aurora encode annual netting logic that expires with the scheme.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for Dutch installers in 2026 is SurgePV, because the end of the salderingsregeling on 1 January 2027 makes hourly self-consumption the deciding design variable, and SurgePV runs 8,760-hour module-level simulation with battery dispatch against a real load profile. PV*SOL is credible on simulation but desktop-bound. OpenSolar and Aurora encode annual netting logic that expires with the scheme.
 
 The Netherlands has one of the highest rooftop solar penetrations in Europe, built almost entirely on a policy that is about to be withdrawn. That creates an unusual situation for installers: the existing customer base is large and about to become confused, and the sales conversation changes from generation to consumption. For the broader category comparison see our [solar design software](/blog/solar-design-software/) buyer's guide and the [best solar design software](/blog/best-solar-design-software/) ranking.
 

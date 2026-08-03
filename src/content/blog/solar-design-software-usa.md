@@ -3,11 +3,11 @@ title: "Best Solar Design Software USA: 2026 Guide"
 excerpt: "The best solar design software USA installers need ships an NEC code library, the 30% ITC with bonus adders, state SRECs, and NEM 3.0 modelling. Seven tools compared."
 description: "Best solar design software USA 2026. SurgePV vs Aurora, HelioScope, OpenSolar, Pylon on NEC 2023, the 30% ITC, state SRECs and NEM 3.0 self-consumption."
 category: "Solar Software"
-date: 2026-06-14
+date: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-design-software-usa.svg"
 author: "Nirav Dhanani"
-updatedDate: 2026-07-08
+updatedDate: 2026-08-03
 keywords:
   - "solar design software usa"
   - "solar design tool us"
@@ -171,6 +171,8 @@ Here is what a real California residential design looks like inside SurgePV. A 2
 **Minute 17 to 20.** Generate the branded bilingual proposal in English plus Spanish. Export DWG for the structural engineer. Export the bankable P50/P75/P90 yield report for the lender. Total time: 20 minutes for a deal-ready package.
 
 The same workflow in Aurora plus PVsyst plus a separate proposal tool runs 90 to 120 minutes on a good day, with three platforms to license.
+
+Design is one layer. For how simulation, proposal, compliance and CRM fit around it, see the [full solar software stack for the USA](/blog/solar-software-usa/).
 
 ## Who Should Choose Each Tool for US Solar Design
 

@@ -31,7 +31,7 @@ For solar EPCs and installation companies in India, inverter selection is the pr
 
 > **TL;DR**
 > - The 10 criteria that matter most: component quality, warranty depth, monitoring, IP66 weather protection, efficiency, surge protection, DC oversizing, on-grid vs hybrid fit, manufacturer support, and total cost of ownership.
-> - A 12-year full-replacement warranty covers nearly half a 25-year system's life and eliminates the out-of-warranty replacement cost budget inverters push onto the client.
+> - A 12-year full-replacement warranty covers nearly half a 25-year system's life and eliminates the out-of-warranty [replacement cost](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost) budget inverters push onto the client.
 > - IP66 is the recommended minimum rating for Indian rooftops; IP65 and below leave the unit vulnerable to monsoon rain and dust.
 > - A 2% efficiency gap (96% vs 98%) compounds meaningfully across 25 years of generation.
 > - 100% DC oversizing (up to a 2:1 DC:AC ratio) is now standard practice to match 650–750W+ panels and compensate for degradation and soiling.

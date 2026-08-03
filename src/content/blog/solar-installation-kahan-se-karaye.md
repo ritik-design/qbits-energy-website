@@ -38,15 +38,15 @@ featured: false
 Ab tak ka homework ho chuka hai। Aapko pata hai kitne kW ka system chahiye, on-grid lena hai ya hybrid, aur subsidy kitni milegi। Ab asli sawaal bacha hai: solar installation kahan se karaye? Yahin par zyadatar log phas jaate hain, kyunki har taraf se quote aa rahe hote hain, har koi apne aap ko "government approved" bata raha hota hai, aur rate ka difference 30 percent tak hota hai bina kisi clear wajah ke। Panel aur inverter to 25 saal chalenge, lekin unko lagane wala banda hi decide karta hai ki woh 25 saal aaram se nikalte hain ya har monsoon mein sar dard bante hain। Yeh guide sirf ek cheez par focus karti hai, sahi installer chunna, aur woh bhi verification steps ke saath jo aap aaj ek ghante mein khud kar sakte hain।
 
 > **TL;DR**
-> - PM Surya Ghar subsidy ke liye installer ka national portal par empanelled hona mandatory hai, optional nahi।
+> - [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy ke liye installer ka national portal par empanelled hona mandatory hai, optional nahi।
 > - Vendor ka registration number pmsuryaghar.gov.in par khud check karein, screenshot par bharosa na karein।
 > - Bina chhat par aaye diya gaya WhatsApp rate card quote nahi hai, usmein cable length aur structure height missing hoti hai।
 > - Advance 10 se 20 percent se zyada nahi, aur payment hamesha company current account mein GST invoice ke against।
 > - Warranty papers apke naam par lein, dealer ke naam par nahi, warna claim ke waqt dealer ke bina kuch nahi hota।
-> - "Subsidy 7 din mein guaranteed" ek red flag hai, realistic timeline 30 se 90 din hai aur DISCOM par depend karta hai।
+> - "Subsidy 7 din mein guaranteed" ek red flag hai, realistic timeline 30 se 90 din hai aur [DISCOM](/glossary/discom/) par depend karta hai।
 > - Net metering rules, inspection speed aur benchmark rates state ke hisaab se alag hote hain, isliye local DISCOM experience wala vendor value deta hai।
 
-**Short answer.** Solar installation wahi se karayein jahan teen cheezein saath mein milein: PM Surya Ghar portal par verified empanelment apke DISCOM area ke liye, chhat par aakar kiya gaya written site survey, aur model-number level quotation jismein ALMM reference, warranty terms aur net metering responsibility clearly likhi ho। Yeh teen filters lagane ke baad 10 vendors mein se 2 bachte hain, aur wahi 2 compare karne layak hote hain।
+**Short answer.** Solar installation wahi se karayein jahan teen cheezein saath mein milein: [PM Surya Ghar](/glossary/pm-surya-ghar/) portal par verified empanelment apke DISCOM area ke liye, chhat par aakar kiya gaya written site survey, aur model-number level quotation jismein ALMM reference, warranty terms aur net metering responsibility clearly likhi ho। Yeh teen filters lagane ke baad 10 vendors mein se 2 bachte hain, aur wahi 2 compare karne layak hote hain।
 
 Agar aap abhi tak scheme ka process samajh rahe hain to pehle [PM Surya Ghar yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) padh lein, phir yahan wapas aayein।
 

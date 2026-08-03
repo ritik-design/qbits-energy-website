@@ -29,7 +29,7 @@ updatedDate: 2026-07-08
 Understanding inverter lifespan is critical for accurate financial planning and long-term ROI calculations. While panels last 25–30 years, inverters have significantly shorter operational life, typically requiring **at least one** and often **two replacements** during a system's lifetime. This is a planning challenge for EPCs, distributors, and facility owners across India.
 
 > **TL;DR**
-> - String and hybrid inverters typically last 10-15 years, well short of the 25-30 year panel warranty, so most systems need at least one inverter replacement.
+> - String and hybrid inverters typically last 10-15 years, well short of the 25-30 year panel warranty, so most systems need at least one [inverter replacement](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost).
 > - Temperature is the biggest lifespan factor - every 10°C increase roughly halves component life, which is why [IP66 protection](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) and proper ventilation matter.
 > - Total 25-year inverter cost of ownership runs ₹10-15 lakhs on a 100 kW system, including one ₹3-5 lakh replacement cycle.
 > - A [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) can eliminate the first replacement cycle entirely if paired with German-grade components and film capacitors.

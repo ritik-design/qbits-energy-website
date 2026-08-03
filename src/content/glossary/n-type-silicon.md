@@ -193,6 +193,15 @@ N-type silicon is phosphorus-doped silicon serving as the base material for high
 
 QBits Energy supplies ALMM-listed n-type TOPCon and HJT modules from leading Indian manufacturers for residential, C&I and utility solar.
 
+## Further reading
+
+For how N-Type Silicon plays out in real projects, these guides go deeper:
+
+- [On-Grid vs Hybrid vs Off-Grid: Decision Guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/)
+- [Solar Inverter Kya Hai? - पूरी जानकारी हिंदी में](/blog/solar-inverter-kya-hai-hindi/)
+- [Solar Panel ki Kimat 2026: Poora Rate Guide](/blog/solar-panel-ki-kimat/)
+- [How to Choose Solar Inverters with Surge Protection](/blog/how-to-choose-solar-inverters-with-surge-protection/)
+
 ## Sources
 
 - IEC 61215, Module qualification.

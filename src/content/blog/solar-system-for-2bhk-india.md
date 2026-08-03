@@ -39,8 +39,8 @@ Before you sign anything, you need to understand what a 2 BHK home actually cons
 
 > **TL;DR**
 > - A 2 BHK home typically needs a 3kW on-grid solar system; monthly consumption runs 400–600 units.
-> - A 3kW system generates 350–500 units per month, covering 60–90% of the bill.
-> - PM Surya Ghar subsidy is ₹78,000 for 3kW, the maximum any household can claim, cutting net cost to ₹72,000–₹1,32,000.
+> - A [3kW system](https://www.heavengreenenergy.com/blog/3kw-solar-system-in-india) generates 350–500 units per month, covering 60–90% of the bill.
+> - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy is ₹78,000 for 3kW, the maximum any household can claim, cutting net cost to ₹72,000–₹1,32,000.
 > - Payback lands in 3–5 years at ₹6–₹8 per unit tariffs.
 > - The Qbits TLS-3000 (on-grid) and HS-3000 (hybrid) are the primary inverter picks for this segment.
 > - On-grid is the right choice for most metro 2 BHK homes; hybrid only pays back faster where outages exceed 2–3 hours daily.
@@ -188,6 +188,12 @@ These echo the broader patterns in our [solar inverter buying mistakes guide](/b
 - **Skipping shadow analysis**: A 3kW system on a 2 BHK terrace with a water tank, staircase, or neighbouring building shadow can produce like a 2kW system. Request a [shadow analysis](https://surgepv.com/shadow-analysis/) report from your installer before signing.
 - **Not verifying GST invoice**: The PM Surya Ghar subsidy claim requires a proper GST invoice from an empanelled installer. An unregistered installer cannot process the subsidy. Read the [GST on solar systems guide](/blog/gst-on-solar-inverters-2026/) to understand what to check.
 - **Ignoring the installer's net metering track record**: Some installers commission the panels but delay or skip the DISCOM net metering application. Vet the installer's track record before signing, without net metering, surplus power is wasted.
+
+Rural properties on weak grid connections are handled separately in [solar for farmhouses](/blog/solar-for-farmhouse-india/).
+
+A larger home moves the sizing bracket, worked through in [solar inverter for a 3 BHK](/blog/solar-inverter-for-3bhk/).
+
+If the household runs air conditioning, size against [solar inverter for AC load](/blog/solar-inverter-for-ac/) instead.
 
 ## Where Qbits Fits for a 2 BHK Home
 

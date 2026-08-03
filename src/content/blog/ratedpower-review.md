@@ -3,8 +3,8 @@ title: "RatedPower Review 2026: Utility-Scale Automation, Honestly Assessed"
 excerpt: "An honest RatedPower review for 2026. What it automates for utility-scale plants, where it genuinely earns its price, and why rooftop installers are in the wrong category."
 description: "RatedPower review 2026: Enverus-owned utility-scale PV, BESS and hybrid plant automation. Real strengths, real limits, who should buy it, and the alternatives for rooftop and C&I work."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/ratedpower-review.svg"
 author: "Keyur Rakholiya"
@@ -35,10 +35,10 @@ faqs:
 featured: false
 ---
 
-Most reviews of RatedPower go wrong in the first paragraph, because they put it in a list next to Aurora Solar and OpenSolar and start comparing prices. That comparison is meaningless. RatedPower is a utility-scale plant engineering platform owned by Enverus, and the work it automates has almost nothing in common with quoting a homeowner a 6 kW rooftop system. This review assesses it on its own terms: what it does, where the automation genuinely earns its keep, where it needs a human to take over, and which buyers should be looking at something else entirely. We have run utility-scale layouts alongside PVsyst and SurgePV on live projects, so the criticisms here come from use rather than from a feature grid.
+Most reviews of RatedPower go wrong in the first paragraph, because they put it in a list next to Aurora Solar and OpenSolar and start comparing prices. That comparison is meaningless. RatedPower is a [utility-scale](https://www.surgepv.com/best-solar-software/utility-scale-design) plant engineering platform owned by Enverus, and the work it automates has almost nothing in common with quoting a homeowner a 6 kW rooftop system. This review assesses it on its own terms: what it does, where the automation genuinely earns its keep, where it needs a human to take over, and which buyers should be looking at something else entirely. We have run [utility-scale](https://heavendesigns.in/blog/utility-scale-solar-design-software/) layouts alongside PVsyst and SurgePV on live projects, so the criticisms here come from use rather than from a feature grid.
 
 > **TL;DR**
-> - RatedPower is a cloud platform for utility-scale PV, BESS, and hybrid plant design, and it is part of Enverus. It was previously sold as pvDesign.
+> - RatedPower is a cloud platform for utility-scale PV, [BESS](/glossary/bess/), and hybrid plant design, and it is part of Enverus. It was previously sold as pvDesign.
 > - Its real value is generating a complete plant layout, engineering documentation, and yield model from a plot boundary in minutes rather than days.
 > - That makes it strong for screening large pipelines, where the alternative is picking three candidate sites because you only had time for three.
 > - It is not positioned as a rooftop or residential tool or as a homeowner proposal layer, and in our view the economics stop working below a few megawatts.

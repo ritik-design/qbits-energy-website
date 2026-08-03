@@ -178,6 +178,15 @@ CERC is the central electricity regulator setting tariffs for central generation
 
 QBits Energy supports developers and large customers on CERC regulatory matters, REC strategy and inter-state PPA structuring.
 
+## Further reading
+
+For how CERC plays out in real projects, these guides go deeper:
+
+- [Gross Metering vs Net Metering: Which to Choose?](/blog/gross-metering-vs-net-metering/)
+- [Electricity Tariff Hikes 2026: Solar Pays Off Faster](/blog/electricity-tariff-hikes-solar/)
+- [Why Qbits Isn't on Amazon: Founder POV](/blog/qbits-not-on-amazon-founder-pov/)
+- [Solar Subsidy in West Bengal 2026, WBSEDCL + Central](/blog/solar-subsidy-west-bengal-2026/)
+
 ## Sources
 
 - Central Electricity Regulatory Commission, official website and publications.

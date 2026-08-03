@@ -3,8 +3,8 @@ title: "Best Solar Software Canada: The Complete 2026 Stack"
 excerpt: "Canada is ten net metering regimes and a certification rule that voids international equipment. Software that treats it as one country will be wrong in nine provinces."
 description: "Best solar software Canada 2026: the full stack for design, proposals, CRM and monitoring. CSA C22.1 Section 64, certification marks, provincial net metering and the Clean Technology ITC."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-canada.svg"
 author: "Nirav Dhanani"
@@ -33,18 +33,18 @@ faqs:
 featured: false
 ---
 
-Canada looks like one solar market and behaves like ten. Net metering is provincial, so sizing limits, credit rates and settlement rules all change at the border between Ontario and Manitoba. On top of that sits a certification requirement that is absolute rather than advisory: components must carry a CSA, cUL, cETL or cULus mark accredited by the Standards Council of Canada, and international equipment without one is not legal to install however impeccable its other credentials. Software that treats Canada as a variant of the US market gets both of these wrong, and gets them wrong in ways that surface at inspection. This guide covers what the Canadian stack has to do.
+Canada looks like one solar market and behaves like ten. [Net metering](https://heavendesigns.in/blog/apepdcl-solar-net-metering-guide/) is provincial, so sizing limits, credit rates and settlement rules all change at the border between Ontario and Manitoba. On top of that sits a certification requirement that is absolute rather than advisory: components must carry a CSA, cUL, cETL or cULus mark accredited by the Standards Council of Canada, and international equipment without one is not legal to install however impeccable its other credentials. Software that treats Canada as a variant of the US market gets both of these wrong, and gets them wrong in ways that surface at inspection. This guide covers what the Canadian stack has to do.
 
 > **TL;DR**
 > - A Canadian solar business runs six software categories, with compliance doing two jobs: code and certification marks.
 > - Components need CSA, cUL, cETL or cULus marks accredited by the Standards Council of Canada. Without one, installation is not legal.
-> - Solar PV sits under Section 64 of CSA C22.1:24, and conductor derate and conduit fill rules differ from NEC 2023.
-> - Net metering is provincial: Ontario 500 kW at retail, BC Hydro 100 kW at 10 cents from July 2026, Quebec 1 MW, Alberta 5 MW.
+> - Solar PV sits under Section 64 of CSA C22.1:24, and conductor derate and [conduit](/glossary/conduit/) fill rules differ from NEC 2023.
+> - [Net metering](/glossary/net-metering/) is provincial: Ontario 500 kW at retail, BC Hydro 100 kW at 10 cents from July 2026, Quebec 1 MW, Alberta 5 MW.
 > - The federal Clean Technology ITC gives businesses a 30% refundable credit through 31 December 2033.
 > - Winter shading and snow compound in the same months, so annual-average loss figures conceal the season that matters.
 > - [SurgePV](https://surgepv.com/) ships the CSA library and provincial rules alongside NEC at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar software for a Canadian business in 2026 is a stack whose core carries the CSA library, tracks Canadian certification marks in the component database, and holds provincial net metering rules rather than a national average. Buy design and proposals together. Everything else can connect by API.
+**Short version.** The best solar software for a Canadian business in 2026 is a stack whose core carries the CSA library, tracks Canadian certification marks in the component database, and holds provincial [net metering](https://heavendesigns.in/blog/bescom-solar-net-metering-guide/) rules rather than a national average. Buy design and proposals together. Everything else can connect by API.
 
 This page covers the category as a whole. For the tool-by-tool comparisons see our [best solar design software Canada](/blog/solar-design-software-canada/) and [best solar proposal software Canada](/blog/solar-proposal-software-canada/) guides, and the winter-specific treatment in [solar shading analysis software Canada](/blog/solar-shading-analysis-software-canada/).
 

@@ -3,8 +3,8 @@ title: "Best Solar Software Singapore: The Complete 2026 Stack"
 excerpt: "SCT pays a fixed rate, ECIS pays the volatile wholesale price. Choosing between them is a modelling decision, and most tools cannot even represent the second one."
 description: "Best solar software Singapore 2026: the full stack for design, proposals, CRM and compliance. SCT versus ECIS, the 1 MWac licence threshold, LEW submission and SS 638 wiring."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-singapore.svg"
 author: "Nirav Dhanani"
@@ -41,7 +41,7 @@ Singapore gives solar customers a choice most markets do not, and it is a choice
 > - The scheme choice is a modelling exercise and it moves the return more than most design decisions.
 > - Systems below 1 MWac need no EMA Generation Licence. At or above, a full licence is required via ELISE, taking an estimated three to six months.
 > - Every installation needs a Licensed Electrical Worker to submit the Electrical Installation application, regardless of size.
-> - Wiring follows SS 638; inverters need IEC 62109 plus IEEE 1547 or IEC 62116; modules need IEC 61215 or 61646 and IEC 61730.
+> - Wiring follows SS 638; inverters need [IEC 62109](/glossary/iec-62109/) plus IEEE 1547 or IEC 62116; modules need [IEC 61215](/glossary/iec-61215/) or 61646 and [IEC 61730](/glossary/iec-61730/).
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
 **Short version.** The best solar software for a Singapore business in 2026 is a stack whose core can model both export schemes honestly, including the variability in ECIS, and which flags the 1 MWac licence threshold before a design crosses it. Add credible inter-building shading analysis, because Singapore's density makes that the dominant technical variable.

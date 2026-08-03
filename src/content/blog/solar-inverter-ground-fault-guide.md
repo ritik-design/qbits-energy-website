@@ -31,7 +31,7 @@ faqs:
     a: "Yes. Water ingress is the most common seasonal cause of ground fault errors in India, particularly in the first monsoon after installation or in systems where connectors and junction boxes are approaching the end of their waterproofing life (typically 5–8 years for standard MC4 connectors). When water penetrates a junction box or MC4 connector, it creates a conductive path between the DC conductors and the grounded frame, triggering the isolation fault. The solution is to dry the affected component (often overnight after the rain stops) and then seal the ingress point permanently. If the error returns each monsoon, systematic weatherproofing of all connectors and junction boxes is required."
 ---
 
-A ground fault error on your solar inverter is the one fault code that should never be dismissed, reset, and ignored. It is the only error category in solar system diagnostics that creates simultaneous electrocution and fire risk, and yet it is frequently mishandled by homeowners who reset it and restart the system without understanding what has gone wrong.
+A [ground fault](https://heavendesigns.in/glossary/ground-fault/) error on your solar inverter is the one fault code that should never be dismissed, reset, and ignored. It is the only error category in solar system diagnostics that creates simultaneous electrocution and fire risk, and yet it is frequently mishandled by homeowners who reset it and restart the system without understanding what has gone wrong.
 
 > **TL;DR**
 > - A ground fault code (ISO_Fault, GFCI, IsoFault) means DC-to-earth insulation resistance has dropped below 1 MΩ, the threshold set by CEA wiring standards and IEC 62109.

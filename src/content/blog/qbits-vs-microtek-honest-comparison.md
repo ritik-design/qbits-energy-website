@@ -38,7 +38,7 @@ When Indian homeowners ask about solar inverter options, Microtek is a name that
 This article answers that question honestly. Microtek is a legitimate brand with real advantages, price, availability, and consumer familiarity. Qbits is a dedicated solar inverter manufacturer with a different engineering focus and a materially better warranty. The right choice depends on what you are buying the inverter to do, and for how long.
 
 > **TL;DR**
-> - Qbits offers a 12-year full replacement warranty versus Microtek's 1–2 years, the single biggest gap between the two brands.
+> - Qbits offers a 12-year full replacement warranty versus [Microtek](/blog/microtek-vs-sukam-solar/)'s 1–2 years, the single biggest gap between the two brands.
 > - Qbits sustains 98% peak efficiency versus Microtek's 95–96%, worth roughly ₹13,140 over 12 years on a 5 kW system.
 > - Qbits carries ALMM Phase III listing; Microtek's solar range is not confirmed, risking the ₹78,000 PM Surya Ghar subsidy.
 > - Microtek genuinely wins on upfront price (30–40% cheaper) and Tier-2/3 dealer familiarity.
@@ -265,6 +265,8 @@ The Qbits vs Microtek decision is complicated by several recurring errors that I
 - **Ignoring efficiency losses as small**: 2% sounds negligible. At 5 kW over 12 years, it is ₹13,140 at current tariffs, and tariff rates are rising. The [best solar inverter in India 2026](/blog/best-solar-inverter-india/) ranking weights efficiency alongside warranty and service in its overall scoring.
 
 - **Choosing indoor-rated inverters for outdoor sites**: IP20/IP21 inverters installed on open terraces or ground-mount structures degrade faster and may void the manufacturer's warranty. Check the installation manual before signing off on placement. The [solar inverter lifespan guide](/blog/solar-inverter-lifespan/) covers how installation environment affects inverter longevity.
+
+Elsewhere in the Heaven Group network, see [Luminous versus Microtek](https://www.heavengreenenergy.com/blog/luminous-vs-microtek-inverter) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
 
 ## Where Qbits Fits
 

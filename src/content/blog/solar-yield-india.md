@@ -37,11 +37,11 @@ faqs:
     a: "Yes. A higher state yield benchmark means faster payback and a more favourable case for on-grid systems, where all generation directly displaces grid imports. In lower-yield states (West Bengal, Himachal Pradesh), the slower payback may make a hybrid system with battery backup more attractive if the primary driver is energy security during grid outages rather than pure financial return. The kWh per kWp benchmark is the foundation of any accurate payback or IRR calculation regardless of system type."
 ---
 
-Every solar installer in India quotes a generation number ("your 5 kW system will generate 7,000 units per year") but very few buyers know how to verify whether that number is credible. A one-page state-by-state yield table changes that. Once you know that Karnataka delivers 1,400 to 1,500 kWh per kWp per year, you can divide 7,000 by 5 kW and arrive at 1,400 kWh per kWp, which sits squarely in range. Or you might get a quote promising 2,000 kWh per kWp for a West Bengal rooftop. That number would be 55 percent above benchmark and a clear red flag.
+Every solar installer in India quotes a generation number ("your 5 kW system will generate 7,000 units per year") but very few buyers know how to verify whether that number is credible. A one-page state-by-state yield table changes that. Once you know that Karnataka delivers 1,400 to 1,500 [kWh per kWp](https://heavendesigns.in/glossary/kwh-per-kwp/) per year, you can divide 7,000 by 5 kW and arrive at 1,400 kWh per kWp, which sits squarely in range. Or you might get a quote promising 2,000 kWh per kWp for a West Bengal rooftop. That number would be 55 percent above benchmark and a clear red flag.
 
 > **TL;DR**
 > - Solar yield in India ranges from about 1,200 kWh/kWp/year in the east and northeast to 1,800 kWh/kWp/year in western Rajasthan.
-> - Specific yield = Annual GHI × Performance Ratio; it is the scale-independent number that lets a 3 kWp home and a 500 kWp factory use the same benchmark.
+> - [Specific yield](https://www.surgepv.com/glossary/specific-yield) = Annual GHI × Performance Ratio; it is the scale-independent number that lets a 3 kWp home and a 500 kWp factory use the same benchmark.
 > - Use the 3-Factor Yield Verification Method: check the state benchmark, apply realistic loss factors, and verify orientation/tilt before trusting a generation promise.
 > - Combined system losses (soiling, shading, inverter, DC cable, mismatch) typically total 10–18% of the gross benchmark yield.
 > - Inverter weighted-average efficiency alone can account for a 1 to 3 percentage-point swing in annual yield, worth tens of thousands of rupees over 12 years on a mid-size system.
@@ -49,7 +49,7 @@ Every solar installer in India quotes a generation number ("your 5 kW system wil
 
 > **Direct answer.** Solar yield in India ranges from 1,200 kWh per kWp per year in eastern states to 1,800 kWh per kWp per year in Rajasthan, based on NREL NSRDB and IRENA irradiance data. Apply the 3-Factor Yield Verification Method (benchmark, losses, orientation) to sanity-check any installer's generation promise before you sign.
 
-The [solar yield](/glossary/solar-yield/) metric (formally called specific yield) normalises generation by capacity so a 3 kWp homeowner and a 500 kWp factory manager can use the same benchmark table. This guide gives you that table for every major Indian state, explains what drives the numbers up or down, and shows you exactly how to use the benchmark to evaluate a quote. The underlying [state-wise solar irradiance data](/blog/solar-irradiance-data-india-statewise/) that these yield figures are derived from is covered in a companion reference for readers who want the raw GHI numbers behind each benchmark.
+The [solar yield](/glossary/solar-yield/) metric (formally called [specific yield](https://heavendesigns.in/glossary/specific-yield/)) normalises generation by capacity so a 3 kWp homeowner and a 500 kWp factory manager can use the same benchmark table. This guide gives you that table for every major Indian state, explains what drives the numbers up or down, and shows you exactly how to use the benchmark to evaluate a quote. The underlying [state-wise solar irradiance data](/blog/solar-irradiance-data-india-statewise/) that these yield figures are derived from is covered in a companion reference for readers who want the raw GHI numbers behind each benchmark.
 
 ## What kWh per kWp per Year Actually Means: and Why It Matters
 

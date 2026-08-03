@@ -3,8 +3,8 @@ title: "Best Solar Design Software Chile: 2026 Guide"
 excerpt: "Chile runs from the Atacama to Patagonia, and net billing pays only the pure energy price. One national assumption cannot design across 4,000 kilometres. Six tools compared."
 description: "Best solar design software Chile 2026. SurgePV vs PVsyst, Aurora, PV*SOL on Ley 21.118 net billing, the pure energy price, the 300 kW threshold to PMGD and extreme latitude range."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-chile.svg"
 author: "Keyur Rakholiya"
@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-Chile is the hardest country in this series to design for, and the reason is geography. The country runs roughly 4,000 kilometres from the Atacama, which carries some of the highest solar resource measured anywhere, to Patagonia and sub-Antarctic conditions in the far south. Irradiance, temperature, soiling rate and the seasonal shape of generation all change dramatically along that range. Layered on top is Ley 21.118, which credits exported energy at the pure energy price, stripped of the transport and distribution components that make up much of a retail bill. This guide covers what Chilean design software has to handle, and which tools do it.
+[Chile](/blog/solar-software-chile/) is the hardest country in this series to design for, and the reason is geography. The country runs roughly 4,000 kilometres from the Atacama, which carries some of the highest solar resource measured anywhere, to Patagonia and sub-Antarctic conditions in the far south. Irradiance, temperature, [soiling](/glossary/soiling/) rate and the seasonal shape of generation all change dramatically along that range. Layered on top is Ley 21.118, which credits exported energy at the pure energy price, stripped of the transport and distribution components that make up much of a retail bill. This guide covers what Chilean [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has to handle, and which tools do it.
 
 > **TL;DR**
 > - Ley 21.118 credits surplus at the pure energy price, without transport or distribution components, so export is worth well below retail.
@@ -44,7 +44,7 @@ Chile is the hardest country in this series to design for, and the reason is geo
 > - Storage captures the gap between the pure energy price and retail, a real but smaller prize than in expiring-credit markets.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for Chilean installers in 2026 is SurgePV, because it runs site-specific 8,760-hour simulation across an extreme latitude range, prices self-consumption against a below-retail credit, and keeps the 300 kW regime boundary visible. PVsyst is the bankable reference for PMGD and utility-scale work. PV*SOL is credible for residential detail. Aurora assumes US net metering, which Chile does not operate.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for Chilean installers in 2026 is SurgePV, because it runs site-specific 8,760-hour simulation across an extreme latitude range, prices self-consumption against a below-retail credit, and keeps the 300 kW regime boundary visible. PVsyst is the bankable reference for PMGD and utility-scale work. PV*SOL is credible for residential detail. Aurora assumes US [net metering](/glossary/net-metering/), which Chile does not operate.
 
 For the quoting side see our [best solar proposal software Chile](/blog/solar-proposal-software-chile/) guide, and the global [best solar design software](/blog/best-solar-design-software/) ranking for the category without the local lens.
 

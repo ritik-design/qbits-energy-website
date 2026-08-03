@@ -35,11 +35,11 @@ When a homeowner in a standalone villa decides to go solar, the process is relat
 
 The good news is that both common area solar and individual flat solar are viable and increasingly well-supported by state DISCOMs across India. The bad news is that the process varies significantly by state, building type, and DISCOM. This guide maps both paths clearly.
 
-> **Direct answer.** Apartment complex solar in India operates through two distinct models: (1) common area solar (one system on one meter for lifts, lighting, and pumps) which is straightforward and reduces monthly maintenance charges; and (2) individual flat solar, each flat applies separately for their own net metering connection. Maharashtra has the most advanced virtual net metering framework for group housing. Use the RWA Solar Decision Framework in this guide to identify the right model for your society.
+> **Direct answer.** Apartment complex solar in India operates through two distinct models: (1) common area solar (one system on one meter for lifts, lighting, and pumps) which is straightforward and reduces monthly maintenance charges; and (2) individual flat solar, each flat applies separately for their own [net metering](https://www.heavengreenenergy.com/blog/net-metering-how-solar-panels-give-back-to-the-grid) connection. Maharashtra has the most advanced virtual [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) framework for group housing. Use the RWA Solar Decision Framework in this guide to identify the right model for your society.
 
 > **TL;DR**
 > - Common area solar (10-50 kW on the society meter) needs only one DISCOM application and RWA authorisation, and directly reduces the monthly maintenance charge.
-> - Individual flat solar requires a separate DISCOM application per flat but unlocks the PM Surya Ghar subsidy of up to ₹78,000 per eligible flat owner.
+> - Individual flat solar requires a separate DISCOM application per flat but unlocks the [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy of up to ₹78,000 per eligible flat owner.
 > - Maharashtra is the most advanced state for group housing, permitting virtual net metering that splits one system's savings across many flat meters.
 > - A 30 kW rooftop system on a 100-flat society typically pays back in about 4.2 years and cuts roughly ₹350-700 off each flat's monthly maintenance bill.
 > - The RWA Solar Decision Framework uses the society's common area bill, DISCOM readiness, AGM authorisation, and roof ownership to pick the right model.

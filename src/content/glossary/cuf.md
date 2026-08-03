@@ -280,6 +280,15 @@ CUF is the headline performance metric for solar plants, expressing actual gener
 
 QBits Energy provides P50 and P90 yield modelling and CUF projections for Indian residential, C&I and utility solar.
 
+## Further reading
+
+For how CUF plays out in real projects, these guides go deeper:
+
+- [Off-Grid Solar Battery Bank Sizing for India](/blog/off-grid-battery-bank-sizing-india/)
+- [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)
+- [Solar Inverter Sizing: 12 Key Questions (2026)](/blog/solar-inverter-sizing/)
+- [India Solar Statistics 2026, Complete Data Reference](/blog/india-solar-statistics-2026-data/)
+
 ## Sources
 
 - IEC 61724-1, Photovoltaic system performance monitoring.

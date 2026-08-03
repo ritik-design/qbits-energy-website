@@ -227,6 +227,15 @@ A kWh is the unit of electrical energy equal to one kilowatt of power used for o
 
 QBits Energy helps customers analyse kWh consumption patterns and design solar systems to offset their actual usage profile.
 
+## Further reading
+
+For how kWh plays out in real projects, these guides go deeper:
+
+- [How Much Electricity Does Solar Generate in India?](/blog/how-much-electricity-solar-generates-india/)
+- [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)
+- [Off-Grid Solar Battery Bank Sizing for India](/blog/off-grid-battery-bank-sizing-india/)
+- [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/)
+
 ## Sources
 
 - IEC 80000-1, SI Units.

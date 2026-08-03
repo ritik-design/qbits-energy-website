@@ -265,6 +265,12 @@ Qbits's product range is focused on the Indian residential and light commercial 
 
 For buyers still deciding, [request a quote from Qbits at contact-us](/contact-us/), most quotes return within 24 hours and include a total-cost comparison that puts the warranty value in rupee terms. If you are still assembling your shortlist of installers, Heaven Green Energy's find a local solar installer directory and its overview of turnkey solar EPC services are useful next stops for the installation side of the decision.
 
+The distribution reasoning behind that choice is set out in [why Qbits is not on Amazon](/blog/qbits-not-on-amazon-founder-pov/).
+
+The same comparison against a domestic brand is in [Qbits vs UTL](/blog/qbits-vs-utl-honest-comparison/).
+
+Elsewhere in the Heaven Group network, see [BIS inverter certification](https://heavendesigns.in/blog/bis-solar-inverter-certification-process) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
+
 ## Where Qbits Fits: The Product Bridge
 
 For warranty-conscious Indian buyers who want the full picture before committing:

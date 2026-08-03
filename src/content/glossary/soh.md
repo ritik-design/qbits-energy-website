@@ -202,6 +202,15 @@ SOH (State of Health) measures long-term battery degradation as percentage of or
 
 QBits Energy supplies BMS-equipped LFP battery packs with accurate SOH reporting for residential, C&I and microgrid solar storage in India.
 
+## Further reading
+
+For how State of Health plays out in real projects, these guides go deeper:
+
+- [BMS in Hybrid Solar Inverters, Decoded](/blog/bms-hybrid-solar-inverter-explained/)
+- [Best Solar Battery Brands in India 2026](/blog/best-solar-battery-brands-india-2026/)
+- [Solar Battery Price Guide India 2026](/blog/solar-battery-price-guide-india-2026/)
+- [Satellite Roof Measurement for Solar: 2026 Guide](/blog/satellite-roof-measurement-solar/)
+
 ## Sources
 
 - IEC 61960, Performance of lithium cells.

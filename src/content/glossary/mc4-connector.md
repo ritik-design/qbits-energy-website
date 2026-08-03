@@ -247,6 +247,15 @@ MC4 is the industry-standard DC connector for solar PV, providing sealed weather
 
 QBits Energy supplies and installs TUV-certified MC4 connections using manufacturer-specified crimping for residential, C&I and utility solar across India.
 
+## Further reading
+
+For how MC4 Connector plays out in real projects, these guides go deeper:
+
+- [Pre-Monsoon Solar System Inspection Checklist India](/blog/pre-monsoon-solar-inspection-checklist/)
+- [Solar Inverter Ground Fault Error, Troubleshooting](/blog/solar-inverter-ground-fault-guide/)
+- [Solar Inverter for Coastal Areas, Salt & IP66](/blog/solar-inverter-for-coastal/)
+- [Solar Inverter Wiring Diagram for Indian Homes 2026: Panels to Meter Board](/blog/solar-inverter-wiring-diagram/)
+
 ## Sources
 
 - TUV 2 PfG 1161/08.07, PV connector certification standard.

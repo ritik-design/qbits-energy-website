@@ -41,7 +41,7 @@ Understanding the real lifespan of a solar battery in India (not the spec-sheet 
 > - VRLA batteries last 3-5 years in India, LiFePO4 lasts 8-12 years, and NMC lasts 6-10 years.
 > - Every 10°C rise above 25°C roughly doubles the chemical degradation rate (Arrhenius model), so a 45°C battery room runs degradation at about 4x the 25°C rate.
 > - India's heat cuts lithium capacity by 15-20% and VRLA capacity by 30-50% versus rated datasheet specs.
-> - Depth of discharge matters most for VRLA, 80% DoD cuts cycle life by roughly 40% compared to the recommended 50% DoD limit, while LiFePO4 handles 80% DoD without a life penalty.
+> - Depth of discharge matters most for VRLA, 80% DoD cuts [cycle life](https://www.heavengreenenergy.com/glossary/cycle-life-battery) by roughly 40% compared to the recommended 50% DoD limit, while LiFePO4 handles 80% DoD without a life penalty.
 > - Installing indoors in a cooled or shaded space extends battery life by 2-4 years over a rooftop or garage installation.
 > - The 4-Factor Battery Lifespan Calculator (temperature, depth of discharge, cycle frequency, chemistry) estimates real-world life for your specific setup.
 

@@ -264,6 +264,15 @@ String inverters are the workhorse of Indian solar. They give the best cost per 
 
 QBits Energy supplies BIS-certified, ALMM-listed string inverters from 3 kW residential to 350 kW utility-string. Reach out for a sizing study that matches your roof, your DISCOM rules and your DC oversize target.
 
+## Further reading
+
+For how String Inverter plays out in real projects, these guides go deeper:
+
+- [Solar String Sizing & Overcurrent Protection](/blog/solar-string-sizing-ocp-india/)
+- [Solar String Sizing Software: Complete 2026 Guide](/blog/solar-string-sizing-software/)
+- [String Voltage vs MPPT Voltage: Inverter Guide](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/)
+- [Solar Inverter for Cold Storage, Sizing and VFDs](/blog/solar-inverter-for-cold-storage-india/)
+
 ## Sources
 
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.

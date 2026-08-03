@@ -36,7 +36,7 @@ Your solar inverter starts up in the morning, generates power for a few hours, t
 > **TL;DR**
 > - Four causes explain almost every repeated trip: grid voltage outside the 180-270 V range (most common), over-temperature shutdown, anti-islanding trips during power cuts, and overload from high-inrush loads.
 > - A trip that auto-restarts after roughly 5 minutes is usually a correct protective response to the grid, not a hardware fault.
-> - Anti-islanding trips during DISCOM power cuts are mandatory and correct under IEC 62116; they are not a malfunction.
+> - Anti-islanding trips during [DISCOM](/glossary/discom/) power cuts are mandatory and correct under IEC 62116; they are not a malfunction.
 > - Cleaning dust-blocked cooling vents resolves 40-50% of over-temperature shutdown cases.
 > - The monitoring app's event log, cross-referenced with voltage, temperature, and power readings at the trip timestamp, pinpoints the cause in about 3 minutes.
 > - More than 10 trips per day, or a trip that does not auto-restart, warrants a call to your installer.
@@ -187,6 +187,8 @@ If you no longer have an active installer relationship, find a local solar insta
 For any of these urgent scenarios, the [72-hour action plan for a failed solar inverter](/blog/solar-inverter-failure-action/) walks through the diagnosis, escalation, and warranty-claim sequence step by step.
 
 The [Central Electricity Authority (CEA)](https://cea.nic.in/){target="_blank" rel="noopener"} Technical Standards for Connectivity of Distributed Generation Resources require that any protective trip outside defined grid parameters be investigated and documented by a competent person, this is a compliance obligation, not a suggestion. For Qbits inverters, the AI WhatsApp monitoring system logs every trip event and its associated parameter readings, allowing our service team to diagnose the root cause remotely from the event log without a site visit in most cases. [Talk to a Qbits engineer](/contact-us/) if your current inverter's service response has been inadequate. Homeowners dealing with grid voltage issues can also review the [solar inverter low output causes guide](/blog/solar-inverter-low-output-causes-india/) to understand how voltage fluctuations reduce generation even on non-trip days.
+
+Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included) and [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation).
 
 ## Where Qbits Fits
 

@@ -3,8 +3,8 @@ title: "Best PVComplete Alternatives 2026: Six Platforms Compared"
 excerpt: "Enact Solar acquired PVComplete in January 2026. Compare six PVComplete alternatives on CAD output, pricing, and fit, with SurgePV from $1,299 per user per year."
 description: "A PVComplete alternative guide for 2026, written after the Enact Solar acquisition. Six platforms compared on CAD-native output, engineering depth, bankability, and price, with honest notes on what PVComplete does that the others do not."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/pvcomplete-alternative.svg"
 author: "Keyur Rakholiya"

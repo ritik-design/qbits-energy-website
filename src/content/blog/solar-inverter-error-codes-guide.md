@@ -233,6 +233,8 @@ Not every error code requires the same escalation path. Use this framework:
 
 For Qbits inverters, the WhatsApp support escalation path is: log the fault via the monitoring app → receive an automated triage response → a service engineer calls back within 4 business hours → on-site dispatch arranged within 48–72 hours. The [warranty claim process](/blog/solar-inverter-warranty-claim/) explains how to document faults for a successful warranty claim, and the [72-hour action plan for a failed inverter](/blog/solar-inverter-failure-action/) walks through the full recovery timeline hour by hour. If you are still choosing an installer, review how turnkey EPC providers structure their post-installation service commitments before you sign.
 
+Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included) and [how to file a warranty claim](https://www.heavengreenenergy.com/blog/how-to-file-solar-warranty-claim).
+
 ## Where Qbits Fits
 
 Homeowners who want error codes to be self-explaining (with automated alerts, AI-assisted diagnosis, and a local service team that picks up the phone) find that Qbits inverters deliver this without the premium OEM price tag. The combination of AI WhatsApp monitoring, a 12-year full-replacement warranty, and the <72-hour RMA SLA means that when a fault code appears, you are not alone in figuring it out.

@@ -224,6 +224,15 @@ Azimuth angle is the compass direction a solar panel faces. Due south (180°) is
 
 QBits Energy designs solar installations with proper azimuth analysis and MPPT allocation for residential, C&I and utility plants across India.
 
+## Further reading
+
+For how Azimuth plays out in real projects, these guides go deeper:
+
+- [East-West Roof Solar Design in India 2026: When It Beats South-Facing](/blog/east-west-roof-solar-design/)
+- [Solar Inverter Low Output, 12 Causes and Fixes India](/blog/solar-inverter-low-output-causes-india/)
+- [Dual MPPT vs Single MPPT, When You Actually Need It](/blog/dual-mppt-vs-single-mppt/)
+- [Ghar Mein Solar Panel Kaise Lagwayein: Hindi Guide](/blog/ghar-mein-solar-panel-kaise-lagwayein/)
+
 ## Sources
 
 - MNRE Design Guidelines for Solar PV Plants.

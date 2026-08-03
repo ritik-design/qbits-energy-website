@@ -245,6 +245,15 @@ Fuses are essential overcurrent protection devices for solar DC strings. Special
 
 QBits Energy designs and supplies solar DC combiner boxes with gPV fuse protection, DC isolators and SPDs for utility and C&I applications across India.
 
+## Further reading
+
+For how Fuse plays out in real projects, these guides go deeper:
+
+- [Solar String Sizing & Overcurrent Protection](/blog/solar-string-sizing-ocp-india/)
+- [Inverter Battery Connection Diagram and Sizing Guide for Hybrid Solar](/blog/inverter-battery-connection-diagram/)
+- [Solar Shading Analysis Software Ireland: 2026 Guide](/blog/solar-shading-analysis-software-ireland/)
+- [Solar Shading Analysis Software Singapore: 2026](/blog/solar-shading-analysis-software-singapore/)
+
 ## Sources
 
 - IS 13703, Indian Standard for low-voltage fuses.

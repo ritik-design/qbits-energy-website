@@ -213,6 +213,15 @@ Round-Trip Efficiency (RTE) measures the percentage of energy retrieved from bat
 
 QBits Energy supplies LFP storage systems with documented high RTE for residential, C&I and microgrid solar applications in India.
 
+## Further reading
+
+For how Round Trip Efficiency plays out in real projects, these guides go deeper:
+
+- [MPPT vs PWM Charge Controller Comparison](/blog/mppt-vs-pwm/)
+- [Solar Plus Storage Design Software 2026](/blog/solar-plus-storage-design-software/)
+- [On-Grid vs Hybrid Solar Inverters: ROI Guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/)
+- [Solar Inverter vs UPS, What's the Real Difference?](/blog/solar-inverter-vs-ups/)
+
 ## Sources
 
 - IEC 61960, Cell performance.

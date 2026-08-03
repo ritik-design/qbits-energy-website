@@ -254,6 +254,8 @@ Related guides:
 
 For noise-specific queries or placement advice on specific residential layouts, [talk to a Qbits engineer](/contact-us/) - the team can recommend the optimal Qbits SKU and placement within 48 hours.
 
+Elsewhere in the Heaven Group network, see [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation) and [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included).
+
 ## Closing
 
 A quiet inverter usually signals overall build quality. Variable-speed fans indicate refined thermal engineering. Transformerless design indicates modern topology. IP66 protection indicates long-term reliability. Premium components indicate engineering investment. Together these features predict not just lower noise but extended operational life and lower warranty exposure. Specify noise level alongside efficiency and warranty when comparing units, particularly for residential or noise-sensitive installations. The inverter that runs quietly at commissioning is almost always the inverter that delivers the lowest TCO over 25 years - quietness and quality compound.

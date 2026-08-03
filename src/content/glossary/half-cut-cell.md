@@ -257,6 +257,15 @@ Half-cut cell modules are the default for Indian and global solar module manufac
 
 QBits Energy supplies ALMM-listed half-cut bifacial modules across PERC, TOPCon and HJT technologies for Indian residential, C&I and utility solar.
 
+## Further reading
+
+For how Half-Cut Cell plays out in real projects, these guides go deeper:
+
+- [Solar Shading Analysis Software 2026: Guide](/blog/solar-shading-analysis-software/)
+- [Best Solar System Under ₹1 Lakh in India 2026](/blog/best-solar-system-under-1-lakh/)
+- [Solar Subsidy in Madhya Pradesh 2026, MPPKVVCL](/blog/solar-subsidy-madhya-pradesh-2026/)
+- [Solar Shading Analysis Software Singapore: 2026](/blog/solar-shading-analysis-software-singapore/)
+
 ## Sources
 
 - IEC 61215, Module qualification.

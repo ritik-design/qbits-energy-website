@@ -33,7 +33,7 @@ faqs:
     a: "No standardised government calculator exists, but EPCs can compute import duty incidence as follows: (CIF value × BCD rate) + (CIF + BCD) × Social Welfare Surcharge (SWS at 10% of BCD) + (CIF + BCD + SWS) × IGST rate. For a typical 10 kW inverter with CIF of ₹40,000: BCD = ₹8,000; SWS = ₹800; IGST at 18% on (₹40,000 + ₹8,000 + ₹800) = ₹8,784; total duties = ₹17,584. The Import Duty Impact Calculator framework in this guide formalises this calculation."
 ---
 
-For EPC installers in India, the inverter procurement decision in 2026 is not just about specifications and price, it is increasingly shaped by customs policy and regulatory compliance. The [Basic Customs Duty (BCD)](/glossary/customs-duty/) of 20% on imported solar inverters, combined with the ALMM list requirement for PM Surya Ghar-subsidised projects, has created a significant structural cost and compliance difference between imported and domestic inverters.
+For EPC installers in India, the inverter procurement decision in 2026 is not just about specifications and price, it is increasingly shaped by customs policy and regulatory compliance. The [Basic Customs Duty (BCD)](/glossary/customs-duty/) of 20% on imported solar inverters, combined with the [ALMM list](https://www.heavengreenenergy.com/blog/almm-list-explained) requirement for PM Surya Ghar-subsidised projects, has created a significant structural cost and compliance difference between imported and domestic inverters.
 
 > **TL;DR**
 > - BCD on imported solar inverters (HS code 8504) is 20% as of 2026; modules attract 40% and cells 25%, on top of IGST at 12-18% and a 10% Social Welfare Surcharge on the BCD amount.
@@ -44,7 +44,7 @@ For EPC installers in India, the inverter procurement decision in 2026 is not ju
 
 Understanding these policies is not just about compliance. It is about margin protection, project eligibility, and competitive positioning in a market where 90%+ of residential installations are now linked to subsidy and net metering programmes.
 
-> **Direct answer.** BCD on solar inverters imported into India is 20% as of 2026, applied on top of CIF value. Solar PV modules attract 40% BCD, cells attract 25%. Chinese OEMs exporting to India from their home country see landed cost increases of 35–45% relative to ex-works. ALMM list compliance separately restricts which inverters qualify for PM Surya Ghar subsidy, use the Import Duty Impact Calculator in this guide to assess the full incidence.
+> **Direct answer.** BCD on solar inverters imported into India is 20% as of 2026, applied on top of CIF value. Solar PV modules attract 40% BCD, cells attract 25%. Chinese OEMs exporting to India from their home country see landed cost increases of 35–45% relative to ex-works. [ALMM list](https://quickestimate.co/blog/almm-list-explained) compliance separately restricts which inverters qualify for PM Surya Ghar subsidy, use the [Import Duty](https://quickestimate.co/blog/import-duty-solar-modules-india) Impact Calculator in this guide to assess the full incidence.
 
 This guide covers BCD rates on inverters, modules, and cells; how the ALMM list amplifies the policy advantage for domestic manufacturers; how BCD affects major Chinese OEMs; and what EPCs need to track to stay ahead of policy changes.
 

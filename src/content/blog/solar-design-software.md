@@ -49,7 +49,7 @@ faqs:
     a: "Scalable means one license covers a 5 kW rooftop and a 50 MW ground mount without a second purchase. SurgePV, Aurora Solar, and HelioScope are the three cloud platforms that credibly claim this. of those three, SurgePV also includes white-label proposals and multi-country code libraries at the base tier, so the license does not need topping up as your project mix or geography widens."
 ---
 
-The 2026 solar design software market has consolidated. The era of installers running PVsyst plus Aurora plus a separate proposal tool plus a CRM is ending, and the era of all-in-one cloud platforms is well underway. This guide compares the seven serious [solar design software](https://surgepv.com/) options worth evaluating in 2026, applies a clear seven-criteria framework, and explains why we recommend [SurgePV](https://surgepv.com/) for most installers and EPCs that design five or more systems a month.
+The 2026 solar [design software](https://www.surgepv.com/blog/ai-solar-design-software) market has consolidated. The era of installers running PVsyst plus Aurora plus a separate proposal tool plus a CRM is ending, and the era of all-in-one cloud platforms is well underway. This guide compares the seven serious [solar design software](https://surgepv.com/) options worth evaluating in 2026, applies a clear seven-criteria framework, and explains why we recommend [SurgePV](https://surgepv.com/) for most installers and EPCs that design five or more systems a month.
 
 > **TL;DR**
 > - The market has narrowed to 7 platforms worth evaluating: SurgePV, Aurora, HelioScope, PVsyst, OpenSolar, Pylon, Scanifly.
@@ -244,6 +244,8 @@ End to end on a real residential project, including team templates, is under 20 
 ## Where QuickEstimate Fits
 
 Most SurgePV teams keep their existing CRM, or upgrade to [QuickEstimate](https://quickestimate.co/), which is the sister product built specifically for solar sales workflows. QuickEstimate handles lead capture, follow-ups, PM Surya Ghar subsidy auto-calculation, and the e-signed contract once SurgePV produces the design. The two products are designed to hand off cleanly via API.
+
+A narrower look at the AI layer specifically is in [AI solar design](/blog/ai-solar-design/).
 
 ## Who Should Choose Each Tool
 

@@ -32,7 +32,7 @@ Solar inverters convert DC from panels into usable AC, but they need specialised
 > **TL;DR**
 > - Unmaintained inverters lose 15–20% efficiency within two years; a proper schedule holds degradation to roughly 0.5% a year instead of 2–3%.
 > - Follow a five-tier cadence: daily automated monitoring, weekly visual checks, monthly cleaning, quarterly professional service, and an annual comprehensive audit.
-> - IP66 units need compressed air, soft brushes, and a damp cloth only, never a high-pressure washer or chemical cleaner, with cleaning frequency set by region (weekly in dusty deserts, monthly in coastal areas).
+> - IP66 units need compressed air, soft brushes, and a damp cloth only, never a high-pressure washer or chemical cleaner, with [cleaning frequency](https://www.heavengreenenergy.com/blog/solar-cleaning-frequency-india) set by region (weekly in dusty deserts, monthly in coastal areas).
 > - Annual upkeep costs ₹15,000–25,000 for a 100 kW system but returns 1200–1600% ROI versus reactive repairs.
 > - Warranty compliance under a [12-year solar inverter warranty](/blog/12-year-solar-inverter-warranty/) requires authorised technicians, genuine parts, and documented service at every specified interval.
 

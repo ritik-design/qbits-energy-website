@@ -280,6 +280,15 @@ LFP is the dominant lithium-ion chemistry for stationary solar storage in India.
 
 QBits Energy supplies BMS-protected LFP battery packs and hybrid inverter combinations validated for Indian residential, C&I and microgrid applications.
 
+## Further reading
+
+For how LFP Battery plays out in real projects, these guides go deeper:
+
+- [LiFePO4 vs NMC Battery for Solar in India](/blog/lifepo4-vs-nmc-solar-battery-india/)
+- [Lithium vs Lead-Acid Solar Battery for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/)
+- [How Long Do Solar Batteries Last in India?](/blog/how-long-solar-batteries-last-india/)
+- [Best Solar Battery Brands in India 2026](/blog/best-solar-battery-brands-india-2026/)
+
 ## Sources
 
 - IEC 62619:2017, Safety requirements for secondary lithium cells.

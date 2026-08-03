@@ -37,16 +37,16 @@ faqs:
 
 Every Indian homeowner who searches for solar ends up staring at a quote that says something like "₹45 per watt, all inclusive." No panel brand. No inverter model. No clarity on what "all inclusive" means. Three competing quotes arrive with numbers that differ by 30%, and none of them explain why.
 
-This post gives you the actual numbers (broken out layer by layer, city by city, and system size by system size) so you can read any solar quote the way a professional installer does. The solar inverter installation cost is not one number; it is a stack of four distinct cost layers, each of which can be managed once you understand what drives it.
+This post gives you the actual numbers (broken out layer by layer, city by city, and [system size](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) by system size) so you can read any solar quote the way a professional installer does. The solar inverter installation cost is not one number; it is a stack of four distinct cost layers, each of which can be managed once you understand what drives it.
 
 > **TL;DR**
-> - A 3 kW solar system costs ₹1.5–2 Lakh before subsidy, a 5 kW system ₹2.5–3.5 Lakh, and a 10 kW system ₹4.5–6 Lakh; the PM Surya Ghar subsidy caps at ₹78,000 for systems 3 kW and above.
+> - A 3 kW solar system costs ₹1.5–2 Lakh before subsidy, a 5 kW system ₹2.5–3.5 Lakh, and a 10 kW system ₹4.5–6 Lakh; the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy caps at ₹78,000 for systems 3 kW and above.
 > - Costs break into four layers: hardware (55–65%), Balance of System (15–25%), soft costs like labour and DISCOM fees (8–20%), and recurring costs like AMC that arrive every year.
 > - Metro labour runs 15–25% above the national median, while Gujarat and Rajasthan see 8–12% lower effective costs thanks to mature local supply chains.
 > - Eight line items - net metering fees, meter deposits, AMC, earthing, waterproofing, extended conduit, commissioning fees, and insurance - are the ones most often missing from a headline quote.
 > - Larger systems cost less per watt: a 1 kW system runs ₹65–80/Wp while a 10 kW system runs ₹45–60/Wp, because fixed soft costs spread across more capacity.
 
-> **Direct answer.** The total solar inverter installation cost in India ranges from ₹1.5 Lakh to ₹2 Lakh for a 3 kW system, ₹2.5 Lakh to ₹3.5 Lakh for 5 kW, and ₹4.5 Lakh to ₹6 Lakh for 10 kW, all before the PM Surya Ghar subsidy. After the central subsidy, a 3 kW system nets to ₹72,000–₹1.22 Lakh and a 5 kW system to ₹1.72–₹2.72 Lakh. The 4-Layer Solar Cost Stack (Hardware, BOS, Soft Costs, and Recurring Costs) explains every rupee in between.
+> **Direct answer.** The total solar inverter installation cost in India ranges from ₹1.5 Lakh to ₹2 Lakh for a 3 kW system, ₹2.5 Lakh to ₹3.5 Lakh for 5 kW, and ₹4.5 Lakh to ₹6 Lakh for 10 kW, all before the [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy). After the central subsidy, a 3 kW system nets to ₹72,000–₹1.22 Lakh and a 5 kW system to ₹1.72–₹2.72 Lakh. The 4-Layer Solar Cost Stack (Hardware, BOS, Soft Costs, and Recurring Costs) explains every rupee in between.
 
 The [net metering](/glossary/net-metering/) connection and the [commissioning](/glossary/commissioning/) inspection are the final two line items that most quotes bury or omit entirely, yet they are the steps that determine whether your system legally exports power and earns credits on your bill.
 

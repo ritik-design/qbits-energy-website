@@ -3,8 +3,8 @@ title: "Best Solar Software USA: The Complete 2026 Stack"
 excerpt: "US solar teams pay more for software per install than almost anywhere else, and most of it goes to seats nobody uses. Here is what the stack needs and what it should cost."
 description: "Best solar software USA 2026: the full stack for design, proposals, CRM, permitting and monitoring. NEC coverage, the 30% ITC, SRECs, time-of-use rates and what to stop paying for."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-usa.svg"
 author: "Nirav Dhanani"

@@ -254,6 +254,15 @@ Shading analysis quantifies yield loss from obstructions. Software tools like PV
 
 QBits Energy provides PVsyst-based shading analysis and yield modelling for residential, C&I and utility solar projects across India.
 
+## Further reading
+
+For how Shading Analysis plays out in real projects, these guides go deeper:
+
+- [Solar Shading Analysis Software Poland: 2026 Guide](/blog/solar-shading-analysis-software-poland/)
+- [Solar Shading Analysis Software Saudi Arabia: 2026 Guide](/blog/solar-shading-analysis-software-saudi-arabia/)
+- [Solar Shading Analysis Software Singapore: 2026](/blog/solar-shading-analysis-software-singapore/)
+- [Solar Shading Analysis Software Canada: 2026 Guide](/blog/solar-shading-analysis-software-canada/)
+
 ## Sources
 
 - PVsyst software documentation.

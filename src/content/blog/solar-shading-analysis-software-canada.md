@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-Canadian solar shading analysis is a winter problem wearing an annual disguise. At Canadian latitudes the sun sits below roughly 20 degrees at solar noon in late December, against 50 degrees or more in June. Because shadow length scales inversely with the tangent of solar altitude, the same chimney that casts a 2 metre shadow in summer casts something closer to 6 metres in midwinter. Any model that reports an annual shading percentage averages that concentrated loss across twelve months and hides it. This guide covers what shading analysis has to do differently in Canada, and which tools do it.
+Canadian solar [shading analysis](/glossary/shading-analysis/) is a winter problem wearing an annual disguise. At Canadian latitudes the sun sits below roughly 20 degrees at solar noon in late December, against 50 degrees or more in June. Because shadow length scales inversely with the tangent of solar altitude, the same chimney that casts a 2 metre shadow in summer casts something closer to 6 metres in midwinter. Any model that reports an annual shading percentage averages that concentrated loss across twelve months and hides it. This guide covers what [shading analysis](/glossary/shading-analysis/) has to do differently in [Canada](/blog/solar-software-canada/), and which tools do it.
 
 > **TL;DR**
 > - December solar noon altitude at Canadian latitudes runs under 20 degrees, producing shadows roughly three times summer length from the same obstruction.
@@ -43,7 +43,7 @@ Canadian solar shading analysis is a winter problem wearing an annual disguise. 
 > - Inter-row spacing on ground mount is an economic optimisation, not a winter-solstice geometry rule.
 > - [SurgePV](https://surgepv.com/) runs 8,760-hour module-level shading with provincial libraries at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** Solar shading analysis software for Canadian projects has to run 8,760 hourly steps at module level, because Canadian shading losses concentrate into the winter months when the sun is low and consumption is high. An annual percentage is not a useful output here. The tool also has to price the loss against the correct provincial net metering rule, since a shaded kilowatt-hour is worth roughly three times more in Ontario than in Manitoba.
+**Short version.** Solar [shading analysis software](https://heavendesigns.in/blog/solar-shading-analysis-software/) for Canadian projects has to run 8,760 hourly steps at module level, because Canadian shading losses concentrate into the winter months when the sun is low and consumption is high. An annual percentage is not a useful output here. The tool also has to price the loss against the correct provincial [net metering](/glossary/net-metering/) rule, since a shaded kilowatt-hour is worth roughly three times more in Ontario than in Manitoba.
 
 The general methodology is covered in our [solar shading analysis software](/blog/solar-shading-analysis-software/) guide. This page covers what changes at Canadian latitudes. For the wider platform comparison see [best solar design software Canada](/blog/solar-design-software-canada/).
 

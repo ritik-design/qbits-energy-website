@@ -35,7 +35,7 @@ featured: false
 
 A rice mill is one of the best solar candidates in Indian agro-industry, and one of the least written about. The load is heavy, daytime-weighted, and almost entirely motor-driven. The mill building usually has a large, unshaded asbestos or RCC roof. The owner pays Rs 8 to 12 per unit on an industrial tariff. Diesel adds another Rs 16 to 22 per unit when the grid fails mid-season. Modern rice mills consume 18 to 26 kWh per tonne of paddy processed, according to research in the Journal of Food Science and Technology, 2012.
 
-This guide is written for mill owners and their engineers deciding on solar in 2026. It covers the load profile of hullers, polishers, and destoners. It explains how seasonal operation changes sizing, and what diesel displacement is worth in rupees. It also covers 3-phase inverter selection for dusty rural sites, plus the full payback math. We also cover where PM-KUSUM fits and where it does not. That is the most common misunderstanding we hear from mill owners.
+This guide is written for mill owners and their engineers deciding on solar in 2026. It covers the load profile of hullers, polishers, and destoners. It explains how seasonal operation changes sizing, and what diesel displacement is worth in rupees. It also covers 3-phase inverter selection for dusty rural sites, plus the full payback math. We also cover where [PM-KUSUM](/glossary/kusum/) fits and where it does not. That is the most common misunderstanding we hear from mill owners.
 
 > **TL;DR**
 > - Rice mills typically run 25 to 100 kW of connected load and consume 18 to 26 kWh per tonne of paddy.
@@ -187,6 +187,12 @@ Solar for a rice mill is strong economics, not free money. Four tradeoffs deserv
 **Dust is a maintenance commitment.** Panels near a huller need cleaning every 10 to 15 days in season, not monthly. Skip it and generation drops 15 to 25 percent. Assign it to a mill hand with a water line and soft brush. Track output in the monitoring app. Our [Rajkot cold storage case study](/blog/case-study-rajkot-cold-storage/) shows how a dusty C&I site held its yield with a fixed cleaning schedule.
 
 The contrarian point: if your mill runs fewer than 1,000 hours a year, solar is marginal. Below that utilisation, annual units are too low for fixed project costs to pay back inside 6 years. Run your own numbers before believing any EPC's brochure.
+
+Chhote grain-processing units ke liye alag hisab lagta hai. Dekhein [atta chakki ke liye solar](/blog/atta-chakki-ke-liye-solar/).
+
+Livestock sheds run a very different load curve, sized in [solar for poultry farms](/blog/solar-for-poultry-farm-india/).
+
+Elsewhere in the Heaven Group network, see [industrial solar installation](https://www.heavengreenenergy.com/blog/industrial-solar-installation) and [a 100 kW price benchmark](https://quickestimate.co/blog/hundred-kw-solar-price).
 
 ## Conclusion: The Bottom Line
 

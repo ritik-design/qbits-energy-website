@@ -302,6 +302,14 @@ For C&I projects above 1 MW, a CEIG (Chief Electrical Inspector) approval is req
 - In India, BIS certification + MNRE ALMM listing + DISCOM approval are non-negotiable before energisation.
 - Inverter selection should optimise for **MPPT range, climate derating, firmware maturity, service network and total lifecycle cost**: not the lowest sticker price.
 
+## Further reading
+
+For how Solar Inverter plays out in real projects, these guides go deeper:
+
+- [How Does a Solar Inverter Work? 2026 Guide](/blog/how-does-a-solar-inverter-work/)
+- [Solar Inverter Circuit Diagram Explained: From DC Strings to AC Grid](/blog/solar-inverter-circuit-diagram/)
+- [Solar Inverter Band Ho Jaye Toh Kya Karein](/blog/solar-inverter-band-ho-jaye-kya-karein/)
+
 ## Sources
 
 - IEC 62109-1:2010 and IEC 62109-2:2011, Safety of power converters for use in photovoltaic power systems, International Electrotechnical Commission.

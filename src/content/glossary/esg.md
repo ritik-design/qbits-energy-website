@@ -258,6 +258,15 @@ ESG is the framework for corporate sustainability reporting. Indian BRSR is mand
 
 QBits Energy structures solar adoption pathways for Indian corporates pursuing BRSR, net-zero and RE100 targets through rooftop solar, open access PPAs and RESCO models.
 
+## Further reading
+
+For how ESG plays out in real projects, these guides go deeper:
+
+- [Case Study, 200 kW Solar at a Chennai IT Park](/blog/case-study-chennai-it-park/)
+- [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/)
+- [Best Solar Design Software Philippines: 2026 Guide](/blog/solar-design-software-philippines/)
+- [Best Solar Design Software Saudi Arabia: 2026 Guide](/blog/solar-design-software-saudi-arabia/)
+
 ## Sources
 
 - SEBI BRSR Framework, Securities and Exchange Board of India.

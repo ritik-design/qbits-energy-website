@@ -289,6 +289,15 @@ HJT is the premium silicon cell technology with the highest efficiency, best tem
 
 QBits Energy supplies HJT bifacial modules for premium Indian residential, C&I and high-irradiance utility solar applications.
 
+## Further reading
+
+For how HJT Cell plays out in real projects, these guides go deeper:
+
+- [Solar Shading Analysis Software 2026: Guide](/blog/solar-shading-analysis-software/)
+- [Solar Panel ki Kimat 2026: Poora Rate Guide](/blog/solar-panel-ki-kimat/)
+- [ALMM List-II Exemption Window for Net Metering & Open Access](/blog/almm-list-ii-exemption-net-metering-open-access/)
+- [Best Solar Design Software India: 2026 Guide](/blog/solar-design-software-india/)
+
 ## Sources
 
 - Sawada T., Terada N., Tsuge S., et al., High-efficiency a-Si/c-Si heterojunction solar cell, Proceedings of IEEE PVSC, 1994.

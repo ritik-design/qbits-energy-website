@@ -200,6 +200,15 @@ Busbars collect current from solar cells and conduct it to module terminals. Mod
 
 QBits Energy supplies ALMM-listed multi-busbar modules from leading Indian manufacturers for residential, C&I and utility solar.
 
+## Further reading
+
+For how Busbar plays out in real projects, these guides go deeper:
+
+- [Inverter Battery Connection Diagram and Sizing Guide for Hybrid Solar](/blog/inverter-battery-connection-diagram/)
+- [Inverter MPPT: 8 Critical Selection Factors (2026)](/blog/inverter-mppt/)
+- [Polysun Review 2026: Multi-Energy System Simulation, Assessed](/blog/polysun-review/)
+- [ALMM List-II Exemption Window for Net Metering & Open Access](/blog/almm-list-ii-exemption-net-metering-open-access/)
+
 ## Sources
 
 - IEC 61215, Module qualification.

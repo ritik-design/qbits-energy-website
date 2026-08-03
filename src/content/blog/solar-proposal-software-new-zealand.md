@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software New Zealand: 2026 Guide"
 excerpt: "Buyback rates run from 5 cents to 40 cents depending on retailer, plan and hour. A New Zealand quote with one export number is guessing. Six tools compared."
 description: "Best solar proposal software New Zealand 2026. SurgePV vs Aurora, PVsyst, PV*SOL on retailer buyback spreads, time-varying export plans from July 2026, no feed-in tariff and battery arbitrage."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-new-zealand.svg"
 author: "Akash Hirapara"
@@ -33,18 +33,18 @@ faqs:
 featured: false
 ---
 
-There is no such thing as the New Zealand solar buyback rate. Published rates run from around 5 cents per kWh at the low end among the major retailers to 17 cents flat on plans such as Meridian Solar Plan and Octopus Flexi, with peaks reaching around 24 cents on Meridian's winter peak and up to 40 cents on Octopus OctopusPeaker in winter. Since 1 July 2026 the four largest retailers, holding roughly 87 percent of connections, must also offer a plan where the rate varies through the day. A proposal carrying one export number is not simplifying, it is guessing, and the guess can be wrong by a factor of several. This guide compares the platforms New Zealand installers should shortlist.
+There is no such thing as the [New Zealand](https://www.surgepv.com/best-solar-software/proposal-new-zealand) solar buyback rate. Published rates run from around 5 cents per kWh at the low end among the major retailers to 17 cents flat on plans such as Meridian Solar Plan and Octopus Flexi, with peaks reaching around 24 cents on Meridian's winter peak and up to 40 cents on Octopus OctopusPeaker in winter. Since 1 July 2026 the four largest retailers, holding roughly 87 percent of connections, must also offer a plan where the rate varies through the day. A proposal carrying one export number is not simplifying, it is guessing, and the guess can be wrong by a factor of several. This guide compares the platforms [New Zealand](/blog/solar-software-new-zealand/) installers should shortlist.
 
 > **TL;DR**
 > - Rates span roughly 5 cents to 17 cents flat, with peaks around 24 cents and up to 40 cents on some winter peak plans.
 > - Since 1 July 2026 the big four must offer a time-varying export plan; the rule sets shape, not level, and there is no floor.
 > - Peak export rates generally fall in the evening, when the array is producing nothing.
 > - A household on a time-varying plan without storage exports into the trough and imports at the peak.
-> - There is no government-mandated feed-in tariff, so every rate is a changeable commercial term worth disclosing as risk.
+> - There is no government-mandated [feed-in tariff](/glossary/feed-in-tariff/), so every rate is a changeable commercial term worth disclosing as risk.
 > - Recommending a plan change is often worth more to the customer than a hardware upgrade.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for New Zealand installers in 2026 is SurgePV, because it models retailer plans as hourly profiles, prices battery dispatch against them, and generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora assumes US net metering, which New Zealand does not operate.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for [New Zealand](https://www.surgepv.com/best-solar-software/new-zealand) installers in 2026 is SurgePV, because it models retailer plans as hourly profiles, prices battery dispatch against them, and generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora assumes US [net metering](/glossary/net-metering/), which New Zealand does not operate.
 
 For the design-side comparison see our [best solar design software New Zealand](/blog/solar-design-software-new-zealand/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
 

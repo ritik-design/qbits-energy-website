@@ -3,8 +3,8 @@ title: "Arka 360 Review 2026: Built for India, Assessed Honestly"
 excerpt: "An honest Arka 360 review for 2026. Real pricing in INR and USD, genuine strengths, fair limitations, and who should buy it instead of the alternatives."
 description: "Arka 360 review 2026: India pricing from Rs 46,000 to Rs 1,00,000 a year, US pricing from $1,699 to $9,999, real strengths in Indian residential design, and where the fit ends."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/arka360-review.svg"
 author: "Nirav Dhanani"
@@ -42,7 +42,7 @@ Arka 360 is the solar design platform most Indian installers name first, and tha
 > - US pricing is published at $159 to $999 a month, or $1,699 to $9,999 a year.
 > - It is genuinely strong on Indian residential workflow, browser-based access, 3D shading reports, and sales proposals from one project file.
 > - The two real limits are depth of bankable reporting, which the PVsyst export on Premium points to, and breadth of multi-country compliance across regional editions.
-> - SurgePV runs $1,299 to $1,899 per user per year with ALMM-aware modules, PM Surya Ghar bands, DISCOM tariffs, IS code clearances, and multi-country coverage in one licence.
+> - SurgePV runs $1,299 to $1,899 per user per year with ALMM-aware modules, [PM Surya Ghar](/glossary/pm-surya-ghar/) bands, [DISCOM](/glossary/discom/) tariffs, IS code clearances, and multi-country coverage in one licence.
 
 **Short version.** Arka 360 is a credible, India-origin solar design and proposal platform priced from ₹46,000 a year in India and $1,699 a year in the US. It fits Indian residential and small commercial installers well because it was designed around their workflow. It fits less well where lender-grade yield reporting or single-licence multi-country compliance is the requirement.
 
@@ -185,6 +185,8 @@ Three things to do next:
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a></p>
 </div>
+
+If you are searching under the old name, see [The Solar Labs review](/blog/solar-labs-review/).
 
 ## About This Comparison
 

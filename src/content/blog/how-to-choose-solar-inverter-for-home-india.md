@@ -238,6 +238,8 @@ If you have a recent electricity bill and an idea of your available rooftop area
 
 "Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone."
 
+Elsewhere in the Heaven Group network, see [a second view on choosing an inverter](https://www.heavengreenenergy.com/blog/how-to-choose-the-best-solar-inverter-for-your-home) and [cost per watt in India](https://quickestimate.co/blog/solar-cost-per-watt-india).
+
 ## A Practical Buying Checklist Before You Sign
 
 This section consolidates the guidance above into a step-by-step sequence for the weeks before you place a purchase order. Most homeowners who follow this process avoid the three most common buying mistakes: choosing the wrong inverter type, purchasing a non-ALMM-listed product, and accepting verbal warranty terms.

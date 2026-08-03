@@ -30,7 +30,7 @@ faqs:
 As panel wattages climb and high-capacity modules become standard across India, solar EPCs face a critical design decision: **[DC oversizing](/glossary/dc-oversizing/)**. Once unconventional, it is now essential for maximising energy yield. Yet many professionals remain uncertain about optimal ratios, safety implications, and warranty considerations.
 
 > **TL;DR**
-> - DC oversizing means connecting more DC panel capacity than the inverter's rated AC output; a 1.2:1 ratio is 20% oversizing, and modern inverters like Qbits support up to 100% (2:1).
+> - [DC oversizing](https://www.surgepv.com/blog/solar-inverter-clipping-dc-oversizing) means connecting more DC panel capacity than the inverter's rated AC output; a 1.2:1 ratio is 20% oversizing, and modern inverters like Qbits support up to 100% (2:1).
 > - Optimal DC:AC ratios vary by region, from 1.15–1.30:1 for residential up to 1.30–1.60:1 for high-temperature or monsoon-heavy regions.
 > - Oversizing does not reduce inverter lifespan when kept within manufacturer specs; Qbits' 12-year warranty covers systems up to 100% oversizing.
 > - Properly designed oversizing increases annual generation by 10–20% and cuts LCOE by 5–12%, with payback on the incremental panel cost typically in 2–4 years.

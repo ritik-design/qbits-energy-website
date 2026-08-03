@@ -206,6 +206,15 @@ LeTID is slow degradation in PERC cells caused by combined light and heat exposu
 
 QBits Energy supplies ALMM-listed modules with documented LeTID control, plus TOPCon and HJT alternatives that largely eliminate the mechanism.
 
+## Further reading
+
+For how LeTID plays out in real projects, these guides go deeper:
+
+- [How Long Do Solar Batteries Last in India?](/blog/how-long-solar-batteries-last-india/)
+- [Solar Shading Analysis Software 2026: Guide](/blog/solar-shading-analysis-software/)
+- [Solar Inverter Derating in Indian Summer, Explained](/blog/solar-inverter-summer-derating-india/)
+- [Solar Inverter Failure: 20 Questions Answered](/blog/solar-inverter-failure/)
+
 ## Sources
 
 - IEC TS 63209, Extended stress testing of PV modules.

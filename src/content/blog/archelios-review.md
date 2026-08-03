@@ -3,8 +3,8 @@ title: "Archelios Review 2026: French PV Engineering Suite, Assessed"
 excerpt: "An honest Archelios review for 2026. Published pricing from €990 to €1,990 a year, real strengths in NF C 15-712 electrical compliance, and where the suite stops fitting."
 description: "Archelios review 2026: Trace Software's archelios PRO and CALC modules, published subscription pricing, genuine strengths in French and European electrical compliance, honest limitations, and alternatives including SurgePV and PVsyst."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/archelios-review.svg"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ faqs:
 featured: false
 ---
 
-Archelios is one of the few solar design products that tells you what it costs before you talk to a salesperson. That alone puts Trace Software International, the French engineering software house behind it, in a small minority of this category. But published pricing is not a reason to buy. This review looks at what the archelios suite actually is, how its modules divide the work, what the published subscriptions cost in 2026, where the engineering depth is genuine, where the fit breaks down, and which alternatives a French or European buyer should put next to it before signing. The short answer is that this is a design office tool wearing engineering clothes honestly, and the buying mistake is expecting it to behave like a sales platform.
+[Archelios](/blog/archelios-alternative/) is one of the few solar design products that tells you what it costs before you talk to a salesperson. That alone puts Trace Software International, the French engineering software house behind it, in a small minority of this category. But published pricing is not a reason to buy. This review looks at what the archelios suite actually is, how its modules divide the work, what the published subscriptions cost in 2026, where the engineering depth is genuine, where the fit breaks down, and which alternatives a French or European buyer should put next to it before signing. The short answer is that this is a design office tool wearing engineering clothes honestly, and the buying mistake is expecting it to behave like a sales platform.
 
 > **TL;DR**
 > - Archelios is a modular PV engineering suite from Trace Software International, split across archelios PRO for design and simulation and archelios CALC for electrical sizing and compliance.
@@ -45,7 +45,7 @@ Archelios is one of the few solar design products that tells you what it costs b
 > - A free tier, archelios PRO Free, covers projects up to 9 kWp on a one-year licence.
 > - Best fit: French and European design offices producing technical dossiers. Worst fit: volume residential sales teams needing fast branded proposals.
 
-**Short version.** Archelios is a French-origin photovoltaic engineering suite built by Trace Software International, sold as modules covering 3D design and simulation (archelios PRO, €990 to €1,990 excluding tax per year) and electrical calculation and compliance (archelios CALC, €1,350). Its distinguishing strength is normative electrical sizing to NF and IEC standards. It is an engineering tool, not a sales platform, and should be judged on that basis.
+**Short version.** Archelios is a French-origin photovoltaic engineering suite built by Trace Software International, sold as modules covering [3D design](https://heavendesigns.in/blog/3d-solar-design-software/) and simulation (archelios PRO, €990 to €1,990 excluding tax per year) and electrical calculation and compliance (archelios CALC, €1,350). Its distinguishing strength is normative electrical sizing to NF and IEC standards. It is an engineering tool, not a sales platform, and should be judged on that basis.
 
 ## What Archelios Actually Is
 

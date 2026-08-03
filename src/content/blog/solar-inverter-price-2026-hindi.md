@@ -37,7 +37,7 @@ Solar inverter खरीदते समय price सबसे पहला ques
 
 > **TL;DR**
 > - 3 kW on-grid inverter ₹15,000-₹35,000 में मिलता है; 5 kW hybrid ₹45,000-₹80,000 में, brand tier के हिसाब से।
-> - Full 3 kW system (panels + inverter + installation) PM Surya Ghar subsidy ₹78,000 के बाद net ₹72,000-₹1.07 lakh पड़ता है।
+> - Full 3 kW system (panels + inverter + installation) [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy ₹78,000 के बाद net ₹72,000-₹1.07 lakh पड़ता है।
 > - Hidden costs (earthing, conduit, net metering fee) typically ₹10,000-₹25,000 अलग से आते हैं - "all-inclusive" quote माँगें।
 > - Solar inverter पर GST 12% लगता है, ALMM-listed inverter PM Surya Ghar subsidy के लिए mandatory है।
 > - Premium 12-year warranty inverter 15-year TCO में budget inverter से सस्ता पड़ता है, बार-बार replacement की वजह से।
@@ -269,6 +269,12 @@ PM Surya Ghar portal par Phase III verified products ki listing hoti hai. Phase 
 Net savings from solar (₹2,000-3,000/month) typically covers EMI payments, making solar effectively self-financing. [Solar loan guide](/blog/solar-on-emi/), complete financing options comparison.
 
 According to [IRENA India financing report](https://www.irena.org/){target="_blank" rel="noopener"}, over 60% of PM Surya Ghar installations in 2025-26 were financed through some form of structured loan, making solar accessible at all income levels.
+
+Rate ka farq aksar tracker quality se aata hai, jo [MPPT kya hota hai](/blog/mppt-kya-hota-hai/) mein explain kiya gaya hai.
+
+Sabhi sizes ka rate table [solar inverter ka rate](/blog/solar-inverter-ka-rate/) mein diya gaya hai.
+
+Elsewhere in the Heaven Group network, see [installed cost ka breakdown](https://quickestimate.co/blog/cost-breakdown-solar-installation) and [inverter replacement ka kharcha](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost).
 
 ## Solar Inverter Price: What You Pay For at Each Tier
 

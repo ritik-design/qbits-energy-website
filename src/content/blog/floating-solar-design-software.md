@@ -38,7 +38,7 @@ faqs:
     a: "Not a separate license, but you do need three capabilities most rooftop tools lack: platform geometry on a float grid rather than a roof plane, the water-cooling effect on module temperature (typically a 5 to 10 percent yield uplift that a standard thermal model will miss), and anchoring layout against water level variation. SurgePV covers all three inside the standard license, so floating solar does not require a second purchase."
 ---
 
-Floating solar (floatovoltaic or FPV) design software handles PV systems mounted on floating platforms over reservoirs, lakes, and irrigation ponds. The water-cooling effect boosts yield, and the geometry has unique considerations. This guide covers the 2026 options and explains how [SurgePV](https://surgepv.com/) ships floating solar inside its [solar design software](https://surgepv.com/) on every paid plan.
+Floating solar (floatovoltaic or FPV) [design software](https://www.surgepv.com/blog/ai-solar-design-software) handles PV systems mounted on floating platforms over reservoirs, lakes, and irrigation ponds. The water-cooling effect boosts yield, and the geometry has unique considerations. This guide covers the 2026 options and explains how [SurgePV](https://surgepv.com/) ships floating solar inside its [solar design software](https://surgepv.com/) on every paid plan.
 
 > **TL;DR**
 > - [SurgePV](https://surgepv.com/) ships floating solar templates on every paid plan.

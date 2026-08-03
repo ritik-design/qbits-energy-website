@@ -208,6 +208,15 @@ CEIG is the state electrical safety authority that approves solar installations 
 
 QBits Energy coordinates CEIG drawing approval, inspection scheduling and energisation clearance for C&I and utility solar projects across Indian states.
 
+## Further reading
+
+For how CEIG plays out in real projects, these guides go deeper:
+
+- [50 kW Solar at a Bangalore Multi-Specialty Hospital](/blog/case-study-bangalore-hospital/)
+- [Case Study, 10kW Solar on a Jaipur Villa](/blog/case-study-jaipur-villa/)
+- [How to Apply for Net Metering in India](/blog/how-to-apply-net-metering-india/)
+- [Solar SLD Software 2026: Single Line Diagram Guide](/blog/solar-sld-software/)
+
 ## Sources
 
 - State Electrical Inspectorate websites and procedures.

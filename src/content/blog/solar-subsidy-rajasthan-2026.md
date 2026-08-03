@@ -36,19 +36,19 @@ faqs:
 featured: false
 ---
 
-Rajasthan holds a card no other Indian state can match in the solar subsidy conversation: the highest solar irradiance in the country, at approximately 6.0 to 6.5 kWh/m²/day in the western desert districts. When the central PM Surya Ghar subsidy of ₹78,000 for a 3 kW system is combined with this natural resource advantage, Rajasthan homeowners achieve some of the fastest solar paybacks in India, often 2.5 to 3.5 years post-subsidy compared to 3.5 to 5 years in lower-irradiance states.
+Rajasthan holds a card no other Indian state can match in the solar subsidy conversation: the highest solar irradiance in the country, at approximately 6.0 to 6.5 kWh/m²/day in the western desert districts. When the central [PM Surya Ghar](https://heavendesigns.in/blog/pm-surya-ghar-2-0-battery-storage-shared-rooftop-solar/) subsidy of ₹78,000 for a 3 kW system is combined with this natural resource advantage, Rajasthan homeowners achieve some of the fastest solar paybacks in India, often 2.5 to 3.5 years post-subsidy compared to 3.5 to 5 years in lower-irradiance states.
 
 The challenge is navigating three DISCOMs (JVVNL in Jaipur, AVVNL in Ajmer, and JdVVNL in Jodhpur) each with its own application process, and understanding what RRECL, the state's renewable energy body, does and does not do for residential consumers.
 
 > **TL;DR**
-> - Rajasthan's solar subsidy in 2026 is the central PM Surya Ghar scheme: up to ₹78,000 for a 3 kW system, with no separate state cash top-up.
+> - Rajasthan's solar subsidy in 2026 is the central [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) scheme: up to ₹78,000 for a 3 kW system, with no separate state cash top-up.
 > - Rajasthan has India's highest solar irradiance at 6.0–6.5 kWh/m²/day in the western desert, generating 20–35% more electricity than most Indian cities.
 > - Three DISCOMs handle applications: JVVNL (Jaipur), AVVNL (Ajmer), and JdVVNL (Jodhpur), with realistic timelines of 60 to 100 days.
 > - RRECL manages state renewable policy and KUSUM Component A but does not process residential PM Surya Ghar applications directly.
 > - Summers above 45 °C cause inverters without proper thermal derating specs to lose 10–15% of output during peak-irradiance months.
 > - A Jaipur case study shows post-subsidy payback of approximately 3.1 years, among the fastest in India.
 
-> **Rajasthan's solar subsidy in 2026 is led by PM Surya Ghar's ₹78,000 maximum for a 3 kW system.** The state's unique advantage is not a cash top-up (Rajasthan does not currently offer a separate residential state subsidy) but its 6.0 kWh/m²/day irradiance, which means the same system generates 20–35% more electricity than in most Indian cities. Three DISCOMs (JVVNL, AVVNL, JdVVNL) handle net metering through their divisional offices, with timelines of 60–100 days depending on location.
+> **Rajasthan's solar subsidy in 2026 is led by PM Surya Ghar's ₹78,000 maximum for a 3 kW system.** The state's unique advantage is not a cash top-up (Rajasthan does not currently offer a separate residential state subsidy) but its 6.0 kWh/m²/day irradiance, which means the same system generates 20–35% more electricity than in most Indian cities. Three DISCOMs (JVVNL, AVVNL, JdVVNL) handle [net metering](https://quickestimate.co/blog/jvvnl-net-metering-guide) through their divisional offices, with timelines of 60–100 days depending on location.
 
 Understanding which of Rajasthan's three DISCOMs serves your address and knowing the RRECL framework are the first steps. The [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the national scheme; this post provides the Rajasthan-specific layer.
 

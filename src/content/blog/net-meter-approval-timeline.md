@@ -33,24 +33,24 @@ faqs:
 featured: false
 ---
 
-You paid the vendor, the panels are on the roof, and the inverter is blinking on the wall. Yet your electricity bill has not changed. The reason is sitting in a file at your DISCOM office: the net meter approval. Solar net meter approval time is the single biggest gap between "system installed" and "money saved" for Indian homeowners in 2026. It is also the stage nobody budgets for.
+You paid the vendor, the panels are on the roof, and the inverter is blinking on the wall. Yet your electricity bill has not changed. The reason is sitting in a file at your [DISCOM](/glossary/discom/) office: the net meter approval. Solar net meter [approval time](https://quickestimate.co/blog/discom-approval-time-benchmark) is the single biggest gap between "system installed" and "money saved" for Indian homeowners in 2026. It is also the stage nobody budgets for.
 
-The official picture looks tidy. Regulations in most states promise feasibility approval in 7 to 15 days and meter installation within 15 days of the work completion report. The actual picture, measured across thousands of PM Surya Ghar files, is different. Approvals range from 20 days in Gujarat to 90 days or more in parts of Uttar Pradesh, Bihar, and Rajasthan. The difference is rarely the regulation. It is documentation errors, load enhancement requests, meter stock shortages, and files that sit unattended because nobody followed up.
+The official picture looks tidy. Regulations in most states promise feasibility approval in 7 to 15 days and meter installation within 15 days of the work completion report. The actual picture, measured across thousands of [PM Surya Ghar](/glossary/pm-surya-ghar/) files, is different. Approvals range from 20 days in Gujarat to 90 days or more in parts of Uttar Pradesh, Bihar, and Rajasthan. The difference is rarely the regulation. It is documentation errors, load enhancement requests, meter stock shortages, and files that sit unattended because nobody followed up.
 
 This guide lays out both versions honestly. You will see the official timelines by major DISCOM and the actual timelines homeowners experience. It also covers the four stages where applications stall, the exact documents that cause delays, and the escalation ladder from grievance cell to CGRF to ombudsman. Every step that speeds the process up is something you can do yourself, this week, without paying anyone.
 
 > **TL;DR**
 > - Official net meter approval takes 15 to 60 days end to end. Gujarat closes most files in about 20 days, while UP and MP often run 60 to 90 days.
 > - The Electricity (Rights of Consumers) Rules, 2020 give DISCOMs 15 days for post-installation metering steps, according to the CEEW state rooftop solar review (2022).
-> - Madhya Pradesh deems your application accepted if feasibility is not processed within 15 days, according to MPERC net metering regulations (2024).
+> - Madhya Pradesh deems your application accepted if feasibility is not processed within 15 days, according to MPERC [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) regulations (2024).
 > - The three biggest delay causes are name mismatches across Aadhaar, bill, and bank account, pending load enhancement, and bidirectional meter stock shortages.
 > - About 70 percent of Rajasthan applicants needed load enhancement, which delayed approvals by months, according to Down To Earth (2024).
 > - Escalation ladder: 1912 helpline or internal grievance cell, then CGRF (free, mandated by the Electricity Act, 2003), then the state electricity ombudsman.
-> - Subsidy under PM Surya Ghar is released only after the DISCOM uploads the commissioning certificate, so every approval day is a subsidy day lost.
+> - Subsidy under [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) is released only after the DISCOM uploads the commissioning certificate, so every approval day is a subsidy day lost.
 
 **Short version.** Solar net meter approval in India officially takes 15 to 60 days. That breaks down to 7 to 15 days for feasibility, then 15 days for meter installation after your work completion report. In practice, well-run DISCOMs in Gujarat finish in about 20 days. UP, Bihar, and MP can take 60 to 90 days when load enhancement or meter stock issues intervene. Submit complete documents, follow up in writing every 15 days, and escalate to the CGRF after 30 days of silence.
 
-If you are still upstream of this, the [net metering complete guide for India](/blog/net-metering-india-complete-guide/) covers the mechanics of net metering itself. It explains how billing and export credits work. This post focuses on one question: how long approval takes, and how to make it take less.
+If you are still upstream of this, the [net metering complete guide for India](/blog/net-metering-india-complete-guide/) covers the mechanics of [net metering](https://www.heavengreenenergy.com/blog/solar-net-metering) itself. It explains how billing and export credits work. This post focuses on one question: how long approval takes, and how to make it take less.
 
 ## Official Timelines vs What Actually Happens
 

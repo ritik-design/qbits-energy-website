@@ -36,7 +36,7 @@ faqs:
 घर में solar panel लगवाना एक बड़ा decision है (₹1-2 lakh investment, 25 साल का commitment। लेकिन process को समझ लें तो यह बिल्कुल manageable है। इस guide में घर में solar panel लगवाने का पूरा process है) शुरू से अंत तक, हर step detail में।
 
 > **TL;DR**
-> - Ghar mein solar lagwane ke 7 steps hain: site check, system sizing, PM Surya Ghar application, vendor selection, installation, net metering, subsidy receipt
+> - Ghar mein solar lagwane ke 7 steps hain: site check, system sizing, [PM Surya Ghar application](https://quickestimate.co/blog/pm-surya-ghar-application-process), vendor selection, installation, [net metering](https://quickestimate.co/blog/net-metering-hindi-mein), subsidy receipt
 > - Physical installation sirf 1-3 din ka kaam hai, lekin poora process (application se subsidy tak) 2-4 mahine leta hai
 > - 3 kW system ki gross cost ₹1.5-2.2 lakh hai, subsidy ke baad net cost ₹72,000-1.07 lakh reh jaati hai
 > - South-facing roof best generation deta hai, north-facing roof mein 30-40% kam generation hota hai
@@ -325,6 +325,10 @@ According to [Mercom India's solar performance tracking data](https://www.mercom
 - Large roof area often available, good for 5-10 kW systems
 
 [Solar inverter for factory guide](/blog/solar-inverter-for-factory/) and [solar for shop guide](/blog/solar-inverter-for-shop/) cover commercial installation specifics in detail.
+
+Sahi dealer kaise chunein, iske liye padhein [solar installation kahan se karaye](/blog/solar-installation-kahan-se-karaye/).
+
+Poora kharcha ka breakdown [solar panel lagane ka kharcha](/blog/solar-panel-lagane-ka-kharcha/) mein diya hai.
 
 ## Cost Calculator: 1 BHK to 5 BHK
 

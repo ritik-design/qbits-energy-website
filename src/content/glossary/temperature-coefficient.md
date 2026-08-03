@@ -195,6 +195,13 @@ Temperature coefficient measures power loss per degree of cell temperature rise 
 
 QBits Energy provides yield modelling accounting for module temperature coefficients and Indian summer conditions for residential, C&I and utility solar.
 
+## Further reading
+
+For how Temperature Coefficient plays out in real projects, these guides go deeper:
+
+- [String Voltage vs MPPT Voltage: Inverter Guide](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/)
+- [Solar Inverter Derating in Indian Summer, Explained](/blog/solar-inverter-summer-derating-india/)
+
 ## Sources
 
 - IEC 61853, Module performance measurement.

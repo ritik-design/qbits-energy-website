@@ -38,9 +38,9 @@ Cold storage is one of the most demanding industrial solar installations in Indi
 Get the solar system design right, and a cold storage facility sees some of the best ROI in commercial solar - ₹8–12 per unit electricity bills dropping dramatically for a load that runs constantly. Get it wrong, and you face nuisance tripping, compressor damage, and spoiled inventory.
 
 > **TL;DR**
-> - A 40 kW cold storage facility needs a 30–50 kW 3-phase solar system, sized for compressor startup surges of 6–8× nameplate current on direct-on-line starts.
+> - A 40 kW [cold storage](https://www.heavengreenenergy.com/blog/solar-for-cold-storage-roi) facility needs a 30–50 kW 3-phase solar system, sized for compressor startup surges of 6–8× nameplate current on direct-on-line starts.
 > - The inverter output must hold THD below 5% (below 3% is safer) to avoid interacting with the harmonics that VFD-driven compressors generate.
-> - Battery backup of at least 4 hours is strongly recommended for critical cold rooms, since even a brief outage can spoil temperature-sensitive inventory.
+> - Battery backup of at least 4 hours is strongly recommended for critical [cold](/blog/solar-for-ice-factory-cold-chain/) rooms, since even a brief outage can spoil temperature-sensitive inventory.
 > - A single-phase inverter cannot serve a cold storage facility; compressors, fans, and pumps all run on 3-phase motors.
 > - A 50 kW system typically pays back in about 4 years, saving roughly ₹7.5 Lakh a year in electricity for a ₹30 Lakh investment.
 > - Qbits 3-phase commercial inverters ship with IP66 enclosures, VFD-compatible output under 3% THD, and a 12-year full replacement warranty.

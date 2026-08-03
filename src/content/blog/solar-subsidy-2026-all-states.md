@@ -34,17 +34,17 @@ faqs:
 featured: false
 ---
 
-Two homeowners in neighbouring states buy the identical 3 kW rooftop system in the same week, from installers quoting within ₹4,000 of each other. One ends up ₹78,000 lighter on net cost. The other ends up ₹1,08,000 lighter. Nothing about the hardware explains the gap. The difference is entirely the state top-up sitting on top of the central subsidy, and whether that state's nodal agency still had budget left in the quarter. This is the least understood part of Indian rooftop solar economics, and it is the part that changes fastest. Below is a reference table for the major states, along with the eligibility rules, the ALMM and DCR requirements, the new Give It Up route, disbursement timelines, and the rejection reasons we see most often in the field.
+Two homeowners in neighbouring states buy the identical 3 kW rooftop system in the same week, from installers quoting within ₹4,000 of each other. One ends up ₹78,000 lighter on net cost. The other ends up ₹1,08,000 lighter. Nothing about the hardware explains the gap. The difference is entirely the state top-up sitting on top of the [central subsidy](https://www.heavengreenenergy.com/glossary/state-vs-central-subsidy), and whether that state's nodal agency still had budget left in the quarter. This is the least understood part of Indian rooftop solar economics, and it is the part that changes fastest. Below is a reference table for the major states, along with the eligibility rules, the ALMM and DCR requirements, the new Give It Up route, disbursement timelines, and the rejection reasons we see most often in the field.
 
-> **Read this first.** State subsidy schemes are re-budgeted every financial year and several are capped by installation count, not by date. Figures below marked "confirm with agency" are ones we could not verify to a current official source at the time of writing, and we have deliberately left them blank rather than guess. Verify your state's live number with the state nodal agency before you sign anything.
+> **Read this first.** [State subsidy](https://www.heavengreenenergy.com/blog/suryaghar-vs-state-subsidy-stack) schemes are re-budgeted every financial year and several are capped by installation count, not by date. Figures below marked "confirm with agency" are ones we could not verify to a current official source at the time of writing, and we have deliberately left them blank rather than guess. Verify your state's live number with the state nodal agency before you sign anything.
 
 > **TL;DR**
-> - Central CFA under PM Surya Ghar is ₹30,000/kW for the first 2 kW plus ₹18,000 for the third kW, hard capped at ₹78,000 for a 3 kW residential system.
+> - Central CFA under [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) is ₹30,000/kW for the first 2 kW plus ₹18,000 for the third kW, hard capped at ₹78,000 for a 3 kW residential system.
 > - A 5 kW or 10 kW home system still gets ₹78,000 from the centre, so the marginal kW past 3 kW is fully self-funded.
 > - Roughly 14 states report an additional top-up and around 22 run central-only, so in most of India the ₹78,000 is the whole story.
 > - Where a top-up exists: Uttar Pradesh ₹15,000/kW capped at ₹30,000, Gujarat a reported ₹10,000/kW under Surya Gujarat, Rajasthan a reported ₹17,000, and Delhi both a capital subsidy of ₹2,000/kW capped at ₹10,000 and a generation-based incentive of ₹3 per unit up to 3 kW or ₹2 per unit above, for five years.
 > - Every state figure below is reported from secondary sources and re-budgeted annually, so confirm the live number with your nodal agency before quoting it to a customer.
-> - The central subsidy is paid by Direct Benefit Transfer only after DISCOM commissioning and net meter recording, typically 30 to 45 days for clean files.
+> - The central subsidy is paid by Direct Benefit Transfer only after [DISCOM](/glossary/discom/) commissioning and net meter recording, typically 30 to 45 days for clean files.
 > - Non-DCR modules are now permitted for households that formally forgo the subsidy, for commissioning up to 31 March 2027.
 
 **Short version.** In 2026 every Indian state receives the same central rooftop solar subsidy: ₹30,000 per kW for the first two kilowatts and ₹18,000 for the third, capped at ₹78,000 at 3 kW, paid by DBT after DISCOM commissioning. State top-ups vary from nothing in most states to a reported ₹30,000 in Uttar Pradesh, are administered by state renewable energy agencies, and are re-budgeted annually. Confirm your state's live figure before quoting.
@@ -199,6 +199,8 @@ The marginal kilowatt past 3 kW pays back on tariff alone, not on subsidy. In hi
 <a href="/residential-solution/" class="cta-btn">See Residential Solutions <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Built around Indian grid conditions, not imported reference designs.</p>
 </div>
+
+Gujarat runs its own scheme on top, detailed in [the Surya Gujarat scheme guide](/blog/surya-gujarat-scheme-guide/).
 
 ## The bottom line
 

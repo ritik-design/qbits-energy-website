@@ -35,17 +35,17 @@ faqs:
 
 KUSUM Yojana [MNRE](/glossary/mnre/) की India के किसानों के लिए सबसे बड़ी solar subsidy scheme है (लेकिन इसकी जानकारी शहरी लोगों की तरह widespread नहीं है। किसान जो diesel pump पर हज़ारों रुपए महीने खर्च करते हैं, वो KUSUM के through solar pump install करके उसे permanently eliminate कर सकते हैं) 60% subsidy के साथ। इस guide में पूरी जानकारी है।
 
-> **एक line में जवाब।** KUSUM Yojana किसानों को solar pump subsidy देती है - 60% (30% central + 30% state)। तीन components हैं: land lease (A), standalone solar pump (B), और grid-connected pump solarisation (C)। PM Surya Ghar homeowners के लिए है; KUSUM farmers के लिए।
+> **एक line में जवाब।** KUSUM Yojana किसानों को solar pump subsidy देती है - 60% (30% central + 30% state)। तीन components हैं: land lease (A), standalone solar pump (B), और grid-connected pump solarisation (C)। [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) homeowners के लिए है; KUSUM farmers के लिए।
 
 > **TL;DR**
-> - KUSUM Yojana ke teen components hain: Component A (barren land par solar plant), Component B (off-grid standalone solar pump), aur Component C (grid-connected pump ka solarisation).
+> - KUSUM Yojana ke teen components hain: Component A (barren land par solar plant), [Component B](https://www.heavengreenenergy.com/blog/kusum-component-b-application-guide) (off-grid standalone solar pump), aur Component C (grid-connected pump ka solarisation).
 > - Component B mein farmer sirf 40% khud pay karta hai (60% subsidy - 30% central + 30% state), kuch states mein state top-up se yeh 20-25% tak kam ho jaata hai.
 > - ALMM-listed panels aur inverters/pump controllers har component ke liye mandatory hain, warna subsidy release nahi hoti.
 > - KUSUM ke liye koi single national portal nahi hai - application state nodal agency (RREC, MEDA, GEDA, UPNEDA, PEDA) ke through hoti hai.
 > - PM Surya Ghar aur KUSUM alag schemes hain - ek hi farmer household dono ka fayda ek saath le sakta hai (ghar ke liye Surya Ghar, khet ke liye KUSUM).
 > - Component B ka payback typically 1-2 saal mein aata hai, diesel cost completely eliminate hone ki wajah se.
 
-According to [MNRE KUSUM portal](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2025 तक 2 lakh+ standalone solar pumps KUSUM Component B के under install हो चुके हैं। Target 3.5 million farmers तक scheme पहुँचाना है। अभी scheme active है और applications open हैं।
+According to [MNRE KUSUM portal](https://mnre.gov.in/){target="_blank" rel="noopener"}, 2025 तक 2 lakh+ standalone solar pumps [KUSUM Component](https://www.heavengreenenergy.com/blog/kusum-component-c-grid-tied-pump) B के under install हो चुके हैं। Target 3.5 million farmers तक scheme पहुँचाना है। अभी scheme active है और applications open हैं।
 
 ## KUSUM Yojana Kya Hai: Three Components
 

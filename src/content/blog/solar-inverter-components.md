@@ -33,7 +33,7 @@ An inverter is only as reliable as its weakest component. Poor-quality parts cau
 > - Capacitor failure from heat stress is the #1 cause of inverter failure; premium 105°C Japanese capacitors outlast 85°C standard units, since lifespan halves every 10°C rise.
 > - Premium IGBT brands (Infineon, Mitsubishi Electric, Fuji Electric, Semikron) cut switching losses and heat generation versus generic alternatives.
 > - Multi-layer PCBs (4–6 layers) with conformal coating resist humidity and corrosion far better than single/double-layer boards.
-> - Integrated surge protection devices rated 20–40 kA are essential for India's unstable grid; 10 kA units are inadequate.
+> - Integrated [surge protection](https://www.surgepv.com/blog/surge-protection-device-solar-pv) devices rated 20–40 kA are essential for India's unstable grid; 10 kA units are inadequate.
 > - Over 25 years on a 100 kW commercial system, budget inverters cost ₹16–22 lakhs versus ₹6.5–11 lakhs for premium German-grade units, a savings of ₹9–11 lakhs.
 
 ## Why Component Quality Matters

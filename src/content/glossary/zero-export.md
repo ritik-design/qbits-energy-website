@@ -248,6 +248,15 @@ Zero export is the inverter control mode for installations that cannot or do not
 
 QBits Energy supplies zero export ready inverter and meter packages for C&I customers in DISCOM areas that restrict net metering across India.
 
+## Further reading
+
+For how Zero Export plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Payback Period: ROI Guide 2026](/blog/solar-inverter-payback-period-in-india/)
+- [On-Grid vs Hybrid Solar Inverters: ROI Guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/)
+- [Solar Inverter for Power-Cut Backup, UP, Bihar, MH](/blog/solar-inverter-power-cut-backup/)
+- [50 kW Solar at a Bangalore Multi-Specialty Hospital](/blog/case-study-bangalore-hospital/)
+
 ## Sources
 
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.

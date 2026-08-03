@@ -177,6 +177,8 @@ Before selecting an inverter based on its AI monitoring claims, verify these poi
 
 For a deeper look at how monitoring fits into the broader inverter specification process, the [how-to-choose guide for Indian homeowners](/blog/how-to-choose-solar-inverter-for-home-india/) covers the full selection criteria alongside monitoring, warranty, and grid compatibility.
 
+Elsewhere in the Heaven Group network, see [inverter string sizing maths](https://heavendesigns.in/blog/string-sizing-solar-inverters-math) and [how to choose the right solar inverter](https://www.heavengreenenergy.com/blog/how-to-choose-the-right-solar-inverter).
+
 ## AI Solar Inverters in India: The Broader Context
 
 India's rooftop solar capacity crossed 15 GWp in early 2026, with the [PM Surya Ghar](/glossary/pm-surya-ghar/) scheme driving rapid residential adoption. [Source: MNRE, Rooftop Solar Programme Dashboard, mnre.gov.in](https://mnre.gov.in/) As the installed base grows, the challenge of maintaining performance across millions of dispersed residential installations becomes acute. Manual inspection regimes that worked for a few thousand commercial installations cannot scale to ten million rooftops.

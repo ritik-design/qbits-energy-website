@@ -37,14 +37,14 @@ Every month, finance managers at Indian factories, hospitals, and commercial bui
 
 > **TL;DR**
 > - LCOE for a 50 kW C&I rooftop plant in India works out to about ₹2.5–3.5/kWh, versus a grid tariff of ₹7–12/kWh and diesel at ₹18–25/kWh.
-> - Accelerated depreciation under Section 32 cuts effective LCOE by roughly 10–15%, from ₹2.75/kWh to ₹2.48/kWh in the worked example.
+> - [Accelerated depreciation](https://www.heavengreenenergy.com/blog/accelerated-depreciation-solar) under Section 32 cuts effective LCOE by roughly 10–15%, from ₹2.75/kWh to ₹2.48/kWh in the worked example.
 > - LCOE becomes a banking requirement once a project needs a term loan, crosses roughly ₹50–75 lakh in CAPEX, or applies for open access status.
 > - Using flat annual generation instead of a degradation-adjusted series is the most common modelling error, overstating lifetime output by 6–8%.
 > - A 12-year full-replacement inverter warranty removes the mid-life replacement provision from the DSCR model, directly strengthening project bankability.
 
 > **Direct answer.** The LCOE of solar in India for a 50 kW C&I rooftop installation is ₹2.5–3.5/kWh, calculated as total discounted lifetime cost (CAPEX + O&M) divided by total discounted lifetime generation (91,250 kWh in Year 1, declining 0.5%/year over 25 years, at an 8–10% discount rate). This is two to four times cheaper than the commercial grid tariff and five to eight times cheaper than diesel generation. The C&I LCOE Calculator (6 Inputs, One Number) gives any CFO or CA a defensible figure in under 30 minutes.
 
-This post walks through the complete LCOE formula, real numbers for a 50 kWp commercial plant, the accelerated depreciation adjustment that most finance managers miss, a full sensitivity analysis table, and the conditions under which LCOE analysis becomes a banking requirement rather than an optional exercise. Many of these facilities eventually hand the build itself to a commercial solar installation partner once the LCOE case is approved.
+This post walks through the complete LCOE formula, real numbers for a 50 kWp commercial plant, the [accelerated depreciation](https://www.heavengreenenergy.com/blog/accelerated-depreciation-25-percent-vs-40-percent) adjustment that most finance managers miss, a full sensitivity analysis table, and the conditions under which LCOE analysis becomes a banking requirement rather than an optional exercise. Many of these facilities eventually hand the build itself to a commercial solar installation partner once the LCOE case is approved.
 
 ## What LCOE Means: The Formula Explained
 

@@ -41,7 +41,7 @@ The inverter is not broken. It is doing exactly what its firmware tells it to do
 
 > **TL;DR**
 > - Indian feeders swing across a 180–270V AC range, wider than the 195–253V window most imported inverter firmware is calibrated for.
-> - Five conditions break generic firmware: wide voltage excursions, aggressive anti-islanding false trips, industrial harmonic loads, frequent DISCOM feeder interruptions, and monsoon surge events.
+> - Five conditions break generic firmware: wide voltage excursions, aggressive [anti-islanding](/glossary/anti-islanding/) false trips, industrial harmonic loads, frequent DISCOM feeder interruptions, and monsoon surge events.
 > - A 50-system EPC portfolio can lose roughly ₹2.9 Lakh a year in generation revenue from nuisance trips alone on weak-grid feeders.
 > - BIS IS 16169 and the CEA Technical Standards for Connectivity of Distributed Generation Resources set the compliance floor; India-grid-tuned firmware is engineered to perform confidently above it.
 > - Qbits TLS, TLD, HS, and HT series ship with India-grid-tuned firmware validated for 180–270V and the 49.5–50.5 Hz normal band, backed by a 12-year full replacement warranty.

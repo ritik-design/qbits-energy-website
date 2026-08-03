@@ -3,8 +3,8 @@ title: "Best Solar Software Poland: The Complete 2026 Stack"
 excerpt: "RCEm moved 40 percent in one month. Polish software that treats the export rate as a constant is building quotes on a number that will not hold."
 description: "Best solar software Poland 2026: the full stack for design, proposals, CRM and compliance. Net billing, RCEm volatility, Mój Prąd storage weighting, self-consumption modelling and 8% VAT."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-poland.svg"
 author: "Nirav Dhanani"
@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-Polish solar software has to price two different kinds of kilowatt-hour. Since net billing replaced net metering on 1 April 2022, exports settle at the RCEm market reference rate while imports are bought at retail, and the gap between those numbers is the entire design problem. In May 2026 RCEm was 191.37 PLN per MWh, roughly 0.19 PLN per kWh. The month before it was 132.92, the lowest since the mechanism began. So the export side of the equation is both low and volatile, while the self-consumption side is high and stable. A tool that reports one annual generation figure cannot express any of that. This guide covers what the Polish stack has to do.
+Polish solar software has to price two different kinds of kilowatt-hour. Since net billing replaced [net metering](/glossary/net-metering/) on 1 April 2022, exports settle at the RCEm market reference rate while imports are bought at retail, and the gap between those numbers is the entire design problem. In May 2026 RCEm was 191.37 PLN per MWh, roughly 0.19 PLN per kWh. The month before it was 132.92, the lowest since the mechanism began. So the export side of the equation is both low and volatile, while the self-consumption side is high and stable. A tool that reports one annual generation figure cannot express any of that. This guide covers what the Polish stack has to do.
 
 > **TL;DR**
 > - Net billing has applied since 1 April 2022, with exports settled at RCEm rather than banked.

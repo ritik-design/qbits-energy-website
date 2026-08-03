@@ -40,7 +40,7 @@ Here is the unvarnished truth: with the right subsidy, a ₹1 lakh budget buys a
 > **Direct answer.** Under ₹1 lakh (net cost after PM Surya Ghar subsidy) buys a 1kW system for ₹35,000–₹55,000 or a 2kW system for ₹40,000–₹70,000. Apply the **₹1 Lakh Solar Budget Checklist** to every quote you receive: ALMM compliance, certified panels, full BOS scope, GST invoice, and empanelled installer. Anything missing from this checklist is a red flag that will cost you more than you save.
 
 > **TL;DR**
-> - ₹1 lakh net (after subsidy) buys a 1kW system (₹35,000–₹55,000) or a 2kW system (₹40,000–₹70,000); a budget 3kW system also lands near this range after the ₹78,000 subsidy.
+> - ₹1 lakh net (after subsidy) buys a 1kW system (₹35,000–₹55,000) or a 2kW system (₹40,000–₹70,000); a budget [3kW system](https://www.heavengreenenergy.com/blog/3kw-solar-system-in-india) also lands near this range after the ₹78,000 subsidy.
 > - The PM Surya Ghar subsidy is ₹30,000 for 1kW and ₹60,000 for 2kW, and is the single biggest lever on net cost.
 > - A non-ALMM inverter forfeits the entire subsidy, turning a "cheap" ₹70,000 system into an effective ₹1,30,000 one.
 > - A 2kW system pays back in roughly 2.8 to 3.9 years depending on tariff, generating 210–300 units/month.

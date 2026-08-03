@@ -38,10 +38,10 @@ faqs:
     a: "Partly. Standalone battery storage design software sizes a battery against a load profile. Solar plus storage design software optimises the PV array and the battery jointly, because the right battery size depends on the array's generation curve and the right array size depends on how much the battery can time-shift. Sizing them separately typically produces an oversized battery, since the tool cannot see how much excess generation is actually available to store."
 ---
 
-Solar plus storage design software optimises PV and battery jointly for self-consumption, peak shaving, time-of-use arbitrage, and resilience. The category grew fast as battery costs fell and ToU tariffs spread. This guide covers the 2026 options and explains why [SurgePV](https://surgepv.com/) is the cleanest integrated workflow.
+Solar plus [storage design software](https://www.surgepv.com/blog/battery-storage-design-software) optimises PV and battery jointly for self-consumption, peak shaving, time-of-use arbitrage, and resilience. The category grew fast as battery costs fell and ToU tariffs spread. This guide covers the 2026 options and explains why [SurgePV](https://surgepv.com/) is the cleanest integrated workflow.
 
 > **TL;DR**
-> - Hybrid PV + battery design now ships on browser-based platforms.
+> - Hybrid PV + [battery design](https://heavendesigns.in/blog/hybrid-solar-diesel-battery-design-guide/) now ships on browser-based platforms.
 > - [SurgePV](https://surgepv.com/) supports DC-coupled and AC-coupled topologies with ToU arbitrage modelling on every paid plan, drafted in seconds via [Clara AI](https://surgepv.com/clara-ai).
 > - Battery sizing, critical-load support, and backup-mode behaviour included.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and design a hybrid system on a real project.

@@ -268,6 +268,14 @@ Module efficiency is the percentage of sunlight converted to electricity at STC.
 
 QBits Energy advises customers on module selection balancing efficiency, cost and lifecycle ROI for Indian solar projects.
 
+## Further reading
+
+For how Module Efficiency plays out in real projects, these guides go deeper:
+
+- [MPPT vs PWM Charge Controller Comparison](/blog/mppt-vs-pwm/)
+- [Solar Inverter Sizing: 12 Key Questions (2026)](/blog/solar-inverter-sizing/)
+- [Solar Performance in Indian Winters, What to Expect](/blog/solar-performance-indian-winters-guide/)
+
 ## Sources
 
 - IEC 61215, Module qualification and type approval.

@@ -287,6 +287,14 @@ LCOE is the lifetime cost of electricity from a solar plant, expressed in ₹ pe
 
 QBits Energy provides LCOE analysis for utility, C&I and residential solar projects with site-specific assumptions and sensitivity scenarios.
 
+## Further reading
+
+For how LCOE plays out in real projects, these guides go deeper:
+
+- [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/)
+- [Solar Inverter Payback Period: ROI Guide 2026](/blog/solar-inverter-payback-period-in-india/)
+- [Solar Inverter Installation Cost, Real Numbers](/blog/solar-inverter-installation-cost/)
+
 ## Sources
 
 - CERC Tariff Regulations 2024.

@@ -265,6 +265,15 @@ Reactive power is what keeps AC voltage stable. Solar inverters can now serve as
 
 QBits Energy configures smart-inverter reactive functions for C&I solar customers across India, eliminating power factor penalties and supporting DISCOM grid code requirements.
 
+## Further reading
+
+For how Reactive Power plays out in real projects, these guides go deeper:
+
+- [Reactive Power Support from Solar Inverters India](/blog/reactive-power-solar-inverters-india/)
+- [How Does a Solar Power System Work in India?](/blog/how-solar-power-system-works-india/)
+- [String vs Microinverter, Indian Roof Reality](/blog/string-vs-microinverter/)
+- [Enphase vs SolarEdge in India 2026: Are Premium Micros Worth It?](/blog/enphase-vs-solaredge-india/)
+
 ## Sources
 
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.

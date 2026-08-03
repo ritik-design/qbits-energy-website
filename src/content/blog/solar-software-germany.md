@@ -3,8 +3,8 @@ title: "Best Solar Software Germany: The Complete 2026 Stack"
 excerpt: "German solar software is still mostly desktop, mostly named-user, and mostly built around local project files. That made sense once. It does not scale a team."
 description: "Best solar software Germany 2026: the full stack for design, proposals, CRM, compliance and monitoring. VDE-AR-N 4105, DIN VDE 0100-712, EEG 2023 tariffs and Mieterstrom modelling."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-germany.svg"
 author: "Nirav Dhanani"

@@ -206,6 +206,15 @@ Deep discharge below recommended DOD severely reduces battery cycle life and may
 
 QBits Energy designs solar storage with appropriate DOD limits for chemistry and application, optimising cycle life across Indian residential, C&I and microgrid applications.
 
+## Further reading
+
+For how Deep Discharge plays out in real projects, these guides go deeper:
+
+- [Best Solar Battery Brands in India 2026](/blog/best-solar-battery-brands-india-2026/)
+- [Solar Battery Price Guide India 2026](/blog/solar-battery-price-guide-india-2026/)
+- [LiFePO4 vs NMC Battery for Solar in India](/blog/lifepo4-vs-nmc-solar-battery-india/)
+- [How Long Do Solar Batteries Last in India?](/blog/how-long-solar-batteries-last-india/)
+
 ## Sources
 
 - IEC 61960, Cell performance.

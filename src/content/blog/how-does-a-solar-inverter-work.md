@@ -260,6 +260,8 @@ The output quality dimension (total harmonic distortion (THD) and power factor) 
 
 For a complete walkthrough of every datasheet parameter, the [solar inverter specifications decoded](/blog/solar-inverter-specifications-decoded/) article provides a line-by-line explanation with recommended target values for Indian conditions.
 
+Elsewhere in the Heaven Group network, see [how to choose the right solar inverter](https://www.heavengreenenergy.com/blog/how-to-choose-the-right-solar-inverter) and [string sizing maths](https://heavendesigns.in/blog/string-sizing-solar-inverters-math).
+
 ## Where Qbits Fits
 
 Homeowners and businesses who understand how a solar inverter works (who have read the 5-Stage DC-to-AC Conversion Chain, understood what MPPT does, and looked at what India's 180–270 V grid requires) arrive at a shorter list of inverter criteria: wide voltage acceptance, real MPPT performance, high weighted efficiency, IP66 weather protection, and a warranty long enough to cover the inverter's entire useful life.

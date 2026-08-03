@@ -31,7 +31,7 @@ faqs:
     a: "When your router SSID or password changes, the inverter loses its WiFi connection and cannot auto-update credentials. You must re-pair the inverter: reset the WiFi dongle using the pinhole reset, connect your phone to the inverter's temporary access-point network, open the monitoring app, and enter the new router credentials. The inverter stores only one WiFi profile at a time. Some brands allow credential updates via the inverter's LCD menu without a full dongle reset - check your model's manual."
 ---
 
-You checked your solar monitoring app this morning and found the inverter offline, no generation data, no alerts, and a WiFi icon with a red cross on the inverter's LCD display. You know the sun is shining and the panels are presumably working, but you are flying blind without the monitoring connection.
+You checked your solar monitoring app this morning and found the inverter offline, no generation data, no alerts, and a [WiFi](/blog/wifi-solar-inverter-guide/) icon with a red cross on the inverter's LCD display. You know the sun is shining and the panels are presumably working, but you are flying blind without the monitoring connection.
 
 WiFi connectivity issues are the most common service query Qbits receives from new system owners, and the overwhelming majority resolve within 10 minutes once the root cause is identified. This guide walks through every step in the correct diagnostic order so you do not waste time on the wrong fix.
 
@@ -148,6 +148,8 @@ If all previous steps fail, a full factory reset of the inverter's communication
 - The WiFi dongle LED shows no activity (may indicate a failed dongle requiring replacement)
 - The inverter itself shows a communication fault code (e.g., "ModBus Error," "ComFault")
 - You are not comfortable accessing router admin panels or performing resets
+
+Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included) and [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation).
 
 ## Where Qbits Fits
 

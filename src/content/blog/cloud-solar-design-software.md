@@ -41,7 +41,7 @@ faqs:
 Cloud [solar design software](/blog/solar-design-software/) replaced the desktop install model over the last 5 years for most production solar work. Browser-first workflows, cross-platform access, and real-time team collaboration changed how solar teams ship projects. This guide explains why and which platforms lead in 2026. For a feature-by-feature look at the leading browser-based tools, see our [online solar design tool comparison](/blog/online-solar-design-tool/).
 
 > **TL;DR**
-> - Cloud solar design software runs in the browser on any modern device.
+> - Cloud solar [design software](https://www.surgepv.com/blog/online-solar-pv-design-software-for-quick-system-planning) runs in the browser on any modern device.
 > - [SurgePV](https://surgepv.com/) leads with AI 3D from satellite, 8,760-hour shading, and integrated proposals.
 > - Bankable simulation methodology matches desktop tools like PVsyst.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and try the cloud workflow on a real project.

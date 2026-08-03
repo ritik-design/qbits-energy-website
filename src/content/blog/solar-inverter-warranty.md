@@ -282,6 +282,8 @@ The following mistakes are responsible for the majority of warranty claim denial
 
 For a broader evaluation framework covering reliability as well as warranty, the [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) post provides a structured approach.
 
+Elsewhere in the Heaven Group network, see [how to file a solar warranty claim](https://www.heavengreenenergy.com/blog/how-to-file-solar-warranty-claim) and [what a replacement costs](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost).
+
 ## Where Qbits Fits
 
 Homeowners who want a warranty that functions the way it is advertised (full unit replacement, 72-hour dispatch, starting from commissioning date, transferable, India-grid-rated) land on Qbits. The 12-year full replacement warranty is not a marketing claim with five pages of exclusions; it is a commitment backed by an [IEC and BIS certified](/blog/solar-inverter-certifications/) inverter line designed to operate on Indian grids from 180 V to 270 V, which means the most common grounds for warranty denial across the industry do not apply.

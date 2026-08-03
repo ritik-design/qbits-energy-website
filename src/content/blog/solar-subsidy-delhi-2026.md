@@ -36,12 +36,12 @@ faqs:
 featured: false
 ---
 
-Delhi homeowners asking about solar in 2026 face a city-specific puzzle: three different DISCOMs serve different parts of the capital, the state adds its own layer of incentives, apartment and flat installations require RWA approvals that can take months, and the net metering process has more steps than most other states. The financial upside is real (a 3 kW system can attract ₹78,000 or more in central subsidies) but only if you understand the full process across BSES Rajdhani, BSES Yamuna, and TPDDL before you sign a vendor contract.
+Delhi homeowners asking about solar in 2026 face a city-specific puzzle: three different DISCOMs serve different parts of the capital, the state adds its own layer of incentives, apartment and flat installations require RWA approvals that can take months, and the [net metering](https://heavendesigns.in/blog/delhi-solar-net-metering-guide/) process has more steps than most other states. The financial upside is real (a 3 kW system can attract ₹78,000 or more in central subsidies) but only if you understand the full process across [BSES Rajdhani](https://quickestimate.co/blog/bses-rajdhani-net-metering-guide), BSES Yamuna, and TPDDL before you sign a vendor contract.
 
-This guide walks through every layer of the Delhi solar subsidy stack: the central PM Surya Ghar scheme, the Delhi state top-up, the DISCOM-specific net metering steps, the flat/apartment rules that trip up most urban applicants, and a worked example from a homeowner in south Delhi.
+This guide walks through every layer of the Delhi solar subsidy stack: the central PM Surya Ghar scheme, the Delhi state top-up, the DISCOM-specific [net metering](https://heavendesigns.in/blog/apepdcl-solar-net-metering-guide/) steps, the flat/apartment rules that trip up most urban applicants, and a worked example from a homeowner in south Delhi.
 
 > **TL;DR**
-> - Delhi stacks the central PM Surya Ghar subsidy (up to ₹78,000 for 3 kW) with a reported state top-up of approximately ₹2,000/kW, verify current status at derc.gov.in.
+> - Delhi stacks the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) (up to ₹78,000 for 3 kW) with a reported state top-up of approximately ₹2,000/kW, verify current status at derc.gov.in.
 > - Three DISCOMs serve Delhi, BSES Rajdhani (south/west), BSES Yamuna (east/central), and TPDDL (north/north-west), and your application routes through whichever one bills your address.
 > - Apartment installations need a signed RWA no-objection certificate and, for buildings older than 1990, a structural load assessment before the DISCOM will process feasibility.
 > - Realistic end-to-end timeline is 90 to 120 days, with the DISCOM meter change step causing most delays.

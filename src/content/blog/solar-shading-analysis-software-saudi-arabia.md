@@ -33,17 +33,17 @@ faqs:
 featured: false
 ---
 
-Saudi solar shading analysis is governed by a number that has nothing to do with geometry. Under the Kingdom's Small-Scale Solar PV framework, surplus exported to the grid is credited at roughly 5 halalas per kWh, while commercial import tariffs run in tiers up to around 32 halalas and industrial up to around 20. That is a gap of up to six to one between what a self-consumed kilowatt-hour is worth and what an exported one is worth. A shading report that gives you one annual percentage has told you the quantity of the loss and withheld its price. This guide covers what shading analysis has to do differently in Saudi Arabia, and which tools do it.
+[Saudi](/blog/solar-software-saudi-arabia/) solar [shading analysis](https://www.surgepv.com/best-solar-software/shading-analysis) is governed by a number that has nothing to do with geometry. Under the Kingdom's Small-Scale Solar PV framework, surplus exported to the grid is credited at roughly 5 halalas per kWh, while commercial import tariffs run in tiers up to around 32 halalas and industrial up to around 20. That is a gap of up to six to one between what a self-consumed kilowatt-hour is worth and what an exported one is worth. A shading report that gives you one annual percentage has told you the quantity of the loss and withheld its price. This guide covers what shading analysis has to do differently in [Saudi Arabia](https://www.surgepv.com/best-solar-software/saudi-arabia), and which tools do it.
 
 > **TL;DR**
 > - Exports settle near 5 halalas per kWh against commercial imports up to roughly 32, so the hour a shadow falls can change its cost sixfold.
 > - Systems are sized to on-site load rather than available roof, which means shading must be assessed against a consumption profile.
 > - Measured Saudi soiling losses run around 2 to 5 percent per day, with a single sandstorm observed to cut output about 20 percent.
-> - Soiling and shading interact electrically, so stacking separate derates overstates the loss and misprices cleaning.
+> - [Soiling](/glossary/soiling/) and shading interact electrically, so stacking separate derates overstates the loss and misprices cleaning.
 > - Most Saudi rooftop shading is self-inflicted parapet and inter-row geometry, which means it can be designed out.
 > - [SurgePV](https://surgepv.com/) runs 8,760-hour module-level shading with soiling in the loss chain at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** Solar shading analysis software for Saudi projects has to run 8,760 hourly steps at module level, carry soiling in the same electrical model rather than as a flat annual derate, and price each lost kilowatt-hour against the correct side of a very wide net billing spread. In a market where a shaded kilowatt-hour can be worth 5 halalas or 32, the tariff model is not an optional extra bolted onto the shading engine. It is the part that makes the shading number mean anything.
+**Short version.** Solar [shading analysis software](https://heavendesigns.in/blog/solar-shading-analysis-software/) for Saudi projects has to run 8,760 hourly steps at module level, carry soiling in the same electrical model rather than as a flat annual derate, and price each lost kilowatt-hour against the correct side of a very wide net billing spread. In a market where a shaded kilowatt-hour can be worth 5 halalas or 32, the tariff model is not an optional extra bolted onto the shading engine. It is the part that makes the shading number mean anything.
 
 The general methodology is covered in our [solar shading analysis software](/blog/solar-shading-analysis-software/) guide, and the simulation approach in our [PV yield simulation software](/blog/pv-yield-simulation-software/) guide. This page covers what changes in the Kingdom. For the wider platform comparison see [best solar design software Saudi Arabia](/blog/solar-design-software-saudi-arabia/).
 

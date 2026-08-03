@@ -278,6 +278,15 @@ Micro inverters are the right pick for complex, shaded or aesthetically sensitiv
 
 QBits Energy installs Enphase and other ALMM-listed micro inverter systems for premium residential and small commercial projects. Reach out for a shading study and a comparison against a string-inverter alternative for your roof.
 
+## Further reading
+
+For how Micro Inverter plays out in real projects, these guides go deeper:
+
+- [String vs Microinverter, Indian Roof Reality](/blog/string-vs-microinverter/)
+- [Enphase vs SolarEdge in India 2026: Are Premium Micros Worth It?](/blog/enphase-vs-solaredge-india/)
+- [Best 3kW Solar Inverter in India 2026](/blog/best-3kw-solar-inverter-india-2026/)
+- [3kW Solar Inverter Price in India 2026 (Hindi)](/blog/3kw-solar-inverter-price-hindi/)
+
 ## Sources
 
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.

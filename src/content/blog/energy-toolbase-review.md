@@ -3,8 +3,8 @@ title: "Energy Toolbase Review 2026: Storage Economics Modelling, Assessed"
 excerpt: "An honest Energy Toolbase review for 2026. Published pricing, why its tariff and storage dispatch modelling is genuinely strong, and where it stops."
 description: "Energy Toolbase review 2026: ETB Developer pricing from $299 per user per month, a 120,000-plus utility rate database, storage dispatch economics, real limitations, and the alternatives worth testing."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/energy-toolbase-review.svg"
 author: "Akash Hirapara"
@@ -35,10 +35,10 @@ faqs:
 featured: false
 ---
 
-Most solar software arguments are about geometry. Whose roof model is more accurate, whose shading engine is faster, whose 3D view looks better in a sales meeting. Energy Toolbase sits outside that argument almost entirely, and that is the single most useful thing to understand before you evaluate it. It is an economics platform. It exists to answer the question of what a solar plus storage system is worth under a specific utility tariff, on a specific load profile, with a specific battery dispatch strategy. This review covers what Energy Toolbase costs according to its own published pricing, where its modelling is genuinely ahead of the field, where its scope stops, and who should buy it. We have judged it against what it claims to be, not against a design platform it never set out to become.
+Most solar software arguments are about geometry. Whose roof model is more accurate, whose shading engine is faster, whose 3D view looks better in a sales meeting. [Energy Toolbase](https://www.surgepv.com/compare/aurora-solar-vs-energy-toolbase) sits outside that argument almost entirely, and that is the single most useful thing to understand before you evaluate it. It is an economics platform. It exists to answer the question of what a solar plus storage system is worth under a specific utility [tariff](/glossary/tariff/), on a specific load profile, with a specific battery dispatch strategy. This review covers what [Energy Toolbase](/blog/energy-toolbase-alternative/) costs according to its own published pricing, where its modelling is genuinely ahead of the field, where its scope stops, and who should buy it. We have judged it against what it claims to be, not against a design platform it never set out to become.
 
 > **TL;DR**
-> - Energy Toolbase publishes ETB Developer pricing: $299 per user per month billed annually on the Individual plan, and $333 per user per month billed annually on the Business plan, which includes five users.
+> - [Energy Toolbase](https://www.surgepv.com/reviews/energy-toolbase) publishes ETB Developer pricing: $299 per user per month billed annually on the Individual plan, and $333 per user per month billed annually on the Business plan, which includes five users.
 > - The Individual plan is capped at 10 solar and storage proposals. Business is unlimited and adds custom tariff editing and white-labelled proposals.
 > - Its real strength is economic modelling: a rate database the company states tracks more than 120,000 verified utility rates, plus demand charge, time-of-use, and battery dispatch simulation.
 > - It is not a 3D array design platform, and does not present itself as one. Layout comes through third-party design tool integration.

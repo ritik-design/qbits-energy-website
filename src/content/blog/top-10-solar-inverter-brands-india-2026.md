@@ -408,6 +408,8 @@ Request a quote with your electricity bill and roof area at [Contact Us](/contac
 
 ---
 
+Elsewhere in the Heaven Group network, see [how to choose the right solar inverter](https://www.heavengreenenergy.com/blog/how-to-choose-the-right-solar-inverter) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
+
 ## Final Verdict: Which Solar Inverter Brand Should You Choose?
 
 The honest answer depends on which of the five axes in The 5-Axis Brand Rating matters most to you.

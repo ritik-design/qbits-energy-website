@@ -32,10 +32,10 @@ faqs:
     a: "Yes. SurgePV uses globally-available high-resolution satellite imagery providers. Coverage is excellent across the US, EU, UK, Australia, India, Japan, and most major solar markets. Some remote regions have lower image refresh rates, in which case drone capture or older imagery options are available."
 ---
 
-Satellite roof measurement for solar has matured to the point where AI 3D modelling from high-resolution imagery rivals drone capture on most rooftops. This guide covers the methodology, accuracy benchmarks, comparison with drone-based approaches, and the [SurgePV](https://surgepv.com/) workflow that ships it on every paid plan.
+Satellite [roof measurement](https://heavendesigns.in/blog/satellite-roof-measurement-solar/) for solar has matured to the point where AI 3D modelling from high-resolution imagery rivals drone capture on most rooftops. This guide covers the methodology, accuracy benchmarks, comparison with drone-based approaches, and the [SurgePV](https://surgepv.com/) workflow that ships it on every paid plan.
 
 > **TL;DR**
-> - Modern satellite imagery + AI 3D reaches within ~3% of LIDAR on most rooftops.
+> - Modern [satellite imagery](https://www.surgepv.com/blog/solar-satellite-imagery) + AI 3D reaches within ~3% of LIDAR on most rooftops.
 > - [SurgePV](https://surgepv.com/) ships [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite in under 60 seconds on every paid plan.
 > - Drone capture remains useful for complex sites and is importable.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and see satellite 3D on a real project.

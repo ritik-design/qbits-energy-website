@@ -286,6 +286,15 @@ Lead acid is the legacy chemistry for cost-sensitive solar storage. Tubular floo
 
 QBits Energy supplies both lead acid and LFP storage solutions for Indian customers, with sizing studies that match total lifecycle cost to use case.
 
+## Further reading
+
+For how Lead Acid Battery plays out in real projects, these guides go deeper:
+
+- [Lithium vs Lead-Acid Solar Battery for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/)
+- [Best Solar Battery Brands in India 2026](/blog/best-solar-battery-brands-india-2026/)
+- [How Long Do Solar Batteries Last in India?](/blog/how-long-solar-batteries-last-india/)
+- [Solar Battery Price Guide India 2026](/blog/solar-battery-price-guide-india-2026/)
+
 ## Sources
 
 - IS 13369, IS 1652, IS 1146, Bureau of Indian Standards.

@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Italy: 2026 Guide"
 excerpt: "Scambio sul Posto closed to new systems in May 2025. Any Italian proposal still modelling net metering is quoting a scheme the customer cannot join. Six tools compared."
 description: "Best solar proposal software Italy 2026. SurgePV vs Aurora, PVsyst, HelioScope on Ritiro Dedicato, the 50% Restructuring Bonus, CEI 0-21 and the end of Scambio sul Posto."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-italy.svg"
 author: "Akash Hirapara"
@@ -33,18 +33,18 @@ faqs:
 featured: false
 ---
 
-The most common error in an Italian solar proposal in 2026 is quoting a scheme that no longer accepts new entrants. Scambio sul Posto closed to systems commissioned from 29 May 2025 under ARERA resolution 78/2025/R/efr, and a great many templates, spreadsheets and imported platforms still model it. The replacement, Ritiro Dedicato, is not a variation on net metering. It is a wholesale-linked buyback at roughly 8 to 14 cents per kWh against a retail import price several times higher, which moves essentially all of the project's value into self-consumption and changes the correct system size. This guide compares the platforms Italian installers should shortlist for quoting.
+The most common error in an Italian solar proposal in 2026 is quoting a scheme that no longer accepts new entrants. Scambio sul Posto closed to systems commissioned from 29 May 2025 under ARERA resolution 78/2025/R/efr, and a great many templates, spreadsheets and imported platforms still model it. The replacement, Ritiro Dedicato, is not a variation on [net metering](/glossary/net-metering/). It is a wholesale-linked buyback at roughly 8 to 14 cents per kWh against a retail import price several times higher, which moves essentially all of the project's value into self-consumption and changes the correct system size. This guide compares the platforms Italian installers should shortlist for quoting.
 
 > **TL;DR**
 > - Scambio sul Posto is closed to systems commissioned from 29 May 2025 under ARERA resolution 78/2025/R/efr.
 > - Ritiro Dedicato is the reference mechanism: GSE buyback around 8 to 14 cents per kWh up to 1 MWp, guaranteed 20 years.
 > - Because export is now worth a fraction of retail, sizing should track the daytime load curve and storage is easier to justify.
 > - The 50% Restructuring Bonus applies to primary residences, max eligible spend EUR 96,000 per property unit, claimed across tax years and not upfront.
-> - CEI 0-21 governs low-voltage connection, CEI 0-16 medium and high voltage.
+> - CEI 0-21 governs low-voltage connection, CEI 0-16 medium and high [voltage](/glossary/voltage/).
 > - Italy's latitude range means Sicily and Lombardy need location-specific weather data, not a national average.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for Italian installers in 2026 is SurgePV, because it models Ritiro Dedicato buyback and a multi-year tax deduction correctly and generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora is built around US net metering, which Italy no longer has an equivalent to.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Italian installers in 2026 is SurgePV, because it models Ritiro Dedicato buyback and a multi-year tax deduction correctly and generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora is built around US net metering, which Italy no longer has an equivalent to.
 
 For the design-side comparison see our [best solar design software Italy](/blog/solar-design-software-italy/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
 
@@ -160,6 +160,8 @@ After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quic
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/italy" target="_blank" rel="noopener noreferrer">Italy compliance library</a></p>
 </div>
+
+A proposal tool only earns its place inside a working stack. The [wider solar software picture in Italy](/blog/solar-software-italy/) covers what sits either side of it.
 
 ## The Bottom Line
 

@@ -199,6 +199,8 @@ India's solar inverter distribution operates across several tiers:
 
 The distributor tier is where channel protection becomes critical. Brands that allow grey-market pricing (through e-commerce platforms, cross-territory deals, or unofficial importers) undercut their own distributors and create pricing chaos. Qbits' channel strategy (authorised installer network, territory protection, no e-commerce sales) protects distributor margins and therefore their incentive to provide quality after-sales service. For more on how this channel model affects buyer outcomes, see [how to find reliable inverter dealers in India](/blog/inverter-suppliers-india/).
 
+Elsewhere in the Heaven Group network, see [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices) and [top panel manufacturers compared](https://www.heavengreenenergy.com/blog/solar-brands-gujarat-top-panel-manufacturers-compared).
+
 ## Where Qbits Fits
 
 Qbits occupies a specific position in India's inverter market: a domestic ALMM-listed brand competing in the premium-domestic band (₹40,000–₹60,000 for 5 kW) with the longest warranty in the segment at 12 years full replacement. This combination (ALMM compliance + 12-year warranty + IP66 engineering + AI WhatsApp monitoring) targets the segment of the market that values long-term yield certainty over lowest purchase price.

@@ -260,6 +260,8 @@ Before agreeing to send the unit for inspection or repair, confirm in writing wh
 
 If the brand does not meet its stated SLA (72 hours for Qbits, longer for others) escalate formally in writing. Keep records of every interaction. In India, the [Consumer Protection Act 2019](https://consumeraffairs.nic.in/) provides a legal framework for escalating unresolved warranty disputes to the consumer forum if the manufacturer fails to honour documented commitments.
 
+Elsewhere in the Heaven Group network, see [how to file a solar warranty claim](https://www.heavengreenenergy.com/blog/how-to-file-solar-warranty-claim) and [what a replacement actually costs](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost).
+
 ## Where Qbits Fits
 
 For homeowners who have decided that warranty is their primary selection criterion (and the TCO maths in this guide shows exactly why it should be) Qbits is the clear answer. No other brand in the Indian market combines a 12-year full replacement warranty, a <72-hour RMA SLA, and an India-registered entity that makes enforcement straightforward under Indian law.

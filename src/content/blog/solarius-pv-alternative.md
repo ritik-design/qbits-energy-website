@@ -3,8 +3,8 @@ title: "Best Solarius PV Alternatives 2026: Six Platforms Compared"
 excerpt: "Looking for a Solarius PV alternative in 2026? Six platforms compared on BIM and CAD interoperability, hourly self-consumption, proposals, and price."
 description: "An honest comparison of the best Solarius PV alternatives for 2026: SurgePV, PVsyst, PV*SOL, HelioScope, Aurora Solar, and OpenSolar, judged on BIM and CAD interoperability, hourly self-consumption modelling after the end of Scambio sul Posto, proposal output, and published pricing."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solarius-pv-alternative.svg"
 author: "Keyur Rakholiya"

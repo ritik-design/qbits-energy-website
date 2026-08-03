@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software India: 2026 Guide"
 excerpt: "The best solar proposal software India installers need auto-calculates the ₹78,000 PM Surya Ghar subsidy, checks ALMM, and quotes in INR. Seven tools compared."
 description: "Best solar proposal software India 2026. SurgePV vs Arka360, Solar Ladder, Aurora, Solargraf on PM Surya Ghar subsidy, ALMM, DISCOM net metering and INR pricing."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "14 min"
 image: "/blog-images/solar-proposal-software-india.svg"
 author: "Akash Hirapara"
@@ -37,17 +37,17 @@ faqs:
 featured: false
 ---
 
-Indian residential solar runs on a subsidy structure that almost no global software models correctly. PM Surya Ghar pays ₹30,000 per kW for the first 2 kW, ₹18,000 per kW for the next 1 kW, and nothing above 3 kW, capped at ₹78,000, according to MNRE (2026). It is a slab, not a rate. Yet the most common quotation error we see in Indian residential solar is a flat per-kW subsidy applied across the whole system, which overstates the customer's benefit on any system above 2 kW. That error comes from Excel, and from proposal tools built for markets where incentives are percentages. This guide compares the seven proposal platforms Indian installers actually shortlist, and judges them on subsidy accuracy, ALMM enforcement, and DISCOM net metering coverage.
+Indian residential solar runs on a subsidy structure that almost no global software models correctly. [PM Surya Ghar](https://www.surgepv.com/solar-compliance/india/pm-surya-ghar) pays ₹30,000 per kW for the first 2 kW, ₹18,000 per kW for the next 1 kW, and nothing above 3 kW, capped at ₹78,000, according to MNRE (2026). It is a slab, not a rate. Yet the most common quotation error we see in Indian residential solar is a flat per-kW subsidy applied across the whole system, which overstates the customer's benefit on any system above 2 kW. That error comes from Excel, and from proposal tools built for markets where incentives are percentages. This guide compares the seven proposal platforms Indian installers actually shortlist, and judges them on subsidy accuracy, ALMM enforcement, and [DISCOM](/glossary/discom/) net metering coverage.
 
 > **TL;DR**
-> - PM Surya Ghar is a slab structure capped at ₹78,000, being ₹30,000 per kW to 2 kW and ₹18,000 per kW from 2 kW to 3 kW, according to MNRE (2026).
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) is a slab structure capped at ₹78,000, being ₹30,000 per kW to 2 kW and ₹18,000 per kW from 2 kW to 3 kW, according to MNRE (2026).
 > - A non-ALMM module or inverter disqualifies the whole installation from central financial assistance, so ALMM has to be enforced at design time.
 > - DISCOM export compensation runs roughly ₹3 to ₹5.50 per unit on APPC, and settlement periods differ by state, which moves payback by more than a year.
 > - [SurgePV](https://surgepv.com/) generates the proposal from the same project record as the bankable design, with subsidy slabs, ALMM filtering, and state net metering built in.
 > - Arka360 and Solar Ladder are the strongest India-native alternatives and are priced closer to local expectations.
-> - [Book a free SurgePV demo](https://surgepv.com/demo) and quote one of your live PM Surya Ghar enquiries on the call.
+> - [Book a free SurgePV demo](https://surgepv.com/demo) and quote one of your live [PM Surya Ghar](https://www.surgepv.com/blog/pm-surya-ghar-guide-for-epcs) enquiries on the call.
 
-**Short version.** The best solar proposal software for Indian installers in 2026 is SurgePV, because it applies the PM Surya Ghar slab structure automatically, filters components against the live ALMM list, carries DISCOM-specific net metering rules, and produces the proposal from the same engineering record as the design. Arka360 and Solar Ladder are credible India-native alternatives at lower seat cost. Aurora and Solargraf carry neither ALMM nor the subsidy slabs.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Indian installers in 2026 is SurgePV, because it applies the PM Surya Ghar slab structure automatically, filters components against the live ALMM list, carries DISCOM-specific net metering rules, and produces the proposal from the same engineering record as the design. Arka360 and Solar Ladder are credible India-native alternatives at lower seat cost. Aurora and Solargraf carry neither ALMM nor the subsidy slabs.
 
 India is now the fastest-growing residential solar market in the world by installation count, and the software market has not caught up with it. The global platforms are engineered for NEC and net metering at retail rate. The India-native platforms understand the subsidy and the DISCOM paperwork but are generally thinner on bankable simulation. For the design-side comparison, our [solar design software India](/blog/solar-design-software-india/) guide covers the engineering trade-offs, and the global [solar proposal software](/blog/solar-proposal-software/) ranking covers the category without the India lens.
 
@@ -161,6 +161,8 @@ Once the proposal is signed, lead capture and DISCOM follow-up move to a CRM. [Q
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/india" target="_blank" rel="noopener noreferrer">India compliance library</a></p>
 </div>
+
+A proposal tool only earns its place inside a working stack. The [wider solar software picture in India](/blog/solar-software-india/) covers what sits either side of it.
 
 ## The Bottom Line
 

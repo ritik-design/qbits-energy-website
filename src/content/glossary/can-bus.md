@@ -203,6 +203,15 @@ CAN bus is the standard communication protocol between BMS and solar inverter in
 
 QBits Energy supplies CAN-validated LFP battery and hybrid inverter combinations for residential and small commercial solar storage in India.
 
+## Further reading
+
+For how CAN Bus plays out in real projects, these guides go deeper:
+
+- [BMS in Hybrid Solar Inverters, Decoded](/blog/bms-hybrid-solar-inverter-explained/)
+- [Inverter Battery Connection Diagram and Sizing Guide for Hybrid Solar](/blog/inverter-battery-connection-diagram/)
+- [Solar Inverter Integration, 7-Phase EPC Setup Guide](/blog/solar-inverter-integration-in-india/)
+- [Solar Inverter vs UPS, What's the Real Difference?](/blog/solar-inverter-vs-ups/)
+
 ## Sources
 
 - ISO 11898, CAN standard.

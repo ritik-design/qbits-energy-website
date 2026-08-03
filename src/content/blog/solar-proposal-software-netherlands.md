@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Netherlands: 2026"
 excerpt: "Salderingsregeling ends 1 January 2027. The best solar proposal software Netherlands installers need shows both scenarios and the battery case. Six tools compared."
 description: "Best solar proposal software Netherlands 2026. SurgePV vs OpenSolar, PV*SOL, Aurora on the salderingsregeling phase-out, terugleverkosten and post-2027 payback."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-netherlands.svg"
 author: "Akash Hirapara"
@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-Every Dutch solar proposal written between now and 1 January 2027 has a shelf life problem. The salderingsregeling ends on that date, confirmed when the Senate approved the termination in December 2024. A system quoted today will spend a few months under net metering and roughly twenty-five years without it. Yet the standard Dutch quote still leads with a payback figure calculated under netting, which describes the shortest and least representative period of the customer's ownership. This guide compares the platforms Dutch installers should be using to quote honestly through the transition, and explains why the battery line moves from optional extra to the centre of the document.
+Every Dutch solar proposal written between now and 1 January 2027 has a shelf life problem. The salderingsregeling ends on that date, confirmed when the Senate approved the termination in December 2024. A system quoted today will spend a few months under [net metering](/glossary/net-metering/) and roughly twenty-five years without it. Yet the standard Dutch quote still leads with a payback figure calculated under netting, which describes the shortest and least representative period of the customer's ownership. This guide compares the platforms Dutch installers should be using to quote honestly through the transition, and explains why the battery line moves from optional extra to the centre of the document.
 
 > **TL;DR**
 > - Salderingsregeling ends 1 January 2027. Senate approved December 2024, after the House agreed in November 2024.
@@ -43,9 +43,9 @@ Every Dutch solar proposal written between now and 1 January 2027 has a shelf li
 > - The battery case moves from marginal to central, because a kWh shifted from 7 cent export to 30 cent avoided import is worth over four times more.
 > - [SurgePV](https://surgepv.com/) models both scenarios from one 8,760-hour run at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for Dutch installers in 2026 is SurgePV, because it computes self-consumption and export separately from an hourly simulation against a real load profile, models terugleverkosten, and can present the pre-2027 and post-2027 scenarios side by side in the same customer document. OpenSolar is free and widely used but assumes annual netting. PV*SOL models self-consumption well but is desktop-bound.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Dutch installers in 2026 is SurgePV, because it computes self-consumption and export separately from an hourly simulation against a real load profile, models terugleverkosten, and can present the pre-2027 and post-2027 scenarios side by side in the same customer document. OpenSolar is free and widely used but assumes annual netting. PV*SOL models self-consumption well but is desktop-bound.
 
-The Netherlands is about to run a live experiment in what happens when a market built on net metering loses it, and the installers who handle the conversation well will take share from those still quoting the old numbers. For the design-side comparison see our [best solar design software Netherlands](/blog/solar-design-software-netherlands/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the Dutch lens.
+The [Netherlands](/blog/solar-software-netherlands/) is about to run a live experiment in what happens when a market built on net metering loses it, and the installers who handle the conversation well will take share from those still quoting the old numbers. For the design-side comparison see our [best solar design software Netherlands](/blog/solar-design-software-netherlands/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the Dutch lens.
 
 <div class="inline-cta">
 <h3>Quote a Dutch job on post-2027 economics</h3>

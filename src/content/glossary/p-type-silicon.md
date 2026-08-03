@@ -193,6 +193,15 @@ P-type silicon is boron-doped silicon traditionally used as the base for PERC so
 
 QBits Energy supplies ALMM-listed PERC p-type and TOPCon n-type modules from leading Indian manufacturers for residential, C&I and utility solar.
 
+## Further reading
+
+For how P-Type Silicon plays out in real projects, these guides go deeper:
+
+- [On-Grid vs Hybrid vs Off-Grid: Decision Guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/)
+- [Solar Inverter Kya Hai? - पूरी जानकारी हिंदी में](/blog/solar-inverter-kya-hai-hindi/)
+- [How to Choose Solar Inverters with Surge Protection](/blog/how-to-choose-solar-inverters-with-surge-protection/)
+- [ALMM List-II Exemption Window for Net Metering & Open Access](/blog/almm-list-ii-exemption-net-metering-open-access/)
+
 ## Sources
 
 - IEC 61215, Module qualification.

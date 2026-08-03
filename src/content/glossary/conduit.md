@@ -246,6 +246,15 @@ Conduit protects and routes electrical cables in solar installations. Indian sta
 
 QBits Energy installs IS 9537-compliant conduit and cable routing for residential, C&I and utility solar projects across India.
 
+## Further reading
+
+For how Conduit plays out in real projects, these guides go deeper:
+
+- [Solar System Annual Maintenance Checklist India](/blog/solar-annual-maintenance-checklist-india/)
+- [Pre-Monsoon Solar System Inspection Checklist India](/blog/pre-monsoon-solar-inspection-checklist/)
+- [Solar Inverter Installation Cost, Real Numbers](/blog/solar-inverter-installation-cost/)
+- [Solar Takeoff Software: Auto-BOQ Guide 2026](/blog/solar-takeoff-software/)
+
 ## Sources
 
 - IS 9537, PVC conduits for electrical installations.

@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Ireland: 2026 Guide"
 excerpt: "Clean Export Guarantee rates run from 15.2 to 32 cents depending on supplier, and the SEAI grant tapers by kWp band. An Irish proposal that averages either is wrong. Six tools compared."
 description: "Best solar proposal software Ireland 2026. SurgePV vs Aurora, PVsyst, HelioScope on the SEAI grant taper, Clean Export Guarantee rates, NC6 and NC7 connection and the EUR 400 tax exemption."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-ireland.svg"
 author: "Akash Hirapara"
@@ -44,7 +44,7 @@ An Irish solar proposal has two numbers that resist averaging. The SEAI grant ta
 > - EN 50549 grid protection, Part L 2022, RECI-registered contractors, CRU regulates export.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for Irish installers in 2026 is SurgePV, because it models the banded SEAI grant and supplier-specific export rates correctly and generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora is built around US net metering, which has no Irish counterpart.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Irish installers in 2026 is SurgePV, because it models the banded SEAI grant and supplier-specific export rates correctly and generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora is built around US [net metering](/glossary/net-metering/), which has no Irish counterpart.
 
 For the design-side comparison see our [best solar design software Ireland](/blog/solar-design-software-ireland/) guide, the shading-specific treatment in [solar shading analysis software Ireland](/blog/solar-shading-analysis-software-ireland/), and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
 
@@ -185,6 +185,8 @@ After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quic
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/ireland" target="_blank" rel="noopener noreferrer">Ireland compliance library</a></p>
 </div>
+
+A proposal tool only earns its place inside a working stack. The [wider solar software picture in Ireland](/blog/solar-software-ireland/) covers what sits either side of it.
 
 ## The Bottom Line
 

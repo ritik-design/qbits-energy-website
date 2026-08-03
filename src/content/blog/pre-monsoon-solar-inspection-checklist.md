@@ -171,6 +171,8 @@ The final check is functional: verify that your monitoring system is actively tr
 
 Total cost of comprehensive inspection by a qualified electrician: ₹1,500–₹3,000 for labour, plus any parts. Total cost of ignoring this checklist and facing a monsoon-damaged inverter: ₹15,000–₹50,000.
 
+Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included) and [earthing and lightning protection](https://heavendesigns.in/blog/solar-earthing-lightning-protection).
+
 ## Where Qbits Fits
 
 Qbits inverters are built for Indian monsoon conditions from the start, IP66 rated, with high-quality cable gland seals and a gasket design tested for sustained moisture exposure. The AI-powered WhatsApp monitoring creates an active alert for any generation shortfall, insulation resistance fault, or temperature deviation, so if a monsoon-season issue develops between inspections, the system reports it within minutes, not weeks. The 12-year full replacement warranty covers monsoon-related failures that result from manufacturing defects, not installer error, providing a long-term safety net.

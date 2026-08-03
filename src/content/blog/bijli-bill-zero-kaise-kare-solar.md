@@ -33,7 +33,7 @@ faqs:
     a: "Bill zero करने के लिए battery जरूरी नहीं है। Net metering में export credits रात के import को offset करते हैं। लेकिन power cut वाले areas में on-grid solar power cut में बंद हो जाता है - battery से backup मिलता है। Bill zero के लिए on-grid + net metering sufficient है।"
 ---
 
-"Solar लगवाने से bijli bill zero हो जाएगा" (यह आपने शायद सुना होगा। यह completely true नहीं है, completely false भी नहीं है। Reality यह है कि solar panel से electricity bill dramatically कम हो सकता है) zero भी हो सकता है - लेकिन यह depend करता है system size, consumption, और net metering पर। इस guide में real numbers के साथ पूरा picture clear होगा।
+"Solar लगवाने से bijli [bill zero](https://www.heavengreenenergy.com/blog/why-solar-not-100-percent-bill-zero) हो जाएगा" (यह आपने शायद सुना होगा। यह completely true नहीं है, completely false भी नहीं है। Reality यह है कि solar panel से [electricity bill](https://www.heavengreenenergy.com/blog/solar-and-electricity-bill-slabs) dramatically कम हो सकता है) zero भी हो सकता है - लेकिन यह depend करता है system size, consumption, और net metering पर। इस guide में real numbers के साथ पूरा picture clear होगा।
 
 > **TL;DR**
 > - 3 kW solar system 300-500 units/month consumption वाले घर का bill effectively zero कर सकता है, अगर net metering active हो

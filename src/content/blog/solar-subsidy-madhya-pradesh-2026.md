@@ -33,17 +33,17 @@ faqs:
     a: "MP's DISCOMs generally follow the standard PM Surya Ghar document set - Aadhaar, PAN, electricity bill, bank details, and property proof. Some MP DISCOMs additionally require a roof rights declaration for shared buildings or multi-unit structures. In rural MP, land records (khasra/khatoni) may be required in addition to or instead of a formal property deed. Your empanelled vendor operating in your district will know the current local requirements."
 ---
 
-Madhya Pradesh's solar advantage is geography: the state sits in India's high-irradiance zone with 5.5 to 6.2 peak sun hours daily, matching Rajasthan in many districts. This means a 3 kW system in MP generates 15 to 20% more electricity than the same system in West Bengal or Kerala, improving both payback speed and financial returns. The PM Surya Ghar subsidy makes the already compelling MP solar case even stronger. This guide covers the MP-specific DISCOM structure, application process, and what the subsidy actually delivers for your location.
+Madhya Pradesh's solar advantage is geography: the state sits in India's high-irradiance zone with 5.5 to 6.2 peak sun hours daily, matching Rajasthan in many districts. This means a 3 kW system in MP generates 15 to 20% more electricity than the same system in West Bengal or Kerala, improving both payback speed and financial returns. The [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy makes the already compelling MP solar case even stronger. This guide covers the MP-specific DISCOM structure, application process, and what the subsidy actually delivers for your location.
 
 > **TL;DR**
-> - MP's only solar subsidy in 2026 is the central PM Surya Ghar amount: up to ₹78,000 for a 3 kW system across MP's five DISCOMs.
+> - MP's only solar subsidy in 2026 is the central [PM Surya Ghar](/glossary/pm-surya-ghar/) amount: up to ₹78,000 for a 3 kW system across MP's five DISCOMs.
 > - MP is one of India's highest solar irradiance states at 5.5–6.2 peak sun hours daily, matching Rajasthan in districts like Rewa and Shajapur.
 > - A 3 kW system in MP generates 15–20% more electricity than the same system in West Bengal or Kerala.
 > - Applications average 50–80 days end to end; Bhopal and Indore process faster than rural districts.
 > - MP summers regularly exceed 45 °C, so thermal derating and IP66 dust protection are essential inverter selection criteria.
 > - A Bhopal case study shows post-subsidy payback as fast as 29–31 months, among the best in Central India.
 
-> **Direct answer.** Solar subsidy in Madhya Pradesh 2026 is the central PM Surya Ghar amount of up to ₹78,000 for a 3 kW system via MP's DISCOMs (MPPKVVCL East, MPPKVVCL West, and others). No additional state cash top-up exists. MP's high solar irradiance (5.5–6.2 peak sun hours) delivers exceptional system yield. Apply at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}.
+> **Direct answer.** Solar subsidy in Madhya Pradesh 2026 is the central [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) amount of up to ₹78,000 for a 3 kW system via MP's DISCOMs (MPPKVVCL East, MPPKVVCL West, and others). No additional state cash top-up exists. MP's high solar irradiance (5.5–6.2 peak sun hours) delivers exceptional system yield. Apply at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}.
 
 MP is among the states where [MNRE's rooftop solar scheme](/blog/mnre-rooftop-solar-scheme/) delivers the best per-kW economics thanks to the state's solar resource. According to [Bridge to India's annual rooftop solar report](https://bridgetoindia.com/){target="_blank" rel="noopener"}, MP added over 150 MW of rooftop solar capacity in 2025, ranking among the top five states nationally. Understanding the [DISCOM](/glossary/discom/) structure is the first step. For a direct comparison of how a nearly identical irradiance profile translates into subsidy economics next door, the [solar subsidy Rajasthan guide](/blog/solar-subsidy-rajasthan-2026/) covers the Thar Desert zone in detail.
 

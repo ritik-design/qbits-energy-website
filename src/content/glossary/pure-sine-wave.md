@@ -217,6 +217,14 @@ Pure sine wave is the clean AC output produced by all modern solar inverters. It
 
 QBits Energy supplies ALMM-listed pure sine wave grid-tie, hybrid and off-grid inverters for residential, C&I and utility solar across India.
 
+## Further reading
+
+For how Pure Sine Wave plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Derating in Indian Summer, Explained](/blog/solar-inverter-summer-derating-india/)
+- [Solar Inverter Underperforming? 10 Causes in India](/blog/solar-inverter-underperforming-india/)
+- [Solar Inverter Low Output, 12 Causes and Fixes India](/blog/solar-inverter-low-output-causes-india/)
+
 ## Sources
 
 - IEC 62109, Inverter safety.

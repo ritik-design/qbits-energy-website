@@ -37,19 +37,19 @@ faqs:
     a: "Not necessarily. Oversizing an off-grid system inflates capex and increases the risk of chronic undercharging, which degrades batteries faster. The correct approach is to calculate actual daily load in watt-hours, add a 20–30 percent buffer, size the battery for two to three days of autonomy, and then size the solar array to reliably recharge the battery even in December when peak sun hours are lowest for your location. A correctly sized 3 kW off-grid system outperforms an oversized 5 kW system with undersized batteries."
 ---
 
-Every year, roughly 1.5 million Indian homeowners install a rooftop solar system, and a significant number of them choose the wrong inverter type. Not because the technology is difficult to understand, but because most guides compare only two options: on-grid and hybrid. The off-grid inverter (the workhorse of rural India and remote installations) rarely gets equal treatment in the same article.
+Every year, roughly 1.5 million Indian homeowners install a rooftop solar system, and a significant number of them choose the wrong inverter type. Not because the technology is difficult to understand, but because most guides compare only two options: on-grid and hybrid. The [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) inverter (the workhorse of rural India and remote installations) rarely gets equal treatment in the same article.
 
 This guide covers all three. Whether you are a homeowner in Lucknow frustrated by four-hour daily cuts, a farmer in Rajasthan with no grid connection, or a Bengaluru resident chasing the fastest subsidy payback, this decision framework will tell you which inverter type fits your situation, and why.
 
 > **TL;DR**
 > - On-grid inverters have zero backup during cuts but deliver the fastest payback (4–6 years) and full PM Surya Ghar subsidy eligibility.
 > - Hybrid inverters add battery backup, qualify for the subsidy on the inverter portion, and cost 25–40% more than on-grid at the inverter level alone.
-> - Off-grid inverters are reserved for locations with no reliable grid, have no net-metering revenue, and carry the longest payback (10–14 years).
+> - [Off-grid](/blog/on-grid-off-grid-antar/) inverters are reserved for locations with no reliable grid, have no net-metering revenue, and carry the longest payback (10–14 years).
 > - The 3-Question Inverter Type Test, grid reliability, power-cut duration, and payback vs independence priority, narrows the decision in about three minutes.
 > - Most Indian homes with cuts over 2 hours/day should choose hybrid; most reliable-grid urban homes should choose on-grid.
 > - Qbits TLS/TLD (on-grid) and HS/HT (hybrid) series are both ALMM-listed with a 12-year full replacement warranty.
 
-> **Direct answer.** For most urban and peri-urban Indian homes with a functioning grid, a hybrid inverter is the balanced choice in 2026: it qualifies for PM Surya Ghar subsidies, exports surplus power through net metering, and provides battery backup during outages. On-grid inverters are best when payback speed is the only priority and outages are rare. Off-grid inverters are reserved for locations where no reliable grid connection exists. Use the 3-Question Inverter Type Test below to confirm which category fits you.
+> **Direct answer.** For most urban and peri-urban Indian homes with a functioning grid, a [hybrid inverter](/glossary/hybrid-inverter/) is the balanced choice in 2026: it qualifies for PM Surya Ghar subsidies, exports surplus power through net metering, and provides battery backup during outages. On-grid inverters are best when payback speed is the only priority and outages are rare. [Off-grid](https://quickestimate.co/glossary/off-grid-solar) inverters are reserved for locations where no reliable grid connection exists. Use the 3-Question Inverter Type Test below to confirm which category fits you.
 
 The choice between inverter types is not merely a technical one, it is a financial and lifestyle decision. The [on-grid vs hybrid ROI analysis](/blog/on-grid-vs-hybrid-solar-inverters-roi/) covers the detailed payback maths if you need a financial model. This guide answers the more fundamental question first: which type belongs on your roof at all?
 

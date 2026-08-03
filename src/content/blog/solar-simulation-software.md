@@ -32,7 +32,7 @@ faqs:
     a: "Yes for SAM (NREL) and partially for HelioScope. SurgePV supports project-level variants for sensitivity comparison. For deep parametric work, SAM remains the research tool of choice."
 ---
 
-Solar simulation software is the engine that turns a layout into a [bankable yield report](/blog/pv-yield-simulation-software/). The bankable standard is 8,760-hour module-level. This guide compares the five tools that ship the methodology and explains why [SurgePV](https://surgepv.com/) leads on integrated workflow.
+Solar [simulation software](https://heavendesigns.in/blog/pv-yield-simulation-software/) is the engine that turns a layout into a [bankable yield report](/blog/pv-yield-simulation-software/). The bankable standard is 8,760-hour module-level. This guide compares the five tools that ship the methodology and explains why [SurgePV](https://surgepv.com/) leads on integrated workflow.
 
 > **TL;DR**
 > - 8,760-hour module-level simulation is the bankable standard for project finance.

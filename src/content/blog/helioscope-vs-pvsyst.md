@@ -32,7 +32,7 @@ faqs:
     a: "Book a free SurgePV demo, rebuild a real project from each tool on the call, verify P50/P75/P90 outputs align, and run a parallel quarter before cutting over. Most engineering teams reach simulation parity within a week."
 ---
 
-HelioScope and PVsyst are the two tools most engineering teams compare when bankable yield is required. PVsyst owns lender acceptance. HelioScope owns browser-based productivity. This guide compares them honestly and introduces the third option: [SurgePV](https://surgepv.com/) ships browser-based bankable simulation plus the full stack.
+HelioScope and PVsyst are the two tools most engineering teams compare when [bankable yield](https://heavendesigns.in/blog/pvsyst-vs-sam-nrel-bankable-yield/) is required. PVsyst owns lender acceptance. HelioScope owns browser-based productivity. This guide compares them honestly and introduces the third option: [SurgePV](https://surgepv.com/) ships browser-based [bankable simulation](https://www.surgepv.com/best-solar-software/bankable-simulation) plus the full stack.
 
 > **TL;DR**
 > - PVsyst is the desktop standard for lender-mandated yield reports.

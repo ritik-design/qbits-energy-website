@@ -33,20 +33,20 @@ faqs:
     a: "A salaried tenant cannot use the Green Home Loan route (which requires property ownership). However, a tenant who wants to install a portable solar kit or negotiate with the landlord can take an HDFC Personal Loan and use it for solar-adjacent equipment. Note that a standard rooftop solar installation on rented property requires landlord permission regardless of financing source."
 ---
 
-Electricity bills crossing ₹8,000 per month have pushed thousands of Indian homeowners into a familiar search loop: find a good solar system, check subsidy eligibility, and then hit the question of financing. HDFC Bank (with over 8,000 branches and a pre-existing home loan relationship with millions of Indians) is a natural first port of call. Yet the search results for "HDFC solar loan" tend to surface generic personal loan pages, leaving applicants confused about which product actually applies to their case.
+Electricity bills crossing ₹8,000 per month have pushed thousands of Indian homeowners into a familiar search loop: find a good solar system, check subsidy eligibility, and then hit the question of financing. HDFC Bank (with over 8,000 branches and a pre-existing [home loan](https://www.heavengreenenergy.com/blog/solar-loan-vs-home-loan-topup) relationship with millions of Indians) is a natural first port of call. Yet the search results for "HDFC solar loan" tend to surface generic [personal loan](https://www.heavengreenenergy.com/blog/solar-loan-vs-personal-loan) pages, leaving applicants confused about which product actually applies to their case.
 
 > **TL;DR**
 > - HDFC has no single "solar loan" product: owner-occupied homeowners use the Green Home Loan or a top-up on an existing home loan at ~8.5-10% p.a.; everyone else uses a Personal Loan at ~10.5-24% p.a.
 > - IREDA (~7%) and SBI (~7.5-8%) beat HDFC on interest rate, but HDFC wins on branch accessibility and faster processing for existing customers.
-> - The PM Surya Ghar subsidy (up to ₹78,000 for a 3 kW system) is paid directly to the beneficiary's bank account regardless of financing route, and is typically used to prepay the loan principal once credited.
+> - The [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy (up to ₹78,000 for a 3 kW system) is paid directly to the beneficiary's bank account regardless of financing route, and is typically used to prepay the loan principal once credited.
 > - The Green Home Loan top-up route requires property ownership and an existing HDFC home loan relationship for the fastest processing; the Personal Loan route needs neither but costs more.
 > - Choosing the wrong product at the branch, asking for a "solar loan" and getting routed to a generic Personal Loan, is the single most common and most expensive mistake applicants make.
 
-This guide clarifies exactly which HDFC product covers solar panels for owner-occupied homes, which covers everything else, how the rates compare with IREDA and SBI, and how to integrate PM Surya Ghar subsidy into the repayment structure.
+This guide clarifies exactly which HDFC product covers solar panels for owner-occupied homes, which covers everything else, how the rates compare with IREDA and SBI, and how to integrate [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-eligibility) subsidy into the repayment structure.
 
 > **Direct answer.** HDFC solar loan operates through two products: the Green Home Loan (or top-up on an existing HDFC home loan) for owner-occupied properties at ~8.5–10% per annum, and the Personal Loan for all other cases at higher rates. IREDA (~7%) and SBI (~7.5%) beat HDFC on rate, but HDFC wins on convenience and branch accessibility. Use the HDFC Solar Loan Decision Tree in this guide to identify your path in under two minutes.
 
-Understanding which product applies to your situation is the most important decision before you even call HDFC. The Green Home Loan route unlocks lower interest rates and longer tenures, while the Personal Loan route is faster but more expensive. The distinction turns entirely on whether you own the property where the solar system will be installed.
+Understanding which product applies to your situation is the most important decision before you even call HDFC. The Green Home Loan route unlocks lower [interest rates](https://quickestimate.co/blog/solar-loan-interest-rates-india) and longer tenures, while the Personal Loan route is faster but more expensive. The distinction turns entirely on whether you own the property where the solar system will be installed.
 
 ## What Is the HDFC Green Home Loan and Does It Cover Solar?
 

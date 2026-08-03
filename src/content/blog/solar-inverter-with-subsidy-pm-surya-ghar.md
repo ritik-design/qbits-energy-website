@@ -35,7 +35,7 @@ faqs:
     a: "If the installed inverter is not on the ALMM list, the DISCOM will reject the commissioning certificate at the inspection stage - meaning the system cannot be officially commissioned under PM Surya Ghar, and no subsidy is disbursed. You would need to replace the inverter with an ALMM-listed model at your own cost before the system can be recommissioned. This is why verifying ALMM status independently - before installation - is essential. Do not rely on the vendor's verbal assurance."
 ---
 
-Every month, thousands of Indian homeowners ask the same question: "If I am buying a solar inverter anyway, can I at least get the PM Surya Ghar subsidy on it?" The answer contains a nuance that most installers and many government websites do not explain clearly, and misunderstanding it has cost applicants tens of thousands of rupees in rejected claims.
+Every month, thousands of Indian homeowners ask the same question: "If I am buying a solar inverter anyway, can I at least get the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy on it?" The answer contains a nuance that most installers and many government websites do not explain clearly, and misunderstanding it has cost applicants tens of thousands of rupees in rejected claims.
 
 The [PM Surya Ghar Muft Bijli Yojana](/glossary/pm-surya-ghar/) subsidy is not a rebate on an inverter. It is not a component-level discount. It is a lump-sum direct benefit transfer tied to a complete, commissioned rooftop solar system (panels, inverter, mounting, cabling, and installation) delivered as a single project by a DISCOM-approved vendor.
 
@@ -44,7 +44,7 @@ The [PM Surya Ghar Muft Bijli Yojana](/glossary/pm-surya-ghar/) subsidy is not a
 Understanding this distinction changes every decision you make: which vendor to hire, which inverter to approve, and exactly what you will pay out of pocket after the government contribution arrives. This guide walks through the mechanics, the maths, and the compliance steps, so you claim every rupee you are entitled to.
 
 > **TL;DR**
-> - PM Surya Ghar subsidy is paid on the complete installed system, not on a separately purchased inverter - buying an inverter alone earns nothing.
+> - [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) is paid on the complete installed system, not on a separately purchased inverter - buying an inverter alone earns nothing.
 > - The maximum central subsidy is ₹78,000 for a 3 kW system: ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW.
 > - The inverter model must be on the MNRE [ALMM Phase III list](/glossary/almm-list/); a non-ALMM inverter blocks the commissioning certificate and the entire subsidy.
 > - State top-ups (Gujarat, Maharashtra, UP, Tamil Nadu, Karnataka) stack on top of the central amount, taking the combined subsidy on a 3 kW system as high as ₹1,38,000.

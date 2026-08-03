@@ -268,6 +268,13 @@ Mounting structures hold solar modules at design tilt and orientation, transferr
 
 QBits Energy supplies and installs IS-compliant mounting structures for rooftop, ground-mount, carport and tracker projects across Indian environments.
 
+## Further reading
+
+For how Mounting Structure plays out in real projects, these guides go deeper:
+
+- [Utility-Scale Solar Design Software Compared](/blog/utility-scale-solar-design-software/)
+- [PVcase Review 2026: Terrain-Aware Ground Mount Design, Assessed](/blog/pvcase-review/)
+
 ## Sources
 
 - IS 875 Part 3, Wind load on structures.

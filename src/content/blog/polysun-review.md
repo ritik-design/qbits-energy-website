@@ -3,8 +3,8 @@ title: "Polysun Review 2026: Multi-Energy System Simulation, Assessed"
 excerpt: "An honest Polysun review for 2026. What Vela Solaris built, why coupled PV plus thermal plus heat pump simulation matters, and who should not buy it."
 description: "Polysun review 2026: Vela Solaris' multi-energy simulation tool for PV, solar thermal, heat pumps and hot water. Editions, unpublished pricing, real strengths, limitations, and alternatives."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/polysun-review.svg"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ faqs:
 featured: false
 ---
 
-Most solar design software makes the same assumption before you draw a single module: the system is a PV array, and everything else is context. Polysun does not make that assumption. Vela Solaris built it to simulate photovoltaics, solar thermal collectors, heat pumps, and hot water storage together in one coupled model, which is a genuinely different starting point and produces a genuinely different tool. This review covers what Polysun is, what Vela Solaris actually publishes about pricing, where the software earns its reputation, where it stops fitting the buyer, and which alternatives are worth putting beside it. The short framing to carry through: Polysun is the right tool when a project couples PV with heating, and an unusual choice for a plain rooftop PV quote.
+Most solar [design software](https://quickestimate.co/blog/solar-design-software-pricing) makes the same assumption before you draw a single module: the system is a PV array, and everything else is context. [Polysun](/blog/polysun-alternative/) does not make that assumption. Vela Solaris built it to simulate photovoltaics, solar thermal collectors, heat pumps, and hot water storage together in one coupled model, which is a genuinely different starting point and produces a genuinely different tool. This review covers what Polysun is, what Vela Solaris actually publishes about pricing, where the software earns its reputation, where it stops fitting the buyer, and which alternatives are worth putting beside it. The short framing to carry through: Polysun is the right tool when a project couples PV with heating, and an unusual choice for a plain rooftop PV quote.
 
 > **TL;DR**
 > - Polysun simulates PV together with solar thermal, heat pumps, hot water, hybrid PVT panels, and heat networks in one coupled model, which is outside the scope of most PV design tools.

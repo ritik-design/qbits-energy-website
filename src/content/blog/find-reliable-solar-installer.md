@@ -37,9 +37,9 @@ faqs:
     a: "Not automatically, but extremely low quotes almost always involve compromises: non-ALMM panels or inverters, undersized DC cables, missing earthing components, or no written AMC commitment. The benchmark cost for a quality 3 kW on-grid system in India in 2026 is roughly ₹65,000–₹75,000 per kW after subsidy deduction. A quote that is 20% or more below this range warrants direct questions about which line items have been reduced. Ask for a model-specific bill of materials before concluding that the lower price reflects genuine efficiency."
 ---
 
-Installing a rooftop solar system is one of the largest single purchases most Indian homeowners make, a 3 kW system costs ₹1.5–2.5 lakh and is expected to generate power for 25 years. Yet the single biggest risk in that purchase is not the inverter brand or the panel efficiency. It is the installer who bolts everything together. A poorly chosen installer can void your manufacturer warranty, disqualify you from the PM Surya Ghar subsidy, and reduce your annual generation by 15–25% through bad wiring, wrong tilt angles, and missed earthing connections. This guide gives you a systematic method to identify a reliable solar installer in India before you sign any contract.
+Installing a rooftop solar system is one of the largest single purchases most Indian homeowners make, a 3 kW system costs ₹1.5–2.5 lakh and is expected to generate power for 25 years. Yet the single biggest risk in that purchase is not the inverter brand or the panel efficiency. It is the installer who bolts everything together. A poorly chosen installer can void your manufacturer warranty, disqualify you from the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy, and reduce your annual generation by 15–25% through bad wiring, wrong tilt angles, and missed earthing connections. This guide gives you a systematic method to identify a reliable solar installer in India before you sign any contract.
 
-> **Direct answer.** A reliable solar installer in India must pass eight checks: PM Surya Ghar empanelment on the MNRE portal, ALMM-compliant equipment, three local references you can visit in person, a proven DISCOM commissioning track record in your area, licensed electricians on their team, an itemised quotation, post-installation monitoring setup, and a written AMC with a defined response time. The 8-Step Installer Verification Checklist takes roughly two hours to complete and protects a ₹1.5–2.5 lakh investment.
+> **Direct answer.** A reliable solar installer in India must pass eight checks: [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-empanelled-vendor) empanelment on the MNRE portal, ALMM-compliant equipment, three local references you can visit in person, a proven DISCOM commissioning track record in your area, licensed electricians on their team, an itemised quotation, post-installation monitoring setup, and a written AMC with a defined response time. The 8-Step Installer Verification Checklist takes roughly two hours to complete and protects a ₹1.5–2.5 lakh investment.
 
 > **TL;DR**
 > - Verify PM Surya Ghar empanelment on the MNRE portal before any site visit; non-empanelled installers cannot process your subsidy.
@@ -270,6 +270,8 @@ Some signals are not warnings to investigate further, they are clear grounds for
 - ✗ Claims CEA licence requirements "do not apply" to solar
 - ✗ No written AMC, or AMC has no response time commitment
 - ✗ Asks for more than 50% deposit before installation begins
+
+Why some manufacturers stay off marketplaces entirely is argued in [why Qbits is not on Amazon](/blog/qbits-not-on-amazon-founder-pov/).
 
 ## Where Qbits Fits
 

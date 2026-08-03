@@ -44,7 +44,7 @@ Choosing a solar battery in India in 2026 is more complex than choosing the inve
 
 This review applies the **Battery Brand Reliability Score** to five major brands: Pylontech, Livguard, Exide, Amaron, and LOOM Solar Atom. Each brand is evaluated on five criteria, scored 1–10, and compared honestly. The goal is not to declare one brand universally best but to match each brand's strengths to the right buyer.
 
-> **Direct answer.** Pylontech leads for LiFePO4 lithium quality and cycle life (6,000 cycles, 10-year warranty) at a premium price (₹60,000–₹80,000/module). Livguard is the best Indian-made lithium alternative. Exide and Amaron are the most reliable VRLA options with nationwide service. LOOM Solar Atom is a budget lithium entry point. Use the **Battery Brand Reliability Score** to match your priorities to the right brand.
+> **Direct answer.** Pylontech leads for LiFePO4 lithium quality and [cycle life](https://quickestimate.co/glossary/battery-cycle-life) (6,000 cycles, 10-year warranty) at a premium price (₹60,000–₹80,000/module). Livguard is the best Indian-made lithium alternative. Exide and Amaron are the most reliable VRLA options with nationwide service. LOOM Solar Atom is a budget lithium entry point. Use the **Battery Brand Reliability Score** to match your priorities to the right brand.
 
 ## Methodology: How This Review Works
 

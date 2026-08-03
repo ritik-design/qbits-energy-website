@@ -3,8 +3,8 @@ title: "PVComplete Review 2026: CAD-Native Solar Design, Assessed"
 excerpt: "An honest PVComplete review for 2026. What PVCAD and PVSketch actually do, what they cost, who the CAD-native workflow suits, and what to buy instead."
 description: "PVComplete review 2026: PVCAD and PVSketch assessed after the Enact Solar acquisition. CAD-native permit drawings, reported pricing, real limitations, and alternatives including SurgePV, HelioScope and Aurora."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/pvcomplete-review.svg"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ faqs:
 featured: false
 ---
 
-PVComplete is one of the few solar design products that started from the engineer's side of the business rather than the salesperson's. Its core product, PVCAD, is a plugin that runs inside Autodesk AutoCAD, which means the file you finish with is a real CAD drawing rather than an export that a drafter has to rebuild. That is an unusual position in a market where almost every competitor has spent the last decade building browser-based sales tools. This review looks at what PVComplete is in 2026, what changed when Enact Solar acquired it in January, what the product genuinely does better than anything else, where it stops fitting the buyer, and which alternatives deserve a look first.
+[PVComplete](/blog/pvcomplete-alternative/) is one of the few solar design products that started from the engineer's side of the business rather than the salesperson's. Its core product, PVCAD, is a plugin that runs inside Autodesk AutoCAD, which means the file you finish with is a real CAD drawing rather than an export that a drafter has to rebuild. That is an unusual position in a market where almost every competitor has spent the last decade building browser-based sales tools. This review looks at what PVComplete is in 2026, what changed when Enact Solar acquired it in January, what the product genuinely does better than anything else, where it stops fitting the buyer, and which alternatives deserve a look first.
 
 > **TL;DR**
 > - Enact Solar announced its acquisition of PVComplete on 13 January 2026, and PVComplete's CEO and CTO moved to Enact in the same roles. The products are still sold, but the roadmap now sits inside a larger platform.
@@ -46,7 +46,7 @@ PVComplete is one of the few solar design products that started from the enginee
 
 **Short version.** PVComplete is a CAD-native solar design suite built around PVCAD, an AutoCAD plugin that produces permit-ready drawing sets, paired with PVSketch for browser-based early layouts. It suits engineering-led commercial and utility teams whose deliverable is a stamped drawing. It is a poor fit for residential sales organisations. Enact Solar acquired the company in January 2026, so confirm roadmap and support before signing a long term.
 
-Most reviews of design software compare the same axis: how quickly can a salesperson produce something a homeowner will sign. PVComplete is not competing on that axis, and judging it there produces a misleading verdict. The right question is narrower. Does a CAD-native workflow save an engineering team enough drafting time to justify carrying AutoCAD and the training that goes with it?
+Most reviews of [design software](https://heavendesigns.in/blog/solar-design-software-pricing/) compare the same axis: how quickly can a salesperson produce something a homeowner will sign. PVComplete is not competing on that axis, and judging it there produces a misleading verdict. The right question is narrower. Does a CAD-native workflow save an engineering team enough drafting time to justify carrying AutoCAD and the training that goes with it?
 
 ## What Happened to PVComplete in January 2026
 

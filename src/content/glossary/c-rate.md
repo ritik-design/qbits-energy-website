@@ -270,6 +270,15 @@ C-rate is the standardised metric for charge and discharge current relative to b
 
 QBits Energy sizes battery systems matching continuous and peak C-rate to inverter power needs and customer use cases.
 
+## Further reading
+
+For how C-Rate plays out in real projects, these guides go deeper:
+
+- [Best Solar Design Software New Zealand: 2026 Guide](/blog/solar-design-software-new-zealand/)
+- [Off-Grid Solar Battery Bank Sizing for India](/blog/off-grid-battery-bank-sizing-india/)
+- [Best Solar Proposal Software New Zealand: 2026 Guide](/blog/solar-proposal-software-new-zealand/)
+- [Solar Inverter vs UPS, What's the Real Difference?](/blog/solar-inverter-vs-ups/)
+
 ## Sources
 
 - IEC 61960:2017, Performance requirements for secondary lithium cells.

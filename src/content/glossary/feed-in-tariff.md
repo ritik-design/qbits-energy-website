@@ -274,6 +274,15 @@ Feed in tariff is the regulated long-term price that makes solar PV financing po
 
 QBits Energy advises rooftop and small commercial developers on FIT eligibility, gross metering structure and DISCOM coordination across Indian states. Explore our [C&I solar solutions](/c-i-solution/) or [on grid inverter](/on-grid-inverter/) range for gross-metered and export-tied installations.
 
+## Further reading
+
+For how Feed In Tariff plays out in real projects, these guides go deeper:
+
+- [Gross Metering vs Net Metering: Which to Choose?](/blog/gross-metering-vs-net-metering/)
+- [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/)
+- [Best Solar Design Software Philippines: 2026 Guide](/blog/solar-design-software-philippines/)
+- [Solar Subsidy in Delhi 2026, BSES + TPDDL](/blog/solar-subsidy-delhi-2026/)
+
 ## Sources
 
 - Electricity Act 2003, Government of India.

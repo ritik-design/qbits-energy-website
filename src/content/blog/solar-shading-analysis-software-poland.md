@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-Polish solar shading analysis is a pricing problem more than a geometry problem. Since net billing replaced net metering in April 2022, exported kilowatt-hours are settled at the market reference rate rather than banked one for one, and that rate sits far below what a prosumer pays to import. In May 2026 the RCEm settlement rate was 191.37 PLN per MWh, roughly 0.19 PLN per kWh, against retail import several times higher. So two obstructions that produce identical annual shading percentages can differ by a factor of four or five in what they cost, depending entirely on which hours their shadows fall. This guide covers what shading analysis has to do differently in Poland, and which tools do it.
+Polish solar [shading analysis](/glossary/shading-analysis/) is a pricing problem more than a geometry problem. Since net billing replaced [net metering](/glossary/net-metering/) in April 2022, exported kilowatt-hours are settled at the market reference rate rather than banked one for one, and that rate sits far below what a prosumer pays to import. In May 2026 the RCEm settlement rate was 191.37 PLN per MWh, roughly 0.19 PLN per kWh, against retail import several times higher. So two obstructions that produce identical annual shading percentages can differ by a factor of four or five in what they cost, depending entirely on which hours their shadows fall. This guide covers what [shading analysis](/glossary/shading-analysis/) has to do differently in [Poland](/blog/solar-software-poland/), and which tools do it.
 
 > **TL;DR**
 > - Under net billing, exported kilowatt-hours settle near 0.19 PLN while imported ones cost several times that, so the hour a shadow falls decides its cost.
@@ -43,7 +43,7 @@ Polish solar shading analysis is a pricing problem more than a geometry problem.
 > - Module-level power electronics pay where shading hits self-consumed hours and usually do not where it hits export surplus.
 > - [SurgePV](https://surgepv.com/) runs 8,760-hour module-level shading priced against net billing at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** Solar shading analysis software for Polish projects has to run 8,760 hourly steps at module level and then price each lost kilowatt-hour against the correct side of the net billing spread. An annual shading percentage is not an answer in Poland, because the same percentage can represent very different amounts of money.
+**Short version.** Solar [shading analysis software](https://heavendesigns.in/blog/solar-shading-analysis-software/) for Polish projects has to run 8,760 hourly steps at module level and then price each lost kilowatt-hour against the correct side of the net billing spread. An annual shading percentage is not an answer in Poland, because the same percentage can represent very different amounts of money.
 
 The general methodology is covered in our [solar shading analysis software](/blog/solar-shading-analysis-software/) guide, and the underlying simulation approach in our [PV yield simulation software](/blog/pv-yield-simulation-software/) guide. This page covers what changes under Polish net billing. For the wider platform comparison see [best solar design software Poland](/blog/solar-design-software-poland/).
 

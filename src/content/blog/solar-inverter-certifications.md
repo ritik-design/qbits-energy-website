@@ -31,7 +31,7 @@ Every year, Indian solar companies face project delays, warranty disputes, and l
 
 > **TL;DR**
 > - [BIS certification](/glossary/bis-certification/) has been mandatory for grid-connected solar inverters since 2017; verify it model-by-model on the bis.gov.in portal, not manufacturer-wide.
-> - IEC 62109-1/2 (safety), IEC 61683 (performance), and IEC 62116 (anti-islanding, 2-second disconnect) are the core international benchmarks EPCs should request full test reports for.
+> - IEC 62109-1/2 (safety), IEC 61683 (performance), and IEC 62116 ([anti-islanding](/glossary/anti-islanding/), 2-second disconnect) are the core international benchmarks EPCs should request full test reports for.
 > - [IP66](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) is the recommended weather rating for coastal and monsoon-exposed sites, tested to IEC 60529 by NABL-accredited laboratories.
 > - Non-certified equipment risks ₹1–10 lakh BIS Act penalties, DISCOM connection refusal, voided warranties, and revoked subsidies.
 > - Nine red flags (blurry documents, unverifiable numbers, unaccredited labs, and more) help procurement teams spot fake certificates before they cause a project failure.

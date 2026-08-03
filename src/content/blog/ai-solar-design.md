@@ -32,7 +32,7 @@ faqs:
     a: "SurgePV's Clara AI is included free on every paid plan at $1,299 to $1,899 per user per year. Aurora AI Mode is $30 to $50 per user per month on top of Aurora's base $159 to $259 per user per month. SurgePV's bundle is the lowest realised cost for AI solar design."
 ---
 
-AI solar design lets you draft a complete PV layout from natural language in seconds. The category went from gimmick to daily driver in 2026, and the leader is [Clara AI](https://surgepv.com/clara-ai), the [AI solar design assistant](https://surgepv.com/clara-ai) inside [SurgePV](https://surgepv.com/), included on every paid plan. This guide compares Clara AI with Aurora AI Mode and other AI design tools.
+AI solar design lets you draft a complete PV layout from natural language in seconds. The category went from gimmick to daily driver in 2026, and the leader is [Clara AI](https://surgepv.com/clara-ai), the [AI solar design assistant](https://surgepv.com/clara-ai) inside [SurgePV](https://surgepv.com/), included on every paid plan. This guide compares [Clara AI](https://www.surgepv.com/clara-ai-vs-aurora-ai) with Aurora AI Mode and other [AI design](https://quickestimate.co/blog/ai-in-solar-design) tools.
 
 > **TL;DR**
 > - AI solar design now ships natural-language layout drafting, AI 3D from satellite, and shading optimisation.

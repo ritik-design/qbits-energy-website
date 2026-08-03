@@ -34,19 +34,19 @@ faqs:
 featured: false
 ---
 
-Solar lagwane wale har ghar ke saamne ek hi confusion aata hai: on-grid lein, off-grid lein, ya hybrid। Vendor teeno ke naam bol deta hai, price alag alag bata deta hai, aur decision customer ke sar par chhod deta hai। Problem yeh hai ki teeno alag alag problem solve karte hain, aur galat choice ka pata 6 mahine baad chalta hai jab pehli lambi power cut aati hai aur roof par laga solar system band pada rehta hai। Yeh guide hybrid solar inverter ko zero se explain karti hai: andar kya hota hai, backup kaise banta hai, kaun se load chalenge, battery kitni chahiye, kharcha kitna, aur kab hybrid lena chahiye aur kab nahi।
+Solar lagwane wale har [ghar ke](/blog/ghar-ke-liye-solar-inverter-size-hindi/) saamne ek hi confusion aata hai: on-grid lein, [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) lein, ya hybrid। Vendor teeno ke naam bol deta hai, price alag alag bata deta hai, aur decision customer ke sar par chhod deta hai। Problem yeh hai ki teeno alag alag problem solve karte hain, aur galat choice ka pata 6 mahine baad chalta hai jab pehli lambi power cut aati hai aur roof par laga solar system band pada rehta hai। Yeh guide hybrid solar inverter ko zero se explain karti hai: andar kya hota hai, backup kaise banta hai, kaun se load chalenge, battery kitni chahiye, kharcha kitna, aur kab hybrid lena chahiye aur kab nahi।
 
 > **TL;DR**
 > - Hybrid solar inverter = on-grid inverter + battery charger + automatic changeover, ek hi box mein।
 > - On-grid inverter power cut mein anti-islanding ki wajah se band ho jata hai, hybrid apni backup output se ghar chalata rehta hai।
-> - Same capacity par hybrid inverter on-grid se lagbhag 60 se 90 percent mehnga hai, aur 5 kWh LFP battery ₹75,000 se ₹1,20,000 alag।
-> - Backup ghante battery kWh se decide hote hain, inverter ki kW rating se nahi। 5 kWh battery 500 W load par lagbhag 8 hours chalti hai।
-> - PM Surya Ghar central subsidy 3 kW band par ₹78,000 tak capped hai, aur yeh sirf solar components par milti hai, battery par nahi।
+> - Same capacity par [hybrid inverter](/glossary/hybrid-inverter/) on-grid se lagbhag 60 se 90 percent mehnga hai, aur 5 kWh LFP battery ₹75,000 se ₹1,20,000 alag।
+> - Backup ghante battery kWh se decide hote hain, [inverter ki](/blog/solar-inverter-ki-life-hindi/) kW rating se nahi। 5 kWh battery 500 W load par lagbhag 8 hours chalti hai।
+> - [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) central subsidy 3 kW band par ₹78,000 tak capped hai, aur yeh sirf solar components par milti hai, battery par nahi।
 > - Solar inverter par GST 12 percent lagta hai, quote mein alag se likhwa lein।
 
 > **Seedha jawab।** Hybrid solar inverter ek aisa solar inverter hai jisme battery connect karne ka port aur built-in automatic changeover hota hai। Dhoop mein yeh ghar chalata hai, extra power se battery charge karta hai, phir bachi power grid ko bhejta hai। Bijli jane par yeh 10 se 20 millisecond mein battery par switch karke essential loads chalu rakhta hai, jo simple on-grid inverter nahi kar sakta।
 
-Yeh post national level ka general explainer hai। Agar aap Uttar Pradesh ya Bihar mein hain jahan daily outage 4 se 10 ghante tak jata hai, to wahan ka DISCOM process aur ROI math alag hai, uske liye [UP aur Bihar ke liye hybrid solar inverter guide](/blog/hybrid-solar-inverter-up-bihar-hindi/) padhein।
+Yeh post national level ka general explainer hai। Agar aap Uttar Pradesh ya Bihar mein hain jahan daily outage 4 se 10 ghante tak jata hai, to wahan ka [DISCOM](/glossary/discom/) process aur ROI math alag hai, uske liye [UP aur Bihar ke liye hybrid solar inverter guide](/blog/hybrid-solar-inverter-up-bihar-hindi/) padhein।
 
 ## Hybrid Solar Inverter Ke Andar Kya Hota Hai
 
@@ -239,6 +239,8 @@ Order dene se pehle yeh cheezein likhit mein confirm karwaiye:
 7. **Net metering application** kaun file karega aur kab।
 
 Yeh saat points zyadatar post-installation jhagdon ko rok dete hain।
+
+Tracker ki working alag se [MPPT kya hota hai](/blog/mppt-kya-hota-hai/) mein samjhayi gayi hai.
 
 ## Bottom Line
 

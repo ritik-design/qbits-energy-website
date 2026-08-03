@@ -195,6 +195,13 @@ The Electricity Act 2003 is the statutory foundation of the Indian electricity s
 
 QBits Energy advises C&I customers and developers on solar project structures under the Electricity Act 2003 framework, including open access, captive generation and net metering.
 
+## Further reading
+
+For how Electricity Act 2003 plays out in real projects, these guides go deeper:
+
+- [ALMM List-II Exemption Window for Net Metering & Open Access](/blog/almm-list-ii-exemption-net-metering-open-access/)
+- [Open Access Solar in India 2026: The C&I Buyer's Complete Guide](/blog/open-access-solar-india-explained/)
+
 ## Sources
 
 - Electricity Act 2003, Government of India.

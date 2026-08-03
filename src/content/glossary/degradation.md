@@ -308,6 +308,15 @@ Module degradation is the gradual decline in solar output over time. Modern modu
 
 QBits Energy supplies ALMM-listed modules with documented PID, LeTID and degradation profiles, and supports lifecycle yield modelling for Indian solar projects.
 
+## Further reading
+
+For how Module Degradation plays out in real projects, these guides go deeper:
+
+- [How Does a Solar Power System Work in India?](/blog/how-solar-power-system-works-india/)
+- [How Shadow on One Solar Panel Kills Your Generation (And How to Fix It)](/blog/solar-panel-shadow-effect-generation/)
+- [Solar Inverter Low Output, 12 Causes and Fixes India](/blog/solar-inverter-low-output-causes-india/)
+- [Best Solar System Under ₹1 Lakh in India 2026](/blog/best-solar-system-under-1-lakh/)
+
 ## Sources
 
 - IEC 61215, Module qualification and type approval.

@@ -34,12 +34,12 @@ faqs:
 featured: false
 ---
 
-Solar लगवाने से पहले हर घर में यही बहस होती है: on grid लें या off grid? Vendor दो अलग बातें बोलते हैं, YouTube पर तीसरी मिलती है, और decision अटक जाता है। दिक्कत यह है कि ज्यादातर guides यह अंतर सिर्फ technical तरीके से समझाती हैं, जबकि भारत में यह फैसला technical कम और local ज्यादा है। आपके इलाके में रोज कितने घंटे बिजली जाती है, DISCOM में net metering मिल रहा है या नहीं, और आप ₹78,000 की central subsidy छोड़ने को तैयार हैं या नहीं, यही तीन बातें जवाब तय करती हैं। इस guide में on-grid, off-grid और hybrid तीनों को Indian ground reality के हिसाब से compare किया गया है, cost का हिसाब भी है, और आखिर में साफ हो जाएगा कि आपके घर के लिए कौन सा सही है।
+Solar लगवाने से पहले हर घर में यही बहस होती है: on grid लें या [off grid](https://www.heavengreenenergy.com/blog/on-grid-vs-off-grid-vs-hybrid-solar-systems-gujarat)? Vendor दो अलग बातें बोलते हैं, YouTube पर तीसरी मिलती है, और decision अटक जाता है। दिक्कत यह है कि ज्यादातर guides यह अंतर सिर्फ technical तरीके से समझाती हैं, जबकि भारत में यह फैसला technical कम और local ज्यादा है। आपके इलाके में रोज कितने घंटे बिजली जाती है, [DISCOM](/glossary/discom/) में net metering मिल रहा है या नहीं, और आप ₹78,000 की central subsidy छोड़ने को तैयार हैं या नहीं, यही तीन बातें जवाब तय करती हैं। इस guide में on-grid, [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) और hybrid तीनों को Indian ground reality के हिसाब से compare किया गया है, cost का हिसाब भी है, और आखिर में साफ हो जाएगा कि आपके घर के लिए कौन सा सही है।
 
 > **TL;DR**
 > - On-grid system grid से जुड़ा रहता है, battery नहीं लगती, cost सबसे कम, लेकिन power cut में पूरी तरह बंद हो जाता है।
 > - Off-grid system grid से अलग होता है, backup हमेशा रहता है, लेकिन same 3 kW पर 2 से 2.5 गुना महंगा पड़ता है क्योंकि पूरी battery आपको खरीदनी पड़ती है।
-> - PM Surya Ghar की central subsidy ₹78,000 तक (3 kW band पर capped) सिर्फ grid-connected system पर मिलती है, off-grid पर नहीं।
+> - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) की central subsidy ₹78,000 तक (3 kW band पर capped) सिर्फ grid-connected system पर मिलती है, off-grid पर नहीं।
 > - Hybrid system दोनों का बीच का रास्ता है, subsidy और net metering भी मिलते हैं और power cut में backup भी चलता है।
 > - Battery ही price का सबसे बड़ा driver है, 10 kWh LFP battery अकेले ₹1.4 लाख से ₹2 लाख की आती है।
 > - Sheher में जहाँ रोज 1 घंटे से कम cut है, वहाँ on-grid सबसे तेज payback देता है; 3 घंटे से ज्यादा cut वाले इलाकों में hybrid ही समझदारी है।

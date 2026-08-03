@@ -3,8 +3,8 @@ title: "Solargraf Review 2026: Fast Residential Quoting, Assessed Honestly"
 excerpt: "An honest Solargraf review for 2026. Published pricing from $2,799 a year, real strengths in residential quoting, the limitations to test, and who should buy it."
 description: "Solargraf review 2026: published plan pricing from $2,799 to $12,999 per year, project-credit billing, Enphase ownership, genuine strengths in fast residential proposals, and the alternatives worth comparing."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solargraf-review.svg"
 author: "Nirav Dhanani"

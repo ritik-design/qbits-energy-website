@@ -38,9 +38,9 @@ featured: false
 
 Roughly two out of every three Indians who will live in cities by 2035 will live in an apartment, not an independent house. That single fact explains why rooftop solar in India has a strange blind spot. Every subsidy ad shows a bungalow with panels on a sloped roof. Yet the fastest growing housing stock in the country is the high-rise flat. No single family owns the terrace, and no single meter maps to one roof.
 
-Virtual net metering is the regulatory fix for this mismatch. It lets one solar plant, installed on a society's common terrace, feed the grid and split the bill credits across dozens of individual flat meters. The society builds one shared plant, and the DISCOM does the arithmetic of dividing the benefit. No resident needs a personal roof or a personal inverter.
+Virtual [net metering](https://quickestimate.co/blog/what-is-net-metering) is the regulatory fix for this mismatch. It lets one solar plant, installed on a society's common terrace, feed the grid and split the bill credits across dozens of individual flat meters. The society builds one shared plant, and the [DISCOM](/glossary/discom/) does the arithmetic of dividing the benefit. No resident needs a personal roof or a personal inverter.
 
-The idea is not new. Delhi formalised it in 2019. But 2025 and 2026 have brought a wave of updates. Rajasthan opened virtual net metering across consumer categories, and Telangana wrote it into a fresh rooftop regulation. Delhi's seventh amendment in January 2026 extended it to every consumer in the capital, including single-point supply connections. Independent houses have long claimed Rs 78,000 subsidies while society terraces sat empty. For Resident Welfare Associations (RWAs) and apartment owners, this is the moment the door finally opens.
+The idea is not new. Delhi formalised it in 2019. But 2025 and 2026 have brought a wave of updates. Rajasthan opened virtual [net metering](https://quickestimate.co/blog/bescom-net-metering-guide) across consumer categories, and Telangana wrote it into a fresh rooftop regulation. Delhi's seventh amendment in January 2026 extended it to every consumer in the capital, including single-point supply connections. Independent houses have long claimed Rs 78,000 subsidies while society terraces sat empty. For Resident Welfare Associations (RWAs) and apartment owners, this is the moment the door finally opens.
 
 This guide covers what virtual net metering actually is and how it differs from group net metering. It then looks at which states allow it in 2026 and the full billing math for a typical society. Finally, it covers the honest tradeoffs an RWA should weigh before signing a sharing agreement.
 
@@ -49,7 +49,7 @@ This guide covers what virtual net metering actually is and how it differs from 
 > - Delhi's seventh amendment, notified in January 2026, extends virtual net metering to all consumers in the capital, including single-point supply connections, according to DERC.
 > - Rajasthan and Telangana formally allow virtual and group net metering as of their 2025 regulations; Puducherry permits group net metering.
 > - A hypothetical 50 kW society plant generating about 70,000 units a year can offset roughly Rs 4.9 lakh of bills annually at Rs 7 per unit.
-> - PM Surya Ghar offers Rs 18,000 per kW for group housing common facilities, capped at 500 kW, according to MNRE.
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) offers Rs 18,000 per kW for group housing common facilities, capped at 500 kW, according to [MNRE](/glossary/mnre/).
 > - The credit split is a formula your society chooses and files with the DISCOM: equal, by area, or by capital share.
 > - Payback for a shared society plant typically lands between 3 and 5 years, comparable to an individual rooftop system.
 

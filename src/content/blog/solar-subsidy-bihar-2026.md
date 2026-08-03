@@ -35,10 +35,10 @@ faqs:
     a: "BSPHCL net metering buy-back rate for residential rooftop solar is approximately ₹3.00 to ₹3.50 per unit for exported power per the latest BERC tariff order. However, in power-cut areas, on-grid solar cannot export when the grid is unavailable, limiting net metering income. Hybrid systems with battery store surplus and use it during outages or night hours, providing more consistent benefit than on-grid-only systems in Bihar's grid environment."
 ---
 
-Bihar presents a paradox for solar: it is one of India's most underserved states for electricity reliability, which makes solar both more necessary and more complex. An on-grid system does nothing during the 4 to 10 daily hours of load shedding that much of Bihar still experiences. A hybrid system with battery solves the core problem and the PM Surya Ghar subsidy reduces the upfront cost significantly. This guide covers Bihar's specific solar landscape, BSPHCL's application process, and how to choose the right system type for Bihar's grid reality.
+Bihar presents a paradox for solar: it is one of India's most underserved states for electricity reliability, which makes solar both more necessary and more complex. An on-grid system does nothing during the 4 to 10 daily hours of load shedding that much of Bihar still experiences. A hybrid system with battery solves the core problem and the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy reduces the upfront cost significantly. This guide covers Bihar's specific solar landscape, BSPHCL's application process, and how to choose the right system type for Bihar's grid reality.
 
 > **TL;DR**
-> - Bihar gets only the central PM Surya Ghar subsidy of up to ₹78,000 for a 3 kW system; there is no separate state cash top-up as of June 2026.
+> - Bihar gets only the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) of up to ₹78,000 for a 3 kW system; there is no separate state cash top-up as of June 2026.
 > - Load shedding runs 4 to 10 hours daily outside Patna, so hybrid solar with a battery is recommended over on-grid-only for most districts.
 > - BSPHCL processing (via NBPDCL or SBPDCL) averages 75 to 120 days, among the slowest in India.
 > - A 3 kW hybrid system with a 5 kWh LFP battery brings effective payback down to 4 to 6 years once diesel generator savings are included.

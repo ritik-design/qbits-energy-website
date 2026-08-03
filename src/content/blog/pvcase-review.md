@@ -3,8 +3,8 @@ title: "PVcase Review 2026: Terrain-Aware Ground Mount Design, Assessed"
 excerpt: "An honest PVcase review for 2026. What it is, why terrain-aware ground mount design is its real strength, where it stops fitting, and what to buy instead."
 description: "PVcase review 2026: AutoCAD-native utility-scale design, slope and grading analysis, the four product lines, enterprise pricing, and who should not buy it."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/pvcase-review.svg"
 author: "Keyur Rakholiya"
@@ -35,10 +35,10 @@ faqs:
 featured: false
 ---
 
-PVcase is one of the few solar design tools that treats land as a real, awkward, three-dimensional thing rather than a flat rectangle. That single design decision explains most of what the product is good at and most of what it is not. This review covers what PVcase is in 2026, which category it belongs to, what its four product lines actually do, where the terrain engine earns its keep, and the limitations a buyer should test before starting an enterprise procurement cycle. The short warning first, because it saves some readers the rest of the page: this is utility-scale and ground-mount software. If you sell rooftop systems to homeowners, close the tab.
+PVcase is one of the few solar design tools that treats land as a real, awkward, three-dimensional thing rather than a flat rectangle. That single design decision explains most of what the product is good at and most of what it is not. This review covers what PVcase is in 2026, which category it belongs to, what its four product lines actually do, where the terrain engine earns its keep, and the limitations a buyer should test before starting an enterprise procurement cycle. The short warning first, because it saves some readers the rest of the page: this is utility-scale and [ground-mount](https://www.surgepv.com/best-solar-software/ground-mount-design) software. If you sell rooftop systems to homeowners, close the tab.
 
 > **TL;DR**
-> - PVcase is utility-scale and ground-mount software, in the same category as RatedPower, not a rooftop or residential platform.
+> - PVcase is utility-scale and [ground-mount](https://www.surgepv.com/blog/ground-mount-solar-design) software, in the same category as RatedPower, not a rooftop or residential platform.
 > - Its distinctive strength is terrain-aware layout: slope, piling, collision, and grading analysis run against imported high-resolution topography rather than a flat plane.
 > - Ground Mount runs inside AutoCAD, which suits engineering firms whose deliverables already live in CAD and penalises teams that have no CAD habit.
 > - There are four products, Prospect, Ground Mount, Roof Mount, and Yield, licensed separately, and PVcase publishes no prices at all.

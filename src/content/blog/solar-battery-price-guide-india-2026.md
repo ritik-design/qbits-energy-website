@@ -45,7 +45,7 @@ This guide builds that framework. It provides complete price tables by chemistry
 > - On a cost-per-kWh-delivered basis, LiFePO4 runs ₹6-15/kWh versus ₹36-50/kWh for VRLA, a 5-7x advantage over the battery's life.
 > - VRLA cycle life drops 40-60% at 45°C ambient, making lithium the stronger pick for Rajasthan and Gujarat.
 > - A 10-year total cost comparison often favours lithium despite 2-4x higher upfront cost, since VRLA needs 2-3 replacements in the same period.
-> - Any lithium battery in a grid-connected system should carry IEC 62619 or BIS certification to avoid fire risk and warranty voids.
+> - Any lithium battery in a grid-connected system should carry [IEC 62619](/glossary/iec-62619/) or BIS certification to avoid fire risk and warranty voids.
 
 ## Solar Battery Price Table: VRLA (Lead-Acid)
 

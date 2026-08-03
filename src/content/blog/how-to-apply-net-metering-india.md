@@ -35,20 +35,20 @@ faqs:
     a: "ALMM listing is strictly mandatory for PM Surya Ghar subsidy-linked net metering. For standalone net metering without the subsidy, technical compliance matters more - the inverter must carry BIS certification and anti-islanding protection per IEC 62116. In practice, most DISCOMs reference the ALMM list during inspection as a quality assurance shortcut, so ALMM-listed equipment significantly reduces the risk of technical rejection. Qbits on-grid inverters are ALMM-listed and BIS-certified for hassle-free DISCOM inspection."
 ---
 
-Every year, thousands of Indian households install rooftop solar and then discover that getting net metering approved takes far longer than the installation itself. The solar panels go up in two days; the bidirectional meter from the DISCOM sometimes takes three months. The frustration is real, and it is almost entirely avoidable, if you know the process before you begin.
+Every year, thousands of Indian households install rooftop solar and then discover that getting [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) approved takes far longer than the installation itself. The solar panels go up in two days; the bidirectional meter from the DISCOM sometimes takes three months. The frustration is real, and it is almost entirely avoidable, if you know the process before you begin.
 
 > **TL;DR**
-> - The application follows a universal 6-step sequence: verify DISCOM eligibility, install with an empanelled vendor using ALMM-listed equipment, submit the application with documents, pass technical inspection, get the bidirectional meter installed, then sign the net metering agreement.
+> - The application follows a universal 6-step sequence: verify DISCOM eligibility, install with an empanelled vendor using ALMM-listed equipment, submit the application with documents, pass technical inspection, get the bidirectional meter installed, then sign the [net metering](/blog/virtual-net-metering-india/) agreement.
 > - End-to-end timelines run 30-90 days depending on state, Gujarat and Karnataka process fastest at 30-45 days, while Rajasthan and Tamil Nadu average 60-90 days.
 > - Non-ALMM equipment is the single most serious inspection rejection reason; the inverter and panels must appear on the current MNRE ALMM list, especially for PM Surya Ghar subsidy-linked applications.
 > - A 12-item document checklist, bill, ownership proof, commissioning certificate, inverter datasheet, single-line diagram, and more, must be complete before submission to avoid resubmission loops.
-> - Net metering activation also triggers PM Surya Ghar subsidy disbursement, up to ₹78,000 for a 3 kW system, typically within 15 to 30 days of the meter going live.
+> - [Net metering](https://www.heavengreenenergy.com/blog/solar-net-metering) activation also triggers PM Surya Ghar subsidy disbursement, up to ₹78,000 for a 3 kW system, typically within 15 to 30 days of the meter going live.
 
 Net metering in India is not a single national process. It runs through your state DISCOM, under state SERC regulations, with state-specific document requirements and portal URLs. A homeowner in Bengaluru navigates a different set of steps than a homeowner in Jaipur. What is universal is the underlying six-stage sequence, and knowing that sequence, plus the complete document checklist, is what separates applications that sail through from applications that bounce back twice before clearing.
 
 > **Direct answer.** To apply for net metering in India, follow six steps: (1) verify DISCOM eligibility and system size limits, (2) install solar with an empanelled vendor using ALMM-listed equipment, (3) submit the application to your DISCOM with all required documents, bill, ownership proof, commissioning certificate, inverter datasheet, and single-line diagram, (4) pass the DISCOM technical inspection, (5) get the bidirectional meter installed, and (6) sign the net metering agreement and activate. Total timeline: 30–90 days depending on state.
 
-The [net metering in India complete guide](/blog/net-metering-india-complete-guide/) covers the billing mechanics and carry-forward rules in depth. This post focuses specifically on the application process, the steps, the documents, and the state-by-state differences that determine how quickly your [net metering](/glossary/net-metering/) connection actually goes live.
+The [net metering in India complete guide](/blog/net-metering-india-complete-guide/) covers the billing mechanics and carry-forward rules in depth. This post focuses specifically on the application process, the steps, the documents, and the [state-by-state](https://heavendesigns.in/blog/discom-net-metering-process-india-state-by-state/) differences that determine how quickly your [net metering](/glossary/net-metering/) connection actually goes live.
 
 ## What You Need to Know Before Applying for Net Metering
 

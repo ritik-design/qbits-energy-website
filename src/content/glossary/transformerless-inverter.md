@@ -229,6 +229,13 @@ Transformerless inverters dominate modern solar inverter market because they del
 
 QBits Energy supplies ALMM-listed transformerless inverters from leading brands for residential, C&I and utility solar across India.
 
+## Further reading
+
+For how Transformerless Inverter plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Efficiency: 95% vs 97% vs 98%](/blog/solar-inverter-efficiency/)
+- [Transformerless vs Transformer Solar Inverters](/blog/transformerless-vs-transformer-inverter/)
+
 ## Sources
 
 - IEC 62109-1, -2, Inverter safety.

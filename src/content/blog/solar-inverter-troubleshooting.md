@@ -33,7 +33,7 @@ Solar inverters are the heart of every PV system, converting DC from panels into
 > **TL;DR**
 > - This guide walks through the 15 most common solar inverter problems in India, from no display and grid voltage trips to ground faults, arc faults, and hybrid battery integration issues.
 > - Most inverters thermally shut down once internal components exceed 75-85°C; ground faults trip when DC-to-ground insulation resistance drops below 1 megohm.
-> - Anti-islanding protection must disconnect the inverter from a de-energised grid within roughly 2 seconds under Indian grid codes.
+> - [Anti-islanding](/glossary/anti-islanding/) protection must disconnect the inverter from a de-energised grid within roughly 2 seconds under Indian grid codes.
 > - A 100 kW commercial system loses about 410 kWh (₹3,000-4,000) per day of downtime, so fast, systematic diagnosis has a direct financial payoff.
 > - Monthly remote checks, quarterly visual inspections, and an annual comprehensive inspection (thermal imaging, insulation resistance, grounding, SPD testing) catch most failures before they cause downtime.
 

@@ -36,15 +36,15 @@ faqs:
 featured: false
 ---
 
-Karnataka homeowners asking about solar in 2026 have one distinct advantage over most other Indian states: BESCOM, which covers Bangalore and the surrounding districts, operates one of the most digitised solar net metering portals in the country. Combined with Karnataka's high solar irradiance, 5.0 to 6.0 kWh/m²/day in much of the state, and the central PM Surya Ghar subsidy of up to ₹78,000 for a 3 kW system, rooftop solar in Karnataka delivers some of the most attractive payback economics in India.
+Karnataka homeowners asking about solar in 2026 have one distinct advantage over most other Indian states: BESCOM, which covers Bangalore and the surrounding districts, operates one of the most digitised solar [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) portals in the country. Combined with Karnataka's high solar irradiance, 5.0 to 6.0 kWh/m²/day in much of the state, and the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) of up to ₹78,000 for a 3 kW system, rooftop solar in Karnataka delivers some of the most attractive payback economics in India.
 
 This guide covers the complete Karnataka solar subsidy picture: what the central scheme provides, how BESCOM's online application process works, what the four non-BESCOM DISCOMs (HESCOM, MESCOM, CESC, GESCOM) require, realistic timelines, the documents you will need, and a worked example from a Bangalore homeowner.
 
 > **TL;DR**
-> - Karnataka relies on the central PM Surya Ghar subsidy alone (up to ₹78,000 for 3 kW); there is no separate state cash top-up as of 2026.
+> - Karnataka relies on the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) alone (up to ₹78,000 for 3 kW); there is no separate state cash top-up as of 2026.
 > - BESCOM (Bangalore) runs the most digitised solar portal of Karnataka's five DISCOMs, with a 45 to 75 day timeline versus 60 to 130 days for HESCOM, MESCOM, CESC, or GESCOM.
 > - Bangalore's monsoon (June to September) cuts generation by 30 to 40 percent, so payback estimates should use annual figures, not summer peak output.
-> - KERC's net metering framework settles surplus units annually at the export tariff (₹3.00–₹4.00/unit), well below the ₹5–₹8/unit import tariff, so self-consumption is significantly more valuable than export.
+> - KERC's [net metering](https://www.heavengreenenergy.com/blog/solar-net-metering) framework settles surplus units annually at the export tariff (₹3.00–₹4.00/unit), well below the ₹5–₹8/unit import tariff, so self-consumption is significantly more valuable than export.
 > - A Whitefield case example (3 kW, ₹2,00,000 gross cost, ₹78,000 subsidy) reached roughly 3.7 years' payback.
 
 > **Karnataka's solar subsidy in 2026 rests primarily on the central PM Surya Ghar scheme.** The scheme provides up to ₹78,000 for a 3 kW residential system. Karnataka does not currently operate a separate state cash top-up comparable to Gujarat's programme. What Karnataka provides instead is high irradiance (5.0–5.5 kWh/m²/day in Bangalore, up to 6.0 in northern Karnataka), BESCOM's relatively efficient online portal, and a KERC net metering framework that credits surplus generation annually at approximately ₹3.00–₹4.00 per unit.

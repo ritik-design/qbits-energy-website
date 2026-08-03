@@ -3,8 +3,8 @@ title: "Best Solar Software South Africa: The Complete 2026 Stack"
 excerpt: "Single-phase residential is capped near 10 kVA and three-phase near 25 kVA. A design tool that does not enforce that at layout stage is building rework."
 description: "Best solar software South Africa 2026: the full stack for design, proposals, CRM and compliance. NRS 097-2-1:2024, SANS 10142-1, SSEG approval, CoC issuance and Section 12B deductions."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-south-africa.svg"
 author: "Nirav Dhanani"
@@ -39,7 +39,7 @@ South African solar design has hard ceilings, and the most common software failu
 > - Residential single-phase is typically capped near 10 kVA and three-phase near 25 kVA across Eskom and the major municipalities.
 > - Above 25 kVA, ECSA Professional Engineer sign-off applies under an October 2025 policy update.
 > - NRS 097-2-1:2024 governs LV grid integration including protection, anti-islanding, export limits and metering.
-> - SANS 10142-1:2020 is the wiring code, SANS 10142-2:2017 covers earthing and bonding, IEC 62619 covers batteries.
+> - SANS 10142-1:2020 is the wiring code, SANS 10142-2:2017 covers earthing and bonding, [IEC 62619](/glossary/iec-62619/) covers batteries.
 > - SSEG approval is mandatory before energising and a DoL-registered contractor issues the CoC.
 > - Section 12B gives businesses a 125% first-year capital deduction with no size limit.
 > - [SurgePV](https://surgepv.com/) applies the limits at design time at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).

@@ -38,9 +38,9 @@ faqs:
 When a homeowner signs a 25-year solar loan or commits to a rooftop installation through a turnkey solar EPC, they're making a capital decision that spans a generation. The panels carry a 25-year product warranty and a 30-year linear performance guarantee: the manufacturer promises the modules will still produce at least 80 percent of rated output three decades from now. Then there's the inverter. For most of the past decade, standard warranty on Indian market inverters has been 2 to 5 years. That covers maybe 10 to 20 percent of the asset's operating life. That gap isn't a footnote. It's where most of the financial risk in a residential solar system lives.
 
 > **TL;DR**
-> - A 12-year full replacement warranty is now the credible minimum for a 25-year solar asset; most Indian brands still ship 5-year, repair-based coverage.
+> - A 12-year full replacement warranty is now the credible minimum for a 25-year solar asset; most Indian brands still ship [5-year](https://www.heavengreenenergy.com/blog/local-installer-vs-branded-epc-5-year-cost), repair-based coverage.
 > - Inverter-related issues account for roughly 60 percent of all solar service calls in India, with failures clustering between year 6 and year 14.
-> - Out-of-warranty inverter replacement costs ₹40,000 to ₹1,50,000 depending on system size, and a repair warranty can leave a homeowner waiting 4 to 8 weeks.
+> - Out-of-warranty [inverter replacement](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost) costs ₹40,000 to ₹1,50,000 depending on system size, and a repair warranty can leave a homeowner waiting 4 to 8 weeks.
 > - A 12-year replacement warranty inverter can save roughly ₹28,000 in 25-year total cost of ownership versus a budget 5-year-warranty unit.
 > - Qbits offers a 12-year full unit replacement warranty as standard on its TLS, TLD, HS, and HT series, with dispatch within 72 hours of claim approval.
 

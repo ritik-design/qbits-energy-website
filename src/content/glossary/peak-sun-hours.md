@@ -231,6 +231,13 @@ PSH is a simplified single-number measure of daily solar resource, equal to dail
 
 QBits Energy designs solar systems using site-specific PSH for residential and small commercial customers across Indian states.
 
+## Further reading
+
+For how Peak Sun Hours plays out in real projects, these guides go deeper:
+
+- [Solar Irradiance Data India, Peak Sun Hours](/blog/solar-irradiance-data-india-statewise/)
+- [How Much Electricity Does Solar Generate in India?](/blog/how-much-electricity-solar-generates-india/)
+
 ## Sources
 
 - NIWE Solar Resource Atlas.

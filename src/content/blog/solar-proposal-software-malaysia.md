@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Malaysia: 2026 Guide"
 excerpt: "The best solar proposal software Malaysia installers need quotes inside the NEM 3.0 caps, models GITA, and sets a realistic 4 to 6 month timeline. Six tools compared."
 description: "Best solar proposal software Malaysia 2026. SurgePV vs Aurora, PVsyst, OpenSolar on NEM 3.0 quota, the 75% MD cap, GITA tax allowance and SEDA approval timelines."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-malaysia.svg"
 author: "Akash Hirapara"
@@ -37,16 +37,16 @@ A Malaysian solar quote is decided before the design starts. Domestic NEM 3.0 in
 
 > **TL;DR**
 > - NEM 3.0 caps domestic at 12 kWp and non-domestic at 75% of Maximum Demand.
-> - Export offsets imports 1:1 at the tariff rate, so self-consumption and export are worth the same.
+> - Export offsets imports 1:1 at the [tariff](/glossary/tariff/) rate, so self-consumption and export are worth the same.
 > - The scheme is quota-based via SEDA. No approval means no bi-directional meter and no legal export.
 > - Typical timeline is 4 to 6 months from SEDA application to first billing cycle.
 > - GITA gives a 100% investment tax allowance over 3 years, subject to MIDA approval.
 > - Sarawak runs separately under SEB. Sabah and Labuan use SESB's own scheme.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for Malaysian installers in 2026 is SurgePV, because it enforces the NEM 3.0 capacity ceilings at design time, models GITA for commercial buyers, and generates the customer document from the same engineering record so the quoted system is the permissible one. PVsyst suits large C&I engineering with separate quoting. OpenSolar works for domestic inside the 12 kWp cap.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Malaysian installers in 2026 is SurgePV, because it enforces the NEM 3.0 capacity ceilings at design time, models GITA for commercial buyers, and generates the customer document from the same engineering record so the quoted system is the permissible one. PVsyst suits large C&I engineering with separate quoting. OpenSolar works for domestic inside the 12 kWp cap.
 
-Malaysia has good irradiance, an unusually favourable 1:1 export offset, and a well-organised regulator. The friction is entirely administrative, which means the proposal is as much a scheduling document as a financial one. For the design-side comparison see our [best solar design software Malaysia](/blog/solar-design-software-malaysia/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
+[Malaysia](/blog/solar-software-malaysia/) has good irradiance, an unusually favourable 1:1 export offset, and a well-organised regulator. The friction is entirely administrative, which means the proposal is as much a scheduling document as a financial one. For the design-side comparison see our [best solar design software Malaysia](/blog/solar-design-software-malaysia/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
 
 <div class="inline-cta">
 <h3>Quote a Malaysian job inside the permissible cap</h3>

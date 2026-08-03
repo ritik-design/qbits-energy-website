@@ -238,6 +238,10 @@ Factory solar projects fail at a higher rate than residential installations, not
 
 For a thorough review of the commissioning process for grid-connected industrial systems, the [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/) covers the full DISCOM inspection checklist. [MNRE's technical standards for grid-connected rooftop systems](https://mnre.gov.in/) outline the eligibility criteria and documentation requirements for C&I projects seeking state-level incentives and DISCOM connectivity approvals.
 
+Small flour mills sit at the bottom of this range and are covered separately in [solar for atta chakki units](/blog/atta-chakki-ke-liye-solar/).
+
+A milling-specific load profile and payback is in [solar for rice mills](/blog/solar-for-rice-mill-india/).
+
 ## Where Qbits Fits in the Industrial Solar Stack
 
 Factory owners who want a 3-phase on-grid inverter that handles industrial harmonic environments, ships with 12-year full replacement warranty, and comes ALMM-listed for PSU-funded projects have a credible Indian-made option. Qbits 3-phase inverters are built to India-grid specifications (180–270 V input tolerance, 45 °C ambient derating curves, and anti-islanding compliance) not European lab conditions.

@@ -253,6 +253,15 @@ A bidirectional meter is the device that makes net metering possible. It records
 
 QBits Energy coordinates bidirectional meter procurement, DISCOM approval and commissioning for net-metered rooftop solar across Indian states.
 
+## Further reading
+
+For how Bidirectional Meter plays out in real projects, these guides go deeper:
+
+- [Best Solar Proposal Software UK: 2026 Guide](/blog/solar-proposal-software-uk/)
+- [How Does a Solar Power System Work in India?](/blog/how-solar-power-system-works-india/)
+- [Solar Inverter Wiring Diagram for Indian Homes 2026: Panels to Meter Board](/blog/solar-inverter-wiring-diagram/)
+- [Solar Inverter Price with Installation in India 2026: The Real All-In Cost](/blog/solar-inverter-price-with-installation/)
+
 ## Sources
 
 - IS 16444, Indian Standard for AC static smart meters.

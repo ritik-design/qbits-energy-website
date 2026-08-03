@@ -271,6 +271,15 @@ SOC is the most important real-time battery metric. Modern BMS estimate SOC thro
 
 QBits Energy provides BMS-integrated storage solutions with accurate SOC reporting for residential, C&I and utility-scale solar projects in India.
 
+## Further reading
+
+For how Battery SOC plays out in real projects, these guides go deeper:
+
+- [Solar Inverter vs UPS, What's the Real Difference?](/blog/solar-inverter-vs-ups/)
+- [Solar Inverter Beeping at Night, Causes and Fix](/blog/solar-inverter-beeping-at-night-fix/)
+- [Best Solar Battery Brands in India 2026](/blog/best-solar-battery-brands-india-2026/)
+- [Solar Plus Storage Design Software 2026](/blog/solar-plus-storage-design-software/)
+
 ## Sources
 
 - IEC 61960:2017, Performance requirements for secondary lithium cells.

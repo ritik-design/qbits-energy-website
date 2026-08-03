@@ -31,11 +31,11 @@ faqs:
     a: "Many petrol pumps in India operate 24 hours. Solar generates only during daylight hours. For nighttime loads, the pump draws from the grid or DG as before. The solar system reduces daytime grid import significantly, while nighttime loads are unchanged. Net metering credits built up during daytime help offset the nighttime grid bill. For petrol pumps with significant nighttime DG costs, a battery storage system paired with a hybrid inverter can store daytime solar generation for nighttime use - reducing DG running hours."
 ---
 
-A petrol pump owner in India faces a paradox: they sell a hydrocarbon fuel whose price they have no control over, yet they pay electricity bills of ₹1–3 Lakh per month for the equipment that makes the business run. Fuel dispensers, air compressors, canopy lighting, CCTV, POS systems, air conditioning, and EV charging, all drawing power 12–24 hours a day.
+A [petrol pump](https://www.heavengreenenergy.com/blog/solar-for-petrol-pump) owner in India faces a paradox: they sell a hydrocarbon fuel whose price they have no control over, yet they pay electricity bills of ₹1–3 Lakh per month for the equipment that makes the business run. Fuel dispensers, air compressors, canopy lighting, CCTV, POS systems, air conditioning, and EV charging, all drawing power 12–24 hours a day.
 
 Solar for petrol pumps is a well-established and financially sound application across Indian states. But it comes with two challenges that residential solar does not: PESO compliance (because you are installing electrical equipment near flammable fuel), and canopy mounting (because petrol pumps rarely have a conventional rooftop).
 
-> **Direct answer.** A typical petrol pump in India needs a 15–25 kW solar system to cover 60–80% of daytime electricity demand. PESO compliance requires inverters and panels to be placed outside designated hazardous zones. Canopy-mounted panels are the standard solution where no separate roof exists. Use the Petrol Pump Solar Compliance Checklist in this guide to verify your installation meets all regulatory requirements.
+> **Direct answer.** A typical [petrol pump](https://www.heavengreenenergy.com/blog/solar-for-petrol-pump-hp-ioc) in India needs a 15–25 kW solar system to cover 60–80% of daytime electricity demand. PESO compliance requires inverters and panels to be placed outside designated hazardous zones. Canopy-mounted panels are the standard solution where no separate roof exists. Use the Petrol Pump Solar Compliance Checklist in this guide to verify your installation meets all regulatory requirements.
 
 > **TL;DR**
 > - PESO's IS/IEC 60079 zone classification requires inverters and AC panels to sit at least 8 metres from fuel dispensers, outside Zone 1 and Zone 2.

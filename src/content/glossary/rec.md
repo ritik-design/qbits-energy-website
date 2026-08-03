@@ -265,6 +265,15 @@ RECs are tradable certificates representing 1 MWh of renewable generation. India
 
 QBits Energy advises corporates on integrated renewable procurement strategies combining on-site solar, off-site PPAs and RECs for RE100 and BRSR compliance.
 
+## Further reading
+
+For how Renewable Energy Certificate plays out in real projects, these guides go deeper:
+
+- [MNRE Rooftop Solar Scheme, Complete 2026 Guide](/blog/mnre-rooftop-solar-scheme/)
+- [What Is Solar Energy, Beginner's Guide for India](/blog/what-is-solar-energy-india-beginners/)
+- [Solar for School and College India](/blog/solar-for-school-college-india/)
+- [Solar for Hotels and Hospitality India](/blog/solar-for-hotel-hospitality-india/)
+
 ## Sources
 
 - CERC REC Regulations 2022.

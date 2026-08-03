@@ -35,17 +35,17 @@ faqs:
 featured: false
 ---
 
-Solar लगवाने की सोच रहे हैं तो सबसे पहला सवाल यही आता है: solar panel lagane ka kharcha आखिर कितना है। Problem यह है कि जो number आपको WhatsApp पर मिलता है वह अक्सर सिर्फ panel और inverter का होता है। असली bill में structure, cable, conduit, earthing, lightning arrestor, net metering fee, labour, transport और AMC भी जुड़ते हैं। यही वजह है कि ₹1.5 lakh का quote final settlement में ₹1.9 lakh बन जाता है और buyer को लगता है कि उसे ठगा गया। यह guide उस पूरे bill को line by line खोलती है, 3 kW और 5 kW दोनों के लिए, फिर PM Surya Ghar subsidy घटाकर बताती है कि जेब से actually कितना जाएगा।
+Solar लगवाने की सोच रहे हैं तो सबसे पहला सवाल यही आता है: solar panel lagane ka kharcha आखिर कितना है। Problem यह है कि जो number आपको WhatsApp पर मिलता है वह अक्सर सिर्फ panel और inverter का होता है। असली bill में structure, cable, conduit, earthing, lightning arrestor, net metering fee, labour, transport और AMC भी जुड़ते हैं। यही वजह है कि ₹1.5 lakh का quote final settlement में ₹1.9 lakh बन जाता है और buyer को लगता है कि उसे ठगा गया। यह guide उस पूरे bill को line by line खोलती है, 3 kW और 5 kW दोनों के लिए, फिर [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy घटाकर बताती है कि जेब से actually कितना जाएगा।
 
 > **TL;DR**
 > - 3 kW on-grid system का all-in installed cost 2026 में ₹1.55 lakh से ₹2.10 lakh, 5 kW का ₹2.45 lakh से ₹3.25 lakh।
 > - Hidden line items (earthing, SPD, conduit, net meter, civil work, transport) ₹20,000 से ₹50,000 अलग से जोड़ते हैं।
-> - PM Surya Ghar subsidy maximum ₹78,000 है और 3 kW पर cap हो जाती है, 5 kW वाले को भी उतना ही मिलता है।
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy maximum ₹78,000 है और 3 kW पर cap हो जाती है, 5 kW वाले को भी उतना ही मिलता है।
 > - Net out-of-pocket: 3 kW में ₹77,000 से ₹1.32 lakh, 5 kW में ₹1.67 lakh से ₹2.47 lakh।
 > - Subsidy के लिए ALMM listed equipment और DCR panels अनिवार्य हैं, सस्ता non-DCR panel subsidy खा जाता है।
-> - Solar inverter पर GST 12% है, और net metering charges हर state DISCOM में अलग हैं।
+> - Solar inverter पर GST 12% है, और net metering charges हर state [DISCOM](/glossary/discom/) में अलग हैं।
 
-**Short version.** Ghar par solar panel lagane ka kharcha 2026 में 3 kW के लिए ₹1.55 lakh से ₹2.10 lakh तक है, सब कुछ included। PM Surya Ghar की ₹78,000 subsidy के बाद net ₹77,000 से ₹1.32 lakh पड़ता है। 5 kW का gross ₹2.45 lakh से ₹3.25 lakh है और subsidy वही ₹78,000 रहती है, इसलिए net ₹1.67 lakh से ₹2.47 lakh बनता है।
+**Short version.** Ghar par solar panel lagane ka kharcha 2026 में 3 kW के लिए ₹1.55 lakh से ₹2.10 lakh तक है, सब कुछ included। [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) की ₹78,000 subsidy के बाद net ₹77,000 से ₹1.32 lakh पड़ता है। 5 kW का gross ₹2.45 lakh से ₹3.25 lakh है और subsidy वही ₹78,000 रहती है, इसलिए net ₹1.67 lakh से ₹2.47 lakh बनता है।
 
 यह post total installed cost पर focus करती है। अगर सिर्फ panel का per watt rate जानना है तो [solar panel ki kimat wali guide](/blog/solar-panel-ki-kimat/) देखें, और inverter का brand-wise price comparison [solar inverter price guide](/blog/solar-inverter-price-2026-hindi/) में है।
 
@@ -225,6 +225,10 @@ Payback = ₹1,03,000 ÷ ₹27,000 ≈ 3.8 साल। इसमें AMC ₹3
 | Frequent power cuts, backup चाहिए | Hybrid system, battery cost अलग जोड़ें |
 
 Power cut वाले इलाकों में hybrid route पर battery cost पूरी तरह अलग bucket है और उस पर central subsidy लागू नहीं होती। [Hybrid inverter options](/hybrid-inverter/) पर capacity-wise details हैं।
+
+Commercial chakki ka load ghar se alag hota hai, uska pura hisab [atta chakki ke liye solar](/blog/atta-chakki-ke-liye-solar/) mein hai.
+
+Sirf inverter ka rate dekhna ho to [solar inverter ka rate](/blog/solar-inverter-ka-rate/) padhein.
 
 ## The Bottom Line
 

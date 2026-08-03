@@ -3,8 +3,8 @@ title: "Best Solar Software France: The Complete 2026 Stack"
 excerpt: "The prime is gone and surplus sells at 1.1 centimes. French software bought before June 2026 is now modelling two revenue lines that no longer exist."
 description: "Best solar software France 2026: the full stack for design, proposals, CRM and compliance. The S21 reform, the abolished prime à l'autoconsommation, 1.1 c/kWh surplus, NF C 15-712 and Consuel."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-france.svg"
 author: "Nirav Dhanani"
@@ -41,7 +41,7 @@ Every French solar proposal written before 5 June 2026 contained two revenue lin
 > - Connections validated by Enedis before that date keep old tariffs and bonus for twenty years, creating two populations of systems.
 > - Design now optimises self-consumption rather than generation, which needs hourly load modelling.
 > - Storage moved from upsell to central design question, converting 1.1 centime energy into retail-value energy.
-> - NF C 15-712-1 and NF C 15-100 apply, with a Consuel attestation required before commissioning.
+> - NF C 15-712-1 and NF C 15-100 apply, with a Consuel attestation required before [commissioning](/glossary/commissioning/).
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
 **Short version.** The best solar software for a French business in 2026 is whichever tool has been updated for the post-S21 rules and can dispatch a battery against an hourly load profile. The first is a correctness test and the second is a capability test, and a surprising number of platforms fail both.

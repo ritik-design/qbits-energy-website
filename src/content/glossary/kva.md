@@ -214,6 +214,13 @@ kVA is the apparent power rating used for AC equipment whose thermal capacity de
 
 QBits Energy provides kVA-based sizing for solar inverters, transformers and hybrid backup systems across India.
 
+## Further reading
+
+For how kVA plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Efficiency: 95% vs 97% vs 98%](/blog/solar-inverter-efficiency/)
+- [Monsoon Solar Prep: Complete Checklist for India](/blog/monsoon-solar-prep/)
+
 ## Sources
 
 - IEC 80000-1, SI Units.

@@ -201,6 +201,15 @@ VGF (Viability Gap Funding) is a capital subsidy bridging gap between project co
 
 QBits Energy advises BESS developers on VGF scheme participation, tender bidding and storage project economics under Indian government support frameworks.
 
+## Further reading
+
+For how Viability Gap Funding plays out in real projects, these guides go deeper:
+
+- [Solar Subsidy in Gujarat 2026, Surya Gujarat](/blog/solar-subsidy-gujarat-2026/)
+- [KUSUM Yojana: Agricultural Solar Subsidy Guide](/blog/kusum-yojana-agricultural-solar-subsidy/)
+- [PM Surya Ghar Muft Bijli Yojana, Complete 2026 Guide](/blog/pm-surya-ghar-yojana-complete-guide/)
+- [Solar Subsidy in Uttar Pradesh 2026, UPNEDA](/blog/solar-subsidy-uttar-pradesh-2026/)
+
 ## Sources
 
 - MNRE BESS VGF Scheme Guidelines 2023.

@@ -33,10 +33,10 @@ faqs:
     a: "SAM (NREL) is the best learning tool for the engineering fundamentals. PVWatts is good for understanding yield estimation basics. For production workflow training, the SurgePV free trial lets engineers practise on a full-feature platform without commitment."
 ---
 
-"Free solar design software" sounds great until the hardware add-ons add up, project caps kick in, or the simulation depth turns out to be too thin for the project you actually need to ship. This guide walks through every genuinely free option in 2026, names the catches, and explains when [SurgePV](https://surgepv.com/)'s flat-priced plan is the better deal.
+"Free solar [design software](https://www.surgepv.com/best-solar-software/free-solar-design-software)" sounds great until the hardware add-ons add up, project caps kick in, or the simulation depth turns out to be too thin for the project you actually need to ship. This guide walks through every genuinely free option in 2026, names the catches, and explains when [SurgePV](https://surgepv.com/)'s flat-priced plan is the better deal.
 
 > **TL;DR**
-> - Truly free production-grade solar design software: OpenSolar free tier (small residential only).
+> - Truly free production-grade solar [design software](https://www.surgepv.com/blog/free-vs-paid-solar-design-software): OpenSolar free tier (small residential only).
 > - Truly free research tools: SAM (NREL), PVWatts.
 > - "Free trial, no credit card" full-feature evaluation: SurgePV.
 > - At 5+ projects per designer per month, paid flat-rate platforms are almost always cheaper than free + add-ons.

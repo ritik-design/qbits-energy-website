@@ -195,6 +195,8 @@ Sometimes true, often not. If your monthly bill is ₹5,000 and you install a we
 **Myth 3: "I need to store all my energy in batteries."**
 Not necessary for on-grid systems. Net metering effectively turns the DISCOM grid into a free, unlimited battery. You export surplus during the day and import at night at no additional cost, only the net difference appears on your bill. Batteries add cost; they are only justified if power cuts are frequent or grid access is unreliable.
 
+Elsewhere in the Heaven Group network, see [what happens on installation day](https://www.heavengreenenergy.com/blog/solar-installation-day-by-day) and [an installed cost breakdown](https://quickestimate.co/blog/cost-breakdown-solar-installation).
+
 ## Where Qbits Fits in Your Solar Journey
 
 Once the basics are clear, the next question becomes: which inverter brand should I trust with a 12-year commitment? Qbits Energy manufactures on-grid and hybrid inverters specifically tuned for Indian grid conditions, 180–270 V voltage swings, 45 °C ambient temperatures, and the monsoon dust cycles that cause premature failure in inverters designed for European or American grids.

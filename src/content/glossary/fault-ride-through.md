@@ -266,6 +266,15 @@ Fault Ride Through is the grid-code requirement that solar inverters above 10 kW
 
 QBits Energy supports EPCs and developers on FRT-compliant inverter selection, plant controller coordination, and commissioning support across Indian utility and large C&I solar projects.
 
+## Further reading
+
+For how Fault Ride Through plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Error Codes: India Troubleshooting](/blog/solar-inverter-error-codes-guide/)
+- [India Grid Solar Inverter Firmware, Engineer's Guide](/blog/tuning-inverters-indian-grid/)
+- [Solar Inverter Firmware Update, When, How and Why](/blog/solar-inverter-firmware-update-india/)
+- [Reactive Power Support from Solar Inverters India](/blog/reactive-power-solar-inverters-india/)
+
 ## Sources
 
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.

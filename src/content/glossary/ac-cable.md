@@ -252,6 +252,15 @@ AC cable carries inverter output to the distribution board and meter. Indian sol
 
 QBits Energy supplies and installs IS-compliant AC cabling sized for both ampacity and voltage drop across Indian residential, C&I and utility solar projects.
 
+## Further reading
+
+For how AC Cable plays out in real projects, these guides go deeper:
+
+- [Inverter Battery Connection Diagram and Sizing Guide for Hybrid Solar](/blog/inverter-battery-connection-diagram/)
+- [Solar Inverter for Cold Storage, Sizing and VFDs](/blog/solar-inverter-for-cold-storage-india/)
+- [Solar Inverter for Water Pump, KUSUM Picks](/blog/solar-inverter-for-water-pump/)
+- [DC Oversizing in Solar: FAQ Guide for Maximum ROI](/blog/dc-oversizing-in-solar/)
+
 ## Sources
 
 - IS 694, PVC-insulated cable.

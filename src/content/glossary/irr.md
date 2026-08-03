@@ -267,6 +267,14 @@ IRR is the annual return metric for solar projects, calculated as the discount r
 
 QBits Energy provides bankable IRR analysis for utility, C&I and residential solar projects with sensitivity and stress scenarios.
 
+## Further reading
+
+For how IRR plays out in real projects, these guides go deeper:
+
+- [Solar Investment vs Fixed Deposit, Which Wins?](/blog/solar-investment-vs-fd-india/)
+- [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/)
+- [Solar Inverter Reliability Index, Qbits Research](/blog/solar-inverter-reliability-index/)
+
 ## Sources
 
 - CERC Tariff Regulations 2024.

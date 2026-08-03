@@ -37,7 +37,7 @@ India's solar story is one of the most dramatic energy transitions in global his
 
 > **TL;DR**
 > - India's total solar installed capacity crossed roughly 100 GW by March 2026, the world's fourth-largest solar market behind China, the US, and Germany.
-> - Rooftop solar accounts for about 13.9 GW of that total, with PM Surya Ghar driving the fastest growth in the residential segment.
+> - Rooftop solar accounts for about 13.9 GW of that total, with [PM Surya Ghar](https://www.surgepv.com/blog/solar-energy-india-kusum-pm-surya-ghar) driving the fastest growth in the residential segment.
 > - The solar sector employs 240,000–280,000 people directly and drew USD 8–10 billion in investment in 2025.
 > - Solar generates roughly 7–8% of India's electricity today, versus a targeted 15–18% by 2030.
 > - India needs to add 45–50 GW of solar per year through 2030 to hit its 280–300 GW target, nearly double the 24–26 GW added in 2025.

@@ -3,8 +3,8 @@ title: "Best Solar Software Italy: The Complete 2026 Stack"
 excerpt: "Scambio sul Posto closed in May 2025 and most Italian quoting software still models it. That is not a feature gap, it is a wrong answer."
 description: "Best solar software Italy 2026: the full stack for design, proposals, CRM and compliance. Ritiro Dedicato, the end of Scambio sul Posto, the 50% detrazione and CEI 0-21."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-italy.svg"
 author: "Nirav Dhanani"

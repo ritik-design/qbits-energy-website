@@ -3,8 +3,8 @@ title: "Best Solar Design Software UAE: 2026 Guide"
 excerpt: "The best solar design software UAE installers need handles DEWA Shams Dubai, ADDC netting, EtihadWE credit expiry and ECAS certification. Six tools compared."
 description: "Best solar design software UAE 2026. SurgePV vs Aurora, PVsyst, HelioScope on DEWA Shams Dubai, ADDC energy netting, EtihadWE, ECAS certification and IEC standards."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-design-software-uae.svg"
 author: "Keyur Rakholiya"
@@ -41,11 +41,11 @@ The UAE is four solar markets wearing one flag, and a design tool that treats it
 > - ADDC and AADC Abu Dhabi: 5 MW per premises, kWh offset only with no cash payment, indefinite accumulation.
 > - EtihadWE Northern Emirates: launched 17 September 2024, calendar-year credits that expire at year-end, aggregate cap allocated first-come first-served.
 > - SEWA Sharjah has no formal distributed solar programme published as of early 2026.
-> - All equipment needs ECAS certification plus IEC 61215, 61730, 62109, 62116, 61727 and 60255 compliance.
+> - All equipment needs ECAS certification plus [IEC 61215](/glossary/iec-61215/), 61730, 62109, 62116, 61727 and 60255 compliance.
 > - Solar equipment is zero-rated for UAE VAT at supply and installation across all seven emirates.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for UAE installers in 2026 is SurgePV, because the four utility regimes differ on capacity limits, credit mechanism and credit expiry, and the design tool has to model the specific utility. SurgePV also carries the IEC standards the emirates mandate and produces the proposal from the same record. PVsyst remains the bankable reference for large ground-mount. Aurora models US net metering structures that do not exist here.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/3d-solar-design-software/) for UAE installers in 2026 is SurgePV, because the four utility regimes differ on capacity limits, credit mechanism and credit expiry, and the design tool has to model the specific utility. SurgePV also carries the IEC standards the emirates mandate and produces the proposal from the same record. PVsyst remains the bankable reference for large ground-mount. Aurora models US net metering structures that do not exist here.
 
 The UAE combines high irradiance, low soft costs, and a regulatory environment that is genuinely well organised by regional standards. The complication is fragmentation, and it falls entirely on whoever prepares the design. For the broader category comparison see our [solar design software](/blog/solar-design-software/) buyer's guide and the [best solar design software](/blog/best-solar-design-software/) ranking.
 
@@ -155,6 +155,8 @@ The same villa rooftop returns five and a half times more in Dubai than for a su
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/uae" target="_blank" rel="noopener noreferrer">UAE compliance library</a></p>
 </div>
+
+Design is one layer. For how simulation, proposal, compliance and CRM fit around it, see the [full solar software stack for the UAE](/blog/solar-software-uae/).
 
 ## The Bottom Line
 

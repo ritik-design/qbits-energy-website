@@ -34,17 +34,17 @@ faqs:
 featured: false
 ---
 
-Solar inverter घर का सबसे छोटा दिखने वाला component है, लेकिन पूरे system का दिमाग यही है। Panels 25 साल चुपचाप काम करते हैं, inverter हर सेकंड decision लेता है: कितनी power बनानी है, कहाँ भेजनी है, grid गिरे तो क्या करना है। यही वजह है कि जो घर solar से खुश नहीं रहते, उनमें ज़्यादातर शिकायत panels की नहीं, inverter की होती है। Trip हो रहा है, monsoon में बंद पड़ गया, service वाला दो हफ्ते नहीं आया, subsidy claim reject हो गई क्योंकि model ALMM list में था ही नहीं। ये सब selection की गलतियाँ हैं, luck नहीं। इस guide में हम सिर्फ एक काम करेंगे: आपके घर के लिए सही inverter कैसे चुनें। Installation process इसमें नहीं है, वो अलग topic है।
+[Solar inverter](/glossary/solar-inverter/) घर का सबसे छोटा दिखने वाला component है, लेकिन पूरे system का दिमाग यही है। Panels 25 साल चुपचाप काम करते हैं, inverter हर सेकंड decision लेता है: कितनी power बनानी है, कहाँ भेजनी है, grid गिरे तो क्या करना है। यही वजह है कि जो घर solar से खुश नहीं रहते, उनमें ज़्यादातर शिकायत panels की नहीं, inverter की होती है। Trip हो रहा है, monsoon में बंद पड़ गया, service वाला दो हफ्ते नहीं आया, subsidy claim reject हो गई क्योंकि model ALMM list में था ही नहीं। ये सब selection की गलतियाँ हैं, luck नहीं। इस guide में हम सिर्फ एक काम करेंगे: आपके घर के लिए सही inverter कैसे चुनें। Installation process इसमें नहीं है, वो अलग topic है।
 
 > **TL;DR**
-> - Bijli cut रोज़ 2 घंटे से कम है तो on-grid inverter लें, ज़्यादा है तो hybrid। Off-grid सिर्फ तब जब grid connection ही नहीं है।
+> - Bijli cut रोज़ 2 घंटे से कम है तो [on-grid inverter](/glossary/on-grid-inverter/) लें, ज़्यादा है तो hybrid। [Off-grid](https://www.heavengreenenergy.com/blog/on-grid-vs-off-grid-vs-hybrid-solar-systems-gujarat) सिर्फ तब जब grid connection ही नहीं है।
 > - Inverter की rating panel array से 10 से 20 percent कम रखना normal है, यानी 3 kW panels पर 2.5 से 3 kW inverter।
-> - PM Surya Ghar subsidy maximum ₹78,000 है 3 kW residential system पर, लेकिन तभी जब inverter ALMM listed हो।
+> - [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) maximum ₹78,000 है 3 kW residential system पर, लेकिन तभी जब inverter ALMM listed हो।
 > - Solar inverter पर GST 12 percent है, quote में यह अलग से लिखा होना चाहिए।
 > - Rural और semi-urban घरों के लिए 150V से 270V का wide voltage window सबसे ज़्यादा मायने रखता है।
 > - Warranty 10 साल से कम वाला inverter 25 साल के system में महँगा पड़ता है, premium Indian brands 12 साल देते हैं।
 
-**Short version.** घर के लिए solar inverter चुनते समय पाँच चीज़ें decide करती हैं: type (on-grid, hybrid या off-grid), capacity (घर के load और roof के हिसाब से), ALMM listing (subsidy के लिए mandatory), warranty (कम से कम 10 साल) और voltage window (unstable supply वाले इलाकों में 150V से 270V)। Price इन पाँचों के बाद देखें, पहले नहीं।
+**Short version.** घर के लिए solar inverter चुनते समय पाँच चीज़ें decide करती हैं: type (on-grid, hybrid या [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid)), capacity (घर के load और roof के हिसाब से), ALMM listing (subsidy के लिए mandatory), warranty (कम से कम 10 साल) और voltage window (unstable supply वाले इलाकों में 150V से 270V)। Price इन पाँचों के बाद देखें, पहले नहीं।
 
 अगर आप अभी तय कर रहे हैं कि inverter होता क्या है और करता क्या है, तो पहले [solar inverter kya hai](/blog/solar-inverter-kya-hai-hindi/) पढ़ लें। और अगर आप selection के बाद installation का पूरा process जानना चाहते हैं, वो अलग guide में है: [ghar mein solar panel kaise lagwayein](/blog/ghar-mein-solar-panel-kaise-lagwayein/)। यह post सिर्फ चुनने पर focus करता है।
 

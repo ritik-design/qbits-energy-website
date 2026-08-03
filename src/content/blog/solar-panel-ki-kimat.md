@@ -34,11 +34,11 @@ faqs:
 featured: false
 ---
 
-Solar panel ki kimat पूछने पर हर vendor अलग number बताता है, और यही सबसे बड़ी उलझन है। कोई ₹16 प्रति watt बोलता है, कोई ₹30 प्रति watt। दोनों तकनीकी रूप से सही हो सकते हैं, क्योंकि वे अलग technology, अलग DCR status और अलग warranty वाले modules की बात कर रहे हैं। इस guide में 2026 के realistic per watt rates हैं, panel type के हिसाब से price difference में आपको असल में क्या मिलता है, DCR और non-DCR का subsidy से रिश्ता, ALMM listing की भूमिका, और सबसे जरूरी बात: panel की kimat पूरे installed system की लागत का सिर्फ एक तिहाई से आधा हिस्सा होती है। सिर्फ panel rate पर quotes compare करने वाला खरीदार लगभग हमेशा गलत vendor चुन लेता है।
+Solar panel ki kimat पूछने पर हर vendor अलग number बताता है, और यही सबसे बड़ी उलझन है। कोई ₹16 प्रति watt बोलता है, कोई ₹30 प्रति watt। दोनों तकनीकी रूप से सही हो सकते हैं, क्योंकि वे अलग technology, अलग DCR status और अलग warranty वाले modules की बात कर रहे हैं। इस guide में 2026 के realistic per watt rates हैं, panel type के हिसाब से price difference में आपको असल में क्या मिलता है, DCR और [non-DCR](https://www.heavengreenenergy.com/blog/dcr-vs-non-dcr-solar-panels) का subsidy से रिश्ता, ALMM listing की भूमिका, और सबसे जरूरी बात: panel की kimat पूरे installed system की लागत का सिर्फ एक तिहाई से आधा हिस्सा होती है। सिर्फ panel rate पर quotes compare करने वाला खरीदार लगभग हमेशा गलत vendor चुन लेता है।
 
 > **TL;DR**
-> - 2026 में non-DCR mono PERC लगभग ₹18 से ₹24 प्रति watt, TOPCon ₹21 से ₹27, bifacial ₹24 से ₹32 प्रति watt।
-> - DCR modules non-DCR से करीब 15 से 30 percent महँगे, लेकिन PM Surya Ghar subsidy के लिए अनिवार्य।
+> - 2026 में [non-DCR](https://www.heavengreenenergy.com/glossary/non-dcr-solar) mono PERC लगभग ₹18 से ₹24 प्रति watt, TOPCon ₹21 से ₹27, bifacial ₹24 से ₹32 प्रति watt।
+> - DCR modules non-DCR से करीब 15 से 30 percent महँगे, लेकिन [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy के लिए अनिवार्य।
 > - ALMM listing के बिना subsidised और government project में panel चलेगा ही नहीं, चाहे rate कितना भी सस्ता हो।
 > - Panel cost पूरे installed residential system का सिर्फ 33 से 50 percent होती है।
 > - 3 kW पर PM Surya Ghar central subsidy ₹78,000 तक पहुँचती है, जो net cost को बड़ा धक्का देती है।

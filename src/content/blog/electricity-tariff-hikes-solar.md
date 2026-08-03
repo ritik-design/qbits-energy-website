@@ -37,7 +37,7 @@ faqs:
     a: "Post-installation tariff hikes work entirely in the solar owner's favour. The cost of solar generation is fixed at installation - it does not change with grid tariffs. Each subsequent tariff hike by the DISCOM increases the value of every unit of solar energy self-consumed, without increasing the solar system's cost. A homeowner who locked in solar at a 6-year payback under ₹7/unit tariffs will see that payback compress to under 5 years if tariffs rise to ₹9/unit - and the system continues generating free electricity for another 19+ years after payback."
 ---
 
-When your electricity bill arrives and the total has climbed again, you are not imagining the pattern. Indian electricity tariffs have risen at a compound annual rate of 6–9% for more than a decade, and the 2025–26 revision cycle brought some of the steepest hikes in recent memory. Maharashtra's MSEDCL, UP's UPPCL, Karnataka's BESCOM, and Rajasthan's RERC all approved significant rate increases, and those hikes directly change the mathematics of solar investment in the homeowner's favour.
+When your [electricity bill](https://www.surgepv.com/blog/electricity-bill-savings-estimator) arrives and the total has climbed again, you are not imagining the pattern. Indian electricity tariffs have risen at a compound annual rate of 6–9% for more than a decade, and the 2025–26 revision cycle brought some of the steepest hikes in recent memory. Maharashtra's MSEDCL, UP's UPPCL, Karnataka's BESCOM, and Rajasthan's RERC all approved significant rate increases, and those hikes directly change the mathematics of solar investment in the homeowner's favour.
 
 > **TL;DR**
 > - Indian residential tariffs rose from roughly ₹3.50/unit in 2014 to ₹7–8/unit by 2025–26, a 6–9% compound annual rate.
@@ -46,9 +46,9 @@ When your electricity bill arrives and the total has climbed again, you are not 
 > - Rooftop solar LCOE in 2026 sits at ₹3.50–₹5.50/unit, well under retail tariffs of ₹7–10/unit in most states.
 > - Adding the PM Surya Ghar subsidy can push a 3 kW Maharashtra system's payback below 2.5 years.
 
-> **Direct answer.** The electricity tariff hike in 2026 has pushed solar payback periods below five years in most Indian states. Using the Tariff-Adjusted Solar Return (TASR) framework: a 5 kW rooftop system generating 7,200 kWh per year saves ₹43,200 annually at ₹6/unit, but ₹57,600 at ₹8/unit, compressing payback from seven years to just over five years on a ₹3 lakh installation, before any PM Surya Ghar subsidy.
+> **Direct answer.** The electricity [tariff hike](https://www.heavengreenenergy.com/blog/solar-and-electricity-tariff-hike) in 2026 has pushed solar payback periods below five years in most Indian states. Using the Tariff-Adjusted Solar Return (TASR) framework: a 5 kW rooftop system generating 7,200 kWh per year saves ₹43,200 annually at ₹6/unit, but ₹57,600 at ₹8/unit, compressing payback from seven years to just over five years on a ₹3 lakh installation, before any PM Surya Ghar subsidy.
 
-The relationship between grid tariff and solar payback is direct and mathematical. Every time the [DISCOM](/glossary/discom/) raises the rate per unit, the annual rupee value of your solar generation rises by the same proportion, and payback period falls. This article documents the 2025–26 tariff revision data by state, walks through the payback calculation with real numbers, and explains why the [LCOE](/glossary/lcoe/) of rooftop solar is now well below retail grid prices across India.
+The relationship between grid tariff and solar payback is direct and mathematical. Every time the [DISCOM](/glossary/discom/) raises the rate per unit, the annual rupee value of your solar generation rises by the same proportion, and [payback period](https://quickestimate.co/blog/solar-payback-period-by-state) falls. This article documents the 2025–26 tariff revision data by state, walks through the payback calculation with real numbers, and explains why the [LCOE](/glossary/lcoe/) of rooftop solar is now well below retail grid prices across India.
 
 ## Electricity Tariff Hike 2026: State-by-State Data
 

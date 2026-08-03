@@ -251,6 +251,15 @@ Virtual net metering lets one solar plant share credits across multiple electric
 
 QBits Energy designs and coordinates VNM projects for group housing, schools and multi-site commercial customers across applicable Indian states.
 
+## Further reading
+
+For how Virtual Net Metering plays out in real projects, these guides go deeper:
+
+- [Virtual Net Metering in India 2026: The Apartment Dweller's Guide](/blog/virtual-net-metering-india/)
+- [Solar for Apartment Complex (RWA) India](/blog/solar-for-apartment-complex-rwa-india/)
+- [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/)
+- [Best Solar Design Software Philippines: 2026 Guide](/blog/solar-design-software-philippines/)
+
 ## Sources
 
 - Electricity Act 2003, Government of India.

@@ -36,7 +36,7 @@ faqs:
     a: "For systems above 50 kW or in very high lightning-density zones, panel array-level surge protection adds an additional defence layer. Lightning rods, grounding systems for the mounting structure, and DC string-level SPDs at the array combiner box complement the inverter-integrated SPDs. The detailed panel-array surge protection design is project-specific and should be reviewed with the EPC during system design rather than retrofitted later."
 ---
 
-Selecting solar inverters with adequate surge protection is one of the most critical decisions for installations across India, where unpredictable grid voltage fluctuations, frequent switching transients, and intense monsoon-season lightning pose continuous threats to equipment longevity and project ROI. Inadequate surge protection turns a designed 15-year inverter asset into a 5-7 year liability with cascading warranty disputes.
+Selecting solar inverters with adequate [surge protection](https://heavendesigns.in/glossary/spd-surge-protection/) is one of the most critical decisions for installations across India, where unpredictable grid voltage fluctuations, frequent switching transients, and intense monsoon-season lightning pose continuous threats to equipment longevity and project ROI. Inadequate surge protection turns a designed 15-year inverter asset into a 5-7 year liability with cascading warranty disputes.
 
 > **TL;DR**
 > - Integrated DC and AC [SPDs](/glossary/spd/) outperform external add-ons on response time, connection reliability, and warranty coverage.

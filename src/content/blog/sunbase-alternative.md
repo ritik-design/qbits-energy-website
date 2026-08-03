@@ -3,8 +3,8 @@ title: "Best Sunbase Alternatives 2026: Six Platforms Compared"
 excerpt: "Looking for a Sunbase alternative in 2026? Six options compared for solar CRM and design, with SurgePV from $1,299 per user per year. Pick the right layer first."
 description: "An honest Sunbase alternative guide for 2026. Why teams leave, what to evaluate, and six platforms compared across CRM, field operations, design, and proposals, including SurgePV, Solar Ladder, Aurora, HelioScope, and OpenSolar."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/sunbase-alternative.svg"
 author: "Akash Hirapara"

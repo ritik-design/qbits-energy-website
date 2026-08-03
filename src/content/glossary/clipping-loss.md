@@ -211,6 +211,15 @@ Clipping loss is the energy lost when DC array generation exceeds inverter AC ra
 
 QBits Energy provides PVsyst-based DC/AC optimisation and clipping analysis for residential, C&I and utility solar projects across Indian conditions.
 
+## Further reading
+
+For how Clipping Loss plays out in real projects, these guides go deeper:
+
+- [Inverter Clipping Explained: DC Oversizing FAQs](/blog/inverter-clipping-explained/)
+- [DC Oversizing in Solar: FAQ Guide for Maximum ROI](/blog/dc-oversizing-in-solar/)
+- [Solar Inverter Derating in Indian Summer, Explained](/blog/solar-inverter-summer-derating-india/)
+- [How Does a Solar Power System Work in India?](/blog/how-solar-power-system-works-india/)
+
 ## Sources
 
 - IEC 61724, Performance monitoring.

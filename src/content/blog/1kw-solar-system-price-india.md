@@ -33,7 +33,7 @@ faqs:
     a: "A 1kW solar system requires approximately 6 to 8 square metres (65 to 85 square feet) of shadow-free roof area. This accounts for panel area plus spacing for cleaning and maintenance. For a flat concrete roof, standard mounting structures place panels at a 10 to 15 degree tilt facing south. If your roof is smaller or partially shaded, consult an installer before finalising the 1kW capacity."
 ---
 
-Your electricity bill is ₹3,000 to ₹5,000 per month, and you live in a compact 1 BHK apartment or a small independent house. You have heard about the government's PM Surya Ghar scheme and want to know whether a 1kW solar system makes sense, and exactly what it will cost you after subsidy. This guide gives you a component-level cost breakdown, a payback calculator, and an honest answer about what a 1kW on-grid system can and cannot power.
+Your electricity bill is ₹3,000 to ₹5,000 per month, and you live in a compact 1 BHK apartment or a small independent house. You have heard about the government's [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) scheme and want to know whether a 1kW solar system makes sense, and exactly what it will cost you after subsidy. This guide gives you a component-level [cost breakdown](https://www.heavengreenenergy.com/blog/solar-panel-cost-breakdown), a payback calculator, and an honest answer about what a 1kW on-grid system can and cannot power.
 
 > **TL;DR**
 > - A 1kW on-grid system costs ₹65,000 to ₹85,000 before subsidy, and ₹35,000 to ₹55,000 net after the ₹30,000 PM Surya Ghar subsidy.

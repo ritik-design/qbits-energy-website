@@ -280,6 +280,15 @@ A PPA is the contractual foundation for any utility-scale Indian solar project. 
 
 QBits Energy advises developers, C&I customers and corporate offtakers on solar PPA structuring, tariff modelling and bankable contract terms across India.
 
+## Further reading
+
+For how Power Purchase Agreement plays out in real projects, these guides go deeper:
+
+- [Solar RESCO Model India: Guide for C&I Buyers](/blog/solar-resco-model-india-guide/)
+- [Zero Cost Solar India: RESCO & OPEX Models](/blog/zero-cost-solar-resco-opex-india/)
+- [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/)
+- [Solar CAPEX vs OPEX: The C&I Buyer Decision Guide](/blog/solar-capex-vs-opex-india-guide/)
+
 ## Sources
 
 - Electricity Act 2003, Government of India.

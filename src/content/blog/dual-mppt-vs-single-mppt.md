@@ -38,9 +38,9 @@ faqs:
 Most solar salespeople in India present dual MPPT as a premium upgrade everyone should pay for. The truth is more specific. Walk into most Indian neighbourhoods and you will find flat terraced roofs or single-pitch RCC rooftops with all panels facing the same direction. On those roofs, a dual MPPT inverter collects a premium price but delivers no additional watt-hour of energy.
 
 > **TL;DR**
-> - Dual MPPT only pays off when a roof has two distinct string groups with different sun exposure, such as an east-west split, mixed tilt angles, or a shaded section.
+> - Dual MPPT only pays off when a roof has two distinct string groups with different sun exposure, such as an [east-west](https://www.surgepv.com/blog/east-west-vs-south-facing-solar-layouts) split, mixed tilt angles, or a shaded section.
 > - On a uniform single-orientation roof, single MPPT captures identical yield to dual MPPT at a lower cost.
-> - East-west split roofs can gain 10–20% more annual energy from dual MPPT versus forcing both faces through one shared tracker.
+> - [East-west](https://heavendesigns.in/glossary/east-west-layout/) split roofs can gain 10–20% more annual energy from dual MPPT versus forcing both faces through one shared tracker.
 > - The typical cost premium for dual MPPT is ₹5,000–₹15,000 on residential inverters, usually paid back in two to four years when the roof genuinely needs it.
 > - Large C&I installations above 15 kW typically need quad MPPT or more to handle multiple roof zones.
 

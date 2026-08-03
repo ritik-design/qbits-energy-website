@@ -3,8 +3,8 @@ title: "Best Solar Design Software Italy: 2026 Guide"
 excerpt: "Scambio sul Posto closed to new systems in May 2025. The best solar design software Italy installers need models Ritiro Dedicato and self-consumption. Six tools compared."
 description: "Best solar design software Italy 2026. SurgePV vs PV*SOL, Aurora, PVsyst on the end of Scambio sul Posto, Ritiro Dedicato GSE rates, the 50% detrazione and CEI standards."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-italy.svg"
 author: "Keyur Rakholiya"
@@ -34,7 +34,7 @@ faqs:
 featured: false
 ---
 
-Italian residential solar economics changed on 29 May 2025 and a lot of design software has not caught up. ARERA resolution 78/2025/R/efr provides for the dismissal of Scambio sul Posto, and systems put into operation from that date can no longer access it. The reference mechanism for anything quoted today is Ritiro Dedicato, a GSE buyback running roughly 8 to 14 cents per kWh for systems up to 1 MWp with rates guaranteed for 20 years. That is well below Italian retail electricity prices, which means self-consumed energy is now worth considerably more than exported energy. Every sizing assumption built on SSP netting is obsolete. This guide compares the platforms Italian installers should shortlist.
+Italian residential solar economics changed on 29 May 2025 and a lot of [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has not caught up. ARERA resolution 78/2025/R/efr provides for the dismissal of Scambio sul Posto, and systems put into operation from that date can no longer access it. The reference mechanism for anything quoted today is Ritiro Dedicato, a GSE buyback running roughly 8 to 14 cents per kWh for systems up to 1 MWp with rates guaranteed for 20 years. That is well below Italian retail electricity prices, which means self-consumed energy is now worth considerably more than exported energy. Every sizing assumption built on SSP netting is obsolete. This guide compares the platforms Italian installers should shortlist.
 
 > **TL;DR**
 > - Scambio sul Posto is closed to systems put into operation from 29 May 2025, under ARERA resolution 78/2025/R/efr.
@@ -44,7 +44,7 @@ Italian residential solar economics changed on 29 May 2025 and a lot of design s
 > - CEI 0-21 governs LV grid connection, CEI 0-16 covers MV and HV.
 > - [SurgePV](https://surgepv.com/) runs 8,760-hour simulation with battery dispatch at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for Italian installers in 2026 is SurgePV, because the end of Scambio sul Posto makes hourly self-consumption the deciding design variable, and SurgePV runs 8,760-hour module-level simulation with battery dispatch against a real load profile. PV*SOL is credible on simulation with a strong European following but is desktop-bound. Aurora models US net metering, which has no Italian equivalent.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for Italian installers in 2026 is SurgePV, because the end of Scambio sul Posto makes hourly self-consumption the deciding design variable, and SurgePV runs 8,760-hour module-level simulation with battery dispatch against a real load profile. PV*SOL is credible on simulation with a strong European following but is desktop-bound. Aurora models US net metering, which has no Italian equivalent.
 
 Italy is a large, mature market that has just had its residential incentive structure rebuilt, which puts every installer in the same position: the numbers you used last year no longer describe the product you are selling. For the broader category comparison see our [solar design software](/blog/solar-design-software/) buyer's guide and the [best solar design software](/blog/best-solar-design-software/) ranking.
 
@@ -150,6 +150,8 @@ The same system loses roughly 41% of its annual benefit when SSP is unavailable.
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/europe" target="_blank" rel="noopener noreferrer">Europe compliance library</a></p>
 </div>
+
+Design is one layer. For how simulation, proposal, compliance and CRM fit around it, see the [full solar software stack for Italy](/blog/solar-software-italy/).
 
 ## The Bottom Line
 

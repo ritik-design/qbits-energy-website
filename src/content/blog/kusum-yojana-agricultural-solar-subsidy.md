@@ -39,16 +39,16 @@ Every year, Indian farmers spend an estimated ₹70,000 crore on diesel to power
 
 Launched in March 2019 by [MNRE](/glossary/mnre/), KUSUM targets 35 GW of solar capacity in agriculture by 2026. It is one of the largest agricultural solar programmes in the world by target capacity, and one of the most complex, because it operates across three distinct components that serve three entirely different farmer needs. Understanding which component applies to your situation is the difference between a smooth application and months of confusion.
 
-> **KUSUM Yojana** is India's flagship agricultural solar scheme, covering Component A (decentralised solar plants on barren farm land), Component B (standalone solar pumps for off-grid farmers), and Component C (solarisation of grid-connected agricultural pumps). Under Component B (the most widely used) the central government covers 30% of pump cost, the state covers 30%, the farmer pays 10% upfront, and a bank loan covers the remaining 30%. This means a farmer with a diesel pump pays only one-tenth of the replacement cost out of pocket.
+> **KUSUM Yojana** is India's flagship agricultural solar scheme, covering Component A (decentralised solar plants on barren farm land), [Component B](https://www.heavengreenenergy.com/blog/kusum-component-b-application-guide) (standalone solar pumps for off-grid farmers), and [Component C](https://www.heavengreenenergy.com/blog/kusum-component-c-grid-tied-pump) (solarisation of grid-connected agricultural pumps). Under Component B (the most widely used) the central government covers 30% of pump cost, the state covers 30%, the farmer pays 10% upfront, and a bank loan covers the remaining 30%. This means a farmer with a diesel pump pays only one-tenth of the replacement cost out of pocket.
 
-The [KUSUM scheme](/glossary/kusum/) sits alongside but entirely separate from PM Surya Ghar, which targets residential rooftop solar. KUSUM is agricultural-first, state-implemented, and addresses energy poverty in rural India at its root, the cost of lifting water from the ground. This guide explains every component, every subsidy number, who qualifies, how to apply state by state, and the key mistakes that delay or kill applications.
+The [KUSUM scheme](/glossary/kusum/) sits alongside but entirely separate from [PM Surya Ghar](https://quickestimate.co/blog/what-is-pm-surya-ghar-yojana), which targets residential rooftop solar. KUSUM is agricultural-first, state-implemented, and addresses energy poverty in rural India at its root, the cost of lifting water from the ground. This guide explains every component, every subsidy number, who qualifies, how to apply state by state, and the key mistakes that delay or kill applications.
 
 > **TL;DR**
 > - KUSUM has three components: Component A (solar plants on barren land), Component B (standalone off-grid pumps), and Component C (solarisation of grid-connected pumps).
 > - Under Component B, the farmer pays only 10% of pump cost upfront; central and state governments each cover 30%, and a bank loan covers the remaining 30%.
 > - There is no income ceiling or minimum acreage; farmers, FPOs, water user associations, and panchayats are all eligible.
 > - ALMM-listed panels and inverters are mandatory for subsidy eligibility across all three components.
-> - Applications go through state nodal agencies (RREC, MEDA, GEDA, PEDA, UPNEDA, etc.), not a central portal, unlike PM Surya Ghar's pmsuryaghar.gov.in.
+> - Applications go through state nodal agencies (RREC, MEDA, GEDA, PEDA, UPNEDA, etc.), not a central portal, unlike [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy)'s pmsuryaghar.gov.in.
 > - Component B leads implementation at 24% of its 14-lakh-pump target, while Component A (7%) and Component C (4%) lag well behind.
 
 ## KUSUM Yojana's Three Components: What Each One Does

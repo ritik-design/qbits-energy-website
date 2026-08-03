@@ -3,8 +3,8 @@ title: "Best Solar Software Australia: The Complete 2026 Stack"
 excerpt: "Falling export prices turned Australian solar into a self-consumption business. Any stack that still optimises for annual kWh is measuring the wrong thing."
 description: "Best solar software Australia 2026: the full stack for design, proposals, CRM, STC claims and monitoring. AS/NZS 4777.2, SRES, state feed-in tariffs and battery modelling."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-australia.svg"
 author: "Nirav Dhanani"

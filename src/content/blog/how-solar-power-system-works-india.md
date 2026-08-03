@@ -177,6 +177,8 @@ Several misconceptions about the solar energy journey persist in Indian homeowne
 - **"The net meter exports all my solar power"**: Incorrect for most daytime hours. The DB draws from solar first; only the surplus after household consumption is exported. Self-consumption (using your own solar power directly) is the highest-value use because it offsets your full grid tariff; exports typically earn a lower feed-in rate.
 - **"Inverters last 25 years like panels"**: Standard inverter warranties in India are 5–10 years; quality manufacturers offer 10–12 years. Plan for at least one inverter replacement over the 25-year panel lifespan unless the initial warranty is 12+ years.
 
+Elsewhere in the Heaven Group network, see [what happens on installation day](https://www.heavengreenenergy.com/blog/solar-installation-day-by-day) and [an installed cost breakdown](https://quickestimate.co/blog/cost-breakdown-solar-installation).
+
 ## Where Qbits Fits in the 7-Stage Journey
 
 Qbits inverters sit at Stage 4 (the conversion stage) which is where the financial returns of every other stage are either preserved or leaked. Qbits on-grid and hybrid inverters are engineered for Indian grid realities: 180–270 V input voltage tolerance, IGBT-based switching rated for 45 °C ambient temperature, and AI-powered WhatsApp monitoring that alerts you to Stage 2 string imbalances or Stage 5 distribution faults before they compound into losses.

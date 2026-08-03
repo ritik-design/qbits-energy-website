@@ -27,7 +27,7 @@ faqs:
     a: "5–10 years depending on state and project type. Coverage must include comprehensive replacement/repair with specified response times (48–72 hours typical)."
 ---
 
-This guide covers the regulatory requirements for solar inverters in India in 2026, mandatory BIS certification, IEC standards, MNRE guidelines, CEA grid norms, and state-specific compliance variations.
+This guide covers the regulatory requirements for solar inverters in India in 2026, mandatory BIS certification, IEC standards, [MNRE guidelines](https://quickestimate.co/blog/mnre-guidelines-2026), CEA grid norms, and state-specific compliance variations.
 
 > **TL;DR**
 > - BIS certification under IS 16221 is mandatory for every solar inverter sold in India; certification takes 6–12 months and must be renewed annually.

@@ -239,6 +239,15 @@ Smart inverters are grid-tied solar inverters with advanced functions including 
 
 QBits Energy configures smart inverter functions for utility, C&I and residential solar plants compliant with CEA Grid Code 2019 across Indian DISCOMs.
 
+## Further reading
+
+For how Smart Inverter plays out in real projects, these guides go deeper:
+
+- [Reactive Power Support from Solar Inverters India](/blog/reactive-power-solar-inverters-india/)
+- [Best 3kW Solar Inverter in India 2026](/blog/best-3kw-solar-inverter-india-2026/)
+- [Best WiFi Solar Inverter India 2026, Reviewed](/blog/best-wifi-solar-inverter-india/)
+- [On-Grid vs Hybrid vs Off-Grid: Decision Guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/)
+
 ## Sources
 
 - IEEE 1547-2018, Distributed Energy Resources Interconnection.

@@ -178,6 +178,8 @@ Even well-intentioned installers frequently make placement decisions that maximi
 
 - **Choosing an inverter based solely on price**: budget inverters designed for European climates (rated at 25 °C ambient, poor heat-sink geometry, dark enclosure) perform poorly in Indian summers. The inverter's thermal specification deserves as much scrutiny as its MPPT efficiency during the solar buying process.
 
+Elsewhere in the Heaven Group network, see [string sizing maths](https://heavendesigns.in/blog/string-sizing-solar-inverters-math) and [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included).
+
 ## Where Qbits Fits
 
 Qbits inverters are designed for the thermal reality of Indian summers. The IP66 enclosure with passive heat-sink fin geometry is engineered specifically for 45 °C ambient conditions, not as an afterthought for export markets. The AI-powered WhatsApp monitoring included with every Qbits unit detects temperature-driven derating in real time and alerts the owner, so avoidable losses are caught within hours rather than discovered months later on a bill. The 12-year full replacement warranty means that if heat-related component stress does cause a failure despite all precautions, you are covered, not left holding a repair quote.

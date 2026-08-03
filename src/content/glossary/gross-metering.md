@@ -272,6 +272,15 @@ Gross metering sells the entire solar generation to the DISCOM at a feed-in tari
 
 QBits Energy supports commercial and industrial customers with gross metering contracts, DISCOM coordination and plant design optimised for FIT revenue across Indian states.
 
+## Further reading
+
+For how Gross Metering plays out in real projects, these guides go deeper:
+
+- [Gross Metering vs Net Metering: Which to Choose?](/blog/gross-metering-vs-net-metering/)
+- [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/)
+- [Best Solar Design Software Philippines: 2026 Guide](/blog/solar-design-software-philippines/)
+- [Solar Subsidy in Delhi 2026, BSES + TPDDL](/blog/solar-subsidy-delhi-2026/)
+
 ## Sources
 
 - Electricity Act 2003, Government of India.

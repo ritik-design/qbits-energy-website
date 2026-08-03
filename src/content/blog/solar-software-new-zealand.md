@@ -3,8 +3,8 @@ title: "Best Solar Software New Zealand: The Complete 2026 Stack"
 excerpt: "Since July 2026 the big four must offer time-varying export, and the peaks fall after dark. A tool holding one buyback rate cannot describe the market any more."
 description: "Best solar software New Zealand 2026: the full stack for design, proposals, CRM and compliance. Time-varying export plans, retailer rates from 5c to 40c, no feed-in tariff and AS/NZS 4777.2."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-new-zealand.svg"
 author: "Nirav Dhanani"
@@ -33,13 +33,13 @@ faqs:
 featured: false
 ---
 
-New Zealand quietly became one of the more demanding solar design markets on 1 July 2026. Since that date the four largest retailers, holding roughly 87 percent of connections between them, must offer a plan where the export rate varies through the day. The rule sets the shape of the price and explicitly not its level, so retailers place the peaks where they choose and there is no floor. The peaks generally fall in the evening, when a solar array produces nothing. A tool holding one flat buyback rate cannot describe that market, and the households it quotes will end up exporting into the trough and buying their evening energy at retail. This guide covers what the New Zealand stack has to do.
+[New Zealand](https://www.surgepv.com/best-solar-software/design-new-zealand) quietly became one of the more demanding solar design markets on 1 July 2026. Since that date the four largest retailers, holding roughly 87 percent of connections between them, must offer a plan where the export rate varies through the day. The rule sets the shape of the price and explicitly not its level, so retailers place the peaks where they choose and there is no floor. The peaks generally fall in the evening, when a solar array produces nothing. A tool holding one flat buyback rate cannot describe that market, and the households it quotes will end up exporting into the trough and buying their evening energy at retail. This guide covers what the [New Zealand](https://www.surgepv.com/best-solar-software/new-zealand) stack has to do.
 
 > **TL;DR**
 > - Since 1 July 2026 the big four retailers must offer a time-varying export plan; the rule sets shape, not level, and there is no floor.
 > - Peak export rates generally fall in the evening, when the array is producing nothing.
 > - Published rates span roughly 5 cents among the majors to 17 cents flat, with peaks around 24 cents and up to 40 cents on some winter peak plans.
-> - There is no government-mandated feed-in tariff, so every rate is a changeable commercial term.
+> - There is no government-mandated [feed-in tariff](/glossary/feed-in-tariff/), so every rate is a changeable commercial term.
 > - Recommending a time-varying plan and recommending storage are the same recommendation.
 > - AS/NZS 4777.2 and AS/NZS 5033 apply, shared with Australia.
 > - [SurgePV](https://surgepv.com/) models plans as hourly profiles at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).

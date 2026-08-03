@@ -37,15 +37,15 @@ faqs:
     a: "For most 2–4 BHK homeowners with a single EV and a 3.3 kW home charger, the Qbits HS 5 kW hybrid inverter is the recommended starting point. It supports dual-MPPT for split-roof configurations, handles battery voltages from 48 V to 192 V, and switches to battery power in under 20 milliseconds during grid outages so evening EV charging is uninterrupted. The 12-year full replacement warranty means the inverter outlasts the EV's first battery lifecycle with zero maintenance cost risk."
 ---
 
-The number of electric vehicles on Indian roads crossed 5 million units in early 2026, with Tata Nexon EV, Ather 450X, and Ola S1 Pro leading the residential charging wave. For homeowners already paying ₹8,000–₹15,000 per month in electricity bills, adding an EV charger to that load is genuinely worrying, and it is exactly the kind of load a properly scoped residential solar installation needs to plan for upfront rather than retrofit later. The logical next question ("can I run my EV on solar?") has a real answer, but the setup requires careful thought about inverter type, system size, and nighttime charging behaviour.
+The number of electric vehicles on Indian roads crossed 5 million units in early 2026, with Tata Nexon EV, Ather 450X, and Ola S1 Pro leading the residential charging wave. For homeowners already paying ₹8,000–₹15,000 per month in electricity bills, adding an EV charger to that load is genuinely worrying, and it is exactly the kind of load a properly scoped residential solar installation needs to plan for upfront rather than retrofit later. The logical next question ("can I run my EV on solar?") has a real answer, but the setup requires careful thought about inverter type, [system size](https://www.heavengreenenergy.com/blog/home-solar-system-size-guide), and nighttime charging behaviour.
 
 > **TL;DR**
-> - A solar-plus-EV setup needs at least a 5 kW hybrid inverter with a 10 kWh battery and a 5–7 kW array to meaningfully offset charging costs.
-> - On-grid inverters cannot dispatch stored energy at night, so overnight EV charging still comes fully from the grid; only a hybrid inverter with a battery solves this.
+> - A solar-plus-EV setup needs at least a 5 kW [hybrid inverter](/glossary/hybrid-inverter/) with a 10 kWh battery and a 5–7 kW array to meaningfully offset charging costs.
+> - On-grid inverters cannot dispatch stored energy at night, so overnight [EV charging](https://quickestimate.co/blog/solar-ev-charging-india) still comes fully from the grid; only a [hybrid inverter](/glossary/hybrid-inverter/) with a battery solves this.
 > - The EV-Solar Stack framework sizes the system in four steps: EV daily charging load, home base load, required solar array, and battery bank capacity.
 > - A 5 kW hybrid inverter with a 10 kWh battery is the sweet spot for most Indian homeowners with a compact EV like the Tata Nexon, covering roughly 40–55% of charging needs.
 > - V2G (vehicle-to-grid) is not yet commercially available in India as of mid-2026; choosing a hybrid inverter with an AC-coupled port keeps the upgrade path open.
-> - A worked Thane, Maharashtra example shows a 5 kW hybrid system with a 10 kWh battery paying back in roughly 3.7–4.1 years after PM Surya Ghar subsidy.
+> - A worked Thane, Maharashtra example shows a 5 kW hybrid system with a 10 kWh battery paying back in roughly 3.7–4.1 years after [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy.
 
 > **Direct answer.** A solar inverter for EV charging at home requires a minimum 5 kW hybrid inverter paired with a 10 kWh battery and a 5–7 kW solar array. This combination offsets 60–80% of EV charging costs on an Ather or Ola scooter, or 40–55% for a Tata Nexon EV, while also covering household loads. The EV-Solar Stack framework (four sizing steps covering charger wattage, home base load, solar yield, and battery depth) determines the exact configuration before you buy anything.
 

@@ -33,17 +33,17 @@ faqs:
 featured: false
 ---
 
-UAE solar shading analysis is unusual because the obstruction is almost always part of the project. Flat roofs with tall perimeter parapets are the default across Dubai and Abu Dhabi, arrays sit on tilted frames in rows, and the two dominant shading sources are the parapet and the array's own preceding row. Neither is a tree you can trim. Both are decided at design stage, which makes the modelling directly actionable in a way it rarely is elsewhere. Layered on top is Gulf dust, which does not simply add to the shading loss but interacts with it. This guide covers what shading analysis has to do differently in the UAE, and which tools do it.
+UAE solar [shading analysis](/glossary/shading-analysis/) is unusual because the obstruction is almost always part of the project. Flat roofs with tall perimeter parapets are the default across Dubai and Abu Dhabi, arrays sit on tilted frames in rows, and the two dominant shading sources are the parapet and the array's own preceding row. Neither is a tree you can trim. Both are decided at design stage, which makes the modelling directly actionable in a way it rarely is elsewhere. Layered on top is Gulf dust, which does not simply add to the shading loss but interacts with it. This guide covers what shading analysis has to do differently in the UAE, and which tools do it.
 
 > **TL;DR**
 > - The dominant UAE shading sources are self-inflicted: perimeter parapets and inter-row spacing on flat roofs.
 > - A single fixed setback around the whole perimeter wastes roof area, because each edge shades differently.
-> - Soiling and shading interact electrically and must sit in the same loss chain, not be stacked as separate derates.
+> - [Soiling](/glossary/soiling/) and shading interact electrically and must sit in the same loss chain, not be stacked as separate derates.
 > - Sustained bypass diode conduction is a durability question at Gulf temperatures, not only an energy one.
 > - Under Shams Dubai credit-based net metering, shading costs most on systems sized close to on-site consumption.
 > - [SurgePV](https://surgepv.com/) runs 8,760-hour module-level shading with soiling in the loss chain at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** Solar shading analysis software for UAE projects has to optimise parapet setback per edge and inter-row spacing economically, run 8,760 hourly steps at module level, and carry soiling in the same electrical model rather than as a flat annual percentage. Because the shading is self-inflicted, good analysis here does not just measure a loss, it removes one.
+**Short version.** Solar [shading analysis software](https://heavendesigns.in/blog/solar-shading-analysis-software/) for UAE projects has to optimise parapet setback per edge and inter-row spacing economically, run 8,760 hourly steps at module level, and carry soiling in the same electrical model rather than as a flat annual percentage. Because the shading is self-inflicted, good analysis here does not just measure a loss, it removes one.
 
 The general methodology is covered in our [solar shading analysis software](/blog/solar-shading-analysis-software/) guide. This page covers what changes in the Gulf. For the wider platform comparison see [best solar design software UAE](/blog/solar-design-software-uae/).
 

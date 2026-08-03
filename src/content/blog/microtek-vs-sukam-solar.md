@@ -34,7 +34,7 @@ featured: false
 
 About 500 people a month search "microtek vs sukam" before buying a solar inverter. Most of them are in Tier-2 and Tier-3 towns, sitting between two names they grew up with. Both brands earned their reputations in the 2000s backup-power era, when every Indian home needed an inverter and battery to survive load shedding. That history is exactly why this comparison is harder than it looks.
 
-The solar market of 2026 is not the UPS market of 2010. Today's buyer needs MPPT charge control, grid-tie compliance, ALMM listing for PM Surya Ghar subsidy, and a service network that will still answer the phone in year eight. Legacy brand trust helps, but it does not guarantee any of those four things.
+The solar market of 2026 is not the UPS market of 2010. Today's buyer needs [MPPT](/glossary/mppt/) charge control, grid-tie compliance, ALMM listing for [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy, and a service network that will still answer the phone in year eight. Legacy brand trust helps, but it does not guarantee any of those four things.
 
 This post compares Microtek and Su-Kam on what actually matters for a solar purchase in 2026: current solar range, technology currency, warranty depth, service reality, and price. We also show where a modern specialist brand fits, because the honest answer for many buyers is neither of the two.
 
@@ -156,6 +156,8 @@ Whichever way you lean, run these five checks with your dealer before paying an 
 5. Compare at least one quote from a modern specialist brand on the same capacity, so the warranty-per-year math is visible.
 
 The [top 10 solar inverter brands in India 2026](/blog/top-10-solar-inverter-brands-india-2026/) list and the [best 5 kW solar inverter 2026](/blog/best-5kw-solar-inverter-india-2026/) use-case review are good next reads. Both widen the shortlist beyond these two names.
+
+Elsewhere in the Heaven Group network, see [Luminous versus Microtek](https://www.heavengreenenergy.com/blog/luminous-vs-microtek-inverter) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
 
 ## The Bottom Line
 

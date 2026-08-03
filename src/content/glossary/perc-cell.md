@@ -270,6 +270,13 @@ PERC was the dominant solar cell architecture from 2017 to 2024 and remains a ma
 
 QBits Energy supplies ALMM-listed PERC and TOPCon modules from leading Indian manufacturers, alongside our [on-grid inverters](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/), for [residential](/residential-solution/) and [C&I solar](/c-i-solution/) projects.
 
+## Further reading
+
+For how PERC Cell plays out in real projects, these guides go deeper:
+
+- [Solar Panel ki Kimat 2026: Poora Rate Guide](/blog/solar-panel-ki-kimat/)
+- [ALMM List-II Exemption Window for Net Metering & Open Access](/blog/almm-list-ii-exemption-net-metering-open-access/)
+
 ## Sources
 
 - Blakers A. W., Wang A., Milne A. M., Zhao J., Green M. A., 22.8% efficient silicon solar cell, Applied Physics Letters, 1989.

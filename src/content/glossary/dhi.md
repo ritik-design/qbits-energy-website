@@ -206,6 +206,15 @@ DHI is the diffuse sky-scattered solar irradiance, complementing DNI to make up 
 
 QBits Energy provides solar resource assessment using validated GHI, DNI and DHI data for bankable yield projections across Indian projects.
 
+## Further reading
+
+For how DHI plays out in real projects, these guides go deeper:
+
+- [Solar Irradiance Data India, Peak Sun Hours](/blog/solar-irradiance-data-india-statewise/)
+- [Solar Inverter ki Life Kitni Hoti Hai: Poori Hindi Guide (2026)](/blog/solar-inverter-ki-life-hindi/)
+- [Solar Subsidy in Gujarat 2026, Surya Gujarat](/blog/solar-subsidy-gujarat-2026/)
+- [Punjab Dairy Farm Solar, Replacing Diesel](/blog/case-study-punjab-dairy/)
+
 ## Sources
 
 - NIWE Solar Resource Atlas.

@@ -263,6 +263,15 @@ SLD is the essential electrical drawing for solar plant design, approval and ope
 
 QBits Energy prepares engineer-sealed SLDs for residential, C&I and utility solar projects compliant with Indian DISCOM and CEIG requirements.
 
+## Further reading
+
+For how Single Line Diagram plays out in real projects, these guides go deeper:
+
+- [Solar SLD Software 2026: Single Line Diagram Guide](/blog/solar-sld-software/)
+- [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/)
+- [Best Solar Design Software Philippines: 2026 Guide](/blog/solar-design-software-philippines/)
+- [Gross Metering vs Net Metering: Which to Choose?](/blog/gross-metering-vs-net-metering/)
+
 ## Sources
 
 - IEC 60617 series, Graphical symbols for diagrams.

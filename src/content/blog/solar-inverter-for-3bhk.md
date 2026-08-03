@@ -42,12 +42,12 @@ Every year, thousands of Indian families living in 3 BHK homes receive electrici
 > **TL;DR**
 > - A 3 BHK home typically needs a 5 kW solar inverter sized for a 4–7 kW peak load from two ACs, a refrigerator, geyser, and lighting.
 > - On-grid inverters win on payback (2–4 years) in reliable-grid cities like Bangalore and Chennai; hybrid inverters with a 5–10 kWh battery suit power-cut zones like UP and Bihar.
-> - PM Surya Ghar subsidy caps at ₹78,000 for a 5 kW system, since only the first 3 kW slab qualifies for central subsidy.
+> - [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy caps at ₹78,000 for a 5 kW system, since only the first 3 kW slab qualifies for central subsidy.
 > - A 5 kW system needs roughly 340–360 sq ft of shadow-free roof and generates 550–750 kWh per month depending on the city.
 > - Net cost after subsidy runs ₹1.1–2 Lakh for on-grid, with typical Delhi payback of 2–4 years at current tariffs.
 > - Qbits TLS (on-grid) and HS (hybrid) 5 kW SKUs both carry 12-year full-replacement warranties and IP66 protection.
 
-> **Direct answer.** A 3 BHK home in India typically needs a 5 kW solar inverter and system. The combined load of two 1.5-ton ACs, a refrigerator, washing machine, water heater, lights, and fans runs 4–7 kW peak. A 5 kW on-grid inverter is the right pick for grid-reliable cities (Bangalore, Mumbai, Chennai); a 5 kW hybrid inverter with a 5–10 kWh battery suits power-cut zones (UP, Bihar, rural Maharashtra). Apply the 3BHK Inverter Decision Framework in §4 to confirm which path fits your home.
+> **Direct answer.** A 3 BHK home in India typically needs a 5 kW solar inverter and system. The combined load of two 1.5-ton ACs, a refrigerator, washing machine, water heater, lights, and fans runs 4–7 kW peak. A 5 kW on-grid inverter is the right pick for grid-reliable cities (Bangalore, Mumbai, Chennai); a 5 kW [hybrid inverter](/glossary/hybrid-inverter/) with a 5–10 kWh battery suits power-cut zones (UP, Bihar, rural Maharashtra). Apply the 3BHK Inverter Decision Framework in §4 to confirm which path fits your home.
 
 The sizing process for a [solar inverter](/glossary/solar-inverter/) is not one-size-fits-all even within the 3 BHK category. A 3 BHK in Gurugram with two 2-ton ACs and an EV charger has a fundamentally different load profile than a 3 BHK in Coimbatore with one 1-ton AC and efficient LED lighting throughout. The sections below walk through an exact calculation so you can arrive at the right number for your home, not a generalised estimate.
 

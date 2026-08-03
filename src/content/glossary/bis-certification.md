@@ -229,6 +229,15 @@ BIS Certification is mandatory for solar modules and inverters sold in India und
 
 QBits Energy supplies only BIS-certified and ALMM-listed solar equipment, with verified certificates on every shipment, sourced through the same rigor a turnkey solar EPC partner expects from its inverter supplier.
 
+## Further reading
+
+For how BIS Certification plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Manufacturers, EPC Evaluation Guide](/blog/solar-inverter-manufacturers-in-india/)
+- [Solar Inverter Certifications: 9 Standards to Verify](/blog/solar-inverter-certifications/)
+- [Inverter Procurement India: EPC Sourcing Guide](/blog/inverter-procurement-india/)
+- [How to Read Solar Inverter Datasheets](/blog/how-to-read-solar-inverter-datasheets/)
+
 ## Sources
 
 - Bureau of Indian Standards, official website and product certification database.

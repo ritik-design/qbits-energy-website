@@ -226,6 +226,15 @@ Second-life batteries are EV-retired packs (70-80 percent SOH) suitable for less
 
 QBits Energy explores second-life battery opportunities for cost-sensitive stationary storage applications across Indian residential and small commercial customers.
 
+## Further reading
+
+For how Second-Life Battery plays out in real projects, these guides go deeper:
+
+- [Solar Plus Storage Design Software 2026](/blog/solar-plus-storage-design-software/)
+- [How Long Do Solar Batteries Last in India?](/blog/how-long-solar-batteries-last-india/)
+- [On-Grid vs Hybrid Solar Inverters: ROI Guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/)
+- [PM Surya Ghar 2.0: What the Proposed Battery Storage Update Means for You](/blog/pm-surya-ghar-battery-storage-update/)
+
 ## Sources
 
 - Battery Waste Management Rules 2022.

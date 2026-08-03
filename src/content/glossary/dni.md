@@ -208,6 +208,14 @@ DNI is the direct beam solar irradiance, critical for CSP, trackers and bifacial
 
 QBits Energy provides DNI-based yield modelling for tracker and bifacial solar plants across Indian regions.
 
+## Further reading
+
+For how DNI plays out in real projects, these guides go deeper:
+
+- [Solar Irradiance Data India, Peak Sun Hours](/blog/solar-irradiance-data-india-statewise/)
+- [Solar Subsidy in Rajasthan 2026, High DNI Edge](/blog/solar-subsidy-rajasthan-2026/)
+- [Agrivoltaic Design Software 2026: Installer Guide](/blog/agrivoltaic-design-software/)
+
 ## Sources
 
 - NIWE Solar Resource Atlas.

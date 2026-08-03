@@ -45,9 +45,9 @@ This guide covers the actual picture for 2026. What balcony solar is, whether it
 > - Germany registered about 430,000 balcony solar systems in 2025 and passed 1 million in operation, backed by a dedicated legal framework. India has no equivalent framework.
 > - A 600-800W plug-in kit costs ₹25,000-₹45,000 in India, but generates only 1.5-2.5 units per day because balcony mounting is rarely optimal.
 > - Realistic savings are ₹2,500-₹4,500 per year, which means 8-12 year payback, two to three times longer than a subsidised rooftop system.
-> - DISCOM net metering is not designed for plug-in systems. There is no simplified registration track, so grid-connected balcony kits operate in a legal grey zone.
+> - [DISCOM](/glossary/discom/) net metering is not designed for plug-in systems. There is no simplified registration track, so grid-connected balcony kits operate in a legal grey zone.
 > - RWA or society permission is effectively required, and unlike Germany, Indian societies can refuse.
-> - A 1 kW rooftop system costs about the same after the ₹30,000 PM Surya Ghar subsidy and generates roughly double the energy. Balcony solar is for tenants and special cases, not a rooftop replacement.
+> - A 1 kW rooftop system costs about the same after the ₹30,000 [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy and generates roughly double the energy. Balcony solar is for tenants and special cases, not a rooftop replacement.
 
 **Short version.** Balcony solar in India is a grey-zone product in 2026. No law bans it, but no framework approves it either. Plugging an inverter into a socket without DISCOM approval technically violates supply rules. A 600-800W kit costs ₹25,000-₹45,000, generates 550-900 units a year, and saves ₹2,500-₹4,500 annually. It makes sense for tenants without roof access. Everyone else gets far better value from a subsidised 1-3 kW rooftop system.
 

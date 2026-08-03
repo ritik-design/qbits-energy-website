@@ -33,14 +33,14 @@ faqs:
     a: "Qbits differentiates from both Deye and Growatt primarily on warranty depth: 12-year full unit replacement versus 5-year repair warranties from both competitors. Qbits hybrid inverters also carry IP66 weather protection versus IP65 on most Deye and Growatt residential models - a meaningful difference in Indian monsoon and coastal environments. Qbits's WhatsApp-native monitoring removes the need for a separate app. For hybrid buyers who are concerned about what happens when the inverter fails in year 8 or year 10, Qbits's warranty covers that scenario without additional payment; Deye and Growatt buyers are on their own after year 5."
 ---
 
-The hybrid inverter segment in India has grown dramatically since 2023, driven by falling battery prices, worsening power cuts in tier-2 cities, and [PM Surya Ghar](/glossary/pm-surya-ghar/)'s awareness-raising effect on rooftop solar broadly. Two brands dominate the emerging hybrid conversation for Indian homeowners: Growatt, the established market leader with a decade of India presence, and Deye, the fast-growing challenger that has been gaining ground rapidly since 2022.
+The [hybrid inverter](https://www.surgepv.com/blog/hybrid-inverter-guide) segment in India has grown dramatically since 2023, driven by falling battery prices, worsening power cuts in tier-2 cities, and [PM Surya Ghar](/glossary/pm-surya-ghar/)'s awareness-raising effect on rooftop solar broadly. Two brands dominate the emerging hybrid conversation for Indian homeowners: Growatt, the established market leader with a decade of India presence, and [Deye](/blog/qbits-vs-deye-honest-comparison/), the fast-growing challenger that has been gaining ground rapidly since 2022.
 
 > **TL;DR**
 > - Deye scores higher on hybrid features, BMS compatibility, and app monitoring; Growatt scores higher on India after-sales service and warranty terms.
 > - Both brands offer only a 5-year repair warranty on hybrid inverters, the key shared weakness for a 25-year solar asset.
 > - Deye's hybrid inverters are typically 5–15% cheaper than comparable Growatt models but have thinner India service coverage outside Gujarat, Maharashtra, and Rajasthan.
 > - SOLARMAN (Deye) offers more detailed battery state-of-charge tracking and energy flow visualisation than ShinePhone (Growatt).
-> - Total score: Deye 42/60 versus Growatt 38/60 on the 6-Point Hybrid Inverter Evaluation Matrix.
+> - Total score: Deye 42/60 versus Growatt 38/60 on the 6-Point [Hybrid Inverter](/glossary/hybrid-inverter/) Evaluation Matrix.
 > - Qbits offers a 12-year full replacement warranty and IP66 protection as a third option for buyers who want longer coverage than either brand provides.
 
 This comparison uses the **6-Point Hybrid Inverter Evaluation Matrix**: a structured scoring method built specifically for hybrid products, to give an honest, data-grounded verdict. Deye has genuine strengths. Growatt has a genuine advantage. Neither brand is dismissed, and the conclusions are drawn from documented specifications, India market evidence, and field-reported experience.

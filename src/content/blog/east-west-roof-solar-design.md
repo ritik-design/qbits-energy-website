@@ -35,7 +35,7 @@ featured: false
 
 Most Indian solar advice starts and ends with one rule: face your panels south. That rule is correct as far as it goes. A true-south array at a tilt near your latitude captures the most annual energy per panel. The problem is that thousands of Indian homes simply do not have a usable south-facing roof. Gabled tile roofs in Kerala and the Konkan, two-slope metal sheds in industrial estates, and terraces chopped up by water tanks are common. All of them often leave south as the worst option, or no option at all.
 
-East-west solar design is the practical answer. You split the array into two groups, one facing east and one facing west. In exchange for a small annual energy penalty, you get a generation curve that matches how Indian families actually use electricity. Done properly, the penalty is far smaller than most people fear. In some cases the east-west system delivers more usable value per rupee than a compromised south-facing one.
+[East-west](https://www.surgepv.com/blog/east-west-vs-south-facing-solar-layouts) solar design is the practical answer. You split the array into two groups, one facing east and one facing west. In exchange for a small annual energy penalty, you get a generation curve that matches how Indian families actually use electricity. Done properly, the penalty is far smaller than most people fear. In some cases the [east-west](https://heavendesigns.in/glossary/east-west-layout/) system delivers more usable value per rupee than a compromised south-facing one.
 
 > **TL;DR**
 > - East-west arrays in India lose only 4 to 8 percent of annual yield at low tilts (5 to 10 degrees). At steep tilts (20 to 30 degrees), the loss is 10 to 15 percent versus ideal south-facing.

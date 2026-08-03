@@ -37,15 +37,15 @@ At ₹10,000+ a month in electricity bills, solar stops being a lifestyle choice
 
 > **TL;DR**
 > - A 10kW on-grid system costs ₹4,50,000 to ₹6,50,000 before subsidy in India in 2026.
-> - Residential buyers get the PM Surya Ghar subsidy capped at ₹78,000, the same cap as a 3kW system.
+> - Residential buyers get the [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy capped at ₹78,000, the same cap as a 3kW system.
 > - Commercial buyers aren't eligible for PM Surya Ghar but can claim 40% [accelerated depreciation](/glossary/accelerated-depreciation/) under Section 32, worth roughly ₹63,600 in year-1 tax savings on a ₹5,09,600 system.
 > - Payback ranges from 2.7 years (commercial) to 4.6 years (residential at low tariff).
 > - A 10kW system generates 40 to 55 kWh/day, enough for a large villa with 3+ ACs or a small commercial premise.
 > - It is available in both single-phase and three-phase configurations depending on the sanctioned load.
 
-10kW is also where pricing gets more complex. [Three-phase](/blog/3-phase-solar-inverter/) options enter. Commercial buyers get a different subsidy structure (accelerated depreciation instead of PM Surya Ghar). Inverter selection matters more for long-term performance.
+10kW is also where pricing gets more complex. [Three-phase](/blog/3-phase-solar-inverter/) options enter. Commercial buyers get a different subsidy structure ([accelerated depreciation](https://www.heavengreenenergy.com/blog/accelerated-depreciation-solar) instead of PM Surya Ghar). Inverter selection matters more for long-term performance.
 
-**Short version.** A 10kW on-grid system costs ₹4,50,000 to ₹6,50,000 gross in India in 2026. The PM Surya Ghar subsidy is capped at ₹78,000 for residential buyers. Commercial buyers aren't eligible for PM Surya Ghar but can claim 40% accelerated depreciation under Section 32. Applying the **True Cost of Going Solar** framework across five cost components, payback lands in 3 to 7 years depending on tariff and buyer category.
+**Short version.** A 10kW on-grid system costs ₹4,50,000 to ₹6,50,000 gross in India in 2026. The PM Surya Ghar subsidy is capped at ₹78,000 for residential buyers. Commercial buyers aren't eligible for PM Surya Ghar but can claim 40% [accelerated depreciation](https://www.heavengreenenergy.com/blog/accelerated-depreciation-25-percent-vs-40-percent) under Section 32. Applying the **True Cost of Going Solar** framework across five cost components, payback lands in 3 to 7 years depending on tariff and buyer category.
 
 ## The True Cost of Going Solar: 10kW Edition
 

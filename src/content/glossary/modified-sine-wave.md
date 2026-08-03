@@ -218,6 +218,15 @@ Modified sine wave is a low-cost AC waveform that approximates sine through squa
 
 QBits Energy supplies only ALMM-listed pure sine wave solar inverters for residential, C&I and utility solar across India.
 
+## Further reading
+
+For how Modified Sine Wave plays out in real projects, these guides go deeper:
+
+- [Solar for Clinic and Nursing Home India](/blog/solar-for-clinic-nursing-home-india/)
+- [Best Solar Inverter in India 2026, Top 10 Reviewed](/blog/best-solar-inverter-india/)
+- [Best Solar Inverter for Home 2026, by Home Size](/blog/best-solar-inverter-for-home-india/)
+- [Best 3kW Solar Inverter in India 2026](/blog/best-3kw-solar-inverter-india-2026/)
+
 ## Sources
 
 - IEC 62109, Inverter safety.

@@ -37,9 +37,9 @@ Walk onto any flat Indian rooftop and you will find the same scene: a concrete p
 
 The string vs microinverter debate is not a global technology question. In Europe and North America, where roofs are pitched, uniform, and often shade-free, the calculus is different. In India (where flat concrete roofs are the default, shading sources multiply with every floor added to the building, and a service technician in Nagpur or Coimbatore needs to be able to fix the system) the decision requires a very different set of inputs.
 
-> **Direct answer.** For over 90 percent of Indian residential rooftops, a multi-MPPT string inverter delivers equivalent or near-equivalent yield to microinverters at 40–60 percent lower installed cost with far better service coverage. Microinverters make financial sense only for roofs where the Indian Roof Shade Assessment (the 4-step test in this guide) confirms shade losses above 8–10 percent annually. Start with the shade test, not the marketing brochure.
+> **Direct answer.** For over 90 percent of Indian residential rooftops, a multi-MPPT [string inverter](/glossary/string-inverter/) delivers equivalent or near-equivalent yield to microinverters at 40–60 percent lower installed cost with far better service coverage. Microinverters make financial sense only for roofs where the Indian Roof Shade Assessment (the 4-step test in this guide) confirms shade losses above 8–10 percent annually. Start with the shade test, not the marketing brochure.
 
-The third option (a string inverter paired with per-panel power optimisers) sits between the two and is worth understanding before any buying decision. This guide covers all three, anchored specifically to what Indian buyers face: Indian grid quirks, Indian labour costs, Indian service networks, and Indian roof geometry.
+The third option (a [string inverter](/glossary/string-inverter/) paired with per-panel power optimisers) sits between the two and is worth understanding before any buying decision. This guide covers all three, anchored specifically to what Indian buyers face: Indian grid quirks, Indian labour costs, Indian service networks, and Indian roof geometry.
 
 > **TL;DR**
 > - String inverters cost 40–60 percent less installed than microinverters for an equivalent-capacity Indian residential system.

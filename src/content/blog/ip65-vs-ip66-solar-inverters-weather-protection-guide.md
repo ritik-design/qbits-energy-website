@@ -45,7 +45,7 @@ This guide consolidates what each rating actually means under IEC 60529, the rea
 > - Both IP65 and IP66 stop dust completely; the real difference is water resistance, with IP66 tested at 100 L/min / 100 kPa versus IP65's 12.5 L/min / 30 kPa, an 8x flow-rate gap.
 > - Field data shows IP65-and-below inverters fail at 15%+ in the first monsoon season in high-rainfall and coastal zones, versus under 2% for IP66 units in the same conditions.
 > - The IP66 premium is typically 8-15% upfront but delivers 25-35% lower total cost of ownership over 10-15 years in harsh climates.
-> - IP66 is not automatic protection: correct installation (vertical or slight-tilt mounting, torqued cable glands, drip loops, sealed conduit) accounts for the other half of the failure-rate reduction.
+> - IP66 is not automatic protection: correct installation (vertical or slight-tilt mounting, torqued cable glands, drip loops, sealed [conduit](/glossary/conduit/)) accounts for the other half of the failure-rate reduction.
 > - For most Indian rooftops, especially coastal, high-rainfall, and dust-storm regions, IP66 is now the practical minimum specification.
 
 ## What IP Ratings Actually Mean
@@ -216,6 +216,8 @@ Qbits inverters across the residential and commercial product range are rated IP
 - **[Authorized Service Partners](/authorized-service-partners/)** - certified installer network trained on IP66 installation best practices
 
 For specific climate or regional installation queries, [talk to a Qbits engineer](/contact-us/) - the team can recommend the right Qbits SKU for your specific monsoon, coastal, or dust-zone conditions.
+
+Elsewhere in the Heaven Group network, see [BIS inverter certification](https://heavendesigns.in/blog/bis-solar-inverter-certification-process) and [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included).
 
 ## Closing
 

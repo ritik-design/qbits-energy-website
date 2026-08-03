@@ -3,8 +3,8 @@ title: "Best Solar Software UK: The Complete 2026 Stack"
 excerpt: "MCS certification shapes the UK software stack more than any tariff does. If your tools cannot produce MCS-ready output, you are doing that work twice."
 description: "Best solar software UK 2026: the full stack for design, proposals, CRM, MCS documentation and monitoring. BS 7671, G99, SEG tariff modelling and what UK teams overspend on."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-uk.svg"
 author: "Nirav Dhanani"
@@ -38,7 +38,7 @@ The UK solar software conversation usually starts with tariffs and should start 
 > **TL;DR**
 > - A UK solar business runs six software categories, with MCS and compliance documentation heavy enough to be its own workstream.
 > - Design and proposals must share one record. CRM and monitoring can connect by API.
-> - MCS shapes the stack more than any tariff, because certification unlocks SEG and depends on a matching evidence trail.
+> - MCS shapes the stack more than any [tariff](/glossary/tariff/), because certification unlocks SEG and depends on a matching evidence trail.
 > - SEG rates are supplier-set, not national, so an averaged export figure is wrong for most households.
 > - BS 7671, G99 and MCS standards belong in the tool, not in an engineer's memory.
 > - US-first platforms reference NEC and rate structures with no UK equivalent.

@@ -3,8 +3,8 @@ title: "Best Solar Design Software New Zealand: 2026 Guide"
 excerpt: "Since July 2026 the big four retailers must offer time-varying export rates, and the peaks fall after dark. New Zealand solar is now a battery arbitrage problem. Six tools compared."
 description: "Best solar design software New Zealand 2026. SurgePV vs PVsyst, Aurora, PV*SOL on time-varying export rates, retailer buyback spreads from 5c to 40c, AS/NZS 4777.2 and battery dispatch."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-new-zealand.svg"
 author: "Keyur Rakholiya"
@@ -33,18 +33,18 @@ faqs:
 featured: false
 ---
 
-New Zealand quietly became one of the more interesting solar design markets on 1 July 2026. Since that date the four largest retailers, holding roughly 87 percent of connections between them, have been required to offer a plan where the export rate varies through the day. The rule sets the shape of the price, not its level, so retailers place the peaks where they choose and there is no floor. The peaks generally fall in the evening, after solar generation has collapsed. That single fact turns a generation problem into an arbitrage problem, and it means a design tool that cannot dispatch a battery against an hourly price profile cannot size a New Zealand system properly. This guide covers what the market now requires, and which tools deliver it.
+[New Zealand](https://www.surgepv.com/best-solar-software/design-new-zealand) quietly became one of the more interesting solar design markets on 1 July 2026. Since that date the four largest retailers, holding roughly 87 percent of connections between them, have been required to offer a plan where the export rate varies through the day. The rule sets the shape of the price, not its level, so retailers place the peaks where they choose and there is no floor. The peaks generally fall in the evening, after solar generation has collapsed. That single fact turns a generation problem into an arbitrage problem, and it means a design tool that cannot dispatch a battery against an hourly price profile cannot size a [New Zealand](/blog/solar-software-new-zealand/) system properly. This guide covers what the market now requires, and which tools deliver it.
 
 > **TL;DR**
 > - Since 1 July 2026 the big four retailers must offer a time-varying export plan; the rule sets shape, not level, and there is no floor.
 > - Peak export rates generally fall in the evening, when a solar array is producing nothing.
 > - Published buyback rates span roughly 5 cents at the low end among majors to 17 cents flat, with peaks reaching around 24 cents and up to 40 cents on some winter peak plans.
-> - There is no government-mandated feed-in tariff, so every rate is a commercial term that can change.
+> - There is no government-mandated [feed-in tariff](/glossary/feed-in-tariff/), so every rate is a commercial term that can change.
 > - Storage moves from optional to central on time-varying plans, because it reaches a peak the array cannot.
 > - AS/NZS 4777.2 and AS/NZS 5033 apply, shared with Australia.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for New Zealand installers in 2026 is SurgePV, because time-varying export made battery dispatch against an hourly price profile the central design task and SurgePV simulates it directly. PVsyst is the bankable reference for large commercial and ground-mount. PV*SOL is credible for residential detail. Aurora assumes US net metering, which New Zealand does not operate.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/3d-solar-design-software/) for [New Zealand](https://www.surgepv.com/best-solar-software/new-zealand) installers in 2026 is SurgePV, because time-varying export made battery dispatch against an hourly price profile the central design task and SurgePV simulates it directly. PVsyst is the bankable reference for large commercial and ground-mount. PV*SOL is credible for residential detail. Aurora assumes US [net metering](/glossary/net-metering/), which New Zealand does not operate.
 
 For the quoting side see our [best solar proposal software New Zealand](/blog/solar-proposal-software-new-zealand/) guide, and the global [best solar design software](/blog/best-solar-design-software/) ranking for the category without the local lens.
 

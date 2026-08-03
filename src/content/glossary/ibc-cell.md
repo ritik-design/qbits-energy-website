@@ -209,6 +209,15 @@ IBC (Interdigitated Back Contact) cells place all contacts on the rear surface, 
 
 QBits Energy can source IBC solar modules for premium residential, EV solar and space-constrained installations across India.
 
+## Further reading
+
+For how IBC Cell plays out in real projects, these guides go deeper:
+
+- [Sungrow vs Growatt, Premium vs Mid-Market Compared](/blog/sungrow-vs-growatt-comparison/)
+- [Best Solar Design Software New Zealand: 2026 Guide](/blog/solar-design-software-new-zealand/)
+- [Fronius vs SMA in India 2026: Are Premium European Inverters Worth It?](/blog/fronius-vs-sma-india/)
+- [Best Solar Proposal Software New Zealand: 2026 Guide](/blog/solar-proposal-software-new-zealand/)
+
 ## Sources
 
 - IEC 61215, Module qualification.

@@ -35,20 +35,20 @@ faqs:
     a: "SBI generally expects a minimum CIBIL score of 700 for personal or home improvement loans, which is the category most solar loan applications fall under. A score above 750 qualifies for preferential rate bands. Applicants with scores below 700 are not automatically disqualified, but they will typically be asked to provide additional collateral or a co-applicant with a stronger credit profile. Checking your CIBIL score before applying avoids surprises at the branch."
 ---
 
-Every month, thousands of Indian homeowners walk into an SBI branch asking one question: can I finance my rooftop solar system here? The State Bank of India is the country's most trusted financial institution, the same bank where many families maintain their salary account, hold their home loan, and pay their utility bills. It makes sense to ask whether this institution can also fund the solar panels going on the roof.
+Every month, thousands of Indian homeowners walk into an SBI branch asking one question: can I finance my rooftop solar system here? The State Bank of India is the country's most trusted financial institution, the same bank where many families maintain their salary account, hold their home [loan](/blog/solar-ka-loan-hindi/), and pay their utility bills. It makes sense to ask whether this institution can also fund the solar panels going on the roof.
 
-The answer is yes, through a product called SBI Surya Shakti Solar Finance. This guide explains the interest rate, who qualifies, which seven documents you need to carry, how the PM Surya Ghar subsidy integrates with the loan, and how SBI compares with IREDA and private banks so that you can make a genuinely informed financing decision.
+The answer is yes, through a product called SBI Surya Shakti Solar Finance. This guide explains the interest rate, who qualifies, which seven documents you need to carry, how the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy integrates with the loan, and how SBI compares with IREDA and private banks so that you can make a genuinely informed financing decision.
 
-> **Direct answer.** The SBI solar loan, known as Surya Shakti Solar Finance, offers Indian homeowners a tenure of up to 7 years at approximately 9–11% per annum. Eligibility requires property ownership, a CIBIL score of 700 or above, and income proof. Register on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) before applying, the DISCOM sanction letter from that process is a mandatory document at the bank.
+> **Direct answer.** The SBI solar loan, known as Surya Shakti Solar Finance, offers Indian homeowners a tenure of up to 7 years at approximately 9–11% per annum. Eligibility requires property ownership, a CIBIL score of 700 or above, and income proof. Register on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) before applying, the [DISCOM](/glossary/discom/) sanction letter from that process is a mandatory document at the bank.
 
 The SBI solar loan sits at the intersection of two government priorities: expanding rooftop solar capacity and deepening financial inclusion. That intersection is why the [PM Surya Ghar Muft Bijli Yojana](/blog/pm-surya-ghar-yojana-complete-guide/) named SBI as a preferred lending partner, the bank's 22,000+ branch network means most Indian homeowners can access this financing without travelling to a state capital.
 
 > **TL;DR**
 > - SBI Surya Shakti Solar Finance offers up to 7-year tenure at roughly 9-11% interest, MCLR-linked, with up to 90% loan-to-value.
-> - Eligibility needs property ownership, CIBIL 700+, and income proof; the DISCOM sanction letter from PM Surya Ghar registration is a mandatory document.
+> - Eligibility needs property ownership, CIBIL 700+, and income proof; the DISCOM sanction letter from [PM Surya Ghar](/glossary/pm-surya-ghar/) registration is a mandatory document.
 > - Seven documents are required: Aadhaar, PAN, income proof, electricity bill, property documents, DISCOM sanction letter, and an ALMM-empanelled vendor quotation.
 > - On a 3 kW system, the post-subsidy loan amount is around ₹1,02,000, with EMI (7-year) of about ₹1,626/month against an estimated ₹2,000 monthly bill saving.
-> - SBI's rate (9-11%) sits between IREDA's lower 8-9.5% and private banks' 10.5-14%, but SBI's branch reach and PM Surya Ghar tie-up make it the most accessible default for most homeowners.
+> - SBI's rate (9-11%) sits between IREDA's lower 8-9.5% and private banks' 10.5-14%, but SBI's branch reach and [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-eligibility) tie-up make it the most accessible default for most homeowners.
 > - The PM Surya Ghar subsidy arrives after installation, so it should be used as a principal prepayment, not treated as a down payment.
 
 ## What Is the SBI Surya Shakti Solar Finance Scheme

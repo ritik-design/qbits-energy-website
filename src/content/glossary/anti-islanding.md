@@ -276,6 +276,15 @@ Anti-islanding is the inverter protection that keeps the grid safe for lineworke
 
 QBits Energy supplies BIS-certified, ALMM-listed inverters with verified anti-islanding compliance for Indian residential, commercial and utility solar. Reach out for selection support that matches your DISCOM and CEA requirements.
 
+## Further reading
+
+For how Anti-Islanding plays out in real projects, these guides go deeper:
+
+- [Anti-Islanding Protection in Solar Inverters](/blog/anti-islanding-protection-solar-inverters/)
+- [Solar Inverter Certifications: 9 Standards to Verify](/blog/solar-inverter-certifications/)
+- [India-Grid-Tuned Solar Inverters, Explained](/blog/india-grid-tuned-inverters/)
+- [How to Choose Solar Inverters with Surge Protection](/blog/how-to-choose-solar-inverters-with-surge-protection/)
+
 ## Sources
 
 - IEC 62116:2014, Utility-interconnected photovoltaic inverters: Test procedure of islanding prevention measures, International Electrotechnical Commission.

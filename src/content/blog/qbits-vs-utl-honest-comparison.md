@@ -244,6 +244,8 @@ In markets with good courier logistics, Qbits's RMA model is faster and more con
 - The local electrician's familiarity with UTL products is a practical service consideration
 - The installation is a basic off-grid or backup application rather than a grid-tied PM Surya Ghar system
 
+Elsewhere in the Heaven Group network, see [how to choose the right solar inverter](https://www.heavengreenenergy.com/blog/how-to-choose-the-right-solar-inverter) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
+
 ## Where Qbits Fits: Product Bridge
 
 For buyers who are considering both brands and want to evaluate Qbits's specifications directly:

@@ -41,7 +41,7 @@ India's solar sector is expanding rapidly, with annual capacity additions exceed
 This guide presents the complete framework for evaluating, structuring, and executing inverter manufacturer partnerships in India: partnership model types, manufacturer evaluation criteria, territory structures and rights, investment and margin frameworks, training and support programs, application processes, and the success factors that separate sustainable 10-year partnerships from churn-and-burn experiences.
 
 > **TL;DR**
-> - India has three inverter partnership models: Distributor (₹20-50 lakh+ investment), Dealer (₹3-10 lakh), and Channel Partner (₹5-25 lakh, combines sales and installation).
+> - India has three inverter partnership models: Distributor (₹20-50 lakh+ investment), Dealer (₹3-10 lakh), and [Channel Partner](https://www.heavengreenenergy.com/become-channel-partner) (₹5-25 lakh, combines sales and installation).
 > - Five certifications to verify before signing: BIS (IS 16221), ALMM Phase III listing, IEC 62109, IEC 61727, and IP66 weather protection.
 > - Base distributor margins run 15-25% on residential products and 12-20% on commercial, plus 2-5% volume rebates at quarterly thresholds.
 > - ROI typically takes 12-18 months, faster in high-opportunity states like Gujarat, Rajasthan, Maharashtra, Tamil Nadu, and Karnataka.

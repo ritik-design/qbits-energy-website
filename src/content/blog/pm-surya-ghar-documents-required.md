@@ -37,9 +37,9 @@ faqs:
     a: "Yes. After your empanelled vendor completes installation, you must upload two additional documents through the portal: the installation completion certificate issued by the vendor, and a photograph of the installed system showing the roof, panels, and inverter label. Some DISCOMs also require the net metering inspection report before releasing the subsidy. This post-installation document set triggers the final subsidy disbursal to your bank account, typically within 30 days of verification."
 ---
 
-Every week, thousands of homeowners register on the PM Surya Ghar portal only to stall at the document upload stage, or worse, receive a rejection letter weeks later because one certificate was missing or a name did not match. The paperwork requirement is not complicated once you understand what the scheme actually verifies, but the portal gives very little guidance. This guide builds the complete document checklist for 2026, explains why each document is required, and tells you exactly which mistakes cause the most rejections.
+Every week, thousands of homeowners register on the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) portal only to stall at the document upload stage, or worse, receive a rejection letter weeks later because one certificate was missing or a name did not match. The paperwork requirement is not complicated once you understand what the scheme actually verifies, but the portal gives very little guidance. This guide builds the complete document checklist for 2026, explains why each document is required, and tells you exactly which mistakes cause the most rejections.
 
-> **Direct answer.** PM Surya Ghar documents required are: Aadhaar card (with linked mobile for OTP), recent electricity bill in your name, PAN card, bank account passbook or cancelled cheque, property ownership proof, and passport-size photographs. After installation, you also submit the vendor's completion certificate and a photograph of the installed system. All names must match exactly across all documents.
+> **Direct answer.** [PM Surya Ghar](/glossary/pm-surya-ghar/) documents required are: Aadhaar card (with linked mobile for OTP), recent electricity bill in your name, PAN card, bank account passbook or cancelled cheque, property ownership proof, and passport-size photographs. After installation, you also submit the vendor's completion certificate and a photograph of the installed system. All names must match exactly across all documents.
 
 > **TL;DR**
 > - Core documents are Aadhaar, a recent electricity bill (under 90 days old), PAN card, bank passbook or cancelled cheque, and property ownership proof.
@@ -49,7 +49,7 @@ Every week, thousands of homeowners register on the PM Surya Ghar portal only to
 > - Several states (Gujarat, Tamil Nadu, Rajasthan) require additional documents beyond the central checklist, such as Surya Gujarat forms or land revenue records.
 > - Income proof, caste certificates, and original documents are commonly assumed to be required but are not.
 
-The scheme disburses up to ₹78,000 directly to your bank account for a 3 kW system, so the verification process is strict by design. According to [MNRE data](https://mnre.gov.in/){target="_blank" rel="noopener"}, the scheme targets 10 million households by 2027. Understanding the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/) in full before you begin assembling documents saves significant back-and-forth with your DISCOM.
+The scheme disburses up to ₹78,000 directly to your bank account for a 3 kW system, so the verification process is strict by design. According to [MNRE data](https://mnre.gov.in/){target="_blank" rel="noopener"}, the scheme targets 10 million households by 2027. Understanding the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/) in full before you begin assembling documents saves significant back-and-forth with your [DISCOM](/glossary/discom/).
 
 ## The Complete PM Surya Ghar Documents Checklist
 

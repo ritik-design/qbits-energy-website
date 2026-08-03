@@ -211,6 +211,15 @@ Cell balancing equalises voltages across battery pack cells, critical for capaci
 
 QBits Energy supplies LFP battery packs with quality BMS balancing for residential, C&I and microgrid solar storage in India.
 
+## Further reading
+
+For how Cell Balancing plays out in real projects, these guides go deeper:
+
+- [LiFePO4 vs NMC Battery for Solar in India](/blog/lifepo4-vs-nmc-solar-battery-india/)
+- [Best Solar Battery Brands in India 2026](/blog/best-solar-battery-brands-india-2026/)
+- [Solar Battery Price Guide India 2026](/blog/solar-battery-price-guide-india-2026/)
+- [Best Hybrid Solar Inverter India 2026, Reviewed](/blog/best-hybrid-solar-inverter-india-2026/)
+
 ## Sources
 
 - IEC 62619, Industrial lithium safety.

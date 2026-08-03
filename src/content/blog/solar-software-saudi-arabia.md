@@ -3,8 +3,8 @@ title: "Best Solar Software Saudi Arabia: The Complete 2026 Stack"
 excerpt: "Exports earn 5 halalas, commercial imports reach 32. A stack that optimises for generation instead of displaced consumption is solving the wrong problem."
 description: "Best solar software Saudi Arabia 2026: the full stack for design, proposals, CRM and compliance. The Small-Scale Solar PV framework, net billing, the 5 MW area cap, SASO and soiling."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-saudi-arabia.svg"
 author: "Nirav Dhanani"
@@ -33,14 +33,14 @@ faqs:
 featured: false
 ---
 
-Saudi Arabia has some of the best solar resource on earth and a tariff structure that penalises using all of it. Under the Small-Scale Solar PV framework, covering 1 kW to 2 MW, exports credit at roughly 5 halalas per kWh while commercial import tariffs run in tiers up to around 32 halalas and industrial up to around 20. A kilowatt-hour the site consumes is worth up to six times one it sells. That single ratio means the software question here is not how much energy the design produces but how much of it the facility uses, which is a modelling problem most platforms are not organised around. Add dust losses of several percent a day and the yield model needs rebuilding too. This guide covers what the Saudi stack has to do.
+[Saudi Arabia](https://www.surgepv.com/best-solar-software/saudi-arabia) has some of the best solar resource on earth and a tariff structure that penalises using all of it. Under the Small-Scale Solar PV framework, covering 1 kW to 2 MW, exports credit at roughly 5 halalas per kWh while commercial import tariffs run in tiers up to around 32 halalas and industrial up to around 20. A kilowatt-hour the site consumes is worth up to six times one it sells. That single ratio means the software question here is not how much energy the design produces but how much of it the facility uses, which is a modelling problem most platforms are not organised around. Add dust losses of several percent a day and the yield model needs rebuilding too. This guide covers what the Saudi stack has to do.
 
 > **TL;DR**
 > - The Small-Scale Solar PV framework covers 1 kW to 2 MW with net billing rather than net metering.
 > - Exports credit at around 5 halalas per kWh; commercial imports run up to roughly 32 and industrial up to around 20.
 > - That six to one spread makes hourly consumption modelling more important than generation modelling.
 > - Measured Saudi soiling runs around 2 to 5 percent per day, with a sandstorm observed cutting output about 20 percent.
-> - Soiling is a sawtooth between cleans, so a flat annual derate gets the timing wrong and makes cleaning unoptimisable.
+> - [Soiling](/glossary/soiling/) is a sawtooth between cleans, so a flat annual derate gets the timing wrong and makes cleaning unoptimisable.
 > - An aggregate cap of 5 MW per distribution area can constrain multi-site portfolios and changes which resource is scarce.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 

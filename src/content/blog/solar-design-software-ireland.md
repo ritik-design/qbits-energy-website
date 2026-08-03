@@ -3,8 +3,8 @@ title: "Best Solar Design Software Ireland: 2026 Guide"
 excerpt: "The best solar design software Ireland installers need handles NC6 and NC7 thresholds, SEAI grant tapering and a Clean Export Guarantee that varies two-fold by supplier."
 description: "Best solar design software Ireland 2026. SurgePV vs OpenSolar, PV*SOL, Aurora on ESB Networks NC6/NC7, SEAI grants, Clean Export Guarantee rates and EN 50549."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-ireland.svg"
 author: "Keyur Rakholiya"
@@ -34,7 +34,7 @@ faqs:
 featured: false
 ---
 
-Irish solar has an unusual quirk that most design software ignores: the export rate depends on which supplier the customer happens to be with, and the standard range runs from 15.2 to 32.0 cents per kWh. That is roughly a two-to-one spread on the same exported kilowatt-hour. On an export-heavy system, moving a customer to a better Clean Export Guarantee tariff can be worth more than adding panels. Layer on an SEAI grant that tapers and stops at 4 kWp, an NC6 notification that must be filed 20 working days before installation, and planning exemptions that vanish inside Architectural Conservation Areas, and Ireland rewards a design tool that models the specifics. This guide compares the platforms Irish installers should shortlist.
+Irish solar has an unusual quirk that most [design software](https://heavendesigns.in/blog/3d-solar-design-software/) ignores: the export rate depends on which supplier the customer happens to be with, and the standard range runs from 15.2 to 32.0 cents per kWh. That is roughly a two-to-one spread on the same exported kilowatt-hour. On an export-heavy system, moving a customer to a better Clean Export Guarantee tariff can be worth more than adding panels. Layer on an SEAI grant that tapers and stops at 4 kWp, an NC6 notification that must be filed 20 working days before installation, and planning exemptions that vanish inside Architectural Conservation Areas, and [Ireland](/blog/solar-software-ireland/) rewards a design tool that models the specifics. This guide compares the platforms Irish installers should shortlist.
 
 > **TL;DR**
 > - Clean Export Guarantee standard rates run 15.2 to 32.0 cents per kWh by supplier, with Pinergy at 25.0 cents in the standard range.
@@ -45,7 +45,7 @@ Irish solar has an unusual quirk that most design software ignores: the export r
 > - EN 50549 governs grid connection protection. Part L 2022 applies. RECI-registered contractors required. CRU regulates export.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for Irish installers in 2026 is SurgePV, because the Clean Export Guarantee spread of 15.2 to 32.0 cents per kWh means the customer's actual supplier tariff has to be modelled rather than averaged, and SurgePV runs 8,760-hour simulation to split self-consumption from export properly. OpenSolar is free at entry and widely used in Irish residential. PV*SOL is credible on simulation but desktop-bound.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for Irish installers in 2026 is SurgePV, because the Clean Export Guarantee spread of 15.2 to 32.0 cents per kWh means the customer's actual supplier tariff has to be modelled rather than averaged, and SurgePV runs 8,760-hour simulation to split self-consumption from export properly. OpenSolar is free at entry and widely used in Irish residential. PV*SOL is credible on simulation but desktop-bound.
 
 Ireland is a small, fast-growing residential market with a well-informed customer base and a genuinely generous export regime by European standards. The complication is variability rather than complexity. For the broader category comparison see our [solar design software](/blog/solar-design-software/) buyer's guide and the [best solar design software](/blog/best-solar-design-software/) ranking.
 

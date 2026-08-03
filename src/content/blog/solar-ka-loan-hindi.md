@@ -34,17 +34,17 @@ faqs:
 featured: false
 ---
 
-Solar system का सबसे बड़ा rukawat कीमत नहीं है, timing है। 3 kW का system लगवाने में ₹1.6 lakh से ₹2 lakh एक साथ निकालने पड़ते हैं, जबकि उसका फायदा 20 साल तक थोड़ा-थोड़ा करके आता है। यही gap solar ka loan भरता है। इस guide में वही चीज़ें हैं जो actually काम आती हैं: PM Surya Ghar का collateral-free route, interest rate की realistic bands, tenure कैसे चुनें, subsidy और loan का आपस में क्या रिश्ता है, EMI की पूरी calculation, documents की list, और यह honest comparison कि कब loan लेना चाहिए और कब नहीं।
+Solar system का सबसे बड़ा rukawat कीमत नहीं है, timing है। 3 kW का system लगवाने में ₹1.6 lakh से ₹2 lakh एक साथ निकालने पड़ते हैं, जबकि उसका फायदा 20 साल तक थोड़ा-थोड़ा करके आता है। यही gap solar ka loan भरता है। इस guide में वही चीज़ें हैं जो actually काम आती हैं: [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) का collateral-free route, interest rate की realistic bands, tenure कैसे चुनें, subsidy और loan का आपस में क्या रिश्ता है, EMI की पूरी calculation, documents की list, और यह honest comparison कि कब loan लेना चाहिए और कब नहीं।
 
 > **TL;DR**
-> - PM Surya Ghar के तहत residential rooftop solar के लिए banks collateral-free loan देते हैं, 3 kW तक के घरेलू systems इसी band में आते हैं।
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) के तहत residential rooftop solar के लिए banks collateral-free loan देते हैं, 3 kW तक के घरेलू systems इसी band में आते हैं।
 > - Residential solar loan rates आम तौर पर 7% से 11% per annum की band में रहते हैं, exact rate bank, borrower profile aur tenure पर निर्भर।
 > - Central subsidy पहले 2 kW पर ₹30,000/kW और तीसरे kW पर ₹18,000, यानी 3 kW पर maximum ₹78,000।
 > - Subsidy DBT से commissioning के बाद आती है, इसलिए loan gross cost पर बनता है और subsidy आने पर part-prepay किया जाता है।
 > - ₹1,80,000 loan पर 9% band में 7-year EMI लगभग ₹2,896 और 10-year EMI लगभग ₹2,280 बनती है।
 > - Personal loan (12% से 18%) और gold loan solar loan से महँगे पड़ते हैं, इन्हें fallback समझें।
 
-**Short version.** Solar ka loan PM Surya Ghar से जुड़े bank channel से मिलता है, residential rooftop के लिए यह आम तौर पर collateral-free होता है और rate 7% से 11% की band में रहता है। Bank loan gross system cost पर sanction करता है क्योंकि ₹78,000 तक की central subsidy commissioning के बाद DBT से आती है। Subsidy आते ही उससे part-prepayment करके EMI या tenure घटा लेना सबसे practical तरीका है।
+**Short version.** Solar ka loan [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-emi-options) से जुड़े bank channel से मिलता है, residential rooftop के लिए यह आम तौर पर collateral-free होता है और rate 7% से 11% की band में रहता है। [Bank loan](https://quickestimate.co/blog/pm-surya-ghar-bank-loan-process) gross system cost पर sanction करता है क्योंकि ₹78,000 तक की central subsidy commissioning के बाद DBT से आती है। Subsidy आते ही उससे part-prepayment करके EMI या tenure घटा लेना सबसे practical तरीका है।
 
 Loan लेने से पहले system size और quote finalise होना जरूरी है, क्योंकि bank sanction usी quotation पर बनता है। कीमतों की realistic range के लिए [solar inverter price 2026 का Hindi guide](/blog/solar-inverter-price-2026-hindi/) देखें, और subsidy की पूरी process के लिए [solar subsidy kaise milegi](/blog/solar-subsidy-kaise-milegi-hindi/) पढ़ लें।
 

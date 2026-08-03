@@ -43,7 +43,7 @@ The objection we hear from hall owners is always the same. My business runs at n
 > - Net metering lets daytime solar offset nighttime event consumption; the grid acts as a virtual battery at zero storage cost.
 > - A 100 kW system costs Rs 45 to 55 lakh and saves Rs 12 to 16 lakh per year. Payback: 3.5 to 4.5 years.
 > - Diesel backup power costs Rs 22 to 28 per unit; solar-DG hybridization cuts generator runtime and fuel bills sharply.
-> - Commercial systems get no PM Surya Ghar subsidy, but 40 percent accelerated depreciation improves first-year returns.
+> - Commercial systems get no [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy, but 40 percent accelerated depreciation improves first-year returns.
 > - Qbits 3-phase inverters carry a 12-year full replacement warranty, IP66 protection, and a sub-72-hour RMA service commitment.
 
 **Short version.** Solar for a marriage hall works even though events happen after sunset. With net metering, daytime solar exports earn credits that offset the evening bill. A 50 to 100 kW rooftop system at commercial tariffs of Rs 8 to 12 per unit pays back in 3.5 to 4.5 years. Halls with frequent power cuts add a hybrid inverter with batteries, or synchronize solar with the existing diesel generator.
@@ -178,6 +178,8 @@ These are the errors we see repeatedly in C&I venue projects.
 4. **Accepting a single central inverter.** Multiple 3-phase string inverters isolate faults and simplify service during wedding season, when downtime is measured in cancelled bookings.
 5. **Skipping the structural check.** A 100 kW plant adds roughly 12 to 15 kg per square foot. Get a structural certificate for steel-shed roofs.
 6. **Choosing on sticker price over warranty and service.** An inverter failure during a booked weekend costs more than the price gap between brands. Qbits 3-phase inverters carry a 12-year full replacement warranty, IP66 protection, and 98 percent peak efficiency. They are ALMM listed and backed by a sub-72-hour RMA service commitment. WhatsApp monitoring alerts your facility manager before a fault becomes a cancelled event.
+
+Elsewhere in the Heaven Group network, see [industrial solar installation](https://www.heavengreenenergy.com/blog/industrial-solar-installation) and [a 100 kW price benchmark](https://quickestimate.co/blog/hundred-kw-solar-price).
 
 ## The Bottom Line
 

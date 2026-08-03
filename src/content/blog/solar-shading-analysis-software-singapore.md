@@ -32,7 +32,7 @@ faqs:
 featured: false
 ---
 
-In most markets the shading conversation is about a chimney, a vent stack, or a tree. In Singapore it is usually about the building next door, and quite often about a building that does not exist yet. Dense high-rise development means the dominant obstruction is frequently off the property entirely, which breaks the assumption underneath most shading tools: that the relevant 3D geometry stops at the site boundary. Combine that with near-equatorial sun paths, a high diffuse fraction, and rooftop area so scarce that relocating an array is rarely an option, and Singapore shading analysis is a genuinely different exercise. This guide covers what changes and which tools handle it.
+In most markets the shading conversation is about a chimney, a vent stack, or a tree. In [Singapore](/blog/solar-software-singapore/) it is usually about the building next door, and quite often about a building that does not exist yet. Dense high-rise development means the dominant obstruction is frequently off the property entirely, which breaks the assumption underneath most shading tools: that the relevant 3D geometry stops at the site boundary. Combine that with near-equatorial sun paths, a high diffuse fraction, and rooftop area so scarce that relocating an array is rarely an option, and Singapore [shading analysis](https://www.surgepv.com/best-solar-software/shading-analysis) is a genuinely different exercise. This guide covers what changes and which tools handle it.
 
 > **TL;DR**
 > - The dominant shading source is usually neighbouring towers, so the 3D model must extend beyond the property line.
@@ -42,7 +42,7 @@ In most markets the shading conversation is about a chimney, a vent stack, or a 
 > - Future adjacent development is a genuine risk that belongs in the proposal.
 > - [SurgePV](https://surgepv.com/) builds satellite 3D including neighbouring structures at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** Solar shading analysis software for Singapore has to model the surrounding skyline, not just the subject roof, because inter-building shading from high-rise neighbours is the dominant loss mechanism. It also needs a proper direct and diffuse irradiance split, since Singapore's high cloud cover means a geometric-only shadow model overstates the cost of a given obstruction.
+**Short version.** Solar [shading analysis](/glossary/shading-analysis/) software for Singapore has to model the surrounding skyline, not just the subject roof, because inter-building shading from high-rise neighbours is the dominant loss mechanism. It also needs a proper direct and diffuse irradiance split, since Singapore's high cloud cover means a geometric-only shadow model overstates the cost of a given obstruction.
 
 The general methodology is covered in our [solar shading analysis software](/blog/solar-shading-analysis-software/) guide. This page covers the equatorial high-rise case. For the wider platform comparison see [best solar design software Singapore](/blog/solar-design-software-singapore/).
 

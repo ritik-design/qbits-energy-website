@@ -33,13 +33,13 @@ faqs:
 featured: false
 ---
 
-Roughly 30,000 people a month search for the solar subsidy in India. Most land on pages that recite the same three numbers: ₹30,000, ₹60,000, ₹78,000. Those numbers are correct, but they are only half the answer. The central subsidy under PM Surya Ghar Muft Bijli Yojana is identical in every state. What actually changes your final cost is the layer above it: the state top-up, the DISCOM's net metering rules, and the speed of your local utility. A 3 kW system in Lucknow receives ₹1,08,000 in combined subsidy. The identical system in Bengaluru receives ₹78,000. Same panels, same inverter, ₹30,000 difference driven entirely by address.
+Roughly 30,000 people a month search for the solar subsidy in India. Most land on pages that recite the same three numbers: ₹30,000, ₹60,000, ₹78,000. Those numbers are correct, but they are only half the answer. The [central subsidy](https://www.heavengreenenergy.com/glossary/state-vs-central-subsidy) under [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/) is identical in every state. What actually changes your final cost is the layer above it: the state top-up, the [DISCOM](/glossary/discom/)'s net metering rules, and the speed of your local utility. A 3 kW system in Lucknow receives ₹1,08,000 in combined subsidy. The identical system in Bengaluru receives ₹78,000. Same panels, same inverter, ₹30,000 difference driven entirely by address.
 
 This pillar guide covers all three layers for every Indian state in 2026. You get the central CFA structure, a state-by-state table of additional subsidies and DISCOM rules, and the exact application process. Where we have a detailed state guide, we link to it so you can go deeper.
 
 > **TL;DR**
 > - Central subsidy 2026: ₹30,000 per kW for the first 2 kW, ₹18,000 for the third kW, capped at ₹78,000 for 3 kW and above. It is paid by direct bank transfer.
-> - PM Surya Ghar crossed 40 lakh beneficiary households in June 2026. More than ₹22,750 crore in subsidies has been disbursed, per the Ministry of New and Renewable Energy.
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) crossed 40 lakh beneficiary households in June 2026. More than ₹22,750 crore in subsidies has been disbursed, per the Ministry of New and Renewable Energy.
 > - States with an active top-up: Uttar Pradesh (up to ₹30,000), Rajasthan (₹17,000), Delhi (capital subsidy plus ₹3 per unit generation incentive), and Maharashtra (₹10,000 to ₹20,000).
 > - Most southern and eastern states have no general state top-up in 2026; the central ₹78,000 is the full subsidy there.
 > - Housing societies and RWAs get a separate ₹18,000 per kW CFA for common areas, up to 500 kW.

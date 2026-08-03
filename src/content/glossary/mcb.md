@@ -238,6 +238,15 @@ MCB is the standard overcurrent and short-circuit protection device for resident
 
 QBits Energy designs and installs solar AC distribution with appropriately rated MCBs, RCCBs and SPDs for residential, C&I and utility applications across India.
 
+## Further reading
+
+For how MCB plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Wiring Diagram for Indian Homes 2026: Panels to Meter Board](/blog/solar-inverter-wiring-diagram/)
+- [Solar String Sizing & Overcurrent Protection](/blog/solar-string-sizing-ocp-india/)
+- [How Does a Solar Inverter Work? 2026 Guide](/blog/how-does-a-solar-inverter-work/)
+- [2kW Solar System Price in India 2026: Cost Breakdown](/blog/2kw-solar-system-price-india/)
+
 ## Sources
 
 - IS 60898-1, -2, Indian Standard for circuit breakers.

@@ -42,7 +42,7 @@ Fronius and SMA are the two premium European inverter brands most often quoted t
 > - Both brands offer 5-year standard warranties in India, extendable to 10 years; Qbits offers 12 years full replacement as standard.
 > - Imported inverters carry around 20% basic customs duty plus 12% GST, which explains most of the price gap.
 > - Service for both brands runs through importers and distributors, with typical replacement turnaround of one to four weeks and no published on-site SLA for homes.
-> - PM Surya Ghar subsidy requires the exact model on the ALMM list; check before paying any advance, because a non-listed model forfeits up to ₹78,000.
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy requires the exact model on the ALMM list; check before paying any advance, because a non-listed model forfeits up to ₹78,000.
 > - Efficiency is a wash in practice: Fronius claims up to 98.2%, SMA up to 98.4%, and Qbits 98%. On a 5 kW system, that gap is worth under ₹1,500 a year of generation.
 
 **Short version.** Fronius and SMA are excellent inverters, but in India both sell at import-inflated prices with 5-year warranties and distributor-dependent service. Fronius suits buyers who want a polished hybrid ecosystem; SMA suits commercial and EPC projects. For a typical Indian home, a made-for-India inverter with a 12-year warranty and a 72-hour service SLA delivers better value per rupee in 2026.
@@ -141,6 +141,8 @@ The exception is worth stating plainly. This holds for large commercial and util
 **Choose a made-for-India inverter like Qbits when** you are a homeowner or small business that wants the longest warranty in the market. It also fits when you want a service SLA measured in hours rather than weeks. And when you want firmware tuned for Indian grid voltage swings plus ₹25,000 to ₹60,000 back in your pocket on a 5 kW system. That covers most residential buyers reading this comparison.
 
 If backup power during outages matters to you, the topology decision comes before the brand decision. Our [on-grid vs hybrid](/blog/on-grid-vs-hybrid/) comparison and the [best hybrid solar inverters in India](/blog/best-hybrid-solar-inverter-india-2026/) shortlist will narrow that first. For a broader ranked view of the 5 kW segment including the European options, see the [best 5kW solar inverter in India 2026](/blog/best-5kw-solar-inverter-india-2026/) review.
+
+Elsewhere in the Heaven Group network, see [BIS inverter certification](https://heavendesigns.in/blog/bis-solar-inverter-certification-process) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
 
 ## The Bottom Line
 

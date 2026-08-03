@@ -223,6 +223,14 @@ Sine wave inverters produce clean sinusoidal AC output, universally compatible w
 
 QBits Energy supplies ALMM-listed sine wave inverters for residential, C&I and utility solar across India.
 
+## Further reading
+
+For how Sine Wave Inverter plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Components: 7 Parts to Inspect](/blog/solar-inverter-components/)
+- [How to Evaluate Solar Inverter Reliability](/blog/how-to-evaluate-solar-inverter-reliability/)
+- [THD in Solar Inverters, Why It Matters](/blog/thd-solar-inverter/)
+
 ## Sources
 
 - IEC 62109, Inverter safety.

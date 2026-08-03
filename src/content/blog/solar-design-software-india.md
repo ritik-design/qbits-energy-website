@@ -3,11 +3,11 @@ title: "Best Solar Design Software India: 2026 Guide"
 excerpt: "The best solar design software India installers need ships IS codes, the ALMM database, PM Surya Ghar subsidy slabs and INR pricing. Seven tools compared for 2026."
 description: "Best solar design software India 2026. SurgePV vs Aurora, HelioScope, Arka360, Solar Ladder on IS code, ALMM, PM Surya Ghar subsidy and DISCOM net metering."
 category: "Solar Software"
-date: 2026-06-14
+date: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-india.svg"
 author: "Nirav Dhanani"
-updatedDate: 2026-07-08
+updatedDate: 2026-08-03
 keywords:
   - solar design software india
   - pv design software india
@@ -42,7 +42,7 @@ The [solar design software](https://surgepv.com/) Indian installers need in 2026
 
 > **TL;DR**
 > - PM Surya Ghar central subsidy of ₹78,000 for 3 kW systems, plus state top-ups, has made residential the fastest-growing segment in India.
-> - Most global solar design software was built for US or European workflows and does not natively cover IS code, ALMM, DISCOM tariffs or INR.
+> - Most global solar [design software](https://www.surgepv.com/blog/ai-solar-design-software) was built for US or European workflows and does not natively cover IS code, ALMM, DISCOM tariffs or INR.
 > - SurgePV ships IS code clearances, an ALMM-aware module database, PM Surya Ghar subsidy logic, DISCOM tariff library and INR currency on every plan.
 > - Pricing in INR is roughly ₹1,09,000 to ₹1,60,000 per user per year, with Clara AI and 8,760-hour shading included.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and design one of your real projects on the call.
@@ -158,6 +158,8 @@ Heaven Green Energy is the EPC service arm. If a designer or sales team uses Sur
 
 
 The customer-facing half of this decision, meaning proposal generation, financing presentation and e-signature, is covered in our [best solar proposal software India](/blog/solar-proposal-software-india/) comparison.
+
+Design is one layer. For how simulation, proposal, compliance and CRM fit around it, see the [full solar software stack for India](/blog/solar-software-india/).
 
 ## Who Should Choose Each Tool
 

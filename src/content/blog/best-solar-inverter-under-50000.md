@@ -38,8 +38,8 @@ This guide is written for the budget buyer who has settled on a system size arou
 
 > **TL;DR**
 > - ₹50,000 buys a good 3kW on-grid inverter, a budget 5kW on-grid unit, or a basic 3kW hybrid. It does not buy a premium hybrid.
-> - A 3kW system generates roughly 12 to 14 units per day in most Indian cities, enough for a 1 to 2 BHK home.
-> - PM Surya Ghar pays ₹78,000 central subsidy on a 3kW system, but only if the exact inverter model is ALMM-listed.
+> - A [3kW system](https://www.heavengreenenergy.com/blog/3kw-solar-system-in-india) generates roughly 12 to 14 units per day in most Indian cities, enough for a 1 to 2 BHK home.
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) pays ₹78,000 central subsidy on a 3kW system, but only if the exact inverter model is ALMM-listed.
 > - Most inverters under ₹50,000 carry a 5-year warranty. The Qbits TLS-3K carries 12 years of full replacement cover.
 > - Divide price by warranty years before comparing. A ₹25,000 inverter with 5 years of cover costs ₹5,000 per year; a ₹45,000 inverter with 12 years costs ₹3,750.
 > - The biggest risk at this price is service, not electronics. Budget brands have no direct field force in India.

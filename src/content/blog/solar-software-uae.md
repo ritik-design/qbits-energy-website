@@ -3,8 +3,8 @@ title: "Best Solar Software UAE: The Complete 2026 Stack"
 excerpt: "Four utilities, four different credit rules, and a residential tariff spread of four to one. A UAE stack configured for one emirate will mislead in the others."
 description: "Best solar software UAE 2026: the full stack for design, proposals, CRM and compliance. DEWA Shams Dubai, ADDC, EtihadWE credit expiry, ECAS certification and Scope 2 reporting."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-uae.svg"
 author: "Nirav Dhanani"
@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-The UAE is four solar markets sharing a currency. DEWA credits Dubai customers at their own slab rate with indefinite rollover. Abu Dhabi's ADDC and AADC give kWh offset only, no cash, at up to 5 MW per premises. EtihadWE in the Northern Emirates issues credits that expire every December. Sharjah's SEWA has no published distributed solar programme at all. Layer on an Abu Dhabi residential tariff spread of roughly four to one between subsidised nationals and expatriates, and a software stack configured for one emirate will produce confidently wrong numbers in the others. This guide covers what the UAE stack actually has to handle.
+The UAE is four solar markets sharing a currency. DEWA credits Dubai customers at their own slab rate with indefinite rollover. Abu Dhabi's ADDC and AADC give kWh offset only, no cash, at up to 5 MW per premises. EtihadWE in the Northern Emirates issues credits that expire every December. Sharjah's SEWA has no published distributed solar programme at all. Layer on an Abu Dhabi residential [tariff](/glossary/tariff/) spread of roughly four to one between subsidised nationals and expatriates, and a [software stack](https://quickestimate.co/blog/solar-installer-software-stack) configured for one emirate will produce confidently wrong numbers in the others. This guide covers what the UAE stack actually has to handle.
 
 > **TL;DR**
 > - Four utility regimes with different credit mechanisms, capacity limits and expiry rules.

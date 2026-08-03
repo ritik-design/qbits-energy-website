@@ -220,6 +220,15 @@ Current is the rate of flow of electric charge, measured in amperes. Indian sola
 
 QBits Energy designs solar systems with proper current ratings for cables, protection and inverters across Indian utility, C&I and residential applications.
 
+## Further reading
+
+For how Current plays out in real projects, these guides go deeper:
+
+- [THD in Solar Inverters, Why It Matters](/blog/thd-solar-inverter/)
+- [How to Size a Battery for a Hybrid Solar Inverter](/blog/battery-sizing-hybrid-solar/)
+- [Transformerless vs Transformer Solar Inverters](/blog/transformerless-vs-transformer-inverter/)
+- [PM Surya Ghar 2.0: What the Proposed Battery Storage Update Means for You](/blog/pm-surya-ghar-battery-storage-update/)
+
 ## Sources
 
 - IS 732, Indian Code of Practice for Electrical Wiring.

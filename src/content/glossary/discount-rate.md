@@ -207,6 +207,15 @@ Discount rate is the rate converting future cash flows to present value, embeddi
 
 QBits Energy provides discount rate analysis and project finance modelling for Indian utility, C&I and residential solar projects.
 
+## Further reading
+
+For how Discount Rate plays out in real projects, these guides go deeper:
+
+- [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/)
+- [Solar IRR and Payback for C&I in India, Real Math](/blog/solar-irr-payback-ci-india/)
+- [Most Reliable Solar Inverter in India (2026)](/blog/most-reliable-solar-inverter-india/)
+- [Best Solar Design Software New Zealand: 2026 Guide](/blog/solar-design-software-new-zealand/)
+
 ## Sources
 
 - Brealey R., Myers S., Allen F., Principles of Corporate Finance, McGraw-Hill.

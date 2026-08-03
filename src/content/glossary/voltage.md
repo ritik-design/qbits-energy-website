@@ -214,6 +214,15 @@ Voltage is the electrical potential that drives current flow. Indian solar syste
 
 QBits Energy designs solar systems with proper voltage matching, cable sizing and grid connection across Indian utility, C&I and residential applications.
 
+## Further reading
+
+For how Voltage plays out in real projects, these guides go deeper:
+
+- [Solar String Sizing Software: Complete 2026 Guide](/blog/solar-string-sizing-software/)
+- [Solar String Sizing & Overcurrent Protection](/blog/solar-string-sizing-ocp-india/)
+- [India-Grid-Tuned Solar Inverters, Explained](/blog/india-grid-tuned-inverters/)
+- [String Voltage vs MPPT Voltage: Inverter Guide](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/)
+
 ## Sources
 
 - IS 12360, Voltage bands for electrical installations.

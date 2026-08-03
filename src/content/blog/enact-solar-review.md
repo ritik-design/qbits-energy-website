@@ -3,8 +3,8 @@ title: "Enact Solar Review 2026: Financing-Led Proposals, Assessed Honestly"
 excerpt: "An honest Enact Solar review for 2026. What it does well on homeowner-facing financing, where the engineering depth stops, and who should buy it."
 description: "Enact Solar review 2026: a platform built around customer-facing financial storytelling, loan and lease and PPA comparisons, and post-install monitoring. Real strengths, real limits, and the alternatives worth testing."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/enact-solar-review.svg"
 author: "Akash Hirapara"

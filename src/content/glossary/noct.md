@@ -197,6 +197,15 @@ NOCT (Nominal Operating Cell Temperature) is the cell temperature under standard
 
 QBits Energy provides yield modelling accounting for NOCT, mounting effects and Indian climate conditions for residential, C&I and utility solar.
 
+## Further reading
+
+For how NOCT plays out in real projects, these guides go deeper:
+
+- [Best Solar Software Australia: The Complete 2026 Stack](/blog/solar-software-australia/)
+- [Best Solar Proposal Software Australia: 2026 Guide](/blog/solar-proposal-software-australia/)
+- [Solar Shading Analysis Software 2026: Guide](/blog/solar-shading-analysis-software/)
+- [Solar Inverter Derating in Indian Summer, Explained](/blog/solar-inverter-summer-derating-india/)
+
 ## Sources
 
 - IEC 61215, Module qualification.

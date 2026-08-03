@@ -290,6 +290,13 @@ PWM is two things in solar engineering: a low-cost charge controller topology su
 
 QBits Energy supports installers and EPCs on charge controller selection, panel-battery voltage matching, and inverter modulation tradeoffs for off grid and hybrid systems across India. Reach out for design support.
 
+## Further reading
+
+For how PWM plays out in real projects, these guides go deeper:
+
+- [MPPT vs PWM Charge Controller Comparison](/blog/mppt-vs-pwm/)
+- [MPPT Kya Hota Hai: Solar Inverter Explained (2026)](/blog/mppt-kya-hota-hai/)
+
 ## Sources
 
 - IEC 62509:2010, Battery charge controllers for photovoltaic systems: Performance and functioning.

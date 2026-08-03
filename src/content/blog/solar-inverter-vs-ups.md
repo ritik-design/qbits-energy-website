@@ -42,12 +42,12 @@ This post draws a sharp line between each category (what it does, what it costs,
 > **TL;DR**
 > - A UPS/home inverter charges its battery from the grid and gives backup only, it has no solar panel input.
 > - An on-grid solar inverter converts solar DC to AC for bill reduction but shuts down completely during a power cut.
-> - A solar hybrid inverter does both, charging the battery from solar first and switching to backup during outages.
+> - A solar [hybrid inverter](https://www.surgepv.com/blog/hybrid-inverter-guide) does both, charging the battery from solar first and switching to backup during outages.
 > - A 10-year UPS system typically costs ₹85,000–₹1,05,000 in charging electricity and battery replacements, with zero bill reduction.
 > - Only on-grid and hybrid inverters qualify for the PM Surya Ghar subsidy; a standard UPS never does.
 > - The 4-Question Power Solution Selector below matches outage frequency and budget to the right product category.
 
-> **Direct answer.** A standard UPS (home inverter) charges its battery from the grid and provides backup during power cuts, it has no solar panel input. An on-grid solar inverter converts solar DC to AC for household use or grid export but offers no battery backup. A solar hybrid inverter does both. The 4-Question Power Solution Selector in this guide tells you which one your home actually needs.
+> **Direct answer.** A standard UPS (home inverter) charges its battery from the grid and provides backup during [power cuts](https://www.heavengreenenergy.com/blog/solar-and-power-cuts-explained), it has no solar panel input. An on-grid solar inverter converts solar DC to AC for household use or grid export but offers no battery backup. A solar [hybrid inverter](/glossary/hybrid-inverter/) does both. The 4-Question Power Solution Selector in this guide tells you which one your home actually needs.
 
 The confusion runs deeper than branding. The [solar inverter](/glossary/solar-inverter/) category alone splits into three functionally distinct products, each suited to a different situation. Understanding which is which is the first step to not wasting money.
 

@@ -38,7 +38,7 @@ faqs:
 
 A miscalculated string voltage in a solar PV array can trip inverter protection circuits, void the manufacturer warranty, and in severe cases permanently damage expensive inverter hardware. For EPCs and installers operating across India's extreme climate range - from -20 deg C Himalayan winters to 75 deg C Rajasthan rooftop surfaces - getting string voltage design right is one of the most consequential decisions in system engineering.
 
-This guide presents the complete safe design framework Indian EPCs use: the distinction between string voltage and MPPT voltage, temperature coefficient corrections for cold and hot zones, the six-step design process with worked calculation examples, safety margins, common mistakes that cost projects, and inverter selection criteria for voltage-resilient design.
+This guide presents the complete safe design framework Indian EPCs use: the distinction between string voltage and MPPT voltage, [temperature coefficient](/glossary/temperature-coefficient/) corrections for cold and hot zones, the six-step design process with worked calculation examples, safety margins, common mistakes that cost projects, and inverter selection criteria for voltage-resilient design.
 
 > **TL;DR**
 > - String voltage (Voc) is a hard safety ceiling that rises in cold weather; MPPT voltage (Vmp) is a performance window that falls in hot weather, and confusing the two is the most common cause of voltage-related project failures.

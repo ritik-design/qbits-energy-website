@@ -36,12 +36,12 @@ featured: false
 
 Telangana's solar subsidy landscape in 2026 has a distinctive urban dimension that no other state in this series matches in quite the same way: Hyderabad, served by TSSPDCL, is simultaneously a large residential solar market and one of India's most active commercial-industrial solar cities. The residential buyer in Hyderabad benefits from this, a mature installer installer network, well-tested TSSPDCL process knowledge, and competitive pricing from vendors with C&I experience.
 
-The central PM Surya Ghar subsidy of ₹78,000 for a 3 kW system is fully available through TSSPDCL (Hyderabad and southern Telangana) and TSNPDCL (northern Telangana). Telangana Solar Policy 2021 provides the state regulatory framework. The economics in most of Telangana, with 5.0 to 5.6 kWh/m²/day irradiance and TSSPDCL's relatively efficient Hyderabad urban processing, support post-subsidy payback of 3 to 4 years.
+The central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) of ₹78,000 for a 3 kW system is fully available through TSSPDCL (Hyderabad and southern Telangana) and TSNPDCL (northern Telangana). Telangana Solar Policy 2021 provides the state regulatory framework. The economics in most of Telangana, with 5.0 to 5.6 kWh/m²/day irradiance and TSSPDCL's relatively efficient Hyderabad urban processing, support post-subsidy payback of 3 to 4 years.
 
 > **TL;DR**
-> - Telangana's solar subsidy in 2026 is the central PM Surya Ghar scheme: up to ₹78,000 for a 3 kW system, with no separate state cash top-up.
+> - Telangana's solar subsidy in 2026 is the central [PM Surya Ghar](/glossary/pm-surya-ghar/) scheme: up to ₹78,000 for a 3 kW system, with no separate state cash top-up.
 > - TSSPDCL covers Hyderabad and southern Telangana (60–85 day timelines); TSNPDCL covers the north (75–100 days).
-> - Telangana Solar Policy 2021 guarantees net metering and grid connectivity rights but does not add a state cash subsidy on top of PM Surya Ghar.
+> - Telangana Solar Policy 2021 guarantees [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) and grid connectivity rights but does not add a state cash subsidy on top of [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis).
 > - Hyderabad's mature C&I solar installer base gives residential buyers access to more experienced, competitively priced vendors.
 > - A Hyderabad 3 kW case study shows post-subsidy payback of approximately 3.5 years at 5.1 kWh/m²/day irradiance.
 > - Apartment buyers must secure the housing association NOC before TSSPDCL will process a feasibility application; this can add 30–60 days if not already in place.

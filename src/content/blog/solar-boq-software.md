@@ -32,7 +32,7 @@ faqs:
     a: "Yes. SurgePV's BOQ includes mounting rails, clamps, end clamps, mid clamps, ballast for flat roofs, and structural attachment hardware based on the roof type and orientation."
 ---
 
-Solar BOQ software auto-generates the bill of quantities the procurement team needs. The auto-BOQ removes the manual list-building step and the errors that come with it. This guide explains how auto-BOQ works in 2026, a close relative of [solar takeoff software](/blog/solar-takeoff-software/), and which tools ship it well.
+Solar [BOQ software](https://heavendesigns.in/blog/solar-boq-software/) auto-generates the bill of quantities the procurement team needs. The auto-BOQ removes the manual list-building step and the errors that come with it. This guide explains how auto-BOQ works in 2026, a close relative of [solar takeoff software](/blog/solar-takeoff-software/), and which tools ship it well.
 
 > **TL;DR**
 > - Auto-BOQ generates the full procurement list from the design canvas.

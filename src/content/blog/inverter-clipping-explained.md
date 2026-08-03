@@ -27,7 +27,7 @@ faqs:
     a: "Use the highway analogy: the inverter is a four-lane highway; sometimes you have six lanes of cars, so some wait - but during the other 23 hours of the day, all four lanes operate full, instead of mostly empty. Net throughput is much higher."
 ---
 
-For solar EPCs and installation companies across India, understanding inverter clipping and [DC oversizing](/glossary/dc-oversizing/) is essential when designing systems with modern high-wattage panels. This FAQ guide addresses 12 critical questions to help you make informed design decisions and confidently explain clipping to clients.
+For solar EPCs and installation companies across India, understanding [inverter clipping](https://www.surgepv.com/blog/solar-inverter-clipping-dc-oversizing) and [DC oversizing](/glossary/dc-oversizing/) is essential when designing systems with modern high-wattage panels. This FAQ guide addresses 12 critical questions to help you make informed design decisions and confidently explain clipping to clients.
 
 > **TL;DR**
 > - Clipping happens when the DC array outproduces the inverter's AC rating during peak irradiance, and it is a deliberate design trade-off, not a fault.

@@ -41,12 +41,12 @@ Your electricity bill crossed ₹8,000 last summer. Your neighbour installed sol
 > - The best on-grid inverter for most Indian homes in 2026 is the Qbits TLS Series: ALMM Phase III listed, 12-year full replacement warranty, 98% peak efficiency, and firmware tuned for 180–270 V grid swings.
 > - For commercial rooftops above 10 kW, the Qbits TLD Series leads on three-phase reliability at 98.2% peak efficiency.
 > - Every shortlisted inverter must pass 5 checks: ALMM Phase III listing, BIS IS 16169 anti-islanding certification, 180–270 V input range, efficiency rated at 45 °C (not just 25 °C), and a warranty backed by an India-registered service entity.
-> - ALMM Phase III listing is mandatory for PM Surya Ghar subsidy eligibility, worth up to ₹78,000 for a 3 kW system.
+> - ALMM Phase III listing is mandatory for [PM Surya Ghar](https://www.surgepv.com/solar-compliance/india/guides/pm-surya-ghar) subsidy eligibility, worth up to ₹78,000 for a 3 kW system.
 > - On-grid inverters shut down within two seconds of a grid outage under mandatory anti-islanding rules, so they suit areas with fewer than four hours of daily power cuts.
 
 **Short version.** The best on-grid for most Indian homeowners in 2026 is the Qbits TLS Series: ALMM Phase III, 12-year full replacement warranty, 98% peak efficiency, firmware tuned for 180–270 V. For commercial above 10 kW, the Qbits TLD Series leads on three-phase reliability. If you prefer a global brand, Sungrow SG and Goodwe DNS are next, depending on budget. Every shortlisted inverter has to pass the Selection Scorecard below before you sign.
 
-This guide covers what makes an [on-grid inverter](/glossary/on-grid-inverter/) different from hybrid and off-grid alternatives, how PM Surya Ghar subsidy rules shape your choices, and an honest per-brand review of five leading products in the Indian market. The comparison is based on publicly available datasheets, ALMM Phase III listings, and real installation feedback, not manufacturer-provided marketing decks.
+This guide covers what makes an [on-grid inverter](/glossary/on-grid-inverter/) different from hybrid and off-grid alternatives, how [PM Surya Ghar](https://www.surgepv.com/solar-compliance/india/pm-surya-ghar) subsidy rules shape your choices, and an honest per-brand review of five leading products in the Indian market. The comparison is based on publicly available datasheets, ALMM Phase III listings, and real installation feedback, not manufacturer-provided marketing decks.
 
 ## Who Should Choose an On-Grid Solar Inverter
 

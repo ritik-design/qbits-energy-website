@@ -241,6 +241,13 @@ MNRE is the central nervous system of Indian renewable energy. It writes the pol
 
 QBits Energy supports residential and commercial customers through MNRE programmes including PM Surya Ghar, ALMM compliance and DISCOM coordination across India.
 
+## Further reading
+
+For how MNRE plays out in real projects, these guides go deeper:
+
+- [MNRE Rooftop Solar Scheme, Complete 2026 Guide](/blog/mnre-rooftop-solar-scheme/)
+- [ALMM List Phase III Guide for Buyers and EPCs 2026](/blog/almm-list-phase-iii-guide/)
+
 ## Sources
 
 - Ministry of New and Renewable Energy, official website and policy publications, Government of India.

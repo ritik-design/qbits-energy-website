@@ -259,6 +259,15 @@ PM-KUSUM is India's largest agricultural solar scheme with 35 GW target by 2026.
 
 QBits Energy installs ALMM-compliant solar pumps and decentralised solar plants under PM-KUSUM across participating Indian states.
 
+## Further reading
+
+For how PM-KUSUM plays out in real projects, these guides go deeper:
+
+- [KUSUM Yojana: Agricultural Solar Subsidy Guide](/blog/kusum-yojana-agricultural-solar-subsidy/)
+- [KUSUM Yojana Kya Hai - किसानों के लिए Solar Guide](/blog/kusum-yojana-hindi-guide/)
+- [Solar Inverter for Water Pump, KUSUM Picks](/blog/solar-inverter-for-water-pump/)
+- [PM Surya Ghar vs KUSUM Yojana: Which to Pick?](/blog/pm-surya-ghar-vs-kusum-yojana/)
+
 ## Sources
 
 - PM-KUSUM Scheme Guidelines, MNRE.

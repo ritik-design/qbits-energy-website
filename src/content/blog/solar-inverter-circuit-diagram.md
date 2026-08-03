@@ -33,9 +33,9 @@ faqs:
 featured: false
 ---
 
-Open a 5 kW string inverter and you will not find a mysterious black box. You will find a chain of well-understood power electronic blocks, each with one clear job. Solar power enters as variable DC from the panel strings and leaves as grid-synchronised 230 V, 50 Hz AC. The solar inverter circuit diagram is simply the map of that journey.
+Open a 5 kW [string inverter](https://quickestimate.co/blog/string-inverter-vs-microinverter) and you will not find a mysterious black box. You will find a chain of well-understood power electronic blocks, each with one clear job. Solar power enters as variable DC from the panel strings and leaves as grid-synchronised 230 V, 50 Hz AC. The solar inverter circuit [diagram](/blog/inverter-battery-connection-diagram/) is simply the map of that journey.
 
-Most explanations of inverters stop at "it converts DC to AC." That is true but useless when you want to size a system, read a datasheet, or diagnose a fault code at 2 PM on a May afternoon. This guide goes one level deeper. We walk through every block in the power path of a modern transformerless string inverter. That covers the DC input and EMC stage, the MPPT boost converter, the DC link, the IGBT H-bridge, the output filter, the grid relay, and the control board.
+Most explanations of inverters stop at "it converts DC to AC." That is true but useless when you want to size a system, read a datasheet, or diagnose a fault code at 2 PM on a May afternoon. This guide goes one level deeper. We walk through every block in the power path of a modern transformerless [string inverter](/glossary/string-inverter/). That covers the DC input and EMC stage, the MPPT boost converter, the DC link, the IGBT H-bridge, the output filter, the grid relay, and the control board.
 
 For each block we cover what it does, the components you would see on the schematic, and what typically fails there. We also show how a hybrid inverter's circuit diagram differs from a pure on-grid design. If you want the component-level view instead, our guide to [solar inverter components](/blog/solar-inverter-components/) pairs well with this post. For the energy flow story without the schematics, see [how a solar inverter works](/blog/how-does-a-solar-inverter-work/).
 

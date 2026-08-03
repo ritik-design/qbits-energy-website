@@ -282,6 +282,13 @@ Solar yield is the practical annual energy generated per kilowatt of installed s
 
 QBits Energy provides site-specific P50 and P90 yield projections for Indian residential, C&I and utility solar projects.
 
+## Further reading
+
+For how Solar Yield plays out in real projects, these guides go deeper:
+
+- [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/)
+- [How Much Electricity Does Solar Generate in India?](/blog/how-much-electricity-solar-generates-india/)
+
 ## Sources
 
 - IEC 61724-3:2016, Photovoltaic system performance: Energy evaluation method.

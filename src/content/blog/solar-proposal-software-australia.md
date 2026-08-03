@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Australia: 2026 Guide"
 excerpt: "The best solar proposal software Australia installers need models STC deeming, state feed-in tariffs, and export limits correctly. Seven tools compared."
 description: "Best solar proposal software Australia 2026. SurgePV vs Aurora, OpenSolar, Solargraf on STC deeming, CEC accreditation, AS/NZS 5033 and DNSP export limits."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-proposal-software-australia.svg"
 author: "Akash Hirapara"
@@ -34,7 +34,7 @@ faqs:
 featured: false
 ---
 
-Australian solar quoting has two variables that no other market shares, and generic proposal software handles neither. The first is STC deeming: the federal rebate is created from system size, the postcode's solar zone rating, and the years left in a scheme that ends in December 2030, so the same 6.6 kW system is worth less this year than last and different amounts in Cairns and Hobart. The second is export limits: distribution networks increasingly cap or dynamically curtail export, so a proposal built on unconstrained feed-in overstates income on exactly the systems most likely to be constrained. This guide compares the platforms Australian installers should shortlist on those two things first.
+Australian solar quoting has two variables that no other market shares, and generic [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) handles neither. The first is STC deeming: the federal rebate is created from system size, the postcode's solar zone rating, and the years left in a scheme that ends in December 2030, so the same 6.6 kW system is worth less this year than last and different amounts in Cairns and Hobart. The second is export limits: distribution networks increasingly cap or dynamically curtail export, so a proposal built on unconstrained feed-in overstates income on exactly the systems most likely to be constrained. This guide compares the platforms Australian installers should shortlist on those two things first.
 
 > **TL;DR**
 > - STCs are deemed from system size, solar zone, and years remaining to December 2030, so the rebate shrinks annually and varies by postcode.
@@ -44,9 +44,9 @@ Australian solar quoting has two variables that no other market shares, and gene
 > - [SurgePV](https://surgepv.com/) generates the proposal from the same bankable design record at $1,299 to $1,899 per user per year.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and quote a live Australian job on the call.
 
-**Short version.** The best solar proposal software for Australian installers in 2026 is SurgePV, because it calculates STC deeming from system size and solar zone, applies AS/NZS 5033 and AS 4777.2 checks at design time, models DNSP export limits, and generates the customer document from the same engineering record. OpenSolar is the default for simple residential on cost. Solargraf suits crews that already own a design tool.
+**Short version.** The best solar [proposal software](https://quickestimate.co/blog/solar-proposal-software) for Australian installers in 2026 is SurgePV, because it calculates STC deeming from system size and solar zone, applies AS/NZS 5033 and AS 4777.2 checks at design time, models DNSP export limits, and generates the customer document from the same engineering record. OpenSolar is the default for simple residential on cost. Solargraf suits crews that already own a design tool.
 
-Australia has the highest per-capita rooftop solar penetration in the world, which means the market is mature, competitive, and unusually well-informed. Customers here compare quotes closely and often know their network's export rules. For the design-side comparison see our [solar design software Australia](/blog/solar-design-software-australia/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the Australian lens.
+[Australia](/blog/solar-software-australia/) has the highest per-capita rooftop solar penetration in the world, which means the market is mature, competitive, and unusually well-informed. Customers here compare quotes closely and often know their network's export rules. For the design-side comparison see our [solar design software Australia](/blog/solar-design-software-australia/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the Australian lens.
 
 <div class="inline-cta">
 <h3>Quote a live Australian job with real STC numbers</h3>

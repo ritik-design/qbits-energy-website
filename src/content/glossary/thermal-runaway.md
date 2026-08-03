@@ -224,6 +224,15 @@ Thermal runaway is uncontrolled battery overheating leading to fire or explosion
 
 QBits Energy supplies IS 16893 certified LFP battery systems with BMS protection and thermal management designed for Indian climate conditions.
 
+## Further reading
+
+For how Thermal Runaway plays out in real projects, these guides go deeper:
+
+- [LiFePO4 vs NMC Battery for Solar in India](/blog/lifepo4-vs-nmc-solar-battery-india/)
+- [Best Solar Battery Brands in India 2026](/blog/best-solar-battery-brands-india-2026/)
+- [Lithium vs Lead-Acid Solar Battery for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/)
+- [Solar Battery Price Guide India 2026](/blog/solar-battery-price-guide-india-2026/)
+
 ## Sources
 
 - IEC 62619, Industrial lithium safety.

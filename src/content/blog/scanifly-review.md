@@ -3,8 +3,8 @@ title: "Scanifly Review 2026: Drone Site Survey Software, Honestly Assessed"
 excerpt: "An honest Scanifly review for 2026. What it actually is, why it is not a straight Aurora competitor, where drone capture earns its cost, and where it does not."
 description: "Scanifly review 2026: drone photogrammetry and site survey software that produces an as-built 3D model. Real strengths, real limitations, and who should buy it."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/scanifly-review.svg"
 author: "Keyur Rakholiya"
@@ -35,10 +35,10 @@ faqs:
 featured: false
 ---
 
-Most Scanifly reviews get the framing wrong before they reach the first feature. They line it up next to Aurora, OpenSolar, and HelioScope, score it on proposal templates and financial modelling, and conclude it is a narrow product. That comparison is unfair, because Scanifly is not trying to be a design and proposal platform. It is drone photogrammetry and site survey software, and it competes with the truck roll, the tape measure, and the change order rather than with the design tool you already own. This review assesses it on that basis: what it does, how well it does it, what it costs you operationally, and the specific conditions under which the drone workflow earns its keep.
+Most Scanifly reviews get the framing wrong before they reach the first feature. They line it up next to Aurora, OpenSolar, and HelioScope, score it on proposal templates and financial modelling, and conclude it is a narrow product. That comparison is unfair, because Scanifly is not trying to be a design and proposal platform. It is drone photogrammetry and [site survey](https://www.surgepv.com/blog/solar-drone-site-survey) software, and it competes with the truck roll, the tape measure, and the change order rather than with the design tool you already own. This review assesses it on that basis: what it does, how well it does it, what it costs you operationally, and the specific conditions under which the drone workflow earns its keep.
 
 > **TL;DR**
-> - Scanifly is drone-based site survey software. It turns overlapping aerial photographs into a to-scale, as-built 3D model of a real building.
+> - Scanifly is drone-based [site survey](/glossary/site-survey/) software. It turns overlapping aerial photographs into a to-scale, as-built 3D model of a real building.
 > - It is usually run alongside a design platform, not instead of one. Comparing it head to head with Aurora or SurgePV is a category error.
 > - Scanifly states 2 to 3 inch accuracy across X, Y, and Z from proper drone capture, according to Scanifly's own documentation.
 > - The real cost is operational: drone hardware, a certified pilot, airspace and weather constraints, and a site visit inserted before design begins.

@@ -243,6 +243,14 @@ Three pages worth bookmarking before your site survey:
 
 If you are ready to confirm sizing for your specific roof area and local peak sun hours, [request a site assessment from a Qbits engineer](/contact-us/), most homeowners receive a detailed quote within 24 hours.
 
+For a tighter budget bracket, see [budget picks under 50,000 rupees](/blog/best-solar-inverter-under-50000/).
+
+Sizing for a three-bedroom home specifically is in [solar inverter for a 3 BHK](/blog/solar-inverter-for-3bhk/).
+
+Air-conditioning changes the surge calculation, handled in [solar inverter for AC load](/blog/solar-inverter-for-ac/).
+
+Elsewhere in the Heaven Group network, see [how to choose the best solar inverter for your home](https://www.heavengreenenergy.com/blog/how-to-choose-the-best-solar-inverter-for-your-home) and [a full installed cost breakdown](https://quickestimate.co/blog/cost-breakdown-solar-installation).
+
 ## Monitoring, Warranty, and After-Sales: The Three Pillars Every Home Buyer Must Evaluate
 
 The inverter purchase decision does not end at specifications. Three post-purchase factors determine whether a solar system continues to perform for fifteen years or degrades unnoticed within five.

@@ -33,10 +33,10 @@ faqs:
     a: "A standard 2kW on-grid solar system does not work during power cuts - it automatically disconnects from the grid as a safety requirement (anti-islanding). If you want backup power during outages, you need a 2kW hybrid solar system with a battery bank, which costs an additional ₹50,000 to ₹1.2 lakh depending on battery type and capacity. Hybrid systems are the right choice for areas with frequent power outages."
 ---
 
-Your electricity bill is ₹4,000 to ₹8,000 per month. You run a 1-ton air conditioner, a refrigerator, a washing machine, and the usual lights and fans in a 2 BHK home. You want to know whether a 2kW solar system will make a meaningful dent in that bill, and exactly what it will cost you before and after subsidy. This guide gives you a complete component-level cost breakdown, a payback calculator for different state tariffs, and a clear load profile so you know what to expect.
+Your electricity bill is ₹4,000 to ₹8,000 per month. You run a 1-ton air conditioner, a refrigerator, a washing machine, and the usual lights and fans in a 2 BHK home. You want to know whether a 2kW solar system will make a meaningful dent in that bill, and exactly what it will cost you before and after subsidy. This guide gives you a complete component-level [cost breakdown](https://www.heavengreenenergy.com/blog/solar-panel-cost-breakdown), a payback calculator for different state tariffs, and a clear load profile so you know what to expect.
 
 > **TL;DR**
-> - A 2kW on-grid system costs ₹1.1 lakh to ₹1.5 lakh before subsidy, and ₹50,000 to ₹90,000 net after the ₹60,000 PM Surya Ghar subsidy.
+> - A 2kW on-grid system costs ₹1.1 lakh to ₹1.5 lakh before subsidy, and ₹50,000 to ₹90,000 net after the ₹60,000 [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy.
 > - It generates 7 to 10 units (kWh) per day, or roughly 2,400 to 3,200 kWh per year.
 > - Payback is typically 3 to 5 years depending on your state's electricity tariff.
 > - It comfortably runs one 1-ton AC plus a refrigerator, washing machine, and standard household lighting.

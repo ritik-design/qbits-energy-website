@@ -3,8 +3,8 @@ title: "Best Solar Software Malaysia: The Complete 2026 Stack"
 excerpt: "NEM 3.0 is quota-based. No SEDA approval means no bi-directional meter and no legal export, whatever your design says. That belongs in the tool, not the sales pitch."
 description: "Best solar software Malaysia 2026: the full stack for design, proposals, CRM and compliance. NEM 3.0 caps, SEDA quota, PE-stamped SLDs, MS IEC 62109 and GITA allowances."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-malaysia.svg"
 author: "Nirav Dhanani"
@@ -40,7 +40,7 @@ Malaysian solar has a gate that sits before engineering. NEM 3.0 is quota-based 
 > - Domestic is capped at 12 kWp; non-domestic at 75 percent of Maximum Demand, which is a calculated rather than fixed limit.
 > - The scheme is quota-based via SEDA. No quota approval means no bi-directional meter and no legal export.
 > - A PE-stamped single line diagram from a BEM-registered engineer is mandatory on all grid-connected work.
-> - Inverters must disconnect within 2 seconds of TNB supply loss and comply with MS IEC 62109.
+> - Inverters must disconnect within 2 seconds of TNB supply loss and comply with MS [IEC 62109](/glossary/iec-62109/).
 > - GITA gives 100 percent investment tax allowance over 3 years with MIDA approval. Typical NEM timeline is 4 to 6 months.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 

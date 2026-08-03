@@ -212,6 +212,15 @@ Inverter efficiency is the ratio of AC output to DC input. Modern Indian string 
 
 QBits Energy supplies ALMM-listed inverters with verified European weighted efficiency for residential, C&I and utility solar across India.
 
+## Further reading
+
+For how Inverter Efficiency plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Efficiency: 95% vs 97% vs 98%](/blog/solar-inverter-efficiency/)
+- [Solar Inverter Monitoring Systems in India (2026)](/blog/solar-inverter-monitoring-systems-in-india/)
+- [Fronius vs SMA in India 2026: Are Premium European Inverters Worth It?](/blog/fronius-vs-sma-india/)
+- [How AI Is Changing Solar Inverter Performance](/blog/ai-in-solar-inverters/)
+
 ## Sources
 
 - EN 50530:2010, Overall efficiency of grid-connected photovoltaic inverters.

@@ -43,7 +43,7 @@ Solar irradiance (the amount of solar radiation reaching a surface per unit area
 > - North India (UP, Bihar, Delhi, Punjab) shows the widest seasonal swing, nearly a 2:1 ratio between best and worst months.
 > - NREL NSRDB and IRENA's Global Solar Atlas are the reference-standard data sources used for professional PV system design in India.
 
-> **India's annual solar irradiance (GHI) ranges from approximately 3.8 kWh/m²/day in the northeastern hill states to 6.5 kWh/m²/day in western Rajasthan.** The Solar Irradiance Tier Classification divides India's states into four tiers for system sizing and payback estimation purposes. Peak sun hours data from the NREL NSRDB and IRENA Global Solar Atlas is the reference standard for professional PV system design in India.
+> **India's annual solar irradiance (GHI) ranges from approximately 3.8 kWh/m²/day in the northeastern hill states to 6.5 kWh/m²/day in western Rajasthan.** The Solar Irradiance Tier Classification divides India's states into four tiers for system sizing and payback estimation purposes. [Peak sun hours](/glossary/peak-sun-hours/) data from the NREL NSRDB and IRENA Global Solar Atlas is the reference standard for professional PV system design in India.
 
 This reference is designed for EPC installers, C&I buyers, and informed homeowners who need accurate irradiance data rather than rule-of-thumb estimates. The [string sizing calculator](/string-sizing-calculator/) can apply these irradiance values directly to system design, and the [solar yield in India guide](/blog/solar-yield-india/) provides application context for how irradiance translates into annual kWh output by state.
 

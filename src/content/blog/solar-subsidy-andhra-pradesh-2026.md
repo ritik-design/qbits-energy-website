@@ -34,16 +34,16 @@ faqs:
 featured: false
 ---
 
-Andhra Pradesh homeowners in 2026 can access the central PM Surya Ghar subsidy of ₹78,000 for a 3 kW system through two DISCOMs: APEPDCL for coastal and eastern AP, and APNPDCL for northern and inland AP. The state has a strong foundation in industrial and utility-scale solar that has built an experienced installer installer network, a benefit for residential buyers who can draw on established vendor networks in cities like Visakhapatnam, Vijayawada, and Kurnool.
+Andhra Pradesh homeowners in 2026 can access the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) of ₹78,000 for a 3 kW system through two DISCOMs: APEPDCL for coastal and eastern AP, and APNPDCL for northern and inland AP. The state has a strong foundation in industrial and utility-scale solar that has built an experienced installer installer network, a benefit for residential buyers who can draw on established vendor networks in cities like Visakhapatnam, Vijayawada, and Kurnool.
 
 AP's solar irradiance is among the better in India, particularly in the semi-arid Rayalaseema region, where 5.5 to 5.8 kWh/m²/day enables payback periods of under 3 years post-subsidy.
 
-> **Andhra Pradesh's solar subsidy in 2026 is the central PM Surya Ghar scheme: up to ₹78,000 for a 3 kW residential system.** No separate AP state cash top-up exists. Two DISCOMs (APEPDCL (eastern/coastal) and APNPDCL (northern/inland)) handle net metering through their respective portals and divisional offices. Realistic timelines: 60–80 days for coastal urban areas (Vizag, Vijayawada), 75–100 days for inland APNPDCL areas. AP's 5.0–5.8 kWh/m²/day irradiance supports post-subsidy payback of 2.5–3.5 years in most districts.
+> **Andhra Pradesh's solar subsidy in 2026 is the central [PM Surya Ghar](/glossary/pm-surya-ghar/) scheme: up to ₹78,000 for a 3 kW residential system.** No separate AP state cash top-up exists. Two DISCOMs (APEPDCL (eastern/coastal) and APNPDCL (northern/inland)) handle [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) through their respective portals and divisional offices. Realistic timelines: 60–80 days for coastal urban areas (Vizag, Vijayawada), 75–100 days for inland APNPDCL areas. AP's 5.0–5.8 kWh/m²/day irradiance supports post-subsidy payback of 2.5–3.5 years in most districts.
 
 The [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the national framework; this post adds the AP-specific detail.
 
 > **TL;DR**
-> - AP homeowners get the central PM Surya Ghar subsidy only (up to ₹78,000 for 3 kW) - there is no separate AP state cash top-up as of 2026.
+> - AP homeowners get the central [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy only (up to ₹78,000 for 3 kW) - there is no separate AP state cash top-up as of 2026.
 > - Two DISCOMs split the state: APEPDCL for eastern/coastal AP (60-80 day average timeline) and APNPDCL for northern/inland AP (75-100 days).
 > - Rayalaseema districts (Kurnool, Anantapur) get the highest irradiance in AP, 5.5-5.8 kWh/m²/day, supporting the fastest payback.
 > - Coastal locations (Visakhapatnam, Kakinada, Machilipatnam) need IP66-rated inverters and cyclone-rated mounting due to salt air and Bay of Bengal wind exposure.

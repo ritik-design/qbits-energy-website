@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Chile: 2026 Guide"
 excerpt: "Chilean credits are paid at the pure energy price but never expire. That combination rewards a different proposal from any other net billing market. Six tools compared."
 description: "Best solar proposal software Chile 2026. SurgePV vs Aurora, PVsyst, PV*SOL on Ley 21.118, the pure energy price, non-expiring credit accumulation, the 300 kW PMGD threshold and site weather."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-chile.svg"
 author: "Akash Hirapara"
@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-Chile combines two features that no other market in this series pairs together. Exported surplus is credited at the pure energy price, stripped of the transport and distribution components that make up much of a retail bill, so export is worth well below import. But those credits do not expire while the customer maintains their contract, so surplus accumulates and carries forward automatically instead of being destroyed at month end. The first fact argues for tight sizing. The second softens the penalty for getting it slightly wrong. A proposal that understands only one of them gives the wrong advice, and most templates imported from other markets understand only one. This guide compares the platforms Chilean installers should shortlist.
+[Chile](/blog/solar-software-chile/) combines two features that no other market in this series pairs together. Exported surplus is credited at the pure energy price, stripped of the transport and distribution components that make up much of a retail bill, so export is worth well below import. But those credits do not expire while the customer maintains their contract, so surplus accumulates and carries forward automatically instead of being destroyed at month end. The first fact argues for tight sizing. The second softens the penalty for getting it slightly wrong. A proposal that understands only one of them gives the wrong advice, and most templates imported from other markets understand only one. This guide compares the platforms Chilean installers should shortlist.
 
 > **TL;DR**
 > - Ley 21.118 credits surplus at the pure energy price, without transport or distribution, so export is worth well below retail.
@@ -44,7 +44,7 @@ Chile combines two features that no other market in this series pairs together. 
 > - Storage captures the pure-energy-to-retail spread, a genuine but smaller prize than in expiring-credit markets.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for Chilean installers in 2026 is SurgePV, because it carries the credit balance across months, prices surplus at the pure energy rate and uses site-specific weather across the full latitude range. PVsyst is the bankable simulation reference for PMGD work with no proposal layer. Aurora assumes US net metering, which Chile does not operate.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Chilean installers in 2026 is SurgePV, because it carries the credit balance across months, prices surplus at the pure energy rate and uses site-specific weather across the full latitude range. PVsyst is the bankable simulation reference for PMGD work with no proposal layer. Aurora assumes US [net metering](/glossary/net-metering/), which Chile does not operate.
 
 For the design-side comparison see our [best solar design software Chile](/blog/solar-design-software-chile/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
 

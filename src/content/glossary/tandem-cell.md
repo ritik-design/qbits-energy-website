@@ -214,6 +214,15 @@ Tandem solar cells stack materials with different bandgaps to break single-junct
 
 QBits Energy monitors next-generation solar including tandem cells for future Indian deployment.
 
+## Further reading
+
+For how Tandem Cell plays out in real projects, these guides go deeper:
+
+- [Inverter MPPT: 8 Critical Selection Factors (2026)](/blog/inverter-mppt/)
+- [MPPT vs PWM Charge Controller Comparison](/blog/mppt-vs-pwm/)
+- [Solar Inverter Efficiency: 95% vs 97% vs 98%](/blog/solar-inverter-efficiency/)
+- [Transformerless vs Transformer Solar Inverters](/blog/transformerless-vs-transformer-inverter/)
+
 ## Sources
 
 - NREL Best Research-Cell Efficiency Chart.

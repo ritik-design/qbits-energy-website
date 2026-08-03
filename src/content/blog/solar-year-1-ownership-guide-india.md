@@ -152,6 +152,8 @@ Not everything in Year 1 warrants attention. But these specific events require a
 
 For the complete list of inverter fault codes and their meanings, see [solar inverter underperforming India](/blog/solar-inverter-underperforming-india/).
 
+Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included) and [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation).
+
 ## Where Qbits Fits in Your Year 1 Experience
 
 Qbits WhatsApp monitoring means you receive the Month 12 annual review summary automatically, the system sends a 12-month generation report by WhatsApp with a comparison to the commissioned yield estimate. You do not need to log into a portal, export a report, or calculate anything manually.

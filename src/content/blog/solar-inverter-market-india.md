@@ -232,6 +232,8 @@ The [DISCOM](/glossary/discom/) grid capacity constraint is the hardest to solve
 
 The quality enforcement gap creates reputational risk for the entire industry. When a grey-channel inverter fails at 18 months and the customer's warranty claim goes unanswered, the resulting complaint affects all installers and brands in that market. EPCs who position ALMM compliance and BIS certification as a procurement standard (and communicate this to customers as a differentiator) build a more defensible business than those competing purely on capex.
 
+Elsewhere in the Heaven Group network, see [BIS inverter certification](https://heavendesigns.in/blog/bis-solar-inverter-certification-process) and [cost per watt in India](https://quickestimate.co/blog/solar-cost-per-watt-india).
+
 ## Where Qbits Fits in the 2026 Market Landscape
 
 The Indian solar inverter market in 2026 rewards brands that can deliver on three promises simultaneously: technical depth that satisfies EPC procurement criteria, a warranty structure that holds in Tier-2/3 markets, and compliance posture that keeps subsidy-linked projects clean. Qbits Energy is built around exactly this combination, a domestic brand with 12-year full replacement warranty, IP66 weather protection, BIS and ALMM listing, India-grid-tuned firmware (180–270 V range), and AI-powered WhatsApp monitoring that works in markets where dashboard logins are not practical.

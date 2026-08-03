@@ -205,6 +205,15 @@ Late Payment Surcharge Rules 2022 establish escalating penalties on DISCOM delay
 
 QBits Energy structures solar PPAs and project finance leveraging LPS Rules 2022 for cash flow protection across Indian states.
 
+## Further reading
+
+For how Late Payment Surcharge plays out in real projects, these guides go deeper:
+
+- [Open Access Solar in India 2026: The C&I Buyer's Complete Guide](/blog/open-access-solar-india-explained/)
+- [Net Meter Approval Time in India 2026: DISCOM Timelines and How to Speed It Up](/blog/net-meter-approval-timeline/)
+- [PM Surya Ghar: What Works, What Doesn't](/blog/pm-surya-ghar-whats-working/)
+- [Group Captive Solar for MSMEs 2026: Rules, Savings, and ROI](/blog/group-captive-solar-msme/)
+
 ## Sources
 
 - Late Payment Surcharge Rules 2022, Ministry of Power.

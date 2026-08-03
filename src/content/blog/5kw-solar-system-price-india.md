@@ -37,9 +37,9 @@ faqs:
 
 After a ₹5,000 electricity bill, you started looking at solar seriously. 5kW keeps showing up in quotes. Google confirms it's the most-searched residential solar size in India. But the price range, ₹2.4 lakh to ₹3.5 lakh, spans ₹1.1 lakh. What explains that gap, and what does a 5kW system actually buy you?
 
-This guide answers both. It applies the **True Cost of Going Solar** framework to 5kW, breaks down on-grid vs hybrid cost gaps, explains what the PM Surya Ghar subsidy actually pays for above 3kW, and tells you which Qbits inverter SKU fits.
+This guide answers both. It applies the **True Cost of Going Solar** framework to 5kW, breaks down on-grid vs hybrid cost gaps, explains what the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy actually pays for above 3kW, and tells you which Qbits inverter SKU fits.
 
-**Short version.** A 5kW on-grid system costs ₹2,40,000 to ₹3,00,000 gross in India in 2026. A 5kW hybrid runs ₹3,00,000 to ₹3,80,000. After the ₹78,000 PM Surya Ghar subsidy (capped at this level for any system above 3kW), net outlay is ₹1,62,000 to ₹2,22,000 for on-grid. At ₹7/unit and 23 kWh/day, payback lands in 3 to 5 years. The framework below verifies every line item before you sign.
+**Short version.** A 5kW on-grid system costs ₹2,40,000 to ₹3,00,000 gross in India in 2026. A 5kW hybrid runs ₹3,00,000 to ₹3,80,000. After the ₹78,000 [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy (capped at this level for any system above 3kW), net outlay is ₹1,62,000 to ₹2,22,000 for on-grid. At ₹7/unit and 23 kWh/day, payback lands in 3 to 5 years. The framework below verifies every line item before you sign.
 
 > **TL;DR**
 > - A 5kW on-grid system costs ₹2,40,000–₹3,00,000 gross; a 5kW hybrid costs ₹3,00,000–₹3,80,000, before subsidy.

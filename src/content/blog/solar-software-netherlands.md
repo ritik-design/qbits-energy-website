@@ -3,8 +3,8 @@ title: "Best Solar Software Netherlands: The Complete 2026 Stack"
 excerpt: "Salderingsregeling ends on 1 January 2027. Every Dutch quoting tool built on annual netting becomes wrong on that date, and most have not been rebuilt."
 description: "Best solar software Netherlands 2026: the full stack for design, proposals, CRM and monitoring. The end of salderingsregeling, terugleverkosten, hourly self-consumption and battery dispatch."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-netherlands.svg"
 author: "Nirav Dhanani"
@@ -44,7 +44,7 @@ Dutch solar software has a deadline. The salderingsregeling ends on 1 January 20
 > - Any proposal for a system sold today should model both periods and state the assumed post-2027 rate.
 > - [SurgePV](https://surgepv.com/) runs 8,760-hour simulation with battery dispatch at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar software for a Dutch business in 2026 is whichever tool can model the two tariff periods honestly and dispatch a battery against an hourly load profile. Everything else in the stack is ordinary. This one capability is the whole question, because the mechanism the market was built on has a termination date inside the payback period of every system you sell.
+**Short version.** The best solar software for a Dutch business in 2026 is whichever tool can model the two [tariff](/glossary/tariff/) periods honestly and dispatch a battery against an hourly load profile. Everything else in the stack is ordinary. This one capability is the whole question, because the mechanism the market was built on has a termination date inside the [payback period](/glossary/payback-period/) of every system you sell.
 
 This page covers the category as a whole. For the tool-by-tool comparisons see our [best solar design software Netherlands](/blog/solar-design-software-netherlands/) and [best solar proposal software Netherlands](/blog/solar-proposal-software-netherlands/) guides.
 

@@ -36,13 +36,13 @@ faqs:
 You have spent weeks researching rooftop solar. You have compared system sizes, read through subsidy slabs, and you are now ready to hire someone. Then a neighbour tells you: "Make sure the vendor is empanelled, or you lose the subsidy." Suddenly the homework is not done yet.
 
 > **TL;DR**
-> - An empanelled vendor is a solar installer formally registered with your state DISCOM, vetted for technical and financial capacity, and bound by benchmark pricing norms.
-> - Only empanelled vendors can submit the commissioning report that triggers PM Surya Ghar subsidy disbursement, non-empanelled installers cannot get your claim processed at all.
+> - An [empanelled vendor](https://quickestimate.co/blog/pm-surya-ghar-empanelled-vendor) is a solar installer formally registered with your state DISCOM, vetted for technical and financial capacity, and bound by benchmark pricing norms.
+> - Only empanelled vendors can submit the commissioning report that triggers [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy disbursement, non-empanelled installers cannot get your claim processed at all.
 > - Verify a vendor's registration number directly on pmsuryaghar.gov.in, and separately confirm ALMM listing for both the proposed inverter and solar panel models.
 > - The portal's grievance mechanism gives empanelled-vendor customers a formal recourse channel, with a 7-day acknowledgement and 30-day resolution requirement, that does not exist outside the scheme.
 > - Losing the subsidy due to a non-empanelled or non-ALMM-compliant vendor has no appeals process; the applicant bears the full ₹78,000-plus loss.
 
-For most homeowners, "empanelled vendor" is a term they encounter late in the process, after they have already received two or three quotes from solar companies they found on Google or WhatsApp. This guide explains exactly what empanelment means, why it is the single most consequential vendor qualification under PM Surya Ghar, and how to verify any installer before you sign anything.
+For most homeowners, "empanelled vendor" is a term they encounter late in the process, after they have already received two or three quotes from solar companies they found on Google or WhatsApp. This guide explains exactly what empanelment means, why it is the single most consequential vendor qualification under [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-vendor-registration), and how to verify any installer before you sign anything.
 
 > **Direct answer.** An empanelled vendor solar installer for PM Surya Ghar is a company formally registered with your state DISCOM, vetted for financial and technical capacity, bound by pricing norms, and authorised to submit commissioning reports that trigger government subsidy. Using a non-empanelled vendor disqualifies your ₹78,000 subsidy claim regardless of how good the installation looks. Verify the vendor's registration number on [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) before paying any advance.
 

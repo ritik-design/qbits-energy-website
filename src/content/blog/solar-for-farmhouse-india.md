@@ -34,20 +34,20 @@ faqs:
 featured: false
 ---
 
-Rural India averages around nine hours of outages daily in surveyed states, versus two hours in cities, per Prayas Energy Group (2025). That single number explains why solar for farmhouse projects fail so often. Most farmhouses sit at the far end of long, weak rural feeders. Voltage swings wildly, cuts arrive without warning, and the diesel generator hums through every weekend visit. Owners then buy the same on-grid rooftop system their city neighbour installed, and discover it produces exactly zero units during every outage.
+Rural India averages around nine hours of outages daily in surveyed states, versus two hours in cities, per Prayas Energy Group (2025). That single number explains why solar for farmhouse projects fail so often. Most farmhouses sit at the far end of long, weak rural feeders. [Voltage](/glossary/voltage/) swings wildly, cuts arrive without warning, and the diesel generator hums through every weekend visit. Owners then buy the same on-grid rooftop system their city neighbour installed, and discover it produces exactly zero units during every outage.
 
 A farmhouse is not a city home with a garden. The loads are different, the grid is worse, the roof may be unusable, and nobody is on site most of the week to notice a fault. This guide covers the complete setup for 2026. We explain why hybrid plus battery is the default answer and how to size for ACs and pumps. We also cover roof versus land mounting, remote monitoring, full system costs, and payback.
 
 > **TL;DR**
 > - Rural areas average around nine hours of outages daily versus two hours urban, per Prayas Energy Group (2025), so on-grid inverters fit farmhouses poorly.
-> - A 5 kW hybrid inverter with a 5 to 10 kWh battery covers a typical two to four bedroom farmhouse. That includes one or two ACs and a 1 to 2 HP pump.
+> - A 5 kW [hybrid inverter](/glossary/hybrid-inverter/) with a 5 to 10 kWh battery covers a typical two to four bedroom farmhouse. That includes one or two ACs and a 1 to 2 HP pump.
 > - Diesel generation costs ₹18 to ₹24 per unit; solar plus battery runs at near-zero marginal cost, which is the real payback benchmark at a farmhouse.
 > - A complete 5 kW hybrid farmhouse system costs roughly ₹3.5 Lakh to ₹6 Lakh all-in in 2026. A 10 kW system with storage runs ₹7 Lakh to ₹11 Lakh.
 > - Ground mounting costs 10 to 20 percent more per kW than rooftop but allows ideal orientation and unlimited capacity on farmhouse land.
-> - PM Surya Ghar subsidy applies only to residential rooftop systems with ALMM-listed equipment, according to MNRE (2026).
+> - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy applies only to residential rooftop systems with ALMM-listed equipment, according to [MNRE](/glossary/mnre/) (2026).
 > - LFP battery prices have fallen from ₹35,000 to ₹45,000 per kWh in 2023 to roughly ₹22,000 to ₹28,000 per kWh in 2026, industry-observed range.
 
-**Short version.** The right solar for farmhouse setup in India is a hybrid inverter with a lithium battery. Size it 5 kW for a small farmhouse and 10 kW for a large one. Rural grids suffer long outages and severe voltage swings that shut on-grid systems down. Mount on the roof if it is usable and you want subsidy; mount on the land if you need capacity or ideal orientation. Budget ₹3.5 Lakh to ₹6 Lakh for a 5 kW hybrid system with storage in 2026.
+**Short version.** The right solar for farmhouse setup in India is a [hybrid inverter](/glossary/hybrid-inverter/) with a lithium battery. Size it 5 kW for a small farmhouse and 10 kW for a large one. Rural grids suffer long outages and severe voltage swings that shut on-grid systems down. Mount on the roof if it is usable and you want subsidy; mount on the land if you need capacity or ideal orientation. Budget ₹3.5 Lakh to ₹6 Lakh for a 5 kW hybrid system with storage in 2026.
 
 The topology decision, on-grid versus hybrid versus off-grid, is covered in depth in our [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/). This post applies that framework to the specific conditions of an Indian farmhouse.
 

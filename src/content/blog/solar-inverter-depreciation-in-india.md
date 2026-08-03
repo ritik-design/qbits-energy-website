@@ -44,12 +44,12 @@ updatedDate: 2026-07-08
 For commercial and industrial buyers investing in solar across India, understanding inverter depreciation is the single highest-leverage financial decision in the procurement process. Inverters represent **15-20% of total system investment**, and depreciation strategy alone can shift a project from a marginal seven-year payback into a compelling five-year return.
 
 > **TL;DR**
-> - Solar inverters qualify for **40% [WDV](/glossary/accelerated-depreciation/) accelerated depreciation** under Section 32, but only for business-owned (CAPEX) systems - residential and [RESCO/PPA](/glossary/resco/) models do not qualify.
+> - Solar inverters qualify for **40% [WDV](/glossary/accelerated-depreciation/) [accelerated depreciation](https://www.heavengreenenergy.com/blog/accelerated-depreciation-solar-tax)** under Section 32, but only for business-owned (CAPEX) systems - residential and [RESCO/PPA](/glossary/resco/) models do not qualify.
 > - A ₹40 lakh inverter investment yields ₹16 lakh of first-year depreciation, worth ₹4.8 lakh in tax savings at the 30% corporate rate.
 > - The depreciation clock starts on the commissioning date, not the purchase date - commission before late September to cross the 180-day threshold and claim full first-year depreciation.
 > - WDV front-loads the tax shield and typically beats the Straight Line Method for [IRR](/glossary/irr/) because it matches early-year loan repayment cash flow.
 > - Capital subsidies like PM Surya Ghar reduce the depreciable base, so coordinate commissioning and subsidy disbursement timing with your CA.
-> - Accelerated depreciation can compress simple payback from roughly 7.1 years to 5.2 years on a representative 100 kW commercial installation.
+> - [Accelerated depreciation](https://www.heavengreenenergy.com/blog/accelerated-depreciation-25-percent-vs-40-percent) can compress simple payback from roughly 7.1 years to 5.2 years on a representative 100 kW commercial installation.
 
 This guide consolidates the regulatory framework, calculation methods, year-by-year cash impact, commissioning timing, and selection criteria that determine whether you capture the full tax shield or leave 25-40% of project economics on the table.
 

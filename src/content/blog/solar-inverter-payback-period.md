@@ -40,14 +40,14 @@ Your electricity bill arrives. The numbers on the last page (₹6,800, ₹9,200,
 This post answers that question with actual arithmetic. Not marketing ranges. Not "typically 5–7 years" platitudes. State tariff rates from published [DISCOM](/glossary/discom/) tariff orders, irradiance figures from MNRE data, subsidy stacks as of June 2026, and a replicable formula you can apply to your own roof. If you would rather skip the manual arithmetic, a solar cost calculator can produce a quick ballpark for your roof, though the state-specific numbers below will be more precise.
 
 > **TL;DR**
-> - Solar inverter payback in India ranges from 3.7 years (Rajasthan) to 6.4 years (Delhi) for a 5 kW on-grid system after PM Surya Ghar subsidy.
+> - Solar inverter payback in India ranges from 3.7 years (Rajasthan) to 6.4 years (Delhi) for a 5 kW on-grid system after [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy.
 > - Electricity tariff is the single biggest lever, a ₹1/kWh tariff difference shifts payback by roughly 8–14 months.
 > - The 4-Variable Payback Formula divides net system cost by annual generation value plus net metering export value.
-> - Hybrid inverters with battery storage extend payback by 3–6 years compared to on-grid, because backup power carries no equivalent electricity-savings return.
+> - Hybrid inverters with [battery storage](https://heavendesigns.in/blog/pm-surya-ghar-2-0-battery-storage-shared-rooftop-solar/) extend payback by 3–6 years compared to on-grid, because backup power carries no equivalent electricity-savings return.
 > - Gujarat and Rajasthan lead on ROI thanks to high tariffs, strong irradiance, and (for Gujarat) an additional state subsidy top-up.
 > - Common planning mistakes, wrong tariff slabs, ignored degradation, slow net metering approval, can quietly add 6–18 months to your payback estimate.
 
-> **Direct answer.** Solar inverter payback in India ranges from 3.8 years (Gujarat) to 6.2 years (Delhi) for a 5 kW on-grid system after PM Surya Ghar subsidy. The single biggest variable is your state electricity tariff, not panel quality, not brand, not installer. The 4-Variable Payback Calculator in this post gives you your personalised number in under five minutes.
+> **Direct answer.** Solar inverter payback in India ranges from 3.8 years (Gujarat) to 6.2 years (Delhi) for a 5 kW on-grid system after [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy). The single biggest variable is your state electricity tariff, not panel quality, not brand, not installer. The 4-Variable Payback Calculator in this post gives you your personalised number in under five minutes.
 
 The [payback period](/glossary/payback-period/) is simply the point at which cumulative savings equal the original investment. Everything after that is profit. For a system that lasts 25 years, a 4-year payback means 21 years of near-free electricity, a compounding return most fixed deposits cannot touch.
 
@@ -266,6 +266,8 @@ The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) 
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm your panel-string configuration before the installer quotes, so the generation estimate in your payback calculation is accurate.
 
 [Talk to a Qbits engineer](/contact-us/) about your specific roof, tariff slab, and subsidy eligibility, most site assessments and quotes are returned within 24 hours. The payback calculation for your exact address will be more precise than any state average, and that precision is what converts a financial decision into a confident one.
+
+How that return compares with a bank deposit is in [solar investment vs FD](/blog/solar-investment-vs-fd-india/).
 
 ## Beyond Simple Payback: The 25-Year Picture
 

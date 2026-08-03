@@ -44,9 +44,9 @@ Every EPC in India has faced the same conversation: a client asks why a particul
 > - Systems already commissioned under a valid ALMM listing are grandfathered even if the product is delisted later; only new orders after the delisting date are affected.
 > - Qbits' TLS/TLD on-grid and HS/HT hybrid series are ALMM Phase III listed across 1.5 kW to 100 kW, backed by a 12-year full replacement warranty.
 
-This guide is written for EPC installers who need to understand not just what the ALMM list is, but how to operationalise it across their procurement, quoting, tendering, and contract workflows.
+This guide is written for EPC installers who need to understand not just what the [ALMM list](https://www.heavengreenenergy.com/blog/almm-list-explained) is, but how to operationalise it across their procurement, quoting, tendering, and contract workflows.
 
-> **Direct answer.** The ALMM list (Approved List of Models and Manufacturers) is the MNRE register of solar equipment approved for use in subsidy-eligible and government-tendered installations. Phase III, introduced in 2022 and progressively expanded, added inverters and balance-of-system components to the scope previously covering only modules. For EPCs, ALMM compliance is not a single checkbox, it requires the 5-Check ALMM Compliance Protocol applied at the quote stage, before procurement, and again before commissioning to eliminate subsidy-rejection risk entirely.
+> **Direct answer.** The [ALMM list](https://www.heavengreenenergy.com/blog/almm-list-2-exemption-window-2026) (Approved List of Models and Manufacturers) is the MNRE register of solar equipment approved for use in subsidy-eligible and government-tendered installations. Phase III, introduced in 2022 and progressively expanded, added inverters and balance-of-system components to the scope previously covering only modules. For EPCs, ALMM compliance is not a single checkbox, it requires the 5-Check ALMM Compliance Protocol applied at the quote stage, before procurement, and again before commissioning to eliminate subsidy-rejection risk entirely.
 
 The practical complexity is not in understanding what the list is, it is in managing it across a live project portfolio where product availability, manufacturer listings, and MNRE notification timings do not always align. The sections below address each of these scenarios directly.
 

@@ -304,6 +304,15 @@ Bifacial modules are the new standard for Indian utility solar and increasingly 
 
 QBits Energy designs bifacial-optimised utility and C&I solar plants with ground-condition surveys, mounting design and inverter sizing tailored to the actual albedo at your site.
 
+## Further reading
+
+For how Bifacial Module plays out in real projects, these guides go deeper:
+
+- [Cloud Solar Design Software 2026: Browser-First](/blog/cloud-solar-design-software/)
+- [Solar Inverter Low Output, 12 Causes and Fixes India](/blog/solar-inverter-low-output-causes-india/)
+- [Solar Panel Price in India 2026: All Brands, All Wattages](/blog/solar-panel-price-india/)
+- [How to Maximise Solar Output in Indian Climate](/blog/maximize-solar-output-indian-climate/)
+
 ## Sources
 
 - IEC TS 60904-1-2:2019, Photovoltaic devices: Procedures for the measurement of current-voltage characteristics of bifacial photovoltaic devices.

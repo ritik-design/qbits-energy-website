@@ -270,6 +270,15 @@ CAPEX is the upfront cost of building a solar project. Indian utility-scale cape
 
 QBits Energy provides detailed capex modelling for utility, C&I and residential solar projects with current Indian market pricing.
 
+## Further reading
+
+For how CAPEX plays out in real projects, these guides go deeper:
+
+- [Solar CAPEX vs OPEX: The C&I Buyer Decision Guide](/blog/solar-capex-vs-opex-india-guide/)
+- [Zero Cost Solar India: RESCO & OPEX Models](/blog/zero-cost-solar-resco-opex-india/)
+- [Solar CAPEX vs OPEX: Which Model Fits Your Business?](/blog/solar-capex-vs-opex-business-india/)
+- [Solar RESCO Model India: Guide for C&I Buyers](/blog/solar-resco-model-india-guide/)
+
 ## Sources
 
 - CERC Tariff Regulations 2024 and benchmark capex methodology.

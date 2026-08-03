@@ -184,6 +184,8 @@ Multiple central and state-level policies support solar adoption in the poultry 
 - **Not planning for DG integration**: for very large farms (50,000+ birds), a purely solar+battery system cannot provide the redundancy that a poultry operation with millions of rupees of flock value requires. DG as tertiary backup, with automatic transfer switching, is essential risk management.
 - **Ignoring KUSUM eligibility**: a 20–30% capital subsidy under KUSUM significantly improves the ROI. Many poultry farmers in eligible states have not applied because awareness is low.
 
+A general rural-property setup, rather than a livestock one, is covered in [solar for farmhouses](/blog/solar-for-farmhouse-india/).
+
 ## Where Qbits Fits
 
 Poultry farms need an inverter system built for continuous duty, not the intermittent use profile of a residential solar installation. Qbits hybrid inverters with IP66 enclosures are designed for industrial operating environments, including the dusty, high-humidity conditions of poultry sheds.

@@ -300,6 +300,8 @@ When you have shortlisted a capacity and want to confirm panel-string compatibil
 
 To request a quote with your electricity bill and roof area (and get a response within 24 hours) [talk to a Qbits engineer at the contact page](/contact-us/). The team covers residential, commercial, and EPC channel enquiries across India.
 
+Elsewhere in the Heaven Group network, see [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices) and [how to choose the right solar inverter](https://www.heavengreenenergy.com/blog/how-to-choose-the-right-solar-inverter).
+
 ## Sizing the Right Capacity: A Quick Reference Before You Decide
 
 Choosing the right brand is only half the decision. Choosing the right inverter capacity for your home completes it. Most Indian homeowners in the 2–4 BHK segment fall into one of three bands.

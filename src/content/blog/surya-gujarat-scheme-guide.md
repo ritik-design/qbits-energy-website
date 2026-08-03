@@ -33,20 +33,20 @@ faqs:
 featured: false
 ---
 
-Gujarat homeowners have the best solar subsidy math in India, and most of them only claim half of it. The central PM Surya Ghar Muft Bijli Yojana pays up to ₹78,000 for a 3 kW residential system. The Surya Gujarat scheme, the state's own rooftop programme, adds a per-kW top-up on top. Together they can cut the out-of-pocket cost of a 3 kW system to well under ₹50,000. Yet a large share of Gujarat applications we see stall, get rejected, or never claim the state component at all. Usually the homeowner did not understand how the two schemes fit together or which DISCOM owns which step.
+Gujarat homeowners have the best solar subsidy math in India, and most of them only claim half of it. The central [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-eligibility) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/) pays up to ₹78,000 for a 3 kW residential system. The Surya Gujarat scheme, the state's own rooftop programme, adds a per-kW top-up on top. Together they can cut the out-of-pocket cost of a 3 kW system to well under ₹50,000. Yet a large share of Gujarat applications we see stall, get rejected, or never claim the state component at all. Usually the homeowner did not understand how the two schemes fit together or which [DISCOM](/glossary/discom/) owns which step.
 
 This guide is the deep walkthrough of the Surya Gujarat scheme itself. It covers what the scheme is in 2026, the exact subsidy amounts, eligibility fine print, and the numbered application sequence. It also covers the DISCOM-by-DISCOM process for UGVCL, PGVCL, MGVCL, DGVCL, and Torrent Power, plus the rejection reasons that account for most failures. For the broader Gujarat stacking picture, our [solar subsidy in Gujarat 2026](/blog/solar-subsidy-gujarat-2026/) post covers the combined economics. The [solar subsidy all states](/blog/solar-subsidy-all-states/) pillar compares Gujarat with every other state. This post assumes you have decided Gujarat's scheme is worth claiming and want to get it right the first time.
 
 > **TL;DR**
 > - The Surya Gujarat scheme (Surya Urja Rooftop Yojana) is Gujarat's state rooftop programme, administered by GEDA and GUVNL since 2019.
-> - Central CFA under PM Surya Ghar pays ₹30,000 for 1 kW, ₹60,000 for 2 kW, and ₹78,000 for 3 kW and above. These are MNRE rates for 2026.
+> - Central CFA under [PM Surya Ghar](/glossary/pm-surya-ghar/) pays ₹30,000 for 1 kW, ₹60,000 for 2 kW, and ₹78,000 for 3 kW and above. These are [MNRE](/glossary/mnre/) rates for 2026.
 > - The state top-up adds roughly ₹10,000 to ₹20,000 per kW for the first 3 kW. That takes combined support for a 3 kW system to ₹1,08,000 to ₹1,38,000.
 > - You must register on both the national portal (pmsuryaghar.gov.in) and the state SURYA Gujarat or GEDA channel. The state top-up does not flow automatically.
 > - Your DISCOM is fixed by your bill: UGVCL, PGVCL, MGVCL, DGVCL, or Torrent Power. Feasibility approval must come before installation.
 > - Most rejections trace to three causes: non empanelled vendor, installation before feasibility, and Aadhaar or bank seeding mismatches.
 > - Expect 60 to 120 days from registration to subsidy credit if documents are clean.
 
-**Short version.** The Surya Gujarat scheme is Gujarat's state rooftop solar top-up layered on the central PM Surya Ghar subsidy. A 3 kW residential system gets ₹78,000 from the centre plus roughly ₹30,000 to ₹60,000 from the state. Apply on pmsuryaghar.gov.in, wait for your DISCOM's feasibility approval, install through an empanelled vendor, and both subsidies reach your bank by direct transfer.
+**Short version.** The Surya Gujarat scheme is Gujarat's state rooftop solar top-up layered on the central [PM Surya Ghar](https://quickestimate.co/blog/what-is-pm-surya-ghar-yojana) subsidy. A 3 kW residential system gets ₹78,000 from the centre plus roughly ₹30,000 to ₹60,000 from the state. Apply on pmsuryaghar.gov.in, wait for your DISCOM's feasibility approval, install through an empanelled vendor, and both subsidies reach your bank by direct transfer.
 
 ## What the Surya Gujarat Scheme Actually Is in 2026
 

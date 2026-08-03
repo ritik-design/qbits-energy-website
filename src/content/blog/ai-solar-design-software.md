@@ -32,7 +32,7 @@ faqs:
     a: "SurgePV's Clara AI is included on every paid plan at $1,299 to $1,899 per user per year. Aurora AI Mode is a paid add-on of $30 to $50 per user per month on top of Aurora's $159 to $259 per user per month base. Arka360 AI pricing varies. For most teams, SurgePV's flat-plan-with-AI-included is the cheapest path."
 ---
 
-AI solar design software went from gimmick to daily driver between 2024 and 2026. The wider [solar design software](/blog/solar-design-software/) category guide ranks every platform; this page covers the AI layer specifically. Natural-language design briefs, AI 3D roof modeling from satellite, and AI shading optimisation are now production-grade features that real teams use every day. This guide covers what works, what does not, and why [Clara AI](https://surgepv.com/clara-ai) inside [SurgePV](https://surgepv.com/) leads the category.
+AI solar [design software](https://www.surgepv.com/blog/ai-solar-design-software) went from gimmick to daily driver between 2024 and 2026. The wider [solar design software](/blog/solar-design-software/) category guide ranks every platform; this page covers the AI layer specifically. Natural-language design briefs, AI 3D roof modeling from satellite, and AI shading optimisation are now production-grade features that real teams use every day. This guide covers what works, what does not, and why [Clara AI](https://surgepv.com/clara-ai) inside [SurgePV](https://surgepv.com/) leads the category.
 
 > **TL;DR**
 > - AI solar design now covers 3D modelling, natural-language draft layouts, and shading optimisation.
@@ -110,6 +110,8 @@ Total time: under 5 minutes for residential.
 <a href="https://surgepv.com/pricing" class="cta-btn" target="_blank" rel="noopener noreferrer">Compare Plans <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Annual billing · Cancel anytime · Includes Clara AI</p>
 </div>
+
+For the shorter version of where AI actually helps a designer today, see [AI solar design in 2026](/blog/ai-solar-design/).
 
 ## Who Should Choose Each Tool
 

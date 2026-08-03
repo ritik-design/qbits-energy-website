@@ -36,7 +36,7 @@ faqs:
 Cold storage facilities are among the highest electricity consumers in India's agricultural supply chain. A typical medium-sized cold storage operation running compressors around the clock draws 15,000–25,000 kWh per month, generating electricity bills of ₹1.5–₹2.5 lakh every 30 days at Gujarat commercial tariffs. With margins under pressure from rising fuel costs and competitive market pricing, cold storage operators across Rajkot, Ahmedabad, Surat, and Rajkot have increasingly looked to industrial solar installation to reduce their largest operating expense.
 
 > **TL;DR**
-> - A 40 kW 3-phase on-grid solar system at a 200 MT Rajkot cold storage facility generates approximately 66,000 kWh/year (illustrative figures).
+> - A 40 kW 3-phase on-grid solar system at a 200 MT Rajkot [cold](/blog/solar-for-ice-factory-cold-chain/) storage facility generates approximately 66,000 kWh/year (illustrative figures).
 > - Estimated savings run about ₹85,000/month, or ₹7.5–9.0 Lakh/year, against a system cost of roughly ₹30–32 Lakh.
 > - Simple payback is approximately 3.5–4.0 years, improving to about 2.5–3.0 years once 40% first-year accelerated depreciation is applied.
 > - The facility self-consumes roughly 96% of solar generation (63,500 of 66,000 kWh), so the design leans on self-consumption rather than net-metering export credit.

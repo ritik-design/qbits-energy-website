@@ -207,6 +207,15 @@ Accelerated Depreciation provides 40 percent first-year tax depreciation for sol
 
 QBits Energy advises C&I customers on solar project structuring to maximise Accelerated Depreciation tax benefit, including direct ownership and RESCO models.
 
+## Further reading
+
+For how Accelerated Depreciation plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Depreciation in India: Tax Benefits](/blog/solar-inverter-depreciation-in-india/)
+- [10kW Solar System Price in India 2026, Complete Cost](/blog/10kw-solar-system-price-india/)
+- [LCOE of Solar in India, A C&I Buyer's Real Math](/blog/lcoe-solar-india/)
+- [Case Study, 25 kW Solar at a Coimbatore CBSE School](/blog/case-study-coimbatore-school/)
+
 ## Sources
 
 - Income Tax Act 1961, Section 32.

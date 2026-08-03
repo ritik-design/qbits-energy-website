@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-Irish solar shading analysis has a counterintuitive property: most tools overstate the loss. In a cloudy maritime climate a large share of annual irradiance arrives as diffuse light scattered across the whole sky, not as a direct beam from the sun's position. A shading model that traces a geometric shadow and writes off everything inside it is describing a desert. On an overcast Dublin afternoon a module sitting in geometric shadow is still collecting most of the light an unshaded module collects. This guide covers what shading analysis has to do differently in Ireland, and which tools do it properly.
+Irish solar [shading analysis](/glossary/shading-analysis/) has a counterintuitive property: most tools overstate the loss. In a cloudy maritime climate a large share of annual irradiance arrives as diffuse light scattered across the whole sky, not as a direct beam from the sun's position. A shading model that traces a geometric shadow and writes off everything inside it is describing a desert. On an overcast Dublin afternoon a module sitting in geometric shadow is still collecting most of the light an unshaded module collects. This guide covers what [shading analysis](/glossary/shading-analysis/) has to do differently in [Ireland](/blog/solar-software-ireland/), and which tools do it properly.
 
 > **TL;DR**
 > - Diffuse light dominates the Irish annual resource, so direct-beam geometric shading models overstate losses.
@@ -43,7 +43,7 @@ Irish solar shading analysis has a counterintuitive property: most tools oversta
 > - Export under the Clean Export Guarantee is worth well below retail, so shading that hits self-consumption costs far more than shading that hits surplus.
 > - [SurgePV](https://surgepv.com/) runs 8,760-hour module-level shading with a split sky model at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** Solar shading analysis software for Irish projects has to model diffuse and direct irradiance separately, run 8,760 hourly steps at module level, and price the resulting loss against the gap between Irish retail rates and Clean Export Guarantee rates. A single annual shading percentage produced by a geometric shadow trace is the wrong output twice over: wrong in magnitude, because it ignores diffuse, and wrong in usefulness, because it does not say which hours were hit.
+**Short version.** Solar [shading analysis software](https://heavendesigns.in/blog/solar-shading-analysis-software/) for Irish projects has to model diffuse and direct irradiance separately, run 8,760 hourly steps at module level, and price the resulting loss against the gap between Irish retail rates and Clean Export Guarantee rates. A single annual shading percentage produced by a geometric shadow trace is the wrong output twice over: wrong in magnitude, because it ignores diffuse, and wrong in usefulness, because it does not say which hours were hit.
 
 The general methodology is covered in our [solar shading analysis software](/blog/solar-shading-analysis-software/) guide. This page covers what changes in Ireland. For the wider platform comparison see [best solar design software Ireland](/blog/solar-design-software-ireland/).
 

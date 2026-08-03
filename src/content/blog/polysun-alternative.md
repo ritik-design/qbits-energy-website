@@ -3,8 +3,8 @@ title: "Best Polysun Alternatives 2026: Six Platforms Compared"
 excerpt: "Looking for a Polysun alternative in 2026? Compare six platforms on price, PV depth, and whether they couple thermal, heat pumps and PV at all."
 description: "An honest comparison of the best Polysun alternatives in 2026, including SurgePV, PV*SOL, PVsyst, HelioScope, Aurora and OpenSolar, with a clear fork between multi-energy and PV-only work."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/polysun-alternative.svg"
 author: "Keyur Rakholiya"

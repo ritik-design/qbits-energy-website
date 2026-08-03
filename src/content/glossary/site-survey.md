@@ -257,6 +257,15 @@ Site survey is the foundation of any solar installation. It evaluates roof or la
 
 QBits Energy conducts comprehensive site surveys for residential, [C&I](/c-i-solution/) and utility solar projects across India, with photographic documentation, shading analysis and feasibility reporting. [Get in touch](/contact-us/) to schedule a survey for your project.
 
+## Further reading
+
+For how Site Survey plays out in real projects, these guides go deeper:
+
+- [Scanifly Review 2026: Drone Site Survey Software, Honestly Assessed](/blog/scanifly-review/)
+- [How Long Does Solar Installation Take in India?](/blog/how-long-solar-installation-takes-india/)
+- [Solar Ladder Review 2026: India Solar CRM and Ops, Assessed](/blog/solar-ladder-review/)
+- [Solar Installation Kahan se Karaye: Dealer Chunne ki Poori Guide (2026)](/blog/solar-installation-kahan-se-karaye/)
+
 ## Sources
 
 - MNRE Design Guidelines for Solar PV Plants.

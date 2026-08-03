@@ -34,12 +34,12 @@ featured: false
 
 Your installer just called. The one-year free service period on your solar system is ending. He is offering an Annual Maintenance Contract at ₹18,000 a year for your 5 kW system. He mentions inverter failure, generation loss, and priority service. It sounds responsible. It also might be a rip-off.
 
-The solar inverter AMC cost question hits almost every Indian solar owner in year one or two of ownership. Quotes vary wildly: ₹7,000 from one vendor, ₹25,000 from another, for what sounds like the same thing. Some contracts are genuinely useful. Many are cleaning plans dressed up as insurance, or worse, paid duplicates of warranty coverage you already hold.
+The [solar inverter](/glossary/solar-inverter/) [AMC cost](https://www.heavengreenenergy.com/blog/solar-amc-cost) question hits almost every Indian solar owner in year one or two of ownership. Quotes vary wildly: ₹7,000 from one vendor, ₹25,000 from another, for what sounds like the same thing. Some contracts are genuinely useful. Many are cleaning plans dressed up as insurance, or worse, paid duplicates of warranty coverage you already hold.
 
 This guide covers what an inverter AMC actually includes and fair 2026 pricing bands per kW. It also runs the honest math on AMC versus warranty versus paying per visit, and the contract clauses that should make you walk away.
 
 > **TL;DR**
-> - Fair residential AMC pricing is ₹2,500 to ₹4,000 per kW per year, according to Heaven Green Energy (2026). Commercial runs ₹1,000 to ₹2,000 per kW.
+> - Fair residential [AMC pricing](https://quickestimate.co/blog/solar-amc-pricing-india) is ₹2,500 to ₹4,000 per kW per year, according to Heaven Green Energy (2026). Commercial runs ₹1,000 to ₹2,000 per kW.
 > - A 5 kW home needs only ₹4,000 to ₹7,000 per year of real maintenance, far below most AMC quotes.
 > - Warranty and AMC are different products: warranty responds to failures, AMC pays for preventive visits. Paying for both on the same inverter is usually double coverage.
 > - A single cleaning visit costs ₹300 to ₹500 up to 5 kW, according to Solvix CleanTech (2026), which makes pay-per-visit cheaper for most homes.

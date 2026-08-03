@@ -36,7 +36,7 @@ Commercial [solar design software](/blog/solar-design-software/) needs to handle
 
 > **TL;DR**
 > - C&I requires bankable simulation, PPA modelling, and AutoCAD export at minimum.
-> - [SurgePV](https://surgepv.com/) ships all three on every paid plan, plus AI design and integrated proposals.
+> - [SurgePV](https://surgepv.com/) ships all three on every paid plan, plus [AI design](https://www.surgepv.com/blog/ai-solar-design-software) and integrated proposals.
 > - For pure utility-scale terrain optimisation, PVcase or RatedPower lead.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and design a real C&I project on the call.
 

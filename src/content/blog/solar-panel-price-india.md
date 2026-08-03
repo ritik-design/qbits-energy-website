@@ -36,20 +36,20 @@ faqs:
 featured: false
 ---
 
-Roughly 8,000 people a month search for solar panel prices in India. Most get a half answer. They find a per-watt number with no brand attached. Or a brand price list with no date. Or a marketplace listing inflated 30 percent over installer pricing. This guide fixes that with dated 2026 numbers. You get per-watt and per-panel prices by technology. You also get brand tables for Waaree, Adani, Tata Power, Luminous, and Goldi. Then the DCR versus non-DCR gap, GST treatment, and what installers actually charge for the full system.
+Roughly 8,000 people a month search for solar panel prices in India. Most get a half answer. They find a per-watt number with no brand attached. Or a brand price list with no date. Or a marketplace listing inflated 30 percent over installer pricing. This guide fixes that with dated 2026 numbers. You get per-watt and per-panel prices by technology. You also get brand tables for Waaree, Adani, Tata Power, Luminous, and Goldi. Then the DCR versus [non-DCR](https://heavendesigns.in/blog/dcr-vs-non-dcr-solar-panels/) gap, GST treatment, and what installers actually charge for the full system.
 
 One disclosure before the numbers. Qbits Energy makes solar inverters, not panels. We buy and specify panels alongside our inverters on thousands of installations. So we see real dealer pricing rather than brochure pricing. That is also why this guide ends with the inverter and full-system bill. The panel is only 50 to 55 percent of what you will actually spend.
 
 > **TL;DR**
 > - Solar panel prices in India 2026 range from Rs 15 to Rs 35 per watt. Mono PERC runs Rs 18 to 26, TOPCon Rs 20 to 28, and bifacial Rs 24 to 35.
 > - A single 540 to 550 W panel from a Tier 1 Indian brand costs Rs 9,000 to Rs 14,000 at retail.
-> - DCR panels cost Rs 27 to 36 per watt versus Rs 15 to 32 for non-DCR. Only DCR panels qualify for the PM Surya Ghar subsidy of up to Rs 78,000.
+> - DCR panels cost Rs 27 to 36 per watt versus Rs 15 to 32 for non-DCR. Only DCR panels qualify for the [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy of up to Rs 78,000.
 > - Waaree and Adani DCR panels trade around Rs 22 to 27 per watt. Tata Power Solar carries a Rs 2 to 4 per watt brand premium, according to Kondaas Automation, 2026.
 > - GST on solar panels is 12 percent. Full system installs pay an effective 13.8 percent under the composite supply rule.
 > - Panels are only half the bill. A 5 kW system costs Rs 2.5 to 3.5 Lakh all-in, with inverter, structure, wiring, and labour making up the rest.
 > - Prices rose Rs 1 to 3 per watt in 2026. US tariffs hit Indian module exports and the ALMM List-II cell mandate took effect on June 1, 2026.
 
-**Short version.** In 2026, solar panel price in India runs Rs 18 to 26 per watt for mono PERC. TOPCon costs Rs 20 to 28 and bifacial Rs 24 to 35. A 550 W panel costs Rs 9,000 to Rs 14,000 retail. Buy DCR (Indian cell) panels if you want the PM Surya Ghar subsidy. The small non-DCR discount is never worth losing up to Rs 78,000.
+**Short version.** In 2026, solar [panel price](https://quickestimate.co/blog/solar-panel-price-trends) in India runs Rs 18 to 26 per watt for mono PERC. TOPCon costs Rs 20 to 28 and bifacial Rs 24 to 35. A 550 W panel costs Rs 9,000 to Rs 14,000 retail. Buy DCR (Indian cell) panels if you want the PM Surya Ghar subsidy. The small non-DCR discount is never worth losing up to Rs 78,000.
 
 For a 3 kW home system, panels will cost Rs 55,000 to Rs 80,000 of a Rs 1.8 to 2.2 Lakh total bill. The [3kW solar system price breakdown](/blog/3kw-solar-system-price-india/) covers the full system economics. This post focuses on the panel line item itself.
 
@@ -176,6 +176,8 @@ Take a 5 kW on-grid system with 540 W panels. That means 9 to 10 panels wired as
 Warranty pairing matters too. Panels carry 25 to 30 year performance warranties. The inverter becomes the shorter-life component in the system. That is one reason we built Qbits inverters with a 12-year full replacement warranty. A panel bought today will still be generating in 2045. The inverter warranty should cover as much of that span as possible. The [solar inverter price guide](/blog/solar-inverter-price-guide/) covers the other half of the bill in the same per-category detail as this post.
 
 Here is a hypothetical worked example, labelled as such. A Jaipur homeowner installing 5 kW with Waaree 545 W DCR panels pays roughly Rs 1,05,000 for nine panels. Add Rs 45,000 for a quality on-grid inverter and Rs 90,000 for everything else. That totals Rs 2.4 Lakh before the Rs 78,000 subsidy. Net cost is Rs 1.62 Lakh. The system generates about 7,000 units a year, worth Rs 50,000 to 56,000 annually at Rs 7 to 8 per unit. Payback lands near three years.
+
+Winter output is the season buyers most often mis-model, covered in [solar performance in Indian winters](/blog/solar-performance-indian-winters-guide/).
 
 ## The Bottom Line
 

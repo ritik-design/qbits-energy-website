@@ -294,6 +294,8 @@ Even homeowners who intend to prepare thoroughly make predictable errors during 
 
 The [12-year solar inverter warranty](/blog/12-year-solar-inverter-warranty/) article notes that warranty claims for storm damage are routinely examined for evidence of proper SPD installation and earthing compliance, two of the most commonly cited grounds for warranty denial on surge-damaged units.
 
+Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included) and [earthing and lightning protection](https://heavendesigns.in/blog/solar-earthing-lightning-protection).
+
 ## Where Qbits Fits in Your Monsoon Preparation
 
 Homeowners running Qbits inverters have a shorter pre-monsoon checklist by design. The IP66 enclosure rating standard across all Qbits on-grid and hybrid units eliminates Task 1 corrective action for outdoor-mounted installations, the inverter is already rated for exposed monsoon conditions without a supplementary weather enclosure. The built-in SPD ports on Qbits inverters provide a housing-integrated location for Type 2 SPD modules that eliminates the external wiring run that most often fails the Task 3 inspection.

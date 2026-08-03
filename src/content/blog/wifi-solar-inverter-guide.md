@@ -262,6 +262,8 @@ Monitoring without a fast service SLA is like a smoke alarm in a building with n
 
 The [how to evaluate solar inverter reliability guide](/blog/how-to-evaluate-solar-inverter-reliability/) covers the broader reliability evaluation framework that complements the monitoring-specific checklist above.
 
+Elsewhere in the Heaven Group network, see [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation) and [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included).
+
 ## Where Qbits Fits
 
 Homeowners who want genuinely useful monitoring (not a dashboard that looks impressive on a demo) land on Qbits because the monitoring architecture is built around Indian usage patterns rather than a global platform adapted for the Indian market. The AI-powered WhatsApp monitoring means you receive plain-language fault descriptions in the messaging app you already use, without downloading or learning a separate application. The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) and <72-hour RMA SLA mean that acting on a monitoring alert actually results in fast resolution, the alert system is backed by a service network designed to respond to it.

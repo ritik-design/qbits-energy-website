@@ -3,8 +3,8 @@ title: "Best Solar Software Spain: The Complete 2026 Stack"
 excerpt: "Spanish credits settle monthly, never roll over, and cannot take the bill below zero. Software that models the year instead of the month will oversize every system."
 description: "Best solar software Spain 2026: the full stack for design, proposals, CRM and compliance. RD 244/2019, compensación simplificada, the monthly zero floor and 5 km collective self-consumption."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-spain.svg"
 author: "Nirav Dhanani"

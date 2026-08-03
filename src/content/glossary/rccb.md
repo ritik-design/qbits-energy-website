@@ -240,6 +240,15 @@ RCCB is the life-safety device that detects earth leakage and trips before elect
 
 QBits Energy installs CEA-compliant solar AC distribution with appropriately rated RCCBs, RCBOs and MCBs for residential, C&I and utility solar applications.
 
+## Further reading
+
+For how RCCB plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Wiring Diagram for Indian Homes 2026: Panels to Meter Board](/blog/solar-inverter-wiring-diagram/)
+- [Solar Inverter Band Ho Jaye Toh Kya Karein](/blog/solar-inverter-band-ho-jaye-kya-karein/)
+- [Solar Panel Lagane ka Kharcha 2026: Ghar ke Liye Poora Hisab](/blog/solar-panel-lagane-ka-kharcha/)
+- [2kW Solar System Price in India 2026: Cost Breakdown](/blog/2kw-solar-system-price-india/)
+
 ## Sources
 
 - IS 12640-1, -2, Indian Standard for residual current circuit breakers.

@@ -32,7 +32,7 @@ Choosing between on-grid and hybrid solar inverters represents one of the most c
 > **TL;DR**
 > - On-grid is significantly cheaper: a 5 kW on-grid inverter costs ₹30,000-60,000, versus ₹75,000-1,50,000 for a 5 kW hybrid before batteries.
 > - A 5 kW residential on-grid system typically pays back in about 5.4 years; commercial systems with higher tariffs pay back in 3.5-4 years.
-> - Hybrid wins where outages exceed roughly 10 hours per month, net metering terms are weak, tariffs are time-of-use, or loads cannot tolerate any interruption.
+> - Hybrid wins where outages exceed roughly 10 hours per month, [net metering](https://www.heavengreenenergy.com/blog/net-metering-how-solar-panels-give-back-to-the-grid) terms are weak, tariffs are time-of-use, or loads cannot tolerate any interruption.
 > - Lithium-ion batteries last 10-15 years with one replacement over a 25-year system life; lead-acid needs 5-6 replacements over the same span.
 > - Peak shaving with hybrid battery storage can cut commercial demand charges by 20-30%.
 > - Areas with fewer than 10 hours of monthly outages generally favour on-grid; heavier or evening-peak loads favour hybrid.

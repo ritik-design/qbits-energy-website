@@ -193,6 +193,15 @@ Albedo is the fraction of solar radiation reflected by a surface. Critical for b
 
 QBits Energy provides on-site albedo measurement, bifacial yield modelling and ground preparation specifications for Indian utility solar projects.
 
+## Further reading
+
+For how Albedo plays out in real projects, these guides go deeper:
+
+- [PV Yield Simulation Software 2026: Bankable Guide](/blog/pv-yield-simulation-software/)
+- [REI Expo 2026 Recap: Top Solar Industry Trends](/blog/rei-expo-recap/)
+- [PVsyst Alternative 2026: 6 Tools Compared](/blog/pvsyst-alternative/)
+- [Photovoltaic Design Software 2026: Buyer's Guide](/blog/photovoltaic-design-software/)
+
 ## Sources
 
 - IEC TS 60904-1-2, Bifacial PV measurement.

@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software UAE: 2026 Guide"
 excerpt: "The best solar proposal software UAE installers need models DEWA slab-rate credits, ADDC subsidised tariffs and EtihadWE credit expiry. Six tools compared."
 description: "Best solar proposal software UAE 2026. SurgePV vs Aurora, PVsyst, HelioScope on DEWA Shams Dubai, ADDC energy netting, EtihadWE expiry, ECAS and zero-rated VAT."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-uae.svg"
 author: "Akash Hirapara"
@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-The most common error in a UAE solar proposal is not a design error. It is applying one export assumption and one tariff across a country that has four utility regimes and a residential tariff spread of roughly four to one. A villa in Dubai credited at the consumer's own slab rate under DEWA, an expatriate household in Abu Dhabi at 28 fils, and a subsidised UAE national household at 7 fils are three completely different investment cases on identical hardware. Add EtihadWE credits that expire every December while Dubai and Abu Dhabi roll over indefinitely, and a template built for one emirate will mislead in the others. This guide compares the platforms UAE installers should shortlist for quoting.
+The most common error in a UAE solar proposal is not a design error. It is applying one export assumption and one [tariff](/glossary/tariff/) across a country that has four utility regimes and a residential tariff spread of roughly four to one. A villa in Dubai credited at the consumer's own slab rate under DEWA, an expatriate household in Abu Dhabi at 28 fils, and a subsidised UAE national household at 7 fils are three completely different investment cases on identical hardware. Add EtihadWE credits that expire every December while Dubai and Abu Dhabi roll over indefinitely, and a template built for one emirate will mislead in the others. This guide compares the platforms UAE installers should shortlist for quoting.
 
 > **TL;DR**
 > - DEWA Shams Dubai credits at the consumer's own slab rate (residential 29 to 44 fils), 1 MW per plot, indefinite rollover.
@@ -44,7 +44,7 @@ The most common error in a UAE solar proposal is not a design error. It is apply
 > - Climate Law Decree-Law 11 of 2024, effective May 2025, requires Scope 2 reporting with fines of AED 50,000 to 2 million.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for UAE installers in 2026 is SurgePV, because it can be configured for each utility's credit mechanism and each customer category's tariff, and it generates the customer document from the same engineering record. PVsyst is the bankable reference for large ground-mount but produces no proposal. Aurora models US net metering, which has no counterpart in any emirate.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for UAE installers in 2026 is SurgePV, because it can be configured for each utility's credit mechanism and each customer category's tariff, and it generates the customer document from the same engineering record. PVsyst is the bankable reference for large ground-mount but produces no proposal. Aurora models US [net metering](/glossary/net-metering/), which has no counterpart in any emirate.
 
 UAE buyers are commercially sophisticated and increasingly driven by reporting obligations as much as payback. That makes the proposal a document about compliance and cashflow together. For the design-side comparison see our [best solar design software UAE](/blog/solar-design-software-uae/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
 
@@ -154,6 +154,8 @@ After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quic
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/uae" target="_blank" rel="noopener noreferrer">UAE compliance library</a></p>
 </div>
+
+A proposal tool only earns its place inside a working stack. The [wider solar software picture in the UAE](/blog/solar-software-uae/) covers what sits either side of it.
 
 ## The Bottom Line
 

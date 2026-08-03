@@ -33,7 +33,7 @@ Inverter efficiency, reliability, and warranty directly decide how fast a solar 
 > - Commercial and industrial on-grid systems typically pay back in 4–7 years; premium 98%-efficient inverters with 12-year warranties land at the shorter end.
 > - A 3% efficiency gap (98% vs 95%) costs ₹27,000–₹36,000 a year on a 50–100 kW system in lost generation alone.
 > - Premium inverters carry a 20–35% upfront premium but show a ₹3.5–5.5 lakh 25-year TCO advantage over budget units on a 100 kW system.
-> - Active net metering states (Gujarat, Maharashtra, Rajasthan, Karnataka) cut payback by 12–24 months by monetising surplus exports.
+> - Active [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) states (Gujarat, Maharashtra, Rajasthan, Karnataka) cut payback by 12–24 months by monetising surplus exports.
 > - AI-powered monitoring recovers the 5–12% annual generation loss that goes undetected on unmonitored systems, shortening effective payback by 6–12 months.
 
 ## What Is Solar Inverter Payback Period?

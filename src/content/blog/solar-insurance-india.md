@@ -40,7 +40,7 @@ This guide separates them. It covers what solar insurance in India actually insu
 > **TL;DR**
 > - A home insurance add-on covers rooftop solar for about Rs 125 per year for Rs 5 Lakh of cover, according to Policybazaar (2025).
 > - Standalone all-risk solar policies cost roughly 0.2 to 0.5 percent of system cost per year, according to Anand Rathi Insurance Brokers (2023).
-> - MNRE lists six insurers with specialised solar products, including New India Assurance, ICICI Lombard, HDFC Ergo, Tata AIG, IFFCO-Tokio, and Cholamandalam MS (2024).
+> - [MNRE](/glossary/mnre/) lists six insurers with specialised solar products, including New India Assurance, ICICI Lombard, HDFC Ergo, Tata AIG, IFFCO-Tokio, and Cholamandalam MS (2024).
 > - Home insurance already covers roof-mounted panels if they are permanently fixed and declared at purchase or renewal.
 > - Insurance excludes wear and tear, degradation, manufacturing defects, and poor installation. Those belong to warranty and installer accountability.
 > - A 12-year full replacement inverter warranty covers the costliest failure mode, so for Qbits owners insurance only needs to cover storms, fire, and theft.
@@ -179,6 +179,8 @@ Use this three-question test. It resolves most cases in under a minute.
 One opinionated take, backed by the premium math above. For a typical 3 to 5 kW urban home with a declared home insurance add-on and a long inverter warranty, a standalone solar policy duplicates cover. The exception is the under-insured 10 kW-plus system, where the add-on cap leaves real replacement value exposed. Size the instrument to the gap, not to the fear.
 
 Your first year of ownership is also when most protection gaps surface, from missing declarations to undocumented serial numbers. The [solar year 1 ownership guide](/blog/solar-year-1-ownership-guide-india/) walks through the paperwork that makes any future claim painless. The [inverter maintenance guide for India](/blog/inverter-maintenance-india/) keeps the wear-and-tear risks, the ones nobody insures, under control.
+
+Elsewhere in the Heaven Group network, see [how to file a solar warranty claim](https://www.heavengreenenergy.com/blog/how-to-file-solar-warranty-claim) and [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included).
 
 ## Conclusion
 

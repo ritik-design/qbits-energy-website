@@ -42,7 +42,7 @@ Your solar panels produce DC electricity. Your home runs on AC electricity. The 
 For most buyers, the inverter specification sheet shows a single number ("98% peak efficiency") and the conversation ends there. However, peak efficiency and real-world efficiency are different things, and the gap between them can represent tens of thousands of rupees over a 25-year system life on an Indian rooftop.
 
 > **TL;DR**
-> - Solar inverter efficiency ranges from 93% in older transformer-based designs to 98.6% in modern transformerless inverters.
+> - Solar [inverter efficiency](https://www.surgepv.com/blog/solar-inverter-efficiency-curve-explained) ranges from 93% in older transformer-based designs to 98.6% in modern transformerless inverters.
 > - The gap between 95% and 98% efficiency costs roughly ₹44,000–₹55,000 in unharvested energy on a 5 kW system over 25 years at ₹8/unit.
 > - Peak efficiency is a best-case lab number; European (η_EU) efficiency is a weighted average across seven load levels and is far more representative of real-world harvest.
 > - Ambient temperature above 25°C erodes efficiency by 0.7–2.5 percentage points, meaning a 98% peak-rated inverter may deliver only 96.5–97.3% during Indian summer afternoons.

@@ -265,6 +265,15 @@ Polycrystalline is a legacy crystalline silicon technology that dominated the ea
 
 QBits Energy sources replacement poly modules for legacy systems where mono substitution is not feasible due to mismatch, alongside our primary mono module supply.
 
+## Further reading
+
+For how Polycrystalline plays out in real projects, these guides go deeper:
+
+- [Solar Panel ki Kimat 2026: Poora Rate Guide](/blog/solar-panel-ki-kimat/)
+- [Solar Subsidy Form: How to Download & Fill It](/blog/solar-subsidy-form-download-guide/)
+- [Best Solar System Under ₹1 Lakh in India 2026](/blog/best-solar-system-under-1-lakh/)
+- [Solar Panel Price in India 2026: All Brands, All Wattages](/blog/solar-panel-price-india/)
+
 ## Sources
 
 - IEC 61215, Terrestrial photovoltaic modules: Design qualification.

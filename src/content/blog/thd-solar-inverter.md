@@ -288,6 +288,8 @@ IGBT gate oxide also ages under thermal cycling. Gate threshold voltage shifts c
 
 For a complete understanding of how harmonic compliance fits within the broader framework of [inverter reliability evaluation](/blog/how-to-evaluate-solar-inverter-reliability/), the linked guide covers all five reliability dimensions that C&I buyers should assess before finalising a specification.
 
+Elsewhere in the Heaven Group network, see [BIS inverter certification](https://heavendesigns.in/blog/bis-solar-inverter-certification-process) and [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation).
+
 ## THD in the Context of Indian Grid Conditions
 
 Indian distribution feeders present a distinctive harmonic environment that European and US inverter specifications may not anticipate. [IRENA's analysis of distributed solar integration](https://www.irena.org/solar) highlights harmonic management as one of the key technical challenges for high-penetration rooftop solar in developing-market grids. Several factors increase the India-specific challenge:

@@ -3,8 +3,8 @@ title: "Best Solar Software Ireland: The Complete 2026 Stack"
 excerpt: "Two Irish numbers resist averaging: a grant that tapers by kWp band and an export rate that varies twofold by supplier. Most tools average both."
 description: "Best solar software Ireland 2026: the full stack for design, proposals, CRM and compliance. SEAI grant bands, Clean Export Guarantee rates, NC6 and NC7, EN 50549 and planning exemptions."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-ireland.svg"
 author: "Nirav Dhanani"

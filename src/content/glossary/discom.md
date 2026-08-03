@@ -246,6 +246,15 @@ DISCOMs are the operational gatekeepers for grid-connected solar in India. Net m
 
 QBits Energy handles end-to-end DISCOM coordination for rooftop solar customers across major Indian states.
 
+## Further reading
+
+For how DISCOM plays out in real projects, these guides go deeper:
+
+- [How to Apply for Net Metering in India](/blog/how-to-apply-net-metering-india/)
+- [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/)
+- [India Rooftop Solar Index 2026, Annual Qbits Report](/blog/india-rooftop-solar-index/)
+- [ALMM List-II Exemption Window for Net Metering & Open Access](/blog/almm-list-ii-exemption-net-metering-open-access/)
+
 ## Sources
 
 - Electricity Act 2003, Government of India.

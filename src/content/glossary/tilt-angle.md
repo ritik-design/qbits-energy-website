@@ -227,6 +227,15 @@ Tilt angle of solar panels should approximate site latitude for maximum annual e
 
 QBits Energy designs solar installations with site-specific tilt optimisation for residential, C&I and utility plants across India.
 
+## Further reading
+
+For how Tilt Angle plays out in real projects, these guides go deeper:
+
+- [How to Maximise Solar Output in Indian Climate](/blog/maximize-solar-output-indian-climate/)
+- [East-West Roof Solar Design in India 2026: When It Beats South-Facing](/blog/east-west-roof-solar-design/)
+- [Solar System Annual Maintenance Checklist India](/blog/solar-annual-maintenance-checklist-india/)
+- [Dual MPPT vs Single MPPT, When You Actually Need It](/blog/dual-mppt-vs-single-mppt/)
+
 ## Sources
 
 - MNRE Design Guidelines for Solar PV Plants.

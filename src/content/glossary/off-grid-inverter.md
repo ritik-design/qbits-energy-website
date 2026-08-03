@@ -275,6 +275,15 @@ An off grid inverter is the right choice when there is no grid, or when the grid
 
 QBits Energy designs off grid solar systems for telecom, rural electrification, agricultural pumping and remote institutional sites across India. Reach out for a site-specific load, battery and PV sizing study.
 
+## Further reading
+
+For how Off Grid Inverter plays out in real projects, these guides go deeper:
+
+- [On-Grid vs Hybrid vs Off-Grid: Decision Guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/)
+- [Solar Inverter for Power-Cut Backup, UP, Bihar, MH](/blog/solar-inverter-power-cut-backup/)
+- [Off-Grid Solar Battery Bank Sizing for India](/blog/off-grid-battery-bank-sizing-india/)
+- [WhatsApp Monitoring for Solar Inverters](/blog/whatsapp-solar-monitoring/)
+
 ## Sources
 
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems, International Electrotechnical Commission.

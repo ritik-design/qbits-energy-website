@@ -3,8 +3,8 @@ title: "Best Solar Design Software Saudi Arabia: 2026 Guide"
 excerpt: "Exports earn 5 halalas while commercial imports reach 32. Saudi systems are sized to the load curve, not the roof, and dust rewrites the yield model. Six tools compared."
 description: "Best solar design software Saudi Arabia 2026. SurgePV vs PVsyst, Aurora, HelioScope on the Small-Scale Solar PV framework, net billing at 5 halalas, the 5 MW area cap and soiling modelling."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-saudi-arabia.svg"
 author: "Keyur Rakholiya"
@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-Saudi solar design is governed by a ratio rather than a resource. The Kingdom has exceptional irradiance, but under the Small-Scale Solar PV framework exports settle at roughly 5 halalas per kWh while commercial import tariffs run in tiers up to around 32 halalas and industrial up to around 20. Energy the site uses is worth up to six times energy it sells. That single fact means Saudi systems are sized to the daytime load curve rather than to the available roof, and it means the design tool has to model consumption as carefully as it models generation. Add dust losses running several percent a day and the yield model needs work too. This guide covers what Saudi design software has to do, and which tools do it.
+[Saudi](/blog/solar-software-saudi-arabia/) solar design is governed by a ratio rather than a resource. The Kingdom has exceptional irradiance, but under the Small-Scale Solar PV framework exports settle at roughly 5 halalas per kWh while commercial import tariffs run in tiers up to around 32 halalas and industrial up to around 20. Energy the site uses is worth up to six times energy it sells. That single fact means Saudi systems are sized to the daytime load curve rather than to the available roof, and it means the design tool has to model consumption as carefully as it models generation. Add dust losses running several percent a day and the yield model needs work too. This guide covers what Saudi [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has to do, and which tools do it.
 
 > **TL;DR**
 > - The Small-Scale Solar PV framework covers 1 kW to 2 MW with net billing rather than net metering.
@@ -41,10 +41,10 @@ Saudi solar design is governed by a ratio rather than a resource. The Kingdom ha
 > - That six to one spread means sizing tracks the daytime load curve, not the roof.
 > - An aggregate cap of 5 MW per distribution area can constrain multi-site portfolios.
 > - Measured Saudi soiling runs around 2 to 5 percent per day, with a sandstorm observed cutting output about 20 percent.
-> - Soiling is a sawtooth between cleans, so a flat annual derate gets the timing wrong.
+> - [Soiling](/glossary/soiling/) is a sawtooth between cleans, so a flat annual derate gets the timing wrong.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for Saudi installers and developers in 2026 is SurgePV, because it sizes against an hourly load curve, prices both sides of the net billing spread and carries soiling in the electrical model. PVsyst is the bankable reference for utility-scale work and is frequently named by lenders. HelioScope is credible for commercial rooftops. Aurora assumes US net metering, which the Kingdom does not operate.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for Saudi installers and developers in 2026 is SurgePV, because it sizes against an hourly load curve, prices both sides of the net billing spread and carries soiling in the electrical model. PVsyst is the bankable reference for utility-scale work and is frequently named by lenders. HelioScope is credible for commercial rooftops. Aurora assumes US net metering, which the Kingdom does not operate.
 
 For the quoting side see our [best solar proposal software Saudi Arabia](/blog/solar-proposal-software-saudi-arabia/) guide, the shading treatment in [solar shading analysis software Saudi Arabia](/blog/solar-shading-analysis-software-saudi-arabia/), and the global [best solar design software](/blog/best-solar-design-software/) ranking.
 

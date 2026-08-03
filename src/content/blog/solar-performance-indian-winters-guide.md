@@ -43,7 +43,7 @@ When Indian homeowners think about solar generation, they naturally picture brig
 > - Monthly reset of net metering credits (common across India) means summer surplus rarely banks forward to offset December bills.
 > - Hybrid inverters with battery storage help North Indian homes bridge winter power cuts that coincide with fog season.
 
-> **Solar performance in winter India typically runs 20–30% below summer peak due to lower irradiance and shorter days, but colder temperatures improve panel efficiency by 5–10% compared to summer.** In North India, December–January fog can cut generation by 50% or more on individual foggy days. The Winter Performance Correction Factor (WPCF) by region gives a reliable estimate for planning and bill-setting.
+> **Solar performance in winter India typically runs 20–30% below summer peak due to lower irradiance and shorter days, but colder temperatures improve [panel efficiency](https://www.heavengreenenergy.com/blog/solar-panel-efficiency) by 5–10% compared to summer.** In North India, December–January fog can cut generation by 50% or more on individual foggy days. The Winter Performance Correction Factor (WPCF) by region gives a reliable estimate for planning and bill-setting.
 
 For residents evaluating a solar investment, winter performance is particularly relevant to understanding the year-round [solar yield](/blog/solar-yield-india/) story. A system sized correctly for your annual consumption will have surplus generation in summer and a shortfall in winter, but under net metering, summer credits partially offset winter bills. Understanding this seasonality is essential before signing a solar contract.
 

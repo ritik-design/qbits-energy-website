@@ -32,7 +32,7 @@ faqs:
     a: "Book a free SurgePV demo and design one of your real Scanifly projects from satellite alone. Keep drone capture available for the sites that genuinely benefit, import those models into SurgePV, and skip the drone everywhere else. The saving depends on how much of your pipeline still needs a flight, which you can size from your own project mix in the first quarter."
 ---
 
-Scanifly's per-project pricing model works at low volume and becomes painful at scale. This guide breaks down the real cost and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat per-seat pricing with [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite.
+[Scanifly](/blog/scanifly-review/)'s per-project pricing model works at low volume and becomes painful at scale. This guide breaks down the real cost and shows the head-to-head against [SurgePV](https://surgepv.com/) at flat per-seat pricing with [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite.
 
 > **TL;DR**
 > - Scanifly does not publish list pricing. Its model scales with project volume, and your drone operating cost sits on top of it.

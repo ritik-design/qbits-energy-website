@@ -39,11 +39,11 @@ faqs:
 
 Power cuts in Uttar Pradesh, Bihar, and rural Maharashtra can stretch from 4 to 14 hours daily in summer. When a homeowner asks "how long will my solar battery last?", they deserve a real answer, not a vague "depends on your usage." This guide gives Indian homeowners the exact formula, worked examples across common battery sizes, and a reference table so they can calculate [solar battery backup time](/glossary/kwh/) for their own home without any guesswork.
 
-> **Direct answer.** Solar battery backup time = (Battery kWh × Depth of Discharge) ÷ Load kW × Inverter efficiency. A 10 kWh [LFP battery](/glossary/lfp-battery/) at 80% DoD, powering a 1.5 kW critical load through a 95%-efficient inverter, delivers approximately 5.1 hours. The Qbits 4-Variable Backup Equation accounts for DoD, load, efficiency, and solar recharge, the four variables every Indian homeowner must calculate before buying a battery bank.
+> **Direct answer.** Solar [battery backup](https://heavendesigns.in/blog/solar-battery-backup-design-guide/) time = (Battery kWh × Depth of Discharge) ÷ Load kW × Inverter efficiency. A 10 kWh [LFP battery](/glossary/lfp-battery/) at 80% DoD, powering a 1.5 kW critical load through a 95%-efficient inverter, delivers approximately 5.1 hours. The Qbits 4-Variable Backup Equation accounts for DoD, load, efficiency, and solar recharge, the four variables every Indian homeowner must calculate before buying a battery bank.
 
 > **TL;DR**
-> - Backup hours = (Battery kWh × DoD%) ÷ Load kW × Inverter Efficiency - a 10 kWh LFP battery at 1.4 kW load gives about 5.4 hours, not 10.
-> - LFP batteries support 80-90% Depth of Discharge versus 40-50% for lead-acid, roughly doubling usable backup per installed kWh.
+> - Backup hours = (Battery kWh × DoD%) ÷ Load kW × Inverter Efficiency - a 10 kWh [LFP battery](/glossary/lfp-battery/) at 1.4 kW load gives about 5.4 hours, not 10.
+> - LFP batteries support 80-90% Depth of Discharge versus 40-50% for [lead-acid](https://www.heavengreenenergy.com/blog/lithium-vs-lead-acid-battery), roughly doubling usable backup per installed kWh.
 > - Inverter efficiency losses of 4-6% during DC-to-AC conversion compound with DoD limits and should always be applied together.
 > - A 3 BHK home typically draws 1.0-1.6 kW of critical load and needs a 10-15 kWh LFP bank for 6-8 hours of backup.
 > - Daytime outages let solar recharge the battery simultaneously, extending effective backup by 40-65% versus battery-only systems.

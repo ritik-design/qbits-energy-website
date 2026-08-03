@@ -198,6 +198,13 @@ APPC (Average Pooled Cost) is the weighted-average procurement cost for a DISCOM
 
 QBits Energy provides solar project economic analysis benchmarked against state-specific APPC for utility, C&I and residential applications.
 
+## Further reading
+
+For how Average Pooled Cost plays out in real projects, these guides go deeper:
+
+- [Solar for Rice Mills in India 2026: Load Profile, Cost, and Payback](/blog/solar-for-rice-mill-india/)
+- [Solar for Ice Factories and Cold Chain in India 2026: Cost and Payback](/blog/solar-for-ice-factory-cold-chain/)
+
 ## Sources
 
 - State SERC tariff orders (Maharashtra MERC, Karnataka KERC, others).

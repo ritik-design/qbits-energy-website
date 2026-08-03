@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software France: 2026 Guide"
 excerpt: "The prime is gone and surplus sells at 1.1 centimes. Any French proposal still showing bonus and buyback revenue is quoting a scheme that closed in June. Six tools compared."
 description: "Best solar proposal software France 2026. SurgePV vs Aurora, PVsyst, PV*SOL on the S21 reform, the abolished prime à l'autoconsommation, 1.1 c/kWh surplus and Consuel."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-france.svg"
 author: "Akash Hirapara"
@@ -41,10 +41,10 @@ Every French solar proposal written before 5 June 2026 contained two revenue lin
 > - Connections validated by Enedis before 5 June 2026 keep old tariffs and bonus for twenty years, creating two populations of systems.
 > - Correct proposals now show a small honest export line and make the argument on avoided import.
 > - Sizing should track the daytime load curve, or pair the original size with storage.
-> - NF C 15-712-1 and NF C 15-100 apply, with a Consuel attestation required before commissioning.
+> - NF C 15-712-1 and NF C 15-100 apply, with a Consuel attestation required before [commissioning](/glossary/commissioning/).
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for French installers in 2026 is SurgePV, because it models hourly self-consumption and battery dispatch against post-reform rates and generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora assumes US net metering, which France has never operated.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for French installers in 2026 is SurgePV, because it models hourly self-consumption and battery dispatch against post-reform rates and generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora assumes US [net metering](/glossary/net-metering/), which [France](/blog/solar-software-france/) has never operated.
 
 For the design-side comparison see our [best solar design software France](/blog/solar-design-software-france/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
 

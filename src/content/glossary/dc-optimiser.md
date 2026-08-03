@@ -239,6 +239,14 @@ DC optimisers are module-level devices providing per-panel MPPT and monitoring w
 
 QBits Energy offers DC optimiser solutions for premium residential and small commercial rooftops with shading or monitoring requirements.
 
+## Further reading
+
+For how DC Optimiser plays out in real projects, these guides go deeper:
+
+- [Solar Panel ki Kimat 2026: Poora Rate Guide](/blog/solar-panel-ki-kimat/)
+- [Enphase vs SolarEdge in India 2026: Are Premium Micros Worth It?](/blog/enphase-vs-solaredge-india/)
+- [Solar Panel Price in India 2026: All Brands, All Wattages](/blog/solar-panel-price-india/)
+
 ## Sources
 
 - IEC 62109, Inverter safety.

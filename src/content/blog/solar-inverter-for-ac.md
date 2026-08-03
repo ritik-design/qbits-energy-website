@@ -42,12 +42,12 @@ Air conditioning consumes more than 40% of the electricity bill in a typical Ind
 > **TL;DR**
 > - Size an inverter for AC load by inrush current, not running watts: a 1.5-ton AC surges to 4.5–5.75 kW at start-up even though it only runs at 1.4–1.6 kW.
 > - The AC-Load Inrush Matrix multiplies running kW by 3 (inverter AC) or 5 (non-inverter AC) to find peak surge, then matches that against the inverter's surge rating.
-> - On-grid inverters shut down during power cuts by law; only a hybrid inverter with a battery bank can keep an AC running through an outage.
+> - On-grid inverters shut down during power cuts by law; only a [hybrid inverter](/glossary/hybrid-inverter/) with a battery bank can keep an AC running through an outage.
 > - Two 1.5-ton inverter ACs in a standard 3-BHK need a 5–6 kW inverter with a 200% surge rating (roughly 10 kW peak).
 > - Running a 1.5-ton AC for 8 hours at night needs about 10–12 kWh of usable battery capacity, or 15 kWh of rated LFP capacity at 80% DoD.
 > - The Qbits HS and HT hybrid series ship with a 200% peak surge rating, so a 5 kW unit can supply 10 kW for the compressor's start-up window.
 
-> **Direct answer.** A solar inverter for AC load must handle inrush current (the startup surge), not just steady-state running watts. Apply the AC-Load Inrush Matrix: multiply nameplate tonnage by 1.2 to get running kW, then multiply by 3 to get peak surge kW, and select an inverter whose surge rating exceeds that figure. For backup during power cuts, a hybrid inverter is mandatory, an on-grid inverter shuts down by law when the grid fails.
+> **Direct answer.** A solar inverter for AC load must handle inrush current (the startup surge), not just steady-state running watts. Apply the AC-Load Inrush Matrix: multiply nameplate tonnage by 1.2 to get running kW, then multiply by 3 to get peak surge kW, and select an inverter whose surge rating exceeds that figure. For backup during power cuts, a [hybrid inverter](/glossary/hybrid-inverter/) is mandatory, an on-grid inverter shuts down by law when the grid fails.
 
 The calculation changes further when you run multiple ACs simultaneously, mix inverter-technology ACs with older non-inverter units, or want night-time battery operation. Each of those scenarios gets its own worked example below.
 

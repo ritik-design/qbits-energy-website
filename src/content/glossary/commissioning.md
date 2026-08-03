@@ -253,6 +253,15 @@ Commissioning is the formal validation and handover of a completed solar plant. 
 
 QBits Energy provides IEC 62446-compliant commissioning services for residential, C&I and utility solar plants across India, with complete documentation and DISCOM coordination.
 
+## Further reading
+
+For how Commissioning plays out in real projects, these guides go deeper:
+
+- [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/)
+- [Best Solar Design Software Philippines: 2026 Guide](/blog/solar-design-software-philippines/)
+- [Gross Metering vs Net Metering: Which to Choose?](/blog/gross-metering-vs-net-metering/)
+- [Solar Subsidy in Delhi 2026, BSES + TPDDL](/blog/solar-subsidy-delhi-2026/)
+
 ## Sources
 
 - IEC 62446-1, PV plant commissioning tests.

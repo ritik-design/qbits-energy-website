@@ -36,9 +36,9 @@ faqs:
 featured: false
 ---
 
-A factory owner in Rajkot paying ₹9.20 per unit to the DISCOM does not need to be convinced that solar works. The question is how to pay for it. A 100 kW rooftop plant costs ₹40 to ₹50 lakh installed in 2026. Most MSMEs would rather keep that cash in working capital than on the roof. That is exactly the gap a solar loan for business fills.
+A factory owner in Rajkot paying ₹9.20 per unit to the [DISCOM](/glossary/discom/) does not need to be convinced that solar works. The question is how to pay for it. A 100 kW rooftop plant costs ₹40 to ₹50 lakh installed in 2026. Most MSMEs would rather keep that cash in working capital than on the roof. That is exactly the gap a solar [loan](/blog/solar-ka-loan-hindi/) for business fills.
 
-India's business solar financing market has matured fast. Public sector banks run dedicated green loan products. SIDBI and IREDA offer concessional money for MSME energy projects. A new generation of NBFCs sanctions rooftop loans in days with the plant itself as security. And the CGTMSE guarantee scheme lets eligible micro and small enterprises borrow without pledging property at all.
+India's business solar financing market has matured fast. Public sector banks run dedicated green loan products. SIDBI and IREDA offer concessional money for [MSME](/blog/group-captive-solar-msme/) energy projects. A new generation of NBFCs sanctions rooftop loans in days with the plant itself as security. And the CGTMSE guarantee scheme lets eligible micro and small enterprises borrow without pledging property at all.
 
 The catch is that rates, collateral rules, and eligibility differ sharply across these lenders. The tax treatment alone can swing the real cost of a loan by several lakh rupees. This guide covers the full business solar loan market for 2026. We look at who lends at what rate, what collateral each lender demands, and how accelerated depreciation changes the math. We also link our consumer-focused loan guides where relevant, since this post deals only with business and MSME borrowing. If you are a homeowner, start with the [best bank solar loan in India](/blog/best-bank-solar-loan-india-2026/) roundup instead.
 
@@ -46,9 +46,9 @@ The catch is that rates, collateral rules, and eligibility differ sharply across
 > - Business solar loan rates in 2026 run from about 7 percent (SIDBI 4E, concessional) to 12.5 percent (private banks). NBFCs span 8 to 24 percent by credit profile.
 > - IREDA lends for C&I solar near 8.5 percent, roughly 150 to 300 basis points below typical bank SME rates, best for projects above ₹1 crore.
 > - CGTMSE covers loans up to ₹5 crore with a government guarantee of up to 75 percent. That makes collateral-free bank solar loans possible for micro and small enterprises.
-> - Owned solar gets 40 percent depreciation plus 40 percent additional first-year depreciation under Section 32, and loan interest is fully deductible.
+> - Owned solar gets 40 percent depreciation plus 40 percent additional first-year depreciation under Section 32, and [loan interest](https://quickestimate.co/blog/solar-loan-interest-rates-india) is fully deductible.
 > - A 100 kW plant at ₹40 lakh, financed at 10.5 percent over 7 years, costs about ₹67,500 per month. Savings run ₹1.1 lakh or more per month at ₹9 per unit.
-> - RESCO (OPEX) solar suits businesses with no taxable profit or no appetite for capex; ownership wins on 25-year economics by a wide margin.
+> - [RESCO](/glossary/resco/) ([OPEX](/glossary/opex/)) solar suits businesses with no taxable profit or no appetite for capex; ownership wins on 25-year economics by a wide margin.
 
 **Short version.** The cheapest solar loan for business in India in 2026 is SIDBI's 4E scheme at roughly 7 to 8 percent for eligible MSMEs. IREDA follows near 8.5 percent for larger C&I projects, with bank SME green loans at 10 to 12 percent. Micro and small enterprises can borrow collateral-free under CGTMSE cover up to ₹5 crore. Ownership plus a loan beats RESCO on lifetime cost whenever the business has taxable profits to absorb depreciation.
 

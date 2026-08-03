@@ -210,6 +210,13 @@ POA (Plane of Array) irradiance is the solar radiation hitting the actual tilted
 
 QBits Energy provides POA-based bankable yield modelling for Indian residential, C&I and utility solar projects.
 
+## Further reading
+
+For how Plane of Array plays out in real projects, these guides go deeper:
+
+- [Solar Irradiance Data India, Peak Sun Hours](/blog/solar-irradiance-data-india-statewise/)
+- [Inverter MPPT: 8 Critical Selection Factors (2026)](/blog/inverter-mppt/)
+
 ## Sources
 
 - IEC 61724, Performance monitoring.

@@ -269,6 +269,15 @@ Central inverters remain the dominant topology for very large Indian utility sol
 
 QBits Energy works with EPCs and IPPs on central inverter selection, plant layout, DC architecture and grid compliance for utility-scale solar in India. For plants needing structural and civil engineering alongside inverter selection, Heaven Designs' MW-scale EPC project management covers site survey through commissioning. Reach out for design support on your next plant.
 
+## Further reading
+
+For how Central Inverter plays out in real projects, these guides go deeper:
+
+- [Utility-Scale Solar Design Software Compared](/blog/utility-scale-solar-design-software/)
+- [Solar String Sizing & Overcurrent Protection](/blog/solar-string-sizing-ocp-india/)
+- [String vs Microinverter, Indian Roof Reality](/blog/string-vs-microinverter/)
+- [RatedPower Alternative 2026: 6 Tools Compared](/blog/ratedpower-alternative/)
+
 ## Sources
 
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.

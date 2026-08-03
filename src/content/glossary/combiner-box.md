@@ -238,6 +238,15 @@ Combiner boxes parallel multiple PV strings on the DC side with per-string fuse 
 
 QBits Energy supplies IEC 62548-compliant combiner boxes including smart variants for utility and large C&I solar plants across India.
 
+## Further reading
+
+For how Combiner Box plays out in real projects, these guides go deeper:
+
+- [Solar String Sizing & Overcurrent Protection](/blog/solar-string-sizing-ocp-india/)
+- [How Does a Solar Power System Work in India?](/blog/how-solar-power-system-works-india/)
+- [Solar String Sizing Software: Complete 2026 Guide](/blog/solar-string-sizing-software/)
+- [Solar Inverter Underperforming? 10 Causes in India](/blog/solar-inverter-underperforming-india/)
+
 ## Sources
 
 - IEC 61439, LV switchgear and controlgear assemblies.

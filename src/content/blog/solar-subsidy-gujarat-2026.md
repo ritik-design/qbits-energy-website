@@ -36,18 +36,18 @@ faqs:
 featured: false
 ---
 
-Gujarat homeowners asking about solar in 2026 face a question that is both financially significant and administratively layered: how do the central PM Surya Ghar subsidy and the state Surya Gujarat scheme work together, how much can you actually save, and which of the four Gujarat DISCOMs do you apply through? The answer determines whether a 3 kW rooftop system costs you ₹1,50,000 or closer to ₹40,000 out of pocket, a difference large enough to cut payback from six years to under two.
+Gujarat homeowners asking about solar in 2026 face a question that is both financially significant and administratively layered: how do the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) and the state Surya Gujarat scheme work together, how much can you actually save, and which of the four Gujarat DISCOMs do you apply through? The answer determines whether a 3 kW rooftop system costs you ₹1,50,000 or closer to ₹40,000 out of pocket, a difference large enough to cut payback from six years to under two.
 
 This guide works through the full Gujarat solar subsidy stack (both schemes, all four DISCOMs, the GEDA application process, net metering buyback rates, and a worked example from an Ahmedabad homeowner's perspective) so you can go from reading to applying with a clear checklist in hand.
 
 > **TL;DR**
-> - Gujarat stacks the central PM Surya Ghar subsidy (₹78,000 for 3 kW) with the Surya Gujarat state top-up (₹10,000–₹20,000/kW), reaching ₹1,08,000–₹1,38,000 combined for a 3 kW system.
+> - Gujarat stacks the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) (₹78,000 for 3 kW) with the Surya Gujarat state top-up (₹10,000–₹20,000/kW), reaching ₹1,08,000–₹1,38,000 combined for a 3 kW system.
 > - Four DISCOMs cover the state: DGVCL (Surat), PGVCL (Rajkot), MGVCL (Vadodara), and UGVCL (Ahmedabad), each with its own processing timeline of roughly 30 to 65 days.
 > - Both the national PM Surya Ghar portal and the GEDA state portal must be registered separately, the state top-up does not flow automatically from the central application.
 > - Net metering banking resets annually in March, so commissioning between April and September maximises the first-year banking window.
 > - An Ahmedabad worked example (3 kW, ₹1,62,000 gross cost) reached roughly 1.2 years' payback after combined subsidies of ₹1,23,000.
 
-> **Gujarat's solar subsidy in 2026 stacks two programmes.** The central PM Surya Ghar Muft Bijli Yojana provides ₹78,000 for a 3 kW residential system. The Surya Gujarat state scheme administered by GEDA adds a further ₹10,000–₹20,000 per kW top-up. Combined, the total subsidy for a 3 kW system reaches ₹1,08,000–₹1,38,000, potentially cutting net cost below ₹40,000 for a standard installation.
+> **Gujarat's solar subsidy in 2026 stacks two programmes.** The central PM Surya Ghar [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/) provides ₹78,000 for a 3 kW residential system. The Surya Gujarat state scheme administered by GEDA adds a further ₹10,000–₹20,000 per kW top-up. Combined, the total subsidy for a 3 kW system reaches ₹1,08,000–₹1,38,000, potentially cutting net cost below ₹40,000 for a standard installation.
 
 Gujarat leads India in residential rooftop solar adoption. This is not an accident. The combination of high retail electricity tariffs (among the highest in western India for residential consumers), strong grid infrastructure, a proactive state nodal agency in GEDA, and a subsidy stack that is genuinely among the most generous in the country makes the economics here more compelling than almost anywhere else in India. Understanding the full stack is the first step to claiming it.
 
@@ -322,6 +322,10 @@ On disbursement reliability: Gujarat has one of the better disbursement track re
 For homeowners who want a broader view of how Gujarat compares to other Indian states in rooftop solar economics, the [on-grid vs hybrid solar inverters ROI analysis](/blog/on-grid-vs-hybrid-solar-inverters-roi/) includes state-level tariff comparisons that put Gujarat's numbers in context.
 
 > **India's rooftop solar sector added approximately 4.5 GW of new capacity in FY2025, with Gujarat contributing the largest state-level share at over 900 MW.** *Source - [JMK Research, India Rooftop Solar Market Report](https://jmkresearch.com/), 2025.*
+
+Every other state is compared side by side in [solar subsidy 2026 across all states](/blog/solar-subsidy-2026-all-states/).
+
+The state scheme itself is documented in [the Surya Gujarat scheme guide](/blog/surya-gujarat-scheme-guide/).
 
 ## Frequently Missed Details That Change the Gujarat Solar Subsidy Maths
 

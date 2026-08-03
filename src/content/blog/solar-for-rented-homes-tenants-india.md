@@ -225,6 +225,8 @@ For a permanent grid-connected or hybrid solar system installed with the landlor
 - Get written acknowledgement from the landlord that removal was done to their satisfaction.
 - Keep all inverter warranty documents, manufacturer registration, and service contact details, they follow the system, not the property.
 
+Elsewhere in the Heaven Group network, see [how to evaluate installer credibility](https://www.heavengreenenergy.com/blog/how-to-evaluate-solar-installer-credibility) and [an installed cost breakdown](https://quickestimate.co/blog/cost-breakdown-solar-installation).
+
 ## Where Qbits Fits
 
 Qbits serves the EPC installer and homeowner who installs a permanent system, either for the property owner or for a tenant with written ownership rights in the lease. For tenants who have secured landlord consent for a grid-connected system, Qbits HS and HT series hybrid inverters provide:

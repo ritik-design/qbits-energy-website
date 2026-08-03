@@ -43,7 +43,7 @@ Solar का सबसे महँगा फैसला size का होत�
 > - Panel kW = monthly units ÷ per kW monthly generation। 300 units वाले घर के लिए यह 2.3 kW से 3 kW निकलता है।
 > - Inverter की AC rating array से बराबर या 10 से 20 percent कम रखी जाती है, यानी DC to AC ratio 1.1 से 1.3।
 > - Roof area roughly 65 से 85 sq ft प्रति kW चाहिए, और सिर्फ shadow-free हिस्सा गिना जाता है।
-> - PM Surya Ghar central subsidy अधिकतम ₹78,000 है जो 3 kW पर capped है, इससे बड़े system पर extra central subsidy नहीं मिलती।
+> - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) central subsidy अधिकतम ₹78,000 है जो 3 kW पर capped है, इससे बड़े system पर extra central subsidy नहीं मिलती।
 
 **छोटा जवाब।** पिछले 12 महीने के bill से average monthly units निकालें, उसे 100 से 130 units प्रति kW प्रति महीना से भाग दें, और panel array का kW पाएँ। उसी kW के बराबर या 10 से 20 percent कम AC rating वाला inverter चुनें, future load जोड़ें, roof area 65 से 85 sq ft प्रति kW से verify करें, और आखिर में किसी असली available size पर round कर दें।
 

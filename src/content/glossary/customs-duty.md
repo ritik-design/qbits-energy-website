@@ -213,6 +213,15 @@ Basic Customs Duty (BCD) on solar imports: 40% on modules, 25% on cells, 7.5% on
 
 QBits Energy advises customers on ALMM-listed Indian module sourcing and customs-duty-optimised project structuring.
 
+## Further reading
+
+For how Customs Duty plays out in real projects, these guides go deeper:
+
+- [BCD and Import Duties on Solar Inverters India 2026](/blog/bcd-import-duty-solar-inverters-india/)
+- [GST on Solar Inverters and Panels 2026](/blog/gst-on-solar-inverters-2026/)
+- [Solar Shading Analysis Software 2026: Guide](/blog/solar-shading-analysis-software/)
+- [Fronius vs SMA in India 2026: Are Premium European Inverters Worth It?](/blog/fronius-vs-sma-india/)
+
 ## Sources
 
 - Customs Tariff Act 1975.

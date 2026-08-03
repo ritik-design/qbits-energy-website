@@ -41,9 +41,9 @@ Searches for old inverter exchange in solar usually come from exactly this situa
 
 > **TL;DR**
 > - No formal OEM exchange program exists for solar inverters in India in 2026. Installer buyback deductions of ₹1,000 to ₹4,000 on working 3 to 5 kW units are the practical norm.
-> - Scrap value of a transformerless string inverter is ₹300 to ₹1,500; transformer-based units fetch ₹800 to ₹2,500 for their copper (industry-observed ranges).
+> - Scrap value of a transformerless [string inverter](/glossary/string-inverter/) is ₹300 to ₹1,500; transformer-based units fetch ₹800 to ₹2,500 for their copper (industry-observed ranges).
 > - Repair is worth it only when the quote stays under about 25% of new-inverter price. That is roughly ₹8,000 to ₹15,000 on a 5 kW unit, and spares must exist.
-> - Replacing a 5 kW on-grid inverter costs ₹45,000 to ₹65,000 for the unit, ₹65,000 to ₹90,000 for hybrid, plus ₹3,000 to ₹8,000 labour.
+> - Replacing a 5 kW [on-grid inverter](/glossary/on-grid-inverter/) costs ₹45,000 to ₹65,000 for the unit, ₹65,000 to ₹90,000 for hybrid, plus ₹3,000 to ₹8,000 labour.
 > - Old inverters are e-waste under the E-Waste (Management) Rules, 2022, and should go to CPCB-authorised recyclers, not informal scrap channels.
 > - Efficiency gain from swapping a 2015-era inverter for a 2026 model is roughly 1.5 to 2.5%. On a 5 kW system that is worth ₹700 to ₹1,600 a year, so efficiency alone never justifies replacement.
 > - The strongest upgrade case is adding battery backup: old on-grid inverters cannot take batteries, and a hybrid swap adds storage plus backup.
@@ -155,6 +155,8 @@ Second, a repaired inverter under a good AMC can be the rational choice. Picture
 Third, hybrid conversion is not free of tradeoffs. The battery will need replacement in 10 to 15 years. The inverter gains a battery-management subsystem that can fault. Round-trip storage losses of 8 to 12% mean stored solar is worth slightly less than directly consumed solar. In areas with rare outages, hybrid is an expensive insurance policy. The exception is clear: where daily cuts exceed about two hours, backup value dominates and hybrid wins outright.
 
 Our opinionated take, based on the RMA and service data we see across Qbits installations. The single worst outcome is spending ₹15,000 or more repairing an inverter older than 8 years. You buy a short extension of uncertain life. You also forfeit the warranty reset, the monitoring, and the buyback value that a replacement captures. Repair cheap, replace old, and never let an installer take the old unit without a written deduction.
+
+Elsewhere in the Heaven Group network, see [what a replacement costs](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost) and [how to file a warranty claim](https://www.heavengreenenergy.com/blog/how-to-file-solar-warranty-claim).
 
 ## The Bottom Line
 

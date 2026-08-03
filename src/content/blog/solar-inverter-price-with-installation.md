@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-Search for a solar inverter price with installation and you will find two very different numbers presented as the same thing. One site says a 5 kW inverter costs ₹52,000. Another says a 5 kW solar system costs ₹3 Lakh. Both are correct, and neither is lying to you. The first number is the box on the wall. The second is everything it takes to get electricity from your roof into your meter: panels, structure, cables, earthing, protection boxes, labour, DISCOM paperwork and commissioning.
+Search for a solar [inverter price](https://quickestimate.co/blog/solar-inverter-price-india) with installation and you will find two very different numbers presented as the same thing. One site says a 5 kW inverter costs ₹52,000. Another says a 5 kW solar system costs ₹3 Lakh. Both are correct, and neither is lying to you. The first number is the box on the wall. The second is everything it takes to get electricity from your roof into your meter: panels, structure, cables, earthing, protection boxes, labour, [DISCOM](/glossary/discom/) paperwork and commissioning.
 
 This gap is where most Indian homeowners get surprised. A family budgets ₹60,000 after seeing an inverter listing online, then receives a real quote for ₹2.9 Lakh and assumes the installer is overcharging. Usually the installer is not. The listing price simply excluded 80 percent of the system.
 
@@ -43,10 +43,10 @@ This guide closes that gap. You will see exactly what each component costs in 20
 > - A 5 kW on-grid inverter costs ₹45,000 to ₹65,000 in 2026, but the full installed 5 kW system costs ₹2.6 Lakh to ₹3.4 Lakh before subsidy.
 > - The inverter is only 18 to 25 percent of the all-in system cost. Panels alone are 50 to 60 percent.
 > - Installation labour runs ₹15,000 to ₹25,000 on a 5 kW system; cabling and protection boxes add ₹25,000 to ₹38,000.
-> - Earthing (2 to 3 pits) and lightning protection add ₹6,000 to ₹15,000 and are the most commonly skipped items in cheap quotes.
+> - [Earthing](/glossary/earthing/) (2 to 3 pits) and lightning protection add ₹6,000 to ₹15,000 and are the most commonly skipped items in cheap quotes.
 > - Net meter fees and DISCOM charges add ₹3,000 to ₹12,000 and are excluded from many headline quotes.
-> - PM Surya Ghar subsidy of up to ₹78,000 applies against the installed cost, cutting net homeowner spend by 23 to 30 percent. It is capped at the 3 kW band, so a 5 kW system gets the same ₹78,000.
-> - A quote that is 20 percent below market almost always excludes structure, earthing or net metering. Itemized quotes are the only safe comparison.
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy of up to ₹78,000 applies against the installed cost, cutting net homeowner spend by 23 to 30 percent. It is capped at the 3 kW band, so a 5 kW system gets the same ₹78,000.
+> - A quote that is 20 percent below market almost always excludes structure, earthing or [net metering](https://quickestimate.co/blog/net-metering-charges-india). Itemized quotes are the only safe comparison.
 
 **Short version.** In 2026, the solar inverter price with installation in India is roughly ₹1.8 Lakh to ₹2.4 Lakh for a 3 kW system. A 5 kW system runs ₹2.6 Lakh to ₹3.4 Lakh and a 10 kW system ₹4.8 Lakh to ₹6.2 Lakh, all-in before subsidy. The inverter itself is only ₹25,000 to ₹1.2 Lakh of that. Always compare itemized quotes, not inverter sticker prices.
 

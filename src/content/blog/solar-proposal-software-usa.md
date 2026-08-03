@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software USA: 2026 Guide"
 excerpt: "The best solar proposal software for US installers models NEM 3.0 self-consumption, the 30% ITC, and SRECs in one document. Seven tools compared for 2026."
 description: "Best solar proposal software USA 2026. SurgePV vs Aurora Sales Mode, Solargraf, Pylon, Enact, OpenSolar Pro, Sighten on ITC, NEM 3.0, SRECs and pricing."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "14 min"
 image: "/blog-images/solar-proposal-software-usa.svg"
 author: "Akash Hirapara"
@@ -38,7 +38,7 @@ faqs:
 featured: false
 ---
 
-US residential solar sales changed shape in April 2023, and most proposal software has not caught up. When California moved to NEM 3.0, export credits dropped to roughly $0.05 to $0.08 per kWh against retail rates approaching $0.40. The proposal metric that had driven American solar sales for fifteen years, annual offset percentage, stopped describing the economics. Yet walk through the demo of almost any solar proposal tool in 2026 and the headline number is still offset. This guide compares the seven proposal platforms US installers actually shortlist, judges them on the three things that decide a US deal in 2026 (self-consumption modelling, federal ITC accuracy, and state incentive coverage), and explains why the design tool and the proposal tool should be the same product.
+US residential solar sales changed shape in April 2023, and most [proposal software](https://www.surgepv.com/blog/how-solar-proposal-software-increases-sales) has not caught up. When California moved to NEM 3.0, export credits dropped to roughly $0.05 to $0.08 per kWh against retail rates approaching $0.40. The proposal metric that had driven American solar sales for fifteen years, annual offset percentage, stopped describing the economics. Yet walk through the demo of almost any solar proposal tool in 2026 and the headline number is still offset. This guide compares the seven proposal platforms US installers actually shortlist, judges them on the three things that decide a US deal in 2026 (self-consumption modelling, federal ITC accuracy, and state incentive coverage), and explains why the design tool and the proposal tool should be the same product.
 
 > **TL;DR**
 > - The 30% federal ITC runs through 2032 under Section 25D for residential and Section 48E for commercial, according to the IRS (2026).
@@ -48,7 +48,7 @@ US residential solar sales changed shape in April 2023, and most proposal softwa
 > - Commercial deals need Section 48E, the 10% domestic content bonus, the 10% energy community bonus, and MACRS five-year depreciation. Most residential-first tools model none of them.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and build a proposal on one of your live deals.
 
-**Short version.** The best solar proposal software for US installers in 2026 is SurgePV, because the proposal is generated from the same engineering project as the design, and the financial engine models the 30% ITC, MACRS depreciation, state SRECs, and NEM 3.0 hourly self-consumption. Aurora Sales Mode is the strongest residential-only alternative at roughly triple the seat cost. Solargraf and Pylon are credible dedicated proposal tools if you already own a design platform.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for US installers in 2026 is SurgePV, because the proposal is generated from the same engineering project as the design, and the financial engine models the 30% ITC, MACRS depreciation, state SRECs, and NEM 3.0 hourly self-consumption. Aurora Sales Mode is the strongest residential-only alternative at roughly triple the seat cost. Solargraf and Pylon are credible dedicated proposal tools if you already own a design platform.
 
 The US has the deepest solar software market in the world, which cuts both ways. There are more mature options here than anywhere else, and there is more legacy assumption baked into them. Several of the tools below were built when net metering paid retail rate in most of the country, and their default proposal templates still reflect that world. For the design side of the same decision, our [solar design software USA](/blog/solar-design-software-usa/) guide covers the engineering comparison, and the global [solar proposal software](/blog/solar-proposal-software/) ranking covers the category without the US lens.
 
@@ -177,6 +177,8 @@ Once the proposal is signed, the pipeline and follow-up sit in a CRM rather than
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/usa" target="_blank" rel="noopener noreferrer">US compliance library</a></p>
 </div>
+
+A proposal tool only earns its place inside a working stack. The [wider solar software picture in the USA](/blog/solar-software-usa/) covers what sits either side of it.
 
 ## The Bottom Line
 

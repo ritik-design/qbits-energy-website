@@ -240,6 +240,8 @@ Score each manufacturer 1–10 per factor, multiply by weight, sum totals. Docum
 - **Primary vendor:** 60–70% of sourcing
 - **Secondary vendors:** supply security and specific niche needs
 
+Elsewhere in the Heaven Group network, see [BIS inverter certification](https://heavendesigns.in/blog/bis-solar-inverter-certification-process) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
+
 ## Conclusion
 
 Manufacturer selection is not a one-time event, it is a continuous evaluation. Start with pilots, validate through rigorous due diligence, and build relationships gradually. In India's exponentially growing solar market, prioritise manufacturers demonstrating genuine quality commitment, transparent operations, robust warranty infrastructure, and India-specific engineering. The right partner becomes a strategic alliance, not a transactional supplier. For the procurement process itself, the [inverter procurement India guide](/blog/inverter-procurement-india/) and [how to evaluate solar EPC bids](/blog/how-to-evaluate-solar-epc-bids/) cover the sourcing and bid-comparison steps that follow manufacturer shortlisting.

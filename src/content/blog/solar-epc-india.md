@@ -27,7 +27,7 @@ faqs:
     a: "BIS (Bureau of Indian Standards) certification is mandatory. Inverters should meet IEC 62109 (safety) and IEC 61683 (efficiency). Without BIS, the installation cannot legally connect to the grid."
 ---
 
-The Indian solar sector is growing at unprecedented speed, with EPC companies at the front line. Success depends on delivering reliable, high-performance installations that generate consistent returns for clients. This guide walks through every phase of solar EPC delivery, from project planning to warranty management.
+The Indian solar sector is growing at unprecedented speed, with [EPC companies](https://www.heavengreenenergy.com/blog/common-mistakes-epc-companies-make-in-rooftop-solar) at the front line. Success depends on delivering reliable, high-performance installations that generate consistent returns for clients. This guide walks through every phase of solar EPC delivery, from project planning to warranty management.
 
 > **TL;DR**
 > - Solar EPC delivery runs across seven phases: site assessment, engineering design, procurement, installation, commissioning, monitoring, and warranty management.

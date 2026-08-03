@@ -259,6 +259,13 @@ Earthing is foundational electrical safety. It enables every downstream protecti
 
 QBits Energy designs and installs CEA and IS 3043-compliant earthing systems for residential, C&I and utility solar plants across India.
 
+## Further reading
+
+For how Earthing plays out in real projects, these guides go deeper:
+
+- [Monsoon Solar Prep: Complete Checklist for India](/blog/monsoon-solar-prep/)
+- [Solar Inverter Wiring Diagram for Indian Homes 2026: Panels to Meter Board](/blog/solar-inverter-wiring-diagram/)
+
 ## Sources
 
 - IS 3043, Indian Code of Practice for Earthing.

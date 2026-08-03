@@ -47,7 +47,7 @@ The solar panel shadow effect is the most underestimated cause of underperforman
 > - The 9 AM to 3 PM solar-time window delivers over 80% of daily generation in India; any shadow in this window is expensive.
 > - A pre-install shading survey, ideally a satellite or software-based shade analysis, costs little next to the ₹10,000 to ₹30,000 per year a bad layout can lose.
 
-**Short version.** Solar cells and panels are wired in series, so current is limited by the weakest link. A shadow covering even 5 to 10% of one panel can cut that panel's output by a third or more. On a single-MPPT string inverter, it also drags every panel in the string down with it. Bypass diodes soften the blow, and fixes range from free (trim a tree, move a panel) to paid (dual MPPT, optimizers, microinverters). Check your roof for shadows before installation, not after.
+**Short version.** Solar cells and panels are wired in series, so current is limited by the weakest link. A shadow covering even 5 to 10% of one panel can cut that panel's output by a third or more. On a single-MPPT string inverter, it also drags every panel in the string down with it. Bypass diodes soften the blow, and fixes range from free (trim a tree, move a panel) to paid (dual [MPPT](/glossary/mppt/), optimizers, microinverters). Check your roof for shadows before installation, not after.
 
 If your system is already installed and generating below expectations, shading is one of several suspects. Our guide to [solar inverter low output causes in India](/blog/solar-inverter-low-output-causes-india/) covers the full diagnostic checklist. This post goes deep on shading. It is the one cause that is cheapest to fix before installation and most expensive after.
 
@@ -174,6 +174,8 @@ Second, do the free things. Trim vegetation. Relocate the dish antenna (₹500 t
 Third, rewire what you can. Ask your installer whether the shaded panels can be regrouped onto one string or moved to the second MPPT input. This is a few hours of labour and often recovers the majority of string-level drag.
 
 Fourth, consider hardware. Optimizers on just the 2 or 3 chronically shaded panels cost far less than a full MLPE retrofit and target the exact problem. Relocating panels is the last resort: it works, but structure, cabling, and labour add up fast.
+
+Elsewhere in the Heaven Group network, see [DC wiring loss optimisation](https://heavendesigns.in/blog/pvsyst-dc-wiring-loss-optimization) and [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation).
 
 ## Conclusion: The Bottom Line on Solar Panel Shading
 

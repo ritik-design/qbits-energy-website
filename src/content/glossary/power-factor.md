@@ -217,6 +217,15 @@ Power factor measures the efficiency of AC power usage, equal to cos(Ï†) where Ï
 
 QBits Energy configures smart solar inverter reactive functions to eliminate PF penalties for C&I customers across India.
 
+## Further reading
+
+For how Power Factor plays out in real projects, these guides go deeper:
+
+- [Reactive Power Support from Solar Inverters India](/blog/reactive-power-solar-inverters-india/)
+- [Solar Inverter Sizing: 12 Key Questions (2026)](/blog/solar-inverter-sizing/)
+- [Solar String Sizing & Overcurrent Protection](/blog/solar-string-sizing-ocp-india/)
+- [How Does a Solar Power System Work in India?](/blog/how-solar-power-system-works-india/)
+
 ## Sources
 
 - CEA Technical Standards for Connectivity to the Grid 2019.

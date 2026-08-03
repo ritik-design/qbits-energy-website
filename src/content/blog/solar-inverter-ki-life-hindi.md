@@ -39,13 +39,13 @@ Solar system lagwate waqt sabse zyada baat panels ki hoti hai, aur sabse kam baa
 
 > **TL;DR**
 > - Solar inverter ki typical life 8 se 15 saal hoti hai; solar panels 25 se 30 saal chalte hain।
-> - Isliye 25 saal ke system life mein kam se kam ek inverter replacement maan kar chalna chahiye।
+> - Isliye 25 saal ke system life mein kam se kam ek [inverter replacement](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost) maan kar chalna chahiye।
 > - Heat sabse bada killer hai, uske baad dust ingress, voltage surge aur kharab earthing।
 > - IP66 enclosure Indian outdoor conditions mein dust aur monsoon dono se bachaata hai।
 > - 1 se 2 saal warranty wala sasta inverter 25 saal ke TCO mein aksar sabse mehnga padta hai।
 > - Qbits ke premium units par 12 saal ki full replacement warranty milti hai, jo system life ka aadha se zyada hissa cover kar leti hai।
 
-**Chhota jawab.** Solar inverter ki life India mein aam taur par 8 se 15 saal hoti hai। On-grid string inverter achhi ventilation aur shade ke saath 12 se 15 saal tak chalta hai, hybrid inverter 8 se 12 saal, aur sasta non-ALMM unit garam chhat par 4 se 7 saal mein fail ho sakta hai। Panels 25 saal chalte hain, isliye kam se kam ek replacement plan karna chahiye।
+**Chhota jawab.** Solar inverter ki life India mein aam taur par 8 se 15 saal hoti hai। On-grid [string inverter](/glossary/string-inverter/) achhi ventilation aur shade ke saath 12 se 15 saal tak chalta hai, [hybrid inverter](/glossary/hybrid-inverter/) 8 se 12 saal, aur sasta non-ALMM unit garam chhat par 4 se 7 saal mein fail ho sakta hai। Panels 25 saal chalte hain, isliye kam se kam ek replacement plan karna chahiye।
 
 Yeh numbers ranges hain, promise nahi। Do bilkul same model ke inverter, ek Kerala ki coastal humidity mein aur doosra Jaipur ki chhat par bina shade ke, alag alag saal chalenge। Agar aap basics se shuru kar rahe hain to pehle [solar inverter kya hai](/blog/solar-inverter-kya-hai-hindi/) padh lijiye, phir yahan wapas aaiye।
 

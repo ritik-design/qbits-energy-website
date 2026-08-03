@@ -196,6 +196,14 @@ Back sheet provides electrical insulation, weather protection and mechanical rob
 
 QBits Energy supplies ALMM-listed modules with PVDF or glass-glass construction for residential, C&I and utility solar across India.
 
+## Further reading
+
+For how Back Sheet plays out in real projects, these guides go deeper:
+
+- [Best Solar Design Software New Zealand: 2026 Guide](/blog/solar-design-software-new-zealand/)
+- [Best Solar Proposal Software New Zealand: 2026 Guide](/blog/solar-proposal-software-new-zealand/)
+- [Best Solar Software New Zealand: The Complete 2026 Stack](/blog/solar-software-new-zealand/)
+
 ## Sources
 
 - IEC 62788, Test methods for back sheets.

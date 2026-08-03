@@ -35,10 +35,10 @@ faqs:
     a: "EPC companies can use the Qbits Index to prioritise geographic expansion, forecast project pipeline timelines, and advise distributor partners on inventory positioning. High-index states signal faster project cycles, better subsidy liquidity, and lower DISCOM rejection risk. Low-index states signal higher working capital requirements but also less competition and higher installer margins for firms willing to invest in DISCOM relationship management and local service capacity."
 ---
 
-Every quarter, Qbits field teams document patterns from over 2,000 active installations across 18 Indian states: which DISCOMs approve net metering in under 30 days, which states still have subsidy budgets unspent, where installer density is thin enough that a new entrant can command 8–12% gross margin premiums, and which feeders reject system sizes above 5 kW due to grid constraints. In June 2026, we compiled that operational intelligence into a single, repeatable framework, the Qbits India Rooftop Solar Readiness Index.
+Every quarter, Qbits field teams document patterns from over 2,000 active installations across 18 Indian states: which DISCOMs approve [net metering](https://www.surgepv.com/blog/net-metering-by-state-country) in under 30 days, which states still have subsidy budgets unspent, where installer density is thin enough that a new entrant can command 8–12% gross margin premiums, and which feeders reject system sizes above 5 kW due to grid constraints. In June 2026, we compiled that operational intelligence into a single, repeatable framework, the Qbits India Rooftop Solar Readiness Index.
 
 > **TL;DR**
-> - Gujarat ranks #1 on the Qbits Readiness Index at 87/100, driven by 21-day net metering turnaround and the highest installer density in the country.
+> - Gujarat ranks #1 on the Qbits Readiness Index at 87/100, driven by 21-day [net metering](https://www.surgepv.com/solar-compliance/comparisons/net-metering-by-country) turnaround and the highest installer density in the country.
 > - Bihar ranks last of the 18 scored states at 25/100, with net metering approvals averaging 105 days and almost no state-level subsidy top-up.
 > - India added approximately 4.2 GW of rooftop solar in FY 2025–26, with 1.8 GW in the residential segment alone, a record year.
 > - ALMM Phase III compliance is becoming a mandatory gateway; DISCOMs in Gujarat, Karnataka, Maharashtra, and Tamil Nadu now reject non-ALMM inverters at inspection.

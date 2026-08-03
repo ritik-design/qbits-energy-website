@@ -3,8 +3,8 @@ title: "Best Solar Design Software Spain: 2026 Guide"
 excerpt: "Spanish surplus credits settle monthly, never roll over, and can never take the energy bill below zero. That caps oversizing in a way annual modelling cannot see. Six tools compared."
 description: "Best solar design software Spain 2026. SurgePV vs PV*SOL, Aurora, PVsyst on RD 244/2019, compensación simplificada, the monthly zero floor and the new 5 km collective self-consumption radius."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-spain.svg"
 author: "Keyur Rakholiya"
@@ -34,7 +34,7 @@ faqs:
 featured: false
 ---
 
-Spanish solar design turns on a rule that most simulation tools cannot represent. Under compensación simplificada, surplus is credited against the monthly bill at the hourly spot price, the credit can never take the energy component of that bill below zero, and nothing rolls over into the following month. Those three constraints operate together, and they mean a system sized against annual consumption will generate summer surplus that is neither banked nor paid. An annual model shows that energy as fully compensated. The customer's June bill shows otherwise. This guide covers what Spanish design software has to do, and which tools do it.
+Spanish solar design turns on a rule that most simulation tools cannot represent. Under compensación simplificada, surplus is credited against the monthly bill at the hourly spot price, the credit can never take the energy component of that bill below zero, and nothing rolls over into the following month. Those three constraints operate together, and they mean a system sized against annual consumption will generate summer surplus that is neither banked nor paid. An annual model shows that energy as fully compensated. The customer's June bill shows otherwise. This guide covers what Spanish [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has to do, and which tools do it.
 
 > **TL;DR**
 > - RD 244/2019 remains the operative framework, with compensación simplificada unchanged in its core mechanism since 2019.
@@ -45,7 +45,7 @@ Spanish solar design turns on a rule that most simulation tools cannot represent
 > - Crediting at hourly spot means midday export is valued when solar-driven prices are lowest, so average pricing overstates it.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for Spanish installers in 2026 is SurgePV, because it settles compensación simplificada monthly with the zero floor applied and prices surplus against hourly rather than average rates. PVsyst is the bankable reference for large ground-mount. PV*SOL is credible for European residential detail. Aurora assumes US net metering, which Spain does not operate.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for Spanish installers in 2026 is SurgePV, because it settles compensación simplificada monthly with the zero floor applied and prices surplus against hourly rather than average rates. PVsyst is the bankable reference for large ground-mount. PV*SOL is credible for European residential detail. Aurora assumes US [net metering](/glossary/net-metering/), which [Spain](/blog/solar-software-spain/) does not operate.
 
 For the quoting side see our [best solar proposal software Spain](/blog/solar-proposal-software-spain/) guide, and the global [best solar design software](/blog/best-solar-design-software/) ranking for the category without the local lens.
 

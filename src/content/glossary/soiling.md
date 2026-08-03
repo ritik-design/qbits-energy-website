@@ -231,6 +231,13 @@ Soiling is one of the largest controllable yield loss factors in Indian solar PV
 
 QBits Energy designs and operates cleaning programmes for residential, C&I and utility solar plants tailored to Indian soiling conditions.
 
+## Further reading
+
+For how Soiling plays out in real projects, these guides go deeper:
+
+- [Solar Panel ki Kimat 2026: Poora Rate Guide](/blog/solar-panel-ki-kimat/)
+- [How Shadow on One Solar Panel Kills Your Generation (And How to Fix It)](/blog/solar-panel-shadow-effect-generation/)
+
 ## Sources
 
 - IEC 61724, Performance monitoring.

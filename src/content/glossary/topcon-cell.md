@@ -285,6 +285,14 @@ TOPCon is the dominant new-build cell technology from 2024 onward. Higher effici
 
 QBits Energy supplies TOPCon bifacial modules from leading Indian manufacturers for residential, C&I and utility solar across India.
 
+## Further reading
+
+For how TOPCon Cell plays out in real projects, these guides go deeper:
+
+- [ALMM List-II Exemption Window for Net Metering & Open Access](/blog/almm-list-ii-exemption-net-metering-open-access/)
+- [Solar Shading Analysis Software 2026: Guide](/blog/solar-shading-analysis-software/)
+- [Solar Panel ki Kimat 2026: Poora Rate Guide](/blog/solar-panel-ki-kimat/)
+
 ## Sources
 
 - Feldmann F., Bivour M., Reichel C., Hermle M., Glunz S. W., Passivated rear contacts for high-efficiency n-type Si solar cells, Solar Energy Materials and Solar Cells, 2014.

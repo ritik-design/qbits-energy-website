@@ -3,8 +3,8 @@ title: "Best Archelios Alternatives 2026: Six Platforms Compared"
 excerpt: "Looking for an Archelios alternative in 2026? Six platforms compared on price, capacity bands, hourly self-consumption and proposals, starting with SurgePV."
 description: "An honest Archelios alternative guide for 2026. Six platforms compared on published pricing, capacity limits, hourly self-consumption and battery dispatch, and customer-facing proposal output, with guidance for French and European buyers after the S21 reform."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/archelios-alternative.svg"
 author: "Keyur Rakholiya"

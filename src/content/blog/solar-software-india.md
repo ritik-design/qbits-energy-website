@@ -3,8 +3,8 @@ title: "Best Solar Software India: The Complete 2026 Stack"
 excerpt: "Most Indian solar businesses run six kinds of software and pay for nine. This is what the stack actually needs to cover, what is India-specific, and where the money leaks."
 description: "Best solar software India 2026: the full stack for design, proposals, CRM, procurement, monitoring and compliance. What ALMM, PM Surya Ghar and DISCOM rules demand from your tools."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-india.svg"
 author: "Nirav Dhanani"
@@ -33,12 +33,12 @@ faqs:
 featured: false
 ---
 
-Most Indian solar businesses do not have a software problem. They have a stack problem. There is usually something for design, something else for quotes, a CRM the sales team half-uses, a spreadsheet holding the ALMM list, another spreadsheet holding DISCOM tariffs, and a WhatsApp group doing the actual coordination. Each piece works. Nothing connects, so the same customer and the same system get re-entered five times between enquiry and commissioning, and every re-entry is a chance for the quoted design and the installed one to drift apart. This guide covers what the stack actually has to do in India, which parts are genuinely India-specific, and where teams reliably overspend.
+Most Indian solar businesses do not have a software problem. They have a stack problem. There is usually something for design, something else for quotes, a CRM the sales team half-uses, a spreadsheet holding the ALMM list, another spreadsheet holding [DISCOM](/glossary/discom/) tariffs, and a WhatsApp group doing the actual coordination. Each piece works. Nothing connects, so the same customer and the same system get re-entered five times between enquiry and commissioning, and every re-entry is a chance for the quoted design and the installed one to drift apart. This guide covers what the stack actually has to do in India, which parts are genuinely India-specific, and where teams reliably overspend.
 
 > **TL;DR**
 > - An Indian solar business runs six software categories: design, proposals, CRM, procurement, execution and monitoring.
 > - Design and proposals must be tightly integrated, because the quote is derived from the engineering. The rest can connect by API.
-> - Four requirements are India-specific: ALMM compliance, PM Surya Ghar subsidy bands, DISCOM-level net metering, and IS code with CEA safety rules.
+> - Four requirements are India-specific: ALMM compliance, [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy bands, DISCOM-level net metering, and IS code with CEA safety rules.
 > - Global platforms carry none of those natively, so teams maintain them in spreadsheets beside an expensive tool.
 > - The biggest gap in most businesses is the handoff from approved proposal to procurement and installation.
 > - [SurgePV](https://surgepv.com/) covers design and proposals with the India logic built in, roughly ₹1,09,000 to ₹1,60,000 per user per year. [Book a free demo](https://surgepv.com/demo).

@@ -41,14 +41,14 @@ faqs:
 Solar inverter investments represent 15-20% of total project costs across residential, commercial, and industrial installations in India. The right financing strategy transforms these capital-intensive purchases into manageable, ROI-positive investments aligned with business or household cash flow profiles. The wrong financing approach either ties up working capital that should fuel growth or pays unnecessary interest costs that erode 25-year ROI.
 
 > **TL;DR**
-> - Six main financing routes exist: upfront cash, EMI loans (9.5-14% interest), CAPEX vs OPEX/PPA, leasing, government subsidies, and IREDA/bank-specific products.
+> - Six main financing routes exist: upfront cash, EMI loans (9.5-14% interest), [CAPEX vs OPEX](https://heavendesigns.in/blog/solar-ppa-vs-capex-vs-opex-india/)/PPA, leasing, government subsidies, and IREDA/bank-specific products.
 > - IREDA offers the cheapest concessional rate at 8.5-10%; banks quote 10-12%; NBFCs process faster at 11-14%.
-> - PM Surya Ghar provides up to ₹78,000 for residential systems and can be combined with EMI financing for a cash-flow-neutral monthly outcome.
+> - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-emi-options) provides up to ₹78,000 for residential systems and can be combined with EMI financing for a cash-flow-neutral monthly outcome.
 > - Section 32 accelerated depreciation at 40% WDV gives business buyers a substantial year-one tax shield, often making CAPEX ownership beat OPEX/PPA above ₹50 lakh annual tax liability.
 > - A 12-year full replacement warranty can unlock 0.5-1.0% lower loan rates or a longer tenor because it reduces lender risk on the equipment's residual value.
 > - Combining subsidy, financing, and tax benefits can cut effective project cost by 35-50% for eligible buyers.
 
-This guide presents the complete inverter financing framework Indian buyers and EPCs use in 2026: upfront cash purchase, EMI loan options with current market rates, CAPEX vs OPEX strategic comparison, leasing structures, government subsidies and tax incentives, IREDA and bank-specific products, documentation requirements, and the decision framework matched to each buyer profile.
+This guide presents the complete inverter financing framework Indian buyers and EPCs use in 2026: upfront cash purchase, EMI loan options with current market rates, CAPEX vs OPEX strategic comparison, leasing structures, government subsidies and tax incentives, IREDA and bank-specific products, documentation requirements, and the [decision framework](https://heavendesigns.in/blog/capex-opex-resco-cfo-decision-framework/) matched to each buyer profile.
 
 ## Understanding Inverter Financing in 2026
 

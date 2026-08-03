@@ -252,6 +252,15 @@ RPO is the mandate requiring Indian electricity obligated entities to source min
 
 QBits Energy advises C&I open access consumers and captive plants on RPO compliance strategies combining solar PPAs, on-site generation and RECs.
 
+## Further reading
+
+For how RPO plays out in real projects, these guides go deeper:
+
+- [Solar Inverter for Factory and Industrial Loads](/blog/solar-inverter-for-factory/)
+- [Solar RESCO Model India: Guide for C&I Buyers](/blog/solar-resco-model-india-guide/)
+- [Solar Carport Design Software 2026: Niche Guide](/blog/solar-carport-design-software/)
+- [Best Solar Design Software 2026: 12 Tools Ranked](/blog/best-solar-design-software/)
+
 ## Sources
 
 - Electricity Act 2003 Section 86.

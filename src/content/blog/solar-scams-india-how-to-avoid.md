@@ -34,19 +34,19 @@ faqs:
 featured: false
 ---
 
-A homeowner in a Tier-2 city sees an ad promising a 3 kW rooftop solar system for almost nothing after subsidy. A polite sales agent visits, shows a government-looking ID, and collects a Rs 50,000 booking advance. Then the phone goes silent. This script, with small variations, is playing out across India as rooftop solar demand surges under PM Surya Ghar Muft Bijli Yojana.
+A homeowner in a Tier-2 city sees an ad promising a 3 kW rooftop solar system for almost nothing after subsidy. A polite sales agent visits, shows a government-looking ID, and collects a Rs 50,000 booking advance. Then the phone goes silent. This script, with small variations, is playing out across India as rooftop solar demand surges under [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/).
 
 The scheme has put solar within reach of crores of households. It has also created the perfect cover for fraud. Most first-time buyers do not know how the subsidy flows, who may install, or what a real approval looks like. The Press Information Bureau itself has issued warnings about fraudulent websites imitating the official portal, according to [PIB](https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=153495&ModuleId=3&reg=3&lang=1), 2024.
 
-This guide maps the nine red flags that expose a solar scam in India. It also covers verification steps that take under an hour, protective contract terms, and what to do if money has already gone. Read it before you pay anyone anything.
+This guide maps the nine [red flags](https://www.heavengreenenergy.com/blog/red-flags-solar-quote) that expose a solar scam in India. It also covers verification steps that take under an hour, protective contract terms, and what to do if money has already gone. Read it before you pay anyone anything.
 
 > **TL;DR**
-> - The PM Surya Ghar application is 100 percent free at pmsuryaghar.gov.in. Anyone charging a fee to process your subsidy is running a scam.
+> - The [PM Surya Ghar](/glossary/pm-surya-ghar/) application is 100 percent free at pmsuryaghar.gov.in. Anyone charging a fee to process your subsidy is running a scam.
 > - Maximum central subsidy is Rs 78,000 for 3 kW and above. Promises of higher subsidy are a red flag.
 > - Never pay more than 10 to 20 percent advance. Pay only to a company current account against a GST invoice.
-> - Verify the vendor's registration ID yourself on the PM Surya Ghar portal before signing.
+> - Verify the vendor's registration ID yourself on the [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) portal before signing.
 > - Fake websites imitating the official portal are common enough that PIB issued a public warning, according to [PIB](https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=153495&ModuleId=3&reg=3&lang=1), 2024.
-> - MNRE now displays deactivated vendors on the national portal, according to [Energetica India](https://www.energetica-india.net/news/mnre-notifies-sop-to-address-vendor-violations-under-pm-surya-ghar), 2026.
+> - [MNRE](/glossary/mnre/) now displays deactivated vendors on the national portal, according to [Energetica India](https://www.energetica-india.net/news/mnre-notifies-sop-to-address-vendor-violations-under-pm-surya-ghar), 2026.
 > - Lost money already? Call 1930 immediately, then file at cybercrime.gov.in. Speed decides whether funds get frozen.
 
 **Short version.** A solar scam in India almost always fails one of four checks. Either the vendor is missing from the portal, the equipment is not ALMM-listed, payments skip milestones, or the subsidy promise exceeds Rs 78,000. Run these four checks, use a milestone-based contract, and you filter out nearly every fraud pattern currently reported.

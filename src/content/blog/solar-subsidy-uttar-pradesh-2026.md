@@ -36,16 +36,16 @@ faqs:
 featured: false
 ---
 
-Homeowners in Uttar Pradesh asking about rooftop solar in 2026 face a situation that is more financially compelling (and more operationally complex) than in almost any other Indian state. The electricity bills are high, the grid is unreliable across large rural and semi-urban stretches, and the subsidy stack available through PM Surya Ghar and UPNEDA is substantial. A 3 kW system in Lucknow can qualify for ₹78,000 in central subsidy alone, and UPNEDA state incentives can add further savings. What most homeowners do not know is that UP's frequent power cuts make the choice between an on-grid and a hybrid inverter a genuinely consequential decision, one that changes both your daily energy security and your long-term financial return.
+Homeowners in Uttar Pradesh asking about rooftop solar in 2026 face a situation that is more financially compelling (and more operationally complex) than in almost any other Indian state. The electricity bills are high, the grid is unreliable across large rural and semi-urban stretches, and the subsidy stack available through [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) and UPNEDA is substantial. A 3 kW system in Lucknow can qualify for ₹78,000 in central subsidy alone, and UPNEDA state incentives can add further savings. What most homeowners do not know is that UP's frequent power cuts make the choice between an on-grid and a hybrid inverter a genuinely consequential decision, one that changes both your daily energy security and your long-term financial return.
 
 > **TL;DR**
-> - The central PM Surya Ghar subsidy pays up to ₹78,000 for a 3 kW rooftop solar system in UP, and UPNEDA adds a separate state top-up you must verify at upneda.org.in.
+> - The central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) pays up to ₹78,000 for a 3 kW rooftop solar system in UP, and UPNEDA adds a separate state top-up you must verify at upneda.org.in.
 > - UP has four DISCOMs, PVVNL, DVVNL, MVVNL, and PUVVNL, and you apply only through the one listed on your electricity bill.
 > - UP's net metering buyback rate (₹2.00–₹3.25/unit) is far below the retail import tariff (₹5.50–₹7.00/unit), so sizing for self-consumption beats maximising export.
 > - With 4 to 8 hours of daily outages common outside major cities, a hybrid inverter with battery backup typically outperforms an on-grid system despite its 25–40% cost premium.
 > - A worked Lucknow example shows a 3 kW hybrid system reaching payback in about 2.8 years once diesel-generator savings of ₹34,200 a year are included.
 
-This guide covers the full picture: the PM Surya Ghar central subsidy slabs, the UPNEDA state scheme, all four UP DISCOMs, net metering in UP, and a worked example from a Lucknow homeowner, so you can go from reading to applying with a clear checklist.
+This guide covers the full picture: the PM Surya Ghar central [subsidy slabs](https://quickestimate.co/blog/pm-surya-ghar-subsidy-slabs), the UPNEDA state scheme, all four UP DISCOMs, net metering in UP, and a worked example from a Lucknow homeowner, so you can go from reading to applying with a clear checklist.
 
 > **UP's solar subsidy in 2026 uses three layers.** The central PM Surya Ghar scheme pays ₹78,000 for a 3 kW system via direct bank transfer. UPNEDA administers a state top-up, verify the current slab at upneda.org.in. And UP's grid reality means hybrid inverters often deliver better value than on-grid despite higher upfront cost, especially outside major cities. Together, these three factors define the UP Solar Subsidy Stack.
 

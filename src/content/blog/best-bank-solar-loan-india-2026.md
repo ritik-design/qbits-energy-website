@@ -33,7 +33,7 @@ faqs:
     a: "No truly interest-free solar loan exists from mainstream Indian lenders in 2026. However, some state governments (Rajasthan, Gujarat) have offered interest subsidy schemes - where the state pays a portion of interest - under specific state solar programmes. Check your state DISCOM or state renewable energy agency for current schemes. PM Surya Ghar subsidy reduces capital cost but does not directly subsidise interest."
 ---
 
-Solar financing in India has matured considerably. Five years ago, homeowners largely paid cash for rooftop solar or settled for informal dealer instalment schemes. Today, multiple nationalised banks, IREDA, and NBFCs offer formal solar loan products at competitive rates, and the PM Surya Ghar programme has made ₹78,000 in central subsidy accessible to millions of households.
+Solar financing in India has matured considerably. Five years ago, homeowners largely paid cash for rooftop solar or settled for informal dealer instalment schemes. Today, multiple nationalised banks, IREDA, and NBFCs offer formal solar loan products at competitive rates, and the [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-bank-loan-process) programme has made ₹78,000 in central subsidy accessible to millions of households.
 
 The problem is comparison. Lender websites quote ranges, not numbers. Rates are benchmarked to floating indices. Processing fees are buried in fine print. And the subsidy-compatibility of each product varies. This guide cuts through that noise with a direct, evidence-based ranking of the best solar loans in India in 2026.
 
@@ -42,7 +42,7 @@ The problem is comparison. Lender websites quote ranges, not numbers. Rates are 
 > - HDFC is fastest for existing customers (24–48 hour disbursement) but its unsecured Personal Loan carries the highest rate of the six lenders (10.5–24%).
 > - On a ₹3 Lakh loan, IREDA's 15-year tenure gives the lowest EMI (₹2,696), often below the monthly electricity savings from the system it finances.
 > - MSME loans under CGTMSE offer collateral-free financing up to ₹2 crore for registered businesses and stack with 40% accelerated depreciation in year one.
-> - PM Surya Ghar subsidy does not reduce the sanctioned loan amount, but most lenders allow penalty-free prepayment once the subsidy is credited.
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy does not reduce the sanctioned loan amount, but most lenders allow penalty-free prepayment once the subsidy is credited.
 
 > **Direct answer.** IREDA leads on interest rate (~7%) for homeowners accessing it through empanelled vendors, SBI leads on direct branch accessibility, and HDFC leads on processing speed for existing customers. Use the 5-Factor Solar Loan Scorecard below to weigh what matters most in your situation, rate, tenure, processing ease, subsidy compatibility, or service quality.
 

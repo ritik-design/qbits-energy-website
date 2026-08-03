@@ -282,6 +282,14 @@ AC coupling is the right architecture for retrofitting battery storage onto exis
 
 QBits Energy designs and installs AC-coupled battery retrofits for existing rooftop solar systems across India.
 
+## Further reading
+
+For how AC Coupling plays out in real projects, these guides go deeper:
+
+- [Solar Plus Storage Design Software 2026](/blog/solar-plus-storage-design-software/)
+- [On-Grid vs Hybrid Solar Inverters: ROI Guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/)
+- [PM Surya Ghar 2.0: What the Proposed Battery Storage Update Means for You](/blog/pm-surya-ghar-battery-storage-update/)
+
 ## Sources
 
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.

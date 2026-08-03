@@ -263,6 +263,15 @@ DC cable is specialised PV-rated cable carrying solar DC from modules to inverte
 
 QBits Energy supplies and installs IS 17048-compliant PV cabling for residential, C&I and utility solar projects across India.
 
+## Further reading
+
+For how DC Cable plays out in real projects, these guides go deeper:
+
+- [Inverter Battery Connection Diagram and Sizing Guide for Hybrid Solar](/blog/inverter-battery-connection-diagram/)
+- [String Voltage vs MPPT Voltage: Inverter Guide](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/)
+- [Solar Inverter Ground Fault Error, Troubleshooting](/blog/solar-inverter-ground-fault-guide/)
+- [How Does a Solar Power System Work in India?](/blog/how-solar-power-system-works-india/)
+
 ## Sources
 
 - IS 17048, Indian Standard for solar photovoltaic cables.

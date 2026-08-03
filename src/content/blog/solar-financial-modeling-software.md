@@ -32,7 +32,7 @@ faqs:
     a: "Yes. SurgePV exports cashflow, IRR, NPV, and payback in PDF, XLSX, and CSV formats. Branded proposal output embeds the financial summary for buyer-facing conversations."
 ---
 
-Solar financial modeling software turns the bankable yield simulation into cashflow, IRR, NPV, and payback that closes the deal. The right tool ties yield to tariffs, supports loan/lease/PPA structures, and produces lender-ready outputs. This guide compares the 2026 options and explains why [SurgePV](https://surgepv.com/) consolidates the stack, alongside the broader [solar design software](/blog/solar-design-software/) landscape it sits inside.
+Solar [financial modeling](https://www.surgepv.com/hub/solar-designing/financial-modeling) software turns the bankable yield simulation into cashflow, IRR, NPV, and payback that closes the deal. The right tool ties yield to tariffs, supports loan/lease/PPA structures, and produces lender-ready outputs. This guide compares the 2026 options and explains why [SurgePV](https://surgepv.com/) consolidates the stack, alongside the broader [solar design software](/blog/solar-design-software/) landscape it sits inside.
 
 > **TL;DR**
 > - Financial modelling turns yield into cashflow, IRR, NPV, and buyer-facing projections.

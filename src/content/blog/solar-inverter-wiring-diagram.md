@@ -36,7 +36,7 @@ faqs:
 featured: false
 ---
 
-Most homeowners who search for a solar inverter wiring diagram are not planning to wire anything themselves. They are about to spend ₹2 Lakh to ₹4 Lakh on a rooftop system, and the installer has promised to finish in two days. What they want to know is what should actually be on their roof and inside their meter room before they sign the completion certificate. That instinct is correct. In our commissioning work across residential installs, most first-year failures trace back to wiring and earthing shortcuts. They are not caused by faulty inverters or panels.
+Most homeowners who search for a solar inverter wiring [diagram](/blog/inverter-battery-connection-diagram/) are not planning to wire anything themselves. They are about to spend ₹2 Lakh to ₹4 Lakh on a rooftop system, and the installer has promised to finish in two days. What they want to know is what should actually be on their roof and inside their meter room before they sign the completion certificate. That instinct is correct. In our commissioning work across residential installs, most first-year failures trace back to wiring and earthing shortcuts. They are not caused by faulty inverters or panels.
 
 This guide walks the complete wiring path of a typical Indian home solar system. It runs from the panel strings on the roof to the bidirectional net meter on your wall. It covers the DC side, the AC side, surge protection, earthing pits, cable sizing, and the checks to run before you release the final payment. One boundary is firm: this is an explainer for understanding and verification. All wiring must be done by a licensed electrician, and for subsidised systems by an MNRE empanelled vendor. DC strings carry up to 600 V whenever the sun is out. There is no safe DIY version of this work.
 
@@ -200,6 +200,8 @@ Your sign-off checklist before releasing final payment:
 8. Warranty cards, the wiring diagram as-built, and the commissioning report handed over.
 
 Keep the as-built wiring diagram with your home documents. Every future service visit, and every [solar inverter troubleshooting](/blog/solar-inverter-troubleshooting/) call, starts from it.
+
+Elsewhere in the Heaven Group network, see [earthing and lightning protection](https://heavendesigns.in/blog/solar-earthing-lightning-protection) and [string sizing maths](https://heavendesigns.in/blog/string-sizing-solar-inverters-math).
 
 ## Conclusion: The Bottom Line
 

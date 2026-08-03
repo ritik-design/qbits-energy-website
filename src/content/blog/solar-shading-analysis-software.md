@@ -37,7 +37,7 @@ faqs:
     a: "Module-level shading catches the impact on individual modules, then propagates through the inverter MPPT logic to produce accurate AC yield. String-level shading averages across the string, which understates the impact when only part of the string is shaded. Module-level is the correct methodology for any project with non-uniform shading patterns."
 ---
 
-Solar shading analysis software runs the hourly simulation that turns a layout into a bankable yield report. The methodology matters: 8,760-hour module-level shading is the industry standard accepted by lenders, while simplified shading models can mislead by 3 to 8 percent on residential and far more on complex C&I rooftops. This guide explains how shading analysis works in 2026 and which [solar design software](https://surgepv.com/) ships it well.
+Solar [shading analysis](https://www.surgepv.com/tools/shading-analysis-tool) software runs the hourly simulation that turns a layout into a bankable yield report. The methodology matters: 8,760-hour module-level shading is the industry standard accepted by lenders, while simplified shading models can mislead by 3 to 8 percent on residential and far more on complex C&I rooftops. This guide explains how [shading analysis](https://www.surgepv.com/best-solar-software/shading-analysis) works in 2026 and which [solar design software](https://surgepv.com/) ships it well.
 
 > **TL;DR**
 > - 8,760-hour module-level shading is the bankable standard.

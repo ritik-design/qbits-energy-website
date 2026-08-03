@@ -39,7 +39,7 @@ faqs:
     a: "None in practice. Engineers abbreviate to PV design software; procurement and academic documents write it out. The one meaningful signal is the word 'system': PV system design software implies module and inverter selection, string sizing against MPPT windows, DC:AC ratio, protection and conductor sizing, and the single line diagram are all in scope, not just array layout and a kWh figure."
 ---
 
-Photovoltaic design software is the engineer's toolchain that covers 3D modelling, bankable simulation, [single-line diagrams](/glossary/single-line-diagram/), [BOQ](/blog/solar-boq-software/), AutoCAD export, and integrated proposals. The formal "photovoltaic" framing signals engineering depth and lender acceptance. This guide explains the 2026 methodology and ranks the major tools alongside our companion [PV yield simulation software guide](/blog/pv-yield-simulation-software/).
+Photovoltaic [design software](https://www.surgepv.com/blog/commercial-solar-design-software-buyer-guide) is the engineer's toolchain that covers 3D modelling, bankable simulation, [single-line diagrams](/glossary/single-line-diagram/), [BOQ](/blog/solar-boq-software/), AutoCAD export, and integrated proposals. The formal "photovoltaic" framing signals engineering depth and lender acceptance. This guide explains the 2026 methodology and ranks the major tools alongside our companion [PV yield simulation software guide](/blog/pv-yield-simulation-software/).
 
 > **TL;DR**
 > - 8,760-hour module-level simulation is the bankable standard.

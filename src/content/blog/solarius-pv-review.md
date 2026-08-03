@@ -3,8 +3,8 @@ title: "Solarius PV Review 2026: Italian Engineering Suite, Assessed"
 excerpt: "An honest Solarius PV review for 2026. What ACCA's photovoltaic suite does well, what it costs, where it stops fitting, and the alternatives worth testing."
 description: "Solarius PV review 2026: ACCA software's BIM-native photovoltaic design suite assessed on technical output, electrical sizing, report quality, subscription pricing, and fit for Italian and European design offices."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solarius-pv-review.svg"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ faqs:
 featured: false
 ---
 
-Solarius PV is one of those products that most people outside its home market have never evaluated, and most people inside it have used for years. It comes from ACCA software, an Italian publisher whose reputation was built on construction and BIM tools rather than on solar, and that origin explains almost everything about how the product behaves. This review looks at what Solarius PV actually is in 2026, what it does better than the platforms it gets compared to, where the fit breaks down, and which alternatives deserve a place on the shortlist before a design office commits. Pricing is the awkward part, and we will deal with it honestly rather than repeat numbers from directories that cannot agree with each other.
+[Solarius PV](/blog/solarius-pv-alternative/) is one of those products that most people outside its home market have never evaluated, and most people inside it have used for years. It comes from ACCA software, an Italian publisher whose reputation was built on construction and BIM tools rather than on solar, and that origin explains almost everything about how the product behaves. This review looks at what Solarius PV actually is in 2026, what it does better than the platforms it gets compared to, where the fit breaks down, and which alternatives deserve a place on the shortlist before a design office commits. Pricing is the awkward part, and we will deal with it honestly rather than repeat numbers from directories that cannot agree with each other.
 
 > **TL;DR**
 > - Solarius PV is ACCA software's photovoltaic design application, built for engineers and design offices rather than for volume residential sales.

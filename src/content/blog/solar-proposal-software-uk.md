@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software UK: 2026 Guide"
 excerpt: "The best solar proposal software UK installers need models SEG export, MCS certification, and 0% VAT correctly. Seven tools compared for 2026."
 description: "Best solar proposal software UK 2026. SurgePV vs Aurora, Solargraf, OpenSolar, Pylon on Smart Export Guarantee, MCS, G98/G99 and 0% VAT handling."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-proposal-software-uk.svg"
 author: "Akash Hirapara"
@@ -34,7 +34,7 @@ faqs:
 featured: false
 ---
 
-UK solar proposals fail on export assumptions more often than on design. The Smart Export Guarantee replaced the Feed-in Tariff export element in January 2020, and it removed the thing that made UK quoting simple: a single national rate. Under SEG every licensed supplier sets its own tariff, and the spread between the best and worst is large enough to change payback by years on the same system. Meanwhile self-consumed energy avoids an import price several times higher than any SEG rate, so the sizing logic that made sense under FiT no longer holds. This guide compares the platforms UK installers should shortlist, and judges them on SEG modelling, MCS enforcement, and VAT treatment.
+UK solar proposals fail on export assumptions more often than on design. The [Smart Export Guarantee](https://www.surgepv.com/solar-compliance/uk/guides/smart-export-guarantee) replaced the Feed-in [Tariff](/glossary/tariff/) export element in January 2020, and it removed the thing that made UK quoting simple: a single national rate. Under SEG every licensed supplier sets its own tariff, and the spread between the best and worst is large enough to change payback by years on the same system. Meanwhile self-consumed energy avoids an import price several times higher than any SEG rate, so the sizing logic that made sense under FiT no longer holds. This guide compares the platforms UK installers should shortlist, and judges them on SEG modelling, MCS enforcement, and VAT treatment.
 
 > **TL;DR**
 > - SEG replaced the FiT export element in January 2020. Rates are set per supplier, must exceed zero pence per kWh, and vary widely.
@@ -44,7 +44,7 @@ UK solar proposals fail on export assumptions more often than on design. The Sma
 > - [SurgePV](https://surgepv.com/) generates the proposal from the same bankable design record, at $1,299 to $1,899 per user per year.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and quote a live UK job on the call.
 
-**Short version.** The best solar proposal software for UK installers in 2026 is SurgePV, because it models SEG export separately from self-consumption savings, applies BS 7671 and G98 or G99 checks at design time, and produces the customer document from the same engineering record. OpenSolar is the strongest free-tier option for simple residential. Solargraf suits crews that already own a design platform.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for UK installers in 2026 is SurgePV, because it models SEG export separately from self-consumption savings, applies BS 7671 and G98 or G99 checks at design time, and produces the customer document from the same engineering record. OpenSolar is the strongest free-tier option for simple residential. Solargraf suits crews that already own a design platform.
 
 The UK is a residential-dominated market with thin margins and a well-informed customer base, which puts unusual pressure on proposal accuracy. Homeowners here routinely compare three quotes and check the export assumptions. For the design-side comparison, see our [solar design software UK](/blog/solar-design-software-uk/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the UK lens.
 
@@ -149,6 +149,8 @@ After signing, pipeline and follow-up sit in a CRM rather than the design tool. 
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/uk" target="_blank" rel="noopener noreferrer">UK compliance library</a></p>
 </div>
+
+A proposal tool only earns its place inside a working stack. The [wider solar software picture in the UK](/blog/solar-software-uk/) covers what sits either side of it.
 
 ## The Bottom Line
 

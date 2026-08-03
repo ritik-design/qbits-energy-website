@@ -3,8 +3,8 @@ title: "PV*SOL Review 2026: The European Desktop Reference, Honestly Assessed"
 excerpt: "An honest PV*SOL review for 2026. What the licence costs, where its component depth and storage modelling genuinely lead the market, and the team size at which desktop licensing starts to hurt."
 description: "PV*SOL review 2026: verified Valentin Software pricing, real strengths in component libraries, self-consumption and 3D shading, the single-user licensing limit, and the alternatives worth testing."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/pvsol-review.svg"
 author: "Keyur Rakholiya"

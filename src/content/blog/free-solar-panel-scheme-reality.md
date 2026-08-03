@@ -37,20 +37,20 @@ featured: false
 
 Type "free solar panel scheme" into Google and you get 18,000 searches a month worth of confusion. Half the results are ads promising free panels. The other half are government pages explaining a subsidy that is very real but definitely not free. Somewhere between those two, thousands of homeowners fall for scams. Others walk away from a genuinely good scheme because they cannot tell which is which.
 
-Here is the honest answer up front: no government scheme in India, central or state, gives you solar panels for free. What exists instead is a large, legitimate subsidy programme called PM Surya Ghar Muft Bijli Yojana. It reimburses up to Rs 78,000 of your system cost after installation. Around that real programme, three things have grown that all use the word "free": aggressive zero-down EMI marketing, RESCO lease models, and outright fraud.
+Here is the honest answer up front: no government scheme in India, central or state, gives you solar panels for free. What exists instead is a large, legitimate subsidy programme called [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/). It reimburses up to Rs 78,000 of your system cost after installation. Around that real programme, three things have grown that all use the word "free": aggressive [zero-down](https://www.heavengreenenergy.com/blog/zero-down-payment-solar) EMI marketing, [RESCO](/glossary/resco/) lease models, and outright fraud.
 
 This post separates the three. You will get the exact subsidy numbers and the mechanics behind every "free solar" claim. You will also get the red flags that identify scams and the correct way to claim what the government actually offers.
 
 > **TL;DR**
-> - No scheme gives free solar panels. PM Surya Ghar pays a maximum central subsidy of Rs 78,000 per household.
-> - The subsidy reaches your bank account only after installation and DISCOM inspection, never before.
+> - No scheme gives free solar panels. [PM Surya Ghar](/glossary/pm-surya-ghar/) pays a maximum central subsidy of Rs 78,000 per household.
+> - The subsidy reaches your bank account only after installation and [DISCOM](/glossary/discom/) inspection, never before.
 > - The scheme has solarised 40 lakh households against a 1 crore target by March 2027, according to MNRE statements reported in 2026.
 > - "Free solar" ads usually mean one of three things. Zero-down EMI (a loan), RESCO (a 15 to 25 year per-unit contract), or a scam (an advance-fee fraud).
 > - A 3 kW system costs roughly Rs 1.8 lakh to Rs 2.4 lakh gross in 2026. The subsidy covers about a third of that, never all of it.
 > - The only official portal is pmsuryaghar.gov.in, and registration there costs nothing. Anyone charging a "registration fee" is defrauding you.
 > - Fake subsidy approval SMS messages with download links are an active scam pattern reported through 2026.
 
-**Short version.** The free solar panel scheme does not exist. What exists is PM Surya Ghar Muft Bijli Yojana. It pays Rs 30,000 per kW up to 2 kW and Rs 18,000 per kW for the third kW, capped at Rs 78,000 per household. The money is reimbursed after your system is commissioned. Everything advertised as "free panels" is either this subsidy wearing a costume, a loan with no down payment, a long-term power purchase contract, or a scam. The difference matters because two of those four are worth your money and two are not.
+**Short version.** The free solar panel scheme does not exist. What exists is [PM Surya Ghar](https://quickestimate.co/blog/what-is-pm-surya-ghar-yojana) Muft Bijli Yojana. It pays Rs 30,000 per kW up to 2 kW and Rs 18,000 per kW for the third kW, capped at Rs 78,000 per household. The money is reimbursed after your system is commissioned. Everything advertised as "free panels" is either this subsidy wearing a costume, a loan with no down payment, a long-term power purchase contract, or a scam. The difference matters because two of those four are worth your money and two are not.
 
 Our [PM Surya Ghar Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers eligibility, documents, and the full application mechanics. This post focuses on the trust question: what is real, what is marketing, and what is fraud.
 

@@ -32,12 +32,12 @@ faqs:
     a: "Yes. Hybrid inverters add a DC-side battery charge controller, which can change the effective string voltage window during battery charge. SurgePV's string sizing accounts for this when a hybrid inverter is selected."
 ---
 
-Solar string sizing software bounds the PV string length to the inverter's MPPT operating window across temperature extremes. Wrong sizing costs real yield and can trigger inverter protection. This guide explains how string sizing works, the inputs that matter, and how [SurgePV](https://surgepv.com/) automates it across 12,000+ inverter models on every paid plan as part of its [solar design platform](https://surgepv.com/solar-designing).
+Solar [string sizing](https://www.surgepv.com/tools/string-sizing-calculator) software bounds the PV string length to the inverter's MPPT operating window across temperature extremes. Wrong sizing costs real yield and can trigger inverter protection. This guide explains how string sizing works, the inputs that matter, and how [SurgePV](https://surgepv.com/) automates it across 12,000+ inverter models on every paid plan as part of its [solar design platform](https://surgepv.com/solar-designing).
 
 > **TL;DR**
 > - String sizing keeps the inverter operating at peak MPPT year-round.
 > - [SurgePV](https://surgepv.com/) automates MPPT-bounded string sizing across 12,000 inverters and 70,000 modules.
-> - Free standalone string sizing calculator plus the full integrated workflow inside SurgePV.
+> - Free standalone [string sizing calculator](https://www.surgepv.com/blog/solar-string-sizing-calculator) plus the full integrated workflow inside SurgePV.
 > - [Book a free SurgePV demo](https://surgepv.com/demo) and see the auto-sizing on a real project.
 
 <div class="inline-cta">

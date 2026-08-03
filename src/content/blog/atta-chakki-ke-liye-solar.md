@@ -34,13 +34,13 @@ faqs:
 featured: false
 ---
 
-गाँव और कस्बे की atta chakki solar के लिए शायद सबसे अच्छे candidates में से एक है, और बात सबसे कम इसी पर होती है। Chakki का पूरा load दिन में होता है, ठीक उन्हीं घंटों में जब panels सबसे ज़्यादा बना रहे होते हैं। बनी हुई बिजली लगभग पूरी वहीं खप जाती है, export बहुत कम होता है, और net metering के rate की झंझट भी घट जाती है। लेकिन एक technical बात है जिस पर ज़्यादातर local vendor ध्यान नहीं देते और वही systems को fail कराती है, chakki motor का starting current। यह guide उसी पर सबसे ज़्यादा समय देती है, साथ में sizing, कीमत, payback, और यह साफ़ बात कि commercial connection पर कौन सी subsidy मिलती है और कौन सी नहीं।
+गाँव और कस्बे की atta chakki solar के लिए शायद सबसे अच्छे candidates में से एक है, और बात सबसे कम इसी पर होती है। Chakki का पूरा load दिन में होता है, ठीक उन्हीं घंटों में जब panels सबसे ज़्यादा बना रहे होते हैं। बनी हुई बिजली लगभग पूरी वहीं खप जाती है, export बहुत कम होता है, और [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) के rate की झंझट भी घट जाती है। लेकिन एक technical बात है जिस पर ज़्यादातर local vendor ध्यान नहीं देते और वही systems को fail कराती है, chakki motor का starting current। यह guide उसी पर सबसे ज़्यादा समय देती है, साथ में sizing, कीमत, payback, और यह साफ़ बात कि commercial connection पर कौन सी subsidy मिलती है और कौन सी नहीं।
 
 > **TL;DR**
 > - Chakki का daytime load generation curve से match करता है, इसलिए self-consumption 80 percent से ऊपर जा सकती है।
 > - 1 HP लगभग 0.746 kW, तो 10 HP motor के लिए आमतौर पर 10 से 12 kW का system बैठता है।
 > - सबसे बड़ी गलती starting current ignore करना है; DOL start पर surge कई गुना होता है, इसलिए soft starter, VFD या inverter headroom ज़रूरी है।
-> - PM Surya Ghar residential scheme है; commercial chakki connection आमतौर पर eligible नहीं, इसलिए ₹78,000 का वादा मत मानिए।
+> - [PM Surya Ghar](/glossary/pm-surya-ghar/) residential scheme है; commercial chakki connection आमतौर पर eligible नहीं, इसलिए ₹78,000 का वादा मत मानिए।
 > - Commercial tariff ₹8 से ₹10 प्रति unit पर payback 3.5 से 5 साल, diesel genset replace करने पर 2.5 से 3.5 साल।
 > - Grid ठीक हो तो on-grid लीजिए; cuts या genset चल रहा हो तभी hybrid justify होता है।
 

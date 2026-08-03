@@ -3,8 +3,8 @@ title: "Best Solar Design Software Singapore: 2026 Guide"
 excerpt: "The best solar design software Singapore installers need models the SCT and ECIS export schemes, the 1 MWac licensing threshold, and SS 638. Six tools compared."
 description: "Best solar design software Singapore 2026. SurgePV vs Aurora, PVsyst, HelioScope on SCT vs ECIS, EMA generation licensing, SP Group connection and SS 638."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-singapore.svg"
 author: "Keyur Rakholiya"
@@ -34,17 +34,17 @@ faqs:
 featured: false
 ---
 
-Singapore solar has a decision most markets do not: which export scheme the customer sits under. SCT pays a fixed rate near S$0.20 per kWh and settles simply through SP Services. ECIS pays the variable USEP wholesale rate, typically 10 to 20 cents per kWh, requires EMC Market Participant registration, and caps at 10 MWac per installation. One is predictable, the other is exposed to wholesale price movement and can only be estimated properly with an hourly generation profile matched against a price curve. Add a 1 MWac licensing threshold that adds three to six months of EMA processing, and Singapore rewards design software that can model the specific commercial arrangement rather than a generic export assumption.
+[Singapore](/blog/solar-software-singapore/) solar has a decision most markets do not: which export scheme the customer sits under. SCT pays a fixed rate near S$0.20 per kWh and settles simply through SP Services. ECIS pays the variable USEP wholesale rate, typically 10 to 20 cents per kWh, requires EMC Market Participant registration, and caps at 10 MWac per installation. One is predictable, the other is exposed to wholesale price movement and can only be estimated properly with an hourly generation profile matched against a price curve. Add a 1 MWac licensing threshold that adds three to six months of EMA processing, and Singapore rewards [design software](https://www.surgepv.com/blog/ai-solar-design-software) that can model the specific commercial arrangement rather than a generic export assumption.
 
 > **TL;DR**
 > - SCT pays roughly S$0.20 per kWh fixed, registered with SP Services, no stated installation cap.
 > - ECIS pays the variable USEP rate, typically 10 to 20 cents per kWh, needs EMC Market Participant registration, capped at 10 MWac per installation.
 > - Systems below 1 MWac need no EMA Generation Licence. At or above 1 MWac a full licence is required via the ELISE portal, taking an estimated three to six months.
 > - Every installation needs a Licensed Electrical Worker to submit the Electrical Installation application, regardless of size.
-> - Wiring follows SS 638. Inverters need IEC 62109 plus IEEE 1547 or IEC 62116 anti-islanding. Modules need IEC 61215 or 61646 and IEC 61730.
+> - Wiring follows SS 638. Inverters need [IEC 62109](/glossary/iec-62109/) plus IEEE 1547 or IEC 62116 anti-islanding. Modules need IEC 61215 or 61646 and [IEC 61730](/glossary/iec-61730/).
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for Singapore installers in 2026 is SurgePV, because the SCT versus ECIS choice materially changes the financial model and ECIS revenue can only be estimated from an hourly profile matched to a price curve. SurgePV runs 8,760-hour simulation with a tropical thermal model and produces the proposal from the same record. PVsyst remains the bankable reference for large C&I. Aurora carries no Singapore scheme logic.
+**Short version.** The best solar [design software](https://www.surgepv.com/blog/best-solar-design-software-guide) for Singapore installers in 2026 is SurgePV, because the SCT versus ECIS choice materially changes the financial model and ECIS revenue can only be estimated from an hourly profile matched to a price curve. SurgePV runs 8,760-hour simulation with a tropical thermal model and produces the proposal from the same record. PVsyst remains the bankable reference for large C&I. Aurora carries no Singapore scheme logic.
 
 Singapore is a small market by installed capacity and an unusually sophisticated one by buyer type. Most demand is commercial, industrial, or institutional, frequently driven by corporate sustainability reporting rather than payback alone. For the broader category comparison see our [solar design software](/blog/solar-design-software/) buyer's guide and the [best solar design software](/blog/best-solar-design-software/) ranking.
 

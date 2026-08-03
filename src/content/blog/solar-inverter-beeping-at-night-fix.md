@@ -38,7 +38,7 @@ Night-time beeping from a solar inverter is one of the most disruptive post-inst
 > **Direct answer.** A solar inverter beeping at night has four primary causes: battery low state-of-charge alarm (most common in hybrid systems), grid disconnect alarm when the utility supply fails, overtemperature alarm from inadequate nighttime cooling, or a logged fault code that has activated the alarm channel. Identify the cause from the monitoring app event log before attempting any fix.
 
 > **TL;DR**
-> - The overwhelming majority of night-time hybrid inverter beeping is the battery low state-of-charge alarm, triggered when SOC drops to a 20–30% threshold from an overnight load the battery cannot sustain until sunrise.
+> - The overwhelming majority of night-time [hybrid inverter](/glossary/hybrid-inverter/) beeping is the battery low state-of-charge alarm, triggered when SOC drops to a 20–30% threshold from an overnight load the battery cannot sustain until sunrise.
 > - A brief 3–5 beep burst that starts exactly when the grid cuts out is a normal switchover alert, not a fault.
 > - Persistent beeping above 60°C internal temperature several hours after sunset points to blocked vents or an enclosed installation location, not an electrical fault.
 > - Isolation fault (ISO_Fault, GFCI) alarms and any beep accompanied by a burning smell require an immediate shutdown at the AC breaker and DC disconnect, do not restart until a licensed electrician clears the cause.

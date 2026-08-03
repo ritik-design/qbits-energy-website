@@ -37,7 +37,7 @@ faqs:
     a: "For a grid-connected KUSUM Component-C setup with a 5 HP motor, the solar array is sized to offset the pump's electricity consumption rather than to drive the motor. A 5 HP motor consumes roughly 3.73 kW at full load, drawing approximately 4.5 kW from the grid at 83% motor efficiency. For 8 hours of daily pumping, monthly consumption is around 1,080 kWh. A 4 to 5 kWp on-grid solar system can offset 500–600 kWh monthly on average Indian irradiation, cutting the electricity bill by 45–55%. A Qbits 5 kW on-grid inverter sized to match the array is the right fit."
 ---
 
-Water pump irrigation accounts for a significant share of India's agricultural electricity consumption. Millions of farmers run diesel or electric pumps to water their fields, and both are expensive. Diesel costs ₹95–₹110 per litre in most states, while agricultural electricity tariffs, though subsidised, are rising. Solar changes the economics fundamentally: once panels are paid off, water costs nearly nothing per litre pumped.
+Water [pump](/blog/solar-for-petrol-pump-india/) irrigation accounts for a significant share of India's agricultural electricity consumption. Millions of farmers run diesel or electric pumps to water their fields, and both are expensive. Diesel costs ₹95–₹110 per litre in most states, while agricultural electricity tariffs, though subsidised, are rising. Solar changes the economics fundamentally: once panels are paid off, water costs nearly nothing per litre pumped.
 
 The challenge is that pumps are not simple resistive loads. A water pump motor (whether a submersible borewell pump or a surface centrifugal pump) draws a sharp current spike every time it starts. Get the solar system wrong, and the inverter trips every morning when the pump tries to start. Get it right, and a well-designed solar pump system runs for 25 years with near-zero maintenance.
 
@@ -46,7 +46,7 @@ This guide covers the full picture: the difference between a solar pump controll
 > **TL;DR**
 > - Pump motors draw 5–7× their rated current at start-up, so a plain UPS-style inverter without VFD control will trip repeatedly; a dedicated pump controller or an oversized on-grid inverter is required.
 > - Use the Pump Sizing Triangle: convert HP to kW (×0.746), divide by motor efficiency (÷0.80), then multiply by 1.5–2.0 for inrush headroom.
-> - Standalone off-grid pumps (KUSUM Component-B) need a dedicated solar pump controller with VFD and get 60% total subsidy; grid-connected pumps (KUSUM Component-C) need a standard on-grid inverter and no DISCOM approval is skipped.
+> - Standalone off-grid pumps (KUSUM Component-B) need a dedicated solar pump controller with VFD and get 60% total subsidy; grid-connected pumps ([KUSUM Component-C](https://www.heavengreenenergy.com/blog/kusum-component-c-grid-tied-pump)) need a standard on-grid inverter and no DISCOM approval is skipped.
 > - A 2 HP submersible pump needs roughly 2.2–2.5 kWp of panels; a 5 HP pump needs 4.5–5.5 kWp.
 > - Qbits manufactures grid-tied on-grid and hybrid inverters for Component-C setups, not standalone Component-B pump controllers.
 

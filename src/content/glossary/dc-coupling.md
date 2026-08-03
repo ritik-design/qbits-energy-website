@@ -274,6 +274,15 @@ DC coupling is the default architecture for new residential and small commercial
 
 QBits Energy designs and installs DC-coupled hybrid solar plus storage systems for residential and small commercial customers across India.
 
+## Further reading
+
+For how DC Coupling plays out in real projects, these guides go deeper:
+
+- [Best Hybrid Solar Inverter India 2026, Reviewed](/blog/best-hybrid-solar-inverter-india-2026/)
+- [BMS in Hybrid Solar Inverters, Decoded](/blog/bms-hybrid-solar-inverter-explained/)
+- [Solar Inverter Beeping at Night, Causes and Fix](/blog/solar-inverter-beeping-at-night-fix/)
+- [Pylontech Battery India: Review & Pricing](/blog/pylontech-battery-india-review/)
+
 ## Sources
 
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems.

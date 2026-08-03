@@ -3,8 +3,8 @@ title: "Best Solar Software Chile: The Complete 2026 Stack"
 excerpt: "Chile runs 4,000 kilometres from the Atacama to Patagonia. A national weather file is not an approximation here, it is a mistake in almost every location."
 description: "Best solar software Chile 2026: the full stack for design, proposals, CRM and compliance. Ley 21.118 net billing, the pure energy price, non-expiring credits, the 300 kW PMGD threshold."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-chile.svg"
 author: "Nirav Dhanani"
@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-Chile is the hardest country in this series to build a software stack for, and the reason is geography rather than regulation. The country runs roughly 4,000 kilometres from the Atacama, carrying some of the highest solar resource measured anywhere, to Patagonia and sub-Antarctic conditions. Irradiance, temperature, soiling rate and seasonal shape all change dramatically along that range, which means a national weather file is not a simplification but an error in almost every location. Layered on top is Ley 21.118, which credits exports at the pure energy price yet lets credits accumulate indefinitely, a combination no other market in this series shares. This guide covers what the Chilean stack has to do.
+Chile is the hardest country in this series to build a [software stack](https://quickestimate.co/blog/solar-installer-software-stack) for, and the reason is geography rather than regulation. The country runs roughly 4,000 kilometres from the Atacama, carrying some of the highest solar resource measured anywhere, to Patagonia and sub-Antarctic conditions. Irradiance, temperature, [soiling](/glossary/soiling/) rate and seasonal shape all change dramatically along that range, which means a national weather file is not a simplification but an error in almost every location. Layered on top is Ley 21.118, which credits exports at the pure energy price yet lets credits accumulate indefinitely, a combination no other market in this series shares. This guide covers what the Chilean stack has to do.
 
 > **TL;DR**
 > - Ley 21.118 credits surplus at the pure energy price, without transport or distribution, so export is worth well below retail.

@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software Spain: 2026 Guide"
 excerpt: "A Spanish quote promising a zero bill is promising something the rules forbid. Compensación simplificada cannot take the energy component below zero. Six tools compared."
 description: "Best solar proposal software Spain 2026. SurgePV vs Aurora, PVsyst, PV*SOL on compensación simplificada, the monthly zero floor, hourly spot pricing, IBI relief and regional IDAE grants."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-spain.svg"
 author: "Akash Hirapara"
@@ -44,7 +44,7 @@ The most damaging line in a Spanish solar proposal is the promise of a zero elec
 > - Collective self-consumption within a 5 km radius is now viable for plants up to 5 MW and can beat resizing.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for Spanish installers in 2026 is SurgePV, because it settles compensación simplificada monthly with the zero floor and prices surplus at hourly spot, then generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora assumes US net metering, which Spain does not operate.
+**Short version.** The best solar [proposal software](https://heavendesigns.in/blog/solar-proposal-software/) for Spanish installers in 2026 is SurgePV, because it settles compensación simplificada monthly with the zero floor and prices surplus at hourly spot, then generates the customer document from the same design record. PVsyst is the bankable simulation reference with no proposal layer. Aurora assumes US [net metering](/glossary/net-metering/), which [Spain](/blog/solar-software-spain/) does not operate.
 
 For the design-side comparison see our [best solar design software Spain](/blog/solar-design-software-spain/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
 

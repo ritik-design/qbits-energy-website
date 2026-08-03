@@ -38,10 +38,10 @@ Ice plants and cold chain facilities sit in a rare position. They are energy int
 
 > **TL;DR**
 > - Ice plants consume 55 to 85 kWh per tonne of ice depending on type, according to FAO benchmarks and SAMEEEKSHA cluster studies.
-> - Electricity is 40 to 62 percent of operating cost in Indian cold storage and ice plants, the single largest controllable expense.
+> - Electricity is 40 to 62 percent of operating cost in Indian [cold storage](https://www.heavengreenenergy.com/blog/solar-for-cold-storage-roi) and ice plants, the single largest controllable expense.
 > - 55 to 65 percent of the daily refrigeration load falls inside solar hours, so a grid-connected plant offsets the most expensive block without batteries.
 > - A 200 kW solar plant for a 20 TPD ice factory costs about Rs 96 Lakh. It pays back in about 4 years at Rs 8.50 per unit.
-> - Accelerated depreciation of 40 percent in year one cuts effective payback by roughly 8 to 12 months for taxpaying businesses.
+> - [Accelerated depreciation](/glossary/accelerated-depreciation/) of 40 percent in year one cuts effective payback by roughly 8 to 12 months for taxpaying businesses.
 > - Ice itself is thermal storage: over-cooling the brine tank during solar hours replaces most of what a costly battery would do.
 > - Batteries only pay where night tariffs are high or outages threaten product. Full night-load storage for a 200 kW plant costs Rs 40 Lakh plus.
 
@@ -211,6 +211,10 @@ Most ice plants are MSMEs, and the financing stack matters as much as the engine
 OPEX and RESCO models exist at this scale too. A developer builds the plant on your roof and sells you power at Rs 4.50 to 5.50 per unit. You give up the depreciation and the asset, but pay nothing upfront. For owners with capital tied up in cold chain expansion, that trade is often correct.
 
 Owners evaluating this for the first time should also look at how an actual Gujarat plant performed after commissioning. The Rajkot cold storage case study on this blog tracks real generation against projected savings, which is the sanity check every spreadsheet needs.
+
+Continuous ventilation loads are sized in [solar for poultry farms](/blog/solar-for-poultry-farm-india/).
+
+Seasonal rather than continuous industrial load is worked through in [solar for rice mills](/blog/solar-for-rice-mill-india/).
 
 ## Conclusion: The Bottom Line
 

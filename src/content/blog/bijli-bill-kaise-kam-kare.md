@@ -38,12 +38,12 @@ featured: false
 Har mahine bill kholte waqt wahi sawaal aata hai: itna kaise ho gaya? Zyadatar log seedha solar ke baare mein sochte hain, lekin sach yeh hai ki bahut se gharon mein bill ka 15% se 25% hissa bina ek bhi rupaya invest kiye kam kiya ja sakta hai। Kuch cheezein sirf aadat badalne se theek hoti hain, kuch mein chhota investment lagta hai, aur ek cheez bill ko permanently kam karti hai। Is guide mein saat tarike order mein hain: sabse sasta pehle, sabse structural aakhir mein, har ek ke saath realistic saving number।
 
 > **TL;DR**
-> - Sabse pehla kaam apna tariff slab samajhna hai, kyunki top slab ki unit aksar first slab se 2 se 3 guna mehngi hoti hai।
+> - Sabse pehla kaam apna [tariff](/glossary/tariff/) slab samajhna hai, kyunki top slab ki unit aksar first slab se 2 se 3 guna mehngi hoti hai।
 > - Standby load (set-top box, router, inverter trickle charge) 60 se 100 watt continuous ho sakta hai, yaani 45 se 70 units per month।
 > - AC 24 se 26 degree par chalane se roughly 20% cooling energy bachti hai, BEE ki default setting bhi 24 degree hai।
 > - Purana 2-star fridge ko 5-star se badalne par 1.5 se 2.5 units per din bachte hain, payback typically 3 se 5 saal।
-> - Small commercial connections mein power factor 0.95 se upar rakhna monthly penalty hata deta hai।
-> - Agar bill efficiency ke baad bhi ₹2,500 se upar hai, to solar hi permanent fix hai, PM Surya Ghar subsidy 3 kW par ₹78,000 tak।
+> - Small commercial connections mein [power factor](/glossary/power-factor/) 0.95 se upar rakhna monthly penalty hata deta hai।
+> - Agar bill efficiency ke baad bhi ₹2,500 se upar hai, to solar hi permanent fix hai, [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) 3 kW par ₹78,000 tak।
 
 **Short version.** Bijli bill kam karne ka sahi order yeh hai: pehle bill padhkar apna tariff slab pehchanein, phir standby aur always-on load katein, phir sabse bade consumers (AC, geyser, fridge, pump) ko efficient banayein ya sahi time par chalayein। In steps se 15% se 25% bachat aam hai। Jo bill phir bhi bada rahe, uska structural solution rooftop solar hai।
 

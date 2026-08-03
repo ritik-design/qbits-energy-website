@@ -3,8 +3,8 @@ title: "Best Solar Design Software Philippines: 2026 Guide"
 excerpt: "The best solar design software Philippines installers need models the blended generation rate, the new 1 MW cap, and PEC compliance. Six tools compared for 2026."
 description: "Best solar design software Philippines 2026. SurgePV vs Aurora, OpenSolar, PVsyst on ERC net metering, the blended generation rate, PEC code and the DOE 10-day mandate."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-design-software-philippines.svg"
 author: "Keyur Rakholiya"
@@ -34,7 +34,7 @@ faqs:
 featured: false
 ---
 
-Philippine solar economics turn on one number that most design software gets wrong by default. Net metering under ERC Resolution No. 09, Series of 2013 credits exported energy at the blended generation rate, not the retail tariff. For a Meralco customer that is roughly PHP 5 to 6 per kWh, around 50 to 60 percent of what the same kWh costs to import. Any tool that assumes retail-rate netting, which is the default in most US and European-built platforms, overstates the return on every system sized to export. The market also just changed shape: an April 2026 DOE circular lifted the non-residential cap from 100 kW to 1 MW. This guide compares the platforms Philippine installers should shortlist.
+Philippine solar economics turn on one number that most [design software](https://heavendesigns.in/blog/3d-solar-design-software/) gets wrong by default. Net metering under ERC Resolution No. 09, Series of 2013 credits exported energy at the blended generation rate, not the retail tariff. For a Meralco customer that is roughly PHP 5 to 6 per kWh, around 50 to 60 percent of what the same kWh costs to import. Any tool that assumes retail-rate netting, which is the default in most US and European-built platforms, overstates the return on every system sized to export. The market also just changed shape: an April 2026 DOE circular lifted the non-residential cap from 100 kW to 1 MW. This guide compares the platforms Philippine installers should shortlist.
 
 > **TL;DR**
 > - Net metering credits the blended generation rate, roughly PHP 5 to 6 per kWh for Meralco, about 50 to 60 percent of retail.
@@ -44,9 +44,9 @@ Philippine solar economics turn on one number that most design software gets wro
 > - Republic Act 9513 makes net metering a statutory right for on-grid RE end-users.
 > - [SurgePV](https://surgepv.com/) runs 8,760-hour simulation with battery dispatch at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for Philippine installers in 2026 is SurgePV, because export pays the blended generation rate rather than retail, which makes hourly self-consumption the variable that decides the return. SurgePV runs 8,760-hour module-level simulation with battery dispatch and produces the proposal from the same record. OpenSolar suits small residential on entry cost. PVsyst remains the bankable reference for large C&I.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for Philippine installers in 2026 is SurgePV, because export pays the blended generation rate rather than retail, which makes hourly self-consumption the variable that decides the return. SurgePV runs 8,760-hour module-level simulation with battery dispatch and produces the proposal from the same record. OpenSolar suits small residential on entry cost. PVsyst remains the bankable reference for large C&I.
 
-The Philippines has some of the highest electricity prices in Southeast Asia and a grid that customers do not fully trust, which makes the commercial case for solar unusually strong. It also means the buyer is often as interested in resilience as in payback, and that changes what the design has to demonstrate. For the broader category comparison see our [solar design software](/blog/solar-design-software/) buyer's guide and the [best solar design software](/blog/best-solar-design-software/) ranking.
+The [Philippines](/blog/solar-software-philippines/) has some of the highest electricity prices in Southeast Asia and a grid that customers do not fully trust, which makes the commercial case for solar unusually strong. It also means the buyer is often as interested in resilience as in payback, and that changes what the design has to demonstrate. For the broader category comparison see our [solar design software](/blog/solar-design-software/) buyer's guide and the [best solar design software](/blog/best-solar-design-software/) ranking.
 
 <div class="inline-cta">
 <h3>Model a Philippine job on the blended generation rate</h3>

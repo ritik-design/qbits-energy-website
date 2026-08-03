@@ -40,7 +40,7 @@ Grid instability, voltage fluctuations, and diverse state-by-state DISCOM regula
 
 > **TL;DR**
 > - Integration runs across 7 phases: site assessment, mechanical/DC-side installation, AC-side grid connection, hybrid battery integration, monitoring setup, smart feature activation, and post-commissioning verification.
-> - [DISCOM](/glossary/discom/) net metering approval is a parallel process that should start early - it ranges from 7-30 days in fast states to 60-90 days in slower ones, and [ALMM Phase III](/blog/almm-list-phase-iii-guide/) listing is often a prerequisite.
+> - [DISCOM](/glossary/discom/) [net metering](https://heavendesigns.in/blog/discom-net-metering-compliance-update/) approval is a parallel process that should start early - it ranges from 7-30 days in fast states to 60-90 days in slower ones, and [ALMM Phase III](/blog/almm-list-phase-iii-guide/) listing is often a prerequisite.
 > - DC oversizing of 130-150% is standard practice, and earth resistance must stay below 5 ohms per IS 3043 with all metal components bonded.
 > - [LiFePO4](/blog/lifepo4-vs-nmc-solar-battery-india/) is the dominant battery chemistry for hybrid systems, offering 4,000-6,000 cycle life and safe operation up to 60 deg C.
 > - A minimum 7-day post-commissioning verification window catches installation issues before final handover and protects the warranty claim later.

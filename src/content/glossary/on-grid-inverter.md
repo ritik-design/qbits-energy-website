@@ -256,6 +256,15 @@ An on grid inverter is the lowest-cost, highest-efficiency way to use solar wher
 
 QBits Energy supplies BIS-certified, ALMM-listed on grid inverters for residential, commercial and industrial rooftop solar across India. Talk to our engineers for a system design that matches your DISCOM rules and your roof.
 
+## Further reading
+
+For how On Grid Inverter plays out in real projects, these guides go deeper:
+
+- [On-Grid vs Hybrid vs Off-Grid: Decision Guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/)
+- [Best 3kW Solar Inverter in India 2026](/blog/best-3kw-solar-inverter-india-2026/)
+- [How Does a Solar Inverter Work? 2026 Guide](/blog/how-does-a-solar-inverter-work/)
+- [Best On-Grid Solar Inverter 2026, Top Picks](/blog/best-on-grid-solar-inverter-india-2026/)
+
 ## Sources
 
 - IEC 62109-1, -2, Safety of power converters for use in photovoltaic power systems, International Electrotechnical Commission.

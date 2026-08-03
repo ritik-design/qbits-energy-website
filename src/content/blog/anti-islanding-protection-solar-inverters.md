@@ -35,10 +35,10 @@ faqs:
     a: "IEC 62116 and CEA Grid Code 2020 require the inverter to disconnect from the grid within 2 seconds of detecting an islanding condition. Many modern inverters, including Qbits models, achieve disconnection in under 200 milliseconds for active detection methods, providing a significantly larger safety margin than the regulatory minimum."
 ---
 
-Every time a DISCOM crew goes out to repair a feeder that has tripped at the substation, they assume the downstream conductors are dead. If a rooftop solar inverter continues to energise those conductors, the crew faces a live-line hazard on what they believe is a de-energised circuit. This is the islanding problem, and it is the reason every grid-connected solar inverter sold or installed in India must include anti-islanding protection certified to IEC 62116 and compliant with CEA Grid Code 2020.
+Every time a DISCOM crew goes out to repair a feeder that has tripped at the substation, they assume the downstream conductors are dead. If a rooftop solar inverter continues to energise those conductors, the crew faces a live-line hazard on what they believe is a de-energised circuit. This is the islanding problem, and it is the reason every grid-connected solar inverter sold or installed in India must include [anti-islanding](/glossary/anti-islanding/) protection certified to IEC 62116 and compliant with CEA [Grid Code](https://www.surgepv.com/glossary/grid-code) 2020.
 
 > **TL;DR**
-> - Anti-islanding must trip a grid-connected inverter within 2 seconds of grid loss, per IEC 62116 and CEA Grid Code 2020.
+> - [Anti-islanding](/glossary/anti-islanding/) must trip a grid-connected inverter within 2 seconds of grid loss, per IEC 62116 and CEA Grid Code 2020.
 > - Qbits inverters combine ROCOF and vector shift detection, eliminating the non-detection zone that defeats passive-only protection.
 > - BIS has adopted the standard as IS/IEC 62116, and DISCOMs require the certificate for the exact firmware version before approving grid interconnection.
 > - Passive voltage and frequency protection alone can miss an island when local load closely matches inverter output, the non-detection zone (NDZ).

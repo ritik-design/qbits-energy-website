@@ -209,6 +209,15 @@ Electricity tariffs in India vary by customer category, slab, voltage class and 
 
 QBits Energy provides tariff-aware solar yield and payback analysis tailored to Indian state-specific retail tariff structures.
 
+## Further reading
+
+For how Tariff plays out in real projects, these guides go deeper:
+
+- [Electricity Tariff Hikes 2026: Solar Pays Off Faster](/blog/electricity-tariff-hikes-solar/)
+- [Gross Metering vs Net Metering: Which to Choose?](/blog/gross-metering-vs-net-metering/)
+- [Solar Inverter for a Small Shop or Retail Store](/blog/solar-inverter-for-shop/)
+- [Bijli Bill Zero Kaise Kare Solar Se (2026)](/blog/bijli-bill-zero-kaise-kare-solar/)
+
 ## Sources
 
 - Electricity Act 2003.

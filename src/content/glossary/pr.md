@@ -273,6 +273,14 @@ Performance Ratio is the quality grade of a solar plant. It strips weather and l
 
 QBits Energy supports EPCs, IPPs and C&I customers with PR monitoring, commissioning acceptance, and O&M KPI tracking for Indian solar plants.
 
+## Further reading
+
+For how Performance Ratio plays out in real projects, these guides go deeper:
+
+- [Solar Inverter Monitoring Systems in India (2026)](/blog/solar-inverter-monitoring-systems-in-india/)
+- [Solar Inverter Sizing: 12 Key Questions (2026)](/blog/solar-inverter-sizing/)
+- [Ghar ke Liye Solar Inverter Kaise Size Karein: Step by Step (2026)](/blog/ghar-ke-liye-solar-inverter-size-hindi/)
+
 ## Sources
 
 - IEC 61724-1:2017, Photovoltaic system performance monitoring.

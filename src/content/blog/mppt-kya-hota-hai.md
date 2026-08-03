@@ -240,6 +240,8 @@ MPPT की समझ का असली फ़ायदा तब है ज�
 
 अगर vendor इनमें से आधे सवालों का सीधा जवाब नहीं दे पा रहा, तो design शायद template से copy की गई है, आपकी छत के लिए बनाई नहीं गई।
 
+Elsewhere in the Heaven Group network, see [sahi inverter kaise chunein](https://www.heavengreenenergy.com/blog/how-to-choose-the-right-solar-inverter) and [inverter replacement ka kharcha](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost).
+
 ## Aage Kya Karein
 
 MPPT कोई जादुई feature नहीं है, यह एक सादा काम बहुत तेज़ी से करने वाला algorithm है। लेकिन उसी काम पर आपकी सालाना generation का 10 से 30 percent टिका होता है।

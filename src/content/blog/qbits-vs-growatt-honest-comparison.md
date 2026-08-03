@@ -299,6 +299,8 @@ Before reaching a final verdict, three decision mistakes are worth flagging, the
 
 For a structured approach to the full inverter selection decision, see our guide on [how to choose a solar inverter for home in India](/blog/how-to-choose-solar-inverter-for-home-india/).
 
+Elsewhere in the Heaven Group network, see [BIS inverter certification](https://heavendesigns.in/blog/bis-solar-inverter-certification-process) and [how to choose the right solar inverter](https://www.heavengreenenergy.com/blog/how-to-choose-the-right-solar-inverter).
+
 ## Where Qbits Fits
 
 Buyers who want the longest available warranty, IP66 weather protection, WhatsApp-native monitoring, and India-grid-tuned firmware without paying global OEM import prices land on Qbits. The 12-year full replacement warranty means the inverter is covered through the entire payback period and well into the years when the system is generating pure financial return.

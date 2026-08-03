@@ -3,8 +3,8 @@ title: "Aurora Solar Review 2026: Pricing, Strengths and Where It Falls Short"
 excerpt: "An honest Aurora Solar review for 2026. How its quote-based pricing works, what it does particularly well, where the fit gets weak, and which alternatives are worth testing."
 description: "Aurora Solar review 2026: quote-based pricing with no published list price, the add-on structure behind it, real strengths in US residential design, and the limitations buyers should test before signing."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/aurora-solar-review.svg"
 author: "Keyur Rakholiya"
@@ -35,13 +35,13 @@ faqs:
 featured: false
 ---
 
-Aurora Solar is the platform most people picture when they think of solar design software in the United States, and that reputation is largely earned. It solved a real problem before anyone else did: designing an accurate rooftop system without sending a person to the roof. This review looks at what Aurora costs in 2026, what it does better than its competitors, where it stops fitting the buyer, and which alternatives deserve a look before you sign an annual contract. We have used Aurora alongside HelioScope, PVsyst, and SurgePV on live projects, so the criticisms here are the ones that showed up in practice rather than the ones that read well in a comparison table.
+Aurora Solar is the platform most people picture when they think of solar [design software](https://heavendesigns.in/blog/solar-design-software-pricing/) in the United States, and that reputation is largely earned. It solved a real problem before anyone else did: designing an accurate rooftop system without sending a person to the roof. This review looks at what Aurora costs in 2026, what it does better than its competitors, where it stops fitting the buyer, and which alternatives deserve a look before you sign an annual contract. We have used Aurora alongside HelioScope, PVsyst, and SurgePV on live projects, so the criticisms here are the ones that showed up in practice rather than the ones that read well in a comparison table.
 
 > **TL;DR**
 > - Aurora is quote-based and does not publish a list price. Reported figures vary, commonly cited at roughly $159 to $259 per user per month, about $1,908 to $3,108 per user per year, with AI Mode and Sales Mode licensed separately. Confirm with the vendor.
 > - Build a five-seat quote on those reported bands and the total lands well above the headline seat price, which is the number buyers should budget against.
 > - It is genuinely excellent at US residential remote assessment, LIDAR-backed roof modelling, shading, and the customer-facing sales presentation.
-> - In our view it is a weaker fit outside the United States, because the product is positioned around NEC and net metering, which most markets do not have.
+> - In our view it is a weaker fit outside the United States, because the product is positioned around NEC and [net metering](/glossary/net-metering/), which most markets do not have.
 > - SurgePV covers the same core workflow at $1,299 to $1,899 per user per year with proposals included, which is the value pick for most small and mid-size teams.
 
 **Short version.** Aurora Solar is a strong, well-built residential design platform for US installers, sold on a quote basis with reported seat pricing commonly cited around $159 to $259 per user per month before separately licensed modules. In our view it earns that kind of price at high volume in a single US market, and does not earn it for small teams, commercial-heavy pipelines, or anyone selling outside the United States, where the NEC and net metering assumptions underneath it stop applying.

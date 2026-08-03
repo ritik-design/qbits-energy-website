@@ -3,8 +3,8 @@ title: "Best Solar Proposal Software South Africa: 2026"
 excerpt: "The best solar proposal software South Africa installers need sells backup hours alongside payback, and models Section 12B correctly. Six tools compared."
 description: "Best solar proposal software South Africa 2026. SurgePV vs OpenSolar, Aurora, PVsyst on Section 12B, SSEG approval, NRS 097 limits and hybrid battery sizing."
 category: "Solar Software"
-date: 2026-08-01
-updatedDate: 2026-08-01
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-proposal-software-south-africa.svg"
 author: "Akash Hirapara"
@@ -33,7 +33,7 @@ faqs:
 featured: false
 ---
 
-South African solar proposals have to answer a question that most proposal software was never built to address. Customers here are not primarily buying a payback period. They are buying the certainty that the lights stay on, and the financial return is the justification rather than the motive. A document that reports rands saved and says nothing about which circuits survive an outage is answering the second question and ignoring the first. Layer on a 10 kVA residential connection cap, mandatory SSEG approval before energizing, and a Section 12B deduction that transforms commercial economics, and the local requirements diverge sharply from the global default. This guide compares the platforms South African installers should shortlist.
+South African solar proposals have to answer a question that most [proposal software](https://quickestimate.co/blog/solar-proposal-software) was never built to address. Customers here are not primarily buying a [payback period](/glossary/payback-period/). They are buying the certainty that the lights stay on, and the financial return is the justification rather than the motive. A document that reports rands saved and says nothing about which circuits survive an outage is answering the second question and ignoring the first. Layer on a 10 kVA residential connection cap, mandatory SSEG approval before energizing, and a Section 12B deduction that transforms commercial economics, and the local requirements diverge sharply from the global default. This guide compares the platforms South African installers should shortlist.
 
 > **TL;DR**
 > - Residential single-phase is typically capped near 10 kVA, three-phase near 25 kVA, across Eskom and the major metros.
@@ -43,9 +43,9 @@ South African solar proposals have to answer a question that most proposal softw
 > - NRS 097-2-1:2024 governs LV grid integration. SANS 10142-1:2020 is the wiring code.
 > - [SurgePV](https://surgepv.com/) sizes storage against load and backup together at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar proposal software for South African installers in 2026 is SurgePV, because it dispatches storage against an hourly load profile and a backup requirement simultaneously, letting the proposal show both payback and hours of resilience, and it models Section 12B for commercial buyers. OpenSolar works for simple residential on cost. PVsyst is the bankable reference on large commercial.
+**Short version.** The best solar [proposal software](https://quickestimate.co/blog/solar-proposal-software-costs) for South African installers in 2026 is SurgePV, because it dispatches storage against an hourly load profile and a backup requirement simultaneously, letting the proposal show both payback and hours of resilience, and it models Section 12B for commercial buyers. OpenSolar works for simple residential on cost. PVsyst is the bankable reference on large commercial.
 
-South Africa is a hybrid-dominated market, which is unusual. Most countries sell grid-tied systems and treat storage as an upsell. Here storage is frequently the product. For the design-side comparison see our [best solar design software South Africa](/blog/solar-design-software-south-africa/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
+[South Africa](https://www.surgepv.com/blog/south-africa-section-12b-solar-tax) is a hybrid-dominated market, which is unusual. Most countries sell grid-tied systems and treat storage as an upsell. Here storage is frequently the product. For the design-side comparison see our [best solar design software South Africa](/blog/solar-design-software-south-africa/) guide, and the global [solar proposal software](/blog/solar-proposal-software/) ranking for the category without the local lens.
 
 <div class="inline-cta">
 <h3>Quote a South African job with backup hours shown</h3>
@@ -145,6 +145,8 @@ After signing, pipeline and follow-up sit in a CRM. [QuickEstimate](https://quic
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://www.surgepv.com/solar-compliance/south-africa" target="_blank" rel="noopener noreferrer">South Africa compliance library</a></p>
 </div>
+
+A proposal tool only earns its place inside a working stack. The [wider solar software picture in South Africa](/blog/solar-software-south-africa/) covers what sits either side of it.
 
 ## The Bottom Line
 

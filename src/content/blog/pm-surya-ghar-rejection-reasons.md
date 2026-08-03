@@ -33,14 +33,14 @@ faqs:
     a: "The PM Surya Ghar portal has a grievance mechanism accessible from the applicant dashboard. Submit a grievance with the rejection reason, your corrected evidence, and the application reference number. This reaches the DISCOM nodal officer and the state MNRE representative. If the grievance is not resolved within 30 days, escalate to the Ministry of New and Renewable Energy through the CPGRAMS portal at pgportal.gov.in. Include all correspondence in your escalation."
 ---
 
-A PM Surya Ghar rejection is frustrating, especially after weeks of waiting. But the majority of rejections are fixable, the challenge is understanding exactly what went wrong and responding to the right authority in the right way. This guide covers every common rejection reason, the recovery path for each, and how to avoid the mistakes that cause rejections in the first place.
+A [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) rejection is frustrating, especially after weeks of waiting. But the majority of rejections are fixable, the challenge is understanding exactly what went wrong and responding to the right authority in the right way. This guide covers every common rejection reason, the recovery path for each, and how to avoid the mistakes that cause rejections in the first place.
 
-> **Direct answer.** The most common PM Surya Ghar rejection reasons are name mismatch across documents (35–40% of rejections), outdated electricity bill, non-ALMM-listed components, property ownership issues, and ineligible connection type. Most rejections are correctable, fix the flagged issue and reapply within 30 days to retain your position in the review queue.
+> **Direct answer.** The most common [PM Surya Ghar](/glossary/pm-surya-ghar/) [rejection reasons](https://quickestimate.co/blog/pm-surya-ghar-rejection-reasons) are name mismatch across documents (35–40% of rejections), outdated electricity bill, non-ALMM-listed components, property ownership issues, and ineligible connection type. Most rejections are correctable, fix the flagged issue and reapply within 30 days to retain your position in the review queue.
 
 > **TL;DR**
 > - Name mismatch across Aadhaar, electricity bill, PAN, and bank account causes 35–40% of all rejections.
 > - An electricity bill older than 90 days is rejected at the document verification stage.
-> - A non-ALMM-listed inverter fails DISCOM inspection even after installation is complete, and the subsidy is withheld until it is replaced.
+> - A non-ALMM-listed inverter fails [DISCOM](/glossary/discom/) inspection even after installation is complete, and the subsidy is withheld until it is replaced.
 > - Commercial, industrial, and agricultural connections, and rental properties without a landlord NOC, are categorically ineligible.
 > - Most rejections are correctable, fix the flagged issue and reapply within 15 to 30 days to keep your place in the DISCOM queue.
 > - Unresolved rejections can be escalated through the portal grievance system, the MNRE helpline, or the CPGRAMS portal.

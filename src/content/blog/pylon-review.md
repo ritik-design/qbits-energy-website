@@ -3,8 +3,8 @@ title: "Pylon Review 2026: Design, Proposals and CRM in One, Assessed"
 excerpt: "An honest Pylon solar review for 2026. Pay-per-project pricing from $4, what the platform genuinely does well, where it stops fitting, and what to buy instead."
 description: "Pylon solar review 2026: verified $4 and $10 per-project pricing, $49 per user per month CRM, real strengths in fast proposals, honest limitations, and the alternatives worth comparing."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/pylon-review.svg"
 author: "Nirav Dhanani"

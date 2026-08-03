@@ -37,19 +37,19 @@ faqs:
     a: "You need: (1) recent electricity bill showing consumer number and DISCOM; (2) Aadhaar card for identity verification; (3) PAN card; (4) bank passbook or cancelled cheque (Aadhaar-linked account preferred); (5) proof of property ownership such as sale deed, property tax receipt, or society share certificate; (6) if applying as a flat owner, the RWA no-objection certificate; (7) rooftop photographs. All documents are uploaded digitally on the portal."
 ---
 
-Every month, millions of Indian homeowners pay electricity bills that could be zero (or very close to zero) under a scheme that's been running since February 2024. PM Surya Ghar Muft Bijli Yojana is the Government of India's largest-ever residential rooftop solar subsidy: up to ₹78,000 per household, plus 300 free units a month from a 3 kW system. Awareness is patchy. Applications lag targets. And many homeowners who do apply lose their claim over one avoidable error: an inverter that isn't on the MNRE [ALMM list](/glossary/almm-list/).
+Every month, millions of Indian homeowners pay electricity bills that could be zero (or very close to zero) under a scheme that's been running since February 2024. [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/) is the Government of India's largest-ever residential rooftop solar subsidy: up to ₹78,000 per household, plus 300 free units a month from a 3 kW system. Awareness is patchy. Applications lag targets. And many homeowners who do apply lose their claim over one avoidable error: an inverter that isn't on the MNRE [ALMM list](/glossary/almm-list/).
 
 This guide covers the subsidy slabs, eligibility, the five-step application, state top-ups, the common mistakes, and what to look for in an inverter so the claim actually clears.
 
 > **TL;DR**
-> - PM Surya Ghar gives a central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000 for a 3 kW or larger system.
+> - [PM Surya Ghar](/blog/pm-surya-ghar-whats-working/) gives a central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000 for a 3 kW or larger system.
 > - Only [ALMM-listed](/glossary/almm-list/) inverters and panels qualify - a non-ALMM inverter is the single most common reason claims get rejected.
 > - The application follows five steps: portal registration, DISCOM feasibility approval, empanelled-vendor installation, smart-meter commissioning inspection, and bank-detail upload for disbursement.
 > - Several states (Gujarat, Maharashtra, UP, Tamil Nadu, Karnataka) add ₹10,000-₹30,000 on top of the central amount.
 > - The CAPEX (self-owned) model captures the full subsidy and 25-year savings; the RESCO model usually does not pass the subsidy to the homeowner.
 > - Payback after subsidy typically runs 2-3 years, with 25-year savings of ₹7-10 lakh on a 3 kW system.
 
-> **PM Surya Ghar Muft Bijli Yojana** is the Government of India's flagship residential rooftop solar scheme, launched in February 2024 with a target of one crore (10 million) households by March 2027. It provides a central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the third kilowatt (up to a maximum of ₹78,000) paid directly into the homeowner's bank account after installation and grid commissioning.
+> **[PM Surya Ghar](https://quickestimate.co/blog/what-is-pm-surya-ghar-yojana) Muft Bijli Yojana** is the Government of India's flagship residential rooftop solar scheme, launched in February 2024 with a target of one crore (10 million) households by March 2027. It provides a central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the third kilowatt (up to a maximum of ₹78,000) paid directly into the homeowner's bank account after installation and grid commissioning.
 
 The scheme replaces the earlier Grid Connected Rooftop Solar Programme Phase II, sits inside MNRE's broader [rooftop solar scheme](/blog/mnre-rooftop-solar-scheme/) architecture, and operates through a single national portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/), co-ordinated by [MNRE](https://mnre.gov.in/) and implemented through state DISCOMs. Understanding the scheme from end to end (not just the subsidy headline) is what separates a successful application from a stalled one.
 

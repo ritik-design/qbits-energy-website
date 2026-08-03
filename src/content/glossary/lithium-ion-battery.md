@@ -281,6 +281,15 @@ Lithium-ion batteries are the foundation of modern solar storage. LFP chemistry 
 
 QBits Energy supplies LFP battery packs and hybrid inverter systems certified to Indian standards for residential, C&I and microgrid applications.
 
+## Further reading
+
+For how Lithium Ion Battery plays out in real projects, these guides go deeper:
+
+- [Lithium vs Lead-Acid Solar Battery for Indian Homes](/blog/lithium-vs-lead-acid-solar-battery/)
+- [Best Solar Battery Brands in India 2026](/blog/best-solar-battery-brands-india-2026/)
+- [Solar Battery Price Guide India 2026](/blog/solar-battery-price-guide-india-2026/)
+- [LiFePO4 vs NMC Battery for Solar in India](/blog/lifepo4-vs-nmc-solar-battery-india/)
+
 ## Sources
 
 - IEC 62619:2017, Safety requirements for secondary lithium cells and batteries.

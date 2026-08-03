@@ -278,6 +278,15 @@ THD is the headline metric for waveform distortion. Modern solar inverters deliv
 
 QBits Energy provides power quality and harmonic measurement services for C&I and utility solar plants across India, supporting commissioning, compliance and troubleshooting.
 
+## Further reading
+
+For how Total Harmonic Distortion (THD) plays out in real projects, these guides go deeper:
+
+- [THD in Solar Inverters, Why It Matters](/blog/thd-solar-inverter/)
+- [Solar Inverter Specifications Decoded: 15 Parameters](/blog/solar-inverter-specifications-decoded/)
+- [12-Year Solar Inverter Warranty: New Baseline](/blog/12-year-solar-inverter-warranty/)
+- [Solar Inverter Payback Period: ROI Guide 2026](/blog/solar-inverter-payback-period-in-india/)
+
 ## Sources
 
 - IEEE Std 519-2014, Recommended Practice and Requirements for Harmonic Control in Electric Power Systems.

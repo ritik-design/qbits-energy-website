@@ -3,8 +3,8 @@ title: "Solar Ladder Review 2026: India Solar CRM and Ops, Assessed"
 excerpt: "An honest Solar Ladder review for 2026. What it is, what it does well for Indian EPCs, where it stops, and why many teams run it alongside a design platform."
 description: "Solar Ladder review 2026: an India-focused solar business operations and CRM platform. Verified positioning, unpublished pricing, genuine strengths, honest limits, and who should buy."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-ladder-review.svg"
 author: "Nirav Dhanani"

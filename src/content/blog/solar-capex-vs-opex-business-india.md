@@ -39,7 +39,7 @@ Every C&I buyer evaluating solar in India faces the same fundamental question: s
 > - CAPEX (owning the system) delivers 18–25% IRR and 60–70% savings for businesses with capital, building ownership, and taxable profit to use accelerated depreciation.
 > - OPEX/RESCO delivers 30–40% savings with zero upfront capital, better suited to rented buildings or capital-constrained companies.
 > - 80% accelerated depreciation in Year 1 under Section 32 of the Income Tax Act can turn a ₹70 lakh CAPEX into an effective ₹56 lakh outlay.
-> - The 4-Question CAPEX vs OPEX Decision Matrix (building ownership, capital access, taxable profit, IRR target) resolves the right model in four steps.
+> - The 4-Question [CAPEX vs OPEX](https://heavendesigns.in/blog/solar-ppa-vs-capex-vs-opex-india/) Decision Matrix (building ownership, capital access, taxable profit, IRR target) resolves the right model in four steps.
 > - A 100 kW CAPEX system in Karnataka at ₹9/unit tariff typically delivers about 22% IRR and a 4.5-year payback with depreciation applied.
 > - CAPEX is the only option below 50 kW, since most RESCOs require a 50–100 kW minimum project size.
 
@@ -143,6 +143,10 @@ Once you decide on CAPEX, the next decision is which EPC contractor to hire. The
 - **Performance ratio guarantee**: the contractor should guarantee a minimum PR of 0.76–0.80 backed by a generation shortfall compensation clause
 - **Payment milestones**: never pay more than 30% upfront; structure payments against delivery, installation, and commissioning milestones
 - **O&M contract**: a comprehensive O&M contract for at least 5 years post-commissioning protects the investment
+
+A worked example for an intermittent-use venue is in [solar for banquet and marriage halls](/blog/solar-for-banquet-marriage-hall/).
+
+A backup-critical worked example is in [solar for clinics and nursing homes](/blog/solar-for-clinic-nursing-home-india/).
 
 ## Where Qbits Fits in the CAPEX Decision
 

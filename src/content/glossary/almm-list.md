@@ -235,6 +235,15 @@ ALMM is the gating mechanism for subsidised solar in India. PM Surya Ghar, SECI 
 
 QBits Energy supplies ALMM-listed inverters and modules for residential, C&I and utility solar across India.
 
+## Further reading
+
+For how ALMM List plays out in real projects, these guides go deeper:
+
+- [ALMM List Phase III Guide for Buyers and EPCs 2026](/blog/almm-list-phase-iii-guide/)
+- [Solar Inverter Market Share India 2026, Brand Data](/blog/solar-inverter-market-share-india-2026/)
+- [Best On-Grid Solar Inverter 2026, Top Picks](/blog/best-on-grid-solar-inverter-india-2026/)
+- [Solar Inverter Market in India 2026, Industry Report](/blog/solar-inverter-market-india/)
+
 ## Sources
 
 - MNRE Approved List of Models and Manufacturers (ALMM), current revision, Ministry of New and Renewable Energy.

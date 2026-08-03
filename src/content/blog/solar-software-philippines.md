@@ -3,8 +3,8 @@ title: "Best Solar Software Philippines: The Complete 2026 Stack"
 excerpt: "An April 2026 DOE circular lifted the non-residential cap from 100 kW to 1 MW. Most quoting tools in the market are still enforcing the old ceiling."
 description: "Best solar software Philippines 2026: the full stack for design, proposals, CRM and monitoring. Net metering at the generation rate, the new 1 MW cap, PEC compliance and DU approval timelines."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "12 min"
 image: "/blog-images/solar-software-philippines.svg"
 author: "Nirav Dhanani"
@@ -33,15 +33,15 @@ faqs:
 featured: false
 ---
 
-The Philippine solar market changed size in April 2026. A Department of Energy circular lifted the non-residential net metering capacity cap from 100 kW to 1 MW, a tenfold increase that opens commercial and industrial projects which were simply not possible under the scheme before. The opportunity is real and most quoting tools in the market have not caught up: they are configured against the old ceiling, they price exported energy at the retail rate when the scheme actually credits the blended generation rate, and they have no way to model the larger commercial loads the change makes addressable. This guide covers what the Philippine stack has to do now.
+The Philippine solar market changed size in April 2026. A Department of Energy circular lifted the non-residential [net metering](https://heavendesigns.in/blog/apepdcl-solar-net-metering-guide/) capacity cap from 100 kW to 1 MW, a tenfold increase that opens commercial and industrial projects which were simply not possible under the scheme before. The opportunity is real and most quoting tools in the market have not caught up: they are configured against the old ceiling, they price exported energy at the retail rate when the scheme actually credits the blended generation rate, and they have no way to model the larger commercial loads the change makes addressable. This guide covers what the Philippine stack has to do now.
 
 > **TL;DR**
 > - An April 2026 DOE circular lifted the non-residential cap from 100 kW to 1 MW, a tenfold increase.
-> - Net metering credits the blended generation rate, roughly PHP 5 to 6 per kWh for Meralco, about 50 to 60 percent of retail.
+> - [Net metering](/glossary/net-metering/) credits the blended generation rate, roughly PHP 5 to 6 per kWh for Meralco, about 50 to 60 percent of retail.
 > - That gap means self-consumption is worth far more than export, so sizing follows the daytime load curve.
-> - The Philippine Electrical Code is based on NEC 2008, requiring anti-islanding within 2 seconds and DC arc fault protection on longer runs.
+> - The Philippine Electrical Code is based on NEC 2008, requiring [anti-islanding](/glossary/anti-islanding/) within 2 seconds and DC arc fault protection on longer runs.
 > - Distribution utilities must approve or reject a complete application within 10 working days; LGU permit and CFEI follow within 3 working days of inspection.
-> - Republic Act 9513 makes net metering a statutory right for on-grid renewable energy end-users.
+> - Republic Act 9513 makes [net metering](https://heavendesigns.in/blog/bescom-solar-net-metering-guide/) a statutory right for on-grid renewable energy end-users.
 > - [SurgePV](https://surgepv.com/) runs 8,760-hour simulation with battery dispatch at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
 **Short version.** The best solar software for a Philippine business in 2026 is a stack whose core prices export at the generation rate, sizes against the daytime load curve, and can handle commercial systems up to the new 1 MW ceiling. The cap change moved the opportunity into commercial and industrial work, and that segment needs modelling most residential-focused tools do not do.

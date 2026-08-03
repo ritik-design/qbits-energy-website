@@ -254,6 +254,13 @@ Green hydrogen is hydrogen produced from renewable electricity via electrolysis.
 
 QBits Energy designs and supplies utility-scale solar plants and round-the-clock renewable solutions for Indian green hydrogen production projects.
 
+## Further reading
+
+For how Green Hydrogen plays out in real projects, these guides go deeper:
+
+- [Solar for School and College India](/blog/solar-for-school-college-india/)
+- [HDFC Solar Loan India 2026: Rates & Eligibility](/blog/hdfc-solar-loan-india-2026/)
+
 ## Sources
 
 - National Green Hydrogen Mission Document, MNRE.

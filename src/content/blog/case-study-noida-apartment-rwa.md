@@ -42,9 +42,9 @@ This case study documents how the project finally moved from proposal to generat
 > **Direct answer.** A 120-panel, 50 kW solar installation on a Noida RWA terrace reduces the society's common electricity cost by approximately ₹5–7 lakh per year. The three key challenges (shared roof governance, metering complexity, and UPPCL approval) each have specific solutions that the right EPC partner can navigate. This illustrative case documents the approach; exact figures to be confirmed with Qbits deployment data before publication.
 
 > **TL;DR**
-> - A 96-unit Noida RWA broke a three-year solar stalemate by choosing common-area-only solar over virtual net metering, avoiding UPPCL's slower VNM approval track.
+> - A 96-unit Noida RWA broke a three-year solar stalemate by choosing common-area-only solar over virtual [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india), avoiding UPPCL's slower VNM approval track.
 > - The illustrative 50 kW, 100–120 panel system covers common loads only: lifts, water pumps, corridor lighting, security, and the clubhouse.
-> - UPPCL net metering took 78 days from application to meter installation, close to the 90-day target but on the slower end.
+> - UPPCL [net metering](https://www.heavengreenenergy.com/blog/solar-net-metering) took 78 days from application to meter installation, close to the 90-day target but on the slower end.
 > - Estimated annual electricity savings are ~₹5.1 lakh, cutting the common-area bill from ~₹7.2 lakh to ~₹2.1 lakh and lowering each flat's maintenance levy by roughly ₹530/month.
 > - Simple payback is projected at 7–8 years, with a 12-year full-replacement inverter warranty and a committee-run sinking fund for eventual inverter replacement.
 > - All generation, cost, and savings figures in this case are illustrative and marked for confirmation by the Qbits ops team before publication.

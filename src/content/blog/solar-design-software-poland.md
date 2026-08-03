@@ -3,8 +3,8 @@ title: "Best Solar Design Software Poland: 2026 Guide"
 excerpt: "Net billing pays RCEm for exports and charges retail for imports. Polish design is now a self-consumption optimisation, and Mój Prąd is structured to say so. Six tools compared."
 description: "Best solar design software Poland 2026. SurgePV vs PV*SOL, Aurora, PVsyst on net billing, RCEm settlement rates, Mój Prąd storage weighting and self-consumption modelling."
 category: "Solar Software"
-date: 2026-08-02
-updatedDate: 2026-08-02
+date: 2026-08-03
+updatedDate: 2026-08-03
 readTime: "11 min"
 image: "/blog-images/solar-design-software-poland.svg"
 author: "Keyur Rakholiya"
@@ -34,7 +34,7 @@ faqs:
 featured: false
 ---
 
-Polish solar design stopped being about generation in April 2022. Net billing replaced net metering, exports now settle at the RCEm market reference rate rather than being banked one for one, and that rate sits far below what a prosumer pays to import. In May 2026 RCEm was 191.37 PLN per MWh, roughly 0.19 PLN per kWh, and the month before it was 132.92, the lowest since the mechanism began. Against retail import several times higher, capacity that generates energy the household cannot use at that moment earns very little. The design question became how much of the generation lands inside the load curve, and that is an hourly question. This guide covers what Polish design software has to do, and which tools do it.
+Polish solar design stopped being about generation in April 2022. Net billing replaced [net metering](/glossary/net-metering/), exports now settle at the RCEm market reference rate rather than being banked one for one, and that rate sits far below what a prosumer pays to import. In May 2026 RCEm was 191.37 PLN per MWh, roughly 0.19 PLN per kWh, and the month before it was 132.92, the lowest since the mechanism began. Against retail import several times higher, capacity that generates energy the household cannot use at that moment earns very little. The design question became how much of the generation lands inside the load curve, and that is an hourly question. This guide covers what Polish [design software](https://heavendesigns.in/blog/3d-solar-design-software/) has to do, and which tools do it.
 
 > **TL;DR**
 > - Net billing has applied since 1 April 2022, with exports settled at RCEm rather than banked.
@@ -45,7 +45,7 @@ Polish solar design stopped being about generation in April 2022. Net billing re
 > - Residential installations attract a reduced 8 percent VAT rate.
 > - [SurgePV](https://surgepv.com/) at $1,299 to $1,899 per user per year. [Book a free demo](https://surgepv.com/demo).
 
-**Short version.** The best solar design software for Polish installers in 2026 is SurgePV, because net billing turned design into an hourly self-consumption and storage optimisation and SurgePV simulates both together against net billing prices. PVsyst is the bankable reference for large ground-mount. PV*SOL is well established in Polish residential work. Aurora assumes US net metering, which Poland moved away from four years ago.
+**Short version.** The best solar [design software](https://heavendesigns.in/blog/ai-solar-design-software/) for Polish installers in 2026 is SurgePV, because net billing turned design into an hourly self-consumption and storage optimisation and SurgePV simulates both together against net billing prices. PVsyst is the bankable reference for large ground-mount. PV*SOL is well established in Polish residential work. Aurora assumes US net metering, which [Poland](/blog/solar-software-poland/) moved away from four years ago.
 
 For the quoting side see our [best solar proposal software Poland](/blog/solar-proposal-software-poland/) guide, the shading-specific treatment in [solar shading analysis software Poland](/blog/solar-shading-analysis-software-poland/), and the global [best solar design software](/blog/best-solar-design-software/) ranking.
 

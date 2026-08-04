@@ -1,0 +1,241 @@
+---
+/**
+ * Design B — Filterable gallery with spec chips and a lightbox.
+ *
+ * The workhorse section for /installations. Square tiles suit the source
+ * photography (almost all of it is shot square, subject dead-centre), and the
+ * DCDB/ACDB ratings printed on the real enclosures become the credibility
+ * detail — they're the thing a solar installer actually looks at.
+ *
+ * Filtering and the lightbox are plain DOM: no framework, no hydration cost.
+ */
+import { installations } from '../../data/installations';
+
+interface Props {
+  background?: 'white' | 'slate';
+}
+const { background = 'white' } = Astro.props;
+
+const filters = [
+  { key: 'all', label: 'All installations', count: installations.length },
+  {
+    key: 'residential',
+    label: 'Residential',
+    count: installations.filter((i) => i.category === 'residential').length,
+  },
+  {
+    key: 'commercial',
+    label: 'Commercial & Industrial',
+    count: installations.filter((i) => i.category === 'commercial').length,
+  },
+];
+---
+
+<section
+  id="install-gallery"
+  class:list={['py-20 sm:py-28 lg:py-32', background === 'slate' ? 'bg-slate-50' : 'bg-white']}
+  aria-labelledby="install-gallery-heading"
+>
+  <div class="container-main">
+    <div class="max-w-3xl mb-12">
+      <span class="section-label">
+        <span class="w-8 h-px bg-brand-500"></span>
+        The Gallery
+      </span>
+      <h2
+        id="install-gallery-heading"
+        class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-6 leading-tight"
+      >
+        Every install, <span class="text-gradient">as it was left</span>
+      </h2>
+      <p class="text-slate-600 leading-relaxed mt-5">
+        Filter by site type. Each photo lists the DC and AC combiner ratings visible
+        on the enclosure labels — the detail that tells you how the job was actually wired.
+      </p>
+    </div>
+
+    <!-- Filters -->
+    <div class="flex flex-wrap gap-2.5 mb-10" role="group" aria-label="Filter installations by site type">
+      {filters.map((f, i) => (
+        <button
+          type="button"
+          data-filter={f.key}
+          aria-pressed={i === 0 ? 'true' : 'false'}
+          class="install-filter inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-semibold transition-colors border-slate-200 text-slate-600 hover:border-slate-300 hover:text-slate-900 aria-pressed:bg-slate-900 aria-pressed:text-white aria-pressed:border-slate-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2"
+        >
+          {f.label}
+          <span class="text-xs font-normal opacity-60">{f.count}</span>
+        </button>
+      ))}
+    </div>
+
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 list-none p-0 m-0">
+      {installations.map((item, i) => (
+        <li class="install-card" data-category={item.category}>
+          <figure class="group m-0 h-full flex flex-col">
+            <button
+              type="button"
+              class="install-open relative block w-full overflow-hidden rounded-2xl bg-slate-100 aspect-square ring-1 ring-slate-900/5 text-left focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2"
+              data-full={item.image}
+              data-alt={item.alt}
+              data-caption={item.caption}
+              aria-label={`View larger: ${item.setting}`}
+            >
+              <img
+                src={item.thumb}
+                alt={item.alt}
+                width="800"
+                height="800"
+                loading={i < 3 ? 'eager' : 'lazy'}
+                decoding="async"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+              />
+
+              <!-- Category + multi-inverter badge -->
+              <span class="absolute top-3 left-3 inline-flex items-center rounded-full bg-white/95 backdrop-blur px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-slate-700 shadow-sm">
+                {item.category === 'commercial' ? 'C&I' : 'Residential'}
+              </span>
+              {item.inverters > 1 && (
+                <span class="absolute top-3 right-3 inline-flex items-center gap-1 rounded-full bg-brand-500 px-3 py-1 text-[11px] font-bold text-white shadow-sm">
+                  {item.inverters}× inverters
+                </span>
+              )}
+
+              <!-- Zoom affordance -->
+              <span
+                class="absolute bottom-3 right-3 grid place-items-center w-9 h-9 rounded-full bg-white/95 text-slate-700 opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:opacity-100"
+                aria-hidden="true"
+              >
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M11 18a7 7 0 100-14 7 7 0 000 14zM11 8v6M8 11h6" />
+                </svg>
+              </span>
+            </button>
+
+            <figcaption class="flex-1 flex flex-col mt-4">
+              <p class="text-[13px] font-bold uppercase tracking-wider text-brand-600 m-0">
+                {item.setting}
+              </p>
+              <p class="text-sm text-slate-600 leading-relaxed mt-2 m-0">{item.caption}</p>
+
+              {(item.dcdb || item.acdb || item.city || item.systemSize) && (
+                <div class="flex flex-wrap gap-2 mt-4">
+                  {item.systemSize && (
+                    <span class="inline-flex items-center rounded-md bg-brand-50 px-2.5 py-1 text-[11px] font-semibold text-brand-700 ring-1 ring-brand-100">
+                      {item.systemSize}
+                    </span>
+                  )}
+                  {item.city && (
+                    <span class="inline-flex items-center rounded-md bg-slate-50 px-2.5 py-1 text-[11px] font-semibold text-slate-600 ring-1 ring-slate-200">
+                      {item.city}{item.state ? `, ${item.state}` : ''}
+                    </span>
+                  )}
+                  {item.dcdb && (
+                    <span class="inline-flex items-center rounded-md bg-slate-50 px-2.5 py-1 text-[11px] font-medium text-slate-500 ring-1 ring-slate-200">
+                      {item.dcdb}
+                    </span>
+                  )}
+                  {item.acdb && (
+                    <span class="inline-flex items-center rounded-md bg-slate-50 px-2.5 py-1 text-[11px] font-medium text-slate-500 ring-1 ring-slate-200">
+                      {item.acdb}
+                    </span>
+                  )}
+                </div>
+              )}
+            </figcaption>
+          </figure>
+        </li>
+      ))}
+    </ul>
+
+    <p class="install-empty hidden text-center text-slate-500 py-16 m-0">
+      No installations in this category yet.
+    </p>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div
+  id="install-lightbox"
+  class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/90 p-4 sm:p-8"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Installation photo"
+>
+  <button
+    type="button"
+    id="install-lightbox-close"
+    class="absolute top-4 right-4 sm:top-6 sm:right-6 grid place-items-center w-11 h-11 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors focus:outline-none focus:ring-2 focus:ring-white"
+    aria-label="Close"
+  >
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
+    </svg>
+  </button>
+
+  <figure class="m-0 max-w-4xl w-full">
+    <img id="install-lightbox-img" src="" alt="" class="w-full h-auto max-h-[75vh] object-contain rounded-xl" />
+    <figcaption id="install-lightbox-caption" class="text-sm text-white/80 text-center leading-relaxed mt-4"></figcaption>
+  </figure>
+</div>
+
+<script>
+  // --- Filtering -------------------------------------------------------
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.install-filter');
+  const cards = document.querySelectorAll<HTMLElement>('.install-card');
+  const empty = document.querySelector<HTMLElement>('.install-empty');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const key = btn.dataset.filter;
+      buttons.forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+
+      let shown = 0;
+      cards.forEach((card) => {
+        const match = key === 'all' || card.dataset.category === key;
+        card.classList.toggle('hidden', !match);
+        if (match) shown++;
+      });
+      empty?.classList.toggle('hidden', shown > 0);
+    });
+  });
+
+  // --- Lightbox --------------------------------------------------------
+  const box = document.getElementById('install-lightbox');
+  const boxImg = document.getElementById('install-lightbox-img') as HTMLImageElement | null;
+  const boxCap = document.getElementById('install-lightbox-caption');
+  const boxClose = document.getElementById('install-lightbox-close');
+  let lastFocused: HTMLElement | null = null;
+
+  function openBox(trigger: HTMLElement) {
+    if (!box || !boxImg || !boxCap) return;
+    lastFocused = trigger;
+    boxImg.src = trigger.dataset.full || '';
+    boxImg.alt = trigger.dataset.alt || '';
+    boxCap.textContent = trigger.dataset.caption || '';
+    box.classList.remove('hidden');
+    box.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+    boxClose?.focus();
+  }
+
+  function closeBox() {
+    if (!box) return;
+    box.classList.add('hidden');
+    box.classList.remove('flex');
+    document.body.style.overflow = '';
+    lastFocused?.focus();
+  }
+
+  document.querySelectorAll<HTMLElement>('.install-open').forEach((btn) => {
+    btn.addEventListener('click', () => openBox(btn));
+  });
+
+  boxClose?.addEventListener('click', closeBox);
+  box?.addEventListener('click', (e) => {
+    if (e.target === box) closeBox();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && box && !box.classList.contains('hidden')) closeBox();
+  });
+</script>

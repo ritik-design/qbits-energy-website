@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HeaderV2 from '../../components/HeaderV2.astro';
+import Footer from '../../components/Footer.astro';
+import InstallHeroMosaic from '../../components/installations/InstallHeroMosaic.astro';
+import InstallAnatomy from '../../components/installations/InstallAnatomy.astro';
+import InstallGallery from '../../components/installations/InstallGallery.astro';
+import { installations, invertersPictured } from '../../data/installations';
+
+const SITE = 'https://qbitsenergy.com';
+
+// ImageGallery markup so the photos are eligible for image search + AI answers.
+const gallerySchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ImageGallery',
+  name: 'Qbits Energy solar inverter installations',
+  description:
+    'Photographs of commissioned Qbits solar inverter installations across residential and commercial sites in India.',
+  url: `${SITE}/installations`,
+  image: installations.map((item) => ({
+    '@type': 'ImageObject',
+    contentUrl: `${SITE}${item.image}`,
+    caption: item.caption,
+    representativeOfPage: Boolean(item.featured),
+  })),
+};
+---
+
+<Layout
+  title="Solar Inverter Installations | Qbits Energy"
+  description={`See ${installations.length} real Qbits solar inverter installations — residential rooftops, stairwells, shop fronts and multi-inverter commercial banks — photographed on site with DCDB and ACDB details visible.`}
+  canonical="/installations"
+  preloadImage="/installations/install-13.webp"
+>
+  <HeaderV2 />
+
+  <main id="main-content">
+    <InstallHeroMosaic heading="h1" />
+    <InstallAnatomy background="white" />
+    <InstallGallery background="slate" />
+
+    <!-- Closing CTA -->
+    <section class="bg-dark py-24 sm:py-28" aria-labelledby="install-cta-heading">
+      <div class="container-main text-center max-w-2xl mx-auto">
+        <h2 id="install-cta-heading" class="text-3xl sm:text-4xl font-bold text-white leading-tight">
+          Want your install on this page?
+        </h2>
+        <p class="text-slate-300 leading-relaxed mt-5">
+          {invertersPictured}+ Qbits inverters are pictured here. Join the partner
+          network and we will feature your work — and back it with an 8 + 4 year warranty
+          and a service team across India.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 mt-9">
+          <a href="/become-our-partner" class="btn-primary">Become a partner</a>
+          <a href="/contact-us" class="btn-outline">Talk to us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(gallerySchema)} />
+</Layout>

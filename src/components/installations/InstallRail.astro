@@ -1,0 +1,166 @@
+---
+/**
+ * Design C — Homepage teaser rail.
+ *
+ * Compact and horizontally scrollable so it costs one screen of homepage height
+ * instead of four. Cards bleed off the right edge on purpose: the cut-off tile
+ * is what tells a visitor there's more behind the link.
+ */
+import { installations } from '../../data/installations';
+
+interface Props {
+  limit?: number;
+  background?: 'white' | 'slate';
+}
+const { limit = 8, background = 'slate' } = Astro.props;
+
+// Lead with the featured shots, then top up from the rest.
+const ordered = [
+  ...installations.filter((i) => i.featured),
+  ...installations.filter((i) => !i.featured),
+].slice(0, limit);
+---
+
+<section
+  class:list={['py-20 sm:py-24 lg:py-28 overflow-hidden', background === 'slate' ? 'bg-slate-50' : 'bg-white']}
+  aria-labelledby="install-rail-heading"
+>
+  <div class="container-main">
+    <div class="flex flex-wrap items-end justify-between gap-6 mb-10">
+      <div class="max-w-2xl">
+        <span class="section-label">
+          <span class="w-8 h-px bg-brand-500"></span>
+          Installed &amp; Running
+        </span>
+        <h2
+          id="install-rail-heading"
+          class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-6 leading-tight"
+        >
+          Qbits inverters <span class="text-gradient">on real walls</span>
+        </h2>
+        <p class="text-slate-600 leading-relaxed mt-5">
+          Rooftop parapets, stairwells, shop fronts and nine-inverter banks —
+          photographed on site, exactly as the installer left them.
+        </p>
+      </div>
+
+      <a
+        href="/installations"
+        class="inline-flex items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors shrink-0"
+      >
+        See all installations
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!--
+    Infinite marquee. The track holds two identical lists; translating it by
+    exactly one list width plus one gap lands the second list where the first
+    started, so the loop is seamless. The duplicate is aria-hidden so screen
+    readers and the tab order only ever see each installation once.
+  -->
+  <div class="install-marquee relative" style={`--marquee-duration: ${ordered.length * 6}s`}>
+    <div class="install-marquee-track flex w-max">
+      {[0, 1].map((copy) => (
+        <ul
+          class="flex list-none p-0 m-0"
+          aria-hidden={copy === 1 ? 'true' : undefined}
+        >
+          {ordered.map((item, i) => (
+            <li class="shrink-0 w-[76vw] sm:w-[340px]">
+              <a
+                href={`/installations#${item.id}`}
+                class="group block rounded-2xl focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2"
+                tabindex={copy === 1 ? -1 : undefined}
+              >
+                <div class="relative overflow-hidden rounded-2xl bg-slate-100 aspect-square ring-1 ring-slate-900/5">
+                  <img
+                    src={item.thumb}
+                    alt={copy === 1 ? '' : item.alt}
+                    width="800"
+                    height="800"
+                    loading={copy === 0 && i < 2 ? 'eager' : 'lazy'}
+                    decoding="async"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                  />
+                  {item.inverters > 1 && (
+                    <span class="absolute top-3 right-3 inline-flex items-center rounded-full bg-brand-500 px-3 py-1 text-[11px] font-bold text-white shadow-sm">
+                      {item.inverters}× inverters
+                    </span>
+                  )}
+                </div>
+                <p class="text-[13px] font-bold uppercase tracking-wider text-slate-900 mt-4 m-0">
+                  {item.setting}
+                </p>
+                <p class="text-sm text-slate-500 leading-relaxed mt-1.5 m-0">
+                  {item.category === 'commercial' ? 'Commercial & Industrial' : 'Residential'}
+                </p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Gap lives in a custom property because the transform has to know it. */
+  .install-marquee {
+    --marquee-gap: 1.25rem;
+    overflow: hidden;
+  }
+
+  .install-marquee-track {
+    gap: var(--marquee-gap);
+    animation: install-marquee-scroll var(--marquee-duration, 48s) linear infinite;
+    will-change: transform;
+  }
+
+  .install-marquee-track > ul {
+    gap: var(--marquee-gap);
+  }
+
+  /* Let people stop it to actually look at a photo or click through. */
+  .install-marquee:hover .install-marquee-track,
+  .install-marquee:focus-within .install-marquee-track {
+    animation-play-state: paused;
+  }
+
+  @keyframes install-marquee-scroll {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      /* One full list width: half the track, plus half the joining gap. */
+      transform: translate3d(calc(-50% - var(--marquee-gap) / 2), 0, 0);
+    }
+  }
+
+  /*
+    The global reduced-motion rule collapses animation-duration to ~0, which
+    would snap the marquee to its end frame. Kill the animation outright and
+    hand the user a normal scrollable rail instead.
+  */
+  @media (prefers-reduced-motion: reduce) {
+    .install-marquee {
+      overflow-x: auto;
+      scrollbar-width: thin;
+      scrollbar-color: #cbd5e1 transparent;
+    }
+    .install-marquee-track {
+      animation: none !important;
+      transform: none !important;
+    }
+  }
+  .install-marquee::-webkit-scrollbar {
+    height: 6px;
+  }
+  .install-marquee::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 999px;
+  }
+</style>

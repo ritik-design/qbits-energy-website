@@ -1,0 +1,134 @@
+---
+/**
+ * Design D — "Anatomy of a Qbits install" spotlight.
+ *
+ * One photograph, held large, with the workmanship called out beside it. This is
+ * the section that converts installers rather than homeowners: it says what a
+ * correct Qbits install looks like, using a photo of one.
+ *
+ * Every claim below is visible in the photograph itself.
+ */
+import { installations } from '../../data/installations';
+
+interface Props {
+  /** id from src/data/installations.ts */
+  spotlight?: string;
+  background?: 'dark' | 'white';
+}
+const { spotlight = 'clean-white-wall', background = 'dark' } = Astro.props;
+
+const item =
+  installations.find((i) => i.id === spotlight) ?? installations[0];
+
+const points = [
+  {
+    title: 'DC side, isolated and labelled',
+    body: 'A dedicated DC combiner box with its rating printed on the enclosure, so the next person on site knows the string limit without opening it.',
+  },
+  {
+    title: 'AC side, its own enclosure',
+    body: 'AC protection kept in a separate board rather than sharing the DC box — the split that keeps fault-finding quick and safe.',
+  },
+  {
+    title: 'One trunk line, no loose runs',
+    body: 'Every cable drops into a single slotted trunk below the equipment line. Nothing hangs, nothing chafes against the wall.',
+  },
+  {
+    title: 'Serviceable at standing height',
+    body: 'The display and both boards sit within reach, so a service visit does not need a ladder or a dismount.',
+  },
+];
+
+const isDark = background === 'dark';
+---
+
+<section
+  class:list={['py-24 sm:py-28 lg:py-32', isDark ? 'bg-dark' : 'bg-white']}
+  aria-labelledby="install-anatomy-heading"
+>
+  <div class="container-main">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <!-- Photo -->
+      <figure class="m-0 order-1">
+        <div
+          class:list={[
+            'relative overflow-hidden rounded-3xl aspect-square',
+            isDark ? 'ring-1 ring-white/10 bg-white/5' : 'ring-1 ring-slate-900/5 bg-slate-100',
+          ]}
+        >
+          <img
+            src={item.image}
+            alt={item.alt}
+            width="1600"
+            height="1600"
+            loading="lazy"
+            decoding="async"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <figcaption
+          class:list={['text-sm leading-relaxed mt-4', isDark ? 'text-slate-400' : 'text-slate-500']}
+        >
+          {item.caption}
+          {item.dcdb && item.acdb && (
+            <span class="block mt-2 font-medium">
+              {item.dcdb} &middot; {item.acdb}
+            </span>
+          )}
+        </figcaption>
+      </figure>
+
+      <!-- Points -->
+      <div class="order-2">
+        <span class="section-label">
+          <span class="w-8 h-px bg-brand-500"></span>
+          Anatomy Of An Install
+        </span>
+        <h2
+          id="install-anatomy-heading"
+          class:list={[
+            'text-3xl sm:text-4xl lg:text-5xl font-bold mt-6 leading-tight',
+            isDark ? 'text-white' : 'text-slate-900',
+          ]}
+        >
+          What a <span class="text-gradient">correct install</span> looks like
+        </h2>
+        <p
+          class:list={['leading-relaxed mt-5 max-w-xl', isDark ? 'text-slate-300' : 'text-slate-600']}
+        >
+          The inverter is one part of the job. These four things are what our
+          installer network is trained on, and what you can check on any photograph
+          on this page.
+        </p>
+
+        <ol class="list-none p-0 m-0 mt-9 space-y-7">
+          {points.map((p, i) => (
+            <li class="flex gap-5">
+              <span
+                class:list={[
+                  'shrink-0 grid place-items-center w-9 h-9 rounded-full text-sm font-bold',
+                  isDark ? 'bg-brand-500/15 text-brand-400 ring-1 ring-brand-500/30' : 'bg-brand-50 text-brand-700 ring-1 ring-brand-100',
+                ]}
+                aria-hidden="true"
+              >
+                {i + 1}
+              </span>
+              <div>
+                <h3
+                  class:list={['text-base font-bold m-0', isDark ? 'text-white' : 'text-slate-900']}
+                >
+                  {p.title}
+                </h3>
+                <p
+                  class:list={['text-sm leading-relaxed mt-2 m-0', isDark ? 'text-slate-400' : 'text-slate-600']}
+                >
+                  {p.body}
+                </p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>

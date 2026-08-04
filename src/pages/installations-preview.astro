@@ -1,0 +1,104 @@
+---
+/**
+ * Internal design preview — NOT for production.
+ *
+ * Shows all four installation section designs stacked so they can be compared
+ * side by side and picked from. Delete this file once a direction is chosen.
+ */
+import Layout from '../layouts/Layout.astro';
+import HeaderV2 from '../components/HeaderV2.astro';
+import Footer from '../components/Footer.astro';
+import InstallHeroMosaic from '../components/installations/InstallHeroMosaic.astro';
+import InstallRail from '../components/installations/InstallRail.astro';
+import InstallAnatomy from '../components/installations/InstallAnatomy.astro';
+import InstallGallery from '../components/installations/InstallGallery.astro';
+
+const designs = [
+  {
+    key: 'A',
+    name: 'Wall of work — hero mosaic',
+    use: 'Top of /installations',
+    note: 'Dark, full-bleed, asymmetric grid with a stat strip. Sets the tone before any copy is read.',
+  },
+  {
+    key: 'B',
+    name: 'Teaser rail',
+    use: 'Homepage section',
+    note: 'Horizontal scroll, one screen tall. Cards bleed off the right edge so it reads as "there is more".',
+  },
+  {
+    key: 'C',
+    name: 'Anatomy of an install',
+    use: 'Homepage or /installations mid-page',
+    note: 'One photo held large with the workmanship called out beside it. Aimed at installers, not homeowners.',
+  },
+  {
+    key: 'D',
+    name: 'Filterable gallery + lightbox',
+    use: 'Main body of /installations',
+    note: 'Square tiles, residential / C&I filter, DCDB + ACDB spec chips, click to enlarge.',
+  },
+];
+---
+
+<Layout
+  title="Installation Section Designs (Internal Preview)"
+  description="Internal design preview"
+  noindex={true}
+>
+  <HeaderV2 />
+
+  <main id="main-content">
+    <!-- Index -->
+    <section class="bg-slate-900 py-20">
+      <div class="container-main">
+        <p class="text-xs font-bold uppercase tracking-[0.25em] text-amber-400 m-0">
+          Internal preview — noindex
+        </p>
+        <h1 class="text-3xl sm:text-4xl font-bold text-white mt-4">
+          Four ways to show the installations
+        </h1>
+        <p class="text-slate-400 mt-4 max-w-2xl leading-relaxed">
+          Scroll through and pick. They are independent components, so any
+          combination works — the live <a href="/installations" class="text-brand-400 underline">/installations</a>
+          page currently uses A + C + D.
+        </p>
+
+        <ol class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-10 list-none p-0 m-0">
+          {designs.map((d) => (
+            <li class="rounded-xl border border-white/10 bg-white/5 p-5">
+              <a href={`#design-${d.key}`} class="block group">
+                <span class="text-xs font-bold text-brand-400">Design {d.key}</span>
+                <h2 class="text-base font-bold text-white mt-2 group-hover:text-brand-400 transition-colors">
+                  {d.name}
+                </h2>
+                <p class="text-xs text-slate-400 mt-2 leading-relaxed m-0">{d.note}</p>
+                <p class="text-[11px] uppercase tracking-wider text-slate-500 mt-3 m-0">{d.use}</p>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+    {designs.map((d, i) => (
+      <>
+        <div id={`design-${d.key}`} class="bg-amber-50 border-y border-amber-200 py-4 scroll-mt-20">
+          <div class="container-main flex flex-wrap items-baseline gap-x-4 gap-y-1">
+            <span class="text-xs font-bold uppercase tracking-[0.2em] text-amber-700">
+              Design {d.key}
+            </span>
+            <span class="text-sm font-semibold text-slate-900">{d.name}</span>
+            <span class="text-xs text-slate-500">{d.use}</span>
+          </div>
+        </div>
+        {i === 0 && <InstallHeroMosaic heading="h2" />}
+        {i === 1 && <InstallRail background="white" />}
+        {i === 2 && <InstallAnatomy background="dark" />}
+        {i === 3 && <InstallGallery background="slate" />}
+      </>
+    ))}
+  </main>
+
+  <Footer />
+</Layout>

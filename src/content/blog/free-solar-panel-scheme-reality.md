@@ -172,7 +172,7 @@ Take a typical 3 kW system for a home with a monthly bill around Rs 2,500 to Rs 
 
 After payback, the household enjoys two decades of electricity at near-zero marginal cost. It is also protected against tariff hikes that have historically run 4 to 6 percent a year in most states. That is the honest version of "free electricity," and it arrives in year five, not on day one. The [net metering India complete guide](/blog/net-metering-india-complete-guide/) explains how exported units are credited on top of this.
 
-One equipment note from our side of the industry: subsidy eligibility requires ALMM-listed modules and, for grid-connected systems, a compliant inverter installed through an empanelled vendor. Qbits inverters are ALMM-listed and carry a 12-year full replacement warranty. They are tuned for the 180 to 270 V swings of Indian grids. That is why our dealer network installs them across subsidy-route projects in 20+ cities. Whatever brand you choose, verify the model-level listing before you sign, because a non-compliant component can void the entire Rs 78,000.
+One equipment note from our side of the industry: subsidy eligibility requires ALMM-listed modules and, for grid-connected systems, a compliant inverter installed through an empanelled vendor. Qbits inverters are ALMM-listed and carry a 12-year full replacement warranty. They are tuned for the 180 to 270 V swings of Indian grids. That is why our channel partner network installs them across subsidy-route projects in 25+ states. Whatever brand you choose, verify the model-level listing before you sign, because a non-compliant component can void the entire Rs 78,000.
 
 ## How to Claim What the Government Actually Offers
 

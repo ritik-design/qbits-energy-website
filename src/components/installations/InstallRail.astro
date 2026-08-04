@@ -1,24 +1,44 @@
 ---
 /**
- * Design C — Homepage teaser rail.
+ * Design C — Homepage teaser marquee.
  *
- * Compact and horizontally scrollable so it costs one screen of homepage height
- * instead of four. Cards bleed off the right edge on purpose: the cut-off tile
- * is what tells a visitor there's more behind the link.
+ * Compact, so it costs one screen of homepage height instead of four.
  */
 import { installations } from '../../data/installations';
 
 interface Props {
+  /** How many single-inverter shots lead the marquee before the bank shots. */
   limit?: number;
   background?: 'white' | 'slate';
 }
 const { limit = 8, background = 'slate' } = Astro.props;
 
-// Lead with the featured shots, then top up from the rest.
-const ordered = [
+/*
+ * Ordering rule: lead with `limit` single-inverter installs, then bring in the
+ * multi-inverter banks one at a time with a single install between them.
+ *
+ * Two reasons. The banks are wide, busy, small-subject frames — side by side
+ * they read as one grey smudge and neither lands. And they are the payoff
+ * shots, so they work harder arriving after the eye has been trained on what a
+ * single install looks like, not competing for the opening slot.
+ */
+const byPriority = [
   ...installations.filter((i) => i.featured),
   ...installations.filter((i) => !i.featured),
-].slice(0, limit);
+];
+
+const singles = byPriority.filter((i) => i.inverters === 1);
+const banks = byPriority.filter((i) => i.inverters > 1);
+
+const lead = singles.slice(0, limit);
+const spacers = singles.slice(limit);
+
+// Each bank gets a single install after it, so no two banks ever touch.
+const tail = banks.flatMap((bank, i) =>
+  spacers[i] ? [bank, spacers[i]] : [bank],
+);
+
+const ordered = [...lead, ...tail];
 ---
 
 <section

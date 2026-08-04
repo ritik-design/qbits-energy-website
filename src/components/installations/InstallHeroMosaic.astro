@@ -2,6 +2,9 @@
 /**
  * Design A — "Wall of work" hero.
  *
+ * Uses container-main, not container-wide: the hero has to line up with every
+ * other section on the page rather than running 160px wider than them.
+ *
  * Dark and full-bleed. Built for the top of /installations: one photograph held
  * large does the arguing before a line of copy is read. The institutional wall
  * is the right hero shot because scale is the claim — dozens of Qbits units on
@@ -35,8 +38,8 @@ const stats = [
   >
   </div>
 
-  <div class="container-wide relative py-24 sm:py-28 lg:py-32">
-    <div class="grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] gap-14 lg:gap-16 items-center">
+  <div class="container-main relative py-24 sm:py-28 lg:py-32">
+    <div class="grid lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] gap-14 lg:gap-16 items-center">
       <!-- Copy -->
       <div>
         <span class="section-label">
@@ -79,8 +82,7 @@ const stats = [
         </div>
       </div>
 
-      <!-- Single hero photograph -->
-      <figure class="m-0">
+      <figure class="m-0 w-full max-w-md lg:max-w-lg lg:ml-auto">
         <div class="relative overflow-hidden rounded-3xl ring-1 ring-white/10 bg-white/5 aspect-square">
           <img
             src={heroShot.image}

@@ -6,6 +6,12 @@ import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 
 const allPosts = await getCollection('blog');
+
+// Core product content (inverters, residential solar, Qbits) first;
+// solar design software articles are deprioritized on the archive.
+const isSolarSoftware = (category: string) =>
+  category.trim().toLowerCase() === 'solar software';
+
 const posts = allPosts
   .map((p) => ({
     slug: p.id,
@@ -17,12 +23,21 @@ const posts = allPosts
     image: p.data.image,
     featured: p.data.featured,
   }))
-  .sort((a, b) => +b.date - +a.date);
+  .sort((a, b) => {
+    const aSoft = isSolarSoftware(a.category) ? 1 : 0;
+    const bSoft = isSolarSoftware(b.category) ? 1 : 0;
+    if (aSoft !== bSoft) return aSoft - bSoft;
+    return +b.date - +a.date;
+  });
 
 const formatDate = (d: Date) =>
   d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
-const featuredPost = posts.find((p) => p.featured) || posts[0];
+const featuredPost =
+  posts.find((p) => p.featured && !isSolarSoftware(p.category)) ||
+  posts.find((p) => p.featured) ||
+  posts.find((p) => !isSolarSoftware(p.category)) ||
+  posts[0];
 const regularPosts = posts.filter((p) => p.slug !== featuredPost?.slug);
 const totalArticles = posts.length;
 
@@ -33,7 +48,12 @@ const categoryCounts = posts.reduce<Record<string, number>>((acc, p) => {
 }, {});
 const categories = Object.entries(categoryCounts)
   .map(([name, count]) => ({ name, count, slug: categorySlug(name) }))
-  .sort((a, b) => b.count - a.count);
+  .sort((a, b) => {
+    const aSoft = isSolarSoftware(a.name) ? 1 : 0;
+    const bSoft = isSolarSoftware(b.name) ? 1 : 0;
+    if (aSoft !== bSoft) return aSoft - bSoft;
+    return b.count - a.count;
+  });
 ---
 
 <Layout

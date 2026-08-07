@@ -5,6 +5,9 @@ import HeaderV2 from '../components/HeaderV2.astro';
 import Footer from '../components/Footer.astro';
 
 const allPosts = await getCollection('blog');
+const isSolarSoftware = (category: string) =>
+  category.trim().toLowerCase() === 'solar software';
+
 const recentPosts = allPosts
   .map((p) => ({
     slug: p.id,
@@ -14,7 +17,12 @@ const recentPosts = allPosts
     date: p.data.date,
     readTime: p.data.readTime,
   }))
-  .sort((a, b) => +b.date - +a.date)
+  .sort((a, b) => {
+    const aSoft = isSolarSoftware(a.category) ? 1 : 0;
+    const bSoft = isSolarSoftware(b.category) ? 1 : 0;
+    if (aSoft !== bSoft) return aSoft - bSoft;
+    return +b.date - +a.date;
+  })
   .slice(0, 5);
 
 const formatDate = (d: Date) =>

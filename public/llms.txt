@@ -1,13 +1,13 @@
 # Qbits Energy
 
-> Qbits Inverters Limited is an Indian solar inverter manufacturer (a subsidiary of Heaven Green Energy Limited). We design and build BIS/IEC-certified on-grid and hybrid solar inverters for residential, commercial, and industrial use across India, backed by an 8 + 4 year warranty, IP66 enclosures, German IGBTs, and AI-powered WhatsApp monitoring on Indian servers.
+> Qbits Inverters Limited is an Indian solar inverter manufacturer (a subsidiary of Heaven Green Energy Limited). We design and build BIS/IEC-certified on-grid and hybrid solar inverters for residential, commercial, and industrial use across India, backed by a 12-year warranty up to 30 kW (8 years above 30 kW), IP66 enclosures, German IGBTs, and AI-powered WhatsApp monitoring on Indian servers.
 
 Headquartered in Surat, Gujarat. Product range covers 1.5 kW residential string inverters through 320 kW C&I units. We sell through a dealer network, EPCs, and direct B2B; we are not on Amazon.
 
 ## Company
 
 - [About Qbits](https://qbitsenergy.com/about-us/): Company story, leadership, ISO 9001 certification, Adani Solar distributorship.
-- [Why Qbits](https://qbitsenergy.com/why-qbits/): Build quality, India-tuned engineering, 8 + 4 year warranty, IP66 protection.
+- [Why Qbits](https://qbitsenergy.com/why-qbits/): Build quality, India-tuned engineering, 12-year warranty up to 30 kW, IP66 protection.
 - [Contact](https://qbitsenergy.com/contact-us/): Sales, service, partnership enquiries. Surat HQ.
 - [Authorized Service Partners](https://qbitsenergy.com/authorized-service-partners/): Pan-India installation, maintenance, and warranty support map.
 

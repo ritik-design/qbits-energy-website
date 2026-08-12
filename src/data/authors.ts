@@ -33,7 +33,7 @@ export const authors: Author[] = [
     role: 'CFO',
     photo: '/team/akash-hirapara.webp',
     linkedin: 'https://www.linkedin.com/in/akash-hirpara-5b0632ab/',
-    bio: 'Akash manages finance, procurement, and channel-partner enablement at Qbits Energy. He specialises in solar financing structures — including solar loans, accelerated depreciation, and CAPEX vs OPEX vs RESCO decisions — and has helped structure financing for large-scale C&I solar installations across Gujarat, Maharashtra, and Rajasthan. He also manages Qbits\' dealer and installer network of 130+ channel partners across 25+ states in India.',
+    bio: 'Akash manages finance, procurement, and channel-partner enablement at Qbits Energy. He specialises in solar financing structures — including solar loans, accelerated depreciation, and CAPEX vs OPEX vs RESCO decisions — and has helped structure financing for large-scale C&I solar installations across Gujarat, Maharashtra, and Rajasthan. He also manages Qbits\' dealer and installer network of 130+ channel partners across every state and union territory in India.',
     shortBio: 'CFO overseeing solar financing, procurement, and channel partner enablement at Qbits.',
   },
 ];

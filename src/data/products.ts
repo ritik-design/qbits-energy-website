@@ -22,6 +22,14 @@ export interface Product {
   datasheet?: string;
 }
 
+/**
+ * Warranty policy: 12 years on every model up to 30 kW, 8 years above 30 kW.
+ * Each product's `warranty` follows that rule from its powerMax — keep it in
+ * sync if a power range changes.
+ */
+export const WARRANTY_NOTE =
+  'Warranty: 12 years on models up to 30 kW. Models above 30 kW carry an 8-year warranty.';
+
 export const products: Product[] = [
   // On-Grid Single Phase TLS
   {
@@ -41,8 +49,8 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD + LED',
     communication: 'Wi-Fi, 4G, Bluetooth',
-    warranty: '8 + 4 Years',
-    features: ['8 + 4 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
+    warranty: '12 Years',
+    features: ['12 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/1kw.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_2.0-4.0-kw_1MPPT_1Phs.pdf',
@@ -64,7 +72,7 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD + LED',
     communication: 'Wi-Fi, 4G, Bluetooth',
-    warranty: '8 + 4 Years',
+    warranty: '12 Years',
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/5kw.webp',
@@ -87,7 +95,7 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD + LED',
     communication: 'Wi-Fi, 4G, Bluetooth',
-    warranty: '8 + 4 Years',
+    warranty: '12 Years',
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/3kw.webp',
@@ -111,8 +119,8 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD Color',
     communication: 'Wi-Fi, 4G, Bluetooth',
-    warranty: '8 + 4 Years',
-    features: ['8 + 4 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
+    warranty: '12 Years',
+    features: ['12 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/10kw.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_6.0-17.0-kw_2MPPT_3Phs.pdf',
@@ -134,7 +142,7 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD Color',
     communication: 'Wi-Fi, 4G, Bluetooth',
-    warranty: '8 + 4 Years',
+    warranty: '12 Years',
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/25kw.webp',
@@ -157,7 +165,7 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD Color',
     communication: 'Wi-Fi, 4G, Ethernet',
-    warranty: '8 + 4 Years',
+    warranty: '8 Years',
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image-2.webp',
@@ -180,8 +188,8 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD Color',
     communication: 'Wi-Fi, 4G, Ethernet',
-    warranty: '8 + 4 Years',
-    features: ['8 + 4 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
+    warranty: '8 Years',
+    features: ['8 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/50kw.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_40.0-50.0-kw_3Phs.pdf',
@@ -203,7 +211,7 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD Color',
     communication: 'Wi-Fi, 4G, Ethernet',
-    warranty: '8 + 4 Years',
+    warranty: '8 Years',
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/image.png',
@@ -226,7 +234,7 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD Color',
     communication: 'Wi-Fi, 4G, Ethernet',
-    warranty: '8 + 4 Years',
+    warranty: '8 Years',
     features: ['100% DC Oversizing', '750W Panel Support', '98% Efficiency', 'BIS/IEC Certified'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/110kw.webp',
@@ -249,8 +257,8 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD Color',
     communication: 'Wi-Fi, 4G, Ethernet',
-    warranty: '8 + 4 Years',
-    features: ['8 + 4 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
+    warranty: '8 Years',
+    features: ['8 Year Warranty', 'IP66 Weather Protection', 'AI WhatsApp Monitoring', 'Wi-Fi/4G/Bluetooth'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/explore-technology.webp',
     datasheet: '/datasheets/products/QB_Data-Sheet_80.0-125.0-kw_3Phs.pdf',
@@ -272,7 +280,7 @@ export const products: Product[] = [
     protection: 'IP66',
     display: 'LCD Color',
     communication: 'RS485, Ethernet',
-    warranty: '8 + 4 Years',
+    warranty: '8 Years',
     features: ['Digital Warranty', '50V DC Start-up', 'Built-in DC/AC SPD', '90V-290V AC Range'],
     certifications: ['BIS', 'IEC'],
     image: '/product-images/product-image-4.webp',
@@ -296,7 +304,7 @@ export const products: Product[] = [
     protection: 'IP65',
     display: 'LCD Color',
     communication: 'Wi-Fi, CAN',
-    warranty: '8 + 4 Years',
+    warranty: '12 Years',
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/hybrid.webp',
@@ -319,7 +327,7 @@ export const products: Product[] = [
     protection: 'IP65',
     display: 'LCD Color',
     communication: 'Wi-Fi, CAN, Ethernet',
-    warranty: '8 + 4 Years',
+    warranty: '12 Years',
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/hybrid.webp',
@@ -342,7 +350,7 @@ export const products: Product[] = [
     protection: 'IP65',
     display: 'LCD Color',
     communication: 'Wi-Fi, CAN, Ethernet',
-    warranty: '8 + 4 Years',
+    warranty: '12 Years',
     features: ['120A Battery Charge/Discharge', '2x Peak Power 15s', 'UPS Switching <10s', 'Lead-acid & Lithium'],
     certifications: ['BIS', 'IEC'],
     image: '/homepage-new/hybrid.webp',

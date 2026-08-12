@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
-import { products, getProductById, getRelatedProducts } from '../../data/products';
+import { products, getProductById, getRelatedProducts, WARRANTY_NOTE } from '../../data/products';
 
 export function getStaticPaths() {
   return products.map(p => ({ params: { id: p.id } }));
@@ -24,11 +24,14 @@ const categoryLabel = isOnGrid ? 'On-Grid' : 'Hybrid';
 const SITE = 'https://qbitsenergy.com';
 const productUrl = `${SITE}/our-products/${product.id}/`;
 
+// '12 Years' -> '12-year warranty', so the meta copy reads as a sentence.
+const warrantyPhrase = `${product.warranty.replace(' Years', '-year')} warranty`;
+
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: product.name,
-  description: `${product.name} - ${categoryLabel} solar inverter from Qbits Energy. ${product.efficiency} efficiency, ${product.mppt} MPPT, ${product.warranty}.`,
+  description: `${product.name} - ${categoryLabel} solar inverter from Qbits Energy. ${product.efficiency} efficiency, ${product.mppt} MPPT, and a ${warrantyPhrase}.`,
   sku: product.id,
   mpn: product.id,
   url: productUrl,
@@ -58,7 +61,7 @@ const breadcrumbSchema = {
 
 <Layout
   title={`${product.name} | Qbits Energy`}
-  description={`${product.name} - ${categoryLabel} solar inverter with ${product.efficiency} efficiency, ${product.mppt} MPPT, and ${product.warranty}.`}
+  description={`${product.name} - ${categoryLabel} solar inverter with ${product.efficiency} efficiency, ${product.mppt} MPPT, and a ${warrantyPhrase}.`}
   canonical={`/our-products/${product.id}/`}
   ogImage={`/og/product-${product.id}.webp`}
 >
@@ -198,6 +201,11 @@ const breadcrumbSchema = {
               </tbody>
             </table>
           </div>
+
+          <p class="mt-4 flex items-start gap-2 text-sm text-slate-500">
+            <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>{WARRANTY_NOTE}</span>
+          </p>
         </div>
       </div>
     </section>

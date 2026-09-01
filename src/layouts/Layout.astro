@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import GooglePreferredSource from '../components/GooglePreferredSource.astro';
 
 export interface Props {
   title?: string;
@@ -30,6 +31,13 @@ const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${SITE}${ogImage}`;
 const GTM_ID = import.meta.env.PUBLIC_GTM_ID || '';
 const ENV_NOINDEX = String(import.meta.env.PUBLIC_ROBOTS_NOINDEX || '').toLowerCase() === 'true';
 const renderNoindex = noindex || ENV_NOINDEX;
+const preferredSourcePath = new URL(canonicalUrl, SITE).pathname.replace(/\/+$/, '') || '/';
+const preferredSourceContentRoutes = ['/blog', '/glossary', '/authors', '/events', '/installations'];
+const showPreferredSource =
+  !renderNoindex &&
+  (preferredSourceContentRoutes.some(
+    (route) => preferredSourcePath === route || preferredSourcePath.startsWith(`${route}/`)
+  ) || preferredSourcePath === '/authorized-service-partners');
 ---
 
 <!DOCTYPE html>
@@ -174,6 +182,7 @@ const renderNoindex = noindex || ENV_NOINDEX;
   )}
   <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-brand-600 focus:text-white focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg">Skip to content</a>
   <slot />
+  {showPreferredSource && <GooglePreferredSource />}
 
   <!-- Sitewide conversion-event tracking via gtag.js (delegated — works regardless of GTM container status) -->
   <script is:inline>

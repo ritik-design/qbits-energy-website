@@ -9,7 +9,9 @@
     "dev": "astro dev",
     "build": "node scripts/generate-og-images.mjs && astro build && pagefind --site dist",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "indexnow": "node scripts/submit-indexnow.mjs --submit",
+    "indexnow:dry": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.6",

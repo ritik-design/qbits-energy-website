@@ -4,23 +4,64 @@ import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 
-// Adani N-type TOPCon panel database. tc in %/°C relative to STC (25°C).
+// Module database. Every STC value below is transcribed from the manufacturer
+// datasheet named in the family's `series` string — do not interpolate new
+// wattage bins, add them only from a published sheet.
+//
+// tcVoc is the datasheet "Tc of open circuit voltage (β)". Datasheets do not
+// publish a Vmp coefficient, so tcVmp carries the datasheet "Tc of power (γ)":
+// γ ≈ β(Vmp) + α(Imp) and α(Imp) is near zero, so γ is the standard stand-in
+// for Vmp drift. Both are %/°C relative to STC (25°C).
+function panel(brand, series, model, wp, voc, vmp, isc, imp, tcVoc, tcVmp) {
+  return { brand, series, model, wp, voc, vmp, isc, imp, tcVoc, tcVmp };
+}
+
 const PANELS = [
-  { model: 'AS-M10120-BHC-550W', wp: 550, voc: 51.00, vmp: 43.35, isc: 13.36, imp: 12.69, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M10120-BHC-555W', wp: 555, voc: 51.20, vmp: 43.52, isc: 13.43, imp: 12.75, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M10120-BHC-560W', wp: 560, voc: 51.40, vmp: 43.69, isc: 13.49, imp: 12.82, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M10120-BHC-565W', wp: 565, voc: 51.60, vmp: 43.86, isc: 13.56, imp: 12.88, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M10120-BHC-570W', wp: 570, voc: 51.80, vmp: 44.03, isc: 13.63, imp: 12.95, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M10120-BHC-575W', wp: 575, voc: 52.00, vmp: 44.20, isc: 13.70, imp: 13.01, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M10120-BHC-580W', wp: 580, voc: 52.20, vmp: 44.40, isc: 13.76, imp: 13.08, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M12120-BHC-605W', wp: 605, voc: 48.70, vmp: 40.50, isc: 15.83, imp: 14.94, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M12120-BHC-610W', wp: 610, voc: 49.00, vmp: 40.80, isc: 15.86, imp: 14.96, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M12120-BHC-615W', wp: 615, voc: 49.30, vmp: 41.10, isc: 15.89, imp: 14.98, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M12120-BHC-620W', wp: 620, voc: 49.60, vmp: 41.40, isc: 15.91, imp: 14.99, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M12120-BHC-625W', wp: 625, voc: 49.90, vmp: 41.70, isc: 15.94, imp: 15.01, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M12120-BHC-630W', wp: 630, voc: 50.20, vmp: 42.00, isc: 15.97, imp: 15.03, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M12120-BHC-635W', wp: 635, voc: 50.50, vmp: 42.30, isc: 16.00, imp: 15.05, tcVoc: -0.23, tcVmp: -0.28 },
-  { model: 'AS-M12120-BHC-640W', wp: 640, voc: 50.80, vmp: 42.60, isc: 16.03, imp: 15.07, tcVoc: -0.23, tcVmp: -0.28 },
+  // Adani ELAN SHINE TOPCon, N-type dual glass, M10 144 half-cut. 550–580 Wp.
+  // adanisolar.com/downloads → "Shine TOPCon G2G modules Gen-II" (MSEL/MDL/PM/Gen-II/Rev03).
+  panel('Adani', 'ELAN Shine TOPCon G2G · M10-144 N-type', 'ASB-M10-144-550', 550, 51.30, 42.84, 13.59, 12.86, -0.24, -0.32),
+  panel('Adani', 'ELAN Shine TOPCon G2G · M10-144 N-type', 'ASB-M10-144-555', 555, 51.50, 43.05, 13.65, 12.91, -0.24, -0.32),
+  panel('Adani', 'ELAN Shine TOPCon G2G · M10-144 N-type', 'ASB-M10-144-560', 560, 51.70, 43.22, 13.71, 12.97, -0.24, -0.32),
+  panel('Adani', 'ELAN Shine TOPCon G2G · M10-144 N-type', 'ASB-M10-144-565', 565, 51.90, 43.39, 13.77, 13.03, -0.24, -0.32),
+  panel('Adani', 'ELAN Shine TOPCon G2G · M10-144 N-type', 'ASB-M10-144-570', 570, 52.10, 43.56, 13.83, 13.08, -0.24, -0.32),
+  panel('Adani', 'ELAN Shine TOPCon G2G · M10-144 N-type', 'ASB-M10-144-575', 575, 52.30, 43.78, 13.89, 13.14, -0.24, -0.32),
+  panel('Adani', 'ELAN Shine TOPCon G2G · M10-144 N-type', 'ASB-M10-144-580', 580, 52.50, 43.98, 13.95, 13.19, -0.24, -0.32),
+
+  // Adani ELAN SHINE TOPCon, N-type dual glass, G12R 132 half-cut. 605–640 Wp.
+  // adanisolar.com/downloads → "G12R ELAN SHINE TOPCON" (MSEL/MSPU/Rec./PM/GEN-III/Rev03).
+  panel('Adani', 'ELAN Shine TOPCon G12R · 132 N-type', 'AB-G12R-132-605', 605, 48.14, 40.72, 15.87, 14.86, -0.23, -0.28),
+  panel('Adani', 'ELAN Shine TOPCon G12R · 132 N-type', 'AB-G12R-132-610', 610, 48.27, 40.93, 15.89, 14.91, -0.23, -0.28),
+  panel('Adani', 'ELAN Shine TOPCon G12R · 132 N-type', 'AB-G12R-132-615', 615, 48.40, 41.14, 15.90, 14.96, -0.23, -0.28),
+  panel('Adani', 'ELAN Shine TOPCon G12R · 132 N-type', 'AB-G12R-132-620', 620, 48.53, 41.30, 15.92, 15.02, -0.23, -0.28),
+  panel('Adani', 'ELAN Shine TOPCon G12R · 132 N-type', 'AB-G12R-132-625', 625, 48.67, 41.51, 15.93, 15.06, -0.23, -0.28),
+  panel('Adani', 'ELAN Shine TOPCon G12R · 132 N-type', 'AB-G12R-132-630', 630, 48.80, 41.72, 15.94, 15.11, -0.23, -0.28),
+  panel('Adani', 'ELAN Shine TOPCon G12R · 132 N-type', 'AB-G12R-132-635', 635, 48.93, 41.88, 16.01, 15.18, -0.23, -0.28),
+  panel('Adani', 'ELAN Shine TOPCon G12R · 132 N-type', 'AB-G12R-132-640', 640, 49.06, 42.00, 16.09, 15.26, -0.23, -0.28),
+
+  // Adani ELAN PRIDE, P-type PERC bifacial dual glass, G12 132 half-cut. Top of
+  // Adani's published range. adanisolar.com/downloads → "Pride G2G modules".
+  panel('Adani', 'ELAN Pride G2G · M12-132 P-type PERC', 'ASB-M12-132-645', 645, 43.47, 37.15, 18.75, 17.37, -0.25, -0.34),
+  panel('Adani', 'ELAN Pride G2G · M12-132 P-type PERC', 'ASB-M12-132-650', 650, 43.66, 37.32, 18.85, 17.44, -0.25, -0.34),
+
+  // Vikram Solar PARADEA, P-type PERC bifacial glass-glass, G12 132 half-cut.
+  // vikramsolar.com → PARADEA_G12_655-680W_132-CELLS (VSL/ENG/SC/231-V12/STD).
+  panel('Vikram Solar', 'Paradea G12 · 132 P-type PERC', 'VSMDH.66.655.05', 655, 45.90, 38.30, 17.93, 17.12, -0.27, -0.35),
+  panel('Vikram Solar', 'Paradea G12 · 132 P-type PERC', 'VSMDH.66.660.05', 660, 46.10, 38.50, 17.99, 17.16, -0.27, -0.35),
+  panel('Vikram Solar', 'Paradea G12 · 132 P-type PERC', 'VSMDH.66.665.05', 665, 46.30, 38.70, 18.05, 17.20, -0.27, -0.35),
+  panel('Vikram Solar', 'Paradea G12 · 132 P-type PERC', 'VSMDH.66.670.05', 670, 46.50, 38.90, 18.11, 17.22, -0.27, -0.35),
+  panel('Vikram Solar', 'Paradea G12 · 132 P-type PERC', 'VSMDH.66.675.05', 675, 46.70, 39.10, 18.17, 17.27, -0.27, -0.35),
+  panel('Vikram Solar', 'Paradea G12 · 132 P-type PERC', 'VSMDH.66.680.05', 680, 46.90, 39.30, 18.23, 17.31, -0.27, -0.35),
+
+  // Waaree ELITE Series N-type, TOPCon bifacial framed dual glass, G12 132
+  // half-cut. waaree.com → WEL/E&PD/680-715/132/BiN-03/HC/07/03.01.2025.
+  panel('Waaree', 'Elite N-type TOPCon · G12-132', 'BiN-03-680', 680, 47.78, 39.67, 18.16, 17.14, -0.26, -0.30),
+  panel('Waaree', 'Elite N-type TOPCon · G12-132', 'BiN-03-685', 685, 47.98, 39.87, 18.20, 17.18, -0.26, -0.30),
+  panel('Waaree', 'Elite N-type TOPCon · G12-132', 'BiN-03-690', 690, 48.18, 40.09, 18.23, 17.21, -0.26, -0.30),
+  panel('Waaree', 'Elite N-type TOPCon · G12-132', 'BiN-03-695', 695, 48.38, 40.29, 18.27, 17.25, -0.26, -0.30),
+  panel('Waaree', 'Elite N-type TOPCon · G12-132', 'BiN-03-700', 700, 48.58, 40.49, 18.31, 17.29, -0.26, -0.30),
+  panel('Waaree', 'Elite N-type TOPCon · G12-132', 'BiN-03-705', 705, 48.77, 40.68, 18.36, 17.33, -0.26, -0.30),
+  panel('Waaree', 'Elite N-type TOPCon · G12-132', 'BiN-03-710', 710, 48.97, 40.90, 18.39, 17.36, -0.26, -0.30),
+  panel('Waaree', 'Elite N-type TOPCon · G12-132', 'BiN-03-715', 715, 49.17, 41.12, 18.42, 17.39, -0.26, -0.30),
 ];
 
 // Qbits inverter database (On-grid + Hybrid). mppts: per-channel { cur = max input current (A), str = max strings/MPPT }.
@@ -81,6 +122,7 @@ const INVERTERS = [
   inv('QB-320K-EHV', '3-Ph', 'ongrid', 320000, 352000, 1500, 500, 1500, 1080, 99.0, chN(12, 40, 2)),
 
   // ===================== HYBRID =====================
+  inv('QBH-5KS48P', '1-Ph', 'hybrid', 5000, 5000, 500, 150, 450, 300, 97.6, [{ cur: 18, str: 1 }, { cur: 18, str: 1 }]),
   inv('QBH-7KS48P', '1-Ph', 'hybrid', 7000, 7700, 500, 150, 450, 300, 98.0, [{ cur: 30, str: 2 }, { cur: 18, str: 1 }]),
   inv('QBH-7K6S48P', '1-Ph', 'hybrid', 7600, 8360, 500, 150, 450, 300, 98.0, [{ cur: 30, str: 2 }, { cur: 18, str: 1 }]),
   inv('QBH-8KS48P', '1-Ph', 'hybrid', 8000, 8800, 500, 150, 450, 300, 98.0, [{ cur: 30, str: 2 }, { cur: 18, str: 1 }]),
@@ -102,8 +144,8 @@ const DEFAULT_LOADS = [
 ---
 
 <Layout
-  title="String Sizing &amp; Battery Calculator | Qbits Energy"
-  description="Smart solar string sizing and hybrid battery sizing tool for Qbits inverters. Pick your Adani panel and Qbits inverter to see the optimal MPPT string layout, voltage-window checks, DC/AC ratio and — in Hybrid mode — the recommended battery bank."
+  title="Solar String &amp; Battery Sizing Calculator | Qbits"
+  description="Smart solar string sizing and hybrid battery sizing tool for Qbits inverters. Pick your module — Adani, Vikram Solar or Waaree, 550W to 715W — and your Qbits inverter to see the optimal MPPT string layout, voltage-window checks, DC/AC ratio and, in Hybrid mode, the recommended battery bank."
   canonical="/string-sizing-calculator/"
 >
   <HeaderV2 />
@@ -113,7 +155,7 @@ const DEFAULT_LOADS = [
       label="Solar Tools"
       title="String Sizing"
       highlight="&amp; Battery Calculator"
-      description="Match your Adani panels to the right Qbits inverter string configuration — and, for Hybrid systems, size the battery bank — instantly."
+      description="Run a preliminary voltage, current and battery screen for stored module and Qbits inverter data, then verify current documents and engineering requirements."
     />
 
     <section class="section-padding bg-slate-50">
@@ -128,7 +170,7 @@ const DEFAULT_LOADS = [
           </div>
           <div>
             <h2 class="text-xl sm:text-2xl font-bold text-slate-900 leading-tight">Solar String and Battery Sizing Calculator</h2>
-            <p class="text-slate-500 mt-1">Match your Adani panels to the right Qbits inverter string configuration &mdash; instantly.</p>
+            <p class="text-slate-500 mt-1">Run a preliminary string screen, then verify the exact documents and project design.</p>
           </div>
         </div>
 
@@ -143,7 +185,7 @@ const DEFAULT_LOADS = [
               <button type="button" data-type="hybrid" class="sys-btn flex-1 py-2.5 rounded-lg text-sm font-bold transition-colors">Hybrid</button>
             </div>
 
-            <label class="field-label" for="panel-select">Solar Panel (Adani)</label>
+            <label class="field-label" for="panel-select">Solar Panel</label>
             <select id="panel-select" class="tool-select"></select>
             <div id="panelChips" class="flex flex-wrap gap-2 mt-3 mb-5"></div>
 
@@ -161,10 +203,10 @@ const DEFAULT_LOADS = [
               </div>
               <div>
                 <label class="field-label" for="t-max">Max Temp (&deg;C)</label>
-                <input id="t-max" type="number" step="1" max="50" value="50" class="tool-input" />
+                <input id="t-max" type="number" step="1" max="100" value="50" class="tool-input" />
               </div>
             </div>
-            <p class="text-xs text-slate-400 mt-2 mb-6">Cold min temp raises Voc (over-voltage risk); hot max temp lowers Vmp. Defaults: 5&deg;C / 50&deg;C.</p>
+            <p class="text-xs text-slate-400 mt-2 mb-6">Use module temperatures, not just ambient air temperatures. Cold raises Voc; heat lowers Vmp. The defaults are illustrative and must be replaced for your site.</p>
 
             <!-- Hybrid backup loads -->
             <div id="hybrid-section" class="hidden">
@@ -196,7 +238,9 @@ const DEFAULT_LOADS = [
                   <input id="backupDays" type="number" min="0.5" max="7" step="0.5" value="1" class="tool-input" />
                 </div>
               </div>
-              <p class="text-xs text-slate-400 mt-2 mb-6">Battery is sized to cover the daily load at the set DOD, then rounded up to whole 5&nbsp;kWh stackable packs.</p>
+              <label class="field-label" for="batteryEfficiency">Battery-to-load efficiency assumption (%)</label>
+              <input id="batteryEfficiency" type="number" min="50" max="100" step="1" value="90" class="tool-input" />
+              <p class="text-xs text-slate-400 mt-2 mb-6">Battery sizing uses your DOD and conversion-efficiency assumptions, then rounds to illustrative 5&nbsp;kWh units. These are not approved battery packs or a compatibility recommendation.</p>
             </div>
 
             <button class="calc-btn w-full py-3.5 rounded-xl font-bold text-white bg-gradient-to-r from-brand-500 to-brand-600 shadow-lg shadow-brand-500/30 hover:shadow-xl hover:from-brand-600 hover:to-brand-700 transition-all flex items-center justify-center gap-2" id="calcBtn">
@@ -205,9 +249,9 @@ const DEFAULT_LOADS = [
             </button>
           </div>
 
-          <!-- RIGHT: Recommended Configuration -->
+          <!-- RIGHT: Preliminary Configuration -->
           <div class="lg:col-span-7 bg-white rounded-2xl shadow-xl shadow-slate-900/8 p-6 sm:p-7 lg:sticky lg:top-24">
-            <h3 class="flex items-center gap-2 text-base font-bold text-slate-900 mb-5"><span class="w-2 h-2 rounded-full bg-brand-500 shrink-0"></span>Recommended Configuration</h3>
+            <h3 class="flex items-center gap-2 text-base font-bold text-slate-900 mb-5"><span class="w-2 h-2 rounded-full bg-brand-500 shrink-0"></span>Preliminary Configuration</h3>
             <div id="results">
               <div class="border-2 border-dashed border-slate-200 rounded-2xl py-16 px-6 text-center text-slate-400 min-h-[420px] flex flex-col items-center justify-center">
                 <svg class="w-12 h-12 mx-auto mb-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M3 3v18h18"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M7 14l3-3 3 3 5-6"></path></svg>
@@ -228,6 +272,15 @@ const DEFAULT_LOADS = [
     </section>
   </main>
 
+  <section class="container-main py-12 max-w-4xl prose prose-slate">
+    <h2>How to use this solar string calculator</h2>
+    <p>Select the exact panel and inverter, enter the module count and project-specific module temperatures, then review each MPPT separately. Cold-corrected open-circuit voltage must stay within all applicable equipment limits; hot operating voltage must remain in the tracking window.</p>
+    <p>For an illustrative module with 50 V Voc and a −0.25%/°C coefficient at −5°C, corrected Voc is 53.75 V. Ten modules in series give 537.5 V. Compare that with the inverter, module and other equipment limits before adding design margins. This example is not a model recommendation.</p>
+    <h2>What the result does and does not check</h2>
+    <p>This is a preliminary voltage and current screen. The stored catalogue values require verification against the supplied model revision. Short-circuit current is conservatively screened against the stored operating-current limit because separate certified Isc limits are not available in this dataset. A result is not a complete electrical design or approval.</p>
+    <p>Verify maximum permitted PV power, module system-voltage limits, bifacial current uplift, design factors, cable and fuse ratings, protection, startup/full-power tracking requirements, battery discharge power and local utility rules separately. Peak clipping is an illustrative power comparison, not an annual energy forecast.</p>
+    <p>Use the <a href="/download-datasheets/">Qbits datasheets</a>, <a href="/blog/how-to-read-solar-inverter-datasheets/">datasheet guide</a> and <a href="/blog/battery-sizing-hybrid-solar/">battery-sizing worksheet</a>. For a project check, <a href="/contact-us/">send the exact equipment documents and layout to Qbits</a>.</p>
+  </section>
   <Footer />
 </Layout>
 
@@ -350,6 +403,9 @@ const DEFAULT_LOADS = [
     var impPerStr = panel.imp || panel.isc;
     var iscPerStr = panel.isc;
     var best = null;
+    // Set when a layout was discarded purely on per-MPPT current, so the
+    // "no result" message can name the real limit instead of blaming the string.
+    var overloadBlocked = false;
 
     function tryConfig(dists, used) {
       if (used > totalPanels) return;
@@ -367,7 +423,9 @@ const DEFAULT_LOADS = [
       var sc = dists.map(function (d) { return d.strings; }).filter(function (s) { return s > 0; });
       var mpptsUsed = sc.length;
       var sGap = sc.length > 1 ? Math.max.apply(null, sc) - Math.min.apply(null, sc) : 0;
-      var score = -overload * 1e13
+      // An over-current configuration must never become the best available result.
+      if (overload > 0) { overloadBlocked = true; return; }
+      var score = 0
         + mpptsUsed * 1e11
         - unused * 1e7
         - sGap * 1e5
@@ -425,8 +483,10 @@ const DEFAULT_LOADS = [
         var byIsc = iscPerStr > 0 ? Math.floor(m.cur / iscPerStr) : m.str;
         return Math.max(0, Math.min(m.str, byImp, byIsc));
       });
-      var strict = caps.reduce(function (s, c) { return s + c; }, 0) > 0;
-      var capAt = function (i) { return strict ? caps[i] : mppts[i].str; };
+      // Every channel capped at zero strings means one string already exceeds
+      // each MPPT's current limit, so no layout is reachable at all.
+      if (caps.reduce(function (s, c) { return s + c; }, 0) === 0) overloadBlocked = true;
+      var capAt = function (i) { return caps[i]; };
       var sortedNs = validNs.slice().sort(function (a, b) {
         return validMap[b].score !== validMap[a].score ? validMap[b].score - validMap[a].score : b - a;
       });
@@ -449,7 +509,16 @@ const DEFAULT_LOADS = [
       });
     }
 
-    if (!best) return { error: 'Cannot fit these panels in any valid string configuration.' };
+    if (!best) {
+      if (overloadBlocked) {
+        var lowestCur = Math.min.apply(null, mppts.map(function (m) { return m.cur; }));
+        return {
+          kind: 'current',
+          error: 'One string of this module draws ' + iscPerStr.toFixed(2) + 'A short-circuit, against a lowest channel limit of ' + lowestCur + 'A, so every layout exceeds a per-MPPT input-current limit.',
+        };
+      }
+      return { kind: 'voltage', error: 'No layout fits these panels inside the voltage window and per-MPPT string limits.' };
+    }
 
     var warnings = [];
     best.distributions.forEach(function (d) {
@@ -472,13 +541,14 @@ const DEFAULT_LOADS = [
     else if (clipPct > CFG.CLIP_HIGH) sev = 'high';
     else if (clipPct > CFG.CLIP_MOD) sev = 'moderate';
     else if (clipPct > 0) sev = 'low';
-    var annualLossKwh = (clippedW / 1000) * CFG.PSH * CFG.GEN_DAYS;
-    return { dcPeak: dcPeak, dcAcRatio: (dcPeak / invObj.ratedW), clippedW: clippedW, clipPct: clipPct, annualLossKwh: annualLossKwh, severity: sev };
+    return { dcPeak: dcPeak, dcAcRatio: (dcPeak / invObj.ratedW), clippedW: clippedW, clipPct: clipPct, severity: sev };
   }
 
   // ── DOM ──────────────────────────────────────────────────────────────────
   var $ = function (id) { return document.getElementById(id); };
-  function esc(s) { return String(s).replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); }
+  // Escapes quotes too: esc() feeds attribute contexts (optgroup label, the
+  // load-row value=) as well as text nodes.
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function fmtKw(w) { return (w / 1000) + 'kW'; }
 
   var sysType = 'ongrid';
@@ -499,8 +569,19 @@ const DEFAULT_LOADS = [
     invSel.value = String(idx);
   }
 
+  // Grouped by brand + module family so the wattage bins of one datasheet stay
+  // together. Option values remain the PANELS index, so nothing downstream moves.
   function fillDropdowns() {
-    $('panel-select').innerHTML = PANELS.map(function (p, i) { return '<option value="' + i + '">' + p.model + ' &middot; ' + p.wp + 'W</option>'; }).join('');
+    var groups = [];
+    PANELS.forEach(function (p, i) {
+      var key = p.brand + ' — ' + p.series;
+      var g = groups.filter(function (x) { return x.key === key; })[0];
+      if (!g) { g = { key: key, items: [] }; groups.push(g); }
+      g.items.push('<option value="' + i + '">' + esc(p.model) + ' &middot; ' + p.wp + 'W</option>');
+    });
+    $('panel-select').innerHTML = groups.map(function (g) {
+      return '<optgroup label="' + esc(g.key) + '">' + g.items.join('') + '</optgroup>';
+    }).join('');
     $('panel-select').value = '0';
     renderInverterOptions('QB-10KTLC');
     renderChips();
@@ -540,9 +621,9 @@ const DEFAULT_LOADS = [
     return [].slice.call(document.querySelectorAll('#loadRows .load-row')).map(function (r) {
       return {
         name: r.querySelector('[data-f=name]').value,
-        w: +r.querySelector('[data-f=w]').value || 0,
-        qty: +r.querySelector('[data-f=qty]').value || 0,
-        h: +r.querySelector('[data-f=h]').value || 0,
+        w: Math.max(0, +r.querySelector('[data-f=w]').value || 0),
+        qty: Math.max(0, Math.floor(+r.querySelector('[data-f=qty]').value || 0)),
+        h: Math.max(0, Math.min(24, +r.querySelector('[data-f=h]').value || 0)),
       };
     });
   }
@@ -555,10 +636,11 @@ const DEFAULT_LOADS = [
     var wh = dailyWh();
     var dod = Math.max(10, Math.min(100, +$('dod').value || 90)) / 100;
     var days = Math.max(0.5, +$('backupDays').value || 1);
-    var neededKwh = (wh / 1000) * days / dod;
+    var efficiency = Math.max(50, Math.min(100, +$('batteryEfficiency').value || 90)) / 100;
+    var neededKwh = (wh / 1000) * days / (dod * efficiency);
     var packs = wh > 0 ? Math.max(1, Math.ceil(neededKwh / 5)) : 0;
     var installedKwh = packs * 5;
-    var usableKwh = installedKwh * dod;
+    var usableKwh = installedKwh * dod * efficiency;
     return { wh: wh, dailyKwh: wh / 1000, dodPct: Math.round(dod * 100), days: days, neededKwh: neededKwh, packs: packs, installedKwh: installedKwh, usableKwh: usableKwh };
   }
 
@@ -569,7 +651,7 @@ const DEFAULT_LOADS = [
         '<p class="text-xs text-amber-800">Add at least one backup load (with hours) to size the battery pack.</p></div>';
     }
     return '<div class="relative overflow-hidden rounded-2xl p-6 text-white bg-gradient-to-br from-brand-900 to-brand-700 mb-5">' +
-      '<p class="text-[11px] uppercase tracking-wider font-semibold text-brand-100">Recommended battery bank</p>' +
+      '<p class="text-[11px] uppercase tracking-wider font-semibold text-brand-100">Illustrative battery capacity</p>' +
       '<div class="flex items-baseline gap-2 mt-1"><span class="text-4xl font-extrabold tabular-nums tracking-tight" id="anPacks">0</span><span class="text-sm font-semibold text-brand-100">&times; 5 kWh packs (stacked)</span></div>' +
       '<p class="text-sm text-brand-100 mt-1">' + b.installedKwh + ' kWh installed &middot; ' + b.usableKwh.toFixed(1) + ' kWh usable at ' + b.dodPct + '% DOD</p>' +
       '</div>' +
@@ -631,7 +713,10 @@ const DEFAULT_LOADS = [
     var num = Math.max(1, Math.min(5000, parseInt($('total-panels').value, 10) || 0));
     var tMin = parseFloat($('t-min').value); if (isNaN(tMin)) tMin = 5;
     var tMax = parseFloat($('t-max').value); if (isNaN(tMax)) tMax = 50;
-    if (tMax > 50) { tMax = 50; $('t-max').value = 50; }
+    if (!Number.isFinite(tMin) || !Number.isFinite(tMax) || tMin >= tMax || tMin < -40 || tMax > 100) {
+      $('results').textContent = 'Enter a minimum module temperature below the maximum, within −40 to 100°C. Use project-specific temperatures.';
+      return;
+    }
     $('total-panels').value = num;
 
     var sysLimit = invObj.maxDcV;
@@ -646,11 +731,21 @@ const DEFAULT_LOADS = [
 
     var pvHtml;
     if (opt.error) {
-      var vc = vocAtTemp(panel.voc, panel.tcVoc, tMin);
+      // Advice has to match the limit that actually bound. Cutting panels per
+      // string does nothing about a per-string current limit, and the Voc
+      // figure is only evidence when the voltage window is what failed.
+      var failHead, failTail;
+      if (opt.kind === 'current') {
+        failHead = 'Per-MPPT current limit exceeded.';
+        failTail = ' Choose a lower-current module or an inverter with a higher per-MPPT input-current rating. Shortening the string will not help, because current is set by the module, not by how many are in series.';
+      } else {
+        var vc = vocAtTemp(panel.voc, panel.tcVoc, tMin);
+        failHead = 'No valid string configuration.';
+        failTail = ' Try a different panel/inverter pair or fewer panels per string. (1&times;panel Voc@' + tMin + '&deg;C = ' + vc.toFixed(1) + 'V, max DC ' + invObj.maxDcV + 'V.)';
+      }
       pvHtml = '<div class="flex items-start gap-3 bg-red-50 border border-red-200 rounded-xl px-4 py-3">' +
         '<svg class="w-5 h-5 text-red-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke-width="2"></circle><path stroke-linecap="round" stroke-width="2" d="M12 8v5M12 16.5v.01"></path></svg>' +
-        '<div class="text-sm text-red-800"><b>No valid string configuration.</b> ' + esc(opt.error) +
-        ' Try a different panel/inverter pair or fewer panels per string. (1&times;panel Voc@' + tMin + '&deg;C = ' + vc.toFixed(1) + 'V, max DC ' + invObj.maxDcV + 'V.)</div></div>';
+        '<div class="text-sm text-red-800"><b>' + failHead + '</b> ' + esc(opt.error) + failTail + '</div></div>';
       box.innerHTML = batteryHtml + pvHtml;
       if (battery && battery.packs) animateBattery(battery);
       return;
@@ -676,7 +771,7 @@ const DEFAULT_LOADS = [
     if (hasCurrentIssue) warnBlocks.push('<div class="flex items-start gap-3 bg-amber-50 border border-amber-200 text-amber-800 rounded-xl px-4 py-3">' + WARN_ICON + '<div class="text-sm"><b>Current check:</b> ' + opt.warnings.map(esc).join('<br>') + '</div></div>');
     if (dcacOver) warnBlocks.push('<div class="flex items-start gap-3 bg-amber-50 border border-amber-200 text-amber-800 rounded-xl px-4 py-3">' + WARN_ICON +
       '<div class="text-sm"><b>DC/AC ratio ' + dcac.toFixed(2) + ' &mdash; over the ' + dcacLimit.toFixed(1) + ' limit.</b> The array overloads the inverter; excess DC power is clipped at peak. Reduce the panel count or choose a higher-rated inverter.' +
-      '<br><span class="opacity-80">Peak clipping ~' + Math.round(clip.clipPct) + '% &middot; est. ~' + Math.round(clip.annualLossKwh).toLocaleString('en-IN') + ' kWh/yr not harvested.</span></div></div>');
+      '<br><span class="opacity-80">Illustrative peak power above the AC limit: ' + Math.round(clip.clipPct) + '%. This is not an annual energy-loss estimate.</span></div></div>');
     var notesHtml = warnBlocks.length ? warnBlocks.join('<div class="h-3"></div>') :
       '<div class="flex items-center gap-3 bg-brand-50 border border-brand-100 text-brand-800 rounded-xl px-4 py-3"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 6 9 17l-5-5"></path></svg><span class="text-sm">All voltage-window, per-MPPT current and DC/AC ratio checks pass for this layout.</span></div>';
 
@@ -725,7 +820,7 @@ const DEFAULT_LOADS = [
 
       '<div class="mt-5">' +
         '<p class="text-sm font-bold text-slate-800 mb-3">Voltage window at ' + primaryN + ' panels/string</p>' +
-        '<div class="bg-slate-50 border border-slate-200 rounded-xl px-5 pt-9 pb-4" role="img" aria-label="Voltage window chart: safe MPPT range ' + invObj.vmin + ' to ' + invObj.vmax + ' volts. Voc at cold temperature is ' + vocCold.toFixed(0) + ' volts. Vmp at hot temperature is ' + vmpHot.toFixed(0) + ' volts.">' +
+        '<div class="bg-slate-50 border border-slate-200 rounded-xl px-5 pt-9 pb-4" role="img" aria-label="Voltage window chart: specified MPPT range ' + invObj.vmin + ' to ' + invObj.vmax + ' volts. Voc at cold temperature is ' + vocCold.toFixed(0) + ' volts. Vmp at hot temperature is ' + vmpHot.toFixed(0) + ' volts.">' +
           '<div class="relative h-2.5 rounded-full bg-slate-200">' +
             '<div id="vwin" class="absolute inset-y-0 rounded-full bg-brand-100 border-2 border-brand-400 transition-all duration-700 ease-out motion-reduce:transition-none" style="left:0;width:0"></div>' +
             '<div id="mVocCold" class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 transition-all duration-700 ease-out motion-reduce:transition-none" style="left:0">' +

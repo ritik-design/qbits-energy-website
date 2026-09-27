@@ -82,7 +82,7 @@ The word "warranty" on a solar inverter brochure means almost nothing without re
 
 Most budget inverter brands offer a 2-year standard warranty that can be extended to 5 years for an additional fee. What that warranty actually covers, however, is often limited to "manufacturing defects" on specific listed components. Once the IGBT module, DC capacitors, or display board (the components most likely to fail) are excluded from the "covered defects" list, the warranty document is largely decorative.
 
-Premium brands offer a different structure: 12-year full unit replacement. If any part fails within 12 years for any reason not caused by physical mishandling, the entire inverter is swapped, not repaired. This matters because:
+The better-documented brands offer a different structure, and the structure matters more than the duration: full unit replacement rather than repair at the maker's option. Where a document promises replacement, a failed unit is swapped instead of being opened and reworked. Read the remedy clause to confirm which one you are buying, because this is where the value sits:
 
 - **Repair economics are unfavourable**: a board-level repair on a 5 kW inverter costs ₹8,000–₹15,000 in parts alone, and may not restore full efficiency.
 - **Repair timelines are long**: without a local service partner, the faulty unit is shipped to a centralised repair centre. Turnaround times of 6–10 weeks are common outside the top 8 Indian metros.

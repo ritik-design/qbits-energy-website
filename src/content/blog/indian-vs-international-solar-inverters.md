@@ -43,7 +43,7 @@ The Indian solar inverter market has crossed a maturity threshold. Leading domes
 > **TL;DR**
 > - Leading Indian manufacturers now match international brands on peak efficiency (98%), weighted efficiency (97%+), component grade, and testing rigour.
 > - Indian sourcing typically costs 15-30% less: ₹15,000-25,000 saved on a 5 kW residential system, ₹50,000-1,50,000 on a 100 kW commercial system.
-> - Indian manufacturers commonly offer 12-year full replacement warranties versus 5-10 years with more exclusions from international brands.
+> - The longest verifiable published terms in the Indian market are 10 years (Havells Enviro GTi datasheets, UTL F Series on-site), against 5 years typical for the imported string brands. Compare the remedy and exclusions, not the years.
 > - Domestic delivery runs 2-4 weeks versus 8-16 weeks for imported supply, removing most currency and customs schedule risk.
 > - WhatsApp-integrated monitoring is a distinctly Indian innovation that most international platforms do not offer.
 > - International brands still make sense for utility-scale projects above 5 MW with lender brand mandates, or for highly specialised technical requirements.

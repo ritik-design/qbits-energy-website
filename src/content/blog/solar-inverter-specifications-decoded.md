@@ -152,7 +152,7 @@ These affect installation labour and cost. Engineering teams building a full tec
 
 Leading [solar inverter manufacturers](/blog/solar-inverter-manufacturers-in-india/) verify:
 
-- **1,000+ automated tests per unit**
+- **An automated end-of-line test sequence on every unit**, with the protocol available on request
 - German-grade components
 - 24–48 hour burn-in testing
 - Full component traceability

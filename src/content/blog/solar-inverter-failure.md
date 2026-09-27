@@ -35,7 +35,7 @@ Solar inverter failures threaten project economics across India, with devices lo
 > - Failure rates run 3-8% within five years for standard inverters, versus below 2% for premium units with German-grade components, IP66 protection, and 12-year warranties.
 > - A 100 kW installation can lose ₹15,000-₹25,000 daily during an outage, and heat stress halves electrolytic capacitor lifespan for every 10°C rise.
 > - Early warning signs include gradual output decline, recurring fault codes after resets, elevated temperatures, unusual sounds, and repeated grid disconnections.
-> - Premium manufacturers run 1,000+ automated tests per unit (thermal cycling, humidity, vibration, burn-in) versus 100-200 for standard products.
+> - Premium manufacturers run automated end-of-line test sequences on every unit (thermal cycling, humidity, vibration, burn-in) versus 100-200 for standard products.
 > - A model-specific written warranty provides an estimated ₹8-12 lakhs in discounted risk protection for a 100 kW installation, versus 5-year coverage.
 > - AI-powered monitoring with WhatsApp alerts catches degradation trends weeks before a hard failure occurs.
 
@@ -100,7 +100,7 @@ Real-time monitoring tracks dozens of parameters simultaneously, identifying dev
 
 ### Testing Protocols
 
-Premium manufacturers conduct **1,000+ automated tests per unit**:
+Better manufacturers run an automated end-of-line test sequence on every unit, typically covering:
 
 - Thermal cycling
 - Voltage stress

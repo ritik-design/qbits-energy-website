@@ -81,7 +81,7 @@ A 3kW solar system in central India generates 13 to 16 kWh/day, covering the loa
 
 3. **Balance of System**: Mounting structure, DC and AC cables, junction box, SPDs, earthing, net meter interface. For 3kW: ₹22,000–₹35,000.
 4. **Installation and commissioning**: Labour, DISCOM net metering application, commissioning inspection, similar to the residential solar installation workflow EPCs follow nationwide. For 3kW: ₹14,000–₹22,000.
-5. **GST**: Approximately 12% on the total system. For a 3kW system: ₹14,000–₹20,000.
+5. **GST**: the 12% slab no longer exists. On a bundled turnkey contract the 70:30 split gives an 8.9% effective rate. For a 3 kW system: ₹10,400–₹14,800.
 
 Full 3kW cost table for a 2 BHK:
 
@@ -91,8 +91,8 @@ Full 3kW cost table for a 2 BHK:
 | On-grid inverter | ₹18,000 | ₹32,000 |
 | Balance of System | ₹22,000 | ₹32,000 |
 | Installation | ₹14,000 | ₹20,000 |
-| GST (12%) | ₹14,400 | ₹19,440 |
-| **Gross total** | **₹1,34,400** | **₹1,81,440** |
+| GST (70:30 bundled, 8.9% effective) | ₹10,680 | ₹14,420 |
+| **Gross total** | **₹1,30,680** | **₹1,76,420** |
 | Less: PM Surya Ghar ₹78,000 | −₹78,000 | −₹78,000 |
 | **Net cost** | **₹56,400** | **₹1,03,440** |
 

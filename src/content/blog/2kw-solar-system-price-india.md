@@ -62,8 +62,8 @@ Here is the full component-level cost breakdown for a standard 2kW on-grid resid
 | Balance of System (BOS) | Cables, junction box, SPD, MCB, RCCB, earthing | ₹10,000 – ₹14,000 |
 | Mounting structure | GI or aluminium, flat/sloped roof | ₹9,000 – ₹14,000 |
 | Installation and commissioning | Labour, wiring, net-meter application | ₹14,000 – ₹20,000 |
-| GST (12% system, 5% installation) | As applicable | ₹10,000 – ₹15,000 |
-| **Total before subsidy** | | **₹1,03,000 – ₹1,43,000** |
+| GST (70:30 bundled, 8.9% effective) | As applicable | ₹7,500 – ₹11,000 |
+| **Total before subsidy** | | **₹1,00,500 – ₹1,39,000** |
 | PM Surya Ghar central subsidy | ₹30,000/kW × 2kW | −₹60,000 |
 | **Net cost to homeowner** | | **₹43,000 – ₹83,000** |
 

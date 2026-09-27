@@ -18,13 +18,13 @@ faqs:
   - q: "What size solar inverter does a small shop need?"
     a: "Most kirana stores, salons, and pharmacies in India draw between 1.5 kW and 4 kW of peak load. A 2 kW on-grid inverter with a 2.5 kWp panel array covers a typical 500–700 sq ft shop that runs lights, fans, a refrigerator, and a POS terminal. Add a 5 kW unit if you run a 1.5-ton split AC during summer. Always size to peak simultaneous load, not connected load, to avoid daily clipping or transformer-protection tripping."
   - q: "Can a registered business claim GST input tax credit on a solar inverter?"
-    a: "Yes. A GST-registered shop owner who installs rooftop solar for commercial use can claim input tax credit on the 12% GST paid on the solar inverter and on the 12% GST paid on solar panels under HSN 8541. This credit is offset against the business's output GST liability, effectively reducing the net capital cost by 10–15% for a typical ₹2–3 Lakh system. Consult a chartered accountant to confirm your specific ITC eligibility and the filing procedure under GSTR-3B."
+    a: "Yes. A GST-registered shop owner who installs rooftop solar for commercial use can claim input tax credit on the GST paid on the solar inverter and on the 5% GST paid on solar panels under Schedule I entry 437. This credit is offset against the business's output GST liability, effectively reducing the net capital cost by 10–15% for a typical ₹2–3 Lakh system. Consult a chartered accountant to confirm your specific ITC eligibility and the filing procedure under GSTR-3B."
   - q: "Does net metering apply to small commercial shops in India?"
     a: "Yes. Net metering is available to commercial consumers in almost all states under CERC and SERC regulations. A registered small-commercial meter-holder can export surplus solar power to the grid during low-consumption hours and draw it back at night - paying only for the net units consumed. Maximum system size under net metering for commercial consumers is typically capped at the sanctioned load, which for a small shop is usually 5–10 kW. Apply through your DISCOM's online portal with a single-line diagram and inverter compliance certificate."
   - q: "How long is the payback period for solar on a shop with a ₹15,000/month electricity bill?"
     a: "A shop paying ₹15,000/month (₹1.8 Lakh/year) on commercial tariff typically installs a 3–5 kW system at ₹1.8–2.8 Lakh (after GST ITC). Annual savings of ₹1.3–1.6 Lakh give a simple payback of 1.5–2.2 years in high-tariff states like Maharashtra, Tamil Nadu, and Gujarat. In states with lower commercial tariffs (₹5–6/unit), payback extends to 3–4 years. Over 25 years, the net savings routinely exceed ₹30 Lakh on a single investment of under ₹3 Lakh."
   - q: "What is the GST rate on solar inverters in India?"
-    a: "Solar inverters fall under HSN 8502 and attract 12% GST as of 2026, down from the earlier 5% split between equipment and installation. Solar PV panels (HSN 8541) also attract 12% GST. The combined system cost including installation is typically taxed at 12% if purchased as a bundled supply. GST-registered businesses can claim full input tax credit on both components, while non-registered buyers bear the GST as a sunk cost. Refer to the latest CBIC circular for any rate revisions."
+    a: "Solar inverters fall under heading 8504 and attract GST under Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025, which replaced the 12% slab: 5% where the goods fall in Schedule I entry 437 as renewable energy devices, 18% where heading 8504 applies, and a 70:30 split on a bundled turnkey contract. Solar PV panels are named at item (h) of Schedule I entry 437 and attract 5% GST. The combined system cost including installation is taxed under the 70:30 Explanation to entry 437 if purchased as a bundled supply, an 8.9% effective rate. GST-registered businesses can claim full input tax credit on both components, while non-registered buyers bear the GST as a sunk cost. Refer to the latest CBIC circular for any rate revisions."
   - q: "Does IP66 rating matter for a shop installed in a market area?"
     a: "Yes, significantly. Market areas in India have elevated dust, vehicle exhaust particulates, monsoon splash-back from flooded lanes, and occasional pressure-washing of adjacent shopfronts. An IP66-rated inverter is sealed against dust ingress and against powerful water jets from any direction - far beyond the IP65 protection that blocks only low-pressure water. Shops in coastal markets face salt-laden air that corrodes exposed circuit boards within 18–24 months. IP66 inverters extend service intervals and reduce board-replacement expenses that are otherwise the single largest maintenance cost."
   - q: "Can I install solar on a rented shop?"
@@ -46,7 +46,7 @@ Every month, lakhs of small shop owners across India hand over ₹8,000 to ₹25
 > **TL;DR**
 > - Most small shops need a 1.5–5 kW on-grid inverter; a 3 kW system with 3.5–4 kWp of panels is the most common fit for pharmacies, salons, and electronics retailers.
 > - Commercial tariffs of ₹7–12/unit make solar payback faster for shops than for homes, typically 1.5–4 years depending on the state's tariff level.
-> - GST-registered shops can claim input tax credit on the 12% GST charged on inverters and panels, plus 40% accelerated depreciation in year one.
+> - GST-registered shops can claim input tax credit on the GST charged on inverters and panels, plus 40% accelerated depreciation in year one.
 > - Net metering approval must be filed with the DISCOM before installation to avoid rejection over sanctioned-load or ALMM-listing issues.
 > - IP66 weather protection is a practical necessity, not a premium extra, for shops in dusty, splash-prone market lanes.
 
@@ -100,7 +100,7 @@ This proprietary framework collapses the commercial solar buying decision into f
 
 3. **Net Metering Application**: File the net metering application with your DISCOM before installation begins. In most states, the DISCOM issues a feasibility letter within 15–30 days. This letter specifies the maximum exportable capacity and the bi-directional meter specification. Building the system before this approval can result in rejection of the net meter application and loss of the export benefit.
 
-4. **GST ITC Claim**: If your shop is GST-registered, preserve all tax invoices showing HSN 8502 (inverter) and HSN 8541 (solar panels) with 12% GST clearly stated. File ITC claims in GSTR-3B in the month of installation. The refundable credit reduces your effective system cost by ₹20,000–₹40,000 on a typical ₹2–3 Lakh system, a benefit that residential buyers simply cannot access.
+4. **GST ITC Claim**: If your shop is GST-registered, preserve all tax invoices showing HSN 8504 (inverter) and HSN 8541 (solar panels) with the GST rate and the schedule entry clearly stated. File ITC claims in GSTR-3B in the month of installation. The refundable credit reduces your effective system cost by ₹20,000–₹40,000 on a typical ₹2–3 Lakh system, a benefit that residential buyers simply cannot access.
 
 Applying this four-step sequence in order avoids the two most expensive mistakes: buying an undersized system that fails to cover the AC load in May, and buying an oversized system that exports more than the DISCOM will accept.
 
@@ -124,13 +124,13 @@ According to the [Central Electricity Regulatory Commission's net metering frame
 
 This is the financial advantage that makes commercial solar more attractive than residential solar on a net-cost basis, yet it is the benefit most shop owners either do not know about or fail to claim correctly.
 
-Under India's GST framework, a registered business purchasing capital goods for commercial use can claim input tax credit on the GST paid. Solar inverters (HSN 8502) attract 12% GST. Solar panels (HSN 8541) attract 12% GST. A 3 kW system with a ₹1.5 Lakh installed cost (pre-GST) carries approximately ₹18,000 of GST. A 5 kW system at ₹2.5 Lakh (pre-GST) carries ₹30,000 of GST.
+Under India's GST framework, a registered business purchasing capital goods for commercial use can claim input tax credit on the GST paid. Solar inverters are not named in entry 437, so the rate turns on classification, 5% as a renewable energy device or 18% under heading 8504. Solar panels are named at item (h) of Schedule I entry 437 and attract 5% GST. A 3 kW system with a ₹1.5 Lakh installed cost (pre-GST) carries approximately ₹18,000 of GST. A 5 kW system at ₹2.5 Lakh (pre-GST) carries ₹30,000 of GST.
 
-| System Size | Approx. Pre-GST Cost | GST at 12% | Net Cost After ITC (GST-Registered Business) |
+| System Size | Approx. Pre-GST Cost | GST at the 8.9% bundled rate | Net Cost After ITC (GST-Registered Business) |
 | --- | --- | --- | --- |
-| 2 kW on-grid | ₹90,000 | ₹10,800 | ₹90,000 |
-| 3 kW on-grid | ₹1,40,000 | ₹16,800 | ₹1,40,000 |
-| 5 kW on-grid | ₹2,40,000 | ₹28,800 | ₹2,40,000 |
+| 2 kW on-grid | ₹90,000 | ₹8,010 | ₹90,000 |
+| 3 kW on-grid | ₹1,40,000 | ₹12,460 | ₹1,40,000 |
+| 5 kW on-grid | ₹2,40,000 | ₹21,360 | ₹2,40,000 |
 
 A GST-registered business claims the ₹16,800 or ₹28,800 back through GSTR-3B. The net capital expenditure after ITC is therefore equivalent to what the table shows as "pre-GST cost", while a non-registered buyer pays the full amount including GST. For a detailed breakdown of the applicable rates, refer to the [complete guide on GST on solar inverters](/blog/gst-on-solar-inverters-2026/), and for a layer-by-layer look at hardware, BOS, and soft costs across system sizes, see the [solar inverter installation cost guide](/blog/solar-inverter-installation-cost/).
 
@@ -153,7 +153,7 @@ Consider a pharmacy in Coimbatore, Tamil Nadu. Current electricity profile:
 
 **Step 3, Cost and payback**:
 - System cost: 3 kW inverter + 4.8 kWp panels + mounting + wiring + installation = ₹2,05,000 (pre-GST)
-- GST at 12% = ₹24,600 (fully claimable as ITC)
+- GST at the 8.9% bundled rate = ₹18,245 (fully claimable as ITC)
 - Net capex for registered business = ₹2,05,000
 - Annual savings = ₹7,500/month × 12 = ₹90,000
 - Simple payback = ₹2,05,000 ÷ ₹90,000 = **2.3 years**

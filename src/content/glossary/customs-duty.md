@@ -38,7 +38,7 @@ faqs:
   - q: "What is BCD?"
     a: "Basic Customs Duty. Primary import tax. 40 percent on modules, 25 percent on cells, 7.5 percent on inverters."
   - q: "What is the total import burden?"
-    a: "BCD + Social Welfare Surcharge (10% of BCD) + IGST (12-18%) + cess. Effectively 50-65 percent landed cost over invoice."
+    a: "BCD + Social Welfare Surcharge (10% of BCD) + IGST (5-18%) + cess. Effectively 50-65 percent landed cost over invoice."
   - q: "When was the duty imposed?"
     a: "April 2022 for 40% BCD on modules, replacing the earlier safeguard duty regime."
   - q: "Why was duty imposed?"
@@ -107,10 +107,10 @@ Pricing of Indian modules. Domestic prices can rise to imports, duty without los
 For ₹10 invoice value of imported module:
 - Basic Customs Duty (40%): ₹4.00
 - Social Welfare Surcharge (10% of BCD): ₹0.40
-- [IGST](/glossary/gst-on-solar/) (12% of total): ₹1.73
-- Total landed: ₹16.13
+- [IGST](/glossary/gst-on-solar/) (5% of total, modules are named at Schedule I entry 437): ₹0.72
+- Total landed: ₹15.12
 
-Effective duty: 61% over invoice value.
+Effective duty: 51% over invoice value.
 
 ## Technical deep dive
 

@@ -29,7 +29,7 @@ faqs:
   - q: "Is the Fronius GEN24 hybrid worth buying in India?"
     a: "The Fronius GEN24 Plus is a genuinely strong hybrid inverter with native battery support, PV Point backup up to 3 kW without a battery, and excellent monitoring through Solar.web. The problem in India is cost and support: a GEN24 Primo Plus lands at roughly ₹1.1 to ₹1.4 Lakh after duty, versus ₹68,000 to ₹85,000 for an Indian hybrid with a model-specific written warranty and local service. If you value the Fronius ecosystem and have a certified installer nearby, it is a good product. For value per rupee and service speed, an Indian hybrid usually wins."
   - q: "Why are European inverters more expensive in India?"
-    a: "European inverters cost more in India for three structural reasons. First, imported inverters attract basic customs duty of around 20% plus 12% GST on the landed value. Second, the distributor chain adds two or three margin layers before the unit reaches your installer. Third, premium European brands price for their home markets where labour and compliance costs are higher. The result is a 5 kW European inverter at ₹70,000 to ₹1.1 Lakh doing the same job as an Indian unit at ₹48,000 to ₹62,000 with a longer warranty."
+    a: "European inverters cost more in India for three structural reasons. First, imported inverters attract basic customs duty of around 20% plus IGST on the landed value. Second, the distributor chain adds two or three margin layers before the unit reaches your installer. Third, premium European brands price for their home markets where labour and compliance costs are higher. The result is a 5 kW European inverter at ₹70,000 to ₹1.1 Lakh doing the same job as an Indian unit at ₹48,000 to ₹62,000 with a longer warranty."
 featured: false
 ---
 
@@ -44,7 +44,7 @@ Fronius and SMA are the two premium European inverter brands most often quoted t
 > **TL;DR**
 > - Fronius Primo 5 kW costs roughly ₹70,000 in India. The SMA Sunny Boy 5.0 lands at ₹85,000 to ₹1.1 Lakh after import duty, per 2026 distributor listings.
 
-> - Imported inverters carry around 20% basic customs duty plus 12% GST, which explains most of the price gap.
+> - Imported inverters carry around 20% basic customs duty plus IGST, which explains most of the price gap.
 > - Service for both brands runs through importers and distributors, with typical replacement turnaround of one to four weeks and no published on-site SLA for homes.
 > - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy requires the exact model on the ALMM list; check before paying any advance, because a non-listed model forfeits up to ₹78,000.
 
@@ -62,7 +62,7 @@ Both brands have Indian subsidiaries. Fronius India operates from Pune, and SMA 
 
 ## What They Cost in India in 2026 (After Import Duty)
 
-Imported inverters attract basic customs duty of around 20% plus 12% GST on the landed value. Our [BCD import duty on solar inverters](/blog/bcd-import-duty-solar-inverters-india/) explainer has the details. Add distributor and installer margins, and European pricing inflates fast.
+Imported inverters attract basic customs duty of around 20% plus IGST on the landed value, at the rate the classification carries under Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025. Our [BCD import duty on solar inverters](/blog/bcd-import-duty-solar-inverters-india/) explainer has the details. Add distributor and installer margins, and European pricing inflates fast.
 
 | Model | Type | Indicative India price (2026) | Comparable Indian unit |
 | --- | --- | --- | --- |

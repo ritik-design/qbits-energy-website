@@ -25,7 +25,7 @@ faqs:
   - q: "Kya subsidy wale system mein ALMM aur DCR panel zaroori hai?"
     a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "Solar inverter par GST kitna lagta hai?"
-    a: "Solar inverters पर GST 12% लगता है। Panels और balance of system components पर भी concessional rate applicable होता है, लेकिन installation service component का treatment अलग हो सकता है। इसलिए quote में हमेशा पूछें कि figure GST inclusive है या exclusive। एक ₹1.8 lakh का quote अगर GST exclusive है तो final bill ₹2 lakh के आसपास पहुँच जाता है।"
+    a: "12% slab ab khatam hai (Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025). Solar inverters par classification ke hisaab se 5% ya 18% lagta hai. Panels और balance of system components पर भी concessional rate applicable होता है, लेकिन installation service component का treatment अलग हो सकता है। इसलिए quote में हमेशा पूछें कि figure GST inclusive है या exclusive। एक ₹1.8 lakh का quote अगर GST exclusive है तो final bill ₹2 lakh के आसपास पहुँच जाता है।"
   - q: "Net metering ka kharcha kitna hota hai?"
     a: "Net metering charges state DISCOM के हिसाब से बदलते हैं। Application या processing fee आमतौर पर ₹500 से ₹3,000, bidirectional meter cost ₹2,500 से ₹8,000, और कुछ states में security deposit या feasibility inspection fee अलग से। कई DISCOMs में meter खुद supply करती है और cost bill में add होती है। Total ₹3,000 से ₹12,000 का range realistic मानकर चलें।"
   - q: "Solar system ka AMC kharcha kitna aata hai?"
@@ -47,7 +47,7 @@ Solar लगवाने की सोच रहे हैं तो सबस�
 > - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy maximum ₹78,000 है और 3 kW पर cap हो जाती है, 5 kW वाले को भी उतना ही मिलता है।
 > - Net out-of-pocket: 3 kW में ₹77,000 से ₹1.32 lakh, 5 kW में ₹1.67 lakh से ₹2.47 lakh।
 > - Subsidy के लिए ALMM listed equipment और DCR panels अनिवार्य हैं, सस्ता non-DCR panel subsidy खा जाता है।
-> - Solar inverter पर GST 12% है, और net metering charges हर state [DISCOM](/glossary/discom/) में अलग हैं।
+> - Solar inverter par GST classification ke hisaab se 5% ya 18% hai, 12% slab khatam, और net metering charges हर state [DISCOM](/glossary/discom/) में अलग हैं।
 
 **Short version.** Ghar par solar panel lagane ka kharcha 2026 में 3 kW के लिए ₹1.55 lakh से ₹2.10 lakh तक है, सब कुछ included। [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) की ₹78,000 subsidy के बाद net ₹77,000 से ₹1.32 lakh पड़ता है। 5 kW का gross ₹2.45 lakh से ₹3.25 lakh है और subsidy वही ₹78,000 रहती है, इसलिए net ₹1.67 lakh से ₹2.47 lakh बनता है।
 
@@ -111,7 +111,7 @@ Solar लगवाने की सोच रहे हैं तो सबस�
 
 **Net metering।** Application fee, bidirectional meter, और कुछ states में testing fee। Meter DISCOM supply करे या vendor, यह लिखवाएँ। [Net metering process की पूरी guide](/blog/how-to-apply-net-metering-india/) में state-wise steps हैं।
 
-**GST।** Solar inverter पर GST 12% है। कई quotes "plus taxes" लिखकर आती हैं। ₹1.8 lakh का hardware quote GST exclusive हो तो final ₹2 lakh पार कर जाता है।
+**GST।** Solar inverter par GST classification ke hisaab se 5% ya 18% hai; 12% slab khatam ho gaya. कई quotes "plus taxes" लिखकर आती हैं। ₹1.8 lakh का hardware quote GST exclusive हो तो final ₹2 lakh पार कर जाता है।
 
 **AMC।** पहले साल free माना जाता है लेकिन दूसरे साल से ₹2,000 से ₹6,000 सालाना। 25 साल के life में यह छोटी line बड़ी बन जाती है।
 

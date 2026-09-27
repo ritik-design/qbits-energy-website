@@ -126,11 +126,11 @@ For typical 3 kW residential:
 - Equipment cost (pre-GST): ₹1.20 lakh
 - Installation service: ₹30,000
 - Total pre-GST: ₹1.50 lakh
-- GST on equipment (12%): ₹14,400
+- GST on equipment (5%, Schedule I entry 437): ₹6,000
 - GST on services (18%): ₹5,400
-- Total with GST: ₹1.70 lakh
+- Total with GST: ₹1.61 lakh
 - PM Surya Ghar subsidy: ₹78,000 (max)
-- Net customer cost: ₹92,000
+- Net customer cost: ₹83,400
 
 ### Impact on C&I solar
 
@@ -155,7 +155,7 @@ For business customers, GST is effectively pass-through (collected and offset), 
 ### ITC mechanism
 
 Business customer:
-1. Pays 12% GST on solar equipment purchase
+1. Pays GST on the solar equipment purchase at the rate its classification carries
 2. Collects 18% GST on power sales (if applicable) or other output
 3. Claims ITC on solar GST against output GST
 4. Net cash outflow = output GST, input GST credit

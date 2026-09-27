@@ -175,7 +175,7 @@ Not every buyer should default to an Indian-made inverter. A fair assessment req
 | **PM Surya Ghar subsidy** | ✓ ALMM-listed, subsidy-eligible | ✗ Non-ALMM brands forfeit subsidy |
 | **India-grid firmware** | ✓ 180–270 V tested | ✗ Often European tolerance |
 | **After-sales in Tier-3** | ✓ Domestic network, regional languages | ✗ Variable, aggregator-dependent |
-| **Warranty depth** | ✓ Up to 12-year full replacement | ✗ Typically 5–10 years, prorated |
+| **Warranty depth** | ✓ Up to 10 years published (Havells, UTL) | ✗ Typically 5 years on imported string brands, often prorated |
 | **Global installed base** | ✗ Smaller, newer track record | ✓ 20+ year field history (Sungrow, Fronius) |
 | **Large C&I bankability** | ✗ Emerging for >100 kW projects | ✓ Lender preference for proven OEMs |
 | **Monitoring platform depth** | ✓ WhatsApp-native, India-preferred | ✓ Cloud platforms, often EU/US-centric |

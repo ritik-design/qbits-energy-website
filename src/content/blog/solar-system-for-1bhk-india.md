@@ -112,7 +112,7 @@ The **True Cost of Going Solar** framework identifies five cost components for a
 
 3. **Balance of System (BOS)**: Mounting structure, cables, junction box, SPD, [earthing](/glossary/earthing/), [net meter interface](/glossary/net-metering/). For 1–2kW: ₹12,000–₹20,000.
 4. **Installation and commissioning**: Labour, civil, DISCOM application, following the same residential solar installation process EPCs use nationwide. For 1–2kW: ₹8,000–₹15,000.
-5. **[GST](/blog/gst-on-solar-inverters-2026/)**: 12% on panels, 12–18% on inverter and BOS. Approximate GST on 1–2kW system: ₹6,000–₹12,000.
+5. **[GST](/blog/gst-on-solar-inverters-2026/)**: the 12% slab no longer exists. Panels are named at Schedule I entry 437 at 5%, the inverter is 5% or 18% by classification, and a bundled turnkey contract uses the 70:30 split for an 8.9% effective rate. Approximate GST on a 1 to 2 kW system: ₹4,700–₹10,000.
 
 | Cost Component | 1kW System | 2kW System |
 | --- | --- | --- |
@@ -120,10 +120,10 @@ The **True Cost of Going Solar** framework identifies five cost components for a
 | Inverter (on-grid) | ₹10,000–₹16,000 | ₹14,000–₹22,000 |
 | Balance of System | ₹12,000–₹15,000 | ₹15,000–₹20,000 |
 | Installation | ₹8,000–₹10,000 | ₹10,000–₹14,000 |
-| GST (approx. 12%) | ₹6,360–₹8,280 | ₹9,960–₹13,440 |
-| **Gross total** | **₹59,360–₹77,280** | **₹92,960–₹1,25,440** |
+| GST (70:30 bundled, 8.9% effective) | ₹4,720–₹6,140 | ₹7,390–₹9,970 |
+| **Gross total** | **₹57,720–₹75,140** | **₹90,390–₹1,21,970** |
 | Less: PM Surya Ghar subsidy | −₹30,000 | −₹60,000 |
-| **Net cost to homeowner** | **₹29,360–₹47,280** | **₹32,960–₹65,440** |
+| **Net cost to homeowner** | **₹27,720–₹45,140** | **₹30,390–₹61,970** |
 
 *Practical quotes from installers land in ₹65,000–₹85,000 gross for 1kW and ₹1,00,000–₹1,30,000 for 2kW. After subsidy: ₹35,000–₹55,000 (1kW) and ₹40,000–₹70,000 (2kW).*
 

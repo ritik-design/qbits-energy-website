@@ -49,7 +49,7 @@ For solar EPCs in India, inverter quality, reliability, and testing rigour direc
 > - Evaluate reliability across 9 indicators: components, certifications, factory testing, warranty, manufacturer track record, weather protection, surge protection, monitoring, and efficiency.
 > - Premium components (105 °C Japanese capacitors, Infineon IGBTs) last 15-20 years versus 3-5 years for generic parts, at only a 20-30% cost premium.
 > - A 10-model-specific written warranty signals real manufacturer confidence; 5-7 year repair-only terms signal an expected mid-life failure.
-> - Reputable manufacturers run 1,000+ automated tests per unit with burn-in and thermal cycling, not batch sampling.
+> - Reputable manufacturers run automated end-of-line testing on every unit with burn-in and thermal cycling, not batch sampling.
 > - Watch for 8 quality red flags, including generic components, sample-only QC, IP54/IP65 in place of IP66, and pro-rated warranty coverage.
 > - A single warranty event on a 100 kW commercial installation can cost ₹55,000-1,05,000 once replacement, labour, and downtime are combined.
 
@@ -115,7 +115,7 @@ Manufacturers conducting batch-sample testing instead of unit-level testing shou
 | --- | --- |
 | 5-7 year repair only | Manufacturer expects failures within window; designed for low cost not durability |
 | 8-10 year repair or partial replacement | Acceptable for short-horizon residential |
-| **10-12 year full replacement** | **High manufacturer confidence; supports 25-year ROI models** |
+| **10 year full replacement, where documented** | **High manufacturer confidence; supports 25-year ROI models** |
 
 Full replacement warranties dramatically outperform repair-only options. The [model-specific written warranty](/blog/12-year-solar-inverter-warranty/) standard is becoming the differentiator for premium positioning; the [best solar inverter with the longest warranty in India](/blog/best-solar-inverter-longest-warranty-india/) comparison ranks current offerings against this benchmark.
 
@@ -320,8 +320,8 @@ Apply this scorecard to every candidate supplier:
 | --- | --- |
 | Components | German-grade or Japanese-grade (Infineon, Nippon Chemi-Con) |
 | ALMM scope | Verify current PV module and cell requirements |
-| Factory testing | 1,000+ automated tests per unit |
-| Warranty | 12-year full replacement |
+| Factory testing | Written test protocol, burn-in duration, and per-unit records |
+| Warranty | Written base term, and whether the remedy is replacement or repair |
 | Track record | India installed base verified, 1,000+ units, 3+ years |
 | Weather protection | IP66 + 50 deg C+ ambient rating |
 | Surge protection | Integrated DC + AC, 20 kA+ |

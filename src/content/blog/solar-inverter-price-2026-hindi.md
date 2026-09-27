@@ -24,7 +24,7 @@ faqs:
   - q: "Cheap solar inverter और expensive inverter में क्या difference है?"
     a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "Solar inverter price में GST कितना लगता है?"
-    a: "Solar inverter पर GST 12% है। Quote में GST clearly mention होना चाहिए। PM Surya Ghar subsidised installations में GST treatment different है - government subsidy portion पर GST implications check करें। [GST on solar inverters guide](/blog/gst-on-solar-inverters-2026/) में detailed breakdown है।"
+    a: "12% slab ab khatam hai (Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025). Solar inverter par classification ke hisaab se 5% (renewable energy device, Schedule I entry 437) ya 18% (heading 8504) lagta hai. Quote में GST clearly mention होना चाहिए। PM Surya Ghar subsidised installations में GST treatment different है - government subsidy portion पर GST implications check करें। [GST on solar inverters guide](/blog/gst-on-solar-inverters-2026/) में detailed breakdown है।"
   - q: "Online vs local dealer - solar inverter कहाँ से खरीदें?"
     a: "PM Surya Ghar के लिए: Portal पर listed empanelled vendor से ही खरीदें - यह mandatory है। Non-PM Surya Ghar replacement या C&I के लिए: Authorized dealer preferred है - warranty, installation support, और genuine products guarantee। Online marketplaces से warranty issues हो सकती हैं।"
   - q: "Solar inverter price 2026 vs 2024 में कितना बदला?"
@@ -160,7 +160,7 @@ Vendor quote में जो often नहीं होता:
 | MC4 connectors extra | ₹500–₹2,000 |
 | Wall/roof penetration work | ₹1,000–₹3,000 |
 | Net metering application fee | ₹1,000–₹5,000 |
-| GST (12% on inverter) | Calculated separately |
+| GST (classification decides 5% or 18%) | Calculated separately |
 
 Total hidden costs: ₹10,000–₹25,000 typically। "All-inclusive" quote माँगें।
 
@@ -178,7 +178,7 @@ Premium inverter 15-year period में actually सबसे सस्ता 
 
 ## GST और Import Duty: Price Impact
 
-- **GST on solar inverters:** 12%
+- **GST on solar inverters:** classification ke hisaab se 5% ya 18%, 12% slab khatam
 - **BCD (Basic Customs Duty) on inverter components:** 0% for most parts
 - **Safeguard duty on solar cells/panels:** 40% on Chinese imports
 

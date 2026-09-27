@@ -185,7 +185,7 @@ An itemised quotation removes this latitude. Professional installers increasingl
 - **[Surge protection device (SPD)](/glossary/spd/)**: DC-side and AC-side separately
 - **Net metering application charge**: explicitly listed, not hidden in installation fee
 - **Labour charge**: separately stated
-- **GST**: 12% on goods, 18% on services, correctly computed
+- **GST**: 5% on renewable energy devices under Schedule I entry 437, 18% on services, correctly computed
 
 If the installer cannot provide model-level specifications for every component, they are either not planning to use quality components or they do not have enough technical knowledge to select them correctly.
 

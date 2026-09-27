@@ -182,7 +182,7 @@ Degradation in any of these causes tracking accuracy to drift over time, reducin
 
 | Warranty length | What it signals |
 | --- | --- |
-| 12-year full replacement | Strong manufacturer confidence in MPPT and power stage |
+| 10 years or more with full replacement | Strong manufacturer confidence in MPPT and power stage |
 | 3–5 years | Manufacturer expects degradation within that window |
 
 The [12-year solar inverter warranty](/blog/12-year-solar-inverter-warranty/) is fast becoming the industry baseline in India; **BIS/IEC certification** is a baseline floor, not a ceiling, look for manufacturers exceeding it.

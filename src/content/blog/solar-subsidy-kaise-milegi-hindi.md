@@ -292,7 +292,7 @@ Subsidy bank में आने के बाद करने वाली च�
 Solar subsidy पर tax implications जानना जरूरी है:
 
 - **Subsidy taxable है?**: Capital subsidy के रूप में treat होती है - income नहीं। Current Income Tax guidelines के under, government solar scheme subsidies homeowner के हाथ में taxable income नहीं हैं।
-- **[GST on system](/glossary/gst-on-solar/)**: Solar panels पर 5% GST, inverter पर 12% GST। Vendor quote में GST clearly mentioned होना चाहिए।
+- **[GST on system](/glossary/gst-on-solar/)**: 12% slab ab khatam ho gaya hai (Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025)। Renewable energy devices Schedule I entry 437 mein 5% par hain, heading 8504 par 18% lag sakta hai, aur bundled turnkey contract par 70:30 split lagta hai। Vendor quote में GST clearly mentioned होना चाहिए।
 - **Solar depreciation**: Commercial properties में solar system पर 40% [accelerated depreciation](/glossary/accelerated-depreciation/) benefit available है।
 
 Tax advisor से अपनी specific situation consult करें। [Solar inverter depreciation guide](/blog/solar-inverter-depreciation-in-india/) में details हैं।

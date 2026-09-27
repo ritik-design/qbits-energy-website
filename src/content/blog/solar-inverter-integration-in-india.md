@@ -287,7 +287,7 @@ The final phase that protects warranty and customer satisfaction.
 | DC oversizing | 130-150% optimal |
 | Voltage tolerance | +/-15-20% wide tolerance |
 | Anti-islanding | <2 seconds per IEC 61727 |
-| Premium warranty | 12-year full replacement |
+| Premium warranty | Full unit replacement rather than repair at the maker's option |
 
 ## Common Integration Challenges in India
 

@@ -44,7 +44,7 @@ Every month, finance managers at Indian factories, hospitals, and commercial bui
 > - [Accelerated depreciation](https://www.heavengreenenergy.com/blog/accelerated-depreciation-solar) under Section 32 cuts effective LCOE by roughly 10–15%, from ₹2.75/kWh to ₹2.48/kWh in the worked example.
 > - LCOE becomes a banking requirement once a project needs a term loan, crosses roughly ₹50–75 lakh in CAPEX, or applies for open access status.
 > - Using flat annual generation instead of a degradation-adjusted series is the most common modelling error, overstating lifetime output by 6–8%.
-> - A 12-year full-replacement inverter warranty removes the mid-life replacement provision from the DSCR model, directly strengthening project bankability.
+> - A long full-replacement inverter warranty, where the written document actually provides one, reduces the mid-life replacement provision in the DSCR model and strengthens project bankability.
 
 > **Direct answer.** The LCOE of solar in India for a 50 kW C&I rooftop installation is ₹2.5–3.5/kWh, calculated as total discounted lifetime cost (CAPEX + O&M) divided by total discounted lifetime generation (91,250 kWh in Year 1, declining 0.5%/year over 25 years, at an 8–10% discount rate). This is two to four times cheaper than the commercial grid tariff and five to eight times cheaper than diesel generation. The C&I LCOE Calculator (6 Inputs, One Number) gives any CFO or CA a defensible figure in under 30 minutes.
 
@@ -237,7 +237,7 @@ Many LCOE models presented by EPCs omit the accelerated depreciation tax shield 
 
 ### Error 5: Applying GST on the Wrong Base
 
-[GST on solar inverters and balance-of-system components](/blog/gst-on-solar-inverters-2026/) in India varies by component type. Solar modules attract 12% GST, inverters attract 12%, mounting structures attract 18%, and civil/electrical work attracts 18% as a service. An LCOE model must use GST-inclusive costs (since most C&I buyers cannot fully claim input credit on solar, which is used for captive consumption rather than taxable supply). Underestimating effective GST on the BOS components inflates CAPEX by 3–6% and correspondingly raises LCOE.
+[GST on solar inverters and balance-of-system components](/blog/gst-on-solar-inverters-2026/) in India varies by component type. Solar modules attract 5% GST under Schedule I entry 437, inverters 5% or 18% depending on classification, mounting structures 18%, and civil or electrical work attracts 18% as a service. An LCOE model must use GST-inclusive costs (since most C&I buyers cannot fully claim input credit on solar, which is used for captive consumption rather than taxable supply). Underestimating effective GST on the BOS components inflates CAPEX by 3–6% and correspondingly raises LCOE.
 
 ## LCOE for a 50 kW Plant: Year-by-Year Cash Flow Summary
 

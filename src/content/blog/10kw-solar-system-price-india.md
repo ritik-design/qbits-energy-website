@@ -59,7 +59,7 @@ The **True Cost of Going Solar** framework applies identically to a 10kW system 
 2. **Inverter**: A 10kW on-grid string inverter: ₹45,000–₹90,000 depending on brand, phase (single or three), and warranty. A 10kW hybrid inverter: ₹80,000–₹1,40,000.
 3. **Balance of System (BOS)**: Heavier mounting structure (10kW carries 20+ panels), longer cable runs, larger combiner box, three-phase-rated SPDs, and earthing system. BOS for 10kW: ₹55,000–₹90,000.
 4. **Installation and commissioning**: Labour for 20+ panels, structural work, DISCOM three-phase meter application. Installation cost: ₹25,000–₹45,000.
-5. **GST**: 12% on panels, 12–18% on inverters and BOS. Total GST on a 10kW system: ₹45,000–₹70,000.
+5. **GST**: the 12% slab no longer exists (Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025). Renewable energy devices sit at 5% under Schedule I entry 437, heading 8504 static converters at 18%, and a bundled turnkey contract uses the 70:30 split for an 8.9% effective rate. Total GST on a 10 kW system at that bundled rate: roughly ₹33,000–₹52,000. Confirm the entry your supplier relies on.
 
 Full cost table:
 
@@ -69,11 +69,11 @@ Full cost table:
 | Inverter (10kW) | ₹65,000 | ₹1,20,000 | ₹80,000 (3-phase) |
 | Balance of System | ₹70,000 | ₹80,000 | ₹90,000 |
 | Installation & commissioning | ₹35,000 | ₹40,000 | ₹45,000 |
-| GST (approx. 12%) | ₹49,200 | ₹57,600 | ₹54,600 |
-| **Gross total** | **₹4,59,200** | **₹5,37,600** | **₹5,09,600** |
+| GST (70:30 bundled, 8.9% effective) | ₹36,500 | ₹42,700 | ₹40,500 |
+| **Gross total** | **₹4,46,500** | **₹5,22,700** | **₹4,95,500** |
 | Less: PM Surya Ghar subsidy | −₹78,000 | −₹78,000 | Not eligible |
 | Less: Accelerated depreciation benefit (yr 1) | - | - | −₹63,600 est. |
-| **Effective net cost** | **₹3,81,200** | **₹4,59,600** | **₹4,46,000** |
+| **Effective net cost** | **₹3,68,500** | **₹4,44,700** | **₹4,31,900** |
 
 > **40%.** The accelerated depreciation rate available to commercial solar buyers under Section 32 of the Income Tax Act (plant and machinery category). On a ₹5,09,600 system, the year-1 tax saving at 31.2% effective rate is approximately ₹63,600, further improving commercial payback. *Source - [Central Board of Direct Taxes (CBDT)](https://www.incometax.gov.in/){target="_blank" rel="noopener"}, 2026.*
 

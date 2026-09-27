@@ -36,7 +36,7 @@ faqs:
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 > **TL;DR**
-> - BCD on imported solar inverters (HS code 8504) is 20% as of 2026; modules attract 40% and cells 25%, on top of IGST at 12-18% and a 10% Social Welfare Surcharge on the BCD amount.
+> - BCD on imported solar inverters (HS code 8504) is 20% as of 2026; modules attract 40% and cells 25%, on top of IGST at 5-18% and a 10% Social Welfare Surcharge on the BCD amount.
 > - Inverters manufactured in India, regardless of the parent company's ownership, attract zero BCD and only domestic GST, a structural cost gap of roughly 20-25% versus imported units.
 
 > - Chinese OEMs such as Sungrow, Growatt, Huawei, and Deye are exposed to the full 20% BCD on units imported directly, unless they scale India manufacturing.
@@ -52,7 +52,7 @@ The [ALMM list](/glossary/almm-list/) and BCD are two separate policy instrument
 
 | Product | HS Code | BCD Rate | IGST | Effective Total Duty |
 | --- | --- | --- | --- | --- |
-| Solar inverter (string/central) | 8504 | **20%** | 12%–18% | ~35–42% |
+| Solar inverter (string/central) | 8504 | **20%** | 5%–18% | ~35–42% |
 | Solar PV module | 8541 | **40%** | 5% | ~47% |
 | Solar PV cell | 8541 | **25%** | 5% | ~32% |
 | Mounting structure (aluminium) | 7610/7604 | 10%–15% | 18% | ~30% |
@@ -84,7 +84,7 @@ The Import Duty Impact Calculator applies the following formula:
 | **Total duties** | | **₹17,584** |
 | **Landed cost** | ₹40,000 + ₹17,584 | **₹57,584** |
 
-The same inverter manufactured in India and sold domestically would attract only IGST at 12–18% on the ex-works price, no BCD, no SWS. The landed cost advantage of domestic manufacture is approximately 20–25% before factoring in logistics.
+The same inverter manufactured in India and sold domestically would attract only IGST at 5–18% on the ex-works price, depending on classification, no BCD, no SWS. The landed cost advantage of domestic manufacture is approximately 20–25% before factoring in logistics.
 
 ## The Import Duty Impact Calculator
 
@@ -95,7 +95,7 @@ Apply this five-step framework to any inverter procurement decision involving an
 1. **Determine CIF value**: get the supplier's CIF India price (Cost, Insurance, Freight to Indian port). Do not use ex-works prices without adding freight, insurance, and port handling.
 2. **Apply BCD**: multiply CIF by 20% for inverters, 40% for modules, 25% for cells.
 3. **Calculate SWS**: multiply BCD by 10% (Social Welfare Surcharge is levied on BCD).
-4. **Calculate IGST**: sum CIF + BCD + SWS, then multiply by the applicable IGST rate (12% or 18% depending on product classification).
+4. **Calculate IGST**: sum CIF + BCD + SWS, then multiply by the applicable IGST rate (5% or 18% depending on product classification).
 5. **Compare with ALMM-listed domestic alternative**: the domestic product's true cost is ex-works price + domestic freight + GST input credit. The net difference reveals the true import premium.
 
 Pairing this framework with a broader [solar design and estimation toolkit](https://surgepv.com/tools/) lets EPCs model landed cost alongside system design and string sizing in the same workflow, rather than treating customs math as a separate spreadsheet exercise.

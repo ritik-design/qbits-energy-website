@@ -105,7 +105,7 @@ Critical criteria:
 - **Weather protection** ([IP66-rated](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/))
 - **[MPPT](/glossary/mppt/)** voltage range and start-up characteristics
 - **Monitoring** (AI analytics, mobile, instant alerts)
-- **Warranty** ([12-year full replacement](/blog/12-year-solar-inverter-warranty/))
+- **Warranty** ([the written remedy and base term, not the headline years](/blog/12-year-solar-inverter-warranty/))
 
 For a deeper walkthrough of the DC oversizing decision itself, see the [DC oversizing in solar FAQ guide](/blog/dc-oversizing-in-solar/).
 
@@ -124,9 +124,9 @@ Procurement considerations:
 
 | Factor | What to verify |
 | --- | --- |
-| Warranty | 12-year full replacement vs 5-year limited |
+| Warranty | Full unit replacement vs repair only, plus the written base term |
 | After-sales | Service network coverage, India-based support |
-| Quality testing | 1,000+ automated tests per unit |
+| Quality testing | Ask for the factory test protocol and the per-unit test record |
 | Components | German-grade electronics vs generic |
 | Supply chain | Lead times, delivery reliability |
 | [TCO](/blog/inverter-tco/) | 25-year cost analysis, not unit price alone |

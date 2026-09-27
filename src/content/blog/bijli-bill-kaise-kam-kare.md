@@ -88,7 +88,7 @@ Fix simple hai: entertainment unit aur work desk par switchable power strips lag
 
 <div class="inline-cta">
 <h3>Bill Ka Sabse Bada Hissa Kya Hai, Pata Nahi?</h3>
-<p>Apna pichhla bill aur appliance list bhejein। Qbits ka engineer batayega ki efficiency se kitna bachega aur solar kis point par sahi rahega, bina koi pressure ke।</p>
+<p>Apna bill aur load data share karne se pehle advisory scope, assumptions aur fees confirm karein। Savings ka result tariff, consumption, system design, generation aur metering par depend karta hai।</p>
 <a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Consultation free hai, koi obligation nahi।</p>
 </div>
@@ -216,7 +216,7 @@ Imaandari se kuch cheezein bhi bata deni chahiye jo internet par ghoomti hain le
 
 <div class="inline-cta">
 <h3>Efficiency Ke Baad Bhi Bill Bada Aa Raha Hai?</h3>
-<p>Yeh usually signal hai ki structural fix chahiye। Qbits engineer aapke bill aur roof ke hisaab se sahi system size aur realistic payback batayega, ALMM-listed hardware ke saath।</p>
+
 <a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">12 saal warranty, India grid ke liye tuned inverters।</p>
 </div>
@@ -227,6 +227,5 @@ Bijli bill kam karne ka kaam ek weekend mein shuru ho sakta hai।
 
 1. **Aaj:** Apna pichhla bill nikalein, total amount ko total units se divide karke effective rate nikalein, aur slab table par nazar daalein।
 2. **Is hafte:** Standby load katein, AC 25 degree par set karein, geyser thermostat 45 degree par laayein, aur baaki bache CFL ko LED se badlein।
-3. **Agle mahine:** Naya bill compare karein। Agar bill phir bhi ₹2,500 se upar hai, to solar sizing ke liye [Qbits engineer se free consultation lein](/contact-us/) aur exact payback ke saath decide karein।
 
 Pehle do steps ka kharcha lagbhag zero hai aur bachat pehle billing cycle mein dikh jaati hai। Teesra step tabhi karein jab bill phir bhi bada rahe, kyunki tab aap sahi size ka system kharidenge, zyada bada nahi।

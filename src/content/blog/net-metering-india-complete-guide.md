@@ -26,7 +26,7 @@ faqs:
   - q: "What meter is needed for net metering?"
     a: "A four-quadrant bidirectional smart meter with AMI (Advanced Metering Infrastructure) capability, as mandated by CEA Smart Meter Regulations 2023. The DISCOM procures and installs this meter at your cost (₹2,000–₹15,000 depending on phase and size). Tamper detection, time-stamped logs, and DISCOM authorised seals are mandatory. The old single-direction meter must be removed."
   - q: "Is an ALMM-listed inverter required for net metering?"
-    a: "ALMM (Approved List of Models and Manufacturers) listing is mandatory for PM Surya Ghar subsidy disbursement, which is linked to net metering commissioning. While net metering itself does not technically bar non-ALMM inverters, DISCOMs often reject non-ALMM equipment during inspection. If you want the PM Surya Ghar subsidy - up to ₹78,000 for a 3 kW system - your inverter must appear on the MNRE ALMM list."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How long does net metering approval take in India?"
     a: "The PM Surya Ghar portal targets 30 days from application to commissioning. In practice, most applicants wait 45–90 days, with the main delays occurring at the technical feasibility study and bidirectional meter installation stages. States with well-staffed DISCOMs (Gujarat, Karnataka) process faster than states with capacity constraints (parts of UP, Bihar, and Jharkhand)."
   - q: "What happens to unused net metering credits at year-end?"
@@ -34,8 +34,12 @@ faqs:
   - q: "Does net metering work during a power cut?"
     a: "No. An on-grid inverter shuts down automatically within milliseconds of grid failure for anti-islanding protection, as required by IEC 62116. This safety mechanism ensures your system does not energise a dead distribution line and endanger linemen. If you need backup power during outages, a hybrid inverter with a battery bank is required - the battery stores surplus solar during the day and supplies the house when the grid is down."
   - q: "What documents are needed for the net metering application?"
-    a: "The standard document checklist includes: recent electricity bill, identity proof, address proof, sanctioned load document, property ownership proof or NOC from owner, ALMM certificate for the inverter, ALMM certificate for the PV modules, single-line diagram of the proposed installation, and the DISCOM's prescribed application form. Some states also require a structural stability certificate for the mounting structure and a test certificate confirming anti-islanding compliance (IEC 62116)."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 When your rooftop solar produces more than your household consumes, that surplus either goes to waste or earns you money. In India, [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) ensures it earns you money. The mechanism is simple. The [state-by-state](https://heavendesigns.in/blog/discom-net-metering-process-india-state-by-state/) regulation is not: it decides how much your exported units are worth, how fast your DISCOM processes the application, and what happens to credits at year-end.
 
@@ -48,7 +52,7 @@ This isn't academic. [Net metering](/blog/virtual-net-metering-india/) is the po
 > - Export credit rates vary sharply by state: BESCOM and MSEDCL credit at full retail tariff, while JVVNL and DHBVN credit at the lower APPC rate.
 > - The Net Metering ROI Stack has four layers: reduced import units, export credits, depreciation benefit (for business use), and the PM Surya Ghar subsidy.
 > - Net metering gives zero backup during a power cut because the inverter shuts down for anti-islanding protection; a hybrid inverter with battery is required for outage backup.
-> - ALMM-listed inverters and IEC 62116 anti-islanding certification are mandatory for both DISCOM commissioning and PM Surya Ghar subsidy eligibility.
+
 > - Most applications complete in 30 to 90 days, with the DISCOM's technical feasibility study and physical inspection as the main bottlenecks.
 
 Net metering is enabled by a [bidirectional meter](/glossary/bidirectional-meter/) that records energy flowing in both directions, import from the grid and export from your solar panels. The [DISCOM](/glossary/discom/) reads both registers and subtracts export from import each billing cycle. For a full technical overview of how the mechanism is structured, the [net metering glossary entry](/glossary/net-metering/) covers definitions, meter specifications, and state regulatory variations in detail.
@@ -141,7 +145,6 @@ Not every rooftop solar customer in India operates on the same consumption profi
 | **Payback period** | 4–7 years (retail states); 6–9 years (APPC states) | 6–10 years | 8–12 years (battery-inclusive) |
 | **Works during outage?** | No | No | Yes (hybrid inverter + battery) |
 | **PM Surya Ghar eligible?** | Yes | Yes (if ≤10 kW in most states) | Yes (hybrid systems qualify) |
-| **ALMM inverter required?** | For subsidy: yes | For subsidy: yes | For subsidy: yes |
 | **Applicable states** | All states; retail rate in KA, MH, TS, GJ | TN (>10 kW), AP (select categories) | All states - hardware choice, not policy |
 
 The [on-grid vs hybrid inverter ROI comparison](/blog/on-grid-vs-hybrid-solar-inverters-roi/) goes deeper on the financial trade-off between a net-metered on-grid system and a hybrid-with-battery configuration.
@@ -184,11 +187,7 @@ The application process is governed by your state's SERC net metering regulation
 
 1. **Check sanctioned load**: Your sanctioned load on the electricity bill sets the maximum solar system size for net metering. Most states allow up to the sanctioned load in kW. If you want a 5 kW system but your sanctioned load is 3 kW, apply for a load enhancement first. This adds 30–60 days but avoids application rejection.
 
-2. **Select ALMM-listed equipment**: Choose panels and inverter that appear on the [MNRE ALMM list](https://mnre.gov.in/). Non-ALMM equipment will pass the physical commissioning but fail subsidy disbursement. Verify the ALMM certificate before signing any supply agreement.
-
 3. **Register on PM Surya Ghar portal**: If claiming the central subsidy, register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/). The portal auto-routes your application to the relevant state nodal agency and DISCOM. Upload identity proof, address proof, electricity bill, and bank account details.
-
-4. **Submit DISCOM net metering application**: Either through the PM Surya Ghar portal (which forwards to the DISCOM) or directly through the DISCOM's own portal. Attach the single-line diagram, inverter ALMM certificate, module ALMM certificate, and the prescribed application form. A professionally drafted single-line diagram and CEIG-compliant electrical drawing reduces the chance of a DISCOM rejection over an ambiguous or non-standard SLD. Some states also require a structural stability certificate for the roof-mounting structure.
 
 5. **DISCOM technical feasibility study (TFS)**: The DISCOM's distribution engineer assesses whether the local feeder can absorb the proposed solar capacity without voltage rise, frequency deviation, or protection relay issues. The TFS typically takes 7–21 days. If the feeder is already at capacity, the permissible size may be reduced. Get the TFS in writing.
 
@@ -233,10 +232,6 @@ The [CEA's net metering regulations](https://cea.nic.in/) and [MNRE rooftop sola
 
 The inverter you select determines whether your net metering installation passes DISCOM inspection and qualifies for the PM Surya Ghar subsidy. Three compliance layers matter.
 
-### ALMM Listing
-
-The MNRE's Approved List of Models and Manufacturers is updated periodically. An inverter must appear on the ALMM list under the correct capacity category for PM Surya Ghar subsidy disbursement. Qbits inverters are ALMM-listed across the TLS and TLD (on-grid) and HS and HT (hybrid) series.
-
 ### Anti-Islanding Compliance: IEC 62116
 
 IEC 62116 specifies the test procedure for anti-islanding protection. Every grid-tied inverter in India must pass this test. Without a valid IEC 62116 certificate, the DISCOM's commissioning engineer may refuse to sign off the installation. The [solar inverter regulations guide for 2026](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) covers the full certification stack including IEC 62116, IEC 61727, and BIS IS 16169.
@@ -260,8 +255,6 @@ Most net metering application failures are procedural, not technical. The follow
 - **Installing before applying**: Commissioning a system and then applying for net metering exposes you to rejection if the feeder is at capacity or if the DISCOM's process requires pre-approval. Always get the TFS cleared before the installation team mobilises.
 
 - **Oversizing relative to sanctioned load**: A 10 kW system on a 5 kW sanctioned load will be rejected without a load enhancement. The DISCOM will not simply approve a smaller portion, the entire application is returned.
-
-- **Using non-ALMM equipment**: Subsidy disbursement stops at the DISCOM's commissioning data upload if the inverter serial number does not match the ALMM list. Switching inverters post-installation requires a re-application in most states.
 
 - **Missing anti-islanding documentation**: If the inverter's IEC 62116 certificate cannot be produced at DISCOM inspection, the commissioning engineer cannot sign off. This is the single most common technical hold-up.
 
@@ -293,16 +286,9 @@ The [pm-surya-ghar glossary entry](/glossary/pm-surya-ghar/) covers eligibility 
 
 A net metering installation is only as reliable as the inverter at its heart. The inverter must synchronise precisely with the grid, switch off within milliseconds of grid failure for anti-islanding, sustain 98% conversion efficiency across Indian ambient temperatures (25–55 °C), and report generation data that lets you audit DISCOM billing.
 
-Qbits inverters are built for exactly this operating environment. The TLS and TLD on-grid series are ALMM-listed, BIS IS 16169 certified, and IEC 62116 compliant, covering every mandatory certification required for DISCOM commissioning and PM Surya Ghar subsidy eligibility. IP66 weather protection handles coastal humidity, monsoon rains, and desert dust without performance loss. The 12-year full replacement warranty means your net metering installation continues earning credits long past the payback period, with no surprise replacement cost in year 7.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed and PM Surya Ghar eligible, sized for residential to small commercial net metering.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for households that want net metering plus battery backup, suitable for power-cut zones where on-grid alone is insufficient.
-- **[Residential Solar Solution](/residential-solution/)**: a full overview of how Qbits approaches the residential market, from system design through DISCOM coordination.
-- **[Why Qbits](/why-qbits/)**: the complete case for 12-year warranty, IP66, AI WhatsApp monitoring, and Made-in-India quality in one place.
-
-AI-powered WhatsApp monitoring on every Qbits inverter gives you live generation data on your phone, so you can cross-check export readings against the DISCOM's meter reading before your bill is finalised, and catch billing errors in the first month rather than after a year of accumulated losses.
-
-If you are ready to design a net metering system for your home or business (or want guidance on which state's SERC regulation applies to your connection) [talk to a Qbits engineer](/contact-us/). Most site assessments and system quotations come back within 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ## Navigating DISCOM Delays and Disputes
 

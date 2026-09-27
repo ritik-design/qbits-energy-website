@@ -67,21 +67,21 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is an MC4 connector
 
 MC4 (Multi-Contact 4 mm) is the de facto industry-standard photovoltaic DC connector used for connecting solar panels to each other and to the inverter, charge controller or [combiner box](/glossary/combiner-box/). Developed by Multi-Contact (now part of Stäubli) in 2002, the design is now produced by numerous manufacturers under TUV 2 PfG 1161/08.07 certification.
 
 > **TL;DR**
 > - MC4 is the industry-standard PV DC connector, rated 1000 to 1500 V DC and 30 A (35 A on the newer Evo generation), sealed to IP67/IP68.
-> - Every ALMM-listed module and inverter DC input in India ships with MC4 or an MC4-compatible connector.
+
 > - Cross-brand mating is technically possible but not officially endorsed; best practice is to standardise on one connector brand per installation.
 > - Hand-crimped connectors without the manufacturer's specific crimp tool are a leading cause of field failures, often showing heat marks within 12 months.
 > - A dedicated Stäubli disconnect tool is required to separate mated MC4 connectors safely — forcing them apart without it breaks the connector.
 > - Properly crimped, single-brand MC4 connections last 20 to 25 years; coastal humidity and UV exposure shorten that life.
 
 MC4 connectors are sealed weatherproof (IP67 or IP68), rated for 1000 V or 1500 V DC, carry continuous current of 30 A (newer Evo generation up to 35 A), operate from -40°C to +90°C, and include a locking mechanism that requires a special disconnect tool to separate. The connector body is moulded high-quality polymer with internal silver-plated brass contacts.
-
-For Indian solar, MC4 connectors are universal on every [ALMM-listed](/glossary/almm-list/) PV module and on every inverter input. Quality of crimping, mating discipline and connector brand consistency determine whether the connections last the project's 25-year life.
 
 ## Why MC4 connectors matter
 
@@ -244,8 +244,6 @@ Routing MC4 connections through standing water.
 MC4 is the industry-standard DC connector for solar PV, providing sealed weatherproof plug-and-socket connections rated 1000 to 1500 V DC and 30 A. Proper crimping with the manufacturer's tool, single-brand consistency, polarity discipline and protective caps on unused connectors determine whether connections last the project's 25-year design life. Loose or mixed-brand MC4 connectors are a leading cause of field failures.
 
 ## Need quality MC4 termination for your solar?
-
-QBits Energy supplies and installs TUV-certified MC4 connections using manufacturer-specified crimping for residential, C&I and utility solar across India.
 
 ## Further reading
 

@@ -29,10 +29,14 @@ faqs:
   - q: "What is an M2M SIM and why does it matter for inverter compliance?"
     a: "M2M stands for machine to machine. An M2M SIM is a cellular SIM issued for device connectivity rather than consumer use, with the identity and routing controls that let an operator and a regulator account for which device is transmitting. MNRE's secure communication guidelines have required communication devices including dongles and dataloggers to use M2M SIMs. It matters because it moves inverter connectivity from a household broadband dependency to a managed cellular link, and it raises a cost question about who pays for that connectivity across the life of the system."
   - q: "How does data localization relate to ALMM and BIS requirements for inverters?"
-    a: "They are three separate checks and a compliant inverter has to clear all of them. ALMM governs which models and manufacturers are approved for use in government-linked and subsidised projects. BIS certification covers product safety and grid-interaction standards against specified IS and IEC test methods. Data localization governs where the monitoring data goes and how the device communicates. An ALMM-listed, BIS-certified inverter from an OEM that has not filed its data confirmation is still a problem under the scheme, which is why the three checks belong in the same procurement gate."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Where can I read the original memorandum?"
     a: "The memorandum and the earlier secure communication guidelines are issued by the Ministry of New and Renewable Energy and circulated to inverter manufacturers and implementing agencies. Ask your inverter supplier for the dated copy they received, since OEMs are the addressees. For the authoritative text and the current filing position, check the MNRE website and confirm directly with REC, which is the receiving agency for the Annexure-I confirmation. Rules under this scheme have changed several times, so verify the current position before acting on any summary, including this one."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 An EPC running rooftop volume under PM Surya Ghar usually has one inverter brand written into every open quotation. That brand is a line in the bill of quantities. It is also a make and model on the [DISCOM](/glossary/discom/) net-metering application, and a serial number on the subsidy claim. The Ministry of New and Renewable Energy has now issued an office memorandum that can remove some of those brands from the scheme inside 30 days. The memorandum is addressed to inverter manufacturers. The commercial loss, if a manufacturer does not respond, lands on the installer holding the quotation.
 
@@ -153,8 +157,6 @@ The third option is the one that damages the category. A homeowner who bought a 
 
 Three documents in a standard project file are affected, and the fix in each case is a checking step rather than a new form.
 
-**The bill of quantities.** The inverter line now carries an implicit compliance assertion beyond ALMM and BIS. Your internal BOQ approval should check the OEM's filing status alongside the [ALMM listing](/blog/almm-list-phase-iii-guide/) and the [BIS and IEC certification](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) you already verify.
-
 **The net-metering application.** Nothing on the form changes. What changes is the cost of getting the inverter make wrong on it, because a substitution mid-queue is expensive in time. Lock the inverter selection before submitting rather than after, a discipline worth applying to the whole [net metering application process](/blog/how-to-apply-net-metering-india/).
 
 **The customer handover pack.** The datalogger warranty term has changed and should be stated correctly. If your handover documents describe a separate shorter term for the communication device, they are now out of date.
@@ -175,11 +177,7 @@ The third mistake is quieter and more expensive. It is assuming your existing da
 
 Two things can be stated from published Qbits material, and they are worth being precise about because this is exactly the kind of topic where vague assurance is useless to an installer.
 
-Qbits publishes Indian server hosting for monitoring data as a stated product position. The site describes "100% data sovereignty" with all monitoring data on Indian servers, and lists Indian server storage against overseas cloud storage as a differentiator on the [why Qbits](/why-qbits/) page. Monitoring itself runs through the Qbits Smart App and the [AI-powered WhatsApp alert](/blog/whatsapp-solar-monitoring/) channel, which is described across the [monitoring systems](/blog/solar-inverter-monitoring-systems-in-india/) and [inverter app](/blog/solar-inverter-app-monitoring/) coverage on this site.
-
-On warranty, the Qbits term is a 12-year full unit replacement warranty on models up to 30 kW, with an 8-year warranty above 30 kW. The memorandum's requirement to fold datalogger warranty into inverter warranty is a smaller step for a manufacturer already writing a full replacement term than for one writing a limited-parts term with a separately warranted dongle.
-
-What this article does not do is assert a filing date on Qbits' behalf, because that is a document rather than a marketing claim and it belongs in your evidence folder rather than in a blog post. If you are carrying Qbits on open quotations and need the current filing position for a project file, ask for it directly and [talk to a Qbits engineer](/contact-us/) rather than taking it from here. EPCs looking at the [on-grid inverter range](/on-grid-inverter/) for scheme work can pull the per-model specifications from the [datasheet library](/download-datasheets/), and installers who want to carry the brand can apply through [become a Qbits channel partner](/become-our-partner/).
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 ## Conclusion
 
@@ -191,4 +189,4 @@ An office memorandum addressed to manufacturers has become an EPC scheduling pro
 - Check what your installation crews are actually fitting as a datalogger, not what the specification says.
 - Verify the operative dates and the current filing position with REC and MNRE directly. Rules under this scheme have changed repeatedly, and no summary, including this one, is a substitute for the source document.
 
-If you are sizing a scheme project and want the specification detail before you commit an inverter to a BOQ, the [string sizing calculator](/string-sizing-calculator/) and the per-model datasheets will get you most of the way, and a [spec walkthrough from a Qbits engineer](/contact-us/) will cover the rest.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

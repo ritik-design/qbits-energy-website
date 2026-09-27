@@ -5,25 +5,25 @@ import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 
 const features = [
-  { title: '1-10kW Range', desc: 'Perfect for homes of all sizes - from compact apartments to large villas.', icon: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6' },
-  { title: 'Net Metering Ready', desc: 'Export excess power to the grid and earn credits on your electricity bill.', icon: 'M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4' },
-  { title: 'Smart App Monitoring', desc: 'Track generation, consumption, and savings from your phone, anywhere.', icon: 'M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z' },
-  { title: 'Compact Wall-Mount', desc: 'Sleek, lightweight design that fits easily on any wall or rooftop structure.', icon: 'M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z' },
-  { title: '12 Year Warranty', desc: 'Industry-leading warranty with pan-India service and rapid replacement.', icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z' },
-  { title: 'AI WhatsApp Alerts', desc: 'Get instant alerts for faults, performance drops, and maintenance needs.', icon: 'M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z' },
+  { title: '1.5-12 kW Published Range', desc: 'Residential options include on-grid and hybrid families. Choose the exact model from the site design and phase connection.', icon: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6' },
+  { title: 'Grid-Export Compatibility', desc: 'Grid export depends on DISCOM approval, the sanctioned connection, metering, and the accepted inverter documents.', icon: 'M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4' },
+  { title: 'Model-Specific Monitoring', desc: 'Confirm the communication hardware, monitored values, app access and network requirements for the exact model.', icon: 'M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z' },
+  { title: 'Installation Planning', desc: 'Verify mounting clearances, environmental limits, access and structural support against the exact installation manual.', icon: 'M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z' },
+  { title: 'Written Warranty Terms', desc: 'Obtain the current duration, remedy, registration rules, exclusions, and service responsibilities for the exact model.', icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z' },
+  { title: 'Monitoring Options', desc: 'Public product material describes WhatsApp alerts and remote monitoring. Confirm the supported interface for the model.', icon: 'M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z' },
 ];
 
 const useCases = [
-  { title: 'Independent House', desc: '3-10kW systems for villas and bungalows with rooftop space.', power: '3-10kW' },
-  { title: 'Apartments', desc: 'Compact 1-3kW systems for apartment balconies and terraces.', power: '1-3kW' },
-  { title: 'Farm Houses', desc: 'Off-grid capable hybrid systems for remote locations.', power: '5-10kW' },
-  { title: 'Gated Communities', desc: 'Shared solar systems for common area power and lighting.', power: '10-50kW' },
+  { title: 'Independent House', desc: 'Size the inverter from sanctioned load, roof, array design, consumption and any backup requirement.', power: 'Site-specific' },
+  { title: 'Apartments', desc: 'Shared roofs, balconies, and common areas need society permission, structural checks, and DISCOM approval where applicable.', power: 'Site-specific' },
+  { title: 'Farm Houses', desc: 'Remote sites need a documented grid, generator, battery and load-control design.', power: 'Site-specific' },
+  { title: 'Gated Communities', desc: 'Common-area systems require load, connection, roof-rights, metering and approval checks.', power: 'Site-specific' },
 ];
 ---
 
 <Layout
   title="Residential Solar Solutions | Qbits Energy"
-  description="Complete residential solar inverter solutions for Indian homes. From 1kW to 10kW with smart monitoring, net metering, and 12-year warranty."
+  description="Explore Qbits residential on-grid and hybrid inverter families, model documents, monitoring options, and selection checks for Indian homes."
   canonical="/residential-solution/"
 >
   <HeaderV2 />
@@ -33,7 +33,7 @@ const useCases = [
       label="Solutions"
       title="Residential Solar"
       highlight="Solutions"
-      description="Power your home with clean, reliable solar energy. Qbits residential inverters are designed for maximum efficiency and easy monitoring."
+      description="Compare Qbits residential inverter families by system type, phase, PV limits, backup needs, monitoring options and current documents."
       bgImage="/images/ongrid-res.webp"
     />
 
@@ -53,10 +53,10 @@ const useCases = [
               Reduce Bills. Increase Independence. Go Green.
             </p>
             <p class="text-slate-600 leading-relaxed mb-6">
-              Qbits residential inverters are the perfect choice for homeowners looking to reduce electricity bills and contribute to a greener future. Our compact, efficient inverters work seamlessly with <a href="https://heavengreenenergy.com/residential-solar/" class="text-brand-600 hover:underline">rooftop solar installations</a> of all sizes.
+              Qbits publishes compact on-grid and hybrid inverter families for residential solar. The correct model depends on sanctioned load, phase connection, PV string voltage and current, roof layout, backup requirement, and local approval conditions.
             </p>
             <p class="text-slate-600 leading-relaxed mb-8">
-              With up to 98% efficiency, <a href="/blog/whatsapp-solar-monitoring/" class="text-brand-600 hover:underline">AI-powered monitoring via WhatsApp</a>, and a <a href="/blog/12-year-solar-inverter-warranty/" class="text-brand-600 hover:underline">12-year warranty</a>, Qbits brings peace of mind to every residential solar project. <a href="/glossary/net-metering/" class="text-brand-600 hover:underline">Net metering</a> ready for maximum savings.
+              Published residential model efficiencies reach 98.1% for on-grid families and 98% for the listed hybrid families. Monitoring, communications, <a href="/glossary/net-metering/" class="text-brand-600 hover:underline">net-metering</a> acceptance, battery compatibility, and warranty terms must be verified for the exact model and project.
             </p>
             <div class="flex flex-wrap gap-4">
               <a href="/our-products/" class="btn-primary">Explore Inverters</a>
@@ -71,8 +71,8 @@ const useCases = [
               <img width="720" height="540" src="/images/ongrid-res.webp" alt="Residential Solar Installation" class="w-full" loading="lazy" />
             </div>
             <div class="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-5 hidden md:block">
-              <p class="text-3xl font-bold text-brand-600">₹0</p>
-              <p class="text-sm text-slate-500">Electricity Bill Possible</p>
+              <p class="text-3xl font-bold text-brand-600">Site</p>
+              <p class="text-sm text-slate-500">Assessment Required</p>
             </div>
           </div>
         </div>
@@ -147,4 +147,3 @@ const useCases = [
 
   <Footer />
 </Layout>
-

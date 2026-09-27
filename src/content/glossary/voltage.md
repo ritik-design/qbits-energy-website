@@ -212,8 +212,6 @@ Voltage is the electrical potential that drives current flow. Indian solar syste
 
 ## Need voltage-aware solar design?
 
-QBits Energy designs solar systems with proper voltage matching, cable sizing and grid connection across Indian utility, C&I and residential applications.
-
 ## Further reading
 
 For how Voltage plays out in real projects, these guides go deeper:

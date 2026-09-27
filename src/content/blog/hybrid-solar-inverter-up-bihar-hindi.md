@@ -22,7 +22,7 @@ faqs:
   - q: "UP-Bihar में hybrid solar system की total cost क्या है?"
     a: "3 kW hybrid system + 5 kWh LFP battery: ₹2.8 lakh से ₹3.5 lakh gross। PM Surya Ghar subsidy ₹78,000 (solar inverter + panels पर, battery पर नहीं)। Net cost ₹2.0-2.7 lakh। DG generator eliminate होने से additional savings - effective payback 4-6 साल।"
   - q: "UPPCL और BSPHCL में PM Surya Ghar subsidy कैसे मिलेगी?"
-    a: "pmsuryaghar.gov.in पर जाएँ, UP के लिए UPPCL select करें (या district के हिसाब से Purvanchal/Madhyanchal/Paschimanchal/Dakshinanchal Vidyut Vitaran Nigam), Bihar के लिए NBPDCL या SBPDCL select करें। ALMM-listed hybrid inverter mandatory है। Process वही है - application, feasibility visit, vendor selection, installation, inspection, subsidy।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "Hybrid solar battery के लिए कौन सी battery best है?"
     a: "LFP (Lithium Iron Phosphate) battery best है - 3,000-6,000 cycles, safer, heat tolerant। Lead-acid 500-1,200 cycles, 3-4 साल में replace। UP-Bihar में 45°C summers में LFP much better performance देती है। Minimum 5-year warranty on battery mandatory। Popular brands: Luminous (LFP), Okaya (LFP), Nexcharge, BatterySmart।"
   - q: "क्या hybrid solar DG generator को replace कर सकता है?"
@@ -33,6 +33,8 @@ faqs:
     a: "UPPCL, खासकर rural और peri-urban areas में, voltage 170V से 265V के बीच swing करता है। Hybrid inverter की AC input range 150-270V होनी चाहिए - narrow range inverters nuisance trips करते हैं। India-grid-tuned firmware वाले inverters इस voltage range को reliably handle करते हैं।"
 ---
 
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 UP और Bihar में solar का scenario बाकी India से fundamentally different है। दिल्ली या बैंगलोर में on-grid solar सबसे sensible choice है। Muzaffarpur, Gorakhpur, या Patna में, जहाँ 6-8 घंटे daily power cut होती है - on-grid solar उन सबसे frustrating investments में से एक हो सकता है जहाँ आप दिन में solar देख रहे हैं और power cut में अंधेरे में बैठे हैं। Hybrid solar इस problem का solution है।
 
 > **TL;DR**
@@ -40,7 +42,7 @@ UP और Bihar में solar का scenario बाकी India से fundam
 > - 4+ ghante daily outage waale areas mein hybrid solar + LFP battery on-grid se better investment hai
 > - 3 kW hybrid + 5 kWh LFP battery ki gross cost ₹2.8-3.5 lakh hai, [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) (sirf solar components par, battery par nahi) ke baad net cost ₹2.0-2.7 lakh
 > - Payback period 4-6 saal hai, largely DG generator fuel cost eliminate hone ki wajah se
-> - [Hybrid inverter](/glossary/hybrid-inverter/) mein 150-270V AC input range, IP66 protection, aur 60°C internal rating chahiye UPPCL/BSPHCL ke voltage swings aur summer heat [ke liye](/blog/ghar-ke-liye-solar-inverter-size-hindi/)
+> - [Hybrid inverter](/glossary/hybrid-inverter/) ke exact grid limits, enclosure rating, temperature range aur derating data ko current manual aur site conditions se verify karein। Ek universal voltage ya temperature number har project par apply nahi hota।
 
 > **Clear answer।** UP और Bihar में, जहाँ daily power cut 4+ घंटे है, hybrid solar inverter with LFP battery on-grid से बेहतर investment है। DG generator cost eliminate होती है, [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy (solar components पर) मिलती है, और effective payback 4-6 साल है।
 
@@ -136,7 +138,7 @@ UP में multiple [DISCOMs](/glossary/discom/) हैं। अपनी ele
 3. **Aadhaar OTP verify करें**
 4. **Documents upload करें**: Bill, Aadhaar, PAN, bank passbook, property proof
 5. **Feasibility visit wait करें**: Urban: 2-3 weeks, Rural: 3-6 weeks
-6. **Hybrid vendor select करें**: ALMM-listed hybrid inverter mandatory, apne area mein installer dhundhein shortlisting shuru karne ke liye
+
 7. **Installation**: 2-3 दिन
 8. **[Net metering](/glossary/net-metering/) application**: Immediately after installation
 9. **DISCOM inspection → Subsidy bank में**
@@ -183,12 +185,9 @@ UP-Bihar की electrical conditions:
 
 ## ALMM Compliance Hybrid Ke Liye
 
-Hybrid inverters भी ALMM-listed होने चाहिए PM Surya Ghar subsidy के लिए। Note: Battery component पर subsidy नहीं मिलती - only inverter और panels।
-
 **Verification:**
-- [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} पर hybrid inverter model check करें
+
 - Vendor से ALMM certificate माँगें
-- Non-ALMM hybrid inverter install होने पर inverter+panel subsidy reject होगी
 
 ## Common Mistakes UP-Bihar Solar Applicants Mein
 
@@ -201,26 +200,21 @@ Hybrid inverters भी ALMM-listed होने चाहिए PM Surya Ghar s
 
 [PM Surya Ghar rejection reasons](/blog/pm-surya-ghar-rejection-reasons/), avoid करने के लिए पढ़ें।
 
-## Qbits HS Series: UP-Bihar Ke Liye
+## Qbits model documentation
 
-Qbits HS hybrid series UP-Bihar type markets के लिए engineered है:
+- Exact QBH model का PV range, AC limits, battery voltage/current, MPPT count, enclosure और temperature derating current datasheet में check करें।
+- LFP compatibility केवल chemistry name से prove नहीं होती। Approved battery model, BMS protocol, firmware और settings written form में confirm करें।
+- ALMM module/cell lists inverter approval list नहीं हैं। Scheme और DISCOM requirements अलग verify करें।
+- Warranty term, remedy, RMA process, district coverage और response time not established हैं जब तक current written terms न मिलें।
 
-- **150-270V input range**: UPPCL-BSPHCL voltage swings reliable handle
-- **LFP battery compatible**: Configurable parameters for different battery brands
-- **IP66 protection**: Heavy monsoon season के लिए
-- **60°C internal rating**: 45°C summer ambient handle करता है
-- **ALMM Phase III listed**: PM Surya Ghar subsidy eligible
-- **12-year full replacement warranty**: Longest in Indian market
-- **72-hour RMA SLA**: District towns में भी fast replacement
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS series, battery-ready
-- **[On-Grid Inverters](/on-grid-inverter/)**: For Patna, Lucknow reliable areas
-- **[Authorized Service Partners](/authorized-service-partners/)**: UP-Bihar district coverage
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Grid-connected generation के लिए exact model और site approval requirements check करें।
+- **[Authorized Service Partners](/authorized-service-partners/)**: Current directory देखें, फिर exact location और service scope written form में confirm करें।
 - **[Solar battery backup calculator](/blog/solar-battery-backup-calculator/)**: Exact battery sizing
 
 According to [IEA India energy access report](https://www.iea.org/){target="_blank" rel="noopener"}, decentralised solar with storage is the most effective solution for states with high load shedding, UP और Bihar जैसे states में यह finding directly applicable है।
 
-UP या Bihar में अपने district का power cut pattern, monthly consumption, और roof size share करके [Qbits engineer से exact recommendation पाएँ](/contact-us/), free consultation।
+[Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 ## Common Vendor Claims to Verify in UP-Bihar Market
 
@@ -267,7 +261,7 @@ Before proceeding with hybrid solar installation, confirm:
 - [ ] Essential loads identified and battery sized (use backup calculator)
 - [ ] DISCOM identified from electricity bill (UPPCL district or BSPHCL north/south)
 - [ ] PM Surya Ghar application submitted at pmsuryaghar.gov.in
-- [ ] Vendor ALMM Phase III compliance verified for both inverter and panels
+
 - [ ] Battery warranty (5+ years, manufacturer warranty, not just vendor)
 - [ ] LFP chemistry confirmed (not lead-acid or NMC)
 - [ ] Net metering application planned immediately after installation

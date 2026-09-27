@@ -24,7 +24,7 @@ faqs:
   - q: "Do state solar subsidies stack on top of the central subsidy?"
     a: "Yes, where the state runs one. The state top-up is a separate payment from a separate budget line, usually released by the state renewable energy development agency rather than by MNRE. You apply once on the national portal, but the two payments arrive independently and often months apart. A handful of states also route the top-up through the DISCOM as a bill credit rather than a bank transfer, which is worth checking before you assume cash in hand."
   - q: "What are ALMM and DCR, and do I need both for the subsidy?"
-    a: "ALMM is the Approved List of Models and Manufacturers maintained by MNRE. List-I covers solar modules, List-II covers solar cells, and there is a separate approved list for inverters. DCR means Domestic Content Requirement, which for subsidised residential rooftop means modules made in India using Indian-made cells. To claim the central subsidy you need ALMM-listed and DCR-compliant modules, plus an approved inverter. If any component fails the check at commissioning inspection, the claim is rejected even if the system works perfectly."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What is the Give It Up option under PM Surya Ghar?"
     a: "MNRE has allowed residential rooftop projects registered under PM Surya Ghar to use non-DCR modules if the household formally forgoes the central financial assistance, for systems commissioned up to 31 March 2027. It exists to relieve pressure on domestic cell supply. The tradeoff is stark: you save perhaps ₹8,000 to ₹15,000 on modules for a 3 kW system and give up ₹78,000 in subsidy, so it almost never pays for a standard home. It is mainly useful when DCR module supply in your district has genuinely stalled."
   - q: "How long does solar subsidy disbursement take in 2026?"
@@ -33,6 +33,8 @@ faqs:
     a: "The most common causes are a name mismatch between the electricity connection holder and the bank account, use of a non-empanelled installer whose commissioning report cannot be filed, non-ALMM or non-DCR equipment found at inspection, an installed capacity higher than the sanctioned load without a load enhancement, a pending electricity bill arrear on the connection, and a second claim on a connection that has already drawn subsidy. Almost all of these are fixable before installation and almost none are fixable after."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Two homeowners in neighbouring states buy the identical 3 kW rooftop system in the same week, from installers quoting within ₹4,000 of each other. One ends up ₹78,000 lighter on net cost. The other ends up ₹1,08,000 lighter. Nothing about the hardware explains the gap. The difference is entirely the state top-up sitting on top of the [central subsidy](https://www.heavengreenenergy.com/glossary/state-vs-central-subsidy), and whether that state's nodal agency still had budget left in the quarter. This is the least understood part of Indian rooftop solar economics, and it is the part that changes fastest. Below is a reference table for the major states, along with the eligibility rules, the ALMM and DCR requirements, the new Give It Up route, disbursement timelines, and the rejection reasons we see most often in the field.
 
@@ -119,15 +121,13 @@ One more rule catches people out. The bank account receiving the DBT must match 
 
 These are separate requirements and confusing them is expensive.
 
-**ALMM**, the Approved List of Models and Manufacturers, is MNRE's register of solar equipment cleared for use in government-supported projects. List-I covers modules, List-II covers cells, and inverters sit on their own approved list. If a model is not on the relevant list on the date of commissioning, it does not count, regardless of how good the hardware is.
-
 **DCR**, the Domestic Content Requirement, goes a layer deeper. For subsidised residential rooftop, DCR means the module must be manufactured in India using Indian-made cells. An Indian-assembled module using imported cells is ALMM List-I eligible for some purposes but is not DCR-compliant, and that single distinction is behind a large share of last-minute installer scrambles.
 
 Practically, this means you should get three things in writing before any advance payment: the exact module make and model with its DCR declaration, the exact inverter make and model with its approval reference, and a commitment that the models installed will match the models quoted. Substitution at delivery is common and it is the moment your subsidy is quietly put at risk. Choosing a listed inverter is the easy half of this problem, and our [on-grid inverter range](/on-grid-inverter/) is built specifically for subsidised residential work.
 
 <div class="inline-cta">
 <h3>Make sure the inverter never becomes the rejection reason</h3>
-<p>Qbits on-grid inverters are ALMM-listed, tuned for the 180V to 270V grid conditions Indian homes actually see, and backed by a 12-year full replacement warranty.</p>
+
 <a href="/on-grid-inverter/" class="cta-btn">Explore On-Grid Inverters <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Model and approval references supplied up front for your DISCOM file.</p>
 </div>

@@ -32,23 +32,25 @@ faqs:
   - q: "What is the KUSUM scheme subsidy amount for a 5 HP solar pump?"
     a: "Under KUSUM Component-B, the central government subsidy is 30% of the benchmark cost set by MNRE. For a 5 HP solar pump, MNRE benchmark costs are in the range of ₹2.5 to ₹3.5 lakh depending on pump type (surface or submersible) and state. Central subsidy covers ₹75,000 to ₹1.05 lakh; the state matches this with another 30%. The farmer's net cash outflow is 10% upfront (₹25,000 to ₹35,000) plus loan repayments on 30% over 5–7 years. Actual state-level benchmark costs vary - always verify with the state nodal agency before applying."
   - q: "Can a Qbits on-grid inverter power a grid-connected agricultural pump under KUSUM Component-C?"
-    a: "Yes. For KUSUM Component-C, the solar system feeds the grid or agricultural feeder and the existing pump motor continues to draw from the DISCOM connection as normal. A Qbits on-grid inverter - BIS-certified, ALMM-listed, and compliant with DISCOM interconnection standards - is a valid choice for Component-C rooftop or ground-mount systems. The inverter does not drive the pump motor directly; it exports solar power to the grid while the pump draws its power from the DISCOM feeder. Qbits inverters are compatible with India-grid firmware handling 180–270 V rural feeder conditions."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What size solar inverter do I need for a 5 HP agricultural pump on a grid-connected setup?"
-    a: "For a grid-connected KUSUM Component-C setup with a 5 HP motor, the solar array is sized to offset the pump's electricity consumption rather than to drive the motor. A 5 HP motor consumes roughly 3.73 kW at full load, drawing approximately 4.5 kW from the grid at 83% motor efficiency. For 8 hours of daily pumping, monthly consumption is around 1,080 kWh. A 4 to 5 kWp on-grid solar system can offset 500–600 kWh monthly on average Indian irradiation, cutting the electricity bill by 45–55%. A Qbits 5 kW on-grid inverter sized to match the array is the right fit."
+    a: "Size on starting behaviour rather than the nameplate rating. A 5 HP motor is roughly 3.7 kW of mechanical output, and its electrical input is higher again once motor efficiency is accounted for. Started direct on line it can draw several times its running current for a short period, so you either add a soft starter or variable frequency drive to limit that surge, or you specify enough headroom to ride through it. Note also that on a grid-connected setup the solar system offsets consumption at the meter rather than driving the pump directly, so the pump's own supply and protection still have to be rated for the motor."
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Water [pump](/blog/solar-for-petrol-pump-india/) irrigation accounts for a significant share of India's agricultural electricity consumption. Millions of farmers run diesel or electric pumps to water their fields, and both are expensive. Diesel costs ₹95–₹110 per litre in most states, while agricultural electricity tariffs, though subsidised, are rising. Solar changes the economics fundamentally: once panels are paid off, water costs nearly nothing per litre pumped.
 
 The challenge is that pumps are not simple resistive loads. A water pump motor (whether a submersible borewell pump or a surface centrifugal pump) draws a sharp current spike every time it starts. Get the solar system wrong, and the inverter trips every morning when the pump tries to start. Get it right, and a well-designed solar pump system runs for 25 years with near-zero maintenance.
 
-This guide covers the full picture: the difference between a solar pump controller and a solar inverter, how KUSUM scheme subsidies apply, how to convert HP to kW for sizing, and which Qbits products fit grid-connected agricultural pump setups.
+This guide explains the difference between a solar pump controller and a grid-tied inverter, the KUSUM components at a high level, and the inputs needed for pump sizing. It does not approve a Qbits model or establish scheme eligibility for a project.
 
 > **TL;DR**
 > - Pump motors draw 5–7× their rated current at start-up, so a plain UPS-style inverter without VFD control will trip repeatedly; a dedicated pump controller or an oversized on-grid inverter is required.
 > - Use the Pump Sizing Triangle: convert HP to kW (×0.746), divide by motor efficiency (÷0.80), then multiply by 1.5–2.0 for inrush headroom.
 > - Standalone off-grid pumps (KUSUM Component-B) need a dedicated solar pump controller with VFD and get 60% total subsidy; grid-connected pumps ([KUSUM Component-C](https://www.heavengreenenergy.com/blog/kusum-component-c-grid-tied-pump)) need a standard on-grid inverter and no DISCOM approval is skipped.
 > - A 2 HP submersible pump needs roughly 2.2–2.5 kWp of panels; a 5 HP pump needs 4.5–5.5 kWp.
-> - Qbits manufactures grid-tied on-grid and hybrid inverters for Component-C setups, not standalone Component-B pump controllers.
+> - Qbits publishes grid-tied on-grid and hybrid inverter families. the current published documents do not establish a standalone Component-B pump controller or universal Component-C eligibility.
 
 > **Direct answer.** A solar inverter for a water pump must be sized for inrush current, motors draw 5–7× their rated current at start-up. Use the Pump Sizing Triangle: (1) convert HP to kW (×0.746), (2) divide by motor efficiency (÷0.80), (3) multiply by 1.5 for inrush headroom. For standalone off-grid pumps, choose a dedicated solar pump controller with VFD; for grid-connected pumps under KUSUM Component-C, a standard on-grid inverter sized to the solar array is correct. KUSUM Component-B subsidises standalone solar pumps at 60% total subsidy for 0.5–7.5 HP systems.
 
@@ -79,7 +81,6 @@ The on-grid inverter does not drive the pump motor directly. It simply exports s
 | Inrush current protection | Built-in VFD soft-start | Not applicable (motor not driven directly) |
 | DISCOM approval required? | No | Yes (net metering / gross metering) |
 | KUSUM component | Component-B | Component-C |
-| Suitable Qbits product | Not applicable (Qbits makes grid-tied inverters) | On-Grid TLS / TLD series |
 | Can sell surplus to DISCOM? | No | Yes |
 
 ## HP to kW Conversion and Inrush Current: The Maths Behind Pump Sizing
@@ -131,7 +132,7 @@ The entire system (panels, pump controller, mounting structure, and submersible 
 
 ### Component-C: Solarisation of Grid-Connected Pumps
 
-Component-C solarises existing agricultural feeders and individual pump connections that are already on the grid. This is where a grid-tied solar inverter (like the Qbits on-grid range) is the correct product.
+Component-C covers solarisation routes for grid-connected agricultural pumps or feeders under the current implementing arrangements. The required equipment and approval path are project-specific. A Qbits on-grid model should not be specified until the implementing agency, electrical designer and current model documents support it.
 
 The solar system is installed on farm land or building rooftops near the agricultural pump. The inverter feeds solar power to the agricultural feeder. The DISCOM either offsets the pump electricity charges (net metering) or purchases surplus power at a feed-in tariff (gross or net, depending on the state's policy). Individual farmers with one pump connection, water user associations, and cooperatives are all eligible.
 
@@ -254,17 +255,14 @@ Applying for KUSUM Component-B involves state-level agencies, not a central nati
 
 ## Where Qbits Fits in Solar Pump Setups
 
-Qbits Energy manufactures grid-tied on-grid and hybrid solar inverters, not standalone pump controllers. This distinction matters: if you need an off-grid solar pump for irrigation under KUSUM Component-B, a dedicated solar pump controller from a MNRE-empanelled pump manufacturer is the right product for that standalone setup.
+Qbits publishes grid-tied on-grid and hybrid inverter families; the retained product documents do not establish a standalone solar-pump controller. For any KUSUM project, verify the current component rules, empanelment, pump/controller package and exact approved equipment through the official implementing route.
 
-Where Qbits inverters are the correct choice is KUSUM Component-C and any other grid-connected agricultural solar system. A farmer with an existing electric pump who wants to reduce the electricity bill by generating solar power needs a BIS-certified, ALMM-listed on-grid inverter connected to a solar array, and that is precisely what the Qbits TLS and TLD series deliver. With 12-year full replacement warranty, IP66 weather protection for outdoor agricultural installations, and India-grid-tuned firmware that handles 180–270 V rural feeder voltage swings without nuisance tripping, Qbits inverters are well-suited for farm-side grid-connected solar.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, [ALMM-listed](/glossary/almm-list/) and subsidy-eligible for KUSUM Component-C and PM Surya Ghar setups.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness for farms that want backup power or night-time pump operation from stored solar energy.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Use this free tool to confirm your panel-string configuration matches the selected Qbits inverter's MPPT voltage range before finalising the design.
 
 EPCs sourcing pump-site inverters at scale can use the [solar inverter manufacturers in India evaluation guide](/blog/solar-inverter-manufacturers-in-india/) to check certification depth and service-network coverage before shortlisting a vendor for a multi-farm rollout.
 
-For Component-C projects or any grid-connected farm solar query, [talk to a Qbits engineer at our contact page](/contact-us/), most sizing quotes come back within 24 hours with a system design tailored to your feeder voltage, pump load, and available roof or ground area.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ## Where Solar Pump Buyers Often Get Stuck: And How to Avoid It
 

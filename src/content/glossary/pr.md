@@ -271,8 +271,6 @@ Performance Ratio is the quality grade of a solar plant. It strips weather and l
 
 ## Need PR-based plant performance assessment?
 
-QBits Energy supports EPCs, IPPs and C&I customers with PR monitoring, commissioning acceptance, and O&M KPI tracking for Indian solar plants.
-
 ## Further reading
 
 For how Performance Ratio plays out in real projects, these guides go deeper:

@@ -225,8 +225,6 @@ Tilt angle of solar panels should approximate site latitude for maximum annual e
 
 ## Need tilt optimisation for your solar project?
 
-QBits Energy designs solar installations with site-specific tilt optimisation for residential, C&I and utility plants across India.
-
 ## Further reading
 
 For how Tilt Angle plays out in real projects, these guides go deeper:

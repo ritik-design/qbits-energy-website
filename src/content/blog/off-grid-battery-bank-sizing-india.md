@@ -26,7 +26,7 @@ faqs:
   - q: "What is the off-grid solar battery bank size for a small Indian village home?"
     a: "A small rural Indian home with LED lights (100W total), 2 ceiling fans (150W), a phone charger (25W), a small TV (80W), and a DC water pump (200W running 1 hour) has a daily load of approximately 2.5 kWh. For 2 days of autonomy at 80% DoD (LiFePO4), the required battery bank is (2.5 × 2) ÷ 0.8 = 6.25kWh, plus 20% temperature buffer = 7.5kWh nominal. Three Pylontech US2000C modules (7.2kWh total) or two US3000C modules (7kWh) would meet this requirement."
   - q: "What inverter is needed for an off-grid system in India?"
-    a: "An off-grid solar system in India requires an off-grid inverter or hybrid inverter configured in off-grid mode. The inverter must be sized to handle the peak load (all loads running simultaneously), not just the average load. For a 3kW peak load home, a 3.5kW to 4kW off-grid inverter provides adequate headroom. Qbits HS and HT series hybrid inverters can be configured for off-grid operation and support LiFePO4 battery banks with CAN bus BMS communication."
+    a: "An off-grid system needs a standalone inverter, or a hybrid inverter that supports off-grid operation, rather than a grid-tied unit. Size it on the largest simultaneous load you expect and add headroom for motor starting surges, which can be several times running current, then match its DC input to your battery bank voltage. Note that Qbits sells on-grid and hybrid string inverters, not off-grid-only units and not batteries, so an off-grid build means sourcing the battery bank and its protection separately and confirming that every part is rated to work together."
   - q: "How much solar panel capacity is needed for an off-grid system in India?"
     a: "Solar panel capacity for an off-grid system must cover both daily load and battery recharging. Rule of thumb: solar panel kWp = (daily load kWh × 1.25 safety factor) ÷ peak sun hours at location. For a 5 kWh/day home in Rajasthan (5.5 peak sun hours): panels = (5 × 1.25) ÷ 5.5 = 1.14 kWp. Round up to 1.5 kWp to account for losses and battery charging during cloudy periods. In low-irradiance states (Kerala, Assam), use 4 peak sun hours for sizing."
   - q: "What is the difference between an on-grid and off-grid solar system in India?"
@@ -43,9 +43,6 @@ The sizing calculation is not complicated, but it must be done correctly. Unders
 > - LiFePO4 batteries support 80% depth of discharge, while VRLA (lead-acid) is limited to 50% to avoid premature failure.
 > - A Tier-3 Rajasthan village home consuming about 7 kWh/day needs roughly a 16 kWh nominal battery bank for 1.5 days of autonomy.
 > - Battery capacity drops to around 78% of rated capacity at 45°C, which is why the temperature buffer step matters in Indian summers.
-> - Qbits HS and HT series hybrid inverters can be configured for pure [off-grid](https://quickestimate.co/glossary/off-grid-solar) operation with LiFePO4 battery banks over CAN bus.
-
-> **Direct answer.** Use the **5-Step Battery Bank Formula** to size an off-grid battery bank in India: (1) calculate daily load (kWh), (2) choose autonomy days (1–3 for India), (3) choose DoD (80% for LiFePO4, 50% for VRLA), (4) battery bank = (daily load × autonomy days) ÷ DoD, (5) add 20% temperature buffer for India's heat. For a typical Tier-3 village home consuming 3 kWh/day with 2 days' autonomy on LiFePO4: (3 × 2) ÷ 0.8 × 1.20 = 9kWh nominal bank size.
 
 ## Why Off-Grid Sizing Is Different From On-Grid
 
@@ -201,15 +198,13 @@ For detailed battery brand comparison for off-grid systems, read the [best solar
 
 ## Where Qbits Fits for Off-Grid Systems
 
-Qbits HS and HT series hybrid inverters support off-grid configuration with LiFePO4 battery banks over CAN bus [BMS](/glossary/bms/) communication for accurate state-of-charge reporting. The HS series (single-phase, 3kW–10kW) and HT series (three-phase, 5kW–100kW) can be configured for:
-
 - **Pure off-grid mode**: No grid connection; solar charges battery; inverter runs from battery.
 - **Off-grid with generator backup**: Diesel or petrol generator supplements solar on multi-cloudy-day sequences; inverter charges battery from generator.
 - **Hybrid mode**: Connected to grid when available; switches to battery during outages.
 
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series, off-grid configurable, LiFePO4 CAN bus support, 12-year full replacement warranty, IP66.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[On-Grid Inverters](/on-grid-inverter/)**: For grid-connected installations where off-grid is not required.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Verify your off-grid panel array string configuration before ordering.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Service network in 280+ cities including Tier-2/3 markets most relevant for off-grid applications.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Service network in the service locations confirmed for the sale including Tier-2/3 markets most relevant for off-grid applications.
 
-[Talk to a Qbits engineer at contact-us](/contact-us/) about the right off-grid or hybrid configuration for your location, load profile, and grid reliability. If you still need to shortlist a local installer for the actual battery and panel installation, Heaven Green Energy's installer directory covers rural and Tier-2/3 markets across India.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

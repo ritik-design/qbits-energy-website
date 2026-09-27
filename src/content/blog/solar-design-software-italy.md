@@ -159,4 +159,4 @@ Italy has moved from net metering to a buyback scheme, and the design implicatio
 
 - **Stop sizing against annual consumption.** It was right under SSP and is wrong under Ritiro Dedicato.
 - **Model orientation, storage and load shifting explicitly.** All three became materially more valuable on 29 May 2025, and none can be argued from annual kWh.
-- **Design a live job before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for hybrid inverter and battery specification against the finished design.
+

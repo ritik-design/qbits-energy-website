@@ -35,6 +35,8 @@ faqs:
     a: "Most formal lenders require some income documentation. However, a few fintech and microfinance platforms - operating in semi-urban and rural areas - offer solar loans against land records or NABARD references without traditional salary slips. Some solar installers partnered with NBFCs offer point-of-sale financing that uses your electricity bill consumption history as a proxy for repayment capacity. These loans carry higher interest rates (14–18%) to compensate for the reduced documentation."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Your electricity bill is growing. The neighbour who installed solar three years ago is smiling every summer. The decision to go solar has been made, the only question left is how to pay for it without liquidating your savings.
 
 The good news: in 2026, a homeowner in India has six distinct paths to buy a solar inverter and system on EMI. Government banks, IREDA, NBFCs, credit cards, the RESCO model, and the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) concessional loan all offer different trade-offs on rate, tenure, processing speed, and ownership. Understanding the differences takes roughly 20 minutes. Making the wrong choice can cost you ₹30,000–₹80,000 in avoidable interest over the loan's life.
@@ -251,8 +253,6 @@ The six financing paths above are straightforward in principle. In practice, fou
 
 **Mistake 4: Accepting an oversized loan from the installer.** Some installers quote a system 30–40% larger than your actual consumption, because the loan amount inflates their invoice. Cross-check the system size against your last 12 months' electricity consumption. The [3 kW vs 5 kW vs 10 kW solar inverter guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) provides a consumption-to-capacity mapping to protect against this.
 
-**Mistake 5: Skipping ALMM compliance verification.** Banks empanelled under PM Surya Ghar will reject loan disbursements for non-ALMM-listed equipment. Verify the inverter and panel ALMM status before signing an installer contract. The [ALMM Phase III compliance guide](/blog/almm-list-phase-iii-guide/) lists currently approved manufacturers.
-
 **Mistake 6: Not reading the PPA escalation clause in a RESCO contract.** RESCO PPAs typically include a 3–5% annual tariff escalation clause. Over 20 years, a tariff that starts at ₹5/unit grows to ₹9–10/unit, at which point the DISCOM tariff may no longer be much higher. Read the escalation cap before signing a 20-year agreement.
 
 ## The Savings-vs-EMI Test: Does Solar Pay from Day One?
@@ -277,10 +277,7 @@ For the full ROI framework including tariff escalation and net metering export i
 
 ## Where Qbits Fits
 
-Buyers finalising an EMI purchase face one challenge beyond the financing itself: finding an installer who accepts the loan type and whose equipment qualifies for subsidy disbursement. Qbits works with MNRE-empanelled installers who have active tie-ups with multiple financing partners, including PSU banks, IREDA-approved channels, and NBFC platforms. If you are applying for PM Surya Ghar or an IREDA loan, your installer's equipment list must include ALMM-listed inverters. Qbits TLS and HT series inverters are BIS and ALMM-compliant, ensuring that your loan disbursement and subsidy application do not stall over equipment verification.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, 1.5–50 kW, ALMM-listed and subsidy-eligible for PM Surya Ghar applications.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness, for buyers who want backup cover alongside EMI ownership.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[PM Surya Ghar Complete Guide](/blog/pm-surya-ghar-yojana-complete-guide/)**: full application walkthrough so your subsidy reaches your account without delay.
 
-When you are ready to request a quote with financing options included, Qbits-empanelled installers can refer you to their banking partners directly. Submit your bill and roof area at [contact-us](/contact-us/) and a Qbits-connected installer will reach out within 24 hours with a system design and financing summary tailored to your consumption profile.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

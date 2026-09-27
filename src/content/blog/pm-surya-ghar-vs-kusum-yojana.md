@@ -26,12 +26,14 @@ faqs:
   - q: "Which scheme has a faster application process - PM Surya Ghar or KUSUM?"
     a: "PM Surya Ghar typically has a faster and more digitalised application process through the pmsuryaghar.gov.in portal, which provides real-time status tracking and direct bank transfer. KUSUM applications are handled through state nodal agencies and state DISCOMs, with more manual processes and longer timelines in many states. KUSUM Component B and C applications can take 3 to 12 months from application to installation depending on state, while PM Surya Ghar averages 45 to 90 days in 2026."
   - q: "Is ALMM compliance required for KUSUM Yojana?"
-    a: "Yes, ALMM compliance applies to KUSUM Yojana installations just as it does to PM Surya Ghar. Any solar component - panels and inverters - used in a government-subsidised installation must appear on the MNRE ALMM list. This ensures that the quality of subsidised KUSUM installations meets the same standards as PM Surya Ghar. Farmers selecting solar pump installers should verify that the components proposed by their installer are ALMM-listed before signing any agreement."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Can I get both PM Surya Ghar and KUSUM benefits?"
     a: "Yes, if you have both a domestic electricity connection (for your house) and an agricultural connection (for your farm), you can potentially access PM Surya Ghar for the residential rooftop and KUSUM Component B or C for the agricultural pump. These are separate government programmes with separate budgets and separate application portals. Both applications must be for genuinely separate connections and installations - you cannot claim two subsidies for a single solar system."
   - q: "What happens to my electricity bill under KUSUM Component C?"
     a: "Under KUSUM Component C, your agricultural pump is solarised - it generates solar power that first powers the pump. Any excess generation is exported to the DISCOM grid at a feed-in tariff rate. This means your agricultural electricity bill can drop to near zero during sunny months, and you receive income from exported units. In some states, this generates a net annual income of ₹50,000 to ₹1.5 lakh per solarised pump for farmers with surplus solar capacity."
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Two major government schemes, two different beneficiary groups, and considerable confusion between them. Homeowners ask about [KUSUM](/glossary/kusum/) when they should be looking at [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis); farmers hear about [PM Surya Ghar](https://quickestimate.co/blog/what-is-pm-surya-ghar-yojana) when KUSUM Component B is actually the right fit. This guide draws a clear line between the two schemes so you apply to the one that actually applies to your situation.
 
@@ -42,7 +44,7 @@ Two major government schemes, two different beneficiary groups, and considerable
 > - PM Surya Ghar pays up to ₹78,000 central subsidy for a 3 kW system; KUSUM pays 30% central plus roughly 30% state subsidy, leaving the farmer around 40% of the cost.
 > - KUSUM has three components: Component A (leasing land for 0.5–2 MW ground-mounted plants), Component B (standalone off-grid solar pumps), and Component C (solarising existing grid-connected pumps).
 > - PM Surya Ghar applications average 45–90 days through a single national portal; KUSUM applications run 3–12 months through state nodal agencies.
-> - Both schemes require ALMM-listed panels and inverters, non-compliant equipment disqualifies the subsidy under either scheme.
+
 > - A household with both a home and farmland can apply to both schemes at once, since they cover separate connections and separate installations.
 
 Both schemes fall under [MNRE's rooftop solar programme](/blog/mnre-rooftop-solar-scheme/) framework but address fundamentally different energy problems. According to [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"}, India's residential solar market and agricultural solar market are both growing at over 35% annually but require completely different policy interventions. Understanding the distinction takes five minutes and prevents weeks of misdirected applications.
@@ -154,12 +156,5 @@ For KUSUM specifically, contact your state's nodal agency and your agricultural 
 
 ## Where Qbits Fits
 
-For PM Surya Ghar residential installations, Qbits on-grid inverters provide ALMM Phase III compliance and BIS certification, both required for subsidy disbursement. The 12-year full replacement warranty matters especially for residential systems where the homeowner, not a professional facility manager, is responsible for asset maintenance over a 25-year lifecycle.
-
-For KUSUM Component C pump solarisation (grid-connected), Qbits on-grid string inverters handle the solar-to-grid interface with the same ALMM-listed compliance. The IP66 rating ensures outdoor agricultural installation durability through monsoon seasons and dust-heavy environments.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM Phase III listed; appropriate for both PM Surya Ghar and KUSUM Component C.
 - **[KUSUM Yojana Agricultural Solar Guide](/blog/kusum-yojana-agricultural-solar-subsidy/)**: Detailed breakdown of KUSUM components, state applications, and equipment selection.
 - **[PM Surya Ghar Eligibility Check](/blog/pm-surya-ghar-eligibility/)**: Confirm your residential connection qualifies before starting your application.
-
-For guidance on which inverter specification suits your specific application (residential rooftop or agricultural pump solarisation) [talk to a Qbits engineer](/contact-us/) with your system capacity, DISCOM name, and scheme requirement. Early engagement ensures ALMM compliance, correct string sizing, and a subsidy-ready installation from day one.

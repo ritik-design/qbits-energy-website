@@ -30,12 +30,14 @@ faqs:
   - q: "What is total harmonic distortion (THD) and why does it matter?"
     a: "Total harmonic distortion (THD) measures how cleanly the inverter produces its 230 V, 50 Hz AC output. A pure sine wave has 0% THD; real inverters produce minor harmonic frequencies above 50 Hz. Indian grid codes and IEC 61727 require inverter THD to remain below 5% at rated output. High THD can cause heating in motors, nuisance tripping of sensitive equipment, and DISCOM rejection during grid interconnection testing. Premium inverters typically achieve THD below 3%, providing margin for real-world operating conditions."
   - q: "How long does a solar inverter last in Indian conditions?"
-    a: "A quality solar inverter designed for Indian conditions - IP66-rated, with a wide operating temperature range up to 60 °C and derating management - typically delivers a service life of 12–15 years. The key failure modes are electrolytic capacitor ageing, IGBT thermal stress from frequent cycling, and firmware-related faults from grid disturbances. Choosing an inverter with a 12-year full replacement warranty, rather than a repair-only warranty, transfers the replacement risk back to the manufacturer and ensures the system generates revenue for its full intended life."
+    a: "A quality solar inverter designed for Indian conditions - IP66-rated, with a wide operating temperature range up to 60 °C and derating management - typically delivers a service life of 12–15 years. The key failure modes are electrolytic capacitor ageing, IGBT thermal stress from frequent cycling, and firmware-related faults from grid disturbances. Choosing an inverter with a model-specific written warranty, rather than a repair-only warranty, transfers the replacement risk back to the manufacturer and ensures the system generates revenue for its full intended life."
   - q: "Can a solar inverter work without a battery?"
     a: "Yes. On-grid inverters work entirely without a battery. They synchronise their AC output directly to the grid, export surplus power, and import grid power when solar generation falls short of demand. The grid itself acts as a virtual infinite battery - absorbing excess energy and supplying power on demand. Battery storage becomes relevant when the goal is backup power during grid outages (for which a hybrid inverter is needed) or load shifting to avoid peak tariff periods."
   - q: "What certifications should a solar inverter have in India?"
-    a: "For residential and commercial rooftop installations in India, the inverter should carry BIS certification under IS 16221, IEC 62109-1 and IEC 62109-2 for safety, IEC 61727 for grid connection parameters, and IEC 62116 for anti-islanding. For PM Surya Ghar subsidy eligibility, the inverter must be on the ALMM (Approved List of Models and Manufacturers) maintained by MNRE. Inverters without ALMM listing disqualify the homeowner from receiving the central government subsidy of up to ₹78,000 for a 3 kW system."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Indian households install solar panels every year expecting lower bills and energy independence. The panels capture sunlight and generate electricity, but that electricity isn't usable yet. It leaves the panels as direct current (DC) somewhere between 30 V and 1,000 V depending on how many panels are wired in series. Your fridge, AC, and ceiling fan run on 230 V alternating current (AC) at exactly 50 Hz. The device that bridges that gap, turning unusable DC into grid-compatible AC, is the [solar inverter](/glossary/solar-inverter/).
 
@@ -44,8 +46,7 @@ Indian households install solar panels every year expecting lower bills and ener
 > - MPPT tracking recovers 20-30% more energy than a fixed-voltage system on a partly cloudy day.
 > - India uses three inverter topologies: on-grid (cheapest, no backup), hybrid (battery backup with 20 ms switchover), and off-grid (fully battery-dependent).
 > - Indian grid voltage swings between 180 V and 270 V, so inverters need India-tuned firmware, not narrow-band European designs.
-> - Inverters cause 60-70% of solar service calls, making IP66 sealing and a 12-year full replacement warranty the two specs worth checking first.
-> - Qbits inverters run at 98% peak efficiency with wide voltage acceptance and India-based service support.
+> - Inverters cause 60-70% of solar service calls, making IP66 sealing and a model-specific written warranty the two specs worth checking first.
 
 **Short version.** A solar inverter takes DC from the panels, tracks the array's maximum power point with an MPPT algorithm, and switches that DC through high-speed transistors (IGBTs) tens of thousands of times per second to synthesise a clean 230 V, 50 Hz AC sine wave. The 5-Stage DC-to-AC Conversion Chain (input filtering, MPPT regulation, DC link stabilisation, IGBT switching, AC output filtering) runs in real time, continuously, for the system's life.
 
@@ -67,8 +68,6 @@ This means the DC input to the inverter is never perfectly stable. It fluctuates
 - **Reporting performance data**: streaming real-time generation, fault codes, and grid parameters to a monitoring platform.
 
 An inverter that performs all six functions reliably, at 98% peak efficiency, through Indian summers where rooftop temperatures reach 60 °C and the grid voltage bounces between 180 V and 270 V, is an engineering achievement. One that is merely cheap and adequately sized for the panel count is a different product entirely.
-
-> **98%.** The peak conversion efficiency of Qbits inverters, meaning that for every 100 W the panels produce, the inverter delivers 98 W to your loads and the grid, losing only 2 W as heat. *Source - [IEC 61683](https://www.iec.ch/) measurement methodology, tested at 75% and 100% rated load.*
 
 The difference between a 96% efficient inverter and a 98% efficient inverter sounds small. On a 5 kW system generating 22 units per day, that 2-percentage-point gap costs roughly 0.44 units daily (about 160 units per year) which at ₹7/unit equals ₹1,120 in annual generation losses. Over a 12-year inverter life, the less efficient inverter leaves ₹13,440 of potential generation on the table, before accounting for rising tariffs.
 
@@ -99,8 +98,6 @@ Every rooftop solar project in India uses one of three inverter topologies, and 
 ### On-Grid Inverters (Grid-Tied)
 
 An [on-grid inverter](/glossary/on-grid-inverter/) connects your solar array directly to the utility grid with no battery in between. During daylight hours, the inverter feeds solar power to your loads first and exports any surplus to the grid through a [bidirectional meter](/glossary/bidirectional-meter/). At night or during low-generation periods, the grid supplies your loads as normal.
-
-On-grid inverters are the most cost-effective topology and dominate residential rooftop installations in India because they qualify for PM Surya Ghar Muft Bijli Yojana subsidies (provided the inverter is on the MNRE [ALMM list](/glossary/almm-list/)). They deliver the fastest payback (typically 4–6 years for a residential system) because there is no battery cost to recover.
 
 The critical limitation: when the utility grid goes down, the on-grid inverter automatically shuts off. This is not a design flaw, it is a mandatory safety requirement under IEC 62116. An inverter that continued generating during a grid outage would feed live electricity onto lines that grid workers assume are de-energised, creating a lethal hazard.
 
@@ -264,16 +261,11 @@ Elsewhere in the Heaven Group network, see [how to choose the right solar invert
 
 ## Where Qbits Fits
 
-Homeowners and businesses who understand how a solar inverter works (who have read the 5-Stage DC-to-AC Conversion Chain, understood what MPPT does, and looked at what India's 180–270 V grid requires) arrive at a shorter list of inverter criteria: wide voltage acceptance, real MPPT performance, high weighted efficiency, IP66 weather protection, and a warranty long enough to cover the inverter's entire useful life.
-
-Qbits Energy builds inverters specifically for these requirements. India-grid-tuned firmware handles the 180–270 V voltage range without nuisance tripping. IP66 sealing (not the IP65 standard common among imported products) protects against Indian monsoon driving rain and dust storms. The 12-year full replacement warranty (not a repair-only commitment, but physical unit replacement) means that if the inverter fails in year eight, Qbits replaces it. AI-powered WhatsApp monitoring sends plain-language alerts to the homeowner's phone, not just error codes to an app that requires manual review. And the <72-hour RMA service level, executed by an Indian service team, means that a fault on a Tuesday afternoon does not drag into a week-long wait for a part shipped from overseas.
+Homeowners and businesses who understand how a solar inverter works can create a shorter evidence list: PV and MPPT limits that match the array, approved grid settings, efficiency and derating data, an enclosure and installation method suitable for the site, plus a written warranty and service route. Use measured site conditions rather than a universal Indian voltage range.
 
 Three pages worth bookmarking before you finalise your inverter decision:
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM-listed and BIS/IEC compliant for full PM Surya Ghar subsidy eligibility.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness, 20 ms backup switchover, and wide AC voltage acceptance for power-cut zones.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel string compatibility with the inverter's MPPT voltage range before your installer quotes, using your actual panel model and local climate data.
-
-When you are ready to compare specifications against your roof area, load profile, and bill, the [residential solar solution](/residential-solution/) page consolidates the full product and support picture. Or reach out directly to the Qbits engineering team at [contact us](/contact-us/), most sizing queries get a response with a tailored recommendation within 24 hours, from engineers who understand that a Nagpur rooftop in June operates very differently from a Chennai rooftop in December.
 
 The [essential vs advanced solar inverter features guide](/blog/essential-vs-advanced-solar-inverter-features/) offers a checklist framework for prioritising which specifications matter most for your specific installation type, grid zone, and budget, a useful final step before your purchase decision.

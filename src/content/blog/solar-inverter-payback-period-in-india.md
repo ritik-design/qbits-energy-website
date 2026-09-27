@@ -19,7 +19,7 @@ faqs:
     a: "Commercial/industrial on-grid systems: 4–7 years. Residential systems slightly longer. Premium 98% efficient inverters with 12-year warranties typically achieve the lower end. Net metering states can cut payback by 12–24 months."
   - q: "Does higher efficiency always pay back faster?"
     a: "Generally yes. A 98% vs 95% efficiency gap delivers 0.5–1.5 years payback advantage on commercial systems. The advantage is largest in high-tariff states and at larger capacities."
-  - q: "Is a 12-year warranty worth the premium?"
+  - q: "Is a model-specific written warranty worth the premium?"
     a: "For commercial and industrial installations, yes. A single replacement cycle (parts, labour, downtime) typically costs 3–5× the warranty premium. For EPCs with O&M commitments, it's a sound financial decision."
   - q: "How does net metering affect payback?"
     a: "Net metering monetises surplus generation, reducing payback by 12–24 months in active states like Gujarat, Karnataka, Maharashtra, Rajasthan. Exact impact depends on consumption profile, sizing, and state export tariffs."
@@ -143,9 +143,9 @@ Dust storms, coastal salt, and monsoon humidity accelerate wear. [IP66](/blog/ip
 
 ## Warranty Coverage and ROI
 
-### 12-Year Warranty Value
+### model-specific written warranty Value
 
-Inverters typically last 10–15 years. A [12-year full replacement warranty](/blog/solar-inverter-warranty/) insures **₹1,50,000–₹3,00,000** in replacement cost for 100 kW units.
+Inverters typically last 10–15 years. A [model-specific written warranty](/blog/solar-inverter-warranty/) insures **₹1,50,000–₹3,00,000** in replacement cost for 100 kW units.
 
 ### 5-Year Warranty: Hidden Cost
 
@@ -184,8 +184,6 @@ Active frameworks reduce payback **12–24 months** by monetising surplus export
 
 ### Right-Size with DC Oversizing
 
-[Qbits inverters](/our-products/) support **up to 100% [DC oversizing](/glossary/dc-oversizing/)**: improving capacity utilisation without proportional cost increase.
-
 ### Real-Time Monitoring from Day One
 
 Performance losses undetected for weeks are common payback disruptors. AI-powered WhatsApp monitoring catches issues immediately.
@@ -199,8 +197,6 @@ Annual inspections, cleaning, and firmware updates extend inverter life beyond w
 Integrated DC/AC SPDs prevent lightning and grid-related failures, critical in rural and semi-urban areas with unstable grids.
 
 ### Documentation
-
-Complete installation records, commissioning reports, and performance data protect warranty claims and project refinancing. Qbits' digital warranty system streamlines this.
 
 ## Key Specifications Summary
 

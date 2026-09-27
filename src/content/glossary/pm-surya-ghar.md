@@ -19,7 +19,7 @@ quickFacts:
   primaryUse: "Subsidising residential rooftop solar"
   commonUsers: "Indian residential customers, DISCOMs, installers, EPCs"
   relevantStandards: "MNRE scheme guidelines, ALMM, CEA Smart Meter Regulations 2023"
-  relatedTechnologies: "Net metering, smart meter, on grid inverter, ALMM-listed panels"
+  relatedTechnologies: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 relatedTerms:
   - { slug: "mnre", term: "MNRE" }
   - { slug: "almm-list", term: "ALMM List" }
@@ -47,7 +47,7 @@ faqs:
   - q: "How long does PM Surya Ghar approval take?"
     a: "Target is 30 days from application to commissioning. Actual times range from 30 to 90 days depending on DISCOM and district."
   - q: "Can I get subsidy for a hybrid inverter under PM Surya Ghar?"
-    a: "Yes, if the inverter is ALMM-listed and the system is commissioned in grid-tie mode with net metering. Battery cost is not subsidised."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Is PM Surya Ghar only for new connections?"
     a: "No. Existing residential connections can apply as long as they have a valid DISCOM account and sanctioned load."
   - q: "What documents are needed for PM Surya Ghar?"
@@ -67,6 +67,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is PM Surya Ghar Muft Bijli Yojana
 
 PM Surya Ghar Muft Bijli Yojana is the Government of India's flagship residential rooftop solar subsidy scheme. Launched on 13 February 2024 by Prime Minister Narendra Modi, it aims to install rooftop solar at 10 million Indian homes by 2027 and to provide up to 300 kWh of free electricity per month to participating households.
@@ -76,7 +78,7 @@ The scheme provides central financial assistance directly to residential custome
 > **TL;DR**
 > - PM Surya Ghar Muft Bijli Yojana is India's central rooftop solar subsidy scheme, launched February 2024, targeting 10 million homes by 2027.
 > - Central subsidy ranges from ₹30,000 for 1 kW up to a cap of ₹78,000 for 3 kW and larger systems, paid directly to the customer's bank account.
-> - Only ALMM-listed inverters and panels qualify, and the system must be commissioned with net metering through a bidirectional smart meter.
+
 > - Typical payback period for a subsidised 3 kW system is 2.5 to 4 years, against a net capex of roughly ₹87,000 after subsidy.
 > - Only DISCOM-empanelled vendors can claim the subsidy on the customer's behalf; battery storage is not covered.
 > - The scheme is distinct from PM-KUSUM, which subsidises agricultural solar pumps rather than residential rooftop systems.
@@ -97,8 +99,6 @@ Scale. The 10 million household target is roughly 30 GW of distributed solar by 
 
 DISCOM standardisation. The scheme forces standard processes, [smart meter](/glossary/smart-meter/) rollout and [net metering](/glossary/net-metering/) across states.
 
-ALMM enforcement. Only [ALMM-listed](/glossary/almm-list/) inverters and panels qualify, lifting compliance across the supply chain.
-
 Climate contribution. 30 GW residential solar avoids approximately 50 million tonnes of CO2 annually.
 
 Energy bill relief. Households get up to 300 kWh per month free, reducing energy poverty for lower-income segments.
@@ -111,7 +111,7 @@ For a screen-by-screen walkthrough of the portal itself, see [PM Surya Ghar appl
 2. Submit application with sanctioned load, roof area and basic site details.
 3. DISCOM reviews technical feasibility and approves capacity.
 4. Customer selects an empanelled vendor from the portal list.
-5. Vendor installs the system using ALMM-listed inverter and panels.
+
 6. DISCOM installs a [bidirectional meter](/glossary/bidirectional-meter/), completes commissioning and issues commissioning report.
 7. Customer uploads commissioning report and bank details on portal.
 8. [MNRE](/glossary/mnre/) disburses subsidy by direct bank transfer within 30 days.
@@ -135,7 +135,6 @@ For RWA and group housing common-area systems:
 
 ### Eligible equipment
 
-- Inverter: ALMM Model List of Inverters, current revision
 - PV modules: ALMM Model List of Modules, current revision
 - Meter: DISCOM-approved bidirectional smart meter
 
@@ -215,8 +214,6 @@ Register on the portal first, before talking to any vendor.
 
 Verify the vendor's empanelment on the portal, not on their brochure.
 
-Confirm inverter and panel ALMM listing on the day of installation.
-
 Photograph commissioning seal numbers on the smart meter.
 
 Keep all invoices and DISCOM correspondence for at least three years.
@@ -283,8 +280,6 @@ PM Surya Ghar Muft Bijli Yojana is India's most significant residential rooftop 
 
 ## Want to apply for PM Surya Ghar?
 
-QBits Energy is an empanelled rooftop solar vendor under PM Surya Ghar across multiple Indian states. We handle the full application, DISCOM coordination, installation and subsidy claim end to end.
-
 ## Further reading
 
 For how PM Surya Ghar plays out in real projects, these guides go deeper:
@@ -298,7 +293,7 @@ For how PM Surya Ghar plays out in real projects, these guides go deeper:
 
 - PM Surya Ghar Muft Bijli Yojana scheme guidelines, Ministry of New and Renewable Energy, Government of India.
 - National Portal for Rooftop Solar, pmsuryaghar.gov.in, MNRE.
-- MNRE Approved List of Models and Manufacturers (ALMM) for inverters and modules.
+
 - CEA Smart Meter Regulations 2023, Central Electricity Authority of India.
 - Press Information Bureau releases on scheme launch and progress, Government of India.
 - State DISCOM rooftop solar guidelines and empanelment lists.

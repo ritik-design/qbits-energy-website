@@ -158,4 +158,4 @@ UK proposal software is judged on export assumptions, and export stopped being a
 
 - **Split the savings line in every quote.** Avoided import at 26p and SEG export at 6p are different businesses. Showing them blended hides the case for load shifting and batteries.
 - **Check MCS at specification, not at handover.** A non-MCS product removes the customer's SEG eligibility entirely, and the proposal is the document that promised it.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

@@ -199,8 +199,6 @@ VGF (Viability Gap Funding) is a capital subsidy bridging gap between project co
 
 ## Need VGF support for your storage project?
 
-QBits Energy advises BESS developers on VGF scheme participation, tender bidding and storage project economics under Indian government support frameworks.
-
 ## Further reading
 
 For how Viability Gap Funding plays out in real projects, these guides go deeper:

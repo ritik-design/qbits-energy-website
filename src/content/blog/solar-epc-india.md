@@ -33,13 +33,15 @@ The Indian solar sector is growing at unprecedented speed, with [EPC companies](
 > - Solar EPC delivery runs across seven phases: site assessment, engineering design, procurement, installation, commissioning, monitoring, and warranty management.
 > - All equipment must carry BIS certification, and inverters should meet IEC 62109 (safety) and IEC 61683 (efficiency) standards.
 > - The grounding resistance target during commissioning is below 5 ohms; insulation resistance must exceed 1 megohm on every DC and AC circuit.
-> - A 12-year full replacement warranty offers materially more protection than the older industry-standard 5-year pro-rated terms.
+> - A model-specific written warranty offers materially more protection than the older industry-standard 5-year pro-rated terms.
 > - WhatsApp monitoring is a practical differentiator in India because it reaches installers and clients on a channel they already check constantly.
 > - Panel wattages are climbing toward 750W and beyond, so inverter compatibility with high-wattage strings is now a core procurement criterion.
 
 ## Understanding Solar EPC Services
 
 EPC encompasses the complete lifecycle of solar projects, integrating **engineering design, equipment procurement, and construction execution** into a single delivery model. The role is part technical consultant, part project manager, part operations lead. Companies weighing whether to build this capability in-house or partner with a turnkey provider can compare against Heaven Green Energy's solar EPC and turnkey installation service as a reference point for scope and delivery model.
+
+An EPC is not automatically a dealer or distributor. The [Dealer, Distributor, EPC, and System Integrator comparison](/blog/dealer-vs-distributor-vs-epc/) separates project responsibility from product resale and equipment-integration scope.
 
 ### Key Challenges Facing Indian EPCs
 
@@ -223,7 +225,7 @@ The [WhatsApp monitoring for solar inverters guide](/blog/whatsapp-solar-monitor
 
 ### Understanding Warranty Terms
 
-A **12-year full replacement warranty** provides significantly more protection than 5-year pro-rated options. The [honest truth about solar inverter warranty in India](/blog/solar-inverter-warranty/) breaks down the fine print EPCs and clients should both check before signing.
+A **model-specific written warranty** provides significantly more protection than 5-year pro-rated options. The [honest truth about solar inverter warranty in India](/blog/solar-inverter-warranty/) breaks down the fine print EPCs and clients should both check before signing.
 
 ### Standard Maintenance Tasks
 

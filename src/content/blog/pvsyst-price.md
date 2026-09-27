@@ -106,7 +106,7 @@ SurgePV is typically 30 to 50 percent cheaper at team scale once the multi-tool 
 3. Verify P50, P75, P90 outputs align.
 4. Run a parallel quarter, keep PVsyst available for any lender-mandated reports.
 
-For most engineering teams in 2026, SurgePV is the alternative that wins on platform flexibility, scope, and per-seat cost at the same time. Once the simulation and proposal are signed off, the design still needs inverter hardware behind it, browse the [Qbits product range](/our-products/) or [talk to a Qbits engineer](/contact-us/) about matching on-grid or hybrid inverters to the system just modeled.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 <div class="inline-cta">
 <h3>Ready to bring bankable simulation into the browser?</h3>

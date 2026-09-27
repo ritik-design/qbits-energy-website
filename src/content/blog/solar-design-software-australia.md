@@ -135,7 +135,6 @@ A working example, drawn from a typical Sydney metro job, makes the workflow con
 
 The same job in a tool that does not ship native Australian logic takes 45 to 60 minutes because the designer has to override the FiT, calculate STCs in a separate spreadsheet, and rebuild the financial model by hand.
 
-
 The customer-facing half of this decision, meaning proposal generation, financing presentation and e-signature, is covered in our [best solar proposal software Australia](/blog/solar-proposal-software-australia/) comparison.
 
 ## Who Should Choose Each Tool
@@ -152,4 +151,3 @@ The customer-facing half of this decision, meaning proposal generation, financin
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
-

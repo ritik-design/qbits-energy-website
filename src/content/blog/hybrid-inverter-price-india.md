@@ -1,190 +1,216 @@
 ---
-title: "Hybrid Solar Inverter Price in India 2026: Every Size, Every Brand"
-excerpt: "Hybrid solar inverter price in India 2026 by size and brand: 3kW to 10kW price bands, what drives cost, hybrid vs on-grid delta, and value picks."
-description: "Hybrid solar inverter price in India 2026 explained: 3kW, 5kW, 8kW, and 10kW price bands by brand tier, cost drivers like MPPT count and warranty, hybrid vs on-grid price delta, battery add-on costs, and value picks with PM Surya Ghar subsidy math."
-category: "Buying Guide"
+title: 'Hybrid Solar Inverter Price in India 2026: What You Are Actually Paying For'
+excerpt: "Hybrid inverter price in India: dated listings, why hybrids cost more than on-grid, battery cost share, subsidy and GST, plus a 10-year worked example."
+description: "Hybrid inverter price in India: dated listings, why hybrids cost more than on-grid, battery cost share, subsidy and GST, plus a 10-year worked example."
+category: Buying Guide
 date: 2026-07-23
-updatedDate: 2026-08-02
-readTime: "17 min"
-image: "/blog-images/hybrid-inverter-price-india.svg"
-author: "Nirav Dhanani"
+updatedDate: 2026-09-24
+readTime: 13 min
+image: /blog-images/hybrid-inverter-price-india.svg
+author: Nirav Dhanani
 keywords:
-  - hybrid inverter price india
-  - hybrid solar inverter price in india 2026
-  - 5kw hybrid inverter price india
-  - 3kw hybrid solar inverter price
-  - 10kw hybrid inverter price
-  - hybrid vs on-grid inverter price
+- hybrid inverter price india
+- hybrid solar inverter price in india 2026
+- 5kw hybrid inverter price india
+- 3kw hybrid solar inverter price
+- 10kw hybrid inverter price
+- hybrid vs on-grid inverter price
 faqs:
-  - q: "What is the price of a hybrid solar inverter in India in 2026?"
-    a: "A hybrid solar inverter in India costs between ₹38,000 and ₹1,60,000 in 2026 depending on capacity and brand tier. A 3 kW hybrid from a budget brand starts near ₹38,000, while a 5 kW hybrid from a mid-market brand like Qbits or Deye sits between ₹55,000 and ₹85,000. An 8 kW hybrid ranges from ₹85,000 to ₹1,30,000, and a 10 kW three-phase hybrid runs ₹95,000 to ₹1,60,000. These are inverter-only prices and exclude the battery bank, which adds ₹22,000 to ₹28,000 per kWh for lithium iron phosphate chemistry."
-  - q: "How much more does a hybrid inverter cost than an on-grid inverter?"
-    a: "A hybrid inverter costs ₹20,000 to ₹40,000 more than an equivalent on-grid inverter at the same capacity. For example, a 5 kW on-grid inverter from a mid-market brand costs ₹40,000 to ₹62,000, while a 5 kW hybrid from the same tier costs ₹55,000 to ₹85,000. The premium pays for the battery management system, bidirectional DC-DC converter, and automatic backup switchover hardware. In areas with two or more hours of daily power cuts, the premium usually pays back through avoided diesel generator running costs within three to five years."
-  - q: "Is a hybrid inverter eligible for PM Surya Ghar subsidy?"
-    a: "Yes, a hybrid inverter is eligible for PM Surya Ghar Muft Bijli Yojana subsidy as long as the system is grid-connected, the inverter model is ALMM-listed, and it is installed by an empanelled vendor. The central subsidy is ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW, and nothing above 3 kW. A 5 kW hybrid system therefore qualifies for up to ₹78,000 in central subsidy, the same as an on-grid system of the same size and the same as a 3 kW system."
-  - q: "What is the price of a 5kW hybrid inverter in India in 2026?"
-    a: "A 5 kW hybrid inverter in India costs ₹48,000 to ₹90,000 in 2026 depending on brand tier. Budget brands like UTL and Microtek hybrids sit at ₹48,000 to ₹58,000. Mid-market models from Qbits (HS-5K), Deye, and Growatt range from ₹55,000 to ₹85,000. Premium models like the Sungrow SH5.0RS run ₹75,000 to ₹90,000. The Qbits HS-5K at ₹68,000 to ₹85,000 carries a 12-year full replacement warranty, the longest in the segment, versus 5 years standard from most competitors."
-  - q: "Does the hybrid inverter price include the battery?"
-    a: "No, quoted hybrid inverter prices almost never include the battery. The battery bank is priced separately and typically costs more than the inverter itself. Lithium iron phosphate batteries cost ₹22,000 to ₹28,000 per kWh in mid-2026, so a 5 kWh battery adds ₹1.1 Lakh to ₹1.4 Lakh to the system. Lead-acid tubular batteries cost less upfront at ₹8,000 to ₹12,000 per kWh but last 4 to 6 years versus 10 to 15 years for lithium. Always ask the installer to itemise inverter, battery, panels, structure, and installation separately."
-  - q: "Which brand offers the best warranty on hybrid inverters in India?"
-    a: "Qbits offers the longest hybrid inverter warranty in India at 12 years of full replacement coverage on its HS series, including the HS-3K, HS-5K, HS-8K, and HS-10K models. Full replacement means the entire unit is swapped at no cost (excluding labour) if it fails within the warranty period, with no prorated reduction. Most competing brands offer 5 years standard with an optional paid extension to 10 years. Given that a 5 kW hybrid replacement costs ₹55,000 to ₹85,000, the warranty difference has real financial weight in years six through twelve."
-  - q: "Is a hybrid inverter worth the extra cost for a home in India?"
-    a: "A hybrid inverter is worth the extra ₹20,000 to ₹40,000 if your area sees two or more hours of daily unscheduled power cuts, or if you plan to add a battery within five years. An on-grid inverter shuts down completely during any outage due to anti-islanding safety rules, so in high-cut states like Uttar Pradesh, Bihar, and rural Maharashtra, a hybrid protects the value of your entire solar investment. In metros with under one hour of daily outages, an on-grid inverter is the financially better choice because it pays back faster."
+- q: "What is the price of a hybrid solar inverter in India?"
+  a: "There is no single national price, because the figure depends on model, phase, battery current limit, and what the seller includes. On 24 September 2026 the official Luminous store listed its single-phase Solar Hybrid TX units at 73,800 rupees for 3 kVA, 58,998 rupees for 4 kVA, and 63,899 rupees for 5 kVA, all stated as inclusive of all taxes. Those are three inverter-only listings from one brand on one day, not a market band. Always compare dated written quotes for an exact model."
+- q: "Why does a hybrid inverter cost more than an on-grid inverter of the same kW?"
+  a: "A hybrid unit carries hardware an on-grid unit does not need. That includes a bidirectional DC to DC converter for charging and discharging, a battery port rated for high continuous current, an internal transfer relay for the backup output, communication hardware for the battery management system, and firmware that arbitrates between solar, battery, grid, and load. The kW label is identical but the bill of materials is not. The gap widens as the battery current rating rises."
+- q: "Does a hybrid inverter quote include the battery?"
+  a: "Only when the battery is itemised by model, quantity, and usable kWh. Many quotes describe a unit as battery ready, which means the port exists and nothing is supplied. On most residential hybrid projects the battery block costs more than the inverter. Ask for the battery brand, nominal kWh, usable kWh, rated cycle life, and the communication protocol in writing."
+- q: "Does buying a hybrid inverter increase my PM Surya Ghar subsidy?"
+  a: "No. The MNRE operational guidelines for the residential component state that the central financial assistance is provided irrespective of inverter size and is computed on rated DC module capacity. The published slabs are 30,000 rupees at 1 kW, 60,000 rupees at 2 kW, and 78,000 rupees at 3 kW and above, per PIB (2024). Adding battery kWh or upgrading from on-grid to hybrid does not move you into a higher slab. State and DISCOM rules still vary, so confirm locally before you order."
+- q: "What GST rate applies to a hybrid solar inverter?"
+  a: "Classification decides the rate, and the two relevant entries differ. Notification 9/2025-Integrated Tax (Rate), dated 17 September 2025 and effective 22 September 2025, lists renewable energy devices at 5 percent under Schedule I entry 437 and static converters of heading 8504 at 18 percent under Schedule II entry 477. How your supplier bills the supply therefore changes the landed cost materially. Ask for the HSN code and the rate on the proforma invoice before you pay."
+- q: "How much backup power can a 5 kW hybrid inverter really deliver?"
+  a: "Rated AC output is a ceiling, not a promise during an outage. Real backup power is limited by the battery discharge current, the battery bank size, and the surge rating for motor starting. A 48 V platform rated at 120 A continuous discharge supports roughly 5,760 W of DC draw before conversion losses. Size the essential-load circuit from that number, not from the nameplate kW."
+- q: "Is a LiFePO4 battery worth the higher price over lead-acid?"
+  a: "Compare cost per delivered kWh, not sticker price. Divide the installed battery cost by usable kWh multiplied by rated cycles from the datasheet. Lead-acid is cheaper to buy and usually needs replacing more than once inside a 10-year window, while LiFePO4 costs more up front and carries a far higher rated cycle count. Run the division with your own quotes and your own datasheet cycle figures before deciding."
+- q: "What does a Qbits hybrid inverter cost?"
+  a: "Qbits does not publish retail prices. The QBH hybrid range is sold quote-based through dealers and channel partners, so the number depends on model, phase, battery current requirement, and your location. The published catalogue gives specifications, not pricing. Send your load list, phase, and module datasheet to get a dated model-specific quote."
 featured: false
+seoTitle: "Hybrid Inverter Price in India: What Drives the Cost"
+relatedSlugs:
+- 5kw-hybrid-inverter-price-india
+- on-grid-vs-hybrid
+- battery-sizing-hybrid-solar
 ---
 
-Roughly 3,500 people a month search for hybrid [inverter price](https://quickestimate.co/blog/solar-inverter-price-india) in India. Most of them already know they want backup power. What they cannot find is a straight answer on what a [hybrid inverter](/glossary/hybrid-inverter/) should actually cost. Most dealer sites quote full system packages that bury the inverter inside a bundle. Most brand pages hide pricing behind a "request quote" form.
+Most hybrid inverter price searches end in confusion, because the number found online and the number on the final invoice describe different things. A retail listing prices one box. An EPC quote prices a system. Between them sit a battery, a backup distribution board, and a day of labour. That gap is where buyers lose money, not the inverter.
 
-This guide fixes that. It lays out 2026 hybrid inverter prices for every common residential size, 3 kW, 5 kW, 8 kW, and 10 kW, broken down by brand tier. It explains what actually drives the price gap between a ₹48,000 hybrid and a ₹90,000 one. It also covers how much more a hybrid costs than an on-grid unit, and where the battery fits into the total. The goal is simple: you should be able to look at any installer quote and know within minutes whether the price is fair.
+This guide separates the layers. It covers dated retail listings, the hardware that makes a hybrid cost more than an on-grid unit of identical kW, and the capacity bands. It then works through the specifications that change price, subsidy and tax rules, a 10-year calculation, and a test for whether you need a hybrid at all.
 
 > **TL;DR**
-> - A 3 kW hybrid inverter costs ₹38,000 to ₹65,000. A 5 kW costs ₹48,000 to ₹90,000. An 8 kW costs ₹85,000 to ₹1,30,000. A 10 kW costs ₹95,000 to ₹1,60,000 (inverter only, 2026 prices).
-> - A hybrid inverter costs ₹20,000 to ₹40,000 more than an equivalent on-grid inverter at the same capacity.
-> - The battery is never included: LFP storage adds ₹22,000 to ₹28,000 per kWh, so a 5 kWh bank adds ₹1.1 Lakh or more.
-> - Three things drive hybrid pricing: battery port hardware, [MPPT](/glossary/mppt/) count, and warranty depth. Warranty is the most financially significant.
-> - Hybrid systems are fully eligible for [PM Surya Ghar](/glossary/pm-surya-ghar/) central subsidy (up to ₹78,000, capped at the 3 kW band) when grid-connected and ALMM-listed.
-> - Qbits HS series hybrids carry a 12-year full replacement warranty with a sub-72-hour RMA service commitment, the longest coverage in the Indian market.
+> - Official Luminous store, 24 September 2026: 73,800 rupees at 3 kVA, 58,998 at 4 kVA, 63,899 at 5 kVA, inclusive of all taxes. Higher kW did not mean a higher price.
+> - Same day, the Waaree Radiance-Lite 5 kW hybrid kit showed 4,12,999 rupees against an MRP of 6,88,304.40 rupees, for 9 modules, 1 inverter, LFP batteries, and balance of system.
+> - A hybrid costs more because it adds a bidirectional converter, a high-current battery port, a transfer relay, BMS communication hardware, and backup wiring.
+> - PM Surya Ghar assistance is computed on rated DC module capacity, irrespective of inverter size, per the MNRE guidelines. A hybrid does not raise your grant.
+> - Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025, puts renewable energy devices at 5 percent and heading 8504 static converters at 18 percent.
+> - Backup power is capped by battery discharge current, not by the nameplate kW.
 
-**Short version.** Hybrid solar inverter price in India in 2026 runs from ₹38,000 for a budget 3 kW unit to ₹1,60,000 for a premium 10 kW three-phase unit. The 5 kW sweet spot costs ₹55,000 to ₹85,000 from mid-market brands like Qbits and Deye. Add ₹20,000 to ₹40,000 versus on-grid, plus the battery cost separately, and factor in up to ₹78,000 of PM Surya Ghar subsidy on a 5 kW system.
+**Short version.** A hybrid solar inverter in India is quoted per exact model, not per kW band. Official-store listings for 3 to 5 kVA single-phase units observed on 24 September 2026 ran between roughly 59,000 and 74,000 rupees, inverter only. Complete hybrid kits with modules and battery ran several times that. The battery, not the inverter, drives the total, and subsidy is unaffected by the choice.
 
-If you are still deciding whether you need a hybrid at all, the [on-grid vs hybrid comparison](/blog/on-grid-vs-hybrid/) covers the topology question first. This post assumes the hybrid decision is made and answers the money question.
+## What a hybrid inverter price actually covers
 
-## Hybrid Inverter Price in India 2026: The Full Price Bands
+A hybrid inverter price covers one converter box and its accessories. It does not cover the battery, the essential-load distribution board, DC and battery protection, modules, mounting, labour, or metering. Sellers use one word for all of it, which is why two quotes for the same kW can differ by a factor of five.
 
-Hybrid inverter pricing in India splits cleanly into three brand tiers. Budget tier covers Indian UPS-heritage brands and entry imports. Mid-market covers the volume Chinese brands and made-in-India players like Qbits. Premium covers global brands with advanced storage platforms.
+Force every quote into one of three scopes: inverter only, inverter plus battery, or complete installed system. The [5 kW hybrid buying guide](/blog/5kw-hybrid-inverter-price-india/) works through one capacity in detail.
 
-Here is the full 2026 price map, inverter only, excluding battery, panels, structure, and installation:
+## Prices observed on 24 September 2026
 
-| Size | Budget Tier | Mid-Market Tier | Premium Tier |
+These are individual listings checked on official manufacturer stores on one date. They are market-observed data points, not a national range. Prices vary by state, vendor, capacity, and promotional cycle.
+
+| Listing | Price shown | MRP shown | Scope |
 | --- | --- | --- | --- |
-| **3 kW (single phase)** | ₹38,000 to ₹48,000 (UTL, Microtek) | ₹45,000 to ₹58,000 (Qbits HS-3K, Growatt) | ₹55,000 to ₹65,000 (Sungrow, premium imports) |
-| **5 kW (single phase)** | ₹48,000 to ₹58,000 (UTL, Luminous hybrid) | ₹55,000 to ₹85,000 (Qbits HS-5K, Deye, Growatt) | ₹75,000 to ₹90,000 (Sungrow SH series) |
-| **8 kW (single/three phase)** | ₹70,000 to ₹85,000 (limited options) | ₹85,000 to ₹1,10,000 (Qbits HS-8K, Deye) | ₹1,10,000 to ₹1,30,000 (Sungrow, GoodWe ET) |
-| **10 kW (three phase)** | ₹80,000 to ₹95,000 (limited options) | ₹95,000 to ₹1,30,000 (Qbits HS-10K, Deye, Growatt) | ₹1,30,000 to ₹1,60,000 (Sungrow, premium EU brands) |
+| [Luminous Solar Hybrid TX 3 kVA](https://www.luminousindia.com/solar-inverters/solar-hybrid-tx-3kva) | ₹73,800 | ₹82,000 | Inverter only, 48 V, 4 batteries |
+| [Luminous Solar Hybrid TX 4 kVA](https://www.luminousindia.com/solar-inverters/solar-hybrid-tx-4kva) | ₹58,998 | ₹98,000 | Inverter only, 48 V |
+| [Luminous Solar Hybrid TX 5 kVA](https://www.luminousindia.com/solar-inverters/solar-hybrid-tx-5kva) | ₹63,899 | ₹1,10,000 | Inverter only, 5 kW rated, 48 V |
+| [Waaree Radiance-Lite 5 kW kit](https://shop.waaree.com/waaree-radiance-lite-5-kw-hybrid-solar-kit-complete-rooftop-solar-solution-with-2-battery-battery-5-12-kwh/) | ₹4,12,999 | ₹6,88,304.40 | 9 modules, inverter, LFP batteries, DCDB, ACDB, earthing |
 
-These bands are consistent with current market data. A 5 kW Deye hybrid trades at ₹40,000 to ₹45,000 in dealer channels. A 5 kW Sungrow sits at ₹55,000 to ₹65,000, according to [Heaven Green Energy's brand comparison](https://www.heavengreenenergy.com/blog/growatt-vs-deye-vs-sungrow), 2026. Dealer prices below ₹40,000 on a 5 kW hybrid usually indicate grey imports without valid ALMM listing or manufacturer warranty. Treat them as a red flag, not a bargain.
+All four pages stated prices inclusive of all taxes, and each Luminous page states a 36-month warranty. The Waaree kit was out of stock with a 40-day dispatch note. Its text is also inconsistent on battery count: 2 modules in the bill of materials, 1 in the description. Read the bill of materials, not the headline.
 
-The 5 kW size dominates residential demand because it matches the peak load of a typical 3 BHK home. The [best hybrid solar inverter in India 2026](/blog/best-hybrid-solar-inverter-india-2026/) post ranks individual models inside these bands if you want product-level picks.
+Two conclusions follow. Listed price does not rise cleanly with capacity, because the 3 kVA carried the smallest discount and so the highest figure. And the kit cost roughly six times the inverter-only listing of the same class.
 
-## What Actually Drives the Price of a Hybrid Inverter
+## Why hybrid hardware costs more than on-grid hardware
 
-Two hybrids with the same kW rating can differ by ₹40,000. The gap is not arbitrary. It comes from five specific engineering and commercial factors.
+An on-grid inverter does one job. It tracks the array, converts DC to AC, synchronises with the utility, and shuts down when the grid fails. A hybrid keeps all that and adds five cost centres.
 
-**Battery port and BMS hardware.** The battery interface is what makes a hybrid a hybrid. A bidirectional DC-DC converter and an integrated battery management system add real bill-of-materials cost. Cheap hybrids use low-voltage (48 V) battery ports that suit lead-acid and small lithium banks. Premium hybrids use high-voltage battery architectures (150 to 600 V) that charge and discharge more efficiently but cost more to build. This alone explains ₹10,000 to ₹20,000 of the spread.
+1. **Bidirectional DC to DC converter.** Charging and discharging needs a converter that runs both ways under control, with its own magnetics and switching stage.
+2. **High-current battery port.** Continuous discharge at 48 V means large currents, so terminals, busbars, and protection are rated far above an on-grid board.
+3. **Internal transfer relay.** The backup output must disconnect from the utility and re-energise the essential circuit without back-feeding.
+4. **BMS communication.** A managed lithium battery talks over CAN or RS485, and the [CAN bus](/glossary/can-bus/) implementation must match the battery.
+5. **Backup circuitry and firmware.** Arbitrating between solar, battery, grid, and load, plus anti-islanding, is a larger test burden than a grid-tied unit needs.
 
-**MPPT count.** A single-MPPT hybrid is cheaper but forces all your panels to share one tracking point. Dual-MPPT units track two independent strings, which matters for east-west roofs and partial shading. On a 5 kW system, dual MPPT recovers 8 to 15% more generation on mixed-orientation roofs. Expect to pay ₹5,000 to ₹10,000 more for genuine dual MPPT.
+None of this is optional. A unit sold as battery ready at an on-grid price usually lacks one of them, most often rated battery current or transfer capability. The [BMS explainer](/blog/bms-hybrid-solar-inverter-explained/) covers that layer.
 
-**Backup switchover speed.** Budget hybrids switch to battery in 10 to 20 milliseconds, fine for lights and fans but enough to reboot a desktop PC. Better units switch in under 10 milliseconds with a UPS-class transfer. The relay and control hardware behind that speed costs money.
+## The battery is the real cost driver
 
-**Warranty depth.** This is the biggest hidden price factor. A 5-year warranty is the market floor. Qbits prices a 12-year full replacement warranty into the HS series. That means the unit carries the risk of a ₹55,000 to ₹85,000 replacement for twelve years instead of five. Divide price by warranty years and the "expensive" inverter is often the cheapest per year of coverage.
+On a residential hybrid the battery block is normally the largest single line item. The Waaree kit shows it structurally. A package listed at 4,12,999 rupees contains one hybrid inverter, and comparable standalone units listed between 59,000 and 74,000 rupees elsewhere that day.
 
-**Certification and origin.** ALMM listing, BIS certification, and IP65/IP66 ingress ratings require testing investment that ultra-cheap imports skip. Non-ALMM hybrids forfeit your entire PM Surya Ghar subsidy, which costs far more than the sticker saving.
+So negotiate accordingly. Pushing a dealer on the inverter moves a small number. Sizing the battery correctly moves a large one.
 
-## Hybrid vs On-Grid: The Price Delta in Plain Numbers
+Battery cost scales with usable energy, not inverter kW. A 5 kW inverter does not need 5 kWh of storage, and a 3 kW inverter can sit on a large bank. Size from your essential-load list and typical outage duration using the [battery sizing guide](/blog/battery-sizing-hybrid-solar/), then price the inverter that serves that bank. Chemistry sets both purchase price and replacement schedule, and the [lithium versus lead-acid comparison](/blog/lithium-vs-lead-acid-solar-battery/) covers depth of discharge, cycle life, and heat tolerance.
 
-The most common pricing question is whether the hybrid premium is justified. Here is the delta at 5 kW, the most-purchased size, using mid-market tier pricing:
+## Capacity bands and what each one suits
 
-| Item | 5 kW On-Grid | 5 kW Hybrid |
+Capacity follows the essential load and the connection phase, not the roof size. A backup system that cannot start the pump has failed, whatever its kW label.
+
+| Band | Typical fit | What decides it |
 | --- | --- | --- |
-| Inverter (mid-market) | ₹40,000 to ₹62,000 | ₹55,000 to ₹85,000 |
-| Inverter premium | Reference | +₹20,000 to ₹40,000 |
-| Battery (5 kWh LFP, optional) | Not possible | +₹1,10,000 to ₹1,40,000 |
-| Works during grid outage | No (anti-islanding shutdown) | Yes, on battery plus solar |
-| Battery can be added later | No, requires full inverter replacement | Yes, no rewiring |
-| PM Surya Ghar subsidy eligible | Yes, if ALMM-listed | Yes, if grid-connected and ALMM-listed |
-| Typical payback (metro, ₹8/unit) | 3.5 to 4.5 years | 4.5 to 6 years without battery |
+| 3 to 4 kW single-phase | 1 BHK and 2 BHK, lights, fans, 1 fridge | Whether a motor or air conditioner is on backup |
+| 5 to 6 kW single-phase | 3 BHK, fridge plus 1 inverter air conditioner | Surge headroom at compressor start |
+| 7 to 8 kW single-phase | Large homes, farmhouses, small clinics | Continuous backup demand, not peak |
+| 5 to 12 kW three-phase | Three-phase sanction, shops, small commercial | Sanctioned load and phase balance |
+| Above 12 kW | Commercial and light industrial | Load study, metering, utility approval |
 
-The [on-grid vs hybrid solar inverters ROI](/blog/on-grid-vs-hybrid-solar-inverters-roi/) post models both paths over 15 years across tariff bands. The short answer: in states with two or more hours of daily cuts, hybrid wins even before counting battery comfort. Every outage hour is generation your on-grid system cannot deliver. In well-served metros, on-grid wins on pure payback.
+Do not size the hybrid to the sanctioned load out of habit. Backup serves the essential subset, usually a fraction of connected load. The [outage backup guide](/blog/solar-inverter-power-cut-backup/) shows how to build that subset.
 
-One number worth memorising: replacing an on-grid inverter with a hybrid later costs the full hybrid price plus rewiring, roughly ₹60,000 to ₹90,000. Buying hybrid now with the battery port unused costs ₹20,000 to ₹40,000 extra. If there is any realistic chance you want backup within five years, the hybrid is the cheaper path.
+## Specifications that genuinely move the price
 
-## Price by Size: 3 kW, 5 kW, 8 kW, and 10 kW in Detail
+Many datasheet lines are decorative. These four change what you pay.
 
-### 3 kW Hybrid (₹38,000 to ₹65,000)
+**Usable backup power versus rated power.** Rated AC output is the ceiling with everything available. During an outage the real limit is battery discharge current. A 48 V nominal platform at 120 A continuous supports roughly 5,760 W of DC draw before conversion losses. That arithmetic governs the essential circuit, not the nameplate.
 
-The 3 kW hybrid suits small 2 BHK homes and shops with one AC or none. Budget brands dominate this size because buyers here are price-first. The trap at this tier is single-MPPT units with 48 V battery ports dressed up as "solar PCU" products. Many are glorified UPS inverters with a solar charger bolted on, and several lack ALMM listing. A genuine 3 kW hybrid from Qbits (HS-3K) or Growatt with proper MPPT and ALMM listing starts around ₹45,000. A 3 kW system also earns the highest subsidy per kW under PM Surya Ghar: ₹78,000 covers a large share of total system cost.
+**Surge rating and duration.** A pump or compressor draws a multiple of running current for a fraction of a second. Ask for the surge figure and how long it is held. Higher surge capability costs more, and separates a working backup from a tripping one.
 
-### 5 kW Hybrid (₹48,000 to ₹90,000)
+**MPPT count and voltage window.** More trackers cost more and earn their keep only on split or shaded roofs. The DC ceiling matters more: 500 V and 1000 V maximum DC permit very different string lengths. Check yours in the [string sizing calculator](/string-sizing-calculator/).
 
-The volume segment. This is where competition is fiercest and value is best. The Qbits HS-5K sits at ₹68,000 to ₹85,000 with the 12-year warranty. Deye and Growatt hybrids undercut on price but carry 5-year warranties and installer-dependent service. Sungrow's SH5.0RS leads on monitoring software at the top of the band. Full pricing context for complete systems, not just inverters, is in the [5 kW solar system price in India](/blog/5kw-solar-system-price-india/) guide.
+**Battery voltage, chemistry, and protocol.** A 48 V platform will not serve a high-voltage stack, and lead-acid and LiFePO4 need different charge profiles. A port labelled CAN proves nothing on its own: ask which battery models and firmware revisions the manufacturer has validated. Mismatch is the commonest cause of a hybrid running as a dumb charger.
 
-### 8 kW Hybrid (₹85,000 to ₹1,30,000)
+### Where the Qbits hybrid range sits
 
-The 8 kW size serves large villas, 4 to 5 BHK homes with two or three ACs, and small clinics. Three-phase supply becomes common here. The mid-market band (Qbits HS-8K, Deye SUN-8K) at ₹85,000 to ₹1,10,000 is where most buyers should shop. Budget options below ₹80,000 at this capacity are rare and often lack three-phase certification. Subsidy at 8 kW is still ₹78,000, because the central scheme is capped at the 3 kW band and pays nothing extra for capacity above it.
+Qbits sells inverters only, quote-based through dealers, so the useful comparison is specification, not price.
 
-### 10 kW Hybrid (₹95,000 to ₹1,60,000)
+| Series | Phase | Power | MPPT | DC window | Efficiency | Battery current |
+| --- | --- | --- | --- | --- | --- | --- |
+| QBH 3KS to 6KS48P | Single | 3 to 6 kW | 1 or 2 by model | 150 to 450 V; 500 V max | 97.6% max | 75 to 120 A |
+| QBH 7KS to 8KS48P | Single | 7 to 8 kW | 2 | 150 to 450 V; 500 V max | 98% max | 175 to 190 A |
+| QBH 5 to 12KS48P3 | Three | 5 to 12 kW | 1 or 2 by model | 200 to 800 V; 1000 V max | 98% | 120 to 250 A |
 
-The ceiling of the residential subsidy scheme and the entry point for small commercial. Three-phase is mandatory at this size in most states. The 10 kVA hybrid segment runs ₹95,000 to ₹1,60,000 by brand and warranty, according to [Lento India's 2026 price analysis](https://www.lentoindia.com/blog/10kva-hybrid-solar-inverter-price-in-india-2023.html), 2025. At this capacity, service network quality matters most: a failed 10 kW hybrid idles ₹2,500 to ₹4,000 of daily generation in a business setting. The [10 kW solar system price in India](/blog/10kw-solar-system-price-india/) post covers full system economics.
+Every series carries an IP66 enclosure, and the model names ending in 48P reflect a 48 V nominal battery platform. Apply the current arithmetic: 190 A at 48 V is a materially different backup ceiling from 120 A, though both sit under an 8 kW label. Qbits states UPS switching within 10 seconds, a transfer specification rather than a substitute for a dedicated online UPS.
 
-## The Battery: The Cost Nobody Puts in the Headline Price
+Commercially, Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Qbits does not sell batteries, so any battery comes from your integrator with its own warranty. Browse the [hybrid range](/hybrid-inverter/) for model documentation.
 
-Every hybrid price in this guide excludes the battery, and the battery is usually the bigger number. Lithium iron phosphate (LFP) storage costs ₹22,000 to ₹28,000 per kWh in mid-2026, down from ₹35,000 to ₹45,000 per kWh in 2023 as domestic cell production scaled up.
+## On-grid versus hybrid over 10 years
 
-| Battery Bank | Capacity | LFP Cost (2026) | Typical Backup (3 BHK essentials) |
-| --- | --- | --- | --- |
-| Small | 3 kWh | ₹66,000 to ₹84,000 | 4 to 5 hours (fans, lights, fridge, Wi-Fi) |
-| Standard | 5 kWh | ₹1,10,000 to ₹1,40,000 | 6 to 8 hours essentials, or 2 to 3 hours with one AC |
-| Large | 10 kWh | ₹2,20,000 to ₹2,80,000 | Full evening plus night coverage with one AC |
+This is the comparison most buyers skip, and the one that decides whether the extra spend was rational. It is a shape comparison, since your own quotes supply the amounts.
 
-Lead-acid tubular batteries cost ₹8,000 to ₹12,000 per kWh upfront but deliver only 4 to 6 years of life and 50% usable depth of discharge. LFP delivers 10 to 15 years of life and 90% depth of discharge. Per usable kWh over lifetime, LFP is already cheaper. The [battery sizing for hybrid solar](/blog/battery-sizing-hybrid-solar/) guide walks through how many kWh your load actually needs. The [solar battery price guide](/blog/solar-battery-price-guide-india-2026/) tracks chemistry-level pricing.
-
-The practical recommendation: buy the hybrid inverter now and size the battery for your real outage hours. Do not let a dealer upsell a 10 kWh bank for a home that needs five.
-
-## Subsidy Math: What a Hybrid System Actually Costs After PM Surya Ghar
-
-Hybrid systems connected to the grid qualify for the full PM Surya Ghar Muft Bijli Yojana central subsidy. The inverter and panels must be ALMM-listed and the vendor empanelled. The central subsidy scale is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000 with nothing paid above 3 kW, according to the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), 2026.
-
-Worked example, 5 kW hybrid system with battery in a city like Indore (illustrative, labelled hypothetical):
-
-| Item | Amount |
-| --- | --- |
-| 5 kW hybrid inverter (mid-market, Qbits HS-5K) | ₹75,000 |
-| 5 kWp panels, structure, cabling, installation | ₹2,05,000 |
-| 5 kWh LFP battery | ₹1,25,000 |
-| **Gross system cost** | **₹4,05,000** |
-| Less: PM Surya Ghar central subsidy | ₹78,000 |
-| Less: State subsidy (varies, ₹0 to ₹30,000) | ₹15,000 |
-| **Net homeowner cost** | **₹3,12,000** |
-
-Without the battery, the same system nets near ₹1,87,000. Several states add top-ups; the [solar subsidy in Uttar Pradesh](/blog/solar-subsidy-uttar-pradesh-2026/) and [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) guides carry the state-by-state detail. Note the subsidy applies to the system capacity, not the inverter type, so the hybrid premium is not subsidised, but neither is it penalised.
-
-Net metering rules apply identically to hybrid systems in export mode, which keeps the daytime savings intact. The [net metering complete guide](/blog/net-metering-india-complete-guide/) explains the DISCOM approval flow.
-
-## Myth-Busting: "The Cheapest Hybrid Is the Smart Buy"
-
-The most expensive mistake in this market is treating hybrid inverters as interchangeable commodities. Three myths drive bad purchases.
-
-**Myth 1: A hybrid without a battery is wasted money.** Wrong. A hybrid with the battery port unused works exactly like an on-grid inverter, exporting to the grid and earning subsidy. The battery port is an option you hold. When LFP prices fall another 20% or your grid worsens, you add storage for the battery cost alone instead of replacing a ₹60,000 inverter.
-
-**Myth 2: All 5-year warranties are equal.** They are not. Some cover parts only, some are prorated, some require the unit shipped to a service centre at your cost. A 12-year full replacement warranty with a sub-72-hour on-site RMA commitment is a different product entirely from a 5-year carry-in warranty. Read the warranty document, not the sticker.
-
-**Myth 3: Higher efficiency justifies any premium**. The difference between 97.4% and 98% efficiency on a 5 kW system is about 0.3 units a day, roughly ₹900 a year at ₹8 per unit. A ₹25,000 price premium never recovers that. Warranty length, service speed, and ALMM status each outweigh marginal efficiency by an order of magnitude in financial impact.
-
-> **What most buyers get wrong**: They negotiate ₹5,000 off the inverter price. They then accept a battery bank 50% larger than their outage hours justify, overspending ₹60,000 where they saved ₹5,000.
-
-The honest tradeoff: budget hybrids genuinely suit rental properties and short-horizon buyers who will sell before year six. If you will own the home for a decade or more, warranty depth beats sticker price every time.
-
-## Value Picks and Where Qbits Fits
-
-Putting price, warranty, and service together, the value position in each tier looks like this:
-
-| Buyer Profile | Best Fit | Why |
+| Line item | On-grid | Hybrid |
 | --- | --- | --- |
-| Budget-first, short ownership horizon | UTL / Microtek hybrid (3 kW) | Lowest entry cost, acceptable for small loads |
-| Volume value, strong installer nearby | Deye / Growatt hybrid | Competitive price, wide availability, 5-year warranty |
-| Long-term owner, power-cut area | Qbits HS series | 12-year full replacement warranty, IP66, sub-72-hour RMA, India-grid-tuned firmware |
-| Monitoring-first buyer in a metro | Sungrow SH series | Strong software platform, premium price |
+| Inverter hardware | Lower, no battery port or relay | Higher, adds converter, relay, BMS interface |
+| Battery | None | Usually the largest line item |
+| Backup distribution | None | Separate essential-loads board |
+| Output during an outage | None, disconnects on anti-islanding | Backup port, within its discharge limit |
+| Replacements in 10 years | Inverter only, if it fails | Battery, chemistry dependent |
+| PM Surya Ghar assistance | On DC module capacity | Identical, no increase for the battery |
+| Best fit | Stable supply, bill reduction | Frequent outages, or loads that must not stop |
 
-Qbits positions the HS series on warranty economics rather than sticker price. The HS-5K at ₹68,000 to ₹85,000 costs more upfront than a Growatt hybrid at ₹50,000, but covers twelve years of replacement risk against five. At a ₹75,000 replacement cost in year eight, the premium recovers itself the first time anything fails. Add 98% peak efficiency, IP66 weather sealing for monsoon and coastal installs, 180 to 270 V grid tolerance for weak-grid districts, and WhatsApp-based monitoring. The package targets exactly the buyer this keyword attracts. That is someone in UP, Bihar, MP, or rural Maharashtra who needs backup to work for a decade, not to be cheapest on day one.
+The decision is not technology preference. It is how many hours a year your supply is out. Work through the [on-grid versus hybrid comparison](/blog/on-grid-vs-hybrid/) with your own outage record before committing capital.
 
-For the broader market beyond hybrids, the [solar inverter price guide](/blog/solar-inverter-price-guide/) covers on-grid and off-grid segments. The [how to choose a hybrid solar inverter](/blog/how-to-choose-hybrid-solar-inverter/) post covers the selection checklist beyond price. The [Qbits hybrid inverter range](/hybrid-inverter/) lists HS series specifications and ALMM certificates.
+## Subsidy and GST: what changes the invoice, and what does not
 
-## Conclusion: The Bottom Line on Hybrid Inverter Prices
+Two rules here are widely misreported, and both move the final number.
 
-A fair 2026 price for a hybrid inverter is ₹38,000 to ₹48,000 at 3 kW and ₹55,000 to ₹85,000 at 5 kW. At 8 kW, expect ₹85,000 to ₹1,10,000, and at 10 kW, ₹95,000 to ₹1,30,000 from a mid-market brand with a real warranty. Anything dramatically cheaper trades away ALMM status, warranty depth, or both. Anything dramatically more expensive should justify itself with monitoring software or high-voltage battery architecture you actually need.
+On subsidy, the MNRE [operational guidelines for the residential component](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) state that assistance is provided irrespective of inverter size and computed on rated DC module capacity. Published slabs are ₹30,000 at 1 kW, ₹60,000 at 2 kW, and ₹78,000 at 3 kW and above, per PIB (2024), with special-category rates of ₹33,000 and ₹19,800. A hybrid inverter, or extra battery kWh, does not raise the grant by a rupee. Slabs change and DISCOM practice varies, so check the current [subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) first. A 15-day clock runs after DISCOM approval, and registered vendors owe a 5-year comprehensive maintenance contract from commissioning.
 
-Three things to do next:
+On tax, look at Notification 9/2025-Integrated Tax (Rate), dated 17 September 2025 and effective 22 September 2025. It lists renewable energy devices at 5 percent under Schedule I entry 437. It lists static converters of heading 8504 at 18 percent under Schedule II entry 477. Classification therefore moves the cost of a standalone inverter, so ask for the HSN code on the proforma. Section 15(2)(e) of the CGST Act also excludes subsidies from the value of supply, so assistance does not reduce your GST.
 
-- **Fix your size first.** Match inverter kW to your peak simultaneous load, then check subsidy slab maths on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/). Oversizing wastes subsidy headroom; undersizing trips on AC start-up surges.
-- **Get itemised quotes.** Demand separate line items for inverter, battery, panels, structure, and installation, with the ALMM certificate number for the exact inverter model. Compare warranty cost per year, not sticker price.
-- **Get a hybrid configuration quote.** [Talk to a Qbits engineer](/contact-us/) with your load list and outage hours. Most homeowners receive a sized HS-series configuration with battery options and subsidy math within 24 hours.
+One correction, because it recurs in sales conversations. There is no MNRE ALMM list for inverters. List-I covers modules, List-II covers cells. Any claim that your inverter must appear on an ALMM list is false.
+
+## Who genuinely needs a hybrid, and who is buying shelf-ware
+
+Here is the uncomfortable part. A hybrid bought on a stable supply can end up as expensive equipment that runs a handful of hours a year. The hardware is sound and the utilisation is near zero.
+
+The deciding test is grid reliability in your area, measured rather than remembered. Count outage hours over a full month, including monsoon, from your own log or DISCOM notifications. Then ask how many fell in daylight, when a battery competes with live generation, and how many involved a load whose interruption cost you money.
+
+A hybrid is justified when outages are frequent, long, or unpredictable. It is justified when a medical device, cold chain, pump, or revenue-generating machine cannot stop. It is justified when your tariff spread makes time-shifting worthwhile.
+
+It is usually not justified when supply is stable, or when you already run a small conventional inverter for lights and fans. Nor is it justified because a salesperson said batteries are the future.
+
+There is a middle path most dealers will not volunteer. Install on-grid now, size the array correctly, and add storage later when the outage record justifies it. The [add storage later guide](/blog/add-battery-to-solar-system-later/) sets out what to specify up front so the retrofit stays cheap.
+
+## Worked example: 10-year ownership cost with a battery replacement
+
+This is arithmetic with stated assumptions, not a quotation and not market data. Substitute your own dated quotes and datasheet cycle figures.
+
+**Step 1. Size the energy requirement.** Assume an essential load of 600 W held for 4 hours per outage. That is 600 × 4 = 2,400 Wh, or 2.4 kWh of AC energy per event.
+
+**Step 2. Convert to nominal battery capacity.** Assume 90% conversion efficiency and an 80% usable fraction. Nominal capacity = 2.4 ÷ (0.90 × 0.80) = **3.33 kWh**.
+
+**Step 3. Compute cost per delivered kWh.** The formula is installed battery cost ÷ (usable kWh × rated cycles), using your quote and the battery datasheet.
+
+| Illustrative input set | Installed cost | Usable kWh | Rated cycles | Cost per delivered kWh |
+| --- | --- | --- | --- | --- |
+| Set A, lithium iron phosphate | ₹1,00,000 | 4.0 | 4,000 | ₹6.25 |
+| Set B, lead-acid | ₹15,000 | 0.9 | 400 | ₹41.67 |
+
+The inputs are illustrative placeholders chosen to show the method, not observed prices.
+
+**Step 4. Add the replacement schedule.** Rated cycle counts differ by an order of magnitude between the chemistries. A lead-acid bank is normally replaced more than once inside the inverter's service life, while a LiFePO4 bank may not be. Count every replacement, plus labour and disposal.
+
+**Step 5. Compare against what it displaces.** Set the delivered-kWh cost beside your tariff for bill shifting, or beside the real cost of an outage for backup. Where delivered cost sits far above tariff, the battery buys availability, not savings. That is legitimate, but it should be conscious.
+
+## Questions to ask before you sign
+
+1. What is the exact SKU, phase, rated AC output, backup output, and surge rating with hold time?
+2. What is the maximum continuous battery charge and discharge current, at what nominal voltage?
+3. Which battery models and firmware revisions has the manufacturer validated over CAN or RS485?
+4. Is the battery itemised with brand, nominal kWh, usable kWh, and rated cycles, or merely battery ready?
+5. What maximum DC voltage and MPPT window apply, and does the string fit at minimum site temperature?
+6. What warranty term applies to the inverter, and separately to the battery, with exclusions?
+7. What HSN code and GST rate appear on the proforma, line by line?
+8. Is the vendor registered under the scheme, and is the 5-year maintenance contract in the price?
+9. What is the quote validity, the lead time, and the stock position?
+10. Who performs warranty service locally, and what is the claim process?
+
+## The Bottom Line
+
+A hybrid inverter price means something only when attached to a model number, a scope, and a date. The listings observed on 24 September 2026 show capacity does not track price cleanly, and the inverter is a minor share of a complete system. Decide on outage evidence, size the battery, then buy the inverter that serves it.
+
+- Measure your outage hours over a full month before choosing hybrid over on-grid, and keep the record.
+- Force every quote into one scope, itemise the battery, and check discharge current against your essential loads.
+- Send your load list, connection phase, and module datasheet to the [Qbits team](/contact-us/) for a dated, model-specific quote.

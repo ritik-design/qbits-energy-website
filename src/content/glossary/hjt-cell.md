@@ -287,8 +287,6 @@ HJT is the premium silicon cell technology with the highest efficiency, best tem
 
 ## Need HJT premium solar modules?
 
-QBits Energy supplies HJT bifacial modules for premium Indian residential, C&I and high-irradiance utility solar applications.
-
 ## Further reading
 
 For how HJT Cell plays out in real projects, these guides go deeper:

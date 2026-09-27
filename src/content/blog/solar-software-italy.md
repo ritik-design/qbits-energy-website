@@ -173,4 +173,4 @@ Italy changed mechanism in May 2025 and much of the market's software has not.
 - **Verify your tool models Ritiro Dedicato.** A platform still assuming Scambio sul Posto produces wrong numbers with full confidence.
 - **Size to the load curve.** Export at 8 to 14 cents means capacity beyond daytime consumption barely earns.
 - **Put storage in the main comparison.** It captures most of the retail price on everything it shifts.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring an Italian address, or reach the Qbits team [here](/contact-us/) for CEI-compliant inverter and battery specification.
+

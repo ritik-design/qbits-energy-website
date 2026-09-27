@@ -151,4 +151,4 @@ Philippine proposals are decided by one number that most software fills in wrong
 
 - **Set export to the BGC on every model.** Roughly PHP 5 to 6 against a PHP 12 import price is the actual spread.
 - **Ask about the load profile before the roof.** Daytime-heavy operations are where Philippine solar pays, and the proposal should prove the match rather than assume it.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

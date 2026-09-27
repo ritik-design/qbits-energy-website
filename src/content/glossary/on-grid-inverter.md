@@ -70,6 +70,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is an on grid inverter
 
 An on grid inverter is a solar inverter that converts the DC produced by PV modules into AC and pushes that AC directly into the utility distribution network. It is also called a grid-tie inverter, grid-connected inverter or grid-interactive inverter. The defining feature is dependence: without grid voltage and frequency present at the output terminals, the inverter does not produce power.
@@ -103,8 +105,6 @@ Cost. On grid systems are roughly 35 to 50 percent cheaper than equivalent [hybr
 Efficiency. There is no round-trip loss in a battery. Every kWh of solar generated either powers the load directly or goes to the grid at near-unity efficiency. Hybrid systems typically lose 10 to 15 percent in charge and discharge cycles.
 
 Grid stability. Modern on grid inverters perform reactive power support, voltage ride-through and frequency response. As rooftop solar penetration climbs in states like Gujarat, Kerala and Tamil Nadu, these inverter functions help the grid absorb variable solar without instability.
-
-Policy fit. India's net metering framework, smart-meter rollouts and ALMM list all assume grid-interactive operation. An on grid inverter is the device the policy was built around.
 
 ## How an on grid inverter works
 
@@ -209,13 +209,9 @@ For a full decision framework across all three architectures, see [On-Grid vs Hy
 
 ## Indian market context
 
-The [MNRE ALMM List](/glossary/almm-list/) of Models and Manufacturers is the gating document for any on grid inverter sold under a subsidised or government-tendered scheme. Inverters must additionally hold BIS certification under IS 16221 (safety) and IS 17387 (grid interconnection).
-
 State [DISCOMs](/glossary/discom/) enforce CEA grid standards through commissioning tests. The standard tests include anti-islanding within 2 seconds of grid loss, [THD](/glossary/thd/) under 3 percent at rated output and 50 Hz frequency lock-in within ±0.5 Hz.
 
 [Net metering](/glossary/net-metering/) rules differ by state. Maharashtra and Gujarat allow net metering up to the sanctioned load. Karnataka and Tamil Nadu have moved towards [gross metering](/glossary/gross-metering/) for larger systems. Delhi and Kerala allow virtual net metering for group housing.
-
-ALMM compliance was reinstated in April 2024 after a temporary suspension. As of 2026, only ALMM-listed inverters are eligible for central subsidy, PM Surya Ghar disbursements and CPSU tenders.
 
 ## Standards and certifications
 
@@ -247,14 +243,6 @@ Forgetting to commission the cloud monitoring. Without it, the first sign of tro
 Letting the [warranty card](/blog/solar-inverter-warranty/) sit in a drawer. Registering the inverter on the manufacturer portal within 30 days is usually mandatory for extended warranty.
 
 Mixing inverter brands on the same site. Different anti-islanding algorithms can interact badly, causing nuisance trips.
-
-## Key takeaways
-
-An on grid inverter is the lowest-cost, highest-efficiency way to use solar where the grid is reliable. It cannot back up loads during outages and requires net or gross metering to fully realise the financial benefit. In India it must be ALMM-listed and BIS-certified. Sizing, mounting, earthing and surge protection determine whether it lasts 10 years or fails in three.
-
-## Looking for an on grid inverter?
-
-QBits Energy supplies BIS-certified, ALMM-listed on grid inverters for residential, commercial and industrial rooftop solar across India. Talk to our engineers for a system design that matches your DISCOM rules and your roof.
 
 ## Further reading
 

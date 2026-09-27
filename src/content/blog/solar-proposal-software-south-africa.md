@@ -154,4 +154,4 @@ South African customers buy certainty and justify it with arithmetic. A proposal
 
 - **Quantify the backup.** Which circuits, how many hours, under what conditions. Nameplate capacity is not an answer.
 - **Model Section 12B at the customer's tax rate.** A 125% first-year deduction with no size cap is the strongest line in any commercial quote, and a generic percentage understates it.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for hybrid inverter and battery specification.
+

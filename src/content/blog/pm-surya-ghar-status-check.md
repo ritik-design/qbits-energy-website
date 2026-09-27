@@ -35,6 +35,8 @@ faqs:
     a: "The PM Surya Ghar status can be checked via the portal at pmsuryaghar.gov.in (requires internet) or via the official mobile app. There is no USSD or SMS-based status check available. If you do not have reliable internet access, visit your local Common Service Centre (CSC) - most CSC operators are familiar with the PM Surya Ghar portal and can pull your status on your behalf using your application ID."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 You submitted your [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) application, [chose an empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/), and now you are waiting. But the portal is not exactly transparent about what is happening, and the difference between "Pending at DISCOM" and "Feasibility Check Pending" can mean weeks of different wait times. This guide covers exactly how to check your [PM Surya Ghar](/glossary/pm-surya-ghar/) status, what each stage means, and what to do when it stalls.
 
 > **Direct answer.** Check [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) status by logging in to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} with your registered mobile number and OTP. Navigate to the Application Status section. The portal shows your current stage, date of last update, and any pending actions. Average processing time is 45 to 90 days across states in 2026.
@@ -187,12 +189,7 @@ Separately, the [Consumer Online Resource and Empowerment](https://consumerhelpl
 
 ## Where Qbits Fits
 
-After your application clears the feasibility stage and you move to vendor selection, the inverter brand you specify in your system determines whether ALMM compliance is satisfied. An inverter that is not on the [ALMM list](/glossary/almm-list/) will fail the DISCOM inspection and halt your subsidy disbursal.
-
-Qbits inverters are ALMM Phase III listed, BIS certified, and carry IEC 62116 anti-islanding compliance, all required for PM Surya Ghar subsidy disbursement. Selecting an ALMM-compliant inverter at the vendor selection stage prevents inspection failures that add 4 to 8 weeks to the timeline.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed TLS and TLD series; submit the ALMM certificate number at vendor approval stage without additional paperwork.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness for future upgrade after subsidy disbursal.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[PM Surya Ghar Apply Online Guide](/blog/pm-surya-ghar-apply-online/)**: Complete walkthrough of the portal application process including vendor selection.
 
-If your application has stalled at any stage and you need guidance, [talk to a Qbits engineer](/contact-us/), the team handles PM Surya Ghar applications daily and can advise on DISCOM-specific issues in your state.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

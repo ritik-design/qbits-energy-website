@@ -244,8 +244,6 @@ Conduit protects and routes electrical cables in solar installations. Indian sta
 
 ## Need code-compliant solar cable routing?
 
-QBits Energy installs IS 9537-compliant conduit and cable routing for residential, C&I and utility solar projects across India.
-
 ## Further reading
 
 For how Conduit plays out in real projects, these guides go deeper:

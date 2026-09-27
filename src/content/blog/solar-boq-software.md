@@ -133,8 +133,6 @@ Generation time: under 5 seconds. PM Surya Ghar subsidy line: ₹78,000 central 
 - **Choose HelioScope** for C&I engineering with limited BOQ scope.
 - **Use [Solar Ladder](/blog/solar-ladder-alternative/)** for India residential sales workflows that need BOQ + CRM in one product.
 
-For most installers in 2026, the [solar design software](https://surgepv.com/) from SurgePV plus [QuickEstimate](https://quickestimate.co/) is the cleanest auto-BOQ + procurement workflow. Once the BOQ is generated, the line items still need to map to real hardware. Qbits' [product catalog](/our-products/) covers the on-grid and hybrid models most Indian residential BOQs call for, sized around the [residential solution](/residential-solution/) segment this guide focuses on.
-
 <div class="inline-cta">
 <h3>Ready for auto-BOQ that matches the design?</h3>
 <p>SurgePV combines AI 3D, 8,760-hour shading, bankable yield, AutoCAD export, and auto-BOQ in one platform.</p>

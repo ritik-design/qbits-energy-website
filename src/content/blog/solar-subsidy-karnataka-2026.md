@@ -26,7 +26,7 @@ faqs:
   - q: "Does Karnataka have a state solar policy beyond PM Surya Ghar?"
     a: "Yes. Karnataka operates under the Karnataka Solar Policy 2014–2021 framework, with extensions and updates administered by KREDL. The state policy primarily targets utility-scale and commercial solar rather than residential subsidy top-ups. KREDL maintains a renewable energy facilitation role and manages state-level empanelment of solar vendors. For residential consumers, the primary financial incentive remains the central PM Surya Ghar subsidy. Homeowners in Karnataka benefit more from the state's high solar irradiance (5.0–6.0 kWh/m²/day in northern Karnataka) than from additional state cash incentives."
   - q: "What documents are needed for Karnataka solar subsidy application?"
-    a: "Required documents for Karnataka (BESCOM or other DISCOM) solar subsidy applications include: (1) recent electricity bill showing consumer number and DISCOM; (2) Aadhaar card linked to the application mobile number; (3) PAN card; (4) bank passbook or cancelled cheque linked to Aadhaar for subsidy disbursement; (5) property ownership proof - sale deed, khata certificate, property tax receipt; (6) for apartment applicants, RWA or apartment association NOC; (7) rooftop photographs; (8) technical feasibility form from the DISCOM-empanelled installer; (9) ALMM certificates for panels and inverter. BESCOM provides a downloadable checklist at its consumer portal."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Can I get solar subsidy for an apartment in Bangalore?"
     a: "Yes, provided you hold an individual electricity connection in your name with BESCOM and obtain an NOC from the apartment association or RWA. Bangalore has a large apartment housing stock, and BESCOM processes apartment solar applications routinely. Shadow-free rooftop area allocation per flat is typically the limiting factor - most apartment rooftops can support 1 to 2 kW per unit rather than the full 3 kW subsidy cap. Some large apartment projects have pursued community solar arrangements with single large systems and sub-metered distribution among beneficiary units."
   - q: "Is rooftop solar economically viable in Bangalore given its climate?"
@@ -35,6 +35,8 @@ faqs:
     a: "KREDL (Karnataka Renewable Energy Development Ltd) is the state nodal agency for renewable energy in Karnataka, functioning under the Karnataka government's energy department. KREDL administers state-level renewable energy policy, maintains state vendor empanelment lists for certain schemes, and acts as the facilitating body between MNRE (central government) and Karnataka's five DISCOMs for PM Surya Ghar implementation. Homeowners do not interact with KREDL directly for residential subsidy applications; the primary application channel is the national portal at pmsuryaghar.gov.in routed through the DISCOM."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Karnataka homeowners asking about solar in 2026 have one distinct advantage over most other Indian states: BESCOM, which covers Bangalore and the surrounding districts, operates one of the most digitised solar [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) portals in the country. Combined with Karnataka's high solar irradiance, 5.0 to 6.0 kWh/m²/day in much of the state, and the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) of up to ₹78,000 for a 3 kW system, rooftop solar in Karnataka delivers some of the most attractive payback economics in India.
 
@@ -64,8 +66,6 @@ The Pradhan Mantri Surya Ghar Muft Bijli Yojana is administered nationally throu
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the buyer's bank account after commissioning. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-Eligibility requires ALMM-listed panels, a BIS-certified inverter, and installation by a DISCOM-empanelled vendor. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains how to verify vendor empanelment before signing any contract, particularly important in Bangalore's large but uneven solar installer market.
-
 ## Karnataka State Solar Policy: What KREDL Administers
 
 Karnataka does not offer a dedicated state-level cash top-up for residential rooftop solar in 2026 comparable to Gujarat's Surya Gujarat or Maharashtra's Mukhyamantri Saur Krishi Vahini equivalents. The state's solar policy framework, administered by [KREDL](https://kredl.kar.gov.in/) (Karnataka Renewable Energy Development Ltd), is oriented primarily toward utility-scale and commercial-industrial solar rather than residential incentives.
@@ -89,8 +89,6 @@ Navigating the Karnataka solar subsidy process requires managing five distinct e
 1. **National portal registration**: Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your DISCOM consumer number, Aadhaar details, and bank information before any installation begins. Registration after installation creates verification complications and often delays subsidy disbursement.
 
 2. **DISCOM technical feasibility**: Submit to your [DISCOM](/glossary/discom/) (BESCOM for Bangalore, or one of the four regional DISCOMs) for technical feasibility approval. BESCOM accepts online submissions through its consumer portal; other DISCOMs may require in-person submission at divisional offices.
-
-3. **ALMM-compliant installation**: Only panels and inverters on the current MNRE ALMM list qualify. Verify specific model numbers on the [MNRE ALMM list](https://mnre.gov.in/almm-list/), the list updates quarterly. The [ALMM guide](/blog/almm-list-phase-iii-guide/) explains which phase applies to your application.
 
 4. **Net meter commissioning**: After installation, the DISCOM replaces your existing meter with a [bidirectional smart meter](/glossary/bidirectional-meter/). BESCOM's queue for this step typically runs 30 to 45 days post-inspection.
 
@@ -170,7 +168,6 @@ The [gross metering vs net metering comparison](/blog/gross-metering-vs-net-mete
 - **For apartments, Association NOC**: Apartment owners association or RWA letter permitting rooftop installation, specifying allocated rooftop area
 - **Rooftop photographs**: Minimum four views showing shadow-free area and existing electrical board
 - **Installer's technical feasibility form**: Signed by DISCOM-empanelled vendor; includes single-line diagram of proposed system
-- **ALMM compliance certificates**: Separate certificates for panels and inverter confirming current ALMM listing
 
 For BESCOM applicants, all documents can be uploaded digitally through the BESCOM consumer portal. For HESCOM, MESCOM, CESC, and GESCOM, call the divisional office in advance to confirm whether physical submission is still required.
 
@@ -190,8 +187,6 @@ Karnataka's monsoon (June–September) does not significantly slow the applicati
 ## A Bangalore Homeowner Case Example: Whitefield, 3 kW System
 
 Priya Sharma owns a 4 BHK independent house in Whitefield, Bangalore, served by BESCOM. Her monthly bill averages ₹4,200 (500–600 units per month, including air conditioning). Here is her solar subsidy experience.
-
-**System specification**: 3 kW on-grid, ALMM-listed [monocrystalline](/glossary/monocrystalline/) panels (9 × 335 Wp), BIS-certified single-phase [string inverter](/glossary/string-inverter/), rooftop mounting on 240 sq ft shadow-free terrace area.
 
 **Costs and subsidies**:
 - Gross system cost: ₹2,00,000 (installed)
@@ -225,7 +220,7 @@ For most Bangalore homeowners with reliable BESCOM supply and no critical backup
 - **Not verifying vendor DISCOM empanelment**: Karnataka has many solar installers, but only DISCOM-empanelled vendors can process PM Surya Ghar applications. Ask the vendor to show their empanelment certificate for the specific DISCOM (BESCOM, HESCOM, etc.) before paying any advance; a directory such as Heaven Green Energy's local installer finder{target="_blank" rel="noopener"} is a reasonable starting point for shortlisting vendors to verify.
 - **Installing before DISCOM feasibility approval**: Even if the installer assures you approval is "just a formality," install only after the written feasibility consent letter arrives. Pre-installation claims are frequently not honoured if the feasibility is later denied or modified.
 - **Choosing a 5 kW system when the bill supports only 3 kW**: The PM Surya Ghar subsidy is capped at 3 kW regardless of system size. For a Bangalore home consuming 450–600 units per month, a 3 kW system covers most of the bill without over-generating and exporting at the lower tariff.
-- **Skipping ALMM verification**: The ALMM list changes quarterly. A model proposed by an installer today may have been delisted three months ago. Check the [MNRE ALMM list](https://mnre.gov.in/almm-list/) directly for the exact panel and inverter models in your quote.
+
 - **Underestimating the monsoon impact on payback**: Bangalore's June–September monsoon reduces daily generation by 40 to 50 percent compared to peak months. Payback calculations should use annual generation figures, not summer peak figures, to avoid overestimating economics; [SurgePV's financial modeling tool](https://surgepv.com/generation-financial-tool/){target="_blank" rel="noopener"} lets you factor seasonal generation swings into the payback estimate rather than relying on a flat monthly average.
 
 The [net metering India complete guide](/blog/net-metering-india-complete-guide/) and the [how to apply for net metering guide](/blog/how-to-apply-net-metering-india/) together provide the full procedural background before the BESCOM portal application.
@@ -234,10 +229,7 @@ The [net metering India complete guide](/blog/net-metering-india-complete-guide/
 
 Karnataka's climate (particularly the coastal MESCOM zone with high humidity and the intense summer heat in the Hyderabad Karnataka region served by GESCOM) puts specific demands on inverter hardware. Coastal humidity accelerates corrosion in standard IP65 units. Northern Karnataka's 45 °C+ ambient temperatures require inverters that sustain full nameplate output without thermal derating.
 
-Qbits inverters are designed for these conditions. The IP66 rating provides full dust-and-water resistance that handles both Mangaluru's coastal monsoon and Kalaburagi's summer heat. India-grid-tuned firmware manages the voltage fluctuations common in HESCOM's and GESCOM's semi-urban networks. The 12-year full replacement warranty (the longest standard warranty in the Indian residential inverter market) removes replacement cost risk across the full productive life of your panels. BIS and ALMM compliance means every Qbits unit qualifies for PM Surya Ghar subsidy without documentation issues.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed, suitable for BESCOM, HESCOM, MESCOM, CESC, and GESCOM applications.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for Karnataka buyers in areas with periodic outages or who want battery-backed critical loads.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm your panel-string configuration against your rooftop area and BESCOM sanctioned load before the feasibility application.
 
-[Talk to a Qbits engineer](/contact-us/) about your Karnataka rooftop, most sizing recommendations come back within 24 hours and will include a subsidy-adjusted payback calculation for your specific district.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

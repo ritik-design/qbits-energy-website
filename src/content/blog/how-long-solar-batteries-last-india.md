@@ -191,15 +191,13 @@ Five practical steps that consistently extend battery life in Indian conditions:
 
 For more on how the right inverter affects battery longevity, the [solar battery backup calculator](/blog/solar-battery-backup-calculator/) includes configuration guidance for different battery types.
 
-## Where Qbits Fits in Battery Longevity
+## Qbits model documentation
 
 The inverter is the battery's primary interface, it controls every charge and discharge event. A poor-quality or misconfigured inverter is the leading cause of premature battery failure in Indian solar systems, ahead of even the battery's own chemistry limitations.
 
-Qbits HS and HT series hybrid inverters include chemistry-specific charging algorithms (LiFePO4, NMC, VRLA/tubular), configurable DoD cut-offs, and [BMS](/glossary/bms/) communication via [CAN bus](/glossary/can-bus/) and RS485 that allow cell-level monitoring and protection. For the mechanics of how that charging current is generated in the first place, see [how a solar inverter works](/blog/how-does-a-solar-inverter-work/):
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series, designed to maximise battery life through correct charging.
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series for grid-tied systems without battery storage.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current product families and exact-model documents against the project design and utility requirements.
 - **[Battery Backup Calculator](/blog/solar-battery-backup-calculator/)**: Size the battery bank and configure backup time for your load profile.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Local inverter support in 280+ Indian cities, including battery system health checks.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
-[Talk to a Qbits engineer at contact-us](/contact-us/) about the right battery chemistry and sizing for your local climate and outage pattern.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

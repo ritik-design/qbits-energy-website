@@ -37,25 +37,15 @@ faqs:
     a: "Switch all lights to LED - a 5-star LED bulb draws 7–9 W versus 40–60 W for an incandescent. Use BLDC ceiling fans (28–35 W) instead of conventional fans (60–75 W). Set the refrigerator thermostat to its warmest acceptable setting and avoid opening it frequently. Charge phones and laptops before the expected power cut. Each 100 W reduction in backup load adds approximately 0.4–0.5 hours of runtime to a 10 kWh LFP battery. Small changes in habits can meaningfully extend your effective backup window without any additional investment."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 Power cuts in Uttar Pradesh, Bihar, and rural Maharashtra can stretch from 4 to 14 hours daily in summer. When a homeowner asks "how long will my solar battery last?", they deserve a real answer, not a vague "depends on your usage." This guide gives Indian homeowners the exact formula, worked examples across common battery sizes, and a reference table so they can calculate [solar battery backup time](/glossary/kwh/) for their own home without any guesswork.
-
-> **Direct answer.** Solar [battery backup](https://heavendesigns.in/blog/solar-battery-backup-design-guide/) time = (Battery kWh × Depth of Discharge) ÷ Load kW × Inverter efficiency. A 10 kWh [LFP battery](/glossary/lfp-battery/) at 80% DoD, powering a 1.5 kW critical load through a 95%-efficient inverter, delivers approximately 5.1 hours. The Qbits 4-Variable Backup Equation accounts for DoD, load, efficiency, and solar recharge, the four variables every Indian homeowner must calculate before buying a battery bank.
-
-> **TL;DR**
-> - Backup hours = (Battery kWh × DoD%) ÷ Load kW × Inverter Efficiency - a 10 kWh [LFP battery](/glossary/lfp-battery/) at 1.4 kW load gives about 5.4 hours, not 10.
-> - LFP batteries support 80-90% Depth of Discharge versus 40-50% for [lead-acid](https://www.heavengreenenergy.com/blog/lithium-vs-lead-acid-battery), roughly doubling usable backup per installed kWh.
-> - Inverter efficiency losses of 4-6% during DC-to-AC conversion compound with DoD limits and should always be applied together.
-> - A 3 BHK home typically draws 1.0-1.6 kW of critical load and needs a 10-15 kWh LFP bank for 6-8 hours of backup.
-> - Daytime outages let solar recharge the battery simultaneously, extending effective backup by 40-65% versus battery-only systems.
-> - Undersized solar paired with a large battery bank can take 2-3 days to fully recover after a prolonged outage.
 
 The "10 kWh battery = 10 hours of backup" assumption is the most expensive misconception in residential solar. The actual number depends on four variables that most sellers never explain. Getting the math right means you neither over-spend on a battery you do not need, nor under-buy and find yourself without power at midnight.
 
 ## The Backup Time Formula Every Indian Homeowner Needs
 
 The core formula is straightforward. Once you understand each variable, the calculation takes under five minutes.
-
-**The Qbits 4-Variable Backup Equation:**
 
 ```
 Backup Hours = (Battery kWh × DoD%) ÷ Load kW × Inverter Efficiency
@@ -168,8 +158,6 @@ The DoD difference between chemistries means a 10 kWh LFP bank provides twice th
 
 ## The Inverter Efficiency Factor: The 5% Most People Ignore
 
-Every watt-hour of energy stored in your battery must pass through the hybrid inverter's power electronics to reach your AC appliances. This conversion from DC battery voltage to 230 V AC incurs losses. Modern hybrid inverters operate at 93–97% [inverter efficiency](/glossary/inverter-efficiency/) in the DC-to-AC conversion path. Qbits hybrid inverters (HS and HT series) are rated at 97.6% peak efficiency, with a European weighted efficiency of approximately 96%.
-
 A 5% efficiency loss might seem trivial, but it compounds with DoD limitations:
 
 - 10 kWh LFP at 80% DoD = 8.0 kWh usable from the battery
@@ -200,9 +188,7 @@ The table reveals an important pattern: a homeowner targeting 6 hours of backup 
 
 For lead-acid equivalents, multiply each cell by 0.56. A 10 kWh lead-acid bank at 1.5 kW load delivers approximately 2.8 hours, less than half the LFP figure.
 
-## The 4-Phase Qbits Backup Sizing Method
-
-Named after the four decisions every homeowner must make in sequence, the **4-Phase Qbits Backup Sizing Method** prevents the two most common mistakes: buying too little battery (running out at 3 AM) and buying too much (paying for capacity that solar never fully recharges). EPCs sizing storage across multiple client sites can apply the same logic at scale using SurgePV's [battery and energy storage sizing methodology](https://surgepv.com/hub/energy-storage/battery-sizing/).
+## Qbits model documentation
 
 ### Phase 1: Measure Your Critical Load
 
@@ -295,7 +281,6 @@ Partially true, but only during daylight hours. Solar panels cannot store energy
 Comparing upfront costs without accounting for usable capacity and lifespan is misleading. A 10 kWh lead-acid battery bank at ₹60,000–₹80,000 delivers 4–5 kWh usable and lasts 2–4 years. A 10 kWh LFP bank at ₹1,20,000–₹1,60,000 delivers 8–9 kWh usable and lasts 10–15 years. On a per-usable-kWh basis over the system lifetime, LFP is substantially cheaper for daily cycling.
 
 **Myth 5: "The installer's quoted backup hours are conservative estimates"**
-Not always. Many backup-hour estimates in sales quotes assume 100% DoD and ignore inverter losses, operating temperature derating, and real-world load variation. Apply the Qbits 4-Variable Backup Equation to any quote you receive, if the installer cannot show you the underlying calculation, ask for it before signing.
 
 For a detailed comparison of battery backup options versus a diesel generator, the [solar vs diesel generator](/blog/solar-vs-diesel-generator-india/) analysis covers the true cost-per-kWh from each source during extended outages.
 
@@ -376,7 +361,7 @@ For homeowners uncertain whether to invest in solar backup or stick with a conve
 
 ## Avoiding the Five Sizing Mistakes Indian Homeowners Make
 
-Backup system sizing errors are common enough that Qbits installation teams see the same mistakes repeatedly across different states.
+Backup system sizing errors can create overload, inadequate runtime or incompatible equipment. Qbits has not supplied audited installation-team data or a state-by-state error dataset for this guide.
 
 **Mistake 1: Using peak load instead of average load**
 An air conditioner's compressor draws 1,100–1,500 W at startup. If your home's "peak load" includes the AC, your backup load estimate is inflated. The correct figure is the average load of appliances you will actually run during an outage, almost never the AC.
@@ -388,7 +373,6 @@ Lead-acid batteries lose 15–20% of their rated capacity at 45 °C compared to 
 A battery installed today with 100% rated capacity will deliver 80% of that capacity after 2,000 cycles (for LFP) or 700 cycles (for lead-acid). Size your battery for the backup time you need in Year 5, not just Year 1. A 10% capacity buffer above your calculated requirement is a reasonable ageing allowance.
 
 **Mistake 4: Sizing battery without sizing solar to match**
-A large battery bank paired with inadequate solar capacity will never fully recharge during consecutive-day outages. The solar array must generate enough energy in one day to cover both daytime household loads and full battery recharge. Refer to Phase 4 of the Qbits Backup Sizing Method above.
 
 **Mistake 5: Buying the cheapest inverter with a premium battery**
 The battery's [BMS](/glossary/bms/) communicates cell-level health data to the inverter. A budget inverter without proper BMS protocol support will ignore this data and apply generic charge curves, potentially overcharging lithium cells or under-utilizing capacity. The inverter-battery pair must be validated together, not purchased from separate bottom-of-market vendors.
@@ -397,14 +381,12 @@ For guidance on identifying reliable inverter vendors in your region, the [best 
 
 > *Source - [CEA Annual Report on Power Sector](https://cea.nic.in/annual-growth-report/), Central Electricity Authority of India, 2025.* Average transmission and distribution losses in Indian states ranged from 14% to 31% in FY 2023–24, with rural feeders in UP and Bihar experiencing the highest reported values, a direct indicator of grid instability and power-cut frequency in these regions.
 
-## Where Qbits Fits in Your Battery Backup System
+## Qbits model documentation
 
-Indian homeowners who want accurate backup times (not optimistic sales estimates) need a hybrid inverter that reports real-time State of Charge, actual load draw, and solar generation simultaneously, so the calculation never relies on guesswork. Qbits hybrid inverters are built with exactly this operational context in mind: 12-year full replacement warranty, IP66 weather protection for rooftop-mounted units, AI-powered WhatsApp monitoring that reports battery SoC and backup hours remaining in plain language, and firmware tuned for India's 180–270 V grid variation. When the grid fails and your backup clock starts ticking, every percentage point of inverter efficiency and every accurate DoD reading translates directly to minutes of real backup time.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current product families and exact-model documents against the project design and utility requirements.
+- **[Residential Solutions](/residential-solution/)**: Ask which equipment and project services are available, then obtain the scope, responsible party, exclusions and fees in writing.
 
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series, 3–15 kW, with LFP and lead-acid battery compatibility, sub-20 ms switchover, and BMS CAN/RS485 communication built in.
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series for pure export applications; upgrade paths to hybrid available when your backup needs evolve.
-- **[Residential Solar Solutions](/residential-solution/)**: complete system packages sized for 2 BHK through 5 BHK homes, including battery bank recommendations based on your pincode's load-shedding data.
-
-[Talk to a Qbits engineer](/contact-us/) about the right battery size for your district's outage pattern, most detailed proposals come back within 24 hours. Your pincode determines your average outage duration; our sizing tool determines the minimum battery bank that covers it.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 > *Source - [Mercom India Q1 2026 Solar Market Report](https://www.mercomindia.com/india-solar-installations-q1-2026), Mercom Capital Group, 2026.* Residential rooftop solar with battery storage grew 68% year-on-year in Q1 2026, with hybrid systems now accounting for 43% of all new residential installations, driven primarily by homeowners in high-outage states prioritising backup hours over grid export economics.

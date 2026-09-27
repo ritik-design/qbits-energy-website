@@ -211,8 +211,6 @@ Round-Trip Efficiency (RTE) measures the percentage of energy retrieved from bat
 
 ## Need high-RTE storage solutions?
 
-QBits Energy supplies LFP storage systems with documented high RTE for residential, C&I and microgrid solar applications in India.
-
 ## Further reading
 
 For how Round Trip Efficiency plays out in real projects, these guides go deeper:

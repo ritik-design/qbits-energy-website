@@ -33,6 +33,8 @@ faqs:
     a: "For loan amounts up to ₹10 Lakh under the PM Surya Ghar residential scheme, most IREDA partner banks offer collateral-free loans. The solar system itself serves as the primary security asset. Loans above ₹10 Lakh may require property mortgage or a guarantee. Processing fees are typically 0.5–1% of the loan amount. Pre-payment is allowed without penalty on most IREDA-channelled residential solar loans, which is important since the subsidy arrives as a lump sum post-installation."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Your electricity bill crosses ₹8,000 a month, your neighbour just went solar, and you have spent three evenings reading about [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis). The subsidy numbers look attractive (₹78,000 off the top) but the remaining ₹70,000 to ₹1.2 Lakh still needs to come from somewhere. That is exactly the problem IREDA's Suryodaya solar [loan](/blog/solar-ka-loan-hindi/) scheme was created to solve.
 
 > **Direct answer.** The IREDA solar loan (Suryodaya scheme) offers Indian homeowners 7–9% interest on residential solar financing, routed through partner banks like SBI, PNB, and Bank of Baroda. When stacked with the [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-bank-loan-process) subsidy of up to ₹78,000, the net out-of-pocket loan for a 3 kW system falls to ₹72,000–₹1.2 Lakh, translating to a monthly EMI of ₹1,400–₹2,500 that is typically lower than the electricity bill savings from day one.
@@ -225,7 +227,7 @@ Gather these before approaching a partner bank. Missing documents are the primar
 
 **Solar project documents:**
 - **DISCOM sanction letter**: technically feasibility approval for the proposed system size; this is non-negotiable
-- **Empanelled vendor quotation**: must specify ALMM model numbers for both panels and inverter
+
 - **Installation site photograph**: some banks require a recent photo of the proposed installation roof
 
 **Credit documents:**
@@ -237,7 +239,7 @@ Gather these before approaching a partner bank. Missing documents are the primar
 Understanding the failure modes saves you 2–4 weeks of avoidable delay.
 
 - **Approaching the bank before DISCOM sanction**: the most common mistake; banks cannot process the loan without the sanction letter. Complete the [PM Surya Ghar online application](/blog/pm-surya-ghar-apply-online/) first and wait for the DISCOM approval email before stepping into the bank.
-- **Selecting non-ALMM equipment**: some installers quote cheaper non-ALMM panels or inverters to lower the headline price. If the equipment is not on the current ALMM list, the entire loan application under IREDA channel is invalidated. Always verify the ALMM list at [mnre.gov.in](https://mnre.gov.in/) before signing the installation contract.
+
 - **Ignoring the CIBIL score**: applicants with scores of 650–699 frequently face rejection from PSBs and end up with NBFC loans at 11–12%, erasing much of the IREDA rate advantage. Check your score six months before applying and clear any overdue payments.
 - **Not asking about the moratorium option**: some partner banks offer a 2–3 month principal moratorium post-installation, which aligns the first full EMI with the month after the subsidy arrives. This option is not advertised prominently; you have to ask for it.
 - **Underestimating processing time**: the full sequence from portal registration to loan disbursal typically takes 45–90 days. Plan installation timing accordingly; do not commit to a vendor start date without confirmed bank approval in hand.
@@ -274,15 +276,8 @@ The broader solar investment math (including how to calculate 25-year returns) i
 
 ## Where Qbits Fits in the IREDA Solar Finance Picture
 
-Homeowners who pursue the IREDA Suryodaya loan must use ALMM-listed equipment, there is no flexibility on this. The inverter is the component that most often creates subsidy-eligibility complications: non-ALMM inverters void the subsidy claim entirely, and a rejected subsidy application significantly damages the economics of the Solar Finance Stack described earlier.
-
-Qbits inverters are ALMM-listed, BIS-certified, and IEC-compliant, meeting every technical gate for PM Surya Ghar subsidy eligibility. More importantly, the 12-year full replacement warranty means the inverter remains covered well beyond the IREDA loan tenure, so the asset backing your loan does not depreciate to zero on paper within the repayment period. The IP66 weather rating handles India's monsoon and coastal environments without voiding coverage. And the AI-powered WhatsApp monitoring notifies you of any generation shortfall, which is directly relevant to ensuring your electricity savings consistently exceed your EMI.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM-listed and subsidy-eligible, with 12-year warranty.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness for homeowners who want backup capability with their solar investment.
-- **[Residential Solar Solution](/residential-solution/)**: complete system guidance for homeowners going through the PM Surya Ghar process.
-
-Before signing any installation contract, confirm the inverter model is on the current ALMM list. If you want independent verification that the equipment your installer is quoting is genuine ALMM-listed and sized correctly for your roof, [talk to a Qbits engineer](/contact-us/), most assessments come back within 24 hours and the advice is given without obligation to purchase.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Residential Solutions](/residential-solution/)**: Ask which equipment and project services are available, then obtain the scope, responsible party, exclusions and fees in writing.
 
 ## Should You Take an IREDA Loan? A Decision Framework
 

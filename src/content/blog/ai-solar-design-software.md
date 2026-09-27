@@ -120,8 +120,6 @@ For the shorter version of where AI actually helps a designer today, see [AI sol
 - **Choose [Arka360 AI](/blog/arka360-alternative/)** if India-residential is your entire scope.
 - **Avoid AI add-ons** with steep per-month fees once you compare with included alternatives.
 
-For most teams in 2026, SurgePV's Clara AI is the AI [solar design software](https://surgepv.com/) assistant that wins on capability, flat pricing, and integration with the rest of the workflow. Once Clara AI drafts the string layout, EPCs still need to match those strings against a real inverter's MPPT window; [on-grid](/on-grid-inverter/) and [hybrid](/hybrid-inverter/) options from Qbits, plus a quick [chat with an engineer](/contact-us/), settle that fit in minutes.
-
 <div class="inline-cta">
 <h3>Ready to design solar in plain English?</h3>
 <p>SurgePV combines Clara AI natural-language design, AI 3D roof modeling, 8,760-hour shading, bankable yield, and white-label proposals in one platform.</p>

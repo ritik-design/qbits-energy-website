@@ -67,6 +67,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 ## What is PM-KUSUM
 
 PM-KUSUM, Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan, is the Government of India's flagship scheme for agricultural solar, launched in March 2019. It targets 35 GW of solar capacity in agriculture by 2026 through three components: A, B and C. For a full walkthrough of subsidy amounts and state-wise application steps, see the [KUSUM Yojana Agricultural Solar Subsidy Complete Guide 2026](/blog/kusum-yojana-agricultural-solar-subsidy/).
@@ -79,7 +81,7 @@ Implementation runs through state agencies (state nodal agencies for renewable e
 > - PM-KUSUM targets 35 GW of agricultural solar by 2026 across three components: A (decentralised plants), B (standalone pumps) and C (grid-connected pump solarisation).
 > - Component A targets 10 GW on barren farm land, Component B targets 14 lakh standalone pumps, and Component C targets 35 lakh grid-connected pump solarisations.
 > - Subsidy covers up to 60 percent of capex, split 30 percent central and 30 percent state, with the farmer paying 10 percent plus a 30 percent bank loan.
-> - Launched in March 2019, the scheme requires ALMM-listed modules and inverters for subsidy disbursement.
+
 > - Component B leads adoption at roughly 24 percent of target, while Components A and C lag due to land aggregation and DISCOM coordination delays.
 > - Component A power is sold to the local DISCOM at a state-set [feed-in tariff](/glossary/feed-in-tariff/), typically ₹3.10 to ₹4.50 per kWh.
 
@@ -141,7 +143,6 @@ Land utilisation. Component A monetises barren land.
 
 ### Equipment requirements
 
-- ALMM-listed modules and inverters
 - BIS-certified balance of system
 - Pump motor compliant with MNRE specs
 - VFD-based variable frequency for direct solar coupling
@@ -235,7 +236,7 @@ PLI Phase II includes pump-specific manufacturing incentives.
 |---|---|
 | MNRE PM-KUSUM scheme guidelines | Implementation framework |
 | MNRE technical specifications for solar pumps | Equipment requirements |
-| ALMM | Module and inverter listing |
+
 | BIS certification | Quality compliance |
 | IS 7396 / 9283 | Submersible pump standards |
 
@@ -257,8 +258,6 @@ PM-KUSUM is India's largest agricultural solar scheme with 35 GW target by 2026.
 
 ## Need PM-KUSUM solar pump installation?
 
-QBits Energy installs ALMM-compliant solar pumps and decentralised solar plants under PM-KUSUM across participating Indian states.
-
 ## Further reading
 
 For how PM-KUSUM plays out in real projects, these guides go deeper:
@@ -273,7 +272,7 @@ For how PM-KUSUM plays out in real projects, these guides go deeper:
 - PM-KUSUM Scheme Guidelines, MNRE.
 - MNRE Technical Specifications for Solar Pumps.
 - State Nodal Agency implementation documents.
-- ALMM listing for solar pumps and inverters.
+- Current ALMM evidence for the applicable module or cell, plus separate pump, inverter, scheme, and implementing-agency documents.
 - MNRE Annual Reports.
 - IS 7396, IS 9283, submersible pump standards.
 - NABARD financing guidelines for solar pumps.

@@ -147,7 +147,6 @@ Take a realistic example. A four-unit apartment building in Cologne with 80 squa
 
 Total designer time from address entry to sent proposal is approximately 35 minutes. The equivalent desktop workflow with separate proposal software typically takes most of a working day.
 
-
 The customer-facing half of this decision, meaning proposal generation, financing presentation and e-signature, is covered in our [best solar proposal software Germany](/blog/solar-proposal-software-germany/) comparison.
 
 Design is one layer. For how simulation, proposal, compliance and CRM fit around it, see the [full solar software stack for Germany](/blog/solar-software-germany/).
@@ -170,4 +169,3 @@ Design is one layer. For how simulation, proposal, compliance and CRM fit around
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
-

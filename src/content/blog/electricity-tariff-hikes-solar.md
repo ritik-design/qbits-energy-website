@@ -37,6 +37,10 @@ faqs:
     a: "Post-installation tariff hikes work entirely in the solar owner's favour. The cost of solar generation is fixed at installation - it does not change with grid tariffs. Each subsequent tariff hike by the DISCOM increases the value of every unit of solar energy self-consumed, without increasing the solar system's cost. A homeowner who locked in solar at a 6-year payback under ₹7/unit tariffs will see that payback compress to under 5 years if tariffs rise to ₹9/unit - and the system continues generating free electricity for another 19+ years after payback."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 When your [electricity bill](https://www.surgepv.com/blog/electricity-bill-savings-estimator) arrives and the total has climbed again, you are not imagining the pattern. Indian electricity tariffs have risen at a compound annual rate of 6–9% for more than a decade, and the 2025–26 revision cycle brought some of the steepest hikes in recent memory. Maharashtra's MSEDCL, UP's UPPCL, Karnataka's BESCOM, and Rajasthan's RERC all approved significant rate increases, and those hikes directly change the mathematics of solar investment in the homeowner's favour.
 
 > **TL;DR**
@@ -137,7 +141,7 @@ The [payback period](/glossary/payback-period/) calculation does not stop at yea
 The [Levelised Cost of Energy (LCOE)](/glossary/lcoe/) for a residential 5 kW rooftop system in 2026 accounts for:
 
 - **Capital cost**: ₹55,000–₹65,000 per kW all-in (panels, inverter, mounting, cables, installation)
-- **Inverter replacement or warranty coverage**: a 12-year full-replacement warranty (as offered by Qbits on its TLS and TLD on-grid series) eliminates the mid-life inverter replacement cost that inflates LCOE calculations for cheaper systems
+
 - **Annual O&M**: ₹2,000–₹4,000 per year
 - **Panel degradation**: 0.5% per annum linearly over 25 years
 - **Discount rate**: 8–9% (inline with IREDA and SBI solar loan rates)
@@ -218,10 +222,7 @@ The historical record strongly favours early installation. A household that inst
 
 Homeowners who have worked through the TASR framework and confirmed that solar makes financial sense (and it does for the majority of households consuming more than 200 units per month in urban India) need a system that holds up without costly surprises across the 25-year productive life. The inverter is the single component most likely to fail before the panels, and warranty depth is the clearest proxy for long-term reliability.
 
-Qbits offers its on-grid and hybrid inverter range with a [12-year full-replacement warranty](/blog/12-year-solar-inverter-warranty/), not a prorated certificate but an actual hardware exchange commitment backed in India. The TLS and TLD on-grid series are BIS and ALMM-compliant, qualifying homes for PM Surya Ghar subsidy, and the firmware is tuned to India's 180–270V grid variation, a specification that matters in states like UP and Rajasthan where grid fluctuations are common.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM-listed for PM Surya Ghar subsidy eligibility; rated for 45 °C ambient operation without derating.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for households that want battery backup alongside grid-export savings; a single system handles both functions.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm panel-string compatibility for your specific roof in under 60 seconds before approaching any installer.
 
-When you are ready to move from numbers to an actual installation plan, [talk to a Qbits engineer](/contact-us/), most site assessments and system quotes are returned within 24 hours, and the conversation costs nothing.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

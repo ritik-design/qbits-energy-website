@@ -33,6 +33,8 @@ faqs:
     a: "Bill zero करने के लिए battery जरूरी नहीं है। Net metering में export credits रात के import को offset करते हैं। लेकिन power cut वाले areas में on-grid solar power cut में बंद हो जाता है - battery से backup मिलता है। Bill zero के लिए on-grid + net metering sufficient है।"
 ---
 
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 "Solar लगवाने से bijli [bill zero](https://www.heavengreenenergy.com/blog/why-solar-not-100-percent-bill-zero) हो जाएगा" (यह आपने शायद सुना होगा। यह completely true नहीं है, completely false भी नहीं है। Reality यह है कि solar panel से [electricity bill](https://www.heavengreenenergy.com/blog/solar-and-electricity-bill-slabs) dramatically कम हो सकता है) zero भी हो सकता है - लेकिन यह depend करता है system size, consumption, और net metering पर। इस guide में real numbers के साथ पूरा picture clear होगा।
 
 > **TL;DR**
@@ -186,15 +188,13 @@ Monsoon में bill पूरा zero नहीं होता, लेकि
 
 ## Qbits Ka Role Bill Zero Mein
 
-Qbits TLS series on-grid inverters highest efficiency (97.5%+) पर operate करते हैं - maximum generation ensure करते हैं। ALMM Phase III listing PM Surya Ghar subsidy ensure करती है जिससे net investment minimum होती है। 12-year warranty system को 25 साल बिना replacement के support करती है।
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: PM Surya Ghar eligible, high efficiency
-- **[String Sizing Calculator](/string-sizing-calculator/)**: Exact system size for your consumption
-- **[Hybrid Inverters](/hybrid-inverter/)**: Power cut areas ke liye battery-ready
+- **[On-Grid Inverters](/on-grid-inverter/)**: Exact model efficiency, current certificates and scheme or DISCOM acceptance must be verified separately; no universal PM Surya Ghar eligibility claim is made.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: Use this as a preliminary screen. A qualified designer must verify the final string, protection and utility design.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review the current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 
 According to [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"}, India में 2026 में 3 kW solar system install करने वाले 70% homeowners effectively zero bill achieve कर रहे हैं high-irradiance states में।
 
-[Qbits engineer से बात करें](/contact-us/) - अपना monthly bill, location, और roof size share करें। Calculate करेंगे कि आपकी specific situation में bill कितना कम होगा।
+[Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 ## Real Examples: India Ke Different States Mein
 

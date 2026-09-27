@@ -26,13 +26,15 @@ faqs:
   - q: "Does Andhra Pradesh have a state solar policy beyond PM Surya Ghar?"
     a: "Yes. Andhra Pradesh has a Solar Energy Policy 2018, updated through subsequent government orders, administered by NREDCAP (New and Renewable Energy Development Corporation of Andhra Pradesh). The state policy primarily supports large-scale utility solar and commercial rooftop adoption. For residential consumers, the primary financial incentive in 2026 remains the central PM Surya Ghar scheme. NREDCAP maintains a state vendor registration list and coordinates with APEPDCL and APNPDCL on scheme implementation. Check nredcap.in for current state policy updates."
   - q: "What documents are required for AP solar subsidy?"
-    a: "Required documents for Andhra Pradesh PM Surya Ghar applications through APEPDCL or APNPDCL include: (1) recent electricity bill showing consumer number and DISCOM; (2) Aadhaar card linked to application mobile; (3) PAN card; (4) bank passbook or cancelled cheque linked to Aadhaar; (5) property ownership - registered sale deed, Patta passbook, or property tax receipt from Municipal Corporation or Panchayat; (6) for apartments, apartment association NOC; (7) rooftop photographs; (8) technical feasibility form from DISCOM-empanelled installer; (9) ALMM certificates for panels and inverter."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What solar irradiance does Andhra Pradesh receive?"
     a: "Andhra Pradesh receives approximately 5.0 to 5.8 kWh/m²/day, with significant variation between the coastal strip and inland areas. Rayalaseema districts (Kurnool, Anantapur, Kadapa) receive the highest irradiance - 5.5 to 5.8 kWh/m²/day - due to semi-arid conditions. Coastal AP (Visakhapatnam, Vijayawada, Guntur) receives 5.0 to 5.4 kWh/m²/day, with some monsoon moderation. A 3 kW system in Kurnool generates approximately 5,600 to 5,900 kWh annually; in Visakhapatnam, approximately 4,900 to 5,200 kWh annually."
   - q: "Is the coastal environment in Andhra Pradesh a concern for solar inverters?"
     a: "Yes. AP's long coastline - covering Visakhapatnam, Kakinada, Rajahmundry, and the Godavari delta regions - exposes solar equipment to salt-laden air and high humidity year-round. Standard IP65 inverters in coastal environments show higher corrosion-related failure rates than IP66 units. Coastal AP homeowners in particular should specify IP66-rated inverters. The Andhra Pradesh cyclone belt (Bay of Bengal cyclone season: October–December) also means rooftop mounting structures must be appropriately anchored for high wind conditions."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Andhra Pradesh homeowners in 2026 can access the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) of ₹78,000 for a 3 kW system through two DISCOMs: APEPDCL for coastal and eastern AP, and APNPDCL for northern and inland AP. The state has a strong foundation in industrial and utility-scale solar that has built an experienced installer installer network, a benefit for residential buyers who can draw on established vendor networks in cities like Visakhapatnam, Vijayawada, and Kurnool.
 
@@ -63,8 +65,6 @@ The central PM Surya Ghar Muft Bijli Yojana is administered through [pmsuryaghar
 
 > **₹78,000.** The maximum central subsidy for a 3 kW residential system, disbursed directly to the homeowner's bank account after DISCOM commissioning is confirmed. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-Eligibility requires ALMM-listed panels, BIS-certified inverter, and a [DISCOM](/glossary/discom/)-empanelled installer. In AP's coastal zones, coastal salt-air conditions add an additional hardware specification consideration (IP66 rating) that buyers should factor in alongside the subsidy calculation. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains how to verify APEPDCL or APNPDCL empanelment.
-
 ## Andhra Pradesh State Solar Policy: NREDCAP's Framework
 
 NREDCAP (New and Renewable Energy Development Corporation of Andhra Pradesh) is the state nodal agency for renewable energy, administering AP's solar policy framework. The AP Solar Energy Policy 2018, with subsequent updates, targets large-scale utility and commercial solar deployment. For residential consumers in 2026:
@@ -84,8 +84,6 @@ Five sequential steps define the successful PM Surya Ghar claim process in Andhr
 1. **PM Surya Ghar portal registration**: Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your APEPDCL or APNPDCL consumer number, Aadhaar details, and bank information before installation begins. Do not allow any installer to begin physical work before this step is complete.
 
 2. **DISCOM technical feasibility**: APEPDCL or APNPDCL reviews the application and conducts a site visit. Both DISCOMs process feasibility assessments through divisional offices. Urban coastal areas (Vizag, Vijayawada) have more developed divisional capacity. Timeline: 20 to 35 days for urban, 30 to 50 days for rural.
-
-3. **ALMM-compliant installation**: Proceed only after written feasibility approval from your DISCOM. Use ALMM-listed panels and BIS-certified inverter. For coastal AP locations, add the IP66 requirement. The [ALMM list guide](/blog/almm-list-phase-iii-guide/) explains current-quarter verification.
 
 4. **Net meter commissioning**: Post-installation inspection followed by meter change. AP's coastal urban areas typically process meter changes in 30 to 45 days post-inspection.
 
@@ -139,7 +137,6 @@ Average APNPDCL urban timeline: 75 to 100 days. Rayalaseema rural areas can exte
 - **For apartments**: Apartment owners association NOC
 - **Rooftop photographs**: Multiple views; for coastal locations, document existing electrical installation condition (corrosion check)
 - **Technical feasibility form**: From DISCOM-empanelled installer with single-line diagram and proposed inverter model
-- **ALMM certificates**: For panels and inverter separately
 
 ## Timeline: What Is Realistic for AP in 2026
 
@@ -155,8 +152,6 @@ Average APNPDCL urban timeline: 75 to 100 days. Rayalaseema rural areas can exte
 ## A Visakhapatnam Homeowner Case Example: 3 kW, APEPDCL
 
 Venkata Rao owns an independent house in Rushikonda, Visakhapatnam, served by APEPDCL. His house is approximately 3 km from the coastline. Monthly APEPDCL bill: ₹3,400 (400–460 units per month with air conditioning).
-
-**System specification**: 3 kW on-grid, ALMM-listed monocrystalline panels, BIS-certified IP66-rated string inverter (specified for coastal environment), marine-grade DC cabling, rooftop mounting on 210 sq ft shadow-free south-facing terrace.
 
 **Costs and subsidies**:
 - Gross system cost: ₹2,00,000 (installed with coastal-grade specifications)
@@ -196,10 +191,7 @@ The [net metering India complete guide](/blog/net-metering-india-complete-guide/
 
 AP's dual challenge (coastal humidity and salt air in the eastern coastal belt, and extreme summer heat (44 to 47 °C) in Rayalaseema's inland zone) places specific demands on inverter hardware that standard IP65 units do not reliably meet over a 12-year lifecycle.
 
-Qbits IP66-rated inverters address both environments: full dust-tight and water-jet-resistant enclosures for the coastal zone, sustained full nameplate output at 45 °C ambient for Rayalaseema's summer conditions. India-grid-tuned firmware handles both APEPDCL's relatively stable coastal urban distribution and APNPDCL's more variable inland rural network voltage patterns. The 12-year full replacement warranty is the longest standard term in India's residential inverter market, removing replacement cost risk across the full productive life of AP rooftop solar systems. BIS and ALMM compliance ensures PM Surya Ghar eligibility without documentation complications.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, ALMM-listed, IP66-rated, suitable for both APEPDCL and APNPDCL applications across coastal and inland AP.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for coastal buyers wanting backup during cyclone-related outages, or for Rayalaseema buyers in areas with 3+ hour daily power cuts.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm panel-string configuration for AP's high-temperature coastal and inland conditions before the DISCOM feasibility application.
 
-[Talk to a Qbits engineer](/contact-us/) about your AP installation, a coastal or thermal specification check, generation estimate, and subsidy-adjusted payback calculation takes under 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

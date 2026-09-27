@@ -24,24 +24,18 @@ faqs:
   - q: "Which app is better - SOLARMAN or ShinePhone?"
     a: "SOLARMAN (used by Deye) and ShinePhone (used by Growatt) are both functional inverter monitoring applications. SOLARMAN is generally considered the more capable platform of the two - it offers a cleaner interface, better fault diagnostic data, and is used by multiple inverter brands globally, which means the platform has benefited from broader development investment. ShinePhone is more established in the Indian market due to Growatt's larger Indian installed base, and has more localised support content. For hybrid system monitoring, SOLARMAN's battery state-of-charge tracking and energy flow visualisation are slightly more detailed than ShinePhone's equivalent features."
   - q: "Is Deye ALMM listed in India?"
-    a: "Deye has been working to achieve ALMM listing for its Indian market product range, and some Deye models have received ALMM Phase III listing. However, Deye's ALMM coverage is narrower than Growatt's as of mid-2026. Buyers who require ALMM-listed inverters for PM Surya Ghar subsidy-eligible installations should verify the specific Deye model number against the current MNRE ALMM list before purchase. Do not rely on dealer assurance - check the official MNRE portal directly, as listing status is model-specific."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What is Deye's price compared to Growatt in India?"
     a: "Deye hybrid inverters are typically priced at a slight discount to Growatt hybrid inverters in the same capacity band in India. For a 5 kW hybrid inverter, Deye's dealer pricing is approximately 5–15 percent lower than comparable Growatt hybrid models. This price advantage has been one of Deye's primary tools for gaining market share against the more established Growatt brand. However, the price advantage must be weighed against Deye's narrower India service footprint and newer brand track record in the Indian market."
   - q: "Can I use a Deye hybrid inverter with any battery brand in India?"
     a: "Deye hybrid inverters are designed to be compatible with a wide range of battery types, including LFP lithium, NMC lithium, and lead-acid battery banks. Deye publishes a battery compatibility list for each inverter model, and many popular Indian battery brands - as well as international brands like Pylontech, BYD, and CATL modules - are supported. However, buyers should verify their specific battery model against Deye's published compatibility list for the intended inverter, as BMS communication protocols can vary and not all combinations are fully supported for automatic state-of-charge management."
   - q: "How does Qbits compare to Deye and Growatt for hybrid solar in India?"
-    a: "Qbits differentiates from both Deye and Growatt primarily on warranty depth: 12-year full unit replacement versus 5-year repair warranties from both competitors. Qbits hybrid inverters also carry IP66 weather protection versus IP65 on most Deye and Growatt residential models - a meaningful difference in Indian monsoon and coastal environments. Qbits's WhatsApp-native monitoring removes the need for a separate app. For hybrid buyers who are concerned about what happens when the inverter fails in year 8 or year 10, Qbits's warranty covers that scenario without additional payment; Deye and Growatt buyers are on their own after year 5."
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
 ---
 
-The [hybrid inverter](https://www.surgepv.com/blog/hybrid-inverter-guide) segment in India has grown dramatically since 2023, driven by falling battery prices, worsening power cuts in tier-2 cities, and [PM Surya Ghar](/glossary/pm-surya-ghar/)'s awareness-raising effect on rooftop solar broadly. Two brands dominate the emerging hybrid conversation for Indian homeowners: Growatt, the established market leader with a decade of India presence, and [Deye](/blog/qbits-vs-deye-honest-comparison/), the fast-growing challenger that has been gaining ground rapidly since 2022.
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
-> **TL;DR**
-> - Deye scores higher on hybrid features, BMS compatibility, and app monitoring; Growatt scores higher on India after-sales service and warranty terms.
-> - Both brands offer only a 5-year repair warranty on hybrid inverters, the key shared weakness for a 25-year solar asset.
-> - Deye's hybrid inverters are typically 5–15% cheaper than comparable Growatt models but have thinner India service coverage outside Gujarat, Maharashtra, and Rajasthan.
-> - SOLARMAN (Deye) offers more detailed battery state-of-charge tracking and energy flow visualisation than ShinePhone (Growatt).
-> - Total score: Deye 42/60 versus Growatt 38/60 on the 6-Point [Hybrid Inverter](/glossary/hybrid-inverter/) Evaluation Matrix.
-> - Qbits offers a 12-year full replacement warranty and IP66 protection as a third option for buyers who want longer coverage than either brand provides.
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 This comparison uses the **6-Point Hybrid Inverter Evaluation Matrix**: a structured scoring method built specifically for hybrid products, to give an honest, data-grounded verdict. Deye has genuine strengths. Growatt has a genuine advantage. Neither brand is dismissed, and the conclusions are drawn from documented specifications, India market evidence, and field-reported experience.
 
@@ -177,7 +171,7 @@ Both Deye and Growatt offer **5-year standard warranties** on their hybrid inver
 - **Deye**: 5-year repair warranty; extension options available through select distributors at additional cost; no India entity to back the warranty directly.
 - **Growatt**: 5-year repair warranty; extended warranty options up to 10 years available at additional cost; backed through the India distributor network.
 
-The warranty limitation is identical for both brands at the standard term. A 25-year solar system will experience inverter replacement need beyond year 5 with statistical certainty, the [12-year warranty math guide](/blog/12-year-solar-inverter-warranty/) quantifies the financial exposure of a 5-year warranty term over a full system lifetime.
+The warranty limitation is identical for both brands at the standard term. A 25-year solar system will experience inverter replacement need beyond year 5 with statistical certainty, the [model-specific written warranty math guide](/blog/12-year-solar-inverter-warranty/) quantifies the financial exposure of a 5-year warranty term over a full system lifetime.
 
 | Warranty Axis | Deye | Growatt |
 | --- | --- | --- |
@@ -213,7 +207,7 @@ The warranty limitation is identical for both brands at the standard term. A 25-
 | | Pros | Cons |
 | --- | --- | --- |
 | **Growatt** | ✓ Wider India service network - 10 years of presence | ✗ Hybrid architecture slightly less flexible than Deye |
-| | ✓ Better ALMM Phase III coverage across models | ✗ ShinePhone less capable than SOLARMAN for hybrid monitoring |
+| ALMM scope | Verify current PV module and cell requirements | Check inverter documents separately |
 | | ✓ Extended warranty option available to 10 years | ✗ Best BMS integration is with Growatt's own ARK batteries |
 | | ✓ Longer India track record means more installer knowledge | ✗ 5-year repair warranty - same structural limitation |
 
@@ -226,13 +220,8 @@ The warranty limitation is identical for both brands at the standard term. A 25-
 
 ## Where Qbits Fits
 
-For hybrid buyers who have evaluated Deye and Growatt and remain concerned about what happens at year 6 when the warranty expires, Qbits offers a structured answer: a **12-year full unit replacement warranty** as a standard term, IP66 weather protection (versus IP65 on most Deye and Growatt residential models), and WhatsApp-native monitoring without a separate app.
-
-Qbits hybrid inverters are designed specifically for Indian grid conditions, the firmware handles the 180–270 V voltage band that is common on rural DISCOMs, and the India-grade build standard is tested at 45 °C+ ambient temperatures. [ALMM](/glossary/almm-list/) Phase III listing across the current residential product range means PM Surya Ghar subsidy eligibility is confirmed.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series from 3 kW to 50 kW with battery-ready architecture and automatic backup switching.
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series for buyers who want an on-grid system now and battery optionality later.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current product families and exact-model documents against the project design and utility requirements.
 - **[Battery Sizing Calculator](/blog/battery-sizing-hybrid-solar/)**: Estimate the right battery capacity for your power cut profile before committing to a hybrid system.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable service network with 72-hour RMA SLA.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
-If you are comparing Deye and Growatt and want to include a third option with a longer warranty and proven India service, [request a quote at contact-us](/contact-us/). Qbits ships to 280+ Indian cities and quotes return within 24 hours.

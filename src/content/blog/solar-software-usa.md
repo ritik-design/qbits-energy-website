@@ -173,4 +173,4 @@ US solar software is rarely bought badly. It is bought at the wrong scale and re
 - **Integrate design and proposals, connect everything else.** The quote derives from the engineering, so the gap between them is where errors enter.
 - **Audit the seat count annually.** Per-user monthly pricing makes viewers expensive, and most teams have more licences than producers.
 - **Keep incentive data in the tool.** ITC by section, state SRECs and time-of-use rates in spreadsheets is unpaid work that eventually misquotes someone.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a US address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

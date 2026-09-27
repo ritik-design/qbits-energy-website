@@ -31,6 +31,10 @@ faqs:
     a: "Under the common area solar model, the society's electricity bill for common areas (lifts, corridor lighting, water pumps, gate security) decreases. This directly reduces the monthly maintenance charge that each flat owner pays to the RWA. A society spending ₹80,000/month on common electricity and installing a 30 kW rooftop system that generates ₹35,000/month of savings reduces each flat owner's maintenance charge proportionally - roughly ₹350–700 per flat per month for a 100-flat society."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 When a homeowner in a standalone villa decides to go solar, the process is relatively clear: apply to the DISCOM, install the system, claim the subsidy, and enjoy lower bills. When someone in a 120-flat apartment complex in Bengaluru or Mumbai asks the same question, it becomes immediately more complicated. Whose roof is it? Can I apply individually? Does the whole society need to agree? Can we share the savings?
 
 The good news is that both common area solar and individual flat solar are viable and increasingly well-supported by state DISCOMs across India. The bad news is that the process varies significantly by state, building type, and DISCOM. This guide maps both paths clearly.
@@ -151,12 +155,10 @@ Collect 12 months of common area electricity bills. Assess usable roof area (sub
 Agenda the solar proposal at a managing committee meeting. If the capex exceeds the committee's authority threshold, hold an AGM. Pass a resolution specifying system size, cost, vendor selection method, and financing (corpus fund, maintenance surplus, or bank loan).
 
 **Step 3: Vendor quotation and selection**
-Obtain at least three quotations from ALMM-compliant installers, ideally ones with dedicated solar EPC / turnkey installation experience in multi-storey group housing. Evaluate on system size, inverter brand (ALMM-listed), warranty, net metering experience in multi-storey buildings, and service track record.
 
 Before signing with any vendor, the managing committee should work through the [solar system quotation checklist](/blog/solar-quotation-checklist/) so the comparison covers warranty terms, service commitments, and net metering support, not just the headline price.
 
 **Step 4: DISCOM application for net metering**
-The society applies for net metering under the common area consumer number. Submit: system design drawing, single-line diagram, inverter specifications (ALMM listing), and society registration documents.
 
 **Step 5: Installation and commissioning**
 Installation typically takes 5–10 days for a 30–50 kW system. DISCOM inspection occurs before the bidirectional meter is installed. Generation begins immediately after commissioning.
@@ -187,11 +189,9 @@ For the full PM Surya Ghar process, read the [PM Surya Ghar complete guide](/blo
 
 Apartment complex solar requires an inverter brand that delivers consistent performance over the 12–15 year life of a common area system, because managing committee members change, the original installer may not be available, and a failed inverter on a common area system affects 50–500 households simultaneously.
 
-Qbits inverters carry a 12-year full replacement warranty backed by a nationwide service partner network, ensuring that when the common area inverter needs attention, an authorised engineer is available in any of 280+ cities within 72 hours. The AI WhatsApp monitoring sends monthly generation reports to the society's nominated WhatsApp number, making performance visibility effortless for a volunteer managing committee.
-
 - **[On-Grid Inverters](/on-grid-inverter/)**: TLS series from 5 kW to 50 kW for common area solar applications.
 - **[Hybrid Inverters](/hybrid-inverter/)**: for societies that want battery backup for lift and security systems during grid outages.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm the inverter-string configuration for the available rooftop area.
-- **[Authorised Service Partners](/authorized-service-partners/)**: service coverage for warranty and post-installation maintenance across India.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
 [Request a rooftop solar proposal for your society](/contact-us/), Qbits provides full support including DISCOM documentation guidance, net metering application, and multi-storey installation experience.

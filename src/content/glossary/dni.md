@@ -206,8 +206,6 @@ DNI is the direct beam solar irradiance, critical for CSP, trackers and bifacial
 
 ## Need DNI-based tracker or bifacial yield modelling?
 
-QBits Energy provides DNI-based yield modelling for tracker and bifacial solar plants across Indian regions.
-
 ## Further reading
 
 For how DNI plays out in real projects, these guides go deeper:

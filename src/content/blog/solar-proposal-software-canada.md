@@ -168,4 +168,4 @@ Canadian proposal accuracy is a provincial question wearing a national costume. 
 
 - **Name the province and the settlement period in every quote.** Export rate alone does not describe the economics. Monthly settlement in Alberta and a 24 month reset in Quebec produce different outcomes at similar rates.
 - **Audit your template for closed programs.** Greener Homes Grant closed March 2024, the loan closed October 2025, and both still appear in quotes in circulation.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for certification-compliant inverter options against the finished design.
+

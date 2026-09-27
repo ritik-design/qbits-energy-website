@@ -1,235 +1,162 @@
 ---
-title: "Solar Inverter Selection: 10 Criteria for EPCs"
-excerpt: "An EPC-focused framework for selecting solar inverters, from component quality and warranty terms to monitoring, IP66 protection, DC oversizing, and total cost of ownership."
-description: "How EPCs should select solar inverters: 10 evaluation criteria, red flags to avoid, and total-cost-of-ownership analysis for the Indian market."
+title: "Solar Inverter Selection Scorecard for EPCs"
+excerpt: "A documented EPC scorecard for screening solar inverters against site limits, array design, grid requirements, service terms and lifecycle cost."
+description: "Use a solar inverter selection scorecard to screen technical limits, compare evidence, assess support and document an EPC procurement decision."
 category: "Buying Guide"
 date: 2026-03-16
-readTime: "12 min"
+updatedDate: 2026-09-23
+readTime: "11 min"
 image: "/blog-images/solar-inverter-selection.svg"
 author: "Nirav Dhanani"
-updatedDate: 2026-07-08
 keywords:
   - solar inverter selection
+  - inverter selection criteria epc
   - EPC inverter procurement
-  - inverter warranty
-  - total cost of ownership solar
-  - IP66 inverter
+  - inverter selection scorecard
+  - solar inverter evaluation
 faqs:
-  - q: "Why is a 12-year warranty more valuable than a 5-year one?"
-    a: "A 12-year full replacement warranty covers nearly half of a typical 25-year solar system's operational life, eliminating out-of-warranty replacement costs, labour, transport, and downtime during the most failure-prone window."
-  - q: "Why is IP66 essential for India?"
-    a: "Indian rooftops regularly exceed 45°C, with monsoon rain, coastal salt-laden air, and dust. IP66 provides complete dust protection and resistance to powerful water jets - the protection level needed to survive 25 years."
-  - q: "How does AI-powered monitoring reduce O&M costs?"
-    a: "AI analyses performance in real-time and identifies anomalies before failures occur. Predictive alerts enable proactive maintenance during convenient windows instead of emergency service calls - reducing site visits and letting smaller teams manage larger portfolios."
-  - q: "Why focus on total cost of ownership over upfront cost?"
-    a: "Budget inverters often have higher lifecycle costs through replacement expenses, labour, transport, downtime, and client management during failures. Premium inverters with better warranties and efficiency typically deliver lower total cost over 25 years."
-  - q: "What does 100% DC oversizing mean?"
-    a: "Connecting DC array capacity up to twice the inverter's AC output - a 5 kW inverter can support up to 10 kW of panels. Benefits include longer peak-efficiency hours daily, compensation for soiling and degradation, and better handling of partial shading."
+  - q: "Should an EPC score every inverter before checking technical limits?"
+    a: "No. Treat electrical, environmental, grid and project requirements as pass-or-fail gates first. Score only the models that satisfy every mandatory limit. A high commercial score cannot compensate for an incompatible MPPT window, insufficient current capacity, unsuitable output phase or missing project evidence."
+  - q: "Is the highest-efficiency inverter always the best selection?"
+    a: "No. Compare efficiency under documented conditions, but also check array compatibility, temperature behaviour, grid requirements, service terms and the cost of operating the exact project. A headline maximum-efficiency figure does not establish annual energy or project suitability by itself."
+  - q: "What evidence should an EPC request from an inverter supplier?"
+    a: "Request the current model datasheet and manual, model-specific certificates or registrations required for the project, written warranty and service terms, monitoring documentation, accessory list and commercial quote. Record document versions so the approved evidence can be matched to delivered equipment."
+  - q: "How should warranty be scored?"
+    a: "Score the written remedy, exclusions, registration, labour and transport responsibilities, claim route and service capacity, not the headline duration alone. Apply the same questions to every bidder and mark any missing term as unverified until the supplier provides the controlling document."
+  - q: "Can one scorecard be reused for every project?"
+    a: "Reuse the structure, not the thresholds or weights. Each project's array, grid connection, environment, monitoring obligations, client priorities and contract terms should set its own pass-or-fail limits and scoring weights before supplier responses are opened."
+featured: false
 ---
 
-For solar EPCs and installation companies in India, inverter selection is the procurement decision with the largest impact on project profitability, client satisfaction, and long-term reputation. Poor choices turn promising installations into maintenance nightmares; strategic selection ensures stable performance and customer referrals.
+**A useful solar inverter selection scorecard starts with pass-or-fail engineering limits, then compares the surviving models on documented commercial and service criteria.** This order prevents an attractive price, warranty headline or feature list from hiding a mismatch in voltage, current, phase, environment or grid requirements.
 
-> **TL;DR**
-> - The 10 criteria that matter most: component quality, warranty depth, monitoring, IP66 weather protection, efficiency, surge protection, DC oversizing, on-grid vs hybrid fit, manufacturer support, and total cost of ownership.
-> - A 12-year full-replacement warranty covers nearly half a 25-year system's life and eliminates the out-of-warranty [replacement cost](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost) budget inverters push onto the client.
-> - IP66 is the recommended minimum rating for Indian rooftops; IP65 and below leave the unit vulnerable to monsoon rain and dust.
-> - A 2% efficiency gap (96% vs 98%) compounds meaningfully across 25 years of generation.
-> - 100% DC oversizing (up to a 2:1 DC:AC ratio) is now standard practice to match 650–750W+ panels and compensate for degradation and soiling.
-> - Selecting on upfront cost alone is the most expensive mistake EPCs make, total cost of ownership analysis typically favours the premium inverter.
+The framework below is for EPC procurement teams. It does not replace the project electrical design, the applicable DISCOM process, or an engineer's review of the exact equipment and installation.
 
-## Why Inverter Selection Determines Project Success
+## What should an EPC define before comparing inverters?
 
-The inverter is the brain and heart of every solar installation. Poor selections cause immediate financial consequences (service calls, warranty claims, customer dissatisfaction) and impact lifecycle cost over 25 years. Satisfied customers become marketing channels; unhappy ones become liabilities.
+**Define the project requirements before asking suppliers to score themselves.** Record the array design envelope, AC connection, environmental conditions, operating objective, monitoring obligations, service expectations and commercial evaluation period. Without this baseline, every bidder can appear compliant by answering a different version of the project.
 
-## 1. Component Quality and Manufacturing Standards
+Create a project requirement sheet with these inputs:
 
-**German-grade electronic components** represent the gold standard. Leading manufacturers conduct **1,000+ automated quality tests** per unit. [BIS certification](/glossary/bis-certification/) and IEC certifications ensure minimum safety standards, but real quality requires:
-
-- Documented testing infrastructure
-- Component traceability
-- ISO-certified quality management
-- Strong corporate backing
-
-**Red flags:** Vague component sourcing, missing test documentation, missing certifications, unclear corporate backing.
-
-## 2. Warranty Terms and Manufacturer Support
-
-| Warranty type | Coverage |
-| --- | --- |
-| Full replacement | Entire unit + associated costs |
-| Repair only | Components only, no labour or shipping |
-
-A **[12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/)** covers nearly half a typical 25-year system's operational life. Qbits offers this standard. Verify manufacturer financial stability, warranty commitments are only as good as the company backing them. The [solar inverter warranty guide](/blog/solar-inverter-warranty/) breaks down how to read the fine print on prorated versus full-replacement terms before signing a supply agreement.
-
-**Red flags:** complicated claim procedures, repair-only warranties, exclusions for common failure modes.
-
-## 3. Monitoring Capabilities and Remote Management
-
-Modern inverter monitoring must include:
-
-- **AI-powered analytics** identifying anomalies before failures
-- **[WhatsApp integration](/blog/whatsapp-solar-monitoring/)**: India's dominant communication channel
-- **Connectivity redundancy**: Wi-Fi, 4G, Bluetooth
-- **India-based server storage** for data security and localisation compliance
-
-Monitoring reduces O&M costs through portfolio-level management and faster issue response. See the [solar inverter monitoring systems in India guide](/blog/solar-inverter-monitoring-systems-in-india/) for a full comparison of app quality and alerting across brands, and [how to read a solar monitoring app](/blog/how-to-read-solar-monitoring-app-india/) for what the dashboards should actually show a client.
-
-**Red flags:** Basic monitoring with limited alerting, proprietary hardware, poor mobile UX, unclear data security.
-
-## 4. Weather Protection and Durability Ratings
-
-| IP rating | Suitability for India |
-| --- | --- |
-| IP66 | Recommended minimum - full dust + water jet protection |
-| IP65 | Limited - vulnerable to monsoon and dust |
-| IP54 | Inadequate for outdoor rooftop use |
-
-See the [IP65 vs IP66 weather protection guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) for the technical distinction, and [solar inverter selection for coastal sites](/blog/solar-inverter-for-coastal/) if the project is within a few kilometres of the coast, salt-laden air accelerates corrosion beyond what standard IP66 testing accounts for.
-
-Look for:
-
-- **High-quality powder-coated aluminium** enclosures (better than painted steel against corrosion)
-- **Intelligent thermal management** that derates only if needed
-- **Operating temperature range to 50°C+** for Indian conditions
-
-**Red flags:** IP rating below IP65, vague operating temperature, heat-trapping enclosures.
-
-## 5. Efficiency Metrics and Performance Standards
-
-**[Peak efficiency](/glossary/inverter-efficiency/) of 98%** is today's quality standard. But peak only tells part of the story:
-
-- Examine efficiency curves across the full load range
-- Verify **low start-up voltage** for extended daily production hours
-- Evaluate **[MPPT](/glossary/mppt/) tracking efficiency and shading performance**
-- Confirm multi-channel MPPT for shaded or multi-orientation rooftops, the [dual MPPT vs single MPPT guide](/blog/dual-mppt-vs-single-mppt/) covers when the extra input actually pays for itself
-
-A **2% efficiency difference** between 96% and 98% inverters compounds significantly over 25 years, see [solar inverter efficiency explained](/blog/solar-inverter-efficiency/) for the generation-loss math behind that gap.
-
-**Red flags:** Efficiency below 97%, no curves, unverified peak claims.
-
-## 6. Surge Protection and Grid Safety Features
-
-Indian grids demand robust safety features:
-
-- **DC and AC [Surge Protection Devices (SPDs)](/glossary/spd/)**: first defence against lightning and switching transients, see the [surge protection buyer's guide](/blog/how-to-choose-solar-inverters-with-surge-protection/) for the specific ratings to verify
-- **Wide voltage fluctuation handling**: many Indian sites exceed 230V ±10%
-- **[Anti-islanding](/glossary/anti-islanding/) protection**: required for grid-connected systems and utility worker safety
-- **Compliance with CEA regulations** and state-specific requirements
-
-**Red flags:** Missing SPDs, narrow voltage range, non-compliance with Indian grid codes.
-
-## 7. DC Oversizing Capacity for Modern Panels
-
-Modern panels reach **650–750W+**. Selection must support:
-
-- **750W+ high-wattage panels** with proper input voltage and current handling
-- **100% [DC oversizing](/glossary/dc-oversizing/) capability** (up to 2:1 DC:AC ratio)
-- **120–130% DC:AC** as standard for most Indian installations
-
-Benefits: longer peak-efficiency hours, compensation for panel degradation, better soiling and shading tolerance.
-
-**Red flags:** DC oversizing below 120%, inability to handle modern panels, vague DC input specs.
-
-## 8. On-Grid vs Hybrid Inverter Selection
-
-| Project profile | Recommended |
-| --- | --- |
-| Reliable grid, daytime consumption | On-grid |
-| Frequent outages, critical loads | Hybrid |
-| TOU pricing, evening peak | Hybrid |
-| Cost-sensitive, simple residential | On-grid |
-
-Help clients understand:
-
-- Battery costs and replacement cycles
-- Backup power value
-- Self-consumption vs [net metering](/glossary/net-metering/) export economics
-
-**Red flags:** Pushing hybrid unnecessarily, overselling battery benefits, selecting [on-grid](/glossary/on-grid-inverter/) for clients needing backup. The [on-grid vs hybrid ROI guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/) gives a client-facing breakdown of the payback trade-off, and the [solar inverter for power-cut backup guide](/blog/solar-inverter-power-cut-backup/) covers battery sizing for high-load-shedding zones such as UP, Bihar, and Vidarbha.
-
-## 9. Manufacturer Support and Technical Assistance
-
-Quality manufacturer support includes:
-
-- **Pre-sales technical consultation**: design help, sizing, oversizing optimisation, EPCs running this analysis across multiple projects at once often lean on dedicated [software built for solar installers](https://surgepv.com/for-solar-installers/) rather than spreadsheets
-- **Comprehensive installation documentation** and training
-- **Responsive technical support**: test it during evaluation
-- **India-based spare parts inventory**
-- **Partner programs** with technical training, marketing support, preferential pricing, channel partner programmes are worth comparing if your firm is scaling installation volume
-
-**Red flags:** Poor support responsiveness, limited documentation, no training, adversarial relationships.
-
-## 10. Total Cost of Ownership vs Upfront Cost
-
-The most expensive mistake is selecting on upfront cost alone.
-
-### Example: Budget vs Premium
-
-| Factor | Budget inverter | Premium inverter |
+| Requirement group | Project input to record | Evidence used to set it |
 | --- | --- | --- |
-| Upfront cost | 30% lower | Baseline |
-| Warranty | 5 years | 12 years |
-| Efficiency | 96% | 98% |
-| Replacement at year 8 | Likely | Unlikely |
-| Service call frequency | Higher | Lower |
-| Client management cost | Higher | Lower |
+| PV array | Module model, string layout, voltage and current envelope | Current module data and design calculations |
+| AC connection | Rated output, phase, voltage and utility requirements | Approved single-line diagram and connection documents |
+| Site | Ambient conditions, enclosure location, altitude and exposure | Site survey and project specification |
+| Operation | Export, self-consumption, backup or plant-control objective | Client brief and approved control philosophy |
+| Monitoring | Signals, communications, portal access and data handover | O&M and client reporting requirements |
+| Support | Response path, spares, training and escalation | Procurement and O&M plan |
+| Commercial | Quote scope, warranty, service and evaluation period | Tender and contract documents |
 
-[Net Present Value](/glossary/npv/) analysis incorporating these factors typically favours the premium inverter despite higher upfront cost. The [inverter TCO guide](/blog/inverter-tco/) walks through the full 25-year model with replacement cost, labour, and downtime factored in, and the [solar quotation checklist](/blog/solar-quotation-checklist/) gives EPCs a client-facing framework for presenting these trade-offs line by line in a proposal.
+Freeze this sheet before supplier scoring. If a project requirement changes, record the change and recheck every candidate against the same revision.
 
-**Red flags:** Decisions on upfront cost alone, ignoring soft costs, picking inverters that damage long-term reputation.
+## Which criteria should be pass or fail?
 
-## Red Flags to Avoid Across the Board
+**Any criterion that can make the design unsafe, non-compliant or inoperable belongs in the pass-or-fail screen.** Typical gates cover DC voltage and current, MPPT compatibility, AC output and phase, environmental limits, required grid evidence, protection interfaces and approved battery pairing where storage is included.
 
-- **Vague technical specifications**: suggests hidden component compromises
-- **Unverified efficiency claims** without independent test certificates
-- **Limited warranty coverage** with extensive exclusions
-- **Poor manufacturer reputation**: check reviews, peer EPC feedback
-- **Inadequate local support**: no India service center, slow spare parts
-- **Missing certifications**: non-compliance creates regulatory risk
+Use the exact proposed model, not a family name. Check at least:
 
-## Practical Selection Checklist
+- Maximum DC voltage against the calculated cold-condition string voltage.
+- MPPT operating window against expected string operating voltage.
+- Per-input and per-MPPT current limits against the module and string arrangement.
+- Rated and maximum AC output against the project design and connection.
+- Phase, voltage and frequency compatibility.
+- Temperature, altitude and enclosure limitations for the intended mounting location.
+- Required protection functions and interfaces in the approved design.
+- Model-specific certificates, registrations or test evidence required by the tender or current connection process.
+- Battery voltage, current, BMS and model compatibility for a hybrid design.
 
-### Project Requirements
+The [datasheet-reading guide](/blog/how-to-read-solar-inverter-datasheets/) explains how to separate maximum DC voltage, MPPT range and start-up voltage. Use the [string-sizing calculator](/string-sizing-calculator/) only as an initial screen, then verify the design against current module and inverter documents.
 
-- System size and configuration
-- Grid stability and backup needs
-- Panel specs and DC oversizing requirements
-- Environmental conditions
-- Monitoring and remote management needs
-- Budget and TCO targets
+## How should an EPC compare models that pass?
 
-### Technical Verification
+**Score only the compliant models, using criteria and weights agreed before commercial bids are opened.** A practical matrix can cover design fit, evidence quality, monitoring, service, warranty, supply execution and total cost. Add notes and document references beside every score so another reviewer can reproduce the decision.
 
-- BIS/IEC certifications
-- Component grade and quality test protocols
-- Efficiency curves at all load levels
-- MPPT efficiency and shading performance
-- IP66 weather protection
-- Surge protection (DC and AC SPDs)
-- Operating temperature range
+Use a scale such as `0 = no acceptable evidence` through `5 = fully meets the documented requirement`. The scale is a procurement convention, not a product-performance claim. Define what each score means for each criterion before evaluation.
 
-### Manufacturer Assessment
+| Scored criterion | What to compare | Evidence to retain |
+| --- | --- | --- |
+| Design fit | Margin to project limits and layout flexibility | Design sheet and exact model datasheet |
+| Evidence quality | Scope, revision and model match | Certificate, report or registry record |
+| Monitoring | Required signals, hardware, access and export | Manual, demo record and quoted accessories |
+| Commissioning | Tools, instructions and acceptance support | Manual and support commitment |
+| Warranty | Remedy, exclusions, costs and claim steps | Controlling written policy |
+| Service | Escalation, diagnosis, spares and responsibilities | Service schedule or contract |
+| Supply | Lead time, substitutions and version control | Quote and purchase terms |
+| Ownership cost | Acquisition, service, downtime and replacement inputs | TCO worksheet and supporting quotes |
 
-- Warranty type (full replacement)
-- Digital warranty system
-- Claim process testing
-- Pre-sales engineering support
-- Spare parts availability
-- Training and partner programs
+Do not award points for an adjective such as “smart,” “premium” or “AI-powered.” Score the observable function the project needs, the evidence that it exists, and who must provide the hardware or subscription.
 
-### Cost Analysis
+## How should efficiency and thermal behaviour be assessed?
 
-- Upfront cost per watt
-- Lifecycle energy production
-- Probability-weighted replacement costs
-- O&M cost differences
-- 25-year NPV
-- Cross-option ROI comparison
+**Compare efficiency and thermal behaviour under stated conditions, not through one headline percentage.** Record the efficiency metric, test basis, load range and any temperature or altitude derating that affects the site. Model expected energy with consistent assumptions if the difference matters to the procurement decision.
 
-## Making Confident Selection Decisions
+Maximum efficiency is not annual yield. Likewise, an operating temperature range does not prove that full output is available throughout that range. Request the applicable derating curve or manual and check whether the proposed mounting conditions preserve ventilation and required clearances.
 
-The Indian solar market evolves fast. Next-generation inverters offer capabilities unthinkable five years ago, AI WhatsApp monitoring, 12-year warranties, German-grade components, partner programs designed specifically for Indian EPCs.
+If an energy-value comparison is included, keep the model inputs, loss assumptions and tariff basis in the decision file. Do not convert a datasheet difference into a lifetime saving without a reviewed energy model.
 
-Budget inverters appear to save money but often cost more through reduced efficiency, shorter lifespans, and reputation damage. Calculate TCO honestly, prioritise long-term value, and select inverters that support your business growth.
+## How should enclosure and site conditions be scored?
 
-EPCs whose in-house team is stretched thin on structural or electrical documentation during a scale-up phase sometimes bring in dedicated solar engineering services for design and civil work rather than slowing down inverter procurement to compensate. [String sizing](/glossary/string-sizing/) is one of the technical checks worth automating early, the [string sizing calculator](/string-sizing-calculator/) confirms panel-string configuration against the chosen inverter's MPPT input range before ordering. For inverter-specific procurement questions, [talk to a Qbits engineer](/contact-us/), and see the [on-grid inverter](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) range pages for full spec sheets.
+**Match the documented enclosure and environmental limits to the surveyed installation, rather than declaring one IP rating universally sufficient.** Rain exposure, dust, salt, direct sun, flooding risk, ventilation, altitude and maintenance access can change the mounting decision even when two products carry the same headline enclosure rating.
+
+The [IP65 versus IP66 guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) explains what an ingress code does and does not establish. The EPC should also check the manual's mounting orientation, clearances, connector requirements and any restrictions for corrosive environments. An IP code does not replace those installation instructions.
+
+## What should be checked in warranty and service terms?
+
+**Read the controlling warranty and service documents for the exact model.** Compare when coverage starts, registration requirements, covered faults, remedy, exclusions, diagnostic steps and responsibility for labour, removal, transport and reinstallation. A duration shown in a brochure cannot answer those questions on its own.
+
+Use the same claim scenario with each supplier. For example: the installed unit reports a recurring fault after commissioning, remote checks do not resolve it, and site attendance is needed. Ask who opens the case, which records are required, who visits, which costs are covered and what happens if replacement stock is unavailable.
+
+The [solar inverter warranty guide](/blog/solar-inverter-warranty/) provides a document checklist. Retain the policy version with the purchase file instead of relying on a web-page summary that may later change.
+
+## How should monitoring and support be evaluated?
+
+**Test the monitoring and support workflow against the O&M team's actual job.** Confirm commissioning access, user roles, alarm detail, data export, connectivity hardware, subscription terms, firmware responsibilities and the route for technical escalation. A feature list is not a completed workflow test.
+
+Ask the supplier to demonstrate a normal commissioning sequence and a fault escalation. Record whether extra gateways, SIMs, licences or mobile permissions are needed. Check what the client receives at handover and how access transfers if the original EPC no longer maintains the plant.
+
+Support can be scored only from defined evidence. Named contacts, documented hours, escalation steps, training material and spare-parts commitments are more useful than an unqualified promise of “fast service.”
+
+## How should total cost affect inverter selection?
+
+**Compare total cost using the same scope, period and assumptions for every compliant model.** Include installed acquisition cost, required accessories, commissioning, planned service, monitoring fees, expected downtime exposure, warranty responsibilities and replacement scenarios. Keep uncertain inputs visible instead of disguising them inside one confident total.
+
+The [inverter TCO worksheet](/blog/inverter-tco/) provides the input structure. Run sensitivity cases for the inputs that can change the decision, such as service visits, downtime value, replacement timing or discount rate. A lower purchase price should win only if the comparable evidence supports the lower ownership cost or the client has explicitly prioritised capital cost.
+
+## A solar inverter selection scorecard template
+
+Complete the pass-or-fail section first. Reject or resolve every failure before weighted scoring.
+
+### Technical gate
+
+| Gate | Required value or document | Candidate result | Evidence reference | Pass/fail |
+| --- | --- | --- | --- | --- |
+| Exact model and revision |  |  |  |  |
+| Maximum DC voltage |  |  |  |  |
+| MPPT voltage range |  |  |  |  |
+| Input current limits |  |  |  |  |
+| AC rating and phase |  |  |  |  |
+| Environmental limits |  |  |  |  |
+| Grid and project evidence |  |  |  |  |
+| Storage compatibility, if applicable |  |  |  |  |
+
+### Weighted comparison
+
+| Criterion | Project weight | Candidate score | Weighted result | Evidence and notes |
+| --- | --- | --- | --- | --- |
+| Design fit |  |  |  |  |
+| Evidence quality |  |  |  |  |
+| Monitoring and commissioning |  |  |  |  |
+| Warranty and service |  |  |  |  |
+| Supply execution |  |  |  |  |
+| Total cost of ownership |  |  |  |  |
+
+Have engineering approve the technical gate, O&M review monitoring and support, and procurement confirm the commercial comparison. Record the chosen model, rejected alternatives, open conditions and approvers in the decision note.
+
+## What should happen before a purchase order is released?
+
+**Before release, match the selected model and every promised accessory to the final design, quote and evidence file.** Resolve qualifications, approve substitutions formally, attach the controlling warranty and define commissioning and handover records. The purchase order should not rely on a scorecard entry that the contract does not preserve.
+
+The final file should include the approved single-line diagram, array calculations, exact SKU, current datasheet and manual, required compliance evidence, monitoring scope, warranty, service terms, delivery conditions and acceptance tests. [Download current Qbits datasheets](/download-datasheets/) or [request a model-specific technical review](/contact-us/) before procurement.
+
+**Sources checked 23 September 2026:** the current Qbits datasheet library, Qbits product inventory and the linked Qbits technical guides. Product, certificate, warranty and support statements must be reconfirmed for the exact quoted model and project. Engineering, procurement and contract owners should approve the final scorecard before purchase.

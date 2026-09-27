@@ -35,6 +35,8 @@ faqs:
     a: "SBI generally expects a minimum CIBIL score of 700 for personal or home improvement loans, which is the category most solar loan applications fall under. A score above 750 qualifies for preferential rate bands. Applicants with scores below 700 are not automatically disqualified, but they will typically be asked to provide additional collateral or a co-applicant with a stronger credit profile. Checking your CIBIL score before applying avoids surprises at the branch."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every month, thousands of Indian homeowners walk into an SBI branch asking one question: can I finance my rooftop solar system here? The State Bank of India is the country's most trusted financial institution, the same bank where many families maintain their salary account, hold their home [loan](/blog/solar-ka-loan-hindi/), and pay their utility bills. It makes sense to ask whether this institution can also fund the solar panels going on the roof.
 
 The answer is yes, through a product called SBI Surya Shakti Solar Finance. This guide explains the interest rate, who qualifies, which seven documents you need to carry, how the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy integrates with the loan, and how SBI compares with IREDA and private banks so that you can make a genuinely informed financing decision.
@@ -114,8 +116,6 @@ This is the named framework for this guide. Every rejected or delayed SBI solar 
 
 6. **DISCOM sanction letter**: the net metering or grid-connection approval issued by your local electricity distribution company after you complete the PM Surya Ghar portal registration. This is the document that most delays applications because applicants arrive at the bank before the DISCOM process is complete. Initiate the DISCOM application first.
 
-7. **Vendor quotation / pro forma invoice**: a detailed quotation from an ALMM-empanelled solar installer listing the system size (kW), panel specifications, inverter brand and model, and itemised costs. SBI requires this to assess the technical viability and cost reasonableness of the proposed installation.
-
 Carry all seven. The branch will retain photocopies and return originals after verification.
 
 ## How to Apply for an SBI Solar Loan: Step-by-Step Process
@@ -125,8 +125,6 @@ The application journey has five distinct stages. Understanding what happens at 
 - **Step 1: Register on PM Surya Ghar portal**: Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and complete the homeowner registration. Select your state, DISCOM, and electricity consumer number. The portal guides you through vendor selection from the empanelled list and generates the application number that your DISCOM uses to issue the sanction letter. Read the [PM Surya Ghar application guide](/blog/pm-surya-ghar-apply-online/) for a detailed walkthrough of this stage.
 
 - **Step 2: Obtain DISCOM sanction letter**: After portal registration, your DISCOM inspects the connection feasibility and issues a technical sanction for net metering. This takes 7–15 working days in most states. Do not visit the bank before you have this letter in hand.
-
-- **Step 3: Get a vendor quotation**: Obtain a [formal, itemised quotation](https://quickestimate.co/features/quotation-system/) from an ALMM-empanelled installer. The quotation must include the system size, component specifications, and a line-by-line cost breakdown. Confirm that the inverter is ALMM-listed, this is mandatory for PM Surya Ghar subsidy eligibility. Learn about [ALMM-listed products](/blog/almm-list-phase-iii-guide/) to understand what qualifies.
 
 - **Step 4: Visit SBI branch and submit the application**: Carry all seven documents from the checklist above. Visit the branch nearest to the installation property. The loan officer will conduct a preliminary assessment, collect documents, and initiate the credit appraisal. An existing SBI account holder can also start the preliminary application online via YONO and visit the branch only for document submission.
 
@@ -225,13 +223,10 @@ The broader context for financing decisions (including CAPEX vs OPEX models and 
 
 When the SBI loan is sanctioned and the funds hit the installer's account, the system components arrive, and this is the moment where inverter quality determines the next 12–15 years of returns. A solar loan locks you into a 5–7 year repayment commitment. The inverter you choose should last well beyond that timeline without requiring a costly replacement that turns a profitable installation into a financial liability.
 
-Qbits inverters are built specifically for Indian grid conditions (180–270 V fluctuations, 45 °C rooftop temperatures, monsoon humidity) with IP66 weather protection and a 12-year full replacement warranty that outlasts any standard solar loan tenure. ALMM-listed and BIS-compliant, Qbits inverters qualify under PM Surya Ghar subsidy requirements automatically.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM-compliant and subsidy-eligible under PM Surya Ghar; the right choice for homeowners whose primary goal is bill reduction and net metering income.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness and automatic backup switchover; suited for homeowners in areas with frequent power cuts who want solar-plus-storage in a single financed package.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm the panel-inverter string configuration before finalising the vendor quotation submitted to SBI; an undersized or oversized string configuration affects yield and warranty validity.
 
-[Talk to a Qbits engineer](/contact-us/) if you want help verifying that the system specified in your vendor quotation matches your actual roof space and consumption pattern, most queries receive a response within 24 hours, and the guidance is useful before you submit documents to SBI.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ## How to Maximise Returns From an SBI Solar Loan
 
@@ -240,8 +235,6 @@ Getting the loan approved is step one. Getting the full financial value out of t
 - **Apply the PM Surya Ghar subsidy as a principal prepayment**: When the ₹78,000 (or applicable amount) arrives, prepay the loan principal immediately. On a 10% loan, this saves ₹5,460–₹8,190 in total interest depending on how early in the tenure the prepayment lands.
 
 - **Register for net metering as soon as the system is commissioned**: Net metering credits reduce your electricity bill further, improving the bill saving assumption used in the EMI offset calculation. The [net metering application process in India](/blog/how-to-apply-net-metering-india/) requires a separate application to the DISCOM post-installation.
-
-- **Track generation via monitoring**: Monthly generation data is the evidence base for calculating actual bill savings vs EMI. Qbits AI-powered WhatsApp monitoring delivers this data passively, you do not need to log into an app to check performance.
 
 - **Understand payback period vs loan tenure**: The [solar inverter payback period](/blog/solar-inverter-payback-period-in-india/) for a 3–5 kW system in India typically ranges from 4–6 years at current electricity tariffs. This means the system pays for itself before the 7-year loan ends, creating a period of pure surplus generation during the final 1–3 years of the loan tenure.
 

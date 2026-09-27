@@ -204,8 +204,6 @@ Deep discharge below recommended DOD severely reduces battery cycle life and may
 
 ## Need DOD-optimised battery sizing?
 
-QBits Energy designs solar storage with appropriate DOD limits for chemistry and application, optimising cycle life across Indian residential, C&I and microgrid applications.
-
 ## Further reading
 
 For how Deep Discharge plays out in real projects, these guides go deeper:

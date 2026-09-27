@@ -35,6 +35,8 @@ faqs:
 featured: false
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 A factory owner in Coimbatore pays Rs 9.50 per unit to the [DISCOM](/glossary/discom/). A solar park 200 km away offers the same electron for Rs 3.75. That gap is the entire business case for [open access](https://quickestimate.co/blog/almm-list-2-exemption-net-metering-open-access-2026) solar in India. C&I open access additions hit 7.8 GW in 2025, according to Mercom India (2026). Open access lets a commercial or industrial consumer buy solar power from an off-site plant. The grid delivers it to your premises, and you build nothing on your own roof.
 
 The catch: Rs 3.75 is not what lands on your bill. Between the solar park and your meter sits a stack of regulated charges. Wheeling, [cross-subsidy surcharge](https://www.heavengreenenergy.com/glossary/cross-subsidy-surcharge), additional surcharge, banking, and scheduling fees all apply. In a friendly state the stack adds Rs 1.50 to Rs 2.50 per unit. In a hostile one it adds Rs 3.50 or more and kills the deal. This guide covers what open access is and who qualifies. It also covers every charge, the [group captive](https://www.heavengreenenergy.com/blog/group-captive-detailed) versus [third-party PPA](https://www.heavengreenenergy.com/blog/captive-solar-vs-third-party-ppa-roi) decision, worked savings math, and the states worth the effort in 2026.
@@ -181,7 +183,7 @@ When a developer proposal lands on your desk, run this checklist before commerci
 1. **Landed cost, not PPA tariff.** Demand a line-item landed cost calculation referencing your state's current tariff order. It should cover PPA tariff, wheeling, CSS, ASC, banking on the modelled banked share, scheduling, and duty. Compare it against your actual landed grid tariff, not the energy charge alone.
 2. **Structure fit.** If you can deploy Rs 1 to 1.5 Crore per MW of equity and find co-consumers, group captive almost always wins on per-unit cost. If not, choose a third-party PPA with a capped escalation clause. Keep escalation at 2% to 3% annually, below expected grid tariff growth.
 3. **Generation guarantee.** The contract should guarantee minimum annual generation at a defined P90 yield, with liquidated damages for shortfall. Otherwise you draw the gap from the grid at full tariff.
-4. **Inverter and plant hardware.** Ask what inverters the plant uses. For plants in the 100 kW to multi-MW range built with string inverters, efficiency and grid tolerance drive plant availability. Qbits TLS and HT series string inverters run up to 100 kW and above. They carry 98% peak efficiency, IP66 protection, 180 to 270 V grid tolerance, and a 12-year full replacement warranty. That warranty directly protects the generation guarantee in developer-owned plants.
+
 5. **Exit and transfer clauses.** Read the termination, change-in-law, and assignment clauses. Change-in-law protection for charge increases is the most valuable clause in a long-tenure PPA.
 
 ## The Bottom Line
@@ -192,4 +194,4 @@ Three actions to take this week:
 
 - Pull your last 12 months of DISCOM bills. Compute your landed grid tariff as total bill divided by units consumed. That number is the benchmark every open access proposal must beat.
 - Get your state's current wheeling, CSS, and banking charges from the latest SERC tariff order. Or ask a developer to provide them with order references. Then run the landed-cost table from this guide with your numbers.
-- If the math shows Rs 2 or more per unit of savings at your volume, [request an open access feasibility assessment from the Qbits team](/contact-us/). We will model third-party versus group captive for your load profile and state, and spec the inverter hardware for the plant side.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

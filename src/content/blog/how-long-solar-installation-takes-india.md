@@ -33,6 +33,8 @@ faqs:
     a: "The PM Surya Ghar central subsidy is typically disbursed within 30 days of the DISCOM issuing the commissioning certificate and verifying the installation on the portal. The money is credited directly to the bank account registered on pmsuryaghar.gov.in, which must be linked to the Aadhaar number of the electricity connection holder. State-level additional subsidies may take a further 30–60 days via separate state DISCOM channels."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 You have decided to go solar. The quotes are in, the subsidy is understood, the system is sized, and now the most practical question: how long before the panels are on the roof and the meter is running backwards? The honest answer involves two very different timelines: the physical installation (fast) and the [DISCOM approval](https://quickestimate.co/blog/discom-approval-time-benchmark) (slow and variable by state). This guide maps every stage with realistic durations.
 
 > **TL;DR**
@@ -204,12 +206,7 @@ According to [MNRE data on the PM Surya Ghar portal](https://pmsuryaghar.gov.in/
 
 ## Where Qbits Fits in the Installation Timeline
 
-Physical installation in Stage 4 is where Qbits inverter specifications directly affect timeline. Qbits inverters come pre-configured for Indian grid parameters (180–270 V tolerance) and include commissioning documentation that satisfies DISCOM inspection requirements, reducing Stage 5 re-inspection delays caused by specification queries.
-
-The Qbits WhatsApp monitoring system activates at Stage 4 commissioning: the system immediately begins reporting daily generation and sends alerts for any underperformance during the Stage 5 wait period, so you can verify yield estimates before the net meter is even installed.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed, DISCOM-approved documentation, BIS certified; 1.5 kW to 50 kW.
 - **[Solar Inverter Commissioning Guide](/blog/solar-inverter-commissioning-in-india/)**: Step-by-step Stage 4 commissioning checklist.
-- **[Authorized Service Partners](/authorized-service-partners/)**: If installation quality issues arise, the 72-hour RMA SLA applies from day one.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
-To understand what comes after commissioning (reading your first net-metering bill, what the monitoring app shows, and what is normal in the first monsoon season) [talk to a Qbits engineer](/contact-us/). Most post-installation questions are resolved in a 15-minute WhatsApp call.
+For post-commissioning questions, [contact Qbits](/contact-us/) with the exact model and project records. Confirm the available support channel, responsible party, timing, and scope rather than assuming a call format or resolution time.

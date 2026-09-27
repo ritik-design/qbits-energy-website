@@ -1,263 +1,233 @@
 ---
-title: "ALMM List Phase III Guide for Buyers and EPCs 2026"
-excerpt: "The ALMM list determines which inverters qualify for PM Surya Ghar subsidy. This 2026 guide covers Phase III scope, how EPCs check compliance, and what happens when a product gets delisted."
-description: "EPC guide to ALMM Phase III: what it covers, how to verify inverter and BOS compliance before quoting, tender implications, and a 5-check checklist."
+title: "ALMM Scope: Modules, Cells and Inverter Checks"
+excerpt: "The ALMM list has two tiers: List-I for modules, List-II for cells. MNRE publishes no inverter list. Here is the verified scope."
+description: "What the ALMM list covers, what List-I and List-II actually are, why there is no ALMM inverter list, and how to verify an ALMM claim before you buy."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
-readTime: "18 min"
+updatedDate: 2026-09-24
+readTime: "14 min"
 image: "/blog-images/solar-inverter-certifications.svg"
-author: "Nirav Dhanani"
+author: "Qbits Editorial"
 keywords:
   - almm list
   - almm phase iii
-  - almm list inverter
+  - almm inverter list
+  - almm list-i list-ii
+  - mnre approved list
   - almm compliance for epcs
-  - mnre approved list of models and manufacturers
 faqs:
-  - q: "What is the ALMM list?"
-    a: "The Approved List of Models and Manufacturers (ALMM) is a register published by the Ministry of New and Renewable Energy (MNRE) that specifies which solar equipment models and their manufacturers meet Indian quality and origin standards. Products not on the ALMM list cannot be used in government-funded projects, DISCOM-approved installations, or subsidy schemes such as PM Surya Ghar Muft Bijli Yojana. The list is maintained at the official MNRE portal and updated periodically via gazette notifications."
-  - q: "Is the ALMM list mandatory for residential solar installations in India?"
-    a: "ALMM compliance is mandatory for any residential installation claiming the PM Surya Ghar central subsidy. If a homeowner's installer fits a module or inverter not on the ALMM list, the DISCOM will reject the commissioning inspection and the subsidy will not be disbursed. Off-subsidy private installations - where the homeowner pays the full system cost and does not apply for PM Surya Ghar - are technically outside the ALMM mandate, though most responsible EPCs specify ALMM-listed products regardless to avoid future complications."
-  - q: "How often is the ALMM list updated?"
-    a: "MNRE updates the ALMM list through gazette notifications typically issued on a quarterly basis, though the cadence is not fixed. New models from approved manufacturers are added when the manufacturer submits a fresh application with the required testing certificates. Existing entries can be suspended or removed if a manufacturer fails to comply with origin declarations, quality audits, or import regulation changes. EPCs should check the live list at mnre.gov.in before finalising any purchase order, not rely on a cached version from a previous project."
-  - q: "What happens if a product I have specified gets delisted from the ALMM list mid-project?"
-    a: "Systems already commissioned and connected under a valid ALMM-listed status are grandfathered - the subsidy already disbursed or the net-metering connection already granted will not be revoked. However, new orders placed after the delisting date cannot use that model for subsidy-eligible or government-tender installations. If you have materials on-site but the installation is not yet commissioned, you face a procurement decision: proceed with the now-delisted product at the risk of subsidy rejection, or source a listed alternative. Always include an ALMM delisting clause in your EPC contracts that allows for equipment substitution without penalty."
-  - q: "Does the ALMM list apply to batteries and energy storage systems?"
-    a: "As of June 2026, the ALMM framework covers solar photovoltaic cells and modules (Phase I), extended module types (Phase II), and inverters plus selected balance-of-system components (Phase III). Battery energy storage systems (BESS) are not yet within the ALMM Phase III scope for residential applications, though MNRE has signalled that a separate approved list for storage may be introduced as part of the PM Surya Ghar battery subsidy expansion. EPCs procuring batteries for hybrid systems should monitor MNRE notifications closely."
-  - q: "How do I check if an inverter is on the ALMM list?"
-    a: "Visit the official MNRE portal at mnre.gov.in and navigate to the ALMM section. The Phase III list for inverters is published as a downloadable PDF and is also searchable online. Search for the manufacturer name first, then confirm that the specific model and wattage you intend to procure appears on the approved entry. Note that ALMM approval is model-specific - a manufacturer being listed does not mean all of their models are approved. Always cross-check the exact model number against the live published list, not a dealer-supplied photocopy."
-  - q: "Do government tenders require ALMM-listed products?"
-    a: "Yes. Central and state government tenders for solar installations - including those under PM Surya Ghar, KUSUM, and state DISCOM programmes - mandate ALMM-listed equipment in their technical specifications. Tendering EPCs who submit bids specifying non-listed products will have their technical bids disqualified. Several state government solar tenders additionally require the manufacturer to maintain ALMM listing throughout the project execution period, meaning a delisting event mid-contract can trigger a breach clause. Review the ALMM compliance requirements in the tender document before preparing your bill of quantities."
-  - q: "What is the difference between ALMM Phase I, Phase II, and Phase III?"
-    a: "ALMM Phase I covers solar photovoltaic cells and modules - the panels themselves. This phase was introduced to ensure that panels claiming domestic origin meet the Bureau of Indian Standards specifications and are not re-labelled imported material. Phase II extended the scope to additional module types including bifacial, double-glass, and thin-film configurations. Phase III, the most recent addition, expanded coverage to solar inverters and selected balance-of-system components such as mounting structures and combiner boxes. Each phase added compliance obligations for a new product category within the same MNRE framework."
-  - q: "Can an EPC use a non-ALMM inverter if the customer waives the subsidy?"
-    a: "In a purely private transaction where the end customer explicitly waives the PM Surya Ghar subsidy and the project involves no government funding, DISCOM tender requirement, or public utility interconnect condition, an EPC can technically install a non-ALMM inverter. However, this creates significant commercial and liability risks. The customer may later seek the subsidy and hold the EPC responsible for disqualification. Insurance and financing providers are increasingly requiring ALMM compliance as a bankability criterion. Most professional EPCs maintain a policy of specifying only ALMM-listed products across all project types to eliminate ambiguity."
+  - q: "Is there an ALMM Phase III inverter list?"
+    a: "No. MNRE's ALMM page publishes List-I for solar PV modules and List-II for solar PV cells, plus numbered revisions of each. There is no third tier for inverters, and the phrase ALMM Phase III does not appear in the ALMM Order, 2019 or in the published lists. The only additional product tier under discussion is a wafer list, proposed in a draft amendment of 12 September 2025. Verify inverter safety, grid-interface and DISCOM requirements through a separate document set."
+  - q: "What is the difference between ALMM List-I and ALMM List-II?"
+    a: "List-I names approved solar PV module models and their manufacturers. List-II names approved solar PV cell models and their manufacturers. MNRE issued the first List-I on 10 March 2021 and the first List-II on 31 July 2025. From 1 June 2026, a List-I module must be built on List-II cells for the covered project categories, following MNRE's Office Memorandum of 9 December 2024."
+  - q: "Which projects have to use ALMM equipment?"
+    a: "MNRE's ALMM page states that only List-I models and manufacturers are eligible for government projects, government-assisted projects, projects under government schemes and programmes, open access and net-metering projects. That covers PM Surya Ghar rooftop systems, PM-KUSUM, central tenders and most state programmes. Pure behind-the-meter captive plants sit outside List-I and List-II. Categories and carve-outs change by notification, so confirm your own project class in writing."
+  - q: "Does ALMM listing guarantee product quality?"
+    a: "No. A listing confirms that a specific model from a specific factory met the enlistment conditions on a specific date. It is not a performance warranty, a site acceptance test, or a substitute for incoming inspection. BIS certification is a prerequisite for enlistment, not a consequence of it. Engineering review, commissioning measurement and warranty terms remain separate checks."
+  - q: "How do I verify that a product is really ALMM listed?"
+    a: "Open the current List-I or List-II PDF on the MNRE ALMM page and match the exact manufacturer name, factory location and model code. Brand-level matching is not enough, because listings are granted per factory and per model. Record the revision date of the document you checked. Recheck before commissioning if the project runs long, because MNRE revises both lists every few weeks."
+  - q: "Is ALMM the same thing as DCR?"
+    a: "No. ALMM is a listing regime: only enlisted models may be supplied to covered projects. Domestic Content Requirement, or DCR, is a scheme condition requiring that the cells and modules be manufactured in India. A model can be on ALMM List-I without satisfying a DCR condition. DCR breaches carry heavier consequences, including blacklisting and bank guarantee forfeiture, according to AZB Partners (2025)."
+  - q: "What should an inverter buyer check if ALMM does not apply?"
+    a: "Check the exact model against the applicable Indian Standards, including IS 16221 (Part 2):2015 for inverter safety and IS 16169:2019 for islanding prevention. Confirm BIS registration for the exact model under MNRE's Solar Systems, Devices and Components Goods Order, 2025, notified 27 January 2025. Then confirm the model appears on the DISCOM or tender approved-vendor list that governs the project."
+  - q: "Why is List-II making modules harder to buy?"
+    a: "India's approved module capacity is far larger than its domestic cell capacity, so a cell-level rule bites harder than a module-level one. AZB Partners (2025) reported over 100 GW of module capacity across more than 100 manufacturers by August 2025. Mercom India reported on 17 February 2026 that developers sought a time-bound extension, citing a TOPCon cell supply shortage and price rise. Expect tighter availability and firmer pricing on compliant modules."
+  - q: "Does ALMM cover anything other than solar?"
+    a: "Yes. MNRE also maintains ALMM-Wind for wind turbine models and ALMM-WTC for wind turbine components, governed by their own standard operating procedure, amended on 1 December 2025. A wafer tier has been proposed for solar. None of these tiers is an inverter register, which is why inverter compliance has to be evidenced through standards, BIS registration and DISCOM approval instead."
 ---
 
-Every EPC in India has faced the same conversation: a client asks why a particular inverter is on your approved vendor list, and the answer ("it has to be ALMM-listed") is met with a blank stare. The Approved List of Models and Manufacturers is not optional paperwork. It is the gate between your client receiving ₹78,000 in PM Surya Ghar subsidy and receiving nothing at all. For EPCs running 20 or more installs per month, an ALMM mis-specification does not just cost one client their subsidy, it damages the EPC's relationship with the local [DISCOM](/glossary/discom/), delays commissioning across the portfolio, and triggers procurement firefighting that no project timeline has margin for.
+Search demand for "ALMM Phase III inverter list" is real, and the phrase is wrong. The Approved List of Models and Manufacturers has exactly two published tiers for solar: List-I for modules and List-II for cells. MNRE publishes no inverter list at all. That single correction decides whether a procurement file survives a DISCOM review or gets sent back.
+
+The confusion is expensive. Buyers reject compliant inverters for lacking a listing that does not exist. Sellers advertise an "ALMM listed" inverter and nobody asks which list. EPCs pass a module check and miss that the cell inside the module now carries its own requirement. Each of those is a different failure, and each traces back to treating ALMM as one undifferentiated stamp.
+
+This guide sets out the verified scope. It covers the order that creates ALMM, what List-I and List-II each contain, and the date the cell requirement started to bite. It then covers project coverage and exemptions, enlistment, how ALMM differs from Domestic Content Requirement, the module supply squeeze, and what an inverter buyer should check instead. Every date is attributed to its issuing body.
 
 > **TL;DR**
-> - ALMM Phase III added inverters, mounting structures, and combiner boxes to a framework that previously covered only modules (Phase I) and extended module types (Phase II).
-> - Non-ALMM equipment forfeits the PM Surya Ghar subsidy and disqualifies government tender bids outright, it is a pass-or-fail technical criterion, not a scoring one.
-> - The 5-Check ALMM Compliance Protocol, live list verification at quote date, model-level (not manufacturer-level) confirmation, a procurement-order clause, a pre-commissioning recheck, and a client contract clause, closes the gaps that cause most rejections.
-> - Systems already commissioned under a valid ALMM listing are grandfathered even if the product is delisted later; only new orders after the delisting date are affected.
-> - Qbits' TLS/TLD on-grid and HS/HT hybrid series are ALMM Phase III listed across 1.5 kW to 100 kW, backed by a 12-year full replacement warranty.
+> - ALMM is created by MNRE's Approved Models and Manufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration) Order, 2019, dated 2 January 2019.
+> - List-I covers solar PV modules and was first issued on 10 March 2021. List-II covers solar PV cells and was first issued on 31 July 2025.
+> - From 1 June 2026, a List-I module must be built on List-II cells for covered projects, per MNRE's Office Memorandum of 9 December 2024.
+> - MNRE publishes no inverter list. "ALMM Phase III" appears in no MNRE ALMM instrument, and the only proposed third tier is for wafers.
+> - Net-metering and open-access projects hold a limited commissioning window to 31 December 2026, per the MNRE notice of 18 July 2026.
+> - Listings are granted per factory and per model, so brand-level verification proves nothing.
+> - Inverter compliance runs on IS/IEC standards, BIS registration and DISCOM approved-vendor lists instead.
 
-This guide is written for EPC installers who need to understand not just what the [ALMM list](https://www.heavengreenenergy.com/blog/almm-list-explained) is, but how to operationalise it across their procurement, quoting, tendering, and contract workflows.
+**Short version.** ALMM is MNRE's approved list for solar equipment. It has two published solar tiers: List-I for PV modules, List-II for PV cells, with the cell requirement in force from 1 June 2026. MNRE does not publish an inverter list, so "ALMM Phase III listed inverter" has no official instrument behind it. Check inverters against IS/IEC standards, BIS registration and the project's DISCOM list.
 
-> **Direct answer.** The [ALMM list](https://www.heavengreenenergy.com/blog/almm-list-2-exemption-window-2026) (Approved List of Models and Manufacturers) is the MNRE register of solar equipment approved for use in subsidy-eligible and government-tendered installations. Phase III, introduced in 2022 and progressively expanded, added inverters and balance-of-system components to the scope previously covering only modules. For EPCs, ALMM compliance is not a single checkbox, it requires the 5-Check ALMM Compliance Protocol applied at the quote stage, before procurement, and again before commissioning to eliminate subsidy-rejection risk entirely.
+## What ALMM is, and the order that creates it
 
-The practical complexity is not in understanding what the list is, it is in managing it across a live project portfolio where product availability, manufacturer listings, and MNRE notification timings do not always align. The sections below address each of these scenarios directly.
+ALMM stands for **Approved List of Models and Manufacturers**. It is a compulsory registration regime, not a quality award. MNRE created it through the Approved Models and Manufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration) Order, 2019, dated 2 January 2019, according to the [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) (2026).
 
-## What the ALMM List Is and Why MNRE Created It
+The policy logic is traceability. A rooftop or ground-mount asset runs for 15 to 25 years, so the state wants to know which factory built the part, according to AZB Partners (2025). Enlistment ties a model code to a named factory for a fixed validity period.
 
-The [ALMM list](/glossary/almm-list/) exists because India's solar industry grew fast enough to attract a volume of substandard and mis-labelled imported equipment that threatened both installation quality and the policy intent behind [domestic manufacturing incentives](/blog/bcd-import-duty-solar-inverters-india/). When the government began offering subsidies for rooftop solar through schemes that later became [PM Surya Ghar Muft Bijli Yojana](/blog/pm-surya-ghar-yojana-complete-guide/), it needed a mechanism to ensure that subsidy money was not funding imported equipment dressed up with domestic labels.
+Two things follow. A listing is specific, naming a manufacturer, a factory and a model rather than a brand. A listing is also dated, and MNRE revises both lists every few weeks.
 
-[MNRE](/glossary/mnre/) published the first iteration of the ALMM framework as a gazette notification establishing that only models from manufacturers meeting specified quality and origin criteria would be eligible for use in government-backed solar programmes. The framework created an approved list that manufacturers must apply to join, with the requirement to demonstrate that their products meet Bureau of Indian Standards specifications, satisfy IEC testing benchmarks, and comply with declared origin rules.
+ALMM is not solar-only. MNRE maintains ALMM-Wind for wind turbine models and ALMM-WTC for wind turbine components under their own standard operating procedure, amended on 1 December 2025, per MNRE's [current notices](https://mnre.gov.in/en/notice-category/current-notices/). That matters because it shows MNRE creates a new ALMM tier by notification, product by product. No such notification exists for inverters.
 
-The underlying intent was threefold: protect consumers from substandard equipment, support domestic manufacturing by giving ALMM-compliant Indian manufacturers a commercial advantage in subsidy-eligible projects, and create an auditable trail for government expenditure on solar infrastructure.
+## List-I is modules, List-II is cells, and MNRE publishes no inverter list
 
-For EPCs, the practical effect is straightforward: if you spec non-listed equipment for a PM Surya Ghar job, your client loses the subsidy. If you spec non-listed equipment for a government tender, your bid fails the technical evaluation. The ALMM list is not a quality certification in the engineering sense, passing BIS and IEC tests does not guarantee flawless field performance. It is a compliance gate that separates equipment eligible for government-programme installations from everything else.
+The ALMM Order states that the list "shall consist of LIST-I, specifying models and manufacturers of Solar PV Modules and LIST-II, specifying models and manufacturers of Solar PV Cells", per the MNRE ALMM page (2026). That is the whole solar structure. There is no third tier in force.
 
-The [BIS certification](/glossary/bis-certification/) requirement feeds into but is separate from the ALMM framework. A product can hold BIS certification and not be on the ALMM list because ALMM applications are manufacturer-initiated and require active submission of documentation to MNRE. Some manufacturers have strong products with valid BIS certification but have not pursued ALMM listing because their business model does not target the subsidy-eligible segment.
+| Tier | Covers | First issued | Current position |
+| --- | --- | --- | --- |
+| List-I | Solar PV modules | 10 March 2021 | Updated 16 September 2026 |
+| List-II | Solar PV cells | 31 July 2025 | 9th Revision dated 21 August 2026 |
+| Wafers | Proposed only | Not issued | Amendment to the ALMM Order updated 17 March 2026 |
+| Inverters | Not covered | Never | No list, no order, no draft |
 
-> **1 crore households.** The PM Surya Ghar Muft Bijli Yojana target for residential rooftop solar installations by March 2027. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
+Source for every row: the MNRE ALMM page, last updated 16 September 2026.
 
-## ALMM Phase I, Phase II, and Phase III: What Each Covers
+The claim that an inverter must be "ALMM List-II listed" is false on its face. List-II is a cell list. A cell is the silicon device inside a module. An inverter is a power electronics unit downstream of the array. They are different products under different instruments.
 
-Understanding the phase structure is necessary because each phase covers a different product category, and the compliance obligation on your project depends on which product categories are involved.
+This is the single most misquoted area of Indian solar procurement. The companion guide on the [ALMM List-II exemption window](/blog/almm-list-ii-exemption-net-metering-open-access/) tracks the cell deadline in detail.
 
-### Phase I: Solar PV Cells and Modules
+## What "ALMM Phase III" actually refers to
 
-Phase I, the original ALMM framework, covers crystalline silicon solar photovoltaic cells and modules. This phase was introduced specifically to address the problem of imported Chinese and other Asian-origin solar panels being mis-labelled as domestically manufactured. Manufacturers must declare the origin of the cells used in their modules, demonstrate that they meet IS 14286 (for modules) and related BIS standards, and maintain the listing through periodic audits.
+Plainly: nothing official. The phrase appears in no MNRE ALMM order, list or notice that we could locate on the MNRE ALMM page as at 16 September 2026. MNRE's own vocabulary is "List" and numbered "Revision", such as the 9th Revision of ALMM List-II dated 21 August 2026.
 
-For EPCs, Phase I has been the longest-standing ALMM obligation. The [net metering](/glossary/net-metering/) and subsidy framework has required ALMM Phase I module compliance since the early iterations of the scheme. If you have been in the industry for more than three years, you are already working with Phase I compliance as a default.
+The term is loose market shorthand. It probably absorbs three unrelated things: the two-list structure, the phased arrival of the cell obligation, and the separate BIS compulsory registration regime that does cover inverters. None of those produces a document called Phase III.
 
-The list includes major Indian and international manufacturers. Key names include Adani, Waaree, Vikram Solar, Tata Power Solar, and several others with MNRE-approved entries. International brands can appear on the list if their India-manufactured or India-declared-origin products meet the criteria. Panel models outside the list (even from reputable manufacturers) cannot be used in PM Surya Ghar installations.
+There is a real third tier in play, and it is not inverters. A draft amendment dated 12 September 2025 proposed a List-III for wafers, with compliance proposed from 1 June 2028, according to AZB Partners (2025). MNRE has since published an amendment to the ALMM Order for implementation of ALMM for wafers, updated 17 March 2026, per the MNRE ALMM page.
 
-### Phase II: Extended Module Types
+So if someone shows you "ALMM Phase III", ask which MNRE notification created it. If the answer is a brochure, the answer is no document. Record the status as unknown and request written confirmation from the scheme or DISCOM authority.
 
-Phase II extended the ALMM scope to bifacial modules, double-glass modules, building-integrated photovoltaic (BIPV) products, and thin-film configurations. As the Indian market diversified beyond standard monofacial panels, Phase II was introduced to ensure that the new module formats were subject to the same compliance discipline.
+## The ALMM timeline procurement teams need
 
-For most residential and small commercial EPC work in 2026, Phase II is relevant only when specifying bifacial modules. If your project calls for standard monofacial panels, Phase I compliance covers the module obligation entirely. Confirm with the module manufacturer whether the specific bifacial model your design uses carries Phase II ALMM approval, as this is model-specific, a manufacturer may have Phase I approval for their monofacial range without Phase II approval for their bifacial line.
+The current position is the product of a sequence of notifications, not one announcement. Reading the sequence is how you work out which rule applied on your project's bid date and which applies at commissioning.
 
-### Phase III: Inverters and Balance-of-System Components
-
-Phase III is the most recently expanded phase and the one most relevant to EPCs building their approved vendor list for the current project cycle. Phase III added solar inverters, mounting structures, combiner boxes, and selected other balance-of-system (BOS) components to the ALMM compliance framework.
-
-The inverter inclusion is the most consequential for PM Surya Ghar and government tender compliance. Before Phase III, a project could specify any inverter alongside ALMM Phase I modules and still qualify for the subsidy. Phase III closed that gap: the inverter must also appear on the approved list.
-
-As of June 2026, the Phase III list for inverters includes on-grid string inverters, hybrid inverters with battery interfaces, and central inverters above specified capacity thresholds. The compliance obligation is again model-specific: a manufacturer's presence on the Phase III list does not automatically extend to every model in their catalogue. EPCs must verify the specific wattage range and model designation against the live MNRE list, not assume that a manufacturer's flagship listing covers the full product line.
-
-> The ALMM Phase III framework for inverters was progressively notified starting in 2022 and has expanded in scope through subsequent MNRE notifications, with the list of approved inverter manufacturers and models growing substantially through 2024 and 2025. *Source - [MNRE ALMM Official List](https://mnre.gov.in/almm-list/), 2026.*
-
-## The 5-Check ALMM Compliance Protocol
-
-Most ALMM-related subsidy rejections that EPCs face are not caused by deliberate non-compliance. They are caused by incomplete verification at the wrong point in the project workflow. The error typically happens at quoting or procurement stage, when an EPC assumes a previously approved product is still listed, or assumes manufacturer approval extends to the new model they have sourced.
-
-The following protocol eliminates this class of error when applied systematically.
-
-### The 5-Check ALMM Compliance Protocol
-
-1. **Live list verification at quote date**: On the day you prepare the customer quote, download the current ALMM Phase I (modules) and Phase III (inverters) lists from mnre.gov.in. Do not rely on a cached or saved version. Check the specific module model, cell origin declaration, and the specific inverter model with its wattage range. Record the date and version of the list you checked. This timestamp becomes your evidence if a product is subsequently delisted.
-
-2. **Model-level confirmation, not manufacturer-level**: Confirm that the exact model designation you intend to supply is listed, not just the manufacturer. Cross-check the model code on the ALMM PDF against the model code on the manufacturer's datasheet and the model code your distributor will put on the invoice. Mismatches in model designation (even minor suffixes) have caused commissioning rejections.
-
-3. **Procurement order clause**: Insert a clause in every purchase order to your distributor or manufacturer requiring that the supplied product maintain ALMM listing at the time of delivery. This protects you if a product is delisted between the order date and the delivery date. Ask the supplier for written confirmation of current ALMM status with each delivery batch.
-
-4. **Pre-commissioning verification**: Before applying for the DISCOM commissioning inspection, re-check the ALMM list one final time. If any product on your project has been delisted in the interval since procurement, you need to know before the DISCOM inspector arrives, not after. Address any issues at this stage rather than during or after the inspection.
-
-5. **Client contract ALMM clause**: Your EPC contract with the end customer must include a clause stating that ALMM compliance applies to the products specified at the time of contract signing, and that any change in ALMM listing after contract execution and before commissioning will trigger a procurement substitution process at the EPC's discretion. This clause protects you from holding unlimited liability for an externally imposed regulatory change.
-
-The five checks add approximately 30 minutes to project initiation and an additional 15 minutes to pre-commissioning preparation. Against a potential ₹78,000 subsidy rejection, or a government tender bid failure, this time investment has an extremely favourable return.
-
-## How to Verify ALMM Status Before You Quote
-
-The MNRE ALMM portal is the single authoritative source for compliance verification. Here is the practical process that experienced EPC procurement teams use.
-
-For modules, navigate to the [MNRE ALMM page](https://mnre.gov.in/almm-list/) and download the current Phase I module list. The list is typically structured as a PDF table with columns for manufacturer name, module model designation, wattage range, cell technology, and cell origin declaration. Search the PDF for the manufacturer name first, then locate the specific model. Confirm that the wattage of the model you are specifying falls within the approved wattage range shown, some entries cover a band (e.g., 400 Wp to 550 Wp) rather than a single wattage point.
-
-For inverters under Phase III, the list follows the same structure but is published as a separate document. Locate the manufacturer entry, confirm the specific inverter model code, and verify the AC output range shown on the ALMM entry matches the model you are specifying. Some inverter entries specify a range by phase count (single-phase vs three-phase) and output class (e.g., 1.5 kW to 10 kW on-grid string). If your project calls for a 5 kW model, confirm it falls within the approved range explicitly, do not assume a 3 kW ALMM entry extends to 5 kW.
-
-Save a dated PDF copy of the relevant ALMM pages for each project file. This documentation serves two purposes: evidence of due diligence if a product is later delisted, and a reference point for any DISCOM query during the commissioning inspection.
-
-For EPC teams running more than 15 installs per month, a simple tracking spreadsheet that logs ALMM verification date, list version, and the specific entry reference for every project significantly reduces the cognitive load of managing this across a portfolio.
-
-| Verification Step | What to Check | When to Do It |
+| Date | Issuing body | What changed |
 | --- | --- | --- |
-| Module ALMM Phase I | Manufacturer name, model code, cell origin, wattage range | At quote preparation |
-| Inverter ALMM Phase III | Manufacturer name, model code, AC output range, phase count | At quote preparation |
-| BOS components (if applicable) | Mounting structure and combiner box entries if project involves government tender | At tender bid preparation |
-| Distributor confirmation | Written confirmation that supplied batch carries current ALMM status | At purchase order issuance |
-| Pre-commissioning recheck | Verify no delisting notification issued since procurement | 48 hours before DISCOM inspection |
+| 2 January 2019 | MNRE | ALMM Order, 2019 notified, creating List-I and List-II |
+| 10 March 2021 | MNRE | First List-I issued, about 8.2 GW enlisted |
+| 29 March 2024 | MNRE | ALMM applicability restored after the FY 2023-24 relaxation |
+| 9 December 2024 | MNRE | Office Memorandum making List-II compliance mandatory from 1 June 2026 |
+| 31 July 2025 | MNRE | First List-II for solar PV cells issued |
+| 12 September 2025 | MNRE | Draft amendment proposing a wafer list, compliance proposed 2028 |
+| 23 September 2025 | MNRE | Updated FAQs moved the List-II exemption cut-off to bids submitted on or before 31 August 2025 |
+| 25 May 2026 | MNRE | Notice: no blanket extension of List-II beyond 1 June 2026, subject to protection of investments already made |
+| 1 June 2026 | MNRE | List-II cell requirement takes effect for covered projects |
+| 18 July 2026 | MNRE | Limited window to 31 December 2026 for commissioning net-metering and open-access projects |
+| 21 August 2026 | MNRE | 9th Revision of List-II published |
+| 16 September 2026 | MNRE | Latest List-I update published |
 
-## ALMM Compliance in Government Tenders: What EPCs Need to Know
+The 2021 and 2024 to 2026 rows come from the MNRE ALMM page and MNRE current notices. The 2024 and September 2025 rows are as summarised by AZB Partners (2025).
 
-Government tenders for solar installations (whether under PM Surya Ghar vendor empanelment, DISCOM rooftop programmes, KUSUM, or state government solar schemes) treat ALMM compliance as a pass-or-fail technical criterion, not a scoring criterion. A bid that specifies non-ALMM products is rejected outright, not penalised with lower marks.
+Note the gap between publication and obligation. List-II first appeared on 31 July 2025, but sourcing cells from it only became mandatory on 1 June 2026. A list can exist for months before it binds anyone.
 
-This has direct implications for how EPCs prepare their bills of quantities and technical specifications for tender submissions. The standard clause in most MNRE-influenced tenders reads to the effect that all solar PV modules must conform to the ALMM Phase I approved list and all inverters must conform to the ALMM Phase III approved list in force on the date of bid submission.
+## Which projects ALMM applies to, and which are exempt
 
-Three practical obligations follow from this language:
+MNRE's ALMM page states that only List-I models and manufacturers "are eligible for use in Government Projects/ Government assisted Projects/ Projects under Government Schemes & Programmes/ Open Access / Net-Metering Projects" (2026). That wording is the test. Read your own project against it before reading anything else.
 
-- **Approved vendor lists for tender purposes**: Maintain an internal approved vendor list for modules and inverters that is explicitly anchored to current ALMM status. Review this list monthly. Remove any products that have been delisted; add newly approved models from manufacturers you already work with.
+In practice that pulls in a wide set. Central tenders, state programmes, PM-KUSUM and rooftop schemes carry the condition, according to AZB Partners (2025). If your customer is claiming central financial assistance under the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/), the module on the roof has to clear List-I.
 
-- **Tender specification language**: When writing your technical specification for a tender response, name both the manufacturer and the model, and explicitly reference the ALMM entry: "Inverter: [Manufacturer], Model [XXX], ALMM Phase III listed as per MNRE notification dated [date]." This demonstrates due diligence and reduces the risk of a technical evaluation query.
+Open access and net metering were folded in by a later expansion. That is why a private commercial rooftop with a net-metering connection is covered even though no subsidy is involved.
 
-- **Substitution provisions**: Many multi-year government contracts include provisions for product substitution if an approved product is discontinued or delisted. Understand these provisions before signing. They typically require MNRE-notified alternatives of equivalent or superior specification, and the substitution must be approved by the tendering authority before procurement.
+The carve-outs reported by AZB Partners (2025) include:
 
-For EPC teams managing multiple concurrent government project contracts, a formal ALMM compliance register (tracking which projects use which listed products, with ALMM verification dates and responsible team members) is not an administrative luxury. It is the minimum documentation standard that DISCOMs and government auditors expect to see. Larger EPCs running MW-scale tender portfolios across multiple sites often pair this register with dedicated MW-scale EPC project management consultancy to keep compliance, procurement, and site scheduling synchronised.
+- Projects that applied before 1 October 2022, under the open access and net-metering expansion.
+- Projects commissioned up to 31 March 2024, during the FY 2023-24 relaxation that was lifted on 29 March 2024.
+- Behind-the-meter plants used purely for captive consumption, which MNRE clarified sit outside both List-I and List-II.
 
-The [solar EPC India](/blog/solar-epc-india/) post covers broader EPC business operations, and the [inverter procurement guide](/blog/inverter-procurement-india/) addresses the full procurement framework for inverter selection beyond ALMM, including warranty evaluation and supply chain risk assessment.
+The cell requirement carries its own cut-off. Projects with a last bid submission date on or before 31 August 2025 were exempted from List-II, while still needing List-I modules. That is per the updated FAQs of 23 September 2025, as summarised by AZB Partners (2025).
 
-## What Happens When a Product Gets Delisted
+These boundaries move. MNRE has issued clarifications on rooftop solar on government buildings and on the "Give it Up" category under PM Surya Ghar, both listed on the ALMM page. Confirm your category from the connection agreement, never from a sales proposal.
 
-Product delistings happen more frequently than EPCs typically expect. MNRE issues delisting notifications when a manufacturer fails a quality audit, cannot demonstrate origin compliance, is found to be re-labelling imported material, or voluntarily withdraws their listing. The notification is published in the official gazette and takes immediate effect from the notification date.
+## How a manufacturer gets on the list
 
-Understanding exactly what delisting means (and what it does not mean) prevents unnecessary project disruption.
+Enlistment is granted per factory and per model. A manufacturer files an application with type test reports, factory audit material and quality control documentation, according to AZB Partners (2025). BIS certification is a prerequisite, so a model without BIS cannot be listed at all.
 
-**What delisting does NOT mean for already-commissioned projects:**
+Because the grant is model-specific, a change to the bill of materials or the manufacturing process usually triggers re-validation. That is why the list churns: models are added, amended and removed at every revision.
 
-Systems that have already passed DISCOM commissioning inspection and are connected to the grid under a valid net-metering or PM Surya Ghar approval are grandfathered. The subsidy already disbursed is not recoverable by MNRE. The net-metering connection already established is not revoked. Your client's already-commissioned system continues to operate normally under the approved installation.
+MNRE has reduced the friction. Enlistment fees were cut by up to 80%, validity was extended from 2 years to 4 years, and provisional enlistment with time-bound processing was introduced, according to AZB Partners (2025).
 
-**What delisting DOES mean for in-progress and future projects:**
+A recent List-I entry shows the granularity. MNRE added **Havells India Limited** to ALMM List-I on 6 July 2026, for its Surat facility, with 1,221 MW of enlisted capacity and validity to 5 July 2030. One legal entity, one plant, one capacity figure, one expiry date. A quotation reading "Havells is ALMM approved" has not established that the offered model sits inside that entry.
 
-Any purchase order placed after the delisting date cannot use that product for new subsidy-eligible installations or government-tender projects. If you have materials on-site that arrived before the delisting date but commissioning has not yet taken place, the situation is more complex, some DISCOMs accept the delivery date as the relevant compliance date; others use the commissioning date. Document your delivery receipts carefully.
+## DCR and ALMM answer different questions
 
-For products in your warehouse or in transit at the time of delisting, work with the DISCOM before the commissioning inspection to clarify their interpretation. Do not assume; get written confirmation of the DISCOM's position.
+These two get merged constantly, and they fail differently. ALMM asks whether the model is enlisted. Domestic Content Requirement, or **DCR**, asks where the cells and modules were physically manufactured.
 
-**How to protect your EPC business from delisting events:**
-
-- Diversify your approved vendor list to include two or three ALMM-listed alternatives for each product category. If your primary module supplier is delisted, you have a pre-qualified substitute ready to order.
-- Monitor MNRE gazette notifications. These are published on mnre.gov.in and relevant MNRE official channels. Several industry publications including [Mercom India](https://www.mercomindia.com/) and [Saur Energy](https://www.saurenergy.com/) track and report ALMM changes.
-- Include the procurement-order ALMM clause described in the 5-Check Protocol above. This shifts financial liability to the supplier in the event of a delisting between order and delivery.
-
-| Scenario | Subsidy Impact | Action Required |
+| | ALMM | DCR |
 | --- | --- | --- |
-| Product delisted - system already commissioned | None - grandfathered | No action needed |
-| Product delisted - materials on-site, not yet commissioned | Risk of rejection | Clarify with DISCOM in writing before inspection |
-| Product delisted - purchase order not yet placed | Full loss of subsidy if used | Source listed alternative immediately |
-| Product delisted - mid-project, tender contract | Potential contract breach | Invoke substitution clause; notify tendering authority |
+| Question it answers | Is this exact model enlisted? | Were the cell and module made in India? |
+| Instrument | ALMM Order, 2019 (MNRE) | A condition inside a specific MNRE scheme |
+| Scope | Modules (List-I), cells (List-II) | Cells and modules under that scheme |
+| Evidence | Entry in the current list PDF | Scheme-prescribed origin documentation |
+| Consequence of breach | Model ineligible for the project | Criminal action, blacklisting, bank guarantee forfeiture |
 
-## ALMM and PM Surya Ghar: The Subsidy Connection Every EPC Must Understand
+The breach column comes from AZB Partners (2025). It reports DCR consequences including a 10-year blacklisting of the developer and forfeiture of the bank guarantee. The reference given is Section 316 of the Bharatiya Nyaya Sanhita, 2023.
 
-The PM Surya Ghar Muft Bijli Yojana is the largest rooftop solar subsidy programme India has ever run. The central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the third kW (capping at ₹78,000 for a 3 kW system) represents a significant portion of [system cost](/blog/gst-on-solar-inverters-2026/) for residential buyers. For EPCs, subsidy eligibility is the primary commercial differentiator: a customer who qualifies for the subsidy has a meaningfully better return on investment, a shorter payback period, and a stronger reason to sign the contract.
+A model can be on List-I and still fail a DCR condition. Passing one check does not close the other. Run them as two separate lines in the procurement file, with two separate owners.
 
-The ALMM requirement sits at the centre of this subsidy mechanism. The PM Surya Ghar portal and the DISCOM commissioning inspection process both check ALMM status before subsidy disbursement is triggered. This is not a post-hoc audit, the DISCOM technical feasibility officer will ask about the proposed equipment at the pre-approval stage, and the commissioning officer will verify equipment ALMM status during the site inspection.
+## The cell bottleneck List-II created
 
-For EPCs who are also empanelled vendors under the PM Surya Ghar programme (a separate empanelment process that gives EPCs the right to install on behalf of subsidy applicants) ALMM compliance is additionally a condition of continued empanelment. An empanelled EPC who installs non-ALMM equipment faces not only the rejection of that specific project's subsidy, but potential suspension of their empanelled vendor status across all PM Surya Ghar projects.
+List-II is harder to satisfy than List-I for a structural reason. India assembles far more modules than it makes cells, so a cell-level rule constrains a much narrower base.
 
-The linkage between ALMM status, [net metering](/glossary/net-metering/) approval, and subsidy disbursement means that the three compliance checks happen sequentially in the project lifecycle:
+List-I launched in March 2021 with about 8.2 GW enlisted. By August 2025 it carried over 100 GW of annual module capacity across more than 100 manufacturers, according to AZB Partners (2025). Cell capacity did not grow on that curve. Industry estimates put approved module capacity near 193 GW against roughly 30 GW of enlisted cell capacity, according to Mercom India (2026).
 
-1. [DISCOM technical feasibility approval](/blog/how-to-apply-net-metering-india/) (verifies proposed ALMM-listed equipment before installation)
-2. Commissioning inspection (verifies installed equipment matches approved list and ALMM status)
-3. Subsidy disbursement (triggered only after step 2 is passed)
+The market responded exactly as a supply squeeze predicts. Mercom India reported on 17 February 2026 that developers asked MNRE to consider a time-bound extension, citing a shortage of TOPCon cell supply and a price rise. [TOPCon](/glossary/topcon-cell/) is the dominant cell technology in current module production, which is why the pinch showed up there first.
 
-A miss at step 1 delays the project. A miss at step 2 means reinstallation or equipment change. A miss discovered after step 2 creates the most complex situation, where the client has already paid for the installation but the subsidy will not disburse.
+MNRE held the line. It refused a blanket extension on 25 May 2026, then allowed a limited commissioning window to 31 December 2026 for net-metering and open-access projects on 18 July 2026.
 
-For a detailed breakdown of the complete PM Surya Ghar application process and how ALMM fits into each step, the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the full workflow with state-level variations. For understanding how inverters function within the overall system (relevant when advising clients on technology choices) [how a solar inverter works](/blog/how-does-a-solar-inverter-work/) provides the technical foundation.
+**Worked example: sizing the exposure, not predicting a price.** Assume a 500 kWp commercial rooftop, and assume a compliant-module premium of ₹2.00 per Wp. The premium here is an assumed input for the arithmetic, not a quoted market figure.
 
-## Insurance, Bankability, and ALMM Compliance
+1. Array size in Wp: 500 kWp × 1,000 = 500,000 Wp.
+2. Premium exposure: 500,000 Wp × ₹2.00 = ₹10,00,000.
+3. As a share of an assumed ₹2.75 crore project cost: ₹10,00,000 / ₹2,75,00,000 = 3.6%.
+4. Substitute your own quoted delta and your own project cost. The formula, not the number, is the takeaway.
 
-Beyond subsidy eligibility, ALMM compliance increasingly appears in two other commercial contexts that EPC businesses encounter as the market matures: solar project insurance and project finance or RESCO arrangements.
+The point of the calculation is that a cell-sourcing decision is a line item you can size in advance. Ask for two quotes, one compliant and one not, and price the compliance gap explicitly. The wider duty and domestic-manufacturing picture is covered in the guide on [import duty on solar equipment](/blog/bcd-import-duty-solar-inverters-india/).
 
-**Insurance implications:**
+## What an inverter buyer should check instead of ALMM
 
-Solar project insurers in India (both for residential extended warranties and commercial installation insurance) have begun incorporating ALMM compliance as a condition of policy validity. The reasoning mirrors the subsidy logic: equipment on the ALMM list has passed specified testing benchmarks and origin declarations, providing insurers with a minimum quality assurance basis. Policies that cover non-ALMM equipment may be technically valid but carry a higher premium, or may have clauses that void coverage if the non-listed status contributed to the loss event.
+Since no ALMM inverter list exists, asking for one wastes a procurement cycle. Ask for the documents that do govern inverters. There are three families, and they answer different questions.
 
-For EPCs who offer extended warranty packages or who are themselves responsible for system performance under EPC contracts, using ALMM-listed equipment reduces insurance cost and simplifies claims processing.
+**Product standards.** Match the exact model to the applicable Indian Standards. IS 16221 (Part 2):2015, which adopts IEC 62109-2:2011, covers inverter safety. IS 16169:2019, which adopts IEC 62116:2014, covers the islanding prevention test procedure. A certificate is only useful if the model code and the standard edition both match.
 
-**Bankability and project finance:**
+**BIS registration.** The governing instrument is MNRE's Solar Systems, Devices and Components Goods (Requirements for Compulsory Registration) Order, 2025, notified 27 January 2025. It places solar equipment under compulsory registration with the Bureau of Indian Standards. Ask for the registration number against the exact model, and check the [BIS certification](/glossary/bis-certification/) scope rather than accepting a generic line.
 
-For commercial and industrial solar projects above 100 kW where the buyer is financing the installation through a solar loan, RESCO arrangement, or lease model, the financing entity's technical due diligence process checks equipment specifications. ALMM-listed inverters from recognised manufacturers pass this due diligence straightforwardly. Non-listed equipment (even from technically capable manufacturers) requires additional documentation and may result in a higher cost of capital or outright financing rejection.
+**Grid interface and DISCOM acceptance.** Trip behaviour is set by the Central Electricity Authority (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013, amended 6 February 2019. Regulation 11(6) requires tripping above 110% or below 80% of nominal voltage, and at 50.5 Hz and above or 47.5 Hz and below. The same regulation permits a [DISCOM](/glossary/discom/) to prescribe a narrower range, so the utility list still governs.
 
-EPCs bidding on C&I projects for buyers who intend to use project finance should treat ALMM compliance as a bankability requirement on par with IEC certification, not merely as a government scheme condition. Running the numbers through a dedicated [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) before submission helps EPCs pre-empt the lender's bankability questions rather than answer them after a term sheet stalls.
+MNRE does impose inverter-specific obligations outside ALMM. Its notice of 17 August 2026 concerns compliance with guidelines on inverter-level generation data and storage of inverter-level data for rooftop solar systems, per MNRE current notices. That is a data requirement, not a listing.
 
-The [inverter TCO](/blog/inverter-tco/) post covers the full cost-of-ownership framework that C&I buyers apply, including financing costs and how equipment certification status affects capital access.
+A generic "BIS and IEC compliant" sentence is not evidence. Match each certificate to the certificate holder, the exact model or declared family, the standard and edition, the issue and validity dates, the issuing body, and the specific project requirement it satisfies. The [inverter regulations guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) sets out that matching process.
 
-> India's rooftop solar installed capacity crossed 17 GW in early 2026, with PM Surya Ghar contributing an accelerating share of residential additions. The programme's ALMM requirement effectively ensures that this entire capacity base uses equipment meeting the minimum declared-origin and quality standards. *Source - [JMK Research India Rooftop Solar Market Tracker](https://jmkresearch.com/), Q1 2026.*
+That rule applies to our own products too. Qbits states it is ALMM Phase III listed in its own site copy. MNRE's published ALMM lists cover solar PV modules and solar PV cells rather than inverters, and no MNRE ALMM instrument we could locate uses the word "Phase". We are not resolving that gap by asserting anything MNRE has not published.
 
-## Qbits ALMM Listing: What It Means for Your Approved Vendor List
+So ask for the exact model designation and the standards, BIS registration and grid-interface documents the project requires. Start with the [product range](/our-products/), then request the current certificate set for that model in writing. Missing evidence stays not established until a document arrives. For the array side, the [string sizing calculator](/string-sizing-calculator/) carries current module datasheet parameters, which is where module selection and inverter window checks meet.
 
-Qbits inverters carry ALMM Phase III listing, which means they meet the MNRE compliance requirements for use in PM Surya Ghar residential installations, government-tendered projects, and DISCOM-approved systems. For EPCs building or updating their approved vendor list, ALMM Phase III status is the first filter, and Qbits passes it.
+## How to verify an ALMM claim in eight steps
 
-The practical implication goes beyond the ALMM checkbox. ALMM Phase III listing combined with the 12-year full replacement warranty means that when an EPC specifies Qbits for a residential project, they are delivering both subsidy eligibility and the longest warranty coverage in the market to the end customer. These two properties address the two most common post-installation concerns an EPC receives: "Will my client's subsidy be approved?" and "What happens if the inverter fails after five years?"
+Treat verification as a record you can hand to an auditor, not a conversation you had with a supplier.
 
-Qbits' IP66 weather protection exceeds the IP65 floor that most listed inverters provide, which matters in coastal states, high-humidity zones, and the full monsoon cycle that inverters face in West Bengal, Kerala, and Goa. The India-grid-tuned firmware (designed for the 180–270 V voltage band of actual Indian grid conditions) reduces trip events that cause generation loss and customer support calls.
+1. Open the current List-I or List-II PDF from the MNRE ALMM page on the day you check.
+2. Note the revision number and date of the document you opened.
+3. Read the order or notice that applies to your project category and bid date.
+4. Match the manufacturer's exact legal entity name, not the trading brand.
+5. Match the factory location, because enlistment is granted per factory.
+6. Match the full model code character by character, and check the enlisted capacity and validity expiry.
+7. Compare the delivered module label and the quotation against that same model code.
+8. Recheck before commissioning if the project timeline is long, and file the dated PDF.
 
-For EPC pricing contexts, the [solar inverter pricing strategies for EPCs](/blog/inverter-tco/) post addresses how ALMM status and warranty depth translate into margin protection and customer retention. The [top inverter vendors in India](/blog/inverter-suppliers-india/) post benchmarks the competitive landscape across technical and commercial dimensions.
+If any step fails, record the status as not established and obtain written confirmation from the scheme, tender or DISCOM authority. A seller's assurance is not an approval. For subsidised residential work, the [empanelled vendor checks](/blog/empanelled-vendor-pm-surya-ghar/) sit alongside this file, not inside it. On the equipment side, the [inverter procurement guide](/blog/inverter-procurement-india/) covers what to ask for and when.
 
-## Where Qbits Fits in Your ALMM-Compliant Project Portfolio
+## Common ALMM misconceptions
 
-EPCs who need ALMM Phase III compliant inverters without compromising on warranty depth or India-specific service find Qbits at the intersection of these requirements. The TLS and TLD on-grid series and the HS and HT hybrid series are all ALMM Phase III listed, covering the 1.5 kW to 100 kW range that spans residential through small commercial projects.
+| Misconception | The verified position |
+| --- | --- |
+| "Inverters must be on ALMM List-II." | List-II is a solar PV cell list. MNRE publishes no inverter list at all (MNRE ALMM page, 2026). |
+| "ALMM Phase III is the inverter phase." | No MNRE ALMM instrument uses "Phase". The only proposed third tier is for wafers (AZB Partners, 2025). |
+| "My brand is ALMM approved, so my module qualifies." | Listings are per factory and per model. Brand-level matching proves nothing (MNRE ALMM page, 2026). |
+| "List-I clearance is the whole module check." | From 1 June 2026, covered projects also need the cells inside to come from List-II (MNRE OM, 9 December 2024). |
+| "ALMM listing means the product is high quality." | Enlistment confirms conditions met on a date. BIS certification is a prerequisite, not a result (AZB Partners, 2025). |
+| "ALMM and DCR are the same requirement." | ALMM asks whether the model is enlisted. DCR asks where it was manufactured (AZB Partners, 2025). |
+| "ALMM applies to every solar project in India." | It applies to government, government-assisted, scheme, open access and net-metering projects. Purely captive behind-the-meter plants are outside it (MNRE ALMM page, 2026; AZB Partners, 2025). |
+| "The list I downloaded last quarter is fine." | List-II reached its 9th Revision on 21 August 2026 and List-I was updated on 16 September 2026 (MNRE ALMM page). |
 
-The 12-year full replacement warranty (issued by an India-registered entity) means that your EPC's warranty exposure to customers is backed by a manufacturer commitment rather than a verbal assurance. The <72-hour RMA SLA provides the service response time that keeps customer satisfaction high and reduces the follow-up workload on your field teams.
+## The Bottom Line
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM Phase III listed, subsidy-eligible, IP66 rated, and covered by the 12-year full replacement warranty.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery interface and automatic backup switchover; ALMM Phase III listed and suitable for PM Surya Ghar hybrid-system installations where battery subsidy expansion applies.
-- **[Best Solar Inverter in India 2026](/blog/best-solar-inverter-india/)**: independent 5-axis review placing Qbits at position three for overall value, warrany depth, and India-specific fit.
-- **[How a Solar Inverter Works](/blog/how-does-a-solar-inverter-work/)**: technical explainer to share with clients who want to understand what they are buying before signing.
+ALMM has two published solar tiers and neither one is for inverters. List-I covers modules from 10 March 2021. List-II covers cells from 31 July 2025, binding on covered projects from 1 June 2026. The "Phase III inverter list" is market shorthand with no MNRE instrument behind it, and repeating it costs real procurement time.
 
-When you are ready to add Qbits to your approved vendor list or need ALMM documentation for a specific tender bid, [talk to a Qbits engineer](/contact-us/), project-specific ALMM compliance documentation and warranty term sheets come back within 24 hours.
+The cell requirement is the live constraint. Approved module capacity runs far ahead of enlisted cell capacity, which is why compliant modules are tighter and dearer.
 
-## Common ALMM Compliance Mistakes EPCs Make
-
-Field observation across EPC businesses at different stages of maturity surfaces a consistent set of ALMM compliance errors. These are the most consequential ones, and the ones that the 5-Check Protocol is designed to prevent.
-
-- **Verifying manufacturer approval, not model approval**: The most frequent error. A manufacturer can be ALMM-listed for one wattage band or one model range while a different model from the same company is not approved. Verify the specific model code, not just the brand name.
-
-- **Using a saved or printed ALMM list from a previous project**: The list is updated through MNRE notifications that are not always widely publicised. An ALMM-listed model on the PDF you downloaded three months ago may have been suspended since. Always download a fresh copy on the day you prepare a quote or submit a tender bid.
-
-- **Assuming the ALMM list covers batteries**: As of June 2026, ALMM Phase III does not extend to battery energy storage systems. EPCs who tell clients their battery is "ALMM listed" are providing inaccurate information that may create confusion later when MNRE extends the framework.
-
-- **Not including ALMM clauses in subcontractor agreements**: If your EPC subcontracts installation to a local field team, that team's equipment choices on-site can override your procurement specification if they substitute a component without informing you. Your EPC contract with subcontractors must prohibit equipment substitution without written approval, and must specify ALMM compliance as a condition of final payment.
-
-- **Skipping the pre-commissioning ALMM recheck**: The 48-hour-before-inspection recheck described in the 5-Check Protocol is the last opportunity to catch a delisting event before the DISCOM officer arrives. Skipping this step when the project has been moving smoothly is the scenario most likely to produce a surprise commissioning rejection.
-
-For a broader view of how ALMM compliance fits within the complete EPC regulatory and certification landscape, the [solar inverter certifications](/blog/solar-inverter-certifications/) post covers BIS, IEC, CEA, and ALMM requirements in relation to each other.
-
----
-
-The ALMM list is a living document, not a one-time verification task. EPCs who build ALMM compliance into their standard operating procedures (at the quote stage, at procurement, and at commissioning) eliminate the class of project failure that no amount of field quality can recover from. The 5-Check ALMM Compliance Protocol is the operational translation of that principle.
-
-Qbits' ALMM Phase III listing, combined with the 12-year warranty and India-service infrastructure, provides EPCs with an approved vendor specification that satisfies the subsidy gate, the tender specification requirement, and the warranty-depth expectation of the end customer in a single product decision.
+- Split your compliance file into three lines: module against List-I, cell against List-II, inverter against IS/IEC standards plus BIS registration plus the DISCOM list.
+- Verify by legal entity, factory and full model code, and record the revision date of the list PDF you checked, then recheck before commissioning.
+- Send us the site details, load profile and the exact document list your scheme or DISCOM requires, and [contact Qbits](/contact-us/) for the model-specific evidence set.

@@ -177,4 +177,4 @@ The UAE is a per-utility market and most software is built per country.
 - **Configure by utility.** Credit mechanism, capacity ceiling and expiry are all utility-level properties, not national ones.
 - **Model expiry where it applies.** EtihadWE credits are written off each December, which changes the recommended system size.
 - **Establish the tariff category first.** Abu Dhabi's four to one spread decides whether the project makes sense at all.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a UAE address, or reach the Qbits team [here](/contact-us/) for ECAS-compliant inverter specification.
+

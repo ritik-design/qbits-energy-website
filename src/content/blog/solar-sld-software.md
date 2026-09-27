@@ -134,7 +134,7 @@ The same SLD exports to DXF for the electrical contractor's AutoCAD overlay.
 - **Choose HelioScope** for engineering with limited SLD generation.
 - **Use AutoCAD + manual SLD** only on very specialised projects where the auto-generation does not match the reviewer's preferences.
 
-For most installers in 2026, SurgePV is the [solar design software](https://surgepv.com/) that ships the cleanest auto-SLD workflow. Once the SLD is finalised, the same canvas typically feeds [solar takeoff software](/blog/solar-takeoff-software/) to generate the procurement bill of quantities. The next step is matching the SLD's inverter block to real hardware, EPCs spec'ing [on-grid inverters](/on-grid-inverter/) for the design can [talk to a Qbits engineer](/contact-us/) about datasheet-level compatibility.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 <div class="inline-cta">
 <h3>Ready for auto-SLD on every project?</h3>

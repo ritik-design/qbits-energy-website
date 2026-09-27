@@ -33,6 +33,8 @@ faqs:
     a: "Technically possible है लेकिन PM Surya Ghar subsidy के लिए DISCOM-empanelled vendor से installation mandatory है। DIY installation पर subsidy नहीं मिलेगी। Net metering भी authorized installation require करता है। Professional installation safety, warranty, और subsidy - तीनों ensure करती है।"
 ---
 
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 घर में solar panel लगवाना एक बड़ा decision है (₹1-2 lakh investment, 25 साल का commitment। लेकिन process को समझ लें तो यह बिल्कुल manageable है। इस guide में घर में solar panel लगवाने का पूरा process है) शुरू से अंत तक, हर step detail में।
 
 > **TL;DR**
@@ -40,7 +42,6 @@ faqs:
 > - Physical installation sirf 1-3 din ka kaam hai, lekin poora process (application se subsidy tak) 2-4 mahine leta hai
 > - 3 kW system ki gross cost ₹1.5-2.2 lakh hai, subsidy ke baad net cost ₹72,000-1.07 lakh reh jaati hai
 > - South-facing roof best generation deta hai, north-facing roof mein 30-40% kam generation hota hai
-> - ALMM-listed panels/inverter aur DISCOM-empanelled vendor subsidy aur net metering dono ke liye mandatory hain
 
 > **Process overview।** घर में solar लगवाने के 7 steps हैं: (1) Eligibility और site check, (2) System sizing, (3) PM Surya Ghar application, (4) Vendor selection, (5) Installation, (6) Net metering, (7) Subsidy receipt। Physical installation सिर्फ 1-3 दिन का काम है।
 
@@ -128,7 +129,7 @@ Portal पर आपके district के approved vendors दिखेंग�
 ### The 5-Point Vendor Selection Framework
 
 **Point 1, ALMM Compliance**
-Vendor जो inverter और panels propose करे, ALMM-listed होने चाहिए।
+
 Verify: [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}
 
 **Point 2, Multiple Quotes**
@@ -208,7 +209,7 @@ Net meter active होने से पहले export credit नहीं म
 Net meter install होने के बाद DISCOM inspector आता है:
 
 **Inspection में क्या check होगा:**
-- ALMM-listed panels और inverter (certificates check)
+
 - Installation quality (wiring, earthing, mounting)
 - System working correctly (live generation देखेंगे)
 - Net meter reading baseline
@@ -254,16 +255,14 @@ Solar system install होने के बाद:
 
 ## Qbits Se Solar Kaise Lagwayein
 
-Qbits TLS series on-grid inverters ALMM Phase III listed, IP66, 12-year warranty। Authorized service partners India के major cities और districts में।
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: PM Surya Ghar eligible
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current product families and exact-model documents against the project design and utility requirements.
 - **[Hybrid Inverters](/hybrid-inverter/)**: Power cut areas ke liye
-- **[Authorized Service Partners](/authorized-service-partners/)**: District-wise certified installers
-- **[String Sizing Calculator](/string-sizing-calculator/)**: Exact system size calculate karein
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: Use this as a preliminary screen. A qualified designer must verify the final string, protection and utility design.
 
 According to [IEA India solar data](https://www.iea.org/){target="_blank" rel="noopener"}, residential solar installation cost India में 2020 से 45% कम हुई है - making this the best time to invest।
 
-अपने area में certified vendor और exact system specification के लिए [Qbits engineer से बात करें](/contact-us/), free, no obligation।
+[Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 ## Solar Panel Installation: State-wise Timeline Comparison
 

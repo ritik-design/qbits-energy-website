@@ -34,6 +34,10 @@ faqs:
 featured: false
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।
+
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 Solar लगवाने से पहले हर घर में यही बहस होती है: on grid लें या [off grid](https://www.heavengreenenergy.com/blog/on-grid-vs-off-grid-vs-hybrid-solar-systems-gujarat)? Vendor दो अलग बातें बोलते हैं, YouTube पर तीसरी मिलती है, और decision अटक जाता है। दिक्कत यह है कि ज्यादातर guides यह अंतर सिर्फ technical तरीके से समझाती हैं, जबकि भारत में यह फैसला technical कम और local ज्यादा है। आपके इलाके में रोज कितने घंटे बिजली जाती है, [DISCOM](/glossary/discom/) में net metering मिल रहा है या नहीं, और आप ₹78,000 की central subsidy छोड़ने को तैयार हैं या नहीं, यही तीन बातें जवाब तय करती हैं। इस guide में on-grid, [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) और hybrid तीनों को Indian ground reality के हिसाब से compare किया गया है, cost का हिसाब भी है, और आखिर में साफ हो जाएगा कि आपके घर के लिए कौन सा सही है।
 
 > **TL;DR**
@@ -163,7 +167,7 @@ Hybrid लेने वालों के लिए एक साफ बात 
 
 <div class="inline-cta">
 <h3>Battery चाहिए लेकिन subsidy भी नहीं छोड़नी?</h3>
-<p>Hybrid inverter दोनों देता है। Qbits QBH series आज बिना battery के grid-tied चलती है और आप जब चाहें battery जोड़ सकते हैं, बिना पूरा system बदले।</p>
+
 <a href="/hybrid-inverter/" class="cta-btn">Hybrid Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">ALMM listed, 12 साल की warranty।</p>
 </div>
@@ -209,11 +213,7 @@ Delhi वाले घर के लिए battery insurance है जिसक
 
 **गलती 3: Battery छोटी लगवाकर लंबे backup की उम्मीद।** 5 kWh battery 2 kW load पर करीब 2 घंटे ही चलेगी, 4 घंटे के लिए 10 kWh चाहिए। Quote सस्ता दिखाने के लिए कई vendor battery छोटी कर देते हैं।
 
-**गलती 4: ALMM check न करना।** Subsidy के लिए panel और inverter दोनों का ALMM list में होना जरूरी है। सस्ता non-ALMM inverter लेकर बाद में subsidy अटकना सबसे आम पछतावा है।
-
 ## Qbits Mein Kaun Sa Inverter Aapke Liye Hai
-
-Qbits दोनों categories बनाता है, और दोनों Indian grid के लिए tune की गई हैं, 180 से 270 V input range, IP66 protection और 12 साल की full replacement warranty के साथ।
 
 **On-grid चुना है:** छोटे और मध्यम घरों के लिए QB 1.5KTLS, QB 2.0KTLS, QB 3.0KTLS और QB 3.3KTLS ठीक बैठते हैं। थोड़ा बड़ा load है तो QB 4.0KTLS, QB 4.6KTLS या QB 5KTLS और QB 6KTLS देखिए। पूरी range [on-grid inverter page](/on-grid-inverter/) पर है।
 

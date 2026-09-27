@@ -237,8 +237,6 @@ Grid-forming inverters establish voltage and frequency independently, enabling i
 
 ## Need grid-forming inverter solutions?
 
-QBits Energy supplies hybrid and off-grid inverters with grid-forming capability for backup applications, microgrids and emerging utility BESS across India.
-
 ## Further reading
 
 For how Grid-Forming Inverter plays out in real projects, these guides go deeper:

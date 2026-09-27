@@ -175,4 +175,4 @@ Singapore's software job is helping the customer choose a scheme, not just sizin
 - **Model SCT and ECIS side by side.** The choice affects the return more than most design decisions and the customer cannot make it unaided.
 - **Represent USEP as variable.** Averaging it turns ECIS into a worse fixed scheme and hides the actual trade.
 - **Flag 1 MWac before you cross it.** A full EMA licence adds an estimated three to six months.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Singapore site, or reach the Qbits team [here](/contact-us/) for IEC 62109 compliant inverter specification.
+

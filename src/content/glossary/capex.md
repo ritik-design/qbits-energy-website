@@ -66,6 +66,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is CAPEX
 
 CAPEX, Capital Expenditure, is the total upfront cost of designing, procuring, installing and commissioning a solar PV project. It is one of the two big cost categories in project economics, alongside [OPEX](/glossary/opex/) (operating expenditure). C&I buyers deciding between owning the asset outright or paying for power as a service should see our [CAPEX vs OPEX decision guide](/blog/solar-capex-vs-opex-business-india/) before committing to a structure. For solar specifically, capex dominates the lifecycle cost structure because operating costs are low.
@@ -230,8 +232,6 @@ Track capex against budget through project phases, ideally with dedicated projec
 
 ## Indian market context
 
-Major capex drivers in 2026: ALMM-listed module prices ₹16 to ₹22 per Wp, BIS-certified inverter at ₹3.5 to ₹9 per Wp depending on size, mounting structure costs around ₹4 to ₹6 per Wp.
-
 PLI scheme reduced reliance on imported cells and modules. Domestic capex has stabilised.
 
 [PM Surya Ghar subsidy](/blog/solar-inverter-with-subsidy-pm-surya-ghar/) effectively halves residential capex for systems up to 3 kW.
@@ -244,7 +244,7 @@ Major Indian EPCs publish typical capex bands for tender comparison.
 |---|---|
 | CERC benchmark capex methodology | Tariff order basis |
 | MNRE technical specifications | Component requirements |
-| ALMM | Module and inverter eligibility |
+
 | BIS certification | Quality compliance |
 | GST and customs frameworks | Tax components |
 
@@ -267,8 +267,6 @@ Using outdated capex assumptions in financial models.
 CAPEX is the upfront cost of building a solar project. Indian utility-scale capex sits at ₹3.5 to ₹4.5 crore per MW (₹35 to ₹45 per Wp). C&I rooftop at ₹35 to ₹55 per Wp. Residential rooftop ranges ₹40 to ₹70 per Wp pre-subsidy, dropping to ₹10 to ₹30 post PM Surya Ghar. Capex has fallen 70+ percent since 2012 and has stabilised. Module, inverter, structure and labour are the four major components.
 
 ## Need accurate solar capex estimation?
-
-QBits Energy provides detailed capex modelling for utility, C&I and residential solar projects with current Indian market pricing.
 
 ## Further reading
 

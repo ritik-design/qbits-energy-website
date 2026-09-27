@@ -44,7 +44,7 @@ faqs:
   - q: "Why does MSW damage equipment?"
     a: "The sharp steps in the waveform contain high-frequency harmonics that stress capacitors, magnetics and switching power supplies in modern electronics."
   - q: "Are MSW inverters still sold in India?"
-    a: "Limited to cheap small UPS and budget off-grid. ALMM-listed solar inverters are all pure sine."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Is square wave same as MSW?"
     a: "Square wave is the simplest. MSW adds a zero-voltage step between positive and negative half-cycles."
   - q: "What is the cost difference?"
@@ -66,6 +66,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is modified sine wave
 
 Modified sine wave (MSW), also called quasi-sine or stepped sine, is a low-cost AC output waveform that approximates a true sine wave through a sequence of square-wave steps. The waveform typically rises from zero to a positive flat level, holds, drops to zero, then to a negative flat level, and back to zero. The result looks like a stepped rectangle rather than a smooth curve.
@@ -75,12 +77,8 @@ Modified sine wave (MSW), also called quasi-sine or stepped sine, is a low-cost 
 > - It was the dominant budget inverter output in the 1990s and 2000s before PWM-based pure sine became affordable.
 > - MSW damages modern electronics, PFC power supplies, inverter-controlled ACs and reduces motor life.
 > - It cannot grid-synchronise, so no grid-tie solar inverter produces MSW output.
-> - All ALMM-listed Indian solar inverters are pure sine wave; MSW survives only in budget non-ALMM UPS and off-grid lighting kits.
-> - PM Surya Ghar disbursement requires pure sine, ALMM-listed inverters.
 
 Modified sine wave was the dominant low-cost inverter output in the 1990s and 2000s when [pure sine wave](/glossary/pure-sine-wave/) inverters were expensive. The simpler H-bridge switching topology produced MSW directly without needing high-frequency [PWM](/glossary/pwm/) and output filtering. As power electronics costs fell, pure sine became the affordable default, relegating MSW to budget UPS and cheap [off-grid inverters](/glossary/off-grid-inverter/).
-
-For Indian solar, MSW is essentially obsolete. ALMM-listed inverters are all pure sine wave. The term mainly appears as a warning: customers should avoid MSW inverters because they damage sensitive electronics, reduce motor life and produce excessive heat in connected loads.
 
 ## Why MSW matters
 
@@ -172,15 +170,9 @@ Audible noise on connected loads.
 
 ## Indian market context
 
-ALMM-listed inverters are all pure sine wave.
-
-MSW inverters persist in budget non-ALMM market.
-
 Some legacy home UPS systems still MSW.
 
 Customer education needed to avoid cheap MSW purchases.
-
-[PM Surya Ghar](/glossary/pm-surya-ghar/) disbursement requires pure sine, [ALMM-listed](/glossary/almm-list/) inverters.
 
 ## Common problems
 
@@ -200,8 +192,6 @@ Verify pure sine in purchase orders, whether buying a single inverter or sourcin
 
 Specify THD limit under 5 percent.
 
-Use ALMM-listed inverters for guaranteed pure sine.
-
 ## Standards and certifications
 
 | Standard | Scope |
@@ -209,14 +199,6 @@ Use ALMM-listed inverters for guaranteed pure sine.
 | IEC 62109 | Inverter safety (covers both) |
 | IS 13369 | Solar lantern (limited MSW use) |
 | MNRE standalone PV specs | Pure sine for credible projects |
-
-## Key takeaways
-
-Modified sine wave is a low-cost AC waveform that approximates sine through square-wave steps. It is largely obsolete in modern solar, persisting only in budget UPS and cheap off-grid inverters. THD of 30-50 percent damages modern electronics, motors and appliances. All ALMM-listed Indian solar inverters produce pure sine wave output, the standard for the broader [sine wave inverter](/glossary/sine-wave-inverter/) category. Customers should verify pure sine before purchase and avoid MSW for any modern application.
-
-## Need quality pure sine inverters?
-
-QBits Energy supplies only ALMM-listed pure sine wave solar inverters for residential, C&I and utility solar across India.
 
 ## Further reading
 

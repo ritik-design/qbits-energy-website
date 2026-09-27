@@ -24,7 +24,7 @@ faqs:
   - q: "What is the payback period for a 10kW commercial solar system in India?"
     a: "For a commercial buyer claiming 40% accelerated depreciation, effective payback is 2.5 to 4 years. For a residential buyer with the ₹78,000 PM Surya Ghar subsidy, payback is 5 to 8 years at ₹6 to ₹8 per unit. Commercial tariffs in India (₹8 to ₹12 per unit) shorten payback significantly compared to residential."
   - q: "Which Qbits inverter is recommended for a 10kW solar system?"
-    a: "For a single-phase 10kW on-grid system, the Qbits TLD-10000 (dual-MPPT, 10kW) is recommended. For a three-phase on-grid system, the Qbits TLD-10000-3P (three-phase, 10kW) balances load across all phases. For hybrid capability, the Qbits HT-10000 (three-phase hybrid, 10kW) supports large battery banks and EV charging integration. All three carry the 12-year full replacement warranty, IP66, and ALMM Phase III compliance."
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
   - q: "Is a 10kW solar system single-phase or three-phase?"
     a: "A 10kW residential solar system can be either single-phase or three-phase depending on the home's power connection. Most Indian homes above 5kW load have a three-phase supply. A three-phase 10kW solar inverter distributes generation across all three phases, which improves efficiency and reduces cable losses. Single-phase 10kW inverters are available but are typically used where only a single-phase supply exists. For commercial premises, three-phase is strongly recommended."
   - q: "What is accelerated depreciation for solar in India?"
@@ -32,6 +32,10 @@ faqs:
   - q: "How many solar panels does a 10kW system need?"
     a: "A 10kW solar system requires 17 to 28 solar panels depending on panel wattage. Using 580 Wp TOPCon panels, 18 panels cover approximately 55 square metres of roof area. Using 400 Wp polycrystalline panels, 25 panels need approximately 80 square metres. Most 10kW residential installations use 550–580 Wp monocrystalline panels for the best area efficiency."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 At ₹10,000+ a month in electricity bills, solar stops being a lifestyle choice. It's a financial obligation. A 10kW system is the entry point for large Indian homes (villas, bungalows, farmhouses) and small commercial premises. It generates enough to actually wipe out most of the DISCOM bill.
 
@@ -103,8 +107,6 @@ A three-phase 10kW solar inverter is needed when:
 - You have three-phase equipment (heavy pumps, compressors, three-phase ACs)
 - You want to balance solar generation across all three phases for maximum efficiency
 - You are installing on a commercial premise where phase imbalance penalties apply
-
-The Qbits HT series (hybrid, three-phase) and TLD-3P series (on-grid, three-phase) are designed for these applications. Three-phase inverters cost approximately ₹15,000–₹25,000 more than equivalent single-phase models but are necessary for phase-balanced systems. For a full walkthrough of sizing, THD limits, and net-metering rules at this connection type, see the [three-phase solar inverter buyer's guide](/blog/3-phase-solar-inverter/), and for a side-by-side of how 10kW stacks up against smaller capacities, the [3kW vs 5kW vs 10kW inverter guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) breaks down generation, panel count, and ROI across all three tiers.
 
 ## ITC (Accelerated Depreciation) Benefit for Commercial 10kW Buyers
 
@@ -181,17 +183,14 @@ For comparison with smaller system sizes and their pricing, read the [5kW solar 
 - **Choosing a single-phase inverter for a three-phase home**: This causes phase imbalance and may trigger DISCOM penalties. Confirm your connection type before purchasing.
 - **Skipping structural engineering**: A 20-panel [mounting structure](/glossary/mounting-structure/) on an RCC terrace carries 500+ kg. Get a structural certification from a licensed engineer, firms offering dedicated structural and civil engineering for rooftop solar can provide this as a standalone service. [IRENA's India country report](https://www.irena.org/countries/India) notes that mounting failures are among the top three causes of rooftop solar underperformance in Asia.
 - **Not claiming accelerated depreciation**: Commercial buyers who miss this benefit leave ₹60,000–₹1,10,000 on the table. File with your CA in the same year as installation.
-- **Purchasing a non-ALMM inverter for a residential system**: Forfeits the ₹78,000 PM Surya Ghar subsidy. The [ALMM list guide](/blog/almm-list-phase-iii-guide/) explains how to verify compliance.
+
 - **No shade analysis**: A 10kW system on a partially shaded terrace can underperform a 7kW system by 20%. [Shading analysis](/glossary/shading-analysis/) is non-negotiable at this investment level, and dedicated [shading analysis tools](https://surgepv.com/shadow-analysis/) used by professional designers model tree and structure shadows hour-by-hour across the year rather than relying on a single site visit. [NREL tools for shade analysis](https://www.nrel.gov/pv/system-advisor-model.html) and satellite-based irradiance software are now standard practice for reputable installers in India.
 
 ## Where Qbits Fits
 
-For a 10kW residential villa or small commercial installation, Qbits offers matched SKUs with the longest warranty in the category:
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLD series in single-phase and three-phase from 5kW to 50kW. ALMM Phase III listed, IP66, 12-year full replacement warranty.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HT series (three-phase) for battery-ready villas and commercial premises with backup requirements.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Verify your 10kW panel array and string configuration before installation.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable network for on-site support within 72 hours across 280+ cities.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
 Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone. [Request a 10kW system quote at contact-us](/contact-us/) with your bill and property details.
 

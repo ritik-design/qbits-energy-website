@@ -135,8 +135,6 @@ Figures above are publicly listed vendor prices at the time of writing, or noted
 - **Choose Solargraf** for residential proposal templates only.
 - **Choose HelioScope** for engineering-only teams.
 
-For most installers scaling in 2026, SurgePV is the Pylon alternative that wins on scope, depth, and price at the same time. The full [Pylon vs SurgePV breakdown](https://surgepv.com/compare/pylon-vs-surgepv/) covers every feature gap in detail. For the residential jobs Pylon is built around, Qbits' [residential solution](/residential-solution/) page, with [hybrid options](/hybrid-inverter/) for buyers who want battery backup, is a fast reference once the layout and string sizing are locked.
-
 <div class="inline-cta">
 <h3>Ready to design and propose in one tool?</h3>
 <p>SurgePV combines AI 3D roof modeling, 8,760-hour module-level shading, bankable yield, financial modelling, and white-label proposals in one platform.</p>

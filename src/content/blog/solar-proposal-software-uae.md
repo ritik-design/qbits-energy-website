@@ -163,4 +163,4 @@ A UAE proposal is a document about one utility and one tariff category. Getting 
 
 - **Establish the tariff category before quoting.** Abu Dhabi's four-to-one spread between subsidised and expatriate rates decides whether the project makes sense at all.
 - **Check whether credits expire.** Dubai and Abu Dhabi roll over indefinitely. EtihadWE does not, and that changes the recommended system size.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for IEC-compliant inverter specification.
+

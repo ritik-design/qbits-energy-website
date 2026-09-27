@@ -198,8 +198,6 @@ Plan for a four-to-six week migration that can run alongside live work, and keep
 - **Choose PV*SOL** if Germany-only residential is your full scope.
 - **Choose Aurora Solar** if you are US-residential and have already paid for the upper tier.
 
-For most engineering teams in 2026, the verdict is the same. SurgePV is the PVsyst alternative that wins on browser-first workflow, scope, and per-seat economics at the same time. See the full line-by-line [PVsyst vs SurgePV comparison](https://surgepv.com/compare/pvsyst-vs-surgepv/) for every capability side by side. Once the bankable yield report is signed off, EPCs still need real hardware to hit those P50 numbers. [On-grid](/on-grid-inverter/) or [hybrid](/hybrid-inverter/) inverter selection is worth a direct [conversation with a Qbits engineer](/contact-us/) before the datasheet goes into the model.
-
 <div class="inline-cta">
 <h3>Ready to retire the Windows VM?</h3>
 <p>SurgePV combines AI 3D roof modeling, 8,760-hour module-level shading, bankable P50, P75, and P90 yield reports, financial modelling, and white-label proposals in one browser-based platform, at a fraction of the desktop-tool stack.</p>

@@ -170,4 +170,4 @@ The German software question is about team shape more than tool quality.
 - **Match the licensing model to the team.** Per-workstation licences suit one engineer and become a handover bottleneck at three or more.
 - **Model EEG by category.** Full feed-in and surplus feed-in are different calculations, and system size moves the rate.
 - **Give Mieterstrom real support if you do that work.** Allocating one asset across several tenant loads is not a spreadsheet job at volume.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a German address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

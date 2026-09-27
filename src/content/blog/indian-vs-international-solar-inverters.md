@@ -21,11 +21,11 @@ faqs:
   - q: "How much can I save by choosing Indian inverters over international brands?"
     a: "15-30% lower initial purchase prices for comparable specifications. For a 5 kW residential system: ₹15,000-25,000 in savings. For a 100 kW commercial system: ₹50,000-1,50,000. For a 500 kW commercial system: ₹2,00,000-4,00,000. Beyond the purchase price, Indian sourcing eliminates import duties, reduces logistics costs, removes currency exchange risk, and provides 4-12 weeks faster delivery - all of which compound to total cost savings well beyond the unit price difference."
   - q: "What's the warranty difference between Indian and international inverter brands?"
-    a: "Leading Indian manufacturers like Qbits offer 12-year full replacement warranties as standard, often exceeding international brands which typically offer 5-10 year terms with more exclusions for environmental and grid-related failures. Indian manufacturers also provide service through India-based networks with 24-48 hour response in major markets and 72-96 hour response in tier-2/3 cities - whereas international brands typically rely on local channel partners with slower claim processing times of 7-21 days for warranty resolution."
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
   - q: "When should I still choose international solar inverter brands over Indian?"
     a: "Three specific scenarios: (1) Utility-scale projects above 5 MW where lenders specifically require certain international brands as a financing condition. (2) Premium residential or commercial clients with explicit international brand preferences for brand recognition purposes. (3) Highly specialised technical requirements not yet matched by domestic manufacturers - some advanced grid-forming inverter features, specific battery chemistries, or proprietary monitoring integrations. For 90%+ of Indian residential, commercial, and industrial installations, leading Indian manufacturers offer equal or better value than international alternatives."
   - q: "Are Indian solar inverters certified for export and international standards?"
-    a: "Many leading Indian manufacturers carry CE (European Conformity), UL (USA), TUV (German technical inspection), and IEC certifications in addition to mandatory Indian BIS, ALMM Phase III, and CEA approvals. This international certification footprint enables global export and demonstrates quality parity with international peers under the same testing protocols. The CE and UL certifications are particularly meaningful as they reflect EU and North American safety and performance standards being independently verified."
+    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
   - q: "How does service and support compare between Indian and international brands?"
     a: "Indian manufacturers typically deliver faster, more accessible service due to direct manufacturer presence in India: 24-48 hour first response in major metros, 48-96 hour response in tier-2 cities, and 72-96 hour response in tier-3 and remote locations. Service is provided in local languages through manufacturer-trained engineers. International brands typically operate through channel partners with longer escalation chains, slower spare parts logistics due to import dependency, and English-language-dominant support. For EPCs operating across India, the service network advantage of Indian manufacturers is operationally significant."
   - q: "Do Indian inverters work better in Indian climate conditions?"
@@ -35,6 +35,8 @@ faqs:
   - q: "How does AI WhatsApp monitoring differ from international monitoring platforms?"
     a: "WhatsApp-integrated monitoring is an India-specific innovation that international brands rarely offer. WhatsApp is the dominant communication platform in India - homeowners and EPCs receive real-time generation updates, fault alerts, and predictive maintenance notifications through their existing WhatsApp interface rather than installing a separate app. Combined with AI-powered anomaly detection and India-based servers for data sovereignty, the Indian monitoring approach is operationally aligned with how Indian users actually communicate. International platforms typically require dedicated app installation and use English-dominant interfaces."
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 The Indian solar inverter market has crossed a maturity threshold. Leading domestic manufacturers now match international peers on every meaningful technical metric while offering 15-30% lower prices, superior service networks, and India-specific engineering advantages that international brands struggle to replicate. For EPCs, dealers, and end customers across India in 2026, the calculus has shifted decisively toward domestic manufacturers for the majority of project types.
 
@@ -104,43 +106,28 @@ Leading Indian manufacturers use the same global component supply chain as inter
 
 Beyond the unit price difference:
 
-- **[Eliminated import duties](/blog/bcd-import-duty-solar-inverters-india/)** - basic customs, social welfare surcharge, anti-dumping duty
-- **Reduced logistics expenses** - no ocean freight, no customs clearance, no demurrage risk
-- **Faster delivery** - 2-4 weeks vs 8-16 weeks, reduces project timeline risk
-- **Lower currency exchange risk** - rupee-denominated contracts, no INR-USD/INR-EUR exposure
-- **Local warranty operations** - faster claim processing, lower friction
-- **[GST input credit](/glossary/gst-on-solar/)** - simpler claim on domestic supply
+- Origin can affect duty, freight, currency and lead-time exposure, but the result depends on the legal seller, supply route, inventory and contract.
+- A domestic brand name does not prove domestic manufacture, local stock, faster delivery or a particular tax treatment.
+- Warranty administration and spare-parts availability must be checked for the exact seller and model.
 
-For a typical 100 kW commercial installation, the total cost savings beyond unit price often add another 5-10% on top of the 15-30% upfront discount. EPCs preparing side-by-side quotes for clients can pull Indian and international SKU pricing into a single [quotation and pricing tool](https://quickestimate.co/features/quotation-system/) to make the comparison concrete rather than a verbal claim.
+For a commercial installation, compare dated landed quotes and delivery commitments instead of applying a generic “Indian” or “international” discount. Tax and customs treatment requires invoice-specific advice from a qualified professional.
 
 ## Warranty and Support Infrastructure
 
-| Aspect | Indian (Qbits-class) | International (typical) |
-| --- | --- | --- |
-| **Warranty term** | **12-year full replacement** | 5-10 years (varies) |
-| **Warranty type** | Full replacement standard | Often pro-rated or repair-only |
-| **Exclusions** | Limited, India-condition-aware | Broader (environmental, grid events) |
-| **Service network** | Direct manufacturer presence with regional centres | Through local channel partners |
-| **Tier-2/3 city coverage** | Direct service in 40+ cities | Limited, depends on partner network |
-| **Response time (metros)** | 24-48 hours first response | 48-96 hours typical |
-| **Response time (tier-2)** | 48-96 hours | 5-7 days |
-| **Response time (remote)** | 72-96 hours | 7-14 days |
-| **RMA turnaround** | 72-hour replacement SLA | 7-21 days typical |
-| **Service language** | Local languages | Often English-dominant |
-| **Spare parts availability** | India inventory | Import-dependent |
+| Item | Evidence to compare |
+| --- | --- |
+| Warranty term and remedy | Current written policy for the exact model and sale |
+| Exclusions and owner costs | Labour, removal, freight, reinstallation and environmental exclusions |
+| Claim route | Responsible legal entity, ticket route and escalation process |
+| Local service | Written coverage for the project postcode and named provider |
+| Response and RMA time | Contracted target, exclusions and measurement point |
+| Spare parts | Written availability or stocking commitment |
 
-The warranty differential is the single largest operational advantage of choosing Indian. A [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) vs a 5-year repair warranty changes the entire 25-year economic model - the [honest truth about solar inverter warranty terms](/blog/solar-inverter-warranty/) explains how repair-only and pro-rated clauses erode that advantage on paper.
+The retained Qbits documents describe an expandable warranty but do not establish a universal duration, full-replacement remedy, service footprint or response time. Those items are not established until the Qbits warranty and service owners issue current controlling terms. Apply the same evidence standard to every competing model. The [warranty guide](/blog/solar-inverter-warranty/) explains the comparison.
 
 ## Smart Features and Monitoring
 
-| Feature | Indian (leading) | International |
-| --- | --- | --- |
-| AI-powered monitoring | Yes | Yes |
-| **WhatsApp integration** | **Yes - India innovation** | Rare, usually app-only |
-| India-based servers | Yes (data sovereignty) | Often abroad |
-| Mobile-first design | Smartphone-dominant | App or web varies |
-| Predictive maintenance | Standard | Standard |
-| Fleet dashboards for EPCs | Built for Indian EPC use case | Built for global use case |
+Do not infer monitoring functions from a brand's country of origin. Compare the exact logger, application, communications hardware, alert channels, account ownership, data location, subscription terms and export capability. For Qbits, universal AI, WhatsApp, predictive-maintenance and India-hosting claims are not established under the current published documents and require product plus privacy/cybersecurity review.
 | Multi-language interface | Hindi + regional + English | Often English-dominant |
 | Real-time generation alerts | WhatsApp + app | App only |
 | Service ticket integration | Direct manufacturer support | Through partner network |
@@ -158,7 +145,7 @@ Indian manufacturers design specifically for the conditions international brands
 - **Conformal coating** as standard for monsoon humidity protection
 - **Cyclone-zone validation** for coastal Tamil Nadu, Andhra Pradesh, Odisha installations
 - **High-altitude derating curves** published for Himalayan installations
-- **[ALMM Phase III](/glossary/almm-list/) listing** mandatory for any government-linked project
+- **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify the exact module/cell models and check inverter documents separately.
 
 International brands often retrofit these features for the Indian market; Indian manufacturers design with them as core requirements from the start.
 
@@ -185,8 +172,8 @@ For projects on fixed commissioning timelines, the schedule risk of imported sup
 - Faster delivery requirements (commissioning within 6-8 weeks of order)
 - WhatsApp-native client communication preferences
 - Government-linked projects requiring PM Surya Ghar or PM-KUSUM subsidy
-- Any project where 12-year full replacement warranty is operationally meaningful
-- Commercial buyers using accelerated depreciation (the 12-year warranty aligns with the depreciation window)
+- Any project where model-specific written warranty is operationally meaningful
+- Commercial buyers using accelerated depreciation (the model-specific written warranty aligns with the depreciation window)
 
 ### Consider international brands for
 
@@ -195,10 +182,6 @@ For projects on fixed commissioning timelines, the schedule risk of imported sup
 - Specialised technical requirements not yet matched by domestic manufacturers
 - Multi-country corporate standardisation requirements
 - Specific grid-forming or advanced control features unique to particular international platforms
-
-### Avoid commodity unbranded imports
-
-Regardless of Indian or international origin, avoid commodity imports without verified BIS, ALMM, and IEC certifications, without verified India service presence, and without operational warranty channels. The cost savings rarely justify the warranty exposure. Buying through a verified solar inverter shop with documented sourcing is a simple way to avoid this trap on smaller orders.
 
 ## Key Decision Numbers Summary
 
@@ -215,17 +198,15 @@ Regardless of Indian or international origin, avoid commodity imports without ve
 
 ## Where Qbits Fits
 
-Qbits Energy is positioned as the Indian-manufactured alternative for buyers who would historically have defaulted to international brands:
+Qbits markets inverter families in India. Buyers should confirm the manufacturer of record, country of origin, exact SKU, certificates, warranty provider, and service entity in the current sale documents before comparing it with an international brand.
 
-- **98% peak efficiency** with 97%+ weighted - matches international tier-1 performance
-- **German-grade components** - Infineon IGBTs, Japanese capacitors from the same suppliers as international brands
-- **IP66 weather protection** per IEC 60529 - validated for full Indian climate range
-- **12-year full replacement warranty** - the longest in the Indian market, exceeding most international offerings
-- **AI WhatsApp monitoring** - India-specific innovation that international brands rarely match
-- **72-hour RMA SLA** across major markets - service speed that import-dependent brands cannot match
-- **ALMM Phase III listed** - full subsidy and government project eligibility
-- **15-30% pricing advantage** vs comparable international specifications
-- **CE, UL, TUV certifications** in addition to mandatory BIS - demonstrates quality parity with international peers
+- **Electrical performance:** compare the exact efficiency metric, PV limits, MPPT layout and derating data in current datasheets.
+- **Components and origin:** manufacturer of record, component brands and country of origin are not established unless stated in controlling sale or quality documents.
+- **Environmental rating:** verify the exact enclosure and operating limits; an IP rating alone does not establish climate suitability or service life.
+- **Warranty and service:** universal duration, remedy, RMA timing and geographic coverage are not established until supplied in writing.
+- **Monitoring and data:** confirm the exact logger, alerts, account ownership, data location and subscription terms.
+- **Compliance and scheme fit:** match exact certificates and project requirements. ALMM is not an inverter list.
+- **Price:** obtain dated, like-for-like quotes. No universal Qbits price advantage is established.
 
 Related guides:
 
@@ -236,7 +217,7 @@ Related guides:
 - **[Solar Inverter Depreciation in India](/blog/solar-inverter-depreciation-in-india/)** - commercial financial framework
 - **[Essential vs Advanced Solar Inverter Features India](/blog/essential-vs-advanced-solar-inverter-features/)** - feature framework
 
-For a side-by-side comparison of Qbits vs specific international brands you are evaluating, [talk to a Qbits engineer](/contact-us/) - the team can provide a structured technical and commercial comparison within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ## Closing
 

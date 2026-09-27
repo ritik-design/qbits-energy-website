@@ -1,241 +1,286 @@
 ---
-title: "India Solar Statistics 2026, Complete Data Reference"
-excerpt: "India solar statistics 2026: 100+ GW total installed capacity, 13.9 GW rooftop, PM Surya Ghar crossing 10 million connections. Complete data reference for capacity, investment, jobs, and 2030 targets."
-description: "Complete India solar statistics for 2026: total capacity, rooftop breakdown, PM Surya Ghar progress, state rankings, investment figures, and 2030 targets."
+title: 'India Solar Statistics 2026: Capacity, Rooftop and Growth'
+excerpt: "India solar statistics 2026: 168.04 GW installed at 31 August 2026, state tables, generation, CUF and manufacturing, every figure dated."
+description: "MNRE reported 168.04 GW of installed solar capacity at 31 August 2026. State-wise tables, generation, capacity utilisation factor, manufacturing and tariffs, each with a dated source."
 category: Industry
 date: 2026-06-05
-updatedDate: 2026-07-08
-readTime: "22 min"
-image: "/blog-images/solar-inverter-manufacturers-in-india.svg"
-author: "Nirav Dhanani"
+updatedDate: 2026-09-24
+readTime: "12 min"
+image: /blog-images/solar-inverter-manufacturers-in-india.svg
+author: Nirav Dhanani
 keywords:
-  - india solar statistics 2026
-  - india solar capacity 2026
-  - india rooftop solar data 2026
-  - pm surya ghar statistics
-  - india solar energy data
+- india solar statistics 2026
+- solar installed capacity in india 2026
+- india rooftop solar capacity 2026
+- india solar energy data
+- mnre solar capacity
 faqs:
-  - q: "What is India's total solar installed capacity as of 2026?"
-    a: "As of March 2026, India's cumulative solar installed capacity (utility-scale and rooftop combined) has crossed approximately 100 GW, making it the world's fourth-largest solar market. Utility-scale ground-mounted capacity accounts for roughly 83–87 GW of this total, with rooftop solar contributing approximately 13.9 GW. India added approximately 24–26 GW of new solar capacity in 2025, the highest single-year addition in the country's history. The data is sourced from MNRE monthly capacity addition reports and JMK Research tracking."
-  - q: "How much rooftop solar capacity has India installed?"
-    a: "India's cumulative rooftop solar capacity reached approximately 13.9 GW as of early 2026, according to MNRE data. Of this, residential rooftop installations (below 10 kW per system) account for an increasing share following the PM Surya Ghar Muft Bijli Yojana launch in February 2024. Commercial and industrial (C&I) rooftop installations have historically dominated the segment. Under PM Surya Ghar, the government targeted 10 million residential connections with subsidised systems, with sanctioned connections exceeding 7 million as of early 2026."
-  - q: "What is India's solar target for 2030?"
-    a: "India has committed to installing 500 GW of non-fossil fuel power capacity by 2030, of which solar is expected to contribute approximately 280–300 GW. As of early 2026, India has crossed 100 GW of total solar and needs to add approximately 180–200 GW more in the remaining four years to meet the solar component of the 2030 target - requiring annual additions of 45–50 GW per year, significantly above the 24–26 GW added in 2025. India's 500 GW commitment was made at COP26 and subsequently updated in India's Nationally Determined Contribution (NDC) submission."
-  - q: "How many jobs has India's solar sector created?"
-    a: "India's solar sector employed approximately 240,000–280,000 people directly as of 2025, with the broader clean energy sector supporting over 900,000 jobs including indirect and induced employment, according to IRENA's Renewable Energy and Jobs Annual Review. Direct solar jobs include manufacturing (module, inverter, BOS components), installation (EPC workers, roofers, electricians), and operations and maintenance. India has set a target of 500,000 additional clean energy jobs by 2030 under the National Green Hydrogen Mission and related programmes."
-  - q: "Which Indian states have the most solar capacity?"
-    a: "As of early 2026, Rajasthan leads India's solar capacity rankings with approximately 20–22 GW installed, followed by Gujarat (approximately 12–14 GW), Karnataka (approximately 10–12 GW), Tamil Nadu (approximately 9–11 GW), and Andhra Pradesh (approximately 8–10 GW). These five states together account for approximately 60% of India's total solar installed base. For rooftop solar specifically, Gujarat leads with the highest number of PM Surya Ghar connections, supported by strong DISCOM infrastructure and favourable state policy."
-  - q: "What is the PM Surya Ghar scheme's current progress?"
-    a: "PM Surya Ghar Muft Bijli Yojana, launched in February 2024 with a budget of ₹75,021 crore, targets 10 million residential solar connections with central subsidies of up to ₹78,000 per household for 3 kW systems. As of early 2026, applications received exceeded 12 million, sanctioned connections surpassed 7 million, and physical installations completed were approximately 3–4 million. The gap between sanctions and completions reflects installer capacity constraints, DISCOM approval delays, and consumer financing challenges at the household level."
-  - q: "How much has India invested in solar energy?"
-    a: "India attracted approximately USD 8–10 billion in solar sector investment in 2025 alone, including equity, debt, and foreign direct investment across utility-scale projects, manufacturing, and distribution. Cumulative investment in India's solar sector since 2010 is estimated to exceed USD 50 billion. The government has additionally committed ₹75,021 crore (approximately USD 9 billion) for PM Surya Ghar subsidies over the scheme period. According to Mercom India, utility-scale solar power purchase agreement (PPA) prices have fallen to ₹2.35–₹2.65 per kWh in competitive auctions as of 2025."
-  - q: "What share of India's electricity comes from solar?"
-    a: "Solar energy contributed approximately 7–8% of India's total electricity generation in 2025, up from less than 1% in 2015. Including all renewable sources (wind, hydro, biomass, and solar), India's renewable electricity share reached approximately 23–25% in 2025. As India crosses 100 GW of solar installed capacity, the share will continue growing - the government's modelling projects solar reaching 15–18% of electricity generation by 2030. These figures are sourced from CERC annual reports and Ember's Global Electricity Review."
+- q: How much solar power capacity does India have in 2026?
+  a: "MNRE's Physical Progress table reports 168,040.05 MW, or 168.04 GW, of cumulative installed solar capacity as at 31 August 2026. That total is made up of 123.99 GW ground-mounted, 32.59 GW grid-connected rooftop, 4.83 GW of solar inside hybrid projects, and 6.63 GW off-grid. The Central Electricity Authority carries the same 168,040.05 MW figure in its Installed Capacity report for the same date. Capacity figures move by roughly 3 GW a month, so always check the live MNRE table for a newer month before reusing this number."
+- q: What share of India's electricity capacity is solar?
+  a: "Solar was 30.30% of India's total installed electricity generating capacity of 5,54,544 MW as at 31 August 2026, according to the Central Electricity Authority's monthly Installed Capacity report. CEA prints that percentage itself, so it does not have to be calculated. Note that this is a share of power capacity, not of electricity delivered. Solar's share of actual generation in 2025-26 was far lower, at roughly 9.5%."
+- q: How much electricity did India's solar fleet actually generate?
+  a: "India's solar plants generated 174.76 billion units (BU) during 2025-26, according to Central Electricity Authority data reproduced in MNRE's Renewable Energy Statistics 2025-26. That was up from 144.15 BU in 2024-25 and 7.45 BU in 2015-16. Against India's total generation of 1,840.11 BU in 2025-26, solar supplied about 9.5%. Solar was the single largest source within the wind, solar, small hydro and bio-power group, at 56.27% of that group's output."
+- q: Why is India's solar capacity share so much higher than its generation share?
+  a: "A gigawatt of solar capacity only produces for the part of the day when the sun is on the modules, so its capacity utilisation factor sits in the mid to high teens. Coal and nuclear plants run far more hours per year. That is why solar can be 30.30% of installed capacity and still supply only about 9.5% of generation. Anyone comparing a solar plant with a thermal plant on nameplate capacity alone will overstate the solar contribution by roughly three times."
+- q: How much rooftop solar capacity has India installed?
+  a: "MNRE reports 32,595.64 MW, or 32.59 GW, of grid-connected rooftop solar as at 31 August 2026, which is 19.4% of the national solar total. That had grown from 25,727.65 MW at 31 March 2026 and 23.16 GW at 31 December 2025. Rooftop is therefore adding capacity faster than its share of the stock suggests. Between 1 April and 31 August 2026 it took 38.6% of all new solar capacity."
+- q: Which Indian state has the most installed solar capacity?
+  a: "Rajasthan led with 44,370.37 MW of total solar capacity as at 31 August 2026, followed by Gujarat at 34,879.88 MW and Maharashtra at 20,398.93 MW, per MNRE's state-wise renewable capacity report. Rajasthan and Gujarat together held 47.2% of the national total. The ranking changes completely for rooftop alone, where Gujarat leads with 8,146.70 MW and Rajasthan is third behind Maharashtra."
+- q: How is PM Surya Ghar progressing against its one crore household target?
+  a: "MNRE's Annual Report 2025-26 records 26.05 lakh households with rooftop solar installed under PM Surya Ghar Muft Bijli Yojana as on 31 December 2025, against 55.62 lakh applications submitted on the National Portal. A March 2026 MNRE update puts 26.21 lakh rooftop systems and 9.56 GW installed, benefiting 32.4 lakh households, as at 20 March 2026. The scheme target is one crore residential households by FY 2026-27 with a total outlay of Rs 75,021 crore. Installations, households and applications are three separate counts, which is why secondary articles often disagree."
+- q: How much solar module and cell manufacturing capacity does India have?
+  a: "MNRE's Annual Report 2025-26 records 137 PV module plants with about 144 GW per annum of capacity enlisted under ALMM List-I, and 12 PV cell plants with about 24 GW per annum enlisted under ALMM List-II, both as on 31 December 2025. A later MNRE parliamentary reply put the ALMM List-I total at 1,72,592 MW for the list dated 1 March 2026. Ingot and wafer capacity stands at around 2 GW, with no commercial polysilicon production in India. These are enlisted figures, not national nameplate output."
+- q: Is there an ALMM list for solar inverters?
+  a: "No. MNRE's ALMM consists of List-I for solar PV modules and List-II for solar PV cells, with a wafer list proposed for a later date. The consolidated ALMM Order contains no inverter provision, and the official ALMM page publishes no inverter list. Inverters are instead covered by the Solar Systems, Devices and Components Goods Order, 2025 through BIS registration. Claims that an inverter must appear on ALMM List-II are incorrect."
+- q: Where can I check these solar statistics myself?
+  a: "Use MNRE's Physical Progress page for the monthly cumulative and state-wise capacity tables, and MNRE's Renewable Energy Statistics publication for the year-on-year series. Use the Central Electricity Authority's Installed Capacity report for the national capacity mix and its Monthly Renewable Energy Generation Report for actual solar output. Use the PM Surya Ghar National Portal for scheme progress and the MNRE ALMM page for module and cell lists. Always copy the 'as at' date along with the number."
+seoTitle: "India Solar Statistics 2026: MNRE and CEA Data"
+relatedSlugs:
+- pm-surya-ghar-yojana-complete-guide
+- solar-irradiance-data-india-statewise
+- solar-inverter-sizing
 ---
 
-India's solar story is one of the most dramatic energy transitions in global history. A country that barely registered on the global solar map in 2010 (with less than 30 MW of installed capacity) has crossed 100 GW of cumulative solar capacity in 2026, making it the fourth-largest solar market in the world behind China, the United States, and Germany. This data reference compiles the most important India solar statistics for 2026 from official sources, research organisations, and government portals, structured for quick citation and reference.
+India's solar numbers get quoted far more often than they get dated. A capacity figure from March turns up in a September article. A nameplate rating gets described as electricity generated. A number from an approved-list page gets reported as national factory output. Each of those is a different quantity, and mixing them produces conclusions that collapse under one follow-up question.
+
+This page gives the published figures with the issuing body and the "as at" date attached to every one, because Indian solar capacity moves by roughly 3 GW a month and an undated number is close to useless.
+
+You get total installed solar capacity and its share of the national mix, the split between utility-scale, rooftop, hybrid and off-grid, a state-wise table, the year-on-year addition trend, actual generation in billion units, a worked capacity utilisation factor calculation, PM Surya Ghar progress against the one crore household target, module and cell manufacturing under the Approved List of Models and Manufacturers and the Production Linked Incentive scheme, the auction tariff record, and India's standing against the rest of the world.
+
+It also says which of these statistics matters to somebody actually buying a system, and which exist mainly to be quoted from a podium. Where a figure could not be traced to a government document, it has been left out and the gap named.
 
 > **TL;DR**
-> - India's total solar installed capacity crossed roughly 100 GW by March 2026, the world's fourth-largest solar market behind China, the US, and Germany.
-> - Rooftop solar accounts for about 13.9 GW of that total, with [PM Surya Ghar](https://www.surgepv.com/blog/solar-energy-india-kusum-pm-surya-ghar) driving the fastest growth in the residential segment.
-> - The solar sector employs 240,000–280,000 people directly and drew USD 8–10 billion in investment in 2025.
-> - Solar generates roughly 7–8% of India's electricity today, versus a targeted 15–18% by 2030.
-> - India needs to add 45–50 GW of solar per year through 2030 to hit its 280–300 GW target, nearly double the 24–26 GW added in 2025.
+> - India had **168,040.05 MW**, or 168.04 GW, of cumulative installed solar capacity as at 31 August 2026, per MNRE's Physical Progress table.
+> - Solar was **30.30%** of India's total installed electricity capacity of 5,54,544 MW at the same date, a share the Central Electricity Authority prints itself.
+> - Solar generated **174.76 BU** in 2025-26, about 9.5% of India's 1,840.11 BU total, so the capacity share runs roughly three times the generation share.
+> - Rajasthan and Gujarat alone held **47.2%** of national solar capacity at 31 August 2026, calculated from MNRE's state-wise table.
+> - Rooftop was 19.4% of the installed stock but took **38.6%** of the capacity added between 1 April and 31 August 2026.
+> - ALMM List-I carried about **144 GW** per annum of enlisted module capacity and List-II about 24 GW of cell capacity as on 31 December 2025.
+> - MNRE publishes **no ALMM list for inverters**. List-I is modules, List-II is cells, effective 1 June 2026.
 
-> **As of March 2026, India's total solar installed capacity has crossed approximately 100 GW, representing the world's fourth-largest solar market.** The sector employs over 250,000 people directly, attracted USD 8–10 billion in 2025 investment, and is targeting 280–300 GW of solar as part of the 500 GW non-fossil fuel commitment by 2030. The India Solar at a Glance: 10 Key Metrics framework organises these numbers for quick reference and decision support.
+**Short version.** India had 168.04 GW of installed solar capacity as at 31 August 2026, split into 123.99 GW ground-mounted, 32.59 GW rooftop, 4.83 GW of hybrid-project solar and 6.63 GW off-grid, according to MNRE. Solar was 30.30% of total installed capacity yet supplied only about 9.5% of electricity generated in 2025-26. Capacity and generation are different quantities, and most misquoted Indian solar statistics confuse the two.
 
-This reference is updated with data sourced primarily from the [Ministry of New and Renewable Energy (MNRE)](https://mnre.gov.in/), [CERC Annual Reports](https://www.cerc.gov.in/), [Mercom India](https://www.mercomindia.com/), [JMK Research](https://jmkresearch.com/), and [IRENA's Renewable Energy and Jobs Annual Review](https://www.irena.org/). For policy context and linked incentives, see the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) and the [ALMM list Phase III guide](/blog/almm-list-phase-iii-guide/).
+## India's installed solar capacity as at 31 August 2026
 
-## India Solar at a Glance: 10 Key Metrics
+The headline number is 168,040.05 MW of cumulative installed solar capacity as at 31 August 2026, published in the Ministry of New and Renewable Energy's Physical Progress table. Two other government sources carry the identical figure: the Central Electricity Authority's monthly Installed Capacity report and its Monthly Renewable Energy Generation Report for August 2026. They agree to 0.05 MW because CEA carries MNRE's renewable numbers directly.
 
-The following framework provides the 10 most-cited India solar statistics, each numbered for direct reference.
+| MNRE category | Cumulative capacity at 31 August 2026 | Share of solar total |
+| --- | ---: | ---: |
+| Ground-mounted solar plants | 123,986.10 MW | 73.8% |
+| Grid-connected rooftop solar | 32,595.64 MW | 19.4% |
+| Solar component of hybrid projects | 4,829.14 MW | 2.9% |
+| Off-grid solar and KUSUM component | 6,629.17 MW | 3.9% |
+| **Total solar power** | **168,040.05 MW** | **100%** |
 
-### India Solar at a Glance: 10 Key Metrics
+Source: [MNRE Physical Progress](https://mnre.gov.in/en/physical-progress/), "Programme/Scheme wise Cumulative Physical Progress as on 31st August, 2026", page last updated 8 September 2026. The share column is arithmetic on MNRE's own figures, not a separate MNRE indicator.
 
-1. **Total Solar Installed Capacity (March 2026)**: approximately 100–103 GW cumulative (utility + rooftop), making India the world's fourth-largest solar market. Source: MNRE Monthly Capacity Reports, March 2026.
+For the national picture, the Central Electricity Authority reports total installed generating capacity of 5,54,544 MW as at 31 August 2026, of which solar was **30.30%**, wind 10.55%, coal 40.47% and nuclear 1.58%. CEA prints that percentage column itself. Non-fossil sources together were 54.88%.
 
-2. **Annual Solar Addition 2025**: approximately 24–26 GW added in calendar year 2025, the highest single-year addition in India's history. This includes both utility-scale ground-mounted and rooftop installations. Source: Mercom India 2025 Annual Report.
+## Year-on-year capacity addition since 2015-16
 
-3. **Rooftop Solar Capacity**: approximately 13.9 GW cumulative rooftop capacity as of early 2026, representing approximately 13–14% of total solar installed base. Source: MNRE Rooftop Solar Programme tracking dashboard.
+India added 44.61 GW of solar in 2025-26, its largest single year, a 42.22% increase on the 2024-25 stock, according to MNRE's Renewable Energy Statistics 2025-26. That single year added more capacity than the six years from 2018-19 to 2020-21 and 2021-22 to 2022-23 combined.
 
-4. **PM Surya Ghar Progress**: 12+ million applications received, 7+ million connections sanctioned, 3–4 million installations completed as of early 2026. Target: 10 million households by 2026–27. Source: [PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.
+| Year (as at 31 March) | Cumulative solar (MW) | Added during the year (MW) | Solar generation during the year (BU) |
+| --- | ---: | ---: | ---: |
+| 2018-19 | 29,097.18 | 6,750.97 | 39.27 |
+| 2019-20 | 35,607.24 | 6,510.06 | 50.13 |
+| 2020-21 | 41,236.02 | 5,628.80 | 60.40 |
+| 2021-22 | 53,996.54 | 12,760.50 | 73.48 |
+| 2022-23 | 66,780.36 | 12,783.80 | 102.01 |
+| 2023-24 | 81,813.60 | 15,033.24 | 115.98 |
+| 2024-25 | 105,646.49 | 23,832.87 | 144.15 |
+| 2025-26 | 150,260.70 | 44,614.21 | 174.76 |
 
-5. **Solar's Share of Electricity Generation**: approximately 7–8% of India's total electricity units generated came from solar in 2025. Source: Ember Global Electricity Review 2025.
+Sources: cumulative capacity from MNRE's dated state-wise renewable capacity reports for each 31 March; annual additions from MNRE's Year-wise Achievement table, except 2025-26, which MNRE states as 44.61 GW in the narrative of Renewable Energy Statistics 2025-26; generation from Central Electricity Authority data reproduced in the same MNRE publication, Table 4.1.
 
-6. **Solar Investment in 2025**: approximately USD 8–10 billion in new solar sector investment (equity + debt) in calendar 2025. Source: JMK Research, Mercom India.
+Two cautions on this series. MNRE's Year-wise Achievement table has no column at all for 2025-26, India's record solar year, so that addition has to be taken from the Renewable Energy Statistics narrative or derived as 150,260.70 minus 105,646.49. And for context on the earlier baseline, solar stood at just 7.12 GW with 7.45 BU of generation in 2015-16.
 
-7. **Direct Solar Jobs**: approximately 240,000–280,000 direct solar jobs as of 2025, across manufacturing, installation, and O&M. Source: [IRENA Renewable Energy and Jobs 2025](https://www.irena.org/).
+## Where the new capacity is going, 1 April to 31 August 2026
 
-8. **Utility-Scale PPA Price**: ₹2.35–₹2.65 per kWh in competitive auctions as of 2025, a 90%+ price decline from 2010. Source: SECI auction results, Mercom India.
+MNRE reports 17,779.35 MW of solar added in the first five months of FY 2026-27. Comparing its category tables for 31 March 2026 and 31 August 2026 shows how that split by segment, and the four segment additions reconcile to MNRE's published total exactly.
 
-9. **Top State by Capacity**: Rajasthan leads with approximately 20–22 GW of installed solar capacity, driven by its high [GHI](/glossary/ghi/) and large available land area in the Thar Desert region.
+| Segment | At 31 March 2026 (MW) | At 31 August 2026 (MW) | Added (MW) | Share of additions | Share of stock |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Ground-mounted | 114,873.00 | 123,986.10 | 9,113.10 | 51.3% | 73.8% |
+| Rooftop | 25,727.65 | 32,595.64 | 6,867.99 | 38.6% | 19.4% |
+| Hybrid solar component | 3,861.70 | 4,829.14 | 967.44 | 5.4% | 2.9% |
+| Off-grid and KUSUM | 5,798.35 | 6,629.17 | 830.82 | 4.7% | 3.9% |
+| **Total** | **150,260.70** | **168,040.05** | **17,779.35** | **100%** | **100%** |
 
-10. **2030 Target**: India is committed to 500 GW of non-fossil fuel power capacity by 2030, with solar expected to contribute 280–300 GW. Source: India Nationally Determined Contribution (NDC), updated 2022; MNRE National Electricity Plan.
+Sources: 31 March 2026 categories from MNRE Renewable Energy Statistics 2025-26, Table 8.3; 31 August 2026 categories from MNRE's Physical Progress page. The "added" column is subtraction, and its total matches the 17,779.35 MW that MNRE publishes for 1 April to 31 August 2026.
 
-> **100 GW.** India's cumulative solar installed capacity milestone crossed in 2026, placing it fourth globally behind China (900+ GW), the United States (200+ GW), and Germany (100+ GW). *Source - [IRENA Renewable Capacity Statistics 2025](https://www.irena.org/), 2025.*
+That reconciliation is the useful part. Rooftop holds 19.4% of the installed stock but took 38.6% of the new capacity in those five months. The mix of what India is building has already shifted well ahead of the mix of what it has built.
 
-## Total Installed Solar Capacity: Utility and Rooftop
+## State-wise installed solar capacity as at 31 August 2026
 
-India's solar sector comprises two distinct segments: utility-scale ground-mounted plants (typically above 1 MW, connected at 33kV or higher) and distributed rooftop solar (typically below 1 MW, connected at the consumer level). These segments have grown at different rates and face different policy environments.
+Solar capacity in India is concentrated, and it concentrates differently for ground-mounted and rooftop. Rajasthan leads overall on the strength of utility-scale plants. Gujarat leads rooftop by a wide margin. Kerala, Haryana and Delhi have more rooftop than ground-mounted capacity, which inverts the national pattern entirely.
 
-### Utility-Scale Solar Capacity
+| State or UT | Ground-mounted (MW) | Rooftop (MW) | Solar total (MW) | Share of national total |
+| --- | ---: | ---: | ---: | ---: |
+| Rajasthan | 38,897.03 | 2,315.60 | 44,370.37 | 26.4% |
+| Gujarat | 24,946.63 | 8,146.70 | 34,879.88 | 20.8% |
+| Maharashtra | 12,171.30 | 5,977.70 | 20,398.93 | 12.1% |
+| Tamil Nadu | 12,641.87 | 1,635.80 | 14,353.58 | 8.5% |
+| Karnataka | 10,485.39 | 938.20 | 12,014.48 | 7.2% |
+| Andhra Pradesh | 6,567.52 | 1,105.60 | 8,362.50 | 5.0% |
+| Madhya Pradesh | 5,335.56 | 1,058.80 | 6,592.12 | 3.9% |
+| Uttar Pradesh | 3,181.00 | 2,975.80 | 6,537.43 | 3.9% |
+| Telangana | 4,360.49 | 795.90 | 5,165.14 | 3.1% |
+| Haryana | 267.76 | 1,417.40 | 2,899.36 | 1.7% |
+| Kerala | 342.27 | 2,259.50 | 2,626.84 | 1.6% |
+| Chhattisgarh | 1,417.96 | 332.40 | 2,141.34 | 1.3% |
+| Punjab | 886.77 | 663.40 | 1,667.19 | 1.0% |
+| Odisha | 725.96 | 436.20 | 1,246.83 | 0.7% |
+| Bihar | 302.16 | 248.80 | 572.24 | 0.3% |
+| Delhi | 9.84 | 454.30 | 465.60 | 0.3% |
+| West Bengal | 281.23 | 69.13 | 363.50 | 0.2% |
+| **All India (37 entries)** | **123,986.10** | **32,595.64** | **168,040.05** | **100%** |
 
-As of March 2026, India's utility-scale ground-mounted solar capacity is estimated at approximately 83–87 GW. This includes:
+Source: MNRE, "State wise RE Installed Capacity as on 31.08.2026", linked from the [MNRE Physical Progress page](https://mnre.gov.in/en/physical-progress/). Seventeen of MNRE's 37 rows are shown, so the listed rows do not sum to the all-India line. Percentage shares are arithmetic.
 
-- **Solar parks**: large-scale parks developed by SECI, state agencies, and private developers across Rajasthan, Gujarat, Andhra Pradesh, Karnataka, and Tamil Nadu. Bhadla Solar Park (Rajasthan) remains among the world's largest at approximately 2.7 GW.
-- **SECI auctions**: competitive tenders conducted by the Solar Energy Corporation of India ([SECI](https://www.seci.co.in/)), which has tendered over 50 GW of solar projects and is the primary driver of utility-scale capacity addition.
-- **State utility tenders**: state electricity boards and DISCOMs have conducted additional tenders, particularly Rajasthan Discoms, MSEDCL (Maharashtra), TSNPDCL (Telangana), and TANGEDCO (Tamil Nadu).
+Two concentration facts worth carrying. Rajasthan and Gujarat together held 47.2% of national solar capacity at 31 August 2026. And every megawatt of India's 4,829.14 MW of hybrid-project solar sits in only four states: Rajasthan 2,283.30 MW, Gujarat 1,586.03 MW, Andhra Pradesh 600.56 MW and Karnataka 359.25 MW. MNRE separately states that the top five states held 76.28% of total installed solar capacity as at 31 March 2026. For the DISCOM-level reasons behind these gaps, see the [state-wise rooftop capacity reference](/blog/india-rooftop-solar-capacity-state-2026/).
 
-Utility-scale solar tariffs have declined to ₹2.35–₹2.65 per kWh in recent auctions, competitive with the variable cost of coal-based generation and below the all-in cost of new coal capacity, according to Mercom India's tracking of SECI auction results.
+## Capacity is not generation, and the gap runs about three to one
 
-### Rooftop Solar Capacity
+This is the most common misreading of Indian solar data, and it is worth spelling out. A watt is a power rating. A watt-hour is energy delivered over time. Solar held 30.30% of installed capacity at 31 August 2026 but supplied roughly 9.5% of the electricity India generated in 2025-26.
 
-As of early 2026, India's rooftop solar capacity stands at approximately 13.9 GW. The rooftop segment is segmented as follows:
+The generation figures come from the Central Electricity Authority, reproduced in MNRE's Renewable Energy Statistics 2025-26. India generated 1,840.11 BU in total during 2025-26. Renewables including large hydro contributed 477.79 BU, or 25.97%. Within the wind, solar, small hydro and bio-power group, which totalled 310.59 BU, solar's 174.76 BU was 56.27%, making it the largest single renewable source by output for the first time.
 
-| Segment | Approximate Capacity (2026) | Growth Driver |
-| --- | --- | --- |
-| Residential (< 10 kW) | 3.5–4.5 GW | PM Surya Ghar subsidy, rising tariffs |
-| Commercial / Small Industrial (10 kW–1 MW) | 8.5–10 GW | Net metering, accelerated depreciation |
-| Large Industrial Rooftop (> 1 MW) | 0.5–1 GW | Captive consumption, RPO compliance |
+Solar's 9.5% share of total generation is arithmetic, not a printed figure. Neither CEA nor MNRE publishes a solar-only generation share. CEA's own all-India generation total for 2025-26 is 1,847.94 BU because it includes imports from Bhutan, which moves the answer to 9.46%. Either denominator is defensible. State which one you used.
 
-The residential segment has seen the fastest proportional growth since PM Surya Ghar launched in February 2024. Commercial and industrial rooftop has historically dominated due to higher electricity tariffs (₹8–₹14/unit) making payback periods shorter in that segment. The [gross metering vs net metering](/blog/gross-metering-vs-net-metering/) framework choice significantly affects C&I rooftop economics.
+### A worked capacity utilisation factor example
 
-> *Source - [MNRE Monthly Capacity Reports and Rooftop Solar Scheme Tracker](https://mnre.gov.in/), March 2026.*
+[Capacity utilisation factor](/glossary/cuf/), or CUF, is the ratio of energy actually delivered to the energy a plant would deliver running flat out at nameplate rating for the whole period. Neither CEA nor MNRE publishes an official solar CUF for India, so it has to be computed. Here is the calculation with its inputs and its trap, using a single month so the capacity base is stable.
 
-## PM Surya Ghar Muft Bijli Yojana: Scheme Statistics
+Inputs, both from the Central Electricity Authority's Monthly Renewable Energy Generation Report for August 2026:
 
-PM Surya Ghar Muft Bijli Yojana, launched in February 2024 with a total budget of ₹75,021 crore, is India's most ambitious rooftop solar programme. The scheme provides central subsidies directly to households - ₹30,000 per kW for the first 2 kW, and ₹18,000 for the third kW, with a maximum subsidy of ₹78,000 for a 3 kW system.
+1. Solar generation during August 2026: 18,629.70 million units (MU).
+2. Solar capacity monitored, meaning capacity for which generation data is available, as on 31 August 2026: 140,135.27 MW.
+3. Installed solar capacity as on the same date: 168,040.05 MW.
+4. Hours in August: 744.
 
-As of early 2026, the scheme's progress by milestone is:
+Formula: CUF = generation divided by (capacity multiplied by hours).
 
-| Milestone | Target | Achieved (Early 2026) |
-| --- | --- | --- |
-| Households registered | 10 million | 12+ million |
-| Connections sanctioned | 10 million | 7+ million |
-| Installations completed | 10 million by 2026–27 | 3–4 million (estimated) |
-| Subsidy disbursed | ₹75,021 Cr | ₹8,000–₹12,000 Cr (estimated) |
+On monitored capacity: 140,135.27 MW x 744 h = 104,260.64 MU of theoretical maximum. So 18,629.70 / 104,260.64 = **17.9%**, which works out to about 133 kWh per kWp for the month.
 
-The gap between applications and completions reflects several implementation challenges:
+On installed capacity: 168,040.05 MW x 744 h = 125,021.80 MU. So 18,629.70 / 125,021.80 = **14.9%**.
 
-- **DISCOM net metering approval delays**: in many states, the time from application to net metering approval exceeds 60–90 days, delaying subsidy disbursement.
-- **Installer capacity**: the PM Surya Ghar empanelled vendor programme (vendors registered on the national portal to install under the scheme) has created quality and capacity constraints in high-demand states.
-- **Consumer financing**: while the subsidy covers ₹78,000 of a ₹1.5–₹2 lakh system cost, the remaining consumer contribution requires either savings or a loan. The government's collateral-free solar loan programme through nationalised banks has had variable uptake.
+Same month, same generation, and a three percentage point spread purely from the choice of denominator. CEA's reported solar generation covers roughly 83% of installed solar capacity, so dividing it by the full installed figure biases the answer low. August is also a monsoon month, so neither figure should be annualised.
 
-State-wise, Gujarat leads in completed installations, followed by Rajasthan and Maharashtra. For more on the scheme's mechanics and application process, see [how to apply for PM Surya Ghar](/blog/pm-surya-ghar-apply-online/). For a rooftop-specific breakdown of these state rankings, see [India rooftop solar capacity by state](/blog/india-rooftop-solar-capacity-state-2026/).
+Run the same calculation across the full financial year and the ambiguity gets worse. Divide 2025-26 solar generation of 174.76 BU by the opening capacity of 105,646.49 MW and you get 18.9%. Divide it by the closing capacity of 150,260.70 MW and you get 13.3%. Neither is wrong; they answer different questions, because 44.61 GW was commissioned during the year and only generated for part of it.
 
-> **₹75,021 crore.** The total government budget approved for PM Surya Ghar Muft Bijli Yojana, one of the largest single-scheme allocations for residential energy transition in India's fiscal history. *Source - [PM Surya Ghar Official Portal](https://pmsuryaghar.gov.in/), 2026.*
+For project work, replace fleet averages with site data. The [statewise irradiance guide](/blog/solar-irradiance-data-india-statewise/) covers resource variation, and the [generation expectations guide](/blog/how-much-electricity-solar-generates-india/) covers what a specific system size delivers.
 
-## State-Wise Solar Capacity Rankings
+## Rooftop solar, and why it still trails utility-scale
 
-India's solar capacity is highly concentrated in western and southern states that offer high irradiance, large available land, and supportive state policy frameworks.
+Rooftop solar reached 32,595.64 MW at 31 August 2026, up from 25,727.65 MW at 31 March 2026 and 23.16 GW at 31 December 2025. Growth is fast in percentage terms. Yet ground-mounted capacity is still 3.8 times larger, at 123,986.10 MW. The structural reasons are not about subsidy generosity.
 
-| Rank | State | Approx. Solar Capacity (GW) | Primary Driver |
-| --- | --- | --- | --- |
-| 1 | Rajasthan | 20–22 GW | Thar Desert land, high GHI, SECI parks |
-| 2 | Gujarat | 12–14 GW | Policy consistency, strong DISCOM |
-| 3 | Karnataka | 10–12 GW | Hybrid wind-solar, BESCOM support |
-| 4 | Tamil Nadu | 9–11 GW | TANGEDCO auctions, rooftop growth |
-| 5 | Andhra Pradesh | 8–10 GW | Large-scale parks, state mandates |
-| 6 | Maharashtra | 7–9 GW | MSEDCL tenders, C&I rooftop |
-| 7 | Telangana | 5–7 GW | TSNPDCL programmes |
-| 8 | Uttar Pradesh | 4–6 GW | Growing fast, PM Surya Ghar |
-| 9 | Madhya Pradesh | 4–5 GW | MPPMCL projects |
-| 10 | Odisha | 2–3 GW | Recent acceleration |
+Utility-scale projects are procured by one buyer, sited on aggregated land, and financed as single assets. MNRE reports 55 solar parks of 39,973 MW approved across 13 states as on 31 December 2025, of which 15,293 MW of projects were commissioned in 26 parks. One approval decision can carry hundreds of megawatts.
 
-**Leading states:** Rajasthan and Gujarat are structurally advantaged by high annual [GHI](/glossary/ghi/) (6.0–6.5 kWh/m²/day), large land availability, and historically strong DISCOM infrastructure that processes net metering applications efficiently. Karnataka's strong hybrid wind-solar development pipeline reflects the state's mountainous terrain combining both resources effectively.
+Rooftop is the opposite. A 3 kW system needs a household decision, a registered vendor, a DISCOM approval, a bidirectional meter and a subsidy claim. MNRE removed several of those blockers: technical feasibility requirements were waived, auto load enhancement up to 10 kW was introduced, and the net metering agreement was folded into the National Portal application. All DISCOMs across 36 states and union territories adopted deemed technical feasibility up to 10 kW. Registered vendors grew from around 4,000 at launch to 21,689 by December 2025.
 
-**Laggard states:** Bihar, Jharkhand, and West Bengal have installed capacity significantly below their geographic potential. Key challenges include: lower DISCOM creditworthiness (creating developer risk on payment certainty), higher rural grid penetration gaps (limiting rooftop net metering viability), and historically lower state support for solar project clearances. Bihar's performance has improved following PM Surya Ghar targets, but penetration remains below the national average.
+Even with that, per-system throughput caps the segment. This is why rooftop capacity responds to process reform more than to subsidy amount, and why the [net metering process](/blog/net-metering-india-complete-guide/) remains the real gate on most residential installations.
 
-> *Source - [MNRE State-wise Renewable Energy Installed Capacity Reports](https://mnre.gov.in/), 2025–2026; [JMK Research India Solar Market Outlook](https://jmkresearch.com/), 2025.*
+## PM Surya Ghar progress against the one crore household target
 
-## Solar's Share of India's Electricity Generation
+PM Surya Ghar Muft Bijli Yojana targets one crore residential households with rooftop solar by FY 2026-27, with a total outlay of Rs 75,021 crore, according to MNRE's Annual Report 2025-26. Progress is reported in more than one unit, which is where most confusion comes from.
 
-As solar capacity has grown from near-zero in 2010 to 100+ GW in 2026, its contribution to India's electricity mix has grown significantly.
+| Metric | Figure | As at |
+| --- | ---: | --- |
+| Applications submitted on the National Portal | 55.62 lakh | 31 December 2025 |
+| Households with rooftop solar installed | 26.05 lakh | 31 December 2025 |
+| Central Financial Assistance disbursed | Rs 14,771 crore | 31 December 2025 |
+| Beneficiaries receiving CFA | 18.81 lakh | 31 December 2025 |
+| Registered vendors | 21,689 | December 2025 |
+| Rooftop systems installed | 26.21 lakh | 20 March 2026 |
+| Capacity installed under the scheme | 9.56 GW | 20 March 2026 |
+| Households benefiting | 32.4 lakh | 20 March 2026 |
 
-| Year | Solar Capacity (GW) | Solar Generation (TWh) | Share of Total Generation |
-| --- | --- | --- | --- |
-| 2015 | 5.5 | 7.5 | < 1% |
-| 2018 | 25 | 38 | ~3% |
-| 2020 | 38 | 60 | ~4% |
-| 2022 | 62 | 108 | ~6% |
-| 2024 | 85 | 145 | ~7% |
-| 2026 (est.) | 100+ | 175–190 | ~8% |
+Sources: MNRE Annual Report 2025-26 for the December 2025 rows; MNRE scheme update reported to Parliament in March 2026 for the March 2026 rows.
 
-India's total electricity generation in 2025 was approximately 2,200–2,300 TWh, with the solar share reaching 7–8% of this total. By 2030, with 280–300 GW of solar, solar is projected to contribute approximately 400–450 TWh annually, 15–18% of projected total generation.
+Three readings follow. First, on the 26.21 lakh systems installed at 20 March 2026, the scheme had reached about 26% of its one crore target. Second, dividing 9.56 GW by 26.21 lakh systems gives an average system size of roughly 3.65 kW, which is arithmetic on MNRE's two published figures and matches the 3 kW subsidy cap plus typical oversizing. Third, the 9.56 GW installed under the scheme is about 37% of India's 25,727.65 MW national rooftop stock at 31 March 2026, so PM Surya Ghar accounts for a large minority of rooftop capacity, not all of it.
 
-According to [Ember's Global Electricity Review 2025](https://ember-climate.org/), India ranked among the top five countries globally for year-on-year solar generation growth in 2024, behind only China, the United States, and Brazil.
+Financing terms as at that date were collateral-free loans from nationalised banks at the repo rate plus 50 basis points, which was 5.75% per annum, with tenure up to 10 years. That rate floats with the repo, so it must always be quoted with its date. MNRE also runs a grievance call centre on 15555 in 12 languages. Subsidy slabs, eligibility and state variation are covered in the [PM Surya Ghar guide](/blog/pm-surya-ghar-yojana-complete-guide/); rules differ by state and DISCOM, and no slab should be treated as assured for a given applicant.
 
-The [solar yield in India](/blog/solar-yield-india/) varies substantially by state, Rajasthan and Gujarat generate 1,800–2,000 kWh per kWp annually, while Kerala and Himachal Pradesh (with more cloud cover) generate 1,200–1,400 kWh per kWp.
+## Module and cell manufacturing under ALMM and the PLI scheme
 
-## Solar Manufacturing and the ALMM Framework
+MNRE's Annual Report 2025-26 records 137 PV module manufacturing plants with a cumulative capacity of about 144 GW per annum, printed as 144,289 MW per year, enlisted under ALMM List-I as on 31 December 2025. For cells, it records 12 plants with about 24 GW per annum, printed as 23,954 MW per year, enlisted under ALMM List-II at the same date. A later MNRE reply in Parliament put the List-I total at 1,72,592 MW for the list dated 1 March 2026.
 
-India's solar manufacturing base has grown significantly under the Production Linked Incentive (PLI) scheme for solar modules and the Approved Models and Manufacturers List (ALMM) framework administered by MNRE.
+| Stage | Capacity | As at | Source |
+| --- | ---: | --- | --- |
+| Modules enlisted under ALMM List-I | about 144 GW per annum | 31 December 2025 | MNRE Annual Report 2025-26 |
+| Modules enlisted under ALMM List-I | 1,72,592 MW | list dated 1 March 2026 | MNRE reply to Lok Sabha, 18 March 2026 |
+| Cells enlisted under ALMM List-II | about 24 GW per annum | 31 December 2025 | MNRE Annual Report 2025-26 |
+| Ingot and wafer | around 2 GW | reply dated 12 August 2026 | MNRE reply to Lok Sabha |
+| Polysilicon | no commercial production | reply dated 12 August 2026 | MNRE reply to Lok Sabha |
 
-**Module manufacturing:** As of 2025, India's solar cell and module manufacturing capacity has grown to approximately 40–50 GW per year, with major manufacturers including Adani Solar, Waaree, Vikram Solar, and Tata Power Solar. The PLI scheme has attracted ₹45,000 crore of committed investment in the solar manufacturing supply chain.
+Read those as enlisted capacity, not national output. MNRE itself switches source when asked about national cell capacity, quoting around 27 GW from the solar PV manufacturing associations in a December 2025 reply, which sat above the ALMM List-II figure at the time.
 
-**Inverter manufacturing:** The ALMM Phase III list for solar inverters (launched in 2024) has created a mandatory approved list for inverters used in PM Surya Ghar installations. As of 2026, approximately 30–40 inverter manufacturers appear on the ALMM Phase III list, including both domestic manufacturers and Indian entities sourcing from verified overseas manufacturing. Brands on the list must comply with BIS/IEC standards and demonstrate local service capabilities. For a breakdown of which brands hold the largest share of this list, see [solar inverter market share in India](/blog/solar-inverter-market-share-india-2026/).
+The Production Linked Incentive scheme for the National Programme on High Efficiency Solar PV Modules carries an outlay of Rs 24,000 crore across two tranches, Rs 4,500 crore and Rs 19,500 crore. Letters of Award cover 8,737 MW under Tranche-I and 39,600 MW under Tranche-II, for 48,337 MW awarded in total. As on 30 June 2026, MNRE reported about 42 GW of module, 12 GW of cell and 2 GW of ingot-wafer capacity actually set up under the scheme, against investment of Rs 73,400 crore. Awarded capacity and commissioned capacity are separate numbers and the gap between them is the story.
 
-The [ALMM list Phase III guide](/blog/almm-list-phase-iii-guide/) explains in detail which inverter brands are listed, how the listing process works, and why ALMM status matters for subsidy eligibility.
+On the compliance clock: MNRE's amendment order dated 9 December 2024 set ALMM List-II for solar PV cells effective from **1 June 2026**, with the first List-II issued on 31 July 2025. From that date, only modules using cells from List-II remain in List-I. A subsequent office memorandum dated 18 July 2026 ruled out any blanket extension but gave net-metering and open-access projects a window to commission with a List-II exemption until 31 December 2026. A wafer list has been proposed for a later effective date.
 
-> *Source - [MNRE ALMM List Official Portal](https://mnre.gov.in/almm-list/), 2026; [MNRE PLI Scheme for Solar PV Manufacturing](https://mnre.gov.in/), 2025.*
+One correction that matters for equipment buyers. MNRE publishes no ALMM list for inverters. ALMM consists of List-I for modules and List-II for cells, and the consolidated ALMM Order contains no inverter provision. Inverters sit under the Solar Systems, Devices and Components Goods Order, 2025, notified on 27 January 2025, through BIS registration; MNRE recorded 286 BIS registrations for solar PV inverters, 162 domestic and 124 foreign, up to 31 December 2025. The [ALMM scope guide](/blog/almm-list-phase-iii-guide/) and the [ALMM glossary entry](/glossary/almm-list/) set out how to verify a model properly.
 
-## Solar Investment Data: Capital Flows
+## What solar auctions have actually discovered on tariff
 
-India's solar sector has been one of the largest recipients of renewable energy investment in the emerging world.
+Tariff is the statistic most often quoted and least often sourced. Here is what government documents actually say, and where they stop.
 
-**Total investment flows:**
-- Cumulative solar sector investment (2010–2025): estimated at USD 50–60 billion, sourced from IRENA investment tracking and Mercom India research.
-- 2025 annual investment: approximately USD 8–10 billion, including utility-scale equity, project debt, and rooftop financing.
-- Foreign Direct Investment (FDI) in the renewable energy sector (of which solar is the largest component): approximately USD 3–4 billion in 2025, according to DPIIT FDI data.
+| Figure | What it covers | Source and date |
+| --- | ---: | --- |
+| Rs 2.44 per unit | stated record low solar tariff | MNRE reply to Lok Sabha, 27 June 2019 |
+| Rs 2.95, Rs 2.74, Rs 2.68 per unit | weighted average solar tariff discovered by competitive bidding in 2017-18, 2018-19, 2019-20 | MNRE reply to Lok Sabha, 11 February 2021 |
+| Rs 1.99 per unit | stated record low solar tariff | MNRE reply to Lok Sabha, 16 December 2021 |
+| Rs 2.5 to Rs 2.7 per unit | range of solar tariffs discovered in bids during FY 2024-25 | MNRE reply to Lok Sabha, 11 December 2024 |
 
-**Government fiscal commitments:**
-- PM Surya Ghar subsidy budget: ₹75,021 crore (≈ USD 9 billion at current exchange rates).
-- Kusum Yojana (agricultural solar): ₹34,035 crore budget for 30,800 MW of agricultural solar capacity, see the [Kusum Yojana agricultural solar guide](/blog/kusum-yojana-agricultural-solar-subsidy/).
-- PLI scheme for solar module manufacturing: ₹24,000 crore.
+Two honest limits. MNRE repeats the Rs 1.99 per unit record in at least eight parliamentary replies but never attributes it to a named auction or a year, so this page does not either. And no government source gives a plain-solar auction tariff for 2025 or 2026; MNRE's recent tariff tables cover solar-wind hybrid, firm and dispatchable renewable energy, and solar plus storage instead. The solar-plus-storage trend MNRE does publish ran from Rs 6.99 per kWh in 2018 to Rs 2.7 per kWh in 2025, which is a different product from plain solar and should never be quoted as one. For how tariffs translate into project economics, see the [LCOE explainer](/blog/lcoe-solar-india/).
 
-**Project-level economics:** According to Mercom India's 2025 analysis, the Levelised Cost of Energy (LCOE) from new utility-scale solar in India has fallen to approximately ₹2.0–₹2.5 per kWh on a life-cycle basis, below the running cost of existing coal plants at ₹2.5–₹3.5 per kWh. For residential systems, the all-in residential solar LCOE (after subsidy) is approximately ₹3.5–₹4.5 per kWh over a 25-year system life, well below the grid retail tariff of ₹7–₹10 per kWh in most urban areas. Investors and finance teams modelling these cash flows over a full 25-year horizon can use a dedicated [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) rather than a static spreadsheet.
+## India against the rest of the world
 
-## Employment: Solar Sector Job Creation
+Global installed solar capacity reached 2,396.71 GW at the end of 2025, up from 225.72 GW at the end of 2015, according to IRENA figures reproduced in MNRE's Renewable Energy Statistics 2025-26. Total global renewable capacity was 5,155.01 GW at 31 December 2025.
 
-India's solar sector directly employed approximately 240,000–280,000 people as of 2025. This encompasses:
+| Country | Total RE capacity at 31 Dec 2025 (GW) | Share of world RE | Solar as a share of that country's RE capacity |
+| --- | ---: | ---: | ---: |
+| China | 2,258.02 | 43.80% | 53.24% |
+| United States | 466.45 | 9.05% | 45.21% |
+| India | 250.50 | 4.86% | 54.09% |
+| Brazil | 228.20 | 4.43% | 28.35% |
+| Germany | 200.90 | 3.90% | 53.35% |
+| **World** | **5,155.01** | | |
 
-- **Manufacturing employment**: module assembly, inverter manufacturing, mounting structure fabrication, cable and BOS component production.
-- **Installation and EPC employment**: project development, civil and electrical construction, commissioning engineers, and site supervisors.
-- **Operations and maintenance (O&M) employment**: monitoring operators, field service technicians, and remote diagnostics engineers.
+Source: IRENA Renewable Energy Statistics 2026, as published in MNRE Renewable Energy Statistics 2025-26, Tables 16.2.1 and 19.1.1 and Figure 19.1.1.
 
-The [IRENA Renewable Energy and Jobs Annual Review 2025](https://www.irena.org/publications) estimates that solar installation (residential + commercial + utility) accounts for the majority of direct solar jobs, followed by manufacturing. O&M is the fastest-growing employment category as the installed base grows.
+MNRE states that on IRENA's 2026 figures India moved from fourth to third globally in total renewable capacity and retained third place in both solar installed capacity and solar generation. On renewable generation India ranked fifth in 2024, at 380.34 TWh of a world total of 9,836.13 TWh. India also had the highest solar share of its own renewable portfolio among the top five countries, at 54.09%.
 
-Indirect and induced employment (from equipment supply chains, financial services, logistics, and grid infrastructure) adds approximately 600,000–800,000 additional positions, bringing the broader solar-adjacent employment count to approximately 900,000 as of 2025.
+One warning before you reuse any of this. IRENA's India renewable figure of 250.50 GW at 31 December 2025 is not MNRE's 274,688.10 MW at 31 March 2026. The cut-off dates are three months apart and the inclusion rules differ. Mixing an IRENA country figure with an MNRE national figure inside the same comparison produces a wrong answer. On per-capita terms, MNRE reports India's installed renewable capacity at 193.36 watts per capita in 2025-26 under Sustainable Development Goal indicator 7.b.1, up from 64.04 watts in 2014-15.
 
-India has committed to creating 500,000 additional green energy jobs by 2030 under its NDC commitments and the National Green Hydrogen Mission ancillary targets. Installers looking to join this growing workforce can explore becoming a channel partner with an established solar EPC network.
+## Which statistic matters to a buyer, not to a headline
 
-## 2030 Pathway: The Road to 500 GW
+Most of the numbers above are policy statistics. They describe a national portfolio. Almost none of them tell you whether a specific rooftop or a specific factory shed should get solar. Here is the separation, stated plainly.
 
-India's 2030 commitment of 500 GW of non-fossil fuel capacity is among the most ambitious energy targets in the world. Solar is expected to be the largest contributor, with the National Electricity Plan (2023–2032) projecting 280–300 GW of solar by 2030.
+Statistics that are headlines, not decisions: total installed capacity, world rank, the 30.30% capacity share, the record-low auction tariff, and national manufacturing capacity. None of these change your bill, your payback or your approval timeline. A record auction tariff of Rs 1.99 per unit was discovered in an inter-state utility tender with 25-year offtake, land at scale and single-point evacuation. It has no bearing on a residential quotation.
 
-| Milestone | Target | Status (Early 2026) |
-| --- | --- | --- |
-| Total non-fossil fuel capacity | 500 GW by 2030 | ~200 GW achieved |
-| Solar capacity | 280–300 GW by 2030 | ~100 GW achieved |
-| Wind capacity | 100–120 GW by 2030 | ~45 GW achieved |
-| Rooftop solar target | 40 GW by 2026 | ~14 GW achieved |
+Statistics that actually decide a project: your own DISCOM's retail tariff slab, the site's irradiance and shading, the state and DISCOM net metering rules, the applicable subsidy slab on the date you apply, and the expected annual kWh per kWp at your site. Note that the last of these is a site calculation, not the national fleet CUF computed above.
 
-The remaining pathway requires India to add approximately 45–50 GW of solar per year from 2026 to 2030. This is nearly double the approximately 24–26 GW added in 2025. Key enablers and risks:
+The forward-looking figure worth knowing is that the Central Electricity Authority estimates addition of around 292 GW of solar capacity by 2029-30, as cited in MNRE's Annual Report 2025-26. Treat it as a plan. A target is not an achieved installation, and this page has deliberately kept the two apart throughout.
 
-- **Enablers:** Grid expansion (Green Energy Corridors), battery storage co-location (BESS + solar tenders), manufacturing scale, and falling hardware costs.
-- **Risks:** Land acquisition delays (particularly for large Rajasthan and Gujarat solar parks), DISCOM financial health (affecting payment guarantees for projects), and skilled workforce availability for rapid installation at scale.
+To check any of the above yourself, go to the primary dashboards rather than a secondary article:
 
-According to [IEA's India Energy Outlook 2025](https://www.iea.org/reports/india-energy-outlook-2025), achieving the 2030 solar target will require sustained policy consistency, competitive financing, and grid investment at scale, all of which are achievable but not guaranteed under current trajectory.
+1. [MNRE Physical Progress](https://mnre.gov.in/en/physical-progress/) for the monthly cumulative table and the dated state-wise capacity PDF.
+2. MNRE Renewable Energy Statistics, linked from the same page, for the year-on-year capacity and generation series.
+3. [Central Electricity Authority Installed Capacity reports](https://cea.nic.in/installed-capacity-report/?lang=en) for the national capacity mix and solar's printed share.
+4. [CEA Executive Summary on Power Sector](https://cea.nic.in/executive-summary-report/?lang=en) for actual generation by source; note the August 2026 edition was not published at the time of review.
+5. [PM Surya Ghar National Portal](https://www.pmsuryaghar.gov.in/) for scheme applications, installations and disbursal.
+6. [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) for the current List-I and List-II and the orders that govern them.
+7. [National Power Portal](https://npp.gov.in/) for daily and monthly generation dashboards.
 
-## Where Qbits Fits
+For equipment-level questions the national data cannot answer, size the array first with the [string sizing calculator](/string-sizing-calculator/), then match the inverter to the result. Qbits publishes model-level electrical limits for its solar inverters on its [product pages](/our-products/); no national capacity total tells you which inverter a site needs.
 
-India's 100 GW solar installed base creates a massive installed fleet that requires quality inverters with reliable service networks. Every one of those 13.9 GW of rooftop systems has an inverter at its core, and the quality of that inverter determines whether a homeowner or business captures the full 25-year yield the panels are capable of, or loses 10–20% to unreliable hardware with poor warranty support.
+## The Bottom Line
 
-Qbits operates at the intersection of this growth: an Indian brand building inverters specifically for Indian conditions (45 °C rooftops, 180–270V grid variation, monsoon humidity) with a 12-year full replacement warranty that outlasts most competitors' warranty periods. As PM Surya Ghar continues scaling residential solar, ALMM-listed inverters with strong service networks become the relevant benchmark, not import price.
+India had 168.04 GW of installed solar capacity at 31 August 2026 and generated 174.76 BU from solar in 2025-26. Those two numbers, read together, are the whole discipline of this subject: a 30.30% share of capacity delivering about 9.5% of electricity. Every claim on this page carries its issuing body and its date, and the figures that could not be sourced to a government document, including any 2025 or 2026 plain-solar auction tariff and any official solar CUF, have been left out and named as gaps.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed, BIS-compliant TLS and TLD series eligible for PM Surya Ghar subsidy installations.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for residential buyers in load-shedding states who need battery backup alongside net metering.
-- **[Solar EPC India](/blog/solar-epc-india/)**: how EPCs operate within India's solar supply chain and what project commissioning involves.
-- **[Contact Qbits](/contact-us/)**: for EPC firms and distributors looking to align with an ALMM-listed inverter brand with verified India-based service.
-
-For EPC installers and C&I buyers who want to stay current with India's solar data, the [India Rooftop Solar Index](/blog/india-rooftop-solar-index/) publishes Qbits' annual narrative analysis of the rooftop solar market with forward-looking insights beyond the official statistics compiled here.
+- Copy the "as at" date with every figure you quote, and never compare an MNRE national number with an IRENA country number from a different cut-off.
+- Before you use a capacity statistic in a bid, a forecast or a presentation, open the live MNRE Physical Progress table and the CEA Installed Capacity report and confirm the current month.
+- For a project rather than a statistic, size the system against site data and then [talk to Qbits](/contact-us/) about the inverter specifications your design actually requires.

@@ -177,4 +177,4 @@ Polish proposals fail by treating a volatile wholesale reference as a fixed inpu
 - **Lead with avoided import.** It is the stable half of the value and the half you can still defend in a year.
 - **Quote payback as a range.** Nine to thirteen without storage, seven to ten with, five to six with subsidy, and say what moves it.
 - **Show configurations, not one price.** Mój Prąd support depends on what is installed, so the comparison is the document.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a Polish address, or reach the Qbits team [here](/contact-us/) for inverter and battery specification.
+

@@ -21,7 +21,7 @@ faqs:
     a: "Monsoon, coastal salt, and desert dust demand IP66. IP65 is insufficient against wind-driven water and harsh conditions. IP66 provides complete dust protection and resistance to powerful water jets."
   - q: "How much does 0.5% efficiency difference impact ROI?"
     a: "For a 100 kW system generating 150,000 kWh/year, 0.5% loss = 750 kWh = ₹6,000/year = ₹1,50,000+ over 25 years."
-  - q: "When is the 12-year warranty premium worth it?"
+  - q: "When is the model-specific written warranty premium worth it?"
     a: "Always for commercial installations. Full replacement warranties eliminate repair downtime, warranty-voiding damage issues, and reduce service call obligations - protecting margins across all projects."
   - q: "What's the most overlooked specification?"
     a: "Temperature derating curve. Rooftops in India regularly exceed 50°C, and inverters that derate above this point lose 3–5% summer generation. Always calculate expected output at site ambient, not nameplate."
@@ -176,14 +176,11 @@ See [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inv
 
 Comparing these 15 parameters across multiple brands by hand is tedious at scale; platforms like [SurgePV's solar design tools](https://surgepv.com/tools/) let EPCs pull inverter specs directly into a system design rather than juggling a stack of PDFs.
 
-## Qbits Highlights
+## How to verify a Qbits specification
 
-- 100% DC oversizing capability
-- IP66 protection, German-grade components
-- 98% peak efficiency, 12-year full replacement warranty
-- AI-powered WhatsApp monitoring tailored for Indian users
-- 1,000+ automated quality tests per unit
-- BIS certified, IEC compliant
+Use the current datasheet for the exact model. the current published documents show model-specific values for maximum efficiency, PV input, MPPT layout, operating range, communications and enclosure rating. They do not establish one universal DC-oversizing allowance, component origin, monitoring service, test count, certificate set or warranty term across the range.
+
+Request the current certificate, installation manual, monitoring scope and written warranty for the quoted SKU. Record any unavailable item as not established.
 
 ## Closing
 

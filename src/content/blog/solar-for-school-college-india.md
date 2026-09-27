@@ -33,6 +33,8 @@ faqs:
     a: "Government schools on residential tariff connections may be eligible for PM Surya Ghar subsidy. Private schools on commercial connections are not eligible for the residential PM Surya Ghar subsidy, but may access state-specific commercial solar schemes. The key criterion is the electricity connection type - residential consumer numbers qualify; commercial/institutional consumer numbers do not. Some states have separate institutional solar subsidy schemes administered through SREDAs."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 A school is probably the best-suited institution for rooftop solar in India. The reasons are structural, not coincidental: electricity consumption is concentrated during school hours (8 am–5 pm), which maps perfectly onto solar generation times. The school is largely unoccupied during summer vacation (precisely when solar generation is at its highest) and [net metering](/glossary/net-metering/) credits that surplus against the academic term's bills. Maintenance requirements are minimal. The roof is large, typically flat, and unshaded.
 
 The resulting economics are compelling: systems that pay back in 3–5 years, followed by 15–20 years of free electricity that directly reduces operating costs, and ideally, school fees.
@@ -179,13 +181,8 @@ Healthcare sites carry a backup requirement schools do not, covered in [solar fo
 
 ## Where Qbits Fits
 
-Schools need a solar system that requires minimal management attention from teachers and administrators who have no time for equipment troubleshooting. Qbits' AI-powered WhatsApp monitoring sends monthly generation reports and performance alerts to a designated contact, no app, no login, no technical knowledge required to interpret.
-
-The 12-year full replacement warranty means the system that a school installs today is covered through its primary payback period without inverter replacement cost. The [ALMM-listed](/glossary/almm-list/), BIS-certified Qbits inverters qualify for net metering with any state DISCOM.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS series from 5–50 kW for school net-metering applications; ALMM-listed.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HT series for schools in frequent outage zones needing computer lab and CCTV continuity.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: match inverter and string configuration to the school's multi-wing rooftop area.
-- **[Authorised Service Partners](/authorized-service-partners/)**: school principals should know there is a local service partner within 72 hours, not an overseas support line.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
 [Request a school solar proposal](/contact-us/), Qbits provides proposals with full load analysis, CBSE GSP documentation support, and net metering application guidance.

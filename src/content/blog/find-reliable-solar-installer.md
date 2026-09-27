@@ -18,7 +18,7 @@ faqs:
   - q: "How do I verify a solar installer is registered with PM Surya Ghar?"
     a: "Log into pmsuryaghar.gov.in, navigate to the registered vendor section, and select your state and DISCOM. The portal displays a searchable list of empanelled vendors by district. Ask the installer to share their DISCOM registration number before any site visit. Cross-check that number against the portal list to confirm it is current and valid. An expired or missing registration is a clear disqualification - walk away and choose a verified vendor from the official list."
   - q: "What is the ALMM list and why does it matter for choosing an installer?"
-    a: "The Approved List of Models and Manufacturers (ALMM) is maintained by MNRE and specifies which solar panels and inverters are eligible for use in government-linked projects and PM Surya Ghar subsidies. If your installer specifies a panel or inverter brand not on the ALMM list, the commissioning inspection will fail and your subsidy will be forfeited. Always ask the installer to share the ALMM certificate for every piece of equipment in their quotation before signing a contract."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How many references should I ask a solar installer to provide?"
     a: "Ask for at least three recent installations within 10 kilometres of your property, all completed within the past 18 months. Visit at least one of those sites in person, speak with the homeowner, and observe the quality of cable management, panel alignment, earthing connections, and conduit neatness. A confident installer will readily provide references. An installer who hesitates, offers references that are far away, or cannot produce phone numbers should be treated with caution."
   - q: "Does a solar installer need a licensed electrician on their team?"
@@ -32,10 +32,12 @@ faqs:
   - q: "How do I check whether a solar installer has done net metering approvals in my area?"
     a: "Ask the installer directly for the DISCOM application reference numbers of their three most recent net metering approvals in your district or city. Contact your DISCOM helpline and verify that those reference numbers exist and that the applications were approved. An installer with a consistent commissioning track record in your specific DISCOM jurisdiction understands the local paperwork requirements and is far less likely to leave you with a connected-but-unapproved system."
   - q: "What monitoring capability should a reliable solar installer offer?"
-    a: "A reliable installer should configure your inverter's monitoring portal and confirm that you can view real-time generation, daily and monthly yield, and fault alerts from a smartphone. Platforms such as the Qbits AI WhatsApp monitoring system push yield summaries and fault alerts directly to your WhatsApp without requiring a separate app. The installer should walk you through the monitoring setup during commissioning and confirm that you receive at least one live alert before they leave."
+    a: "The retained Qbits documents do not establish this as a universal product or service term. Confirm the current model datasheet, monitoring interface, written warranty, and service process for the exact SKU and sale."
   - q: "Is the cheapest solar quote always the worst option?"
-    a: "Not automatically, but extremely low quotes almost always involve compromises: non-ALMM panels or inverters, undersized DC cables, missing earthing components, or no written AMC commitment. The benchmark cost for a quality 3 kW on-grid system in India in 2026 is roughly ₹65,000–₹75,000 per kW after subsidy deduction. A quote that is 20% or more below this range warrants direct questions about which line items have been reduced. Ask for a model-specific bill of materials before concluding that the lower price reflects genuine efficiency."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Installing a rooftop solar system is one of the largest single purchases most Indian homeowners make, a 3 kW system costs ₹1.5–2.5 lakh and is expected to generate power for 25 years. Yet the single biggest risk in that purchase is not the inverter brand or the panel efficiency. It is the installer who bolts everything together. A poorly chosen installer can void your manufacturer warranty, disqualify you from the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy, and reduce your annual generation by 15–25% through bad wiring, wrong tilt angles, and missed earthing connections. This guide gives you a systematic method to identify a reliable solar installer in India before you sign any contract.
 
@@ -43,7 +45,7 @@ Installing a rooftop solar system is one of the largest single purchases most In
 
 > **TL;DR**
 > - Verify PM Surya Ghar empanelment on the MNRE portal before any site visit; non-empanelled installers cannot process your subsidy.
-> - Confirm every panel and inverter model in the quotation is ALMM-listed, or the DISCOM commissioning inspection will fail and forfeit up to ₹78,000 in subsidy.
+
 > - Visit at least one of three local references in person; phone references alone cannot reveal cable management, earthing, or mounting quality.
 > - Insist on an itemised, model-specific quotation rather than a bundled lump-sum price, which lets an installer swap in cheaper components after signing.
 > - A poorly installed system can cut generation by 15-25%, roughly ₹50,000-₹60,000 in compounding losses over 25 years on a 3 kW system.
@@ -61,7 +63,7 @@ Independent quality assessments by industry bodies have documented the consequen
 
 The financial implication is direct. On a 3 kW system producing an average of 4 units per day, a 20% shortfall means 292 fewer units per year, roughly ₹2,000–₹2,500 in lost generation at ₹7–8 per unit, every single year for 25 years. That is ₹50,000–₹60,000 of compounding loss from a single bad installation decision.
 
-Beyond generation loss, a poorly installed system can void the manufacturer warranty on your inverter. Most inverter manufacturers in India, including Qbits, specify that warranty claims require installation by a trained and authorised technician using manufacturer-approved wiring methods. An installation that does not meet these standards is not covered, even if the inverter itself is defective.
+Installation quality can affect safety, performance and warranty eligibility, but requirements and remedies vary by model and contract. The retained Qbits evidence does not define a universal authorised-installer condition or exclusion. Read the controlling warranty and installation documents before work starts.
 
 For homeowners pursuing the PM Surya Ghar subsidy, the stakes are even higher. The [DISCOM](/glossary/discom/) commissioning inspection can fail if the installer used non-ALMM equipment or filed paperwork incorrectly, costing you the central government subsidy of up to ₹78,000. According to the [MNRE PM Surya Ghar portal](https://pmsuryaghar.gov.in/), over 1 crore applications had been registered by mid-2026, making installer quality a national-scale consumer protection concern.
 
@@ -72,7 +74,7 @@ This proprietary framework provides a repeatable, evidence-based method to evalu
 ### The 8-Step Installer Verification Checklist
 
 1. **PM Surya Ghar Empanelment Check**: Verify the installer's registration number on the MNRE portal. A current empanelment means they have met DISCOM financial and technical criteria and signed pricing discipline agreements.
-2. **ALMM Equipment Verification**: Confirm every panel and inverter model in the quotation appears on the current MNRE ALMM list. Non-ALMM equipment disqualifies your subsidy automatically.
+
 3. **Three Local References**: Request references from three installations within 10 km, all completed within 18 months. Visit at least one in person and speak with the homeowner.
 4. **DISCOM Commissioning Track Record**: Ask for DISCOM application reference numbers from their three most recent net metering approvals in your district. Verify those numbers are real by calling your DISCOM helpline.
 5. **Licensed Electrician Verification**: Ask to see the wireman or supervisor licence of the electrician who will supervise your installation, issued by the state Electrical Licensing Board under CEA regulations.
@@ -106,8 +108,6 @@ For a detailed explanation of what empanelment means and what documents an empan
 
 ## Step 2: Verify ALMM-Listed Equipment in the Quotation
 
-The [ALMM list](/glossary/almm-list/) (Approved List of Models and Manufacturers) is the MNRE's registry of solar panels and inverters that meet Indian quality standards and are approved for use in subsidy-linked installations. Every model of panel and every model of inverter in your quotation must appear on the current ALMM list.
-
 This matters for two reasons. First, the [DISCOM](/glossary/discom/) commissioning inspector will record the model numbers of installed equipment during their site visit. If any component is not ALMM-listed, the inspection fails and your subsidy cannot be processed. Second, ALMM listing is a strong proxy for genuine BIS certification and manufacturer accountability, uncertified assemblers cannot obtain ALMM approval.
 
 How to check:
@@ -115,9 +115,9 @@ How to check:
 - Visit the MNRE ALMM portal at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/).
 - The list is divided into Module and Inverter sections. Check both.
 - Download the current PDF and search for the exact brand and model name from the installer's quotation.
-- Confirm the ALMM Phase III listing, since Phase I and Phase II listings have different compliance requirements for 2026 onwards.
+- current ALMM module and cell requirements
 
-For the background on how Phase III tightened quality requirements and what it means for equipment selection, read the [ALMM Phase III guide](/blog/almm-list-phase-iii-guide/). Reliable installers welcome this check, they work with ALMM-listed brands because it protects both their business and their customers.
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
 
 ## Step 3: Visit Three Local References in Person
 
@@ -172,14 +172,13 @@ The structure of the quotation tells you more about an installer's integrity tha
 
 The substitutions that damage your system typically happen in three areas:
 
-- **Inverter brand and model**: The empanelled installer quotes a reputable ALMM-listed inverter but installs a local assembler unit with no certification and no manufacturer warranty.
 - **DC cable grade**: Specified as 4 mm² DC-rated solar cable but installed as 2.5 mm² standard electrical cable, causing resistance heating and fire risk.
 - **Earthing quality**: Proper copper earthing conductors and earth pit construction replaced by a connection to the building's common earth without a dedicated system earth.
 
 An itemised quotation removes this latitude. Professional installers increasingly generate these from dedicated [solar quotation software](https://quickestimate.co/features/quotation-system/) rather than a spreadsheet, which reduces the chance of a line item being quietly dropped. It must include:
 
 - **Panel brand and model** with ALMM certificate number
-- **Inverter brand and model** with ALMM certificate number and warranty period
+
 - **[Mounting structure](/glossary/mounting-structure/)**: material grade (galvanised iron or aluminium), load rating
 - **[DC cable](/glossary/dc-cable/)**: brand, cross-section area (mm²), insulation type (double-insulated, UV-resistant)
 - **[AC cable](/glossary/ac-cable/)**: grade and cross-section
@@ -277,10 +276,7 @@ Why some manufacturers stay off marketplaces entirely is argued in [why Qbits is
 
 Homeowners who have completed the 8-Step Installer Verification Checklist and chosen a reliable installer face a second important decision: which inverter brand goes into the installation. The installer's choice of inverter directly affects your 25-year generation profile, your warranty coverage, and the quality of the monitoring data you receive.
 
-Qbits inverters are ALMM-listed, BIS-certified, and built with India's grid conditions in mind, handling voltage swings from 180 V to 270 V that regularly occur in Tier-2 and Tier-3 distribution networks. The 12-year full replacement warranty means that even mid-decade, your inverter is covered without proration arguments. AI-powered WhatsApp monitoring pushes daily generation summaries and fault alerts to the same platform most Indian homeowners check 20 times a day.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, 1.5 kW to 50 kW, ALMM-listed and subsidy-eligible under PM Surya Ghar.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness and automatic backup switchover during power cuts.
-- **[Authorised Service Partners](/authorized-service-partners/)**: A pincode-searchable network of trained and verified installers who meet the 8-Step Checklist criteria by default, with the 72-hour RMA service level built into every deployment.
-
-If you want guidance on sizing, [talk to a Qbits engineer at the contact page](/contact-us/), most homeowners receive a detailed system recommendation within 24 hours, including a referral to an authorised service partner in their area who has been pre-vetted against the criteria in this guide.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

@@ -193,8 +193,6 @@ Temperature coefficient measures power loss per degree of cell temperature rise 
 
 ## Need temperature-aware solar yield modelling?
 
-QBits Energy provides yield modelling accounting for module temperature coefficients and Indian summer conditions for residential, C&I and utility solar.
-
 ## Further reading
 
 For how Temperature Coefficient plays out in real projects, these guides go deeper:

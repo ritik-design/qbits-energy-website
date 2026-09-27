@@ -23,7 +23,7 @@ faqs:
   - q: "Does solar proposal software calculate the PM Surya Ghar subsidy automatically?"
     a: "The India-aware tools do. The structure is ₹30,000 per kW for the first 2 kW, then ₹18,000 per kW for the 2 kW to 3 kW band, capped at ₹78,000 total, with nothing above 3 kW, according to MNRE (2026). SurgePV, Arka360, and Solar Ladder apply the slabs automatically from the system size. Aurora, Solargraf, and Pylon require a manual line item, which is where most quoting errors come from, because installers commonly apply a flat per-kW rate across the whole system."
   - q: "Why does ALMM matter in a solar proposal?"
-    a: "Using a non-ALMM module or inverter disqualifies the installation from PM Surya Ghar central financial assistance entirely. So a proposal that quotes a subsidised price against a non-ALMM component is quoting a number the customer cannot receive. ALMM List I covers modules and List II covers inverters, and both are updated quarterly, meaning a product can be delisted between your quote and your installation. Proposal software with a live ALMM-filtered database prevents that class of error at design time."
+    a: "A proposal should verify current module and cell ALMM evidence where the scheme requires it, while checking inverter documents, vendor status, and DISCOM requirements separately. Software can record those checks, but it cannot guarantee subsidy eligibility or replace the current official portal and implementing documents."
   - q: "How much does solar proposal software cost in India?"
     a: "India-native tools like Arka360 and Solar Ladder are priced for the local market and typically land well below global platforms. SurgePV is $1,299 to $1,899 per user per year, which is roughly ₹1.1 Lakh to ₹1.6 Lakh per seat at current rates. Aurora runs $159 to $259 per user per month, which is difficult to justify for most Indian residential volumes. The honest calculation is cost per proposal: at 40 quotes a month a seat cost of ₹1.3 Lakh works out near ₹270 per quote."
   - q: "Do Indian solar proposals need Hindi or regional language output?"
@@ -37,11 +37,13 @@ faqs:
 featured: false
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Indian residential solar runs on a subsidy structure that almost no global software models correctly. [PM Surya Ghar](https://www.surgepv.com/solar-compliance/india/pm-surya-ghar) pays ₹30,000 per kW for the first 2 kW, ₹18,000 per kW for the next 1 kW, and nothing above 3 kW, capped at ₹78,000, according to MNRE (2026). It is a slab, not a rate. Yet the most common quotation error we see in Indian residential solar is a flat per-kW subsidy applied across the whole system, which overstates the customer's benefit on any system above 2 kW. That error comes from Excel, and from proposal tools built for markets where incentives are percentages. This guide compares the seven proposal platforms Indian installers actually shortlist, and judges them on subsidy accuracy, ALMM enforcement, and [DISCOM](/glossary/discom/) net metering coverage.
 
 > **TL;DR**
 > - [PM Surya Ghar](/glossary/pm-surya-ghar/) is a slab structure capped at ₹78,000, being ₹30,000 per kW to 2 kW and ₹18,000 per kW from 2 kW to 3 kW, according to MNRE (2026).
-> - A non-ALMM module or inverter disqualifies the whole installation from central financial assistance, so ALMM has to be enforced at design time.
+
 > - DISCOM export compensation runs roughly ₹3 to ₹5.50 per unit on APPC, and settlement periods differ by state, which moves payback by more than a year.
 > - [SurgePV](https://surgepv.com/) generates the proposal from the same project record as the bankable design, with subsidy slabs, ALMM filtering, and state net metering built in.
 > - Arka360 and Solar Ladder are the strongest India-native alternatives and are priced closer to local expectations.
@@ -63,8 +65,6 @@ India is now the fastest-growing residential solar market in the world by instal
 Four things decide whether an Indian residential proposal survives contact with the DISCOM and the customer.
 
 **The subsidy slab, applied as a slab.** ₹30,000 per kW to 2 kW, then ₹18,000 per kW to 3 kW, hard cap ₹78,000, residential only. A 5 kW system receives the same ₹78,000 as a 3 kW system. Any tool that multiplies system size by a single rate produces a wrong number. SurgePV's [PM Surya Ghar guide](https://www.surgepv.com/solar-compliance/india/guides/pm-surya-ghar) sets out the current structure.
-
-**ALMM enforcement at design time, not procurement time.** ALMM List I covers modules and List II covers inverters, and both refresh quarterly. A component can be delisted between your quote and your installation, and using a non-ALMM product disqualifies the installation from central financial assistance entirely. Filtering the component database against the live list is the only reliable defence, and SurgePV's [ALMM compliance guide](https://www.surgepv.com/solar-compliance/india/guides/almm-compliance) covers how the lists work.
 
 **IS and CEA standards.** IS 14086 governs modules on performance and safety, IS 16221 governs inverters including anti-islanding, and the CEA Technical Standards for Connectivity of Distributed Generation Resources set earthing and maximum system voltage. Maximum DC voltage is commonly capped at 600 V for residential in many states, with commercial reaching 1,000 V. A design that breaches the state DC voltage limit fails inspection regardless of how good the proposal looks.
 
@@ -170,4 +170,3 @@ The Indian proposal software decision is not really about proposal design. It is
 
 - **Audit your last ten quotes for the slab error.** Take any quote above 3 kW and check whether the subsidy line reads ₹78,000. If it reads higher, the template is wrong and the deals are exposed.
 - **Insist on ALMM filtering at design time.** A component delisted between quote and installation costs the customer the entire central subsidy, and that conversation lands on you.
-- **Quote a live enquiry in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) to confirm ALMM-listed inverter options for the resulting BOQ.

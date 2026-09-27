@@ -191,8 +191,6 @@ P-type silicon is boron-doped silicon traditionally used as the base for PERC so
 
 ## Need PERC or TOPCon modules?
 
-QBits Energy supplies ALMM-listed PERC p-type and TOPCon n-type modules from leading Indian manufacturers for residential, C&I and utility solar.
-
 ## Further reading
 
 For how P-Type Silicon plays out in real projects, these guides go deeper:

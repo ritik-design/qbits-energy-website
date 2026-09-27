@@ -136,8 +136,6 @@ Automated layout is one part of a broader shift covered in [AI solar design](/bl
 - **Choose [Scanifly](/blog/scanifly-alternative/)** for drone capture as a core differentiator.
 - **Choose SketchUp + Skelion** for power-user CAD authoring on specialised projects.
 
-For most installers and EPCs in 2026, SurgePV's AI 3D from satellite is the cleanest 3D [solar design software](https://surgepv.com/) workflow. Once the model is locked, the next steps are a full [shading analysis](/glossary/shading-analysis/) and weighing the result against the broader [best solar design software](/blog/best-solar-design-software/) field, including how AI 3D compares to [HelioScope's](/blog/helioscope-alternative/) 2.5D layout approach and [OpenSolar's](/blog/opensolar-alternative/) manual modelling workflow. For C&I rooftops where the 3D model turns up real complexity, that same shading and layout data determines whether an [on-grid](/on-grid-inverter/) or [hybrid](/hybrid-inverter/) inverter fits the string configuration, which Qbits' [C&I solution](/c-i-solution/) page breaks down further.
-
 <div class="inline-cta">
 <h3>Ready to design solar from satellite in 60 seconds?</h3>
 <p>SurgePV combines AI 3D roof modeling, 8,760-hour shading, bankable yield, Clara AI, and white-label proposals in one platform.</p>

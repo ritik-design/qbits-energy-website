@@ -306,8 +306,6 @@ Module degradation is the gradual decline in solar output over time. Modern modu
 
 ## Need help with module reliability for solar?
 
-QBits Energy supplies ALMM-listed modules with documented PID, LeTID and degradation profiles, and supports lifecycle yield modelling for Indian solar projects.
-
 ## Further reading
 
 For how Module Degradation plays out in real projects, these guides go deeper:

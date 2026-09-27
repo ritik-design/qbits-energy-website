@@ -266,8 +266,6 @@ Cycle life is the number of charge-discharge cycles a battery delivers before ca
 
 ## Need help with battery selection for cycle life?
 
-QBits Energy compares battery options on lifecycle cost at intended DOD for solar storage applications across India.
-
 ## Further reading
 
 For how Cycle Life plays out in real projects, these guides go deeper:

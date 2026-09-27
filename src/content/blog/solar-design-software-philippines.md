@@ -151,4 +151,4 @@ The Philippines rewards installers who understand that net metering here is a ge
 
 - **Set export to the BGC in every model.** Roughly PHP 5 to 6 per kWh against a PHP 12 import price is the actual spread, and it changes the optimal system size.
 - **Match the array to the load profile, not the roof.** Daytime-heavy commercial operations are where Philippine solar pays best, and the proposal should demonstrate that rather than assume it.
-- **Model a live job before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

@@ -69,6 +69,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is a central inverter
 
 A central inverter is a high-capacity solar inverter that processes the combined DC output of a large PV array through one or two centralised power blocks. Capacities range from 500 kW to 5 MW per unit. Each unit feeds a dedicated medium-voltage step-up transformer at the same pad, and the combination is called a power conversion station, PCS or skid.
@@ -228,8 +230,6 @@ NTPC, Adani Green, ReNew Power, Tata Power Solar, Greenko, Avaada, JSW Energy an
 
 CEA grid code requires reactive power capability, fault ride-through and active power-frequency response from grid-connected solar inverters above 1 MW. Central inverters meet these requirements with appropriate firmware settings during plant commissioning.
 
-[ALMM listing](/glossary/almm-list/) applies to central inverters used in SECI and CPSU tenders. Most major OEMs maintain ALMM-listed central inverter model series.
-
 The 1500 V DC architecture is now standard for new utility plants in India. Central inverters at 1500 V dominate plants tendered after 2021.
 
 ## Standards and certifications
@@ -266,8 +266,6 @@ Choosing the lowest-cost central inverter without checking the O&M support footp
 Central inverters remain the dominant topology for very large Indian utility solar plants where CapEx and grid services matter more than serviceability. The 1500 V DC architecture and multilevel topology are now standard. The trade-off against string inverters is sharp: lower upfront cost and higher peak efficiency, against higher downtime per fault and worse MPPT mismatch tolerance. The right choice depends on plant size, terrain uniformity and O&M maturity.
 
 ## Looking for utility-scale solar engineering?
-
-QBits Energy works with EPCs and IPPs on central inverter selection, plant layout, DC architecture and grid compliance for utility-scale solar in India. For plants needing structural and civil engineering alongside inverter selection, Heaven Designs' MW-scale EPC project management covers site survey through commissioning. Reach out for design support on your next plant.
 
 ## Further reading
 

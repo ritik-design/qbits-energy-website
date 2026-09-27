@@ -186,13 +186,11 @@ For battery brand comparison including Pylontech, Livguard, and Exide, see the [
 
 ## Where Qbits Fits in the LFP vs NMC Decision
 
-Qbits HS and HT series hybrid inverters support both LiFePO4 and NMC battery chemistries through configurable charging profiles and [BMS](/glossary/bms/) communication (CAN bus + RS485). The inverter firmware includes pre-configured profiles for all major lithium battery brands available in India.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series, LFP and NMC compatible, 12-year warranty, IP66.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[On-Grid Inverters](/on-grid-inverter/)**: For grid-tied systems where battery storage is not yet needed.
-- **[Download Datasheets](/download-datasheets/)**: Battery compatibility matrix for each Qbits hybrid SKU.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Local support in 280+ cities for battery system commissioning and health checks.
+
+- **[Authorised Service Partners](/authorized-service-partners/)**: Local support in the service locations confirmed for the sale for battery system commissioning and health checks.
 
 For load-based sizing guidance beyond chemistry choice, see [how to size a battery for a hybrid solar inverter](/blog/battery-sizing-hybrid-solar/). EPC teams specifying battery banks across multiple projects often pair a chemistry guide like this one with a dedicated sizing tool such as [SurgePV's battery and energy storage sizing calculator](https://surgepv.com/hub/energy-storage/battery-sizing/).
 
-[Talk to a Qbits engineer at contact-us](/contact-us/) about the right battery chemistry and module pairing for your home, climate, and outage pattern.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

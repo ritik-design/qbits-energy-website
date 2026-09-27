@@ -25,7 +25,7 @@ faqs:
   - q: "What's the best financing model for small to mid-sized EPCs?"
     a: "Project-specific financing aligning inverter payments with client billing schedules. EMI with 12-24 month tenures matches typical inverter payback timelines for commercial projects. For working capital management, EPCs should establish revolving credit lines with banks specialising in renewable energy or NBFCs that understand the solar EPC cash cycle. Suppliers often extend 30-45 day credit terms to established EPCs which provides additional working capital relief beyond formal financing."
   - q: "Does warranty length affect financing terms?"
-    a: "Yes, materially. Extended warranties (12-year vs 5-year) reduce lender risk by guaranteeing equipment value during the loan period, enabling more favourable interest rates and higher loan-to-value ratios. For commercial solar loans backed by IREDA or major Indian banks, a 12-year full replacement warranty often unlocks 0.5-1.0% lower rates or extended 60-month tenor compared to 5-year repair warranties. The financing advantage often exceeds the upfront premium of the better warranty - making longer-warranty inverters financially superior on TCO basis."
+    a: "Yes, materially. Extended warranties (12-year vs 5-year) reduce lender risk by guaranteeing equipment value during the loan period, enabling more favourable interest rates and higher loan-to-value ratios. For commercial solar loans backed by IREDA or major Indian banks, a model-specific written warranty often unlocks 0.5-1.0% lower rates or extended 60-month tenor compared to 5-year repair warranties. The financing advantage often exceeds the upfront premium of the better warranty - making longer-warranty inverters financially superior on TCO basis."
   - q: "What documentation is required for solar inverter loan applications?"
     a: "For business borrowers: business registration certificate, GST returns for the last 2 years, 2-3 years of audited income tax returns, bank statements (6-12 months), inverter quotations from approved manufacturers, client contracts demonstrating project pipeline. For residential borrowers: identity and address proof, income proof (salary slips or ITR), bank statements, PM Surya Ghar registration if applicable. IREDA loans require additional technical documentation including system design, panel specifications, and EPC technical capability."
   - q: "What's the difference between CAPEX and OPEX models for commercial solar?"
@@ -45,7 +45,7 @@ Solar inverter investments represent 15-20% of total project costs across reside
 > - IREDA offers the cheapest concessional rate at 8.5-10%; banks quote 10-12%; NBFCs process faster at 11-14%.
 > - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-emi-options) provides up to ₹78,000 for residential systems and can be combined with EMI financing for a cash-flow-neutral monthly outcome.
 > - Section 32 accelerated depreciation at 40% WDV gives business buyers a substantial year-one tax shield, often making CAPEX ownership beat OPEX/PPA above ₹50 lakh annual tax liability.
-> - A 12-year full replacement warranty can unlock 0.5-1.0% lower loan rates or a longer tenor because it reduces lender risk on the equipment's residual value.
+> - A model-specific written warranty can unlock 0.5-1.0% lower loan rates or a longer tenor because it reduces lender risk on the equipment's residual value.
 > - Combining subsidy, financing, and tax benefits can cut effective project cost by 35-50% for eligible buyers.
 
 This guide presents the complete inverter financing framework Indian buyers and EPCs use in 2026: upfront cash purchase, EMI loan options with current market rates, CAPEX vs OPEX strategic comparison, leasing structures, government subsidies and tax incentives, IREDA and bank-specific products, documentation requirements, and the [decision framework](https://heavendesigns.in/blog/capex-opex-resco-cfo-decision-framework/) matched to each buyer profile.
@@ -245,14 +245,11 @@ Standard documentation across most loan applications:
 
 ## Where Qbits Fits
 
-Qbits Energy supports buyers across financing structures:
-
-- **Comprehensive quotations** for loan applications including PM Surya Ghar subsidy calculations
-- **Bank-empanelled status** with major public and private sector lenders
-- **12-year full replacement warranty** that supports better loan terms and higher LTV ratios
-- **ALMM Phase III listing** ensuring full subsidy eligibility for residential and commercial buyers
-- **EPC partner financing support** through structured channel programs
-- **[PPA](/glossary/ppa/)-friendly product range** for OPEX deployments
+- Ask Qbits for a dated, itemised quote and the exact equipment schedule required by the lender.
+- Bank empanelment, loan eligibility, loan-to-value treatment and financing support are not established until confirmed by the lender and Qbits commercial team.
+- Warranty terms must come from the current written policy; do not assume they improve loan terms.
+- Scheme eligibility depends on the current applicant, vendor, equipment and approval process. ALMM is not an inverter list.
+- For an OPEX or PPA project, the project company and lender must approve the complete design and contract, not the inverter brand alone.
 
 Related guides:
 
@@ -263,8 +260,8 @@ Related guides:
 - **[Essential vs Advanced Solar Inverter Features India](/blog/essential-vs-advanced-solar-inverter-features/)** - feature framework
 - **[3 kW vs 5 kW vs 10 kW Solar Inverters India](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/)** - capacity selection
 
-For financing-specific questions or to structure a quote that aligns with your preferred lender's requirements, [talk to a Qbits engineer](/contact-us/) - the team can provide a comprehensive proposal supporting loan applications within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ## Closing
 
-Financing strategy is not separate from product selection - they compound. A 12-year warranty does not just protect operations; it lowers financing cost. Subsidies do not just reduce upfront price; they accelerate payback. Section 32 depreciation does not just save tax; it changes the right answer between CAPEX and OPEX. Build your financial structure around your specific project profile, integrate the subsidies and tax benefits available to your buyer category, and treat financing as a strategic lever rather than a back-office function. The framework above is the same one Indian solar buyers use to convert capital-intensive procurement into manageable, ROI-positive investments across every system size from residential to utility-scale.
+Financing strategy is not separate from product selection - they compound. A model-specific written warranty does not just protect operations; it lowers financing cost. Subsidies do not just reduce upfront price; they accelerate payback. Section 32 depreciation does not just save tax; it changes the right answer between CAPEX and OPEX. Build your financial structure around your specific project profile, integrate the subsidies and tax benefits available to your buyer category, and treat financing as a strategic lever rather than a back-office function. The framework above is the same one Indian solar buyers use to convert capital-intensive procurement into manageable, ROI-positive investments across every system size from residential to utility-scale.

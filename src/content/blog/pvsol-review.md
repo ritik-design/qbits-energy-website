@@ -203,7 +203,6 @@ Three things to do next:
 
 - Count the handovers on one real project, from first estimate to signed quote, and see how many wait on a single machine.
 - Price both models properly, including the spreadsheet time spent on tariffs and proposals rather than only the licence.
-- Run the same job in a cloud tool and in PV*SOL before you renew, then decide with output in front of you. If you also need inverter specification against the finished design, the Qbits team can be reached [here](/contact-us/).
 
 <div class="inline-cta">
 <h3>Test the handover, not the simulation</h3>

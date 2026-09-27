@@ -156,4 +156,4 @@ South Africa is a constraint-first market. The capacity limit, the protection se
 
 - **Establish the connection type and operator limit before designing.** 10 kVA single-phase and 25 kVA three-phase are the numbers that define the project.
 - **Model the battery against outage patterns, not just payback.** In an export-constrained zone, storage is what converts wasted generation into value, and backup is often what closes the sale.
-- **Design a live job before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for hybrid inverter specification against the finished design.
+

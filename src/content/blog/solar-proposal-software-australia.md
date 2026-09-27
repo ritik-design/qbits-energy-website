@@ -157,4 +157,4 @@ Australia is the most mature rooftop market in the world, and the two things tha
 
 - **Recompute STCs, never hardcode them.** Deeming shortens every 1 January and varies by solar zone, so any flat per-kW figure in your template is already wrong somewhere.
 - **Model the export limit and show the curtailed energy.** At a 5c feed-in tariff, curtailed kWh are the clearest battery argument you have, but only if the proposal shows them.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

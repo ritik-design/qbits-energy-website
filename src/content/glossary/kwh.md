@@ -225,8 +225,6 @@ A kWh is the unit of electrical energy equal to one kilowatt of power used for o
 
 ## Need help understanding your kWh consumption?
 
-QBits Energy helps customers analyse kWh consumption patterns and design solar systems to offset their actual usage profile.
-
 ## Further reading
 
 For how kWh plays out in real projects, these guides go deeper:

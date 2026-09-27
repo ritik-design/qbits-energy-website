@@ -33,6 +33,8 @@ faqs:
     a: "No truly interest-free solar loan exists from mainstream Indian lenders in 2026. However, some state governments (Rajasthan, Gujarat) have offered interest subsidy schemes - where the state pays a portion of interest - under specific state solar programmes. Check your state DISCOM or state renewable energy agency for current schemes. PM Surya Ghar subsidy reduces capital cost but does not directly subsidise interest."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Solar financing in India has matured considerably. Five years ago, homeowners largely paid cash for rooftop solar or settled for informal dealer instalment schemes. Today, multiple nationalised banks, IREDA, and NBFCs offer formal solar loan products at competitive rates, and the [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-bank-loan-process) programme has made ₹78,000 in central subsidy accessible to millions of households.
 
 The problem is comparison. Lender websites quote ranges, not numbers. Rates are benchmarked to floating indices. Processing fees are buried in fine print. And the subsidy-compatibility of each product varies. This guide cuts through that noise with a direct, evidence-based ranking of the best solar loans in India in 2026.
@@ -240,11 +242,8 @@ For homeowners on EMI specifically, read the [solar on EMI guide](/blog/solar-on
 
 The best solar loan saves money only if the solar system it finances performs reliably for the duration of the loan. A homeowner repaying an IREDA loan for 15 years needs an inverter that lasts at least that long, or comes with a warranty that covers the gap.
 
-Qbits inverters carry a [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/), IP66 weather protection, BIS and [ALMM](/glossary/almm-list/) compliance (required for PM Surya Ghar subsidy eligibility), and AI-powered WhatsApp monitoring that catches performance drops before they become revenue losses. For a system financed through a government solar loan, these attributes directly protect the investment and ensure the electricity savings that justify the loan repayment continue year after year.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed TLS and TLD series from 1.5 kW to 50 kW; mandatory for PM Surya Ghar subsidy claims.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for households in power-cut zones who need battery backup alongside grid connection.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel-string compatibility before the vendor finalises the BOM and quotes.
-- **[Authorised Service Partners](/authorized-service-partners/)**: nationwide service network with 72-hour RMA SLA for the loan tenure and beyond.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
-[Request a quote](/contact-us/) with your system size, location, and preferred lender, Qbits can advise on ALMM-compliant configurations that meet PM Surya Ghar requirements and qualify for the best available loan rates.
+[Contact Qbits](/contact-us/) with the proposed system size and location for model documents. Verify module and cell ALMM status, scheme eligibility, DISCOM acceptance and loan terms with the responsible official parties; Qbits does not control subsidy or lender approval.

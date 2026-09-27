@@ -1,289 +1,212 @@
 ---
-title: "Best 10kW Solar Inverter in India 2026"
-excerpt: "The best 10kW solar inverter in India depends on whether you need single-phase for a villa or 3-phase for commercial use. Six options reviewed with pricing, specs, and warranty."
-description: "Compare the top 6 10kW solar inverters in India for 2026: villas, shops, clinics, small factories, single-phase vs 3-phase, and depreciation rules."
-category: "Comparison"
-date: 2026-06-05
-updatedDate: 2026-07-08
-readTime: "22 min"
-image: "/blog-images/solar-inverter-selection.svg"
-author: "Nirav Dhanani"
+title: "How to Choose a 10 kW Solar Inverter in India"
+excerpt: "Best 10 kW solar inverter in India: three-phase fit, MPPT current limits, DC/AC ratio, metering rules, depreciation, and commissioning checks."
+description: "A buying guide to the 10 kW solar inverter class in India, covering three-phase design, per-MPPT current limits, generation maths, metering, and depreciation."
+category: "Buying Guide"
+date: 2026-09-23
+updatedDate: 2026-09-24
+readTime: "11 min read"
+image: "/images/hybrid.webp"
+author: "Qbits Editorial"
 keywords:
-  - best 10kw solar inverter
-  - 10kw solar inverter india
-  - 10kw solar inverter price india
-  - single phase 10kw solar inverter
-  - 3 phase 10kw solar inverter commercial
+  - "best 10kw solar inverter india"
+  - "10 kW solar inverter"
+  - "three phase solar inverter"
+  - "solar inverter selection"
+  - "solar inverter datasheet"
 faqs:
-  - q: "How many solar panels are needed for a 10 kW inverter?"
-    a: "A 10 kW solar inverter typically requires 24 to 28 solar panels, assuming each panel is rated between 380 Wp and 420 Wp. The exact number depends on the panel wattage and the DC oversizing ratio used by the installer. At a 1.2× oversizing ratio - common in Indian conditions - a 10 kW inverter would accept a 12 kWp DC array, which translates to roughly 29 to 32 panels of 380 Wp each. Always confirm the inverter's maximum DC input voltage and MPPT current limits before finalising the string configuration."
-  - q: "Can a 10 kW solar inverter power a small factory or clinic?"
-    a: "Yes. A 10 kW on-grid or hybrid solar inverter is well-suited for small commercial establishments such as clinics, diagnostic centres, boutique retail stores, and light-manufacturing units consuming 30 to 80 kWh per day. For loads that include heavy three-phase machinery - motors, compressors, CNC equipment - a 3-phase 10 kW inverter is required. Single-phase 10 kW inverters are not rated for three-phase industrial loads and will not satisfy the connection requirements of most state DISCOMs for commercial premises."
-  - q: "Should I choose a single-phase or 3-phase 10 kW solar inverter?"
-    a: "Choose single-phase if your premises has a single-phase grid connection, which is typical for large residential villas and small shops with a connected load below 10 kVA. Choose 3-phase if your electricity meter is connected to a three-phase supply - standard for most commercial premises, factories, clinics, and any establishment with a sanctioned load above 10 kVA. Connecting a single-phase inverter to a three-phase supply will cause phase imbalance faults and may violate your DISCOM's connection agreement. When in doubt, check the phase configuration on your electricity bill."
-  - q: "What is the price of a 10 kW solar inverter in India?"
-    a: "A 10 kW solar inverter in India is priced between ₹55,000 and ₹1,20,000 depending on the brand, topology (on-grid vs hybrid), and phase configuration (single-phase vs 3-phase). Indian brands such as Qbits typically fall in the ₹55,000 to ₹80,000 range. Global brands such as Sungrow and Goodwe are priced ₹75,000 to ₹1,20,000 for comparable specifications. Hybrid 10 kW inverters with battery readiness cost 25 to 40 percent more than on-grid-only models. These figures are for the inverter alone and do not include panels, mounting, or installation."
-  - q: "Is a 10 kW system eligible for the PM Surya Ghar subsidy?"
-    a: "Partially. The PM Surya Ghar Muft Bijli Yojana provides central subsidy for residential rooftop systems, but the subsidy is capped at 3 kW of installed capacity. Systems above 3 kW receive the subsidy only on the first 3 kW; the capacity above 3 kW is unsubsidised. For a 10 kW residential system, the maximum central subsidy is therefore ₹78,000 (the 3 kW ceiling). Commercial and industrial installations are not eligible for this scheme at all. ALMM-listed inverters are mandatory for subsidy eligibility."
-  - q: "What is the accelerated depreciation benefit for a 10 kW commercial solar system?"
-    a: "Under Section 32 of the Income Tax Act, solar energy equipment qualifies for accelerated depreciation at 40 percent in the first year of ownership. For a business that invests ₹6,00,000 in a 10 kW commercial solar system, this means a depreciation deduction of ₹2,40,000 in year one, reducing taxable income by that amount. At a 25 percent corporate tax rate, the effective tax saving in year one is approximately ₹60,000. This benefit applies to proprietorships, partnerships, private limited companies, and other business entities - not to individual residential buyers."
-  - q: "Which 10 kW inverter is best for a large villa or farmhouse?"
-    a: "The Qbits TLS-10K is the most suitable choice for a large villa or farmhouse with a single-phase grid connection. It carries ALMM listing, a 12-year full replacement warranty, IP66 weather protection, and AI-powered WhatsApp monitoring - all on a single-phase platform. For villas that already have 3-phase connections or plan to add EV charging loads, the Qbits TLD-10K 3-phase on-grid model provides additional headroom. Both models carry India-grid-tuned firmware for 180 to 270 V operating ranges."
-  - q: "What is the return on investment period for a 10 kW commercial solar system?"
-    a: "A 10 kW commercial solar system in India typically achieves payback in four to six years when financed through capital expenditure and when accelerated depreciation benefits are applied in year one. At a grid tariff of ₹8 per unit and annual generation of approximately 14,000 kWh (assuming 4.5 peak sun hours per day and a performance ratio of 0.78), the annual savings on the electricity bill are approximately ₹1,12,000. With an installed cost of ₹5,00,000 to ₹6,00,000 and depreciation savings in year one, the effective payback drops to four to five years for most commercial buyers."
+  - q: "Which is the best 10 kW solar inverter in India?"
+    a: "There is no single best model at this size. The 10 kW class serves large homes, small commercial premises, and housing society common areas, and those three buyers need different things. The correct unit is the three-phase on-grid inverter whose voltage window, per-MPPT current limit, and MPPT count match your actual string layout across your roof planes. Shortlist on configuration first, then compare written warranty and service terms."
+  - q: "Is a 10 kW solar inverter single-phase or three-phase?"
+    a: "Three-phase is the norm at 10 kW in India. Most DISCOMs will not sanction a 10 kW single-phase export connection, and premises drawing this much load usually already hold a three-phase service. Single-phase units in this power band exist but are uncommon and create phase-imbalance problems on a three-phase meter. Confirm your existing service type and your DISCOM's single-phase export cap before you shortlist anything."
+  - q: "How many solar panels does a 10 kW inverter need?"
+    a: "Modules commonly sold in India in 2026 run from roughly 535 W to 700 W. A 10 kW inverter is normally paired with an 11 kWp to 13 kWp array, so 17 modules at 700 W or 21 modules at 580 W are both typical. The module count follows from your target DC to AC ratio and your string voltage limits, not from a rule of thumb. Size the strings against the inverter window before you fix the panel count."
+  - q: "How much electricity does a 10 kW solar system generate per day in India?"
+    a: "An 11.9 kWp array at 4.5 peak sun hours and a 0.78 performance ratio produces about 41.8 kWh per day, which is roughly 15,250 kWh per year. At 4.0 peak sun hours and a 0.75 performance ratio the same array produces about 35.7 kWh per day. The 17% spread comes from site irradiation, shading, tilt, soiling, and grid availability. Treat any generation figure quoted without visible inputs as a sales estimate."
+  - q: "Can I use two 5 kW inverters instead of one 10 kW inverter?"
+    a: "Sometimes, yes. Two smaller units give you partial output after a single failure, and they let you match awkward roof planes without long DC runs. The costs are real though: two sets of AC protection, two loggers, more cable, and phase allocation to manage if the units are single-phase. On a simple two-plane roof with a three-phase service, one 10 kW three-phase unit is usually cheaper and simpler."
+  - q: "Does a 10 kW rooftop system get net metering in India?"
+    a: "Metering treatment at 10 kW varies by state, by DISCOM, and by consumer category. Residential consumers are commonly allowed net metering, while commercial and industrial consumers in several states are moved to net billing or gross metering above a threshold. The rules are set by state tariff orders and DISCOM regulations, not by the inverter. Confirm the applicable order for your category and sanctioned load before you size the array."
+  - q: "What sanctioned load do I need for a 10 kW solar system?"
+    a: "Most DISCOMs will not sanction a rooftop system larger than your connected or sanctioned load, so a 10 kW system generally needs at least 10 kW of sanctioned load. The Ministry of New and Renewable Energy introduced auto load enhancement up to 10 kW for residential applications under PM Surya Ghar, reported in March 2026, which removed a common source of delay. Rules still vary by state and DISCOM, so verify with your utility."
+  - q: "What warranty should a 10 kW solar inverter carry in India?"
+    a: "Terms vary widely by brand and are often extendable at extra cost. The remedy, registration deadline, freight responsibility, and exclusion list matter more than the headline duration. Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Ask every shortlisted brand for the same terms in writing, and confirm who handles service in year seven."
+  - q: "Do I need CEIG approval for a 10 kW rooftop solar system?"
+    a: "Usually not. Electrical inspectorate approval is triggered by voltage level rather than by system size, and a 10 kW rooftop system normally connects at low voltage. The Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023 govern the requirement, and state inspectorates apply their own thresholds and procedures. If your premises connect at high voltage for other reasons, check with the state inspectorate before commissioning."
 ---
 
-Running a large villa or a small business on grid power in 2026 is getting harder to justify financially. A 4,000 sq ft villa routinely crosses ₹8,000 per month. A clinic or retail shop with AC, refrigeration, and computing loads runs ₹15,000 to ₹30,000 per month, and every outage costs revenue. A 10 kW solar system fixes both. But the inverter choice is more nuanced here than at 3 kW or 5 kW. Phase requirement alone ([single-phase](https://www.surgepv.com/blog/three-phase-vs-single-phase-solar-inverter) for most villas, 3-phase for most commercial premises) splits the market in two. The right inverter for a Pune farmhouse is not the right inverter for a Coimbatore diagnostic centre.
+A 10 kW inverter sits at an awkward point in the Indian market. It is too large for the residential advice that fills search results, and too small for content written for factory rooftops. Buyers in this class apply guidance meant for a 3 kW home to a system that behaves nothing like one.
+
+The differences are structural. At 10 kW you are almost always three-phase, your metering treatment may not be net metering, and your array spans more than one roof plane, so MPPT allocation stops being optional. If the premises belongs to a business, the tax treatment moves the numbers more than the brand does.
+
+Sibling guides cover [3 kW](/blog/best-3kw-solar-inverter-india-2026/) and [5 kW](/blog/best-5kw-solar-inverter-india-2026/) systems, and a separate guide ranks [inverter brands](/blog/top-10-solar-inverter-brands-india-2026/). This one stays on the 10 kW class.
 
 > **TL;DR**
-> - Phase connection decides the shortlist: [single-phase](https://www.surgepv.com/blog/solar-heat-pump-ev-single-phase) for most villas, 3-phase for most commercial premises.
-> - The Qbits TLS-10K (single-phase) and TLD-10K (3-phase) both carry a 12-year full replacement warranty, versus 5 years standard from Sungrow, Goodwe, and Solis.
-> - A 10 kW residential system gets a maximum PM Surya Ghar subsidy of ₹78,000 (the 3 kW ceiling); commercial buyers are not eligible for this scheme at all.
-> - Registered businesses can instead claim 40% accelerated depreciation in year one under Section 32 of the Income Tax Act.
-> - Indicative pricing runs ₹55,000 to ₹1,20,000 depending on brand, phase, and topology (on-grid vs hybrid).
-> - The Qbits HT-10K hybrid switches to battery-backed island mode in under 20 milliseconds for premises with frequent power cuts.
+> - Three-phase is the norm at 10 kW, and most DISCOMs will not sanction a 10 kW single-phase export connection.
+> - An 11.9 kWp array at 4.5 peak sun hours and a 0.78 performance ratio yields about 41.8 kWh per day.
+> - Per-MPPT current, not rated power, is the binding limit. A 700 W class module draws about 18.3 A short-circuit, so two paralleled strings exceed a 20 A input.
+> - The Qbits QB 5/6/8/10/12/15/17KTLC family lists 2 MPPTs, a 180 V to 1000 V MPPT window, 1100 V maximum DC, and an IP66 enclosure.
+> - Metering treatment varies by state, DISCOM, and consumer category. Net metering is not automatic at this size.
+> - MNRE introduced auto load enhancement up to 10 kW for PM Surya Ghar applications, reported in March 2026.
 
-> **The best 10kW for 2026 depends on phase connection and use case.** For large villas on single-phase, the Qbits TLS-10K delivers 12-year warranty and ALMM compliance at a competitive price. For small commercial on 3-phase, the Qbits TLD-10K or Sungrow SG10RT are the benchmarks. The Phase and Use-Case Matrix below maps you to the right one before brand shortlisting.
+**Short version.** The best 10 kW solar inverter in India is the three-phase on-grid unit whose MPPT count matches your roof planes, whose per-MPPT current limit clears your string current, and whose voltage window contains your string all day. Confirm sanctioned load and metering category before sizing. Get warranty and service terms in writing, and verify every spec on the current datasheet.
 
-The [best solar inverter in India 2026](/blog/best-solar-inverter-india/) overview covers the full market; this review narrows the lens to the 10 kW segment where two distinct buyer profiles (the large homeowner and the small-to-medium enterprise) converge on the same power class but diverge sharply on technical requirements.
+## Who actually buys a 10 kW system
 
-## Why 10 kW Is a Boundary Capacity in India
+Answer capsule: three buyers dominate this size in India. Large homes with heavy cooling load, small commercial premises such as shops, clinics, and offices, and housing societies covering common area consumption. Their electrical situations differ enough that one inverter can be right for one buyer and wrong for another.
 
-Ten kilowatts sits at a structural boundary in India's electricity distribution system. Below 10 kW, most residential consumers operate on single-phase connections. Above 10 kW, DISCOMs typically mandate three-phase connections for safety and load-balancing reasons. At exactly 10 kW, both configurations exist in the field, which is why the inverter market at this capacity offers both single-phase and 3-phase models, and why buying the wrong phase type is a costly mistake.
+The large home is closest to residential guidance. Consumption runs roughly 900 kWh to 1,400 kWh a month across three or more air conditioners, a pump, and an induction kitchen. The service is already three-phase because the connected load demands it.
 
-The boundary matters in three specific ways:
+The small commercial buyer has a different load curve. Consumption concentrates in daylight hours, which suits solar well, and tariffs usually exceed residential slabs. This buyer can also claim depreciation.
 
-- **DISCOM connection type**: Your sanctioned connected load determines phase eligibility. Most DISCOMs cap single-phase connections at 7.5 to 10 kVA. If your sanctioned load is at or below this ceiling, a single-phase 10 kW inverter may be approved. Above this ceiling, a 3-phase connection is mandatory.
-- **Load profile compatibility**: Three-phase motors, industrial compressors, and large HVAC chillers require 3-phase supply. A single-phase inverter cannot serve these loads directly, even at 10 kW output.
-- **Subsidy and tariff categories**: Residential consumers and small commercial consumers face different [net metering](/blog/net-metering-india-complete-guide/) rules and tariff structures, which affects the payback calculation for each inverter type.
+The housing society system serves lifts, pumps, corridor lighting, and the clubhouse on one common-area connection. A managing committee decides, which slows procurement but raises the documentation standard.
 
-> **14,000 kWh.** The approximate annual generation of a well-sited 10 kW solar system in India, assuming 4.5 peak sun hours per day and a performance ratio of 0.78. *Source - [NREL PVWatts Calculator](https://pvwatts.nrel.gov/), 2026.*
+What separates all three from a 3 kW to 5 kW home is the cost of downtime. A week of lost generation costs a household a few hundred rupees. It costs a commercial premises far more during a summer peak. Service coverage therefore outranks a fraction of a percent of conversion efficiency here.
 
-The size comparison guide at [3 kW vs 5 kW vs 10 kW Solar Inverters](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) provides the full capacity context if you are still deciding between power classes.
+## Why 10 kW is a three-phase decision
 
-## Section A: 10 kW for Large Villas and Farmhouses
+Answer capsule: three-phase is the default at this size for two reasons. The premises almost certainly holds a three-phase service already, and most DISCOMs cap single-phase export well below 10 kW. A single-phase unit on a three-phase meter also pushes all export onto one phase, which utilities resist.
 
-A large villa consuming 800 to 1,200 kWh per month is an ideal candidate for a 10 kW on-grid solar system. At a grid tariff of ₹7 to ₹9 per unit, monthly savings of ₹5,000 to ₹10,000 are achievable, delivering payback in five to seven years on the solar array.
+Indian distribution practice ties export phase to supply phase. Unbalanced export raises voltage on the loaded phase and can trip the inverter on overvoltage.
 
-### The Villa Use Case in Numbers
+Sanctioned load is the second issue. Most DISCOMs will not approve a rooftop system rated above your connected or sanctioned load. At 10 kW this stops being a formality, and a home with 7 kW sanctioned needs a load enhancement application first.
 
-The load profile of a typical 4 BHK villa or farmhouse driving a 10 kW system includes:
+That got easier for residential applicants. The Ministry of New and Renewable Energy waived the technical feasibility requirement and introduced auto load enhancement up to 10 kW under PM Surya Ghar, with the net metering agreement folded into the National Portal application, as reported in March 2026. Commercial consumers still apply through the normal DISCOM route. Background sits in the [three-phase inverter guide](/blog/3-phase-solar-inverter/).
 
-- **Air conditioning**: 4 to 6 split ACs of 1.5 to 2 tonnes, together drawing 6 to 9 kW at peak. Solar generation during the 9 AM to 5 PM window covers the majority of this load directly.
-- **Water heating and pumping**: geysers, bore-well pumps, and pool pumps add 2 to 4 kW of intermittent demand that aligns well with afternoon generation peaks.
-- **Common area and landscape lighting**: LED-based outdoor lighting draws less than 1 kW but runs in the evening, making partial battery storage or net metering essential.
-- **EV charging**: A growing number of villa owners are adding a 7.4 kW home EV charger, which can be charged in the afternoon peak generation window, eliminating petrol costs alongside electricity costs.
+## Worked example: what a 10 kW array generates
 
-For villas on single-phase supply, the inverter selection is clear: a single-phase 10 kW on-grid inverter. For farmhouses or villas that have already upgraded to three-phase connections (common in Maharashtra, Karnataka, and Tamil Nadu where the sanctioned load is higher) a 3-phase on-grid or 3-phase hybrid inverter is the better fit.
+Generation quoted without inputs is marketing. Here is the arithmetic with every input visible.
 
-### Key Specification Checks for Villa Buyers
+Inputs for this worked example:
 
-- **MPPT count and input range**: Dual-MPPT is preferred for villas with east-west roof orientations or partial shading from trees and parapets. Confirm the maximum input voltage exceeds 600 V DC for flexible string sizing. For farmhouses with complex or multi-plane roofs, a proper rooftop detailed engineering design pass before installation catches string-mismatch and shading problems that a generic quote misses.
-- **Export control / zero-export mode**: Some DISCOMs in UP, Bihar, and parts of Rajasthan do not yet have functioning net metering infrastructure. Zero-export mode prevents back-feeding and keeps the system compliant.
-- **Wi-Fi monitoring**: Villa owners are typically not technical. WhatsApp-based alerts and a simple mobile app are more practical than complex web dashboards designed for commercial fleet managers.
-- **IP66 weather rating**: Rooftop installations at farmhouses are often exposed to monsoon rain, dust storms, and extreme heat. IP65 is the bare minimum; IP66 provides a meaningful additional margin against water ingress at the conduit entries.
-- **PM Surya Ghar eligibility**: The central subsidy caps at 3 kW. For a 10 kW residential system, the maximum subsidy is ₹78,000 (the 3 kW ceiling amount). The remaining 7 kW is unsubsidised. Factor this into the total project cost when calculating payback.
+- Array size: 17 modules at 700 W = 11.9 kWp
+- Inverter rating: 10 kW AC
+- Peak sun hours: 4.5 per day (mid-range Indian value; verify state irradiation data)
+- Performance ratio: 0.78 (temperature, soiling, cabling, and conversion loss)
 
-## Section B: 10 kW for Small Commercial and SME Buyers
+Daily output = 11.9 kWp x 4.5 peak sun hours x 0.78 = **41.8 kWh per day**.
 
-Small commercial establishments (clinics, diagnostic centres, retail showrooms, restaurants, IT offices, and light manufacturing units) represent the second major buyer profile at 10 kW. Their concerns are structurally different from residential buyers, and the inverter specification requirements reflect this. Buyers who want a single vendor to handle the entire build, not just the inverter, can also compare turnkey commercial solar installation providers alongside the inverter shortlist below.
+Annual output = 41.8 x 365 = about **15,250 kWh per year**, or roughly 1,270 kWh per month.
 
-### The SME Use Case in Numbers
+Now a conservative case. At 4.0 peak sun hours and a 0.75 performance ratio, the same array gives 35.7 kWh per day, about 13,030 kWh per year. That 17% spread comes from site conditions, not from the inverter badge.
 
-A typical SME consuming 40 to 100 kWh per day on a 3-phase connection at a commercial tariff of ₹8 to ₹12 per unit faces a monthly electricity bill of ₹9,600 to ₹36,000. A 10 kW on-grid system generating approximately 38 to 45 kWh per day covers 40 to 100 percent of this demand, depending on the business's operating hours and load profile.
+At an effective commercial rate of ₹9 per kWh, 15,250 kWh is roughly ₹1.37 Lakh of offset consumption a year. Tariffs and settlement rules differ by state, so treat this as an illustration.
 
-The financial case is compelling on its own, and the [accelerated depreciation](/glossary/accelerated-depreciation/) benefit under Section 32 of the Income Tax Act strengthens it further. Business buyers can claim 40 percent depreciation in year one on the full system cost, reducing their effective outlay by ₹60,000 to ₹80,000 at typical tax rates on a ₹6,00,000 installed system. This effectively shortens the payback period by 12 to 18 months compared with a residential buyer facing the same energy costs. See [Solar Inverter Depreciation Tax Benefits](/blog/solar-inverter-depreciation-in-india/) for a detailed calculation.
+## The specs that actually matter at 10 kW
 
-### Key Specification Checks for SME Buyers
+Answer capsule: five datasheet lines decide the outcome. MPPT count against your roof planes. Per-MPPT current against your module current. Voltage window against your cold-condition string. Conversion efficiency. Enclosure rating against your mounting position. Rated power discriminates least, because every 10 kW unit is rated 10 kW.
 
-- **3-phase output**: Commercial premises in India are almost universally connected to 3-phase supply. A single-phase inverter will create phase imbalance and is typically rejected during DISCOM net metering inspection. Confirm 3-phase output before purchasing any 10 kW inverter for a commercial premises.
-- **Total Harmonic Distortion ([THD](/glossary/thd/))**: Sensitive equipment (medical instruments, server racks, variable-frequency drives) is vulnerable to harmonic pollution. An inverter with THD below 3 percent protects equipment and avoids interference with neighbouring loads on the distribution transformer.
-- **Grid code compliance**: Confirm [IEC 61727 and IEC 62116](https://www.iec.ch/solar-energy) (anti-islanding) compliance as specified by the [Central Electricity Authority](https://cea.nic.in/) in its grid interconnection standards. Most DISCOMs' net metering application forms explicitly ask for these certifications.
-- **Dual MPPT**: Commercial rooftops frequently have multiple orientations, shading from HVAC units, or split between east and west-facing sections. Dual [MPPT](/glossary/mppt/) trackers extract maximum yield from mismatched arrays. Design platforms such as [SurgePV's commercial solar design tools](https://surgepv.com/commercial-solar-design/) let installers model shading and orientation splits before committing to a string layout.
-- **Data logging and generation reports**: Many businesses need monthly generation reports for accounting, ESG reporting, or lease billing when the solar system is financed through a PPA. Inverters with cloud logging and downloadable CSV reports save administrative effort.
+**MPPT count and independent tracking.** A maximum power point tracker optimises one electrical group of modules. At 10 kW the array rarely fits one plane, so independent tracking recovers generation a shared tracker loses. Two MPPTs handle two orientations. A roof with three usable planes needs a third tracker or a decision about which plane to sacrifice. See [dual versus single MPPT](/blog/dual-mppt-vs-single-mppt/).
 
-> **40%.** The accelerated depreciation rate allowed on solar energy equipment under Section 32 of the Income Tax Act, claimable by any registered business entity in India in the year of asset acquisition. *Source - [Income Tax Act, Section 32, Ministry of Finance](https://incometaxindia.gov.in/), 2026.*
+**Per-MPPT current limit.** This catches buyers moving up from 5 kW, and it gets its own section below.
 
-For SMEs choosing between solar and maintaining diesel generator backup, the comparison at [Solar vs Diesel Generator India](/blog/solar-vs-diesel-generator-india/) quantifies the long-term cost delta with real operating cost data.
+**Voltage window.** The Qbits QB 5/6/8/10/12/15/17KTLC three-phase family lists a 180 V to 1000 V MPPT range, 1100 V maximum DC, and a 180 V starting voltage. Cold-condition open-circuit voltage must stay under the maximum, and operating voltage must sit inside the window all day.
 
-## The 10kW Inverter Phase and Use-Case Matrix
+**Efficiency.** That family lists 98.5% to 98.7% maximum efficiency by model, so read the column for your exact rating rather than the family headline. The curve at partial load matters more than the peak, because that is where the array spends most of the day.
 
-This is the proprietary framework that prevents the most common purchasing mistake in the 10 kW segment: buying a single-phase inverter for a commercial premises, or over-specifying a 3-phase hybrid when a simple on-grid unit would deliver better payback.
+**Ingress protection.** The Qbits catalogue lists IP66 across its series. At 10 kW the unit is often wall-mounted outdoors near the array to keep DC runs short, which makes the enclosure rating matter more than on a shaded indoor 3 kW install.
 
-### The 10kW Inverter Phase and Use-Case Matrix
+Pull the model-specific document rather than a brochure summary. Qbits states it is ALMM Phase III listed. Treat that as the company's own statement and ask for the current certificate covering the exact model you are buying.
 
-Apply the following four criteria in sequence. Each criterion eliminates one or more product categories:
+## String sizing and the DC to AC ratio
 
-1. **Phase check**: Confirm whether your electricity connection is single-phase or 3-phase. Single-phase connections eliminate all 3-phase inverters. Three-phase connections eliminate single-phase inverters. If you are unsure, check the number of MCBs in your main distribution board or read the phase configuration printed on your electricity bill.
+Answer capsule: the DC to AC ratio is array kWp divided by inverter AC rating. Between 1.10 and 1.30 is normal on Indian rooftops, because arrays almost never produce nameplate output. At 10 kW the binding constraint is usually per-MPPT current rather than voltage, and that is a change from smaller systems.
 
-2. **Backup requirement**: If your premises experiences frequent power cuts lasting more than two hours per day, a hybrid inverter with battery capability is justified. If the grid is reliable (fewer than one cut per week, lasting under one hour), an on-grid inverter offers faster payback and lower total cost. Compare topologies at [On-Grid vs Hybrid vs Off-Grid Decision Guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/).
+Worked sizing example, using a 700 W class module with 48.58 V open-circuit, 18.31 A short-circuit, and a -0.26% per °C voltage coefficient, published on the manufacturer datasheet:
 
-3. **Tax entity status**: If you are a registered business (proprietorship, partnership, private limited company), accelerated depreciation at 40 percent in year one is available. Residential buyers cannot claim this. This criterion does not change the inverter choice but changes the payback period significantly and should be factored into the brand-vs-budget decision at step four.
+1. DC to AC ratio = 11.9 kWp / 10 kW = **1.19**. Comfortable for most Indian sites.
+2. String layout: 17 modules split 9 and 8 across the two MPPTs, matching two roof planes.
+3. Cold correction at a 5 °C minimum design temperature: 20 °C below standard conditions, so voltage rises 5.2%. Each module reads 51.1 V.
+4. String voltage: 9 modules x 51.1 V = 460 V. Against a 1000 V MPPT ceiling the theoretical maximum string is 19 modules, so 460 V leaves wide margin.
+5. Hot-end check: at 65 °C cell temperature the maximum power voltage falls roughly 10%, to about 36.3 V. Nine modules give 326 V, above the 180 V MPPT floor and the 180 V starting voltage.
+6. **Current check: string current is 18.31 A. One string per MPPT fits a 20 A class input with almost no headroom. Two strings paralleled on one MPPT give 36.6 A and do not fit.**
 
-4. **Brand and service radius**: Confirm the manufacturer has a service partner within 60 km of your premises. For residential buyers, an RMA turnaround of 72 hours is the minimum acceptable. For commercial buyers, every day of downtime during peak operating hours is a real revenue loss. Verify the service network using the [Qbits Authorised Service Partners](/authorized-service-partners/) lookup before finalising any brand.
+Step 6 surprises people. A 700 W class module draws close to twice the current of the 330 W modules that shaped older design habits. A dual-MPPT inverter with a 20 A per-MPPT limit therefore accepts two strings in total, not four.
 
-Running these four steps takes less than five minutes and eliminates the wrong inverter categories before you spend time comparing specifications between incompatible products.
+Qbits publishes a 20 A maximum DC input on its single-phase KTLS and KTLD families. The three-phase catalogue summary does not publish a per-MPPT figure, so read it off the QB 6.0 to 17.0 kW datasheet. Run your own module and minimum design temperature through the [string sizing calculator](/string-sizing-calculator/), which carries published Adani, Waaree, and Vikram datasheet values.
 
-## Quick-Pick Table: Best 10 kW Solar Inverters in India 2026
+## Comparing 10 kW class inverters across brands
 
-The table below covers all six inverters reviewed in this post. The "Best for" column maps to the matrix above.
+Answer capsule: a useful comparison at this size compares configuration, not reputation. The table lists families sold in India in this class and what to pull for each. Windows, current limits, and efficiency figures change by model and revision, so verify every cell on the current datasheet.
 
-| Inverter | Phase | Type | Warranty | ALMM | Best for | Approx. Price |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Qbits TLS-10K** | Single | On-grid | 12 years | ✓ | Large villas | ₹62,000–₹70,000 |
-| **Qbits TLD-10K** | 3-phase | On-grid | 12 years | ✓ | Small commercial | ₹68,000–₹78,000 |
-| **Qbits HT-10K** | 3-phase | Hybrid | 12 years | ✓ | C&I with power cuts | ₹95,000–₹1,10,000 |
-| **Sungrow SG10RT** | 3-phase | On-grid | 5–10 years | ✓ | Global brand C&I | ₹90,000–₹1,15,000 |
-| **Goodwe GW10K-ET** | 3-phase | On-grid | 5 years | ✓ | Budget 3-phase | ₹72,000–₹88,000 |
-| **Solis 4G 10kW** | 3-phase | On-grid | 5 years | ✓ | EPC value | ₹65,000–₹80,000 |
+| Brand family (10 kW class in India) | Phase | MPPTs | Verify on the current datasheet |
+| --- | --- | --- | --- |
+| Qbits QB KTLC | Three | 2 | 180 V to 1000 V MPPT, 1100 V max DC, per-MPPT current, 98.5% to 98.7% efficiency, IP66 |
+| Qbits QBH KS48P3 hybrid | Three | 1 or 2 by model | 200 V to 800 V MPPT, 1000 V max DC, battery current, backup output, IP66 |
+| Growatt, Sungrow, Solis | Three | 2 | MPPT window, per-MPPT current, AC voltage range, service coverage |
+| Deye | Three | 2 | MPPT window, per-MPPT current, battery port spec if hybrid |
+| Luminous, Microtek, UTL, Havells, Polycab | Three | 1 or 2 | MPPT window, per-MPPT current, service network depth |
+| Fronius, SMA, Delta | Three | 2 | MPPT window, per-MPPT current, spares lead time in India |
 
-Prices are indicative dealer-level figures as of June 2026 and exclude GST, panels, mounting, and installation. For GST applicability on inverters, see [GST on Solar Inverters 2026](/blog/gst-on-solar-inverters-2026/).
+Four things decide a shortlist: MPPT count, per-MPPT current, voltage window, and who answers a service call in year seven. Never accept a specification or a warranty term quoted verbally.
 
-## Detailed Reviews: The Six Best 10 kW Inverters
+Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Ask every shortlisted brand for equivalent written commitments, including who pays freight and labour on a claim.
 
-### Qbits TLS-10K: Best for Large Villas (Single-Phase On-Grid)
+## Commercial considerations at 10 kW
 
-The TLS-10K is Qbits's single-phase string inverter at 10 kW, designed explicitly for large residential installations where the grid connection is single-phase. It carries [ALMM Phase III](/glossary/almm-list/) listing, making it eligible for PM Surya Ghar subsidy applications on the first 3 kW of capacity.
+Answer capsule: at this size, paperwork and tax treatment move the project more than hardware does. Four items matter: sanctioned load, the metering arrangement your consumer category attracts, whether your connection voltage triggers inspectorate approval, and whether the buyer can depreciate the asset.
 
-**What sets it apart:** The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) is the longest in its class. This is not a prorated or parts-only warranty, Qbits replaces the unit if it fails, at no cost to the owner, for twelve years. Combined with a declared 72-hour RMA SLA and service partners in 280+ Indian cities, this warranty is enforceable in a way that equivalent claims from international brands often are not.
+**Sanctioned load.** Most DISCOMs cap the system at your connected or sanctioned load, so check your bill before accepting a quotation. Residential applicants benefit from the auto load enhancement up to 10 kW that MNRE introduced, reported in March 2026.
 
-The TLS-10K operates across 180 to 270 V grid voltage (the actual range that Indian grids deliver rather than the nominal 230 V) preventing nuisance tripping that is common with inverters tuned to European grid standards. IP66 enclosure protects the unit on exposed rooftops. AI-powered WhatsApp monitoring sends daily generation summaries and fault alerts without requiring the homeowner to log into a separate app.
+**Metering arrangement.** Net metering credits exported units against imported units. Gross metering pays a fixed rate for everything you export while you buy all consumption at retail tariff. Several state tariff orders move commercial consumers off net metering above a threshold, so a 10 kW commercial system may not get the treatment a 10 kW home does. Read the [net versus gross metering comparison](/blog/gross-metering-vs-net-metering/), then confirm the current order for your state and category.
 
-**Specifications at a glance:**
-- **Maximum DC input**: 600 V, dual MPPT
-- **Peak efficiency**: 98%
-- **Operating temperature**: −25 °C to 60 °C
-- **Communication**: Wi-Fi, RS-485, 4G optional
-- **Certifications**: BIS, IEC 61727, IEC 62116, ALMM Phase III
+**Inspectorate approval.** Approval by the Chief Electrical Inspector is triggered by voltage level rather than system size, under the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023. A 10 kW rooftop system on a low-voltage service normally falls below the threshold. If the premises connects at high voltage for other reasons, the inspection applies regardless of solar rating. State procedures differ.
 
-**Verdict:** The TLS-10K is the default choice for any large villa or farmhouse on single-phase supply where warranty depth and after-sales reliability matter more than brand recognition. Buyers willing to pay a small premium over budget Indian assemblers get a meaningfully better product with a 12-year safety net.
+**Depreciation.** Solar assets qualify for accelerated depreciation under the Income Tax Rules, which writes down a larger share of the asset value early than straight-line treatment allows. Rates change with finance legislation, so confirm the current position with your chartered accountant. Two points get misstated in quotations. Depreciation reduces taxable profit, not the invoice, so the benefit depends on having profit to shelter. And the claim attaches to the owner of the asset, which matters under lease, RESCO, or opex structures. The [inverter depreciation guide](/blog/solar-inverter-depreciation-in-india/) works through the mechanics.
 
----
+Home owners sit in a different regime. Central financial assistance under PM Surya Ghar: Muft Bijli Yojana (MNRE) is computed on module capacity and capped at 3 kW, so the published residential maximum applies whether your system is 3 kW or 10 kW.
 
-### Qbits TLD-10K: Best for Small Commercial (3-Phase On-Grid)
+## Why two 5 kW inverters sometimes beat one 10 kW unit
 
-The TLD-10K is the 3-phase counterpart to the TLS-10K, built for commercial premises on three-phase grid connections. The topology shift from single-phase to 3-phase changes the internal architecture significantly: three independently regulated output legs, balanced three-phase injection, and THD below 3 percent under full load conditions, characteristics that protect sensitive equipment in clinics, server rooms, and precision manufacturing.
+This is the argument most installers skip, because it is more work to quote and install.
 
-**What sets it apart:** The same 12-year warranty that distinguishes the TLS-10K is available on the TLD-10K, unusual in the 3-phase on-grid segment, where most competitors default to 5 years. For a small business owner who cannot afford prolonged downtime, a 12-year warranty backed by a 72-hour RMA SLA is a material operational insurance policy, not just a sales claim.
+Splitting 10 kW into two units buys three things. Partial output survives a single failure, so a fault costs half your generation rather than all of it. Each unit sits near its own roof plane, shortening DC runs. And each unit brings its own MPPT budget.
 
-The TLD-10K accepts a DC array of up to 15 kWp with dual MPPT tracking, allowing installers to configure 1.3 to 1.5× oversizing ratios that are common in high-irradiance locations such as Rajasthan, Gujarat, and coastal Tamil Nadu. This [DC oversizing](/glossary/dc-oversizing/) strategy boosts annual energy yield by 8 to 15 percent on sites with predictable high-irradiance mornings.
+That last point is the strongest. A dual-MPPT 10 kW inverter gives two independent tracking zones. Two dual-MPPT 5 kW inverters give four, for a roof that genuinely needs them.
 
-**Specifications at a glance:**
-- **Output**: 3-phase, 400 V AC
-- **Maximum DC input**: 800 V, dual MPPT
-- **THD**: < 3% at full load
-- **Peak efficiency**: 98%
-- **Certifications**: BIS, IEC 61727, IEC 62116, ALMM Phase III
+Now the honest costs. Two sets of AC protection, two isolators, two loggers, and more cable. Installation labour rises. Monitoring splits across two data streams unless the brand aggregates them. And most 5 kW units in India are single-phase, so on a three-phase service you must allocate them across phases and check your DISCOM's single-phase export rules. Efficiency is close to a wash.
 
-**Verdict:** The TLD-10K is the strongest combination of warranty depth, commercial-grade specifications, and India-first service in the 3-phase 10 kW on-grid market. It suits clinics, retail showrooms, and small offices where reliability and long-term ownership cost are the primary decision factors.
+The rule is simple. Split the capacity when the roof has more than two usable orientations, when a single failure would be expensive, or when DC runs would otherwise be long. Keep one three-phase unit when the roof is simple. The [3 kW versus 5 kW versus 10 kW comparison](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) covers the sizing step before this one.
 
----
+## Fit test: which 10 kW buyer are you
 
-### Qbits HT-10K: Best for C&I with Power Cuts (3-Phase Hybrid)
+Answer capsule: five common situations map onto five different answers. Identify yours before shortlisting any model. The situation eliminates most of the market in one step, and saves you comparing specifications that were never going to matter.
 
-The HT-10K is a 3-phase hybrid inverter, meaning it combines solar generation with battery storage management in a single unit. It is designed for commercial and industrial premises where power cuts are frequent enough to cause real operational disruption, medical facilities that cannot afford to lose cold chain integrity, restaurants that cannot stop mid-service, or manufacturing units where a grid outage wastes work-in-progress.
-
-**What sets it apart:** Unlike on-grid inverters that shut down when the grid fails (a safety requirement under anti-islanding rules), the HT-10K switches to battery-backed island mode within milliseconds. Critical loads continue uninterrupted. Solar generation that would otherwise be lost during a daytime outage is stored in the battery bank and used when grid power returns.
-
-The HT-10K supports both lithium-ion and lead-acid battery banks, allowing buyers to start with an existing inverter battery installation and upgrade to lithium later. [Battery capacity can be sized](/blog/battery-sizing-hybrid-solar/) from 5 kWh to 50 kWh depending on the required backup duration. At the higher end of this range, the system can sustain a 5 kW critical load for up to 10 hours, enough to cover most outage durations in India's most grid-challenged states.
-
-**Specifications at a glance:**
-- **Output**: 3-phase, 400 V AC
-- **Battery compatibility**: Li-ion (LFP, NMC) and VRLA lead-acid
-- **Maximum DC input**: 900 V, dual MPPT
-- **Transfer time**: < 20 ms (uninterrupted for most loads, including computers and medical monitors)
-- **Certifications**: BIS, IEC 62109, ALMM Phase III
-
-**Verdict:** The HT-10K carries a 25 to 40 percent price premium over the on-grid TLD-10K, which is justified only if power cuts are frequent and cause genuine operational loss. For premises with reliable grid supply, the simpler on-grid TLD-10K offers faster payback. For the decision framework, use [On-Grid vs Hybrid vs Off-Grid Decision Guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/).
-
----
-
-### Sungrow SG10RT: Best Global Brand for C&I
-
-Sungrow is the world's largest solar inverter manufacturer by shipment volume, and the SG10RT is its primary 3-phase string inverter at 10 kW. It carries a mature product lineage, strong ALMM listing history, and the iSolarCloud monitoring platform, one of the most capable fleet monitoring tools in the industry for commercial installers managing multiple sites.
-
-**What sets it apart:** The SG10RT has a strong track record in Indian commercial installations, particularly in states where DISCOM engineers are already familiar with Sungrow's commissioning documentation. For businesses that require bankability evidence (project finance, RESCO structures, or corporate sustainability audits) Sungrow's global brand recognition and published reference projects provide reassurance that smaller brands cannot match.
-
-The standard warranty is 5 years with an option to extend to 10 years for an additional cost. This is meaningfully shorter than the Qbits 12-year standard warranty, a gap that becomes financially material if the inverter fails in year 6 or 7.
-
-**Verdict for Indian buyers:** The SG10RT is the strongest choice when bankability documentation and brand recognition are requirements, typically for project-financed installations, corporate buyers, or large housing society systems where the decision-maker needs third-party credibility. At the SME level, the shorter standard warranty and higher price point make the Qbits TLD-10K a more cost-effective alternative.
-
----
-
-### Goodwe GW10K-ET: Best Budget 3-Phase
-
-Goodwe is a Chinese manufacturer with good ALMM standing and a growing presence in the Indian EPC market. The GW10K-ET is its 3-phase 10 kW on-grid model, positioned as a value alternative to Sungrow for price-sensitive commercial buyers.
-
-**What sets it apart:** The GW10K-ET offers competitive specifications (dual MPPT, 98% peak efficiency, and SEMS monitoring portal) at a price point approximately 15 to 25 percent below Sungrow at the same power class. For EPC companies working on fixed-price commercial contracts, this margin matters.
-
-The 5-year standard warranty is a limitation. Extended warranty to 10 years is available but requires a separate service contract. The SEMS monitoring platform is functional but less polished than iSolarCloud for multi-site management. India-specific service coverage is improving but remains thinner than Qbits or Sungrow in Tier-2 and Tier-3 cities.
-
-**Verdict:** The GW10K-ET suits SME buyers in Tier-1 cities where Goodwe's service network is adequate, and where the project economics require the lowest possible inverter cost. Buyers in Tier-2 or Tier-3 cities, or those planning to hold the system for more than 8 years, should factor in the shorter warranty and service uncertainty.
-
----
-
-### Solis 4G 10kW: Best EPC Value
-
-Solis (manufactured by Ginlong Technologies) is a well-regarded Chinese OEM with strong penetration in the Indian EPC market, particularly among mid-sized installers. The 4G 10kW 3-phase on-grid model is a reliable, no-frills commercial inverter at competitive EPC pricing.
-
-**What sets it apart:** Solis has built a reputation among Indian EPCs for consistent product availability, straightforward commissioning documentation, and reasonable dealer margins. The 4G series carries ALMM listing and IEC certifications required for most commercial net metering applications. The monitoring platform (SolisCloud) is adequate for single-site commercial installations.
-
-The standard warranty is 5 years, with limited visibility on the India-specific service SLA. EPC buyers who handle their own commissioning and first-line service often prefer Solis for the price-to-specification ratio on bulk orders.
-
-**Verdict:** The Solis 4G 10kW is an EPC-first product, best suited for installer-buyers who will handle their own commissioning, have existing Solis service relationships, and are purchasing in quantities of 5 or more units. For end-customer direct purchases where after-sales support is the primary concern, the Qbits TLD-10K offers better ownership terms.
-
-## Single-Phase vs 3-Phase 10 kW: Decision Guide
-
-The phase decision is irreversible once the inverter is purchased and the DISCOM connection type is established. Use the table below as the final check before ordering.
-
-| Criterion | Single-Phase 10 kW | 3-Phase 10 kW |
+| Your situation | What to specify | Why |
 | --- | --- | --- |
-| **DISCOM connection** | Single-phase supply, ≤ 10 kVA sanctioned load | Three-phase supply, or sanctioned load > 10 kVA |
-| **Premises type** | Large villa, farmhouse, small single-phase shop | Clinic, office, restaurant, factory, retail showroom |
-| **Load compatibility** | Standard household loads, single-phase ACs, lighting | Three-phase motors, industrial ACs, medical equipment |
-| **Phase balance** | Not applicable | Required - inverter must export balanced load across all three phases |
-| **Available models** | Qbits TLS-10K | Qbits TLD-10K, HT-10K, Sungrow SG10RT, Goodwe GW10K-ET, Solis 4G |
-| **Net metering approval** | Straightforward for residential DISCOMs | Requires commercial connection documentation |
-| **Subsidy eligibility** | PM Surya Ghar up to 3 kW (residential only) | Not eligible for PM Surya Ghar; eligible for accelerated depreciation |
+| Large home, three-phase service, one or two roof planes | Three-phase on-grid, 2 MPPTs | The standard configuration at this size |
+| Shop, clinic, or office with daytime load | Three-phase on-grid, 2 MPPTs, depreciation modelled | Load curve matches generation; tax treatment changes the sums |
+| Housing society common area | Three-phase on-grid, documented service terms | Committee procurement needs written commitments |
+| Three or more roof orientations | Two smaller units, or a unit with more trackers | Tracking zones, not rated power, are the constraint |
+| Frequent or long outages, three-phase service | Three-phase hybrid plus a right-sized battery | The battery is the real expense, not the inverter |
 
-If your premises has both single-phase and 3-phase connections (uncommon but present in some converted residential-commercial buildings), the 3-phase inverter is always the safer choice, it can inject into all three phases while a single-phase inverter cannot.
+Browse configurations on the [on-grid inverter range](/on-grid-inverter/) once you know which row you occupy.
 
-## PM Surya Ghar and Subsidy Rules for 10 kW Systems
+## Installation and commissioning checks
 
-The PM Surya Ghar Muft Bijli Yojana provides central subsidy for residential rooftop solar systems in India, but buyers of 10 kW systems must understand its ceiling clearly to avoid disappointment.
+Answer capsule: commissioning is where a correct specification becomes a working system. Most first-year underperformance at this size traces to installation shortcuts and configuration errors, not hardware defects. Run this list on the day, and insist the results are recorded in writing.
 
-The subsidy structure as of June 2026 is as follows:
+1. Confirm the model number on the unit matches the quotation and the approved design.
+2. Verify phase rotation and that all three phases are present before switch-on.
+3. Check mounting: shaded, ventilated, vertical, and clear of west-wall heat.
+4. Measure each string's open-circuit voltage against the calculated cold-condition value.
+5. Measure string current and confirm it sits under the per-MPPT limit on the datasheet.
+6. Confirm each roof plane is wired to its own MPPT, not paralleled into one.
+7. Verify earthing continuity and surge protection on the DC and AC sides.
+8. Confirm the AC isolator, breaker rating, and cable size against the installation manual.
+9. Test anti-islanding by opening the grid isolator and confirming shutdown.
+10. Record the firmware and grid code settings, register the warranty, and put the monitoring account in the owner's name that day.
 
-- **Up to 2 kW**: ₹30,000 per kW (subsidy of ₹60,000 for 2 kW)
-- **2 kW to 3 kW**: ₹18,000 per kW for the incremental capacity (additional ₹18,000 for the third kW)
-- **Above 3 kW**: No additional central subsidy. The maximum central subsidy is ₹78,000 regardless of system size.
+Check step 6 physically rather than trusting the drawing. A crew that parallels two roof planes onto one tracker undoes the reason you paid for two. The full sequence is in the [commissioning guide](/blog/solar-inverter-commissioning-in-india/).
 
-For a 10 kW residential system, the central subsidy is capped at ₹78,000. The remaining capacity from 3 kW to 10 kW is fully unsubsidised. Some states offer additional state-level subsidies that may partially offset this gap, check your state DISCOM's or RESCO's current scheme documentation for state-specific amounts.
+## The Bottom Line
 
-For commercial buyers, PM Surya Ghar is entirely inapplicable, the scheme is restricted to domestic consumers. Commercial buyers should instead focus on accelerated depreciation under Section 32 of the Income Tax Act, net metering billing benefits under their state's commercial solar policy, and [solar inverter depreciation tax benefits](/blog/solar-inverter-depreciation-in-india/) that directly improve the project [IRR](/glossary/irr/).
+There is no universal best 10 kW solar inverter in India. There is a correct configuration for your roof planes, your phase connection, your metering category, and your tolerance for downtime.
 
-> **₹78,000.** The maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for any residential rooftop system, regardless of capacity above 3 kW. *Source - [PM Surya Ghar Portal, MNRE](https://pmsuryaghar.gov.in/), 2026.*
+Three-phase is the default. Per-MPPT current is the limit that bites on modern high-current modules. Metering treatment and sanctioned load set your timeline, and neither depends on the brand you buy.
 
-ALMM-listed inverters are mandatory for subsidy claims. Confirm ALMM Phase III status on the [MNRE ALMM list](https://mnre.gov.in/almm-list/) before finalising the purchase.
+Three things to do next:
 
-## Common Mistakes When Buying a 10 kW Solar Inverter
-
-Buyers at this capacity level make predictable errors that add cost, delay approvals, or void warranties. The five most common:
-
-- **Buying single-phase for a 3-phase connection**: The DISCOM's net metering team will reject the installation. The inverter must be returned, and the delay adds weeks to the commissioning timeline. Always confirm your connection type in writing from your DISCOM before ordering.
-- **Ignoring the DC oversizing window**: Sizing the panel array at exactly 10 kWp for a 10 kW inverter wastes the inverter's [DC oversizing](/glossary/dc-oversizing/) headroom. An installer who sizes at 12 to 13 kWp (1.2 to 1.3× ratio) will generate 8 to 12 percent more annual energy from the same inverter, improving the [payback period](/glossary/payback-period/) without increasing the inverter cost.
-- **Choosing a 5-year warranty to save ₹5,000 upfront**: The cost difference between a 5-year warranty inverter and a 12-year warranty inverter at 10 kW is typically ₹5,000 to ₹15,000. Replacing an inverter out of warranty costs ₹50,000 to ₹80,000 plus installation. The arithmetic strongly favours the longer warranty at this capacity.
-- **Skipping the service network check**: A brand with an excellent catalogue but no service partner within 100 km is a liability, not an asset. Use the [Qbits Authorised Service Partners](/authorized-service-partners/) directory or ask the dealer for the nearest certified service centre before signing any contract.
-- **Assuming all ALMM inverters are equivalent**: ALMM listing confirms regulatory compliance; it does not certify service quality, warranty enforceability, or firmware update cadence. Two ALMM-listed inverters can deliver vastly different ownership experiences over 10 years.
-
-For a broader discussion of inverter selection mistakes, the [On-Grid vs Hybrid vs Off-Grid Decision Guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) covers topology mistakes that are equally costly at any capacity.
-
-## Where Qbits Fits
-
-Buyers who want the longest standard warranty at 10 kW (twelve years, full replacement, backed by an India-registered entity) along with IP66 weather protection, AI-powered WhatsApp monitoring, and India-grid-tuned firmware without paying global OEM import prices consistently land on Qbits. The TLS-10K, TLD-10K, and HT-10K cover all three primary use cases at this capacity: single-phase villa, 3-phase commercial on-grid, and 3-phase commercial hybrid. All three models carry ALMM Phase III listing and BIS certification, satisfying subsidy documentation and DISCOM net metering requirements.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW. ALMM-listed, subsidy-eligible, suitable for both residential and commercial on-grid systems.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HT series with battery readiness and millisecond transfer for premises where power cuts are a genuine operational risk.
-- **[C&I Solar Solutions](/c-i-solution/)**: Application notes, project references, and accelerated depreciation documentation for business buyers evaluating 10 kW commercial systems.
-
-If you have the electricity bill, roof measurements, and sanctioned load figure from your DISCOM, a Qbits engineer can return a full system design and price quote within 24 hours. [Request a quote at the contact page](/contact-us/), Qbits ships and services systems across 280+ Indian cities.
+- Check your bill for sanctioned load and phase type, then confirm with your DISCOM which metering arrangement your consumer category attracts at 10 kW.
+- Run your exact module, string layout, and minimum design temperature through the [string sizing calculator](/string-sizing-calculator/), then check the result against the per-MPPT current limit on the datasheet.
+- Send your roof plane layout, sanctioned load, and consumer category to the [Qbits team](/contact-us/) for a model-specific specification and current written warranty terms.

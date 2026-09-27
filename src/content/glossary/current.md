@@ -68,6 +68,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is current
 
 Current is the rate of flow of electric charge through a conductor, measured in amperes (A). One ampere equals one coulomb of charge per second. Current is driven by [voltage](/glossary/voltage/) and limited by the resistance of the circuit, per Ohm's law: I = V / R.
@@ -199,8 +201,6 @@ IS 14772 and IS 60898 cover residential breakers.
 
 IS 13947 covers industrial breakers.
 
-[ALMM-listed](/glossary/almm-list/) inverters specify maximum DC input current per MPPT.
-
 ## Standards and certifications
 
 | Standard | Scope |
@@ -217,8 +217,6 @@ IS 13947 covers industrial breakers.
 Current is the rate of flow of electric charge, measured in amperes. Indian solar PV strings carry 10 to 18 A DC. Inverter AC output currents range from a few amperes to thousands depending on capacity. Cable sizing, fuse selection, breaker specification and connection torque all depend on accurate current ratings. Overcurrent causes heating, voltage drop and fire risk.
 
 ## Need current-aware solar design?
-
-QBits Energy designs solar systems with proper current ratings for cables, protection and inverters across Indian utility, C&I and residential applications.
 
 ## Further reading
 

@@ -177,4 +177,4 @@ Polish software has to price two kinds of kilowatt-hour, and most prices one.
 - **Split export from self-consumption.** They differ by a factor of several, and an annual generation figure hides the distinction entirely.
 - **Lead with avoided import.** It is the stable half of the value and the half you can still defend in a year.
 - **Simulate storage with the array.** Raising self-consumption is usually worth more than adding modules.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Polish address, or reach the Qbits team [here](/contact-us/) for inverter and battery specification.
+

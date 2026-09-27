@@ -186,4 +186,4 @@ Polish design is a self-consumption optimisation wearing the clothes of a genera
 - **Size to the daytime load curve.** Capacity beyond it earns RCEm, which is a fraction of what the household pays to import.
 - **Simulate storage with the array, not after it.** Doubling self-consumption is usually worth more than adding modules.
 - **Test at two RCEm assumptions.** A design justified on export revenue is exposed to a reference price that moved 40 percent in a month.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Polish address, or reach the Qbits team [here](/contact-us/) for inverter and battery specification against the finished design.
+

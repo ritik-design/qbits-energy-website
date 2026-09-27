@@ -195,4 +195,4 @@ Irish proposals fail on two averaged numbers that should never be averaged.
 - **Model the grant band, not a percentage.** Support per kilowatt collapses above 2 kWp and stops at 4, and the customer should see where that happens.
 - **Ask which supplier they are with.** Export rates span more than two to one, and it is the largest unmodelled variable in most Irish quotes.
 - **Name the connection pathway.** NC6 is a notification you control, NC7 is an application you do not, and the promised timeline should reflect which one applies.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for EN 50549-compliant inverter specification.
+

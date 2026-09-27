@@ -278,8 +278,6 @@ A PPA is the contractual foundation for any utility-scale Indian solar project. 
 
 ## Need PPA structuring or negotiation support?
 
-QBits Energy advises developers, C&I customers and corporate offtakers on solar PPA structuring, tariff modelling and bankable contract terms across India.
-
 ## Further reading
 
 For how Power Purchase Agreement plays out in real projects, these guides go deeper:

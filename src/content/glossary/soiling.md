@@ -229,8 +229,6 @@ Soiling is one of the largest controllable yield loss factors in Indian solar PV
 
 ## Need optimised cleaning programmes for your solar plant?
 
-QBits Energy designs and operates cleaning programmes for residential, C&I and utility solar plants tailored to Indian soiling conditions.
-
 ## Further reading
 
 For how Soiling plays out in real projects, these guides go deeper:

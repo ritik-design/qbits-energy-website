@@ -22,9 +22,9 @@ faqs:
   - q: "Why are most modern solar inverters transformerless?"
     a: "The efficiency advantage is the primary driver. A 2–4 percentage-point gain in conversion efficiency - from roughly 95% for transformer-based to 98% for transformerless - compounds over a 25-year system life. On a 10 kW rooftop in Pune with 5.5 peak sun hours, that gap translates to roughly 4,000–8,000 additional kilowatt-hours delivered over the system's lifetime. Added benefits include 30–50% weight reduction (critical for rooftop structural loads), smaller physical footprint, and lower bill-of-materials cost passed through to the EPC margin."
   - q: "Does a transformerless inverter void the solar panel warranty?"
-    a: "Not when the system is earthed correctly. The concern relates to potential-induced degradation (PID), which can occur in some crystalline silicon modules when the panel frame is not at the same potential as the negative DC terminal. Proper system earthing - connecting the module frame to the inverter's protective earth terminal per IEC 62109 - eliminates this risk. All Qbits TLS series inverters include built-in residual current monitoring and comply with IEC 62109, making PID mitigation straightforward when the installer follows the commissioning checklist."
+    a: "Not by itself, but it is a system-design question worth checking rather than assuming. A transformerless inverter has no galvanic isolation between the array and the grid, which matters for module types whose manufacturer requires a specific array grounding arrangement, and it is relevant to potential induced degradation on some designs. Most current crystalline silicon modules are specified for use with transformerless inverters. The decisive document is the module manufacturer's installation manual, which states the system voltage and grounding requirements that keep its warranty intact, so read that alongside the inverter manual before finalising the pairing."
   - q: "Are transformerless inverters ALMM-listed in India?"
-    a: "Yes. The ALMM (Approved List of Models and Manufacturers) maintained by MNRE does not discriminate by inverter topology. Both transformerless and transformer-based inverters can be listed, provided they pass the requisite BIS and IEC certification tests. The Qbits TLS series - a transformerless design - is ALMM-listed, making it eligible for use in government-subsidised rooftop projects under PM Surya Ghar Muft Bijli Yojana and other MNRE-funded schemes."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "When should an EPC specify a transformer-based inverter instead?"
     a: "Transformer-based inverters remain the preferred choice in three specific scenarios: (1) industrial sites with sensitive medical or laboratory equipment requiring hard galvanic isolation between the DC solar array and AC load circuits; (2) older DISCOM tender specifications written before 2018 that explicitly mandate galvanic isolation; and (3) floating solar or offshore installations where leakage current to water is a primary concern. For standard commercial rooftop, industrial rooftop, and residential projects in India, a certified transformerless design is preferred."
   - q: "What is galvanic isolation in a solar inverter?"
@@ -35,6 +35,8 @@ faqs:
     a: "Yes, and this is the most commonly mishandled installation step. The negative DC terminal must NOT be earthed at the array end in a transformerless inverter system - unlike some older transformer-based designs where DC negative earthing was standard practice. Instead, the protective earth (PE) conductor must bond the module frames and inverter enclosure to the site earth electrode. The inverter's internal residual current device then monitors the circuit. Installers should follow the earthing diagram in the inverter manual and verify leakage current at commissioning, as specified in IEC 62109 and the CEA 2010 Technical Standards."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every EPC project manager in India has fielded this question at least once during a client technical review: "Why does this inverter not have a transformer, is it cutting corners?" The confusion is understandable. For decades, the transformer was the defining component of a power conversion unit. Removing it feels counterintuitive.
 
 The reality is more nuanced. Transformerless design is not a cost-cutting measure, it is an engineering evolution that trades a bulky magnetic component for a more sophisticated control architecture. Understanding that distinction, and knowing precisely when each topology is the right specification, is what separates an informed EPC from one that over-specifies (and erodes margin) or under-specifies (and faces a site rejection from the DISCOM).
@@ -44,7 +46,7 @@ The reality is more nuanced. Transformerless design is not a cost-cutting measur
 > - BIS IS 16169 and IEC 62109 permit both topologies; transformerless designs replace the transformer's physical galvanic isolation with electronic DC injection monitoring that trips within milliseconds if leakage current exceeds 1 A.
 > - The 4-Spec Comparison framework (efficiency delta, structural weight budget, tender compliance posture, DC injection protection verification) is the fastest way for an EPC to choose the right topology for a project.
 > - Transformer-based units remain the right call for sites needing hard galvanic isolation, such as sensitive medical or lab equipment, pre-2018 DISCOM tenders that mandate isolation, and floating solar near water.
-> - ALMM listing does not discriminate by topology; Qbits' transformerless TLS series is ALMM-listed and carries current IS 16169 certification.
+> - MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Obtain current model-specific inverter certificates and confirm the applicable scheme and DISCOM requirements separately.
 
 > **Direct answer.** A [transformerless inverter](https://www.surgepv.com/blog/transformer-vs-transformerless-solar-inverter) delivers 97–99% peak efficiency versus 94–96% for transformer-based designs, weighs 30–50% less, and is fully permitted under BIS IS 16169 and IEC 62109 for Indian grid-tied installations. The "4-Spec Comparison for Indian EPCs" framework (covering efficiency, weight, safety compliance, and tender eligibility) is the fastest way to choose the right topology for each project.
 
@@ -169,7 +171,7 @@ This is where the India-specific complexity enters. State DISCOMs write their ow
 
 - **Post-2018 DISCOM specs** (most states, including MH, GJ, KA, TN, RJ): Reference IS 16169 or IEC 62109 directly. Transformerless permitted.
 - **Pre-2018 DISCOM specs** (some PSU clients, CPWD, Railways older tenders): May include language like "inverter shall incorporate galvanic isolation between DC and AC circuits." Transformerless not compliant without a derogation.
-- **PM Surya Ghar MNRE specs**: Reference ALMM and IS 16169. Transformerless explicitly permitted for ALMM-listed models.
+- **PM Surya Ghar projects**: Check the current scheme and DISCOM documents for inverter requirements. MNRE's ALMM page publishes PV module and cell lists, not a transformerless-inverter list.
 
 Before specifying a transformerless inverter on any tender-driven project, the EPC should extract the relevant inverter specification clause and verify alignment. A 10-minute document review at proposal stage avoids a costly mid-project substitution.
 
@@ -210,7 +212,7 @@ Use this table as a quick specification guide. When the answer in the "Transform
 | Standard residential rooftop (1.5–10 kW) | ✗ Overspecified | ✓ Preferred |
 | C&I rooftop (10–500 kW) | ✗ Efficiency penalty | ✓ Preferred |
 | Pre-2018 PSU tender with isolation clause | ✓ Required | ✗ Non-compliant |
-| PM Surya Ghar subsidy project | ✓ Eligible | ✓ Preferred (ALMM-listed) |
+| PM Surya Ghar subsidy project | Verify current project requirements | Verify current project requirements |
 | Medical equipment / hospital critical load | ✓ Preferred | Evaluate case-by-case |
 | Floating solar / water-body adjacent | ✓ Preferred | Evaluate case-by-case |
 | Lightweight tin-sheet industrial roof | ✓ Risk (weight) | ✓ Preferred (lighter) |
@@ -250,26 +252,19 @@ IEC 62109-2 and IS 16169 require the installer to verify that the inverter's res
 
 ## ALMM, PM Surya Ghar, and What Transformerless Means for Subsidised Projects
 
-The [ALMM list](/blog/almm-list-phase-iii-guide/) (Approved List of Models and Manufacturers) maintained by [MNRE](https://mnre.gov.in/almm-list/) is the gateway to PM Surya Ghar Muft Bijli Yojana subsidies for inverters. Both transformer-based and transformerless inverters can be listed, the ALMM does not mandate a topology.
-
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, disbursed directly to the beneficiary's bank account after DISCOM verification of installation. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-ALMM Phase III includes multiple transformerless models from Indian and international manufacturers. For an EPC sourcing ALMM-compliant inverters for PM Surya Ghar projects, the practical question is not "transformer or transformerless?" but "which ALMM-listed transformerless model gives the best efficiency, warranty, and service SLA combination?"
-
-The [ALMM Phase III guide](/blog/almm-list-phase-iii-guide/) covers the listing requirements, application process, and how to confirm a specific model's current listing status, since listings are updated quarterly and a model can be added or removed.
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
 
 For PM Surya Ghar projects specifically, the efficiency advantage of transformerless inverters directly increases the annual generation delivered to the subsidy beneficiary, improving the project's performance ratio and reducing the likelihood of complaints during the DISCOM-mandated post-installation inspection period.
 
 ## Where Qbits Fits
 
-Qbits TLS series inverters are transformerless on-grid designs, engineered specifically for Indian grid conditions: 180–270 V grid voltage tolerance, 45 °C+ ambient temperature derating curves tested on Indian rooftops, and India-grid-tuned firmware that handles voltage sag and frequency excursions without nuisance tripping. They carry BIS IS 16169 certification, IEC 62109 compliance, and ALMM listing, meeting every requirement for PM Surya Ghar and standard net-metering projects, whether the EPC is running a residential rooftop installation or a tender-driven C&I job. The 12-year full replacement warranty covers the inverter unit, not just parts, for the first third of the system's life.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS series from 1.5 kW to 50 kW; transformerless, ALMM-listed, IP66-rated for Indian weather.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery-ready architecture; suitable for sites needing backup alongside grid-tied operation.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[Solar Inverter Sizing Calculator](/string-sizing-calculator/)**: enter panel Voc, Vmp, and site temperature range; the tool confirms string count and MPPT compatibility before you commit to a BOM.
-- **[Download Datasheets](/download-datasheets/)**: full technical specifications for every TLS and HS model, including EU-weighted efficiency curves and IP rating test certificates.
+- **[Download Datasheets](/download-datasheets/)**: Start with the public model specifications, then request any required manual, certificate, test report or warranty document for the exact SKU.
 
-When you are ready to compare specific SKU specifications for your next project, the [on-grid inverter range](/on-grid-inverter/) lists every model with peak and weighted efficiency, MPPT input range, and weight. For projects where the DISCOM or tender document has specific compliance questions, [talk to a Qbits engineer](/contact-us/), most technical queries are resolved within one business day, and the compliance documentation pack can be sent the same day for active tenders.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 ## Making the Final Call: A Practical Checklist for EPCs
 

@@ -164,4 +164,4 @@ The UAE rewards installers who treat it as four markets. The utility, not the co
 
 - **Identify the utility before designing.** DEWA, ADDC, AADC and EtihadWE differ on every variable that matters, and Sharjah has no published route at all.
 - **Model soiling and heat explicitly.** A European default overstates Gulf yield, and the customer discovers it in July.
-- **Design a live project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for IEC-compliant inverter specification against the finished design.
+

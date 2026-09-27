@@ -186,8 +186,6 @@ For an installer running 100 to 300 projects per year, a volume-linked measureme
 - **Choose HelioScope** for browser-based simulation only.
 - **Choose OpenSolar** for small residential at the lowest fixed cost.
 
-For most installers in 2026, the verdict is the same. SurgePV is the Scanifly alternative that wins on volume economics, scope, and team workflow at the same time. For the full field beyond Scanifly, see our ranked list of the [best solar design software](/blog/best-solar-design-software/). Once the 3D model and shading numbers are locked, sourcing hardware is the next line item; Qbits' [full product catalog](/our-products/), with the team reachable through [contact us](/contact-us/), can walk through datasheet fit for the specific roof.
-
 <div class="inline-cta">
 <h3>Ready to design without a drone?</h3>
 <p>SurgePV combines AI 3D roof modeling from satellite, 8,760-hour module-level shading, bankable yield reports, financial modelling, and white-label proposals in one platform, at flat per-seat pricing.</p>

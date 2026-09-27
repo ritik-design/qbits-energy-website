@@ -6,31 +6,31 @@ import PageHeader from '../../components/ui/PageHeader.astro';
 
 const features = [
   { title: '10-320kW Range', desc: 'Scalable solutions for factories, warehouses, malls, and office complexes.', icon: 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4' },
-  { title: 'Parallel Operation', desc: 'Connect multiple inverters in parallel for MW-scale installations.', icon: 'M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4' },
+  { title: 'Project Configuration', desc: 'Confirm each inverter and any parallel design against the exact model documents.', icon: 'M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4' },
   { title: 'Remote Monitoring', desc: 'Centralized dashboard for multi-site management and performance analytics.', icon: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z' },
-  { title: 'Rapid ROI', desc: 'Typical payback period of 3-4 years with 25+ year system lifespan.', icon: 'M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z' },
+  { title: 'Project Economics', desc: 'Model savings from site load, tariff, generation and installed cost.', icon: 'M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z' },
   { title: 'Multi-MPPT Technology', desc: 'Up to 10 MPPT channels for complex roof orientations and shading scenarios.', icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
   { title: 'Grid Support Functions', desc: 'Reactive power control, frequency response, and grid stability features.', icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z' },
 ];
 
 const segments = [
   { title: 'Manufacturing', desc: 'Reduce operational costs with rooftop solar. Typical systems: 50kW – 500kW.', icon: 'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z' },
-  { title: 'Warehousing', desc: 'Large rooftop areas ideal for 100kW+ installations with rapid payback.', icon: 'M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z' },
+  { title: 'Warehousing', desc: 'Check roof area, daytime load and connection constraints for the proposed system.', icon: 'M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z' },
   { title: 'Commercial Buildings', desc: 'Office complexes and retail spaces. Systems from 20kW to 200kW.', icon: 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4' },
   { title: 'Educational Institutions', desc: 'Schools and colleges with large rooftops and daytime consumption.', icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253' },
 ];
 
 const roiStats = [
-  { value: '3-4', label: 'Year Payback', suffix: 'Y' },
-  { value: '25+', label: 'Year Lifespan', suffix: 'Y' },
-  { value: '60-80', label: 'Bill Reduction', suffix: '%' },
-  { value: '98.8', label: 'Max Efficiency', suffix: '%' },
+  { value: '10–320', label: 'Listed model range', suffix: ' kW' },
+  { value: '1 / 3', label: 'Connection phases', suffix: '' },
+  { value: 'Model', label: 'Verify MPPT limits', suffix: '' },
+  { value: 'Site', label: 'Model project ROI', suffix: '' },
 ];
 ---
 
 <Layout
   title="Commercial & Industrial Solar | Qbits Energy"
-  description="Commercial and industrial solar inverter solutions from 10kW to 320kW. Parallel operation, remote monitoring, and maximum ROI for businesses."
+  description="Commercial and industrial solar inverter solutions from 10kW to 320kW. Compare model capacities and project design requirements for businesses."
   canonical="/c-i-solution/"
 >
   <HeaderV2 />
@@ -54,8 +54,8 @@ const roiStats = [
               <img width="720" height="540" src="/homepage-new/partner-program.webp" alt="Commercial Solar Installation" class="w-full" loading="lazy" />
             </div>
             <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-5 hidden md:block">
-              <p class="text-3xl font-bold text-brand-600">3-4Y</p>
-              <p class="text-sm text-slate-500">Typical Payback</p>
+              <p class="text-3xl font-bold text-brand-600">Quote</p>
+              <p class="text-sm text-slate-500">Site-specific payback</p>
             </div>
           </div>
           <div>
@@ -70,10 +70,10 @@ const roiStats = [
               Lower Costs. Higher Returns. Sustainable Operations.
             </p>
             <p class="text-slate-600 leading-relaxed mb-6">
-              Qbits commercial and industrial inverters are designed for <a href="/blog/solar-inverter-for-factory/" class="text-brand-600 font-medium hover:underline">factories</a>, warehouses, offices, and <a href="https://heavengreenenergy.com/industrial-solar/" class="text-brand-600 font-medium hover:underline">large-scale installations</a>. With parallel operation capabilities and advanced monitoring, our inverters deliver reliable power and rapid <a href="/blog/solar-irr-payback-ci-india/" class="text-brand-600 font-medium hover:underline">return on investment</a>.
+              Qbits commercial and industrial inverters are designed for <a href="/blog/solar-inverter-for-factory/" class="text-brand-600 font-medium hover:underline">factories</a>, warehouses, offices, and <a href="https://heavengreenenergy.com/industrial-solar/" class="text-brand-600 font-medium hover:underline">large-scale installations</a>. Check the exact model limits, monitoring options and site assumptions before estimating <a href="/blog/solar-irr-payback-ci-india/" class="text-brand-600 font-medium hover:underline">return on investment</a>.
             </p>
             <p class="text-slate-600 leading-relaxed mb-8">
-              From 10kW to 320kW, our three-phase inverters with <a href="/glossary/mppt/" class="text-brand-600 font-medium hover:underline">multi-MPPT technology</a> handle complex roof structures and maximize energy harvest. <a href="/glossary/bis-certification/" class="text-brand-600 font-medium hover:underline">BIS</a> and <a href="/glossary/iec-62109/" class="text-brand-600 font-medium hover:underline">IEC certified</a> for grid compliance.
+              Published three-phase families extend from 5 kW to 320 kW. Models with multiple <a href="/glossary/mppt/" class="text-brand-600 font-medium hover:underline">MPPTs</a> may support separately designed array groups when their voltage and current limits permit. Request the current <a href="/glossary/bis-certification/" class="text-brand-600 font-medium hover:underline">BIS</a>, <a href="/glossary/iec-62109/" class="text-brand-600 font-medium hover:underline">IEC</a> and project evidence for the exact SKU instead of treating a standard cited in a datasheet as a current certificate.
             </p>
             <div class="flex flex-wrap gap-4">
               <a href="/our-products/" class="btn-primary">Explore Inverters</a>
@@ -183,4 +183,3 @@ const roiStats = [
 
   <Footer />
 </Layout>
-

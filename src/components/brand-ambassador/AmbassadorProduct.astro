@@ -9,10 +9,10 @@ const {
 } = Astro.props;
 
 const specs = [
-  { value: '98.8%', label: 'Peak Efficiency' },
-  { value: '12 Yr', label: 'Warranty' },
-  { value: 'IP66', label: 'Enclosure' },
-  { value: '1000+', label: 'Quality Tests' },
+  { value: 'Model', label: 'Check Datasheet' },
+  { value: 'Terms', label: 'Check Warranty' },
+  { value: 'IP66', label: 'Published Enclosure' },
+  { value: 'Docs', label: 'Check Certificates' },
 ];
 ---
 
@@ -31,9 +31,9 @@ const specs = [
         </h2>
 
         <p class="mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-slate-600">
-          That is not a prop. It is the same {product} we ship to installers across India,
-          off the same line, with the same 12-year replacement warranty. {name} is our
-          brand ambassador because the product holds up, not the other way round.
+          {name} is pictured with a {product}. Before selecting a unit, match the exact model
+          to the site design and obtain its current datasheet, certificates, installation
+          instructions, and written warranty terms.
         </p>
 
         <div class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">

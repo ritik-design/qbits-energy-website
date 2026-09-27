@@ -18,7 +18,7 @@ faqs:
   - q: "Exide or Amaron - which solar battery is better in India?"
     a: "Both Exide and Amaron are reliable VRLA solar battery brands with nationwide service networks in India. Amaron has a stronger warranty reputation (up to 60 months warranty on select models, with 100% replacement guarantee in the first 24 months) and slightly better self-discharge performance. Exide has a wider solar-specific product range (tubular, VRLA flat plate, AGM, and lithium) and more dealer locations. For warranty confidence, Amaron is the slight preference. For product variety and availability in Tier-3 markets, Exide edges ahead."
   - q: "What is the warranty on Exide solar batteries in India?"
-    a: "Exide solar VRLA batteries carry warranties of 24 to 48 months depending on the model. The Exide Solar 100Ah and 150Ah VRLA flat-plate models carry 24-month full replacement warranty. The Exide Inva Tubular range carries 36 to 48 months warranty. The warranty covers manufacturing defects and premature capacity loss. Replacement is through Exide's 47,000+ dealer and 300+ service centre network across India."
+    a: "Exide solar VRLA batteries carry warranties of 24 to 48 months depending on the model. The Exide Solar 100Ah and 150Ah VRLA flat-plate models carry 24-month warranty with a written remedy. The Exide Inva Tubular range carries 36 to 48 months warranty. The warranty covers manufacturing defects and premature capacity loss. Replacement is through Exide's 47,000+ dealer and 300+ service centre network across India."
   - q: "What is the warranty on Amaron solar batteries in India?"
     a: "Amaron Quanta solar VRLA batteries carry a 36 to 60 month warranty depending on the model. The Amaron Quanta PRO and standard ranges include a 24-month full-replacement guarantee (100% replacement, no pro-rata deduction) followed by a pro-rata replacement period for the remaining warranty duration. The warranty is administered through Amara Raja's 50,000+ dealer network. Amaron's pro-rata warranty terms are typically more customer-friendly than Exide's at the same price point."
   - q: "What is the self-discharge rate of Exide vs Amaron batteries?"
@@ -30,7 +30,7 @@ faqs:
   - q: "What is the price of Amaron solar battery in India in 2026?"
     a: "Amaron Quanta solar VRLA battery prices in India in 2026: Amaron Quanta 100Ah - ₹9,000 to ₹11,500; Amaron Quanta 150Ah - ₹12,000 to ₹15,500; Amaron Quanta 200Ah - ₹16,000 to ₹20,000; Amaron Quanta PRO 150Ah - ₹13,500 to ₹17,000. Amaron prices are typically 5 to 12% higher than equivalent Exide models, reflecting the warranty premium. Amaron does not yet offer a standalone lithium solar battery range in India."
   - q: "Can I use an Exide or Amaron VRLA battery with a hybrid solar inverter?"
-    a: "Yes. Both Exide and Amaron VRLA batteries are compatible with hybrid solar inverters that support VRLA/sealed lead-acid chemistry. Configure the hybrid inverter to use the VRLA charging profile (IUoU: bulk-absorption-float) with a bulk charge voltage of 14.4–14.7V and float voltage of 13.6–13.8V for a 12V battery. Set the battery low-cut to 11.5V (12V system) to prevent deep discharge. Qbits HS and HT hybrid inverters include preconfigured VRLA and tubular profiles that work correctly with both brands."
+    a: "Only if that inverter supports the battery chemistry and can be set to the right charge profile, so this is a compatibility question to settle per model rather than per brand. A VRLA bank needs correct absorption and float voltages, a suitable charge current limit and ideally temperature compensation. Many hybrid inverters are configured for lithium by default and offer a selectable lead-acid profile, and some support lithium only. Check the supported battery types and the charge parameters in the installation manual for the exact model, and have the installer record the settings at commissioning."
 ---
 
 When a homeowner in India asks for a "good solar battery," two names come up reliably: Exide and Amaron. Both are Indian brands, both have been in the battery business for decades, and both carry the kind of nationwide service networks that matter when something goes wrong in a Tier-2 city at 10 PM.
@@ -188,11 +188,7 @@ For the full VRLA vs lithium economics, read the [solar battery price guide](/bl
 
 ## Where Qbits Fits
 
-Qbits HS and HT series hybrid inverters include VRLA-specific charging profiles compatible with both Exide and Amaron battery ranges. Configuring the correct battery type in the inverter settings (VRLA flat plate, tubular, or gel) is a one-time setup that significantly extends battery life. Buyers who have not yet finalised how much battery capacity they actually need should work through a proper [energy storage sizing exercise](https://surgepv.com/hub/energy-storage/battery-sizing/) before comparing Exide and Amaron models on price, since the wrong capacity can undo any brand-level savings. Once the battery bank is sized, a qualified residential solar installer should handle the physical wiring and charge-profile configuration rather than a general electrician.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with VRLA-optimised charging and BMS support for lithium batteries.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[On-Grid Inverters](/on-grid-inverter/)**: For grid-tied systems without battery storage.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Local inverter support in 280+ Indian cities.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 - **[Battery Backup Calculator](/blog/solar-battery-backup-calculator/)**: Calculate the right battery capacity for your load and outage pattern.
-
-[Get a complete solar and battery system recommendation at contact-us](/contact-us/), Qbits engineers pair the right battery chemistry and capacity with the correct inverter for your specific grid reliability and load profile.

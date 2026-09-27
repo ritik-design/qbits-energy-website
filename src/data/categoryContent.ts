@@ -12,7 +12,7 @@ export interface CategoryContent {
 export const CATEGORY_CONTENT: Record<string, CategoryContent> = {
   'solar-software': {
     intro:
-      "Solar Software covers the design and proposal tools EPCs, installers, and dealers use to size, model, and sell solar PV systems before a panel goes on a roof. This category tracks the design-software market closely: AI-powered 3D roof modeling from satellite imagery, shading simulation, single-line diagram and BOQ generation, financial modeling for ROI and payback, and the proposal tools that turn a site survey into a signed contract. You'll find head-to-head comparisons of major platforms, honest alternative guides for teams outgrowing a legacy tool, and pricing breakdowns to help you budget a software stack. Whether you're a residential installer choosing your first design tool or a C&I EPC evaluating utility-scale platforms, these guides focus on what actually ships a bankable proposal fastest. Every inverter Qbits builds is designed to pair cleanly with the string sizing and MPPT data these tools produce.",
+      "Solar Software covers the design and proposal tools EPCs, installers, and dealers use to model solar PV projects before construction. The category includes roof modeling, shading, string layout, single-line diagrams, bills of quantities, yield estimates, financial models and proposal workflows. Software functions, prices and output quality vary by product and plan. Treat every result as a design input to check against the current module and inverter documents; no software output by itself approves a Qbits configuration.",
     faqs: [
       {
         q: 'What is solar design software used for?',
@@ -24,7 +24,7 @@ export const CATEGORY_CONTENT: Record<string, CategoryContent> = {
       },
       {
         q: 'Does my design software choice affect inverter selection?',
-        a: "Yes, indirectly. Accurate string sizing and shading data from your design tool directly informs which inverter model and MPPT configuration fits a given roof. Qbits' string sizing calculator is built to consume that same site data.",
+        a: "Yes, indirectly. String-sizing and shading inputs help screen which inverter model and MPPT arrangement may fit a roof. Recheck the result against current equipment documents and an approved project design.",
       },
     ],
   },
@@ -34,7 +34,7 @@ export const CATEGORY_CONTENT: Record<string, CategoryContent> = {
     faqs: [
       {
         q: 'What should I check before buying a solar inverter in India?',
-        a: "Confirm BIS/IEC certification, warranty length and what it covers, MPPT count and voltage range against your panel configuration, and whether the inverter is correctly sized for your sanctioned load and roof capacity.",
+        a: "Identify the standards and approvals that apply to the exact project, obtain current model-specific evidence, check the written warranty, and verify MPPT, voltage and current limits against the proposed array.",
       },
       {
         q: 'On-grid, hybrid, or off-grid — which should I buy?',
@@ -124,13 +124,13 @@ export const CATEGORY_CONTENT: Record<string, CategoryContent> = {
       },
       {
         q: 'What is the typical lifespan of a solar inverter in India?',
-        a: "Quality inverters typically last 10 to 15 years, with some premium models rated for 20+ years, though real-world lifespan depends heavily on climate exposure and maintenance discipline — see our 7-year health check guide before deciding whether to replace one.",
+        a: "There is no universal inverter lifespan. Component design, loading, temperature, moisture, dust, grid conditions, installation quality, maintenance, and repairability all matter. Use the exact model documents and service history when deciding whether to repair or replace a unit.",
       },
     ],
   },
   industry: {
     intro:
-      "Industry articles track the data and trends shaping India's solar sector: market size and brand share reports, rooftop solar capacity by state, peak sun hour and yield benchmarks, warranty-length trends, electricity tariff movements, and founder perspectives on where the industry is heading. This category is written for dealers, distributors, investors, and installers who need market context and hard numbers behind a purchase or partnership decision, drawing on Qbits' own research alongside official state-wise data.",
+    "Industry articles discuss data and trends shaping India's solar sector, including market reports, rooftop capacity, solar resource, warranty terms and electricity tariffs. Treat each figure according to its cited source and observation date. Qbits has not supplied a separate audited proprietary research dataset for these articles.",
     faqs: [
       {
         q: 'Where do the market statistics in this category come from?',

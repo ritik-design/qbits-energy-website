@@ -28,12 +28,16 @@ faqs:
   - q: "Does Tamil Nadu have a state solar subsidy in addition to PM Surya Ghar?"
     a: "TEDA has historically operated state-level rooftop solar incentive programmes for residential consumers in Tamil Nadu. The current status of active state top-up subsidies should be verified directly at teda.in, as programme availability changes with annual budget allocations. During 2024–25, TEDA ran targeted incentive schemes for BPL and lower-income households separately from the central PM Surya Ghar structure. All homeowners should apply for PM Surya Ghar through the national portal regardless of TEDA scheme status, as the central subsidy is guaranteed subject to eligibility."
   - q: "Can I use a hybrid inverter and still claim the solar subsidy in Tamil Nadu?"
-    a: "Yes. A hybrid inverter is eligible for PM Surya Ghar subsidy provided the inverter model is on the MNRE ALMM list and the system is commissioned in grid-tie mode with TANGEDCO net metering. The battery storage component is not included in the subsidy calculation, but the solar generation portion qualifies. TNERC regulations allow residential hybrid solar systems to operate with net metering provided the inverter meets anti-islanding safety requirements."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What documents are required for the TANGEDCO net metering application in Tamil Nadu?"
     a: "TANGEDCO requires the following for net metering application: recent electricity bill (service connection number), Aadhaar card, PAN card, property ownership proof (sale deed or property tax receipt), rooftop area photograph, technical feasibility application form, single-line diagram of the proposed solar system, installer's TANGEDCO registration certificate, and ALMM-listed equipment specification sheets. For apartments, an RWA no-objection certificate is required. The empanelled installer typically prepares the technical documents; the homeowner provides the property and identity papers."
   - q: "What is TEDA's role in Tamil Nadu solar subsidy?"
     a: "TEDA - the Tamil Nadu Energy Development Agency - is the state nodal agency for renewable energy under the Tamil Nadu government. TEDA administers state-level solar incentive schemes, maintains the empanelled installer list for TEDA-specific programmes, and provides technical support for rooftop solar adoption. For PM Surya Ghar, TEDA coordinates with TANGEDCO on implementation. Homeowners can access TEDA resources at teda.in and contact the TEDA office in Chennai for scheme-specific queries. TEDA also manages the Tamil Nadu Solar Energy Policy framework that guides TNERC tariff orders."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 [Tamil Nadu](https://www.heavengreenenergy.com/blog/kusum-tamil-nadu-application) homeowners face a situation that is rare in Indian solar policy: a state with some of the highest residential electricity tariffs in South India, genuinely excellent solar irradiance across most of its geography, and one of the more bureaucratically challenging DISCOMs in the country. The arithmetic of going solar in [Tamil Nadu](https://quickestimate.co/blog/solar-installer-business-tamil-nadu) is genuinely compelling, Chennai receives 5.5 to 6.0 peak sun hours per day, and TN residential tariffs push many households into slabs where they pay ₹6 to ₹9 per unit. But the process of actually getting your TANGEDCO net meter connected can test the patience of even the most determined homeowner.
 
@@ -75,7 +79,7 @@ For a precise breakdown of what you will receive for every system size from 1 kW
 **Three requirements determine eligibility in Tamil Nadu:**
 
 - **Active TANGEDCO connection**: the subsidy is tied to your service connection number; you must hold a residential electricity connection in your name at the property where the system is installed.
-- **ALMM-listed equipment**: both panels and inverter must appear on MNRE's Approved List of Models and Manufacturers. A single non-ALMM component disqualifies the entire subsidy claim. Check the [ALMM list guide](/blog/almm-list-phase-iii-guide/) for verification steps.
+
 - **Empanelled installer**: the installation must be performed by a TANGEDCO-empanelled vendor; the installer registers on the PM Surya Ghar portal on your behalf and submits the commissioning documents.
 
 ## TEDA State Schemes: What Is Currently Active
@@ -132,8 +136,6 @@ This named framework is the practical guide for any Tamil Nadu homeowner who wan
 
 1. **Verify your sanctioned load before sizing your system.** TANGEDCO's technical feasibility assessment checks whether your proposed solar capacity is within your sanctioned load limit. If your sanctioned load is 3 kW and you apply for a 5 kW solar system, expect a rejection. Check your electricity bill for your sanctioned load or visit the SDE office. If you need a higher load, apply for a load enhancement (LT connection upgrade) before submitting the solar application, this adds 30 to 60 days but avoids a rejection restart.
 
-2. **Use only TANGEDCO-empanelled installers with ALMM-compliant equipment.** Non-empanelled installers cannot submit your net metering application through TANGEDCO's system. Verify empanelment on the TANGEDCO portal or at [tangedco.gov.in](https://tangedco.gov.in/) before signing any contract. Separately confirm that the panels and inverter are on the current MNRE ALMM list, this is a hard requirement for subsidy eligibility.
-
 3. **Submit complete documentation on the first attempt.** Incomplete applications are not held in a partial-approval state, they are returned to the queue. A document rejection restarts your 60–120 day clock. The complete document set includes: latest electricity bill, Aadhaar and PAN, property ownership proof, rooftop photographs, single-line diagram, equipment specification sheets, and the TANGEDCO application form duly signed. For apartments, include the RWA NOC.
 
 4. **Follow up at the SDE level every three weeks.** TANGEDCO does not proactively send status updates by default. Your installer should follow up with the Sub-Divisional Engineer's office at regular intervals. Keep written records (emails or acknowledgement receipts) of every follow-up interaction. If you face a long silence, a written application to the Executive Engineer (Distribution) is a step above the SDE and typically produces a response within a week.
@@ -165,7 +167,7 @@ A concrete calculation makes the Tamil Nadu solar economics real. This worked ex
 **System parameters:**
 - **System size:** 3 kW on-grid
 - **Panel type:** 550 Wp monocrystalline (6 panels), ALMM-listed
-- **Inverter:** 3 kW ALMM-listed on-grid inverter
+
 - **Annual generation estimate:** Chennai receives approximately 5.6 peak sun hours per day. A 3 kW system generates roughly 5.6 × 3 × 0.8 (system efficiency) × 365 = approximately 4,918 kWh per year, or about 410 units per month.
 
 **Financial model:**
@@ -241,7 +243,7 @@ Telangana has processed net metering at roughly the same pace as Tamil Nadu, wit
 The TANGEDCO process is complex enough that avoidable mistakes are frequent. These are the eight most common errors reported by TN homeowners, with clear guidance on how to prevent each one.
 
 - **Signing a contract before verifying installer empanelment.** Some local solar vendors in Tamil Nadu are active installers but not registered on the TANGEDCO empanelled list. Always verify empanelment status at [tangedco.gov.in](https://tangedco.gov.in/) before signing. An unempanelled installer cannot submit your net metering application, making your system non-operational for grid-tie.
-- **Using non-ALMM equipment to save cost.** Budget installers sometimes propose non-ALMM panels or inverters because they are cheaper. A non-ALMM component voids the entire PM Surya Ghar subsidy claim - ₹78,000 lost to save ₹5,000 on components is poor arithmetic. Demand ALMM compliance certificates for every piece of equipment.
+
 - **Ignoring the net metering application step.** Some homeowners install the solar system and then learn that the net metering application is a separate multi-step process with TANGEDCO. The system cannot operate in grid-tie mode without a commissioned bidirectional meter. Start the application process simultaneously with the installation.
 - **Underestimating the payback calculation because of the export tariff.** New solar owners sometimes calculate payback using the ₹2.50 export rate on all generation. In practice, 70 to 85% of residential solar generation is self-consumed at the ₹7 to ₹9 import tariff savings rate, not exported at ₹2.50. Use the self-consumption ratio in your payback model. For more on how to calculate payback accurately, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) has the full methodology.
 - **Choosing the wrong system size for actual consumption.** A 3 kW system generating 410 units per month on a household that consumes only 150 units results in significant surplus export at the lower buyback rate. Match your system to your actual consumption profile; the [how to apply for net metering in India guide](/blog/how-to-apply-net-metering-india/) explains how to size relative to your consumption for optimal net metering results.
@@ -251,10 +253,7 @@ The TANGEDCO process is complex enough that avoidable mistakes are frequent. The
 
 ## Where Qbits Fits
 
-Tamil Nadu homeowners who clear the TANGEDCO process and get their system commissioned deserve an inverter that will work reliably for years without requiring an expensive service call. The high residential tariffs in TN mean the economic consequence of downtime (days or weeks of paying full grid rate) is real money. Qbits inverters are built for the Indian operating environment: they handle the 180 to 270 V grid voltage swings common in TN distribution networks, carry IP66 weather protection for Chennai's coastal humidity and monsoon conditions, and ship with a 12-year full replacement warranty, the most consequential number in your inverter selection because it eliminates one of the largest potential costs over your system's life.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM-listed and PM Surya Ghar subsidy-eligible; built for Tamil Nadu grid conditions with India-tuned firmware.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness for homeowners in areas with frequent TANGEDCO outages who want to run critical loads through grid interruptions.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[Net Metering Guide](/blog/net-metering-india-complete-guide/)**: everything you need to know about net metering across India, including TNERC-specific context.
 
-[Talk to a Qbits engineer](/contact-us/) about selecting the right inverter for your Chennai or Tamil Nadu installation, most technical queries and quote requests come back within 24 hours, and the team has experience with TANGEDCO-specific commissioning requirements.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

@@ -255,8 +255,6 @@ GHI is the foundational solar resource measurement, the total solar radiation hi
 
 ## Need bankable GHI-based yield modelling?
 
-QBits Energy provides solar resource assessment and yield modelling using validated GHI data sources for Indian utility, C&I and residential projects.
-
 ## Further reading
 
 For how GHI plays out in real projects, these guides go deeper:

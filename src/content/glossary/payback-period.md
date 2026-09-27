@@ -272,8 +272,6 @@ Payback period is the time required to recover solar investment from savings. In
 
 ## Need realistic payback projections?
 
-QBits Energy provides honest payback analysis for residential, C&I and utility solar projects across India, balancing optimism with realistic assumptions.
-
 ## Further reading
 
 For how Payback Period plays out in real projects, these guides go deeper:

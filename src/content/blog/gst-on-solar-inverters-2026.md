@@ -1,306 +1,215 @@
 ---
-title: "GST on Solar Inverters and Panels 2026"
-excerpt: "GST on solar inverter is 12% since 2024; panels are also 12%. This guide breaks down every component rate, ITC eligibility, and the true cost impact for homeowners and businesses."
-description: "GST on solar inverters is 12% in 2026. Full breakdown of rates by component, HSN codes, ITC eligibility, and PM Surya Ghar impact for Indian buyers."
-category: "Policy"
+title: GST on Solar Inverters and Panels 2026
+excerpt: "GST on solar inverter quotes: the 5% entry 437, heading 8504 at 18%, the 70:30 split, input tax credit, and a compliant invoice."
+description: "GST on solar inverter quotes: the 5% entry 437, heading 8504 at 18%, the 70:30 split, input tax credit, and a compliant invoice."
+category: Policy
 date: 2026-06-05
-updatedDate: 2026-07-08
-readTime: "18 min"
-image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
-author: "Akash Hirapara"
+updatedDate: 2026-09-24
+readTime: 13 min
+image: /blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg
+author: Akash Hirapara
 keywords:
-  - gst on solar inverter
-  - gst on solar panels india 2026
-  - solar inverter hsn code
-  - input tax credit solar
-  - gst rate solar equipment india
+- gst on solar inverter
+- gst on solar panels india 2026
+- solar inverter hsn code
+- input tax credit solar
+- gst rate solar equipment india
+- 70:30 rule solar gst
 faqs:
-  - q: "Is GST included in the PM Surya Ghar subsidy amount?"
-    a: "No. The PM Surya Ghar subsidy is a capital grant credited directly to the beneficiary's bank account after the DISCOM verifies the installation. GST is levied on the equipment and services separately, and the subsidy does not absorb or offset the GST component. Residential beneficiaries pay the full GST cost on top of their net post-subsidy amount. The subsidy quantum is calculated on benchmark project cost, which itself is inclusive of GST, so GST is implicitly factored into the benchmark but is not rebated separately."
-  - q: "Can I claim Input Tax Credit on a residential solar installation?"
-    a: "No. Input Tax Credit under the GST framework is available only to GST-registered businesses that use solar assets in the course or furtherance of their taxable business activity. Residential homeowners are not GST-registered individuals; they are end-consumers. Consequently, the 12% GST paid on panels, inverters, mounting structures and cables, and the 18% GST on installation services, becomes an absolute cost with no recovery mechanism. This is one reason residential solar payback periods are slightly longer than raw equipment costs would suggest."
-  - q: "What HSN code is used for solar inverters in India?"
-    a: "Solar inverters are classified under HSN code 8504 - 'Electrical transformers, static converters and inductors.' The specific sub-heading for solar inverters (grid-tied string inverters and hybrid inverters) is 8504 40, covering static converters. This HSN classification attracts a GST rate of 12%. Importers must declare this HSN on the bill of entry; domestic manufacturers use it on their GST tax invoices. Misclassification to a lower-rate heading can trigger GST notices and demand of differential tax."
-  - q: "Has GST on solar inverters increased recently?"
-    a: "Yes. Before October 2021, the effective GST rate on solar-specific goods (including inverters sold as part of a solar plant) was 5% under the composite supply concession. The GST Council revised this upward to 12% in its 45th meeting (September 2021), effective from October 2021. The move added approximately ₹2,000–₹4,000 to the cost of a typical residential 3–5 kW inverter and raised broader industry concern about the impact on rooftop solar adoption. The rate has remained at 12% through 2026."
-  - q: "Does GST apply to solar O&M contracts?"
-    a: "Yes. Operation and maintenance contracts for solar plants are classified as services and attract 18% GST. However, if the O&M contract is structured as a composite supply (where the principal supply is maintenance of a solar plant), the GST Council clarification dated 2021 confirms the 18% rate applies to the entire composite supply. Annual maintenance contracts (AMCs) for inverters issued by brands like Qbits are also taxed at 18%. C&I buyers with GST registration can claim ITC on O&M invoices against their output tax liability."
-  - q: "What is the GST rate on solar batteries?"
-    a: "Battery GST rates differ by chemistry and form. Lithium-ion batteries used in solar storage systems attract 18% GST under HSN 8507 60. Lead-acid batteries attract 28% GST under HSN 8507 10. This rate differential is one reason lithium-ion battery-based hybrid systems have become more cost-competitive on a GST-inclusive basis. The higher battery GST rate compared to inverters and panels is a structural cost factor for hybrid solar systems that buyers must account for separately."
-  - q: "How does GST affect the payback period of a 5 kW residential solar system?"
-    a: "For a 5 kW residential system priced at approximately ₹3.0 lakh pre-GST, the GST component adds roughly ₹36,000–₹45,000 (12–15% blended rate). Since residential buyers cannot claim ITC, this entire amount is a sunk cost. At a net metering tariff of ₹4.50–₹6.00 per kWh and 6,500 kWh annual generation, the GST-inclusive cost extends the payback period by approximately 6–10 months compared to a GST-exempt scenario. PM Surya Ghar subsidy partially offsets this, reducing net outlay."
-  - q: "Can a business claim ITC on solar panels purchased for factory rooftop installation?"
-    a: "Yes, subject to conditions. A GST-registered business installing solar panels on a factory rooftop can claim Input Tax Credit on panels, inverters, mounting structures, cables, and installation services, provided the solar plant is used in the course or furtherance of taxable business activity (manufacturing, services, etc.). ITC cannot be claimed if the electricity generated is used for personal or exempt supplies. The business must hold valid GST tax invoices, the supplier must have filed their GSTR-1, and the ITC must be claimed within the statutory time limit."
-  - q: "What is the GST treatment for imported solar panels in India?"
-    a: "Imported solar panels attract Integrated GST (IGST) at 12% on the assessable value (which includes customs duty and basic customs duty). Additionally, Basic Customs Duty (BCD) of 40% applies to imported solar PV cells and 40% to imported solar modules under the Government's Approved List of Models and Manufacturers (ALMM) framework. The cumulative import duty burden - BCD plus IGST - significantly raises the landed cost of imported panels compared to domestically manufactured ALMM-listed alternatives, which attract only 12% GST without BCD."
+- q: Is GST on a solar inverter always 5%?
+  a: No. Schedule I entry 437 of Notification 9/2025-Integrated Tax (Rate) covers renewable energy devices and parts for their manufacture across chapters 84, 85, and 94 at 5%. Schedule II entry 477 of the same notification covers heading 8504, static converters, at 18%. Which entry applies depends on how the goods are described and classified, not on the word solar in the product name. Ask your supplier which entry they rely on and get it in writing before you pay.
+- q: What is the HSN code for a solar inverter?
+  a: Heading 8504 is the usual starting point, because it covers electrical transformers, static converters, and inductors. A heading is not a complete classification. The exact tariff item depends on the product description, and the rate then depends on which notification entry that description falls under. Notification 78/2020-Central Tax dated 15 October 2020 requires 4 or 6 HSN digits on the invoice, depending on the supplier's turnover band.
+- q: Did GST on solar really fall from 12% to 5% in 2025?
+  a: The GST Council recommended rate rationalisation at its 56th meeting held on 3 September 2025. MNRE stated through PIB on 17 September 2025 that rates across the renewable energy value chain moved from 12% to 5%. CBIC then issued Notification 9/2025-Integrated Tax (Rate) on 17 September 2025, which places renewable energy devices in the 5% schedule. The revised rates took effect on 22 September 2025.
+- q: Does the 70:30 split apply to my rooftop installation?
+  a: Only if the arrangement matches the Explanation to entry 437. That Explanation applies where entry 437 goods are supplied along with other goods and services, one of which is the taxable service specified at serial 38 of Notification 8/2017-Integrated Tax (Rate). For that arrangement, 70% of the gross consideration is deemed to be goods and 30% is deemed to be that service. A plain equipment sale with no such service is not covered by it.
+- q: Can a homeowner claim input tax credit on rooftop solar?
+  a: Ordinarily no. Input tax credit runs through GST registration, which most households do not hold. Section 17(5)(g) of the CGST Act, 2017 also blocks credit on goods or services used for personal consumption. A household rooftop system fails on both counts. Treat the GST on your quote as part of your capital cost, not as an amount you will recover later.
+- q: Can a business claim input tax credit on a rooftop solar plant?
+  a: It depends on the facts. Section 17(5)(c) and (d) block credit on construction of immovable property but carve out plant and machinery. The Explanation in Chapter V of the CGST Act defines plant and machinery as apparatus, equipment, and machinery fixed to earth by foundation or structural support used for making outward supplies, and excludes land, buildings, and other civil structures. Section 17(2) then restricts credit to the part attributable to taxable outward supplies. Have a tax adviser apply both to your own facts.
+- q: Does the PM Surya Ghar subsidy reduce the GST on my invoice?
+  a: No. The Central Financial Assistance is calculated on an MNRE benchmark cost, not on your invoice value, and it reaches the consumer separately. Section 15(2)(e) of the CGST Act also excludes subsidies provided by the Central Government and State Governments from the value of supply. So the assistance does not enter the supplier's taxable value and does not lower the tax you pay. You pay GST on the invoice, then receive assistance separately if you qualify.
+- q: Does inverter size change my PM Surya Ghar assistance?
+  a: No. The MNRE operational guidelines state that the CFA is provided irrespective of the size of the inverter installed. Assistance is computed on the rated DC capacity of the module system, not on inverter capacity. The inverter must still meet the technical specification defined in the scheme. Scheme conditions, timelines, and any state top-up vary by State and DISCOM.
+- q: What must a GST invoice for solar equipment show?
+  a: Rule 46 of the CGST Rules, 2017 lists the particulars. They include the supplier's GSTIN, a unique serial number, the date of issue, the recipient's details, the HSN code, the description, the quantity, the total value, the taxable value, the rate of tax, the amount of tax, and a signature. For an inter-State supply the invoice must also show the place of supply along with the name of the State. Check that the final invoice repeats the same descriptions and classifications as the quote you accepted.
+seoTitle: 'Solar GST Rates & HSN: Panels, Inverters, Batteries'
+relatedSlugs:
+- solar-panel-price-india
+- 5kw-hybrid-inverter-price-india
+- pm-surya-ghar-yojana-complete-guide
 ---
 
-Every homeowner who gets a solar quote in India eventually spots an asterisk: prices shown may or may not include GST. Most installers work both ways, and the confusion costs buyers real money. A 5 kW system quoted at ₹3.00 lakh looks very different when ₹40,000 in GST gets added at billing. Businesses face a parallel but different problem: they can recover that GST through [Input Tax Credit](https://www.heavengreenenergy.com/blog/solar-input-tax-credit), but only if their paperwork is airtight and their accountant understands composite supply rules.
+Most solar quotes in India show one GST line and one percentage. That single number hides three decisions the supplier already made for you.
+
+The first is classification. A panel and an inverter sit under different headings of the Customs Tariff, and the same notification taxes them under different entries. The second is supply type. A box of equipment and a full rooftop installation are not the same supply. The third is credit, which turns on who buys and how the output is used.
+
+India rewrote its GST rate schedules in September 2025. The 12% slab is gone. Renewable energy devices moved into the 5% schedule. Plenty of older articles, and plenty of live quotes, still repeat the pre-2025 position.
+
+This guide works from the notification text: the 5% entry, the 18% entry on heading 8504, the 70:30 valuation rule, the PM Surya Ghar interaction, input tax credit, invoice particulars, and a worked example.
+
+This is general information, not tax advice.
 
 > **TL;DR**
-> - GST on solar inverters and panels is 12% (HSN 8504 40 and 8541 40 respectively), up from 5% since the GST Council's October 2021 revision.
-> - Balance-of-system items, mounting structures, cables, and installation services, carry 18% GST; lithium-ion batteries are 18%, lead-acid batteries 28%.
-> - A blended residential 5 kW system works out to roughly 12-14% effective GST, around ₹27,840 on a ₹2.03 lakh pre-GST project.
-> - Residential buyers cannot claim [Input Tax Credit](https://quickestimate.co/glossary/itc-input-tax-credit); GST-registered businesses can, and profitable C&I buyers can typically claim both ITC and Accelerated Depreciation since they sit in different tax regimes.
-> - The PM Surya Ghar subsidy is not a GST rebate, it is calculated on a GST-inclusive benchmark cost, so the tax is implicitly absorbed but never separately refunded.
+> - Notification 9/2025-Integrated Tax (Rate) superseded Notification 1/2017 and took effect on 22 September 2025.
+> - Schedule I entry 437 puts renewable energy devices, across chapters 84, 85, and 94, at 5%.
+> - Schedule II entry 477 puts heading 8504, transformers and static converters, at 18%, and the Explanation to entry 437 deems bundled installations 70% goods and 30% service.
+> - PM Surya Ghar assistance runs off an MNRE benchmark cost of ₹50,000 per kW for the first 2 kW, not off your invoice.
+> - Section 17(5)(g) of the CGST Act blocks credit on goods used for personal consumption, which covers residential solar.
 
-This guide cuts through the confusion. It covers GST rates for every component of a solar system, the 2021 rate change history, how GST interacts with the PM Surya Ghar subsidy, who can claim ITC and who cannot, and (for commercial buyers) whether accelerated depreciation or ITC is the smarter tax lever.
+**Short version.** GST on a solar inverter is not one fixed rate. Notification 9/2025-Integrated Tax (Rate), effective 22 September 2025, taxes renewable energy devices at 5% under Schedule I entry 437, and taxes heading 8504 static converters at 18% under Schedule II entry 477. Which entry applies turns on the description of the goods and the type of supply.
 
-> **Direct answer.** The [GST rate](https://quickestimate.co/blog/gst-rate-solar-inverter) on solar inverters in India is 12% as of 2026, under [HSN code](https://quickestimate.co/blog/hsn-code-solar-panels) 8504. Solar panels also attract 12%, while batteries are taxed at 18% (lithium-ion) or 28% (lead-acid). Installation services carry 18% GST. The blended effective rate on a complete 5 kW residential system (using The Solar System GST Breakdown framework) works out to approximately 12–14% of total project cost. Residential buyers cannot reclaim this through ITC; businesses can.
+## What the September 2025 notification actually changed
 
-The [GST rate on solar inverters](/glossary/gst-on-solar/) specifically changed in October 2021, moving from 5% to 12% under the GST Council's 45th meeting resolution. That single decision added ₹2,000–₹4,000 to every residential inverter sale and triggered significant industry pushback. The rate has not changed since. Understanding why it matters (and how to plan around it) is what this post is for.
+The GST Council recommended the change at its 56th meeting on 3 September 2025. CBIC issued Notification 9/2025-Integrated Tax (Rate) on 17 September 2025, corrected by a corrigendum dated 18 September 2025. It supersedes Notification 1/2017 and came into force on 22 September 2025.
 
-## GST Rates on Solar Equipment: Component-by-Component Table
+It rebuilds the schedules from scratch. Schedule I carries 5% and Schedule II 18%. The 12% slab solar equipment sat in no longer exists.
 
-The most useful starting point for any buyer or EPC is a clear rate table. The following rates reflect the position as of June 2026, after the October 2021 revision. These figures are sourced from [CBIC HSN classification notifications](https://www.cbic.gov.in/) and confirmed against [GST Council meeting outcomes](https://gstcouncil.gov.in/).
+Rates across the renewable energy value chain moved from 12% to 5%, and a typical 3 kW rooftop system was expected to become cheaper by about ₹9,000 to ₹10,500, according to the Ministry of New and Renewable Energy (2025).
 
-| Component | HSN Code | GST Rate | Notes |
-| --- | --- | --- | --- |
-| Solar PV modules (crystalline silicon) | 8541 40 | 12% | Panels, both domestic and ALMM-listed |
-| Solar PV cells (unassembled) | 8541 40 | 12% | Used by module manufacturers |
-| Solar inverters (on-grid, hybrid) | 8504 40 | 12% | Changed from 5% in October 2021 |
-| Lithium-ion batteries (solar storage) | 8507 60 | 18% | Higher rate than inverters/panels |
-| Lead-acid batteries | 8507 10 | 28% | Highest category in solar BoS |
-| Mounting structures (solar-specific) | 7308 | 18% | General structural steel rate |
-| DC cables | 8544 | 18% | Applies to all DC wiring |
-| AC cables | 8544 | 18% | Applies to all AC interconnects |
-| MC4 connectors | 8536 | 18% | Balance-of-system fittings |
-| Junction boxes | 8537 | 18% | Solar DC combiner boxes |
-| Surge protection devices (SPD) | 8535 / 8536 | 18% | Lightning arrester, DC/AC |
-| Earthing and grounding materials | 7408 | 18% | Copper earthing conductors |
-| Installation and commissioning services | Service | 18% | Labour + supervision |
-| O&M / AMC contracts | Service | 18% | Annual maintenance services |
-| Solar electricity (power sales) | Exempt | 0% | Electricity supply is GST-exempt |
+One trap first. This is an **IGST notification**, so it governs inter-State supplies. An intra-State invoice runs on the parallel Central Tax (Rate) and State entries. Never add 5% IGST on top of CGST and SGST. Our [GST on solar glossary](/glossary/gst-on-solar/) covers the vocabulary.
 
-Two observations stand out from this table. First, the inverter and panels carry the lowest equipment GST rate (12%), while everything else in the balance of system carries 18%. Second, if you add battery storage, the battery GST alone pushes overall project GST significantly higher than what the equipment-only rate suggests.
+## Why an inverter is not automatically taxed like a panel
 
-> **12–14%.** The blended effective GST rate on a complete grid-tied residential solar installation (panels + inverter + structure + cables + installation), weighted by typical component cost shares. *Source - [MNRE benchmark cost notification](https://mnre.gov.in/), 2025.*
+Panels have a clean path. Entry 437 names photovoltaic cells at item (h), whether or not assembled in modules or made up into panels. Inverters are named nowhere in entry 437. They reach the 5% schedule only through the general description, as a solar power based device or a part for the manufacture of a renewable energy device. Entry 437's chapter column reads "84, 85 or 94", a range rather than a tariff item, so the description does all the work.
 
-The [MNRE](https://mnre.gov.in/) periodically publishes benchmark costs for rooftop solar under PM Surya Ghar, and these benchmarks are set inclusive of all applicable taxes. They serve as the ceiling for subsidy calculation purposes.
+Now the other side of the same notification. Schedule II entry 477 covers heading 8504: electrical transformers, static converters (for example, rectifiers) and inductors, other than EV chargers. An inverter is a static converter, so heading 8504 is where classification starts.
 
-## The History: Why GST on Solar Inverters Went from 5% to 12%
+The drafting tells you something useful. Entry 438 of Schedule I names one heading 8504 product, the EV charger, and puts it at 5% by name. The notification knows how to move a named 8504 product into Schedule I, and it did not do that for solar inverters. So the 5% argument for a standalone inverter runs through the description, not the heading. A quote saying "5%, because solar" has not answered the question.
 
-Before July 2017, solar equipment in India was governed by a patchwork of state VAT rates (most states had exempted solar equipment), central excise, and customs duty. The GST transition initially appeared beneficial for solar: the government classified solar-specific goods as a bundled "solar plant" supply and applied a concessional 5% rate.
+## HSN starting points, line by line
 
-The 5% rate lasted from July 2017 until September 2021. The GST Council's 45th meeting, held on 17 September 2021, withdrew the concessional rate and moved solar goods to the standard 12% slab. The justification offered was that the 5% rate was being misused, suppliers were classifying general electrical goods as "solar plant" components to claim the lower rate.
+A heading is where classification starts, not where it ends. Use this table to interrogate a quote, not to settle a rate.
 
-### The Pre-2021 Regime (July 2017 – September 2021)
-
-Under the composite supply rule, if a solar plant was installed as a turnkey project, the entire supply (panels, inverters, structure, cables, labour) was taxed at 5%, the rate of the principal supply (the solar plant itself). This created a significant cost advantage for the sector and helped rooftop solar adoption accelerate from 2018–2021.
-
-### The October 2021 Revision
-
-The withdrawal of the concessional rate meant:
-
-- Solar inverters moved from 5% to 12%, a 7 percentage-point increase.
-- Solar panels moved from 5% to 12%.
-- The composite supply benefit disappeared; each component was now taxed at its own applicable rate.
-- A 5 kW residential system that previously attracted GST of approximately ₹8,000–₹10,000 now attracted ₹24,000–₹36,000.
-
-### Industry Response and the Current Position
-
-The solar industry, through [NSEFI](https://nsefi.in/) and other associations, petitioned the GST Council to revert to 5% or at minimum create a solar-specific lower slab. As of June 2026, the GST Council has not reversed the 2021 change. The 12% rate on inverters and panels remains the standard position.
-
-The impact on prices was measurable but not catastrophic, module prices globally fell sharply from 2022 onwards, partly absorbing the GST increase. However, in the residential segment, the GST cost has no offset through ITC, and it directly extended payback periods by 6–12 months for homeowners who installed after October 2021.
-
-## The Solar System GST Breakdown: Component by Component
-
-The named framework below provides a systematic way to calculate the true GST burden on any solar project, from a 3 kW home system to a 1 MW industrial plant.
-
-### The Solar System GST Breakdown Framework
-
-1. **Identify the supply type**: Is this a composite supply (single EPC turnkey contract) or multiple individual supply invoices (panel supplier, inverter supplier, installer separately)? Composite supply is taxed at the rate of the principal supply. Individual invoices carry each component's own rate.
-
-2. **Map each component to its HSN and rate**: Use the table in the section above. Never assume all solar components carry 12%; the balance of system (structure, cables, batteries) attracts 18% or 28%.
-
-3. **Calculate the weighted blended rate**: Take each component cost as a share of total project cost and multiply by its GST rate. Sum these weighted rates to arrive at the effective blended GST percentage.
-
-4. **Apply the buyer category overlay**: For residential: the blended GST is a hard cost. For businesses: the blended GST is potentially recoverable through ITC. For importers: add IGST on customs-assessed value (which includes BCD) to arrive at true landed cost.
-
-5. **Verify invoice compliance**: Every invoice must carry the correct HSN code, GST rate, GSTIN of supplier, and a valid IRN (Invoice Reference Number). A missing HSN or wrong rate on the supplier's invoice creates ITC reversal risk for business buyers.
-
-Applying this framework to a real residential 5 kW system:
-
-| Component | Pre-GST Cost (₹) | GST Rate | GST Amount (₹) |
-| --- | --- | --- | --- |
-| Solar panels (5 kW @ ₹22/Wp) | 1,10,000 | 12% | 13,200 |
-| Solar inverter (5 kW string) | 35,000 | 12% | 4,200 |
-| Mounting structure (galvanised) | 22,000 | 18% | 3,960 |
-| DC and AC cables | 12,000 | 18% | 2,160 |
-| Combiner box, SPD, earthing | 6,000 | 18% | 1,080 |
-| Installation and commissioning | 18,000 | 18% | 3,240 |
-| **Total** | **2,03,000** | **Blended ~13.7%** | **27,840** |
-
-The total GST on this 5 kW system is approximately ₹27,840, a sum that most homeowners overlook when they compare quotes. The panel-plus-inverter sub-total contributes only ₹17,400 of that figure; the rest comes from balance-of-system components and services taxed at 18%.
-
-## How GST Interacts with the PM Surya Ghar Subsidy
-
-The [PM Surya Ghar Muft Bijli Yojana](https://pmsuryaghar.gov.in/) is the central government's flagship residential rooftop solar scheme, offering subsidies of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the 3rd kW, capped at ₹78,000 for a 3 kW system. Understanding how GST interacts with this subsidy calculation matters because the two are frequently confused.
-
-**The subsidy is not a GST rebate.** The PM Surya Ghar subsidy is calculated on benchmark project costs that are themselves GST-inclusive. MNRE publishes state-wise benchmark costs that serve as the ceiling for subsidy eligibility, if an installer charges above the benchmark, the excess is borne by the buyer without additional subsidy. GST is embedded within the benchmark cost, not layered above it.
-
-**What this means in practice** for a standard 3 kW residential system:
-
-- MNRE benchmark cost (Delhi example): ₹65,000–₹70,000 per kW = ₹1.95–₹2.10 lakh total
-- Subsidy amount: ₹78,000 (maximum for 3 kW)
-- Net buyer cost after subsidy: ₹1.17–₹1.32 lakh (inclusive of GST)
-- GST component within that: approximately ₹22,000–₹28,000
-- No separate refund of GST is available to the residential buyer
-
-This is a critical point often missed: **the subsidy absorbs some of the GST burden implicitly** by reducing the net amount paid, but there is no explicit GST exemption or refund for PM Surya Ghar beneficiaries.
-
-For a detailed guide on subsidy calculations and the application process, the [PM Surya Ghar Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the online portal workflow step by step.
-
-The PM Surya Ghar programme also requires that the installed inverter appears on the [ALMM List](/glossary/almm-list/), a detail with direct GST implications. ALMM-listed inverters from Indian manufacturers attract 12% GST. Non-ALMM imported inverters attract 12% IGST plus 40% [BCD](/glossary/customs-duty/), effectively making them cost-prohibitive for subsidy-eligible residential installations, the [full BCD and import duty breakdown](/blog/bcd-import-duty-solar-inverters-india/) covers this calculation component by component.
-
-## ITC Eligibility: Who Can Claim It and Who Cannot
-
-Input Tax Credit (ITC) is the mechanism by which a GST-registered business offsets the GST paid on its purchases against the GST it collects on its sales. For solar, ITC can transform what looks like a 12–18% tax burden into a near-zero net cost, but only for eligible buyers.
-
-### Who Can Claim ITC on Solar
-
-- **Manufacturers and industrial units**: A factory registered under GST that installs a rooftop solar plant and uses the power in its production process can claim ITC on panels, inverters, structure, cables, and installation services.
-- **Commercial establishments**: Offices, retail chains, hospitals, educational institutions registered for GST can claim ITC on solar assets used in their taxable activities.
-- **C&I developers and IPPs**: Independent power producers selling electricity to DISCOMs or captive consumers under open access can claim ITC on project costs (note: electricity supply itself is GST-exempt, which creates a partial ITC restriction discussed below).
-- **[RESCO](/glossary/resco/) operators**: Third-party solar asset owners renting power under a [Power Purchase Agreement](/glossary/ppa/) can claim ITC as the asset is in their name and they are the taxable supply originator.
-
-### Who Cannot Claim ITC on Solar
-
-- **Residential homeowners**: Individuals installing solar under PM Surya Ghar or independently are not GST-registered and have no output GST liability. All GST paid is an absolute cost.
-- **Agricultural users**: Farm solar for agricultural pumping is typically outside the GST net; ITC is not available.
-- **Buyers using solar for exempt supplies only**: If a business's entire output is GST-exempt (certain agricultural processors, some healthcare providers), ITC on solar costs would be subject to reversal under Section 17(2) of the CGST Act.
-
-### The IPP and Open Access Nuance
-
-For solar IPPs selling electricity (which is GST-exempt) to DISCOMs, ITC is restricted under Section 17(2) because the output supply (electricity) is GST-exempt. However, where the IPP also has taxable supplies (e.g., O&M services, equipment sales), the ITC can be partially attributed to taxable activities using the apportionment formula under Rule 42 of the CGST Rules. This requires careful tax structuring and consultation with a GST-specialised advisor.
-
-For C&I buyers evaluating rooftop solar, the [solar vs diesel generator India](/blog/solar-vs-diesel-generator-india/) comparison provides full lifecycle cost modelling that incorporates the ITC benefit for businesses.
-
-## The C&I Decision: Accelerated Depreciation vs Input Tax Credit
-
-For a commercial or industrial buyer, this is the most consequential tax decision in a solar project. Both [Accelerated Depreciation](/glossary/accelerated-depreciation/) (AD) and ITC reduce the effective cost of a solar investment, but they work through different mechanisms, in different tax years, and cannot always be fully stacked.
-
-### The Accelerated Depreciation vs ITC Comparison
-
-| Decision Dimension | Accelerated Depreciation (AD) | Input Tax Credit (ITC) |
+| Line on the quote | Heading | What to ask |
 | --- | --- | --- |
-| Applicable tax | Income Tax (direct tax) | GST (indirect tax) |
-| Statutory basis | Section 32, Income Tax Act 1961 | Section 16, CGST Act 2017 |
-| First-year benefit (₹1 Cr project) | ~₹8.8 lakh (40% dep × 22% tax) | ~₹12–14 lakh (blended 12–14% GST) |
-| Timing of benefit | Tax filing (months after install) | GSTR-3B filing (monthly) |
-| Applies to | Asset owner with taxable income | GST-registered entity with output GST |
-| Can be stacked? | Yes - AD and ITC are independent | Yes - claim both where eligible |
-| Residential eligibility | No | No |
-| RESCO / third-party owner | Owner claims AD; buyer gets no AD | Owner claims ITC on project costs |
+| Photovoltaic modules or panels | 8541 | Entry 437 item (h) names photovoltaic cells. Confirm the tariff item. |
+| Solar inverter, on-grid or hybrid | 8504 | Schedule I 437, or Schedule II 477? Ask for the description. |
+| Battery or accumulator | 8507 | Entry 480 of Schedule II covers 8507. Confirm chemistry separately. |
+| Structures, cable, connectors, SPD | By material | Separate supplies unless the contract bundles them. |
+| Installation and commissioning | 9954, 9983, or 9987 | Serial 38 is what the 70:30 Explanation points to. |
 
-**The key insight: AD and ITC operate in completely different tax regimes and are not mutually exclusive.** A profitable factory that owns its solar rooftop should (and can) claim both. The ITC reduces GST cost in the same quarter as installation. The AD reduces income tax in the same financial year the asset is commissioned.
+Never copy an eight-digit HSN from another product's invoice. A wrong code is your problem. Our [solar quotation checklist](/blog/solar-quotation-checklist/) covers the non-tax lines, and [import duty on solar inverters](/blog/bcd-import-duty-solar-inverters-india/) covers the tax upstream of GST.
 
-### When AD Wins Over ITC
+## Composite supply: the 70:30 Explanation and when it bites
 
-AD delivers greater rupee benefit when:
+This is where most buyer confusion sits. Entry 437 carries an Explanation. Where entry 437 goods are supplied along with other goods and services, one of which is the taxable service at serial 38 of Notification 8/2017-Integrated Tax (Rate) dated 28 June 2017, the goods are deemed to be 70% of the gross consideration and the remaining 30% that service.
 
-- The business has high taxable income and is in the 30% income tax bracket (not 22%)
-- The project is structured as direct ownership ([CAPEX](/glossary/capex/) model)
-- GST output liability is low (reducing the practical utility of ITC)
+It is a deeming rule with a defined trigger. Work through it in order.
 
-### When ITC Wins Over AD
+1. Confirm the contract supplies entry 437 goods.
+2. Confirm it also supplies the serial 38 taxable service.
+3. If both are present, split the gross consideration 70:30 by deeming.
+4. Apply the goods rate to the 70% and the service rate to the 30%.
+5. On a plain equipment sale with no serial 38 service, the Explanation does not apply.
 
-ITC delivers greater immediate cash flow when:
+Be precise about the service rate. Serial 38 of the Central Tax counterpart, Notification 11/2017-Central Tax (Rate), was inserted by Notification 27/2018-Central Tax (Rate) dated 31 December 2018. It covers construction, engineering, installation, or other technical services for setting up solar power based devices. Its rate column in the consolidated text reads 9% central tax, pairing with 9% State tax.
 
-- The business has high output GST turnover (ITC offsets a large existing liability)
-- The business is in a lower income tax bracket or is in a loss position (AD benefit is diminished)
-- Immediate cash flow improvement matters more than long-term tax NPV
+Those services notifications were amended again in September 2025. Confirm the current rate column before invoicing. It is the one figure here we could not verify against a post-reform text.
 
-For most profitable C&I buyers in India, the practical answer is: **claim both.** The [solar inverter depreciation tax benefits guide](/blog/solar-inverter-depreciation-in-india/) covers the AD calculation mechanics in detail for businesses evaluating their tax structure.
+## Worked example: tax on an illustrative ₹1,00,000 quote
 
-> **₹8.8 lakh.** The estimated first-year income tax saving on a ₹1 crore solar investment under India's 40% Accelerated Depreciation benefit at 22% corporate tax rate, independent of ITC, both benefits can be claimed simultaneously. *Source - [Income Tax Act 1961, Section 32](https://incometaxindia.gov.in/), as applicable in FY 2025–26.*
+**This is a worked example using an illustrative amount.** ₹1,00,000 is chosen because the arithmetic rescales easily. It is not a Qbits price and not a statement about what any system costs. Qbits sells through dealers on a quote basis.
 
-## GST on Installation Services and Composite Supply Rules
+Assume the contract matches the Explanation to entry 437, the goods rate is 5%, and the service rate is confirmed as 18%. The formula: goods = gross × 0.70, service = gross × 0.30, tax = (goods × 5%) + (service × 18%).
 
-The installation and commissioning of a solar plant is a service and attracts 18% GST. However, the tax treatment depends critically on whether the supply is classified as a **composite supply** or multiple individual supplies.
+| Component | Deemed value | Rate | Tax |
+| --- | --- | --- | --- |
+| Goods (70%) | ₹70,000 | 5% | ₹3,500 |
+| Service (30%) | ₹30,000 | 18% | ₹5,400 |
+| Total | ₹1,00,000 | 8.9% blended | ₹8,900 |
 
-### Composite Supply: The Dominant Mode
+Invoice total in this illustration: **₹1,08,900**.
 
-Under Section 8 of the CGST Act, when a solar EPC company supplies panels, inverters, mounting structure, cables, and installation under a single contract, this is a composite supply. The principal supply is the solar plant (goods), and the associated installation service is an ancillary supply. Under composite supply rules, the entire transaction is taxed at the rate applicable to the principal supply.
+Now run the same ₹1,00,000 as a standalone equipment sale with no serial 38 service. One goods rate covers the whole value. Entry 437 gives ₹5,000 tax and a ₹1,05,000 total. Entry 477 gives ₹18,000 and ₹1,18,000. That ₹13,000 gap on one line is the classification question made visible.
 
-**The 2021 complication:** Before October 2021, this meant the entire EPC supply was taxed at 5%. After October 2021, with goods moving to 12%, the composite supply is taxed at 12%, but only if the EPC invoice is structured correctly as a single composite supply for a solar plant.
+If a quote is already inclusive of tax at a blended 8.9%, the pre-tax value is the gross divided by 1.089. Never add GST again to a tax inclusive figure. For how equipment and installation scope get separated, see the [5 kW hybrid price guide](/blog/5kw-hybrid-inverter-price-india/) and the [solar panel price guide](/blog/solar-panel-price-india/).
 
-### Mixed Supply: The Risk
+## How GST sits next to the PM Surya Ghar subsidy
 
-If the solar installer issues separate invoices (one for equipment at 12% and another for labour/installation at 18%) the supplies are treated independently. This can sometimes benefit the buyer (if equipment cost dominates) or sometimes cost more, depending on the structure.
+The subsidy and the tax are two calculations that never touch. Central Financial Assistance under PM Surya Ghar: Muft Bijli Yojana runs off a benchmark cost fixed by MNRE, not your invoice, and it reaches the consumer rather than reducing the supplier's price. Getting this backwards is the most common budgeting error we see.
 
-**The practical rule:** For residential buyers, ask your installer to confirm whether their quote is a single composite supply contract. This determines whether the labour portion is taxed at 12% or 18%. The difference on a ₹3 lakh project can be ₹3,000–₹6,000.
+Here is what the scheme guidelines say, according to the Ministry of New and Renewable Energy (2024).
 
-### O&M Contracts
+- Benchmark cost is ₹50,000 per kW for the first 2 kW and ₹45,000 for the additional kW, with effect from 13 February 2024.
+- CFA is 60% of the benchmark cost of 2 kWp and 40% of the additional kWp, with nothing beyond 3 kWp. In effect, ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third. MNRE's illustration: a 6 kW system gets ₹78,000.
+- CFA is provided irrespective of the size of the inverter installed. It is computed on the rated DC capacity of the module system, not inverter capacity. The inverter must still meet the scheme's technical specification.
+- No CFA goes to non-residential segments, including commercial and industrial consumers.
 
-Annual maintenance contracts (AMC) for inverters and panels are pure service supplies and attract 18% GST. C&I buyers with GST registration can claim ITC on AMC invoices. Residential buyers cannot. For [solar inverter maintenance](/blog/inverter-maintenance-india/) planning, this means building the GST-inclusive AMC cost into long-term ownership calculations.
+Two consequences follow. A higher quote does not produce higher assistance, because the benchmark is fixed. And Section 15(2)(e) of the CGST Act excludes Central and State Government subsidies from the value of supply, so assistance never enters the supplier's taxable value.
 
-## Common Mistakes Buyers and EPCs Make on Solar GST
+You pay tax on the full invoice, then receive assistance separately if every scheme condition is met. Eligibility, timelines, and state top-ups vary by State and [DISCOM](/glossary/discom/), and nothing here guarantees an outcome. Our guide to the [PM Surya Ghar subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) walks the slabs.
 
-Getting solar GST wrong costs money, either through overpaying avoidable taxes or through ITC claims that get reversed during audits. The following are the most frequent errors seen in the Indian market.
+## Input tax credit: who can claim, who cannot
 
-### Mistake 1: Trying to Claim ITC on Residential Installations
+Residential buyers should assume they cannot. Credit runs through GST registration, which most households do not hold, and Section 17(5)(g) of the CGST Act separately blocks credit on goods used for personal consumption. Treat the tax as capital cost.
 
-This is the most common mistake, usually made by individuals who operate small businesses from home or who have a GST registration for a separate purpose. The solar installation on a residential property is personal use; ITC on personal use assets is explicitly blocked under Section 17(5) of the CGST Act. Claiming it invites reversal demands with interest.
+An inverter dealer deciding whether the business must register, rather than how a product is classified, should use the separate [GST and Udyam registration checklist](/blog/gst-udyam-solar-inverter-dealer/). It keeps tax registration, MSME registration, and partner application status distinct.
 
-### Mistake 2: Miscalculating GST on Imported Panels
+Commercial and industrial buyers face four tests, in this order.
 
-Imported solar panels carry a 40% Basic Customs Duty (BCD) under the government's trade protection policy. The IGST is then calculated on the total assessable value, which includes BCD. So for panels with an FOB value of ₹15 per Wp:
+1. **Section 16.** Registration, a valid tax invoice, receipt of the goods, and tax actually paid.
+2. **Section 17(1).** Where goods serve business and non-business purposes, credit is restricted to the business portion.
+3. **Section 17(5)(c) and (d).** Credit is blocked on construction of an immovable property, by works contract or on your own account. Both clauses carve out plant and machinery.
+4. **Section 17(2).** Where inputs serve taxable and exempt outward supplies, credit is restricted to the taxable portion.
 
-- BCD: 40% → ₹6 per Wp
-- Assessable value for IGST: ₹15 + ₹6 = ₹21 per Wp
-- IGST at 12%: ₹2.52 per Wp
-- Total landed duty: ₹8.52 per Wp (57% effective duty load on FOB price)
+The carve-out in test 3 is defined. The Explanation in Chapter V says plant and machinery means apparatus, equipment, and machinery fixed to earth by foundation or structural support, used for making outward supply. It excludes land, buildings, and civil structures.
 
-This is why imported panels are largely uncompetitive against [ALMM-listed](/glossary/almm-list/) domestic modules for residential and C&I projects in India. The full landed cost post-duty makes the economics unfavourable compared to quality Indian manufacturers.
+Test 4 is the one C&I buyers miss. A plant feeding your own taxable manufacturing is a different analysis from one whose output is sold as electricity. Apply Section 17(2) to your outward supply mix before modelling credit into a payback figure.
 
-For a thorough comparison of inverter options in the current market, the [best solar inverter India 2026](/blog/best-solar-inverter-india/) guide covers domestic and imported options with current pricing including all applicable taxes.
+One more rule catches people combining reliefs. Section 16(3) blocks credit on the tax component of capital goods where depreciation has been claimed on that component under the Income-tax Act, 1961. Pick one treatment, not both. See [accelerated depreciation](/glossary/accelerated-depreciation/) and the guide to [solar inverter depreciation](/blog/solar-inverter-depreciation-in-india/), then our [commercial and industrial solutions](/c-i-solution/) page.
 
-### Mistake 3: Ignoring HSN Code Verification
+## What a compliant GST invoice must show
 
-Many smaller installers use generic HSN codes on invoices. If the inverter is billed under a wrong HSN (e.g., a general electrical equipment code with a different GST rate), it creates a mismatch in the GSTN system. For C&I buyers, this means ITC may be blocked or reversed when the supplier's GSTR-1 and the buyer's GSTR-2B do not reconcile.
+Rule 46 of the CGST Rules, 2017 sets the particulars. Check the supplier's document against the rule, not an online template.
 
-Buyer-facing quotes are just as prone to this error, using [quotation software that separates HSN-coded line items automatically](https://quickestimate.co/features/quotation-system/) reduces the chance of a mismatched or generic code reaching the customer invoice.
+| Particular | Clause |
+| --- | --- |
+| Supplier name, address, and GSTIN, plus a serial number unique for the year | (a), (b) |
+| Date of issue, and recipient name, address, and GSTIN | (c), (d) |
+| HSN code, description, and quantity with unit | (g), (h), (i) |
+| Total value, taxable value after discount, and rate and amount of tax by head | (j) to (m) |
+| Place of supply with State name, reverse charge status, and signature | (n), (p), (q) |
 
-Always verify:
+Two solar-specific points. The proviso to Rule 46 lets CBIC notify how many HSN digits a supplier must show, and Notification 78/2020-Central Tax dated 15 October 2020 sets 4 digits for annual turnover up to ₹5 crore and 6 digits above it, according to GSTN (2022). An unregistered recipient's name and delivery address must appear once the taxable value reaches ₹50,000.
 
-- **HSN 8504 40** for solar inverters (string, hybrid, central)
-- **HSN 8541 40** for solar PV modules and cells
-- **HSN 8507 60** for lithium-ion batteries
-- **HSN 7308** for mounting structures
+Then do the boring check. Put the accepted quote next to the final invoice. Model numbers, quantities, descriptions, and HSN codes should match.
 
-### Mistake 4: Assuming All States Have Additional Solar Tax Exemptions
+## Myths and mistakes that keep showing up in quotes
 
-Some buyers assume that state-level exemptions or VAT rebates (legacy from pre-GST) still apply. GST is a unified central levy, there is no state GST variation on solar equipment rates. State-specific differences that may exist include electricity duty (on power consumption, not on equipment), property tax on solar installations (very rare), and state government subsidies that are separate from GST. The GST rate itself is uniform across all Indian states and union territories.
+Two claims survive that the notification does not support. First, that all solar is 5%, so the whole quote is 5%. Entry 437 is about described goods, not an industry, and a bundled installation triggers the 70:30 Explanation. Second, that solar equipment is 12%, which was the position before 22 September 2025.
 
-### Mistake 5: Not Accounting for GST on Battery in Hybrid System Quotes
+Below those sit eight practical errors.
 
-Many hybrid system quotes highlight the 12% GST on panels and inverters but omit or bury the 18% GST on the battery. For a hybrid system with a 10 kWh lithium-ion battery pack priced at ₹70,000–₹90,000 pre-GST, the GST alone adds ₹12,600–₹16,200. This materially changes the payback calculation for residential hybrid buyers who cannot claim ITC.
+1. Buyers comparing a tax inclusive quote against a tax exclusive one.
+2. Buyers netting an assumed subsidy off the invoice before computing tax.
+3. Buyers assuming a residential input tax credit exists.
+4. Buyers accepting a blank HSN column, then never checking the invoice against the signed quote.
+5. Installers reusing an eight-digit HSN across differently described products.
+6. Installers applying the 70:30 split to a plain equipment sale.
+7. Installers applying the goods rate to a bundle when serial 38 services are in scope.
+8. Installers treating an IGST entry as authority for an intra-State invoice.
 
-For a comprehensive view of hybrid vs on-grid economics, the [on-grid vs hybrid solar inverters ROI](/blog/on-grid-vs-hybrid-solar-inverters-roi/) guide provides breakeven modelling inclusive of GST.
+All eight are cheaper to fix at quotation than at assessment.
 
-## Where Qbits Fits
+## What to watch for next
 
-Buyers who understand the GST landscape quickly arrive at a practical conclusion: inverter selection, warranty duration, and after-sales access matter as much as the equipment price on the invoice. A lower-priced inverter that fails two years in, needs replacement outside warranty, and costs ₹25,000 out-of-pocket plus 12% GST on the new unit is not a saving, it is a compounding cost.
+- **Further amendments.** Corrigenda to Notification 9/2025, and changes to the services rate notifications amended in September 2025.
+- **Rulings on standalone inverters.** Advance rulings on whether a given inverter is a solar power based device will settle more than any article can.
+- **MNRE's benchmark revision.** The guidelines say benchmark cost will be revised at the scheme's midterm review, or earlier on a substantial rise in module prices.
+- **Inverted duty refunds.** Goods at 5% with inputs at 18% creates an inverted duty structure. Confirm your refund route with your adviser.
 
-Qbits inverters are manufactured in India, appear on the ALMM list, carry BIS and IEC certifications, and qualify for PM Surya Ghar subsidy eligibility. The 12-year full replacement warranty means the single largest post-installation risk (inverter failure) does not trigger a fresh GST-inclusive equipment purchase during the payback window. IP66 weather protection reduces servicing frequency, which keeps the 18%-GST O&M cost lower over the asset life.
+Keep the datasheet with the quote. Our [hybrid inverter range](/hybrid-inverter/) carries the descriptions a supplier should be quoting from.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, 1.5 kW to 50 kW, ALMM-listed, subsidy-eligible, all GST invoices issued with correct HSN 8504 40 coding for ITC compliance.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery-readiness; Qbits provides composite supply invoicing to simplify GST treatment for C&I buyers.
-- **[C&I Solar Solutions](/c-i-solution/)**: For businesses evaluating the AD vs ITC decision, Qbits engineering team supports project structuring conversations including correct documentation for both claims.
+## The Bottom Line
 
-[Talk to a Qbits engineer](/contact-us/) about your system size, buyer category, and GST optimisation options, most residential quotes come back within 24 hours, and C&I proposals include a tax treatment note as standard.
+GST on solar inverters is a description question dressed up as a rate question. The 5% entry is real and took effect on 22 September 2025. It is not automatic for a static converter in heading 8504.
 
-## GST Outlook: Will Rates Change in 2026 or Beyond?
+Three things to do next:
 
-The industry continues to petition for a return to the 5% rate or the introduction of a special 5% slab for solar-specific goods. The [IRENA Renewable Energy Finance report](https://www.irena.org/) consistently highlights taxation as a demand-side barrier in emerging solar markets, and India's 12% rate is higher than the global median for solar goods taxation.
+- Write an entry number next to every tax line on your quote. If a line cannot be traced to entry 437, entry 477, or a service entry, ask which provision was used.
+- Then have a tax adviser confirm classification and input tax credit against your own facts, in writing, before you release payment.
+- [Contact Qbits](/contact-us/) for the equipment description and model details that belong on a Qbits quote, then take that description to your adviser.
 
-Realistic near-term scenarios:
-
-- **Status quo most likely**: The GST Council has not shown appetite for a dedicated solar reduction since 2021. Budget sessions in 2024 and 2025 did not include solar GST changes.
-- **Possible reduction to 5% for residential**: If the PM Surya Ghar targets begin to lag significantly, a targeted GST concession for residential-scale systems (up to 10 kW) is politically feasible.
-- **Battery GST reduction under discussion**: The lithium-ion battery industry (not just solar) has been lobbying for a reduction from 18% to 12%, which would benefit solar hybrid adoption significantly. This is more likely in the medium term than a panel/inverter rate change.
-
-The [Mercom India](https://www.mercomindia.com/) solar market tracker publishes rate updates when GST Council meetings address solar-specific notifications, it is the most reliable source for following this space.
-
-For businesses building 5-year financial models, it is prudent to stress-test scenarios with both the current 12% rate and a potential 5% rate, using a [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) to understand the sensitivity of [IRR](/glossary/irr/) and payback to tax changes. The [solar inverter payback period in India](/blog/solar-inverter-payback-period-in-india/) post provides a modelling framework that can be adapted for GST sensitivity analysis.
+**Sources checked.** [Notification 9/2025-Integrated Tax (Rate)](https://courier.cbic.gov.in/ECCS/advisory/2025/NOTIFICATION%20NO.%209_2025-INTEGRATED%20TAX%20(RATE)%20-1759486719.pdf), 17 September 2025, entries 437, 438, and 477. Notification 11/2017-Central Tax (Rate), serial 38. CGST Act, 2017, sections 15(2)(e), 16(3), and 17. Rule 46, CGST Rules, 2017, and Notification 78/2020-Central Tax, via CBIC and GSTN. [PIB, 17 September 2025](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2167486) and [PIB, 29 February 2024](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2010133), MNRE. [MNRE operational guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/). Reviewed 24 September 2026.

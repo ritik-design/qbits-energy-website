@@ -1,214 +1,212 @@
 ---
-title: "Anti-Islanding Protection in Solar Inverters"
-excerpt: "Anti-islanding protection stops your solar inverter from feeding power into a dead grid, protecting linemen and meeting IEC 62116 and CEA Grid Code 2020 mandates."
-description: "What anti-islanding protection is, how ROCOF and vector shift detection work, IEC 62116 requirements, and how Qbits inverters pass DISCOM inspections."
+title: 'Anti-Islanding Protection in Solar Inverters'
+excerpt: Why your solar inverter shuts down in a power cut, how passive and active anti-islanding detection work, and the CEA trip limits that apply in India.
+description: Anti-islanding protection stops a grid-tied solar inverter from energising a dead utility line. Detection methods, non-detection zones, CEA and IEC limits, and site testing.
 category: Technology
 date: 2026-06-05
-readTime: "17 min"
-image: "/blog-images/solar-inverter-certifications.svg"
-author: "Keyur Rakholiya"
-updatedDate: 2026-07-08
+updatedDate: 2026-09-24
+readTime: 13 min
+image: /blog-images/solar-inverter-certifications.svg
+author: Keyur Rakholiya
 keywords:
-  - anti islanding solar inverter
-  - anti islanding protection india
-  - IEC 62116 solar inverter
-  - CEA grid code 2020 inverter
-  - solar inverter grid safety india
+- anti islanding solar inverter
+- anti islanding protection india
+- IEC 62116 solar inverter
+- solar inverter grid safety india
+- why does solar inverter stop in power cut
+- non-detection zone inverter
 faqs:
-  - q: "What is anti-islanding protection in a solar inverter?"
-    a: "Anti-islanding protection is the safety function that forces a grid-connected solar inverter to shut down its AC output within a defined time limit whenever the utility grid becomes de-energised. If the inverter continues to generate power on a dead feeder, it creates a live voltage hazard for linesmen working on what they believe to be a dead circuit. IEC 62116 and CEA Grid Code 2020 both mandate anti-islanding in every grid-connected inverter installed in India."
-  - q: "What is the IEC 62116 standard for anti-islanding?"
-    a: "IEC 62116 is the international test procedure for verifying that a solar inverter successfully detects an islanding condition and disconnects within the allowable trip time - typically 2 seconds for normal conditions. The standard defines the non-detection zone (NDZ), the worst-case load mismatch scenario under which the inverter must still trip. BIS has adopted IEC 62116 as IS/IEC 62116, and DISCOM commissioning teams in India require the test certificate before approving grid interconnection."
-  - q: "How does ROCOF anti-islanding detection work?"
-    a: "ROCOF (Rate of Change of Frequency) detection monitors the AC grid frequency in real time. When the grid goes offline and the local load does not exactly match inverter output, the frequency begins to drift. The inverter measures the rate at which frequency changes (Hz per second) and trips if it exceeds a set threshold - typically ±0.5 Hz/s in the CEA Grid Code 2020. ROCOF is an active method because the inverter continuously measures a grid parameter rather than passively listening for an absence of signal."
-  - q: "What is vector shift anti-islanding detection?"
-    a: "Vector shift (also called phase-jump detection) monitors the instantaneous phase angle of the AC output. When the grid disconnects, the inverter's phase-locked loop (PLL) briefly sees a phase jump because the stabilising reference disappears. The inverter measures this sudden angle shift and trips if it exceeds the threshold, typically 2–6 degrees depending on settings. Vector shift responds faster than ROCOF but can cause nuisance tripping during severe grid voltage disturbances - which is why Qbits uses both ROCOF and vector shift in a complementary scheme."
-  - q: "Does every solar inverter in India need anti-islanding?"
-    a: "Yes. CEA Grid Code 2020 (Technical Standards for Connectivity of Distributed Generation Resources) mandates anti-islanding protection for every grid-connected distributed generation system in India. This applies to residential 1 kW rooftop installations all the way up to MW-scale commercial plants. A commissioning inspection by the DISCOM includes verifying that the inverter holds a valid IEC 62116 or equivalent anti-islanding test certificate before approving the system for grid interconnection and net-metering registration."
-  - q: "What is the non-detection zone in anti-islanding?"
-    a: "The non-detection zone (NDZ) is the range of load mismatch conditions under which a passive anti-islanding method may fail to detect an island. When the local load is nearly identical to inverter output in both real power and reactive power, frequency and voltage barely drift after grid disconnection. Active methods such as ROCOF and vector shift are designed specifically to eliminate the NDZ by injecting a perturbation or measuring dynamic parameters, ensuring detection even in near-unity load-match scenarios."
-  - q: "What happens if an inverter fails the anti-islanding test during commissioning?"
-    a: "If an inverter does not produce a valid IEC 62116 or IS/IEC 62116 test certificate, the DISCOM can refuse grid interconnection approval. The EPC installer bears responsibility for replacing the inverter with a compliant model. Retrofit corrections are expensive because inverter replacement after mounting and cabling may require panel removal. This is why verifying anti-islanding compliance before procurement - not after installation - is the correct sequence for any serious EPC workflow."
-  - q: "Can anti-islanding protection cause nuisance tripping during grid disturbances?"
-    a: "Yes, poorly configured anti-islanding can cause false trips during normal grid voltage or frequency transients such as sudden load switching at a nearby substation. This is called nuisance tripping or sympathetic tripping. Well-designed inverters use complementary detection layers - passive voltage and frequency monitoring combined with active ROCOF and vector shift - with carefully tuned thresholds to distinguish genuine islanding from transient disturbances. Qbits inverters are field-tested on Indian grids, which are more volatile than European grids, to minimise nuisance trips."
-  - q: "How long does an inverter have to trip after detecting an island?"
-    a: "IEC 62116 and CEA Grid Code 2020 require the inverter to disconnect from the grid within 2 seconds of detecting an islanding condition. Many modern inverters, including Qbits models, achieve disconnection in under 200 milliseconds for active detection methods, providing a significantly larger safety margin than the regulatory minimum."
+- q: What is anti-islanding protection in a solar inverter?
+  a: It is the protective function that forces a grid-connected inverter to stop energising the utility line once grid supply is lost. The inverter watches voltage, frequency and other signals at its terminals, decides the grid is gone, and shuts its output down. In India the Central Electricity Authority (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 require the resource to cease energising the system within two seconds of an unintended island forming. It protects utility line workers and network equipment, not your appliances.
+- q: Why does my solar system stop working during a power cut?
+  a: A standard grid-tied inverter is designed to shut down when the grid fails. That is anti-islanding protection working correctly, not a fault. Keeping the inverter running would energise a line that utility staff have isolated and believe is dead. If you want power during an outage you need a hybrid inverter with a battery and an approved transfer arrangement, which isolates the house from the utility before it re-energises the backup circuit.
+- q: Can anti-islanding protection be disabled to get backup power?
+  a: No. The function is part of the grid interface the inverter was type-tested against, and disabling it breaks the connection agreement with your DISCOM. It also creates a direct electrocution risk for anyone working on the feeder. The legitimate route to backup is a hybrid inverter with battery storage and a transfer arrangement that separates the backup circuit from the utility. Any installer offering to turn anti-islanding off should be refused.
+- q: What is the non-detection zone?
+  a: The non-detection zone is the band of operating conditions where inverter output and local load are so closely matched that voltage and frequency barely move after the grid disappears. Passive protection then has nothing unusual to sense. Active methods shrink the zone by deliberately perturbing the output and watching for a runaway response, but no method eliminates it in every network condition. This is why the standards mandate a clearing time rather than a detection guarantee.
+- q: Is IEC 62116 the same as a trip-time setting?
+  a: No. IEC 62116:2014 is a test procedure for islanding-prevention measures on utility-interconnected photovoltaic inverters, not a table of grid settings. It defines the test circuit, an RLC load resonant at the nominal frequency and matched to the unit under test, and a measured run-on time. Your actual trip thresholds come from the applicable grid code, the CEA regulations, and any narrower range your DISCOM prescribes.
+- q: Which Indian standard covers anti-islanding testing?
+  a: IS 16169:2019 is the Indian adoption of IEC 62116:2014 and covers the test procedure for islanding prevention measures. Under the Ministry of New and Renewable Energy Solar Systems, Devices and Components Goods Order, 2025, the applicable version moved from IS 16169:2014 to IS 16169:2019 for BIS registration. Inverter safety is covered separately by IS 16221 (Part 2):2015, identical to IEC 62109-2:2011. Ask your supplier for reports against the exact model you are buying.
+- q: Do multiple inverters on one feeder weaken anti-islanding?
+  a: They can. Certification testing under IEC 62116 puts a single inverter against a single resonant load, so it does not reproduce a feeder carrying several inverters from different vendors. Each unit's active perturbation becomes a smaller share of total island power, and schemes from different manufacturers can push frequency in opposing directions and partly cancel. Utilities therefore apply their own screening rules rather than relying only on a product certificate.
+- q: My inverter keeps tripping on grid faults. Should I widen the trip settings?
+  a: No. Grid protection limits come from the applicable grid code and the DISCOM, and only an authorised service engineer should touch a grid profile. Repeated trips on a weak feeder usually trace to AC cable voltage rise, loose terminations, an earthing problem, transformer loading, or firmware. Record the exact model, the displayed event code and the measured voltage at the AC terminals, then raise it through the service route instead of adjusting thresholds.
+seoTitle: 'Anti-Islanding Protection in Solar Inverters: How It Works'
+relatedSlugs:
+- solar-inverter-regulations-india-2026-bis-iec-compliance
+- solar-inverter-error-codes-guide
+- on-grid-vs-hybrid
 ---
 
-Every time a DISCOM crew goes out to repair a feeder that has tripped at the substation, they assume the downstream conductors are dead. If a rooftop solar inverter continues to energise those conductors, the crew faces a live-line hazard on what they believe is a de-energised circuit. This is the islanding problem, and it is the reason every grid-connected solar inverter sold or installed in India must include [anti-islanding](/glossary/anti-islanding/) protection certified to IEC 62116 and compliant with CEA [Grid Code](https://www.surgepv.com/glossary/grid-code) 2020.
+Your panels are in full sun. The grid goes out. Your rooftop system shuts down with it and the house goes dark. Nothing is broken. That is anti-islanding protection doing exactly what Indian regulation requires.
+
+**Anti-islanding protection** forces a grid-connected solar inverter to stop energising the utility line once the grid disappears. Without it, your inverter would keep pushing power into a cable that a line worker has isolated and believes is dead. It is not a fault, not a warranty issue, and not something an installer can legitimately switch off.
+
+India makes this mandatory. The Central Electricity Authority requires cessation within two seconds of an unintended island forming, and every grid-tied inverter sold here is type-tested against IS 16169:2019, the Indian adoption of IEC 62116:2014.
+
+Below: how detection works, why the non-detection zone never closes, the verified CEA trip limits, why a hybrid can legally keep your lights on, and what to do about nuisance trips. Every standard number was checked against the issuing body.
 
 > **TL;DR**
-> - [Anti-islanding](/glossary/anti-islanding/) must trip a grid-connected inverter within 2 seconds of grid loss, per IEC 62116 and CEA Grid Code 2020.
-> - Qbits inverters combine ROCOF and vector shift detection, eliminating the non-detection zone that defeats passive-only protection.
-> - BIS has adopted the standard as IS/IEC 62116, and DISCOMs require the certificate for the exact firmware version before approving grid interconnection.
-> - Passive voltage and frequency protection alone can miss an island when local load closely matches inverter output, the non-detection zone (NDZ).
-> - Most modern inverters trip in under 200 milliseconds, well inside the 2-second regulatory limit.
+> - Anti-islanding stops a grid-tied inverter from energising a disconnected utility line. It protects line workers, never your appliances.
+> - CEA Connectivity Regulations, 2013, Regulation 11(6)(e): cease energising within two seconds of an unintended island forming.
+> - It also trips voltage above 110% or below 80% of nominal, and frequency at 50.5 Hz and above or 47.5 Hz and below. The licensee may prescribe narrower.
+> - Passive methods (voltage, frequency, ROCOF, vector shift) go blind inside the non-detection zone. Active methods shrink it at a cost in power quality.
+> - IEC 62116:2014, adopted as IS 16169:2019, tests one inverter against one resonant RLC load, not a real feeder. A hybrid inverter can still keep a house energised, because a transfer arrangement separates the backup circuit first.
 
-> **Direct answer.** Anti-islanding protection forces a solar inverter to stop feeding power into the grid within 2 seconds whenever the utility grid goes down. Qbits inverters use a two-layer scheme (ROCOF (Rate of Change of Frequency) and vector shift) to detect grid loss even in the hardest-to-detect near-unity load scenarios, satisfying IEC 62116 requirements and CEA Grid Code 2020 for every DISCOM commissioning inspection.
+**Short version.** Anti-islanding protection makes a grid-connected solar inverter stop feeding the utility network within seconds of losing the grid. Detection combines passive sensing of voltage and frequency with active perturbation of the inverter output. Indian rules require cessation within two seconds of an unintended island forming, under CEA Regulation 11(6)(e), with type testing to IS 16169:2019.
 
-For EPC installers, anti-islanding is not a theoretical concern. It is a line item on the DISCOM inspection checklist, and failing it means the system does not get grid-interconnection approval, which means no net-metering credit and a very unhappy customer. Understanding how the protection works (and how to verify it before installation) is the fastest way to eliminate commissioning delays.
+## What an island is, and why it is dangerous
 
-## What Anti-Islanding Protection Does and Why It Matters
+An island is a section of distribution network cut off from the utility supply but still live, energised by generation on that section. A breaker opened or a fuse blew, and a rooftop inverter keeps exporting into copper that should be dead.
 
-An islanding condition occurs when a section of the distribution grid becomes electrically separated from the main utility but continues to be energised by one or more distributed generation sources, in this case, solar inverters. The term "island" captures the image of a live electrical island cut off from the mainland grid but still charged.
+The CEA regulations define an **unintended island** as a part of the electricity system that stays energised by distributed generation after isolation. Deliberate islanding exists in microgrid design as an approved arrangement; [anti-islanding](/glossary/anti-islanding/) prevents the accidental version. Islands survive longer than intuition suggests: a 5 kW inverter feeding roughly 5 kW of local load has no reason to stop.
 
-The hazard is twofold. First, utility workers expect de-energised conductors when a feeder trips; an energised island creates an electrocution risk. Second, the island may be running at a voltage and frequency outside normal range, which can damage connected equipment or cause instability when the grid reconnects.
+Two hazards follow. The first is shock risk. Crews work a dead line by isolating, testing, and earthing it. A rooftop inverter backfeeding through the distribution transformer puts 11 kV back on the high-voltage side, so a worker following correct procedure can still be exposed.
 
-CEA Grid Code 2020, formally the Technical Standards for Connectivity of Distributed Generation Resources issued by the [Central Electricity Authority](/glossary/cea/), mandates that every distributed generation inverter must detect the islanding condition and disconnect from the grid within the prescribed time. The standard applies regardless of system size, a 3 kW residential rooftop and a 500 kW factory rooftop are both subject to the same requirement.
+The second is out-of-phase reclosure. Indian feeders use automatic reclosers that restore supply after a transient fault, assuming the section is dead. A surviving island has drifted out of phase by then. Closing two unsynchronised sources produces a large transient torque and current, damaging motors, transformer windings, and inverters.
 
-| Protection layer | What it monitors | Trip threshold (indicative) | Trip time |
-| --- | --- | --- | --- |
-| Under/over voltage | AC terminal voltage | <180 V or >270 V | 0.1–2 s |
-| Under/over frequency | Grid frequency | <47.5 Hz or >51.5 Hz | 0.1–2 s |
-| ROCOF (active) | Rate of frequency change | ±0.5 Hz/s | <2 s |
-| Vector shift (active) | Phase angle jump | 2–6 degrees | <0.5 s |
+## Passive detection methods and where they go blind
 
-The first two layers (voltage and frequency monitoring) are passive methods that work well when the island causes a significant voltage or frequency deviation. The problem is the non-detection zone (NDZ): when local load exactly matches inverter output, the island voltage and frequency barely move, and passive methods can fail to trip.
+Passive methods watch the inverter's own terminals for something abnormal. They add no distortion and no cost, so every inverter carries them. Their weakness is structural: if the grid's departure does not move the measured quantity, the method sees nothing. After the grid opens, inverter real power must equal island real load, forcing voltage to a new value; reactive mismatch moves frequency. Small mismatches mean small movements.
 
-Active methods such as ROCOF and vector shift are specifically engineered to eliminate the NDZ by measuring dynamic electrical parameters rather than steady-state values.
-
-> **2 seconds.** The maximum permissible disconnection time after islanding detection under IEC 62116 and CEA Grid Code 2020. Most modern inverters using active detection achieve disconnection in under 200 milliseconds. *Source - [Central Electricity Authority, Technical Standards for Connectivity of DG Resources](https://cea.nic.in/){target="_blank" rel="noopener"}, 2020.*
-
-According to [IRENA's report on distributed generation grid integration](https://www.irena.org/publications){target="_blank" rel="noopener"}, anti-islanding protection is among the top three requirements that national regulators cite as barriers to faster rooftop solar deployment, primarily because non-compliant inverters already in the field require expensive retrofits. India's mandatory certification approach through BIS is considered a global best-practice model by [IEA's Distributed Solar Guidelines](https://www.iea.org/reports/unlocking-the-potential-of-distributed-energy-resources){target="_blank" rel="noopener"}.
-
-## The IEC 62116 Standard: India's Certification Requirement
-
-[IEC 62116](https://www.iec.ch/){target="_blank" rel="noopener"} is the international test standard titled "Utility-Interconnected Photovoltaic Inverters, Test Procedure of Islanding Prevention Measures." The Bureau of Indian Standards has adopted it as IS/IEC 62116, and BIS [BIS certification](/glossary/bis-certification/) is required for every inverter sold or installed in India. Anti-islanding is one part of a wider compliance picture, the [solar inverter regulations India 2026 BIS/IEC compliance guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) covers the complete certification landscape.
-
-The test procedure is deliberately adversarial. It creates a resonant RLC load circuit whose impedance is tuned so that the local load power factor and real power closely match the inverter output, the worst-case NDZ condition. The test then disconnects the utility and measures how long the inverter takes to trip.
-
-### Test Methodology Under IEC 62116
-
-The three critical parameters tested are:
-
-- **Quality factor (Qf)**: The loaded Q factor of the RLC resonant circuit is set to 1.0, representing a well-tuned resonant load that strongly resists frequency drift after grid loss.
-- **Load match**: Real power drawn by the RLC load is set to equal inverter output power within ±1%, creating near-zero power imbalance.
-- **Trip time**: The grid is disconnected and the inverter must cease energising the local circuit within 2 seconds.
-
-For the inverter to pass, its anti-islanding scheme must trip reliably at Qf = 1.0 with near-unity power match, which is the hardest possible scenario for passive detection alone.
-
-### What the Certificate Covers
-
-An IEC 62116 test certificate covers a specific inverter model at a specific firmware version. This has a practical implication for EPCs: if a manufacturer releases a major [firmware update](/blog/solar-inverter-firmware-update-india/) that changes the inverter control loop, the anti-islanding certification may need to be re-validated. Always request the certificate for the exact firmware version installed on site.
-
-## Active vs Passive Anti-Islanding Methods
-
-Understanding the two method families helps an EPC evaluate an inverter specification sheet correctly, rather than accepting "IEC 62116 compliant" as a black-box claim.
-
-### Passive Methods
-
-Passive methods monitor steady-state grid parameters for violations of the normal operating envelope:
-
-- **Over/under voltage (OUV)**: If grid voltage drops below 180 V or rises above 270 V, the inverter trips. Effective only when the island causes a significant voltage deviation.
-- **Over/under frequency (OUF)**: If frequency drifts outside 47.5–51.5 Hz, the inverter trips. Effective only when real power imbalance in the island is large enough to cause frequency drift.
-
-The NDZ for passive methods is the combination of real and reactive power loads in the island that produce neither a voltage nor a frequency violation, i.e., perfect or near-perfect load match.
-
-### Active Methods
-
-Active methods inject a perturbation or measure a dynamic property that changes when the grid loses its stabilising influence:
-
-- **Sandia Frequency Shift (SFS)**: The inverter intentionally shifts its output frequency by a small amount. When connected to the grid, the grid's stiffness suppresses the shift. When the island forms, the shift propagates and accelerates, quickly violating the OUF threshold.
-- **ROCOF (Rate of Change of Frequency)**: The inverter measures the rate at which frequency changes in real time. On a stiff grid, frequency is stable and ROCOF is near zero. At the moment of islanding, even a small power imbalance causes rapid frequency drift; ROCOF detects this and trips.
-- **Vector Shift (Phase-Jump Detection)**: The inverter's phase-locked loop (PLL) tracks the grid voltage phasor. When the grid disconnects, the PLL momentarily sees a jump in the phase angle of its reference, because the grid's stiff voltage reference disappears. The inverter measures this angle jump and trips if it exceeds the threshold.
-
-| Method type | NDZ | Speed | Nuisance trip risk |
-| --- | --- | --- | --- |
-| Passive OUV/OUF | High (NDZ exists) | Slow (steady-state) | Low |
-| Sandia frequency shift | Eliminated | Medium | Medium |
-| ROCOF | Very low | Fast (<1 s) | Medium on weak grids |
-| Vector shift | Eliminated | Very fast (<500 ms) | Medium on unstable grids |
-
-## How Qbits Implements Anti-Islanding: The ROCOF + Vector Shift Scheme
-
-Qbits HS and HT series [hybrid inverters](/hybrid-inverter/) and TLS/TLD series [on-grid inverters](/on-grid-inverter/) implement a complementary two-layer active scheme combining ROCOF and vector shift. This layered approach addresses the key limitation of each method individually.
-
-### The Anti-Islanding Compliance Checklist
-
-This checklist defines how Qbits designs and validates its anti-islanding stack, and is equally useful as a procurement checklist for EPC teams evaluating competing inverter brands:
-
-1. **Passive baseline**: Over/under voltage and over/under frequency protection are always active, forming the first trip layer for large power imbalances. Trip thresholds conform to CEA Grid Code 2020 bands (180–270 V, 47.5–51.5 Hz).
-2. **ROCOF layer**: Rate of change of frequency is monitored at 10 ms resolution. The trip threshold is set at ±0.5 Hz/s, matching the CEA Grid Code 2020 requirement. ROCOF detects the frequency drift caused by even small power imbalances in the island.
-3. **Vector shift layer**: Phase angle of the AC output is compared cycle-by-cycle with the previous cycle. A jump exceeding 3 degrees triggers a trip. Vector shift responds in under 500 ms and covers scenarios where frequency drift is masked by a nearly matched load.
-4. **Complementary logic**: Either ROCOF or vector shift can independently trigger disconnection. The two layers do not require simultaneous confirmation, which ensures that a tricky NDZ condition that defeats one method is caught by the other.
-5. **Anti-nuisance tuning**: Thresholds are tuned to the Indian grid environment, where voltage and frequency transients from sudden load switching are common. A short-time delay (typically 80 ms) is applied to vector shift to filter transients without compromising the 2-second regulatory limit.
-6. **Firmware-locked parameters**: Anti-islanding thresholds are locked against unauthorised field modification once the inverter passes factory IEC 62116 testing. Only a signed firmware update from Qbits can change these parameters, ensuring certificate validity in the field.
-
-> **Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone.** For EPC teams, that means the IEC 62116 certificate, the commissioning checklist, and a trained field engineer are all available on the same call.
-
-## CEA Grid Code 2020: The Regulatory Context for Indian EPC Installers
-
-The [CEA Grid Code 2020](https://cea.nic.in/){target="_blank" rel="noopener"} (Technical Standards for Connectivity of Distributed Generation Resources) came into force on 29 July 2020 and is the primary regulatory instrument governing how any generator (including rooftop solar) connects to the Indian distribution grid.
-
-For anti-islanding specifically, the Grid Code mandates:
-
-- **Section 4.4.1**: All inverter-based distributed generation must include anti-islanding protection that disconnects within 2 seconds.
-- **Section 4.4.2**: Frequency protection: trip at <47.5 Hz or >51.5 Hz. Rate of change of frequency protection at ±0.5 Hz/s.
-- **Section 4.4.3**: Voltage protection: trip at <0.8 pu or >1.1 pu (i.e., <184 V or >253 V on a 230 V nominal grid).
-- **Section 5**: All protection settings must be verified and documented by the commissioning engineer before the DISCOM grants grid interconnection approval.
-
-The practical implication for EPCs: every commissioning form submitted to a DISCOM includes a section on protection relay settings. An inverter that cannot produce a valid IEC 62116 certificate for the firmware version installed will fail this verification.
-
-## Why the DISCOM Commissioning Inspection Checks Anti-Islanding
-
-The [DISCOM](/glossary/discom/) commissioning inspection for a new rooftop solar installation typically covers three areas: metering, protection, and documentation. Anti-islanding falls squarely in the protection section.
-
-The inspector will ask for:
-
-- **IEC 62116 / IS/IEC 62116 test certificate** for the exact model and firmware version installed.
-- **Commissioning report** confirming protection relay settings match CEA Grid Code 2020 requirements.
-- **Single-line diagram** showing the connection point, isolators, and protection relay locations, typically prepared as part of the electrical and CEIG drawing package an EPC submits to the DISCOM.
-
-If the inverter brand's local distributor cannot produce these documents, the commissioning process stalls. EPC teams who work with Qbits receive a pre-formatted commissioning pack that includes the IEC 62116 certificate, the CEA Grid Code compliance declaration, and the [single-line diagram](/glossary/single-line-diagram/) template, reducing inspection preparation time significantly.
-
-The [solar inverter commissioning in India](/blog/solar-inverter-commissioning-in-india/) process covers the full sequence; the anti-islanding verification is one of several steps but is the one most often delayed due to missing documentation.
-
-## Common Anti-Islanding Failures in the Field: and How to Avoid Them
-
-Anti-islanding protection can fail in the field in ways that are not obvious during initial commissioning. EPC teams who understand these failure modes can design more reliable installations.
-
-### Firmware Downgrade After Commissioning
-
-If a field technician reverts the inverter firmware to a previous version (perhaps to resolve an unrelated feature issue) and the previous version used different anti-islanding parameters, the commissioning certificate becomes invalid. The fix is to maintain a firmware log and never downgrade without re-testing protection settings.
-
-### Multiple Inverters Without Coordinated Anti-Islanding
-
-A large installation with several inverters in parallel may experience a phenomenon where one inverter's frequency shift excitation is suppressed by the stiff voltage reference provided by the neighbouring inverters still connected to the grid, delaying detection. Modern inverters address this through inter-device communication; confirm this is present when specifying multi-inverter installations.
-
-### Nuisance Trips on Weak Feeders
-
-[NREL research on inverter-based resources](https://www.nrel.gov/grid/distributed-generation.html){target="_blank" rel="noopener"} and [Mercom India's 2025 grid integration report](https://www.mercomindia.com/){target="_blank" rel="noopener"} both note that nuisance tripping from poorly tuned anti-islanding schemes is among the top three complaints from rooftop solar installers in markets with unstable distribution grids, a category India's Tier-2 and Tier-3 cities squarely fall into. In these locations, where DISCOM feeders are thin and voltage fluctuates frequently, vector shift thresholds set too tightly can cause nuisance tripping during normal grid disturbances. This is not a safety failure (the inverter is tripping correctly) but it reduces system availability. Qbits field teams can adjust the short-time delay parameter within the CEA Grid Code 2020 permitted range to reduce nuisance trips without compromising protection speed.
-
-### Missing Anti-Islanding on Added Inverters
-
-When an existing system is expanded and a new inverter is added, the expansion inverter must also hold its own IEC 62116 certificate. The original certificate does not extend to new equipment. Neglecting this step is a common oversight during capacity additions.
-
-Review the [solar inverter certifications guide](/blog/solar-inverter-certifications/) for the full list of certificates to verify during procurement, anti-islanding is one of four mandatory test certifications for India-compliant inverters.
-
-## Anti-Islanding vs Fault Ride-Through: Knowing When to Stay and When to Trip
-
-EPC engineers sometimes conflate anti-islanding with [fault ride-through](/glossary/fault-ride-through/) (FRT), but they are opposite responses to different events.
-
-| Scenario | Required response | Governed by |
+| Passive method | What it senses | Where it goes blind |
 | --- | --- | --- |
-| Grid voltage dip (shallow, short) | Stay connected (fault ride-through) | CEA Grid Code 2020, Section 4.3 |
-| Grid complete disconnection (islanding) | Trip immediately | CEA Grid Code 2020, Section 4.4 |
-| Grid frequency transient | Stay connected within bounds | CEA Grid Code 2020, Section 4.2 |
-| Grid loss sustained (>2 s) | Trip and stay disconnected | IEC 62116 |
+| Over and under voltage (27/59) | RMS voltage shift from an active power mismatch | Output nearly equals local real load |
+| Over and under frequency (81O/81U) | Frequency shift from a reactive power mismatch | Island load close to resonant at 50 Hz |
+| ROCOF (81R), rate of change of frequency | Frequency slope over a few cycles | Shallow slope at small mismatch; trips on real grid events |
+| Vector shift | Step change in voltage phase angle at separation | Small mismatch gives a phase step below setting |
 
-The inverter control system must distinguish between a voltage sag that lasts 100 ms and will recover (where FRT requires the inverter to stay connected and support the grid, the same behaviour that defines a [grid-forming inverter](/glossary/grid-forming-inverter/)) and a genuine grid disconnection (where anti-islanding requires immediate trip). This distinction is implemented through voltage, frequency, and time-domain criteria working together.
+**ROCOF** measures df/dt rather than f, so it reacts before frequency drifts far enough to hit a fixed threshold. That speed is also its problem: a large generator tripping elsewhere produces a genuine slope, and a sensitive ROCOF element then disconnects a healthy plant.
 
-Qbits inverters comply with both FRT and anti-islanding requirements simultaneously, which is the more difficult engineering problem to solve compared to implementing either in isolation.
+**Vector shift** watches the duration of each voltage cycle. At separation the load angle jumps, shortening or lengthening one cycle. Fast, no injection needed, and fooled by motor starts, capacitor switching, and nearby fault clearance.
 
-## Where Qbits Fits
+## Active detection methods and the power quality tradeoff
 
-EPC teams specifying inverters for DISCOM-approved installations need a brand that ships the full compliance documentation package (IEC 62116 test certificate, CEA Grid Code 2020 declaration, and commissioning templates) with every unit, not as an optional add-on.
+Active methods stop waiting and start pushing. The inverter perturbs its output in a way a stiff grid absorbs without reacting, then watches. An island cannot absorb it, so the disturbance grows until a conventional trip fires. Detection is bought with distortion, so vendors trade perturbation size against harmonics, flicker, and stability on weak networks.
 
-Qbits HS and HT hybrid series and TLS/TLD on-grid series implement the dual-layer ROCOF + vector shift scheme described in this article. The 12-year full replacement warranty covers the anti-islanding hardware and the firmware that governs it. Every software update that affects protection parameters is re-validated against IEC 62116 before the update is released, ensuring the field certificate remains valid.
+| Active method | Mechanism | Cost it imposes |
+| --- | --- | --- |
+| Active frequency drift (AFD) | Short zero-current dead time each half cycle nudges island frequency one way | Odd-harmonic current distortion, always present |
+| AFD with positive feedback (Sandia frequency shift) | Chopping fraction scales with measured frequency error, so deviation amplifies itself | Higher distortion; gain can destabilise a weak feeder |
+| Slip-mode frequency shift (SMS) | Current-to-voltage phase angle made a function of frequency, positive feedback on phase | Weakens against high quality factor resonant loads |
+| Impedance injection | Injects a non-fundamental current and reads the voltage response to estimate source impedance | Signals from parallel inverters collide |
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series with IEC 62116-certified anti-islanding, ALMM-listed, subsidy-eligible.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery integration and compliant anti-islanding for grid-connected operation.
-- **[Solar Inverter Certifications Guide](/blog/solar-inverter-certifications/)**: Full list of mandatory Indian compliance certificates and how to verify them before procurement.
-- **[Solar Inverter Commissioning in India](/blog/solar-inverter-commissioning-in-india/)**: Step-by-step DISCOM approval workflow including protection verification.
+Positive feedback is the key idea. Plain AFD pushes with fixed force and a stubborn load holds it in place. A positive-feedback scheme raises its push in proportion to how far frequency has moved, so the island runs away from stability instead of settling into it.
 
-If your commissioning team has encountered an anti-islanding question from a DISCOM inspector, [talk to a Qbits engineer](/contact-us/), the compliance documentation team can usually turn around a clarification pack within one business day.
+## The non-detection zone, and why inverters mask each other
+
+The **non-detection zone**, or NDZ, is the band of real and reactive power mismatch where a scheme fails to trip in time. It is a property of every method, not a product defect, and shrinking it for one load condition usually widens it for another. The arithmetic, using round numbers rather than field data:
+
+**Worked example: passive under-voltage inside the NDZ**
+
+- Nominal voltage: 230 V
+- Local resistive load on the island: 5,200 W
+- Inverter output: 5,000 W
+- Load resistance: R = V squared / P = (230 x 230) / 5,200 = 10.17 ohm
+- Island voltage: V = square root of (P x R) = square root of (5,000 x 10.17) = 225.5 V
+
+The mismatch is 200 W in 5,200 W, or 3.8%, and it moves voltage just 1.9%. The CEA under-voltage limit sits at 80% of nominal, or 184 V, so passive under-voltage protection has nothing to report. If the load's inductive and capacitive parts also cancel near 50 Hz, frequency does not move either.
+
+Now put several inverters on one feeder. Each unit's perturbation becomes a smaller share of total island power. Worse, positive-feedback schemes from different vendors use different gains and signs of drift, so one pushes frequency up while another pushes it down and the two partly cancel.
+
+Certification does not cover this. Clause 6.1 of IEC 62116:2014 states the test uses an RLC load resonant at the nominal frequency and matched to a single unit under test. One inverter, one load. Your feeder is not that.
+
+## The standards that actually apply in India
+
+Four documents matter and they do different jobs. People conflate them, then quote a trip time from a test standard that contains none.
+
+| Document | What it governs | Version verified |
+| --- | --- | --- |
+| [IEC 62116](https://webstore.iec.ch/en/publication/6479) | Islanding-prevention test procedure for grid-tied PV inverters | Edition 2.0, 2014-02, supersedes 2008 |
+| IS 16169 | Indian adoption of IEC 62116:2014 | 2019 revision, replacing 2014 for BIS registration |
+| IS 16221 (Part 2) | Inverter safety, identical to IEC 62109-2:2011, used with Part 1 | 2015; separate from anti-islanding |
+| [CEA Connectivity Regulations](https://cea.nic.in/regulations-category/connectivity-of-distributed-generation-resources/?lang=en) | The binding Indian interconnection requirement | 2013, notified 30.09.2013; First Amendment 06.02.2019 |
+
+IEC 62116:2014 scopes itself as "a test procedure to evaluate the performance of islanding prevention measures used with utility-interconnected PV systems". That is the whole claim: a laboratory method, not a grid code.
+
+The applicable BIS standard moved to IS 16169:2019 under the Solar Systems, Devices and Components Goods Order, 2025, notified by the Ministry of New and Renewable Energy on 27 January 2025, per the [Press Information Bureau release](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2097219&reg=48&lang=2) and the [BIS changeover guidelines](https://www.crsbis.in/BIS/app_srv/tdc/gl/docs/changeover_guidelines_IS_16169_V2_final.pdf). Treat a report against the 2014 edition as a question to ask. Our guide to [Indian inverter regulations and BIS compliance](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) covers the registration chain; the [BIS certification](/glossary/bis-certification/) glossary entry explains what a CRS registration means.
+
+[IEEE 1547-2018](https://standards.ieee.org/standard/1547-2018.html), amended by IEEE 1547a-2020, says the same in Clause 8.1.1: detect, cease to energize, and trip within two seconds of formation. The NREL primer notes the operator may extend that to five seconds, [catalogued on OSTI](https://www.osti.gov/biblio/1862659). India does not run on IEEE 1547, but the figure matches the CEA rule.
+
+## Trip thresholds and clearing times
+
+These come from Regulation 11(6) of the CEA Connectivity Regulations, 2013 as amended in 2019. Treat them as the outer envelope, not your site settings.
+
+| Protective function | Limit in the regulation | Clearing time |
+| --- | --- | --- |
+| Over and under voltage | Above 110% or below 80% of nominal | Up to two seconds |
+| Over and under frequency | 50.5 Hz and above, 47.5 Hz and below | Up to 0.2 seconds |
+| Unintended island | Cease to energise the electricity system | Within two seconds of island formation |
+| Reconnection after a trip | Voltage and frequency inside limits and stable | At least sixty seconds before reconnecting |
+| DC injection | Not greater than 0.5% of full rated output | Continuous limit |
+
+Read the proviso on the voltage and frequency rows: the appropriate licensee "may prescribe a narrower range" for both. That is why two compliant installations in different states carry different settings.
+
+In practice your [DISCOM](/glossary/discom/) sets the grid profile, usually narrower, and some utilities require an external protection relay above a defined capacity. Confirm it before commissioning, not after. Shipped settings belong in product documentation; the [Qbits datasheet library](/download-datasheets/) is where you identify which document covers the exact model.
+
+## Hybrid inverters, backup mode, and the transfer switch
+
+A hybrid inverter can keep a house lit during an outage and still comply, because it is not energising the utility circuit. The requirement is precise: stop energising the electricity system, meaning the utility network. It says nothing about a circuit physically separated from that network first.
+
+Inside a hybrid sits a transfer arrangement, usually relays or contactors, between grid input and backup output. On grid loss the sequence runs: detect, stop exporting, open the grid-side contacts, verify separation, then restart the backup output from the battery and available PV. It is break before make.
+
+Two consequences. Backup loads see a real interruption, not a glitch-free handover. Qbits states UPS switching within 10 seconds for the relevant hybrid models; the figure is model-specific, so confirm it on that datasheet. Only loads wired to the backup output are covered, and a wall socket proves nothing about the changeover.
+
+So both architectures stop energising the utility circuit inside the clearing time. Only the hybrid then opens its grid-side contacts and keeps designated backup loads running, within battery and output limits.
+
+The [on-grid versus hybrid comparison](/blog/on-grid-vs-hybrid/) sets out the decision criteria, and the guide to [inverter behaviour in a power cut](/blog/solar-inverter-power-cut-backup/) covers what a homeowner experiences. Specifications sit on the [hybrid inverter](/hybrid-inverter/) page.
+
+## How anti-islanding is verified at commissioning
+
+Anti-islanding is not something you eyeball. Evidence lives in two places, a type-test report for the model and a site record for the installation, and neither substitutes for the other.
+
+1. Identify the exact model and firmware on the nameplate and display, then match both to the test report. A family brochure may not cover every revision sold.
+2. Collect the islanding test report against IS 16169:2019 or IEC 62116:2014, and confirm the edition and models covered.
+3. Collect the separate safety report against IS 16221 (Part 2):2015, used with Part 1.
+4. Confirm the loaded grid profile matches what the DISCOM approved, and photograph the settings screen.
+5. Run the utility-witnessed disconnection test if required. Open the main incomer and record the time from loss of supply to cessation of output.
+6. Confirm the reconnection delay, then record everything with date, meter readings, and names of those present.
+
+IEC 62116:2014 calls the quantity in step 5 the **run-on time**: the interval between opening of the test switch and cessation of output current. On site you measure the same thing with cruder instruments. Our [commissioning walkthrough](/blog/solar-inverter-commissioning-in-india/) covers the wider checklist.
+
+## Nuisance tripping on weak Indian feeders
+
+Repeated trips on a site that otherwise generates fine are usually a network problem, not an inverter defect. Rural and semi-urban feeders run long, sit lightly loaded at midday, and hang off transformers with wide tap ranges.
+
+Two mechanisms dominate. AC-side voltage rise comes first: the inverter exports through cable impedance, so terminal voltage exceeds the voltage at the pole transformer, and the gap grows with cable length and export current. The inverter sees an over-voltage a meter at the transformer would not show. Second, genuine frequency events, which ROCOF and vector shift react to whether or not an island exists.
+
+| Item | Adjustable on site? | Notes |
+| --- | --- | --- |
+| Anti-islanding algorithm | No | Fixed in firmware, tied to the type-test report |
+| Grid protection profile | Service engineer only, with DISCOM approval | Changing it unapproved breaks the connection agreement |
+| AC cable size and run length | Yes, at design or by rework | Most common fixable cause of voltage-rise tripping |
+| Terminations and earthing | Yes | Loose or corroded joints mimic grid events |
+| Transformer tap and feeder loading | Utility only | Raise with the DISCOM, with logged measurements |
+| Firmware version | Via service | Grid-tuning improvements arrive this way |
+
+Do not widen trip thresholds to stop the symptom. It hides a wiring fault and can push the site outside the approved envelope. The [grid over-voltage guide](/blog/solar-inverter-grid-overvoltage/) gives the measurement sequence; the [error code reference](/blog/solar-inverter-error-codes-guide/) maps a displayed event to the right service route.
+
+## Five things anti-islanding does not do
+
+The function does not exist to help the system owner. It protects people outside your property boundary, and does so by making your system less useful during an outage.
+
+**Myth 1: it protects your home during a power cut.** It does the opposite. It is the reason a standard grid-tied system goes dark.
+
+**Myth 2: it can be switched off for backup.** Disabling it violates the interconnection requirement and creates a live-line hazard for utility crews. The legitimate route is a hybrid with a transfer arrangement.
+
+**Myth 3: hybrid inverters do not have anti-islanding.** They do, and they must. The transfer arrangement is what lets them supply a backup circuit safely.
+
+**Myth 4: it protects the inverter from surges and lightning.** A different function entirely. Surge protection devices and earthing handle that.
+
+**Myth 5: a test certificate proves your feeder is safe.** It proves one inverter passed a defined test against one resonant load. It says nothing about the seven other inverters on the same transformer. Nor does frequent tripping mean your unit is defective; on a weak feeder it is usually reporting a real condition.
+
+## The Bottom Line
+
+Anti-islanding protection is a safety obligation the inverter carries for the utility. It senses the grid's absence, probes actively when sensing is ambiguous, and shuts down inside a clearing time set by regulation. In India that is two seconds from formation of an unintended island, under Regulation 11(6)(e) of the CEA Connectivity Regulations, 2013. No method is perfect, which is why utilities layer their own screening on top of certification.
+
+Three things to do next:
+
+- Pull the islanding test report for the exact model and firmware on your site, confirm it cites IS 16169:2019 or IEC 62116:2014, and file it with the commissioning record.
+- Confirm the grid profile loaded into the inverter matches what your DISCOM approved, and photograph the settings screen at handover.
+- If you are specifying a system now, or need documented grid settings for a model, [talk to the Qbits technical team](/contact-us/) before you finalise the interconnection application.

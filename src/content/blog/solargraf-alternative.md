@@ -52,7 +52,6 @@ If you are looking for a [Solargraf alternative](https://quickestimate.co/blog/s
 Solargraf is positioned around residential quoting and proposals. 8,760-hour module-level shading and bankable [P50, P75, P90](/glossary/p50-p90/) outputs are not what it leads with, so confirm current scope with the vendor if you need them. SurgePV ships the [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) engine on every paid plan. See our [shading analysis guide](/blog/solar-shading-analysis-software/) for the full methodology.
 
 ### Hardware neutrality
-Solargraf, Inc. is a subsidiary of Enphase Energy, so it is built and maintained by a hardware manufacturer and its component libraries and headline integrations are naturally centred on that manufacturer's equipment. For installers offering multi-OEM hardware, that is a structural point worth testing on a trial with your own brand mix. SurgePV is independent of any manufacturer, with 70,000 modules and 12,000 inverters in the database. Installers sourcing the physical hardware to match still need a distributor; Heaven Green Energy's equipment shop is one option for inverters and balance-of-system parts in India, and Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) lines are already loaded in that database.
 
 ### Multi-country support
 Solargraf is built around the US residential market. SurgePV covers NEC, IEC, AS/NZS, IS code libraries and PM Surya Ghar, SREC, FiT, Einspeisevergütung tariffs, with proposals in 9 languages. For India-specific projects, EPCs cross-checking code compliance often reference a dedicated engineering resource center alongside the design platform's own libraries.
@@ -131,7 +130,7 @@ See [SurgePV pricing](https://surgepv.com/pricing).
 - **Choose Enact** for residential proposal-first workflows.
 - **Choose OpenSolar** for small residential at lowest cost.
 
-For most installers in 2026, SurgePV is, in our view, the Solargraf alternative that combines engineering depth, manufacturer independence, and per-seat economics at the same time. For a broader ranking across the whole category, see our [best solar design software guide](/blog/best-solar-design-software/). When the hardware decision comes up, [talk to a Qbits engineer](/contact-us/) about which inverter line fits the design you just built.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 <div class="inline-cta">
 <h3>Ready to switch to a hardware-neutral platform?</h3>

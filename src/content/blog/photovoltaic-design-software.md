@@ -162,8 +162,6 @@ The P90 number anchors the bank conversation; the P50 anchors the equity model.
 - **Choose SAM** for research and sensitivity studies.
 - **Choose PV*SOL** for Germany-only desktop workflows, reviewed in our [PV*SOL alternative guide](/blog/pvsol-alternative/).
 
-For most engineering teams in 2026, SurgePV is the [solar design software](https://surgepv.com/) that wins on methodology, scope, and per-seat economics at the same time. Once the bankable yield numbers are locked, the MPPT and string-voltage windows still need to be checked against real hardware; [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) datasheets are worth pulling before the BOQ is finalised, and a [Qbits engineer](/contact-us/) can walk through the fit spec by spec.
-
 <div class="inline-cta">
 <h3>Ready to run bankable PV design in the browser?</h3>
 <p>SurgePV combines AI 3D, 8,760-hour shading, auto-SLD, auto-BOQ, AutoCAD export, and bankable yield in one platform.</p>

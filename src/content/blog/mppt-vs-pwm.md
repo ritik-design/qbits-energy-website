@@ -33,6 +33,8 @@ faqs:
     a: "Technically yes, but the energy waste is extreme. A modern 300 W panel typically has Vmp around 34 to 38 V. A PWM charge controller on a 12 V battery would clamp that panel to 12 V, recovering only about one-third of the available voltage and therefore one-third of the available power. A 300 W panel paired with a PWM 12 V controller effectively behaves like a 100 W panel. For any modern panel above 150 W, MPPT is the only sensible choice."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every off-grid solar system needs something to manage the flow of power from the panel to the battery. That job belongs to the [charge controller](https://www.surgepv.com/glossary/charge-controller), one of the core balance-of-system components alongside the wiring, protection gear, and mounting hardware that hold a solar installation together. Two technologies compete for it: PWM (Pulse Width Modulation) and MPPT (Maximum Power Point Tracking). On paper, they both connect a panel to a battery. In practice, they produce dramatically different amounts of energy from the same equipment.
 
 This guide explains how each technology works, why the efficiency gap is as large as it is, and exactly when MPPT is mandatory, versus the narrow situations where PWM might still make sense.
@@ -233,9 +235,7 @@ Most homeowners in India who encounter the term "MPPT" are actually reading abou
 
 **Off-grid standalone system:** The buyer needs to choose between an MPPT charge controller and a PWM charge controller. This is the MPPT vs PWM comparison this article addresses.
 
-**On-grid (grid-tied) system:** The inverter (for example, a Qbits TLS or TLD series) contains MPPT internally. The buyer's question is not "MPPT or PWM" but "how many MPPT channels and what is the voltage range?" For a single-orientation roof, one MPPT channel is sufficient. For east-west or shaded roofs, [dual MPPT versus single MPPT](/blog/dual-mppt-vs-single-mppt/) is an important distinction to get right.
-
-**Hybrid system:** The hybrid inverter (Qbits HS or HT series) contains MPPT for the panel string and a separate battery management circuit. Again, the "MPPT vs PWM" debate does not apply, MPPT is built in.
+**Hybrid system:** A hybrid inverter may include MPPT control for the PV input and separate battery-control functions. Check the exact QBH model architecture, battery compatibility and operating modes in current documents.
 
 > According to [IRENA's renewable energy statistics](https://www.irena.org/Publications/2025/Mar/Renewable-capacity-statistics-2025), India added over 24 GW of solar capacity in 2024, virtually all of it grid-connected and using MPPT-based inverters. The off-grid charge controller market is a small but important segment for remote areas, agriculture, and hybrid backup systems.
 
@@ -273,15 +273,13 @@ For guidance on how inverter and controller selection affects overall system rel
 
 ## Where Qbits Fits
 
-Qbits Energy focuses on grid-tied and hybrid inverters, and in both categories, MPPT is not an add-on but the core of how the inverter works. Every Qbits on-grid (TLS and TLD series) and hybrid (HS and HT series) inverter tracks each connected string at its maximum power point. With India-grid-tuned firmware, 98% peak efficiency, and a 12-year full replacement warranty, Qbits inverters extract the maximum possible yield from the panels they are paired with.
-
 For homeowners building hybrid systems (where an on-grid inverter handles the daytime export and a standalone battery handles night backup) the off-grid charge controller is the one component where the MPPT vs PWM decision still matters. The guidance in this article applies directly.
 
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with built-in MPPT, battery readiness, and automatic backup switchover for homes that want both grid export and outage protection.
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW with dual MPPT, BIS and ALMM certified, subsidy-eligible under PM Surya Ghar.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+
 - **[Best Hybrid Solar Inverters India](/blog/best-hybrid-solar-inverter-india-2026/)**: reviewed by battery compatibility for homeowners deciding on a hybrid setup.
 
-When you are ready to move beyond the charge controller question and size a complete solar system, [talk to a Qbits engineer](/contact-us/), most system assessments are completed within 24 hours, and the conversation is free.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ## The Verdict on MPPT vs PWM
 

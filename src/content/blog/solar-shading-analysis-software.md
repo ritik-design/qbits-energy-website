@@ -209,7 +209,7 @@ The 4 percent difference matters when financial modelling, IRR, and payback depe
 - **Choose PVsyst** for lender-mandated PVsyst reports.
 - **Choose Aurora upper tier** for US-residential.
 
-For most installers and EPCs in 2026, SurgePV ships the same bankable methodology at the lowest realised total cost. Once shading is dialed in, the workflow typically moves to [solar string sizing software](/blog/solar-string-sizing-software/), then [auto-generated single line diagrams](/blog/solar-sld-software/), and finally [solar takeoff software](/blog/solar-takeoff-software/) for procurement, or, once the module-level numbers are locked, [talk to a Qbits engineer](/contact-us/) about matching the inverter MPPT count to the string design.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 <div class="inline-cta">
 <h3>Ready to run real bankable shading on your projects?</h3>

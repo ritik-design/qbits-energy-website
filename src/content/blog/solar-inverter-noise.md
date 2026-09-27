@@ -233,15 +233,10 @@ Suppliers unable to publish the full-load noise rating (or providing only "quiet
 
 ## Where Qbits Fits
 
-Qbits inverters across the residential and commercial range deliver published-spec quiet operation:
-
-- **Variable-speed fan control** with thermal management algorithm
-- **Transformerless topology** eliminating 100 Hz hum
-- **Published noise ratings** at full-load conditions on every datasheet
-- **IP66 weather protection** for sustained quiet operation across Indian climate
-- **Premium components** with proper damping and tight mechanical tolerances
-- **12-year warranty** covering mechanical noise failures within installation specifications
-- **AI monitoring** with thermal and fault alerts to detect noise issues proactively
+- Check the exact model's cooling topology, acoustic rating and stated test conditions.
+- Confirm whether the datasheet or manual permits the proposed mounting location and clearances.
+- Do not infer acoustic performance from IP rating, component adjectives or transformerless topology alone.
+- Noise-related warranty coverage and monitoring alerts are not established until supported by the current policy and model documents.
 
 Related guides:
 
@@ -252,7 +247,7 @@ Related guides:
 - **[How to Evaluate Solar Inverter Reliability, Quality & Testing](/blog/how-to-evaluate-solar-inverter-reliability/)** - reliability assessment
 - **[Inverter Maintenance India](/blog/inverter-maintenance-india/)** - ongoing maintenance protocol
 
-For noise-specific queries or placement advice on specific residential layouts, [talk to a Qbits engineer](/contact-us/) - the team can recommend the optimal Qbits SKU and placement within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 Elsewhere in the Heaven Group network, see [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation) and [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included).
 

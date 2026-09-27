@@ -205,8 +205,6 @@ Calendar life is chronological battery aging regardless of cycling. LFP: 10-15 y
 
 ## Need calendar-life-aware battery sizing?
 
-QBits Energy supplies LFP battery systems with thermal management designed for extended calendar life in Indian climate conditions.
-
 ## Further reading
 
 For how Calendar Life plays out in real projects, these guides go deeper:

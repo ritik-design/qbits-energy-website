@@ -17,7 +17,7 @@ faqs:
   - q: "What is the ALMM List-II exemption window announced in July 2026?"
     a: "The Ministry of New and Renewable Energy has allowed net-metering and open-access renewable energy projects a limited window to commission with an exemption from the ALMM List-II solar cell requirement. Any such project that is commissioned on or before 31 December 2026 does not need to source its solar cells from ALMM List-II. Projects commissioned after that date must comply fully, drawing modules from ALMM List-I and cells from ALMM List-II. The ministry was explicit that this is a transition window, not a blanket extension for every category of solar project."
   - q: "What is the difference between ALMM List-I and ALMM List-II?"
-    a: "ALMM List-I is the approved list of solar photovoltaic modules and their manufacturers. ALMM List-II is the approved list of solar photovoltaic cells and their manufacturers. List-I has been in force for several years and governs which panels qualify for subsidised and government solar projects. List-II is newer and pushes the compliance requirement one step further up the supply chain, to the cell inside the module, so that approved panels are built on domestically approved cells rather than imported cells. Inverters sit under a separate ALMM inverter framework and are not part of List-I or List-II."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Which projects qualify for the ALMM List-II exemption until 31 December 2026?"
     a: "The exemption applies specifically to net-metering renewable energy projects and open-access renewable energy projects. Net-metering covers most grid-connected rooftop systems where the consumer offsets their own bill, including residential and many commercial and industrial rooftops. Open-access covers larger commercial and industrial procurement where power is wheeled from a remote plant through the grid. Utility-scale central tenders and other categories are governed by their own bid conditions and were not the subject of this particular relief. Confirm your project category against the specific bid or connection agreement before assuming the exemption applies."
   - q: "What happens to a net-metering project commissioned after 31 December 2026?"
@@ -27,16 +27,18 @@ faqs:
   - q: "Can a project get relief beyond the exemption window on a case-by-case basis?"
     a: "Yes. Separate from the blanket exemption window, the ministry has allowed case-by-case time extensions for projects where substantial progress was already made before the deadline, such as projects where module installation is complete but commissioning is pending, or where effective steps toward implementation have already been taken. These requests are submitted with supporting documentation through the designated portal rather than granted automatically. A case-by-case extension is discretionary and evidence-led, so developers should keep dated proof of procurement, installation, and site progress on file."
   - q: "Does the ALMM List-II requirement affect inverter selection?"
-    a: "ALMM List-II governs solar cells, not inverters, so it does not change which inverter is compliant. Inverters are covered by a separate ALMM inverter list. That said, inverter procurement and service response directly affect whether a project commissions before the 31 December 2026 window closes. An inverter that arrives late or fails commissioning testing can push the whole project past the deadline and into full ALMM List-II compliance. Choosing an inverter partner with reliable stock and a fast service response is part of protecting the commissioning date, even though the inverter itself is outside List-II."
+    a: "ALMM List-II governs solar cells, not inverters, so it does not change which inverter is compliant. ALMM publishes List-I for solar PV modules and List-II for solar PV cells, so neither list establishes whether a given inverter model is acceptable for a connection. Verify inverter acceptance separately with the relevant DISCOM. That said, inverter procurement and service response directly affect whether a project commissions before the 31 December 2026 window closes. An inverter that arrives late or fails commissioning testing can push the whole project past the deadline and into full ALMM List-II compliance. Choosing an inverter partner with reliable stock and a fast service response is part of protecting the commissioning date, even though the inverter itself is outside List-II."
   - q: "Is the ALMM List-II exemption the same as the PM Surya Ghar ALMM rule?"
-    a: "No, they are related but distinct. PM Surya Ghar residential subsidy claims have long required ALMM-listed modules and inverters, and that requirement is unchanged. The July 2026 exemption specifically concerns the newer ALMM List-II cell requirement for net-metering and open-access projects and gives those categories until 31 December 2026 before the cell-level rule bites. A residential rooftop that claims PM Surya Ghar subsidy still needs ALMM-listed equipment as before, and from 1 January 2027 the cell inside its approved module must also trace back to ALMM List-II."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Anyone managing a [net-metering](https://quickestimate.co/blog/almm-list-2-exemption-net-metering-open-access-2026) or open-access solar project through the second half of 2026 has been watching one date more closely than any other: the point at which the ALMM List-II solar cell requirement becomes unavoidable. The Ministry of New and Renewable Energy has now drawn that line clearly. The **ALMM List-II exemption** for these project categories runs until 31 December 2026, and there is no blanket extension beyond it. For EPCs and commercial developers, that turns a vague policy anxiety into a concrete commissioning deadline that every live project must now be measured against.
 
 > **Direct answer.** The ALMM List-II exemption gives [net-metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) and open-access renewable energy projects a limited window to commission without sourcing solar cells from ALMM List-II. Any such project commissioned on or before 31 December 2026 keeps the exemption; projects commissioned from 1 January 2027 must use ALMM List-I modules built on ALMM List-II cells. The ministry has ruled out a blanket extension, so the date is best treated as a hard commissioning target managed through the 4-Gate ALMM List-II Commissioning Check.
-
-The distinction that trips people up is that this is a cell-level rule, not a module-level or inverter-level one. The [ALMM framework](/glossary/almm-list/) has governed modules for years, but List-II pushes compliance one layer deeper into the supply chain. This guide is written for EPC installers and commercial and industrial buyers who need to know exactly what changed on 18 July 2026, who qualifies, and how to keep a project on the right side of the line.
 
 > **Read the official notification.** The full MNRE Office Memorandum No. 283/53/2026-GRID SOLAR, dated 18 July 2026, sets out the [exemption window](https://www.heavengreenenergy.com/blog/almm-list-2-exemption-window-2026) in the ministry's own words. Keep a copy on the project file for DISCOM queries. **[Download the ALMM List-II exemption OM (PDF)](https://www.heavengreenenergy.com/documents/mnre-almm-list-2-exemption-om-283-53-2026.pdf)**
 
@@ -59,21 +61,13 @@ The chronology matters, because the current position is the product of several n
 
 The single most important shift is psychological as much as regulatory. Before July, a developer holding non-compliant cell inventory faced an immediate wall on 1 June. Now there is a defined runway to 31 December 2026, which is enough to commission projects that are genuinely close to completion. The ministry has separately clarified how the cut-off reads for different site types, including that rooftop projects on government buildings commissioned before 1 June 2026 stay exempt while later ones must comply, as reported by [Saur Energy](https://www.saurenergy.com/solar-energy-news/mnre-clarifies-almm-cell-norms-for-rooftop-solar-projects-on-government-buildings-12138579). What has not changed is the destination. The ministry framed the window as a way to protect investments already made in module inventory while giving domestic cell manufacturers demand certainty to scale, and it was explicit that there would be no blanket extension of the policy for all solar projects. According to the [Ministry of New and Renewable Energy](https://mnre.gov.in/), strengthening domestic manufacturing remains the governing priority behind the whole sequence.
 
-## ALMM List-I vs ALMM List-II: Modules, Cells, and Where Inverters Sit
+## ALMM and inverter compliance are separate checks
 
 Most confusion around this policy comes from mixing up three separate ALMM tracks. Getting the vocabulary right is the difference between a compliant bill of quantities and a rejected connection.
-
-### ALMM List-I: Solar Modules
-
-List-I is the older and more familiar track. It is the approved list of solar PV modules and their manufacturers, and it has governed which panels qualify for subsidised and government-linked projects for several years. If a module does not appear on List-I, it cannot be used where ALMM compliance is required. Most EPCs already treat List-I verification as routine, in the same way they verify [BIS and IEC compliance](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) before finalising a panel choice.
 
 ### ALMM List-II: Solar Cells
 
 List-II is the newer track and the subject of the exemption window. It is the approved list of solar PV cells and their manufacturers. The intent is to close a loophole: a module could sit on List-I while being built on imported cells, which undercut the domestic-manufacturing goal. List-II requires the cell inside an approved module to come from an approved cell maker. This is what makes the requirement harder to meet, because India's cell manufacturing base is much smaller than its module base, a gap examined in detail in the [import duty and domestic manufacturing](/blog/bcd-import-duty-solar-inverters-india/) picture.
-
-### The Inverter ALMM List
-
-Inverters are governed by a separate ALMM inverter framework, described in the [ALMM Phase III guide](/blog/almm-list-phase-iii-guide/), and are not part of List-I or List-II. A common error is to assume the List-II deadline changes inverter procurement. It does not. Inverter compliance is a distinct check. What links them in practice is scheduling: inverter availability and commissioning support decide whether a project crosses the finish line before 31 December 2026, even though the inverter itself is outside the cell rule.
 
 ## Who Qualifies: Net Metering and Open Access Projects Explained
 
@@ -154,14 +148,11 @@ For empanelled installers, there is an added dimension: a compliance miss on a n
 
 ## Where Qbits Fits
 
-ALMM List-II governs solar cells, not inverters, so no inverter brand can claim to solve the cell requirement, and Qbits will not pretend otherwise. Where Qbits matters on this deadline is the half of the bill of quantities that decides whether a project actually commissions in time. An inverter that ships on schedule, passes commissioning testing the first time, and gets a fast service response if anything goes wrong is what keeps a project from slipping past 31 December 2026 for reasons that have nothing to do with cells. Qbits inverters are ALMM-listed on the inverter framework, carry a 12-year full replacement warranty, IP66 weather protection, and India-grid-tuned firmware built for the 180–270 V band that Indian sites actually see.
-
-- **[On-Grid Inverters](/on-grid-inverter/):** TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed and stocked to support a commissioning date you cannot afford to miss.
-- **[Hybrid Inverters](/hybrid-inverter/):** HS and HT series for net-metering rooftops that also need backup, with battery readiness built in.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[C&I Solution](/c-i-solution/):** Commercial and industrial deployments where open-access timelines and the 31 December window intersect.
-- **[Authorized Service Partners](/authorized-service-partners/):** A pincode-searchable network backing the under-72-hour service response that protects a year-end commissioning schedule.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
-The projects most exposed to this deadline are the ones where every component has to arrive and perform on schedule. If you are sequencing net-metering or open-access commissioning against the 31 December 2026 window and want the inverter side of the plan to be the reliable part, [talk to a Qbits engineer](/contact-us/) with your project timeline, and stock availability and commissioning support come back within 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ---
 

@@ -24,7 +24,7 @@ faqs:
   - q: "Are MC4 connectors safe to use in coastal solar installations?"
     a: "Standard MC4 connectors use nickel-plated copper contacts that resist moisture but are not formulated for chloride-rich atmospheres. In coastal installations within 5 km of the sea, contacts should be rated to IP67 or IP68 and use silver-plated or tinned copper pins. Connectors should be inspected annually for green or white oxidation. For installations within 500 metres of the shoreline, marine-grade MC4 connectors with additional silicone sealing are recommended. Corroded DC connectors are one of the leading causes of DC arc faults in coastal solar systems."
   - q: "Does the inverter warranty cover corrosion damage in coastal areas?"
-    a: "Most standard inverter warranties explicitly exclude corrosion damage caused by salt-laden atmospheres, which is classified as an environmental factor beyond the manufacturer's control. This makes the initial selection of a coastal-rated inverter - IP66, C5-M conformal coating, tinned terminals - critical, because a failed unit in a corrosive zone may not be covered. Qbits offers a 12-year full replacement warranty with IP66 enclosure and conformal-coated PCB as standard, and the warranty documentation acknowledges coastal Indian conditions without additional exclusion clauses for salt fog."
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
   - q: "What maintenance schedule should I follow for my solar inverter in a coastal city?"
     a: "In coastal India (within 10 km of the sea), the minimum maintenance schedule is: quarterly visual inspection of the enclosure seal and AC/DC terminal blocks for white or green oxidation; bi-annual compressed-air purging of any ventilation slots (for IP65 units with fans); and a full annual service including torque-check on all terminal screws, IR testing of DC wiring, and cleaning of the enclosure exterior with a non-corrosive antifouling solution. Wi-Fi or 4G monitoring that flags insulation resistance drops and GFCI faults gives early warning of salt ingress before a catastrophic failure occurs."
   - q: "What is the difference between IP65 and IP66 for a coastal solar inverter?"
@@ -34,8 +34,12 @@ faqs:
   - q: "Which Indian coastal cities have the most severe corrosion environment for solar inverters?"
     a: "Based on ISO 9223 chloride deposition data and service-call frequency reported by Indian solar EPCs, the most severe zones are: (1) Goa shoreline and coastal Konkan - C5-M category, very high chloride, year-round humidity above 85%; (2) Mumbai island wards and Navi Mumbai coastal strip - C4/C5 boundary; (3) Chennai Marina and Thiruvanmiyur - C4 zone with monsoon-driven spikes to C5; (4) Kochi backwaters and Ernakulam waterfront - C4 with high tidal humidity; (5) Visakhapatnam port district - C4 zone. All of these require IP66 minimum. The first two require C5-M conformal coating as a non-negotiable."
   - q: "How do I know if my inverter PCB has conformal coating?"
-    a: "A conformally coated PCB is visually distinguishable by a thin, glossy or matte clear film over all exposed circuit traces, component legs, and solder joints. On the inverter datasheet, it is listed as 'conformal coating', 'PCB tropicalisation', or 'C3/C4/C5 corrosion protection'. If the datasheet makes no mention of PCB coating or corrosion category compliance, you should assume no coating is applied. Request written confirmation from the manufacturer or dealer before purchasing for any coastal site. For IP66 units from Qbits, conformal coating is documented in the product datasheet and is a standard feature across all SKUs."
+    a: "Do not infer conformal coating or a corrosion category from an IP rating. Request current written evidence for the exact model, coating process or corrosion classification, installation conditions and warranty scope. The retained Qbits public datasheets do not establish conformal coating as a universal feature across all SKUs."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 If you live in Mumbai, Chennai, Kochi, Visakhapatnam, or Goa, your solar inverter faces a challenge that no inland buyer ever encounters: the sea is relentless. Salt-laden air, humidity that rarely drops below 80%, and chloride particles fine enough to pass through the smallest gap in a poorly-sealed enclosure combine to create the harshest operating environment a solar inverter will ever face on Indian soil.
 
@@ -47,7 +51,6 @@ Installers who work these coastal markets routinely see inverters that lasted 12
 > - The five-pillar checklist covers IP66 enclosure, C5-M PCB coating, tinned or stainless terminal blocks, marine-grade MC4 connectors, and remote insulation-resistance monitoring.
 > - Mumbai's Marine Drive, Goa's shoreline, and Chennai's Marina fall in the harshest C5/C5-M corrosion category under ISO 9223; most urban coastal suburbs sit in the C4 zone.
 > - The cost premium for an IP66 conformal-coated inverter over a standard IP65 unit is typically ₹3,000–₹8,000, versus ₹18,000–₹35,000 to replace a corroded unit.
-> - Qbits ships IP66 enclosures and conformal-coated PCBs as standard across its residential SKUs, with a 12-year full replacement warranty that carries no coastal exclusion clause.
 
 > **Direct answer.** For any solar inverter installed within 5 km of the Indian coastline, the minimum viable specification is IP66 enclosure protection plus C5-M marine-grade conformal coating on the PCB. Without both, salt fog and humidity will corrode internal components 2–3 times faster than inland, typically causing failure within 24–36 months. The **Coastal Corrosion Defence Framework**: covering IP rating, corrosion category, PCB coating, terminal material, and monitoring, is the five-point checklist that separates a 12-year installation from a 3-year replacement cycle.
 
@@ -234,8 +237,6 @@ A ground fault circuit interrupter (GFCI) event is logged each time leakage curr
 
 As DC connector contacts corrode, their resistance increases, a phenomenon that reduces string current and creates an imbalance between MPPT channels. On a dual-[MPPT](/glossary/mppt/) inverter, a persistent power imbalance (one string producing consistently 5–15% less than expected yield) that cannot be explained by shading is frequently attributable to a corroded DC connector in the under-performing string. The monitoring data allows the technician to identify the specific string before climbing onto the roof.
 
-Qbits inverters transmit all three of these parameters (IR values, GFCI event log, and per-MPPT string power) to the WhatsApp monitoring platform in real time, allowing proactive fault identification rather than reactive post-failure investigation. For an overview of how AI-assisted monitoring works in practice, see the guide on [solar inverter monitoring systems in India](/blog/solar-inverter-monitoring-systems-in-india/).
-
 ## How Coastal Inverter Specs Compare: IP Rating and Coating Decision Matrix
 
 Selecting the right specification for your specific coastal site is a function of your distance from the shoreline, the direction of prevailing sea wind relative to your roof, and the local corrosion category. This decision matrix codifies the minimum specification by zone.
@@ -300,12 +301,9 @@ The [monsoon solar preparation](/blog/monsoon-solar-prep/) guide covers the pre-
 
 ## Where Qbits Fits
 
-Coastal homeowners in Mumbai, Chennai, Kochi, Visakhapatnam, and Goa who want a 12-year warranty they can actually claim (not a warranty that evaporates the moment the manufacturer sees photographs of coastal corrosion) need an inverter built to coastal India's reality from the ground up.
+Coastal homeowners in Mumbai, Chennai, Kochi, Visakhapatnam, and Goa who want a model-specific written warranty they can actually claim (not a warranty that evaporates the moment the manufacturer sees photographs of coastal corrosion) need an inverter built to coastal India's reality from the ground up.
 
-Qbits inverters ship with IP66 enclosures tested to IEC 60529, conformal-coated PCBs rated for Indian coastal conditions, and tinned terminal block bus bars as standard specifications across all residential SKUs. The 12-year full replacement warranty is documented without additional coastal exclusion clauses, and the WhatsApp-native monitoring platform logs insulation resistance values and GFCI events in real time, the two leading indicators of salt ingress described in this guide.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW. IP66 enclosure and conformal-coated PCB standard. ALMM-listed and subsidy-eligible for coastal PM Surya Ghar applicants.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness for coastal Tamil Nadu and coastal Andhra Pradesh where outage durations justify battery backup. Same IP66 and conformal-coating specification as on-grid range.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[Why Qbits](/why-qbits/)**: the full breakdown of IP rating test certificates, PCB coating specification, terminal material confirmation, and warranty terms, all the documentation a coastal buyer should demand from any manufacturer before signing.
 
-[Talk to a Qbits engineer](/contact-us/) about your coastal site, share your address, roof type, and distance from the shoreline, and the team will confirm the right SKU and specification for your specific corrosion zone. Most site surveys and preliminary quotes come back within 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

@@ -33,6 +33,8 @@ faqs:
     a: "Winter sun angles are lower in the sky than summer angles across all of India. A steeper tilt angle on the panels improves their capture of low-angle winter sun. The optimum fixed tilt for year-round performance in India is approximately equal to the site latitude - typically 10–28 degrees from north to south. In winter, a panel tilted at latitude angle will capture roughly 10–15% more winter irradiance than a flat-mounted panel. Seasonal tilt adjustment (steeper in winter, flatter in summer) can increase annual yield by 5–8%, though most residential installations use fixed-tilt mounting for simplicity."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 When Indian homeowners think about solar generation, they naturally picture bright, scorching summer days with panels blazing at full output. The concern about winter is real: shorter days, lower sun positions, and in parts of North India, weeks of thick fog that can cut generation dramatically. But the winter story is more nuanced than a simple "solar does not work in winter." Some effects hurt generation; one major effect (cold temperature) actually helps. Understanding both sides gives you realistic expectations and protects you from either over-optimism or unnecessary alarm.
 
 > **TL;DR**
@@ -182,11 +184,9 @@ According to [JMK Research's analysis of Indian residential solar performance](h
 
 Winter performance is partly a system design question and partly an inverter reliability question. Inverters operating in winter face lower temperatures, less derating risk, and often higher conversion efficiency, all positives. What matters in winter is that the inverter remains reliably operational through the season, that monitoring alerts you to any underperformance, and that if fog clears by midday, every available peak hour is captured at maximum efficiency.
 
-Qbits inverters with AI-powered WhatsApp monitoring deliver real-time alerts when actual generation deviates from predicted generation, catching both fog-driven shortfalls and genuine system faults in real time. The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) covers every season, not just summer performance, giving homeowners a long-term guarantee that the system will capture every viable winter unit.
-
 - **[On-Grid Inverters](/on-grid-inverter/)**: for homeowners where winter grid supply is reliable and net metering captures residual value from summer surplus.
 - **[Hybrid Inverters](/hybrid-inverter/)**: for UP, Bihar, and Punjab buyers where winter power cuts compound the fog challenge, and battery storage bridges both gaps.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: calculate whether your proposed system size produces adequate generation in winter months before signing a contract.
 - **[Download Datasheets](/download-datasheets/)**: verify the inverter's cold-temperature operating range and low-irradiance startup behaviour for winter conditions.
 
-If your installer has not provided a month-by-month generation estimate for your specific city (including a December–January fog correction for North Indian buyers) request it before approving the design. [Talk to a Qbits engineer](/contact-us/) for a location-specific seasonal generation model based on your city and roof orientation.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

@@ -193,8 +193,6 @@ Open Circuit Voltage (Voc) is the maximum voltage a solar module produces with n
 
 ## Need Voc-aware string sizing?
 
-QBits Energy provides string sizing calculations using site-specific cold-temperature derating for residential, C&I and utility solar across India.
-
 ## Further reading
 
 For how Open Circuit Voltage plays out in real projects, these guides go deeper:

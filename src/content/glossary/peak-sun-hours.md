@@ -229,8 +229,6 @@ PSH is a simplified single-number measure of daily solar resource, equal to dail
 
 ## Need PSH-based solar sizing?
 
-QBits Energy designs solar systems using site-specific PSH for residential and small commercial customers across Indian states.
-
 ## Further reading
 
 For how Peak Sun Hours plays out in real projects, these guides go deeper:

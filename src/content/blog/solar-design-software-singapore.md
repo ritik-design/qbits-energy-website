@@ -155,4 +155,4 @@ Singapore is a commercial market with scarce roof and a genuine choice of export
 
 - **Establish SCT or ECIS before modelling.** A fixed S$0.20 and a variable USEP curve are different financial products and need different treatment.
 - **Watch the AC rating against 1 MWac.** Crossing it adds an estimated three to six months of EMA licensing, which is often worth designing around.
-- **Design a live project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for IEC-compliant inverter specification against the finished design.
+

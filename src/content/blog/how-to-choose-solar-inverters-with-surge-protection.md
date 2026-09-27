@@ -155,7 +155,7 @@ Always specify based on the highest expected exposure, not average conditions.
 
 ### 6. Warranty Coverage for Surge-Related Damage
 
-Verify the inverter warranty terms explicitly cover surge-related failures within published installation specifications. The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) standard now expected in the Indian market is only meaningful if surge events are explicitly in scope, not carved out - the [honest truth about solar inverter warranty terms](/blog/solar-inverter-warranty/) explains how to spot the difference:
+Verify the inverter warranty terms explicitly cover surge-related failures within published installation specifications. The [model-specific written warranty](/blog/12-year-solar-inverter-warranty/) standard now expected in the Indian market is only meaningful if surge events are explicitly in scope, not carved out - the [honest truth about solar inverter warranty terms](/blog/solar-inverter-warranty/) explains how to spot the difference:
 
 - **Look for**: "Manufacturer warrants against failures including surge events within rated discharge capacity"
 - **Avoid**: Generic warranties excluding "environmental damage" or "external events"
@@ -216,16 +216,9 @@ When specifying inverters for any Indian installation, require:
 
 ## Where Qbits Fits
 
-Qbits Energy inverters across the residential and commercial product range include integrated DC and AC surge protection as standard:
+The retained Qbits datasheets do not establish one surge-protection design across every model. For the exact SKU, request the installation manual and evidence for internal DC and AC protection, SPD type, nominal and maximum discharge current, voltage protection level, status indication and replacement method. Also confirm which external SPDs the site design requires.
 
-- **Type 2 SPDs** integrated on both DC input and AC output sides
-- **20 kA+ Imax** discharge current capacity for moderate-risk applications
-- **40 kA+ options** for high-lightning-density installations
-- **Voltage protection levels** below specified IEC thresholds
-- **SPD status monitoring** through the AI WhatsApp app and inverter display
-- **12-year full replacement warranty** explicitly covering surge-related failures within installation specifications
-- **NABL-accredited test reports** for surge protection performance available on request
-- **Field-replaceable SPD modules** for serviceability without inverter replacement
+Surge-related warranty coverage, test-report availability and monitoring alerts are not established until Qbits supplies the controlling documents. Do not infer them from the enclosure rating or a generic brand feature list.
 
 Related guides:
 
@@ -236,7 +229,7 @@ Related guides:
 - **[Inverter Voltage: String vs MPPT in Solar Inverters India](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/)** - voltage design framework
 - **[Inverter TCO India Guide](/blog/inverter-tco/)** - total cost of ownership framework
 
-For surge protection specification on specific projects, [talk to a Qbits engineer](/contact-us/) - the team can recommend the right Qbits SKU with surge protection rating matched to your site's lightning density and grid conditions within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ## Closing
 

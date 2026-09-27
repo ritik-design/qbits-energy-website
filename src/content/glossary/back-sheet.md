@@ -194,8 +194,6 @@ Back sheet provides electrical insulation, weather protection and mechanical rob
 
 ## Need quality back sheet modules?
 
-QBits Energy supplies ALMM-listed modules with PVDF or glass-glass construction for residential, C&I and utility solar across India.
-
 ## Further reading
 
 For how Back Sheet plays out in real projects, these guides go deeper:

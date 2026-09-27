@@ -172,4 +172,4 @@ Irish quoting fails on two averaged inputs and one wrong sky model.
 - **Model the grant band, not a percentage.** Support per kilowatt collapses above 2 kWp and stops at 4, and the customer should see where.
 - **Hold supplier-specific export rates.** A two to one spread is the largest unmodelled variable in most Irish quotes.
 - **Split direct from diffuse.** Geometric shading engines overstate Irish losses and lose you projects that were viable.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring an Irish address, or reach the Qbits team [here](/contact-us/) for EN 50549 compliant inverter specification.
+

@@ -128,8 +128,6 @@ Modern cloud platforms use TLS encryption in transit, encryption at rest, role-b
 - **Choose OpenSolar** for small residential at the free entry tier.
 - **Stay on PVsyst** only if a specific lender mandates the desktop tool.
 
-For most installers and EPCs in 2026, cloud solar design has fully overtaken the desktop tradition. SurgePV is the cleanest cloud-first [solar design platform](https://surgepv.com/solar-designing), and the [solar design software](https://surgepv.com/) of choice for new teams standing up a browser workflow. Cloud tooling scales the same way for [commercial and C&I teams](/blog/commercial-solar-design-software/) as it does for residential, and the full [best solar design software ranking](/blog/best-solar-design-software/) covers every segment if cloud is just one of your evaluation criteria. That scaling holds on the hardware side too: Qbits' [product range](/our-products/) spans the same residential-to-C&I span, with the [C&I solution](/c-i-solution/) built for the multi-array layouts a cloud workflow makes easy to iterate on.
-
 <div class="inline-cta">
 <h3>Ready to design solar from anywhere?</h3>
 <p>SurgePV combines AI 3D roof modeling, 8,760-hour shading, bankable yield, Clara AI, and white-label proposals in a browser-only platform.</p>

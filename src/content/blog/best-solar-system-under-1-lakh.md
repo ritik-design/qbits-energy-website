@@ -22,16 +22,20 @@ faqs:
   - q: "What is the PM Surya Ghar subsidy for a system under ₹1 lakh?"
     a: "For a 1kW system, the PM Surya Ghar central subsidy is ₹30,000. For a 2kW system, the subsidy is ₹60,000. These subsidies are paid directly to the homeowner's bank account after DISCOM verification. They bring a ₹65,000–₹85,000 (1kW) or ₹1,00,000–₹1,30,000 (2kW) gross system within or close to the ₹1 lakh net target. Applying for PM Surya Ghar subsidy through the national portal is mandatory before installation begins."
   - q: "What are the risks of buying a cheap solar system in India?"
-    a: "The primary risks of a low-budget solar system are: (1) non-ALMM-listed inverter, which disqualifies the PM Surya Ghar subsidy and forfeits ₹30,000–₹78,000; (2) uncertified panels without BIS or IEC compliance, which may degrade 3 to 5 times faster than certified panels; (3) inadequate earthing and surge protection, creating fire and electrocution risk; (4) no local service support for warranty claims. A system that appears cheap at ₹60,000 gross without subsidy can cost ₹1,20,000 in effective terms."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Can I get a hybrid solar system under ₹1 lakh in India?"
     a: "Not with a meaningful battery. A hybrid inverter alone (without battery) for 1–2kW adds ₹20,000–₹35,000 over an on-grid inverter, pushing the net system cost to ₹70,000–₹90,000. With a 2.4kWh LiFePO4 battery (the smallest practical size), total cost rises to ₹1,20,000–₹1,60,000 net after subsidy. For a genuine ₹1 lakh budget, an on-grid 2kW system is the only complete, warranty-valid option."
   - q: "Which brands offer reliable solar systems under ₹1 lakh (net cost) in India?"
-    a: "Reliable solar systems under ₹1 lakh net cost come from inverter brands with ALMM listing and at least a 5-year warranty: Qbits (12-year warranty, IP66), Growatt, Sungrow (5kW+ SKUs more common), Luminous (entry-level solar range), and Vikram Solar panel combinations. Avoid no-name inverter assemblies, products without BIS-IS 16221 certification, and installers who cannot produce ALMM compliance documentation."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What is the minimum system size I should consider for solar in India?"
     a: "The minimum practical solar system for an Indian home is 1kW - generating 3.5 to 5 kWh/day, enough to offset lighting, fans, and a refrigerator. Anything below 1kW (individual panels sold without a complete system) is not subsidy-eligible and typically lacks proper grid-tie inverter compliance. For a home with any air conditioning, 2kW is the practical minimum."
   - q: "How do I verify that a solar system under ₹1 lakh is PM Surya Ghar compliant?"
-    a: "Verify three things before paying: (1) the inverter model appears on the MNRE ALMM list - check at the MNRE portal; (2) the solar panels are from a manufacturer on the MNRE approved module manufacturers list; (3) the installer is empanelled on the PM Surya Ghar national portal. All three must be true for the subsidy to be disbursed. An installer who asks you to apply for subsidy after installation and uses non-listed components will not deliver the subsidy."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 A solar system for under ₹1 lakh, is it real, or is it the solar equivalent of a highway billboard advertising ₹12 per square foot flats? The confusion is understandable because the answer depends entirely on whether you are counting the gross price or the net price after the PM Surya Ghar subsidy.
 
@@ -42,7 +46,7 @@ Here is the unvarnished truth: with the right subsidy, a ₹1 lakh budget buys a
 > **TL;DR**
 > - ₹1 lakh net (after subsidy) buys a 1kW system (₹35,000–₹55,000) or a 2kW system (₹40,000–₹70,000); a budget [3kW system](https://www.heavengreenenergy.com/blog/3kw-solar-system-in-india) also lands near this range after the ₹78,000 subsidy.
 > - The PM Surya Ghar subsidy is ₹30,000 for 1kW and ₹60,000 for 2kW, and is the single biggest lever on net cost.
-> - A non-ALMM inverter forfeits the entire subsidy, turning a "cheap" ₹70,000 system into an effective ₹1,30,000 one.
+
 > - A 2kW system pays back in roughly 2.8 to 3.9 years depending on tariff, generating 210–300 units/month.
 > - In Gujarat and Rajasthan, state top-up subsidies can push a 2kW system's net cost below ₹50,000.
 
@@ -66,7 +70,7 @@ The most important variable is subsidy. The difference between claiming and not 
 **Best for:** 1 BHK without AC, consumption below 200 units/month, very limited roof space (6–9 sq.m.), renters considering a future purchase.
 
 - **Panels:** 2 × 530 Wp [monocrystalline](/glossary/monocrystalline/) [PERC](/glossary/perc-cell/) panels
-- **Inverter:** 1kW or 1.5kW [ALMM](/glossary/almm-list/)-listed on-grid (e.g., Qbits TLS-1500)
+
 - **Gross cost:** ₹65,000–₹85,000
 - **PM Surya Ghar subsidy:** ₹30,000
 - **Net cost:** ₹35,000–₹55,000
@@ -82,7 +86,7 @@ The most important variable is subsidy. The difference between claiming and not 
 **Best for:** 1 BHK with AC, 2 BHK without AC, consumption 200–350 units/month. The best-value option within a ₹1 lakh net budget.
 
 - **Panels:** 4 × 530 Wp monocrystalline PERC panels
-- **Inverter:** 2kW ALMM-listed on-grid (e.g., Qbits TLS-2000)
+
 - **Gross cost:** ₹1,00,000–₹1,30,000
 - **PM Surya Ghar subsidy:** ₹60,000
 - **Net cost:** ₹40,000–₹70,000
@@ -100,7 +104,7 @@ This is also the capacity where most residential turnkey EPC installers concentr
 **Best for:** 2 BHK or large 1 BHK with high consumption (350–500 units/month). Requires stretching the budget slightly, net cost ₹72,000–₹1,00,000 for budget systems.
 
 - **Panels:** 6 × 530 Wp monocrystalline PERC panels
-- **Inverter:** 3kW ALMM-listed on-grid (e.g., Qbits TLS-3000)
+
 - **Gross cost:** ₹1,50,000–₹1,70,000 (budget end)
 - **PM Surya Ghar subsidy:** ₹78,000
 - **Net cost:** ₹72,000–₹92,000
@@ -118,16 +122,12 @@ Every solar buyer under a ₹1 lakh budget must verify these six items. Missing 
 
 ### The ₹1 Lakh Solar Budget Checklist
 
-1. **ALMM compliance**: Confirm the inverter model is on the MNRE ALMM approved list. Non-ALMM inverters disqualify you from PM Surya Ghar subsidy. On a 2kW system, missing subsidy costs ₹60,000 extra. Check at [MNRE ALMM Portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}.
 2. **[BIS-certified](/glossary/bis-certification/) panels**: Solar panels must carry BIS IS 14286 (crystalline silicon) or IS 16077 (thin film) certification. Ask for the BIS certificate number and verify at [BIS CMS Portal](https://bis.gov.in/){target="_blank" rel="noopener"}.
 3. **Full BOS scope**: Confirm the quote includes mounting structure, DC cables, AC cables, surge protection devices (SPDs), earthing system, and AC distribution board wiring. Installers who omit these items deliver a quote that appears cheap but requires ₹15,000–₹25,000 in extras.
 4. **GST invoice**: Insist on a GST-compliant tax invoice with the installer's GSTIN. PM Surya Ghar subsidy disbursal requires a valid tax invoice. Cash payments without invoicing are a subsidy red flag.
 5. **[Empanelled installer](/blog/empanelled-vendor-pm-surya-ghar/)**: Verify that the installer is empanelled on the PM Surya Ghar National Portal. Only empanelled installers can process subsidy applications. Check at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}.
-6. **Inverter warranty in writing**: Get the warranty terms on company letterhead or the manufacturer's warranty card. "5 years" on a brochure means nothing if the brand's service centre is 800 km away. Qbits offers 12-year full replacement warranty with <72-hour RMA SLA.
 
 For the full vetting process behind item 5, the [8-step guide to finding a reliable solar installer](/blog/find-reliable-solar-installer/) covers reference checks, DISCOM track record, and quotation red flags in detail.
-
-> **₹60,000.** The PM Surya Ghar central subsidy for a 2kW system, the amount a buyer loses if they purchase a non-ALMM system to save ₹3,000–₹5,000 on the inverter. This is the single most common and most expensive mistake in the budget solar segment. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
 
 ## Budget vs Quality: What the Price Gap Actually Means
 
@@ -182,13 +182,12 @@ In Gujarat and Rajasthan, a 2kW system is genuinely available under ₹50,000 ne
 - **Choosing a 1kW system to stay "cheap" when 2kW is the right fit**: If your monthly consumption is 250+ units, a 1kW system will cover 40–50% of demand. A 2kW system at ₹10,000–₹20,000 extra net cost covers 70–85% and pays back faster in absolute rupees saved per year.
 - **Ignoring the 1kW solar system option for non-AC homes**: Conversely, buyers with 150-unit monthly consumption (1 BHK without AC) who are pushed to buy 2kW are overbuying. Right-sizing matters both ways. The [1kW solar system price guide](/blog/1kw-solar-system-price-india/) helps identify when 1kW is genuinely sufficient.
 
-## Where Qbits Fits in the Under-₹1 Lakh Segment
+## Qbits model documentation
 
-The budget solar buyer deserves the same 12-year warranty and IP66 protection as the large installation, not a lesser product because the system is smaller. Qbits offers the TLS-1500 (1.5kW) and TLS-2000 (2kW) with identical specifications and warranty terms as the larger-capacity products.
+The budget solar buyer deserves the same model-specific written warranty and IP66 protection as the large installation, not a lesser product because the system is smaller. Qbits offers the TLS-1500 (1.5kW) and TLS-2000 (2kW) with identical specifications and warranty terms as the larger-capacity products.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS series from 1.5kW, ALMM-listed, PM Surya Ghar subsidy-eligible. 12-year full replacement warranty.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS series for buyers who want battery-readiness now and can add storage later when budget allows.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Verify your 1–2kW string configuration and panel layout before ordering.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Local service within 72 hours in 280+ cities, including Tier-2 and Tier-3 markets.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
 [Get a verified quote at contact-us](/contact-us/), share your electricity bill and Qbits will right-size the system to your actual consumption and budget.

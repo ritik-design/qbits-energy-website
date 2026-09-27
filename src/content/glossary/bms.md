@@ -285,8 +285,6 @@ A BMS is mandatory for every lithium battery pack. It protects cells, balances v
 
 ## Need BMS-validated battery solutions?
 
-QBits Energy supplies battery packs with BMS-validated compatibility for major hybrid inverter brands across Indian solar projects.
-
 ## Further reading
 
 For how BMS plays out in real projects, these guides go deeper:

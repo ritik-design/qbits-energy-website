@@ -38,16 +38,16 @@ export const events: TradeEvent[] = [
     startDate: '2026-04-08',
     endDate: '2026-04-09',
     summary:
-      'We took the full Qbits line-up to Varanasi - on-grid and hybrid inverters on live display, with our engineers on the floor for two days answering installer and distributor questions.',
+      'Qbits identifies these photographs as its Global Solar Expo Varanasi display. Exact products shown, event dates and staff roles require confirmation from the event owner.',
     photos: [
       {
         image: `${varanasi2026Dir}/qbits-stall-ai-inverter-display.webp`,
-        alt: 'Qbits Energy exhibition stall with an AI-powered solar inverter mounted on the display wall at Global Solar Expo Varanasi',
-        caption: 'Our stall, with the AI-powered inverter on live display.',
+        alt: 'Qbits Energy exhibition stall with a solar inverter mounted on the display wall at Global Solar Expo Varanasi',
+        caption: 'Qbits exhibition stall with an inverter on display; product identity and demonstration status require event-owner confirmation.',
       },
       {
         image: `${varanasi2026Dir}/visitors-at-qbits-stall.webp`,
-        alt: 'Visitors standing with the Qbits team in front of the India’s First AI Powered Inverter backdrop at the Qbits stall',
+        alt: 'Visitors standing with the Qbits team in front of a promotional backdrop at the Qbits stall',
         caption: 'Installers and distributors at the Qbits stand.',
       },
       {

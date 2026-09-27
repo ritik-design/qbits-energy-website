@@ -137,4 +137,4 @@ In the UAE the shadow is usually yours, which means it is a design variable rath
 - **Model each parapet edge separately.** A uniform setback throws away modules on three edges to protect against one.
 - **Optimise spacing for total output, not specific yield.** On an area-constrained roof, accepting some shading fits more capacity and delivers more energy.
 - **Put soiling and shading in one model.** Stacked derates overstate the loss and misprice the cleaning schedule.
-- **Run a real roof before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a UAE address, or reach the Qbits team [here](/contact-us/) for inverter and optimiser specification against the finished design.
+

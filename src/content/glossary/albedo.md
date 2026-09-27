@@ -80,8 +80,6 @@ Albedo is the fraction of incoming solar radiation reflected by a surface, expre
 
 For solar PV applications, albedo specifically refers to the reflectivity of the ground surface beneath and around solar arrays. This is critical for [bifacial modules](/glossary/bifacial-module/), which capture both direct front-side light and ground-reflected light hitting the rear surface. Higher albedo leads to higher bifacial gain, a key input alongside [GHI](/glossary/ghi/) and [DNI](/glossary/dni/) in any [solar yield](/glossary/solar-yield/) model.
 
-For Indian solar, typical ground albedo ranges from 0.05 (dark soil) to 0.30 (white gravel preparation). [Utility-scale solar plants](https://surgepv.com/utility-scale-solar-design/) increasingly use white gravel preparation to boost albedo above 0.30, supporting bifacial yield gains of 15-25 percent, a pattern visible across the [state-wise solar irradiance data](/blog/solar-irradiance-data-india-statewise/) QBits tracks for Indian sites.
-
 ## Why albedo matters
 
 Bifacial yield. Higher albedo means higher rear-side power generation, reflected in a plant's [CUF](/glossary/cuf/) and overall [performance ratio](/glossary/pr/).
@@ -190,8 +188,6 @@ Solar yield modelling tools (PVsyst, SAM) include albedo as input.
 Albedo is the fraction of solar radiation reflected by a surface. Critical for bifacial solar yield: higher albedo means more rear-side power. Indian utility plants typically have natural albedo 0.15-0.30. White gravel preparation can boost albedo to 0.30-0.45, justified by bifacial yield gains of 15-25 percent. On-site albedo measurement is standard for utility-scale bifacial project planning.
 
 ## Need albedo-optimised bifacial plant design?
-
-QBits Energy provides on-site albedo measurement, bifacial yield modelling and ground preparation specifications for Indian utility solar projects.
 
 ## Further reading
 

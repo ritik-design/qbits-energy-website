@@ -191,8 +191,6 @@ N-type silicon is phosphorus-doped silicon serving as the base material for high
 
 ## Need n-type modules for your project?
 
-QBits Energy supplies ALMM-listed n-type TOPCon and HJT modules from leading Indian manufacturers for residential, C&I and utility solar.
-
 ## Further reading
 
 For how N-Type Silicon plays out in real projects, these guides go deeper:

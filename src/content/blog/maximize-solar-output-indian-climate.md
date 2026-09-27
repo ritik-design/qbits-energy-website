@@ -35,6 +35,8 @@ faqs:
     a: "Inverter overheating in Indian summers reduces afternoon output due to built-in thermal derating protection. To mitigate: ensure the inverter is not mounted on a west-facing wall receiving direct afternoon sun; provide at least 20 cm clearance above and 15 cm on each side for airflow; add a ventilated enclosure shade (not a sealed box) for inverters in direct sun; clean the inverter cooling fins of dust annually. For inverters in external enclosures or electrical rooms, an exhaust fan that activates above 40 °C significantly reduces derating events in May and June."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 You installed a 5 kW system projected to generate 22 units per day. Fourteen months later, the monitoring app shows an average of 17.5 units on clear days, a 20% shortfall that your installer never warned you about. The units are not permanently lost, but recovering them requires working through the right levers in the right sequence.
 
 This guide covers the six practical interventions that increase solar output in Indian conditions, not optimisations from European installation manuals, but the adjustments that matter in 45 °C Rajasthan summers, post-harvest North Indian dust, and the specific challenge of east-west split rooftops across latitudes from 8°N to 32°N.
@@ -143,8 +145,6 @@ In a series-connected string, panels share the same current. A single panel prod
 
 If one MPPT string shows consistently lower output than the other at the same time of day, and the imbalance appears at a specific daily hour, that hour corresponds to when a shadow crosses the lower-performing string. Log the monitoring app output at 30-minute intervals over a clear day and identify the time window of imbalance. Photograph the shadow source at that exact time.
 
-For the Qbits [solar inverter app monitoring](/blog/solar-inverter-app-monitoring/) guide, which covers WhatsApp AI alerts for underperformance, see the linked guide. Qbits AI monitoring compares each MPPT string against expected irradiance-adjusted output and sends a WhatsApp alert when one string deviates beyond a configurable threshold, catching shade-caused losses without requiring manual daily review.
-
 ## The 6-Lever Solar Output Maximiser
 
 The six levers operate as a hierarchy. Work through them in order, each lever should be confirmed before investing in the next.
@@ -238,8 +238,6 @@ Reference the [MNRE solar resource atlas](https://mnre.gov.in/){target="_blank" 
 
 Every output lever described above works better with continuous monitoring. Monitoring without alerts is passive, it shows you data when you remember to check. Monitoring with AI alerts is active, it tells you when something is wrong before you lose a full month of generation.
 
-The Qbits AI WhatsApp monitoring system compares daily generation against the expected yield calculated from current irradiance data (not historical averages) and sends a WhatsApp message when performance ratio drops below the configured threshold. This matters because:
-
 - A shaded panel left undetected for 60 days at 30% yield loss on a 5 kWp system costs approximately ₹1,800–₹2,400 in lost value at ₹8/unit
 - A soiled system left uncleaned for 6 weeks in Rajasthan loses 20–25% output, approximately ₹3,600–₹4,500 on a 5 kWp system in peak irradiance months
 - An inverter derating during peak summer afternoons, if caught in week 1, is resolved by adding a shade canopy for ₹500–₹2,000; left for three months, it costs ₹4,000–₹6,000 in reduced output
@@ -261,11 +259,8 @@ For a detailed treatment of the 12 most common output-reduction causes and their
 
 ## Where Qbits Fits
 
-Maximising output requires monitoring data that alerts you when generation deviates from expected, not data you have to remember to check. Qbits on-grid inverters include AI-powered WhatsApp monitoring as standard: the system compares daily generation against irradiance-adjusted expected yield and sends a proactive WhatsApp message when performance ratio drops below threshold. This catches soiling, shading, clipping, and inverter derating before they accumulate into months of lost generation.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series with per-string MPPT monitoring, AI WhatsApp alerts, and 12-year full replacement warranty. Subsidy-eligible and ALMM-listed.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Verify whether your DC:AC ratio is causing meaningful midday clipping at your location's irradiance level.
 - **[Inverter Clipping Explained](/blog/inverter-clipping-explained/)**: Deeper analysis of clipping losses and whether DC oversizing correction is warranted for your system.
-- **[Solar Inverter App Monitoring](/blog/solar-inverter-app-monitoring/)**: How to configure AI monitoring alerts for each of the six output levers.
+- **[Solar Inverter App Monitoring](/blog/solar-inverter-app-monitoring/)**: Verify which signals and alerts the exact inverter, logger and application provide before using monitoring in the maintenance plan.
 
-For homeowners who believe their system is underperforming and want a data-driven diagnosis, [talk to a Qbits engineer](/contact-us/), our technical support team can review your monitoring data remotely and identify the highest-value improvement actions without requiring a site visit.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

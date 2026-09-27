@@ -1,255 +1,123 @@
 ---
-title: "Solar Inverter Sizing: 12 Key Questions (2026)"
-excerpt: "Selecting the right inverter capacity is the single most impactful design decision on a solar project. Here are the 12 most important sizing questions, covering DC oversizing, MPPT current, temperature corrections, and modern 750W+ panel compatibility."
-description: "How to size a solar inverter correctly: DC-to-AC ratio, string voltage temperature corrections, MPPT limits, and common sizing mistakes EPCs make."
-category: "Guide"
+title: 'Solar Inverter Sizing: AC, DC and Battery Limits'
+excerpt: Panel kWp does not pick your inverter. The four checks that actually decide it, with temperature corrected string voltage worked through.
+description: How to size a solar inverter in India. AC output, permitted DC power, temperature corrected string voltage and current, plus separate battery sizing.
+category: Guide
 date: 2026-03-20
-updatedDate: 2026-07-08
-readTime: "13 min"
-image: "/blog-images/solar-inverter-sizing.svg"
-author: "Nirav Dhanani"
+updatedDate: 2026-09-23
+readTime: 9 min
+image: /blog-images/solar-inverter-sizing.svg
+author: Nirav Dhanani
 keywords:
-  - solar inverter sizing
-  - DC oversizing ratio
-  - inverter capacity calculation
-  - string voltage temperature correction
-  - high-wattage panel compatibility
+- solar inverter sizing
+- DC oversizing ratio
+- inverter capacity calculation
+- string voltage temperature correction
+- high-wattage panel compatibility
 faqs:
-  - q: "What is the right DC-to-AC ratio?"
-    a: "For most Indian installations, 1.1:1 to 1.3:1. Hotter regions (Rajasthan, Gujarat) can push to 1.3–1.5:1 because panels derate more aggressively; cooler high-altitude sites should stay closer to 1.1–1.15:1."
-  - q: "What happens if I undersize the inverter?"
-    a: "Power clipping caps midday production. Annual losses run 15–25%. Sustained high-load operation also accelerates capacitor and semiconductor wear, shortening lifespan from 10–12 years to 6–8."
-  - q: "What if I oversize the inverter?"
-    a: "Inverters peak at 30–70% load. Above this, efficiency drops. Below 20% load (morning/evening) efficiency falls to 85–90%. An oversized inverter spends most of its time in this inefficient zone - and costs 40–50% more upfront."
-  - q: "Can a standard inverter handle modern 750W+ panels?"
-    a: "Yes, but string design must adapt. 750W+ panels have higher Voc (50–55V) and Isc (13–14A+), which can mean fewer panels per string and tighter MPPT current limits. Always verify with the inverter datasheet."
-  - q: "What's the most common sizing mistake?"
-    a: "Ignoring cold-temperature Voc rise. Northern Indian mornings hit -10°C - string voltage that looks fine at 25°C can exceed the inverter's max DC input at low temperatures, causing damage and voiding warranty."
+- q: What size inverter do I need for 5.5 kWp of panels?
+  a: The kWp figure alone cannot answer this. You need the AC output the site requires, the connection phase, the inverter's permitted DC input power, and the temperature corrected string voltage and current for the specific modules. Two 5.5 kWp arrays with different module models and string layouts can require different inverters.
+- q: Can the inverter AC rating be smaller than the panel DC rating?
+  a: Yes, and it often is. DC array capacity and AC output are different quantities, and a modest degree of DC oversizing is a normal design choice because arrays rarely produce their rated output. The permitted relationship is set by the inverter's maximum DC input power and the manufacturer's stated limits, not by a general rule.
+- q: Why does cold weather matter for string voltage?
+  a: Module open circuit voltage rises as temperature falls. The highest voltage the inverter will ever see occurs on the coldest bright morning, not in summer. If that figure exceeds the inverter's maximum DC voltage the equipment can be damaged, so string length is checked against the lowest expected temperature.
+- q: Does inverter size determine backup duration?
+  a: No. Inverter rating is power, measured in kW, which is a rate. Backup duration comes from energy, measured in kWh, stored in the battery. A larger inverter does not extend runtime. It only raises the maximum load you can supply at once.
+- q: What is DC oversizing and is it safe?
+  a: It means installing more DC array capacity than the inverter's AC rating. It is a deliberate and common design choice, since clipping a small amount of peak output can be worth the extra generation across the rest of the day. It must stay within the inverter's maximum DC input power and voltage limits.
+- q: Can I just match inverter kW to panel kWp?
+  a: It is a starting point and nothing more. That rule ignores phase, sanctioned connection, string voltage limits, per tracker current limits, roof orientation and any backup requirement. A design that satisfies the rule can still be unbuildable or unapprovable.
+seoTitle: 'Solar Inverter Sizing: AC, PV and Battery Limits'
+relatedSlugs:
+- string-sizing-calculator
+- single-vs-3-phase-inverter
+- battery-sizing-hybrid-solar
 ---
 
-Selecting the right inverter capacity is one of the most critical decisions in solar system design. Get it wrong and you risk reduced energy generation, premature equipment failure, voided warranties, and significant financial losses.
+> **Quick answers**
+>
+> - Array kWp and inverter kW are different quantities on different sides of the system.
+> - The coldest morning sets the maximum string voltage, not the hottest afternoon.
+> - Per tracker current limits constrain string layout independently of total power.
+> - Sanctioned connection and phase can override the design before it is built.
+> - Some DC oversizing is normal, bounded by the inverter's maximum DC input.
+> - Battery runtime is an energy calculation and entirely separate from inverter rating.
 
-> **TL;DR**
-> - Size the inverter at 80–90% of total DC array capacity, giving a DC:AC ratio of 1.1:1 to 1.3:1 for most Indian installations.
-> - Undersizing causes power clipping and 15–25% annual generation loss; oversizing wastes 40–50% more capex on an inverter that spends most of its time below 20% load.
-> - Hot regions like Rajasthan and Gujarat can push ratios to 1.3–1.5:1; cooler high-altitude sites should stay near 1.1–1.15:1.
-> - 750W+ panels have higher Voc and Isc than older 400W modules, which changes panels-per-string and MPPT current limits.
-> - Cold-morning voltage rise is the most common sizing mistake, a string safe at 25°C can exceed the inverter's max DC input at -10°C.
-> - Qbits inverters support up to 100% DC oversizing (2:1 ratio) and carry a 12-year full replacement warranty.
+**Short version.** Size from four inputs: the AC output the site needs, the DC power the model permits, the temperature corrected string voltage and current, and any backup load. A rule matching inverter kW to panel kWp skips the three checks that actually cause failures.
 
-## Why Inverter Sizing Matters
+## The four checks
 
-The inverter converts DC from panels into usable AC. Proper sizing keeps it within optimal efficiency ranges and delivers reliable 12–15 year performance. Errors cascade:
-
-- **Undersizing:** power clipping during peak hours, 10–20%+ generation loss
-- **Oversizing:** inefficient low-load operation in mornings and evenings
-- **Out-of-spec configuration:** voided warranty and possible damage
-
-## 1. How Do I Calculate the Right Inverter Capacity?
-
-Sum the nameplate wattage of all panels. The industry standard sizes the inverter at **80–90% of total DC capacity**, giving a DC:AC ratio of 1.1:1 to 1.3:1.
-
-**Example:** A 10.8 kW array (20 × 540W panels) suggests an **8.6–9.7 kW AC inverter**.
-
-### Key Modification Factors
-
-- **Temperature derating:** panels lose **10–15% efficiency** in India's hot climate
-- **Location:** shading, suboptimal orientation, high soiling
-- **Load profile:** for commercial, optimise for self-consumption or grid export
-
-**Commercial example:** A 100 kW DC array (185 × 540W panels) in Mumbai with afternoon shading might use an **85 kW inverter (1.18:1 ratio)**, accounting for losses.
-
-## 2. What Is [DC Oversizing](/glossary/dc-oversizing/) and Why Does It Matter?
-
-Installing more DC panel capacity than the inverter's rated AC output. A **1.2:1 ratio** means 12 kW of panels on a 10 kW inverter. For the full mechanics of why this improves yield, see [DC oversizing in solar](/blog/dc-oversizing-in-solar/) and [inverter clipping explained](/blog/inverter-clipping-explained/).
-
-### Benefits
-
-- Extended productive generation in non-peak hours
-- Compensates for temperature derating
-- Increases daily energy yield by **5–15%** without a larger inverter
-
-### Industry Ratios
-
-| Strategy | DC:AC ratio |
-| --- | --- |
-| Conservative | 1.1–1.15:1 |
-| Standard | 1.2–1.25:1 |
-| Aggressive | 1.3:1+ |
-
-Qbits inverters support **up to 100% DC oversizing** (2:1 ratio).
-
-## 3. Can My Inverter Handle 750W+ Panels?
-
-High-wattage panels have higher voltages and currents:
-
-| Spec | 750W panel | 400W panel |
+| Check | Input needed | What it settles |
 | --- | --- | --- |
-| Voc | 50–55V | 40–45V |
-| Vmp | 42–45V | 32–35V |
-| Isc | 13–14A+ | 9–10A |
+| AC output | Connection phase, sanctioned load, utility arrangement | The continuous AC rating and phase |
+| DC power | Module count and rated Wp | Whether array size is within the permitted input |
+| String voltage and current | Module Voc, Vmp, Isc, Imp and site temperature extremes | Legal string length and layout per tracker |
+| Backup, if required | Essential load watts, run hours, battery model | Supported output, current and usable energy |
 
-### Implications
+These interact. A string layout that satisfies voltage may exceed per tracker current. An array within DC limits may need a different tracker arrangement because the roof faces two directions. The [MPPT guide](/glossary/mppt/) covers that distinction.
 
-- May limit panels per string (e.g., 18–20 vs 22–24 for older modules)
-- Verify max DC input voltage across all temperature conditions
-- Apply the [temperature coefficient](/glossary/temperature-coefficient/) (**-0.3% per °C**), cold mornings push [open-circuit voltage](/glossary/open-circuit-voltage/) higher
-- Verify max input current per [MPPT](/glossary/mppt/) channel
+## Why kWp does not pick the inverter
 
-## 4. What Happens If I Undersize the Inverter?
+Ten 550 W modules give **10 times 550, which is 5,500 Wp**, or **5.5 kWp** of rated DC capacity.
 
-**[Power clipping](/glossary/clipping-loss/)**: the inverter cannot convert all available DC during peak production. A 15 kW DC array on an 8 kW inverter loses 6 kW at peak.
+That figure is measured at standard test conditions, which an Indian rooftop rarely sees. Real output is usually below rated, which is why installing somewhat more DC capacity than the inverter's AC rating is a normal design choice rather than an error. The upper bound is the inverter's maximum permitted DC input power and voltage, stated on the datasheet.
 
-### Performance Impact
+What the kWp figure cannot tell you is how those modules are wired, what voltage the strings reach on a cold morning, what current each string carries, or whether your connection permits that AC output.
 
-- Annual energy production reduced **15–25%**
-- Sustained high-load wear accelerates capacitor and semiconductor degradation
-- Lifespan drops from 10–12 years to **6–8 years**
-- Operating efficiency decreases, inverters peak at 30–70% capacity, not 90–100%
+## String voltage is set by the coldest morning
 
-### Warning Signs
+This is the check that protects the equipment, and the one most often skipped.
 
-- Flat-topped power curves during midday
-- Inverter at max capacity 3+ hours daily
-- Higher-than-expected inverter temperatures
+Module open circuit voltage rises as temperature falls. The highest DC voltage an inverter will ever see occurs at first light on the coldest day of the year, when the array is cold and suddenly illuminated. If the calculated cold Voc for a string exceeds the inverter's maximum DC voltage, the design is unsafe regardless of how well it behaves in summer.
 
-## 5. What Are the Risks of Oversizing?
+The calculation needs the module's open circuit voltage, its temperature coefficient for voltage, and the lowest expected module temperature at the site. Multiply the per module corrected voltage by the number of modules in series and compare with the inverter limit, keeping margin.
 
-| Load level | Typical efficiency |
-| --- | --- |
-| 30–70% (sweet spot) | 97–98% |
-| 20% | 92–94% |
-| Below 20% | 85–90% |
+The opposite bound matters too. On the hottest afternoon, string voltage falls. It must stay above the bottom of the MPPT operating window, or the tracker cannot hold the string at its maximum power point and output suffers.
 
-**Cost impact:** Oversized inverters cost **40–50% more upfront** with no proportional performance benefit if the array cannot fill capacity. See [solar inverter efficiency](/blog/solar-inverter-efficiency/) explained for why 95% vs 97% vs 98% matters at these load bands.
+So string length is bounded at both ends: short enough to stay under maximum DC voltage when cold, long enough to remain inside the MPPT window when hot.
 
-**Optimal range:** 1.1:1 to 1.3:1 balances extended production hours, temperature derating, and efficiency.
+## Current limits constrain layout separately
 
-## 6. How Do I Match Sizing to Panel Wattage?
+Each tracker has a maximum input current. String current is driven by module short circuit current, and can exceed standard test figures under high irradiance conditions.
 
-### String Voltage Calculation
+This limit is independent of power. A design can sit comfortably within the inverter's DC power rating and still exceed the current limit on one tracker because too many strings were paralleled onto it. Check current per tracker, not just total array power.
 
-1. Multiply panels in series × Vmp (normal operating voltage)
-2. Multiply by Voc (max open-circuit voltage)
-3. Apply temperature coefficient for worst-case cold voltage
-4. Ensure max voltage stays below inverter limit with safety margin
+## A worked check against a real datasheet
 
-Running these numbers by hand for every roof is slow. A dedicated [string sizing calculator](https://surgepv.com/tools/) speeds up the [string sizing](/glossary/string-sizing/) workflow across multiple projects, and Qbits' own [String Sizing Calculator](/string-sizing-calculator/) applies these temperature corrections automatically for every SKU.
+The [Qbits QB-4/5/6KTLD datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf) specifies **two MPPTs**, **20 A maximum input current per tracker**, **550 V maximum DC voltage** and an **80 to 550 V MPPT operating range**. Its **50 V start up voltage** is a separate figure describing when the inverter begins operating, not a design limit.
 
-### Current Calculation
+Against those numbers, the questions become concrete. What is cold Voc per module at your lowest expected temperature, and how many can go in series before approaching 550 V. What is hot Vmp per module, and does the string stay above 80 V. What is string current against the 20 A per tracker limit. And does the roof layout justify using both trackers independently.
 
-- Determine panel Isc
-- Verify against inverter max input current per MPPT
-- For parallel strings, multiply Isc by number of strings
+Use the [string sizing calculator](/string-sizing-calculator/) as an initial screen, treating its stored model data and assumptions as something to verify against current project documents rather than as final design.
 
-### Worked Example
+## DC oversizing and clipping
 
-A 50 kW commercial install using 540W panels (Vmp 41V, Isc 13.2A):
+Installing more DC capacity than the inverter's AC rating is a deliberate design choice, not a mistake, and it is worth understanding before you push back on a quote that proposes it.
 
-- Inverter: 40 kW with 4 MPPT inputs
-- Four strings of 23 panels (92 panels total, 49.68 kW DC)
-- Each string: 943V Vmp, safely below 1000V limit
-- DC:AC ratio: **1.24:1**: ideal for Indian conditions
+An array reaches its rated output only under conditions a rooftop rarely sees: full irradiance, clear sky, cool modules, clean glass. For most of the year it produces well below rated. Sizing the inverter to a peak that occurs for a few hours a year means paying for conversion capacity that sits idle the rest of the time.
 
-## 7. Should I Size Differently for On-Grid vs Hybrid?
+Oversizing the DC side lifts output across the whole of the morning and evening, and across cloudy days, at the cost of clipping the top of a small number of peak hours. Clipping simply means the inverter holds at its maximum AC output while the array could briefly have delivered more.
 
-### On-Grid
+Two boundaries apply. Total DC power must stay within the inverter's maximum permitted DC input, and string voltage must stay within the limits already described. Within those, the right ratio depends on orientation, tilt, local irradiance and tariff structure, which is why a single recommended figure would be misleading.
 
-Focuses on solar conversion and grid export. Goal: maximise energy harvest across all daylight hours.
+## AC output and the sanctioned connection
 
-### Hybrid
+The array can be perfect and still fail here.
 
-A [hybrid inverter](/glossary/hybrid-inverter/) must also handle:
+List the simultaneous loads or the planned grid connected output, and check the sanctioned connection on the electricity bill. Your permitted capacity is usually tied to sanctioned load rather than roof area, and a three phase inverter requires a three phase service. The [single versus three phase guide](/blog/single-vs-3-phase-inverter/) covers the consequences of getting this wrong.
 
-- Solar input
-- Battery charging current
-- Discharge current during backup
-- Simultaneous solar + load demand
+A rooftop kWp figure is not permission to install a particular AC capacity or to export. That comes from the DISCOM.
 
-### Hybrid Sizing Steps
+## Battery sizing is a separate calculation
 
-1. Analyse hourly load profile
-2. Identify peak load (minimum AC capacity)
-3. Plan battery integration (charge rate vs solar peak)
-4. Balance solar, battery, and load
+A hybrid inverter's 5 kW rating is a power ceiling. It does not mean a 5 kWh battery runs for one hour, and it has no bearing on runtime at all.
 
-**Example:** A 20 kWh battery requiring 4–5 hour charge time needs **4–5 kW charging capacity**. If the solar array peaks at 10 kW but the inverter only provides 6 kW output, the solar is underutilised. The full method is covered in [how to size a battery for a hybrid solar inverter](/blog/battery-sizing-hybrid-solar/); SurgePV's [battery and storage sizing guide](https://surgepv.com/hub/energy-storage/battery-sizing/) is a useful cross-check for larger C&I hybrid designs.
+Battery energy is calculated from the load, the required runtime, the usable fraction of nameplate capacity and the conversion losses, then checked against the current limits of both the battery and the inverter. The [battery sizing worksheet](/blog/battery-sizing-hybrid-solar/) works through a full example.
 
-## 8. How Does Location and Climate Affect Sizing?
+## What to send an installer
 
-| Region | Profile | Recommended ratio |
-| --- | --- | --- |
-| Rajasthan, Gujarat, central India | [65–70°C rooftop, -16 to -22% derating](/blog/solar-inverter-summer-derating-india/) | 1.25–1.30:1 (aggressive) |
-| Himachal Pradesh, Uttarakhand, high altitude | Cool, less derating | 1.10–1.15:1 (conservative) |
-| Coastal Karnataka, Kerala | High monsoon, diffuse light | 1.25–1.40:1 |
-| Desert (Rajasthan extreme) | Dust 15–25% loss between cleanings | Account for soiling in models |
+Provide the electricity connection details including sanctioned load and phase, recent consumption data, the roof and module layout, the module datasheet, and any backup load list.
 
-Also factor:
+Ask in return for the exact inverter model designation, the string schedule with calculated cold and hot voltages, current per tracker, the protection design, and the utility approval path with responsibility identified.
 
-- **Humidity / salt exposure**: [IP66 required](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/), see also [solar inverter for coastal locations](/blog/solar-inverter-for-coastal/)
-- **Grid stability**: wide input voltage range and surge protection
-
-## 9. Role of Inverter Efficiency in Sizing
-
-- **Peak efficiency:** best at 50–70% load (98% for Qbits)
-- **European efficiency:** load-weighted average across 5%/10%/20%/30%/50%/100%, 96–97%+ indicates good performance everywhere
-- **CEC efficiency:** similar weighting with different load percentages
-
-Quality inverters maintain **95%+ from 20–100% load**. Lower-quality units drop sharply at low load, bad for morning/evening yield.
-
-## 10. How Do I Plan for Future Expansion?
-
-### Strategies
-
-- **Modular architecture:** multiple smaller inverters (two 25 kW vs one 50 kW). Add a third unit later
-- **DC oversizing headroom:** sizing at 1.1:1 initially with the inverter rated to 1.3:1 = ~18% expansion room
-- **String-level reserves:** avoid fully loading all MPPT inputs; a system with [dual MPPT vs single MPPT](/blog/dual-mppt-vs-single-mppt/) gives more room to add strings later; run conduit for future strings
-- **Modular usually beats over-oversizing**: newer inverters arrive every few years
-
-### Documentation
-
-Note available MPPT capacity, max additional DC input, conduit provisions, recommended expansion configs. For larger commercial arrays, a formal rooftop detailed engineering design package keeps this documentation consistent across phases.
-
-## 11. Common Sizing Mistakes EPCs Make
-
-1. **Ignoring cold-temperature Voc rise**: strings safe at 25°C exceed limits at -10°C
-2. **Miscalculating string voltage** with 750W+ panels
-3. **Overlooking utility interconnection limits**: sanctioned load caps
-4. **Neglecting monitoring and surge protection**
-5. **Applying old rules to high-wattage panels**
-6. **Unbalanced MPPT loading**: one channel at 8 kW, another at 3 kW
-7. **Exceeding manufacturer DC input limits**: voids warranty
-
-### Prevention
-
-Standardised sizing procedures incorporating temperature coefficients, voltage calculations, grid requirements, and warranty compliance, and document all calculations.
-
-## 12. How Does Monitoring Validate Sizing?
-
-- **Clipping identification**: flat-topped midday curves
-- **Efficiency analysis**: consistent <30% capacity operation
-- **String-level monitoring**: unbalanced MPPT loading, see [solar inverter monitoring systems in India](/blog/solar-inverter-monitoring-systems-in-india/)
-- **Temperature validation**: verify derating assumptions
-- **AI-powered alerts**: Qbits' [WhatsApp monitoring](/blog/whatsapp-solar-monitoring/) identifies anomalies automatically
-- **Warranty protection**: performance logs prove in-spec operation
-- **Institutional knowledge**: multi-installation data refines future sizing
-
-## Quick Reference
-
-| Metric | Value |
-| --- | --- |
-| Inverter lifespan | 12–15 years (proper sizing) |
-| Undersizing energy loss | 10–25% |
-| Temperature efficiency loss (India) | 10–15% |
-| DC:AC ratio range | 1.1:1 to 1.3:1 |
-| Peak inverter efficiency | 98% (Qbits) |
-| Low-load efficiency (<20%) | 85–90% |
-| Panel temperature coefficient | -0.4 to -0.5%/°C |
-| 750W Voc range | 50–55V |
-| Standard max DC input | 1000–1100V |
-| Qbits DC oversizing support | Up to 100% (2:1) |
-| Qbits warranty | 12 years (full replacement) |
-
-## Closing
-
-Proper sizing is not a one-formula exercise, it is a balance between DC:AC ratio, string voltage at temperature extremes, MPPT current limits, and the inverter's warranty envelope. The 12 questions above cover the failure modes EPCs see most often. Get them right and you protect both energy yield and warranty coverage. For the next step, see [solar inverter selection](/blog/solar-inverter-selection/) for the 10 criteria EPCs should weigh beyond capacity alone.
+A model selected by a nominal kW label alone is an incomplete answer. [Contact Qbits](/contact-us/) with those documents for a model specific equipment enquiry.

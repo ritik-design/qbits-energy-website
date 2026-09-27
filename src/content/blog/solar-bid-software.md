@@ -131,7 +131,7 @@ Five mistakes show up in 80 percent of lost solar bids.
 - **[Solargraf](/blog/solargraf-alternative/).** Pure residential sales teams in North America with simple tariff structures and no engineering output requirement.
 - **[OpenSolar](/blog/opensolar-alternative/).** Solo installers and small residential shops on a tight budget who can accept hour-averaging yield instead of bankable simulation.
 
-For most growing solar businesses serving residential plus commercial, SurgePV is the option on this list that avoids the trade-off between speed and accuracy. Once a bid is won, EPCs sourcing the actual hardware can [talk to a Qbits engineer](/contact-us/) to match inverter selection to the string design the bid already modeled.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 <div class="inline-cta">
 <h3>Stop losing bids to slow tools</h3>

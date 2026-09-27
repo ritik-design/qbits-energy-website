@@ -1,365 +1,203 @@
 ---
-title: "PM Surya Ghar Muft Bijli Yojana, Complete 2026 Guide"
-excerpt: "PM Surya Ghar offers up to ₹78,000 subsidy for residential rooftop solar. This complete 2026 guide covers eligibility, application steps, state topups, and ALMM rules."
-description: "PM Surya Ghar offers up to ₹78,000 subsidy for residential rooftop solar. This complete 2026 guide covers eligibility, application steps, and ALMM rules."
-category: "Policy"
+title: PM Surya Ghar Muft Bijli Yojana, Complete 2026 Guide
+excerpt: PM Surya Ghar explained, MNRE subsidy slabs, eligibility, documents, the DISCOM journey, real timelines, and what the scheme does not cover.
+description: PM Surya Ghar explained, MNRE subsidy slabs, eligibility, documents, the DISCOM journey, real timelines, and what the scheme does not cover.
+category: Policy
 date: 2026-06-05
-updatedDate: 2026-07-08
-readTime: "22 min"
-image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
-author: "Nirav Dhanani"
+updatedDate: 2026-09-24
+readTime: 13 min
+image: /blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg
+author: Nirav Dhanani
 keywords:
-  - pm surya ghar yojana
-  - pm surya ghar muft bijli
-  - pm surya ghar subsidy
-  - pm surya ghar scheme 2026
-  - rooftop solar subsidy india 2026
+- pm surya ghar yojana
+- pm surya ghar muft bijli
+- pm surya ghar subsidy
+- pm surya ghar scheme 2026
+- rooftop solar subsidy india 2026
 faqs:
-  - q: "Who is eligible for PM Surya Ghar Muft Bijli Yojana?"
-    a: "Any Indian residential electricity consumer with a valid DISCOM connection and a roof they own (or a society no-objection certificate) can apply. There is no income ceiling. Tenants are not directly eligible because ownership or NOC is required. The house must fall within a DISCOM service area that has joined the scheme, which now covers all major DISCOMs across India."
-  - q: "How much subsidy does PM Surya Ghar provide in 2026?"
-    a: "The central government provides ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the third kilowatt, giving a maximum of ₹78,000 for a 3 kW or larger system. Subsidy is capped at 3 kW per household regardless of the actual system size installed. Several states add further state subsidies on top of the central amount."
-  - q: "What is the step-by-step PM Surya Ghar application process?"
-    a: "The five steps are: (1) Register on pmsuryaghar.gov.in with your electricity bill and Aadhaar; (2) Obtain DISCOM technical feasibility approval; (3) Install through an empanelled vendor using ALMM-listed equipment; (4) Complete smart-meter installation and DISCOM commissioning inspection; (5) Upload the commissioning report and your bank details for direct subsidy disbursement. End-to-end takes 30–90 days depending on the DISCOM."
-  - q: "Why does the inverter brand matter for PM Surya Ghar subsidy eligibility?"
-    a: "Only inverters on the MNRE Approved List of Models and Manufacturers (ALMM) qualify. If an installer fits a non-ALMM inverter - even a quality one - the subsidy claim is rejected outright. Before signing any contract, verify the proposed inverter model on the live ALMM list at mnre.gov.in/almm-list/. Qbits inverters are ALMM-listed, making them fully subsidy-eligible."
-  - q: "How long does it take to receive the PM Surya Ghar subsidy?"
-    a: "MNRE targets 30 days from commissioning report submission to bank transfer. In practice, disbursement takes 30–60 days in fast-moving states like Gujarat and Maharashtra, and up to 90 days in states where smart meter rollout is slower. The money is transferred directly to your Aadhaar-linked bank account - no vendor intermediary."
-  - q: "Can apartment or flat owners apply for PM Surya Ghar?"
-    a: "Yes, but with conditions. Individual flat owners can apply for rooftop systems on their own terrace portion with a no-objection certificate from the Resident Welfare Association (RWA). Alternatively, the RWA can apply for a common-area solar system, which qualifies for ₹18,000 per kW up to 500 kW. Both routes are eligible."
-  - q: "Are rented houses eligible for PM Surya Ghar subsidy?"
-    a: "No. The applicant must either own the property or hold a valid RWA no-objection certificate. Tenants cannot receive the subsidy directly. The electricity account must also be in the name of the person applying. If a landlord installs solar and the tenant pays rent inclusive of electricity, the landlord receives the subsidy."
-  - q: "Does PM Surya Ghar cover hybrid inverters with batteries?"
-    a: "Yes, provided the hybrid inverter is ALMM-listed and the system is commissioned in grid-tie mode with a net meter. The battery itself and the battery cabinet are not subsidised - the subsidy applies only to the solar panel and inverter portion. Hybrid systems offer the added advantage of backup power during outages on top of the subsidy benefit."
-  - q: "What state-level additional subsidies are available over PM Surya Ghar?"
-    a: "Gujarat provides ₹10,000–₹20,000 additional per kW up to 3 kW. Maharashtra offers ₹15,000 per kW for financially weaker sections. Uttar Pradesh provides additional support of ₹15,000 per household. Tamil Nadu and Karnataka both offer ₹20,000–₹30,000 additional state subsidy. Check your state nodal agency for the latest slab, as amounts update periodically."
-  - q: "What documents are required for the PM Surya Ghar application?"
-    a: "You need: (1) recent electricity bill showing consumer number and DISCOM; (2) Aadhaar card for identity verification; (3) PAN card; (4) bank passbook or cancelled cheque (Aadhaar-linked account preferred); (5) proof of property ownership such as sale deed, property tax receipt, or society share certificate; (6) if applying as a flat owner, the RWA no-objection certificate; (7) rooftop photographs. All documents are uploaded digitally on the portal."
+- q: What is the central assistance for a 3 kWp residential system under PM Surya Ghar?
+  a: The MNRE operational guidelines set ₹30,000 per kWp for the first 2 kWp and ₹18,000 per kWp for the third kWp in general-category states. That arithmetic gives ₹78,000 at 3 kWp. Special-category states and UTs use ₹33,000 and ₹19,800 per kWp, which gives ₹85,800. These are the published slab rates, not a confirmation that any specific application will be approved.
+- q: Does a 5 kWp system get more subsidy than a 3 kWp system?
+  a: No. The MNRE guidelines state there is no additional central assistance for capacity beyond 3 kWp. A 5 kWp system in a general-category state is eligible for the same ₹78,000 as a 3 kWp system. The guidelines themselves illustrate this with a 6 kW example that still lands at ₹78,000. A larger array can still make sense for your consumption, but it does not raise the central slab.
+- q: Are non-DCR solar modules allowed under PM Surya Ghar?
+  a: Not if you are claiming central assistance. The MNRE guidelines require domestically manufactured modules made from domestically manufactured cells, and state that use of non-DCR modules in any form makes the installation ineligible. The guidelines also provide a Give It Up route, where a consumer who forgoes the assistance is free to install without DCR modules. Confirm the module make, model, and listing reference in writing before installation.
+- q: Does PM Surya Ghar require an ALMM-listed inverter?
+  a: Do not conflate the two lists. MNRE's ALMM page publishes solar PV module and cell lists, not an inverter list. The scheme's technical annexure requires inverters to comply with the Solar Photovoltaic Inverters Quality Control Order and the applicable BIS and IEC standards, and requires anti-islanding protection and integrated MPPT. Verify the exact model documents against your DISCOM's checklist rather than assuming.
+- q: How long does the subsidy take to reach my bank account?
+  a: The MNRE guidelines fix one clock on this stage. Central assistance is processed within 15 days of approval by the concerned DISCOM. Everything before that, including feasibility, installation, net meter fitment, and physical inspection, runs on state and DISCOM timelines that the guidelines do not standardise. The assistance is released after you redeem the e-token on the national portal.
+- q: Does the inverter size change the subsidy amount?
+  a: No. The MNRE guidelines state that central assistance is calculated on the rated DC capacity of the installed solar modules, irrespective of the inverter rating. A larger or smaller inverter does not raise or lower the slab. The inverter must still meet the minimum technical specifications published by MNRE, and the DISCOM checks this at inspection.
+- q: Can a housing society claim under the scheme?
+  a: Yes, for common facilities. The guidelines allow ₹18,000 per kWp for group housing society and resident welfare association common facilities, including EV charging, up to 500 kWp at 3 kWp per house. That upper limit includes individual rooftop plants already installed by residents. The society connection must be dedicated to common facilities and must not supply individual homes.
+- q: Do state subsidies stack on top of the central amount?
+  a: They can, where a state offers one. The MNRE guidelines permit State and UT governments to supplement the central assistance, subject to adherence to scheme guidelines and integration of the state component with the national portal. The guidelines also make a signed MoU between MNRE and the state a condition for releasing additional state subsidy. Amounts, eligibility, and budget availability differ by state, so confirm with your state nodal agency.
+- q: Is an off-grid or battery system eligible?
+  a: Off-grid installations are not eligible for central assistance under the scheme. Grid-connected systems that do not export, including battery hybrid systems, can be eligible subject to approval by the state electricity regulatory commission, with the DISCOM verifying reverse power relay protection. Adding a battery does not create a separate grant, because assistance is still calculated on installed module capacity.
+- q: What happens if I already took a rooftop subsidy earlier?
+  a: You can claim only on the balance capacity, and only up to 3 kW of overall plant size. The guidelines give a worked case, a household with 1 kW under Phase II that expands to 4 kW can claim on the additional 2 kW, which is ₹48,000. A system is eligible for assistance only once after installation. A relocated or shifted system is not eligible.
+seoTitle: 'PM Surya Ghar 2026: Slabs, Eligibility, Process, Timelines'
+relatedSlugs:
+- pm-surya-ghar-eligibility
+- pm-surya-ghar-documents-required
+- pm-surya-ghar-rejection-reasons
+- empanelled-vendor-pm-surya-ghar
 ---
 
-Every month, millions of Indian homeowners pay electricity bills that could be zero (or very close to zero) under a scheme that's been running since February 2024. [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/) is the Government of India's largest-ever residential rooftop solar subsidy: up to ₹78,000 per household, plus 300 free units a month from a 3 kW system. Awareness is patchy. Applications lag targets. And many homeowners who do apply lose their claim over one avoidable error: an inverter that isn't on the MNRE [ALMM list](/glossary/almm-list/).
+Most guides on PM Surya Ghar: Muft Bijli Yojana stop at one number, ₹78,000. It is a real number. It is also the least useful fact about the scheme.
 
-This guide covers the subsidy slabs, eligibility, the five-step application, state top-ups, the common mistakes, and what to look for in an inverter so the claim actually clears.
+The number that decides your outcome is different. It is whether your records line up with what the Ministry of New and Renewable Energy (MNRE) guidelines actually require. Your consumer account, roof, modules, vendor, and bank details all have to agree. Applications rarely fail on the slab. They fail on a mismatch nobody checked before the installer arrived.
+
+This guide walks the scheme as a procedure. It covers who qualifies, who is excluded by design, and the published slabs with the date they were set. It follows the journey from the national portal through **DISCOM** (distribution company) feasibility to inspection and disbursal. It sets out the documents each stage demands, where the timeline stalls, how state top-ups stack, and why applications get rejected.
+
+There is a worked example of the arithmetic. There is also the part nobody sells you, which is what the scheme does not pay for. Qbits publishes this as a reference, not as an application page. Apply on the official national portal, and confirm everything against your own DISCOM.
 
 > **TL;DR**
-> - [PM Surya Ghar](/blog/pm-surya-ghar-whats-working/) gives a central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, capped at ₹78,000 for a 3 kW or larger system.
-> - Only [ALMM-listed](/glossary/almm-list/) inverters and panels qualify - a non-ALMM inverter is the single most common reason claims get rejected.
-> - The application follows five steps: portal registration, DISCOM feasibility approval, empanelled-vendor installation, smart-meter commissioning inspection, and bank-detail upload for disbursement.
-> - Several states (Gujarat, Maharashtra, UP, Tamil Nadu, Karnataka) add ₹10,000-₹30,000 on top of the central amount.
-> - The CAPEX (self-owned) model captures the full subsidy and 25-year savings; the RESCO model usually does not pass the subsidy to the homeowner.
-> - Payback after subsidy typically runs 2-3 years, with 25-year savings of ₹7-10 lakh on a 3 kW system.
+> - Central assistance is ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third, capped at ₹78,000 (MNRE, 2024).
+> - Special-category States and UTs use ₹33,000 and ₹19,800 per kWp, capping at ₹85,800 (MNRE, 2024).
+> - Nothing is paid beyond 3 kWp. A 6 kW system still gets ₹78,000, per the guidelines' own illustration.
+> - The Domestic Content Requirement (DCR) is absolute. Non-DCR modules in any form make the installation ineligible (MNRE, 2024).
+> - Only one timeline is fixed centrally. Assistance is processed within 15 days of DISCOM approval (MNRE, 2024).
+> - More than 33 lakh systems were installed and over ₹22,750 crore disbursed as of May 2026, according to the Press Information Bureau (PIB, 2026).
+> - Off-grid systems, non-residential connections, and relocated systems are excluded by design.
 
-> **[PM Surya Ghar](https://quickestimate.co/blog/what-is-pm-surya-ghar-yojana) Muft Bijli Yojana** is the Government of India's flagship residential rooftop solar scheme, launched in February 2024 with a target of one crore (10 million) households by March 2027. It provides a central subsidy of ₹30,000 per kW for the first 2 kW and ₹18,000 per kW for the third kilowatt (up to a maximum of ₹78,000) paid directly into the homeowner's bank account after installation and grid commissioning.
+**Short version.** PM Surya Ghar: Muft Bijli Yojana is MNRE's central scheme for grid-connected residential rooftop solar. It pays ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third, capped at ₹78,000 in general-category states. You apply on the national portal, pick a registered vendor, and install with DCR modules. The DISCOM then inspects and meters the system, and you redeem an e-token for direct transfer.
 
-The scheme replaces the earlier Grid Connected Rooftop Solar Programme Phase II, sits inside MNRE's broader [rooftop solar scheme](/blog/mnre-rooftop-solar-scheme/) architecture, and operates through a single national portal at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/), co-ordinated by [MNRE](https://mnre.gov.in/) and implemented through state DISCOMs. Understanding the scheme from end to end (not just the subsidy headline) is what separates a successful application from a stalled one.
+## Who the scheme covers, and who it excludes
 
-## What PM Surya Ghar Is: and What It Means for Your Electricity Bill
+Eligibility is narrower than most quotes suggest. The MNRE guidelines define an eligible plant as a grid-connected solar system tagged to a particular residential power connection of the local DISCOM. It must sit on a roof, terrace, balcony, or on top of an elevated structure. Building Integrated Photovoltaics (BIPV) also qualifies. Everything outside that definition is out.
 
-PM Surya Ghar Muft Bijli Yojana is not a discount coupon or a promise of free hardware. It is a direct benefit transfer: after you install an approved rooftop solar system through an approved process, the government reimburses a fixed amount into your bank account. The solar system itself then generates electricity for the next 25 years, offsetting your monthly bill through [net metering](/glossary/net-metering/).
+The exclusions are explicit in the guidelines (MNRE, 2024):
 
-The "muft bijli" (free electricity) headline refers to an estimated 300 units per month that a 3 kW system generates under average Indian sunlight conditions, roughly matching the monthly consumption of a typical 2–3 BHK home. If you consume less than you generate, the surplus flows back to the grid and your [DISCOM](/glossary/discom/) credits it against future bills. If you consume more, you pay only the shortfall.
+- No assistance for non-residential segments, which covers government, commercial, and industrial connections.
+- Off-grid installations are not eligible.
+- A system that is shifted or relocated after installation is not eligible.
+- Assistance is available only once after installation.
+- RESCO (renewable energy service company) and utility-led or state-led aggregation models fall outside these guidelines, which deal with **capex mode** only.
 
-### The Electricity Bill Maths for a Typical Indian Home
+Group net metering and virtual net metering installations are eligible. The array must still sit on a permitted structure, and the DISCOM must approve the metering arrangement. Group housing societies and resident welfare associations (RWAs) have their own route for common facilities. Our [eligibility breakdown](/blog/pm-surya-ghar-eligibility/) goes deeper on the edge cases.
 
-Consider a homeowner in Pune paying ₹8,000 per month on a 600-unit consumption pattern at an average tariff of around ₹8 per unit. A 3 kW rooftop solar system would generate approximately 360–420 units per month in Maharashtra's sunlight conditions. After netting off exports and consumption:
+## Central assistance slabs, and the date they were set
 
-- **Monthly bill reduction:** ₹2,900–₹3,360 (accounting for export credits and fixed charges)
-- **Annual saving:** ₹35,000–₹40,000
-- **Gross system cost (3 kW, 2026 market rate):** ₹1,50,000–₹1,80,000
-- **PM Surya Ghar subsidy:** ₹78,000
-- **Net cost to homeowner:** ₹72,000–₹1,02,000
-- **Payback period after subsidy:** 2–3 years
-- **25-year saving:** ₹7 lakh to ₹10 lakh
+**Central Financial Assistance (CFA)** is calculated on installed solar module capacity, not on what you paid. The rates below took effect from 13 February 2024, per the [MNRE operational guidelines for the residential CFA component](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) (MNRE, 2024). MNRE reserves the right to amend them. Treat any slab you read online, including this one, as a figure to re-verify on the portal.
 
-Those numbers explain why the scheme received over 1.5 crore registrations within 18 months of launch, according to data tracked by [Mercom India](https://www.mercomindia.com/). Homeowners who want to sanity-check their own roof before applying can run the numbers through a solar cost and savings calculator to see the payback range for their specific bill and roof size. The financial case, even without subsidies, is compelling. With the subsidy, it is close to irresistible for anyone who owns their roof.
-
-> **₹75,000 crore.** The total outlay of PM Surya Ghar Muft Bijli Yojana (India's single largest rooftop solar scheme) announced at scheme launch in February 2024. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
-
-## Subsidy Amounts by System Size
-
-The central subsidy under PM Surya Ghar is structured in two slabs, with a hard cap at 3 kW regardless of the size of system you install. The table below shows the exact amounts for the 2026 scheme year; for an interactive breakdown by exact system size and state, use the [PM Surya Ghar subsidy calculator](/blog/pm-surya-ghar-subsidy-amount/).
-
-| System Size | Subsidy Rate | Central Subsidy | Free Units per Month (approx.) |
-| --- | --- | --- | --- |
-| 1 kW | ₹30,000 per kW | ₹30,000 | 100 units |
-| 2 kW | ₹30,000 per kW | ₹60,000 | 200 units |
-| 3 kW | ₹30,000 for first 2 kW + ₹18,000 for third kW | ₹78,000 | 300 units |
-| Above 3 kW | Capped at 3 kW subsidy | ₹78,000 | Varies by size |
-
-**Key point:** Installing a 5 kW or 10 kW system does not increase your subsidy beyond ₹78,000. The scheme is designed to bring the 1–3 kW residential segment within financial reach of the middle class, not to subsidise large systems. Larger systems are fully eligible for net metering, just without additional central subsidy.
-
-For group housing societies and RWAs applying for common-area solar, the rate is ₹18,000 per kW up to a maximum of 500 kW, applicable to common-area lights, pumps, lifts, and other shared loads.
-
-### Why the 3 kW Cap Makes Economic Sense
-
-The 3 kW cap aligns with the consumption profile of a typical Indian household. According to [JMK Research](https://jmkresearch.com/) analysis of residential solar adoption in India, over 70% of residential rooftop installations in the sub-5 kW segment fall between 2 kW and 4 kW. A 3 kW system covers the electricity needs of most 2–4 BHK homes with air conditioning. Going beyond 3 kW often means exporting a large surplus at the (usually lower) export tariff, which reduces returns. For most homeowners, 3 kW is the economically optimal size, which is exactly where the subsidy cap sits.
-
-## Who Qualifies for PM Surya Ghar
-
-Eligibility criteria are broader than most homeowners assume. The scheme is deliberately inclusive, with no income cap, a deliberate policy choice by MNRE to avoid the administrative overhead of means testing at scale.
-
-- **Residential electricity consumer**: your connection must be classified as domestic/residential by your DISCOM. Commercial, industrial, and agricultural connections do not qualify for the household subsidy.
-- **Valid DISCOM connection**: you must have an active metered electricity account. Off-grid households without a DISCOM connection are not eligible, though they may qualify for separate MNRE off-grid schemes.
-- **Ownership or NOC**: you must own the property where the solar system will be installed, or hold a valid no-objection certificate from the Resident Welfare Association if you are an apartment owner. Tenants are not eligible without the property owner's involvement.
-- **No prior subsidy on the same connection**: the scheme allows one subsidy claim per electricity consumer number. If your connection has already received a PM Surya Ghar or Phase II RCTS subsidy, it is not eligible again.
-- **Empanelled vendor and ALMM equipment**: the installation must be carried out by a DISCOM-empanelled vendor using [ALMM](/glossary/almm-list/)-listed inverters and panels. This is the single most common cause of rejected claims - the full breakdown of [why empanelled vendor status matters](/blog/empanelled-vendor-pm-surya-ghar/) is worth reading before you sign anything.
-
-For a line-by-line look at who exactly qualifies (age, ownership type, connection category, and the edge cases DISCOMs flag most), see the dedicated [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/).
-- **Sanctioned load compatibility**: your DISCOM will verify that the proposed solar capacity does not exceed your sanctioned load. If needed, you can apply to increase your sanctioned load first.
-
-There is no requirement that you be a first-time solar buyer, no restriction on which Indian state you live in (all 28 states and 8 union territories are covered), and no minimum bill amount threshold. Even households with modest bills can benefit if they have a south-facing roof and ownership.
-
-## The 5-Step PM Surya Ghar Application Journey
-
-The most common reason applicants lose their subsidy is not ineligibility, it is procedural error. The application must follow a specific sequence. Deviating from that sequence (for example, installing the system before getting DISCOM feasibility approval) can invalidate the entire claim.
-
-### Step 1: Register on the National Portal
-
-Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and create an account using your mobile number, state, and DISCOM name. You will need your electricity consumer number from your bill. The portal sends an OTP to your registered mobile. Complete Aadhaar-based e-KYC through the portal.
-
-**Documents needed at this stage:** Electricity bill (consumer number and DISCOM name), Aadhaar number, mobile number linked to Aadhaar. A full checklist for every stage of the journey, not just registration, is in the [PM Surya Ghar documents required guide](/blog/pm-surya-ghar-documents-required/).
-
-**Time:** 15–30 minutes if documents are ready.
-
-### Step 2: Submit Application and Obtain DISCOM Technical Feasibility Approval
-
-After registration, submit the formal application with your proposed system capacity, roof area, and sanctioned load. The DISCOM reviews whether the grid can absorb additional generation at your connection point and confirms the technical feasibility.
-
-**Documents needed:** Electricity bill, property ownership proof (sale deed, property tax receipt, or society share certificate), rooftop photographs (minimum 2 clear images showing the roof area), and for flat owners, the RWA no-objection certificate.
-
-**Time:** MNRE mandates 15 days for DISCOM feasibility review. In practice, it ranges from 7 days in Gujarat and Maharashtra to 30 days in states with higher application backlogs.
-
-**What can go wrong:** Some DISCOMs return applications citing low sanctioned load. If this happens, apply for a load enhancement simultaneously, it usually takes 7–15 additional days.
-
-### Step 3: Select an Empanelled Vendor and Install the System
-
-Once you receive DISCOM feasibility approval (the portal shows a green status update), you can select a vendor. The portal lists all empanelled vendors by state and district, with contact details. If you want an independent second opinion on roof layout or shading before locking in a vendor's design, national EPCs such as Heaven Green Energy's residential solar service will assess a roof outside the DISCOM's empanelled list too.
-
-**Critical check before signing any contract:**
-- Verify the vendor's empanelment status on the portal, not on their brochure or calling card.
-- Confirm the specific inverter model proposed is on the [ALMM inverter list at MNRE](https://mnre.gov.in/almm-list/).
-- Confirm the panel brand and model is on the ALMM panel list.
-- Get a written quote detailing model numbers, serial numbers, and system capacity.
-
-**Time:** Installation typically takes 1–3 days for a residential 1–5 kW system once materials arrive. Material procurement by the vendor adds 3–14 days depending on location.
-
-### Step 4: Smart Meter Installation and DISCOM Commissioning Inspection
-
-After installation, you or your vendor must notify the DISCOM to schedule the commissioning inspection. A DISCOM engineer visits the site to verify that the system matches the approved specifications, all safety requirements are met (earthing, AC/DC isolators, protection relays), and a bidirectional smart meter has been installed.
-
-The [bidirectional meter](/glossary/bidirectional-meter/) is essential, it records both the power you draw from the grid and the power you export. Without it, net metering credits cannot be applied to your bill.
-
-**Documents verified at inspection:** Inverter serial number (cross-checked against ALMM list), panel serial numbers, commissioning report from the vendor, single-line diagram, and earthing test report.
-
-**Time:** DISCOM inspection typically occurs within 7–15 days of notification. The smart meter, if supplied by the DISCOM, may add 15–45 days in states with procurement delays. This is the most variable step in the journey.
-
-### Step 5: Upload Commissioning Report and Bank Details for Subsidy Disbursement
-
-After the DISCOM issues the commissioning certificate (a formal document confirming the system is commissioned and the meter is functioning), log back into the portal and upload:
-
-- Commissioning certificate issued by DISCOM
-- Vendor installation invoice
-- Bank account details (preferably the account linked to your Aadhaar)
-- A signed NACH mandate (bank auto-debit form), used by MNRE for future communications, not for deducting money
-
-MNRE then verifies the documents and initiates direct bank transfer. The portal shows a disbursement status tracker - see the [PM Surya Ghar status check guide](/blog/pm-surya-ghar-status-check/) for exactly what each tracker stage means and how to escalate a stuck application.
-
-**Time:** 30–60 days from document submission to bank credit in most states.
-
-**Pro tip:** Ensure your bank account number and IFSC on the portal exactly match your passbook or cancelled cheque. A single digit mismatch causes the transfer to fail and adds 30–45 days to the process.
-
-> **30 days.** The MNRE-mandated maximum time from commissioning report submission to subsidy disbursement into the homeowner's bank account. Real-world averages run 45–60 days in most states as of 2026. *Source - [PM Surya Ghar National Portal](https://pmsuryaghar.gov.in/), MNRE, 2026.*
-
-## State-Wise Additional Subsidies on Top of the Central Amount
-
-The central ₹78,000 subsidy is the floor, not the ceiling. Several state governments have announced additional state subsidies that significantly improve the economics for residents of those states. The table below reflects 2025–2026 state scheme data, always verify with your State Nodal Agency before finalising your budget, as amounts and eligibility criteria are revised annually.
-
-| State | Additional State Subsidy | Eligibility Notes |
+| Segment | General States and UTs | Special-category States and UTs |
 | --- | --- | --- |
-| Gujarat | ₹10,000–₹20,000 per kW (up to 3 kW) | Available through GEDA; open to all residential applicants |
-| Maharashtra | ₹15,000 per kW (up to 3 kW) | Priority for EWS and LIG categories; MSEDCL connection required |
-| Uttar Pradesh | ₹15,000 per household (flat rate) | Available under state solar policy; UPPCL/PVVNL/DVVNL connections |
-| Tamil Nadu | ₹20,000–₹30,000 (flat amount, varies by district) | TANGEDCO connection; subject to annual budget allocation |
-| Karnataka | ₹20,000 per household | BESCOM and MESCOM areas; subject to annual allocation |
+| First 2 kWp, or part thereof | ₹30,000 per kWp | ₹33,000 per kWp |
+| Additional 1 kWp, or part thereof | ₹18,000 per kWp | ₹19,800 per kWp |
+| Capacity beyond 3 kWp | No additional CFA | No additional CFA |
+| Group housing society (GHS) or RWA common facilities, including EV charging, up to 500 kWp at 3 kWp per house | ₹18,000 per kWp | ₹19,800 per kWp |
 
-When central and state subsidies combine, the effective subsidy for a 3 kW system can reach ₹1,20,000–₹1,40,000 in Gujarat and Maharashtra, cutting payback periods to under two years in high-tariff urban areas. [Bridge to India](https://bridgetoindia.com/) analysis shows Gujarat consistently ranks first in residential rooftop adoption, with combined subsidy generosity a leading factor.
+The guidelines name the special-category States and UTs. They are Uttarakhand, Himachal Pradesh, Jammu and Kashmir, Ladakh, and the North Eastern states including Sikkim. The UTs of Andaman and Nicobar Islands and Lakshadweep are also on that list (MNRE, 2024).
 
-States without a separate additional subsidy (Rajasthan, Delhi, West Bengal) still benefit from the full central ₹78,000 amount and from state-level net metering regulations that allow homeowners to earn credit on surplus generation.
+Two points get missed. First, the slab is driven by module capacity, not inverter rating. Assistance is calculated on the rated DC capacity of the module system, irrespective of inverter size. Second, the RWA ceiling includes individual rooftop plants already installed by residents in that society.
 
-## The ALMM Requirement: Why Your Inverter Brand Determines Subsidy Eligibility
+## Worked example: how the arithmetic actually runs
 
-This section matters more than almost any other in this guide. Many homeowners invest months navigating the PM Surya Ghar application, only to have their subsidy claim rejected at the final step because the installer used a non-ALMM inverter.
+This is a worked example using published MNRE figures. It is arithmetic, not a quotation, and not a prediction of your approval.
 
-The Approved List of Models and Manufacturers ([ALMM](/glossary/almm-list/)) is maintained by [MNRE](https://mnre.gov.in/almm-list/) and lists the specific inverter and panel models that have passed India's technical qualification requirements. The list is updated quarterly. Being on the ALMM is not automatic, manufacturers must apply, submit detailed technical documentation, pass third-party testing, and maintain compliance with MNRE's performance standards.
+**Inputs.** General-category state. Installed module capacity 3 kWp. MNRE **benchmark cost** of ₹50,000 per kW for the first 2 kW and ₹45,000 for the additional kW (MNRE, 2024).
 
-### Why ALMM Exists
+**Formula.** CFA = (first 2 kWp × ₹30,000) + (next 1 kWp × ₹18,000), with nil beyond 3 kWp.
 
-The ALMM was created to prevent low-quality, uncertified equipment from entering India's solar supply chain under the cover of government-subsidy schemes. Before ALMM, the market saw a proliferation of sub-standard inverters (often relabelled Chinese products without genuine BIS certification or adequate warranty backup) being installed in subsidy-funded projects. ALMM creates a minimum quality threshold.
+1. First 2 kWp: 2 × ₹30,000 = ₹60,000.
+2. Third kWp: 1 × ₹18,000 = ₹18,000.
+3. Total CFA = ₹78,000.
+4. Benchmark reference cost: (2 × ₹50,000) + (1 × ₹45,000) = ₹1,45,000.
+5. CFA as a share of benchmark: ₹78,000 ÷ ₹1,45,000 = 53.8%.
 
-### What ALMM Compliance Means for Homeowners
+Now change one input. Keep the state, raise capacity to 5 kWp. CFA stays ₹78,000, because the slab stops at 3 kWp. Assistance per kWp falls from ₹26,000 to ₹15,600. That is the real decision point for anyone sizing above 3 kWp.
 
-- **Subsidy eligibility:** Non-ALMM inverter = subsidy rejected. No exceptions.
-- **Quality floor:** ALMM-listed inverters have passed [BIS testing](/glossary/bis-certification/) and MNRE technical scrutiny. You get a product that has been independently verified.
-- **Warranty enforcement:** ALMM-listed manufacturers have submitted performance and warranty commitments to MNRE. This gives homeowners an additional layer of protection.
-- **Resale value:** A home with an ALMM-documented solar system is easier to sell than one with unverifiable equipment.
+The benchmark cost derives the slab. It is not a price control and not what your vendor will quote. There is no tendering or rate discovery by DISCOMs, and rates are mutually decided between consumer and registered vendor.
 
-### How to Verify Before Installation
+## The application journey, step by step
 
-1. Go to [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/) (or the PM Surya Ghar portal's equipment search).
-2. Search for the exact model name and wattage the installer is proposing.
-3. Confirm the listing is active (some older listings expire; always check the current revision date).
-4. Note the model number on the equipment delivered matches the ALMM listing before installation begins.
+The whole scheme runs through one [national portal](https://pmsuryaghar.gov.in/). There is no offline route for claiming assistance. The sequence below follows the method of implementation set out in the MNRE guidelines (MNRE, 2024).
 
-For more on why certifications matter beyond subsidy, read the [solar inverter certifications guide](/blog/solar-inverter-certifications/) on this blog.
+1. **Register on the national portal** with a valid consumer account number for your distribution utility. The portal generates an application ID.
+2. **Choose a vendor registered on the portal.** The guidelines require this. There is no DISCOM tendering. The portal carries vendor profiles, ratings, and consumer feedback for comparison.
+3. **Agree design and commercial terms in writing.** Design, components, and payment schedule are mutually decided. The guidelines attach a sample consumer and vendor agreement.
+4. **Clear feasibility.** Under the Electricity (Rights of Consumers) Rules, 2020, applications up to 10 kW are deemed accepted without DISCOM technical feasibility approval. Until your state regulator or DISCOM operationalises that provision, you upload documents and wait as per state rules.
+5. **Install.** The registered vendor supplies, installs, tests, runs safety checks, and briefs you on maintenance.
+6. **Update the portal.** You submit installation details and upload documents, including geo-tagged photographs. The vendor can assist, but the consumer login holds the rights.
+7. **DISCOM inspection and metering.** The DISCOM inspects against a checklist, installs the meter, and signs the metering agreement. It can approve, return the file, or reject with justification.
+8. **Redeem the e-token.** An **e-token** is generated at application and activated after inspection with the eligible amount. You redeem it from your portal profile, and assistance is released to your account.
 
-## Common Application Mistakes: and How to Avoid Them
+Vendor selection quietly decides the rest. Our [registered vendor checklist](/blog/empanelled-vendor-pm-surya-ghar/) covers verification, and the [application walkthrough](/blog/pm-surya-ghar-apply-online/) covers portal mechanics.
 
-The PM Surya Ghar portal logs millions of applications. DISCOM officers and scheme administrators report the same cluster of errors repeatedly. Here are the ones most likely to delay or deny your claim; if your claim has already been turned down, the [PM Surya Ghar rejection reasons guide](/blog/pm-surya-ghar-rejection-reasons/) walks through how to appeal each scenario.
+## Documents you need at each stage
 
-- **Installing before DISCOM feasibility approval**: The DISCOM must approve your application before physical installation begins. Installing first means the system may not qualify for commissioning under the scheme, and the subsidy is denied. Always wait for the green status on the portal.
-- **Using a non-empanelled vendor**: Only vendors on the DISCOM's empanelled list are eligible to execute PM Surya Ghar installations. Verify empanelment on the portal (not on business cards or social media). Schemes like "we handle everything" from unverified vendors should trigger immediate caution.
-- **Non-ALMM inverter or panels**: The single most common cause of final-step claim rejection. Verify model numbers against the MNRE ALMM list yourself, not just from the vendor's word.
-- **Sanctioned load mismatch**: If the proposed system capacity exceeds your sanctioned load, the DISCOM rejects the technical feasibility. Apply for load enhancement first, or size the system within the existing sanctioned load.
-- **Bank account mismatch**: The bank account submitted on the portal must match the account holder's name exactly as it appears in the bank's records. Discrepancies (for example, initials vs full name) cause disbursement failures.
-- **Missing the commissioning window**: Some DISCOMs close the commissioning queue for certain periods due to staff constraints or budget cycles. Coordinate with your vendor on timing to avoid delays.
-- **Skipping the NACH mandate**: The portal requires a signed NACH mandate even though the subsidy is a one-time credit. Skipping this step stalls disbursement.
-- **Uploading blurry or incomplete documents**: Portal verification requires legible documents. Electricity bills must show the consumer number clearly. Property documents must be clear enough to read the survey or flat number.
+Documents arrive in waves, and each wave has a different owner. Confusing them stalls files. At application you supply identity and connection records. After installation your vendor supplies technical records. At disbursal your bank record has to survive a check.
 
-For a broader look at inverter selection beyond just subsidy compliance, the [solar inverter selection guide](/blog/solar-inverter-selection/) covers capacity sizing, MPPT configuration, and India-specific grid requirements.
-
-## Net Metering After Installation: Your Monthly Export Earnings
-
-Once your PM Surya Ghar system is commissioned, the financial relationship with your DISCOM changes fundamentally. You move from being a pure electricity consumer to a prosumer, someone who both consumes and produces electricity.
-
-[Net metering](/glossary/net-metering/) is the billing mechanism that makes this work. Your bidirectional smart meter records:
-- **Import units:** Power you drew from the grid (typically during mornings, evenings, and nights when your solar is not generating enough)
-- **Export units:** Power you sent to the grid (typically during the midday solar peak when generation exceeds consumption)
-
-At the end of each billing cycle, the DISCOM subtracts export units from import units. You pay only for the net difference, if any, plus fixed charges. In many cases (especially in summer months with long daylight hours) a well-sized system produces a credit that carries forward to the next month.
-
-### What Export Tariffs Look Like in 2026
-
-Export (feed-in) tariffs vary by state and DISCOM, set by State Electricity Regulatory Commissions (SERCs). Most fall between ₹2.50 and ₹5 per unit exported. This is typically lower than the retail import tariff you pay, which is why self-consumption (using your own solar generation directly) is more valuable than exporting. Design your system and consumption behaviour to maximise self-consumption.
-
-For a detailed state-by-state breakdown of net metering regulations, tariffs, and banking rules, refer to the [net metering India complete guide](/blog/net-metering-india-complete-guide/), a companion post to this one.
-
-### The Free 300 Units Claim: What It Actually Means
-
-The scheme's "300 free units per month" headline is an approximation based on average generation from a 3 kW system under India's solar irradiance conditions. Peak Sun Hours across India average 4.5–5.5 hours per day, giving a 3 kW system approximately 4,050–4,950 kWh per year, or 338–413 units per month.
-
-Whether this translates to a zero bill depends on:
-- **Your monthly consumption**: if you consume 200 units and generate 350, the surplus carries forward
-- **Fixed charges**: DISCOMs levy a monthly fixed/demand charge that continues regardless of generation; this component does not go to zero
-- **Export tariff vs retail tariff gap**: if export tariff is ₹3 and import tariff is ₹8, consuming solar directly saves more than exporting
-
-For payback period calculations and a detailed financial model under different tariff and consumption scenarios, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) walks through the complete maths.
-
-## CAPEX Model vs RESCO Model for PM Surya Ghar
-
-PM Surya Ghar can be accessed through two fundamentally different financing structures. Understanding the difference before you sign anything is critical, they have very different implications for subsidy eligibility, ownership, and long-term returns.
-
-| | CAPEX Model | RESCO Model |
+| Stage | Who supplies it | What it covers |
 | --- | --- | --- |
-| **Who owns the system** | Homeowner (you) | RESCO company |
-| **Upfront cost** | Full system cost (minus subsidy) | Zero or very low |
-| **Subsidy eligibility** | Yes - full ₹78,000 to homeowner | Limited - subsidy goes to RESCO, not homeowner |
-| **Monthly commitment** | None (only grid fixed charges) | Monthly lease or per-unit PPA charge |
-| **Electricity savings** | Full savings accrue to you | Savings shared with RESCO per contract |
-| **System maintenance** | Your responsibility (or service contract) | RESCO's responsibility |
-| **25-year return** | High - all savings and export credits are yours | Lower - RESCO retains share of benefit |
-| **Exit flexibility** | High - you own the asset | Low - long-term contract (typically 15–25 years) |
-| **Best for** | Homeowners with capital or loan access | Homeowners who cannot arrange upfront finance |
+| Application | Consumer | Consumer account number for the DISCOM, latest electricity bill, and the documents your state requires for feasibility |
+| Post-installation | Vendor | Technical specifications, IEC and BIS test reports, equipment serial numbers, warranty cards for modules and inverter, layout and electrical single line diagram, structure drawings, cable details |
+| Portal update | Consumer, with vendor help | Installed system details, signed project completion report, geo-tagged pre and post installation photographs |
+| Inspection | DISCOM | Checklist inspection record, meter installation, signed metering agreement |
+| Disbursal | Consumer | Bank account details plus a cancelled cheque image, bank e-statement, or passbook scan certifying the account is yours, and loan account details if financed |
 
-**The [CAPEX](/glossary/capex/) model is strongly preferred for PM Surya Ghar** because the central subsidy is designed for owner-installers. Under a [RESCO](/glossary/resco/) arrangement, the subsidy technically belongs to whoever is the registered applicant, and in most RESCO contracts, that is the RESCO company, not the homeowner. Read the contract carefully before proceeding with any RESCO offer that claims to "pass on the subsidy to you."
+The guidelines are specific. The vendor must hand you those technical documents and help upload them. A vendor who refuses is a signal, not an inconvenience. The full [document checklist](/blog/pm-surya-ghar-documents-required/) lists state-level variations.
 
-**Pros of CAPEX:**
-- ✓ Full ₹78,000 subsidy lands in your account
-- ✓ Full long-term savings (₹7–10 lakh over 25 years) accrue to you
-- ✓ Asset adds value to the property
-- ✓ No monthly fixed payment obligation
+## Realistic timelines, and where files actually stall
 
-**Cons of CAPEX:**
-- ✗ Requires upfront capital of ₹72,000–₹1,02,000 (after subsidy for a 3 kW system)
-- ✗ Maintenance is your responsibility, choose a vendor with strong after-sales support
-- ✗ Risk of poor vendor service if the installer goes out of business
+Here is the honest position. The MNRE guidelines fix only two clocks. Central assistance is processed within 15 days of DISCOM approval. Grievances raised through the portal, app, or national call centre are to be resolved within 30 days. Every other stage runs on state regulations and DISCOM capacity, which vary widely.
 
-**Pros of RESCO:**
-- ✓ Zero or near-zero upfront cost
-- ✓ Maintenance and monitoring handled by RESCO
-- ✓ Electricity savings from day one without capital outlay
+So the delay is almost never in the 15-day window. It sits in three places.
 
-**Cons of RESCO:**
-- ✗ Central subsidy of ₹78,000 typically does not reach the homeowner
-- ✗ Long-term contracts lock you in for 15–25 years
-- ✗ If RESCO goes bankrupt, you may have an orphaned system on your roof
-- ✗ Returns are significantly lower than CAPEX ownership
+First, feasibility. Where a state has not yet operationalised the deemed-approval provision for systems up to 10 kW, the file waits in a DISCOM queue. Second, inspection and metering. The DISCOM must physically verify the system and fit the meter before the claim can move. In areas where smart metering was awarded under the Revamped Distribution Sector Scheme, the meter must come through the appointed metering service provider. Third, correction loops. A returned file restarts a queue position.
 
-For homeowners who need financing assistance for the CAPEX route, the [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers MNRE's bank partnership programme, which offers concessional home loans for PM Surya Ghar applicants through SBI, Canara Bank, PNB, and Bank of Baroda at subsidised interest rates. Before picking a lender, it's worth comparing rates side by side in the [best bank for a solar loan guide](/blog/best-bank-solar-loan-india-2026/), since IREDA, SBI, and HDFC differ meaningfully on tenure and processing time.
+Track the file yourself rather than relying on your installer's word. The [status check guide](/blog/pm-surya-ghar-status-check/) explains what each portal label means. The [net metering application guide](/blog/how-to-apply-net-metering-india/) covers the metering stage in detail.
 
-## For Installers: Quoting PM Surya Ghar Projects Accurately
+## State top-up subsidies, and how they stack
 
-If you are on the installing side of this scheme rather than the buying side, the subsidy math is where quotes go wrong. The ₹78,000 cap, the slab structure, and the DISCOM-specific net metering rules all have to land in the customer's payback figure correctly, and a spreadsheet that has not been updated since the last slab revision will quietly overstate the return.
+State assistance is a separate layer with separate rules. The MNRE guidelines permit State and UT governments to supplement the central amount for the residential sector. The state framework must align with central support and adhere to scheme guidelines. Disbursement of the state component is to be integrated with the national portal (MNRE, 2024).
 
-Design platforms that ship an Indian tariff and subsidy library handle this at design time instead. Our [solar design software India](/blog/solar-design-software-india/) comparison covers which tools carry IS code libraries, the ALMM module database, INR pricing, and PM Surya Ghar subsidy auto-calculation, and which ones expect you to bolt that on yourself.
+There is a gate on it. MNRE and the State or UT energy department must sign a Memorandum of Understanding first. Without it, no additional state subsidy can be released under the scheme.
 
-## Where Qbits Fits in PM Surya Ghar
+In practice, your total is central plus state, claimed through linked but distinct processes. The state amount depends on where you live and on that state's budget position in the year you apply. Published state figures circulate widely and go stale quickly. Confirm the current amount with your state nodal agency before you sign anything. Our [state-by-state subsidy tracker](/blog/solar-subsidy-2026-all-states/) is the starting point, not the last word.
 
-Qbits Energy inverters are ALMM-listed, which means every Qbits on-grid and hybrid inverter qualifies your PM Surya Ghar installation for the full ₹78,000 central subsidy. Beyond subsidy eligibility, Qbits products are built specifically for Indian grid and weather conditions: they handle the 180–270 V voltage fluctuations common in Tier-2 and Tier-3 DISCOM areas, carry IP66 weather protection for monsoon durability, and come with a 12-year full replacement warranty, more than double the five-year minimum the scheme mandates.
+## Why applications get rejected
 
-The 12-year warranty matters for a PM Surya Ghar installation in a specific way: the system is supposed to run for 25 years. If your inverter fails in year seven and you are dealing with a brand that has a five-year warranty and slow service, you either pay for a replacement or lose generation. Qbits backs every inverter with a sub-72-hour RMA SLA through a network of [authorised service partners](/authorized-service-partners/) across India.
+Rejections cluster around identity, capacity, and equipment. These are not judgement calls by an officer. They are checks against records that either match or do not. Almost every one of them can be caught before the installer reaches your roof, which is the cheapest place to catch them.
 
-Three pages worth bookmarking when you are evaluating Qbits for a PM Surya Ghar installation:
+- **Record mismatch.** Name and details on your Aadhaar, electricity bill, and bank account have to reconcile.
+- **Wrong consumer category.** The connection must be residential. Commercial and agricultural connections are ineligible.
+- **Size against sanctioned load.** A proposal larger than your sanctioned load invites a feasibility problem first.
+- **Non-DCR modules.** Use of non-DCR modules in any form renders the installation ineligible. Paperwork cannot fix this.
+- **Unregistered vendor.** Assistance flows only through vendors registered on the national portal.
+- **Failed inspection.** The DISCOM checks against MNRE minimum technical specifications. Non-compliant equipment holds the claim.
+- **Bank account problems.** A wrong IFSC, or an account that fails the transfer check, stops approved money.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: The TLS and TLD series from 1.5 kW to 50 kW are the natural fit for PM Surya Ghar's subsidised 1–3 kW residential segment. ALMM-listed, BIS-certified, and grid-tuned for every major Indian DISCOM.
-- **[Hybrid Inverters](/hybrid-inverter/)**: The HS and HT series add battery-readiness for homeowners who want backup power alongside the subsidy benefit. ALMM-listed in grid-tie mode.
-- **[Residential Solutions](/residential-solution/)**: A complete system view covering panel, inverter, mounting, and monitoring, packaged for the residential PM Surya Ghar use case.
-- **[Why Qbits](/why-qbits/)**: The full case for choosing an Indian-made, Indian-warranted inverter for a 25-year installation.
+The detailed [rejection reasons guide](/blog/pm-surya-ghar-rejection-reasons/) covers the fix for each.
 
-When you are ready to confirm which Qbits model suits your roof size, sanctioned load, and state DISCOM requirements, [talk to a Qbits engineer](/contact-us/). Most site assessments and system recommendations are returned within 24 hours, and if your installer has already quoted a system, the team can review the design and verify ALMM compliance before you commit.
+## What the scheme does not cover
 
-"Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone."
+This is the section installers skip. PM Surya Ghar is a capital subsidy on residential grid-connected module capacity. It is not a general clean-energy grant. Several claims that get repeated in sales conversations do not survive the guidelines, and each exclusion below is written into them rather than inferred.
 
-## PM Surya Ghar Progress in 2026: Where the Scheme Stands
+**It does not make solar free.** The assistance is a share of a benchmark cost, not the whole invoice. At 3 kWp in a general-category state, ₹78,000 against a ₹1,45,000 benchmark is 53.8%. The rest is yours, and your quote is negotiated.
 
-PM Surya Ghar crossed 1 crore (10 million) registrations on the national portal by early 2026, matching the scheme's target number of registered applicants. However, registrations are not the same as commissioned installations. As of Q1 2026, actual commissioned installations under the scheme stand at approximately 30–35 lakh (3.0–3.5 million) households, according to [Mercom India](https://www.mercomindia.com/) tracking of MNRE data.
+**It does not pay for batteries.** The guidelines allow additional components such as battery storage, small wind hybrids, and trackers. Assistance is still calculated on installed solar module capacity. There is no separate grant for storage. The [battery storage update](/blog/pm-surya-ghar-battery-storage-update/) tracks how this may evolve.
 
-The gap between registrations and commissions reflects several bottlenecks:
+**It does not reward oversizing.** Beyond 3 kWp the central slab is nil.
 
-- **Smart meter shortage**: The transition from conventional meters to bidirectional smart meters is the most cited bottleneck. Several states have smart meter procurement gaps, delaying commissioning even when panels and inverters are installed.
-- **DISCOM capacity constraints**: Engineering inspection teams in smaller districts are understaffed relative to application volumes.
-- **Vendor empanelment gaps**: In Tier-3 and Tier-4 towns, the number of empanelled vendors is still thin, creating geographic access problems.
-- **Consumer education gaps**: Many applicants who registered have not completed the application or selected a vendor, often due to uncertainty about the process.
+**It does not promise a zero bill.** More than 17 lakh households have reached zero electricity bills, according to PIB (2026). That is a count of households, not a forecast for yours. Your outcome depends on consumption, generation, your tariff, and your state's [net metering](/glossary/net-metering/) and settlement rules.
 
-Despite these challenges, India's residential rooftop solar market reached approximately 5 GW cumulative capacity by end of 2025, with PM Surya Ghar driving the largest single-year addition in FY2025, according to [JMK Research](https://jmkresearch.com/). The [CEA](https://cea.nic.in/) electricity data confirms the distributed generation contribution from rooftop solar is now measurable in several state grids.
+**It does not replace warranty diligence.** Registered vendors owe five years of free repairs and maintenance under a **Comprehensive Maintenance Contract (CMC)** from the commissioning date. Manufacturer warranties on components are separate documents, and you should hold them.
 
-The Central Government extended the scheme deadline from its original March 2026 target to March 2027 to allow states to catch up on smart meter and DISCOM readiness. The ₹75,000 crore budget allocation remains intact.
+The scheme is working at volume. Over 1 crore households have registered on the national portal. More than 33 lakh systems were installed as of May 2026, adding over 12 GW. More than ₹22,750 crore had been disbursed, according to a [PIB release on the scheme's second anniversary](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268992) (PIB, 2026). Volume is not certainty for any single file.
 
-### States Leading Installations
+## Where the inverter fits in the compliance chain
 
-Gujarat continues to lead nationally, driven by high retail tariffs, strong GEDA (Gujarat Energy Development Agency) implementation, and combined central-plus-state subsidies. Maharashtra, Rajasthan, and [Andhra Pradesh](/blog/solar-subsidy-andhra-pradesh-2026/) follow. Uttar Pradesh has seen significant growth in FY2025–26 after DISCOM restructuring improved application processing speed.
+Do not conflate the module list with the inverter rules. MNRE's [Approved List of Models and Manufacturers](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) (ALMM) publishes solar PV module and cell lists. It is not an inverter list. The DCR applies to modules made from domestically manufactured cells.
 
-For homeowners in states with lower installation rates, this is actually an advantage: shorter queues, faster DISCOM processing, and less competition for empanelled vendor slots.
+Inverters sit in the scheme's technical annexure instead. It requires compliance with the Solar Photovoltaic Inverters Quality Control Order dated 30 August 2017 and its amendments. It adds the applicable BIS and IEC standards for efficiency measurement and environmental testing. Integrated maximum power point tracking, electromagnetic compatibility, minimum 20% overload capability, anti-islanding protection, and inbuilt data communication are all specified (MNRE, 2024).
 
-## How to Choose the Right System Size Under PM Surya Ghar
+The consequence is simple. Your inverter cannot raise the subsidy, but a non-compliant one can hold it up at inspection. Qbits sells solar inverters, not modules or installation. Its published product documents cite standards including IS 16221, IS 16169, and IEC 62109. Pull the exact model datasheet for your DISCOM rather than relying on a brochure line. Our [on-grid inverter range](/on-grid-inverter/) sets out where each topology fits.
 
-Choosing the right system size is more nuanced than simply picking the maximum subsidised 3 kW. The optimal size depends on your actual consumption, sanctioned load, roof area, and budget.
+## The Bottom Line
 
-### A Simple Sizing Framework
+PM Surya Ghar rewards preparation, not optimism. The slab is fixed and public. What varies is whether your records, your roof, your equipment, and your DISCOM's process align before money is spent. Treat the scheme as a compliance exercise with a subsidy attached, and the file moves.
 
-1. **Find your average monthly consumption**: Look at the last 12 months of electricity bills. Take the average monthly units consumed.
-2. **Apply a solar fraction target**: Most homeowners aim to offset 80–100% of consumption. Divide average monthly units by 120 (approximate units per kW per month in median Indian conditions) to get the kW capacity needed.
-3. **Check against sanctioned load**: Your system should not exceed your sanctioned load. If the calculation suggests 4 kW but your sanctioned load is 3 kW, you either resize or apply for load enhancement.
-4. **Check roof area**: Each kW of solar requires approximately 8–10 square metres of shadow-free south-facing roof. A 3 kW system needs 24–30 sq m.
-5. **Confirm subsidy alignment**: If your calculation gives 2–3 kW, you receive maximum subsidy. If it gives 1 kW, size up to 2 kW if your budget and roof allow, since the per-unit economics improve with size.
-
-For a more detailed technical sizing exercise (including string configuration, MPPT channel requirements, and DC oversizing ratios) the [solar inverter sizing guide](/blog/solar-inverter-sizing/) on this blog covers the engineering side.
-
-A well-sized system is also the most reliable. Oversized systems that export most of their generation earn lower returns due to export tariff gaps. Undersized systems underperform against the subsidy opportunity. Getting sizing right before applying saves months of rework.
-
-For homeowners interested in the complete regulatory and compliance picture around inverter quality, the [solar inverter regulations India 2026 guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) explains how BIS, IEC, and MNRE compliance stack together, and how to verify an inverter before purchase.
-
----
-
-PM Surya Ghar Muft Bijli Yojana is, by any measure, the most significant financial incentive for residential solar in India's history. The numbers are genuine: ₹78,000 in your account, 300 units of generation per month, a 2–3 year payback, and 25 years of largely self-sufficient electricity. The complexity is manageable if you follow the five steps in the correct sequence, verify ALMM compliance before installation begins, and choose an inverter brand with the warranty depth and service network to last the full 25 years.
-
-The subsidy is time-bound. The scheme runs to March 2027. The opportunity to claim it closes when either the budget is exhausted or the deadline passes. For homeowners who have been watching and waiting, the most expensive decision is continuing to delay.
+- Verify three things before you sign anything. Your connection must be residential with a sanctioned load that supports the size. Your Aadhaar, bill, and bank records must reconcile. The quoted modules must be DCR compliant, with make and model written into the contract.
+- Size for your consumption and roof, not for the subsidy table, since the central slab pays nothing above 3 kWp. Confirm your state top-up with the state nodal agency in the same week you apply.
+- Check the exact inverter model documents against your DISCOM's inspection checklist. [Talk to Qbits](/contact-us/) if you need inverter specifications or datasheet support for that submission.

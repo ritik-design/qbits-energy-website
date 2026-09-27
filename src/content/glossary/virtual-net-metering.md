@@ -249,8 +249,6 @@ Virtual net metering lets one solar plant share credits across multiple electric
 
 ## Want VNM for your housing society or institution?
 
-QBits Energy designs and coordinates VNM projects for group housing, schools and multi-site commercial customers across applicable Indian states.
-
 ## Further reading
 
 For how Virtual Net Metering plays out in real projects, these guides go deeper:

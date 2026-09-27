@@ -175,4 +175,4 @@ Malaysia rewards getting the gates right before getting the design right.
 - **Qualify on quota and Maximum Demand first.** Both can kill a project before any engineering happens, and both are knowable early.
 - **Calculate the non-domestic cap, do not estimate it.** At 75 percent of Maximum Demand it can differ threefold between identical buildings.
 - **Produce SLDs your PE will stamp.** If the engineer redraws it, the tool is generating a picture rather than a document.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Malaysian site, or reach the Qbits team [here](/contact-us/) for MS IEC 62109 compliant inverter specification.
+

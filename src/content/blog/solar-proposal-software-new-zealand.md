@@ -172,4 +172,4 @@ New Zealand quoting fails on a rate the customer will never actually receive.
 - **Report the effective achieved rate.** The advertised peak falls in hours when the array generates nothing.
 - **Model the plan, and recommend a better one where it exists.** The spread between plans can beat any hardware decision.
 - **Put storage in the main comparison.** On a time-varying plan it is what makes the peak rate reachable at all.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a New Zealand address, or reach the Qbits team [here](/contact-us/) for AS/NZS 4777.2 compliant inverter and battery specification.
+

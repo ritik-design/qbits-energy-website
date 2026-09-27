@@ -183,4 +183,4 @@ The solar panel shadow effect is physics, not bad luck. Series wiring makes ever
 
 - **Before you install:** get a shading analysis report and a satellite roof measurement, and reject any layout that puts panels inside a midday shadow zone.
 - **If your system underperforms now:** log a clear day's hourly output, find the shade fingerprint, and start with free fixes before buying hardware.
-- **Want a professional shade audit of your roof or existing plant?** [Talk to our engineering team](/contact-us/). We will quantify exactly what your shadows are costing you and the cheapest way to get those units back.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

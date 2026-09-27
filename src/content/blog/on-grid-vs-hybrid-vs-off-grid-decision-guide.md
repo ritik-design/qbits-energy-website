@@ -18,7 +18,7 @@ faqs:
   - q: "Will an on-grid solar inverter provide backup power during a power cut?"
     a: "No. An on-grid (grid-tied) inverter shuts down automatically the moment the grid fails - this is a mandatory anti-islanding safety requirement under IEC 62116 and enforced by every Indian DISCOM. If you experience frequent power cuts lasting more than two hours per day, an on-grid-only system will leave you in the dark during those periods. A hybrid inverter with a battery bank is the correct choice for backup power while still exporting to the grid when the sun shines."
   - q: "Are hybrid inverters eligible for the PM Surya Ghar Muft Bijli Yojana subsidy in India?"
-    a: "PM Surya Ghar subsidies are tied to grid-connected rooftop systems approved by your local DISCOM. Most hybrid inverters qualify because they connect to the grid in the same way as on-grid models. However, the battery component itself is not subsidised - only the solar panels and the inverter qualify. Always confirm with your DISCOM and the installer before purchasing, as subsidy rules can vary by state. Qbits hybrid inverters are ALMM-listed and accepted by most DISCOMs."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How much extra does a hybrid inverter cost compared to an on-grid inverter of the same capacity?"
     a: "A hybrid inverter typically costs 25–40 percent more than an equivalent on-grid model at the inverter level alone. On top of that, you must budget for a battery bank - a 10 kWh lithium iron phosphate (LFP) battery system in India costs roughly ₹70,000–₹1,20,000 in 2026. Total capex for a hybrid system is usually 50–80 percent higher than a comparable on-grid installation. The higher upfront cost is offset by the value of backup power and future energy independence."
   - q: "Can I add a battery to my existing on-grid inverter later?"
@@ -32,10 +32,14 @@ faqs:
   - q: "Which Indian states or regions are best suited to each inverter type?"
     a: "On-grid inverters are the dominant choice in states with reliable grids and strong net-metering policies such as Karnataka, Tamil Nadu, Gujarat, Rajasthan (urban), and Maharashtra. Hybrid inverters are the preferred option in high-outage regions - Uttar Pradesh, Bihar, Jharkhand, Odisha, and parts of West Bengal - where daily power cuts routinely exceed two to four hours. Off-grid systems serve remote rural pockets, agricultural feeders in Rajasthan and Madhya Pradesh, and hilly states such as Himachal Pradesh, Uttarakhand, and the north-eastern states."
   - q: "Does a hybrid inverter work without a battery installed?"
-    a: "Yes, most modern hybrid inverters - including Qbits HS and HT series - can operate in on-grid mode without a battery connected. The battery port remains dormant until you add storage. This means you can purchase a hybrid inverter today for its grid-export capability and add a battery bank in one to three years when your budget allows, without replacing any equipment. This is one of the strongest arguments for choosing hybrid over on-grid if you expect power cuts to worsen or battery prices to continue falling."
+    a: "Many hybrid inverters will run battery-ready, exporting like a grid-tied unit until a battery is added later, but this is a model-specific behaviour rather than a guarantee, so confirm it in the installation manual for the exact unit before you buy on that basis. What does follow in every case is that a hybrid with no battery gives you no backup. The backup function comes from stored energy, so without a battery an outage leaves you with no supply just as an on-grid system would."
   - q: "Is a higher-capacity off-grid system always better for rural use?"
     a: "Not necessarily. Oversizing an off-grid system inflates capex and increases the risk of chronic undercharging, which degrades batteries faster. The correct approach is to calculate actual daily load in watt-hours, add a 20–30 percent buffer, size the battery for two to three days of autonomy, and then size the solar array to reliably recharge the battery even in December when peak sun hours are lowest for your location. A correctly sized 3 kW off-grid system outperforms an oversized 5 kW system with undersized batteries."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Every year, roughly 1.5 million Indian homeowners install a rooftop solar system, and a significant number of them choose the wrong inverter type. Not because the technology is difficult to understand, but because most guides compare only two options: on-grid and hybrid. The [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid) inverter (the workhorse of rural India and remote installations) rarely gets equal treatment in the same article.
 
@@ -47,7 +51,6 @@ This guide covers all three. Whether you are a homeowner in Lucknow frustrated b
 > - [Off-grid](/blog/on-grid-off-grid-antar/) inverters are reserved for locations with no reliable grid, have no net-metering revenue, and carry the longest payback (10–14 years).
 > - The 3-Question Inverter Type Test, grid reliability, power-cut duration, and payback vs independence priority, narrows the decision in about three minutes.
 > - Most Indian homes with cuts over 2 hours/day should choose hybrid; most reliable-grid urban homes should choose on-grid.
-> - Qbits TLS/TLD (on-grid) and HS/HT (hybrid) series are both ALMM-listed with a 12-year full replacement warranty.
 
 > **Direct answer.** For most urban and peri-urban Indian homes with a functioning grid, a [hybrid inverter](/glossary/hybrid-inverter/) is the balanced choice in 2026: it qualifies for PM Surya Ghar subsidies, exports surplus power through net metering, and provides battery backup during outages. On-grid inverters are best when payback speed is the only priority and outages are rare. [Off-grid](https://quickestimate.co/glossary/off-grid-solar) inverters are reserved for locations where no reliable grid connection exists. Use the 3-Question Inverter Type Test below to confirm which category fits you.
 
@@ -99,8 +102,6 @@ The table below benchmarks all three types across the twelve dimensions that mat
 ---
 
 ## The 3-Question Inverter Type Test
-
-This is the proprietary decision framework Qbits uses when a homeowner calls the support line asking which inverter to buy. Three questions, asked in sequence, narrow the choice without ambiguity.
 
 ### Question 1: Does your area have a reliable grid connection?
 
@@ -156,7 +157,6 @@ The [payback period analysis](/blog/solar-inverter-payback-period-in-india/) sho
 | | ✓ Simplest installation and commissioning | ✗ Not suitable for high-outage regions |
 | | ✓ ALMM-listed models available nationally | ✗ Export revenue subject to policy changes |
 
-- **ALMM compliance**: [ALMM-listed](/glossary/almm-list/) on-grid inverters are mandatory for PM Surya Ghar subsidy claims. Confirm your chosen model appears on the current MNRE ALMM list before purchase.
 - **Sizing**: a common mistake is selecting an inverter with a higher [DC oversizing](/glossary/dc-oversizing/) ratio than the local grid allows. Use the [string sizing calculator](/string-sizing-calculator/) to confirm compatibility before you quote.
 - **Grid export limit**: some DISCOMs cap export at 90 percent of sanctioned load. Over-sizing your system beyond this limit generates panels that rarely produce billable units.
 
@@ -274,8 +274,6 @@ The most common hybrid installation mistake is pairing a 5 kW hybrid inverter wi
 
 **Mistake 4: Not verifying ALMM status for subsidy eligibility**
 
-PM Surya Ghar subsidies require that both panels and inverter appear on the current ALMM list published by MNRE. Inverters not on the ALMM list may still be technically sound but will disqualify your installation from subsidy. This affects hybrid inverter buyers in particular, since some battery-integrated models have not yet been listed. The [ALMM list](/glossary/almm-list/) is updated quarterly; always verify before purchase. Qbits TLS, TLD, HS, and HT series are ALMM-listed. Consult the [solar inverter components overview](/blog/solar-inverter-components/) for a broader checklist of what to verify at purchase.
-
 ---
 
 ## How Inverter Type Affects Your Subsidy and Net-Metering Strategy
@@ -294,16 +292,11 @@ For a detailed financial model comparing on-grid and hybrid returns across tarif
 
 ## Where Qbits Fits in the On-Grid vs Hybrid vs Off-Grid Decision
 
-Qbits Energy manufactures both on-grid and hybrid inverters at its Indian facility, the TLS and TLD series for grid-tied applications and the HS and HT series for hybrid. Both ranges are ALMM-listed, carry a 12-year full replacement warranty (the longest standard warranty in the Indian market), and are rated IP66 for weather protection, relevant because Indian rooftop environments combine monsoon humidity, summer heat above 48 °C, and coastal salt exposure. All models include AI-powered WhatsApp monitoring, which sends generation alerts and fault notifications without requiring a separate app install.
-
-The "Built in India, backed in India" commitment translates to a practical service SLA: fault-to-replacement within 72 hours for most Indian pincodes through Qbits' authorised service network.
-
-- **[On-Grid Inverters (TLS/TLD Series)](/on-grid-inverter/)**: 1.5 kW to 50 kW single and three-phase, ALMM-listed, PM Surya Ghar eligible, 98% peak efficiency. Best for grid-reliable zones targeting fastest payback.
-- **[Hybrid Inverters (HS/HT Series)](/hybrid-inverter/)**: battery-ready with automatic grid failover in under 20 ms, dual-MPPT, compatible with LFP and lithium-ion battery banks. Best for high-outage zones or homeowners wanting future battery expansion.
-- **[Residential Solutions](/residential-solution/)**: complete rooftop packages with panel and inverter pairing, DISCOM documentation support, and subsidy filing assistance. For turnkey installation once you have picked your inverter type, Heaven Green Energy's residential solar installation service handles the on-site EPC work.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Residential Solutions](/residential-solution/)**: Ask which equipment and project services are available, then obtain the scope, responsible party, exclusions and fees in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel-string compatibility for your chosen inverter in under 60 seconds before your installer quotes.
 
-If you have run through the 3-Question Inverter Type Test and identified your category but need help selecting the right capacity or confirming subsidy eligibility for your state, [talk to a Qbits engineer](/contact-us/), most site assessments and sizing recommendations come back within 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ---
 
@@ -328,4 +321,3 @@ The inverter type decision is the most consequential choice in a rooftop solar p
 
 For a complete picture of how the financial returns differ once you have identified your type, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) provides state-wise payback estimates for on-grid and hybrid systems under 2026 tariff structures. For the technical specification comparison across capacity sizes, see [3 kW vs 5 kW vs 10 kW inverters](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/). And if you want to understand how [DC oversizing ratios](/blog/dc-oversizing-in-solar/) or [MPPT configuration](/blog/inverter-mppt/) affects your choice within the type you select, both guides are worth reading before you sign an installation contract.
 
-The [why Qbits page](/why-qbits/) explains the engineering and service commitments behind every unit. If you are ready to size your system and get a quote, the [our products page](/our-products/) lists the full range with datasheets, and the [contact page](/contact-us/) connects you to the nearest authorised installer in your district.

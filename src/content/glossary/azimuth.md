@@ -222,8 +222,6 @@ Azimuth angle is the compass direction a solar panel faces. Due south (180°) is
 
 ## Need azimuth-optimised solar design?
 
-QBits Energy designs solar installations with proper azimuth analysis and MPPT allocation for residential, C&I and utility plants across India.
-
 ## Further reading
 
 For how Azimuth plays out in real projects, these guides go deeper:

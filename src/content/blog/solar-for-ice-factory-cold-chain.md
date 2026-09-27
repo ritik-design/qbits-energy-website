@@ -32,6 +32,8 @@ faqs:
 featured: false
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 A 20 tonne per day ice factory in coastal Andhra Pradesh spends Rs 12 Lakh to Rs 16 Lakh a year on electricity. Compressors run around the clock, the bill arrives every month, and the owner treats power cost as a fixed tax on making ice. It is not fixed. Solar for ice factory applications is one of the strongest economics cases in Indian C&I solar. The reason is simple: refrigeration load peaks when the sun is out.
 
 Ice plants and cold chain facilities sit in a rare position. They are energy intensive, so every unit saved is real money. Their heaviest load falls between 10 AM and 5 PM, exactly overlapping solar generation hours. And they already own the one thing most factories lack: built-in thermal storage, because ice and chilled brine hold cold the way a battery holds charge. This guide covers the actual numbers: power per tonne, solar costs in 2026, sizing against compressor loads, and the honest battery tradeoffs for night operation.
@@ -183,8 +185,6 @@ First, use a 3-phase string inverter architecture sized to the daytime block, no
 Second, demand the wide grid voltage window. Indian industrial feeders swing 180 to 270 V on a bad day. A compressor plant adds its own voltage dips every time a big motor starts. Inverters tuned for the Indian grid hold through these dips instead of tripping offline and dumping your solar production right when the plant needs it.
 
 Third, surge only matters off-grid. If you do go hybrid for outage protection, fit soft starters or VFDs on the compressors you want on battery. This cuts inrush from 2.5 to 3 times running current down to 1.2 to 1.5 times. A modest inverter can then carry the load. VFD retrofits on old ammonia compressors also cut running consumption 8 to 15 percent, which shrinks the solar plant you need to buy.
-
-Qbits C&I inverters carry a 12-year full replacement warranty, IP66 enclosures, and 98 percent peak efficiency. Firmware is tuned for the 180 to 270 V Indian grid window, backed by a sub-72-hour RMA service commitment. In a plant where an inverter trip means compressors pulling full tariff power, that service window is the spec that matters.
 
 ## The Tradeoffs: Where Ice Factory Solar Goes Wrong
 

@@ -82,7 +82,7 @@ Panel की I-V curve एक graph है जिसमें x-axis पर volt
 
 <div class="inline-cta">
 <h3>Apni Chhat Ke Liye Sahi MPPT Configuration Chahiye?</h3>
-<p>छत की direction, tilt और shading देखकर हमारे engineers बताते हैं कि आपको single MPPT चाहिए या dual, और कौन सा Qbits model उस layout पर सबसे ज़्यादा units देगा।</p>
+
 <a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Site visit से पहले free consultation, कोई obligation नहीं।</p>
 </div>
@@ -224,7 +224,7 @@ Battery-ready घरों के लिए QBH 5KS48P, QBH 6KS48P और ती
 
 <div class="inline-cta">
 <h3>Battery Backup Ke Saath Solar Chahiye?</h3>
-<p>QBH hybrid series solar tracking, battery charging और backup switchover तीनों एक ही box में करती है, 12-year warranty और IP66 build के साथ।</p>
+<p>QBH hybrid series solar tracking, battery charging और backup switchover तीनों एक ही box में करती है, model-specific written warranty और IP66 build के साथ।</p>
 <a href="/hybrid-inverter/" class="cta-btn">Hybrid Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Load और backup hours बताइए, sizing हम कर देंगे।</p>
 </div>
@@ -248,4 +248,4 @@ MPPT कोई जादुई feature नहीं है, यह एक सा
 
 - अपनी छत की directions और tilt कागज़ पर लिखिए, फिर ऊपर वाली table से तय कीजिए कि कितने MPPT चाहिए।
 - Quote में लिखे panel model और string length पर cold-morning Voc की calculation माँगिए, या [string sizing calculator](/string-sizing-calculator/) पर खुद check कीजिए।
-- Layout confirm करने और अपनी छत के लिए सही Qbits model चुनने के लिए [Qbits engineer से बात कीजिए](/contact-us/), consultation free है।
+[Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।

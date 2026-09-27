@@ -271,8 +271,6 @@ Monocrystalline is now the default cell technology for Indian solar. Mono PERC d
 
 ## Need ALMM-listed monocrystalline modules?
 
-QBits Energy supplies ALMM-listed mono PERC, TOPCon and HJT modules from leading Indian manufacturers for residential, C&I and utility solar.
-
 ## Further reading
 
 For how Monocrystalline plays out in real projects, these guides go deeper:

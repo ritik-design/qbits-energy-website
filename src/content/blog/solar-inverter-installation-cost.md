@@ -32,8 +32,12 @@ faqs:
   - q: "How much subsidy is available for a 5 kW solar system under PM Surya Ghar?"
     a: "Under PM Surya Ghar Muft Bijli Yojana, the central government subsidy for a 5 kW residential on-grid system is ₹78,000 - the same cap as 3 kW because the subsidy is capped at ₹78,000 for systems above 3 kW. This means a 5 kW system costing ₹2.5 Lakh to ₹3.5 Lakh before subsidy nets out to approximately ₹1.72 Lakh to ₹2.72 Lakh after the central subsidy is applied. Several states offer additional subsidies on top of the central amount."
   - q: "What happens to solar installation cost if I choose a premium inverter brand?"
-    a: "A premium-tier inverter - defined as imported brands with global service networks - adds ₹15,000–₹40,000 compared to a mid-tier India-manufactured inverter of equivalent kW capacity. The price differential narrows when you factor in warranty depth: a 12-year full replacement warranty from a domestic brand eliminates one or two inverter replacement cycles over a 25-year system life, each costing ₹15,000–₹25,000. The true cost comparison is therefore a 25-year total-cost-of-ownership calculation, not a sticker-price comparison on day one."
+    a: "A premium-tier inverter - defined as imported brands with global service networks - adds ₹15,000–₹40,000 compared to a mid-tier India-manufactured inverter of equivalent kW capacity. The price differential narrows when you factor in warranty depth: a model-specific written warranty from a domestic brand eliminates one or two inverter replacement cycles over a 25-year system life, each costing ₹15,000–₹25,000. The true cost comparison is therefore a 25-year total-cost-of-ownership calculation, not a sticker-price comparison on day one."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Every Indian homeowner who searches for solar ends up staring at a quote that says something like "₹45 per watt, all inclusive." No panel brand. No inverter model. No clarity on what "all inclusive" means. Three competing quotes arrive with numbers that differ by 30%, and none of them explain why.
 
@@ -99,7 +103,7 @@ Most homeowners think of solar as a single purchase. Professionals think of it a
 
 This is the most visible layer and typically accounts for 55–65% of the total installed cost. The two major variables are panel wattage and inverter brand tier.
 
-On the panel side, the jump from 440 Wp to 545 Wp per module reduces the number of panels needed for the same capacity, which cuts labour and mounting costs downstream. On the inverter side, the choice between a budget domestic unit and a mid-tier BIS-certified domestic brand with a 12-year warranty changes the day-one price by ₹8,000–₹15,000 but changes the 25-year total cost by far more, because a cheap inverter that fails at year 7 costs another ₹18,000–₹25,000 in replacement.
+On the panel side, the jump from 440 Wp to 545 Wp per module reduces the number of panels needed for the same capacity, which cuts labour and mounting costs downstream. On the inverter side, the choice between a budget domestic unit and a mid-tier BIS-certified domestic brand with a model-specific written warranty changes the day-one price by ₹8,000–₹15,000 but changes the 25-year total cost by far more, because a cheap inverter that fails at year 7 costs another ₹18,000–₹25,000 in replacement.
 
 ### Layer 2: Balance of System (BOS)
 
@@ -143,7 +147,6 @@ Remote geography adds 10–20% to all equipment costs due to freight surcharges 
 
 Two quotes for a "5 kW solar system" can differ by ₹50,000–₹80,000. This section explains the six underlying drivers so you know which quote is cheaper and which is weaker.
 
-- **Inverter brand tier**: A budget no-name inverter saves ₹8,000–₹18,000 on day one but carries no meaningful warranty. A mid-tier BIS-certified domestic inverter with a 5-year warranty saves less upfront. A premium domestic brand with a 12-year full-replacement warranty costs the most initially but eliminates one full replacement cycle over 25 years. The [best solar inverter for home India guide](/blog/best-solar-inverter-for-home-india/) ranks the current field across warranty depth, service SLA, and ALMM status.
 - **Panel wattage and technology**: A quote using older 330 Wp poly panels needs more panels for the same capacity, increasing mounting and labour costs. A quote using 545–550 Wp mono half-cut panels is more space-efficient but commands a higher per-watt panel price. The net effect on total system cost is often minimal, but higher-wattage panels are better for rooftops with limited shadow-free area.
 - **Roof type and structural work**: Flat concrete rooftop installs are the baseline. Sloped tile roofs add ₹5,000–₹12,000. Metal sheet roofs add ₹3,000–₹8,000 for specialised clamps. Any roof requiring reinforced structural members (hollow slab, old construction, terrace with planters) can add ₹15,000–₹40,000 in structural engineering work.
 - **Cable run length**: If your main DB panel is on the ground floor and the rooftop is 40 feet above, the AC cable run adds cost. Every 10 metres of additional 10 mm² AC cable adds roughly ₹600–₹900 in material alone.
@@ -235,19 +238,11 @@ The mistakes below are responsible for most post-installation regret among India
 - **Accepting "subsidy already applied" quotes without verifying eligibility.** Subsidy under PM Surya Ghar requires MNRE registration through the national portal. An installer who claims the subsidy is already built into the price without having registered your application is misrepresenting the process, the subsidy is paid post-installation to your bank account.
 - **Choosing the lowest-wattage panel to save upfront.** Installing 330 Wp poly panels to save ₹4,000 on a 3 kW system results in six panels instead of five, more mounting hardware, more cabling, and more roof area consumed. The saving on panels is frequently smaller than the added BOS cost.
 - **Ignoring the inverter service network.** An inverter that fails in month 14 is only as good as the service partner who can reach your home within 72 hours. Before signing, ask the installer which service centre handles your pincode, and call that service centre to verify it is active.
-- **Not reading the warranty document before signing.** "12-year warranty" can mean 12-year full replacement or 12-year pro-rated or 12-year parts-only. These are fundamentally different risk profiles. Ask for the warranty certificate, not just the marketing claim.
+- **Not reading the warranty document before signing.** "model-specific written warranty" can mean 12-year full replacement or 12-year pro-rated or 12-year parts-only. These are fundamentally different risk profiles. Ask for the warranty certificate, not just the marketing claim.
 - **Skipping the AMC conversation.** A solar system requires at least one professional cleaning and one electrical inspection per year to maintain performance and warranty validity. Homeowners who skip AMC often see 5–8% annual yield degradation from soiling alone, in dusty cities like Delhi, Jaipur, or Kanpur, the loss can reach 12–15% without regular cleaning.
 
 ## Where Qbits Fits in the Solar Inverter Installation Cost Picture
 
-Homeowners who have done their research (who know their numbers, have read multiple quotes, and understand the difference between a 5-year parts warranty and a 12-year full replacement warranty) arrive at Qbits because the value proposition is clear. You pay mid-market prices, not import-premium prices, and you receive the longest residential inverter warranty available from an Indian manufacturer: 12 years, full replacement, with a <72-hour RMA SLA and an [ALMM-listed](/glossary/almm-list/), BIS-certified product that qualifies for PM Surya Ghar subsidy. Homeowners comparing installers can also read the [solar inverter manufacturers in India evaluation guide](/blog/solar-inverter-manufacturers-in-india/) for the certification and service-network checks that separate a durable vendor from a price-only bid.
-
-Qbits inverters are built for Indian grid conditions, the 180–270 V voltage range that India's grids actually deliver, not the 220–240 V that laboratory tests assume. The IP66 weather rating means the unit survives monsoon rooftops. The AI-powered WhatsApp monitoring means you know about a yield drop before your bill arrives. As the Qbits positioning puts it: *"Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone."*
-
 Three pages worth bookmarking before you request quotes:
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM-listed and subsidy-eligible with a 12-year full replacement warranty.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for homeowners who want battery readiness and power backup without rewiring later.
-- **[Why Qbits](/why-qbits/)**: the full technical case: IP66, India-grid firmware, <72-hour RMA, and the warranty terms in plain language.
-
-When you are ready for an itemised quote that separates hardware, BOS, soft costs, and AMC into four transparent layers, [request a quote at the contact page](/contact-us/), Qbits ships to 280+ Indian cities and most quotes come back within 24 hours.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.

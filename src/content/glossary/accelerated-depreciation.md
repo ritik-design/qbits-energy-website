@@ -205,8 +205,6 @@ Accelerated Depreciation provides 40 percent first-year tax depreciation for sol
 
 ## Need AD-optimised solar structuring?
 
-QBits Energy advises C&I customers on solar project structuring to maximise Accelerated Depreciation tax benefit, including direct ownership and RESCO models.
-
 ## Further reading
 
 For how Accelerated Depreciation plays out in real projects, these guides go deeper:

@@ -273,8 +273,6 @@ An off grid inverter is the right choice when there is no grid, or when the grid
 
 ## Looking for an off grid inverter?
 
-QBits Energy designs off grid solar systems for telecom, rural electrification, agricultural pumping and remote institutional sites across India. Reach out for a site-specific load, battery and PV sizing study.
-
 ## Further reading
 
 For how Off Grid Inverter plays out in real projects, these guides go deeper:

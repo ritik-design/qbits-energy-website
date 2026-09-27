@@ -16,22 +16,26 @@ keywords:
   - solar inverter cost hindi
 faqs:
   - q: "3 kW solar inverter की price 2026 में कितनी है?"
-    a: "3 kW on-grid solar inverter की price ₹15,000 से ₹35,000 तक है brand के हिसाब से। Indian brands (Luminous, UTL) ₹15,000-22,000 range में हैं। International brands (Growatt, Sungrow) ₹20,000-35,000 range में। Qbits जैसे premium Indian brands ₹22,000-32,000 में ALMM certified, IP66, 12-year warranty के साथ।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "5 kW hybrid solar inverter की price क्या है?"
     a: "5 kW hybrid solar inverter ₹35,000 से ₹80,000 तक आता है। Budget brands ₹35,000-45,000 में कम warranty के साथ। Mid-tier brands ₹45,000-65,000 में 5-8 साल warranty। Premium brands ₹65,000-80,000 में 10-12 साल warranty, LFP battery compatibility। Battery cost अलग - 5 kWh LFP ₹80,000-1,20,000।"
   - q: "Solar inverter की price में क्या-क्या include होता है?"
     a: "Inverter की quoted price में typically: inverter unit, basic DC cables, monitoring module (WiFi dongle), और basic warranty। Extra cost जो quote में नहीं आती: installation labor, conduit और cable runs, earthing materials, net metering application। Total system cost quote करवाएँ।"
   - q: "Cheap solar inverter और expensive inverter में क्या difference है?"
-    a: "₹8,000 vs ₹25,000 inverter difference: Warranty (1 year vs 10-12 year), ALMM compliance (no vs yes - subsidy), IP rating (IP21 vs IP66 - weather protection), efficiency (93% vs 97.5% - more generation), voltage range (narrow vs 150-270V - fewer trips), service network (local only vs national support)।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "Solar inverter price में GST कितना लगता है?"
     a: "Solar inverter पर GST 12% है। Quote में GST clearly mention होना चाहिए। PM Surya Ghar subsidised installations में GST treatment different है - government subsidy portion पर GST implications check करें। [GST on solar inverters guide](/blog/gst-on-solar-inverters-2026/) में detailed breakdown है।"
   - q: "Online vs local dealer - solar inverter कहाँ से खरीदें?"
     a: "PM Surya Ghar के लिए: Portal पर listed empanelled vendor से ही खरीदें - यह mandatory है। Non-PM Surya Ghar replacement या C&I के लिए: Authorized dealer preferred है - warranty, installation support, और genuine products guarantee। Online marketplaces से warranty issues हो सकती हैं।"
   - q: "Solar inverter price 2026 vs 2024 में कितना बदला?"
-    a: "2024 से 2026 में solar inverter prices 8-15% कम हुई हैं - manufacturing scale-up और Chinese component prices fall के कारण। लेकिन ALMM-compliant premium brands कम नहीं हुए - quality standards maintain करने के लिए। BCD (Basic Customs Duty) और GST unchanged है।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "1 kW solar inverter से 10 kW तक - price range क्या है?"
     a: "On-grid inverters: 1 kW ₹6,000-12,000, 3 kW ₹15,000-35,000, 5 kW ₹22,000-50,000, 10 kW ₹45,000-90,000। Hybrid inverters 40-80% ज्यादा expensive होते हैं। Battery cost अलग - ₹40,000 से ₹2,00,000+ depending on capacity और chemistry।"
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।
+
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
 
 Solar inverter खरीदते समय price सबसे पहला question होता है - और सबसे confusing भी। इसलिए: ₹5,000 का inverter भी मिलता है, ₹80,000 का भी। Difference क्या है? कौन सा लेना चाहिए? इस guide में 2026 के realistic price ranges हैं, brand comparison है, और hidden costs की list है जो vendor quote में mention नहीं होती।
 
@@ -39,8 +43,8 @@ Solar inverter खरीदते समय price सबसे पहला ques
 > - 3 kW on-grid inverter ₹15,000-₹35,000 में मिलता है; 5 kW hybrid ₹45,000-₹80,000 में, brand tier के हिसाब से।
 > - Full 3 kW system (panels + inverter + installation) [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy ₹78,000 के बाद net ₹72,000-₹1.07 lakh पड़ता है।
 > - Hidden costs (earthing, conduit, net metering fee) typically ₹10,000-₹25,000 अलग से आते हैं - "all-inclusive" quote माँगें।
-> - Solar inverter पर GST 12% लगता है, ALMM-listed inverter PM Surya Ghar subsidy के लिए mandatory है।
-> - Premium 12-year warranty inverter 15-year TCO में budget inverter से सस्ता पड़ता है, बार-बार replacement की वजह से।
+
+> - Premium model-specific written warranty inverter 15-year TCO में budget inverter से सस्ता पड़ता है, बार-बार replacement की वजह से।
 > - 2020 से 2026 तक solar inverter prices 55-60% गिरी हैं, manufacturing scale-up और component cost कम होने से।
 
 > **Quick answer।** 3 kW on-grid inverter: ₹15,000 to ₹35,000। 5 kW hybrid: ₹45,000 to ₹80,000। Full 3 kW solar system (panels + inverter + installation): ₹1.5 lakh to ₹2.2 lakh। PM Surya Ghar subsidy ₹78,000 के बाद net: ₹72,000 to ₹1.07 lakh।
@@ -61,9 +65,7 @@ Price की समझ जरूरी है लेकिन price अकेल
 
 **Budget brands**: Non-ALMM, short warranty (1-2 year), basic specs।
 **Mid-tier**: Some ALMM-listed, 5-year warranty, decent efficiency।
-**Premium/ALMM**: ALMM Phase III, 10-12 year warranty, IP66, India-tuned।
-
-PM Surya Ghar subsidy के लिए **[ALMM](/glossary/almm-list/)-listed inverter mandatory** है - Budget brands mostly non-ALMM हैं। अपनी capacity के हिसाब से exact subsidy amount जानने के लिए [PM Surya Ghar subsidy calculator](/blog/pm-surya-ghar-subsidy-amount/) देखें।
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
 
 Apne budget me सही capacity चुनने के लिए [3kW vs 5kW vs 10kW inverter comparison](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) detailed breakdown देता है।
 
@@ -134,7 +136,6 @@ Inverter alone काम नहीं करता - full system price:
 | UTL | ₹16,000–₹22,000 | 5 years | Some models |
 | Sukam | ₹18,000–₹25,000 | 5 years | Limited |
 | Microtek | ₹14,000–₹20,000 | 2-3 years | Limited |
-| **Qbits** | ₹22,000–₹32,000 | **12 years** | **Phase III** |
 
 ### International Brands (India)
 
@@ -175,8 +176,6 @@ The real comparison:
 
 Premium inverter 15-year period में actually सबसे सस्ता पड़ता है। Warranty terms को line-by-line समझने के लिए [solar inverter warranty guide](/blog/solar-inverter-warranty/) पढ़ें, kya "5-year warranty" full-replacement है ya sirf repair-only।
 
-> **12 years.** Qbits inverter warranty (India में सबसे लंबी warranty tiers में से एक। 25-year solar system life में एक inverter replacement होती है) 12-year warranty पहले half cover करती है बिना extra cost के।
-
 ## GST और Import Duty: Price Impact
 
 - **GST on solar inverters:** 12%
@@ -200,21 +199,15 @@ Vendor से price negotiate करने के tips:
 
 ## Qbits Pricing और Value
 
-Qbits TLS series (on-grid) और HS series (hybrid) premium segment में हैं - but justified by:
+- Exact Qbits model और current datasheet से MPPT, voltage, current, phase, efficiency और enclosure rating verify करें।
+- MNRE ALMM module/cell lists को inverter approval list न मानें।
+- Warranty duration, remedy, RMA process और service timing not established हैं जब तक current written terms न मिलें।
+- Price comparison में inverter, logger, accessories, tax, delivery, installation और commissioning scope अलग-अलग लिखें।
 
-- ALMM Phase III listing (PM Surya Ghar subsidy ensure)
-- IP66 protection (Indian monsoon के लिए)
-- 12-year full replacement warranty (system life में stress-free)
-- 150-270V input range (Indian grid voltage swings handle)
-- 72-hour RMA SLA (fastest replacement in Indian market)
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review the current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Authorized Service Partners](/authorized-service-partners/)**: Current directory देखें और location, status, service scope तथा commercial terms confirm करें।
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM Phase III, 3 kW to 10 kW range
-- **[Hybrid Inverters](/hybrid-inverter/)**: Battery-ready, power cut areas ke liye
-- **[Authorized Service Partners](/authorized-service-partners/)**: District-wise certified dealers
-
-According to [Mercom India market data](https://www.mercomindia.com/){target="_blank" rel="noopener"}, 2026 में India में premium ALMM-listed inverters की demand 150% बढ़ी है - PM Surya Ghar subsidy के कारण buyers quality-conscious हो गए हैं।
-
-अपने area और system requirement के हिसाब से exact price और specification के लिए [Qbits engineer से बात करें](/contact-us/)। Free consultation, no obligation।
+[Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 ## Solar Inverter Price Trend: 2020 to 2026
 
@@ -237,22 +230,17 @@ Do not compare only upfront price. Compare 10-year total cost of ownership:
 | --- | --- | --- | --- | --- |
 | Budget (1-year warranty) | ₹10,000 | ₹10,000 | ₹10,000 | ₹30,000 |
 | Mid-tier (5-year warranty) | ₹22,000 | ₹22,000 (Year 7) | - | ₹44,000 |
-| Premium (12-year warranty) | ₹32,000 | Zero (warranty) | Zero (warranty) | ₹32,000 |
+| Premium (model-specific written warranty) | ₹32,000 | Zero (warranty) | Zero (warranty) | ₹32,000 |
 
 The "expensive" premium inverter is cheapest over 10 years. This is the key insight most buyers miss when comparing quotes. Apna exact break-even samajhne ke liye [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) dekhein - price aur savings dono factor karke।
 
-## ALMM Phase III: Kya Hai Aur Kyun Important
+## ALMM Aur Inverter Documents Alag Check Karein
 
-MNRE ne ALMM ko three phases mein implement kiya:
-- **Phase I**: Basic certification, older standard
-- **Phase II**: Intermediate quality standard
-- **Phase III**: Current highest standard, mandatory for PM Surya Ghar 2024 onwards
+[MNRE ki current ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) solar PV module aur cell lists publish karti hai. Yeh inverter approval list nahi hai. Subsidy-dependent project ke liye current scheme guidelines, module/cell requirements, vendor status aur DISCOM process ko official sources par verify karein.
 
-PM Surya Ghar portal par Phase III verified products ki listing hoti hai. Phase I aur Phase II certified products se PM Surya Ghar subsidy milna mushkil hai. Always Phase III verify karein.
+Inverter ke liye exact model number, datasheet, applicable certificate, grid-interface document aur written warranty maangein. “ALMM inverter” ya generic brand claim ko approval proof na maanein. [ALMM guide](/blog/almm-list-phase-iii-guide/) is distinction ko detail mein explain karti hai.
 
-[ALMM list Phase III guide](/blog/almm-list-phase-iii-guide/), complete verification process.
-
-[Qbits inverter price quote ke liye](/contact-us/), free consultation, your roof size and state ke liye exact quote.
+[Qbits se dated equipment quote maangein](/contact-us/) aur exact model, included items, tax, delivery, installation responsibility, warranty aur service terms ko written form mein confirm karein. Consultation availability aur fee not established hai jab tak Qbits commercial team written confirmation na de.
 
 ## Financing Options: Inverter Price Ko Afford Karein
 
@@ -286,7 +274,7 @@ Understanding exactly what differentiates price tiers helps justify the investme
 - IP21 or IP34, not suitable for outdoor Indian conditions
 - Basic LCD display, no WiFi monitoring
 - 1-2 year warranty, local service only
-- Often not ALMM Phase III listed
+- current ALMM module and cell requirements
 
 **Mid-tier (₹18,000-28,000 for 3 kW):**
 - Dual MPPT in most models
@@ -294,14 +282,14 @@ Understanding exactly what differentiates price tiers helps justify the investme
 - IP65 protection
 - WiFi monitoring standard
 - 5-year warranty, brand service network
-- Most ALMM Phase III listed
+- current ALMM module and cell requirements
 
 **Premium tier (₹25,000-35,000 for 3 kW):**
 - Dual MPPT with high precision tracking
 - 150-270V India-tuned input range
 - IP66 protection for monsoon and coastal areas
 - Advanced monitoring with cloud analytics
-- 10-12 year warranty, guaranteed RMA turnaround
-- ALMM Phase III listed, BIS certified
+- 10-model-specific written warranty, guaranteed RMA turnaround
+- current ALMM module and cell requirements
 
 The ₹10,000-15,000 difference between budget and premium recovers itself within 2-3 years through better efficiency, avoided replacement costs, and subsidy eligibility alone.

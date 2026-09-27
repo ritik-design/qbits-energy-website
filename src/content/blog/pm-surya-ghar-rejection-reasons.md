@@ -1,189 +1,192 @@
 ---
-title: "PM Surya Ghar Rejected: Why and What to Do"
-excerpt: "PM Surya Ghar rejected? Top reasons include name mismatch, outdated bills, non-ALMM inverters, and property issues. Full recovery guide for 2026."
-description: "PM Surya Ghar application rejected? Top reasons include name mismatch, outdated bills, non-ALMM inverters, and property issues. Recovery guide for 2026."
+title: "PM Surya Ghar Rejected? Check the Reason"
+excerpt: "PM Surya Ghar rejected? Every rejection reason mapped to the rule it breaks, with the remedy, the resubmission route, and the grievance clock."
+description: "Why PM Surya Ghar applications get rejected, derived from the MNRE operational guidelines, with the remedy for each failure mode and the escalation route."
+seoTitle: "PM Surya Ghar Rejection Reasons and the Fix for Each One"
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
-readTime: "13 min"
+updatedDate: 2026-09-24
+readTime: "12 min"
 image: "/blog-images/solar-inverter-certifications.svg"
 author: "Nirav Dhanani"
 keywords:
   - pm surya ghar rejected
   - pm surya ghar application rejected
   - pm surya ghar rejection reasons
-  - pm surya ghar reapply after rejection
-  - solar subsidy application rejected india
+  - pm surya ghar account verification pending
+  - pm surya ghar grievance portal
 faqs:
-  - q: "Can I reapply after PM Surya Ghar rejection?"
-    a: "Yes, in most cases you can reapply after fixing the issue that caused rejection. Log in to the portal, review the rejection reason in your application detail page, correct the underlying problem, and submit a fresh application. Some DISCOMs allow direct resubmission with corrected documents on the same application ID within 15 to 30 days of rejection. After that window, a new application is required. There is no limit on the number of reapplication attempts."
-  - q: "How long does it take to reprocess after submitting corrected documents?"
-    a: "After correcting and resubmitting documents, the reprocessing timeline is typically 15 to 30 days. This includes a fresh DISCOM verification cycle. The application does not jump the queue - it restarts at the DISCOM verification stage. In states with high application volumes like UP and Maharashtra, reprocessing can take up to 45 days. Submit corrected documents as early as possible to minimise the total waiting time."
-  - q: "Will I lose my place in the subsidy queue after rejection?"
-    a: "Yes, rejection typically resets your position in the DISCOM processing queue. Your resubmitted application is treated as a new entry for feasibility review and vendor selection. The subsidy budget itself is not exhausted - PM Surya Ghar has central allocation sufficient for ongoing approvals - but any DISCOM-specific processing slots may have moved forward. The sooner you resubmit corrected documents, the better your position."
-  - q: "What is the most common reason for PM Surya Ghar rejection?"
-    a: "Name mismatch between documents is the single most common rejection reason, accounting for an estimated 35 to 40 percent of all rejections. Specifically, the name on the Aadhaar card differing from the name on the electricity bill - even by initials, spelling variations, or the inclusion of a father's name - triggers automated rejection. Resolving this requires visiting the DISCOM office to update the electricity account name before reapplying."
-  - q: "Can a rented property apply for PM Surya Ghar?"
-    a: "Tenants living in rented properties cannot apply for PM Surya Ghar because the scheme requires the applicant to own the roof. The landlord must be the applicant. If the landlord wishes to install solar and share the benefits with the tenant through reduced rent, that is a private arrangement - the subsidy and system registration will be in the landlord's name. Cooperative housing society members can apply in the society's name for common area installations."
-  - q: "My inverter was not ALMM-listed - can I change it after installation?"
-    a: "If an inverter fails the DISCOM inspection because it is not on the ALMM list, the installation must be modified to replace the non-compliant inverter with an ALMM-listed model before the inspection can be passed. This means additional cost for the inverter replacement plus reinstallation. The subsidy will not be released until the system passes inspection with a compliant inverter. Always confirm ALMM listing before installation begins - verify on the MNRE ALMM list portal."
-  - q: "What is a 'technical rejection' versus a 'document rejection'?"
-    a: "A document rejection means one or more uploaded files failed verification - name mismatch, outdated bill, wrong format, or incomplete document. A technical rejection means the feasibility assessment determined that your roof or electrical connection cannot support the proposed solar system - insufficient roof area, structural concerns, or a connection load mismatch. Document rejections are fixable by the applicant. Technical rejections may require a changed system size or a different installation design."
-  - q: "Is there an appeal process for PM Surya Ghar rejection?"
-    a: "The PM Surya Ghar portal has a grievance mechanism accessible from the applicant dashboard. Submit a grievance with the rejection reason, your corrected evidence, and the application reference number. This reaches the DISCOM nodal officer and the state MNRE representative. If the grievance is not resolved within 30 days, escalate to the Ministry of New and Renewable Energy through the CPGRAMS portal at pgportal.gov.in. Include all correspondence in your escalation."
+  - q: "Can a PM Surya Ghar application be rejected after the system is already installed?"
+    a: "Yes. The MNRE operational guidelines put the DISCOM inspection after installation, not before it. At that point the DISCOM can approve the application, send it back for corrections, or reject the claim with adequate justification. Central assistance is processed only after the DISCOM has physically verified the system and completed the process on the portal. The guidelines also make the registered vendor responsible for rectifying any system deficiency that leads to non-disbursal or non-commissioning on quality or component grounds."
+  - q: "My application says pending, not rejected. What should I do?"
+    a: "Treat pending and rejected as different problems. A pending stage means the file is sitting with a party who has not acted, which is usually the DISCOM at feasibility, inspection, or metering. A rejection means a stated requirement failed and needs correcting. Record the exact portal label, your application number, and the date before you contact anyone. Do not file a second application because a stage is slow, because that creates a duplicate rather than progress."
+  - q: "Does the electricity bill have to be in my name to claim the subsidy?"
+    a: "The scheme attaches to the connection, not to the person. The MNRE guidelines define an eligible plant as a grid-connected system tagged to a particular residential power connection of the local DISCOM, and require a valid consumer account number to apply. If the connection stands in a parent's or a previous owner's name, the practical routes are to transfer the connection into your name first, or to apply in the name of the recorded connection holder with matching bank details. Your DISCOM decides which record it will accept."
+  - q: "Can I apply if my sanctioned load is lower than the system I want?"
+    a: "Usually yes, and for small systems the law shifts the work to your utility. Rule 7A of the Electricity (Rights of Consumers) Rules, as amended in February 2024, provides that applications for rooftop solar up to 10 kW that are complete in all respects are deemed accepted without a technical feasibility study, and that any matching increase in the consumer's sanctioned load is to be carried out by the distribution licensee. Above 10 kW the feasibility study applies with a 15-day clock. State regulators still differ on how they operationalise this, so confirm locally."
+  - q: "What happens if my installer is not registered on the national portal?"
+    a: "You lose the central assistance for that installation. The MNRE guidelines state that the scheme is implemented only through vendors registered on the national portal, and that a consumer has to choose a registered vendor to avail the assistance. This is not a documentation gap that can be corrected afterwards, because the requirement attaches to who performed the work. Verify the vendor's registration on the portal yourself before you sign anything or pay an advance."
+  - q: "Does my solar inverter need to be on the ALMM list?"
+    a: "No, because there is no ALMM inverter list. MNRE's ALMM page publishes List-I for solar PV modules and List-II for solar PV cells only. Inverters sit under a different requirement: the scheme's technical annexure requires compliance with the Solar Photovoltaic Inverters Quality Control Order dated 30 August 2017 and the applicable BIS and IEC standards, plus integrated MPPT, islanding protection, and minimum 20% overload capability. A vendor who says your inverter is not ALMM listed has not identified the actual requirement."
+  - q: "How long does a PM Surya Ghar grievance take to resolve?"
+    a: "The MNRE guidelines state that grievances raised by consumers and vendors are to be resolved within 30 days. You can raise one through the national portal, the portal app, or the national call centre, and the implementing agency creates a unique tracking ID so you can follow the status online. Updates are sent by SMS and email. The 30-day figure is the stated resolution period in the guidelines, not a promise about your specific outcome."
+  - q: "Do I need a fresh application after a rejection, or can I fix the existing one?"
+    a: "Ask before you start again. The guidelines give the consumer login full rights to update installation status, technical specifications, and documents without relying on the vendor, which is where most corrections belong. They also allow a dormant application to be reactivated at any time from the consumer profile, so a lapsed file is not automatically lost. A second parallel application creates a duplicate against the same connection, which is a new problem rather than a fix."
+relatedSlugs:
+  - pm-surya-ghar-yojana-complete-guide
+  - pm-surya-ghar-documents-required
+  - pm-surya-ghar-status-check
+  - empanelled-vendor-pm-surya-ghar
 ---
 
-A [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) rejection is frustrating, especially after weeks of waiting. But the majority of rejections are fixable, the challenge is understanding exactly what went wrong and responding to the right authority in the right way. This guide covers every common rejection reason, the recovery path for each, and how to avoid the mistakes that cause rejections in the first place.
+A PM Surya Ghar rejection is almost never a judgement call. It is a check against a record that either matches or does not. You close the gap between what the Ministry of New and Renewable Energy (MNRE) guidelines require and what your file says.
 
-> **Direct answer.** The most common [PM Surya Ghar](/glossary/pm-surya-ghar/) [rejection reasons](https://quickestimate.co/blog/pm-surya-ghar-rejection-reasons) are name mismatch across documents (35–40% of rejections), outdated electricity bill, non-ALMM-listed components, property ownership issues, and ineligible connection type. Most rejections are correctable, fix the flagged issue and reapply within 30 days to retain your position in the review queue.
+One warning first. Rejection-rate percentages circulate widely, usually as "about 7% of applications are rejected" or "name mismatch causes 35% of failures". None trace to MNRE, the national portal, or a Press Information Bureau release. So this guide derives every failure mode from a published requirement instead, because a requirement also tells you the remedy.
+
+Scope is failure modes only, each mapped to the rule it breaks, plus the resubmission route, the escalation clock, and a pre-application checklist. For the scheme itself, read the [complete PM Surya Ghar guide](/blog/pm-surya-ghar-yojana-complete-guide/). Qbits sells solar inverters, not installation or application services.
 
 > **TL;DR**
-> - Name mismatch across Aadhaar, electricity bill, PAN, and bank account causes 35–40% of all rejections.
-> - An electricity bill older than 90 days is rejected at the document verification stage.
-> - A non-ALMM-listed inverter fails [DISCOM](/glossary/discom/) inspection even after installation is complete, and the subsidy is withheld until it is replaced.
-> - Commercial, industrial, and agricultural connections, and rental properties without a landlord NOC, are categorically ineligible.
-> - Most rejections are correctable, fix the flagged issue and reapply within 15 to 30 days to keep your place in the DISCOM queue.
-> - Unresolved rejections can be escalated through the portal grievance system, the MNRE helpline, or the CPGRAMS portal.
+> - Only vendors registered on the national portal can deliver the assistance (MNRE, 2024).
+> - Non-DCR modules used in any form render the installation ineligible (MNRE, 2024).
+> - ALMM publishes List-I for modules and List-II for cells. There is no inverter list (MNRE, 2026).
+> - Up to 10 kW, Rule 7A deems the application accepted and puts the load increase on your licensee (Ministry of Power, 2024).
+> - A DISCOM may approve, return for corrections, or reject with adequate justification (MNRE, 2024).
+> - Portal grievances are to be resolved within 30 days, and quality defects that block disbursal must be rectified by the vendor (MNRE, 2024).
 
-Rejection is not a permanent outcome in most cases. What matters is correctly diagnosing the cause, fixing it once, and resubmitting cleanly. The [PM Surya Ghar documents guide](/blog/pm-surya-ghar-documents-required/) covers how to prepare a clean document set before your next submission.
+**Short version.** PM Surya Ghar rejections trace to a short list of stated requirements. The applicant must hold a residential connection with a valid consumer account number. The sanctioned load must support the capacity. Bank proof must match. The vendor must be registered, and the equipment must meet MNRE's technical annexure. Fix the named item, correct the existing application, and escalate on the 30-day grievance clock.
 
-## How to Find Your Rejection Reason on the Portal
+## Rejected, returned, or just pending? Establish that first
 
-Before you can fix anything, you need to know exactly what triggered the rejection. The PM Surya Ghar portal should display the rejection reason in your application detail page.
+The guidelines give the [DISCOM](/glossary/discom/) three outcomes at inspection: approve the application, send it back for corrections, or reject the claim with adequate justification (MNRE, 2024). Only one of those is a rejection.
 
-### Step-by-step to view rejection reason
+So record four things from your login first: the status label, the remark, your application number, and the date. Our [status-check walkthrough](/blog/pm-surya-ghar-status-check/) explains each label. If the remark is blank, ask for the reason in writing, because you cannot correct an unnamed defect.
 
-1. Log in to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} with your registered mobile OTP
-2. Navigate to "My Applications" or "Application Status"
-3. Click on the rejected application
-4. Look for "Rejection Reason" or "Remarks" in the application detail view
-5. If the reason is not visible, note your application reference number and call your DISCOM's consumer helpline
+| Rejection reason | Remedy, and who acts |
+| --- | --- |
+| Applicant is not the connection holder | Transfer the connection, or apply in the holder's name. Consumer. |
+| Non-residential connection category | Apply on a residential connection. Consumer. |
+| Sanctioned load below capacity | Up to 10 kW the licensee carries the increase. Licensee. |
+| Outstanding dues | Clear dues and restore the account. Consumer. |
+| Documents incomplete or mismatched | Re-upload only the item named in the remark. Consumer. |
+| Bank account fails verification | Correct the account number, IFSC, or holder name. Consumer. |
+| Vendor not registered | Not correctable afterwards. Verify before signing. Consumer. |
+| Non-DCR or non-List-I modules | Not fixable by paperwork. Model in writing first. Vendor. |
+| Feasibility rejected on network capacity | Infrastructure work in adopting states. Licensee. |
+| Installation differs from design | Vendor rectifies defects blocking disbursal. Vendor. |
+| Inspection or commissioning not done | Push the request on the portal, then escalate. DISCOM. |
+| Duplicate, prior benefit, or dormant file | Claim balance capacity up to 3 kW. Reactivate, do not refile. |
 
-Some DISCOMs do not populate the rejection reason field on the portal, forcing you to contact them directly. This is a known gap in the system, the MNRE has directed DISCOMs to improve rejection transparency, but implementation varies by state.
+## The applicant, the connection, and the consumer category
 
-## The 8 Most Common Rejection Reasons: and How to Fix Each
+The scheme attaches to a connection, not a person. MNRE defines an eligible plant as a grid-connected system tagged to a particular residential power connection of the local DISCOM, and requires a valid consumer account number (MNRE, 2024).
 
-### 1. Name Mismatch Across Documents
+The first failure is an applicant who is not the recorded connection holder, common where the bill still stands in a parent's or previous owner's name. Remedy: transfer the connection first, or apply in the holder's name with bank details to match. Ask which record your DISCOM accepts rather than assuming every field must match exactly.
 
-This is the largest single cause of rejection. The PM Surya Ghar portal cross-validates your name across Aadhaar, electricity bill, PAN card, and bank account. Any discrepancy (even a minor one) triggers automatic rejection.
+The second is category. No assistance goes to non-residential segments, including government, commercial, and industrial. Agricultural connections are non-residential too, which is why [the agricultural scheme comparison](/blog/pm-surya-ghar-vs-kusum-yojana/) is a separate route. A shop-and-home connection on a commercial tariff does not qualify because consumption is mostly domestic. Our [eligibility breakdown](/blog/pm-surya-ghar-eligibility/) covers the edge cases.
 
-Common name mismatch scenarios:
-- Aadhaar shows "Suresh Kumar Sharma" but the electricity bill shows "S.K. Sharma"
-- Father's name is included on one document but not another
-- Spelling variation ("Mohammed" on Aadhaar, "Mohammad" on electricity bill)
-- Married name change not updated on Aadhaar
+Outstanding dues deserve a caveat. The MNRE guidelines do not impose a no-dues condition, so treat a dues objection as a DISCOM-level rule and confirm it locally. The plant still has to be tagged to a live connection.
 
-**Fix:** Visit your DISCOM office to update the electricity account name to exactly match your Aadhaar. This process typically takes 7 to 14 days. Alternatively, update your Aadhaar address if your electricity bill address is correct and the name is the issue. Only reapply after all documents show the identical name.
+## Sanctioned load below the proposed capacity
 
-### 2. Outdated Electricity Bill
+This is the most misdiagnosed rejection, and the one where consumers most often pay for something the rules place on the utility. The linkage is real. Reviewing its 2024 amendment, the Maharashtra Electricity Regulatory Commission held that rooftop solar capacity is linked to the consumer's contracted demand or sanctioned load (MERC, 2024). It is therefore for the consumer to apply within that load, or to seek an increase.
 
-Most DISCOMs require the electricity bill to be within 90 days of the application date. An older bill is rejected at the document verification stage.
+Now the part vendors skip. Rule 7A of the Electricity (Rights of Consumers) Rules was inserted by G.S.R. 125(E) dated 22 February 2024. It provides that applications for rooftop solar up to 10 kW, complete in all respects, are deemed accepted without a technical feasibility study. It also puts the matching increase in the consumer's sanctioned load on the distribution licensee (Ministry of Power, 2024). Above 10 kW the study must finish within 15 days, failing which the proposal is presumed technically feasible. So a load shortfall on a small residential system is work assigned to your licensee. MNRE's guidelines cite the same provision, but note you still upload feasibility documents until your state operationalises it (MNRE, 2024).
 
-**Fix:** Download a fresh bill from your DISCOM's online portal, this gives you a clean, recent PDF. If your DISCOM does not have an online portal, collect the latest printed bill and take a clear photograph. Reapply immediately after receiving the fresh bill.
+**Worked example: the pre-application load check.** Arithmetic on published thresholds, not a prediction about your file.
 
-### 3. Non-ALMM-Listed Inverter
+**Inputs.** Residential connection, sanctioned load 3 kW. Proposed module capacity 5 kWp.
+**Formula.** Load gap = proposed capacity minus sanctioned load. Then test capacity against the 10 kW threshold.
 
-The PM Surya Ghar scheme mandates that all solar components (panels and inverters) be sourced from the [ALMM list](/glossary/almm-list/) (Approved List of Models and Manufacturers) maintained by MNRE. An inverter not on this list fails the DISCOM inspection after installation, and the subsidy is not released.
+1. Load gap = 5 kW minus 3 kW = 2 kW.
+2. Proposed 5 kW is at or below 10 kW, so Rule 7A applies and the licensee carries the 2 kW increase.
+3. Raise the input to 12 kWp and Rule 7A drops away, so the 15-day study clock runs instead.
 
-> **[Phase III ALMM compliance](/blog/almm-list-phase-iii-guide/)** is the current requirement. The list is updated quarterly by MNRE and is available at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}. Before confirming your inverter choice, verify the specific model number appears on the current list, not just the brand name.
+Our [string sizing calculator](/string-sizing-calculator/) handles the array side.
 
-**Fix:** If the rejection is at the application stage due to the vendor proposing a non-listed model, change vendors or request a different inverter model from the same vendor. If the installation has already happened with a non-compliant inverter, the inverter must be replaced before inspection.
+## Documents and bank details that block the transfer
 
-### 4. Ineligible Connection Type
+Document rejections feel random because the set is stage-wise. You supply connection and identity records at application, the vendor supplies technical records after installation, and at disbursal one bank record must survive a check.
 
-PM Surya Ghar subsidies apply to residential/domestic electricity connections only. Commercial, agricultural, or industrial meter categories are not eligible.
+That last one stops approved money. The guidelines require bank account information, plus a cancelled cheque image, bank e-statement, passbook scan, or another electronic document certifying that the account is held by the concerned consumer (MNRE, 2024). Three things must agree: account number, IFSC, and the holder name on the proof. Where the consumer took a loan, the assistance reaches the loan account first and only the excess reaches their own.
 
-**Fix:** If your property genuinely uses a residential connection but it is categorised incorrectly in DISCOM records, apply for connection category correction at the DISCOM office. This is a formal process and may require a site visit by a DISCOM engineer. If the connection is genuinely commercial (a home-based business with a commercial meter), the solar system can still be installed but without the PM Surya Ghar subsidy.
+Fix only the item named in the remark, and upload from your own login. The [document checklist](/blog/pm-surya-ghar-documents-required/) lists what belongs to whom.
 
-### 5. Property Ownership Issue
+## Vendor registration: the failure that paperwork cannot fix
 
-The scheme [requires the applicant to own the roof](/blog/pm-surya-ghar-eligibility/). Tenants, sub-tenants, and encroachers cannot apply. Additionally, some property types require specific documents that are frequently missing.
+Most rejections are correctable. This one is not. The guidelines state that the scheme shall be implemented only through vendors registered on the national portal, and that a consumer has to choose a registered vendor to avail the assistance (MNRE, 2024). The requirement attaches to who did the work, so no retrospective paperwork converts an unregistered installer into a registered one.
 
-**Fix:** Confirm you have a valid ownership document matching the installation site. See the full breakdown in the [PM Surya Ghar documents guide](/blog/pm-surya-ghar-documents-required/) for acceptable ownership proof types by property category.
+Registration has levels, which is where confusion creeps in. Vendors may register with state DISCOMs or agencies, or with the national implementing agency for national or multi-state registration. Where a state has several DISCOMs, one nodal DISCOM registers for all of them. So "we are registered" is incomplete. Registered where is the question.
 
-### 6. Bank Account Mismatch
+Check the portal before any advance payment, and recheck later, since registering authorities can de-register a vendor. Our [registered vendor checklist](/blog/empanelled-vendor-pm-surya-ghar/) covers the steps.
 
-The subsidy is transferred via PFMS directly to the applicant's bank account. If the account name does not match the Aadhaar name, or the IFSC code is invalid, the payment fails and the portal shows a rejection or "subsidy disbursal failed" status.
+## Equipment that fails the technical annexure
 
-**Fix:** Verify your IFSC code on the [RBI website](https://www.rbi.org.in/){target="_blank" rel="noopener"}. Ensure the account is in the applicant's name, not a spouse or parent. If you recently changed banks or branches, update the bank details on the portal before the disbursal stage.
+Equipment rejections split into modules and everything else, and conflating the two wastes weeks. Modules carry two conditions. First, the Domestic Content Requirement: modules must be domestically manufactured from domestically manufactured cells, and non-DCR modules used in any form render the installation ineligible (MNRE, 2024). Second, the annexure requires modules to adhere to the ALMM order. MNRE's ALMM page publishes List-I for modules and List-II for cells, and states that only List-I enlisted modules may be used in government-assisted, net-metering, and open-access projects (MNRE, 2026). List-II for cells was first issued on 31 July 2025, with later orders on commissioning windows, so your cut-off depends on your commissioning date. Our [ALMM explainer](/blog/almm-list-phase-iii-guide/) tracks it.
 
-### 7. PAN-Aadhaar Linkage Failure
+Now the myth. There is no ALMM inverter list. Inverters sit under different requirements in the same annexure. It names the Solar Photovoltaic Inverters Quality Control Order dated 30 August 2017 and its amendments, plus the applicable IEC and BIS standards including IEC 61683, IS 16221 Part 2 and IS 16169. It also requires integrated maximum power point tracking, minimum 20% overload capability, islanding protection, and electromagnetic compatibility to IEC 61000 (MNRE, 2024). Enclosure protection is fixed at IP-54 minimum indoor and IP-65 minimum outdoor.
 
-Subsidies above ₹50,000 require PAN to be linked to Aadhaar, per Income Tax Department requirements. If the portal detects an unlinked PAN, it halts processing at the tax verification stage.
+So an inverter cannot raise your assistance, since the slab follows module capacity irrespective of inverter size, but a non-compliant one can hold the claim at inspection. Qbits publishes IP66 across its [on-grid inverter range](/on-grid-inverter/), above the annexure's outdoor minimum. Pull the exact model datasheet for your DISCOM, not a brochure line.
 
-**Fix:** Link your PAN to Aadhaar through the [Income Tax e-filing portal](https://www.incometaxindiaefiling.gov.in/){target="_blank" rel="noopener"}. The process is free and takes 5 to 10 minutes if your details match. After linking, wait 24 to 48 hours for the system to update before reapplying.
+## Capacity, slab limits, and a prior benefit already claimed
 
-### 8. Technical Feasibility Rejection
+There is no capacity ceiling for eligibility, only on assistance, so a 6 kW system is not rejected for being 6 kW. Prior benefit is the real rejection here. A household that already took assistance under a current or earlier MNRE rooftop scheme, then increases its system, is eligible only on the balance capacity up to 3 kW of overall plant size. The guidelines give the case of a 1 kW Phase II system expanded to 4 kW, where only the additional 2 kW qualifies. Two absolutes sit alongside it: an installation is eligible only once, and a relocated system is not eligible at all.
 
-This is distinct from document rejection. A technical feasibility rejection means the DISCOM engineer determined your roof or connection cannot support the proposed solar system.
+Structure catches a few more files. The plant must sit on a roof, terrace, balcony, elevated structure, or as building-integrated photovoltaics, and an elevated structure needs 8 feet of ground clearance at the lowest point. Off-grid is not eligible. Non-exporting grid-connected systems can be, subject to state commission approval and a reverse power relay check.
 
-Common technical rejection reasons:
-- **Insufficient roof area**: A 3 kW system requires approximately 25–30 square metres of unshaded roof area. A smaller roof may only qualify for a 1 kW or 2 kW system. A professional site survey and land feasibility check before you sign a vendor contract catches this before the DISCOM does.
-- **Structural concern**: Older buildings, terraced structures, or roofs with significant shade may require structural reinforcement that the DISCOM flags as a concern.
-- **Connection load limit**: Your existing sanctioned load may be lower than the proposed system requires.
+## Feasibility rejected on transformer or feeder capacity
 
-**Fix:** Request the feasibility report in writing from your DISCOM. If your roof can support a smaller system, reapply for the smaller capacity. If the structural concern is addressable, get a structural engineer's certificate and submit it with your reapplication.
+A network rejection is not a document problem, so re-uploading files achieves nothing. It says the local infrastructure cannot take the proposed capacity as it stands.
 
-## The 3-Check Rejection Prevention Audit
+The remedy depends on whether your state adopted the 2024 rules, worth knowing before you accept a vendor's estimate. In Maharashtra the regulator inserted a provision covering upgrades needed before installation is complete, including augmentation of the service line or distribution transformer capacity. That work shall be carried out by the distribution licensee, with the cost included in the licensee's annual revenue requirement (MERC, 2024). The Commission kept that provision after a DISCOM asked for consumers to pay.
 
-The vast majority of rejections are preventable with a pre-submission check that takes less than 30 minutes. Run this audit before every application.
+Ask two questions in writing: which network element is the constraint, and under which regulation the cost of strengthening it sits. Metering is the adjacent stall, since the meter goes in only after installation, and in areas awarded under the Revamped Distribution Sector Scheme it must come through the appointed service provider (MNRE, 2024). The [net metering guide](/blog/how-to-apply-net-metering-india/) covers it.
 
-### The 3-Check PM Surya Ghar Rejection Prevention Audit
+## Inspection and commissioning failures
 
-1. **Name consistency check**: Write your exact name from Aadhaar. Compare letter-by-letter against your electricity bill, PAN card, and bank passbook. They must be identical. A different middle name, initial, or suffix counts as a mismatch. Fix mismatches before submitting, do not hope the portal will accept them.
-2. **Document freshness check**: Check the date on your electricity bill. It must be within 90 days of today. Check the ALMM list on MNRE's website for your proposed inverter model number, not just brand. Confirm your PAN-Aadhaar linkage status takes 60 seconds on the income tax portal.
-3. **Bank account active check**: Confirm your bank account is active and can receive NEFT transfers by making a small transfer from another account as a test. An inactive or dormant account will fail the PFMS transfer and look like a rejection.
+Inspection is where a compliant-looking file fails on physical reality. The DISCOM inspects the system, signs the metering agreement, and runs a checklist-based inspection as per the national portal. Assistance is processed only after that verification (MNRE, 2024).
 
-## Reapplication Process: Step by Step
+Three mismatches cause most failures. The installed system differs from the design uploaded to the portal. Components miss the annexure's minimum technical specifications. Or the geo-tagged pre-installation and post-installation photographs do not reconcile with what the inspector sees.
 
-Once you have identified and fixed the rejection reason, reapplication follows this process:
+Performance is testable here. The model consumer-vendor agreement annexed to the guidelines states that the performance ratio must be 75% at commissioning, and held for 5 years.
 
-| Step | Action | Timeframe |
-| --- | --- | --- |
-| 1 | Log in to portal and check if the same application allows document resubmission | Immediately |
-| 2 | If resubmission allowed, upload corrected documents | Same day |
-| 3 | If new application required, gather fresh documents | 1–3 days |
-| 4 | Submit new application with all corrected documents | Same day as gathering |
-| 5 | Monitor status via portal or app | Daily for first 2 weeks |
-| 6 | If stalled at DISCOM for 21+ days, raise a portal grievance | Day 22+ |
+The liability is not yours. Any deficiency leading to non-disbursal or non-commissioning on account of system quality or component issues shall be rectified by the vendor, who also owes free repairs for the 5-year Comprehensive Maintenance Contract period. Send the remark to your vendor citing that clause.
 
-Some DISCOMs allow document correction on the same application within 15 to 30 days of rejection. After that window, a completely fresh application is required. There is no penalty for reapplying, the subsidy budget is not reduced by a previous rejection.
+## How to resubmit, and the escalation route with its clock
 
-## When to Escalate to MNRE
+Work the existing application before creating a new one. The guidelines give the consumer login rights to update installation status, specifications, and documents, and to raise grievances, without relying on the vendor (MNRE, 2024).
 
-If your reapplication is rejected a second time for the same reason, or if your rejection reason is unclear and the DISCOM is unresponsive, escalate to the MNRE level.
+1. Get the recorded reason in writing, with the application number and date.
+2. Identify the owner. Consumer records and bank proof are yours. Technical documents, design mismatches, and components are the vendor's. Network capacity, inspection, and metering are the DISCOM's.
+3. Correct only the named item, from your own login, and ask whether the existing application can be corrected before starting fresh.
+4. If the file has gone quiet, check for dormancy. MNRE may specify a period after which an inactive application is deemed dormant, and a dormant one can be reactivated from the consumer profile.
+5. Never run two applications against one connection. A duplicate collides with the once-only rule.
+6. Escalate if the reason stays unclear. Grievances go through the portal, the app, or the national call centre, and are to be resolved within 30 days under a unique tracking ID.
 
-- **MNRE PM Surya Ghar helpline:** 1800-180-3333 (toll-free, weekdays 9 AM to 6 PM)
-- **CPGRAMS grievance portal:** [pgportal.gov.in](https://pgportal.gov.in/){target="_blank" rel="noopener"} - Ministry of New and Renewable Energy category
-- **State nodal agency:** Each state has an MNRE-designated nodal agency (e.g., TNEDA in Tamil Nadu, GEDA in Gujarat, HAREDA in Haryana) that mediates between applicants and DISCOMs
+Two clocks are worth quoting back. Assistance is to be processed within 15 days of DISCOM approval. And once you file the installation certificate, the licensee is to complete the connection agreement, metering, and commissioning within 15 days (Ministry of Power, 2024). Neither guarantees an outcome. Both give you something to cite.
 
-Include your application reference number, rejection reason, corrected documents, and a timeline of events in any escalation. Well-documented escalations are processed faster than general complaints.
+## The prevention checklist to run before you apply
 
-## Mistakes to Avoid During Reapplication
+Every item is cheaper to check now than after an installer has been paid.
 
-Learning from first-time rejection patterns, these are the mistakes most applicants repeat during reapplication.
+1. Confirm the connection is residential by tariff category, not by address.
+2. Confirm the recorded holder, and whether a transfer is needed first.
+3. Note the sanctioned load and the gap against your capacity.
+4. Confirm the account is live and free of dispute.
+5. Verify the vendor's registration covers your DISCOM's area.
+6. Get module make, model, and DCR position into the contract.
+7. Get the inverter model number and datasheet for the checklist.
+8. Check whether anyone already claimed on this connection.
+9. Check the mounting plan against the ground-clearance minimum.
+10. Enter bank details once, with proof of the applicant's account.
+11. Ask who bears any network strengthening cost, in writing.
+12. Keep your own portal login credentials.
 
-- **Reapplying without verifying all document names**: Fixing the one flagged document without checking all others leads to a second rejection on a different document.
-- **Using the same outdated electricity bill**: A bill that was already old at first submission is now older. Download a fresh one.
-- **Selecting the same non-ALMM-listed inverter**: If the vendor proposes the same model that failed before, change vendors or explicitly confirm the inverter has been recently added to the ALMM list with a list-entry date.
-- **Ignoring post-installation upload requirements**: After installation, you must upload completion photos. Forgetting this step stalls the subsidy disbursal stage even if everything else passed.
-- **Changing bank accounts after submission**: If you changed banks between application and disbursal stage, update your bank details on the portal before the subsidy transfer is initiated.
+## The Bottom Line
 
-## How ALMM-Listed Inverters Prevent Inspection Rejection
+PM Surya Ghar rejections are boringly predictable, which is good news. Almost all are a record, a registration, or a component that fails a published requirement, so work from the rule and the remark on your own file, not a circulating statistic. Rules differ by state and DISCOM and are amended, so treat this page as a map and your DISCOM as the authority.
 
-The most avoidable form of PM Surya Ghar rejection happens at the post-installation inspection stage when the DISCOM engineer finds the inverter is not on the ALMM list. At this point, you have already paid for installation, the cost of correcting the inverter adds ₹25,000 to ₹50,000 to your total project cost.
+- Get the recorded reason in writing, then correct only that item from your own portal login.
+- Settle the three uncorrectable items before installation: a registered vendor, DCR and List-I modules, and a qualifying connection category.
+- Pull the exact inverter model datasheet for the inspection checklist. [Ask Qbits](/contact-us/) for datasheet support on that submission.
 
-Preventing this requires verifying the inverter's ALMM compliance before signing any vendor agreement. Ask your vendor for the ALMM list entry number for the specific inverter model they propose. Cross-check this number on the [MNRE ALMM list portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}.
-
-## Where Qbits Fits
-
-Choosing an ALMM-compliant inverter at the vendor selection stage eliminates the most expensive form of PM Surya Ghar rejection. Qbits inverters carry ALMM Phase III listing, [BIS certification](/blog/solar-inverter-certifications/), and IEC 62116 compliance, all required for PM Surya Ghar inspection clearance.
-
-Three pages that help you select the right system before vendor confirmation:
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series; ALMM certificate numbers available on request for DISCOM submission.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness; also ALMM-listed.
-- **[Empanelled Vendor Guide](/blog/empanelled-vendor-pm-surya-ghar/)**: How empanelled vendors should handle your application; what to verify before signing.
-- **[PM Surya Ghar Status Check](/blog/pm-surya-ghar-status-check/)**: How to monitor your reapplication progress stage by stage.
-
-If your application has been rejected and you need clarity on whether your inverter choice or document set caused the issue, [talk to a Qbits engineer](/contact-us/) before resubmitting, one hour of pre-check prevents weeks of additional waiting.
+**Sources:** [MNRE operational guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/), Annexures 2 and 3 (MNRE, 2024); [MNRE ALMM lists](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) (2026); [Electricity (Rights of Consumers) Amendment Rules, G.S.R. 125(E)](https://powermin.gov.in/en/content/electricity-rights-consumers-amendment-rules-2024) (Ministry of Power, 2024); [MERC Statement of Reasons, Second Amendment](https://merc.gov.in/wp-content/uploads/2024/09/SOR_Second-Amendment.pdf) (2024); and the [national portal](https://pmsuryaghar.gov.in/).

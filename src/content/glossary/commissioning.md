@@ -251,8 +251,6 @@ Commissioning is the formal validation and handover of a completed solar plant. 
 
 ## Need disciplined solar plant commissioning?
 
-QBits Energy provides IEC 62446-compliant commissioning services for residential, C&I and utility solar plants across India, with complete documentation and DISCOM coordination.
-
 ## Further reading
 
 For how Commissioning plays out in real projects, these guides go deeper:

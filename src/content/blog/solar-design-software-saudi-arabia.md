@@ -183,4 +183,4 @@ The Kingdom has world-class irradiance and a tariff structure that punishes usin
 - **Size to the daytime load curve.** Export earns 5 halalas against imports up to 32, so overshoot is close to wasted capital.
 - **Model soiling as a sawtooth.** A flat derate hides the troughs and makes cleaning frequency unoptimisable.
 - **Know which constraint binds.** Roof area and the 5 MW area cap call for opposite spacing decisions.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Saudi site, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

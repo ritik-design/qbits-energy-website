@@ -1,6 +1,6 @@
 ---
 title: "Pylontech Battery India: Review & Pricing"
-excerpt: "Pylontech battery India review 2026: US2000C and US3000C street pricing at time of writing varies by dealer (roughly ₹60,000–₹85,000 per module), plus the 10-year warranty, CAN/RS485 BMS protocol, and compatibility with Qbits hybrid inverters. Full breakdown."
+excerpt: "Pylontech battery India review: US2000C and US3000C street pricing at time of writing varies by dealer (roughly ₹60,000-85,000), 10-year warranty, CAN bus BMS protocol, and hybrid inverter compatibility."
 description: "Pylontech battery India review: US2000C and US3000C street pricing at time of writing varies by dealer (roughly ₹60,000-85,000), 10-year warranty, CAN bus BMS protocol, and hybrid inverter compatibility."
 category: "Comparison"
 date: 2026-06-05
@@ -18,7 +18,7 @@ faqs:
   - q: "What is the price of Pylontech battery in India in 2026?"
     a: "Street pricing at the time of writing varies by dealer, but the quotations we see put the US2000C (2.4kWh) at roughly ₹60,000 to ₹70,000 per module, the US3000C (3.5kWh) at roughly ₹70,000 to ₹85,000, and the US5000 (4.8kWh) at roughly ₹85,000 to ₹1,00,000. Treat these as a starting point for negotiation, not a fixed rate, and ask two distributors for live quotes. As Pylontech is an imported brand, prices are subject to currency fluctuations and import duty changes. Multiple modules can be connected in parallel for larger battery banks - up to 8 US2000C modules for a 19.2kWh bank."
   - q: "Is Pylontech compatible with Indian hybrid solar inverters?"
-    a: "Yes. Pylontech batteries communicate via CAN bus (primary) or RS485 Modbus RTU (secondary). Most quality hybrid inverters used in India, including Qbits HS and HT series, Growatt SPF, Deye, and Solis, support CAN bus or RS485 communication with Pylontech. Verify the battery communication cable and protocol against the inverter's specification before purchase, and confirm the current compatibility list with both manufacturers rather than relying on a general statement. If the link is not established, the inverter runs the battery without BMS data, which is a configuration to avoid on any brand of lithium pack."
+    a: "The retained Qbits documents use QBH identifiers for the published hybrid families. Battery support, MPPT layout, backup behavior, communications and compatibility must be checked for the exact model and firmware; the older HS or HT labels on this page were not retained as evidence."
   - q: "How long does a Pylontech battery last in India's hot climate?"
     a: "The datasheet rating is 6,000 cycles at 80% DoD at 25°C ambient. Sustained high ambient temperature reduces cycle life on any lithium chemistry, and Pylontech does not publish an India-specific figure that we could find. As a planning rule of thumb we derate the rated cycle count for hot sites, which for a battery cycled once a day still points to a life measured in years rather than seasons. Ask the distributor for the manufacturer's temperature-versus-cycle-life curve if the number matters to your payback model. LiFePO4 as a chemistry is more heat-tolerant than VRLA or NMC, and installing the battery indoors or in a shaded enclosure below 35°C is strongly recommended regardless."
   - q: "What is the Pylontech battery warranty in India?"
@@ -39,14 +39,6 @@ This review covers the Pylontech US2000C and US3000C (the two most common reside
 
 > **TL;DR**
 > - Street pricing at the time of writing runs about ₹60,000–₹70,000 per US2000C (2.4kWh) module and ₹70,000–₹85,000 per US3000C (3.5kWh), and both carry a published 10-year/6,000-cycle warranty.
-> - Communication runs over CAN bus (primary) or RS485, and both protocols are natively supported by Qbits HS and HT hybrid inverters with pre-configured battery profiles.
-> - Published LiFePO4 research puts thermal runaway onset around 270°C against roughly 150°C for NMC, which is the main reason the chemistry suits hot Indian installations.
-> - Rated cycle life is 6,000 cycles at 25°C. Expect fewer effective cycles at Indian summer ambient temperatures, still a life measured in years at one cycle per day.
-> - Installing the battery indoors below 35°C rather than on an exposed rooftop or terrace preserves cycle life that sustained heat would otherwise erode.
-> - The US3000C works out cheaper per kWh than the US2000C, since the capacity step up is larger than the price step up.
-> - Any rating or comparative judgement in this review is our own editorial assessment based on installer experience and published datasheets, not measured test data.
-
-> **Direct answer.** Street pricing at the time of writing puts the Pylontech US2000C (2.4kWh) around ₹60,000–₹70,000 per module and the US3000C (3.5kWh) around ₹70,000–₹85,000, varying by dealer. Both carry a published 10-year/6,000-cycle warranty. BMS communication via CAN bus (primary) or RS485 is compatible with Qbits HS and HT hybrid inverters. The 6,000-cycle rating is measured at 25°C; expect fewer effective cycles at Indian summer ambient temperatures, and install indoors to limit heat exposure.
 
 ## Pylontech Battery Models Available in India
 
@@ -103,8 +95,6 @@ If no BMS data link is configured over CAN bus or RS485, the inverter has no cel
 ### RS485 (Modbus RTU)
 
 RS485 is the secondary protocol supported by Pylontech. Some older hybrid inverters and charge controllers support only RS485, not CAN bus. Pylontech's RS485 implementation is broadly compatible with Modbus RTU at 9600 baud, the most common setting in Indian hybrid inverters.
-
-**Compatibility with Qbits HS/HT series:** Both CAN bus and RS485 are natively supported by the Qbits HS and HT hybrid inverter range. Pre-configured Pylontech battery profiles are available in the inverter firmware, no manual register mapping is required.
 
 The [how to choose a hybrid solar inverter guide](/blog/how-to-choose-hybrid-solar-inverter/) covers BMS protocol compatibility in depth for buyers comparing hybrid inverter options.
 
@@ -198,13 +188,10 @@ The [off-grid battery bank sizing guide](/blog/off-grid-battery-bank-sizing-indi
 - **Installing in high-temperature locations**: a battery enclosure on a west-facing terrace in Rajasthan in June runs far hotter than an indoor room, and sustained heat is the main driver of accelerated capacity fade on any lithium pack. Indoors wins on cycle life.
 - **Not budgeting for battery cables and BMS harness**: Pylontech batteries require specific battery interconnect cables and a BMS communication harness. These are not always included in the battery price, confirm with the supplier. Pylontech's official installation guide (available from authorised distributors and at [Pylontech's technical documentation portal](https://www.pylontech.com.cn/)) specifies minimum cable cross-sections and connector ratings for Indian installations. [NREL's battery storage installation guidance](https://www.nrel.gov/docs/fy20osti/74426.pdf) provides additional best practices for thermal management and enclosure requirements that apply to Indian conditions.
 
-## Where Qbits Fits with Pylontech
+## How to verify a Qbits and Pylontech pairing
 
-Qbits HS and HT series hybrid inverters carry native Pylontech compatibility via CAN bus and RS485 protocols. Both the US2000C and US3000C are pre-validated with the Qbits HS-3000, HS-5000, HT-5000, and HT-10000 SKUs.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with Pylontech compatibility, 12-year warranty, IP66, AI WhatsApp monitoring.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Qbits service network for inverter support in 280+ Indian cities.
-- **[Download Datasheets](/download-datasheets/)**: Qbits hybrid inverter datasheets showing Pylontech battery compatibility specifications.
 - **[On-Grid Inverters](/on-grid-inverter/)**: For homeowners not yet ready for battery storage.
 
-[Talk to a Qbits engineer at contact-us](/contact-us/) about the right Pylontech module count and Qbits hybrid inverter pairing for your home load and backup requirement.
+[Ask Qbits and the battery provider for written compatibility](/contact-us/) covering the exact inverter, battery, BMS and firmware versions. Size the battery from the load and backup requirement only after that pairing is approved.

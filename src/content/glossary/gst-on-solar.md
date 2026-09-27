@@ -211,8 +211,6 @@ GST on Indian solar: 12 percent on equipment, 18 percent on services. Adds 12-15
 
 ## Need GST-aware solar cost analysis?
 
-QBits Energy provides project cost analysis incorporating GST, customs duty and tax treatment for Indian residential, C&I and utility solar.
-
 ## Further reading
 
 For how GST on Solar plays out in real projects, these guides go deeper:

@@ -238,8 +238,6 @@ RCCB is the life-safety device that detects earth leakage and trips before elect
 
 ## Need life-safe solar AC distribution?
 
-QBits Energy installs CEA-compliant solar AC distribution with appropriately rated RCCBs, RCBOs and MCBs for residential, C&I and utility solar applications.
-
 ## Further reading
 
 For how RCCB plays out in real projects, these guides go deeper:

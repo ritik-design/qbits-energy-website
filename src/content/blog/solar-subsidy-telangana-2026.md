@@ -26,13 +26,15 @@ faqs:
   - q: "What does Telangana Solar Policy 2021 provide?"
     a: "The Telangana Solar Policy 2021, administered by TSREDCO (Telangana State Renewable Energy Development Corporation), targets utility-scale and commercial rooftop solar expansion. For residential consumers, the 2021 policy provides the regulatory framework supporting net metering and grid connectivity rights but does not include a direct state cash subsidy on top of PM Surya Ghar. TSREDCO facilitates state vendor registration and coordinates with both DISCOMs. Homeowners should check tsredco.telangana.gov.in for any updated state incentives beyond PM Surya Ghar."
   - q: "What documents are required for Telangana solar subsidy?"
-    a: "Required documents for Telangana PM Surya Ghar applications through TSSPDCL or TSNPDCL include: (1) recent electricity bill showing consumer number and DISCOM; (2) Aadhaar card linked to application mobile; (3) PAN card; (4) bank passbook or cancelled cheque linked to Aadhaar; (5) property ownership - registered sale deed, Patta passbook, or property tax receipt from GHMC or Panchayat; (6) for apartments, apartment owners association NOC; (7) rooftop photographs; (8) technical feasibility form from DISCOM-empanelled installer; (9) ALMM certificates for panels and inverter."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How does Hyderabad's large C&I solar market benefit residential buyers?"
     a: "Hyderabad has one of India's largest concentrated commercial and industrial solar markets, driven by the city's tech park installer network, pharmaceutical corridors, and data centre demand. This has created a mature installer network of experienced solar EPCs, quality panel suppliers, and inverter specialists. Residential buyers in Hyderabad benefit from this installer network: more competition among quality installers, access to well-tested system designs, and a larger pool of TSSPDCL-empanelled vendors with genuine DISCOM process experience. Residential buyers should seek vendors with C&I experience for technical quality, while confirming their residential PM Surya Ghar empanelment specifically."
   - q: "What solar irradiance does Telangana receive?"
     a: "Telangana receives approximately 5.0 to 5.6 kWh/m²/day, with higher values in northern and western districts (Nizamabad, Karimnagar, Adilabad: 5.3 to 5.6 kWh/m²/day) and moderate values in Hyderabad (5.0 to 5.2 kWh/m²/day). A 3 kW system in Hyderabad generates approximately 4,800 to 5,100 kWh annually, delivering ₹29,000 to ₹36,000 in annual savings at prevailing TSSPDCL tariffs. Post-subsidy payback for Hyderabad homeowners is typically 3 to 4 years."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Telangana's solar subsidy landscape in 2026 has a distinctive urban dimension that no other state in this series matches in quite the same way: Hyderabad, served by TSSPDCL, is simultaneously a large residential solar market and one of India's most active commercial-industrial solar cities. The residential buyer in Hyderabad benefits from this, a mature installer installer network, well-tested TSSPDCL process knowledge, and competitive pricing from vendors with C&I experience.
 
@@ -63,8 +65,6 @@ The central PM Surya Ghar Muft Bijli Yojana, administered through [pmsuryaghar.g
 
 > **₹78,000.** The maximum central subsidy for a 3 kW residential system, disbursed directly to the homeowner's bank account after DISCOM commissioning is confirmed on the national portal. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-Eligibility requires ALMM-listed panels, [BIS-certified](/glossary/bis-certification/) inverter, and installation by a TSSPDCL or TSNPDCL-empanelled vendor. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains the verification process, particularly important in Hyderabad's large installer market where claims of empanelment need independent confirmation.
-
 ## Telangana Solar Policy 2021: What It Means for Homeowners
 
 The Telangana Solar Policy 2021, administered by TSREDCO (Telangana State Renewable Energy Development Corporation), provides the state's renewable energy development framework. For residential consumers:
@@ -90,8 +90,6 @@ Five sequential steps define the PM Surya Ghar claim process in Telangana.
 1. **PM Surya Ghar portal registration**: Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your TSSPDCL or TSNPDCL consumer number, Aadhaar details, and bank account before installation begins. This creates the subsidy application record in the national system.
 
 2. **DISCOM technical feasibility**: TSSPDCL or TSNPDCL reviews the application and schedules a site visit. Hyderabad's TSSPDCL has developed a relatively efficient process for its high-volume application queue. Timeline: 20 to 30 days in Hyderabad, 30 to 45 days in TSNPDCL's northern districts.
-
-3. **ALMM-compliant installation**: Proceed only after the written DISCOM feasibility approval. ALMM-listed panels and BIS-certified inverter are mandatory. Verify current-quarter ALMM status using the [MNRE ALMM list](https://mnre.gov.in/almm-list/). The [ALMM list guide](/blog/almm-list-phase-iii-guide/) explains the verification process.
 
 4. **Net meter commissioning**: After installation, TSSPDCL or TSNPDCL inspects and installs the bidirectional meter. Hyderabad: 35 to 50 days post-inspection. Northern Telangana: 40 to 60 days.
 
@@ -179,8 +177,6 @@ Under TSERC (Telangana State Electricity Regulatory Commission) net metering reg
 
 Surya Reddy owns a 3 BHK flat on the top floor of a 5-storey apartment in Kondapur, Hyderabad, served by TSSPDCL. His apartment association had already approved solar installations for top-floor residents as part of a building-wide policy. Monthly TSSPDCL bill: ₹3,600 (450–500 units per month with two air conditioners).
 
-**System specification**: 3 kW on-grid, ALMM-listed bifacial monocrystalline panels, BIS-certified IP66 string inverter (Hyderabad's summer heat justifies IP66), rooftop mounting on 195 sq ft shadow-free area (southwest exposure, [installer-optimised tilt angle](https://surgepv.com/3d-solar-roof-design/) for Hyderabad's latitude).
-
 **Costs and subsidies**:
 - Gross system cost: ₹1,92,000 (installed)
 - Central PM Surya Ghar subsidy: ₹78,000
@@ -220,10 +216,7 @@ The [on-grid vs hybrid decision guide](/blog/on-grid-vs-hybrid/) and the [net me
 
 Hyderabad's summer (ambient temperatures of 42 to 47 °C from April to June) is among the most demanding thermal environments for solar inverters in India. Inverters that derate at high ambient temperatures lose output precisely in the highest irradiance months, reducing the annual generation that drives payback calculations.
 
-Qbits inverters are designed to sustain full nameplate output at 45 °C ambient, not just the 25 °C lab spec. IP66 enclosures provide full protection against Hyderabad's summer dust and monsoon humidity. India-grid-tuned firmware handles the TSSPDCL urban distribution network's voltage characteristics across Hyderabad's dense residential zones and the TSNPDCL semi-urban networks in northern Telangana. The 12-year full replacement warranty is the longest standard term in India's residential inverter market, eliminating replacement cost risk across the full productive life of the system. BIS and ALMM compliance ensures PM Surya Ghar eligibility for both TSSPDCL and TSNPDCL applications.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, ALMM-listed, IP66-rated with full 45 °C derating specification, suitable for both TSSPDCL and TSNPDCL applications.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for Hyderabad buyers in areas with peripheral outages or for northern Telangana homeowners who want battery backup.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm panel-string configuration for Hyderabad's high-temperature performance conditions before the TSSPDCL feasibility application.
 
-[Talk to a Qbits engineer](/contact-us/) about your Telangana installation, a thermal spec check, generation estimate for your specific district, and subsidy-adjusted payback calculation takes under 24 hours and positions you to choose confidently between vendors.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

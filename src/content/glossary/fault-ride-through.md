@@ -264,8 +264,6 @@ Fault Ride Through is the grid-code requirement that solar inverters above 10 kW
 
 ## Need FRT-compliant inverter selection?
 
-QBits Energy supports EPCs and developers on FRT-compliant inverter selection, plant controller coordination, and commissioning support across Indian utility and large C&I solar projects.
-
 ## Further reading
 
 For how Fault Ride Through plays out in real projects, these guides go deeper:

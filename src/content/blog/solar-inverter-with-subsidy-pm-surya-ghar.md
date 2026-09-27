@@ -1,332 +1,200 @@
 ---
-title: "Solar Inverter Subsidy: How PM Surya Ghar Works"
-excerpt: "The solar inverter with subsidy under PM Surya Ghar is not a separate payment, it is a lump sum per kW on the complete system. Here is how the math works."
-description: "PM Surya Ghar subsidy covers the full solar system as a lump sum, not the inverter alone. Learn the 3-Layer Subsidy Stack and exact out-of-pocket cost."
+title: "Solar Inverter Subsidy: PM Surya Ghar Rules"
+excerpt: "PM Surya Ghar pays assistance on module DC capacity, not on your inverter. What that means for sizing, hybrid, ALMM and the 5-year CMC."
+description: "How to choose a solar inverter under PM Surya Ghar. The CFA is paid irrespective of inverter size, there is no MNRE inverter list, and the CMC is not the warranty."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
-readTime: "16 min"
-image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
-author: "Akash Hirapara"
+updatedDate: 2026-09-24
+readTime: "12 min"
+image: "/blog-images/solar-inverter-certifications.svg"
+author: "Nirav Dhanani"
 keywords:
+  - solar inverter subsidy
+  - pm surya ghar inverter
   - solar inverter with subsidy
   - pm surya ghar inverter subsidy
-  - almm listed inverter subsidy
-  - pm surya ghar subsidy amount 3kw
-  - solar system subsidy india 2026
 faqs:
-  - q: "Can I buy any inverter separately and claim the PM Surya Ghar subsidy on it?"
-    a: "No. PM Surya Ghar subsidy is not given on individual components purchased separately. The subsidy applies to a complete rooftop solar system - panels, inverter, mounting, and installation - installed by a DISCOM-empanelled vendor as a single contracted project. Purchasing an inverter from a shop and then seeking subsidy reimbursement will result in a rejected claim. The inverter must also appear on the MNRE ALMM list, and the full system must pass DISCOM commissioning inspection."
-  - q: "What is the subsidy on a 3 kW solar system under PM Surya Ghar?"
-    a: "The central government subsidy for a 3 kW system is ₹78,000 - calculated as ₹30,000 per kW for the first 2 kW (₹60,000) plus ₹18,000 for the third kilowatt (₹18,000). This ₹78,000 is a lump sum credited to the homeowner's Aadhaar-linked bank account after DISCOM commissioning. Several states - including Gujarat, Maharashtra, and Uttar Pradesh - add further state subsidies that can reduce the effective out-of-pocket cost by an additional ₹30,000 to ₹60,000."
-  - q: "Does the inverter brand matter for PM Surya Ghar subsidy eligibility?"
-    a: "Yes - the inverter brand and specific model must appear on the MNRE Approved List of Models and Manufacturers (ALMM). If the installer fits an inverter that is not on the ALMM list, the subsidy claim is rejected regardless of how reputable the brand is. Homeowners should verify the proposed inverter model on the live ALMM list at mnre.gov.in before signing any contract. Qbits inverters are ALMM Phase III listed, making them fully eligible."
-  - q: "How soon after installation do I receive the PM Surya Ghar subsidy?"
-    a: "After the DISCOM commissioning inspection and submission of the commissioning certificate on the PM Surya Ghar portal, MNRE targets a 30-day disbursement window. Real-world timelines run 45–60 days in states with efficient DISCOM processing (Gujarat, Maharashtra) and up to 90 days in states where smart meter rollout lags. The subsidy is transferred directly to the bank account linked with your Aadhaar - no intermediary or vendor handle it."
-  - q: "Can I upgrade or replace the inverter after claiming the PM Surya Ghar subsidy?"
-    a: "You can replace a faulty inverter under warranty without affecting the subsidy already received. However, if you voluntarily upgrade to a different model, you must notify your DISCOM. Fitting a non-ALMM inverter as a replacement could create compliance issues during future DISCOM inspections. The safest approach is to replace with the same or an equivalent ALMM-listed model and update the system records with your DISCOM. The subsidy is not reversed because of a post-commission replacement."
-  - q: "Does PM Surya Ghar cover hybrid inverters with batteries?"
-    a: "Yes. A hybrid inverter that is ALMM-listed and installed in grid-tie mode with a net meter qualifies for the full PM Surya Ghar subsidy. The subsidy covers the solar panel and inverter portion of the system. The battery unit and battery cabinet are not subsidised - these are treated as add-ons. A hybrid system gives the additional advantage of power backup during outages while remaining eligible for the full ₹78,000 central subsidy."
-  - q: "Who receives the PM Surya Ghar subsidy - the homeowner or the vendor?"
-    a: "The central PM Surya Ghar subsidy is disbursed directly to the homeowner's Aadhaar-linked bank account - not to the vendor. However, in practice many empanelled vendors offer a net price model: they quote the system at the post-subsidy price (system cost minus expected subsidy), the homeowner pays the net amount upfront, and the vendor claims the subsidy reimbursement from the DISCOM or directly through the portal. Always confirm in writing which model your vendor is using and what happens if the subsidy is delayed."
-  - q: "What is the out-of-pocket cost for a 3 kW solar system after PM Surya Ghar subsidy?"
-    a: "In 2026, a 3 kW residential system costs approximately ₹1,50,000–₹1,80,000 installed. After the ₹78,000 central subsidy, the net out-of-pocket cost is ₹72,000–₹1,02,000. In states with additional state subsidies - such as Gujarat (up to ₹60,000 additional) or Maharashtra (up to ₹45,000 additional) - the effective homeowner cost can fall as low as ₹30,000–₹60,000 for a fully installed 3 kW system. Payback periods in high-tariff cities then compress to under two years."
-  - q: "What happens if my vendor installs a non-ALMM inverter without telling me?"
-    a: "If the installed inverter is not on the ALMM list, the DISCOM will reject the commissioning certificate at the inspection stage - meaning the system cannot be officially commissioned under PM Surya Ghar, and no subsidy is disbursed. You would need to replace the inverter with an ALMM-listed model at your own cost before the system can be recommissioned. This is why verifying ALMM status independently - before installation - is essential. Do not rely on the vendor's verbal assurance."
+  - q: "Does PM Surya Ghar give a separate subsidy for a solar inverter?"
+    a: "No. The central financial assistance under PM Surya Ghar Muft Bijli Yojana is calculated on the rated DC capacity of the solar modules installed, not on the inverter. The MNRE operational guidelines state that the assistance is provided irrespective of the size of the inverter installed. You cannot buy an inverter on its own and claim assistance for it. The inverter is still a mandatory system component and still has to satisfy your DISCOM's grid-connection requirements."
+  - q: "Does a bigger inverter get me a bigger PM Surya Ghar subsidy?"
+    a: "No. Because the assistance is computed on rated DC module capacity and is explicitly independent of inverter size, moving from a 3 kW inverter to a 5 kW inverter changes nothing on the subsidy side. It only changes what you pay the vendor. The residential slab is capped at 3 kW of module capacity, so even extra modules beyond that point add no further central assistance. Size the inverter for the array and the load, then treat the subsidy as fixed."
+  - q: "Must a solar inverter be on the ALMM list for PM Surya Ghar?"
+    a: "No, and this is one of the most repeated errors on the topic. The Approved List of Models and Manufacturers has List I for solar PV modules and List II for solar PV cells, with List II in force from 1 June 2026. MNRE publishes no ALMM list for inverters. Any vendor telling you their inverter is ALMM listed is describing something that does not exist as a requirement for the inverter itself. Ask instead for the model number, the applicable standard test reports and your DISCOM's written acceptance."
+  - q: "Is a hybrid inverter eligible under PM Surya Ghar?"
+    a: "The assistance base is rated DC module capacity, so choosing an inverter with battery capability does not by itself raise or lower the central assistance. A separately quoted battery is not part of that module capacity calculation and is not reimbursed at the same rate. What varies is whether your DISCOM will grant net metering on a hybrid configuration, and on what metering or export conditions. Get that in writing from the DISCOM before you order the hardware."
+  - q: "What is the 5-year CMC under PM Surya Ghar?"
+    a: "The MNRE operational guidelines require a registered vendor to provide a Comprehensive Maintenance Contract for 5 years from the date of commissioning. It is a service obligation owed by the installer, covering the installed system. It is not the same document as the inverter manufacturer's product warranty, which is a separate contract with its own term, remedy and exclusions. Ask for both documents by name, and check what happens to the CMC if the vendor exits the business."
+  - q: "How much central assistance does PM Surya Ghar pay?"
+    a: "Under the published central calculation, assistance is ₹30,000 for the first kW of module capacity, another ₹30,000 for the second, and ₹18,000 for the third, so ₹78,000 at 3 kW and above, according to the Press Information Bureau (2024). Special category states and UTs use ₹33,000 and ₹19,800 in place of those figures. These are scheme amounts, not a promise for any individual application. Always check the figure shown in your own National Portal application before you commit to a purchase."
+  - q: "Does the subsidy reduce the GST on my solar quote?"
+    a: "No. Section 15(2)(e) of the CGST Act excludes subsidies provided by the central or state government from the value of supply. The central financial assistance therefore does not reduce the taxable value on your invoice. Tax is charged on the gross contract value, and the assistance arrives separately once the scheme conditions are met. Ask the vendor for an itemised gross quote with GST shown, and treat the subsidy as a later credit rather than a discount."
+  - q: "What should I check on an inverter datasheet before signing a PM Surya Ghar quote?"
+    a: "Check the exact model number, the maximum DC input voltage, the MPPT voltage window, the maximum DC input current per MPPT, the number of MPPTs, the AC output rating, the ingress protection rating and the model-specific efficiency. Then check that the proposed module string actually fits inside the voltage and current limits at your site's coldest and hottest expected temperatures. A whole-brand claim is not a substitute for the datasheet of the model being installed. Ask for the datasheet as a PDF, not a screenshot in a proposal."
+  - q: "What DC to AC ratio should I use under a capped subsidy?"
+    a: "Since the assistance is fixed by module capacity, the DC to AC ratio becomes a purely economic and engineering choice. A ratio slightly above 1 is common in India because real array output at high cell temperature sits well below nameplate. A ratio far above 1 starts losing output to clipping on cool bright mornings. Run the temperature and loss arithmetic for your own site rather than accepting a rule of thumb from a proposal."
+  - q: "What changed in PM Surya Ghar during 2026?"
+    a: "MNRE reported 26.21 lakh rooftop systems installed and 9.56 GW in place as at 20 March 2026, benefiting 32.4 lakh households. The ministry also removed friction: the technical feasibility requirement was waived, auto load enhancement up to 10 kW was introduced, and the net metering agreement was folded into the National Portal application. RESCO and Utility Led Aggregation models were added. A grievance call centre operates on 15555 in 12 languages."
 ---
 
-Every month, thousands of Indian homeowners ask the same question: "If I am buying a solar inverter anyway, can I at least get the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy on it?" The answer contains a nuance that most installers and many government websites do not explain clearly, and misunderstanding it has cost applicants tens of thousands of rupees in rejected claims.
+Most inverter buying under PM Surya Ghar starts from the wrong question. People ask which inverter carries the largest subsidy. The scheme never prices the inverter, so nothing in it answers that.
 
-The [PM Surya Ghar Muft Bijli Yojana](/glossary/pm-surya-ghar/) subsidy is not a rebate on an inverter. It is not a component-level discount. It is a lump-sum direct benefit transfer tied to a complete, commissioned rooftop solar system (panels, inverter, mounting, cabling, and installation) delivered as a single project by a DISCOM-approved vendor.
+The [MNRE operational guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) are blunt about it. The central financial assistance, or CFA, is provided irrespective of the size of the inverter installed, and is computed on the rated DC capacity of the solar modules. That single line changes the whole inverter decision, and most competing pages miss it.
 
-> **Direct answer.** Under PM Surya Ghar, the solar inverter subsidy is built into a system-level lump sum of ₹30,000 per kW (up to 2 kW) and ₹18,000 per kW (third kW), capped at ₹78,000 for a 3 kW system. You cannot claim subsidy on an inverter purchased separately. The inverter must be ALMM Phase III listed, installed by an empanelled vendor, and pass DISCOM commissioning, only then does the 3-Layer Solar Subsidy Stack deliver the full benefit to your bank account.
-
-Understanding this distinction changes every decision you make: which vendor to hire, which inverter to approve, and exactly what you will pay out of pocket after the government contribution arrives. This guide walks through the mechanics, the maths, and the compliance steps, so you claim every rupee you are entitled to.
+Once the subsidy is fixed by module capacity, the inverter stops being a subsidy question and becomes an engineering and warranty question. This guide covers what the scheme does and does not specify about inverters, which standards bind the hardware, how to pick a DC to AC ratio under a capped subsidy, whether a hybrid changes anything, what a registered vendor owes you for 5 years after commissioning, and what to read on the datasheet before you sign.
 
 > **TL;DR**
-> - [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) is paid on the complete installed system, not on a separately purchased inverter - buying an inverter alone earns nothing.
-> - The maximum central subsidy is ₹78,000 for a 3 kW system: ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW.
-> - The inverter model must be on the MNRE [ALMM Phase III list](/glossary/almm-list/); a non-ALMM inverter blocks the commissioning certificate and the entire subsidy.
-> - State top-ups (Gujarat, Maharashtra, UP, Tamil Nadu, Karnataka) stack on top of the central amount, taking the combined subsidy on a 3 kW system as high as ₹1,38,000.
-> - After the full subsidy stack, a 3 kW system's net out-of-pocket cost can fall to ₹30,000-₹90,000 depending on state, with payback under 14 months in the best cases.
-> - Only DISCOM-empanelled vendors can execute a subsidy-eligible installation - a non-empanelled contractor voids the claim regardless of equipment quality.
+> - The MNRE operational guidelines state the CFA is provided irrespective of the size of the inverter installed, computed on rated DC module capacity.
+> - Published central slabs are ₹30,000 at 1 kW, ₹60,000 at 2 kW and ₹78,000 at 3 kW and above, according to the Press Information Bureau (2024).
+> - There is no ALMM list for inverters. List I covers solar PV modules, List II covers solar PV cells and is in force from 1 June 2026.
+> - A registered vendor owes a Comprehensive Maintenance Contract for 5 years from commissioning. That is not the manufacturer's product warranty.
+> - Section 15(2)(e) of the CGST Act excludes government subsidies from the value of supply, so the CFA does not cut the GST on your invoice.
+> - MNRE reported 26.21 lakh installations and 9.56 GW as at 20 March 2026, with auto load enhancement up to 10 kW now available.
 
-## What the PM Surya Ghar Subsidy Actually Covers
+**Short version.** PM Surya Ghar pays central financial assistance on the rated DC capacity of your solar modules, not on your inverter. The MNRE operational guidelines say the assistance applies irrespective of inverter size. So no inverter choice raises your subsidy. Choose the inverter on string fit, efficiency at your model, service reach and written warranty terms, then treat the subsidy figure as fixed.
 
-The subsidy structure under PM Surya Ghar Muft Bijli Yojana is deliberately simple at the headline level and surprisingly specific in its mechanics. Before going into numbers, it is worth being precise about what the government is (and is not) paying for.
+## What the scheme specifies about inverters, and what it leaves out
 
-**What the subsidy covers:**
+The guidelines set out eligibility, the CFA calculation, vendor registration, the National Portal process and the maintenance obligation. They publish no inverter specification table. The inverter appears as a component of a compliant grid-connected rooftop system, subject to applicable standards and to your distribution company's connection requirements.
 
-- The complete installed rooftop solar system as a contracted project
-- Includes photovoltaic panels, the grid-tie inverter, mounting structure, AC/DC cabling, and installation labour
-- The inverter cost is embedded in the total system cost; there is no line-item breakout of inverter subsidy versus panel subsidy
+That asymmetry is deliberate. Module capacity is the subsidy meter, so the scheme defines it tightly. The inverter is left to the standards regime and the DISCOM, both outside the subsidy document. So no vendor can point to a line in the MNRE guidelines that approves or rejects a specific inverter model.
 
-**What the subsidy does not cover:**
+For the full scheme walkthrough, see our [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/), and for how the ministry's programmes fit together, the [MNRE rooftop solar scheme overview](/blog/mnre-rooftop-solar-scheme/).
 
-- Battery storage units or battery cabinets (even in a hybrid system)
-- System upgrades or capacity additions made after commissioning
-- Components purchased separately outside the empanelled vendor contract
-- Annual maintenance contracts or monitoring software subscriptions
+## The rule most pages get wrong: the CFA does not move with inverter size
 
-This matters because many homeowners arrive at a vendor conversation expecting a simple "20% off the inverter" calculation. The actual mechanism is: the government sets a per-kW subsidy rate, you install a system of a given capacity, and the resulting lump sum is paid into your bank account after the DISCOM verifies the installation. The inverter's cost is absorbed into that system cost, not separately itemised by the government.
+Search results on this keyword are full of advice about picking a bigger inverter for more subsidy, or picking a brand because it is "subsidy approved". Both are wrong under the current guidelines.
 
-| System Size | Subsidy Per kW | Central Subsidy | Approx. Market Cost (2026) | Net Out-of-Pocket |
-| --- | --- | --- | --- | --- |
-| 1 kW | ₹30,000 | ₹30,000 | ₹50,000–₹60,000 | ₹20,000–₹30,000 |
-| 2 kW | ₹30,000 | ₹60,000 | ₹90,000–₹1,10,000 | ₹30,000–₹50,000 |
-| 3 kW | ₹30,000 (first 2 kW) + ₹18,000 (3rd kW) | ₹78,000 | ₹1,50,000–₹1,80,000 | ₹72,000–₹1,02,000 |
-| 5 kW | Capped at 3 kW subsidy | ₹78,000 | ₹2,50,000–₹3,00,000 | ₹1,72,000–₹2,22,000 |
+The CFA is computed on rated DC module capacity, irrespective of inverter size. A 3 kW module array with a 3 kW inverter and the same array with a 5 kW inverter attract exactly the same central assistance. The larger inverter simply costs more.
 
-The 3 kW system represents the best subsidy-to-cost ratio for most residential buyers. Installing above 3 kW yields no additional central subsidy, although the extra capacity is fully eligible for [net metering](/glossary/net-metering/) and export credits.
+Published slabs, per the Press Information Bureau (2024):
 
-> **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW or larger residential system, transferred directly to the homeowner's Aadhaar-linked bank account after commissioning. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
+| Module DC capacity used for the calculation | General central assistance |
+| --- | ---: |
+| 1 kW | ₹30,000 |
+| 2 kW | ₹60,000 |
+| 3 kW and above | ₹78,000 |
 
-## How the DISCOM-Routed Payment Actually Works
+Special category states and UTs use ₹33,000 and ₹19,800 in place of ₹30,000 and ₹18,000, per the same guidelines. Dividing the published outputs by the published formula gives an implied benchmark of ₹50,000 per kW for the first 2 kW and ₹45,000 for the third. That is arithmetic from the formula, not a figure MNRE quotes directly.
 
-The disbursement mechanics of PM Surya Ghar are frequently misunderstood, and that misunderstanding causes friction between homeowners and vendors during project execution. There are two common models in the market. Knowing which one your vendor is using before you sign is essential.
+These are scheme amounts, not a net price and not a promise for any individual application. Acceptance conditions also vary by state and DISCOM. Check the figure on your own National Portal application before you commit.
 
-### Model A: Direct Disbursement to Homeowner
+## Which technical specification the inverter must actually meet
 
-Under this model, the homeowner pays the full system cost upfront to the empanelled vendor. After installation, DISCOM commissioning, and document submission on the national portal, MNRE transfers the ₹78,000 (or the appropriate slab amount) directly to the homeowner's Aadhaar-linked bank account.
+The binding documents sit outside the subsidy guidelines, which require a compliant installation and point to the notified technical specifications rather than reprinting them. So you need two things in writing: standard test evidence for the model, and the DISCOM's connection requirements.
 
-**Process:** Homeowner pays full invoice → Installation and commissioning → Portal document upload → MNRE verifies → Bank transfer to homeowner
+The standard set that normally applies to an Indian rooftop installation includes IEC 62109 for the safety of power converters used in photovoltaic systems, plus IS 732:2019 for wiring practice and IS 3043:2018 for earthing, both from the Bureau of Indian Standards. Safety and supply conditions sit under the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023.
 
-**Timeline to subsidy receipt:** 45–90 days from commissioning certificate submission.
+Your DISCOM then enforces grid interface behaviour. Anti-islanding evidence, ride-through settings and any zero export condition are utility-specific, not scheme-specific. Ask for the model test report and the DISCOM's written acceptance, and expect the answer to differ by state. Our [inverter compliance guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) goes deeper on the standards.
 
-**Advantage:** The homeowner controls the subsidy money directly. There is no dependence on the vendor to pass it on.
+## The ALMM myth: there is no inverter list
 
-**Risk:** The homeowner must have the capital to cover the full system cost upfront before the subsidy arrives.
+This claim circulates widely and is false. Inverters do not need to be on "ALMM List-II" for PM Surya Ghar, because List II is not a list of inverters.
 
-### Model B: Net Price Model (Vendor Deducts Subsidy From Invoice)
+The [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes List I for solar PV modules and List II for solar PV cells, with List II in force from 1 June 2026. MNRE publishes no Approved List of Models and Manufacturers for inverters at all. There is no list to be on, so a brand cannot be on it.
 
-Under this model (which is increasingly common with large empanelled installers) the vendor quotes the net price after subsidy deduction. The homeowner pays the post-subsidy amount at the time of installation. The vendor then claims the subsidy reimbursement through the DISCOM or portal.
+What follows from that:
 
-**Process:** Vendor quotes net price → Homeowner pays net amount → Vendor files for subsidy through DISCOM → Vendor receives reimbursement
+- An "ALMM approved inverter" sticker proves nothing about compliance.
+- The scheme's domestic content conditions run through the module and cell lists, so they give you no test for the inverter.
+- Rejecting a quote because a rival vendor says the inverter is "not ALMM listed" is rejecting it on a criterion that does not exist.
 
-**Advantage for homeowner:** No need to arrange full capital upfront. You pay what you will effectively owe after subsidy.
+Use the model documents instead. The [ALMM glossary entry](/glossary/almm-list/) explains what the lists do cover. Qbits states it is ALMM Phase III listed; treat that as a brand statement and still ask for model-level paperwork.
 
-**Risk:** If the subsidy is delayed or the vendor's claim is rejected (for example, due to a documentation error), the vendor may seek the shortfall from the homeowner. Always get a written clause specifying who bears the risk of subsidy delay or rejection before signing.
+## Worked example: sizing the inverter when the subsidy is capped
 
-The [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the full five-step application process from registration to disbursement for homeowners who want the complete picture.
+Assistance stops growing above 3 kW of module capacity. So the sizing question becomes: given a fixed subsidy, which inverter serves the array best? Here is the arithmetic, with design assumptions labelled.
 
-## The 3-Layer Solar Subsidy Stack: How Your Final Price Is Calculated
+**Inputs.** Six modules of 580 Wp, giving 3,480 Wp DC. Temperature coefficient of power -0.32% per degree C. Assumed cell temperature 55 degrees C, which is 30 degrees above the 25 degrees C standard test condition. Assumed combined soiling, mismatch and cable loss 5%. Inverter efficiency 98%.
 
-Most homeowners know about the central government's ₹78,000 maximum. Far fewer know that this is only the first layer of a subsidy architecture that, in the right state, can dramatically change the economics.
+**Calculation.**
 
-### Layer 1: Central Government Subsidy (PM Surya Ghar)
+1. Temperature derate: -0.32% x 30 = -9.6%, so about 90.4% of nameplate.
+2. 3,480 W x 0.904 = 3,146 W at the array terminals.
+3. System losses: 3,146 x 0.95 = 2,988 W.
+4. Inverter efficiency: 2,988 x 0.98 = about 2,928 W of AC output.
 
-The baseline. Available to all eligible residential electricity consumers across India, regardless of income, through DISCOMs connected to the national portal.
+**Reading.** A 3.0 kW AC inverter is not clipping that array at 55 degrees C. The CFA is ₹78,000 either way, so the only question is what a larger unit buys. It buys headroom on cool bright mornings, and it costs more. The temperature and loss figures are assumptions for illustration, not measured site data. Run them for your own roof.
 
-- ₹30,000 per kW for the first 2 kW
-- ₹18,000 per kW for the third kilowatt
-- Maximum: ₹78,000 for a 3 kW system
-- Capped at 3 kW regardless of installed capacity
+## Choosing a DC to AC ratio when the money is fixed
 
-### Layer 2: State Government Additional Subsidy
+Because the subsidy is fixed by module capacity, the DC to AC ratio is a pure engineering and cost decision. No ratio earns a larger CFA.
 
-Several state governments have announced top-up subsidies that stack directly on top of the central amount. These are administered through State Nodal Agencies and State DISCOMs separately from the central portal.
+| AC rating for a 3,480 Wp array | DC to AC ratio | What it means |
+| --- | ---: | --- |
+| 3.0 kW | 1.16 | Highest inverter use, some clipping risk on cool bright days |
+| 3.3 kW | 1.05 | Modest headroom, little clipping |
+| 4.0 kW | 0.87 | Oversized here, no CFA benefit |
 
-| State | State Top-Up Subsidy | Combined Max (3 kW) |
+Mild DC oversizing is normal in India because real array output sits well below nameplate for most of the day. Push the ratio too far and you lose energy to clipping at the inverter's AC ceiling. Our explainer on [DC oversizing](/blog/dc-oversizing-in-solar/) covers the tradeoff in detail.
+
+## On-grid or hybrid under the scheme
+
+The CFA base is rated DC module capacity. So choosing a unit with battery capability does not by itself raise or lower the assistance, and a separately quoted battery is not part of that calculation.
+
+What changes is the utility side. Whether your DISCOM grants net metering on a hybrid configuration, which meter arrangement it requires and whether it imposes a zero export condition all vary by state and DISCOM. Some utilities accept a battery behind the meter; others want the operating mode documented.
+
+Sequence it properly: settle the backup requirement, confirm the metering treatment with the DISCOM in writing, then order hardware. Doing it the other way round is how projects stall. Compare the two architectures in our [on-grid versus hybrid guide](/blog/on-grid-vs-hybrid/), and if you only need grid export, the [on-grid inverter range](/on-grid-inverter/) is simpler.
+
+## What a registered vendor owes you, including the 5-year CMC
+
+The MNRE operational guidelines put real obligations on the registered vendor, and buyers routinely fail to collect on them. The maintenance contract is the most valuable.
+
+Under the guidelines, a registered vendor must provide a Comprehensive Maintenance Contract for 5 years from the date of commissioning. The guidelines also run a 15-day clock after DISCOM approval and a 30-day clock for grievances. A grievance call centre operates on 15555 in 12 languages.
+
+MNRE reported process changes during 2026. As at 20 March 2026, 26.21 lakh rooftop systems totalling 9.56 GW were installed, benefiting 32.4 lakh households. The technical feasibility requirement was waived, auto load enhancement up to 10 kW was introduced, the net metering agreement was folded into the National Portal application and vendor registration was simplified. RESCO and Utility Led Aggregation models were added. Collateral-free loans were offered at repo rate plus 50 basis points, 5.75% per annum at that date, for up to 10 years. That rate floats with the repo, so confirm it with the lender.
+
+Verify the vendor's current registration for your area on the [official consumer portal](https://pmsuryaghar.gov.in/). Our [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) covers the checks, and the [rejection reasons guide](/blog/pm-surya-ghar-rejection-reasons/) covers what goes wrong.
+
+## Warranty diligence: the CMC is not the manufacturer warranty
+
+Readers conflate these two constantly, and vendors are not always keen to separate them. They are different documents with different counterparties, terms and failure modes.
+
+| | 5-year CMC | Manufacturer warranty |
 | --- | --- | --- |
-| Gujarat | ₹10,000–₹20,000 per kW (up to 3 kW) | ₹1,08,000–₹1,38,000 |
-| Maharashtra | ₹15,000 per kW (up to 3 kW) | ₹1,23,000 |
-| Uttar Pradesh | ₹15,000 per household (flat rate) | ₹93,000 |
-| Tamil Nadu | ₹20,000–₹30,000 (flat, varies by district) | ₹98,000–₹1,08,000 |
-| Karnataka | ₹20,000 per household | ₹98,000 |
-| Rajasthan | State net metering benefit only | ₹78,000 |
+| Who owes it | The registered vendor | The equipment manufacturer |
+| Source | MNRE operational guidelines | The manufacturer's written terms |
+| Scope | Maintenance of the installed system | The product, per its terms |
+| Term | 5 years from commissioning | Set by the manufacturer, varies by model |
+| If the vendor exits | Service cover can lapse | Unaffected, if you hold the paperwork |
 
-State subsidy amounts change with annual budget allocations. Always verify the current rate with your State Nodal Agency before finalising your system budget. [Bridge to India](https://bridgetoindia.com/) research confirms Gujarat consistently leads national residential solar adoption, driven largely by the compounding effect of its combined subsidy structure.
+Collect three things before payment: the signed CMC with commissioning date and scope written out, the manufacturer's written warranty for the exact model including base term, remedy, registration deadline and exclusions, and the fault service route showing who raises the claim and who moves the unit.
 
-### Layer 3: Tax Benefit (Accelerated Depreciation / Section 80 TTA)
+Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model.
 
-For homeowners who run a business or have income that allows capital expenditure deductions, the solar system investment can attract additional tax benefits through accelerated depreciation provisions under the Income Tax Act. While primarily applicable to businesses and self-employed professionals, the residual tax saving adds a third layer to the economics for certain buyer profiles.
+## Reading the inverter datasheet before you sign
 
-**The full stack calculation for a Pune homeowner (Maharashtra, 3 kW system):**
+Ask for the model datasheet as a PDF. A whole-brand claim is not evidence about the unit going on your wall. These fields decide whether the proposed design is even legal on paper.
 
-- Gross system cost: ₹1,65,000
-- Central PM Surya Ghar subsidy: −₹78,000
-- Maharashtra state subsidy: −₹45,000
-- **Net out-of-pocket: ₹42,000**
-- Annual electricity saving: ₹36,000–₹42,000
-- **Effective payback: under 14 months**
+1. **Exact model number.** Series names cover many ratings with different limits.
+2. **Maximum DC input voltage.** A hard ceiling. Exceeding it at cold temperature is a safety problem.
+3. **MPPT voltage window.** Strings below the lower bound will not start.
+4. **Maximum DC input current per MPPT.** High-current modules hit this before the power limit.
+5. **Number of MPPTs.** Sets how many roof orientations you can serve cleanly.
+6. **AC output rating and phase.** Must match the sanctioned load and the DISCOM connection.
+7. **Ingress protection rating.** Qbits lists IP66 across its series in its published product data.
+8. **Model-specific efficiency.** Qbits publishes 98% maximum on the single-phase 1.5 to 4 kW on-grid models, 98.5 to 98.7% by model on the three-phase 5 to 17 kW units, and 97.6% maximum on the 3 to 6 kW single-phase hybrids. Never apply a top-model figure to a whole range.
 
-At that level of subsidy stacking, the decision is not really a financial calculation, it is a question of paperwork and vendor selection.
+A quick voltage check shows why this matters. Take a 580 Wp module with 52.50 V open circuit voltage and a Voc temperature coefficient of -0.24% per degree C. At 5 degrees C, Voc rises to about 55.0 V. On an inverter with a 550 V maximum DC input, 10 modules in series reach about 550.2 V and breach the ceiling, while 9 sit at about 495 V and pass. One extra module added on site can put the string out of specification. Our guide on [reading inverter datasheets](/blog/how-to-read-solar-inverter-datasheets/) covers the rest.
 
-## Why the Inverter Brand Determines Whether You Get Paid
+## Common mistakes
 
-This is the section that saves or costs homeowners ₹78,000. The subsidy eligibility of an entire PM Surya Ghar installation hinges on one specific compliance requirement: the inverter (the exact model, not just the brand) must appear on the MNRE Approved List of Models and Manufacturers ([ALMM list](/glossary/almm-list/)).
+- Buying a larger inverter to chase a larger subsidy. The CFA does not move with inverter size.
+- Treating an "ALMM approved inverter" claim as compliance evidence. No such list exists.
+- Accepting a net price and never seeing the gross, itemised quote.
+- Assuming the CFA reduces GST. Section 15(2)(e) of the CGST Act excludes government subsidies from the value of supply, so tax sits on the gross contract value.
+- Assuming the 5-year CMC and the manufacturer warranty are the same cover.
+- Ordering a hybrid before confirming the DISCOM's metering treatment in writing.
+- Letting an installer add a module after design without rechecking the DC voltage ceiling.
+- Believing any promise of approval or a specific slab. Neither is a vendor's to give.
 
-The ALMM is not a simple registration list. Manufacturers must submit detailed technical documentation, undergo third-party testing against BIS and IEC standards, and maintain ongoing performance commitments with MNRE. The list is updated quarterly. A model that was on the list last year may have been removed if the manufacturer failed to renew compliance.
+## The Bottom Line
 
-### Why Non-ALMM Inverters Kill the Subsidy Claim
+PM Surya Ghar pays on module DC capacity and says so plainly: the assistance applies irrespective of the size of the inverter installed. Once that is settled, the inverter decision is about string fit, model-level efficiency, service reach and written warranty terms. There is no inverter list to check, and no inverter choice raises your subsidy.
 
-When a DISCOM engineer visits your site for the commissioning inspection, one of the first checks is cross-referencing the installed inverter's serial number against the ALMM list. If the model is not listed, the commissioning certificate is not issued. Without the commissioning certificate, there is no document to upload on the portal. Without the portal upload, no subsidy is disbursed.
+Three things to do next:
 
-This is not a procedural technicality that can be appealed or worked around. It is a hard gate. Non-ALMM inverter = no subsidy. No exceptions.
+- Pull the gross itemised quote, confirm the module DC capacity your application claims on, then stop optimising the inverter for subsidy.
+- Collect the signed 5-year CMC and the manufacturer's written warranty for the exact model as two separate documents before releasing payment.
+- Test your module and inverter pairing against real voltage and current limits in the [string sizing calculator](/string-sizing-calculator/), then [talk to our team](/contact-us/) about the model that fits the design.
 
-- **Subsidy eligibility:** ALMM-listed inverter is the non-negotiable requirement
-- **Quality floor:** ALMM compliance means the inverter has passed BIS testing and MNRE technical review
-- **Warranty enforcement:** ALMM manufacturers submit warranty commitments to MNRE, an extra protection layer
-- **Resale value:** A home with ALMM-documented solar is verifiably compliant, which matters during property transactions
-
-### How to Verify ALMM Status Before Installation Begins
-
-1. Go to [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/) or use the equipment verification tool on the PM Surya Ghar portal.
-2. Search the exact model name and capacity as it appears on the inverter's nameplate.
-3. Confirm the listing shows as active and note the revision date, verify against the current MNRE update.
-4. When the inverter arrives on site, match the physical serial number and model number against the ALMM entry before installation begins.
-5. Photograph the nameplate and ALMM entry side by side. Keep this record for your portal submission.
-
-For a broader understanding of how BIS, IEC, and ALMM certifications interact (and what each actually tests) the [solar inverter certifications guide](/blog/solar-inverter-certifications/) on this site covers the full compliance picture.
-
-## What an ALMM-Listed 3 kW Inverter Costs: With and Without Subsidy
-
-Homeowners frequently ask for a direct price comparison between what they would pay with PM Surya Ghar subsidy versus without. The honest answer requires separating component costs from system costs, because the subsidy is on the system, not the inverter alone.
-
-A quality ALMM-listed single-phase 3 kW on-grid inverter from a verified Indian manufacturer typically costs ₹18,000–₹28,000 at the component level in 2026. However, purchasing just the inverter delivers no subsidy. The subsidy unlocks only when the complete system is installed and commissioned.
-
-**Full 3 kW system cost breakdown (installed, 2026 market rate):**
-
-| Component | Estimated Cost Range |
-| --- | --- |
-| Solar panels (3 kW, ALMM-listed) | ₹55,000–₹75,000 |
-| Grid-tie inverter (ALMM-listed, 3 kW) | ₹18,000–₹28,000 |
-| Mounting structure | ₹15,000–₹20,000 |
-| AC/DC cabling, protection devices | ₹10,000–₹15,000 |
-| Installation and commissioning | ₹12,000–₹18,000 |
-| Net metering and DISCOM charges | ₹5,000–₹10,000 |
-| **Total (complete system, installed)** | **₹1,15,000–₹1,66,000** |
-
-These figures are already inclusive of applicable [GST on solar equipment](/blog/gst-on-solar-inverters-2026/), which is charged at a concessional rate compared to standard goods. If your vendor's quote does not clearly state whether GST is included, ask before comparing it against another vendor's number.
-
-After the ₹78,000 central subsidy, the effective cost of the complete system (including the inverter) falls to ₹37,000–₹88,000 depending on your state, vendor efficiency, and system specification. The inverter's share of that remaining cost is ₹0–₹28,000 in real terms, because the subsidy is credited against the system total, not ring-fenced to any single component.
-
-> **30–35 lakh households** had commissioned PM Surya Ghar installations as of Q1 2026 (out of over 1 crore registrations) indicating that the bottleneck is not demand but execution speed at the DISCOM and vendor level. *Source - [Mercom India](https://www.mercomindia.com/), Q1 2026.*
-
-For a detailed financial model of payback, annual savings, and 25-year return under different tariff scenarios, the [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) walks through the complete maths state by state.
-
-## Selecting the Right Inverter Within the Subsidy Framework
-
-Once you understand that the subsidy applies to the system (not just the inverter) the inverter selection decision becomes clearer. You are choosing within a constrained set: the inverter must be ALMM-listed, and the installation must be through an empanelled vendor. Within those constraints, you still have real choices that affect reliability, warranty coverage, and long-term performance.
-
-### Phase III ALMM: The Current Active List
-
-The MNRE ALMM is structured in phases. Phase III is the current active iteration, with more rigorous testing requirements than earlier phases. Manufacturers on Phase III have met updated BIS and MNRE performance standards. When verifying an inverter's ALMM status, confirm it is on the Phase III list, not an earlier phase that may have lapsed.
-
-### Inverter Type for PM Surya Ghar Installations
-
-| Inverter Type | Eligible for Subsidy? | Best For |
-| --- | --- | --- |
-| On-grid string inverter (ALMM-listed) | ✓ Yes | Standard 1–3 kW residential, fastest payback |
-| Hybrid inverter (ALMM-listed, grid-tie mode) | ✓ Yes | Homes wanting backup power alongside subsidy |
-| Off-grid inverter | ✗ No | PM Surya Ghar requires grid connection |
-| Micro-inverter (ALMM-listed model) | ✓ Yes if ALMM-listed | Shaded or multi-orientation rooftops |
-
-For most homeowners installing a 2–3 kW system under PM Surya Ghar, an on-grid string inverter is the recommended starting point: lower upfront cost, faster payback, and simpler commissioning process. The [best solar inverter for home India](/blog/best-solar-inverter-for-home-india/) guide covers how to evaluate options once you have confirmed ALMM eligibility.
-
-### Warranty Depth Matters More Than Most Buyers Realise
-
-The scheme mandates a minimum 5-year warranty on the inverter. However, inverters are expected to last 10–15 years, and the panels they serve typically carry 25-year performance warranties. An inverter that fails in year eight and carries only a 5-year warranty means the homeowner pays the full replacement cost (typically ₹18,000–₹28,000) out of pocket, precisely when the system is still generating strong returns.
-
-The maths on warranty depth for a PM Surya Ghar installation:
-
-**Pros of choosing a 12-year warranty inverter:**
-- ✓ Covers the full expected working life of the inverter without out-of-pocket replacement risk
-- ✓ No capital outlay at the year 5–7 failure window that cheaper inverters frequently hit
-- ✓ MNRE warranty commitments are part of the ALMM submission, longer warranty signals stronger compliance posture
-
-**Cons of settling for a 5-year warranty inverter:**
-- ✗ Likely replacement cost of ₹18,000–₹28,000 in year 6–8
-- ✗ Service availability from manufacturers who exit the market is not guaranteed
-- ✗ Total cost of ownership over 15 years can exceed a premium inverter's initial price differential
-
-The [solar inverter regulations India 2026 guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) provides a detailed breakdown of how BIS certification and MNRE compliance requirements translate into real-world quality guarantees, and what questions to ask your vendor before signing.
-
-## How to Find an Empanelled Vendor and Verify Their Status
-
-The second non-negotiable requirement (after ALMM compliance) is vendor empanelment. Only DISCOM-empanelled vendors are authorised to execute PM Surya Ghar installations. An installation by a non-empanelled contractor, regardless of how competent, does not qualify for the subsidy.
-
-**How to find and verify an empanelled vendor:**
-
-1. Log in to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and navigate to the vendor search by state and district.
-2. The portal lists empanelled vendors with their registration number, contact details, and active status.
-3. Cross-verify the vendor's empanelment number directly with your DISCOM's customer service, not just from the vendor's own marketing materials.
-4. Check how many installations the vendor has completed under PM Surya Ghar, experienced vendors know the inspection and documentation process and avoid the errors that delay commissioning.
-5. If you want a second point of comparison outside the DISCOM's empanelled list, a local solar installer directory can surface EPCs with a track record in your city for reference pricing and reviews.
-
-**Warning signs to watch for:**
-
-- **Vendors who ask you to pay the full amount before feasibility approval**: The DISCOM must approve the application first. Any vendor who installs before approval is creating a problem for your subsidy claim.
-- **Vendors who cannot produce the ALMM model number in writing**: The model number and ALMM listing should be explicitly stated in a proper [itemised quotation](https://quickestimate.co/features/quotation-system/) rather than a verbal estimate or a WhatsApp message.
-- **Unusually low quotes**: Quotes significantly below market rate (below ₹40,000 per kW installed) often indicate sub-standard or non-ALMM components.
-- **No written warranty terms**: The warranty must be documented in the contract with the manufacturer's name, model, duration, and service escalation process.
-
-For homeowners who want to check the empanelled vendor landscape in their district and understand what the empanelment process involves, the [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/) covers the vendor selection step in detail.
-
-## Common Mistakes That Lose the Subsidy
-
-The PM Surya Ghar portal processes millions of applications. DISCOM officers report a consistent cluster of errors that result in delayed or denied claims. Understanding these before you start saves months of frustration.
-
-- **Buying the inverter separately before applying**: The inverter must be part of the complete system installation by the empanelled vendor. A separately purchased inverter will not qualify regardless of its ALMM status.
-- **Installing before DISCOM feasibility approval**: The portal must show a feasibility approval before the vendor begins physical work. Pre-approval installations can fail at the commissioning inspection.
-- **Verbal confirmation of ALMM status**: Always verify the ALMM listing yourself on the MNRE portal. Vendors sometimes quote ALMM compliance for a related model that is listed, while the actual proposed model is not.
-- **Ignoring the smart meter requirement**: A bidirectional [smart meter](/glossary/smart-meter/) is mandatory for PM Surya Ghar commissioning. If your DISCOM has a smart meter supply delay, coordinate early, this is the most common commissioning bottleneck in 2026.
-- **Bank account mismatch**: The bank account submitted on the portal must match the account holder's name exactly. A single digit or initial versus full name mismatch causes the NEFT transfer to fail.
-- **Skipping the NACH mandate**: The portal requires a signed National Automated Clearing House mandate as part of the disbursement paperwork. Missing this document stalls the final step.
-- **Uploading compressed or blurry documents**: Commissioning certificates and inverter nameplates must be legible. Poor-quality scans trigger manual review queues that add weeks.
-
-For homeowners who want to go through the application process step by step, the [PM Surya Ghar apply online guide](/blog/pm-surya-ghar-apply-online/) covers the portal workflow from registration to disbursement.
-
-## Where Qbits Fits in a Subsidy-Eligible Solar System
-
-Qbits Energy on-grid and hybrid inverters are ALMM Phase III listed, which means every Qbits model qualifies the complete installation for the full PM Surya Ghar central subsidy. For homeowners navigating vendor quotes, the ALMM Phase III listing is not just a compliance checkbox; it is a quality signal that the inverter has passed MNRE's current technical standard, not an older or lapsed phase.
-
-Beyond subsidy eligibility, Qbits inverters are built for the conditions that Indian rooftops actually present: voltage fluctuations between 180 V and 270 V common in Tier-2 and Tier-3 [DISCOM](/glossary/discom/) areas, ambient temperatures exceeding 45 °C in summer, and heavy monsoon exposure. IP66 weather protection (a stronger standard than the IP65 that most comparable inverters carry) means the unit is protected against direct water jets, not just rainfall. The 12-year full replacement warranty covers the gap that a subsidy-funded installation creates: you are committed to a 25-year asset, and the inverter needs to outlast the minimum 5-year scheme requirement by a significant margin.
-
-Qbits' AI-powered WhatsApp monitoring alerts homeowners to generation anomalies in real time, which matters specifically for PM Surya Ghar installations because the system's performance data supports any future DISCOM inspections or warranty service requests.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: The TLS and TLD series from 1.5 kW to 50 kW are the natural fit for the PM Surya Ghar residential segment. ALMM Phase III listed, BIS-certified, and grid-tuned for every major Indian DISCOM connection type.
-- **[Hybrid Inverters](/hybrid-inverter/)**: The HS and HT series bring battery-readiness to PM Surya Ghar installations for homeowners who want backup power alongside the subsidy benefit. ALMM-listed in grid-tie mode.
-- **[Residential Solutions](/residential-solution/)**: A complete system view covering panel integration, inverter selection, mounting, and monitoring, packaged for the CAPEX model PM Surya Ghar buyer.
-
-When you are ready to confirm which Qbits model fits your roof size, state DISCOM requirements, and subsidy timeline, [talk to a Qbits engineer](/contact-us/). Most system design reviews and ALMM compliance checks are returned within 24 hours, and if an empanelled vendor has already quoted a system, the team can verify the ALMM status of every proposed component before you commit.
-
-"Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone."
-
-## Financing a PM Surya Ghar Installation: Options When Capital Is Tight
-
-The [CAPEX](/glossary/capex/) model delivers the best long-term return under PM Surya Ghar because the full ₹78,000 subsidy lands in the homeowner's account. But not every homeowner has the capital to cover the gross system cost before the subsidy arrives.
-
-**Three financing approaches that work with PM Surya Ghar:**
-
-1. **MNRE Bank Partnership Loans**: MNRE has formalised partnerships with SBI, Canara Bank, PNB, and Bank of Baroda to offer home loans for PM Surya Ghar applicants at concessional interest rates. These loans are structured with the expected subsidy credited against the outstanding principal at disbursement, reducing the effective loan burden.
-
-2. **Vendor Net-Price Model**: As discussed in the disbursement section, many empanelled vendors offer net pricing where you pay only the post-subsidy amount. This is effectively vendor-financed bridging, though homeowners bear the risk of subsidy timing mismatch.
-
-3. **Rooftop Solar Loan Products**: Several NBFCs and fintech lenders (specifically solar-focused products from Tata Capital, Mahindra Finance, and state-specific institutions) offer purpose-built rooftop solar loans with tenures of 3–7 years at rates between 9% and 13%, calibrated against the payback period of the specific system.
-
-4. **EMI Through the Vendor or a Partner Lender**: Many empanelled vendors now offer a no-cost or low-cost EMI plan on the post-subsidy balance, spreading the ₹42,000–₹1,02,000 net cost over 12–36 months instead of a single upfront payment. The [solar system on EMI guide](/blog/solar-on-emi/) breaks down which financiers offer this and how the maths compares to a lump-sum payment.
-
-For a complete comparison of MNRE-partnered bank loans, NBFC products, and the vendor net-price model (with worked examples of EMI and payback under each) the [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers every scenario.
-
-One important note: avoid RESCO (Renewable Energy Service Company) arrangements if your primary goal is claiming the PM Surya Ghar subsidy. Under RESCO, the registered applicant is usually the RESCO company, meaning the ₹78,000 subsidy flows to them, not to you. The [IEA](https://www.iea.org/reports/solar-pv-global-supply-chains) notes that distributed solar ownership models consistently outperform service-company arrangements in household financial returns over 10–25 year horizons. Own the system, own the subsidy.
-
-## Sizing Your System for Maximum Subsidy Efficiency
-
-The subsidy slab structure rewards a specific sizing decision: a 3 kW system extracts the maximum central subsidy at the best per-kW rate. Going above 3 kW adds cost but no additional central subsidy. Going below 2 kW leaves the second-kW benefit unclaimed.
-
-**A quick sizing check before locking the system size:**
-
-- **Average monthly units consumed**: pull the last 12 months of bills and calculate the monthly average
-- **Target solar fraction**: most homeowners aim for 80–100% offset; divide average monthly units by 120 to estimate the kW needed
-- **Sanctioned load**: your system cannot exceed your sanctioned load; apply for enhancement if needed before filing on the portal
-- **Roof area available**: each kW of solar requires approximately 8–10 sq m of shadow-free south-facing roof; a 3 kW system needs 24–30 sq m
-- **Subsidy optimisation**: if sizing suggests 2.5 kW, rounding up to 3 kW captures the full ₹78,000 subsidy and adds only modest capital cost
-
-For homeowners comparing the performance and financial returns across 3 kW, 5 kW, and 10 kW system configurations (including net metering credit modelling and long-run LCOE) the [3 kW vs 5 kW vs 10 kW solar inverters guide](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) provides a side-by-side analysis.
-
-> **4.5–5.5 peak sun hours per day** is the average irradiance window across most of India's populated regions, giving a 3 kW ALMM-listed system approximately 4,000–5,000 kWh per year, or 333–417 units per month against which the subsidy is calculated. *Source - [NREL National Solar Radiation Database](https://nsrdb.nrel.gov/), India regional data, 2025.*
-
-The [IRENA](https://www.irena.org/Energy-Transition/Technology/Solar-energy) solar energy transition data confirms India's rooftop solar capacity is on track to reach 40 GW by 2030, with PM Surya Ghar the primary driver of the residential segment. The JMK Research market tracker shows over 70% of new residential installations in 2025–26 fell in the 2–4 kW range, confirming the 3 kW sweet spot that the subsidy structure is designed to incentivise.
-
-The combination of the 3-Layer Solar Subsidy Stack, ALMM-compliant equipment, an experienced empanelled vendor, and the right financing model transforms what looks like a ₹1,65,000 capital decision into an effective outlay of ₹42,000–₹90,000 in most states, with payback measured in months, not years. The inverter at the centre of that system is not subsidised in isolation; it is the qualifying condition for the entire benefit.
+**Sources checked 24 September 2026:** [MNRE operational guidelines, residential CFA component](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/); [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/); [PM Surya Ghar National Portal](https://pmsuryaghar.gov.in/); Press Information Bureau (2024) for the CFA slabs; MNRE scheme progress reported March 2026; IEC 62109, IS 732:2019 and IS 3043:2018 (Bureau of Indian Standards); Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023; Section 15(2)(e), CGST Act. DISCOM conditions and model documents still have to be checked per installation.

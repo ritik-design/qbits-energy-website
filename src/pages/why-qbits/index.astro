@@ -6,69 +6,69 @@ import PageHeader from '../../components/ui/PageHeader.astro';
 
 const pillars = [
   {
-    title: '12 Year Warranty',
-    desc: 'A full 12-year replacement warranty on every model up to 30 kW (8 years above 30 kW), backed by pan-India service support. No questions asked - if it fails, we replace it.',
+    title: 'Written Warranty Terms',
+    desc: 'Public material describes an expandable warranty. Obtain the current duration, remedy, registration rules, exclusions, and service responsibilities for the exact model and sale.',
     icon: 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
-    stat: '12',
-    statLabel: 'Years',
+    stat: 'Check',
+    statLabel: 'Terms',
   },
   {
-    title: '98.8% Peak Efficiency',
-    desc: 'Maximum power conversion efficiency ensures you get the most energy from every ray of sunlight. Our advanced MPPT algorithms continuously track the optimal power point.',
+    title: 'Up to 99.02% Maximum Efficiency',
+    desc: 'The 225/320K-EHV datasheet lists 99.02% maximum efficiency. Published values for other Qbits families range from 97.6% to 98.9%.',
     icon: 'M13 10V3L4 14h7v7l9-11h-7z',
-    stat: '98.8',
+    stat: '99.02',
     statLabel: '%',
   },
   {
-    title: 'AI-Powered Monitoring',
-    desc: 'Real-time AI-powered monitoring via WhatsApp, mobile app, and web dashboard. Get instant alerts, predictive maintenance, and performance insights.',
+    title: 'Model-Specific Monitoring',
+    desc: 'Public product material describes monitoring and communication options. Confirm the supplied hardware, interface, available data and user access for the exact model.',
     icon: 'M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
-    stat: '24/7',
-    statLabel: 'Monitoring',
+    stat: 'Check',
+    statLabel: 'Interface',
   },
   {
-    title: 'Built for India',
-    desc: 'Engineered specifically for Indian grid conditions, extreme temperatures (up to 60°C), voltage fluctuations, and dust-heavy environments.',
+    title: 'Project-Specific Limits',
+    desc: 'Check the exact operating-temperature range, grid settings, voltage limits, enclosure rating and installation requirements for the selected model.',
     icon: 'M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064',
-    stat: '60°C',
-    statLabel: 'Rated',
+    stat: 'Model',
+    statLabel: 'Limits',
   },
   {
     title: 'IP66 Protection',
-    desc: 'Superior weather protection with IP66-rated enclosures for complete dust and powerful water jet resistance. Built to last on Indian rooftops.',
+    desc: 'Current Qbits datasheets list IP66 enclosures. This classification does not establish site suitability, mounting method, corrosion resistance or service life.',
     icon: 'M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z',
     stat: 'IP66',
     statLabel: 'Rated',
   },
   {
-    title: 'German IGBT Technology',
-    desc: 'Premium German IGBT technology for reliable power conversion and long operational life. Selected branded components ensure 20+ year lifecycle.',
+    title: 'Model-Specific Engineering',
+    desc: 'MPPT count, input limits, voltage window, efficiency, communication, cooling, and protection features differ across Qbits model families.',
     icon: 'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z',
-    stat: '20+',
-    statLabel: 'Year Life',
+    stat: '1–16',
+    statLabel: 'MPPTs',
   },
 ];
 
 const comparisons = [
-  { feature: 'Warranty', qbits: '12 Years Full Replacement (up to 30 kW)', others: '5-7 Years Limited' },
-  { feature: 'Efficiency', qbits: 'Up to 98.8%', others: '96-97%' },
-  { feature: 'Monitoring', qbits: 'AI + WhatsApp Alerts', others: 'Basic App Only' },
-  { feature: 'Data Storage', qbits: '100% Indian Servers', others: 'Overseas Cloud' },
-  { feature: 'Protection', qbits: 'IP66 + DC/AC SPD', others: 'IP65 Standard' },
-  { feature: 'Start-up Voltage', qbits: '50V DC', others: '80-100V DC' },
+  { feature: 'Warranty', qbits: 'Expandable warranty stated publicly', others: 'Obtain current written terms' },
+  { feature: 'Efficiency', qbits: '97.6% to 99.02% maximum by family', others: 'Compare the exact model value' },
+  { feature: 'Monitoring', qbits: 'Remote monitoring described publicly', others: 'Confirm interface and data handling' },
+  { feature: 'Certificates', qbits: 'Standards and BIS registration shown', others: 'Verify exact model scope and validity' },
+  { feature: 'Enclosure', qbits: 'IP66 listed in current datasheets', others: 'Check installation and environmental limits' },
+  { feature: 'Starting voltage', qbits: '50 V to 550 V by family', others: 'Use the exact string-design value' },
 ];
 
 const trustSignals = [
-  { number: '50,000+', label: 'Installations' },
-  { number: '130+', label: 'Channel Partners' },
-  { number: '33', label: 'States & UTs Served' },
-  { number: '1000+', label: 'Quality Tests' },
+  { number: '1.5–320 kW', label: 'On-Grid Range' },
+  { number: '3–12 kW', label: 'Hybrid Range' },
+  { number: '1–16', label: 'MPPTs By Model' },
+  { number: 'IP66', label: 'Published Enclosure' },
 ];
 ---
 
 <Layout
   title="Why Qbits | Qbits Energy"
-  description="Discover why Qbits is India's trusted solar inverter brand. 12-year warranty up to 30 kW, 98% efficiency, AI monitoring, IP66 protection, and built for Indian conditions."
+  description="Compare Qbits inverter families using published efficiency, MPPT, voltage, enclosure, monitoring, certificate, and warranty information."
   canonical="/why-qbits/"
 >
   <HeaderV2 />
@@ -140,7 +140,7 @@ const trustSignals = [
             <span class="w-8 h-px bg-brand-500"></span>
           </span>
           <h2 id="compare-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
-            Qbits vs. The Competition
+            What The Published Data Shows
           </h2>
         </div>
         <div class="max-w-3xl mx-auto">
@@ -171,19 +171,19 @@ const trustSignals = [
         <div class="text-center max-w-2xl mx-auto mb-16">
           <span class="section-label justify-center">
             <span class="w-8 h-px bg-brand-500"></span>
-            Certified Quality
+            Published Standards
             <span class="w-8 h-px bg-brand-500"></span>
           </span>
           <h2 id="cert-heading" class="text-3xl sm:text-4xl font-bold text-slate-900 mt-6">
-            Standards We Meet
+            Verify Model Scope And Validity
           </h2>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
           {[
-            { code: 'BIS', name: 'Bureau of Indian Standards', desc: 'Mandatory certification for solar inverters sold in India.' },
-            { code: 'IEC', name: 'IEC 62109 / 62116', desc: 'International safety and anti-islanding standards compliance.' },
-            { code: 'ISO 9001', name: 'Quality Management', desc: 'Certified quality management system in manufacturing.' },
-            { code: 'CE', name: 'European Conformity', desc: 'Meets EU health, safety, and environmental standards.' },
+            { code: 'BIS', name: 'Registration shown in catalogue', desc: 'Verify the exact model scope and current validity.' },
+            { code: 'IS', name: 'IS 16221 / IS 16169', desc: 'Standards cited in published Qbits product documents.' },
+            { code: 'IEC', name: 'IEC 62109 / IEC 62116', desc: 'Standards cited in published Qbits product documents.' },
+            { code: 'Docs', name: 'Model-specific evidence', desc: 'Request current certificates and reports before approval.' },
           ].map(cert => (
             <div class="bg-slate-50 rounded-2xl p-8 text-center cert-card">
               <div class="w-16 h-16 mx-auto rounded-2xl bg-brand-500 flex items-center justify-center text-white text-xl font-bold mb-5">
@@ -204,7 +204,7 @@ const trustSignals = [
       <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
       <div class="container-main relative text-center max-w-3xl">
         <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">Ready to Make the Switch?</h2>
-        <p class="text-lg text-brand-100 mb-10">Join thousands of satisfied customers who trust Qbits for their solar energy needs.</p>
+        <p class="text-lg text-brand-100 mb-10">Compare the exact model documents, project fit, written warranty and local service route before choosing a Qbits inverter.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="/our-products/" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-brand-600 shadow-lg hover:bg-brand-50 transition-all">Explore Products</a>
           <a href="/contact-us/" class="btn-outline">Contact Us</a>
@@ -215,4 +215,3 @@ const trustSignals = [
 
   <Footer />
 </Layout>
-

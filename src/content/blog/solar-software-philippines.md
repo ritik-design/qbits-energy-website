@@ -170,4 +170,4 @@ The Philippine opportunity got ten times larger in April 2026 and the tooling ha
 - **Price export at the generation rate.** Roughly PHP 5 to 6 per kWh for Meralco, about half of retail, and pricing it at retail recommends the wrong system size.
 - **Match generation to an hourly load curve.** Essential at commercial scale, and the capability most residential tools lack.
 - **Produce bankable yield reporting.** Commercial buyers and financiers ask for it and residential-focused tools generally do not.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Philippine site, or reach the Qbits team [here](/contact-us/) for PEC-compliant inverter specification.
+

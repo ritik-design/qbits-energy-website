@@ -35,6 +35,8 @@ faqs:
     a: "After a successful form submission, you receive an SMS and email with your Application ID and a submission timestamp. The portal dashboard shows the application status as 'Submitted - Awaiting DISCOM Review'. If you do not receive the SMS within 10 minutes of submission, log out and log back in to check your dashboard. If the application does not appear in your dashboard, do not resubmit - instead call the helpline at 1800-180-3333 with your registered mobile number; the backend team can confirm whether the submission was recorded."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Searching for a solar panel subsidy form download leads most homeowners to a tangle of state portals, PDF links that no longer work, and forum threads that reference outdated processes. The reason for the confusion is straightforward: the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy application in 2026 is not a downloadable paper form, it is an end-to-end online process on pmsuryaghar.gov.in. But it works exactly like a structured form, and filling it correctly the first time is what separates applicants who get their subsidy in 45 days from those who spend months resolving rejections.
 
 > **TL;DR**
@@ -181,7 +183,6 @@ The portal displays a filtered list of empanelled vendors based on your state an
 
 - **Verify empanelment is current**: empanelment can lapse. Even if a vendor shows on the list today, confirm their registration expiry date with the vendor directly.
 - **Check installation count**: vendors with more completed PM Surya Ghar installations understand the portal submission requirements, which is as important as their technical competence.
-- **Verify ALMM compliance**: contact 2 to 3 shortlisted vendors and ask them to share the ALMM certificate numbers for the specific solar panel and inverter models they propose. Cross-check against the live MNRE ALMM list at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}.
 
 The [ALMM list guide](/blog/almm-list-phase-iii-guide/) explains how to read the MNRE list and verify specific model compliance. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) provides additional criteria for evaluating vendor credibility beyond their portal registration status.
 
@@ -248,11 +249,6 @@ For a full list of state-specific supplementary forms (Gujarat Surya Gujarat for
 
 The solar subsidy form process ultimately funds an inverter and panel installation that must perform for 25 years. Equipment selection at the time of filling Section 3 (system type) and Section 6 (installer selection) determines both whether your application clears DISCOM review and whether the system delivers on the promised bill savings over its full life.
 
-Qbits inverters are built for both requirements: ALMM Phase III listing and BIS certification mean they clear DISCOM technical review; 12-year full replacement warranty, IP66 weather protection, and AI-powered WhatsApp monitoring mean they deliver through 45 °C summers and monsoon seasons for the full system lifespan.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, ALMM-listed, 1.5 kW to 50 kW, designed for PM Surya Ghar residential applications from small apartments to large independent homes.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for applicants who need backup during power cuts alongside their grid-connected subsidy-eligible system.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: enter your proposed panel count to confirm the right inverter model before your installer files the portal proposal.
 - **[PM Surya Ghar Subsidy Amount Guide](/blog/pm-surya-ghar-subsidy-amount/)**: full breakdown of subsidy amounts by system size and state, to confirm how much your Section 3 capacity selection will yield.
-
-[Talk to a Qbits engineer](/contact-us/) before your installer finalises the system specification for the portal, a 20-minute consultation confirms your proposed inverter model is ALMM-listed, correctly sized for your sanctioned load, and matched to your roof's panel configuration. Most consultations come back within 24 hours.

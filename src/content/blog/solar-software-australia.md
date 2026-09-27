@@ -171,4 +171,4 @@ Australian solar became a self-consumption business and a lot of software is sti
 - **Make self-consumption the headline.** Export earns a fraction of retail, so annual kWh no longer predicts the customer's saving.
 - **Model batteries in the main comparison.** They are how self-consumption rises, and asserting the benefit without simulating it does not close jobs.
 - **Calculate STCs rather than hard-coding them.** Zone, size and deeming period all move the number.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring an Australian address, or reach the Qbits team [here](/contact-us/) for AS/NZS 4777.2 compliant inverter and battery specification.
+

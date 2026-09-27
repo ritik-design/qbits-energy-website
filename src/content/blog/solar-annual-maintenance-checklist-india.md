@@ -33,7 +33,9 @@ faqs:
 updatedDate: 2026-07-08
 ---
 
-Your solar system is a 25-year financial asset. The panels carry a 25-year performance warranty, the inverter a 5–12 year warranty, and the mounting structure a 10-year structural guarantee. But warranties cover manufacturing defects, not the gradual degradation caused by India's demanding climate. Dust storms, monsoon humidity, roof temperature swings of 40 °C between night and day, coastal salt aerosols, and the persistent threat of rodents in cable conduits all work continuously to erode the performance of a system that was installed correctly on day one.
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+Your solar system is a 25-year financial asset. The panels carry a 25-year performance warranty, the inverter a 5–model-specific written warranty, and the mounting structure a 10-year structural guarantee. But warranties cover manufacturing defects, not the gradual degradation caused by India's demanding climate. Dust storms, monsoon humidity, roof temperature swings of 40 °C between night and day, coastal salt aerosols, and the persistent threat of rodents in cable conduits all work continuously to erode the performance of a system that was installed correctly on day one.
 
 According to the [International Energy Agency's India Energy Outlook](https://www.iea.org/){target="_blank" rel="noopener"}, India's rooftop solar installed base crossed 14 GW in 2024, and the systems commissioned in 2018–2021 are now entering the 5–7 year maintenance window where undetected component degradation begins to have measurable financial impact. The [International Electrotechnical Commission IEC 62446-1](https://www.iec.ch/){target="_blank" rel="noopener"} standard for grid-connected PV systems mandates a minimum annual inspection covering string voltage testing, earthing verification, and insulation resistance checks. India's [Central Electricity Authority (CEA)](https://cea.nic.in/){target="_blank" rel="noopener"} similarly requires periodic insulation and earthing tests under its Technical Standards for Construction of Electrical Plants.
 
@@ -227,10 +229,6 @@ Annual maintenance involves both homeowner-safe tasks and tasks that require qua
 - Inverter display showing a critical fault code (not self-clearing)
 - Repeated automatic shutdowns more than 5 times in a single day
 - Water visible inside the inverter enclosure or junction boxes
-
-For on-grid inverter support, the [on-grid inverter](/on-grid-inverter/) page lists Qbits' authorised service network contacts. For hybrid inverter support including battery, the [hybrid inverter](/hybrid-inverter/) page covers the full service pathway.
-
-[Contact the Qbits service team](/contact-us/) to schedule an annual inspection with a Qbits authorised service partner, the team covers over 280 cities with a 72-hour response commitment on maintenance requests.
 
 ## The 4-Season Solar Maintenance Calendar: Summary
 

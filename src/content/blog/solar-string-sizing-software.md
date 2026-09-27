@@ -91,8 +91,6 @@ SurgePV applies the relevant code margin based on the project's site location. F
 | Aurora | Yes | Yes | Limited | No |
 | OpenSolar | Limited | Limited | Limited | No |
 
-For installers using Qbits or other hybrid inverters, SurgePV's auto-sizing handles the DC-side battery charge controller behaviour that simpler calculators miss. For inverter-specific string sizing reference inputs, see [Qbits string sizing notes](https://qbitsenergy.com/string-sizing-calculator/).
-
 ## Common String Sizing Mistakes
 
 1. **Using STC values without temperature correction**. Cold-Voc check fails in real conditions.

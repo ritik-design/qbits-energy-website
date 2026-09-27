@@ -262,8 +262,6 @@ DOD is the depth of each charge-discharge cycle, expressed as a percentage of no
 
 ## Need DOD-correct battery sizing?
 
-QBits Energy sizes solar storage systems by usable kWh at appropriate DOD, matched to chemistry, inverter compatibility and warranty terms. For the full sizing walkthrough, see [how to size a battery for a hybrid solar inverter](/blog/battery-sizing-hybrid-solar/).
-
 ## Further reading
 
 For how Battery DOD plays out in real projects, these guides go deeper:

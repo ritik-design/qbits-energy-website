@@ -31,6 +31,8 @@ faqs:
     a: "For a manufacturing unit that owns its building and operates on a 10+ year horizon, CAPEX is almost always better. The IRR on CAPEX (18–25%) significantly exceeds the savings from OPEX (20–35% bill reduction). The factory also gains an appreciating asset, the depreciation benefit, and no dependency on the RESCO's long-term viability. OPEX makes sense for the same factory if it operates on a short lease, capital is constrained, or the management policy prohibits non-core capex."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 Two factory owners. One owns a 10,000 sq ft industrial shed in Pune. The other rents a similar facility in Surat on a three-year rolling lease. Both are paying ₹10 per unit for electricity. Both have 150 kW of usable rooftop area. Both want to reduce energy costs.
 
 For the Pune owner: CAPEX, buy the solar system outright, own the asset, claim accelerated depreciation, earn an IRR of 20%+.
@@ -201,15 +203,11 @@ Read the [zero cost solar RESCO and OPEX models guide](/blog/zero-cost-solar-res
 
 ## Where Qbits Fits
 
-Qbits serves the CAPEX ownership model, providing commercial-grade 3-phase inverters with 12-year full replacement warranty, IP66 industrial enclosures, and AI WhatsApp monitoring for C&I buyers who choose to own their solar system.
-
-For factories, warehouses, schools, and commercial buildings that have answered Yes to all four questions in the CAPEX vs OPEX Test, Qbits delivers the inverter component with the deepest service coverage in India, a 72-hour RMA SLA across a network covering 280+ cities.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD 3-phase series from 20 kW to 125 kW for commercial and industrial installations.
-- **[C&I Solutions](/c-i-solution/)**: end-to-end commercial solar solutions with site assessment, system design, and ALMM-compliant equipment.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for C&I buyers who want battery backup for essential loads.
-- **[Authorised Service Partners](/authorized-service-partners/)**: nationwide service network for the full 12-year warranty period.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current three-phase families and exact-model limits for the commercial design.
+- **[C&I Solutions](/c-i-solution/)**: Ask which project services are available and obtain the responsible party, deliverables, exclusions and fees in writing.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
 For factories and commercial buildings that need engineering drawings and structural sign-off before a CAPEX installation begins, Heaven Designs' solar civil and structural engineering service covers the rooftop load and staad-pro calculations most lenders and municipal authorities require.
 
-[Request a commercial site assessment](/contact-us/), Qbits engineers can model the CAPEX IRR for your specific site, load profile, and tariff, and compare it against the OPEX scenario in a single structured proposal.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

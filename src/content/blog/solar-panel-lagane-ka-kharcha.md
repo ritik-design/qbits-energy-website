@@ -23,7 +23,7 @@ faqs:
   - q: "PM Surya Ghar subsidy 5 kW पर भी ₹78,000 ही क्यों मिलती है?"
     a: "PM Surya Ghar Muft Bijli Yojana की central financial assistance 3 kW पर cap हो जाती है। Structure यह है: पहले 2 kW पर ₹30,000 प्रति kW, यानी ₹60,000, और तीसरे kW पर ₹18,000। Total maximum ₹78,000। इसके ऊपर की capacity पर कोई अतिरिक्त central subsidy नहीं मिलती। इसलिए 5 kW लगवाने वाले को भी वही ₹78,000 मिलते हैं जो 3 kW वाले को मिलते हैं, और extra 2 kW का पूरा खर्च खुद उठाना पड़ता है।"
   - q: "Kya subsidy wale system mein ALMM aur DCR panel zaroori hai?"
-    a: "हाँ। PM Surya Ghar subsidy के लिए ALMM (Approved List of Models and Manufacturers) में listed modules और inverters चाहिए, और residential subsidy component में DCR (Domestic Content Requirement) panels यानी India में बने cell और module अनिवार्य हैं। Non-DCR या imported panel सस्ता दिख सकता है लेकिन उस पर subsidy claim reject हो जाती है। Quote लेते समय ALMM listing number और DCR declaration written में माँगें। एक 2026 update ध्यान रखें: MNRE ने 'Give It Up' option दिया है जिसमें अगर आप subsidy छोड़ देते हैं तो non-DCR modules इस्तेमाल कर सकते हैं। यानी DCR सिर्फ subsidy लेने वालों पर बाध्य है, subsidy छोड़ने वालों पर नहीं।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "Solar inverter par GST kitna lagta hai?"
     a: "Solar inverters पर GST 12% लगता है। Panels और balance of system components पर भी concessional rate applicable होता है, लेकिन installation service component का treatment अलग हो सकता है। इसलिए quote में हमेशा पूछें कि figure GST inclusive है या exclusive। एक ₹1.8 lakh का quote अगर GST exclusive है तो final bill ₹2 lakh के आसपास पहुँच जाता है।"
   - q: "Net metering ka kharcha kitna hota hai?"
@@ -34,6 +34,10 @@ faqs:
     a: "अगर monthly bill ₹1,500 से ₹2,500 के बीच है तो 3 kW सही fit है और subsidy per rupee सबसे ज्यादा value देती है। ₹4,000 से ऊपर bill, AC load, या आगे EV charging का plan हो तो 5 kW बेहतर है, यह मानकर कि extra 2 kW पर कोई subsidy नहीं मिलेगी। Roof area भी देखें: 3 kW को लगभग 200 से 250 sq ft shadow-free area चाहिए और 5 kW को 330 से 400 sq ft।"
 featured: false
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।
+
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
 
 Solar लगवाने की सोच रहे हैं तो सबसे पहला सवाल यही आता है: solar panel lagane ka kharcha आखिर कितना है। Problem यह है कि जो number आपको WhatsApp पर मिलता है वह अक्सर सिर्फ panel और inverter का होता है। असली bill में structure, cable, conduit, earthing, lightning arrestor, net metering fee, labour, transport और AMC भी जुड़ते हैं। यही वजह है कि ₹1.5 lakh का quote final settlement में ₹1.9 lakh बन जाता है और buyer को लगता है कि उसे ठगा गया। यह guide उस पूरे bill को line by line खोलती है, 3 kW और 5 kW दोनों के लिए, फिर [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy घटाकर बताती है कि जेब से actually कितना जाएगा।
 
@@ -68,7 +72,7 @@ Solar लगवाने की सोच रहे हैं तो सबस�
 | Line item | 3 kW range | 5 kW range |
 | --- | --- | --- |
 | Solar modules (DCR, ALMM listed) | ₹66,000–₹87,000 | ₹1,10,000–₹1,45,000 |
-| On-grid inverter (ALMM Phase III) | ₹22,000–₹35,000 | ₹35,000–₹55,000 |
+
 | Mounting structure (GI, standard height) | ₹15,000–₹21,000 | ₹24,000–₹34,000 |
 | DC cable, AC cable, MC4 connectors | ₹7,000–₹12,000 | ₹11,000–₹18,000 |
 | Conduit, cable tray, clamps | ₹4,000–₹9,000 | ₹6,000–₹12,000 |
@@ -144,7 +148,6 @@ PM Surya Ghar Muft Bijli Yojana की central financial assistance का struc
 
 Subsidy सिर्फ इसलिए नहीं मिलती कि आपने solar लगवा लिया। तीन conditions हैं जो अक्सर rejection की वजह बनती हैं।
 
-1. **ALMM listed modules और inverter।** Approved List of Models and Manufacturers में product का model number होना चाहिए, brand का नाम काफी नहीं है।
 2. **DCR panels।** Residential subsidy component में domestically manufactured cell और module अनिवार्य हैं। Imported panel per watt सस्ता पड़ता है लेकिन subsidy खत्म कर देता है।
 3. **Empanelled vendor।** Installation registered vendor से होनी चाहिए, नहीं तो portal पर claim आगे नहीं बढ़ती। [Empanelled vendor कैसे verify करें](/blog/empanelled-vendor-pm-surya-ghar/) में checklist है।
 
@@ -160,8 +163,6 @@ Rejection की बाकी common वजहें [PM Surya Ghar rejection re
 ## Ek Worked Example: Illustrative Hisab
 
 यह example illustrative है, किसी real customer का data नहीं। मान लीजिए Ahmedabad में एक घर, monthly bill ₹2,200, roof पर 260 sq ft shadow-free area, inverter ground floor के meter room में।
-
-**System:** 3 kW on-grid, 6 modules of 545 W, ALMM listed DCR panels, ALMM Phase III on-grid inverter।
 
 | Line item | Amount |
 | --- | --- |
@@ -196,15 +197,13 @@ Payback = ₹1,03,000 ÷ ₹27,000 ≈ 3.8 साल। इसमें AMC ₹3
 | Inverter warranty tier | +₹8,000 से ₹15,000 | 5 साल vs 12 साल replacement warranty |
 | Coastal या heavy monsoon location | +₹5,000 से ₹12,000 | Galvanisation grade, IP66 inverter, better earthing |
 
-इनमें से जिस line पर कटौती करना सबसे महँगा साबित होता है वह inverter warranty tier है। ₹10,000 बचाकर 5-year warranty वाला inverter लेने पर आठवें या नवें साल में ₹25,000 का replacement खड़ा हो जाता है। Qbits के on-grid inverters पर 12-year full replacement warranty, IP66 enclosure और 150 से 270V input range मिलती है, जो Indian grid के voltage swings के लिए tuned है। [On-grid inverter range](/on-grid-inverter/) और [residential solution page](/residential-solution/) पर specs हैं।
-
 ## Quote Compare Karne ka Sahi Tarika
 
 तीन quotes लेना काफी नहीं है, तीनों को एक ही scope पर लाना जरूरी है। यह करें:
 
 1. **Line-item quote माँगें**, "turnkey" एक line वाली quote reject करें।
 2. **GST inclusive या exclusive** लिखवाएँ, verbal confirmation पर भरोसा न करें।
-3. **ALMM model number** दोनों, module और inverter का, quote पर लिखा हो।
+
 4. **DCR declaration** written में लें अगर subsidy claim करनी है।
 5. **Earth pits की संख्या और lightning arrestor** का explicit mention हो।
 6. **Structure का steel grade और elevation** mm में लिखा हो।
@@ -234,11 +233,11 @@ Sirf inverter ka rate dekhna ho to [solar inverter ka rate](/blog/solar-inverter
 
 - 3 kW ghar system का all-in kharcha ₹1.55 lakh से ₹2.10 lakh है, और PM Surya Ghar subsidy ₹78,000 के बाद net ₹77,000 से ₹1.32 lakh बचता है।
 - Subsidy 3 kW पर cap है, इसलिए 5 kW लेने का फैसला subsidy पर नहीं, अपनी actual consumption और roof area पर करें।
-- अगला step: line-item quote माँगें, ALMM और DCR written में confirm करें, फिर [Qbits engineer से free consultation](/contact-us/) लेकर अपने घर का exact hisab निकलवाएँ।
+[Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 <div class="inline-cta">
 <h3>Line-Item Quote Chahiye, Guesswork Nahi</h3>
 <p>Hum aapko poora breakdown dete hain: modules, inverter, structure, earthing, net metering, AMC, sab alag alag। Subsidy ke baad net figure bhi saath mein।</p>
 <a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">ALMM listed equipment, 12-year inverter warranty।</p>
+
 </div>

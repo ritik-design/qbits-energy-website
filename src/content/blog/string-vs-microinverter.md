@@ -33,6 +33,10 @@ faqs:
     a: "A rooftop with a water tank or parapet wall casting partial shade on panels benefits from either microinverters or a string inverter with power optimisers rather than a basic single-MPPT string inverter. The first step is conducting a shade analysis using a solar pathfinder or software such as PVsyst to quantify the annual energy loss from shading. If the shade loss exceeds 8–10 percent, per-panel technology pays back its cost premium. If the loss is under 5 percent - common when panels are positioned to avoid the shade envelope - a dual-MPPT string inverter is sufficient and far more cost-effective."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Walk onto any flat Indian rooftop and you will find the same scene: a concrete parapet on the south edge, a water storage tank on the north-west corner, and a staircase headroom breaking the sightline to the east. Solar panels have to share that space with all of it, and every bit of shadow that lands on a panel during the day costs you generation. The inverter you choose determines exactly how much that shadow costs you.
 
 The string vs microinverter debate is not a global technology question. In Europe and North America, where roofs are pitched, uniform, and often shade-free, the calculus is different. In India (where flat concrete roofs are the default, shading sources multiply with every floor added to the building, and a service technician in Nagpur or Coimbatore needs to be able to fix the system) the decision requires a very different set of inputs.
@@ -47,7 +51,6 @@ The third option (a [string inverter](/glossary/string-inverter/) paired with pe
 > - Run the 4-step Indian Roof Shade Assessment first: shade losses under 5 percent favour a string inverter, 5–10 percent suit power optimisers, above 10 percent justify microinverters.
 > - Microinverter service coverage is concentrated in Tier-1 cities; Tier-2/3 warranty claims can take two to four weeks.
 > - Power optimisers (SolarEdge is the dominant brand) sit at a 20–35 percent premium, a practical middle ground between string and microinverter cost.
-> - Qbits' dual/quad-MPPT string inverters plus a 12-year full-replacement warranty close most of the shade-tolerance gap without the microinverter price premium.
 
 ## How a String Inverter Works: and Where It Struggles
 
@@ -75,7 +78,7 @@ The monitoring granularity is genuinely superior. Enphase's Enlighten platform, 
 But the cost and serviceability numbers for India require honest scrutiny:
 
 - **Hardware cost**: A single Enphase IQ8M microinverter for a 400 Wp panel retails in India at approximately ₹25,000–₹38,000 per unit. A 10-panel (4 kW) system therefore needs ₹2.5–3.8 Lakh worth of microinverter hardware alone, before mounting clips, trunk cables, Envoy communication gateway, and installation labour.
-- **Equivalent string inverter hardware**: A 4 kW dual-MPPT string inverter from an Indian manufacturer with a 12-year warranty retails between ₹18,000 and ₹30,000, for the entire system's conversion hardware.
+- **Equivalent string inverter hardware**: A 4 kW dual-MPPT string inverter from an Indian manufacturer with a model-specific written warranty retails between ₹18,000 and ₹30,000, for the entire system's conversion hardware.
 - **Installed cost premium**: Third-party installer surveys across Mumbai, Bengaluru, and Pune consistently show a 40–60 percent installed cost premium for microinverter systems versus string inverter systems of the same capacity, inclusive of all hardware and labour.
 - **Service coverage**: Enphase's authorised service network in India covers Tier-1 cities well. In Tier-2 cities (Nagpur, Coimbatore, Surat, Jaipur), coverage is partial. In Tier-3 cities and semi-urban areas (where a large share of India's residential solar growth is happening) warranty service may require shipping units to the nearest service centre, with lead times of two to four weeks.
 
@@ -178,8 +181,6 @@ India's solar inverter market installed approximately 14 GW of residential and s
 
 **Multi-MPPT string inverters have closed the gap.** A [review of the best solar inverters in India](/blog/best-solar-inverter-india/) shows that virtually every reputable string inverter above 3 kW now ships with dual-MPPT as standard. On a typical Indian rooftop with minor shade sources, a well-configured dual-MPPT string inverter recovers 85–95 percent of the generation that microinverters would deliver, at half the hardware cost. Turnkey residential solar installation providers across India default to string inverters for exactly this reason, they are the configuration their field technicians can service without specialised training.
 
-**The ALMM and BIS compliance framework.** String inverters from established Indian and international manufacturers are broadly ALMM-listed and BIS-certified. Microinverters from global brands like Enphase may not be on the ALMM list for PM Surya Ghar subsidy purposes, which can affect subsidy eligibility for buyers applying under the scheme. The [MNRE ALMM portal](https://mnre.gov.in/almm-list/) publishes the current list of approved models, always verify before specifying a product for a subsidy-eligible installation. This is a material, India-specific consideration that does not appear in global microinverter comparisons.
-
 ## Pros and Cons Decision Table
 
 The final decision almost always comes down to the shade test and the service question. Use this table as a checklist, not a verdict, your roof's numbers override any general guidance.
@@ -192,7 +193,7 @@ The final decision almost always comes down to the shade test and the service qu
 | **Service in Tier-2/3** | ✓ Excellent | ✗ Limited |
 | **Single failure impact** | ✗ Whole system offline | ✓ One panel only |
 | **Subsidy compatibility** | ✓ ALMM-listed options | ✗ ALMM listing varies |
-| **Warranty term** | ✓ 12 years (Qbits) | ✓ 25 years (Enphase IQ8) |
+
 | **Roof expansion** | ✓ String recalculation needed | ✓ Add any panel count |
 | **Best for** | ✓ 90%+ of Indian roofs | ✓ Shaded / multi-orientation |
 
@@ -206,23 +207,17 @@ Most expensive mistakes come from skipping the shade assessment and accepting a 
 
 - **Ignoring service availability.** Buying Enphase microinverters for a house in a Tier-3 city where there is no authorised Enphase service centre. When a microinverter fails in year 5, the buyer is looking at a weeks-long warranty claim process and potentially shipping units to a metro city.
 
-- **Overlooking ALMM status.** Buyers applying for PM Surya Ghar subsidy should confirm that their chosen inverter (string or micro) is on the current ALMM list. The [ALMM Phase III guide](/blog/almm-list-phase-iii-guide/) covers the full current list and how to verify it.
-
 - **Underestimating layout solutions.** Many "shading problems" that vendors propose microinverters to solve can be addressed more cheaply by repositioning the array layout, adding 15-degree tilts, or eliminating the two or three panels closest to a shade source and reducing the system size slightly. Before paying a technology premium, ask your installer to model the alternative layouts.
 
 A review of [the best solar inverter for home use in India](/blog/best-solar-inverter-for-home-india/) covers the leading string inverter brands side by side, including warranty terms, service network ratings, and monitoring capabilities that matter most for homeowners.
 
 ## Where Qbits Fits
 
-Qbits is a string inverter manufacturer (the TLS (single-phase) and TLD (three-phase) series) and that positioning is deliberate. The company's engineering focus is on solving the real problems Indian string inverter buyers face: unstable grids, high ambient temperatures, and limited after-sales coverage.
+The retained Qbits catalogue contains string-inverter families for single-phase and three-phase applications. Family names and ratings vary, so use the exact current datasheet and confirm the manufacturer of record, environmental limits, grid settings, warranty, and service route.
 
-Qbits inverters address partial shading through per-string MPPT design on dual-MPPT and quad-MPPT configurations, meaning panels on different roof sections or with different shade profiles can be assigned to independent MPPTs. The result is shade tolerance that closes the gap with microinverters for the majority of Indian rooftop conditions, at Indian pricing, with India-wide service coverage, and with a [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) that outlasts most microinverter warranty claims in terms of actual service network reliability.
+A shade-loss percentage alone does not select an inverter architecture. Compare the exact roof geometry, string options, module-level requirements, inverter documents, safety design, warranty and installed cost before choosing string or module-level equipment.
 
-For buyers who have run the Indian Roof Shade Assessment and confirmed shade losses below 10 percent, the Qbits string inverter range is the straightforward choice. For those close to the threshold, Qbits engineers can advise on per-string configuration and layout modifications before recommending any technology premium.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; dual and quad-MPPT configurations; ALMM-listed and BIS-certified; 12-year full replacement warranty.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for homes that want battery readiness alongside grid export; the same multi-MPPT shade handling in a battery-compatible package.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm MPPT string configuration for your specific panel model and roof geometry in under 60 seconds before you commit.
-- **[Download Datasheets](/download-datasheets/)**: full technical specs for every Qbits series, including MPPT voltage range, shade tolerance parameters, and temperature derating curves.
 
-[Talk to a Qbits engineer](/contact-us/) about your roof's shade profile before you finalise your inverter type. Most site assessments are completed within 24 hours, and the output is a concrete shade loss number, the same input the Indian Roof Shade Assessment framework requires to make a defensible decision.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

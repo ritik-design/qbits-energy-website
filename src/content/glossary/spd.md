@@ -245,8 +245,6 @@ SPDs are mandatory protection devices for Indian solar installations. Type 2 SPD
 
 ## Need lightning-safe solar installation?
 
-QBits Energy designs and installs Indian solar systems with appropriately specified SPDs, earthing and lightning protection coordination across all customer segments.
-
 ## Further reading
 
 For how SPD plays out in real projects, these guides go deeper:

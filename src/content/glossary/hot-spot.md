@@ -221,8 +221,6 @@ Hot spots are localised excessive heating in solar cells caused by partial shadi
 
 ## Need hot spot detection for your solar plant?
 
-QBits Energy provides IR thermography and hot spot diagnostics for solar plant O&M across Indian utility, C&I and residential installations.
-
 ## Further reading
 
 For how Hot Spot plays out in real projects, these guides go deeper:

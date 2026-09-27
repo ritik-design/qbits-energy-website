@@ -216,8 +216,6 @@ BESS (Battery Energy Storage System) is grid-connected or behind-the-meter batte
 
 ## Need BESS solutions for your project?
 
-QBits Energy advises on BESS sizing, technology selection, grid services design and project structuring for Indian utility, C&I and microgrid applications. Developers modelling combined solar-plus-storage projects can also review our overview of [solar plus storage design software](/blog/solar-plus-storage-design-software/) for the hybrid system planning stage.
-
 ## Further reading
 
 For how BESS plays out in real projects, these guides go deeper:

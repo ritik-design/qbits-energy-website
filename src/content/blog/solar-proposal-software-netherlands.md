@@ -147,4 +147,4 @@ Dutch proposal software is about to be judged on one thing: whether it can quote
 
 - **Put the post-2027 number in the headline.** It governs twenty-five of the system's twenty-five years. The netting period is a footnote, not the forecast.
 - **Collect smart meter data at the survey.** Half-hourly consumption is what makes the post-2027 estimate real rather than assumed, and Dutch coverage makes it obtainable.
-- **Quote a live job both ways before the change lands.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for hybrid inverter and battery specification.
+

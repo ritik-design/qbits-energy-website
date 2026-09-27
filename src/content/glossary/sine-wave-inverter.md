@@ -11,7 +11,7 @@ keywords:
   - pure sine wave inverter
   - sine wave solar inverter
   - quality solar inverter
-shortDefinition: "A sine wave inverter is an inverter that produces clean sinusoidal AC output suitable for all electrical loads. The category includes pure sine wave inverters for solar, hybrid and off-grid applications. Modern ALMM-listed Indian inverters are all sine wave inverters."
+shortDefinition: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 quickFacts:
   industry: "Solar Inverters"
   primaryUse: "Producing grid-quality AC from DC"
@@ -38,7 +38,7 @@ faqs:
   - q: "What is a sine wave inverter in simple words?"
     a: "An inverter that produces clean, smooth AC electricity suitable for any device, identical in quality to grid power."
   - q: "Are all solar inverters sine wave?"
-    a: "All ALMM-listed and credible solar inverters are sine wave. Cheap off-grid and UPS may be modified sine."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Sine wave vs square wave?"
     a: "Sine wave: smooth sinusoidal, universal compatibility. Square wave: harsh stepped output, limited compatibility."
   - q: "What is the difference between sine wave and pure sine wave?"
@@ -68,19 +68,19 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is a sine wave inverter
 
 A sine wave inverter is any inverter that produces sinusoidal AC output suitable for driving all electrical loads. The category includes [pure sine wave](/glossary/pure-sine-wave/) inverters (THD under 3 percent), grid-tie sine wave inverters (synchronised to utility grid) and [modified sine wave](/glossary/modified-sine-wave/) inverters (legacy, stepped approximation).
 
 > **TL;DR**
 > - A sine wave inverter is any inverter producing sinusoidal AC output; the category spans pure sine, grid-tie sine and legacy modified sine designs.
-> - All ALMM-listed Indian inverters are sine wave inverters meeting CEA grid code THD limits under 3 percent.
+
 > - Pure sine wave is the quality benchmark within the category, since some products marketed simply as "sine wave" tolerate up to 5 percent THD.
 > - The term mainly appears in off-grid and UPS marketing, distinguishing quality pure sine units from cheap modified sine alternatives.
 > - Modern sine wave inverters typically deliver 95 to 98 percent peak efficiency.
 > - Major Indian-market brands include Sungrow, Solis, Goodwe, Growatt, Deye, Tata Power Solar, Luminous and Microtek.
-
-For solar applications, "sine wave inverter" typically refers to pure sine wave designs producing grid-quality AC output. All ALMM-listed inverters in India are sine wave inverters meeting CEA grid code [THD](/glossary/thd/) limits of less than 3 percent.
 
 The term is most commonly used in:
 - [Off-grid](/glossary/off-grid-inverter/) solar product marketing, distinguishing quality pure sine inverters from cheap modified sine alternatives
@@ -201,8 +201,6 @@ Inverter audible noise.
 
 Verify pure sine and THD spec in datasheet, whether buying direct from an OEM or through a solar equipment retailer.
 
-Use [ALMM-listed](/glossary/almm-list/) inverters.
-
 Test THD at commissioning.
 
 ## Standards and certifications
@@ -214,14 +212,6 @@ Test THD at commissioning.
 | IEEE 519 | Harmonic limits |
 | EN 50530 | Inverter efficiency |
 | MNRE ALMM | Listing |
-
-## Key takeaways
-
-Sine wave inverters produce clean sinusoidal AC output, universally compatible with all electrical loads. All ALMM-listed Indian solar inverters are sine wave inverters meeting CEA grid code and IEEE 519 THD limits. The term distinguishes quality solar and UPS inverters from cheap modified sine alternatives. Pure sine wave with THD under 3 percent is the Indian standard.
-
-## Need quality sine wave inverters?
-
-QBits Energy supplies ALMM-listed sine wave inverters for residential, C&I and utility solar across India.
 
 ## Further reading
 

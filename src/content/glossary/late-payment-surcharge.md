@@ -203,8 +203,6 @@ Late Payment Surcharge Rules 2022 establish escalating penalties on DISCOM delay
 
 ## Need LPS-aware solar project structuring?
 
-QBits Energy structures solar PPAs and project finance leveraging LPS Rules 2022 for cash flow protection across Indian states.
-
 ## Further reading
 
 For how Late Payment Surcharge plays out in real projects, these guides go deeper:

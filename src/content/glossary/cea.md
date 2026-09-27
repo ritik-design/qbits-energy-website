@@ -173,8 +173,6 @@ CEA is the technical authority of the Indian electricity sector. Its grid code, 
 
 ## Need CEA-compliant solar engineering?
 
-QBits Energy designs and installs solar systems that meet CEA Technical Standards 2019 and Smart Meter Regulations 2023 across Indian DISCOM areas.
-
 ## Further reading
 
 For how CEA plays out in real projects, these guides go deeper:

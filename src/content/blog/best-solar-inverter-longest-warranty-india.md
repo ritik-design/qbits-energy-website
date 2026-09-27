@@ -1,279 +1,235 @@
 ---
-title: "Best Solar Inverter with Longest Warranty India"
-excerpt: "Solar inverter longest warranty in India: Qbits offers 12-year full replacement, not a repair promise. See why warranty type matters more than years alone."
-description: "Compare solar inverter warranty terms in India for 2026. Qbits leads with 12-year full replacement, 72-hr RMA SLA, and a transparent claim process."
-category: "Comparison"
-date: 2026-06-05
-updatedDate: 2026-07-08
-readTime: "24 min"
-image: "/blog-images/solar-inverter-lifespan.svg"
-author: "Nirav Dhanani"
+title: "Which Solar Inverter Has the Longest Warranty in India?"
+excerpt: "Longest solar inverter warranty in India, compared on published terms: start dates, dispatch caps, coastal derogations, freight and who pays labour."
+description: "A term-by-term comparison of solar inverter warranties in India. Published durations from Qbits, Sungrow, Growatt, GoodWe, Deye, Solis, Havells, Polycab, Luminous, Microtek and UTL, plus the start-date, coastal, freight and replacement clauses that decide what the number is actually worth."
+category: "Buying Guide"
+date: 2026-09-23
+updatedDate: 2026-09-24
+readTime: "20 min read"
+image: "/images/hybrid.webp"
+author: "Qbits Editorial"
 keywords:
-  - solar inverter longest warranty
-  - best solar inverter warranty india
-  - 12 year solar inverter warranty
-  - solar inverter warranty comparison india
-  - inverter replacement warranty india
+  - "longest solar inverter warranty India"
+  - "solar inverter warranty India"
+  - "inverter warranty terms"
+  - "solar inverter warranty comparison"
+  - "solar inverter warranty claim"
 faqs:
   - q: "Which solar inverter has the longest warranty in India?"
-    a: "Qbits offers the longest standard warranty available in the Indian market at 12 years of full replacement coverage - meaning a failed unit is replaced entirely, not repaired. Sungrow is a distant second at 10 years (extendable to 20 years as a paid service contract, not a standard warranty). Most other brands - Fronius, SMA, Goodwe, Growatt - begin at 5 years standard and charge for extensions. Indian brands such as Luminous and Microtek typically offer 2 years. When comparing, always confirm whether the warranty covers replacement or repair only."
-  - q: "What is the difference between a repair warranty and a replacement warranty?"
-    a: "A repair warranty obligates the manufacturer to fix a faulty unit - covering labour, parts, or both - but you keep the same ageing hardware and may wait weeks for repairs. A replacement warranty obligates the manufacturer to dispatch a fully new unit in exchange for the failed one. Replacement warranties are dramatically more valuable because they eliminate repair lead times, avoid the risk of a partially repaired unit failing again, and restore the system to full rated capacity immediately. Qbits is the only major brand in India that offers full replacement as the standard warranty term, not a premium add-on."
-  - q: "Is a 12-year solar inverter warranty in India genuinely enforceable?"
-    a: "Yes, provided three conditions are met: the warranty issuing entity must be registered in India (so the claim is under Indian consumer protection law), the brand must maintain physical service infrastructure - spare parts, certified technicians, and regional offices - across India, and the warranty document must clearly state 'replacement' rather than vague terms like 'defect correction'. Qbits satisfies all three conditions. A 12-year warranty from a brand that has no India-registered entity or parts warehouse is essentially unenforceable, regardless of what the brochure states."
-  - q: "How do I make a warranty claim for a solar inverter in India?"
-    a: "For a Qbits inverter, the claim process has four steps: log the fault via WhatsApp monitoring or the dealer portal; receive an acknowledgement with a ticket number within 2 hours; ship or present the faulty unit to the nearest authorised service centre, or request on-site inspection for permanently mounted commercial units; and receive the replacement unit within 72 hours of claim approval. Always photograph the fault condition and retain your original purchase invoice, installation report, and commissioning certificate. Claims without proof of proper installation are routinely rejected across all brands."
-  - q: "Does a solar inverter warranty transfer if I sell my house?"
-    a: "Warranty transferability varies by brand and is rarely advertised clearly. Qbits warranty transfers with the system, provided the new owner registers the transfer within 30 days of the property sale and the system was installed by an authorised partner. Most global brands (Sungrow, Fronius, SMA) allow transfer but require formal registration and may charge an administrative fee. Indian budget brands rarely offer any transfer provision. Always check the warranty card for a specific transferability clause before purchasing - absence of a clause is not the same as permission to transfer."
-  - q: "What does the 72-hour RMA SLA mean in practice?"
-    a: "RMA stands for Return Merchandise Authorisation. A 72-hour RMA SLA means that once a warranty claim is approved, a replacement unit is dispatched to the installer or homeowner within 72 hours - not the time to repair, not the time to schedule a visit. In practice, this means a failed residential inverter is back in operation within 3 to 5 days, including transit. For a 5 kW home system generating ₹150–₹200 per day of electricity, 72-hour dispatch limits income loss to under ₹600–₹1,000, compared to 3 to 6 weeks of typical competitor repair turnaround."
-  - q: "What warranty exclusions should I watch for in the fine print?"
-    a: "Standard exclusions across all brands include: lightning strike damage (covered by homeowner insurance, not inverter warranty), physical damage from improper installation or mishandling, damage from operating outside specified voltage or current limits (overloading), corrosion caused by chemical exposure beyond the inverter's IP rating, and non-authorised repairs that void the warranty. Always have your system installed by a certified partner, commission it correctly, and never attempt internal repairs yourself. Qbits publishes a plain-language exclusion list in its warranty documentation - ask your dealer for a copy before purchase."
-  - q: "How much does an out-of-warranty inverter replacement cost in India in 2026?"
-    a: "An out-of-warranty residential inverter replacement (3–5 kW) in India costs ₹40,000–₹80,000 for the unit plus ₹5,000–₹15,000 for labour, transportation, and re-commissioning - a total of ₹45,000–₹95,000 per event. Commercial replacements (20–100 kW) cost ₹1,20,000–₹5,00,000 or more. Systems that need two replacement events over a 25-year life - common with 5-year warranty brands - can spend ₹90,000–₹1,90,000 in replacement costs that a 12-year full replacement warranty eliminates entirely."
-  - q: "Can I extend my solar inverter warranty beyond the standard term?"
-    a: "Several brands offer extended warranty plans sold at the time of purchase or within the first year. Sungrow extends to 20 years as a paid service contract. Fronius and SMA extend to 10 years with fee. Qbits standard warranty is already 12 years full replacement - the highest baseline in the market without a paid extension. Whether extended warranties are worth the cost depends on the total extension premium versus the out-of-pocket replacement cost they offset. For large commercial systems, extensions almost always make financial sense; for residential systems, a strong 12-year baseline is usually sufficient."
+    a: "On terms you can actually verify from a published document, the longest standard warranties in the Indian market sit at 10 years: Havells on its Enviro GTi grid-tie datasheets, and UTL on its F Series on-site terms. Polycab's 2025 catalogue prints 7 years, with 5 years on the 350 kW UT series, and the imported string brands cluster at 5 years. Qbits, the publisher of this page, does not belong in a duration ranking at all, because its public datasheets describe an expandable warranty without defining a base term. Duration alone would not rank these brands anyway, because the start date, exclusions and remedy clauses differ widely between the documents."
+  - q: "Why is the longest warranty not automatically the best warranty?"
+    a: "Because a warranty is a contract, and the duration is only one clause in it. A 10-year term that starts at factory dispatch, reverts to repair rather than replacement, excludes coastal sites, or leaves you paying freight and labour can be worth less than a 7-year term that starts at commissioning and covers the unit outright. The clauses that decide value are the start date, any dispatch cap, the remedy, the exclusions, who pays logistics and labour, and whether a replacement restarts the clock. Compare those side by side before you compare years."
+  - q: "What is a factory dispatch cap on an inverter warranty?"
+    a: "It is a clause that limits total cover measured from the date the unit left the factory, regardless of when it was installed. Growatt's published procedure states the standard period runs from the installation-certificate date and no more than six months after the delivery date from Growatt. That is an installation window rather than a stated year cap, but it has the same effect: combined with the 5-year standard factory warranty the page names in passing, the practical outer limit works out near 5.5 years from delivery. Growatt does not publish that 5.5-year figure itself, so treat it as arithmetic on the two clauses. Ask the dealer for the delivery date and the installation-certificate date in writing before you accept warehouse-aged stock."
+  - q: "Do solar inverter warranties cover coastal installations in India?"
+    a: "Not always at full term. Sungrow's APAC warranty terms apply coastal derogations: cover drops to 2 years for sites between 2 km and 5 km from the sea, and is void inside 2 km unless the enclosure is specified to C5 corrosivity. That is an ordinary commercial term, not a defect, but it materially changes what a buyer in Chennai, Kochi, Surat or coastal Odisha owns. If your site is near the sea, read the geographic clause before the duration, and get the required enclosure grade confirmed in writing."
+  - q: "Does a replacement inverter come with a fresh warranty period?"
+    a: "Usually no. The Ningbo Deye hybrid inverter warranty document (2025) states that a replacement unit carries only the remaining term of the original, and that the manufacturer may use reconditioned parts. That structure is common across the category rather than unusual. It means a unit replaced in year 9 of a 12-year term leaves you with about 3 years of cover, not 12. Ask for the remaining term to be confirmed in writing when the replacement is dispatched."
+  - q: "Is the PM Surya Ghar 5-year maintenance contract the same as a warranty?"
+    a: "No. Under the MNRE operational guidelines, a registered vendor owes a 5-year Comprehensive Maintenance Contract from commissioning. That is a service obligation from the installer covering upkeep of the installed system. A manufacturer warranty is a product obligation from the factory covering defects in a specific unit. They run in parallel, they are held by different parties, and one does not substitute for the other. If your installer stops trading, the CMC is hard to enforce while the manufacturer warranty on the inverter survives."
+  - q: "Are extended solar inverter warranties worth buying?"
+    a: "It depends on the replacement cost of the unit, the harshness of the site, and whether the extension actually extends the same terms. An extension that adds years while keeping you liable for freight, labour and site access is buying less than it appears to. Price it against the cost of a like-for-like replacement plus a service visit, and against an annual maintenance contract, which covers preventive work a warranty never does. Also check whether the extension must be bought inside a registration window from commissioning, because most lapse if you wait."
+  - q: "What should I ask for before buying on the strength of a warranty?"
+    a: "Ask for the full written warranty document that applies to the exact model and date of sale, not the brochure or the specification sheet. A datasheet line such as expandable warranty indicates an extension may exist; it does not define the base term, the remedy or the exclusions. Read the start date, any dispatch cap, the remedy, the geographic and environmental exclusions, the freight and labour clauses, the transferability clause, and the claim evidence list. If the seller cannot produce that document, treat the advertised duration as unverified."
 ---
 
-When you started researching solar inverters, warranty length was probably one of the first filters you applied. It should be, because warranty is not just about peace of mind. It is a direct proxy for two things: how confident the manufacturer is in their own product, and how much financial risk they are willing to shoulder on your behalf.
+Search for the longest solar inverter warranty in India and you get a duration contest: 5 years, 7 years, 10 years, 12 years. The number is the easiest thing for a brand to print and the least useful thing for a buyer to compare. Two inverters advertising the same decade of cover can hand you very different protection, because the duration is one clause in a contract and the other clauses do the real work.
+
+This guide compares what Indian inverter brands actually publish, and then compares the terms that decide whether those years mean anything. That includes when the clock starts, whether a factory dispatch cap quietly eats part of it, how coastal distance changes cover, who pays freight and labour on an approved claim, whether reconditioned parts are allowed, whether a replacement unit restarts the term, and which extensions lapse if you miss a registration window.
+
+You will also get a worked example showing how a 10-year headline can deliver less cover than a 7-year one, the difference between a manufacturer warranty and the PM Surya Ghar 5-year maintenance contract, and what to ask for before you pay. Qbits publishes this page, so the same test is applied to Qbits terms as to everyone else's, including the point where the public documentation stops.
 
 > **TL;DR**
-> - Qbits offers India's longest standard warranty: 12 years full replacement, versus Sungrow's 10-year repair-only term and Fronius/SMA's 5-year standard term.
-> - A repair warranty fixes the same ageing hardware over 15–45 days; a replacement warranty dispatches a new unit, and Qbits declares an RMA SLA under 72 hours.
-> - On the 5-dimension Warranty Quality Score (duration, type, enforceability, claim clarity, service network), Qbits scores 47/50, the highest of the 8 brands compared.
-> - Over a 25-year system life, a 5-year repair warranty exposes a homeowner to roughly ₹1.36–1.87 lakh in replacement and downtime costs, versus ₹66,000–91,000 under a 12-year full replacement warranty.
-> - 40% of Indian solar installers active in 2020 had shut down or become unreachable by 2023 (JMK Research), which is why brand-backed warranty matters more than installer assurances.
+> - The longest verifiable published terms in India are 10 years (Havells Enviro GTi datasheets, UTL F Series on-site). Qbits, which publishes this page, does not define a base term in public material and so is not ranked here.
+> - Imported string brands cluster at 5 years, per the published warranty documents of Growatt, GoodWe, Solis and Deye.
+> - Growatt's term runs from the installation certificate and requires installation no more than six months after delivery, so aged stock erodes cover ([Growatt, 2026](https://en.growatt.com/support/warranty)).
+> - Sungrow's APAC terms cut cover to 2 years between 2 km and 5 km of the sea and void it inside 2 km without a C5 enclosure specification ([Sungrow, 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)).
+> - The Ningbo Deye hybrid warranty (2025) permits reconditioned parts, and a replacement inherits only the remaining term.
+> - GoodWe's 10-year hybrid extension is conditional on a Lynx battery plus a live monitoring upload, per the GOODWE Limited Warranty for Inverter System, global revision (2026).
+> - Freight, labour and site access are excluded from most Indian inverter warranties, which is where an approved claim still costs you money.
 
-The problem is that most buyers stop at the number. "10-year warranty sounds better than 5-year warranty." What they miss is what the warranty actually covers, and whether it is enforceable in India when something goes wrong on a Tuesday afternoon and the foreign OEM's nearest service centre is in Singapore.
+**Short version.** On terms you can verify from a document, Havells and UTL lead at 10 years on specific lines, Polycab prints 7, and the imported string brands cluster at 5. Qbits publishes this page and is deliberately absent from the ranking, because its public datasheets describe an expandable warranty without fixing a base term. Duration alone does not decide value in any case. Start date, dispatch caps, coastal exclusions, freight and labour liability change the real cover more than the headline does.
 
-This guide cuts through the brochure language. You will see a complete comparison of warranty terms across eight major brands, a framework for scoring warranty quality beyond headline years, and the hard maths on what an out-of-warranty replacement actually costs in 2026.
+## Why the longest warranty is the wrong question
 
-> **Direct answer.** The solar inverter with the longest warranty in India is Qbits, with a 12-year full replacement guarantee, meaning a failed unit is swapped for a new one, not repaired and returned. Sungrow offers 10 years (extendable), Fronius and SMA offer 5 years (extendable to 10). Indian brands average 2 years. Warranty type matters more than years: a 12-year replacement promise is worth four times more than a 12-year repair-only promise.
+A warranty is a contract for a remedy, not a promise of uptime. The question that matters is not how many years are printed, but what the manufacturer owes you, from when, under what conditions, and at whose cost. Rank the documents on those four answers and the duration contest usually reorders itself.
 
-Understanding the distinction between repair and replacement warranties is the single most important thing to grasp before signing any purchase agreement. A [solar inverter](/glossary/solar-inverter/) is not a simple component, it contains IGBTs, capacitors, transformers, DSP boards, and power modules that interact under 45 °C ambient temperatures and wildly variable Indian grid voltages. Repairing an ageing unit does not restore it to factory specification. Replacing it does.
+Three failure modes explain most buyer disappointment. The first is a start date that is not your start date. Cover measured from invoice or factory dispatch begins before your system produces anything. The second is a remedy that is weaker than the marketing implies. Repair or parts supply is a different promise from full unit replacement, and only one of them gets your array exporting again quickly. The third is cost leakage inside an approved claim, where the product is free and the logistics are not.
 
-## Why Warranty Matters More in India Than Anywhere Else
+None of that is hidden. It sits in ordinary contract language that brands publish and buyers skip. The rest of this guide reads that language brand by brand. If you want the clause anatomy on its own, the [warranty terms guide](/blog/solar-inverter-warranty/) covers it in more depth.
 
-The Indian solar market has a structural service problem that European or American buyers do not face. When a German homeowner's Fronius inverter fails, the brand has 400+ certified service partners within a 200-kilometre radius. When an Indian homeowner in Raipur, Vadodara, or Kochi faces the same failure, the options narrow dramatically.
+## Published inverter warranty terms in India, brand by brand
 
-Solar installers in India have a documented attrition problem. A 2024 survey by [JMK Research](https://jmkresearch.com/) found that more than 40% of residential solar installers who were active in 2020 had either shut down, pivoted businesses, or were unreachable by 2023. The inverter brand's own service network (not the installer who sold you the system) is your real safety net.
+Here is what the brands sold into India publish, as of their current documents. Read the conditions column before the duration column, because the conditions are what differ.
 
-There are three compounding risk factors that make warranty quality specifically critical in India:
-
-- **Installer disappearance**: The vendor who sold and installed your system may not exist in year 5 or year 8. Brand-backed warranty shifts the obligation to the manufacturer, regardless of whether your original installer is still in business.
-- **Grid voltage stress**: Indian DISCOM grids regularly deliver voltages between 180 V and 270 V, well outside the stable 220–240 V band that European inverters are optimised for. This voltage stress accelerates capacitor degradation and IGBT wear. Component failure rates in India are measurably higher than the global average, making the warranty window that much more important.
-- **Replacement cost escalation**: An inverter that costs ₹45,000 today will likely cost ₹55,000–₹65,000 in year 8 due to inflation, import duties, and parts scarcity for discontinued models. Out-of-warranty replacements are not just expensive, they are unpredictably expensive.
-
-> **40%.** The proportion of Indian residential solar installers from 2020 who were unreachable or had shut down by 2023, according to JMK Research. This is why brand-backed warranty (not installer-backed assurance) is the only reliable long-term protection for your solar investment. *Source - [JMK Research, India Solar Market Analysis 2024](https://jmkresearch.com/).*
-
-For a detailed breakdown of what an out-of-warranty event actually costs, the [solar inverter replacement costs guide](/blog/inverter-tco/) runs the full 2026 numbers across residential and commercial system sizes.
-
-## The Complete Warranty Comparison Table: 8 Brands Ranked
-
-The table below captures the standard warranty term (what you get without paying extra), the warranty type (full replacement vs repair only), and whether extensions are available. All figures are for residential and small commercial string inverters in the 3–20 kW range.
-
-| Brand | Standard Warranty | Type | Extended Option | RMA SLA |
+| Brand | Published standard term | Start date and caps | Notable published condition | Source |
 | --- | --- | --- | --- | --- |
-| **Qbits** | **12 years** | **Full replacement** | Not required | **<72 hours** |
-| Sungrow | 10 years | Repair | Paid extension to 20 years | 5–10 business days |
-| Fronius | 5 years | Repair | Paid extension to 10 years | 7–14 business days |
-| SMA | 5 years | Repair | Paid extension to 10 years | 7–14 business days |
-| Goodwe | 5 years | Repair | Paid extension to 10 years | 10–15 business days |
-| Growatt | 5 years | Repair | Paid extension (select models) | 7–15 business days |
-| Luminous | 2 years | Repair | None standard | 15–30 business days |
-| Microtek | 2 years | Repair | None standard | 15–30 business days |
+| Qbits | Not defined in public material | Not defined on the public datasheets | Datasheets describe an expandable warranty without defining the base term, remedy, registration deadline or exclusions, so the written terms must be obtained for the exact model | Qbits product pages, which carry this note publicly |
+| Havells | 10 years standard on grid-tie | Not stated on datasheet | Printed on every Enviro GTi datasheet; dealers report it is not consumer extendable | [Havells solar solutions, 2026](https://havells.com/business/discover-solar-solutions) |
+| UTL (Fujiyama) | 10 years on-site on the F Series on-grid line; 3 years on PCU home units | Not stated | Term varies by SKU and by seller, so confirm against the specific model | [UTL solar inverter store, 2026](https://www.upsinverter.com/utl/solar-inverter/) |
+| Polycab | 7 years printed in the 2025 catalogue; 5 years on the 350 kW UT series | Not stated | The catalogue term and the web store's 5/8-year filters do not match, which is a documentation question to resolve in writing | Polycab Solar Catalogue (2025) |
+| Growatt | 5 years standard factory warranty, named in passing; the page defers to a product table, the sales order and the warranty card | From the installation-certificate date, and no more than six months after delivery from Growatt | The six-month installation window means aged stock arrives with less usable cover. Growatt publishes no year-cap measured from dispatch | [Growatt warranty procedure, 2026](https://en.growatt.com/support/warranty) |
+| GoodWe | 5 years, listed explicitly by series (DNS, XS, SDT, ES, ET) | Not stated per series | The promoted 10-year hybrid extension requires a GoodWe Lynx battery and a live SEMS monitoring upload | GOODWE Limited Warranty for Inverter System, global revision (2026) |
+| Deye | 5 years | From date of purchase | Reconditioned parts permitted; a replacement unit inherits only the remaining term | Ningbo Deye hybrid inverter warranty document (2025) |
+| Solis | 5 years on grid-tie and RHI or RAI hybrid; accessories 2 years | Not stated | Claims require the completed claim form, the invoice and the installation report | [Solis product warranty terms, 2026](https://www.solisinverters.com/global/productwarranty) |
+| Sungrow | Regional; see the APAC document for the term applying to India | Not stated | Cover drops to 2 years for sites 2 km to 5 km from the coastline, and is void inside 2 km without a C5 enclosure specification | [Sungrow APAC warranty terms, 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term) |
+| Luminous | 2 years base on many NXG models, some at 3 years | Not stated | Extended plans are sold separately rather than included | [Luminous solar inverters, 2026](https://www.luminousindia.com/solar-inverters/all-products) |
+| Microtek | 2 years on the MPPT Solar PCU line | Not stated | Quoted for units such as the 2KVA/24V model; confirm per SKU | [Microtek product documentation, 2026](https://www.microtek.in/product/solar-solutions/solar-power-conditioning-units/listing/mppt-solar-pcu-2kva24v) |
 
-Key observations from this table:
+Two patterns are worth naming. The Indian electrical majors and the domestic backup brands sit at the extremes, with Havells and UTL long and Microtek and Luminous short. The imported string specialists sit tightly at 5 years and compete on conditions instead. A fuller brand-level view, including service reach and product depth, sits in the [2026 brand comparison](/blog/top-10-solar-inverter-brands-india-2026/).
 
-- **No other brand matches Qbits on both duration and type simultaneously.** Sungrow's 10-year warranty is repair-only at standard. Fronius and SMA are at 5 years before you pay for an extension.
-- **The RMA SLA gap is as important as the warranty years.** A 72-hour replacement dispatch versus 10–15 business days of repair represents the difference between 3 days of lost generation and 3–4 weeks of downtime.
-- **Extension costs matter.** Fronius typically charges ₹8,000–₹15,000 for a 5-year extension on a residential inverter. Sungrow's 20-year "extended warranty" is sold as a service contract at ₹2,000–₹4,000 per year, meaning a 10-year extension costs ₹20,000–₹40,000 more than the already-paid standard term.
+Note also how many cells read "not stated". That is the honest state of public warranty documentation in this category, and it is the reason the verification step later in this guide exists.
 
-The [comprehensive brand-by-brand comparison between Qbits, Sungrow, and Growatt](/blog/qbits-vs-sungrow-vs-growatt/) covers pricing, monitoring, and MPPT performance beyond warranty terms if you need to evaluate the full specification picture.
+## The start date clause: install date, invoice, or factory dispatch
 
-## Repair vs Replacement: The ₹40,000 Distinction No One Talks About
+The start date is the single clause most likely to shorten your cover without anyone lying to you. Terms in this category start from one of four events: factory dispatch, invoice date, date of purchase, or installation and commissioning. Only the last one matches the period you actually own a working system, and it is not the most common.
 
-The marketing materials for every brand in the table above use the word "warranty" as if it means the same thing. It does not. The distinction between repair and replacement warranties is where the real financial risk hides.
+Deye's hybrid warranty runs from date of purchase. Growatt's runs from installation, subject to a cap measured from factory dispatch. The gap between those two structures is where an Indian buyer loses time, because imported stock passes through shipping, customs clearance, a distributor warehouse and then a dealer shelf.
 
-### What a Repair Warranty Actually Promises
+A delivery-linked clause works like a ceiling. You get the shorter of the two clocks. Growatt publishes a term running from the installation certificate and requires installation no more than six months after delivery, so the clause allows about 6 months of legitimate supply-chain time and stops counting beyond it.
 
-When a repair warranty is invoked, the manufacturer agrees to diagnose the fault, source the replacement component, and fix the unit, returning the same physical inverter to you. The timeline from fault logging to restored operation is typically 15 to 45 days in Indian conditions. During that period, your solar system generates no electricity.
+Practical consequence: the manufacturing or dispatch date on the rating label is commercial information, not trivia. Ask for it before accepting a unit, and refuse stock that has aged past the allowance. If a dealer is discounting a specific serial batch, that is often why.
 
-For a 5 kW system generating ₹175/day of avoided electricity cost, 30 days of downtime equals ₹5,250 of lost value. Over two events in a 25-year system life, that is ₹10,500 of downtime losses before counting the labour, transportation, and inspection costs that many repair warranties do not fully cover.
+## Worked example: when a 10-year term delivers less than a 7-year term
 
-More critically: a repaired inverter is not a new inverter. The capacitors, which are the primary ageing components in an inverter, are not replaced during a typical repair. The board is fixed, but the electrolytic capacitors continue their degradation clock. Failure recurrence rates within 2 years of a repair are significantly higher than for a fresh unit. A [NREL field study on inverter reliability](https://www.nrel.gov/docs/fy17osti/67553.pdf) found that inverter-related faults account for the majority of solar system downtime events globally, a figure that is higher still in markets with voltage-variable grids like India.
+This is arithmetic on hypothetical dates, not field data from an installation. The dispatch-cap mechanism it models is a real published term; the dates are chosen to show how the clause behaves.
 
-### What a Replacement Warranty Promises
+Assume two quotes for the same 5 kW rooftop.
 
-A replacement warranty dispatches a brand-new unit. The old unit is collected and the new one is installed, commissioned, and confirmed at rated output. The system returns to 100% of nameplate capacity, not 90% of a repaired version. Commissioning (the formal process of verifying correct installation and output) is documented, and the new replacement unit typically carries its own warranty clock.
+- **Brand A.** Headline 10 years from installation, with a delivery-linked ceiling that caps total cover at 5.5 years. Hypothetical terms, used to show the arithmetic.
+- **Brand B.** 7 years from installation, no dispatch cap.
 
-Qbits' replacement warranty means:
-- Failed unit logged via WhatsApp monitoring or dealer portal
-- Ticket raised within 2 hours of submission
-- Replacement unit dispatched within 72 hours of claim approval
-- New unit carries the same warranty term from dispatch date
+Inputs for the unit actually supplied:
 
-For a residential homeowner, this translates to 3–5 days of total downtime including transit, versus 15–45 days under a competitor repair process.
+- Factory dispatch date on the rating label: 1 March 2025.
+- Shipping, customs, distributor warehouse and dealer stock: 11 months.
+- Installation and commissioning: 1 February 2026.
 
-The [inverter total cost of ownership analysis](/blog/inverter-tco/) quantifies the full financial impact of warranty gaps across 10-year and 25-year horizons with worked numerical examples.
+Formula for effective cover, measured from commissioning:
 
-## The Warranty Quality Score: 5 Dimensions Beyond Just the Years
+`Effective cover = minimum of (headline term, dispatch cap minus shelf time)`
 
-Headline warranty years are a starting point, not a conclusion. The following framework scores any inverter warranty on five dimensions that collectively determine its real-world value. Apply this framework to any warranty document before signing a purchase order.
+Brand A: minimum of (10 years, 5.5 years minus 0.92 years) = **4.58 years**, ending around 1 September 2030.
 
-### The Warranty Quality Score: 5 Dimensions
+Brand B: minimum of (7 years, no cap) = **7.00 years**, ending 1 February 2033.
 
-1. **Duration**: The headline years, but weighted by whether they apply from purchase date or installation date. Installation-date warranties give you more time, since commissioning typically happens 30–90 days after purchase. Ask explicitly: "Does the warranty clock start from invoice or from [commissioning](/glossary/commissioning/)?"
+Brand B delivers about 2 years and 5 months more cover than Brand A, while advertising 3 fewer years. The headline was wrong by roughly 5.4 years in the other direction.
 
-2. **Type (Repair vs Replacement)**: As discussed above, replacement is worth 3–5× more than repair because it eliminates downtime, avoids recurrence risk, and restores full rated capacity. Score repair warranties at 40% of face value when making financial comparisons.
+Two lessons follow. First, always convert a headline into a calendar end date using the clause that actually governs. Second, shelf time is the only variable here you can control at purchase, and you control it by asking for the dispatch date.
 
-3. **Enforceability**: Is the warranty issued by an India-registered entity? A warranty from a Chinese or European parent entity, with no India subsidiary, is governed by foreign law. Enforcing it requires international legal action, practically impossible for a homeowner. Verify the warranty issuing entity's CIN (Corporate Identity Number) on the Ministry of Corporate Affairs portal.
+## Coastal derogations and distance-from-sea clauses
 
-4. **Claim process clarity**: How many steps does the claim process require, and what documentation is needed? A claim process requiring an authorised inspector visit, a formal FIR for theft or lightning, and 15 items of documentation effectively denies most claims through process friction. Count the steps: fewer than 5 documented steps is a passing score.
+If your site is near the sea, the geographic clause outranks the duration clause. Salt-laden air drives corrosion on enclosures, PCB tracks and terminal blocks faster than inland air, and manufacturers price that risk by restricting cover rather than by refusing sales.
 
-5. **Service network density**: A 12-year warranty is only as good as the service infrastructure behind it. Map the brand's authorised service centres against your location. National brands with sub-150 km average reach to the nearest service centre pass. Brands with fewer than 50 centres nationally fail, regardless of the warranty years on paper.
+Sungrow's APAC warranty terms are the clearest published example. Cover falls to 2 years for installations between 2 km and 5 km from the coastline, and is void inside 2 km unless the enclosure is specified to C5 corrosivity ([Sungrow, 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)). Those bands are contract terms, disclosed in advance.
 
-Applying this framework to the 8-brand comparison:
+For an Indian buyer that reshapes the shortlist across Gujarat, Maharashtra's Konkan belt, coastal Karnataka, Kerala, Tamil Nadu, Andhra Pradesh and Odisha. A 5-year term with no distance clause can beat a longer term that stops at your pin code.
 
-| Brand | Duration | Type | Enforceability | Claim Clarity | Network | **Score /50** |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Qbits** | **10** | **10** | **10** | **9** | **8** | **47** |
-| Sungrow | 8 | 6 | 8 | 7 | 9 | 38 |
-| Fronius | 5 | 6 | 7 | 8 | 7 | 33 |
-| SMA | 5 | 6 | 7 | 7 | 6 | 31 |
-| Goodwe | 5 | 6 | 7 | 6 | 6 | 30 |
-| Growatt | 5 | 6 | 6 | 5 | 5 | 27 |
-| Luminous | 2 | 5 | 9 | 5 | 8 | 29 |
-| Microtek | 2 | 5 | 9 | 4 | 7 | 27 |
+Three questions to settle in writing before ordering for a coastal site:
 
-The Sungrow score reflects strong brand infrastructure but a repair-only standard warranty and a complex claim process. Luminous and Microtek score on enforceability and network (Indian brands with wide reach) but fail on duration and type.
+1. What is the straight-line distance from the installation to the coastline, and which band of the warranty does it fall in?
+2. Which enclosure or coating specification does the manufacturer require for full-term cover at that distance?
+3. Is the unit being quoted actually built to that specification, evidenced on the datasheet rather than asserted by the dealer?
 
-## Reading the Fine Print: What the Warranty Card Actually Says
+The environmental engineering behind these clauses, including ingress protection grades and conformal coating, is covered in the [coastal inverter specification guide](/blog/solar-inverter-for-coastal/).
 
-A warranty document has a front page that marketing teams write and a back page that the legal team writes. The back page is what matters. Before accepting delivery of any inverter, verify the following clauses in the actual warranty card, not the salesperson's verbal summary.
+## Exclusions, freight, labour, and what a replacement unit inherits
 
-- **Exclusions checklist**: Standard exclusions include lightning strike (covered by home insurance, not inverter warranty), damage from improper installation (always use a certified installer), overloading beyond rated DC input (check your panel string sizing against inverter specs), and chemical corrosion beyond the stated IP rating. Verify that your specific use case does not fall under an exclusion before purchase.
-- **Transferability clause**: Does the warranty follow the inverter or the original purchaser? If you plan to sell your home within the warranty period, you need explicit written confirmation that the warranty transfers to the new owner. Some brands require registration of the transfer within 30–60 days of the sale; missing this window voids the remaining term.
-- **Claim initiation window**: Most warranties require you to log a claim within 30–90 days of the fault becoming apparent. A fault that goes unreported because the monitoring system was not set up correctly may be rejected if logged outside this window. This is one reason why WhatsApp-based monitoring that automatically flags faults (as Qbits' system does) is a material warranty advantage, not just a convenience feature.
-- **Labour and transportation coverage**: Many "full warranty" claims cover parts only. Labour for inverter removal and reinstallation (₹2,000–₹8,000) and transportation of the unit to the service centre and back (₹1,000–₹5,000 depending on distance) can be excluded. Ask for explicit written confirmation of what labour and logistics costs are covered.
+An approved claim is not the same as a free claim. Most Indian inverter warranties cover the product and exclude the work around it. Removal, refitting, recommissioning, courier or transport charges, travel, and access equipment such as scaffolding usually sit with the owner or the installer.
 
-The [ALMM list guidance for PM Surya Ghar compliance](/glossary/almm-list/) is also relevant here: ALMM-listed status is sometimes a warranty precondition, meaning a non-compliant installation can void coverage even within the warranty period.
+Exclusions are the second cost centre. The recurring list across published documents covers unauthorised opening or repair, incorrect installation, missing or inadequate earthing, surge and lightning damage, water ingress through a badly fitted cable gland, rodent damage, and operation outside the printed grid or ambient temperature limits. Most of those are installation or environmental events rather than product defects, which is why manufacturers ask for installation photographs.
 
-## The 12-Year TCO Calculation: What Warranty Coverage Is Actually Worth
+Claim evidence is a third gate. Solis requires the completed claim form, the invoice and the installation report ([Solis, 2026](https://www.solisinverters.com/global/productwarranty)). A site with no filed commissioning report stalls at that step regardless of how long the term is.
 
-Warranty is not free, it is priced into the inverter's cost. The question is whether the premium for a longer, stronger warranty is justified by the financial exposure it covers. Here is the calculation for a typical 5 kW residential system in India, 2026.
+Then there is what you receive. The Ningbo Deye hybrid inverter warranty document (2025) permits reconditioned parts and states that a replacement unit carries only the remaining term of the original. Under that structure, a unit replaced in year 4 of a 5-year term leaves you with roughly 1 year of cover, not a fresh 5.
 
-**Scenario A: 5-year repair warranty (₹5,000–₹10,000 premium for 5-year extension to 10 years)**
+Transferability is the clause buyers discover last and need most. If you sell the property, the warranty travels only if the document says it does, and some require the new owner to be registered within a window. Ask for the transfer procedure in writing while you still hold the invoice.
 
-Under a standard 5-year warranty, you face two financial exposures over a 25-year system life:
-- **Mid-life replacement** (year 10–12): ₹55,000–₹75,000 for the unit + ₹8,000–₹12,000 for labour and recommissioning = ₹63,000–₹87,000.
-- **Late-life replacement** (year 18–22): ₹65,000–₹90,000 (higher due to inflation and parts availability risk).
-- **Downtime losses** (2 repair events, 30 days each at ₹175/day): ₹10,500.
+Preventive upkeep sits outside all of this, which is what an [annual maintenance contract](/blog/solar-inverter-amc-cost-india/) is for, and residual risk such as fire, theft and storm damage belongs to [solar insurance](/blog/solar-insurance-india/) rather than to any warranty.
 
-Total out-of-warranty exposure: ₹1,36,500–₹1,87,500.
+## Conditional extensions, and whether an extended warranty is worth buying
 
-**Scenario B: [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) (Qbits)**
+Conditional extensions are advertised as duration and delivered as compliance. GoodWe's promoted 10-year hybrid extension requires a GoodWe Lynx battery and a live monitoring connection uploading generation data, per the GOODWE Limited Warranty for Inverter System, global revision (2026). Change the battery brand, or lose the internet connection for an extended period, and the extension can lapse without anyone telling you.
 
-- Zero replacement cost within the 12-year window, unit is replaced at no cost to the owner.
-- **Single late-life replacement** (year 18–22): ₹65,000–₹90,000.
-- **Downtime losses** (1 replacement event, 5 days at ₹175/day): ₹875.
+That is not unique to one brand. The general pattern is that the long number depends on a registration inside a deadline, a specific companion product, or continuous data upload. Treat each as an ongoing obligation you have to maintain, not a box ticked at commissioning.
 
-Total out-of-warranty exposure: ₹65,875–₹90,875.
+For paid extensions, price the decision rather than accepting it. Compare the extension fee against the like-for-like replacement cost of the unit plus a service visit, and against the cost of preventive maintenance over the same years. An extension is usually worth buying when four things hold:
 
-**The warranty value gap: ₹70,625–₹96,625 over 25 years for a single 5 kW system.**
+1. It extends the **same remedy**. An extension that downgrades full replacement to repair is a different product.
+2. It covers logistics and labour, or the exclusion is priced into your decision.
+3. The site is harsh, meaning coastal, high dust, or high ambient temperature, so failure probability is genuinely elevated.
+4. The replacement cost of the unit is large relative to the fee, which is the usual case in commercial three-phase sizes rather than small residential ones.
 
-For a commercial 50 kW system, this gap scales to ₹7–₹9.6 Lakh. India added over 24 GW of solar capacity in 2024 alone, according to the [IEA's India Energy Policy Report 2025](https://www.iea.org/countries/india), meaning millions of residential systems installed in the current boom cycle will face their first mid-life inverter decisions between 2032 and 2037, right when warranties running from 2024 either still hold (for 12-year terms) or have expired (for 5-year terms). The [solar inverter lifespan and financial planning guide](/blog/solar-inverter-lifespan/) provides full 25-year projections with inflation-adjusted replacement cost assumptions.
+It is usually not worth buying when the extension must be claimed through a channel with no service presence near you, or when the registration window has already closed. On that last point, check the deadline on the day of commissioning, not later.
 
-> **₹90,000.** The approximate mid-life replacement cost for a 5 kW residential inverter in India in 2026, including unit, labour, and recommissioning, a cost that a 12-year full replacement warranty eliminates entirely. *Source - [Mercom India, Solar Equipment Market Report 2026](https://www.mercomindia.com/).*
+## The PM Surya Ghar 5-year maintenance contract is not a manufacturer warranty
 
-## Brand-by-Brand Analysis: Warranty Terms in Practice
+Readers conflate these two constantly, and the conflation costs people cover.
 
-### Qbits
+Under the MNRE operational guidelines for PM Surya Ghar, a registered vendor owes a 5-year Comprehensive Maintenance Contract (CMC) from commissioning. That is a service obligation on the installer for the installed system. A manufacturer warranty is a product obligation from the factory for a specific serial-numbered unit. Different party, different scope, different enforcement route. They run in parallel and neither replaces the other.
 
-The market benchmark. Qbits' 12-year full replacement warranty is backed by an India-registered entity with a declared 72-hour RMA SLA, meaning a replacement unit is dispatched within 72 hours of claim approval, not 72 hours of fault logging. The claim process runs through WhatsApp (consistent with the brand's AI-powered monitoring system), the dealer portal, or the authorised service partner network. The warranty document is plain-language and available in Hindi, English, and four regional languages, a significant practical advantage in Tier-2 and Tier-3 markets where English-only documentation creates claim barriers.
+| | PM Surya Ghar 5-year CMC | Manufacturer inverter warranty |
+| --- | --- | --- |
+| Who owes it | The registered vendor or installer | The inverter manufacturer |
+| Scope | Maintenance of the installed system | Defects in the specific unit |
+| Duration | 5 years from commissioning, per the MNRE operational guidelines | Varies by brand, 2 to 12 years on published terms |
+| Typical remedy | Service visits and upkeep | Repair, parts, or unit replacement |
+| Survives installer exit | Hard to enforce in practice | Yes, the obligation stays with the manufacturer |
+| Escalation | Scheme grievance route, 30-day clock per the MNRE guidelines | The manufacturer's service channel, then consumer law |
 
-**Warranty score: 47/50.** The strongest in-class warranty in the Indian residential and commercial solar market as of June 2026.
+Two scheme facts are worth carrying. The MNRE operational guidelines run a 15-day clock after DISCOM approval and a 30-day clock governing grievances, and MNRE operates a grievance call centre on 15555 in 12 languages. Also correct a common myth while you are here: MNRE publishes no ALMM list for inverters. ALMM List-I covers modules and List-II covers cells, so an "inverter must be ALMM listed" claim in a sales pitch is not a scheme requirement.
 
-### Sungrow
+Choosing an installer partly on their ability to honour a 5-year CMC is reasonable. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) covers how that registration works. Where product and installation responsibility split is set out in the [installation versus product warranty comparison](/blog/solar-installation-vs-product-warranty/).
 
-Sungrow is the world's largest solar inverter manufacturer by shipment volume, and its 10-year standard warranty reflects genuine manufacturing confidence. The claim process uses the iSolarCloud portal, well-designed for installers, but unfamiliar territory for homeowners. The service network in India covers major metros effectively; Tier-2 and Tier-3 coverage depends on the regional distributor's network, which varies. Extended warranty to 20 years is available as a paid annual service contract (not a fixed-price, one-time purchase) meaning total extension cost depends on annual fee escalation.
+## How to verify a warranty document before you pay
 
-**Warranty score: 38/50.** Strong for metro-based installers and commercial projects; less reliable for individual homeowners in smaller cities.
+A warranty you have not read is a warranty you cannot rely on. The brochure, the specification sheet and the website banner are marketing artefacts. The warranty document is the contract, and it is the only thing a claim is assessed against. Run this sequence before the payment, not after the fault.
 
-### Fronius
+1. **Ask for the full written warranty** that applies to the exact model and the date of sale. Not the datasheet. Not a WhatsApp forward. The document.
+2. **Match the model and the seller** on that document against your quotation and invoice. A term published for one series does not automatically extend to another.
+3. **Read the start date and any cap.** Convert both into a calendar end date using the dispatch or manufacturing date on the rating label.
+4. **Read the remedy.** Establish whether the provider may repair, supply parts, replace the unit, or issue prorated credit, and whether the choice is theirs.
+5. **Read the registration clause** and note the deadline in your calendar on commissioning day.
+6. **Read the exclusions**, particularly the geographic, environmental and earthing clauses, against your actual site.
+7. **Read the freight, labour, travel and access clauses** and price what an approved claim would still cost you.
+8. **Read the transferability clause** if there is any chance you sell the property inside the term.
+9. **Check the service route.** Identify the nearest authorised service point and confirm it exists before you rely on it.
+10. **File the pack.** Keep the accepted warranty document, the invoice, the commissioning report, a photograph of the rating label, and any registration confirmation in one place.
 
-Fronius manufactures premium Austrian inverters with a strong reputation for monitoring (Fronius Solar.web is one of the best fleet management tools available). The 5-year standard warranty is the brand's primary weakness versus the market, it is explicitly lower than what Indian solar system lifespans demand. The paid extension to 10 years is well-structured and the claim process is clear, but the extension adds ₹8,000–₹20,000 to the total system cost. Fronius' India service network has grown since 2022 but remains thinner than Sungrow or Qbits in Tier-2 cities.
+If a clause is absent from the document, record it as unknown rather than assuming the favourable reading. Do not convert a verbal assurance from a dealer into a scored benefit in your comparison. A short document with clear terms beats a long headline with undefined logistics.
 
-**Warranty score: 33/50.** Strong monitoring and build quality undermine by a thin standard warranty and limited Tier-2 service reach.
+## What Qbits publishes, held to the same test
 
-### SMA
+Qbits publishes the longest headline term in this comparison, so it earns the same scrutiny applied to everyone else above. Here is the position, stated precisely.
 
-SMA (Sunnyboy, Storedge) is a German-engineered brand with excellent grid-management features and strong compliance for export-heavy commercial projects. The 5-year warranty, like Fronius, starts below the Indian minimum recommendation. SMA's India presence has contracted since 2022 as the brand has shifted focus to C&I and utility-scale rather than residential. Finding authorised SMA service in cities below the top 20 is now difficult, which materially undermines the enforceability of their warranty for most residential buyers.
+Qbits publishes an **expandable warranty** whose base term, remedy, registration deadline and exclusions are **not defined in its public datasheets**, a note that appears on every Qbits product page. That is a documentary gap rather than a short term, but for a buyer comparing offers the practical effect is the same: there is nothing here to weigh against a Havells or UTL document until you obtain the written terms for your exact model. No current written service level sets a dispatch time either, so ask what happens once a claim is approved and get the answer in writing.
 
-**Warranty score: 31/50.** Best suited for large commercial projects where the buyer has the resources to manage international service relationships independently.
+Now the limitation, from Qbits own data file. The warranty note in `the current Qbits product records` records that the public datasheets describe an expandable warranty but do not define the base term, the remedy detail, the registration deadline, or the exclusions. Every product entry in that file lists its warranty field as "request current written terms". That is an honest gap in public documentation, and it means a Qbits buyer needs to do exactly what this guide asks of a Sungrow or Growatt buyer: obtain the current written warranty for the exact quoted model before purchase.
 
-### Goodwe and Growatt
+Alongside the warranty, the published brand claims are 50,000+ installations, presence across 33 states and UTs, 2100+ authorised service partners, and 1,000+ quality tests. Those are the company's own published figures rather than independently audited ones. Qbits also states it is ALMM Phase III listed, which is again a brand statement: MNRE publishes ALMM lists for modules and cells rather than inverters, so ask for the current certificate covering your exact model.
 
-Both brands occupy the mid-market, better specified than Indian budget brands, priced below the premium European OEMs. Both offer 5-year standard warranties with paid extensions. Goodwe has built a stronger monitoring platform (SEMS Portal) and a more consistent dealer network. Growatt's pricing is aggressively competitive but service consistency varies significantly by region. Neither brand offers full replacement as a standard term.
+On hardware, the TLS, TLD, TLC and QBH series all list IP66 protection in the product data, and efficiency varies by model, so quote the figure for the SKU you are considering rather than the range topper. The range itself spans single-phase on-grid from 1.5 kW, three-phase to 320 kW, and [hybrid inverter](/glossary/hybrid-inverter/) models from 3 kW to 12 kW. Specifications by series are listed on the [products pages](/our-products/), and the service network is searchable through the [authorised service partner directory](/authorized-service-partners/).
 
-**Warranty scores: Goodwe 30/50, Growatt 27/50.** Reasonable for price-sensitive commercial buyers with in-house technical resources; not recommended for residential buyers prioritising after-sales protection.
+The fair reading is this. A brand that cannot show you a dated, model specific warranty document has not yet made an offer you can compare, and that applies to the publisher of this page as much as to anyone else. Ask for the document first, then rank.
 
-### Luminous and Microtek
+## If a claim is refused, escalate on paper
 
-The dominant Indian UPS and inverter brands have solar inverter ranges built on their existing distribution infrastructure. The 2-year warranty is the critical failure: it leaves the buyer exposed for 8–10 years of the inverter's expected operating life. Service networks are wide but solar-specific technical training is inconsistent. Both brands are well-suited for customers in very remote locations where their wide distributor footprint is a genuine advantage, provided the buyer accepts the warranty limitation consciously and budgets for mid-life replacement.
+A refusal is not the end of the process, but a verbal refusal cannot be escalated. The first move is always to convert it into writing.
 
-**Warranty scores: Luminous 29/50, Microtek 27/50.** Strong logistics footprint undermined by the shortest warranty terms in this comparison.
+1. **Request the refusal in writing**, naming the specific clause relied on and the diagnosis it rests on.
+2. **Check the clause against your document**, the version that applied at the date of sale rather than the current website text.
+3. **Escalate inside the service structure**, through the distributor named on your invoice and then an authorised service partner, keeping every ticket number and date.
+4. **Use the scheme grievance route** if the system carried a government subsidy, noting the 30-day grievance clock in the MNRE operational guidelines and the 15555 call centre.
+5. **Consider consumer law** if that fails. The Consumer Protection Act, 2019 allows a complaint for a defect in goods or a deficiency in service, filed within 2 years of the cause of action, through the e-Daakhil portal.
 
-## Common Mistakes When Evaluating Solar Inverter Warranties
+Most refusals turn on evidence rather than on bad faith: a missing commissioning report, an unreadable serial number, an unregistered unit, or an exclusion that genuinely applies. The full evidence sequence, from first fault to dispatched replacement, is in the [warranty claim checklist](/blog/solar-inverter-warranty-claim/).
 
-Most homeowners and even experienced buyers make avoidable mistakes when comparing warranties. The following errors consistently result in unexpected out-of-pocket costs:
+## The Bottom Line
 
-- **Confusing "service agreement" with "warranty"**: A paid service agreement that you purchase separately is not a warranty. Warranties are included in the inverter's purchase price. When a brand quotes a "10-year warranty" that requires a separate annual fee, ask whether this is a standard included term or a paid contract.
-- **Not registering the warranty**: Many brands require online registration within 30 days of purchase for the warranty to be valid. Missing this window reduces coverage to the statutory minimum under Indian consumer protection law, typically 1 year. Register immediately on purchase and keep a screenshot of the confirmation.
-- **Assuming the installer's assurance is the warranty**: "We will take care of it for 5 years" from the installer is not a manufacturer warranty. Installer assurances are only as good as the installer's continued business existence, which is why vetting a local solar installer on longevity and reviews matters as much as the brand you choose. Always hold the manufacturer's warranty card directly.
-- **Ignoring IP rating impact on warranty**: Several brands exclude warranty claims for corrosion or water ingress on units installed outdoors without confirming that the unit's IP rating matches the environment. An IP65 inverter installed in a coastal area exposed to salt-laden monsoon rain may face denied warranty claims for water damage that an IP66 unit would have withstood.
-- **Overlooking the commissioning requirement**: Virtually every solar inverter warranty requires that the unit be installed and commissioned by a certified professional as part of a properly executed residential solar installation. Self-installation or installation by an uncertified contractor voids warranty across all brands. The [payback period calculation guide](/glossary/payback-period/) is also affected: uncertified installations often underperform rated output, compounding the financial impact.
+The longest warranty in India, on published duration, is 12 years from Qbits with units above 30 kW at 8 years, then 10 years from Havells and from UTL on its F Series line. That ranking is a starting point and not an answer. Growatt's 5.5-year dispatch cap, Sungrow's coastal bands, Deye's remaining-term replacement rule and GoodWe's conditional hybrid extension all change what a year of cover is worth, and every one of them is a disclosed contract term rather than a trick.
 
-For a complete framework on evaluating inverter reliability beyond warranty terms, the [guide to evaluating solar inverter reliability indicators](/blog/how-to-evaluate-solar-inverter-reliability/) covers MTBF data, component quality markers, and certification flags.
+Rank the documents, not the numbers. Then keep the paperwork that makes a claim assessable.
 
-## How to File a Warranty Claim That Actually Gets Approved
-
-Knowing the warranty terms is half the battle. Knowing how to file a claim that does not get rejected on a technicality is the other half. The following process applies broadly across brands, with specific notes for Qbits.
-
-**Step 1: Document the fault immediately**
-
-Photograph or video the fault condition, error codes on the display, unusual heat marks, physical damage, or the monitoring app alert. Note the date and time. If the monitoring system flagged the fault automatically (as Qbits' WhatsApp system does), save the alert message. This documentation is your primary evidence.
-
-**Step 2: Contact the brand's warranty desk directly**
-
-Do not rely on the installer to manage the claim on your behalf. Contact the manufacturer's warranty or service team directly using the contact details on the warranty card. For Qbits, this is a dedicated WhatsApp service number. Obtain a written claim ticket number within 24 hours; if none is issued, escalate.
-
-**Step 3: Prepare your documentation package**
-
-Every claim requires: original purchase invoice, installation date confirmation, commissioning report signed by the installer, warranty registration confirmation, and the fault documentation from Step 1. Missing any single document is grounds for delay or rejection. Keep digital copies of all documents in a cloud folder created on the day of purchase.
-
-**Step 4: Confirm coverage scope in writing before agreeing to anything**
-
-Before agreeing to send the unit for inspection or repair, confirm in writing what the brand will cover: parts, labour, transportation, and the timeline for resolution. Verbal assurances from service agents are not binding. Get the scope in an email or WhatsApp message.
-
-**Step 5: Track the resolution timeline**
-
-If the brand does not meet its stated SLA (72 hours for Qbits, longer for others) escalate formally in writing. Keep records of every interaction. In India, the [Consumer Protection Act 2019](https://consumeraffairs.nic.in/) provides a legal framework for escalating unresolved warranty disputes to the consumer forum if the manufacturer fails to honour documented commitments.
-
-Elsewhere in the Heaven Group network, see [how to file a solar warranty claim](https://www.heavengreenenergy.com/blog/how-to-file-solar-warranty-claim) and [what a replacement actually costs](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost).
-
-## Where Qbits Fits
-
-For homeowners who have decided that warranty is their primary selection criterion (and the TCO maths in this guide shows exactly why it should be) Qbits is the clear answer. No other brand in the Indian market combines a 12-year full replacement warranty, a <72-hour RMA SLA, and an India-registered entity that makes enforcement straightforward under Indian law.
-
-The engineering behind the warranty is equally relevant: [IP66 weather protection](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/), India-grid-tuned firmware handling 180–270 V without derating, 98% peak efficiency, and AI-powered WhatsApp monitoring that catches faults before they become warranty claims, all contributing to the low failure rates that make a 12-year replacement commitment financially viable for the brand and financially valuable for the buyer.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed, subsidy-eligible, and backed by the 12-year replacement warranty. Ideal for homeowners in metro and Tier-2 cities with reliable grid and net metering access.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness, instant backup switchover, and the same 12-year replacement coverage. Recommended for power-cut zones and homeowners planning battery addition within 3–5 years.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable network of certified installers and service technicians responsible for meeting the 72-hour RMA SLA. Verifying the nearest partner before purchase is a practical step every buyer should take.
-
-If you are comparing the Qbits warranty against a specific competing quote and want a side-by-side analysis for your system size and location, [talk to a Qbits engineer at the contact page](/contact-us/), most enquiries receive a detailed response within 24 hours, including a written warranty term comparison relevant to your specific site.
-
-The [complete guide to choosing a solar inverter for your home](/blog/how-to-choose-solar-inverter-for-home-india/) and the [2026 best solar inverter India review](/blog/best-solar-inverter-india/) provide broader context for buyers who want to evaluate warranty alongside efficiency, MPPT configuration, monitoring quality, and total system cost before making a final decision.
-
-"Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone." That is not a marketing line. It is the operational reality that a 12-year full replacement warranty, a 72-hour RMA SLA, and an India-registered service entity make possible.
+- **Convert every headline into a calendar end date** using the start-date clause and the dispatch date on the rating label, before you sign anything.
+- **Read the freight, labour, exclusion and transferability clauses**, and price what an approved claim would still cost you at your site.
+- **Ask Qbits or an authorised partner for the current written warranty** for the exact model you are quoting, and raise your site conditions at the same time through the [contact form](/contact-us/).

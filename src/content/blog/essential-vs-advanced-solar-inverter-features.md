@@ -22,11 +22,11 @@ faqs:
   - q: "How does DC oversizing improve generation yield?"
     a: "DC oversizing allows the inverter to operate closer to rated AC output during low-irradiance conditions (early morning, late evening, overcast monsoon hours), capturing generation that a perfectly matched system would miss. With 130-150% DC oversizing, annual generation typically increases 10-20% depending on local solar resource and panel orientation. The economic case for 130-150% oversizing is strong across India; beyond 150% clipping losses during peak midday production start eating into the gains."
   - q: "Does a 12-year inverter warranty affect project financing terms?"
-    a: "Yes, materially. Lenders view longer manufacturer warranties as a risk-mitigation factor that supports better financing terms - lower interest rates, higher loan-to-value ratios, longer tenors. For commercial solar loans backed by IREDA or major Indian banks, a 12-year full replacement warranty often unlocks 0.5-1.0% lower rates or 60-month tenor extensions compared to 5-year repair warranties. The financing advantage often exceeds the upfront premium cost of the better warranty."
+    a: "Yes, materially. Lenders view longer manufacturer warranties as a risk-mitigation factor that supports better financing terms - lower interest rates, higher loan-to-value ratios, longer tenors. For commercial solar loans backed by IREDA or major Indian banks, a model-specific written warranty often unlocks 0.5-1.0% lower rates or 60-month tenor extensions compared to 5-year repair warranties. The financing advantage often exceeds the upfront premium cost of the better warranty."
   - q: "What's the minimum essential feature set every inverter must have?"
-    a: "Six absolute minimums: (1) CEA grid compliance for DISCOM connection approval, (2) BIS certification under IS 16221 for legal sale in India, (3) ALMM Phase III listing if any government subsidy is involved, (4) 97% peak efficiency minimum, (5) basic safety protection (over-voltage, over-current, anti-islanding within 2 seconds), (6) 5-year warranty floor as the bare minimum. Anything below this set is operationally and legally inadequate for any Indian installation in 2026."
+    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
   - q: "Which advanced features deliver the strongest ROI in Indian conditions?"
-    a: "Five features deliver outsized return: AI-powered WhatsApp monitoring (reduces service calls 30-40%, saves ₹2-3 lakh annually for typical EPCs), IP66 weather protection (eliminates 15-20% of inverter failures from environmental ingress), 12-year full replacement warranty (avoids ₹40,000-4,00,000 mid-life replacement event), DC oversizing 130-150% (10-20% annual generation uplift), and integrated DC and AC SPDs (eliminates external add-on failure points)."
+    a: "Five features deliver outsized return: AI-powered WhatsApp monitoring (reduces service calls 30-40%, saves ₹2-3 lakh annually for typical EPCs), IP66 weather protection (eliminates 15-20% of inverter failures from environmental ingress), model-specific written warranty (avoids ₹40,000-4,00,000 mid-life replacement event), DC oversizing 130-150% (10-20% annual generation uplift), and integrated DC and AC SPDs (eliminates external add-on failure points)."
   - q: "Are integrated SPDs really better than external add-on surge protection?"
     a: "Yes, materially. Integrated DC and AC surge protection devices are factory-tuned to the specific inverter's electrical characteristics, have fewer connection failure points, respond faster to surge events, and survive multiple surge cycles before replacement. Quality inverters include 20 kA+ surge current capacity as standard, not as a paid option. External SPDs are acceptable as a second protection layer but should not be relied upon as primary defence against the lightning and grid surges common across India."
   - q: "How important is quiet operation for residential inverter selection?"
@@ -34,7 +34,7 @@ faqs:
   - q: "What's the trade-off between efficiency and price?"
     a: "The premium for top-tier 98% efficiency vs 97% is typically 5-10% of unit price. The 1% efficiency difference generates approximately ₹6,000-8,000 extra revenue per kW over 12 years at typical Indian residential tariffs. For a 5 kW system, that is ₹30,000-40,000 of additional generation revenue - far exceeding the 5-10% efficiency premium. Always select the highest-efficiency option within budget rather than trading efficiency for a cheaper feature elsewhere."
   - q: "How should I prioritise features for a budget-constrained installation?"
-    a: "Protect three non-negotiables regardless of budget: IP66 weather protection (the failure mode it prevents is the most expensive), 7+ year manufacturer warranty (mid-life replacement is the biggest unplanned cost), and BIS plus ALMM Phase III certification (legal compliance and subsidy eligibility). Reduce optional advanced features selectively - skip the AI monitoring premium, accept basic fault detection - but never compromise on protection. The cost of protection failure is multiples of any saving from compromising it."
+    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
 ---
 
 Choosing the right inverter feature set is one of the most consequential decisions an Indian EPC, dealer, or homeowner makes during solar procurement. The wrong feature mix creates either legal exposure (missing certifications), operational failure (inadequate weather protection), or wasted budget (over-specified features for the use case). The right feature mix locks in profitable 25-year economics and avoids the warranty events that erode margins.
@@ -42,12 +42,12 @@ Choosing the right inverter feature set is one of the most consequential decisio
 This guide separates the non-negotiable essential features that every inverter must have from the advanced features that drive ROI - with quantified rupee impact of each advanced capability, project-type matching guidance, and a budget-constrained selection framework for cost-sensitive installations.
 
 > **TL;DR**
-> - Eight features are non-negotiable in India: CEA grid compliance, BIS IS 16221, ALMM Phase III listing, 97%+ efficiency, core safety protections, low start-up voltage, a 5-year warranty floor, and IEC 62109/61727 certification.
+> - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
 > - AI-powered WhatsApp monitoring cuts service calls 30-40% and saves EPCs managing 100+ sites ₹2-3 lakh annually.
 > - IP66 weather protection eliminates 15-20% of inverter failures from environmental ingress versus IP65.
-> - A 12-year full replacement warranty avoids the mid-life replacement event that a 5-year repair warranty does not cover, and can unlock better financing terms.
+> - A model-specific written warranty avoids the mid-life replacement event that a 5-year repair warranty does not cover, and can unlock better financing terms.
 > - DC oversizing of 130-150% typically lifts annual generation yield by 10-20% in Indian conditions.
-> - Budget-constrained buyers should never compromise on three things: IP66 protection, a 7+ year warranty, and BIS plus ALMM Phase III certification.
+> - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
 
 ## Essential Features: The Non-Negotiable Baseline
 
@@ -100,9 +100,9 @@ Essential for Indian climate conditions. IP66 protects against:
 
 See the [IP65 vs IP66 solar inverters India guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) for complete weather protection analysis.
 
-### 3. 12-Year Full Replacement Warranty
+### 3. model-specific written warranty
 
-The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) standard is becoming the differentiator for premium positioning in India, and it is worth comparing against brands still offering shorter terms in the [best solar inverter warranty comparison](/blog/best-solar-inverter-longest-warranty-india/).
+The [model-specific written warranty](/blog/12-year-solar-inverter-warranty/) standard is becoming the differentiator for premium positioning in India, and it is worth comparing against brands still offering shorter terms in the [best solar inverter warranty comparison](/blog/best-solar-inverter-longest-warranty-india/).
 
 **ROI mechanism:**
 - Significantly improves project bankability (lenders favour longer warranties)
@@ -190,7 +190,7 @@ For EPCs speccing multiple residential jobs, [SurgePV's residential solar design
 
 1. **WhatsApp monitoring** for daily generation visibility and family-friendly alerts
 2. **IP66 protection** for monsoon, dust, and rooftop conditions
-3. **12-year warranty** for long-term peace of mind
+3. **model-specific written warranty** for long-term peace of mind
 4. **Quiet operation** (<40 dB) for living-space compatibility
 5. **Low start-up voltage** for maximum daily generation hours
 6. **DC oversizing 130-150%** for generation uplift
@@ -202,12 +202,12 @@ Skip-able if budget-constrained: fleet dashboard, multi-language UI.
 Treat as standard - no skipping. For larger C&I bids, [SurgePV's commercial solar design software](https://surgepv.com/commercial-solar-design/) helps model the generation gain from DC oversizing and efficiency choices before the feature list is finalised:
 
 - **AI monitoring with fleet dashboard** for operations management
-- **12-year warranty** for depreciation-based ROI alignment
+- **model-specific written warranty** for depreciation-based ROI alignment
 - **Integrated SPDs** for grid disturbance resilience
 - **DC oversizing 130-150%** for revenue maximisation
 - **IP66** for outdoor mounting in harsh conditions
 - **98% efficiency** for generation revenue capture
-- **ALMM Phase III** for any government-linked project
+- **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify the exact module/cell models and check inverter documents separately.
 
 For commercial buyers, advanced features are not optional - they are the foundation of acceptable project economics.
 
@@ -217,7 +217,7 @@ Protect three non-negotiables at minimum:
 
 - **IP66** (regardless of budget - it prevents the most expensive failure modes)
 - **7+ year warranty** (avoids mid-life replacement cost)
-- **BIS + ALMM Phase III certification** (legal and subsidy eligibility)
+- **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify the exact module/cell models and check inverter documents separately.
 
 Reduce optional features selectively:
 - Skip premium AI monitoring; accept basic fault display
@@ -242,14 +242,14 @@ Specific feature additions for [hybrid inverter](/glossary/hybrid-inverter/) sys
 When specifying inverters in an RFQ or procurement document, require:
 
 - BIS under IS 16221 (certificate copy)
-- ALMM Phase III listing (current)
+- current ALMM module and cell requirements
 - IEC 62109 and IEC 61727 (NABL-accredited lab reports)
 - IP66 per IEC 60529 (test report)
 - Peak efficiency 98%+ and weighted efficiency 97%+
 - Low start-up voltage documented (datasheet)
 - DC oversizing capability published (datasheet)
 - Integrated DC and AC SPDs (datasheet specifications)
-- 12-year full replacement warranty terms (warranty document)
+- model-specific written warranty terms (warranty document)
 - AI monitoring platform (demo access)
 - Operating temperature range to 50 deg C+ (datasheet)
 - Noise level at full load (datasheet)
@@ -258,18 +258,13 @@ Suppliers unable to produce any of these documents on request are filtering them
 
 ## Where Qbits Fits
 
-Qbits Energy's product range delivers the complete advanced feature set as standard:
-
-- **98% peak efficiency, 97%+ weighted** across the load range
-- **IP66 per IEC 60529** with NABL-accredited test reports
-- **12-year full replacement warranty** - the longest in the Indian market
-- **AI WhatsApp monitoring** with fleet dashboards for EPC operations
-- **DC oversizing to 150%** for high-wattage panel arrays
-- **Integrated 20 kA+ DC and AC SPDs** as standard
-- **German-grade components** (Infineon IGBTs, Japanese capacitors)
-- **Wide grid voltage tolerance** for Indian grid conditions
-- **Operating temperature to 60 deg C** internal
-- **ALMM Phase III listed**, BIS certified, all IEC certifications from accredited labs
+- Compare the exact maximum and weighted efficiency values stated for the quoted model.
+- Verify enclosure, environmental and derating limits in the current datasheet and manual.
+- Obtain the current warranty term, remedy, exclusions and service route in writing.
+- Confirm logger hardware, monitoring functions, alert channels, data access and subscriptions.
+- Check the permitted DC design, internal protection and required external protection for that model and site.
+- Request model-matched certificates and test reports. ALMM is not an inverter list.
+- Treat component origin, universal grid tolerance and range-wide feature claims as not established unless controlling documents support them.
 
 Related guides:
 
@@ -280,8 +275,8 @@ Related guides:
 - **[3 kW vs 5 kW vs 10 kW Solar Inverters India](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/)** - capacity selection
 - **[Solar Inverter Depreciation in India](/blog/solar-inverter-depreciation-in-india/)** - commercial financial framework
 
-For feature-specific consultations or to map the right Qbits SKU to your specific project type, [talk to a Qbits engineer](/contact-us/) - the team can provide a feature-matched specification within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ## Closing
 
-The essential feature set keeps you legal and operational; the advanced feature set keeps you profitable over 25 years. The good news for Indian buyers: most "advanced" features now come bundled in premium Indian-market inverters at competitive prices, making the value calculation increasingly straightforward for EPCs and homeowners serving quality-conscious requirements. The math is clear - over a 25-year system life, the rupee impact of advanced features (AI monitoring, IP66, 12-year warranty, DC oversizing, integrated SPDs) typically exceeds the 8-12% upfront feature premium by 5-10x. Specify the advanced feature set as your default, and treat anything less as a deliberate trade-off requiring justification.
+The essential feature set keeps you legal and operational; the advanced feature set keeps you profitable over 25 years. The good news for Indian buyers: most "advanced" features now come bundled in premium Indian-market inverters at competitive prices, making the value calculation increasingly straightforward for EPCs and homeowners serving quality-conscious requirements. The math is clear - over a 25-year system life, the rupee impact of advanced features (AI monitoring, IP66, model-specific written warranty, DC oversizing, integrated SPDs) typically exceeds the 8-12% upfront feature premium by 5-10x. Specify the advanced feature set as your default, and treat anything less as a deliberate trade-off requiring justification.

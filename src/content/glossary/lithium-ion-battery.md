@@ -279,8 +279,6 @@ Lithium-ion batteries are the foundation of modern solar storage. LFP chemistry 
 
 ## Need a lithium storage solution?
 
-QBits Energy supplies LFP battery packs and hybrid inverter systems certified to Indian standards for residential, C&I and microgrid applications.
-
 ## Further reading
 
 For how Lithium Ion Battery plays out in real projects, these guides go deeper:

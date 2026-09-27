@@ -68,6 +68,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is pure sine wave
 
 Pure sine wave, also called true [sine wave](/glossary/sine-wave-inverter/) or sine wave AC, is a smooth sinusoidal alternating current waveform identical in mathematical shape to the AC supplied by the utility grid. The waveform follows the equation v(t) = Vmax × sin(2πft), where f is the fundamental frequency (50 Hz in India) and Vmax is the peak voltage.
@@ -78,7 +80,6 @@ Pure sine wave, also called true [sine wave](/glossary/sine-wave-inverter/) or s
 > - It is required for grid synchronisation, since a grid-tie inverter cannot match the grid's voltage and phase on a stepped or square waveform.
 > - Modified sine wave, with THD of 30 to 50 percent, damages motors, PFC power supplies and modern LED drivers.
 > - The cost premium of pure sine over modified sine has largely collapsed, and it is now the standard for all credible inverters.
-> - Every ALMM-listed Indian solar inverter, including those used for PM Surya Ghar residential installations, produces pure sine output.
 
 Pure sine wave is the ideal AC output for all electrical loads. Modern grid-tie inverters, [hybrid inverters](/glossary/hybrid-inverter/) and quality [off-grid inverters](/glossary/off-grid-inverter/) all produce pure sine wave AC by using high-frequency [PWM](/glossary/pwm/) switching of IGBTs or MOSFETs followed by an LCL output filter that smooths the chopped waveform.
 
@@ -186,13 +187,9 @@ Verify pure sine claim with THD measurement.
 
 Specify THD under 3 percent in purchase orders when sourcing solar inverters.
 
-Use [ALMM-listed](/glossary/almm-list/) inverters for guaranteed pure sine.
-
 Test with actual load profile before commissioning.
 
 ## Indian market context
-
-All ALMM-listed inverters produce pure sine.
 
 Cheap brand off-grid inverters in rural markets may still be modified sine.
 
@@ -208,14 +205,6 @@ Major brands clearly specify THD in datasheets.
 | IS 17387 | Indian grid interconnection |
 | IEEE 519 | Harmonic limits |
 | EN 50530 | Inverter efficiency |
-
-## Key takeaways
-
-Pure sine wave is the clean AC output produced by all modern solar inverters. It is universally compatible with all loads, has low THD under 3 percent, and is required for grid synchronisation. Modified and square wave are cheaper to produce but cause problems with sensitive electronics, motors and modern appliances. Indian ALMM-listed inverters produce pure sine wave universally.
-
-## Need pure sine wave inverters?
-
-QBits Energy supplies ALMM-listed pure sine wave grid-tie, hybrid and off-grid inverters for residential, C&I and utility solar across India.
 
 ## Further reading
 

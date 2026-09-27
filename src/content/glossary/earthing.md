@@ -257,8 +257,6 @@ Earthing is foundational electrical safety. It enables every downstream protecti
 
 ## Need IS 3043-compliant solar earthing?
 
-QBits Energy designs and installs CEA and IS 3043-compliant earthing systems for residential, C&I and utility solar plants across India.
-
 ## Further reading
 
 For how Earthing plays out in real projects, these guides go deeper:

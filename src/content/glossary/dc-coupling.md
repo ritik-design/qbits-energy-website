@@ -68,6 +68,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is DC coupling
 
 DC coupling is a solar-plus-storage system architecture in which the PV array and the battery bank share a common internal DC bus inside a single [hybrid inverter](/glossary/hybrid-inverter/). PV power feeds the DC bus through MPPT-controlled boost converters. Battery power flows in and out through a bidirectional DC-DC converter. A single AC inversion stage converts the DC bus into grid-quality AC.
@@ -234,8 +236,6 @@ DC coupling dominates Indian residential hybrid solar. Major hybrid inverter bra
 
 Battery compatibility lists vary by brand. Most hybrids communicate over CAN bus with [LFP](/glossary/lfp-battery/) packs from [Pylon Tech](/blog/pylontech-battery-india-review/), BYD, Goodwe Storage, Sungrow battery and similar.
 
-ALMM listing applies to the hybrid inverter. Battery side is not subsidised under [PM Surya Ghar](/glossary/pm-surya-ghar/) but must be BIS-certified for safety compliance.
-
 CEA Grid Code applies to the AC side. Anti-islanding, FRT and reactive power requirements apply to the inverter's grid interaction.
 
 ## Standards and certifications
@@ -248,7 +248,6 @@ CEA Grid Code applies to the AC side. Anti-islanding, FRT and reactive power req
 | IEC 62619 | Battery safety |
 | IS 16893 | Indian stationary battery storage |
 | CEA Grid Code 2019 | Connectivity rules |
-| MNRE ALMM | Inverter listing |
 
 ## Common mistakes
 
@@ -271,8 +270,6 @@ Treating DC coupling as one-and-done. Battery upgrades require compatibility rev
 DC coupling is the default architecture for new residential and small commercial solar-plus-storage systems. Higher efficiency, lower capex and simpler installation make it the right choice when designing from scratch. Battery compatibility, MPPT sizing and backup load planning are the design choices that decide whether the system delivers its potential.
 
 ## Need a DC-coupled hybrid solar system?
-
-QBits Energy designs and installs DC-coupled hybrid solar plus storage systems for residential and small commercial customers across India.
 
 ## Further reading
 

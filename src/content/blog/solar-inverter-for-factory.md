@@ -37,15 +37,15 @@ faqs:
     a: "An industrial solar inverter for grid-connected factory use must include anti-islanding protection compliant with IEC 62116, over and under voltage and frequency protection as per CEA grid connectivity norms, DC injection limit below 0.5% of rated output current, fault ride-through (FRT) capability for momentary grid dips, and earth fault detection. For factories with DG sets, the inverter must have DG synchronisation logic or a transfer switch to prevent back-feeding onto the DG when the grid is off - a common but dangerous oversight in EPC designs."
 ---
 
-Running a factory on an unpredictable grid (with VFDs tripping, compressors hunting, and DG fuel bills climbing) is the exact problem an industrial solar installation is designed to solve. The challenge is not simply adding panels to a rooftop. It is selecting an inverter that handles non-linear industrial loads, stays in spec through 45 °C ambient temperatures, and meets India's evolving grid protection standards, all while delivering the [IRR](/glossary/irr/) your finance team approved at sanction.
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-> **Direct answer.** A solar inverter for factory use must be 3-phase, produce current with [total harmonic distortion](/glossary/thd/) below 5% (CEA standard) or below 3% for sensitive CNC and VFD loads, carry ALMM certification for projects above 500 kWp, and be sized to the factory's average daytime demand, not its peak connected load. Apply the 5-Factor Industrial Inverter Qualification Test before specifying any inverter for a plant exceeding 50 kW.
+Running a factory on an unpredictable grid (with VFDs tripping, compressors hunting, and DG fuel bills climbing) is the exact problem an industrial solar installation is designed to solve. The challenge is not simply adding panels to a rooftop. It is selecting an inverter that handles non-linear industrial loads, stays in spec through 45 °C ambient temperatures, and meets India's evolving grid protection standards, all while delivering the [IRR](/glossary/irr/) your finance team approved at sanction.
 
 This guide is written for factory owners, plant managers, and procurement heads responsible for C&I solar decisions in the 50 kW–2 MW range. Every number here is sourced. Every recommendation is grounded in India's CEA regulations, MNRE guidelines, and real project economics.
 
 > **TL;DR**
 > - A factory solar inverter must be 3-phase, hold current THD below 5% (below 3% for CNC/VFD-sensitive loads), and be sized to average daytime demand, not peak connected load.
-> - The 5-Factor Industrial Inverter Qualification Test checks THD at full load, phase-imbalance tolerance, ALMM certification, DG synchronisation, and thermal derating at 45°C ambient.
+
 > - Multiple 3-phase string inverters (50–100 kW each) are preferred up to about 500 kWp; central inverters become cost-competitive above that scale.
 > - DG displacement is often the biggest economic lever: solar generated at ₹3–4/kWh can offset diesel power costing ₹18–22/kWh.
 > - Net metering covers most C&I systems up to 1 MW in major states; larger systems typically move to gross metering or open access.
@@ -74,8 +74,6 @@ Evaluating a solar inverter for factory deployment requires a structured framewo
 1. **THD compliance at full load**: Confirm the inverter's current THD is below 3% at 100% rated output when feeding a mix of resistive and inductive industrial loads. Request the factory test certificate, not the brochure value. IEC 62040-3 provides the test methodology.
 
 2. **3-phase balance and imbalance tolerance**: Verify the inverter can operate at the manufacturer-specified output under 10–15% phase voltage imbalance, a common condition on Indian industrial feeders where single-phase loads have been added unevenly over time. Inverters with tight imbalance trip thresholds will disconnect frequently on poorly balanced factory distribution boards.
-
-3. **ALMM certification status**: For projects above 500 kWp seeking state or central government incentives, or funded by PSU banks, the inverter must appear on the [ALMM list](/blog/almm-list-phase-iii-guide/). Verify the exact model and capacity are listed, not just the brand name.
 
 4. **DG synchronisation and anti-islanding**: Factories relying on diesel backup must ensure the inverter has certified anti-islanding protection per IEC 62116, and either a manual or automatic transfer switch preventing back-feed onto the DG bus. Failure here damages the DG's alternator and risks electrocution during grid maintenance.
 
@@ -244,11 +242,7 @@ A milling-specific load profile and payback is in [solar for rice mills](/blog/s
 
 ## Where Qbits Fits in the Industrial Solar Stack
 
-Factory owners who want a 3-phase on-grid inverter that handles industrial harmonic environments, ships with 12-year full replacement warranty, and comes ALMM-listed for PSU-funded projects have a credible Indian-made option. Qbits 3-phase inverters are built to India-grid specifications (180–270 V input tolerance, 45 °C ambient derating curves, and anti-islanding compliance) not European lab conditions.
-
-- **[On-Grid Inverters, 3-Phase Range](/on-grid-inverter/)**: TLD series from 10 kW to 100 kW per unit, stackable for plants up to 2 MW. ALMM-listed, BIS-certified, IP66-rated for industrial environments.
 - **[C&I Solutions](/c-i-solution/)**: Packaged engineering support for factory solar assessments, including power quality pre-studies, DISCOM liaison, and EPC coordination.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm panel-string compatibility and DC:AC ratio before your EPC quotes, particularly important for 3-phase arrays with mixed orientations.
-- **[Download Datasheets](/download-datasheets/)**: Full THD specifications, derating curves, and grid protection compliance certifications for every Qbits 3-phase model.
 
-For a factory commissioning a 200 kW+ system with DG backup, diesel displacement targets, and DISCOM net metering application - [request a factory site survey from the Qbits applications engineering team](/contact-us/). Most industrial proposals come back within 48 hours with a site-specific DG displacement calculation and RPO compliance note included.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

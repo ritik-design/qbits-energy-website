@@ -145,4 +145,4 @@ In Poland the shadow's timing matters more than its size.
 - **Split the loss by destination.** Exported kilowatt-hours settle near 0.19 PLN, self-consumed ones displace retail, and mitigation only pays on the second kind.
 - **Test against an RCEm range.** A recommendation built on one month's reference price is built on sand.
 - **Decide shading and storage together.** Raising self-consumption changes what a shadow costs, so the two calculations are one calculation.
-- **Run a real roof before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Polish address, or reach the Qbits team [here](/contact-us/) for inverter and optimiser specification against the finished design.
+

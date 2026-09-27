@@ -223,8 +223,6 @@ Encapsulant seals solar cells inside modules, providing electrical insulation, m
 
 ## Need quality encapsulated modules?
 
-QBits Energy supplies ALMM-listed modules with PID-tested encapsulants for residential, C&I and utility solar across India.
-
 ## Further reading
 
 For how Encapsulant plays out in real projects, these guides go deeper:

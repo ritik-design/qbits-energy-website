@@ -211,8 +211,6 @@ This is a four-to-six week migration with no design downtime. The free 20-minute
 - **Choose Scanifly** if drone-based capture is your core differentiator and you already operate a drone fleet.
 - **Choose Solargraf or Pylon** if you are a residential-only team optimising for proposal turnaround over engineering depth.
 
-For everyone else, the verdict is unchanged. SurgePV is the Aurora alternative that wins on price, breadth, and speed at the same time. Whichever platform you land on, the string layout still has to clear a real inverter's MPPT window before it ships to procurement. Teams comparing [on-grid](/on-grid-inverter/) or [hybrid inverter](/hybrid-inverter/) options for the finished design can [get a spec walkthrough from a Qbits engineer](/contact-us/) rather than cross-checking datasheets by hand.
-
 <div class="inline-cta">
 <h3>Ready to cut design time by 70 percent?</h3>
 <p>SurgePV combines AI 3D roof modeling, 8,760-hour shading, bankable yield reports, and white-label proposals in one platform, at a flat published per-seat price. Aurora is quote-based, so bring your quote and compare.</p>

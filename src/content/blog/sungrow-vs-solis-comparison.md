@@ -16,22 +16,26 @@ keywords:
   - best solar inverter india residential
 faqs:
   - q: "Is Sungrow or Solis better for Indian homes in 2026?"
-    a: "Sungrow is the stronger brand for Indian homeowners who can afford a premium product and want the best combination of build quality, monitoring platform, and global track record. Solis is the better choice for buyers who are price-sensitive but still want an ALMM-listed product from a recognised Chinese OEM. Both have 5-year standard warranties. Neither offers the 12-year full replacement warranty that warranty-conscious residential buyers in India should consider as the benchmark for long-term protection."
+    a: "Sungrow is the stronger brand for Indian homeowners who can afford a premium product and want the best combination of build quality, monitoring platform, and global track record. Solis is the better choice for buyers who are price-sensitive but still want an ALMM-listed product from a recognised Chinese OEM. Both have 5-year standard warranties. Neither offers the model-specific written warranty that warranty-conscious residential buyers in India should consider as the benchmark for long-term protection."
   - q: "What is the price difference between Sungrow and Solis in India?"
     a: "Sungrow inverters are typically 25–40 percent more expensive than Solis inverters in the same capacity band in India. For a 5 kW residential system, Sungrow's installed price runs approximately ₹45,000–₹65,000 while Solis runs ₹28,000–₹42,000. This premium reflects Sungrow's global brand reputation, stronger India service infrastructure, and slightly better build quality. Buyers who can absorb the premium generally prefer Sungrow for long-term peace of mind; buyers who are budget-primary find Solis offers acceptable quality at a lower entry point."
   - q: "Does Sungrow have good after-sales service in India?"
     a: "Sungrow has one of the strongest after-sales service infrastructures among international solar inverter brands in India. The company operates through an authorised distributor and service partner network that covers all major states, including meaningful Tier-2 city presence. Sungrow India is a registered entity, which means warranty claims can be pursued through Indian consumer protection channels if needed. Service resolution times for Sungrow are generally faster than for value-tier OEMs, though still subject to the standard repair-and-return model for residential units."
   - q: "Is Solis ALMM listed for PM Surya Ghar subsidies?"
-    a: "Solis has ALMM-listed models in India. However, ALMM compliance is model-specific - not a blanket brand approval. Before purchasing any Solis inverter for a PM Surya Ghar subsidy-eligible installation, the buyer or installer must verify the specific model number against the current ALMM list published on the official MNRE portal. Lists are revised periodically and models may be added or removed. Do not assume a model is listed based on brand reputation or dealer assurance alone."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Which is better - iSolarCloud or SolisCloud?"
     a: "iSolarCloud (Sungrow) is the more capable monitoring platform, with better fleet management features, a more intuitive residential dashboard, stronger fault diagnostic depth, and wider third-party integration. SolisCloud is functional and adequate for single-site residential monitoring but less sophisticated in its data analysis and alert capabilities. For a homeowner monitoring a single rooftop system, both platforms perform comparably for daily use. For an EPC or installer managing multiple sites, iSolarCloud is materially superior."
   - q: "Can I use Solis for a commercial solar project in India?"
     a: "Yes. Solis has a strong commercial string inverter range - particularly the 30 kW to 110 kW product line - that is suitable for commercial and industrial rooftop projects. Solis's high-power string inverters offer wide DC voltage windows and high MPPT counts that accommodate large commercial roof layouts with multiple string orientations. For C&I projects where budget is a significant constraint, Solis provides more features per rupee than Sungrow, though Sungrow's brand bankability is stronger for project finance purposes."
   - q: "How does Qbits compare to Sungrow and Solis for warranty-conscious Indian buyers?"
-    a: "Qbits addresses the warranty gap that both Sungrow and Solis leave. Both brands offer 5-year standard warranties with paid extensions available to 10 years. Qbits offers a 12-year full unit replacement warranty as a standard term - no extension payment required. The practical difference over a 25-year solar system life is significant: Qbits's warranty covers the full productive midlife of the system, while Sungrow and Solis buyers carry replacement risk from year 6 or year 11 depending on their chosen term. For buyers in Tier-2 and Tier-3 India where Sungrow's premium service may not be geographically accessible, Qbits's 72-hour RMA SLA offers a comparable or better practical service experience."
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
   - q: "What is Sungrow's warranty in India?"
     a: "Sungrow offers a standard 5-year warranty on its residential inverters in India, with extended warranty options available for purchase up to 10 years. The warranty covers repair of defective units. Sungrow India is a registered local entity, which improves warranty enforceability compared to brands that operate solely through third-party distributors. For large commercial projects, Sungrow sometimes offers project-specific warranty terms through its C&I commercial division. Extended residential warranties up to 10 years are available at additional cost and are repair-based rather than full unit replacement."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 When Indian solar buyers move above the mid-market price bracket, [Sungrow](/blog/huawei-vs-sungrow-india/) becomes the natural premium reference point. When they look for the best value among Chinese OEMs, Solis (Ginlong Technologies) frequently appears as an alternative. These are not the same type of product, Sungrow has invested significantly in India localisation, a local service entity, and a premium build standard; Solis competes primarily on price and commercial string inverter capability. Understanding the genuine difference between these two brands is what this comparison sets out to deliver.
 
@@ -47,7 +51,6 @@ For broader brand context, see the [top 10 solar inverter brands in India 2026](
 > - Sungrow's India-registered entity gives it stronger Tier-2 service density and more enforceable warranty claims than Solis's distributor-dependent model.
 > - Both brands offer only a 5-year standard warranty, repair-based, extendable to 10 years at extra cost.
 > - Solis's 30–110 kW commercial string range is genuinely competitive for large factory rooftops, often beating Sungrow on cost per kW.
-> - On the 5-Axis India Inverter Evaluation, Sungrow scores 38/50 against Solis's 31/50; Qbits' 12-year full-replacement warranty exceeds both brands' standard terms.
 
 ## Why Sungrow Commands a Premium in India
 
@@ -180,55 +183,43 @@ For buyers considering a 10-year extended warranty from either brand, the paid e
 
 ## ALMM Compliance and PM Surya Ghar Eligibility
 
-The [Approved List of Models and Manufacturers (ALMM)](/glossary/almm-list/) is the MNRE gateway that determines which inverters qualify for PM Surya Ghar central subsidies of up to ₹78,000 for a 3 kW residential system. Both Sungrow and Solis have maintained ALMM-listed models in India, but the compliance picture deserves careful scrutiny.
-
 > **₹78,000.** Maximum central subsidy available under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, disbursed directly to the buyer's bank account after DISCOM verification. *Source - [PM Surya Ghar Portal, MNRE](https://pmsuryaghar.gov.in/), 2026.*
 
 Key compliance facts for buyers:
 
-- **ALMM is model-specific**: Neither "Sungrow" nor "Solis" as a brand name guarantees ALMM compliance. The specific inverter model number must appear on the current MNRE list.
-- **Lists are revised**: MNRE updates the ALMM list periodically. A model that was listed in a previous version may not appear in the current version. Always check the [live ALMM list at MNRE](https://mnre.gov.in/) before placing an order.
-- **Sungrow** has maintained broader and more consistent ALMM coverage across its residential range than Solis, due to its larger India presence and more active compliance management.
-- **Solis** has ALMM-listed models, but the range of listed models has been narrower in some list versions. Buyers must verify with the distributor and directly on the MNRE portal.
-- **Installers carry compliance risk**: Under PM Surya Ghar rules, the empanelled vendor and installer are responsible for confirming ALMM compliance. If a non-listed model is installed, the subsidy is disqualified and may need to be repaid. See [the PM Surya Ghar empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) for the full compliance framework.
+- **ALMM is module/cell focused**: MNRE's current ALMM page publishes PV module and cell lists and related orders, not a Sungrow or Solis inverter list. Check the [current MNRE page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/).
+- **Inverter evidence is model-specific**: request the exact certificate, grid-interface document and utility evidence required for the project. Do not substitute a brand-level compliance sentence.
+- **Scheme responsibility is shared by the contract and process**: the applicant and vendor should verify the equipment and current requirements before installation. See the [PM Surya Ghar vendor guide](/blog/empanelled-vendor-pm-surya-ghar/).
 
 ## Sungrow vs Solis: Which Sector Should Choose Which
 
 Different buyer profiles will find different answers to this comparison. The table below maps buyer type to preferred brand clearly.
 
-| Buyer Profile | Recommended Brand | Reason |
-| --- | --- | --- |
-| Residential homeowner, budget ≥ ₹50k for 5 kW | Sungrow | Better monitoring, stronger service, enforceable warranty |
-| Residential homeowner, budget ≤ ₹40k for 5 kW | Solis | Best value in ALMM-listed mid-market tier |
-| Commercial project, 50–200 kW | Solis (alongside Sungrow eval) | Commercial string range competitive; lower cost |
-| Commercial project, finance-backed, bankability req. | Sungrow | Premium bankability accepted by Indian lenders |
-| PM Surya Ghar installer, Tier-1 city | Sungrow | India entity, ALMM coverage, compliance assurance |
-| PM Surya Ghar installer, Tier-2/3 city | Verify local service first | Sungrow service may not reach; consider Qbits for warranty |
-| Warranty-first buyer, 12+ year coverage | Qbits | 12-year full replacement; 72-hour RMA SLA |
+| Buyer profile | Decision evidence |
+| --- | --- |
+| Residential buyer | Exact model, string design, monitoring demonstration, written warranty and local service route |
+| Price-constrained buyer | Dated like-for-like quote with included logger, protection, delivery and tax |
+| Commercial project | Electrical study, model documents, controls, service plan and total-cost worksheet |
+| Finance-backed project | Lender's written equipment and document requirements |
+| PM Surya Ghar project | Current portal, DISCOM and scheme requirements for the site and exact equipment |
+| Tier-2 or Tier-3 location | Written postcode coverage, escalation route and parts process from each seller |
 
 ## Common Mistakes When Comparing Sungrow and Solis
 
 Buyers researching this comparison frequently fall into the same traps. Understanding these in advance saves expensive mistakes.
 
 - **Treating warranty term as warranty quality**: Both brands offer 5-year warranties, but the enforceability of those warranties differs substantially. A Sungrow warranty backed by an India-registered entity is materially more secure than a Solis warranty dependent on a third-party distributor.
-- **Assuming ALMM listing is brand-wide**: ALMM listing is model-specific. Verify your exact model on the MNRE portal. See the [ALMM Phase III complete guide](/blog/almm-list-phase-iii-guide/) for how to check listing status correctly.
+- **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify the exact module/cell models and check inverter documents separately.
 - **Ignoring firmware India-tuning**: Both brands have India-specific firmware variants for their current product lines, but older stock distributed by dealers may carry European firmware with different voltage tolerance windows. Confirm India-grade firmware with the dealer before purchase.
 - **Underweighting the monitoring gap**: iSolarCloud's superior diagnostic depth can detect yield loss faster than SolisCloud. Earlier fault detection means shorter downtime and higher annual generation. Over 10 years, the monitoring quality difference can translate to 3–5% additional yield capture.
 - **Not confirming local service availability**: Ask your dealer: which specific service centre handles your pincode, and what is their documented response time for residential warranty claims? Do not accept a national service network description as an answer to a local service question.
 
 For a deeper look at what service SLA differences mean in real money terms, see [the solar inverter downtime cost guide](/blog/solar-inverter-downtime/).
 
-## Where Qbits Fits for Warranty-Conscious Indian Residential Buyers
+## Qbits model documentation
 
 Both Sungrow and Solis leave the same structural gap: a 5-year standard warranty that ends well before the system's 25-year productive life. Buyers who choose either brand are essentially self-insuring for the period from year 6 onwards, absorbing the ₹15,000–₹25,000 replacement cost that comes with mid-life inverter failure.
 
-Qbits addresses this gap directly. The **12-year full unit replacement warranty** is the standard term on Qbits's residential range, not an upsold extension, not a repair-and-return program. A failed Qbits inverter within 12 years is replaced outright, dispatched within 72 hours of claim approval. WhatsApp-native monitoring means Indian homeowners receive fault alerts on the platform they already use daily, no additional app, no login fatigue.
-
-Qbits holds [BIS certification](/glossary/bis-certification/), IEC compliance, and ALMM Phase III listing, the same compliance posture as Sungrow and Solis, but with a warranty term that covers the full midlife of the solar system.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, 1.5 kW to 50 kW. ALMM-listed, PM Surya Ghar subsidy-eligible.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery-ready architecture for power-cut markets.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Verify panel-string compatibility before committing to any inverter purchase.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable map of the network supporting the 72-hour RMA SLA.
-
-For buyers who have compared Sungrow and Solis and are still undecided, [request a quote from Qbits at contact-us](/contact-us/) with your electricity bill and roof dimensions. Most quotes return within 24 hours, and the total-cost comparison (including the 12-year warranty value) often changes the decision framing.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.

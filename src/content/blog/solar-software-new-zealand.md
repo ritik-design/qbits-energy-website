@@ -172,4 +172,4 @@ New Zealand's export market changed shape in July 2026 and flat-rate modelling s
 - **Treat the plan as a design input.** Rates span 5 cents to 40 cents depending on plan and hour, and that decides the configuration.
 - **Report the effective achieved rate.** The advertised peak falls in hours when the array generates nothing.
 - **Pair plan advice with storage advice.** A time-varying plan without a battery leaves the customer worse off than a flat one.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a New Zealand address, or reach the Qbits team [here](/contact-us/) for AS/NZS 4777.2 compliant inverter and battery specification.
+

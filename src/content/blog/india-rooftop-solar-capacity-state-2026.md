@@ -33,6 +33,8 @@ faqs:
     a: "Utility-scale solar rankings and rooftop solar rankings for Indian states are quite different because they respond to different drivers. Utility-scale is driven by available land and grid connectivity (Rajasthan and Gujarat dominate), while rooftop is driven by consumer electricity demand (Maharashtra and Tamil Nadu have high urban demand) and DISCOM efficiency. Rajasthan leads utility solar by a wide margin but is not the top state for rooftop solar. Maharashtra - which has India's highest absolute electricity consumption - has significant rooftop potential but has been constrained by complex MSEDCL net metering procedures. Understanding this distinction is important when interpreting solar statistics."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 India's rooftop solar sector has grown from less than 1 GW in 2015 to approximately 13.9 GW by early 2026, a trajectory that would have seemed implausible a decade ago. Yet the growth is deeply uneven across states: Gujarat, Rajasthan, Karnataka, and Tamil Nadu collectively account for approximately 65–70% of installed rooftop capacity, while populous states like Bihar and West Bengal have barely begun their rooftop transition. This reference compiles official data on state-wise rooftop solar capacity, [PM Surya Ghar](https://www.surgepv.com/solar-compliance/india/guides/pm-surya-ghar) connections, and the structural factors that explain why some states lead and others lag.
 
 > **TL;DR**
@@ -199,12 +201,7 @@ For a comprehensive guide to the net metering application process across DISCOMs
 
 ## Where Qbits Fits
 
-State-wise rooftop solar capacity data has direct implications for where Qbits focuses its authorised installer network. States with high solar readiness scores (Gujarat, Karnataka, Tamil Nadu, Rajasthan) represent established markets where installer quality and product differentiation (warranty depth, monitoring capability) determine brand choice. States with accelerating PM Surya Ghar momentum (UP, Bihar) represent emerging markets where ALMM compliance and reliable service infrastructure matter most.
-
-Qbits ALMM-listed inverters serve both market types: established markets where buyers compare warranty terms carefully, and emerging markets where ALMM eligibility for PM Surya Ghar subsidy is a threshold requirement.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, ALMM-listed and eligible for PM Surya Ghar installations across all states.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for UP, Bihar, and MP buyers where power cuts make battery backup as important as bill savings.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[Authorised Service Partners](/authorized-service-partners/)**: searchable network across states, with coverage in both high-readiness and emerging markets.
 - **[Contact Qbits](/contact-us/)**: for EPCs targeting PM Surya Ghar installations in specific states, Qbits can advise on DISCOM requirements and system specifications.
 

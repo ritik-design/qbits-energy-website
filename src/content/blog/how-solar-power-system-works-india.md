@@ -166,7 +166,7 @@ The 7-stage journey above only delivers the promised financial returns if every 
 | Net meter | DISCOM-approved only | Non-approved meters may fail interconnection inspection; restart the clock on approval |
 | Mounting structure | Hot-dip galvanised vs basic painted | 10–15 year lifespan difference in coastal/humid regions |
 
-The inverter is the most consequential quality decision because it sits at Stage 4 (the heart of the system) and because its failure destroys generation from every other component while it is offline. A 12-year full-replacement warranty means a failed inverter in Year 7 costs you nothing but a service call. See [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) for the evaluation framework.
+The inverter is the most consequential quality decision because it sits at Stage 4 (the heart of the system) and because its failure destroys generation from every other component while it is offline. A model-specific written warranty means a failed inverter in Year 7 costs you nothing but a service call. See [how to evaluate solar inverter reliability](/blog/how-to-evaluate-solar-inverter-reliability/) for the evaluation framework.
 
 ## Common Misunderstandings About How Solar Works
 
@@ -179,12 +179,10 @@ Several misconceptions about the solar energy journey persist in Indian homeowne
 
 Elsewhere in the Heaven Group network, see [what happens on installation day](https://www.heavengreenenergy.com/blog/solar-installation-day-by-day) and [an installed cost breakdown](https://quickestimate.co/blog/cost-breakdown-solar-installation).
 
-## Where Qbits Fits in the 7-Stage Journey
+## Qbits model documentation
 
-Qbits inverters sit at Stage 4 (the conversion stage) which is where the financial returns of every other stage are either preserved or leaked. Qbits on-grid and hybrid inverters are engineered for Indian grid realities: 180–270 V input voltage tolerance, IGBT-based switching rated for 45 °C ambient temperature, and AI-powered WhatsApp monitoring that alerts you to Stage 2 string imbalances or Stage 5 distribution faults before they compound into losses.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current product families and exact-model documents against the project design and utility requirements.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, 1.5 kW to 50 kW; dual-MPPT options for split-orientation rooftops.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with integrated battery management for households where Stage 7 (grid export) is not reliable due to outages.
-- **[Authorized Service Partners](/authorized-service-partners/)**: Pincode-searchable network for the 72-hour RMA SLA when any stage of the journey develops a fault.
-
-To discuss how the 7-stage journey applies specifically to your roof layout and consumption profile, [talk to a Qbits engineer](/contact-us/), most initial consultations happen via WhatsApp and take less than 15 minutes.
+To discuss how the system applies to your roof and consumption, [send Qbits the project details](/contact-us/). Confirm the responder's role, deliverable, timing, scope, and any charge before relying on the consultation.

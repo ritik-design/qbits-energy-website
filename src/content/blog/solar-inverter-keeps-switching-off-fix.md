@@ -186,14 +186,10 @@ If you no longer have an active installer relationship, find a local solar insta
 
 For any of these urgent scenarios, the [72-hour action plan for a failed solar inverter](/blog/solar-inverter-failure-action/) walks through the diagnosis, escalation, and warranty-claim sequence step by step.
 
-The [Central Electricity Authority (CEA)](https://cea.nic.in/){target="_blank" rel="noopener"} Technical Standards for Connectivity of Distributed Generation Resources require that any protective trip outside defined grid parameters be investigated and documented by a competent person, this is a compliance obligation, not a suggestion. For Qbits inverters, the AI WhatsApp monitoring system logs every trip event and its associated parameter readings, allowing our service team to diagnose the root cause remotely from the event log without a site visit in most cases. [Talk to a Qbits engineer](/contact-us/) if your current inverter's service response has been inadequate. Homeowners dealing with grid voltage issues can also review the [solar inverter low output causes guide](/blog/solar-inverter-low-output-causes-india/) to understand how voltage fluctuations reduce generation even on non-trip days.
-
 Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included) and [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation).
 
 ## Where Qbits Fits
 
-Homeowners in India's most challenging grid environments (Tier-2 towns with wide voltage swings, North India's power-cut zones, and coastal areas with high-humidity thermal challenges) find that Qbits' India-grid-tuned firmware handles the 180–270 V operating range with minimal protective trips, while the IP66 enclosure keeps thermal performance stable even in high-humidity monsoon conditions.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series with wide 180–270 V grid tolerance and AI-monitored trip logging.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series that continue powering home loads during grid trips, eliminating anti-islanding yield losses.
-- **[Authorized Service Partners](/authorized-service-partners/)**: if repeated trips require a site inspection, our network covers 280+ cities with a 72-hour response commitment.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Check the exact TLS or TLD model's published voltage limits, approved settings, monitoring interface and fault records. No universal AI trip-logging claim is made.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.

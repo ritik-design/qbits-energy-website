@@ -247,8 +247,6 @@ Isolators are manual safety disconnects required on both DC and AC sides of sola
 
 ## Need safety-compliant isolators for your solar?
 
-QBits Energy supplies and installs IS 13947 and IEC 60947-3 certified DC and AC isolators for residential, C&I and utility solar installations across India.
-
 ## Further reading
 
 For how Isolator plays out in real projects, these guides go deeper:

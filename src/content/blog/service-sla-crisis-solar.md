@@ -18,7 +18,7 @@ faqs:
   - q: "What is a service SLA in the context of solar inverters?"
     a: "A service SLA (Service Level Agreement) is a documented commitment from the inverter brand that specifies the maximum time allowed between a fault being reported and a technician arriving on site, a replacement unit being dispatched, or the system being restored to operation. In a properly structured solar service SLA, each milestone - ticket acknowledgement, on-site diagnosis, part dispatch, system restoration - carries a defined time limit with financial consequences if the brand misses it. Without a declared SLA, the buyer has no contractual basis to demand timely resolution and must rely entirely on the brand's goodwill."
   - q: "How long does solar inverter service typically take in India?"
-    a: "Based on installer-reported resolution times across Tier-1 to Tier-3 Indian cities, the average fault resolution window is 3 to 8 weeks from fault log to system restoration. This range covers ticket acknowledgement (1–5 days), remote diagnosis (2–7 days), part sourcing and dispatch (7–21 days), and on-site technician visit (7–14 days in Tier-2/3 cities). In cities without a local service centre - which includes most Indian cities beyond the top 20 - the technician must travel from a distant hub, adding 5–10 additional days. Qbits targets a 72-hour RMA dispatch from ticket approval, which places it significantly ahead of the industry norm."
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
   - q: "Do Indian solar inverter brands publish their service SLA commitments?"
     a: "Very few Indian solar inverter brands publish a declared, binding service SLA. Warranty documents from most domestic brands state that service will be provided within a reasonable time - a phrase that is legally unenforceable and practically meaningless. Global brands like Sungrow publish SLA terms in their enterprise contracts for large C&I projects, but residential buyers and small EPC installers rarely receive a contractually binding SLA document. The absence of declared SLAs is one of the clearest indicators that a brand does not own its service infrastructure and depends on third-party channel partners for after-sales support."
   - q: "Why does inverter downtime cost more than most buyers realise?"
@@ -26,7 +26,7 @@ faqs:
   - q: "What should EPCs look for in a brand's service infrastructure before committing to a channel?"
     a: "EPCs should evaluate five dimensions before committing to a brand's channel: first, whether the brand has a declared, printed SLA with financial penalties for breach; second, the brand's owned service centre count versus third-party service partner count, and the geographic coverage of each; third, the brand's spare-parts inventory position - whether critical boards are held in regional warehouses or must be sourced from a central factory; fourth, the brand's WhatsApp or digital ticket-logging capability, which directly determines how fast a fault enters the service pipeline; and fifth, whether the brand's replacement warranty or repair warranty policy applies, since replacement is dramatically faster and better for installer reputation."
   - q: "What does MNRE currently require from solar inverter brands on after-sales service?"
-    a: "As of June 2026, MNRE does not mandate a specific after-sales service SLA from solar inverter brands. MNRE's quality requirements focus on product standards - BIS certification, IEC compliance, and ALMM listing - rather than service performance standards. The PM Surya Ghar scheme requires empanelled vendors to maintain a minimum number of service engineers per state, but no specific resolution time is mandated. This regulatory gap is significant: a brand can be fully ALMM-listed and BIS-certified while delivering 6-week service resolution times with no financial consequence for delay."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How does a WhatsApp-first fault logging system reduce service resolution time?"
     a: "A WhatsApp-first fault logging system reduces service resolution time at the critical first stage - getting the fault into the brand's service pipeline. When an installer or homeowner can open a WhatsApp chat, send a fault code and a photograph, and receive a ticket number within minutes, the diagnosis and dispatch process begins immediately. Traditional service processes require the installer to call a helpline during business hours, wait in a queue, verbally describe the fault, and wait for a call back - adding 1 to 3 days before the fault is formally logged. AI-assisted WhatsApp monitoring can pre-log fault conditions before the installer even notices them, further reducing the acknowledgement window."
   - q: "Is the solar service SLA crisis worse in Tier-2 and Tier-3 cities?"
@@ -34,8 +34,12 @@ faqs:
   - q: "What financial penalty model is most effective for enforcing solar service SLAs?"
     a: "The most effective penalty model in comparable markets uses a tiered per-day credit structure. In Germany's Handwerk solar service framework, each day beyond the committed SLA window earns the buyer a credit - typically 0.5–1% of the annual service contract value per day, capped at 15–20% of total contract value. For the Indian residential market, a practical equivalent would be a per-day generation credit calculated at the prevailing DISCOM tariff rate for the system's rated output, capped at 30 days. This gives the brand a strong financial incentive to resolve within SLA while providing the buyer a tangible, calculable remedy. Such a structure would also make SLA compliance easy to audit and enforce under the Consumer Protection Act 2019."
   - q: "What is Qbits doing differently on solar service SLA?"
-    a: "Qbits has built its service infrastructure on three principles. First, a declared 72-hour RMA SLA from ticket approval to replacement unit dispatch - not a target, but a documented commitment. Second, a WhatsApp-first fault logging system integrated with AI monitoring, so faults enter the service pipeline immediately without requiring the installer to call during business hours. Third, a 280-city service reach anchored by authorised service partners who hold regional spare-parts inventory - rather than a single central warehouse model. The 12-year full replacement warranty backs all three, because a replacement model removes the repair lead time entirely and restores the system to full rated specification immediately."
+    a: "The retained Qbits documents do not establish this as a universal product or service term. Confirm the current model datasheet, monitoring interface, written warranty, and service process for the exact SKU and sale."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Three months ago I received a message from an EPC installer in Nagpur. He had sold a 10 kW on-grid system to a homeowner in early January. By mid-February the inverter had stopped generating. The brand's helpline gave him a ticket. Three weeks passed. A technician came from Pune, looked at the inverter, and said a control board needed replacement. Another two weeks passed. The board arrived. The installer fitted it. Total downtime: forty-one days.
 
@@ -45,23 +49,11 @@ That message is not unusual. I hear versions of it every week. And as someone bu
 
 > **The solar service SLA problem in plain terms.** Most Indian solar inverter brands have no declared service SLA. Average fault resolution takes 3–8 weeks from fault report to system restoration. Tier-2 and Tier-3 cities (which account for the majority of PM Surya Ghar installations) have no local service infrastructure. Every day of downtime costs the buyer lost generation, continued DISCOM bills, and loan payments on a non-generating asset. The industry needs declared SLAs with financial penalties, regional service density requirements, and MNRE minimum service standards, and it needs them before the market reaches 50 million rooftop installations and the problem becomes irreversible.
 
-This is a founder's view. I am not writing this as a neutral observer. I am writing it because fixing this problem is the only way the Indian solar industry earns the trust it needs to reach the government's 2030 targets, and because we at Qbits are putting our money where this argument is by building the service infrastructure to back it up.
-
-> **TL;DR**
-> - Average solar inverter fault resolution in India takes 3-8 weeks, and most brands publish no declared, binding service SLA.
-> - Tier-2/3 cities, which account for the majority of PM Surya Ghar installations, often sit 300 km from the nearest service support.
-> - A 6-week downtime event on a 5 kW residential system costs ₹18,000-₹28,000 once lost generation, continued DISCOM billing, and loan EMIs are combined.
-> - The proposed 5-Gate Solar Service SLA Standard sets 2-hour ticket acknowledgement, 72-hour on-site visits, and 7-day system restoration with a generation credit for breaches.
-> - MNRE currently mandates BIS, IEC, and ALMM product standards but no [after-sales service](https://quickestimate.co/blog/solar-after-sales-service) performance standard.
-> - Qbits has committed to a declared 72-hour RMA SLA, WhatsApp-first fault logging, and a 280-city service partner network with regional spare-parts inventory.
-
 ## The Scale of the Problem: What the Numbers Actually Show
 
 The Indian rooftop solar market has crossed 18 GW of cumulative capacity, according to [Mercom India's Q1 2026 market report](https://www.mercomindia.com/). With an average system size of 4–5 kW for residential installations, that is roughly 3.5–4 million active rooftop systems. If even 3% of those systems experience a fault in any given year (a conservative figure given India's grid instability and monsoon conditions) that is over 100,000 service events annually. [JMK Research's rooftop solar deployment tracker](https://jmkresearch.com/) confirms that residential installations now account for over 45% of cumulative rooftop capacity, making residential service the single largest segment of unmet demand.
 
 The inverter is the most service-intensive component of any solar installation. Published [solar inverter failure](/blog/solar-inverter-failure/) data places residential inverter failure rates at 3–8% within the first five years in Indian conditions, with heat stress, voltage spikes, and moisture ingress as the primary causes. A 5% failure rate on 4 million systems means 200,000 inverter service events per year, before accounting for performance degradation issues that require technician visits without full replacement.
-
-> **200,000+.** Estimated annual residential inverter service events in India by 2026, based on 4 million active rooftop systems and a 5% fault-plus-degradation rate. At an average 4-week resolution time, that represents over 4 million person-weeks of lost generation annually. *Source, Mercom India, Q1 2026; Qbits analysis.*
 
 Now set that against the service infrastructure that exists to handle these events. [MNRE](/glossary/mnre/) has no published database of authorised solar inverter service centres by geography. No independent auditor tracks service centre density per district. The [solar inverter market in India](/blog/solar-inverter-market-india/) has over 200 active brands, the vast majority of which are assemblers operating out of a single factory with a customer care email address and a third-party service partner arrangement that extends, at best, to the top 15 cities.
 
@@ -112,15 +104,11 @@ The Indian solar inverter market has three tiers of brands:
 
 This tier includes global brands like Sungrow, Fronius, and SMA, which own their manufacturing and maintain direct service offices in major Indian cities. They have declared SLA commitments in their enterprise contracts, hold spare-parts inventory in regional hubs, and employ factory-trained field engineers. Their service is not fast by global standards (the India network remains thin relative to their global infrastructure) but it is structured, accountable, and improving.
 
-Qbits sits in this tier from a service model perspective: owned inverter firmware and board design, a declared 72-hour RMA commitment, and an authorised service partner network anchored by regional parts inventory.
-
 ### Tier 2: Indian OEMs with Partial Service Infrastructure
 
 This tier includes established Indian brands that manufacture (or assemble with significant local value-add) and have a national dealer network with some service capability. Service SLAs are rarely declared in writing. Resolution times are highly variable, excellent in the home state of the manufacturer, poor in states where the dealer network is thin. Warranty documents use "reasonable time" language. Spare-parts availability depends on whether the dealer carries inventory, which most do not.
 
 ### Tier 3: Assemblers with No Owned Service
-
-This is the largest tier by brand count, and the most dangerous for buyers. These are entities that purchase inverter boards, cases, and components (often from Chinese ODM manufacturers) and apply an Indian brand name and a BIS label. They may hold ALMM listing for a specific model. They have no owned service infrastructure. After-sales support is handled by the selling dealer, who has no factory training and no spare-parts inventory. When the dealer closes or pivots to a different brand, the buyer has no service recourse at all.
 
 These assembler brands compete primarily on price. They are 15–25% cheaper than Tier 2 brands at the point of sale. The price difference looks attractive to a homeowner or a margin-pressured EPC. The service gap becomes apparent 18–24 months after installation, when the first major fault occurs and there is nobody to call.
 
@@ -209,16 +197,12 @@ The reforms in this table are not contingent on new legislation. Most can be imp
 
 ## Where Qbits Fits in This Picture
 
-I started this piece by saying I am not a neutral observer. So let me be direct about what Qbits is doing, rather than just what the industry should do.
+Qbits publishes this article, so its discussion of Qbits service must be treated as first-party material and checked against current controlling terms.
 
-Qbits has declared a 72-hour RMA SLA from ticket approval to replacement unit dispatch. This is a written commitment in the warranty document, not a marketing claim. We use a WhatsApp-first fault logging system integrated with AI monitoring so that faults enter the service pipeline before the installer has to call anyone. And we have built a 280-city authorised service partner network with regional spare-parts inventory, so the nearest technician is never more than a reasonable drive away.
+the current published evidence does not establish Qbits call-centre capacity, technician coverage, logistics infrastructure, replacement remedy or service performance. Those items are not established until the Qbits service and warranty team provide dated documents and operating evidence.
 
-We built this infrastructure before we had the volume to justify it economically, because we believe the service model has to be built first, before the installs, not after. Building service infrastructure reactively (scaling up call centres and technicians after the installed base breaks) is how the industry got into the current crisis.
+The [warranty verification guide](/blog/12-year-solar-inverter-warranty/) explains how to check the term, remedy, exclusions, owner costs and claim route. Repair and replacement policies have different tradeoffs, but neither alone proves service quality.
 
-The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) is the other side of this commitment. A replacement warranty only makes sense if you have the logistics infrastructure to back it up. A repair warranty (which is what most brands offer) is a concession that the brand cannot reliably dispatch a replacement unit within a service-relevant timeframe.
-
-When you are comparing brands for your next project or your next installation, look at three things: do they have a declared SLA in writing, do they have service infrastructure in your geography, and does their warranty promise replacement or repair. Those three questions separate brands that are serious about after-sales from brands that are hoping you will not have a problem.
-
-If you are an EPC installer who wants to understand how Qbits structures the service relationship before you commit to a channel, the right place to start is our [authorised service partners](/authorized-service-partners/) page (which lists our network coverage) or a direct conversation via [the contact page](/contact-us/) where I or a Qbits engineer will respond within one business day.
+When comparing brands, request the written service target, local responsible party, escalation path, parts process and warranty remedy. Then confirm how each obligation is measured and what exceptions apply.
 
 The solar industry in India has a window, perhaps 24–36 months before the PM Surya Ghar scale creates a service crisis visible enough to reach newspaper front pages. That window should be used to build infrastructure and mandate standards. The conversation starts now.

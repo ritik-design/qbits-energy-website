@@ -33,6 +33,10 @@ faqs:
     a: "South-facing roofs at a tilt matching the local latitude (10°–25° across India) deliver peak output, but east- or west-facing roofs are also viable. A west-facing roof, for example, generates peak power in the afternoon when household consumption is higher, improving self-consumption ratios. North-facing roofs are the only orientation that significantly reduces viability and requires a careful yield estimate before investment."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every month, thousands of Indian homeowners type "what is solar energy" into a search bar after seeing a neighbour's rooftop installation or receiving yet another steep electricity bill. The concept sounds familiar (the sun, panels, savings) but the mechanics often remain fuzzy. This guide explains solar energy from first principles, in plain language, with real numbers from the Indian grid.
 
 > **TL;DR**
@@ -124,8 +128,6 @@ A hybrid system connects both to the grid and to a battery bank. During the day,
 - Battery replacement in 7–12 years (lithium iron phosphate) adds lifecycle cost
 - Longer payback: 6–8 years
 
-Hybrid systems are worth considering if your area experiences more than 2 hours of daily power cuts, or if your grid is particularly unreliable. See the [hybrid inverter](/hybrid-inverter/) page for available Qbits models.
-
 ### Off-Grid Solar
 
 Off-grid systems operate entirely without a DISCOM connection. They use a large battery bank to store energy for nights and cloudy days, and size the panel array conservatively to guarantee consistent charge even in low-irradiance months.
@@ -180,7 +182,6 @@ A beginner's guide is incomplete without addressing the limitations that sales p
 - **Panel output degrades over time**: Quality panels [degrade](/glossary/degradation/) at 0.5–0.7% per year. After 25 years, output is 85–90% of the original. This is accounted for in the manufacturer's linear power warranty.
 - **Roof area is a limiting factor**: Each kW of solar requires roughly 8–10 sq ft of shadow-free roof area. A 3 kW system needs approximately 24–30 sq ft of usable south- or west-facing roof space, a figure worth confirming with a proper site survey rather than a rough measurement.
 - **DISCOM approval takes time**: Net metering approval from your state DISCOM can take 15 days to 3 months depending on the state. Kerala is notoriously slow; Gujarat and Maharashtra are faster.
-- **Not all installers are equal**: A poorly installed system with undersized DC cables, improperly matched strings, or an uncertified inverter can underperform by 15–25% and void warranties. The [ALMM list](/blog/almm-list-phase-iii-guide/) is the government's quality filter; insist on ALMM-listed equipment installed by a vetted local solar installer.
 
 ## Common Beginner Myths About Solar Energy in India
 
@@ -199,12 +200,9 @@ Elsewhere in the Heaven Group network, see [what happens on installation day](ht
 
 ## Where Qbits Fits in Your Solar Journey
 
-Once the basics are clear, the next question becomes: which inverter brand should I trust with a 12-year commitment? Qbits Energy manufactures on-grid and hybrid inverters specifically tuned for Indian grid conditions, 180–270 V voltage swings, 45 °C ambient temperatures, and the monsoon dust cycles that cause premature failure in inverters designed for European or American grids.
-
 Three pages worth bookmarking as you move from understanding to buying:
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM-listed and PM Surya Ghar subsidy-eligible.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with integrated battery management and automatic backup switching.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Enter your panel model and roof details; the tool confirms the right inverter size and string configuration in 60 seconds.
 
-When you are ready to move from reading to quoting, [talk to a Qbits engineer](/contact-us/), most homeowners get a detailed site proposal within 24 hours, or start with a turnkey residential solar installation provider if you also need help with mounting and commissioning. The next step in the learning journey is the [PM Surya Ghar Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/), which explains exactly how to claim the central government subsidy and navigate the DISCOM registration process.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

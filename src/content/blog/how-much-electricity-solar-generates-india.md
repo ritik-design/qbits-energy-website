@@ -41,9 +41,6 @@ The most fundamental question any Indian homeowner asks before investing in sola
 > - Formula: Annual Yield (kWh/kW) = GHI (kWh/m²/day) x 365 x Performance Ratio (0.75-0.82).
 > - Monsoon cloud cover can cut generation to 15-40% of clear-sky output on heavily overcast days.
 > - Soiling, shading, panel degradation, and high ambient temperature all pull real output below datasheet estimates.
-> - Qbits multi-point MPPT recovers an estimated 2-5% more annual generation than inverters with slower tracking cycles.
-
-> **Direct answer.** How much electricity solar generates in India depends primarily on location. Rajasthan and Gujarat yield 1,800–2,000 kWh per kW per year; Karnataka and Tamil Nadu yield 1,500–1,700 kWh/kW/year; Kerala yields 1,100–1,300 kWh/kW/year. A 3 kW system in Rajasthan generates 5,400–6,000 units/year; in Kerala, 3,300–3,900 units/year. "The State-by-State Solar Yield Calculator" framework below shows you how to compute your specific estimate.
 
 Understanding generation expectations before you buy prevents the most common source of post-installation disappointment: a system sized to the wrong state benchmark. For the basics of how a solar system works, see [how does a solar power system work](/blog/how-solar-power-system-works-india/).
 
@@ -181,12 +178,8 @@ The [string sizing calculator](/string-sizing-calculator/) helps you verify whet
 
 ## Where Qbits Fits in Maximising Your State's Solar Yield
 
-Solar generation estimates are only realisable if the inverter extracts maximum power from the panels at every operating condition. Qbits on-grid inverters use multi-point MPPT algorithms that continuously track the maximum power point as irradiance fluctuates, recovering 2–5% more annual generation than inverters with slower or less frequent tracking cycles.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current product families and exact-model documents against the project design and utility requirements.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
-The Qbits WhatsApp monitoring system reports daily generation in kWh, compares it to weather-adjusted expected output, and flags underperformance, so you know when dust, shade, or a technical issue is costing you units before a full month passes.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, 1.5 kW to 50 kW; dual-MPPT for mixed-orientation rooftops across any Indian state.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery integration for households in monsoon-heavy states where evening consumption exceeds daytime generation.
-- **[Authorized Service Partners](/authorized-service-partners/)**: Pan-India service network to ensure underperformance is diagnosed and resolved within the 72-hour RMA SLA.
-
-When your installer quotes a generation figure, [talk to a Qbits engineer](/contact-us/) to independently verify the estimate using state-specific irradiance data, most clients find this cross-check prevents a 10–20% yield expectation mismatch, and running your own numbers through a solar savings calculator beforehand makes that conversation more productive.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

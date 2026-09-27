@@ -173,4 +173,4 @@ Spanish sizing is a monthly problem and most software solves it annually.
 - **Settle month by month with the floor.** Surplus above that month's energy spend is lost, and no annual figure will reveal it.
 - **Price surplus at hourly spot.** Midday export is credited when solar-driven prices are at their lowest.
 - **Consider a collective scheme.** At the new 5 km radius, allocating surplus to someone who can absorb it can beat resizing.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Spanish address, or reach the Qbits team [here](/contact-us/) for inverter and battery specification.
+

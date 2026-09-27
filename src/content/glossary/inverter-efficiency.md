@@ -66,6 +66,8 @@ faqs:
 author: "Keyur Rakholiya"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is inverter efficiency
 
 Inverter efficiency is the ratio of AC output power delivered to the grid (or load) to the DC input power received from the PV array, expressed as a percentage. The difference between input and output is lost as heat in switching devices, magnetic components and control circuits.
@@ -187,13 +189,9 @@ Consider lifetime efficiency [degradation](/glossary/degradation/).
 
 ## Indian market context
 
-[ALMM-listed](/glossary/almm-list/) inverters meet [MNRE](/glossary/mnre/) efficiency minimums (typically ηEU > 96 percent).
-
 Major Indian brands publish both peak and ηEU in datasheets.
 
 SECI tender bid documents reference minimum efficiency.
-
-[PM Surya Ghar](/glossary/pm-surya-ghar/) accepts ALMM-listed inverters with appropriate efficiency.
 
 ## Standards and certifications
 
@@ -207,10 +205,6 @@ SECI tender bid documents reference minimum efficiency.
 ## Key takeaways
 
 Inverter efficiency is the ratio of AC output to DC input. Modern Indian string inverters deliver 97-98.6 percent peak and 96.5-98 percent European weighted efficiency. Higher efficiency means more annual energy and lower LCOE. European weighted (ηEU) is the bankable figure. Temperature, load level and component aging all affect operational efficiency.
-
-## Need high-efficiency inverters for your solar?
-
-QBits Energy supplies ALMM-listed inverters with verified European weighted efficiency for residential, C&I and utility solar across India.
 
 ## Further reading
 

@@ -164,4 +164,4 @@ Ireland is a market where two variables the installer does not control, the cust
 
 - **Model the customer's actual CEG tariff.** A 15.2 to 32.0 cent spread makes a national average wrong for nearly everyone.
 - **Show the grant taper, not a blended price.** The first 2 kWp are heavily subsidised and everything past 4 kWp is not, and customers should see why.
-- **Design a live job before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

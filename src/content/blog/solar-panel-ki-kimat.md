@@ -34,6 +34,8 @@ faqs:
 featured: false
 ---
 
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 Solar panel ki kimat पूछने पर हर vendor अलग number बताता है, और यही सबसे बड़ी उलझन है। कोई ₹16 प्रति watt बोलता है, कोई ₹30 प्रति watt। दोनों तकनीकी रूप से सही हो सकते हैं, क्योंकि वे अलग technology, अलग DCR status और अलग warranty वाले modules की बात कर रहे हैं। इस guide में 2026 के realistic per watt rates हैं, panel type के हिसाब से price difference में आपको असल में क्या मिलता है, DCR और [non-DCR](https://www.heavengreenenergy.com/blog/dcr-vs-non-dcr-solar-panels) का subsidy से रिश्ता, ALMM listing की भूमिका, और सबसे जरूरी बात: panel की kimat पूरे installed system की लागत का सिर्फ एक तिहाई से आधा हिस्सा होती है। सिर्फ panel rate पर quotes compare करने वाला खरीदार लगभग हमेशा गलत vendor चुन लेता है।
 
 > **TL;DR**
@@ -118,7 +120,7 @@ Subsidy की exact रकम अपनी capacity के हिसाब स�
 
 ALMM यानी Approved List of Models and Manufacturers, MNRE की वह सूची है जिसमें listed modules ही subsidised और government projects में इस्तेमाल हो सकते हैं। List में आने के लिए manufacturer को factory inspection, BIS certification और periodic audit से गुजरना पड़ता है।
 
-इस compliance की एक cost होती है, और वह module rate में दिखती है। ALMM-listed panel non-listed grey import से लगभग ₹1 से ₹2 प्रति watt महँगा रह सकता है। लेकिन यह comparison ही बेमानी है। अगर आप subsidy ले रहे हैं तो non-ALMM panel आपके लिए exist ही नहीं करता। सस्ता non-ALMM quote देखकर उसे benchmark मान लेना आम खरीदारी की गलती है। [ALMM Phase III ki verification guide](/blog/almm-list-phase-iii-guide/) में model number से listing check करने का तरीका दिया है, quote finalise करने से पहले वह एक बार खुद कर लें।
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
 
 ## Wattage Tier ka Kimat par Asar
 
@@ -149,7 +151,7 @@ Performance warranty और product warranty भी अलग चीजें �
 
 <div class="inline-cta">
 <h3>Sirf Panel Nahi, Poora System Compare Karein</h3>
-<p>Qbits ALMM-listed inverters aur turnkey residential packages deta hai, jismein panel, structure, cabling aur installation sab shaamil hain. Ek hi jagah se poori accountability.</p>
+
 <a href="/residential-solution/" class="cta-btn">Residential Solutions Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Har line item alag likha hua quote, koi chhupi cost nahi.</p>
 </div>
@@ -182,7 +184,7 @@ Performance warranty और product warranty भी अलग चीजें �
 | Line item | Illustrative amount |
 | --- | --- |
 | DCR mono PERC modules (3,000 W at ₹25/watt) | ₹75,000 |
-| ALMM-listed 3 kW on-grid inverter | ₹28,000 |
+
 | GI mounting structure | ₹19,000 |
 | DC, AC cabling aur MC4 connectors | ₹12,000 |
 | MCB, RCCB, SPD aur earthing | ₹10,000 |
@@ -234,4 +236,4 @@ Solar panel ki kimat जानना जरूरी है, लेकिन व
 
 - अपने shortlisted panel का **make, model, wattage और DCR status** लिखित में लें और ALMM listing खुद verify करें।
 - कम से कम तीन vendors से **all-inclusive turnkey quote** माँगें जिसमें हर component अलग line में हो, सिर्फ panel rate नहीं।
-- अपनी छत के हिसाब से exact capacity, panel type और subsidy के बाद net cost समझने के लिए [Qbits engineer से free consultation लें](/contact-us/)।
+[Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।

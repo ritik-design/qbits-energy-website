@@ -22,17 +22,19 @@ faqs:
   - q: "How do I calculate clipping losses?"
     a: "Use simulation software like PVsyst with TMY irradiance data, panel specs, and inverter efficiency curves. Example: a 55 kW array on a 50 kW inverter in Ahmedabad clips ~180 hours annually, losing ~1,200 kWh (1.8% of production)."
   - q: "Does clipping void warranty?"
-    a: "Not within manufacturer specs. Qbits' 12-year full replacement warranty covers clipping when systems are designed within the 100% DC oversizing limit. Exceeding published DC:AC ratio limits can void coverage."
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
   - q: "How do I explain clipping to clients?"
     a: "Use the highway analogy: the inverter is a four-lane highway; sometimes you have six lanes of cars, so some wait - but during the other 23 hours of the day, all four lanes operate full, instead of mostly empty. Net throughput is much higher."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 For solar EPCs and installation companies across India, understanding [inverter clipping](https://www.surgepv.com/blog/solar-inverter-clipping-dc-oversizing) and [DC oversizing](/glossary/dc-oversizing/) is essential when designing systems with modern high-wattage panels. This FAQ guide addresses 12 critical questions to help you make informed design decisions and confidently explain clipping to clients.
 
 > **TL;DR**
 > - Clipping happens when the DC array outproduces the inverter's AC rating during peak irradiance, and it is a deliberate design trade-off, not a fault.
 > - The industry sweet spot is 1–3% annual [clipping loss](/glossary/clipping-loss/), which typically pairs with 12–15% extra energy from oversizing and an 8–12% LCOE reduction over 25 years.
-> - Qbits inverters support up to 100% DC oversizing (2:1 ratio), and clipping within that limit stays fully covered under the 12-year warranty.
+
 > - Multi-MPPT designs and AI-powered monitoring help spread peak production and distinguish normal clipping from an actual fault.
 > - Typical Indian DC:AC ratios run 110–150%, well inside the range where oversizing improves ROI rather than wasting capacity.
 
@@ -49,8 +51,6 @@ Clipping occurs when DC array capacity exceeds the inverter AC rating. Triggers 
 - **Peak irradiance above 1000 W/m²**: common in Rajasthan, Gujarat, Karnataka
 - **Cool, clear winter mornings** when panels operate at near-peak efficiency, since a lower [temperature coefficient](/glossary/temperature-coefficient/) means less thermal derating on the array
 - **High-wattage panels (650–750W)** packing more power into existing roof footprint
-
-Qbits inverters support up to **100% DC oversizing** (2:1 ratio), providing flexibility for modern panels. For a deeper walkthrough of sizing math, see the [complete DC oversizing FAQ guide](/blog/dc-oversizing-in-solar/).
 
 ## 3. Is Clipping Harmful?
 
@@ -128,8 +128,6 @@ Within manufacturer specs, clipping receives **full warranty protection**. The [
 | Max 100% oversizing (2:1) | 1.3:1 ratio | ✅ Covered |
 | Max 100% oversizing (2:1) | 2.2:1 ratio | ❌ Voided |
 
-Qbits' **12-year full replacement warranty** covers clipping when systems are designed within the 100% DC oversizing limit.
-
 ## 9. How Does Clipping Show Up in Monitoring?
 
 Clipping appears as a **flat-topped power curve** during peak hours instead of the typical bell shape.
@@ -142,8 +140,6 @@ Clipping appears as a **flat-topped power curve** during peak hours instead of t
 ### Alert Configuration
 
 Configure monitoring to recognise expected clipping patterns based on system design and season. Alert thresholds should trigger only when performance deviates from expectations.
-
-Qbits' [AI-powered WhatsApp monitoring](/blog/whatsapp-solar-monitoring/) identifies clipping patterns automatically and distinguishes them from actual faults.
 
 ## 10. On-Grid vs Hybrid Clipping
 
@@ -190,13 +186,9 @@ Continuously adjust parameters based on real-time conditions to maximise energy 
 
 Premium platforms integrate weather forecasting with monitoring, enabling sophisticated energy management in hybrid systems with storage by shifting battery charging schedules.
 
-### Qbits Features
+### Qbits evidence to request
 
-- **98% efficiency** maintained during sustained clipping
-- **AI-powered monitoring** for clipping visibility
-- **IP66 weather protection**: critical when inverters operate at sustained max output
-- **German-grade electronics** for reliable peak-load operation
-- **12-year warranty** covering clipping-related operation within 100% oversizing limit
+Use the exact model datasheet and design limits to assess DC oversizing and clipping. Maximum efficiency and enclosure rating do not prove efficiency during sustained clipping, thermal performance at the site, component origin, monitoring functions or warranty coverage. Request the derating curve, permitted DC:AC design range, monitoring scope and written warranty for the quoted SKU. Unavailable items remain not established.
 
 ## Key Specifications Summary
 
@@ -204,7 +196,6 @@ Premium platforms integrate weather forecasting with monitoring, enabling sophis
 | --- | --- |
 | Optimal clipping range | 1–3% annual losses |
 | Typical Indian DC:AC ratios | 110–150% |
-| Qbits max DC oversizing | 100% (2:1 ratio) |
 | LCOE reduction from oversizing | 8–12% |
 | Indian temperature derating | 10–15% |
 | Inverter efficiency sweet spot | 30–50% rated load |
@@ -215,4 +206,4 @@ Premium platforms integrate weather forecasting with monitoring, enabling sophis
 
 Clipping is not a fault, it is a design choice that, properly applied, lowers cost per kWh and improves long-term ROI. The 1–3% annual loss range is where modern Indian solar projects find the sweet spot between additional panels and clipped peaks. Communicate the trade-off clearly to clients and the economics speak for themselves.
 
-Getting the DC:AC ratio right starts with matching the array to a specific inverter model. EPCs speccing [on-grid](/on-grid-inverter/) or [hybrid systems](/hybrid-inverter/) can check the published oversizing limit against the layout before panels are ordered, and a quick call with [a Qbits engineer](/contact-us/) settles any borderline ratio fast.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

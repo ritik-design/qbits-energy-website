@@ -148,7 +148,6 @@ Consider a typical 4 kW domestic install in Birmingham on a south facing pitched
 
 The full sequence takes a trained UK designer about twenty five minutes. The same job in a stack of US-first software and spreadsheets typically takes a morning.
 
-
 The customer-facing half of this decision, meaning proposal generation, financing presentation and e-signature, is covered in our [best solar proposal software UK](/blog/solar-proposal-software-uk/) comparison.
 
 Design is one layer. For how simulation, proposal, compliance and CRM fit around it, see the [full solar software stack for the UK](/blog/solar-software-uk/).
@@ -167,4 +166,3 @@ Design is one layer. For how simulation, proposal, compliance and CRM fit around
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
-

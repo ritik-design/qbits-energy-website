@@ -63,9 +63,11 @@ faqs:
   - q: "What is virtual net metering?"
     a: "An arrangement where multiple consumers share generation from a single solar plant located elsewhere, with credits proportioned among their meters. Common for group housing in Delhi, Kerala and Karnataka."
   - q: "What documents are needed for net metering?"
-    a: "Electricity bill, identity proof, address proof, sanctioned load document, ownership or NOC, inverter ALMM certificate, PV module ALMM certificate, single-line diagram, and DISCOM application form."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 author: "Nirav Dhanani"
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 ## What is net metering
 
@@ -214,8 +216,6 @@ Match the inverter capacity to the sanctioned load. Going above the sanctioned l
 
 Get the technical feasibility study in writing. The TFS defines the maximum size the feeder can absorb.
 
-Use ALMM-listed inverters and modules. PM Surya Ghar disbursement requires ALMM compliance.
-
 Audit the first three bills carefully. Most DISCOM billing errors show up in the first three months.
 
 Read the state regulation, not just the brochure. Net metering rules vary materially across states.
@@ -261,8 +261,6 @@ Installing first, applying for net metering later. The DISCOM may reject post-in
 
 Installing more PV than the sanctioned load allows. Application rejected or load enhancement forced.
 
-Choosing non-ALMM inverter or panels. Subsidy disbursement stalls.
-
 Ignoring the DISCOM technical feasibility study. The feeder cannot absorb the requested capacity, and the application is downsized or rejected.
 
 Skipping the bidirectional meter procurement step. The system runs without recording export.
@@ -278,8 +276,6 @@ Assuming uniform rules across states. The neighbouring state's regulation does n
 Net metering is the billing mechanism that makes Indian rooftop solar economics work. It credits customer-exported solar against grid consumption, usually at retail tariff. State rules vary, so the regulation must be read before designing the system. PM Surya Ghar subsidy depends on net metering being operational. Common pitfalls are size limits, meter installation delays and DISCOM billing errors.
 
 ## Want to apply for net metering?
-
-QBits Energy guides residential and commercial customers through the net metering application, DISCOM approvals, ALMM-compliant equipment selection and PM Surya Ghar subsidy claim. Reach out for end-to-end support.
 
 ## Further reading
 

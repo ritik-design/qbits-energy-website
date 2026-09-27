@@ -52,7 +52,7 @@ faqs:
   - q: "What is UL 1741 SA?"
     a: "US smart inverter standard with grid support functions. SB is the updated successor."
   - q: "Do smart inverters cost more?"
-    a: "Smart functions are now standard in modern ALMM-listed inverters. No premium for smart capability."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How are smart functions configured?"
     a: "Through inverter settings during commissioning. DISCOM may specify required configurations."
   - q: "Can smart inverters replace capacitor banks?"
@@ -66,13 +66,13 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is a smart inverter
 
 A smart inverter is a grid-tied [solar inverter](/glossary/solar-inverter/) equipped with advanced grid-support functions beyond the basic task of DC-to-AC conversion. The functions enable the inverter to actively participate in maintaining grid stability, voltage regulation and power quality, rather than passively delivering whatever the PV array produces.
 
 Core smart inverter functions include volt-var control (reactive power vs voltage), volt-watt control (active power vs voltage), frequency-watt response (active power vs frequency), fault ride-through (LVRT and HVRT), reactive power dispatch from setpoints or external commands, soft-start (controlled ramp-up), and remote monitoring and configuration through SCADA.
-
-[CEA](/glossary/cea/) Grid Code 2019 requires smart inverter functions for distributed generators above 10 kW in India. IEEE 1547-2018 codifies the requirements globally. UL 1741 SA and SB are the US smart inverter standards. Modern ALMM-listed inverters from major brands include smart functions as standard.
 
 > **TL;DR**
 > - A smart inverter adds grid-support functions on top of basic DC-to-AC conversion: volt-var, volt-watt, frequency-watt, fault ride-through and reactive power dispatch.
@@ -80,7 +80,6 @@ Core smart inverter functions include volt-var control (reactive power vs voltag
 > - Reactive power capability replaces fixed capacitor banks with dynamic support, typically ±33 percent of rated kVA at full active output and up to ±100 percent at zero active output.
 > - Fault ride-through keeps inverters connected through brief voltage or frequency disturbances instead of tripping offline.
 > - Functions must be enabled and configured at commissioning; default factory settings often ship with them disabled.
-> - Modern ALMM-listed inverters from major Indian brands include smart functions as standard, at no cost premium.
 
 ## Why smart inverters matter
 
@@ -212,8 +211,6 @@ Monitor reactive output for tariff penalty avoidance.
 
 [CEA Grid Code 2019](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) mandates smart inverter functions for generators above 10 kW.
 
-ALMM-listed inverters from major brands include smart functions.
-
 [DISCOM](/glossary/discom/) commissioning verifies smart inverter capability.
 
 Reactive power dispatch increasingly used by Indian utility plants.
@@ -231,13 +228,7 @@ PM Surya Ghar residential under 10 kW: smart functions optional but capable.
 | IEC 61727 | Utility interface |
 | IEC TR 61850-90-7 | Smart inverter communication |
 
-## Key takeaways
-
-Smart inverters are grid-tied solar inverters with advanced functions including volt-var control, volt-watt control, frequency-watt response, fault ride-through and reactive power dispatch. Required by CEA Grid Code 2019 for generators above 10 kW. Modern ALMM-listed Indian inverters are smart inverters. Functions must be enabled and configured at commissioning to deliver actual grid support.
-
 ## Need smart inverter configuration for your plant?
-
-QBits Energy configures smart inverter functions for utility, C&I and residential solar plants compliant with CEA Grid Code 2019 across Indian DISCOMs.
 
 ## Further reading
 

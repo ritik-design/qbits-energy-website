@@ -29,6 +29,8 @@ faqs:
     a: "The volume-vs-margin question is a false choice for most solar installers at the scale relevant to this discussion (under 5 MW/year). Volume without margin destroys a business - a 10% gross margin business that doubles volume still has negative cash flow after overheads and working capital cost. The correct model is to target gross margins of 22–28%, build a service reputation that generates referrals (reducing CAC), and grow volume organically through referral rather than price competition. [CERC's grid connectivity regulations](https://cerc.gov.in/) also require compliance documentation that only trained installers can complete - another reason that quality cannot be compromised for volume. Installers who try to win volume through aggressive pricing typically reach a ceiling where their after-sales burden makes each new installation less profitable than the last."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Most conversations about solar in India focus on the customer's perspective: bill reduction, subsidy, payback period. For EPC teams looking to understand the customer's financial framework during a commercial sale, the [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/) provides the financial model most C&I buyers use internally. Industry data on solar EPC market growth is tracked by [MNRE's annual report](https://mnre.gov.in/) and [IEEFA India](https://ieefa.org/), both useful sources for market context in sales conversations. This post is about the installer's perspective, specifically, the unit economics of running a solar [EPC business](https://quickestimate.co/blog/how-to-start-solar-epc-business) in India.
 
 > **TL;DR**
@@ -37,7 +39,6 @@ Most conversations about solar in India focus on the customer's perspective: bil
 > - After-sales cost over the first 3 years typically runs ₹5,000–₹12,000 per 5 kW installation and should be provisioned at 5–7% of project revenue.
 > - The [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy cycle creates a 60–100 day cash gap of roughly ₹78,000 per installation, which usually requires a working capital line.
 > - Adding 20–50 kW commercial and industrial projects to a residential-heavy portfolio materially improves net margin, since team time scales roughly 3x rather than 30x for a project 30 times the size.
-> - Inverter brand choice affects unit economics directly: strong remote diagnostics, fast RMA, and ALMM compliance reduce after-sales cost and protect subsidy claims.
 
 I am writing this because I spend time with EPC partners across India, and I hear the same questions repeatedly: "What should my margin be?", "How do I think about customer acquisition cost?", "Why am I not making money despite installing 10 systems a month?". The answers are rarely comfortable, but they are knowable.
 
@@ -174,8 +175,6 @@ The inverter brand decision is not just a product quality decision, it directly 
 
 **Brand margin varies.** Premium inverter brands that support structured distributor margins allow installers to earn 12–18% margin on equipment versus 6–10% on commoditised equipment. A ₹70,000 inverter at 15% margin contributes ₹10,500 to gross profit; a ₹60,000 inverter at 7% margin contributes ₹4,200. The premium product with better margin can be better for the installer's P&L even at higher equipment cost.
 
-**ALMM listing is non-negotiable for PM Surya Ghar.** [MNRE's ALMM list](https://mnre.gov.in/) is updated quarterly. Installers who use non-ALMM-listed equipment for PM Surya Ghar installations face subsidy rejection. Each rejected claim is a ₹78,000 receivable that does not arrive, and a customer who is rightfully upset. ALMM listing must be verified before procurement, not discovered at claim submission, which is exactly the kind of check that belongs in a documented [inverter procurement](/blog/inverter-procurement-india/) process rather than left to individual site managers' memory. The [MNRE ALMM list](https://mnre.gov.in/) is updated quarterly, check the current version before specifying equipment for a PM Surya Ghar project.
-
 ## The Honest Summary
 
 Running a solar EPC business in India is viable but not easy. [MNRE's annual installation reports](https://mnre.gov.in/) show rooftop solar additions accelerating, the market is growing, and well-positioned EPC businesses will grow with it. The gross margins are real, 22–28% at project level is achievable. The challenges are in the layers below gross margin: customer acquisition cost, after-sales burden, and working capital tied up in subsidy receivables.
@@ -185,9 +184,5 @@ The installers who build durable businesses share three characteristics:
 1. **They measure their CAC and after-sales cost.** Not as a calculation once a year, but as a rolling metric on every project, tracked through [sales reports and analytics](https://quickestimate.co/features/sales-reports/) rather than reconstructed from memory at tax time.
 
 2. **They invest in after-sales quality.** Because referrals are the cheapest acquisition channel, and referrals come from satisfied customers, and satisfied customers require good after-sales.
-
-3. **They choose inverter brands that reduce their operational cost.** Remote diagnostics, fast RMA, and ALMM compliance are not premium features, they are cost-reduction tools.
-
-Qbits' distributor and EPC partner program is built around this reality, supporting partners with the remote diagnostic tools, RMA process, and margin structure that makes the unit economics work. If you are an EPC installer or distributor interested in what this partnership looks like in practice, [talk to our commercial team](/contact-us/) or review the [authorised service partner network](/authorized-service-partners/). For a sense of what a similar arrangement looks like from the installation side, see what it takes to become a channel partner with a solar EPC and equipment network.
 
 For technical references, the [solar EPC bid evaluation guide](/blog/how-to-evaluate-solar-epc-bids/) and [solar CAPEX vs OPEX guide](/blog/solar-capex-vs-opex-business-india/) cover the customer-facing financial frameworks that EPC teams use to close commercial deals.

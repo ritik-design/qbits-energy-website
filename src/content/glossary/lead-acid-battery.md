@@ -284,8 +284,6 @@ Lead acid is the legacy chemistry for cost-sensitive solar storage. Tubular floo
 
 ## Need help choosing between lead acid and lithium?
 
-QBits Energy supplies both lead acid and LFP storage solutions for Indian customers, with sizing studies that match total lifecycle cost to use case.
-
 ## Further reading
 
 For how Lead Acid Battery plays out in real projects, these guides go deeper:

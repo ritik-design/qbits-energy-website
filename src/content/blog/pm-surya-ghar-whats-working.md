@@ -16,15 +16,15 @@ keywords:
   - pm surya ghar apartment flat owners
 faqs:
   - q: "What is the honest assessment of PM Surya Ghar Muft Bijli Yojana in 2026?"
-    a: "PM Surya Ghar has genuinely moved the needle on rooftop solar adoption in India. The online portal has reduced paperwork, ALMM Phase III has enforced minimum quality standards, and the ₹78,000 subsidy cap is financially meaningful. The structural problems are DISCOM interconnection backlogs - some offices take 6–9 months for net metering approval - and the exclusion of apartment owners without a clear community solar pathway. These are solvable problems that policy revision can fix."
+    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
   - q: "Why are DISCOM net metering approvals so slow under PM Surya Ghar?"
     a: "Most DISCOMs lack dedicated rooftop solar processing teams. The same engineers who handle commercial HT connections are responsible for residential solar applications. Net metering meter procurement, installation scheduling, and grid-synchronisation inspections are often batched quarterly rather than processed on demand. States with dedicated solar cells - Gujarat, Karnataka - process applications in 30–45 days. States without dedicated cells routinely take 4–9 months."
   - q: "Can apartment and flat owners get PM Surya Ghar subsidy?"
     a: "Currently the subsidy route for apartment owners is limited. Individual flat owners can apply for rooftop systems on their own terrace portion with a Resident Welfare Association no-objection certificate. The RWA can also apply for a common-area system at ₹18,000 per kW up to 500 kW. However, the community solar or virtual net metering route that would allow a single rooftop plant to credit multiple flat owners' bills does not yet exist at scale under the scheme."
   - q: "How long does PM Surya Ghar subsidy disbursement actually take?"
     a: "MNRE targets 30 days from commissioning report submission to bank transfer. In practice, Gujarat and Maharashtra disburse within 30–60 days. States with slower smart meter rollout - parts of UP, Bihar, Madhya Pradesh - can take 90–120 days or longer. The main delay drivers are smart meter shortages, DISCOM inspection backlogs, and Aadhaar-linked bank account mismatches at the PFMS payment gateway."
-  - q: "Is the ALMM Phase III mandate helping or hurting the solar market?"
-    a: "ALMM Phase III is helping the overall market quality but creating short-term friction. It excludes roughly 40% of previously installed inverter models that did not meet updated efficiency and safety benchmarks. For homeowners this means greater assurance that their subsidised equipment meets IEC standards. For the market it has squeezed out the lowest-quality assemblers, though it has also - unfairly in some cases - excluded newer quality Indian brands that are pending listing."
+  - q: "Is the current ALMM scope mandate helping or hurting the solar market?"
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What is the vendor empanelment problem in PM Surya Ghar?"
     a: "Vendor empanelment is handled at the state DISCOM level, and the criteria vary widely. Some DISCOMs require a minimum turnover threshold that automatically excludes smaller quality installers. Others require a local registered office even when the company provides after-sales service nationally. The result is that some homeowners in Tier-2 and Tier-3 cities are forced to choose from a short empanelled list that does not include the installer with the best track record in their area."
   - q: "What three policy changes would most improve PM Surya Ghar adoption?"
@@ -34,8 +34,10 @@ faqs:
   - q: "Which states are implementing PM Surya Ghar most effectively?"
     a: "Gujarat, Karnataka, and Maharashtra consistently process applications fastest and have the highest per-capita registrations. Gujarat benefits from a long tradition of solar-friendly DISCOM policy and a dedicated renewable energy cell in GUVNL. Karnataka's BESCOM has a dedicated rooftop solar team. Maharashtra's MSEDCL has digitised its inspection workflow. States with slower uptake include Bihar, Jharkhand, and parts of Uttar Pradesh, where DISCOM digitisation lags."
   - q: "What does PM Surya Ghar mean for solar inverter buyers choosing equipment?"
-    a: "Buyers should verify three things before signing a contract: first, that the inverter model is on the live ALMM list at mnre.gov.in; second, that the installer is on the state DISCOM empanelled vendor list; and third, that the inverter warranty covers the full expected subsidy payback period - ideally 10 years or more. An inverter that fails in year 4 and is not covered under warranty eliminates years of bill savings and makes the subsidy a net negative in that period."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Three years into [PM Surya Ghar](https://www.surgepv.com/blog/pm-surya-ghar-subsidy-calculator) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/), about 8.5 million households have registered on the portal, roughly 3.5 million installations have been commissioned, and the government has disbursed several thousand crore rupees in direct subsidies. By any absolute measure, this is the largest rooftop solar programme India has ever run. By the measure of its own ambition (1 crore rooftop installations by the end of the target period) the scheme is approximately one-third of the way there, and progress is slowing in the states that matter most.
 
@@ -43,7 +45,7 @@ As someone who works daily with the installers, DISCOMs, and homeowners who are 
 
 > **TL;DR**
 > - PM Surya Ghar has commissioned roughly 3.5 million rooftops out of 8.5 million registrations, about one-third of the way to its 1 crore target.
-> - The ₹78,000 subsidy cap and ALMM Phase III equipment standards are working; DISCOM interconnection delays of 4–9 months in several states are the biggest failure point.
+> - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
 > - Apartment and flat owners, roughly 30–35% of urban India, have no viable subsidy pathway because a virtual net metering mechanism does not yet exist at scale.
 > - Subsidy disbursement targets 30 days but often takes 90–120+ days in states with slower smart meter rollout.
 > - Gujarat, Karnataka, and Maharashtra process applications fastest; Bihar, Jharkhand, and parts of Uttar Pradesh lag furthest behind.
@@ -62,8 +64,6 @@ Start with the real wins, because they are significant and they deserve acknowle
 **The subsidy amounts are genuinely attractive.** ₹30,000 per kW for the first 2 kW, and ₹18,000 per kW for the third kilowatt, giving a maximum central subsidy of ₹78,000 for a 3 kW system, these are numbers that materially change the payback calculation for a middle-income household. For a 3 kW system costing ₹1.8 Lakh installed, a ₹78,000 subsidy brings the net cost to just over ₹1 Lakh, which at a ₹8/unit tariff delivers payback in under four years. That is a compelling financial case, and the government deserves credit for setting the subsidy at a level that actually moves behaviour.
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar for a 3 kW or larger residential system, transferred directly to the homeowner's Aadhaar-linked bank account after DISCOM commissioning verification. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
-
-**ALMM Phase III is raising the quality floor.** The requirement that all subsidised systems use [ALMM-listed](/glossary/almm-list/) inverters and modules has real teeth now. Brands that were selling low-quality assembled products under premium-sounding names are finding it harder to win empanelled contracts. Homeowners who previously had no way to evaluate equipment quality now have a minimum floor: if the installer is proposing a product not on the ALMM list, the buyer knows immediately that something is wrong. For the long-term health of the rooftop solar market, this quality enforcement is probably the single most important structural contribution of the scheme. Our deeper look at the [ALMM Phase III changes](/blog/almm-list-phase-iii-guide/) explains what the updated list means for buyers selecting equipment.
 
 **The 1 crore target is driving installer market growth.** Whatever its implementation problems, the sheer scale of PM Surya Ghar's ambition has attracted capital and talent into the rooftop solar installation market. EPC companies that were doing 20 installs per month in 2023 are now doing 80. Equipment distributors have expanded into Tier-2 and Tier-3 cities where they had no presence before. The scheme has functioned as a market-formation event, which is exactly what a government programme of this type should do. India's rooftop solar market grew by an estimated 65% year-on-year in 2025, a trajectory that [Mercom India](https://www.mercomindia.com/) attributes primarily to the PM Surya Ghar demand wave. Our overview of [solar EPC business dynamics in India](/blog/solar-epc-india/) covers how installer markets respond to large-scale policy demand.
 
@@ -155,8 +155,6 @@ If you are a homeowner navigating PM Surya Ghar today, the following decisions w
 
 The most important check is not the subsidy amount, it is the DISCOM's average processing time in your circle. Before you sign any contract, call the nearest DISCOM office and ask how many pending net metering applications they have and what the current average completion time is. If the answer is more than 90 days, factor that into your financial plan and ask your installer what bridge arrangement they can offer during the wait period.
 
-The second most important check is the ALMM status of every component your installer proposes. The [ALMM list is published by MNRE](https://mnre.gov.in/) and updated quarterly. A non-ALMM component is an automatic subsidy disqualifier regardless of the installer's claims. Our guide to [what solar inverter buyers need to know about PM Surya Ghar subsidy eligibility](/blog/solar-inverter-with-subsidy-pm-surya-ghar/) walks through the verification steps.
-
 The third check is the vendor's post-installation commitment. Ask specifically: what is the response time if the inverter goes offline? Is there a written service agreement? What is the warranty escalation process? The [pm surya ghar eligibility requirements](/blog/pm-surya-ghar-eligibility/) cover the installation side, but post-installation service is entirely a function of the vendor relationship.
 
 ## The Balanced Verdict: What the Government Got Right and Where the Work Remains
@@ -164,7 +162,7 @@ The third check is the vendor's post-installation commitment. Ask specifically: 
 | | What Is Working | What Is Not |
 | --- | --- | --- |
 | **Portal and process** | Single national portal, digital document submission, bank transfer subsidy | PFMS mismatches, variable state portal integration quality |
-| **Equipment quality** | ALMM Phase III enforcing minimum standards, BIS compliance required | Empanelment excluding newer quality brands still pending ALMM listing |
+| ALMM scope | Verify current PV module and cell requirements | Check inverter documents separately |
 | **Subsidy structure** | ₹78,000 cap is financially meaningful, directly to buyer's account | Disbursement delays of 90–120+ days in slow-processing states |
 | **Market development** | 1 crore target driving installer market growth into Tier-2/3 cities | Empanelment criteria excluding smaller quality regional installers |
 | **Infrastructure** | Best-performing DISCOMs proving 30–45 day processing is achievable | Most DISCOMs still lacking dedicated rooftop solar teams |
@@ -179,21 +177,16 @@ The government has signalled awareness of these gaps in recent MNRE consultation
 Knowing the programme's structural problems helps, but most homeowners who have a bad experience trace it to one of a small set of avoidable mistakes.
 
 - **Choosing an empanelled vendor purely on price**: the empanelment list guarantees eligibility, not quality. The cheapest empanelled vendor in your area may have the longest after-sales queue. Call three or four references before deciding, or cross-check candidates against a local solar installer directory that lists more options than the DISCOM empanelment shortlist alone.
-- **Not verifying ALMM status independently**: do not take the installer's word. Look up the inverter model on the live MNRE list yourself. [ALMM Phase III](/blog/almm-list-phase-iii-guide/) changed the eligible model list significantly; an older quotation may include a since-de-listed product.
+
 - **Underestimating the net metering wait**: plan your finances assuming a 90-day wait from commissioning to subsidy disbursement, even in fast-processing states. If it comes sooner, the positive surprise is welcome. If it takes longer, you will not be caught short.
 - **Ignoring the warranty length**: the [subsidy payback period calculation](/blog/pm-surya-ghar-subsidy-amount/) assumes the system generates reliably for at least 4–5 years. An inverter with a 5-year warranty that fails in year 4 can turn a positive ROI negative. The [solar inverter warranty](/blog/solar-inverter-warranty/) you accept at contract stage is the single biggest risk lever in the entire transaction.
 - **Not filing a formal complaint when DISCOM delays occur**: most homeowners wait passively when their net metering application stalls. Filing a formal complaint with the state SERC or the MNRE grievance portal actually does move applications forward; DISCOMs are more responsive to formal complaints than to informal follow-up calls.
 
 ## Where Qbits Fits in This Landscape
 
-Homeowners who are navigating PM Surya Ghar need an inverter that ticks three boxes simultaneously: ALMM-listed so the subsidy is not at risk, reliable enough that the equipment earns back the investment over the full payback period, and backed by a service network that does not leave them waiting for months when something goes wrong.
-
-Qbits inverters are ALMM-listed and BIS/IEC compliant, the subsidy eligibility check is covered. The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) means that even if DISCOM delays stretch the payback period to 5–6 years, the inverter is still under full warranty for twice that duration. The AI-powered WhatsApp monitoring means the homeowner sees exactly how much power the system is generating and exporting, which is particularly valuable during the net metering waiting period when you need to understand whether your system is working correctly before the DISCOM has formally connected it.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, ALMM-listed, BIS compliant, subsidy-eligible from 1.5 kW to 50 kW. The right product for the majority of PM Surya Ghar applicants.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for homeowners in states with unreliable grids who want backup capability alongside the subsidy benefit.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/)**: the step-by-step application reference, covering eligibility, documents, DISCOM coordination, and subsidy disbursement timelines.
 
-When you are ready to get a system quoted and want to confirm which Qbits model matches your load and roof, [talk to a Qbits engineer](/contact-us/), most assessment calls take under 20 minutes and we cover the ALMM verification and DISCOM process alongside the technical sizing.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 The PM Surya Ghar scheme deserves to succeed. The fastest path to that success runs through honest diagnosis of where it is falling short, and through suppliers, installers, and policymakers who are willing to name the problems rather than pretend the portal alone is sufficient.

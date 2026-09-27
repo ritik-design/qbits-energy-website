@@ -182,4 +182,4 @@ The Saudi proposal is a document about displaced consumption, not generated ener
 - **Ask the tariff tier first.** It sets the value of everything the system produces and it decides whether the project is worth pursuing.
 - **Keep the export line small and visible.** A large one means the system is oversized or the rate is wrong.
 - **State the soiling and cleaning assumptions.** European defaults overstate Saudi yield every year of the projection.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real site, or reach the Qbits team [here](/contact-us/) for SASO-conformant inverter specification.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

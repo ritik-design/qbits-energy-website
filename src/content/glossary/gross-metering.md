@@ -270,8 +270,6 @@ Gross metering sells the entire solar generation to the DISCOM at a feed-in tari
 
 ## Want gross metering set up correctly?
 
-QBits Energy supports commercial and industrial customers with gross metering contracts, DISCOM coordination and plant design optimised for FIT revenue across Indian states.
-
 ## Further reading
 
 For how Gross Metering plays out in real projects, these guides go deeper:

@@ -40,7 +40,7 @@ faqs:
   - q: "Why use DC optimisers?"
     a: "Shade tolerance, panel-level monitoring, partial shade recovery, rapid shutdown compliance. Costs less than microinverters but more than plain string."
   - q: "Are optimisers ALMM-listed?"
-    a: "DC optimisers are not directly ALMM-listed (ALMM covers modules and inverters). The paired inverter must be ALMM-listed."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What is SolarEdge?"
     a: "Major DC optimiser manufacturer. SolarEdge HD-Wave inverters pair with SolarEdge optimisers under each panel."
   - q: "What is Tigo?"
@@ -65,6 +65,8 @@ faqs:
     a: "Premium residential rooftops in Europe, US, Australia, Israel. Growing in Indian premium residential."
 author: "Nirav Dhanani"
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 ## What is a DC optimiser
 
@@ -220,8 +222,6 @@ Tigo distributes through partner installers.
 
 Most Indian premium rooftops choose microinverters (Enphase) over optimisers.
 
-[PM Surya Ghar](/glossary/pm-surya-ghar/) accepts DC optimiser systems if the paired inverter is [ALMM-listed](/glossary/almm-list/).
-
 ## Standards and certifications
 
 | Standard | Scope |
@@ -236,8 +236,6 @@ Most Indian premium rooftops choose microinverters (Enphase) over optimisers.
 DC optimisers are module-level devices providing per-panel MPPT and monitoring while pairing with a centralised string inverter. Architecture combines benefits of microinverters and string inverters. Cost premium of 30-50 percent over plain string limits adoption to premium applications with shading or monitoring needs. SolarEdge and Tigo are major brands. Indian adoption is limited but growing in premium residential.
 
 ## Need DC optimiser solutions for your rooftop?
-
-QBits Energy offers DC optimiser solutions for premium residential and small commercial rooftops with shading or monitoring requirements.
 
 ## Further reading
 

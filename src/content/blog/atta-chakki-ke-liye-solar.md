@@ -34,6 +34,8 @@ faqs:
 featured: false
 ---
 
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 गाँव और कस्बे की atta chakki solar के लिए शायद सबसे अच्छे candidates में से एक है, और बात सबसे कम इसी पर होती है। Chakki का पूरा load दिन में होता है, ठीक उन्हीं घंटों में जब panels सबसे ज़्यादा बना रहे होते हैं। बनी हुई बिजली लगभग पूरी वहीं खप जाती है, export बहुत कम होता है, और [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) के rate की झंझट भी घट जाती है। लेकिन एक technical बात है जिस पर ज़्यादातर local vendor ध्यान नहीं देते और वही systems को fail कराती है, chakki motor का starting current। यह guide उसी पर सबसे ज़्यादा समय देती है, साथ में sizing, कीमत, payback, और यह साफ़ बात कि commercial connection पर कौन सी subsidy मिलती है और कौन सी नहीं।
 
 > **TL;DR**
@@ -114,7 +116,7 @@ Conversion सीधा है। **1 HP लगभग 0.746 kW** होता �
 
 <div class="inline-cta">
 <h3>Chakki, Dal Mill ya Cold Storage, Sabke Liye Ek Hi Team</h3>
-<p>Rural commercial load ka design alag hota hai. Qbits C&I team motor loads, three phase balance aur DISCOM paperwork ke saath end to end plan banati hai.</p>
+
 <a href="/c-i-solution/" class="cta-btn">C&amp;I Solutions Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Commercial connection, commercial tariff, commercial design।</p>
 </div>
@@ -153,7 +155,7 @@ Design इस तरह बैठता है।
 - एक QB 12KTLC three phase on-grid inverter, और motor पर soft starter जो पहले नहीं था।
 - Genset backup पर, कोई battery नहीं। Installed cost लगभग ₹6.4 लाख, load enhancement की ज़रूरत नहीं।
 
-Expected नतीजा। सालाना लगभग 18,000 units generation, जिसमें से 80 से 85 percent सीधे mill में खप जाती हैं, और energy charges में लगभग ₹1.55 लाख सालाना की बचत। Fixed charges पहले जैसे रहेंगे। एक ईमानदार caveat, grid जाने पर plain on-grid inverter बंद हो जाता है, इसलिए genset पूरी तरह नहीं हटता। Simple payback लगभग 4 साल, inverter पर 12 साल की full replacement warranty।
+Expected नतीजा। सालाना लगभग 18,000 units generation, जिसमें से 80 से 85 percent सीधे mill में खप जाती हैं, और energy charges में लगभग ₹1.55 लाख सालाना की बचत। Fixed charges पहले जैसे रहेंगे। एक ईमानदार caveat, grid जाने पर plain on-grid inverter बंद हो जाता है, इसलिए genset पूरी तरह नहीं हटता। Simple payback लगभग 4 साल, inverter पर 12 साल की warranty with a written remedy।
 
 ## Subsidy aur Scheme: Saaf Baat
 
@@ -179,11 +181,9 @@ Chakki के लिए इसका सीधा मतलब है, **export 
 
 Net metering और gross metering का फ़र्क़ समझने के लिए [यह comparison](/blog/gross-metering-vs-net-metering/) पढ़िए, क्योंकि कुछ states commercial consumers को gross metering की तरफ़ धकेलते हैं और उसमें पूरा गणित बदल जाता है।
 
-Application के समय बिजली बिल, sanction letter, firm के registration papers, roof ownership या NOC, और inverter का ALMM व test certificate तैयार रखिए। Approval timeline states में अलग है, detail [net meter approval वाली post](/blog/net-meter-approval-timeline/) में है।
-
 <div class="inline-cta">
 <h3>Motor Load ke Liye Bane Inverters</h3>
-<p>QB 6KTLC se QB 30KTLC tak three phase on-grid, aur QBH 10KS48P3 jaise hybrid options. Sab India ke grid ke hisaab se tuned, IP66, 12 saal ki full replacement warranty ke saath.</p>
+<p>QB 6KTLC se QB 30KTLC tak three phase on-grid, aur QBH 10KS48P3 jaise hybrid options. Sab India ke grid ke hisaab se tuned, IP66, 12 saal ki warranty with a written remedy ke saath.</p>
 <a href="/our-products/" class="cta-btn">Product Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Har model ki datasheet aur rating khuli hui hai।</p>
 </div>

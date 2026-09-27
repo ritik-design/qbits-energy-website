@@ -33,6 +33,8 @@ faqs:
     a: "RESCO PPA contracts in India typically run for 15–25 years. The most common duration for C&I rooftop projects is 15 years for buyers who want flexibility, and 20–25 years for buyers who want the lowest possible PPA tariff. After the contract ends, options typically include: extending the PPA, purchasing the system from the RESCO at residual value, or having the system removed by the RESCO at no cost to the buyer."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 A factory owner or facility manager evaluating solar in India encounters two fundamental choices: own the system ([CAPEX](/glossary/capex/)) or have someone else own it and pay per unit generated ([RESCO](/glossary/resco/)). This guide focuses entirely on the RESCO model, what it means, what the contract terms look like, which companies provide it, and what due diligence prevents expensive surprises in Year 10 of a 20-year commitment.
 
 > **TL;DR**
@@ -162,10 +164,7 @@ India's RESCO market is also increasingly shaped by the [Ministry of New and Ren
 
 ## Where Qbits Fits in the C&I Solar Decision
 
-Whether you choose RESCO or CAPEX, the inverter at the heart of the system determines generation reliability for the full contract term. For CAPEX buyers who own the system directly, Qbits commercial string inverters offer industrial-grade harmonic suppression (THD below 3%), dual-MPPT tracking for complex rooftop orientations common in industrial buildings, and the 12-year full-replacement warranty that protects IRR projections over the first half of the system life.
-
-- **[C&I Solar Solution](/c-i-solution/)**: Qbits industrial solar systems from 50 kW to multi-MW configurations.
 - **[On-Grid Inverters](/on-grid-inverter/)**: Commercial string inverters with industrial specifications.
-- **[Download Datasheets](/download-datasheets/)**: THD, efficiency curves, and MPPT specifications for banker and EPC bid review.
+- **[Download Datasheets](/download-datasheets/)**: Start with the public model specifications. Request any THD report, efficiency curve or lender-required evidence for the exact SKU separately.
 
-For C&I buyers evaluating whether RESCO or CAPEX makes more financial sense for their specific situation, [talk to a Qbits engineer](/contact-us/). Qbits provides independent IRR modelling that factors in your grid tariff, taxable profit, roof area, and capital cost of funds, the four variables that determine which model wins for your business.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

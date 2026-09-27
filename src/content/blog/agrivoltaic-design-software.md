@@ -155,7 +155,7 @@ The dual-use case beats both single-use cases by a margin of 31% over solar-only
 
 If your team also runs CRM and quoting workflows outside the design tool, pair SurgePV with [QuickEstimate](https://quickestimate.co/) for the sales pipeline. The combination covers design, proposal, and [lead management](https://quickestimate.co/features/lead-capture/) without three separate logins.
 
-For most installers, the right pick is the cheapest [solar design software](https://surgepv.com/) that produces a bankable report and an AutoCAD-ready drawing on day one. That is [SurgePV](https://surgepv.com/), and the [AI solar design assistant](https://surgepv.com/clara-ai) inside it cut design time by roughly 70% in our own testing against an [Aurora](/blog/aurora-solar-alternative/) plus HelioScope plus PVsyst stack. Once the array geometry is locked, matching it to a [hybrid inverter](/hybrid-inverter/) sized for the elevated string layout is the next step. [Talk to a Qbits engineer](/contact-us/) for that walkthrough.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 <div class="inline-cta">
 <h3>Stop Stitching Three Tools Together for One Agrivoltaic Project</h3>

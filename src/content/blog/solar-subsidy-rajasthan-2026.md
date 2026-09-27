@@ -28,13 +28,15 @@ faqs:
   - q: "What is KUSUM Component A and does it apply to homeowners in Rajasthan?"
     a: "KUSUM (Kisan Urja Suraksha evam Utthaan Mahabhiyan) Component A is a central scheme for setting up decentralised ground-mounted solar power plants of 500 kW to 2 MW on barren, fallow, or cultivable land, with power sold to state DISCOMs. It is aimed at landowners and farmers, not urban residential consumers. Rajasthan has been one of the most active KUSUM Component A states due to its vast availability of barren land in western districts. Urban homeowners seeking rooftop solar subsidy should apply through PM Surya Ghar, not KUSUM Component A."
   - q: "What documents are needed for Rajasthan solar subsidy?"
-    a: "Required documents for Rajasthan solar subsidy applications include: (1) recent electricity bill from JVVNL, AVVNL, or JdVVNL showing consumer number; (2) Aadhaar card linked to application mobile; (3) PAN card; (4) bank passbook or cancelled cheque with IFSC; (5) property ownership - registry deed, jamabandi (land records), or property tax receipt; (6) for apartments, RWA no-objection certificate; (7) rooftop photographs showing shadow-free area; (8) technical feasibility form from DISCOM-empanelled installer; (9) ALMM certificates for panels and inverter."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Is the summer heat in Rajasthan a problem for solar inverters?"
     a: "Western Rajasthan regularly records ambient temperatures of 45 to 50 °C in summer. Standard inverters specified at 25 °C laboratory conditions begin derating (reducing output) above 40 °C ambient. This means an inverter rated at 5 kW may only deliver 4.2 to 4.5 kW during peak summer afternoons in Jodhpur or Bikaner - precisely when solar irradiance is at its highest. For Rajasthan installations, selecting inverters with full nameplate output guaranteed up to 45 °C ambient is essential. IP66-rated units with superior thermal management perform significantly better in desert conditions than IP65 units without active cooling management."
   - q: "What makes Rajasthan solar payback so attractive compared to other states?"
     a: "Rajasthan has the highest solar irradiance in India - approximately 6.0 to 6.5 kWh/m²/day in the Thar Desert region (Jodhpur, Barmer, Jaisalmer, Bikaner) versus the national average of 4.5 to 5.5 kWh/m²/day. A 3 kW system in Jodhpur generates approximately 6,200 kWh per year compared to approximately 4,500 kWh for the same system in Delhi or 5,000 kWh in Bangalore. At equivalent electricity tariffs, the Rajasthan homeowner earns 20 to 35 percent more annual value from the same investment, cutting post-subsidy payback to 2.5 to 3.5 years in high-irradiance districts."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Rajasthan holds a card no other Indian state can match in the solar subsidy conversation: the highest solar irradiance in the country, at approximately 6.0 to 6.5 kWh/m²/day in the western desert districts. When the central [PM Surya Ghar](https://heavendesigns.in/blog/pm-surya-ghar-2-0-battery-storage-shared-rooftop-solar/) subsidy of ₹78,000 for a 3 kW system is combined with this natural resource advantage, Rajasthan homeowners achieve some of the fastest solar paybacks in India, often 2.5 to 3.5 years post-subsidy compared to 3.5 to 5 years in lower-irradiance states.
 
@@ -65,8 +67,6 @@ The central PM Surya Ghar Muft Bijli Yojana, launched in February 2024, is admin
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly into the homeowner's bank account after DISCOM commissioning is verified on the national portal. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-Eligibility requires ALMM-listed panels, a [BIS-certified](/glossary/bis-certification/) inverter, and a [DISCOM](/glossary/discom/)-empanelled installer. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains how to check vendor status before committing. In Rajasthan, this step is particularly important because the market includes many small installers who claim empanelment without being formally registered with the relevant DISCOM.
-
 ## The High DNI Advantage: Why Rajasthan Gets More From the Same Subsidy
 
 The financial case for solar in Rajasthan rests on the state's extraordinary solar resource. The Direct Normal Irradiance (DNI) across western Rajasthan is the highest in India and among the highest in the world.
@@ -93,8 +93,6 @@ Rajasthan homeowners must navigate five sequential steps to successfully claim t
 1. **PM Surya Ghar portal registration**: Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your DISCOM (JVVNL, AVVNL, or JdVVNL) consumer number, Aadhaar details, and Aadhaar-linked bank account before installation begins. Registration sequence matters, installers should not begin physical work until the portal registration is completed.
 
 2. **DISCOM technical feasibility**: Submit to your DISCOM for technical feasibility approval. All three Rajasthan DISCOMs process this through divisional offices; online tracking is available through the PM Surya Ghar portal but physical office contact may be needed for follow-up. Timeline: 20–40 days.
-
-3. **ALMM-compliant installation**: Install with ALMM-listed panels and BIS-certified inverter. In Rajasthan's extreme heat (45–50 °C ambient), inverter selection with full derating specifications at high temperatures is critical, not just ALMM compliance. Check the [ALMM list guide](/blog/almm-list-phase-iii-guide/) for how to verify current listing status.
 
 4. **Net meter installation**: After installation inspection by the DISCOM, a bidirectional meter replaces the existing meter. This is the primary delay step across all three DISCOMs. In JdVVNL's western Rajasthan territory, the technical workforce is thinner relative to geographic coverage, extending timelines.
 
@@ -150,8 +148,6 @@ The [KUSUM yojana complete guide](/blog/kusum-yojana-agricultural-solar-subsidy/
 
 ## Inverter Selection in Rajasthan's Extreme Heat: A Critical Factor
 
-Rajasthan's summer conditions create specific requirements for inverter selection that go beyond standard ALMM compliance. In Jodhpur, Bikaner, and Barmer, ambient temperatures regularly exceed 45 °C from April through June, the very months when solar irradiance is at its annual peak.
-
 Standard inverter datasheets specify output at 25 °C ambient. Most inverters begin thermal derating above 40 °C, reducing output by 2 to 5 percent per degree above the threshold. An inverter rated at 3 kW at 25 °C may only deliver 2.7 to 2.8 kW at 45 °C ambient, precisely when generation potential is highest.
 
 **What to look for in Rajasthan inverter selection**:
@@ -172,8 +168,6 @@ The [DC oversizing guide](/blog/dc-oversizing-in-solar/) explains how to specify
 - **Property ownership**: Registry deed (registered, not just stamp paper), jamabandi (land records for rural properties), or property tax receipt from the relevant Urban Local Body
 - **For apartments or gated communities**: RWA or housing society NOC specifying rooftop allocation
 - **Rooftop photographs**: Multiple views showing shadow-free area and compass orientation; western Rajasthan flat rooftops typically have abundant shadow-free area
-- **Technical feasibility form**: From DISCOM-empanelled installer, including single-line diagram and proposed inverter model with ALMM certificate
-- **ALMM compliance certificates**: For panels and inverter separately; current-quarter ALMM list verification mandatory
 
 ## Timeline: What Is Realistic for Rajasthan in 2026
 
@@ -189,8 +183,6 @@ The [DC oversizing guide](/blog/dc-oversizing-in-solar/) explains how to specify
 ## A Jaipur Homeowner Case Example: 3 kW, JVVNL
 
 Suresh Agarwal owns an independent house in Mansarovar, Jaipur, served by JVVNL. Monthly electricity bill: ₹3,500 (400–450 units in summer, 180–220 units in winter, large seasonal variation due to air conditioning). Annual consumption: approximately 3,600 units.
-
-**System specification**: 3 kW on-grid, ALMM-listed bifacial monocrystalline panels (9 × 340 Wp), BIS-certified string inverter with full rated output at 45 °C, IP66 enclosure, rooftop mounting on 220 sq ft south-facing flat terrace.
 
 **Costs and subsidies**:
 - Gross system cost: ₹1,90,000 (installed)
@@ -233,10 +225,7 @@ The [solar inverter for factory and industrial](/blog/solar-inverter-for-factory
 
 Rajasthan's environment is one of the most demanding for solar inverter hardware in India. The combination of extreme heat, desert dust, and high irradiance that drives excellent economics also creates the conditions that expose under-specified equipment most quickly.
 
-Qbits inverters address these conditions directly. The IP66 rating excludes both the fine particulates of desert dust and monsoon-season humidity. Full-power output sustained at 45 °C ambient (not just 25 °C lab conditions) means Rajasthan installations do not lose generation precisely when irradiance is at its annual peak. India-grid-tuned firmware handles the voltage variations common in JdVVNL's semi-urban and rural distribution networks. The 12-year full replacement warranty covers the full productive life of the system with no prorated or parts-only compromise. BIS and ALMM compliance means every Qbits inverter qualifies for PM Surya Ghar without documentation issues.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed, suitable for JVVNL, AVVNL, and JdVVNL applications across urban and semi-urban Rajasthan.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for rural JdVVNL areas with 4+ hour power cuts, or for any Rajasthan buyer wanting battery backup for critical loads.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm panel-string configuration for Rajasthan's high-temperature conditions before the DISCOM feasibility application.
 
-[Talk to a Qbits engineer](/contact-us/) about your Rajasthan installation, a thermal derating analysis for your specific district and proposed system size takes under 24 hours and will confirm whether the inverter you have been quoted handles Rajasthan's conditions at rated output.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

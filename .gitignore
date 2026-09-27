@@ -26,3 +26,6 @@ pnpm-debug.log*
 .wrangler/
 .gstack/
 .image-source/
+
+# Content-programme run artifacts: internal audit trail, kept out of this public repo.
+content-runs/

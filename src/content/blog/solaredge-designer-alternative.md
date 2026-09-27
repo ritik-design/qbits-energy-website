@@ -200,7 +200,6 @@ Three things to do next:
 
 - Count the SolarEdge share of your last fifty installs. That ratio decides this more than any comparison table.
 - Take one recent quote and check whether the financial output matches your actual local tariff and the savings you promised.
-- If you already run two tools, add up the hours spent modelling the same roof twice, then compare that against one platform that holds everything. Teams sizing the [on-grid inverter](/on-grid-inverter/) or [hybrid inverter](/hybrid-inverter/) behind the finished design can [get a spec walkthrough from a Qbits engineer](/contact-us/) instead of cross-checking datasheets by hand.
 
 <div class="inline-cta">
 <h3>Test a neutral tool against a mixed-brand pipeline</h3>

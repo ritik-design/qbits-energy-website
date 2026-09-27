@@ -1,7 +1,7 @@
 ---
 title: "PM Surya Ghar Eligibility: Who Qualifies in 2026?"
-excerpt: "PM Surya Ghar eligibility requires Indian citizenship, a residential connection, property ownership, and an ALMM inverter. Find out who qualifies."
-description: "PM Surya Ghar eligibility requires Indian citizenship, a residential DISCOM connection, property ownership, and an ALMM-listed inverter. Who qualifies?"
+excerpt: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+description: "Check PM Surya Ghar eligibility through the official portal and DISCOM, with guidance on applicant, premises, system and document requirements."
 category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -24,7 +24,7 @@ faqs:
   - q: "Can an NRI apply for PM Surya Ghar for their property in India?"
     a: "An NRI cannot apply directly if they are not the active electricity consumer on record with the DISCOM. If the NRI's family member residing at the property holds the electricity connection in their name, that family member can apply. Alternatively, the NRI may authorise a family member through a notarised Power of Attorney to manage the application process, provided the electricity account is in that person's name. The Aadhaar requirement means the applicant must be physically present in India or have an existing enrolled Aadhaar."
   - q: "Can I apply if I already have solar panels installed?"
-    a: "If you have existing solar panels and received a solar subsidy within the last seven years, you are generally not eligible for a fresh PM Surya Ghar subsidy on the same connection. If the existing system predates the seven-year window and you wish to upgrade capacity, contact your DISCOM to check upgrade eligibility. Properties with existing off-grid solar systems that now wish to switch to grid-connected setups may be eligible, provided the new system meets all PM Surya Ghar criteria and uses an ALMM Phase III listed inverter."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Are commercial or industrial electricity consumers eligible?"
     a: "No. PM Surya Ghar Muft Bijli Yojana is explicitly restricted to residential electricity consumers. Properties billed under commercial tariff (LT-2, HT-2 or equivalent tariff codes depending on the state DISCOM) or industrial tariff are not eligible. Mixed-use properties - for example, a shop on the ground floor and residence above - must separate the electricity connections. Only the residential connection qualifies. Applicants should verify their tariff category on their electricity bill before applying."
   - q: "What is the minimum and maximum system size for the subsidy?"
@@ -32,27 +32,24 @@ faqs:
   - q: "Does property ownership need to be in my name?"
     a: "Ownership documents need to confirm that the applicant has a legal right to install solar on the property. In most states, the electricity connection and property ownership should align. If the property is jointly owned, any co-owner can apply, but the electricity connection must be in their name. Inherited properties where the electricity connection has not yet been transferred to the heir's name may require a no-objection from the estate or a legal heir certificate before the DISCOM processes the application."
   - q: "Which inverter brands are approved for PM Surya Ghar?"
-    a: "Only inverters listed on the Approved List of Models and Manufacturers (ALMM) Phase III published by the Ministry of New and Renewable Energy (MNRE) are eligible for PM Surya Ghar subsidy claims. The ALMM list is updated periodically. Qbits Energy inverters are ALMM-listed and qualify for PM Surya Ghar subsidy. Buyers should verify the specific model is listed before purchase by checking the ALMM list at mnre.gov.in. Using a non-ALMM inverter disqualifies the entire installation from subsidy."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What happens if my DISCOM does not support net metering?"
     a: "PM Surya Ghar requires that the DISCOM in your area supports grid connectivity and net metering for residential consumers. In areas served by private DISCOMs (such as BEST in parts of Mumbai, TPDDL in Delhi, or CESC in Kolkata), the process and eligibility conditions may differ from state DISCOMs. Some private DISCOMs have their own empanelled vendor lists and approval timelines. Applicants in areas with private DISCOMs should visit the DISCOM office or their official website to confirm participation in the PM Surya Ghar scheme before applying."
 featured: false
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every month, over a million Indians search for information about the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/), and a significant portion of those searches are from people who are not certain whether they actually qualify. The scheme offers up to ₹78,000 in central subsidy for a 3 kW residential rooftop solar system, which is a meaningful financial benefit. But the eligibility rules carry enough nuance (around property ownership, electricity tariff categories, inverter specifications, and state-level variations) that many applicants waste weeks pursuing an application that will be rejected on a technicality.
 
 This guide cuts through that confusion. Whether you own a standalone home, live in an apartment, are an NRI with property in India, or are wondering if your existing solar system affects your eligibility, the answer is here, alongside a structured self-assessment tool so you can determine your status before you spend a single rupee with a vendor.
 
-> **Direct answer.** [PM Surya Ghar](/blog/pm-surya-ghar-whats-working/) eligibility requires five conditions to be met simultaneously: you must be an Indian citizen with a valid Aadhaar, hold a residential (not commercial or industrial) electricity connection, own the property or have formal landlord consent, be in a DISCOM service area that supports the scheme, and install a system using an ALMM Phase III listed inverter between 1 kW and 10 kW. All five conditions must be satisfied, failing even one disqualifies the application.
-
 > **TL;DR**
-> - Eligibility rests on five gates: Indian citizenship with Aadhaar, a residential electricity connection, property ownership or landlord NOC, DISCOM participation, and an ALMM Phase III listed inverter between 1 kW and 10 kW.
+
 > - The central subsidy is capped at ₹78,000 for a 3 kW system, with no additional amount for capacity beyond that.
 > - Tenants cannot apply directly, the application must run through the landlord's electricity account with a written NOC.
 > - Apartment owners with an individual meter can apply solo; shared rooftops usually need a collective RWA application.
 > - Commercial, industrial, and agricultural tariff connections are categorically excluded from the scheme.
-> - A non-ALMM-listed inverter disqualifies the entire installation from subsidy, regardless of technical performance.
-
-The [ALMM listing requirement](/blog/solar-inverter-certifications/) is the condition most frequently overlooked by applicants who purchase inverters without verifying approval status. An inverter that is not on the MNRE's [Approved List of Models and Manufacturers](https://mnre.gov.in/almm-list/) will disqualify the entire installation from receiving subsidy, regardless of how well it performs technically.
 
 ## The Eight Official PM Surya Ghar Eligibility Criteria
 
@@ -67,8 +64,6 @@ The [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) and the underlying MNRE 
 4. **DISCOM service area participation**: The local electricity distribution company must be a participant in the PM Surya Ghar scheme. The vast majority of state DISCOMs are included, but applicants in areas served by some private DISCOMs should verify independently.
 
 5. **Sanctioned load compatibility**: The DISCOM-sanctioned load (the contracted demand on your connection) must be sufficient to support the proposed system size. A residential connection with a 1 kW sanctioned load cannot host a 5 kW system without a load enhancement application first.
-
-6. **ALMM Phase III listed inverter**: Only inverters on the MNRE's ALMM list qualify. This is verified by the [empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) at installation and by the DISCOM during inspection.
 
 7. **System capacity within the eligible range**: The installed system must be between 1 kW and 10 kW for residential applications. The central subsidy applies to the first 3 kW. Systems below 1 kW or above 10 kW for a single residential connection fall outside the scheme's coverage.
 
@@ -215,13 +210,7 @@ The central government sets the baseline eligibility criteria, but state governm
 
 State variations matter most in three situations: when the property is in an area served by a private DISCOM, when the applicant is claiming a state top-up subsidy, and when the documentation requirements exceed the standard central government checklist. Always verify the current requirements on the state DISCOM's official portal before submitting an application.
 
-## The ALMM Requirement: Why Inverter Selection Is an Eligibility Condition
-
-The inverter selection is not just a technical decision, it is a legal eligibility condition. Under PM Surya Ghar rules, the [DISCOM](/glossary/discom/) will not process the subsidy unless the installed inverter appears on the MNRE's [ALMM list](/glossary/almm-list/).
-
-The ALMM (Approved List of Models and Manufacturers) is maintained by the Ministry of New and Renewable Energy and updated periodically. [ALMM Phase III](/blog/almm-list-phase-iii-guide/) specifically covers [grid-connected solar inverters](/glossary/on-grid-inverter/) for residential and commercial applications. A model that was ALMM-listed six months ago may have had its listing withdrawn or updated, buyers should verify the specific model against the current published list at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/) before purchase.
-
-The consequences of installing a non-ALMM inverter are clear: the subsidy claim fails, and the applicant must either replace the inverter or forgo the subsidy. There is no appeals process for a non-ALMM installation. For a comprehensive breakdown of how ALMM interacts with BIS, IEC 62109, and other compliance standards, see the detailed guide on [solar inverter regulations in India 2026](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/).
+## ALMM and inverter compliance are separate checks
 
 The payback period calculation changes significantly when the subsidy is lost. Our analysis of [solar inverter payback periods in India](/blog/solar-inverter-payback-period-in-india/) shows that the ₹78,000 central subsidy reduces payback time by 1.5 to 2.5 years for a typical 3 kW residential system, a difference substantial enough to make inverter selection a financial decision, not just a technical one.
 
@@ -231,8 +220,6 @@ Applicants who fail the DISCOM inspection or see their [subsidy rejected](/blog/
 
 - **Applying under a commercial connection**: Always verify the tariff category on your electricity bill before initiating the online application. The category printed on the bill is the one the DISCOM uses, regardless of what you believe the property's use to be.
 
-- **Purchasing a non-ALMM inverter before checking the list**: The ALMM list is updated. A model listed at the time of a sales conversation may no longer be listed at the time of installation inspection. Download the current ALMM PDF from the MNRE portal on the day of purchase.
-
 - **Proceeding without load verification**: If your sanctioned load is lower than the proposed system size, the DISCOM will reject the connection. A 5 kW system on a connection with 2 kW sanctioned load requires a load enhancement application first, typically a separate process that can take 30–90 days.
 
 - **Missing the [state-specific documentation checklist](/blog/pm-surya-ghar-documents-required/)**: Different states require different supporting documents. Gujarat DISCOMs require ownership proof. Rajasthan requires a notarised property document in some cases. Tamil Nadu's TANGEDCO has its own empanelled vendor requirement. Check the state DISCOM portal, not just the national PM Surya Ghar portal.
@@ -241,18 +228,10 @@ Applicants who fail the DISCOM inspection or see their [subsidy rejected](/blog/
 
 - **Ignoring the seven-year prior subsidy check**: This affects inherited or purchased properties where the previous owner may have received a subsidy. A title search or direct query to the DISCOM can clarify whether the connection has a prior subsidy flag.
 
-For a full step-by-step walkthrough of the actual application process, including the portal navigation and document upload sequence, see the guides on [how to find reliable inverter dealers in India](/blog/inverter-suppliers-india/) to identify empanelled vendors in your area. Homeowners who want a single turnkey partner for site assessment through commissioning can also compare residential solar installation packages from EPC providers in the wider Qbits network.
-
 ## Where Qbits Fits
-
-Homeowners who have confirmed their PM Surya Ghar eligibility face the next practical question: which inverter to select. The answer depends on ALMM status, warranty terms, and the quality of after-sales support, because the subsidy is received once, but the inverter must perform for 12 years or more.
-
-Qbits Energy inverters are ALMM Phase III listed, which means they satisfy the scheme's mandatory compliance requirement. Beyond eligibility, the product specification is designed for Indian residential conditions: IP66 weather protection for monsoon exposure, firmware calibrated for 180–270V grid fluctuations common in Tier-2 and Tier-3 towns, and a 12-year full replacement warranty that removes long-term performance risk from the buyer. The after-sales network covers 280+ Indian cities, which matters when something needs attention years after installation.
 
 Three pages worth visiting when you reach the product selection stage:
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, all ALMM-listed and subsidy-eligible.
-- **[Residential Solar Solution](/residential-solution/)**: The complete system view for homeowners, including sizing guidance and subsidy calculation.
-- **[Why Qbits](/why-qbits/)**: The warranty, IP rating, and service SLA details in one place.
+- **[Residential Solutions](/residential-solution/)**: Ask which equipment and project services are available, then obtain the scope, responsible party, exclusions and fees in writing.
 
-If you have confirmed your eligibility and are at the stage of selecting a vendor and product, [talk to a Qbits engineer via the contact page](/contact-us/), most system sizing consultations come back within 24 hours, and the team can confirm ALMM listing status for the specific model being considered.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

@@ -130,8 +130,6 @@ That payback math assumes a properly sized [residential on-grid inverter](/on-gr
 - **Choose Energy Toolbase or Sighten** for US-residential finance-only workflows where design happens elsewhere.
 - **Choose HOMER** for off-grid, hybrid, and storage-heavy financial modelling.
 
-For most installers and EPCs in 2026, SurgePV is the [solar design platform](https://surgepv.com/) that ships the cleanest integrated financial modelling at the lowest realised total cost. The [bankable yield report](https://surgepv.com/generation-financial-tool) feeds the model directly. [QuickEstimate](https://quickestimate.co/) pairs as the CRM for the sales workflow. For Indian residential deals specifically, Qbits' [residential solution](/residential-solution/) publishes full inverter datasheets for exactly this kind of assumption check, and a quick call with [a Qbits engineer](/contact-us/) settles any efficiency-curve questions before the numbers go to the client.
-
 <div class="inline-cta">
 <h3>Ready to close the deal with integrated finance?</h3>
 <p>SurgePV combines AI 3D, 8,760-hour shading, bankable yield, cashflow, IRR, NPV, and white-label proposals in one platform.</p>

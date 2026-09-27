@@ -69,6 +69,8 @@ faqs:
 author: "Keyur Rakholiya"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is anti-islanding
 
 Anti-islanding is the protection function in a [grid-tied solar inverter](/glossary/on-grid-inverter/) that detects a loss of the utility grid and rapidly disconnects the inverter's AC output. It prevents the inverter from continuing to energise a section of the distribution network after the upstream feeder has been switched off, isolated by a protection device, or damaged. Our [anti-islanding protection guide](/blog/anti-islanding-protection-solar-inverters/) walks through the Indian compliance side of this in more depth.
@@ -102,8 +104,6 @@ Equipment safety on reclose. When the grid is restored, an islanded inverter is 
 Power quality. An island has no voltage or frequency regulation beyond what the inverter provides. Voltage drift damages connected appliances.
 
 Public safety. A downed line that should be dead but is fed from a rooftop solar inverter remains a public electrocution hazard.
-
-Regulatory compliance. Without IEC 62116 anti-islanding compliance, the inverter cannot be ALMM-listed, cannot be BIS-certified, and cannot be commissioned by any Indian DISCOM.
 
 ## How anti-islanding works
 
@@ -231,8 +231,6 @@ Avoid mixing inverter brands on small sites unless tested for multi-inverter com
 
 ## Indian market context
 
-India's CEA Technical Standards for Connectivity to the Grid 2019 require anti-islanding compliance for all distributed solar inverters. [ALMM listing](/glossary/almm-list/) requires IEC 62116 type test evidence or equivalent IS 17387 compliance. [BIS certification](/glossary/bis-certification/) under IS 16221 and IS 17387 covers the safety and grid interconnection aspects.
-
 [DISCOM](/glossary/discom/) commissioning protocols include a witnessed anti-islanding test. The test is typically performed by opening the customer's main switch with the inverter running at moderate load and confirming the inverter trips within 2 seconds.
 
 For large utility solar plants, anti-islanding is supplemented by upstream protection at the substation. CEA grid code, IEC 61400-27 and SECI PPA terms all reference anti-islanding compliance.
@@ -250,7 +248,6 @@ Common Indian inverter brands like Sungrow, Solis, Goodwe, [Growatt](/blog/growa
 | IEEE 1547 | US grid-interconnection, includes anti-islanding |
 | UL 1741 | US smart inverter, includes anti-islanding tests |
 | CEA Grid Code 2019 | Indian distribution grid connection rules |
-| MNRE ALMM | Lists inverters with verified anti-islanding compliance |
 
 ## Common mistakes
 
@@ -264,17 +261,11 @@ Ignoring reconnection delay. Inverters reconnecting in under 60 seconds risk dam
 
 Skipping the anti-islanding test at commissioning. The first time the grid actually drops, the inverter behaviour is unknown.
 
-Buying a non-ALMM inverter for a subsidised system. Anti-islanding compliance is part of ALMM evaluation. Subsidy disbursement stalls.
-
 Treating anti-islanding as overly conservative. Lineman fatalities from energised lines are a real and recurring issue, not a theoretical one.
 
 ## Key takeaways
 
 Anti-islanding is the inverter protection that keeps the grid safe for lineworkers when distributed solar is on the network. It is mandatory under IEC 62116, IS 17387 and CEA grid code in India. Modern inverters use both passive and active detection layers, with disconnect times well under 2 seconds. Disabling it is never acceptable. Proper commissioning, firmware updates and DISCOM coordination ensure the protection works without nuisance tripping.
-
-## Need help with grid-compliant solar inverter selection?
-
-QBits Energy supplies BIS-certified, ALMM-listed inverters with verified anti-islanding compliance for Indian residential, commercial and utility solar. Reach out for selection support that matches your DISCOM and CEA requirements.
 
 ## Further reading
 

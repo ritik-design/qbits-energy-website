@@ -33,6 +33,10 @@ faqs:
 featured: false
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 A banquet hall owner in India runs one of the most electricity-intensive small businesses in the country. A single wedding function can burn 500 to 2,000 units in a day. Most of that is air conditioning. The bill arrives at commercial tariffs of Rs 8 to 12 per unit, with demand charges on top. That works out to Rs 8 lakh to Rs 25 lakh a year in electricity for an active venue, often the second-largest operating cost after staff.
 
 The objection we hear from hall owners is always the same. My business runs at night, solar works in the day, so solar is useless for me. That objection is wrong, and this guide shows the math that proves it. There are three proven ways to make daytime solar pay for nighttime events. Net metering turns the grid into a virtual battery. Hybrid inverters add storage. Diesel generator hybridization cuts fuel costs. We cover the banquet hall load profile, the three architectures, 2026 commercial tariffs, sizing for 50 to 200 kW halls, and full payback math.
@@ -44,7 +48,6 @@ The objection we hear from hall owners is always the same. My business runs at n
 > - A 100 kW system costs Rs 45 to 55 lakh and saves Rs 12 to 16 lakh per year. Payback: 3.5 to 4.5 years.
 > - Diesel backup power costs Rs 22 to 28 per unit; solar-DG hybridization cuts generator runtime and fuel bills sharply.
 > - Commercial systems get no [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy, but 40 percent accelerated depreciation improves first-year returns.
-> - Qbits 3-phase inverters carry a 12-year full replacement warranty, IP66 protection, and a sub-72-hour RMA service commitment.
 
 **Short version.** Solar for a marriage hall works even though events happen after sunset. With net metering, daytime solar exports earn credits that offset the evening bill. A 50 to 100 kW rooftop system at commercial tariffs of Rs 8 to 12 per unit pays back in 3.5 to 4.5 years. Halls with frequent power cuts add a hybrid inverter with batteries, or synchronize solar with the existing diesel generator.
 
@@ -177,7 +180,6 @@ These are the errors we see repeatedly in C&I venue projects.
 3. **Buying batteries sized for the full HVAC load.** Back up lights, sound, and essential circuits. Let the DG handle air conditioning during long cuts.
 4. **Accepting a single central inverter.** Multiple 3-phase string inverters isolate faults and simplify service during wedding season, when downtime is measured in cancelled bookings.
 5. **Skipping the structural check.** A 100 kW plant adds roughly 12 to 15 kg per square foot. Get a structural certificate for steel-shed roofs.
-6. **Choosing on sticker price over warranty and service.** An inverter failure during a booked weekend costs more than the price gap between brands. Qbits 3-phase inverters carry a 12-year full replacement warranty, IP66 protection, and 98 percent peak efficiency. They are ALMM listed and backed by a sub-72-hour RMA service commitment. WhatsApp monitoring alerts your facility manager before a fault becomes a cancelled event.
 
 Elsewhere in the Heaven Group network, see [industrial solar installation](https://www.heavengreenenergy.com/blog/industrial-solar-installation) and [a 100 kW price benchmark](https://quickestimate.co/blog/hundred-kw-solar-price).
 
@@ -189,4 +191,4 @@ Three actions to take this month:
 
 - Pull your last 12 electricity bills and compute your blended per-unit rate and annual units. That tells you the system size and the savings ceiling.
 - Confirm your DISCOM's current net metering or gross metering rule for your connection category before talking to any installer.
-- Share your bills and roof details with a Qbits engineer through [our contact page](/contact-us/). You will get a venue-specific design with generation, savings, and payback numbers, typically within 24 hours.
+

@@ -1,11 +1,11 @@
 ---
-title: "5kW Solar Inverter Price in India 2026 (Hindi Guide)"
-excerpt: "5kW solar inverter price 2026: on-grid ₹28,000 से, hybrid ₹48,000 से। Full system cost, PM Surya Ghar ₹78,000 subsidy math, battery cost aur EMI, Hindi में।"
-description: "5kW solar inverter price India 2026 में kya hai? On-grid vs hybrid gap, battery cost, full installed system price, PM Surya Ghar subsidy math aur EMI options ka Hindi guide।"
+title: "5 kW Solar Inverter Price in India: Hindi Guide"
+excerpt: "5 kW solar inverter price ko scope, phase, battery aur specs se compare karein. Subsidy 3 kW par cap hoti hai, yeh 5 kW ka asli point hai."
+description: "5 kW solar inverter price compare karne ka Hindi guide. Scope, single-phase ya three-phase, hybrid battery cost, component shares, specs, warranty aur payback arithmetic."
 category: "Buying Guide"
 date: 2026-08-02
-updatedDate: 2026-08-02
-readTime: "12 min"
+updatedDate: 2026-09-24
+readTime: "11 min"
 image: "/blog-images/5kw-solar-inverter-price-hindi.svg"
 author: "Akash Hirapara"
 keywords:
@@ -13,230 +13,283 @@ keywords:
   - 5kw solar inverter kitne ka aata hai
   - 5kw hybrid inverter price india
   - 5kw solar system cost with subsidy
-  - 5kw solar inverter emi
+  - 5kw single phase ya three phase
 faqs:
-  - q: "5kW solar inverter की price 2026 में कितनी है?"
-    a: "5kW on-grid solar inverter ₹28,000 से ₹55,000 तक आता है। Budget non-ALMM units ₹22,000-28,000 में मिलते हैं लेकिन warranty 1-2 साल ही होती है। ALMM Phase III listed premium units ₹38,000-55,000 range में हैं, 10-12 साल warranty और IP66 protection के साथ। 5kW hybrid inverter इससे ऊपर, ₹48,000 से ₹85,000 तक जाता है। Price GST 12% के साथ quote करवाएँ।"
-  - q: "5kW solar system का total installed cost कितना पड़ता है?"
-    a: "5kW on-grid solar system का full installed cost 2026 में ₹2.20 lakh से ₹3.05 lakh तक है। इसमें panels, inverter, mounting structure, cables, MCB/RCCB, earthing, installation labour और net meter application सब आता है। Hybrid system में 5 kWh LFP battery जोड़ने पर total ₹3.40 lakh से ₹4.70 lakh हो जाता है। State और installer के हिसाब से 10-15% variation normal है।"
-  - q: "5kW पर PM Surya Ghar subsidy कितनी मिलती है?"
-    a: "5kW पर PM Surya Ghar central subsidy ₹78,000 मिलती है, जो scheme का maximum है। Subsidy 3 kW पर cap हो जाती है, इसलिए 5 kW लेने पर proportional ज्यादा subsidy नहीं मिलती। Structure यह है: पहले 1 kW पर ₹30,000, दूसरे kW पर ₹30,000, तीसरे kW पर ₹18,000, कुल ₹78,000। 4th और 5th kW पर central subsidy शून्य है। यह सबसे बड़ी गलतफहमी है 5 kW buyers के बीच।"
-  - q: "5kW on-grid और 5kW hybrid inverter की price में कितना फर्क है?"
-    a: "Same tier पर 5kW hybrid inverter, on-grid से ₹18,000 से ₹30,000 ज्यादा महंगा होता है। Mid-tier example: on-grid ₹32,000 बनाम hybrid ₹52,000। Premium: on-grid ₹48,000 बनाम hybrid ₹75,000। लेकिन असली gap battery से आता है। 5 kWh LFP battery ₹75,000-1,20,000 अलग से लगती है, इसलिए practical difference ₹95,000 से ₹1.5 lakh तक पहुँच जाता है।"
-  - q: "5kW solar system एक घर में क्या-क्या चला सकता है?"
-    a: "5kW system Indian conditions में रोज़ 18 से 22 units generate करता है, यानी महीने का 550 से 650 units। यह एक 3BHK घर के लिए काफी है: 2 से 3 ACs (1.5 ton) कुछ घंटे, fridge, washing machine, geyser, TV, lights और fans, plus पानी की motor। ₹6,000 से ₹8,000 महीने का bill वाला घर 5 kW से लगभग zero पर आ जाता है, net metering मिलने पर।"
-  - q: "5kW solar inverter के लिए EMI option मिलता है?"
-    a: "हाँ। PM Surya Ghar के तहत banks 5 kW तक residential rooftop पर collateral-free loan देते हैं, rates आमतौर पर 7% से 10.5% के बीच। ₹2.5 lakh net cost पर 5 साल की EMI लगभग ₹5,000 से ₹5,400 महीना बनती है। Monthly bill saving ₹4,000-6,000 होती है, इसलिए EMI काफी हद तक bill से ही cover हो जाती है। कुछ vendors 6 से 12 महीने का 0% EMI भी offer करते हैं।"
-  - q: "5kW solar system का payback period कितना है?"
-    a: "5kW on-grid system का payback आमतौर पर 3.5 से 5 साल का होता है, subsidy के बाद। यह आपके tariff पर depend करता है। ₹8/unit tariff और 600 units monthly generation पर saving ₹4,800 महीना यानी ₹57,600 साल की बनती है। ₹2.2 lakh net cost पर यह लगभग 3.8 साल है। Hybrid system का payback 6 से 8 साल होता है क्योंकि battery cost add होती है।"
-  - q: "5kW inverter subsidy के लिए ALMM जरूरी है क्या?"
-    a: "हाँ, PM Surya Ghar subsidy के लिए ALMM listed inverter और panels दोनों mandatory हैं। Non-ALMM inverter लगाने पर subsidy claim reject हो जाता है, चाहे बाकी सब सही हो। ALMM Phase III listing verify करें, Phase I या Phase II पुराने standards हैं। Vendor से ALMM certificate की copy लिखित में माँगें, verbal confirmation पर भरोसा न करें।"
+  - q: "5 kW solar inverter ki price kitni hai?"
+    a: "Ek universal current price nahi hai. Exact rate model, phase, on-grid ya hybrid type, MPPT design, warranty, tax aur seller ke scope par depend karta hai. Qbits jaise brands dealer network ke through quote-based bechte hain, isliye public retail rate card nahi hota. Written itemised quote ke bina headline price par decision na lein."
+  - q: "5 kW par PM Surya Ghar assistance kitni milti hai?"
+    a: "MNRE ke residential CFA calculation mein assistance 3 kW par cap ho jati hai, jo ₹78,000 ka usual ceiling hai. 5 kW system ko 3 kW ke upar wali capacity par koi extra central assistance nahi milti. Matlab top 2 kW ka pura cost aapke gross payable mein rehta hai. Apna approved amount PM Surya Ghar portal par hi verify karein."
+  - q: "Kya 5 kW ke liye three-phase connection zaroori hai?"
+    a: "Yeh aapke DISCOM ki connection conditions aur aapke sanctioned load par depend karta hai, na ki inverter ke label par. Kuch DISCOM 5 kW single-phase service par net metering allow karte hain, kuch three-phase maangte hain. MNRE ne March 2026 mein 10 kW tak auto load enhancement introduce kiya, lekin phase requirement DISCOM hi decide karta hai. Application se pehle likhit confirmation lein."
+  - q: "5 kW on-grid aur hybrid quote mein kitna farak hota hai?"
+    a: "Sabse bada difference battery hai, inverter nahi. Hybrid quote mein battery bank, rack, BMS wiring, essential-load board aur extra commissioning shamil hota hai. Ek industry-observed planning frame mein battery akele hi hybrid quote ka 25 se 40 percent ban jata hai. Battery cost ko inverter ki unit line mein chhupne na dein."
+  - q: "Kya 5 kW inverter ALMM listed hona chahiye?"
+    a: "Nahi. MNRE ka ALMM sirf solar PV module aur cell lists publish karta hai. List-I modules ke liye hai aur List-II cells ke liye, jo 1 June 2026 se in force hai. MNRE koi inverter list publish nahi karta, isliye 'ALMM listed inverter' scheme requirement nahi hai. Inverter ke apne model documents aur DISCOM ki technical conditions separately verify karein."
+  - q: "5 kW inverter mein single MPPT chalega ya dual MPPT lena chahiye?"
+    a: "Agar aapka array ek hi tilt aur azimuth par hai aur shading nahi hai, to single MPPT theek kaam karta hai. Do alag roof faces, do tilts, ya partial shading ho to dual MPPT better hota hai kyunki dono strings alag track hote hain. Dual MPPT paralleling ki flexibility bhi deta hai, jo high current G12 modules ke saath matter karta hai. Apne roof layout se decide karein, marketing se nahi."
+  - q: "5 kW system ka payback kitne saal mein hota hai?"
+    a: "Koi guaranteed payback number nahi hota. Payback aapke gross cost, approved assistance, actual yield, self-consumption share aur state ke export credit rate par depend karta hai. Same system do ghar mein alag payback de sakta hai kyunki tariff aur daytime usage alag hote hain. Apne numbers daalkar arithmetic khud chalaein aur degradation plus O and M ko include karein."
+  - q: "Kya CFA milne se GST kam ho jata hai?"
+    a: "Nahi. CGST Act ke Section 15(2)(e) ke mutabik government subsidies value of supply mein include nahi hoti. Iska matlab yeh hai ki assistance aapke invoice par GST amount ko reduce nahi karti. Aapka gross invoice apne applicable rates par hi banega, aur assistance uske baad separately process hoti hai."
+  - q: "5 kW quote mein sabse common hidden item kya hota hai?"
+    a: "Metering aur approval scope. Bidirectional meter, DISCOM charges, liaisoning aur portal documentation kai quotes mein 'customer scope' likha hota hai. Freight, crane ya civil work bhi alag nikalta hai. Quote par har inclusion aur exclusion likha hua maangein."
 featured: false
 ---
 
-5 kW तय कर लिया है और अब सिर्फ यह जानना है कि असली में कितना खर्च आएगा। सही जगह पर हैं। इस guide में सिर्फ 5 kW की बात है: inverter की price tier by tier, on-grid और hybrid का exact gap, battery जोड़ने पर कितना बढ़ेगा, panels और installation मिलाकर full system कितने का पड़ेगा, [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) से कितना वापस आएगा, EMI कैसी बनेगी और पैसा कितने साल में निकलेगा। एक बात पहले ही साफ कर दें क्योंकि यही सबसे महँगी गलतफहमी है: 5 kW लेने पर subsidy 5 गुना नहीं मिलती। Subsidy 3 kW पर रुक जाती है। पूरा हिसाब नीचे है। अगर आप अभी capacity decide कर रहे हैं और 1 kW से 10 kW तक की तुलना चाहिए, तो [सभी sizes का solar inverter price guide](/blog/solar-inverter-price-2026-hindi/) देख लें, यह post सिर्फ 5 kW के लिए है।
+5 kW rooftop ka pehla sawal hamesha price hota hai. Lekin "5 kW solar inverter price" ek single number nahi hai. Wahi phrase char alag cheezon ko describe karta hai: akela inverter unit, inverter plus monitoring accessories, hybrid package with battery, ya poora rooftop system. Isi wajah se do quotes ek hi model par bhi bahut alag dikh sakte hain.
+
+Is size par ek doosra point hai jo zyadatar pages chhod dete hain. PM Surya Ghar ki central financial assistance 3 kW par cap ho jati hai. Matlab 5 kW system ko 3 kW ke upar wali capacity par koi extra central assistance nahi milti. Top 2 kW ka pura cost aapke gross payable mein rehta hai. Yeh 5 kW decision ka sabse bada financial fact hai, aur is size par sabse kam bola jata hai.
+
+Yeh guide price ko us tarah todta hai jaise ek quote actually banta hai. Scope, phase, battery, component shares, specs aur warranty, har section mein woh cheez jo aap apne quote par verify kar sakte hain. Kahin bhi kisi Qbits model ka rupee rate nahi hai, kyunki Qbits apne dealer network ke through quote-based bechta hai. Aakhir mein ek worked payback example hai, poori assumptions ke saath, bina kisi guarantee ke.
 
 > **TL;DR**
-> - 5kW on-grid inverter ₹28,000 से ₹55,000, 5kW hybrid ₹48,000 से ₹85,000, brand tier के हिसाब से।
-> - Full 5 kW on-grid system installed: ₹2.20 lakh से ₹3.05 lakh। Hybrid with 5 kWh battery: ₹3.40 lakh से ₹4.70 lakh।
-> - [PM Surya Ghar](/glossary/pm-surya-ghar/) central subsidy 5 kW पर ₹78,000, यानी maximum, क्योंकि subsidy 3 kW पर cap है। 4th और 5th kW पर शून्य।
-> - 5 kW system रोज़ 18-22 units देता है, महीने का 550-650 units, एक 3BHK घर के लिए पर्याप्त।
-> - Solar inverter पर GST 12% है और subsidy के लिए ALMM listed equipment mandatory है।
-> - ₹2.5 lakh net cost पर 5-साल EMI लगभग ₹5,200 महीना, जो अक्सर bill saving से ही निकल जाती है।
+> - "5 kW inverter price" ke char alag scopes hote hain. Quote compare karne se pehle scope pin karein, warna comparison meaningless hai.
+> - PM Surya Ghar assistance 3 kW par cap hoti hai, usual ceiling ₹78,000. 5 kW ko extra central assistance nahi milti, according to MNRE residential CFA operational guidelines (2024).
+> - PIB (2024) ka published formula se derived benchmark ₹50,000 per kW hai pehle 2 kW par aur ₹45,000 per kW teesre kW par. Yeh poore system ka benchmark hai, inverter ka rate nahi.
+> - Single-phase ya three-phase ka faisla aapke DISCOM ki connection conditions aur sanctioned load se hota hai, inverter label se nahi.
+> - On-grid se hybrid ka price jump battery se aata hai, inverter se nahi.
+> - 20 A maximum DC input current aur 18 A class G12 modules ka combination string paralleling ko block kar deta hai. Yeh design constraint quote badal deta hai.
+> - MNRE ne March 2026 mein collateral-free loan repo rate plus 50 basis points par rakha, us date par 5.75 percent per annum.
 
-**Short version.** 2026 में 5kW solar inverter की price ₹28,000 से ₹55,000 है on-grid के लिए, और ₹48,000 से ₹85,000 hybrid के लिए। Panels, structure और installation मिलाकर पूरा 5 kW on-grid system ₹2.20 lakh से ₹3.05 lakh में लगता है। [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) की ₹78,000 subsidy घटाने के बाद net cost ₹1.42 lakh से ₹2.27 lakh आती है।
+**Short version.** 5 kW solar inverter ka koi fixed India price nahi hai, aur Qbits jaise brands dealer ke through quote-based bechte hain. Price scope, phase, on-grid ya hybrid type, MPPT count aur warranty terms se banta hai. 5 kW par sabse important commercial fact yeh hai ki PM Surya Ghar assistance 3 kW par cap hoti hai, isliye upar ki 2 kW capacity poori aapki lagat hai.
 
-ये सारी numbers ranges हैं, exact figure नहीं, और यह जानबूझकर है। जो vendor आपको ₹2,47,350 का सटीक number बिना roof देखे बता दे, उसकी quote में कुछ न कुछ बाद में जुड़ने वाला है।
+## 5 kW system ek Indian ghar mein kitna cover karta hai?
 
-## 5kW Solar Inverter Price: Tier by Tier
+Ek 5 kW rooftop system ka matlab 5 kW rated AC output aur usually thoda zyada DC module capacity hota hai. Practical terms mein yeh ek 3 BHK ghar ke daytime load ko comfortably chalata hai. Lekin sizing BHK count se nahi hoti.
 
-5 kW segment भारत में सबसे ज्यादा बिकने वाला residential size है, इसलिए यहाँ competition भी सबसे ज्यादा है और quality का फर्क भी सबसे बड़ा।
+Sizing ke liye teen inputs chahiye. Pichhle 12 mahine ke bills se annual kWh consumption, daytime usage ka share, aur available shadow-free roof area. Sanctioned load aur existing phase chauthi input hai, kyunki woh connection decide karta hai.
 
-| Tier | 5kW On-Grid | 5kW Hybrid | Warranty | ALMM |
-| --- | --- | --- | --- | --- |
-| Budget | ₹22,000–₹28,000 | ₹38,000–₹48,000 | 1–2 साल | अक्सर नहीं |
-| Mid-tier | ₹28,000–₹40,000 | ₹48,000–₹65,000 | 5 साल | कुछ models |
-| Premium | ₹38,000–₹55,000 | ₹65,000–₹85,000 | 10–12 साल | Phase III |
+Roof area ka ek quick reality check bhi hai. 5 kW DC ke liye modern high-efficiency modules par roughly 250 to 300 square feet shadow-free area chahiye hota hai, module efficiency par depend karke. Module efficiency yahan seedha matter karta hai. Adani ka 640 Wp G12R module 23.71 percent efficiency par rated hai jabki Waaree ka 700 Wp G12 module 22.53 percent par, isliye 640 Wp wala option roughly 5 percent kam roof leta hai per kWp.
 
-Budget tier में जो ₹6,000 बचते हैं, वो ज्यादातर तीन जगह से आते हैं: single MPPT, IP21 या IP34 enclosure, और narrow input voltage window। भारत के rooftops पर तीनों महँगे पड़ते हैं। Single MPPT का मतलब है कि अगर आपकी छत के दो हिस्से अलग direction में हैं, तो कमज़ोर string पूरे array को नीचे खींचती है। IP21 enclosure मानसून में covered space माँगता है। और narrow voltage range वाले inverter tier-2 और tier-3 cities की grid fluctuation में बार-बार trip करते हैं, जहाँ voltage 180V तक गिरता और 270V तक चढ़ता है।
+Agar aapki consumption kam hai to 5 kW over-sizing ho sakta hai. Us case mein [3 kW price guide](/blog/3kw-solar-inverter-price-hindi/) se same-scope quote compare karein. Sizing method ke liye [ghar ke liye inverter size ka Hindi guide](/blog/ghar-ke-liye-solar-inverter-size-hindi/) dekhein.
 
-Qbits QB 4.6/5/6KTLS (5 kW on-grid single-phase) और QBH 5KS48P (5 kW hybrid single-phase) premium tier में हैं। दोनों ALMM Phase III listed हैं, dual MPPT, IP66 enclosure, 150-270V input range और 12-साल full replacement warranty के साथ आते हैं। RMA SLA 72 घंटे का है। Specifications और current pricing के लिए [हमारी product range](/our-products/) देखें।
+## "5 kW inverter price" ke chaar alag matlab hote hain
 
-<div class="inline-cta">
-<h3>Apne Ghar Ke Liye 5 kW Ka Sahi Quote Chahiye?</h3>
-<p>Roof size, state aur monthly bill batayein, Qbits engineer aapko QB 5KTLS ya QBH 5KS ka itemised quote bhejega, subsidy aur EMI dono ka hisaab lagakar.</p>
-<a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">Koi obligation nahi, quote 24 ghante mein।</p>
-</div>
+Yeh section sabse zyada paisa bachata hai. Same phrase par milne wale char quotes structurally different hote hain, aur unko side by side rakhna galat conclusion deta hai. Pehle scope identify karein, phir number compare karein.
 
-## 5 kW Se Ghar Mein Kya-Kya Chalega
-
-Answer capsule: 5 kW system Indian irradiance पर रोज़ 18 से 22 units बनाता है, महीने का 550 से 650 units। यह एक typical 3BHK घर की पूरी खपत है, जिसमें 2-3 ACs का daily use भी शामिल है।
-
-रोज़ की generation आपकी location पर depend करती है। Rajasthan और Gujarat में 5 kW से 22 units तक मिल जाते हैं, जबकि Kerala या Assam में monsoon months में यह 14-16 units पर आ जाता है। Annual average यही 4 से 4.4 units प्रति kW प्रति दिन बैठता है।
-
-अब खपत की तरफ देखें। एक 1.5-ton 5-star AC 8 घंटे में लगभग 8 units खाता है। Fridge दिन का 1.5 units। Geyser 20 मिनट में 0.7 units। Washing machine, TV, lights, fans और पानी की motor मिलाकर 3-4 units। यानी गर्मियों में दो AC चलाने वाला घर रोज़ 20-24 units पर होता है। 5 kW उसी scenario के लिए बना है।
-
-अगर आपका बिल ₹4,000 से कम है, तो 5 kW ज्यादा है, 3 kW बेहतर fit है और subsidy भी पूरी मिल जाएगी। ₹6,000 से ₹9,000 वाले घरों के लिए 5 kW सही size है। ₹12,000 से ऊपर पर 8 kW या 10 kW देखें।
-
-एक practical बात जो अक्सर छूट जाती है: 5 kW panels के लिए छत पर लगभग 300 से 350 sq ft shadow-free जगह चाहिए। Water tank, staircase headroom और पड़ोस की building की छाया निकालकर measure करें। कई buyers 5 kW का order दे देते हैं और installer आकर बताता है कि सिर्फ 4 kW ही fit होगा।
-
-## On-Grid vs Hybrid at 5 kW: Asli Price Gap
-
-यह सबसे important comparison है क्योंकि 5 kW पर दोनों options genuinely viable हैं।
-
-| Component | 5 kW On-Grid | 5 kW Hybrid |
+| Quote ka scope | Kya included hota hai | Kya miss hota hai |
 | --- | --- | --- |
-| Inverter (mid-tier) | ₹32,000 | ₹52,000 |
-| Battery (5 kWh LFP) | शून्य | ₹75,000–₹1,20,000 |
-| Extra wiring, battery rack | शून्य | ₹8,000–₹15,000 |
-| **Extra cost** | **Base** | **₹1,03,000–₹1,55,000** |
+| Inverter only | Sirf inverter unit | Modules, structure, cabling, labour, metering |
+| Inverter plus accessories | Unit, Wi-Fi logger, connectors, basic protection | Modules, structure, installation, approvals |
+| Hybrid package | Inverter, battery bank, rack, BMS wiring, essential-load board | Modules, structure, metering, approvals |
+| Complete rooftop system | Modules, structure, inverter, cabling, protection, earthing, installation, testing | Metering aur DISCOM charges kabhi customer scope mein |
 
-सिर्फ inverter देखें तो gap ₹20,000 का लगता है, जो manageable है। लेकिन hybrid inverter बिना battery के on-grid जैसा ही behave करता है, यानी power cut में बंद। असली hybrid setup में battery अनिवार्य है, और वहीं पूरा ₹1 lakh से ऊपर का difference खड़ा हो जाता है।
+Quote par yeh fields likhi honi chahiye. Inke bina do quotes ka gap measure nahi ho sakta.
 
-तो hybrid कब लें? तीन situations में साफ हाँ है। पहला, अगर आपके इलाके में रोज़ 2 घंटे से ज्यादा cut लगता है। UP, Bihar, Jharkhand और कई tier-3 towns में यह normal है। दूसरा, अगर आपके पास inverter-battery का existing setup पहले से है जो हर 3-4 साल में बदलना पड़ता है, तो hybrid उस खर्च को replace कर देता है। तीसरा, अगर आपका DISCOM net metering में महीनों लगाता है, तो battery आपकी बनाई हुई बिजली बर्बाद होने से बचाती है।
-
-> **जो ज्यादातर buyers गलत समझते हैं।** Hybrid inverter अपने आप बिजली store नहीं करता। वो सिर्फ battery को manage करने की capability देता है। Battery अलग खरीदनी पड़ती है और वही असली खर्च है। "Hybrid लगवा लो, थोड़ा ही महँगा है" सुनकर order मत दे देना, पहले battery का quote माँगें।
-
-अगर decision अभी clear नहीं है, [hybrid inverter की पूरी range](/hybrid-inverter/) और [on-grid inverter options](/on-grid-inverter/) दोनों देख लें। Battery chemistry पर confusion हो तो [lithium vs lead-acid comparison](/blog/lithium-vs-lead-acid-solar-battery/) में lifetime cost का हिसाब है।
-
-## 5 kW Battery Cost: Agar Hybrid Le Rahe Hain
-
-| Battery | Usable Capacity | Price Range | Cycle Life |
-| --- | --- | --- | --- |
-| Lead-acid (4 x 150 Ah) | ~3.5 kWh | ₹48,000–₹70,000 | 500–800 |
-| Lithium LFP | 5 kWh | ₹75,000–₹1,20,000 | 3,000–6,000 |
-| Lithium LFP | 10 kWh | ₹1,40,000–₹2,00,000 | 3,000–6,000 |
-
-Lead-acid upfront सस्ती दिखती है, ₹25,000 तक का फर्क। लेकिन उसे 3 से 4 साल में बदलना पड़ता है। 12 साल में तीन बार replacement यानी ₹1.5 lakh से ऊपर, जबकि एक LFP battery उतने समय चल जाती है। साथ में lead-acid को ventilation चाहिए, monthly water topping चाहिए, और गर्मी में उसकी capacity तेज़ी से गिरती है।
-
-5 kW system के लिए practical battery size 5 kWh है। इससे रात के essential loads चल जाते हैं: lights, fans, fridge, TV, WiFi और एक AC कुछ घंटे। पूरे घर को रात भर AC सहित चलाना है तो 10 kWh चाहिए, और तब आप ₹4.5 lakh से ऊपर के system की बात कर रहे हैं।
-
-## Full 5 kW System Price: Complete Breakdown
-
-Inverter अकेले कुछ नहीं करता। पूरा हिसाब यह है।
-
-### 5 kW On-Grid System (2026)
-
-| Component | Cost Range |
+| Field | Required detail |
 | --- | --- |
-| Solar panels (5 kW, 9–11 panels) | ₹1,05,000–₹1,40,000 |
-| On-grid inverter (5 kW, ALMM) | ₹32,000–₹50,000 |
-| Mounting structure (GI, elevated) | ₹25,000–₹35,000 |
-| DC/AC cables, MC4, conduit | ₹14,000–₹20,000 |
-| MCB, RCCB, SPD, earthing kit | ₹8,000–₹15,000 |
-| Installation labour | ₹20,000–₹30,000 |
-| Net meter application aur DISCOM fee | ₹3,000–₹8,000 |
-| Liaisoning, documentation | ₹3,000–₹7,000 |
-| **Total (before subsidy)** | **₹2,20,000–₹3,05,000** |
-| PM Surya Ghar subsidy | ₹78,000 |
-| **Net cost** | **₹1,42,000–₹2,27,000** |
+| Model | Exact brand aur model code |
+| Output | Rated power, kW ya kVA, aur phase |
+| Solar input | MPPT count, MPPT voltage window, maximum DC voltage, maximum input current |
+| Type | On-grid ya hybrid, aur approved battery models |
+| Included items | Logger ya Wi-Fi, connectors, isolators, SPD |
+| Commercial scope | Tax, freight, installation, commissioning, metering |
+| Warranty | Coverage, exclusions, claim route, aur written term |
 
-### 5 kW Hybrid System (2026)
+Har vendor se same bill of quantities par gross total maangein. Tabhi rupee gap ka matlab nikalta hai.
 
-| Component | Cost Range |
-| --- | --- |
-| Solar panels (5 kW) | ₹1,05,000–₹1,40,000 |
-| Hybrid inverter (5 kW, ALMM) | ₹52,000–₹80,000 |
-| LFP battery (5 kWh) | ₹75,000–₹1,20,000 |
-| Mounting, cables, protection | ₹47,000–₹70,000 |
-| Battery rack, extra wiring | ₹8,000–₹15,000 |
-| Installation aur documentation | ₹26,000–₹45,000 |
-| **Total (before subsidy)** | **₹3,40,000–₹4,70,000** |
-| PM Surya Ghar subsidy | ₹78,000 |
-| **Net cost** | **₹2,62,000–₹3,92,000** |
+## Single-phase ya three-phase 5 kW? Faisla aapka DISCOM karta hai
 
-Battery पर central subsidy नहीं मिलती। Subsidy solar capacity पर calculate होती है, storage पर नहीं। MNRE ने 2025 में battery storage के लिए alag support mechanism पर काम शुरू किया था, लेकिन 5 kW residential में अभी वो central subsidy का हिस्सा नहीं है।
+5 kW us boundary par baithta hai jahan phase choice genuinely open hoti hai. Deciding factor aapka existing service connection aur DISCOM ki connection conditions hain, inverter ka datasheet nahi. Kuch DISCOM 5 kW single-phase service par net metering allow karte hain. Kuch us capacity par three-phase demand karte hain. Ise application se pehle likhit mein confirm karein.
 
-Installed cost state के हिसाब से हिलती है। Gujarat और Rajasthan में installer density ज्यादा है इसलिए labour सस्ता है। Northeast और hill states में transport और structure cost 15-20% ऊपर जाता है। Coastal areas में corrosion-resistant structure चाहिए, वो अलग से ₹8,000-12,000 जोड़ता है। किसी भी national average को अपने शहर का final number मत मानिए।
+Mechanism samajhna zaroori hai. Net metering approval aapke sanctioned load aur connection type se linked hota hai, aur governing documents CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, IS 17387 aur aapke DISCOM ki apni connection conditions hain. Voltage aur frequency trip windows in documents aur model manual se lein, kisi blog se nahi.
 
-<div class="inline-cta">
-<h3>On-Grid Ya Hybrid, Confusion Hai?</h3>
-<p>Aapke area ke power cut pattern aur bill ke hisaab se hum bata dete hain ki battery ka kharcha aapke case mein wajib hai ya nahi. Seedha jawab, sales pitch nahi.</p>
-<a href="/hybrid-inverter/" class="cta-btn">Hybrid Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">Qbits QBH 5KS hybrid, 12-saal warranty ke saath।</p>
-</div>
+MNRE ne March 2026 mein is process ka friction kam kiya. Technical feasibility requirement waive hui, 10 kW tak auto load enhancement introduce hua, aur net metering agreement National Portal application mein fold ho gaya, according to MNRE and PIB material (March 2026). Yeh load enhancement easier banata hai, lekin phase requirement DISCOM ke paas hi rehti hai.
 
-## PM Surya Ghar Subsidy at 5 kW: Poora Ganit
-
-यह इस पूरी guide का सबसे कीमती हिस्सा है, इसलिए ध्यान से पढ़ें।
-
-PM Surya Ghar Muft Bijli Yojana में central subsidy slab-wise है, न कि per-kW flat:
-
-| Capacity slab | Subsidy on that slab | Cumulative |
+| Factor | Single-phase 5 kW | Three-phase 5 kW |
 | --- | --- | --- |
-| पहला 1 kW | ₹30,000 | ₹30,000 |
-| दूसरा 1 kW | ₹30,000 | ₹60,000 |
-| तीसरा 1 kW | ₹18,000 | ₹78,000 |
-| चौथा kW | ₹0 | ₹78,000 |
-| पाँचवाँ kW | ₹0 | ₹78,000 |
+| Existing connection | Single-phase service par hi possible | Three-phase service chahiye |
+| DISCOM approval | Sanctioned load aur local conditions par depend | Usually higher-capacity connections par standard |
+| Backup design | Whole-house ya essential-load board, single line | Phase-wise balancing plan chahiye |
+| Future expansion | 5 kW se aage limit aa sakti hai | Headroom zyada |
+| Quote impact | Connection upgrade cost nahi | Connection conversion cost add ho sakta hai |
 
-यानी 3 kW पर आपको ₹78,000 मिलते हैं और 5 kW पर भी ₹78,000 ही मिलते हैं। Scheme का ceiling ₹78,000 है, चाहे आप 3 kW लगवाएँ या 10 kW।
+Agar aapke ghar mein already three-phase hai to three-phase inverter usually sensible hai. Agar single-phase hai to conversion cost quote mein alag line par maangein. [Net metering](/glossary/net-metering/) ka mechanism pehle samajh lein.
 
-इसका मतलब practically क्या है? 3 kW system का average cost ₹1.50 lakh है, subsidy के बाद net ₹72,000। 5 kW का average ₹2.60 lakh है, subsidy के बाद net ₹1.82 lakh। यानी extra 2 kW के लिए आप पूरे ₹1.10 lakh दे रहे हैं, बिना किसी extra government support के। Per-kW effective cost 3 kW पर ₹24,000 है और 5 kW पर ₹36,400।
+## On-grid ya hybrid: price ka asli driver battery hai
 
-अब यह बुरी खबर नहीं है, बस honest math है। अगर आपकी खपत सच में 550+ units महीने की है, तो 5 kW लगाना सही है क्योंकि 3 kW लगाकर आप बाकी बिजली grid से ₹8/unit पर खरीदते रहेंगे। लेकिन अगर कोई vendor कह रहा है "5 kW लो, subsidy ज्यादा मिलेगी", तो वो गलत बोल रहा है या उसे scheme की जानकारी नहीं है।
+Log sochte hain hybrid inverter mehanga hota hai. Actually 5 kW par price jump ka bada hissa battery se aata hai, inverter se nahi. Hybrid inverter ki unit cost on-grid se upar hoti hai, lekin battery bank uske saamne bada item hai.
 
-कुछ states central subsidy के ऊपर अपनी अलग subsidy देते हैं। Gujarat, Uttar Pradesh और Haryana में state-level top-up schemes रही हैं, जिनकी terms हर financial year बदलती हैं। अपने DISCOM की current notification खुद check करें, vendor की बात पर नहीं। Slab-wise detail के लिए [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) देखें।
+On-grid system grid ke saath synchronise karta hai aur grid outage mein output band kar deta hai. Yeh anti-islanding requirement hai, defect nahi. Hybrid system compatible battery aur defined backup output handle kar sakta hai. Lekin "hybrid" label yeh prove nahi karta ki har load backup par chalega.
 
-तीन शर्तें जो subsidy के लिए non-negotiable हैं। एक, inverter और panels दोनों ALMM listed होने चाहिए। दो, installation PM Surya Ghar portal पर registered empanelled vendor से होनी चाहिए। तीन, net meter लगने और DISCOM inspection के बाद ही subsidy release होती है, इसलिए payment schedule उसी हिसाब से plan करें।
+Hybrid quote ke saath yeh points likhwaein.
 
-## EMI: 5 kW Ko Afford Kaise Karein
+1. Supported battery voltage aur approved battery model list.
+2. Backup output ki continuous aur surge rating, kW mein.
+3. Single-phase ya three-phase backup arrangement.
+4. Maximum battery charge and discharge current.
+5. Essential-load board ka scope aur uska wiring kaam.
+6. Changeover behaviour aur black-start support, agar applicable ho.
 
-Answer capsule: PM Surya Ghar के तहत 5 kW तक के residential rooftop पर banks collateral-free loan देते हैं, 7% से 10.5% के बीच। ₹2.5 lakh पर 5-साल की EMI लगभग ₹5,200 महीना बनती है।
+Qbits ki hybrid range mein single-phase QBH 3KS to 6KS48P family 97.6 percent maximum efficiency aur 75 to 120 A battery current by model list karti hai, aur three-phase QBH 5 to 12KS48P3 family 98 percent efficiency aur 120 to 250 A battery current by model, according to the specifications in the site product data. Battery current spec seedha decide karta hai ki backup kitni tez charge hoga.
 
-| Loan amount | Tenure | Interest | Approx EMI |
-| --- | --- | --- | --- |
-| ₹1,50,000 | 5 साल | 8.5% | ₹3,080 |
-| ₹2,00,000 | 5 साल | 8.5% | ₹4,105 |
-| ₹2,50,000 | 5 साल | 8.5% | ₹5,130 |
-| ₹2,50,000 | 7 साल | 9.5% | ₹4,090 |
-| ₹3,50,000 | 7 साल | 9.5% | ₹5,725 |
+Operating difference ke liye [hybrid solar inverter ka Hindi guide](/blog/hybrid-solar-inverter-hindi/) padhein. Product-level comparison [hybrid inverter page](/hybrid-inverter/) par hai, aur grid-tied options [on-grid inverter page](/on-grid-inverter/) par.
 
-यह illustrative है, actual rate आपके credit profile और bank पर depend करेगा।
+## Itemised quote mein har hisse ka share kitna hota hai
 
-महत्वपूर्ण point: subsidy amount पर loan मत लीजिए अगर बच सकते हैं। कई buyers पूरे ₹2.6 lakh का loan ले लेते हैं और subsidy आने पर उसे prepay नहीं करते। बेहतर तरीका यह है कि subsidy आते ही उसका part-prepayment कर दें, इससे tenure 12-18 महीने कम हो जाता है।
+Fixed rupee lines ki jagah shares dekhna better hai. Rupee rates market ke saath badalte hain, lekin structure roughly stable rehta hai. Neeche wala frame industry-observed planning frame hai, published dataset nahi. Ise apne actual quotes par verify karein.
 
-Financing options की पूरी list, bank-wise terms सहित, [solar EMI और loan guide](/blog/solar-on-emi/) में है।
+| Component group | On-grid 5 kW mein share | Hybrid 5 kW mein share |
+| --- | ---: | ---: |
+| Solar modules | 40 to 50 percent | 25 to 32 percent |
+| Inverter aur monitoring | 12 to 18 percent | 10 to 15 percent |
+| Battery bank, rack, BMS wiring | Not applicable | 25 to 40 percent |
+| Mounting structure | 10 to 15 percent | 7 to 10 percent |
+| Cabling, isolators, SPD, MCB, RCCB, earthing | 8 to 12 percent | 6 to 10 percent |
+| Installation, testing, commissioning | 8 to 12 percent | 6 to 10 percent |
+| Metering, approvals, documentation, freight | 3 to 6 percent | 2 to 5 percent |
 
-## Payback: Ek Illustrative Example
+Do cheezein is table se clear hoti hain. Pehli, inverter poore system ka minority share hai, isliye sirf inverter par bargain karne se total pe chhota asar padta hai. Doosri, hybrid mein battery ka entry baaki sab ke shares ko compress kar deta hai, isliye percentages ko absolute rupees se confuse na karein.
 
-नीचे का example एक real customer नहीं है, यह एक typical scenario की transparent calculation है ताकि आप अपने numbers डाल सकें।
+Agar koi quote in groups ko ek single "supply and installation" line mein merge karta hai to breakup maangein. Merged line comparison ko rok deta hai.
 
-**Inputs:** Jaipur, 5 kW on-grid, ALMM equipment, ₹2.60 lakh installed cost, ₹78,000 subsidy, net ₹1.82 lakh। Tariff ₹8/unit। Generation 4.3 units per kW per day।
+## PM Surya Ghar: derived per-kW benchmark aur 3 kW cap ka 5 kW par asar
+
+Yeh 5 kW ka sabse important honest point hai. Central assistance 3 kW par cap hoti hai, isliye 5 kW system ko upar ki capacity par extra central assistance nahi milti. Isko proportional na samjhein. 5 kW par assistance ko 5 guna karna galat hai.
+
+MNRE residential CFA guidelines (2024) ka published structure yeh hai.
+
+| Installed solar module capacity | Standard central assistance |
+| --- | ---: |
+| 1 kW | ₹30,000 |
+| 2 kW | ₹60,000 |
+| 3 kW ya usse zyada | Up to ₹78,000 |
+
+Formula PIB (2024) mein publish hua hai: pehle 2 kW par benchmark cost ka 60 percent, aur 2 se 3 kW slice par additional cost ka 40 percent, 3 kW par capped. In dono ko milakar benchmark derive kiya ja sakta hai.
+
+**Worked derivation, labelled as arithmetic from the published formula and not a quoted MNRE figure:**
+
+- ₹30,000 divided by 0.60 = ₹50,000 per kW, pehle 2 kW ke liye.
+- Cross-check: ₹60,000 divided by 0.60 divided by 2 = ₹50,000 per kW. Same answer.
+- Teesre kW ka increment ₹18,000 hai, aur ₹18,000 divided by 0.40 = ₹45,000 per kW.
+
+Do baatein yahan zaroori hain. Pehli, yeh benchmark poore rooftop system ka hai, modules, structure, cabling aur labour sab include. Yeh inverter ka rate nahi hai. Doosri, CFA rated DC module capacity par compute hoti hai aur inverter size se independent hai, according to the MNRE operational guidelines.
+
+Kuch aur verified points jo 5 kW planning badalte hain:
+
+- Special category rates ₹33,000 aur ₹19,800 hain.
+- DISCOM approval ke baad 15 din ka clock chalta hai, aur grievances par 30 din ka.
+- Registered vendor ko commissioning se 5 saal ka Comprehensive Maintenance Contract dena hota hai.
+- CGST Act ke Section 15(2)(e) ke tahat government subsidies value of supply mein nahi aati, isliye CFA aapke invoice ka GST kam nahi karti.
+- 20 March 2026 tak 26.21 lakh rooftop systems aur 9.56 GW install ho chuke the, 32.4 lakh households ko benefit karte hue, according to MNRE and PIB material (March 2026).
+- Collateral-free loans repo rate plus 50 basis points par available hain, us date par 5.75 percent per annum, tenure 10 saal tak. Yeh rate repo ke saath float karta hai.
+- Grievance call centre 15555 hai, 12 bhashaon mein.
+
+Ek widely repeated galat baat bhi correct kar dein. ALMM mein List-I modules ke liye hai aur List-II cells ke liye, jo 1 June 2026 se in force hai. MNRE inverter ki koi list publish nahi karta, isliye "ALMM listed inverter" PM Surya Ghar requirement nahi hai. Apna approved amount [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) par verify karein, aur slab detail [PM Surya Ghar assistance breakdown](/blog/pm-surya-ghar-subsidy-amount/) mein.
+
+Rules state aur DISCOM ke hisaab se badalte hain, aur koi slab kisi reader ke liye guaranteed nahi hai.
+
+## Do dealers ke quote mein rupee gap kahan se aata hai
+
+Same capacity par do quotes ka gap random nahi hota. Usually char ya paanch identifiable drivers hote hain. Gap ko in drivers par map karein, phir negotiate karein.
+
+| Gap ka source | Kaise pehchanein |
+| --- | --- |
+| Different scope | Ek quote mein metering ya approvals customer scope mein hai |
+| Different module class | Wattage same, lekin cell technology aur efficiency alag |
+| MPPT design | Single MPPT versus dual MPPT, jo layout flexibility badalta hai |
+| Structure specification | Galvanisation grade aur wind-load design alag |
+| Protection scope | SPD, isolators aur earthing ka level alag |
+| Service commitment | Local service partner ka presence aur response scope |
+| Tax treatment | Line-wise GST rates aur HSN classification alag |
+
+Tax point par thodi clarity useful hai. Notification 9/2025-Integrated Tax (Rate), dated 17 September 2025 and effective 22 September 2025, Schedule I entry 437 mein renewable energy devices 5 percent par rakhta hai, aur Schedule II entry 477 mein heading 8504 static converters 18 percent par. Isliye ek quote ka tax total doosre se legitimately alag ho sakta hai, classification par depend karke. Notification 78/2020-Central Tax, dated 15 October 2020, invoices par HSN digits require karta hai, to HSN codes maangein.
+
+## 5 kW inverter ke woh specs jo price justify karte hain
+
+Yahan se decision technical ho jata hai. Ek mehanga inverter tab justified hai jab uske specs aapke roof ke liye actually relevant hon. Neeche 5 kW class ke Qbits options ke published specs hain, taaki aap dekh sakein ki kaun sa spec kis design ko possible banata hai.
+
+| Series | Phase | MPPT | MPPT voltage window | Maximum DC | Efficiency | Enclosure |
+| --- | --- | --- | --- | --- | --- | --- |
+| QB 4.2/4.6/5/5.4/6KTLS | Single | 1 | 40 to 600 V | 600 V | 98.0 to 98.1 percent by model | IP66 |
+| QB 4/5/6 KTLD | Single | 2 | 80 to 550 V | 550 V | 98.1 percent | IP66 |
+| QB 5/6/8/10/12/15/17KTLC | Three | 2 | 180 to 1000 V | 1100 V | 98.5 to 98.7 percent by model | IP66 |
+| QBH 3KS to 6KS48P | Single, hybrid | 1 or 2 by model | 150 to 450 V | 500 V | 97.6 percent maximum | IP66 |
+| QBH 5 to 12KS48P3 | Three, hybrid | 1 or 2 by model | 200 to 800 V | 1000 V | 98 percent | IP66 |
+
+Char specs par focus karein. **MPPT count** decide karta hai ki do alag roof faces independently track ho sakte hain ya nahi. **MPPT voltage window** decide karta hai ki aapka string cold morning aur hot afternoon dono mein window ke andar rahega ya nahi. **Maximum DC voltage** cold-temperature Voc rise ke saath string length cap karta hai. **Maximum DC input current** decide karta hai ki aap ek input par kitni strings parallel kar sakte hain.
+
+Aakhri spec 2026 mein sabse zyada matter karta hai. Single-MPPT KTLS family 20 A maximum DC input current list karti hai, aur dual-MPPT KTLD family 20 A per MPPT. Modern G12 modules ka Isc isi 18 A band mein aa gaya hai. Adani ASB-M12-132-650 ka Isc 18.85 A hai, Waaree BiN-03-700 ka 18.31 A, aur Vikram VSMDH.66.680.05 ka 18.23 A, un manufacturers ke published datasheets ke mutabik.
+
+Iska practical matlab yeh hai. Ek single string of 18 A class modules 20 A input par fit ho jati hai, margin kam hone ke baad bhi. Do such strings parallel karna 20 A input par possible nahi hai, kyunki combined Isc limit se kaafi upar chala jata hai. Isliye high-current G12 modules ke saath aapko separate MPPT inputs chahiye, sirf ek bada input nahi.
+
+Wahi baat lower-Isc modules par ulti hai. Adani ASB-M10-144-580 ka Isc 13.95 A hai aur AB-G12R-132-640 ka 16.09 A, to yeh modules input current budget par aasan hain. Yeh single MPPT design ko viable rakhta hai.
+
+Ek chhota worked spec example. Maan lein 8 modules of 650 Wp ek string mein, yaani 5.2 kWp DC on a 5 kW AC unit, DC to AC ratio 1.04. String Voc at STC 8 times 43.66 V = 349 V, aur Vmp 8 times 37.32 V = 299 V. Yeh 40 to 600 V MPPT window aur 600 V maximum DC ke andar aata hai, lekin cold-temperature Voc rise ko temperature coefficient se check karna zaroori hai. Us module ka Voc temperature coefficient minus 0.25 percent per degree C hai.
+
+Yeh check khud chalane ke liye [string sizing calculator](/string-sizing-calculator/) use karein, jismein Adani, Waaree aur Vikram families already loaded hain. MPPT design choice par [dual MPPT versus single MPPT comparison](/blog/dual-mppt-vs-single-mppt/) padhein.
+
+## Warranty ko kaise compare karein
+
+Warranty price ka hissa hai, isliye usko spec ki tarah compare karein. Number se nahi, terms se. Do quotes ka "12 saal" alag alag cheez ho sakti hai.
+
+Qbits ki public datasheets expandable warranty describe karti hain, lekin base term, remedy, registration deadline aur exclusions define nahi karti. Published material mein yeh bhi note hai ki public datasheets base warranty term define nahi karte, isliye current written terms dealer se lena zaroori hai. Hybrid units par published phrase UPS switching within 10 seconds hai.
+
+Warranty compare karte waqt yeh sawal chalaein.
+
+| Point | Kya likhit maangein |
+| --- | --- |
+| Term | Base years, aur kis capacity par kam hote hain |
+| Type | Full unit replacement ya repair-only |
+| Exclusions | Surge, water ingress, rodent damage, unauthorised work |
+| Claim route | Dealer, brand portal, ya service partner |
+| Turnaround | Approval ke baad dispatch ka written commitment |
+| Extension | Extended term available hai ya nahi, aur uski cost line |
+| Installation cover | Product warranty se alag installation workmanship cover |
+
+Product warranty aur installation warranty do alag cheezein hain. Inverter ka brand warranty aapke cabling ya structure workmanship cover nahi karta. Detail ke liye [solar inverter warranty guide](/blog/solar-inverter-warranty/) dekhein.
+
+## Worked example: 5 kW payback ka arithmetic
+
+Yeh ek illustrative calculation hai, prediction nahi. Har input assumption hai, aur aapko apne numbers daalne hain. Koi payback guarantee nahi hai aur actual result site, tariff aur usage se badalta hai.
+
+**Stated assumptions:**
+
+- System size 5 kW, aur specific yield 4.0 kWh per kWp per day. Yeh assumption hai, apna site figure use karein.
+- Gross cost: pehle 3 kW ke liye derived benchmark, yaani 2 times ₹50,000 plus 1 times ₹45,000 = ₹1,45,000.
+- Upar ki 2 kW ke liye MNRE koi benchmark publish nahi karti, isliye is example mein ₹45,000 per kW assume kiya gaya hai. Yeh assumption hai, published figure nahi. 2 times ₹45,000 = ₹90,000.
+- Total gross assumed cost ₹2,35,000.
+- Central assistance ₹78,000, jo 3 kW cap par based hai.
+- Self-consumption 70 percent, retail tariff ₹7.00 per kWh. Export 30 percent, export credit ₹3.00 per kWh. Dono assumptions hain, actual rates state tariff order se aate hain.
 
 **Calculation:**
-- Daily generation: 5 x 4.3 = 21.5 units
-- Monthly: 21.5 x 30 = 645 units
-- Monthly value at ₹8/unit: ₹5,160
-- Annual saving: ₹61,920
-- Payback: ₹1,82,000 / ₹61,920 = **2.94 साल**
 
-अब यही example एक कम tariff वाले state में। ₹5.50/unit पर annual saving ₹42,570 बनती है, payback 4.28 साल। और अगर same घर hybrid जाए, net cost ₹3.10 lakh, तो ₹8 tariff पर payback 5 साल और ₹5.50 tariff पर 7.3 साल।
+1. Annual generation = 5 kW times 4.0 kWh per kWp per day times 365 = 7,300 kWh.
+2. Self-consumed units = 7,300 times 0.70 = 5,110 kWh. Value = 5,110 times ₹7.00 = ₹35,770.
+3. Exported units = 7,300 times 0.30 = 2,190 kWh. Value = 2,190 times ₹3.00 = ₹6,570.
+4. Total annual value = ₹35,770 plus ₹6,570 = ₹42,340.
+5. Net cost after assistance = ₹2,35,000 minus ₹78,000 = ₹1,57,000.
+6. Simple payback = ₹1,57,000 divided by ₹42,340 = about 3.7 years.
 
-तीन assumptions जो इस math को हिला सकती हैं। पहली, generation figure सिर्फ shadow-free छत पर valid है। 15% shading हो तो payback 6-8 महीने आगे खिसक जाता है। दूसरी, net metering का structure। जिन states में gross metering या net billing है, वहाँ export की value ₹8 नहीं बल्कि ₹2-3 प्रति unit होती है, और तब payback 6 साल तक जा सकता है। तीसरी, tariff escalation। Electricity tariff भारत में 3-5% सालाना बढ़ता है, जिससे actual payback calculated से थोड़ा जल्दी आता है।
+Is example se do sensitivities dikhti hain. Pehli, self-consumption share seedha payback drive karta hai, kyunki export credit retail tariff se kam hota hai. Doosri, assistance cap par hai, isliye system 5 kW se bada karne par per-kW payback bigadta hai, better nahi hota.
 
-Detailed payback methodology, degradation और O&M cost सहित, [solar inverter payback period guide](/blog/solar-inverter-payback-period-in-india/) में है।
+Yeh arithmetic annual degradation, O and M cost, insurance aur inflation ko ignore karta hai. Un sabko include karne par payback lamba hota hai. Full-system cost view ke liye [5 kW solar system price breakdown](/blog/5kw-solar-system-price-india/) dekhein.
 
-## 5 kW Kharidne Se Pehle: Checklist
+## Dealer se yeh sawal poochein
 
-1. **छत नापें।** 300-350 sq ft shadow-free चाहिए। दोपहर 10 बजे और 3 बजे, दोनों समय छाया देखें।
-2. **12 महीने के bills निकालें।** Peak month की units देखें, average की नहीं। System peak के हिसाब से size होता है।
-3. **तीन quotes लें, same spec पर।** Panel wattage, inverter model number, structure GI thickness और warranty terms तीनों में match करवाएँ।
-4. **ALMM certificate की copy माँगें।** Model number सहित, generic company letter नहीं।
-5. **"All-inclusive" लिखवाएँ।** Earthing, SPD, conduit, net meter fee और liaisoning quote में हों। यही ₹15,000-25,000 बाद में जुड़ते हैं।
-6. **Warranty तीन हिस्सों में समझें।** Panel performance warranty, inverter warranty और workmanship warranty अलग-अलग होती हैं।
-7. **Payment 50-40-10 रखें।** Advance, delivery पर, और commissioning plus net meter के बाद final।
+Quote sign karne se pehle yeh list chalaein. Sab jawab likhit mein maangein, WhatsApp message par nahi.
 
-<div class="inline-cta">
-<h3>5 kW Ka Poora Itemised Quote, Ek Din Mein</h3>
-<p>Panels se lekar net meter fee tak, sab kuch likha hua. Subsidy aur EMI ka breakup bhi saath mein, taaki compare karna asaan ho.</p>
-<a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">ALMM Phase III equipment, 12-saal warranty।</p>
-</div>
+1. Exact inverter model code aur module model code kya hai?
+2. Is model ka MPPT count, MPPT voltage window, maximum DC voltage aur maximum DC input current kya hai?
+3. Mere roof layout par kitni strings hain, aur har string mein kitne modules?
+4. Cold-temperature Voc check kiya gaya hai? Uska calculation dikhaein.
+5. Quote single-phase hai ya three-phase, aur mere DISCOM ne kya confirm kiya hai?
+6. Metering, DISCOM charges, liaisoning aur documentation kiske scope mein hain?
+7. Line-wise GST rate aur HSN code kya hai?
+8. Warranty ka written term, exclusions aur claim route kya hai?
+9. Hybrid hai to approved battery models aur backup output rating kya hai?
+10. Local authorised service partner kaun hai aur uska response scope kya hai?
+11. Commissioning ke baad 5 saal ka maintenance contract kaun de raha hai?
+12. Subsidy estimate ko approved payment ke roop mein nahi likha gaya hai, yeh confirm karein.
 
 ## The Bottom Line
 
-- 5 kW inverter पर realistic budget: on-grid के लिए ₹38,000-55,000 premium tier में, hybrid के लिए ₹65,000-85,000। इससे नीचे जाने पर warranty और ALMM दोनों समझौते में आते हैं।
-- Subsidy ₹78,000 पर fixed है, 5 kW लेने का फैसला अपनी खपत के आधार पर करें, subsidy के लालच में नहीं। 550 units महीने से कम खपत है तो 3 kW बेहतर सौदा है।
-- अपनी छत, अपने state और अपने bill के हिसाब से exact number चाहिए तो [Qbits engineer से बात करें](/contact-us/), free consultation, कोई obligation नहीं।
+5 kW par price ka sabse bada lever scope clarity hai, brand nahi. Do quotes same bill of quantities par aaye to gap explainable ho jata hai, aur negotiation technical ban jati hai.
+
+Aur 5 kW ka honest financial fact yeh hai ki central assistance 3 kW par ruk jati hai. Upar ki 2 kW ka pura cost aapka hai, isliye us capacity ko consumption aur roof se justify karein, subsidy se nahi.
+
+- Apne last 12 months ke bills se annual kWh nikalein, phir daytime share estimate karein. Yeh do numbers size decide karte hain.
+- Apne DISCOM se phase aur net metering condition likhit mein confirm karein, quote finalise karne se pehle.
+- Apna module aur string plan [string sizing calculator](/string-sizing-calculator/) par check karein, aur model-specific written quote ke liye [Qbits team se baat karein](/contact-us/).
+
+**Sources checked 24 September 2026:** [MNRE residential CFA operational guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/), [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/), [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), PIB releases (2024 and March 2026), and manufacturer module datasheets. Product, tax, finance aur DISCOM terms current model-specific confirmation maangte hain.

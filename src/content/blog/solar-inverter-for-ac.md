@@ -1,269 +1,214 @@
 ---
-title: "Solar Inverter for AC Load, Sizing and SKU Picks"
-excerpt: "A solar inverter for AC load must handle inrush current, not just running watts. Learn the tonnage-to-kW formula, hybrid vs on-grid choice, and right-sized Qbits SKUs."
-description: "Size a solar inverter for AC loads in India: tonnage to kW conversion, starting current, hybrid vs on-grid backup, and recommended Qbits SKUs."
+title: 'Best Solar Inverter for AC and Heavy-Load Homes'
+seoTitle: 'Best Solar Inverter for AC and Heavy Loads'
+excerpt: 'Choose an AC-ready solar inverter by separating daytime bill offset from outage backup, then checking exact continuous, surge, and battery limits.'
+description: 'Compare exact 5 kW hybrid inverter evidence for AC and heavy-load homes, with transparent load, starting-surge, battery, and backup checks.'
 category: Buying Guide
 date: 2026-06-05
-updatedDate: 2026-07-08
-readTime: "17 min"
-image: "/blog-images/solar-inverter-sizing.svg"
-author: "Keyur Rakholiya"
+updatedDate: 2026-09-26
+readTime: 12 min
+image: /og/blog-solar-inverter-for-ac.webp
+author: Keyur Rakholiya
 keywords:
-  - solar inverter for ac
-  - solar inverter for air conditioner
-  - inverter ac load sizing
-  - hybrid inverter for ac backup
-  - 1.5 ton ac solar inverter size
+- best solar inverter for ac
+- solar inverter for heavy load home
+- solar inverter for air conditioner
+- 1.5 ton ac solar inverter size
+- hybrid inverter for ac backup
+relatedSlugs:
+- best-hybrid-solar-inverter-india-2026
+- battery-sizing-hybrid-solar
+- solar-inverter-sizing
 faqs:
-  - q: "What size solar inverter do I need to run a 1.5-ton AC?"
-    a: "A 1.5-ton inverter AC draws roughly 1.2–1.5 kW at steady state but surges to 3–4 kW for 2–3 seconds on start-up. A 3 kW solar inverter with adequate surge capacity can run a single 1.5-ton AC, but a 5 kW unit is the safer choice if you also want ceiling fans, lights, and a refrigerator on the same circuit. Always verify the inverter's peak surge rating, not just its rated output."
-  - q: "Can an on-grid solar inverter run an air conditioner during a power cut?"
-    a: "No. An on-grid inverter is wired to shut down automatically when the grid fails - this is the anti-islanding protection required by Indian regulations under CEA guidelines. To run an AC during a power cut, you need a hybrid inverter with a battery bank or an off-grid system. Hybrid inverters like the Qbits HS series maintain a separate backup bus that keeps selected loads live even when the DISCOM grid is down."
-  - q: "How many solar panels does it take to run a 1.5-ton AC for 8 hours a day?"
-    a: "A 1.5-ton inverter AC consumes roughly 9–12 kWh per day at typical Indian summer load. With 5 peak sun hours and 80% system efficiency, you need approximately 2.5–3 kW of solar panels - that is 6 to 8 panels of 400 Wp each. The panels cover daytime consumption; if you want night-time operation, add a battery bank sized to 10–15 kWh usable capacity."
-  - q: "What is the difference between inverter AC and non-inverter AC for solar sizing?"
-    a: "An inverter AC uses a variable-speed compressor that ramps up and down with demand, drawing 30–50% less power at part load. A non-inverter AC switches its compressor on and off at full power, creating repeated large inrush surges every 10–15 minutes. For solar systems, inverter-technology ACs are strongly preferred because they lower average consumption, reduce battery cycling, and do not stress the inverter with repeated high-current starts."
-  - q: "Does a 2-ton AC need a 5 kW or 10 kW solar inverter?"
-    a: "A single 2-ton inverter AC needs about 2–2.5 kW running, with a startup surge reaching 5–6 kW. A 5 kW inverter can handle one 2-ton AC plus modest household loads. If you plan to run two 2-ton ACs simultaneously along with other loads totalling 6–8 kW, a 10 kW inverter is the right choice. Size for the aggregate peak load, not just the AC nameplate rating."
-  - q: "Can a hybrid solar inverter run AC on battery power at night?"
-    a: "Yes, a hybrid inverter can discharge the battery bank to run an AC at night, but the battery size is critical. A 1.5-ton AC running for 8 hours at night needs approximately 10–12 kWh of usable battery capacity - roughly 15 kWh of rated LFP capacity at 80% depth of discharge. Without an adequately sized battery, the inverter will either shut down or switch back to grid power to protect the battery from over-discharge."
-  - q: "What is the inrush current of an air conditioner and why does it matter for solar inverters?"
-    a: "Inrush current, also called starting current or locked-rotor current, is the surge drawn by an AC compressor motor in the first 2–3 seconds of starting. For a 1.5-ton AC, this surge can reach 20–25 amperes at 230 V, compared to a running current of 6–7 amperes. The solar inverter must supply this peak without tripping. Check the inverter datasheet for its peak surge capacity - expressed as a multiple of rated output - and ensure it exceeds your AC's starting current specification."
-  - q: "Is a 3 kW on-grid system enough to offset AC electricity bills without battery backup?"
-    a: "A well-oriented 3 kW rooftop system generates 12–15 kWh on a clear summer day in most Indian cities - enough to cover a 1.5-ton AC running 8 hours plus general household load. Under net metering, surplus daytime generation is exported and credited against night-time consumption. This approach cuts 70–90% of AC-driven electricity bills without any battery, with a payback period of 4–6 years at ₹7–8 per unit tariffs."
-  - q: "How do I account for power factor when sizing a solar inverter for AC load?"
-    a: "Air conditioners are inductive loads with a power factor of 0.8–0.9. An inverter rated in kW delivers real power; when the AC presents a lower power factor, the apparent power demand (in kVA) is higher. For a 1.5 kW running AC with 0.85 power factor, the inverter must supply 1.76 kVA of apparent power. Most modern solar inverters handle this internally - check that the inverter's rated output is specified in kW at 0.8 power factor, which is the industry standard."
-  - q: "Which Qbits inverter is best for a home with two 1.5-ton ACs?"
-    a: "Two 1.5-ton inverter ACs running simultaneously draw roughly 3 kW, with startup surges reaching 6–8 kW if both start at once. Add 1–2 kW for fans, lights, and a refrigerator and you reach a peak demand of 8–10 kW. The Qbits HS 10 kW hybrid inverter covers this load with headroom, provides battery-backed AC operation during power cuts, and includes AI WhatsApp monitoring to track consumption per phase - a strong fit for a 3–4 BHK home in any Indian city."
+- q: Which solar inverter is best for running an AC?
+  a: There is no brand-wide winner. For outage backup, compare the exact model's continuous backup output, documented short-duration output, battery discharge limit, phase, and approved battery pairing against the AC and every simultaneous load. For daytime bill offset with the grid present, an on-grid design may be sufficient and should be sized from energy use and the PV array rather than from backup surge.
+- q: Can an on-grid solar inverter run an AC during a power cut?
+  a: An ordinary on-grid inverter stops energising the utility-connected circuit after grid loss. Daytime sunlight does not create backup by itself. Running an AC during an outage needs an approved hybrid or backup output, isolation, sufficient continuous and short-duration power, and a compatible battery or other supported energy source.
+- q: What size inverter is needed for a 1.5 ton AC?
+  a: Tonnage describes cooling capacity, not electrical input. Use the exact AC model's maximum input and starting-current or short-duration demand, then add every load that may run at the same time. Compare those values with the exact inverter's backup-output rows. A universal inverter size based only on 1.5 ton is not defensible.
+- q: How large should the battery be for AC backup?
+  a: Start with the AC's measured or manufacturer-stated electrical input, expected duty cycle, other backup loads, and required hours. Then account for usable battery energy, discharge-power limits, inverter losses, reserve, temperature, and ageing. The inverter and battery must pass both the energy and instantaneous-power checks.
+- q: Is a 5 kW hybrid inverter always able to supply 5 kW during an outage?
+  a: No. Grid-side and backup-side ratings can differ. In the exact models compared here, Growatt publishes 5,000 W maximum grid output but 4,000 W maximum backup output for SPH 5000TL BL-UP. Read the backup row rather than relying on the model name.
+- q: Does Qbits publish a surge rating for QBH-5KS48P?
+  a: The current Qbits catalogue prints greater than 200% for 15 seconds in the off-grid maximum-output-apparent-power row for the family. Treat that as a manufacturer declaration that requires technical review, compatible battery evidence, and confirmation for the exact supplied unit. It is not proof that every AC will start or that a 5 kW home can be backed up without a load study.
+featured: false
 ---
 
-Air conditioning consumes more than 40% of the electricity bill in a typical Indian 3-BHK home during summer months, according to the [Bureau of Energy Efficiency Annual Report](https://beeindia.gov.in/en/annual-report) (BEE, 2025). Households evaluating a full residential solar installation rather than a standalone inverter swap should factor AC load into the system design from day one, since it typically dominates the home's peak demand. When a homeowner decides to go solar, the first question is almost always: can the solar system actually run my ACs, and if so, how big does the inverter need to be? The short answer involves more than multiplying the tonnage by a conversion factor. Starting current, power factor, daytime-versus-night-time operation, and the on-grid-versus-hybrid choice all shape the final system design. This guide walks through each variable, gives real sizing examples for 1.5-ton and 2-ton units, and maps the right Qbits SKU to each scenario.
+The **best solar inverter for an AC or heavy-load home depends first on what “run” means**. If the grid is present and the goal is to reduce the electricity bought for daytime cooling, a correctly designed on-grid system may be enough. If the AC must stay on during a power cut, the decision shifts to a hybrid inverter's backup output, short-duration capability, battery, protected circuits, and the AC's exact starting behaviour.
 
-> **TL;DR**
-> - Size an inverter for AC load by inrush current, not running watts: a 1.5-ton AC surges to 4.5–5.75 kW at start-up even though it only runs at 1.4–1.6 kW.
-> - The AC-Load Inrush Matrix multiplies running kW by 3 (inverter AC) or 5 (non-inverter AC) to find peak surge, then matches that against the inverter's surge rating.
-> - On-grid inverters shut down during power cuts by law; only a [hybrid inverter](/glossary/hybrid-inverter/) with a battery bank can keep an AC running through an outage.
-> - Two 1.5-ton inverter ACs in a standard 3-BHK need a 5–6 kW inverter with a 200% surge rating (roughly 10 kW peak).
-> - Running a 1.5-ton AC for 8 hours at night needs about 10–12 kWh of usable battery capacity, or 15 kWh of rated LFP capacity at 80% DoD.
-> - The Qbits HS and HT hybrid series ship with a 200% peak surge rating, so a 5 kW unit can supply 10 kW for the compressor's start-up window.
+For a current 5 kW single-phase hybrid shortlist, **GoodWe GW5000-ES-20**, **Qbits QBH-5KS48P**, and **Growatt SPH 5000TL BL-UP** publish materially different evidence. GoodWe publishes 5,000 VA nominal backup output. Qbits publishes 5,000 W in its rated off-grid apparent-output row and greater than 200% for 15 seconds in the maximum-output row. Growatt publishes a clear 4,000 W maximum backup ceiling despite the 5 kW model name.
 
-> **Direct answer.** A solar inverter for AC load must handle inrush current (the startup surge), not just steady-state running watts. Apply the AC-Load Inrush Matrix: multiply nameplate tonnage by 1.2 to get running kW, then multiply by 3 to get peak surge kW, and select an inverter whose surge rating exceeds that figure. For backup during power cuts, a [hybrid inverter](/glossary/hybrid-inverter/) is mandatory, an on-grid inverter shuts down by law when the grid fails.
+Qbits publishes this article and sells the QBH-5KS48P. That commercial interest is disclosed before the shortlist. We did not test these inverters with an air conditioner, inspect installations, verify battery compatibility, or compare local prices, warranties, stock, service outcomes, certificate validity, or DISCOM acceptance.
 
-The calculation changes further when you run multiple ACs simultaneously, mix inverter-technology ACs with older non-inverter units, or want night-time battery operation. Each of those scenarios gets its own worked example below.
+## First decide: bill offset or outage backup
 
-## Why AC Load Is the Hardest Load for a Solar Inverter
+These are different electrical jobs.
 
-Most home appliances draw a steady current the moment they switch on. Air conditioners do not. An AC compressor is an induction motor, and induction motors draw anywhere from three to seven times their normal running current for two to three seconds at start-up, this is the [inrush current](/glossary/current/) that trips undersized inverters and voids warranties on units not rated for the surge.
-
-A 1.5-ton AC running at full speed draws roughly 6–7 amperes at 230 V (around 1.4–1.6 kW). At start-up, the same compressor can pull 20–25 amperes for two to three seconds, a surge of 4.6–5.75 kW from a device nominally rated at 1.5 kW. An inverter rated for 3 kW continuous output may or may not survive that surge, depending on its peak surge specification.
-
-The situation worsens with non-inverter (fixed-speed) ACs. These restart the compressor at full power every 10–15 minutes whenever the room temperature drifts above the set point. Every restart is a fresh inrush event. An inverter-technology AC, by contrast, ramps the compressor speed up and down continuously, avoiding complete restarts and reducing the average load by 30–50%.
-
-### Why Inrush Current Is the Hidden Spec
-
-Inverter manufacturers publish two power ratings in datasheets: the rated continuous output and the peak surge capacity. The peak surge is typically 150–200% of rated output for 10–30 seconds. A 5 kW inverter with a 150% surge rating can supply 7.5 kW for a brief start-up window, enough to absorb the 4.6 kW compressor surge of a 1.5-ton AC with margin to spare.
-
-The mistake buyers make is comparing only the continuous ratings. When you match a 3 kW inverter to a 1.5-ton AC based on steady-state consumption, you are ignoring the 5 kW surge that fires every time the thermostat clicks on. Over weeks and months, that repeated over-stress shortens IGBT life and can cause nuisance tripping that confuses installers into diagnosing faulty wiring or a "weak grid" rather than an undersized inverter.
-
-### Induction Motor vs Inverter Motor: What Changes
-
-- **Non-inverter (fixed-speed) AC**: compressor runs at full power or stops. Every restart = full locked-rotor current. Suitable for solar only with a generously oversized inverter.
-- **Inverter-technology AC**: variable-frequency drive modulates compressor speed. Start-up current is lower (2–4× running rather than 5–7×), and the motor rarely stops completely. Better matched to solar inverters.
-- **5-star inverter AC**: highest efficiency class under BEE ratings; uses the best variable-frequency compressor technology. The preference for any solar-plus-AC installation.
-
-## The AC-Load Inrush Matrix: Sizing Your Inverter in Three Steps
-
-Getting the inverter size right requires working through three sequential calculations. The named framework below, the **AC-Load Inrush Matrix**: gives a structured path from AC specifications to inverter SKU.
-
-### The AC-Load Inrush Matrix
-
-1. **Running load (kW)**: Convert tonnage to kilowatts using the relationship 1 ton ≈ 1.2 kW for a 5-star inverter AC (or 1 ton ≈ 1.4 kW for older non-inverter units). Add all ACs running simultaneously plus other household loads (fans: 60–75 W each; LED lighting: 10–20 W per room; refrigerator: 150–200 W; TV: 80–150 W). Sum gives total running load in kW.
-
-2. **Peak surge (kW)**: Multiply the largest single AC's running kW by 3 for inverter-technology ACs, or by 5 for non-inverter ACs. Add this surge to the running load of all other appliances (which are already running when the AC starts). The result is your peak instantaneous demand.
-
-3. **Inverter selection (kW)**: Choose an inverter whose rated continuous output covers the total running load with 20% headroom, AND whose surge (peak) rating covers the peak surge figure from Step 2. The surge rating is the binding constraint for AC loads.
-
-Applied to a typical 3-BHK home with two 1.5-ton inverter ACs:
-
-| Item | Running Load | Surge (AC start) |
+| Homeowner goal | What supplies the AC | Main design question |
 | --- | --- | --- |
-| AC #1 (1.5 ton, inverter) | 1.5 kW | 4.5 kW |
-| AC #2 (1.5 ton, inverter) | 1.5 kW | - (already running) |
-| Fans × 4 | 0.3 kW | - |
-| Lights + TV | 0.3 kW | - |
-| Refrigerator | 0.2 kW | - |
-| **Total running** | **3.8 kW** | - |
-| **Peak surge** | - | **8.3 kW** |
+| Reduce daytime AC purchases while the grid is available | Solar, with the grid balancing shortfalls and starts | Does the array's expected energy align with daytime demand and the approved grid connection? |
+| Offset night use through billing credits | Grid at night, subject to the applicable metering arrangement | What do the current tariff and metering rules credit? |
+| Keep the AC running during a power cut | Isolated hybrid backup output plus battery and available solar | Can the exact inverter and battery support continuous load, the start event, and required duration? |
 
-A 5 kW inverter covers the 3.8 kW running load. A 5 kW inverter with 160% surge (8.0 kW) just barely covers the surge, so the safer choice is a **5 kW inverter with 200% surge (10 kW peak)**, or step up to a 6–8 kW inverter.
+An ordinary [on-grid inverter](/glossary/on-grid-inverter/) does not become a backup source because the sun is shining. It stops energising the utility-connected circuit after grid loss. If outage cooling is the requirement, compare exact hybrid backup specifications and a protected-load design.
 
-## On-Grid vs Hybrid: Which Inverter Type Should Run Your AC?
+That distinction prevents the most expensive category mistake: buying an efficient grid-tied inverter for an outage problem it was never intended to solve.
 
-The inverter topology choice is not just about budget, it determines whether your AC operates during power cuts, which in large parts of North and Central India can run 4–8 hours per day in summer.
+## Our method for an AC and heavy-load shortlist
 
-> **45%** of Indian households in states like Uttar Pradesh, Bihar, and Jharkhand experienced over 4 hours of daily power cuts in summer 2025. *Source - [Central Electricity Authority Load Generation Balance Report](https://cea.nic.in/lgbr-report/), CEA 2025.*
+A broad brand ranking would hide the fields that decide whether an AC starts. We used five gates:
 
-### On-Grid Inverter for AC Load
+1. **Same class.** Each shortlisted model is a named 5 kW-class, single-phase, low-voltage hybrid inverter.
+2. **Current primary evidence.** The exact model must appear on a current manufacturer page or datasheet.
+3. **A separate backup figure.** Grid output cannot stand in for the rating at the backup terminals.
+4. **Battery and PV evidence.** The source must publish battery voltage or current plus MPPT information.
+5. **Unknowns stay unknown.** We do not infer approved batteries, local stock, warranty remedies, AC compatibility, or service quality from a brand name.
 
-An [on-grid inverter](/glossary/on-grid-inverter/) connects directly to the grid and exports surplus solar power. During daylight hours, it can power your ACs entirely from solar, with surplus being credited under [net metering](/glossary/net-metering/). The critical limitation: when the grid fails, the on-grid inverter shuts down within milliseconds under anti-islanding protection, a mandatory safety requirement under the [CEA Technical Standards for Connectivity of Distributed Generation Resources](https://cea.nic.in/) (CEA, 2023).
+The reading order is alphabetical by brand, with Qbits in the middle. It is not a paid position, reliability score, sales ranking, or universal winner.
 
-**When on-grid works for AC:** Your city has reliable grid power (fewer than 1–2 hours of cuts per month), your ACs run primarily during daytime hours (9 AM–6 PM), and your primary goal is reducing electricity bills rather than ensuring uninterrupted operation.
+## Exact 5 kW hybrid comparison for AC backup
 
-### Hybrid Inverter for AC Load
+The values below come from the current [GoodWe ES G2 product page](https://en.goodwe.com/es-g2), [Qbits QBH single-phase catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf), and [Growatt SPH TL BL-UP datasheet](https://en.growatt.com/upload/file/SPH_3000-6000TL_BL-UP_Datasheet_202604.pdf), checked on 26 September 2026.
 
-A [hybrid inverter](/glossary/hybrid-inverter/) manages solar panels, a battery bank, and the grid simultaneously. It maintains a separate backup bus that stays live during grid outages, allowing selected loads (including your ACs) to continue running on battery + solar power. The switchover from grid to battery is typically under 20 milliseconds, far too fast for the AC compressor to notice.
+| Exact model | Published backup output | Published short-duration or heavy-load evidence | Battery input | PV tracking | Evidence boundary |
+| --- | --- | --- | --- | --- | --- |
+| GoodWe GW5000-ES-20 | 5,000 VA nominal backup apparent power | Product page says the family supports heavy loads such as air conditioners; exact peak value is not shown in the reviewed table | 40 to 60 V; 120 A maximum continuous charge or discharge | 2 MPPTs; 16 A maximum input per MPPT | AC start must be checked against a current detailed datasheet or manual, exact battery list, and site load schedule |
+| Qbits QBH-5KS48P | 5,000 W in the catalogue's rated off-grid apparent-output row | Greater than 200% for 15 seconds in the family's maximum-output-apparent-power row | 48 V rated; configurable charge voltage up to 60 V; 120 A maximum charge or discharge | 2 MPPTs; 18 A maximum input per tracker | Source unit wording is retained; exact battery pairing, current manual, and complete warranty remain unverified |
+| Growatt SPH 5000TL BL-UP | 4,000 W maximum backup AC output | No separate peak figure in the reviewed sheet | 42 to 59 V; 85 A maximum charge and discharge; 4,000 W continuous charging and discharging power | 2 MPPTs; 13.5 A maximum input per tracker | India availability, exact battery pairing, starting duty, and local terms need confirmation |
 
-**When hybrid is the right choice:** Power cuts of 2+ hours per day in summer, desire to run ACs at night without grid electricity, future-proof installation that can absorb battery cost reductions over time.
+Do not silently treat W and VA as the same unit. Real power, apparent power, power factor, waveform, and duration all matter with motor loads. The table preserves the units each manufacturer publishes.
 
-| | On-Grid | Hybrid |
+## Conditional verdicts, not a universal winner
+
+### GoodWe GW5000-ES-20: strongest public 5 kVA continuous comparison point
+
+GoodWe's exact model table publishes 5,000 VA maximum grid apparent output and 5,000 VA nominal backup apparent power. It also gives a 40 to 60 V battery range, 120 A maximum continuous charge or discharge current, and 16 A maximum PV input per MPPT.
+
+The product page says ES G2 can switch to backup in less than 10 ms and is intended to withstand heavy loads such as air conditioners. That supports putting the model on the shortlist. It does not provide the exact peak apparent power, duration, or AC compressor compatibility in the reviewed model table.
+
+**Conditional verdict:** shortlist GW5000-ES-20 when the designed continuous backup load fits 5,000 VA and the supplier provides the current detailed short-duration-output evidence, approved battery record, and exact load check before purchase.
+
+### Qbits QBH-5KS48P: clearest published short-duration row
+
+The Qbits catalogue identifies QBH-5KS48P as a single-phase model with 5,000 W in its rated off-grid apparent-output row. It prints greater than 200% for 15 seconds in the family's maximum-output-apparent-power row. The same exact model column publishes a 48 V rated battery input, up to 60 V configurable charging voltage, 120 A maximum battery charge or discharge current, two MPPTs, and 18 A input per tracker.
+
+This is the strongest published short-duration declaration in the three-source set. It is still not permission to connect any AC. The catalogue uses W in a row labelled apparent power, does not publish an exact approved battery list, and does not establish the battery's ability to supply the corresponding current. The designer must close those gaps.
+
+The brochure also prints a switching statement as “within 10 seconds.” That wording is not used here as a transfer-time promise because it needs manufacturer clarification. A decimal or unit should never be silently repaired in a safety-relevant purchase decision.
+
+**Conditional verdict:** shortlist QBH-5KS48P when a qualified review confirms the exact model's short-duration output, compatible battery power, AC start event, and protected-load design. Review the current [Qbits hybrid inverter family](/hybrid-inverter/) only after those inputs are available.
+
+### Growatt SPH 5000TL BL-UP: useful when 4 kW backup is enough
+
+Growatt makes a common naming trap visible. SPH 5000TL BL-UP publishes 5,000 W maximum grid-side AC output but only 4,000 W maximum backup AC output. It also publishes 42 to 59 V battery input, 85 A maximum charge and discharge current, 4,000 W continuous charging and discharging power, two MPPTs, and 13.5 A per tracker.
+
+The lower backup number is not automatically a defect. A home with a deliberately limited protected-load board may fit it. It is simply a hard design constraint that the 5 kW product name does not reveal.
+
+**Conditional verdict:** shortlist SPH 5000TL BL-UP only when 4,000 W of published backup power covers the continuous load and the supplier supplies exact starting-duty and battery-pairing evidence. Do not use its 5,000 W grid rating to approve 5,000 W of outage load.
+
+## Tonnage is not an inverter-sizing input
+
+A 1.5 ton or 2 ton label describes cooling capacity. Two ACs with the same tonnage can publish different rated input, maximum input, current, control method, and starting behaviour. Room temperature, thermostat setting, compressor speed, maintenance, and ambient conditions can also change actual energy use.
+
+Record these fields for the exact AC:
+
+| Input | Preferred evidence | Design use |
 | --- | --- | --- |
-| **AC runs during power cut** | ✗ Shuts down | ✓ Continues on battery |
-| **AC runs at night** | ✗ Grid only | ✓ Battery discharge |
-| **Upfront cost** | ₹2.5–4 L for 5 kW | ₹5–8 L for 5 kW + battery |
-| **Payback period** | 4–6 years | 7–10 years (improves as tariffs rise) |
-| **PM Surya Ghar subsidy** | ✓ Eligible | ✓ Eligible (inverter portion) |
-| **Best for** | Urban metros, good grid | Tier-2/3, frequent cuts |
+| Exact AC model | Nameplate and current manufacturer sheet | Prevents using a generic tonnage estimate |
+| Rated and maximum input | Exact product data | Sets continuous-load cases |
+| Rated current and power factor | Exact product data | Supports current and apparent-power checks |
+| Starting current or short-duration demand | Manufacturer technical data or competent measurement | Tests the inverter and battery start event |
+| Operating schedule | Owner requirement or monitoring | Drives daily energy and backup duration |
+| Simultaneous appliances | Protected-load schedule | Prevents sizing for the AC alone |
 
-For most homeowners in states with frequent power cuts, a hybrid system running ACs during outages eliminates the need for a diesel generator, which costs ₹60–120 per hour to run and requires fuel management, servicing, and noise tolerance.
+If starting data is missing, do not replace it with a universal three-times or five-times multiplier. Ask the AC manufacturer, obtain the appropriate service data, or arrange a suitable measurement. Variable-speed and fixed-speed compressors do not all start alike.
 
-## Tonnage to kW Conversion: The Numbers Every Buyer Needs
+## A transparent heavy-load sizing example
 
-The popular shorthand "1 ton = 1 kW" is a significant underestimate. The relationship depends on the AC's efficiency class and whether it uses inverter-compressor technology.
+The following is an illustration of the method, not a typical Indian home and not a recommendation for a particular inverter.
 
-| AC Type | 1 Ton | 1.5 Ton | 2 Ton |
-| --- | --- | --- | --- |
-| 5-star inverter AC (at full load) | 0.90–1.10 kW | 1.35–1.60 kW | 1.80–2.10 kW |
-| 3-star inverter AC | 1.10–1.25 kW | 1.65–1.85 kW | 2.20–2.50 kW |
-| Non-inverter (fixed-speed) AC | 1.20–1.40 kW | 1.80–2.00 kW | 2.40–2.80 kW |
-| Window AC (non-inverter) | 1.10–1.30 kW | 1.65–1.95 kW | 2.20–2.60 kW |
+Assume the design record states:
 
-These are full-load steady-state figures. At partial load (say, 50% compressor speed on a mild day) actual draw drops to 40–60% of these values for inverter-technology units.
+- AC maximum running input: 1.60 kW;
+- other loads that may run at the same time: 0.60 kW;
+- total continuous real-power case: 2.20 kW;
+- documented AC starting demand: 3.20 kVA;
+- other loads during that start event: 0.70 kVA;
+- total short-duration apparent-power case: 3.90 kVA;
+- required outage duration: 2 hours;
+- duty-cycle-adjusted average AC input during the outage: 1.20 kW;
+- average other outage load: 0.30 kW.
 
-**Ambient temperature effect:** Every 5 °C rise above the AC's rated ambient temperature (typically 43 °C for BEE testing in India) increases energy consumption by roughly 8–10%, as documented in the [BEE Star Rating Programme for Air Conditioners](https://beeindia.gov.in/en/programmes/beestar-labelling-programmesstar-ratings/air-conditioner) (BEE, 2025). In Rajasthan or Vidarbha where ambient temperatures routinely cross 48 °C, add 10–15% to the above figures.
+The power checks are 2.20 kW continuous and 3.90 kVA for the stated starting interval. Both must fit the exact backup-output limits. The battery must also supply the necessary DC current during that event.
 
-**Real daily units consumed:** A 1.5-ton 5-star inverter AC running 8 hours in a sealed, well-insulated room in moderate climate will consume approximately 9–11 kWh per day. In poorly insulated homes or extreme heat, consumption reaches 13–15 kWh per day.
+For energy, the assumed average load is `1.20 + 0.30 = 1.50 kW`. The AC-side energy for two hours is `1.50 × 2 = 3.00 kWh`. That is not the battery nameplate answer. Usable fraction, inverter losses, reserve, temperature, ageing, and manufacturer rules must still be applied.
 
-## How Many ACs Can Your Solar Inverter Run Simultaneously?
+Change any input and the result changes. A second AC, pump, induction cooktop, water heater, or electric-vehicle charger can move both the continuous and starting case. The [solar inverter sizing guide](/blog/solar-inverter-sizing/) covers the broader load and array sequence.
 
-This is the question installers hear most often from homeowners who want to run every room's AC during peak afternoon heat. The answer depends on the inverter rating, the AC tonnage, and whether ACs are starting simultaneously or staggered.
+## The battery must pass power and energy checks
 
-### Single AC: 1.5-Ton Example
+Battery sizing for AC backup has two separate tests:
 
-- **Running load:** 1.5 kW (5-star inverter AC)
-- **Surge peak:** 4.5 kW (3× running)
-- **Minimum inverter:** 3 kW rated, with ≥ 150% surge (4.5 kW peak)
-- **Recommended inverter:** 5 kW rated, provides headroom for fans, lights, and refrigerator without risking surge trips
+1. **Power:** Can the battery and its management system deliver the current required by the inverter during continuous operation and the compressor start?
+2. **Energy:** After the allowed depth of discharge, reserve, conversion losses, temperature, and ageing allowance, is enough usable energy left for the required hours?
 
-A 5 kW on-grid system with 12–14 panels of 400 Wp covers daytime consumption and exports surplus. Monthly generation of 600–650 kWh offsets the AC plus full household base load in most Indian cities.
+A large kilowatt-hour label can still fail the power test. A battery that can deliver high power can still be too small for the duration target. The exact inverter and battery pairing must also be approved in current manufacturer documentation, including communication protocol and firmware where applicable.
 
-### Two ACs: 1.5-Ton + 1.5-Ton (3-BHK Standard)
+Use the [battery sizing worksheet](/blog/battery-sizing-hybrid-solar/) to make each assumption visible. Treat the result as a design input, not a promised runtime.
 
-- **Running load:** 3.0 kW AC + 1.0 kW other loads = 4.0 kW
-- **Surge peak (one AC starts while other runs):** 4.5 kW surge + 1.5 kW (running AC) + 1.0 kW (other loads) = 7.0 kW
-- **Minimum inverter:** 5 kW rated with ≥ 150% surge (7.5 kW peak)
-- **Recommended inverter:** 5–6 kW with 200% surge rating; or 8 kW standard rating
+## How to size solar for daytime AC use
 
-### 2-Ton AC: Larger Rooms and Master Bedrooms
+Panel quantity comes from energy, roof conditions, and the inverter's PV limits, not the AC's tonnage. Estimate the AC's daily kilowatt-hours from exact product data or monitoring, add the rest of the site's demand, and model the proposed array for location, orientation, shade, temperature, and losses.
 
-- **Running load:** 2.0–2.2 kW (5-star inverter AC)
-- **Surge peak:** 6.0–6.6 kW
-- **Minimum inverter:** 5 kW rated with ≥ 130% surge (6.5 kW peak)
-- **Recommended inverter:** 6–8 kW, a 5 kW inverter is tight on surge margin
+Then check the exact module string against:
 
-Two 2-ton ACs running simultaneously: running load 4.0–4.4 kW plus other loads 1.5 kW = 5.5–6.0 kW total. Surge (one starting while the other runs) = 6.0–6.6 kW surge + 2.2 kW (running AC) + 1.5 kW = 9.7–10.3 kW peak. This scenario demands a **10 kW inverter** as the minimum.
+- maximum DC voltage after cold-temperature correction;
+- MPPT operating range during expected hot and cold conditions;
+- maximum input current and short-circuit-current limit;
+- maximum or recommended PV power for the exact inverter;
+- clipping objective and grid-export constraint.
 
-### Three or More ACs: 4-BHK and Villas
+For grid-connected bill offset, the grid can cover a temporary shortfall or compressor start while it is available. For isolated backup, the inverter and battery must carry the event themselves. Do not copy an on-grid array calculation into an outage-backup approval.
 
-With three or more ACs, the design question is staggered start-up. If the inverter's load management firmware staggers AC start-ups by 30–60 seconds each, the peak surge never stacks. Qbits hybrid inverters include programmable load priority settings that enable this staggered start. Without staggering, three 1.5-ton ACs starting simultaneously can demand 13.5 kW of surge, requiring a 10–15 kW inverter.
+## Heavy loads need a protected-load plan
 
-> **Insight:** Most HVAC installers do not account for simultaneous start-up surges because they are wiring for grid power, where the grid absorbs any surge without complaint. Solar installers must explicitly check the inverter surge capacity and, where needed, implement start-up sequencing.
+“Whole-home backup” is not an equipment specification. List the circuits that remain live and identify which combinations are permitted. An AC-heavy home may also have pumps, refrigeration, microwaves, kettles, induction cooking, geysers, or vehicle charging. Several can start or switch on together.
 
-## Solar Panel Count for Running AC: Full Worked Examples
+A useful backup schedule records:
 
-Getting the inverter right is half the job. The solar array must generate enough energy to actually power the AC during daylight hours and (in hybrid systems) charge the battery for night-time use.
+- exact appliance or circuit;
+- maximum running input;
+- power factor or apparent power where relevant;
+- starting demand and duration;
+- allowed simultaneous combinations;
+- priority and automatic or manual load shedding;
+- phase allocation;
+- whether the circuit is backed up or grid-only.
 
-**Formula:** Panel capacity (kW) = (Daily AC kWh + other load kWh) ÷ (Peak sun hours × system efficiency)
+Staggering loads can reduce the required short-duration capacity, but only if the control is actually specified and commissioned. A verbal instruction to “avoid using everything together” is not a control strategy.
 
-Use **5 peak sun hours** as a conservative estimate for most Indian plains cities (Delhi, Mumbai, Hyderabad, Bengaluru). Use **5.5–6.0** for Gujarat, Rajasthan, and Maharashtra. Use **4.0–4.5** for coastal Tamil Nadu and Kerala. [Peak sun hours](/glossary/peak-sun-hours/) can be verified by city using the [MNRE Solar Radiation Resource Assessment](https://mnre.gov.in/solar-energy/) (MNRE, 2026) database.
+## What the quote must prove
 
-**Example A, 1.5-ton AC, on-grid, 8-hour daytime operation:**
+Before selecting any model, ask the supplier for:
 
-| Item | Figure |
-| --- | --- |
-| AC consumption | 10 kWh/day |
-| Other household loads | 4 kWh/day |
-| Total daily need | 14 kWh/day |
-| Peak sun hours (Delhi) | 5.0 h |
-| System efficiency | 80% |
-| Required panel capacity | 14 ÷ (5.0 × 0.80) = **3.5 kW** |
-| Standard install | 3 kW or 4 kW system (8–10 panels of 400 Wp) |
+- exact inverter model, hardware revision, current datasheet, and installation manual;
+- AC and heavy-load schedule with continuous and starting cases;
+- exact backup-output and short-duration-output evidence;
+- approved battery model, capacity, discharge-power limit, communication, and firmware;
+- PV module, string calculation, MPPT limits, and array assumptions;
+- single-line diagram showing grid, PV, battery, backup board, isolation, and protection;
+- operating-temperature limits and any derating relevant to the installation location;
+- current certificate files required for the project;
+- complete written warranty, exclusions, registration, remedy, and claim route;
+- itemised price, included hardware, installation, commissioning, monitoring, and excluded work.
 
-**Example B, 2 × 1.5-ton ACs, hybrid, 8-hour daytime + 4-hour night battery:**
+Reject the quote if it uses only “5 kW hybrid,” sizes from AC tonnage, equates grid output with backup output, or promises runtime without showing the battery assumptions.
 
-| Item | Figure |
-| --- | --- |
-| AC consumption (8 h day) | 20 kWh/day |
-| AC consumption (4 h night from battery) | 10 kWh |
-| Other household loads | 5 kWh/day |
-| Total daily need | 35 kWh/day |
-| Required panel capacity | 35 ÷ (5.0 × 0.80) = **8.75 kW** → round to 10 kW |
-| Battery required (LFP, 80% DoD) | 10 kWh usable → 12.5 kWh rated = 2 × 6.25 kWh modules |
-| Inverter | 8–10 kW hybrid |
+## Final recommendation
 
-This is a realistic system for a 4-BHK home running ACs around the clock in May–June, with the solar array covering all daytime load and the battery handling the night shift.
+For **daytime AC bill reduction with a reliable grid**, start with an on-grid energy and string design. Do not pay for backup solely because the home contains an AC.
 
-## Inverter-AC vs Non-Inverter AC Compatibility: Key Differences
+For **AC operation during outages**, begin with the exact load and start event. GoodWe GW5000-ES-20 is the clearest 5 kVA continuous backup comparison point, but its detailed peak evidence must be obtained. Qbits QBH-5KS48P publishes the clearest short-duration row in this set, but the source wording, battery pairing, and exact start duty need technical confirmation. Growatt SPH 5000TL BL-UP is a defensible option when its explicit 4,000 W backup ceiling covers the designed load.
 
-Many homes still have 5–10-year-old non-inverter ACs alongside newer inverter models. Understanding how each type behaves on a solar inverter prevents both equipment damage and disappointing performance.
-
-### Non-Inverter (Fixed-Speed) AC on Solar
-
-Fixed-speed compressors start and stop repeatedly. The compressor draws locked-rotor current (5–7× running current) every time it restarts, often every 10–15 minutes. In an 8-hour operating day, that can be 30+ surge events. An inverter handling this load needs a surge rating of at least 5–7× the AC's running current, not just 3×.
-
-**Practical consequence:** A non-inverter 1.5-ton AC that draws 1.8 kW running and surges to 10+ kW at start-up requires a 5 kW inverter with strong surge capacity, the same inverter that could comfortably run two inverter-technology 1.5-ton ACs. The extra cost of the larger inverter typically outweighs the cost of replacing the old AC with a 5-star inverter model.
-
-### Inverter-Technology AC on Solar
-
-Variable-speed compressors use a VFD (Variable Frequency Drive) to ramp up gradually. Starting current is still higher than running current, but rarely exceeds 3× running. Once at operating temperature, the compressor modulates to as low as 30% speed, dramatically reducing draw. Battery discharge extends, solar self-consumption improves, and inverter stress is minimised.
-
-### Compatibility Summary
-
-| AC Type | Surge Factor | Inverter Size (1.5 ton) | Solar Compatibility |
-| --- | --- | --- | --- |
-| 5-star inverter AC | 2–3× | 3–5 kW | Excellent |
-| 3-star inverter AC | 2.5–3.5× | 4–5 kW | Good |
-| Non-inverter (3-star) | 5–7× | 5 kW minimum | Fair - frequent surges |
-| Window AC (non-inverter) | 5–7× | 5 kW minimum | Fair - add a soft-start |
-| Cassette / commercial AC | 3–5× | Consult datasheet | Case-by-case |
-
-A **soft-start capacitor**: a ₹2,000–4,000 add-on, reduces the locked-rotor current of non-inverter ACs by 40–60%. Fitted inside the AC's electrical compartment by an HVAC technician, it brings non-inverter starting behaviour closer to inverter-technology levels and can allow a smaller inverter to handle the same AC.
-
-## Common Sizing Mistakes and How to Avoid Them
-
-Homeowners and even some installers make consistent errors when sizing inverters for AC-heavy homes. Recognising these patterns saves money and prevents repeat service calls; the broader [5 mistakes to avoid when buying a solar inverter](/blog/solar-inverter-buying-mistakes/) covers the general buying pitfalls beyond AC-specific sizing.
-
-- **Mistake: Sizing only for running load**: The most frequent error. A homeowner sees "1.5 kW running" on the AC data plate and orders a 2 kW inverter. The inverter trips on first start-up. Always apply the AC-Load Inrush Matrix from Section 2: multiply running load by 3 for startup surge and verify the inverter's peak surge rating.
-
-- **Mistake: Assuming all ACs will not start simultaneously**: In a 3-BHK home, all three rooms turn on ACs at 10 PM when everyone returns from work. If the inverter cannot handle the coincident start-up surge, it will trip and reset, often interpreted as a grid problem or a faulty inverter. Apply the worst-case simultaneous start calculation or implement programmable load staggering.
-
-- **Mistake: Ignoring power factor**: AC is an inductive load. A 1.5 kW running draw at 0.85 power factor demands 1.76 kVA from the inverter. For detailed [power factor](/glossary/power-factor/) treatment, see our guide to [solar inverter specifications decoded](/blog/solar-inverter-specifications-decoded/).
-
-- **Mistake: Choosing on-grid in a power-cut zone**: An on-grid inverter shut down during a 6-hour summer power cut means six hours without AC despite a fully generating rooftop array. Verify your area's grid reliability before choosing inverter topology. The [on-grid vs hybrid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) covers the full framework.
-
-- **Mistake: Under-sizing the battery for night-time AC**: A 5 kWh battery will run a 1.5-ton AC for roughly 3 hours at full load. Many buyers expect 6–8 hours and are disappointed. Calculate the battery capacity using the formula: usable kWh = (AC kW × night hours) ÷ 0.85 (inverter round-trip efficiency). Then add 25% margin for ambient temperature losses. The [battery sizing guide for hybrid solar inverters](/blog/battery-sizing-hybrid-solar/) works through this calculation in full, and SurgePV's [battery and energy storage sizing hub](https://surgepv.com/hub/energy-storage/battery-sizing/) is a useful cross-check for readers comparing LFP bank configurations across brands.
-
-- **Mistake: Not accounting for AC start-up in hybrid systems**: Hybrid inverter battery discharge mode has the same surge limitation as grid-tied mode. The battery + inverter combination must supply the same start-up surge as the grid would. Verify that the hybrid inverter's backup output rating (not just its solar MPPT rating) covers the surge. For a deeper look at hybrid system design, the [on-grid vs hybrid solar inverters ROI guide](/blog/on-grid-vs-hybrid-solar-inverters-roi/) provides payback scenarios for both topologies.
-
-- **Mistake: Ignoring DISCOM export limits**: Some DISCOMs cap per-phase export at a fraction of the sanctioned load. Oversizing the panel array relative to the inverter to compensate for AC consumption can create clipping losses if the inverter's AC output limit prevents feeding surplus energy back. Review the [inverter clipping explained post](/blog/inverter-clipping-explained/) before finalising your design. Also confirm your state's net metering rules at the [net metering India complete guide](/blog/net-metering-india-complete-guide/).
-
-## Where Qbits Fits in an AC-Focused Solar System
-
-Qbits inverters are designed for Indian conditions where grid voltage swings between 180 V and 270 V, rooftop temperatures reach 55–60 °C in May, and many DISCOMs in Tier-2 and Tier-3 cities have not completed smart-grid upgrades. Running high-current inductive loads like air conditioners in these conditions requires an inverter with high surge capacity and India-grid-tuned firmware, not a spec sheet translated from European or Chinese market requirements.
-
-The Qbits HS and HT hybrid series ships with a 200% peak surge rating (2× rated continuous output), which means a 5 kW HS unit can supply 10 kW for the 2–3 second compressor start window. The firmware monitors [harmonics](/glossary/harmonics/) introduced by variable-frequency AC drives and compensates in real time, keeping [total harmonic distortion](/glossary/thd/) below 3%, well within the [IEC 62116 anti-islanding standard](https://www.iec.ch/) (IEC, 2024). The 12-year full replacement warranty and IP66 enclosure mean the unit survives both monsoon exposure and a decade of daily inrush cycles without degrading.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, 1.5 kW to 50 kW. Right choice for metro homes where grid reliability is high and the goal is bill reduction. ALMM-listed and PM Surya Ghar subsidy-eligible.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness and 200% surge capacity. Suited to homes with frequent power cuts or overnight AC operation on battery. Supports LFP and lithium-ion battery banks from leading BMS-certified manufacturers.
-- **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm panel-string configuration for your roof area and AC load before finalising the quote. Takes 60 seconds and prevents MPPT voltage range mismatches that cause morning yield losses.
-
-[Talk to a Qbits engineer](/contact-us/) about your AC count, roof area, and grid reliability, most site assessments are completed within 24 hours and include a detailed sizing report with panel layout, inverter SKU, and payback projection at your state's current tariff.
+Choose none of them yet if the supplier cannot prove the exact AC start, battery power, backup output, and protected-load plan. The right inverter is the one that passes those checks, not the one with the largest number in its model name.

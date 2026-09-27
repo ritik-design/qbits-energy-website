@@ -256,8 +256,6 @@ ESG is the framework for corporate sustainability reporting. Indian BRSR is mand
 
 ## Need solar-backed ESG strategy?
 
-QBits Energy structures solar adoption pathways for Indian corporates pursuing BRSR, net-zero and RE100 targets through rooftop solar, open access PPAs and RESCO models.
-
 ## Further reading
 
 For how ESG plays out in real projects, these guides go deeper:

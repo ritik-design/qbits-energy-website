@@ -33,6 +33,8 @@ faqs:
     a: "KUSUM Component B solar pump installation की total timeline 3 से 12 महीने है - state और application process के हिसाब से। Rajasthan और Gujarat में faster processing है; Bihar और Odisha में ज्यादा time लगता है। Central portal नहीं है, इसलिए state-wise variability ज्यादा है।"
 ---
 
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 KUSUM Yojana [MNRE](/glossary/mnre/) की India के किसानों के लिए सबसे बड़ी solar subsidy scheme है (लेकिन इसकी जानकारी शहरी लोगों की तरह widespread नहीं है। किसान जो diesel pump पर हज़ारों रुपए महीने खर्च करते हैं, वो KUSUM के through solar pump install करके उसे permanently eliminate कर सकते हैं) 60% subsidy के साथ। इस guide में पूरी जानकारी है।
 
 > **एक line में जवाब।** KUSUM Yojana किसानों को solar pump subsidy देती है - 60% (30% central + 30% state)। तीन components हैं: land lease (A), standalone solar pump (B), और grid-connected pump solarisation (C)। [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) homeowners के लिए है; KUSUM farmers के लिए।
@@ -40,7 +42,7 @@ KUSUM Yojana [MNRE](/glossary/mnre/) की India के किसानों �
 > **TL;DR**
 > - KUSUM Yojana ke teen components hain: Component A (barren land par solar plant), [Component B](https://www.heavengreenenergy.com/blog/kusum-component-b-application-guide) (off-grid standalone solar pump), aur Component C (grid-connected pump ka solarisation).
 > - Component B mein farmer sirf 40% khud pay karta hai (60% subsidy - 30% central + 30% state), kuch states mein state top-up se yeh 20-25% tak kam ho jaata hai.
-> - ALMM-listed panels aur inverters/pump controllers har component ke liye mandatory hain, warna subsidy release nahi hoti.
+
 > - KUSUM ke liye koi single national portal nahi hai - application state nodal agency (RREC, MEDA, GEDA, UPNEDA, PEDA) ke through hoti hai.
 > - PM Surya Ghar aur KUSUM alag schemes hain - ek hi farmer household dono ka fayda ek saath le sakta hai (ghar ke liye Surya Ghar, khet ke liye KUSUM).
 > - Component B ka payback typically 1-2 saal mein aata hai, diesel cost completely eliminate hone ki wajah se.
@@ -156,7 +158,7 @@ KUSUM के लिए कोई single national portal नहीं है - st
 
 KUSUM subsidised installations में भी [ALMM-listed](/glossary/almm-list/) components mandatory हैं:
 - Solar panels → ALMM Part I में listed
-- Solar inverters/controllers → ALMM Part II में listed
+
 - [MNRE ALMM verification](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}
 
 Non-ALMM equipment install होने पर subsidy release नहीं होती। State-level KUSUM programs में यह compliance requirement उतनी ही strict है जितनी PM Surya Ghar में।
@@ -199,15 +201,10 @@ Farming household जिनके पास दोनों connections है�
 
 ## Qbits KUSUM Installations Mein
 
-Qbits on-grid string inverters KUSUM Component C (grid-connected pump solarisation) installations में ALMM-compliant solution provide करते हैं। IP66 rating outdoor agricultural installations के लिए। India-grid firmware agricultural feeder voltage variations handle करता है।
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: KUSUM Component C ke liye ALMM-listed solution
 - **[KUSUM Agricultural Solar Guide](/blog/kusum-yojana-agricultural-solar-subsidy/)**: State-wise detailed application guide
 - **[PM Surya Ghar vs KUSUM Comparison](/blog/pm-surya-ghar-vs-kusum-yojana/)**: Which scheme for you?
 
 According to [IEA India data](https://www.iea.org/){target="_blank" rel="noopener"}, agricultural solar pump solarisation is one of the highest-impact programs for rural energy access in India। KUSUM target achieve होने पर India के agricultural sector का energy cost profile permanently change होगा।
-
-KUSUM application process में guidance के लिए अपने district agriculture office से contact करें, या [Qbits engineer से बात करें](/contact-us/) जो आपके area के DISCOM और state KUSUM nodal office से coordinate करने में help कर सकता है।
 
 ## KUSUM Ki Success Stories: State-wise Results
 
@@ -295,7 +292,3 @@ KUSUM Component B (standalone solar pump) में inverter की role critica
 - ALMM-listed pump controller mandatory है
 - IP65 minimum, IP66 preferred for outdoor agricultural installation
 - India-grid VFD for Component C installations should handle 150-270V input
-
-Component C installations में standard on-grid solar inverter use होता है - जो ALMM Phase III में listed होना चाहिए। [On-grid inverter specifications](/blog/solar-inverter-specifications-decoded/) में detailed technical parameters हैं।
-
-Both KUSUM and PM Surya Ghar installations benefit from choosing reliable, ALMM-listed equipment from manufacturers who provide genuine after-sales support, because in rural areas, a failed pump or inverter with no local service support creates real hardship for the farming family depending on that installation.

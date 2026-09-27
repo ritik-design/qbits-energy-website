@@ -173,4 +173,4 @@ The Kingdom rewards software that models consumption at least as well as generat
 - **Ingest an hourly load profile.** Without it you cannot size against a six to one tariff spread, and abundant sunshine will push you to overbuild.
 - **Model soiling as a sawtooth.** A flat derate hides the troughs and makes cleaning frequency unoptimisable.
 - **Plan maintenance at design stage.** At Saudi dust rates it is an economic variable, not an operational detail.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Saudi site, or reach the Qbits team [here](/contact-us/) for SASO-conformant inverter specification.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

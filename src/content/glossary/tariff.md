@@ -207,8 +207,6 @@ Electricity tariffs in India vary by customer category, slab, voltage class and 
 
 ## Need tariff-aware solar analysis?
 
-QBits Energy provides tariff-aware solar yield and payback analysis tailored to Indian state-specific retail tariff structures.
-
 ## Further reading
 
 For how Tariff plays out in real projects, these guides go deeper:

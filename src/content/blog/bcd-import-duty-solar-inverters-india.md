@@ -1,7 +1,7 @@
 ---
 title: "BCD and Import Duties on Solar Inverters India 2026"
-excerpt: "BCD on solar inverters India: 20% Basic Customs Duty applies to imported inverters, making Chinese brands costlier while ALMM compliance gives Made-in-India products a structural advantage."
-description: "BCD and import duties on solar inverters in India 2026: how 20% BCD impacts Chinese OEMs, the ALMM list requirement, and what it means for EPCs."
+excerpt: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
+description: "A buyer's framework for checking current customs duty, classification, GST and landed cost for imported solar inverters in India."
 category: Policy
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -20,33 +20,29 @@ faqs:
   - q: "What is the BCD on solar PV modules and cells in India?"
     a: "Solar PV modules imported into India attract a BCD of 40% as of 2026, and solar PV cells attract 25% BCD. These rates were introduced under the National Solar Mission to protect domestic module manufacturers. When combined with the inverter BCD of 20%, an imported solar system (module + inverter) from China carries a total import duty burden of 35–65% on different components. This policy significantly increases the landed cost of a fully imported solar system compared to systems using domestically manufactured components."
   - q: "Does BCD apply to inverters made in India by Chinese companies?"
-    a: "BCD does not apply to inverters manufactured in India, regardless of the ownership of the manufacturing company. If a Chinese OEM - Sungrow, Growatt, Deye - manufactures its inverters at a factory in India with sufficient local value addition (under the PLI or make-in-India guidelines), those inverters are classified as domestic products and attract no BCD. The ALMM list separately governs eligibility for PM Surya Ghar projects; both domestic manufacture and ALMM listing are required for full policy benefit."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What is the ALMM list and how does it relate to BCD?"
-    a: "The Approved List of Models and Manufacturers (ALMM) is maintained by MNRE and specifies which solar inverter and module models are approved for use in government-funded or PM Surya Ghar-subsidised projects. Only ALMM-listed inverters are eligible for PM Surya Ghar subsidy claims. BCD and ALMM are separate policies but reinforcing: BCD makes imported non-Indian-made inverters costlier, while ALMM restricts which inverters can be used in subsidy-eligible projects. Together, they create a strong structural advantage for domestic manufacturers."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Which Chinese inverter brands are most affected by BCD in India?"
     a: "Inverters imported directly from China - including Deye, Growatt (units imported rather than assembled locally), Huawei, Solis, and some Sungrow models not yet produced domestically at scale - attract the full 20% BCD on import. This significantly increases their landed cost compared to their ex-works price. Sungrow and Growatt have been establishing Indian manufacturing presence to mitigate this. Smaller Chinese OEMs that rely on direct import are most disadvantaged."
   - q: "How does an EPC verify ALMM compliance before purchasing an inverter?"
-    a: "The ALMM list is published on the MNRE website at https://mnre.gov.in/almm-list/ and is updated periodically. EPCs should verify that the specific model and wattage of the inverter they plan to procure is listed on the current ALMM list before procurement. The list specifies both the manufacturer and model. If the model is updated or modified, re-listing is required. ALMM compliance is also checked by DISCOMs during the PM Surya Ghar inspection and subsidy verification process."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Does the BCD on solar inverters affect project costs significantly for EPCs?"
-    a: "For EPCs procuring imported inverters - especially those not manufactured locally - BCD at 20% adds approximately ₹8,000–₹25,000 per inverter depending on wattage and CIF price. For a 10 kW residential system using an imported inverter priced at ₹40,000 CIF, the BCD component adds ₹8,000 plus ancillary duties - a total landed cost increase of ₹12,000–₹16,000. For an EPC doing 50 installations per month, this is a material margin impact. Shifting to ALMM-listed domestic inverters eliminates this cost entirely."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Is there an Import Duty Impact Calculator for solar EPCs?"
     a: "No standardised government calculator exists, but EPCs can compute import duty incidence as follows: (CIF value × BCD rate) + (CIF + BCD) × Social Welfare Surcharge (SWS at 10% of BCD) + (CIF + BCD + SWS) × IGST rate. For a typical 10 kW inverter with CIF of ₹40,000: BCD = ₹8,000; SWS = ₹800; IGST at 18% on (₹40,000 + ₹8,000 + ₹800) = ₹8,784; total duties = ₹17,584. The Import Duty Impact Calculator framework in this guide formalises this calculation."
 ---
 
-For EPC installers in India, the inverter procurement decision in 2026 is not just about specifications and price, it is increasingly shaped by customs policy and regulatory compliance. The [Basic Customs Duty (BCD)](/glossary/customs-duty/) of 20% on imported solar inverters, combined with the [ALMM list](https://www.heavengreenenergy.com/blog/almm-list-explained) requirement for PM Surya Ghar-subsidised projects, has created a significant structural cost and compliance difference between imported and domestic inverters.
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 > **TL;DR**
 > - BCD on imported solar inverters (HS code 8504) is 20% as of 2026; modules attract 40% and cells 25%, on top of IGST at 12-18% and a 10% Social Welfare Surcharge on the BCD amount.
 > - Inverters manufactured in India, regardless of the parent company's ownership, attract zero BCD and only domestic GST, a structural cost gap of roughly 20-25% versus imported units.
-> - BCD and ALMM listing are separate but reinforcing policies: BCD raises the landed cost of imported inverters while ALMM restricts which models qualify for the PM Surya Ghar subsidy at all.
+
 > - Chinese OEMs such as Sungrow, Growatt, Huawei, and Deye are exposed to the full 20% BCD on units imported directly, unless they scale India manufacturing.
 > - On a 10 kW imported inverter with ₹40,000 CIF value, total duties add up to roughly ₹17,584, pushing the landed cost to ₹57,584 before freight.
 
 Understanding these policies is not just about compliance. It is about margin protection, project eligibility, and competitive positioning in a market where 90%+ of residential installations are now linked to subsidy and net metering programmes.
-
-> **Direct answer.** BCD on solar inverters imported into India is 20% as of 2026, applied on top of CIF value. Solar PV modules attract 40% BCD, cells attract 25%. Chinese OEMs exporting to India from their home country see landed cost increases of 35–45% relative to ex-works. [ALMM list](https://quickestimate.co/blog/almm-list-explained) compliance separately restricts which inverters qualify for PM Surya Ghar subsidy, use the [Import Duty](https://quickestimate.co/blog/import-duty-solar-modules-india) Impact Calculator in this guide to assess the full incidence.
-
-This guide covers BCD rates on inverters, modules, and cells; how the ALMM list amplifies the policy advantage for domestic manufacturers; how BCD affects major Chinese OEMs; and what EPCs need to track to stay ahead of policy changes.
 
 ## BCD on Solar Inverters: What the Rates Actually Are
 
@@ -115,41 +111,21 @@ At 50 units/month, the monthly import duty spend = 50 × ₹10,990 = **₹5,49,5
 
 ## How BCD Affects Chinese OEM Inverters in India
 
-### Sungrow
-
-Sungrow is the world's largest inverter manufacturer by shipment volume. Their products imported directly from China to India attract full 20% BCD. Sungrow has announced manufacturing plans in India and is actively pursuing ALMM listing for domestically produced models. Until Indian manufacturing scales up, Sungrow's imported models carry the full duty burden, which is reflected in their Indian pricing compared to export markets.
-
 ### Growatt
 
 Growatt is a major mid-market player with aggressive pricing in India. Their core strategy has been direct import, making their landed pricing sensitive to BCD fluctuations. Growatt has been working on localisation to reduce duty exposure, but as of mid-2026, most Growatt models in the Indian market are imported. EPCs using Growatt on PM Surya Ghar projects must verify ALMM listing for each model before procurement.
 
-### Huawei
-
-Huawei's solar inverter division (FusionSolar) faces a compounded challenge: import duties and geopolitical restrictions that limit their participation in government-funded projects in many Indian states. Huawei inverters are not widely ALMM-listed for residential applications, restricting their use in PM Surya Ghar projects.
-
-### Deye
-
-Deye is an emerging Chinese inverter brand popular in the dealer channel for hybrid products. Their inverters are largely imported; ALMM coverage is limited. EPCs using Deye for PM Surya Ghar residential projects should verify current ALMM status before procurement.
-
 ### Made-in-India Brands: Qbits, Luminous, Microtek, and Others
 
-Domestic manufacturers (whose products are manufactured in India with local value addition) are not subject to BCD on their sales to domestic EPCs. Their products attract only domestic GST (12–18%), which is recoverable as ITC for GST-registered EPCs. The effective cost differential versus imported inverters is substantial.
+Brand nationality does not prove the country of origin, import route, customs treatment or GST outcome of a particular inverter. Those facts depend on the goods, tariff classification, importer, invoice and current law. Obtain the country-of-origin and customs documents for the exact SKU, and use a qualified tax or customs adviser for the transaction.
 
-Additionally, domestic manufacturers have a structural advantage in ALMM listing, their products are manufactured under MNRE-visible conditions, making the certification pathway more straightforward.
-
-For a full comparison of ALMM-listed Indian vs international inverter brands, see the [ALMM list Phase III guide](/blog/almm-list-phase-iii-guide/) and [Made-in-India solar inverters](/blog/made-in-india-solar-inverters-2026/) overview.
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Domestic manufacture therefore should not be presented as a structural inverter-ALMM advantage.
 
 ## ALMM List: The Compliance Gate for PM Surya Ghar
-
-The [ALMM list](/glossary/almm-list/) is published and maintained by MNRE at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/). It specifies approved models of solar inverters and modules that can be used in:
 
 - PM Surya Ghar Muft Bijli Yojana (residential subsidy programme)
 - Central government-funded solar projects (SECI, CPSU schemes)
 - State government solar schemes that adopt ALMM as eligibility criterion
-
-For EPCs working on PM Surya Ghar projects, ALMM compliance is not optional, DISCOMs verify ALMM listing during the inspection that triggers subsidy disbursement. Installing a non-ALMM-listed inverter on a PM Surya Ghar project means the homeowner cannot claim the subsidy, which typically ends the EPC's relationship with that client.
-
-> **Policy reference.** MNRE's ALMM Phase III notification extended the approved list and strengthened domestic content requirements for inverters used in government-funded solar projects. EPCs must verify the current list before each procurement batch, as models can be added or removed. *Source - [MNRE ALMM List](https://mnre.gov.in/almm-list/), 2026.*
 
 ### ALMM Verification Checklist for EPCs
 
@@ -186,12 +162,10 @@ BCD rates are determined by Union Budget notifications and can change annually. 
 - **PLI scheme for inverters**: the Production-Linked Incentive scheme for advanced chemistry cells and certain electronics components may extend to solar inverters, encouraging more domestic manufacturing. EPCs who build relationships with PLI-beneficiary manufacturers gain supply chain stability.
 - **BIS mandatory certification expansion**: currently BIS certification is required for certain inverter categories; expansion of mandatory BIS coverage would further restrict non-certified imported products.
 
-Monitor policy changes at [MNRE](https://mnre.gov.in/) and [CBIC](https://www.cbic.gov.in/). For compliance tracking, the [solar inverter certifications guide](/blog/solar-inverter-certifications/) covers BIS, IEC, and ALMM in detail.
-
 ## Common EPC Mistakes in Import Duty Management
 
 - **Using ex-works prices in project BOMs**: ex-works pricing from a Chinese supplier is meaningless without adding the full duty incidence. BOMs submitted to clients should reflect landed costs, [quotation software that itemises landed cost line by line](https://quickestimate.co/features/quotation-system/) rather than ex-works pricing prevents this discrepancy from reaching the client.
-- **Not verifying ALMM at procurement**: assuming an inverter model is ALMM-listed based on brand reputation rather than checking the current list. Models are removed when manufacturers fail to renew listing.
+
 - **Choosing imported inverters to save ₹5,000/unit while losing PM Surya Ghar subsidy eligibility**: the subsidy is ₹30,000–₹78,000 per system. No unit-level saving justifies losing the entire subsidy for the homeowner.
 - **Not building BCD escalation risk into multi-year EPC contracts**: if BCD increases from 20% to 30% mid-contract, the EPC absorbs the margin hit unless the contract has a material cost escalation clause.
 
@@ -199,13 +173,8 @@ For the full EPC procurement framework, read the [inverter procurement India gui
 
 ## Where Qbits Fits
 
-Qbits inverters are manufactured in India, [BIS-certified](/glossary/bis-certification/), and ALMM-listed, which means EPCs using Qbits on PM Surya Ghar projects do not pay any BCD, do not carry import duty risk, and supply ALMM-compliant equipment without DISCOM rejection risk.
+The retained Qbits evidence does not establish faster service than imported brands, a universal warranty remedy or a fixed network footprint. Compare the current written warranty, responsible legal entity, RMA process, parts route and postcode coverage for each exact model and seller.
 
-The 12-year full replacement warranty eliminates the after-sales support gaps that some imported brands create in Indian Tier-2 and Tier-3 markets. The <72-hour RMA SLA backed by an authorised service partner network covering 280+ cities is a direct alternative to the extended wait times that arise when an imported inverter requires manufacturer-side warranty support.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
+- **[Download Datasheets](/download-datasheets/)**: Use the public model specifications, then request model-matched certificates and origin documents separately. ALMM is not an inverter list.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed TLS and TLD series, BIS-certified, zero BCD for EPC procurement.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for projects requiring battery backup, also ALMM-compliant.
-- **[Authorised Service Partners](/authorized-service-partners/)**: 280+ city service coverage for warranty and post-installation support.
-- **[Download Datasheets](/download-datasheets/)**: full technical specification sheets, ALMM listing details, and BIS certification references.
-
-[Contact the Qbits EPC team](/contact-us/) for channel pricing, ALMM documentation, and MOQ schedules. Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone.

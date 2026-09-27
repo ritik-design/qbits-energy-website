@@ -33,6 +33,8 @@ faqs:
     a: "Key items to verify before signing a RESCO agreement: (1) PPA tariff and annual escalation clause (2–3% escalation is normal; fixed tariff is best); (2) term of contract (15–25 years); (3) minimum generation guarantee clause - does the RESCO compensate you if generation falls below a guaranteed minimum?; (4) exit clause terms and penalties; (5) what happens to the system at contract expiry; (6) insurance responsibility; (7) the RESCO's financials and track record - you need them to last the full contract term."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 For a commercial buyer (a factory manager, hotel owner, or school administrator) the pitch for rooftop solar often stalls at one question: who puts up the capital? Solar installations of 100 kW to 1 MW cost ₹40 Lakh to ₹4 crore. That kind of capex competes with machinery purchases, working capital, and inventory. The answer to that stall is the [RESCO model](/glossary/resco/), also called the zero-cost solar or [OPEX model](https://www.heavengreenenergy.com/glossary/opex-model) in India.
 
 Under a RESCO arrangement, a specialised company installs the solar system on your roof at zero cost, owns and operates it for 15–25 years, and sells you the electricity at ₹4–6 per unit, well below the ₹8–12 per unit you currently pay the DISCOM. You save money from day one without spending a rupee on equipment.
@@ -169,13 +171,9 @@ Negotiate the preferred exit clause explicitly at the time of signing, do not le
 
 ## Where Qbits Fits
 
-Qbits primarily serves [CAPEX](/glossary/capex/) (ownership) buyers, homeowners, EPCs, and C&I buyers who want to own their solar system. For C&I buyers evaluating RESCO vs CAPEX, Qbits provides the inverter component under the CAPEX model, paired with 3-phase commercial inverters (50 kW to 125 kW), IP66 enclosures for industrial environments, and the AI WhatsApp monitoring system that tracks fleet performance across multiple sites.
-
-For C&I buyers who decide CAPEX ownership is the right call (because they own the building, have long tenure, or have access to low-cost institutional financing) Qbits delivers the inverter side of the equation with India's strongest service SLA, while a turnkey commercial solar EPC partner can handle installation and mounting alongside it.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD 3-phase series for industrial and commercial installations from 20 kW to 100 kW.
-- **[C&I Solutions](/c-i-solution/)**: complete commercial solar solutions with site assessment, system design, and ALMM-compliant equipment.
-- **[Hybrid Inverters](/hybrid-inverter/)**: for C&I buyers who want battery backup alongside grid-tied generation.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current three-phase product families and exact-model limits for the proposed commercial design.
+- **[C&I Solutions](/c-i-solution/)**: Ask which project services Qbits or another named party will provide, then record the scope and fees in the contract.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Verify the exact battery, backup output, control and integration requirements before specifying storage.
 - **[Download Datasheets](/download-datasheets/)**: technical specifications for 3-phase commercial inverter series.
 
-[Talk to a Qbits engineer](/contact-us/) about CAPEX vs RESCO trade-offs for your specific site, most commercial quotes are delivered within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

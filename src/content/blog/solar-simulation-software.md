@@ -145,7 +145,7 @@ If you would rather run all of this in the browser than on a Windows desktop, [c
 - **Choose PV*SOL** for Germany-only desktop workflows.
 - **Choose SAM** for research and sensitivity studies.
 
-For most installers and EPCs in 2026, SurgePV is the [solar design software](https://surgepv.com/) that consolidates the simulation workflow at the lowest total cost. From there, most teams move into [solar string sizing software](/blog/solar-string-sizing-software/) and then [solar takeoff software](/blog/solar-takeoff-software/) to turn the simulated layout into a procurement-ready bid. Once the simulation is locked, matching the DC:AC ratio to an actual datasheet is the next step. [Talk to a Qbits engineer](/contact-us/) to verify a specific inverter model against the output.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 <div class="inline-cta">
 <h3>Ready to run bankable simulation in the browser?</h3>

@@ -33,6 +33,10 @@ faqs:
     a: "A standard 2kW on-grid solar system does not work during power cuts - it automatically disconnects from the grid as a safety requirement (anti-islanding). If you want backup power during outages, you need a 2kW hybrid solar system with a battery bank, which costs an additional ₹50,000 to ₹1.2 lakh depending on battery type and capacity. Hybrid systems are the right choice for areas with frequent power outages."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Your electricity bill is ₹4,000 to ₹8,000 per month. You run a 1-ton air conditioner, a refrigerator, a washing machine, and the usual lights and fans in a 2 BHK home. You want to know whether a 2kW solar system will make a meaningful dent in that bill, and exactly what it will cost you before and after subsidy. This guide gives you a complete component-level [cost breakdown](https://www.heavengreenenergy.com/blog/solar-panel-cost-breakdown), a payback calculator for different state tariffs, and a clear load profile so you know what to expect.
 
 > **TL;DR**
@@ -54,7 +58,7 @@ Here is the full component-level cost breakdown for a standard 2kW on-grid resid
 | Component | Specification | Typical Cost (₹) |
 | --- | --- | --- |
 | Solar panels (4 × 535 Wp monocrystalline) | Tier-1 brand, 25-yr performance warranty | ₹42,000 – ₹54,000 |
-| On-grid solar inverter (2 kW) | BIS certified, ALMM-listed, single MPPT | ₹18,000 – ₹26,000 |
+
 | Balance of System (BOS) | Cables, junction box, SPD, MCB, RCCB, earthing | ₹10,000 – ₹14,000 |
 | Mounting structure | GI or aluminium, flat/sloped roof | ₹9,000 – ₹14,000 |
 | Installation and commissioning | Labour, wiring, net-meter application | ₹14,000 – ₹20,000 |
@@ -149,7 +153,6 @@ The subsidy process for 2kW follows the same steps as 1kW but with a larger cred
 - **Aadhaar card** linked to the account
 - **Bank account details** for direct credit
 - **Roof ownership proof** (if registered in a different name from the electricity account)
-- **Technical documents** submitted by the empanelled vendor (single-line diagram, inverter specification, panel specification with ALMM number)
 
 After installation and DISCOM inspection, the ₹60,000 subsidy is credited within 30 days. Some states are faster, Gujarat typically processes in 15–20 days for empanelled installers with clean documentation. Refer to the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) and the [eligibility page](/blog/pm-surya-ghar-eligibility/) for the full document list.
 
@@ -186,7 +189,6 @@ State subsidy amounts are updated periodically. Verify current amounts at the [M
 
 The most common errors when purchasing a 2kW system are avoidable with a little preparation:
 
-- **Over-relying on verbal subsidy promises**: The subsidy is paid after DISCOM verification. If the vendor uses non-ALMM components, the subsidy is denied. Always verify ALMM listing for both panels and inverter before signing.
 - **Not accounting for cable length**: Long roof-to-inverter DC cable runs increase voltage drop and heat. Runs longer than 15 metres should use 6mm² cable. Ask your installer to specify cable length and cross-section in writing.
 - **Undersizing the BOS for export**: If your DISCOM allows net metering and your evening consumption is low, your 2kW system may export up to 8 units/day. Ensure your isolator and MCB ratings account for this bidirectional current.
 - **Skipping monitoring**: Without app-based monitoring, you have no visibility into whether your system is performing as expected. A faulty connection or inverter fault can go undetected for weeks, costing 50–100 units of lost generation.
@@ -194,12 +196,6 @@ The most common errors when purchasing a 2kW system are avoidable with a little 
 
 ## Where Qbits Fits
 
-For a 2kW on-grid system, the inverter choice determines your monitoring experience, warranty coverage, and long-term reliability. Qbits on-grid inverters are ALMM-listed, BIS-certified, and built for India's 180–270V grid range, they keep generating through the voltage sags common in Tier-2 towns where other inverters trip offline.
-
-The 12-year full replacement warranty on Qbits inverters is particularly meaningful for a 2kW residential system, where the inverter is the most likely component to need attention in the first decade. An Indian-entity-backed warranty means someone actually answers the phone on the Tuesday afternoon when something goes wrong.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed 2kW units, subsidy-eligible, BIS-certified, compatible with all major panel brands including Waaree, Adani, Vikram, and Tata Power Solar.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm your 4-panel string matches the MPPT input range before ordering.
-- **[Residential Solar Solutions](/residential-solution/)**: Complete on-grid and hybrid packages for 2 BHK and 3 BHK homes across India.
+- **[Residential Solutions](/residential-solution/)**: Ask which equipment and project services are available, then obtain the scope, responsible party, exclusions and fees in writing.
 
-[Contact a Qbits engineer](/contact-us/) with your electricity bill and roof details, most quotes come back within 24 hours, shipped to 280+ Indian cities. If you would prefer a single turnkey contractor to handle sourcing and installation rather than assembling components yourself, a residential solar EPC provider can bundle the entire job under one contract.

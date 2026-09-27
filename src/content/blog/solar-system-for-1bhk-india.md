@@ -28,10 +28,14 @@ faqs:
   - q: "Is a 1 BHK solar system worth it financially?"
     a: "Yes. At current electricity tariffs of ₹6 to ₹8 per unit, a 2kW system after the ₹60,000 subsidy (net cost ₹50,000 to ₹70,000) generates ₹8,000 to ₹15,000 per year in bill savings, giving payback in 4 to 7 years. The panels carry a 25-year performance warranty, so 18 to 21 years of post-payback free electricity is the return. For renters or those uncertain about staying 5+ years, the economics are less compelling."
   - q: "Which inverter should a 1 BHK home choose?"
-    a: "A 1 BHK home should choose a 1kW or 2kW ALMM-listed on-grid inverter from a brand with at least a 5-year warranty and a local service network. The Qbits TLS-1500 (1.5kW) is the minimum recommended size as it handles a 1kW panel array with headroom for a second panel added later. For a 2kW system, the Qbits TLS-2000 is the primary choice, offering 12-year full replacement warranty, IP66, and AI WhatsApp monitoring."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How much roof space does a 1 BHK solar system need?"
     a: "A 1kW solar system requires 6 to 9 square metres of shadow-free roof area (2 panels of 500 Wp each). A 2kW system requires 12 to 18 square metres (4 panels of 500 Wp each). Most 1 BHK apartments and independent houses have sufficient terrace or roof space. Renters in apartments should note that rooftop rights typically belong to the building owner, and DISCOM net metering is usually available only to the electricity consumer on record."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Your 1 BHK electricity bill has crossed ₹1,500 per month and you have been thinking about solar. But every solar company wants to sell you a [3kW system](https://www.heavengreenenergy.com/blog/3kw-solar-system-in-india), and the quotes feel oversized for a home with one bedroom, one living area, and a small kitchen.
 
@@ -42,7 +46,7 @@ The question is not what the salesperson wants to sell you. The question is: wha
 > - Monthly consumption ranges 150–350 units without AC to 300–450 units with AC.
 > - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy is ₹30,000 for 1kW and ₹60,000 for 2kW, cutting net cost to ₹35,000–₹70,000.
 > - Payback lands in 4–7 years at current tariffs of ₹6–₹8 per unit.
-> - The Qbits TLS-1500 (1.5kW) and TLS-2000 (2kW) are the recommended ALMM-listed on-grid inverters for this segment.
+
 > - Do not accept a 3kW quote for a genuine 1 BHK load, it oversizes the system and wastes roof space.
 
 > **Direct answer.** A 1 BHK Indian home needs a 1kW solar system without AC or a 2kW system with AC. Monthly consumption is 150 to 350 units. Net cost after PM Surya Ghar subsidy is ₹35,000 to ₹70,000. Using the **True Cost of Going Solar** framework, payback lands in 4 to 7 years. Do not let anyone oversell you a 3kW system for a genuine 1 BHK load profile, it will not pay back faster and may waste roof space you do not have.
@@ -105,7 +109,7 @@ One factor most buyers overlook is that the same 1kW system generates very diffe
 The **True Cost of Going Solar** framework identifies five cost components for any solar system. For a 1 BHK:
 
 1. **Solar panels**: 2 to 4 panels of 500–550 Wp. Panel cost at ₹22–₹26/Wp: ₹22,000–₹57,200 depending on system size and panel quality.
-2. **Inverter**: A 1kW or 2kW ALMM-listed on-grid inverter: ₹10,000–₹25,000. Smaller inverters cost less in absolute terms but have similar quality tiers.
+
 3. **Balance of System (BOS)**: Mounting structure, cables, junction box, SPD, [earthing](/glossary/earthing/), [net meter interface](/glossary/net-metering/). For 1–2kW: ₹12,000–₹20,000.
 4. **Installation and commissioning**: Labour, civil, DISCOM application, following the same residential solar installation process EPCs use nationwide. For 1–2kW: ₹8,000–₹15,000.
 5. **[GST](/blog/gst-on-solar-inverters-2026/)**: 12% on panels, 12–18% on inverter and BOS. Approximate GST on 1–2kW system: ₹6,000–₹12,000.
@@ -169,12 +173,8 @@ The 2kW system pays back faster in absolute years because the higher consumption
 For a 1 BHK solar installation, three things matter most in inverter selection (the [complete solar inverter buying guide](/blog/how-to-choose-solar-inverter-for-home-india/) covers the full evaluation framework for any home size):
 
 - **[ALMM listing](/blog/almm-list-phase-iii-guide/)**: Mandatory for PM Surya Ghar subsidy. Verify before purchase.
-- **Warranty length**: At ₹12,000–₹25,000 inverter cost, a 5-year warranty is the minimum; a 12-year warranty means you will never replace the inverter during the panel's 25-year life.
+- **Warranty length**: At ₹12,000–₹25,000 inverter cost, a 5-year warranty is the minimum; a model-specific written warranty means you will never replace the inverter during the panel's 25-year life.
 - **Local service network**: For a small residential system, you need someone who can come out within 3 days of a fault. Remote support or a Delhi-based call centre is not sufficient for a Tier-2 city owner.
-
-**Qbits TLS-1500 (1.5kW on-grid):** The recommended minimum for a 1 BHK. Slightly oversized versus a 1kW array, but gives headroom to add a second panel later. ALMM Phase III listed, 12-year full replacement warranty, IP66, AI WhatsApp monitoring. India-grid-tuned for 180–270 V variation.
-
-**Qbits TLS-2000 (2kW on-grid):** For a 1 BHK with AC. Same warranty and protection specs. Dual-[MPPT](/glossary/mppt/) ready for panels at two orientations.
 
 For the full 1kW system cost breakdown including component-level verification, read the [1kW solar system price guide](/blog/1kw-solar-system-price-india/) and the [2kW solar system price guide](/blog/2kw-solar-system-price-india/).
 
@@ -195,18 +195,15 @@ India's rooftop solar market grew by approximately 26% in 2024, with the sub-3kW
 ## Common Mistakes 1 BHK Buyers Make
 
 - **Buying a [3kW system](/blog/3kw-solar-system-price-india/) on the salesperson's advice**: A 3kW system for a 200-unit/month 1 BHK will export most of its generation to the grid at a net metering rate that may be lower than the tariff you pay. The payback advantage disappears and you spend ₹50,000–₹70,000 more unnecessarily.
-- **Choosing a non-ALMM inverter**: Saves ₹3,000–₹5,000 on the inverter but loses ₹30,000 to ₹60,000 in PM Surya Ghar subsidy. A straightforward error with a large financial consequence, and one of the recurring patterns in our [solar inverter buying mistakes guide](/blog/solar-inverter-buying-mistakes/).
+
 - **Not checking net metering eligibility**: Apartment dwellers need to confirm that the DISCOM meters their unit individually (not the entire building) and that net metering is permitted in the building's electricity connection terms.
 - **Ignoring installation quality**: A 1kW system has only 2 panels. Saving ₹2,000 on a cut-rate installer who does not earth the system correctly creates a genuine safety risk, better to find a vetted local installer than the cheapest bidder. The [BIS certification mandate](https://bis.gov.in/) under IS 16221 and the CEA safety standards are non-negotiable for all grid-connected residential installations in India.
 - **Forgetting to apply for net metering**: Without a bi-directional net meter from your DISCOM, surplus solar power is wasted. The [net metering application guide](/blog/how-to-apply-net-metering-india/) walks through the process state by state.
 
-## Where Qbits Fits for a 1 BHK Home
+## Qbits model documentation
 
-For a 1 BHK homeowner who wants genuine after-sales support, a 12-year full replacement warranty, and AI-powered WhatsApp monitoring without paying import-brand prices, Qbits offers right-sized options:
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS series from 1.5kW, ALMM-listed, PM Surya Ghar subsidy-eligible.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS series for homes with frequent power cuts wanting battery backup alongside solar.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm your 1–2kW panel string is correctly configured before ordering.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Find a certified installer in your pincode for a safe, warranty-valid installation.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
-Ready to get a verified quote for your 1 BHK? [Talk to a Qbits engineer at contact-us](/contact-us/), share your latest electricity bill and we will right-size the system for your actual consumption, not the upsell.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

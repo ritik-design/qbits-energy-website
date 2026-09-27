@@ -263,8 +263,6 @@ RECs are tradable certificates representing 1 MWh of renewable generation. India
 
 ## Need help with REC strategy for your business?
 
-QBits Energy advises corporates on integrated renewable procurement strategies combining on-site solar, off-site PPAs and RECs for RE100 and BRSR compliance.
-
 ## Further reading
 
 For how Renewable Energy Certificate plays out in real projects, these guides go deeper:

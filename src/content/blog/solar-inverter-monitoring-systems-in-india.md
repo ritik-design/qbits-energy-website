@@ -27,6 +27,8 @@ faqs:
     a: "WhatsApp is the dominant communication channel in India. Alerts reach installers and clients on the platform they already check constantly - no separate app to install, no login fatigue, faster response times, and 30–40% fewer support calls."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 In India's rapidly expanding solar landscape, installing panels and inverters marks only the beginning. The genuine value comes from **continuous inverter monitoring**: observing, analysing, and optimising in real time. Modern monitoring has evolved from basic LCD displays to sophisticated AI-powered platforms delivering WhatsApp alerts, remote diagnostics, and predictive maintenance.
 
 > **TL;DR**
@@ -314,8 +316,6 @@ Selecting the right technology partner is crucial. Look for:
 - WhatsApp alert integration
 - India-based server storage
 - Comprehensive monitoring platform with strong support
-
-Qbits inverters include all of these as standard, with **12-year full replacement warranty** and **IP66 protection** for the underlying hardware. EPC teams evaluating monitoring platforms alongside their broader tech stack can compare notes with [solar installer software](https://surgepv.com/for-solar-installers/) built for the same portfolio-management workflow, and homeowners comparing a full system quote can check current pricing on a solar cost calculator alongside the monitoring specification.
 
 ## Closing
 

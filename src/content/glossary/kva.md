@@ -1,233 +1,60 @@
 ---
-term: "kVA"
-title: "kVA (Kilovolt-Ampere): Definition, Calculation & Solar Applications"
-description: "kVA is the unit of apparent power in AC circuits. Full guide to calculation and solar inverter/transformer applications."
-category: "Electrical Basics"
-categorySlug: "electrical-basics"
-priority: "P2"
-updatedDate: 2026-07-08
+term: kVA
+title: 'kVA vs kW: Apparent Power and Inverter Sizing'
+description: kVA measures apparent AC power; kW measures active power. See single-phase and three-phase formulas, a checked example and what an inverter rating means.
+category: Electrical Basics
+categorySlug: electrical-basics
+priority: P2
+updatedDate: 2026-09-23
 keywords:
-  - what is kva
-  - kilovolt ampere
-  - kva vs kw
-  - kva rating
-  - inverter kva
-shortDefinition: "Kilovolt-ampere (kVA) is the unit of apparent power in an AC circuit, equal to the product of RMS voltage and RMS current divided by 1,000. Solar inverters, transformers and UPS are rated in kVA because their thermal capacity depends on apparent power, not just active power."
+- what is kva
+- kva vs kw
+- inverter kva rating
+- kilovolt ampere
+shortDefinition: Kilovolt-ampere (kVA) is a unit of apparent AC power. For sinusoidal single-phase conditions, apparent power in kVA is RMS voltage times RMS current divided by 1,000.
 quickFacts:
-  industry: "Electrical Engineering / Solar PV"
-  primaryUse: "Apparent power rating for AC equipment"
-  commonUsers: "Engineers, installers, customers"
-  relevantStandards: "IEC 80000-1, IEEE standards"
-  relatedTechnologies: "Transformer, inverter, UPS, generator"
+  industry: AC electrical engineering
+  primaryUse: Stating apparent-power ratings of equipment
+  commonUsers: Engineers, installers and buyers
+  relatedTechnologies: Inverters, transformers and generators
 relatedTerms:
-  - { slug: "kwh", term: "kWh" }
-  - { slug: "power-factor", term: "Power Factor" }
-  - { slug: "voltage", term: "Voltage" }
-  - { slug: "current", term: "Current" }
-  - { slug: "reactive-power", term: "Reactive Power" }
-  - { slug: "active-power", term: "Active Power" }
-  - { slug: "apparent-power", term: "Apparent Power" }
-  - { slug: "solar-inverter", term: "Solar Inverter" }
-  - { slug: "off-grid-inverter", term: "Off Grid Inverter" }
-  - { slug: "hybrid-inverter", term: "Hybrid Inverter" }
-  - { slug: "transformer", term: "Transformer" }
-  - { slug: "sanctioned-load", term: "Sanctioned Load" }
-  - { slug: "discom", term: "DISCOM" }
+- { slug: power-factor, term: Power Factor }
+- { slug: active-power, term: Active Power }
+- { slug: apparent-power, term: Apparent Power }
+- { slug: solar-inverter, term: Solar Inverter }
 faqs:
-  - q: "What is kVA in simple words?"
-    a: "A rating that combines voltage and current in AC circuits. kVA tells you how much the equipment can handle in terms of total power flow, including reactive."
-  - q: "What is the formula for kVA?"
-    a: "kVA = (V × I) / 1000 for single-phase AC. kVA = (√3 × V × I) / 1000 for three-phase."
-  - q: "kVA vs kW, what is the difference?"
-    a: "kVA is apparent power. kW is active power. kW = kVA × power factor."
-  - q: "Why are inverters rated in kVA?"
-    a: "Their thermal capacity depends on apparent power, which includes reactive support. A 5 kVA inverter at 0.8 PF delivers 4 kW active."
-  - q: "What kVA inverter do I need for my home?"
-    a: "Sum your peak simultaneous load including surge. Typical Indian home with fridge, lights, fans and 1 ton AC needs 3 to 5 kVA. Add 25% headroom."
-  - q: "Is sanctioned load in kW or kVA?"
-    a: "Indian DISCOM sanctioned load is typically in kVA for C&I and kW for residential."
-  - q: "What is kVA in transformers?"
-    a: "Transformer rating in kVA. A 1 MVA transformer can handle 1,000 kVA of apparent power at rated voltage and current."
-  - q: "kVA vs kVAR?"
-    a: "kVA is apparent (total). kVAR is reactive (the non-working part)."
-  - q: "How is kVA measured?"
-    a: "From voltage and current measurements. Power quality analysers compute kVA directly."
-  - q: "What is the typical inverter kVA range?"
-    a: "Residential: 1 to 10 kVA. C&I: 10 to 100 kVA. Utility string: 100 to 350 kVA. Central: 500 kVA to 5 MVA."
-  - q: "Can I run a 4 kW load on a 4 kVA inverter?"
-    a: "Only at unity power factor. Most inductive loads have PF below 1, so a 4 kVA inverter delivers less than 4 kW active to inductive loads."
-  - q: "What is kVA peak rating?"
-    a: "Short-duration capability typically 1.5 to 2x continuous. Used for motor starting surges."
-  - q: "Does kVA include surge?"
-    a: "Continuous kVA does not include surge. Peak kVA is separately specified."
-  - q: "Why is generator rated in kVA?"
-    a: "Same as transformers and inverters. Apparent power capacity reflects thermal limit."
-  - q: "What is the relationship between kVA and Amperes?"
-    a: "I (single-phase) = kVA × 1000 / V. I (three-phase) = kVA × 1000 / (√3 × V)."
-author: "Nirav Dhanani"
+- q: What does kVA mean?
+  a: Kilovolt-ampere is a unit of apparent AC power, based on RMS voltage and current.
+- q: How do I convert kVA to kW?
+  a: Multiply apparent power in kVA by the actual power factor. For example, 5 kVA at 0.8 power factor is 4 kW of active power, if both ratings apply under the same conditions.
+- q: Is a 5 kVA inverter always a 5 kW inverter?
+  a: No. Check its continuous active-power rating, allowable power factor, output voltage, surge rating and load conditions on the exact model datasheet.
+- q: What is the three-phase apparent-power formula?
+  a: For balanced three-phase sinusoidal conditions, kVA equals square root of 3 times line-to-line RMS voltage times line current, divided by 1,000.
+author: Nirav Dhanani
 ---
 
-## What is kVA
+## What is kVA?
 
-Kilovolt-ampere (kVA) is the unit of apparent power in an AC circuit, equal to the RMS product of [voltage](/glossary/voltage/) and [current](/glossary/current/) divided by 1,000. It represents the total power flowing through the circuit, including both the active (real) component and the [reactive power](/glossary/reactive-power/) (oscillating) component.
+**kVA (kilovolt-amperes)** measures **apparent power** in an AC circuit. It combines RMS voltage and current. **kW (kilowatts)** measures active power delivered to loads or the grid. The two are related by the actual [power factor](/glossary/power-factor/) under the same operating conditions.
 
-> **TL;DR**
-> - kVA is apparent power in an AC circuit; kW is active power. kW = kVA × power factor.
-> - Solar inverters, transformers and UPS are rated in kVA because their thermal capacity depends on total current, not just active power.
-> - A 5 kVA inverter at 0.8 power factor delivers only 4 kW of usable active power.
-> - Indian residential inverters typically range 1 to 10 kVA; C&I systems run 10 to 100 kVA.
-> - DISCOMs sanction commercial and industrial contract demand in kVA, and exceeding it attracts a surcharge.
+For a sinusoidal single-phase circuit: **kVA = volts RMS × amperes RMS ÷ 1,000**. For a balanced three-phase circuit: **kVA = √3 × line-to-line volts RMS × line amperes RMS ÷ 1,000**. Use the correct voltage and current convention before applying a formula to a real connection.
 
-Apparent power S = √(P² + Q²), where P is active power (kW) and Q is reactive power (kVAR). The relationship is:
+## kVA versus kW: a checked example
 
-kW = kVA × cos(φ) = kVA × [power factor](/glossary/power-factor/)
+If an inverter can supply **5 kVA** continuously at a power factor of **0.8**, its active power at that operating point is **5 × 0.8 = 4 kW**. At a power factor of 1.0, **5 kVA** corresponds to **5 kW**, but only if the product's separate continuous kW rating also permits it. These are arithmetic examples, not Qbits model specifications.
 
-Solar inverters, transformers, UPS and generators are rated in kVA rather than kW because their thermal capacity (heating in windings and components) depends on total current flow, which is determined by apparent power. A 5 kVA inverter operating at PF 0.8 delivers only 4 kW of active power but carries the full 5 kVA of current.
+| Quantity | Unit | What it helps answer |
+| --- | --- | --- |
+| Apparent power | kVA | How much voltage-current product the AC equipment carries |
+| Active power | kW | How much real power is delivered or consumed |
+| Energy | kWh | How much active energy is delivered over time |
+| Power factor | Unitless ratio | How active power compares with apparent power |
 
-## Why kVA matters
+A 5 kVA label alone does not tell you battery backup duration, motor-start capability, PV input or grid-export approval. Read those specifications separately.
 
-Equipment rating. The right way to size inverters, transformers and generators.
+## Using kVA in inverter selection
 
-Surge capability. Motor start currents and inductive loads draw apparent power, not just active.
+Check the exact [inverter datasheet](/download-datasheets/) for both **continuous kW and kVA**, permitted power-factor range, phase, output voltage and short-duration overload. A motor can require a higher starting current than its normal-running kW suggests. A site may also have a DISCOM contract-demand rule that uses a different measurement period or unit; inspect the actual tariff and bill.
 
-DISCOM contract demand. Indian C&I contract demand is in kVA.
-
-Reactive support. Inverter reactive capability is bounded by kVA rating.
-
-Transformer sizing. Apparent power determines transformer capacity needed.
-
-## How kVA is calculated
-
-Single-phase: kVA = (V × I) / 1000
-Three-phase: kVA = (√3 × V × I) / 1000
-
-Examples:
-- Single-phase 230 V × 21.7 A = 5.0 kVA
-- Three-phase 415 V × 27.8 A = 20.0 kVA
-
-The choice between single-phase and three-phase equipment affects how this apparent power is distributed; see our [3-phase solar inverter guide](/blog/3-phase-solar-inverter/) for how Indian installers decide between the two.
-
-## Technical deep dive
-
-### kVA to kW conversion
-
-| Power factor | kW per kVA |
-|---|---|
-| 1.00 | 1.00 |
-| 0.95 | 0.95 |
-| 0.90 | 0.90 |
-| 0.85 | 0.85 |
-| 0.80 | 0.80 |
-| 0.70 | 0.70 |
-
-### Indian inverter kVA range
-
-| Inverter type | Typical kVA range |
-|---|---|
-| Residential single-phase | 1 to 10 |
-| Residential three-phase | 5 to 15 |
-| C&I single-phase | 5 to 15 |
-| C&I three-phase | 10 to 100 |
-| Utility string | 100 to 350 |
-| Central inverter | 500 to 5,000 |
-
-### Surge capability
-
-| Load type | Surge factor |
-|---|---|
-| Resistive (heater, light) | 1 |
-| Modern LED, computer | 1.5 to 2 |
-| Fan, fluorescent | 2 to 3 |
-| Refrigerator compressor | 3 to 5 |
-| AC compressor | 4 to 6 |
-| Water pump | 5 to 7 |
-| Direct-on-line motor | 6 to 8 |
-
-Inverter sizing must accommodate surge from inductive loads.
-
-### Transformer rating
-
-A transformer's nameplate kVA rating defines its thermal capacity. Operating at 100 percent kVA continuously is the design limit. Short-term overloads of 110 to 150 percent for less than an hour are typically allowed per IS 2026. The presence or absence of a transformer stage also changes how an inverter's kVA rating is achieved, as explained in our [transformerless vs transformer-based inverter comparison](/blog/transformerless-vs-transformer-inverter/).
-
-## Real-world applications
-
-[Solar inverter](/glossary/solar-inverter/) selection, including from a range of kVA-rated inverters.
-
-Home backup [hybrid inverter](/glossary/hybrid-inverter/) sizing, covered in our [best hybrid solar inverters in India](/blog/best-hybrid-solar-inverter-india-2026/) roundup.
-
-Transformer specification for solar plants.
-
-UPS sizing.
-
-DISCOM sanctioned load (contract demand).
-
-Generator sizing.
-
-PPA capacity definition, which feeds into [generation and PPA financial modeling](https://surgepv.com/generation-financial-tool/).
-
-## Common kVA problems
-
-Inverter rated in kVA but customer assumes equivalent kW capacity at low PF loads.
-
-Sanctioned demand penalty for C&I customers exceeding contract kVA.
-
-Transformer thermal overload due to reactive flow at low PF.
-
-[Off-grid inverter](/glossary/off-grid-inverter/) trip on motor start because surge exceeds kVA rating.
-
-## Best practices
-
-Size inverter kVA to actual peak load, not nominal load.
-
-Account for surge of inductive loads.
-
-Specify continuous and peak kVA in purchase orders.
-
-Match transformer kVA to plant DC capacity plus 10 to 20 percent.
-
-Document PF assumption when converting kVA to kW for marketing or [customer quotations](https://quickestimate.co/features/quotation-system/).
-
-## Indian market context
-
-[DISCOMs](/glossary/discom/) sanction C&I demand in kVA. Demand exceedance attracts surcharge.
-
-Inverter nameplate in kVA is standard practice for off-grid and hybrid inverters.
-
-CEA Grid Code references kVA for connection capacity.
-
-PM Surya Ghar residential systems are typically sized in kW (active output), with kVA being a secondary specification.
-
-## Standards and certifications
-
-| Standard | Scope |
-|---|---|
-| IEC 80000-1 | SI units |
-| IS 17387 | Inverter grid interconnection |
-| IS 2026 | Transformer ratings |
-| CEA Grid Code | Connection capacity |
-
-## Key takeaways
-
-kVA is the apparent power rating used for AC equipment whose thermal capacity depends on total current. Solar inverters, transformers, generators and UPS are kVA-rated. The relationship kW = kVA × PF is fundamental. Sizing inverters for surge loads, sanctioned demand and reactive support all use kVA.
-
-## Need help with kVA sizing?
-
-QBits Energy provides kVA-based sizing for solar inverters, transformers and hybrid backup systems across India.
-
-## Further reading
-
-For how kVA plays out in real projects, these guides go deeper:
-
-- [Solar Inverter Efficiency: 95% vs 97% vs 98%](/blog/solar-inverter-efficiency/)
-- [Monsoon Solar Prep: Complete Checklist for India](/blog/monsoon-solar-prep/)
-
-## Sources
-
-- IEC 80000-1, SI Units.
-- IS 17387, Indian Standard for utility-interconnected PV inverters.
-- IS 2026, Power transformers.
-- CEA Technical Standards 2019.
-- IEEE Standard Dictionary of Electrical and Electronics Terms.
-- Manufacturer datasheets from major solar inverter brands.
-- IEC 60076 series, Power transformers.
-- State SERC tariff orders for kVA-based contract demand.
+The [solar inverter sizing guide](/blog/solar-inverter-sizing/) explains the full equipment choice. Avoid the previous page's universal “add 25%” home-sizing rule: the safe margin depends on the specified loads, start-up behavior, product ratings and circuit design. Ask an installer to verify the load schedule rather than choosing solely from a kVA conversion.

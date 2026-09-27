@@ -285,8 +285,6 @@ LCOE is the lifetime cost of electricity from a solar plant, expressed in ₹ pe
 
 ## Need bankable LCOE modelling for your solar project?
 
-QBits Energy provides LCOE analysis for utility, C&I and residential solar projects with site-specific assumptions and sensitivity scenarios.
-
 ## Further reading
 
 For how LCOE plays out in real projects, these guides go deeper:

@@ -180,4 +180,4 @@ Chile is a geography problem wrapped around a tariff problem.
 - **Use site weather, always.** Four thousand kilometres of latitude means a national dataset is wrong nearly everywhere.
 - **Size to the load curve, but relax about modest oversizing.** The credit is below retail, though it accumulates rather than expiring.
 - **Watch the 300 kW line.** Crossing it changes regime, and it should be a decision rather than an accident.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Chilean address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

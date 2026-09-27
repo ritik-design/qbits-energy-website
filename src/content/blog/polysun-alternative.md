@@ -194,8 +194,6 @@ Read the "couples PV with thermal and heat pumps" column first. It is the only c
 - **Choose Aurora Solar** if you sell residential PV in the United States and NEC depth matters more than international coverage.
 - **Choose OpenSolar** if fixed software cost has to be near zero and your roofs are simple.
 
-Whichever way the fork goes, the electrical side eventually meets real hardware. A string that clears the simulation still has to sit inside a real inverter's MPPT voltage window at your site's winter minimum temperature. Teams sizing [hybrid inverter](/glossary/hybrid-inverter/) or on-grid options for a finished design can [get a spec walkthrough from a Qbits engineer](/contact-us/) rather than reconciling datasheets by hand.
-
 ## The Bottom Line
 
 Polysun is a specialist tool doing a specialist job well, and the market for genuine multi-energy simulation is small enough that its competitors are academic packages rather than commercial PV platforms. The mistake is not choosing Polysun. The mistake is keeping it as a default long after your project mix stopped needing it. Our companion [Polysun review](/blog/polysun-review/) goes deeper on the product itself if you want the fuller picture before deciding.

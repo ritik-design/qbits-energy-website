@@ -1,188 +1,133 @@
 ---
-title: "Solar Panel Price in India 2026: All Brands, All Wattages"
-excerpt: "Solar panel price in India 2026 ranges from Rs 15 to Rs 35 per watt by technology and brand. Full tables for Waaree, Adani, Tata, Luminous, and Goldi."
-description: "Complete solar panel price guide for India 2026: per-watt and per-panel prices for mono PERC, TOPCon, and bifacial panels from Waaree, Adani, Tata Power, Luminous, and Goldi, plus DCR vs non-DCR gaps, GST, and installer system pricing."
-category: "Buying Guide"
+title: 'Solar Panel Price in India: Per Watt, Per kW and Installed Cost'
+seoTitle: 'Solar Panel Price in India: Per Watt, Per kW & Installed Cost'
+excerpt: Compare dated solar panel prices in ₹/W and ₹/kWp with the official installed-system benchmark, subsidy treatment and quote exclusions.
+description: Compare dated solar panel prices in ₹/W and ₹/kWp with the official installed-system benchmark, subsidy treatment and quote exclusions.
+category: Buying Guide
 date: 2026-07-23
-updatedDate: 2026-07-23
-readTime: "19 min"
-image: "/blog-images/solar-panel-price-india.svg"
-author: "Nirav Dhanani"
+updatedDate: 2026-09-26
+readTime: 9 min
+image: /og/blog-solar-panel-price-india.webp
+author: Nirav Dhanani
 keywords:
-  - solar panel price india
-  - solar panel price per watt india
-  - waaree solar panel price
-  - adani solar panel price
-  - 550w solar panel price india
-  - dcr vs non dcr solar panel price
-  - bifacial solar panel price india
+- solar panel price india
+- solar panel price per watt india
+- solar panel price per kw india
+- installed solar system cost india
+- 550w solar panel price india
+- dcr solar panel price per watt
+- non dcr solar panel price
 faqs:
-  - q: "What is the price of a solar panel in India in 2026?"
-    a: "A single solar panel in India costs between Rs 7,000 and Rs 23,000 in 2026, depending on wattage, technology, and brand. A 400 W mono PERC panel from a Tier 1 Indian brand costs Rs 7,000 to Rs 10,000. A 540 to 550 W mono PERC panel costs Rs 9,000 to Rs 14,000. A 580 to 620 W TOPCon or bifacial panel costs Rs 13,000 to Rs 23,000 at online retail. On a per-watt basis, mono PERC runs Rs 18 to Rs 26 per watt, TOPCon Rs 20 to Rs 28 per watt, and bifacial Rs 24 to Rs 35 per watt. Wholesale dealer prices run 15 to 25 percent below online retail."
-  - q: "What is the difference between DCR and non-DCR solar panel prices?"
-    a: "DCR (Domestic Content Requirement) panels use Indian-made cells and cost Rs 27 to Rs 36 per watt. Non-DCR panels use imported cells and cost Rs 15 to Rs 32 per watt, typically 10 to 15 percent cheaper upfront. However, only DCR panels qualify for the PM Surya Ghar central subsidy of up to Rs 78,000 on a 3 kW system. A homeowner who buys non-DCR panels to save Rs 10,000 to Rs 15,000 forfeits a subsidy worth four to eight times that amount, so DCR wins for every subsidised residential rooftop."
-  - q: "Which is the cheapest Tier 1 solar panel brand in India?"
-    a: "Adani Solar and Goldi Solar typically offer the lowest per-watt prices among large Indian manufacturers, with non-DCR mono PERC panels available at Rs 15 to Rs 20 per watt at the dealer level. Waaree and Adani DCR panels trade around Rs 22 to Rs 27 per watt. Tata Power Solar commands a premium of Rs 2 to Rs 4 per watt over Waaree for equivalent technology, which reflects brand trust and service network rather than a large efficiency gap. Luminous sits in the mid-market for residential buyers."
-  - q: "How much does a 550W solar panel cost in India?"
-    a: "A 540 to 550 W solar panel costs Rs 9,000 to Rs 14,000 from Tier 1 Indian brands in 2026, which works out to Rs 18 to Rs 26 per watt. Waaree 550 W mono PERC bifacial panels retail online around Rs 20,999 per pair or roughly Rs 19 per watt in bulk. Luminous 550 W mono PERC panels list around Rs 11,900 to Rs 14,000 at online dealers. Goldi 550 W mono panels have been quoted as low as Rs 14.50 per watt at wholesale in Rajasthan. Online marketplace prices run higher than installer supply-chain prices."
-  - q: "Is TOPCon worth the extra cost over mono PERC?"
-    a: "TOPCon panels cost Rs 2 to Rs 4 more per watt than mono PERC but deliver 1.5 to 2 percentage points higher efficiency (22 to 23 percent versus 20 to 21 percent) and degrade more slowly. On a roof-constrained home where every square metre counts, TOPCon earns back the premium through 4 to 6 percent higher lifetime generation. On an open terrace with space to spare, mono PERC remains the better value. For a 5 kW system, the TOPCon premium is roughly Rs 10,000 to Rs 20,000 on panels alone."
-  - q: "How much GST is charged on solar panels in India?"
-    a: "Solar panels attract 12 percent GST in India. When panels are supplied as part of a complete solar power system installation, the contract is treated as a composite supply: 70 percent of the value is taxed at 12 percent for goods and 30 percent at 18 percent for services. This gives an effective GST rate of roughly 13.8 percent on the total contract value. For subsidy claims under PM Surya Ghar, the GST is included in the benchmark cost ceiling, so the homeowner is not separately penalised for it."
-  - q: "Why did solar panel prices increase in India in 2026?"
-    a: "Panel prices rose modestly in early 2026 after the United States imposed a 126 percent tariff on Indian solar modules in February 2026, cutting India off from its largest export market. Exports fell sharply and manufacturers redirected supply domestically. Rising input costs and the ALMM List-II mandate for Indian-made cells from June 1, 2026 pushed retail prices up across brands. The correction has been mild for residential buyers: Rs 1 to Rs 3 per watt at the retail level for most brands."
-  - q: "How many solar panels do I need for a 3kW or 5kW system?"
-    a: "A 3 kW system needs 6 panels of 540 W or 5 panels of 600 W. A 5 kW system needs 9 to 10 panels of 540 W or 8 to 9 panels of 580 W TOPCon. Roof space required is roughly 18 to 22 square metres for 3 kW and 30 to 35 square metres for 5 kW. Higher-wattage panels reduce panel count and mounting structure cost but cost slightly more per watt, so the total bill difference is small either way."
+- q: What is the solar panel price per watt in India?
+  a: 'Four official-store examples checked on 26 September 2026 worked out to ₹18.73/W to ₹26.27/W. That is the span between those named listings, not a national market range. Compare the exact model, tax, freight, quantity, DCR status and checkout price before buying.'
+- q: What does 1 kW of solar panels cost?
+  a: 'Applying the observed ₹18.73/W to ₹26.27/W examples to exactly 1,000 W gives about ₹18,700 to ₹26,300 as a module-only planning subtotal. Real arrays use whole panels, so the purchased capacity rarely lands at exactly 1 kWp. This figure excludes the inverter, structure, electrical balance of system, labour, approvals, delivery and any battery.'
+- q: What is the installed solar cost per kW in India?
+  a: 'The MNRE residential CFA guidelines set a scheme benchmark of ₹50,000 per kW for the first 2 kW and ₹45,000 for each additional kW, effective 13 February 2024. This is a policy benchmark, not a compulsory market price. The same guidelines say the consumer and registered vendor mutually decide the rate and system scope.'
+- q: Does buying a DCR panel guarantee PM Surya Ghar assistance?
+  a: 'No. DCR compliance is one condition for an installation claiming central assistance. The consumer, vendor, application, installed system and DISCOM inspection must also meet the current scheme requirements. Treat the approved assistance as a post-installation amount, not an automatic discount on a panel purchase.'
 featured: false
+relatedSlugs:
+- 1kw-solar-system-price-india
+- 5kw-solar-system-price-india
+- pm-surya-ghar-yojana-complete-guide
 ---
 
-Roughly 8,000 people a month search for solar panel prices in India. Most get a half answer. They find a per-watt number with no brand attached. Or a brand price list with no date. Or a marketplace listing inflated 30 percent over installer pricing. This guide fixes that with dated 2026 numbers. You get per-watt and per-panel prices by technology. You also get brand tables for Waaree, Adani, Tata Power, Luminous, and Goldi. Then the DCR versus [non-DCR](https://heavendesigns.in/blog/dcr-vs-non-dcr-solar-panels/) gap, GST treatment, and what installers actually charge for the full system.
+Solar panel price in India is not one number. For a useful budget, separate **module-only price**, **installed system cost before subsidy**, and **your amount after approved subsidy**.
 
-One disclosure before the numbers. Qbits Energy makes solar inverters, not panels. We buy and specify panels alongside our inverters on thousands of installations. So we see real dealer pricing rather than brochure pricing. That is also why this guide ends with the inverter and full-system bill. The panel is only 50 to 55 percent of what you will actually spend.
+Official-store examples checked on 26 September 2026 span **₹18.73/W to ₹26.27/W**, or about **₹18,700 to ₹26,300 per kWp of modules**. The Ministry of New and Renewable Energy (MNRE) publishes a higher whole-system benchmark of **₹50,000 per kW for the first 2 kW and ₹45,000 for each additional kW**. That benchmark is not a fixed installer tariff.
 
-> **TL;DR**
-> - Solar panel prices in India 2026 range from Rs 15 to Rs 35 per watt. Mono PERC runs Rs 18 to 26, TOPCon Rs 20 to 28, and bifacial Rs 24 to 35.
-> - A single 540 to 550 W panel from a Tier 1 Indian brand costs Rs 9,000 to Rs 14,000 at retail.
-> - DCR panels cost Rs 27 to 36 per watt versus Rs 15 to 32 for non-DCR. Only DCR panels qualify for the [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy of up to Rs 78,000.
-> - Waaree and Adani DCR panels trade around Rs 22 to 27 per watt. Tata Power Solar carries a Rs 2 to 4 per watt brand premium, according to Kondaas Automation, 2026.
-> - GST on solar panels is 12 percent. Full system installs pay an effective 13.8 percent under the composite supply rule.
-> - Panels are only half the bill. A 5 kW system costs Rs 2.5 to 3.5 Lakh all-in, with inverter, structure, wiring, and labour making up the rest.
-> - Prices rose Rs 1 to 3 per watt in 2026. US tariffs hit Indian module exports and the ALMM List-II cell mandate took effect on June 1, 2026.
+Qbits Energy makes solar inverters. It does not sell solar panels or installation. The panel figures below come from the named manufacturers' stores, and no figure is a Qbits product price or project quote.
 
-**Short version.** In 2026, solar [panel price](https://quickestimate.co/blog/solar-panel-price-trends) in India runs Rs 18 to 26 per watt for mono PERC. TOPCon costs Rs 20 to 28 and bifacial Rs 24 to 35. A 550 W panel costs Rs 9,000 to Rs 14,000 retail. Buy DCR (Indian cell) panels if you want the PM Surya Ghar subsidy. The small non-DCR discount is never worth losing up to Rs 78,000.
+## The three prices buyers should not mix
 
-For a 3 kW home system, panels will cost Rs 55,000 to Rs 80,000 of a Rs 1.8 to 2.2 Lakh total bill. The [3kW solar system price breakdown](/blog/3kw-solar-system-price-india/) covers the full system economics. This post focuses on the panel line item itself.
-
-## Solar Panel Price Per Watt in India 2026: The Master Table
-
-The per-watt price is the only honest way to compare panels across wattages and brands. Here is where the Indian market sits in July 2026, based on dealer quotes and brand price lists.
-
-| Technology | Retail Price (Rs/W) | Dealer/Bulk Price (Rs/W) | Typical Efficiency |
+| Price layer | Dated reference | What it includes | What it does not establish |
 | --- | --- | --- | --- |
-| Polycrystalline (legacy) | 14 to 18 | 11 to 14 | 16 to 17% |
-| Mono PERC monofacial | 18 to 26 | 14 to 20 | 20 to 21% |
-| Mono PERC bifacial | 22 to 30 | 18 to 24 | 21 to 22% |
-| TOPCon monofacial | 20 to 28 | 16 to 22 | 22 to 23% |
-| TOPCon bifacial | 24 to 35 | 20 to 28 | 22.5 to 23.5% |
-| HJT (premium) | 30 to 40 | 26 to 34 | 23 to 24% |
+| Panel only | ₹18.73/W to ₹26.27/W across four named official-store examples | One solar-module SKU at the displayed price | A national range, freight, roof work, inverter, balance of system or installation |
+| Panels per kWp | About ₹18,700 to ₹26,300 per kWp by arithmetic | Exactly 1,000 W at the observed ₹/W | A buyable array using whole panels or a complete 1 kW system |
+| Installed-system benchmark | ₹50,000/kW for the first 2 kW, then ₹45,000 per additional kW | MNRE's residential rooftop system benchmark, effective 13 February 2024 | A compulsory vendor rate, a quote for your roof or a guaranteed final bill |
 
-These ranges align with the Rs 18 to 35 per watt band reported for 2026, according to [Best Solar System](https://bestsolarsystem.in/solar-panel-price-per-watt-in-india/), 2026.
+The scheme benchmark comes from the current [MNRE residential CFA guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/). Those guidelines also say the consumer may choose a registered rooftop-solar vendor at mutually decided rates. In other words, the benchmark is a planning and subsidy reference. Your contract price is negotiated.
 
-Three things to notice. First, polycrystalline is effectively dead for new rooftop installs. Remaining stock sells at clearance prices. Second, the retail-to-dealer gap is 15 to 25 percent. That is why online marketplace prices look inflated next to installer quotes. Third, TOPCon has nearly closed the price gap with mono PERC. That was not true even 18 months ago.
+## Solar panel prices per watt: official-store examples
 
-## Panel Prices by Wattage: 400 W to 620 W
+The table uses displayed selling prices, not crossed-out MRPs. Price per watt equals the displayed module price divided by its rated wattage.
 
-Wattage is the second axis buyers search by. Higher-wattage panels cost more per piece but roughly the same per watt. A small premium appears at the top end for the newest cell formats.
-
-| Panel Wattage | Technology Typically Used | Price Per Panel (Retail) | Price Per Watt |
-| --- | --- | --- | --- |
-| 400 to 430 W | Mono PERC | Rs 7,000 to 10,000 | Rs 17 to 24 |
-| 450 to 500 W | Mono PERC | Rs 8,000 to 12,000 | Rs 17 to 24 |
-| 540 to 550 W | Mono PERC / bifacial | Rs 9,000 to 14,000 | Rs 17 to 26 |
-| 575 to 590 W | TOPCon | Rs 12,000 to 17,000 | Rs 20 to 29 |
-| 600 to 620 W | TOPCon bifacial | Rs 14,000 to 23,000 | Rs 23 to 37 |
-
-Two practical notes. The 540 to 550 W class is the volume sweet spot for residential rooftops in 2026. It carries the most competitive pricing per watt. The 600 W-plus class targets commercial roofs, where panel count and structure cost matter more than per-watt price. Online retail prices for these include heavy marketplace margins. The Loom Solar 600 W TOPCon bifacial lists at Rs 22,599, according to [MagicDrop](https://magicdrop.in/drops/bifacial-solar-panels), 2026.
-
-## Brand-by-Brand Solar Panel Prices 2026
-
-Brand tier moves the price more than wattage does. Here is what the five most-searched Indian brands cost in 2026, using dealer-level DCR pricing where available.
-
-| Brand | Mono PERC (Rs/W) | TOPCon (Rs/W) | DCR Premium | Product Warranty |
+| Manufacturer listing | Rated power | Displayed price | Calculated price per watt | Store context |
 | --- | --- | --- | --- | --- |
-| Waaree | 18 to 24 | 19 to 22 | DCR around 27 | 12 to 15 years |
-| Adani Solar | 15 to 22 | 18 to 23 | DCR around 27 | 12 years |
-| Tata Power Solar | 21 to 26 | 21 to 23 | Premium tier | 10 to 12 years |
-| Luminous | 20 to 26 | Limited range | Mid-market | 10 to 12 years |
-| Goldi Solar | 15 to 21 | 18 to 24 | Competitive | 12 years |
+| [Waaree M10 Mono, 10BB, glass-to-white backsheet](https://shop.waaree.com/waaree-550wp-m10-mono-10bb-solar-panel-glass-to-white-backsheet-module-high-efficiency-mono-perc-solar-pv-module/) | 550 W | ₹10,299 | ₹18.73/W | Mono PERC; confirm DCR status, tax and freight treatment |
+| [Luminous LUM 24550M BI-TS](https://www.luminousindia.com/solar-panels/mono-perc-halfcut-dcr-solar-panel-lum-24550m-bi-ts) | 550 W | ₹11,534 | ₹20.97/W | Mono PERC DCR; store states inclusive of taxes |
+| [Luminous LUM 24585TG144 BI-GL](https://www.luminousindia.com/solar-panels/solar-panel-lum-24585tg144-bi-gl-bifacial-non-dcr) | 585 W | ₹12,299 | ₹21.02/W | TOPCon bifacial non-DCR; store states inclusive of taxes |
+| [Luminous LUM 24590T144 BI-TS](https://www.luminousindia.com/solar-panels/solar-panel-lum-24590t144-bi-ts-bifacial-non-dcr) | 590 W | ₹15,499 | ₹26.27/W | TOPCon bifacial non-DCR; store states inclusive of taxes |
 
-Waaree DCR panels sit around Rs 27 per watt, with non-DCR at Rs 18 to 20. Adani DCR is similar at Rs 27, with non-DCR at Rs 15 to 17. This comes from [Kondaas Automation](https://kondaas.com/waaree-vs-tata-vs-adani-which-solar-panel-win/), 2026. On TOPCon specifically, Waaree trades at Rs 19 to 22 per watt against Tata at Rs 21 to 23. This is according to [Heaven Green Energy](https://www.heavengreenenergy.com/blog/waaree-vs-tata-solar-panel), 2026.
+Prices and product labels were checked on 26 September 2026. Stock, quantity limits, delivery location and checkout charges can change. These examples are not equivalent specifications, a brand ranking or proof of scheme eligibility.
 
-At the wholesale end, Goldi 550 W mono panels have been quoted at Rs 14.50 per watt in Rajasthan dealer markets, according to IndiaMART listings, 2026. These are volume prices for installers, not homeowner retail.
+### Convert ₹/W into a module-only per-kW budget
 
-None of these brands is a bad choice at Tier 1 level. Tata charges more and justifies it with the deepest service network. Waaree offers the widest wattage range. Adani is aggressive on price at scale. For a deeper head-to-head on the two market leaders, read our [Waaree vs Adani solar comparison](/blog/waaree-vs-adani-solar/).
+Multiplying the lowest and highest observed figures by a target capacity gives a quick module subtotal. The calculation uses unrounded price-per-watt values; the displayed ₹/W figures and subtotals are rounded for reading.
 
-## DCR vs Non-DCR: The Price Gap That Actually Matters
-
-This is the most consequential pricing decision for a subsidised residential buyer. It is also the most misunderstood.
-
-**DCR (Domestic Content Requirement)** panels are built with Indian-manufactured cells. **Non-DCR** panels use imported cells, usually Chinese. The upfront gap looks like this:
-
-| Panel Type | Price (Rs/W) | 3 kW Panel Cost | PM Surya Ghar Subsidy |
-| --- | --- | --- | --- |
-| DCR | 27 to 36 | Rs 81,000 to 1,08,000 | Up to Rs 78,000 |
-| Non-DCR | 25 to 32 | Rs 75,000 to 96,000 | Rs 0 |
-
-Non-DCR saves you Rs 6,000 to Rs 12,000 on a 3 kW system. It forfeits Rs 78,000 in central subsidy. That is a trade nobody should take for a home rooftop. The DCR premium pays for itself four to eight times over through the subsidy alone, according to [BL Solar Solutions](https://blsolarsolutions.com/dcr-vs-non-dcr-solar-panels), 2026.
-
-From June 1, 2026, the cell-origin question got stricter. ALMM List-II now requires panels in government-backed schemes to use cells from ALMM-certified Indian manufacturers, according to [TaiyangNews](https://taiyangnews.info/markets/almm-list-ii-solar-cells-from-june-2026), 2024. Cell capacity under List-II was nearing 30 GW as of May 2026, according to [Mercom India via now.solar](https://now.solar/2026/05/05/solar-cell-capacity-under-almm-list-ii-nears-30-gw-mercomindia-com/), 2026. Our [ALMM List Phase III guide](/blog/almm-list-phase-iii-guide/) explains how to verify a panel's listing before you buy.
-
-Non-DCR panels still make sense in one scenario. That is private commercial and industrial installs above subsidy scope, where lowest capex wins and no central subsidy is claimed. The exception is real, but it does not apply to homeowners.
-
-## Mono PERC vs TOPCon vs Bifacial: Is the Premium Worth It?
-
-Every panel technology is a price-versus-output trade. There is no universal winner, only the right panel for your roof and budget.
-
-**Mono PERC** is the value default. It costs Rs 18 to 26 per watt and delivers 20 to 21 percent efficiency. Every installer in the country knows how to work with it. If you have an open terrace with room to spare, mono PERC gives you the cheapest units of electricity.
-
-**TOPCon** costs Rs 2 to 4 more per watt. It delivers 22 to 23 percent efficiency with slower first-year degradation. Picture a roof-constrained 3 BHK that fits only 8 panels. TOPCon squeezes a 5 kW system into space where PERC would manage only 4.3 kW. The premium on a 5 kW system is Rs 10,000 to 20,000. Higher lifetime generation of 4 to 6 percent recovers that.
-
-**Bifacial** adds a rear-side gain of 5 to 15 percent. That gain needs a light-coloured surface beneath and enough clearance under the panel. On a standard flush RCC rooftop mount, the rear gain collapses to near zero. You paid Rs 4 to 9 extra per watt for nothing. Bifacial earns its premium on elevated structures, white-painted roofs, and tin sheds.
-
-> **What most buyers get wrong.** Panel efficiency percentage matters far less than system design. A 21 percent panel with correct tilt, no shading, and a properly sized inverter outperforms a 23 percent panel installed flat under a water tank shadow. Spend the premium on design before you spend it on cells.
-
-## GST on Solar Panels: What You Actually Pay
-
-GST on solar panels is 12 percent when you buy modules standalone. That covers replacement panels or DIY purchases.
-
-When panels are bought as part of a complete installed system, the contract is treated as a composite supply. Seventy percent of the contract value is taxed at the 12 percent goods rate. The remaining 30 percent is taxed at the 18 percent service rate. This gives an effective GST of about 13.8 percent on the total system value.
-
-On a Rs 2,00,000 3 kW system, that effective GST works out to roughly Rs 27,600. It is already baked into the installer's quote. PM Surya Ghar benchmark costs account for GST, so subsidised buyers are not penalised separately. The [GST on solar inverters 2026](/blog/gst-on-solar-inverters-2026/) post covers the tax treatment of the inverter and balance of system in more detail.
-
-## Why Solar Panel Prices Moved in 2026
-
-After years of steady decline, panel prices ticked upward in the first half of 2026. Two forces drove it.
-
-First, trade. The United States imposed a 126 percent tariff on Indian solar modules in February 2026. This effectively closed India's largest export market overnight. Exports fell sharply and manufacturers redirected volume to the domestic market. Higher input costs then pushed retail prices up across brands, according to [Solar Agency](https://solaragency.in/adani-solar-panel-rates-increased-in-2026/), 2026. The residential impact has been Rs 1 to 3 per watt, noticeable but not dramatic.
-
-Second, the ALMM List-II cell mandate from June 1, 2026. Panels for subsidised schemes must now use certified Indian cells. Domestic cell capacity is growing fast but still trails module capacity. This keeps DCR panels structurally pricier than non-DCR, according to [Mercom India](https://now.solar/2026/05/05/solar-cell-capacity-under-almm-list-ii-nears-30-gw-mercomindia-com/), 2026.
-
-Our read: expect DCR panel prices to stay firm through late 2026. They should ease in 2027 as new Indian cell lines ramp. If you are waiting for a big price crash before installing, think again. The electricity savings you lose by waiting typically exceed any realistic price drop. Each year of delay on a 5 kW system costs roughly Rs 45,000 to 60,000 in foregone savings.
-
-## What Installers Actually Charge: Panels Within the Full System
-
-Here is where the panel price fits into the real bill. Panels are 50 to 55 percent of a residential system cost. The rest is inverter, mounting structure, cables, earthing, net meter, and labour.
-
-| Component | 3 kW System | 5 kW System |
+| Rated module capacity | Arithmetic using the observed examples | Module-only planning subtotal |
 | --- | --- | --- |
-| Panels (DCR mono PERC) | Rs 60,000 to 80,000 | Rs 95,000 to 1,30,000 |
-| Inverter (on-grid) | Rs 25,000 to 40,000 | Rs 35,000 to 65,000 |
-| Structure, wiring, protection | Rs 25,000 to 35,000 | Rs 35,000 to 50,000 |
-| Installation, net metering, misc | Rs 30,000 to 45,000 | Rs 45,000 to 65,000 |
-| **Total before subsidy** | **Rs 1.6 to 2.0 Lakh** | **Rs 2.4 to 3.1 Lakh** |
-| Central subsidy | Rs 78,000 | Rs 78,000 |
-| **Net cost to homeowner** | **Rs 82,000 to 1.2 Lakh** | **Rs 1.6 to 2.3 Lakh** |
+| 1 kWp | 1,000 W × ₹18.73/W to ₹26.27/W | ₹18,700 to ₹26,300 |
+| 3 kWp | 3,000 W × ₹18.73/W to ₹26.27/W | ₹56,200 to ₹78,800 |
+| 5 kWp | 5,000 W × ₹18.73/W to ₹26.27/W | ₹93,600 to ₹1,31,300 |
 
-Installer quotes bundle everything. So a homeowner comparing "panel prices" against a full-system quote is comparing unlike things. When two installers quote Rs 40,000 apart on the same 5 kW system, the difference is rarely the panels. It is usually the inverter brand, structure quality (hot-dip galvanised versus painted mild steel), and margin.
+This is arithmetic, not a shopping cart. Arrays use whole modules. For example, ten 550 W modules provide 5.5 kWp, not 5 kWp. At the observed Waaree listing, ten modules cost ₹1,02,990 before any additional checkout charge. That subtotal still excludes every other project item.
 
-The full breakdowns live in the [5kW solar system price guide](/blog/5kw-solar-system-price-india/) and the [10kW solar system price guide](/blog/10kw-solar-system-price-india/). If budget is the binding constraint, [best solar system under 1 Lakh](/blog/best-solar-system-under-1-lakh/) shows what a post-subsidy budget buys. Subsidy amounts by system size are in the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/). State-level top-ups are in [solar subsidy all states](/blog/solar-subsidy-all-states/).
+## What installed solar cost includes
 
-## Choosing Panels to Match Your Inverter and System
+A complete installed quote should separate at least seven numbers. If the vendor gives only a total and a post-subsidy amount, ask for the missing lines.
 
-Panel choice does not happen in isolation. The array's voltage and current must match the inverter's MPPT input window. Undersized or oversized arrays waste money either way.
+| Quote line | What to identify in writing |
+| --- | --- |
+| Solar modules | Exact make, model, rated wattage, quantity and DCR evidence where required |
+| Inverter and monitoring | Exact inverter model, AC rating, phase, MPPT limits and included monitoring hardware |
+| Mounting structure | Roof-specific design, material, height, fastening, wind basis and waterproofing scope |
+| Electrical balance of system | DC and AC cables, isolators, breakers, surge protection, earthing and distribution boxes |
+| Installation and commissioning | Labour, lifting, testing, handover records and workmanship scope |
+| Metering and approvals | Which DISCOM steps and charges are included, excluded or paid directly by the homeowner |
+| Taxes and delivery | HSN or service classification, tax by line, freight and any amount payable at checkout |
 
-Take a 5 kW on-grid system with 540 W panels. That means 9 to 10 panels wired as one or two strings. They feed an inverter with a DC input limit around 6 to 7 kWp. Oversizing the array 10 to 15 percent above inverter rating is standard practice. It improves morning and evening generation without any risk to the inverter.
+A battery belongs on an eighth, separate line. Adding storage changes the inverter architecture, protection, usable backup energy and total cost. An ordinary on-grid system does not power the home during a grid outage simply because panels are installed.
 
-Warranty pairing matters too. Panels carry 25 to 30 year performance warranties. The inverter becomes the shorter-life component in the system. That is one reason we built Qbits inverters with a 12-year full replacement warranty. A panel bought today will still be generating in 2045. The inverter warranty should cover as much of that span as possible. The [solar inverter price guide](/blog/solar-inverter-price-guide/) covers the other half of the bill in the same per-category detail as this post.
+The module array and inverter also need an electrical match. The installer must check cold-weather open-circuit voltage, hot-weather operating voltage, current and permitted photovoltaic input. The [string-sizing calculator](/string-sizing-calculator/) is a useful first check, but the exact module and inverter datasheets control the final design.
 
-Here is a hypothetical worked example, labelled as such. A Jaipur homeowner installing 5 kW with Waaree 545 W DCR panels pays roughly Rs 1,05,000 for nine panels. Add Rs 45,000 for a quality on-grid inverter and Rs 90,000 for everything else. That totals Rs 2.4 Lakh before the Rs 78,000 subsidy. Net cost is Rs 1.62 Lakh. The system generates about 7,000 units a year, worth Rs 50,000 to 56,000 annually at Rs 7 to 8 per unit. Payback lands near three years.
+## Installed-system benchmark and post-subsidy arithmetic
 
-Winter output is the season buyers most often mis-model, covered in [solar performance in Indian winters](/blog/solar-performance-indian-winters-guide/).
+The MNRE guideline states an installed-system benchmark effective 13 February 2024. It also publishes the standard-category central financial assistance (CFA) slabs. The table below keeps the gross benchmark, approved assistance and benchmark remainder separate.
 
-## The Bottom Line
+| Rated DC module capacity | MNRE benchmark arithmetic | Gross benchmark | Standard-category CFA | Benchmark remainder after CFA |
+| --- | --- | --- | --- | --- |
+| 1 kWp | 1 × ₹50,000 | ₹50,000 | ₹30,000 | ₹20,000 |
+| 2 kWp | 2 × ₹50,000 | ₹1,00,000 | ₹60,000 | ₹40,000 |
+| 3 kWp | (2 × ₹50,000) + (1 × ₹45,000) | ₹1,45,000 | ₹78,000 | ₹67,000 |
 
-Solar panel price in India in 2026 is Rs 18 to 26 per watt for mono PERC. TOPCon runs Rs 20 to 28 and bifacial Rs 24 to 35. Buy DCR for any subsidised home rooftop. Treat Tata's premium as a service-network decision rather than a quality gap. And remember that panels are only half the bill.
+These are policy calculations, not market quotations. The guideline uses different CFA rates for named special-category states and Union Territories. It provides no additional central assistance beyond 3 kWp. It also calculates assistance from rated DC module capacity, irrespective of inverter size.
 
-- Compare at least two installer quotes on a full-system per-watt basis. Target Rs 45 to 60 per watt all-in for residential, not panel price alone.
-- Verify the quoted panel model on the ALMM list. Confirm DCR status in writing before paying any advance.
-- Once your panel shortlist is set, size the inverter to match. [Contact the Qbits team](/contact-us/) for a system quote pairing Tier 1 panels with a 12-year-warranty inverter.
+Your practical calculation is:
+
+`amount paid after approved CFA = gross installed invoice + excluded charges - approved CFA`
+
+Do not subtract the headline assistance before checking eligibility. Under the guidelines, the installation must be completed, documented and inspected by the DISCOM before CFA is processed. The exact [PM Surya Ghar application and eligibility rules](/blog/pm-surya-ghar-yojana-complete-guide/) belong to the subsidy guide, while capacity-specific design and quote questions belong to the [1 kW](/blog/1kw-solar-system-price-india/) and [5 kW system guides](/blog/5kw-solar-system-price-india/).
+
+## DCR, technology and tax can move the comparison
+
+**DCR versus non-DCR:** the MNRE guideline requires domestically manufactured modules made from domestically manufactured cells for an installation claiming CFA. It also provides a route for consumers who forgo CFA to install without DCR modules. DCR status is therefore a compliance decision, not merely a product label or price premium.
+
+**Mono PERC versus TOPCon:** compare the exact module's dimensions, rated output, current, voltage, temperature coefficient and warranty documents. A technology name alone does not establish better value for your roof.
+
+**Bifacial versus monofacial:** a bifacial module can collect light from the rear, but any gain depends on mounting height, rear shading and surface reflectance. A flush-mounted dark roof and an elevated reflective surface are different installations.
+
+**Tax treatment:** the [CBIC-hosted Notification 9/2025, Integrated Tax (Rate)](https://courier.cbic.gov.in/ECCS/advisory/2025/NOTIFICATION%20NO.%209_2025-INTEGRATED%20TAX%20(RATE)%20-1759486719.pdf) places specified photovoltaic modules in the 5% schedule from 22 September 2025. Do not apply that rate to every item in a mixed quote. Inverters, batteries, services and composite supplies can require different classification. Ask the vendor to show tax by line; the [solar GST guide](/blog/gst-on-solar-inverters-2026/) explains the distinction.
+
+## Before accepting a solar quote
+
+1. Compare the exact module and inverter models, not brand names alone.
+2. Keep module-only, equipment, balance-of-system and installation figures separate.
+3. Check whether each price includes tax, freight, roof work and utility charges.
+4. Compare gross pre-subsidy totals before comparing the amount shown after subsidy.
+5. Confirm DCR and scheme documents against the current rules and exact module.
+6. Reject savings or generation promises that do not show the tariff, consumption, shade and yield assumptions.
+7. Keep the dated quote, invoice, serial numbers and commissioning records.
+
+Once the roof, consumption and module shortlist are clear, review the [Qbits residential inverter route](/residential-solution/) to identify the inverter questions and current documents your installer should address. Qbits supplies inverters, not panels or installation, so the final system price and site work must come from your chosen installer.

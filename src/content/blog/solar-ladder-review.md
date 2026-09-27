@@ -35,6 +35,8 @@ faqs:
 featured: false
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Solar Ladder is one of the few solar software products built in India, for Indian solar businesses, rather than adapted from something written for a US installer. That matters more than most feature lists admit. This review looks at what the platform actually is, what it costs (and what it does not disclose), where it earns its place in an EPC's stack, and where a buyer should stop expecting it to help. The single most important thing to establish up front is category, because most of the confusion around Solar Ladder comes from people evaluating it against the wrong competitors and then judging it unfairly in both directions.
 
 > **TL;DR**
@@ -161,10 +163,6 @@ At that profile, the platform is aimed directly at your problem, and the India-n
 For a large share of Indian EPCs, the honest answer is not "Solar Ladder or a design tool." It is both, with a clear boundary between them.
 
 The clean split looks like this. The design and simulation platform owns everything up to the signature: AI 3D roof capture, 8,760-hour module-level shading, PM Surya Ghar subsidy bands, DISCOM tariff libraries, IS code clearances, the BOQ, and the branded proposal. The operations platform takes over at the signature: scheduling, procurement, installation tracking, subsidy filing, commissioning, and operations and maintenance. The handoff runs over an API so nobody re-keys a customer record.
-
-SurgePV is built for exactly that boundary. It runs $1,299 to $1,899 per user per year depending on team size, with design, shading, financial modelling, and white-label proposals in one licence rather than split across add-ons. For Indian work specifically it ships ALMM-aware module and inverter selection, PM Surya Ghar subsidy bands, DISCOM tariff libraries, and IS code clearance checks, then hands the won job to a CRM by API. That is the design layer done properly, leaving the operations layer to whichever platform you prefer.
-
-If you are weighing a full replacement rather than a pairing, our [Solar Ladder alternative comparison](/blog/solar-ladder-alternative/) runs through six options side by side. For the wider India market view, the [solar design software India guide](/blog/solar-design-software-india/) covers what changes when a tool has to handle [PM Surya Ghar](/glossary/pm-surya-ghar/), [net metering](/glossary/net-metering/) caps, and [ALMM](/glossary/almm-list/) constraints together. On the hardware side, once the design is fixed, Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) ranges cover most Indian residential and C&I demand, and the team takes spec questions through [contact us](/contact-us/).
 
 ## Verdict
 

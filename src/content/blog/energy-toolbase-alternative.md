@@ -178,8 +178,6 @@ Two rows carry the whole tension. Energy Toolbase is the most expensive line and
 - **Choose OpenSolar** if you are small, residential, price-sensitive, and can live with a shallow economics layer while you grow.
 - **Choose the spreadsheet baseline** if your market has one tariff and one incentive, and you would rather spend on people.
 
-For the wider stack view, the [commercial solar design software guide](/blog/commercial-solar-design-software/) covers C&I tooling, and the [US market guide](/blog/solar-design-software-usa/) explains how NEC, the ITC, and utility structures are handled across platforms. Whichever platform wins, the string layout still has to clear a real inverter's MPPT window before procurement sees it, and teams sizing [hybrid inverter](/hybrid-inverter/) options for a finished design can [get a spec walkthrough from a Qbits engineer](/contact-us/) rather than cross-checking datasheets by hand.
-
 ## Verdict
 
 Most Energy Toolbase alternative searches end in one of two places, and it is worth knowing which one you are in before you book demos.

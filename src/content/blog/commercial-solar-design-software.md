@@ -125,7 +125,7 @@ On the engineering side, the deliverables C&I clients and AHJs ask for are cover
 - **Choose OpenSolar** for small C&I at the entry price point.
 - **Choose PVsyst** for lender-mandated bankable reports.
 
-For most C&I EPCs in 2026, SurgePV is the commercial solar design software that wins on scope, methodology, and per-seat economics at the same time. Once the design and financials are locked, most teams hand the project to a commercial solar installation crew for execution, and the full [best solar design software ranking](/blog/best-solar-design-software/) is worth a look if you also design residential systems on the side. For the inverter side of that handoff, Qbits' [C&I solution](/c-i-solution/) is built for the multi-array, multi-tilt layouts this guide covers, and a quick [conversation with a Qbits engineer](/contact-us/) can confirm string sizing before the BOQ is finalised.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 <div class="inline-cta">
 <h3>Ready to ship C&I projects faster?</h3>

@@ -21,7 +21,7 @@ faqs:
   - q: "Which states give an extra solar subsidy on top of the central subsidy?"
     a: "As of mid-2026, the states with an active, general residential top-up are Uttar Pradesh (₹15,000 per kW, maximum ₹30,000), Rajasthan (₹17,000 flat per household), Delhi (capital subsidy plus ₹3 per kWh generation incentive for five years), and Maharashtra (₹10,000 to ₹20,000 for eligible categories). Gujarat's earlier ₹10,000 per kW residential scheme has closed for general applicants. States such as Karnataka, Tamil Nadu, Kerala, Telangana, Andhra Pradesh, West Bengal, Bihar, and Madhya Pradesh currently offer no general state capital top-up, so the central ₹78,000 is the full subsidy there. Always verify on your state renewable energy agency's portal before signing a quote, because these schemes open and close with budget cycles."
   - q: "How do I apply for the PM Surya Ghar solar subsidy?"
-    a: "The application is fully online at pmsuryaghar.gov.in. Register with your state, DISCOM name, electricity consumer number, and mobile number. The DISCOM then gives a feasibility approval, usually within 7 to 15 days. After approval, you select a DISCOM-empanelled vendor from the portal's list, get the system installed with ALMM-listed modules and inverter, and apply for net metering. Once the DISCOM inspects and commissions the system, the central subsidy is transferred directly to your bank account within about 30 days. You never pay the subsidy amount to the vendor first in the standard flow; it comes to you from the government."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Is the solar subsidy available on hybrid and battery systems?"
     a: "Yes, hybrid solar systems are eligible for the full PM Surya Ghar subsidy as long as they are grid-connected and installed by an empanelled vendor with ALMM-listed components. The CFA is calculated on system capacity, not topology, so a 3 kW hybrid rooftop gets the same ₹78,000 as a 3 kW on-grid rooftop. The battery itself is not separately subsidised under the residential scheme in 2026, though the government signalled in June 2026 that battery storage integration is planned as storage costs fall. Pure off-grid systems with no grid connection remain ineligible."
   - q: "How long does it take to receive the solar subsidy money?"
@@ -29,9 +29,11 @@ faqs:
   - q: "Can housing societies and apartment RWAs get the solar subsidy?"
     a: "Yes. Resident Welfare Associations and Group Housing Societies get a separate CFA of ₹18,000 per kW for common facilities, for plant sizes up to 500 kW. That means a society installing a 100 kW rooftop for lifts, pumps, and corridor lighting can receive ₹18 lakh in central support. Delhi adds ₹2 per unit generation incentive for RWAs on top. Individual flat owners in a high-rise cannot claim the residential household subsidy for a share of a common roof unless they own exclusive terrace rights, which is why most apartment projects route through the RWA channel."
   - q: "What is the biggest reason solar subsidy applications get rejected?"
-    a: "The most common rejection reason is non-ALMM equipment: modules or inverters that are not on the MNRE's Approved List of Models and Manufacturers for the exact model number installed. The second is using a vendor who is not registered on the national portal for your DISCOM, which blocks the application at the feasibility stage. The third is a mismatch between the sanctioned load or consumer details and the application documents. All three are preventable with one habit: verify the vendor's portal registration ID and the ALMM certificate number of the quoted model before paying any advance."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Roughly 30,000 people a month search for the solar subsidy in India. Most land on pages that recite the same three numbers: ₹30,000, ₹60,000, ₹78,000. Those numbers are correct, but they are only half the answer. The [central subsidy](https://www.heavengreenenergy.com/glossary/state-vs-central-subsidy) under [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/) is identical in every state. What actually changes your final cost is the layer above it: the state top-up, the [DISCOM](/glossary/discom/)'s net metering rules, and the speed of your local utility. A 3 kW system in Lucknow receives ₹1,08,000 in combined subsidy. The identical system in Bengaluru receives ₹78,000. Same panels, same inverter, ₹30,000 difference driven entirely by address.
 
@@ -43,7 +45,7 @@ This pillar guide covers all three layers for every Indian state in 2026. You ge
 > - States with an active top-up: Uttar Pradesh (up to ₹30,000), Rajasthan (₹17,000), Delhi (capital subsidy plus ₹3 per unit generation incentive), and Maharashtra (₹10,000 to ₹20,000).
 > - Most southern and eastern states have no general state top-up in 2026; the central ₹78,000 is the full subsidy there.
 > - Housing societies and RWAs get a separate ₹18,000 per kW CFA for common areas, up to 500 kW.
-> - ALMM-listed modules and inverter, plus a portal-registered vendor, are non-negotiable for subsidy release.
+
 > - Subsidy lands in your bank account within about 30 days of commissioning; the state top-up follows on its own timeline.
 
 **Short version.** In 2026 every Indian residential rooftop gets the same central subsidy: ₹30,000 per kW up to 2 kW, then ₹18,000 for the third kW. The cap is ₹78,000. Only four states add a meaningful general top-up (UP, Rajasthan, Delhi, Maharashtra). Apply at pmsuryaghar.gov.in, use an empanelled vendor, insist on ALMM-listed equipment, and the money reaches your bank within about 30 days of commissioning.
@@ -75,7 +77,6 @@ Eligibility is deliberately broad. You qualify if all of the following hold:
 - The property has a legal, active electricity connection from the local DISCOM.
 - You have not availed a central solar subsidy on any earlier system.
 - The system is grid-connected (on-grid or hybrid), installed by a vendor registered on the national portal for your DISCOM.
-- Modules and the inverter carry ALMM listing for the exact model numbers installed.
 
 Commercial and industrial connections do not get the household CFA; their support comes through accelerated depreciation and other routes. Farmers should note that PM Surya Ghar covers the home connection, not the agricultural pump connection, which falls under PM-KUSUM (covered below). The [PM Surya Ghar eligibility](/blog/pm-surya-ghar-eligibility/) post covers edge cases: rented homes, joint ownership, flats, and houses under construction.
 
@@ -189,7 +190,7 @@ The process is national. Only the nodal agency and queue times differ.
 1. **Register at pmsuryaghar.gov.in.** Enter state, DISCOM, consumer number, and mobile. The portal pulls your sanctioned load and billing history. Check [eligibility](/blog/pm-surya-ghar-eligibility/) first if you are unsure.
 2. **DISCOM feasibility approval.** Typically 7 to 30 days. This confirms your transformer and connection can host the proposed capacity.
 3. **Choose an empanelled vendor from the portal list.** Only vendors registered for your DISCOM can submit the installation details that trigger your subsidy.
-4. **Install with ALMM-listed equipment.** Modules and inverter both. ALMM listing is model-specific, so get the certificate number for the exact model quoted.
+
 5. **Net metering and inspection.** The DISCOM swaps in a bidirectional meter and inspects the installation. The [net metering complete guide](/blog/net-metering-india-complete-guide/) covers this stage state by state.
 6. **Subsidy DBT.** After commissioning, the central CFA hits your bank account within about 30 days. State top-ups (UP, Rajasthan, Delhi, Maharashtra) require a separate state-portal step and take 45 to 90 days.
 
@@ -201,7 +202,6 @@ Keep these scanned and ready before you start; missing documents are the top cau
 
 1. **Registration:** electricity bill (latest), Aadhaar-linked mobile number, bank account details (account number and IFSC, matching the consumer name).
 2. **Feasibility and installation:** property ownership proof or a no-objection letter from the owner, cancelled cheque or passbook copy for DBT.
-3. **Commissioning:** vendor's invoice and warranty documents, ALMM certificate numbers for modules and inverter, system photographs, and the signed commissioning certificate.
 
 Names must match across the electricity bill, Aadhaar, and bank account. A mismatch (say, the bill in a spouse's name and the bank account in yours) delays the DBT until corrected.
 
@@ -276,12 +276,10 @@ One rule holds in both structures: never inflate system size to chase subsidy. T
 
 **If your grid is unreliable (UP, Bihar, MP, rural MH):** choose a hybrid inverter. The CFA is identical, and you avoid the trap of a subsidised system that generates nothing during a four-hour cut. The [on-grid vs hybrid](/blog/on-grid-vs-hybrid/) comparison walks through the decision.
 
-On equipment: subsidy eligibility requires ALMM listing. Qbits on-grid and hybrid inverters are ALMM-listed, with a 12-year full replacement warranty, IP66 protection, and 98 percent peak efficiency. The firmware is tuned for the 180 to 270 V swings of Indian grids. A subsidised system whose inverter fails in year six with a lapsed 5-year warranty hands back much of the subsidy in replacement cost.
-
 ## The Bottom Line
 
 The 2026 solar subsidy is a national ₹78,000 foundation with a four-state bonus layer, delivered through one portal and your bank account. The scheme is moving faster than at any point since launch, and the funding is committed through FY 2026-27. Waiting for a better subsidy has historically meant waiting for a worse one, because state top-ups close when allocations run out. The central CFA, the net metering credit, and a well-chosen inverter already make the math work in every state today.
 
 - Register at pmsuryaghar.gov.in today and note your application ID; feasibility approval costs nothing and locks your place in the queue.
-- Verify your vendor's portal registration and the ALMM certificate number of the exact module and inverter model before paying any advance.
+
 - If you want a system designed around your state's subsidy, DISCOM rules, and grid reality, [request a free consultation from Qbits](/contact-us/). Our team works with empanelled installers across 20+ states.

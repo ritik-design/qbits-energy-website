@@ -35,6 +35,8 @@ faqs:
     a: "Solar panels degrade at approximately 0.5–0.7% per year, meaning a system generating 7,300 kWh in year one produces around 6,800 kWh by year 10. Over a 25-year lifespan, cumulative generation is roughly 90% of a flat-rate projection. This means the simple payback calculation is slightly optimistic - actual payback may be 2–4 months longer than the formula suggests. However, rising electricity tariffs (India has seen 4–6% annual tariff increases historically) partially or fully offset degradation in most states."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Your electricity bill arrives. The numbers on the last page (₹6,800, ₹9,200, ₹12,000) keep climbing, and every neighbour who installed solar three years ago now talks about bills that are practically zero. The question is no longer *whether* solar makes financial sense. The question is: **how long before it actually pays for itself, and does that number change if you live in Ahmedabad versus Lucknow?**
 
 This post answers that question with actual arithmetic. Not marketing ranges. Not "typically 5–7 years" platitudes. State tariff rates from published [DISCOM](/glossary/discom/) tariff orders, irradiance figures from MNRE data, subsidy stacks as of June 2026, and a replicable formula you can apply to your own roof. If you would rather skip the manual arithmetic, a solar cost calculator can produce a quick ballpark for your roof, though the state-specific numbers below will be more precise.
@@ -237,7 +239,7 @@ The calculations above use an on-grid inverter. Adding a hybrid inverter with ba
 
 For homeowners whose primary goal is payback speed and bill reduction, on-grid is the clear answer. For households in areas with frequent power cuts (parts of UP, Bihar, Jharkhand) the value of backup power may justify the hybrid premium. The [on-grid vs hybrid ROI comparison](/blog/on-grid-vs-hybrid-solar-inverters-roi/) covers the financial breakeven for the hybrid decision in detail.
 
-A related financial calculation worth reviewing before committing: the [total cost of ownership (TCO)](/blog/inverter-tco/) perspective, which factors in inverter replacement costs, maintenance, and insurance over a 25-year horizon. A system with a short initial payback but a ₹25,000 inverter replacement every 7 years has a worse 25-year IRR than a system with a longer initial payback but a 12-year warranty that covers full replacement.
+A related financial calculation worth reviewing before committing: the [total cost of ownership (TCO)](/blog/inverter-tco/) perspective, which factors in inverter replacement costs, maintenance, and insurance over a 25-year horizon. A system with a short initial payback but a ₹25,000 inverter replacement every 7 years has a worse 25-year IRR than a system with a longer initial payback but a model-specific written warranty that covers full replacement.
 
 ## Common Mistakes That Inflate the Payback Period
 
@@ -249,7 +251,7 @@ Many homeowners end up with longer-than-expected payback periods not because the
 
 - **Not accounting for the net metering activation delay.** If DISCOM approval takes 4 months, you export power for free during that period. In states with long queues, this can cost ₹4,000–₹8,000 in foregone credit. Factor in a 3–6 month activation buffer when calculating first-year savings.
 
-- **Choosing an inverter with a short warranty.** An inverter replacement at year 7 costs ₹18,000–₹30,000 and pushes the effective payback period out. A 12-year full replacement warranty eliminates this hidden cost entirely.
+- **Choosing an inverter with a short warranty.** An inverter replacement at year 7 costs ₹18,000–₹30,000 and pushes the effective payback period out. A model-specific written warranty eliminates this hidden cost entirely.
 
 - **Using dealer quotes, not DISCOM data, for tariffs.** Some dealer proposals use projected future tariffs (₹7–₹8/kWh by year 5) to inflate payback attractiveness. Use only your current verified tariff for the simple payback calculation. Tariff appreciation, if it comes, will be a bonus, not a baseline assumption.
 
@@ -257,15 +259,12 @@ Many homeowners end up with longer-than-expected payback periods not because the
 
 ## Where Qbits Fits Into the Payback Calculation
 
-Payback is a division problem: net cost divided by annual savings. Qbits addresses both sides of that equation. On the cost side, Qbits on-grid inverters are priced at the mid-market benchmark (not at the premium that global brand inverters command) so the net system cost stays closer to ₹1.5–1.8 Lakh post-subsidy rather than inflating toward ₹2.2 Lakh. On the savings side, the 98% peak efficiency rating and India-grid-tuned firmware (which handles the 180–270 V grid fluctuations that cause conventional inverters to derate or trip) means the system generates closer to its nameplate potential rather than losing yield to grid events.
+The [model-specific written warranty](/blog/12-year-solar-inverter-warranty/) eliminates the inverter replacement cost that otherwise adds ₹20,000–₹30,000 to a decade-long payback model. IP66 weather protection means the unit keeps performing through monsoons without requiring protective enclosures that add to installation cost. AI-powered WhatsApp monitoring flags underperformance in real time, so you do not lose 3–6 months of yield silently before noticing the problem on your bill.
 
-The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) eliminates the inverter replacement cost that otherwise adds ₹20,000–₹30,000 to a decade-long payback model. IP66 weather protection means the unit keeps performing through monsoons without requiring protective enclosures that add to installation cost. AI-powered WhatsApp monitoring flags underperformance in real time, so you do not lose 3–6 months of yield silently before noticing the problem on your bill.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM-listed and PM Surya Ghar subsidy-eligible; the fastest-payback inverter configuration for most Indian homeowners.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for households where backup power value justifies the premium; battery-ready without rewiring.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm your panel-string configuration before the installer quotes, so the generation estimate in your payback calculation is accurate.
 
-[Talk to a Qbits engineer](/contact-us/) about your specific roof, tariff slab, and subsidy eligibility, most site assessments and quotes are returned within 24 hours. The payback calculation for your exact address will be more precise than any state average, and that precision is what converts a financial decision into a confident one.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 How that return compares with a bank deposit is in [solar investment vs FD](/blog/solar-investment-vs-fd-india/).
 

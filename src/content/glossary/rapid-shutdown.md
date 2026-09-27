@@ -226,8 +226,6 @@ Rapid shutdown de-energises rooftop solar conductors to safe voltage within 30 s
 
 ## Need rapid shutdown for your solar?
 
-QBits Energy installs microinverter and DC optimiser systems with rapid shutdown for premium residential and commercial solar requiring firefighter safety.
-
 ## Further reading
 
 For how Rapid Shutdown plays out in real projects, these guides go deeper:

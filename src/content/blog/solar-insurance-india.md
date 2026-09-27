@@ -1,193 +1,211 @@
 ---
-title: "Solar Insurance in India 2026: What It Covers, What It Costs, and Do You Need It"
-excerpt: "Solar insurance in India costs Rs 125 a year as a home add-on or 0.2 to 0.5 percent of system cost standalone. What it covers and when you need it."
-description: "A practical guide to solar insurance in India for 2026: what rooftop policies cover, real premium ranges, what home insurance already includes, and when warranty and service cover make insurance unnecessary."
-category: "Guide"
+title: 'Solar Insurance in India 2026: What It Covers, What It Costs, and Do You Need It'
+excerpt: "Solar insurance in India explained: what fire, burglary and breakdown policies cover, how home insurance treats a rooftop array, and what a claim needs."
+description: "Solar insurance in India explained: what fire, burglary and breakdown policies cover, how home insurance treats a rooftop array, and what a claim needs."
+category: Guide
 date: 2026-07-23
-updatedDate: 2026-07-23
-readTime: "18 min"
-image: "/blog-images/solar-insurance-india.svg"
-author: "Akash Hirapara"
+updatedDate: 2026-09-24
+readTime: 12 min
+image: /blog-images/solar-insurance-india.svg
+author: Akash Hirapara
 keywords:
-  - solar insurance india
-  - solar panel insurance india
-  - rooftop solar insurance
-  - solar system insurance cost
-  - solar insurance vs warranty
-  - home insurance solar panels
+- solar insurance india
+- solar panel insurance india
+- rooftop solar insurance
+- solar system insurance cost
+- solar insurance vs warranty
+- home insurance solar panels
 faqs:
-  - q: "Is solar panel insurance available in India?"
-    a: "Yes. Solar panel insurance is available in India through two routes. The first is a home insurance add-on that treats roof-mounted panels as part of the building structure, with HDFC Ergo offering roughly Rs 5 Lakh of cover for about Rs 125 per year through Policybazaar. The second is a standalone or project policy from insurers such as New India Assurance, ICICI Lombard, Tata AIG, and IFFCO-Tokio, which MNRE lists as providers of specialised solar insurance products. Standalone policies are more common for commercial and ground-mount plants."
-  - q: "How much does solar insurance cost in India?"
-    a: "For a residential rooftop system, a home insurance add-on covering the panels costs roughly Rs 125 to Rs 500 per year for about Rs 5 Lakh of cover. Standalone all-risk policies for solar plants in India typically cost 0.2 to 0.5 percent of the total system cost per year, according to Anand Rathi Insurance Brokers. For a Rs 2.5 Lakh home system, that works out to Rs 500 to Rs 1,250 per year. Loss of generation cover, which pays out for lost electricity production, costs extra and is mainly bought by commercial plant owners."
-  - q: "Are rooftop solar panels covered under home insurance in India?"
-    a: "Usually yes, but only if two conditions are met. The panels must be permanently fixed to the building structure, and you must declare the solar installation to your insurer when buying or renewing the policy. Most Indian home insurance policies define the building to include rooftop fixtures such as water tanks and solar panel systems. If you never declared the system, the insurer can reject a damage claim. Ground-mounted or portable panels generally need a separate policy or add-on."
-  - q: "What does solar insurance not cover?"
-    a: "Standard solar insurance policies in India exclude wear and tear, ageing, rust, gradual degradation, manufacturing defects, damage from poor installation or negligence, cosmetic scratches, and theft of only cables. Manufacturing defects and premature equipment failure are the job of the product warranty, not insurance. Terrorism cover is usually a separate add-on priced through the GIC Terrorism Pool. Loss of generation is also excluded unless you buy it as a specific extension."
-  - q: "Is solar insurance worth it for a home rooftop system?"
-    a: "It depends on your risk exposure. Insurance is worth it if you live in a cyclone, hailstorm, or flood-prone district, if theft risk is real in your area, or if your home insurance does not already cover the panels. It is less necessary if your panels are already declared under a comprehensive home policy and your inverter carries a long full replacement warranty. A Qbits inverter with a 12-year full replacement warranty already covers the single most expensive failure mode, which is inverter breakdown, so insurance only needs to cover external perils like storms and theft."
-  - q: "What is the difference between solar insurance and a solar warranty?"
-    a: "A warranty covers defects in the equipment itself: a panel that delaminates early or an inverter that fails under normal use. Insurance covers external events: fire, lightning, storm, hail, flood, theft, vandalism, and falling objects. Warranties come from the manufacturer at no extra cost, while insurance is an annual premium you pay to an insurer. The two overlap only in one place, which is inverter failure. A 12-year full replacement warranty removes that overlap and keeps insurance focused on weather and theft risk."
-  - q: "How do I file a solar insurance claim in India?"
-    a: "Inform your insurer within the reporting window stated in your policy, usually 7 to 15 days. Photograph and video the damage before moving anything. Submit the claim form with your policy copy, panel and inverter invoices, installation certificate, and repair estimates from an authorised vendor. File an FIR for theft or vandalism claims. The insurer appoints a surveyor, sometimes by video call for small claims, and settles by bank transfer after verification. Undeclared solar systems and late reporting are the two most common reasons for rejection."
+- q: Are solar panels automatically covered by home insurance in India?
+  a: Under the standard Bharat Griha Raksha home policy, solar panels are named as an additional structure under Home Building Cover, according to the IRDAI Key Features Document (2021). That does not mean every claim will pay. The policy responds only to its listed Insured Events, which are fire and allied perils, not all risks. Check your own policy schedule and endorsements before assuming the array is covered.
+- q: Is an inverter warranty the same as insurance?
+  a: No. A warranty responds to a defect in the product under the manufacturer's written terms. Insurance responds to an external insured event such as fire, storm, or theft, subject to the policy. The two have different triggers, exclusions, and claim procedures. A lightning strike is usually a warranty exclusion and an insurance trigger, while a component that fails in year three is usually the reverse.
+- q: What is the premium for solar insurance in India?
+  a: There is no published tariff rate. Basic insurance for a solar project costs 0.2 to 0.5 percent of project cost per year, according to Anand Rathi Insurance Brokers quoted by Saur Energy (2023). Treat that as an industry-observed range for project policies, not a quote for your roof. Residential add-on pricing through a home policy is usually lower in absolute rupees because the declared value is smaller. Ask two or three insurers for dated written quotes on identical scope and deductible.
+- q: Does a standard fire policy cover a burnt-out solar inverter?
+  a: Usually not. The Standard Fire and Special Perils wording excludes damage caused by over-running, excessive pressure, short circuiting, arcing, self-heating, or leakage of electricity, and that exclusion applies to the particular electrical machine affected. Other equipment destroyed by a fire that machine starts is still covered. A machinery breakdown policy reverses this for the insured machine. If the inverter matters to you, add breakdown cover or move to an all-risk form.
+- q: Is theft of solar panels and cabling covered?
+  a: Only if you buy for it. A fire and perils policy covers malicious damage during a riot or strike, but ordinary theft needs burglary cover or an all-risk form. Many burglary wordings require forcible and violent entry, which is awkward for an open rooftop. Theft of cabling alone is a common exclusion. Ask the insurer to confirm in writing how an unattended rooftop and a copper cable loss would be treated.
+- q: What documents do I need to make a solar insurance claim?
+  a: Keep the itemised tax invoice showing panel, inverter, structure, and cabling values separately, the equipment serial numbers, the single line diagram, the commissioning and earthing test reports, the DISCOM approval or net meter record, and dated photographs of the installed system. Add maintenance logs and any grid incident report after a storm. Insurers also require prompt notification, a police FIR for theft, and reasonable steps to prevent further damage.
+- q: Do C&I solar owners need business interruption cover?
+  a: If the plant offsets a production load or sells under a power purchase agreement, lost generation during a repair outage is often larger than the repair bill. Business interruption is not automatic. It is bought as a consequential loss section attached to the underlying property policy, and it must respond to the same perils as that policy. Lenders financing the asset frequently require it alongside property and breakdown cover.
+- q: Should I insure the system during installation?
+  a: Yes, and it is usually the contractor's obligation. During storage, erection, and testing, an Erection All Risk or storage-cum-erection policy covers physical loss to the equipment and third-party liability. Confirm who holds it, what period it runs for, and exactly when cover shifts to your operating policy at handover. A gap between contractor cover ending and owner cover starting is common and avoidable.
 featured: false
+seoTitle: 'Solar Insurance in India: What to Check'
+relatedSlugs:
+- solar-inverter-warranty
+- solar-inverter-warranty-claim
+- solar-installation-vs-product-warranty
 ---
 
-About 400 people a month search for solar insurance in India, and most of them share the same story. They just spent Rs 1.5 Lakh to Rs 3 Lakh on a rooftop system. The installer has driven away. Then a neighbour asks one uncomfortable question: what happens if a storm rips those panels off? The honest answer is that a rooftop solar plant is a 25-year asset sitting outdoors through every monsoon, hailstorm, heatwave, and the occasional cricket ball. Some of that risk belongs to your warranty. Some belongs to insurance. Most homeowners mix the two up.
+A rooftop solar system is an expensive asset that you bolt to the outside of a building and leave exposed for 25 years. Hail, cyclone, lightning, flood, and theft all reach it. Most Indian owners never think about this until something breaks. Then they learn two uncomfortable things. The manufacturer warranty does not cover weather damage, and the home policy they assumed covered everything carries conditions they never read.
 
-This guide separates them. It covers what solar insurance in India actually insures and what the major insurers charge. It also covers what your existing home policy may already include. And it helps you decide whether a separate policy is worth the premium for your specific roof.
+Solar insurance in India is not one product. It is a stack of covers that insurers bundle differently, sitting on a fire and perils base, and the gaps between those layers are where owners lose money. This guide covers what damages rooftop systems here, which policy answers which event, whether your householder policy extends to the array, how to set a sum insured, and where warranty stops and insurance starts.
 
 > **TL;DR**
-> - A home insurance add-on covers rooftop solar for about Rs 125 per year for Rs 5 Lakh of cover, according to Policybazaar (2025).
-> - Standalone all-risk solar policies cost roughly 0.2 to 0.5 percent of system cost per year, according to Anand Rathi Insurance Brokers (2023).
-> - [MNRE](/glossary/mnre/) lists six insurers with specialised solar products, including New India Assurance, ICICI Lombard, HDFC Ergo, Tata AIG, IFFCO-Tokio, and Cholamandalam MS (2024).
-> - Home insurance already covers roof-mounted panels if they are permanently fixed and declared at purchase or renewal.
-> - Insurance excludes wear and tear, degradation, manufacturing defects, and poor installation. Those belong to warranty and installer accountability.
-> - A 12-year full replacement inverter warranty covers the costliest failure mode, so for Qbits owners insurance only needs to cover storms, fire, and theft.
+> - Solar panels are a named covered additional structure under Home Building Cover in the Bharat Griha Raksha policy, according to the IRDAI Key Features Document (2021).
+> - The Standard Fire and Special Perils wording excludes short circuiting, arcing, and self-heating in the affected machine, so it alone will not pay for a burnt-out inverter.
+> - Hail caused 27 percent of natural catastrophe and extreme weather solar losses by claim amount since 2019, according to AXIS Capital (2025), on global data.
+> - Project insurance costs 0.2 to 0.5 percent of project cost per year, according to Anand Rathi Insurance Brokers quoted by Saur Energy (2023).
+> - MNRE lists insurers with solar-specific products, via Circular No. 283/72/2019-GRID SOLAR (2020), updated 26 February 2024.
+> - Warranty answers defects. Insurance answers external events. Neither replaces the other.
 
-**Short version.** Solar insurance in India covers external damage to your rooftop system: fire, lightning, storms, hail, floods, theft, and falling objects. It costs about Rs 125 a year as a home insurance add-on or 0.2 to 0.5 percent of system cost as a standalone policy. You need it if your home policy does not already cover the panels or if you face high storm or theft risk. You do not need it for equipment failure, because that is what your warranty is for.
+**Short version.** Solar insurance in India means combining a fire and special perils base with burglary cover for theft, machinery breakdown cover for inverter failure, and, for commercial sites, business interruption. A standard home policy can cover a rooftop array as an additional structure, but only against its listed insured events. Warranty covers defects, not weather. Set the sum insured at replacement cost.
 
-If you are still working out what your system is worth before insuring it, see the [5 kW solar system price in India](/blog/5kw-solar-system-price-india/) breakdown. It gives current all-in costs by component. The rest of this post assumes you already have a system or a signed quote in hand.
+This article is general information, not insurance advice.
 
-## What Can Actually Go Wrong on an Indian Rooftop
+## What actually threatens a rooftop system in India
 
-Indian rooftop systems face a specific risk profile that differs from the brochure version of solar. Panels are rated for 25 years, but the environment they sit in is not gentle.
+Indian rooftop losses cluster around a short list of causes, and most are environmental rather than mechanical. Weather drives the bulk of physical loss. Electrical events sit between insurance and warranty, which is why they cause the most arguments at claim time. Hail caused 27 percent of natural catastrophe and extreme weather solar losses by claim amount since 2019, according to AXIS Capital (2025), on global data.
 
-- **Storm and cyclone damage.** Coastal Gujarat, Odisha, West Bengal, and Tamil Nadu face cyclonic winds that can exceed the mechanical load rating of poorly anchored structures. Panels rated for 2,400 Pa wind load still fail if the structure underneath them gives way first.
-- **Hail.** North Indian hailstorms, particularly in Punjab, Haryana, and parts of MP, crack module glass. A single cracked panel loses most of its output and can short a full string.
-- **Fire and lightning.** DC arcs from degraded connectors are the most common rooftop solar fire cause. Lightning strikes, direct or induced through the grid, take out inverters even when panels survive.
-- **Theft.** Panels, copper DC cable, and earthing strips are stolen from ground-mount and accessible rooftop systems. Rural and semi-urban installations face the highest exposure.
-- **Falling objects and accidental damage.** Tree branches, water tank collapses, and construction debris from neighbouring buildings.
-- **Inverter failure.** The inverter is the hardest-working component and the most frequent failure point. Capacitors and cooling fans wear out in 40 to 45 degree Celsius ambient conditions. The [solar inverter failure](/blog/solar-inverter-failure/) guide covers the common failure modes; the [what to do when your inverter fails](/blog/solar-inverter-failure-action/) post covers the response.
+| Threat | Typical damage | Cover that responds |
+| --- | --- | --- |
+| Cyclone and high wind | Modules lifted, structure twisted | Fire and special perils |
+| Hail | Micro-cracked cells, shattered glass | Fire and special perils |
+| Lightning or induced surge | Dead inverter, blown SPD | Machinery breakdown, or fire policy if fire results |
+| Flood | Inverter submerged, wiring corroded | Fire and special perils |
+| Theft of modules or cabling | Missing panels, stripped copper | Burglary or all-risk, never the fire policy |
+| Fire | Roof fire, or fire at a DC joint | Fire policy, subject to the electrical exclusion |
+| Monkey, rodent, bird damage | Chewed insulation, loose connectors | Usually excluded, sometimes an all-risk extension |
+| Earthquake | Roof failure taking the array down | Add-on only, excluded from the fire policy |
 
-Here is the key split. The first five risks are external events, and they are insurance territory. The last one is an equipment defect or wear issue, and it is warranty territory. Every buying decision in this post follows from that split.
+Monkey and rodent damage to DC cabling is widely reported by Indian installers, but no published dataset quantifies it, so treat mesh guarding as a maintenance decision. Theft is better documented: police in Panchkula arrested three people over the theft of six solar panels from a golf club, according to The Tribune, which separately reported copper wiring stolen from university rooftops in Amritsar.
 
-## The Four Types of Solar Insurance Cover in India
+## Does your home insurance already cover the rooftop array?
 
-Solar insurance in India is not one product. It is a stack of covers, and policies bundle them differently.
+Often yes, partially, and with conditions. The standard householder product is Bharat Griha Raksha, which IRDAI introduced in January 2021 and required all general insurers to offer from 1 April 2021. Its Key Features Document names solar panels directly, among covered additional structures alongside garage, compound walls, and water tanks.
 
-**1. Fire and allied perils.** This is the base layer in almost every policy. It covers fire, lightning, explosion, storm, cyclone, flood, inundation, earthquake, and riot damage. Most home insurance add-ons for solar panels are essentially fire and allied perils extended to the declared rooftop system.
+Three conditions catch people out.
 
-**2. Burglary and theft.** Covers theft of panels and equipment following forcible entry or hold-up. The standard exclusion to know: theft of only cables is usually not covered. Insurers treat loose cable as an attractive-nuisance item and expect it to be secured.
+First, the policy answers only its listed Insured Events, the fire and allied perils set. It is not an all-risk cover. An inverter that dies from an internal fault is not an insured event.
 
-**3. All-risk or comprehensive cover.** A wider policy that adds accidental damage, falling objects, and electrical or mechanical breakdown of equipment including the inverter. Breakdown cover typically includes dismantling, re-erection, freight, and duties, which matters because inverter replacement involves real labour and logistics cost beyond the unit price.
+Second, eligibility is residential. If you carry on commercial activity by employing other persons, you cannot buy this policy, according to the IRDAI Key Features Document (2021). A system on a shop, clinic, or small factory falls outside it.
 
-**4. Loss of generation.** Also called business interruption or energy shortfall cover. It pays out the value of electricity you did not generate because of an insured event. Cholamandalam MS offers a policy that covers production deficits from inadequate solar irradiation, according to the MNRE compilation reported by Energetica India (2024). This cover makes financial sense for commercial plants with debt to service. For a net-metered home system, the lost generation from a two-week repair is usually a few hundred rupees, so the extra premium rarely pays for itself.
+Third, the building sum insured is the cost of rebuilding at prevailing construction cost. The policy includes a waiver of underinsurance, so a shortfall in declared value will not reduce the amount payable, per the same document. That is unusually favourable, but it does not help if the array was never within the insured property. Declare it.
 
-| Cover type | What it pays for | Typical buyer | Indicative cost |
-| --- | --- | --- | --- |
-| Fire and allied perils | Storm, fire, lightning, flood, quake damage | All rooftop owners | Rs 125 to Rs 500/yr as home add-on |
-| Burglary and theft | Stolen panels and equipment (not cable-only theft) | Rural and accessible roofs | Add-on, varies by insurer |
-| All-risk with breakdown | Above plus accidental damage and inverter breakdown | Larger homes, small commercial | 0.2 to 0.5 percent of system cost/yr |
-| Loss of generation | Revenue lost while system is down | Commercial plants with loans | Priced on declared generation |
+Where both covers are held, General Contents are automatically covered for 20 percent of the Home Building sum insured, capped at ₹10 Lakh. Some insurers treat solar panels as contents rather than building, which changes the limit on your claim.
 
-## Who Sells Solar Insurance in India
+## The four policy types that cover a solar asset
 
-The Ministry of New and Renewable Energy published an updated compilation of insurers with specialised solar products. The list followed consultation with the Department of Financial Services and IRDAI, according to Energetica India (2024). The six names on that list:
+Solar cover in India is assembled, not bought off a shelf. Four forms do almost all the work, and each is defined as much by its exclusions as its perils.
 
-- **New India Assurance** offers the New India Solar Energy Insurance Policy, a package covering sellers and buyers, with buyer protection if a module manufacturer goes insolvent.
-- **ICICI Lombard** offers Photovoltaic Panel Warranty Insurance covering 10 to 12 years of product warranty and 25 to 30 years of performance warranty obligations. It is aimed at manufacturing faults and material defects.
-- **HDFC Ergo** offers Solar Panel Warranty Insurance covering performance and product warranty breach, including insolvency risk. On the retail side, HDFC Ergo home insurance covers rooftop solar as an add-on. It costs roughly Rs 125 per year for Rs 5 Lakh of cover, according to Policybazaar (2025).
-- **Tata AIG** offers a Weather Insurance Policy indexed to weather deviations, plus Solar Module Warranty Insurance for manufacturers.
-- **IFFCO-Tokio** offers a Photovoltaic Sales Policy covering manufacturer warranties with buyer protection on insolvency.
-- **Cholamandalam MS** offers the Chola Solar Plant Protect policy covering energy production shortfalls from low irradiation.
+| Policy type | What it adds | What it will not do |
+| --- | --- | --- |
+| Standard Fire and Special Perils | Fire, lightning, explosion, riot damage, storm, cyclone, flood | Excludes short circuiting, arcing, self-heating, earthquake, theft |
+| Burglary | Theft after forcible and violent entry | Excludes cabling-only theft, long-unattended premises |
+| Machinery Breakdown | Sudden damage: short circuit, over-voltage, insulation failure | Excludes wear and defects under manufacturer warranty |
+| Industrial All Risks | Property damage and breakdown bundled, plus accidental damage | Priced for larger assets; excludes wear, defect, workmanship |
 
-Notice the pattern. Most of these specialised products are built for manufacturers, developers, and commercial plants. For a residential rooftop owner in 2026, the realistic options are two. The home insurance add-on route, or a standalone all-risk policy quoted through a general insurance broker. The premium economics below show why the add-on route wins for most homes.
+The exclusion that matters most sits in the fire policy. The Standard Fire and Special Perils wording excludes loss caused by over-running, short circuiting, arcing, self-heating, or leakage of electricity from any cause including lightning, and it applies to the particular electrical machine affected. Other equipment destroyed by a fire that machine starts is still covered. The machine that failed is not. Machinery breakdown cover reverses this for the insured machine, which is why the product exists.
 
-## What Solar Insurance Actually Costs
+MNRE publishes a list of insurers offering solar-specific products, through Circular No. 283/72/2019-GRID SOLAR dated 7 January 2020, updated 26 February 2024. Named products include the New India Solar Energy Insurance Policy and Cholamandalam MS Chola Solar Plant Protect. Several insure the manufacturer's warranty obligation, not your roof.
 
-Premium data for residential solar insurance in India is thin because most buyers use home add-ons rather than standalone policies. Two verified anchor points exist.
+## Warranty is not insurance, and the gap is where owners lose money
 
-For the add-on route, HDFC Ergo covers rooftop solar at about Rs 125 per year for Rs 5 Lakh of cover, according to Policybazaar (2025). Across insurers, add-ons for a Rs 1.5 Lakh to Rs 3 Lakh home system generally sit in the Rs 125 to Rs 500 per year band.
+This is the most common confusion among Indian system owners. A warranty is a promise from the manufacturer about the product. Insurance is a contract of indemnity against an external event. Different triggers, different evidence, different people on the phone.
 
-For standalone and project policies, basic insurance for a solar project in India costs 0.2 to 0.5 percent of project cost per year. That range comes from Sudhish Ramteke of Anand Rathi Insurance Brokers, in an interview with Saur Energy (2023). Applied to residential system costs, the math looks like this:
+| Event | Manufacturer warranty | Insurance policy |
+| --- | --- | --- |
+| Trigger | Defect in material or workmanship | A listed insured event |
+| Lightning strike | Usually excluded | Fire policy, or breakdown if no fire |
+| Theft of the unit | Never covered | Burglary or all-risk only |
+| Inverter fails in year 3, normal use | Covered, the core case | Usually declined as wear |
+| Flood submerges the inverter | Excluded | Covered if flood is insured |
+| Labour and freight to replace | Depends on written terms | Covered on breakdown partial loss |
+| Lost generation during downtime | Never covered | Only with business interruption |
 
-| System size | All-in cost (approx.) | Standalone premium at 0.2% | Standalone premium at 0.5% | Home add-on (indicative) |
-| --- | --- | --- | --- | --- |
-| 3 kW | Rs 1.6 Lakh | Rs 320/yr | Rs 800/yr | Rs 125 to Rs 300/yr |
-| 5 kW | Rs 2.6 Lakh | Rs 520/yr | Rs 1,300/yr | Rs 125 to Rs 500/yr |
-| 10 kW | Rs 4.8 Lakh | Rs 960/yr | Rs 2,400/yr | Rs 300 to Rs 800/yr |
-| 25 kW (society/commercial) | Rs 11 Lakh | Rs 2,200/yr | Rs 5,500/yr | Not suitable, use standalone |
+The gap sits in two places. Warranty will not pay for weather, theft, or grid surge. Insurance will not pay for a component that simply failed. Hold only one and you have a hole on one side.
 
-Three observations from this table. First, the add-on route is cheaper at every residential size. But the sum insured is capped, so a 10 kW system may be under-insured under a Rs 5 Lakh add-on. Second, premiums are small relative to system value. The decision is less about cost and more about whether the cover matches your actual risks. Third, above about 10 kW the standalone all-risk policy becomes the right instrument because add-on caps stop keeping pace with replacement value.
+Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. That addresses defects, not cyclones, and no manufacturer warranty in the market does. See the [inverter warranty guide](/blog/solar-inverter-warranty/), the [claim process](/blog/solar-inverter-warranty-claim/), and [installation versus product warranty](/blog/solar-installation-vs-product-warranty/).
 
-These are indicative 2026 figures. Always get a written quote, because insurers price roof type, location, and declared value individually.
+Surge damage is the grey zone. Most Indian inverter warranties exclude lightning. Where a **surge protection device** (SPD) rated to the relevant IEC standard was installed and working, a manufacturer has a harder time blaming lightning alone. Photograph SPD part numbers at commissioning. See [inverters with surge protection](/blog/how-to-choose-solar-inverters-with-surge-protection/) and the [SPD glossary entry](/glossary/spd/).
 
-## What Your Home Insurance Already Covers
+## Setting the sum insured, with a worked example
 
-Here is the part most solar insurance articles skip, and it changes the buying decision for a large share of homeowners.
+The sum insured decides what you get paid. The basis of valuation decides whether that number is any use at year five. **Reinstatement value** pays what an equivalent new system costs today. **Indemnity value** pays the written-down worth of what was destroyed. Reinstatement costs more in premium and is almost always right, because you cannot buy a five-year-old inverter to replace a five-year-old inverter.
 
-Most comprehensive home insurance policies in India define the insured building to include permanent fixtures: water tanks, rooftop fittings, and installed solar panel systems. Panels that are roof-mounted, permanently fixed, and declared to the insurer are covered like the rest of your home. The same fire, storm, theft, lightning, and accidental damage terms apply, according to Policybazaar's solar add-on guidance (2025).
+Three costs get forgotten at declaration and can usually be added: removal and disposal including roof access, freight and labour to reinstall, and professional fees. Bharat Griha Raksha pays up to 5 percent of the claim amount for architect, surveyor, and consulting engineer fees, and up to 2 percent for debris removal, according to the IRDAI Key Features Document (2021).
 
-So a homeowner with a comprehensive home policy may already hold most of that cover. The only cost is the declaration itself. The advantages of the bundled route are practical: one insurer, one claim, no dispute between two companies over a single storm event.
+The figures below are illustrative, using an assumed installed cost. They are not a quote, a market price, or a Qbits price. Substitute your own invoice values.
 
-The conditions matter more than the headline:
+**Assumed inputs**
 
-- **Declare the system.** Undeclared solar installations are the top reason solar claims under home policies get rejected. Call your insurer, give them the system value and commissioning date, and get written confirmation.
-- **Fixed, not portable.** Ground-mounted and portable systems often fall outside the building definition and need a separate policy.
-- **Check what is excluded.** Wear and tear, manufacturing defects, and damage from poor installation are excluded in every policy we reviewed. Insurance will not rescue a bad installer job.
-- **Confirm equipment scope.** Ask explicitly whether the inverter, batteries, and net meter are included. Some policies cover panels as structure but treat the inverter as an electrical appliance needing separate declaration.
+- Installed cost, all inclusive: ₹6,00,000 (assumption for the arithmetic only)
+- Reinstall labour and freight: 8 percent
+- Removal, disposal, and roof access: 3 percent
+- Age at loss: 5 years, illustrative depreciation 5 percent per year
 
-## Insurance vs Warranty vs AMC: Who Pays for What
+**Formula.** Reinstatement sum insured = current installed cost of like-for-like replacement + reinstall and freight + removal and access.
 
-This is the tradeoff section, and it is where homeowners most often waste money by double-paying for the same risk.
+**Reinstatement basis:** ₹6,00,000 + ₹48,000 + ₹18,000 = **₹6,66,000**.
 
-> **What most solar owners get wrong.** They buy insurance expecting it to cover inverter failure. At claim time they discover that mechanical and electrical breakdown from wear is excluded. Inverter failure under normal use is a warranty matter. Insurance only steps in when an external event, like a lightning surge or fire, causes the failure. If your warranty is long and genuine, you do not need breakdown cover at all.
+**Indemnity basis at year 5:** 5 years × 5 percent = 25 percent depreciation, so ₹6,00,000 × 0.75 = ₹4,50,000, plus the same ₹66,000 of ancillary costs = **₹5,16,000**.
 
-Think of protection for your rooftop system as three non-overlapping buckets:
+**The gap is ₹1,50,000**, funded personally on a total loss, and any deductible applies on top. Income Tax Act depreciation is a separate concept from an insurer's depreciated value. See [solar inverter depreciation](/blog/solar-inverter-depreciation-in-india/).
 
-| Risk | Warranty | Insurance | AMC / service cover |
-| --- | --- | --- | --- |
-| Inverter fails in normal use | Yes | No (unless breakdown add-on) | Labour and visit costs |
-| Panel delaminates early | Yes (product warranty) | No | No |
-| Storm rips off panels | No | Yes | No |
-| Lightning surge kills inverter | No (external cause) | Yes | No |
-| Panels or cable stolen | No | Yes (with theft cover) | No |
-| Dirty panels, loose wiring, low generation | No | No | Yes |
-| Poor installation causes leak or fault | Installer liability | No | Only if installer-run |
+## What solar insurance actually costs in India
 
-The nuance worth admitting: the boundary blurs at inverter breakdown. An all-risk policy with a mechanical breakdown add-on does cover inverter failure, but it duplicates what a strong warranty already gives you. A [solar inverter warranty](/blog/solar-inverter-warranty/) that is full replacement rather than prorated beats the breakdown add-on in most years of system life.
+There is no published tariff. Pricing is filed product by product, and the same roof attracts different numbers by route.
 
-This is where the Qbits position is a factual contrast rather than a sales pitch. Every Qbits inverter carries a [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/), and the authorised service network commits to a sub-72-hour RMA turnaround. In plain terms, the single most expensive and most likely equipment failure is already covered for 12 years at no annual premium. The [solar inverter warranty claim](/blog/solar-inverter-warranty-claim/) process is documented and does not involve a surveyor. For a Qbits owner, insurance only needs to do one job: cover the external perils, storm, fire, flood, and theft, that no warranty will touch.
+Basic insurance for a solar project in India costs 0.2 to 0.5 percent of project cost per year, according to Anand Rathi Insurance Brokers quoted by Saur Energy (2023). Treat this as an industry-observed range for project and commercial policies. The IRDAI-filed New India Solar Energy Insurance Policy (UIN IRDAN190CP0017V01201819) expresses premium as a percentage of total sum insured, adjusted at period end.
 
-The exception is battery systems and older inverters. If your inverter warranty has expired, or your battery carries only five years of cover, a breakdown add-on regains value. Run the comparison with your actual warranty documents, not the brochure.
+Applied to the ₹6,66,000 above, that band gives roughly ₹1,332 to ₹3,330 per year. It is sourced for project-scale policies and stretched here for illustration only. Residential add-ons generally price lower, and published retail figures vary widely, so this guide states no residential band as fact. Four things move the number: location risk, breakdown cover, the deductible you accept, and whether business interruption is attached.
 
-## How to File a Solar Insurance Claim
+## C&I specifics: business interruption, construction cover, and lenders
 
-The claim process is standardised across Indian general insurers, and rejections are almost always procedural rather than substantive.
+For a commercial and industrial system, the repair bill is rarely the biggest loss. The outage is. An inverter replacement running into months takes generation revenue with it, and a property policy alone does not cover that.
 
-1. **Report within the window.** Most policies require intimation within 7 to 15 days of the damage event. Late reporting is the easiest rejection an insurer can issue.
-2. **Document before touching.** Photograph and video the damage from multiple angles. Do not remove or repair anything unless safety requires it.
-3. **File the claim form** with your policy copy, panel and inverter invoices, installation certificate, and bank details.
-4. **File an FIR for theft or vandalism.** No FIR, no theft claim. This is non-negotiable across insurers.
-5. **Get repair estimates from authorised vendors.** Insurers want estimates from qualified installers, not a handwritten number.
-6. **Cooperate with the surveyor.** Small claims may be settled on video inspection. Large claims get a physical visit.
-7. **Settlement by bank transfer** after the surveyor's report is accepted.
+**Business interruption** is a consequential loss section attached to the property policy, and it must answer the same perils as that policy. If the property policy excludes earthquake, the business interruption section will not pay an earthquake outage either. Set the indemnity period against realistic procurement lead times.
 
-Keep a records file from day one: invoices, installation certificate, warranty cards, photos of the commissioned system, and your maintenance records. The [solar annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/) doubles as claim evidence, because documented upkeep counters any negligence argument. The [pre-monsoon solar inspection checklist](/blog/pre-monsoon-solar-inspection-checklist/) serves the same purpose before the highest-risk season. The [monsoon solar prep](/blog/monsoon-solar-prep/) post covers the hardening steps that reduce storm claims.
+**Construction phase cover** is a separate policy over a separate period. For a rooftop plant, where equipment dominates contract value, an Erection All Risk form is usually the fit, running through storage, erection, testing, and handover. Contractors All Risk is used where civil works exceed half the contract value, unusual on rooftop.
 
-## Do You Actually Need Solar Insurance? A Decision Framework
+**Workmen's compensation** is the one genuinely mandatory cover, required under the Employees' Compensation Act, 1923 for any site employing labour.
 
-Use this three-question test. It resolves most cases in under a minute.
+**Lender requirements** drive most of the structure on financed assets. Financiers routinely require property and erection cover before disbursement, with the lender named as loss payee. Get the names right at inception, because adding a loss payee after a loss is not possible. See the [C&I page](/c-i-solution/).
 
-**Question 1: Does home insurance cover the declared panels?** If yes, with sum insured matching system value, you are done for fire, storm, and theft risk. Do not buy a duplicate policy. If you have no home insurance at all, buy a comprehensive home policy with the solar declaration. It is usually better value than a standalone solar policy because it covers the house too.
+## The myth that catches most owners: insurance will pay for my dead inverter
 
-**Question 2: What is your external risk exposure?** Buy dedicated cover if you are in a cyclone-prone coastal district or a North Indian hail belt. The same applies to flood-prone areas and locations with real theft risk and easy roof access. Skip or minimise it if you are in a low-risk metro suburb with a parapet-secured roof.
+Buying insurance does not convert equipment failure into a covered loss. That single misunderstanding is why owners are surprised when a claim is declined.
 
-**Question 3: What is covered by warranty and service?** A long full replacement inverter warranty and 12-year panel product warranties handle equipment failure. Insurance only needs to fill the external-events bucket. If warranties have expired or are prorated to near-zero, a breakdown add-on or a replacement sinking fund becomes worth pricing.
+An inverter that fails under normal operation is a warranty matter. Insurance answers when an external event causes the failure. A lightning surge that destroys the unit is an insurance question. A capacitor reaching end of life in year four is not, and even a machinery breakdown policy will usually treat it as wear.
 
-One opinionated take, backed by the premium math above. For a typical 3 to 5 kW urban home with a declared home insurance add-on and a long inverter warranty, a standalone solar policy duplicates cover. The exception is the under-insured 10 kW-plus system, where the add-on cap leaves real replacement value exposed. Size the instrument to the gap, not to the fear.
+So where the inverter already carries a long replacement warranty, a separate premium for breakdown cover on that component may not earn its keep. The real value of breakdown cover on a rooftop sits in the ancillary costs: dismantling, re-erection, freight, and duties. No warranty covers those. Read the warranty terms first, then price the gap that remains. For terms by model, the [datasheet library](/download-datasheets/) is the source document.
 
-Your first year of ownership is also when most protection gaps surface, from missing declarations to undocumented serial numbers. The [solar year 1 ownership guide](/blog/solar-year-1-ownership-guide-india/) walks through the paperwork that makes any future claim painless. The [inverter maintenance guide for India](/blog/inverter-maintenance-india/) keeps the wear-and-tear risks, the ones nobody insures, under control.
+## How to build a claim file and make a claim go smoothly
 
-Elsewhere in the Heaven Group network, see [how to file a solar warranty claim](https://www.heavengreenenergy.com/blog/how-to-file-solar-warranty-claim) and [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included).
+Insurers pay on evidence, and what you can assemble after a cyclone is decided by the paperwork filed on the day of commissioning. A thin file is the easiest way to lose value on an otherwise payable claim.
 
-## Conclusion
+Assemble these at handover.
 
-Solar insurance in India is cheap, genuinely useful for external risks, and widely misunderstood. It will not cover a worn-out inverter, a degrading panel, or a bad installation. It will cover the cyclone, the hailstorm, the fire, and the thief. Match the cover to those risks, declare your system properly, and let warranty do the equipment-failure job it is designed for.
+1. **Itemised tax invoice** splitting panel, inverter, structure, cabling, and labour. A lump-sum invoice makes partial loss settlement difficult.
+2. **Equipment serial numbers** for every module and the inverter, photographed on the nameplate.
+3. **Single line diagram** and as-built layout showing string configuration and cable routes.
+4. **Commissioning and test reports** covering insulation resistance, earthing continuity, and string voltage. See [inverter commissioning](/blog/solar-inverter-commissioning-in-india/).
+5. **DISCOM approval and net meter record**, establishing legal connection. The [DISCOM glossary entry](/glossary/discom/) explains the chain.
+6. **Dated photographs** from several angles, plus close-ups of the SPD, isolators, and earthing pit.
+7. **Maintenance records** and cleaning logs. See the [pre-monsoon inspection checklist](/blog/pre-monsoon-solar-inspection-checklist/).
 
-Three actions to take this week:
+Then, after a loss, work in this order.
 
-- **Call your home insurer and declare your solar system in writing.** Confirm panels, inverter, and sum insured. If you have no home policy, quote one that includes the solar add-on before quoting standalone solar policies.
-- **Audit your warranty stack against the table above.** Note your inverter warranty type and expiry, panel product and performance warranty terms, and which bucket is uninsured.
-- **If the gap is equipment risk, not weather risk, fix the source.** A 12-year full replacement warranty and sub-72-hour RMA remove the largest failure cost outright. [Talk to a Qbits engineer about your system](/contact-us/) and get a straight answer on what your current setup does and does not cover.
+1. Notify the insurer the day you discover the loss, by phone and in writing.
+2. File a police FIR for theft or malicious damage before touching the site.
+3. Photograph everything before clearing anything.
+4. Isolate DC strings and cover exposed wiring. Doing nothing can prejudice the claim.
+5. Keep the damaged modules and failed inverter until the surveyor has inspected them.
+6. Export the monitoring data for the failure window. Inverter logs often date the event precisely.
+7. Submit the claim form within the deadline. Bharat Griha Raksha requires it within 30 days of first noticing the loss, per the IRDAI Key Features Document (2021).
+8. Get written repair quotations from the installer and one independent contractor.
+
+Where the failure is a product defect, route it to the manufacturer instead.
+
+## The Bottom Line
+
+Solar insurance in India is a stack, not a product. The fire and perils base handles weather. Burglary handles theft. Machinery breakdown handles the electrical failure that the fire policy excludes. Business interruption handles the outage. Warranty handles defects and nothing else. The decision is not whether to insure, but which gaps in your cover matter for your roof, your location, and your warranty terms.
+
+- **Read your property policy schedule this week** and confirm in writing whether the array, the inverter, and the net meter sit inside the insured property, and on what valuation basis.
+- **Set the sum insured on reinstatement basis** and add removal, access, freight, and professional fees. The worked example shows the gap a depreciated basis leaves.
+- **Assemble the claim file at commissioning, not after a loss.** [Contact Qbits](/contact-us/) for the model-specific warranty terms and equipment documentation an insurance schedule requires.
+
+This guide is general information and is not insurance advice. Policy wordings differ by insurer and by UIN, and rules vary by state and DISCOM. Obtain dated written terms from a licensed insurer or broker before deciding.

@@ -130,8 +130,6 @@ Figures above are publicly listed vendor prices at the time of writing, or noted
 - **Choose HelioScope** for engineering-led teams who handle proposals elsewhere.
 - **Choose OpenSolar** for small residential at lowest fixed cost.
 
-For Indian installers scaling past pure residential in 2026, SurgePV plus QuickEstimate is the Solar Ladder alternative that wins on scope, depth, and per-seat economics at the same time. Once the design is finalised, installers still need to spec the hardware, Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) range covers most of that Indian residential and C&I demand, and the team is reachable via [contact us](/contact-us/) for spec questions.
-
 <div class="inline-cta">
 <h3>Ready for one tool that covers design, simulation, and proposal?</h3>
 <p>SurgePV combines AI 3D roof modeling, 8,760-hour shading, PM Surya Ghar subsidy modelling, financial modelling, and white-label proposals at $1,299 to $1,899 per user per year.</p>

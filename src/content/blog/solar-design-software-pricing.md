@@ -182,8 +182,6 @@ Timelines and any training charge are deal-specific, so ask each vendor to put b
 - **Choose [OpenSolar](/blog/opensolar-alternative/) free** if small residential is your entire scope.
 - **Choose [PVcase](/blog/pvcase-alternative/) or [RatedPower](/blog/ratedpower-alternative/)** for utility-only at enterprise scale.
 
-For most installers and EPCs evaluating solar design software pricing in 2026, the headline number is SurgePV's $1,299 to $1,899 per user per year. The full [SurgePV pricing](https://surgepv.com/pricing) page lays out every plan, and the [free demo](https://surgepv.com/demo) is the cleanest way to test the workflow before committing. Once the design tool is chosen, EPCs still need to price the physical build, Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) catalog is a useful reference point for that side of the budget, and the team can walk through current pricing on a [call](/contact-us/).
-
 <div class="inline-cta">
 <h3>Ready to see the per-seat math on a real project?</h3>
 <p>SurgePV combines AI 3D roof modeling, 8,760-hour shading, bankable yield, financial modelling, and white-label proposals at flat $1,299 to $1,899 per user per year.</p>

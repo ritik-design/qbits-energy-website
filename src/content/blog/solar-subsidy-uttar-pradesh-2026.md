@@ -24,7 +24,7 @@ faqs:
   - q: "How long does net metering approval take in Uttar Pradesh?"
     a: "Net metering approval in Uttar Pradesh typically takes 60 to 90 days end-to-end - longer than the national average due to administrative load on the four DISCOMs and infrastructure constraints in semi-urban and rural areas. Urban applicants in Lucknow (MVVNL) and Kanpur (MVVNL) tend to see faster processing of 45 to 70 days. Rural applicants under PUVVNL and DVVNL should allow 75 to 120 days. The UPERC (UP Electricity Regulatory Commission) mandates a 30-day DISCOM response window from application, though actual timelines vary."
   - q: "Is a hybrid inverter better than an on-grid inverter in Uttar Pradesh?"
-    a: "For most UP homeowners, a hybrid inverter is the better choice - even though it costs 25 to 40 percent more. Rural and semi-urban areas in UP experience 4 to 8 hours of grid outages daily. An on-grid inverter shuts down completely during these outages, producing no power even when the sun is shining. A hybrid inverter with a battery bank continues powering critical loads through outages and also qualifies for PM Surya Ghar subsidy when ALMM-listed. Urban UP areas with more reliable grid supply can still consider on-grid, but should verify local outage history first."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Can I get solar subsidy on a 5 kW system in UP?"
     a: "Yes, you can install a 5 kW rooftop solar system in UP, but the PM Surya Ghar central subsidy is capped at 3 kW regardless of system size - the maximum central subsidy remains ₹78,000 even for a 5 kW installation. The UPNEDA state top-up is also capped at 3 kW. The additional 2 kW beyond 3 kW attracts no subsidy but is net-metering eligible, meaning all generation is credited against consumption or exported at the UPERC buyback rate. For high-consumption homes above 400 units per month, the 5 kW system often delivers better overall economics despite the subsidy cap."
   - q: "What documents are required for solar subsidy in Uttar Pradesh?"
@@ -35,6 +35,8 @@ faqs:
     a: "The UPERC (UP Electricity Regulatory Commission) sets net metering buyback rates for all four DISCOMs in Uttar Pradesh. The prevailing feed-in tariff for residential rooftop solar in UP is approximately ₹2.00 to ₹3.25 per unit exported, depending on the DISCOM zone and the applicable UPERC tariff order. The retail import tariff in UP ranges from ₹5.50 to ₹7.00 per unit for residential consumers on the LMV-1 slab. This wide gap between import and export rates reinforces why maximising self-consumption - rather than export - is the right economic strategy for UP homeowners. Check the UPERC website for the current tariff year orders."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Homeowners in Uttar Pradesh asking about rooftop solar in 2026 face a situation that is more financially compelling (and more operationally complex) than in almost any other Indian state. The electricity bills are high, the grid is unreliable across large rural and semi-urban stretches, and the subsidy stack available through [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) and UPNEDA is substantial. A 3 kW system in Lucknow can qualify for ₹78,000 in central subsidy alone, and UPNEDA state incentives can add further savings. What most homeowners do not know is that UP's frequent power cuts make the choice between an on-grid and a hybrid inverter a genuinely consequential decision, one that changes both your daily energy security and your long-term financial return.
 
@@ -210,7 +212,7 @@ A typical Lucknow homeowner in a 2 BHK flat in the Gomti Nagar area, monthly ele
 
 - **Capacity:** 3 kW hybrid with 5 kWh lithium-iron-phosphate (LFP) battery
 - **Panels:** 8 × 380 Wp monocrystalline (ALMM-listed)
-- **Inverter:** 3 kW ALMM-listed hybrid (single-phase)
+
 - **Battery:** 5 kWh LFP, 80% usable depth of discharge
 - **Expected generation:** ~390 units/month (based on Lucknow's 4.9 [peak sun hours](/glossary/peak-sun-hours/) average)
 
@@ -266,8 +268,6 @@ The UP solar subsidy application involves two parallel tracks (the national PM S
 
 3. **Obtain DISCOM technical feasibility approval.** Your DISCOM reviews your connection details and confirms grid capacity at your meter point. MNRE mandates a 15-day response window; UP DISCOMs typically respond in 10–25 days in urban areas and up to 35 days in rural zones.
 
-4. **Select a UPNEDA-registered and DISCOM-empanelled vendor.** Your installer must appear on both the national PM Surya Ghar vendor list and the UPNEDA state vendor registry. Verify on the respective portals, not on vendor marketing materials; for an independent cross-check on installer reputation, HeavenGreen Energy's local installer finder also covers UP districts. Confirm the specific inverter model appears on the [MNRE ALMM list](https://mnre.gov.in/); a non-ALMM-listed inverter means the entire subsidy claim is rejected at the verification stage.
-
 5. **Install, commission, and notify your DISCOM for inspection.** The DISCOM engineer visits to verify ALMM equipment, earthing, safety compliance, and arrange bidirectional smart meter installation. Allow 15–30 days from notification to inspection in UP, depending on DISCOM and urban/rural location.
 
 6. **Upload commissioning documents to both portals.** Upload the DISCOM commissioning certificate, vendor invoice, system photographs, and bank details to pmsuryaghar.gov.in for the central subsidy. Do the same on the UPNEDA portal for the state component. Both disbursements are direct bank transfers, expect 45–90 days for each from document upload.
@@ -277,7 +277,7 @@ The UP solar subsidy application involves two parallel tracks (the national PM S
 UP's subsidy process has improved significantly with PM Surya Ghar, but procedural errors remain the leading cause of application delays and rejections. These are the mistakes reported most frequently by UP DISCOM officers and UPNEDA administrators, and they mirror the broader causes covered in the [PM Surya Ghar rejection reasons guide](/blog/pm-surya-ghar-rejection-reasons/).
 
 - **Installing before DISCOM feasibility approval**: All four UP DISCOMs require written feasibility approval before physical installation begins. Installing first and applying after is grounds for commissioning refusal; the DISCOM will not inspect an installation that pre-dates the approval.
-- **Not verifying ALMM listing before installation**: Verify the exact inverter model number against the MNRE ALMM list before equipment is delivered to site. Verbal confirmation from the vendor is not sufficient. A non-ALMM inverter means the full subsidy (central and state) is rejected regardless of all other documentation being correct.
+
 - **Choosing a vendor on only one empanelment list**: To claim both the PM Surya Ghar central subsidy and the UPNEDA state top-up, your vendor must appear on both portals. Some vendors are listed on one but not the other. Ask to see current portal screenshots of both registrations.
 - **Bank account details not matching Aadhaar**: The subsidy disbursement bank account must exactly match the account linked to the Aadhaar used for e-KYC. Name discrepancies (even initials vs full name) cause transfer rejections and add 30–60 days to disbursement timelines.
 - **Missing the UPNEDA state application**: The central PM Surya Ghar application does not automatically register you for the UPNEDA state incentive. Many homeowners complete the national portal registration and miss the state application entirely. The state top-up cannot be claimed retrospectively after commissioning.
@@ -302,14 +302,8 @@ Several features of Uttar Pradesh's solar and grid environment are either not pr
 
 ## Where Qbits Fits in the UP Solar Stack
 
-Uttar Pradesh is exactly the grid environment Qbits inverters were designed for. The combination of wide voltage fluctuation (180–270 V input range), long outage duration (driving the hybrid-first recommendation), and a homeowner base that values long-term reliability over the cheapest available quote aligns with the core engineering decisions behind every Qbits product.
-
-Every Qbits on-grid and hybrid inverter is ALMM-listed, the non-negotiable requirement for PM Surya Ghar subsidy eligibility in UP. Beyond ALMM compliance, the Qbits HS and HT hybrid series are built for India-grid conditions: they tolerate 180–270 V input without nuisance tripping (critical in UP), carry [IP66 weather protection](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) for monsoon and dust exposure on UP rooftops, and come with a [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/), the longest in the residential segment. The 12-year warranty horizon means your inverter is covered well beyond the payback period even in the UP hybrid scenario.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM-listed; recommended for urban Lucknow, Kanpur, Agra, and Meerut homeowners with grid reliability above 20 hours per day.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery-readiness and automatic backup switchover; ALMM-listed; the recommended choice for rural UP, PUVVNL and DVVNL areas, and any UP location with more than 2 hours of daily grid outage.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm panel-string compatibility for your roof orientation and irradiance zone before finalising the system design.
 
-Built in India, backed in India, so when something goes wrong on a Tuesday afternoon in Gorakhpur or Allahabad, someone actually picks up the phone.
+Qbits manufacturing origin, service coverage in Uttar Pradesh and response time are not established until the relevant owners provide current written terms for the model and location.
 
-[Talk to a Qbits engineer](/contact-us/) about which model suits your DISCOM, your roof, and your grid reality in UP. Most system recommendations and subsidy eligibility confirmations come back within 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

@@ -155,4 +155,4 @@ Malaysia is an administratively gated market with genuinely good underlying econ
 
 - **Get the Maximum Demand figure before you design.** 75% of MD is the ceiling on non-domestic work, and roof area is irrelevant above it.
 - **Confirm quota availability before committing a timeline.** No SEDA approval means no bi-directional meter, and the customer has a self-consumption system they did not order.
-- **Design a live project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for MS IEC 62109 compliant inverter options against the finished design.
+

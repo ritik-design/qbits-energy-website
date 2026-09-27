@@ -131,8 +131,6 @@ Total time: under 5 minutes residential. For teams that also need lead capture a
 - **Choose [Aurora AI Mode](/blog/aurora-solar-pricing/)** only if already committed to Aurora's upper tier.
 - **Choose Arka360 AI** if India-residential is your entire scope.
 
-For most installers and EPCs in 2026, Clara AI inside the [solar design software](https://surgepv.com/) from SurgePV wins on capability, integration, and total cost. Once the layout and MPPT string count are locked, the next step is matching them to a compatible [on-grid](/on-grid-inverter/) or [hybrid inverter](/hybrid-inverter/), and Qbits' engineering team can [walk through the spec fit on a short call](/contact-us/).
-
 <div class="inline-cta">
 <h3>Ready to design solar in plain English?</h3>
 <p>SurgePV combines Clara AI, AI 3D roof modeling, 8,760-hour shading, bankable yield, and white-label proposals in one platform.</p>

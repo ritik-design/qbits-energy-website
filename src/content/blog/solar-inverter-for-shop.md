@@ -37,6 +37,10 @@ faqs:
     a: "The PM Surya Ghar Muft Bijli Yojana is restricted to residential consumers. Commercial shops, pharmacies, and salons are not eligible for this central subsidy. However, several state schemes offer capital subsidies or interest subvention for micro and small enterprises going solar - MNRE and state nodal agencies publish updated lists. Commercial consumers can still benefit from accelerated depreciation (40% in the first year under Income Tax Act) and full GST ITC, which together provide a financial benefit comparable to a 15–20% subsidy on the installed cost."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every month, lakhs of small shop owners across India hand over ₹8,000 to ₹25,000 to their DISCOM, and every month, that bill climbs a little higher as commercial tariffs outpace inflation. A kirana store owner in Pune, a salon in Chennai, a pharmacy in Jaipur, or an electronics retailer in Surat all face the same arithmetic: commercial electricity in India now costs ₹7–12 per unit, roughly twice the residential rate, and the tariff revises upward almost every year. A correctly sized solar inverter for a shop flips that arithmetic in the shop owner's favour, permanently.
 
 > **TL;DR**
@@ -208,8 +212,6 @@ For shops in states with reliable grids (Gujarat, Maharashtra urban areas, Karna
 
 Even with the best intentions, shop owners regularly make the following errors that reduce system performance or increase lifetime cost. Each one is avoidable with a 10-minute check before signing the installer's contract.
 
-- **Skipping the DISCOM net metering application pre-check**: Installing first and applying later often results in the DISCOM rejecting the net meter application because the system size exceeds the sanctioned load, or because the installer used a non-ALMM-listed inverter. Check the [ALMM list guide](/blog/almm-list-phase-iii-guide/) before purchasing any inverter.
-
 - **Choosing an inverter based on price alone**: Cheap inverters from unlisted manufacturers fail DISCOM commissioning inspections, voiding any chance of net metering. They also carry no service network in Tier-2 cities. The [solar inverter quality guide](/blog/how-to-evaluate-solar-inverter-reliability/) explains the five checks that separate durable commercial-grade units from price-sensitive alternatives. Requesting a fully itemised quotation, the kind a [dedicated solar quotation tool](https://quickestimate.co/features/quotation-system/) generates, rather than accepting a single lump-sum figure, makes it far easier to compare installers on equal terms.
 
 - **Ignoring seasonal load variation**: A salon that runs minimal AC in winter and four hair dryers plus AC in summer has a 3× load swing. Size for the summer peak, not the comfortable winter average, or you will clip generation and trip the inverter during peak summer months.
@@ -222,14 +224,9 @@ Even with the best intentions, shop owners regularly make the following errors t
 
 ## Where Qbits Fits for Small Commercial Buyers
 
-Small shop owners who want a commercial-grade solar inverter without paying the import premium of a global brand (and without the warranty anxiety of an unlisted local assembler) find that Qbits's engineering-first positioning addresses the exact risks that matter in a market-area shop. The 12-year full replacement warranty means that if the inverter fails in year 7 during the monsoon, Qbits replaces the entire unit, not just a board. The IP66 housing handles the dust, splash, and humidity that market environments generate. The AI-powered WhatsApp monitoring sends generation alerts directly to the shop owner's phone, no app login, no dashboard, just a message when something changes.
-
 For a small commercial installation, three pages are worth bookmarking before requesting a quote:
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: The TLS series from 1.5 kW to 10 kW covers the full range for single-phase small commercial shops, is ALMM-listed, and qualifies for net metering in all major states.
-- **[Hybrid Inverters](/hybrid-inverter/)**: The HS series with battery-ready architecture is suited for shops in outage-prone areas that need POS, refrigeration, and fan continuity through 2–4 hour load-shedding windows.
-- **[C&I Solar Solution](/c-i-solution/)**: For shops with 5–50 kW requirements or multi-outlet chains, the C&I page covers three-phase options, DG displacement calculations, and fleet monitoring.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[C&I Solutions](/c-i-solution/)**: Ask which project services are available and obtain the responsible party, deliverables, exclusions and fees in writing.
 
 When you are ready to confirm your panel string configuration before the installer begins work, use the [string sizing calculator](/string-sizing-calculator/), it takes under two minutes and confirms whether your chosen panel model and count are within the inverter's MPPT input range.
-
-The clearest way to make the commercial solar decision is with actual numbers from your DISCOM bill and your roof dimensions. [Request a quote and a free load audit from a Qbits engineer at the contact page](/contact-us/), the team covers 280+ cities and provides site-specific payback projections within 24 hours.

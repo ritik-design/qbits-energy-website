@@ -255,8 +255,6 @@ Half-cut cell modules are the default for Indian and global solar module manufac
 
 ## Need ALMM-listed half-cut solar modules?
 
-QBits Energy supplies ALMM-listed half-cut bifacial modules across PERC, TOPCon and HJT technologies for Indian residential, C&I and utility solar.
-
 ## Further reading
 
 For how Half-Cut Cell plays out in real projects, these guides go deeper:

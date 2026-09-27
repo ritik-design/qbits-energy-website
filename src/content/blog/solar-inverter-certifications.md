@@ -249,4 +249,4 @@ Quality compliance drives repeat business and referrals. Cutting corners sacrifi
 
 ## Closing
 
-Certifications are not bureaucratic paperwork, they are the legal and financial protection layer for every solar project. Build a verification process once, train your team, automate the tracking, and you eliminate one of the most preventable categories of project risk in Indian solar. The same verified equipment then needs a rigorous [commissioning process](/blog/solar-inverter-commissioning-in-india/) on site - certification confirms the inverter is legally and technically sound; commissioning confirms it is correctly installed and configured. Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/) ship with the full BIS/IEC/ISO documentation pack referenced above as standard, so procurement teams get the audit trail without chasing it after the PO is signed, [talk to a Qbits engineer](/contact-us/) to review the certification file for a specific project.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

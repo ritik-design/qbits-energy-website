@@ -22,17 +22,19 @@ faqs:
   - q: "Can a solar system run a bore well pump at a farmhouse?"
     a: "Yes, if the inverter is sized for the pump's starting surge. A 1 HP pump draws about 0.75 kW running but 2.5 to 3 times that at start-up, and a 3 HP pump can surge past 6 kW. The practical approach is to run the pump during peak solar hours and size the inverter at least 1.5 times the pump's surge load, or use a dedicated solar pump controller. A hybrid inverter with a battery handles pump starts cleanly even when the grid is down."
   - q: "Is PM Surya Ghar subsidy available for farmhouse solar?"
-    a: "The PM Surya Ghar Muft Bijli Yojana subsidy applies to residential rooftop systems, so a farmhouse qualifies only if the electricity connection is a domestic (residential) category connection and the panels are mounted on a rooftop. Ground-mounted systems and agricultural or commercial category connections do not qualify. The central subsidy is ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW, capped at ₹78,000 with nothing paid above 3 kW, and it requires the inverter to be on the ALMM list and installed by a registered vendor."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Should I mount solar panels on the farmhouse roof or on the land?"
     a: "Rooftop mounting is cheaper and is the only option eligible for the PM Surya Ghar subsidy, but many farmhouse roofs are small, shaded by trees, or not oriented well. Ground mounting on farmhouse land costs roughly 10 to 20 percent more per kW because of the structure, civil work, and cabling, but it allows perfect orientation, easy cleaning, and any capacity you want. Most owners with one acre or more choose a ground-mounted array near the boundary wall and keep the roof free."
   - q: "How do I monitor a farmhouse solar system with poor internet?"
-    a: "Use a monitoring system that works on basic 4G and pushes alerts over WhatsApp rather than depending on a home broadband connection or a complex app. Qbits hybrid inverters include WhatsApp monitoring that sends daily generation reports, battery status, and fault alerts to your phone, so you know if a pump failed or the battery is low without visiting the site. For security, pair the system with a small 4G CCTV camera powered from the same backup circuit."
+    a: "The retained Qbits documents do not establish this as a universal product or service term. Confirm the current model datasheet, monitoring interface, written warranty, and service process for the exact SKU and sale."
   - q: "What size solar system does a typical Indian farmhouse need?"
     a: "A typical two to four bedroom farmhouse running one or two ACs, fans, lights, a fridge, and a 1 to 2 HP pump needs a 5 kW hybrid inverter with a 5 to 10 kWh battery and about 6 to 7 kWp of panels. Larger farmhouses with three or more ACs, a pool pump, and staff quarters usually need a 10 kW system with 10 to 15 kWh of storage. Size the battery for your longest expected outage, not for the whole day's consumption."
   - q: "Can solar fully replace a diesel generator at a farmhouse?"
     a: "For most farmhouses, yes. A correctly sized hybrid inverter with a 10 to 15 kWh lithium battery covers overnight lighting, fans, fridge, and even AC use through typical rural outages, at a running cost near zero versus ₹18 to ₹24 per unit for diesel. The exception is very long outages of two days or more during monsoon, where a small backup generator as a third layer is still sensible. Most owners who switch keep the old DG set idle as an emergency reserve for the first year, then retire it."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Rural India averages around nine hours of outages daily in surveyed states, versus two hours in cities, per Prayas Energy Group (2025). That single number explains why solar for farmhouse projects fail so often. Most farmhouses sit at the far end of long, weak rural feeders. [Voltage](/glossary/voltage/) swings wildly, cuts arrive without warning, and the diesel generator hums through every weekend visit. Owners then buy the same on-grid rooftop system their city neighbour installed, and discover it produces exactly zero units during every outage.
 
@@ -58,10 +60,6 @@ Farmhouse feeders fail in two ways at once. The power goes off for hours, and wh
 The root cause is physical. A farmhouse typically sits at the end of an 11 kV rural feeder that may run 15 to 30 km from the substation. Every kilometre adds resistance. When farmers switch on irrigation pumps at the same time, voltage at the far end can sag below 180 V. At night, when the load drops, it can float above 250 V. The Central Electricity Authority prescribes a declared voltage band for low-tension supply. Rural feeders routinely drift outside it during peak agricultural seasons, per CEA supply standards (2024).
 
 Outages compound the problem. The same Prayas Energy Group monitoring that recorded roughly nine hours of rural outages per day also found that cuts are erratic, not scheduled. For a farmhouse owner, this means the AC trips during a weekend party and the bore well pump refuses to start on low voltage. The fridge full of food spoils during the week while nobody is there.
-
-Standard on-grid inverters make things worse, not better. Their anti-islanding protection disconnects them the instant the grid fails, and most of them refuse to reconnect until voltage sits stably inside a narrow band. An inverter that is not tuned for Indian grid conditions can spend half the day offline even when power is technically available. This is exactly why we built the Qbits range with a wide 180 to 270 V operating window. The details are in [why India needs grid-tuned inverters](/blog/india-grid-tuned-inverters/) and the engineering behind [tuning inverters for the Indian grid](/blog/tuning-inverters-indian-grid/).
-
-> **What most farmhouse owners get wrong.** They measure grid quality by whether the bulb glows. A bulb glows at 150 V. An AC compressor, an inverter, and a pump starter do not. Measure voltage at your farmhouse with a simple plug-in meter for one week before you design the system.
 
 ## Why Hybrid Plus Battery Is the Default Answer for Farmhouses
 
@@ -146,7 +144,7 @@ The failure pattern we see repeatedly is this. An owner installs a system, visit
 The practical requirements:
 
 - **Works on 4G, not broadband.** Most farmhouses have no wired internet. The inverter must push data over a basic mobile connection.
-- **Pushes alerts to you.** Daily generation summary, battery state, and fault alerts should arrive on a channel you actually read. Qbits inverters send all of this over WhatsApp, so a caretaker or owner sees a fault the same day. Our [solar inverter app monitoring](/blog/solar-inverter-app-monitoring/) post compares monitoring approaches in detail.
+
 - **Tracks battery health.** In a weak-grid area the battery cycles hard. Watch the depth of discharge and charge patterns monthly.
 
 For physical security, mount the inverter inside a locked room and keep the battery bank indoors. Put one 4G camera watching the array if it is ground-mounted. Panel theft from isolated properties is rare but real in some districts, and a ₹5,000 camera on the backup circuit is cheap insurance.
@@ -172,8 +170,6 @@ Ground mounting adds roughly ₹40,000 to ₹80,000 for the 5 kW case and remove
 
 Payback comes from three streams. Grid units displaced at ₹7 to ₹9 per unit, diesel units displaced at ₹18 to ₹24 per unit, and avoided food spoilage and DG maintenance. Consider a farmhouse running 1,200 to 1,800 units a month on weekends and staff loads, plus 15 to 25 litres of diesel a month. Annual savings of ₹1.2 Lakh to ₹2 Lakh are realistic. That puts payback at four to six years, faster if diesel use is heavy.
 
-Qbits hybrid inverters are ALMM-listed and carry a 12-year full replacement warranty and an IP66 outdoor rating. Their firmware is tuned for the 180 to 270 V swings discussed above. Where the nearest service visit is expensive, warranty depth and remote fault alerts outweigh a few thousand rupees of upfront price.
-
 ## The Tradeoffs Nobody Mentions
 
 Honest setup advice requires naming the downsides, because farmhouse solar has real ones.
@@ -194,4 +190,4 @@ Three actions to take this week:
 
 - Log your farmhouse voltage and outage hours for seven days with a ₹500 plug-in meter, and list every load including the pump and staff quarters.
 - Get itemised quotes for both rooftop and ground-mounted hybrid configurations, with battery chemistry and warranty stated in writing.
-- [Talk to a Qbits engineer](/contact-us/) for a farmhouse-specific design. We size the inverter, battery, and array against your actual feeder conditions and send a detailed proposal within 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

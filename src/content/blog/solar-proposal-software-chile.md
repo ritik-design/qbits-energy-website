@@ -183,4 +183,4 @@ Chile pays less for exports than customers expect and keeps the credit longer th
 - **Explain the pure energy price early.** Customers assume export credits at retail, and correcting that in the document beats the first statement doing it.
 - **Show the credit balance across twelve months.** Non-expiring accumulation is the scheme's best feature and most quotes never display it.
 - **Use site weather.** Four thousand kilometres of latitude makes a national file wrong nearly everywhere.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a Chilean address, or reach the Qbits team [here](/contact-us/) for inverter and battery specification.
+

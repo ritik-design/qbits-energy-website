@@ -266,8 +266,6 @@ Module efficiency is the percentage of sunlight converted to electricity at STC.
 
 ## Need help choosing the right module efficiency?
 
-QBits Energy advises customers on module selection balancing efficiency, cost and lifecycle ROI for Indian solar projects.
-
 ## Further reading
 
 For how Module Efficiency plays out in real projects, these guides go deeper:

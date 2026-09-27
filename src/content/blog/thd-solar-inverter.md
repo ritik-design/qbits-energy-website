@@ -1,7 +1,7 @@
 ---
 title: "THD in Solar Inverters, Why It Matters"
 excerpt: "THD in an inverter is the percentage of non-fundamental harmonic content in its AC output. High THD damages motors, trips VFDs, faults UPS systems, and disqualifies inverters from hospital and data centre projects."
-description: "What is THD in a solar inverter, why IEEE 519 caps it at 5% at PCC and 3% for sensitive loads, and how Qbits inverters hit under 3% THD with LC filters."
+description: "Understand voltage and current THD in solar systems, where to find rated limits and how an engineer should interpret site measurements."
 category: "Technology"
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -16,9 +16,9 @@ keywords:
   - solar inverter power quality india
 faqs:
   - q: "What is THD in an inverter?"
-    a: "THD (Total Harmonic Distortion) is the ratio of the root-mean-square sum of all harmonic components in an inverter's AC output to the rms of the fundamental 50 Hz component, expressed as a percentage. A Qbits solar inverter delivers less than 3% current THD at rated output, which is within IEEE 519-2014, IS 17387, and CEA Grid Code limits. Values above 5% indicate poor waveform quality that can damage sensitive equipment and trigger DISCOM non-compliance penalties."
+    a: "Total harmonic distortion is a measure of how much of a waveform sits outside its fundamental frequency, expressed as the ratio of the harmonic content to the fundamental in percent. A perfect sine wave has none. For a grid-tied solar inverter the figure that matters is current THD at the output, because that is what the inverter injects into the network, and grid-connection standards cap it. Distinguish it from voltage THD, which is a property of the supply at your site and is influenced by other loads and by source impedance rather than by your inverter alone."
   - q: "What is the acceptable THD limit for a solar inverter in India?"
-    a: "IS 17387 and the CEA Grid Code (which references IEEE 519) require current THD below 5% at the point of common coupling for most systems. For hospital, data centre, and precision manufacturing applications, the effective design target is below 3% current THD at rated load. Individual harmonic orders must also stay within their own sub-limits: no single harmonic component above 3% of the fundamental for systems connected below 69 kV. All ALMM-listed inverters in India must demonstrate compliance at commissioning."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Does high THD damage equipment?"
     a: "Yes. Elevated THD causes transformer core and winding overheating through eddy current losses, motor vibration and acoustic noise, premature capacitor failure in power factor correction banks, nuisance tripping of VFDs and UPS units that use the AC supply as a voltage reference, metering errors in older energy meters, and progressive ageing of sensitive electronics exposed to distorted supply. The damage is cumulative and often not apparent until equipment fails prematurely. A sustained VTHD above 8% at the load terminals is considered a severe distortion event under IEC 61000-4-30."
   - q: "What is the difference between VTHD and ITHD?"
@@ -30,27 +30,23 @@ faqs:
   - q: "What happens when THD is too high at a hospital or data centre?"
     a: "At a hospital, distorted supply voltage can interfere with medical imaging equipment calibration, cause ground-fault interrupters to nuisance-trip, and degrade battery chargers on life-support UPS units. At a data centre, UPS systems that derive their transfer threshold from the AC waveform may make unnecessary transfers to battery, shortening battery life and increasing apparent power demand. Server power supplies with tight PFC circuits can overheat. In both cases, the facility operator may invoke supply-quality clauses in the building procurement contract, creating contractual liability for the EPC."
   - q: "Does Qbits specify THD in its inverter datasheets?"
-    a: "Yes. Qbits inverters achieve less than 3% current THD at rated output, verified at the factory as part of the BIS and IEC certification test protocol. This figure applies to the full TLS, TLD, HS, and HT series. EPCs can request test reports with individual harmonic measurements during procurement. For C&I projects with sensitive loads, the Qbits engineering team will provide site-specific THD assessments at commissioning using class A power quality analysers per IEC 61000-4-30."
+    a: "There is no single Qbits THD figure that applies across the range, because distortion performance is a per-model characteristic measured under stated test conditions. Request the current test report or certificate for the exact model you are buying, check whether the figure quoted is voltage or current THD and at what output level it was measured, then compare it with the requirement your project or DISCOM actually applies."
   - q: "How is THD measured on a solar project?"
     a: "THD is measured with a class A power quality analyser connected at the inverter AC terminals or at the point of common coupling. The analyser samples voltage and current at high rate (typically 64–256 samples per cycle), applies FFT, and computes harmonic magnitudes. IEC 61000-4-30 requires 10-minute aggregated values for compliance reporting. Instantaneous snapshots are suitable for troubleshooting only. For plants above 100 kW, DISCOM commissioning protocols in most Indian states include a mandatory power quality audit that covers both VTHD and ITHD."
   - q: "Can two inverters on the same feeder worsen THD?"
     a: "Yes, through two mechanisms. First, harmonic currents from multiple inverters can add constructively if they are in phase - which happens when all units run identical PWM algorithms. Modern inverters use phase-shifted carrier waves to partially cancel interleaved harmonics, but this requires coordinated configuration. Second, multiple inverter outputs flowing through shared feeder impedance convert current harmonics to voltage harmonics that every load on the feeder sees. Site designers should conduct a harmonic penetration study for any installation with more than five inverters on a single distribution feeder."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Solar projects in hospitals, data centres, pharmaceutical facilities, and precision manufacturing plants face a procurement question that goes beyond panel count and kWp: what is the THD specification of the inverter under evaluation, and does it meet the distortion limits that apply to sensitive loads?
 
 > **TL;DR**
 > - THD measures the harmonic content of an inverter's AC output relative to the 50 Hz fundamental; IEEE 519 caps voltage THD at 5% at the PCC below 69 kV, while IS 17387 requires current THD below 3% at rated output in India.
-> - Qbits inverters hold under 3% current THD at rated output across the TLS, TLD, HS, and HT series, verified in BIS and IEC certification test reports.
-> - High THD overheats motors and transformers, trips VFDs and UPS bypass systems, and can disqualify an inverter from hospital, data centre, and precision manufacturing projects, where the effective design target is 3% VTHD or tighter.
-> - THD rises sharply at partial load, a unit reading 2% ITHD at 100% output can show 8-12% at 10% output, so procurement specs should require THD data at 100%, 25%, and 10% load points.
-> - Quality inverters control THD through high switching frequency, LCL output filters, precision IGBT selection, feedforward harmonic compensation, and interleaved carrier phase shifting.
 
 The question matters because every switching inverter injects harmonic currents into the AC grid as a side effect of its DC-to-AC conversion process. When those harmonics are controlled correctly, the inverter operates within IEEE 519 and IS 17387 limits and is invisible to connected equipment. When they are not (due to weak filters, low-quality IGBTs, or inadequate control design) the result is waveform distortion that causes equipment overheating, VFD trips, UPS faults, and, in extreme cases, medical device calibration errors.
 
 This guide covers what THD is, why solar inverters generate it, what the applicable standards require, how to read THD data on a datasheet, and what design and procurement decisions determine whether a project stays within limits.
-
-> **Direct answer.** THD in an inverter is the percentage of harmonic content in its AC output relative to the 50 Hz fundamental. IEEE 519-2014 caps voltage THD at 5% at the point of common coupling for systems below 69 kV; IEC 61000 and IS 17387 require current THD below 3% at rated output. Qbits inverters achieve less than 3% current THD across the TLS, TLD, HS, and HT series. Above these limits, motors overheat, VFDs trip, UPS systems fault, and medical equipment malfunctions.
 
 The [glossary definition of THD](/glossary/thd/) provides the full formula and measurement methodology. The sections below build on that foundation with the procurement and design decisions that determine real-world compliance.
 
@@ -68,10 +64,6 @@ The THD figure on an inverter datasheet is the root-mean-square combination of a
 
 Where I₁ is the fundamental current and Iₙ is the current at the nth harmonic.
 
-### What the 3% Threshold Means in Practice
-
-A current THD of 3% at rated load (the figure Qbits inverters achieve) means the combined rms of all harmonic components is 3% of the fundamental current. For a 10 kW inverter at 230 V single-phase, that is roughly 43 A fundamental current and 1.3 A total harmonic current. The harmonic power drawn from the grid is tiny. The problem is not the power, it is the distortion of the voltage waveform that the harmonic current creates when it flows through grid impedance. That voltage distortion affects every other device on the same feeder.
-
 ## IEEE 519 and IEC 61000 THD Limits Explained
 
 IEEE 519-2014, IEC 61000-3-6, and India's IS 17387 form the three-layer framework that governs inverter THD compliance in Indian solar projects.
@@ -88,8 +80,6 @@ The table below summarises the voltage THD limits at the point of common couplin
 Most Indian solar projects connect at LT (415 V) or HT (11 kV / 33 kV). The relevant limit for LT connections is 8% VTHD total and 5% per individual harmonic at the PCC. For HT connections above 1 kV, the limit is 5% total and 3% per individual harmonic, substantially stricter.
 
 Current THD (ITHD) limits under IEEE 519 depend on the short-circuit ratio (SCR) at the PCC, the ratio of available short-circuit current to the maximum demand load current. The lower the SCR, the stricter the current limits because the grid impedance is higher and harmonic currents cause proportionally larger voltage distortion. For most rooftop and C&I solar connections in India, the SCR falls in the 20–50 range, which permits up to 8% total demand distortion (TDD) but requires individual harmonics below 7% for 3rd through 10th harmonic.
-
-> **< 3%.** The current THD that Qbits solar inverters achieve at rated output, verified under IS 17387 and IEC certification test protocols, and reported in individual harmonic test reports available on request. *Source - [IS 17387, Bureau of Indian Standards](https://www.bis.gov.in/), 2026.*
 
 IEC 61000-3-6 governs the current emission limits for medium-voltage (MV) connected equipment and is referenced for C&I plants above 630 kW. [IEC 61000-4-30](https://www.iec.ch/homepage) defines class A measurement methodology, the 10-minute aggregation protocol that DISCOMs require for compliance audits. The [IEEE 519-2014 standard](https://www.ieee.org/standards/) remains the primary reference for harmonic control at the point of common coupling across Indian utility-interconnected solar projects.
 
@@ -132,8 +122,6 @@ Inverter datasheets present THD in several forms, and misreading the specificati
 
 ### VTHD vs ITHD: Which Figure to Look For
 
-**Current THD (ITHD)** is what the inverter injects into the grid. This is the figure you will find in the inverter datasheet, typically stated as a percentage at rated output at unity power factor. The Qbits TLS and TLD on-grid series, and the HS and HT hybrid series, all specify less than 3% ITHD at rated output.
-
 **Voltage THD (VTHD)** is what the connected loads experience. VTHD at the PCC depends on both the inverter's ITHD and the grid impedance, it is not a fixed property of the inverter alone. The DISCOM compliance requirement is stated as VTHD at the PCC.
 
 The comparison table below clarifies the two metrics for procurement:
@@ -172,8 +160,6 @@ Inverter manufacturers use a combination of hardware and software techniques to 
 3. **IGBT quality and gate drive precision**: High-quality IGBT modules from established manufacturers (Infineon, Mitsubishi, Fuji, ON Semiconductor) have tighter switching characteristics than generic modules. Dead-time distortion (the brief interval when both switches in a half-bridge are off to prevent shoot-through) is the dominant source of low-order harmonic content. Precision gate drivers that minimise dead time and compensate for IGBT on-state voltage drops reduce 3rd and 5th harmonic content substantially.
 
 4. **Feedforward harmonic compensation**: The digital control loop in a modern inverter samples output current at high frequency and uses a feedforward compensator to inject an opposing signal that cancels predicted harmonic components before they appear at the output. This is effective for low-order harmonics (3rd, 5th, 7th) that arise from dead-time and IGBT non-linearity. The technique requires sufficient computational resources in the DSP, a constraint that budget inverters sometimes compromise on.
-
-5. **Interleaved carrier phase shift**: In multi-string inverters with parallel power stages, phase-shifting the PWM carrier wave between stages causes partial harmonic cancellation at the output. The 5th harmonic from one stage cancels the 5th from the adjacent stage if the carrier phases are offset correctly. This is standard practice in Qbits multi-string designs and allows achieving lower effective THD at the AC output than any individual stage would produce.
 
 ## THD by Application: Hospitals, Data Centres, and Precision Manufacturing
 
@@ -248,23 +234,16 @@ Before a purchase order is placed on a C&I project with sensitive loads, evaluat
 
 ## Where Qbits Fits for Power-Quality-Sensitive Projects
 
-C&I buyers at hospitals, data centres, and precision manufacturing plants need an inverter that proves its harmonic performance with documentation, not just a low price and a datasheet claim. Qbits inverters achieve less than 3% current THD at rated output across the TLS, TLD, HS, and HT series, backed by BIS certification test reports and factory-level individual harmonic data available on request. The India-grid-tuned firmware handles the 180–270 V voltage variations that Indian distribution feeders exhibit without compromising harmonic control, a critical detail for sites where grid quality is already marginal.
-
 For EPC teams specifying inverters on sensitive-load projects:
 
-- **[On-Grid Inverters (TLS / TLD series)](/on-grid-inverter/)**: 1.5 kW to 100 kW, LCL-filtered, less than 3% ITHD, ALMM-listed, BIS/IEC certified. Suitable for hospital, school, and commercial rooftop projects where power quality compliance is a contractual requirement.
-- **[Hybrid Inverters (HS / HT series)](/hybrid-inverter/)**: Battery-ready with seamless backup switchover. Less than 3% ITHD at rated output, making them appropriate for data centre edge deployments and hospital UPS integration where solar + storage topology is specified.
-- **[Download datasheets](/download-datasheets/)**: Full harmonic specifications, individual harmonic test data, and BIS / IEC certification references are included in the technical datasheet package for all current series.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Download datasheets](/download-datasheets/)**: Public datasheets do not provide a complete harmonic report for every current series. Request the exact model's current certificate or test report and verify its metric, conditions, scope and validity.
 
-When you are ready to evaluate THD performance against a specific project specification (including background VTHD at the site and load-point requirements) the Qbits engineering team provides site-specific harmonic assessments at no cost for projects above 50 kW. [Contact the team](/contact-us/) with the site address and a single-line diagram to get started, if the project does not yet have one prepared, an engineering partner can produce the electrical and CEIG drawings alongside the harmonic assessment.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 ## THD Across Inverter Technologies: String, Central, and Hybrid
 
 Different inverter topologies produce different THD profiles due to their power stage architecture.
-
-### String Inverters
-
-String inverters (the standard choice for rooftop solar up to 100 kW in India) use a two-level or three-level H-bridge topology. Two-level designs have inherently higher switching harmonics for a given switching frequency and require heavier filters to achieve below-3% THD. Three-level neutral-point-clamped (NPC) designs switch at effectively double the fundamental switching frequency, producing lower harmonic amplitudes with lighter filters. Premium string inverters from established manufacturers use NPC or T-type three-level topologies. The Qbits TLS and TLD series use three-level switching for this reason.
 
 ### Central Inverters
 
@@ -298,7 +277,5 @@ Indian distribution feeders present a distinctive harmonic environment that Euro
 - **Weak grid impedance in semi-urban areas**: Short-circuit ratios at LT connections in Tier-2 and Tier-3 cities are often below 20, making the voltage THD response to injected harmonic current higher than in urban areas.
 - **Wide voltage variation**: Indian grids operate at 180–270 V nominal at the LT terminal. Voltage variation changes the operating point of LCL filters and can shift THD by 1–2% between nominal and extreme voltage conditions. Inverters designed only for 220–240 V European grids may show elevated THD at the lower end of the Indian voltage range.
 - **Triplen harmonic accumulation in single-phase installations**: Large rooftop solar deployments on single-phase LT connections in residential and small commercial areas generate 3rd harmonic currents that accumulate in the distribution transformer neutral. This is separate from the inverter THD specification but is a system-level design consideration for high-density rooftop deployments.
-
-The Qbits India-grid-tuned firmware explicitly handles the 180–270 V operating range, maintaining less than 3% ITHD across this voltage band. This is documented in the product datasheet and verified as part of the BIS certification test, which requires testing at 85% and 110% of nominal voltage.
 
 The [solar inverter regulations and BIS/IEC compliance guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/) covers how Indian certification requirements for inverter harmonic performance differ from their international equivalents.

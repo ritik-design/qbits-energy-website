@@ -207,8 +207,6 @@ NPV is the sum of discounted future cash flows minus initial investment. Positiv
 
 ## Need NPV analysis for your solar investment?
 
-QBits Energy provides NPV-based investment analysis for utility, C&I and residential solar projects across Indian conditions.
-
 ## Further reading
 
 For how NPV plays out in real projects, these guides go deeper:

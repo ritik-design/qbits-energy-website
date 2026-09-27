@@ -266,8 +266,6 @@ Mounting structures hold solar modules at design tilt and orientation, transferr
 
 ## Need engineered mounting for your solar project?
 
-QBits Energy supplies and installs IS-compliant mounting structures for rooftop, ground-mount, carport and tracker projects across Indian environments.
-
 ## Further reading
 
 For how Mounting Structure plays out in real projects, these guides go deeper:

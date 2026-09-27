@@ -151,4 +151,4 @@ The Netherlands is about to run a natural experiment in what happens when a mark
 
 - **Stop sizing against annual consumption.** It was the right method under netting and it is the wrong method without it.
 - **Collect smart meter load data at the survey.** Half-hourly consumption is what makes an accurate post-2027 proposal possible, and Dutch smart meter coverage makes it obtainable.
-- **Model a real job both ways before the change lands.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for hybrid inverter and battery specification against the finished design.
+

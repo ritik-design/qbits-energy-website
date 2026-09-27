@@ -33,6 +33,8 @@ faqs:
     a: "A salaried tenant cannot use the Green Home Loan route (which requires property ownership). However, a tenant who wants to install a portable solar kit or negotiate with the landlord can take an HDFC Personal Loan and use it for solar-adjacent equipment. Note that a standard rooftop solar installation on rented property requires landlord permission regardless of financing source."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Electricity bills crossing ₹8,000 per month have pushed thousands of Indian homeowners into a familiar search loop: find a good solar system, check subsidy eligibility, and then hit the question of financing. HDFC Bank (with over 8,000 branches and a pre-existing [home loan](https://www.heavengreenenergy.com/blog/solar-loan-vs-home-loan-topup) relationship with millions of Indians) is a natural first port of call. Yet the search results for "HDFC solar loan" tend to surface generic [personal loan](https://www.heavengreenenergy.com/blog/solar-loan-vs-personal-loan) pages, leaving applicants confused about which product actually applies to their case.
 
 > **TL;DR**
@@ -239,13 +241,8 @@ State-level subsidies (available in Gujarat, Maharashtra, Tamil Nadu, and Uttar 
 
 ## Where Qbits Fits
 
-Homeowners who finalise their HDFC solar loan and choose a vendor need to pair the financing with a quality inverter that can deliver returns over a 10–20 year loan period. A 12-year full replacement warranty matters enormously here, the loan tenure for a Green Home Loan top-up often overlaps with the inverter's operational life.
+Homeowners who finalise their HDFC solar loan and choose a vendor need to pair the financing with a quality inverter that can deliver returns over a 10–20 year loan period. A model-specific written warranty matters enormously here, the loan tenure for a Green Home Loan top-up often overlaps with the inverter's operational life.
 
-Qbits inverters carry IP66 weather protection, AI-powered WhatsApp monitoring, BIS and ALMM compliance (required for PM Surya Ghar subsidy eligibility), and a service network covering 280+ Indian cities, all relevant when you are financing a system over 10 years and need it to perform without service interruption.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed TLS and TLD series from 1.5 kW to 50 kW; subsidy-eligible and net-metering ready.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for homeowners who want battery backup alongside the grid connection.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel-string compatibility before the vendor quotes, so the system is correctly designed from day one.
-- **[Authorised Service Partners](/authorized-service-partners/)**: pincode-searchable network for the 72-hour RMA SLA across India.
-
-[Talk to a Qbits engineer](/contact-us/) about matching the right inverter to your HDFC loan amount and system size, most quotes come back in 24 hours, and the team can advise on ALMM compliance for subsidy applications.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.

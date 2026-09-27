@@ -24,16 +24,20 @@ faqs:
   - q: "What is the CEA grid standard for solar inverters?"
     a: "The Central Electricity Authority (CEA) publishes the Technical Standards for Connectivity of Distributed Generation Resources (Amendment) which governs grid interconnection of solar rooftop and ground-mount systems in India. Key parameters include voltage ride-through limits, frequency operating bands (47–52 Hz for continued operation; 49.5–50.5 Hz for normal band), anti-islanding requirements under IEEE 1547 and IEC 62116, reactive power capability, and harmonic distortion limits (THD below 5% at rated output)."
   - q: "Does ALMM compliance require India-grid tuning?"
-    a: "The Approved List of Models and Manufacturers (ALMM) maintained by MNRE does not separately enumerate firmware parameters as an ALMM criterion - ALMM focuses on BIS certification under IS 16169 and IEC 62109 safety standards. However, BIS IS 16169 itself references the CEA grid connectivity standards, meaning an inverter cannot pass BIS testing without meeting the underlying CEA voltage and frequency operating windows. In practice, ALMM-listed inverters have cleared India's grid-compliance tests."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What is the real cost of nuisance inverter shutdowns for an EPC?"
     a: "Each nuisance shutdown on a 10 kW rooftop typically means 30–90 minutes of lost generation before the inverter auto-reconnects. At ₹7.5/unit, a daily trip costs roughly ₹56–₹168 per day per system - ₹20,000–₹60,000 per year across a 50-system portfolio. Beyond generation loss, repeated voltage stress outside the designed tolerance range accelerates DC link capacitor degradation, advancing inverter failure by 3–5 years. The warranty claim overhead alone justifies specifying an India-grid-tuned unit at the procurement stage."
   - q: "How does India-grid-tuned anti-islanding differ from generic anti-islanding?"
     a: "Generic anti-islanding firmware - tuned for stable European or US grids - uses tight power-frequency and power-voltage thresholds to detect islanding events. On India's grid, frequent minor voltage dips and frequency deviations can trigger those same thresholds even when the grid is still connected, causing false-positive disconnections. India-grid-tuned anti-islanding widens the detection window with adaptive thresholds and adds a multi-parameter confirmation step (frequency + voltage + impedance simultaneously) before executing a disconnect, dramatically reducing false trips while still meeting IEC 62116 requirements."
   - q: "Can I upgrade generic inverter firmware to India-grid tuning?"
     a: "Some inverter manufacturers release over-the-air firmware updates that can adjust voltage trip thresholds within a limited range. However, hardware components - particularly the surge protection device (SPD) stage, DC capacitor ratings, and transformer isolation (where present) - are designed at the factory for a specific voltage envelope. Flashing wider voltage-tolerance parameters onto hardware that was not designed for that envelope can mask real fault conditions and may void the manufacturer warranty. The safest approach for new EPC projects is to specify an India-grid-tuned inverter from the procurement stage."
-  - q: "Which Qbits inverter series carry India-grid-tuned firmware?"
-    a: "Qbits TLS and TLD series on-grid inverters and HS and HT series hybrid inverters all ship with India-grid-tuned firmware validated for the 180–270V AC input range and the 49.5–50.5 Hz normal frequency band. Every unit is BIS-certified under IS 16169 and listed on the ALMM register, confirming compliance with CEA grid connectivity standards. The firmware is maintained through WhatsApp-linked AI monitoring, and updates are pushed over Wi-Fi or 4G without requiring a site visit."
+  - q: "How do I verify a Qbits inverter's grid settings?"
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Walk any experienced EPC installer through a weak-grid project in rural Uttar Pradesh or a peri-urban industrial estate in Tamil Nadu and you will hear the same story: the imported inverter looked fine on the datasheet, passed the inspection, and then tripped six times in the first week. The site owner calls at midnight. The installer drives two hours to reset a device that reset itself. The client asks why the promised generation numbers are nowhere near the projections.
 
@@ -44,7 +48,6 @@ The inverter is not broken. It is doing exactly what its firmware tells it to do
 > - Five conditions break generic firmware: wide voltage excursions, aggressive [anti-islanding](/glossary/anti-islanding/) false trips, industrial harmonic loads, frequent DISCOM feeder interruptions, and monsoon surge events.
 > - A 50-system EPC portfolio can lose roughly ₹2.9 Lakh a year in generation revenue from nuisance trips alone on weak-grid feeders.
 > - BIS IS 16169 and the CEA Technical Standards for Connectivity of Distributed Generation Resources set the compliance floor; India-grid-tuned firmware is engineered to perform confidently above it.
-> - Qbits TLS, TLD, HS, and HT series ship with India-grid-tuned firmware validated for 180–270V and the 49.5–50.5 Hz normal band, backed by a 12-year full replacement warranty.
 
 > **Direct answer.** An india grid tuned inverter carries firmware calibrated for India's 180–270V voltage band, 49.5–50.5 Hz frequency range, India-specific anti-islanding thresholds, and industrial-grade surge protection. Generic firmware (designed for Europe's stable 220–240V grid) trips on conditions that Indian feeders produce every day, causing nuisance shutdowns, lost generation, and premature hardware wear. BIS IS 16169 and the CEA Technical Standards for grid connectivity define the minimum compliance thresholds; India-grid-tuned firmware is built to exceed them.
 
@@ -116,8 +119,6 @@ The [economics of inverter downtime](/blog/solar-inverter-downtime/) compound in
 - **Accelerated hardware wear from repeated cold starts**: Every grid reconnection cycle charges the DC bus capacitors from zero. Capacitor manufacturers rate component life in charge cycles, not years. An inverter that disconnects and reconnects 500 times per year will exhaust capacitor life in 4–6 years rather than the designed 10–12 years, driving early replacement claims.
 - **Warranty and service overhead**: Each nuisance trip generates a client alert, a service call, and a fault log review. At ₹800 per service visit (transport + time), 20 false trips across a portfolio cost ₹16,000 in direct cost and an uncountable amount in client trust.
 
-> **₹2.9 Lakh.** Annual generation revenue lost across a 50-system EPC portfolio when each 10 kW system experiences just two grid-trip cycles per day on a weak-grid feeder. *Source, Qbits Engineering Field Data, internal analysis, 2025.*
-
 The [comparison between on-grid and hybrid inverter ROI](/blog/on-grid-vs-hybrid-solar-inverters-roi/) almost always assumes full generation uptime. Generic firmware on Indian grids quietly deletes that assumption.
 
 ## What India-Grid-Tuned Firmware Does Differently
@@ -150,21 +151,17 @@ India-grid-tuned inverters incorporate SPD stages with higher energy absorption 
 
 The compliance framework for grid-connected solar inverters in India runs through two bodies: the Bureau of Indian Standards (BIS) and the Central Electricity Authority (CEA).
 
-**BIS IS 16169** is the Indian standard for safety of power conversion equipment for use in photovoltaic power systems. It is the primary certification requirement for inverters sold in India and is the standard tested by BIS-empanelled laboratories. ALMM listing under [MNRE's Approved List](https://mnre.gov.in/almm-list/) requires BIS IS 16169 certification, which means every subsidy-eligible project must use an inverter that has passed BIS testing.
-
 **CEA Technical Standards for Connectivity of Distributed Generation Resources** govern the grid-side behaviour of solar inverters: voltage operating windows, frequency ride-through, anti-islanding requirements (referencing IEC 62116), power quality (THD limits, power factor requirements), and protection coordination. These standards are what the DISCOM checks during net-metering interconnection approval, alongside the electrical and CEIG drawings that accompany the inverter specification sheet in the submission package.
 
 | Standard | Body | What It Governs | Why EPC Must Know It |
 | --- | --- | --- | --- |
-| IS 16169 | BIS | Inverter safety, electrical design | ALMM listing gatekeeper |
+
 | CEA DG Connectivity | CEA | Grid interface: voltage, frequency, islanding, THD | DISCOM interconnection approval |
 | IEC 62116 | IEC | Anti-islanding detection method | Referenced by CEA standards |
 | IEC 62109-1/2 | IEC | Safety of power converters for PV | Referenced by IS 16169 |
 | IEEE 1547 | IEEE | Interconnection and interoperability | Informative reference in CEA standards |
 
 An inverter that passes BIS IS 16169 has demonstrated that its firmware can operate within CEA-defined parameters. But "passing the test" and "performing well across India's real operating envelope" are two different things. The CEA standard sets a floor; India-grid-tuned firmware is designed to perform confidently above that floor across the full range of conditions Indian sites actually produce.
-
-For EPCs navigating the [ALMM Phase III requirements](/blog/almm-list-phase-iii-guide/), specifying BIS-certified and India-grid-tuned inverters addresses both the compliance obligation and the field-performance obligation simultaneously.
 
 ## Comparing Generic vs India-Grid-Tuned Inverters on Key Parameters
 
@@ -213,14 +210,11 @@ Even experienced EPC teams make specification errors that only surface at commis
 
 ## Where Qbits Fits
 
-Qbits built the TLS, TLD, HS, and HT series from the ground up for Indian conditions. Every unit ships with India-grid-tuned firmware validated for the 180–270V operating band and the CEA-defined frequency envelope. BIS IS 16169 certification and ALMM listing are standard, not optional extras. The IP66 weatherproofing rating means the same unit that handles monsoon surges on a coastal Maharashtra rooftop will perform equally on a dusty industrial terrace in Rajasthan without degraded protection.
+Warranty length is not proof of grid resilience. Use model-matched test evidence, approved settings, event logs and the current warranty wording. Grid quality remains a project input that the site survey and electrical design must document.
 
-The 12-year full replacement warranty is the most direct proof of confidence in India-grid resilience. A manufacturer that knows its inverters will encounter Indian grid conditions daily (and still backs the hardware for 12 years) has priced the firmware performance accurately.
+For a Qbits shortlist, request the evidence needed for the measured grid conditions:
 
-EPCs building a portfolio on Indian rooftops (from Tier-1 commercial buildings to Tier-3 residential estates) need hardware that does not require a grid-quality caveat in the site survey report:
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Download Datasheets](/download-datasheets/)**: Start with the public model documents, then request the applicable firmware, certificate and grid-interface evidence separately.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, India-grid-tuned, ALMM-listed, BIS-certified. Specify with confidence on any DISCOM feeder.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with the same India-tuned firmware plus battery-ready architecture for sites with frequent load shedding.
-- **[Download Datasheets](/download-datasheets/)**: Full firmware specification documents, BIS test reports, and CEA compliance declarations available for project submission.
-
-[Talk to a Qbits engineer](/contact-us/) about the specific grid conditions at your next project site, most technical queries come back with a specification recommendation within 24 hours, and the India-specific firmware documentation is ready for DISCOM submission.
+[Send Qbits the measured grid conditions and proposed design](/contact-us/) and request the exact model documents. Confirm the deliverable, response time, firmware evidence, and DISCOM documentation in writing.

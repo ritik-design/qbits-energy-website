@@ -236,8 +236,6 @@ MCB is the standard overcurrent and short-circuit protection device for resident
 
 ## Need MCB-protected solar AC distribution?
 
-QBits Energy designs and installs solar AC distribution with appropriately rated MCBs, RCCBs and SPDs for residential, C&I and utility applications across India.
-
 ## Further reading
 
 For how MCB plays out in real projects, these guides go deeper:

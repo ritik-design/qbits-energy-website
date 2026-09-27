@@ -204,8 +204,6 @@ LeTID is slow degradation in PERC cells caused by combined light and heat exposu
 
 ## Need LeTID-controlled solar modules?
 
-QBits Energy supplies ALMM-listed modules with documented LeTID control, plus TOPCon and HJT alternatives that largely eliminate the mechanism.
-
 ## Further reading
 
 For how LeTID plays out in real projects, these guides go deeper:

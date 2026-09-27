@@ -1,7 +1,7 @@
 ---
 title: "Ghar ke Liye Best Solar Inverter Kaise Chunein (2026)"
-excerpt: "Ghar ke liye solar inverter kaise chunein: on-grid vs hybrid, sizing, ALMM aur subsidy eligibility, warranty, IP rating aur voltage window, complete Hindi guide।"
-description: "Ghar ke liye solar inverter choose karne ka practical Hindi guide: type selection, load-based sizing, ALMM aur PM Surya Ghar eligibility, warranty aur service network."
+excerpt: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
+description: "Ghar ke liye solar inverter choose karne ka practical guide: load, on-grid ya hybrid type, model datasheet, warranty aur installer checks."
 category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-08-02
@@ -16,11 +16,11 @@ keywords:
   - solar inverter selection hindi
 faqs:
   - q: "घर के लिए कौन सा solar inverter सबसे अच्छा है?"
-    a: "जिस घर में bijli cut बहुत कम है, वहाँ on-grid inverter सबसे अच्छा है, क्योंकि cost कम है और net metering से पूरा savings मिलता है। जहाँ रोज़ 2 घंटे से ज़्यादा cut रहता है, वहाँ hybrid inverter सही choice है। दोनों cases में inverter ALMM Phase III listed होना चाहिए, वरना PM Surya Ghar subsidy नहीं मिलेगी। Warranty कम से कम 10 साल और protection IP65 या IP66 देखें।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "3 kW घर के लिए कितने kW का inverter चाहिए?"
     a: "3 kW panel array के लिए 3 kW का inverter standard choice है, लेकिन 2.5 kW से 3.3 kW तक कुछ भी चल जाता है। India में DC oversizing common practice है, यानी inverter की rating panel capacity से 10 से 20 percent कम रखी जाती है क्योंकि panels rated output बहुत कम देर के लिए ही देते हैं। Inverter datasheet में maximum DC input देखकर confirm करें कि आपका array उस limit के अंदर है।"
   - q: "क्या घर के solar inverter पर PM Surya Ghar subsidy मिलती है?"
-    a: "Subsidy पूरे system पर मिलती है, अकेले inverter पर नहीं। 2 kW तक ₹30,000 प्रति kW और तीसरे kW पर ₹18,000, यानी 3 kW या उससे बड़े residential system पर maximum ₹78,000 central subsidy मिलती है। शर्त यह है कि installation DISCOM-empanelled vendor करे और panel तथा inverter दोनों ALMM listed हों।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "Solar inverter पर GST कितना लगता है?"
     a: "Solar inverter पर GST 12 percent लगता है। Vendor का quote GST-inclusive है या exclusive, यह लिखित में confirm करें, क्योंकि 5 kW system में यह ₹4,000 से ₹8,000 का फर्क बना देता है। Subsidised installations में भी GST आपके invoice पर दिखना चाहिए।"
   - q: "गाँव में voltage ऊपर नीचे होता है, कौन सा inverter लें?"
@@ -28,23 +28,23 @@ faqs:
   - q: "IP65 और IP66 rating में क्या फर्क है?"
     a: "दोनों dust-tight हैं, फर्क पानी में है। IP65 low pressure water jets से बचाता है, IP66 तेज़ pressure वाले jets से। Indian monsoon, coastal humidity और terrace पर सीधे बारिश पड़ने वाली जगहों पर IP66 लेना बेहतर है। अगर inverter छाया में, दीवार पर, shed के नीचे लगेगा तो IP65 भी काफी है।"
   - q: "घर के solar inverter की warranty कितनी होनी चाहिए?"
-    a: "Minimum 10 साल की warranty लें। Solar system 25 साल चलता है और उस period में आमतौर पर एक inverter replacement आती है, इसलिए warranty जितनी लंबी होगी, lifetime cost उतनी कम होगी। Qbits जैसे premium Indian brands 12 साल की full replacement warranty देते हैं। Warranty document में यह देखें कि यह repair-only है या replacement।"
+    a: "Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।"
   - q: "क्या घर के लिए off-grid inverter लेना चाहिए?"
     a: "ज़्यादातर घरों के लिए नहीं। Off-grid inverter तब समझ आता है जब grid connection है ही नहीं, जैसे farmhouse, हिल area या नया plot। Off-grid में net metering नहीं मिलती, battery bank बड़ा चाहिए और PM Surya Ghar subsidy आमतौर पर grid-connected systems को मिलती है। Grid available हो तो hybrid बेहतर रास्ता है।"
 featured: false
 ---
 
-[Solar inverter](/glossary/solar-inverter/) घर का सबसे छोटा दिखने वाला component है, लेकिन पूरे system का दिमाग यही है। Panels 25 साल चुपचाप काम करते हैं, inverter हर सेकंड decision लेता है: कितनी power बनानी है, कहाँ भेजनी है, grid गिरे तो क्या करना है। यही वजह है कि जो घर solar से खुश नहीं रहते, उनमें ज़्यादातर शिकायत panels की नहीं, inverter की होती है। Trip हो रहा है, monsoon में बंद पड़ गया, service वाला दो हफ्ते नहीं आया, subsidy claim reject हो गई क्योंकि model ALMM list में था ही नहीं। ये सब selection की गलतियाँ हैं, luck नहीं। इस guide में हम सिर्फ एक काम करेंगे: आपके घर के लिए सही inverter कैसे चुनें। Installation process इसमें नहीं है, वो अलग topic है।
+> **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।
+
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
 
 > **TL;DR**
 > - Bijli cut रोज़ 2 घंटे से कम है तो [on-grid inverter](/glossary/on-grid-inverter/) लें, ज़्यादा है तो hybrid। [Off-grid](https://www.heavengreenenergy.com/blog/on-grid-vs-off-grid-vs-hybrid-solar-systems-gujarat) सिर्फ तब जब grid connection ही नहीं है।
 > - Inverter की rating panel array से 10 से 20 percent कम रखना normal है, यानी 3 kW panels पर 2.5 से 3 kW inverter।
-> - [PM Surya Ghar subsidy](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) maximum ₹78,000 है 3 kW residential system पर, लेकिन तभी जब inverter ALMM listed हो।
+
 > - Solar inverter पर GST 12 percent है, quote में यह अलग से लिखा होना चाहिए।
 > - Rural और semi-urban घरों के लिए 150V से 270V का wide voltage window सबसे ज़्यादा मायने रखता है।
 > - Warranty 10 साल से कम वाला inverter 25 साल के system में महँगा पड़ता है, premium Indian brands 12 साल देते हैं।
-
-**Short version.** घर के लिए solar inverter चुनते समय पाँच चीज़ें decide करती हैं: type (on-grid, hybrid या [off-grid](https://quickestimate.co/blog/on-grid-vs-off-grid-vs-hybrid)), capacity (घर के load और roof के हिसाब से), ALMM listing (subsidy के लिए mandatory), warranty (कम से कम 10 साल) और voltage window (unstable supply वाले इलाकों में 150V से 270V)। Price इन पाँचों के बाद देखें, पहले नहीं।
 
 अगर आप अभी तय कर रहे हैं कि inverter होता क्या है और करता क्या है, तो पहले [solar inverter kya hai](/blog/solar-inverter-kya-hai-hindi/) पढ़ लें। और अगर आप selection के बाद installation का पूरा process जानना चाहते हैं, वो अलग guide में है: [ghar mein solar panel kaise lagwayein](/blog/ghar-mein-solar-panel-kaise-lagwayein/)। यह post सिर्फ चुनने पर focus करता है।
 
@@ -71,7 +71,7 @@ featured: false
 
 <div class="inline-cta">
 <h3>Confuse Hain On-Grid ya Hybrid Mein?</h3>
-<p>अपने इलाके का cut pattern और monthly bill बताइए, Qbits engineer 10 मिनट में बता देंगे कि आपके घर में hybrid का extra खर्च justify होता है या नहीं।</p>
+
 <a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">कोई obligation नहीं, sales call नहीं।</p>
 </div>
@@ -104,7 +104,7 @@ Hybrid ले रहे हैं तो battery sizing अलग exercise ह�
 - Required array: 380 भाग 120 = लगभग 3.2 kW, तो 3 kW round figure ठीक है।
 - Roof requirement: 3 kW के लिए 25 से 30 square feet shadow-free।
 - Type: cut सिर्फ 1 घंटा और UPS पहले से है, इसलिए on-grid।
-- Inverter: 3 kW single phase, ALMM Phase III, IP66, wide voltage window।
+
 - System cost (panels, inverter, structure, cables, labour): लगभग ₹1.5 लाख से ₹1.9 लाख।
 - PM Surya Ghar subsidy: ₹78,000।
 - Net outgo: लगभग ₹72,000 से ₹1.12 लाख।
@@ -120,13 +120,11 @@ PM Surya Ghar Muft Bijli Yojana में central subsidy पहले 2 kW प�
 पर यह पैसा तभी आता है जब कुछ शर्तें पूरी हों:
 
 1. Installation DISCOM-empanelled vendor ने की हो। खुद लगवाई तो subsidy नहीं।
-2. Panels और inverter दोनों **ALMM** (Approved List of Models and Manufacturers) में listed हों।
+
 3. Inverter Phase III listing में हो, पुरानी Phase I या II listing अब portal पर accept नहीं होती।
 4. Net meter लगकर DISCOM inspection pass हो।
 
-सबसे ज़्यादा subsidy rejections इसी point पर होती हैं। Vendor कहता है "brand approved है", लेकिन approved brand का हर model listed नहीं होता। हमेशा exact model number माँगिए और खुद ALMM list में search कीजिए। यह पाँच मिनट का काम ₹78,000 बचा सकता है। [ALMM Phase III verification guide](/blog/almm-list-phase-iii-guide/) में step by step process है, और सही vendor चुनने के लिए [empanelled vendor कैसे verify करें](/blog/empanelled-vendor-pm-surya-ghar/) पढ़ें।
-
-> **जो ज़्यादातर लोग गलत समझते हैं।** Subsidy inverter पर नहीं मिलती, पूरे grid-connected system पर मिलती है। लेकिन एक non-ALMM inverter पूरे system की subsidy रोक देता है। ₹4,000 सस्ता inverter ₹78,000 का नुकसान करा सकता है।
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
 
 एक और चीज़ जो quote में छुपी रहती है: solar inverter पर GST 12 percent है। कुछ vendors quote GST-exclusive देते हैं और invoice के time amount बढ़ जाता है। Written में "GST inclusive" लिखवाइए।
 
@@ -137,8 +135,6 @@ PM Surya Ghar Muft Bijli Yojana में central subsidy पहले 2 kW प�
 ### Warranty
 
 Standard warranty 5 साल है, premium brands 10 से 12 साल देते हैं। Solar system 25 साल चलता है और उसमें आमतौर पर कम से कम एक inverter replacement आती है। 12 साल की warranty उस window का पहला आधा हिस्सा cover कर लेती है।
-
-Warranty document में तीन चीज़ें पढ़िए: यह repair-only है या full replacement, RMA का committed turnaround क्या है, और extension लेने पर कितना खर्च आएगा। "Warranty है" कहना काफी नहीं। Qbits inverters पर 12 साल की full replacement warranty और 72 घंटे का RMA SLA है। Warranty की fine print समझने के लिए [solar inverter warranty guide](/blog/solar-inverter-warranty/) देखें।
 
 ### IP Rating
 
@@ -152,7 +148,7 @@ IP65 और IP66 दोनों dust-tight हैं। फर्क पान�
 
 <div class="inline-cta">
 <h3>Apne Ghar ke Liye Sahi Model Dekhiye</h3>
-<p>Qbits की hybrid range Indian grid के लिए tune की गई है: 150V से 270V window, IP66 enclosure, ALMM Phase III listing और 12 साल की replacement warranty।</p>
+
 <a href="/hybrid-inverter/" class="cta-btn">Hybrid Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">3 kW से 10 kW तक, single और three phase।</p>
 </div>
@@ -194,7 +190,7 @@ Vendor को हाँ बोलने से पहले यह list एक �
 
 1. Type आपके cut pattern से match करता है, vendor की सलाह से नहीं।
 2. Inverter rating array के 80 से 100 percent के बीच है।
-3. Exact model number ALMM Phase III list में खुद verify किया।
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
 4. Warranty 10 साल या ज़्यादा, written में, full replacement।
 5. IP66 अगर mounting outdoor है।
 6. AC voltage window 150V से 270V, अगर आपका इलाका unstable supply वाला है।
@@ -210,8 +206,8 @@ Vendor को हाँ बोलने से पहले यह list एक �
 घर के लिए inverter चुनना कोई technical exam नहीं है। बस सही क्रम में सोचना है: पहले type, फिर size, फिर eligibility, फिर वो तीन datasheet lines, और सबसे आख़िर में price।
 
 - अपने पिछले 12 महीने के bill निकालिए और monthly average units से required kW तय कीजिए।
-- Vendor से exact inverter model number लेकर ALMM Phase III list में खुद verify कीजिए, warranty और IP rating written में माँगिए।
-- फिर same specification पर तीन quotes लीजिए और [Qbits engineer से free consultation](/contact-us/) पर अपने घर के लिए recommendation confirm करा लीजिए।
+
+[Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 <div class="inline-cta">
 <h3>Apne Bill Bhejiye, Sizing Hum Kar Denge</h3>

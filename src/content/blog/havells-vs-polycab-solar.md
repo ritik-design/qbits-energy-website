@@ -1,173 +1,234 @@
 ---
-title: "Havells vs Polycab Solar Inverter 2026: Honest Comparison"
-excerpt: "Havells vs Polycab solar inverter compared on specs, price, warranty, and service reach in India 2026, plus where solar-specialist brands fit."
-description: "Havells vs Polycab solar inverters compared honestly: residential and commercial ranges, prices, warranty terms, service networks, and which Indian buyer each suits."
-category: "Comparison"
+title: 'Havells vs Polycab Solar Inverter 2026: Honest Comparison'
+excerpt: Havells vs Polycab for solar, compared on verified inverter ranges, warranty years, cable strengths, ALMM status, and dealer questions.
+description: Havells vs Polycab for solar, compared on verified inverter ranges, warranty years, cable strengths, ALMM status, and dealer questions.
+category: Comparison
 date: 2026-07-23
-updatedDate: 2026-07-23
-readTime: "16 min"
-image: "/blog-images/havells-vs-polycab-solar.svg"
-author: "Nirav Dhanani"
+updatedDate: 2026-09-24
+readTime: 14 min
+image: /blog-images/havells-vs-polycab-solar.svg
+author: Nirav Dhanani
 keywords:
-  - havells vs polycab
-  - havells vs polycab solar inverter
-  - havells solar inverter price
-  - polycab solar inverter price
-  - havells solar inverter review
-  - polycab solar inverter review
-  - best indian solar inverter brand
+- havells vs polycab
+- havells vs polycab solar inverter
+- havells solar inverter price
+- polycab solar inverter price
+- havells solar inverter review
+- polycab solar inverter review
+- best indian solar inverter brand
 faqs:
-  - q: "Which is better, Havells or Polycab solar inverter?"
-    a: "Neither is universally better; they suit different buyers. Havells offers a wider residential range (1.1 kW to 20 kW on-grid) and a 10-year warranty on its grid-tie inverters, which makes it the stronger pick for most homes. Polycab counters with lower street prices (a 3.6 kW unit often sells near Rs 18,000 to Rs 20,000) and a range extending to 125 kW for commercial projects. Polycab warranties vary by model from 5 to 8 years on most residential units. Buyers who want the longest protection should also compare solar-specialist brands such as Qbits, which offers a 12-year full replacement warranty."
-  - q: "What is the warranty on Havells solar inverters in India?"
-    a: "Havells offers a 10-year warranty on its grid-tie (on-grid) solar inverters, which is among the longer standard warranties from a large Indian electrical brand. The warranty applies across the Enviro residential and commercial range, from 1.1 kW up to 100 kW units. Warranty claims are handled through Havells' authorised service and dealer network, which is extensive in metros and Tier-1 cities. Always confirm the warranty certificate for the exact model number in your quote, because coverage terms can differ between residential and commercial series."
-  - q: "What is the warranty on Polycab solar inverters in India?"
-    a: "Polycab solar inverter warranty varies by model, with 5-year and 8-year terms most common on residential on-grid units, and some ranges listed with extended options. The popular Polycab 3.6 kW single-phase on-grid inverter, for example, is widely sold with an 8-year warranty. Commercial and utility-scale models carry different terms, so the datasheet and warranty card for the specific model number must be checked before purchase. Extended warranty options are available through some distributors at additional cost."
-  - q: "What is the price of a Havells solar inverter in India in 2026?"
-    a: "Havells on-grid solar inverter prices in India in 2026 start at roughly Rs 26,000 for the 1.1 kW residential model, around Rs 39,000 for the 3 kW model, and rise with capacity. Commercial Enviro units are priced near Rs 1,52,000 for 30 kW and Rs 2,20,000 for 50 kW at dealer level. These are inverter-only prices excluding panels, mounting structure, cabling, and installation. Final quotes vary by city and distributor margin, so obtain at least two itemised quotes before deciding."
-  - q: "What is the price of a Polycab solar inverter in India in 2026?"
-    a: "Polycab solar inverters are among the most competitively priced from a large Indian brand. The 3.6 kW single-phase on-grid model sells between Rs 17,600 and Rs 20,000 through online and dealer channels in 2026. Smaller 1 kW and 2 kW units are listed from roughly Rs 10,500 and Rs 19,800 respectively on finance marketplaces. Prices exclude balance-of-system components and installation. Street prices fluctuate with distributor stock, so verify current rates with two or three authorised dealers."
-  - q: "Are Havells and Polycab solar inverters ALMM listed?"
-    a: "ALMM (Approved List of Models and Manufacturers) listing is model-specific, and both Havells and Polycab have listed models on the MNRE portal, but you must verify the exact model number being quoted before installation. PM Surya Ghar central subsidy of up to Rs 78,000 for a 3 kW system is released only after DISCOM verification that the installed inverter is ALMM listed. Ask your installer for the ALMM certificate number for the precise model in the quotation and cross-check it on the MNRE portal."
-  - q: "Which brand has better service in India, Havells or Polycab?"
-    a: "Havells has the deeper consumer service network, built over decades of selling fans, switchgear, and appliances through lakhs of retail counters, so residential service access in Tier-1 and Tier-2 cities is generally easier. Polycab's strength is its wires-and-cables distribution and its B2B and EPC channel, which serves commercial and institutional solar projects well. For rooftop solar specifically, actual service speed depends on the local authorised partner in your city for either brand. Solar-specialist manufacturers with defined RMA service-level agreements, such as a 72-hour on-site commitment, reduce this uncertainty."
-  - q: "Should I buy a solar inverter from an electrical brand or a solar-specialist brand?"
-    a: "Electrical giants like Havells and Polycab bring brand trust, wide distribution, and stable pricing, and their on-grid inverters are competent products for standard rooftops. Solar-specialist brands typically lead on warranty depth, India-grid tuning, monitoring design, and RMA speed because solar is their only business. Qbits, for instance, offers a 12-year full replacement warranty, IP66 enclosures, 98% peak efficiency, and a 72-hour RMA service-level agreement. Compare warranty cost per year and service commitments, not just sticker price, before choosing."
+- q: Is Havells or Polycab the better solar inverter?
+  a: Neither wins on brand name. On published paper, Havells prints a 10-year standard warranty across its Enviro GTi grid-tie datasheets, while Polycab prints 7 years for its 2 kW to 125 kW range, according to each company's own catalogue. Polycab prints IP66 on its three-phase models from 5 kW upward, where most Havells three-phase NG models print IP65. Compare the two exact models quoted to you on MPPT count, IP rating, warranty years, and local service, not the two logos.
+- q: Do Havells and Polycab manufacture their own solar inverters?
+  a: Polycab states it has established a Solar Grid Tie Inverter manufacturing setup and offers Make in India inverters from 2 kW to 125 kW, in its Solar Catalogue (2025). Its 350 kW utility series sits outside that stated band. Havells describes itself as a one-stop solution covering designing, engineering, manufacturing, sales, installation, and services on its solar business page. Ask for the country of origin declaration on the packing list for your delivered serial numbers, because that is the only document that settles it.
+- q: Are Havells and Polycab solar panels ALMM listed?
+  a: MNRE added Havells India Limited to ALMM List-I by office memorandum dated 6 July 2026, covering a Surat facility of 1,221 MW, according to SaurEnergy (2026). Polycab's Solar Catalogue (2025) states its modules are on the ALMM approved list by MNRE and prints an ALMM model number field on its TOPCon datasheet. Rules and revisions change monthly, so verify your exact module model number against the current dated List-I revision on the MNRE ALMM page before you order.
+- q: Does ALMM cover solar inverters?
+  a: No. The MNRE ALMM page publishes lists for solar PV modules and cells, not a universal inverter register. An ALMM-listed module does not make the inverter in the same quote compliant with anything. Inverter checks run on a separate track through BIS registration, the applicable IS and IEC standards, and your DISCOM's interconnection requirements. Ask for those documents by model number.
+- q: Which brand is stronger on solar cable and balance of system?
+  a: Both are genuinely strong here, and this is the part of the quote where their core business shows. Polycab entered solar in 2012 with solar DC cables and holds international accreditation to EN 50618 and IEC 62930 for 1.5 sq mm to 300 sq mm, according to its Solar Catalogue (2025). Havells sells tinned copper solar DC cable to BS EN 50618 through the same channel that carries its switchgear. If the cable and protection line items matter most in your scope, either brand is a defensible choice.
+- q: Can I compare an off-grid inverter with a grid-export inverter?
+  a: Only after you acknowledge that they serve different jobs. A grid-tie inverter exports to the utility and shuts down in an outage. A hybrid or off-grid unit supports loads from a battery when the grid fails. A lower price on one does not mean it satisfies the other requirement, so confirm the intended mode in writing before you compare any two numbers.
+- q: Does a familiar electrical brand guarantee solar service coverage?
+  a: No. A wiring or fan dealer network is not the same thing as a trained solar service network with spare inverters on a shelf. Havells publishes 650 plus service points and 25 plus approved installers in India on its solar business page. Request the written warranty and the current service route for your exact inverter model and district, then call that route as a stranger and time the response.
+- q: How many MPPTs do I need on a 10 kW three-phase inverter?
+  a: It depends on your roof orientations, not on the kW rating. Polycab's PSIT-10K-SM1R2 prints 1 MPPT and 1 string, and Havells' Enviro GTi 11000 TX-NG prints 2 MPPTs with 1 string each, according to each catalogue. A single MPPT is fine for one clean orientation. An east-west or shaded roof needs at least two independent trackers, or the weaker array drags the operating point of the whole string.
+- q: What should I do if the catalogue and the dealer quote disagree on warranty?
+  a: Treat the written warranty document for your exact SKU as the only binding figure. Polycab's printed catalogue shows 7 years, while its own online store exposes a warranty filter offering 5 and 8 years, so channel figures and catalogue figures can differ. Ask for the document that names the remedy, the freight and labour liability, the registration deadline, the exclusions, and the entity that honours the claim. Years without those terms are not comparable data.
 featured: false
+seoTitle: 'Havells vs Polycab Solar Inverters: Model Check'
+relatedSlugs:
+- best-solar-inverter-india
+- on-grid-vs-hybrid
+- solar-inverter-warranty
 ---
 
-Two of India's biggest electrical brands now sit on the same rooftop shortlist. [Havells](/blog/luminous-vs-havells-solar-inverter/), the company behind the fans and switches in millions of Indian homes, sells on-grid solar inverters from 1.1 kW to 100 kW. Polycab, the country's largest wires and cables maker, sells grid-tie inverters from 2 kW to 125 kW along with panels and DC cables. Both brands reach buyers through enormous distribution networks, and both benefit from decades of household trust. That trust is exactly why "Havells vs Polycab" is a growing search among homeowners collecting quotes in 2026.
+Havells and Polycab arrived at solar from the same direction. Both built their businesses on electrical goods, both are household names in Indian wiring, and both now sell inverters, modules, and cable under one catalogue. That shared history explains their real strengths and their real gaps.
 
-But solar inverters are not fans or cables. An inverter is a power electronics device that runs at full load for six to eight hours every day. It sits in rooftop temperatures that cross 45 degrees Celsius in summer, for fifteen years or more. The buying criteria that work for switchgear, brand familiarity and price, are necessary but not sufficient here. Warranty depth, service response time, and how well the firmware handles India's fluctuating grid voltage matter more over the system's life.
+It also creates a trap. A brand you trust for switchgear has earned nothing yet on power electronics. Those are different disciplines with different failure modes and different service demands.
 
-This comparison covers both brands honestly: product ranges, specifications, prices, warranty terms, and service reach. It also shows where a solar-specialist alternative fits, because price gaps here are smaller than most buyers assume, while warranty gaps are larger.
+This guide compares the two on verified documents only. Every specification below comes from a named catalogue, datasheet, product page, or ministry notice, with the year attached. Company marketing claims are labelled as such.
+
+You get company background, published inverter specs, the cable story where both genuinely lead, ALMM status, a warranty table, service figures, a worked string-sizing example, and the questions that settle a quote.
+
+Qbits publishes this guide and sells solar inverters, so it competes with both. It appears in two marked places, held to the same evidence standard as the rest.
 
 > **TL;DR**
-> - Havells on-grid inverters span 1.1 kW to 100 kW with a 10-year warranty; residential units start near Rs 26,000 for 1.1 kW.
-> - Polycab grid-tie inverters span 2 kW to 125 kW with 5 to 8-year warranties on most residential models. A 3.6 kW unit sells near Rs 18,000 to Rs 20,000.
-> - Havells has the stronger consumer retail and service network; Polycab is stronger in the B2B and EPC channel.
-> - Neither brand is a solar specialist; both treat inverters as one vertical inside a much larger electricals business.
-> - A 12-year full replacement warranty (as on Qbits inverters) covers the years six to ten failure window that shorter warranties leave exposed.
-> - [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy of up to Rs 78,000 on a 3 kW system requires an ALMM-listed inverter model. Verify the exact model number either way.
+> - Havells prints 10 years standard warranty across its Enviro GTi grid-tie datasheets. Polycab prints 7 years for 2 kW to 125 kW, 5 years on its 350 kW utility series.
+> - Polycab prints IP66 on three-phase models from 5 kW up. Most Havells three-phase NG models print IP65.
+> - MNRE added Havells India Limited to ALMM List-I on 6 July 2026 for a 1,221 MW Surat facility, according to SaurEnergy (2026).
+> - Polycab entered solar in 2012 with DC cables and holds accreditation to EN 50618 and IEC 62930 for 1.5 to 300 sq mm, per its Solar Catalogue (2025).
+> - Havells invested ₹600 crore in module maker Goldi Solar in April 2025, according to pv magazine India (2025).
+> - ALMM covers modules and cells, not inverters. An ALMM-listed panel says nothing about the inverter in the same quote.
 
-**Short version.** Havells vs Polycab on solar inverters comes down to this. Pick Havells if you want a wider residential range, a 10-year warranty, and the deepest consumer service network. Pick Polycab if upfront price and commercial-scale options matter more. Both are credible. If warranty length, service SLA, and India-grid tuning are your priorities, also quote a solar specialist. Qbits, for example, offers a 12-year full replacement warranty and a 72-hour RMA commitment.
+**Short version.** Polycab is the stronger cable and balance-of-system brand and prints IP66 on its mid-range three-phase inverters. Havells prints the longer inverter warranty at 10 years and now sits on ALMM List-I for modules. Neither is a solar-specialist inverter house. Decide on the two exact models quoted, their MPPT counts, the written warranty, and which brand has a stocking service partner in your district.
 
-The [best Indian solar inverter brands](/blog/best-indian-solar-inverter-brands/) guide places both companies against the full field. So does the [top 10 solar inverter brands in India 2026](/blog/top-10-solar-inverter-brands-india-2026/) list. This post goes deeper on just these two.
+## Company background and what each actually manufactures
 
-## What Each Brand Actually Sells in Solar
+Both are large Indian electrical manufacturers where solar is one vertical, not the core business. Polycab is the country's biggest wire and cable maker and has built grid-tie inverters since 2016. Havells is a fast-moving electrical goods group that sells inverters, modules, cable, and installation. Neither started as a power-electronics house, and that shapes how they engineer, price, and service solar.
 
-Havells entered solar as an extension of its consumer electricals business. Its solar portfolio covers on-grid string inverters under the Enviro name, solar panels, and related accessories. The inverter range runs from 1.1 kW residential single-phase units up to 100 kW three-phase commercial units. Havells positions residential on-grid inverters from 1.1 kW to 20 kW with a 10-year warranty, per [Havells India](https://havells.com/blog/post/on-grid-solar-inverter-a-smart-choice-for-your-home.html), 2025. Havells does not currently push a residential hybrid inverter line in India; its solar pitch is grid-tied rooftops.
+Polycab produces around 3.9 million kilometres of cable a year, according to its Solar Catalogue (2025). The same catalogue states it has established a Solar Grid Tie Inverter manufacturing setup and offers Make in India inverters from 2 kW to 125 kW.
 
-Polycab came to solar from the opposite direction: cables first, then panels, then inverters. Its grid-tie inverter catalogue covers residential, commercial, and utility projects, with warranty terms varying by model, per [Polycab](https://polycab.com/solar/grid-tie-inverter/c), 2025. The company also sells solar DC cables, which many installers already specify by default, giving Polycab a natural entry into EPC procurement. Its residential inverter range is narrower than Havells' at the small end, but its commercial range extends further, to 125 kW.
+Note the boundary there. Polycab's 350 kW UT-series utility inverter sits outside that stated band. That is not a criticism, it is a sourcing question for the dealer.
 
-One structural point matters for buyers. For both companies, solar inverters are a small vertical inside a multi-thousand-crore electricals business. That brings financial stability and wide distribution. It also means inverter firmware development, monitoring apps, and solar-specific service training compete internally with far larger product lines for attention.
+Havells reported net revenue of ₹21,746 crore in FY 2024-25, according to AlphaStreet (2025). Circuit protection, cables, fans, switches, appliances, and the Lloyd brand dominate that number. Its solar business page describes a one-stop solution covering design, engineering, manufacturing, sales, installation, and services.
 
-## Specifications Compared
+On modules, Havells took a partnership route first. It invested ₹600 crore for a stake of roughly 9% in Surat-based module maker Goldi Solar in April 2025, according to pv magazine India (2025).
 
-On paper, the two brands' residential on-grid inverters are close. Both offer transformerless string inverters with dual MPPT on mid-size models and peak efficiencies in the 97 to 98 percent band. Ingress protection is IP65 or IP66 depending on model, with WiFi monitoring through brand apps. The differences show up in range breadth, warranty terms, and monitoring depth rather than headline conversion efficiency.
+## Solar inverter range and published specifications
 
-| Specification | Havells (Enviro range) | Polycab (grid-tie range) |
+Both publish complete grid-tie datasheets, which is more than several consumer brands manage. Havells covers 1.1 kW to 100 kW in its printed Enviro GTi catalogue and advertises up to 350 kW online. Polycab covers 2 kW to 125 kW as Make in India, plus a 350 kW utility series. Polycab prints IP66 on its three-phase units, where most Havells three-phase models print IP65.
+
+| Specification | Havells | Polycab |
 | --- | --- | --- |
-| **Residential range** | 1.1 kW to 20 kW | 2 kW to about 10 kW |
-| **Commercial range** | Up to 100 kW | Up to 125 kW |
-| **Inverter type** | On-grid string | On-grid string |
-| **Peak efficiency** | Up to about 98% | About 97.5% to 98% |
-| **MPPT (residential)** | Single or dual by size | Dual on 3.6 kW and above |
-| **Standard warranty** | 10 years | 5 to 8 years (model-dependent) |
-| **Ingress protection** | IP65/IP66 by model | IP65/IP66 by model |
-| **Monitoring** | Brand app, WiFi | Brand app, WiFi |
-| **Battery or hybrid option** | Limited | Limited |
-| **3 kW class street price** | Rs 38,000 to Rs 45,000 | Rs 30,000 to Rs 36,000 |
-| **Best known strength** | Consumer service network | Price, cables ecosystem |
+| Grid-tie range, company website | 1 kW to 350 kW, NG series | 20 kW to 350 kW listed on the online store |
+| Grid-tie range, printed catalogue | 1.1 kW to 100 kW, Enviro GTi | 2 kW to 125 kW, plus 350 kW UT series |
+| Single-phase models | Enviro GTi 1100 NG to 6000 D-NG | PSIS2K0 to PSIS6K0-SM1R2, 2 to 6 kW |
+| Max published efficiency | 97.5% on the 1.1 kW, up to 98.9% on the 25 to 50 KT NG | 98.3% on the PSIT-75K-SM14, 99.01% on the PSIT-350KH-UT |
+| Max DC input voltage, mid-range | 1100 V | 1100 V |
+| IP rating, single-phase | IP65 | IP65 |
+| IP rating, three-phase 5 to 30 kW | IP65 | IP66 |
+| Enclosure at the top of the range | IP66 on 60 and 80 KT NG | IP66 across three-phase |
+| DC oversizing published | 1.5 times per MPPT on NG models | 200% max PV configuration on the 75 kW |
+| Certification printed | BIS R-41165239, IS 16221 Part 2, IS 16169, IEC 62109-1/2 | BIS approved, IS 16169:2014, IS 16221 Part 2, IEC 62109-1/2, IEC 61727, IEC 62116 |
+| Monitoring | RS485, USB, Bluetooth, optional WiFi or GPRS, Havells One App | WiFi standard on three-phase, optional RS485 or GPRS, web portal and app |
 
-A 3.6 kW Polycab single-phase on-grid inverter carries an 8-year warranty. It sells near Rs 17,600 to Rs 19,200 in dealer channels, per [IndiaMART listings](https://www.indiamart.com/proddetail/polycab-3-6-kw-solar-on-grid-inverter-with-20a-string-current-and-warranty-8-years-2849470390862.html), 2025. Equivalent Havells residential units price higher per kW but carry the longer standard warranty. Neither figure includes panels, structure, or installation; the [solar inverter price guide](/blog/solar-inverter-price-guide/) covers full system economics by capacity.
+Sources: [Havells Solar Grid-Tie Inverter catalogue](https://havells.com/media/wysiwyg/Manuals/Solar_Grid-Tie_Inverter.pdf), [Havells solar business page](https://havells.com/business/discover-solar-solutions), [Polycab Solar Catalogue 2025](https://cms.polycab.com/media/n3sfoyos/solar-catalogue.pdf), and the [Polycab grid-tie inverter store](https://polycab.com/solar/grid-tie-inverter/c).
 
-## Price Comparison for a Typical 3 kW Home System
+The IP gap matters for coastal, dusty, or exposed wall mounting, and our [IP65 against IP66 guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) explains what the second digit buys. Havells' low-kW ladder from 1.1 kW suits small roofs and replacement jobs.
 
-Most buyers comparing these two brands are pricing a 2 kW to 5 kW rooftop system, the segment PM Surya Ghar subsidy targets. Here is how the inverter line item typically lands, based on dealer price lists current in 2026.
+One caution on currency. Printed catalogues lag websites at both companies, so ask for the current datasheet revision for your model using our [datasheet reading guide](/blog/how-to-read-solar-inverter-datasheets/).
 
-| Model class | Havells (approx.) | Polycab (approx.) |
+## Where both genuinely lead: solar cable and balance of system
+
+This is where their core business pays off, and where either brand is defensible on specification. Polycab entered solar in 2012 with DC cables and publishes the wider ladder, from 1.5 sq mm to 300 sq mm. Havells sells solar DC cable to the same BS EN 50618 standard, and packages DC and AC junction boxes with Type 2 surge protection.
+
+Polycab's DC cable is the deepest product in either catalogue. It is an H1Z2Z2-K construction with a tinned copper conductor to IEC 60228 class 5. Insulation and sheath are electron-beam cross-linked and halogen free. The rating is 1500 V DC nominal, usable from minus 40 to plus 120 degrees Celsius, with accreditation to EN 50618 and compliance to IEC 62930, according to the Polycab Solar Catalogue (2025).
+
+On balance of system the catalogues diverge slightly:
+
+- **Polycab** lists solar DC MCBs, MC4 connectors, cable tray, lugs, glands, and distribution boxes, positioning itself as a one-stop component supplier.
+- **Havells** lists DC junction boxes with fuse, isolator, and Type 2 SPD, AC junction boxes with a 32 A MCB, plus packaged GREEHA residential kits at 3.3 kW and 5 kW.
+
+For an EPC buying by the reel, Polycab's size ladder is the differentiator. For a homeowner buying a boxed kit, Havells' packaging removes procurement decisions.
+
+## Panel offerings and ALMM status
+
+Module compliance is where brand halo does the most damage, because ALMM applies to modules and cells and not to inverters at all. Havells joined ALMM List-I in July 2026 for a 1,221 MW Surat plant. Polycab states in its own catalogue that its modules are on the list. Get that separation right and half the confusion in a quote disappears.
+
+MNRE added Havells India Limited to List-I by office memorandum dated 6 July 2026, covering a Surat facility with 1,221 MW of enlisted capacity. Approval runs to 5 July 2030 subject to valid BIS certification, according to SaurEnergy (2026). That revision took cumulative List-I capacity to 204,383 MW, according to Energetica India (2026). Havells lists Mono PERC and TOPCon bifacial modules, including a DCR 144-cell 545 Wp model.
+
+Polycab's catalogue prints three module families and a dedicated ALMM model number field on its TOPCon datasheet, which is the correct way to publish it.
+
+| Polycab module family | Power range | Product warranty | Performance warranty | Peak module efficiency |
+| --- | --- | --- | --- | --- |
+| 144 half-cut Mono PERC | 525 W to 560 W | 10 years | 25 years | 21.67% |
+| 144 Mono PERC half-cut bifacial | 525 W to 560 W | 12 years | 27 years | 21.67% |
+| 144 N-type TOPCon G2G bifacial | 580 W to 605 W | 12 years | 30 years | 23.42% |
+
+Source: Polycab Solar Catalogue (2025).
+
+The procedure matters more than either claim. List-I is revised almost monthly, and enlistment attaches to a specific model number at a specific plant. Verify your exact module against the current dated revision on the [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/), and read our [ALMM list definition](/glossary/almm-list/) for how List-I and List-II differ. A brand-level claim is not a model-level check.
+
+## Warranty terms compared
+
+Warranty is the cleanest numeric difference between these two brands, and it runs in Havells' favour on inverters. Havells prints 10 years as standard on every Enviro GTi grid-tie datasheet reviewed. Polycab prints 7 years for its 2 kW to 125 kW range and 5 years on the 350 kW utility series. Modules run far longer than inverters on both sides.
+
+| Warranty item | Havells | Polycab |
 | --- | --- | --- |
-| **1 kW on-grid** | Rs 26,000 (1.1 kW) | Rs 10,500 to Rs 14,000 |
-| **2 kW on-grid** | Rs 32,000 (2.2 kW) | Rs 19,800 to Rs 24,000 |
-| **3 kW on-grid** | Rs 39,000 to Rs 45,000 | Rs 30,000 to Rs 36,000 |
-| **5 kW on-grid** | Rs 55,000 to Rs 65,000 | Rs 45,000 to Rs 55,000 |
-| **30 kW commercial** | Rs 1,50,000 to Rs 1,60,000 | Comparable band |
+| Grid-tie inverter, standard term | 10 years, printed on every Enviro GTi datasheet reviewed | 7 years, printed for 2 kW to 125 kW |
+| Top of range | 10 years on 60 and 80 KT NG | 5 years on the 350 kW UT series |
+| Where published | Havells Solar Grid-Tie Inverter catalogue | Polycab Solar Catalogue (2025) |
+| Channel consistency | Inverter warranty not stated on the solar business page | Online store warranty filter offers 5 and 8 years |
+| Module product warranty | Not published per model on the business page | 10 years Mono PERC, 12 years bifacial and TOPCon |
+| Module performance warranty | Page states a minimum of 25 years for panels | 25, 27, or 30 years by family |
+| Remedy, freight, and labour terms | Not published | Not published |
 
-Havells' 1.1 kW, 2.2 kW, and 3 kW units list at Rs 26,299, Rs 32,699, and Rs 39,299 respectively. That is per [Kenbrook Solar's Havells price list](https://kenbrooksolar.com/price-list/havells-solar-panels-inverter-price-list-in-india), 2025. Commercial Enviro units list near Rs 1,52,000 for 30 kW and Rs 2,20,000 for 50 kW, according to [Ornate Solar](https://ornatesolar.com/blog/havells-solar-inverters-price-in-india-2021), 2025.
+That last row is the one buyers skip. Neither company publishes the remedy type, the freight and labour liability, the registration deadline, or the claim-honouring entity. Years are the easy part. Our [inverter warranty guide](/blog/solar-inverter-warranty/) has the document checklist.
 
-Two cautions on these numbers. First, street prices move with distributor stock and state-level demand, so treat them as bands, not quotes. Second, the inverter is only 15 to 25 percent of total system cost. On a Rs 1.9 Lakh 3 kW system, a Rs 9,000 inverter saving is real but small. Both brands can qualify for a Rs 78,000 subsidy when the model is ALMM listed.
+Note the channel mismatch too. Polycab's printed catalogue shows 7 years while its own store filter offers 5 and 8. Neither is wrong, they describe different SKUs. The written warranty for your SKU is the only binding number.
 
-## Warranty: Where the Gap Actually Is
+One competitor claim, for reference, not editorial fact. Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. Note the trigger in that phrase. Dispatch starts after approval, not after the complaint, and that caveat applies to every brand's stated turnaround.
 
-Warranty is the sharpest differentiator in this comparison, and it is where buyers should slow down.
+## Worked example: why MPPT count decides your roof layout
 
-Havells' 10-year warranty on grid-tie inverters is genuinely strong for an Indian electricals brand, according to [Loom Solar](https://www.loomsolar.com/blogs/pricelist/havells-solar-inverter-price-in-india), 2024. It beats the 5-year standard common among imported value brands. Polycab's terms are more fragmented: 5 years on some residential models, 8 years on popular units like the 3.6 kW, with extensions sold through some distributors.
+This worked example uses published datasheet figures only. It is arithmetic, not field data.
 
-The practical question is what a warranty year is worth. A 3 kW inverter costs Rs 30,000 to Rs 45,000 to replace out of warranty. Field failures cluster in years six to ten as capacitors and cooling fans age in hot rooftop enclosures. Here is the warranty-cost-per-year math on the 3 kW class:
+**Inputs, all published:**
 
-| Option | Price (approx.) | Warranty | Cost per warranty year |
-| --- | --- | --- | --- |
-| Polycab 3 kW class | Rs 33,000 | 8 years | Rs 4,125 |
-| Havells 3 kW | Rs 39,000 | 10 years | Rs 3,900 |
-| Qbits TLS-3K | Rs 45,000 to Rs 52,000 | 12 years, full replacement | Rs 3,750 to Rs 4,330 |
+1. Module: Polycab NSM550-144, 550 W, Voc 50.49 V, Imp 12.88 A at STC, Voc temperature coefficient minus 0.26% per degree Celsius (Polycab Solar Catalogue, 2025).
+2. Inverter A: Polycab PSIT-10K-SM1R2, 1 MPPT, 1 maximum PV string, MPPT range 160 V to 1000 V, max DC 1100 V, max input current 20 A (same catalogue).
+3. Inverter B: Havells Enviro GTi 11000 TX-NG, 2 MPPTs, 1 string per MPPT, MPPT range 140 V to 1000 V, full-power window 420 V to 850 V, max 15 A per MPPT (Havells grid-tie catalogue).
 
-Read the table carefully. On sticker price Polycab wins. On cost per year of protection, the three converge, and the longest warranty wins outright if anything fails in year nine or ten. The [12-year solar inverter warranty](/blog/12-year-solar-inverter-warranty/) explainer covers this math in depth. The [best solar inverter with longest warranty in India](/blog/best-solar-inverter-longest-warranty-india/) comparison extends it to more brands.
+**Formula:** Voc(string, cold) = N modules x Voc(STC) x (1 + |TC| x (25 - T cell) / 100)
 
-> **What most buyers get wrong:** they compare inverter prices and assume warranties are similar. A 5-year and a 12-year warranty differ by roughly Rs 35,000 to Rs 50,000 in expected replacement risk on a 3 kW to 5 kW unit. That gap is larger than the entire price difference between budget and premium inverters.
+**Case A, one orientation on the Polycab unit.** Take 18 modules, so 9.9 kWp. String Voc at STC is 18 x 50.49 = 908.8 V. At a 10 degree cell temperature the correction is 15 x 0.26% = 3.9%, giving 944 V. That clears the 1000 V MPPT ceiling and the 1100 V limit, and Imp of 12.88 A sits under the 20 A rating.
 
-## Service Reach and After-Sales Reality
+**Case B, east-west split on the Havells unit.** Take 9 modules per MPPT, so 9.9 kWp total. String Voc at STC is 9 x 50.49 = 454.4 V, rising to 472 V cold. That is inside the 140 V to 1000 V range and above the 420 V full-power threshold. Imp is under the 15 A per-MPPT limit.
 
-Havells operates one of India's deepest consumer service networks, inherited from its fans, lighting, and switchgear businesses. In metros and Tier-1 cities, finding an authorised Havells service touchpoint is rarely a problem. The caveat: rooftop solar service is a specialist skill, covering DC string testing, insulation resistance checks, firmware updates, and DISCOM liaison. A general electricals franchise may or may not have a solar-trained technician on staff. Response quality varies by city.
+**What it proves.** Both units accept 9.9 kWp. Only the two-tracker unit splits it across two orientations without the weaker array pulling the operating point of the stronger one. So the question is not which brand wins, but whether the model quoted has enough independent trackers for your roof. Our [dual against single MPPT explainer](/blog/dual-mppt-vs-single-mppt/) covers the loss mechanism, and the [string sizing calculator](/string-sizing-calculator/) runs this check for your own combination.
 
-Polycab's channel strength runs through electrical wholesalers, panel builders, and EPC contractors. For a commercial or institutional buyer, this is excellent: the same distributor quoting your cables can quote the inverter, and project-scale support is available. For a homeowner in a Tier-3 town, Polycab residential solar service typically routes through the installing dealer, which makes installer selection the real service decision.
+## Service and distribution network
 
-Two questions cut through brand-level claims for either company. Ask who attends a fault call, the brand's own technician or the installing dealer, and ask for the committed response time in writing. Brands that publish a service-level agreement, such as a 72-hour on-site RMA commitment, remove this ambiguity entirely.
+Distribution reach and solar service reach are different things, and both companies illustrate the gap. Polycab reports over 4,300 dealers and distributors and more than 200,000 retail outlets. Havells reports roughly 18,000 dealers and 248,000 retailers. Yet Havells publishes only 25 plus approved solar installers nationally. Electrical distribution is not the same asset as a trained solar service network.
 
-## Honest Pros and Cons: Havells
+The sourced figures: Polycab's dealer and retail counts come from its Integrated Annual Report 2024-25, and its catalogue states it has supplied 1.5 GW of capacity and over 100,000 inverters across nine years. Havells' dealer and retailer counts come from its FY25 annual report as summarised by StockInsights (2025). Its solar business page publishes 650 plus service points with a 24 to 48 hour turnaround, a 50-person service team, and a 1.2 GW plus solar footprint.
 
-| | Havells solar inverters |
-| --- | --- |
-| **Pros** | 10-year standard warranty, among the best from an Indian electricals major. Wide residential range from 1.1 kW upward suits small systems. Deep consumer service network in metros and Tier-1 cities. Strong brand trust simplifies the family decision. Competitive commercial range to 100 kW. |
-| **Cons** | Prices sit above value brands like Polycab at the same capacity. Solar is one vertical in a large portfolio, so firmware and app updates move slower than at specialist brands. Limited hybrid or battery-ready options for power-cut areas. Service franchise solar expertise varies by location. No published RMA turnaround guarantee comparable to specialist SLAs. |
+Read the solar numbers carefully. The dealer who sells the inverter is rarely the engineer who climbs to your roof in year six.
 
-## Honest Pros and Cons: Polycab
+Two checks cut through it. Ask which named entity performs the warranty site visit in your district. Then call the service line as a stranger and ask that partner what spare inverters are on the shelf today. Our [reliability evaluation method](/blog/how-to-evaluate-solar-inverter-reliability/) covers the rest.
 
-| | Polycab solar inverters |
-| --- | --- |
-| **Pros** | Lowest sticker prices among large Indian brands, with 3.6 kW units near Rs 18,000 to Rs 20,000. Commercial range extends to 125 kW. Natural fit with Polycab DC cables already used by most installers. Strong EPC and B2B channel support for project buyers. 8-year warranty on key residential models. |
-| **Cons** | Warranty terms fragment across models (5 to 8 years), so buyers must verify each model's card. Residential range is thinner at the small end. Monitoring app depth trails specialist platforms. Consumer service depends heavily on the installing dealer. No residential hybrid line for outage-prone regions. |
+## The brand-halo trap and how to test for it
 
-Neither list contains a disqualifier. Both are honest products from financially strong companies, and both will serve a standard grid-tied rooftop well. Our [Qbits vs Luminous](/blog/qbits-vs-luminous-honest-comparison/) and [Qbits vs Microtek](/blog/qbits-vs-microtek-honest-comparison/) comparisons apply the same neutral framework to other brands. Use them if you are building a longer shortlist.
+Here is the contrarian part. It applies to every consumer-electrical brand selling solar, including the one that publishes this page.
 
-## The Tradeoff: Electrical Giants vs Solar Specialists
+Trust in a wiring brand is trust in a commodity process: copper drawing, compound extrusion, quality control on a continuous line. An inverter is a switched power converter with firmware, capacitors, a grid-protection relay, and a thermal design that must survive 45 degree afternoons for 20 years. Competence in the first does not transfer to the second.
 
-This comparison hides a more useful question: should the inverter come from an electricals conglomerate at all, or from a company that builds only solar inverters?
+The halo runs the wrong way on paper too. Polycab's cable accreditation is strong evidence about its cable, not about its inverter firmware. Havells' plants are real, but they do not prove your unit was built in one.
 
-The electrical giants win on distribution and trust. You can touch the product in a local showroom, your electrician knows the brand, and the company will still exist in fifteen years. Those are real advantages, and dismissing them would be dishonest.
+Four tests that break the halo:
 
-Solar specialists win on depth. Firmware is tuned for the 180 V to 270 V swings of Indian feeders. Monitoring is designed for homeowners, and warranty and RMA terms serve a single product line. Qbits, for example, offers a 12-year full replacement warranty, IP66 enclosures, 98% peak efficiency, ALMM-listed models, and a 72-hour RMA SLA, with generation reports over WhatsApp. The [Luminous vs Microtek comparison](/blog/luminous-vs-microtek-comparison/) shows the same pattern in the home UPS segment: the generalists compete on reach, the specialists on protection terms.
+1. **Ask which plant built this SKU.** A brand claim covers a portfolio. The country of origin declaration covers your box.
+2. **Compare warranty by category, not by brand.** Cable and modules carry 25 to 30 year terms in both catalogues. The inverters carry 7 or 10.
+3. **Check certification scope.** BIS registration and IS or IEC numbers are per model, not per company.
+4. **Separate the ALMM question.** An ALMM-listed module and a compliant inverter are two verifications on two documents.
 
-The tradeoff is real. A specialist brand may not have a showroom in your town. A conglomerate may not answer a string-fault call in 72 hours. Buyers in metros with reliable grids can rationally choose either. Buyers in outage-prone states should also check hybrid options, which neither Havells nor Polycab leads in. The [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) settles the topology question first. The [best 5kW solar inverter in India 2026](/blog/best-5kw-solar-inverter-india-2026/) review covers hybrid picks in detail.
+Apply all four to every brand you shortlist. Our [Indian inverter brand comparison](/blog/best-indian-solar-inverter-brands/) runs this market-wide, and the [Havells against Luminous comparison](/blog/luminous-vs-havells-solar-inverter/) covers the other common Havells matchup.
 
-## Which One Should You Buy?
+## Where each brand fits: homeowner, EPC, and C&I
 
-Match the brand to your situation rather than looking for a universal winner.
+Fit depends on who is buying and what the scope includes. Havells suits the homeowner who wants a packaged kit and an installer from one supplier. Polycab suits the EPC consolidating cable, protection, modules, and inverters on one purchase order. For commercial and industrial rooftops the call is close, and the specific model decides it.
 
-- **Choose Havells if** you want the longest standard warranty of the two (10 years). It also suits a 1 kW to 5 kW system in a metro or Tier-1 city where a familiar service network matters. Also the safer pick when several family members need to agree on a brand.
-- **Choose Polycab if** upfront price is the binding constraint or your installer already works with Polycab cables and panels. It also fits commercial or institutional projects above 25 kW, where its EPC channel adds value.
-- **Choose neither, and get a specialist quote, if** warranty depth and a written service SLA top your list. A Qbits TLS series on-grid inverter costs modestly more than either and carries a 12-year full replacement warranty with a 72-hour RMA commitment. On warranty cost per year, it matches or beats both.
+**Homeowner, 2 kW to 6 kW, single phase.** The GREEHA kits bundle cable, DCDB, and ACDB, and Havells installs directly. Polycab's single-phase PSIS range is competitive on specification, but you usually buy it through an integrator. Settle your system category first with the [on-grid against hybrid guide](/blog/on-grid-vs-hybrid/), because neither brand's grid-tie unit gives you outage backup.
 
-Whichever direction you go, apply three gates before paying an advance. One, the exact model number appears on the current ALMM list. Two, the quote is itemised with inverter, panels, structure, cabling, installation, and net-metering charges separated. Three, the warranty certificate names the model, not just the brand.
+**EPC and system integrator.** Polycab's reported 24-hour delivery capability and its single-vendor breadth matter most on a project schedule.
 
-Elsewhere in the Heaven Group network, see [top panel manufacturers compared](https://www.heavengreenenergy.com/blog/solar-brands-gujarat-top-panel-manufacturers-compared) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
+**Commercial and industrial rooftop.** Polycab's IP66 enclosures and its 3 to 9 MPPT designs from 40 kW to 125 kW suit multi-orientation industrial roofs. Havells counters with 10 years standard warranty, 98.9% published efficiency on its 25 to 50 KT NG models, and in-house installation. Score the models quoted, then ask which brand has a stocking service partner within driving distance.
 
-## Conclusion
+## What to ask a dealer before you sign
 
-Havells vs Polycab is a fair fight between two credible Indian electrical brands, and the honest verdict is situational. Havells takes the residential crown on warranty length and service reach; Polycab takes it on price and commercial range. The bigger insight: both warranties end before the years when inverters most often fail, which is where solar-specialist alternatives earn their shortlist place.
+Work through this with both quotations side by side. Every item is answerable from a document.
 
-Three actions before you sign anything:
+1. What is the exact model designation, and may I see the current datasheet with its revision date?
+2. Is this a grid-tie unit, a hybrid unit, or an off-grid PCU, and does that match my application?
+3. How many independent MPPTs, and how many strings per MPPT?
+4. What is the printed IP rating, and is the mounting location exposed?
+5. What is the maximum DC voltage and MPPT window, and was cold-weather Voc checked for my string length?
+6. What is the written warranty term for this SKU, and does it match the catalogue?
+7. Who honours the claim, who pays freight and labour, and what is the registration deadline?
+8. Which BIS registration and which IS or IEC standards apply to this model?
+9. For modules, what is the ALMM model number, and which dated List-I revision shows it?
+10. Which named entity performs the warranty site visit in my district, and what spares does it stock?
+11. Does the price include installation, cable, DCDB, ACDB, earthing, and taxes, or only the inverter box?
 
-- Get itemised quotes for the same capacity from one Havells dealer and one Polycab dealer. Compare warranty years and response-time commitments line by line, not just totals.
-- Verify the exact quoted model number on the MNRE ALMM list so your PM Surya Ghar subsidy is safe.
-- Add one specialist quote to the pile. [Request a Qbits system quote](/contact-us/) and compare its 12-year full replacement warranty and 72-hour RMA SLA against the big brands' written terms.
+Questions 7, 10, and 11 separate a serious offer from a cheap one. Two quotes 20% apart often differ by an entire scope of work. The [Qbits product library](/our-products/) publishes the same fields for a third datasheet to compare against.
+
+## The Bottom Line
+
+Both are credible Indian electrical manufacturers with real solar lines and published datasheets. Polycab is the better cable and balance-of-system house and prints IP66 on its mid-range three-phase inverters. Havells prints the longer inverter warranty at 10 years, sits on ALMM List-I for modules, and will install the system. Neither is a solar-specialist inverter house, and neither publishes remedy, freight, or labour terms.
+
+Do this next:
+
+- Put both quotations in one table by exact model number, then fill in MPPT count, IP rating, maximum DC voltage, printed efficiency, and warranty years from the current datasheets.
+- Call each brand's service line anonymously, ask for the nearest authorised partner in your district, and ask that partner what is on the shelf today.
+- [Send us both competitor model numbers and your roof details](/contact-us/) for a like-for-like Qbits technical comparison. Qbits sells inverters only and has not independently tested either competing model.

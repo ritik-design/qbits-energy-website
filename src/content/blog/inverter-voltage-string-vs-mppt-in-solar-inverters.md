@@ -112,8 +112,6 @@ Always design against the local minimum and maximum, not generic Indian averages
 | Inverter spec to check | Maximum DC input voltage | MPPT voltage range (min to max) |
 | Critical design condition | Cold morning at minimum site temp | Hot afternoon at maximum panel temp |
 
-Qbits' [string sizing calculator](/string-sizing-calculator/) automates the six steps below for any Qbits inverter model, but understanding the underlying math is what lets an engineer catch a bad input before it becomes a bad design.
-
 ## The Six-Step Design Process
 
 ### Step 1: Determine site temperature extremes
@@ -235,10 +233,6 @@ When selecting inverters for projects spanning Indian temperature extremes, requ
 
 For commercial and industrial projects spanning multiple orientations, running the string design inside dedicated [commercial solar design software](https://surgepv.com/commercial-solar-design/) keeps the voltage calculations tied to the actual roof layout rather than a spreadsheet done in isolation.
 
-## Where Qbits Fits for Voltage-Critical Design
-
-Qbits inverters across the residential and commercial range deliver the voltage flexibility needed for India's temperature extremes:
-
 - **Wide MPPT voltage range** across residential and commercial product lines
 - **Maximum DC input voltage** sized for high-wattage panel arrays and cold-zone installations
 - **Low start-up voltage** for maximised daily generation hours
@@ -255,7 +249,7 @@ Related guides:
 - **[IP65 vs IP66 Solar Inverters India Guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/)** - weather protection
 - **[Solar Inverter Commissioning India Guide](/blog/solar-inverter-commissioning-in-india/)** - commissioning protocol
 
-For voltage design assistance on specific projects, [talk to a Qbits engineer](/contact-us/) - the team can review your panel selection, site temperature data, and proposed string configuration to recommend the optimal Qbits SKU within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ## Closing
 

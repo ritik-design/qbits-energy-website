@@ -176,8 +176,6 @@ Read the table by column, not by row. Nothing here beats everything else, becaus
 - **Choose HelioScope** if you are an engineering-led C&I team and someone else owns the customer-facing proposal.
 - **Choose OpenSolar** if you are small, residential, and keeping fixed cost near zero matters more than simulation depth right now.
 
-Whatever design tool you land on, the layout still has to clear a real inverter's MPPT window before procurement sees it. Teams checking [hybrid inverter](/hybrid-inverter/) or [on-grid inverter](/on-grid-inverter/) options against a finished design can [get a spec walkthrough from a Qbits engineer](/contact-us/) instead of reconciling datasheets by hand.
-
 ## Verdict
 
 The most useful thing this comparison can tell you is that "Sunbase alternative" is two searches wearing one label. Sunbase is a competent CRM and field operations platform, strongest at organising door-to-door sales and keeping jobs moving after signature, and it never advertised an engineering engine. If that is the job you need done, compare it against other CRMs and pick on workflow fit, pricing transparency, and market suitability.

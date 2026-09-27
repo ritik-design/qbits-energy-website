@@ -33,6 +33,10 @@ faqs:
 featured: false
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Search for a solar [inverter price](https://quickestimate.co/blog/solar-inverter-price-india) with installation and you will find two very different numbers presented as the same thing. One site says a 5 kW inverter costs ₹52,000. Another says a 5 kW solar system costs ₹3 Lakh. Both are correct, and neither is lying to you. The first number is the box on the wall. The second is everything it takes to get electricity from your roof into your meter: panels, structure, cables, earthing, protection boxes, labour, [DISCOM](/glossary/discom/) paperwork and commissioning.
 
 This gap is where most Indian homeowners get surprised. A family budgets ₹60,000 after seeing an inverter listing online, then receives a real quote for ₹2.9 Lakh and assumes the installer is overcharging. Usually the installer is not. The listing price simply excluded 80 percent of the system.
@@ -71,8 +75,6 @@ Every one of these has a real cost, and every one appears on a legitimate final 
 > **What most buyers get wrong:** they treat the inverter price as the anchor and judge every quote against it. The correct anchor is the per-watt installed cost. In 2026, a fair all-in price for a residential on-grid system in India is ₹52,000 to ₹68,000 per kW before subsidy. Judge quotes against that number and the component table below, not against an inverter listing.
 
 ## Itemized All-In Cost: 3 kW, 5 kW and 10 kW Systems (2026)
-
-These tables use industry-observed price ranges for mid-market components in 2026: Tier-1 mono PERC or TOPCon panels, an ALMM-listed string inverter, a GI structure and professional installation. Premium imported inverters and premium panels push the top of each range higher. All figures are before subsidy.
 
 ### 3 kW system (typical 2 to 3 BHK, bill of ₹3,000 to ₹4,500 per month)
 
@@ -156,7 +158,6 @@ Subsidy figures are per the structure published on the [PM Surya Ghar portal](ht
 
 Three conditions gate the subsidy, and all three connect to installation:
 
-- The inverter and panels must be ALMM-listed. A cheaper non-ALMM inverter forfeits up to ₹78,000 in subsidy, which dwarfs any saving on the unit price.
 - The vendor must be empanelled on the PM Surya Ghar portal. The subsidy application goes through the installer.
 - The system must be net metered and commissioned with DISCOM verification. This is why a quote that excludes net metering can quietly cost you the entire subsidy.
 
@@ -186,8 +187,6 @@ The tradeoff is honest: the hybrid premium of ₹20,000 to ₹40,000 extends pay
 
 **Myth 3: Buying components online and hiring a local electrician saves a lot.** It saves 5 to 8 percent at most. It also fragments warranty responsibility across three or four parties. When generation drops in month four, everyone blames everyone. A single itemized EPC contract is worth the small premium for a 25-year asset.
 
-**Myth 4: The cheapest ALMM inverter is fine since subsidy only needs ALMM.** ALMM listing is the floor, not the ceiling. It says nothing about warranty length, service response or thermal derating at 45 °C. A 5-year warranty inverter that fails in year seven costs ₹45,000 to ₹70,000 to replace. A 12-year full replacement warranty, which is what Qbits offers on the TLS and HS series, prices that risk at zero.
-
 ## Questions to Ask Your Installer Before You Sign
 
 Print this list. Any competent installer answers all ten without hesitation. The ones who deflect on two or more are telling you something.
@@ -200,20 +199,16 @@ Print this list. Any competent installer answers all ten without hesitation. The
 6. **What is the structure gauge, coating thickness and wind-load rating?** Ask for the design wind speed in kmph.
 7. **Is civil work and terrace waterproofing included?**
 8. **Is commissioning testing documented?** You want insulation resistance, earth resistance and MPPT voltage readings on the commissioning report.
-9. **What is the ALMM certificate number for the exact inverter and panel models quoted?**
+
 10. **Who handles warranty claims on each component, and what is the committed service response time?**
 
 The [solar quotation checklist](/blog/solar-quotation-checklist/) expands this into a full pre-signing review. The [find a reliable solar installer](/blog/find-reliable-solar-installer/) guide covers how to shortlist vendors before the quote stage. Expect [the full installation timeline](/blog/how-long-solar-installation-takes-india/) to run 3 to 10 weeks end to end including DISCOM approval, so factor that into your decision as well.
 
 ## Where Qbits Fits on All-In Value
 
-Qbits inverters sit in the mid-market price band, and the all-in economics favour them on two specific dimensions.
+the current published evidence does not establish a universal Qbits price band, warranty duration, full-replacement remedy or lifetime saving. For a Qbits option, use a dated itemised quote and the exact-model warranty. Include the logger, accessories, protection, delivery, installation, commissioning and any recurring fees before comparing ownership cost.
 
-First, warranty depth. The 12-year full replacement warranty on the TLS on-grid and HS hybrid series is the longest in the Indian market. Spread over the inverter price, a ₹55,000 unit with 12 years of coverage costs about ₹4,600 per year of protection. A budget unit with a 5-year warranty runs ₹8,000 to ₹10,000 per year. Across a 25-year system life where most inverters need one replacement, this is a ₹50,000 to ₹70,000 swing.
-
-Second, service response. Qbits commits to a sub-72-hour on-site RMA through its authorised service partner network, and WhatsApp-based monitoring flags faults before they become failures. For a homeowner comparing two itemized quotes ₹15,000 apart, these are the dimensions that decide which quote is actually cheaper over 25 years.
-
-Whatever brand you shortlist, run the fit test: ALMM-listed model, itemized quote, net metering included, documented commissioning. Then compare warranties.
+Whatever brand you shortlist, run the fit test: current module/cell scheme requirements, exact inverter documents, itemised quote, defined metering scope and documented commissioning. Then compare written warranty remedies and service responsibilities.
 
 ## Conclusion: The Only Price That Matters Is the Installed One
 
@@ -223,4 +218,3 @@ Three actions before you commit:
 
 - Get at least two **itemized** quotes and compare them line by line against the tables above, using ₹52,000 to ₹68,000 per kW as the sanity check.
 - Ask the ten installer questions, especially the three about cable metres, earthing pits and net metering, since those carry the most common hidden charges.
-- [Request an itemized quote from a Qbits engineer](/contact-us/) with ALMM-listed hardware and a 12-year full replacement warranty. Net metering is handled end to end, so the number you sign is the number you pay.

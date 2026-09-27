@@ -1,247 +1,208 @@
 ---
-title: "Solar Inverter Manufacturers, EPC Evaluation Guide"
-excerpt: "A structured framework for assessing solar inverter manufacturers, covering production capabilities, component quality, certifications, warranty infrastructure, and service network coverage."
-description: "Evaluation guide for solar inverter manufacturers in India: manufacturing standards, component quality, BIS/IEC certification, and warranty infrastructure."
+title: "Who Makes Solar Inverters in India? Company Directory"
+seoTitle: "Solar Inverter Manufacturers in India: Company Directory"
+excerpt: "Match 10 solar inverter brands sold in India to the organisation behind each official route, then verify who made, imported and warrants the exact model."
+description: "Find the companies behind 10 solar inverter brands in India and learn how to verify the manufacturer, importer, origin and warranty for an exact model."
 category: "Buying Guide"
 date: 2026-03-15
-updatedDate: 2026-07-08
+updatedDate: 2026-09-26
 readTime: "13 min"
-image: "/blog-images/solar-inverter-manufacturers-in-india.svg"
+image: "/og/blog-solar-inverter-manufacturers-in-india.webp"
 author: "Nirav Dhanani"
 keywords:
-  - solar inverter manufacturers India
-  - inverter procurement
-  - BIS certification
-  - manufacturer evaluation
-  - EPC supplier selection
+  - solar inverter manufacturers in India
+  - solar inverter company India
+  - who makes solar inverters in India
+  - inverter manufacturer India
+  - solar inverter brand owner
 faqs:
-  - q: "What's the difference between German-grade and standard components?"
-    a: "German-grade components from manufacturers like Infineon offer 20–30% longer operational lifespans and superior temperature tolerance (105°C+ vs 85°C for standard). They add 8–12% to manufacturing cost but reduce warranty claims by 30–40%."
-  - q: "Is BIS certification mandatory in India?"
-    a: "Yes. BIS certification under IS 61683 is mandatory for grid-connected inverters. Manufacturers without proper certification face market access challenges, and distributors risk legal exposure."
-  - q: "What service response time should I expect?"
-    a: "Leading manufacturers commit to 24–48 hour response in major markets and 72–96 hours in remote locations, with 48–72 hour full replacement for warranty claims."
-  - q: "Should I work with one manufacturer or multiple?"
-    a: "Single-vendor relationships simplify operations and secure better pricing. Multi-vendor approaches provide supply security and serve diverse customer segments. Many successful companies use 60–70% primary vendor with secondary relationships."
-  - q: "What due diligence should I run before committing?"
-    a: "Factory visits, sample unit testing, reference checks with existing partners, certification and documentation review, warranty fine print analysis, service network verification, financial stability check, and a 20–50 unit pilot project before scale commitment."
+  - q: "Who manufactures solar inverters in India?"
+    a: "Havells, Luminous, Microtek, Qbits and UTL are among the Indian-market routes homeowners encounter, while Deye, GoodWe, Growatt, Solis and Sungrow are global brand routes. A brand list alone cannot prove who manufactured a specific unit. Match its full model code to the nameplate, invoice, country-of-origin declaration and applicable compliance records."
+  - q: "Is the brand owner always the inverter manufacturer?"
+    a: "No. The brand owner, legal manufacturer, importer, seller and warranty issuer can be different entities. An official company page can establish the organisation behind a brand without proving which entity made or imported every model."
+  - q: "How can I find the manufacturer of my solar inverter?"
+    a: "Photograph the full nameplate and record the complete model code and serial number. Match them to the current datasheet, invoice, manufacturer or importer declaration, country-of-origin document, applicable compliance record and written warranty. Escalate any mismatch before installation."
+  - q: "Does Made in India mean every inverter component is Indian?"
+    a: "No. Indian brand ownership, Indian assembly and country of origin are separate facts. A product-level origin declaration does not by itself show where every component was made."
+  - q: "Does ALMM identify approved solar inverter manufacturers?"
+    a: "No. MNRE's current ALMM page publishes List-I for solar PV modules and List-II for solar PV cells. It is not a universal inverter-manufacturer list. Check the exact inverter's applicable compliance documents and current DISCOM requirements separately."
+  - q: "Who manufactures Qbits solar inverters?"
+    a: "Qbits publishes current on-grid and hybrid product records, but the public material reviewed for this directory does not establish one legal manufacturer or country of origin for every Qbits SKU. Ask for the nameplate, manufacturer or importer details, invoice entity, origin declaration and applicable compliance documents for the exact quoted model."
+featured: false
+relatedSlugs:
+  - "best-indian-solar-inverter-brands"
+  - "top-10-solar-inverter-brands-india-2026"
+  - "inverter-suppliers-india"
 ---
 
-Selecting the right solar inverter manufacturer is one of the most consequential decisions for Indian solar professionals. With projected installations exceeding **50 GW annually by 2026**, manufacturer choice directly impacts project success, customer satisfaction, and profitability. This guide gives [EPCs](/blog/solar-epc-india/), installers, and [distributors](/blog/inverter-suppliers-india/) a structured framework for assessing manufacturing capabilities, quality standards, and after-sales support.
+The name on a solar inverter is often a brand, not a complete answer to who made the unit. The brand owner, legal manufacturer, importer, assembler, seller and warranty issuer may be different organisations.
+
+This directory maps ten familiar Indian-market brand routes to the organisation identified on each brand's current official website. It then shows the documents needed to identify the responsible entities for one exact inverter. It does not rank product quality, service or reliability.
+
+**Disclosure:** Qbits publishes this directory and sells solar inverters. Its entry follows the same evidence rule as every other brand. Where the public record does not establish the legal manufacturer or origin of every Qbits model, this page says so.
 
 > **TL;DR**
-> - Weight your manufacturer scorecard toward warranty and service support (25%) and product quality and certifications (20%) - these two factors predict long-term satisfaction more than price or partnership perks.
-> - Mandatory BIS certification (IS 61683) is non-negotiable; IEC 62109 and IP66 are the additional standards that separate a globally-benchmarked product from a bare-minimum one.
-> - German-grade components add 8–12% to manufacturing cost but cut warranty claims by 30–40% and extend lifespan 20–30%.
-> - Indian manufacturers typically win on service response time (24–48 hours in major markets) and tier-2/3 city coverage; international brands win on R&D depth but carry a 15–25% price premium and slower spare-parts logistics.
-> - Run factory visits, sample testing, reference checks, and a 20–50 unit pilot before committing to scale with any single vendor.
+> - A company page can establish who operates a brand route. It cannot prove who made every model sold under that brand.
+> - Deye, GoodWe, Growatt and Solis publish identifiable company or organisation names on their official sites.
+> - Havells, Luminous, Microtek and UTL publish identifiable Indian company routes. Their company-level statements still need to be matched to the quoted SKU.
+> - Sungrow's current India brand page establishes the official brand route, but the exact India manufacturer or importer for a quoted unit still needs product documents.
+> - Qbits publishes current product families and datasheets, but its public material does not establish one legal manufacturer or country of origin for every SKU.
+> - The full model code, nameplate, invoice and product-specific documents settle more than a logo or dealer list.
 
-## Understanding the Indian Manufacturing Landscape
+**Short answer.** Start with the company directory below, but finish with the unit. Ask the seller to match the same full model code across the nameplate, datasheet, invoice, origin declaration, applicable compliance record and written warranty. If the entities or model suffixes disagree, the manufacturer question is still open.
 
-The 2026 market comprises three segments:
+## Solar inverter company directory for India
 
-1. **Established international brands** with local operations
-2. **Domestic manufacturers** with India-specific engineering
-3. **Innovation-focused companies** with AI, monitoring, and warranty differentiation
+The entries are alphabetical. Inclusion means a current official company or product route was available on 26 September 2026. It does not mean that every model is manufactured in India, currently stocked in India or suitable for a particular home.
 
-### Key Trends
-
-- Shift toward **[hybrid inverter](/glossary/hybrid-inverter/) solutions** as battery storage becomes viable
-- **High-wattage panels (750W+)** requiring upgraded specifications
-- **AI-powered monitoring** becoming standard
-
-Mandatory **BIS certification** for grid-connected inverters has tightened compliance significantly.
-
-## Critical Manufacturing Capabilities
-
-### Production Standards
-
-Leading manufacturers implement:
-
-- **1,000+ automated tests per unit**
-- Burn-in testing
-- Thermal cycling tests
-- Voltage surge simulation
-
-### Component Quality: German-Grade vs Standard
-
-| Component class | Lifespan | Temperature tolerance | Cost premium |
+| Brand | Organisation identified by the official route | What the source establishes | What it does not establish |
 | --- | --- | --- | --- |
-| German-grade (Infineon, WIMA, Vishay) | 20–30% longer | 105°C+ | +8–12% |
-| Standard | Baseline | 85°C | Baseline |
-| Warranty claim impact | -30 to -40% | Better | - |
+| Deye | NingBo Deye Inverter Technology Co., Ltd. | Deye's official About page identifies the company behind its inverter route | Legal manufacturer, importer, origin and warranty issuer for every India-market SKU |
+| GoodWe | GoodWe Technologies Co., Ltd. | GoodWe's official company profile identifies the organisation behind the product route | Whether the quoted regional variant was made, imported or warranted by that exact entity |
+| Growatt | Growatt New Energy | Growatt's official About page names the organisation used on its global route | The complete legal entity chain and exact-unit origin for an Indian sale |
+| Havells | Havells India Limited | The official solar page names Havells India Limited as manufacturer or importer and makes a product-bound manufacturing statement for its GREEHA Solar kit | That every unrelated Havells inverter SKU was made in the same place or under the same arrangement |
+| Luminous | Luminous Power Technologies Pvt. Ltd. | The official About page identifies the company behind the Luminous route | Legal manufacturer, factory and country of origin for every inverter SKU |
+| Microtek | Microtek International Pvt. Ltd. | The official About page identifies the organisation behind the Microtek route | Exact-unit manufacturer, origin, importer or warranty remedy |
+| Qbits | Qbits or Qbits Energy | Current first-party product records show on-grid and QBH hybrid inverter families | One legal manufacturer, importer or country of origin for every current SKU |
+| Solis | Ginlong Technologies | The official company profile identifies Ginlong Technologies behind the Solis inverter route | Which entity imports, sells and warrants the exact India-market unit |
+| Sungrow | Sungrow | The official India brand-story page establishes the current Sungrow route and company timeline | The exact legal manufacturer or importer on the quoted unit's India documents |
+| UTL | Fujiyama Power Systems Limited | The official UTL catalogue identifies Fujiyama Power Systems Limited as the legal organisation behind the route | Country of origin and manufacturing location of every listed product |
 
-Request **Bill of Materials (BOM)** documentation during due diligence. Reputable manufacturers share component sourcing willingly. Cross-check the disclosed specifications against the [how to read solar inverter datasheets guide](/blog/how-to-read-solar-inverter-datasheets/) before signing off on a sample unit.
+“Does not establish” is not an accusation. It means the company-level page cannot answer a product-level question. The missing fact may appear on the nameplate, invoice, certificate or declaration supplied with the sale.
 
-## Essential Certifications and Compliance
+## Brand owner, manufacturer and importer are different jobs
 
-| Certification | Purpose | Status |
+A clean manufacturer check begins by separating the entities.
+
+| Label | What it can tell you | What it cannot prove alone |
 | --- | --- | --- |
-| [BIS](/glossary/bis-certification/) (IS 61683) | Indian grid compliance | **Mandatory** |
-| [IEC 62109](/glossary/iec-62109/) | International safety | Global benchmark |
-| IEC 61683 | Performance testing | Global benchmark |
-| IP65 (minimum) | Dust/water protection | Good |
-| **[IP66](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/)** | Dust + water jet protection | Superior - recommended |
+| Brand owner | Who controls or markets the name | Who built or imported the exact unit |
+| Legal manufacturer | Who accepts manufacturing responsibility on the relevant product record | Where every component originated |
+| Assembler | Who performed final assembly | Who designed the product or owns the brand |
+| Importer | Who brought the product into India | Who manufactured it or owes every warranty remedy |
+| Seller or distributor | Who supplied and invoiced the unit | That the channel is authorised or that the stock is supported |
+| Warranty issuer | Which entity promises the written remedy | That the seller, brand owner or manufacturer has the same obligations |
+| Country of origin | The declared origin of the supplied product | Reliability, component origin or local service quality |
 
-**Red flags:** expired certificates, non-accredited bodies, reluctance to provide documentation.
+One organisation can perform several jobs. Several organisations can also share the chain. The practical goal is not to force every field into one company name. It is to identify who is responsible for each field before payment.
 
-## Warranty Infrastructure: Beyond Paper Promises
+## What the official sources say about each company route
 
-Warranty terms drive total cost of ownership as much as the sticker price does; see [the honest truth about solar inverter warranty in India](/blog/solar-inverter-warranty/) for the exclusions that are easy to miss in the fine print.
+### Deye
 
-### Warranty Types
+Deye's official [About page](https://www.deyeinverter.com/about/) identifies NingBo Deye Inverter Technology Co., Ltd. That supports the brand-to-company relationship used in this directory.
 
-| Type | What is covered |
-| --- | --- |
-| Full replacement | Entire defective unit replaced |
-| Repair | Component repairs requiring multiple service visits |
+It does not show that this company is the named manufacturer, importer or warranty issuer for every Deye inverter sold in India. Ask for those entities on the exact model's sale documents.
 
-### Digital Warranty Systems
+### GoodWe
 
-- Online claim submission
-- Real-time status tracking
-- Streamlined administrative process
+GoodWe's official [company profile](https://en.goodwe.com/company-profile) identifies GoodWe Technologies Co., Ltd. Its public product pages provide a direct route from the company profile to named inverter families.
 
-### Service Center Network
+The company identity still should not be copied automatically into every field on an Indian procurement sheet. Confirm the regional model suffix, nameplate entity, importer if applicable and written warranty issuer.
 
-- **Major markets:** 24–48 hour response commitment
-- **Remote areas:** 72–96 hour response
-- **Premium:** 48–72 hour full replacement
+### Growatt
 
-High claim rejection rates or slow processing indicate future challenges.
+Growatt's official [About page](https://en.growatt.com/about) uses the organisation name Growatt New Energy. That is enough to identify the official route, but not enough to reconstruct the full legal supply chain for a unit delivered in India.
 
-## After-Sales Service Network
+For an exact purchase, record the legal names printed on the unit and invoice. Do not expand “Growatt New Energy” into a more precise company claim unless the controlling document uses that name.
 
-| Element | What to verify |
-| --- | --- |
-| Geographic coverage | Tier-2 and tier-3 cities, not just metros |
-| Response time commitment | Documented SLAs |
-| Spare parts | Regional inventory locations |
-| Multi-channel support | Phone, WhatsApp, email, portal |
-| Training programs | Team certification available |
-| Remote diagnostics | AI-powered fault detection |
+### Havells
 
-## Technical Specifications for Indian Conditions
+Havells' official [solar solutions page](https://havells.com/business/discover-solar-solutions) names Havells India Limited as manufacturer or importer. It also states that every component in its GREEHA Solar kit is manufactured in-house by Havells India Limited.
 
-European efficiency ratings do not reflect Indian patterns. Verify:
+That is a comparatively specific statement because it is tied to a named kit. Keep the scope intact. It does not establish the origin or manufacturer of every inverter carrying the Havells name. Match the delivered product to the named configuration and its current documents.
 
-- **Efficiency curves across full load range** (not just peak)
-- **Operating temperature**: premium maintains full output to 50°C
-- **Voltage fluctuation tolerance**: wide input range (140V–270V single-phase)
-- **DC oversizing**: 130–150% capacity for high-wattage panels
-- **Start-up voltage**: 80V or lower for extended morning/evening generation
+### Luminous
 
-### Climate Zone Considerations
+The official Luminous [About page](https://www.luminousindia.com/about-us) identifies Luminous Power Technologies Pvt. Ltd. The company's [solar inverter catalogue](https://www.luminousindia.com/solar-inverters/all-products) covers multiple solar and backup product types.
 
-| Region | Critical specs |
-| --- | --- |
-| Rajasthan, Gujarat (hot/dry) | Temperature tolerance, IP66, robust thermal management |
-| Kerala, Tamil Nadu coast (humid) | Conformal coating on PCBs, corrosion-resistant enclosures |
-| Himachal, Uttarakhand (high-altitude) | Altitude derating, extreme temperature tolerance |
-| Dust-prone areas | IP66 essential near cement, mining, agriculture |
-| Monsoon regions | Water ingress protection, installation guidelines |
+The catalogue breadth makes the full model code important. A solar home UPS, power conditioning unit and grid-connected inverter can perform different jobs. Company identity does not settle product type or exact-unit origin.
 
-## Indian vs International Manufacturers
+### Microtek
 
-### Indian Manufacturers
+Microtek's official [About page](https://www.microtek.in/about-us) identifies Microtek International Pvt. Ltd. Its site separately publishes a [grid-tied solar solutions route](https://www.microtek.in/product/solar-solutions/grid-tied-solar-solutions).
 
-- ✅ Local support infrastructure
-- ✅ Faster service response
-- ✅ Regulatory alignment
-- ✅ Tier-2/3 city service coverage
-- ✅ Communication without language/time zone friction
-- ✅ India-based servers (data sovereignty)
+Those pages establish an official company and product-category route. They do not establish which factory made a quoted unit, the country of origin of that unit or the entity responsible for a specific warranty claim.
 
-### International Brands
+### Qbits
 
-- ✅ Established global track record
-- ✅ Extensive R&D resources
-- ❌ Service concentrated in metros
-- ❌ Spare parts require imports (slow)
-- ❌ **15–25% price premium** from duties, shipping, positioning
-- ❌ Currency fluctuation exposure
+Qbits' current repository records and [datasheet library](/download-datasheets/) identify on-grid TLS, TLD, TLC, Pro and Plus families, along with QBH hybrid families. Those are useful product records that can be matched to a quotation.
 
-### Customization
+The public material reviewed for this directory does not establish one exact legal manufacturer and country of origin across every Qbits SKU. It also does not establish one universal base warranty term and remedy. A buyer should obtain those fields in the current sale documents for the model being supplied.
 
-Domestic manufacturers respond faster to India-specific market needs. Long-term availability is also stronger, Indian companies show deeper market commitment.
+### Solis
 
-## Smart Monitoring and Digital Capabilities
+Solis' official [company profile](https://www.solisinverters.com/global/companyprofile.html) identifies Ginlong Technologies behind the inverter route. The profile establishes the organisation associated with the brand.
 
-| Feature | Why it matters |
-| --- | --- |
-| Multi-channel connectivity (Wi-Fi + 4G + Bluetooth) | Reliability across diverse sites |
-| **[WhatsApp integration](/blog/whatsapp-solar-monitoring/)** | Aligns with Indian user behaviour |
-| [AI-powered predictive monitoring](/blog/solar-inverter-monitoring-systems-in-india/) | Prevents failures |
-| Mobile apps with analytics | Client transparency |
-| Intelligent alert filtering | Reduces alert fatigue |
-| Open APIs / third-party integration | Avoids vendor lock-in |
-| India-based servers | Data sovereignty compliance |
+An Indian invoice may still involve a regional seller, importer or separate warranty route. Match the legal names and model suffix across the unit, invoice and supporting documents.
 
-## Manufacturer Reliability and Financial Stability
+### Sungrow
 
-### Background Check
+Sungrow's current [India brand-story page](https://www.sungrowpower.com/in/en/about-us/brand-story) establishes the official brand route and company timeline. This directory deliberately stops at the organisation name shown clearly on that route.
 
-- Years in business (contextual, backed by larger group?)
-- Installed base and customer references
-- Credit ratings and published statements
-- Payment terms offered (100% advance can signal cash flow issues)
-- Industry association membership
-- Market reputation through peer recognition
+For a quoted Sungrow inverter, use the nameplate and India sale documents to identify the exact legal manufacturer, importer and warranty issuer. A global brand history is not a product declaration.
 
-## Product Portfolio Breadth
+### UTL
 
-Comprehensive ranges (residential 3–10 kW through industrial 50 kW+) simplify sourcing:
+UTL's official [solar inverter catalogue](https://www.upsinverter.com/utl/solar-inverter/) identifies Fujiyama Power Systems Limited as the legal organisation behind the site. It also separates on-grid, hybrid and solar inverter or PCU categories.
 
-- On-grid and hybrid options
-- Battery integration for popular chemistries
-- Support for **750W+ panels**
-- Scalability for phased expansions
-- Active R&D and backward compatibility
-- Upgrade paths protect customer investments
+That settles the brand-route relationship, not the origin of every product. Confirm the manufacturer or importer and country of origin on the exact unit supplied.
 
-## Partnership and Distribution Support
+## The seven-document manufacturer check
 
-Look for:
+Run this check for every shortlisted inverter, including a Qbits model.
 
-- Preferential pricing and dedicated channel support
-- Co-branded marketing materials
-- Technical training and certification
-- Inventory management and drop-shipping
-- Transparent pricing structures
-- Lead generation and market development
+1. **Full model code:** copy every letter, number and suffix from the quotation.
+2. **Nameplate photograph:** request a clear image of the exact product label, not a catalogue mock-up.
+3. **Current datasheet:** confirm that the full model appears and that the operating type matches the system design.
+4. **Invoice entity:** identify the legal seller and make sure the model description matches the supplied unit.
+5. **Manufacturer or importer declaration:** record the entity responsible for the India-market product where applicable.
+6. **Country-of-origin declaration and compliance record:** match both to the exact model and named entity. A logo is not a model match.
+7. **Written warranty:** identify the issuer, term, start date, remedy, exclusions, registration deadline and claim route.
 
-## Due Diligence Checklist
+Do not accept documents for a neighbouring model. Similar family names can hide different phases, power ratings, battery voltages, communications hardware or regional approvals.
 
-1. **Factory visit**: production processes, QC, component storage
-2. **Sample testing**: efficiency, temperature performance, surge protection
-3. **[Reference checks](/blog/how-to-evaluate-solar-inverter-reliability/)** with existing partners
-4. **Documentation review**: certifications, test reports, warranty terms
-5. **Warranty deep-dive**: fine print, procedures, costs, turnaround
-6. **Service network verification**: call support directly to test responsiveness
-7. **Financial/legal due diligence**: stability check
-8. **Pilot project**: 20–50 units to test full relationship cycle
+## Common mistakes when checking an inverter manufacturer
 
-## Weighted Scoring Framework
+### Treating a familiar logo as legal identity
 
-| Factor | Weight |
-| --- | --- |
-| Warranty & service support | 25% |
-| Product quality & certifications | 20% |
-| Technical specifications | 15% |
-| Pricing & margins | 15% |
-| Partnership support | 10% |
-| Company stability | 10% |
-| Innovation & future-readiness | 5% |
+A logo helps a buyer find the official website. It does not identify the entity on a particular invoice or warranty. Record the full legal names instead.
 
-Score each manufacturer 1–10 per factor, multiply by weight, sum totals. Document all negotiations in writing. Track performance continuously post-selection. The [solar inverter reliability index](/blog/solar-inverter-reliability-index/) applies a comparable scoring methodology across major Indian brands if you want a published reference point.
+### Turning a factory statement into exact-model origin
 
-### Multi-Vendor Strategy
+A company may operate factories in India and also sell products from other sources. A corporate facility statement is useful context, but the exact unit needs its own evidence.
 
-- **Primary vendor:** 60–70% of sourcing
-- **Secondary vendors:** supply security and specific niche needs
+### Assuming an Indian brand means Indian manufacture
 
-Elsewhere in the Heaven Group network, see [BIS inverter certification](https://heavendesigns.in/blog/bis-solar-inverter-certification-process) and [branded versus unbranded pricing](https://quickestimate.co/blog/branded-vs-unbranded-solar-prices).
+Brand nationality, ownership, assembly and product origin are separate facts. None is a shortcut for quality. A well-documented imported unit can be a better fit than a poorly documented locally assembled one.
 
-## Conclusion
+### Using ALMM as an inverter directory
 
-Manufacturer selection is not a one-time event, it is a continuous evaluation. Start with pilots, validate through rigorous due diligence, and build relationships gradually. In India's exponentially growing solar market, prioritise manufacturers demonstrating genuine quality commitment, transparent operations, robust warranty infrastructure, and India-specific engineering. The right partner becomes a strategic alliance, not a transactional supplier. For the procurement process itself, the [inverter procurement India guide](/blog/inverter-procurement-india/) and [how to evaluate solar EPC bids](/blog/how-to-evaluate-solar-epc-bids/) cover the sourcing and bid-comparison steps that follow manufacturer shortlisting.
+MNRE's [Approved List of Models and Manufacturers page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes List-I for solar PV modules and List-II for solar PV cells. It is not a universal list of approved inverter manufacturers. Check the inverter's applicable documents and the current requirements of the relevant scheme and DISCOM separately.
+
+### Confusing the manufacturer with the supplier
+
+The manufacturer question identifies the product chain. The supplier question establishes whether the seller is authorised, can deliver traceable stock and can support the transaction. EPC buyers should use the separate [inverter supplier verification guide](/blog/inverter-suppliers-india/) for that process.
+
+## Which directory should you use next?
+
+Use this page when the question is, “Which company sits behind this brand, and what still needs exact-model proof?”
+
+Use the [Indian solar inverter brands guide](/blog/best-indian-solar-inverter-brands/) when you want a focused homeowner comparison of Indian-market routes and manufacturing evidence. Use the [top solar inverter brands guide](/blog/top-10-solar-inverter-brands-india-2026/) when you want product-category options across Indian and global brands. Neither page replaces the nameplate and sale-document check.
+
+## Final checklist before you approve a brand
+
+Your completed comparison sheet should answer all of these questions:
+
+- What is the full model code?
+- Which organisation owns or operates the official brand route?
+- Which legal entity is named as manufacturer or importer for this exact unit?
+- Which entity appears on the tax invoice?
+- What country of origin is declared for the supplied product?
+- Which compliance documents match the exact model and entity?
+- Which entity issues the warranty and what remedy does it promise?
+- Who accepts a service claim for your pincode?
+
+Leave an unsupported field marked “unknown.” A confident verbal answer is not the same as a product document.
+
+If Qbits is on your shortlist, [open the current Qbits product catalogue](/our-products/) and request the exact model's nameplate, origin, compliance and warranty documents before comparing it with another brand. Apply the same standard to both.

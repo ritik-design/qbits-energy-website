@@ -204,8 +204,6 @@ UPS provides continuous backup power for critical loads during grid outages. Ind
 
 ## Need UPS for backup or solar integration?
 
-QBits Energy supplies solar-integrated UPS and hybrid inverter systems for residential, small commercial and institutional backup power across India.
-
 ## Further reading
 
 For how UPS plays out in real projects, these guides go deeper:

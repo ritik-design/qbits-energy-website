@@ -237,8 +237,6 @@ LID is the initial efficiency loss in the first 100 hours of solar exposure for 
 
 ## Need yield modelling that accounts for LID?
 
-QBits Energy provides yield modelling and PPA-grade performance projections that correctly account for LID, LeTID and long-term degradation for Indian solar projects.
-
 ## Further reading
 
 For how LID plays out in real projects, these guides go deeper:

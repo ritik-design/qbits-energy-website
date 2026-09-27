@@ -109,10 +109,10 @@ async function main() {
     const slug = file.replace(/\.md$/, '');
     const raw = await readFile(join(BLOG_DIR, file), 'utf8');
     const fm = raw.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
-    const titleMatch = fm.match(/^title:\s*"?(.*?)"?\s*$/m);
-    const categoryMatch = fm.match(/^category:\s*"?(.*?)"?\s*$/m);
-    const title = titleMatch ? titleMatch[1] : slug;
-    const category = categoryMatch ? categoryMatch[1] : 'Blog';
+    const titleMatch = fm.match(/^title:\s*(?:"(.*?)"|'(.*?)'|(.+?))\s*$/m);
+    const categoryMatch = fm.match(/^category:\s*(?:"(.*?)"|'(.*?)'|(.+?))\s*$/m);
+    const title = titleMatch ? (titleMatch[1] ?? titleMatch[2] ?? titleMatch[3]).trim() : slug;
+    const category = categoryMatch ? (categoryMatch[1] ?? categoryMatch[2] ?? categoryMatch[3]).trim() : 'Blog';
 
     const outPath = join(OUT_DIR, `blog-${slug}.webp`);
     await renderOg(outPath, { title, kicker: category, logoDataUri });

@@ -34,6 +34,10 @@ faqs:
 featured: false
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 A homeowner in a Tier-2 city sees an ad promising a 3 kW rooftop solar system for almost nothing after subsidy. A polite sales agent visits, shows a government-looking ID, and collects a Rs 50,000 booking advance. Then the phone goes silent. This script, with small variations, is playing out across India as rooftop solar demand surges under [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) [Muft Bijli Yojana](https://heavendesigns.in/blog/pm-surya-ghar-muft-bijli-yojana-explained/).
 
 The scheme has put solar within reach of crores of households. It has also created the perfect cover for fraud. Most first-time buyers do not know how the subsidy flows, who may install, or what a real approval looks like. The Press Information Bureau itself has issued warnings about fraudulent websites imitating the official portal, according to [PIB](https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=153495&ModuleId=3&reg=3&lang=1), 2024.
@@ -117,8 +121,6 @@ Any vendor who rejects milestone payments is telling you something. A genuine in
 
 ## Fake ALMM Certificates and the Tier-1 Panel Swap
 
-The ALMM (Approved List of Models and Manufacturers) is MNRE's quality gate. PM Surya Ghar subsidy is released only when the installed modules and inverter are on the current list. That makes the ALMM certificate a forgery target.
-
 The scam has two variants. In the first, the vendor shows a genuine-looking ALMM certificate for a brand, but installs a cheaper unlisted model from the same brand. ALMM listing is model-specific, so the substitution still kills your subsidy. In the second, the certificate itself is fabricated, complete with logos and serials.
 
 Verification takes ten minutes and costs nothing. Open the ALMM list on the [MNRE website](https://mnre.gov.in/), search the exact manufacturer name, and match the exact model number printed on the quotation. Do this again at delivery, against the nameplate on the actual equipment. Our [ALMM List Phase III guide](/blog/almm-list-phase-iii-guide/) explains how the list is structured and where to find it.
@@ -185,4 +187,3 @@ Solar in India is a genuinely good investment right now, and that is exactly why
 
 - Before signing, run the full vendor verification table above and cross-check the quote against our [solar quotation checklist](/blog/solar-quotation-checklist/).
 - Read the [free solar panel scheme reality check](/blog/free-solar-panel-scheme-reality/) so subsidy math from any sales pitch can be tested against the official numbers.
-- Want a verified starting point instead of a lucky guess? [Talk to the Qbits team](/contact-us/) and get an itemized, ALMM-compliant quote with a 12-year warranty in writing.

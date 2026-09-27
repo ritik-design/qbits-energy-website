@@ -83,7 +83,7 @@ const hybridDocs = [
 
 <Layout
   title="Download Datasheets | Qbits Energy"
-  description="Download product datasheets, manuals, warranty information, and certificates for all Qbits solar inverters."
+  description="Download Qbits inverter product datasheets and identify the right model. Request installation manuals, warranty terms and certificates where needed."
   canonical="/download-datasheets/"
 >
   <HeaderV2 />
@@ -93,10 +93,15 @@ const hybridDocs = [
       label="Resources"
       title="Download"
       highlight="Datasheets"
-      description="Access product datasheets, manuals, warranty documents, and certifications for all Qbits inverters."
+      description="Access Qbits inverter datasheets by model family. Ask for current manuals, terms and certificates for your exact model."
     />
 
     <!-- Soft email opt-in CTA - bundle all datasheets to your inbox -->
+    <section class="py-8 bg-white" aria-labelledby="document-check-heading"><div class="container-main max-w-5xl">
+      <h2 id="document-check-heading" class="text-2xl font-bold text-slate-900">Find the document for the exact model</h2>
+      <p class="mt-3 text-slate-600">The QB-4/5/6KTLD file below is the two-MPPT single-phase family; QB-4.6/5/6KTLS is the one-MPPT family. The QBH-3KS/3K6S/4KS/4K6S/5KS/6KS48P hybrid catalogue covers several variants with different current and MPPT counts. Check the model label on the supplied unit against the document before designing strings or batteries.</p>
+      <p class="mt-3 text-slate-600">These downloads are product datasheets. For a model-specific installation manual, battery compatibility confirmation, certificate or written warranty, <a class="text-brand-600 underline" href="/contact-us/">contact Qbits with the exact SKU and serial number</a>.</p>
+    </div></section>
     <section class="bg-gradient-to-br from-brand-600 via-brand-700 to-slate-900 py-12 lg:py-16 text-white relative overflow-hidden" aria-labelledby="bundle-heading">
       <div class="absolute -top-32 right-1/4 w-96 h-96 bg-white/10 rounded-full blur-3xl pointer-events-none" aria-hidden="true"></div>
       <div class="container-main relative grid lg:grid-cols-[1fr_minmax(360px,460px)] gap-8 items-center">
@@ -106,10 +111,10 @@ const hybridDocs = [
             EPC / Dealer bundle
           </span>
           <h2 id="bundle-heading" class="mt-4 text-2xl sm:text-3xl font-bold leading-tight">
-            Need every datasheet, manual, and certificate in one go?
+            Get the Qbits product catalogue
           </h2>
           <p class="mt-3 text-sm text-brand-100 leading-relaxed max-w-xl">
-            Give us your email and we'll send the full Qbits inverter bundle (PDFs + datasheets + <a href="/blog/solar-inverter-certifications/" class="underline hover:text-white">IEC/BIS certs</a>) to your inbox within minutes. Use it for <a href="/blog/how-to-evaluate-solar-epc-bids/" class="underline hover:text-white">EPC bids</a>, BoQ specs, or <a href="/glossary/net-metering/" class="underline hover:text-white">net-metering</a> paperwork.
+            Submit the form to receive a link to the Qbits product catalogue PDF. Individual model datasheets are available below without the form. For a current installation manual, written warranty or <a href="/blog/solar-inverter-certifications/" class="underline hover:text-white">certificate</a>, request the exact model document separately. Use it for <a href="/blog/how-to-evaluate-solar-epc-bids/" class="underline hover:text-white">EPC bids</a>, BoQ specs, or <a href="/glossary/net-metering/" class="underline hover:text-white">net-metering</a> paperwork.
           </p>
         </div>
         <form id="datasheet-bundle-form" class="bg-white/10 ring-1 ring-white/20 backdrop-blur-sm rounded-2xl p-5 sm:p-6 space-y-3" action="#" method="post">

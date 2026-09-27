@@ -22,10 +22,12 @@ faqs:
   - q: "What's the daily revenue impact of inverter failure?"
     a: "For a 100 kW commercial installation: ₹2,400–₹3,600/day in lost generation (400–450 kWh × ₹6–8/kWh). Extended downtime accumulates ₹50,000–₹1,00,000+ losses. Out-of-warranty replacement: ₹15–25 lakhs."
   - q: "How does extended warranty protect ROI?"
-    a: "A 12-year full replacement warranty provides ₹8–12 lakhs in discounted risk protection for 100 kW installations - far exceeding the incremental inverter cost difference vs 5-year coverage."
+    a: "A model-specific written warranty provides ₹8–12 lakhs in discounted risk protection for 100 kW installations - far exceeding the incremental inverter cost difference vs 5-year coverage."
   - q: "What's the #1 prevention strategy?"
-    a: "Select inverters engineered for Indian conditions: IP66 weather protection, German-grade components, 50°C+ operating temperature rating, integrated DC/AC SPDs, and 12-year warranty. Combine with quarterly preventive maintenance."
+    a: "Select inverters engineered for Indian conditions: IP66 weather protection, German-grade components, 50°C+ operating temperature rating, integrated DC/AC SPDs, and model-specific written warranty. Combine with quarterly preventive maintenance."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 Solar inverter failures threaten project economics across India, with devices losing capacity or shutting down entirely during operation. Understanding failure patterns, prevention strategies, and reliable equipment selection protects your investment and maximises returns.
 
@@ -34,7 +36,7 @@ Solar inverter failures threaten project economics across India, with devices lo
 > - A 100 kW installation can lose ₹15,000-₹25,000 daily during an outage, and heat stress halves electrolytic capacitor lifespan for every 10°C rise.
 > - Early warning signs include gradual output decline, recurring fault codes after resets, elevated temperatures, unusual sounds, and repeated grid disconnections.
 > - Premium manufacturers run 1,000+ automated tests per unit (thermal cycling, humidity, vibration, burn-in) versus 100-200 for standard products.
-> - A 12-year full-replacement warranty provides an estimated ₹8-12 lakhs in discounted risk protection for a 100 kW installation, versus 5-year coverage.
+> - A model-specific written warranty provides an estimated ₹8-12 lakhs in discounted risk protection for a 100 kW installation, versus 5-year coverage.
 > - AI-powered monitoring with WhatsApp alerts catches degradation trends weeks before a hard failure occurs.
 
 ## Understanding Solar Inverter Failure
@@ -134,7 +136,7 @@ The cadence below is the minimum baseline; the [complete inverter maintenance gu
 
 ### Reliability Indicators
 
-- **[12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/)**: engineering for longevity
+- **[model-specific written warranty](/blog/12-year-solar-inverter-warranty/)**: engineering for longevity
 - **[IP66 weather protection](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/)**: complete dust and water jet resistance
 - **Thermal management**: oversized heat sinks, intelligent cooling, <60°C operation under load
 - **Integrated surge protection**: DC and AC SPDs built-in
@@ -213,7 +215,3 @@ Premium systems combine all three with automatic failover.
 | Operating temp | Derates 45°C | Full output to 50°C+ |
 | Efficiency | 95–97% | 98%+ |
 | Ground resistance | <5 Ω required | <5 Ω required |
-
-## Closing
-
-Inverter failure is rarely sudden, it is usually a slow drift in efficiency or temperature that monitoring should catch weeks ahead. Combine quality hardware (IP66, German-grade components, 12-year warranty) with disciplined preventive maintenance and AI monitoring, and failure stops being a project-economics question. EPCs specifying failure-resistant hardware upfront can compare Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) lineup, both built to the standard described above, or [talk to a Qbits engineer](/contact-us/) about a specific project. For units approaching the end of their service life, the [solar inverter lifespan guide](/blog/solar-inverter-lifespan/) and the [when-to-replace decision guide](/blog/when-to-replace-solar-inverter/) help determine whether the next fault is worth repairing at all.

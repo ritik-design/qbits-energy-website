@@ -28,7 +28,7 @@ faqs:
   - q: "What should the MPPT voltage reading show in my solar app?"
     a: "MPPT voltage is the DC voltage at which the inverter is tracking the maximum power from your panel strings. This should fall within the inverter's published MPPT voltage range (typically 200–800 V for residential inverters) and should correlate with irradiance - higher irradiance means higher voltage up to the MPPT range ceiling. A persistent MPPT voltage near the lower limit of the range on clear days may indicate a string connection issue, a failed bypass diode, or undersized stringing. A voltage near the upper limit may indicate temperature derating or string over-voltage risk."
   - q: "How do I verify my solar app readings against my DISCOM bill?"
-    a: "Each month, compare three numbers: (1) the app's total generation (kWh) - this should match the total generation recorded by the DISCOM's bidirectional meter; (2) the app's grid export (kWh) - this should match the 'export units' line on your DISCOM bill; and (3) your actual bill consumption - should equal total consumption minus solar self-consumption. A consistent 5–10% difference between app and bill may indicate a calibration mismatch between the inverter's internal meter and the DISCOM's meter - raise this with your installer or Qbits support."
+    a: "Expect the two numbers to differ, because they measure different things. The app reports what the inverter produced on the AC side. The bill reports what crossed the utility meter, which is import and export after your own consumption has taken its share. So generation will normally exceed export by however much you consumed while the sun was up. To reconcile them, line up the exact billing dates, take app generation for that window, subtract self-consumption, and compare the remainder with the exported units on the bill. A persistent gap that survives that arithmetic is worth raising with your installer."
   - q: "What are common fault codes in solar inverter apps in India?"
     a: "Common fault codes shown in Indian solar inverter monitoring apps include: Grid over-voltage or under-voltage (the grid supply is outside the inverter's 180–270 V tolerance range), Grid frequency fault (grid frequency is outside 47.5–51.5 Hz), Isolation fault (DC-to-ground insulation resistance has fallen below the safe threshold - typically a wiring issue), MPPT fault (string voltage is outside the MPPT range - check for open-circuit string or module fault), and Over-temperature (inverter exceeded its maximum operating temperature and shut down). Any recurring fault code should be reported to your installer for investigation."
 ---
@@ -43,7 +43,6 @@ Your solar monitoring app shows dozens of numbers, graphs, and alerts every day.
 > - Inverter temperature above 65°C is a warning threshold, above 70°C usually indicates a cooling fault.
 > - Grid export and monthly generation figures should match your DISCOM bill within 5%; a persistent gap suggests meter calibration drift.
 > - MPPT voltage should sit within the inverter's published range; a persistent reading near the lower limit on clear days suggests a string fault.
-> - Qbits' WhatsApp monitoring pushes daily and fault alerts automatically, so you only need to open the app when something is flagged.
 
 After you understand the monitoring app, the natural next step is understanding what to expect across a full year, see [what to expect in Year 1 of solar ownership India](/blog/solar-year-1-ownership-guide-india/) for the month-by-month guide.
 
@@ -147,20 +146,16 @@ Consolidating the six metrics into a daily 2-minute review routine.
 
 6. **Current Power (W) vs Expected**: On a clear day, Current Power should be 80–95% of system nameplate kW at peak irradiance. Below 70% on clear days = investigate string faults or MPPT issues.
 
-## Qbits WhatsApp Monitoring: What You Get
+## What to verify in Qbits monitoring documentation
 
-Standard solar monitoring apps require you to open the app and interpret data. Qbits' AI-powered WhatsApp monitoring system flips this model, it pushes alerts to you, so you only need to investigate when something is actually wrong.
+The retained Qbits documents do not establish a universal daily report, weather-adjusted threshold, WhatsApp alert, five-minute delivery target or monthly summary. For the exact inverter and logger, request the supported metrics, alert rules, delivery channels, latency, history retention, account roles, data export, subscriptions and privacy terms.
 
-**Daily report (sent at 8 PM):** Yesterday's generation (kWh), weekly and monthly totals, and a simple "System Normal" or "Check Required" flag. The flag triggers when generation drops more than 20% below the weather-adjusted expected output.
+Demonstrate the actual application before handover and record who monitors it. An alert is not a service ticket or a guarantee that a fault will be diagnosed within a particular time.
 
-**Fault alerts (immediate):** MPPT fault, grid voltage fault, isolation fault, and over-temperature alerts are pushed as WhatsApp messages within 5 minutes of the event. You forward the message to the [authorised service partner](/authorized-service-partners/) who resolves within the 72-hour RMA SLA.
-
-**Monthly summary (sent on 1st of each month):** Total generation, estimated savings, comparison to the same month last year (from Year 2 onwards), and a maintenance reminder if the cleaning interval is due.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with integrated battery monitoring in the same WhatsApp dashboard.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[Solar Inverter App Monitoring](/blog/solar-inverter-app-monitoring/)**: Comparison of monitoring platforms across major brands available in India.
-- **[Authorized Service Partners](/authorized-service-partners/)**: Pincode-searchable service network that acts on WhatsApp alerts within 72 hours.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
-The [MNRE's Guidelines for Rooftop Solar Systems](https://mnre.gov.in/) require that all grid-connected inverters provide monitoring and data logging capabilities, making the monitoring app a regulatory requirement, not just a convenience feature. [Mercom India's Solar Monitoring Report 2025](https://www.mercomindia.com/) notes that Indian homeowners who actively use monitoring apps detect underperformance issues 3x faster than those who rely only on monthly DISCOM bills.
+Project monitoring and data-logging requirements depend on the current scheme, utility, plant size and applicable documents. Verify them through the relevant official source.
 
-If your current monitoring app is unclear or you are seeing numbers that do not make sense, [talk to a Qbits engineer](/contact-us/), most monitoring interpretation questions are resolved in a single WhatsApp message exchange.
+If the monitoring app is unclear, [contact Qbits](/contact-us/) with the exact inverter, logger, app version and screenshots. Confirm support scope and response timing after submission.

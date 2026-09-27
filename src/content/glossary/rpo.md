@@ -250,8 +250,6 @@ RPO is the mandate requiring Indian electricity obligated entities to source min
 
 ## Need RPO compliance strategy?
 
-QBits Energy advises C&I open access consumers and captive plants on RPO compliance strategies combining solar PPAs, on-site generation and RECs.
-
 ## Further reading
 
 For how RPO plays out in real projects, these guides go deeper:

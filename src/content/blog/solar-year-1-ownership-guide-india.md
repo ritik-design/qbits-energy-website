@@ -28,10 +28,14 @@ faqs:
   - q: "When should I be concerned about solar generation in Year 1?"
     a: "Be concerned if: actual annual generation is below 90% of the installer's year-1 estimate (accounting for actual weather); the monitoring app shows multiple days with generation at less than 50% of the clear-sky expectation on genuinely clear days; the inverter shows recurring fault codes (isolation fault, grid voltage fault, MPPT fault); or your net metering bill credits are consistently lower than the app's export reading. Minor deviations (5–10%) are within normal calibration tolerance; sustained deviations above 15% warrant a formal installer investigation."
   - q: "Do I need to register my solar panels' warranty separately from the inverter warranty?"
-    a: "Yes. Panel warranty registration and inverter warranty registration are separate processes. Panel warranty registration is typically done online at the panel manufacturer's website (Tata Solar, Adani, Waaree, etc.) within 90 days of installation - failing to register may void the warranty. Inverter warranty registration is done at the inverter manufacturer's portal. For Qbits inverters, warranty registration is completed by the installer at commissioning - you receive a confirmation by WhatsApp. Keep both registration numbers and the original bill of materials for any future warranty claims."
+    a: "Registration requirements differ by manufacturer, product, seller and warranty document. Obtain the current procedure and deadline for every supplied component. The retained Qbits evidence does not establish a universal registration deadline, installer workflow or WhatsApp confirmation, so request the controlling written terms for the exact model and sale."
   - q: "What maintenance tasks should I complete in Year 1 of solar ownership?"
     a: "Year 1 maintenance tasks: Register panel and inverter warranties within 90 days of installation. Set up the monitoring app and verify it correctly shows generation data. Complete the first panel cleaning at 3 months. Review the monitoring app monthly and compare to bill credits. At Month 11–12, conduct a Year 1 annual check - ask your installer or service partner to do a string voltage test, MC4 connector inspection, earthing continuity test, and inverter log review. Document the results for comparison in Year 2."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 The first year of solar ownership in India follows a predictable pattern, but most homeowners do not know what that pattern is. According to [JMK Research's India Rooftop Solar 2025 Consumer Survey](https://jmkresearch.com/), 42% of solar homeowners reported being "surprised" by the monsoon generation dip in their first year, indicating that pre-commissioning expectation-setting is a critical gap in India's solar industry. [IRENA's analysis of residential solar systems](https://www.irena.org/) shows that systems monitored actively in Year 1 have 15% lower incidence of warranty claims in Years 2–5, because early detection of faults prevents cascading damage. The result is unnecessary anxiety about delays that are normal, seasonal dips that were always expected, and missed maintenance tasks that compound into losses in Year 2. This month-by-month guide maps the entire first year so you know what is coming and what to do about it.
 
@@ -154,14 +158,9 @@ For the complete list of inverter fault codes and their meanings, see [solar inv
 
 Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heavengreenenergy.com/blog/solar-amc-what-included) and [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation).
 
-## Where Qbits Fits in Your Year 1 Experience
+## Qbits model documentation
 
-Qbits WhatsApp monitoring means you receive the Month 12 annual review summary automatically, the system sends a 12-month generation report by WhatsApp with a comparison to the commissioned yield estimate. You do not need to log into a portal, export a report, or calculate anything manually.
-
-For technical events in the list above (especially zero generation or repeated fault codes) Qbits' WhatsApp alert system dispatches the nearest [authorised service partner](/authorized-service-partners/) automatically within 72 hours of the alert being logged. The 12-year full-replacement warranty means any inverter hardware fault in Year 1 (or Year 2 through Year 12) is resolved at no cost.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series; battery SOC monitoring included in the same WhatsApp dashboard.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[Solar Inverter App Monitoring guide](/blog/solar-inverter-app-monitoring/)**: Full comparison of monitoring platforms across Indian inverter brands.
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed TLS and TLD series with 12-year warranty; the inverter your Year 1 experience depends on.
 
-If anything in your first year does not match the expectations in this guide, [talk to a Qbits engineer](/contact-us/), the WhatsApp consultation is free and typically resolves within the same business day.
+[Contact Qbits](/contact-us/) with the exact model, seller, commissioning record and issue details. Confirm the responsible party, support scope, any charges and response process after submission.

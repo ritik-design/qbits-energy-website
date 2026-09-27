@@ -18,7 +18,7 @@ faqs:
   - q: "What size solar system does a 2 BHK home need in India?"
     a: "A 2 BHK Indian home typically needs a 3kW on-grid solar system. Monthly electricity consumption for a standard 2 BHK with two air conditioners, refrigerator, washing machine, fans, and lights ranges from 400 to 600 units. A 3kW system generates 350 to 500 units per month in most Indian cities, covering 60 to 90% of the household bill. For lighter consumption below 350 units per month (no AC or only one AC used sparingly), a 2kW system may suffice."
   - q: "What is the cost of a solar system for a 2 BHK in India in 2026?"
-    a: "A 3kW on-grid solar system for a 2 BHK costs ₹1,50,000 to ₹2,10,000 before subsidy. After the PM Surya Ghar central subsidy of ₹78,000 for a 3kW system, the net cost is ₹72,000 to ₹1,32,000. Most mid-range 3kW systems with ALMM-listed inverters and monocrystalline PERC panels land at ₹1,65,000 to ₹1,85,000 gross, giving a net cost of ₹87,000 to ₹1,07,000 after subsidy."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What is the monthly electricity consumption of a 2 BHK home in India?"
     a: "A typical 2 BHK Indian home consumes 400 to 600 units of electricity per month. The primary loads are 2 inverter air conditioners (1-ton each, 6 hours/day), a refrigerator (200L, 24 hours), a washing machine (1 load/day), 4 ceiling fans (10 hours each), 10 LED lights (5 hours each), and a television. Heavy users with a 1.5-ton AC or a washing machine dryer may reach 600 to 700 units/month."
   - q: "How much can solar reduce the electricity bill for a 2 BHK?"
@@ -28,10 +28,14 @@ faqs:
   - q: "Can a 3kW solar system run 2 air conditioners in a 2 BHK?"
     a: "A 3kW solar system can run one 1-ton AC (900W) plus other standard household loads simultaneously. Running two 1-ton ACs simultaneously (1,800W) plus a refrigerator, fans, and lights (approximately 900W) totals 2,700W - close to the 3kW inverter limit. In practice, during peak solar hours (10 AM to 3 PM), a 3kW system can power both ACs if they are 3-star or 5-star inverter models consuming around 700–800W each at steady state."
   - q: "Which inverter is best for a 2 BHK 3kW solar system?"
-    a: "For a 2 BHK 3kW on-grid system, the Qbits TLS-3000 is the primary recommendation: ALMM Phase III listed, 12-year full replacement warranty, IP66 weather protection, AI WhatsApp monitoring. For homeowners with regular power cuts, the Qbits HS-3000 (hybrid, 3kW) is the upgrade path - battery-ready without rewiring. Both are BIS and IEC certified and India-grid-tuned for 180–270V grid variation."
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
   - q: "Is a 2 BHK on the ground floor of an apartment eligible for PM Surya Ghar subsidy?"
     a: "The PM Surya Ghar subsidy is available to apartment dwellers only if the system is installed on the rooftop of the building and the electricity meter is under their name. In a multi-storey apartment building, only the top-floor owner or the housing society (as a group net metering subscriber) can typically install rooftop solar. Ground-floor and mid-floor apartment owners face practical limitations - group net metering schemes for societies can overcome this in some states."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Your 2 BHK electricity bill is hovering between ₹2,500 and ₹4,500 per month, and every solar company you call tells you something different. One says 3kW, another says 5kW. One quotes ₹1.4 lakh, another quotes ₹2.2 lakh for "the same system."
 
@@ -42,10 +46,6 @@ Before you sign anything, you need to understand what a 2 BHK home actually cons
 > - A [3kW system](https://www.heavengreenenergy.com/blog/3kw-solar-system-in-india) generates 350–500 units per month, covering 60–90% of the bill.
 > - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy is ₹78,000 for 3kW, the maximum any household can claim, cutting net cost to ₹72,000–₹1,32,000.
 > - Payback lands in 3–5 years at ₹6–₹8 per unit tariffs.
-> - The Qbits TLS-3000 (on-grid) and HS-3000 (hybrid) are the primary inverter picks for this segment.
-> - On-grid is the right choice for most metro 2 BHK homes; hybrid only pays back faster where outages exceed 2–3 hours daily.
-
-> **Direct answer.** A 2 BHK Indian home needs a 3kW on-grid solar system in most cases. Monthly consumption is 400 to 550 units, a 3kW system generates 350 to 500 units per month, covering 65 to 90% of the bill. After the PM Surya Ghar central subsidy of ₹78,000 for a 3kW system, net cost is ₹72,000 to ₹1,32,000. Using the **True Cost of Going Solar** framework, payback lands in 3 to 5 years at ₹6 to ₹8 per unit.
 
 ## 2 BHK Load Profile: Calculating What You Actually Need
 
@@ -78,7 +78,7 @@ A 3kW solar system in central India generates 13 to 16 kWh/day, covering the loa
 ### The True Cost of Going Solar (5-Component Framework)
 
 1. **Solar panels**: 5 to 6 panels of 530–575 Wp for a 3kW system. At ₹22–₹26/Wp: ₹66,000–₹78,000 for panels alone.
-2. **Inverter**: A 3kW [ALMM-listed](/blog/almm-list-phase-iii-guide/) on-grid inverter: ₹18,000–₹35,000. Hybrid inverters cost ₹40,000–₹70,000 for the same capacity.
+
 3. **Balance of System**: Mounting structure, DC and AC cables, junction box, SPDs, earthing, net meter interface. For 3kW: ₹22,000–₹35,000.
 4. **Installation and commissioning**: Labour, DISCOM net metering application, commissioning inspection, similar to the residential solar installation workflow EPCs follow nationwide. For 3kW: ₹14,000–₹22,000.
 5. **GST**: Approximately 12% on the total system. For a 3kW system: ₹14,000–₹20,000.
@@ -169,22 +169,18 @@ These payback periods are genuinely outstanding for any household investment. Af
 
 ## Best Inverter Picks for a 2 BHK 3kW System
 
-### Best On-Grid Pick: Qbits TLS-3000
+### Qbits model documentation
 
-ALMM Phase III listed, [BIS certified](/glossary/bis-certification/), IEC 62109 compliant. 12-year full replacement warranty, the longest in the category. IP66 weather protection (outperforms IP65 on monsoon-exposed Indian terraces). AI-powered WhatsApp monitoring alerts you to generation drops without needing an app check. India-grid-tuned for 180–270 V supply variations common in Tier-2/3 cities. Single-[MPPT](/glossary/mppt/) with wide voltage window covers a standard south-facing 3kW panel array.
+The Qbits product library includes a 3.0 kW single-phase on-grid model in the QB 1.5/2.0/2.7/3.0/3.3/3.6/4.0KTLS family and a 3 kW hybrid model in the QBH 3KS/3K6S/4KS/4K6S/5KS/6KS48P family. These products have different electrical roles. An on-grid unit is not outage backup; a hybrid design also requires an approved battery, backup-circuit design and model-specific settings.
 
-### Best Hybrid Pick: Qbits HS-3000
-
-For 2 BHK homeowners in areas with regular power cuts (UP, Bihar, Jharkhand, rural Maharashtra): the HS-3000 hybrid inverter supports a [5–10kWh LiFePO4 battery bank](/blog/battery-sizing-hybrid-solar/) and switches to backup in under 20 milliseconds during outages. Priced at approximately ₹45,000–₹60,000 (versus ₹18,000–₹32,000 for the on-grid TLS-3000), it adds meaningful cost but delivers genuine outage protection.
-
-For a full brand-by-brand 3kW inverter comparison, the [best 3kW solar inverter guide](/blog/best-3kw-solar-inverter-india-2026/) covers Qbits, Growatt, Sungrow, Luminous, and Microtek side by side.
+Use the current datasheet to check PV voltage, current, MPPT layout, phase, enclosure and operating limits. Qbits retail price, battery-model compatibility, transfer time, certificate status, universal monitoring functions and warranty terms are not established from the current published documents. Obtain a dated quote and the controlling documents for the exact SKU before selection.
 
 ## Common Mistakes 2 BHK Buyers Make
 
 These echo the broader patterns in our [solar inverter buying mistakes guide](/blog/solar-inverter-buying-mistakes/), but here is how they show up specifically for 2 BHK buyers:
 
 - **Accepting a 5kW quote without questioning it**: If your monthly consumption is 400–500 units, you do not need 5kW. A 3kW system serves the load and recovers the ₹78,000 subsidy more efficiently.
-- **Choosing an inverter based on brand recognition alone**: Luminous and Microtek have strong UPS brand recognition, but their solar inverters differ significantly in warranty (typically 2–5 years) and ALMM compliance status versus Qbits' 12-year warranty. The [solar inverter buying guide for homeowners](/blog/how-to-choose-solar-inverter-for-home-india/) covers the evaluation criteria.
+
 - **Skipping shadow analysis**: A 3kW system on a 2 BHK terrace with a water tank, staircase, or neighbouring building shadow can produce like a 2kW system. Request a [shadow analysis](https://surgepv.com/shadow-analysis/) report from your installer before signing.
 - **Not verifying GST invoice**: The PM Surya Ghar subsidy claim requires a proper GST invoice from an empanelled installer. An unregistered installer cannot process the subsidy. Read the [GST on solar systems guide](/blog/gst-on-solar-inverters-2026/) to understand what to check.
 - **Ignoring the installer's net metering track record**: Some installers commission the panels but delay or skip the DISCOM net metering application. Vet the installer's track record before signing, without net metering, surplus power is wasted.
@@ -195,13 +191,10 @@ A larger home moves the sizing bracket, worked through in [solar inverter for a 
 
 If the household runs air conditioning, size against [solar inverter for AC load](/blog/solar-inverter-for-ac/) instead.
 
-## Where Qbits Fits for a 2 BHK Home
+## Qbits model documentation
 
-The 2 BHK homeowner looking for a 3kW system with a 12-year warranty, IP66 protection, and real local service lands on Qbits. Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS series, ALMM-listed, PM Surya Ghar subsidy-eligible, from 1.5kW to 50kW.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness for outage-prone locations.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Verify your 3kW panel and string configuration in 60 seconds before ordering.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable 72-hour RMA network across 280+ Indian cities.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
-[Request a free quote at contact-us](/contact-us/) with your last 3 months' electricity bills, Qbits engineers return a verified system design within 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

@@ -172,4 +172,4 @@ Canada punishes the assumption that North America is one market.
 - **Put certification marks in the component library.** Equipment without a CSA, cUL, cETL or cULus mark is not legal to install, and that check belongs at specification.
 - **Carry provincial rules, not a national average.** Sizing limits and credit rates differ enough to change the recommended system.
 - **Report monthly, not annually.** Winter shading and snow compound, and an annual average hides the months the customer notices.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Canadian address, or reach the Qbits team [here](/contact-us/) for certified inverter specification against the finished design.
+

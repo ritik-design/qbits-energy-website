@@ -199,15 +199,13 @@ SERCs are the most consequential regulators for Indian rooftop and distributed s
 
 ## Need help understanding your state SERC rules?
 
-QBits Energy advises customers across India on state-specific SERC net metering, gross metering and tariff structures for rooftop solar projects.
-
 ## Further reading
 
 For how SERC plays out in real projects, these guides go deeper:
 
 - [Gross Metering vs Net Metering: Which to Choose?](/blog/gross-metering-vs-net-metering/)
 - [How to Apply for Net Metering in India](/blog/how-to-apply-net-metering-india/)
-- [India Rooftop Solar Index 2026, Annual Qbits Report](/blog/india-rooftop-solar-index/)
+
 - [Net Metering in India, Complete 2026 Guide](/blog/net-metering-india-complete-guide/)
 
 ## Sources

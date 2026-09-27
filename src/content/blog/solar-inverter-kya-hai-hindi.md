@@ -22,9 +22,9 @@ faqs:
   - q: "1 kW solar inverter se kitni bijli banti hai?"
     a: "1 kW solar inverter se pratidin 4 se 5 units bijli banti hai - shehar aur location ke hisaab se. Rajasthan, Gujarat, MP jaise states mein 5 se 5.5 units roz milte hain. Kerala aur West Bengal mein 4 se 4.5 units. Mahine mein 120 se 165 units per kW generate hoti hain."
   - q: "Solar inverter ki life kitni hoti hai?"
-    a: "Good quality solar inverter 10 se 15 saal chalta hai. ALMM-listed inverters ke saath manufacturer minimum 5 saal warranty dete hain; achhe brands 10 se 12 saal full replacement warranty dete hain. Solar panels 25 saal chalte hain - isliye system life mein ek inverter replacement hoti hai."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "ALMM kya hai aur inverter mein kyun zaroori hai?"
-    a: "ALMM (Approved List of Models and Manufacturers) MNRE ki list hai jisme quality-certified solar components listed hote hain. PM Surya Ghar subsidy ke liye ALMM-listed inverter mandatory hai. Non-ALMM inverter se subsidy nahi milegi. Khareedne se pehle MNRE website par model number verify karein."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Solar inverter kahan lagaya jaata hai?"
     a: "Solar inverter rooftop ke paas ya ghar ki deewar par lagaya jaata hai - usually chhaon mein ya indoor mein. Direct sunlight mein nahi lagana chahiye kyunki garmi se inverter overheat hota hai. IP65 ya IP66 rated inverter outdoor bhi laga sakte hain lekin shade preferred hai."
   - q: "Solar inverter ki cost kitni hoti hai?"
@@ -33,13 +33,17 @@ faqs:
     a: "MPPT (Maximum Power Point Tracker) panels se maximum power nikalta hai. Single MPPT inverter mein ek string hoti hai - sabhi panels ek direction mein hone chahiye. Dual MPPT mein do independent strings hain - do alag alag rooftop directions par panels laga sakte hain. Mixed shading ya complex rooftop ke liye dual MPPT behtar hai."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।
+
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 Solar inverter kisi bhi solar system ka sabse important component hai, lekin ise sabse kam samjha jaata hai. Panels ki charcha hoti hai, subsidy ki baat hoti hai, lekin inverter ko bahut kam attention milti hai. Yahi wajah hai ki bahut se log galat inverter khareed lete hain. Is guide mein solar inverter ke baare mein poori jaankari, kya hai, kaise kaam karta hai, kitne type hain, aur [ghar ke liye](/blog/ghar-ke-liye-solar-inverter-size-hindi/) kaun sa sahi hai.
 
 > **TL;DR**
 > - Solar inverter panels ki DC electricity ko 230V, 50Hz AC mein convert karta hai jo ghar ke appliances use karte hain
 > - Teen main types hain: on-grid (battery nahi, sabse affordable, power cut mein [band ho](/blog/solar-inverter-band-ho-jaye-kya-karein/) jaata hai), hybrid (battery ke saath, power cut mein chalta rehta hai), off-grid (grid-independent, badi battery bank)
 > - Good quality inverter 97-98.5% efficiency deliver karta hai - 2% ka difference 3 kW system mein mahine ka ~14.4 kWh extra generation matter karta hai
-> - PM Surya Ghar subsidy ke liye ALMM Phase III listing mandatory hai, non-ALMM inverter se subsidy reject ho jaati hai
+
 > - IP65 minimum, IP66 better - India ke monsoon aur dust ke liye zaroori protection level hai
 > - Achha inverter 10-15 saal chalta hai (5-12 saal warranty ke saath), jabki panels 25 saal chalte hain
 
@@ -164,14 +168,10 @@ India mein monsoon aur dust ke liye minimum IP65, better IP66. Bihar, Bengal, Ke
 
 ## ALMM Certification: PM Surya Ghar Ke Liye Mandatory
 
-ALMM (Approved List of Models and Manufacturers) MNRE ki certified products ki list hai. PM Surya Ghar subsidy ke liye ALMM-listed inverter aur panels dono mandatory hain.
-
 **ALMM verification kaise karein:**
 1. [MNRE ALMM Portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} par jaayein
 2. Inverter brand aur model number search karein
-3. ALMM Phase III mein listing confirm karein
-
-Non-ALMM inverter se subsidy nahi milegi, yeh subsidy ka sabse common reason for rejection hai.
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
 
 ## Inverter Monitoring: App Se Kaise Track Karein
 
@@ -226,7 +226,6 @@ India ka climate solar inverters ke liye challenging hai:
 
 ## Common Inverter Mistakes Jo Avoid Karein
 
-- **Cheap uncertified inverter lena**: Short warranty, no ALMM, no subsidy
 - **Over-sizing**: 10 kW system 2 kW load ke liye, inefficient, expensive
 - **Under-sizing**: System chhota, panels ka full potential waste
 - **Indoor mein kharaab ventilation**: Overheating, reduced life
@@ -236,15 +235,11 @@ India ka climate solar inverters ke liye challenging hai:
 
 ## Qbits Inverter Ki Khaasiyat
 
-Qbits TLS series on-grid inverters ALMM Phase III listed hain, PM Surya Ghar subsidy ke liye fully compliant. India-tuned firmware 150-270V input range handle karta hai jo Indian grid fluctuations ke liye specifically designed hai. IP66 protection India ke monsoon season ke liye. 12-year full replacement warranty sabse lambi warranty tier mein aati hai.
-
 - **[On-Grid Inverters](/on-grid-inverter/)**: PM Surya Ghar subsidy ke saath best ROI
-- **[Hybrid Inverters](/hybrid-inverter/)**: Power cut areas ke liye battery-ready solution
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review the current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Apne roof ke liye exact sizing
 
 [IRENA ke India solar report](https://www.irena.org/){target="_blank" rel="noopener"} ke anusaar, India mein residential solar adoption sabse tez growing segment hai 2025-26 mein. Sahi inverter choose karna is growth ka sabse important step hai.
-
-Sahi inverter selection ke liye [Qbits engineer se baat karein](/contact-us/), apne area, bill amount, aur roof size ke saath. Free consultation se aap Rs 20,000 se Rs 50,000 tak ki galat investment se bach sakte hain.
 
 MPPT ka matlab aur uska asar samajhne ke liye padhein [MPPT kya hota hai](/blog/mppt-kya-hota-hai/).
 
@@ -256,11 +251,9 @@ Understanding the brand landscape helps you make an informed choice. Aap Heaven 
 
 **Indian manufacturers:** Luminous, UTL, Sukam, Microtek, strong distribution network, good service in Tier 2 and Tier 3 cities, warranty 2-5 years standard.
 
-**International brands (India operations):** Growatt, Sungrow, Deye, GoodWe, higher efficiency models, 5-10 year warranty, ALMM Phase III listed most models.
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
 
-**Premium Indian brand:** Qbits, 12-year full replacement warranty, ALMM Phase III, IP66, India-grid-tuned firmware, 72-hour RMA SLA.
-
-The right brand depends on your service requirements, budget, and warranty preference. For PM Surya Ghar subsidy, ALMM Phase III listing is non-negotiable, verify before choosing.
+MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check inverter certificates and DISCOM requirements separately.
 
 [Top 10 solar inverter brands India 2026](/blog/top-10-solar-inverter-brands-india-2026/), detailed brand analysis with market share data.
 

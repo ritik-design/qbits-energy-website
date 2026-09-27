@@ -294,8 +294,6 @@ EV chargers are the gateway to electric mobility, with Indian standards spanning
 
 ## Need solar-integrated EV charging?
 
-QBits Energy designs and installs solar carports and rooftop solar systems integrated with smart EV chargers for residential and commercial customers across India.
-
 ## Further reading
 
 For how EV Charger plays out in real projects, these guides go deeper:

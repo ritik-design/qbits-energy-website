@@ -33,6 +33,8 @@ faqs:
 featured: false
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Most Indian solar businesses do not have a software problem. They have a stack problem. There is usually something for design, something else for quotes, a CRM the sales team half-uses, a spreadsheet holding the ALMM list, another spreadsheet holding [DISCOM](/glossary/discom/) tariffs, and a WhatsApp group doing the actual coordination. Each piece works. Nothing connects, so the same customer and the same system get re-entered five times between enquiry and commissioning, and every re-entry is a chance for the quoted design and the installed one to drift apart. This guide covers what the stack actually has to do in India, which parts are genuinely India-specific, and where teams reliably overspend.
 
 > **TL;DR**
@@ -66,8 +68,6 @@ This page covers the category as a whole. For the tool-by-tool comparisons see o
 | Monitoring | Post-commissioning performance and service | Standalone, connects to the installed base |
 
 > **The distinction that saves money.** Integration is worth paying for where one system's output is another's input. It is not worth paying for where two systems merely need to exchange a record occasionally. Design and proposals sit firmly in the first case. CRM and monitoring sit in the second, which is why buying an all-in-one suite to get a mediocre CRM bundled with a good design tool is usually a bad trade.
-
-The category most Indian teams underinvest in is not on the sales side at all. It is the handoff from approved proposal into procurement and execution. That is where a module specified as ALMM-listed becomes a different module at the warehouse, where the inverter ordered does not match the one in the single-line diagram, and where the as-built quietly stops matching the document the customer signed.
 
 ## What Is Genuinely India-Specific
 
@@ -176,4 +176,4 @@ Indian solar software is a stack decision, and most businesses get the sequencin
 - **Integrate design and proposals, connect everything else.** The quote derives from the engineering, so a gap between them is where errors enter.
 - **Insist on the India logic being in the tool.** ALMM, PM Surya Ghar bands, DISCOM tariffs and IS code in spreadsheets is unpaid work that eventually costs a rejection.
 - **Defer the modules your pipeline does not need yet.** Buying the full suite early is the most common overspend in the market.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring an Indian address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

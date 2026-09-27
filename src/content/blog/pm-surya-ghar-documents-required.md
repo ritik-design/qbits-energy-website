@@ -37,6 +37,8 @@ faqs:
     a: "Yes. After your empanelled vendor completes installation, you must upload two additional documents through the portal: the installation completion certificate issued by the vendor, and a photograph of the installed system showing the roof, panels, and inverter label. Some DISCOMs also require the net metering inspection report before releasing the subsidy. This post-installation document set triggers the final subsidy disbursal to your bank account, typically within 30 days of verification."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every week, thousands of homeowners register on the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) portal only to stall at the document upload stage, or worse, receive a rejection letter weeks later because one certificate was missing or a name did not match. The paperwork requirement is not complicated once you understand what the scheme actually verifies, but the portal gives very little guidance. This guide builds the complete document checklist for 2026, explains why each document is required, and tells you exactly which mistakes cause the most rejections.
 
 > **Direct answer.** [PM Surya Ghar](/glossary/pm-surya-ghar/) documents required are: Aadhaar card (with linked mobile for OTP), recent electricity bill in your name, PAN card, bank account passbook or cancelled cheque, property ownership proof, and passport-size photographs. After installation, you also submit the vendor's completion certificate and a photograph of the installed system. All names must match exactly across all documents.
@@ -189,15 +191,9 @@ Some applicants waste days chasing documents that are not actually required. The
 
 ## Where Qbits Fits in Your PM Surya Ghar Journey
 
-The document submission is one part of a longer journey. After DISCOM approval, you select an empanelled vendor and choose your solar system. This is where your inverter choice directly affects the subsidy outcome: the system must use [ALMM-listed](/glossary/almm-list/) components (including the inverter) for the subsidy to be disbursed.
-
-Qbits inverters carry BIS, IEC, and ALMM Phase III compliance, as verified on the [MNRE ALMM List](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}, making them eligible for PM Surya Ghar subsidy projects without any documentation exceptions. Three pages worth bookmarking as you evaluate your system:
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series, ALMM-listed and subsidy-eligible across all states.
 - **[PM Surya Ghar Eligibility Guide](/blog/pm-surya-ghar-eligibility/)**: Confirms whether your connection type, state, and roof size qualify.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Find empanelled Qbits-certified installers near your pincode.
 
-Once your documents are in order and your empanelled vendor is selected, [talk to a Qbits engineer](/contact-us/) to confirm your system size, check ALMM compliance for the chosen components, and get a written quote that includes the subsidy deduction, so you pay only the net amount upfront.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 ## Final Submission Checklist Before You Click "Submit"
 

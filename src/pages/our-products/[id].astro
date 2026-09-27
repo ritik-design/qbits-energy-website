@@ -24,14 +24,13 @@ const categoryLabel = isOnGrid ? 'On-Grid' : 'Hybrid';
 const SITE = 'https://qbitsenergy.com';
 const productUrl = `${SITE}/our-products/${product.id}/`;
 
-// '12 Years' -> '12-year warranty', so the meta copy reads as a sentence.
-const warrantyPhrase = `${product.warranty.replace(' Years', '-year')} warranty`;
+const warrantyPhrase = 'model-specific written warranty terms available on request';
 
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: product.name,
-  description: `${product.name} - ${categoryLabel} solar inverter from Qbits Energy. ${product.efficiency} efficiency, ${product.mppt} MPPT, and a ${warrantyPhrase}.`,
+  description: `${product.name} - ${categoryLabel} solar inverter from Qbits Energy. ${product.efficiency} efficiency, ${product.mpptLabel}, and a ${warrantyPhrase}.`,
   sku: product.id,
   mpn: product.id,
   url: productUrl,
@@ -61,7 +60,7 @@ const breadcrumbSchema = {
 
 <Layout
   title={`${product.name} | Qbits Energy`}
-  description={`${product.name} - ${categoryLabel} solar inverter with ${product.efficiency} efficiency, ${product.mppt} MPPT, and a ${warrantyPhrase}.`}
+  description={`${product.name} - ${categoryLabel} solar inverter with ${product.efficiency} efficiency, ${product.mpptLabel}, and a ${warrantyPhrase}.`}
   canonical={`/our-products/${product.id}/`}
   ogImage={`/og/product-${product.id}.webp`}
 >
@@ -111,7 +110,7 @@ const breadcrumbSchema = {
                 <p class="text-[10px] text-slate-400 uppercase tracking-wider mt-1">Efficiency</p>
               </div>
               <div class="bg-slate-50 rounded-xl p-4 text-center">
-                <p class="text-2xl font-bold text-brand-600">{product.mppt}</p>
+                <p class="text-2xl font-bold text-brand-600">{product.mpptLabel}</p>
                 <p class="text-[10px] text-slate-400 uppercase tracking-wider mt-1">MPPT</p>
               </div>
               <div class="bg-slate-50 rounded-xl p-4 text-center">
@@ -185,7 +184,7 @@ const breadcrumbSchema = {
                   ['Phase', product.phase === 'single' ? 'Single Phase' : 'Three Phase'],
                   ['Power Range', `${product.powerMin}-${product.powerMax}${product.powerUnit}`],
                   ['Max Efficiency', product.efficiency],
-                  ['MPPT', `${product.mppt} (${product.mpptLabel})`],
+                  ['MPPT', product.mpptLabel],
                   ['DC Voltage Range', product.voltageRange],
                   ['AC Frequency', product.frequency],
                   ['Protection Rating', product.protection],
@@ -275,7 +274,7 @@ const breadcrumbSchema = {
                   <span class="text-xs text-slate-400 font-mono">{r.id}</span>
                 </div>
                 <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-1">{r.name}</h3>
-                <p class="text-sm text-slate-500">{r.powerMax}kW | {r.efficiency} | {r.mppt} MPPT</p>
+                <p class="text-sm text-slate-500">{r.powerMax}kW | {r.efficiency} | {r.mpptLabel}</p>
               </a>
             ))}
           </div>

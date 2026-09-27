@@ -188,13 +188,11 @@ A general rural-property setup, rather than a livestock one, is covered in [sola
 
 ## Where Qbits Fits
 
-Poultry farms need an inverter system built for continuous duty, not the intermittent use profile of a residential solar installation. Qbits hybrid inverters with IP66 enclosures are designed for industrial operating environments, including the dusty, high-humidity conditions of poultry sheds.
+Poultry ventilation is safety-critical and should not depend on an unverified monitoring feature or warranty assumption. For the exact Qbits model, confirm battery compatibility, backup output, alarm signals, communications path and transfer behaviour. Use independent alarms and a tested backup procedure where loss of ventilation could harm animals.
 
-The 12-year full replacement warranty ensures the inverter is covered through the primary payback period. AI WhatsApp monitoring sends alerts to the farm manager's phone when battery state of charge drops below the configured threshold, providing advance warning of impending ventilation risk.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HT series with battery-backed switchover for uninterrupted ventilation load continuity.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[On-Grid Inverters](/on-grid-inverter/)**: for large farms where on-grid capacity supplements hybrid core.
 - **[Battery Sizing Calculator](/blog/solar-battery-backup-calculator/)**: calculate ventilation load battery backup for your flock size.
-- **[Authorised Service Partners](/authorized-service-partners/)**: 280+ city service network for 72-hour response anywhere in India.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
-[Request a poultry farm solar assessment](/contact-us/), Qbits engineers design for ventilation continuity as the primary constraint, not just grid savings. Most commercial proposals are delivered within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

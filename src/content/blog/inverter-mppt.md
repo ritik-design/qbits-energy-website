@@ -35,7 +35,7 @@ A poorly matched MPPT setup can quietly drain **10–15% of annual energy yield*
 > - Weighted average MPPT tracking efficiency should sit above 98%, with peak efficiency at 99% or higher; the gap between 97% and 99.5% compounds into significant lost generation over 25 years.
 > - Global MPPT (versus standard MPPT) recovers 5–8% of annual yield on partially shaded Indian rooftops, which are nearly universal in urban layouts.
 > - Recommended DC:AC oversizing for Indian conditions runs 1.2 to 1.4, and per-channel monitoring is essential to catch soiling or wiring faults before they cost months of yield.
-> - A 12-year full replacement warranty on the MPPT and power stage is a stronger reliability signal than a bare BIS/IEC certification, which is a compliance floor, not a performance ceiling.
+> - A model-specific written warranty on the MPPT and power stage is a stronger reliability signal than a bare BIS/IEC certification, which is a compliance floor, not a performance ceiling.
 
 ## What Is Inverter MPPT and Why It Matters
 
@@ -162,8 +162,6 @@ Even the best MPPT can underperform due to soiling, connection degradation, or p
 - **Remote diagnostics** to avoid unnecessary site visits
 
 ### AI-Powered WhatsApp Monitoring
-
-Qbits inverters feature an **AI-powered WhatsApp monitoring system** that pushes real-time performance alerts directly to installers and end-users via WhatsApp, uniquely suited to the Indian market where WhatsApp is the dominant business channel. The system supports Wi-Fi, 4G, and Bluetooth for reliable data even from remote sites; see [how WhatsApp monitoring works](/blog/whatsapp-solar-monitoring/) for the full setup.
 
 ## 8. MPPT Warranty and Long-Term Reliability
 

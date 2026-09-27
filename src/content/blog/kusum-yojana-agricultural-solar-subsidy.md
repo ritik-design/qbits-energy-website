@@ -35,6 +35,10 @@ faqs:
     a: "Under Component B, from application submission to pump installation, the typical timeline is 60 to 120 days. This includes state agency verification (15–30 days), bank loan processing (20–45 days), vendor assignment and equipment procurement (15–30 days), and installation (3–5 days). Component A timelines are longer - 6 to 18 months from land registration to commissioning, because land aggregation, DISCOM PPA negotiation, and tender award take significant time. Component C varies by state and DISCOM, ranging from 90 days to over a year for feeder-level projects."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every year, Indian farmers spend an estimated ₹70,000 crore on diesel to power agricultural pumps, money that leaves farm budgets, pollutes village air, and funds fuel imports. PM-KUSUM Yojana (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan) is the Government of India's answer: a scheme that turns every diesel pump into a potential solar asset and every patch of barren farm land into a power generation site, with 60% of the capital cost covered by central and state subsidies.
 
 Launched in March 2019 by [MNRE](/glossary/mnre/), KUSUM targets 35 GW of solar capacity in agriculture by 2026. It is one of the largest agricultural solar programmes in the world by target capacity, and one of the most complex, because it operates across three distinct components that serve three entirely different farmer needs. Understanding which component applies to your situation is the difference between a smooth application and months of confusion.
@@ -47,7 +51,7 @@ The [KUSUM scheme](/glossary/kusum/) sits alongside but entirely separate from [
 > - KUSUM has three components: Component A (solar plants on barren land), Component B (standalone off-grid pumps), and Component C (solarisation of grid-connected pumps).
 > - Under Component B, the farmer pays only 10% of pump cost upfront; central and state governments each cover 30%, and a bank loan covers the remaining 30%.
 > - There is no income ceiling or minimum acreage; farmers, FPOs, water user associations, and panchayats are all eligible.
-> - ALMM-listed panels and inverters are mandatory for subsidy eligibility across all three components.
+
 > - Applications go through state nodal agencies (RREC, MEDA, GEDA, PEDA, UPNEDA, etc.), not a central portal, unlike [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy)'s pmsuryaghar.gov.in.
 > - Component B leads implementation at 24% of its 14-lakh-pump target, while Component A (7%) and Component C (4%) lag well behind.
 
@@ -187,8 +191,6 @@ KUSUM is emphatically a state-level scheme. There is no single national applicat
 
 5. **Bank loan processing**: If applying for the bank-financed 30%, the farmer approaches an empanelled bank (NABARD, SBI, Bank of Baroda, or state cooperative banks) with the provisional approval letter. The bank processes the loan, typically in 20 to 45 days. Loan disbursement goes directly to the vendor, not the farmer.
 
-6. **Vendor assignment and equipment selection**: The state nodal agency either assigns a vendor from an empanelled list or allows the farmer to choose from the list. ALMM-listed solar panels and inverters are mandatory. The vendor installs the pump system within 15 to 30 days of material procurement. For farmers weighing whether to pursue a KUSUM plant through a state tender or a privately commissioned Component A project, reviewing how a turnkey solar EPC company scopes a rural ground-mount project gives a useful benchmark for what full-service installation should include.
-
 7. **Commissioning and subsidy claim**: After installation, the vendor submits a commissioning report. The state nodal agency verifies and triggers subsidy disbursement to the vendor (for the subsidy portions) and activates the bank loan for the farmer's loan portion.
 
 ## State-by-State KUSUM Implementation: Where It Works Best
@@ -227,7 +229,7 @@ A significant percentage of farmers who approach state offices for "solar subsid
 | **Subsidy structure** | Up to ₹78,000 central subsidy (flat) | 60% capex (30% central + 30% state) + 30% bank loan |
 | **Application portal** | National: pmsuryaghar.gov.in | State-level: RREC, MEDA, GEDA, PEDA, UPNEDA, etc. |
 | **Net metering** | Mandatory for subsidy; surplus sold to DISCOM | Only for Component C; Component B is off-grid |
-| **Equipment mandate** | ALMM-listed inverter and panels required | ALMM-listed equipment required |
+
 | **Farmer eligibility** | Only if farmer has a residential DISCOM connection | As farmer, FPO, panchayat, or water user association |
 | **Scheme administrator** | MNRE via DISCOMs | MNRE via state nodal agencies |
 
@@ -281,7 +283,7 @@ State nodal agency officers report that the same cluster of errors causes most a
 
 - **Applying on the wrong component**: The single most common mistake. A farmer with a grid-connected pump applying under Component B (standalone) will be rejected because Component B requires a non-grid-connected diesel pump. Match the component to your situation using the KUSUM Component Match framework above before approaching the state office.
 - **Using a non-empanelled vendor**: Only vendors on the state nodal agency's empanelled list can execute KUSUM installations. Using an outside vendor (even a highly reputable one) means the subsidy claim is void. Verify empanelment on the state portal before signing any vendor agreement.
-- **Non-ALMM equipment**: [ALMM-listed](/glossary/almm-list/) solar panels and inverters are mandatory for subsidy eligibility. Vendors sometimes substitute cheaper non-ALMM alternatives after the contract is signed. Verify model numbers against the MNRE ALMM list yourself at the time of delivery, not just during the application.
+
 - **Land record mismatches**: If the khasra number or owner name on your land records does not exactly match the application, the verification fails. Ensure all land documents are updated and consistent before submitting. This is especially common for inherited land not yet transferred in official records.
 - **Applying through the central MNRE website**: MNRE does not accept individual KUSUM applications. The central resource page provides information and contacts; actual applications go to state portals. Applying to a wrong channel wastes weeks.
 - **Ignoring the bank empanelment requirement**: The 30% bank loan must come from a bank on the state nodal agency's empanelled list. Approaching a non-empanelled bank (even a nationalised one) results in the loan not being counted as part of the KUSUM financing structure, which delays subsidy disbursement.
@@ -297,9 +299,6 @@ The Approved List of Models and Manufacturers ([ALMM](/glossary/almm-list/)) req
 Under KUSUM, the ALMM requirement covers two equipment categories:
 
 1. **Solar PV modules (panels)**: The specific module model and wattage must be on the MNRE ALMM panel list. The list is updated quarterly.
-2. **Solar pumping inverters**: For Components B and C, the inverter or pump controller must be on the MNRE ALMM inverter list. Variable frequency drives (VFDs) used in solar pump systems must also meet MNRE's technical specifications.
-
-For Component A plants, ALMM applies to the ground-mounted plant's modules and string inverters exactly as it would for a utility project.
 
 Why does ALMM matter beyond subsidy eligibility? Equipment on the ALMM list has been independently tested against MNRE's technical specifications. For a solar pump running in a remote field with minimal oversight, quality is not an abstract concern, a failed pump controller in June during the Kharif season means crops fail, not just inconvenience. The quality floor that ALMM establishes protects real agricultural outcomes, not just government accounting.
 
@@ -308,8 +307,6 @@ Why does ALMM matter beyond subsidy eligibility? Equipment on the ALMM list has 
 2. Cross-check each item on the live ALMM list at [mnre.gov.in](https://mnre.gov.in/) (under the ALMM section).
 3. Confirm the listing is active in the current quarterly revision, expired listings do not count.
 4. Photograph the equipment labels on delivery day and compare model numbers before installation begins.
-
-For a broader understanding of Indian solar certifications beyond ALMM (including BIS, IEC, and CEA compliance) the [solar inverter certifications guide](/blog/solar-inverter-certifications/) explains the full compliance stack that premium inverter manufacturers must maintain.
 
 The economics of KUSUM also intersect with [net metering](/glossary/net-metering/) for Component C farmers who sell surplus power to the DISCOM. Understanding how net metering credits accumulate and how year-end settlements work is important for farmers planning their annual income from surplus solar. The [net metering India complete guide](/blog/net-metering-india-complete-guide/) covers the state-wise regulations governing agricultural [feed-in tariff](/glossary/feed-in-tariff/) settlements.
 
@@ -337,21 +334,13 @@ For farmers who have already installed KUSUM systems and are thinking about the 
 
 ## Where Qbits Fits in KUSUM Installations
 
-Farmers and EPC contractors executing KUSUM installations need equipment that is ALMM-listed, MNRE-specification compliant, and genuinely durable in agricultural environments, dusty fields, remote locations, outdoor mounting, minimal supervision. These are not the same as urban rooftop requirements.
-
-Qbits Energy inverters are ALMM-listed and designed specifically for Indian grid and weather conditions. The IP66 weather protection rating (tested against dust ingress and water jets) is directly relevant for Component C agricultural pump installations where the inverter is mounted outdoors near a pump shed in a field. A standard IP54 or IP65 inverter degrades faster in agricultural environments; IP66 is the appropriate specification for dusty, monsoon-exposed field locations.
-
-The 12-year full replacement warranty Qbits provides covers the operational risk that matters most in agricultural solar: inverter failure during the Kharif season cannot wait 30 days for a replacement. The under-72-hour RMA SLA backed by [authorised service partners](/authorized-service-partners/) means a field inverter failure triggers a rapid response through a national service network, not a long wait for an imported part.
+Farmers and EPC contractors executing KUSUM installations must verify the current component guidelines, implementing-agency process, module/cell requirements and approved equipment package. MNRE's ALMM page is not an inverter list. Agricultural sites also need project-specific checks for dust, temperature, mounting, supervision and service access.
 
 Three Qbits resources worth bookmarking if you are planning a KUSUM installation:
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: The TLS and TLD series are ALMM-listed, BIS-certified, and grid-tuned for agricultural feeder environments. Relevant for Component C individual pump solarisation and Component A plant inverters.
-- **[Hybrid Inverters](/hybrid-inverter/)**: The HS and HT series provide battery-ready operation for farm buildings that need backup power alongside Component B pump systems. Useful when a farmer installs solar for a pump but also wants to power farm storage, lighting, or processing equipment.
-- **[Why Qbits](/why-qbits/)**: The full case for India-made, India-warranted inverters: 12-year warranty, IP66, AI-powered WhatsApp monitoring, 98% peak efficiency, and a service network that functions in Tier-2 and Tier-3 locations where most agricultural solar is installed.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 
-"Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone."
-
-For farmers and project developers planning KUSUM Component A or C installations who want to verify ALMM compliance, system sizing, or inverter specifications before committing to a design, [talk to a Qbits engineer](/contact-us/). Agricultural solar sizing has unique requirements, pump load profiles, VFD compatibility, and agricultural feeder voltage conditions differ from residential installations, and getting the specification right before procurement saves months of rework.
+Qbits manufacturing origin, KUSUM acceptance, service coverage and response time are not established until the responsible owners provide current project and sale documents.
 
 ## Comparing Diesel, Grid Power, and KUSUM Solar: The Full Picture
 

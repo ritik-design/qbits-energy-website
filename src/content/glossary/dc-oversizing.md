@@ -231,8 +231,6 @@ DC oversizing connects more PV than inverter AC rating, raising yield and reduci
 
 ## Need DC oversizing optimisation for your solar project?
 
-QBits Energy designs solar plants with PVsyst-optimised DC/AC ratios for residential, C&I and utility applications across Indian regions.
-
 ## Further reading
 
 For how DC Oversizing plays out in real projects, these guides go deeper:

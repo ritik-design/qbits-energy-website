@@ -28,10 +28,14 @@ faqs:
   - q: "Solar inverter generation अचानक कम हो गई - क्यों?"
     a: "Low generation के कारण: Panels पर dust/bird droppings, partial shading (new construction nearby), inverter MPPT issue, one string offline, panel degradation, monitoring app glitch। Panels physically check करें, shadows देखें। Actual generation data app से check करें।"
   - q: "Solar inverter warranty claim कैसे करें?"
-    a: "Warranty claim process: (1) Vendor को call करें - describe fault, (2) Vendor technician visit, (3) Fault confirmed, vendor manufacturer को claim, (4) Replacement part या unit ship, (5) Installation। Premium brands 72-hour replacement SLA देते हैं। Warranty document और purchase receipt ready रखें।"
+    a: "Warranty claim process: (1) Vendor को call करें - describe fault, (2) Vendor technician visit, (3) Fault confirmed, vendor manufacturer को claim, (4) Replacement part या unit ship, (5) Installation। Premium brands written replacement process देते हैं। Warranty document और purchase receipt ready रखें।"
   - q: "कब खुद fix कर सकते हैं और कब professional चाहिए?"
     a: "खुद कर सकते हैं: Dust clean करना, ventilation check करना, AC breaker reset करना, DC isolator check करना, monitoring app reconnect करना। Professional चाहिए: Internal fault, ground fault, burning smell, physical damage, any error code that doesn't self-clear, wiring issues।"
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।
+
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
 
 Solar inverter बंद हो जाए तो panic न करें। ज्यादातर cases में कारण simple होते हैं और खुद troubleshoot किए जा सकते हैं। Serious faults में professional चाहिए - लेकिन पहले basic checks। इस guide में systematic troubleshooting process है।
 
@@ -41,11 +45,8 @@ Solar inverter बंद हो जाए तो panic न करें। ज�
 > - Error code note करें - Grid Voltage/Frequency errors अक्सर self-clear होते हैं, ground fault और insulation error के लिए vendor चाहिए।
 > - Overheating rokne के लिए inverter को shade में रखें और ventilation clearance ensure करें।
 > - Burning smell, ground fault या physical damage दिखे तो तुरंत DC isolator off करके vendor को call करें।
-> - Qbits inverters पर 72-hour RMA SLA है - fault confirm होने के बाद replacement उतनी जल्दी मिलता है।
 
 > **Safety first।** कोई भी internal wiring न छुएँ। Electrical shock fatal हो सकता है। Basic visual checks और switches (यही खुद करें। Internal components) हमेशा certified technician से।
-
-[MNRE की quality guidelines](https://mnre.gov.in/){target="_blank" rel="noopener"} के अनुसार, ALMM-listed inverters में auto-protection features होते हैं जो faults पर automatically shut down करते हैं - यह safety feature है, panic की बात नहीं।
 
 ## Pehle: Basic Reality Check
 
@@ -248,23 +249,18 @@ Beeping patterns और meanings:
 
 [Solar annual maintenance checklist](/blog/solar-annual-maintenance-checklist-india/), complete preventive maintenance guide। Iss guide ke aage bhi common problems face ho rahe hain toh [solar inverter troubleshooting, 15 common problems](/blog/solar-inverter-troubleshooting/) mein broader coverage hai।
 
-## Qbits Support: Agar Inverter Qbits Ka Hai
-
-Qbits TLS series और HS series के लिए:
-
-- **72-hour RMA SLA**: Fault confirmed से 72 घंटे में replacement - full [72-hour action plan](/blog/solar-inverter-failure-action/) यहाँ देखें
+- **written RMA process**: Fault confirmed से 72 घंटे में replacement - full [72-hour action plan](/blog/solar-inverter-failure-action/) यहाँ देखें
 - **Phone support**: Error code diagnosis phone पर
 - **Service network**: [Authorized service partners](/authorized-service-partners/) India-wide
 
-Premium warranty का value वहाँ दिखता है जब fault आती है - 12-year full replacement warranty मतलब cost नहीं, inconvenience नहीं।
+Premium warranty का value वहाँ दिखता है जब fault आती है - model-specific written warranty मतलब cost नहीं, inconvenience नहीं।
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: 12-year warranty, ALMM Phase III
 - **[Hybrid Inverters](/hybrid-inverter/)**: Power cut solutions with battery
 - **[Solar inverter warranty guide](/blog/solar-inverter-warranty/)**: Warranty terms explained
 
 According to [Mercom India service data](https://www.mercomindia.com/){target="_blank" rel="noopener"}, solar inverter service response time सबसे important post-sale metric है - brands जो 72 hours में respond करते हैं वो highest customer satisfaction देते हैं।
 
-कोई भी troubleshooting confusion है, या fault serious लग रही है - [Qbits engineer को call करें](/contact-us/)। Free diagnosis, no obligation।
+[Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 ## Diagnostic Data: Log Se Kaise Samjhein
 

@@ -280,8 +280,6 @@ AC coupling is the right architecture for retrofitting battery storage onto exis
 
 ## Need AC-coupled storage retrofit?
 
-QBits Energy designs and installs AC-coupled battery retrofits for existing rooftop solar systems across India.
-
 ## Further reading
 
 For how AC Coupling plays out in real projects, these guides go deeper:

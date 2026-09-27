@@ -66,6 +66,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is a PERC cell
 
 PERC, Passivated Emitter and Rear Contact, is a crystalline silicon solar cell architecture that adds a passivated dielectric layer at the rear of the cell. The layer serves two functions: it reflects unabsorbed light back into the silicon for a second chance at absorption, and it reduces the recombination of charge carriers at the rear surface. Together these effects raise cell open-circuit voltage and short-circuit current, lifting efficiency by 1 to 2 percentage points over standard back-contact cells.
@@ -265,10 +267,6 @@ Not auditing module IV curves at commissioning.
 ## Key takeaways
 
 PERC was the dominant solar cell architecture from 2017 to 2024 and remains a major installed base. The architecture added rear passivation to lift cell efficiency by 1 to 2 percentage points. TOPCon has progressively replaced PERC for new manufacturing capacity. For Indian solar projects through 2026, PERC remains a credible cost-effective choice; TOPCon is the future-proof option.
-
-## Need ALMM-listed PERC or TOPCon modules?
-
-QBits Energy supplies ALMM-listed PERC and TOPCon modules from leading Indian manufacturers, alongside our [on-grid inverters](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/), for [residential](/residential-solution/) and [C&I solar](/c-i-solution/) projects.
 
 ## Further reading
 

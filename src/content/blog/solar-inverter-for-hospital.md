@@ -32,10 +32,12 @@ faqs:
   - q: "Is net metering available for hospitals in India?"
     a: "Yes. Hospitals registered as commercial consumers are eligible for net metering under each state's SERC regulations, subject to the sanctioned load and distribution company (DISCOM) approval. Most states permit commercial net metering up to the sanctioned load capacity. Export tariffs vary from ₹2 to ₹4 per kWh depending on the state, and the annual settlement typically offsets the hospital's electricity bill directly. Hospitals with 24-hour operation and relatively flat consumption profiles tend to see better net metering economics than facilities with pronounced daytime demand peaks."
   - q: "What certifications should a hospital administrator verify before purchasing a solar inverter?"
-    a: "A hospital administrator should verify BIS certification (IS 16221 for grid-tied inverters), IEC 62109-1 and IEC 62109-2 for safety, IEC 61727 for grid connection characteristics, and ALMM Phase III listing from MNRE. Additionally, confirm that the inverter's THD specification at full load is below 3%, that the automatic transfer switch has a tested response time below 20 ms, and that the manufacturer can provide reference installations in healthcare facilities. A 12-year full replacement warranty - not a prorated or parts-only warranty - is the minimum acceptable for a life-safety adjacent installation."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How does solar affect a hospital's carbon reporting and ESG commitments?"
     a: "A 100 kW solar installation in India displacing grid power at an emission factor of 0.71 kg CO2/kWh ([CEA grid emission factor for the national grid](https://cea.nic.in/)) avoids approximately 57 tonnes of CO2 per year. Over the 25-year panel lifespan, this amounts to over 1,400 tonnes of avoided emissions. For hospitals pursuing NABH-Green or pursuing corporate ESG targets, documented solar generation data - exportable from the monitoring system - provides the audit trail needed for sustainability reports and third-party carbon assessments."
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Hospital administrators approaching a solar investment for the first time often frame the question the same way they would for a factory or a school: how many kilowatts, what is the payback, can the rooftop accommodate the panels? Those are reasonable starting points, but they miss the defining constraint of healthcare facilities, the fact that a power interruption in an operating theatre or an ICU is not merely an inconvenience. It is a clinical hazard.
 
@@ -184,8 +186,6 @@ Hospital solar projects fail (or create compliance exposure) most often because 
 
 **Mistake 4: Omitting DG coordination from the scope.** A solar inverter that anti-islands during DG startup leaves Tier 2 loads unpowered for the DG startup transient (30–90 seconds). This is not a theoretical risk, it is the most common failure mode reported during commissioning of hospital solar installations in India. Specify a DG-compatible inverter and commission the AMF coordination with the DG running.
 
-**Mistake 5: No redundancy in inverter configuration.** A single 100 kW inverter serving the entire non-critical load is a single point of failure. Two 50 kW inverters in parallel (or three 35 kW units) allow the facility to maintain partial solar generation even if one unit requires service. Qbits HS/HT series units support parallel operation, which is a procurement-ready solution for this requirement.
-
 For a broader discussion of how to evaluate vendor reliability before committing to a project of this scale, the [solar inverter reliability index](/blog/solar-inverter-reliability-index/) provides a scoring methodology applicable to hospital procurement decisions, and the [solar inverter manufacturers in India evaluation guide](/blog/solar-inverter-manufacturers-in-india/) covers the certification and warranty-infrastructure checks a procurement committee should run before shortlisting vendors.
 
 ## Financial Model: DG Displacement and IRR for a 100 kW Hospital Solar Installation
@@ -197,7 +197,7 @@ Assume a 100-bed private hospital in Pune, Maharashtra, with the following basel
 - Monthly grid consumption: 90,000 kWh
 - Applicable commercial tariff: ₹9.5 per kWh (Maharashtra commercial slab, 2026)
 - DG capacity: 200 kVA, running 1,800 hours per year at ₹22 per litre, consuming 60 litres/hour
-- Proposed solar: 120 kW DC array, 100 kW inverter capacity (two × 50 kW Qbits HS units)
+
 - Annual solar generation: 150,000 kWh (1,250 kWh/kWp at Pune's 5.0 peak sun hours)
 - Daytime grid displacement: 100,000 kWh/year (after self-consumption)
 - DG hours displaced: 700 hours/year (daytime peak shaving during grid outages)
@@ -235,14 +235,8 @@ The [solar inverter vs UPS](/blog/solar-inverter-vs-ups/) comparison covers the 
 
 ## Where Qbits Fits in a Hospital Solar System
 
-Hospitals evaluating the Qbits range for their non-critical and Tier 2 load zones will find a product stack designed for the reliability demands of continuous-operation facilities. Qbits hybrid inverters carry IP66 weather protection (critical for rooftop units exposed to monsoon ingress) a 12-year full replacement warranty that outlasts most hospital financial planning cycles, and [ALMM Phase III](/glossary/almm-list/) compliance that satisfies public-sector procurement norms for government hospitals.
+Hospital power systems are safety-critical. The retained Qbits documents do not establish universal AI, WhatsApp, energy-balance reporting or SCADA-replacement capability. The responsible hospital engineer must define monitoring, alarms, redundancy, isolation, transfer and power-quality requirements, then verify the exact equipment and integration design.
 
-The AI-powered WhatsApp monitoring platform allows facility managers and biomedical engineers to receive real-time generation alerts, fault notifications, and energy balance reports without installing a separate SCADA system. For hospitals with limited in-house electrical engineering capacity, this visibility reduces the risk of undetected inverter degradation affecting the building's power quality.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series from 5 kW to 100 kW+, DG-compatible with AMF contact input, supporting parallel operation for N+1 redundancy in hospital non-critical zones.
-- **[C&I Solar Solutions](/c-i-solution/)**: Engineered packages for commercial and institutional buyers including hospitals, with site survey, load classification, and compliance documentation as part of the scope.
-- **[Download Datasheets](/download-datasheets/)**: Full-load THD certificates, efficiency curves, and AMF wiring diagrams available for procurement committee review before any commercial commitment.
-
-Hospital procurement teams working on a 50–200 kW installation are encouraged to [contact a Qbits engineer](/contact-us/) early in the specification phase (before the EPC tender is issued) so that the load classification, inverter topology, and AMF integration details are correctly reflected in the RFP. Getting the specification right at the outset avoids the costly rework that occurs when a commissioning engineer discovers topology mismatches after the equipment has arrived on site.
-
-For a broader perspective on what makes a solar inverter certifiably fit for institutional use, the [solar inverter certifications](/blog/solar-inverter-certifications/) guide covers BIS, IEC, and ALMM requirements in detail. The [solar inverter sizing](/blog/solar-inverter-sizing/) article provides the step-by-step DC:AC ratio methodology referenced in the sizing section above.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[C&I Solar Solutions](/c-i-solution/)**: Ask which engineering or project services are available and obtain the responsible party, deliverables and exclusions in writing.
+- **[Download Datasheets](/download-datasheets/)**: Start with public model specifications, then request any THD evidence, efficiency curve or interface drawing required for the exact design.

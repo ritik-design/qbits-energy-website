@@ -172,4 +172,4 @@ South African compliance belongs at design stage, because that is where it is ch
 - **Enforce the kVA ceilings in the tool.** A limit discovered at submission has already cost engineering time and possibly a quoted price.
 - **Flag the 25 kVA threshold.** Crossing it adds professional sign-off, cost and programme, and it happens during ordinary scope growth.
 - **Model batteries on backup, not just payback.** Reliability is why they are bought and financial modelling alone misses the point.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a South African address, or reach the Qbits team [here](/contact-us/) for IEC 62619 compliant battery and inverter specification.
+

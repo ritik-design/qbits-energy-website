@@ -36,6 +36,8 @@ faqs:
 featured: false
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 A factory owner in Rajkot paying ₹9.20 per unit to the [DISCOM](/glossary/discom/) does not need to be convinced that solar works. The question is how to pay for it. A 100 kW rooftop plant costs ₹40 to ₹50 lakh installed in 2026. Most MSMEs would rather keep that cash in working capital than on the roof. That is exactly the gap a solar [loan](/blog/solar-ka-loan-hindi/) for business fills.
 
 India's business solar financing market has matured fast. Public sector banks run dedicated green loan products. SIDBI and IREDA offer concessional money for [MSME](/blog/group-captive-solar-msme/) energy projects. A new generation of NBFCs sanctions rooftop loans in days with the plant itself as security. And the CGTMSE guarantee scheme lets eligible micro and small enterprises borrow without pledging property at all.
@@ -152,7 +154,6 @@ Honest tradeoff: RESCO is not a bad product. For a profitable services firm in a
 2. **Ignoring CGTMSE.** Pledging property when a government guarantee would do. Always ask for the guarantee cover first.
 3. **Quoting the wrong tariff.** Using the headline slab rate instead of the blended landed cost from actual bills. That overstates savings and can flip the cash-flow sign.
 4. **Forgetting the O&M and insurance lines.** Budget 1 to 1.5 percent of plant cost per year for operations, maintenance, and insurance. Lenders increasingly ask for an O&M contract before sanction.
-5. **Buying the cheapest inverter to cut project cost.** Lenders and DISCOMs both care about plant quality. A failed inverter in year six wipes out a year of savings. The [inverter financing options guide](/blog/inverter-financing-options-in-india/) covers how equipment choice interacts with loan sizing. Specify ALMM-listed, long-warranty equipment in the DPR; it strengthens the loan file and the plant.
 
 ## How to Apply: Documents and Timeline
 
@@ -167,12 +168,9 @@ A clean file sanctions in 2 to 4 weeks at a bank or NBFC, and 4 to 12 weeks at S
 
 Two process tips from deals we have seen sanctioned faster. First, submit the DPR with a generation estimate from a recognised tool and P50 and P90 scenarios; credit officers trust conservative numbers more than optimistic ones. Second, apply in the first half of the financial year. Bank SME targets reset in April, and files move measurably faster between April and September than in the March rush.
 
-If the loan is for a plant in the 50 to 500 kW range, check the specified inverter carefully. It should be ALMM-listed and carry at least a 10-year warranty. Qbits C&I string inverters carry a 12-year full replacement warranty. That maps cleanly onto a 7 to 10 year loan tenure and removes equipment-replacement risk from the repayment period. Homeowners reading this can check [solar on EMI](/blog/solar-on-emi/) for the residential equivalent.
-
 ## Conclusion: The Bottom Line
 
 A solar loan for business in 2026 is cheap, available, and tax-advantaged. The cheapest money sits at SIDBI and IREDA. CGTMSE removes the collateral barrier for small enterprises. The depreciation-plus-interest stack means a profitable MSME recovers most of its equity inside the first year. RESCO remains the right answer for businesses without taxable profits or long roof tenure. The mistake is not picking the wrong option; it is running no numbers at all.
 
 - Pull 12 months of electricity bills and compute your real landed cost per unit; every downstream decision depends on that number.
 - Get three quotes: one DFI (SIDBI or IREDA), one bank under CGTMSE cover, and one NBFC, then compare total interest plus fees, not just rates.
-- Want a financed plant designed around your load profile, roof, and lender requirements? [Talk to a Qbits engineer](/contact-us/) and get a bankable project design with ALMM-listed, 12-year-warranty inverters.

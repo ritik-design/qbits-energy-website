@@ -203,7 +203,7 @@ This is a four-to-six week migration with no design downtime. The free 20-minute
 - **Choose OpenSolar** if your project mix is small residential and your priority is keeping fixed software cost near zero.
 - **Choose PVcase** if utility-scale terrain optimisation is your single biggest workflow constraint.
 
-For most teams running HelioScope today, the verdict is unchanged. SurgePV is the alternative that wins on simulation parity, workflow breadth, and per-seat price at the same time. See the full [HelioScope vs SurgePV comparison](https://surgepv.com/compare/helioscope-vs-surgepv/) for a feature-by-feature breakdown. Once the layout and financials are locked, EPCs sourcing [on-grid](/on-grid-inverter/) or [hybrid inverters](/hybrid-inverter/) for the C&I and utility jobs this comparison covers can [talk to a Qbits engineer](/contact-us/) for a spec-by-spec match against the simulation output.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 <div class="inline-cta">
 <h3>Ready to consolidate the design-to-proposal stack?</h3>

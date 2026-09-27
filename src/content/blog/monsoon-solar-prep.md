@@ -23,7 +23,7 @@ faqs:
   - q: "Is earthing the same as grounding for a solar system?"
     a: "In Indian electrical practice, earthing and grounding are used interchangeably, though IEC standards use 'earthing' for the connection of metallic parts to earth to prevent shock hazard, and 'grounding' more broadly. For a solar system, you need equipment earthing (mounting frames, inverter chassis, junction box enclosures all bonded to a common earth electrode) and DC functional earthing (where the system design requires it). Both must be verified before monsoon - lightning ground faults are the leading cause of inverter failure in thunderstorm-prone regions."
   - q: "Can I keep running my solar system during monsoon or should I switch it off during thunderstorms?"
-    a: "Keep the system running during ordinary rain - modern on-grid inverters with good IP ratings and proper SPD protection handle wet weather without issue. During an active thunderstorm with lightning nearby, it is prudent to isolate the DC disconnect and AC breaker until the storm passes. This is particularly important if your system lacks a properly rated SPD or if the earthing continuity has not been verified recently. Qbits inverters with IP66 and built-in SPD slots handle rain safely; lightning is the variable that requires human judgement."
+    a: "A grid-connected system is designed to keep running through ordinary monsoon weather, and it disconnects itself automatically when the grid goes down. The judgement call is a severe electrical storm. The conservative practice is to isolate the AC and DC sides using the procedure in your inverter manual, since surge protection reduces risk rather than eliminating it. Two safety rules matter more than generation. Never work on a wet roof, and never open an inverter enclosure. If you suspect water ingress or you smell burning, isolate the system if you can do so safely and call your installer instead of restarting it."
   - q: "How much does monsoon cloud cover reduce solar generation in India?"
     a: "Cloud cover during Indian monsoon typically reduces generation by 40–70% compared to summer peak output, depending on region. Kerala and the Western Ghats see the steepest drops, while Rajasthan and Gujarat maintain relatively higher irradiance even in July and August. In practical terms, a 5 kW system generating 22–25 units per day in May may generate only 8–13 units per day during peak monsoon weeks. Setting up monitoring alerts before monsoon lets you distinguish expected cloud-cover dips from genuine fault-related drops."
   - q: "What happens to net metering export credits during monsoon?"
@@ -40,15 +40,6 @@ updatedDate: 2026-07-08
 June arrives with a familiar rhythm in India: the humidity climbs, the sky thickens, and within days the southwest monsoon announces itself along the Kerala coast before marching north. For the roughly 10 million Indian homes now running on solar, this seasonal shift carries a specific engineering implication, the same rain that breaks summer heat also brings cloud cover, lightning, driving water, and weeks of reduced irradiance that can mask genuine faults as ordinary weather.
 
 The homeowner who prepared nothing may not notice a problem until the electricity bill in September looks wrong. The homeowner who worked through a structured pre-monsoon checklist arrives at October with a verified, clean system and a monitoring baseline that separates cloud-cover dips from actual equipment failures.
-
-> **Direct answer.** Monsoon solar prep for Indian homes covers 10 priority tasks: panel inspection for micro-cracks and soiling, inverter IP rating verification, earthing continuity check, MC4 connector waterproofing, junction box seal inspection, string voltage measurement, SPD testing, monitoring alert configuration, tree trimming, and mounting frame structural check. Systems with IP66 inverters and verified earthing require the least corrective work; IP21/IP44 inverters installed in semi-open locations are the highest-risk items. The Qbits 10-Point Monsoon Readiness Protocol below organises these tasks in priority order.
-
-> **TL;DR**
-> - Four hazards concentrate during June–September: lightning (2,500+ deaths/year nationally), driving rain into IP21/IP44 enclosures, sustained cloud cover that masks genuine faults as weather, and 60–80 km/h wind gusts on mounting frames.
-> - IP66 is the recommended inverter rating for exposed monsoon installations; IP21/IP44 units must sit in a fully enclosed, waterproof cabinet.
-> - Earthing resistance should read below 10 Ω per IS 3043 (ideally below 5 Ω), and monsoon's wet soil is actually the best time of year to test it.
-> - A Type 2 SPD with a red status window has already sacrificed itself and offers zero protection until replaced.
-> - Monsoon cloud cover typically cuts generation 40–70% below summer peak, so alert thresholds need resetting to a monsoon-calibrated floor rather than the summer baseline, or a fault can hide for weeks behind ordinary weather.
 
 Each task in this guide is written for an existing solar system owner who wants to perform a methodical annual review, not for someone still choosing equipment. Where a task requires a licensed electrician, that is noted explicitly. Where a visual or basic-instrument check is sufficient, the steps are spelled out so you can complete them yourself on a clear morning before the first rains hit your city.
 
@@ -67,7 +58,7 @@ Four distinct hazards concentrate between June and September that do not exist i
 
 The good news is that all four hazards are manageable with a single annual pre-monsoon review. The [solar inverter maintenance](/blog/inverter-maintenance-india/) guide published on this site covers the broader annual maintenance calendar; this article focuses specifically on the pre-June window and the monsoon-specific risk items.
 
-## The Qbits 10-Point Monsoon Readiness Protocol
+## Qbits model documentation
 
 ### The Framework
 
@@ -105,8 +96,6 @@ Locate the nameplate on your inverter (usually a metal or printed label on the h
 - **Exposed outdoor wall or rooftop enclosure**: IP66 mandatory.
 
 If you find an IP21 or IP44 inverter mounted in a location that receives driving rain or is within a metre of an opening to the outside, this is a priority-one corrective action before monsoon, not after. Water ingress into terminal blocks creates slow corrosion paths that cause ground faults weeks after the event, and the failure signature (intermittent earth fault alarms, gradually rising leakage current) is easily misread. Relocating an inverter or adding a weather enclosure is installation work best handled by an established residential solar EPC rather than attempted as a DIY fix.
-
-Qbits on-grid (TLS, TLD series) and hybrid (HS, HT series) inverters carry IP66 ratings as standard, which is why they can be mounted on exposed exterior walls without a separate weather enclosure. The [IP66 climate survival guide](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) details the specific IEC 60529 test conditions behind that rating if you want to understand what "powerful water jets" means in engineering terms.
 
 ## Task 2: Earthing and Grounding Continuity Verification
 
@@ -211,8 +200,6 @@ The goal is to set a generation floor alert calibrated to monsoon irradiance lev
 
 ### Setting Up Monsoon-Calibrated Alerts
 
-The [WhatsApp solar monitoring](/blog/whatsapp-solar-monitoring/) integration available on Qbits inverters allows configuring generation alerts per day-type (clear, partly cloudy, overcast). If your monitoring system supports irradiance-proportional alerts, use that feature. If it supports only absolute thresholds, set two separate alerts:
-
 1. **Zero-generation alert (fault indicator)**: Trigger if generation is zero after 9:00 AM local time on any day. This catches inverter trips, grid disconnection, and total communication loss regardless of weather.
 2. **Low-generation alert (monsoon calibrated)**: Set to 30–40% of your summer baseline daily generation. For a 5 kW system generating 22 units in May, set the monsoon alert at 7–9 units. A reading below this floor during monsoon is a fault signal, not a cloud event.
 
@@ -298,12 +285,8 @@ Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heav
 
 ## Where Qbits Fits in Your Monsoon Preparation
 
-Homeowners running Qbits inverters have a shorter pre-monsoon checklist by design. The IP66 enclosure rating standard across all Qbits on-grid and hybrid units eliminates Task 1 corrective action for outdoor-mounted installations, the inverter is already rated for exposed monsoon conditions without a supplementary weather enclosure. The built-in SPD ports on Qbits inverters provide a housing-integrated location for Type 2 SPD modules that eliminates the external wiring run that most often fails the Task 3 inspection.
-
-For earthing (Task 2) and physical panel checks (Tasks 4, 5, 7, 10), no inverter manufacturer eliminates those, they are installation variables, not product variables. What Qbits does provide is the AI-powered WhatsApp monitoring integration that makes Task 8 (alert configuration) available without a separate monitoring hardware investment. The WhatsApp alerts are configurable per system, meaning monsoon-calibrated thresholds can be set in minutes rather than requiring login to a desktop SCADA platform.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series with IP66 enclosure, built-in SPD slots, and India-grid-tuned firmware that handles the voltage instability common during monsoon storms.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery backup, meaning your system continues supplying critical loads during the grid disconnection events that accompany thunderstorms.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the exact TLS or TLD datasheet for enclosure, grid, protection and environmental limits. Do not infer firmware behavior or external surge protection from the family name.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[Authorised Service Partners](/authorized-service-partners/)**: PIN code-searchable network for the pre-monsoon earthing and SPD checks that require a licensed electrician.
 
-Before the June rains arrive in your city, [talk to a Qbits engineer](/contact-us/) about a pre-monsoon site inspection, most assessments are completed within 48 hours of booking and include a written earthing resistance reading and SPD status report.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

@@ -265,8 +265,6 @@ IRR is the annual return metric for solar projects, calculated as the discount r
 
 ## Need bankable IRR modelling for your solar project?
 
-QBits Energy provides bankable IRR analysis for utility, C&I and residential solar projects with sensitivity and stress scenarios.
-
 ## Further reading
 
 For how IRR plays out in real projects, these guides go deeper:

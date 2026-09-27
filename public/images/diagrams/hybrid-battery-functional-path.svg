@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="616" viewBox="0 0 640 616" role="img" aria-labelledby="title desc">
+<title id="title">Hybrid battery: separate DC power and BMS data paths</title><desc id="desc">The battery connects to the inverter using two separate paths. The DC power path includes project-specific protection and isolation. A separate BMS data cable uses the approved interface. This is not terminal wiring.</desc>
+<rect width="640" height="616" rx="20" fill="#f1f5f9"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#0f172a">
+<text x="320" y="40" font-size="22">Hybrid battery: two separate paths</text><text x="320" y="68" font-size="16" fill="#475569">Conceptual only. Follow the exact equipment manuals.</text>
+<rect x="50" y="100" width="540" height="80" rx="10" fill="white" stroke="#047857" stroke-width="2"/><text x="320" y="132" font-size="22">Supported battery or bank</text><text x="180" y="161" font-size="16">DC power terminals</text><text x="460" y="161" font-size="16">BMS interface</text>
+<path d="M180 182v66m-7-8 7 8 7-8" stroke="#047857" stroke-width="3" fill="none"/><path d="M460 182v196m-7-8 7 8 7-8" stroke="#2563eb" stroke-width="3" stroke-dasharray="8 5" fill="none"/>
+<rect x="65" y="250" width="230" height="90" rx="10" fill="white" stroke="#047857" stroke-width="2"/><text x="180" y="280" font-size="18">DC protection</text><text x="180" y="304" font-size="18">and isolation</text><text x="180" y="327" font-size="14">Project-specific design</text>
+<rect x="346" y="248" width="228" height="65" rx="8" fill="#eff6ff"/><text x="460" y="275" font-size="16" fill="#1d4ed8">Approved data cable,</text><text x="460" y="298" font-size="16" fill="#1d4ed8">pinout and protocol</text>
+<path d="M180 342v36m-7-8 7 8 7-8" stroke="#047857" stroke-width="3" fill="none"/>
+<rect x="50" y="380" width="540" height="100" rx="10" fill="white" stroke="#047857" stroke-width="2"/><text x="180" y="410" font-size="16">Battery power input</text><text x="460" y="410" font-size="16">BMS input</text><text x="320" y="449" font-size="22">Compatible hybrid inverter</text>
+<text x="320" y="525" font-size="16" fill="#475569">BMS data does not carry battery power.</text><text x="320" y="553" font-size="15" fill="#475569">PV, grid, backup and protective bonding are not shown.</text><text x="320" y="581" font-size="15" fill="#475569">No cable sizes, fuse ratings or terminal pinouts are specified.</text></g></svg>

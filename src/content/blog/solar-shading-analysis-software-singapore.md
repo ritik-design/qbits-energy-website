@@ -135,4 +135,4 @@ Singapore shading analysis is about the skyline and the shoulders of the day, no
 
 - **Model beyond the property line.** The tower to the west is usually the binding constraint, and it will not appear in a roof-only model.
 - **Insist on a direct and diffuse split.** Geometric-only models overstate loss in a cloudy equatorial climate and lead to mitigation that does not pay.
-- **Run a real roof before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Singapore address, or reach the Qbits team [here](/contact-us/) for inverter and optimiser specification.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

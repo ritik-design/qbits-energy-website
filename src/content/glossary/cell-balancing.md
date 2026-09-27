@@ -209,8 +209,6 @@ Cell balancing equalises voltages across battery pack cells, critical for capaci
 
 ## Need balanced battery storage?
 
-QBits Energy supplies LFP battery packs with quality BMS balancing for residential, C&I and microgrid solar storage in India.
-
 ## Further reading
 
 For how Cell Balancing plays out in real projects, these guides go deeper:

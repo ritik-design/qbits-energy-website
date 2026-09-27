@@ -34,6 +34,8 @@ faqs:
 featured: false
 ---
 
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 Solar system का सबसे बड़ा rukawat कीमत नहीं है, timing है। 3 kW का system लगवाने में ₹1.6 lakh से ₹2 lakh एक साथ निकालने पड़ते हैं, जबकि उसका फायदा 20 साल तक थोड़ा-थोड़ा करके आता है। यही gap solar ka loan भरता है। इस guide में वही चीज़ें हैं जो actually काम आती हैं: [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) का collateral-free route, interest rate की realistic bands, tenure कैसे चुनें, subsidy और loan का आपस में क्या रिश्ता है, EMI की पूरी calculation, documents की list, और यह honest comparison कि कब loan लेना चाहिए और कब नहीं।
 
 > **TL;DR**
@@ -206,9 +208,9 @@ Portal side की पूरी process और screens के लिए [PM Sury
 
 <div class="inline-cta">
 <h3>Equipment ऐसा चुनें जो 7 साल की EMI से लंबा चले</h3>
-<p>Loan 7 साल का है, इसलिए inverter की warranty और service SLA उससे ज्यादा मायने रखते हैं। Qbits की residential range ALMM-listed है और 12-year replacement warranty के साथ आती है।</p>
+
 <a href="/residential-solution/" class="cta-btn">Residential Solutions Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">India-grid tuned, IP66, 12-year warranty।</p>
+<p class="cta-sub">India-grid tuned, IP66, model-specific written warranty।</p>
 </div>
 
 ## छोटी-छोटी गलतियाँ जो महँगी पड़ती हैं

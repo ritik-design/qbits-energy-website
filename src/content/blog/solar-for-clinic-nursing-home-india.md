@@ -213,7 +213,7 @@ For the complete economics of solar against diesel, the [solar vs diesel generat
 
 ## Common Mistakes in Healthcare Solar Projects
 
-Every Qbits engineer who has worked on hospital and clinic projects has seen these errors. Avoid them:
+The following healthcare-project errors require qualified design and owner review; this page does not claim a verified Qbits project record:
 
 - **Using a standard hybrid inverter without verifying transfer time**: marketing language such as "instant backup" does not specify transfer time. Demand the millisecond figure from the technical datasheet. For ICU and OT circuits, accept nothing slower than 10 ms (online UPS topology).
 - **Not segregating critical and non-critical loads on separate circuits**: vaccine refrigerators on the same backup circuit as waiting room ACs means the battery drains serving low-priority loads while the cold chain is at risk.
@@ -230,13 +230,10 @@ The Bangalore hospital case study at [case study: Bangalore hospital](/blog/case
 
 ## Where Qbits Fits
 
-Clinics and nursing homes that have lived through a power-cut emergency (a condemned vaccine batch, a delayed procedure, a panicked patient family) understand exactly why reliability-first solar is worth paying for. Qbits HS and HT series hybrid inverters deliver the [IP66 enclosure](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/), pure sine wave output, and battery backup switchover that form the base specification for healthcare solar in India.
+The model-specific written warranty means a clinic will not face inverter replacement costs during the primary payback period. The written RMA process backed by an authorised service partner network covering the service locations confirmed for the sale means a qualified service engineer is reachable on a Wednesday night, a critical requirement for a facility that cannot wait two weeks for an imported inverter brand's support team to pick up the phone.
 
-The 12-year full replacement warranty means a clinic will not face inverter replacement costs during the primary payback period. The 72-hour RMA SLA backed by an authorised service partner network covering 280+ cities means a qualified service engineer is reachable on a Wednesday night, a critical requirement for a facility that cannot wait two weeks for an imported inverter brand's support team to pick up the phone.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: Qbits HS and HT series with battery backup, sub-30 ms switchover, and pure sine wave output for healthcare critical loads.
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series for non-critical loads (common areas, admin, canteen) operating alongside the critical hybrid circuit.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current product families and exact-model documents against the project design and utility requirements.
 - **[Solar Battery Backup Calculator](/blog/solar-battery-backup-calculator/)**: size your vaccine refrigerator and critical load battery requirement in 60 seconds.
 - **[Download Datasheets](/download-datasheets/)**: verify THD and transfer time specifications before committing to a purchase.
 
-[Request a healthcare solar reliability assessment from a Qbits engineer](/contact-us/), the team specialises in critical load circuit design, DG integration, and CPCB-compliant battery room layout for clinics and nursing homes across India. Provide your monthly bill and critical load list, and a detailed proposal comes back within 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

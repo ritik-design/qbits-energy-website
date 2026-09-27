@@ -195,8 +195,6 @@ NOCT (Nominal Operating Cell Temperature) is the cell temperature under standard
 
 ## Need NOCT-aware solar yield modelling?
 
-QBits Energy provides yield modelling accounting for NOCT, mounting effects and Indian climate conditions for residential, C&I and utility solar.
-
 ## Further reading
 
 For how NOCT plays out in real projects, these guides go deeper:

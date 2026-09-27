@@ -113,8 +113,6 @@ Free entry tier for installers running simple residential roofs. Active communit
 - **Choose OpenSolar free** if pure small residential is your entire scope and add-ons stay manageable.
 - **Choose SurgePV** if you want engineering depth, multi-country support, and flat per-seat pricing.
 
-For most installers in 2026, the third option is the answer. See the full [best solar design software ranking](/blog/best-solar-design-software/) if you want to weigh more than these two, or our [free solar design software guide](/blog/free-solar-design-software/) for what else exists at zero cost. Whichever design tool wins the shortlist, the residential jobs it produces still need hardware behind them. Qbits' [residential solution](/residential-solution/) pairs well with either platform's output, and the [on-grid inverter](/on-grid-inverter/) lineup covers the most common spec.
-
 <div class="inline-cta">
 <h3>Ready to skip the Aurora-vs-OpenSolar decision?</h3>
 <p>SurgePV combines AI 3D roof modeling, 8,760-hour shading, bankable yield, financial modelling, and white-label proposals in one platform at flat per-seat pricing.</p>

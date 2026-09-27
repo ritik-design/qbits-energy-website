@@ -229,14 +229,11 @@ Quality grounding delivers measurable financial return:
 
 ## Where Qbits Fits
 
-Qbits Energy supports EPC grounding excellence with:
-
-- **Detailed grounding specifications** in installation manuals for every inverter model
-- **Commissioning checklists** that include all six grounding tests
-- **Digital warranty registration** capturing grounding measurements for future audit defence
-- **AI monitoring with ground fault alerts** providing immediate visibility to insulation degradation
-- **Manufacturer-supported troubleshooting** for grounding-related warranty claims
-- **Training programs** for EPC partner installation teams on grounding best practices
+- Obtain the current installation manual and grounding requirements for the exact model.
+- Use a project commissioning checklist approved by the responsible electrical professional.
+- Confirm which measurements Qbits requires for warranty registration and later claims.
+- Confirm which ground-fault or insulation signals the exact model and logger expose.
+- Technical support and installer training availability are not established until supplied in writing.
 
 Related guides:
 
@@ -245,9 +242,9 @@ Related guides:
 - **[Essential vs Advanced Solar Inverter Features India](/blog/essential-vs-advanced-solar-inverter-features/)** - features framework including SPDs
 - **[Inverter Voltage: String vs MPPT in Solar Inverters India](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/)** - voltage design framework
 - **[How to Evaluate Solar Inverter Reliability, Quality & Testing](/blog/how-to-evaluate-solar-inverter-reliability/)** - reliability assessment
-- **[Authorized Service Partners](/authorized-service-partners/)** - certified installer network trained on grounding standards
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
-For specific grounding queries on complex projects or coastal/Himalayan installations, [talk to a Qbits engineer](/contact-us/) - the team can provide site-specific grounding specifications within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 Elsewhere in the Heaven Group network, see [earthing and lightning protection](https://heavendesigns.in/blog/solar-earthing-lightning-protection) and [how to verify a solar installation](https://www.heavengreenenergy.com/blog/how-to-verify-solar-installation).
 

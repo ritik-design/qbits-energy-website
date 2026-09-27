@@ -205,8 +205,6 @@ Discount rate is the rate converting future cash flows to present value, embeddi
 
 ## Need discount rate analysis for your solar project?
 
-QBits Energy provides discount rate analysis and project finance modelling for Indian utility, C&I and residential solar projects.
-
 ## Further reading
 
 For how Discount Rate plays out in real projects, these guides go deeper:

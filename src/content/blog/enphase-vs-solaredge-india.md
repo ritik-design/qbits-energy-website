@@ -21,9 +21,9 @@ faqs:
   - q: "What is the price of Enphase microinverters in India in 2026?"
     a: "Enphase microinverters cost approximately Rs 25 to Rs 42 per watt for systems between 1 kW and 5 kW in India in 2026, according to Ornate Solar, Enphase's official India partner. That works out to Rs 1.25 Lakh to Rs 2.1 Lakh for the inversion hardware alone on a 5 kW system, before panels, structure, and installation. Prices fall to Rs 22 to Rs 25 per watt for 5 to 10 kW systems and around Rs 19 to Rs 22 per watt above 50 kW. By comparison, a 5 kW Indian string inverter costs Rs 48,000 to Rs 65,000 for the entire unit, roughly Rs 10 to Rs 13 per watt."
   - q: "What warranty do Enphase and SolarEdge offer in India?"
-    a: "Enphase offers a 10-year standard warranty on microinverters sold in India, extendable to 15 or 25 years for a one-time fee paid within 6 months of installation, according to Ornate Solar (2026). SolarEdge offers 12 years on the inverter and 25 years on the power optimizers, with inverter extension to 20 or 25 years available at extra cost. The SolarEdge optimizer warranty is the longest component coverage in this comparison, but the inverter itself, the part most likely to fail, is covered for less than half the system's design life unless you pay for the extension. Qbits offers 12 years of full replacement coverage as standard on its string and hybrid inverters."
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
   - q: "Do Enphase and SolarEdge inverters qualify for PM Surya Ghar subsidy?"
-    a: "Subsidy eligibility under PM Surya Ghar depends on the exact model being on the ALMM list and the system being installed by an empanelled vendor, not on the brand alone. Both Enphase and SolarEdge have ALMM-listed models for the Indian market, but listing is model-specific and changes quarterly, so verify the certificate number for the exact unit in your quote on the MNRE portal before signing. A non-listed model forfeits up to Rs 78,000 in central subsidy on a 3 to 5 kW residential system. Most Indian string inverter brands, including Qbits, maintain ALMM listing across their residential range."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How much more energy do microinverters produce on a shaded roof?"
     a: "On a roof with genuine partial shading, module-level power electronics recover roughly 5 to 25 percent more energy than a single-MPPT string inverter, depending on shade severity and duration. The gain is highest when one or two panels are shaded for several hours daily, such as from a water tank, chimney, or neighbouring building. On an unshaded, single-orientation roof, the real-world gain shrinks to 1 to 3 percent, which rarely justifies the cost premium. A dual-MPPT string inverter with the shaded panels on their own string captures most of the recoverable energy on split roofs, which is why a shade survey should come before the architecture decision."
   - q: "What happens when an Enphase microinverter fails versus a SolarEdge inverter?"
@@ -33,6 +33,8 @@ faqs:
 featured: false
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 If you are weighing Enphase vs [SolarEdge](/blog/solaredge-designer-alternative/) for an Indian rooftop, you have already moved past the budget end of the market. Both are premium module-level power electronics brands, globally proven. Both cost two to three times more per watt than a good Indian [string inverter](/glossary/string-inverter/). The question is not whether they are good products. They are. The question is whether the problems they solve (shading, panel-level monitoring, module mismatch) exist on your roof enough to justify the premium.
 
 This comparison covers both brands honestly. It walks through the architecture difference between microinverters and power optimizers, real 2026 India pricing, and the warranty and service reality on the ground. It also shows the specific roof conditions where each earns its cost. And it covers the option most comparison articles skip: when a quality Indian string or hybrid inverter delivers better value for the same roof.
@@ -40,13 +42,11 @@ This comparison covers both brands honestly. It walks through the architecture d
 > **TL;DR**
 > - Enphase converts DC to AC at every panel (microinverters); SolarEdge conditions DC at every panel and converts it in one central inverter (power optimizers).
 > - Enphase hardware costs Rs 25 to Rs 42 per watt for a 1 to 5 kW Indian system, according to Ornate Solar (2026). A comparable Indian [string inverter](https://quickestimate.co/blog/string-inverter-vs-microinverter) costs Rs 10 to Rs 13 per watt.
-> - India warranty reality: Enphase 10 years standard (extendable to 25), SolarEdge 12 years on the inverter and 25 on optimizers. Qbits offers 12 years full replacement as standard.
+
 > - On an unshaded single-direction roof, module-level electronics add only 1 to 3 percent more energy, which rarely recovers the premium.
 > - On genuinely shaded or multi-orientation roofs, per-panel electronics recover 5 to 25 percent more energy, and Enphase or SolarEdge can pay back.
 > - One failed microinverter costs you one panel of output; one failed SolarEdge central inverter costs you the whole system until service arrives.
 > - Both brands service India through distributor and installer networks; Tier-2 replacement timelines of 2 to 6 weeks are common for imported premium hardware.
-
-**Short version.** Enphase suits small, shaded, or multi-direction roofs where per-panel conversion and zero single point of failure matter most. SolarEdge suits larger roofs wanting panel-level optimization at 15 to 25 percent lower cost than a full microinverter array. For the typical unshaded Indian terrace of 3 to 10 kW, a dual-MPPT string or hybrid inverter delivers nearly the same energy. It costs 40 to 60 percent of the price, with local service and longer standard warranty from brands like Qbits.
 
 If you have not yet decided between string and microinverter architectures at all, read the [string vs microinverter](/blog/string-vs-microinverter/) guide first. This post assumes you are already comparing the two premium module-level options.
 
@@ -76,16 +76,15 @@ Enphase microinverters run approximately Rs 25 to Rs 42 per watt for residential
 
 SolarEdge does not publish India retail pricing. Installer quotes for a 5 kW SolarEdge system (central inverter plus 12 to 14 optimizers) typically land 15 to 25 percent below an equivalent Enphase array. That matches the global pattern where SolarEdge hardware runs cheaper per watt than Enphase, according to NuWatt Energy (2026). Import duties on finished inverters, covered in our [BCD import duty on solar inverters](/blog/bcd-import-duty-solar-inverters-india/) explainer, keep both brands firmly in the premium bracket.
 
-| System (5 kW, hardware only) | Enphase IQ8 array | SolarEdge inverter + optimizers | Indian string/hybrid (Qbits class) |
+| Metric | Enphase | SolarEdge | Qbits reference |
 | --- | --- | --- | --- |
-| Inversion hardware cost | Rs 1.25 L to Rs 2.1 L | Rs 1.0 L to Rs 1.7 L (indicative) | Rs 48,000 to Rs 85,000 |
-| Cost per watt | Rs 25 to Rs 42 | Rs 20 to Rs 34 | Rs 10 to Rs 17 |
-| Electronics on the roof | 12 to 14 microinverters | 12 to 14 optimizers | None (dual-MPPT strings) |
-| Central inverter | None | 1 unit | 1 unit |
-| Standard warranty (India) | 10 yr (ext. to 25, paid) | 12 yr inverter, 25 yr optimizer | 12 yr full replacement (Qbits) |
-| Panel-level monitoring | Yes | Yes | String-level (dual MPPT) |
-| Battery option | IQ Battery 5P (Enphase only) | SolarEdge Home battery | Any compatible LFP/lead-acid |
-| Ecosystem lock-in | High | High | Low |
+| Inversion hardware cost | Obtain a current India quote | Obtain a current India quote | Obtain a current exact-model quote |
+| Cost per watt | Calculate from the same quote scope | Calculate from the same quote scope | Calculate from the same quote scope |
+| Electronics on the roof | Confirm exact architecture and count | Confirm inverter and optimiser count | Confirm exact model and array design |
+| Central inverter | Confirm proposed architecture | Confirm proposed architecture | Confirm proposed architecture |
+| Panel-level monitoring | Confirm model, gateway and account functions | Confirm model, gateway and account functions | not established until the exact model and monitoring package are documented |
+| Battery option | Confirm approved pairing and current India terms | Confirm approved pairing and current India terms | not established until the exact inverter, battery, firmware and protocol are documented |
+| Ecosystem lock-in | Compare replacement and account dependencies | Compare replacement and account dependencies | Compare replacement, protocol and account dependencies |
 
 SolarEdge India pricing is installer-quoted and varies by city; treat the figures above as indicative ranges and get two itemized quotes. What is not indicative is the gap. On a 5 kW system, choosing module-level electronics over a quality Indian string inverter adds roughly Rs 60,000 to Rs 1.5 Lakh upfront. That number is the baseline every claimed benefit of Enphase or SolarEdge must recover.
 
@@ -99,9 +98,7 @@ Warranty terms look similar on paper and behave very differently in practice. Th
 
 **Service is the bigger issue.** Neither brand operates a direct field service force across India. Support flows through distributors and the installer who sold you the system. In metros with active premium installers, replacement can happen in days. In Tier-2 and Tier-3 cities, installer reports consistently describe 2 to 6 week waits for imported premium hardware when the distributor lacks local stock. For a SolarEdge owner, that is 2 to 6 weeks of zero generation. For an Enphase owner, it is one panel offline, which is the real, underrated value of the distributed architecture.
 
-> **What most buyers get wrong:** they compare warranty years on paper and ignore fulfilment speed. A 25-year warranty that takes 6 weeks to fulfil in your city costs more lost generation than a 12-year warranty with a 72-hour replacement SLA. Ask any brand, premium or Indian, for its replacement timeline in writing before you buy.
-
-This is also where Indian brands hold a structural edge. Qbits carries a 12-year full replacement warranty as standard, with no paid extension. It is backed by a documented sub-72-hour on-site RMA SLA through an authorized service network across 280+ cities. The [12-year solar inverter warranty](/blog/12-year-solar-inverter-warranty/) post explains what full replacement coverage means versus prorated terms. The [solar inverter warranty](/blog/solar-inverter-warranty/) guide covers claim processes brand by brand.
+> **What most buyers get wrong:** they compare warranty years on paper and ignore fulfilment speed. A 25-year warranty that takes 6 weeks to fulfil in your city costs more lost generation than a model-specific written warranty with a written replacement process. Ask any brand, premium or Indian, for its replacement timeline in writing before you buy.
 
 ## Enphase: Honest Pros and Cons for India
 
@@ -161,12 +158,6 @@ Most Enphase vs SolarEdge articles end with one of the two premium brands. For t
 
 Consider the full picture for a typical unshaded 5 kW terrace system:
 
-- **Cost.** A Qbits TLS-5K on-grid inverter costs Rs 48,000 to Rs 62,000. The Enphase hardware for the same system costs Rs 1.25 Lakh to Rs 2.1 Lakh. The Rs 70,000 to Rs 1.4 Lakh difference buys a lot of battery, or simply shortens payback by 1.5 to 3 years.
-- **Warranty.** Qbits covers the inverter for 12 years with full replacement as standard. Enphase's India standard is 10 years; SolarEdge's inverter is 12 years with a paid path beyond. On warranty cost per year, the Indian option leads.
-- **Service.** Qbits commits to a sub-72-hour on-site RMA SLA across 280+ cities with local spares. Premium imported brands route through distributors, and out-of-metro replacement timelines of 2 to 6 weeks are commonly reported by installers.
-- **Grid tolerance.** Qbits firmware is tuned for the 180 to 270 V fluctuation and frequency behaviour of Indian distribution grids. Every residential model carries ALMM listing, which protects your PM Surya Ghar subsidy. Verify ALMM status model by model for any brand on the [ALMM list](/glossary/almm-list/) before signing.
-- **Backup.** Neither Enphase nor SolarEdge gives you meaningful outage backup without their proprietary batteries. A Qbits HS-5K hybrid works with standard LFP or lead-acid batteries, a materially cheaper path to backup in power-cut states.
-
 The exception is real, and it is worth stating plainly. If your roof has unavoidable heavy shading, three or more orientations, or plans to grow panel by panel, module-level electronics recover energy no string inverter can. In those cases Enphase or SolarEdge is the right engineering choice, and we say so without hesitation. The [best Indian solar inverter brands](/blog/best-indian-solar-inverter-brands/) roundup and the [Qbits vs Sungrow vs Growatt](/blog/qbits-vs-sungrow-vs-growatt/) comparison cover this on the same honest terms.
 
 ## Enphase vs SolarEdge: The Final Verdict by Buyer Type
@@ -177,7 +168,7 @@ Neither brand is a bad choice. The mistake is buying either one for a roof that 
 - **Choose SolarEdge** if your roof is larger (5 kW to 30 kW+), moderately shaded, and you want panel-level optimization at the lower premium price. Accept the central inverter as a single point of failure, and price the inverter warranty extension into your quote.
 - **Choose a quality Indian string or hybrid inverter** if your roof is a typical unshaded or lightly shaded terrace. This fits buyers whose priorities are payback speed, warranty depth, local service speed, and subsidy safety. For most Indian 3 BHK to small-commercial buyers, this is the financially correct answer. It is also the answer most global comparison articles will never give you.
 
-Get two quotes in each architecture and compare warranty cost per year, not sticker price. A Rs 55,000 inverter with a 12-year warranty costs about Rs 4,600 per year of coverage. A Rs 1.5 Lakh premium array with a 10-year India warranty costs Rs 15,000 per year. The premium must be justified by recovered energy, not by brand comfort.
+Get two quotes in each architecture and compare warranty cost per year, not sticker price. A Rs 55,000 inverter with a model-specific written warranty costs about Rs 4,600 per year of coverage. A Rs 1.5 Lakh premium array with a 10-year India warranty costs Rs 15,000 per year. The premium must be justified by recovered energy, not by brand comfort.
 
 A parallel comparison of the two European premium brands is in [Fronius vs SMA](/blog/fronius-vs-sma-india/).
 
@@ -189,4 +180,4 @@ Your next steps:
 
 - Get a shading survey of your roof before choosing an architecture. If annual shade loss is under 5 percent, rule out the premium options and compare dual-MPPT string and hybrid models instead.
 - Verify the ALMM listing and the exact India warranty term (in writing) for any model in your quote. Also ask each brand for its replacement fulfilment timeline in your city.
-- [Request a quote from a Qbits engineer](/contact-us/) for a side-by-side system design comparing string, hybrid, and module-level options for your specific roof. Most homeowners receive a detailed design within 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

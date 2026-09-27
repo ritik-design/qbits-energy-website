@@ -45,7 +45,7 @@ faqs:
   - q: "What battery should I pair with a hybrid inverter?"
     a: "Lithium iron phosphate at 48 V or high-voltage stacks of 100 to 600 V. The battery must match the inverter's communication protocol, typically CAN bus, and be in the manufacturer's compatibility list."
   - q: "Is a hybrid inverter eligible for PM Surya Ghar subsidy?"
-    a: "The subsidy is for grid-connected rooftop systems. Hybrid inverters qualify if they are ALMM-listed and the system is commissioned in grid-tied mode with net metering. Battery cost itself is not subsidised."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Can I add a battery to my existing on grid inverter later?"
     a: "Yes, through AC coupling. A separate battery inverter and lithium pack are added downstream of the existing inverter. It is more expensive than buying a hybrid upfront."
   - q: "What is the efficiency of a hybrid inverter?"
@@ -68,6 +68,8 @@ faqs:
     a: "Online hybrid inverters have effectively zero transfer time, often less than 10 ms, which is invisible to most loads. Offline transfer with mechanical switching takes 10 to 50 ms and may cause computers to reboot."
 author: "Nirav Dhanani"
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 ## What is a hybrid inverter
 
@@ -180,8 +182,6 @@ Future-ready for EVs, smart appliances and time-of-use tariffs.
 
 Backup and self-consumption from a single device. No second inverter needed.
 
-Improved subsidy fit. ALMM-listed hybrids in grid-tie mode are eligible for PM Surya Ghar like any on grid inverter.
-
 ## Limitations
 
 Higher upfront cost than pure on grid. Battery is the dominant line item.
@@ -240,13 +240,9 @@ For a fuller decision framework beyond this table, see [On-Grid vs Hybrid vs Off
 
 ## Indian market context
 
-[ALMM listing](/glossary/almm-list/) is required for any hybrid inverter used in subsidised projects under PM Surya Ghar and similar schemes. BIS certification under IS 16221 and IS 17387 applies as for any on grid inverter.
-
 Net metering rules apply to the grid-tie portion of the hybrid. Maharashtra, Karnataka and Gujarat have published specific notes on battery storage interaction with net metering, allowing time-of-day arbitrage in some states.
 
 CEA grid code applies, including [anti-islanding](/glossary/anti-islanding/) and reactive power requirements. Hybrid inverters must pass IEC 62116 anti-islanding tests on the grid-tie path.
-
-Battery certifications under IEC 62619 and IS 16893 apply to the LFP pack. Hybrid systems shipped to subsidised projects often need both inverter ALMM listing and battery ALMM listing on the storage side.
 
 Common hybrid brands sold in India include Sungrow, Solis, Goodwe, Deye, Growatt, Luxpower, Solax, Tata Power Solar, Luminous and Microtek, alongside premium imports like Victron and Schneider Conext.
 
@@ -278,15 +274,9 @@ Ignoring inverter standby losses when sizing the battery. The math is wrong if y
 
 Setting time-of-use mode in cities that do not have time-of-use tariffs. The EMS optimises for the wrong thing.
 
-Buying a hybrid inverter that is not yet ALMM-listed, then losing subsidy eligibility.
-
 ## Key takeaways
 
 A hybrid inverter is the right pick when reliable backup or evening self-consumption matters more than the last few rupees of capex. DC-coupled hybrids are the modern default for new installations. AC coupling is the right answer for retrofits and large C&I. Battery compatibility, backup load planning and EMS configuration decide whether the system actually delivers what the user expected.
-
-## Looking for a hybrid inverter?
-
-QBits Energy supplies ALMM-listed hybrid inverters and LFP battery packs for residential, commercial and microgrid applications. Reach out for a load-and-autonomy study tailored to your site.
 
 ## Further reading
 
@@ -303,7 +293,7 @@ For how Hybrid Inverter plays out in real projects, these guides go deeper:
 - IEC 62619:2017, Safety requirements for secondary lithium cells and batteries.
 - IEC 61727:2004 and IEC 62116:2014, Grid interface characteristics and anti-islanding for PV inverters.
 - IS 16221, IS 17387 and IS 16893, Indian Standards for PV inverter safety, grid interconnection and stationary battery storage.
-- MNRE Approved List of Models and Manufacturers (ALMM), inverter and battery storage segments.
+
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.
 - PM Surya Ghar Muft Bijli Yojana, scheme guidelines, MNRE.
 - IEA Renewables 2024, Distributed PV and Storage Outlook, International Energy Agency.

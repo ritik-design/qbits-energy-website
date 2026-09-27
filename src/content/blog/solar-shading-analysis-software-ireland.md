@@ -144,4 +144,4 @@ Irish shading analysis is a sky-model problem before it is a geometry problem.
 - **Use an engine that splits direct and diffuse.** Geometric-only tools systematically overstate Irish losses and kill viable projects.
 - **Fix the string layout before selling hardware.** On complex Irish roofs, wiring around the shadow map is free and recovers more than most people expect.
 - **Price the loss against the export gap.** Shading that hits self-consumed hours costs several times more than shading that hits exported surplus.
-- **Run a real roof before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring an Irish address, or reach the Qbits team [here](/contact-us/) for inverter and optimiser specification against the finished design.
+

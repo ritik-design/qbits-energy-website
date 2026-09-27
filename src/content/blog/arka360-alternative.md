@@ -130,8 +130,6 @@ Figures above are publicly listed vendor prices at the time of writing, or noted
 - **Choose OpenSolar** for small residential at lowest fixed cost.
 - **Choose Solar Ladder** for sales-led CRM workflows.
 
-For installers scaling in 2026, SurgePV is the Arka360 alternative that wins on scope, depth, and per-seat economics at the same time. Once the design itself is bankable, the hardware choice matters just as much: EPCs pairing the output with an [on-grid](/on-grid-inverter/) or [hybrid inverter](/hybrid-inverter/) lineup can check current [Qbits datasheets](/our-products/) before finalising the BOQ.
-
 <div class="inline-cta">
 <h3>Ready for AI design with C&amp;I depth behind it?</h3>
 <p>SurgePV combines AI 3D roof modeling, Clara AI, 8,760-hour shading, bankable yield, and white-label proposals in one platform.</p>

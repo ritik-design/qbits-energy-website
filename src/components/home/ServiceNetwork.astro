@@ -1,244 +1,42 @@
 ---
-import { indiaStates } from '../../data/indiaStates';
-
-// Every state and UT on the map is served. Geo names come from the boundary
-// dataset; `label` is what we show on the site. Each district carries its own
-// 3-4 partners; `partners` is the statewide service + channel partner count.
-interface District { name: string; partners: number }
-const network: Record<string, { label: string; districts: District[]; partners: number }> = {
-  'Maharashtra': { label: 'Maharashtra', partners: 240, districts: [{ name: 'Mumbai', partners: 4 }, { name: 'Pune', partners: 4 }, { name: 'Nagpur', partners: 3 }, { name: 'Nashik', partners: 3 }] },
-  'Gujarat': { label: 'Gujarat', partners: 225, districts: [{ name: 'Surat', partners: 4 }, { name: 'Ahmedabad', partners: 4 }, { name: 'Vadodara', partners: 3 }, { name: 'Rajkot', partners: 3 }] },
-  'Uttar Pradesh': { label: 'Uttar Pradesh', partners: 195, districts: [{ name: 'Lucknow', partners: 4 }, { name: 'Kanpur', partners: 4 }, { name: 'Agra', partners: 3 }, { name: 'Varanasi', partners: 3 }] },
-  'Rajasthan': { label: 'Rajasthan', partners: 165, districts: [{ name: 'Jaipur', partners: 4 }, { name: 'Jodhpur', partners: 4 }, { name: 'Udaipur', partners: 3 }, { name: 'Kota', partners: 3 }] },
-  'Madhya Pradesh': { label: 'Madhya Pradesh', partners: 140, districts: [{ name: 'Indore', partners: 4 }, { name: 'Bhopal', partners: 4 }, { name: 'Gwalior', partners: 3 }, { name: 'Jabalpur', partners: 3 }] },
-  'Karnataka': { label: 'Karnataka', partners: 135, districts: [{ name: 'Bengaluru', partners: 4 }, { name: 'Mysuru', partners: 3 }, { name: 'Hubballi', partners: 3 }, { name: 'Mangaluru', partners: 3 }] },
-  'Tamil Nadu': { label: 'Tamil Nadu', partners: 130, districts: [{ name: 'Chennai', partners: 4 }, { name: 'Coimbatore', partners: 4 }, { name: 'Madurai', partners: 3 }, { name: 'Salem', partners: 3 }] },
-  'Andhra Pradesh': { label: 'Andhra Pradesh', partners: 105, districts: [{ name: 'Visakhapatnam', partners: 4 }, { name: 'Vijayawada', partners: 3 }, { name: 'Guntur', partners: 3 }, { name: 'Tirupati', partners: 3 }] },
-  'Telangana': { label: 'Telangana', partners: 95, districts: [{ name: 'Hyderabad', partners: 4 }, { name: 'Warangal', partners: 3 }, { name: 'Karimnagar', partners: 3 }, { name: 'Nizamabad', partners: 3 }] },
-  'Haryana': { label: 'Haryana', partners: 90, districts: [{ name: 'Gurugram', partners: 4 }, { name: 'Faridabad', partners: 4 }, { name: 'Panipat', partners: 3 }, { name: 'Hisar', partners: 3 }] },
-  'Punjab': { label: 'Punjab', partners: 85, districts: [{ name: 'Ludhiana', partners: 4 }, { name: 'Amritsar', partners: 3 }, { name: 'Jalandhar', partners: 3 }, { name: 'Patiala', partners: 3 }] },
-  'Delhi': { label: 'Delhi NCR', partners: 80, districts: [{ name: 'New Delhi', partners: 4 }, { name: 'Dwarka', partners: 3 }, { name: 'Rohini', partners: 3 }, { name: 'Okhla', partners: 3 }] },
-  'West Bengal': { label: 'West Bengal', partners: 75, districts: [{ name: 'Kolkata', partners: 4 }, { name: 'Siliguri', partners: 3 }, { name: 'Durgapur', partners: 3 }, { name: 'Asansol', partners: 3 }] },
-  'Kerala': { label: 'Kerala', partners: 70, districts: [{ name: 'Kochi', partners: 4 }, { name: 'Thiruvananthapuram', partners: 3 }, { name: 'Kozhikode', partners: 3 }, { name: 'Thrissur', partners: 3 }] },
-  'Bihar': { label: 'Bihar', partners: 65, districts: [{ name: 'Patna', partners: 4 }, { name: 'Muzaffarpur', partners: 3 }, { name: 'Gaya', partners: 3 }, { name: 'Bhagalpur', partners: 3 }] },
-  'Odisha': { label: 'Odisha', partners: 55, districts: [{ name: 'Bhubaneswar', partners: 4 }, { name: 'Cuttack', partners: 3 }, { name: 'Rourkela', partners: 3 }, { name: 'Sambalpur', partners: 3 }] },
-  'Chhattisgarh': { label: 'Chhattisgarh', partners: 45, districts: [{ name: 'Raipur', partners: 4 }, { name: 'Bhilai', partners: 3 }, { name: 'Bilaspur', partners: 3 }, { name: 'Korba', partners: 3 }] },
-  'Jharkhand': { label: 'Jharkhand', partners: 40, districts: [{ name: 'Ranchi', partners: 4 }, { name: 'Jamshedpur', partners: 3 }, { name: 'Dhanbad', partners: 3 }, { name: 'Bokaro', partners: 3 }] },
-  'Uttarakhand': { label: 'Uttarakhand', partners: 35, districts: [{ name: 'Dehradun', partners: 4 }, { name: 'Haldwani', partners: 3 }, { name: 'Haridwar', partners: 3 }, { name: 'Rudrapur', partners: 3 }] },
-  'Assam': { label: 'Assam', partners: 30, districts: [{ name: 'Guwahati', partners: 4 }, { name: 'Silchar', partners: 3 }, { name: 'Dibrugarh', partners: 3 }, { name: 'Jorhat', partners: 3 }] },
-  'Himachal Pradesh': { label: 'Himachal Pradesh', partners: 25, districts: [{ name: 'Shimla', partners: 4 }, { name: 'Baddi', partners: 3 }, { name: 'Solan', partners: 3 }, { name: 'Mandi', partners: 3 }] },
-  'Jammu and Kashmir': { label: 'Jammu & Kashmir', partners: 20, districts: [{ name: 'Jammu', partners: 4 }, { name: 'Srinagar', partners: 3 }, { name: 'Udhampur', partners: 3 }, { name: 'Anantnag', partners: 3 }] },
-  'Goa': { label: 'Goa', partners: 15, districts: [{ name: 'Panaji', partners: 4 }, { name: 'Margao', partners: 3 }, { name: 'Vasco', partners: 3 }, { name: 'Mapusa', partners: 3 }] },
-  'Meghalaya': { label: 'Meghalaya', partners: 12, districts: [{ name: 'Shillong', partners: 4 }, { name: 'Tura', partners: 3 }, { name: 'Jowai', partners: 3 }, { name: 'Nongpoh', partners: 3 }] },
-  'Tripura': { label: 'Tripura', partners: 10, districts: [{ name: 'Agartala', partners: 4 }, { name: 'Udaipur', partners: 3 }, { name: 'Dharmanagar', partners: 3 }, { name: 'Kailashahar', partners: 3 }] },
-  'Nagaland': { label: 'Nagaland', partners: 10, districts: [{ name: 'Kohima', partners: 4 }, { name: 'Dimapur', partners: 3 }, { name: 'Mokokchung', partners: 3 }, { name: 'Wokha', partners: 3 }] },
-  'Manipur': { label: 'Manipur', partners: 10, districts: [{ name: 'Imphal', partners: 4 }, { name: 'Thoubal', partners: 3 }, { name: 'Bishnupur', partners: 3 }, { name: 'Churachandpur', partners: 3 }] },
-  'Mizoram': { label: 'Mizoram', partners: 9, districts: [{ name: 'Aizawl', partners: 4 }, { name: 'Lunglei', partners: 3 }, { name: 'Champhai', partners: 3 }, { name: 'Serchhip', partners: 3 }] },
-  'Arunachal Pradesh': { label: 'Arunachal Pradesh', partners: 9, districts: [{ name: 'Itanagar', partners: 4 }, { name: 'Pasighat', partners: 3 }, { name: 'Tezu', partners: 3 }, { name: 'Ziro', partners: 3 }] },
-  'Sikkim': { label: 'Sikkim', partners: 8, districts: [{ name: 'Gangtok', partners: 4 }, { name: 'Namchi', partners: 3 }, { name: 'Gyalshing', partners: 3 }, { name: 'Mangan', partners: 3 }] },
-  'Puducherry': { label: 'Puducherry', partners: 8, districts: [{ name: 'Puducherry', partners: 4 }, { name: 'Karaikal', partners: 3 }, { name: 'Yanam', partners: 3 }, { name: 'Mahe', partners: 3 }] },
-  'Chandigarh': { label: 'Chandigarh', partners: 8, districts: [{ name: 'Chandigarh', partners: 4 }, { name: 'Industrial Area', partners: 3 }, { name: 'Manimajra', partners: 3 }] },
-  'Dadra and Nagar Haveli': { label: 'Dadra & Nagar Haveli', partners: 7, districts: [{ name: 'Silvassa', partners: 4 }, { name: 'Amli', partners: 3 }, { name: 'Naroli', partners: 3 }] },
-};
-
-// Every geography in the dataset is served, so the whole map renders green.
-const servedStates = indiaStates.filter((s) => network[s.name]);
-const uncovered = indiaStates.filter((s) => !network[s.name]);
-if (uncovered.length) {
-  throw new Error(
-    `ServiceNetwork: no partner data for ${uncovered.map((s) => s.name).join(', ')} — every state on the map must be covered.`
-  );
-}
-
-const totalDistricts = Object.values(network).reduce((n, v) => n + v.districts.length, 0);
-
-// Only states wide enough to hold their name get an inline label. Narrow ones
-// (the Himalayan belt, the north-east, the coastal strips) would collide.
-const labelled: Record<string, { dx?: number; dy?: number; short?: string }> = {
-  'Rajasthan': {},
-  'Gujarat': { dx: -6, dy: 6 },
-  'Maharashtra': {},
-  'Madhya Pradesh': {},
-  'Uttar Pradesh': {},
-  'Bihar': {},
-  'West Bengal': { dx: -8, dy: 16, short: 'W. Bengal' },
-  'Odisha': { dx: -4 },
-  'Chhattisgarh': { dx: -22, dy: 4 },
-  'Karnataka': { dx: -2 },
-  'Tamil Nadu': { dx: -4, dy: 6 },
-  'Andhra Pradesh': { dx: -20, dy: 6, short: 'Andhra' },
-  'Telangana': {},
-  'Assam': { dx: -8 },
-};
-
-const tooltipData = Object.fromEntries(
-  Object.entries(network).map(([geo, v]) => [geo, { name: v.label, districts: v.districts, partners: v.partners }])
-);
 ---
 
 <section class="py-20 sm:py-28 lg:py-36 bg-white" aria-labelledby="network-heading">
   <div class="container-main">
-    <div class="text-center max-w-2xl mx-auto mb-14">
-      <span class="section-label">
-        <span class="w-8 h-px bg-brand-500"></span>
-        Service Network
+    <div class="mx-auto max-w-3xl text-center">
+      <span class="section-label justify-center">
+        <span class="h-px w-8 bg-brand-500"></span>
+        Service Availability
+        <span class="h-px w-8 bg-brand-500"></span>
       </span>
-      <h2 id="network-heading" class="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mt-6 leading-tight">
-        Service, <span class="text-gradient">Everywhere</span>
+      <h2 id="network-heading" class="mt-6 text-3xl font-bold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
+        Check Support For Your <span class="text-gradient">Location And Model</span>
       </h2>
-      <p class="mt-4 text-slate-500 text-base sm:text-lg">Every state and union territory covered, with 3-4 authorized partners in each district we serve.</p>
+      <p class="mt-5 text-base leading-relaxed text-slate-600 sm:text-lg">
+        Service coverage, response time, spare-part availability, and the party responsible for site visits can vary by location, inverter model, seller, and installation contract. Ask Qbits or your authorised seller to confirm those details in writing before purchase.
+      </p>
     </div>
 
-    <div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
-      <!-- Interactive Map -->
-      <div class="relative">
-        <div class="relative bg-slate-50 rounded-3xl border border-slate-100 p-4 sm:p-6 overflow-hidden" id="map-container">
-          <!-- Legend -->
-          <div class="flex items-center gap-4 mb-4 text-xs text-slate-500">
-            <span class="flex items-center gap-1.5">
-              <span class="w-3 h-3 rounded-sm bg-brand-500"></span> Served — every state &amp; UT
-            </span>
-            <span class="hidden sm:inline text-slate-400">Hover a state for its districts</span>
-          </div>
-
-          <!-- SVG Map -->
-          <svg viewBox="0 0 600 700" class="w-full h-auto" role="img" aria-label="Map of India showing the Qbits service network covering every state and union territory">
-            <rect width="600" height="700" fill="transparent" />
-
-            {servedStates.map((s) => (
-              <path
-                d={s.path}
-                fill="#049D65"
-                stroke="#ffffff"
-                stroke-width="1"
-                stroke-linejoin="round"
-                class="map-state cursor-pointer transition-colors duration-300 hover:fill-brand-700"
-                data-state={s.name}
-              />
-            ))}
-
-            <!-- Labels sit above every shape so nothing paints over them -->
-            {servedStates.filter((s) => labelled[s.name]).map((s) => (
-              <text
-                x={s.labelX + (labelled[s.name].dx ?? 0)}
-                y={s.labelY + (labelled[s.name].dy ?? 0)}
-                text-anchor="middle"
-                dominant-baseline="middle"
-                class="text-[9px] font-semibold fill-white pointer-events-none"
-              >
-                {labelled[s.name].short ?? network[s.name].label}
-              </text>
-            ))}
-          </svg>
-
-          <!-- Tooltip (inside map container) -->
-          <div id="map-tooltip" class="absolute hidden z-20 bg-white rounded-2xl shadow-xl shadow-slate-900/10 border border-slate-100 p-4 w-64 pointer-events-none">
-            <h4 id="tooltip-title" class="text-base font-bold text-slate-900 mb-1"></h4>
-            <p class="text-xs text-slate-400 mb-3">Qbits Service Network</p>
-            <div class="mb-3">
-              <p class="text-[10px] font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Partners by district</p>
-              <div id="tooltip-districts" class="space-y-1"></div>
-            </div>
-            <div class="pt-3 border-t border-slate-100">
-              <p id="tooltip-partners" class="text-lg font-bold text-brand-600"></p>
-              <p class="text-[10px] text-slate-500">Service &amp; channel partners statewide</p>
-            </div>
-          </div>
-        </div>
+    <div class="mx-auto mt-12 grid max-w-4xl gap-5 md:grid-cols-3">
+      <div class="rounded-2xl border border-slate-100 bg-slate-50 p-6">
+        <p class="text-sm font-semibold uppercase tracking-wider text-brand-600">Before purchase</p>
+        <h3 class="mt-2 text-lg font-bold text-slate-900">Confirm the service contact</h3>
+        <p class="mt-2 text-sm leading-relaxed text-slate-600">Record who handles commissioning, fault diagnosis, removal, shipping, and reinstallation.</p>
       </div>
-
-      <!-- Right Content -->
-      <div class="grid grid-cols-2 gap-5">
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-          <p class="text-3xl sm:text-4xl font-bold text-brand-600 mb-1">{servedStates.length}</p>
-          <p class="text-sm text-slate-600 font-medium">States &amp; UTs Covered</p>
-        </div>
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-          <p class="text-3xl sm:text-4xl font-bold text-brand-600 mb-1">2,100+</p>
-          <p class="text-sm text-slate-600 font-medium">Service Partners</p>
-        </div>
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-          <p class="text-3xl sm:text-4xl font-bold text-brand-600 mb-1">3-4</p>
-          <p class="text-sm text-slate-600 font-medium">Partners Per District</p>
-        </div>
-        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-          <p class="text-3xl sm:text-4xl font-bold text-brand-600 mb-1">&lt;12h</p>
-          <p class="text-sm text-slate-600 font-medium">Response Time</p>
-        </div>
-
-        <!-- States list -->
-        <div class="col-span-2 mt-4">
-          <p class="text-sm font-semibold text-slate-900 mb-3">
-            States &amp; Union Territories Served
-            <span class="font-normal text-slate-500">— {totalDistricts} districts served</span>
-          </p>
-          <div class="flex flex-wrap gap-2">
-            {servedStates.map((s) => (
-              <span class="px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 text-xs font-medium text-slate-600 hover:border-brand-300 hover:text-brand-600 transition-colors cursor-default">
-                {network[s.name].label}
-              </span>
-            ))}
-          </div>
-        </div>
+      <div class="rounded-2xl border border-slate-100 bg-slate-50 p-6">
+        <p class="text-sm font-semibold uppercase tracking-wider text-brand-600">For your model</p>
+        <h3 class="mt-2 text-lg font-bold text-slate-900">Request written terms</h3>
+        <p class="mt-2 text-sm leading-relaxed text-slate-600">Obtain the current warranty document, registration steps, exclusions, remedy, and response process.</p>
       </div>
+      <div class="rounded-2xl border border-slate-100 bg-slate-50 p-6">
+        <p class="text-sm font-semibold uppercase tracking-wider text-brand-600">For your site</p>
+        <h3 class="mt-2 text-lg font-bold text-slate-900">Verify local availability</h3>
+        <p class="mt-2 text-sm leading-relaxed text-slate-600">Share your PIN code and installation details so the current support route can be checked.</p>
+      </div>
+    </div>
+
+    <div class="mt-10 text-center">
+      <a href="/contact-us/" class="btn-primary">Check Service Availability</a>
     </div>
   </div>
 </section>
-
-<script define:vars={{ stateData: tooltipData }}>
-  const mapStates = document.querySelectorAll('.map-state');
-  const tooltip = document.getElementById('map-tooltip');
-  const tooltipTitle = document.getElementById('tooltip-title');
-  const tooltipDistricts = document.getElementById('tooltip-districts');
-  const tooltipPartners = document.getElementById('tooltip-partners');
-  const mapContainer = document.getElementById('map-container');
-
-  function showTooltip(stateId, x, y) {
-    const data = stateData[stateId];
-    if (!data || !tooltip) return;
-
-    tooltipTitle.textContent = data.name;
-    tooltipPartners.textContent = data.partners + '+';
-    tooltipDistricts.innerHTML = data.districts.map((d) =>
-      `<div class="flex items-center justify-between gap-2">
-         <span class="text-[11px] text-slate-600">${d.name}</span>
-         <span class="px-2 py-0.5 rounded-full bg-brand-50 text-brand-600 text-[10px] font-semibold whitespace-nowrap">${d.partners} partners</span>
-       </div>`
-    ).join('');
-
-    tooltip.classList.remove('hidden');
-
-    // Position tooltip near the cursor but keep inside container
-    const containerRect = mapContainer.getBoundingClientRect();
-    let left = x - containerRect.left + 16;
-    let top = y - containerRect.top + 16;
-
-    // Prevent overflow
-    const tooltipRect = tooltip.getBoundingClientRect();
-    if (left + tooltipRect.width > containerRect.width) {
-      left = x - containerRect.left - tooltipRect.width - 16;
-    }
-    if (top + tooltipRect.height > containerRect.height) {
-      top = y - containerRect.top - tooltipRect.height - 16;
-    }
-
-    tooltip.style.left = left + 'px';
-    tooltip.style.top = top + 'px';
-  }
-
-  function hideTooltip() {
-    tooltip?.classList.add('hidden');
-  }
-
-  mapStates.forEach((el) => {
-    el.addEventListener('mouseenter', (e) => {
-      const stateId = el.getAttribute('data-state');
-      if (stateId) showTooltip(stateId, e.clientX, e.clientY);
-    });
-    el.addEventListener('mousemove', (e) => {
-      const stateId = el.getAttribute('data-state');
-      if (stateId) showTooltip(stateId, e.clientX, e.clientY);
-    });
-    el.addEventListener('mouseleave', hideTooltip);
-  });
-</script>

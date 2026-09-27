@@ -204,8 +204,6 @@ DHI is the diffuse sky-scattered solar irradiance, complementing DNI to make up 
 
 ## Need DHI-aware yield modelling?
 
-QBits Energy provides solar resource assessment using validated GHI, DNI and DHI data for bankable yield projections across Indian projects.
-
 ## Further reading
 
 For how DHI plays out in real projects, these guides go deeper:

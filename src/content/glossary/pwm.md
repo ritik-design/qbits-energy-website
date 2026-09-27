@@ -68,6 +68,8 @@ faqs:
 author: "Keyur Rakholiya"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is PWM
 
 PWM stands for Pulse Width Modulation. It is a switching technique where a transistor or switch is rapidly turned on and off, and the relative on-time is varied. The average voltage or current delivered over many cycles approximates the desired output.
@@ -254,8 +256,6 @@ MNRE specifications for solar lanterns and small home lighting systems under IEC
 
 For grid-connected rooftop solar and any system using MPPT-capable inverters, PWM is not used.
 
-Inverters certified under ALMM and BIS use PWM at the modulation stage. The grid-tie [inverter market](https://heavengreenenergy.com/products/solar-inverters/) is universally PWM-based at the inversion stage.
-
 ## Standards and certifications
 
 | Standard | Scope |
@@ -287,8 +287,6 @@ Mixing PWM and MPPT controllers on the same battery bank. Voltage setpoints conf
 PWM is two things in solar engineering: a low-cost charge controller topology suitable for solar lanterns and small home kits, and the high-frequency switching technique that powers every modern solar inverter. The first is fading as MPPT prices fall. The second is fundamental to power electronics. Knowing which PWM is being discussed is half the battle in design reviews.
 
 ## Need help choosing between PWM and MPPT?
-
-QBits Energy supports installers and EPCs on charge controller selection, panel-battery voltage matching, and inverter modulation tradeoffs for off grid and hybrid systems across India. Reach out for design support.
 
 ## Further reading
 

@@ -23,11 +23,11 @@ faqs:
   - q: "When does east-west solar beat south-facing in India?"
     a: "East-west beats south-facing in four situations: when your roof physically has no south-facing surface, when your household consumes most electricity in the morning and evening, when you want to fit more panels on a flat roof by packing rows closer together, and when you want to reduce inverter clipping on an oversized DC array. A west-heavy split also helps homes running air conditioning from 3 pm onward, because west-facing panels keep producing strongly until about 5 pm in most Indian cities."
   - q: "Do I need a dual-MPPT inverter for an east-west solar layout?"
-    a: "Yes, a dual-MPPT inverter is effectively mandatory for east-west layouts. Each orientation must be wired as a separate string on its own MPPT input so the inverter can track the different peak-power voltages of the east and west groups independently. Connecting both orientations in parallel on a single MPPT forces a compromise operating point and typically wastes 8 to 15 percent of potential generation. Nearly all modern 3 kW to 10 kW residential string inverters, including the Qbits TLS and HS series, ship with two MPPTs as standard."
+    a: "Usually yes, and the reason is electrical rather than commercial. East and west strings reach their peak at different times of day and sit at different operating voltages for most of it. A single MPPT input has to settle on one operating point for whatever is wired into it, so the weaker orientation drags the stronger one away from its maximum power point. Two independent MPPT inputs let each orientation track separately. Confirm the MPPT count and the voltage window for the exact model you are quoted, because both vary by unit."
   - q: "Can east-west solar reduce inverter clipping losses?"
     a: "Yes. Because the east and west groups never peak at the same time, the combined DC peak of an east-west array is roughly 70 to 80 percent of the nameplate sum, versus about 90 to 95 percent for a south-facing array at the same tilt. This means you can connect more panel capacity to the same inverter before clipping starts, or run a smaller inverter on the same array. Installers routinely use a 1.25 to 1.4 DC-to-AC ratio on east-west systems versus 1.1 to 1.2 on south-facing systems with minimal clipping loss."
   - q: "Is east-west solar eligible for PM Surya Ghar subsidy?"
-    a: "Yes. The PM Surya Ghar Muft Bijli Yojana subsidy does not depend on panel orientation. Any grid-connected residential rooftop system installed by an empanelled vendor with ALMM-listed modules and inverter qualifies, whether the panels face south, east, west, or a split. What matters for the subsidy is the installed capacity in kW, the ALMM listing, and DISCOM verification after commissioning. An east-west system on a gabled roof receives exactly the same subsidy per kW as a south-facing system."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Which roof types in India are best suited to east-west solar?"
     a: "Gabled or two-slope roofs with ridges running north-south are the natural fit, because both slopes can carry panels at the roof's existing pitch. This covers many Mangalore-tile and metal-sheet roofs in Kerala, coastal Karnataka, Goa, Maharashtra's Konkan belt, and the North-East. Flat RCC roofs also work well with back-to-back east-west structures at 5 to 10 degrees tilt, which fit roughly 20 to 30 percent more capacity per square metre than south-facing rows because inter-row shading gaps shrink dramatically at low tilts."
 featured: false
@@ -146,8 +146,6 @@ The fix is simple and standard:
 - Wire all west-facing panels into MPPT input 2.
 - Keep string voltages matched within each orientation: same panel count, same model, similar shading conditions.
 
-The [dual-MPPT vs single-MPPT](/blog/dual-mppt-vs-single-mppt/) comparison covers the electrical details, including what happens to string voltage windows when one side is shaded. Nearly every modern residential string inverter from 3 kW upward ships with two MPPTs, including the Qbits TLS and HS series. So this requirement rarely adds cost. What it does rule out is very old or very cheap single-MPPT units.
-
 One design caution: check the per-MPPT current rating. If your west side needs two parallel strings to balance capacity, confirm the input can take the combined current. An undersized MPPT input wastes the layout's advantage.
 
 ## Inverter Sizing and Clipping Implications
@@ -203,4 +201,4 @@ South-facing is the best orientation only when your roof can actually deliver it
 
 - **Map your roof and your load first.** Note usable slopes, pitch, and shading, then compare them with six months of bills.
 - **Demand a two-variant simulation.** Any serious quote should compare south and east-west layouts on your roof. Insist on specific yield in kWh per kWp, and confirm a dual-MPPT inverter sized for a 1.25 to 1.4 DC-to-AC ratio.
-- **Get a layout reviewed before you sign.** Share your roof details and latest bill with a Qbits engineer through [the contact page](/contact-us/). We will tell you plainly whether east-west or south-facing earns more for your home.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

@@ -17,13 +17,13 @@ keywords:
   - ip66 solar inverter hindi
 faqs:
   - q: "Solar inverter ki life kitne saal hoti hai?"
-    a: "Typical solar inverter ki life 8 se 15 saal hoti hai। Achhi quality ka on-grid string inverter, thandi aur shaded jagah par laga hua, 12 se 15 saal chal jaata hai। Hybrid inverter thoda kam, 8 se 12 saal, kyunki usmein battery charging circuit ka extra load hota hai। Sasta non-ALMM inverter garam chhat par 4 se 7 saal mein hi fail ho sakta hai। Yeh ranges hain, guarantee nahi, kyunki installation quality aur ventilation ka asar bahut bada hai।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "Solar panel aur inverter ki life mein kitna farak hai?"
     a: "Solar panels 25 se 30 saal chalte hain aur unka performance warranty aksar 25 saal ka hota hai। Inverter usse kaafi kam chalta hai, 8 se 15 saal। Iska matlab yeh hai ki 25 saal ke system life mein kam se kam ek inverter replacement lagbhag pakki hai, aur sasta inverter liya to do ya teen bhi ho sakti hain। Isliye system budget banate waqt ek replacement ka paisa alag se plan karna chahiye।"
   - q: "India mein solar inverter jaldi kharab kyun ho jaata hai?"
     a: "Sabse bada karan heat hai। 45 degree ambient aur seedhi dhoop mein inverter ke andar electrolytic capacitors ki life tezi se ghat-ti hai। Doosra karan dust ingress hai, jo heat sink aur fan block kar deta hai। Teesra, grid voltage surge aur kharab earthing, jo MOV aur power stage ko damage karte hain। Coastal areas mein humidity aur salt PCB par corrosion laate hain। Chaar mein se teen problems installation ke waqt hi rok di ja sakti hain।"
   - q: "IP66 rating solar inverter ke liye kyun zaroori hai?"
-    a: "IP66 ka matlab hai poori tarah dust-tight enclosure aur high pressure water jets se protection। India mein inverter aksar bahar deewar par lagta hai, jahan garmi mein dhool aur monsoon mein tez baarish dono milti hain। IP21 ya IP54 wale indoor-grade inverter mein dust andar chala jaata hai, heat sink choke hota hai aur temperature badh jaata hai। Qbits ke premium units IP66 protection ke saath aate hain, isliye outdoor wall mounting safe rehti hai।"
+    a: "IP66 ka matlab hai enclosure dust-tight hai aur powerful water jets se protected hai. Yeh India mein maayne rakhta hai kyunki inverter zyadatar bahar wall par mount hota hai, jahan monsoon ki barish aur dhool dono milti hain. Dhool andar jaane se heat nikalna mushkil hota hai aur paani andar jaane se corrosion aur electrical fault ho sakta hai, aur yeh dono aksar warranty exclusions mein aate hain. IP rating per model hoti hai, is liye apne exact model ki current datasheet se confirm karein, aur mounting position aisi chunein jahan direct barish aur reflected heat kam ho."
   - q: "Inverter warranty mein kya cover hota hai aur kya nahi?"
     a: "Warranty aam taur par manufacturing defect, internal component failure aur electronics ki kharabi cover karti hai। Jo cover nahi hota: lightning strike, grid ka abnormal surge, flood ya water logging, rodent damage, galat earthing, unauthorized repair, aur ventilation clearance na dene se hui overheating। Isliye warranty document ki exclusions list kharidne se pehle padhna chahiye, claim ke waqt nahi।"
   - q: "12 saal ki warranty aur 2 saal ki warranty mein kya farak padta hai?"
@@ -35,6 +35,10 @@ faqs:
 featured: false
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।
+
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 Solar system lagwate waqt sabse zyada baat panels ki hoti hai, aur sabse kam baat inverter ki life ki। Jabki practical sach yeh hai ki aapke chhat par lage saare equipment mein sabse pehle inverter hi jaata hai। Panels chup-chaap 25 saal kaam karte rehte hain, aur inverter beech mein ek baar, kabhi kabhi do baar, badalna padta hai। Yeh guide us hi topic par honest jawab deti hai: solar inverter ki life kitni hoti hai, Indian conditions mein usko kya maarta hai, warranty asal mein kya cover karti hai, aur 25 saal ka budget kaise banayein taaki woh din surprise na bane।
 
 > **TL;DR**
@@ -43,9 +47,6 @@ Solar system lagwate waqt sabse zyada baat panels ki hoti hai, aur sabse kam baa
 > - Heat sabse bada killer hai, uske baad dust ingress, voltage surge aur kharab earthing।
 > - IP66 enclosure Indian outdoor conditions mein dust aur monsoon dono se bachaata hai।
 > - 1 se 2 saal warranty wala sasta inverter 25 saal ke TCO mein aksar sabse mehnga padta hai।
-> - Qbits ke premium units par 12 saal ki full replacement warranty milti hai, jo system life ka aadha se zyada hissa cover kar leti hai।
-
-**Chhota jawab.** Solar inverter ki life India mein aam taur par 8 se 15 saal hoti hai। On-grid [string inverter](/glossary/string-inverter/) achhi ventilation aur shade ke saath 12 se 15 saal tak chalta hai, [hybrid inverter](/glossary/hybrid-inverter/) 8 se 12 saal, aur sasta non-ALMM unit garam chhat par 4 se 7 saal mein fail ho sakta hai। Panels 25 saal chalte hain, isliye kam se kam ek replacement plan karna chahiye।
 
 Yeh numbers ranges hain, promise nahi। Do bilkul same model ke inverter, ek Kerala ki coastal humidity mein aur doosra Jaipur ki chhat par bina shade ke, alag alag saal chalenge। Agar aap basics se shuru kar rahe hain to pehle [solar inverter kya hai](/blog/solar-inverter-kya-hai-hindi/) padh lijiye, phir yahan wapas aaiye।
 
@@ -60,7 +61,7 @@ Har inverter ek jaisa nahi chalta। Andar ke components aur unka duty cycle lif
 | On-grid string inverter | 10 se 15 saal | Heat, capacitor ageing, dust |
 | Hybrid inverter | 8 se 12 saal | Battery charging cycles, extra heat load |
 | Off-grid inverter | 7 se 12 saal | Deep cycling, overload, poor ventilation |
-| Budget non-ALMM inverter | 4 se 8 saal | Low grade capacitors, IP21 enclosure |
+
 | DC cables aur connectors | 15 se 20 saal | UV degradation, loose MC4 joints |
 | Lead acid battery | 3 se 5 saal | Deep discharge, heat |
 | LiFePO4 battery | 8 se 12 saal | Cycle count, high temperature |
@@ -111,7 +112,7 @@ IP65 aur IP66 mein pehla digit same hai, dono dust tight hain। Farak paani ke 
 
 ## Warranty Asal mein Kya Cover Karti Hai aur Kya Nahi
 
-"12 saal ki warranty" sunne mein simple lagta hai, lekin document padhna zaroori hai। Do cheezein alag alag hoti hain: repair-only warranty aur full replacement warranty। Repair-only mein company unit theek karke wapas bhejti hai, jisme weeks lag sakte hain। Full replacement mein defective unit ki jagah nayi unit milti hai।
+"12 saal ki warranty" sunne mein simple lagta hai, lekin document padhna zaroori hai। Do cheezein alag alag hoti hain: repair-only warranty aur warranty with a written remedy। Repair-only mein company unit theek karke wapas bhejti hai, jisme weeks lag sakte hain। Full replacement mein defective unit ki jagah nayi unit milti hai।
 
 Aam taur par **cover hota hai**: manufacturing defect, internal power stage failure, control board failure, display aur communication module ki kharabi, aur normal operating conditions mein hua component failure।
 
@@ -154,7 +155,7 @@ Isi TCO logic ka English breakdown [inverter total cost of ownership](/blog/inve
 
 <div class="inline-cta">
 <h3>12 saal warranty wale models dekh lijiye</h3>
-<p>Qbits ki on-grid range QB 1.5KTLS se QB 6KTLS tak aur hybrid range QBH 3KS se QBH 6KS48P tak, IP66 enclosure aur 12 saal full replacement warranty ke saath।</p>
+
 <a href="/our-products/" class="cta-btn">Product Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Single-phase 1.5 kW se 6 kW tak</p>
 </div>
@@ -203,7 +204,7 @@ In signs par jaldi action lene se aksar ek chhoti si repair, jaise fan replaceme
 
 <div class="inline-cta">
 <h3>Apne district ka certified service partner dhoondhiye</h3>
-<p>Error code, dust cleaning ya annual inspection, sab kuch trained Qbits partner se karwayein taaki warranty intact rahe aur unit ki life poori mile।</p>
+
 <a href="/authorized-service-partners/" class="cta-btn">Partner Locator Kholein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">District-wise certified dealers aur technicians</p>
 </div>
@@ -249,4 +250,3 @@ Teen kaam abhi kar lijiye:
 
 1. Apne current ya proposed inverter ki mounting location check kijiye। West facing seedhi dhoop mein hai to shade ka intezaam karwaiye, yeh sabse sasta life extension hai।
 2. Warranty document nikaliye aur exclusions wala paragraph padhiye। Kya cover nahi hai, yeh jaanna kya cover hai usse zyada useful hai।
-3. Apne system size ke hisaab se saalana replacement fund shuru kijiye, aur agar naya system le rahe hain to sirf 12 saal warranty wale ALMM listed models shortlist kijiye। [Qbits engineer se free consultation](/contact-us/) le sakte hain, aapke roof, state aur grid conditions ke hisaab se sahi model suggest ho jaayega।

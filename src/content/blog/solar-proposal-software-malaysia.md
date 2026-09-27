@@ -158,4 +158,4 @@ Malaysian quoting is an administrative discipline wrapped around genuinely good 
 
 - **Compute 75% of Maximum Demand before designing.** Roof area is irrelevant above that ceiling, and quoting above it costs a quota round.
 - **State the 4 to 6 month timeline and the quota dependency.** Customers assume installation means generation, and correcting that after signing is the worst time to do it.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address and MD figure, or reach the Qbits team [here](/contact-us/) for MS IEC 62109 compliant inverter options.
+

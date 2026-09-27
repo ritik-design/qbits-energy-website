@@ -229,18 +229,16 @@ Elsewhere in the Heaven Group network, see [how to evaluate installer credibilit
 
 ## Where Qbits Fits
 
-Qbits serves the EPC installer and homeowner who installs a permanent system, either for the property owner or for a tenant with written ownership rights in the lease. For tenants who have secured landlord consent for a grid-connected system, Qbits HS and HT series hybrid inverters provide:
+- A hybrid system can serve selected loads only when the exact inverter, battery and backup distribution are designed for them.
+- Monitoring access, alert channels and account transfer between tenants must be confirmed for the exact logger and application.
+- PM Surya Ghar eligibility depends on the applicant, connection, vendor, equipment and current process. ALMM is not an inverter list.
+- Warranty duration, remedy and transfer to a later tenant or owner are not established until stated in current written terms.
 
-- Battery backup for the critical loads the tenant cares most about (fan, fridge, phone, lighting) during grid outages.
-- WhatsApp monitoring that sends generation reports to the tenant's phone, no app login required.
-- ALMM compliance for PM Surya Ghar subsidy claims through the landlord.
-- 12-year full replacement warranty that covers the system through two or three successive tenancies.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery backup for rented homes where outage protection matters.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[On-Grid Inverters](/on-grid-inverter/)**: for tenant-landlord agreements where the grid connection and net metering is the primary goal.
 - **[Battery Backup Calculator](/blog/solar-battery-backup-calculator/)**: calculate the battery size needed for critical load backup at a rented home.
-- **[Authorised Service Partners](/authorized-service-partners/)**: local service in 280+ cities means a tenant can get inverter support regardless of which city the rental property is in.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope and fees for the property.
 
 Once a landlord agrees to install, Heaven Green Energy's installer directory helps locate a vetted local installer for the physical installation.
 
-[Talk to a Qbits engineer](/contact-us/) about the right solar configuration for a rented home, whether permanent grid-connected or hybrid with battery, the system design should match the tenancy structure and the tenant's timeline for recovery.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

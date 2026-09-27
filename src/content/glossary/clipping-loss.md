@@ -209,8 +209,6 @@ Clipping loss is the energy lost when DC array generation exceeds inverter AC ra
 
 ## Need optimised DC/AC sizing for your solar plant?
 
-QBits Energy provides PVsyst-based DC/AC optimisation and clipping analysis for residential, C&I and utility solar projects across Indian conditions.
-
 ## Further reading
 
 For how Clipping Loss plays out in real projects, these guides go deeper:

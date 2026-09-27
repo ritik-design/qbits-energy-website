@@ -26,10 +26,14 @@ faqs:
   - q: "What is the ROI on solar for a petrol pump in India?"
     a: "A petrol pump spending ₹1.5–2 Lakh/month on electricity can install a 20 kW solar system generating approximately 2,400 kWh/month (saving ₹19,200–₹28,800/month at ₹8–12/unit). At a system cost of ₹12–15 Lakh, simple payback is 3.5–5 years. If the petrol pump also runs a DG set for power-cut backup, replacing DG hours with solar saves ₹15–25/unit of generation - dramatically improving the economics. Net savings over 20 years: ₹40–60 Lakh."
   - q: "Can a petrol pump get net metering in India?"
-    a: "Yes. Petrol pumps with a commercial electricity connection are eligible for net metering under state DISCOM net metering regulations, provided they install a solar system with a DISCOM-compliant inverter (ALMM-listed, anti-islanding certified). The process is the same as for any commercial consumer: apply to the DISCOM, get system design approved, install, pass inspection, and get a bidirectional meter. Surplus daytime generation is credited against nighttime consumption."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What happens to solar generation at night when the petrol pump is open?"
     a: "Many petrol pumps in India operate 24 hours. Solar generates only during daylight hours. For nighttime loads, the pump draws from the grid or DG as before. The solar system reduces daytime grid import significantly, while nighttime loads are unchanged. Net metering credits built up during daytime help offset the nighttime grid bill. For petrol pumps with significant nighttime DG costs, a battery storage system paired with a hybrid inverter can store daytime solar generation for nighttime use - reducing DG running hours."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 A [petrol pump](https://www.heavengreenenergy.com/blog/solar-for-petrol-pump) owner in India faces a paradox: they sell a hydrocarbon fuel whose price they have no control over, yet they pay electricity bills of ₹1–3 Lakh per month for the equipment that makes the business run. Fuel dispensers, air compressors, canopy lighting, CCTV, POS systems, air conditioning, and EV charging, all drawing power 12–24 hours a day.
 
@@ -188,13 +192,8 @@ Read the full [net metering India complete guide](/blog/net-metering-india-compl
 
 ## Where Qbits Fits
 
-Qbits on-grid and hybrid inverters are IP66-rated, making them suitable for the outdoor electrical rooms common at petrol pump sites, exposed to rain, dust, and temperature extremes. The 12-year full replacement warranty eliminates the risk of inverter failure mid-contract, and the AI WhatsApp monitoring alerts the pump manager to any underperformance without requiring a separate monitoring subscription.
-
-For petrol pump PESO compliance, Qbits works with its authorised EPC network to provide site-specific zone compliance documentation.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS series from 5–50 kW for petrol pump grid-tied applications; [ALMM-listed](/glossary/almm-list/), [anti-islanding](/glossary/anti-islanding/) certified.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HT series for pumps that want to use battery storage to offset nighttime DG consumption.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: model the canopy area solar output before procurement.
-- **[Authorised Service Partners](/authorized-service-partners/)**: nationwide service coverage for warranty support.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
 [Request a petrol pump solar assessment](/contact-us/), Qbits authorised EPCs with PESO experience handle zone compliance, canopy structural assessment, and net metering from a single point of contact.

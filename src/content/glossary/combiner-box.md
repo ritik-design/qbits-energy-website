@@ -236,8 +236,6 @@ Combiner boxes parallel multiple PV strings on the DC side with per-string fuse 
 
 ## Need combiner box solutions for your solar plant?
 
-QBits Energy supplies IEC 62548-compliant combiner boxes including smart variants for utility and large C&I solar plants across India.
-
 ## Further reading
 
 For how Combiner Box plays out in real projects, these guides go deeper:

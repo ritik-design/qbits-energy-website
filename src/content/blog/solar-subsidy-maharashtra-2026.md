@@ -35,6 +35,8 @@ faqs:
     a: "For a homeowner in Pune paying ₹4,000 to ₹8,000 per month in electricity bills, a 3 kW to 5 kW rooftop solar system is typically optimal. A 3 kW system maximises the PM Surya Ghar subsidy at ₹78,000, generates 360 to 420 units per month under Pune's sunlight conditions, and suits a 2 BHK to 3 BHK home. Homeowners with higher consumption or plans to add an EV charger should consider 4 kW to 5 kW, though the central subsidy cap remains at 3 kW."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Maharashtra's electricity [tariffs](/glossary/tariff/) are among the highest in India, MSEDCL residential consumers in the upper consumption slab pay ₹9 to ₹11 per unit, while even modest consumers pay ₹7 to ₹8 per unit. When you combine those tariff levels with a three-layer subsidy stack and a [net metering](https://quickestimate.co/blog/msedcl-net-metering-guide) framework that credits exports at retail rates, the financial case for rooftop solar in Maharashtra becomes difficult to ignore. But navigating the Maharashtra solar subsidy landscape in 2026 requires understanding two parallel schemes, four different DISCOMs, and an approval process that can take anywhere from 30 to 90 days depending on which side of Mumbai's boundary your meter sits.
 
 > **TL;DR**
@@ -43,7 +45,6 @@ Maharashtra's electricity [tariffs](/glossary/tariff/) are among the highest in 
 > - Net metering credits exports at the retail import tariff (₹5.50–₹8.00/unit for MSEDCL), not a lower avoided-cost rate, a structural advantage over many other states.
 > - A Pune 4 kW case study shows a post-subsidy payback of roughly 4.2 to 4.8 years once fixed charges are accounted for.
 > - KUSUM Component B (agricultural pumps) is a separate scheme from PM Surya Ghar, split 30% central, 30% state, 40% farmer contribution.
-> - Installing before DISCOM feasibility approval, or using a non-ALMM inverter, are the two most common reasons Maharashtra subsidy claims are rejected.
 
 > **Direct answer.** Maharashtra homeowners can access up to ₹78,000 in central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) plus MEDA state incentives on the same rooftop solar installation. Combined with MSEDCL's retail-rate net metering credits and Maharashtra's high electricity tariff (₹7–₹11 per unit), the Maharashtra Solar Savings Stack delivers payback in 4 to 5 years on a 4 kW system, faster than the national average. Apply through [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) for the central scheme and [meda.gov.in](https://meda.gov.in/) for the state layer.
 
@@ -62,8 +63,6 @@ The **MEDA (Maharashtra Energy Development Agency) scheme** is the state-level c
 | **PM Surya Ghar** | MNRE / Central govt | ₹78,000 (3 kW) | pmsuryaghar.gov.in | 30–60 days post-commissioning |
 | **MEDA Rooftop Solar** | Maharashtra state govt | Per-kW state incentive | meda.gov.in | 30–45 days post-commissioning |
 | **Net Metering Credits** | DISCOM (MSEDCL / BEST / Tata / Adani) | Ongoing monthly bill offset | DISCOM portal | Lifetime of system |
-
-Both central and state subsidies require the same baseline: an ALMM-listed inverter, an empanelled installer, and DISCOM commissioning. Install once, claim both. For a full breakdown of the [PM Surya Ghar subsidy amounts](/blog/pm-surya-ghar-yojana-complete-guide/), the eligibility rules, and the national application process, that pillar post covers every step.
 
 ## The Maharashtra Solar Savings Stack: 3 Layers of Financial Benefit
 
@@ -107,8 +106,6 @@ One of the most common mistakes Maharashtra solar applicants make is treating MS
 
 MSEDCL is Maharashtra's largest [DISCOM](/glossary/discom/), serving the vast majority of the state including Pune, Nashik, Nagpur, Aurangabad, Solapur, Amravati, Kolhapur, and all rural Maharashtra. MSEDCL's net metering process runs through its dedicated portal at [msedcl.in](https://www.msedcl.in/).
 
-The MSEDCL net metering process has a reputation among installers as one of the more procedurally demanding in India. Applicants must submit a detailed technical package including a single-line diagram, inverter datasheet (ALMM-listed), panel layout, structural certificate, and electrical completion certificate from a CEIG-empanelled engineer. Each document must match the installed configuration exactly, mismatches cause rejection and restart the timeline.
-
 Realistic timeline: **60 to 90 days** from application submission to bidirectional meter installation. Urban MSEDCL divisions (Pune City, Nashik City) process closer to 45 to 60 days. Rural sub-divisions can exceed 90 days due to meter supply backlogs.
 
 ### BEST (Brihanmumbai Electric Supply and Transport)
@@ -144,8 +141,6 @@ Submit the online feasibility application through your DISCOM portal (linked to 
 
 **Step 3, Appoint an Empanelled Installer and Select ALMM Equipment**
 
-Choose a DISCOM-empanelled solar installer. Verify that the proposed inverter model appears on the MNRE [ALMM list](/glossary/almm-list/) at mnre.gov.in, this is the single most common cause of rejected PM Surya Ghar claims. Panels must also be from ALMM-listed manufacturers. For MSEDCL, the installer must additionally be registered on the MSEDCL empanelled vendor list, not just the national portal.
-
 **Step 4, Installation, Electrical Certification, and MEDA Application**
 
 After installation, obtain the electrical completion certificate from a CEIG-empanelled contractor. Simultaneously, file your MEDA state incentive application through meda.gov.in with your DISCOM consumer number, installer details, system specifications, and bank account details.
@@ -169,7 +164,7 @@ For the majority of Maharashtra homeowners, MSEDCL is the relevant DISCOM, and M
 The most common causes of delay or rejection in MSEDCL net metering applications are:
 
 - **Mismatched technical documents**: the single-line diagram must match the actual installed configuration. Any deviation (inverter model change, panel brand substitution) requires a fresh submission.
-- **Non-ALMM inverter or panel**: MSEDCL inspectors check ALMM compliance at the commissioning visit. A non-ALMM inverter fails inspection regardless of its technical quality.
+
 - **Sanctioned load mismatch**: if your proposed system exceeds your sanctioned load, MSEDCL will reject the feasibility application. Apply for a load enhancement first, then apply for net metering.
 - **Missing CEIG certification**: for systems above a certain capacity threshold, an electrical certificate from a CEIG (Chief Electrical Inspector to Government)-empanelled contractor is mandatory in Maharashtra. This is often overlooked by new installers.
 
@@ -210,7 +205,7 @@ This payback is faster than the national average for rooftop solar in India, whi
 
 **What happens after payback?**
 
-After the 4.2 to 4.8 year payback window, the system generates pure financial surplus. A quality solar inverter with a 12-year warranty and panels with a 25-year performance guarantee will continue producing for two more decades. At a conservative 3% annual tariff escalation, the post-payback savings over the remaining 20 years of system life exceed ₹15 lakh for this Pune homeowner, without accounting for any future tariff increases beyond 3%.
+After the 4.2 to 4.8 year payback window, the system generates pure financial surplus. A quality solar inverter with a model-specific written warranty and panels with a 25-year performance guarantee will continue producing for two more decades. At a conservative 3% annual tariff escalation, the post-payback savings over the remaining 20 years of system life exceed ₹15 lakh for this Pune homeowner, without accounting for any future tariff increases beyond 3%.
 
 ## KUSUM Scheme in Maharashtra: Agricultural Solar Briefly Explained
 
@@ -256,7 +251,7 @@ The financial case for installing in 2026 is strong. Every month of delay costs 
 Installers and consumers who have navigated the Maharashtra solar subsidy process report a consistent set of avoidable errors. Knowing them before you apply saves weeks of delay.
 
 - **Installing before DISCOM feasibility approval**: the PM Surya Ghar portal requires a valid feasibility letter before the commissioning report is accepted. Systems installed without prior approval are ineligible for the central subsidy regardless of equipment quality.
-- **Using a non-ALMM inverter**: even a technically sound inverter from a reputable brand will fail MSEDCL's commissioning inspection if it is not on the MNRE ALMM list. Verify every proposed inverter model at [mnre.gov.in](https://mnre.gov.in/) before signing any installation contract.
+
 - **Applying to MEDA after MSEDCL has already processed the commissioning**: some applicants forget to file the MEDA application simultaneously with the commissioning process. MEDA applications should be submitted at Step 4 (installation complete, commissioning pending) rather than after commissioning.
 - **Choosing a non-empanelled installer**: MSEDCL maintains its own empanelled vendor list which sometimes differs from the national portal's empanelled list. Confirm your installer is on both.
 - **Ignoring the sanctioned load**: if your proposed solar system capacity exceeds your sanctioned load, MSEDCL will reject the feasibility application. Check your bill for "sanctioned load" or "contracted demand" before sizing the system.
@@ -268,12 +263,7 @@ Separately, if you are evaluating which inverter to select for a subsidy-linked 
 
 ## Where Qbits Fits in Maharashtra's Solar Market
 
-Maharashtra is a core market for Qbits Energy. The state's combination of high electricity tariffs, a technically demanding MSEDCL net metering process, and a 25-year investment horizon makes inverter quality selection consequential in a way that low-tariff states are not. A Maharashtra homeowner paying ₹8.50 per unit who installs a substandard inverter that fails at year 6 faces both repair cost and lost generation, both of which erode the carefully stacked savings described in this guide.
-
-Qbits inverters are ALMM-listed, which means they are fully eligible for PM Surya Ghar subsidy, pass MSEDCL commissioning inspections, and qualify for MEDA incentive documentation. The 12-year full replacement warranty is particularly relevant in the Maharashtra context, where the net metering savings stack operates over a 20 to 25 year period. IP66 weather protection handles Maharashtra's coastal humidity and the Pune and Nashik monsoon seasons without derating. AI-powered WhatsApp monitoring notifies the homeowner of any generation drop before it becomes a billing problem.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed and subsidy-eligible for PM Surya Ghar in Maharashtra.
-- **[Residential Solar Solution](/residential-solution/)**: complete package designed for Indian homeowner requirements, including MSEDCL documentation support.
+- **[Residential Solutions](/residential-solution/)**: Ask which equipment and project services are available, then obtain the scope, responsible party, exclusions and fees in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: size your Maharashtra rooftop system correctly before approaching MSEDCL for feasibility approval.
 
-[Talk to a Qbits engineer](/contact-us/) about sizing and subsidy documentation for your Maharashtra installation, most system assessments are completed within 24 hours, and the team has specific experience with MSEDCL empanelment requirements and MEDA application workflows.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

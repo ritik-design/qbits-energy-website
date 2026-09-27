@@ -148,4 +148,4 @@ Canadian shading analysis is about December, and the annual average is the wrong
 
 - **Report shading monthly, not annually.** A 5% annual loss can be a 23% December loss, and the customer experiences the second one.
 - **Price the loss against the province.** A shaded kWh is worth roughly three times more in Ontario than in Manitoba, and that decides whether mitigation pays.
-- **Run a real roof before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Canadian address, or reach the Qbits team [here](/contact-us/) for inverter and optimiser specification against the finished design.
+

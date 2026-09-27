@@ -224,8 +224,6 @@ WACC is the blended cost of project financing, weighted between debt and equity.
 
 ## Need WACC analysis for your solar project?
 
-QBits Energy provides project finance WACC modelling and discount rate analysis for Indian utility, C&I and residential solar projects.
-
 ## Further reading
 
 For how WACC plays out in real projects, these guides go deeper:

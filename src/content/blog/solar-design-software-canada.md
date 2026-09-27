@@ -189,4 +189,4 @@ Canada is the market where treating solar software as a US purchase costs the mo
 
 - **Check the code library before the feature list.** Ask any vendor to show CSA C22.1 Section 64 conductor derates applied to a live design. If the answer is that you should review it manually, that is your answer.
 - **Model your actual province, not Canada.** Ontario at retail and Manitoba at 4.39 cents call for opposite sizing decisions on identical hardware.
-- **Design a live project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a real Canadian address, or reach the Qbits team [here](/contact-us/) to confirm certification-compliant inverter options for the resulting BOQ.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

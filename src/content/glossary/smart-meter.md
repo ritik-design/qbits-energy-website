@@ -276,8 +276,6 @@ Smart meters are the foundation of AMI, time-of-day tariffs and distributed gene
 
 ## Need help with smart meter coordination?
 
-QBits Energy supports rooftop solar customers through smart meter procurement, DISCOM coordination and PM Surya Ghar subsidy claim.
-
 ## Further reading
 
 For how Smart Meter plays out in real projects, these guides go deeper:

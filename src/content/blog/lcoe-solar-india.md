@@ -30,8 +30,12 @@ faqs:
   - q: "How does LCOE compare to a Power Purchase Agreement (PPA) rate?"
     a: "A PPA rate is the per-unit price an RESCO charges a C&I buyer in a zero-CAPEX arrangement. Typical PPA rates in India range from ₹4.5–6.5/kWh for commercial rooftop installations. A buyer with CAPEX access and a company WACC below 10% should calculate their own LCOE first - if their LCOE is ₹2.8/kWh, a PPA at ₹5.5/kWh is not in their interest. The LCOE calculation is therefore the benchmark against which a PPA offer should be judged."
   - q: "What inputs does a bank or project financier require for C&I solar loan approval?"
-    a: "Banks and NBFCs (including IREDA) typically require: a detailed LCOE model, a Debt Service Coverage Ratio (DSCR) projection for each loan year (minimum 1.2×), an energy yield assessment from a certified energy auditor or PVsyst simulation, proof of off-take security (DISCOM net metering agreement or captive consumption certificate), and equipment bankability confirmation including the inverter manufacturer's warranty and BIS/ALMM compliance. Projects that cannot demonstrate DSCR above 1.2× at a 10% stress scenario are unlikely to receive sanction."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Every month, finance managers at Indian factories, hospitals, and commercial buildings receive electricity bills that run ₹3–15 lakh. The question that lands on a CFO's desk is almost always the same: "Should we install solar, and if so, what does the electricity actually cost us over 25 years?" The answer requires one number, the [LCOE](/glossary/lcoe/), or Levelised Cost of Energy. LCOE of solar in India for a well-sized C&I plant works out to ₹2.5–3.5 per kWh. The grid charges ₹7–12. Diesel costs ₹18–25. The arithmetic is unambiguous once you know how to build the model correctly.
 
@@ -284,21 +288,16 @@ If a C&I project is being submitted to a bank or NBFC for term loan approval, th
 - **Independent energy yield assessment**: a PVsyst simulation or third-party solar resource assessment confirming the generation assumption. The lender does not accept EPC projections at face value.
 - **Degradation schedule documentation**: the module manufacturer's datasheet showing the 0.5%/year linear degradation guarantee (the standard for tier-1 monocrystalline modules).
 - **O&M contract**: a signed Annual Maintenance Contract from the EPC or O&M provider, with pricing that matches the LCOE model's O&M assumption.
-- **Equipment bankability confirmation**: the inverter manufacturer's warranty terms, BIS and ALMM certification status, and financial standing. An inverter from an unrated manufacturer without ALMM listing is a bankability red flag for most lenders.
-- **DSCR projection**: year-by-year cash flow showing that net cash (generation × avoided tariff − O&M − debt service) is positive and above 1.2× debt service in every loan year.
 
-Inverters with a 12-year full replacement warranty (as offered by Qbits on the C&I series) materially strengthen the bankability documentation. The warranty eliminates the need to provision for a mid-life inverter replacement in the financial model, which would otherwise appear as a ₹3–8 lakh cash outflow in Year 10–12 and reduce DSCR in those years below the minimum threshold. The [inverter warranty](/blog/solar-inverter-warranty/) post explains how warranty structure affects project finance documentation.
+- **DSCR projection**: year-by-year cash flow showing that net cash (generation × avoided tariff − O&M − debt service) is positive and above 1.2× debt service in every loan year.
 
 ## Where Qbits Fits in the C&I LCOE Equation
 
 C&I buyers who build the LCOE model correctly (using the six-input framework above) arrive at a consistent conclusion: the CAPEX is the largest single driver of LCOE, the inverter is the single most warranty-sensitive component in the system, and the O&M cost is materially influenced by inverter reliability. A 50 kW commercial plant with a single inverter failure in Year 6 (out of warranty, unmonitored) faces a replacement cost of ₹1.5–3.5 lakh plus downtime losses. That cost, inserted into the LCOE model, shifts the effective cost per unit by ₹0.20–0.45/kWh.
 
-Qbits C&I inverters are built around three decisions that directly address the LCOE model's most sensitive variables:
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 10 kW to 100 kW, ALMM-listed, BIS-certified, with a [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/). The 12-year coverage eliminates the mid-life replacement provision from the financial model, directly improving DSCR in Years 8–12.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with integrated DG sync capability and battery readiness. For facilities that displace diesel as well as grid power, the blended LCOE calculation (solar versus mixed DG/grid baseline) makes the hybrid configuration financially superior despite the higher upfront cost.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[C&I Solutions page](/c-i-solution/)**: application-specific guidance for factories, hospitals, educational institutions, and commercial buildings, including load profiling tools and reference LCOE models for common C&I segments.
 
-For a LCOE model review, equipment specification, or project finance documentation support, the Qbits engineering team works directly with CFOs, CAs, and EPC contractors. [Talk to a Qbits engineer](/contact-us/), most site assessments and preliminary LCOE reviews are completed within 24–48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 The arithmetic of solar LCOE in India is no longer a projection or an aspiration. At ₹2.5–3.5/kWh against a grid tariff of ₹7–12/kWh, the financial case closes itself. The only question that remains is whether the modelling is done correctly, and whether the inverter at the centre of the system is backed by a warranty and a service organisation that the model can actually rely on.

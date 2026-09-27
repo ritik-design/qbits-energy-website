@@ -222,8 +222,6 @@ Thermal runaway is uncontrolled battery overheating leading to fire or explosion
 
 ## Need thermally safe storage solutions?
 
-QBits Energy supplies IS 16893 certified LFP battery systems with BMS protection and thermal management designed for Indian climate conditions.
-
 ## Further reading
 
 For how Thermal Runaway plays out in real projects, these guides go deeper:

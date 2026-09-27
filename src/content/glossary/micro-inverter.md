@@ -51,7 +51,7 @@ faqs:
   - q: "Can micro inverters be paired with a battery?"
     a: "Yes, through AC coupling. A separate battery inverter or AC battery sits beside the AC trunk and absorbs surplus or supplies backup AC during grid outages."
   - q: "Are micro inverters ALMM listed in India?"
-    a: "Enphase IQ7 and IQ8 series are ALMM-listed for Indian residential. Most other micro inverter brands are not. Verify ALMM status on the day of subsidy claim."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What is the efficiency of a micro inverter?"
     a: "Modern micro inverters hit 95 to 97 percent peak efficiency, with weighted efficiency around 96.5 percent. The slightly lower efficiency than string inverters is usually offset by better mismatch and shading performance."
   - q: "Why are micro inverters more expensive?"
@@ -69,6 +69,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is a micro inverter
 
 A micro inverter is a small solar inverter mounted directly under each PV module. Each unit converts the DC output of a single panel into grid-quality AC at the panel itself. The output trunk carries AC, not DC, from the array to the home distribution board.
@@ -78,7 +80,7 @@ A micro inverter is a small solar inverter mounted directly under each PV module
 > - It is a module-level power electronics (MLPE) device, alongside DC optimisers, and recovers 5 to 25 percent more energy on shaded Indian roofs.
 > - Roof DC voltage stays capped at one panel's Voc, around 40 to 50 V, which eliminates most rooftop DC arc-fault risk.
 > - Peak efficiency runs 95 to 97 percent, a little below the 97 to 98.6 percent of string inverters, but shade and mismatch recovery usually offsets the gap.
-> - Cost is 2 to 3 times higher per watt than string inverters in India, and ALMM listing is still limited to a handful of SKUs such as Enphase IQ7 and IQ8.
+
 > - Micro inverters remain a niche, roughly 3 to 5 percent of new Indian residential installations as of 2025, concentrated in premium and shaded rooftops.
 
 It is a member of the [module-level power electronics](/glossary/mlpe/) family, which also includes [DC optimisers](/glossary/dc-optimiser/) and AC modules. The defining characteristic is that conversion happens at the module, not at a centralised inverter on a wall.
@@ -183,8 +185,6 @@ Slightly lower [peak efficiency](/glossary/inverter-efficiency/). 95 to 97 perce
 
 Roof access for service. Replacing a failed unit means climbing on the roof and removing one or more panels.
 
-Limited [ALMM](/glossary/almm-list/) availability. Subsidy eligibility under [PM Surya Ghar](/glossary/pm-surya-ghar/) requires ALMM listing. Most micro inverter SKUs are not yet listed.
-
 Higher BOM complexity for installers. AC trunk, gateway, branch terminators and multiple breakers add line items.
 
 ## Common problems
@@ -266,17 +266,7 @@ Installing the gateway in a metal enclosure. Lost WiFi and lost PLC connectivity
 
 Forgetting to update the monitoring software when adding new panels. The new panels show as offline indefinitely.
 
-Buying micro inverters that are not ALMM-listed for a subsidised project. Subsidy disbursement stalls.
-
 Treating micro inverters as fit-and-forget. The 25-year warranty matters only if monitoring catches faults within the claim window.
-
-## Key takeaways
-
-Micro inverters are the right pick for complex, shaded or aesthetically sensitive Indian rooftops where every panel earns its keep. They cost more, they put more electronics on the roof, and they deliver granular monitoring and panel-level MPPT. ALMM-listed models exist but are limited. For unshaded clean roofs and for C&I, string inverters remain the cost-effective default.
-
-## Looking for a micro inverter system?
-
-QBits Energy installs Enphase and other ALMM-listed micro inverter systems for premium residential and small commercial projects. Reach out for a shading study and a comparison against a string-inverter alternative for your roof.
 
 ## Further reading
 

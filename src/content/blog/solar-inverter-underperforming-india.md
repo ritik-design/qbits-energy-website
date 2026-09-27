@@ -22,7 +22,7 @@ faqs:
   - q: "What is the most common cause of solar inverter underperformance in India?"
     a: "Dust and soiling on solar panels is the most common cause, accounting for the majority of underperformance reports in Indian rooftop installations. Dust accumulation in arid zones - Rajasthan, Gujarat, northern plains - reduces panel output by 10–30% within 3–4 weeks without cleaning. This is also the easiest cause to rule out: clean the panels and recheck output the next clear morning. If output recovers by more than 8%, soiling was the primary cause. If output does not recover meaningfully, investigate the remaining nine causes in order."
   - q: "Can a firmware update on the inverter improve output?"
-    a: "Yes. Inverter firmware governs MPPT algorithm behaviour, grid protection thresholds, and reactive power settings. Outdated firmware may use a less efficient MPPT search algorithm that misses the true maximum power point under variable irradiance - particularly during morning ramp-up and partially cloudy conditions. Manufacturers release firmware updates that improve MPPT tracking efficiency by 1–3% in variable conditions. For Qbits inverters, firmware updates are delivered over Wi-Fi and can be applied without a service visit using the monitoring application."
+    a: "Rarely in the sense people hope for. Firmware governs control and protection behaviour, not the conversion efficiency of the hardware, so an update is not a performance upgrade. What it can do is recover generation you were losing to a fault, for example by correcting an MPPT tracking bug or reducing nuisance tripping on a weak grid, and that can look like an output improvement. Have updates done by authorised service personnel and recorded, because unauthorised firmware or protection-setting changes are a standard warranty exclusion."
   - q: "How does inverter clipping cause underperformance?"
     a: "Inverter clipping occurs when the total panel capacity in kWp DC exceeds the inverter AC rating in kW AC. When irradiance is high enough that panels generate more DC power than the inverter can export, the inverter limits AC output to its rated capacity. The monitoring data shows a flat plateau at the inverter rated output for 2–4 hours on clear days. Clipping losses of 3–8% annually are acceptable in low-irradiance locations, but DC:AC ratios above 1.4–1.5 in high-irradiance states like Rajasthan and Gujarat cause excessive clipping that measurably reduces annual yield."
   - q: "What are loose DC connections and why do they cause underperformance?"
@@ -32,7 +32,7 @@ faqs:
   - q: "When should I call a technician rather than self-diagnosing?"
     a: "Self-diagnosis using the 10-Cause Underperformance Audit covers causes 1 through 5 and 9 through 10 without any equipment. Call a qualified technician when: the monitoring app shows a string at less than 50% of expected output and panel cleaning did not resolve it; there are burning smells or visible discolouration on the inverter or panels; a DC arc fault or ground fault event has occurred; the inverter logs recurring error codes alongside low output; or the performance ratio has declined more than 1% per year for two or more consecutive years."
   - q: "Does an older inverter underperform compared to a new one?"
-    a: "Inverter conversion efficiency is highly stable throughout the service life when the unit is functioning correctly - efficiency does not degrade meaningfully with age in a healthy inverter. The more common age-related underperformance comes from outdated firmware using a less sophisticated MPPT algorithm than current standards, and from accumulated dust on cooling fins that increases thermal derating frequency. A well-maintained inverter under Qbits 12-year full replacement warranty should not show meaningful efficiency decline within its warranty period."
+    a: "Do not assume a universal ageing curve. Compare current measurements with the exact model's test conditions and commissioning baseline, then check temperature, loading, array condition, grid events, firmware and instrumentation. The retained Qbits warranty evidence does not promise a particular efficiency trend or remedy."
   - q: "Why does my solar inverter underperform in the afternoon even on sunny days?"
     a: "Afternoon underperformance on sunny days is the characteristic signature of thermal derating. Solar inverters are designed to reduce output when internal temperature exceeds the safe operating threshold - typically 40–45 °C ambient. In Indian summers, west-facing inverter installations and sealed enclosures reach these temperatures from noon onwards. The fix is ventilation improvement - clearance around the inverter, exhaust fan in enclosures, shade canopy for direct-sun mounting positions - rather than inverter replacement."
 ---
@@ -46,9 +46,6 @@ This is solar inverter underperformance: partial yield loss without system shutd
 > - The 10-Cause Underperformance Audit orders causes from easiest to hardest to diagnose; causes 1–5 (dust, thermal derating, clipping, shading, ageing panels) resolve roughly 85% of cases without a technician.
 > - A healthy Indian rooftop system runs a [Performance Ratio](/glossary/pr/) of 0.75–0.85; a PR below 0.70 on a 7-day rolling average confirms a real underperformance condition worth investigating.
 > - Dust and soiling is the single most common cause, cutting output 10–30% within 3–5 weeks in arid zones like Rajasthan and Gujarat.
-> - Qbits AI monitoring surfaces 8 of the 10 causes remotely using performance ratio, per-string MPPT data, grid voltage, and inverter temperature logs.
-
-> **Direct answer.** The 10-Cause Underperformance Audit diagnoses partial yield loss in Indian solar inverters: (1) dust and soiling, (2) thermal derating, (3) inverter clipping, (4) partial shading, (5) ageing panels, (6) loose DC connections, (7) wrong string sizing, (8) grid voltage fluctuation, (9) outdated firmware, (10) monitoring misconfiguration. Work through the causes in order, the first five resolve approximately 85% of underperformance cases without a technician.
 
 This guide covers partial output below expected yield. If your inverter is completely offline (zero generation), see the [solar inverter downtime guide](/blog/solar-inverter-downtime/). For an extended 12-cause analysis including cable voltage drop and MPPT configuration errors, see the [solar inverter low output causes India guide](/blog/solar-inverter-low-output-causes-india/).
 
@@ -203,8 +200,6 @@ In addition to MPPT improvement, firmware updates adjust grid protection thresho
 
 **Self-diagnosis:** Check the inverter current firmware version on the monitoring app or inverter screen. Contact the manufacturer or visit their website to confirm whether a newer version is available.
 
-**Fix:** For Qbits inverters, firmware updates are delivered over Wi-Fi directly to the inverter via the monitoring application, no technician visit required. [BIS certification requirements for grid-connected inverters in India](https://bis.gov.in/){target="_blank" rel="noopener"} specify that manufacturers must provide firmware updates for known efficiency improvements throughout the product supported life.
-
 ### Cause 10: Monitoring Misconfiguration: False Low Readings
 
 **Apparent yield loss:** Any amount, the monitoring system is reporting a shortfall that does not reflect actual generation.
@@ -261,14 +256,10 @@ Elsewhere in the Heaven Group network, see [how to verify a solar installation](
 
 ## Where Qbits Fits
 
-Qbits AI monitoring makes causes 1 through 5 and 8 through 10 visible without a site visit. The monitoring application tracks performance ratio against irradiance-adjusted expected yield, logs per-string MPPT data, records grid voltage, and monitors inverter ambient temperature, providing the diagnostic data to work through eight of the ten audit causes remotely.
-
-For causes requiring physical inspection (DC connections (Cause 6), string reconfiguration (Cause 7), and infrared panel scanning (Cause 5)) Qbits authorised service partners carry the measurement equipment to diagnose these causes during a single visit.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series with per-string MPPT monitoring, AI WhatsApp underperformance alerts, and 12-year full replacement warranty. Confirmed inverter-related efficiency loss is covered under warranty.
-- **[Solar Inverter App Monitoring](/blog/solar-inverter-app-monitoring/)**: Configure the AI monitoring system to send WhatsApp alerts when performance ratio drops below threshold, automating detection for causes 1–4 and 8.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Compare exact TLS and TLD model documents, monitoring hardware, accessible values and written warranty terms. Do not assume per-string data, AI alerts or a particular remedy without current evidence.
+- **[Solar Inverter App Monitoring](/blog/solar-inverter-app-monitoring/)**: Check which values and alerts the exact inverter, logger and app version support. Do not assume AI diagnosis, WhatsApp delivery or an automatic performance-ratio threshold.
 - **[Maximise Solar Output India](/blog/maximize-solar-output-indian-climate/)**: The proactive companion to this diagnostic guide: six levers to prevent underperformance before it develops.
 - **[Solar Inverter Summer Derating India](/blog/solar-inverter-summer-derating-india/)**: Detailed treatment of Cause 2, with inverter placement rules and enclosure ventilation design.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Pincode-searchable network for on-site diagnosis, with the less-than-72-hour RMA SLA for inverter component replacement.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, diagnostic scope, availability, charges and the written claim process for the location.
 
-If your performance ratio is below 0.70 and the first five self-diagnosis steps have not identified the cause, [talk to a Qbits engineer](/contact-us/), the technical support team reviews monitoring data remotely and identifies the most probable cause before dispatching a service visit.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

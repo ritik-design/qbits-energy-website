@@ -268,8 +268,6 @@ C-rate is the standardised metric for charge and discharge current relative to b
 
 ## Need C-rate-aware battery sizing?
 
-QBits Energy sizes battery systems matching continuous and peak C-rate to inverter power needs and customer use cases.
-
 ## Further reading
 
 For how C-Rate plays out in real projects, these guides go deeper:

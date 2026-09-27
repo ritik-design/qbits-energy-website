@@ -240,8 +240,6 @@ Junction boxes house electrical connections in sealed enclosures. PV module junc
 
 ## Need quality junction box solutions?
 
-QBits Energy specifies and installs IEC 62790 / IEC 60670 compliant junction box solutions for residential, C&I and utility solar across India.
-
 ## Further reading
 
 For how Junction Box plays out in real projects, these guides go deeper:

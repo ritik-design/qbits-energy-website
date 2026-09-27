@@ -21,7 +21,7 @@ faqs:
   - q: "How much is an old solar inverter worth in scrap?"
     a: "Scrap value depends on weight and copper content. A transformer-based off-grid or UPS-type inverter can fetch ₹800 to ₹2,500 because of its copper winding. A modern transformerless string inverter of 3 kW to 5 kW weighs 12 to 20 kg and is mostly aluminium heatsink, steel casing, and PCB, so scrap dealers typically pay ₹300 to ₹1,500. These are industry-observed ranges, not fixed prices, and vary by city and dealer."
   - q: "Should I repair or replace a solar inverter that failed after warranty?"
-    a: "Repair makes sense if the fault is minor (fan, display, WiFi card, relay) and the quote stays under about 25% of a new inverter's price, roughly ₹8,000 to ₹15,000 for a 5 kW unit. Replace when the main power PCB or IGBT module has failed, when the model is discontinued and spares are unavailable, or when the inverter is over 8 years old. A ₹18,000 PCB repair on a 9-year-old inverter that could fail again in 18 months is usually poor economics compared to a ₹50,000 new unit with a fresh 12-year warranty."
+    a: "Repair makes sense if the fault is minor (fan, display, WiFi card, relay) and the quote stays under about 25% of a new inverter's price, roughly ₹8,000 to ₹15,000 for a 5 kW unit. Replace when the main power PCB or IGBT module has failed, when the model is discontinued and spares are unavailable, or when the inverter is over 8 years old. A ₹18,000 PCB repair on a 9-year-old inverter that could fail again in 18 months is usually poor economics compared to a ₹50,000 new unit with a fresh model-specific written warranty."
   - q: "Is it legal to throw an old solar inverter in regular scrap in India?"
     a: "An old solar inverter is classified as e-waste under the E-Waste (Management) Rules, 2022, notified by the Ministry of Environment, Forest and Climate Change. The rules require e-waste to go to authorised recyclers or dismantlers, not informal kabadi channels. In practice, household enforcement is weak, but the correct route is a CPCB-registered e-waste recycler, a brand take-back arrangement, or your installer's disposal channel. Solar PV modules have stricter duties under Chapter V of the same rules, including storage requirements until 2034-35 for producers."
   - q: "Do solar inverter brands in India offer buyback or exchange offers?"
@@ -34,6 +34,10 @@ faqs:
     a: "Yes, but modestly. String inverters from 2014 to 2016 typically had 95% to 96% peak efficiency, while current models reach 97.5% to 98.2%. On a 5 kW system generating 7,000 units a year, that gap is worth roughly 100 to 200 units annually, about ₹700 to ₹1,600 at typical tariffs. Efficiency alone rarely justifies replacement. The real gains are reliability, monitoring, warranty cover, and the option to add batteries, which older on-grid units cannot support."
 featured: false
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Most Indian rooftop systems installed between 2015 and 2019 are now hitting the age where the inverter becomes a question. The panels still work. The structure is fine. But the box on the wall, the part with moving components, electrolytic capacitors, and power electronics, has a design life of 10 to 15 years. Then comes the day it fails after the warranty period. Or you want to add a battery it was never built for. Either way you face a decision with no clean answer online. Repair it, exchange it, or scrap it and buy new?
 
@@ -80,8 +84,6 @@ The repair-versus-replace decision comes down to one ratio: repair cost versus n
 
 These are industry-observed ranges from the Indian service market in 2026, not published price lists. Minor inverter repairs in international markets run $150 to $400. Surge or wiring damage repairs cost $300 to $700, according to [GreenLancer](https://www.greenlancer.com/post/solar-inverter-repair), 2026. Indian labour rates bring those figures down somewhat while spare parts stay comparable.
 
-There is a second layer to the math: warranty reset. A repaired inverter gets 3 to 12 months of warranty on the replaced part at best. A new mid-market inverter carries 5 to 10 years, and the [Qbits 12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) resets the clock entirely. When you price a ₹16,000 PCB repair against a ₹52,000 new inverter, compare the annual cost. The repair buys perhaps 2 to 4 more years of risky service, roughly ₹4,000 to ₹8,000 per year. The new unit delivers 12 years of covered service at about ₹4,300 per year.
-
 > **What most people get wrong.** They compare repair cost against new-inverter cost and stop there. The real comparison is repair cost plus expected future repairs plus downtime losses, against new-inverter cost minus buyback or scrap recovery. On old units, the left side is almost always understated.
 
 Also check whether the failure is actually covered. Many owners assume the warranty has lapsed when it has not, or that the claim process is too slow to bother. The [warranty claim process guide](/blog/solar-inverter-warranty-claim/) explains what documentation gets claims approved faster.
@@ -110,8 +112,6 @@ What actually happens on the ground, based on industry-observed practice:
 2. **Brand trade-in promotions.** A few manufacturers run periodic trade-in schemes through dealers. These typically offer ₹2,000 to ₹5,000 off a new inverter against any old unit of similar capacity. They come and go with quarters and stock cycles. Ask the dealer directly; they are rarely advertised.
 3. **Second-hand marketplaces.** Working units listed on OLX and local installer networks can fetch ₹3,000 to ₹8,000. That range applies to a 3 to 5 kW unit from a live brand. But you handle the buyer, the testing, and the risk. For most homeowners the hassle is not worth the difference over installer buyback.
 4. **Scrap dealers.** The floor value, as covered in the previous section.
-
-One warning: an old inverter removed from a PM Surya Ghar subsidised system should be replaced with an ALMM-listed model. This keeps your net-metering and subsidy status clean. Confirm the replacement model's listing before you commit.
 
 ## Upgrading Instead of Replacing: The Hybrid Path
 
@@ -153,8 +153,6 @@ First, the efficiency story is modest. A decade-old string inverter ran 95 to 96
 Second, a repaired inverter under a good AMC can be the rational choice. Picture a 5 to 6 year old unit from a brand with live spares and a minor fault. A ₹6,000 repair plus an annual maintenance contract often beats replacement on pure cash terms. The [solar inverter AMC cost guide](/blog/solar-inverter-amc-cost-india/) prices that route, and the [inverter total cost of ownership post](/blog/inverter-tco/) frames the lifetime math.
 
 Third, hybrid conversion is not free of tradeoffs. The battery will need replacement in 10 to 15 years. The inverter gains a battery-management subsystem that can fault. Round-trip storage losses of 8 to 12% mean stored solar is worth slightly less than directly consumed solar. In areas with rare outages, hybrid is an expensive insurance policy. The exception is clear: where daily cuts exceed about two hours, backup value dominates and hybrid wins outright.
-
-Our opinionated take, based on the RMA and service data we see across Qbits installations. The single worst outcome is spending ₹15,000 or more repairing an inverter older than 8 years. You buy a short extension of uncertain life. You also forfeit the warranty reset, the monitoring, and the buyback value that a replacement captures. Repair cheap, replace old, and never let an installer take the old unit without a written deduction.
 
 Elsewhere in the Heaven Group network, see [what a replacement costs](https://www.heavengreenenergy.com/blog/solar-inverter-replacement-cost) and [how to file a warranty claim](https://www.heavengreenenergy.com/blog/how-to-file-solar-warranty-claim).
 

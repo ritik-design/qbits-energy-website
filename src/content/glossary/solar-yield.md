@@ -280,8 +280,6 @@ Solar yield is the practical annual energy generated per kilowatt of installed s
 
 ## Need bankable solar yield projections?
 
-QBits Energy provides site-specific P50 and P90 yield projections for Indian residential, C&I and utility solar projects.
-
 ## Further reading
 
 For how Solar Yield plays out in real projects, these guides go deeper:

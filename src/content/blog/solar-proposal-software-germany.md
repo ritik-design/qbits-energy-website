@@ -162,4 +162,4 @@ Germany is the market where the tariff rules are most sophisticated and where na
 
 - **State the commissioning window in every quote.** The EEG rate locks at commissioning for 20 years, and the schedule steps down while your pipeline moves.
 - **Model hours, not annual totals.** Negative-price exposure, self-consumption, and the Volleinspeisung versus Überschusseinspeisung decision are all hourly questions.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

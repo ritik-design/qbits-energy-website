@@ -176,8 +176,6 @@ CERC is the central electricity regulator setting tariffs for central generation
 
 ## Need help navigating central electricity regulation?
 
-QBits Energy supports developers and large customers on CERC regulatory matters, REC strategy and inter-state PPA structuring.
-
 ## Further reading
 
 For how CERC plays out in real projects, these guides go deeper:

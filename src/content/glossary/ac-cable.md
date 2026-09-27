@@ -250,8 +250,6 @@ AC cable carries inverter output to the distribution board and meter. Indian sol
 
 ## Need engineered AC cabling for your solar?
 
-QBits Energy supplies and installs IS-compliant AC cabling sized for both ampacity and voltage drop across Indian residential, C&I and utility solar projects.
-
 ## Further reading
 
 For how AC Cable plays out in real projects, these guides go deeper:

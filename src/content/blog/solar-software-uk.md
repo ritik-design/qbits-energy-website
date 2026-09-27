@@ -173,4 +173,4 @@ UK solar software should be chosen on what it outputs, not on what it can draw.
 - **Buy for MCS-ready output.** Certification unlocks SEG for your customer and a stack that cannot produce the evidence makes you rebuild it every job.
 - **Model SEG by supplier.** Rates are supplier-set, so an average is wrong for most households and switching advice is often worth more than hardware.
 - **Integrate design and proposals.** Design changes are normal, and disconnected stacks are where version drift starts.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a UK address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

@@ -283,8 +283,6 @@ TOPCon is the dominant new-build cell technology from 2024 onward. Higher effici
 
 ## Need ALMM-listed TOPCon modules?
 
-QBits Energy supplies TOPCon bifacial modules from leading Indian manufacturers for residential, C&I and utility solar across India.
-
 ## Further reading
 
 For how TOPCon Cell plays out in real projects, these guides go deeper:

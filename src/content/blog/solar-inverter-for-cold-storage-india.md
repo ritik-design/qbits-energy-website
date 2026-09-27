@@ -33,6 +33,10 @@ faqs:
     a: "Cold storage facilities connected to HT (High Tension) or LT (Low Tension) commercial connections must apply for net metering through the respective state DISCOM. Large cold storage units above 100 kW may require open access approval for third-party solar or RESCO arrangements. The standard grid-tied solar connection process - single-line diagram approval, anti-islanding certification, bidirectional meter installation - applies. State-specific regulations vary; Karnataka, Maharashtra, Tamil Nadu, and Gujarat have well-established commercial net metering processes."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Cold storage is one of the most demanding industrial solar installations in India, not because the technology is unfamiliar, but because the electrical loads are unforgiving. Compressor motors start at 6–8 times their running current. VFDs generate harmonic currents that must not interfere with the inverter's output. Temperature-sensitive goods cannot tolerate power interruptions. And the facility operates around the clock, making 24/7 reliability non-negotiable.
 
 Get the solar system design right, and a cold storage facility sees some of the best ROI in commercial solar - ₹8–12 per unit electricity bills dropping dramatically for a load that runs constantly. Get it wrong, and you face nuisance tripping, compressor damage, and spoiled inventory.
@@ -43,7 +47,6 @@ Get the solar system design right, and a cold storage facility sees some of the 
 > - Battery backup of at least 4 hours is strongly recommended for critical [cold](/blog/solar-for-ice-factory-cold-chain/) rooms, since even a brief outage can spoil temperature-sensitive inventory.
 > - A single-phase inverter cannot serve a cold storage facility; compressors, fans, and pumps all run on 3-phase motors.
 > - A 50 kW system typically pays back in about 4 years, saving roughly ₹7.5 Lakh a year in electricity for a ₹30 Lakh investment.
-> - Qbits 3-phase commercial inverters ship with IP66 enclosures, VFD-compatible output under 3% THD, and a 12-year full replacement warranty.
 
 > **Direct answer.** A 40 kW cold storage facility in India requires a 30–50 kW 3-phase solar system, with the inverter specified for THD < 5%, high surge capacity (6–8× nameplate for DOL-start compressors), and VFD compatibility. Battery backup is strongly recommended for facilities in power-cut zones. Use the Cold Storage Solar Sizing Protocol in this guide to design correctly from the first day.
 
@@ -125,8 +128,6 @@ This six-step process ensures the solar system is correctly specified for a cold
 
 3. **Daily generation target**: determine what percentage of daily kWh demand the solar system should cover. For a 658 kWh/day facility, covering 50–60% (320–400 kWh) is common for a 30–50 kW system generating 4–5 PSH/day.
 
-4. **Inverter selection**: specify a [3-phase solar inverter](/blog/3-phase-solar-inverter/), either a string inverter or a [central inverter](/glossary/central-inverter/), with: (a) 150% transient overload capacity; (b) THD < 3% output; (c) VFD compatibility; (d) IP65+ for industrial environment; (e) ALMM listing for net metering eligibility.
-
 5. **Battery sizing**: for critical cold rooms (vaccine storage, meat processing), specify battery backup for minimum 4 hours of compressor and fan load. This requires a [hybrid inverter](/glossary/hybrid-inverter/) configuration. For less critical ambient-temperature cold storage, on-grid with DG backup is acceptable.
 
 6. **Net metering application**: for systems below 100 kW, apply for net metering via the state DISCOM. Surplus daytime generation is credited against nighttime grid consumption, maximising economic return.
@@ -170,17 +171,13 @@ For factories with similar 3-phase requirements, the [solar inverter for factory
 - **Ignoring VFD harmonics**: installing solar without harmonic analysis leads to VFD alarms, inverter fault codes, and power quality deterioration that makes both systems less reliable.
 - **No battery for critical cold storage**: a 30-minute power outage in a vaccine cold room can render the entire inventory unusable. Battery backup for 2–4 hours is not optional for pharmaceutical cold storage.
 - **Single-phase inverter on 3-phase load**: a common error when facility owners ask a residential solar contractor to handle a commercial installation.
-- **Not aligning inverter with ALMM list**: for facilities qualifying for commercial solar incentives or net metering, ALMM-listed inverters are required in many state DISCOMs.
 
 ## Where Qbits Fits
 
-Qbits 3-phase commercial inverters are engineered for industrial electrical environments, IP66 enclosures for dusty and humid cold storage exteriors, VFD-compatible power output with < 3% THD, and 3-phase configurations from 20 kW to 125 kW suited for medium and large cold storage facilities.
+The model-specific written warranty is particularly relevant for cold storage operators who cannot afford inverter downtime during peak storage season. The AI-powered WhatsApp monitoring system detects anomalies (including harmonic-induced performance drops) and alerts the facility manager before they become failures.
 
-The 12-year full replacement warranty is particularly relevant for cold storage operators who cannot afford inverter downtime during peak storage season. The AI-powered WhatsApp monitoring system detects anomalies (including harmonic-induced performance drops) and alerts the facility manager before they become failures.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLD 3-phase series for cold storage net metering applications, ALMM-listed.
 - **[Hybrid Inverters](/hybrid-inverter/)**: HT 3-phase hybrid series with battery backup for critical cold storage load continuity.
-- **[String Sizing Calculator](/string-sizing-calculator/)**: calculate string configuration for the cold storage rooftop area and module layout.
-- **[C&I Solutions](/c-i-solution/)**: end-to-end commercial solar design including harmonic analysis and net metering application support.
+- **[String Sizing Calculator](/string-sizing-calculator/)**: Use this as a preliminary screen. A qualified designer must verify the final string, protection and utility design.
+- **[C&I Solutions](/c-i-solution/)**: Ask which project services are available and obtain the responsible party, deliverables, exclusions and fees in writing.
 
-[Request a cold storage site assessment](/contact-us/), Qbits commercial engineers design for VFD compatibility and THD compliance from the start. Most quotes for commercial sites are delivered within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

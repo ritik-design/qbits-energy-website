@@ -34,8 +34,10 @@ faqs:
   - q: "What is the payback period for a solar-plus-EV setup in India?"
     a: "A 5 kW hybrid system costing ₹3.5–4 Lakh (after PM Surya Ghar subsidy) combined with a 10 kWh battery at ₹1.2–1.5 Lakh gives a combined investment of roughly ₹5 Lakh. If the system offsets ₹8,000/month in electricity and EV charging costs, the simple payback is 52–63 months, or 4.5–5.5 years. At rising grid tariffs of 8–10% per year, the actual payback shortens further."
   - q: "Which Qbits inverter is recommended for solar EV charging at home?"
-    a: "For most 2–4 BHK homeowners with a single EV and a 3.3 kW home charger, the Qbits HS 5 kW hybrid inverter is the recommended starting point. It supports dual-MPPT for split-roof configurations, handles battery voltages from 48 V to 192 V, and switches to battery power in under 20 milliseconds during grid outages so evening EV charging is uninterrupted. The 12-year full replacement warranty means the inverter outlasts the EV's first battery lifecycle with zero maintenance cost risk."
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 The number of electric vehicles on Indian roads crossed 5 million units in early 2026, with Tata Nexon EV, Ather 450X, and Ola S1 Pro leading the residential charging wave. For homeowners already paying ₹8,000–₹15,000 per month in electricity bills, adding an EV charger to that load is genuinely worrying, and it is exactly the kind of load a properly scoped residential solar installation needs to plan for upfront rather than retrofit later. The logical next question ("can I run my EV on solar?") has a real answer, but the setup requires careful thought about inverter type, [system size](https://www.heavengreenenergy.com/blog/home-solar-system-size-guide), and nighttime charging behaviour.
 
@@ -178,17 +180,13 @@ V2G is not yet commercially available in India at the residential level as of Ju
 
 > **Smart inverter readiness matters today, not in 2027.** The [ev-charger](/glossary/ev-charger/) standard your installer specifies must be compatible with bidirectional AC charging (ISO 15118 protocol stack). Combined inverters that support AC coupling (where the EV charger connects on the AC side rather than direct DC) are upgradeable to V2G without replacing the solar inverter. *Source - [International Energy Agency, Global EV Outlook 2025](https://www.iea.org/reports/global-ev-outlook-2025).*
 
-The architecture choice today is therefore: buy a hybrid inverter with an AC-coupled output port, not a proprietary DC-coupled charger that locks you into one manufacturer's closed platform. This is exactly the architecture the Qbits HS hybrid series uses, giving homeowners a clear upgrade path to V2G once CEA finalises the regulations.
-
-> **India crossed 5 million cumulative EV registrations** by March 2026, with two-wheelers accounting for 60% of new EV sales and passenger EVs growing 48% year-on-year. *Source - [Vahan Dashboard, Ministry of Road Transport and Highways](https://vahan.parivahan.gov.in/), March 2026.*
-
 ## Comparing Inverter Options for Solar EV Charging
 
 Different inverter classes suit different EV-solar scenarios. The comparison below covers the three most common choices facing Indian homeowners.
 
 ### Standard Hybrid Inverter (5–10 kW)
 
-A residential hybrid inverter with integrated battery management and dual-MPPT input is the baseline choice for most EV-owning homeowners. Models in the 5–10 kW range (such as the Qbits HS 5 kW) handle a 3.3 kW EV charger simultaneously with 2–3 kW of home load without any overload risk. Battery communication is via CAN bus, and the unit switches between solar, battery, and grid in under 20 milliseconds, fast enough that the EV charger does not trip during switchover.
+An EV-charging design must start from the charger, simultaneous house loads, supply phase, sanctioned load, PV array, desired backup behavior and battery limits. A 5 to 10 kW label does not prove the system can carry an EV charger without overload, and CAN or RS485 does not prove battery compatibility. The retained Qbits documents do not support the older HS model or universal sub-20-millisecond claim previously stated here.
 
 The 5 kW class is appropriate for two-wheelers and compact EVs. The 7–10 kW class covers full-size passenger EVs with 7.2 kW home chargers.
 
@@ -240,7 +238,7 @@ Monthly bill of ₹9,200 ÷ ₹9.5/unit ÷ 30 days = **32.3 kWh/day** household 
 A 10.7 kW array is impractical for a 3 BHK flat roof. The realistic decision is a 5 kW system targeting 50% offset:
 
 - **Solar:** 5 kW (9 × 545 Wp panels, ~280 sq ft)
-- **Inverter:** 5 kW hybrid (Qbits HS series)
+
 - **Battery:** 10 kWh LFP, covers EV partial charge (5–6 kWh) + essential overnight home load (4 kWh)
 - **Total system cost:** ₹2.8 Lakh (solar + inverter) + ₹1.4 Lakh (battery) = ₹4.2 Lakh before subsidy (get this itemised on a [written quotation](https://quickestimate.co/features/quotation-system/) before signing)
 - **PM Surya Ghar subsidy:** approximately ₹60,000 for 3 kW eligible portion
@@ -256,10 +254,8 @@ The [solar inverter payback period](/blog/solar-inverter-payback-period-in-india
 
 ## Where Qbits Fits
 
-Homeowners combining EV charging with rooftop solar need an inverter that handles the additional load reliably, talks to the battery intelligently, and carries a warranty long enough to outlast both the solar panels and the EV's first battery lifecycle. Qbits builds for precisely this requirement: the HS and HT hybrid series are engineered for India's grid conditions, 180–270 V input variance, 45 °C ambient, and DISCOMs that trip without warning. Every unit ships with a **12-year full replacement warranty** and IP66 weather protection, and monitoring runs through WhatsApp so you can see solar production, battery state, and EV load in one screen without a separate app.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series from 3 kW to 50 kW. Dual-MPPT, AC-coupled battery port, sub-20ms switchover to battery during grid outages.
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series for households with two-wheelers or daytime-only EV charging requirements at the most competitive price point.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current product families and exact-model documents against the project design and utility requirements.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: enter your panel wattage, roof orientation, and EV load to get the recommended MPPT string configuration in 60 seconds.
 
-[Talk to a Qbits engineer](/contact-us/) about sizing a hybrid system for your specific EV model and roof area. Most quotes come back within 24 hours, and the Qbits team has handled over 200 solar-EV setups across Maharashtra, Gujarat, and Tamil Nadu in the past 12 months.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

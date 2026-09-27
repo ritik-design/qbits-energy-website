@@ -134,8 +134,6 @@ See [SurgePV pricing](https://surgepv.com/pricing).
 - **Choose PVsyst** for lender-mandated reports.
 - **Choose Aurora** for US-residential.
 
-For most multi-segment developers and EPCs in 2026, SurgePV is the RatedPower alternative that wins on scope, workflow consolidation, and per-seat economics at the same time. See the detailed [RatedPower vs SurgePV comparison](https://surgepv.com/compare/ratedpower-vs-surgepv/) for a feature-by-feature look. For the C&I and utility-scale segments this comparison covers, [Qbits' C&I inverter lineup](/c-i-solution/) is worth checking against the simulation's DC:AC ratio (utility-scale developers typically spec [on-grid inverters](/on-grid-inverter/) here), and [a Qbits engineer](/contact-us/) can walk through the datasheet on a call.
-
 <div class="inline-cta">
 <h3>Ready to consolidate utility, C&I, and residential into one tool?</h3>
 <p>SurgePV ships 8,760-hour shading, bankable yield, AutoCAD export, and white-label proposals across every project size, at flat per-seat pricing.</p>

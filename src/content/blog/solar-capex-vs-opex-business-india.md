@@ -139,7 +139,7 @@ According to [JMK Research's India Commercial & Industrial Solar Market Report 2
 
 Once you decide on CAPEX, the next decision is which EPC contractor to hire. The full evaluation framework is in [how to evaluate solar EPC bids in India, 15 criteria](/blog/how-to-evaluate-solar-epc-bids/). The most critical criteria for a C&I CAPEX buyer:
 
-- **ALMM-listed equipment**: ensures subsidy eligibility and quality standards
+- **Applicable equipment documents**: verify current module/cell scheme requirements and the exact inverter documents separately
 - **Performance ratio guarantee**: the contractor should guarantee a minimum PR of 0.76–0.80 backed by a generation shortfall compensation clause
 - **Payment milestones**: never pay more than 30% upfront; structure payments against delivery, installation, and commissioning milestones
 - **O&M contract**: a comprehensive O&M contract for at least 5 years post-commissioning protects the investment
@@ -152,16 +152,14 @@ A backup-critical worked example is in [solar for clinics and nursing homes](/bl
 
 For C&I buyers who choose the CAPEX model, the inverter is the highest-value component decision because it sits at the centre of all generation and because inverter failure during the high-IRR early years of the system life is the primary risk to financial performance.
 
-Qbits commercial string inverters for C&I applications offer:
-- Harmonic distortion below 3%, essential for plants with VFD-driven motors where THD is a grid code requirement
-- 12-year full-replacement warranty, covers the entire accelerated depreciation amortisation period and the highest-IRR years of the investment
-- ALMM-listed, required for MNRE-approved and IREDA-financed projects
-- AI WhatsApp monitoring, real-time generation alerts without requiring SCADA infrastructure investment
+The retained Qbits catalogue identifies several three-phase on-grid families for commercial applications. It does not establish one universal harmonic limit, warranty term, financing eligibility, ALMM status, monitoring interface or project outcome across those families. A CAPEX buyer should match the exact model, datasheet revision and supporting documents to the electrical design and lender requirements.
+
+For each shortlisted Qbits model, request the applicable harmonic test evidence, grid-interface documents, monitoring hardware and software scope, written warranty, service process and commercial quote. Record any item not supplied as not established in the bid comparison rather than filling the gap with a brand-level assumption.
 
 - **[C&I Solar Solution](/c-i-solution/)**: Industrial solar from 50 kW to multi-MW.
-- **[On-Grid Inverters](/on-grid-inverter/)**: Commercial string inverters with industrial THD specifications.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Request exact-model harmonic evidence and check the project's point-of-connection requirements; no universal Qbits THD value is stated here.
 - **[Download Datasheets](/download-datasheets/)**: Technical specifications for banker review and EPC bid evaluation.
 
 For projects above a few hundred kW, CAPEX buyers usually also need dedicated project management. Heaven Designs' MW-scale EPC project management consultancy covers the engineering coordination that a large CAPEX rooftop or ground-mount build requires.
 
-To get a CAPEX IRR model for your specific plant (incorporating your grid tariff, roof area, financing cost, and tax position) [talk to a Qbits engineer](/contact-us/). The analysis is free and typically takes 24 hours with your last electricity bill and basic plant information.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

@@ -224,8 +224,6 @@ Second-life batteries are EV-retired packs (70-80 percent SOH) suitable for less
 
 ## Need second-life storage solutions?
 
-QBits Energy explores second-life battery opportunities for cost-sensitive stationary storage applications across Indian residential and small commercial customers.
-
 ## Further reading
 
 For how Second-Life Battery plays out in real projects, these guides go deeper:

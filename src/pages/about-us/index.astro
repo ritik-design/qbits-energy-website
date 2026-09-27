@@ -7,26 +7,26 @@ import EventGallery from '../../components/home/EventGallery.astro';
 import AmbassadorTeam from '../../components/brand-ambassador/AmbassadorTeam.astro';
 
 const milestones = [
-  { year: '2016', title: 'Heaven Green Energy Founded', desc: 'Started solar EPC and installation services across Gujarat.' },
-  { year: '2019', title: '1,000+ Installations', desc: 'Reached milestone of 1,000 successful solar installations.' },
-  { year: '2022', title: 'Qbits Brand Launched', desc: 'Launched Qbits as dedicated inverter manufacturing division.' },
-  { year: '2023', title: 'BIS & IEC Certified', desc: 'Achieved full BIS and IEC certification for product range.' },
-  { year: '2024', title: 'Pan-India Presence', desc: 'Expanded the channel partner network to every state and union territory in India.' },
-  { year: '2025', title: 'AI Monitoring Platform', desc: 'Launched Qbits AI-powered monitoring with WhatsApp alerts.' },
+  { year: '2017', title: 'Company Journey Begins', desc: 'The current Qbits catalogue marks 2017 as the start of the company journey.' },
+  { year: '2020', title: 'Dealer Experience', desc: 'The catalogue describes a period of learning from customers and the inverter market.' },
+  { year: '2021', title: 'Product Gap Identified', desc: 'The catalogue records a focus on dependable inverter performance.' },
+  { year: '2022', title: 'Engineering Investment', desc: 'The catalogue describes investment in product research and development.' },
+  { year: '2024', title: 'Installation Milestone', desc: 'The current catalogue reports more than 25,000 installations by 2024.' },
+  { year: '2025', title: 'Qbits Brand Launch', desc: 'The current catalogue places the Qbits inverter brand launch in 2025.' },
 ];
 
 const values = [
   { title: 'Innovation', desc: 'Continuous improvement through R&D and technology-driven design. Every product cycle brings measurable advancement.', img: '/about/innovation.webp' },
   { title: 'Integrity', desc: 'Ethical practices and transparent partnerships. We build trust through honest communication and fair dealing.', img: '/about/integrity.webp' },
-  { title: 'Excellence', desc: 'ISO 9001 certification and Adani Solar distributorship. Quality is not checked at the end, it is built in from day one.', img: '/about/excellence.webp' },
+  { title: 'Documentation', desc: 'Product selection should be supported by the current model datasheet, certificate, manual, and written commercial terms.', img: '/about/excellence.webp' },
   { title: 'Sustainability', desc: 'Positive environmental impact with every installation. We measure success in megawatts of clean energy delivered.', img: '/about/sustainability.webp' },
 ];
 
 const stats = [
-  { value: '50,000+', label: 'Solar Installations', suffix: '' },
-  { value: '130+', label: 'Channel Partners', suffix: '' },
-  { value: '33', label: 'States & UTs Served', suffix: '' },
-  { value: '12', label: 'Year Warranty', suffix: 'Y' },
+  { value: '1.5–320', label: 'On-Grid Range', suffix: 'kW' },
+  { value: '3–12', label: 'Hybrid Range', suffix: 'kW' },
+  { value: '99.02', label: 'Maximum Published Efficiency', suffix: '%' },
+  { value: 'IP66', label: 'Published Enclosure Class', suffix: '' },
 ];
 
 const team = [
@@ -58,16 +58,16 @@ const team = [
 ];
 
 const differentiators = [
-  { title: 'German IGBT Technology', desc: 'Premium power conversion components selected for 20-year operational life.' },
-  { title: '1,000+ Quality Tests', desc: 'Every inverter undergoes rigorous automated testing before dispatch.' },
-  { title: 'Indian Server Data', desc: '100% data sovereignty - all monitoring data stays on Indian servers.' },
-  { title: 'IP66 Enclosure', desc: 'Rugged weather protection designed for harsh Indian rooftop conditions.' },
+  { title: 'Broad On-Grid Range', desc: 'Published single-phase and three-phase families span 1.5 kW to 320 kW.' },
+  { title: 'Hybrid Families', desc: 'Published single-phase and three-phase hybrid families span 3 kW to 12 kW.' },
+  { title: 'Model-Specific Design', desc: 'MPPT count, voltage window, efficiency, and communication interfaces vary by model.' },
+  { title: 'IP66 Enclosure', desc: 'IP66 is listed across the current public Qbits inverter datasheets.' },
 ];
 ---
 
 <Layout
   title="About Us | Qbits Energy"
-  description="Qbits Inverters Limited – Powering India's Smarter Solar Future. A subsidiary of Heaven Green Energy Limited with 8+ years of experience in solar EPC, manufacturing, and clean energy innovation."
+  description="Learn about Qbits Energy, its published inverter range, product documentation, engineering team, and company timeline."
   canonical="/about-us/"
 >
   <HeaderV2 />
@@ -97,10 +97,10 @@ const differentiators = [
               From Trusted Legacy to Smart Energy Innovation
             </p>
             <p class="text-slate-600 leading-relaxed mb-4">
-              A subsidiary of Heaven Green Energy Limited with 8+ years of experience in <a href="https://heavengreenenergy.com/solar-epc/" class="text-brand-600 hover:text-brand-700 underline">solar EPC</a>, manufacturing, and clean energy innovation. Qbits designs and manufactures residential, commercial, and industrial solar inverters, <a href="/glossary/hybrid-inverter/" class="text-brand-600 hover:text-brand-700 underline">hybrid inverters</a>, and <a href="/glossary/bess/" class="text-brand-600 hover:text-brand-700 underline">BESS</a> using selected branded BOM for electronic components.
+              Qbits is presented in its current product catalogue as a Surat-based solar inverter and BESS company. Its published range includes residential, commercial, and utility-scale on-grid inverters plus <a href="/glossary/hybrid-inverter/" class="text-brand-600 hover:text-brand-700 underline">hybrid inverters</a>. Product specifications and availability should be checked against the current model documents.
             </p>
             <p class="text-slate-600 leading-relaxed mb-8">
-              Every Qbits inverter undergoes 1000+ automated quality tests, uses high performance IGBTs and capacitors designed for long lifecycle stability, and is protected by a rugged <a href="/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/" class="text-brand-600 hover:text-brand-700 underline">IP66 enclosure</a> suitable for harsh Indian rooftop conditions.
+              Current public datasheets list <a href="/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/" class="text-brand-600 hover:text-brand-700 underline">IP66 enclosures</a>, model-specific electrical limits, and maximum efficiencies from 97.6% to 99.02%. Those values are not interchangeable across the range.
             </p>
             <div class="flex flex-wrap gap-4">
               <a href="/our-products/" class="btn-primary">Explore Products</a>
@@ -160,7 +160,7 @@ const differentiators = [
               Where Intelligent Design Meets Everyday Energy Needs
             </p>
             <p class="text-slate-600 leading-relaxed mb-8">
-              Qbits inverters deliver <a href="/blog/solar-inverter-monitoring-systems-in-india/" class="text-brand-600 hover:text-brand-700 underline">real-time performance monitoring</a>, AI-based optimization, and robust grid connectivity. With <a href="/blog/whatsapp-solar-monitoring/" class="text-brand-600 hover:text-brand-700 underline">AI-powered WhatsApp alerts</a>, 100% data security on Indian servers, and a <a href="/blog/12-year-solar-inverter-warranty/" class="text-brand-600 hover:text-brand-700 underline">12-year full replacement warranty</a>, Qbits brings intelligence, durability, and peace of mind to every solar installation.
+              Qbits product material describes <a href="/blog/solar-inverter-monitoring-systems-in-india/" class="text-brand-600 hover:text-brand-700 underline">remote performance monitoring</a>, WhatsApp alerts, and model-specific communication options. Buyers should confirm the supported interface, data handling, service process, and written warranty terms for the exact model and sale.
             </p>
             <div class="space-y-4">
               {[
@@ -374,4 +374,3 @@ const differentiators = [
 
   <Footer />
 </Layout>
-

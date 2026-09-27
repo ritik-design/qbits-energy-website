@@ -19,8 +19,8 @@ faqs:
     a: "Fair solar inverter AMC cost in India in 2026 is ₹2,500 to ₹4,000 per kW per year for residential systems of 1 to 10 kW, and ₹1,000 to ₹2,000 per kW per year for commercial rooftop systems, according to Heaven Green Energy (2026). For a typical 5 kW home system, that works out to ₹12,500 to ₹20,000 per year for a full-scope contract covering cleaning, preventive checks, monitoring, and priority service. Quotes above ₹5,000 per kW for a small residential system should be justified line by line, and quotes below ₹1,000 per kW usually cover cleaning only."
   - q: "What does a solar AMC typically include?"
     a: "A standard solar AMC includes scheduled panel cleaning (monthly to quarterly), inverter inspection and error-log review, electrical safety checks on earthing and connections, performance verification against expected generation, and minor consumables such as fuses and connectors. Premium or comprehensive AMCs add thermal imaging of connectors, IV-curve testing of strings, inverter firmware updates, priority breakdown response, and sometimes component replacement. Always get the inclusion list in writing, because the word AMC alone guarantees nothing."
-  - q: "Is an AMC necessary if my inverter has a 12-year warranty?"
-    a: "Usually no for the inverter itself. A warranty covers defects and replacement, while an AMC covers preventive maintenance, cleaning, and service visits. If your inverter carries a long full replacement warranty with a fast RMA commitment, such as the Qbits 12-year warranty with a 72-hour service SLA, paying separately for inverter coverage duplicates what you already have. You may still want a light cleaning-only plan for the panels, which costs ₹300 to ₹500 per visit, according to Solvix CleanTech (2026), but a full AMC priced around the inverter is poor value."
+  - q: "Is an AMC necessary if my inverter has a model-specific written warranty?"
+    a: "Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim."
   - q: "What is the difference between warranty and AMC?"
     a: "Warranty is a manufacturer promise that the product will be repaired or replaced if it fails due to a defect within a stated period, typically 5 to 12 years for string inverters, according to GreenLancer (2026). An AMC is a paid annual service agreement, usually with your installer or a third party, covering scheduled preventive work like cleaning, inspections, and minor repairs. Warranty responds to failures; AMC tries to prevent them. Labour and transport are often excluded from warranties, which is the gap AMC sellers target."
   - q: "How much does a single solar service visit cost in India?"
@@ -31,6 +31,8 @@ faqs:
     a: "For most 5 kW homes, a full AMC is not worth it. The math: a full AMC costs ₹12,500 to ₹20,000 per year, while the actual maintenance need is roughly 8 to 12 cleaning visits (₹3,000 to ₹5,000 on pay-per-visit) plus one annual electrical check (₹1,000 to ₹2,000). That is ₹4,000 to ₹7,000 per year in real need versus ₹12,500 to ₹20,000 in AMC fees. The exception is dusty or coastal locations, large commercial systems, and sites where nobody can safely access the roof."
 featured: false
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
 
 Your installer just called. The one-year free service period on your solar system is ending. He is offering an Annual Maintenance Contract at ₹18,000 a year for your 5 kW system. He mentions inverter failure, generation loss, and priority service. It sounds responsible. It also might be a rip-off.
 
@@ -44,9 +46,9 @@ This guide covers what an inverter AMC actually includes and fair 2026 pricing b
 > - Warranty and AMC are different products: warranty responds to failures, AMC pays for preventive visits. Paying for both on the same inverter is usually double coverage.
 > - A single cleaning visit costs ₹300 to ₹500 up to 5 kW, according to Solvix CleanTech (2026), which makes pay-per-visit cheaper for most homes.
 > - Skipping panel cleaning entirely costs ₹4,000 to ₹8,000 per kW per year in lost generation in dusty regions, according to Heaven Green Energy (2026). Cleaning matters; the AMC wrapper often does not.
-> - A 12-year full replacement warranty with a 72-hour RMA SLA removes most of the risk an AMC claims to cover.
+> - A model-specific written warranty with a written RMA process removes most of the risk an AMC claims to cover.
 
-**Short version.** Fair solar inverter AMC cost in India is ₹2,500 to ₹4,000 per kW per year for homes in 2026. Commercial systems run ₹1,000 to ₹2,000 per kW. If your inverter already carries a long full replacement warranty, a full AMC is rarely worth it. Pay for panel cleaning per visit, do one annual electrical check, and let the warranty handle failures.
+**Short version.** Fair solar inverter AMC cost in India is ₹2,500 to ₹4,000 per kW per year for homes in 2026. Commercial systems run ₹1,000 to ₹2,000 per kW. If your inverter already carries a long warranty with a written remedy, a full AMC is rarely worth it. Pay for panel cleaning per visit, do one annual electrical check, and let the warranty handle failures.
 
 If you are still in year one of ownership, the [first-year solar ownership guide](/blog/solar-year-1-ownership-guide-india/) covers what your installer owes you before any paid contract starts. This post picks up where that free period ends.
 
@@ -151,8 +153,8 @@ Here is the opinion, backed by the numbers above: most Indian homes under 10 kW 
 
 Skip the full AMC when all of these are true:
 
-- **Your inverter carries a long full replacement warranty.** Failure risk is already covered. The [12-year solar inverter warranty](/blog/12-year-solar-inverter-warranty/) explains what full replacement coverage means in practice, including the 72-hour RMA commitment.
-- **You have monitoring with fault alerts.** Qbits systems push fault alerts and daily generation over WhatsApp. You know within hours when something is wrong, so priority-response promises lose their value.
+- **Your inverter has current written warranty terms.** Check what equipment, labour, freight and remedies are actually covered before deciding whether an AMC duplicates that scope. The [warranty verification guide](/blog/12-year-solar-inverter-warranty/) does not assume a universal duration or RMA deadline.
+
 - **Your roof is safely accessible.** Cleaning is a ₹400 visit or a careful DIY job with plain water and a soft brush.
 - **Your local grid and climate are kind.** Low dust, regular rain, no coastal salt, no extreme heat. Maintenance frequency drops, and so does AMC value.
 - **You are comfortable booking per visit.** If scheduling a cleaner twice a quarter does not burden you, pay-per-visit wins on cost every year.
@@ -161,17 +163,11 @@ Skip the full AMC when all of these are true:
 
 Also consider [solar insurance in India](/blog/solar-insurance-india/) for the risks neither warranty nor AMC touches: theft, storm damage, and fire. Owners sometimes buy an AMC expecting catastrophe cover. It is not that product.
 
-## The Qbits Alternative: Warranty and RMA Instead of a Paid AMC
+## Qbits model documentation
 
-We manufacture inverters, so read this section as a stated interest, but the structure is worth understanding because it changes what you need to buy.
+Qbits is the publisher, so treat this section as first-party context. the current published documents do not establish a 12-year term, full failure coverage, a response SLA, universal monitoring alerts or an AMC price. Obtain the exact model warranty and compare it with the proposed AMC line by line.
 
-Every Qbits inverter ships with a 12-year full replacement warranty. If the unit fails within that period, the inverter is replaced, not prorated, not repaired-and-returned weeks later. The RMA service-level agreement commits to on-site resolution within 72 hours across the authorised service network. Fault alerts and daily generation reports arrive on WhatsApp without any app or subscription.
-
-Stack that against the three things an AMC sells you. Failure coverage: already inside the warranty, for 12 years, at no annual fee. Fast response: inside the RMA SLA. Monitoring and alerts: built in. What remains for you to buy is panel cleaning and an annual electrical check. On pay-per-visit, that is ₹4,000 to ₹7,000 per year for a 5 kW home.
-
-If you do hit a problem, basic [solar inverter troubleshooting](/blog/solar-inverter-troubleshooting/) resolves many common faults without a service visit at all. For everything else, the service network and the warranty claim process take over.
-
-The practical result: a Qbits owner being quoted ₹18,000 a year for a full AMC is being asked to pay again for coverage they already hold. The fair purchase for that home is a cleaning plan at ₹4,000 to ₹6,500 a year, or pay-per-visit cleaning at roughly half that.
+The AMC should state preventive checks, exclusions, visits, labour, travel, parts, cleaning, monitoring and emergency response. Basic [solar inverter troubleshooting](/blog/solar-inverter-troubleshooting/) may help classify a fault, but unsafe or unresolved conditions require a qualified person and the model-specific service route.
 
 ## How to Decide: The 4-Question AMC Test
 
@@ -195,4 +191,3 @@ Three actions before your free service period ends:
 
 - **Price your actual need.** Get two pay-per-visit quotes for cleaning and one for an annual electrical check. Compare that total against every AMC quote on the table.
 - **Audit your existing coverage.** Read your inverter warranty, panel warranties, and installer workmanship terms. Strike any AMC line item that duplicates them, and run the red-flag list on what remains.
-- **Talk to us before signing.** If you own or are considering a Qbits system, [contact our team](/contact-us/) for a free coverage review. We will tell you plainly whether an AMC makes sense for your site. In most residential cases, the honest answer is that your 12-year warranty already has you covered.

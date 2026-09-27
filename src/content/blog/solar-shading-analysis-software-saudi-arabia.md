@@ -145,4 +145,4 @@ In Saudi Arabia the tariff decides what a shadow costs, and dust decides how you
 - **Split the loss by destination.** Exports settle near 5 halalas and self-consumption displaces up to 32, so only one of them justifies mitigation.
 - **Model soiling and shading together.** Stacked derates overstate the loss and send the cleaning crew to the wrong rows.
 - **Design the self-shading out.** Parapet setbacks and row spacing are decisions, not constraints, and they are worth more attention than any tree.
-- **Run a real roof before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Saudi address, or reach the Qbits team [here](/contact-us/) for inverter and optimiser specification against the finished design.
+

@@ -69,8 +69,6 @@ The reactive power component (measured in kVAR, kilovolt-ampere reactive) flows 
 
 The financial case for reactive power correction from the solar inverter rests on three numbers: the current power factor penalty, the cost of dedicated power factor correction equipment, and the inverter's reactive power headroom at typical solar generation levels.
 
-A [factory with heavy VFD, compressor, and welding loads](/blog/solar-inverter-for-factory/) running a 300 kW solar installation from Qbits at 220 kW average generation on a typical day operates at 73% of rated real power output. The inverter's 300 kVA apparent power rating means there is 210 kVAR of reactive power headroom available at that generation level (from the relationship kVAR² = kVA² − kW²).
-
 If the building's inductive load demand is 150 kVAR during the same hours, the inverter can supply all of it, eliminating the daytime power factor deficit and with it the associated penalty on daytime consumption.
 
 The alternative (a dedicated automatic power factor correction (APFC) panel) costs ₹3–6 Lakh for a 150 kVAR installation. If the solar inverter can supply that reactive power for free during solar hours, the APFC panel becomes smaller or unnecessary.
@@ -144,8 +142,6 @@ Reactive power affects the fundamental frequency (50 Hz) component of the curren
 
 Solar inverters affect both. A poorly controlled inverter can inject harmonic current into the grid alongside reactive power. CEA Grid Code 2020 limits total harmonic distortion ([THD](/glossary/thd/)) at the point of common coupling to 5% for systems below 1 MW. [IEEE Std 519-2022](https://www.ieee.org/){target="_blank" rel="noopener"} sets similar limits in the international context.
 
-The practical implication: an inverter in Q mode supplying reactive power must simultaneously maintain THD below the 5% limit. Qbits inverters implement active harmonic filtering in the PWM control loop, allowing reactive power support without degrading harmonic distortion.
-
 [NSEFI's technical guidelines for C&I solar grid integration](https://nsefi.in/){target="_blank" rel="noopener"} specifically recommend verifying that an inverter's reactive power mode does not increase harmonic injection, a combined power quality test that should be part of any large-plant commissioning protocol.
 
 ## Monitoring Reactive Power: Why kVAR Data Matters
@@ -163,13 +159,9 @@ The [solar inverter monitoring guide](/blog/solar-inverter-app-monitoring/) cove
 
 ## Where Qbits Fits
 
-Qbits' TLD series three-phase on-grid inverters and HT series three-phase hybrid inverters support full reactive power capability (fixed power factor mode, Q mode, Q(P) mode, and Q(U) droop mode) across the range from 10 kW to 100 kW+ plant sizes. Configuration is managed through the inverter commissioning software, with set-points lockable after commissioning to prevent unauthorised changes.
-
-For C&I installations above 100 kW where CEA Grid Code 2020 reactive power requirements apply, Qbits provides the reactive power configuration documentation as part of the commissioning pack, including the power factor capability curve and the default operating mode settings used for commissioning.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series; TLD series supports reactive power modes for three-phase C&I installations.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HT series three-phase hybrid with battery integration and reactive power support.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current product families and exact-model documents against the project design and utility requirements.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[Solar Inverter Commissioning Guide](/blog/solar-inverter-commissioning-in-india/)**: DISCOM approval workflow including reactive power documentation requirements.
 - **[THD and Power Quality Guide](/blog/thd-solar-inverter/)**: Related power quality specification for C&I installations.
 
-For a C&I system above 100 kW where reactive power compliance is a DISCOM condition for interconnection, [talk to a Qbits engineer](/contact-us/), the applications engineering team can confirm the correct mode configuration and prepare the reactive power capability documentation.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

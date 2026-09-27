@@ -38,10 +38,10 @@ const FONT = `-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue
 
 // What's-inside grid, rendered as a 2-column table so it survives Outlook.
 const CONTENTS: [string, string][] = [
-  ['Datasheets', 'Full technical specs for every Qbits model'],
-  ['User manuals', 'Installation, commissioning and operation'],
-  ['Warranty terms', 'Coverage details and claim procedure'],
-  ['Certificates', 'BIS, IEC and ISO compliance documents'],
+  ['Product catalogue', 'Overview and technical specifications'],
+  ['Individual datasheets', 'Available on the Qbits downloads page'],
+  ['Installation manuals', 'Request for the exact model'],
+  ['Warranty and certificates', 'Request current model documents separately'],
 ];
 
 function contentsRows() {
@@ -87,7 +87,7 @@ function customerHtml(name: string) {
 </style>
 </head>
 <body style="margin:0;padding:0;background:#eef2f6;">
-<div style="display:none;font-size:1px;color:#eef2f6;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden">Your Qbits inverter catalogue is ready — datasheets, manuals, warranty terms and certifications in one PDF.</div>
+<div style="display:none;font-size:1px;color:#eef2f6;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden">Your Qbits inverter catalogue is ready: product information in one PDF; request other documents by model.</div>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#eef2f6">
   <tr><td align="center" style="padding:32px 12px">
 
@@ -111,7 +111,7 @@ function customerHtml(name: string) {
         <div style="font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#049D65">Your download is ready</div>
         <h1 class="h1" style="margin:12px 0 0;font-size:30px;line-height:1.25;font-weight:700;color:#0f172a;letter-spacing:-.5px">The complete Qbits<br/>inverter catalogue</h1>
         <p style="margin:16px 0 0;font-size:15px;line-height:1.65;color:#475569">
-          Hi ${firstName}, thanks for your interest in Qbits. Every model, specification and certification is in the PDF below, ready for your BoQ, EPC bids and net-metering paperwork.
+          Hi ${firstName}, thanks for your interest in Qbits. The product catalogue PDF is below. For the current installation manual, warranty terms or certificates, ask our team for the documents for your exact model.
         </p>
       </td></tr>
 

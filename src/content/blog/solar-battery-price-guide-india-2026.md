@@ -154,15 +154,11 @@ For more on the lithium vs lead-acid decision, read the [lithium vs lead acid so
 - **Ignoring DISCOM export limits when sizing storage**: Excess battery storage capacity beyond what the inverter can charge and discharge within daily generation cycles adds cost without adding value. Consult the [net metering India guide](/blog/how-to-apply-net-metering-india/) to understand how storage interacts with export credits. [JMK Research battery storage market data](https://jmkresearch.com/) notes that over-specified storage is one of the top two reasons for poor solar storage ROI in Indian residential projects.
 - **Buying imported brands without verifying local service**: For VRLA, the service network of Exide and Amaron is unmatched. For lithium, verify the distributor's authorisation and service process before purchasing. See the [Exide vs Amaron solar battery comparison](/blog/exide-vs-amaron-solar-battery-india/) for a full breakdown of brand service quality, or purchase through a verified equipment retailer that stands behind the certification. [MNRE's rooftop solar guidelines](https://mnre.gov.in/){target="_blank" rel="noopener"} require all storage systems to meet minimum safety certifications, confirm your chosen battery has BIS or IEC 62619 certification before purchase.
 
-## Where Qbits Fits in Battery System Integration
+## Qbits model documentation
 
 The right battery is only half the equation, the hybrid inverter's charging algorithm, BMS protocol support, and monitoring capability determine how well the battery actually performs.
 
-Qbits HS and HT series hybrid inverters support both VRLA and LiFePO4 chemistries with properly configured charging profiles for each. BMS communication via CAN bus and RS485 is supported for Pylontech, Livguard, and other lithium brands.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series, chemistry-agnostic, 12-year warranty, AI WhatsApp monitoring.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[Battery Backup Calculator](/blog/solar-battery-backup-calculator/)**: Calculate backup time for your specific load profile and battery choice.
 - **[On-Grid Inverters](/on-grid-inverter/)**: For grid-connected installations without battery storage.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Local inverter service in 280+ Indian cities.
-
-[Get a complete battery-plus-inverter system design at contact-us](/contact-us/), Qbits engineers size the storage correctly for your load and outage pattern.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.

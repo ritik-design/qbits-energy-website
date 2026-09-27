@@ -12,7 +12,7 @@ keywords:
   - bis solar inverter
   - bis solar module
   - is 14286 bis
-shortDefinition: "BIS Certification is the mandatory Indian quality certification administered by the Bureau of Indian Standards. For solar, BIS certification under IS 14286 (modules) and IS 16221/17387 (inverters) is required before equipment can be sold in India, and is a prerequisite for ALMM listing."
+shortDefinition: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
 quickFacts:
   industry: "Indian Quality Certification"
   primaryUse: "Mandatory quality compliance for solar equipment sold in India"
@@ -65,6 +65,8 @@ faqs:
     a: "Not legally for products under mandatory certification orders. Sale of uncertified products invites penalties and confiscation."
 author: "Nirav Dhanani"
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 ## What is BIS certification
 
@@ -220,14 +222,6 @@ Ignoring surveillance results that may have revoked the certification.
 Buying products with expired BIS certificates.
 
 Missing BIS amendments that update test requirements, which is why [reading a solar inverter datasheet](/blog/how-to-read-solar-inverter-datasheets/) carefully alongside the certificate matters at procurement stage.
-
-## Key takeaways
-
-BIS Certification is mandatory for solar modules and inverters sold in India under the Solar PV Quality Control Order 2017. It is the foundation of ALMM listing, DISCOM commissioning and customer recourse. Standards cover IS 14286 for modules, IS 16221 and IS 17387 for inverters, plus charge controllers, batteries and lanterns. Verification must happen before procurement, not after. For a full walkthrough of every certification an EPC should check, see [solar inverter certifications explained](/blog/solar-inverter-certifications/) and the broader [BIS/IEC compliance guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/).
-
-## Need help with BIS certification for solar equipment?
-
-QBits Energy supplies only BIS-certified and ALMM-listed solar equipment, with verified certificates on every shipment, sourced through the same rigor a turnkey solar EPC partner expects from its inverter supplier.
 
 ## Further reading
 

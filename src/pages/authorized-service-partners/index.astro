@@ -5,16 +5,16 @@ import Footer from '../../components/Footer.astro';
 import PageHeader from '../../components/ui/PageHeader.astro';
 
 const supportTypes = [
-  { title: 'Installation', desc: 'Certified technicians for safe and efficient inverter installation.', icon: 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4' },
-  { title: 'Maintenance', desc: 'Regular servicing and preventive maintenance to maximize inverter life.', icon: 'M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z' },
-  { title: 'Repair & Replacement', desc: 'Quick turnaround for warranty claims and spare part replacement.', icon: 'M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z' },
-  { title: 'Technical Training', desc: 'Product training for dealers and installers across India.', icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253' },
+  { title: 'Installation Enquiry', desc: 'Confirm the proposed installer, scope, qualifications, and commissioning responsibilities in writing.', icon: 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4' },
+  { title: 'Maintenance Enquiry', desc: 'Ask for the exact model schedule, visit scope, exclusions, and chargeable work.', icon: 'M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z' },
+  { title: 'Warranty Route', desc: 'Confirm diagnosis, transport, labour, replacement, and response terms against the current written warranty.', icon: 'M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z' },
+  { title: 'Partner Verification', desc: 'Check current directory status with Qbits before relying on a listing or paying for work.', icon: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253' },
 ];
 ---
 
 <Layout
   title="Authorized Service Partners | Qbits Energy"
-  description="Find Qbits authorized service partners across India. Search by state and district for installation, service, and support."
+  description="Search the current Qbits partner directory, then confirm partner status, service scope, coverage, and terms before relying on a listing."
   canonical="/authorized-service-partners/"
 >
   <HeaderV2 />
@@ -24,7 +24,7 @@ const supportTypes = [
       label="Support Network"
       title="Authorized"
       highlight="Service Partners"
-      description="Find certified Qbits partners for installation, maintenance, and support across India."
+      description="Search the current directory and confirm partner status, scope, coverage, and commercial terms with Qbits before purchase or service."
     />
 
     <!-- Support Types -->
@@ -154,7 +154,7 @@ const supportTypes = [
       <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
       <div class="container-main relative text-center max-w-3xl">
         <h2 class="text-3xl sm:text-4xl font-bold mb-6">Want to Become a Partner?</h2>
-        <p class="text-lg text-brand-100 mb-10">Join our growing network of authorized service partners across India. Get exclusive pricing, training, and marketing support.</p>
+        <p class="text-lg text-brand-100 mb-10">Apply to discuss the current service-partner route. Coverage, pricing, training, marketing and support depend on approval and written terms.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="/contact-us/" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-brand-600 shadow-lg hover:bg-brand-50 transition-all">Apply Now</a>
           <a href="https://wa.me/919979192935" target="_blank" rel="noopener noreferrer" class="btn-outline">Chat on WhatsApp</a>

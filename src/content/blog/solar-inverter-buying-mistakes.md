@@ -1,7 +1,7 @@
 ---
 title: "5 Mistakes to Avoid When Buying a Solar Inverter"
 excerpt: "Mistakes buying a solar inverter cost Indian homeowners ₹25,000–₹60,000 in avoidable losses. Here are the 5 most expensive errors, and how to sidestep each one."
-description: "The 5 most expensive mistakes when buying a solar inverter in India, from choosing on price alone to skipping the ALMM list. Avoid them before you sign."
+description: "Avoid common solar inverter buying mistakes by checking system type, electrical fit, exact-model evidence, warranty scope and installed cost."
 category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
@@ -16,38 +16,37 @@ keywords:
   - ALMM solar inverter subsidy
 faqs:
   - q: "What is the most common mistake when buying a solar inverter in India?"
-    a: "Choosing the cheapest inverter is the single most frequent and costly error. A ₹10,000 price difference at purchase can translate into ₹35,000–₹60,000 in extra replacement, repair, and downtime costs over a 12-year system life. Warranty depth, ALMM status, and local service availability matter far more than the quoted unit price."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Does a non-ALMM inverter disqualify me from the PM Surya Ghar subsidy?"
-    a: "Yes. The PM Surya Ghar Muft Bijli Yojana requires both the solar module and the inverter to appear on the MNRE Approved Models and Manufacturers List (ALMM). Installing a non-ALMM inverter means the DISCOM will reject the subsidy application outright. The central subsidy for a 3 kW system is up to ₹78,000 - an amount too large to forfeit over a single component oversight."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How many hours of power cuts per day justify a hybrid inverter over an on-grid inverter?"
     a: "If your location experiences more than 4 hours of grid outage per day, a hybrid inverter with battery storage is the right choice. On-grid inverters shut down automatically during grid failures as a safety measure called anti-islanding. In states like UP, Bihar, and rural Maharashtra where 6–10 hour outages are common, buying an on-grid-only inverter means solar generation stops entirely during the hours you need it most."
   - q: "What is the difference between a 5-year and a 12-year solar inverter warranty in India?"
-    a: "A 5-year warranty typically covers only labour repairs on failed components, with parts charged after year 2 or 3. A 12-year full replacement warranty covers the entire unit - board, capacitors, IGBT, housing - at no cost for the full term. The financial gap is significant: a mid-range 5 kW inverter costs ₹18,000–₹25,000 to replace, and inverter failure rates peak between years 6 and 9 - precisely outside most short warranties."
+    a: "A 5-year warranty typically covers only labour repairs on failed components, with parts charged after year 2 or 3. A model-specific written warranty covers the entire unit - board, capacitors, IGBT, housing - at no cost for the full term. The financial gap is significant: a mid-range 5 kW inverter costs ₹18,000–₹25,000 to replace, and inverter failure rates peak between years 6 and 9 - precisely outside most short warranties."
   - q: "How do I check if a solar inverter brand has service centres near me?"
     a: "Ask the vendor for a pincode-searchable service partner list or call the brand's toll-free number and request the nearest authorised service centre address. A legitimate national brand will give you a specific address and contact name within minutes. If the response is vague ('our team will come to you') without a named partner, treat that as a red flag for service network depth."
   - q: "What is the ALMM list and why does it matter for solar inverter buyers?"
-    a: "The ALMM (Approved Models and Manufacturers List) is published by MNRE and lists solar equipment that meets India's technical and quality standards. Only ALMM-listed inverters qualify for PM Surya Ghar subsidies and can receive net metering approval from most state DISCOMs. Non-ALMM inverters are legal to purchase but ineligible for financial benefits and may face grid connection refusal from stricter utilities."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Can I upgrade an on-grid inverter to a hybrid inverter later?"
     a: "In most cases, no - not without replacing the inverter unit. On-grid inverters lack the DC-coupled battery charge controller, multi-source management firmware, and switchover relay that hybrid units require. The changeover typically costs ₹35,000–₹55,000 for a 5 kW system, including the new inverter, rewiring, and recommissioning. Buying the right topology the first time is always cheaper."
   - q: "What questions should I ask a solar vendor before buying an inverter?"
-    a: "Ask six things: (1) Is this inverter on the current ALMM list? (2) What does the warranty cover - repair or full replacement? (3) How many service centres does the brand have in my district? (4) What is the average response time if the inverter fails? (5) Does the inverter carry BIS and IEC 62109 certification? (6) What is the inverter's IP rating - is it safe for monsoon exposure? A vendor who cannot answer all six confidently is not the right partner."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "How much does the wrong inverter topology actually cost in UP or Bihar?"
     a: "In areas with 6–8 hours of daily outages, an on-grid inverter produces zero power during those hours. A 3 kW system losing 6 hours of generation daily at ₹8 per unit forfeits roughly ₹5,250 per month, or ₹63,000 per year in potential savings. Over a 12-year life, that is over ₹7 Lakh in lost value - far more than the ₹40,000–₹60,000 premium a hybrid inverter carries at purchase."
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Solar is a 12-year financial commitment, yet most Indian homeowners spend more time choosing a refrigerator than evaluating an inverter. The result is predictable: thousands of rupees evaporate in replacement costs, forfeited subsidies, and months of avoidable downtime. The inverter market in India has grown rapidly (India added over 15 GW of rooftop and distributed solar capacity by end of 2025) but the information available to buyers has not kept pace with the technical complexity of the products on offer.
 
 This post maps the five most expensive mistakes Indian homeowners make when buying a solar inverter. Each mistake comes with a real scenario, the rupee cost of getting it wrong, and a practical way to avoid it.
 
-> **Direct answer.** The five mistakes that cost Indian solar buyers the most money are: (1) choosing on price alone, (2) ignoring warranty depth, (3) buying on-grid when power cuts exceed 4 hours per day, (4) skipping the ALMM check before purchase, and (5) choosing a brand with no local service network. Each mistake can cost ₹25,000–₹78,000 in avoidable losses. Use the **5-Question Inverter Audit** before you sign any quotation.
-
 > **TL;DR**
 > - Choosing the cheapest inverter on price alone typically costs ₹25,000-₹40,000 more over 12 years once mid-life repairs and replacement are factored in.
-> - A 12-year full-replacement warranty is the safest structure; most budget brands offer only a 2-5 year repair-only warranty with narrow coverage.
+> - A model-specific written warranty is the safest structure; most budget brands offer only a 2-5 year repair-only warranty with narrow coverage.
 > - Buy a hybrid inverter, not on-grid, if daily power cuts exceed 4 hours; on-grid inverters shut down completely during grid failure due to anti-islanding protection.
 > - Skipping the ALMM check can forfeit the full PM Surya Ghar subsidy (up to ₹78,000 for a 3 kW system) since DISCOMs reject non-ALMM installations outright.
 > - Around 60% of inverter faults need an on-site technician, so a brand with no local service partner near you means weeks of downtime when something fails.
-> - Run the 5-Question Inverter Audit (ALMM status, warranty depth, topology fit, service network, 12-year TCO) before transferring any payment.
 
 If you are still in the early stages of deciding what to buy, the full [solar inverter buying guide for homes in India](/blog/how-to-choose-solar-inverter-for-home-india/) covers sizing, topology, and feature comparison in detail. This post focuses specifically on where buyers go wrong, and what those errors cost in practice.
 
@@ -55,7 +54,7 @@ If you are still in the early stages of deciding what to buy, the full [solar in
 
 Rajan, a homeowner in Pune, received three quotations for a 5 kW solar system. The inverters were priced at ₹18,000, ₹24,500, and ₹31,000 respectively. He chose the ₹18,000 option. By year 4, the display had failed. By year 6, the [MPPT](/glossary/mppt/) board needed replacement. The service centre was 180 km away. Total repair cost over eight years: ₹41,000, plus two months of zero generation during repair wait times.
 
-The ₹18,000 inverter cost him ₹59,000 over eight years. The ₹31,000 option, had he chosen it, would have carried a 12-year full replacement warranty with a local service partner. His net additional cost would have been zero.
+The ₹18,000 inverter cost him ₹59,000 over eight years. The ₹31,000 option, had he chosen it, would have carried a model-specific written warranty with a local service partner. His net additional cost would have been zero.
 
 This is the trap of purchase-price thinking. A [solar inverter's true cost](/blog/inverter-tco/) includes the unit price, installation, any mid-life repairs, replacement cost if the unit fails, and the generation lost during downtime. Evaluated over a 12-year horizon, a ₹10,000–₹13,000 price difference at purchase is rarely material, but the warranty, reliability, and service network attached to that product absolutely are.
 
@@ -130,13 +129,7 @@ The [on-grid vs hybrid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decis
 
 ## Mistake 4: Skipping the ALMM Check Before Purchase
 
-The [ALMM (Approved Models and Manufacturers List)](/glossary/almm-list/) is maintained by the Ministry of New and Renewable Energy (MNRE). It lists every solar inverter model that has passed Indian quality and performance standards. Only ALMM-listed equipment qualifies for the PM Surya Ghar Muft Bijli Yojana subsidy, and for grid connection approval from many state DISCOMs.
-
-The stakes are large. The central subsidy for a 3 kW system is ₹78,000. A 2 kW system qualifies for ₹60,000. These amounts are transferred directly to the buyer's bank account after the DISCOM verifies the installation. If your inverter is not on the ALMM list, the DISCOM rejects the application. You get ₹0.
-
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the buyer's bank account after DISCOM verification. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
-
-The ALMM mistake is surprisingly common for two reasons. First, the list is updated quarterly, and a model that was ALMM-listed when the vendor ordered inventory may have been delisted by the time of installation. Second, many local assemblers sell inverters under generic or rebranded labels that were never listed.
 
 ### How to Verify ALMM Status in 3 Minutes
 
@@ -144,8 +137,6 @@ The ALMM mistake is surprisingly common for two reasons. First, the list is upda
 2. Search by manufacturer name and model number, both must match exactly.
 3. Confirm the phase (Phase I, II, or III), Phase III is current; Phase I/II status may affect newer subsidy applications.
 4. Screenshot the result and share it with your installer before signing.
-
-The [ALMM Phase III guide](/blog/almm-list-phase-iii-guide/) explains what Phase III means for buyers and which brands currently hold Phase III certification. Non-ALMM inverters are not illegal to install, but they are ineligible for subsidies and may face grid connection complications with stricter DISCOMs in states like Rajasthan, Gujarat, and Haryana.
 
 A related complication: some DISCOM jurisdictions now require the [empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) to certify equipment as ALMM-compliant before submitting the net metering application. An installer who is not empanelled or who uses non-ALMM gear can get your net metering rejected even after the panels are on the roof.
 
@@ -184,7 +175,6 @@ Before transferring any payment for a solar inverter, run through these five que
 
 ### The 5-Question Inverter Audit
 
-1. **Is this inverter on the current ALMM list?**: Verify on the MNRE portal, not from the vendor's catalogue. Screenshot the result.
 2. **Does the warranty cover full unit replacement, and for how many years?**: Anything less than 10 years full replacement warrants a hard negotiation or a different brand.
 3. **Is the inverter topology right for my grid reliability?**: Pull the DISCOM outage data for your feeder area. More than 4 hours per day requires hybrid.
 4. **What is the nearest authorised service centre, and what is the RMA response time?**: Get a name and address, not a phone number.
@@ -226,24 +216,13 @@ The [solar inverter failure analysis](/blog/solar-inverter-failure/) post docume
 
 The five mistakes are more dangerous together than individually. Consider the worst-case scenario:
 
-A homeowner in rural Bihar buys the cheapest on-grid inverter (Mistake 1), with a 5-year repair-only warranty (Mistake 2), for a location with 8 hours of daily outages (Mistake 3), from a model not on the ALMM list (Mistake 4), from a brand with no Tier-2 service presence (Mistake 5).
-
 At year 1: subsidy application rejected. Lost: ₹60,000–₹78,000.
 At year 3: inverter board failure. No local service. Unit shipped to Delhi. Repair takes 11 weeks. Lost generation: ₹6,000. Repair cost: ₹14,000.
 At year 6: full inverter failure. Out of warranty. Replacement cost: ₹22,000. Meanwhile, the on-grid topology has produced zero benefit during the 8-hour daily outages, approximately ₹7,500 per month in potential savings never realised.
-
-Cumulative financial impact: ₹1.2 Lakh–₹1.8 Lakh in forfeited subsidies, repair costs, and missed savings over six years. The correct purchase (an ALMM-listed hybrid inverter with a 12-year warranty from a brand with local service) would have cost ₹45,000–₹55,000 more at purchase and returned far more over the same period.
 
 This compound effect is why the [on-grid vs hybrid ROI comparison](/blog/on-grid-vs-hybrid-solar-inverters-roi/) calculates total system value over 12 years, not just the 4-to-6 year payback window that most vendor quotes emphasise.
 
 ## Where Qbits Fits
 
-Buyers who want to avoid all five mistakes in a single decision land on an inverter that is ALMM-listed, carries a 12-year full replacement warranty, operates correctly in India's 180–270 V grid range, and is backed by a national service network that answers the phone on a Tuesday afternoon.
-
-Qbits builds both on-grid and hybrid inverters for the Indian residential market, with [IP66 weather protection](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/), AI-powered WhatsApp monitoring, and a sub-72-hour RMA SLA. Every model on the current range is ALMM Phase III compliant and BIS/[IEC 62109](/glossary/iec-62109/)-certified.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW; ALMM Phase III listed, PM Surya Ghar subsidy-eligible, ideal for grids with fewer than 4 hours of outage.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery-ready DC architecture, sub-20ms grid switchover, and full functionality during outages; the right answer for UP, Bihar, rural Maharashtra.
-- **[Authorised Service Partners](/authorized-service-partners/)**: pincode-searchable network with 72-hour on-site SLA; the most direct answer to Mistake 5.
-
-[Talk to a Qbits engineer](/contact-us/) about which inverter fits your location and load profile, most site assessments come back within 24 hours, and the ALMM status of every Qbits model can be verified on the MNRE portal before you commit.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.

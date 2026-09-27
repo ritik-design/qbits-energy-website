@@ -66,6 +66,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is an IBC cell
 
 > **TL;DR**
@@ -185,8 +187,6 @@ Difficult to make in larger formats.
 Limited IBC availability in India, though buyers evaluating premium panels for a rooftop should still confirm the model appears on the [ALMM List](/glossary/almm-list/) before committing.
 
 Maxeon distributes through partners.
-
-PM Surya Ghar accepts IBC modules if they clear the [ALMM Phase III listing](/blog/almm-list-phase-iii-guide/) requirements that also govern inverters and balance-of-system gear.
 
 Premium installations may source IBC through specialty channels.
 

@@ -186,4 +186,4 @@ US proposal software is a mature category solving a problem that changed underne
 
 - **Test any vendor on self-consumption, not offset.** Ask for the hourly overlay and the self-consumption percentage on a California address with a battery. The answer separates the field in about a minute.
 - **Check commercial credit depth before you buy.** Section 48E, the domestic content and energy community bonuses, MACRS, and the prevailing wage threshold above 1 MW AC either exist in the financial engine or they do not.
-- **Design one of your live deals in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) if you also need the inverter and BOQ side specified against the finished design.
+

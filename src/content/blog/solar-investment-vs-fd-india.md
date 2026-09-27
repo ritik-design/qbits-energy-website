@@ -33,6 +33,10 @@ faqs:
     a: "Cloud cover reduces solar generation by 30–60% during monsoon months (June–September in most of India). However, net metering allows surplus credits earned in summer months to offset reduced generation in monsoon months - spreading the annual savings across the year. Over a full year, generation varies but the annual average savings figure used in IRR calculations (based on local peak sun hours) already accounts for seasonal variation."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every month, millions of Indian households receive an electricity bill and simultaneously see their bank FD statement. The FD earns 7.5%. The electricity bill drains ₹6,000. Somewhere in that gap lives a financial question that most people never frame explicitly: what if the ₹3,00,000 sitting in a fixed deposit went into rooftop solar instead?
 
 This guide does the maths honestly. Solar wins on return. FD wins on liquidity. The decision is not as simple as picking the higher IRR.
@@ -172,12 +176,7 @@ A state by state payback comparison is in [solar inverter payback period](/blog/
 
 ## Where Qbits Fits
 
-The solar investment thesis depends entirely on the inverter performing reliably for 20–25 years. A 12-year full replacement warranty from Qbits means the inverter is covered for the first half of the system's earning life without replacement risk. After the payback period (Year 4–5), every rupee saved is pure return, and the inverter's reliability determines how much of that return is actually collected.
-
-Qbits inverters feature IP66 weather protection for India's harsh climate, AI-powered WhatsApp monitoring that alerts to performance drops, and BIS/ALMM compliance required for PM Surya Ghar subsidy eligibility.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM-listed TLS and TLD series, subsidy-eligible and net-metering compatible.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for households in power-cut zones where battery backup protects the investment.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: get the system design right from the first day to maximise generation and IRR.
 
-[Talk to a Qbits engineer](/contact-us/) about building a solar investment case for your specific tariff, roof size, and electricity consumption. Most quotes come back in 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

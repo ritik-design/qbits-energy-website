@@ -180,4 +180,4 @@ New Zealand solar design changed character in July 2026 and most quoting has not
 - **Treat the retailer plan as a design input.** Rates span 5 cents to 40 cents depending on plan and hour, and that decides the optimal configuration.
 - **Recommend the plan and the battery together.** A time-varying plan without storage leaves the customer exporting into the trough and importing at the peak.
 - **Keep self-consumption first.** Direct use still beats peak export on most plans, and it is insulated from rate changes.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a New Zealand address, or reach the Qbits team [here](/contact-us/) for AS/NZS 4777.2 compliant inverter and battery specification.
+

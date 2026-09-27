@@ -178,4 +178,4 @@ France did not adjust its solar incentives in June 2026. It removed them, and th
 - **Stop sizing to the roof.** Surplus earns 1.1 centimes, so capacity beyond the daytime load curve is close to free energy for the grid.
 - **Model self-consumption hourly.** Annual totals will tell you a household covers its usage while it exports at noon and imports all evening.
 - **Treat storage as a design decision.** It now captures nearly the full retail spread, which is a far better case than it had a year ago.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a French address, or reach the Qbits team [here](/contact-us/) for inverter and battery specification against the finished design.
+

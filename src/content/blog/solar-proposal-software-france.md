@@ -181,4 +181,4 @@ The French proposal lost two revenue lines in June 2026 and has not been rewritt
 - **Delete the prime and reprice the export.** Both were correct in May and neither applies to a new installation now.
 - **Show the small export figure anyway.** It proves the point you need the customer to accept before they will consider storage.
 - **Answer the neighbour's-payback objection in writing.** Pre-June connections keep old rates for twenty years, and that comparison will come up in every conversation.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for inverter and battery specification.
+

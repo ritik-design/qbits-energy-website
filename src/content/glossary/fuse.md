@@ -243,8 +243,6 @@ Fuses are essential overcurrent protection devices for solar DC strings. Special
 
 ## Need properly designed DC protection?
 
-QBits Energy designs and supplies solar DC combiner boxes with gPV fuse protection, DC isolators and SPDs for utility and C&I applications across India.
-
 ## Further reading
 
 For how Fuse plays out in real projects, these guides go deeper:

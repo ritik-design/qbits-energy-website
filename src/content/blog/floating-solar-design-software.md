@@ -95,8 +95,6 @@ Floating solar (floatovoltaic or FPV) [design software](https://www.surgepv.com/
 - **Choose [PVsyst](/blog/pvsyst-alternative/)** for lender-mandated bankable reports on first-of-its-kind FPV projects.
 - **Choose specialist marine engineering tools** for the anchoring side, which SurgePV does not handle.
 
-For most installers and EPCs doing floating solar in 2026, SurgePV is the cleanest workflow. On the hardware side, large FPV arrays are typically paired with [on-grid inverters](/on-grid-inverter/) sized for the utility interconnection, and Qbits' [C&I solution](/c-i-solution/) team can help spec strings once the anchoring layout is locked.
-
 <div class="inline-cta">
 <h3>Ready to design floating solar in one tool?</h3>
 <p>SurgePV combines AI 3D, 8,760-hour module-level shading, water-cooling yield boost, and white-label proposals for FPV projects.</p>

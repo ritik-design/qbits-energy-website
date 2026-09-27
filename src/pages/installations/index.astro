@@ -15,7 +15,7 @@ const gallerySchema = {
   '@type': 'ImageGallery',
   name: 'Qbits Energy solar inverter installations',
   description:
-    'Photographs of commissioned Qbits solar inverter installations across residential and commercial sites in India.',
+    'Photographs identified by Qbits as residential and commercial inverter installations. Project details require owner verification.',
   url: `${SITE}/installations`,
   image: installations.map((item) => ({
     '@type': 'ImageObject',
@@ -28,8 +28,8 @@ const gallerySchema = {
 
 <Layout
   title="Solar Inverter Installations | Qbits Energy"
-  description={`See ${installations.length} real Qbits solar inverter installations — residential rooftops, stairwells, shop fronts and multi-inverter commercial banks — photographed on site with DCDB and ACDB details visible.`}
-  canonical="/installations"
+  description={`See ${installations.length} photographs identified by Qbits as inverter installations. Confirm project identity, commissioning status, equipment and results before relying on an image.`}
+  canonical="/installations/"
   preloadImage="/installations/install-13.webp"
 >
   <HeaderV2 />
@@ -47,8 +47,8 @@ const gallerySchema = {
         </h2>
         <p class="text-slate-300 leading-relaxed mt-5">
           {invertersPictured}+ Qbits inverters are pictured here. Join the partner
-          network and we will feature your work — and back it with a 12-year warranty
-          and a service team across India.
+          network and we may feature your work. Confirm the current written warranty
+          and service route for the exact inverter model and installation location.
         </p>
         <div class="flex flex-wrap justify-center gap-4 mt-9">
           <a href="/become-our-partner" class="btn-primary">Become a partner</a>

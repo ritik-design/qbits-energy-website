@@ -35,6 +35,8 @@ faqs:
 featured: false
 ---
 
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 Solar lagwane wale har ghar ka sabse bada sawaal price nahi hota, timing hota hai। "Paisa kab wapas aayega" yeh question har quote discussion mein aata hai, aur yahi wo jagah hai jahan sabse zyada galat expectations set hoti hain। Kuch vendors bolte hain "do mahine mein subsidy aa jayegi", kuch bolte hain "installation ke saath hi adjust ho jayegi"। Dono statements aam taur par galat hain। Is guide mein poora process stage-by-stage tod kar rakha gaya hai, har stage ke realistic din ke saath, aur yeh bhi ki kis stage par sabse zyada delay hota hai। Agar aapko process ke steps aur eligibility samajhni hai to uske liye alag companion guide hai; yeh page sirf timeline par focus karta hai।
 
 > **TL;DR**
@@ -89,9 +91,9 @@ Doosra kaaran transformer saturation hai। Jis feeder par pehle se bahut saare 
 
 <div class="inline-cta">
 <h3>Apne load aur capacity ka sahi match nikalwaayein</h3>
-<p>Sanctioned load kam hone se feasibility atakti hai। Qbits engineer aapke bill aur roof ke hisaab se sahi system size aur inverter capacity suggest karta hai, taki application pehli baar mein clear ho।</p>
-<a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">Free consultation, koi obligation nahi।</p>
+<p>Sanctioned load aur proposed capacity ko current DISCOM rules ke against verify karein। Qbits ko bill aur project details bhejne se pehle poochhein ki kaun sa review available hai, kaun responsible hoga aur deliverable kya hoga। Approval ki guarantee nahi di ja sakti।</p>
+<a href="/contact-us/" class="cta-btn">Written Scope Maangein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
+<p class="cta-sub">Review availability, fee aur response time written form mein confirm karein।</p>
 </div>
 
 ## Stage 3: Vendor Selection Aur Installation (5 se 22 Din)
@@ -118,8 +120,6 @@ Ek practical baat: net meter lagne se pehle system ko grid par mat chalayein। 
 
 ## Stage 5: Inspection Aur Commissioning Certificate (8 se 35 Din)
 
-Meter lagne ke baad DISCOM ka technical officer site inspection karta hai। Woh earthing, AC aur DC isolation, inverter ki ALMM listing, safety labels aur meter connections check karta hai। Inspection slot milne mein 5 se 20 din lag sakte hain।
-
 Inspection pass hone ke baad commissioning certificate issue hota hai, jo aam taur par 3 se 15 din leta hai kyunki report ko portal par upload hona hota hai।
 
 Sabse common observations do hain: earthing resistance requirement se zyada, aur AC side protection devices ki rating drawing se match na karna। Dono cases mein vendor ko rectify karke re-inspection maangna padta hai, jo 7 se 21 din add karta hai।
@@ -128,9 +128,9 @@ Commissioning certificate hi wo document hai jiske baad subsidy claim active hot
 
 <div class="inline-cta">
 <h3>Inspection ke waqt equipment hi asli fark daalta hai</h3>
-<p>ALMM Phase III listed inverter, IP66 enclosure aur clear safety labelling se DISCOM inspection first attempt mein clear hone ke chances kaafi behtar rehte hain। Qbits ka poora range dekh lein।</p>
+
 <a href="/our-products/" class="cta-btn">Product Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">ALMM listed models, 12-year warranty ke saath।</p>
+<p class="cta-sub">ALMM listed models, model-specific written warranty ke saath।</p>
 </div>
 
 ## Stage 6: Subsidy Claim Aur DBT Credit (31 se 63 Din)
@@ -204,7 +204,7 @@ Ek aur cheez jo log miss karte hain: agar aapka vendor gayab ho gaya hai ya kaam
 
 <div class="inline-cta">
 <h3>Rectification ya service ke liye apne area ka partner dhoondhein</h3>
-<p>Inspection observation, meter side ka issue ya vendor ka support band, in sab mein local certified partner sabse tez rasta hai। District-wise Qbits authorized partners ki list yahan hai।</p>
+
 <a href="/authorized-service-partners/" class="cta-btn">Partner Locator Kholein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Certified partners, district-wise coverage।</p>
 </div>
@@ -228,4 +228,3 @@ Elsewhere in the Heaven Group network, see [PM Surya Ghar cost by system size](h
 
 - Subsidy commissioning ke baad milti hai, isliye poora system cost pehle arrange karke chalein। Loan lena hai to feasibility approval ke saath hi sanction shuru karein।
 - Realistic expectation 3 se 6 mahine rakhein, aur har 7 din mein portal aur DISCOM dono par status check karke screenshot save karein।
-- Sahi capacity aur ALMM listed equipment se aadha delay pehle hi khatam ho jaata hai। Apne ghar ke liye exact sizing aur quote ke liye [Qbits engineer se baat karein](/contact-us/)।

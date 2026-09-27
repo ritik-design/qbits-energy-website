@@ -254,8 +254,6 @@ String sizing is the design step that matches modules to inverter MPPT window ac
 
 ## Need professional string sizing for your solar project?
 
-QBits Energy provides PVsyst-validated string sizing for residential, C&I and utility solar projects across Indian temperature zones.
-
 ## Further reading
 
 For how String Sizing plays out in real projects, these guides go deeper:

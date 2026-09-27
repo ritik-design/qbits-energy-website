@@ -33,6 +33,8 @@ faqs:
     a: "Performance ratio (PR) is the ratio of actual system output to theoretical maximum output. A system with PR 0.80 generates 80% of the energy the panels would produce under perfect standard test conditions. PR is reduced by inverter losses (1–3%), cable losses (1–2%), soiling (5–15%), temperature derating (5–10%), and shading. For C&I payback calculations, every 1% reduction in PR reduces annual generation by approximately 1%, reducing annual savings by ₹1,400 for a 100 kW Karnataka system at ₹9/unit - compounding to ₹35,000 per year if not corrected."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every C&I decision-maker who asks "should we invest in solar?" eventually asks "what exactly is the return, and how confident can we be in that number?" This guide walks through a complete, honest IRR calculation for a 100 kW C&I system in India, line by line, including the accelerated depreciation tax shield that most solar sales pitches either ignore or overstate.
 
 > **TL;DR**
@@ -41,7 +43,7 @@ Every C&I decision-maker who asks "should we invest in solar?" eventually asks "
 > - Without accelerated depreciation, the same system's IRR drops to roughly 17% and payback stretches to 5–7 years.
 > - Grid tariff is the single most important variable: IRR ranges from ~16% at ₹7/unit to ~28% at ₹12/unit on the same system.
 > - Self-consumption ratio matters almost as much, 50% self-consumption yields ~17% IRR while 90% self-consumption yields ~25% on identical generation.
-> - NPV over 25 years at an 8% discount rate is about ₹1.8 crore in the base case, rising to ~₹2.3 crore if a 12-year full-replacement warranty avoids the Year 12 inverter replacement cost.
+> - NPV over 25 years at an 8% discount rate is about ₹1.8 crore in the base case, rising to ~₹2.3 crore if a model-specific written warranty avoids the Year 12 inverter replacement cost.
 
 > **Direct answer.** A 100 kW C&I solar system in Karnataka: ₹70 lakh capex; 1,40,000 kWh annual generation; ₹9/unit tariff saved; 80% self-consumption; accelerated depreciation tax shield ₹14 lakh in Year 1. Simple payback: 4.5 years. NPV over 25 years at 8% discount rate: ~₹1.8 Crore. IRR: 22%. The "5-Line C&I Solar Business Case" framework produces this number in five inputs. Every variable is explained and stress-tested below.
 
@@ -93,13 +95,13 @@ Simple payback tells you when you recover the capital. [IRR](/glossary/irr/) and
 | Year 1 | +₹14,00,000 (tax shield) + ₹11,34,000 (savings) | Combined ₹25,34,000 |
 | Years 2–5 | ₹11,34,000 growing at ~6.5% pa | Tariff escalation 6%, degradation −0.5% → net 5.5% |
 | Years 6–12 | Savings growing at ~5.5% pa | Panel output at 97% by Year 12 |
-| Year 12 | −₹50,00,000 | Inverter replacement (worst case; 12-year warranty avoids this) |
+| Year 12 | −₹50,00,000 | Inverter replacement (worst case; model-specific written warranty avoids this) |
 | Years 13–25 | Savings growing at 5.5% pa | Panel output at 91% by Year 25 |
 
 **NPV at 8% discount rate: ~₹1.8 Crore**
 **IRR: ~22%**
 
-Note: The Year 12 inverter replacement assumes no warranty coverage. A 12-year full-replacement warranty eliminates this cash outflow entirely, pushing NPV to ~₹2.3 Crore and IRR to ~26%.
+Note: The Year 12 inverter replacement assumes no warranty coverage. A model-specific written warranty eliminates this cash outflow entirely, pushing NPV to ~₹2.3 Crore and IRR to ~26%.
 
 > **22% IRR** is the output for the base case 100 kW Karnataka system with accelerated depreciation. This exceeds the WACC of most Indian manufacturing companies (typically 10–15%), confirming strong value creation. *Source, IRR modelled using NREL irradiance data, BESCOM tariff schedule, and CBDT accelerated depreciation rules.*
 
@@ -157,18 +159,16 @@ For CFOs and plant managers who need to present the solar business case internal
 
 1. **Site survey report with generation estimate**: monthly generation projections from a PVSyst or equivalent simulation, not rule-of-thumb calculations, ideally backed by a proper site survey and land feasibility assessment before the numbers go to the board
 2. **EPC bid comparison**: using the [15-Point EPC Bid Scorecard](/blog/how-to-evaluate-solar-epc-bids/) to document the selection rationale
-3. **Tax benefit confirmation**: letter from the company's CA confirming the 80% accelerated depreciation eligibility and expected Year 1 tax saving
+3. **Tax treatment confirmation**: written advice from the company's qualified tax professional using the current asset classification, rate, eligibility and business facts
 
 This package makes the solar decision defensible to the board or investment committee, reduces approval time, and creates a clear success metric (actual generation vs projected) for post-implementation review. Once the model is approved internally, translating it into a formal client-facing proposal is faster with a [quotation system](https://quickestimate.co/features/quotation-system/) built for solar sales than re-keying the same numbers into a generic document.
 
 ## Where Qbits Fits in the C&I IRR Model
 
-The Year 12 inverter replacement line in the cash flow model represents the largest single risk to C&I solar IRR. A 12-year full-replacement warranty eliminates that cash outflow, improving the base case NPV from ₹1.8 Crore to ₹2.3 Crore and IRR from 22% to 26%.
+An inverter-replacement scenario can materially affect a C&I model, but the timing, cost and effect must come from documented assumptions and a validated calculation. The retained Qbits evidence does not establish a warranty that eliminates a Year 12 replacement cost. Keep that cost in the base or sensitivity case unless current written terms justify another treatment.
 
-Qbits commercial string inverters are warranted for 12 years (full replacement, not prorated), ALMM-listed for IREDA financing eligibility, and backed by an [authorised service network](/authorized-service-partners/) across 280+ Indian cities, ensuring the 72-hour RMA SLA that keeps the system generating during any inverter fault.
+- **[C&I Solutions](/c-i-solution/)**: Ask which project services are available and obtain the responsible party, deliverables, exclusions and fees in writing.
 
-- **[C&I Solar Solution](/c-i-solution/)**: Industrial solar from 50 kW to multi-MW with integrated IRR modelling.
-- **[On-Grid Inverters](/on-grid-inverter/)**: Commercial string inverters with ALMM listing and 12-year warranty.
 - **[Download Datasheets](/download-datasheets/)**: Technical specifications for the IREDA financing application and banker review.
 
-To get a customised 5-Line Business Case model for your plant (using your actual grid tariff, roof area, and financing cost) [talk to a Qbits engineer](/contact-us/). The analysis is free and delivered within 24 hours with your electricity bill and basic plant information.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

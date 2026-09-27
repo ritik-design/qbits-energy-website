@@ -178,4 +178,4 @@ Spanish proposals fail on a promise the regulations forbid.
 - **Never promise a zero bill.** The credit cannot take the energy component below zero, and fixed charges sit outside it entirely.
 - **Show twelve monthly rows.** Winter imports and summer waste are both invisible in an annual summary and both obvious to the customer within a year.
 - **Price export at hourly spot.** Average pricing overstates surplus value and hides the spread that justifies storage.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a Spanish address, or reach the Qbits team [here](/contact-us/) for inverter and battery specification.
+

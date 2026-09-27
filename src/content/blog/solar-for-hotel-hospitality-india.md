@@ -33,6 +33,8 @@ faqs:
     a: "EV charging is an emerging load in Indian hotels, particularly in Tier-1 cities and highway-adjacent properties. A single 22 kW AC EV charger adds significant daytime load - well-matched to solar generation timing. Hotels adding EV charging should factor charger capacity into the solar system design from the start. A 30 kW solar system that was adequately sized for hotel loads may become undersized once 2–3 EV chargers are added. Design for 5-year load growth when planning hotel solar."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 India's hospitality sector runs on electricity. Air conditioning for guest rooms and public spaces. Kitchens operating from early morning until late night. Laundry with industrial washers and dryers. Lighting for corridors, lobbies, banquets, and car parks. And increasingly, EV charging for guests and staff. A mid-market hotel in Pune or Jaipur with 50–80 rooms easily crosses ₹1.5–2 Lakh in monthly electricity bills.
 
 That number, and the 40% that goes to HVAC alone, explains why hotels are one of the fastest-growing segments for commercial solar in India. The payback math is compelling. The sustainability narrative supports brand positioning. And the FHRAI's green hospitality push gives management a concrete business reason to act.
@@ -179,13 +181,11 @@ For guidance on finding a qualified installer for your property, see the [find r
 
 ## Where Qbits Fits
 
-Hotels need an inverter brand that can be counted on for 12 years without replacement risk, a kitchen losing power during service or a guest room AC failing in May because the inverter tripped without a support engineer nearby is a real operational and reputational risk.
+Hotels should treat inverter downtime, HVAC continuity and service access as project risks. No supplier can remove replacement risk through a headline warranty term. Compare the exact model, redundancy design, written warranty remedy, local escalation route and contracted response terms.
 
-Qbits 3-phase commercial inverters are designed for continuous duty, IP66-rated for rooftop environments, and backed by a nationwide authorised service partner network with a 72-hour RMA SLA. For hotel management that wants to know the system is working at any given moment, the AI WhatsApp monitoring sends alerts to a nominated operations contact, no app login required.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the current three-phase families and exact-model documents against the hotel's measured load and electrical design.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
+- **[C&I Solutions](/c-i-solution/)**: Ask which project services are available and obtain the responsible party, deliverables, exclusions and fees in writing.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, service scope, coverage, response process and commercial terms for the location.
 
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLD 3-phase series (20–125 kW) for HVAC and common area load coverage.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HT series for essential load circuits with battery-backed switchover during grid outages.
-- **[C&I Solutions](/c-i-solution/)**: commercial solar solutions with structural assessment, net metering application, and commissioning support.
-- **[Authorised Service Partners](/authorized-service-partners/)**: service coverage across 280+ Indian cities for the full warranty period.
-
-[Request a hotel solar proposal](/contact-us/) with your electricity bills and rooftop area, Qbits commercial engineers deliver proposals within 48 hours, with a full load map and ROI model.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

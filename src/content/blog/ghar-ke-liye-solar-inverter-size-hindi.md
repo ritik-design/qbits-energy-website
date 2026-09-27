@@ -35,6 +35,8 @@ faqs:
 featured: false
 ---
 
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
+
 Solar का सबसे महँगा फैसला size का होता है, और वो फैसला ज़्यादातर घरों में vendor के अंदाज़े पर हो जाता है। कोई आकर छत देखता है, "sir 5 kW लगवा लीजिए" बोलता है, और बात खत्म। छह महीने बाद पता चलता है कि आधी generation grid को मुफ्त जा रही है, या उल्टा, bill अब भी ₹1,800 आ रहा है क्योंकि system छोटा पड़ गया। दोनों गलतियाँ एक ही वजह से होती हैं: sizing bill से शुरू नहीं हुई, छत से शुरू हुई। इस guide में उल्टा रास्ता लेंगे। पुराना bijli bill उठाइए, units निकालिए, और उन्हीं units से panel kW, फिर inverter का AC size, फिर roof area की सच्चाई तक पहुँचिए। कौन सा inverter चुनें, on-grid लें या hybrid, यह अलग सवाल है और उसका जवाब [ghar ke liye solar inverter chunne ki guide](/blog/ghar-ke-liye-solar-inverter/) में है। यहाँ सिर्फ number निकालेंगे।
 
 > **TL;DR**
@@ -176,8 +178,6 @@ Practical आंकड़ा **65 से 85 sq ft प्रति kW** है।
 
 Calculation ने 3.42 kW दिया। बाज़ार में 3.42 kW का inverter नहीं मिलता, इसलिए अब असली model पर round करना है।
 
-Qbits की single-phase on-grid range में यह sizes हैं: QB 1.5KTLS, QB 2.0KTLS, QB 2.7KTLS, QB 3.0KTLS, QB 3.3KTLS, QB 3.6KTLS, QB 4.0KTLS, फिर QB 4.6KTLS, QB 5KTLS, QB 6KTLS और QB 4 KTLD, QB 5 KTLD, QB 6 KTLD। Battery के साथ जाना हो तो hybrid side पर QBH 3KS, QBH 3K6S, QBH 4KS, QBH 4K6S, QBH 5KS और QBH 6KS48P हैं।
-
 Rounding के तीन सीधे नियम:
 
 1. **Array के सामने रहिए, बहुत आगे नहीं।** 4 kW array पर QB 3.3KTLS और QB 3.6KTLS दोनों ठीक हैं, QB 2.7KTLS clipping बढ़ा देगा।
@@ -214,13 +214,11 @@ MNRE की PM Surya Ghar Muft Bijli Yojana में residential rooftop पर
 - Calculation 4.5 kW कह रही है तो 3 kW पर रुकना गलत होगा, बची units full tariff पर खरीदनी पड़ेंगी।
 - कुछ राज्यों की अपनी अतिरिक्त subsidy है जिसकी limits अलग हैं, नियम [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/) में देख लीजिए।
 
-Subsidy DISCOM-empanelled vendor से installation पर ही मिलती है, और panel तथा inverter दोनों ALMM listed होने चाहिए। Sizing perfect हो लेकिन model list में न हो तो claim अटक जाता है।
-
 <div class="inline-cta">
 <h3>Kaunsa Model Aapke Array par Fit Baithega</h3>
 <p>QB 1.5KTLS se QB 6KTLS tak, aur hybrid mein QBH 3KS se QBH 6KS48P tak. Har model ki max DC input, MPPT count aur voltage window ek jagah dekhiye.</p>
 <a href="/our-products/" class="cta-btn">Product Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">Sabhi models ALMM Phase III listed।</p>
+<p>MNRE की current ALMM page PV module और cell lists publish करती है, inverter list नहीं। Exact module/cell models और inverter documents अलग-अलग verify करें।</p>
 </div>
 
 ## Nishkarsh
@@ -229,4 +227,3 @@ Sizing कोई रहस्य नहीं है, यह सात steps क
 
 - पिछले 12 महीने के bills से average monthly units निकालिए और उसे 100 से 130 units प्रति kW प्रति महीना से भाग देकर panel kW पाइए।
 - Inverter की AC rating array से बराबर या 10 से 20 percent कम रखिए, future load आज ही जोड़िए, और roof area 65 से 85 sq ft प्रति kW से verify कीजिए।
-- अपना number लेकर [Qbits engineer से बात कीजिए](/contact-us/) और उसे अपने vendor की sizing sheet से मिलाइए। दोनों में 20 percent से ज़्यादा फर्क हो तो वजह पूछिए।

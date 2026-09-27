@@ -252,8 +252,6 @@ Shading analysis quantifies yield loss from obstructions. Software tools like PV
 
 ## Need shading-corrected solar yield projections?
 
-QBits Energy provides PVsyst-based shading analysis and yield modelling for residential, C&I and utility solar projects across India.
-
 ## Further reading
 
 For how Shading Analysis plays out in real projects, these guides go deeper:

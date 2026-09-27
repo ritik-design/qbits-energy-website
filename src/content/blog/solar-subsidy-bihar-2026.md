@@ -35,6 +35,10 @@ faqs:
     a: "BSPHCL net metering buy-back rate for residential rooftop solar is approximately ₹3.00 to ₹3.50 per unit for exported power per the latest BERC tariff order. However, in power-cut areas, on-grid solar cannot export when the grid is unavailable, limiting net metering income. Hybrid systems with battery store surplus and use it during outages or night hours, providing more consistent benefit than on-grid-only systems in Bihar's grid environment."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Bihar presents a paradox for solar: it is one of India's most underserved states for electricity reliability, which makes solar both more necessary and more complex. An on-grid system does nothing during the 4 to 10 daily hours of load shedding that much of Bihar still experiences. A hybrid system with battery solves the core problem and the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy reduces the upfront cost significantly. This guide covers Bihar's specific solar landscape, BSPHCL's application process, and how to choose the right system type for Bihar's grid reality.
 
 > **TL;DR**
@@ -130,7 +134,7 @@ Bihar's electrical environment places specific demands on inverters:
 
 - **Choosing on-grid in a high-outage area**: An on-grid system shuts down during Bihar's frequent load shedding. You lose all solar benefit during the hours when backup is most needed.
 - **NBPDCL vs SBPDCL confusion**: Selecting the wrong DISCOM entity causes consumer number validation failure. Check your bill header.
-- **Non-ALMM inverter**: Bihar has growing local solar vendors with uncertified products. Verify ALMM listing at the [MNRE ALMM portal](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} before signing.
+
 - **Battery without proper warranty**: In Bihar's hybrid market, battery warranty varies from 1 year to 7 years. Require a minimum 5-year warranty with the battery manufacturer's name on the certificate.
 - **Overestimating net metering income**: During power cuts, on-grid solar cannot export. Net metering income is lower than theoretical for households with frequent outages.
 
@@ -158,12 +162,6 @@ For full payback methodology, see the [solar inverter payback period guide](/blo
 
 ## Where Qbits Fits in Bihar
 
-Bihar is exactly the type of market where Qbits was engineered to perform. India-grid-tuned firmware handles BSPHCL's voltage fluctuations. IP66 weather protection survives Bihar's intense monsoon season. The [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) covers the period well beyond any Bihar-market average payback, and the 72-hour RMA SLA means a replacement component reaches your district faster than most imported brand factory repair cycles.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 
-For Bihar's power-cut reality, the Qbits HS hybrid series is the front-running recommendation, battery-ready, listed on the current [ALMM Phase III list](/blog/almm-list-phase-iii-guide/), and capable of automatic switchover during load shedding without interruption.
-
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with battery readiness; the recommended system type for Bihar's power-cut reality.
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS series; ALMM Phase III listed for PM Surya Ghar subsidy eligibility in Patna and reliable-grid areas.
-- **[Authorised Service Partners](/authorized-service-partners/)**: Locate Qbits-certified installers serving your Bihar district.
-
-For a system recommendation based on your specific Bihar district's load shedding pattern and roof size, [talk to a Qbits engineer](/contact-us/) before committing to a vendor.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

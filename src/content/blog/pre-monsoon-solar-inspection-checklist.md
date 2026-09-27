@@ -33,6 +33,8 @@ faqs:
 updatedDate: 2026-07-08
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
 The monsoon arrives differently across India, Kerala receives the first rains in late May or early June, while Delhi typically does not see monsoon onset until late June or early July. But when it arrives, it brings moisture, sustained winds, debris, and electrical stress simultaneously. A solar system that has sat untouched through the hot summer months may have developed several small vulnerabilities (aged connector seals, a loose bracket, dust-blocked vents) that become serious problems once 40 mm/hr of rain and 60 km/hr gusts arrive.
 
 > **The 8-Point Pre-Monsoon Solar Shield Checklist prevents monsoon-season failures by addressing the eight most common points of vulnerability before moisture and wind arrive.** Loose MC4 connectors, degraded earthing, bird-nested inverter vents, and corroded brackets are all fixable in April or May at low cost, they become much more expensive problems once the monsoon is underway. Schedule this inspection at least four weeks before monsoon onset for your region.
@@ -130,8 +132,6 @@ The inverter's [IP66 rating](/blog/ip65-vs-ip66-solar-inverters-weather-protecti
 - Inspect the cable gland seals at each conduit entry, these are separate from the door gasket and can be checked without opening the live compartment.
 - If the inverter is more than five years old and in an exposed outdoor location, the gasket likely needs replacement even if it appears intact, rubber hardens with age.
 
-**Fix:** Door gasket replacement is a service item, contact the inverter manufacturer's authorised service network. A Qbits inverter gasket replacement is typically covered under service, and the <72-hour RMA SLA ensures minimal downtime before monsoon. Authorised service partners are searchable at [Qbits Authorised Service Partners](/authorized-service-partners/).
-
 ## Check 7: AC Isolator and DC Switch: Operational Verification
 
 The AC isolator (between the inverter AC output and the main distribution board) and the DC disconnect switch (between the panel array and inverter) are safety-critical switching components. They must operate correctly for the system to be safely isolated during servicing or emergencies.
@@ -152,9 +152,7 @@ The final check is functional: verify that your monitoring system is actively tr
 - Open the monitoring app and confirm that current generation data is live and up to date (not showing yesterday's data or "offline" status).
 - Review the last 30 days of generation data, confirm no unexplained gaps that would indicate prior communication failures.
 - Verify your alert settings are active, specifically: generation-below-expected alerts, temperature alarms, and fault code alerts.
-- For Qbits systems: confirm that WhatsApp alerts are being received on the registered number by checking recent alert message history.
-
-**Fix:** If monitoring is offline, the installer or inverter manufacturer's support team can assist with reconnection. Qbits AI monitoring operates over the inverter's built-in Wi-Fi or 4G interface and can typically be restored with a simple reconnect procedure.
+- For a Qbits system, identify the exact monitoring interface and supplied communication hardware, then test only the notifications documented for that configuration.
 
 ## The 8-Point Pre-Monsoon Solar Shield Checklist: Summary
 
@@ -175,11 +173,9 @@ Elsewhere in the Heaven Group network, see [what an AMC covers](https://www.heav
 
 ## Where Qbits Fits
 
-Qbits inverters are built for Indian monsoon conditions from the start, IP66 rated, with high-quality cable gland seals and a gasket design tested for sustained moisture exposure. The AI-powered WhatsApp monitoring creates an active alert for any generation shortfall, insulation resistance fault, or temperature deviation, so if a monsoon-season issue develops between inspections, the system reports it within minutes, not weeks. The 12-year full replacement warranty covers monsoon-related failures that result from manufacturing defects, not installer error, providing a long-term safety net.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: IP66 enclosures with sealed cable entries, designed for outdoor installation across India's varied monsoon intensity zones.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Current datasheets list IP66 enclosures. Verify cable entries, mounting, drainage, corrosion exposure, clearances and the exact installation manual for the site.
 - **[Hybrid Inverters](/hybrid-inverter/)**: for homes where monsoon power cuts combine with generation reduction, battery backup bridges both.
-- **[Authorised Service Partners](/authorized-service-partners/)**: locate a trained Qbits technician in your pincode for pre-monsoon inspection and servicing.
+
 - **[Download Datasheets](/download-datasheets/)**: confirm the IP66 rating, operating temperature range, and gasket replacement procedure for your specific model.
 
 Do not wait for the first rains to discover a problem. [Schedule a pre-monsoon inspection with a Qbits authorised partner](/contact-us/) in April or May, the four-week window before monsoon onset gives enough time to source parts and complete repairs before the weather changes.

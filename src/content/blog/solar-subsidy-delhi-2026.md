@@ -30,11 +30,13 @@ faqs:
   - q: "Is PM Surya Ghar available for government housing colony residents in Delhi?"
     a: "Residents of DDA flats, government employee quarters, and other government housing colonies can apply for PM Surya Ghar subsidy if they hold an individual electricity connection in their own name. However, many government housing colonies have shared rooftop infrastructure maintained by the housing agency, which can create jurisdictional complications. Individual applicants in such colonies should first obtain written permission from the estate management authority before commissioning an installation, as unpermitted installations may be disconnected by the housing authority regardless of DISCOM approval."
   - q: "Should I choose an on-grid or hybrid inverter for a Delhi rooftop system?"
-    a: "For most Delhi homeowners with a reliable grid connection and no critical backup requirement, an on-grid inverter is the correct choice - lower cost, subsidy-eligible, fastest payback. Delhi's urban grid is relatively reliable for inner city areas. However, many older residential colonies and areas served by underground BSES feeders experience periodic outages that last 2 to 6 hours. For households that cannot tolerate power interruptions - those with elderly members, home offices, or medical equipment - a hybrid inverter with a modest battery bank (5 to 10 kWh) provides continuity. Both on-grid and ALMM-listed hybrid inverters qualify for PM Surya Ghar subsidy."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "What is the DERC net metering regulation that governs Delhi solar?"
     a: "The Delhi Electricity Regulatory Commission (DERC) issued the DERC (Net Metering for Renewable Energy) Regulations, which are periodically updated. These regulations mandate that DISCOMs (BSES Rajdhani, BSES Yamuna, TPDDL) must accept net metering applications from eligible residential consumers, process technical feasibility within prescribed timelines, and install bidirectional meters at no charge to the consumer. The regulations also specify the export tariff applicable for the year. Homeowners are advised to check the current applicable DERC order at derc.gov.in, as tariff orders are revised annually and export rates may have changed since the last published update."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Delhi homeowners asking about solar in 2026 face a city-specific puzzle: three different DISCOMs serve different parts of the capital, the state adds its own layer of incentives, apartment and flat installations require RWA approvals that can take months, and the [net metering](https://heavendesigns.in/blog/delhi-solar-net-metering-guide/) process has more steps than most other states. The financial upside is real (a 3 kW system can attract ₹78,000 or more in central subsidies) but only if you understand the full process across [BSES Rajdhani](https://quickestimate.co/blog/bses-rajdhani-net-metering-guide), BSES Yamuna, and TPDDL before you sign a vendor contract.
 
@@ -66,8 +68,6 @@ The central subsidy structure for residential consumers is standardised national
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the buyer's bank account after the DISCOM verifies installation. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-To qualify, the system must use ALMM-listed (Approved Models and Manufacturers List) panels and an inverter that meets BIS certification requirements. The installer must be empanelled with the respective Delhi DISCOM. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains how to verify a vendor's empanelment status before signing a contract, a critical step that many Delhi buyers skip and regret later when subsidies are delayed.
-
 ## The Delhi State Top-Up: DERC and the Additional Incentive
 
 Beyond the central scheme, the Delhi government is reported to provide an additional per-kW incentive for residential rooftop solar, estimated at approximately ₹2,000 per kW for systems up to 3 kW (a maximum additional ₹6,000 for a 3 kW system). This is a relatively modest top-up compared to states like Gujarat or Maharashtra, but it adds to the overall economic case.
@@ -78,7 +78,7 @@ The Delhi solar subsidy framework, combining both layers, produces the following
 
 | Cost Component | Amount |
 | --- | --- |
-| Gross installed cost (3 kW, ALMM panels + BIS inverter) | ₹1,80,000–₹2,10,000 |
+
 | Less: Central PM Surya Ghar subsidy | ₹78,000 |
 | Less: Delhi state top-up (approximate, verify at DERC) | ₹6,000 |
 | **Estimated net out-of-pocket cost** | **₹96,000–₹1,26,000** |
@@ -96,8 +96,6 @@ Navigating the Delhi solar subsidy process requires managing five distinct eleme
 1. **Central scheme registration**: Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your DISCOM consumer number, Aadhaar, and bank details before the installer starts work. Registration after installation may invalidate the subsidy claim.
 
 2. **DISCOM technical feasibility**: Your DISCOM (BRPL, BYPL, or TPDDL, based on your service area) must approve the proposed system size and connection point before installation. This step requires a site visit by a DISCOM engineer. Timeline: 15–30 days in Delhi.
-
-3. **ALMM-compliant installation**: Only panels and inverters on the MNRE ALMM list qualify. Your vendor should provide ALMM certificates for every component. Check the [ALMM list guide](/blog/almm-list-phase-iii-guide/) for how to verify before signing the contract.
 
 4. **Net meter commissioning**: After installation, the DISCOM installs a bidirectional smart meter. In Delhi, this can take 30–45 days after physical installation is complete. The net meter is required before the subsidy is released.
 
@@ -188,15 +186,12 @@ The document set for Delhi is similar to the national framework but includes Del
 - **For apartments, Structural certificate**: If the building was constructed before 1990, most DISCOMs will require this
 - **Rooftop photographs**: At least 4 photographs from different angles showing shadow-free area and existing electrical installation
 - **Technical feasibility form**: Completed by the empanelled installer; includes proposed single-line diagram
-- **ALMM certificates**: For both panels and inverter; your installer should provide these as part of the vendor package
 
 Missing any of these at the time of DISCOM submission delays the feasibility process by the time it takes to gather and resubmit, typically 2–3 weeks in practice.
 
 ## A Delhi Homeowner Case Example: South Delhi, 3 kW System
 
 Ramesh Kapoor owns a 3 BHK independent floor in Saket, south Delhi, served by BSES Rajdhani. His monthly electricity bill is approximately ₹3,800 (average consumption: 450 units per month in summer, 250 in winter). Here is how his solar journey unfolded.
-
-**System specification**: 3 kW on-grid, ALMM-listed [bifacial](/glossary/bifacial-module/) [monocrystalline](/glossary/monocrystalline/) panels (9 × 335 Wp), BIS-certified string inverter, rooftop mounting on 200 sq ft shadow-free terrace.
 
 **Costs and subsidies**:
 - Gross system cost: ₹1,95,000 (installed, including net meter wiring)
@@ -242,10 +237,7 @@ The [net metering complete guide](/blog/net-metering-india-complete-guide/) expl
 
 Delhi homeowners comparing inverter options after the subsidy calculation need a system that handles the city's specific grid conditions: voltage fluctuations common in older residential areas (often 180–240 V), summer ambient temperatures exceeding 45 °C on rooftop equipment, and the occasional 2–6 hour outage that makes some buyers want backup capability.
 
-Qbits inverters are built for exactly this operating environment. The IP66 weather protection rating means the unit handles rooftop Delhi summers without derating. India-grid-tuned firmware manages the 180–270 V grid range that all three Delhi DISCOMs see in different parts of their networks. The 12-year full replacement warranty (not prorated, not parts-only) removes the replacement cost risk that often appears in years 6–8 of a system's life. BIS and ALMM compliance means every Qbits inverter qualifies for the PM Surya Ghar subsidy without documentation complications.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, subsidy-eligible and ALMM-listed, designed for Delhi's grid-tied residential market.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for Delhi buyers who want battery backup for outages in older BSES-served colonies without sacrificing subsidy eligibility.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm panel-string compatibility for your specific rooftop configuration in 60 seconds before the DISCOM site visit.
 
-[Talk to a Qbits engineer](/contact-us/) if you want a sizing recommendation for your specific Delhi address, DISCOM, rooftop area, and current bill are the three inputs needed, and most quotes come back within 24 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

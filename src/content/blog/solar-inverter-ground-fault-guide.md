@@ -192,12 +192,10 @@ Non-compliance can affect insurance validity and PM Surya Ghar subsidy claims in
 
 ## Where Qbits Fits
 
-EPC installers and technically engaged homeowners who want an inverter that catches ground faults early (before they progress to fire or electrocution risk) benefit from Qbits inverters' active continuous isolation monitoring. Unlike startup-only testing, Qbits inverters monitor isolation resistance throughout the operating day and trigger a WhatsApp alert the moment resistance drops below the 1 MΩ threshold.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series with continuous isolation monitoring, IEC 62109-1 compliant GFCI, and IP66 weather protection reducing the primary ingress risk.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series with full GFCI plus battery circuit isolation monitoring.
+- **[On-Grid Inverters](/on-grid-inverter/)**: Review the exact TLS or TLD datasheet and current certificates for isolation or residual-current functions and enclosure rating. IP66 does not establish site suitability or eliminate ingress risk.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[Download Datasheets](/download-datasheets/)**: review the complete insulation resistance specification and GFCI detection threshold for your specific Qbits model.
 - **[Pre-Monsoon Solar Inspection Checklist](/blog/pre-monsoon-solar-inspection-checklist/)**: the best time to inspect all connectors and cable insulation for ground fault risk is May, before monsoon begins. This pre-season checklist covers every inspection point.
-- **[Solar Inverter App Monitoring Guide](/blog/solar-inverter-app-monitoring/)**: learn how to read isolation resistance trend data in your monitoring dashboard and set up WhatsApp alerts for early ground fault warning.
+- **[Solar Inverter App Monitoring Guide](/blog/solar-inverter-app-monitoring/)**: confirm which isolation or fault signals the exact inverter and logger expose, how alerts are delivered and who owns the monitoring account.
 
-For a site inspection or to commission a third-party insulation resistance test on your existing system, [talk to a Qbits engineer](/contact-us/), our service team can arrange a qualified solar electrician with metering equipment through our authorised service partner network.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

@@ -25,7 +25,7 @@ faqs:
   - q: "Does SurgePV calculate PM Surya Ghar subsidy?"
     a: "Yes. SurgePV ships the PM Surya Ghar Muft Bijli Yojana subsidy structure inside the financial model. For a typical 3 kW residential system you can apply the central financial assistance of ₹78,000, layer state top-ups where applicable, and show net customer outflow, payback and IRR in INR. The proposal output renders the subsidy block in plain language for homeowners, which is what tier-2 and tier-3 city installers told the Heaven team they actually needed in the field."
   - q: "Does SurgePV cover IS code and ALMM module list?"
-    a: "Yes. The IS code clearance library inside SurgePV includes IS 16221, IS 16270, IS 14286, and the relevant earthing, lightning and fire-setback rules. The module database is ALMM-aware, so when an Indian project requires only Approved List of Models and Manufacturers entries, the catalogue filters down to ALMM-eligible modules. The inverter library covers 12,000 plus units, and you can flag preferred OEMs at organisation level so junior designers do not select unapproved equipment by mistake."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Can SurgePV produce proposals in Hindi or regional Indian languages?"
     a: "SurgePV supports Hindi-readable proposal output options alongside English, which matters when the homeowner in a tier-2 city wants to read the document themselves before signing. The financial summary, subsidy block and savings projection translate cleanly. Branding is customisable so the EPC logo, colours and contact details appear on every page. Roadmap items include additional regional languages for Tamil, Telugu, Marathi and Bengali, prioritised based on installer demand."
   - q: "How much does SurgePV cost in INR?"
@@ -37,6 +37,8 @@ faqs:
   - q: "What CRM works best with SurgePV for Indian solar sales?"
     a: "QuickEstimate is the CRM most Indian residential solar teams pair with SurgePV. It is built for the Indian solar sales motion, so lead capture, site visit scheduling, quote follow-up and customer document collection are all native. The handoff from QuickEstimate lead to SurgePV design to signed proposal is short, which matters when conversion windows in residential PM Surya Ghar deals are measured in days not weeks. For C&I and utility teams, SurgePV also fits alongside Salesforce and Zoho CRM."
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 The [solar design software](https://surgepv.com/) Indian installers need in 2026 looks nothing like what worked five years ago. PM Surya Ghar Muft Bijli Yojana put rooftop solar on the table for one crore households, the residential pipeline exploded past 18 GW of cumulative installations, and the average EPC team in Pune or Lucknow is now shipping more 3 kW systems in a month than they used to do in a year. The bottleneck is no longer customer demand. The bottleneck is how fast you can turn a WhatsApp enquiry into a bankable design, a subsidy-adjusted financial model and a branded proposal the homeowner will sign. This guide compares the platforms Indian installers actually use, and shows where [SurgePV](https://surgepv.com/) fits.
 
@@ -83,8 +85,6 @@ Indian-built tools like [Arka360](/blog/arka360-alternative/) and [Solar Ladder]
 SurgePV is built by the Heaven Group team, the same engineers and designers behind Heaven Designs, which has delivered over 10,000 commercial solar designs across India, the US, Australia and the Middle East. That delivery experience shaped what shipped first.
 
 The platform combines [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite imagery, [Clara AI](https://surgepv.com/clara-ai) for automated string layout and BoM, [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) at module level on every plan, and [bankable yield report](https://surgepv.com/generation-financial-tool) outputs with [P50, P75 and P90](/glossary/p50-p90/) numbers that lenders accept. The proposal builder produces a [branded solar proposal](https://surgepv.com/solar-proposals) with Hindi-readable output, INR currency and a subsidy line item.
-
-For the India layer specifically, SurgePV includes the IS code clearance library, the ALMM-aware module catalogue across 70,000 modules and 12,000 inverters, the [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy structure, and the DISCOM state tariff library covering the major utilities. AutoCAD DXF and DWG export means the engineering drawings hand off cleanly to the structural and electrical contractors. This is [solar design software for installers](https://surgepv.com/for-solar-installers) who actually need to ship in India, not a tool that pretends India is just another configuration of the US workflow.
 
 The [residential solar design software](https://surgepv.com/residential-solar-design) workflow was specifically scoped around PM Surya Ghar volume coming from tier-2 and tier-3 cities, where the customer touchpoint is short and the sales team is often non-technical.
 
@@ -136,8 +136,6 @@ The clearest way to evaluate any solar design software is to walk one real proje
 
 **Minute 0 to 3.** Salesperson enters the homeowner address in Indore. The AI captures the roof from satellite imagery, generates a 3D model including parapets, ridges, water tanks and the neighbour's mango tree. The designer confirms the obstacle map.
 
-**Minute 3 to 7.** Clara AI proposes a 5 kW string layout using ALMM-eligible 545 W modules and a single-phase 5 kW inverter from the [Qbits](https://qbitsenergy.com/) inverter lineup or another preferred OEM the organisation has flagged. The designer adjusts the row spacing for the IS code earthing clearance.
-
 **Minute 7 to 11.** The 8,760-hour module-level shading runs. The mango tree costs 4 percent in October mornings. Clara AI suggests moving two modules to a clearer roof face. New yield is 7,420 kWh per year on the P50.
 
 **Minute 11 to 14.** The financial model applies the MSEDCL domestic tariff, the PM Surya Ghar central subsidy of ₹78,000, and the Maharashtra state top-up where applicable. Net customer outflow, [IRR](/glossary/irr/) and [payback period](/glossary/payback-period/) display in INR. Payback is 4.2 years.
@@ -154,9 +152,6 @@ SurgePV is the design and proposal layer. Two sister brands close the loop for I
 
 Heaven Green Energy is the EPC service arm. If a designer or sales team uses SurgePV to produce a proposal but does not have the field crew or BoM procurement strength to execute, Heaven Green Energy steps in as the EPC partner. It is the right handoff for newer entrants and for inter-city projects where local presence is thin.
 
-[Qbits](https://qbitsenergy.com/) is the inverter lineup, and the SurgePV inverter library includes the Qbits range, spanning [on-grid](/on-grid-inverter/) and [hybrid inverters](/hybrid-inverter/), so compatibility checks, [MPPT](/glossary/mppt/) planning and warranty terms are visible at design time.
-
-
 The customer-facing half of this decision, meaning proposal generation, financing presentation and e-signature, is covered in our [best solar proposal software India](/blog/solar-proposal-software-india/) comparison.
 
 Design is one layer. For how simulation, proposal, compliance and CRM fit around it, see the [full solar software stack for India](/blog/solar-software-india/).
@@ -167,7 +162,7 @@ Different ICPs need different tools. Pick the one that matches your reality.
 
 **Residential PM Surya Ghar installer in tier-2 city.** Choose SurgePV. The AI 3D, Clara AI design assistant, Hindi-readable proposal and subsidy maths are the exact workflow covered in the [residential solar design software comparison](/blog/residential-solar-design-software/). Pair with QuickEstimate CRM.
 
-**C&I EPC team doing 100 kW to 5 MW rooftops.** Choose SurgePV. The 8,760-hour module-level shading, bankable P50/P75/P90 yield report and AutoCAD DXF export pass lender and structural engineering review without rework. For the inverter spec itself, [talk to a Qbits engineer](/contact-us/) to line up MPPT count and string count against the design.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 **Utility-scale developer in India.** Use SurgePV for the early-stage feasibility, financial modeling and bid package, then continue into PVsyst or HelioScope for the deep simulation that an EPC contractor or O&M lender requires. The interoperability is straightforward.
 
@@ -181,4 +176,3 @@ Different ICPs need different tools. Pick the one that matches your reality.
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
-

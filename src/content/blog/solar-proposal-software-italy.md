@@ -170,4 +170,4 @@ Italy changed mechanism in May 2025 and most quoting has not caught up.
 - **Model Ritiro Dedicato, not Scambio sul Posto.** Exported energy is now worth a fraction of retail, and that changes the recommended system size.
 - **Show the deduction as a multi-year cashflow.** Subtracting it from the invoice total misrepresents both the price and the customer's ability to claim it.
 - **Use site weather data.** Italy's latitude range is too wide for a national average to be credible.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for CEI-compliant inverter specification.
+

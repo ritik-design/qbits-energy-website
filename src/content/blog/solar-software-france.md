@@ -171,4 +171,4 @@ France did not trim its solar incentives in June 2026. It removed them, and most
 - **Verify your tool has been updated.** A platform still applying the prime or the old buyback is confidently wrong.
 - **Stop sizing to the roof.** Surplus earns 1.1 centimes, so capacity beyond the daytime load is close to free energy for the grid.
 - **Put storage in the main comparison.** It captures nearly the full retail spread and it is the answer to a weakened export case.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a French address, or reach the Qbits team [here](/contact-us/) for inverter and battery specification.
+

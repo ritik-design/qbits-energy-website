@@ -194,8 +194,6 @@ So the fair test is specific. If you currently pay a drafter to rebuild designs 
 - **Add PVsyst** if financing names it. This is not an either-or with anything else on the list.
 - **Choose OpenSolar** if you are small, residential, and fixed software cost has to stay near zero.
 
-For the underlying workflow question, our guide to [solar permit design software](/blog/solar-permit-design-software/) covers what an AHJ-ready set actually needs, and the [solar design software pricing comparison](/blog/solar-design-software-pricing/) puts annual costs side by side. Whichever platform you land on, the string layout still has to clear a real inverter's MPPT window before procurement sees it, and you can [get a spec walkthrough from a Qbits engineer](/contact-us/) rather than cross-checking datasheets by hand.
-
 ## Verdict
 
 PVComplete is a good product with a clear point of view, and the acquisition does not change that. It changes your diligence, not your assessment of the software. Ask Enact what the commitment is for each product, get it in writing, and if the answer holds up then the ownership change should not decide anything.

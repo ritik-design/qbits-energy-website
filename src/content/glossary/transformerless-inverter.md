@@ -43,7 +43,7 @@ faqs:
   - q: "What topologies are transformerless?"
     a: "H5, H6, HERIC, NPC (Neutral Point Clamped), T-type, and active NPC variants. All eliminate the line-frequency transformer."
   - q: "Is transformerless ALMM-listed?"
-    a: "Yes. Most ALMM-listed inverters in India are transformerless."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Are transformerless inverters safe?"
     a: "Yes when properly designed with Type B RCCB, ground fault detection and PV insulation monitoring per IEC 62109."
   - q: "Do transformerless inverters need special earthing?"
@@ -67,6 +67,8 @@ faqs:
 author: "Keyur Rakholiya"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is a transformerless inverter
 
 A transformerless inverter, also called TL inverter, is a [solar inverter](/glossary/solar-inverter/) that omits the galvanic isolation transformer found in older inverter designs. Instead, the inverter uses high-frequency [PWM](/glossary/pwm/) switching, an LCL output filter and dedicated protection circuits to interface the PV array directly with the AC grid.
@@ -76,7 +78,6 @@ A transformerless inverter, also called TL inverter, is a [solar inverter](/glos
 > - It is also 30-50 percent lighter and 20-40 percent cheaper than an equivalent transformer-isolated inverter.
 > - The trade-off is no galvanic isolation, so it needs a Type B RCCB, PV insulation monitoring, and a floating (ungrounded) PV array.
 > - Common topologies are H5, H6, HERIC, NPC and T-type, each trading component count for efficiency.
-> - Almost all ALMM-listed residential and C&I inverters sold in India today are transformerless.
 
 The transformer removal eliminates 2 to 4 percent of conversion losses (transformer copper and core losses), raising peak inverter efficiency to 97-98.6 percent for modern designs; see [transformerless vs transformer-based solar inverters](/blog/transformerless-vs-transformer-inverter/) for a side-by-side breakdown. The inverter also becomes 30 to 50 percent lighter and 20 to 40 percent cheaper than equivalent transformer-isolated designs.
 
@@ -202,8 +203,6 @@ Verify floating PV configuration during commissioning.
 
 ## Indian market context
 
-[ALMM-listed](/glossary/almm-list/) inverters are predominantly transformerless.
-
 Major brands (Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Tata Power Solar) ship transformerless residential and C&I inverters, and ready-stocked units are also available through Heaven Green Energy's solar inverter catalogue.
 
 Utility central inverters from Sineng, Huawei, Sungrow use transformerless multi-level topology.
@@ -220,14 +219,6 @@ CEA Grid Code and IS 17387 accommodate transformerless designs.
 | IEC 61727 | Utility interface |
 | IS 17387 | Indian grid interconnection |
 | IS 16221 | Indian inverter safety |
-
-## Key takeaways
-
-Transformerless inverters dominate modern solar inverter market because they deliver higher efficiency, lower cost and lighter form factor than transformer-isolated designs. Trade-off is absence of galvanic isolation, requiring Type B RCCB, insulation monitoring and floating PV configuration. H5, H6, HERIC, NPC and T-type are common topologies. Indian ALMM-listed residential and C&I inverters are almost universally transformerless.
-
-## Need transformerless inverters for your solar?
-
-QBits Energy supplies ALMM-listed transformerless inverters from leading brands for residential, C&I and utility solar across India.
 
 ## Further reading
 

@@ -15,7 +15,7 @@ export const authors: Author[] = [
     role: 'CEO',
     photo: '/team/nirav-dhanani.webp',
     linkedin: 'https://www.linkedin.com/in/nirav-dhanani-700332129/',
-    bio: 'Nirav co-founded Qbits Energy and has been shaping India\'s solar inverter landscape since 2017. He oversees product strategy, customer experience, and large-scale project deployments across residential, commercial, and industrial sectors. Under his leadership, Qbits has grown into one of India\'s most trusted made-in-India solar inverter brands — with 50,000+ installations, ALMM Phase III listing, and a 12-year full-replacement warranty that sets the industry standard.',
+    bio: 'Nirav Dhanani is listed by Qbits as its co-founder and CEO. He oversees product strategy, customer experience, and project delivery across residential, commercial, and industrial solar applications. Product eligibility, certifications, and warranty terms must be checked against the current documents for the exact inverter model.',
     shortBio: 'Co-founder & CEO driving Qbits Energy\'s product strategy and growth across India.',
   },
   {
@@ -24,8 +24,8 @@ export const authors: Author[] = [
     role: 'CTO',
     photo: '/team/keyur-rakholiya.webp',
     linkedin: 'https://www.linkedin.com/in/keyur-rakholiya/',
-    bio: 'Keyur leads engineering and product development at Qbits Energy, including the R&D roadmap for string and hybrid inverters. He specialises in system design, protection coordination, and commissioning for rooftop and ground-mount plants. His work on India-tuned inverter technology — grid-compliance for wide-voltage Indian grids, IP66 weather protection, and AI-powered WhatsApp monitoring — ensures Qbits products perform reliably in India\'s demanding conditions.',
-    shortBio: 'CTO leading Qbits inverter R&D, system design, and engineering innovation.',
+    bio: 'Keyur Rakholiya is listed by Qbits as its CTO and leads engineering and product development for string and hybrid inverters. His work covers system design, protection coordination, and commissioning. Model-specific operating limits, protection functions, communications, and certificates should be verified in the current datasheet and approval documents.',
+    shortBio: 'Listed by Qbits as its CTO. Current role, technical responsibilities and credentials require confirmation by the company owner.',
   },
   {
     name: 'Akash Hirapara',
@@ -33,7 +33,7 @@ export const authors: Author[] = [
     role: 'CFO',
     photo: '/team/akash-hirapara.webp',
     linkedin: 'https://www.linkedin.com/in/akash-hirpara-5b0632ab/',
-    bio: 'Akash manages finance, procurement, and channel-partner enablement at Qbits Energy. He specialises in solar financing structures — including solar loans, accelerated depreciation, and CAPEX vs OPEX vs RESCO decisions — and has helped structure financing for large-scale C&I solar installations across Gujarat, Maharashtra, and Rajasthan. He also manages Qbits\' dealer and installer network of 130+ channel partners across every state and union territory in India.',
+    bio: 'Akash Hirapara is listed by Qbits as its CFO and works across finance, procurement, and channel-partner enablement. His remit includes solar financing structures and commercial decision support. Financing, tax, partner coverage, and service availability can change and should be confirmed for the project, jurisdiction, and date of enquiry.',
     shortBio: 'CFO overseeing solar financing, procurement, and channel partner enablement at Qbits.',
   },
 ];

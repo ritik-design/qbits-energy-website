@@ -21,7 +21,7 @@ faqs:
   - q: "Kya main kisi bhi solar installer se subsidy wala system lagwa sakta hoon?"
     a: "Nahi। PM Surya Ghar Muft Bijli Yojana mein installation sirf us vendor se ho sakti hai jo apke state DISCOM ke saath national portal par registered ho। Non-empanelled installer ka commissioning report portal par accept nahi hota, isliye subsidy claim reject ho jaata hai chahe installation quality kitni bhi acchi ho। Advance dene se pehle vendor ka registration number pmsuryaghar.gov.in par khud verify karein।"
   - q: "Solar installer se kaunse documents lena zaroori hai?"
-    a: "Paanch cheezein written mein maangein: quotation jismein panel aur inverter ka exact model number ho, dono ke ALMM listing reference, DCR declaration agar subsidy le rahe hain, warranty certificates apke naam par (panel 25 saal performance, inverter jitni bhi ho, structure 10 saal), aur net metering application ki receipt ya acknowledgement number। Yeh saare documents commissioning ke baad ek folder mein rakhein, warranty claim ke waqt yahi kaam aate hain।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "Asli site survey aur WhatsApp quote mein kya farq hai?"
     a: "Asli survey mein banda chhat par jaata hai, shadow-free area measure karta hai, panel layout aur tilt decide karta hai, existing meter aur sanctioned load dekhta hai, earthing point locate karta hai, aur cable run ki lambai note karta hai। Uske baad jo quote aata hai usmein structure height, cable length aur earthing alag-alag likha hota hai। WhatsApp par sirf bijli bill dekh kar bheja gaya rate card quote nahi hai, woh ek estimate hai jo installation ke din badalta hai।"
   - q: "Solar dealer ko kitna advance dena chahiye?"
@@ -34,6 +34,10 @@ faqs:
     a: "Sasta hona galat nahi hai, adhoora hona galat hai। Zyadatar sasta quote isliye sasta hota hai kyunki usmein earthing aur lightning arrestor, AC protection (MCB aur RCCB), net metering liaison, aur written warranty shamil nahi hoti। Do quotes ko compare karne se pehle line items barabar karein, phir dekhein ki actual difference kitna bacha। Aksar 20 percent ka difference 5 percent reh jaata hai, aur wo 5 percent warranty aur service ka hota hai।"
 featured: false
 ---
+
+> **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।
+
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
 
 Ab tak ka homework ho chuka hai। Aapko pata hai kitne kW ka system chahiye, on-grid lena hai ya hybrid, aur subsidy kitni milegi। Ab asli sawaal bacha hai: solar installation kahan se karaye? Yahin par zyadatar log phas jaate hain, kyunki har taraf se quote aa rahe hote hain, har koi apne aap ko "government approved" bata raha hota hai, aur rate ka difference 30 percent tak hota hai bina kisi clear wajah ke। Panel aur inverter to 25 saal chalenge, lekin unko lagane wala banda hi decide karta hai ki woh 25 saal aaram se nikalte hain ya har monsoon mein sar dard bante hain। Yeh guide sirf ek cheez par focus karti hai, sahi installer chunna, aur woh bhi verification steps ke saath jo aap aaj ek ghante mein khud kar sakte hain।
 
@@ -74,7 +78,7 @@ Agar vendor kahe ki registration "process mein hai", to intezaar karein ya doosr
 
 <div class="inline-cta">
 <h3>Apne District ka Verified Installer Chahiye?</h3>
-<p>Qbits ke authorized service partners district-wise listed hain, aur inmein se kai apne DISCOM ke saath empanelled hain। Apna area batayein, hum aapko sahi installer se connect kar denge।</p>
+
 <a href="/authorized-service-partners/" class="cta-btn">Partner Locator Kholein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Koi obligation nahi, sirf verified partner ka contact।</p>
 </div>
@@ -98,15 +102,13 @@ Yeh list quotation approve karne se pehle maangein, baad mein nahi।
 | Document | Kya check karna hai | Kyun zaroori hai |
 | --- | --- | --- |
 | Empanelment registration number | Portal par apne DISCOM ke under listed | Iske bina subsidy claim process hi nahi hota |
-| Panel aur inverter ka model number | Quotation mein exact model, brand naam kaafi nahi | ALMM listing model-specific hoti hai, brand-wide nahi |
+
 | ALMM listing reference | MNRE ki current list mein wahi model search karke | Non-ALMM equipment par inspection fail hota hai |
 | DCR declaration | Domestic content wale cell aur module ka written declaration | Residential subsidy ke liye DCR compliance zaroori hai |
 | Warranty certificates | Aapke naam aur address par, dealer ke naam par nahi | Dealer band ho jaaye to bhi claim aapka rehta hai |
 | Net metering application receipt | Application number ya acknowledgement | Yahi proof hai ki file actually DISCOM mein gayi |
 | GST invoice | Company current account details ke saath | Consumer forum aur warranty dono mein yahi chalega |
 | Structure aur workmanship warranty | Kitne saal, kya cover hota hai | Panel warranty structure ko cover nahi karti |
-
-Inverter warranty par ek extra minute lagayein। "5 saal warranty" likha hona kaafi nahi hai, yeh dekhein ki woh full replacement hai ya sirf repair, aur RMA turnaround kitna define kiya gaya hai। Qbits ki on-grid range (QB 3.3KTLS, QB 5KTLS, QB 6 KTLD) aur hybrid range (QBH 5KS, QBH 6KS48P) 12-year full replacement warranty ke saath aati hai, aur yeh baat installer ke quotation mein bhi likhi honi chahiye। Detail samajhne ke liye [solar inverter warranty guide](/blog/solar-inverter-warranty/) helpful hai।
 
 ## Red Flags: Yahan Ruk Jaayein
 
@@ -130,7 +132,7 @@ Yeh example illustrative hai, kisi actual customer ka data nahi। Lekin quote c
 | Line item | Vendor A (₹) | Vendor B (₹) |
 | --- | --- | --- |
 | Solar panels, 5 kW DCR | 1,45,000 | 1,48,000 |
-| On-grid inverter (5 kW, ALMM) | 42,000 | 44,000 |
+
 | Mounting structure | 32,000 | 46,000 (galvanised, raised) |
 | DC aur AC cabling | 14,000 | 19,000 (actual run measured) |
 | Earthing aur lightning arrestor | Included nahi | 11,000 |
@@ -145,7 +147,7 @@ Ek aur baat। Bina earthing wale system par inspection fail ho sakta hai, aur i
 
 <div class="inline-cta">
 <h3>Quote Compare Karne Mein Confusion Hai?</h3>
-<p>Apne do ya teen quotes bhejein। Qbits engineer line-by-line dekh kar batayenge kya missing hai, kaunsa inverter model ALMM par hai, aur realistic total kya banta hai।</p>
+
 <a href="/contact-us/" class="cta-btn">Free Quote Lein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Quote review free hai, kuch kharidne ki zarurat nahi।</p>
 </div>
@@ -186,7 +188,7 @@ Yeh guide poore India ke liye hai, lekin ground par teen cheezein state-wise ala
 Vendor selection ka aadha faisla is section par hona chahiye, kyunki panel lagne ke baad hi asli rishta shuru hota hai।
 
 - **Net metering closure।** Meter lagne aur DISCOM approval milne tak follow-up vendor ka kaam hai, aapka nahi। Yeh quotation mein likhwayein।
-- **Monitoring handover।** Commissioning ke din inverter ka monitoring app aapke phone par setup hona chahiye, login aapke naam par। Qbits inverters mein WhatsApp based monitoring milti hai, isliye alert aapko seedha aata hai, dealer ke through nahi।
+
 - **Pehle saal ka inspection।** Kam se kam ek free visit, monsoon ke baad, jismein connections, earthing aur structure bolts check hon।
 - **Cleaning guidance।** Dust wale areas mein har 15 se 20 din mein cleaning chahiye। Vendor se schedule aur method likhwa lein, warna generation 8 se 15 percent tak gir jaati hai।
 - **Fault response time।** Inverter fault par kitne ghante mein visit, aur RMA kitne din mein, yeh number written hona chahiye।
@@ -196,9 +198,9 @@ Ek chhota sa test jo aksar sach bata deta hai: installation se pehle vendor ke s
 
 <div class="inline-cta">
 <h3>Inverter Pehle Chunein, Phir Installer</h3>
-<p>Jo inverter aap lagwaa rahe hain uski ALMM listing, warranty aur service network hi long-term experience decide karti hai। Qbits ki on-grid aur hybrid range dekh kar apne installer se wahi model quote karwayein।</p>
+
 <a href="/our-products/" class="cta-btn">Product Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">12-year full replacement warranty, ALMM listed models।</p>
+<p class="cta-sub">model-specific written warranty, ALMM listed models।</p>
 </div>
 
 ## Final Checklist aur Agla Kadam
@@ -209,4 +211,3 @@ Vendor finalise karne se pehle yeh teen kaam kar lein।
 2. **Chhat par survey karwaane ke baad hi quote lein**, aur usmein model numbers, earthing, AC protection aur net metering scope line item ki tarah maangein।
 3. **Payment milestone likhwayein** (10 se 20 percent signing, 40 se 50 percent material delivery par, baaki commissioning aur net meter ke baad) aur warranty papers apne naam par lein।
 
-Agar in teen steps ke baad bhi confusion ho, to apne quotes [Qbits team ko bhej dein](/contact-us/)। Hum line-by-line review karke batate hain ki kya missing hai, aur apke district mein kaun se verified partner available hain। Free hai, aur decision aapka hi rahega।

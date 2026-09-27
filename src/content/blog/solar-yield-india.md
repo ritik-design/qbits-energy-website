@@ -37,6 +37,8 @@ faqs:
     a: "Yes. A higher state yield benchmark means faster payback and a more favourable case for on-grid systems, where all generation directly displaces grid imports. In lower-yield states (West Bengal, Himachal Pradesh), the slower payback may make a hybrid system with battery backup more attractive if the primary driver is energy security during grid outages rather than pure financial return. The kWh per kWp benchmark is the foundation of any accurate payback or IRR calculation regardless of system type."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every solar installer in India quotes a generation number ("your 5 kW system will generate 7,000 units per year") but very few buyers know how to verify whether that number is credible. A one-page state-by-state yield table changes that. Once you know that Karnataka delivers 1,400 to 1,500 [kWh per kWp](https://heavendesigns.in/glossary/kwh-per-kwp/) per year, you can divide 7,000 by 5 kW and arrive at 1,400 kWh per kWp, which sits squarely in range. Or you might get a quote promising 2,000 kWh per kWp for a West Bengal rooftop. That number would be 55 percent above benchmark and a clear red flag.
 
 > **TL;DR**
@@ -253,13 +255,8 @@ Getting the yield estimate right at the proposal stage prevents downstream dispu
 
 ## Where Qbits Fits
 
-C&I buyers and homeowners who have done the benchmark math know exactly what generation performance to expect, and exactly what they need from an inverter to achieve it. Qbits inverters are engineered for Indian grid conditions: India-tuned firmware handles the 180 to 270 V voltage band that causes budget units to derate, IP66 weatherproofing sustains efficiency through monsoon humidity and dust exposure, and AI-powered WhatsApp monitoring reports daily yield against the state benchmark so any shortfall is visible within 24 hours rather than discovered months later at the annual review.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: TLS and TLD series from 1.5 kW to 50 kW, ALMM-listed and subsidy-eligible, designed to maintain rated efficiency across India's real voltage range.
-- **[Hybrid Inverters](/hybrid-inverter/)**: HS and HT series for buyers who want battery-ready infrastructure alongside the yield benefits of grid-tied operation.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[C&I Solar Solutions](/c-i-solution/)**: Designed for factory and commercial rooftop projects where yield accuracy and monitoring transparency are part of the project specification.
-
-When you are ready to move from benchmark verification to an actual proposal, a Qbits engineer can run a site-specific yield estimate for your location using NSRDB irradiance data and your roof's actual orientation. [Talk to the team at contact-us](/contact-us/) and receive a written generation estimate with explicit loss assumptions, the kind of document the 3-Factor Yield Verification Method is designed to validate. Homeowners who want a rough before-and-after savings number ahead of that conversation can start with a general-purpose solar savings calculator.
 
 ## Understanding the Yield-Payback Connection
 

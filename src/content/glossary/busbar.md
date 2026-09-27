@@ -198,8 +198,6 @@ Busbars collect current from solar cells and conduct it to module terminals. Mod
 
 ## Need modern MBB solar modules?
 
-QBits Energy supplies ALMM-listed multi-busbar modules from leading Indian manufacturers for residential, C&I and utility solar.
-
 ## Further reading
 
 For how Busbar plays out in real projects, these guides go deeper:

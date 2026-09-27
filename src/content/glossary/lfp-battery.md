@@ -278,8 +278,6 @@ LFP is the dominant lithium-ion chemistry for stationary solar storage in India.
 
 ## Looking for an LFP storage solution?
 
-QBits Energy supplies BMS-protected LFP battery packs and hybrid inverter combinations validated for Indian residential, C&I and microgrid applications.
-
 ## Further reading
 
 For how LFP Battery plays out in real projects, these guides go deeper:

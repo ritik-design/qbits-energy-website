@@ -27,11 +27,13 @@ faqs:
   - q: "Is PM-KUSUM subsidy available for rice mills?"
     a: "Rice mills are not direct beneficiaries under PM-KUSUM, which targets farmers, pumps, and agricultural feeders under Components A, B, and C. Mills benefit indirectly when their agricultural feeder is solarised, because daytime supply becomes more reliable. For the mill itself, the relevant routes are state net metering for commercial and industrial consumers, accelerated depreciation, MSME solar loans, and group captive or open access arrangements for larger plants."
   - q: "Which inverter is best for a rice mill solar system?"
-    a: "A rice mill needs a 3-phase string inverter rated for heavy motor loads and dusty rural conditions. Look for IP66 ingress protection, multiple MPPT inputs, a wide grid voltage tolerance of 180 to 270 V per phase, and a long warranty. The Qbits TLS and HT series cover the 25 kW to 100 kW plus range that matches most rice mills, carry a 12-year full replacement warranty, and are ALMM-listed."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Does a rice mill solar system work during power cuts?"
     a: "A standard on-grid rice mill solar system does not work during power cuts because anti-islanding protection shuts the inverter down when the grid fails. Mills with frequent outages have three options: keep the DG set for outage hours, add a small battery-backed hybrid section for control panels and lighting, or explore a hybrid plant with enough battery to carry partial milling load. Most mills choose the first option because batteries for a 50 kW milling load are still expensive."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 A rice mill is one of the best solar candidates in Indian agro-industry, and one of the least written about. The load is heavy, daytime-weighted, and almost entirely motor-driven. The mill building usually has a large, unshaded asbestos or RCC roof. The owner pays Rs 8 to 12 per unit on an industrial tariff. Diesel adds another Rs 16 to 22 per unit when the grid fails mid-season. Modern rice mills consume 18 to 26 kWh per tonne of paddy processed, according to research in the Journal of Food Science and Technology, 2012.
 
@@ -133,8 +135,6 @@ Inverter specifications that matter for a rice mill specifically:
 - **Multiple MPPTs.** Mill roofs often mix orientations across sheds. Four to six MPPTs let you split strings by shed and tilt without mismatch losses.
 - **Remote monitoring that reaches the owner.** WhatsApp alerts beat a web portal for an owner on the mill floor, not at a desk.
 
-The Qbits TLS and HT 3-phase series cover 25 kW to 100 kW plus. They carry IP66 ratings, 98 percent peak efficiency, and ALMM listing. The 12-year full replacement warranty comes with RMA service targeted under 72 hours. For mills above 100 kW, multiple HT-series units stack cleanly. The [solar inverter for water pump post](/blog/solar-inverter-for-water-pump/) covers motor-load engineering if your mill also runs borewells.
-
 ## Cost and Payback Math for a Typical Mill
 
 C&I rooftop solar in India costs Rs 38,000 to 48,000 per kWp installed in 2026. Utility-scale benchmarks run Rs 4 to 5 crore per MW, according to industry cost analysis from Alpex Solar, 2026. Rooftop C&I prices a bit higher per kW. For a 65 kWp mill plant, budget Rs 27 to 31 lakh all-in.
@@ -202,4 +202,4 @@ Three actions to take this month:
 
 - Pull 24 months of electricity bills and diesel purchase records. Compute annual grid units and DG units. That two-number total drives every sizing decision.
 - Get your roof structurally assessed, especially if it is asbestos. Confirm your sanctioned load against your state's net-metering cap before accepting any EPC proposal.
-- [Talk to our C&I team](/contact-us/) for a mill-specific load assessment and a quote on the Qbits TLS and HT series.
+

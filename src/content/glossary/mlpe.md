@@ -42,7 +42,7 @@ faqs:
   - q: "Why use MLPE?"
     a: "Panel-level monitoring, shade tolerance, mismatch reduction, mixed orientation support, rapid shutdown safety."
   - q: "Are MLPE devices ALMM-listed?"
-    a: "Microinverters from Enphase are ALMM-listed. DC optimisers are not directly listed; the paired inverter must be ALMM."
+    a: "MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately."
   - q: "Microinverter vs DC optimiser?"
     a: "Microinverter: AC output, distributed conversion, no central inverter. DC optimiser: DC output, central string inverter still needed."
   - q: "What is the cost premium for MLPE?"
@@ -65,6 +65,8 @@ faqs:
     a: "Growing in residential globally. Cost reduction expected as scale increases. AI-driven optimisation emerging."
 author: "Nirav Dhanani"
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 ## What is MLPE
 
@@ -196,8 +198,6 @@ Maintain monitoring subscriptions.
 
 Plan replacement budget.
 
-Verify ALMM listing for inverter side.
-
 ## Indian market context
 
 MLPE adoption in India is growing in premium residential.
@@ -215,15 +215,12 @@ SolarEdge and Tigo offer DC optimisers.
 | IEC 62109 | Inverter safety |
 | IEC 61730 | Module safety |
 | NEC 690.12 | US rapid shutdown |
-| MNRE ALMM | Microinverter listing |
 
 ## Key takeaways
 
 MLPE encompasses microinverters and DC optimisers, providing panel-level optimisation, monitoring and safety in solar PV installations. Microinverters distribute full conversion at the panel; DC optimisers handle per-panel MPPT before central conversion. Indian market sees growing adoption in premium residential, particularly on shaded and complex rooftops. Cost premium of 30-100 percent over plain string is justified for sites where panel-level benefits matter.
 
 ## Need MLPE-based premium rooftop solar?
-
-QBits Energy installs microinverter and DC optimiser systems for premium residential and complex-geometry rooftops across India.
 
 ## Further reading
 

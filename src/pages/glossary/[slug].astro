@@ -319,9 +319,9 @@ const articleSchema = {
               <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-brand-600 via-brand-700 to-slate-900 p-6 text-white shadow-xl">
                 <div class="absolute -top-10 -right-10 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
                 <div class="relative">
-                  <span class="inline-block text-[10px] font-bold uppercase tracking-widest bg-white/15 px-2.5 py-1 rounded-full">Free Consultation</span>
+                  <span class="inline-block text-[10px] font-bold uppercase tracking-widest bg-white/15 px-2.5 py-1 rounded-full">Product Enquiry</span>
                   <h3 class="mt-4 text-xl font-bold leading-tight">Need this for a real project?</h3>
-                  <p class="mt-2 text-sm text-white/85 leading-relaxed">Qbits engineers can size, specify and certify systems across India.</p>
+                  <p class="mt-2 text-sm text-white/85 leading-relaxed">Ask Qbits for the current datasheet and commercial documents for the model you are considering.</p>
                   <a href="/contact-us/" class="mt-5 inline-flex items-center gap-2 bg-white text-brand-700 text-sm font-bold px-4 py-2.5 rounded-lg hover:bg-slate-100 transition">
                     Talk To Sales
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
@@ -386,7 +386,10 @@ const articleSchema = {
 <script>
   const links = document.querySelectorAll<HTMLAnchorElement>('.toc-link');
   const targets = Array.from(links)
-    .map((l) => document.querySelector(l.getAttribute('href') || ''))
+    .map((l) => {
+      const href = l.getAttribute('href');
+      return href?.startsWith('#') ? document.getElementById(decodeURIComponent(href.slice(1))) : null;
+    })
     .filter((el): el is Element => !!el);
 
   if (targets.length) {

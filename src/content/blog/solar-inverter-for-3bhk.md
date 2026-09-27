@@ -37,6 +37,10 @@ faqs:
     a: "For apartment dwellers, a solar rooftop system requires DISCOM approval and housing society consent, which many high-rise societies still restrict. If approval is granted, an on-grid system without battery is simpler to install and subsidy-eligible. A hybrid inverter with battery becomes valuable when the apartment experiences 3–6 hours of daily power cuts and has no common-area DG backup. Ground-floor or basement flat residents typically have no viable rooftop access and should explore community solar or group net-metering arrangements instead."
 ---
 
+> **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Every year, thousands of Indian families living in 3 BHK homes receive electricity bills between ₹8,000 and ₹15,000 per month and conclude that solar is the logical next step. The question that follows ("what size solar inverter do I need for my 3 BHK?") sounds simple but conceals a cascade of decisions: how many kilowatts, on-grid or hybrid, how much roof space, which subsidy slab, and how long until the investment pays back. This guide answers all of those questions with actual numbers, a step-by-step load calculation for a real Delhi home, and a decision framework that removes the guesswork.
 
 > **TL;DR**
@@ -45,7 +49,6 @@ Every year, thousands of Indian families living in 3 BHK homes receive electrici
 > - [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy caps at ₹78,000 for a 5 kW system, since only the first 3 kW slab qualifies for central subsidy.
 > - A 5 kW system needs roughly 340–360 sq ft of shadow-free roof and generates 550–750 kWh per month depending on the city.
 > - Net cost after subsidy runs ₹1.1–2 Lakh for on-grid, with typical Delhi payback of 2–4 years at current tariffs.
-> - Qbits TLS (on-grid) and HS (hybrid) 5 kW SKUs both carry 12-year full-replacement warranties and IP66 protection.
 
 > **Direct answer.** A 3 BHK home in India typically needs a 5 kW solar inverter and system. The combined load of two 1.5-ton ACs, a refrigerator, washing machine, water heater, lights, and fans runs 4–7 kW peak. A 5 kW on-grid inverter is the right pick for grid-reliable cities (Bangalore, Mumbai, Chennai); a 5 kW [hybrid inverter](/glossary/hybrid-inverter/) with a 5–10 kWh battery suits power-cut zones (UP, Bihar, rural Maharashtra). Apply the 3BHK Inverter Decision Framework in §4 to confirm which path fits your home.
 
@@ -135,8 +138,6 @@ The subsidy is credited directly to the homeowner's bank account after the DISCO
 
 ## Real Cost Breakdown: 5 kW Solar System for a 3 BHK in Delhi
 
-Abstract numbers are less useful than a line-item breakdown for a specific real-world installation. The example below is based on an actual 5 kW on-grid installation in a 3 BHK home in Delhi's Dwarka neighbourhood (West Delhi) in early 2026, using ALMM-listed panels and a BIS-certified inverter.
-
 ### Component-Level Cost Table (Delhi, 5 kW On-Grid, June 2026)
 
 | Component | Specification | Cost (₹) |
@@ -152,8 +153,6 @@ Abstract numbers are less useful than a line-item breakdown for a specific real-
 | **Gross total** | - | **₹1,91,000** |
 | PM Surya Ghar subsidy | ₹78,000 on 3 kW slab | –₹78,000 |
 | **Net cost after subsidy** | - | **₹1,13,000** |
-
-Note that this specific example uses a moderately priced 5 kW inverter at ₹45,000. Premium inverters with 12-year full replacement warranties, IP66 protection, and AI-powered monitoring (such as the Qbits HS series) are priced at ₹55,000–75,000 but eliminate out-of-pocket repair costs over the warranty period, a meaningful consideration when inverter failures account for approximately 60% of all solar service calls, as tracked by field data from installers across India.
 
 For a 5 kW hybrid system, add ₹35,000–50,000 for the hybrid inverter upgrade and ₹80,000–1.2 Lakh for a 5–10 kWh LFP battery, bringing the gross hybrid system cost to ₹3.5–4.5 Lakh (₹2.7–3.7 Lakh net of subsidy).
 
@@ -235,12 +234,6 @@ If shadow-free area is limited to 250–300 sq ft (for instance, due to a large 
 
 ## Best Solar Inverters for a 3 BHK Home in India: 2026 Picks
 
-With the sizing settled at 5 kW, the inverter choice narrows to brands that offer BIS certification, ALMM compliance (required for PM Surya Ghar subsidy), a verified full-replacement warranty, and (critically for a residential buyer) after-sales service in your pincode.
-
-### Qbits (HS 5 kW Hybrid / TLS 5 kW On-Grid)
-
-Qbits offers a purpose-built 5 kW solution for the 3 BHK segment through two SKUs: the TLS 5 kW (on-grid) and the HS 5 kW (hybrid). Both carry **12-year full replacement warranties**: not prorated coverage, but an actual unit swap - **IP66 weatherproofing**, and **AI-powered WhatsApp monitoring** that sends daily generation summaries and fault alerts directly to the homeowner's phone. ALMM-listed and BIS-certified, both qualify for PM Surya Ghar subsidy. The India-grid-tuned firmware handles the 180–270 V voltage fluctuations common in Tier-2 and Tier-3 distribution networks without shutting down. "Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone."
-
 ### Sungrow (SG5RS / SH5RS)
 
 Sungrow's 5 kW residential line is globally proven and widely installed. The SG5RS (on-grid) and SH5RS (hybrid) carry 5–10 year standard warranties with paid extensions. The iSolarCloud platform is feature-rich but designed for fleet managers rather than individual homeowners, the mobile experience is less intuitive for first-time solar buyers. Pricing is typically 15–25% higher than Indian-made alternatives. Sungrow is an excellent choice if the installer has strong Sungrow service infrastructure in your city.
@@ -261,9 +254,7 @@ Buying a solar inverter is a decision that stays with the home for 12–25 years
 
 **Undersizing the inverter to save ₹10,000–15,000 upfront.** A 3 kW inverter for a 3 BHK with two ACs means the system curtails generation whenever the load exceeds 3 kW, which happens daily during summer afternoons. The "savings" disappear within 18 months in lost generation. The [3 kW vs 5 kW vs 10 kW inverter comparison](/blog/3kw-vs-5kw-vs-10kw-solar-inverters/) demonstrates this clearly with year-on-year generation data.
 
-**Choosing an inverter without ALMM listing.** If your inverter is not on the MNRE ALMM (Approved List of Models and Manufacturers) list, the PM Surya Ghar subsidy application will be rejected by the DISCOM. Always verify the model is ALMM-listed before purchase. The [ALMM list guide](/blog/almm-list-phase-iii-guide/) explains how to check.
-
-**Ignoring the warranty fine print.** A "10-year warranty" that covers only defects in manufacturing and excludes weather damage, surge events, and component depreciation is worth very little in practice. Ask the vendor specifically: "Is this a full unit replacement warranty or a parts-only warranty?" A 12-year full replacement warranty means the manufacturer ships a new unit to your door within 72 hours of a confirmed fault, no labour charge, no argument.
+**Ignoring the warranty fine print.** A "10-year warranty" that covers only defects in manufacturing and excludes weather damage, surge events, and component depreciation is worth very little in practice. Ask the vendor specifically: "Is this a warranty with a written remedy or a parts-only warranty?" A model-specific written warranty means the manufacturer ships a new unit to your door within 72 hours of a confirmed fault, no labour charge, no argument.
 
 **Not accounting for shading from new construction.** A neighbouring building under construction today may cast a shadow on your south-facing roof within two years. Install panels with east-west bias or choose a dual-[MPPT](/glossary/mppt/) inverter that handles partial shading without the entire string dropping in output.
 
@@ -273,11 +264,8 @@ Buying a solar inverter is a decision that stays with the home for 12–25 years
 
 ## Where Qbits Fits
 
-Homeowners who want the engineering certainty of a 12-year full replacement warranty, IP66 weather protection rated for Indian monsoon and coastal humidity, and the convenience of AI-powered WhatsApp monitoring (without paying the import premium of global tier-1 brands) consistently land on Qbits. The TLS and HS series are built for Indian grid conditions: 180–270 V tolerance, high-temperature derating curves validated at 45 °C ambient, and a BIS/ALMM compliance stack that keeps PM Surya Ghar subsidy claims clean. The 5 kW variants are the right fit for the 3 BHK segment specifically.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: the TLS 5 kW is ALMM-listed, BIS-certified, and subsidy-eligible; ideal for 3 BHK homes in metro and tier-1 cities with reliable grid supply.
-- **[Hybrid Inverters](/hybrid-inverter/)**: the HS 5 kW adds battery readiness and automatic grid-to-battery switchover in under 20 ms; designed for 3 BHK homes in power-cut zones without compromising daytime solar yield.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, PV, backup-output, transfer, firmware, communication and warranty requirements. A 3 BHK label does not select the model.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: confirm panel-string compatibility and inverter sizing in 60 seconds before committing to a purchase.
-- **[Authorised Service Partners](/authorized-service-partners/)**: pincode-searchable network for the 72-hour RMA SLA; critical for after-sales confidence in Tier-2 cities.
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
-To get a sizing assessment and quote tailored to your specific 3 BHK address, roof orientation, and DISCOM, [request a quote from Qbits](/contact-us/), most responses come back within 24 hours with a full system proposal and subsidy eligibility confirmation.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

@@ -18,7 +18,7 @@ faqs:
   - q: "What's the typical residential inverter integration timeline?"
     a: "1-2 days for on-grid systems including mechanical installation, DC and AC wiring, configuration, monitoring setup, and performance validation. Hybrid systems add approximately 0.5-1 day for battery installation, BMS configuration, and operating mode programming. Commercial installations of 25 kW or larger typically require 2-4 days. The timeline excludes DISCOM net metering approval which is a separate parallel process with state-specific timelines."
   - q: "Is DISCOM approval required for grid-connected solar installations?"
-    a: "Yes, mandatory for all grid-connected projects. Processing timelines vary materially by state and DISCOM: 7-30 days in fast-approval states (Karnataka, Gujarat, Maharashtra in normal conditions), 60-90 days in slower states (UP under UPPCL, parts of Bihar). The application should be initiated as early as possible during the project lifecycle - waiting until commissioning to start the DISCOM process typically delays grid connection by weeks. Some states require manufacturer ALMM Phase III certification on the application."
+    a: "MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models, then obtain the inverter documents required by the scheme and DISCOM separately."
   - q: "What panel compatibility do modern inverters support?"
     a: "Modern Indian-market inverters work with standard crystalline silicon panels up to 750W (and increasingly 800W+ for utility applications). High-wattage panel compatibility requires the inverter to support wide DC input voltage range (1000V+ max), high current handling per string, and 130-150% DC oversizing capability. Always confirm specific panel datasheet compatibility against the inverter datasheet - particularly the Voc at minimum site temperature and Isc per string."
   - q: "What earthing standard applies to solar inverter integration in India?"
@@ -36,11 +36,13 @@ faqs:
 updatedDate: 2026-07-08
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Grid instability, voltage fluctuations, and diverse state-by-state DISCOM regulations make proper solar inverter integration the make-or-break execution phase for every Indian project. The design phase establishes what should happen; integration determines what actually happens at the site. Get integration right and the system delivers 25 years of reliable operation; get any phase wrong and the cascading problems surface months or years later as service calls, performance shortfalls, and warranty disputes.
 
 > **TL;DR**
 > - Integration runs across 7 phases: site assessment, mechanical/DC-side installation, AC-side grid connection, hybrid battery integration, monitoring setup, smart feature activation, and post-commissioning verification.
-> - [DISCOM](/glossary/discom/) [net metering](https://heavendesigns.in/blog/discom-net-metering-compliance-update/) approval is a parallel process that should start early - it ranges from 7-30 days in fast states to 60-90 days in slower ones, and [ALMM Phase III](/blog/almm-list-phase-iii-guide/) listing is often a prerequisite.
+> - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
 > - DC oversizing of 130-150% is standard practice, and earth resistance must stay below 5 ohms per IS 3043 with all metal components bonded.
 > - [LiFePO4](/blog/lifepo4-vs-nmc-solar-battery-india/) is the dominant battery chemistry for hybrid systems, offering 4,000-6,000 cycle life and safe operation up to 60 deg C.
 > - A minimum 7-day post-commissioning verification window catches installation issues before final handover and protects the warranty claim later.
@@ -71,7 +73,7 @@ The phase that determines whether the rest of the integration succeeds.
 ### DISCOM compliance verification
 
 - **State-specific approval requirements** confirmed with the local [DISCOM](/glossary/discom/)
-- **[ALMM Phase III](/blog/almm-list-phase-iii-guide/) listing** verified for the proposed inverter
+
 - **Net metering application** initiated early in project lifecycle
 - **State nodal agency approval** if required (GEDA, MEDA, KREDL, TEDA, etc.)
 
@@ -234,7 +236,7 @@ The configuration that determines whether the inverter operates at peak efficien
 
 - **Firmware updates** applied to latest version
 - **[BIS certificate](/glossary/bis-certification/)** verified and recorded
-- **ALMM Phase III** registration confirmed
+- **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify the exact module/cell models and check inverter documents separately.
 - **Certification compliance** documented, following the same nine-standard framework in the [solar inverter certifications guide](/blog/solar-inverter-certifications/)
 
 ### Documentation produced
@@ -258,7 +260,7 @@ The final phase that protects warranty and customer satisfaction.
 ### Comprehensive documentation handover
 
 - **Commissioning report** with all measured values and test results
-- **Digital warranty registration** completed with serial number and timestamp, activating the [12-year full replacement warranty](/blog/12-year-solar-inverter-warranty/) where applicable
+- **Digital warranty registration** completed with serial number and timestamp, activating the [model-specific written warranty](/blog/12-year-solar-inverter-warranty/) where applicable
 - **BIS and IEC certificates** for installed equipment
 - **As-built electrical drawings** reflecting actual installation
 - **Photographic record** of all cable terminations, sealing, mounting
@@ -302,15 +304,11 @@ The final phase that protects warranty and customer satisfaction.
 
 ## Where Qbits Fits
 
-Qbits Energy supports EPC integration excellence with:
-
-- **Detailed installation manuals** for every inverter SKU with India-specific guidance
-- **EPC partner training programs** on integration best practices
-- **Digital warranty registration** integrated with monitoring app for automated documentation
-- **AI WhatsApp monitoring** activated at commissioning provides immediate generation visibility
-- **Manufacturer technical support** during commissioning for complex projects
-- **Authorized Service Partners** network for ongoing service across India
-- **12-year full replacement warranty** with clear installation specification requirements
+- Obtain the current installation manual for the exact SKU before design or commissioning.
+- Training, commissioning support and partner-program availability are not established until confirmed in writing.
+- Confirm warranty registration, required commissioning evidence and claim steps in the current policy.
+- Confirm the logger, application, account owner, alert channels and subscription for the exact model.
+- Use the current partner directory only as a starting point, then confirm status, scope and location coverage.
 
 Related guides:
 
@@ -319,9 +317,9 @@ Related guides:
 - **[Inverter Voltage: String vs MPPT](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/)** - voltage design framework
 - **[How to Choose Solar Inverters with Surge Protection](/blog/how-to-choose-solar-inverters-with-surge-protection/)** - surge protection specification
 - **[Essential vs Advanced Solar Inverter Features India](/blog/essential-vs-advanced-solar-inverter-features/)** - feature framework
-- **[Authorized Service Partners](/authorized-service-partners/)** - certified installer network
+- **[Authorised Service Partners](/authorized-service-partners/)**: Search the current directory, then confirm partner status, location coverage, service scope, response process and fees in writing.
 
-For integration support on specific projects, [talk to a Qbits engineer](/contact-us/) - the team can provide installation guidance, partner network introductions, and project-specific technical support within 48 hours.
+[Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.
 
 ## Closing
 

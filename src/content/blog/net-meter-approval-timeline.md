@@ -1,174 +1,220 @@
 ---
-title: "Net Meter Approval Time in India 2026: DISCOM Timelines and How to Speed It Up"
-excerpt: "Solar net meter approval takes 15 to 60 days officially, but real timelines vary by DISCOM. See state-wise data, delay causes, and escalation steps."
-description: "How long does solar net meter approval take in India in 2026? Official vs actual DISCOM timelines, where applications get stuck, documents that cause delays, and the CGRF to ombudsman escalation path."
-category: "Guide"
+title: 'Net Meter Approval Time in India 2026: DISCOM Timelines and How to Speed It Up'
+excerpt: 'Net meter approval time in India, stage by stage: the statutory DISCOM clocks, where applications actually stall, and how to escalate a delay.'
+description: 'Net meter approval time in India, stage by stage: the statutory DISCOM clocks, where applications actually stall, and how to escalate a delay.'
+category: Guide
 date: 2026-07-23
-updatedDate: 2026-07-23
-readTime: "16 min"
-image: "/blog-images/net-meter-approval-timeline.svg"
-author: "Akash Hirapara"
+updatedDate: 2026-09-24
+readTime: 11 min
+image: /blog-images/net-meter-approval-timeline.svg
+author: Akash Hirapara
 keywords:
-  - solar net meter approval time
-  - net meter approval time india
-  - net metering approval timeline DISCOM
-  - PM Surya Ghar net meter delay
-  - net metering approval status
-  - DISCOM net metering process time
+- solar net meter approval time
+- net meter approval time india
+- net metering approval timeline DISCOM
+- PM Surya Ghar net meter delay
+- net metering approval status
+- DISCOM net metering process time
 faqs:
-  - q: "How long does net meter approval take in India?"
-    a: "Net meter approval in India takes 15 to 60 days in most states, measured from a complete application to meter installation. Gujarat DISCOMs regularly close applications in about 20 days, while Uttar Pradesh, Bihar, and parts of Madhya Pradesh can take 60 to 90 days when load enhancement or meter stock issues arise. The Electricity (Rights of Consumers) Rules, 2020 give DISCOMs a 15 day window for post-installation steps, but pre-installation feasibility adds another 7 to 15 days. Track your file on the PM Surya Ghar portal and follow up in writing every 15 days."
-  - q: "What happens if my DISCOM does not approve net metering on time?"
-    a: "If your DISCOM misses the mandated timeline, you have a three level escalation path. First, file a written complaint with the DISCOM's internal grievance cell or the 1912 helpline and keep the docket number. Second, after 15 to 30 days without resolution, approach the Consumer Grievance Redressal Forum (CGRF) of your DISCOM, which is free and mandated under the Electricity Act, 2003. Third, if the CGRF order is not implemented, escalate to the Electricity Ombudsman of your state within 30 days. Some states, such as Madhya Pradesh, treat the application as deemed approved if feasibility is not processed in 15 days."
-  - q: "Which documents cause the most net meter approval delays?"
-    a: "The five documents that stall the most applications are a name mismatch between Aadhaar, the electricity bill, and the bank account, a missing or unclear property ownership proof, an inverter or panel model that is not on the ALMM list, an unsigned net metering agreement, and a housing society NOC for apartment roofs. Wrong consumer numbers on the PM Surya Ghar portal also fail DISCOM verification instantly. Cross-check every name spelling and number before submission, because each correction cycle typically costs 7 to 15 days."
-  - q: "Can I install solar before net meter approval?"
-    a: "Under PM Surya Ghar Muft Bijli Yojana you should not commission your system before receiving DISCOM feasibility approval, because doing so can disqualify the subsidy claim. The correct sequence is portal registration, feasibility approval, installation by an empanelled vendor, then net meter installation and commissioning by the DISCOM. Your subsidy is triggered only after the DISCOM uploads the commissioning certificate. Physically mounting panels early is possible with your vendor, but the grid connection and subsidy clock start only after formal approval."
-  - q: "Why is my net meter approved but the meter not installed?"
-    a: "The most common reason is meter stock shortage at the local DISCOM division. Several states require DISCOMs to supply and install bidirectional meters, and procurement cycles sometimes lag application volumes, a problem reported in Rajasthan and parts of Maharashtra, according to Mercom India (2024). The second reason is a pending load enhancement, where your sanctioned load must be raised before the meter is changed. File a written complaint with the subdivision office, quote your approval letter date, and escalate to the CGRF if the meter is not installed within 30 days of approval."
-  - q: "Does the 75 percent transformer capacity rule delay net metering?"
-    a: "Yes. Most state regulations cap cumulative rooftop solar capacity on a distribution transformer at 75 percent of its rated capacity. In high adoption areas, especially in Gujarat and Rajasthan, new applications wait until the DISCOM augments the transformer or the cap is raised by the state regulator. You cannot speed this up individually, but you can ask the DISCOM in writing for the current loading status of your transformer before applying. If your application is refused on capacity grounds, the CGRF can direct the DISCOM to schedule augmentation."
-  - q: "Is net meter approval faster through the PM Surya Ghar portal?"
-    a: "Yes, in most states the PM Surya Ghar portal route is faster because the application, feasibility check, vendor selection, and subsidy claim sit in one tracked workflow with mandated response windows. Offline applications to the DISCOM follow the same regulations but lack automatic status tracking, so files sit unattended more often. Portal applicants can also see exactly which stage is pending and with which officer, which makes escalation far more effective. Whichever route you choose, an empanelled vendor who files complete documentation remains the single biggest speed factor."
+- q: How long does net meter approval take in India?
+  a: There is no single national duration, because net metering is governed state by state. The central floor is set by the Electricity (Rights of Consumers) Rules, 2020 as amended in 2024, which gives the DISCOM 15 days to complete and intimate a technical feasibility study for systems above 10 kW. Systems up to 10 kW are exempt from the feasibility study entirely under that amendment. The stages after feasibility, meaning installation, inspection, meter fitting, and commissioning, are governed by your state commission's regulations and vary widely in practice.
+- q: What does the 15-day feasibility rule actually mean for me?
+  a: The Electricity (Rights of Consumers) Amendment Rules, 2024 issued by the Ministry of Power reduced the feasibility study window from 20 days to 15 days for systems above 10 kW. The same amendment added a deemed-approval provision. If the DISCOM does not intimate the outcome within 15 days, the proposal is presumed technically feasible. That clock starts from a complete application, so an incomplete document set resets your position rather than the DISCOM's deadline.
+- q: My application says inspection pending. What should I check first?
+  a: Check whether your installer actually uploaded the completion report and test records against the same application reference. A missing or mismatched submission is a very common cause, and it looks identical to a DISCOM queue from the consumer side. Then confirm the installed inverter model and capacity match the approved proposal exactly. Finally, ask the DISCOM through its official grievance channel for a dated, ticketed status update quoting your reference number.
+- q: Can I switch the system on before the net meter is installed?
+  a: Follow the approval and commissioning requirements that apply to your connection. A pending application is not permission to export to the grid. Many state regulations require the distribution licensee to test the system before energising it, and the CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 govern the interconnection standard. Unauthorised export can also complicate your commissioning certificate and any subsidy claim.
+- q: Why do net meter timelines differ so much between states?
+  a: Net metering regulations are made by each State Electricity Regulatory Commission, not by a single national authority. Maharashtra works under the MERC (Grid Interactive Rooftop Renewable Energy Generating Systems) Regulations, 2019. Delhi works under the DERC (Net Metering for Renewable Energy) Regulations, 2014 as amended by the Second Amendment Guidelines, 2026. Uttar Pradesh works under the UPERC RSPV Regulations, 2019. Each sets its own windows, capacity caps, transformer loading limits, and meter responsibilities.
+- q: Does the DISCOM or the consumer supply the net meter?
+  a: It depends on the state regulation. Under the guidelines issued with the DERC (Net Metering for Renewable Energy) Regulations, 2014, the distribution licensee must procure, test, and install the net meter within 15 days of the renewable energy system being installed. The same guidelines allow the applicant to procure the meter and present it for testing and installation, again within 15 days. Confirm the meter responsibility and any charges in writing before installation, because meter stock is a frequent bottleneck.
+- q: How do I escalate a net metering application that is stuck?
+  a: Start with the DISCOM's own grievance channel and get a ticket number in writing. If that fails, the Consumer Grievance Redressal Forum is a statutory body under Section 42(5) of the Electricity Act, 2003. The Electricity (Rights of Consumers) Rules, 2020 set a maximum of 45 days for grievance redressal. If the Forum does not resolve the matter, Section 42(6) of the Act allows a representation to the Electricity Ombudsman designated by your State Commission.
+- q: Does net metering, gross metering, or net billing change my waiting time?
+  a: The mechanism rarely changes the procedural stages, but it changes the settlement and sometimes the meter type. Net metering offsets your exported units against imported units before billing. Gross metering pays for every generated unit at a separate rate while you buy all consumption at the retail tariff. Net billing values exports at a defined rate that is usually below retail. Some states apply different capacity bands to each mechanism, which can change which approval track your file follows.
+- q: Will a delay affect my PM Surya Ghar subsidy?
+  a: The subsidy claim sits downstream of commissioning, so a delay at any earlier stage delays the claim too. Under the PM Surya Ghar Muft Bijli Yojana launched by the Government of India in February 2024, the applicant submits bank details after the commissioning report is issued. The published central slab is ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW, capped at ₹78,000, according to the PM Surya Ghar portal (2024). Slab amounts and state top-ups change, so check the portal on the date you apply.
+- q: What documents cause the most avoidable delays?
+  a: Mismatches between the approved proposal and the installed equipment are the single most avoidable cause. That includes inverter model numbers, serial numbers, and installed capacity. Sanctioned load is the second, because most state regulations cap system capacity at or below the sanctioned load or contract demand. Missing test reports, an unsigned interconnection agreement, and an unseeded bank account round out the list.
 featured: false
+seoTitle: 'Net Meter Approval Timeline: Every Stage, Explained'
+relatedSlugs:
+- how-to-apply-net-metering-india
+- gross-metering-vs-net-metering
+- net-metering-india-complete-guide
+- empanelled-vendor-pm-surya-ghar
+- pm-surya-ghar-status-check
 ---
 
-You paid the vendor, the panels are on the roof, and the inverter is blinking on the wall. Yet your electricity bill has not changed. The reason is sitting in a file at your [DISCOM](/glossary/discom/) office: the net meter approval. Solar net meter [approval time](https://quickestimate.co/blog/discom-approval-time-benchmark) is the single biggest gap between "system installed" and "money saved" for Indian homeowners in 2026. It is also the stage nobody budgets for.
+You applied for net metering. Weeks have passed. The portal still shows the same status line. That is the most common rooftop solar complaint in India, and it does have a real answer.
 
-The official picture looks tidy. Regulations in most states promise feasibility approval in 7 to 15 days and meter installation within 15 days of the work completion report. The actual picture, measured across thousands of [PM Surya Ghar](/glossary/pm-surya-ghar/) files, is different. Approvals range from 20 days in Gujarat to 90 days or more in parts of Uttar Pradesh, Bihar, and Rajasthan. The difference is rarely the regulation. It is documentation errors, load enhancement requests, meter stock shortages, and files that sit unattended because nobody followed up.
+The answer is not a single number. It is a map. A net metering application moves through roughly ten stages. Each one sits with a different party: you, your installer, the distribution company, its meter section, and sometimes the electrical inspector. From the outside, a delay at stage four looks exactly like a delay at stage eight. The fix is completely different.
 
-This guide lays out both versions honestly. You will see the official timelines by major DISCOM and the actual timelines homeowners experience. It also covers the four stages where applications stall, the exact documents that cause delays, and the escalation ladder from grievance cell to CGRF to ombudsman. Every step that speeds the process up is something you can do yourself, this week, without paying anyone.
+This guide does three things. It walks the full journey, from the first portal submission to the first settled bill. It puts the statutory clocks beside commonly observed elapsed times, so you can tell a slow file from a stuck one. And it shows where applications genuinely stall, which causes you control, and how to escalate with a regulatory reference rather than a phone call.
+
+Every timeline below is tied to a named regulation with its issuing body and year. Net metering rules differ by state and by DISCOM, and practice differs from the written rule. Treat these numbers as the frame, then check the current text for your own state.
 
 > **TL;DR**
-> - Official net meter approval takes 15 to 60 days end to end. Gujarat closes most files in about 20 days, while UP and MP often run 60 to 90 days.
-> - The Electricity (Rights of Consumers) Rules, 2020 give DISCOMs 15 days for post-installation metering steps, according to the CEEW state rooftop solar review (2022).
-> - Madhya Pradesh deems your application accepted if feasibility is not processed within 15 days, according to MPERC [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) regulations (2024).
-> - The three biggest delay causes are name mismatches across Aadhaar, bill, and bank account, pending load enhancement, and bidirectional meter stock shortages.
-> - About 70 percent of Rajasthan applicants needed load enhancement, which delayed approvals by months, according to Down To Earth (2024).
-> - Escalation ladder: 1912 helpline or internal grievance cell, then CGRF (free, mandated by the Electricity Act, 2003), then the state electricity ombudsman.
-> - Subsidy under [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) is released only after the DISCOM uploads the commissioning certificate, so every approval day is a subsidy day lost.
+> - The Electricity (Rights of Consumers) Amendment Rules, 2024 (Ministry of Power) cut the feasibility window to 15 days above 10 kW, and exempted systems up to 10 kW entirely.
+> - That amendment added deemed approval: no intimation within 15 days means the proposal is presumed technically feasible.
+> - Everything after feasibility is state law. MERC (2019) gives 7 working days for approval; DERC guidelines (2014) give 15 days for net meter installation.
+> - Delhi moved to a two-stage process under the DERC Second Amendment Guidelines, 2026, issued 16 July 2026.
+> - The real bottlenecks are meter stock, inspector scheduling, and document mismatches, not feasibility.
+> - The Electricity (Rights of Consumers) Rules, 2020 cap grievance redressal at 45 days, with the Consumer Grievance Redressal Forum and the Ombudsman as statutory escalation paths.
 
-**Short version.** Solar net meter approval in India officially takes 15 to 60 days. That breaks down to 7 to 15 days for feasibility, then 15 days for meter installation after your work completion report. In practice, well-run DISCOMs in Gujarat finish in about 20 days. UP, Bihar, and MP can take 60 to 90 days when load enhancement or meter stock issues intervene. Submit complete documents, follow up in writing every 15 days, and escalate to the CGRF after 30 days of silence.
+**Short version.** Net meter approval time in India has no fixed national duration. Central rules give the DISCOM 15 days for technical feasibility on systems above 10 kW, with deemed approval after that. The remaining stages, meaning installation, inspection, meter fitting, and commissioning, run under state regulations and commonly take several more weeks. Track your file stage by stage, not as one number.
 
-If you are still upstream of this, the [net metering complete guide for India](/blog/net-metering-india-complete-guide/) covers the mechanics of [net metering](https://www.heavengreenenergy.com/blog/solar-net-metering) itself. It explains how billing and export credits work. This post focuses on one question: how long approval takes, and how to make it take less.
+## Why there is no single national answer
 
-## Official Timelines vs What Actually Happens
+Net metering is not centrally administered. Each State Electricity Regulatory Commission frames its own regulations under the Electricity Act, 2003. The Ministry of Power sets a consumer-rights floor. The operative procedure, capacity caps, transformer loading limits, and meter responsibilities are written by your state commission and executed by your [DISCOM](/glossary/discom/).
 
-Officially, net meter approval in India takes 15 to 60 days depending on the state. The time splits across feasibility approval (7 to 15 days), installation (vendor dependent), and meter installation with commissioning (15 days after the work completion report).
+That is why two neighbours in different states, with identical 5 kW systems, see very different waiting times for the same paperwork. A national average is close to useless for your file.
 
-The clearest official schedule comes from the Uttar Pradesh Solar Energy Policy, 2022, which fixes each step in days:
+## The ten stages of a net metering application
 
-| Stage | Official Maximum (UP Policy 2022) |
+Most state frameworks follow the same underlying sequence, even when names and order differ. Knowing which stage you are in is the entire diagnostic.
+
+1. **Application submission.** You or your installer file on the state portal or the national PM Surya Ghar portal. Save the reference number.
+2. **Technical feasibility study.** The DISCOM checks transformer headroom, feeder loading, and connection details.
+3. **Sanctioned load check.** Most regulations cap capacity at or below your sanctioned load or contract demand.
+4. **Approval letter or registration.** The DISCOM conveys permission to install, often with a validity window.
+5. **Installation.** Your installer erects the array and commissions the inverter to the approved specification.
+6. **Completion report submission.** Test records, model and serial details, and the installation certificate are uploaded.
+7. **Inspection.** A DISCOM engineer, and in some states the [Chief Electrical Inspectorate](/glossary/ceig/), inspects and tests the installation.
+8. **Meter testing and installation.** The [bidirectional meter](/glossary/bidirectional-meter/) is tested, sealed, and fitted.
+9. **Commissioning certificate and agreement.** The certificate is issued and the interconnection agreement is executed.
+10. **First settled bill.** Your next cycle reflects imported and exported units under the applicable mechanism.
+
+Stages 1 to 4 are pre-approval. Stages 5 to 7 are yours and your installer's to drive. Stages 8 to 10 sit with the utility.
+
+## A realistic timeline, stage by stage
+
+The table separates two different things. The statutory column is what a named regulation requires. The observed column is an industry-observed range, not a promise, and it varies by DISCOM, season, and application volume.
+
+| Stage | Statutory clock, where one exists | Commonly observed elapsed time |
+| --- | --- | --- |
+| Application submission | None; portal-dependent | Same day to 3 days |
+| Technical feasibility study | 15 days for systems above 10 kW; exempt up to 10 kW, per Electricity (Rights of Consumers) Amendment Rules, 2024 (Ministry of Power) | 7 to 30 days |
+| Deficiency cure window | 15 days to rectify, per DERC guidelines (2014) and MERC (2019) notice provisions | 7 to 15 days if triggered |
+| Approval or registration | 7 working days after feasibility completion, per MERC (2019) | 3 to 21 days |
+| Installation | Project work within 6 months of agreement, per GERC draft Fourth Amendment (2024) | 2 to 10 days of site work |
+| Completion report | None; installer-dependent | 1 to 7 days |
+| DISCOM inspection | None uniform; state-specific | 7 to 30 days |
+| Meter testing and installation | 15 days from system installation, per DERC guidelines (2014) | 15 to 45 days |
+| Commissioning certificate | None uniform | 3 to 21 days |
+| Agreement execution | 30 days to execute and return, per UPERC RSPV Regulations, 2019 | 3 to 30 days |
+
+Two cautions. Stages overlap in several states, so you cannot simply add the rows. And a statutory clock only runs from a complete application, which is the most misunderstood point in this process.
+
+## What the regulations actually promise
+
+Central and state rules promise process, not outcome. No regulation commits a DISCOM to a total end-to-end duration for your connection. They commit to bounded windows for individual steps, plus consequences when a window lapses.
+
+The key central provision is Rule 11 of the Electricity (Rights of Consumers) Rules, 2020, notified by the Ministry of Power on 31 December 2020 under Section 176 of the Electricity Act, 2003. The Electricity (Rights of Consumers) Amendment Rules, 2024, notified on 22 February 2024, revised it in three ways. Systems up to 10 kW no longer need a technical feasibility study. For systems above 10 kW, the window fell from 20 days to 15 days. And silence past 15 days means the proposal is presumed technically feasible.
+
+The same 2024 amendment obliges the distribution company to carry out distribution system strengthening for rooftop systems up to 5 kW, and to bear the associated cost. That matters, because transformer capacity is a real constraint and used to be quietly passed to the consumer.
+
+## Worked example: what the statutory clocks add up to
+
+This is arithmetic on published windows, not a forecast for your file. It shows the floor a well-run application can reach, and why the observed reality usually exceeds it.
+
+**Inputs.** A 15 kW commercial rooftop system in Maharashtra. Feasibility study required, because the system exceeds 10 kW. No deficiency notice. No transformer strengthening.
+
+**Calculation.**
+
+- Feasibility study and intimation: 15 days (Electricity (Rights of Consumers) Amendment Rules, 2024)
+- Approval conveyed after feasibility completion: 7 working days, roughly 9 calendar days (MERC Grid Interactive Rooftop RE Regulations, 2019)
+- Installation and completion report: 7 days (installer-controlled, assumed)
+- Inspection and meter work: 15 days (assumed, using the DERC 2014 meter window as a comparable benchmark)
+
+**Result.** 15 + 9 + 7 + 15 = 46 days as a clean-run floor.
+
+Now add one deficiency notice with a 15-day cure window, and one meter stock delay of 20 days. The same file reaches 81 days without anyone breaking a rule. That gap between 46 and 81 is where almost every complaint lives.
+
+## Where delays genuinely happen
+
+Feasibility is rarely the true bottleneck any more, especially since the 10 kW exemption. The delays cluster in five places, and four of them are invisible from the consumer portal.
+
+**Meter stock.** Bidirectional meters are procured in batches. A division waiting on stock holds dozens of files at once, with no status change visible to any of them.
+
+**Inspector availability.** Inspection is a physical site visit by a limited pool of officers. Application surges after a scheme announcement create queues that no regulation shortens.
+
+**Feasibility backlog.** Where a study is still required, a division handling a spike will breach the 15-day window in practice, even with deemed approval on paper.
+
+**Transformer capacity.** The MERC (Grid Interactive Rooftop Renewable Energy Generating Systems) Regulations, 2019 restrict capacity to the sanctioned load and to 70% of transformer capacity, allocated transformer-wise on a first come, first served basis. A full transformer is a hard stop, not a queue.
+
+**Documentation gaps.** Model number mismatches, capacity above sanctioned load, missing test reports, and unsigned agreements. This is the largest avoidable category, and it sits entirely on your side of the line.
+
+## What you control and what you do not
+
+Here is the uncomfortable part. Most consumers escalate against the DISCOM while the actual blocker sits with their own installer or their own paperwork. The table below separates the two honestly.
+
+| Common belief | What is usually true |
 | --- | --- |
-| Acknowledgment of application | 1 day |
-| Site verification and technical feasibility | 7 days |
-| Installation by vendor | 90 days |
-| Testing and net metering | 7 days from meter deposit |
-| Net metering agreement | 3 days from draft submission |
+| "The DISCOM is sitting on my file." | Often the completion report was never uploaded against the correct reference. |
+| "Inspection pending means the officer is late." | It frequently means a prerequisite document is missing, so the visit was never scheduled. |
+| "A bigger system gets faster clearance." | Capacity above sanctioned load triggers a separate load increase application first. |
+| "Paying extra speeds it up." | Regulated charges are published. Anything beyond them buys you a dispute, not a date. |
+| "The national portal controls the timeline." | The portal routes the file. Your state DISCOM executes it under state regulations. |
 
-Add those up and a clean UP file should close in roughly 18 to 30 days of DISCOM time. In practice, UP applicants report 60 to 90 days when load enhancement enters the picture. The MNRE model SOP for DISCOMs shows a similar national template. Acknowledgment comes in 3 working days, and feasibility with Letter of Approval within 7 days. The metering agreement follows within 7 days of the work completion report.
+You control document completeness, equipment matching the approved proposal, sanctioned load adequacy, installer responsiveness, and the quality of your escalation record. You do not control meter stock, inspector rosters, transformer headroom, or divisional workload. Spend your energy on the first list. Equipment matching starts earlier than most buyers expect, and [checking the inverter model against your own DISCOM](/blog/discom-approval-solar-inverter-net-metering/) is the step that prevents a rejection at inspection.
 
-The gap between paper and practice has three structural causes. First, timelines are "working days" and often restart when a file is returned for correction. Second, some steps depend on third parties, such as meter testing labs and CEIG inspection for larger systems. Third, PM Surya Ghar application volumes grew faster than DISCOM field staff. Subsidy processing itself has an official 30 working day benchmark, yet only better-performing states meet it consistently, according to SolarSahi state-wise data (2026).
+## Documents to keep ready at each stage
 
-The takeaway is not that the system is broken. It is that the official clock only runs on a complete file. Your job is to keep your file complete and keep the clock visible.
+Build one folder before you apply, and keep it current. Applications stall on retrieval time far more often than on eligibility. Rules on mandatory documents vary by state and DISCOM.
 
-## DISCOM-Wise Net Meter Approval Timelines
+1. **At application.** Latest electricity bill, consumer number, sanctioned load proof, identity and address proof, and roof ownership or no-objection documentation.
+2. **At approval.** The feasibility outcome or approval letter, its validity date, and the approved capacity in writing.
+3. **At installation.** Itemised invoice, inverter and module model numbers, serial numbers, datasheets, and the single line diagram.
+4. **At inspection.** Installation and test reports, earthing records, and any electrical inspector approval your state requires under the CEA (Measures relating to Safety and Electric Supply) Regulations, 2010.
+5. **At commissioning.** Commissioning certificate, meter serial and seal details, and the executed interconnection agreement.
+6. **At subsidy claim.** Bank details, a cancelled cheque, and the commissioning report, for PM Surya Ghar applicants.
 
-Approval speed is a DISCOM property, not a national property. The table below pairs the official window with the actual timeline homeowners commonly experience in 2026, based on state regulations, DISCOM portals, and field reports. Actual figures are industry-observed ranges, not guarantees.
+Keep a dated log alongside the folder. Record every submission, clarification request, and response. That log turns a complaint into a case.
 
-| State / DISCOM | Official Timeline | Actual Timeline (2026) | Main Bottleneck |
-| --- | --- | --- | --- |
-| Gujarat (UGVCL, MGVCL, PGVCL, DGVCL) | 15 to 30 days | About 20 days | Transformer capacity cap in dense areas |
-| Maharashtra (MSEDCL) | 15 to 30 days | 30 to 45 days | Meter testing and inspection scheduling |
-| Delhi (BSES, Tata Power DDL) | 15 days feasibility | 20 to 35 days | SDO clearance, per DERC rules tightened in 2026 |
-| Karnataka (BESCOM) | 15 to 30 days | 25 to 40 days | Inspection queue after installation |
-| Uttar Pradesh (UPPCL via UPNEDA) | 7 days feasibility | 60 to 90 days | Load enhancement, document corrections |
-| Madhya Pradesh (Discoms under MPERC) | 15 days, then deemed approved | 45 to 75 days | Field verification backlog |
-| Rajasthan (JVVNL and others) | 15 to 30 days | 60 to 120 days | Load enhancement for about 70 percent of applicants |
-| Tamil Nadu (TNPDCL) | 15 to 30 days | 30 to 50 days | Zero export and capacity checks |
-| Punjab (PSPCL) | 15 to 30 days | 20 to 35 days | Generally smooth, portal driven |
-| Telangana (TSSPDCL) | 15 to 30 days | 30 to 45 days | Export policy checks |
+## Net metering, gross metering, and net billing settle differently
 
-Delhi offers the clearest example of regulation catching up with delay. DERC simplified its rooftop solar process and tightened feasibility to 15 days from a complete application. Applicants get 15 days to fix deficiencies, according to Energetica India (2026). Madhya Pradesh went further: if the DISCOM does not process feasibility within 15 days, the application is deemed accepted, according to MPERC regulations (2024). That deemed approval clause is one of the strongest consumer protections in the country, and almost no applicant knows it exists.
+The three mechanisms share most procedural stages. They differ sharply in how exported units are valued, and that difference is worth more than a few weeks of waiting.
 
-> **60 to 90 days.** The realistic approval window in Uttar Pradesh and Madhya Pradesh when load enhancement or meter stock issues arise. Gujarat runs about 20 days. Industry-observed range, 2026.
+Under net metering, exports are netted against imports and you are billed on the difference. Under gross metering, all generation is sold to the utility at a defined rate while you buy all consumption at the retail tariff. Net billing sits between them, crediting exports at a rate usually below retail.
 
-If your state is not in the table, check your DISCOM's citizen charter. Every DISCOM publishes mandated timelines under its State Electricity Regulatory Commission's standards of performance. The [state-wise solar subsidy guide](/blog/solar-subsidy-all-states/) links each state's portal and policy.
+**Worked example, illustrative rates only.** Assume a household imports 600 kWh and exports 400 kWh in a month. Assume a retail tariff of ₹8.00 per kWh and an export rate of ₹3.00 per kWh.
 
-## The Four Stages Where Applications Get Stuck
+- Net metering: (600 minus 400) × ₹8.00 = ₹1,600 payable.
+- Net billing: (600 × ₹8.00) minus (400 × ₹3.00) = ₹4,800 minus ₹1,200 = ₹3,600 payable.
 
-Applications stall at four predictable points: feasibility approval, load enhancement, post-installation inspection, and meter installation. Knowing which stage your file is in tells you exactly who to chase and with what.
+The difference is ₹2,000 for that month on identical hardware. Rates and rules are state-specific, so substitute your own tariff order values. Our [gross metering versus net metering comparison](/blog/gross-metering-vs-net-metering/) works through the mechanics, and the [net metering guide](/blog/net-metering-india-complete-guide/) covers eligibility.
 
-**Stage 1: Feasibility approval.** The DISCOM checks your sanctioned load, roof capacity, and transformer headroom. Files stall here when the consumer number or name does not match DISCOM records, or when the local transformer is near its solar capacity cap. The [net metering application process](/blog/how-to-apply-net-metering-india/) walks through what a complete application looks like.
+## State variation: four named frameworks
 
-**Stage 2: Load enhancement.** If your solar capacity exceeds your sanctioned load, the DISCOM requires a load enhancement first. In Rajasthan, roughly 70 percent of consumers needed load enhancement. Those approvals dragged on for months even when no physical work was required, according to Down To Earth (2024). This is the single worst bottleneck in the northern states. Apply for load enhancement the day your feasibility is approved, not after installation.
+The following are illustrative, not exhaustive. Each has been amended, so always read the current consolidated text on the commission's own website.
 
-**Stage 3: Post-installation inspection.** The DISCOM engineer verifies earthing, inverter specifications, and the single-line diagram against your application. Files stall here because the inspection queue is long and nobody schedules the visit. A written request with your application number, submitted to the subdivision office, usually gets a date within a week.
+**Maharashtra.** The MERC (Grid Interactive Rooftop Renewable Energy Generating Systems) Regulations, 2019, notified 30 December 2019. Approval is conveyed within 7 working days of completing the feasibility study. Capacity is capped at the sanctioned load and at 70% of distribution transformer capacity. The settlement year runs 1 April to 31 March.
 
-**Stage 4: Meter installation and commissioning.** The final step, and the one most hostage to logistics. Some DISCOMs face bidirectional meter shortages, and in certain states consumers were asked to purchase and test meters themselves, delaying commissioning, according to Mercom India (2024). Once the meter is in and the commissioning certificate is uploaded, the PM Surya Ghar subsidy clock starts. The [PM Surya Ghar status check guide](/blog/pm-surya-ghar-status-check/) shows how to see which stage your file sits in on the portal.
+**Delhi.** The DERC (Net Metering for Renewable Energy) Regulations, 2014, dated 2 September 2014, with guidelines requiring the licensee to procure, test, and install the net meter within 15 days of system installation. The DERC Second Amendment Guidelines, 2026, issued 16 July 2026, replaced the three-stage process with two stages and set a 15-day feasibility deadline.
 
-## Documents That Cause the Most Delays
+**Uttar Pradesh.** The UPERC (Rooftop Solar PV Grid Interactive Systems Gross/Net Metering) Regulations, 2019, notified 4 January 2019. The applicant must execute and return the interconnection agreement within 30 days of receipt. Capacity is capped at 100% of sanctioned, connected, or contract load.
 
-Five documentation problems account for the majority of returned files. Each return cycle costs 7 to 15 days because the timeline restarts.
+**Gujarat.** The GERC draft Fourth Amendment (2024) proposed a technical feasibility report within 3 days, and connectivity charges plus agreement within 15 days where no strengthening is needed. GERC also exempted rooftop systems up to 10 kW from the feasibility study, according to Mercom India (2024). Draft provisions are not final law, so verify the notified version.
 
-1. **Name mismatch across Aadhaar, electricity bill, and bank account.** The subsidy goes to a bank account, so all three records must match character for character. "Ramesh Kumar" on Aadhaar and "Ramesh Kr." on the bill is a rejection. Fix the DISCOM record first; it takes one visit and a form.
-2. **Wrong consumer number on the portal.** One transposed digit fails DISCOM verification automatically. Copy the number from a recent bill, not from memory.
-3. **Non-ALMM equipment in the application.** If the panel or inverter model number in your file is not on the ALMM list, the application cannot proceed. Verify the exact model, not just the brand, on the MNRE portal before your vendor files anything.
-4. **Missing ownership proof or society NOC.** Rented homes need the owner's consent. Apartments need a housing society NOC for roof use. These are the most commonly forgotten attachments.
-5. **Unsigned or mismatched net metering agreement.** Several DISCOMs require a signed agreement on stamp paper or a specific format. Ask your DISCOM office for the current format rather than using a template from the internet.
+## How to escalate a stuck application
 
-The full document checklist, with formats, is in the [PM Surya Ghar documents required guide](/blog/pm-surya-ghar-documents-required/). And if your file has already bounced once, the [PM Surya Ghar rejection reasons guide](/blog/pm-surya-ghar-rejection-reasons/) maps each rejection code to its fix.
+Escalate in order, and escalate on paper. A phone call leaves no record, and a record is the only thing that moves a stalled file.
 
-## Seven Steps to Speed Up Your Net Meter Approval
+1. **Fix your side first.** Confirm the completion report was filed against the correct reference, and that installed equipment matches the approval exactly.
+2. **Raise a ticketed complaint.** Use the DISCOM's grievance channel. Quote the application number, attach a dated event log, and save the acknowledgement.
+3. **Cite the applicable window.** If the 15-day feasibility window under the Electricity (Rights of Consumers) Amendment Rules, 2024 has lapsed, invoke the deemed feasibility provision by name.
+4. **Approach the Consumer Grievance Redressal Forum.** Every distribution licensee must maintain one under Section 42(5) of the Electricity Act, 2003. The Electricity (Rights of Consumers) Rules, 2020 cap grievance redressal at 45 days.
+5. **Represent to the Electricity Ombudsman.** Section 42(6) of the Electricity Act, 2003 allows this where the Forum has not redressed the grievance. The Ombudsman is designated by your State Commission.
 
-You cannot control DISCOM staffing, but you control everything about your file. These seven steps, in order, cut the typical approval by two to four weeks.
-
-1. **Match your names before you apply.** Check Aadhaar, electricity bill, and bank passbook side by side. Fix any mismatch at the DISCOM office or bank first. This single check eliminates the most common return cycle.
-2. **Apply through the PM Surya Ghar portal even if you are unsure about subsidy.** Portal files are tracked stage by stage with officer names attached. Offline files are not. Tracking alone changes how your file is treated.
-3. **Use an empanelled vendor who files for you daily.** Volume vendors know each subdivision's quirks, including which formats the local office currently accepts. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) explains how to verify registration.
-4. **Apply for load enhancement in parallel, not in sequence.** If your system size exceeds sanctioned load, file the enhancement request the same week as feasibility. Run sequentially, this adds 30 to 60 days in Rajasthan and UP.
-5. **Submit the work completion report the day installation finishes.** The 15 day post-installation clock starts from this report, not from the physical installation. Vendors sometimes sit on it for a week waiting to batch submissions. Do not let them.
-6. **Follow up in writing every 15 days, and keep docket numbers.** File a written application at the subdivision office, or email the DISCOM's nodal officer. This creates a record that verbal follow-ups do not. Written follow-ups also become your evidence if you escalate.
-7. **Escalate at day 30, not day 90.** The moment a mandated timeline passes, move to the next level. Waiting politely for months is the most expensive mistake applicants make, because every idle month costs a full month of generation savings.
-
-A worked example, labelled hypothetical. A 3 kW system in Jaipur generating about 12 units a day loses roughly 360 units for every 30 days of approval delay. At ₹8 per unit, that is about ₹2,900 per month, plus a month of subsidy delay. Speed has a rupee value.
-
-## Myth-Busting: "The DISCOM Will Call You When It Is Ready"
-
-The most damaging belief in rooftop solar is that approval is a waiting game where the DISCOM contacts you when your file clears. That is not how it works. Files do not age upward in a queue on their own. Files move when someone with a reference number asks about them, and they move fastest when the ask is in writing.
-
-> **What most homeowners get wrong:** they treat silence as progress. In DISCOM workflows, silence after a mandated deadline means your file is waiting for something. Usually it is a correction, a signature, or a meter that is out of stock. Nobody will tell you unless you ask.
-
-Two more myths deserve correction. The first is that paying an agent or "facilitation fee" speeds approval. It does not. DISCOM processing is clerical and rule bound; what speeds it up is a complete file and persistent written follow-up, both free. The second myth is that escalating to the CGRF will sour relations with your local DISCOM and hurt future service. CGRF is a routine, legally mandated channel under Section 42 of the Electricity Act, 2003. DISCOM officers treat it as process, not conflict. In practice, a CGRF filing often resolves the underlying issue within weeks because it forces a formal written response.
-
-The honest tradeoff to admit: escalation takes your time. A CGRF case means a written complaint, a hearing date, and possibly two visits. For most homeowners the payoff, one to three months of earlier commissioning, is worth an afternoon of paperwork. The exception is when your file is genuinely waiting on transformer augmentation; no escalation buys you a new transformer faster, only a firm date for one.
-
-## The Escalation Path: Internal Grievance, CGRF, and Ombudsman
-
-India's electricity consumer framework gives you a three level ladder, all free, with defined timelines at each rung.
-
-**Level 1: Internal grievance.** Call the 1912 helpline or your DISCOM's complaint portal and register a formal complaint. Quote your application number and the mandated timeline that has passed. Note the docket number. Most states require a response within 15 days. Maharashtra calls this the IGRC (Internal Grievance Redressal Cell); other states have equivalent cells at circle or division level.
-
-**Level 2: CGRF (Consumer Grievance Redressal Forum).** If level 1 gives no resolution in 15 to 30 days, file with your DISCOM's CGRF. Every DISCOM must maintain one under the Electricity Act, 2003 and the Electricity (Rights of Consumers) Rules, 2020. Filing is free, can be done in writing or online in most states, and the forum must hear you. Attach your application copy, approval letters, and every docket number from level 1. CGRF orders are binding on the DISCOM.
-
-**Level 3: Electricity Ombudsman.** If the CGRF order is not implemented, or you are unsatisfied with it, appeal to your state electricity ombudsman. Do this within 30 days of the CGRF order. The ombudsman is appointed by the State Electricity Regulatory Commission and is independent of the DISCOM. Beyond this sits the SERC itself and, rarely, consumer court, but net metering cases almost never need to go that far.
-
-Two practical notes. First, keep everything in writing from day one, because the entire ladder runs on paper trails. Second, you can flag long silences on the PM Surya Ghar portal grievance section. If your application has been silent for over 30 days past a mandated timeline, this routes to the DISCOM's nodal officer for the scheme. The [PM Surya Ghar application guide](/blog/pm-surya-ghar-apply-online/) covers the portal's built-in grievance route.
-
-## What Approval Speed Means for Your Subsidy and Savings
-
-Net meter approval is not just bureaucracy. It sits directly on the money path, in both directions.
-
-On the subsidy side, PM Surya Ghar central assistance is released only after the DISCOM uploads the commissioning certificate to the portal. The official disbursement benchmark is 30 working days from commissioning, but that clock starts only when approval is done. A 60 day approval delay is therefore a 60 day delay on up to ₹78,000 for a typical 3 kW system. Add whatever your state provides on top.
-
-On the savings side, every day between installation and commissioning is a day your panels generate power you cannot use or export. An uncommissioned on-grid system either sits idle or, worse, runs without export credit. The [gross metering vs net metering comparison](/blog/gross-metering-vs-net-metering/) explains why export credit timing matters to your payback math. The [solar installation timeline guide](/blog/how-long-solar-installation-takes-india/) shows where approval fits in the full 60 to 90 day project arc.
-
-One more financial nuance from the financing desk: if you took a solar loan, your EMI starts on the lender's schedule, not the DISCOM's. A three month approval delay on a ₹1.8 Lakh loan means three EMIs of roughly ₹4,000 paid before your first rupee of savings arrives. Factor a 30 to 60 day approval buffer into any payback calculation your vendor shows you. If the vendor's quote assumes savings from day 30, ask them to redo the math with savings from day 90. That is the realistic case in slow DISCOM territories.
+Do not modify inverter protection settings or begin export while waiting. The CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 govern the interconnection standard, and unauthorised export complicates commissioning and any subsidy claim. Our [commissioning guide](/blog/solar-inverter-commissioning-in-india/) explains what the utility tests.
 
 ## The Bottom Line
 
-Net meter approval in India officially takes 15 to 60 days, and the actual time depends less on luck than on file quality and follow-up. Gujarat and Punjab prove the system can work in three weeks. The slow states prove what happens when load enhancement, meter stock, and silent files stack up. Your move set is simple. Submit a complete and consistent file, follow up in writing on a 15 day rhythm, and climb the escalation ladder without hesitation when a deadline passes.
+Net meter approval time in India is a sequence, not a number. Central rules now give you a 15-day feasibility clock with deemed approval, and a full exemption below 10 kW. Everything after that runs on your state commission's regulations. The real delays concentrate in meter stock, inspector scheduling, and your own documentation.
 
-- **This week:** pull your Aadhaar, electricity bill, and bank passbook, and confirm the names match. Then verify your panel and inverter models on the ALMM list before anything is filed.
-- **If you have already applied:** find your current stage on the PM Surya Ghar portal. Send a written follow-up with your application number, and calendar the next one 15 days out.
-- **If you are still choosing a vendor:** work with a team that handles DISCOM paperwork as a core service, not an afterthought. [Talk to a Qbits engineer](/contact-us/) about getting your system designed, filed, and commissioned with an ALMM-listed inverter. Our partner network chases approvals so you do not have to.
+Diagnose the stage before you escalate. Most files that look blocked by the utility are waiting on a completion report, a model number, or a sanctioned load that was never raised. Fix the controllable half first, then escalate the rest with a regulation cited by name.
+
+- **Identify your exact stage today.** Match your portal status to the ten stages above, then confirm what the next party actually needs from you. The [application walkthrough](/blog/how-to-apply-net-metering-india/) and the [PM Surya Ghar status check guide](/blog/pm-surya-ghar-status-check/) cover the portal mechanics.
+- **Audit your document set against the approval.** Model numbers, serial numbers, and capacity must match exactly. Use an [empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) and size the array against sanctioned load with our [string sizing calculator](/string-sizing-calculator/).
+- **Get your inverter documentation in order before inspection.** Download the specification sheets for your [on-grid inverter](/on-grid-inverter/), and [contact Qbits](/contact-us/) for datasheets and model confirmation on a Qbits unit. Application status and the official timetable remain with your portal and DISCOM.

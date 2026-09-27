@@ -193,8 +193,6 @@ The Electricity Act 2003 is the statutory foundation of the Indian electricity s
 
 ## Need legal-aware solar project structuring?
 
-QBits Energy advises C&I customers and developers on solar project structures under the Electricity Act 2003 framework, including open access, captive generation and net metering.
-
 ## Further reading
 
 For how Electricity Act 2003 plays out in real projects, these guides go deeper:

@@ -72,8 +72,6 @@ Miss any of those lines and the bid is wrong. The procurement team back-orders p
 
 SurgePV treats the design canvas as the single source of truth. Every object on the canvas carries the catalog rules that govern its quantity. When the design changes, the BOQ changes.
 
-The flow is straightforward. The estimator builds the roof with [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from a satellite image. [Clara AI](https://surgepv.com/clara-ai) lays the module array and routes the DC strings. The 70,000-module and 12,000-inverter hardware catalog, which includes Qbits' [on-grid](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) lines, gives every component its real dimensions, weight, and electrical rating. The [8,760-hour shade analysis](https://surgepv.com/shadow-analysis) (our own [shading analysis guide](/blog/solar-shading-analysis-software/) covers the methodology) and the [solar financial modeling](https://surgepv.com/generation-financial-tool) run against the same canvas, so the yield numbers and the BOQ never drift apart.
-
 When the design is locked, the platform writes the BOQ. Modules come from the array. Rail length comes from the row geometry. Clamp count comes from module count plus end clamps per row. DC cable length comes from the routed [string paths](/blog/solar-string-sizing-software/) set during string sizing. AC cable length comes from the run from inverter to the service panel. Conduit follows the routed paths with a configurable fill factor. Labour follows the editable rate table.
 
 The result exports as a [branded solar proposal](https://surgepv.com/solar-proposals) PDF, an XLSX takeoff for the procurement team, and a [DXF/DWG export](https://surgepv.com/solar-autocad-integration) for the install crew. The whole bundle drops out of a single canvas inside the [solar design platform](https://surgepv.com/solar-designing).
@@ -146,7 +144,7 @@ A few honest recommendations based on the shape of the team.
 
 - Solo installer or two-person residential shop. Pick a tool with a fast residential flow and a clean proposal PDF. SurgePV Individual at 1,899 dollars per year fits if you also bid the occasional C&I roof.
 - Three to five person mixed residential and C&I team. SurgePV at 1,299 to 1,499 dollars per seat is the sweet spot. Auto-BOQ, shade, and DXF export are included on every seat.
-- Engineering-heavy C&I firm. SurgePV is the strongest fit because the design canvas, the shade engine, and the BOQ stay in sync, and the AutoCAD export feeds your detailers without a re-draw. Teams that still need a fully stamped drawing package can pair that export with a dedicated engineering services partner for the final documentation. For the inverter line itself, Qbits' [C&I solution](/c-i-solution/) is built around exactly this MPPT-and-string-count handoff.
+
 - Residential-only retail sales floor with light engineering. OpenSolar is a reasonable starting point, but most teams outgrow the BOQ depth within a year.
 - Utility-scale only. Use a dedicated utility-scale tool. SurgePV is built for residential and C&I rooftop and carport work up to multi-megawatt jobs.
 

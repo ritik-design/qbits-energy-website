@@ -255,7 +255,7 @@ Site survey is the foundation of any solar installation. It evaluates roof or la
 
 ## Need professional site survey for solar?
 
-QBits Energy conducts comprehensive site surveys for residential, [C&I](/c-i-solution/) and utility solar projects across India, with photographic documentation, shading analysis and feasibility reporting. [Get in touch](/contact-us/) to schedule a survey for your project.
+The retained Qbits documents do not establish a standard site-survey service, geographic coverage, deliverables or fee. [Contact Qbits](/contact-us/) to ask whether a survey is available for the project location and to obtain its scope, responsible party, price and deliverables in writing. Otherwise, appoint a qualified project designer or installer.
 
 ## Further reading
 

@@ -66,6 +66,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is customs duty on solar
 
 Basic Customs Duty (BCD) is the import tax applied to solar equipment entering India. The current 40 percent BCD on solar PV modules, imposed in April 2022, is a major Indian trade policy supporting domestic solar manufacturing, discussed in more depth in our [BCD and import duty guide for solar inverters](/blog/bcd-import-duty-solar-inverters-india/). Combined with Social Welfare Surcharge and IGST on imports, the total import burden adds approximately 50-65 percent to invoice value at landed cost.
@@ -205,13 +207,7 @@ Future BCD reviews likely as domestic capacity stabilises.
 | MNRE ALMM | Domestic listings |
 | PLI scheme guidelines | Manufacturing incentives |
 
-## Key takeaways
-
-Basic Customs Duty (BCD) on solar imports: 40% on modules, 25% on cells, 7.5% on inverters. Plus surcharge and IGST. Adds 50-65 percent over invoice value. Major driver of Indian solar manufacturing expansion under PLI scheme. ALMM-listed Indian modules avoid duty, supporting domestic supply chain. Project cost impact: 15-25 percent for imported-equipment projects.
-
 ## Need import-aware solar sourcing strategy?
-
-QBits Energy advises customers on ALMM-listed Indian module sourcing and customs-duty-optimised project structuring.
 
 ## Further reading
 

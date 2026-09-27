@@ -196,8 +196,6 @@ STC (Standard Test Conditions) are the laboratory reference for solar module rat
 
 ## Need STC-compliant module specifications?
 
-QBits Energy supplies ALMM-listed modules with verified STC ratings for residential, C&I and utility solar across India.
-
 ## Further reading
 
 For how STC plays out in real projects, these guides go deeper:

@@ -33,6 +33,8 @@ faqs:
     a: "MP's DISCOMs generally follow the standard PM Surya Ghar document set - Aadhaar, PAN, electricity bill, bank details, and property proof. Some MP DISCOMs additionally require a roof rights declaration for shared buildings or multi-unit structures. In rural MP, land records (khasra/khatoni) may be required in addition to or instead of a formal property deed. Your empanelled vendor operating in your district will know the current local requirements."
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 Madhya Pradesh's solar advantage is geography: the state sits in India's high-irradiance zone with 5.5 to 6.2 peak sun hours daily, matching Rajasthan in many districts. This means a 3 kW system in MP generates 15 to 20% more electricity than the same system in West Bengal or Kerala, improving both payback speed and financial returns. The [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy makes the already compelling MP solar case even stronger. This guide covers the MP-specific DISCOM structure, application process, and what the subsidy actually delivers for your location.
 
 > **TL;DR**
@@ -111,7 +113,7 @@ The [inverter overheating guide](/blog/inverter-overheating/) covers how to iden
 
 - **Wrong DISCOM selection**: With five DISCOMs in MP, applicants frequently select the wrong one. The consumer number will not validate under a mismatched DISCOM.
 - **Ignoring heat derating**: In MP's 45 °C summers, a standard inverter rated to 25 °C loses 10 to 20% of output. Verify the inverter's derating curve before purchasing.
-- **Non-ALMM components**: Verify both panels and inverter model numbers against the current [ALMM list](/blog/almm-list-phase-iii-guide/) at [mnre.gov.in/almm-list](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} - MP has growing local solar vendors with non-certified products.
+
 - **Undersizing system**: MP's excellent solar resource means [upsizing from 3 kW to 5 kW](https://surgepv.com/residential-solar-design/) is financially viable for larger roofs. The subsidy caps at 3 kW, but additional capacity generates significant bill savings.
 - **Not applying for net metering promptly**: Some MP applicants delay the net metering application, losing weeks of export income. The net metering request should be submitted by your vendor simultaneously with the installation completion report.
 
@@ -160,8 +162,6 @@ For the complete standard document checklist applicable in all MP DISCOMs, the [
 
 MP has reasonable vendor density in its major cities. Bhopal, Indore, and Jabalpur have the largest number of empanelled vendors visible on the PM Surya Ghar portal. Smaller towns like Ratlam, Shivpuri, and Tikamgarh typically have 3 to 8 vendors listed. Rural areas in districts like Panna, Sheopur, and Mandla may have limited vendor choice.
 
-If your area has fewer than 3 empanelled vendors listed on the portal, contact [Qbits authorised service partners](/authorized-service-partners/) to check coverage in your MP district before selecting a vendor. Always get 2 to 3 quotes when vendors are available, and verify ALMM compliance for every quoted panel and inverter model before signing.
-
 ## MP Net Metering: How MPERC Rules Affect Your Bill
 
 Under MPERC (Madhya Pradesh Electricity Regulatory Commission) net metering regulations, monthly surplus solar generation credits carry forward and are settled at year-end at the applicable export tariff.
@@ -196,12 +196,9 @@ MP's urban DISCOMs (particularly Indore and Bhopal) process applications faster 
 
 ## Where Qbits Fits in MP
 
-MP's high irradiance and high temperatures demand an inverter built for sustained high-output operation in extreme ambient conditions. Qbits TLS series on-grid inverters handle ambient temperatures up to 60 °C with IP66 protection against MP's dust storms, operate across 150 to 270V input range for rural DISCOM voltage swings, and carry ALMM Phase III listing for PM Surya Ghar compliance.
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: ALMM Phase III listed; appropriate for MP's PM Surya Ghar-subsidised installations.
-- **[Hybrid Inverters](/hybrid-inverter/)**: For MP districts with grid reliability concerns; HS series battery-ready.
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Optimise your string configuration for MP's high-irradiance conditions.
 
 For net metering procedures specific to your MP DISCOM, the [net metering complete guide](/blog/net-metering-india-complete-guide/) covers MP's regulatory framework and application steps. The [PM Surya Ghar documents guide](/blog/pm-surya-ghar-documents-required/) covers the complete checklist for MP applications. According to [IRENA's India Renewable Energy Statistics](https://www.irena.org/){target="_blank" rel="noopener"}, India's rooftop solar capacity crossed 18 GW in 2025 with MP among the fastest-growing states.
 
-For system sizing recommendations specific to your MP district and roof orientation, [talk to a Qbits engineer](/contact-us/) before finalising with a vendor.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

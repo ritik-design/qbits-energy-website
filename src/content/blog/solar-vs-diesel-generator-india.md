@@ -20,13 +20,13 @@ faqs:
   - q: "What is the minimum plant load for solar to make financial sense for a factory?"
     a: "A useful threshold is 30 kW of average daytime demand. Below this level, the fixed engineering and installation costs often push the payback period beyond seven years, which weakens the IRR case for most CFOs. Above 50 kW average daytime demand, payback periods of three to five years are common with C&I solar in India, and IRR typically lands between 18 and 27 percent - well above most industrial WACC benchmarks."
   - q: "Can a solar inverter run in parallel with a diesel generator?"
-    a: "Yes, provided the solar inverter is IEC 62116-certified for anti-islanding protection. An IEC 62116-compliant inverter detects when the DG set is supplying the microgrid and automatically synchronises or disconnects to prevent damage to the generator's alternator. Qbits inverters carry this certification. The hybrid solar-plus-DG configuration is the most common transition architecture for factories that cannot afford a full-day DG outage during the changeover period."
+    a: "Not by simply wiring them together. A grid-tied inverter expects a stable reference it can export into, and a diesel generator is a small isolated source that can be pushed into reverse power or into running below its minimum loading, both of which damage the set. A working arrangement needs a controller that limits solar output to the load so nothing feeds back into the generator, plus reverse-power protection and a minimum-loading floor for the set. Treat this as a designed installation and confirm that the exact inverter model supports generator or export-limited operation."
   - q: "Does solar work when the grid fails and the DG is off?"
     a: "An on-grid solar inverter shuts down automatically when the grid and the DG are both absent - this is the mandated anti-islanding behaviour under IEC 62116 and CEA regulations. A hybrid solar inverter with battery storage continues to supply loads during a grid outage without the DG. For facilities that need 24-hour uptime without DG fuel costs, the hybrid inverter plus battery bank is the correct architecture, not an on-grid-only system."
   - q: "Are there subsidies available for C&I solar that replace a diesel generator?"
     a: "Commercial and industrial solar installations above 10 kW do not qualify for PM Surya Ghar Muft Bijli Yojana residential subsidies. However, C&I buyers can claim 40 percent accelerated depreciation in the first year under Section 32 of the Income Tax Act, which delivers a significant cash-flow benefit in Year 1. Some state governments and industrial development corporations also offer capital subsidies or concessional loans. IREDA and SBI Green Bonds offer below-market financing that materially improves the project IRR."
   - q: "How do I handle Total Harmonic Distortion (THD) when replacing a DG with solar?"
-    a: "A diesel generator typically produces clean power with low THD. When you introduce solar inverters, the concern is the inverter injecting harmonics into your facility's bus - particularly problematic for Variable Frequency Drives (VFDs) and precision CNC machines. Specify an inverter with THD output below 3 percent at full load. Qbits C&I inverters are rated THD <3 percent and are validated for VFD loads, meaning no harmonic filtration upgrades are required in a standard industrial environment."
+    a: "Measure it rather than assume it. Grid-tied inverters are required to keep their own current distortion within the limits of the standard they are certified against, so the inverter is usually not the source of a THD problem. Distortion at a site more often comes from nonlinear loads such as drives and rectifiers, and a weak or generator-backed supply makes the resulting voltage distortion worse because the source impedance is higher. Take measurements at the point of common coupling before and after the change, ask for the current THD figure on the datasheet for the exact model, and treat filtering as a design decision based on the measurement."
   - q: "What is the typical payback period for a 50 kW C&I solar installation replacing a DG?"
     a: "For a 50 kW factory installation with a CAPEX of ₹22–25 lakh, annual savings against diesel of ₹15–18 lakh per year (based on 8 hours DG operation at current fuel prices), the simple payback is 1.5 to 2 years. If the factory also saves on grid tariff during solar hours, the blended payback including grid savings falls to 2.5–4 years. IRR over 25 years in this scenario typically runs between 22 and 27 percent."
   - q: "What happens to the diesel generator after solar is installed?"
@@ -35,6 +35,8 @@ faqs:
     a: "Under Section 32 of the Income Tax Act, solar power plants are classified as renewable energy equipment eligible for 40 percent accelerated depreciation in the first year of commissioning. For a ₹25 lakh system, this creates a ₹10 lakh depreciation deduction in Year 1. At a 25 percent corporate tax rate, the actual tax saving is ₹2.5 lakh in the first year alone - effectively reducing the net CAPEX and shortening the payback period by six to twelve months depending on the company's tax position."
 featured: false
 ---
+
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Every factory owner, hospital administrator, and school finance committee in India faces the same cold calculation at the end of each month: the diesel generator bill. At ₹86–90 per litre and a fuel efficiency of three to four kilowatt-hours per litre, a diesel generator set produces electricity at ₹18–22 per kWh, a cost that compounds relentlessly across 365 days and is entirely unhedgeable against OPEC decisions or rupee depreciation. Solar does not work that way. Once installed, the sun sends no invoices.
 
@@ -45,10 +47,6 @@ This post builds the definitive solar vs diesel generator comparison for Indian 
 > - The DG Displacement IRR Calculator nets DG fuel savings, O&M delta, and grid tariff savings against solar CAPEX, IRR typically lands at 18–47%.
 > - A worked 50 kW Tirupur factory example shows payback under seven months and 47% IRR when fully displacing an 8-hour daily DG load.
 > - Section 32 accelerated depreciation lets C&I buyers claim 40% of solar CAPEX in Year 1, worth roughly ₹2.5 lakh in tax savings on a ₹25 lakh system.
-> - Qbits C&I inverters are THD <3%, IEC 62116-certified for DG synchronisation, and rated for VFD and industrial harmonic loads.
-> - Most factories retain the DG as backup rather than removing it, run-hours typically fall from 6–10 hours/day to under 1 hour/day.
-
-> **Solar beats diesel the moment you commission the plant.** At ₹18–22/kWh for diesel-generated power versus ₹3–4/kWh for solar on a levelised 25-year basis, the spread is ₹14–18 per kWh, wide enough to deliver 18–27% IRR on a 50 kW C&I installation and a payback of under four years. The DG Displacement IRR Calculator quantifies exactly how much you are overpaying per litre, per day, per decade.
 
 The economics have never been clearer. What requires careful analysis is the transition architecture, specifically, how to displace the DG without compromising uptime during the changeover, how to handle [harmonics](/glossary/harmonics/) from VFD loads, and how to capture the full depreciation benefit in Year 1. Each of those questions has a specific, numbered answer.
 
@@ -125,7 +123,7 @@ Solar O&M is minimal compared to diesel:
 
 - **Cleaning:** ₹0.10–0.15/kWh (monthly panel cleaning, critical for dusty industrial environments)
 - **Inverter service:** ₹0.05–0.10/kWh (annual inspection, firmware updates)
-- **Monitoring subscription:** ₹0.02–0.05/kWh (if using a paid platform; Qbits AI WhatsApp monitoring is included in the inverter cost)
+
 - **Insurance and contingency:** ₹0.05–0.10/kWh
 
 Total solar O&M: ₹0.25–0.40/kWh. Compare this to ₹1–1.5/kWh for diesel maintenance alone.
@@ -233,8 +231,6 @@ The concern is valid. Industrial loads inject [harmonics](/glossary/harmonics/) 
 - **IEC 62116 anti-islanding**: mandatory for any solar-plus-DG hybrid. The inverter must detect the DG bus and either synchronise or trip safely to prevent alternator damage. See our glossary entry on [anti-islanding protection](/glossary/anti-islanding/) for the full technical explanation.
 - **Wide voltage tolerance**: industrial feeders in India swing from 180 V to 270 V depending on DISCOM load. An inverter rated for 180–270 V continues generating through these swings rather than tripping offline.
 
-Qbits C&I inverters are rated THD < 3% at full load, carry IEC 62116 certification, and are validated for VFD loads in textile, food-processing, and pharmaceutical plant environments. The [inverter integration guide](/blog/solar-inverter-integration-in-india/) covers the commissioning checklist for industrial sites in detail.
-
 ### The DG synchronisation protocol
 
 When running solar in parallel with a diesel generator (the most common interim architecture), the sequence matters:
@@ -312,7 +308,7 @@ The question is not binary. The right answer depends on four site-specific varia
 
 ## Common Mistakes When Switching from Diesel to Solar
 
-The financial case is clear. The implementation mistakes are where money is lost. These are the errors Qbits engineers encounter most frequently on C&I sites:
+The financial result depends on project inputs and implementation. The following common C&I errors are a review checklist, not claimed Qbits field-frequency data:
 
 - **Undersizing the inverter for future load growth**: A factory installing 50 kW solar today but planning a 30% production expansion in three years should specify a 65–75 kW inverter now. Inverter replacement is expensive and disruptive. Over-specifying the inverter by 20–30% is standard EPC practice for C&I buyers with growth plans. See our [solar inverter sizing guide](/blog/solar-inverter-sizing/) for the detailed methodology.
 
@@ -322,26 +318,19 @@ The financial case is clear. The implementation mistakes are where money is lost
 
 - **Skipping the net-metering application**: Even if the primary motivation is DG displacement, a net-metering connection allows export of surplus daytime generation to the grid, an additional revenue stream that improves the IRR by 2–4 percentage points. Many plant engineers skip this step to avoid DISCOM paperwork, leaving money on the table.
 
-- **No monitoring system for the hybrid DG-solar interface**: Without a monitoring system that tracks DG run-hours against solar generation, the plant cannot prove to its CFO that the DG displacement is occurring as modelled. AI-based monitoring (such as the WhatsApp-native system integrated into Qbits inverters) provides daily generation reports and DG displacement calculations without requiring a separate SCADA investment.
-
 - **Treating solar as a fire-and-forget installation**: Solar panels lose 0.3–0.5% efficiency per year from soiling in dusty industrial environments. A cleaning protocol (monthly in dusty zones, quarterly in clean zones) and annual inverter service are the minimum maintenance requirements. Our [inverter maintenance guide for India](/blog/inverter-maintenance-india/) covers the full O&M schedule.
 
 ## Where Qbits Fits in the Solar vs Diesel Decision
 
 C&I buyers replacing diesel generators need an inverter that does more than convert DC to AC. They need one that handles industrial harmonic environments, survives Indian grid volatility, is backed by a local warranty that actually delivers, and provides the fleet-level monitoring data their CFO will demand at the quarterly board meeting.
 
-Qbits C&I inverters are built specifically for this application:
+- **[Hybrid Inverters](/hybrid-inverter/)**: Review the exact model, battery and control documents. Automatic DG synchronisation without additional hardware is not established by the retained Qbits evidence.
 
-- **[C&I Solar Solutions](/c-i-solution/)**: On-grid and hybrid inverters from 30 kW to 100 kW+, THD < 3%, IEC 62116-certified, IP66 weather-sealed, ALMM-listed for subsidy-eligible projects.
-- **[Hybrid Inverters](/hybrid-inverter/)**: Battery-ready hybrid inverters for the solar-plus-DG transition architecture; automatic DG synchronisation without additional control hardware.
-- **[On-Grid Inverters](/on-grid-inverter/)**: For sites with reliable grid access; highest efficiency (98% peak) in the C&I segment; ALMM-compliant for accelerated depreciation claims.
-- **[Download Technical Datasheets](/download-datasheets/)**: Full specification sheets for all C&I SKUs including THD curves, VFD compatibility test reports, and grid tolerance ranges.
+- **[Download Technical Datasheets](/download-datasheets/)**: Start with the public specifications and request any THD curve, VFD compatibility report or grid evidence required for the exact SKU.
 
-The Qbits 12-year full replacement warranty is the clearest differentiator in the C&I segment, not a prorated repair warranty, but a full board-replacement commitment backed by a 72-hour RMA SLA. When a factory's production line depends on the inverter functioning correctly, "Built in India, backed in India, so when something goes wrong on a Tuesday afternoon, someone actually picks up the phone" is not a slogan. It is the operating agreement.
+Qbits warranty duration, remedy, RMA process, manufacturing origin and response time are not established until the relevant owners provide current written terms. A factory should place any required uptime, spares and response obligations in the project contract rather than infer them from brand copy.
 
-The [Qbits product range](/our-products/) covers installations from 30 kW single-phase factory feeders to 100 kW+ three-phase C&I deployments. The AI WhatsApp monitoring system provides daily generation reports, [IRR](/glossary/irr/) tracking, and anomaly alerts, the data layer that lets you prove the DG displacement case to your board without a separate monitoring subscription.
-
-If you are evaluating a DG displacement project or a new solar installation for a factory, school, or hospital, [talk to a Qbits C&I engineer](/contact-us/) to get a site-specific DG Displacement IRR Calculator run with your actual load profile and diesel consumption data. Most assessments come back within 48 hours, with a bankable financial model attached.
+If you are evaluating a DG displacement project, [send Qbits the measured load and fuel data](/contact-us/) and ask what analysis can be provided. Confirm the method, assumptions, reviewer, deliverable, timing, and commercial terms. Do not describe a preliminary model as bankable without lender and qualified professional review.
 
 ## The Verdict: Solar vs Diesel Generator in India
 

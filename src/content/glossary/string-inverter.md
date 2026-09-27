@@ -64,6 +64,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is a string inverter
 
 A string inverter is a centralised [solar inverter](/glossary/solar-inverter/) that converts the combined DC output of one or more series-connected strings of PV modules into AC. A string is a chain of modules wired positive to negative in a row, adding up their voltages. The inverter sees the sum of those voltages at the input and runs [MPPT](/glossary/mppt/) on the whole string at once.
@@ -94,8 +96,6 @@ Cost per installed watt. String inverters cost ₹2 to ₹6 per watt against ₹
 Field serviceability. One inverter on a wall is easier to swap than 20 microinverters on a roof. Mean time to repair is hours, not days.
 
 Scalability. The same architecture works from a 1 kW residential rooftop to a 100 MW utility plant. EPC standardisation lowers cost and trains a single workforce.
-
-Indian market fit. ALMM listing, BIS certification and DISCOM commissioning processes are built around string topology. Subsidy disbursement timelines under PM Surya Ghar assume a single inverter per system.
 
 ## How a string inverter works
 
@@ -161,10 +161,6 @@ Solar carports. Multiple 10 to 50 kW string inverters under each shade structure
 
 Agricultural pumping. Three-phase string inverters with VFD output for direct PV-to-pump operation under PM-KUSUM Component B and C.
 
-## Advantages of a string inverter
-
-Lowest cost per installed watt among grid-tie topologies. Simple installation with one inverter on a wall, fewer joints and fewer rooftop electronics. Easy diagnostics with all MPPT data centralised in one device. Mature supply chain and broad ALMM listings. High efficiency that has stayed within 1 to 2 percent of microinverters for the last five years. Standardised by the Indian DISCOM commissioning process.
-
 ## Limitations
 
 String-level optimisation. One shaded panel drags down the whole string. Mismatch losses from soiling, tilt or partial shade hit harder than on a panel-level system.
@@ -220,13 +216,9 @@ Plan DC oversize between 115 and 125 percent for Indian rooftops unless the inve
 
 ## Indian market context
 
-[ALMM listing](/glossary/almm-list/) is mandatory for any string inverter sold under PM Surya Ghar, MNRE programmes and state subsidies. [BIS certification](/glossary/bis-certification/) under IS 16221 and IS 17387 applies. CEA grid standards govern interconnection.
-
 Common string inverter brands in India include Sungrow, Solis, Goodwe, Growatt, Solax, Deye, Huawei, Sineng, Fronius, SMA, Tata Power Solar and Luminous; EPCs evaluating vendors can cross-check options against our [solar inverter manufacturers in India](/blog/solar-inverter-manufacturers-in-india/) evaluation guide, or source stock directly through Heaven Green Energy's solar inverter shop. Most three-phase utility-string inverters used in large plants are sourced from Sungrow, Sineng, Huawei and Solis as of 2026.
 
 CEIG approvals are needed for systems above 10 kW in many states, with the inverter forming a key part of the single-line diagram.
-
-ALMM was reinstated in April 2024 after a temporary suspension. Inverter ALMM list updates are issued by MNRE every few months. Always verify ALMM status on the day of subsidy claim.
 
 ## Standards and certifications
 
@@ -250,8 +242,6 @@ Ignoring temperature derate of Voc when sizing strings for Indian high-altitude 
 
 Skipping DC SPDs. Indian thunderstorm zones see lightning surges that fry inverter front ends.
 
-Buying an inverter that is not ALMM-listed, then losing PM Surya Ghar subsidy eligibility.
-
 Installing the inverter on a west-facing wall. The internal temperature rises, derate kicks in by 1 pm, and the user blames the panels for low afternoon yield.
 
 Forgetting to record string layouts on the system handover document. The first service visit takes twice as long.
@@ -259,10 +249,6 @@ Forgetting to record string layouts on the system handover document. The first s
 ## Key takeaways
 
 String inverters are the workhorse of Indian solar. They give the best cost per watt for unshaded, single-orientation roofs and for utility-scale plants. The trade-off is string-level mismatch sensitivity, which can be managed with MPPT count, careful string sizing, and DC optimisers when needed. Sizing, mounting and earthing decide whether the inverter delivers full rated yield for 12 years or trips intermittently for 2 years.
-
-## Looking for a string inverter?
-
-QBits Energy supplies BIS-certified, ALMM-listed string inverters from 3 kW residential to 350 kW utility-string. Reach out for a sizing study that matches your roof, your DISCOM rules and your DC oversize target.
 
 ## Further reading
 

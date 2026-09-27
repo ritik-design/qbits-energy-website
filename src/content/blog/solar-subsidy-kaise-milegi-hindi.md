@@ -20,7 +20,7 @@ faqs:
   - q: "Solar subsidy के लिए कौन eligible है?"
     a: "Domestic electricity connection वाले भारतीय नागरिक eligible हैं। Agricultural connection, commercial connection वाले eligible नहीं हैं। Renter (किरायेदार) apply नहीं कर सकते - घर का मालिक apply करे। पहले से central solar subsidy न ली हो।"
   - q: "Solar subsidy reject क्यों होती है?"
-    a: "Common rejection reasons: ALMM-non-compliant inverter या panels, wrong DISCOM selection, outdated electricity bill, bank account Aadhaar से linked नहीं, wrong consumer number। इन्हें apply से पहले verify करें।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
   - q: "Solar subsidy bank में कब आती है?"
     a: "DISCOM inspection clear होने के 20-30 दिन के बाद subsidy PFMS के through direct bank transfer होती है। Application से total time 45-90 दिन। Delay होने पर pm surya ghar portal पर grievance raise करें।"
   - q: "Solar subsidy के लिए कौन से documents चाहिए?"
@@ -30,8 +30,10 @@ faqs:
   - q: "State subsidy और central subsidy में क्या difference है?"
     a: "Central PM Surya Ghar subsidy ₹78,000 maximum है - यह MNRE देती है। State subsidy कुछ states में central के ऊपर additional amount देती है - जैसे Gujarat, Maharashtra, Rajasthan। State subsidy अलग portal/agency से process होती है।"
   - q: "ALMM क्या है - कैसे verify करें?"
-    a: "ALMM (Approved List of Models and Manufacturers) MNRE की certified solar components की list है। Verify करें: mnre.gov.in/almm-list/ पर inverter और panel model number search करें। Vendor से ALMM certificate माँगें। Non-ALMM से subsidy reject।"
+    a: "MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।"
 ---
+
+> **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
 
 Solar subsidy पाना complicated लगता है (लेकिन process को steps में समझें तो straightforward है। सबसे बड़ी problem यह है कि बहुत से लोग wrong information पर depend करते हैं) vendor की बात मान लेते हैं, document checklist नहीं देखते, और बाद में subsidy reject होती है। इस guide में हर step clear है।
 
@@ -152,7 +154,7 @@ Registration के बाद DISCOM का field engineer आपके घर v
 ### The 3-Point ALMM Vendor Check Framework
 
 **Check 1, ALMM Compliance**
-- Vendor जो inverter और panels propose करे, उनका model number [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"} पर verify करें
+
 - Non-ALMM components = No subsidy
 
 **Check 2, Multiple Quotes**
@@ -239,15 +241,12 @@ Over 25 साल: ₹250 × 12 × 25 = ₹75,000 extra income (inflation-adjust
 
 ## Qbits Se Kaise Milti Hai Help
 
-Qbits ALMM Phase III listed inverters हैं - PM Surya Ghar के लिए directly eligible। हमारे [authorized service partners](/authorized-service-partners/) India के major cities और districts में हैं।
-
-- **[On-Grid Inverters](/on-grid-inverter/)**: PM Surya Ghar subsidy eligible, ALMM listed
-- **[String Sizing Calculator](/string-sizing-calculator/)**: अपने roof का exact system size calculate करें
+- **[String Sizing Calculator](/string-sizing-calculator/)**: Use this as a preliminary screen. A qualified designer must verify the final string, protection and utility design.
 - **[PM Surya Ghar status check guide](/blog/pm-surya-ghar-status-check/)**: Application stuck? यहाँ देखें
 
 [IEA India energy data](https://www.iea.org/){target="_blank" rel="noopener"} के according, India का rooftop solar market 2030 तक $15 billion से ज्यादा का होगा। PM Surya Ghar ने इसे dramatically accelerate किया है।
 
-Solar subsidy process में कोई confusion हो, vendor selection में help चाहिए, या DISCOM process में guidance चाहिए - [Qbits engineer से बात करें](/contact-us/)। Free consultation, no obligation।
+[Qbits से संपर्क करें](/contact-us/) और exact model, site inputs तथा आवश्यक documents साझा करें। जवाब का scope, जिम्मेदार party, fees और समय submission के बाद लिखित में confirm करें।
 
 ## State-Wise Solar Subsidy Status 2026
 
@@ -297,7 +296,6 @@ Solar subsidy पर tax implications जानना जरूरी है:
 - **Solar depreciation**: Commercial properties में solar system पर 40% [accelerated depreciation](/glossary/accelerated-depreciation/) benefit available है।
 
 Tax advisor से अपनी specific situation consult करें। [Solar inverter depreciation guide](/blog/solar-inverter-depreciation-in-india/) में details हैं।
-
 
 Empanelled vendor chunne ki poori guide [solar installation kahan se karaye](/blog/solar-installation-kahan-se-karaye/) mein hai.
 

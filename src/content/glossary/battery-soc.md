@@ -66,6 +66,8 @@ faqs:
 author: "Nirav Dhanani"
 ---
 
+> **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
+
 ## What is battery SOC
 
 State of Charge (SOC) is the percentage of remaining usable energy in a battery relative to its rated capacity. 100 percent means fully charged. 0 percent means fully discharged. SOC is the most important real-time operating metric for any battery system, used by the [Battery Management System (BMS)](/glossary/bms/), inverter, energy management system and the user.
@@ -232,8 +234,6 @@ Audit BMS readings against actual delivered energy quarterly.
 
 ## Indian market context
 
-ALMM-listed inverters and IS 16893 batteries used in subsidised Indian solar systems typically include BMS with coulomb counting plus OCV recalibration.
-
 Hybrid inverter EMS strategies (self-consumption, time-of-use, backup-only) all use SOC as the primary decision input.
 
 Customer-facing apps from Sungrow, Solis, Goodwe, Tata Power Solar and others display SOC as the battery percentage.
@@ -268,8 +268,6 @@ Not auditing app SOC against actual delivered energy.
 SOC is the most important real-time battery metric. Modern BMS estimate SOC through coulomb counting plus OCV recalibration, often within a Kalman filter. Accuracy of 1 to 5 percent is achievable with proper hardware. SOC informs every inverter and EMS decision and protects the battery from damage. SOC is not the same as SOH, which measures long-term degradation.
 
 ## Need help with battery performance monitoring?
-
-QBits Energy provides BMS-integrated storage solutions with accurate SOC reporting for residential, C&I and utility-scale solar projects in India.
 
 ## Further reading
 

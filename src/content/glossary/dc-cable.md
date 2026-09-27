@@ -261,8 +261,6 @@ DC cable is specialised PV-rated cable carrying solar DC from modules to inverte
 
 ## Need quality solar DC cabling?
 
-QBits Energy supplies and installs IS 17048-compliant PV cabling for residential, C&I and utility solar projects across India.
-
 ## Further reading
 
 For how DC Cable plays out in real projects, these guides go deeper:

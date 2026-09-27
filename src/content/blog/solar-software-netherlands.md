@@ -169,4 +169,4 @@ The Dutch market has a dated regulatory cliff and most quoting tools are still o
 - **Model both periods.** Saldering to the end of 2026, supplier-set compensation after, with the assumed rate stated.
 - **Make hourly self-consumption the metric.** After 2027 annual kilowatt-hours stop predicting the customer's bill.
 - **Put storage in the main comparison.** It is where the remaining value is, and asserting the benefit will not close jobs.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Dutch address, or reach the Qbits team [here](/contact-us/) for inverter and battery specification against the finished design.
+

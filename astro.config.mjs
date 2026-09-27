@@ -1,6 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import { readdirSync, readFileSync, statSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import tailwindcss from '@tailwindcss/vite';
@@ -27,11 +27,16 @@ function buildLastmodMap() {
         const raw = readFileSync(path, 'utf8');
         const fm = raw.match(/^---\n([\s\S]*?)\n---/);
         if (fm) {
-          const re = new RegExp(`^${dateKey}:\\s*(\\S+)`, 'm');
-          const m = fm[1].match(re);
-          if (m) date = new Date(m[1]);
+          // A checkout/build timestamp is not evidence of a content update.
+          for (const key of ['updatedDate', dateKey]) {
+            const m = fm[1].match(new RegExp(`^${key}:\\s*["']?(\\d{4}-\\d{2}-\\d{2})`, 'm'));
+            if (m) {
+              const candidate = new Date(m[1]);
+              if (!isNaN(+candidate)) { date = candidate; break; }
+            }
+          }
         }
-        if (!date || isNaN(+date)) date = statSync(path).mtime;
+        if (!date || isNaN(+date)) continue;
       } catch { continue; }
       map.set(`${prefix}${slug}/`, date.toISOString());
     }
@@ -54,7 +59,7 @@ export default defineConfig({
     sitemap({
       changefreq: 'weekly',
       priority: 0.7,
-      filter: (page) => !page.includes('/search'),
+      filter: (page) => !['/search', '/brand-ambassador-preview', '/installations-preview'].includes(new URL(page).pathname.replace(/\/$/, '')),
       serialize(item) {
         // Higher priority for top-of-funnel landing pages
         if (item.url.match(/qbitsenergy\.com\/?$/)) item.priority = 1.0;

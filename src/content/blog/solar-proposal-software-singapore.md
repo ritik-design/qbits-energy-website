@@ -156,4 +156,4 @@ Singapore rewards proposals that are precise about what is contracted and honest
 
 - **Quote SCT as a number and ECIS as a range.** One is a fixed rate, the other is a wholesale market, and presenting them identically misrepresents the risk.
 - **Report AC rating, not just DC.** The 1 MWac threshold carries an estimated three to six month licensing timeline that frequently outweighs the extra capacity.
-- **Quote a live job in SurgePV before deciding.** [Book a free demo](https://surgepv.com/demo) and bring a real address, or reach the Qbits team [here](/contact-us/) for IEC-compliant inverter specification.
+

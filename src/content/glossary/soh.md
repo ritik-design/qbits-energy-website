@@ -200,8 +200,6 @@ SOH (State of Health) measures long-term battery degradation as percentage of or
 
 ## Need SOH-aware battery monitoring?
 
-QBits Energy supplies BMS-equipped LFP battery packs with accurate SOH reporting for residential, C&I and microgrid solar storage in India.
-
 ## Further reading
 
 For how State of Health plays out in real projects, these guides go deeper:

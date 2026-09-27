@@ -111,7 +111,7 @@ SurgePV at each team size is 40 to 60 percent cheaper with the proposal stack an
 3. Run a parallel quarter for new pipeline.
 4. Cancel HelioScope at renewal.
 
-For most engineering teams in 2026, SurgePV is the alternative that wins on simulation parity, scope, and per-seat cost at the same time. See the [best solar design software comparison](https://surgepv.com/compare/best-solar-design-software/) for the full field. Once the simulation numbers are settled, the next line item is hardware. EPCs specifying [on-grid inverters](/on-grid-inverter/) for the project can [talk to a Qbits engineer](/contact-us/) to confirm efficiency and warranty terms before the BOQ locks.
+[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
 
 <div class="inline-cta">
 <h3>Ready to drop the multi-tool stack?</h3>

@@ -9,19 +9,14 @@ const onGridProducts = products.filter(p => p.category === 'on-grid');
 const hybridProducts = products.filter(p => p.category === 'hybrid');
 
 const featureIcons: Record<string, string> = {
-  '12 Year Warranty': 'M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z',
-  '8 Year Warranty': 'M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z',
   'IP66 Weather Protection': 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
-  'AI WhatsApp Monitoring': 'M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z',
   'Wi-Fi/4G/Bluetooth': 'M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0',
   'Digital Warranty': 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z',
   '50V DC Start-up': 'M13 10V3L4 14h7v7l9-11h-7z',
   'Built-in DC/AC SPD': 'M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10',
   '90V-290V AC Range': 'M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z',
-  '100% DC Oversizing': 'M5 10l7-7m0 0l7 7m-7-7v18',
   '750W Panel Support': 'M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z',
   '98% Efficiency': 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z',
-  'BIS/IEC Certified': 'M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z',
   '120A Battery Charge/Discharge': 'M13 10V3L4 14h7v7l9-11h-7z',
   '2x Peak Power 15s': 'M3 21v-8a2 2 0 012-2h14a2 2 0 012 2v8M3 7v-2a2 2 0 012-2h14a2 2 0 012 2v2M3 7h18M9 14v2m6-2v2',
   'UPS Switching <10s': 'M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z',
@@ -40,7 +35,7 @@ const productListSchema = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   name: 'Qbits Solar Inverter Lineup',
-  description: 'Complete range of Qbits on-grid and hybrid solar inverters for residential, commercial, and industrial use across India.',
+  description: 'Explore Qbits on-grid and hybrid solar inverter families. Verify the exact model, application, documents and sale terms before selection.',
   numberOfItems: products.length,
   itemListElement: products.map((p, i) => ({
     '@type': 'ListItem',
@@ -60,7 +55,7 @@ const productListSchema = {
 
 <Layout
   title="Solar Inverters India - On-Grid & Hybrid | Qbits Energy"
-  description="Explore Qbits range of on-grid and hybrid solar inverters. From 1kW residential to 320kW commercial solutions. BIS certified, with a 12-year warranty up to 30 kW."
+  description="Explore Qbits range of on-grid and hybrid solar inverters. Compare residential and commercial on-grid and hybrid families. Check exact datasheets and written warranty terms."
   canonical="/our-products/"
 >
   <HeaderV2 />
@@ -82,7 +77,7 @@ const productListSchema = {
           Solar Inverters <span class="text-gradient">Built For India</span>
         </h1>
         <p class="mt-6 text-lg text-slate-400 max-w-3xl leading-relaxed mx-auto md:mx-0">
-          At Qbits Energy, we don't just make inverters - we design peace of mind. Built for Indian homes and businesses, our solar inverters deliver steady, efficient, and intelligent power in every condition. Whether it's your <a href="/residential-solution/" class="underline decoration-slate-600 hover:decoration-brand-400 hover:text-brand-400 transition-colors">cozy home</a>, busy office, or <a href="/c-i-solution/" class="underline decoration-slate-600 hover:decoration-brand-400 hover:text-brand-400 transition-colors">large industrial setup</a> - Qbits gives you clean energy, easy control, and lasting reliability.
+          Qbits publishes on-grid and hybrid solar inverter families for residential and commercial projects. Select a model from the grid connection, PV array, phase, environmental limits and any required battery-backed loads. For a <a href="/residential-solution/" class="underline decoration-slate-600 hover:decoration-brand-400 hover:text-brand-400 transition-colors">home</a>, office or <a href="/c-i-solution/" class="underline decoration-slate-600 hover:decoration-brand-400 hover:text-brand-400 transition-colors">industrial project</a>, verify the exact datasheet, current certificates, warranty, service terms and installation design.
         </p>
         <p class="mt-4 text-lg text-slate-400 max-w-3xl leading-relaxed mx-auto md:mx-0">
           Explore our range of <a href="/on-grid-inverter/" class="underline decoration-slate-600 hover:decoration-brand-400 hover:text-brand-400 transition-colors">On-Grid</a> and <a href="/hybrid-inverter/" class="underline decoration-slate-600 hover:decoration-brand-400 hover:text-brand-400 transition-colors">Hybrid</a> Solar Inverters, thoughtfully designed to make solar energy simpler and more rewarding.
@@ -98,6 +93,11 @@ const productListSchema = {
     </section>
 
     <!-- On-Grid Inverters -->
+    <section class="py-10 bg-slate-50" aria-labelledby="product-choice-heading"><div class="container-main max-w-5xl">
+      <h2 id="product-choice-heading" class="text-2xl font-bold text-slate-900">Compare the right inverter family</h2>
+      <p class="mt-3 text-slate-600">For utility-connected generation, start with the <a class="text-brand-600 underline" href="/on-grid-inverter/">on-grid range</a>. If selected loads need battery-backed operation during outages, compare the <a class="text-brand-600 underline" href="/hybrid-inverter/">hybrid range</a> and the approved battery arrangement. Check phase, AC rating, PV voltage/current and any backup output for the exact model.</p>
+      <p class="mt-3 text-slate-600">Use the <a class="text-brand-600 underline" href="/download-datasheets/">model datasheets</a> before purchasing. A family card may cover several SKUs with different MPPT counts or current limits. <a class="text-brand-600 underline" href="/contact-us/">Send Qbits your array layout, connection and load details</a> for a model-specific enquiry.</p>
+    </div></section>
     <section class="section-padding bg-white" aria-labelledby="ongrid-heading">
       <div class="container-main">
         <div class="text-center max-w-2xl mx-auto mb-16">
@@ -256,7 +256,7 @@ const productListSchema = {
       <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
       <div class="container-main relative text-center max-w-3xl">
         <h2 class="text-3xl sm:text-4xl font-bold mb-6">Need Help Choosing?</h2>
-        <p class="text-lg text-brand-100 mb-10">Our solar experts can recommend <a href="/string-sizing-calculator/" class="underline decoration-brand-200 hover:decoration-white transition-colors">the perfect inverter</a> for your <a href="https://heavengreenenergy.com/solar-epc/" class="underline decoration-brand-200 hover:decoration-white transition-colors">installation</a>. Get a free consultation today.</p>
+        <p class="text-lg text-brand-100 mb-10">Use the <a href="/string-sizing-calculator/" class="underline decoration-brand-200 hover:decoration-white transition-colors">preliminary string screen</a>, then request the current documents for the exact inverter. Confirm any advisory scope, fees and engineering responsibility before relying on a recommendation.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="/contact-us/" class="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-brand-600 shadow-lg hover:bg-brand-50 transition-all">Contact Sales</a>
           <a href="/download-datasheets/" class="btn-outline">Download Datasheets</a>

@@ -196,8 +196,6 @@ APPC (Average Pooled Cost) is the weighted-average procurement cost for a DISCOM
 
 ## Need APPC-aware solar economics?
 
-QBits Energy provides solar project economic analysis benchmarked against state-specific APPC for utility, C&I and residential applications.
-
 ## Further reading
 
 For how Average Pooled Cost plays out in real projects, these guides go deeper:

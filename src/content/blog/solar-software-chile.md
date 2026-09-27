@@ -173,4 +173,4 @@ Chile is a geography problem wrapped around an unusually forgiving tariff.
 - **Use site weather, always.** Four thousand kilometres of latitude makes a national dataset wrong nearly everywhere.
 - **Show the credit balance across twelve months.** Non-expiring accumulation is the scheme's best feature and most quotes never display it.
 - **Size to the load curve, but relax about modest oversizing.** The credit is below retail, though it banks rather than expiring.
-- **Run a real project before deciding.** [Book a free SurgePV demo](https://surgepv.com/demo) and bring a Chilean address, or reach the Qbits team [here](/contact-us/) for inverter specification against the finished design.
+

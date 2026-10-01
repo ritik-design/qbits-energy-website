@@ -171,8 +171,6 @@ CEA's National Electricity Plan provides the technical roadmap aligned with poli
 
 CEA is the technical authority of the Indian electricity sector. Its grid code, smart-meter regulations and construction standards apply to every solar plant connected to the grid. The body does not set tariffs or run subsidies but provides the engineering framework within which DISCOMs, generators and customers operate.
 
-## Need CEA-compliant solar engineering?
-
 ## Further reading
 
 For how CEA plays out in real projects, these guides go deeper:

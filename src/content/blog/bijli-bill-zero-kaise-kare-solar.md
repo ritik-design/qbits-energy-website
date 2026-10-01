@@ -6,7 +6,7 @@ category: "Educational"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "13 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-bijli-bill-zero-kaise-kare-solar.webp"
 author: "Akash Hirapara"
 keywords:
   - bijli bill zero kaise kare solar
@@ -31,6 +31,7 @@ faqs:
     a: "3 BHK घर का average consumption 300-500 units/month है (AC, fridge, washing machine के साथ)। इसके लिए 3-5 kW solar system चाहिए। PM Surya Ghar subsidy 3 kW तक है। 3 kW system से 350-500 units/month generate होती है - ज्यादातर बिल effectively zero हो जाता है।"
   - q: "क्या solar bill zero करने के लिए battery जरूरी है?"
     a: "Bill zero करने के लिए battery जरूरी नहीं है। Net metering में export credits रात के import को offset करते हैं। लेकिन power cut वाले areas में on-grid solar power cut में बंद हो जाता है - battery से backup मिलता है। Bill zero के लिए on-grid + net metering sufficient है।"
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।

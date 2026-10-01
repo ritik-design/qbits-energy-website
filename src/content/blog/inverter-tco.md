@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-05-08
 updatedDate: 2026-09-23
 readTime: "12 min"
-image: "/blog-images/inverter-tco.svg"
+image: "/og/blog-inverter-tco.webp"
 author: "Akash Hirapara"
 keywords:
   - total cost of ownership solar inverter

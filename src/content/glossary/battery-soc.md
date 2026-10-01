@@ -267,8 +267,6 @@ Not auditing app SOC against actual delivered energy.
 
 SOC is the most important real-time battery metric. Modern BMS estimate SOC through coulomb counting plus OCV recalibration, often within a Kalman filter. Accuracy of 1 to 5 percent is achievable with proper hardware. SOC informs every inverter and EMS decision and protects the battery from damage. SOC is not the same as SOH, which measures long-term degradation.
 
-## Need help with battery performance monitoring?
-
 ## Further reading
 
 For how Battery SOC plays out in real projects, these guides go deeper:

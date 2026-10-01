@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-09-23
 readTime: "10 min"
-image: "/blog-images/solar-inverter-lifespan.svg"
+image: "/og/blog-when-to-replace-solar-inverter.webp"
 author: "Keyur Rakholiya"
 keywords:
   - when to replace solar inverter

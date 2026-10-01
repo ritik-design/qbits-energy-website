@@ -207,8 +207,6 @@ PVsyst-based optimisation is standard for utility design.
 
 Clipping loss is the energy lost when DC array generation exceeds inverter AC rating. Counterintuitively, accepting moderate clipping (4-6 percent) is economically optimal in DC-oversized plants because it enables higher annual yield from shoulder hours. Indian DC/AC ratios of 1.20-1.35 balance clipping against capex and yield. Bifacial and tracker plants push toward 1.35-1.45. PVsyst-based optimisation determines the optimum ratio.
 
-## Need optimised DC/AC sizing for your solar plant?
-
 ## Further reading
 
 For how Clipping Loss plays out in real projects, these guides go deeper:

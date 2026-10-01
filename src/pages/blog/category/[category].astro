@@ -5,6 +5,7 @@ import HeaderV2 from '../../../components/HeaderV2.astro';
 import Footer from '../../../components/Footer.astro';
 import PageHeader from '../../../components/ui/PageHeader.astro';
 import { CATEGORY_CONTENT } from '../../../data/categoryContent';
+import { CATEGORY_SEARCH_META } from '../../../data/category-search-meta';
 
 export async function getStaticPaths() {
   const all = await getCollection('blog');
@@ -42,6 +43,7 @@ const { category, posts } = Astro.props as {
 const slug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const canonical = `/blog/category/${slug}/`;
 const content = CATEGORY_CONTENT[slug];
+const searchMeta = CATEGORY_SEARCH_META[slug];
 
 const formatDate = (d: Date) =>
   new Date(d).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -58,10 +60,8 @@ const faqSchema = content && content.faqs.length > 0 ? {
 ---
 
 <Layout
-  title={`${category} - Solar Inverter ${category} Articles | Qbits Energy`}
-  description={content
-    ? content.intro.slice(0, 155).trim()
-    : `All ${posts.length} Qbits Energy articles in the ${category} category - solar inverter ${category.toLowerCase()} content for buyers, installers, and dealers across India.`}
+  title={searchMeta?.title || `${category} Solar Guides`}
+  description={searchMeta?.description || `Explore Qbits ${category.toLowerCase()} guides and check the sources and assumptions for your solar project.`}
   canonical={canonical}
 >
   <HeaderV2 />

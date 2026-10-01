@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-04-08
 updatedDate: 2026-09-23
 readTime: "9 min"
-image: "/blog-images/ip65-vs-ip66-solar-inverters-weather-protection-guide.svg"
+image: "/og/blog-ip65-vs-ip66-solar-inverters-weather-protection-guide.webp"
 author: "Keyur Rakholiya"
 keywords:
   - ip65 vs ip66 solar inverter

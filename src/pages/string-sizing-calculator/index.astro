@@ -144,8 +144,8 @@ const DEFAULT_LOADS = [
 ---
 
 <Layout
-  title="Solar String &amp; Battery Sizing Calculator | Qbits"
-  description="Smart solar string sizing and hybrid battery sizing tool for Qbits inverters. Pick your module — Adani, Vikram Solar or Waaree, 550W to 715W — and your Qbits inverter to see the optimal MPPT string layout, voltage-window checks, DC/AC ratio and, in Hybrid mode, the recommended battery bank."
+  title="Solar Inverter String and Battery Sizing Calculator | Qbits"
+  description="Screen PV string voltage, per-MPPT current and hybrid battery assumptions using stored equipment data. Download inputs and results for exact-model engineering review."
   canonical="/string-sizing-calculator/"
 >
   <HeaderV2 />
@@ -259,6 +259,13 @@ const DEFAULT_LOADS = [
                 <p class="text-xs mt-1">Pick a panel &amp; inverter, then hit Calculate.</p>
               </div>
             </div>
+            <div id="calculation-actions" class="hidden mt-6 border-t border-slate-200 pt-5">
+              <p class="text-xs text-slate-500 mb-3">Preliminary calculation using stored data. Verify current model documents, site assumptions and approval requirements.</p>
+              <div class="flex flex-wrap gap-3">
+                <button id="download-calculation" type="button" class="rounded-lg border border-brand-600 text-brand-700 px-4 py-2 text-sm font-semibold">Download Calculation JSON</button>
+                <a id="review-calculation" href="/contact-us/" class="rounded-lg bg-brand-600 text-white px-4 py-2 text-sm font-semibold">Request a Technical Review</a>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -329,6 +336,8 @@ const DEFAULT_LOADS = [
 
 <script define:vars={{ PANELS, INVERTERS, DEFAULT_LOADS }}>
   var STC = 25;
+  var lastCalculation = null;
+  function invalidateCalculation() { lastCalculation = null; document.getElementById('calculation-actions').classList.add('hidden'); }
 
   // Rating thresholds.
   var CFG = {
@@ -706,6 +715,7 @@ const DEFAULT_LOADS = [
 
   // ── main calculate ──────────────────────────────────────────────────────────
   function calculate() {
+    invalidateCalculation();
     var panel = PANELS[+$('panel-select').value];
     var invObj = INVERTERS[+$('inverter-select').value];
     if (!panel || !invObj) return;
@@ -722,11 +732,24 @@ const DEFAULT_LOADS = [
     var sysLimit = invObj.maxDcV;
     var opt = optimizeMppt(num, invObj, panel, tMin, tMax, sysLimit);
     var all = getAllStringConfigs(panel, invObj, tMin, tMax, sysLimit);
+    lastCalculation = {
+      createdAt: new Date().toISOString(),
+      status: 'PRELIMINARY SCREEN; NOT AN APPROVED DESIGN',
+      source: 'Stored module and inverter dataset in the Qbits sizing tool; verify current document revisions',
+      inputs: { module: panel, inverter: invObj, totalModules: num, minimumModuleTemperatureC: tMin, maximumModuleTemperatureC: tMax, systemType: sysType },
+      result: opt,
+      batteryInputs: sysType === 'hybrid' ? { loads: domLoads(), depthOfDischargePct: +$('dod').value, backupDays: +$('backupDays').value, batteryToLoadEfficiencyPct: +$('batteryEfficiency').value } : null,
+      limits: ['Separate certified short-circuit-current limits are not stored; Isc uses the stored operating-current limit as a conservative screen', 'Verify PV power, system voltage, current design factors, cables, fuses and protection separately', 'Verify battery model, BMS protocol, discharge limits and utility requirements separately']
+    };
+    $('review-calculation').href = '/contact-us/?' + new URLSearchParams({ subject: 'Technical Documents', model: invObj.model, role: 'Solar Installer', from: '/string-sizing-calculator/' }) + '#lead-form';
+    $('calculation-actions').classList.remove('hidden');
+
 
     var box = $('results');
     var hybrid = (sysType === 'hybrid');
 
     var battery = hybrid ? computeBattery() : null;
+    lastCalculation.batteryResult = battery;
     var batteryHtml = hybrid ? batteryCardHtml(battery) : '';
 
     var pvHtml;
@@ -868,11 +891,21 @@ const DEFAULT_LOADS = [
   }
 
   // ── wire up ──────────────────────────────────────────────────────────────
+  document.querySelector('main').addEventListener('input', invalidateCalculation);
+  document.querySelector('main').addEventListener('change', invalidateCalculation);
+  $('download-calculation').addEventListener('click', function () {
+    if (!lastCalculation) return;
+    var file = new Blob([JSON.stringify(lastCalculation, null, 2)], { type: 'application/json' });
+    var href = URL.createObjectURL(file);
+    var link = document.createElement('a'); link.href = href; link.download = 'qbits-preliminary-string-calculation.json';
+    link.click(); setTimeout(function () { URL.revokeObjectURL(href); }, 1000);
+  });
   $('panel-select').addEventListener('change', renderChips);
   $('inverter-select').addEventListener('change', renderChips);
 
   [].slice.call(document.querySelectorAll('#sysType button')).forEach(function (btn) {
     btn.addEventListener('click', function () {
+      invalidateCalculation();
       sysType = btn.getAttribute('data-type');
       [].slice.call(document.querySelectorAll('#sysType button')).forEach(function (b) { b.classList.toggle('active', b === btn); });
       $('hybrid-section').classList.toggle('hidden', sysType !== 'hybrid');
@@ -887,9 +920,11 @@ const DEFAULT_LOADS = [
     var rows = [].slice.call($('loadRows').children);
     var idx = rows.indexOf(e.target.closest('.load-row'));
     if (idx < 0) return;
+    invalidateCalculation();
     loads = domLoads(); loads.splice(idx, 1); renderLoads();
   });
   $('addLoad').addEventListener('click', function () {
+    invalidateCalculation();
     loads = domLoads(); loads.push({ name: 'Custom load', w: 100, qty: 1, h: 2 }); renderLoads();
   });
 

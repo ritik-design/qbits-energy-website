@@ -4,44 +4,16 @@ import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import { getAuthorByName } from '../../data/authors';
+import { getGlossaryJourney } from '../../data/article-journeys';
+import { selectRelatedPosts } from '../../data/related-content';
 
 export async function getStaticPaths() {
-  const STOPWORDS = new Set([
-    'the', 'and', 'for', 'with', 'how', 'what', 'why', 'vs', 'is', 'in', 'of', 'a', 'an',
-    'to', 'on', 'best', 'top', 'guide', 'price', 'cost', 'india', 'solar', 'inverter', 'inverters',
-  ]);
-
-  function keywordSet(...groups) {
-    const words = new Set();
-    for (const text of groups) {
-      if (!text) continue;
-      for (const w of String(text).toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/)) {
-        if (w.length > 2 && !STOPWORDS.has(w)) words.add(w);
-      }
-    }
-    return words;
-  }
-
   const entries = await getCollection('glossary');
   const blogPosts = await getCollection('blog');
   const existingSlugs = new Set(entries.map((e) => e.id));
 
-  const sortedByDate = [...blogPosts].sort((a, b) => +new Date(b.data.date) - +new Date(a.data.date));
-
   return entries.map((entry) => {
-    const termWords = keywordSet(entry.data.term, ...(entry.data.keywords || []));
-
-    const scored = blogPosts
-      .map((post) => {
-        const postWords = keywordSet(post.data.title, ...(post.data.keywords || []));
-        let score = 0;
-        for (const w of termWords) if (postWords.has(w)) score++;
-        return { post, score };
-      })
-      .filter((s) => s.score > 0)
-      .sort((a, b) => b.score - a.score || +new Date(b.post.data.date) - +new Date(a.post.data.date));
-
-    const chosen = (scored.length > 0 ? scored.map((s) => s.post) : sortedByDate).slice(0, 3);
+    const chosen = selectRelatedPosts({ id: `glossary/${entry.id}`, data: { title: entry.data.term, category: entry.data.category, keywords: entry.data.keywords } }, blogPosts);
 
     const relatedPosts = chosen.map((p) => ({
       slug: p.id,
@@ -62,6 +34,7 @@ const { Content, headings } = await render(entry);
 const {
   term,
   title,
+  seoTitle,
   description,
   category,
   categorySlug,
@@ -76,6 +49,7 @@ const {
 } = entry.data;
 
 const authorProfile = getAuthorByName(author);
+const journey = getGlossaryJourney(entry.id, category);
 
 const relatedTerms = relatedTermsRaw.filter((r) => existingSlugs.has(r.slug));
 
@@ -84,8 +58,8 @@ const toc = headings.filter((h) => h.depth === 2);
 const canonicalUrl = `/glossary/${entry.id}/`;
 const siteUrl = 'https://qbitsenergy.com';
 const fullUrl = `${siteUrl}${canonicalUrl}`;
-const updatedIso = updatedDate ? new Date(updatedDate).toISOString() : new Date().toISOString();
-const updatedHuman = (updatedDate ? new Date(updatedDate) : new Date()).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+const updatedIso = updatedDate ? new Date(updatedDate).toISOString() : undefined;
+const updatedHuman = updatedDate ? new Date(updatedDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : null;
 
 // DefinedTerm schema
 const definedTermSchema = {
@@ -130,7 +104,6 @@ const articleSchema = {
   '@type': 'TechArticle',
   headline: title,
   description: description,
-  datePublished: updatedIso,
   dateModified: updatedIso,
   author: { '@type': 'Organization', name: 'Qbits Energy', url: siteUrl },
   publisher: {
@@ -145,7 +118,7 @@ const articleSchema = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl}>
+<Layout title={seoTitle || title} description={description} canonical={canonicalUrl}>
   <HeaderV2 />
 
   <script type="application/ld+json" set:html={JSON.stringify(definedTermSchema)} />
@@ -174,7 +147,7 @@ const articleSchema = {
               <span class="w-1.5 h-1.5 rounded-full bg-brand-400"></span>
               {category}
             </span>
-            <span class="text-xs text-slate-400">Updated {updatedHuman}</span>
+            {updatedHuman && <span class="text-xs text-slate-400">Updated {updatedHuman}</span>}
           </div>
 
           <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-[1.05] tracking-tight">{term}</h1>
@@ -294,7 +267,7 @@ const articleSchema = {
                     />
                   </a>
                   <div class="flex-1 min-w-0">
-                    <div class="text-xs uppercase tracking-wider text-brand-600 font-bold">Reviewed by</div>
+                    <div class="text-xs uppercase tracking-wider text-brand-600 font-bold">Written by</div>
                     <a href={`/authors/${authorProfile.slug}/`} class="text-base font-bold text-slate-900 hover:text-brand-600 transition-colors block mt-0.5">
                       {authorProfile.name} <span class="text-sm font-normal text-slate-500">· {authorProfile.role}</span>
                     </a>
@@ -319,11 +292,11 @@ const articleSchema = {
               <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-brand-600 via-brand-700 to-slate-900 p-6 text-white shadow-xl">
                 <div class="absolute -top-10 -right-10 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
                 <div class="relative">
-                  <span class="inline-block text-[10px] font-bold uppercase tracking-widest bg-white/15 px-2.5 py-1 rounded-full">Product Enquiry</span>
-                  <h3 class="mt-4 text-xl font-bold leading-tight">Need this for a real project?</h3>
-                  <p class="mt-2 text-sm text-white/85 leading-relaxed">Ask Qbits for the current datasheet and commercial documents for the model you are considering.</p>
-                  <a href="/contact-us/" class="mt-5 inline-flex items-center gap-2 bg-white text-brand-700 text-sm font-bold px-4 py-2.5 rounded-lg hover:bg-slate-100 transition">
-                    Talk To Sales
+                  <span class="inline-block text-[10px] font-bold uppercase tracking-widest bg-white/15 px-2.5 py-1 rounded-full">Next Step</span>
+                  <h3 class="mt-4 text-xl font-bold leading-tight">{journey.heading}</h3>
+                  <p class="mt-2 text-sm text-white/85 leading-relaxed">{journey.description}</p>
+                  <a href={journey.primaryHref} class="mt-5 inline-flex items-center gap-2 bg-white text-brand-700 text-sm font-bold px-4 py-2.5 rounded-lg hover:bg-slate-100 transition">
+                    {journey.primaryLabel}
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                   </a>
                 </div>
@@ -350,10 +323,10 @@ const articleSchema = {
 
               <div class="rounded-2xl ring-1 ring-slate-200 bg-white p-6">
                 <h4 class="font-bold text-slate-900">More resources</h4>
-                <p class="text-sm text-slate-500 mt-1">Browse Qbits inverters and downloads</p>
+                <p class="text-sm text-slate-500 mt-1">Continue with a relevant guide or definition</p>
                 <div class="mt-4 space-y-2">
-                  <a href="/our-products/" class="block text-sm font-semibold text-brand-600 hover:text-brand-700">Solar inverters →</a>
-                  <a href="/download-datasheets/" class="block text-sm font-semibold text-brand-600 hover:text-brand-700">Datasheets →</a>
+                  <a href={journey.secondaryHref} class="block text-sm font-semibold text-brand-600 hover:text-brand-700">{journey.secondaryLabel} →</a>
+                  <a href="/glossary/" class="block text-sm font-semibold text-brand-600 hover:text-brand-700">Solar definitions →</a>
                   <a href="/blog/" class="block text-sm font-semibold text-brand-600 hover:text-brand-700">Engineering blog →</a>
                 </div>
               </div>
@@ -369,11 +342,11 @@ const articleSchema = {
       <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[40rem] h-[40rem] bg-brand-500/20 rounded-full blur-3xl"></div>
       <div class="container-main relative py-20 lg:py-24">
         <div class="max-w-3xl mx-auto text-center">
-          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">Looking for high-performance {category.toLowerCase()}?</h2>
-          <p class="mt-5 text-base sm:text-lg text-slate-300 max-w-xl mx-auto">Explore Qbits Energy's range of residential, commercial and industrial inverter solutions - engineered for India.</p>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">{journey.heading}</h2>
+          <p class="mt-5 text-base sm:text-lg text-slate-300 max-w-xl mx-auto">{journey.description}</p>
           <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="/contact-us/" class="btn-primary text-sm py-3.5 px-8">Talk To An Engineer</a>
-            <a href="/our-products/" class="btn-outline text-sm py-3.5 px-8">Explore Products</a>
+            <a href={journey.primaryHref} class="btn-primary text-sm py-3.5 px-8">{journey.primaryLabel}</a>
+            <a href={journey.secondaryHref} class="btn-outline text-sm py-3.5 px-8">{journey.secondaryLabel}</a>
           </div>
         </div>
       </div>

@@ -229,8 +229,6 @@ Skipping clipping analysis in PVsyst simulation.
 
 DC oversizing connects more PV than inverter AC rating, raising yield and reducing LCOE. Indian utility solar uses 1.15 to 1.45 DC/AC ratio depending on technology. Bifacial and tracker plants benefit from higher ratios. The optimum balances clipping loss against shoulder-hour gain and inverter cost savings. PVsyst is the standard tool for optimisation.
 
-## Need DC oversizing optimisation for your solar project?
-
 ## Further reading
 
 For how DC Oversizing plays out in real projects, these guides go deeper:

@@ -5,7 +5,7 @@ description: "MNRE's inverter data localization rules under PM Surya Ghar requir
 category: "Policy"
 date: 2026-08-22
 readTime: "17 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-mnre-inverter-data-localization-rules.webp"
 author: "Keyur Rakholiya"
 keywords:
   - mnre inverter data localization

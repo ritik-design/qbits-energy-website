@@ -64,6 +64,7 @@ faqs:
   - q: "Are open-source BMS reliable?"
     a: "Some are well-engineered. For safety-critical applications, certified commercial BMS is recommended."
 author: "Nirav Dhanani"
+seoTitle: "Battery Management System (BMS): Functions and Solar Storage"
 ---
 
 ## What is a BMS
@@ -282,8 +283,6 @@ Disabling protection features to suppress nuisance trips.
 ## Key takeaways
 
 A BMS is mandatory for every lithium battery pack. It protects cells, balances voltages, estimates SOC and SOH, and communicates with the inverter. BMS quality directly affects pack safety, cycle life and user experience. Compatibility with the target inverter, CAN communication and firmware update support are the design choices that matter most.
-
-## Need BMS-validated battery solutions?
 
 ## Further reading
 

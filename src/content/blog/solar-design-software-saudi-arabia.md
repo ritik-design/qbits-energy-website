@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "11 min"
-image: "/blog-images/solar-design-software-saudi-arabia.svg"
+image: "/og/blog-solar-design-software-saudi-arabia.webp"
 author: "Keyur Rakholiya"
 keywords:
   - best solar design software saudi arabia

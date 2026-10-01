@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "9 min"
-image: "/blog-images/agrivoltaic-design-software.svg"
+image: "/og/blog-agrivoltaic-design-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - agrivoltaic design software
@@ -163,29 +163,3 @@ If your team also runs CRM and quoting workflows outside the design tool, pair S
 <a href="https://surgepv.com/demo" class="cta-btn" target="_blank" rel="noopener noreferrer">Book a Free Demo <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Or <a href="https://surgepv.com/pricing" target="_blank" rel="noopener noreferrer">see pricing</a> · <a href="https://surgepv.com/" target="_blank" rel="noopener noreferrer">explore the platform</a></p>
 </div>
-
-## Frequently Asked Questions
-
-**What is agrivoltaic design software?**
-Agrivoltaic design software is a solar design platform that models PV arrays co-located with active agriculture. It calculates panel height, row spacing for tractor access, ground irradiance for crops, and dual revenue streams from electricity and farming. SurgePV ships an agrivoltaic template on every paid plan, including 8,760-hour shading that reports both module yield and ground-level light transmission so agronomists and lenders can sign off on the same model.
-
-**Does SurgePV support agrivoltaic templates?**
-Yes. SurgePV ships a dedicated agrivoltaic template that defaults to elevated mounting, wider row pitch, and crop-row geometry. You can set tractor clearance, transparency between modules, and target ground irradiance. The engine then runs an 8,760-hour shading pass and outputs both kWh production and a monthly ground-light map. The template is included on every paid plan, from the $1,899/seat Individual tier through the $1,299/seat 5-User Team.
-
-**How does agrivoltaics affect crop yield?**
-Partial shading from PV reduces direct sunlight on crops, which often cuts yield for sun-loving crops like wheat by 5% to 15%. However, shade-tolerant crops like lettuce, berries, and forage grass frequently see equal or higher yields in agrivoltaic conditions because of cooler soil and reduced water loss. The right answer depends on crop, latitude, and panel transparency. SurgePV reports ground irradiance so agronomists can match the crop to the array.
-
-**What panel height is typical for agrivoltaic systems?**
-Typical clearance ranges from 2.1 metres for sheep grazing to 4.5 metres or higher for tractor and combine harvester access. European agrivoltaic regulations often mandate at least 2.1 metres minimum height to qualify for dual-use incentives. SurgePV lets you set custom mounting height, leg geometry, and tractor turning radius so the bill of materials and structural loads match the real farm equipment on site.
-
-**Can lenders fund agrivoltaic projects?**
-Yes, but lenders require bankable yield reports with P50, P75, and P90 scenarios plus a defensible irradiance model. SurgePV produces P50/P75/P90 reports using the same NREL SAM engine that lenders trust for utility-scale projects. The model accounts for elevated mounting losses, bifacial gains from crop reflectance, and tractor shading. The output PDF is the document you submit to the financier, no second tool required.
-
-**How much does agrivoltaic design software cost?**
-SurgePV pricing starts at $1,899 per user per year for the Individual plan, drops to $1,499 for a 3-User Team, and $1,299 for a 5-User Team. Enterprise is custom-quoted. Every paid tier includes the agrivoltaic template, Clara AI, 8,760-hour shading, AutoCAD export, and branded proposals. Aurora Solar is quote-based and publishes no list price, so the only fair comparison is our published number against your own written Aurora quote. What we can state flatly is our side: $1,299 per seat per year at the 5-User tier, flat, with the agrivoltaic feature set included rather than licensed separately.
-
-**Does agrivoltaic software handle tracker designs?**
-Yes. SurgePV models both single-axis and dual-axis trackers with agrivoltaic spacing. Trackers are particularly well-suited to agrivoltaics because tilt can be optimised through the day to balance crop light against panel yield. The platform supports smart-tracking strategies that prioritise ground irradiance during sensitive crop growth windows, then flip to maximum production at other times. The 8,760-hour engine reports both modes side by side.
-
-**Can I export agrivoltaic drawings to AutoCAD?**
-Yes. SurgePV exports DXF and DWG files directly from the design canvas. The export includes module layout, cable runs, combiner boxes, fence lines, and crop-row geometry. Civil engineers and structural drafters can open the file in AutoCAD or Civil 3D without reformatting. This removes the round-trip between PVsyst, HelioScope, and AutoCAD that traditional agrivoltaic workflows still require.

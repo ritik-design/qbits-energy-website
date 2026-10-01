@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-03-17
 updatedDate: 2026-07-08
 readTime: "14 min"
-image: "/blog-images/solar-inverter-monitoring-systems-in-india.svg"
+image: "/og/blog-solar-inverter-monitoring-systems-in-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter monitoring India

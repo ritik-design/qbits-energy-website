@@ -6,7 +6,7 @@ category: "Educational"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "14 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-hybrid-solar-inverter-up-bihar-hindi.webp"
 author: "Nirav Dhanani"
 keywords:
   - hybrid solar inverter up bihar hindi
@@ -31,6 +31,7 @@ faqs:
     a: "हाँ, hybrid solar भी net metering के लिए eligible है। Excess generation जब battery full हो और grid available हो, grid को export होती है। UPPCL और BSPHCL दोनों net metering enable करते हैं। Power cut में export नहीं होती - but battery में stored होती है। Net metering income on-grid से कम होगी power cut areas में।"
   - q: "UPPCL voltage fluctuation के लिए hybrid inverter में क्या spec चाहिए?"
     a: "UPPCL, खासकर rural और peri-urban areas में, voltage 170V से 265V के बीच swing करता है। Hybrid inverter की AC input range 150-270V होनी चाहिए - narrow range inverters nuisance trips करते हैं। India-grid-tuned firmware वाले inverters इस voltage range को reliably handle करते हैं।"
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।

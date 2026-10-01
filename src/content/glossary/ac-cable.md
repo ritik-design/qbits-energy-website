@@ -248,8 +248,6 @@ Mixing cable brands or grades in one run.
 
 AC cable carries inverter output to the distribution board and meter. Indian solar AC cabling uses PVC, XLPE or armoured cables sized per IS 732 ampacity tables and voltage drop targets (typically ≤ 2 percent). Quality of cable selection, termination and routing determines whether the AC system delivers reliably for 25 years. Proper colour coding, earthing and protection coordination complete the AC system design.
 
-## Need engineered AC cabling for your solar?
-
 ## Further reading
 
 For how AC Cable plays out in real projects, these guides go deeper:

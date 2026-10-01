@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "11 min"
-image: "/blog-images/aurora-vs-helioscope.svg"
+image: "/og/blog-aurora-vs-helioscope.webp"
 author: "Nirav Dhanani"
 keywords:
   - aurora vs helioscope

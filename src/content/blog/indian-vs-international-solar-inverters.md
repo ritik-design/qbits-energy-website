@@ -5,7 +5,7 @@ description: "Indian inverters now match international brands on quality while c
 category: "Buying Guide"
 date: 2026-03-20
 readTime: "12 min"
-image: "/blog-images/indian-vs-international-solar-inverters.svg"
+image: "/og/blog-indian-vs-international-solar-inverters.webp"
 author: "Nirav Dhanani"
 updatedDate: 2026-07-08
 keywords:

@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/solar-inverter-downtime.svg"
+image: "/og/blog-service-sla-crisis-solar.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar service sla india

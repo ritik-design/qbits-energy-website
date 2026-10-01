@@ -243,8 +243,6 @@ Treating SPD as a one-time install instead of consumable.
 
 SPDs are mandatory protection devices for Indian solar installations. Type 2 SPDs on both DC and AC sides protect against indirect lightning and switching surges. They wear out and must be replaced when end-of-life is indicated. Proper earthing is essential for SPD function. The cost of SPDs is negligible compared to the inverter and module investment they protect.
 
-## Need lightning-safe solar installation?
-
 ## Further reading
 
 For how SPD plays out in real projects, these guides go deeper:

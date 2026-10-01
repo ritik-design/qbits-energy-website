@@ -269,8 +269,6 @@ Not auditing PR trends for degradation.
 
 Performance Ratio is the quality grade of a solar plant. It strips weather and location out of the comparison, focusing on what fraction of available irradiance was converted to electricity. Indian utility plants target 78 to 82 percent PR at commissioning. Soiling, temperature, shading and equipment quality determine the actual figure. PR diagnostics identify specific loss mechanisms when actual falls short of expected.
 
-## Need PR-based plant performance assessment?
-
 ## Further reading
 
 For how Performance Ratio plays out in real projects, these guides go deeper:

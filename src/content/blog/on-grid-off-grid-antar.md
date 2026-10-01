@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "12 min"
-image: "/blog-images/on-grid-off-grid-antar.svg"
+image: "/og/blog-on-grid-off-grid-antar.webp"
 author: "Keyur Rakholiya"
 keywords:
   - on grid off grid antar
@@ -32,6 +32,7 @@ faqs:
   - q: "Net metering नहीं मिल रहा तो कौन सा system लें?"
     a: "अगर आपके state या DISCOM में net metering पर rok है, waiting long है, या सिर्फ gross metering मिल रहा है, तो export का फायदा कम हो जाता है। ऐसे में hybrid system में battery के जरिए self-consumption बढ़ाना ज्यादा फायदेमंद रहता है, क्योंकि जो unit आप खुद इस्तेमाल करते हैं वह ₹7 से ₹9 प्रति unit बचाती है, जबकि export credit अक्सर ₹3 से ₹5 प्रति unit ही मिलता है।"
 featured: false
+language: hi
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।

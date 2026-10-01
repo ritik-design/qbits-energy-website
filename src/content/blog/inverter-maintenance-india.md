@@ -5,7 +5,7 @@ description: "Use owner-safe and technician solar inverter maintenance checklist
 category: "Maintenance"
 date: 2026-03-22
 readTime: "10 min"
-image: "/blog-images/inverter-maintenance-india.svg"
+image: "/og/blog-inverter-maintenance-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter preventive maintenance schedule

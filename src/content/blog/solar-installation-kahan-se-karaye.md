@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "13 min"
-image: "/blog-images/solar-installation-kahan-se-karaye.svg"
+image: "/og/blog-solar-installation-kahan-se-karaye.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar installation kahan se karaye
@@ -33,6 +33,7 @@ faqs:
   - q: "Sasta quote lena galat hai kya?"
     a: "Sasta hona galat nahi hai, adhoora hona galat hai। Zyadatar sasta quote isliye sasta hota hai kyunki usmein earthing aur lightning arrestor, AC protection (MCB aur RCCB), net metering liaison, aur written warranty shamil nahi hoti। Do quotes ko compare karne se pehle line items barabar karein, phir dekhein ki actual difference kitna bacha। Aksar 20 percent ka difference 5 percent reh jaata hai, aur wo 5 percent warranty aur service ka hota hai।"
 featured: false
+language: hi
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।

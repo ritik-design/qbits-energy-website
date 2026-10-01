@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "22 min"
-image: "/blog-images/inverter-financing-options-in-india.svg"
+image: "/og/blog-solar-on-emi.webp"
 author: "Akash Hirapara"
 keywords:
   - solar inverter on emi

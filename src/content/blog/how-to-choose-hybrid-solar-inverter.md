@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
+image: "/og/blog-how-to-choose-hybrid-solar-inverter.webp"
 author: "Keyur Rakholiya"
 keywords:
   - how to choose hybrid solar inverter

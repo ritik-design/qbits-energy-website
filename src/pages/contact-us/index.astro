@@ -230,7 +230,7 @@ const systemSizes = [
                   const model = (params.get('model') || '').slice(0, 80);
                   if (model) form.elements.namedItem('model').value = model;
                   const from = params.get('from') || '';
-                  if (/^\/(?!\/)[a-zA-Z0-9/_\-.]*$/.test(from) && from.length <= 200) form.elements.namedItem('sourcePage').value = from;
+                  if (/^\/(?!\/)[a-zA-Z0-9/_\-.]*$/.test(from) && !/\/\.{1,2}(?:\/|$)/.test(from) && from.length <= 200) form.elements.namedItem('sourcePage').value = from;
 
                   const setSending = (sending) => {
                     btn.disabled = sending;

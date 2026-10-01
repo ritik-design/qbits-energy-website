@@ -143,17 +143,10 @@ export const CATEGORY_CONTENT: Record<string, CategoryContent> = {
     ],
   },
   'case-study': {
-    intro:
-      "Case Study articles document real solar installations across residential, commercial, and industrial sites in India — a Lucknow 3BHK hybrid system, a Chennai IT park, a Coimbatore school, a Rajkot cold storage facility, a Tirupur textile mill, and more. Each case study is grounded in one real project: the sizing rationale, the configuration chosen, the measured outcome, and what the EPC or facility owner learned along the way. Useful for EPCs benchmarking a proposal against a comparable real deployment, and for facility owners evaluating whether a similar system fits their site.",
+    intro: 'These articles are labelled planning scenarios for residential, commercial and industrial solar projects. They illustrate configuration choices, assumptions, calculations and questions for an EPC or facility owner. The scenarios are not verified Qbits deployments, customer testimonials or measured generation results. Use them to prepare a project brief, then obtain site data and exact equipment documents for the actual design.',
     faqs: [
-      {
-        q: 'Are these case studies based on real installations?',
-        a: "Yes, each one describes a specific project, its sizing rationale, and its real-world outcome rather than a hypothetical scenario.",
-      },
-      {
-        q: 'Do case studies include performance and payback data?',
-        a: "Where available, yes — yield figures, payback timelines, and any issues encountered during commissioning or operation are included.",
-      },
+      { q: 'Are these verified Qbits installation case studies?', a: 'No. The planning scenarios are illustrative. They do not establish a Qbits customer, installation, measured saving or operating result.' },
+      { q: 'Can a planning scenario be used in an EPC proposal?', a: 'Use it as a checklist of inputs and design questions. Replace every illustrative assumption with site data, approved calculations, equipment documents and the agreed project scope.' },
     ],
   },
   educational: {

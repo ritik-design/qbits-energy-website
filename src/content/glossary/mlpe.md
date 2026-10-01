@@ -220,8 +220,6 @@ SolarEdge and Tigo offer DC optimisers.
 
 MLPE encompasses microinverters and DC optimisers, providing panel-level optimisation, monitoring and safety in solar PV installations. Microinverters distribute full conversion at the panel; DC optimisers handle per-panel MPPT before central conversion. Indian market sees growing adoption in premium residential, particularly on shaded and complex rooftops. Cost premium of 30-100 percent over plain string is justified for sites where panel-level benefits matter.
 
-## Need MLPE-based premium rooftop solar?
-
 ## Further reading
 
 For how MLPE plays out in real projects, these guides go deeper:

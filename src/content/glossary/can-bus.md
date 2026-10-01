@@ -199,8 +199,6 @@ Domestic BMS developers (Inverted Energy, Battrixx) implement standard CAN proto
 
 CAN bus is the standard communication protocol between BMS and solar inverter in modern lithium-ion storage. Enables real-time data exchange of SOC, voltage, current, temperature and control commands. Indian hybrid inverter-battery integration relies on CAN compatibility lists. Verify protocol compatibility before procurement. Standard cabling, termination and protocol matching ensure reliable communication.
 
-## Need CAN-compatible storage integration?
-
 ## Further reading
 
 For how CAN Bus plays out in real projects, these guides go deeper:

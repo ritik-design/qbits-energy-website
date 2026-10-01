@@ -5,7 +5,7 @@ description: "Best solar design software UK 2026. SurgePV vs Aurora, OpenSolar, 
 category: "Solar Software"
 date: 2026-08-03
 readTime: "10 min"
-image: "/blog-images/solar-design-software-uk.svg"
+image: "/og/blog-solar-design-software-uk.webp"
 author: "Nirav Dhanani"
 updatedDate: 2026-08-03
 keywords:

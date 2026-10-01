@@ -5,7 +5,7 @@ description: Understand single vs dual MPPT solar inverters. Decide from roof or
 category: Technology
 date: 2026-06-05
 readTime: 9 min
-image: /blog-images/inverter-mppt.svg
+image: "/og/blog-dual-mppt-vs-single-mppt.webp"
 author: Keyur Rakholiya
 updatedDate: 2026-09-23
 keywords:

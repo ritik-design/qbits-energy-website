@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-07-23
 updatedDate: 2026-08-02
 readTime: "16 min"
-image: "/blog-images/microtek-vs-sukam-solar.svg"
+image: "/og/blog-microtek-vs-sukam-solar.webp"
 author: "Nirav Dhanani"
 keywords:
   - microtek vs sukam

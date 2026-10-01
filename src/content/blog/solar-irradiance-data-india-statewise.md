@@ -6,7 +6,7 @@ category: Industry
 date: 2026-06-05
 updatedDate: 2026-09-24
 readTime: 12 min
-image: /blog-images/solar-inverter-sizing.svg
+image: "/og/blog-solar-irradiance-data-india-statewise.webp"
 author: Keyur Rakholiya
 keywords:
 - solar irradiance data india statewise

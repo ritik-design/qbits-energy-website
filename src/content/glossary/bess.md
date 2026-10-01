@@ -214,8 +214,6 @@ State adoption: Karnataka, Maharashtra, Andhra Pradesh leading.
 
 BESS (Battery Energy Storage System) is grid-connected or behind-the-meter battery storage. Indian BESS market in early-to-mid growth phase, with 4 GWh SECI VGF tender driving initial pipeline. LFP dominates due to safety and lifecycle cost. Major Indian developers (Adani Green, ReNew, Tata, NTPC) building pipeline targeting 50+ GWh by 2030. Critical for high-renewable Indian grid evolution.
 
-## Need BESS solutions for your project?
-
 ## Further reading
 
 For how BESS plays out in real projects, these guides go deeper:

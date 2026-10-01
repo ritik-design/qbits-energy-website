@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "11 min"
-image: "/blog-images/solar-epc-india.svg"
+image: "/og/blog-unit-economics-indian-solar-installer.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar installer unit economics india

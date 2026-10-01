@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-09-24
 readTime: 13 min
-image: /blog-images/3kw-vs-5kw-vs-10kw-solar-inverters.svg
+image: "/og/blog-solar-inverter-price-guide.webp"
 author: Akash Hirapara
 keywords:
 - solar inverter price india

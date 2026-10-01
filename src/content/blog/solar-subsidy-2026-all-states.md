@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "14 min"
-image: "/blog-images/solar-subsidy-2026-all-states.svg"
+image: "/og/blog-solar-subsidy-2026-all-states.webp"
 author: "Akash Hirapara"
 keywords:
   - solar subsidy 2026 all states

@@ -237,8 +237,6 @@ Ignoring SECI, IREDA and NISE roles. Each owns part of the operational chain.
 
 MNRE is the central nervous system of Indian renewable energy. It writes the policy, runs the programmes, sets equipment standards and tracks the 500 GW target. Anyone touching subsidised, government-tendered or grid-connected renewable projects in India operates within the MNRE framework. Implementation runs through DISCOMs, state agencies and central PSUs.
 
-## Need help navigating MNRE schemes?
-
 ## Further reading
 
 For how MNRE plays out in real projects, these guides go deeper:

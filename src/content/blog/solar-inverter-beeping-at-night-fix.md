@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-09-24
 readTime: "12 min"
-image: "/blog-images/solar-inverter-noise.svg"
+image: "/og/blog-solar-inverter-beeping-at-night-fix.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter beeping at night

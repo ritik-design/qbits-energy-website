@@ -282,8 +282,6 @@ Setting charge controller to wrong chemistry profile.
 
 Lead acid is the legacy chemistry for cost-sensitive solar storage. Tubular flooded delivers 5 to 7 years of service at 50 percent DoD with proper maintenance. LFP has displaced lead acid in most new daily-cycling solar applications because of better lifecycle economics. Lead acid retains relevance in UPS standby, automotive starting and the lowest-cost rural off-grid segment.
 
-## Need help choosing between lead acid and lithium?
-
 ## Further reading
 
 For how Lead Acid Battery plays out in real projects, these guides go deeper:

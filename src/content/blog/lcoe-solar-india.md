@@ -6,7 +6,7 @@ category: "Industry"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "18 min"
-image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
+image: "/og/blog-lcoe-solar-india.webp"
 author: "Akash Hirapara"
 keywords:
   - lcoe solar india

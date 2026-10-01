@@ -6,7 +6,7 @@ category: Comparison
 date: 2026-06-05
 updatedDate: 2026-09-23
 readTime: 9 min
-image: /blog-images/indian-vs-international-solar-inverters.svg
+image: "/og/blog-sungrow-vs-growatt-comparison.webp"
 author: Nirav Dhanani
 keywords:
 - sungrow vs growatt

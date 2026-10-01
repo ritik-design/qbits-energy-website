@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-04-08
 updatedDate: 2026-07-08
 readTime: "12 min"
-image: "/blog-images/solar-epc-india.svg"
+image: "/og/blog-solar-epc-india.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar EPC India

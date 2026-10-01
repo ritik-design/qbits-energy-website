@@ -277,8 +277,6 @@ Skipping battery insurance.
 
 Lithium-ion batteries are the foundation of modern solar storage. LFP chemistry dominates Indian stationary storage because of safety, cycle life and cost. Pack-inverter compatibility, temperature management and DoD discipline decide whether the system delivers its rated life. Costs continue to fall, expanding the economic envelope for residential and C&I deployment.
 
-## Need a lithium storage solution?
-
 ## Further reading
 
 For how Lithium Ion Battery plays out in real projects, these guides go deeper:

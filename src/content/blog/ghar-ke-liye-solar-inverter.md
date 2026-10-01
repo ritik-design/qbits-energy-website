@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "12 min"
-image: "/blog-images/ghar-ke-liye-solar-inverter.svg"
+image: "/og/blog-ghar-ke-liye-solar-inverter.webp"
 author: "Keyur Rakholiya"
 keywords:
   - ghar ke liye solar inverter
@@ -32,6 +32,7 @@ faqs:
   - q: "क्या घर के लिए off-grid inverter लेना चाहिए?"
     a: "ज़्यादातर घरों के लिए नहीं। Off-grid inverter तब समझ आता है जब grid connection है ही नहीं, जैसे farmhouse, हिल area या नया plot। Off-grid में net metering नहीं मिलती, battery bank बड़ा चाहिए और PM Surya Ghar subsidy आमतौर पर grid-connected systems को मिलती है। Grid available हो तो hybrid बेहतर रास्ता है।"
 featured: false
+language: hi
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।

@@ -6,7 +6,7 @@ category: Policy
 date: 2026-06-05
 updatedDate: 2026-09-24
 readTime: 13 min
-image: /blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg
+image: "/og/blog-pm-surya-ghar-yojana-complete-guide.webp"
 author: Nirav Dhanani
 keywords:
 - pm surya ghar yojana

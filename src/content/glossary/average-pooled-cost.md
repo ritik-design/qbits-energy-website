@@ -194,8 +194,6 @@ CERC REC Regulations 2022 reference APPC for floor/forbearance.
 
 APPC (Average Pooled Cost) is the weighted-average procurement cost for a DISCOM's full power portfolio. Indian state APPCs: ₹4-5.5/kWh. Used for net metering credit valuation, REC pricing, PPA benchmarking and cross-subsidy calculation. Solar PPAs at ₹2.50-3 pull APPC down. Reference current state tariff order for actual value.
 
-## Need APPC-aware solar economics?
-
 ## Further reading
 
 For how Average Pooled Cost plays out in real projects, these guides go deeper:

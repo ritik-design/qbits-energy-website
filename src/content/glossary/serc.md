@@ -64,6 +64,7 @@ faqs:
   - q: "Which SERCs are considered consumer-friendly for solar?"
     a: "Maharashtra MERC, Karnataka KERC, Delhi DERC, Kerala KSERC and Rajasthan RERC are often cited as having clearer net metering frameworks."
 author: "Nirav Dhanani"
+seoTitle: "SERC: State Electricity Regulation and Solar Tariffs"
 ---
 
 ## What is a SERC
@@ -196,8 +197,6 @@ Each SERC publishes a Multi-Year Tariff Order, typically every 3 to 5 years, wit
 ## Key takeaways
 
 SERCs are the most consequential regulators for Indian rooftop and distributed solar. They set retail tariffs, net metering rules and RPO trajectories. State-specific variation is the norm. Anyone planning a solar project must read the local SERC tariff order and net metering regulation before commissioning.
-
-## Need help understanding your state SERC rules?
 
 ## Further reading
 

@@ -6,7 +6,7 @@ category: "Educational"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "13 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-ghar-mein-solar-panel-kaise-lagwayein.webp"
 author: "Nirav Dhanani"
 keywords:
   - ghar mein solar panel kaise lagwayein
@@ -31,6 +31,7 @@ faqs:
     a: "Rented house में solar panel लगाने के लिए मकान मालिक (house owner) की written consent जरूरी है। PM Surya Ghar subsidy के लिए application house owner के नाम पर होगी (उनकी electricity bill पर)। Tenant अपने नाम से directly subsidy नहीं ले सकता।"
   - q: "क्या solar panel खुद लगा सकते हैं (DIY)?"
     a: "Technically possible है लेकिन PM Surya Ghar subsidy के लिए DISCOM-empanelled vendor से installation mandatory है। DIY installation पर subsidy नहीं मिलेगी। Net metering भी authorized installation require करता है। Professional installation safety, warranty, और subsidy - तीनों ensure करती है।"
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।

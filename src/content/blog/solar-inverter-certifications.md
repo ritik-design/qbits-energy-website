@@ -5,7 +5,7 @@ description: "Guide to inverter certifications EPCs must verify in India: BIS re
 category: "Guide"
 date: 2026-04-04
 readTime: "10 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-solar-inverter-certifications.webp"
 author: "Nirav Dhanani"
 keywords:
   - inverter certifications India

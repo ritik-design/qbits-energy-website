@@ -283,8 +283,6 @@ Using nominal vs real LCOE inconsistently.
 
 LCOE is the lifetime cost of electricity from a solar plant, expressed in ₹ per kWh. Indian utility solar LCOE has collapsed from above ₹17 in 2010 to ₹2.5 to ₹3.5 in 2026. C&I rooftop runs ₹3.0 to ₹4.5. Residential with subsidy as low as ₹2.0 to ₹3.5. Capex, yield, WACC and degradation are the key drivers. LCOE is the foundation of PPA tariff discovery and customer economics.
 
-## Need bankable LCOE modelling for your solar project?
-
 ## Further reading
 
 For how LCOE plays out in real projects, these guides go deeper:

@@ -6,7 +6,7 @@ category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "16 min"
-image: "/blog-images/solar-inverter-components.svg"
+image: "/og/blog-what-is-solar-energy-india-beginners.webp"
 author: "Nirav Dhanani"
 keywords:
   - what is solar energy

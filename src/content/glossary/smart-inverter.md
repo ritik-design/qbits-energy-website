@@ -228,8 +228,6 @@ PM Surya Ghar residential under 10 kW: smart functions optional but capable.
 | IEC 61727 | Utility interface |
 | IEC TR 61850-90-7 | Smart inverter communication |
 
-## Need smart inverter configuration for your plant?
-
 ## Further reading
 
 For how Smart Inverter plays out in real projects, these guides go deeper:

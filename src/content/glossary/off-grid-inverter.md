@@ -67,6 +67,7 @@ faqs:
   - q: "What is the price of an off grid inverter in India?"
     a: "Approximate 2026 prices without battery: 1 kVA ₹10,000 to ₹18,000, 3 kVA ₹25,000 to ₹45,000, 5 kVA ₹50,000 to ₹85,000, 10 kVA ₹1,20,000 to ₹2,00,000. Lithium batteries add ₹40,000 to ₹70,000 per usable kWh."
 author: "Nirav Dhanani"
+seoTitle: "Off-Grid Inverter: Working, Battery Sizing and Uses"
 ---
 
 ## What is an off grid inverter
@@ -270,8 +271,6 @@ Forgetting to plan for expansion. An off grid site that runs a fridge today ofte
 ## Key takeaways
 
 An off grid inverter is the right choice when there is no grid, or when the grid is so poor that it is functionally absent. Costs are higher than on grid because batteries do most of the heavy lifting. Sizing must be honest, both at peak surge and across cloudy-day autonomy. Lithium iron phosphate has replaced lead acid as the default chemistry for serious off grid work. Maintenance is simpler than it used to be, but still more involved than a grid-tie installation.
-
-## Looking for an off grid inverter?
 
 ## Further reading
 

@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-09-23
 updatedDate: 2026-09-23
 readTime: "9 min"
-image: "/blog-images/solar-inverter-troubleshooting.svg"
+image: "/og/blog-solar-inverter-grid-overvoltage.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter grid over voltage error

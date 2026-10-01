@@ -1,0 +1,6 @@
+// Conceptual diagrams explain the existing guide, not the terminals of a specific SKU.
+export const articleDiagrams: Record<string, { src: string; alt: string; height: number; caption: string }> = {
+  'solar-inverter-wiring-diagram': { src: '/technical-diagrams/grid-connected-wiring.svg', alt: 'Conceptual grid-connected solar path from PV strings through DC protection, inverter, AC protection and the consumer board to the service meter and grid', height: 760, caption: 'Connection blocks only. Meter position, protection, earthing and terminal wiring must follow the exact equipment documents and DISCOM requirements.' },
+  'inverter-battery-connection-diagram': { src: '/technical-diagrams/battery-interface.svg', alt: 'Battery power reaches the inverter through specified DC protection; BMS communication uses a separate cable and interface', height: 550, caption: 'The BMS cable is separate from the power circuit. Do not use this conceptual diagram as a polarity, terminal or battery-bank connection instruction.' },
+  'solar-inverter-circuit-diagram': { src: '/technical-diagrams/inverter-blocks.svg', alt: 'Conceptual inverter stages: PV input, DC link, controlled switching bridge, output filter and AC connection', height: 655, caption: 'Internal functional blocks vary by model. This diagram is not a manufacturer circuit schematic or a repair instruction.' },
+};

@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-09-24
 readTime: "17 min"
-image: "/blog-images/solar-inverter-ka-rate.svg"
+image: "/og/blog-solar-inverter-ka-rate.webp"
 author: "Akash Hirapara"
 keywords:
   - solar inverter ka rate
@@ -34,6 +34,7 @@ faqs:
   - q: "Price list ke badle seller se kya maangein?"
     a: "Exact model code, rated power, phase, MPPT count, MPPT voltage window, maximum DC voltage, maximum DC input current, included accessories, line-wise GST rate aur HSN code maangein. Warranty term, exclusions aur claim route bhi likhit chahiye. Quote par date aur valid-until date honi chahiye, warna number verify nahi ho sakta."
 featured: false
+language: hi
 ---
 
 "Solar inverter ka rate kya hai" India mein sabse zyada poocha jane wala solar sawal hai. Lekin is sawal ka ek number wala jawab nahi hai, aur yeh problem supply ki nahi, definition ki hai. Wahi phrase chaar structurally different cheezon ko describe karta hai, aur log unko side by side rakh dete hain.

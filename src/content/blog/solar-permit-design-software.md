@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "9 min"
-image: "/blog-images/solar-permit-design-software.svg"
+image: "/og/blog-solar-permit-design-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar permit design software

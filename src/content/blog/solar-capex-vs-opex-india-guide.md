@@ -6,7 +6,7 @@ category: Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
+image: "/og/blog-solar-capex-vs-opex-india-guide.webp"
 author: "Akash Hirapara"
 keywords:
   - solar capex opex india

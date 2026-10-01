@@ -222,8 +222,6 @@ Government EV mission expansion supports feedstock.
 
 Second-life batteries are EV-retired packs (70-80 percent SOH) suitable for less-demanding stationary storage applications. 30-50 percent cost saving over new cells with 5-10 year additional service life. Indian market emerging through Lithion Power, ACE Green Recycling, Attero, BatX. Could supply 20-30 percent of Indian stationary storage by 2030. Quality processing and BMS retrofit are essential for safety and reliability.
 
-## Need second-life storage solutions?
-
 ## Further reading
 
 For how Second-Life Battery plays out in real projects, these guides go deeper:

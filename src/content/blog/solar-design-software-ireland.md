@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "11 min"
-image: "/blog-images/solar-design-software-ireland.svg"
+image: "/og/blog-solar-design-software-ireland.webp"
 author: "Keyur Rakholiya"
 keywords:
   - best solar design software ireland

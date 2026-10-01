@@ -6,7 +6,7 @@ category: Comparison
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "18 min"
-image: "/blog-images/inverter-financing-options-in-india.svg"
+image: "/og/blog-best-bank-solar-loan-india-2026.webp"
 author: "Akash Hirapara"
 keywords:
   - best solar loan india

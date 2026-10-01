@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-09-23
 readTime: "8 min"
-image: "/blog-images/3kw-solar-inverter-price-hindi.svg"
+image: "/og/blog-3kw-solar-inverter-price-hindi.webp"
 author: "Akash Hirapara"
 keywords:
   - 3kw solar inverter price hindi
@@ -25,6 +25,7 @@ faqs:
   - q: "3 kW quote compare karte waqt kya maangein?"
     a: "Exact model numbers, quantity, taxes, warranty, modules, mounting structure, cables, protection, earthing, labour, metering, portal work aur payment milestones ko alag line items mein maangein. Hybrid quote mein battery model aur usable capacity bhi likhi honi chahiye."
 featured: false
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

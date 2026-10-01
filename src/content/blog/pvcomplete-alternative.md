@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/pvcomplete-alternative.svg"
+image: "/og/blog-pvcomplete-alternative.webp"
 author: "Keyur Rakholiya"
 keywords:
   - pvcomplete alternative

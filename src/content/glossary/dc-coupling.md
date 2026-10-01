@@ -269,8 +269,6 @@ Treating DC coupling as one-and-done. Battery upgrades require compatibility rev
 
 DC coupling is the default architecture for new residential and small commercial solar-plus-storage systems. Higher efficiency, lower capex and simpler installation make it the right choice when designing from scratch. Battery compatibility, MPPT sizing and backup load planning are the design choices that decide whether the system delivers its potential.
 
-## Need a DC-coupled hybrid solar system?
-
 ## Further reading
 
 For how DC Coupling plays out in real projects, these guides go deeper:

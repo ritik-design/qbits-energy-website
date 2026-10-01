@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "11 min"
-image: "/blog-images/solar-shading-analysis-software-saudi-arabia.svg"
+image: "/og/blog-solar-shading-analysis-software-saudi-arabia.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar shading analysis software saudi arabia

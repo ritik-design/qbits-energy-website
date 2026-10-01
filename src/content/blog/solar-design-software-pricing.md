@@ -5,7 +5,7 @@ description: "Solar design software pricing in 2026 compared. SurgePV vs Aurora,
 category: "Solar Software"
 date: 2026-06-14
 readTime: "11 min"
-image: "/blog-images/solar-design-software-pricing.svg"
+image: "/og/blog-solar-design-software-pricing.webp"
 author: "Nirav Dhanani"
 updatedDate: 2026-07-08
 keywords:

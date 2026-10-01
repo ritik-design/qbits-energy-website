@@ -5,7 +5,7 @@ description: "MNRE has extended the ALMM List-II exemption for net-metering and 
 category: "Policy"
 date: 2026-07-18
 readTime: "18 min"
-image: "/blog-images/solar-inverter-certifications.svg"
+image: "/og/blog-almm-list-ii-exemption-net-metering-open-access.webp"
 author: "Nirav Dhanani"
 keywords:
   - almm list-ii exemption

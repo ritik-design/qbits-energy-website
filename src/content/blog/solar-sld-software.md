@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "8 min"
-image: "/blog-images/solar-sld-software.svg"
+image: "/og/blog-solar-sld-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar single line diagram software

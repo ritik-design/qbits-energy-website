@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/inverter-voltage-string-vs-mppt-in-solar-inverters.svg"
+image: "/og/blog-string-vs-microinverter.webp"
 author: "Keyur Rakholiya"
 keywords:
   - string vs microinverter

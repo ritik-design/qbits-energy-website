@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-08-02
 readTime: "18 min"
-image: "/blog-images/solar-for-farmhouse-india.svg"
+image: "/og/blog-solar-for-farmhouse-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar for farmhouse

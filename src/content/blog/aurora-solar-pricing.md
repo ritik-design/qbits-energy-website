@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "10 min"
-image: "/blog-images/aurora-solar-pricing.svg"
+image: "/og/blog-aurora-solar-pricing.webp"
 author: "Nirav Dhanani"
 keywords:
   - aurora solar pricing

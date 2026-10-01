@@ -243,8 +243,6 @@ Routing MC4 connections through standing water.
 
 MC4 is the industry-standard DC connector for solar PV, providing sealed weatherproof plug-and-socket connections rated 1000 to 1500 V DC and 30 A. Proper crimping with the manufacturer's tool, single-brand consistency, polarity discipline and protective caps on unused connectors determine whether connections last the project's 25-year design life. Loose or mixed-brand MC4 connectors are a leading cause of field failures.
 
-## Need quality MC4 termination for your solar?
-
 ## Further reading
 
 For how MC4 Connector plays out in real projects, these guides go deeper:

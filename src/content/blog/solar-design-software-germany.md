@@ -5,7 +5,7 @@ description: "Best solar design software Germany 2026. SurgePV vs PV*SOL, Aurora
 category: "Solar Software"
 date: 2026-08-03
 readTime: "11 min"
-image: "/blog-images/solar-design-software-germany.svg"
+image: "/og/blog-solar-design-software-germany.webp"
 author: "Nirav Dhanani"
 updatedDate: 2026-08-03
 keywords:

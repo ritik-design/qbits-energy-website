@@ -5,7 +5,7 @@ description: "How EPCs evaluate solar inverter reliability and quality: 9 indica
 category: "Buying Guide"
 date: 2026-05-08
 readTime: "15 min"
-image: "/blog-images/how-to-evaluate-solar-inverter-reliability.svg"
+image: "/og/blog-how-to-evaluate-solar-inverter-reliability.webp"
 author: "Keyur Rakholiya"
 updatedDate: 2026-07-08
 keywords:

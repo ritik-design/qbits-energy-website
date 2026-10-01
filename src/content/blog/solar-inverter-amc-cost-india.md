@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "18 min"
-image: "/blog-images/solar-inverter-amc-cost-india.svg"
+image: "/og/blog-solar-inverter-amc-cost-india.webp"
 author: "Akash Hirapara"
 keywords:
   - solar inverter amc cost

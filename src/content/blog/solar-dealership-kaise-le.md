@@ -29,6 +29,7 @@ faqs:
     a: "नहीं। Application review की शुरुआत है, dealership appointment नहीं। Territory, product scope, margin, credit, stock, service, support, targets और termination जैसी शर्तें approved written agreement में स्पष्ट होनी चाहिए।"
   - q: "Dealer और Distributor में क्या अंतर है?"
     a: "Dealer आम तौर पर local market में customers या installers को बेचने की योजना बताता है। Distributor wider downstream network, stock और fulfilment की योजना बताता है। Final अधिकार और जिम्मेदारियाँ केवल approved agreement तय करता है।"
+language: hi
 ---
 
 **Solar dealership लेने का सीधा तरीका** है कि पहले सही business role तय करें, फिर official partner form में सत्यापित जानकारी भरें। Qbits dealership के लिए form में `Dealer` चुनें। Company details, GST number, market plan, team, working capital और solar inverter experience की जानकारी पहले से तैयार रखें।

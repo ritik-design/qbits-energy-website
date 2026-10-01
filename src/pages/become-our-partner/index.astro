@@ -456,7 +456,8 @@ const yesNo = ['Yes', 'No'];
 
         if (crmOk || emailOk) {
           form.reset();
-          showStatus(SUCCESS_MESSAGE, true);
+          if (typeof window.gtag === 'function') window.gtag('event', 'lead_form_success', { form_id: 'partner-form', source_page: location.pathname });
+              showStatus(SUCCESS_MESSAGE, true);
         } else {
           throw new Error('Both CRM and email submission failed');
         }

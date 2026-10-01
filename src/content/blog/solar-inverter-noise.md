@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-05-07
 updatedDate: 2026-07-08
 readTime: "10 min"
-image: "/blog-images/solar-inverter-noise.svg"
+image: "/og/blog-solar-inverter-noise.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter noise india

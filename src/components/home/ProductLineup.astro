@@ -1,13 +1,14 @@
 ---
+import { productImageSizes } from '../../data/product-images';
 const products = [
-  { name: '1.5–4 kW TLS', type: 'residential', specs: 'Single Phase | 1 MPPT', eff: 'Up to 98%', image: '/homepage-new/1kw.webp' },
-  { name: '4–6 kW TLD', type: 'residential', specs: 'Single Phase | 2 MPPT', eff: 'Up to 98.1%', image: '/homepage-new/3kw.webp' },
-  { name: '4.2–6 kW TLS', type: 'residential', specs: 'Single Phase | 1 MPPT', eff: 'Up to 98.1%', image: '/homepage-new/5kw.webp' },
-  { name: '5–17 kW TLC', type: 'commercial', specs: 'Three Phase | 2 MPPT', eff: 'Up to 98.7%', image: '/homepage-new/10kw.webp' },
-  { name: '20–30 kW TLC', type: 'commercial', specs: 'Three Phase | 2 MPPT', eff: 'Up to 98.8%', image: '/homepage-new/25kw.webp' },
-  { name: '40–50 kW Plus', type: 'industrial', specs: 'Three Phase | 4 MPPT', eff: 'Up to 98.7%', image: '/homepage-new/50kw.webp' },
-  { name: '70–110 kW Pro', type: 'industrial', specs: 'Three Phase | 6 or 8 MPPT', eff: 'Up to 98.7%', image: '/homepage-new/110kw.webp' },
-  { name: '3–12 kW Hybrid', type: 'residential', specs: 'Single or Three Phase | Model-specific MPPT', eff: 'Up to 98%', image: '/homepage-new/hybrid.webp' },
+  { href: '/our-products/QB-1.5-4.0KTLS/', name: '1.5–4 kW TLS', type: 'residential', specs: 'Single Phase | 1 MPPT', eff: 'Up to 98%', image: '/homepage-new/1kw.webp' },
+  { href: '/our-products/QB-4-6KTLD/', name: '4–6 kW TLD', type: 'residential', specs: 'Single Phase | 2 MPPT', eff: 'Up to 98.1%', image: '/homepage-new/3kw.webp' },
+  { href: '/our-products/QB-4.6-6KTLS/', name: '4.2–6 kW TLS', type: 'residential', specs: 'Single Phase | 1 MPPT', eff: 'Up to 98.1%', image: '/homepage-new/5kw.webp' },
+  { href: '/our-products/QB-6-17KTLC/', name: '5–17 kW TLC', type: 'commercial', specs: 'Three Phase | 2 MPPT', eff: 'Up to 98.7%', image: '/homepage-new/10kw.webp' },
+  { href: '/our-products/QB-20-30KTLC/', name: '20–30 kW TLC', type: 'commercial', specs: 'Three Phase | 2 MPPT', eff: 'Up to 98.8%', image: '/homepage-new/25kw.webp' },
+  { href: '/our-products/QB-40-50KTLC-Plus/', name: '40–50 kW Plus', type: 'industrial', specs: 'Three Phase | 4 MPPT', eff: 'Up to 98.7%', image: '/homepage-new/50kw.webp' },
+  { href: '/our-products/QB-70-110KTLC-Pro/', name: '70–110 kW Pro', type: 'industrial', specs: 'Three Phase | 6 or 8 MPPT', eff: 'Up to 98.7%', image: '/homepage-new/110kw.webp' },
+  { href: '/hybrid-inverter/', name: '3–12 kW Hybrid', type: 'residential', specs: 'Single or Three Phase | Model-specific MPPT', eff: 'Up to 98%', image: '/homepage-new/hybrid.webp' },
 ];
 ---
 
@@ -40,13 +41,13 @@ const products = [
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5" id="lineup-grid">
       {products.map((product) => (
         <a
-          href="/our-products/"
+          href={product.href}
           class={`lineup-card group relative rounded-2xl bg-slate-50 border border-slate-100 p-5 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-500/5 hover:-translate-y-1 transition-all duration-500`}
           data-type={product.type}
         >
           <div class="aspect-[4/3] rounded-xl bg-gradient-to-br from-slate-100 to-slate-200 mb-4 overflow-hidden flex items-center justify-center">
             {product.image ? (
-              <img width="1920" height="1080" src={product.image} alt={product.name} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              <img width={productImageSizes[product.image]?.width} height={productImageSizes[product.image]?.height} src={product.image} alt={product.name} class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
             ) : (
               <div class="w-14 h-14 rounded-xl bg-slate-200 border border-slate-300 flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
                 <svg class="w-7 h-7 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -235,8 +235,6 @@ Most Indian premium rooftops choose microinverters (Enphase) over optimisers.
 
 DC optimisers are module-level devices providing per-panel MPPT and monitoring while pairing with a centralised string inverter. Architecture combines benefits of microinverters and string inverters. Cost premium of 30-50 percent over plain string limits adoption to premium applications with shading or monitoring needs. SolarEdge and Tigo are major brands. Indian adoption is limited but growing in premium residential.
 
-## Need DC optimiser solutions for your rooftop?
-
 ## Further reading
 
 For how DC Optimiser plays out in real projects, these guides go deeper:

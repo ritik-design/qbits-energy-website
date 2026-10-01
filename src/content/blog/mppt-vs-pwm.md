@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "15 min"
-image: "/blog-images/inverter-mppt.svg"
+image: "/og/blog-mppt-vs-pwm.webp"
 author: "Keyur Rakholiya"
 keywords:
   - mppt vs pwm

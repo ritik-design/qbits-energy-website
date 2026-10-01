@@ -6,7 +6,7 @@ category: "Case Study"
 date: 2026-06-05
 updatedDate: 2026-09-23
 readTime: "7 min"
-image: "/blog-images/solar-inverter-payback-period-in-india.svg"
+image: "/og/blog-case-study-jaipur-villa.webp"
 author: "Qbits Editorial"
 keywords:
   - Jaipur solar villa

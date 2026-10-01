@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "19 min"
-image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
+image: "/og/blog-solar-subsidy-tamil-nadu-2026.webp"
 author: "Akash Hirapara"
 keywords:
   - solar subsidy tamil nadu

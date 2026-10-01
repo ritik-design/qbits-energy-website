@@ -6,7 +6,7 @@ category: "Policy"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "13 min"
-image: "/blog-images/solar-inverter-commissioning-in-india.svg"
+image: "/og/blog-pm-surya-ghar-status-check.webp"
 author: "Nirav Dhanani"
 keywords:
   - pm surya ghar status

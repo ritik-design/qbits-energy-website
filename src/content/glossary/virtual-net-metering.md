@@ -59,6 +59,7 @@ faqs:
   - q: "Can I move VNM benefit to a new tenant?"
     a: "Only with a formal change in the beneficiary list, filed with the DISCOM."
 author: "Nirav Dhanani"
+seoTitle: "Virtual Net Metering: Shared Solar Credit Allocation"
 ---
 
 ## What is virtual net metering
@@ -246,8 +247,6 @@ Failing to update the agreement when ownership changes.
 ## Key takeaways
 
 Virtual net metering lets one solar plant share credits across multiple electricity accounts, solving the roof-load mismatch common in Indian buildings. State frameworks vary, with Delhi, Kerala, Karnataka, Maharashtra and Tamil Nadu having the most mature regulations. Coordination, allocation agreements and DISCOM administrative capacity decide whether a VNM project actually delivers.
-
-## Want VNM for your housing society or institution?
 
 ## Further reading
 

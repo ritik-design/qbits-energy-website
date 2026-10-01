@@ -6,7 +6,7 @@ category: "Comparison"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/qbits-vs-sungrow-vs-growatt.svg"
+image: "/og/blog-growatt-solar-inverter-review-india.webp"
 author: "Nirav Dhanani"
 keywords:
   - growatt solar inverter review

@@ -5,7 +5,7 @@ description: "2kW solar system cost breakdown: panels, inverter, GST minus subsi
 category: "Buying Guide"
 date: 2026-06-05
 readTime: "17 min"
-image: "/blog-images/solar-inverter-payback-period-in-india.svg"
+image: "/og/blog-2kw-solar-system-price-india.webp"
 author: "Akash Hirapara"
 updatedDate: 2026-07-08
 keywords:

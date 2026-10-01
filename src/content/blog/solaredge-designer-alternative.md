@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/solaredge-designer-alternative.svg"
+image: "/og/blog-solaredge-designer-alternative.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solaredge designer alternative

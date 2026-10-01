@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "8 min"
-image: "/blog-images/floating-solar-design-software.svg"
+image: "/og/blog-floating-solar-design-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - floating solar design software

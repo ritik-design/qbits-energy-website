@@ -5,7 +5,7 @@ description: Understand solar inverter overheating in India. Learn how thermal d
 category: Maintenance
 date: 2026-04-04
 readTime: 9 min
-image: /blog-images/inverter-overheating.svg
+image: "/og/blog-inverter-overheating.webp"
 author: Keyur Rakholiya
 keywords:
 - inverter overheating

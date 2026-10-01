@@ -223,8 +223,6 @@ Ignoring seasonal generation pattern.
 
 Tilt angle of solar panels should approximate site latitude for maximum annual energy. Indian installations use 10° to 25° fixed tilt. Bifacial favours latitude + 3 to 5°. Row spacing, wind load, parapet shading and dust shedding all interact with tilt choice. Tracker plants vary tilt continuously through the day.
 
-## Need tilt optimisation for your solar project?
-
 ## Further reading
 
 For how Tilt Angle plays out in real projects, these guides go deeper:

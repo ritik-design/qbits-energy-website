@@ -11,7 +11,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "indexnow": "node scripts/submit-indexnow.mjs --submit",
-    "indexnow:dry": "node scripts/submit-indexnow.mjs"
+    "indexnow:dry": "node scripts/submit-indexnow.mjs",
+    "test:seo": "node --experimental-strip-types --test tests/seo-journeys.test.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.6",

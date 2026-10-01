@@ -219,8 +219,6 @@ Annual IR thermography is standard O&M practice for utility and large [C&I plant
 
 Hot spots are localised excessive heating in solar cells caused by partial shading or defects forcing one cell into reverse bias. Bypass diodes limit hot spot damage but do not eliminate it. Modern modules pass IEC 61215 hot spot tests. Annual IR thermography during O&M detects developing hot spots. Microinverters and DC optimisers reduce hot spot risk through per-panel operation. Prevention through shading management, cleaning and bypass diode coverage is the practical approach.
 
-## Need hot spot detection for your solar plant?
-
 ## Further reading
 
 For how Hot Spot plays out in real projects, these guides go deeper:

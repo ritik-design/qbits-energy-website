@@ -304,8 +304,6 @@ Skipping initial commissioning baseline measurement.
 
 Module degradation is the gradual decline in solar output over time. Modern modules degrade 0.30 to 0.55 percent per year after a 1 to 2 percent initial LID. 25-year retention is 84 to 92 percent depending on cell technology. PID, LeTID and encapsulant ageing are the main controllable mechanisms. Tier-1 ALMM-listed modules with linear performance warranty are the safe choice for Indian solar projects.
 
-## Need help with module reliability for solar?
-
 ## Further reading
 
 For how Module Degradation plays out in real projects, these guides go deeper:

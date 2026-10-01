@@ -209,8 +209,6 @@ Real-world Indian residential RTE: 85-90 percent typical, a figure worth checkin
 
 Round-Trip Efficiency (RTE) measures the percentage of energy retrieved from battery storage relative to energy input. LFP system-level RTE: 85-92 percent for residential. Cell-level RTE higher than system-level due to PCS, BMS and thermal losses. Critical metric for storage economics and LCOS calculation. Temperature, C-rate, aging and quality affect RTE. Indian solar storage benefits from RTE optimisation through quality components and operating discipline.
 
-## Need high-RTE storage solutions?
-
 ## Further reading
 
 For how Round Trip Efficiency plays out in real projects, these guides go deeper:

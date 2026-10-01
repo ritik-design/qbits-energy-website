@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "10 min"
-image: "/blog-images/helioscope-vs-pvsyst.svg"
+image: "/og/blog-helioscope-vs-pvsyst.webp"
 author: "Nirav Dhanani"
 keywords:
   - helioscope vs pvsyst

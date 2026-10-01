@@ -6,7 +6,7 @@ category: "Technical"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "17 min"
-image: "/blog-images/east-west-roof-solar-design.svg"
+image: "/og/blog-east-west-roof-solar-design.webp"
 author: "Keyur Rakholiya"
 keywords:
   - east west solar design

@@ -6,7 +6,7 @@ category: Comparison
 date: 2026-06-05
 updatedDate: 2026-09-23
 readTime: 9 min
-image: /blog-images/3kw-vs-5kw-vs-10kw-solar-inverters.svg
+image: "/og/blog-single-vs-3-phase-inverter.webp"
 author: Keyur Rakholiya
 keywords:
 - single phase vs 3 phase inverter

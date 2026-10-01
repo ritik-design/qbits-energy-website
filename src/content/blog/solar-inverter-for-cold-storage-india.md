@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/solar-inverter-sizing.svg"
+image: "/og/blog-solar-inverter-for-cold-storage-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter for cold storage

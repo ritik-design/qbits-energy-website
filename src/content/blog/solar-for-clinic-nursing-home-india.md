@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "18 min"
-image: "/blog-images/solar-inverter-quality.svg"
+image: "/og/blog-solar-for-clinic-nursing-home-india.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar for clinic india

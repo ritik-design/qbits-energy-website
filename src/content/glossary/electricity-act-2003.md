@@ -191,8 +191,6 @@ Captive solar under Section 9 has grown significantly for C&I customers seeking 
 
 The Electricity Act 2003 is the statutory foundation of the Indian electricity sector. Net metering, RPO, open access, captive generation and the regulatory commission structure all derive from it. Solar developers, customers and EPCs operate within the framework the Act established. Amendments and pending amendments continue to refine the framework.
 
-## Need legal-aware solar project structuring?
-
 ## Further reading
 
 For how Electricity Act 2003 plays out in real projects, these guides go deeper:

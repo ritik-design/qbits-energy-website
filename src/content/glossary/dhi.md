@@ -202,8 +202,6 @@ PM Surya Ghar residential systems do not require DHI-specific data; GHI is suffi
 
 DHI is the diffuse sky-scattered solar irradiance, complementing DNI to make up GHI. Indian DHI ranges from 600 in dry regions to 950 in humid and monsoon-affected regions. DHI contributes 20 to 30 percent of POA irradiance for tilted PV. Bifacial yield, cloudy-day generation and daylighting design all depend on accurate DHI. Modern bankable yield modelling requires separate GHI, DNI and DHI inputs.
 
-## Need DHI-aware yield modelling?
-
 ## Further reading
 
 For how DHI plays out in real projects, these guides go deeper:

@@ -281,8 +281,6 @@ Treating TOPCon as a marketing label without verifying actual cell architecture.
 
 TOPCon is the dominant new-build cell technology from 2024 onward. Higher efficiency, lower temperature loss, lower [degradation](/glossary/degradation/) and better bifaciality make it the rational choice for any new Indian solar project where the 5 to 10 percent capex premium is acceptable. The Indian manufacturing transition is rapidly underway, with most ALMM additions now TOPCon.
 
-## Need ALMM-listed TOPCon modules?
-
 ## Further reading
 
 For how TOPCon Cell plays out in real projects, these guides go deeper:

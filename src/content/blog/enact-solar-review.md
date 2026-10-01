@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/enact-solar-review.svg"
+image: "/og/blog-enact-solar-review.webp"
 author: "Akash Hirapara"
 keywords:
   - enact solar review

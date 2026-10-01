@@ -256,8 +256,6 @@ Not signing net metering for Component C.
 
 PM-KUSUM is India's largest agricultural solar scheme with 35 GW target by 2026. Three components address decentralised solar plants on farm land, standalone solar pumps and grid-connected pump solarisation. Subsidies cover 60 percent of capex through central and state contributions. Component B leads adoption with over 3 lakh pumps installed. Component A and C face execution challenges around land aggregation and DISCOM coordination.
 
-## Need PM-KUSUM solar pump installation?
-
 ## Further reading
 
 For how PM-KUSUM plays out in real projects, these guides go deeper:

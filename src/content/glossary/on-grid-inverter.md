@@ -68,6 +68,7 @@ faqs:
   - q: "Do I need earthing for an on grid inverter?"
     a: "Yes. CEA regulations and IS 3043 require a dedicated earth electrode for the inverter chassis and a separate one for the PV array frame. Without proper earthing, residual current devices and surge protection will not work as intended."
 author: "Nirav Dhanani"
+seoTitle: "On-Grid Inverter: Working and Grid Connection Requirements"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

@@ -197,7 +197,7 @@ const hybridDocs = [
           data.submittedAt = new Date().toISOString();
 
           if (typeof window.gtag === 'function') {
-            window.gtag('event', 'generate_lead', { form_id: 'datasheet-bundle-form' });
+            window.gtag('event', 'form_submit', { form_id: 'datasheet-bundle-form' });
           }
 
           // Sync to Odoo CRM in parallel — non-blocking, doesn't affect the email-based UX below.
@@ -220,6 +220,8 @@ const hybridDocs = [
             const result = await res.json().catch(() => ({}));
             if (result.success === 'true' || result.success === true) {
               form.reset();
+              if (typeof window.gtag === 'function') window.gtag('event', 'lead_form_success', { form_id: 'datasheet-bundle-form', source_page: location.pathname });
+              if (typeof window.gtag === 'function') window.gtag('event', 'generate_lead', { form_id: 'datasheet-bundle-form' });
               showStatus(SUCCESS_MESSAGE, true);
             } else {
               throw new Error(result.message || 'Submission failed');

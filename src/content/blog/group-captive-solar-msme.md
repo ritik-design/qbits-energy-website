@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-07-23
 updatedDate: 2026-07-23
 readTime: "17 min"
-image: "/blog-images/group-captive-solar-msme.svg"
+image: "/og/blog-group-captive-solar-msme.webp"
 author: "Akash Hirapara"
 keywords:
   - group captive solar india

@@ -203,8 +203,6 @@ Cabinet design for solar storage includes thermal management for life extension.
 
 Calendar life is chronological battery aging regardless of cycling. LFP: 10-15 years at 25°C, reducing to 6-10 years at Indian summer 40°C cabinet temperatures. Combined with cycle life, determines total service. Indian solar storage benefits significantly from thermal management. Manufacturer warranties include calendar period; whichever expires first ends warranty.
 
-## Need calendar-life-aware battery sizing?
-
 ## Further reading
 
 For how Calendar Life plays out in real projects, these guides go deeper:

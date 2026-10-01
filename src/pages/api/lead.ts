@@ -179,7 +179,7 @@ export const POST: APIRoute = async ({ request }) => {
       ? data[field].replace(/[\u0000-\u001f\u007f]/g, '').slice(0, field === 'sourcePage' ? 200 : 80)
       : '';
   }
-  if (data.sourcePage && !/^\/(?!\/)[A-Za-z0-9/_-]*$/.test(data.sourcePage)) data.sourcePage = '';
+  if (data.sourcePage && (!/^\/(?!\/)[A-Za-z0-9/_.-]*$/.test(data.sourcePage) || /\/\.{1,2}(?:\/|$)/.test(data.sourcePage))) data.sourcePage = '';
 
   const formSource = data.source && SOURCE_IDS[data.source] ? data.source : 'contact-form';
   const isPartnerForm = formSource === 'partner-form';

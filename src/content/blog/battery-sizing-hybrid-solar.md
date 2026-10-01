@@ -6,7 +6,7 @@ category: Buying Guide
 date: 2026-06-05
 updatedDate: 2026-09-23
 readTime: 5 min
-image: /blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg
+image: "/og/blog-battery-sizing-hybrid-solar.webp"
 author: Keyur Rakholiya
 keywords:
 - hybrid inverter battery sizing

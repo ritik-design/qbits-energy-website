@@ -13,7 +13,7 @@
             Free Site Survey
           </span>
           <h2 id="quick-lead-heading" class="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
-            Tell us about your roof - we'll size the system.
+            Discuss an inverter requirement with Qbits.
           </h2>
           <p class="mt-5 text-base sm:text-lg text-slate-300 leading-relaxed">
             Share your project details so Qbits can review the enquiry. Confirm the responsible contact, response time and scope after submission; this form does not promise sizing, savings or partner availability.
@@ -23,13 +23,13 @@
               <svg class="w-5 h-5 mt-0.5 text-brand-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
               </svg>
-              Honest answer - even if Qbits isn't the right fit.
+              Confirm product fit and the current written supply terms.
             </li>
             <li class="flex items-start gap-3">
               <svg class="w-5 h-5 mt-0.5 text-brand-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
               </svg>
-              No spam, no follow-up sales calls without your permission.
+              Share the model or capacity and project location.
             </li>
             <li class="flex items-start gap-3">
               <svg class="w-5 h-5 mt-0.5 text-brand-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -66,13 +66,22 @@
               </select>
             </div>
           </div>
+          <div>
+            <label for="ql-role" class="block text-xs font-semibold text-slate-600 mb-1.5 uppercase tracking-wider">Your role (optional)</label>
+            <select id="ql-role" name="role" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm">
+              <option value="">Select your role</option>
+              <option>Solar Installer</option><option>EPC Company</option><option>System Integrator</option>
+              <option>Dealer</option><option>Distributor</option><option>Developer</option><option>O&amp;M Company</option>
+              <option>Home Owner</option><option>Commercial / Industrial Buyer</option>
+            </select>
+          </div>
           <!-- Honeypot -->
           <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
             <label>Don't fill: <input type="text" id="ql-website" name="website" tabindex="-1" autocomplete="off" /></label>
           </div>
-          <input type="hidden" name="subject" value="Quick site-survey request" />
+          <input type="hidden" name="subject" value="Product Inquiry" />
           <button type="submit" id="ql-submit" class="w-full rounded-xl bg-brand-600 hover:bg-brand-700 transition-all duration-300 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30">
-            <span data-ql-default>Request site survey</span>
+            <span data-ql-default>Send Inverter Enquiry</span>
             <span data-ql-sending class="hidden">Sending…</span>
           </button>
           <p id="ql-status" class="text-xs mt-1 hidden" role="status" aria-live="polite"></p>
@@ -88,7 +97,7 @@
 <script is:inline>
   (() => {
     const ENDPOINT = 'https://formsubmit.co/ajax/ritik@thestacc.com';
-    const SUCCESS_MESSAGE = 'Thanks! We will call you within one business day.';
+    const SUCCESS_MESSAGE = 'Thank you. Your inverter enquiry has been received. Confirm the next steps and availability with Qbits.';
     const ERROR_MESSAGE = 'Couldn\u2019t send your request. Please call +91 99791 92935.';
 
     const form = document.getElementById('quick-lead-form');
@@ -137,7 +146,7 @@
       data._captcha = 'false';
 
       if (typeof window.gtag === 'function') {
-        window.gtag('event', 'generate_lead', { form_id: 'quick-lead-form' });
+        window.gtag('event', 'form_submit', { form_id: 'quick-lead-form' });
       }
 
       // Sync to Odoo CRM in parallel — non-blocking, doesn't affect the email-based UX below.
@@ -159,6 +168,10 @@
         });
         const result = await res.json().catch(() => ({}));
         if (result.success === 'true' || result.success === true) {
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'generate_lead', { form_id: 'quick-lead-form' });
+            window.gtag('event', 'lead_form_success', { form_id: 'quick-lead-form', inquiry_type: 'Product Inquiry', visitor_role: data.role || '', source_page: '/' });
+          }
           form.reset();
           showStatus(SUCCESS_MESSAGE, true);
         } else {

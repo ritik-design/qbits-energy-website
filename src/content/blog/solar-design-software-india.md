@@ -5,7 +5,7 @@ description: "Best solar design software India 2026. SurgePV vs Aurora, HelioSco
 category: "Solar Software"
 date: 2026-08-03
 readTime: "11 min"
-image: "/blog-images/solar-design-software-india.svg"
+image: "/og/blog-solar-design-software-india.webp"
 author: "Nirav Dhanani"
 updatedDate: 2026-08-03
 keywords:

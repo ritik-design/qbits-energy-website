@@ -6,7 +6,7 @@ category: Technical
 date: 2026-07-23
 updatedDate: 2026-09-24
 readTime: 13 min
-image: /blog-images/inverter-battery-connection-diagram.svg
+image: "/og/blog-inverter-battery-connection-diagram.webp"
 author: Keyur Rakholiya
 keywords:
 - inverter battery connection

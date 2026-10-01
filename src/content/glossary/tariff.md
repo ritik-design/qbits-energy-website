@@ -205,8 +205,6 @@ CERC and SERCs coordinate tariff methodology through Forum of Regulators.
 
 Electricity tariffs in India vary by customer category, slab, voltage class and increasingly time of day. Residential tariffs ₹3-12/kWh across slabs. Commercial ₹7-10. Industrial ₹5.50-9. State-specific variation 50-100 percent. SERCs set tariffs annually. ToD tariffs increasingly implemented. Solar payback depends materially on retail tariff offset.
 
-## Need tariff-aware solar analysis?
-
 ## Further reading
 
 For how Tariff plays out in real projects, these guides go deeper:

@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/sunbase-review.svg"
+image: "/og/blog-sunbase-review.webp"
 author: "Akash Hirapara"
 keywords:
   - sunbase data review

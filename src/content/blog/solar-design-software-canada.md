@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "14 min"
-image: "/blog-images/solar-design-software-canada.svg"
+image: "/og/blog-solar-design-software-canada.webp"
 author: "Keyur Rakholiya"
 keywords:
   - best solar design software canada

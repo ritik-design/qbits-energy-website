@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "10 min"
-image: "/blog-images/enact-solar-alternative.svg"
+image: "/og/blog-enact-solar-alternative.webp"
 author: "Nirav Dhanani"
 keywords:
   - enact solar alternative

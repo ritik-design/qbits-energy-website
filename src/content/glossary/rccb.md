@@ -66,6 +66,7 @@ faqs:
   - q: "Are RCCBs BIS-certified?"
     a: "Yes. IS 12640-1 covers AC RCCBs. Manufacturer must hold BIS license."
 author: "Nirav Dhanani"
+seoTitle: "RCCB: Residual Current Protection in Solar Installations"
 ---
 
 ## What is an RCCB
@@ -235,8 +236,6 @@ Wrong number of poles for the supply configuration.
 ## Key takeaways
 
 RCCB is the life-safety device that detects earth leakage and trips before electric shock becomes fatal. 30 mA sensitivity is standard for personal protection. Type A for general residential, Type B for solar inverter installations. Monthly self-test and annual professional test are mandatory practices. CEA safety regulations require RCCB on all final AC circuits including solar.
-
-## Need life-safe solar AC distribution?
 
 ## Further reading
 

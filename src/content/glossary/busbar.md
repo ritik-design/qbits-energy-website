@@ -196,8 +196,6 @@ PM Surya Ghar accepts MBB modules that clear the [ALMM list](/blog/almm-list-pha
 
 Busbars collect current from solar cells and conduct it to module terminals. Modern multi-busbar (MBB) designs with 9-16 thin busbars deliver 1-3 percent efficiency gain over older 3-5 busbar designs. Indian ALMM-listed modules are predominantly 9BB-12BB. Emerging zero-busbar and SmartWire technologies offer further gains in premium and HJT cells. Busbar evolution is one of the steady contributors to solar cost reduction.
 
-## Need modern MBB solar modules?
-
 ## Further reading
 
 For how Busbar plays out in real projects, these guides go deeper:

@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/solar-proposal-software-australia.svg"
+image: "/og/blog-solar-proposal-software-australia.webp"
 author: "Akash Hirapara"
 keywords:
   - best solar proposal software australia

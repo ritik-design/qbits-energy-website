@@ -292,8 +292,6 @@ Ignoring cable management leading to early wear.
 
 EV chargers are the gateway to electric mobility, with Indian standards spanning Bharat AC-001 (3.3 kW two/three-wheelers), Type 2 AC (residential), Bharat DC-001 and CCS-2 (DC fast charging). Public infrastructure has grown to 23,000+ chargers across India. Solar integration through smart charging matches generation profile to EV consumption. FAME II and PM e-DRIVE drive deployment with subsidies and policy support.
 
-## Need solar-integrated EV charging?
-
 ## Further reading
 
 For how EV Charger plays out in real projects, these guides go deeper:

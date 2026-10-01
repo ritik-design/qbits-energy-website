@@ -238,8 +238,6 @@ Failure to photograph internal connections at commissioning.
 
 Junction boxes house electrical connections in sealed enclosures. PV module junction boxes integrate bypass diodes and MC4 cable exits. Field junction boxes provide splices and protection device housings. IEC 62790, IEC 60670 and IS standards govern quality. IP65 or better, UV stability, correct cable glands and proper earthing ensure 25-year service. Bypass diode reliability in module junction boxes is a known concern; choose modules with TUV-certified J-boxes.
 
-## Need quality junction box solutions?
-
 ## Further reading
 
 For how Junction Box plays out in real projects, these guides go deeper:

@@ -67,6 +67,7 @@ faqs:
   - q: "Are central inverters cheaper than string per watt?"
     a: "They were cheaper by 15 to 25 percent before 2020. By 2025 the price gap has shrunk to 5 to 10 percent, and many developers consider string the better lifecycle cost option."
 author: "Nirav Dhanani"
+seoTitle: "Central Inverter: How It Works and String Inverter Comparison"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
@@ -264,8 +265,6 @@ Choosing the lowest-cost central inverter without checking the O&M support footp
 ## Key takeaways
 
 Central inverters remain the dominant topology for very large Indian utility solar plants where CapEx and grid services matter more than serviceability. The 1500 V DC architecture and multilevel topology are now standard. The trade-off against string inverters is sharp: lower upfront cost and higher peak efficiency, against higher downtime per fault and worse MPPT mismatch tolerance. The right choice depends on plant size, terrain uniformity and O&M maturity.
-
-## Looking for utility-scale solar engineering?
 
 ## Further reading
 

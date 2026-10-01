@@ -191,8 +191,6 @@ CEIG drawing approval verifies string Voc compliance.
 
 Open Circuit Voltage (Voc) is the maximum voltage a solar module produces with no current flowing. Modern modules: 41-50 V at STC. Voc rises in cold weather: ~5 percent higher at 5°C than at STC. String Voc is bounded by inverter maximum DC input. Indian cold-temperature derating uses site-specific T_min. CEIG drawing approval verifies string sizing compliance.
 
-## Need Voc-aware string sizing?
-
 ## Further reading
 
 For how Open Circuit Voltage plays out in real projects, these guides go deeper:

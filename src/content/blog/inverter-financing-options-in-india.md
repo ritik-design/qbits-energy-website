@@ -5,7 +5,7 @@ description: "Complete solar inverter financing guide for India: EMI rates (9.5-
 category: "Buying Guide"
 date: 2026-05-06
 readTime: "12 min"
-image: "/blog-images/inverter-financing-options-in-india.svg"
+image: "/og/blog-inverter-financing-options-in-india.webp"
 author: "Akash Hirapara"
 updatedDate: 2026-07-08
 keywords:

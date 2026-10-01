@@ -60,6 +60,7 @@ faqs:
   - q: "Are central inverters used for reactive support?"
     a: "Yes. Utility-scale central inverters often serve as STATCOM-like reactive sources at the plant point of coupling."
 author: "Keyur Rakholiya"
+seoTitle: "Reactive Power: Meaning and Solar Inverter Power Factor"
 ---
 
 ## What is reactive power
@@ -260,8 +261,6 @@ Not specifying reactive capability in inverter purchase orders.
 ## Key takeaways
 
 Reactive power is what keeps AC voltage stable. Solar inverters can now serve as dynamic reactive sources, replacing capacitor banks and providing voltage support to distribution feeders. CEA Grid Code 2019 mandates the capability. Configuration at commissioning, plant-level coordination and firmware updates decide whether the capability is actually used.
-
-## Need help with inverter reactive configuration?
 
 ## Further reading
 

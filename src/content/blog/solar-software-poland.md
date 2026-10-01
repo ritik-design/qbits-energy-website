@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/solar-software-poland.svg"
+image: "/og/blog-solar-software-poland.webp"
 author: "Nirav Dhanani"
 keywords:
   - solar software poland

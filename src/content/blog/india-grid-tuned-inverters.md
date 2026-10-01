@@ -5,7 +5,7 @@ description: "Generic inverter firmware trips on India's 180–270V grid range a
 category: Technology
 date: 2026-06-05
 readTime: "16 min"
-image: "/blog-images/indian-vs-international-solar-inverters.svg"
+image: "/og/blog-india-grid-tuned-inverters.webp"
 author: "Keyur Rakholiya"
 keywords:
   - india grid tuned inverter

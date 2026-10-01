@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/helioscope-review.svg"
+image: "/og/blog-helioscope-review.webp"
 author: "Keyur Rakholiya"
 keywords:
   - helioscope review

@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/solarius-pv-review.svg"
+image: "/og/blog-solarius-pv-review.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solarius pv review

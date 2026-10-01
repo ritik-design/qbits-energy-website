@@ -242,8 +242,6 @@ Failing to bond GI conduit.
 
 Conduit protects and routes electrical cables in solar installations. Indian standards (IS 9537, IS 14930, IS 732) govern PVC, flexible and GI conduit selection. Rigid PVC dominates rooftop installations; HDPE underground; GI in industrial. Maintaining fill ratio, IP-rated cable glands and proper bonding ensures 25-year cable protection. Documentation on SLD enables future maintenance.
 
-## Need code-compliant solar cable routing?
-
 ## Further reading
 
 For how Conduit plays out in real projects, these guides go deeper:

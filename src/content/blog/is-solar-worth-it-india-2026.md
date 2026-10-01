@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-03-22
 updatedDate: 2026-09-23
 readTime: "10 min"
-image: "/blog-images/solar-inverter-payback-period-in-india.svg"
+image: "/og/blog-is-solar-worth-it-india-2026.webp"
 author: "Akash Hirapara"
 keywords:
   - is rooftop solar worth it in India

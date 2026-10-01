@@ -6,7 +6,7 @@ category: Policy
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "16 min"
-image: "/blog-images/solar-inverter-regulations-india-2026-bis-iec-compliance.svg"
+image: "/og/blog-bcd-import-duty-solar-inverters-india.webp"
 author: "Nirav Dhanani"
 keywords:
   - bcd on solar inverter

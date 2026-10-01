@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-03-22
 updatedDate: 2026-09-23
 readTime: "9 min"
-image: "/blog-images/solar-inverter-selection.svg"
+image: "/og/blog-how-to-choose-solar-inverter-for-home-india.webp"
 author: "Akash Hirapara"
 keywords:
   - how to choose a solar inverter for home

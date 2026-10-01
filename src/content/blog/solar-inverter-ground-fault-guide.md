@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "13 min"
-image: "/blog-images/solar-inverter-grounding.svg"
+image: "/og/blog-solar-inverter-ground-fault-guide.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter ground fault

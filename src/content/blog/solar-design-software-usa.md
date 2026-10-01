@@ -5,7 +5,7 @@ description: "Best solar design software USA 2026. SurgePV vs Aurora, HelioScope
 category: "Solar Software"
 date: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/solar-design-software-usa.svg"
+image: "/og/blog-solar-design-software-usa.webp"
 author: "Nirav Dhanani"
 updatedDate: 2026-08-03
 keywords:

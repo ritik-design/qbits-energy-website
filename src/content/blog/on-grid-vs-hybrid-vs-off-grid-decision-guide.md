@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "17 min"
-image: "/blog-images/on-grid-vs-hybrid-solar-inverters-roi.svg"
+image: "/og/blog-on-grid-vs-hybrid-vs-off-grid-decision-guide.webp"
 author: "Nirav Dhanani"
 keywords:
   - on grid vs hybrid vs off grid

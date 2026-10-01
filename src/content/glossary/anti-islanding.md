@@ -67,6 +67,7 @@ faqs:
   - q: "Are there exemptions from anti-islanding in India?"
     a: "No. All grid-connected solar inverters sold in India must comply with IEC 62116 or IS 17387, which embeds equivalent requirements."
 author: "Keyur Rakholiya"
+seoTitle: "Anti-Islanding Protection: Meaning and Inverter Checks"
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.

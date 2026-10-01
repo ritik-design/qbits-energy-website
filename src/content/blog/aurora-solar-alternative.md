@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "13 min"
-image: "/blog-images/aurora-solar-alternative.svg"
+image: "/og/blog-aurora-solar-alternative.webp"
 author: "Nirav Dhanani"
 keywords:
   - aurora solar alternative

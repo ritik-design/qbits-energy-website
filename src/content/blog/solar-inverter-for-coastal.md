@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "18 min"
-image: "/blog-images/ip66-inverters-india-s-climate-survival-guide.svg"
+image: "/og/blog-solar-inverter-for-coastal.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter coastal india

@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-06-05
 updatedDate: 2026-09-23
 readTime: "11 min"
-image: "/blog-images/solar-inverter-sizing.svg"
+image: "/og/blog-solar-string-sizing-ocp-india.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter string sizing

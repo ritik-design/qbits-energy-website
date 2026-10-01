@@ -6,7 +6,7 @@ category: "Maintenance"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "12 min"
-image: "/blog-images/solar-inverter-ki-life-hindi.svg"
+image: "/og/blog-solar-inverter-ki-life-hindi.webp"
 author: "Keyur Rakholiya"
 keywords:
   - solar inverter ki life hindi
@@ -33,6 +33,7 @@ faqs:
   - q: "Inverter replacement ka budget kitna rakhna chahiye?"
     a: "Ek moti guideline: har saal apni inverter cost ka lagbhag 8 se 10 percent side mein rakhein। 5 kW ka achha inverter ₹40,000 ka hai to saal ka ₹3,500 se ₹4,000 rakhne par 10 se 12 saal mein replacement fund taiyaar ho jaata hai। Replacement mein sirf unit ka daam nahi, ₹3,000 se ₹6,000 labour, mounting aur commissioning bhi jodna chahiye। Technology sasti hoti ja rahi hai, isliye yeh estimate aam taur par conservative rehta hai।"
 featured: false
+language: hi
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets expandable warranty बताते हैं, लेकिन universal duration, remedy, registration deadline, service SLA या exclusions तय नहीं करते। किसी headline claim पर भरोसा करने से पहले exact model और sale के current written terms लें।

@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "10 min"
-image: "/blog-images/solar-financial-modeling-software.svg"
+image: "/og/blog-solar-financial-modeling-software.webp"
 author: "Akash Hirapara"
 keywords:
   - solar financial modeling software

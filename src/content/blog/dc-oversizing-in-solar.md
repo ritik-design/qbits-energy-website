@@ -6,7 +6,7 @@ category: "Technology"
 date: 2026-04-08
 updatedDate: 2026-09-23
 readTime: "10 min"
-image: "/blog-images/dc-oversizing-in-solar.svg"
+image: "/og/blog-dc-oversizing-in-solar.webp"
 author: "Keyur Rakholiya"
 keywords:
   - dc ac ratio solar inverter

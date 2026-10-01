@@ -220,8 +220,6 @@ Cabinet design standards developing through IS 16893 framework.
 
 Thermal runaway is uncontrolled battery overheating leading to fire or explosion. LFP highly resistant (threshold 270°C); NMC more vulnerable (150-180°C). LFP dominant in Indian stationary storage due to safety. BMS protection, thermal management and proper cabinet design prevent occurrence. UL 9540A testing provides quantified fire risk assessment. Indian regulations through IEC 62619 / IS 16893 establish minimum safety.
 
-## Need thermally safe storage solutions?
-
 ## Further reading
 
 For how Thermal Runaway plays out in real projects, these guides go deeper:

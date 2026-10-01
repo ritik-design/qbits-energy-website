@@ -269,8 +269,6 @@ Buying without PID test certification for systems with grounded inverter.
 
 Monocrystalline is now the default cell technology for Indian solar. Mono PERC dominated 2020 to 2024; mono TOPCon dominates from 2024 onward; HJT serves the premium segment. ALMM listing, BIS certification, temperature coefficient and 30-year degradation profile are the key selection criteria. Annual cleaning matters more than the choice between PERC and TOPCon at most Indian sites.
 
-## Need ALMM-listed monocrystalline modules?
-
 ## Further reading
 
 For how Monocrystalline plays out in real projects, these guides go deeper:

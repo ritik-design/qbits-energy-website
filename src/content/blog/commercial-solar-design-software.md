@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-06-14
 updatedDate: 2026-07-08
 readTime: "11 min"
-image: "/blog-images/commercial-solar-design-software.svg"
+image: "/og/blog-commercial-solar-design-software.webp"
 author: "Nirav Dhanani"
 keywords:
   - commercial solar design software

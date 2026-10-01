@@ -194,8 +194,6 @@ Major Indian manufacturers run in-house flash testing during production.
 
 STC (Standard Test Conditions) are the laboratory reference for solar module ratings: 1000 W/m² irradiance, 25°C cell temperature, AM1.5G spectrum. Module nameplate Wp refers to STC. Real Indian operating conditions produce 10-20 percent less than STC due to higher temperatures. Translation from STC to operating performance requires temperature coefficient and irradiance scaling. STC enables global module comparison and forms the basis of warranty enforcement.
 
-## Need STC-compliant module specifications?
-
 ## Further reading
 
 For how STC plays out in real projects, these guides go deeper:

@@ -6,7 +6,7 @@ category: "Solar Software"
 date: 2026-08-03
 updatedDate: 2026-08-03
 readTime: "12 min"
-image: "/blog-images/energy-toolbase-review.svg"
+image: "/og/blog-energy-toolbase-review.webp"
 author: "Akash Hirapara"
 keywords:
   - energy toolbase review

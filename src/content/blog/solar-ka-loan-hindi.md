@@ -6,7 +6,7 @@ category: "Buying Guide"
 date: 2026-08-02
 updatedDate: 2026-08-02
 readTime: "13 min"
-image: "/blog-images/solar-ka-loan-hindi.svg"
+image: "/og/blog-solar-ka-loan-hindi.webp"
 author: "Akash Hirapara"
 keywords:
   - solar ka loan
@@ -32,6 +32,7 @@ faqs:
   - q: "Loan लेना बेहतर है या cash देकर solar लगवाना?"
     a: "अगर आपके पास idle cash पड़ा है और वह 7% से कम return दे रहा है, तो cash देना सस्ता पड़ता है क्योंकि interest बचता है। लेकिन अगर cash देने से emergency fund खत्म हो रहा है, तो loan बेहतर है क्योंकि solar से हर महीने की bill saving अक्सर EMI के आस-पास या उससे ज्यादा होती है। Personal loan या gold loan solar-specific loan से महँगे पड़ते हैं, इसलिए वे तभी लें जब solar loan sanction न हो रहा हो।"
 featured: false
+language: hi
 ---
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।

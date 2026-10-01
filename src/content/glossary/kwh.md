@@ -223,8 +223,6 @@ Time-of-day tariff rules notified in 2023 allow differential ₹/kWh pricing acr
 
 A kWh is the unit of electrical energy equal to one kilowatt of power used for one hour. It is the universal billing unit for Indian electricity, the standard for solar yield measurement, and the basis for PPA pricing. Customer bills, solar generation, net metering credits and regulatory benchmarking all run on kWh.
 
-## Need help understanding your kWh consumption?
-
 ## Further reading
 
 For how kWh plays out in real projects, these guides go deeper:

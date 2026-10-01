@@ -6,7 +6,7 @@ category: "Guide"
 date: 2026-06-05
 updatedDate: 2026-07-08
 readTime: "19 min"
-image: "/blog-images/solar-inverter-components.svg"
+image: "/og/blog-how-does-a-solar-inverter-work.webp"
 author: "Keyur Rakholiya"
 keywords:
   - how does solar inverter work

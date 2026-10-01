@@ -42,15 +42,24 @@ const contactMethods = [
 const inquiryTypes = [
   'Product Inquiry',
   'Become a Dealer',
+  'Become a Distributor',
+  'EPC / Bulk Supply',
+  'Technical Documents',
   'Service Support',
   'Project Consultation',
   'General Question',
 ];
 
 const visitorRoles = [
+  'Choose your role',
   'Homeowner',
-  'Dealer / Distributor',
-  'EPC / Installer',
+  'Dealer',
+  'Distributor',
+  'EPC Company',
+  'Solar Installer',
+  'System Integrator',
+  'Solar Developer',
+  'O&M Company',
   'Architect / Consultant',
   'Student / Researcher',
   'Other',
@@ -67,8 +76,8 @@ const systemSizes = [
 ---
 
 <Layout
-  title="Contact Us | Qbits Energy"
-  description="Get in touch with Qbits Energy for product inquiries, dealer partnerships, service support, and project consultations. Call +91 99791 92935."
+  title="Contact Qbits: Inverter Quotes, Partnerships & Support"
+  description="Request inverter pricing, EPC supply, a dealer or distributor partnership, or technical support. Share your model, quantity and project location with Qbits."
   canonical="/contact-us/"
 >
   <HeaderV2 />
@@ -76,9 +85,9 @@ const systemSizes = [
   <main id="main-content">
     <PageHeader
       label="Get in Touch"
-      title="Contact"
-      highlight="Qbits Energy"
-      description="Have questions about our products or need a quote? Our team is here to help you every step of the way."
+      title="Inverter Quotes,"
+      highlight="Partnerships & Support"
+      description="Tell Qbits what you need: inverter procurement, a business partnership, product documents or technical support."
       bgImage="/homepage/built-for-india.webp"
     />
 
@@ -153,7 +162,7 @@ const systemSizes = [
                   <div>
                     <label for="role" class="block text-sm font-medium text-slate-700 mb-1.5">I am a</label>
                     <select id="role" name="role" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all bg-slate-50/50">
-                      {visitorRoles.map(r => <option>{r}</option>)}
+                      {visitorRoles.map((r, index) => <option value={index === 0 ? '' : r}>{r}</option>)}
                     </select>
                   </div>
                   <div>
@@ -169,6 +178,21 @@ const systemSizes = [
                     {systemSizes.map(s => <option>{s}</option>)}
                   </select>
                 </div>
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="model" class="block text-sm font-medium text-slate-700 mb-1.5">Inverter model (optional)</label>
+                    <input id="model" name="model" type="text" maxlength="80" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm" placeholder="Exact model or shortlist" />
+                  </div>
+                  <div>
+                    <label for="quantity" class="block text-sm font-medium text-slate-700 mb-1.5">Quantity (optional)</label>
+                    <input id="quantity" name="quantity" type="number" min="1" max="100000" step="1" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm" placeholder="Number of inverters" />
+                  </div>
+                  <div>
+                    <label for="requiredDate" class="block text-sm font-medium text-slate-700 mb-1.5">Required delivery date (optional)</label>
+                    <input id="requiredDate" name="requiredDate" type="date" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm" />
+                  </div>
+                </div>
+                <input type="hidden" name="sourcePage" id="sourcePage" />
                 <div>
                   <label for="message" class="block text-sm font-medium text-slate-700 mb-1.5">Message <span class="text-rose-500">*</span></label>
                   <textarea id="message" name="message" rows="5" required minlength="10" maxlength="2000" class="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition-all resize-none bg-slate-50/50" placeholder="How can we help you? Tell us about your solar project..."></textarea>
@@ -197,6 +221,16 @@ const systemSizes = [
                   const btn    = document.getElementById('lead-submit');
                   const labelDefault = btn.querySelector('[data-label-default]');
                   const labelSending = btn.querySelector('[data-label-sending]');
+                  const params = new URLSearchParams(location.search);
+                  for (const key of ['role', 'subject']) {
+                    const select = form.elements.namedItem(key);
+                    const value = params.get(key);
+                    if (value && select instanceof HTMLSelectElement && Array.from(select.options).some((option) => option.value === value)) select.value = value;
+                  }
+                  const model = (params.get('model') || '').slice(0, 80);
+                  if (model) form.elements.namedItem('model').value = model;
+                  const from = params.get('from') || '';
+                  if (/^\/(?!\/)[a-zA-Z0-9/_\-.]*$/.test(from) && from.length <= 200) form.elements.namedItem('sourcePage').value = from;
 
                   const setSending = (sending) => {
                     btn.disabled = sending;
@@ -266,6 +300,14 @@ const systemSizes = [
                       });
                       const result = await res.json().catch(() => ({}));
                       if (result.success === 'true' || result.success === true) {
+                        if (typeof window.gtag === 'function') {
+                          window.gtag('event', 'lead_form_success', {
+                            form_id: 'lead-form',
+                            inquiry_type: data.subject,
+                            buyer_role: data.role,
+                            source_page: data.sourcePage || location.pathname,
+                          });
+                        }
                         form.reset();
                         showStatus(SUCCESS_MESSAGE, true);
                       } else {

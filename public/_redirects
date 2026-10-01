@@ -15,6 +15,9 @@
 # is the generated sitemap index.
 /sitemap.xml /sitemap-index.xml 200
 
+# GSC-visible legacy spelling; the current article owns this same intent.
+/blog/top-10-solar-inverter-brands-in-india-2026/ /blog/top-10-solar-inverter-brands-india-2026/ 301
+
 # ── Wildcard 301s: Astro's `redirects` config can't express splats ──
 # Blog feature-image SVGs were removed site-wide; old direct links go to /blog/.
 /blog-images/* /blog/ 301

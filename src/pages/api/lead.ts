@@ -101,6 +101,10 @@ function buildDescription(data: Record<string, string>) {
     companyName: 'Company Name',
     subject: 'Inquiry Type',
     systemSize: 'System Size',
+    model: 'Inverter Model',
+    quantity: 'Inverter Quantity',
+    requiredDate: 'Required Delivery Date',
+    sourcePage: 'Source Page',
     city: 'City',
     message: 'Message',
   };
@@ -168,6 +172,14 @@ export const POST: APIRoute = async ({ request }) => {
       headers: { 'Content-Type': 'application/json' },
     });
   }
+
+  // These optional RFQ fields are descriptive text, never trusted URLs or CRM IDs.
+  for (const field of ['model', 'quantity', 'requiredDate', 'sourcePage']) {
+    data[field] = typeof data[field] === 'string'
+      ? data[field].replace(/[\u0000-\u001f\u007f]/g, '').slice(0, field === 'sourcePage' ? 200 : 80)
+      : '';
+  }
+  if (data.sourcePage && !/^\/(?!\/)[A-Za-z0-9/_-]*$/.test(data.sourcePage)) data.sourcePage = '';
 
   const formSource = data.source && SOURCE_IDS[data.source] ? data.source : 'contact-form';
   const isPartnerForm = formSource === 'partner-form';

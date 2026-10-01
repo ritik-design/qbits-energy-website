@@ -4,6 +4,7 @@ import Layout from '../../layouts/Layout.astro';
 import HeaderV2 from '../../components/HeaderV2.astro';
 import Footer from '../../components/Footer.astro';
 import { getAuthorByName } from '../../data/authors';
+import { getArticleJourney } from '../../data/article-journeys';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -66,6 +67,7 @@ const formattedUpdatedDate = updatedDate
 const updatedIso = updatedDate ? new Date(updatedDate).toISOString() : isoDate;
 
 const authorProfile = getAuthorByName(author);
+const journey = getArticleJourney(post.id, category);
 
 // Build TOC from H2 headings
 const toc = headings.filter((h) => h.depth === 2);
@@ -329,11 +331,11 @@ const breadcrumbSchema = {
               <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-brand-600 via-brand-700 to-slate-900 p-6 text-white shadow-xl">
                 <div class="absolute -top-10 -right-10 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
                 <div class="relative">
-                  <span class="inline-block text-[10px] font-bold uppercase tracking-widest bg-white/15 px-2.5 py-1 rounded-full">Product Enquiry</span>
-                  <h3 class="mt-4 text-xl font-bold leading-tight">Planning a solar project?</h3>
-                  <p class="mt-2 text-sm text-white/85 leading-relaxed">Contact Qbits sales with your site inputs and the exact product documents you need.</p>
-                  <a href="/contact-us/" class="mt-5 inline-flex items-center gap-2 bg-white text-brand-700 text-sm font-bold px-4 py-2.5 rounded-lg hover:bg-slate-100 transition">
-                    Talk To Sales
+                  <span class="inline-block text-[10px] font-bold uppercase tracking-widest bg-white/15 px-2.5 py-1 rounded-full">{journey.kind === 'learning' ? 'Further Reading' : 'Qbits Resources'}</span>
+                  <h3 class="mt-4 text-xl font-bold leading-tight">{journey.heading}</h3>
+                  <p class="mt-2 text-sm text-white/85 leading-relaxed">{journey.description}</p>
+                  <a href={journey.primaryHref} class="mt-5 inline-flex items-center gap-2 bg-white text-brand-700 text-sm font-bold px-4 py-2.5 rounded-lg hover:bg-slate-100 transition">
+                    {journey.primaryLabel}
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
                   </a>
                 </div>
@@ -357,9 +359,9 @@ const breadcrumbSchema = {
 
               <div class="rounded-2xl ring-1 ring-slate-200 bg-white p-6">
                 <h4 class="font-bold text-slate-900">Resources</h4>
-                <p class="text-sm text-slate-500 mt-1">Datasheets and brochures</p>
-                <a href="/download-datasheets/" class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700">
-                  Browse downloads
+                <p class="text-sm text-slate-500 mt-1">{journey.secondaryLabel}</p>
+                <a href={journey.secondaryHref} class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700">
+                  {journey.secondaryLabel}
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
                 </a>
               </div>
@@ -397,8 +399,8 @@ const breadcrumbSchema = {
       </section>
     )}
 
-    <!-- Explore Qbits solutions -->
-    <section class="bg-white py-16 lg:py-20 border-t border-slate-100" aria-labelledby="explore-solutions-heading">
+    <!-- Product exploration is contextual to the article intent. -->
+    {journey.kind !== 'learning' && <section class="bg-white py-16 lg:py-20 border-t border-slate-100" aria-labelledby="explore-solutions-heading">
       <div class="container-main">
         <div class="flex items-center gap-3 mb-10">
           <span class="text-brand-600 font-bold uppercase tracking-wider text-xs bg-brand-500/10 px-3 py-1 rounded-full">Explore Qbits</span>
@@ -422,7 +424,7 @@ const breadcrumbSchema = {
           </a>
         </div>
       </div>
-    </section>
+    </section>}
 
     <!-- Full-width final CTA -->
     <section class="relative overflow-hidden bg-gradient-to-br from-slate-950 via-brand-900 to-slate-950">
@@ -435,18 +437,18 @@ const breadcrumbSchema = {
             Get Started
           </span>
           <h2 class="mt-6 text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
-            Ready to power your project with Qbits?
+            {journey.heading}
           </h2>
           <p class="mt-5 text-base sm:text-lg text-slate-300 max-w-xl mx-auto">
-            Get a personalized quote, request a product demo, or find your nearest distributor - our team is one click away.
+            {journey.description}
           </p>
           <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="/contact-us/" class="btn-primary text-sm py-3.5 px-8">
-              Talk To Sales
+            <a href={journey.primaryHref} class="btn-primary text-sm py-3.5 px-8">
+              {journey.primaryLabel}
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </a>
-            <a href="/download-datasheets/" class="btn-outline text-sm py-3.5 px-8">
-              Download Datasheets
+            <a href={journey.secondaryHref} class="btn-outline text-sm py-3.5 px-8">
+              {journey.secondaryLabel}
             </a>
           </div>
         </div>

@@ -3,6 +3,11 @@
   "name": "qbits-energy-website",
   "compatibility_date": "2026-06-12",
   "compatibility_flags": ["nodejs_compat"],
+  // Shared "All Website Leads" Google Sheet. Not secret. The OAuth credentials are
+  // Worker secrets: GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN.
+  "vars": {
+    "LEADS_SHEET_ID": "1aZdwwQcGfTGJg4ekP-CN8qIhg2l8a2e8tRRIsaKwmpk"
+  },
   "kv_namespaces": [
     {
       "binding": "SESSION",

@@ -1,5 +1,7 @@
 import type { APIRoute } from 'astro';
 import { env } from 'cloudflare:workers';
+// @ts-ignore -- plain JS module shared across Heaven sites
+import { appendLeadToSheet } from '../../lib/leads-sheet.js';
 
 // Runs on-demand (Cloudflare Pages Function), not statically prerendered.
 export const prerender = false;
@@ -8,6 +10,28 @@ export const prerender = false;
 const WEBSITE_MEDIUM_ID = 1;
 
 // One utm.source per form so lead origin is traceable in Odoo.
+// Human-readable form labels for the shared leads sheet ("Form / service").
+const FORM_LABELS: Record<string, string> = {
+  'contact-form': 'Contact Form',
+  'home-quick-lead': 'Quick Lead (Home)',
+  'datasheet-bundle': 'Datasheet Bundle Download',
+  'partner-form': 'Channel Partner Application',
+};
+
+// Odoo utm.source names, mirrored into the sheet's "CRM source" column.
+const CRM_SOURCE_LABELS: Record<string, string> = {
+  'contact-form': 'Qbits Website - Contact Form',
+  'home-quick-lead': 'Qbits Website - Quick Lead',
+  'datasheet-bundle': 'Qbits Website - Datasheet Bundle',
+  'partner-form': 'Qbits Website - Channel Partner Application',
+};
+
+// Fields mapped to dedicated sheet columns; everything else goes to `extra`.
+const SHEET_SKIP_KEYS = new Set([
+  'name', 'email', 'phone', 'companyName', 'businessEmail', 'whatsappNumber', 'city',
+  'message', 'page', 'source', 'website2', '_subject', '_template', '_captcha',
+]);
+
 const SOURCE_IDS: Record<string, number> = {
   'contact-form': 186, // Qbits Website - Contact Form
   'home-quick-lead': 187, // Qbits Website - Quick Lead
@@ -151,14 +175,7 @@ function buildPartnerDescription(data: Record<string, string>) {
   return `<p>${rows.join('<br/>')}</p><p><i>${meta}</i></p>`;
 }
 
-export const POST: APIRoute = async ({ request }) => {
-  if (!env?.ODOO_URL) {
-    return new Response(JSON.stringify({ success: false, message: 'Odoo not configured' }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' },
-    });
-  }
-
+export const POST: APIRoute = async ({ request, locals }) => {
   let data: Record<string, string>;
   try {
     data = await request.json();
@@ -190,6 +207,41 @@ export const POST: APIRoute = async ({ request }) => {
   if (!name || (!mobile && !email)) {
     return new Response(JSON.stringify({ success: false, message: 'Missing required fields' }), {
       status: 400,
+      headers: { 'Content-Type': 'application/json' },
+    });
+  }
+
+  // Copy the lead to the shared Google Sheet in the background. Runs before the
+  // Odoo call so a CRM outage never loses the sheet row; never blocks or fails the response.
+  const extra: Record<string, string> = {};
+  for (const [k, v] of Object.entries(data)) {
+    if (SHEET_SKIP_KEYS.has(k) || (k === 'website' && !isPartnerForm)) continue;
+    if (typeof v === 'string' && v.trim()) extra[k] = v.trim();
+  }
+  let pageUrl = data.page || '';
+  try {
+    pageUrl = pageUrl ? new URL(pageUrl, request.url).href : request.headers.get('referer') || '';
+  } catch {}
+  const sheetTask = appendLeadToSheet(env, 'Qbits', {
+    name, // partner form has no person field, so this is the company name
+    email,
+    phone: mobile,
+    company: isPartnerForm ? name : (data.companyName || '').trim(),
+    form: FORM_LABELS[formSource],
+    page: pageUrl,
+    city: (data.city || '').trim(),
+    country: 'India',
+    message: (data.message || '').trim(),
+    crmSource: CRM_SOURCE_LABELS[formSource],
+    extra,
+    test: false,
+  }).catch(() => {});
+  const cfCtx = (locals as any)?.cfContext;
+  if (cfCtx?.waitUntil) cfCtx.waitUntil(sheetTask);
+
+  if (!env?.ODOO_URL) {
+    return new Response(JSON.stringify({ success: false, message: 'Odoo not configured' }), {
+      status: 500,
       headers: { 'Content-Type': 'application/json' },
     });
   }

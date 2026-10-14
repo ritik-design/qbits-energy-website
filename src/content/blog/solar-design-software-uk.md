@@ -7,7 +7,7 @@ date: 2026-08-03
 readTime: "10 min"
 image: "/og/blog-solar-design-software-uk.webp"
 author: "Nirav Dhanani"
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 keywords:
   - solar design software UK
   - UK solar design software
@@ -36,7 +36,7 @@ faqs:
 
 The [solar design software](https://surgepv.com/) UK installers can rely on must do more than draw panels on a roof. The 2026 UK solar market is shaped by the Smart Export Guarantee, the MCS certification scheme, BS 7671 18th Edition Amendment 3, and G98 or G99 grid connection rules. Residential installs have climbed past 240,000 a year, ECO4 and the Great British Insulation Scheme are pushing more low income homes onto solar plus battery, and commercial rooftop is accelerating on warehouses and schools. Most popular design platforms were built for the United States and miss these UK specifics. This guide compares the leading options and shows how [SurgePV](https://surgepv.com/) handles UK workflows from site capture to signed proposal.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - UK installers need BS 7671 references, SEG tariff modelling, MCS-ready outputs, and G99 documentation in one place.
 > - US-first tools like Aurora and HelioScope skew toward NEC and rate tariffs that do not match the UK reality.
 > - SurgePV ships UK code references, SEG modelling, AutoCAD DXF and DWG exports, and branded proposals from £1,025 per seat per year on the 5-User Team plan.
@@ -98,6 +98,8 @@ The result is that UK installers stitch together design, proposal, and complianc
 
 ## Solar Design Software for UK Comparison Table
 
+Table: Solar design software compared for UK installers: BS 7671, SEG, MCS, G98/G99, shading and price
+
 | Capability | SurgePV | Aurora | HelioScope | OpenSolar | Solargraf |
 |---|---|---|---|---|---|
 | BS 7671 18th Edition references | Yes | No | No | Partial | No |
@@ -134,17 +136,18 @@ For a five person UK installer, the difference between SurgePV at £5,125 a year
 
 ## Real Workflow: 4 kW Residential Project With SEG Income Calculation
 
-Consider a typical 4 kW domestic install in Birmingham on a south facing pitched roof.
-
-**Site capture.** The designer enters the postcode. SurgePV pulls satellite imagery and builds a 3D roof model with pitch and azimuth in under two minutes. The designer trims the model around a chimney on the east face.
-
-**Layout.** Ten 400 W panels are placed on the south slope. SurgePV runs the 8,760-hour shading model and flags 3.1 percent annual loss from the chimney on the two affected panels. The designer accepts the layout because the loss is acceptable.
-
-**Electrical design.** A single 3.68 kW [hybrid inverter](/glossary/hybrid-inverter/) is selected to stay under the G98 threshold for single phase notification. SurgePV pulls [cable sizing](/glossary/dc-cable/) prompts from the BS 7671 library and exports a DXF single line diagram for the contractor.
-
-**Tariff and finance.** The designer enters a SEG export rate of 15p per kWh from a major supplier and a self consumption assumption of 35 percent without a battery, rising to 60 percent with a 5 kWh battery. SurgePV produces P50, P75, and P90 yield figures. The base case shows 3,720 kWh annual generation, £190 saved on imported electricity, and £363 of SEG income without a battery. With the battery, the SEG figure drops to £223, however bill savings climb to £334.
-
-**Proposal.** SurgePV produces a branded MCS-ready proposal with datasheets, the homeowner energy savings forecast, payback in eight years, and a 25 year cumulative benefit of £14,200.
+> [!EXAMPLE] A 4 kW Birmingham domestic install, step by step
+> Consider a typical 4 kW domestic install in Birmingham on a south facing pitched roof.
+>
+> **Site capture.** The designer enters the postcode. SurgePV pulls satellite imagery and builds a 3D roof model with pitch and azimuth in under two minutes. The designer trims the model around a chimney on the east face.
+>
+> **Layout.** Ten 400 W panels are placed on the south slope. SurgePV runs the 8,760-hour shading model and flags 3.1 percent annual loss from the chimney on the two affected panels. The designer accepts the layout because the loss is acceptable.
+>
+> **Electrical design.** A single 3.68 kW [hybrid inverter](/glossary/hybrid-inverter/) is selected to stay under the G98 threshold for single phase notification. SurgePV pulls [cable sizing](/glossary/dc-cable/) prompts from the BS 7671 library and exports a DXF single line diagram for the contractor.
+>
+> **Tariff and finance.** The designer enters a SEG export rate of 15p per kWh from a major supplier and a self consumption assumption of 35 percent without a battery, rising to 60 percent with a 5 kWh battery. SurgePV produces P50, P75, and P90 yield figures. The base case shows 3,720 kWh annual generation, £190 saved on imported electricity, and £363 of SEG income without a battery. With the battery, the SEG figure drops to £223, however bill savings climb to £334.
+>
+> **Proposal.** SurgePV produces a branded MCS-ready proposal with datasheets, the homeowner energy savings forecast, payback in eight years, and a 25 year cumulative benefit of £14,200.
 
 The full sequence takes a trained UK designer about twenty five minutes. The same job in a stack of US-first software and spreadsheets typically takes a morning.
 

@@ -4,7 +4,7 @@ excerpt: "An honest OpenSolar review for 2026. Why the free model is real, what 
 description: "OpenSolar review 2026: how the free business model works, genuine strengths in residential layout and proposals, real limits on bankable yield and tariff depth, and the alternatives worth testing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-opensolar-review.webp"
 author: "Nirav Dhanani"
@@ -37,7 +37,7 @@ featured: false
 
 Most software reviews start from the assumption that you are choosing between things you pay for. OpenSolar breaks that frame, because it costs an installer nothing and always has. That makes it the hardest product in this category to review honestly, since the easy criticisms fall apart the moment you remember the invoice is zero. So this review takes the product at face value first. What OpenSolar does, who it does it for, where the engineering genuinely thins out, and the specific point at which a growing installation business stops being served by it. We have used OpenSolar alongside Aurora, PVsyst, and SurgePV on live jobs, and the trade-offs below are the ones that showed up in the work.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - OpenSolar is free to installers with no seat fee, and that is real, not a trial or a bait tier.
 > - The vendor publicly describes the model as funded by hardware and finance partners on the other side of the transaction, which is worth understanding when you look at where the product invests.
 > - It is genuinely good at fast residential layout, presentable customer proposals, and lowering the barrier for a new installer.
@@ -93,6 +93,8 @@ Second, integrated platforms make specifying integrated options easy, which is t
 
 ### What Free Actually Costs You
 
+Table: What free OpenSolar gets you and what it costs you, by area
+
 | Area | What free gets you | What it costs you |
 | --- | --- | --- |
 | Design and layout | Fast residential array placement | Thin on complex, multi-array, or ground-mount work |
@@ -106,6 +108,8 @@ Second, integrated platforms make specifying integrated options easy, which is t
 
 ### Strengths Against Limitations
 
+Table: OpenSolar strengths against limitations by dimension
+
 | Dimension | Strength | Limitation |
 | --- | --- | --- |
 | Price | Free with no seat cap | You are not the paying customer, so roadmap priorities may not track yours |
@@ -116,7 +120,8 @@ Second, integrated platforms make specifying integrated options easy, which is t
 | Batteries | Modelled | Not hourly dispatch modelling |
 | Adoption barrier | Lowest in the category | Ceiling arrives without warning |
 
-> **What most buyers get wrong.** They argue about whether free software can be any good. Wrong question. OpenSolar is good at what it is built for. The question that decides your next two years is whether your project mix is still inside that boundary, and mixes change faster than software habits do.
+> [!TIP] What most buyers get wrong about free software
+> They argue about whether free software can be any good. Wrong question. OpenSolar is good at what it is built for. The question that decides your next two years is whether your project mix is still inside that boundary, and mixes change faster than software habits do.
 
 <div class="inline-cta">
 <h3>One licence covering design, shading, financials, and proposals</h3>
@@ -129,20 +134,22 @@ Second, integrated platforms make specifying integrated options easy, which is t
 
 The transition point is the useful part of this review, because everything else is predictable. Here is the checklist we use.
 
-- A lender, investor, or independent engineer has asked for a yield report with probability outputs.
-- Commercial rooftops are more than a fifth of your pipeline.
-- Batteries appear in more than half your quotes, and export rates in your market are well below import rates.
-- You are selling in a second country, or a second tariff regime within one country.
-- A plan reviewer or DNO has rejected a design over something the tool did not flag.
-- Your designers are exporting into spreadsheets to finish the financial model on a routine basis.
-- You want to specify equipment purely on spec and find yourself repeatedly overriding defaults.
-- Proposal branding is now a competitive issue in your market rather than a nice-to-have.
+> [!CHECKLIST] Signs you are outgrowing OpenSolar
+> - A lender, investor, or independent engineer has asked for a yield report with probability outputs.
+> - Commercial rooftops are more than a fifth of your pipeline.
+> - Batteries appear in more than half your quotes, and export rates in your market are well below import rates.
+> - You are selling in a second country, or a second tariff regime within one country.
+> - A plan reviewer or DNO has rejected a design over something the tool did not flag.
+> - Your designers are exporting into spreadsheets to finish the financial model on a routine basis.
+> - You want to specify equipment purely on spec and find yourself repeatedly overriding defaults.
+> - Proposal branding is now a competitive issue in your market rather than a nice-to-have.
 
 Two or more being true is usually enough. One rarely is.
 
-**Illustrative example, not a customer case.** Take a hypothetical installer running 14 residential jobs a month on OpenSolar, entirely happy, zero software cost. Over a year the mix drifts. Three commercial rooftops enter the pipeline, and one needs a yield report the bank will accept. Batteries move from a quarter of quotes to two thirds. A designer starts spending roughly a day a week in spreadsheets rebuilding tariff and battery maths the tool cannot do at hourly resolution.
-
-Price that day. At a loaded designer cost of $45 an hour, one day a week is around $16,000 a year of labour, plus a separate licence for the bankable report. Against a five-seat SurgePV plan at $1,299 per user per year, or $6,495 in total, the free tool is now the expensive option. The numbers here are illustrative inputs for the method, not a benchmark. Run the same arithmetic with your own rates and your own spreadsheet hours.
+> [!EXAMPLE] Illustrative: cost of working around the ceiling
+> **Illustrative example, not a customer case.** Take a hypothetical installer running 14 residential jobs a month on OpenSolar, entirely happy, zero software cost. Over a year the mix drifts. Three commercial rooftops enter the pipeline, and one needs a yield report the bank will accept. Batteries move from a quarter of quotes to two thirds. A designer starts spending roughly a day a week in spreadsheets rebuilding tariff and battery maths the tool cannot do at hourly resolution.
+>
+> Price that day. At a loaded designer cost of $45 an hour, one day a week is around $16,000 a year of labour, plus a separate licence for the bankable report. Against a five-seat SurgePV plan at $1,299 per user per year, or $6,495 in total, the free tool is now the expensive option. The numbers here are illustrative inputs for the method, not a benchmark. Run the same arithmetic with your own rates and your own spreadsheet hours.
 
 Nothing in that example is a criticism of OpenSolar. The installer at 14 simple residential jobs a month was correctly served. The business changed shape underneath the tool.
 
@@ -181,9 +188,10 @@ So use OpenSolar until the mix changes, and watch for the change deliberately. W
 
 Three things to do next:
 
-- Run the eight-point checklist against your current pipeline and count how many are already true.
-- Track the hours your team spends outside the tool this month, in spreadsheets and manual financials, and price them.
-- Rebuild two recent projects in a paid tool and compare the outputs rather than the feature lists.
+> [!CHECKLIST] Before you outgrow OpenSolar
+> - Run the eight-point checklist against your current pipeline and count how many are already true.
+> - Track the hours your team spends outside the tool this month, in spreadsheets and manual financials, and price them.
+> - Rebuild two recent projects in a paid tool and compare the outputs rather than the feature lists.
 
 <div class="inline-cta">
 <h3>Test the ceiling on your own projects</h3>

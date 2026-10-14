@@ -7,7 +7,7 @@ date: 2026-08-03
 readTime: "11 min"
 image: "/og/blog-solar-design-software-india.webp"
 author: "Nirav Dhanani"
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 keywords:
   - solar design software india
   - pv design software india
@@ -42,7 +42,7 @@ faqs:
 
 The [solar design software](https://surgepv.com/) Indian installers need in 2026 looks nothing like what worked five years ago. PM Surya Ghar Muft Bijli Yojana put rooftop solar on the table for one crore households, the residential pipeline exploded past 18 GW of cumulative installations, and the average EPC team in Pune or Lucknow is now shipping more 3 kW systems in a month than they used to do in a year. The bottleneck is no longer customer demand. The bottleneck is how fast you can turn a WhatsApp enquiry into a bankable design, a subsidy-adjusted financial model and a branded proposal the homeowner will sign. This guide compares the platforms Indian installers actually use, and shows where [SurgePV](https://surgepv.com/) fits.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - PM Surya Ghar central subsidy of ₹78,000 for 3 kW systems, plus state top-ups, has made residential the fastest-growing segment in India.
 > - Most global solar [design software](https://www.surgepv.com/blog/ai-solar-design-software) was built for US or European workflows and does not natively cover IS code, ALMM, DISCOM tariffs or INR.
 > - SurgePV ships IS code clearances, an ALMM-aware module database, PM Surya Ghar subsidy logic, DISCOM tariff library and INR currency on every plan.
@@ -92,6 +92,8 @@ The [residential solar design software](https://surgepv.com/residential-solar-de
 
 The comparison below focuses on what matters when you are quoting a real Indian project, not on feature checkboxes.
 
+Table: Solar design software compared for India: subsidy logic, ALMM, tariffs, language and pricing
+
 | Capability | SurgePV | Aurora Solar | HelioScope | OpenSolar | Arka360 | Solar Ladder |
 |---|---|---|---|---|---|---|
 | IS code clearance library | Native | Manual | Manual | Manual | Partial | Partial |
@@ -134,13 +136,14 @@ The free trial requires no credit card, so the procurement question is small. Br
 
 The clearest way to evaluate any solar design software is to walk one real project. Here is what a 5 kW residential PM Surya Ghar design looks like in SurgePV from open browser to signed proposal.
 
-**Minute 0 to 3.** Salesperson enters the homeowner address in Indore. The AI captures the roof from satellite imagery, generates a 3D model including parapets, ridges, water tanks and the neighbour's mango tree. The designer confirms the obstacle map.
-
-**Minute 7 to 11.** The 8,760-hour module-level shading runs. The mango tree costs 4 percent in October mornings. Clara AI suggests moving two modules to a clearer roof face. New yield is 7,420 kWh per year on the P50.
-
-**Minute 11 to 14.** The financial model applies the MSEDCL domestic tariff, the PM Surya Ghar central subsidy of ₹78,000, and the Maharashtra state top-up where applicable. Net customer outflow, [IRR](/glossary/irr/) and [payback period](/glossary/payback-period/) display in INR. Payback is 4.2 years.
-
-**Minute 14 to 18.** Proposal builder applies the EPC brand colours, renders the document in Hindi for the homeowner copy and English for the DISCOM application copy, and exports as PDF. AutoCAD DXF goes to the structural engineer.
+> [!EXAMPLE] A 5 kW PM Surya Ghar design, minute by minute
+> **Minute 0 to 3.** Salesperson enters the homeowner address in Indore. The AI captures the roof from satellite imagery, generates a 3D model including parapets, ridges, water tanks and the neighbour's mango tree. The designer confirms the obstacle map.
+>
+> **Minute 7 to 11.** The 8,760-hour module-level shading runs. The mango tree costs 4 percent in October mornings. Clara AI suggests moving two modules to a clearer roof face. New yield is 7,420 kWh per year on the P50.
+>
+> **Minute 11 to 14.** The financial model applies the MSEDCL domestic tariff, the PM Surya Ghar central subsidy of ₹78,000, and the Maharashtra state top-up where applicable. Net customer outflow, [IRR](/glossary/irr/) and [payback period](/glossary/payback-period/) display in INR. Payback is 4.2 years.
+>
+> **Minute 14 to 18.** Proposal builder applies the EPC brand colours, renders the document in Hindi for the homeowner copy and English for the DISCOM application copy, and exports as PDF. AutoCAD DXF goes to the structural engineer.
 
 Total elapsed: 18 minutes. The same workflow used to take 6 hours across three tools.
 

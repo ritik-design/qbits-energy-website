@@ -4,7 +4,7 @@ excerpt: "The best solar proposal software India installers need auto-calculates
 description: "Best solar proposal software India 2026. SurgePV vs Arka360, Solar Ladder, Aurora, Solargraf on PM Surya Ghar subsidy, ALMM, DISCOM net metering and INR pricing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "14 min"
 image: "/og/blog-solar-proposal-software-india.webp"
 author: "Akash Hirapara"
@@ -41,9 +41,8 @@ featured: false
 
 Indian residential solar runs on a subsidy structure that almost no global software models correctly. [PM Surya Ghar](https://www.surgepv.com/solar-compliance/india/pm-surya-ghar) pays ₹30,000 per kW for the first 2 kW, ₹18,000 per kW for the next 1 kW, and nothing above 3 kW, capped at ₹78,000, according to MNRE (2026). It is a slab, not a rate. Yet the most common quotation error we see in Indian residential solar is a flat per-kW subsidy applied across the whole system, which overstates the customer's benefit on any system above 2 kW. That error comes from Excel, and from proposal tools built for markets where incentives are percentages. This guide compares the seven proposal platforms Indian installers actually shortlist, and judges them on subsidy accuracy, ALMM enforcement, and [DISCOM](/glossary/discom/) net metering coverage.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - [PM Surya Ghar](/glossary/pm-surya-ghar/) is a slab structure capped at ₹78,000, being ₹30,000 per kW to 2 kW and ₹18,000 per kW from 2 kW to 3 kW, according to MNRE (2026).
-
 > - DISCOM export compensation runs roughly ₹3 to ₹5.50 per unit on APPC, and settlement periods differ by state, which moves payback by more than a year.
 > - [SurgePV](https://surgepv.com/) generates the proposal from the same project record as the bankable design, with subsidy slabs, ALMM filtering, and state net metering built in.
 > - Arka360 and Solar Ladder are the strongest India-native alternatives and are priced closer to local expectations.
@@ -72,9 +71,12 @@ Four things decide whether an Indian residential proposal survives contact with 
 
 ## The Subsidy Error That Costs Indian Installers Deals
 
-> **What most Indian installers get wrong.** They quote the subsidy as a rate, not a slab. On a 5 kW residential system, applying ₹30,000 per kW gives ₹1.5 Lakh. The customer is actually entitled to ₹78,000. That is a ₹72,000 hole in the proposal, and it surfaces after the customer has already made the decision.
+> [!WARNING] What most Indian installers get wrong: the subsidy is a slab, not a rate
+> They quote the subsidy as a rate, not a slab. On a 5 kW residential system, applying ₹30,000 per kW gives ₹1.5 Lakh. The customer is actually entitled to ₹78,000. That is a ₹72,000 hole in the proposal, and it surfaces after the customer has already made the decision.
 
 Here is the arithmetic on three common system sizes. This is an illustrative calculation using the published MNRE slab structure.
+
+Table: Flat-rate subsidy quote against the correct PM Surya Ghar entitlement, by system size
 
 | System size | Flat-rate quote at ₹30,000 per kW | Correct PM Surya Ghar entitlement | Overstatement |
 | --- | --- | --- | --- |
@@ -112,6 +114,8 @@ Still the most common setup in India, and worth naming honestly. It is free, ful
 
 ## India Solar Proposal Software Comparison
 
+Table: India solar proposal software compared on subsidy slabs, ALMM filtering, DISCOM library, languages and price
+
 | Tool | PM Surya Ghar slabs automatic | ALMM-filtered database | DISCOM net metering library | Hindi or regional proposals | Bankable 8,760-hour shading | Pricing (per user / yr) |
 | --- | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes, List I and II | Yes, state level | Yes, 9 languages | Yes, all plans | $1,299 to $1,899 |
@@ -134,6 +138,8 @@ The split is clear. India-native tools understand the subsidy and the paperwork.
 ## Cost Per Proposal, Not Cost Per Seat
 
 Indian installers reasonably push back on USD seat pricing. The useful frame is cost per quote produced.
+
+Table: SurgePV cost per quote at different monthly quote volumes (₹1.3 Lakh per seat per year)
 
 | Quotes per month per seat | SurgePV at ₹1.3 Lakh per seat per year | Cost per quote |
 | --- | --- | --- |
@@ -168,5 +174,6 @@ A proposal tool only earns its place inside a working stack. The [wider solar so
 
 The Indian proposal software decision is not really about proposal design. It is about whether the subsidy, the ALMM list, and your DISCOM's export rate are computed by software or typed by a person under time pressure.
 
-- **Audit your last ten quotes for the slab error.** Take any quote above 3 kW and check whether the subsidy line reads ₹78,000. If it reads higher, the template is wrong and the deals are exposed.
-- **Insist on ALMM filtering at design time.** A component delisted between quote and installation costs the customer the entire central subsidy, and that conversation lands on you.
+> [!CHECKLIST] Two checks to run this week
+> - **Audit your last ten quotes for the slab error.** Take any quote above 3 kW and check whether the subsidy line reads ₹78,000. If it reads higher, the template is wrong and the deals are exposed.
+> - **Insist on ALMM filtering at design time.** A component delisted between quote and installation costs the customer the entire central subsidy, and that conversation lands on you.

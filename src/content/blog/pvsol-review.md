@@ -4,7 +4,7 @@ excerpt: "An honest PV*SOL review for 2026. What the licence costs, where its co
 description: "PV*SOL review 2026: verified Valentin Software pricing, real strengths in component libraries, self-consumption and 3D shading, the single-user licensing limit, and the alternatives worth testing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-pvsol-review.webp"
 author: "Keyur Rakholiya"
@@ -37,12 +37,11 @@ featured: false
 
 PV*SOL has been the working simulation tool of German and central European PV engineering for long enough that in many offices it is simply what design means. That standing is earned. Valentin Software has spent decades building component databases that manufacturers themselves maintain, a self-consumption model that handles storage and electric vehicles properly, and a 3D shading engine that computes losses from real geometry. This review covers what PV*SOL costs in 2026, what it does better than almost anything else, where it stops fitting, and which alternatives are worth putting on the same project before you renew. The short framing up front: almost every real complaint about PV*SOL is about team size, not about software quality.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - PV*SOL 2026 is €585 per year and PV*SOL premium 2026 is €845 per year as one-year named-user licences, according to the Valentin Software shop (2026), plus VAT.
 > - The component database covers over 30,000 modules, 9,000 inverters and 16,000 battery systems, largely maintained by the manufacturers.
 > - Storage, self-consumption and electric vehicle modelling are among the best available at any price.
-> - The licence is per named user and cannot run on two machines simultaneously, and projects are local files, so a design lives with one person.
-> - Valentin lists Windows 10 and 11 in the system requirements, with no macOS, Linux or browser build listed as of writing.
+> - The licence is per named user and cannot run on two machines simultaneously, and projects are local files, so a design lives with one person. Valentin lists Windows 10 and 11 in the system requirements, with no macOS, Linux or browser build listed as of writing.
 > - Cloud alternatives include SurgePV at $1,299 to $1,899 per user per year, PVsyst where a lender names it, and HelioScope for commercial engineering.
 
 **Short version.** PV*SOL is an excellent European desktop simulator, priced at €585 to €845 per year depending on edition. It earns that price comfortably for a solo engineer or a two-person practice doing residential and small commercial work. It fits poorly from around three people upward, not because the engineering is weaker, but because a per-named-user desktop licence with local project files makes designs hard to move between an estimator, an engineer and a salesperson.
@@ -60,6 +59,8 @@ That familiarity is a genuine commercial asset and it would be dishonest to writ
 ## PV*SOL Pricing In 2026
 
 Valentin Software publishes list prices in its own online shop, which makes this one of the easier tools in the market to price honestly. The company moved to a named-user licensing model, and the shop currently lists subscription terms rather than perpetual licences.
+
+Table: PV*SOL 2026 list prices by product and licence term (plus VAT)
 
 | Product | Term | List price (plus VAT) |
 | --- | --- | --- |
@@ -114,6 +115,8 @@ Every criticism below is a property of the product's design, not a defect.
 
 **It scales in cost cleanly but in workflow badly.** Adding a sixth licence is cheap. Adding a sixth person to a workflow where designs cannot move is not.
 
+Table: PV*SOL strengths and limitations by dimension
+
 | Dimension | Strength | Limitation |
 | --- | --- | --- |
 | Component libraries | 30,000+ modules, 9,000+ inverters, 16,000+ batteries, manufacturer-maintained | Depth exceeds what a residential-only practice will use |
@@ -127,13 +130,15 @@ Every criticism below is a property of the product's design, not a defect.
 
 Capability entries reflect publicly available Valentin Software information at the time of writing. PV*SOL ships an annual release, so confirm current scope with the vendor.
 
-> **What most buyers get wrong.** They evaluate PV*SOL against competitors on simulation accuracy, which it passes, and never test the handover. Before renewing, run one real job through the actual sequence your business uses, from first estimate to signed quote, and count how many times the file has to be emailed to somebody.
+> [!TIP] What most buyers get wrong about PV*SOL
+> They evaluate PV*SOL against competitors on simulation accuracy, which it passes, and never test the handover. Before renewing, run one real job through the actual sequence your business uses, from first estimate to signed quote, and count how many times the file has to be emailed to somebody.
 
 ## Illustrative Example: The Design That Was On The Wrong Machine
 
-A labelled, hypothetical scenario rather than a specific customer, built from the pattern we see repeatedly in European teams of four to six people.
-
-A three-person practice quotes a 24 kWp commercial rooftop with a battery. The engineer builds it in PV*SOL premium on Tuesday, exports the report, and leaves for a site visit on Wednesday and Thursday. On Wednesday the customer asks two questions: what happens if we halve the battery, and what does the payback look like at the higher tariff.
+> [!EXAMPLE] Hypothetical: the design on the wrong machine
+> A labelled, hypothetical scenario rather than a specific customer, built from the pattern we see repeatedly in European teams of four to six people.
+>
+> A three-person practice quotes a 24 kWp commercial rooftop with a battery. The engineer builds it in PV*SOL premium on Tuesday, exports the report, and leaves for a site visit on Wednesday and Thursday. On Wednesday the customer asks two questions: what happens if we halve the battery, and what does the payback look like at the higher tariff.
 
 Both are ten-minute changes for the person who built the model. Nobody else can make them. The salesperson has the exported PDF and the file path on a machine they cannot use. So the answer goes out on Friday, after the engineer is back, and the customer has spent two days with a competitor's revised numbers in front of them and none from you.
 
@@ -151,6 +156,8 @@ At one or two people that scenario barely occurs, because the person who builds 
 ## Solo Engineer Versus Team Of Five
 
 The same tool, the same quality, two different verdicts. This is an illustrative comparison of workflow shape, not a vendor quote.
+
+Table: PV*SOL for a solo engineer compared with a team of five
 
 | | Solo engineer | Team of five |
 | --- | --- | --- |
@@ -201,8 +208,9 @@ The arrangement many European teams settle on is worth naming as a sensible dest
 
 Three things to do next:
 
-- Count the handovers on one real project, from first estimate to signed quote, and see how many wait on a single machine.
-- Price both models properly, including the spreadsheet time spent on tariffs and proposals rather than only the licence.
+> [!CHECKLIST] Before you buy PV*SOL
+> - Count the handovers on one real project, from first estimate to signed quote, and see how many wait on a single machine.
+> - Price both models properly, including the spreadsheet time spent on tariffs and proposals rather than only the licence.
 
 <div class="inline-cta">
 <h3>Test the handover, not the simulation</h3>

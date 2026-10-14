@@ -4,7 +4,7 @@ excerpt: "AI solar design software went from gimmick to daily driver in 2026. Na
 description: "AI solar design software 2026: natural-language layouts, AI 3D from satellite, shading optimisation. Clara AI vs Aurora AI Mode. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-ai-solar-design-software.webp"
 author: "Nirav Dhanani"
@@ -34,7 +34,7 @@ faqs:
 
 AI solar [design software](https://www.surgepv.com/blog/ai-solar-design-software) went from gimmick to daily driver between 2024 and 2026. The wider [solar design software](/blog/solar-design-software/) category guide ranks every platform; this page covers the AI layer specifically. Natural-language design briefs, AI 3D roof modeling from satellite, and AI shading optimisation are now production-grade features that real teams use every day. This guide covers what works, what does not, and why [Clara AI](https://surgepv.com/clara-ai) inside [SurgePV](https://surgepv.com/) leads the category.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - AI solar design now covers 3D modelling, natural-language draft layouts, and shading optimisation.
 > - [Clara AI](https://surgepv.com/clara-ai) is included on every SurgePV paid plan, no add-on tier.
 > - Aurora AI Mode is a paid add-on of $30 to $50 per user per month.
@@ -64,6 +64,8 @@ Clara AI is a natural-language interface to SurgePV's design canvas. You type th
 You retain full control. Every element is editable. Clara is a draft-generator, not an opaque black box.
 
 ## AI Solar Design Software Across Competing Tools
+
+Table: AI solar design features and pricing across competing tools
 
 | Tool | AI 3D from satellite | Natural-language draft | AI shading optimisation | Included free | Pricing |
 | --- | --- | --- | --- | --- | --- |
@@ -100,9 +102,10 @@ Total time: under 5 minutes for residential.
 
 ## When AI Helps and When It Does Not
 
-**AI helps a lot** on residential rooftops, small C&I, repetitive design patterns, draft proposal copy, and shading optimisation under stable constraints.
-
-**AI helps less** on first-of-its-kind sites with unusual geometry, sites with very specific buyer aesthetic preferences (where the designer's judgement matters), and projects with non-standard code or AHJ rules. In these cases, AI still produces a useful draft that saves the manual placement step, freeing the designer's time toward [sales close](https://quickestimate.co/features/pipeline-management/) and client communication instead of manual layout.
+> [!TIP] Where AI helps and where it does not
+> **AI helps a lot** on residential rooftops, small C&I, repetitive design patterns, draft proposal copy, and shading optimisation under stable constraints.
+>
+> **AI helps less** on first-of-its-kind sites with unusual geometry, sites with very specific buyer aesthetic preferences (where the designer's judgement matters), and projects with non-standard code or AHJ rules. In these cases, AI still produces a useful draft that saves the manual placement step, freeing the designer's time toward [sales close](https://quickestimate.co/features/pipeline-management/) and client communication instead of manual layout.
 
 <div class="inline-cta">
 <h3>Clara AI included, no add-on tier</h3>

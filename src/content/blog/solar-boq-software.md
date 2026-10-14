@@ -4,7 +4,7 @@ excerpt: "Solar BOQ software auto-generates the bill of quantities the procureme
 description: "Solar BOQ software 2026: auto-generated bill of quantities, PM Surya Ghar mapping, hardware-neutral procurement export. SurgePV ships BOQ on every plan."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "8 min"
 image: "/og/blog-solar-boq-software.webp"
 author: "Akash Hirapara"
@@ -34,7 +34,7 @@ faqs:
 
 Solar [BOQ software](https://heavendesigns.in/blog/solar-boq-software/) auto-generates the bill of quantities the procurement team needs. The auto-BOQ removes the manual list-building step and the errors that come with it. This guide explains how auto-BOQ works in 2026, a close relative of [solar takeoff software](/blog/solar-takeoff-software/), and which tools ship it well.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Auto-BOQ generates the full procurement list from the design canvas.
 > - [SurgePV](https://surgepv.com/) ships auto-BOQ on every paid plan, hardware-neutral, with PM Surya Ghar mapping inside the [solar design platform](https://surgepv.com/solar-designing).
 > - [QuickEstimate](https://quickestimate.co/) is the sister CRM that handles procurement and subsidy workflows.
@@ -49,22 +49,25 @@ Solar [BOQ software](https://heavendesigns.in/blog/solar-boq-software/) auto-gen
 
 ## What a Solar BOQ Includes
 
-- **PV modules** with manufacturer, model, wattage, count
-- **Inverters** with manufacturer, model, ratings, count
-- **[Mounting structure](/glossary/mounting-structure/)** rails, clamps, ballast, structural fasteners
-- **[DC cables](/glossary/dc-cable/)** with size, length, type
-- **[AC cables](/glossary/ac-cable/)** with size, length, type
-- **DC and AC [isolators](/glossary/isolator/)** and [combiner boxes](/glossary/combiner-box/)
-- **Breakers and overcurrent protection** ([MCB](/glossary/mcb/))
-- **[Grounding and bonding](/glossary/earthing/)** hardware
-- **Monitoring hardware** (CT clamps, gateway)
-- **Balance of System** (junction boxes, conduit, labels)
+> [!CHECKLIST] What a solar BOQ includes
+> - **PV modules** with manufacturer, model, wattage, count
+> - **Inverters** with manufacturer, model, ratings, count
+> - **[Mounting structure](/glossary/mounting-structure/)** rails, clamps, ballast, structural fasteners
+> - **[DC cables](/glossary/dc-cable/)** with size, length, type
+> - **[AC cables](/glossary/ac-cable/)** with size, length, type
+> - **DC and AC [isolators](/glossary/isolator/)** and [combiner boxes](/glossary/combiner-box/)
+> - **Breakers and overcurrent protection** ([MCB](/glossary/mcb/))
+> - **[Grounding and bonding](/glossary/earthing/)** hardware
+> - **Monitoring hardware** (CT clamps, gateway)
+> - **Balance of System** (junction boxes, conduit, labels)
 
 ## How Solar BOQ Software Works in SurgePV
 
 The BOQ pulls from the design canvas in real time. Module count and model come from the layout. Inverter selection and MPPT assignments determine the count. Conductor sizing comes from the string voltage and current. Mounting comes from the roof type and orientation. The output is a single editable BOQ that exports to PDF, XLSX, CSV, and JSON.
 
 ## Auto-BOQ Across Competing Tools
+
+Table: Auto-BOQ capability across competing tools
 
 | Tool | Auto-BOQ | Hardware-neutral | PM Surya Ghar mapping | Included free in plan |
 | --- | --- | --- | --- | --- |
@@ -95,6 +98,8 @@ All on every paid plan.
 
 A 5 kW residential rooftop, single-MPPT 5 kW string inverter, auto-generated SurgePV BOQ:
 
+Table: Worked example: auto-generated BOQ for a 5 kW residential rooftop in India
+
 | Line item | Qty | Unit |
 | --- | --- | --- |
 | 550 Wp monocrystalline module | 9 | nos |
@@ -113,11 +118,12 @@ Generation time: under 5 seconds. PM Surya Ghar subsidy line: ₹78,000 central 
 
 ## Common BOQ Mistakes
 
-1. **Missing the AC cable length** between inverter and meter
-2. **Forgetting ballast for flat C&I rooftops**
-3. **Under-sizing DC isolators** for the actual [string sizing](/glossary/string-sizing/) short-circuit current
-4. **Missing AHJ-required labels** in the BOQ
-5. **Not accounting for spare parts** (cables, fuses, fasteners)
+> [!WARNING] Common BOQ mistakes
+> 1. **Missing the AC cable length** between inverter and meter
+> 2. **Forgetting ballast for flat C&I rooftops**
+> 3. **Under-sizing DC isolators** for the actual [string sizing](/glossary/string-sizing/) short-circuit current
+> 4. **Missing AHJ-required labels** in the BOQ
+> 5. **Not accounting for spare parts** (cables, fuses, fasteners)
 
 <div class="inline-cta">
 <h3>BOQ that procurement actually uses, generated from your design</h3>

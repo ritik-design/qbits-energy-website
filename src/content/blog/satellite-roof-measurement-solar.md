@@ -4,7 +4,7 @@ excerpt: "Satellite roof measurement now reaches LIDAR-grade accuracy from high-
 description: "Satellite roof measurement for solar 2026: AI 3D roof modeling accuracy vs LIDAR, drone comparison, and the SurgePV workflow. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/og/blog-satellite-roof-measurement-solar.webp"
 author: "Nirav Dhanani"
@@ -34,7 +34,7 @@ faqs:
 
 Satellite [roof measurement](https://heavendesigns.in/blog/satellite-roof-measurement-solar/) for solar has matured to the point where AI 3D modelling from high-resolution imagery rivals drone capture on most rooftops. This guide covers the methodology, accuracy benchmarks, comparison with drone-based approaches, and the [SurgePV](https://surgepv.com/) workflow that ships it on every paid plan.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Modern [satellite imagery](https://www.surgepv.com/blog/solar-satellite-imagery) + AI 3D reaches within ~3% of LIDAR on most rooftops.
 > - [SurgePV](https://surgepv.com/) ships [AI 3D roof modeling](https://surgepv.com/3d-solar-roof-design) from satellite in under 60 seconds on every paid plan.
 > - Drone capture remains useful for complex sites and is importable.
@@ -70,6 +70,8 @@ This level of accuracy is sufficient for shading simulation, [BOQ generation](/b
 
 ## Satellite vs Drone Capture
 
+Table: Satellite and drone capture compared by dimension
+
 | Dimension | Satellite (SurgePV) | Drone (Scanifly) |
 | --- | --- | --- |
 | Speed per site | Under 60 seconds | Hours including travel |
@@ -94,7 +96,8 @@ All included on every paid plan at $1,299 to $1,899 per user per year.
 
 ## Limitations to Know
 
-Satellite-derived AI 3D struggles on sites with very dense tree canopy, very recent construction not yet in current imagery, and unusual geometry like curved roofs. For those sites, drone capture remains the right call, a proper site survey and land feasibility check is worth the trip, and SurgePV supports drone-model import as a base layer.
+> [!WARNING] Where satellite-derived 3D struggles
+> Satellite-derived AI 3D struggles on sites with very dense tree canopy, very recent construction not yet in current imagery, and unusual geometry like curved roofs. For those sites, drone capture remains the right call, a proper site survey and land feasibility check is worth the trip, and SurgePV supports drone-model import as a base layer.
 
 ## Who Should Choose Each Approach
 

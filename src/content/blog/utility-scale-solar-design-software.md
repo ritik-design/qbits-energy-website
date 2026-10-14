@@ -4,7 +4,7 @@ excerpt: "Utility-scale solar design software compared for terrain, trackers, DC
 description: "How to choose utility-scale solar design software: terrain and GIS import, tracker modelling, DC/AC ratio, cable loss, P50/P90 bankability and India-specific ALMM, DCR and CEA constraints."
 category: Solar Software
 date: 2026-06-14
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 13 min
 image: "/og/blog-utility-scale-solar-design-software.webp"
 author: Nirav Dhanani
@@ -46,10 +46,9 @@ That changes which tools qualify. Several popular products carry hard design siz
 
 This guide covers terrain and geographic information system (GIS) import, array topology, the tracker decision, worked DC/AC and P90 calculations, string and cable layout, bankable yield reports, a priced tool comparison, India-specific ALMM, DCR and grid constraints, and where automation fails.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - HelioScope caps designs at 1.25 MW DC, 5 MW DC and 30 MW DC across its three tiers, and restricts trackers and PVsyst export to Enterprise (HelioScope pricing, 2026).
-> - PVsyst Professional is published at CHF 700 per licence per year, 20% off at 10 or more licences (PVsyst shop, 2026). PVcase and RatedPower publish no prices at all.
-> - PlantPredict lists Basic free, Core at $1,500 per seat per year and Pro at $3,000, with P50/P90 uncertainty a separate $15,000 per year extension (Terabase Energy, 2026).
+> - PVsyst Professional is published at CHF 700 per licence per year, 20% off at 10 or more licences (PVsyst shop, 2026). PVcase and RatedPower publish no prices at all. PlantPredict lists Basic free, Core at $1,500 per seat per year and Pro at $3,000, with P50/P90 uncertainty a separate $15,000 per year extension (Terabase Energy, 2026).
 > - Horizontal single-axis trackers delivered 15% to 23% higher specific yield than fixed tilt across three Indian states (SgurrEnergy, April 2026).
 > - Combined uncertainty on a bankable yield assessment can approach 10%, dominated by satellite resource uncertainty of 7.5% or higher (SgurrEnergy, 2026).
 > - Design software does not check ALMM or domestic content eligibility. Those are procurement conditions, and they vary by scheme and state.
@@ -69,7 +68,8 @@ What to test in a trial, in order:
 5. Change the module model and confirm row geometry, string counts and cable schedules all update together.
 6. Export to the yield engine and verify the shade scene matches the CAD geometry.
 
-Step 6 is where teams lose a week. A tool that writes the shade scene straight into the yield engine removes a manual rebuild. Confirm that export exists for your engine before you sign.
+> [!TIP] Confirm the shade-scene export before you sign
+> Step 6 is where teams lose a week. A tool that writes the shade scene straight into the yield engine removes a manual rebuild. Confirm that export exists for your engine before you sign.
 
 ## Large-array topology: blocks, power stations and feeders
 
@@ -87,6 +87,8 @@ The same assessment stresses site-by-site evaluation. Trackers need flatter grou
 
 The software question is narrower. Can the tool model backtracking correctly on slope, apply the supplier's slope and stow limits, and produce two comparable files? Many tools draw trackers. Fewer refuse to draw a row that violates the slope tolerance.
 
+Table: Fixed tilt compared with horizontal single-axis tracker
+
 | Consideration | Fixed tilt | Horizontal single-axis tracker |
 | --- | --- | --- |
 | Specific yield, SgurrEnergy India cases | Baseline | 15% to 23% higher |
@@ -99,17 +101,18 @@ The software question is narrower. Can the tool model backtracking correctly on 
 
 Oversizing DC against inverter AC capacity raises annual yield and flattens the generation curve, at the cost of clipped energy at peak. At utility scale the optimum is a financial calculation, not a default. The arithmetic below uses assumed inputs. It is not measured plant data.
 
-**Worked example, one block.**
-
-- Inverter station AC capacity: 4,000 kW
-- Module DC capacity in the block: 5,200 kWp
-- DC/AC ratio: 5,200 / 4,000 = **1.30**
-- Temperature coefficient of maximum power: 0.34% per °C above 25 °C (use your PAN file value)
-- Assumed module temperature at peak: 55 °C, so loss = (55 − 25) × 0.34% = 10.2%
-- DC power at peak after temperature: 5,200 × 0.898 = 4,670 kW
-- After assumed 3% DC cable and mismatch losses: 4,530 kW
-- DC input needed for 4,000 kW AC at 98.5% efficiency: 4,000 / 0.985 = 4,061 kW
-- Instantaneous clipping at peak: 4,530 − 4,061 = **469 kW**
+> [!EXAMPLE] One block at 1.30 DC/AC ratio
+> **Worked example, one block.**
+>
+> - Inverter station AC capacity: 4,000 kW
+> - Module DC capacity in the block: 5,200 kWp
+> - DC/AC ratio: 5,200 / 4,000 = **1.30**
+> - Temperature coefficient of maximum power: 0.34% per °C above 25 °C (use your PAN file value)
+> - Assumed module temperature at peak: 55 °C, so loss = (55 − 25) × 0.34% = 10.2%
+> - DC power at peak after temperature: 5,200 × 0.898 = 4,670 kW
+> - After assumed 3% DC cable and mismatch losses: 4,530 kW
+> - DC input needed for 4,000 kW AC at 98.5% efficiency: 4,000 / 0.985 = 4,061 kW
+> - Instantaneous clipping at peak: 4,530 − 4,061 = **469 kW**
 
 Instantaneous clipping looks alarming at 10.4% of available DC. Annual clipping does not. Assume the block spends 250 hours a year above that threshold, at an average excess of 200 kW, so 50,000 kWh is clipped. At an assumed 1,750 kWh/kWp specific yield, block output is 9,100,000 kWh, and clipping costs 0.55% of the year.
 
@@ -119,12 +122,13 @@ That is the trade: half a percent of peak-hour energy for 30% more module capaci
 
 A layout that looks correct can still be electrically illegal. It fixes three things the inverter must accept: modules per string, strings per input, and DC/AC ratio. All three change when terrain forces a row to shorten. Run these checks after every revision, not once at the end.
 
-1. Module open-circuit voltage at the coldest design temperature, times modules per string, against inverter maximum DC input voltage.
-2. Maximum power point voltage across the operating temperature range, against the inverter tracking window.
-3. String short-circuit and operating current against the per-input limit, including bifacial rear-side gain.
-4. Combiner output current against conductor and protection device ratings.
-5. Voltage drop on the longest DC home run and longest medium-voltage feeder, reported separately.
-6. Earthing, surge protection and arc-fault provisions per the applicable standard.
+> [!CHECKLIST] String and cable checks before you call a layout valid
+> - Module open-circuit voltage at the coldest design temperature, times modules per string, against inverter maximum DC input voltage.
+> - Maximum power point voltage across the operating temperature range, against the inverter tracking window.
+> - String short-circuit and operating current against the per-input limit, including bifacial rear-side gain.
+> - Combiner output current against conductor and protection device ratings.
+> - Voltage drop on the longest DC home run and longest medium-voltage feeder, reported separately.
+> - Earthing, surge protection and arc-fault provisions per the applicable standard.
 
 Indian overcurrent protection sizing is set out in the [string sizing and overcurrent protection guide](/blog/solar-string-sizing-ocp-india/). For a first-pass voltage window check, the [string sizing calculator](/string-sizing-calculator/) is a quick screen and nothing more. A utility electrical design needs the manufacturer's current datasheet, available from the [datasheet library](/download-datasheets/), plus a stamped review.
 
@@ -172,6 +176,8 @@ One number to internalise: modelling software contributes about 2% uncertainty, 
 
 No tool covers layout, engineering output and bankable yield equally well. The table sorts by the job each product is bought for, with pricing as published by each vendor in 2026.
 
+Table: Utility-scale design tools compared by job, terrain handling, yield role and pricing model
+
 | Tool | Primary job above 30 MW | Terrain and GIS | Yield role | Pricing model, 2026 |
 | --- | --- | --- | --- | --- |
 | PVsyst | Bankable yield report | Shade scene import only | Primary, lender-recognised | CHF 700 per licence per year, 20% off at 10 or more (PVsyst shop) |
@@ -182,7 +188,8 @@ No tool covers layout, engineering output and bankable yield equally well. The t
 | Aurora Solar | Residential and commercial proposals | Roof and site models only | Own engine, proposal grade | Basic $1,620, Premium $2,640 per user per year (Aurora Solar) |
 | AutoCAD or Civil 3D | Drawing system of record, civil design | Native survey and grading | None, hosts plug-ins | Separate Autodesk subscription per seat |
 
-The HelioScope caps deserve naming plainly, because they are the most common tool-selection mismatch. Published design limits are 1.25 MW DC on Basic, 5 MW DC on Pro and 30 MW DC on Enterprise, with trackers and PVsyst export restricted to Enterprise (HelioScope pricing page, 2026). Below those limits it is a good tool with a fast workflow. Above them it is the wrong product.
+> [!WARNING] HelioScope design limits above 5 MW DC
+> The HelioScope caps deserve naming plainly, because they are the most common tool-selection mismatch. Published design limits are 1.25 MW DC on Basic, 5 MW DC on Pro and 30 MW DC on Enterprise, with trackers and PVsyst export restricted to Enterprise (HelioScope pricing page, 2026). Below those limits it is a good tool with a fast workflow. Above them it is the wrong product.
 
 One pricing pattern to plan around. The two strongest layout tools publish nothing, so budget a procurement cycle, not a card payment. PVsyst is fully public, and the [PVsyst pricing breakdown](/blog/pvsyst-price/) covers its licence tiers and watermark restrictions. PlantPredict also sells P50/P90 uncertainty as a separate PowerUQ extension at $15,000 a year, and DXF export from $7,500 (Terabase Energy, 2026). Add-ons can exceed the seat cost.
 

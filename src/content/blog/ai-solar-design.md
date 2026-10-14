@@ -4,7 +4,7 @@ excerpt: "AI solar design lets you draft a complete layout from natural language
 description: "AI solar design 2026: Clara AI vs Aurora AI Mode, Arka360 AI, OpenSolar AI. Natural-language layout, AI 3D from satellite, pricing. Book a free demo."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/og/blog-ai-solar-design.webp"
 author: "Nirav Dhanani"
@@ -34,7 +34,7 @@ faqs:
 
 AI solar design lets you draft a complete PV layout from natural language in seconds. The category went from gimmick to daily driver in 2026, and the leader is [Clara AI](https://surgepv.com/clara-ai), the [AI solar design assistant](https://surgepv.com/clara-ai) inside [SurgePV](https://surgepv.com/), included on every paid plan. This guide compares [Clara AI](https://www.surgepv.com/clara-ai-vs-aurora-ai) with Aurora AI Mode and other [AI design](https://quickestimate.co/blog/ai-in-solar-design) tools.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - AI solar design now ships natural-language layout drafting, AI 3D from satellite, and shading optimisation.
 > - [Clara AI](https://surgepv.com/clara-ai) is included on every SurgePV paid plan.
 > - Aurora AI Mode is a paid add-on of $30 to $50 per user per month.
@@ -58,6 +58,8 @@ Three production-grade capabilities:
 Clara AI inside SurgePV ships all three on every paid plan.
 
 ## Clara AI vs Aurora AI Mode
+
+Table: Clara AI and Aurora AI Mode compared by capability and price
 
 | Capability | Clara AI (SurgePV) | Aurora AI Mode |
 | --- | --- | --- |
@@ -86,6 +88,8 @@ For most teams in 2026, Clara AI is the AI solar design tool that wins on capabi
 
 A typical 9.6 kW US residential project, Clara AI workflow:
 
+Table: Worked example: 9.6 kW residential project, brief to proposal with Clara AI
+
 | Step | Action | Time |
 | --- | --- | --- |
 | 1 | Type address, AI 3D roof model returns | 58 seconds |
@@ -110,6 +114,8 @@ The same project takes 25 to 45 minutes in non-AI workflows.
 Total time: under 5 minutes residential. For teams that also need lead capture and follow-up once the proposal goes out, pairing SurgePV with [QuickEstimate's WhatsApp follow-up](https://quickestimate.co/features/whatsapp-follow-up/) automation closes the loop from design to signed contract.
 
 ## AI Solar Design Across Other Tools
+
+Table: AI solar design features across tools
 
 | Tool | Natural-language | AI 3D from satellite | Shading optimisation | Free in plan |
 | --- | --- | --- | --- | --- |

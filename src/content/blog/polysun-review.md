@@ -4,7 +4,7 @@ excerpt: "An honest Polysun review for 2026. What Vela Solaris built, why couple
 description: "Polysun review 2026: Vela Solaris' multi-energy simulation tool for PV, solar thermal, heat pumps and hot water. Editions, unpublished pricing, real strengths, limitations, and alternatives."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-polysun-review.webp"
 author: "Keyur Rakholiya"
@@ -37,7 +37,7 @@ featured: false
 
 Most solar [design software](https://quickestimate.co/blog/solar-design-software-pricing) makes the same assumption before you draw a single module: the system is a PV array, and everything else is context. [Polysun](/blog/polysun-alternative/) does not make that assumption. Vela Solaris built it to simulate photovoltaics, solar thermal collectors, heat pumps, and hot water storage together in one coupled model, which is a genuinely different starting point and produces a genuinely different tool. This review covers what Polysun is, what Vela Solaris actually publishes about pricing, where the software earns its reputation, where it stops fitting the buyer, and which alternatives are worth putting beside it. The short framing to carry through: Polysun is the right tool when a project couples PV with heating, and an unusual choice for a plain rooftop PV quote.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Polysun simulates PV together with solar thermal, heat pumps, hot water, hybrid PVT panels, and heat networks in one coupled model, which is outside the scope of most PV design tools.
 > - Vela Solaris does not publish prices. The pricing page lists editions and a 30-day free trial and directs buyers to the shop or to contact sales.
 > - Four editions are listed: Polysun Standard, Polysun Designer, Polysun SPT, and Polysun Enterprise and API, plus student and educational licences.
@@ -64,6 +64,8 @@ Vela Solaris does not publish prices. That is a statement of fact about the publ
 
 The pricing page lists the product tiers, notes a 30-day free trial on each, and offers purchase or lease options, then routes the buyer to an online shop or a contact form for the actual number. There is no per-seat figure, no currency, and no billing period shown publicly.
 
+Table: Polysun editions, what each is positioned for and published price
+
 | Edition | What Vela Solaris positions it for | Published price |
 | --- | --- | --- |
 | Polysun Standard | Customised energy system solutions with variant comparison | Not published |
@@ -73,7 +75,8 @@ The pricing page lists the product tiers, notes a 30-day free trial on each, and
 | Polysun Designer Student | Non-commercial use, valid student ID required | Not published |
 | Polysun Educational | Lecturers and universities | Not published |
 
-A practical warning. Several third-party download aggregators and old software directories carry a dollar figure for Polysun. Those entries are stale and we could not verify any of them against Vela Solaris, so we are not repeating them here. Ask the vendor for a written quote against your edition and seat count, and ask specifically whether you are buying a perpetual licence or leasing, because the page offers both.
+> [!WARNING] Stale third-party Polysun prices
+> A practical warning. Several third-party download aggregators and old software directories carry a dollar figure for Polysun. Those entries are stale and we could not verify any of them against Vela Solaris, so we are not repeating them here. Ask the vendor for a written quote against your edition and seat count, and ask specifically whether you are buying a perpetual licence or leasing, because the page offers both.
 
 By way of a reference point on the PV side of the market, SurgePV publishes $1,299 to $1,899 per user per year depending on team size, covering design, shading, financial modelling, and proposals in one licence. That is a different product solving a different problem, but it is the number most PV teams will be comparing against when they evaluate anything.
 
@@ -108,6 +111,8 @@ By way of a reference point on the PV side of the market, SurgePV publishes $1,2
 
 **Opaque pricing slows evaluation.** Not publishing figures is a legitimate commercial choice for a product with six editions and enterprise deployments. It still means you cannot shortlist on budget without a sales conversation, which costs time when you are comparing five tools.
 
+Table: Polysun strengths and limitations by dimension
+
 | Dimension | Polysun strength | Polysun limitation |
 | --- | --- | --- |
 | Multi-energy coupling | PV, thermal, heat pump, hot water in one model | Irrelevant if heating is out of scope |
@@ -120,7 +125,8 @@ By way of a reference point on the PV side of the market, SurgePV publishes $1,2
 
 Entries reflect publicly available Vela Solaris information at the time of writing. Confirm current scope and deployment options with the vendor.
 
-> **What most buyers get wrong.** They compare Polysun against PVsyst or Aurora on PV features and conclude it is a weaker PV tool. That comparison answers the wrong question. Polysun's case rests entirely on whether your projects couple electricity and heat. If they do, the PV-only tools are not really on the shortlist. If they do not, Polysun is not really on it either.
+> [!TIP] What most buyers get wrong about Polysun
+> They compare Polysun against PVsyst or Aurora on PV features and conclude it is a weaker PV tool. That comparison answers the wrong question. Polysun's case rests entirely on whether your projects couple electricity and heat. If they do, the PV-only tools are not really on the shortlist. If they do not, Polysun is not really on it either.
 
 ## Who Should Buy Polysun
 
@@ -170,9 +176,10 @@ So the recommendation splits cleanly. If your projects couple PV with heating, P
 
 Three things to do next:
 
-- Write down whether heating is inside your project scope on more than a quarter of jobs, because that answer decides the shortlist by itself.
-- Run the 30-day trial on one real coupled project and one plain PV project, and time both.
-- Request a written quote naming the edition, seat count, and whether it is purchase or lease, since none of that is public.
+> [!CHECKLIST] Before you buy Polysun
+> - Write down whether heating is inside your project scope on more than a quarter of jobs, because that answer decides the shortlist by itself.
+> - Run the 30-day trial on one real coupled project and one plain PV project, and time both.
+> - Request a written quote naming the edition, seat count, and whether it is purchase or lease, since none of that is public.
 
 <div class="inline-cta">
 <h3>Run the comparison on your own projects</h3>

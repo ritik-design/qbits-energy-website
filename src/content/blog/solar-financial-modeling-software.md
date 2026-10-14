@@ -4,7 +4,7 @@ excerpt: "Solar financial modeling software turns yield into cashflow, IRR, and 
 description: "Solar financial modeling software 2026: cashflow, IRR, NPV, and country tariffs (PM Surya Ghar, SREC, FiT). SurgePV ships it on every plan."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-financial-modeling-software.webp"
 author: "Akash Hirapara"
@@ -34,7 +34,7 @@ faqs:
 
 Solar [financial modeling](https://www.surgepv.com/hub/solar-designing/financial-modeling) software turns the bankable yield simulation into cashflow, IRR, NPV, and payback that closes the deal. The right tool ties yield to tariffs, supports loan/lease/PPA structures, and produces lender-ready outputs. This guide compares the 2026 options and explains why [SurgePV](https://surgepv.com/) consolidates the stack, alongside the broader [solar design software](/blog/solar-design-software/) landscape it sits inside.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Financial modelling turns yield into cashflow, IRR, NPV, and buyer-facing projections.
 > - [SurgePV](https://surgepv.com/) ships [solar financial modeling](https://surgepv.com/generation-financial-tool) on every paid plan, tied to bankable yield.
 > - Country tariffs (PM Surya Ghar, SREC, FiT, ToU, Einspeisevergütung) baked in.
@@ -49,18 +49,21 @@ Solar [financial modeling](https://www.surgepv.com/hub/solar-designing/financial
 
 ## What Solar Financial Modeling Computes
 
-- **Annual revenue** from yield × tariff per kWh
-- **Subsidy recognition** ([PM Surya Ghar](/glossary/pm-surya-ghar/), SREC, ITC)
-- **OPEX** (cleaning, monitoring, insurance, replacement reserves)
-- **Loan repayment** schedule
-- **Lease structure** if applicable
-- **[PPA](/glossary/ppa/) cashflow** with escalation
-- **[Accelerated depreciation](/glossary/accelerated-depreciation/)** schedule
-- **Cashflow** annual and cumulative
-- **[IRR](/glossary/irr/), [NPV](/glossary/npv/), [payback period](/glossary/payback-period/)**
-- **Sensitivity analysis** on key assumptions
+> [!CHECKLIST] What a solar financial model should compute
+> - **Annual revenue** from yield × tariff per kWh
+> - **Subsidy recognition** ([PM Surya Ghar](/glossary/pm-surya-ghar/), SREC, ITC)
+> - **OPEX** (cleaning, monitoring, insurance, replacement reserves)
+> - **Loan repayment** schedule
+> - **Lease structure** if applicable
+> - **[PPA](/glossary/ppa/) cashflow** with escalation
+> - **[Accelerated depreciation](/glossary/accelerated-depreciation/)** schedule
+> - **Cashflow** annual and cumulative
+> - **[IRR](/glossary/irr/), [NPV](/glossary/npv/), [payback period](/glossary/payback-period/)**
+> - **Sensitivity analysis** on key assumptions
 
 ## Country Tariff Coverage in SurgePV
+
+Table: Tariff structures supported in SurgePV, by country
 
 | Country | Tariff structures supported |
 | --- | --- |
@@ -90,6 +93,8 @@ All on every paid plan at $1,299 to $1,899 per user per year.
 
 ## Financial Modelling Across Competing Tools
 
+Table: Financial modelling across competing tools
+
 | Tool | Cashflow | IRR/NPV | Country tariffs | PPA/lease | Integrated with simulation |
 | --- | --- | --- | --- | --- | --- |
 | **SurgePV** | Yes | Yes | Global | Yes | Same project |
@@ -102,17 +107,18 @@ All on every paid plan at $1,299 to $1,899 per user per year.
 
 ## Real Example: 5 kW Residential in Pune
 
-- Capex: ₹2,50,000
-- Yield (P50, SurgePV): 7,500 kWh/year
-- Tariff: PM Surya Ghar (₹78,000 central subsidy) + net metering at ₹6.50/kWh
-- OPEX: ₹2,000/year
-- Loan: ₹1,72,000 at 8% for 5 years
-
-SurgePV's financial model produces:
-- Year-1 net cash inflow: ₹46,750
-- Payback: 4.2 years (post-subsidy)
-- 25-year IRR: 19.4%
-- 25-year NPV at 8% [discount rate](/glossary/discount-rate/): ₹6,20,000
+> [!EXAMPLE] 5 kW residential in Pune: inputs and model output
+> - Capex: ₹2,50,000
+> - Yield (P50, SurgePV): 7,500 kWh/year
+> - Tariff: PM Surya Ghar (₹78,000 central subsidy) + net metering at ₹6.50/kWh
+> - OPEX: ₹2,000/year
+> - Loan: ₹1,72,000 at 8% for 5 years
+>
+> SurgePV's financial model produces:
+> - Year-1 net cash inflow: ₹46,750
+> - Payback: 4.2 years (post-subsidy)
+> - 25-year IRR: 19.4%
+> - 25-year NPV at 8% [discount rate](/glossary/discount-rate/): ₹6,20,000
 
 That payback math assumes a properly sized [residential on-grid inverter](/on-grid-inverter/) hitting its rated efficiency band; undersizing or oversizing the inverter against the array shifts the IRR by a point or more.
 

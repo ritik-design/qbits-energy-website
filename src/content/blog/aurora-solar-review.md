@@ -4,7 +4,7 @@ excerpt: "An honest Aurora Solar review for 2026. How its quote-based pricing wo
 description: "Aurora Solar review 2026: quote-based pricing with no published list price, the add-on structure behind it, real strengths in US residential design, and the limitations buyers should test before signing."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-aurora-solar-review.webp"
 author: "Keyur Rakholiya"
@@ -37,7 +37,7 @@ featured: false
 
 Aurora Solar is the platform most people picture when they think of solar [design software](https://heavendesigns.in/blog/solar-design-software-pricing/) in the United States, and that reputation is largely earned. It solved a real problem before anyone else did: designing an accurate rooftop system without sending a person to the roof. This review looks at what Aurora costs in 2026, what it does better than its competitors, where it stops fitting the buyer, and which alternatives deserve a look before you sign an annual contract. We have used Aurora alongside HelioScope, PVsyst, and SurgePV on live projects, so the criticisms here are the ones that showed up in practice rather than the ones that read well in a comparison table.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Aurora is quote-based and does not publish a list price. Reported figures vary, commonly cited at roughly $159 to $259 per user per month, about $1,908 to $3,108 per user per year, with AI Mode and Sales Mode licensed separately. Confirm with the vendor.
 > - Build a five-seat quote on those reported bands and the total lands well above the headline seat price, which is the number buyers should budget against.
 > - It is genuinely excellent at US residential remote assessment, LIDAR-backed roof modelling, shading, and the customer-facing sales presentation.
@@ -60,6 +60,8 @@ Aurora does not publish a public price list, so its pricing is quote-based and r
 
 The complication is the packaging. Aurora describes AI Mode, the automated design assistant, and Sales Mode, the customer-facing presentation and close workflow, as separately licensed rather than bundled into the base design product, and Lite Mode seats for canvassers as lower cost with a restricted feature set. So a team rarely buys one thing at one price. A designer needs the full design seat and probably AI Mode; a salesperson needs Sales Mode; a canvasser needs Lite. Our [Aurora Solar pricing breakdown](/blog/aurora-solar-pricing/) goes tier by tier.
 
+Table: Aurora plan and add-on reported prices, with SurgePV plans for comparison
+
 | Plan or product | Reported price | What you get |
 | --- | --- | --- |
 | Aurora Design, entry | ~$159 / user / month (~$1,908 / yr) | Core design, layout, basic analysis |
@@ -71,7 +73,8 @@ The complication is the packaging. Aurora describes AI Mode, the automated desig
 | SurgePV 3-User Team | $1,499 / user / yr | Same, up to 3 seats |
 | SurgePV 5-User Team | $1,299 / user / yr | Same, up to 5 seats |
 
-**Illustrative five-seat comparison.** This is a worked example, not a quote from either vendor. Take a team of two designers on full Aurora seats with AI Mode and three sellers on Sales Mode. Priced off the reported bands above, and depending on tier and contract, that mix works out somewhere between $14,000 and $18,000 a year. Aurora is quote-based, so this is arithmetic on reported figures rather than a price Aurora has quoted. The same five people on SurgePV's 5-User Team plan at $1,299 per user per year cost $6,495, because design and proposals sit in one licence. The gap is roughly $7,500 to $11,500 a year. Confirm current pricing with both vendors before you budget against these numbers.
+> [!EXAMPLE] Five-seat team: Aurora versus SurgePV (illustrative)
+> **Illustrative five-seat comparison.** This is a worked example, not a quote from either vendor. Take a team of two designers on full Aurora seats with AI Mode and three sellers on Sales Mode. Priced off the reported bands above, and depending on tier and contract, that mix works out somewhere between $14,000 and $18,000 a year. Aurora is quote-based, so this is arithmetic on reported figures rather than a price Aurora has quoted. The same five people on SurgePV's 5-User Team plan at $1,299 per user per year cost $6,495, because design and proposals sit in one licence. The gap is roughly $7,500 to $11,500 a year. Confirm current pricing with both vendors before you budget against these numbers.
 
 <div class="inline-cta">
 <h3>Put both tools on the same project before you renew</h3>
@@ -104,6 +107,8 @@ Credit where it is due. These are real strengths, not politeness.
 
 **Heavier than simple residential work requires.** A 6 kW system on a clean gable roof does not need remote LIDAR reconstruction, an AI design pass, and a multi-scenario financing presentation. For installers whose mix is dominated by straightforward jobs, a lot of the platform is capability you carry rather than capability you use, and the interface complexity slows new hires down.
 
+Table: Aurora strengths and limitations by dimension
+
 | Dimension | Aurora strength | Aurora limitation |
 | --- | --- | --- |
 | Roof modelling | LIDAR-backed, accurate, removes site visits | Overkill on simple roofs |
@@ -114,7 +119,8 @@ Credit where it is due. These are real strengths, not politeness.
 | Pricing | Predictable per seat | Scales with headcount, add-ons stack |
 | Commercial projects | Capable | Not the product's centre of gravity |
 
-> **What most buyers get wrong.** They evaluate Aurora on design accuracy, which it will pass, and skip the seat-mix question, which is what actually decides whether the contract hurts. Price the configuration your team will really run, including the people who open projects twice a month, before you compare it to anything else.
+> [!TIP] What most buyers get wrong when evaluating Aurora
+> They evaluate Aurora on design accuracy, which it will pass, and skip the seat-mix question, which is what actually decides whether the contract hurts. Price the configuration your team will really run, including the people who open projects twice a month, before you compare it to anything else.
 
 <div class="inline-cta">
 <h3>See what one licence covering design and proposals looks like</h3>
@@ -163,9 +169,10 @@ That is why our recommendation for most buyers is SurgePV. Not because Aurora is
 
 Three things to do next:
 
-- Get a full Aurora quote with your real seat mix, including AI Mode and Sales Mode, before comparing anything.
-- Rebuild three recent projects in a competing tool and compare output quality, not feature lists.
-- Decide whether the tool needs to handle any market outside the United States in the next two years, because that answer decides the shortlist on its own.
+> [!CHECKLIST] Before you sign an Aurora contract
+> - Get a full Aurora quote with your real seat mix, including AI Mode and Sales Mode, before comparing anything.
+> - Rebuild three recent projects in a competing tool and compare output quality, not feature lists.
+> - Decide whether the tool needs to handle any market outside the United States in the next two years, because that answer decides the shortlist on its own.
 
 <div class="inline-cta">
 <h3>Run the comparison on your own projects</h3>

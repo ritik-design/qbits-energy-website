@@ -4,7 +4,7 @@ excerpt: "Aurora is tracked at roughly $159 to $259 per user per month by third 
 description: "Aurora vs OpenSolar in 2026: pricing, AI, 8,760-hour shading, proposals compared. Plus the SurgePV flat per-seat alternative. Compare plans now."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-aurora-vs-opensolar.webp"
 author: "Nirav Dhanani"
@@ -34,7 +34,7 @@ faqs:
 
 Aurora and OpenSolar sit at opposite ends of the [residential solar design software](/blog/residential-solar-design-software/) market. Aurora is the premium US-residential pick. OpenSolar leads with a free tier, describing its model as free to installers and funded through partner and marketplace relationships. Both have ceilings. This guide compares them honestly and introduces the third option: [SurgePV](https://surgepv.com/) ships engineering depth plus proposals at flat per-seat cost.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Aurora is residential-premium, tracked by third parties at roughly $159 to $259 per user per month, with AI Mode and Sales Mode extra.
 > - OpenSolar leads with a free tier and describes its model as free to installers, funded through partner and marketplace relationships, with some paid extensions.
 > - Neither ships bankable simulation plus integrated proposals at low total cost.
@@ -49,6 +49,8 @@ Aurora and OpenSolar sit at opposite ends of the [residential solar design softw
 </div>
 
 ## Aurora vs OpenSolar at a Glance
+
+Table: Aurora, OpenSolar and SurgePV compared by capability
 
 | Capability | Aurora Solar | OpenSolar | SurgePV |
 | --- | --- | --- | --- |
@@ -84,6 +86,14 @@ Free entry tier for installers running simple residential roofs. Active communit
 - **[QuickEstimate](https://quickestimate.co/)** as the sister CRM
 
 ## Pricing Comparison
+
+Table: Annual cost by team size, as listed in the sections below (Aurora and OpenSolar figures as stated in this post)
+
+| Team | Aurora (Entry or Mid + AI Mode + Sales Mode) | OpenSolar (free + extensions, realised) | SurgePV (flat) |
+| --- | --- | --- | --- |
+| 1-seat solo residential designer | ~$2,500 to $3,000 per year | $1,000 to $1,800 per year | $1,899 per year |
+| 3-seat residential team | ~$10,000 to $12,000 per year | $3,500 to $6,000 per year | $4,497 per year |
+| 5-seat residential + small C&I team | $14,000 to $18,000 per year | $6,000 to $10,000 per year | $6,495 per year |
 
 ### 1-seat solo residential designer
 - Aurora Entry + AI Mode + Sales Mode: ~$2,500 to $3,000 per year

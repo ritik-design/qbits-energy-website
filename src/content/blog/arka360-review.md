@@ -4,7 +4,7 @@ excerpt: "An honest Arka 360 review for 2026. Real pricing in INR and USD, genui
 description: "Arka 360 review 2026: India pricing from Rs 46,000 to Rs 1,00,000 a year, US pricing from $1,699 to $9,999, real strengths in Indian residential design, and where the fit ends."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-arka360-review.webp"
 author: "Nirav Dhanani"
@@ -37,7 +37,7 @@ featured: false
 
 Arka 360 is the solar design platform most Indian installers name first, and that position was earned the hard way. It was built in Bengaluru by a team that watched Indian rooftop quoting up close, rather than being a US product with a rupee sign bolted onto the financial model. That distinction matters more than most feature comparisons admit. This review covers what Arka 360 costs in 2026, what it genuinely does well, where the fit runs out, and which alternatives deserve a look before you commit to an annual plan. Where we could not verify a claim about the product, we left it out rather than filling the gap with a guess.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Arka 360 publishes India pricing at ₹7,500 to ₹16,500 a month, or ₹46,000 to ₹1,00,000 a year, plus 18% GST.
 > - US pricing is published at $159 to $999 a month, or $1,699 to $9,999 a year.
 > - It is genuinely strong on Indian residential workflow, browser-based access, 3D shading reports, and sales proposals from one project file.
@@ -57,6 +57,8 @@ The origin story matters commercially. Most solar design software sold in India 
 ## Arka 360 Pricing in 2026
 
 Arka 360 publishes prices openly, which is unusual in this category and worth crediting. The plans differ by region, so the India list and the US list are separate products in commercial terms.
+
+Table: Arka 360 plan prices in India and the US, with SurgePV plans for comparison
 
 | Plan | India price | US price | Notable inclusions |
 | --- | --- | --- | --- |
@@ -102,7 +104,8 @@ We are only going to state limits we are confident about. There are plenty of th
 
 **Plan-level project caps at the entry tier.** The Lite plan is capped at 360 residential projects. For a solo designer that is generous. For a growing team it is a ceiling you will hit, and the step up to Basic is a 52% increase in annual cost. Worth modelling before you anchor on the ₹46,000 number.
 
-> **What most buyers get wrong.** They compare Arka 360 against a US platform on design features and conclude it is the cheaper option. The real question is different: what does your next two years of pipeline look like? If it is Indian residential, Arka's fit is strong and the price is fair. If it includes bankable C&I or a second country, you are comparing one licence against two.
+> [!TIP] What most buyers get wrong about Arka 360
+> They compare Arka 360 against a US platform on design features and conclude it is the cheaper option. The real question is different: what does your next two years of pipeline look like? If it is Indian residential, Arka's fit is strong and the price is fair. If it includes bankable C&I or a second country, you are comparing one licence against two.
 
 <div class="inline-cta">
 <h3>One licence for design, bankable yield, and proposals</h3>
@@ -112,6 +115,8 @@ We are only going to state limits we are confident about. There are plenty of th
 </div>
 
 ## Capability Comparison
+
+Table: Arka 360, SurgePV and PVsyst compared by dimension
 
 | Dimension | Arka 360 | SurgePV | PVsyst |
 | --- | --- | --- | --- |
@@ -130,13 +135,14 @@ The honest reading of that table is that these are three products solving overla
 
 ## An Illustrative Example: A Coimbatore EPC Choosing Between Them
 
-This is a worked illustration, not a real customer. Take an EPC with four designers doing roughly 70% residential rooftop under PM Surya Ghar and 30% small commercial in Tamil Nadu.
-
-On the Arka 360 side, Premium at ₹1,00,000 a year plus 18% GST is ₹1,18,000. If that licenses the whole account, it is the cheapest credible option on the table and the decision is straightforward. If it is per seat, four designers land near ₹4,72,000, roughly $5,600 at 2026 rates, which is close to SurgePV's five-seat arithmetic of $1,299 times four, or $5,196. That single contract question moves the answer, which is why it is the first thing to ask.
-
-Now change one variable. The EPC wins a 900 kW captive rooftop that a bank will finance. That project needs a yield report the lender accepts. On the Arka path, the design is exported to PVsyst and the bankable run happens there, adding a licence and a reconciliation step. On the SurgePV path, the P90 comes out of the same project file that produced the layout.
-
-Change one more. The same EPC opens a branch in Sri Lanka. Regional editions mean a second setup and a second commercial conversation. A single multi-country licence does not.
+> [!EXAMPLE] Illustrative: a Coimbatore EPC choosing between tools
+> This is a worked illustration, not a real customer. Take an EPC with four designers doing roughly 70% residential rooftop under PM Surya Ghar and 30% small commercial in Tamil Nadu.
+>
+> On the Arka 360 side, Premium at ₹1,00,000 a year plus 18% GST is ₹1,18,000. If that licenses the whole account, it is the cheapest credible option on the table and the decision is straightforward. If it is per seat, four designers land near ₹4,72,000, roughly $5,600 at 2026 rates, which is close to SurgePV's five-seat arithmetic of $1,299 times four, or $5,196. That single contract question moves the answer, which is why it is the first thing to ask.
+>
+> Now change one variable. The EPC wins a 900 kW captive rooftop that a bank will finance. That project needs a yield report the lender accepts. On the Arka path, the design is exported to PVsyst and the bankable run happens there, adding a licence and a reconciliation step. On the SurgePV path, the P90 comes out of the same project file that produced the layout.
+>
+> Change one more. The same EPC opens a branch in Sri Lanka. Regional editions mean a second setup and a second commercial conversation. A single multi-country licence does not.
 
 The point is not that one tool wins. It is that the decision is driven by pipeline shape, not by the design canvas, and most buyers evaluate the canvas.
 
@@ -175,9 +181,10 @@ So the recommendation splits cleanly. If you are an Indian residential installer
 
 Three things to do next:
 
-- Ask Arka whether your plan is licensed per seat or per account, because that answer changes the comparison more than any feature does.
-- Write down the share of your next 24 months of pipeline that will need a lender-accepted yield report.
-- Rebuild three of your recent projects in both tools and compare the finished proposal, not the design screen.
+> [!CHECKLIST] Before you buy Arka 360
+> - Ask Arka whether your plan is licensed per seat or per account, because that answer changes the comparison more than any feature does.
+> - Write down the share of your next 24 months of pipeline that will need a lender-accepted yield report.
+> - Rebuild three of your recent projects in both tools and compare the finished proposal, not the design screen.
 
 <div class="inline-cta">
 <h3>Run both tools on the same three projects</h3>

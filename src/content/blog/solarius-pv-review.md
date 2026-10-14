@@ -4,7 +4,7 @@ excerpt: "An honest Solarius PV review for 2026. What ACCA's photovoltaic suite 
 description: "Solarius PV review 2026: ACCA software's BIM-native photovoltaic design suite assessed on technical output, electrical sizing, report quality, subscription pricing, and fit for Italian and European design offices."
 category: "Solar Software"
 date: 2026-08-03
-updatedDate: 2026-08-03
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solarius-pv-review.webp"
 author: "Keyur Rakholiya"
@@ -37,7 +37,7 @@ featured: false
 
 [Solarius PV](/blog/solarius-pv-alternative/) is one of those products that most people outside its home market have never evaluated, and most people inside it have used for years. It comes from ACCA software, an Italian publisher whose reputation was built on construction and BIM tools rather than on solar, and that origin explains almost everything about how the product behaves. This review looks at what Solarius PV actually is in 2026, what it does better than the platforms it gets compared to, where the fit breaks down, and which alternatives deserve a place on the shortlist before a design office commits. Pricing is the awkward part, and we will deal with it honestly rather than repeat numbers from directories that cannot agree with each other.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Solarius PV is ACCA software's photovoltaic design application, built for engineers and design offices rather than for volume residential sales.
 > - At the time of writing we could not find a seat price displayed on the product page. It advertises a subscription "starting from" a monthly figure with the number omitted, plus a free one month trial. Treat it as quote-based and confirm with the vendor.
 > - Genuine strengths are BIM and CAD depth (IFC certified, Revit, ArchiCAD, AllPlan, VectorWorks), cable sizing to IEC 60364, automatic single-line diagrams, and multilingual technical reports.
@@ -72,6 +72,8 @@ At the time of writing, ACCA's own product page presents a subscription offer wo
 
 Third-party directories fill the vacuum with numbers that contradict each other by an order of magnitude, some clearly scraped from historical listings. Repeating any of them would be inventing a price with extra steps.
 
+Table: Solarius PV pricing: what can be verified, with SurgePV and PV*SOL for comparison
+
 | What we can verify | Status |
 | --- | --- |
 | Published seat price on ACCA's product page | Not displayed |
@@ -81,7 +83,8 @@ Third-party directories fill the vacuum with numbers that contradict each other 
 | SurgePV | $1,299 to $1,899 per user per year by team size |
 | PV*SOL | Roughly EUR 585 to 845 depending on edition |
 
-So the honest instruction is procedural. Ask ACCA or your regional reseller for a written quote naming the modules, the seat count, the contract length, and whether upgrades are included. Compare that number, not a directory's guess, against the alternatives further down. Our [solar design software pricing comparison](/blog/solar-design-software-pricing/) sets out where the tools that do publish sit.
+> [!TIP] Get a written quote, not a directory price
+> So the honest instruction is procedural. Ask ACCA or your regional reseller for a written quote naming the modules, the seat count, the contract length, and whether upgrades are included. Compare that number, not a directory's guess, against the alternatives further down. Our [solar design software pricing comparison](/blog/solar-design-software-pricing/) sets out where the tools that do publish sit.
 
 <div class="inline-cta">
 <h3>Compare on output, not on a price you cannot verify</h3>
@@ -114,6 +117,8 @@ These are limitations we hold with confidence. Where we are unsure, we say so ra
 
 **Compliance depth needs a direct answer, not an assumption.** Italian grid connection runs through CEI 0-21 for low voltage and CEI 0-16 for medium voltage, and the interface protection requirements under those rules are the part a reviewing DSO scrutinises. ACCA publicly documents IEC 60364 cable sizing. We did not find published detail on exactly which CEI checks the current release automates, so ask ACCA to demonstrate that on your own project during the trial. Assuming it and discovering otherwise after purchase is the expensive version of this question.
 
+Table: Solarius PV strengths and limitations by dimension
+
 | Dimension | Strength | Limitation |
 | --- | --- | --- |
 | BIM and CAD | IFC certified, Revit, ArchiCAD, AllPlan, VectorWorks | Value depends on you already running BIM |
@@ -123,7 +128,8 @@ These are limitations we hold with confidence. Where we are unsure, we say so ra
 | Market fit | Strong in Italy and southern Europe | Verify depth outside those markets |
 | Pricing | Subscription with a free month trial | No published seat price to compare against |
 
-> **What most buyers get wrong.** They evaluate Solarius PV against Aurora or OpenSolar and conclude it is behind on sales features. It is not behind. It was never in that race. The correct comparison set is PVsyst, PV*SOL, and the engineering half of platforms like SurgePV, and against that set it argues its case very differently.
+> [!TIP] What most buyers get wrong about Solarius PV
+> They evaluate Solarius PV against Aurora or OpenSolar and conclude it is behind on sales features. It is not behind. It was never in that race. The correct comparison set is PVsyst, PV*SOL, and the engineering half of platforms like SurgePV, and against that set it argues its case very differently.
 
 ## Who Should Buy It
 
@@ -168,9 +174,10 @@ If you are that buyer, take the free month, run two real projects through it end
 
 Three things to do next:
 
-- Get a written quote from ACCA naming your modules, seats, and contract term, because no directory price is reliable.
-- Run one real project through the free trial and test the CEI submission output and the client document, not the demo file.
-- Decide whether hourly self-consumption and Ritiro Dedicato modelling has to live inside the design tool, because after 29 May 2025 that is where Italian project economics are actually decided.
+> [!CHECKLIST] Before you buy Solarius PV
+> - Get a written quote from ACCA naming your modules, seats, and contract term, because no directory price is reliable.
+> - Run one real project through the free trial and test the CEI submission output and the client document, not the demo file.
+> - Decide whether hourly self-consumption and Ritiro Dedicato modelling has to live inside the design tool, because after 29 May 2025 that is where Italian project economics are actually decided.
 
 <div class="inline-cta">
 <h3>Test the post-Scambio sul Posto maths on your own job</h3>

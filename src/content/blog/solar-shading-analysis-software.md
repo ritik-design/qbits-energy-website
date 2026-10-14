@@ -4,7 +4,7 @@ excerpt: "Solar shading analysis software runs the hourly simulation that turns 
 description: "Solar shading analysis software 2026: how 8,760-hour module-level shading works, why it drives bankable yield, and which solar shading tools ship it."
 category: "Solar Software"
 date: 2026-06-14
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-shading-analysis-software.webp"
 author: "Nirav Dhanani"
@@ -39,7 +39,7 @@ faqs:
 
 Solar [shading analysis](https://www.surgepv.com/tools/shading-analysis-tool) software runs the hourly simulation that turns a layout into a bankable yield report. The methodology matters: 8,760-hour module-level shading is the industry standard accepted by lenders, while simplified shading models can mislead by 3 to 8 percent on residential and far more on complex C&I rooftops. This guide explains how [shading analysis](https://www.surgepv.com/best-solar-software/shading-analysis) works in 2026 and which [solar design software](https://surgepv.com/) ships it well.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - 8,760-hour module-level shading is the bankable standard.
 > - [SurgePV](https://surgepv.com/) ships this engine on every paid plan as part of its [solar shading analysis](https://surgepv.com/shadow-analysis) module.
 > - HelioScope and PVsyst are also credible. Aurora ships it at the upper tier.
@@ -88,6 +88,8 @@ SurgePV ships all seven on every paid plan.
 
 ## Solar Shading Analysis in Competing Tools
 
+Table: Shading analysis granularity, module-level support and browser delivery by tool
+
 | Tool | Granularity | Module-level | All plans | Browser |
 | --- | --- | --- | --- | --- |
 | **SurgePV** | 8,760-hour | Yes | Yes | Yes |
@@ -107,7 +109,8 @@ Three terms circulate for this category and they are not quite interchangeable.
 
 **Solar PV shading software** is the unambiguous term, and it is the one to use in an RFP. It rules out the architectural category and signals that you need per-module DC loss feeding a yield model, not a shadow animation.
 
-The buying trap is that several tools render a convincing 3D shadow without simulating loss. A shadow you can watch move across the roof tells you nothing about annual kWh unless the platform is computing the DC loss on each module at each hour and passing it into the [yield simulation](/blog/pv-yield-simulation-software/). Ask any vendor to show the hourly loss table, not the animation.
+> [!WARNING] A 3D shadow is not a loss simulation
+> The buying trap is that several tools render a convincing 3D shadow without simulating loss. A shadow you can watch move across the roof tells you nothing about annual kWh unless the platform is computing the DC loss on each module at each hour and passing it into the [yield simulation](/blog/pv-yield-simulation-software/). Ask any vendor to show the hourly loss table, not the animation.
 
 ## Why Shading Loss Is Not Proportional To Shaded Area
 
@@ -143,6 +146,8 @@ We cover the markets where this matters most in dedicated guides: [Canada](/blog
 
 Both reduce output. They are not the same problem and conflating them produces bad recommendations.
 
+Table: Shading loss compared with soiling loss
+
 | | Shading | Soiling |
 | --- | --- | --- |
 | Cause | Obstruction blocking irradiance | Dust, dirt, bird fouling on glass |
@@ -159,11 +164,12 @@ In arid, high-dust markets the two interact: partial soiling behaves somewhat li
 
 Every platform claims shading analysis. The claims are not equivalent. Five questions separate real simulation from a rendering.
 
-1. **Show me the hourly loss table, not the animation.** A 3D shadow moving across a roof is a visualisation. Ask for per-module DC loss at each hour. If it does not exist, the tool is not simulating loss.
-2. **What happens if I move one module into the chimney shadow?** The yield figure should change immediately and non-proportionally. If it changes by exactly the area fraction, the model is linear and therefore wrong.
-3. **Does it model bypass diodes and string topology?** Ask them to re-run with two different string configurations on the same layout. Different answers mean the electrical model is real.
-4. **Can it compare a string inverter against optimisers on this roof?** This is the question customers actually ask on cluttered roofs, and only a module-level model can answer it.
-5. **Is the shading result what feeds the yield report?** In some stacks the shading tool and the yield engine are separate, and the number in the proposal comes from the second one with a generic loss assumption applied. Ask to see the chain.
+> [!CHECKLIST] Five questions to test a vendor's shading claim
+> - **Show me the hourly loss table, not the animation.** A 3D shadow moving across a roof is a visualisation. Ask for per-module DC loss at each hour. If it does not exist, the tool is not simulating loss.
+> - **What happens if I move one module into the chimney shadow?** The yield figure should change immediately and non-proportionally. If it changes by exactly the area fraction, the model is linear and therefore wrong.
+> - **Does it model bypass diodes and string topology?** Ask them to re-run with two different string configurations on the same layout. Different answers mean the electrical model is real.
+> - **Can it compare a string inverter against optimisers on this roof?** This is the question customers actually ask on cluttered roofs, and only a module-level model can answer it.
+> - **Is the shading result what feeds the yield report?** In some stacks the shading tool and the yield engine are separate, and the number in the proposal comes from the second one with a generic loss assumption applied. Ask to see the chain.
 
 A tool that answers all five is doing bankable shading analysis. A tool that answers two is producing a picture.
 

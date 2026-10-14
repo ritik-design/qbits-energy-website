@@ -4,7 +4,7 @@ excerpt: "Ghar mein solar panel kaise lagwayein: site survey, system sizing, ven
 description: "Ghar mein solar panel kaise lagwayein: site survey, sizing, PM Surya Ghar subsidy, vendor selection, installation aur net metering ka Hindi guide."
 category: "Educational"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "13 min"
 image: "/og/blog-ghar-mein-solar-panel-kaise-lagwayein.webp"
 author: "Nirav Dhanani"
@@ -36,12 +36,12 @@ language: hi
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
 
-घर में solar panel लगवाना एक बड़ा decision है (₹1-2 lakh investment, 25 साल का commitment। लेकिन process को समझ लें तो यह बिल्कुल manageable है। इस guide में घर में solar panel लगवाने का पूरा process है) शुरू से अंत तक, हर step detail में।
+घर में solar panel लगवाना एक बड़ा decision है (₹1-2 lakh investment, 25 साल का commitment)। लेकिन process को समझ लें तो यह बिल्कुल manageable है। इस guide में घर में solar panel लगवाने का पूरा process है, शुरू से अंत तक, हर step detail में।
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Ghar mein solar lagwane ke 7 steps hain: site check, system sizing, [PM Surya Ghar application](https://quickestimate.co/blog/pm-surya-ghar-application-process), vendor selection, installation, [net metering](https://quickestimate.co/blog/net-metering-hindi-mein), subsidy receipt
 > - Physical installation sirf 1-3 din ka kaam hai, lekin poora process (application se subsidy tak) 2-4 mahine leta hai
-> - 3 kW system ki gross cost ₹1.5-2.2 lakh hai, subsidy ke baad net cost ₹72,000-1.07 lakh reh jaati hai
+> - 3 kW system ki gross cost ₹1.5-2.2 lakh hai, subsidy ke baad net cost ₹72,000-1.42 lakh reh jaati hai
 > - South-facing roof best generation deta hai, north-facing roof mein 30-40% kam generation hota hai
 
 > **Process overview।** घर में solar लगवाने के 7 steps हैं: (1) Eligibility और site check, (2) System sizing, (3) PM Surya Ghar application, (4) Vendor selection, (5) Installation, (6) Net metering, (7) Subsidy receipt। Physical installation सिर्फ 1-3 दिन का काम है।
@@ -82,6 +82,8 @@ Solar panel लगाने से पहले roof की suitability check �
 2. Average monthly units निकालें (usually bill पर printed)
 3. System size = Monthly units ÷ 100 (approximately, for average India irradiance)
 
+Table: Monthly consumption ke hisaab se system size aur PM Surya Ghar subsidy
+
 | Monthly Consumption | System Size | PM Surya Ghar Subsidy |
 | --- | --- | --- |
 | 100-150 units | 1-2 kW | ₹30,000-60,000 |
@@ -92,6 +94,8 @@ Solar panel लगाने से पहले roof की suitability check �
 [String sizing calculator](/string-sizing-calculator/), exact sizing के लिए location और roof details enter करें।
 
 ### On-Grid या Hybrid Choose करें
+
+Table: Power cut ke hisaab se on-grid ya hybrid
 
 | आपकी Situation | Recommendation |
 | --- | --- |
@@ -104,10 +108,12 @@ Solar panel लगाने से पहले roof की suitability check �
 
 ## Step 3: PM Surya Ghar Application
 
-Subsidy के लिए पहले application, फिर installation - यह order important है।
+> [!WARNING] Pehle application, phir installation
+> Subsidy के लिए पहले application, फिर installation - यह order important है। Installation से पहले PM Surya Ghar apply न करने पर subsidy नहीं मिलेगी।
 
 ### Application Process
 
+<!-- steps -->
 1. **pmsuryaghar.gov.in** पर जाएँ
 2. State और [DISCOM](/glossary/discom/) select करें (electricity bill देखें)
 3. Consumer number enter करें
@@ -179,11 +185,12 @@ Vendor confirm होने के बाद installation:
 - Generation verification, kW output check
 
 **Quality Check करें:**
-- Panel tilt angle correct (10-25 degrees)
-- All MC4 connectors properly mated
-- Earthing wire connected
-- Inverter shade में, ventilated
-- App showing real-time generation
+> [!CHECKLIST] Installation ke baad quality check
+> - Panel tilt angle correct (10-25 degrees)
+> - All MC4 connectors properly mated
+> - Earthing wire connected
+> - Inverter shade में, ventilated
+> - App showing real-time generation
 
 [Solar installation quality checklist](/blog/solar-annual-maintenance-checklist-india/), post-installation verification।
 
@@ -192,6 +199,8 @@ Vendor confirm होने के बाद installation:
 Installation के same day या next day vendor net metering application submit करे।
 
 **Process:**
+
+<!-- steps -->
 1. Vendor DISCOM को net metering application submit करता है
 2. DISCOM engineer आकर system inspect करता है
 3. [Bidirectional meter](/glossary/bidirectional-meter/) install होता है (old meter replace)
@@ -201,7 +210,8 @@ Installation के same day या next day vendor net metering application sub
 - Urban areas: 15-30 दिन
 - Rural areas: 30-60 दिन
 
-Net meter active होने से पहले export credit नहीं मिलता। Generation होती है लेकिन exported units waste होते हैं। इसलिए immediately application जरूरी है।
+> [!IMPORTANT] Net meter se pehle export credit nahi
+> Net meter active होने से पहले export credit नहीं मिलता। Generation होती है लेकिन exported units waste होते हैं। इसलिए immediately application जरूरी है।
 
 [Net metering guide](/blog/net-metering-india-complete-guide/), state-wise timelines और process।
 
@@ -269,6 +279,8 @@ According to [IEA India solar data](https://www.iea.org/){target="_blank" rel="n
 
 Different states में PM Surya Ghar installation timelines vary significantly:
 
+Table: State-wise PM Surya Ghar timeline, indicative ranges as stated in this article
+
 | State | Registration to Installation | Net Meter | Total to Subsidy |
 | --- | --- | --- | --- |
 | Delhi | 15-30 days | 15-30 days | 45-75 days |
@@ -285,6 +297,9 @@ Major city areas within each state process faster. Rural districts take signific
 ## First Month After Installation: What to Monitor
 
 The first 30 days after installation are critical for catching any issues early:
+
+> [!FORMULA] Expected generation
+> Expected kWh = system size (kW) × peak sun hours × 0.8 × days
 
 **Week 1, System Commissioning**
 - Check app daily, is generation appearing?
@@ -333,6 +348,8 @@ Poora kharcha ka breakdown [solar panel lagane ka kharcha](/blog/solar-panel-lag
 ## Cost Calculator: 1 BHK to 5 BHK
 
 Understanding sizing for different home sizes helps in budgeting:
+
+Table: Ghar ke size ke hisaab se system, gross cost aur subsidy ke baad cost
 
 | Home Size | Typical Monthly Units | Recommended System | Gross Cost | After Subsidy |
 | --- | --- | --- | --- | --- |

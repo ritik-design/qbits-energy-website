@@ -4,7 +4,7 @@ excerpt: "A full-lifecycle EPC playbook for Indian solar projects, covering site
 description: "Complete solar EPC India guide for installation companies, covering site assessment, procurement, commissioning, and warranty management."
 category: "Guide"
 date: 2026-04-08
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-epc-india.webp"
 author: "Nirav Dhanani"
@@ -29,7 +29,7 @@ faqs:
 
 The Indian solar sector is growing at unprecedented speed, with [EPC companies](https://www.heavengreenenergy.com/blog/common-mistakes-epc-companies-make-in-rooftop-solar) at the front line. Success depends on delivering reliable, high-performance installations that generate consistent returns for clients. This guide walks through every phase of solar EPC delivery, from project planning to warranty management.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Solar EPC delivery runs across seven phases: site assessment, engineering design, procurement, installation, commissioning, monitoring, and warranty management.
 > - All equipment must carry BIS certification, and inverters should meet IEC 62109 (safety) and IEC 61683 (efficiency) standards.
 > - The grounding resistance target during commissioning is below 5 ohms; insulation resistance must exceed 1 megohm on every DC and AC circuit.
@@ -41,7 +41,8 @@ The Indian solar sector is growing at unprecedented speed, with [EPC companies](
 
 EPC encompasses the complete lifecycle of solar projects, integrating **engineering design, equipment procurement, and construction execution** into a single delivery model. The role is part technical consultant, part project manager, part operations lead. Companies weighing whether to build this capability in-house or partner with a turnkey provider can compare against Heaven Green Energy's solar EPC and turnkey installation service as a reference point for scope and delivery model.
 
-An EPC is not automatically a dealer or distributor. If you want to resell Qbits, [apply as a Qbits dealer or EPC partner](/become-our-partner/). The [Dealer, Distributor, EPC, and System Integrator comparison](/blog/dealer-vs-distributor-vs-epc/) separates project responsibility from product resale and equipment-integration scope.
+> [!NOTE] EPC and dealer are different roles
+> An EPC is not automatically a dealer or distributor. If you want to resell Qbits, [apply as a Qbits dealer or EPC partner](/become-our-partner/). The [Dealer, Distributor, EPC, and System Integrator comparison](/blog/dealer-vs-distributor-vs-epc/) separates project responsibility from product resale and equipment-integration scope.
 
 ### Key Challenges Facing Indian EPCs
 
@@ -79,6 +80,8 @@ All equipment must carry:
 For a full checklist of what to verify against BIS/IEC compliance before energising a system, see the [solar inverter regulations and BIS/IEC compliance guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/).
 
 Document approval workflow early. Regulatory needs vary:
+
+Table: Approvals to plan for by project type
 
 | Project type | Approvals |
 | --- | --- |
@@ -121,6 +124,8 @@ EPCs who need certified electrical drawings for CEIG or DISCOM approval at this 
 ## 3. Procurement: Sourcing Quality Components
 
 Procurement considerations:
+
+Table: What to verify when procuring inverters and components
 
 | Factor | What to verify |
 | --- | --- |
@@ -167,10 +172,11 @@ For a structured vendor shortlist and evaluation checklist, see the [inverter su
 
 ### Electrical Testing
 
-- **Insulation resistance** (DC+/ground, DC-/ground, AC/ground), must exceed 1 megohm
-- **Polarity verification** on every DC string and AC connection
-- **Grounding continuity**: target **<5 ohms** ([earthing](/glossary/earthing/) verification)
-- **[String voltage and current](/glossary/string-sizing/)** vs expected values
+> [!CHECKLIST] Electrical tests before energising
+> - **Insulation resistance** (DC+/ground, DC-/ground, AC/ground), must exceed 1 megohm
+> - **Polarity verification** on every DC string and AC connection
+> - **Grounding continuity**: target **<5 ohms** ([earthing](/glossary/earthing/) verification)
+> - **[String voltage and current](/glossary/string-sizing/)** vs expected values
 
 The full step-by-step protocol, including test sequencing and documentation, is covered in the [solar inverter commissioning EPC setup guide](/blog/solar-inverter-commissioning-in-india/) and the [solar inverter grounding safety guide](/blog/solar-inverter-grounding/).
 
@@ -241,6 +247,8 @@ A **model-specific written warranty** provides significantly more protection tha
 - **High ambient temperatures**: cause thermal derating
 
 ## Choosing the Right Inverter Partner
+
+Table: What to look for in an inverter partner
 
 | Selection criterion | What to look for |
 | --- | --- |

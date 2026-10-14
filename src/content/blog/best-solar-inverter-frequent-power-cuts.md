@@ -39,6 +39,13 @@ From the current public specifications checked on 26 September 2026, GoodWe GW50
 
 Qbits publishes this article and sells hybrid inverters. The company therefore receives the same checks as GoodWe and Growatt, including an explicit penalty for unclear public documentation. We did not field-test these products or verify prices, stock, battery pairings, warranty remedies, service outcomes, certificates, or acceptance by a particular DISCOM.
 
+> [!KEYTAKEAWAYS]
+> - A power-cut hybrid system passes only if six gates pass together: backup output, battery pairing, grid isolation, protected-load design, transfer behaviour and commissioning proof.
+> - Grid-side and backup ratings differ: Growatt SPH 5000TL BL-UP publishes 5,000 W grid output but only 4,000 W maximum backup output.
+> - GoodWe GW5000-ES-20 and Growatt publish under-10-ms switching wording; the Qbits QBH-5KS48P catalogue says "within 10 seconds", which must be clarified with exact-model evidence before using it for interruption-sensitive loads.
+> - Overlapping battery voltage is not compatibility: protocol, current limit, pinout and firmware must also match.
+> - Size the protected circuits first, then the battery, and witness a real grid-loss test before final payment.
+
 ## The six gates for a power-cut system
 
 A product belongs on a frequent-outage shortlist only when the proposed system passes all six gates:
@@ -56,6 +63,8 @@ Failure at any one gate can defeat the whole purchase. A large battery cannot co
 
 This is not a broad hybrid-inverter ranking. It is a power-cut-readiness comparison of three current, single-phase, low-voltage hybrid models with public backup evidence.
 
+Table: Power-cut readiness of three 5 kW-class hybrid inverters, from current public sources
+
 | Power-cut field | GoodWe GW5000-ES-20 | Growatt SPH 5000TL BL-UP | Qbits QBH-5KS48P |
 | --- | --- | --- | --- |
 | Published grid-side output | 5,000 VA maximum apparent output | 5,000 W maximum AC output | 5,500 W maximum apparent output on-grid |
@@ -71,6 +80,18 @@ This is not a broad hybrid-inverter ranking. It is a power-cut-readiness compari
 Sources: current [GoodWe ES G2 manufacturer page](https://en.goodwe.com/es-g2), Growatt's [April 2026 SPH 3000-6000TL BL-UP datasheet](https://en.growatt.com/upload/file/SPH_3000-6000TL_BL-UP_Datasheet_202604.pdf), and the current [Qbits QBH 3-6 kW single-phase catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf). Manufacturer statements are not independent test results.
 
 The units remain as published. W and VA are not silently treated as interchangeable, and a family-level transfer statement is not presented as an exact-model laboratory report.
+
+```chart
+type: hbar
+title: Maximum battery charge or discharge current published by each manufacturer
+unit: A
+source: "GoodWe ES G2 manufacturer page, Growatt SPH 3000-6000TL BL-UP datasheet (April 2026) and the Qbits QBH 3-6 kW single-phase catalogue, as compared in the table above (checked 26 September 2026)"
+note: "Manufacturer statements, not independent test results. Current alone does not prove battery compatibility."
+data:
+  - { label: "GoodWe GW5000-ES-20", value: 120 }
+  - { label: "Growatt SPH 5000TL BL-UP", value: 85 }
+  - { label: "Qbits QBH-5KS48P", value: 120 }
+```
 
 ## Conditional verdict: GoodWe has the clearest public fast-transfer case
 
@@ -104,15 +125,16 @@ Frequent power cuts can cycle a battery repeatedly. The inverter and battery mus
 
 Check all of these for the exact pair:
 
-- minimum, nominal, and maximum battery voltage;
-- continuous and short-duration charge and discharge current;
-- battery chemistry and permitted operating temperatures;
-- usable state-of-charge window and reserve setting;
-- BMS communication protocol, message set, cable pinout, and termination;
-- inverter, battery, and BMS firmware versions;
-- number of battery modules and parallel limits;
-- fault, low-temperature, over-temperature, over-current, and communication-loss behaviour;
-- who accepts warranty responsibility for the pairing.
+> [!CHECKLIST] Battery and inverter pairing
+> - minimum, nominal, and maximum battery voltage;
+> - continuous and short-duration charge and discharge current;
+> - battery chemistry and permitted operating temperatures;
+> - usable state-of-charge window and reserve setting;
+> - BMS communication protocol, message set, cable pinout, and termination;
+> - inverter, battery, and BMS firmware versions;
+> - number of battery modules and parallel limits;
+> - fault, low-temperature, over-temperature, over-current, and communication-loss behaviour;
+> - who accepts warranty responsibility for the pairing.
 
 The three inverters publish low-voltage battery information, but overlapping voltage is not compatibility. A battery can sit inside the nominal voltage window and still use the wrong protocol, current limit, pinout, or firmware.
 
@@ -121,6 +143,8 @@ Use the [battery-sizing guide](/blog/battery-sizing-hybrid-solar/) for the energ
 ## Size protected loads before sizing the battery
 
 Start with the circuits that must remain energised, not the home's total sanctioned load. Record each appliance's running input, starting behaviour, operating schedule, and priority.
+
+Table: What to document for each protected circuit
 
 | Protected-load field | What to document |
 | --- | --- |
@@ -132,7 +156,11 @@ Start with the circuits that must remain energised, not the home's total sanctio
 | Shedding rule | What disconnects first as power or energy becomes limited |
 | Acceptance test | The actual load combination that will be demonstrated at handover |
 
-For an illustrative planning check, a measured 0.8 kW average protected load required for four hours represents 3.2 kWh of AC load energy before battery operating-window limits, conversion losses, reserve, temperature, and ageing basis. It is not a battery recommendation.
+> [!FORMULA]
+> AC load energy (kWh) = average protected load (kW) × required hours
+
+> [!EXAMPLE] Illustrative planning check
+> A measured 0.8 kW average protected load required for four hours represents 3.2 kWh of AC load energy before battery operating-window limits, conversion losses, reserve, temperature, and ageing basis. It is not a battery recommendation.
 
 Motors, compressors, pumps, and some power supplies cannot be approved by adding running watts alone. A refrigerator and water pump may each fit separately but fail when starting together. The inverter's backup-output and short-duration limits, the battery's power limit, and the circuit priorities must be checked as one system.
 
@@ -144,7 +172,10 @@ The single-line diagram should show the grid connection, inverter, battery, PV a
 
 The protected-load board prevents a frequent design failure: transferring the whole home to backup even though the battery and backup output were sized for essentials. High-demand or non-essential circuits can be left on the ordinary grid board unless the system was explicitly designed and tested for them.
 
-Do not bypass anti-islanding, alter grid settings, or improvise a changeover to keep ordinary on-grid solar operating. The existing [power-cut explainer](/blog/solar-inverter-power-cut-backup/) owns the grid-loss architecture in detail.
+> [!CAUTION] Do not bypass anti-islanding
+> Do not bypass anti-islanding, alter grid settings, or improvise a changeover to keep ordinary on-grid solar operating.
+
+The existing [power-cut explainer](/blog/solar-inverter-power-cut-backup/) owns the grid-loss architecture in detail.
 
 ## Transfer time needs a test condition
 
@@ -187,6 +218,7 @@ Before final payment, record model and serial numbers, battery modules, firmware
 
 Witness and document:
 
+<!-- steps -->
 1. normal grid-connected operation;
 2. intentional grid-loss isolation;
 3. transfer with the agreed protected loads operating;

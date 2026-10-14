@@ -4,7 +4,7 @@ excerpt: "How basic customs duty, social welfare surcharge and IGST add up on im
 description: "A buyer's framework for checking current customs duty, classification, GST and landed cost for imported solar inverters in India."
 category: Policy
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-bcd-import-duty-solar-inverters-india.webp"
 author: "Nirav Dhanani"
@@ -35,10 +35,9 @@ faqs:
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - BCD on imported solar inverters (HS code 8504) is 20% as of 2026; modules attract 40% and cells 25%, on top of IGST at 5-18% and a 10% Social Welfare Surcharge on the BCD amount.
 > - Inverters manufactured in India, regardless of the parent company's ownership, attract zero BCD and only domestic GST, a structural cost gap of roughly 20-25% versus imported units.
-
 > - Chinese OEMs such as Sungrow, Growatt, Huawei, and Deye are exposed to the full 20% BCD on units imported directly, unless they scale India manufacturing.
 > - On a 10 kW imported inverter with ₹40,000 CIF value, total duties add up to roughly ₹17,584, pushing the landed cost to ₹57,584 before freight.
 
@@ -50,14 +49,16 @@ The [ALMM list](/glossary/almm-list/) and BCD are two separate policy instrument
 
 ### Customs Duty Structure for Solar Equipment (2026)
 
+Table: Customs duty structure for solar equipment, 2026 (effective total computed with the SWS and IGST method below)
+
 | Product | HS Code | BCD Rate | IGST | Effective Total Duty |
 | --- | --- | --- | --- | --- |
-| Solar inverter (string/central) | 8504 | **20%** | 5%–18% | ~35–42% |
-| Solar PV module | 8541 | **40%** | 5% | ~47% |
-| Solar PV cell | 8541 | **25%** | 5% | ~32% |
-| Mounting structure (aluminium) | 7610/7604 | 10%–15% | 18% | ~30% |
-| DC cable | 8544 | 10% | 18% | ~30% |
-| Battery (LFP/lithium) | 8507 | 10%–15% | 18% | ~30% |
+| Solar inverter (string/central) | 8504 | **20%** | 5%–18% | ~28–44% |
+| Solar PV module | 8541 | **40%** | 5% | ~51% |
+| Solar PV cell | 8541 | **25%** | 5% | ~34% |
+| Mounting structure (aluminium) | 7610/7604 | 10%–15% | 18% | ~31–38% |
+| DC cable | 8544 | 10% | 18% | ~31% |
+| Battery (LFP/lithium) | 8507 | 10%–15% | 18% | ~31–38% |
 
 *Rates subject to change with Union Budget notifications. Verify current rates at [CBIC](https://www.cbic.gov.in/) before procurement.*
 
@@ -67,13 +68,20 @@ The 20% BCD on inverters is significant but lower than the 40% on modules, refle
 
 The Import Duty Impact Calculator applies the following formula:
 
-**Step 1:** BCD = CIF Value × BCD Rate
-**Step 2:** Social Welfare Surcharge (SWS) = BCD × 10%
-**Step 3:** IGST base = CIF + BCD + SWS
-**Step 4:** [IGST](/blog/gst-on-solar-inverters-2026/) = IGST base × IGST Rate
-**Step 5:** Total incidence = BCD + SWS + IGST
+> [!FORMULA] Total customs incidence on an imported inverter
+> **Step 1:** BCD = CIF Value × BCD Rate
+>
+> **Step 2:** Social Welfare Surcharge (SWS) = BCD × 10%
+>
+> **Step 3:** IGST base = CIF + BCD + SWS
+>
+> **Step 4:** [IGST](/blog/gst-on-solar-inverters-2026/) = IGST base × IGST Rate
+>
+> **Step 5:** Total incidence = BCD + SWS + IGST
 
 **Example:** 10 kW imported inverter, CIF value ₹40,000
+
+Table: Worked duty calculation for a 10 kW imported inverter with a CIF value of ₹40,000
 
 | Item | Calculation | Amount |
 | --- | --- | --- |
@@ -92,6 +100,7 @@ The same inverter manufactured in India and sold domestically would attract only
 
 Apply this five-step framework to any inverter procurement decision involving an imported product:
 
+<!-- steps -->
 1. **Determine CIF value**: get the supplier's CIF India price (Cost, Insurance, Freight to Indian port). Do not use ex-works prices without adding freight, insurance, and port handling.
 2. **Apply BCD**: multiply CIF by 20% for inverters, 40% for modules, 25% for cells.
 3. **Calculate SWS**: multiply BCD by 10% (Social Welfare Surcharge is levied on BCD).
@@ -100,14 +109,15 @@ Apply this five-step framework to any inverter procurement decision involving an
 
 Pairing this framework with a broader [solar design and estimation toolkit](https://surgepv.com/tools/) lets EPCs model landed cost alongside system design and string sizing in the same workflow, rather than treating customs math as a separate spreadsheet exercise.
 
-For an EPC doing 50 residential installations per month using a 5 kW imported inverter at ₹25,000 CIF:
-
-- BCD: ₹5,000
-- SWS: ₹500
-- IGST (18%): ₹5,490
-- Landed cost: ₹35,990 vs ₹25,000 ex-works
-
-At 50 units/month, the monthly import duty spend = 50 × ₹10,990 = **₹5,49,500 per month** in duties alone. Switching to a domestically manufactured alternative avoids this import duty, directly improving EPC margins.
+> [!EXAMPLE] Duty bill for an EPC doing 50 residential jobs a month
+> For an EPC doing 50 residential installations per month using a 5 kW imported inverter at ₹25,000 CIF:
+>
+> - BCD: ₹5,000
+> - SWS: ₹500
+> - IGST (18%): ₹5,490
+> - Landed cost: ₹35,990 vs ₹25,000 ex-works
+>
+> At 50 units/month, the monthly import duty spend = 50 × ₹10,990 = **₹5,49,500 per month** in duties alone. Switching to a domestically manufactured alternative avoids this import duty, directly improving EPC margins.
 
 ## How BCD Affects Chinese OEM Inverters in India
 
@@ -133,15 +143,18 @@ The schemes below apply the ALMM requirement to solar modules (List-I) and cells
 
 Before confirming any inverter purchase for a PM Surya Ghar project:
 
-- **Step 1:** Ask the seller for the exact model's current BIS registration and test certificates. For modules, download the current ALMM list from [MNRE](https://mnre.gov.in/almm-list/).
-- **Step 2:** Match the exact model number, wattage, and firmware version on the certificates to the invoice.
-- **Step 3:** Verify the manufacturer name on the certificates matches the invoice (brand name vs legal entity name sometimes differ).
-- **Step 4:** Check the certificate validity date, because certificates have an expiry and renewal cycle.
-- **Step 5:** Keep the certificates and, for modules, the downloaded ALMM list version and date as project documentation.
+> [!CHECKLIST] Inverter verification for a PM Surya Ghar project
+> - **Step 1:** Ask the seller for the exact model's current BIS registration and test certificates. For modules, download the current ALMM list from [MNRE](https://mnre.gov.in/almm-list/).
+> - **Step 2:** Match the exact model number, wattage, and firmware version on the certificates to the invoice.
+> - **Step 3:** Verify the manufacturer name on the certificates matches the invoice (brand name vs legal entity name sometimes differ).
+> - **Step 4:** Check the certificate validity date, because certificates have an expiry and renewal cycle.
+> - **Step 5:** Keep the certificates and, for modules, the downloaded ALMM list version and date as project documentation.
 
 ## Domestic vs Imported Inverter: True Cost Comparison
 
 With BCD factored in, the cost advantage of imported inverters narrows substantially or reverses. This comparison uses a 5kW string inverter as the reference:
+
+Table: Illustrative landed cost of an imported versus a made-in-India 5kW string inverter
 
 | Factor | Imported Chinese 5kW | Made-in-India 5kW |
 | --- | --- | --- |
@@ -152,6 +165,33 @@ With BCD factored in, the cost advantage of imported inverters narrows substanti
 | **Total landed cost** | **₹31,952** | **₹31,080** |
 | PM Surya Ghar eligible? | Verify exact model certificates and DISCOM requirements | Verify exact model certificates and DISCOM requirements |
 | RMA wait time | 4–8 weeks (import cycle) | Confirm in writing with the seller |
+
+The table is a simplified illustration with assumed prices. It leaves out the 10% SWS on BCD (₹440 on the imported unit) that the calculator above includes.
+
+```chart
+type: stacked-bar
+title: Illustrative landed cost build-up, 5kW string inverter
+unit: "₹"
+source: "Calculated in this article from the illustrative ex-works, duty and freight inputs in the table above (assumed figures, not market quotes)"
+note: "Totals: imported ₹31,952, made in India ₹31,080. SWS is excluded, as in the table."
+series:
+  - name: "Ex-works / plant gate price"
+    data:
+      - { label: "Imported Chinese 5kW", value: 22000 }
+      - { label: "Made-in-India 5kW", value: 26000 }
+  - name: "BCD"
+    data:
+      - { label: "Imported Chinese 5kW", value: 4400 }
+      - { label: "Made-in-India 5kW", value: 0 }
+  - name: "IGST (18%)"
+    data:
+      - { label: "Imported Chinese 5kW", value: 4752 }
+      - { label: "Made-in-India 5kW", value: 4680 }
+  - name: "Freight (India)"
+    data:
+      - { label: "Imported Chinese 5kW", value: 800 }
+      - { label: "Made-in-India 5kW", value: 400 }
+```
 
 The imported brand's landed cost is only marginally lower, and can disappear once certification checks and warranty service costs are included. For EPCs serving PM Surya Ghar projects, the deciding step is to confirm each model's certificates and DISCOM requirements before ordering, whichever origin you choose. [CBIC's Customs Tariff notifications](https://www.cbic.gov.in/){target="_blank" rel="noopener"} provide the authoritative BCD rate schedule for solar equipment HS codes, updated with each Union Budget.
 

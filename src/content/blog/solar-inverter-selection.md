@@ -4,7 +4,7 @@ excerpt: "A documented EPC scorecard for screening solar inverters against site 
 description: "Use a solar inverter selection scorecard to screen technical limits, compare evidence, assess support and document an EPC procurement decision."
 category: "Buying Guide"
 date: 2026-03-16
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-inverter-selection.webp"
 author: "Nirav Dhanani"
@@ -32,11 +32,20 @@ featured: false
 
 The framework below is for EPC procurement teams. It does not replace the project electrical design, the applicable DISCOM process, or an engineer's review of the exact equipment and installation.
 
+> [!KEYTAKEAWAYS]
+> - Screen on pass-or-fail engineering limits first (DC voltage, MPPT window, current, AC output and phase, environment, grid evidence), then score only the models that pass.
+> - Freeze the project requirement sheet before supplier scoring, and recheck every candidate against the same revision if it changes.
+> - Agree criteria and weights before commercial bids are opened, and keep a document reference beside every score.
+> - Use the same warranty claim scenario with each supplier, and read the controlling written warranty and service terms for the exact model.
+> - Compare total cost over the same scope, period and assumptions, with sensitivity cases for service visits, downtime value and replacement timing.
+
 ## What should an EPC define before comparing inverters?
 
 **Define the project requirements before asking suppliers to score themselves.** Record the array design envelope, AC connection, environmental conditions, operating objective, monitoring obligations, service expectations and commercial evaluation period. Without this baseline, every bidder can appear compliant by answering a different version of the project.
 
 Create a project requirement sheet with these inputs:
+
+Table: Project requirement sheet: inputs to record and the evidence used to set them
 
 | Requirement group | Project input to record | Evidence used to set it |
 | --- | --- | --- |
@@ -48,7 +57,8 @@ Create a project requirement sheet with these inputs:
 | Support | Response path, spares, training and escalation | Procurement and O&M plan |
 | Commercial | Quote scope, warranty, service and evaluation period | Tender and contract documents |
 
-Freeze this sheet before supplier scoring. If a project requirement changes, record the change and recheck every candidate against the same revision.
+> [!IMPORTANT] Freeze the sheet before scoring
+> Freeze this sheet before supplier scoring. If a project requirement changes, record the change and recheck every candidate against the same revision.
 
 ## Which criteria should be pass or fail?
 
@@ -56,15 +66,16 @@ Freeze this sheet before supplier scoring. If a project requirement changes, rec
 
 Use the exact proposed model, not a family name. Check at least:
 
-- Maximum DC voltage against the calculated cold-condition string voltage.
-- MPPT operating window against expected string operating voltage.
-- Per-input and per-MPPT current limits against the module and string arrangement.
-- Rated and maximum AC output against the project design and connection.
-- Phase, voltage and frequency compatibility.
-- Temperature, altitude and enclosure limitations for the intended mounting location.
-- Required protection functions and interfaces in the approved design.
-- Model-specific certificates, registrations or test evidence required by the tender or current connection process.
-- Battery voltage, current, BMS and model compatibility for a hybrid design.
+> [!CHECKLIST] Pass-or-fail screen, checked against the exact proposed model
+> - Maximum DC voltage against the calculated cold-condition string voltage.
+> - MPPT operating window against expected string operating voltage.
+> - Per-input and per-MPPT current limits against the module and string arrangement.
+> - Rated and maximum AC output against the project design and connection.
+> - Phase, voltage and frequency compatibility.
+> - Temperature, altitude and enclosure limitations for the intended mounting location.
+> - Required protection functions and interfaces in the approved design.
+> - Model-specific certificates, registrations or test evidence required by the tender or current connection process.
+> - Battery voltage, current, BMS and model compatibility for a hybrid design.
 
 The [datasheet-reading guide](/blog/how-to-read-solar-inverter-datasheets/) explains how to separate maximum DC voltage, MPPT range and start-up voltage. Use the [string-sizing calculator](/string-sizing-calculator/) only as an initial screen, then verify the design against current module and inverter documents.
 
@@ -73,6 +84,8 @@ The [datasheet-reading guide](/blog/how-to-read-solar-inverter-datasheets/) expl
 **Score only the compliant models, using criteria and weights agreed before commercial bids are opened.** A practical matrix can cover design fit, evidence quality, monitoring, service, warranty, supply execution and total cost. Add notes and document references beside every score so another reviewer can reproduce the decision.
 
 Use a scale such as `0 = no acceptable evidence` through `5 = fully meets the documented requirement`. The scale is a procurement convention, not a product-performance claim. Define what each score means for each criterion before evaluation.
+
+Table: Scored criteria, what to compare and the evidence to retain
 
 | Scored criterion | What to compare | Evidence to retain |
 | --- | --- | --- |
@@ -105,7 +118,8 @@ The [IP65 versus IP66 guide](/blog/ip65-vs-ip66-solar-inverters-weather-protecti
 
 **Read the controlling warranty and service documents for the exact model.** Compare when coverage starts, registration requirements, covered faults, remedy, exclusions, diagnostic steps and responsibility for labour, removal, transport and reinstallation. A duration shown in a brochure cannot answer those questions on its own.
 
-Use the same claim scenario with each supplier. For example: the installed unit reports a recurring fault after commissioning, remote checks do not resolve it, and site attendance is needed. Ask who opens the case, which records are required, who visits, which costs are covered and what happens if replacement stock is unavailable.
+> [!TIP] Run the same claim scenario with every supplier
+> Use the same claim scenario with each supplier. For example: the installed unit reports a recurring fault after commissioning, remote checks do not resolve it, and site attendance is needed. Ask who opens the case, which records are required, who visits, which costs are covered and what happens if replacement stock is unavailable.
 
 The [solar inverter warranty guide](/blog/solar-inverter-warranty/) provides a document checklist. Retain the policy version with the purchase file instead of relying on a web-page summary that may later change.
 
@@ -129,6 +143,8 @@ Complete the pass-or-fail section first. Reject or resolve every failure before 
 
 ### Technical gate
 
+Table: Technical gate: pass-or-fail template for each candidate model
+
 | Gate | Required value or document | Candidate result | Evidence reference | Pass/fail |
 | --- | --- | --- | --- | --- |
 | Exact model and revision |  |  |  |  |
@@ -141,6 +157,8 @@ Complete the pass-or-fail section first. Reject or resolve every failure before 
 | Storage compatibility, if applicable |  |  |  |  |
 
 ### Weighted comparison
+
+Table: Weighted comparison template for models that pass the technical gate
 
 | Criterion | Project weight | Candidate score | Weighted result | Evidence and notes |
 | --- | --- | --- | --- | --- |

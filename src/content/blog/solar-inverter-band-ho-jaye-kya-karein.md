@@ -7,7 +7,7 @@ date: 2026-06-05
 readTime: "12 min"
 image: "/og/blog-solar-inverter-band-ho-jaye-kya-karein.webp"
 author: "Keyur Rakholiya"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - solar inverter band ho jaye kya karein
   - solar inverter not working hindi
@@ -40,14 +40,15 @@ language: hi
 
 Solar inverter बंद हो जाए तो panic न करें। ज्यादातर cases में कारण simple होते हैं और खुद troubleshoot किए जा सकते हैं। Serious faults में professional चाहिए - लेकिन पहले basic checks। इस guide में systematic troubleshooting process है।
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Power cut में on-grid inverter का बंद होना normal है - anti-islanding protection के कारण, कोई action नहीं चाहिए।
 > - Display off लेकिन grid power है तो DC isolator, AC circuit breaker और RCCB check करें।
 > - Error code note करें - Grid Voltage/Frequency errors अक्सर self-clear होते हैं, ground fault और insulation error के लिए vendor चाहिए।
 > - Overheating rokne के लिए inverter को shade में रखें और ventilation clearance ensure करें।
 > - Burning smell, ground fault या physical damage दिखे तो तुरंत DC isolator off करके vendor को call करें।
 
-> **Safety first।** कोई भी internal wiring न छुएँ। Electrical shock fatal हो सकता है। Basic visual checks और switches (यही खुद करें। Internal components) हमेशा certified technician से।
+> [!CAUTION] Safety first
+> कोई भी internal wiring न छुएँ। Electrical shock fatal हो सकता है। Basic visual checks और switches यही खुद करें। Internal components हमेशा certified technician से।
 
 ## Pehle: Basic Reality Check
 
@@ -91,6 +92,8 @@ Display off लेकिन grid power है - check करें:
 
 ### Switch/Breaker Checklist
 
+Table: Inverter band hone par check karne wale switch aur breaker
+
 | Item | Location | Action |
 | --- | --- | --- |
 | **[DC Isolator](/glossary/isolator/) (Main)** | Near inverter, outdoor | Check position - should be ON |
@@ -101,6 +104,8 @@ Display off लेकिन grid power है - check करें:
 DC isolator आमतौर पर red handle वाला switch होता है - ON position में।
 
 **Tripped breaker reset kaise karein:**
+
+<!-- steps -->
 1. Check करें कि कोई obvious short circuit नहीं है
 2. Breaker को fully OFF position में push करें
 3. फिर ON position में flip करें
@@ -113,6 +118,8 @@ DC isolator आमतौर पर red handle वाला switch होता �
 Error code note करें - brand-wise common codes:
 
 ### Common Error Codes Across Brands
+
+Table: Common generic error codes, matlab aur kya karein (brand-wise codes alag hote hain)
 
 | Error Code (Generic) | Likely Meaning | Self-Clear? | Action |
 | --- | --- | --- | --- |
@@ -134,6 +141,8 @@ Error code note करें - brand-wise common codes:
 
 ### Overheating Causes और Fixes
 
+Table: Inverter overheating ke causes aur unke fixes
+
 | Cause | Fix |
 | --- | --- |
 | Direct sunlight में installed | North-facing या shaded wall पर shift |
@@ -143,6 +152,8 @@ Error code note करें - brand-wise common codes:
 | Fan failed | Vendor replacement |
 
 **Immediate action:**
+
+<!-- steps -->
 1. Inverter को shade में रखें - direct sunlight avoid
 2. Power off करें (DC isolator), 30 minutes cool होने दें
 3. Ventilation clearance check करें
@@ -186,6 +197,8 @@ India के hot states (Rajasthan, MP, Telangana) में 45°C summers म�
 
 Beeping patterns और meanings:
 
+Table: Beep pattern ke hisaab se likely cause
+
 | Beep Pattern | Likely Cause |
 | --- | --- |
 | Single beep at startup | Normal boot sequence |
@@ -222,6 +235,7 @@ Beeping patterns और meanings:
 
 ### The Warranty Claim Framework
 
+<!-- steps -->
 1. **Vendor को call करें**: Fault describe करें, error code, photos send करें
 2. **Technician visit**: Vendor technician आएगा, fault diagnose करेगा
 3. **Claim initiation**: Vendor manufacturer को claim file करेगा
@@ -267,12 +281,12 @@ According to [Mercom India service data](https://www.mercomindia.com/){target="_
 
 Modern solar inverters store fault logs that technicians use to diagnose issues. Understanding what to provide when calling support:
 
-**Information to collect before calling vendor:**
-- Inverter model number and serial number (usually on side label)
-- Date and time when issue started
-- Error code as shown on display (exact characters/numbers)
-- Recent changes: new appliances, electrical work nearby, weather events
-- App data: last normal reading, what it shows now
+> [!CHECKLIST] Vendor ko call karne se pehle ye collect karein
+> - Inverter model number and serial number (usually on side label)
+> - Date and time when issue started
+> - Error code as shown on display (exact characters/numbers)
+> - Recent changes: new appliances, electrical work nearby, weather events
+> - App data: last normal reading, what it shows now
 
 **What good support will ask:**
 - Are panels visually clean and undamaged?

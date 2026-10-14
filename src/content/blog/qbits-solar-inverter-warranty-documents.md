@@ -33,7 +33,11 @@ faqs:
 
 Before you accept a Qbits quote, ask for one document: the current written warranty for the exact inverter model printed on that quote. The public datasheet is not that document, and Qbits says so itself.
 
-> **Short version.** Every Qbits product page carries a note stating that the public datasheets describe an expandable warranty but do not define the base term, the remedy, the registration deadline, or the exclusions. Every product record on the site shows "Request current written terms" where a warranty period would normally sit. The support portal that handles warranty requests asks for a 12-digit serial number, so it serves existing owners rather than buyers. That leaves one correct action at the quote stage: obtain the written terms for your exact model, check them against the eleven clauses below, and decide afterwards.
+> [!KEYTAKEAWAYS] Short version
+> - Every Qbits product page carries a note stating that the public datasheets describe an expandable warranty but do not define the base term, the remedy, the registration deadline, or the exclusions.
+> - Every product record on the site shows "Request current written terms" where a warranty period would normally sit.
+> - The support portal that handles warranty requests asks for a 12-digit serial number, so it serves existing owners rather than buyers.
+> - That leaves one correct action at the quote stage: obtain the written terms for your exact model, check them against the eleven clauses below, and decide afterwards.
 
 ## What the public Qbits material does establish
 
@@ -70,6 +74,8 @@ So the portal is the right route once you own an inverter and something has gone
 
 This is the checklist. Do not accept a summary, a marketing line, or a screenshot of a datasheet table. Ask for the document that contains all eleven, and read them in this order.
 
+Table: The eleven warranty clauses to obtain in writing for the exact quoted model
+
 | # | Clause | What to look for | Why it decides the claim |
 |---|---|---|---|
 | 1 | Issuing legal entity | The full company name that is bound by the document | The party you sue or escalate to is not always the brand on the box, and not usually your dealer |
@@ -83,6 +89,9 @@ This is the checklist. Do not accept a summary, a marketing line, or a screensho
 | 9 | Freight and labour | Who pays to ship the unit, and who pays the technician | A free replacement unit can still leave you with a real bill |
 | 10 | Claim route | The first point of contact, the escalation path, and the expected evidence | Knowing this before a failure shortens an outage |
 | 11 | Document revision date | The version or effective date printed on the document | Terms change; an undated document cannot be relied on later |
+
+> [!WARNING] Registration deadline
+> The registration window is one of the four terms the public datasheets leave undefined, and a missed window is the most avoidable way to lose cover. Get the window, the portal or form and the proof required in writing (clause 6) before you pay.
 
 Print the reply, save the email it arrived in, and keep both with your invoice and commissioning certificate. [Our warranty claim checklist](/blog/solar-inverter-warranty-claim/) sets out the rest of the evidence file you will want if you ever need to use it.
 
@@ -105,5 +114,11 @@ Also confirm who will physically attend a failure. Check whether there is a serv
 ## Your next step
 
 If you are holding a Qbits quote, do this in order. Note the exact model code. Request the current written warranty for that code. Check it against the eleven clauses above. Then decide.
+
+> [!CHECKLIST] Before you accept a Qbits quote
+> - Note the exact model code printed on the quote.
+> - Request the current written warranty for that code.
+> - Check it against the eleven clauses above.
+> - Decide only after the document is in hand.
 
 To get the document for a model you have been quoted, [talk to a Qbits engineer](/contact-us/) with the model code and your pin code to hand, and ask for the current written warranty terms in the reply.

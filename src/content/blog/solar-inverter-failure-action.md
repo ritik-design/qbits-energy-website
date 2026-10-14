@@ -37,12 +37,21 @@ A stopped inverter feels like an emergency, and the first instinct, pressing res
 
 Responding to a fault cannot be reduced to a brand score or a universal recovery deadline. Reliability depends on the exact model, the installation, the grid, the environment, maintenance, firmware, and how a "failure" is defined and counted. Comparable, independently audited field data is not available for the brands discussed on this site, so this guide gives a method, not a statistic.
 
-> **Safety first:** Solar PV conductors can remain energised in daylight, and inverter internals can hold hazardous voltage after shutdown. Do not open the enclosure or improvise electrical tests. Follow the manual for your exact model and use a qualified technician for anything beyond looking, photographing and switching off at the main AC breaker.
+> [!KEYTAKEAWAYS]
+> - Work from the ground, in order, and stop at the first step that finds the cause: look and smell, check mains supply, read the display and LEDs, check your switches, check the time and light.
+> - An on-grid inverter must disconnect when the grid fails, so a power cut stopping it is the most common reason it "is not working".
+> - Photograph the full message and LED pattern before any reset, because clearing the screen can erase the first piece of evidence a service engineer needs.
+> - Never open the inverter or a DC enclosure or unplug rooftop PV connectors; switching off the AC side does not make illuminated PV conductors safe.
+> - On assumed numbers (5 kW, about 20 kWh a day, ₹7 per kWh) one unnoticed day costs about ₹140, so detection time matters more than any single hardware choice.
+
+> [!CAUTION] Safety first
+> Solar PV conductors can remain energised in daylight, and inverter internals can hold hazardous voltage after shutdown. Do not open the enclosure or improvise electrical tests. Follow the manual for your exact model and use a qualified technician for anything beyond looking, photographing and switching off at the main AC breaker.
 
 ## The first 15 minutes: safe actions in order
 
 Do these from the ground, in this order, and stop at the first step that finds the cause.
 
+<!-- steps -->
 1. **Look and smell before you touch.** Burning smell, smoke, scorch marks, water on or around the inverter, damaged cable insulation or a swollen enclosure mean stop here. Keep people away, switch off at the AC breaker only if you can reach it without going near the damaged equipment, and call a qualified professional.
 2. **Check whether the building has mains supply.** An on-grid inverter must disconnect when the grid fails, so a power cut stops it by design. This is the most common reason an inverter "is not working". If the house has no supply, wait for the DISCOM to restore it. The inverter will reconnect after its start-up checks, which take some time.
 3. **Read the display and LEDs.** Photograph the full message and the LED pattern before changing anything. Do not repeat a reset until you have recorded it, because clearing the screen can erase the first piece of evidence a service engineer needs.
@@ -62,6 +71,8 @@ Do these from the ground, in this order, and stop at the first step that finds t
 ## Separate external conditions from equipment faults: the diagnosis ladder
 
 A stopped inverter may be responding to a grid outage, grid voltage or frequency outside its permitted window, an open isolator, a protection-device trip, insufficient irradiance, a communication failure, a DC-side fault, overheating or an internal condition. Work down the ladder. Each rung rules out one family of causes.
+
+Table: Diagnosis ladder from supply and switches to output, with what to check at each rung
 
 | Rung | Question | What you can check | If yes, next step |
 | --- | --- | --- | --- |
@@ -101,7 +112,11 @@ Causes fall into five groups. None of them has a universal frequency, because th
 
 You can estimate your own loss without relying on anyone's averages. The loss for a day is the energy the system would have produced multiplied by the value of that energy to you.
 
-**Illustration with assumed numbers, not field data.** Take a 5 kW system that would produce about 20 kWh on a clear day, and a unit value of ₹7 per kWh, either the avoided purchase price or the export credit under your arrangement. Lost value for one day is 20 × 7 = ₹140. Ten days of unnoticed downtime is ₹1,400. For a larger system the arithmetic is the same and the number scales with kW. Your own tariff, your net-metering terms and your seasonal output change the figure, so substitute real values.
+> [!FORMULA]
+> Lost value per day (₹) = energy the system would have produced (kWh) × value of that energy to you (₹/kWh)
+
+> [!EXAMPLE] Illustration with assumed numbers, not field data
+> Take a 5 kW system that would produce about 20 kWh on a clear day, and a unit value of ₹7 per kWh, either the avoided purchase price or the export credit under your arrangement. Lost value for one day is 20 × 7 = ₹140. Ten days of unnoticed downtime is ₹1,400. For a larger system the arithmetic is the same and the number scales with kW. Your own tariff, your net-metering terms and your seasonal output change the figure, so substitute real values.
 
 The practical point is the detection time. A fault discovered on the day costs a day. A fault discovered at the next bill can cost weeks, which is why alerts and a habit of glancing at the app matter more than any single hardware choice.
 
@@ -109,6 +124,7 @@ The practical point is the detection time. A fault discovered on the day costs a
 
 A good fault report shortens every later step. Record these before changing the system:
 
+<!-- steps -->
 1. Model name and serial number from the label.
 2. Exact message and LED pattern, photographed.
 3. Time of the fault and what generation looked like in the hours before.
@@ -122,6 +138,7 @@ Manufacturers ask for much the same list. A Growatt manual, for example, asks fo
 
 ## Safe escalation path
 
+<!-- steps -->
 1. **Installer or EPC first, if you have one.** They know the as-built design, and many faults are string or wiring problems that need their drawings.
 2. **The manufacturer's support channel.** For Qbits equipment, raise a request on the [Qbits support helpdesk](https://support.qbitsenergy.com/helpdesk/qbits-service-620){target="_blank" rel="noopener"} with the model, serial number, location and the fault as displayed. Ask for the fault code manual for your model if the display message is unclear. The [datasheet library](/download-datasheets/) confirms which product family you have, and the [on-grid inverter](/on-grid-inverter/) and [hybrid inverter](/hybrid-inverter/) pages describe the families. A hybrid unit also reports battery and backup-output messages that an on-grid unit never shows.
 3. **A service partner near you.** The [authorized service partners directory](/authorized-service-partners/) lists partners by state and district. Confirm scope, coverage and any charges with the partner before work starts, because listings do not guarantee availability or response time.
@@ -131,6 +148,8 @@ Manufacturers ask for much the same list. A Growatt manual, for example, asks fo
 If there is a burning smell, smoke, water ingress, damaged cabling, repeated protective-device operation or a suspected insulation or arc fault, keep people away and have a qualified professional make the site safe before anything else.
 
 ### What the service ticket should show
+
+Table: What a service ticket should show, field by field
 
 | Field | What it should say | Why it matters |
 | --- | --- | --- |
@@ -157,6 +176,8 @@ Photograph any physical damage before a technician arrives.
 
 When someone quotes a failure rate, a "most reliable" label or a service promise, ask what sits behind it.
 
+Table: Context needed before accepting a reliability or service claim
+
 | Evidence | Minimum context needed |
 | --- | --- |
 | Failure rate | Population, models, installation dates, operating exposure and failure definition |
@@ -171,6 +192,8 @@ Without this context, labels such as "most reliable", "lowest RMA" or "fastest s
 ## Preventing the next stop
 
 Most prevention is routine and inexpensive. A reasonable pattern, to be adapted to your manual and your installer's advice:
+
+Table: A typical preventive routine for a rooftop inverter, with interval and owner
 
 | Activity | Typical interval | Done by | What it catches |
 | --- | --- | --- | --- |

@@ -4,7 +4,7 @@ excerpt: "Solar for ice factory economics in India: power per tonne of ice, real
 description: "Solar for ice factory and cold chain plants in India: refrigeration load profiles, kWh per tonne benchmarks, sizing, battery vs grid for night loads, and payback math."
 category: "Guide"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-10-14
 readTime: "19 min"
 image: "/og/blog-solar-for-ice-factory-cold-chain.webp"
 author: "Keyur Rakholiya"
@@ -24,7 +24,7 @@ faqs:
   - q: "Does an ice factory need batteries with solar?"
     a: "Most ice factories do not need batteries for the solar investment to work. Ice itself is thermal storage. A plant can over-cool the ice bank during solar hours and coast through part of the night with compressors idling. Batteries make sense only where grid outages threaten product quality or where night tariffs are high. Sizing a battery for the full night load of a 200 kW plant costs Rs 40 Lakh or more, which rarely pays back. A smaller battery for control loads and one compressor is the practical middle path."
   - q: "What is the payback period for solar on a cold storage or ice plant?"
-    a: "Payback for solar on an ice plant in India runs 3 to 4.5 years for grid-connected rooftop systems. This assumes industrial tariffs of Rs 8 to Rs 9.50 per unit. A 200 kW plant costing about Rs 96 Lakh saves roughly Rs 24 to 25 Lakh per year at Rs 8.50 per unit. Accelerated depreciation of 40 percent in year one improves the effective payback by 8 to 12 months for taxpaying companies. States with lower tariffs, such as Gujarat at Rs 5 to 5.50 per unit for HT industrial, see payback stretch toward 5 to 6 years."
+    a: "Payback for solar on an ice plant in India runs 3 to 4.5 years for grid-connected rooftop systems. This assumes industrial tariffs of Rs 8 to Rs 9.50 per unit. A 200 kW plant costing about Rs 96 Lakh saves roughly Rs 24 to 25 Lakh per year at Rs 8.50 per unit. Accelerated depreciation of 40 percent in year one improves the effective payback by roughly 5 to 6 months for taxpaying companies (about 3.7 to 3.8 years on the worked example). States with lower tariffs, such as Gujarat at Rs 5 to 5.50 per unit for HT industrial, see payback stretch toward 5 to 6 years."
   - q: "Can solar inverters handle compressor startup surge in an ice plant?"
     a: "Yes, grid-connected solar inverters handle compressor surge easily because the grid absorbs the inrush current, not the inverter. A 100 HP ammonia compressor can draw 2.5 to 3 times its running current at startup. On a grid-tied system, that surge comes from the grid connection. Surge matters only for hybrid or off-grid designs where the inverter must source the inrush. In those cases, soft starters or VFDs cut inrush to 1.2 to 1.5 times running current. The inverter is then sized 25 to 30 percent above total running load."
   - q: "Which refrigerant plants benefit more from solar, ammonia or Freon?"
@@ -38,12 +38,10 @@ A 20 tonne per day ice factory in coastal Andhra Pradesh spends Rs 12 Lakh to Rs
 
 Ice plants and cold chain facilities sit in a rare position. They are energy intensive, so every unit saved is real money. Their heaviest load falls between 10 AM and 5 PM, exactly overlapping solar generation hours. And they already own the one thing most factories lack: built-in thermal storage, because ice and chilled brine hold cold the way a battery holds charge. This guide covers the actual numbers: power per tonne, solar costs in 2026, sizing against compressor loads, and the honest battery tradeoffs for night operation.
 
-> **TL;DR**
-> - Ice plants consume 55 to 85 kWh per tonne of ice depending on type, according to FAO benchmarks and SAMEEEKSHA cluster studies.
-> - Electricity is 40 to 62 percent of operating cost in Indian [cold storage](https://www.heavengreenenergy.com/blog/solar-for-cold-storage-roi) and ice plants, the single largest controllable expense.
+> [!KEYTAKEAWAYS]
+> - Ice plants consume 55 to 85 kWh per tonne of ice depending on type, according to FAO benchmarks and SAMEEEKSHA cluster studies. Electricity is 40 to 62 percent of operating cost in Indian [cold storage](https://www.heavengreenenergy.com/blog/solar-for-cold-storage-roi) and ice plants, the single largest controllable expense.
 > - 55 to 65 percent of the daily refrigeration load falls inside solar hours, so a grid-connected plant offsets the most expensive block without batteries.
-> - A 200 kW solar plant for a 20 TPD ice factory costs about Rs 96 Lakh. It pays back in about 4 years at Rs 8.50 per unit.
-> - [Accelerated depreciation](/glossary/accelerated-depreciation/) of 40 percent in year one cuts effective payback by roughly 8 to 12 months for taxpaying businesses.
+> - A 200 kW solar plant for a 20 TPD ice factory costs about Rs 96 Lakh. It pays back in about 4.2 years at Rs 8.50 per unit, and [accelerated depreciation](/glossary/accelerated-depreciation/) of 40 percent in year one cuts effective payback to about 3.7 to 3.8 years for taxpaying businesses.
 > - Ice itself is thermal storage: over-cooling the brine tank during solar hours replaces most of what a costly battery would do.
 > - Batteries only pay where night tariffs are high or outages threaten product. Full night-load storage for a 200 kW plant costs Rs 40 Lakh plus.
 
@@ -59,17 +57,20 @@ Refrigeration is different. Compressor load is driven by heat ingress and ambien
 
 Three structural factors make the economics work:
 
-- **High energy intensity.** Electricity is over 62 percent of operating cost in cold storage, according to Energiaa's cold storage solar analysis. Every unit offset drops straight to the bottom line.
+- **High energy intensity.** Electricity is up to 62 percent of operating cost in cold storage, according to Energiaa's cold storage solar analysis. Every unit offset drops straight to the bottom line.
 - **Flat to rising daytime load.** Unlike offices that idle at lunch, compressors never stop. A solar plant sized to daytime load finds a buyer for every unit it generates.
 - **Thermal storage already exists.** Ice banks, brine tanks, and frozen product hold cooling for hours. The plant can shift load into solar hours at zero equipment cost.
 
-> **What most ice plant owners get wrong:** they compare solar cost against their average tariff. They should compare it against their marginal daytime tariff, which is what solar actually replaces, and against diesel for backup hours. Both comparisons favour solar heavily.
+> [!TIP] What most ice plant owners get wrong
+> They compare solar cost against their average tariff. They should compare it against their marginal daytime tariff, which is what solar actually replaces, and against diesel for backup hours. Both comparisons favour solar heavily.
 
 The counterintuitive finding here: a 24x7 load is easier to solarize than a 9-to-5 load of the same size. The 24x7 plant has no weekend shutdown, no seasonal idle, and no duck curve problem. Self-consumption ratios of 90 percent plus are normal. Most C&I rooftop projects celebrate 70 percent.
 
 ## The Refrigeration Load Profile: What Runs Your Meter
 
 Before sizing anything, understand where the units go. A typical Indian ice factory load breaks down roughly as follows:
+
+Table: Typical load breakdown of an Indian ice factory
 
 | Load | Share of consumption | Behaviour |
 | --- | --- | --- |
@@ -88,15 +89,30 @@ Ambient sensitivity matters for sizing. Compressor power rises roughly 1.5 to 2 
 
 Sizing starts from energy per tonne, not from connected load. The benchmarks:
 
+Table: Ice plant energy use, kWh per tonne, temperate vs tropical India
+
 | Ice type | Temperate climate (kWh/tonne) | Tropical climate, India (kWh/tonne) |
 | --- | --- | --- |
 | Block ice | 40 to 50 | 55 to 70 |
 | Tube ice | 40 to 50 | 55 to 70 |
 | Flake ice | 50 to 60 | 70 to 85 |
 
+```chart
+type: hbar
+title: Ice plant energy use in tropical climates such as India, kWh per tonne of ice
+unit: "kWh/tonne"
+source: "FAO ice plant engineering reference (fao.org, T0713E06), as cited in this article; ranges are for tropical climate, India"
+sourceUrl: https://www.fao.org/4/t0713e/T0713E06.htm
+note: "Lower is better. Older reciprocating compressors run 10 to 20 percent above these ranges."
+data:
+  - { label: "Block ice", min: 55, max: 70 }
+  - { label: "Tube ice", min: 55, max: 70 }
+  - { label: "Flake ice", min: 70, max: 85 }
+```
+
 These ranges come from the [FAO ice plant engineering reference](https://www.fao.org/4/t0713e/T0713E06.htm). Indian field data confirms them. The measured specific energy consumption of a 10 TPD tube ice plant in Bhimavaram was 73.89 kWh per tonne, according to the [SAMEEEKSHA cluster DPR](https://sameeeksha.org/pdf/dpr/Bhimavaram_ice_making_cluster/Tube_ice_plant_10_TPD_Bhimavrm_IMC.pdf).
 
-**Table: typical plant sizes and daily consumption (industry-observed, using 65 to 75 kWh/tonne):**
+Table: Typical plant sizes and daily consumption (industry-observed, using 65 to 75 kWh/tonne)
 
 | Plant capacity | Daily consumption | Monthly units | Monthly bill at Rs 8.50/unit |
 | --- | --- | --- | --- |
@@ -113,7 +129,7 @@ Two adjustments to apply. First, older reciprocating compressors run 10 to 20 pe
 
 Grid-connected C&I rooftop solar in India installs at Rs 45,000 to Rs 55,000 per kW all-in for plants above 100 kW. That is the industry-observed range for 2026. Larger ground-mount or shed-mount plants trend toward the low end.
 
-**Table: solar plant cost and sizing by ice factory scale (hypothetical, at Rs 48,000 per kW):**
+Table: Solar plant cost and sizing by ice factory scale (hypothetical, at Rs 48,000 per kW)
 
 | Plant | Solar size (daytime block) | Estimated capex | Annual generation | Annual saving at Rs 8.50/unit |
 | --- | --- | --- | --- | --- |
@@ -125,6 +141,9 @@ Grid-connected C&I rooftop solar in India installs at Rs 45,000 to Rs 55,000 per
 Generation assumes 4 units per kW per day, conservative for most of peninsular India. Gujarat, Rajasthan, and Telangana sites deliver 4.3 to 4.7 units per kW per day, improving every number in the table.
 
 The sizing rule of thumb: **9 to 11 kW of solar per tonne of daily ice capacity** covers the daytime load block. A 20 TPD plant lands at 180 to 220 kW. Go larger only if net metering or open access lets you bank surplus against night consumption. Otherwise surplus exports at Rs 2 to 3.50 per unit, which wrecks the marginal economics.
+
+> [!WARNING] Oversizing past the daytime block
+> Surplus units exported to the DISCOM earn Rs 2 to 3.50, against Rs 8.50 avoided when the plant uses the unit itself. Size to the daytime block unless net metering or open access banking is secured first.
 
 For plants above 1 MW connected load, open access procurement changes the math entirely. The [open access solar guide](/blog/open-access-solar-india-explained/) covers when buying solar power beats building it.
 
@@ -141,7 +160,10 @@ Here is the full calculation, inputs shown. The plant is hypothetical but every 
 - Capex: Rs 96 Lakh (Rs 48,000 per kW)
 - O&M: Rs 1.2 Lakh per year
 
-**Table: payback calculation:**
+> [!FORMULA]
+> Simple payback (years) = Capex ÷ Net annual saving
+
+Table: Payback calculation for a 200 kW solar plant on a 20 TPD ice factory
 
 | Item | Value |
 | --- | --- |
@@ -152,7 +174,7 @@ Here is the full calculation, inputs shown. The plant is hypothetical but every 
 | Net annual saving | Rs 22.6 Lakh |
 | Simple payback | 4.2 years |
 | Tax saving, 40 percent accelerated depreciation (year one) | Rs 9.6 to 11.5 Lakh |
-| Effective payback with depreciation | 3.6 to 3.8 years |
+| Effective payback with depreciation | 3.7 to 3.8 years |
 
 Industrial tariffs vary sharply by state, and this moves payback by a full year either way. Maharashtra HT industrial consumers pay around Rs 8.50 per unit. A revised policy targets Rs 7.38 per unit, according to [Power Peak Digest reporting on the state tariff policy](https://powerpeakdigest.com/), 2025. Gujarat HT industrial energy charges run Rs 5 to 5.50 plus demand charges, landing effective rates near Rs 7 to 7.50. Model your own blended rate from the last 12 months of bills, not the DISCOM headline.
 
@@ -162,7 +184,7 @@ The [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/) mod
 
 This is the section where most ice plant solar proposals go wrong. The plant runs 24x7, so the salesperson sells a battery for the night block. The math almost never supports it.
 
-**Table: three night-load strategies for a 200 kW solar plant:**
+Table: Three night-load strategies for a 200 kW solar plant
 
 | Strategy | Added cost | What it covers | Verdict |
 | --- | --- | --- | --- |
@@ -206,7 +228,7 @@ Most ice plants are MSMEs, and the financing stack matters as much as the engine
 
 - **Accelerated depreciation.** Solar plant qualifies for 40 percent written down value depreciation in year one. For a company in the 25 to 30 percent tax bracket, that saves Rs 9.6 to 11.5 Lakh of tax in year one.
 - **MSME solar loans.** Specialized green credit lines from SIDBI, SBI, and IREDA-backed schemes finance C&I rooftop at 9 to 11 percent. The [solar loan for business and MSME](/blog/solar-loan-for-business-msme/) guide compares the structures.
-- **EMI vs saving alignment.** A Rs 96 Lakh plant financed at 10 percent over 7 years costs about Rs 15.9 Lakh per year in EMI. Net annual saving is Rs 22.6 Lakh. The plant is cash-flow positive from month one by about Rs 6.7 Lakh per year, before depreciation.
+- **EMI vs saving alignment.** A Rs 96 Lakh plant financed at 10 percent over 7 years costs about Rs 19.1 Lakh per year in EMI (about Rs 1.59 Lakh a month). Net annual saving is Rs 22.6 Lakh. The plant is cash-flow positive from month one by about Rs 3.5 Lakh per year, before depreciation.
 
 OPEX and RESCO models exist at this scale too. A developer builds the plant on your roof and sells you power at Rs 4.50 to 5.50 per unit. You give up the depreciation and the asset, but pay nothing upfront. For owners with capital tied up in cold chain expansion, that trade is often correct.
 
@@ -224,4 +246,4 @@ Three actions to take this week:
 
 - Pull 12 months of electricity bills, compute your blended per-unit rate, and multiply your daily consumption by 58 percent. That is your daytime block and your solar size target.
 - Get your roof and electrical single-line diagram assessed before requesting quotes, so proposals come back sized to your actual load profile.
-- [Request a plant assessment from the Qbits C&I team](/contact-us/) with your bill data. You get a sized proposal with payback math you can verify against this guide.
+- [Contact Qbits](/contact-us/) with your bill data and load profile to discuss inverter selection for the plant. Confirm in writing who sizes and installs the system, and what is included, before you sign.

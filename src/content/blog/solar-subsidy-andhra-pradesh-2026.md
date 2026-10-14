@@ -4,7 +4,7 @@ excerpt: "Solar subsidy in Andhra Pradesh 2026 provides PM Surya Ghar up to ₹7
 description: "Solar subsidy in Andhra Pradesh 2026: PM Surya Ghar amounts, APEPDCL/APNPDCL net-metering steps, state policy, timeline, and a Visakhapatnam case."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-solar-subsidy-andhra-pradesh-2026.webp"
 author: "Akash Hirapara"
@@ -44,17 +44,18 @@ AP's solar irradiance is among the better in India, particularly in the semi-ari
 
 The [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the national framework; this post adds the AP-specific detail.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - AP homeowners get the central [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy only (up to ₹78,000 for 3 kW) - there is no separate AP state cash top-up as of 2026.
 > - Two DISCOMs split the state: APEPDCL for eastern/coastal AP (60-80 day average timeline) and APNPDCL for northern/inland AP (75-100 days).
 > - Rayalaseema districts (Kurnool, Anantapur) get the highest irradiance in AP, 5.5-5.8 kWh/m²/day, supporting the fastest payback.
 > - Coastal locations (Visakhapatnam, Kakinada, Machilipatnam) need IP66-rated inverters and cyclone-rated mounting due to salt air and Bay of Bengal wind exposure.
-> - A real Visakhapatnam 3 kW case shows a net out-of-pocket cost of ₹1,22,000 after subsidy, with payback of about 3.8 years.
-> - Total realistic timeline from registration to subsidy credit runs 88-172 days depending on DISCOM and urban vs rural location.
+> - An illustrative Visakhapatnam 3 kW scenario shows a net out-of-pocket cost of ₹1,22,000 after subsidy, with payback of about 4.3 years. Total realistic timeline from registration to subsidy credit runs 88-172 days depending on DISCOM and urban vs rural location.
 
 ## What PM Surya Ghar Provides in Andhra Pradesh: The Central Subsidy
 
 The central PM Surya Ghar Muft Bijli Yojana is administered through [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) at nationally standardised rates:
+
+Table: PM Surya Ghar central subsidy by system size
 
 | System Size | Rate | Total Central Subsidy |
 | --- | --- | --- |
@@ -81,9 +82,12 @@ Five sequential steps define the successful PM Surya Ghar claim process in Andhr
 
 ### The 5-Pillar AP Subsidy Stack
 
+<!-- steps -->
 1. **PM Surya Ghar portal registration**: Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your APEPDCL or APNPDCL consumer number, Aadhaar details, and bank information before installation begins. Do not allow any installer to begin physical work before this step is complete.
 
 2. **DISCOM technical feasibility**: APEPDCL or APNPDCL reviews the application and conducts a site visit. Both DISCOMs process feasibility assessments through divisional offices. Urban coastal areas (Vizag, Vijayawada) have more developed divisional capacity. Timeline: 20 to 35 days for urban, 30 to 50 days for rural.
+
+3. **Installation**: After feasibility approval, the vendor installs the system. Timeline: 7 to 14 days for urban areas, 10 to 20 days for rural.
 
 4. **Net meter commissioning**: Post-installation inspection followed by meter change. AP's coastal urban areas typically process meter changes in 30 to 45 days post-inspection.
 
@@ -97,7 +101,8 @@ APEPDCL (Andhra Pradesh Eastern Power Distribution Company Limited) covers Visak
 
 APEPDCL's consumer portal: [apepdcl.in](https://www.apepdcl.in/). Applications are primarily routed through the PM Surya Ghar national portal. APEPDCL divisional offices in Vizag, Rajamahendravaram (Rajahmundry), Vijayawada, and Guntur are the primary contact points for physical follow-up.
 
-**Coastal note**: Visakhapatnam, Kakinada, and Machilipatnam face direct Bay of Bengal exposure. Salt-laden sea breeze accelerates corrosion on standard IP65 enclosures. IP66 inverters with marine-grade cable connections are the appropriate specification for these locations.
+> [!IMPORTANT] Coastal AP: specify IP66
+> **Coastal note**: Visakhapatnam, Kakinada, and Machilipatnam face direct Bay of Bengal exposure. Salt-laden sea breeze accelerates corrosion on standard IP65 enclosures. IP66 inverters with marine-grade cable connections are the appropriate specification for these locations.
 
 Average APEPDCL urban timeline: 60 to 80 days.
 
@@ -109,6 +114,8 @@ APNPDCL consumer portal: [apnpdcl.in](https://www.apnpdcl.in/). Divisional offic
 
 Average APNPDCL urban timeline: 75 to 100 days. Rayalaseema rural areas can extend to 100 to 120 days.
 
+Table: Andhra Pradesh's two DISCOMs, their coverage and average urban timeline
+
 | DISCOM | Coverage | Average Urban Timeline |
 | --- | --- | --- |
 | **APEPDCL** | Eastern/Coastal AP | 60–80 days |
@@ -116,29 +123,50 @@ Average APNPDCL urban timeline: 75 to 100 days. Rayalaseema rural areas can exte
 
 ## AP Solar Irradiance: Regional Variation
 
+Table: Irradiance by AP city and estimated 3 kW annual generation (3 kW × irradiance × 365 × 0.80 system efficiency)
+
 | City | Avg. Irradiance | Est. 3 kW Annual Generation |
 | --- | --- | --- |
-| Kurnool (Rayalaseema) | 5.7 kWh/m²/day | ~5,700 kWh |
-| Anantapur | 5.6 kWh/m²/day | ~5,600 kWh |
-| Vijayawada | 5.3 kWh/m²/day | ~5,200 kWh |
-| Visakhapatnam | 5.1 kWh/m²/day | ~5,000 kWh |
-| Nellore | 5.3 kWh/m²/day | ~5,200 kWh |
-| Rajahmundry | 5.0 kWh/m²/day | ~4,900 kWh |
+| Kurnool (Rayalaseema) | 5.7 kWh/m²/day | ~5,000 kWh |
+| Anantapur | 5.6 kWh/m²/day | ~4,900 kWh |
+| Vijayawada | 5.3 kWh/m²/day | ~4,600 kWh |
+| Visakhapatnam | 5.1 kWh/m²/day | ~4,500 kWh |
+| Nellore | 5.3 kWh/m²/day | ~4,600 kWh |
+| Rajahmundry | 5.0 kWh/m²/day | ~4,400 kWh |
+
+```chart
+type: hbar
+title: "Estimated annual generation of a 3 kW system, by AP city"
+unit: kWh
+source: "Calculated in this article: 3 kW × average irradiance (kWh/m²/day) in the table above × 365 days × 0.80 system efficiency, the same formula used in the Visakhapatnam example"
+note: "Estimates, rounded. Actual yield depends on tilt, shading and soiling."
+decimals: 0
+data:
+  - { label: "Kurnool", value: 4993 }
+  - { label: "Anantapur", value: 4906 }
+  - { label: "Vijayawada", value: 4643 }
+  - { label: "Nellore", value: 4643 }
+  - { label: "Visakhapatnam", value: 4467 }
+  - { label: "Rajahmundry", value: 4380 }
+```
 
 > **5.7 kWh/m²/day.** Average solar irradiance in Kurnool, among the highest in AP and one of the better solar resource sites for residential investment in south India, driven by Rayalaseema's semi-arid climate. *Source - [NREL Global Solar Atlas](https://globalsolaratlas.info/), 2026.*
 
 ## Documents Required for AP Solar Subsidy
 
-- **Electricity bill**: Recent APEPDCL or APNPDCL bill showing consumer number and division
-- **Aadhaar card**: Mobile OTP-verified for PM Surya Ghar portal
-- **PAN card**: Required for subsidy disbursement
-- **Bank passbook or cancelled cheque**: Aadhaar-linked account
-- **Property ownership**: Registered sale deed, Patta passbook (AP land records), or property tax receipt from Municipal Corporation or Gram Panchayat
-- **For apartments**: Apartment owners association NOC
-- **Rooftop photographs**: Multiple views; for coastal locations, document existing electrical installation condition (corrosion check)
-- **Technical feasibility form**: From DISCOM-empanelled installer with single-line diagram and proposed inverter model
+> [!CHECKLIST] Documents for an AP solar subsidy application
+> - **Electricity bill**: Recent APEPDCL or APNPDCL bill showing consumer number and division
+> - **Aadhaar card**: Mobile OTP-verified for PM Surya Ghar portal
+> - **PAN card**: Required for subsidy disbursement
+> - **Bank passbook or cancelled cheque**: Aadhaar-linked account
+> - **Property ownership**: Registered sale deed, Patta passbook (AP land records), or property tax receipt from Municipal Corporation or Gram Panchayat
+> - **For apartments**: Apartment owners association NOC
+> - **Rooftop photographs**: Multiple views; for coastal locations, document existing electrical installation condition (corrosion check)
+> - **Technical feasibility form**: From DISCOM-empanelled installer with single-line diagram and proposed inverter model
 
 ## Timeline: What Is Realistic for AP in 2026
+
+Table: Realistic timeline for AP in 2026 by location type
 
 | Stage | Coastal Urban (APEPDCL) | Inland Urban (APNPDCL) | Rural |
 | --- | --- | --- | --- |
@@ -149,27 +177,30 @@ Average APNPDCL urban timeline: 75 to 100 days. Rayalaseema rural areas can exte
 | Subsidy disbursement | 30 days | 30 days | 30 days |
 | **Total** | **88–121 days** | **103–141 days** | **131–172 days** |
 
-## A Visakhapatnam Homeowner Case Example: 3 kW, APEPDCL
+## A Visakhapatnam Homeowner Case Example: 3 kW, APEPDCL (Illustrative)
 
-Venkata Rao owns an independent house in Rushikonda, Visakhapatnam, served by APEPDCL. His house is approximately 3 km from the coastline. Monthly APEPDCL bill: ₹3,400 (400–460 units per month with air conditioning).
+This is an illustrative scenario with assumed figures, not a real customer. Take an independent house in Rushikonda, Visakhapatnam, served by APEPDCL, approximately 3 km from the coastline. Monthly APEPDCL bill: ₹3,400 (400–460 units per month with air conditioning).
 
-**Costs and subsidies**:
-- Gross system cost: ₹2,00,000 (installed with coastal-grade specifications)
-- Central PM Surya Ghar subsidy: ₹78,000
-- Net out-of-pocket: ₹1,22,000 (homeowners who prefer not to pay this upfront can spread it through [EMI financing](/blog/solar-on-emi/) at rates well below AP's blended electricity savings)
-
-**Energy economics** (Visakhapatnam, ~5.1 kWh/m²/day):
-- Annual generation estimate: 4,980 kWh (3 × 5.1 × 365 × 0.80)
-- Annual savings at 85% self-consumption (₹7.00/unit blended): approximately ₹29,600
-- Annual export earnings (15% at ₹3.00/unit): approximately ₹2,240
-- Total annual benefit: approximately ₹31,840
-- Post-subsidy payback: approximately 3.8 years
-
-**APEPDCL experience**: Applied in October 2025. APEPDCL technical feasibility assessment scheduled in 24 days. Feasibility approval in 31 days. Installation completed in 9 days. Post-installation inspection: 12 days after request. Meter change: 39 days. First solar bill: December 2025. Subsidy credited: January 2026 (28 days after commissioning). Total: 110 days.
+> [!EXAMPLE] Visakhapatnam 3 kW (illustrative scenario)
+> **Costs and subsidies**:
+> - Gross system cost: ₹2,00,000 (installed with coastal-grade specifications)
+> - Central PM Surya Ghar subsidy: ₹78,000
+> - Net out-of-pocket: ₹1,22,000 (homeowners who prefer not to pay this upfront can spread it through [EMI financing](/blog/solar-on-emi/) at rates well below AP's blended electricity savings)
+>
+> **Energy economics** (Visakhapatnam, ~5.1 kWh/m²/day):
+> - Annual generation estimate: approximately 4,470 kWh (3 × 5.1 × 365 × 0.80 = 4,467)
+> - Annual savings at 85% self-consumption (₹7.00/unit blended): approximately ₹26,600
+> - Annual export earnings (15% at ₹3.00/unit): approximately ₹2,010
+> - Total annual benefit: approximately ₹28,600
+> - Post-subsidy payback: approximately 4.3 years (₹1,22,000 ÷ ₹28,600)
+>
+> **APEPDCL experience (assumed timeline)**: Applied in October 2025. APEPDCL technical feasibility assessment scheduled in 24 days. Feasibility approval in 31 days. Installation completed in 9 days. Post-installation inspection: 12 days after request. Meter change: 39 days. First solar bill: December 2025. Subsidy credited: January 2026 (28 days after commissioning). Total: 110 days.
 
 **Key observation**: The IP66 inverter specification added approximately ₹8,000 to the system cost but is considered mandatory by experienced Vizag coastal solar installers. Salt-laden sea breeze from the Bay of Bengal makes IP65 enclosures vulnerable to corrosion in Vizag's coastal areas.
 
 ## Pros and Cons: AP Solar in 2026
+
+Table: Pros and cons of AP solar in 2026, by region and system type
 
 | | Pros | Cons |
 | --- | --- | --- |

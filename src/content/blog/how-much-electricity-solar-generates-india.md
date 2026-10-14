@@ -4,7 +4,7 @@ excerpt: "How much solar energy is generated in India varies by state. Rajasthan
 description: "Solar generation in India varies by state: Rajasthan yields 1,800–2,000 kWh/kW/year, Kerala 1,100–1,300 kWh/kW/year. Estimate your output."
 category: Guide
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-how-much-electricity-solar-generates-india.webp"
 author: "Keyur Rakholiya"
@@ -35,7 +35,7 @@ faqs:
 
 The most fundamental question any Indian homeowner asks before investing in solar is also the most practical: how many electricity units will my system actually produce? Not in an advertisement, not on a datasheet, but on your specific rooftop in your specific state. This guide answers that question with state-by-state data, real worked examples, and a named framework for calculating your own system's expected output.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Annual specific yield ranges from about 1,100 kWh/kW in Kerala to 2,000 kWh/kW in Rajasthan.
 > - A 3 kW system generates roughly 3,300-3,900 units/year in Kerala versus 5,400-6,000 units/year in Rajasthan.
 > - Formula: Annual Yield (kWh/kW) = GHI (kWh/m²/day) x 365 x Performance Ratio (0.75-0.82).
@@ -62,6 +62,8 @@ The net result of these three factors is the **annual specific yield**: units ge
 
 The table below shows annual specific yield for each major Indian state, based on NREL and IRENA irradiance data combined with standard system performance assumptions (PR 0.78, south-facing, optimal tilt, 400 Wp panels).
 
+Table: Annual specific yield and 3 kW and 5 kW system generation by state, NREL and IRENA irradiance data with PR 0.78
+
 | State / Region | GHI (kWh/m²/day) | Annual Specific Yield (kWh/kW/yr) | 3 kW System Annual Generation | 5 kW System Annual Generation |
 | --- | --- | --- | --- | --- |
 | Rajasthan | 5.8–6.5 | 1,800–2,000 | 5,400–6,000 units | 9,000–10,000 units |
@@ -82,17 +84,39 @@ The table below shows annual specific yield for each major Indian state, based o
 
 *Source - [NREL India Solar Resource Data](https://www.nrel.gov/international/ra_india.html), 2024; [IRENA Solar Resource Atlas](https://www.irena.org/), 2025. PR assumption: 0.78.*
 
+```chart
+type: hbar
+title: Annual specific yield by state (kWh per kW per year), selected states
+unit: "kWh/kW/yr"
+source: "NREL India Solar Resource Data (2024) and IRENA Solar Resource Atlas (2025) as cited in the state-by-state table above; PR assumption 0.78"
+sourceUrl: https://www.nrel.gov/international/ra_india.html
+note: "Bars show the range given in the table. Selected states only; see the table for all fifteen."
+data:
+  - { label: "Rajasthan", min: 1800, max: 2000 }
+  - { label: "Gujarat", min: 1700, max: 1900 }
+  - { label: "Maharashtra", min: 1600, max: 1750 }
+  - { label: "Karnataka", min: 1500, max: 1700 }
+  - { label: "Delhi / Haryana", min: 1400, max: 1600 }
+  - { label: "West Bengal", min: 1300, max: 1500 }
+  - { label: "Kerala", min: 1100, max: 1300 }
+  - { label: "Assam / NE", min: 1000, max: 1200 }
+```
+
 ## The State-by-State Solar Yield Calculator
 
 This four-step framework lets you compute your expected annual generation from any system size in any Indian state.
 
+> [!FORMULA] Annual specific yield
+> Annual Yield (kWh/kW) = GHI (kWh/m²/day) × 365 × Performance Ratio (0.75 to 0.82)
+
 ### The State-by-State Solar Yield Calculator
 
+<!-- steps -->
 1. **Look up your state's GHI**: Use the table above or the MNRE's India Solar Resource Map available at [mnre.gov.in](https://mnre.gov.in/). For precision, use your pincode-level irradiance from NREL's PVWatts tool.
 
-2. **Calculate your annual specific yield**: Apply a [performance ratio (PR)](/glossary/pr/) of 0.75–0.82 depending on system quality. Formula: `Annual Yield (kWh/kW) = GHI (kWh/m²/day) × 365 × PR`. For Bangalore with GHI of 5.2 and PR 0.80: `5.2 × 365 × 0.80 = 1,519 kWh/kW/yr`.
+2. **Calculate your annual specific yield**: Apply a [performance ratio (PR)](/glossary/pr/) of 0.75–0.82 depending on system quality. Formula: `Annual Yield (kWh/kW) = GHI (kWh/m²/day) × 365 × PR`. For Bangalore with GHI of 5.2 and PR 0.80: `5.2 × 365 × 0.80 = 1,518 kWh/kW/yr`.
 
-3. **Multiply by system size**: For a 5 kW system in Bangalore: `5 × 1,519 = 7,595 kWh per year` (approximately 633 units/month average).
+3. **Multiply by system size**: For a 5 kW system in Bangalore: `5 × 1,518 = 7,590 kWh per year` (approximately 633 units/month average).
 
 4. **Adjust for orientation and shading**: South-facing = 100%. West-facing = subtract 12–18%. East-facing = subtract 15–20%. Partial shading = subtract 10–30% depending on severity. Final adjusted yield is your realistic annual generation estimate.
 
@@ -103,6 +127,8 @@ This framework produces a conservative, real-world estimate. Many installers quo
 Annual averages conceal the dramatic month-to-month variation in solar generation across Indian states. Understanding this variation helps you budget for your electricity bill correctly and set realistic expectations.
 
 **3 kW system in Rajasthan, monthly generation (approximate):**
+
+Table: Approximate monthly generation of a 3 kW system in Rajasthan
 
 | Month | Generation (units) | Notes |
 | --- | --- | --- |
@@ -118,7 +144,7 @@ Annual averages conceal the dramatic month-to-month variation in solar generatio
 | October | 450–490 | Good generation, lower angles |
 | November | 400–440 | Winter approaching |
 | December | 360–400 | Shortest days |
-| **Annual total** | **4,960–5,520** | **Average: 470–510/month** |
+| **Annual total** | **4,960–5,520** | **Average: 413–460/month** |
 
 In Kerala, the June–September monsoon months can produce as few as 250–350 units per month from a 3 kW system, roughly half the annual average. This seasonal variation affects net metering credit accumulation and bill management strategies.
 
@@ -166,13 +192,15 @@ Several factors can reduce actual generation below the theoretical estimates sho
 
 Every reputable solar installer should provide a **Detailed Project Report (DPR)** or [simulation software](https://surgepv.com/solar-simulation-software/) output that shows:
 
-- Monthly generation estimates for all 12 months
-- Annual generation total
-- Performance ratio assumed
-- Irradiance source (NREL, NASA, or state-specific data)
-- Shading analysis if any obstruction exists
+> [!CHECKLIST] A good simulation or DPR output shows
+> - Monthly generation estimates for all 12 months
+> - Annual generation total
+> - Performance ratio assumed
+> - Irradiance source (NREL, NASA, or state-specific data)
+> - Shading analysis if any obstruction exists
 
-If an installer quotes only the annual total without monthly breakdown, or uses a round-number multiplier like "1 kW = 5 units/day" for Kerala without qualification, that is a warning sign. Kerala's actual output is closer to 3.5–4.5 units/kW/day, 15–25% below a simplified national average.
+> [!TIP] Spot a lazy installer estimate
+> If an installer quotes only the annual total without monthly breakdown, or uses a round-number multiplier like "1 kW = 5 units/day" for Kerala without qualification, that is a warning sign. Kerala's actual output is closer to 3.5–4.5 units/kW/day, 15–25% below a simplified national average.
 
 The [string sizing calculator](/string-sizing-calculator/) helps you verify whether the quoted panel and inverter combination is correctly matched for your state's irradiance profile.
 

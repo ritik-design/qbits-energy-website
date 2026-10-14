@@ -4,7 +4,7 @@ excerpt: "Finding a reliable solar installer in India protects your ₹1.5–2.5
 description: "Reliable solar installer India: 8 verification steps covering PM Surya Ghar empanelment, ALMM equipment, DISCOM commissioning record, and AMC terms."
 category: "Buying Guide"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-find-reliable-solar-installer.webp"
 author: "Keyur Rakholiya"
@@ -43,9 +43,8 @@ Installing a rooftop solar system is one of the largest single purchases most In
 
 > **Direct answer.** A reliable solar installer in India must pass eight checks: [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-empanelled-vendor) empanelment on the MNRE portal, ALMM-compliant equipment, three local references you can visit in person, a proven DISCOM commissioning track record in your area, licensed electricians on their team, an itemised quotation, post-installation monitoring setup, and a written AMC with a defined response time. The 8-Step Installer Verification Checklist takes roughly two hours to complete and protects a ₹1.5–2.5 lakh investment.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Verify PM Surya Ghar empanelment on the MNRE portal before any site visit; non-empanelled installers cannot process your subsidy.
-
 > - Visit at least one of three local references in person; phone references alone cannot reveal cable management, earthing, or mounting quality.
 > - Insist on an itemised, model-specific quotation rather than a bundled lump-sum price, which lets an installer swap in cheaper components after signing.
 > - A poorly installed system can cut generation by 15-25%, roughly ₹50,000-₹60,000 in compounding losses over 25 years on a 3 kW system.
@@ -73,7 +72,10 @@ This proprietary framework provides a repeatable, evidence-based method to evalu
 
 ### The 8-Step Installer Verification Checklist
 
+<!-- steps -->
 1. **PM Surya Ghar Empanelment Check**: Verify the installer's registration number on the MNRE portal. A current empanelment means they have met DISCOM financial and technical criteria and signed pricing discipline agreements.
+
+2. **ALMM-Listed Equipment**: Check the exact proposed module and cell models against the current ALMM list. The ALMM lists cover modules and cells, not inverters, so check the inverter's certificates separately.
 
 3. **Three Local References**: Request references from three installations within 10 km, all completed within 18 months. Visit at least one in person and speak with the homeowner.
 4. **DISCOM Commissioning Track Record**: Ask for DISCOM application reference numbers from their three most recent net metering approvals in your district. Verify those numbers are real by calling your DISCOM helpline.
@@ -86,7 +88,10 @@ Apply this checklist to every installer you shortlist. Any installer who refuses
 
 ## Step 1: Verify PM Surya Ghar Empanelment on the MNRE Portal
 
-The PM Surya Ghar Muft Bijli Yojana requires that all installation work under the scheme be performed by a [DISCOM](/glossary/discom/)-empanelled vendor. This is not optional. If your installer is not on the empanelled list, your subsidy application will be rejected at the commissioning stage, regardless of how well the installation itself was done.
+The PM Surya Ghar Muft Bijli Yojana requires that all installation work under the scheme be performed by a [DISCOM](/glossary/discom/)-empanelled vendor. This is not optional.
+
+> [!IMPORTANT] Empanelment decides the subsidy
+> If your installer is not on the empanelled list, your subsidy application will be rejected at the commissioning stage, regardless of how well the installation itself was done.
 
 The verification process takes five minutes:
 
@@ -98,6 +103,8 @@ The verification process takes five minutes:
 Ask the installer to share their DISCOM registration number at your first meeting, before any site visit or quotation. A legitimate empanelled installer will provide this immediately. An installer who claims to be empanelled but cannot produce a registration number, or asks you to "trust them" on this point, should be disqualified.
 
 For a detailed explanation of what empanelment means and what documents an empanelled installer must provide, the guide on [empanelled vendors for PM Surya Ghar](/blog/empanelled-vendor-pm-surya-ghar/) covers the full requirements including DISCOM agreement terms and pricing norm compliance.
+
+Table: What each PM Surya Ghar empanelment status means for you
 
 | Empanelment Status | What It Means for You |
 | --- | --- |
@@ -117,7 +124,8 @@ How to check:
 - Download the current PDF and search for the exact brand and model name from the installer's quotation.
 - Check the current ALMM module and cell requirements.
 
-Verify the exact proposed module and cell models against the current orders, and check the inverter's certificates and DISCOM requirements separately.
+> [!IMPORTANT] Modules and inverters are checked separately
+> Verify the exact proposed module and cell models against the current orders, and check the inverter's certificates and DISCOM requirements separately.
 
 ## Step 3: Visit Three Local References in Person
 
@@ -170,22 +178,22 @@ An installer who employs helpers or general labourers for electrical work withou
 
 The structure of the quotation tells you more about an installer's integrity than almost anything else. A bundled quotation ("3 kW on-grid system for ₹1,80,000 all-inclusive") gives the installer the latitude to substitute any component for a cheaper alternative after you have signed and paid a deposit.
 
-The substitutions that damage your system typically happen in three areas:
+The substitutions that damage your system typically happen in areas such as:
 
 - **DC cable grade**: Specified as 4 mm² DC-rated solar cable but installed as 2.5 mm² standard electrical cable, causing resistance heating and fire risk.
 - **Earthing quality**: Proper copper earthing conductors and earth pit construction replaced by a connection to the building's common earth without a dedicated system earth.
 
 An itemised quotation removes this latitude. Professional installers increasingly generate these from dedicated [solar quotation software](https://quickestimate.co/features/quotation-system/) rather than a spreadsheet, which reduces the chance of a line item being quietly dropped. It must include:
 
-- **Panel brand and model** with ALMM certificate number
-
-- **[Mounting structure](/glossary/mounting-structure/)**: material grade (galvanised iron or aluminium), load rating
-- **[DC cable](/glossary/dc-cable/)**: brand, cross-section area (mm²), insulation type (double-insulated, UV-resistant)
-- **[AC cable](/glossary/ac-cable/)**: grade and cross-section
-- **[Surge protection device (SPD)](/glossary/spd/)**: DC-side and AC-side separately
-- **Net metering application charge**: explicitly listed, not hidden in installation fee
-- **Labour charge**: separately stated
-- **GST**: 5% on renewable energy devices under Schedule I entry 437, 18% on services, correctly computed
+> [!CHECKLIST] What an itemised quotation must include
+> - **Panel brand and model** with ALMM certificate number
+> - **[Mounting structure](/glossary/mounting-structure/)**: material grade (galvanised iron or aluminium), load rating
+> - **[DC cable](/glossary/dc-cable/)**: brand, cross-section area (mm²), insulation type (double-insulated, UV-resistant)
+> - **[AC cable](/glossary/ac-cable/)**: grade and cross-section
+> - **[Surge protection device (SPD)](/glossary/spd/)**: DC-side and AC-side separately
+> - **Net metering application charge**: explicitly listed, not hidden in installation fee
+> - **Labour charge**: separately stated
+> - **GST**: 5% on renewable energy devices under Schedule I entry 437, 18% on services, correctly computed
 
 If the installer cannot provide model-level specifications for every component, they are either not planning to use quality components or they do not have enough technical knowledge to select them correctly.
 
@@ -209,6 +217,8 @@ Ask the installer specifically:
 - Can I see generation data going back more than 12 months?
 - Will the monitoring subscription expire, and at what cost?
 
+Table: Monitoring features that are acceptable versus preferred from an installer
+
 | Monitoring Feature | Acceptable | Preferred |
 | --- | --- | --- |
 | **Data access** | Web portal, login required | Mobile app + WhatsApp push |
@@ -225,14 +235,15 @@ An Annual Maintenance Contract (AMC) formalises this ongoing relationship. The a
 
 A well-structured AMC must specify:
 
-- **Visit frequency**: minimum two scheduled inspections per year (pre-summer and post-monsoon)
-- **Panel cleaning**: included in scheduled visits, with dry or wet method noted
-- **Connection check**: torque verification of all DC and AC terminals at each visit
-- **Earthing continuity test**: measured with a clamp meter and recorded at each visit
-- **Firmware updates**: included as issued by the inverter manufacturer
-- **Fault response time**: 48–72 hours from fault report to on-site resolution (not just acknowledgment)
-- **Exclusions**: explicitly listed (typically: panel cracking from physical impact, rodent damage to cables, grid surge events)
-- **Price escalation**: fixed for the first three years or capped at a published index
+> [!CHECKLIST] What a written AMC must specify
+> - **Visit frequency**: minimum two scheduled inspections per year (pre-summer and post-monsoon)
+> - **Panel cleaning**: included in scheduled visits, with dry or wet method noted
+> - **Connection check**: torque verification of all DC and AC terminals at each visit
+> - **Earthing continuity test**: measured with a clamp meter and recorded at each visit
+> - **Firmware updates**: included as issued by the inverter manufacturer
+> - **Fault response time**: 48–72 hours from fault report to on-site resolution (not just acknowledgment)
+> - **Exclusions**: explicitly listed (typically: panel cracking from physical impact, rodent damage to cables, grid surge events)
+> - **Price escalation**: fixed for the first three years or capped at a published index
 
 For a 3–5 kW residential system, expect AMC pricing between ₹3,000 and ₹6,000 per year from a reputable installer. A price significantly below this range usually means the installer has no capacity to honour response time commitments. A price significantly above this range warrants a detailed line-by-line justification.
 
@@ -270,7 +281,7 @@ Some signals are not warnings to investigate further, they are clear grounds for
 - ✗ No written AMC, or AMC has no response time commitment
 - ✗ Asks for more than 50% deposit before installation begins
 
-Why some manufacturers stay off marketplaces entirely is argued in [why Qbits is not on Amazon](/blog/qbits-not-on-amazon-founder-pov/).
+If you are buying a Qbits inverter through a seller, the steps to verify the seller and the exact unit are in [how to verify an authorised Qbits seller](/blog/qbits-not-on-amazon-founder-pov/).
 
 ## Where Qbits Fits
 

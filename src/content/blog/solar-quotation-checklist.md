@@ -4,7 +4,7 @@ excerpt: "Normalise solar installer quotes by equipment, design, installation, p
 description: "Use this solar quotation checklist to compare equipment, capacity, installation, protection, exclusions, warranty, payment, tests, and handover."
 category: "Buying Guide"
 date: 2026-03-22
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/og/blog-solar-quotation-checklist.webp"
 author: "Akash Hirapara"
@@ -31,20 +31,28 @@ A **solar quotation checklist** should make every installer price comparable aga
 
 Two totals are not comparable if one includes a complete commissioned system and the other omits protection, application work, monitoring, taxes, structural work, or customer handover. Use this worksheet to expose those differences before selection.
 
+> [!KEYTAKEAWAYS]
+> - Give every installer the same site and requirement brief before asking for a price. Unknown inputs stay `to be verified`, with responsibility and price treatment stated.
+> - Compare exact model numbers and keep module DC kWp, inverter AC kW, battery kWh and backup-load capacity as separate fields.
+> - Reject `equivalent model` language unless the agreement defines equivalence, evidence, customer approval, price effect, design recheck and document update.
+> - Never accept a guaranteed approval or disbursement date from a seller when the authority controls the decision.
+> - Reject or hold bids with unresolved safety, compliance, compatibility or scope gaps before comparing price.
+
 ## What should be fixed before requesting solar quotes?
 
 **Give every installer the same site and requirement brief before requesting a price.** Include electricity data, connection details, site survey, usable roof, shading, structural constraints, target operating mode, backup loads, equipment preferences, approval scope, access conditions, expected deliverables, commercial format, and a deadline for written assumptions and exceptions.
 
 The request should define:
 
-- site address, consumer and connection details;
-- recent bills and any interval or load data available;
-- roof plans, access, shading and known structural information;
-- intended on-grid, hybrid, backup or zero-export operating needs;
-- critical loads and required backup behaviour, if any;
-- whether capacity is stated in module DC kWp, inverter AC kW, battery kWh or another measure;
-- required survey, design, application, installation, commissioning and handover work; and
-- the exact table and evidence format each bidder must return.
+> [!CHECKLIST] The requirement brief every bidder gets
+> - site address, consumer and connection details;
+> - recent bills and any interval or load data available;
+> - roof plans, access, shading and known structural information;
+> - intended on-grid, hybrid, backup or zero-export operating needs;
+> - critical loads and required backup behaviour, if any;
+> - whether capacity is stated in module DC kWp, inverter AC kW, battery kWh or another measure;
+> - required survey, design, application, installation, commissioning and handover work; and
+> - the exact table and evidence format each bidder must return.
 
 Do not let each installer define a different problem and then compare only totals. Unknown inputs should remain `to be verified`, with responsibility and price treatment stated.
 
@@ -53,6 +61,8 @@ If export must be limited, use the [zero-export inverter comparison](/blog/best-
 ## How should equipment and capacity be normalised?
 
 **Compare exact model numbers, quantities, capacity definitions, electrical limits, intended operating mode, and supporting documents in one table.** Separate module DC capacity, inverter AC rating, battery power and energy, and backup-load capacity. A larger headline number in one field cannot compensate for incompatibility or missing scope elsewhere.
+
+Table: Equipment and capacity normalisation template for comparing two quotes
 
 | Field | Quote A | Quote B | Review result |
 | --- | --- | --- | --- |
@@ -91,6 +101,8 @@ An inverter or module datasheet does not define the complete installation. Ask t
 
 Check whether the quote covers:
 
+Table: Application, metering and monitoring processes with the questions a quote must answer
+
 | Process | Questions to answer |
 | --- | --- |
 | Scheme or vendor route | Who verifies current eligibility and vendor requirements? |
@@ -108,7 +120,8 @@ Do not accept a guaranteed approval or disbursement date from a seller when the 
 
 Use a commercial reconciliation:
 
-`comparable contract scope = quoted included amount + priced required exclusions + supported allowances`
+> [!FORMULA]
+> Comparable contract scope = quoted included amount + priced required exclusions + supported allowances
 
 Do not compute or publish a result when excluded quantities and rates are unknown. Instead, mark the bid commercially incomplete.
 
@@ -144,7 +157,8 @@ Obtain legal and financial review for material contract terms. A percentage sequ
 
 Use the [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-india/) to develop the project checklist. At minimum, require the approved and as-built single-line diagrams, array and protection details, equipment schedule, serial register, settings record, test results, inspection documents, monitoring ownership, warranty documents, invoice, maintenance instructions and unresolved-item log.
 
-Do not sign a blank completion record or accept an app screenshot as complete commissioning evidence.
+> [!WARNING] Do not sign a blank completion record
+> Do not sign a blank completion record or accept an app screenshot as complete commissioning evidence.
 
 ## What is the final quote-comparison decision rule?
 
@@ -152,6 +166,7 @@ Do not sign a blank completion record or accept an app screenshot as complete co
 
 Final review sequence:
 
+<!-- steps -->
 1. Confirm every bidder answered the same requirement.
 2. Complete the exact-model and design pass/fail review.
 3. Reconcile included, excluded and provisional scope.

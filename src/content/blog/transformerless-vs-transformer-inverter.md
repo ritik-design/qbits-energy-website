@@ -4,7 +4,7 @@ excerpt: "Transformerless inverters deliver 97–99% efficiency vs 94–96% for 
 description: "EPC guide: transformerless vs transformer-based solar inverters, efficiency, weight, safety, BIS IS 16169 compliance, and when each design wins."
 category: Technology
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-transformerless-vs-transformer-inverter.webp"
 author: "Keyur Rakholiya"
@@ -41,14 +41,14 @@ Every EPC project manager in India has fielded this question at least once durin
 
 The reality is more nuanced. Transformerless design is not a cost-cutting measure, it is an engineering evolution that trades a bulky magnetic component for a more sophisticated control architecture. Understanding that distinction, and knowing precisely when each topology is the right specification, is what separates an informed EPC from one that over-specifies (and erodes margin) or under-specifies (and faces a site rejection from the DISCOM).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Transformerless inverters deliver 97-99% peak efficiency versus 94-96% for transformer-based designs, and weigh 30-50% less.
-> - BIS IS 16169 and IEC 62109 permit both topologies; transformerless designs replace the transformer's physical galvanic isolation with electronic DC injection monitoring that trips within milliseconds if leakage current exceeds 1 A.
+> - The BIS standards for grid inverters (IS 16169, the adoption of IEC 62116, and IS 16221, the adoption of IEC 62109) permit both topologies; transformerless designs replace the transformer's physical galvanic isolation with electronic DC injection and residual current monitoring, and the CEA connectivity regulations limit DC injection to 0.5% of rated output current.
 > - The 4-Spec Comparison framework (efficiency delta, structural weight budget, tender compliance posture, DC injection protection verification) is the fastest way for an EPC to choose the right topology for a project.
 > - Transformer-based units remain the right call for sites needing hard galvanic isolation, such as sensitive medical or lab equipment, pre-2018 DISCOM tenders that mandate isolation, and floating solar near water.
 > - MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Obtain current model-specific inverter certificates and confirm the applicable scheme and DISCOM requirements separately.
 
-> **Direct answer.** A [transformerless inverter](https://www.surgepv.com/blog/transformer-vs-transformerless-solar-inverter) delivers 97–99% peak efficiency versus 94–96% for transformer-based designs, weighs 30–50% less, and is fully permitted under BIS IS 16169 and IEC 62109 for Indian grid-tied installations. The "4-Spec Comparison for Indian EPCs" framework (covering efficiency, weight, safety compliance, and tender eligibility) is the fastest way to choose the right topology for each project.
+> **Direct answer.** A [transformerless inverter](https://www.surgepv.com/blog/transformer-vs-transformerless-solar-inverter) delivers 97–99% peak efficiency versus 94–96% for transformer-based designs, weighs 30–50% less, and is permitted under the BIS inverter standards (IS 16169 and IS 16221, which adopt IEC 62116 and IEC 62109) for Indian grid-tied installations when the exact model is certified. The "4-Spec Comparison for Indian EPCs" framework (covering efficiency, weight, safety compliance, and tender eligibility) is the fastest way to choose the right topology for each project.
 
 The [galvanic isolation](/glossary/anti-islanding/) question is where most of the anxiety lives, and it deserves a direct answer before any technical comparison: modern transformerless inverters do not skip safety, they shift safety from hardware to software, and international standards confirm the outcome is equivalent.
 
@@ -77,6 +77,8 @@ The efficiency improvement is a direct consequence of removing the iron losses. 
 
 The [inverter efficiency](/glossary/inverter-efficiency/) gain is not uniform across the load curve. It is most pronounced at partial loads:
 
+Table: Transformer-based vs transformerless inverter efficiency at different load levels
+
 | Load Level | Transformer-Based Efficiency | Transformerless Efficiency | Advantage |
 | --- | --- | --- | --- |
 | 10% load | 88–91% | 93–96% | +5 percentage points |
@@ -98,7 +100,7 @@ Rather than evaluating transformerless versus transformer-based on a single axis
 
 3. **Compliance posture for the tender**: Confirm the DISCOM's technical specification and the client's internal engineering standard. Most post-2018 tender documents permit transformerless designs under BIS IS 16169. Some pre-2018 public-sector tenders still specify "galvanic isolation" explicitly, those require a transformer-based unit or a formal derogation.
 
-4. **DC injection protection verification**: For a transformerless inverter, confirm the model's DC injection monitoring threshold and response time against IEC 62109-1 Clause 13.7. The standard requires the inverter to trip within 0.2 seconds if DC injection exceeds 0.5% of rated current (or 1 A, whichever is lower). Request the test certificate, not just the manufacturer's data sheet claim.
+4. **DC injection protection verification**: For a transformerless inverter, confirm the model's DC injection monitoring threshold and response time. The CEA connectivity regulations limit DC injection to 0.5% of full rated output current, and the model's IEC 62109-2 and IS 16169 test reports should show its protection behaviour. Request the test certificate, not just the manufacturer's data sheet claim.
 
 This four-spec check can be run in 20 minutes per project and eliminates the vast majority of specification errors before procurement.
 
@@ -118,7 +120,7 @@ In a transformer-based inverter, the transformer winding creates a physical barr
 
 A certified transformerless inverter per [IEC 62109](/glossary/iec-62109/) uses continuous residual current monitoring between the DC circuit and the protective earth. The monitoring circuit measures the differential current, any imbalance between current flowing out on the DC positive conductor and returning on the DC negative conductor indicates leakage to earth. If leakage exceeds the threshold, the inverter disconnects from the grid within milliseconds.
 
-> **1 A.** The maximum DC injection current permitted before an IEC 62109-compliant transformerless inverter must trip and disconnect from the grid, per IEC 62109-1 Clause 13.7 and the CEA Technical Standards for Connectivity of Distributed Generation Resources. *Source - [IEC 62109-1:2010, Safety for Power Converters for Use in Photovoltaic Power Systems](https://www.iec.ch/), International Electrotechnical Commission.*
+> **0.5%.** The maximum DC injection, as a share of full rated output current, that the CEA Technical Standards for Connectivity of the Distributed Generation Resources allow a grid-connected inverter to put into the AC grid. A transformerless inverter has no transformer to block DC, so it must monitor and limit it electronically. *Source - [CEA Technical Standards for Connectivity of the Distributed Generation Resources](https://cea.nic.in/old/reports/committee/norms/norms_dg_resource.pdf), Regulation 11(6) as amended in 2019.*
 
 The [CEA Technical Standards for Connectivity of the Distributed Generation Resources](https://cea.nic.in/old/reports/committee/norms/norms_dg_resource.pdf), notified under the Electricity Act 2003, specifically address this requirement and permit transformerless designs provided the monitoring circuits meet the threshold. [BIS IS 16169](/glossary/bis-certification/) (the Indian standard harmonised with IEC 62109) carries the same provision.
 
@@ -132,12 +134,13 @@ The efficiency argument is often presented qualitatively ("transformerless is mo
 
 Consider a 50 kW C&I rooftop in Coimbatore with 5.2 peak sun hours/day and 330 days/year of productive generation:
 
-- Annual DC generation from panels: 50 kW × 5.2 h × 330 days = 85,800 kWh
-- Transformer-based inverter at 95% efficiency: 81,510 kWh AC delivered
-- Transformerless inverter at 98% efficiency: 84,084 kWh AC delivered
-- Annual difference: 2,574 kWh
-- At ₹7.5/unit savings rate: ₹19,305/year additional value
-- Over 25 years (without degradation): ₹4.8 Lakh incremental benefit
+> [!EXAMPLE] 50 kW C&I rooftop in Coimbatore
+> - Annual DC generation from panels: 50 kW × 5.2 h × 330 days = 85,800 kWh
+> - Transformer-based inverter at 95% efficiency: 81,510 kWh AC delivered
+> - Transformerless inverter at 98% efficiency: 84,084 kWh AC delivered
+> - Annual difference: 2,574 kWh
+> - At ₹7.5/unit savings rate: ₹19,305/year additional value
+> - Over 25 years (without degradation): ₹4.8 Lakh incremental benefit
 
 This is before factoring in [solar yield](/glossary/solar-yield/) degradation, which affects both topologies equally, or the lower maintenance cost of a transformerless unit (no transformer oil to check, no magnetic core to inspect).
 
@@ -157,9 +160,9 @@ India's regulatory framework for grid-tied inverters is now firmly aligned with 
 
 ### BIS IS 16169
 
-IS 16169:2014 (amended 2023) is the Indian national standard for photovoltaic systems, grid interactive inverters. It is a direct adoption of IEC 62116 (anti-islanding) and incorporates the IEC 62109 safety requirements. The standard does not distinguish between transformer-based and transformerless topologies, it specifies performance and safety outcomes, not internal architecture.
+IS 16169:2019 is the Indian adoption of IEC 62116 (the anti-islanding test method), and inverter safety sits separately under IS 16221 (Part 2):2015, which adopts IEC 62109-2:2011. Neither standard distinguishes between transformer-based and transformerless topologies, it specifies performance and safety outcomes, not internal architecture.
 
-EPCs can confirm IS 16169 compliance from the BIS Test Certificate issued by a [BIS-recognised laboratory](https://bis.gov.in/). Qbits TLS series inverters carry current IS 16169 certification.
+EPCs can confirm IS 16169 compliance from the BIS Test Certificate issued by a [BIS-recognised laboratory](https://bis.gov.in/). For any Qbits model, ask for the exact model's current BIS registration and test certificates, because the public datasheets do not replace them.
 
 ### IEC 62109
 
@@ -186,7 +189,7 @@ Transformer-based inverters dominated the Indian market through the mid-2010s an
 - **Galvanic isolation**: Inherent, no active monitoring required to achieve DC-AC separation.
 - **DC PV earthing**: Compatible with both grounded and ungrounded array configurations.
 - **Rooftop suitability**: Higher structural load; may require engineering assessment on lightweight structures.
-- **Cost**: ₹3,000–₹6,000 higher bill of materials per unit due to transformer components.
+- **Cost**: ₹1,500–₹4,000 higher bill of materials per unit due to transformer components (5–10 kW units, as above).
 
 ### Transformerless Inverters
 
@@ -207,6 +210,8 @@ Some inverter manufacturers offer a middle path: a high-frequency (HF) transform
 
 Use this table as a quick specification guide. When the answer in the "Transformerless" column is Yes or Prefer, default to transformerless. When the answer is No or Evaluate, engage the client's structural and electrical engineers before specifying.
 
+Table: Transformer-based vs transformerless inverter by project type
+
 | Project Parameter | Transformer-Based | Transformerless |
 | --- | --- | --- |
 | Standard residential rooftop (1.5–10 kW) | ✗ Overspecified | ✓ Preferred |
@@ -221,6 +226,8 @@ Use this table as a quick specification guide. When the answer in the "Transform
 
 **Pros and Cons summary:**
 
+Table: Pros and cons of transformer-based and transformerless inverters
+
 | | Pros | Cons |
 | --- | --- | --- |
 | **Transformer-Based** | ✓ Hard galvanic isolation ✓ Compatible with grounded arrays ✓ Meets pre-2018 tender specs | ✗ 2–4% lower efficiency ✗ 30–50% heavier ✗ Higher material cost ✗ Larger footprint |
@@ -228,7 +235,7 @@ Use this table as a quick specification guide. When the answer in the "Transform
 
 ## Common Specification Mistakes EPCs Make: and How to Avoid Them
 
-The specification errors seen most frequently in Indian EPC projects cluster around four misunderstandings. Recognising them before the proposal stage saves both margin and relationships.
+The specification errors seen most frequently in Indian EPC projects cluster around five misunderstandings. Recognising them before the proposal stage saves both margin and relationships.
 
 **Mistake 1: Defaulting to transformer-based because "it is safer"**
 
@@ -240,7 +247,10 @@ The phrase "galvanic isolation" in a technical specification is a hard constrain
 
 **Mistake 3: Earthing the DC negative terminal in a transformerless system**
 
-This is the most dangerous installation error in transformerless systems. Earthing the DC negative terminal in a transformerless inverter bypasses the residual current monitoring circuit, disabling the primary safety protection mechanism. It can also cause DC current to flow through the AC earthing network, tripping RCDs on the AC side. The [solar inverter grounding](/blog/solar-inverter-grounding/) post covers correct earthing practice in detail.
+This is the most dangerous installation error in transformerless systems. Earthing the DC negative terminal in a transformerless inverter bypasses the residual current monitoring circuit, disabling the primary safety protection mechanism. It can also cause DC current to flow through the AC earthing network, tripping RCDs on the AC side.
+
+> [!WARNING] Do not earth the DC negative terminal
+> On a transformerless inverter, earthing the DC negative terminal defeats the residual current monitoring. Bond the module frames to protective earth and leave the DC negative floating. The [solar inverter grounding](/blog/solar-inverter-grounding/) post covers correct earthing practice in detail.
 
 **Mistake 4: Using efficiency at peak load to compare models**
 
@@ -270,12 +280,13 @@ For PM Surya Ghar projects specifically, the efficiency advantage of transformer
 
 Before submitting a project proposal with a transformerless inverter specified, run through this six-point confirmation:
 
-- **Tender document reviewed**: No explicit "galvanic isolation" or "isolation transformer" clause in the inverter specification section.
-- **Certificates confirmed**: The exact model's BIS registration and current certificates are on file. MNRE publishes no ALMM list for inverters, but subsidy-linked projects (PM Surya Ghar, state MNRE schemes) still need the DISCOM's requirements checked.
-- **IEC 62109-2 certificate verified**: DC injection monitoring threshold and response time documented in the certification report.
-- **Earthing design reviewed**: Earthing drawing shows module frames bonded to PE; DC negative terminal is floating (not earthed).
-- **EU-weighted efficiency used for yield estimate**: Not peak efficiency from the datasheet header.
-- **Commissioning checklist includes leakage current test**: Assigned to a named team member with a measurement target (typically < 30 mA at operating temperature).
+> [!CHECKLIST] Six-point check before you specify a transformerless inverter
+> - **Tender document reviewed**: No explicit "galvanic isolation" or "isolation transformer" clause in the inverter specification section.
+> - **Certificates confirmed**: The exact model's BIS registration and current certificates are on file. MNRE publishes no ALMM list for inverters, but subsidy-linked projects (PM Surya Ghar, state MNRE schemes) still need the DISCOM's requirements checked.
+> - **IEC 62109-2 certificate verified**: DC injection monitoring threshold and response time documented in the certification report.
+> - **Earthing design reviewed**: Earthing drawing shows module frames bonded to PE; DC negative terminal is floating (not earthed).
+> - **EU-weighted efficiency used for yield estimate**: Not peak efficiency from the datasheet header.
+> - **Commissioning checklist includes leakage current test**: Assigned to a named team member with a measurement target (typically < 30 mA at operating temperature).
 
 With this checklist complete, the transformerless specification is defensible at client review, bankable for project finance, and compliant for DISCOM interconnection approval.
 

@@ -4,7 +4,7 @@ excerpt: "What does a solar EPC business actually earn per kW installed? Revenue
 description: "What a solar EPC business actually earns per kW installed: revenue, gross margin, customer acquisition cost, after-sales cost, and cash cycle."
 category: "Industry"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-unit-economics-indian-solar-installer.webp"
 author: "Keyur Rakholiya"
@@ -33,7 +33,7 @@ faqs:
 
 Most conversations about solar in India focus on the customer's perspective: bill reduction, subsidy, payback period. For EPC teams looking to understand the customer's financial framework during a commercial sale, the [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/) provides the financial model most C&I buyers use internally. Industry data on solar EPC market growth is tracked by [MNRE's annual report](https://mnre.gov.in/) and [IEEFA India](https://ieefa.org/), both useful sources for market context in sales conversations. This post is about the installer's perspective, specifically, the unit economics of running a solar [EPC business](https://quickestimate.co/blog/how-to-start-solar-epc-business) in India.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Target gross margin for a well-run residential solar EPC in India is 22–28% at the project level; net operating margin after CAC, after-sales, and overhead is typically 5–8%.
 > - Blended customer acquisition cost should stay under ₹15,000–₹20,000 per installation; referrals are the cheapest channel at ₹5,000–₹12,000.
 > - After-sales cost over the first 3 years typically runs ₹5,000–₹12,000 per 5 kW installation and should be provisioned at 5–7% of project revenue.
@@ -44,13 +44,15 @@ I am writing this because I spend time with EPC partners across India, and I hea
 
 These are not benchmark numbers from a consulting report, they are derived from real conversations with operational solar installers in India. The ranges are honest and the uncomfortable parts are included. Installers who are formalising a scrappy operation into a repeatable one often find it worth adopting a proper [solar business software stack](https://surgepv.com/hub/solar-business/software-stack/) around the same time they start taking these numbers seriously.
 
-> **The direct version.** A well-run residential solar EPC business in India should target 22–28% gross margin. After customer acquisition cost (₹12,000–₹20,000/installation), after-sales provision (5–7% of revenue), and overhead, net operating margin is typically 8–14%. Cash is tight because the PM Surya Ghar subsidy cycle adds 60–90 days of receivables. The installers who survive long-term are the ones who understand these numbers before they become a problem.
+> **The direct version.** A well-run residential solar EPC business in India should target 22–28% gross margin. After customer acquisition cost (₹12,000–₹20,000/installation), after-sales provision (5–7% of revenue), and overhead, net operating margin is typically 5–8%. Cash is tight because the PM Surya Ghar subsidy cycle adds 60–100 days of receivables. The installers who survive long-term are the ones who understand these numbers before they become a problem.
 
 ## Revenue Structure: What Installers Actually Charge
 
 For a 3 kW residential system in 2025–26, the market-clearing price in most Indian cities is ₹1.3–1.7 lakh (after subsidy adjustment). Before subsidy, the gross [system capex](/glossary/capex/) is approximately ₹2.0–2.4 lakh.
 
 **Breakdown of revenue components:**
+
+Table: Cost and revenue breakdown for 3 kW, 5 kW and 20 kW systems
 
 | Component | 3 kW Residential | 5 kW Residential | 20 kW Commercial |
 | --- | --- | --- | --- |
@@ -71,6 +73,8 @@ Customer acquisition cost (CAC) is the most underestimated line item in solar EP
 
 **CAC by channel (residential solar, India):**
 
+Table: Customer acquisition cost by channel, residential solar in India
+
 | Channel | Lead Cost | Conversion Rate | CAC per Installation |
 | --- | --- | --- | --- |
 | Referral (existing customer) | ₹2,000–₹5,000 referral incentive | 40–60% | ₹5,000–₹12,000 |
@@ -79,6 +83,21 @@ Customer acquisition cost (CAC) is the most underestimated line item in solar EP
 | Facebook/Instagram Ads | ₹400–₹1,200/lead | 5–10% | ₹8,000–₹24,000 |
 | Door-to-door canvassing | Canvasser salary allocation | 3–8% | ₹20,000–₹40,000 |
 | PM Surya Ghar portal leads | ₹0 direct cost | 15–25% | ₹5,000–₹15,000 (platform + follow-up) |
+
+```chart
+type: hbar
+title: Customer acquisition cost per installation by channel, residential solar
+unit: "₹"
+source: "Ranges as tabulated in this article, which draws on the author's conversations with operational Indian solar installers (not a published benchmark), updated July 2026"
+note: "Ranges, not averages. Lower is better."
+data:
+  - { label: "Word of mouth (no incentive)", min: 3000, max: 8000 }
+  - { label: "Referral (existing customer)", min: 5000, max: 12000 }
+  - { label: "PM Surya Ghar portal leads", min: 5000, max: 15000 }
+  - { label: "Google Ads (search)", min: 8000, max: 25000 }
+  - { label: "Facebook/Instagram Ads", min: 8000, max: 24000 }
+  - { label: "Door-to-door canvassing", min: 20000, max: 40000 }
+```
 
 **Blended CAC target:** For a residential-focused installer, blended CAC should not exceed ₹15,000–₹20,000 per installation. Above ₹20,000, CAC alone consumes 10–13% of a 3 kW project's revenue, making the business mathematically difficult to sustain with a proper service team.
 
@@ -89,6 +108,8 @@ The most profitable acquisition channel is referrals from satisfied existing cus
 After-sales service is where the unit economics become uncomfortable for most installers.
 
 Consider the following common after-sales scenarios for a 5 kW residential system in the first three years:
+
+Table: Common after-sales events for a 5 kW residential system in the first three years
 
 | Scenario | Frequency | Cost per Event |
 | --- | --- | --- |
@@ -101,7 +122,8 @@ Consider the following common after-sales scenarios for a 5 kW residential syste
 
 For a 3 kW system at ₹1.8 lakh project revenue, ₹5,000–₹12,000 in after-sales cost is 2.8–6.7% of revenue. Most installers provision 0% for this in their margin calculation.
 
-The correct approach: **build 5–7% of project revenue as an after-sales provision into your margin model.** If after-sales cost turns out to be lower (because the inverter brand has good remote diagnostics and your installation quality is high), that 5–7% drops to net margin. If after-sales is higher, you are covered.
+> [!TIP] Provision for after-sales up front
+> The correct approach: **build 5–7% of project revenue as an after-sales provision into your margin model.** If after-sales cost turns out to be lower (because the inverter brand has good remote diagnostics and your installation quality is high), that 5–7% drops to net margin. If after-sales is higher, you are covered.
 
 Installers who use inverter brands with strong remote diagnostic capability (where faults can be diagnosed via the monitoring app rather than a site visit) systematically have lower after-sales cost. This is one of the real reasons inverter brand quality matters to EPC profitability, beyond just the product margin.
 
@@ -111,6 +133,7 @@ PM Surya Ghar Muft Bijli Yojana has been transformative for residential solar vo
 
 Here is how the cash cycle works for a compliant installer:
 
+<!-- steps -->
 1. **Day 1:** Installer quotes customer net-of-subsidy. Customer pays net-of-subsidy amount (say ₹1.2 lakh for a 3 kW system, with ₹78,000 subsidy outstanding).
 2. **Day 10–30:** Installation is completed. Installer has spent the full ₹2.0 lakh cost but collected only ₹1.2 lakh.
 3. **Day 30–45:** DISCOM inspection and commissioning certificate issued.
@@ -123,11 +146,14 @@ For an installer doing 10 installations per month, this is ₹7.8 lakh in outsta
 
 The working capital cost of the subsidy receivables cycle adds approximately 2–3% to the effective cost of each PM Surya Ghar installation. Installers who do not account for this discover that their PM Surya Ghar margin is lower than their non-subsidy margin, which is counterintuitive but financially accurate.
 
-**Practical implication:** Solar installers who want to scale under PM Surya Ghar need a working capital line, either from a bank, from their distributor's extended credit terms, or from a partner NBFC. Scaling without this will create cash crunches at predictable intervals. The [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) includes the expected disbursement timeline that EPC businesses can use to model their working capital requirements. For a step-by-step walkthrough of the portal submission, see the [PM Surya Ghar application guide](/blog/pm-surya-ghar-apply-online/).
+> [!IMPORTANT] Scaling under PM Surya Ghar needs a working capital line
+> Solar installers who want to scale under PM Surya Ghar need a working capital line, either from a bank, from their distributor's extended credit terms, or from a partner NBFC. Scaling without this will create cash crunches at predictable intervals. The [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) includes the expected disbursement timeline that EPC businesses can use to model their working capital requirements. For a step-by-step walkthrough of the portal submission, see the [PM Surya Ghar application guide](/blog/pm-surya-ghar-apply-online/).
 
 ## What Net Margin Actually Looks Like
 
 Taking the numbers together for a 3 kW residential system at ₹1.8 lakh project revenue (typical market price, inclusive of subsidy):
+
+Table: Profit and loss for one 3 kW residential installation at ₹1.8 lakh project revenue
 
 | P&L Line Item | Amount | % of Revenue |
 | --- | --- | --- |
@@ -143,6 +169,9 @@ Taking the numbers together for a 3 kW residential system at ₹1.8 lakh project
 | Overhead allocation per project (staff, office, vehicles) | ₹10,000–₹15,000 | 6–8% |
 | **Net operating margin per installation** | **₹9,200–₹14,200** | **5–8%** |
 
+> [!FORMULA] Net operating margin per installation
+> Net operating margin = Gross profit − CAC provision − After-sales provision − Working capital cost − Overhead allocation
+
 A 5–8% net operating margin on ₹1.8 lakh is ₹9,000–₹14,000 per installation. For an installer doing 8 residential installations per month, this is ₹72,000–₹1,12,000/month of net operating income, which is a viable but not comfortable business.
 
 The installers who build to 20–30 installations per month with a strong referral engine and low CAC, using high-quality inverters that reduce after-sales cost, move their net margin to 8–12% and build a genuinely profitable business.
@@ -152,6 +181,8 @@ The installers who build to 20–30 installations per month with a strong referr
 The single most effective way to improve EPC unit economics is to add commercial installations to a residential-heavy portfolio.
 
 For a 30 kW commercial system at ₹15 lakh project revenue:
+
+Table: Profit and loss for one 30 kW commercial installation at ₹15 lakh project revenue
 
 | P&L Line Item | Amount | % of Revenue |
 | --- | --- | --- |

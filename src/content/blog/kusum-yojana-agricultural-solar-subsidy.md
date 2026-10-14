@@ -4,7 +4,7 @@ excerpt: "KUSUM Yojana subsidises 60% of solar pump and plant costs for Indian f
 description: "KUSUM Yojana subsidises 60% of agricultural solar costs: solar plants, standalone pumps, and grid pump solarisation. Full guide to eligibility."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "22 min"
 image: "/og/blog-kusum-yojana-agricultural-solar-subsidy.webp"
 author: "Akash Hirapara"
@@ -47,11 +47,10 @@ Launched in March 2019 by [MNRE](/glossary/mnre/), KUSUM targets 35 GW of solar 
 
 The [KUSUM scheme](/glossary/kusum/) sits alongside but entirely separate from [PM Surya Ghar](https://quickestimate.co/blog/what-is-pm-surya-ghar-yojana), which targets residential rooftop solar. KUSUM is agricultural-first, state-implemented, and addresses energy poverty in rural India at its root, the cost of lifting water from the ground. This guide explains every component, every subsidy number, who qualifies, how to apply state by state, and the key mistakes that delay or kill applications.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - KUSUM has three components: Component A (solar plants on barren land), Component B (standalone off-grid pumps), and Component C (solarisation of grid-connected pumps).
 > - Under Component B, the farmer pays only 10% of pump cost upfront; central and state governments each cover 30%, and a bank loan covers the remaining 30%.
 > - There is no income ceiling or minimum acreage; farmers, FPOs, water user associations, and panchayats are all eligible.
-
 > - Applications go through state nodal agencies (RREC, MEDA, GEDA, PEDA, UPNEDA, etc.), not a central portal, unlike [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy)'s pmsuryaghar.gov.in.
 > - Component B leads implementation at 24% of its 14-lakh-pump target, while Component A (7%) and Component C (4%) lag well behind.
 
@@ -104,6 +103,8 @@ Two sub-tracks exist:
 
 The headline "60% subsidy" is accurate but needs unpacking. Here is the complete cost structure for Component B, the component where the subsidy most directly benefits an individual farmer.
 
+Table: KUSUM Component B cost split by pump size, with central subsidy, state subsidy, bank loan and farmer share (indicative costs)
+
 | Pump Size | Approximate Total Cost | Central Subsidy (30%) | State Subsidy (30%) | Bank Loan (30%) | Farmer Pays (10%) |
 | --- | --- | --- | --- | --- | --- |
 | 2 HP | ₹1,20,000 | ₹36,000 | ₹36,000 | ₹36,000 | ₹12,000 |
@@ -113,7 +114,7 @@ The headline "60% subsidy" is accurate but needs unpacking. Here is the complete
 
 The pump costs in this table are indicative, actual costs vary by state, technology (surface vs submersible, DC vs AC), and whether variable frequency drive (VFD) technology is included. States publish benchmark costs annually through their nodal agencies.
 
-The bank loan at 30% is disbursed by the empanelled bank directly to the vendor, the farmer does not handle this money. The annual diesel cost saving for a 3 HP pump running 6 hours per day for 200 days per year is approximately ₹45,000 to ₹60,000 (at ₹90 per litre diesel and 0.5 litres per HP per hour). The 5 to 7 year loan repayment is typically lower than the annual diesel saving, making the economics immediately cash-flow positive for the farmer.
+The bank loan at 30% is disbursed by the empanelled bank directly to the vendor, the farmer does not handle this money. The annual diesel cost saving for a 3 HP pump running 6 hours per day for 200 days per year is approximately ₹1,62,000, which is 1,800 litres at ₹90 per litre (using 0.5 litres per HP per hour). The 5 to 7 year loan repayment is typically lower than the annual diesel saving, making the economics immediately cash-flow positive for the farmer.
 
 > **₹70,000 crore.** The estimated annual expenditure by Indian farmers on diesel for agricultural pumps, a figure that KUSUM Yojana's 35 lakh pump target is designed to progressively eliminate. *Source - [MNRE PM-KUSUM Scheme Guidelines](https://mnre.gov.in/), 2019 scheme document and subsequent revisions.*
 
@@ -177,10 +178,12 @@ This framework resolves the single most common confusion in KUSUM applications: 
 
 KUSUM is emphatically a state-level scheme. There is no single national application portal comparable to pmsuryaghar.gov.in for PM Surya Ghar. Applications go through the state nodal agency for renewable energy or the state agriculture department, and the process differs between states.
 
-> **There is no central KUSUM application portal.** Applications are submitted at the state level. The official [PM-KUSUM national resource page](https://pmkusum.mnre.gov.in/) at MNRE lists state-wise nodal agency contacts and guidelines, but actual applications are processed through state agriculture or energy department portals.
+> [!IMPORTANT] There is no central KUSUM application portal
+> Applications are submitted at the state level. The official [PM-KUSUM national resource page](https://pmkusum.mnre.gov.in/) at MNRE lists state-wise nodal agency contacts and guidelines, but actual applications are processed through state agriculture or energy department portals.
 
 **General application sequence for Component B (the most common track):**
 
+<!-- steps -->
 1. **Locate your state nodal agency**: Find your state's contact on the MNRE KUSUM page. Common nodal agencies include MNRE's designated state renewable energy departments (e.g., MEDA in Maharashtra, RREC in Rajasthan, GEDA in Gujarat, PEDA in Punjab, UPNEDA in Uttar Pradesh).
 
 2. **Register on the state portal**: Each state operates its own digital portal. You will need Aadhaar number, land records (khasra number), bank account details, and existing pump/borewell details.
@@ -221,6 +224,8 @@ Gujarat's GEDA (Gujarat Energy Development Agency) manages KUSUM with characteri
 
 A significant percentage of farmers who approach state offices for "solar subsidy" confuse these two schemes. The confusion is understandable, both are MNRE schemes, both involve solar, both involve subsidies. But they are designed for entirely different beneficiaries and different infrastructure.
 
+Table: PM Surya Ghar compared with KUSUM Yojana on beneficiary, system, subsidy, portal and administrator
+
 | Dimension | PM Surya Ghar | KUSUM Yojana |
 | --- | --- | --- |
 | **Primary beneficiary** | Residential homeowner with DISCOM connection | Farmer with agricultural land, pump, or barren land |
@@ -229,7 +234,6 @@ A significant percentage of farmers who approach state offices for "solar subsid
 | **Subsidy structure** | Up to ₹78,000 central subsidy (flat) | 60% capex (30% central + 30% state) + 30% bank loan |
 | **Application portal** | National: pmsuryaghar.gov.in | State-level: RREC, MEDA, GEDA, PEDA, UPNEDA, etc. |
 | **Net metering** | Mandatory for subsidy; surplus sold to DISCOM | Only for Component C; Component B is off-grid |
-
 | **Farmer eligibility** | Only if farmer has a residential DISCOM connection | As farmer, FPO, panchayat, or water user association |
 | **Scheme administrator** | MNRE via DISCOMs | MNRE via state nodal agencies |
 
@@ -245,10 +249,11 @@ Understanding the financial case for KUSUM requires looking at each component se
 
 For a 5 HP diesel pump replaced with a 5 HP solar pump under Component B:
 
-- **Diesel cost eliminated:** A 5 HP pump consuming diesel at 0.5 litres per HP per hour, running 8 hours per day for 200 days per year, uses approximately 4,000 litres of diesel annually at ₹90 per litre - **₹3,60,000 per year in fuel cost**.
-- **Farmer's net outlay:** 10% down (₹25,000 for a ₹2.5 lakh pump) + bank loan repayment over 5 years at approximately ₹20,000 per year = **total annual cash outflow of ₹20,000**.
-- **Net annual saving:** ₹3,60,000 − ₹20,000 = **₹3,40,000 per year** in net cash improvement.
-- **Payback on equity:** Less than 1 year (the 10% down payment of ₹25,000 is recovered in weeks from diesel savings).
+> [!EXAMPLE] 5 HP pump, Component B
+> - **Diesel cost eliminated:** A 5 HP pump consuming diesel at 0.5 litres per HP per hour, running 8 hours per day for 200 days per year, uses approximately 4,000 litres of diesel annually at ₹90 per litre - **₹3,60,000 per year in fuel cost**.
+> - **Farmer's net outlay:** 10% down (₹25,000 for a ₹2.5 lakh pump) + bank loan repayment over 5 years at approximately ₹20,000 per year = **total annual cash outflow of ₹20,000**.
+> - **Net annual saving:** ₹3,60,000 − ₹20,000 = **₹3,40,000 per year** in net cash improvement.
+> - **Payback on equity:** Less than 1 year (the 10% down payment of ₹25,000 is recovered in weeks from diesel savings).
 
 Even accounting for solar pump maintenance (₹5,000–₹10,000 per year for cleaning, minor repairs, and inverter servicing), the economics are transformative for smallholder farmers.
 
@@ -269,11 +274,12 @@ The lease model is passive income for land that was previously generating no agr
 
 For a farmer with a 5 HP grid-connected agricultural pump running on subsidised electricity:
 
-- **Solar generation:** A 5 HP pump solarisation system (approximately 5 to 7 kW solar array) generates 6,000 to 8,400 kWh annually.
-- **Self-consumption:** 3,000 to 4,000 kWh used by the pump (eliminating electricity bill or reducing subsidised units consumed).
-- **Surplus sold to DISCOM:** 2,000 to 4,400 kWh at ₹3.10 to ₹4.50 per kWh = **₹6,200 to ₹19,800 per year in solar income**.
-- **Capital cost (farmer's 10% share):** ₹18,000 to ₹25,000.
-- **Payback:** 1 to 4 years.
+> [!EXAMPLE] 5 HP grid-connected pump, Component C
+> - **Solar generation:** A 5 HP pump solarisation system (approximately 5 to 7 kW solar array) generates 6,000 to 8,400 kWh annually.
+> - **Self-consumption:** 3,000 to 4,000 kWh used by the pump (eliminating electricity bill or reducing subsidised units consumed).
+> - **Surplus sold to DISCOM:** 2,000 to 4,400 kWh at ₹3.10 to ₹4.50 per kWh = **₹6,200 to ₹19,800 per year in solar income**.
+> - **Capital cost (farmer's 10% share):** ₹18,000 to ₹25,000.
+> - **Payback:** 1 to 4 years.
 
 For a deeper analysis of solar payback calculations across different tariff environments and system sizes, the [solar inverter payback period guide](/blog/solar-inverter-payback-period/) includes agricultural pump scenarios.
 
@@ -283,12 +289,14 @@ State nodal agency officers report that the same cluster of errors causes most a
 
 - **Applying on the wrong component**: The single most common mistake. A farmer with a grid-connected pump applying under Component B (standalone) will be rejected because Component B requires a non-grid-connected diesel pump. Match the component to your situation using the KUSUM Component Match framework above before approaching the state office.
 - **Using a non-empanelled vendor**: Only vendors on the state nodal agency's empanelled list can execute KUSUM installations. Using an outside vendor (even a highly reputable one) means the subsidy claim is void. Verify empanelment on the state portal before signing any vendor agreement.
-
 - **Land record mismatches**: If the khasra number or owner name on your land records does not exactly match the application, the verification fails. Ensure all land documents are updated and consistent before submitting. This is especially common for inherited land not yet transferred in official records.
 - **Applying through the central MNRE website**: MNRE does not accept individual KUSUM applications. The central resource page provides information and contacts; actual applications go to state portals. Applying to a wrong channel wastes weeks.
 - **Ignoring the bank empanelment requirement**: The 30% bank loan must come from a bank on the state nodal agency's empanelled list. Approaching a non-empanelled bank (even a nationalised one) results in the loan not being counted as part of the KUSUM financing structure, which delays subsidy disbursement.
 - **Pump size mismatch**: The solar pump must match the MNRE specifications for the applied HP size. Substituting a different HP motor than what was applied for, without amendment approval, causes commissioning rejection.
 - **Not maintaining the system after installation**: Annual maintenance is a condition of warranty validity for MNRE-specified equipment. Skipping maintenance for 2 to 3 years voids the equipment warranty and reduces pump life significantly. Budget ₹3,000 to ₹8,000 per year for cleaning, inspection, and minor servicing.
+
+> [!WARNING] Vendor and bank must both be empanelled
+> Only vendors on the state nodal agency's empanelled list can execute KUSUM installations, and the 30% bank loan must come from a bank on that list too. An outside vendor voids the subsidy claim, and a non-empanelled bank means the loan is not counted in the KUSUM financing, which delays subsidy disbursement.
 
 For farmers who have completed KUSUM installation and want to understand the broader rural solar infrastructure, the [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) explains how agricultural and residential systems can be integrated on the same farm property.
 
@@ -296,13 +304,15 @@ For farmers who have completed KUSUM installation and want to understand the bro
 
 The Approved List of Models and Manufacturers ([ALMM](/glossary/almm-list/)) requirement sits at the core of KUSUM, just as it does for PM Surya Ghar. No ALMM listing means no subsidy, the rule is absolute.
 
-Under KUSUM, the ALMM requirement covers two equipment categories:
+Under KUSUM, the ALMM requirement covers the solar PV modules. MNRE publishes no ALMM list for inverters or pump controllers, so those need exact-model documents instead:
 
 1. **Solar PV modules (panels)**: The specific module model and wattage must be on the MNRE ALMM panel list. The list is updated quarterly.
 
 Why does ALMM matter beyond subsidy eligibility? Equipment on the ALMM list has been independently tested against MNRE's technical specifications. For a solar pump running in a remote field with minimal oversight, quality is not an abstract concern, a failed pump controller in June during the Kharif season means crops fail, not just inconvenience. The quality floor that ALMM establishes protects real agricultural outcomes, not just government accounting.
 
 **How to verify ALMM before installation:**
+
+<!-- steps -->
 1. Ask the vendor for the exact make, model, and wattage of every component.
 2. Cross-check each item on the live ALMM list at [mnre.gov.in](https://mnre.gov.in/) (under the ALMM section).
 3. Confirm the listing is active in the current quarterly revision, expired listings do not count.
@@ -314,11 +324,25 @@ The economics of KUSUM also intersect with [net metering](/glossary/net-metering
 
 KUSUM's 35 GW target by 2026 was always ambitious. The implementation record through Q1 2026 tells a nuanced story: strong progress on Component B (standalone pumps), modest progress on Component A (decentralised plants), and significant underperformance on Component C (grid-connected solarisation).
 
+Table: KUSUM progress against target by component, Q1 2026 (approximate)
+
 | Component | Target | Installed (Q1 2026 approx.) | Achievement |
 | --- | --- | --- | --- |
 | Component A | 10 GW | ~0.7 GW | 7% |
 | Component B | 14 lakh pumps | ~3.4 lakh pumps | 24% |
 | Component C | 35 lakh pumps | ~1.5 lakh pumps | 4% |
+
+```chart
+type: hbar
+title: KUSUM achievement against target by component, Q1 2026 (approximate)
+unit: "%"
+source: "MNRE PM-KUSUM Portal and JMK Research, India Renewable Energy Market Update, Q1 2026, as cited in this article (achievement = installed divided by target in the table above)"
+note: "Component A is measured in GW, Components B and C in number of pumps."
+data:
+  - { label: "Component A (10 GW target)", value: 7 }
+  - { label: "Component B (14 lakh pumps)", value: 24 }
+  - { label: "Component C (35 lakh pumps)", value: 4 }
+```
 
 **Why Component B leads:** The economic case is immediately visible to individual farmers, diesel savings are tangible and begin on day one. The application process, while state-dependent, is manageable for individual farmers with modest documentation. Vendor networks have expanded rapidly in states like Rajasthan and Gujarat.
 
@@ -336,7 +360,7 @@ For farmers who have already installed KUSUM systems and are thinking about the 
 
 Farmers and EPC contractors executing KUSUM installations must verify the current component guidelines, implementing-agency process, module/cell requirements and approved equipment package. MNRE's ALMM page is not an inverter list. Agricultural sites also need project-specific checks for dust, temperature, mounting, supervision and service access.
 
-Three Qbits resources worth bookmarking if you are planning a KUSUM installation:
+A Qbits resource worth bookmarking if you are planning a KUSUM installation:
 
 - **[Hybrid Inverters](/hybrid-inverter/)**: Review current QBH model documents and confirm the exact battery, firmware, PV, backup-output, transfer, communication, warranty and project requirements in writing.
 
@@ -345,6 +369,8 @@ For any Qbits quote, ask the seller to confirm in writing the manufacturing orig
 ## Comparing Diesel, Grid Power, and KUSUM Solar: The Full Picture
 
 Farmers evaluating KUSUM often ask whether solar genuinely beats their current arrangement, especially farmers in states where agricultural electricity is heavily subsidised or even free. Here is the honest comparison.
+
+Table: Diesel pump, grid-subsidised pump and KUSUM solar pump compared on cost, availability, revenue and maintenance
 
 | | Diesel Pump | Grid-Subsidised Pump | KUSUM Solar Pump |
 | --- | --- | --- | --- |
@@ -368,4 +394,4 @@ For the complete diesel vs solar financial comparison including payback modellin
 
 KUSUM Yojana is one of the most financially compelling agricultural support schemes India has ever implemented, but its complexity means that farmers who engage without understanding which component applies to them often waste months in the wrong application queue. The three components are distinct programmes with different subsidy structures, different implementing agencies, and different revenue models. Component B's 10% farmer contribution for a standalone solar pump that eliminates diesel costs entirely is perhaps the single best financial deal available to Indian smallholder farmers today.
 
-The application path runs through your state nodal agency, not MNRE directly, and not the PM Surya Ghar portal. ALMM-listed equipment is non-negotiable. And the economics, even for farmers whose states have subsidised grid electricity, strongly favour participation, because the fuel savings and surplus income from KUSUM solar consistently outperform the status quo over the life of the system.
+The application path runs through your state nodal agency, not MNRE directly, and not the PM Surya Ghar portal. Modules on the ALMM list are non-negotiable. And the economics, even for farmers whose states have subsidised grid electricity, strongly favour participation, because the fuel savings and surplus income from KUSUM solar consistently outperform the status quo over the life of the system.

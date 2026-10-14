@@ -41,9 +41,8 @@ It is built to survive that conflict in one specific way. Every limitation state
 
 The guide starts with who each company is and what it sells in India. Then a specification table built from published datasheets, with a verify column wherever a source is missing. Then warranty compared as terms rather than years, service and spares reality, monitoring platforms, and grid-code behaviour under Indian rules. It closes with a fit test by buyer type and the exact questions to put to each dealer in writing.
 
-> **TL;DR**
-> - Sungrow's APAC terms cut cover to 2 years for non-C5 products installed 2 to 5 km from the coastline and void it inside 2 km ([Sungrow, 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)).
-> - Sungrow string inverters sold through dealers carry 5 years, capped at 6 years from the production date, per the same terms. Warehouse age eats the term.
+> [!KEYTAKEAWAYS]
+> - Sungrow's APAC terms cut cover to 2 years for non-C5 products installed 2 to 5 km from the coastline and void it inside 2 km ([Sungrow, 2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)). Sungrow string inverters sold through dealers carry 5 years, capped at 6 years from the production date, per the same terms. Warehouse age eats the term.
 > - Growatt's procedure runs the term from the installation certificate date and no more than six months after the delivery date ([Growatt, 2026](https://en.growatt.com/support/warranty)).
 > - Qbits publishes an expandable warranty and its own datasheets do not define the base term, remedy, registration deadline or exclusions, so it cannot be compared on duration until you hold the document.
 > - Qbits sells inverters only. No panels, no battery SKUs, no installation. That is the real limit on choosing it.
@@ -73,6 +72,8 @@ Origin and Indian footprint move the decision more than most specification rows,
 
 The Qbits column below is taken from Qbits' published product data behind the [datasheet library](/download-datasheets/) and the [product library](/our-products/). The other two columns carry a specification only where this page holds a source for it, and the single-phase 5 kW figures come from the manufacturers' own datasheets listed under the matched table. Everything else is marked for verification rather than guessed, because a wrong voltage window is worse than a blank cell.
 
+Table: Qbits, Sungrow and Growatt compared on published specifications, with a verify column where this page holds no source
+
 | Item | Qbits (published) | Sungrow | Growatt | Verify on the current datasheet |
 | --- | --- | --- | --- | --- |
 | Single-phase on-grid range | 1.5 to 6 kW single-MPPT TLS; 4 to 6 kW dual-MPPT TLD | SG single-phase series | MIN TL-X, roughly 2.5 to 10 kW, dual MPPT | Model-level kW steps for Sungrow and Growatt |
@@ -88,6 +89,8 @@ The Qbits column below is taken from Qbits' published product data behind the [d
 ### A matched single-phase 5 kW comparison
 
 The three models below are each the 5 kW single-phase, dual-MPPT member of their family. All figures are copied from each manufacturer's published datasheet, as of 14 October 2026. Regional versions of a datasheet can differ, so confirm the figures against the version supplied with your unit.
+
+Table: Matched 5 kW single-phase dual-MPPT models from each maker's published datasheet, as of 14 October 2026
 
 | Item | Qbits QB-5KTLD | Sungrow SG5.0RS-L (India datasheet) | Growatt MIN 5000TL-X2 |
 | --- | --- | --- | --- |
@@ -109,6 +112,18 @@ The three models below are each the 5 kW single-phase, dual-MPPT member of their
 
 Sources: [Qbits QB-4.0-6.0 kW 2MPPT datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf); [Sungrow SG4.0/5.0/6.0RS-L India datasheet, version 14, 2025](https://info-support.sungrowpower.com/datasheet-materials/355eaef6-6526-4d79-ae9f-dfe6703c814a.pdf) and its [India product page](https://www.sungrowpower.com/in/en/products/string-inverter/b-sg4-0-5-0-6-0rs-l); [Growatt MIN 2500~6000TL-X2 datasheet](https://en.growatt.com/upload/file/MIN_2500-6000TL-X2_Datasheet.pdf).
 
+```chart
+type: hbar
+title: Maximum input current per MPPT tracker, 5 kW single-phase dual-MPPT models
+unit: "A"
+source: "Manufacturer datasheets for the Qbits QB-4.0-6.0 kW 2MPPT, Sungrow SG4.0/5.0/6.0RS-L (India, version 14, 2025) and Growatt MIN 2500~6000TL-X2, as listed under the table above, read 14 October 2026"
+note: "Check against your module's short-circuit current before choosing."
+data:
+  - { label: "Qbits QB-5KTLD", value: 20 }
+  - { label: "Sungrow SG5.0RS-L", value: 16 }
+  - { label: "Growatt MIN 5000TL-X2", value: 16 }
+```
+
 Reading the table without picking a winner: the three are close on rated output and tracker count. They differ on how the voltage window is laid out. The Sungrow and Growatt units list a lower MPPT window edge (40 V against 80 V) and the Sungrow accepts 600 V at the input, which gives more room for long strings, while the Qbits TLD carries the higher per-tracker input current (20 A against 16 A), which suits higher-current modules. Which of those matters depends on your module's voltage and current, so check the datasheet figures against the module before you compare anything else. Sungrow lists a newer SG..RS-L2 family on its India site, so confirm which generation your dealer is supplying.
 
 Two notes on reading that table. Efficiency varies by model inside a single Qbits series, so never carry a top-model figure down the range. And the DC window column is the row that actually kills designs, so run your array through the [string sizing calculator](/string-sizing-calculator/) against the exact module before you compare anything else.
@@ -119,6 +134,9 @@ A warranty is a set of clauses. The number of years is the least useful of them.
 
 **Sungrow.** String inverters sold through authorised dealers and distributors carry 5 years, capped at 6 years from the production date, per Sungrow APAC warranty terms ([2026](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term)). The same document applies coastal derogations. For non-C5 products, cover falls to 2 years between 2 and 5 kilometres of the coastline, and is voided within 2 kilometres. C5-enclosure products are limited to 2 years within 500 metres of the coastline. Salt mist or corrosion beyond the design specification is a listed exclusion. Extended cover can be purchased up to a total of 25 years.
 
+> [!WARNING] Coastal sites can lose Sungrow cover
+> For non-C5 products, cover falls to 2 years between 2 and 5 kilometres of the coastline and is voided within 2 kilometres. C5-enclosure products are limited to 2 years within 500 metres. Salt mist corrosion beyond the design specification is a listed exclusion.
+
 These are ordinary commercial terms, openly published, and they matter enormously across Gujarat, Kerala, Tamil Nadu, and coastal Odisha. Our [coastal inverter guide](/blog/solar-inverter-for-coastal/) sets out what to specify there.
 
 **Growatt.** The standard period runs from the installation date on the installation certificate, and no more than six months after the delivery date, per Growatt's published warranty procedure ([2026](https://en.growatt.com/support/warranty)). The year count varies by product line and is not stated in the page text. Warranty extensions must be purchased within two years of installation. If a sales order specifies a term, that order overrides the standard one.
@@ -126,6 +144,8 @@ These are ordinary commercial terms, openly published, and they matter enormousl
 The practical consequence matches Sungrow's production-date cap. Stock that sat in a warehouse is worth less to you than stock that did not. Nothing on the box tells you which you are getting.
 
 **Qbits.** Qbits publishes an expandable warranty, and the note carried on every Qbits product page is explicit that the public datasheets do not define the base term, the remedy, the registration deadline, or the exclusions. So on this row Qbits is the brand you can read least about before buying, and no duration comparison against Sungrow or Growatt is available. Obtain the current written warranty for the exact quoted model, and apply exactly the same document standard you would apply to an imported brand.
+
+Table: Warranty clauses compared across Sungrow, Growatt and Qbits (published terms only)
 
 | Warranty clause | Sungrow | Growatt | Qbits |
 | --- | --- | --- | --- |
@@ -139,6 +159,9 @@ The practical consequence matches Sungrow's production-date cap. Stock that sat 
 ## Worked example: what a production-date cap actually costs
 
 This is arithmetic on a published clause and stated assumptions. It is not field data from any site.
+
+> [!FORMULA]
+> Effective cover from installation (months) = 72 months (production-date cap) − months the unit sat in the channel
 
 Take a Sungrow dealer-channel string inverter. The term is 5 years from first installation, capped at 6 years from the production date.
 

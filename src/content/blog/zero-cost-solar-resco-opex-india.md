@@ -4,7 +4,7 @@ excerpt: "Zero cost solar India via RESCO: pay ₹4–6/unit instead of ₹8–1
 description: "How zero cost solar works in India via RESCO and OPEX models: PPA tariff comparison, who offers RESCO, contract terms, and what happens after 15 years."
 category: Guide
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "18 min"
 image: "/og/blog-zero-cost-solar-resco-opex-india.webp"
 author: "Akash Hirapara"
@@ -39,7 +39,7 @@ For a commercial buyer (a factory manager, hotel owner, or school administrator)
 
 Under a RESCO arrangement, a specialised company installs the solar system on your roof at zero cost, owns and operates it for 15–25 years, and sells you the electricity at ₹4–6 per unit, well below the ₹8–12 per unit you currently pay the DISCOM. You save money from day one without spending a rupee on equipment.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Zero cost solar in India works through the RESCO model: a Renewable Energy Service Company owns the system and sells you electricity under a PPA at ₹4–6/unit, versus ₹8–12/unit from the grid.
 > - There is no upfront payment; the RESCO bears the capex, performance, and maintenance risk, while you keep only the electricity savings.
 > - Amplus Solar (PETRONAS), Fourth Partner Energy, and CleanMax Solar are the largest RESCO providers for Indian C&I rooftops.
@@ -67,6 +67,8 @@ The mechanics are straightforward:
 
 ### Who Owns What Under RESCO?
 
+Table: Who owns and who bears what under a RESCO arrangement
+
 | Item | RESCO Ownership | Premises Owner |
 | --- | --- | --- |
 | Solar panels | Yes | No |
@@ -83,17 +85,24 @@ This ownership structure is the defining characteristic. The RESCO bears the cap
 
 The business case for RESCO pivots on the spread between the PPA tariff you pay and the grid tariff you would otherwise pay.
 
+Table: Grid tariff, typical PPA tariff and saving per unit by consumer type
+
 | Consumer Type | Grid Tariff Range (2026) | Typical PPA Tariff | Saving per Unit |
 | --- | --- | --- | --- |
 | Commercial consumer (LT) | ₹8–10/unit | ₹4.5–6.0/unit | ₹2.0–5.5/unit |
-| Industrial consumer (HT) | ₹7–9/unit | ₹4.0–5.5/unit | ₹2.0–4.5/unit |
-| Institution (hospital, school) | ₹7–10/unit | ₹4.0–5.5/unit | ₹2.5–6.0/unit |
+| Industrial consumer (HT) | ₹7–9/unit | ₹4.0–5.5/unit | ₹1.5–5.0/unit |
+| Institution (hospital, school) | ₹7–10/unit | ₹4.0–5.5/unit | ₹1.5–6.0/unit |
 | Hotel / hospitality | ₹9–12/unit | ₹5.0–6.5/unit | ₹2.5–7.0/unit |
 | Residential (₹ per unit, net metering eligible) | ₹6–9/unit | Not typically offered | - |
 
 > **₹4–6/unit.** The typical PPA tariff charged by Indian RESCO providers for commercial rooftop solar under long-term contracts, compared to commercial grid tariffs of ₹8–12/unit, a saving of ₹2–8 per unit on every unit the solar system generates. *Source - [Bridge to India Solar Rooftop Market Report](https://bridgetoindia.com/), 2025.*
 
-The saving accrues immediately (from the first month the system is commissioned) without any upfront payment. For a 100 kW system generating 450 units per day (1,40,000 units per year), a ₹3/unit saving translates to ₹4.2 Lakh per year, purely from switching to RESCO. A [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) lets you run the same comparison against a CAPEX ownership scenario for your own load profile.
+The saving accrues immediately (from the first month the system is commissioned) without any upfront payment.
+
+> [!EXAMPLE] 100 kW system, ₹3/unit saving
+> For a 100 kW system generating about 385 units per day (1,40,000 units per year), a ₹3/unit saving translates to ₹4.2 Lakh per year, purely from switching to RESCO.
+
+A [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) lets you run the same comparison against a CAPEX ownership scenario for your own load profile.
 
 ## Who Offers RESCO Solar in India?
 
@@ -116,6 +125,8 @@ Several state-level solar developers offer RESCO contracts for systems below 100
 ## OPEX Model: The Variant of RESCO
 
 The [OPEX model](/glossary/opex/) differs from the classic RESCO/PPA in one structural way: instead of a per-unit PPA tariff, the premises owner pays a fixed annual O&M fee to the solar service company. In some OPEX arrangements, the premises owner actually finances a portion of the installation (hybrid capex-OPEX).
+
+Table: RESCO / PPA compared with the OPEX (O&M fee) model
 
 | Feature | RESCO / PPA | OPEX (O&M fee model) |
 | --- | --- | --- |
@@ -142,11 +153,30 @@ Before signing a RESCO or PPA agreement, verify each of these eight dimensions:
 7. **Insurance coverage**: the RESCO must hold comprehensive insurance for the system (all-risk, third-party liability). Get a copy of the insurance policy before commissioning.
 8. **Performance monitoring access**: ensure you receive real-time or monthly generation data so you can verify the billed units independently.
 
+> [!WARNING] Escalation above 5% can erase the saving
+> Tariffs that escalate at 5%+ annually may converge with grid tariffs within 8–10 years, eroding savings. Fix the escalation clause in writing before you sign.
+
+```chart
+type: line
+title: PPA tariff as a multiple of the Year 1 tariff at 5% annual escalation
+unit: "x"
+source: "Calculated in this article as 1.05 raised to (year minus 1), from the 5% annual escalation example in the mistakes section below"
+note: "Illustrative arithmetic, not a quoted PPA. A 2 to 3% escalation grows far more slowly."
+decimals: 2
+data:
+  - { label: "Year 1", value: 1 }
+  - { label: "Year 5", value: 1.2155 }
+  - { label: "Year 10", value: 1.5513 }
+  - { label: "Year 12", value: 1.7103 }
+  - { label: "Year 15", value: 1.9799 }
+  - { label: "Year 20", value: 2.527 }
+```
+
 ## Common Mistakes in RESCO Contracts
 
 Signing a RESCO contract without due diligence has cost many businesses dearly:
 
-- **Missing the escalation clause**: a 5% annual PPA escalation on a 20-year contract means the tariff in Year 20 is 2.65× the Year 1 tariff. By Year 12, the PPA tariff may match or exceed the grid tariff.
+- **Missing the escalation clause**: a 5% annual PPA escalation on a 20-year contract means the tariff in Year 20 is about 2.5× the Year 1 tariff. By Year 12, the PPA tariff may match or exceed the grid tariff.
 - **No generation guarantee**: if the contract does not guarantee minimum generation, and the RESCO's panels underperform due to soiling or shading, you pay a lower bill but the RESCO faces no consequence.
 - **Choosing a small RESCO that cannot sustain 20 years**: RESCO companies with thin capitalisation or no institutional backing have closed operations mid-contract, leaving premises owners with abandoned equipment and no maintenance.
 - **Not reading the roof damage liability clause**: who is responsible if the mounting structure damages the waterproofing membrane? If it is not in the contract, it is your problem. [SECI's RESCO tender documents](https://www.seci.co.in/) provide model contract language that covers liability clearly, use these as a template when reviewing private RESCO contracts.

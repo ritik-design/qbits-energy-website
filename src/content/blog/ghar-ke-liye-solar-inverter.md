@@ -4,7 +4,7 @@ excerpt: "घर के लिए solar inverter कैसे चुनें: l
 description: "Ghar ke liye solar inverter choose karne ka practical guide: load, on-grid ya hybrid type, model datasheet, warranty aur installer checks."
 category: "Buying Guide"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-ghar-ke-liye-solar-inverter.webp"
 author: "Keyur Rakholiya"
@@ -39,10 +39,9 @@ language: hi
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Bijli cut रोज़ 2 घंटे से कम है तो [on-grid inverter](/glossary/on-grid-inverter/) लें, ज़्यादा है तो hybrid। [Off-grid](https://www.heavengreenenergy.com/blog/on-grid-vs-off-grid-vs-hybrid-solar-systems-gujarat) सिर्फ तब जब grid connection ही नहीं है।
 > - Inverter की rating panel array से 10 से 20 percent कम रखना normal है, यानी 3 kW panels पर 2.5 से 3 kW inverter।
-
 > - Solar systems पर GST 22 सितंबर 2025 से 5% है (पहले 12%), और quote में GST का treatment अलग से लिखा होना चाहिए।
 > - Rural और semi-urban घरों के लिए चौड़ी AC voltage range और कम reconnect time सबसे ज़्यादा मायने रखते हैं।
 > - Warranty 10 साल से कम वाला inverter 25 साल के system में महँगा पड़ता है, premium Indian brands 12 साल देते हैं।
@@ -58,6 +57,8 @@ language: hi
 **Hybrid inverter** on-grid का सारा काम करता है और साथ में battery भी चला सकता है। Grid जाए तो selected loads चलते रहते हैं। Cost on-grid से 40 से 80 percent ज़्यादा है, और battery का खर्च उसके ऊपर अलग।
 
 **Off-grid inverter** grid को पहचानता ही नहीं। पूरा घर battery पर चलता है। Net metering नहीं मिलती, इसलिए जो बिजली आप use नहीं करते वो बर्बाद जाती है।
+
+Table: घर की situation के हिसाब से on-grid, hybrid ya off-grid inverter
 
 | आपकी situation | सही choice | क्यों |
 | --- | --- | --- |
@@ -81,7 +82,12 @@ language: hi
 
 Sizing की सबसे आम गलती यह सोचना है कि inverter घर के total connected load जितना होना चाहिए। ऐसा नहीं है। Grid-connected घर में inverter को सिर्फ solar array संभालना है, पूरा घर नहीं। घर की बाकी demand grid पूरी करती रहती है।
 
+> [!FORMULA] Required kW
+> Required kW = monthly average units ÷ 120 (1 kW rooftop solar औसतन 4 units रोज़, यानी लगभग 120 units महीने)
+
 Practical तरीका यह है। पिछले 12 महीनों के bill से average monthly units निकालिए। India में 1 kW rooftop solar औसतन 4 units रोज़, यानी लगभग 120 units महीने बनाता है। अपनी monthly consumption को 120 से भाग दीजिए, वही आपकी required kW है। फिर roof space check करें, हर kW के लिए लगभग 8 से 10 square feet shadow-free जगह चाहिए।
+
+Table: Monthly bijli use ke hisaab se suggested array aur inverter rating
 
 | Monthly bijli use | Suggested array | Inverter rating | कैसा घर |
 | --- | --- | --- | --- |
@@ -98,21 +104,22 @@ Hybrid ले रहे हैं तो battery sizing अलग exercise ह�
 
 ## Worked Example: 3 BHK Ghar, 380 Units Per Month
 
-यह example illustrative है, real customer का नहीं। मकसद सिर्फ यह दिखाना है कि numbers कैसे जुड़ते हैं।
-
-मान लीजिए Jaipur में एक 3 BHK घर है, monthly average 380 units, tariff ₹7.5 प्रति unit, यानी महीने का bill लगभग ₹2,850। रोज़ शाम को 1 घंटे का cut आता है और घर में पहले से एक normal UPS लगा है।
-
-- Required array: 380 भाग 120 = लगभग 3.2 kW, तो 3 kW round figure ठीक है।
-- Roof requirement: 3 kW के लिए 25 से 30 square feet shadow-free।
-- Type: cut सिर्फ 1 घंटा और UPS पहले से है, इसलिए on-grid।
-
-- System cost (panels, inverter, structure, cables, labour): लगभग ₹1.5 लाख से ₹1.9 लाख।
-- PM Surya Ghar subsidy: ₹78,000।
-- Net outgo: लगभग ₹72,000 से ₹1.12 लाख।
-- Monthly saving: लगभग ₹2,400 से ₹2,800, क्योंकि fixed charges रहते हैं।
-- Simple payback: लगभग 3 से 4 साल।
-
-अगर यही घर hybrid चुनता, तो inverter ₹25,000 ज़्यादा और 5 kWh LFP battery लगभग ₹90,000 अलग। Monthly saving वही रहता, सिर्फ 1 घंटे का backup मिलता जो UPS पहले से दे रहा था। इसीलिए इस घर के लिए hybrid गलत खर्च होता।
+> [!EXAMPLE] 3 BHK ghar, 380 units per month (illustrative)
+> यह example illustrative है, real customer का नहीं। मकसद सिर्फ यह दिखाना है कि numbers कैसे जुड़ते हैं।
+>
+> मान लीजिए Jaipur में एक 3 BHK घर है, monthly average 380 units, tariff ₹7.5 प्रति unit, यानी महीने का bill लगभग ₹2,850। रोज़ शाम को 1 घंटे का cut आता है और घर में पहले से एक normal UPS लगा है।
+>
+> - Required array: 380 भाग 120 = लगभग 3.2 kW, तो 3 kW round figure ठीक है।
+> - Roof requirement: 3 kW के लिए 25 से 30 square feet shadow-free।
+> - Type: cut सिर्फ 1 घंटा और UPS पहले से है, इसलिए on-grid।
+>
+> - System cost (panels, inverter, structure, cables, labour): लगभग ₹1.5 लाख से ₹1.9 लाख।
+> - PM Surya Ghar subsidy: ₹78,000।
+> - Net outgo: लगभग ₹72,000 से ₹1.12 लाख।
+> - Monthly saving: लगभग ₹2,400 से ₹2,800, क्योंकि fixed charges रहते हैं।
+> - Simple payback: लगभग 2 से 4 साल।
+>
+> अगर यही घर hybrid चुनता, तो inverter ₹25,000 ज़्यादा और 5 kWh LFP battery लगभग ₹90,000 अलग। Monthly saving वही रहता, सिर्फ 1 घंटे का backup मिलता जो UPS पहले से दे रहा था। इसीलिए इस घर के लिए hybrid गलत खर्च होता।
 
 ## ALMM aur Subsidy Eligibility: Yahaan Compromise Mat Kijiye
 
@@ -144,6 +151,9 @@ IP65 और IP66 दोनों dust-tight हैं। फर्क पान�
 
 ### Voltage Window
 
+> [!TIP] Voltage window: datasheet mein kya dekhein
+> Exact model की datasheet या manual में "AC voltage range" और "reconnect time" दोनों देखिए, और DISCOM की connection शर्तों से match कीजिए।
+
 यह spec सबसे कम देखी जाती है और semi-urban तथा rural घरों में सबसे ज़्यादा फर्क डालती है। भारत के कई इलाकों में शाम के time grid voltage काफ़ी गिर जाता है और रात में चढ़ जाता है। Narrow window वाला inverter हर उतार चढ़ाव पर trip कर सकता है, फिर reconnect होने में कई मिनट लगाता है। दिन भर में यह generation का अच्छा खासा हिस्सा खा जाता है।
 
 चौड़ी range वाला inverter उसी grid पर आमतौर पर चलता रहता है। Allowed grid range model पर और DISCOM की connection शर्तों तथा inverter की grid-code setting पर निर्भर करती है, इसलिए exact model की datasheet या manual में "AC voltage range" और "reconnect time" दोनों देखिए। यह किसी brochure का marketing point नहीं, यह वो एक spec है जिसकी वजह से दो पड़ोसी एक ही size के system से अलग अलग units बनाते हैं।
@@ -174,6 +184,8 @@ IP65 और IP66 दोनों dust-tight हैं। फर्क पान�
 
 हर feature ज़रूरी नहीं। यह छोटी सी list है कि किस पर खर्च justify होता है और किस पर नहीं।
 
+Table: कौन से feature पर extra paisa dena theek hai
+
 | Feature | Extra cost worth it? | कब |
 | --- | --- | --- |
 | Dual MPPT | हाँ | Roof के दो अलग faces या alag shading पर |
@@ -190,16 +202,17 @@ Qbits की पूरी residential range देखनी हो तो [our p
 
 Vendor को हाँ बोलने से पहले यह list एक बार चला लीजिए:
 
-1. Type आपके cut pattern से match करता है, vendor की सलाह से नहीं।
-2. Inverter rating array के 80 से 100 percent के बीच है।
-3. Panels ALMM List-I में हैं और inverter के exact model का BIS registration तथा current certificates मिल गए। MNRE inverter के लिए ALMM list नहीं देता।
-4. Warranty 10 साल या ज़्यादा, written में, full replacement।
-5. IP66 अगर mounting outdoor है।
-6. अगर आपका इलाका unstable supply वाला है, तो exact model की datasheet में AC voltage range और reconnect time check करें और DISCOM की शर्तों से match करें।
-7. District में service partner का नाम और नंबर मिल गया।
-8. Quote GST-inclusive है और उसमें cables, earthing तथा net meter fee शामिल हैं।
-9. Vendor DISCOM-empanelled है, portal पर नाम check किया।
-10. कम से कम तीन quotes same spec पर compare किए।
+> [!CHECKLIST] Vendor ko haan bolne se pehle
+> - Type आपके cut pattern से match करता है, vendor की सलाह से नहीं।
+> - Inverter rating array के 80 से 100 percent के बीच है।
+> - Panels ALMM List-I में हैं और inverter के exact model का BIS registration तथा current certificates मिल गए। MNRE inverter के लिए ALMM list नहीं देता।
+> - Warranty 10 साल या ज़्यादा, written में, और remedy साफ लिखा हो (replacement या repair, freight और labour कौन देगा)।
+> - IP66 अगर mounting outdoor है।
+> - अगर आपका इलाका unstable supply वाला है, तो exact model की datasheet में AC voltage range और reconnect time check करें और DISCOM की शर्तों से match करें।
+> - District में service partner का नाम और नंबर मिल गया।
+> - Quote GST-inclusive है और उसमें cables, earthing तथा net meter fee शामिल हैं।
+> - Vendor DISCOM-empanelled है, portal पर नाम check किया।
+> - कम से कम तीन quotes same spec पर compare किए।
 
 अगर इनमें से तीन से ज़्यादा points पर जवाब साफ नहीं है, तो deal रोक दीजिए और दूसरा vendor देखिए।
 

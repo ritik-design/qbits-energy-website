@@ -4,7 +4,7 @@ excerpt: "Solar IRR calculation India for C&I: a 100 kW Karnataka system at ₹7
 description: "A 100 kW C&I solar system in Karnataka at ₹70 lakh capex delivers 22% IRR and 4.5-year payback with accelerated depreciation. Full business case inside."
 category: Guide
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-solar-irr-payback-ci-india.webp"
 author: "Keyur Rakholiya"
@@ -37,12 +37,11 @@ faqs:
 
 Every C&I decision-maker who asks "should we invest in solar?" eventually asks "what exactly is the return, and how confident can we be in that number?" This guide walks through a complete, honest IRR calculation for a 100 kW C&I system in India, line by line, including the accelerated depreciation tax shield that most solar sales pitches either ignore or overstate.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A 100 kW C&I system in Karnataka at ₹70 lakh capex delivers roughly 22% IRR and a 4.5-year payback once the accelerated depreciation tax shield is applied.
 > - Accelerated depreciation lets a profitable company deduct 80% of the asset cost in Year 1, turning ₹70 lakh gross capex into a ₹14 lakh Year 1 tax saving and an effective net capex of ₹56 lakh.
 > - Without accelerated depreciation, the same system's IRR drops to roughly 17% and payback stretches to 5–7 years.
-> - Grid tariff is the single most important variable: IRR ranges from ~16% at ₹7/unit to ~28% at ₹12/unit on the same system.
-> - Self-consumption ratio matters almost as much, 50% self-consumption yields ~17% IRR while 90% self-consumption yields ~25% on identical generation.
+> - Grid tariff is the single most important variable: IRR ranges from ~16% at ₹7/unit to ~28% at ₹12/unit on the same system. Self-consumption ratio matters almost as much, 50% self-consumption yields ~17% IRR while 90% self-consumption yields ~25% on identical generation.
 > - NPV over 25 years at an 8% discount rate is about ₹1.8 crore in the base case, rising to ~₹2.3 crore if a model-specific written warranty avoids the Year 12 inverter replacement cost.
 
 > **Direct answer.** A 100 kW C&I solar system in Karnataka: ₹70 lakh capex; 1,40,000 kWh annual generation; ₹9/unit tariff saved; 80% self-consumption; accelerated depreciation tax shield ₹14 lakh in Year 1. Simple payback: 4.5 years. NPV over 25 years at 8% discount rate: ~₹1.8 Crore. IRR: 22%. The "5-Line C&I Solar Business Case" framework produces this number in five inputs. Every variable is explained and stress-tested below.
@@ -52,6 +51,8 @@ For the broader context of CAPEX vs OPEX decision-making, see [solar CAPEX vs OP
 ## The Base Case: 100 kW System in Karnataka
 
 All IRR and payback calculations start with credible input assumptions. Here are the specific assumptions for the worked example, with justification for each.
+
+Table: Base case inputs for a 100 kW C&I system in Karnataka
 
 | Input | Value | Source / Justification |
 | --- | --- | --- |
@@ -73,6 +74,7 @@ This framework reduces the full financial analysis to five inputs that any CFO o
 
 ### The 5-Line C&I Solar Business Case
 
+<!-- steps -->
 1. **Annual Generation** = System kW × Annual Specific Yield (kWh/kW/yr) = 100 × 1,400 = **1,40,000 kWh**
 
 2. **Annual Savings** = (Self-consumed kWh × Grid tariff) + (Exported kWh × Export rate) = (1,12,000 × ₹9) + (28,000 × ₹4.5) = ₹10,08,000 + ₹1,26,000 = **₹11,34,000**
@@ -83,22 +85,30 @@ This framework reduces the full financial analysis to five inputs that any CFO o
 
 5. **Simple [Payback](/glossary/payback-period/)** = Effective Net CAPEX ÷ Annual Savings = ₹56,00,000 ÷ ₹11,34,000 = **4.9 years** (approximately 4.5 years with Year 1 savings accelerated by timing)
 
+> [!FORMULA]
+> Simple payback = (Total CAPEX − Year 1 tax benefit) ÷ Annual savings = ₹56,00,000 ÷ ₹11,34,000
+
+Step 5 divides by flat Year 1 savings, which gives 4.9 years. The 4.5 year figure used in this guide comes from the cash flow model below, where savings grow about 5.5% a year, so the cumulative total crosses ₹56 lakh in the fifth year.
+
 At Step 4, the effective net CAPEX after the Year 1 tax shield becomes the real economic cost of the investment. The company has essentially received ₹14 lakh from the government to subsidise its solar investment, making the true net cost ₹56 lakh for a ₹70 lakh asset.
 
 ## The Full 25-Year Cash Flow Model
 
 Simple payback tells you when you recover the capital. [IRR](/glossary/irr/) and NPV tell you the quality of the investment over its full life. Here is the simplified 25-year cash flow structure.
 
+Table: Simplified 25-year cash flow structure for the base case
+
 | Period | Cash Flow | Notes |
 | --- | --- | --- |
 | Year 0 | −₹70,00,000 | Initial CAPEX outflow |
 | Year 1 | +₹14,00,000 (tax shield) + ₹11,34,000 (savings) | Combined ₹25,34,000 |
-| Years 2–5 | ₹11,34,000 growing at ~6.5% pa | Tariff escalation 6%, degradation −0.5% → net 5.5% |
+| Years 2–5 | ₹11,34,000 growing at ~5.5% pa | Tariff escalation 6%, degradation −0.5% → net 5.5% |
 | Years 6–12 | Savings growing at ~5.5% pa | Panel output at 97% by Year 12 |
 | Year 12 | −₹50,00,000 | Inverter replacement (worst case; model-specific written warranty avoids this) |
 | Years 13–25 | Savings growing at 5.5% pa | Panel output at 91% by Year 25 |
 
 **NPV at 8% discount rate: ~₹1.8 Crore**
+
 **IRR: ~22%**
 
 Note: The Year 12 inverter replacement assumes no warranty coverage. A model-specific written warranty eliminates this cash outflow entirely, pushing NPV to ~₹2.3 Crore and IRR to ~26%.
@@ -109,12 +119,26 @@ Note: The Year 12 inverter replacement assumes no warranty coverage. A model-spe
 
 Three variables most significantly affect the C&I solar IRR. This sensitivity analysis shows how the base case 22% IRR changes.
 
+Table: IRR sensitivity to tariff, self-consumption, depreciation and financing rate
+
 | Variable | Base Case | Lower Case | Higher Case |
 | --- | --- | --- | --- |
 | Grid tariff | ₹9/unit → 22% IRR | ₹7/unit → 16% IRR | ₹12/unit → 28% IRR |
 | Self-consumption | 80% → 22% IRR | 50% → 17% IRR | 90% → 25% IRR |
 | With/Without depreciation | With (22%) | Without (17%) | N/A |
 | Financing rate | 8% (own equity) | 12% (NBFC loan) → 14% equity IRR | 8.5% [IREDA](/blog/solar-loan-ireda/) → 21% equity IRR |
+
+```chart
+type: bar
+title: IRR of the 100 kW Karnataka system at three grid tariffs
+unit: "%"
+source: "Modelled in this article using NREL irradiance data, the BESCOM tariff schedule and CBDT accelerated depreciation rules; values from the sensitivity table above (accelerated depreciation claimed)"
+note: "All other inputs held at the base case. Rules and tariffs vary by state and DISCOM."
+data:
+  - { label: "₹7/unit", value: 16 }
+  - { label: "₹9/unit (base case)", value: 22 }
+  - { label: "₹12/unit", value: 28 }
+```
 
 The sensitivity table reveals two conclusions for decision-making:
 
@@ -135,13 +159,18 @@ The 80% accelerated depreciation is the most misunderstood (and most debated) el
 - Year 2 depreciation: ₹14,00,000 × 15% = ₹2,10,000 (normal depreciation rate on remaining WDV)
 - Tax saving in Year 1 (at 25% rate): ₹56,00,000 × 25% = **₹14,00,000**
 
-This ₹14 lakh tax saving arrives in the Year 1 advance tax or the annual return, reducing effective capex to ₹56 lakh. Companies with high depreciation reserves from prior years should consult their CA to verify that the full deduction is available in Year 1.
+This ₹14 lakh tax saving arrives in the Year 1 advance tax or the annual return, reducing effective capex to ₹56 lakh.
+
+> [!IMPORTANT] Check the Year 1 deduction with your CA
+> Companies with high depreciation reserves from prior years should consult their CA to verify that the full deduction is available in Year 1.
 
 See [solar inverter depreciation in India](/blog/solar-inverter-depreciation-in-india/) for the full breakdown of depreciation rules applicable to solar equipment under both IT Act and Companies Act.
 
 ## Stress-Testing the Business Case: Conservative vs Base vs Optimistic
 
 Any credible IRR model should be stress-tested across three scenarios.
+
+Table: Conservative, base and optimistic scenarios for the 100 kW system
 
 | Scenario | Assumptions | IRR | Payback |
 | --- | --- | --- | --- |
@@ -165,7 +194,8 @@ This package makes the solar decision defensible to the board or investment comm
 
 ## Where Qbits Fits in the C&I IRR Model
 
-An inverter-replacement scenario can materially affect a C&I model, but the timing, cost and effect must come from documented assumptions and a validated calculation. Qbits' public datasheets describe an expandable warranty but do not define the base term or remedy, so do not assume a warranty removes a Year 12 replacement cost. Keep that cost in the base or sensitivity case unless current written terms justify another treatment.
+> [!WARNING] Do not assume the inverter replacement cost disappears
+> An inverter-replacement scenario can materially affect a C&I model, but the timing, cost and effect must come from documented assumptions and a validated calculation. Qbits' public datasheets describe an expandable warranty but do not define the base term or remedy, so do not assume a warranty removes a Year 12 replacement cost. Keep that cost in the base or sensitivity case unless current written terms justify another treatment.
 
 - **[C&I Solutions](/c-i-solution/)**: Ask which project services are available and obtain the responsible party, deliverables, exclusions and fees in writing.
 

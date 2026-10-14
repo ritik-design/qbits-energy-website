@@ -4,7 +4,7 @@ excerpt: "IREDA solar loan (Suryodaya) offers 7–9% interest for residential so
 description: "IREDA Suryodaya solar loan for homeowners: interest rate via partner banks, eligibility, subsidy stacking and EMI examples for 3, 5 and 10 kW systems."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "18 min"
 image: "/og/blog-solar-loan-ireda.webp"
 author: "Akash Hirapara"
@@ -41,7 +41,7 @@ Your electricity bill crosses ₹8,000 a month, your neighbour just went solar, 
 
 Understanding how the [IREDA solar loan](https://ireda.in/) works (and how to combine it with the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/)) can reduce your real cost of going solar by 40% or more compared to taking a plain commercial personal loan. This guide walks through every step: eligibility, the application process, the partner bank list, the repayment mathematics, and the named framework that ties it all together.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - IREDA's Suryodaya scheme routes concessional 7-9% interest loans through partner banks (SBI, PNB, Bank of Baroda, Canara, Indian Bank) and select NBFCs for PM Surya Ghar-eligible rooftop solar.
 > - Loans up to ₹10 Lakh are collateral-free, and eligibility requires DISCOM sanction plus ALMM-listed equipment - the same gates as the subsidy itself.
 > - On a typical 3 kW system, the net loan amount after the ₹78,000 central subsidy is around ₹72,000, with an EMI of roughly ₹1,459/month against ₹2,800-₹4,200 in monthly electricity savings.
@@ -78,6 +78,8 @@ IREDA does not originate loans directly for most residential customers. The chan
 This architecture means the loan application experience looks exactly like a regular bank loan, the IREDA backing is what makes the rate lower, not the paperwork. However, not every branch of every listed bank is actively processing IREDA-channel solar loans. Always confirm with the branch manager that your branch participates in the scheme before submitting documents.
 
 ### The 5-Stage Application Timeline
+
+Table: The five-stage IREDA-channel solar loan timeline
 
 | Stage | Action | Typical Duration |
 | --- | --- | --- |
@@ -135,6 +137,8 @@ The [PM Surya Ghar eligibility](/blog/pm-surya-ghar-eligibility/) criteria overl
 
 Not every homeowner will qualify for or need an IREDA-channel loan. Here is a direct comparison to help you decide:
 
+Table: IREDA Suryodaya loan compared with a commercial personal loan and a solar NBFC loan
+
 | Dimension | IREDA Suryodaya Loan | Commercial Personal Loan | Solar NBFC Loan |
 | --- | --- | --- | --- |
 | Interest rate | 7–9% | 10.5–14% | 8.5–12% |
@@ -170,13 +174,21 @@ This is the named framework that most installers and bank advisors fail to expla
 
 The subsidy, when it arrives 30–90 days post-installation, can be used to either prepay part of the principal (reducing future EMIs) or kept as an emergency reserve. The key insight is that you are cash-flow positive even before the subsidy lands, because the IREDA rate keeps the EMI below the electricity savings.
 
+> [!IMPORTANT] The ₹72,000 loan assumes the subsidy is already applied
+> The subsidy is paid after commissioning, so a bank normally sanctions against the full project cost first. On the full ₹1,50,000 at 8% for 60 months the EMI is about ₹3,042, not ₹1,459. Ask your bank in writing how and when the subsidy will be applied to the principal, and whether a moratorium is available, before relying on the net-positive cash flow above.
+
 > **7.5%.** The effective interest rate available to IREDA Suryodaya loan borrowers under the PM Surya Ghar residential scheme, compared to 13% typically charged on unsecured personal loans for the same purpose. *Source - [IREDA Suryodaya Scheme Documentation](https://ireda.in/), 2026.*
 
 ## EMI Calculator: 3 kW, 5 kW, and 10 kW Systems
 
 Use these tables to estimate your monthly commitment. All figures use 8% interest rate at 5-year tenure. System costs are midpoint estimates; actual costs vary by state, vendor, and roof complexity - a solar cost and savings calculator can help you plug in your own roof size and tariff to sanity-check these midpoints before you approach a bank.
 
+> [!FORMULA] EMI used in the tables below
+> EMI = loan × r ÷ (1 − (1 + r)^−n), with r = 8% ÷ 12 per month and n = 60 months
+
 **3 kW On-Grid System**
+
+Table: EMI and net monthly benefit for a 3 kW on-grid system at 8% for 60 months
 
 | Component | Amount |
 | --- | --- |
@@ -189,6 +201,8 @@ Use these tables to estimate your monthly commitment. All figures use 8% interes
 
 **5 kW On-Grid System**
 
+Table: EMI and net monthly benefit for a 5 kW on-grid system at 8% for 60 months
+
 | Component | Amount |
 | --- | --- |
 | Gross system cost | ₹2,40,000 |
@@ -200,14 +214,40 @@ Use these tables to estimate your monthly commitment. All figures use 8% interes
 
 **10 kW On-Grid System**
 
+Table: EMI and net monthly benefit for a 10 kW on-grid system at 8% for 60 months
+
 | Component | Amount |
 | --- | --- |
 | Gross system cost | ₹4,50,000 |
 | Central subsidy (max - capped at 3 kW) | ₹78,000 |
 | Net loan amount | ₹3,72,000 |
-| EMI (8%, 60 months) | ₹7,548/month |
+| EMI (8%, 60 months) | ₹7,543/month |
 | Monthly electricity saving | ₹9,000–₹14,000 |
-| Net monthly benefit | ₹1,452–₹6,452 |
+| Net monthly benefit | ₹1,457–₹6,457 |
+
+```chart
+type: bar
+title: Monthly EMI against estimated monthly electricity saving, 8% for 60 months
+unit: "₹"
+source: "Calculated in this article: EMI at 8% for 60 months on the net loan amounts in the tables above; savings are this article's own estimates at ₹8 to ₹10 per unit"
+note: "EMI is on the post-subsidy loan amount. If the bank finances the full project cost first, the EMI is higher until the subsidy is applied."
+series:
+  - name: "EMI"
+    data:
+      - { label: "3 kW", value: 1459 }
+      - { label: "5 kW", value: 3285 }
+      - { label: "10 kW", value: 7543 }
+  - name: "Saving (low estimate)"
+    data:
+      - { label: "3 kW", value: 2800 }
+      - { label: "5 kW", value: 4800 }
+      - { label: "10 kW", value: 9000 }
+  - name: "Saving (high estimate)"
+    data:
+      - { label: "3 kW", value: 4200 }
+      - { label: "5 kW", value: 7000 }
+      - { label: "10 kW", value: 14000 }
+```
 
 Note that the PM Surya Ghar subsidy is capped at 3 kW regardless of system size, meaning larger systems benefit proportionally less from the subsidy on the per-kW basis. For 10 kW systems, the [payback period](/glossary/payback-period/) is typically 5–7 years even with the IREDA rate, because the subsidy contribution is smaller relative to system cost.
 
@@ -282,6 +322,8 @@ The broader solar investment math (including how to calculate 25-year returns) i
 ## Should You Take an IREDA Loan? A Decision Framework
 
 The right answer depends on your specific situation. This decision table covers the most common homeowner profiles:
+
+Table: Recommended loan route by homeowner profile
 
 | Profile | Recommended approach | Why |
 | --- | --- | --- |

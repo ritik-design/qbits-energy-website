@@ -45,7 +45,7 @@ relatedSlugs:
 
 Most reliability advice for inverters reduces to a brand score or a number of years. Neither tells you how a specific model behaves on a specific roof. What a model delivers over ten years depends on its design, but also on the installer, the grid it sits on, the local climate, upkeep and firmware, and on what the maker chooses to call a failure. We found no comparable, independently audited field data for the brands covered on this site, so this guide turns reliability into documents you can request and read.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Judge the exact model, never the brand. Every indicator below is something a supplier can put in writing.
 > - Ask for the bill of materials, accredited test reports, the end-of-line test procedure, the written warranty and the datasheet for the model you are buying.
 > - Ingress rating, temperature range, derating curve and surge protection come from the datasheet, not the brochure.
@@ -60,9 +60,11 @@ A failure rate has meaning only with a defined installed population, a definitio
 
 The direct cost of a stop is lost generation plus the repair. The formula is simple:
 
-**Cost of downtime (₹) = Days down x Daily energy (kWh) x Value of a kWh (₹) + Repair or replacement cost + Site visit**
+> [!FORMULA] Cost of downtime
+> Cost of downtime (₹) = Days down x Daily energy (kWh) x Value of a kWh (₹) + Repair or replacement cost + Site visit
 
-Illustrative example for a 100 kW commercial plant. At the Bengaluru reference yield of 1,578 kWh per kWp per year from the [state irradiance guide](/blog/solar-irradiance-data-india-statewise/), annual output is 100 x 1,578 = 157,800 kWh, or 157,800 / 365 = 432 kWh a day. Valued at ₹8 per kWh (an assumed tariff; use your own bill), a day of full downtime costs about 432 x 8 = ₹3,458. If the repair takes 14 days (also assumed), lost energy alone is 14 x 3,458 = ₹48,412, before parts and labour. The same arithmetic for a 5 kW home system is in the [failure action guide](/blog/solar-inverter-failure-action/). Run it with your own tariff and your supplier's written service terms.
+> [!EXAMPLE] Illustrative 100 kW commercial plant
+> At the Bengaluru reference yield of 1,578 kWh per kWp per year from the [state irradiance guide](/blog/solar-irradiance-data-india-statewise/), annual output is 100 x 1,578 = 157,800 kWh, or 157,800 / 365 = 432 kWh a day. Valued at ₹8 per kWh (an assumed tariff; use your own bill), a day of full downtime costs about 432 x 8 = ₹3,458. If the repair takes 14 days (also assumed), lost energy alone is 14 x 3,458 = ₹48,412, before parts and labour. The same arithmetic for a 5 kW home system is in the [failure action guide](/blog/solar-inverter-failure-action/). Run it with your own tariff and your supplier's written service terms.
 
 The point of the formula is to show where reliability evidence pays: the number of days down depends on the service route and spare availability, which are documents and processes you can ask about before purchase.
 
@@ -73,6 +75,8 @@ The point of the formula is to show where reliability evidence pays: the number 
 Ask for the bill of materials for the exact model: manufacturer and part number for the power semiconductors (IGBTs or MOSFETs), the electrolytic and film capacitors, relays and the controller. Ask for the capacitor temperature rating. Hot rooftops stress capacitors, so a higher-rated part has more thermal margin, but a named brand on its own proves nothing without the model and the part number. A catalogue page may list component brands; that is a statement of intent for the model it describes and should be matched to the datasheet revision you are buying.
 
 ### 2. Standards and test reports
+
+Table: Standards to ask for, and what each covers
 
 | Topic | Standard to ask for | What it covers |
 | --- | --- | --- |
@@ -130,6 +134,8 @@ Many early failures begin at installation. Ask the installer to record, in a com
 
 ## Evidence worth requesting
 
+Table: Reliability evidence to request, and the context needed to read it
+
 | Evidence | Context needed to read it |
 | --- | --- |
 | Failure rate | Population, models, installation dates, operating exposure and failure definition |
@@ -144,6 +150,8 @@ Without that context, a quoted failure rate, MTBF or response time is a marketin
 ## Present or absent: a supplier checklist
 
 For each shortlisted supplier and model, mark each line as received, partial or missing.
+
+Table: Present-or-absent document checklist for each shortlisted supplier
 
 | Item | Status to record |
 | --- | --- |
@@ -177,7 +185,10 @@ For a Qbits supplier evaluation, [request the evidence package](/contact-us/) fo
 
 ## When a fault happens after purchase
 
-Keep people away from the enclosure and do not open it: PV conductors stay live in daylight. Photograph the display, note the serial number and time, and call your installer or the service route named in your warranty. The [failure action guide](/blog/solar-inverter-failure-action/) gives the safe order of work, the diagnosis steps and what to record for a claim.
+> [!CAUTION] Do not open the enclosure
+> Keep people away from the enclosure and do not open it: PV conductors stay live in daylight.
+
+Photograph the display, note the serial number and time, and call your installer or the service route named in your warranty. The [failure action guide](/blog/solar-inverter-failure-action/) gives the safe order of work, the diagnosis steps and what to record for a claim.
 
 ## Closing
 

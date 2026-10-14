@@ -39,7 +39,16 @@ Two comparable products currently have exact-model manufacturer pages in India: 
 
 Qbits publishes this article and sells competing solar inverters. Qbits is not ranked because its current range starts at 1.5 kW. We did not laboratory-test either shortlisted product, inspect installations, collect failure data, or verify local prices, stock, service outcomes, warranty remedies, certificate validity, or DISCOM acceptance.
 
+> [!KEYTAKEAWAYS]
+> - Two exact-model 1 kW-class on-grid inverters have current manufacturer pages in India: Havells Enviro GTi 1.1KT-G3 and Microtek Solar Grid Tie 1KW-M11. Both publish 1,100 W rated output, not 1,000 W.
+> - Havells publishes higher input-current limits (13 A maximum MPPT current, 17.5 A short-circuit). Microtek publishes a 1,500 W maximum PV input and slightly higher efficiency (97.5% against 97.3%).
+> - Neither public source gives complete warranty terms or confirms that an exact-model certificate is current, so ask for both in writing.
+> - Both have one MPPT and one string, and both are on-grid: neither runs household loads in a power cut.
+> - Qbits is not ranked because its smallest model, QB-1.5KTLS, is 1,500 W.
+
 ## The shortlist in one table
+
+Table: Shortlisted 1 kW-class on-grid inverters, conditional best fit, documented advantage and important gap
 
 | Exact model | Conditional best fit | Documented advantage | Important gap |
 | --- | --- | --- | --- |
@@ -70,6 +79,8 @@ Hybrid inverters, solar PCUs, home UPS products, microinverters, dealer-only lis
 
 The values below come from the current [Havells Enviro GTi single-phase datasheet](https://havells.com/media/wysiwyg/solar/ENVIRO-GTI-1-1KW-4KW-SINGLE-PHASE.pdf) and [Microtek Solar Grid Tie 1KW-M11 product page](https://www.microtek.in/product/solar-solutions/grid-tied-solar-solutions/listing/solar-grid-tie-1kw-m11), reviewed on 26 September 2026. These are manufacturer declarations, not independent test results.
 
+Table: Published specification of Havells Enviro GTi 1.1KT-G3 and Microtek Solar Grid Tie 1KW-M11, reviewed 26 September 2026
+
 | Published field | Havells Enviro GTi 1.1KT-G3 | Microtek Solar Grid Tie 1KW-M11 |
 | --- | --- | --- |
 | Operating class | On-grid, single phase | On-grid, single phase |
@@ -94,6 +105,23 @@ The values below come from the current [Havells Enviro GTi single-phase datashee
 | Complete written warranty reviewed | No | No |
 | Current exact-model certificate file reviewed | No | No |
 
+```chart
+type: bar
+title: Published current limits, Havells against Microtek
+unit: "A"
+source: "Havells Enviro GTi single-phase datasheet and Microtek Solar Grid Tie 1KW-M11 product page, manufacturer declarations reviewed 26 September 2026"
+note: "Higher limits matter only after the installer applies the module datasheet and design safety factors."
+series:
+  - name: "Havells Enviro GTi 1.1KT-G3"
+    data:
+      - { label: "Maximum MPPT current", value: 13 }
+      - { label: "Maximum short-circuit current", value: 17.5 }
+  - name: "Microtek 1KW-M11"
+    data:
+      - { label: "Maximum MPPT current", value: 12 }
+      - { label: "Maximum short-circuit current", value: 15 }
+```
+
 Similar dimensions and electrical architecture do not mean common hardware, identical quality, or equal field performance. They only describe what the two manufacturers currently publish.
 
 ## When Havells is the stronger documented fit
@@ -114,7 +142,8 @@ Microtek's technical table publishes 97.5% maximum efficiency and 96.9% European
 
 The Microtek page also states optional zero export or adjustable export limiting and lists several communication routes. Confirm which logger, meter, current transformer, cables, software access, and commissioning work are included in the quoted package. An optional function is not an installed system.
 
-One source-quality warning is visible on the page. Its promotional copy says "Max 07.2% Efficiency," while the technical table states 97.5%. We use the model-specific technical table because the promotional line is visibly malformed. A buyer should still request the current signed datasheet and make the supplier confirm the applicable value in writing.
+> [!WARNING] Microtek's page contradicts itself on efficiency
+> Its promotional copy says "Max 07.2% Efficiency," while the technical table states 97.5%. We use the model-specific technical table because the promotional line is visibly malformed. Request the current signed datasheet and make the supplier confirm the applicable value in writing.
 
 ## What neither source tells you
 
@@ -138,6 +167,7 @@ Both inverters have one MPPT and one PV input or string. That keeps the architec
 
 Ask the installer to show these checks using the exact module datasheet:
 
+<!-- steps -->
 1. **Cold open-circuit voltage.** Temperature-corrected string Voc must remain below 500 V.
 2. **Operating voltage.** Expected string voltage should remain inside the useful operating window, including hot-weather effects.
 3. **Starting behaviour.** The planned string must reach the published 70 V start threshold under realistic conditions.
@@ -149,7 +179,8 @@ Our [solar inverter sizing guide](/blog/solar-inverter-sizing/) explains why the
 
 ## These on-grid inverters are not backup products
 
-Havells Enviro GTi 1.1KT-G3 and Microtek GTI 1KW-M11 are on-grid inverters. Do not assume either will run lights, fans, a refrigerator, or other household loads during a power cut.
+> [!IMPORTANT] No backup in a power cut
+> Havells Enviro GTi 1.1KT-G3 and Microtek GTI 1KW-M11 are on-grid inverters. Do not assume either will run lights, fans, a refrigerator, or other household loads during a power cut.
 
 An on-grid inverter normally stops energising the circuit when the utility supply is absent. If backup is required, start again with the outage loads, required runtime, surge demand, compatible hybrid inverter, battery voltage and usable capacity, transfer behaviour, and protected-load wiring. A [broader inverter comparison by use case](/blog/best-solar-inverter-india/) can help separate grid-export and backup requirements before choosing a model.
 
@@ -165,16 +196,17 @@ Those figures do not make 1.5 kW a harmless substitute for 1 kW-class equipment.
 
 Put the following requirements in the request sent to every supplier:
 
-- full model code, including suffix and hardware revision;
-- current manufacturer datasheet and installation manual;
-- module make, model, quantity, string layout, and temperature assumptions;
-- calculated Voc, operating voltage, operating current, and corrected Isc;
-- current certificate files whose scope includes the supplied model;
-- complete written warranty, exclusions, remedy, registration steps, and claim route;
-- itemised logger, meter, current transformer, export-control, protection, and connector scope;
-- installation, testing, commissioning, monitoring setup, and approval responsibilities;
-- itemised price, GST, freight, exclusions, and payment stages;
-- local service contact and escalation route in writing.
+> [!CHECKLIST] Request to every supplier
+> - full model code, including suffix and hardware revision;
+> - current manufacturer datasheet and installation manual;
+> - module make, model, quantity, string layout, and temperature assumptions;
+> - calculated Voc, operating voltage, operating current, and corrected Isc;
+> - current certificate files whose scope includes the supplied model;
+> - complete written warranty, exclusions, remedy, registration steps, and claim route;
+> - itemised logger, meter, current transformer, export-control, protection, and connector scope;
+> - installation, testing, commissioning, monitoring setup, and approval responsibilities;
+> - itemised price, GST, freight, exclusions, and payment stages;
+> - local service contact and escalation route in writing.
 
 ## Final recommendation
 

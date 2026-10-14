@@ -34,7 +34,7 @@ relatedSlugs:
 - net-meter-approval-timeline
 ---
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - Net metering offsets your own consumption first and exports only the surplus.
 > - Gross metering exports everything and bills your consumption separately at retail.
@@ -57,6 +57,8 @@ Identical hardware, identical generation, very different bills. The mechanism, n
 
 ## Core comparison
 
+Table: Net metering vs gross metering, question by question
+
 | Question | Net metering | Gross metering |
 | --- | --- | --- |
 | What does solar supply first? | Your own loads | The grid, in full |
@@ -68,9 +70,10 @@ Identical hardware, identical generation, very different bills. The mechanism, n
 
 ## Worked arithmetic
 
-Take a billing period with **500 kWh imported** and **200 kWh exported** under an approved net metering arrangement.
-
-Simple energy netting leaves **300 kWh net imported**. That is the starting point, before the approved tariff, fixed charges, any demand charge, time of use rules and the carry forward provision are applied. Whether the actual bill is settled exactly this way depends on your DISCOM's order.
+> [!EXAMPLE] Netting 500 kWh imported against 200 kWh exported
+> Take a billing period with **500 kWh imported** and **200 kWh exported** under an approved net metering arrangement.
+>
+> Simple energy netting leaves **300 kWh net imported**. That is the starting point, before the approved tariff, fixed charges, any demand charge, time of use rules and the carry forward provision are applied. Whether the actual bill is settled exactly this way depends on your DISCOM's order.
 
 Now consider the same building under gross metering. All generation is exported and credited at the determined rate. Consumption is billed in full at retail. The outcome depends entirely on the gap between those two rates, and where the export rate sits below retail, the gross arrangement returns less for the same generation.
 
@@ -91,6 +94,9 @@ Applicants focus on the rate and overlook what happens to unused credits, which 
 State orders differ. Some carry surplus credits forward within a settlement year. Some pay out unused credits at year end at a specified rate. Some allow them to lapse.
 
 If credits lapse, a system generating well above your annual consumption is producing units you will never be paid for. That makes the settlement rule a sizing input, not an administrative footnote. Confirm it before agreeing to a capacity above your own usage.
+
+> [!WARNING] Lapsing credits make oversizing a cost
+> If your state lets unused credits lapse, every unit generated above your annual consumption earns nothing. Get the settlement rule in writing before you accept a quote sized above your own usage.
 
 ## Reading your first bill under each arrangement
 

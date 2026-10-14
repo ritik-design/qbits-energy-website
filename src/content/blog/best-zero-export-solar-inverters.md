@@ -39,6 +39,13 @@ Among current public sources reviewed on 26 September 2026, **Microtek GTI 5KW-M
 
 Qbits publishes this article and sells competing on-grid inverters. Qbits is not ranked because its current public QB-5KTLS evidence does not establish export limiting or the required control hardware. We did not test any system, verify a local approval, or inspect the meter, CT, firmware, settings, field response, warranty, stock, price, or service outcome.
 
+> [!KEYTAKEAWAYS]
+> - The best zero-export setup is the exact inverter, meter or current transformer, controller, firmware, wiring and commissioned settings that satisfy the written connection condition, not a model with a "zero export" checkbox.
+> - Microtek GTI 5KW-M12 has the clearest India-facing exact-product claim, listing "Zero Export or Adjustable Power Limit Export (Optional)". Solis S5-GR3P5K-LV has the most complete public control documentation. Havells Enviro GTi 4KT-G3 states a feed-in limitation function at family level only.
+> - Qbits is not ranked: the public QB-5KTLS evidence does not establish export limiting, a compatible meter or CT, or fail-safe behaviour.
+> - Export limiting is not the same as zero export, and zero export does not create backup or replace DISCOM approval.
+> - Size the plant from time-aligned daytime load, and do not count curtailed energy as bill savings.
+
 ## What this comparison covers
 
 The [zero-export glossary](/glossary/zero-export/) explains the control concept and basic commissioning checks. The broader [best on-grid inverter guide](/blog/best-on-grid-solar-inverter-india-2026/) covers topology, MPPTs, voltage, and general export behaviour.
@@ -59,6 +66,8 @@ A product qualified only when:
 Dealer pages, marketplaces, search snippets, and unsupported claims about a brand's whole range were excluded. The three products are not ranked as electrical equivalents because their capacities and phases differ. The verdicts distinguish an India-facing product claim from a more detailed global control manual rather than forcing one universal winner.
 
 ## The evidence shortlist
+
+Table: Evidence shortlist of three exact products with published export-control wording
 
 | Exact product | Phase and rated output | Manufacturer's public wording | What that wording proves | What it does not prove |
 | --- | --- | --- | --- | --- |
@@ -91,7 +100,10 @@ The page links a July 2024 manual that explicitly covers S5-GR3P5K-LV and S5-GR3
 
 The manual allows the meter on the grid or load side for export control. It publishes an allowed-export setting from 00000 W to 29900 W and says grid-side or load-side meter modes default to 0 W backflow. It also documents an average three-phase mode and a per-phase mode based on the lowest-loaded phase.
 
-Fail-safe behaviour is selectable, not automatic proof of a compliant installation. With fail-safe on, loss of the CT or meter stops generation and raises an alarm. With it off, the inverter holds the last output and can return at full unlimited power after a restart. The quotation and commissioning record must therefore state the chosen mode and prove it matches the approved condition.
+Fail-safe behaviour is selectable, not automatic proof of a compliant installation.
+
+> [!WARNING] Fail-safe off can mean full unlimited export after a restart
+> With fail-safe on, loss of the CT or meter stops generation and raises an alarm. With it off, the inverter holds the last output and can return at full unlimited power after a restart. The quotation and commissioning record must therefore state the chosen mode and prove it matches the approved condition.
 
 This is stronger technical evidence than a feature label. It is still a global page with a European manual, not proof of current India stock, India-specific certificate scope, accessory inclusion, control accuracy, response time, or DISCOM acceptance.
 
@@ -125,6 +137,8 @@ If Qbits supplies the missing exact-model control documents, compare them with t
 
 The control loop needs to know what is happening at the agreed grid-connection point. A typical design therefore includes more than an inverter:
 
+Table: System elements around a zero-export inverter, evidence to request and commissioning question
+
 | System element | Evidence to request | Commissioning question |
 | --- | --- | --- |
 | Measurement point | Approved single-line diagram | Does the sensor see the full net flow between site and utility? |
@@ -157,14 +171,15 @@ The guidelines also address non-metered grid-connected systems that do not feed 
 
 Before selecting hardware, ask the serving DISCOM in writing:
 
-- whether export is permitted for this consumer category and address;
-- whether zero export or another cap is a connection condition;
-- where export is measured;
-- whether phase-wise or aggregate control applies;
-- which meter, CT, controller, and protection arrangement is accepted;
-- what response, tolerance, averaging, and failure behaviour are required;
-- what drawings, certificates, tests, seals, and settings records must be submitted;
-- whether the arrangement affects net metering, gross metering, or scheme eligibility.
+> [!CHECKLIST] Questions for the serving DISCOM, in writing
+> - whether export is permitted for this consumer category and address;
+> - whether zero export or another cap is a connection condition;
+> - where export is measured;
+> - whether phase-wise or aggregate control applies;
+> - which meter, CT, controller, and protection arrangement is accepted;
+> - what response, tolerance, averaging, and failure behaviour are required;
+> - what drawings, certificates, tests, seals, and settings records must be submitted;
+> - whether the arrangement affects net metering, gross metering, or scheme eligibility.
 
 Do not rely on a search snippet, an old circular, another consumer's approval, or a state-wide statement copied from a sales page. The written current project condition is the governing input.
 
@@ -189,6 +204,7 @@ Do not present curtailed energy as bill savings. It was available from the array
 
 The final procedure must come from the exact manufacturer documents and the approved connection condition. A practical evidence record should still identify:
 
+<!-- steps -->
 1. inverter, controller, meter or CT models, serial numbers, and firmware;
 2. approved single-line diagram and measurement boundary;
 3. CT orientation, ratio, and phase mapping;
@@ -206,18 +222,19 @@ Do not invent a universal response time or tolerance. Compare the observed resul
 
 Require every bidder to state:
 
-- exact inverter model, phase, rated output, hardware revision, and firmware;
-- exact manufacturer source proving zero export or the required export cap;
-- meter, CT, controller, logger, communication, and cable models;
-- included licences, apps, accounts, gateways, and ongoing access;
-- approved measurement boundary and single-line diagram;
-- phase-wise or aggregate control method;
-- setpoint range, resolution, accuracy, response, and fail-safe evidence;
-- design based on the site's time-aligned daytime load;
-- curtailment estimate and the assumptions behind it;
-- protection, testing, commissioning, settings backup, and handover scope;
-- current DISCOM and regulatory evidence for the address;
-- complete written warranty, service responsibility, price, and exclusions.
+> [!CHECKLIST] What every bidder must state
+> - exact inverter model, phase, rated output, hardware revision, and firmware;
+> - exact manufacturer source proving zero export or the required export cap;
+> - meter, CT, controller, logger, communication, and cable models;
+> - included licences, apps, accounts, gateways, and ongoing access;
+> - approved measurement boundary and single-line diagram;
+> - phase-wise or aggregate control method;
+> - setpoint range, resolution, accuracy, response, and fail-safe evidence;
+> - design based on the site's time-aligned daytime load;
+> - curtailment estimate and the assumptions behind it;
+> - protection, testing, commissioning, settings backup, and handover scope;
+> - current DISCOM and regulatory evidence for the address;
+> - complete written warranty, service responsibility, price, and exclusions.
 
 ## Final recommendation
 

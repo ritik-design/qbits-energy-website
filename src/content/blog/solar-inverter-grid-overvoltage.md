@@ -4,7 +4,7 @@ excerpt: "Understand a grid-overvoltage message, record safe evidence, and separ
 description: "Use safe grid-overvoltage checks for a solar inverter, then let qualified parties separate utility conditions, voltage rise and installation issues."
 category: "Maintenance"
 date: 2026-09-23
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/og/blog-solar-inverter-grid-overvoltage.webp"
 author: "Keyur Rakholiya"
@@ -30,7 +30,15 @@ featured: false
 
 **A solar inverter grid-overvoltage message means the exact model detected an AC-side voltage condition outside its configured operating or protection criteria.** It does not prove whether the source is the utility network, installation voltage rise, a wiring issue, measurement error or configuration. Save the event evidence and use qualified measurements before changing anything.
 
-Never raise grid-protection thresholds or select an unapproved country profile to prevent trips. That can conflict with the connection approval and safety requirements.
+> [!KEYTAKEAWAYS]
+> - A grid-overvoltage message means the exact model detected an AC-side voltage outside its configured criteria. It does not say whether the cause is the utility network, installation voltage rise, wiring, measurement or configuration.
+> - Owners can safely record the model, serial number, full message, timestamp, recurrence, displayed AC value and output state. They should not open covers or probe terminals.
+> - Never raise grid-protection thresholds or pick another country profile to stop trips. Those are approved protection settings, not tuning controls.
+> - A qualified installer should compare no-export and export conditions at defined measurement points before the event is blamed on the utility.
+> - Involve the DISCOM when qualified evidence points to the network, and keep complaint numbers, readings and the written resolution.
+
+> [!CAUTION] Do not widen grid settings
+> Never raise grid-protection thresholds or select an unapproved country profile to prevent trips. That can conflict with the connection approval and safety requirements.
 
 For a future purchase at a site with recurring voltage problems, use the [weak-grid inverter buying guide](/blog/best-solar-inverter-weak-grid/) to compare exact AC-side evidence. A wider published operating range is not permission to change the approved grid profile.
 
@@ -48,6 +56,8 @@ The event indicates what the inverter detected, not automatically why it happene
 
 Use this handoff table:
 
+Table: Evidence an owner can record safely before calling the installer
+
 | Record | Why it matters |
 | --- | --- |
 | Exact model and firmware if visible | Selects the correct manual and grid profile documentation |
@@ -59,7 +69,8 @@ Use this handoff table:
 | Recent wiring, meter or transformer work | Identifies a possible change point |
 | Neighbourhood symptoms | Supports, but does not prove, a network condition |
 
-Do not remove covers, probe terminals or enter a sealed meter area to obtain more data. If there is burning smell, visible damage, water entry or another immediate safety concern, follow the approved emergency route and keep clear.
+> [!WARNING] Stay out of live equipment
+> Do not remove covers, probe terminals or enter a sealed meter area to obtain more data. If there is burning smell, visible damage, water entry or another immediate safety concern, follow the approved emergency route and keep clear.
 
 ## What can cause voltage to be high at the inverter?
 
@@ -92,6 +103,7 @@ This is not an owner wiring check. Live boards and inverter terminals require qu
 
 A useful service record includes:
 
+<!-- steps -->
 1. Exact inverter, firmware and configured grid profile.
 2. Applicable manual and approved settings source.
 3. Event log with synchronized timestamps.

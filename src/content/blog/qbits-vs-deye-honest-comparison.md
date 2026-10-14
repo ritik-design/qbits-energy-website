@@ -4,7 +4,7 @@ excerpt: "Compare Qbits and Deye solar inverters with a model-level checklist fo
 description: "Compare Qbits and Deye solar inverters with a model-level checklist for electrical limits, battery support, monitoring, warranty and pricing."
 category: "Comparison"
 date: 2026-09-23
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "7 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -23,7 +23,15 @@ faqs:
 
 A defensible comparison of Qbits, Deye starts with exact model numbers. Brand-level scores hide differences between product families, firmware versions, accessories, warranty documents, sellers, and local service arrangements. This page does not declare a universal winner because the current official India documents for every compared SKU are not available in one place.
 
-> **Warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service deadline, labour coverage, transport responsibility, or exclusions. Obtain the current written terms for the exact model and sale. The same document standard should be applied to every competing brand.
+> [!KEYTAKEAWAYS]
+> - There is no universal winner. Compare exact SKUs, not brand names, because families, firmware, accessories and sellers differ.
+> - Hold every brand to the same document standard: get the current written warranty and service terms for the exact model and sale.
+> - MNRE's ALMM page lists solar PV modules and cells, not inverters. Verify inverter certificates and scheme or DISCOM requirements separately.
+> - Start the electrical check with the array: maximum string open-circuit voltage at the minimum design temperature, operating voltage inside the MPPT window, and current per MPPT.
+> - For hybrid equipment, get the exact battery model, nominal voltage, current limit and BMS protocol in writing. "Lithium compatible" alone does not guarantee interoperability.
+
+> [!IMPORTANT] Warranty and service terms
+> Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service deadline, labour coverage, transport responsibility, or exclusions. Obtain the current written terms for the exact model and sale. The same document standard should be applied to every competing brand.
 
 ## What can be verified for Qbits
 
@@ -32,6 +40,8 @@ The [Qbits datasheet library](/download-datasheets/) contains model-specific doc
 Qbits' public documents do not state a universal replacement remedy, a fixed response time, a universal WhatsApp or AI-monitoring feature, or a single grid-voltage window across the range. Request the current installation manual, certificate, battery compatibility statement where relevant, and written warranty for the exact SKU.
 
 ## What to collect for every brand
+
+Table: Documents to collect from every brand, what to check in each and why it matters
 
 | Document | What to check | Why it matters |
 | --- | --- | --- |

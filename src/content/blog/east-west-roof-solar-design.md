@@ -4,7 +4,7 @@ excerpt: "East-west solar design splits panels across two roof slopes for a flat
 description: "East-west solar design vs south-facing in India: generation curve differences, 5 to 15 percent yield loss math by pitch, dual-MPPT requirements, inverter sizing, and when east-west wins for homes with evening loads."
 category: "Technical"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-east-west-roof-solar-design.webp"
 author: "Keyur Rakholiya"
@@ -37,9 +37,8 @@ Most Indian solar advice starts and ends with one rule: face your panels south. 
 
 [East-west](https://www.surgepv.com/blog/east-west-vs-south-facing-solar-layouts) solar design is the practical answer. You split the array into two groups, one facing east and one facing west. In exchange for a small annual energy penalty, you get a generation curve that matches how Indian families actually use electricity. Done properly, the penalty is far smaller than most people fear. In some cases the [east-west](https://heavendesigns.in/glossary/east-west-layout/) system delivers more usable value per rupee than a compromised south-facing one.
 
-> **TL;DR**
-> - East-west arrays in India lose only 4 to 8 percent of annual yield at low tilts (5 to 10 degrees). At steep tilts (20 to 30 degrees), the loss is 10 to 15 percent versus ideal south-facing.
-> - Non-south orientations at optimised tilt typically lose just 5 to 10 percent of yield, according to Fraunhofer ISE (2021).
+> [!KEYTAKEAWAYS]
+> - East-west arrays in India lose only 4 to 8 percent of annual yield at low tilts (5 to 10 degrees). At steep tilts (20 to 30 degrees), the loss is 10 to 15 percent versus ideal south-facing. Non-south orientations at optimised tilt typically lose just 5 to 10 percent of yield, according to Fraunhofer ISE (2021).
 > - The combined output curve peaks at roughly 70 to 80 percent of nameplate capacity. You can therefore oversize DC by 1.25 to 1.4 times on the same inverter with minimal clipping.
 > - A dual-MPPT inverter is mandatory: wiring both orientations into one MPPT wastes 8 to 15 percent of generation.
 > - East-west suits homes with heavy morning and evening consumption and gabled roofs with no south slope. On flat roofs, tighter row spacing fits 20 to 30 percent more capacity.
@@ -86,6 +85,8 @@ Season also reshapes the comparison. In winter, when the sun tracks lower in the
 
 Here is a labelled hypothetical to make the numbers concrete. Assume a 5 kWp system on a gabled tile roof in Kochi. Roof pitch is 18 degrees, tariff is ₹7.50 per unit, and the family consumes 60 percent of its electricity after 4 pm.
 
+Table: Hypothetical 5 kWp Kochi roof: south-facing on a terrace vs east-west on existing slopes
+
 | Metric | South-facing (ideal, on flat terrace) | East-west (on existing slopes) |
 | --- | --- | --- |
 | Installed capacity possible | 3.5 kWp (terrace space limit) | 5 kWp (both roof slopes) |
@@ -96,11 +97,25 @@ Here is a labelled hypothetical to make the numbers concrete. Assume a 5 kWp sys
 
 The south-facing option wins on paper per panel, yet delivers about 1,600 fewer units per year because the roof simply cannot host the full system. At ₹7.50 per unit, that is roughly ₹12,000 of annual savings left on the table. This is the comparison that matters, and it is the one generic orientation advice ignores.
 
+```chart
+type: bar
+title: Annual generation in the hypothetical Kochi example, units (kWh)
+unit: "kWh"
+source: "Hypothetical worked example in this article (3.5 kWp south-facing on a terrace vs 5 kWp east-west at about 92 percent relative yield per kWp); assumed inputs, not measured data"
+note: "The east-west system generates more only because the roof can host the full 5 kWp."
+decimals: 0
+data:
+  - { label: "South-facing, 3.5 kWp", value: 5100 }
+  - { label: "East-west, 5 kWp", value: 6700 }
+```
+
 ## The Yield Loss Math: 5 to 15 Percent, Depending on Pitch
 
 This is the question every homeowner asks first, and the honest answer is a range, not a single number.
 
 The annual energy penalty of an east-west layout versus an ideal south-facing array depends overwhelmingly on tilt. The steeper the tilt, the larger the penalty, because steep tilts maximise the angular difference between the panel plane and the sun's midday position.
+
+Table: East-west annual yield as a share of south-facing yield, by tilt angle (India, approximate)
 
 | Tilt angle | East-west annual yield vs south (India, approx.) | Typical use |
 | --- | --- | --- |
@@ -118,7 +133,8 @@ Three factors shrink the penalty further in India:
 2. **Low structural tilts.** Indian flat-roof systems commonly use 10 to 15 degree structures to save cost and wind load. That is exactly the range where east-west losses are smallest.
 3. **High diffuse fraction.** Hazy and monsoon months raise the share of diffuse radiation, which hits all orientations more evenly than direct beam.
 
-> **What most homeowners get wrong:** they compare east-west yield against a theoretical south system their roof cannot actually host. A 5 kWp east-west system at 92 percent relative yield beats a 3.5 kWp south system at 100 percent. Simple math: 4.6 effective kWp is still more than 3.5.
+> [!IMPORTANT] What most homeowners get wrong
+> They compare east-west yield against a theoretical south system their roof cannot actually host. A 5 kWp east-west system at 92 percent relative yield beats a 3.5 kWp south system at 100 percent. Simple math: 4.6 effective kWp is still more than 3.5.
 
 ## When East-West Beats South-Facing
 
@@ -140,6 +156,9 @@ An east-west layout fails without one specific piece of hardware: an inverter wi
 
 Here is why. East-facing and west-facing strings produce different voltages and currents at any given moment, because they see different irradiance. A single MPPT forces all connected panels onto one shared operating point, which is a compromise that suits neither string. The measured penalty for paralleling mismatched orientations on one tracker is 8 to 15 percent of lost generation, on top of the orientation loss itself.
 
+> [!WARNING] Never put east and west strings on one tracker
+> Wiring both orientations into a single MPPT costs 8 to 15 percent of generation on top of the orientation loss. Give each orientation its own MPPT input and string.
+
 The fix is simple and standard:
 
 - Wire all east-facing panels as one string (or parallel strings) into MPPT input 1.
@@ -156,6 +175,9 @@ Because the two panel groups peak at different times, the combined DC peak is ro
 
 - A 5 kW inverter can comfortably carry 6 to 7 kWp of east-west panels.
 - The DC-to-AC ratio can run 1.25 to 1.4, versus the 1.1 to 1.2 typical for south-facing systems, with negligible [clipping loss](/blog/inverter-clipping-explained/).
+
+> [!TIP] Oversize an east-west array more than a south one
+> Because the two groups peak at different times, a 5 kW inverter can carry 6 to 7 kWp of east-west panels. Check the per-MPPT current limit before you add the extra panels.
 - The inverter spends more hours per day near its efficient operating zone instead of idling at low load in the morning and evening.
 
 The economics are attractive. [DC oversizing](/blog/dc-oversizing-in-solar/) lets you extract more daily energy from the same inverter, which is the single most expensive component to upsize. On an east-west system, adding two extra panels costs perhaps ₹20,000 to ₹26,000. That lifts annual generation by 8 to 10 percent. A south-facing system at the same ratio would start clipping away the noon peak.

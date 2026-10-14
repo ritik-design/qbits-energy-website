@@ -35,7 +35,7 @@ faqs:
 
 The words still carry useful information when the publisher, list, quarter, legal manufacturer, and methodology are clear. Without those fields, `Tier 1 inverter` is only an unsupported label.
 
-> **Procurement answer**
+> [!KEYTAKEAWAYS] Procurement answer
 > - Identify who issued the Tier 1 claim and which equipment list it covers.
 > - Verify the quarter because manufacturer status can change.
 > - Keep the ranking at manufacturer level. Do not apply it automatically to every model.
@@ -48,11 +48,12 @@ The phrase has no useful procurement meaning until the bidder names its source. 
 
 Ask for these five fields:
 
-1. **Publisher:** Who owns the classification?
-2. **List:** Does it cover power inverters, solar modules, storage systems, or something else?
-3. **Period:** Which quarter and year apply?
-4. **Entity:** Which legal manufacturer or brand name appears?
-5. **Evidence:** Can an authorised subscriber check the status against the publisher's current list rather than a sales slide?
+> [!CHECKLIST] Five fields to get from the bidder
+> - **Publisher:** Who owns the classification?
+> - **List:** Does it cover power inverters, solar modules, storage systems, or something else?
+> - **Period:** Which quarter and year apply?
+> - **Entity:** Which legal manufacturer or brand name appears?
+> - **Evidence:** Can an authorised subscriber check the status against the publisher's current list rather than a sales slide?
 
 This catches a common substitution. A bidder may show a module maker's Tier 1 status while offering an inverter from the same group. That module record says nothing about the inverter maker or exact inverter model.
 
@@ -66,6 +67,8 @@ Under that methodology, a qualifying maker supplies own-brand, own-manufactured 
 
 Those thresholds are methodology inputs, not product test results. BNEF reviews the classification quarterly and publishes only a Tier 1 list. It does not publish Tier 2 or Tier 3 inverter lists.
 
+Table: What each BNEF power inverter input lets an EPC infer, and what it does not
+
 | BNEF input | What an EPC may reasonably infer | What the EPC cannot infer |
 | --- | --- | --- |
 | Use in qualifying financed projects | The maker has recent acceptance in projects meeting the methodology | Every inverter model was reviewed or accepted |
@@ -75,11 +78,14 @@ Those thresholds are methodology inputs, not product test results. BNEF reviews 
 | Quarterly classification | Status belongs to a defined period | An old badge proves current inclusion |
 | Manufacturer-level list | The named maker meets the classification | Reliability, safety, performance, service, or legal compliance |
 
-The India caveat is especially important. The methodology says extra evidence is needed to establish non-recourse financing for projects in India and several other markets. It explains that non-recourse finance is not the norm in those markets, so a bank may not always require full inverter technical due diligence. That makes the label useful for context, but unsafe as a shortcut for product qualification.
+> [!WARNING] In India the label is context, not qualification
+> The India caveat is especially important. The methodology says extra evidence is needed to establish non-recourse financing for projects in India and several other markets. It explains that non-recourse finance is not the norm in those markets, so a bank may not always require full inverter technical due diligence. That makes the label useful for context, but unsafe as a shortcut for product qualification.
 
 ## Bankability, certification, and approval answer different questions
 
 Procurement teams often place unlike evidence in one `certification` folder. Keep each evidence class separate.
+
+Table: Evidence types in an inverter procurement file, the question each answers and its correct scope
 
 | Evidence type | The question it answers | Correct scope |
 | --- | --- | --- |
@@ -98,7 +104,8 @@ The same separation applies to project finance. A lender may use brand acceptanc
 
 ## Do not use Tier 1 as a reliability score
 
-BNEF's inverter methodology is unusually direct on this point. It says purchasers should not use the list as a measure of quality and that the classification does not directly account for product quality or manufacturer financial strength.
+> [!IMPORTANT] BNEF itself says not to read the list as quality
+> BNEF's inverter methodology is unusually direct on this point. It says purchasers should not use the list as a measure of quality and that the classification does not directly account for product quality or manufacturer financial strength.
 
 An EPC still needs evidence for the risks it will carry after commissioning:
 
@@ -120,6 +127,7 @@ Do not build a tender schedule from a screenshot, search snippet, forwarded spre
 
 Use this review sequence instead:
 
+<!-- steps -->
 1. Ask the bidder to name the publisher and the Power Inverter Makers list.
 2. Record the claimed quarter and the exact legal manufacturer name.
 3. Request evidence that an authorised subscriber can check against the current BNEF list; a timestamped badge may help where applicable.

@@ -4,7 +4,7 @@ excerpt: "A document-first Qbits vs UTL inverter comparison covering product typ
 description: "A document-first Qbits vs UTL inverter comparison covering product type, electrical fit, warranty terms, service route and installed quote."
 category: "Comparison"
 date: 2026-09-23
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "7 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -23,7 +23,15 @@ faqs:
 
 A defensible comparison of Qbits, UTL starts with exact model numbers. Brand-level scores hide differences between product families, firmware versions, accessories, warranty documents, sellers, and local service arrangements. This page does not declare a universal winner because the current official India documents for every compared model are not available in one place.
 
-> **Warranty and service terms:** Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline, service deadline, labour coverage, transport responsibility, or exclusions. Get the current written terms for the exact model and sale. Hold every competing brand to the same standard.
+> [!KEYTAKEAWAYS]
+> - Compare exact model numbers, not brands: brand-level scores hide differences between families, firmware versions, accessories, warranty documents, sellers and local service.
+> - Qbits' public datasheets do not define the base warranty term, remedy, registration deadline, service deadline, labour coverage, transport responsibility or exclusions, and every competing brand should be held to the same standard.
+> - Start the electrical comparison with the array: maximum string open-circuit voltage at the site's minimum design temperature, the MPPT window, current per MPPT and AC phase and capacity.
+> - MNRE's ALMM page lists solar PV modules and cells, not inverters, so verify inverter certificates and scheme or DISCOM requirements separately.
+> - If a seller cannot supply a controlling document for a load-bearing promise, leave that item unscored.
+
+> [!IMPORTANT] Warranty and service terms
+> Qbits' public datasheets describe an expandable warranty but do not define the base term, remedy, registration deadline, service deadline, labour coverage, transport responsibility, or exclusions. Get the current written terms for the exact model and sale. Hold every competing brand to the same standard.
 
 ## What can be verified for Qbits
 
@@ -32,6 +40,8 @@ The [Qbits datasheet library](/download-datasheets/) contains model-specific doc
 Qbits' public documents do not state a universal replacement remedy, a fixed response time, a WhatsApp or AI-monitoring feature that applies to every model, or a single grid-voltage window across the range. Request the current installation manual, certificate, battery compatibility statement where relevant, and written warranty for the exact SKU.
 
 ## What to collect for every brand
+
+Table: Documents to collect for every brand before comparing, with what to check and why
 
 | Document | What to check | Why it matters |
 | --- | --- | --- |

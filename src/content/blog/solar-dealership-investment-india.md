@@ -35,11 +35,20 @@ faqs:
 
 The current public Qbits partner page does not publish a minimum dealer investment. It asks applicants about working capital, loans, cash-credit limits, other capital, and infrastructure. Those questions are inputs for review, not a published price or approval threshold.
 
+> [!KEYTAKEAWAYS]
+> - There is no universal minimum investment. The correct number is the highest cash shortfall in your own launch plan.
+> - The current public Qbits partner page does not publish a minimum dealer investment. It asks about working capital, loans, cash-credit limits, other capital and infrastructure.
+> - Published competitor amounts describe different things: Loom Solar lists a ₹5,000 registration product plus ₹25,000 to ₹1,00,000 of demo product, while APN Solar lists tiers from ₹50,000 to ₹4 Lakh and above. None can fill the blank in a Qbits proposal.
+> - Required launch cash = programme commitments + setup cash + opening stock cash + peak operating cash gap + contingency.
+> - Do not count requested finance as available cash, and test a planned case, a slow-sales case and an exit case.
+
 ## What do current solar programmes actually publish?
 
 Published amounts cannot be compared until you identify what each number buys. A registration payment, a demo purchase, opening stock, and total working capital are four different things.
 
 The table below uses only current pages published by the named companies. It does not turn their terms into an industry average or a Qbits estimate.
+
+Table: Amounts published by named solar dealer and distributor programmes, checked 26 September 2026
 
 | Named programme | Amount shown on the official page | What the page ties it to | What it does not establish |
 | --- | ---: | --- | --- |
@@ -56,9 +65,12 @@ These examples expose the central problem with search results about dealership c
 
 Build the budget from cash movements. Use this structure:
 
-> **Required launch cash = programme commitments + setup cash + opening stock cash + peak operating cash gap + contingency**
+> [!FORMULA] Required launch cash
+> Required launch cash = programme commitments + setup cash + opening stock cash + peak operating cash gap + contingency
 
 Each term needs a written source.
+
+Table: Launch budget blocks, what to include and what evidence to use
 
 | Budget block | Include | Evidence to use |
 | --- | --- | --- |
@@ -78,6 +90,7 @@ After the launch budget is set, use the [working-capital and stock-finance guide
 
 A dealership can appear affordable on opening day and still run out of cash during replenishment. Put each expected movement on a timeline.
 
+<!-- steps -->
 1. Enter only cash that is available on the calculation date.
 2. Add each payment on its contractual due date.
 3. Add customer collections on a conservative expected date, not the invoice date.
@@ -87,6 +100,8 @@ A dealership can appear affordable on opening day and still run out of cash duri
 7. Add the contingency approved by the business owner and accountant.
 
 Use this blank worksheet:
+
+Table: Blank cash-flow worksheet for a dealership launch
 
 | Cash-flow item | Amount | Payment or receipt date | Written source | Recoverable? | What could delay it? |
 | --- | ---: | --- | --- | --- | --- |
@@ -131,16 +146,17 @@ The [field-by-field Qbits partner application guide](/blog/qbits-partner-applica
 
 If the application progresses, request a dated written answer for every cash commitment:
 
-- Is there a registration, onboarding, training, demo, or security payment?
-- Which payment is refundable, under what conditions, and by what process?
-- Is opening stock compulsory? Which models, quantities, and delivery dates apply?
-- Are taxes, freight, transit damage, unloading, and insurance included?
-- Is any supplier credit approved? What are its limit, security, due date, and suspension rules?
-- Who owns demo units and slow-moving stock?
-- What happens when a model changes or the relationship ends?
-- Which tools, spares, software accounts, signage, and premises are compulsory?
-- Which service, return, and warranty logistics costs fall to the dealer?
-- What happens to payments if the application is declined or onboarding does not finish?
+> [!CHECKLIST] Questions to put in writing
+> - Is there a registration, onboarding, training, demo, or security payment?
+> - Which payment is refundable, under what conditions, and by what process?
+> - Is opening stock compulsory? Which models, quantities, and delivery dates apply?
+> - Are taxes, freight, transit damage, unloading, and insurance included?
+> - Is any supplier credit approved? What are its limit, security, due date, and suspension rules?
+> - Who owns demo units and slow-moving stock?
+> - What happens when a model changes or the relationship ends?
+> - Which tools, spares, software accounts, signage, and premises are compulsory?
+> - Which service, return, and warranty logistics costs fall to the dealer?
+> - What happens to payments if the application is declined or onboarding does not finish?
 
 Carry the answers into the [solar dealer agreement checklist](/blog/solar-dealer-agreement-checklist/). A verbal estimate should remain an estimate until the authorised proposal, schedules, invoices, and refund terms agree.
 
@@ -148,7 +164,8 @@ Carry the answers into the [solar dealer agreement checklist](/blog/solar-dealer
 
 Run at least three cases: the planned case, slower sales with delayed collections, and an exit case with unsold stock. The decision is viable only if the business can fund the downside without relying on an unpublished margin, an unapproved credit line, or a stock-return right that is not written.
 
-Qbits does not publish a dealer investment, margin, earnings, credit, territory, or sales promise. Do not enter a competitor's number into the Qbits form. Report your actual current position, then calculate any proposed commitment after you receive the relevant written terms.
+> [!IMPORTANT] Never enter a competitor's number
+> Qbits does not publish a dealer investment, margin, earnings, credit, territory, or sales promise. Do not enter a competitor's number into the Qbits form. Report your actual current position, then calculate any proposed commitment after you receive the relevant written terms.
 
 When your records and role are ready, complete the [official Qbits partner application](/become-our-partner/) and select `Dealer`. Treat submission as the start of review, not permission to spend or represent the business as an authorised Qbits dealer.
 

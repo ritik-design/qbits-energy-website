@@ -4,7 +4,7 @@ excerpt: "Solar vs FD investment in India: solar delivers IRR of 18–22% vs FD'
 description: "Solar vs FD in India: solar delivers 18–22% IRR versus FD's 7.5%, but FD is liquid and solar is not. The full financial model and decision guide."
 category: Guide
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-solar-investment-vs-fd-india.webp"
 author: "Akash Hirapara"
@@ -45,11 +45,10 @@ This guide does the maths honestly. Solar wins on return. FD wins on liquidity. 
 
 The comparison is not purely about rate of return. Solar is illiquid, maintenance-dependent, location-specific, and irreversible in the short run. FDs are liquid, zero-maintenance, portable, and breakable in 24 hours. Understanding both sides honestly leads to a better decision than simply chasing the higher number.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A 3 kW solar system delivers an IRR of roughly 18–22% versus an FD's 7.5% pre-tax (about 5.25% post-tax in the 30% bracket).
 > - Post-subsidy net capex of ₹1,02,000 (after the ₹78,000 PM Surya Ghar subsidy) brings simple payback to 3.5–5 years on a 25-year asset.
-> - Solar savings are not taxed as income; FD interest is fully taxable, widening the effective return gap further.
-> - Rising electricity tariffs (5–7% annually) push solar's effective return up over time; FD returns are fixed at the contracted rate.
+> - Solar savings are not taxed as income; FD interest is fully taxable, widening the effective return gap further. Rising electricity tariffs (5–7% annually) push solar's effective return up over time; FD returns are fixed at the contracted rate.
 > - FD wins on liquidity, breakable in 24–48 hours versus solar's 5+ year illiquid horizon, and carries DICGC insurance up to ₹5 Lakh.
 > - A hybrid approach, part solar and part FD, balances higher returns with emergency liquidity for households that need both.
 
@@ -58,6 +57,8 @@ The comparison is not purely about rate of return. Solar is illiquid, maintenanc
 Fix the amount at ₹3,00,000, a round number representing either a meaningful FD or a post-subsidy solar investment for a 3–5 kW rooftop system. Both scenarios start with the same cash outgo on Day 1.
 
 ### Fixed Deposit Scenario
+
+Table: Fixed deposit scenario, ₹3,00,000 at 7.5%
 
 | Parameter | Value |
 | --- | --- |
@@ -68,11 +69,16 @@ Fix the amount at ₹3,00,000, a round number representing either a meaningful F
 | Tax rate (30% bracket) | ₹22,500 × 30% = ₹6,750 tax/year |
 | Post-tax annual income | ₹15,750 |
 | Total post-tax income over 25 years | ₹3,93,750 (simple basis) |
-| Compounded FV at 7.5% (pre-tax, 25 yr) | ₹18,06,000 |
+| Compounded FV at 7.5% (pre-tax, 25 yr) | ₹18,29,500 |
+
+> [!FORMULA] Post-tax FD return
+> Post-tax return = FD rate × (1 − tax rate) = 7.5% × (1 − 0.30) = 5.25%
 
 The FD's headline 7.5% becomes roughly 5.25% post-tax in the highest bracket. For senior citizens with a 5% FD rate and lower income tax, the effective return is even lower.
 
 ### Solar Investment Scenario (3 kW System)
+
+Table: Solar scenario, 3 kW system with PM Surya Ghar subsidy
 
 | Parameter | Value |
 | --- | --- |
@@ -86,6 +92,21 @@ The FD's headline 7.5% becomes roughly 5.25% post-tax in the highest bracket. Fo
 | Simple payback | ~2.3–3.5 years (on net capex) |
 | IRR over 25 years (₹8/unit) | ~22% |
 | IRR over 25 years (₹6/unit) | ~16% |
+
+```chart
+type: hbar
+title: "Annual income or savings, FD interest versus a 3 kW solar system"
+unit: "₹"
+source: "Calculated in this article: FD interest at 7.5% on ₹3,00,000 (post-tax at the 30% bracket); solar savings as 3 kW x 5 PSH x 365 = 5,475 kWh multiplied by the tariff"
+note: "Solar savings arise on ₹1,02,000 net capex after the ₹78,000 subsidy; FD income arises on ₹3,00,000 principal."
+decimals: 0
+data:
+  - { label: "FD interest, post-tax (30% bracket)", value: 15750 }
+  - { label: "FD interest, pre-tax", value: 22500 }
+  - { label: "Solar savings at ₹6/unit", value: 32850 }
+  - { label: "Solar savings at ₹8/unit", value: 43800 }
+  - { label: "Solar savings at ₹10/unit", value: 54750 }
+```
 
 Note: The [IRR](/glossary/irr/) calculation uses net capex of ₹1,02,000 (post-subsidy) against 25 years of annual electricity savings. Even at conservative ₹6/unit savings, solar beats FD's 7.5% headline rate. Running the numbers on your own roof size and tariff is easier with a dedicated [solar financial modeling tool](https://surgepv.com/generation-financial-tool/) rather than a spreadsheet built from scratch.
 
@@ -126,6 +147,8 @@ Honest comparison requires equal weight to the FD's genuine advantages:
 - **Guaranteed return**: FD return is contractually guaranteed and insured under DICGC up to ₹5 Lakh per bank. Solar return depends on irradiance, inverter uptime, tariff policy, and DISCOM net metering cooperation.
 - **No counterparty risk**: FD does not depend on a solar vendor's quality or post-installation service quality.
 
+Table: Solar and fixed deposit compared on return, liquidity and risk
+
 | | Solar | Fixed Deposit |
 | --- | --- | --- |
 | **IRR (indicative)** | 18–22% (₹8/unit) | 7.5% (pre-tax) |
@@ -142,15 +165,18 @@ Honest comparison requires equal weight to the FD's genuine advantages:
 
 Solar is not the automatic winner in every scenario. FD is a better choice when:
 
-- **You rent your home** and cannot install rooftop solar without landlord permission. (See the [solar for rented homes](/blog/solar-for-rented-homes-tenants-india/) guide for limited options.)
-- **Your electricity bill is below ₹2,000/month**: the system is undersized relative to consumption and the IRR drops toward FD levels.
-- **You have less than 12 months of emergency reserves**: deploying funds in an illiquid solar investment before building liquidity is financially imprudent.
-- **You are likely to move in the next 3 years**: payback has not yet occurred, and recovering the solar investment via property premium at resale is uncertain.
-- **Your DISCOM has very poor net metering compliance**: if export credits are not honoured, solar savings are limited to self-consumption only.
+> [!WARNING] FD is the better choice if any of these apply
+> - **You rent your home** and cannot install rooftop solar without landlord permission. (See the [solar for rented homes](/blog/solar-for-rented-homes-tenants-india/) guide for limited options.)
+> - **Your electricity bill is below ₹2,000/month**: the system is undersized relative to consumption and the IRR drops toward FD levels.
+> - **You have less than 12 months of emergency reserves**: deploying funds in an illiquid solar investment before building liquidity is financially imprudent.
+> - **You are likely to move in the next 3 years**: payback has not yet occurred, and recovering the solar investment via property premium at resale is uncertain.
+> - **Your DISCOM has very poor net metering compliance**: if export credits are not honoured, solar savings are limited to self-consumption only.
 
 ## How PM Surya Ghar Subsidy Changes the Maths
 
 The PM Surya Ghar subsidy restructures the IRR calculation significantly. Without subsidy, the IRR on a ₹1,80,000 gross system at ₹8/unit is approximately 17%. With the ₹78,000 subsidy reducing effective capex to ₹1,02,000, the IRR jumps to 22%+.
+
+Table: IRR of a 3 kW system with and without the PM Surya Ghar subsidy, as modelled in this article
 
 | Scenario | Net Capex | Annual Savings | IRR |
 | --- | --- | --- | --- |

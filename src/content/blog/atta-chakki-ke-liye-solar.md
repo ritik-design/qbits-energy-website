@@ -4,7 +4,7 @@ excerpt: "Atta chakki ke liye solar: motor HP se system sizing, starting current
 description: "Flour mill ya atta chakki ke liye solar system kaise size karein? Motor HP to kW conversion, starting surge, on-grid vs hybrid, cost aur payback, sab kuch 2026 ke realistic numbers ke saath।"
 category: "Guide"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-atta-chakki-ke-liye-solar.webp"
 author: "Nirav Dhanani"
@@ -39,9 +39,8 @@ language: hi
 
 गाँव और कस्बे की atta chakki solar के लिए शायद सबसे अच्छे candidates में से एक है, और बात सबसे कम इसी पर होती है। Chakki का पूरा load दिन में होता है, ठीक उन्हीं घंटों में जब panels सबसे ज़्यादा बना रहे होते हैं। बनी हुई बिजली लगभग पूरी वहीं खप जाती है, export बहुत कम होता है, और [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) के rate की झंझट भी घट जाती है। लेकिन एक technical बात है जिस पर ज़्यादातर local vendor ध्यान नहीं देते और वही systems को fail कराती है, chakki motor का starting current। यह guide उसी पर सबसे ज़्यादा समय देती है, साथ में sizing, कीमत, payback, और यह साफ़ बात कि commercial connection पर कौन सी subsidy मिलती है और कौन सी नहीं।
 
-> **TL;DR**
-> - Chakki का daytime load generation curve से match करता है, इसलिए self-consumption 80 percent से ऊपर जा सकती है।
-> - 1 HP लगभग 0.746 kW, तो 10 HP motor के लिए आमतौर पर 10 से 12 kW का system बैठता है।
+> [!KEYTAKEAWAYS]
+> - Chakki का daytime load generation curve से match करता है, इसलिए self-consumption 80 percent से ऊपर जा सकती है। 1 HP लगभग 0.746 kW, तो 10 HP motor के लिए आमतौर पर 10 से 12 kW का system बैठता है।
 > - सबसे बड़ी गलती starting current ignore करना है; DOL start पर surge कई गुना होता है, इसलिए soft starter, VFD या inverter headroom ज़रूरी है।
 > - [PM Surya Ghar](/glossary/pm-surya-ghar/) residential scheme है; commercial chakki connection आमतौर पर eligible नहीं, इसलिए ₹78,000 का वादा मत मानिए।
 > - Commercial tariff ₹8 से ₹10 प्रति unit पर payback 3.5 से 5 साल, diesel genset replace करने पर 2.5 से 3.5 साल।
@@ -79,7 +78,10 @@ Solution तीन में से कोई एक या इनका मि�
 2. **VFD (variable frequency drive)।** Surge और कम करता है और speed control भी देता है। Cost ज़्यादा है, पर grinding पर control चाहिए तो फ़ायदेमंद।
 3. **Inverter headroom।** Backup पर चलाना है तो inverter को motor की running rating से काफ़ी ऊपर size कीजिए।
 
-अब एक ईमानदार बात। इंटरनेट पर "6 गुना current" या "3 गुना inverter लो" जैसे universal numbers मिलेंगे, इन पर design मत कीजिए। Actual starting current motor के design, उसकी उम्र, starter type, load inertia और cable length पर depend करता है, और एक ही 10 HP rating के दो motors अलग surge दे सकते हैं। सही तरीका clamp meter से actual starting current नापना है। इसीलिए हम motor load के लिए हमेशा site survey पर ज़ोर देते हैं।
+> [!TIP] Starting current clamp meter से नापिए
+> इंटरनेट पर "6 गुना current" या "3 गुना inverter लो" जैसे universal numbers मिलेंगे, इन पर design मत कीजिए। Actual starting current motor के design, उसकी उम्र, starter type, load inertia और cable length पर depend करता है, और एक ही 10 HP rating के दो motors अलग surge दे सकते हैं।
+
+अब एक ईमानदार बात। सही तरीका clamp meter से actual starting current नापना है। इसीलिए हम motor load के लिए हमेशा site survey पर ज़ोर देते हैं।
 
 <div class="inline-cta">
 <h3>Apni Chakki ka Motor Load Humein Batayein</h3>
@@ -90,9 +92,14 @@ Solution तीन में से कोई एक या इनका मि�
 
 ## HP se kW: Sizing ki Buniyaad
 
+> [!FORMULA]
+> Shaft kW = Motor HP × 0.746
+
 Conversion सीधा है। **1 HP लगभग 0.746 kW** होता है। लेकिन यह motor की shaft output है, input नहीं। Motor खुद losses लेता है, इसलिए grid से खींची गई power इससे कुछ ज़्यादा होती है। दूसरी तरफ़ chakki कभी full load पर लगातार नहीं चलती, बीच में हल्का load और stop भी होता है, इसलिए actual average draw rated input से कम रहता है।
 
 नीचे की table इन सब को मिलाकर practical starting point देती है। Final number हमेशा पिछले 12 महीने के bijli bill के units से cross check होना चाहिए।
+
+Table: Motor HP ke hisaab se approx shaft kW, daily run, suggested PV size aur Qbits inverter
 
 | Motor rating | Approx shaft kW | Typical daily run | Suggested PV size | Suggested Qbits inverter |
 | --- | --- | --- | --- | --- |
@@ -113,7 +120,7 @@ Conversion सीधा है। **1 HP लगभग 0.746 kW** होता �
 
 **Sanctioned load।** ज़्यादातर states में solar capacity sanctioned load या contract demand से जुड़ी होती है। Sanctioned load 10 kW है और 18 kW लगाना है, तो पहले load enhancement की application दीजिए, वरना net meter approval अटकेगा।
 
-**Phase failure protection।** Rural feeders पर single phasing आम है और यही motor जलाने की सबसे बड़ी वजह है। Solar इससे नहीं बचाता, अलग से phase failure relay लगवाइए। गाँव के feeder पर voltage दिन भर ऊपर नीचे होता है, इसीलिए हमारे inverters India के grid के हिसाब से tuned firmware पर चलते हैं।
+**Phase failure protection।** Rural feeders पर single phasing आम है और यही motor जलाने की सबसे बड़ी वजह है। Solar इससे नहीं बचाता, अलग से phase failure relay लगवाइए। गाँव के feeder पर voltage दिन भर ऊपर नीचे होता है, इसीलिए inverter की AC voltage window और grid settings exact model की datasheet से देखिए और DISCOM की requirement से मिलाइए।
 
 <div class="inline-cta">
 <h3>Chakki, Dal Mill ya Cold Storage, Sabke Liye Ek Hi Team</h3>
@@ -133,6 +140,8 @@ Hybrid तब सोचिए जब दिन में रोज़ लंब�
 ## Kharcha aur Payback: Mill Size ke Hisaab se
 
 नीचे 2026 के indicative numbers हैं, पूरे installed system की cost यानी panels, inverter, structure, cabling, protection और labour मिलाकर। Payback निकालते समय ₹8 से ₹10 प्रति unit का commercial tariff और अच्छी self-consumption मानी है।
+
+Table: Mill size ke hisaab se indicative system cost, yearly units, bachat aur simple payback (2026)
 
 | Mill size | System size | Installed cost (approx) | Yearly units (approx) | Yearly bachat | Simple payback |
 | --- | --- | --- | --- | --- | --- |
@@ -156,7 +165,10 @@ Design इस तरह बैठता है।
 - एक QB 12KTLC three phase on-grid inverter, और motor पर soft starter जो पहले नहीं था।
 - Genset backup पर, कोई battery नहीं। Installed cost लगभग ₹6.4 लाख, load enhancement की ज़रूरत नहीं।
 
-Expected नतीजा। सालाना लगभग 18,000 units generation, जिसमें से 80 से 85 percent सीधे mill में खप जाती हैं, और energy charges में लगभग ₹1.55 लाख सालाना की बचत। Fixed charges पहले जैसे रहेंगे। एक ईमानदार caveat, grid जाने पर plain on-grid inverter बंद हो जाता है, इसलिए genset पूरी तरह नहीं हटता। Simple payback लगभग 4 साल, inverter पर 12 साल की warranty with a written remedy।
+Expected नतीजा। सालाना लगभग 18,000 units generation, जिसमें से 80 से 85 percent सीधे mill में खप जाती हैं, और energy charges में लगभग ₹1.55 लाख सालाना की बचत। Fixed charges पहले जैसे रहेंगे। एक ईमानदार caveat, grid जाने पर plain on-grid inverter बंद हो जाता है, इसलिए genset पूरी तरह नहीं हटता। Simple payback लगभग 4 साल। Inverter की warranty का term, remedy और exclusions exact model के current written terms से confirm कीजिए।
+
+> [!EXAMPLE] 10 HP chakki, 12 kW system (illustrative)
+> 12 kW PV, एक QB 12KTLC three phase on-grid inverter, soft starter, genset backup पर। Installed cost लगभग ₹6.4 लाख, सालाना लगभग 18,000 units, जिसमें से 80 से 85 percent mill में खप जाती हैं, energy charges में लगभग ₹1.55 लाख सालाना की बचत, simple payback लगभग 4 साल। यह actual customer case नहीं है।
 
 ## Subsidy aur Scheme: Saaf Baat
 
@@ -184,7 +196,7 @@ Net metering और gross metering का फ़र्क़ समझने क
 
 <div class="inline-cta">
 <h3>Motor Load ke Liye Bane Inverters</h3>
-<p>QB 6KTLC se QB 30KTLC tak three phase on-grid, aur QBH 10KS48P3 jaise hybrid options. Sab India ke grid ke hisaab se tuned, IP66, 12 saal ki warranty with a written remedy ke saath.</p>
+<p>QB 6KTLC se QB 30KTLC tak three phase on-grid, aur QBH 10KS48P3 jaise hybrid options. IP66 enclosure, aur warranty ke term, remedy aur exclusions exact model ke liye likhit mein confirm karein.</p>
 <a href="/our-products/" class="cta-btn">Product Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Har model ki datasheet aur rating khuli hui hai।</p>
 </div>
@@ -203,6 +215,7 @@ Mill installations में जो problems बार-बार दिखती
 
 ## Aage Kya Karein
 
-- पिछले 12 महीने के बिजली बिल से monthly units, tariff category और sanctioned load note कीजिए। Sizing यहीं से शुरू होती है, motor nameplate से नहीं।
-- Starter का type देखिए, और soft starter नहीं है तो उसे quote में शामिल कराइए। यह इस guide की सबसे सस्ती सलाह है।
-- Site survey के साथ proper quote लीजिए, जिसमें cable sizing, earthing, protection और DISCOM paperwork लिखा हो, [contact form](/contact-us/) भरकर।
+> [!CHECKLIST] Quote माँगने से पहले
+> - पिछले 12 महीने के बिजली बिल से monthly units, tariff category और sanctioned load note कीजिए। Sizing यहीं से शुरू होती है, motor nameplate से नहीं।
+> - Starter का type देखिए, और soft starter नहीं है तो उसे quote में शामिल कराइए। यह इस guide की सबसे सस्ती सलाह है।
+> - Site survey के साथ proper quote लीजिए, जिसमें cable sizing, earthing, protection और DISCOM paperwork लिखा हो, [contact form](/contact-us/) भरकर।

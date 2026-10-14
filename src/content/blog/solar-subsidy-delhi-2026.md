@@ -4,7 +4,7 @@ excerpt: "Solar subsidy in Delhi 2026 stacks PM Surya Ghar (₹78,000 for 3 kW) 
 description: "Solar subsidy in Delhi 2026: PM Surya Ghar amounts, state top-up, BSES and TPDDL net-metering steps, flat/apartment rules, timeline, and a worked example."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "18 min"
 image: "/og/blog-solar-subsidy-delhi-2026.webp"
 author: "Akash Hirapara"
@@ -42,12 +42,12 @@ Delhi homeowners asking about solar in 2026 face a city-specific puzzle: three d
 
 This guide walks through every layer of the Delhi solar subsidy stack: the central PM Surya Ghar scheme, the Delhi state top-up, the DISCOM-specific [net metering](https://heavendesigns.in/blog/apepdcl-solar-net-metering-guide/) steps, the flat/apartment rules that trip up most urban applicants, and a worked example from a homeowner in south Delhi.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Delhi stacks the central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) (up to ₹78,000 for 3 kW) with a reported state top-up of approximately ₹2,000/kW, verify current status at derc.gov.in.
 > - Three DISCOMs serve Delhi, BSES Rajdhani (south/west), BSES Yamuna (east/central), and TPDDL (north/north-west), and your application routes through whichever one bills your address.
 > - Apartment installations need a signed RWA no-objection certificate and, for buildings older than 1990, a structural load assessment before the DISCOM will process feasibility.
 > - Realistic end-to-end timeline is 90 to 120 days, with the DISCOM meter change step causing most delays.
-> - A worked south Delhi example (3 kW, ₹1,95,000 gross cost) landed at roughly 3.2 years payback after ₹84,000 in combined subsidy.
+> - A worked south Delhi example (3 kW, ₹1,95,000 gross cost) landed at roughly 4.6 years payback after ₹84,000 in combined subsidy.
 
 > **Delhi's solar subsidy in 2026 uses a two-layer stack.** The central PM Surya Ghar Muft Bijli Yojana provides up to ₹78,000 for a 3 kW residential system. The Delhi government is reported to offer an additional ₹2,000 per kW state top-up, verify current status at derc.gov.in before applying. Three DISCOMs (BSES Rajdhani, BSES Yamuna, and TPDDL) each run their own net metering and commissioning process, so the correct entry point depends entirely on which utility currently bills your address.
 
@@ -59,6 +59,8 @@ The Pradhan Mantri Surya Ghar Muft Bijli Yojana, launched in February 2024 with 
 
 The central subsidy structure for residential consumers is standardised nationally:
 
+Table: PM Surya Ghar central subsidy by system size
+
 | System Size | Subsidy Rate | Total Central Subsidy |
 | --- | --- | --- |
 | 1 kW | ₹30,000/kW | ₹30,000 |
@@ -66,19 +68,36 @@ The central subsidy structure for residential consumers is standardised national
 | 3 kW | ₹30,000 (first 2 kW) + ₹18,000 (third kW) | ₹78,000 |
 | Above 3 kW | Capped at 3 kW equivalent | ₹78,000 maximum |
 
+```chart
+type: bar
+title: "PM Surya Ghar central subsidy by system size"
+unit: "₹"
+source: "MNRE PM Surya Ghar Muft Bijli Yojana subsidy structure (₹30,000/kW for the first 2 kW, ₹18,000 for the third kW, capped at 3 kW), as cited by MNRE PM Surya Ghar Portal in this article, 2026"
+sourceUrl: https://pmsuryaghar.gov.in/
+note: "Central subsidy only. Delhi state top-up is separate and should be verified at derc.gov.in."
+data:
+  - { label: "1 kW", value: 30000 }
+  - { label: "2 kW", value: 60000 }
+  - { label: "3 kW", value: 78000 }
+  - { label: "Above 3 kW", value: 78000 }
+```
+
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, paid directly to the buyer's bank account after the DISCOM verifies installation. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 ## The Delhi State Top-Up: DERC and the Additional Incentive
 
 Beyond the central scheme, the Delhi government is reported to provide an additional per-kW incentive for residential rooftop solar, estimated at approximately ₹2,000 per kW for systems up to 3 kW (a maximum additional ₹6,000 for a 3 kW system). This is a relatively modest top-up compared to states like Gujarat or Maharashtra, but it adds to the overall economic case.
 
-**Important caveat:** State-level incentives in Delhi are subject to annual budget allocations and DERC regulatory decisions. Before applying, visit [DERC's official website](https://derc.gov.in) to verify the current status, applicable amount, and any cap on annual beneficiaries. Do not rely on installer claims alone, state top-up availability can change mid-financial-year when budget allocations are exhausted.
+> [!IMPORTANT] Caveat on the state top-up
+> State-level incentives in Delhi are subject to annual budget allocations and DERC regulatory decisions. Before applying, visit [DERC's official website](https://derc.gov.in) to verify the current status, applicable amount, and any cap on annual beneficiaries. Do not rely on installer claims alone, state top-up availability can change mid-financial-year when budget allocations are exhausted.
 
 The Delhi solar subsidy framework, combining both layers, produces the following net cost picture for a standard 3 kW residential system:
 
+Table: Estimated net cost of a 3 kW system in Delhi with both subsidy layers (indicative)
+
 | Cost Component | Amount |
 | --- | --- |
-
+| Gross system cost (3 kW; implied by the net cost and subsidies below) | ₹1,80,000–₹2,10,000 |
 | Less: Central PM Surya Ghar subsidy | ₹78,000 |
 | Less: Delhi state top-up (approximate, verify at DERC) | ₹6,000 |
 | **Estimated net out-of-pocket cost** | **₹96,000–₹1,26,000** |
@@ -93,15 +112,19 @@ Navigating the Delhi solar subsidy process requires managing five distinct eleme
 
 ### The 5-Pillar Delhi Subsidy Stack
 
+<!-- steps -->
 1. **Central scheme registration**: Register at [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) with your DISCOM consumer number, Aadhaar, and bank details before the installer starts work. Registration after installation may invalidate the subsidy claim.
 
 2. **DISCOM technical feasibility**: Your DISCOM (BRPL, BYPL, or TPDDL, based on your service area) must approve the proposed system size and connection point before installation. This step requires a site visit by a DISCOM engineer. Timeline: 15–30 days in Delhi.
+
+3. **Empanelled vendor installation**: After the feasibility approval letter, an empanelled vendor installs the system with panels checked against the current MNRE ALMM List-I, following the sanctioned design. Timeline: 7–14 days (post-approval).
 
 4. **Net meter commissioning**: After installation, the DISCOM installs a bidirectional smart meter. In Delhi, this can take 30–45 days after physical installation is complete. The net meter is required before the subsidy is released.
 
 5. **Subsidy disbursement**: After commissioning confirmation on the PM Surya Ghar portal, the central subsidy is transferred within 30 days to your Aadhaar-linked bank account. The Delhi state top-up follows via a separate disbursement channel, confirm the applicable process with your DISCOM at time of application.
 
-Each pillar must be completed in order. Applicants who install first and register later routinely find themselves ineligible for the central subsidy, regardless of the system's technical quality.
+> [!WARNING] Register before the installer starts work
+> Each pillar must be completed in order. Applicants who install first and register later routinely find themselves ineligible for the central subsidy, regardless of the system's technical quality.
 
 ## Delhi's Three DISCOMs: Which One Is Yours?
 
@@ -118,6 +141,8 @@ BYPL serves east Delhi (Laxmi Nagar, Shahdara, Preet Vihar, Patparganj) and cent
 ### Tata Power Delhi Distribution Limited (TPDDL)
 
 TPDDL serves north Delhi (Civil Lines, Model Town) and north-west Delhi (Rohini, Pitampura, Shalimar Bagh, Wazirabad). Portal: [tatapower-ddl.com](https://www.tatapower-ddl.com/). TPDDL has invested in consumer digital tools and typically offers an online tracking system for solar applications. Rohini and Pitampura (large planned residential sectors) have seen strong solar adoption given abundant flat rooftops. Average processing: 20–25 days for technically straightforward applications.
+
+Table: Delhi's three DISCOMs, their service areas and feasibility processing time
 
 | DISCOM | Service Area | Approximate Processing |
 | --- | --- | --- |
@@ -156,11 +181,14 @@ The practical rules for Delhi apartments in 2026:
 - **Shadow-free area per flat**: A 3 kW system requires approximately 200 square feet of shadow-free rooftop. In multi-storey buildings, the effective shadow-free area per flat is often smaller than required, limiting system size to 1–2 kW per unit.
 - **Community solar option**: RWAs can pursue a single larger system (up to the building's aggregate sanctioned load) on behalf of all residents. This requires a single DISCOM application from the RWA, with generation credited to a common meter and distributed via a sub-metering arrangement. The subsidy is limited per individual beneficiary connection.
 
-**Recommended approach for apartment buyers**: before engaging any vendor, confirm three things, your RWA's policy on rooftop solar, the shadow-free area available for your flat's allocation, and whether your building's structure has been assessed for panel mounting loads. These three answers will tell you whether a 1 kW, 2 kW, or 3 kW system is feasible before you spend time on the DISCOM application.
+> [!TIP] Apartment buyers: three answers before any vendor call
+> Before engaging any vendor, confirm three things, your RWA's policy on rooftop solar, the shadow-free area available for your flat's allocation, and whether your building's structure has been assessed for panel mounting loads. These three answers will tell you whether a 1 kW, 2 kW, or 3 kW system is feasible before you spend time on the DISCOM application.
 
 ## Timeline: What Is Realistic for Delhi in 2026
 
 Delhi moves more slowly than Gujarat or Maharashtra on solar net metering, primarily due to application volume, DISCOM workforce constraints, and the added complexity of urban apartment applications. The following timeline is based on a straightforward independent house application, apartment timelines should add 15–30 days for RWA processes.
+
+Table: Realistic timeline for a Delhi house application in 2026
 
 | Stage | Realistic Duration |
 | --- | --- |
@@ -177,40 +205,44 @@ The most common cause of delay is the meter change step. All three Delhi DISCOMs
 
 The document set for Delhi is similar to the national framework but includes Delhi-specific elements:
 
-- **Electricity bill**: Recent bill (not more than 2 months old) showing your consumer number, DISCOM name, and service area
-- **Aadhaar card**: Must be linked to the mobile number used for PM Surya Ghar OTP registration
-- **PAN card**: Required for subsidy disbursement above threshold amounts
-- **Bank account proof**: Passbook copy or cancelled cheque with IFSC; account must be linked to Aadhaar for direct transfer
-- **Property ownership**: Sale deed (registered), property tax receipt (NDMC/MCD), or lease deed (registered)
-- **For apartments, RWA NOC**: On RWA letterhead, signed by the general secretary or president, specifying the rooftop area allocated to your unit
-- **For apartments, Structural certificate**: If the building was constructed before 1990, most DISCOMs will require this
-- **Rooftop photographs**: At least 4 photographs from different angles showing shadow-free area and existing electrical installation
-- **Technical feasibility form**: Completed by the empanelled installer; includes proposed single-line diagram
+> [!CHECKLIST] Documents for a Delhi solar subsidy application
+> - **Electricity bill**: Recent bill (not more than 2 months old) showing your consumer number, DISCOM name, and service area
+> - **Aadhaar card**: Must be linked to the mobile number used for PM Surya Ghar OTP registration
+> - **PAN card**: Required for subsidy disbursement above threshold amounts
+> - **Bank account proof**: Passbook copy or cancelled cheque with IFSC; account must be linked to Aadhaar for direct transfer
+> - **Property ownership**: Sale deed (registered), property tax receipt (NDMC/MCD), or lease deed (registered)
+> - **For apartments, RWA NOC**: On RWA letterhead, signed by the general secretary or president, specifying the rooftop area allocated to your unit
+> - **For apartments, Structural certificate**: If the building was constructed before 1990, most DISCOMs will require this
+> - **Rooftop photographs**: At least 4 photographs from different angles showing shadow-free area and existing electrical installation
+> - **Technical feasibility form**: Completed by the empanelled installer; includes proposed single-line diagram
 
 Missing any of these at the time of DISCOM submission delays the feasibility process by the time it takes to gather and resubmit, typically 2–3 weeks in practice.
 
-## A Delhi Homeowner Case Example: South Delhi, 3 kW System
+## A Delhi Homeowner Case Example: South Delhi, 3 kW System (Illustrative)
 
-Ramesh Kapoor owns a 3 BHK independent floor in Saket, south Delhi, served by BSES Rajdhani. His monthly electricity bill is approximately ₹3,800 (average consumption: 450 units per month in summer, 250 in winter). Here is how his solar journey unfolded.
+This is an illustrative scenario with assumed figures, not a real customer. Take a 3 BHK independent floor in Saket, south Delhi, served by BSES Rajdhani. The monthly electricity bill is approximately ₹3,800 (average consumption: 450 units per month in summer, 250 in winter). Here is how the solar journey could unfold.
 
-**Costs and subsidies**:
-- Gross system cost: ₹1,95,000 (installed, including net meter wiring)
-- Central subsidy (PM Surya Ghar, 3 kW): ₹78,000
-- Delhi state top-up (approximate): ₹6,000 (verify at DERC)
-- Net out-of-pocket: ₹1,11,000
+> [!EXAMPLE] South Delhi 3 kW (illustrative scenario)
+> **Costs and subsidies**:
+> - Gross system cost: ₹1,95,000 (installed, including net meter wiring)
+> - Central subsidy (PM Surya Ghar, 3 kW): ₹78,000
+> - Delhi state top-up (approximate): ₹6,000 (verify at DERC)
+> - Net out-of-pocket: ₹1,11,000
+>
+> **Energy economics**:
+> - Annual generation estimate: approximately 3,600 kWh (3 kW × 4.1 peak sun hours × 365 days × 0.80 system efficiency = 3,591 kWh)
+> - Annual self-consumption savings: approximately ₹22,700 (90% of generation, 3,240 kWh, at ₹7/unit blended tariff)
+> - Annual export earnings (10% of generation, 360 kWh, at ₹3.5/unit): approximately ₹1,260
+> - Total annual benefit: approximately ₹24,000
+> - Payback period: approximately 4.6 years post-subsidy (₹1,11,000 ÷ ₹23,940; run your own numbers with [SurgePV's solar financial modeling tool](https://surgepv.com/generation-financial-tool/){target="_blank" rel="noopener"} if your consumption or tariff slab differs from this example)
+>
+> **What caused delays**: BSES Rajdhani's meter change took 38 days from post-installation inspection, longer than estimated. The homeowner followed up twice in person at the BRPL service centre, which is assumed to have accelerated the final schedule. Total time from registration to first solar bill: 97 days.
 
-**Energy economics**:
-- Annual generation estimate: 4,500 kWh (3 kW × 4.1 peak sun hours × 365 days × 0.80 system efficiency)
-- Annual self-consumption savings: approximately ₹31,500 (at ₹7/unit blended tariff)
-- Annual export earnings (10% of generation at ₹3.5/unit): approximately ₹1,575
-- Total annual benefit: approximately ₹33,000–₹35,000
-- Payback period: approximately 3.2 years post-subsidy (run your own numbers with [SurgePV's solar financial modeling tool](https://surgepv.com/generation-financial-tool/){target="_blank" rel="noopener"} if your consumption or tariff slab differs from Ramesh's)
-
-**What caused delays**: BSES Rajdhani's meter change took 38 days from post-installation inspection, longer than estimated. Ramesh followed up twice in person at the BRPL service centre, which he believes accelerated the final schedule. Total time from registration to first solar bill: 97 days.
-
-**Key lesson**: Register on the PM Surya Ghar portal before installation, not after. Ramesh registered the day after installation and was told he should have registered before the installer started work. BRPL accepted his application in this case, but the subsidy disbursement was delayed by an additional verification step.
+**Key lesson**: Register on the PM Surya Ghar portal before installation, not after. In this scenario the homeowner registered the day after installation and was told registration should have come before the installer started work. BRPL accepted the application in this case, but the subsidy disbursement was delayed by an additional verification step.
 
 ## Pros and Cons of Going Solar in Delhi in 2026
+
+Table: Pros and cons of going solar in Delhi, by house type and inverter type
 
 | | Pros | Cons |
 | --- | --- | --- |

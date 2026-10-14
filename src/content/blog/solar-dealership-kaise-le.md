@@ -36,11 +36,18 @@ language: hi
 
 Form जमा करना dealership मिल जाने का प्रमाण नहीं है। Current Qbits partner page कोई fixed investment, guaranteed margin, exclusive territory, credit limit, support package या approval time प्रकाशित नहीं करता। इन सभी बातों को written proposal और final agreement में जाँचें।
 
-> **पूरी प्रक्रिया एक नज़र में:** Dealer role की पुष्टि करें, inverter range समझें, business file तैयार करें, partner form भरें, submission record रखें, review के दौरान केवल verified channel पर जानकारी दें और कोई खर्च करने से पहले approved agreement पढ़ें।
+> [!KEYTAKEAWAYS] पूरी प्रक्रिया एक नज़र में
+> - Dealer role की पुष्टि करें, inverter range समझें, business file तैयार करें और फिर partner form भरें।
+> - Form जमा करना dealership मिलने का प्रमाण नहीं है। Current Qbits page fixed investment, guaranteed margin, exclusive territory, credit limit या approval time प्रकाशित नहीं करती।
+> - Submission record रखें और review के दौरान केवल verified channel पर जानकारी दें।
+> - Qbits partner form में चार business types हैं: Dealer, Distributor, EPC और System Integrator। वही role चुनें जो आपके वास्तविक काम से मेल खाता हो।
+> - कोई खर्च करने से पहले approved agreement पढ़ें।
 
 ## सबसे पहले तय करें कि आपको Dealer route ही चाहिए
 
 Qbits partner form में चार business types हैं: Dealer, Distributor, EPC और System Integrator। Solar dealership खोजने वाले हर applicant के लिए `Dealer` सही विकल्प नहीं होगा। वही role चुनें जो आपके वास्तविक काम से मेल खाता हो।
+
+Table: Qbits partner form ke chaar business roles aur unka practical matlab
 
 | Form में role | किस तरह के business के लिए उपयोगी description |
 | --- | --- |
@@ -83,6 +90,8 @@ Monthly sales target लिखने से पहले customer base, likely o
 
 26 September 2026 को जाँचे गए Qbits partner form में पाँच sections हैं। Company name, registered address, official business email, 10-digit WhatsApp number और GST number पर required का निशान है। बाकी fields business review के लिए context माँगते हैं, लेकिन public page उनके लिए कोई universal pass score नहीं बताती।
 
+Table: Qbits partner form ke paanch sections (26 September 2026 ko jaanche gaye)
+
 | Form section | Current form में दिखाई देने वाली जानकारी | भरने से पहले क्या तैयार करें |
 | --- | --- | --- |
 | Company Information | Company name, registered address, business email, WhatsApp, website और GST number | Current business और tax records से matching details |
@@ -95,6 +104,7 @@ Form किसी field के बारे में पूछता है, �
 
 ## Solar dealership लेने की पूरी प्रक्रिया
 
+<!-- steps -->
 1. **अपनी role जाँचें।** तय करें कि local dealer route आपके मौजूदा customers और operating capacity से मेल खाता है।
 2. **Products समझें।** Current inverter families और exact-model datasheets पढ़ें। केवल marketing headline के आधार पर product plan न बनाएँ।
 3. **Readiness file पूरा करें।** Business identity, market, infrastructure, team, finance और sales plan एक जगह तैयार करें।
@@ -109,15 +119,16 @@ Public page के अनुसार Qbits की team जमा की गई 
 
 Current form पहले step पर बड़ा document-upload pack नहीं दिखाता। फिर भी उन records को ready रखें जिनसे आपके answers verify हो सकें:
 
-- business registration और authorised signatory details;
-- current GST record;
-- registered address का current record;
-- official email और business WhatsApp access;
-- office, warehouse और service-centre details, जहाँ लागू हों;
-- sales, technical और service roles की current list;
-- turnover, working capital, loan और credit-limit figures के supporting records;
-- current inverter brands और relevant business experience का record; और
-- monthly sales target की assumptions वाली short working sheet।
+> [!CHECKLIST] Ready rakhne wale records
+> - business registration और authorised signatory details;
+> - current GST record;
+> - registered address का current record;
+> - official email और business WhatsApp access;
+> - office, warehouse और service-centre details, जहाँ लागू हों;
+> - sales, technical और service roles की current list;
+> - turnover, working capital, loan और credit-limit figures के supporting records;
+> - current inverter brands और relevant business experience का record; और
+> - monthly sales target की assumptions वाली short working sheet।
 
 इस list को Qbits की published compulsory upload checklist न समझें। यह application सही भरने और बाद की due diligence के लिए तैयारी है। Sensitive financial या identity documents केवल verified request और verified submission route पर दें।
 
@@ -126,6 +137,8 @@ Current form पहले step पर बड़ा document-upload pack नह�
 Solar dealership की economics application form से तय नहीं होती। Qbits की मौजूदा public page fixed minimum investment, guaranteed margin, credit period, exclusive territory, stock-return right, earnings या approval timeline प्रकाशित नहीं करती। इसका सही जवाब कोई अनुमानित number नहीं, बल्कि proposed terms को लिखित रूप में जाँचना है।
 
 Commitment से पहले इन points का जवाब माँगें:
+
+Table: Dealer commitment se pehle written mein kya clear hona chahiye
 
 | Decision | Written answer में क्या स्पष्ट होना चाहिए |
 | --- | --- |
@@ -139,7 +152,8 @@ Commitment से पहले इन points का जवाब माँगे
 | Support | Training, marketing material, lead handling और technical help का exact scope |
 | Exit | Termination, open orders, receivables, remaining stock और brand material का treatment |
 
-Verbal discussion को final term न मानें। Dealer agreement में जो बात नहीं लिखी है, उस पर पैसा खर्च करने से पहले clarification लें। Detailed review के लिए [solar dealer agreement checklist](/blog/solar-dealer-agreement-checklist/) इस्तेमाल करें और जरूरत हो तो legal, tax तथा accounting advisers से जाँच कराएँ।
+> [!IMPORTANT] Verbal baat final term nahi hai
+> Verbal discussion को final term न मानें। Dealer agreement में जो बात नहीं लिखी है, उस पर पैसा खर्च करने से पहले clarification लें। Detailed review के लिए [solar dealer agreement checklist](/blog/solar-dealer-agreement-checklist/) इस्तेमाल करें और जरूरत हो तो legal, tax तथा accounting advisers से जाँच कराएँ।
 
 ## Application भरते समय ये गलतियाँ न करें
 

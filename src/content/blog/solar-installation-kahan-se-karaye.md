@@ -4,7 +4,7 @@ excerpt: "Solar installation kahan se karaye? Empanelled vendor verify karna, si
 description: "Solar installation kahan se karaye 2026: PM Surya Ghar empanelled vendor kaise verify karein, asli site survey kaisa hota hai, kaunse documents installer se lene hain, aur kaun se red flags par rukna hai।"
 category: "Buying Guide"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "13 min"
 image: "/og/blog-solar-installation-kahan-se-karaye.webp"
 author: "Nirav Dhanani"
@@ -42,14 +42,12 @@ language: hi
 
 Ab tak ka homework ho chuka hai। Aapko pata hai kitne kW ka system chahiye, on-grid lena hai ya hybrid, aur subsidy kitni milegi। Ab asli sawaal bacha hai: solar installation kahan se karaye? Yahin par zyadatar log phas jaate hain, kyunki har taraf se quote aa rahe hote hain, har koi apne aap ko "government approved" bata raha hota hai, aur rate ka difference 30 percent tak hota hai bina kisi clear wajah ke। Panel aur inverter to 25 saal chalenge, lekin unko lagane wala banda hi decide karta hai ki woh 25 saal aaram se nikalte hain ya har monsoon mein sar dard bante hain। Yeh guide sirf ek cheez par focus karti hai, sahi installer chunna, aur woh bhi verification steps ke saath jo aap aaj ek ghante mein khud kar sakte hain।
 
-> **TL;DR**
-> - [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy ke liye installer ka national portal par empanelled hona mandatory hai, optional nahi।
-> - Vendor ka registration number pmsuryaghar.gov.in par khud check karein, screenshot par bharosa na karein।
+> [!KEYTAKEAWAYS]
+> - [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy ke liye installer ka national portal par empanelled hona mandatory hai, optional nahi। Vendor ka registration number pmsuryaghar.gov.in par khud check karein, screenshot par bharosa na karein।
 > - Bina chhat par aaye diya gaya WhatsApp rate card quote nahi hai, usmein cable length aur structure height missing hoti hai।
 > - Advance 10 se 20 percent se zyada nahi, aur payment hamesha company current account mein GST invoice ke against।
 > - Warranty papers apke naam par lein, dealer ke naam par nahi, warna claim ke waqt dealer ke bina kuch nahi hota।
-> - "Subsidy 7 din mein guaranteed" ek red flag hai, realistic timeline 30 se 90 din hai aur [DISCOM](/glossary/discom/) par depend karta hai।
-> - Net metering rules, inspection speed aur benchmark rates state ke hisaab se alag hote hain, isliye local DISCOM experience wala vendor value deta hai।
+> - "Subsidy 7 din mein guaranteed" ek red flag hai, realistic timeline 30 se 90 din hai aur [DISCOM](/glossary/discom/) par depend karta hai। Net metering rules, inspection speed aur benchmark rates state ke hisaab se alag hote hain, isliye local DISCOM experience wala vendor value deta hai।
 
 **Short answer.** Solar installation wahi se karayein jahan teen cheezein saath mein milein: [PM Surya Ghar](/glossary/pm-surya-ghar/) portal par verified empanelment apke DISCOM area ke liye, chhat par aakar kiya gaya written site survey, aur model-number level quotation jismein ALMM reference, warranty terms aur net metering responsibility clearly likhi ho। Yeh teen filters lagane ke baad 10 vendors mein se 2 bachte hain, aur wahi 2 compare karne layak hote hain।
 
@@ -69,6 +67,7 @@ Ek baat साफ samajh lein। Empanelment ek entry ticket hai, quality certif
 
 Vendor ka bheja hua PDF ya screenshot proof nahi hai। Khud verify karna itna hi lagta hai:
 
+<!-- steps -->
 1. **Portal kholein।** pmsuryaghar.gov.in par jaakar apna state aur DISCOM select karein, phir registered vendor list dekhein।
 2. **Naam aur district match karein।** Company ka registered naam bilkul wahi hona chahiye jo quotation aur GST invoice par hai। "Sister concern" ya "franchise" wala jawab accept na karein।
 3. **Registration validity dekhein।** Empanelment ki expiry date hoti hai। Expire ya suspended vendor ke saath aage badhna khatarnak hai।
@@ -78,7 +77,7 @@ Vendor ka bheja hua PDF ya screenshot proof nahi hai। Khud verify karna itna h
 Agar vendor kahe ki registration "process mein hai", to intezaar karein ya doosra vendor dekhein। Process mein hona aur registered hona alag baat hai, aur subsidy sirf doosri wali par milti hai।
 
 <div class="inline-cta">
-<h3>Apne District ka Verified Installer Chahiye?</h3>
+<h3>Apne District ka Authorised Service Partner Dekhein</h3>
 
 <a href="/authorized-service-partners/" class="cta-btn">Partner Locator Kholein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
 <p class="cta-sub">Koi obligation nahi, sirf verified partner ka contact।</p>
@@ -92,7 +91,8 @@ Ek asli site survey mein banda chhat par chadhta hai aur yeh sab note karta hai:
 
 WhatsApp par sirf bijli bill dekh kar bheja gaya "5 kW ka itna rate" ek estimate hai। Woh estimate installation ke din badalta hai, aur badalta hamesha upar ki taraf hai। "Sir cable 40 meter lag gayi, extra ₹8,000" wali call yahin se aati hai।
 
-> **Jo log sabse zyada miss karte hain।** Survey ke waqt puchna chahiye ki structure ki height kitni rakhi ja rahi hai aur galvanisation kya hai। Coastal ya heavy rain area mein sasta MS structure 4 se 5 saal mein rust karta hai, aur uske baad panel to chalte hain lekin unko pakadne wala dhaancha nahi bachta।
+> [!TIP] Jo log sabse zyada miss karte hain
+> Survey ke waqt puchna chahiye ki structure ki height kitni rakhi ja rahi hai aur galvanisation kya hai। Coastal ya heavy rain area mein sasta MS structure 4 se 5 saal mein rust karta hai, aur uske baad panel to chalte hain lekin unko pakadne wala dhaancha nahi bachta।
 
 Survey se aaya hua design kitna realistic hai, yeh dekhne ka ek aasaan tareeka hai: vendor se shading analysis ya layout drawing maangein। Aaj kal chhote dealers bhi design software se ek page ka layout nikaal dete hain। Agar woh page nahi de paa rahe, to design unke dimaag mein hai, kagaz par nahi।
 
@@ -100,10 +100,11 @@ Survey se aaya hua design kitna realistic hai, yeh dekhne ka ek aasaan tareeka h
 
 Yeh list quotation approve karne se pehle maangein, baad mein nahi।
 
+Table: Installer se kaunse documents lene hain, kya check karna hai aur kyun
+
 | Document | Kya check karna hai | Kyun zaroori hai |
 | --- | --- | --- |
 | Empanelment registration number | Portal par apne DISCOM ke under listed | Iske bina subsidy claim process hi nahi hota |
-
 | ALMM listing reference | MNRE ki current list mein wahi model search karke | Non-ALMM equipment par inspection fail hota hai |
 | DCR declaration | Domestic content wale cell aur module ka written declaration | Residential subsidy ke liye DCR compliance zaroori hai |
 | Warranty certificates | Aapke naam aur address par, dealer ke naam par nahi | Dealer band ho jaaye to bhi claim aapka rehta hai |
@@ -112,6 +113,8 @@ Yeh list quotation approve karne se pehle maangein, baad mein nahi।
 | Structure aur workmanship warranty | Kitne saal, kya cover hota hai | Panel warranty structure ko cover nahi karti |
 
 ## Red Flags: Yahan Ruk Jaayein
+
+Table: Vendor ke red flags, woh kya kehte hain aur asli matlab kya hai
 
 | Red flag | Aap kya sunte hain | Asli matlab |
 | --- | --- | --- |
@@ -130,21 +133,25 @@ In patterns mein se kuch outright fraud ban jaate hain। Fake portals, forged a
 
 Yeh example illustrative hai, kisi actual customer ka data nahi। Lekin quote comparison ka pattern bilkul yahi dikhta hai। Maan lijiye 5 kW on-grid system, ek hi chhat, do vendors।
 
+Table: Illustrative example, ek hi 5 kW chhat par do vendors ke quote ki line-by-line tulna
+
 | Line item | Vendor A (₹) | Vendor B (₹) |
 | --- | --- | --- |
 | Solar panels, 5 kW DCR | 1,45,000 | 1,48,000 |
-
 | Mounting structure | 32,000 | 46,000 (galvanised, raised) |
 | DC aur AC cabling | 14,000 | 19,000 (actual run measured) |
 | Earthing aur lightning arrestor | Included nahi | 11,000 |
 | AC protection (MCB, RCCB, DB) | Included nahi | 7,000 |
 | Net metering liaison aur fees | "Customer scope" | 6,000 |
+| Inverter aur baaki balance items (stated total tak ka balance) | 42,000 | 44,000 |
 | Written warranty aur handover | Verbal | Included |
 | **Total** | **2,33,000** | **2,81,000** |
 
-Pehli nazar mein Vendor A ₹48,000 sasta hai। Ab missing items alag se karayein: earthing aur arrestor ₹11,000, AC protection ₹7,000, net metering ka bhaag-daud aur fees ₹6,000, aur structure upgrade jo do saal baad karna padega। Actual gap ₹20,000 ke aas-paas reh jaata hai, aur usmein warranty enforcement plus commissioning follow-up shamil nahi hai।
+> [!EXAMPLE] Vendor A vs Vendor B
+> Pehli nazar mein Vendor A ₹48,000 sasta hai। Ab missing items alag se karayein: earthing aur arrestor ₹11,000, AC protection ₹7,000, net metering ka bhaag-daud aur fees ₹6,000, aur structure upgrade jo do saal baad karna padega। Actual gap ₹24,000 ke aas-paas reh jaata hai (₹48,000 minus ₹11,000, ₹7,000 aur ₹6,000), aur usmein warranty enforcement plus commissioning follow-up shamil nahi hai।
 
-Ek aur baat। Bina earthing wale system par inspection fail ho sakta hai, aur inspection fail matlab subsidy ruk gayi। ₹48,000 bachane ke chakkar mein ₹78,000 ka claim latak jaana India mein aam story hai।
+> [!WARNING] Sasta quote, ruka hua claim
+> Bina earthing wale system par inspection fail ho sakta hai, aur inspection fail matlab subsidy ruk gayi। ₹48,000 bachane ke chakkar mein ₹78,000 ka claim latak jaana India mein aam story hai।
 
 <div class="inline-cta">
 <h3>Quote Compare Karne Mein Confusion Hai?</h3>
@@ -156,6 +163,8 @@ Ek aur baat। Bina earthing wale system par inspection fail ho sakta hai, aur i
 ## Local Dealer, National EPC ya Online Marketplace
 
 Teenon models chalte hain। Farq service, price aur accountability ke balance ka hai।
+
+Table: Local empanelled dealer, national EPC aur online marketplace ki tulna
 
 | Parameter | Local empanelled dealer | National EPC | Online marketplace |
 | --- | --- | --- | --- |
@@ -201,13 +210,14 @@ Ek chhota sa test jo aksar sach bata deta hai: installation se pehle vendor ke s
 <h3>Inverter Pehle Chunein, Phir Installer</h3>
 
 <a href="/our-products/" class="cta-btn">Product Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">model-specific written warranty, ALMM listed models।</p>
+<p class="cta-sub">model-specific written warranty aur exact model documents।</p>
 </div>
 
 ## Final Checklist aur Agla Kadam
 
 Vendor finalise karne se pehle yeh teen kaam kar lein।
 
+<!-- steps -->
 1. **Portal par empanelment khud verify karein** aur registration number quotation par likhwayein।
 2. **Chhat par survey karwaane ke baad hi quote lein**, aur usmein model numbers, earthing, AC protection aur net metering scope line item ki tarah maangein।
 3. **Payment milestone likhwayein** (10 se 20 percent signing, 40 se 50 percent material delivery par, baaki commissioning aur net meter ke baad) aur warranty papers apne naam par lein।

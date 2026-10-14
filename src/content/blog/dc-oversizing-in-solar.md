@@ -4,7 +4,7 @@ excerpt: "Calculate DC/AC ratio, understand clipping, verify inverter voltage an
 description: "Understand solar DC/AC ratio, clipping and panel oversizing, then compare site-modelled scenarios within exact inverter and warranty limits."
 category: "Technology"
 date: 2026-04-08
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-dc-oversizing-in-solar.webp"
 author: "Keyur Rakholiya"
@@ -32,13 +32,22 @@ featured: false
 
 This article explains the decision framework and a labelled arithmetic example. For the voltage side of an array, the [string sizing calculator](/string-sizing-calculator/) is the companion tool. It does not recommend a universal oversizing percentage or promise an energy, ROI or lifespan result.
 
+> [!KEYTAKEAWAYS]
+> - DC/AC ratio is the array's DC nameplate capacity (kWp) divided by the inverter's rated AC output (kWac). A declared 6 kWp array on a declared 5 kWac inverter gives 1.20, as an illustration only.
+> - No ratio is automatically optimal for India. The net annual energy effect of a larger array is a site-model result, not a fixed percentage.
+> - Check the exact inverter variant first: cold string voltage, hot operating voltage, operating current, short-circuit current, array-power condition and warranty.
+> - A flat AC trace is not proof of clipping. It can also be export control, curtailment or temperature derating, and annual clipping needs an interval-based model.
+> - The current Qbits public library gives no universal warranty rule that converts into a sitewide oversizing promise.
+
 ## How is DC/AC ratio calculated?
 
 **Divide the array's stated DC nameplate capacity by the inverter's stated rated AC output, after converting both to compatible units.** Record whether the capacities are measured at module nameplate conditions and which AC rating the inverter document uses. The ratio is dimensionless and describes sizing, not performance.
 
-`DC/AC ratio = array DC nameplate capacity (kWp) ÷ inverter rated AC output (kWac)`
+> [!FORMULA]
+> DC/AC ratio = array DC nameplate capacity (kWp) ÷ inverter rated AC output (kWac)
 
-Illustrative arithmetic only: a declared 6 kWp array paired with a declared 5 kWac inverter has a ratio of `6 ÷ 5 = 1.20`. This example does not show that the pairing is electrically permitted or economically useful. Voltage, current, MPPT, array-power, connection and warranty checks still control the design.
+> [!EXAMPLE] Illustrative arithmetic only
+> A declared 6 kWp array paired with a declared 5 kWac inverter has a ratio of 6 ÷ 5 = 1.20. This example does not show that the pairing is electrically permitted or economically useful. Voltage, current, MPPT, array-power, connection and warranty checks still control the design.
 
 Keep AC apparent-power fields separate from rated real-power fields. If a tender or model uses a different definition, state it before comparing ratios.
 
@@ -72,6 +81,8 @@ Do not frame all clipping as a design error. A project may accept some modelled 
 
 Use this gate before energy modelling:
 
+Table: Design gates to pass before energy modelling, with the evidence each needs
+
 | Design gate | Evidence required |
 | --- | --- |
 | Cold string voltage | Module data, design temperature and inverter maximum DC voltage |
@@ -89,6 +100,8 @@ The [inverter datasheet guide](/blog/how-to-read-solar-inverter-datasheets/) exp
 **Model several feasible array configurations with the same weather file, loss framework, inverter model, operating rules and economic boundary.** Change the array layout and any dependent electrical inputs, then report annual energy, clipping, export or self-consumption effects and uncertainty for each case.
 
 A comparison table should look like this:
+
+Table: Template for comparing DC/AC scenarios, to be filled in from the site model
 
 | Model field | Scenario A | Scenario B | Scenario C |
 | --- | --- | --- | --- |
@@ -126,14 +139,15 @@ Ask the supplier for the exact model manual, any qualified array-power guidance 
 
 At minimum, record:
 
-1. Module, inverter and firmware or document revision.
-2. Array capacity and rated AC field used in the ratio.
-3. String and MPPT checks.
-4. Simulation method, interval and weather source.
-5. Energy disposition: self-consumed, exported, curtailed or stored.
-6. Cost and value inputs with observation dates.
-7. Warranty or supplier statement relied upon.
-8. Engineering and commercial approvers.
+> [!CHECKLIST] Design record for the selected ratio
+> - Module, inverter and firmware or document revision.
+> - Array capacity and rated AC field used in the ratio.
+> - String and MPPT checks.
+> - Simulation method, interval and weather source.
+> - Energy disposition: self-consumed, exported, curtailed or stored.
+> - Cost and value inputs with observation dates.
+> - Warranty or supplier statement relied upon.
+> - Engineering and commercial approvers.
 
 [Download current Qbits datasheets](/download-datasheets/) or [request model-specific documents](/contact-us/) before finalising a scenario. Qualified engineering review remains required.
 

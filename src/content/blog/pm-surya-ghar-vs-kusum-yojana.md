@@ -4,7 +4,7 @@ excerpt: "PM Surya Ghar vs KUSUM: homes use PM Surya Ghar for rooftop subsidies;
 description: "PM Surya Ghar vs KUSUM: homes use PM Surya Ghar for rooftop subsidies, farmers use KUSUM for pump solarisation and ground-mounted systems. 2026 comparison."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "13 min"
 image: "/og/blog-pm-surya-ghar-vs-kusum-yojana.webp"
 author: "Nirav Dhanani"
@@ -39,17 +39,18 @@ Two major government schemes, two different beneficiary groups, and considerable
 
 > **Direct answer.** PM Surya Ghar is for residential homeowners with a domestic electricity connection seeking rooftop solar subsidies. KUSUM Yojana is for farmers seeking to solarise agricultural pumps or install solar on agricultural land. The two schemes serve different beneficiary groups, different connection types, and different MNRE objectives. Choosing the wrong scheme results in an ineligible application.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - PM Surya Ghar covers residential rooftop solar on a domestic electricity connection; KUSUM covers agricultural pumps and farmland-based solar.
 > - PM Surya Ghar pays up to ₹78,000 central subsidy for a 3 kW system; KUSUM pays 30% central plus roughly 30% state subsidy, leaving the farmer around 40% of the cost.
 > - KUSUM has three components: Component A (leasing land for 0.5–2 MW ground-mounted plants), Component B (standalone off-grid solar pumps), and Component C (solarising existing grid-connected pumps).
 > - PM Surya Ghar applications average 45–90 days through a single national portal; KUSUM applications run 3–12 months through state nodal agencies.
-
 > - A household with both a home and farmland can apply to both schemes at once, since they cover separate connections and separate installations.
 
 Both schemes fall under [MNRE's rooftop solar programme](/blog/mnre-rooftop-solar-scheme/) framework but address fundamentally different energy problems. According to [Bridge to India](https://bridgetoindia.com/){target="_blank" rel="noopener"}, India's residential solar market and agricultural solar market are both growing at over 35% annually but require completely different policy interventions. Understanding the distinction takes five minutes and prevents weeks of misdirected applications.
 
 ## Scheme Overview: Side-by-Side Comparison
+
+Table: PM Surya Ghar and KUSUM Yojana compared on beneficiary, subsidy, portal, vendor and timeline
 
 | Dimension | PM Surya Ghar (Muft Bijli Yojana) | KUSUM Yojana |
 | --- | --- | --- |
@@ -70,11 +71,12 @@ Both schemes fall under [MNRE's rooftop solar programme](/blog/mnre-rooftop-sola
 
 [PM Surya Ghar](/glossary/pm-surya-ghar/) is the right choice if your situation matches all of these criteria:
 
-- You own a house, flat, or independent dwelling
-- Your electricity connection is in the residential/domestic category
-- Your roof has 10 to 45 square metres of unshaded south-facing area (for a 1 to 3 kW system)
-- You pay a monthly electricity bill of ₹2,000 or more that you want to reduce
-- You are eligible for the DISCOM's net metering programme in your state
+> [!CHECKLIST] PM Surya Ghar fits if all of these are true
+> - You own a house, flat, or independent dwelling
+> - Your electricity connection is in the residential/domestic category
+> - Your roof has 10 to 45 square metres of unshaded south-facing area (for a 1 to 3 kW system)
+> - You pay a monthly electricity bill of ₹2,000 or more that you want to reduce
+> - You are eligible for the DISCOM's net metering programme in your state
 
 The subsidy of up to ₹78,000 for a 3 kW system, combined with net metering income, typically delivers a 5 to 8 year payback period on a standard residential installation, as supported by [IRENA's India solar analysis](https://www.irena.org/){target="_blank" rel="noopener"} showing residential solar [IRRs](/glossary/irr/) of 15 to 22% in Indian metro markets. After payback, the solar system generates effectively free electricity for its remaining 20+ year life.
 
@@ -92,7 +94,10 @@ This component is best for large landholders with land that has low agricultural
 
 ### Component B: Standalone Solar Pumps
 
-Farmers without a grid connection who rely on diesel pumps for irrigation can replace them with standalone solar pumps. The central subsidy covers 30% of the benchmark cost; state subsidies add 30%; the farmer pays 40% (or takes a soft loan for 40%). The solar pump runs entirely off solar panels, no grid needed. A 5 HP solar pump costs approximately ₹1.5 lakh after subsidies in most states, replacing a diesel pump that costs ₹80,000 to ₹1.5 lakh per year to operate. According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, over 200,000 standalone solar pumps have been installed under KUSUM Component B since 2020, with Rajasthan and Maharashtra leading installations. India has approximately 20 million agricultural pump sets, representing a massive long-term market for pump solarisation as diesel subsidies reduce. The programme also helps DISCOMs by reducing peak agricultural demand load that strains state grids during summer irrigation season.
+Farmers without a grid connection who rely on diesel pumps for irrigation can replace them with standalone solar pumps. The central subsidy covers 30% of the benchmark cost; state subsidies add 30%; the farmer pays 40% (or takes a soft loan for 40%).
+
+> [!FORMULA]
+> Farmer's share under KUSUM Component B = 100% − 30% central − 30% state = 40% of the benchmark cost The solar pump runs entirely off solar panels, no grid needed. A 5 HP solar pump costs approximately ₹1.5 lakh after subsidies in most states, replacing a diesel pump that costs ₹80,000 to ₹1.5 lakh per year to operate. According to [Mercom India](https://www.mercomindia.com/){target="_blank" rel="noopener"}, over 200,000 standalone solar pumps have been installed under KUSUM Component B since 2020, with Rajasthan and Maharashtra leading installations. India has approximately 20 million agricultural pump sets, representing a massive long-term market for pump solarisation as diesel subsidies reduce. The programme also helps DISCOMs by reducing peak agricultural demand load that strains state grids during summer irrigation season.
 
 This component is ideal for farmers in areas with poor or absent grid connectivity.
 
@@ -108,6 +113,9 @@ Use this framework before approaching any installer or government office.
 
 ### The 3-Question Scheme Selector Framework
 
+> [!IMPORTANT] Connection type decides the scheme
+> A domestic connection points to PM Surya Ghar and an agricultural connection or farmland points to KUSUM. A household that has both can apply to both, separately, for separate installations. An application made under the wrong connection type is ineligible.
+
 1. **What is your electricity connection type?**: If you have a domestic connection at home, PM Surya Ghar. If you have an agricultural connection or want to use agricultural land, KUSUM. If you have both, you may be eligible for both, separately.
 2. **What problem are you solving?**: Reducing your home electricity bill: PM Surya Ghar. Eliminating diesel pump costs on your farm: KUSUM Component B or C. Generating income from barren land: KUSUM Component A.
 3. **Do you have a grid connection at the installation site?**: Home with grid connection: PM Surya Ghar (on-grid system, net metering). Farm with no grid: KUSUM Component B (standalone pump). Farm with grid: KUSUM Component C (grid-connected pump solarisation).
@@ -117,6 +125,8 @@ These three questions determine your scheme with no ambiguity. If your situation
 ## Financial Comparison: Net Cost After Subsidies
 
 Understanding actual net cost helps you compare the two schemes directly.
+
+Table: Net cost after central and state subsidy for a 3 kW home system, a 5 HP standalone pump and a 7.5 kW pump solarisation
 
 | Scenario | Gross Cost | Central Subsidy | State Subsidy (avg) | Net Farmer/Homeowner Cost |
 | --- | --- | --- | --- | --- |

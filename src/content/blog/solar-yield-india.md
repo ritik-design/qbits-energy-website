@@ -4,7 +4,7 @@ excerpt: "Solar yield in India ranges from 1,200 to 1,800 kWh per kWp per year d
 description: "Solar yield in India ranges 1,200-1,800 kWh per kWp a year by state. Use these benchmarks to check any installer's generation promise before you sign."
 category: "Industry"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "21 min"
 image: "/og/blog-solar-yield-india.webp"
 author: "Keyur Rakholiya"
@@ -41,13 +41,12 @@ faqs:
 
 Every solar installer in India quotes a generation number ("your 5 kW system will generate 7,000 units per year") but very few buyers know how to verify whether that number is credible. A one-page state-by-state yield table changes that. Once you know that Karnataka delivers 1,400 to 1,500 [kWh per kWp](https://heavendesigns.in/glossary/kwh-per-kwp/) per year, you can divide 7,000 by 5 kW and arrive at 1,400 kWh per kWp, which sits squarely in range. Or you might get a quote promising 2,000 kWh per kWp for a West Bengal rooftop. That number would be 55 percent above benchmark and a clear red flag.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Solar yield in India ranges from about 1,200 kWh/kWp/year in the east and northeast to 1,800 kWh/kWp/year in western Rajasthan.
 > - [Specific yield](https://www.surgepv.com/glossary/specific-yield) = Annual GHI × Performance Ratio; it is the scale-independent number that lets a 3 kWp home and a 500 kWp factory use the same benchmark.
-> - Use the 3-Factor Yield Verification Method: check the state benchmark, apply realistic loss factors, and verify orientation/tilt before trusting a generation promise.
+> - Use the 3-Factor Yield Verification Method: check the state benchmark, apply realistic loss factors, and verify orientation/tilt before trusting a generation promise. A generation estimate that is not backed by written loss assumptions and a state benchmark reference is not verifiable and should be questioned.
 > - Combined system losses (soiling, shading, inverter, DC cable, mismatch) typically total 10–18% of the gross benchmark yield.
 > - Inverter weighted-average efficiency alone can account for a 1 to 3 percentage-point swing in annual yield, worth tens of thousands of rupees over 12 years on a mid-size system.
-> - A generation estimate that is not backed by written loss assumptions and a state benchmark reference is not verifiable and should be questioned.
 
 > **Direct answer.** Solar yield in India ranges from 1,200 kWh per kWp per year in eastern states to 1,800 kWh per kWp per year in Rajasthan, based on NREL NSRDB and IRENA irradiance data. Apply the 3-Factor Yield Verification Method (benchmark, losses, orientation) to sanity-check any installer's generation promise before you sign.
 
@@ -59,11 +58,14 @@ Kilowatt-hours per kilowatt-peak per year (kWh/kWp/yr) answers a simple question
 
 The metric is built on [global horizontal irradiance (GHI)](/glossary/ghi/) (the total solar radiation hitting the ground at your location) combined with the system's [performance ratio (PR)](/glossary/pr/), which captures every loss between the sun and the meter. The relationship is:
 
-**Specific Yield (kWh/kWp/yr) = Annual GHI (kWh/m²) × Performance Ratio**
+> [!FORMULA]
+> Specific Yield (kWh/kWp/yr) = Annual GHI (kWh/m²) × Performance Ratio
 
 For a site in Jaipur with 2,050 kWh/m² annual GHI and a PR of 0.80, the expected yield is 1,640 kWh/kWp. For a site in Kolkata with 1,580 kWh/m² GHI and the same PR, the yield drops to 1,264 kWh/kWp.
 
 The practical value of this metric is scale-independence. Your 5 kWp home system and a 1 MWp industrial rooftop in the same city should deliver essentially the same kWh per kWp. When a specific-yield number deviates significantly from the state benchmark, something is wrong with either the installation quality or the estimate.
+
+Table: Four solar performance metrics: formula and use case
 
 | Metric | Formula | Use case |
 | --- | --- | --- |
@@ -94,6 +96,8 @@ For C&I projects above 100 kWp, bankable yield studies typically use Solargis or
 
 The following table gives fixed-tilt rooftop yield benchmarks for major Indian states. These figures assume south-facing panels at optimal tilt, monthly cleaning, no significant shading, and a good-quality inverter operating at 95 to 97 percent weighted average efficiency. The benchmark is a gross figure before accounting for soiling variation, specific shading conditions, or suboptimal orientation.
 
+Table: Fixed-tilt rooftop solar yield benchmarks by Indian state (NREL NSRDB, IRENA Global Atlas, NIWE)
+
 | State | Annual GHI (kWh/m²) | Rooftop Yield Range (kWh/kWp/yr) | Benchmark Mid-point |
 | --- | --- | --- | --- |
 | Rajasthan | 2,000 – 2,200 | 1,700 – 1,800 | 1,750 |
@@ -118,6 +122,25 @@ The following table gives fixed-tilt rooftop yield benchmarks for major Indian s
 
 Sources: [NREL NSRDB](https://nsrdb.nrel.gov/), [IRENA Global Atlas](https://www.irena.org/Data/View-data-by-topic/Energy-Transition/REmap), [NIWE Solar Resource Atlas](https://niwe.res.in/).
 
+```chart
+type: hbar
+title: Rooftop solar yield range for selected Indian states, kWh per kWp per year
+unit: "kWh/kWp"
+source: "Fixed-tilt rooftop yield benchmarks in this article's state table, derived from NREL NSRDB, IRENA Global Atlas and NIWE Solar Resource Atlas data (2026)"
+sourceUrl: https://nsrdb.nrel.gov/
+note: "Selected states from the table above. Benchmarks assume south-facing panels at optimal tilt, monthly cleaning and no significant shading."
+decimals: 0
+data:
+  - { label: "Rajasthan", min: 1700, max: 1800 }
+  - { label: "Gujarat", min: 1600, max: 1700 }
+  - { label: "Maharashtra", min: 1500, max: 1600 }
+  - { label: "Karnataka", min: 1400, max: 1520 }
+  - { label: "Delhi / NCR", min: 1400, max: 1500 }
+  - { label: "Uttar Pradesh", min: 1320, max: 1480 }
+  - { label: "West Bengal", min: 1200, max: 1300 }
+  - { label: "Assam / NE States", min: 1150, max: 1300 }
+```
+
 ### Why Rajasthan Leads by Such a Wide Margin
 
 Western Rajasthan is one of the top ten solar resource zones in the world. Jaisalmer district averages over 6 peak sun hours per day, annual GHI exceeds 2,100 kWh/m², and clear-sky days number over 300 per year. The Thar Desert's dry air and low humidity mean minimal diffuse scattering, so a larger fraction of the irradiance arrives as direct beam, the most productive component for fixed-tilt panels. SECI utility tenders in Rajasthan are bid at yields of 1,800 to 1,950 kWh/kWp for tracker-mounted bifacial systems.
@@ -136,6 +159,7 @@ Kerala, West Bengal, and Odisha receive less annual irradiance not because of la
 
 This method gives any buyer (from a homeowner with a 5 kWp quote to a factory manager evaluating a 500 kWp proposal) a three-step process to verify whether an installer's generation promise is credible before signing anything.
 
+<!-- steps -->
 1. **State Benchmark Check**: Divide the quoted annual generation (kWh) by the system capacity (kWp). Compare the result to your state's benchmark range from the table above. The quotient should fall within the range, or the installer must provide a documented reason it does not. A number more than 10 percent above the range upper bound is a red flag.
 
 2. **Loss-Adjusted Reality Check**: Take the state mid-point benchmark and apply realistic loss factors for your specific site. Subtract 5 to 10 percent for soiling (monthly cleaning assumed), 2 to 5 percent for partial shading if any nearby obstructions exist, 1 to 3 percent for inverter losses, and 1 to 2 percent for DC cable and mismatch losses. The resulting net figure should be close to what the installer has promised. If their promise equals the gross benchmark without acknowledging any losses, the estimate is optimistic.
@@ -190,6 +214,8 @@ Maharashtra benchmark: 1,500 to 1,600 kWh/kWp/year. Quoted yield: 1,60,000 ÷ 10
 
 **Step 2, Loss-Adjusted Reality Check**
 
+Table: Loss-adjusted yield for the Pune 100 kWp C&I quote
+
 | Loss factor | Estimate for this site |
 | --- | --- |
 | Soiling (monthly cleaning planned) | −8% |
@@ -205,7 +231,7 @@ The installer's promise of 1,60,000 kWh implies zero soiling and minimal other l
 
 The roof is flat with a south-facing option. The installer proposes 10-degree ballasted tilt (slightly below the optimal 19 degrees for Pune's latitude of 18.5°N). The tilt adjustment reduces yield by approximately 2 to 3 percent versus optimal tilt. This is acceptable for a flat-roof installation and does not change the benchmark materially.
 
-**Conclusion**: The quote is overstated by approximately 11 to 14 percent. Requesting a revised generation estimate with explicit loss assumptions is reasonable. If the installer cannot or will not provide one, that is valuable information about the quality of their engineering. Installers who want every proposal to pass this kind of scrutiny by default typically standardise their estimates through a dedicated [solar quotation system](https://quickestimate.co/features/quotation-system/) rather than an ad-hoc spreadsheet, so loss assumptions and benchmark sources are documented on every quote automatically.
+**Conclusion**: The quote is overstated by approximately 11 to 15 percent. Requesting a revised generation estimate with explicit loss assumptions is reasonable. If the installer cannot or will not provide one, that is valuable information about the quality of their engineering. Installers who want every proposal to pass this kind of scrutiny by default typically standardise their estimates through a dedicated [solar quotation system](https://quickestimate.co/features/quotation-system/) rather than an ad-hoc spreadsheet, so loss assumptions and benchmark sources are documented on every quote automatically.
 
 For context on how this yield figure feeds into the financial case, see the [LCOE analysis for C&I solar in India](/blog/lcoe-solar-india/), which shows how the per-unit generation cost compares to grid tariffs across Indian states.
 
@@ -214,6 +240,8 @@ For context on how this yield figure feeds into the financial case, see the [LCO
 Most yield benchmark discussions focus on location and panel quality, overlooking the inverter's contribution to final kWh output. Inverter efficiency is part of the [performance ratio (PR)](/glossary/pr/) calculation, and it compounds across 25 years of plant life.
 
 The inverter accounts for 1 to 3 percentage points of annual yield, which sounds small but adds up. Consider two 50 kWp systems in Gujarat (benchmark 1,650 kWh/kWp), one with a 98 percent peak efficiency inverter operating at 96 percent weighted average, and one with a 95 percent peak efficiency unit at 92 percent weighted average:
+
+Table: Premium vs budget inverter: yield and revenue over 12 years, 50 kWp in Gujarat
 
 | Parameter | Premium inverter | Budget inverter |
 | --- | --- | --- |
@@ -262,21 +290,24 @@ Getting the yield estimate right at the proposal stage prevents downstream dispu
 
 Every rupee in the financial case for solar depends on the yield estimate being accurate. The [solar inverter payback period](/blog/solar-inverter-payback-period/) calculation follows directly from the yield number:
 
-**Annual savings = Net Yield (kWh/kWp) × System capacity (kWp) × Electricity tariff (₹/kWh)**
+> [!FORMULA]
+> Annual savings = Net Yield (kWh/kWp) × System capacity (kWp) × Electricity tariff (₹/kWh)
 
-**Simple payback = Total system cost ÷ Annual savings**
+> [!FORMULA]
+> Simple payback = Total system cost ÷ Annual savings
 
-For a 10 kWp system in Pune costing ₹4.5 Lakh:
-- Gross benchmark yield: 1,550 kWh/kWp
-- Net yield after 12% losses: 1,364 kWh/kWp
-- Annual generation: 13,640 kWh
-- Annual savings at ₹9/unit: ₹1,22,760
-- Simple payback: 3.67 years
-
-If an installer uses 1,700 kWh/kWp (Rajasthan-level yield for a Pune system):
-- Annual generation: 17,000 kWh
-- Annual savings: ₹1,53,000
-- Quoted payback: 2.94 years, nearly 9 months faster than the realistic figure
+> [!EXAMPLE] 10 kWp system in Pune costing ₹4.5 Lakh
+> - Gross benchmark yield: 1,550 kWh/kWp
+> - Net yield after 12% losses: 1,364 kWh/kWp
+> - Annual generation: 13,640 kWh
+> - Annual savings at ₹9/unit: ₹1,22,760
+> - Simple payback: 3.67 years
+>
+> If an installer uses 1,700 kWh/kWp (Rajasthan-level yield for a Pune system):
+>
+> - Annual generation: 17,000 kWh
+> - Annual savings: ₹1,53,000
+> - Quoted payback: 2.94 years, nearly 9 months faster than the realistic figure
 
 That 9-month optimism feels small at signing. Three years into operation, when actual generation is running 20 percent below promise, it does not feel small to the buyer. Accurate yield benchmarks protect buyers from this outcome and protect installers from disputes. C&I buyers modelling this trade-off at project scale often run the numbers through a dedicated [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) rather than a static spreadsheet, since IRR and payback are sensitive to small changes in the yield assumption. The [net metering framework](/blog/net-metering-india-complete-guide/) in most states also depends on accurate yield estimates to determine the export credit the buyer will receive, making precision doubly important.
 
@@ -287,6 +318,8 @@ The [Capacity Utilisation Factor (CUF)](/glossary/cuf/) provides a related check
 ## Seasonal Variation: Why Monthly Data Matters as Much as Annual
 
 Annual yield benchmarks are useful for financial planning, but monthly yield variation is what operational monitoring must track. Every Indian location has a seasonal pattern shaped by monsoon, winter haze, and summer irradiance peaks.
+
+Table: Indicative monthly generation index by state (100% = annual yield divided equally across 12 months)
 
 | Month | Rajasthan (% of annual/12) | Maharashtra | Karnataka | West Bengal |
 | --- | --- | --- | --- | --- |
@@ -303,7 +336,7 @@ Annual yield benchmarks are useful for financial planning, but monthly yield var
 | November | 90% | 95% | 98% | 92% |
 | December | 80% | 84% | 87% | 80% |
 
-Values expressed as percentage of monthly average generation (annual yield divided equally across 12 months = 100%).
+Values expressed as percentage of monthly average generation (annual yield divided equally across 12 months = 100%). These indices are indicative and are not normalised: the twelve values average about 95% (Rajasthan), 92% (Maharashtra), 92% (Karnataka) and 86% (West Bengal), so use them to compare one month with another, not to rebuild an annual total.
 
 The practical implication: if a monitoring system shows June generation at 90 percent of the monthly average for Rajasthan, that is a green flag. If a Karnataka system shows June at 90 percent when the expected figure is 80 percent, the data suggests excellent performance relative to seasonal norms. Compare actual monthly generation to the seasonal pattern, not to the annual average, and the monitoring data becomes far more diagnostic.
 

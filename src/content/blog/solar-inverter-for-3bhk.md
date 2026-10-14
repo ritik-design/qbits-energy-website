@@ -4,7 +4,7 @@ excerpt: "The right solar inverter for a 3 BHK home is a 5 kW on-grid or hybrid 
 description: "Size a solar inverter for a 3 BHK home in India: load calculator, 5 kW system cost, PM Surya Ghar subsidy, and on-grid vs hybrid decision guide."
 category: Buying Guide
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-solar-inverter-for-3bhk.webp"
 author: "Keyur Rakholiya"
@@ -30,7 +30,7 @@ faqs:
   - q: "Can a 3 BHK home run two ACs on solar power?"
     a: "Yes, a 5 kW solar system can power two 1.5-ton inverter ACs during daytime hours. Each 1.5-ton inverter AC draws 1–1.8 kW at steady state, so both together consume 2–3.6 kW. Combined with other loads, the total daytime draw of a 3 BHK with both ACs running reaches 4.5–6 kW. A 5 kW inverter handles this comfortably during peak sun hours (10 AM–3 PM). Outside these hours, grid or battery supplements the shortfall. A hybrid inverter with a 10 kWh battery can sustain both ACs for 3–4 additional hours post-sunset."
   - q: "How long does it take to recover the cost of a solar inverter for a 3 BHK home?"
-    a: "At an average electricity tariff of ₹7–9 per unit and a monthly bill of ₹8,000–12,000, a 5 kW on-grid solar system after PM Surya Ghar subsidy typically pays back in 5–7 years. The system generates savings of ₹25,000–40,000 annually by offsetting 550–700 kWh per month at the prevailing tariff. Net metering credits further reduce payback for surplus exported to the grid. Over a 25-year panel life and 12-year inverter warranty, the cumulative saving on a 3 BHK exceeds ₹4–5 Lakh on a net-present-value basis."
+    a: "At an average electricity tariff of ₹7–9 per unit and a monthly bill of ₹8,000–12,000, a 5 kW on-grid solar system after PM Surya Ghar subsidy typically pays back in 5–7 years. The system generates savings of ₹25,000–40,000 annually by offsetting 550–700 kWh per month at the prevailing tariff. Net metering credits further reduce payback for surplus exported to the grid. Over a 25-year panel life and the inverter's warranty period (confirm the written term for the exact model), the cumulative saving on a 3 BHK exceeds ₹4–5 Lakh on a net-present-value basis."
   - q: "Does a solar inverter for a 3 BHK home need to be three-phase?"
     a: "Most 3 BHK homes in Indian cities are connected to a single-phase 230 V supply, so a single-phase 5 kW inverter is sufficient and more cost-effective. Three-phase connections are standard for very large homes, commercial premises, or properties with heavy three-phase equipment. If your home has a three-phase connection (you will see three live wires at the meter), a three-phase inverter is required to balance the phases and stay compliant with DISCOM regulations. Check your electricity bill or meter tag - single-phase connections are labelled 1Ph or 230 V; three-phase connections show 3Ph or 415 V."
   - q: "Is a solar inverter with battery backup necessary for a 3 BHK flat in an apartment?"
@@ -43,7 +43,7 @@ faqs:
 
 Every year, thousands of Indian families living in 3 BHK homes receive electricity bills between ₹8,000 and ₹15,000 per month and conclude that solar is the logical next step. The question that follows ("what size solar inverter do I need for my 3 BHK?") sounds simple but conceals a cascade of decisions: how many kilowatts, on-grid or hybrid, how much roof space, which subsidy slab, and how long until the investment pays back. This guide answers all of those questions with actual numbers, a step-by-step load calculation for a real Delhi home, and a decision framework that removes the guesswork.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A 3 BHK home typically needs a 5 kW solar inverter sized for a 4–7 kW peak load from two ACs, a refrigerator, geyser, and lighting.
 > - On-grid inverters win on payback (2–4 years) in reliable-grid cities like Bangalore and Chennai; hybrid inverters with a 5–10 kWh battery suit power-cut zones like UP and Bihar.
 > - [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy caps at ₹78,000 for a 5 kW system, since only the first 3 kW slab qualifies for central subsidy.
@@ -59,6 +59,8 @@ The sizing process for a [solar inverter](/glossary/solar-inverter/) is not one-
 Before picking an inverter size, the starting point is an honest accounting of what runs in the house during the day. This is not a theoretical exercise, every appliance that runs during solar hours reduces how much you export to the grid or how much battery you need.
 
 The table below represents a representative 3 BHK in Delhi with two 1.5-ton inverter ACs (common in bedrooms), one refrigerator, one washing machine, a water heater (geyser), LED lighting, ceiling fans, and a television. Each appliance is listed with its rated wattage and estimated daily hours of use during peak solar hours (8 AM to 6 PM).
+
+Table: Appliance loads for a representative Delhi 3 BHK, with rated power and daily solar-hour energy
 
 | Appliance | Rated Load (W) | Daily Solar-Hour Use (hrs) | Daily Energy (Wh) |
 | --- | --- | --- | --- |
@@ -76,6 +78,9 @@ The table below represents a representative 3 BHK in Delhi with two 1.5-ton inve
 
 Three observations stand out. First, the peak simultaneous load when both ACs, geyser, and other appliances run together reaches approximately 5.5–6.2 kW. Second, the daily solar-hour energy consumption is roughly 17–18 kWh, of which a 5 kW system generating 5–6 peak sun hours produces 25–30 kWh, more than enough to cover daytime use and export surplus. Third, the geyser pulls 2 kW for a short burst: schedule it before 10 AM or after 3 PM if you want to avoid a momentary overload on the inverter.
 
+> [!TIP] Move the geyser
+> The 2 kW geyser is the biggest short burst in the table above. Running it before 10 AM or after 3 PM keeps it away from the hours when both ACs are on.
+
 The load data above aligns with field surveys conducted by the [Ministry of New and Renewable Energy (MNRE)](https://mnre.gov.in/) showing average residential rooftop consumption of 300–600 kWh per month for households in the 2–4 BHK category. India's residential rooftop solar installed base surpassed 3 GW in 2025, with an average system size of 3.5 kW per household, confirming that 3 BHK buyers are gravitating toward 5 kW as the next natural step, according to [IRENA's Renewables Capacity Statistics 2025](https://www.irena.org/publications/2025/Mar/Renewable-capacity-statistics-2025).
 
 ## Step-by-Step Load Calculation for a 3 BHK Home
@@ -89,6 +94,9 @@ Use the appliance table in §1 above as a template. Pull the rated wattage from 
 
 **Step 2: Identify which loads run simultaneously during daytime.**
 Not every appliance runs at once. A realistic simultaneous load for a 3 BHK occupied by a family with children at school during the day might be: both ACs off, refrigerator running, one fan per room (3 rooms), TV and laptop, totalling roughly 1,200 W. On a weekend afternoon with both ACs on and geyser running briefly: ~6,000 W.
+
+> [!FORMULA]
+> Effective design load (W) = theoretical peak load × diversity factor (0.75) × headroom (1.2)
 
 **Step 3: Apply a diversity factor of 0.7–0.8.**
 Installers use a diversity factor to account for the statistical improbability that every load peaks simultaneously. For a residential 3 BHK, the industry standard is 0.75. Applied to the 6,200 W theoretical peak: 6,200 × 0.75 = **4,650 W effective design load**.
@@ -105,6 +113,7 @@ This is the question every 3 BHK homeowner faces after settling on 5 kW: should 
 
 ### The 3BHK Inverter Decision Framework
 
+<!-- steps -->
 1. **Daily power cut duration**: measure the average cut duration in your area over the past three months. Fewer than 2 hours per day: on-grid wins on payback. More than 4 hours per day: hybrid is justified. Between 2–4 hours: run the payback calculation in Step 2 below before deciding.
 
 2. **Critical load requirement**: identify which loads must run through a power cut. Ceiling fans, LED lights, refrigerator, and Wi-Fi are "essential loads" at roughly 600–800 W. Both ACs running through a cut require 3–4 kW of battery capacity minimum. A 5 kWh LFP battery at 80% DoD delivers 4 kWh, sufficient for 4–5 hours of essential loads or 1.5–2 hours of both ACs. For the full methodology behind sizing that battery bank correctly, see [how to size a battery for a hybrid solar inverter](/blog/battery-sizing-hybrid-solar/); SurgePV's [battery and energy storage sizing hub](https://surgepv.com/hub/energy-storage/battery-sizing/) covers the underlying engineering in more depth for readers comparing chemistries and bank configurations.
@@ -123,6 +132,8 @@ The PM Surya Ghar Muft Bijli Yojana is the largest residential rooftop solar sub
 
 Here is how the subsidy structure applies to a 3 BHK installing a 5 kW system:
 
+Table: PM Surya Ghar central subsidy by capacity slab for a 5 kW home system
+
 | System Slab | Rate | Subsidy Amount |
 | --- | --- | --- |
 | First 2 kW | ₹30,000 per kW | ₹60,000 |
@@ -139,6 +150,8 @@ The subsidy is credited directly to the homeowner's bank account after the DISCO
 ## Real Cost Breakdown: 5 kW Solar System for a 3 BHK in Delhi
 
 ### Component-Level Cost Table (Delhi, 5 kW On-Grid, June 2026)
+
+Table: Component-level cost of a 5 kW on-grid system in Delhi, June 2026, before and after subsidy
 
 | Component | Specification | Cost (₹) |
 | --- | --- | --- |
@@ -162,6 +175,8 @@ The financial case for solar on a 3 BHK depends on three variables: how much the
 
 ### Generation Estimates by City (5 kW System)
 
+Table: Estimated monthly and annual generation of a 5 kW system by city
+
 | City | Avg. Peak Sun Hours/Day | Monthly Generation (kWh) | Annual Generation (kWh) |
 | --- | --- | --- | --- |
 | Jodhpur / Jaisalmer | 5.5 | 770 | 9,240 |
@@ -176,9 +191,29 @@ The financial case for solar on a 3 BHK depends on three variables: how much the
 
 Source: Irradiance data from the [NREL National Solar Radiation Database (NSRDB)](https://nsrdb.nrel.gov/), adjusted for 15% system losses (inverter efficiency, cable losses, dust, temperature derating).
 
-For the Delhi example: 672 kWh generated per month against a household consumption of 500 kWh leaves 172 kWh of surplus exported to the grid. At Delhi's BRPL net metering credit rate of approximately ₹3.5 per exported unit, that earns ₹602 per month in credit. Combined with the 500 kWh offset at the billing rate of ₹7–9 per unit, total monthly savings reach ₹4,100–5,100.
+```chart
+type: hbar
+title: Estimated monthly generation of a 5 kW system by city
+unit: kWh
+source: "NREL National Solar Radiation Database (NSRDB) irradiance, adjusted for system losses, as listed in the generation table above (article updated 14 October 2026)"
+sourceUrl: https://nsrdb.nrel.gov/
+note: "Estimates, not guarantees. Actual output depends on roof tilt, shading and dust."
+data:
+  - { label: "Jodhpur / Jaisalmer", value: 770 }
+  - { label: "Ahmedabad", value: 728 }
+  - { label: "Hyderabad", value: 700 }
+  - { label: "Chennai", value: 686 }
+  - { label: "Delhi", value: 672 }
+  - { label: "Bangalore", value: 658 }
+  - { label: "Mumbai", value: 630 }
+  - { label: "Bhubaneswar", value: 588 }
+  - { label: "Kolkata", value: 560 }
+```
 
-At ₹1,13,000 net cost after subsidy (from the Delhi example above), payback = ₹1,13,000 ÷ ₹4,600 average monthly savings = **24.5 months, just over 2 years**. Even at the full unsubsidised gross cost of ₹1,91,000, payback is approximately 3.5 years.
+> [!EXAMPLE] Delhi 3 BHK payback
+> For the Delhi example: 672 kWh generated per month against a household consumption of 500 kWh leaves 172 kWh of surplus exported to the grid. At Delhi's BRPL net metering credit rate of approximately ₹3.5 per exported unit, that earns ₹602 per month in credit. Combined with the 500 kWh offset at the billing rate of ₹7–9 per unit, total monthly savings reach ₹4,100–5,100.
+>
+> At ₹1,13,000 net cost after subsidy (from the Delhi example above), payback = ₹1,13,000 ÷ ₹4,600 average monthly savings = **24.5 months, just over 2 years**. Even at the full unsubsidised gross cost of ₹1,91,000, payback is approximately 3.5 years.
 
 > **2–4 years.** Typical payback period for a 5 kW on-grid solar system for a 3 BHK home in Delhi after PM Surya Ghar subsidy, at prevailing electricity tariffs of ₹7–9 per unit. *Source - [Mercom India residential solar market tracker](https://www.mercomindia.com/), Q1 2026.*
 
@@ -187,6 +222,8 @@ This payback is significantly faster than the 6–8 years commonly quoted in old
 ## On-Grid vs Hybrid: Pros, Cons, and Who Should Choose Which
 
 The decision guide in §3 produces a binary output, but the trade-offs deserve a fuller treatment for 3 BHK homeowners who are evaluating both paths simultaneously.
+
+Table: On-grid versus hybrid 5 kW system for a 3 BHK home
 
 | | On-Grid (5 kW) | Hybrid (5 kW + 5 kWh battery) |
 | --- | --- | --- |
@@ -259,6 +296,9 @@ Buying a solar inverter is a decision that stays with the home for 12–25 years
 **Not accounting for shading from new construction.** A neighbouring building under construction today may cast a shadow on your south-facing roof within two years. Install panels with east-west bias or choose a dual-[MPPT](/glossary/mppt/) inverter that handles partial shading without the entire string dropping in output.
 
 **Skipping the net metering application.** An on-grid inverter without a net meter is technically off-grid, it cannot feed surplus power to the grid, so the system shuts down when household consumption falls below generation. Net metering is mandatory for an on-grid system to function correctly and for the PM Surya Ghar subsidy to remain valid. The [net metering application guide](/blog/how-to-apply-net-metering-india/) covers the step-by-step process for each DISCOM.
+
+> [!WARNING] Empanelled vendor only
+> The PM Surya Ghar subsidy claim needs a DISCOM-empanelled vendor. An un-empanelled contractor can void the claim even when the modules are on the ALMM list.
 
 **Accepting a non-empanelled vendor.** PM Surya Ghar subsidy requires the installation to be performed by a DISCOM-empanelled vendor. Installing through an un-empanelled contractor (even with ALMM-listed equipment) voids the subsidy claim. Verifying installer credentials is one of the [eight verification steps for finding a reliable solar installer](/blog/find-reliable-solar-installer/) that every buyer should complete before signing. Check the national portal before signing any contract, and run the final quotation against the [12-point solar quotation checklist](/blog/solar-quotation-checklist/) to confirm every line item is accounted for.
 

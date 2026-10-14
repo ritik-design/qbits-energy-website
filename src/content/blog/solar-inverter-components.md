@@ -44,11 +44,10 @@ This guide walks the inside of a string inverter part by part. For each componen
 
 This guide is about the parts, not the circuit. The signal path and topology are covered in the [solar inverter circuit diagram guide](/blog/solar-inverter-circuit-diagram/). External cabling sits in the [wiring diagram guide](/blog/solar-inverter-wiring-diagram/), and battery side cabling in the [battery connection diagram](/blog/inverter-battery-connection-diagram/). Read those for how things connect. Read this one for what the things are.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - DC link capacitors set the practical service life of most inverters, because electrolyte loss tracks temperature far more strongly than load.
 > - A general engineering rule of thumb holds that capacitor endurance roughly halves per 10°C rise, which makes mounting location a design decision, not a site convenience.
-> - A surge protection device is a consumable. Metal oxide varistors degrade with every surge they clamp.
-> - Fans and the grid disconnect relay are the other two wear items with finite operation counts.
+> - A surge protection device is a consumable. Metal oxide varistors degrade with every surge they clamp. Fans and the grid disconnect relay are the other two wear items with finite operation counts.
 > - Most real water ingress happens at cable glands, not through the enclosure. A badly fitted gland defeats an IP66 rating entirely.
 > - Fans, external SPD cartridges and comms dongles are field replaceable. A failed power stage usually makes the unit a swap.
 
@@ -84,6 +83,8 @@ The DC link capacitors sit between the input stage and the switching stage. They
 
 Two families are in use. Aluminium electrolytics give large capacitance in a small volume at low cost. Film capacitors, usually metallised polypropylene, give less capacitance per rupee and per litre, but carry no liquid electrolyte, so they do not dry out.
 
+Table: Aluminium electrolytic versus metallised film DC link capacitors
+
 | Property | Aluminium electrolytic | Metallised film |
 | --- | --- | --- |
 | Capacitance density | High | Lower |
@@ -99,13 +100,25 @@ That table is the whole argument. An electrolytic loses electrolyte through its 
 
 Inputs. A DC link electrolytic rated for 5,000 hours of endurance at its 105°C limit. The 10°C rule above.
 
-Formula. Life = rated hours multiplied by 2 raised to the power of (rated temperature minus actual temperature) divided by 10.
+> [!FORMULA]
+> Life = rated hours × 2^((rated temperature − actual temperature) ÷ 10)
 
 Case A, unit mounted in shade with free airflow, capacitor sits at 75°C. 5,000 multiplied by 2 raised to the power of 3, giving **40,000 powered hours**.
 
 Case B, same unit on a west facing wall in direct afternoon sun, capacitor sits at 95°C. 5,000 multiplied by 2 raised to the power of 1, giving **10,000 powered hours**.
 
 A 20°C difference in where the installer hung the box is a 4x difference in expected capacitor endurance. This is arithmetic from a published rule of thumb, not field data, and inverters do not run at full load continuously, so the absolute hours are indicative. The ratio is the point.
+
+```chart
+type: bar
+title: Expected DC link capacitor endurance by mounting location
+unit: "hours"
+source: "Calculated in this article from a 5,000-hour rating at 105°C and the rule that endurance halves per 10°C rise, using the two cases above"
+note: "Indicative ratio, not field data."
+data:
+  - { label: "Shaded, free airflow (75°C)", value: 40000 }
+  - { label: "West wall in direct sun (95°C)", value: 10000 }
+```
 
 Ask whether the DC link uses film, electrolytics, or a mix, and ask for the temperature class and rated endurance hours. Then read the [inverter overheating guide](/blog/inverter-overheating/), because the mounting decision is usually worth more than the component upgrade.
 
@@ -177,6 +190,9 @@ Here is where field experience diverges from the datasheet. Ingress almost never
 4. Cables entering from above and running water down into the gland, with no drip loop.
 5. A gasket pinched or twisted after the cover was opened for service and closed in a hurry.
 
+> [!WARNING] The gland, not the enclosure, usually lets water in
+> IP66 describes the enclosure as tested, sealed, in a laboratory. A gland tightened onto a cable outside its clamping range, an open knockout covered with tape instead of a blanking plug, or a pinched gasket after a service visit defeats that rating on your wall.
+
 That is the practical meaning of an IP rating. IP66 describes the enclosure as tested, sealed, in a laboratory. It describes your installation only if the person who closed it up used the correct glands and torqued them properly. The rating belongs to the finished assembly on your wall, not to the brochure.
 
 Communication hardware is the last block. Qbits lists Wi-Fi with optional RS485 or GPRS across its on-grid and hybrid series, with a Bluetooth app additionally on the QB 225/320K-EHV. Physically this is a small radio module or a plug in dongle, and it is among the least reliable parts in the system, because it depends on site Wi-Fi, mobile coverage and a router somebody may have changed.
@@ -186,6 +202,8 @@ The implication is about diagnosis, not power. A dead dongle is not a dead inver
 ## Component to failure symptom, and what is field replaceable
 
 This is the table worth saving. It maps what you observe to the part most likely responsible, and says whether a service engineer can fix it on site.
+
+Table: Failure symptom, most likely inverter component, and whether it is field replaceable
 
 | Symptom | Most likely component | Field replaceable? |
 | --- | --- | --- |

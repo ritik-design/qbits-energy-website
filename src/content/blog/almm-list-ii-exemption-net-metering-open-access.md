@@ -38,6 +38,14 @@ faqs:
 
 Anyone managing a [net-metering](https://quickestimate.co/blog/almm-list-2-exemption-net-metering-open-access-2026) or open-access solar project through the second half of 2026 has been watching one date more closely than any other: the point at which the ALMM List-II solar cell requirement becomes unavoidable. The Ministry of New and Renewable Energy has now drawn that line clearly. The **ALMM List-II exemption** for these project categories runs until 31 December 2026, and there is no blanket extension beyond it. For EPCs and commercial developers, that turns a vague policy anxiety into a concrete commissioning deadline that every live project must now be measured against.
 
+> [!KEYTAKEAWAYS]
+> - Net-metering and open-access projects commissioned on or before 31 December 2026 keep the ALMM List-II exemption. From 1 January 2027 they must use ALMM List-I modules built on ALMM List-II cells.
+> - The 18 July 2026 MNRE memorandum (OM 283/53/2026) supersedes the 25 May 2026 order. The ministry has ruled out a blanket extension.
+> - The only other route is case-by-case relief for projects already substantially progressed, backed by dated evidence and filed through the national solar DCR portal.
+> - The reason for the hard date is the capacity gap: roughly 193 GW of approved module capacity against about 31 GW of domestic cell capacity, and in TOPCon about 172 GW against 10 GW.
+> - Treat mid-December as the effective cut-off, and run the 4-gate check at project kickoff and again at the 60-day mark.
+> - ALMM covers modules (List-I) and cells (List-II). There is no ALMM inverter list, so check the inverter's own model documents separately.
+
 > **Direct answer.** The ALMM List-II exemption gives [net-metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) and open-access renewable energy projects a limited window to commission without sourcing solar cells from ALMM List-II. Any such project commissioned on or before 31 December 2026 keeps the exemption; projects commissioned from 1 January 2027 must use ALMM List-I modules built on ALMM List-II cells. The ministry has ruled out a blanket extension, so the date is best treated as a hard commissioning target managed through the 4-Gate ALMM List-II Commissioning Check.
 
 > **Read the official notification.** The full MNRE Office Memorandum No. 283/53/2026-GRID SOLAR, dated 18 July 2026, sets out the [exemption window](https://www.heavengreenenergy.com/blog/almm-list-2-exemption-window-2026) in the ministry's own words. Keep a copy on the project file for DISCOM queries. **[Download the ALMM List-II exemption OM (PDF)](https://www.heavengreenenergy.com/documents/mnre-almm-list-2-exemption-om-283-53-2026.pdf)**
@@ -47,6 +55,8 @@ Anyone managing a [net-metering](https://quickestimate.co/blog/almm-list-2-exemp
 The rule that came into force on 1 June 2026 was straightforward on paper: net-metering and open-access renewable energy projects commissioned on or after that date had to source modules from ALMM List-I and cells from ALMM List-II. In practice, domestic cell supply was not ready for that switch across every technology, and developers with modules already built on non-approved cells faced stranded inventory. The July 2026 office memorandum resolves the near-term pressure without abandoning the policy: it extends the exemption to 31 December 2026 for the two named categories, then holds the line.
 
 The chronology matters, because the current position is the product of several notifications building on one another rather than a single announcement.
+
+Table: Chronology of the ALMM List-II cell requirement and the exemption window, December 2024 to December 2026
 
 | Date | Notification / event | What it established |
 | --- | --- | --- |
@@ -65,9 +75,17 @@ The single most important shift is psychological as much as regulatory. Before J
 
 Most confusion around this policy comes from mixing up three separate ALMM tracks. Getting the vocabulary right is the difference between a compliant bill of quantities and a rejected connection.
 
+### ALMM List-I: Solar Modules
+
+List-I is the approved list of solar PV modules and their manufacturers. A module must come from an enlisted maker to be accepted for covered projects.
+
 ### ALMM List-II: Solar Cells
 
 List-II is the newer track and the subject of the exemption window. It is the approved list of solar PV cells and their manufacturers. The intent is to close a loophole: a module could sit on List-I while being built on imported cells, which undercut the domestic-manufacturing goal. List-II requires the cell inside an approved module to come from an approved cell maker. This is what makes the requirement harder to meet, because India's cell manufacturing base is much smaller than its module base, a gap examined in detail in the [import duty and domestic manufacturing](/blog/bcd-import-duty-solar-inverters-india/) picture.
+
+### Inverters: no ALMM list
+
+MNRE's ALMM page publishes List-I for modules and List-II for cells. It does not publish an inverter list, so an inverter is verified separately through its exact model documents and the applicable scheme or DISCOM requirements.
 
 ## Who Qualifies: Net Metering and Open Access Projects Explained
 
@@ -85,6 +103,7 @@ Knowing the deadline is not the same as being ready for it. Projects miss compli
 
 ### The 4-Gate ALMM List-II Commissioning Check
 
+<!-- steps -->
 1. **Category gate:** Confirm in writing that the project is contracted as net-metering or open-access, and that the exemption therefore applies. Pull the connection agreement or bid condition, not the sales proposal. A project misclassified at this gate fails every gate after it.
 2. **Commissioning-date gate:** Fix a target commissioning date with real margin before 31 December 2026, not on it. Treat mid-December as the effective cut-off to absorb inspection delays, DISCOM scheduling, and the year-end backlog every installer will be fighting at once.
 3. **Sourcing gate:** Decide the cell-sourcing plan for anything that might slip past the window. If a project could realistically commission in early 2027, procure ALMM List-I modules built on ALMM List-II cells from the outset rather than gambling on the exemption. Carrying two procurement paths is cheaper than a stranded system.
@@ -98,7 +117,27 @@ To understand why the ministry held the deadline instead of removing it, look at
 
 > **~193 GW vs ~31 GW.** India's approved solar module manufacturing capacity dwarfs its domestic solar cell capacity, which is the structural gap ALMM List-II is designed to close. *Source: [Mercom India](https://www.mercomindia.com/developers-seek-almm-list-ii-extension-solar-manufacturers-push-back), 2026.*
 
-The gap is sharpest in the dominant cell technology. Approved module capacity in TOPCon runs to roughly 172 GW, while domestic TOPCon cell capacity is only around 10 GW. That imbalance is exactly what a cell-level rule exposes: modules can be built at scale, but not yet on domestically approved cells at the same scale. A blanket extension would have let approved modules keep drawing on imported cells indefinitely, removing the demand pull that new domestic cell lines need in order to justify their investment.
+The gap is sharpest in the dominant cell technology. Approved module capacity in TOPCon runs to roughly 172 GW, while domestic TOPCon cell capacity is only around 10 GW.
+
+```chart
+type: bar
+title: Approved module capacity against domestic cell capacity
+unit: "GW"
+source: "Mercom India, developers seek ALMM List-II extension and manufacturers push back, 2026, as cited in this article (approximate figures)"
+sourceUrl: https://www.mercomindia.com/developers-seek-almm-list-ii-extension-solar-manufacturers-push-back
+note: "Approximate capacity as reported. The MNRE ALMM portal separately lists 30.3 GW of enlisted List-II cell capacity as of 30 April 2026."
+series:
+  - name: "Approved module capacity"
+    data:
+      - { label: "All technologies", value: 193 }
+      - { label: "TOPCon", value: 172 }
+  - name: "Domestic cell capacity"
+    data:
+      - { label: "All technologies", value: 31 }
+      - { label: "TOPCon", value: 10 }
+```
+
+That imbalance is exactly what a cell-level rule exposes: modules can be built at scale, but not yet on domestically approved cells at the same scale. A blanket extension would have let approved modules keep drawing on imported cells indefinitely, removing the demand pull that new domestic cell lines need in order to justify their investment.
 
 At the same time, the approved cell base is growing. The ministry has continued to enlist new capacity through successive revisions of the list.
 
@@ -110,6 +149,8 @@ The demand side was equally loud. India installed 15.3 GW of solar in the first 
 
 The cleanest way to plan is to model both outcomes side by side: a project that commissions inside the window and one that slips past it. The commercial and compliance consequences diverge sharply.
 
+Table: Commissioned by 31 December 2026 versus from 1 January 2027, by sourcing and risk
+
 | | Commissioned by 31 Dec 2026 | Commissioned from 1 Jan 2027 |
 | --- | --- | --- |
 | **Cell sourcing** | ✓ Exemption applies, non-List-II cells accepted | ✗ Cells must come from ALMM List-II |
@@ -118,9 +159,11 @@ The cleanest way to plan is to model both outcomes side by side: a project that 
 | **Schedule pressure** | High, year-end commissioning crush | Lower, but higher component cost |
 | **Best for** | Projects already near completion | Projects genuinely starting fresh in 2027 |
 
-A project that misses the window is not penalised retroactively, but it loses the exemption and must meet the full requirement to connect. For a developer holding modules built on non-approved cells, that can mean re-procuring modules, which is a material cost and schedule hit. This is why the sourcing gate in the framework matters so much: a project with any realistic chance of slipping into 2027 should procure compliant modules from the start rather than treat the exemption as a certainty.
+> [!WARNING] Missing the window means full List-II compliance
+> A project that misses the window is not penalised retroactively, but it loses the exemption and must meet the full requirement to connect. For a developer holding modules built on non-approved cells, that can mean re-procuring modules, which is a material cost and schedule hit. This is why the sourcing gate in the framework matters so much: a project with any realistic chance of slipping into 2027 should procure compliant modules from the start rather than treat the exemption as a certainty.
 
-There is a second-order effect worth naming. Because everyone is targeting the same 31 December 2026 date, commissioning infrastructure, DISCOM inspection slots, and installer bandwidth will be under maximum strain in the final weeks of the year. A project that is technically ready but cannot secure a DISCOM inspection slot before year-end is in the same position as one that was never ready. Booking inspection and interconnection steps early is part of protecting the date, not a formality to handle at the end.
+> [!TIP] Book the DISCOM inspection slot early
+> There is a second-order effect worth naming. Because everyone is targeting the same 31 December 2026 date, commissioning infrastructure, DISCOM inspection slots, and installer bandwidth will be under maximum strain in the final weeks of the year. A project that is technically ready but cannot secure a DISCOM inspection slot before year-end is in the same position as one that was never ready. Booking inspection and interconnection steps early is part of protecting the date, not a formality to handle at the end.
 
 ## Case-by-Case Relief: How to Apply Before the Window Closes
 
@@ -132,7 +175,8 @@ The categories the ministry has signalled it will consider include projects wher
 - **Submit through the designated portal:** Extension requests are routed through the national [solar DCR portal](https://solardcrportal.nise.res.in/) with supporting documentation, rather than through informal channels. Treat it as a formal filing.
 - **Do not rely on relief as a plan:** A discretionary extension is a fallback for genuine near-misses, not a substitute for hitting the commissioning date. Build the schedule to clear the window on its own, and keep the relief file as insurance.
 
-For commercial and industrial developers running the numbers, the possibility of relief should not change the base case. The prudent financial model assumes compliance by the deadline, with the extension treated as a low-probability upside rather than a load-bearing assumption. The same discipline that governs a [RESCO or opex structure](/blog/zero-cost-solar-resco-opex-india/) applies here: plan for the requirement, not the exception.
+> [!IMPORTANT] Do not model on a discretionary extension
+> For commercial and industrial developers running the numbers, the possibility of relief should not change the base case. The prudent financial model assumes compliance by the deadline, with the extension treated as a low-probability upside rather than a load-bearing assumption. The same discipline that governs a [RESCO or opex structure](/blog/zero-cost-solar-resco-opex-india/) applies here: plan for the requirement, not the exception.
 
 ## Common Mistakes Developers and EPCs Make on the ALMM List-II Deadline
 

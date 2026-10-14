@@ -4,7 +4,7 @@ excerpt: "A solar inverter for factory use must handle VFDs, compressors, and we
 description: "Guide to solar inverters for factories in India: THD requirements, 3-phase sizing, string vs central inverters, DG displacement math, and RPO compliance."
 category: "Buying Guide"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-solar-inverter-for-factory.webp"
 author: "Keyur Rakholiya"
@@ -43,9 +43,8 @@ Running a factory on an unpredictable grid (with VFDs tripping, compressors hunt
 
 This guide is written for factory owners, plant managers, and procurement heads responsible for C&I solar decisions in the 50 kW–2 MW range. Every number here is sourced. Every recommendation is grounded in India's CEA regulations, MNRE guidelines, and real project economics.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A factory solar inverter must be 3-phase, hold current THD below 5% (below 3% for CNC/VFD-sensitive loads), and be sized to average daytime demand, not peak connected load.
-
 > - Multiple 3-phase string inverters (50–100 kW each) are preferred up to about 500 kWp; central inverters become cost-competitive above that scale.
 > - DG displacement is often the biggest economic lever: solar generated at ₹3–4/kWh can offset diesel power costing ₹18–22/kWh.
 > - Net metering covers most C&I systems up to 1 MW in major states; larger systems typically move to gross metering or open access.
@@ -63,7 +62,8 @@ These harmonics create three immediate problems for a solar inverter deployed in
 
 The [IEC 61000-2-4](https://www.iec.ch/homepage) standard classifies industrial environments into three compatibility levels based on expected harmonic disturbance. Most Indian factories with VFD-driven machinery fall into Class 2 or Class 3, environments where an inverter's THD specification is a critical procurement criterion, not a footnote.
 
-Standard grid-tied inverters from residential ranges typically publish THD figures at 10–20% load. At full industrial load, THD can climb significantly. The right procurement question is: **"What is your THD at rated full-load output, with a predominantly inductive industrial load connected?"** Any specification that does not answer this question at full load is incomplete.
+Standard grid-tied inverters from residential ranges typically publish THD figures at 10–20% load. At full industrial load, THD can climb significantly. > [!TIP] The one procurement question to ask
+> The right procurement question is: **"What is your THD at rated full-load output, with a predominantly inductive industrial load connected?"** Any specification that does not answer this question at full load is incomplete.
 
 ## The 5-Factor Industrial Inverter Qualification Test
 
@@ -84,6 +84,8 @@ Applying this test during the inverter specification stage, before the tender is
 ## 3-Phase vs Single-Phase: The Industrial Threshold
 
 The phase configuration of your solar inverter must match your factory's electrical infrastructure. This is not a commercial choice, it is a regulatory and engineering requirement.
+
+Table: Single-phase and 3-phase inverters compared for industrial use
 
 | Parameter | Single-Phase Inverter | 3-Phase Inverter |
 | --- | --- | --- |
@@ -135,6 +137,8 @@ A [central inverter](/glossary/central-inverter/) aggregates all DC from the arr
 
 ### Which Topology for Your Factory?
 
+Table: Recommended inverter topology by factory size
+
 | Factory Size | Recommended Topology | Rationale |
 | --- | --- | --- |
 | 50–200 kWp | Multiple 3-phase string inverters | Low failure risk, no civil works, modular |
@@ -157,17 +161,16 @@ The process begins with your factory's monthly electricity bills for the past 12
 
 A cotton spinning mill with 300 kVA contract demand and 0.88 power factor has a true active load of approximately 264 kW at peak. If the mill operates two shifts (16 hours) and production runs 10 hours in daylight, the solar opportunity window is 10 hours.
 
-**Industrial Demand Profile Method, worked example:**
-
-- Contract demand: 500 kVA
-- Actual peak demand: 380 kVA
-- Power factor: 0.90
-- Active peak load: 342 kW
-- Daylight production hours: 8 hours (07:00–15:00)
-- Average daytime load: 280 kW (production lines running, not full peak)
-- Solar target: 85% of daytime average demand = 238 kW
-- DC oversizing factor: 1.2 (standard for peninsular India)
-- Recommended array: 238 kW AC ÷ (1 ÷ 1.2) = ~286 kWp DC
+> [!EXAMPLE] Industrial Demand Profile Method, worked example
+> - Contract demand: 500 kVA
+> - Actual peak demand: 380 kVA
+> - Power factor: 0.90
+> - Active peak load: 342 kW
+> - Daylight production hours: 8 hours (07:00–15:00)
+> - Average daytime load: 280 kW (production lines running, not full peak)
+> - Solar target: 85% of daytime average demand = 238 kW
+> - DC oversizing factor: 1.2 (standard for peninsular India)
+> - Recommended array: 238 kW AC ÷ (1 ÷ 1.2) = ~286 kWp DC
 
 This sizing ensures the system offsets the bulk of daytime grid import without significant export during production hours, which is the objective for most industrial buyers operating under net metering. For comprehensive sizing guidance applicable to different load types, the [solar inverter sizing guide](/blog/solar-inverter-sizing/) provides the full 12-variable framework, and SurgePV's [commercial solar design tools](https://surgepv.com/commercial-solar-design/) cover the equivalent array-layout workflow for C&I engineering teams running the design in-house.
 
@@ -179,20 +182,25 @@ One of the most underappreciated economics of factory solar is the DG displaceme
 
 Solar does not simply reduce grid import, it actively displaces diesel generation during daylight hours, which carries a far higher economic benefit. The [solar vs diesel analysis](/blog/solar-vs-diesel-generator-india/) for Indian plants shows that industries paying ₹18–22/kWh for diesel-generated power achieve solar payback in 3–5 years versus 6–8 years for factories on reliable grid supply alone.
 
+> [!FORMULA] Daily diesel saving potential
+> Daily DG cost avoided = DG runtime (hours) × DG capacity utilised (kW) × diesel cost per kWh (₹)
+
 **DG displacement calculation:**
 
+<!-- steps -->
 1. Identify the hours per day when DG runs during daylight (common in states with afternoon grid curtailment)
 2. Multiply DG runtime (hours) × DG capacity utilised (kW) × diesel cost per kWh (₹)
 3. This is your daily diesel saving potential from solar
 4. Compare against the daily solar generation at your rooftop yield (typically 4.5–5.5 kWh/kWp/day in India)
 
-For a ceramic tile factory in Gujarat running a 250 kW DG for 4 hours/day during afternoon grid shedding at ₹20/kWh:
+> [!EXAMPLE] Ceramic tile factory in Gujarat
+> A 250 kW DG runs for 4 hours/day during afternoon grid shedding at ₹20/kWh:
+>
+> - Daily DG cost avoided: 250 kW × 4 hours × ₹20 = ₹20,000/day
+> - Monthly saving from DG displacement alone: ₹6,00,000
+> - On a ₹1.8 Crore solar investment, DG displacement alone pays back in 30 months
 
-- Daily DG cost avoided: 250 kW × 4 hours × ₹20 = ₹20,000/day
-- Monthly saving from DG displacement alone: ₹6,00,000
-- On a ₹1.8 Crore solar investment, DG displacement alone pays back in 25 months
-
-A comparable real-world result is documented in the [case study on a 100 kW solar installation at a Tirupur textile mill](/blog/case-study-tirupur-textile/), which shows the same DG-displacement economics playing out on an actual production floor.
+A comparable scenario is described in the [case study on a 100 kW solar installation at a Tirupur textile mill](/blog/case-study-tirupur-textile/), which covers the same DG-displacement economics for a production floor.
 
 The key technical requirement for DG displacement is the inverter's synchronisation capability. When the grid returns after an outage, the inverter must synchronise its output frequency and phase with the grid before reconnecting, and must never back-feed onto the DG bus. Inverters with certified grid synchronisation logic (IEC 62116 compliant anti-islanding) handle this correctly.
 
@@ -242,7 +250,7 @@ A milling-specific load profile and payback is in [solar for rice mills](/blog/s
 
 ## Where Qbits Fits in the Industrial Solar Stack
 
-- **[C&I Solutions](/c-i-solution/)**: Packaged engineering support for factory solar assessments, including power quality pre-studies, DISCOM liaison, and EPC coordination.
+- **[C&I Solutions](/c-i-solution/)**: Ask which project services are available and obtain the responsible party, deliverables, exclusions and fees in writing.
 - **[String Sizing Calculator](/string-sizing-calculator/)**: Confirm panel-string compatibility and DC:AC ratio before your EPC quotes, particularly important for 3-phase arrays with mixed orientations.
 
 [Contact Qbits](/contact-us/) with the site, load, equipment and document details relevant to this guide. Confirm the responsible party, deliverable, commercial scope and response time after submission.

@@ -4,7 +4,7 @@ excerpt: "Verify inverter grid settings against the exact model manual, applicab
 description: "India solar inverter grid settings guide covering model limits, protection settings, commissioning evidence, and owner review."
 category: "Technology"
 date: 2026-09-23
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "7 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -21,6 +21,12 @@ faqs:
 
 A grid-connected inverter must operate within the limits approved for its exact model and connection. “India tuned” is not a measurable specification by itself. Buyers and EPCs should request the model documents, applicable certificates, approved settings, and commissioning record rather than relying on a brand-level voltage claim.
 
+> [!KEYTAKEAWAYS]
+> - "India tuned" is not a measurable specification by itself; ask for the model documents, applicable certificates, approved settings and commissioning record.
+> - DC limits (MPPT window, maximum DC voltage) apply to the PV side and AC limits to the grid side; do not mix them in string design or grid settings.
+> - A value from one TLS, TLD, TLC, Pro, Plus, EHV or QBH document must not be carried across the range.
+> - For repeated grid trips, record the fault, time, grid measurements, model and firmware version, and let a qualified technician find the cause.
+
 ## Separate DC limits from AC grid limits
 
 The MPPT window and maximum DC voltage apply to the PV array side. The AC operating and protection limits apply to the grid side. Confusing those values can produce an unsafe string design or an incorrect grid setting. Use the exact module and inverter documents for string calculations.
@@ -28,6 +34,8 @@ The MPPT window and maximum DC voltage apply to the PV array side. The AC operat
 Qbits publishes different MPPT ranges, starting voltages, maximum DC voltages, current limits, and AC grid ranges across its families. A value from one TLS, TLD, TLC, Pro, Plus, EHV, or QBH document must not be carried across the range.
 
 ## Evidence to request
+
+Table: Evidence to request when verifying an inverter's grid settings
 
 | Evidence | What it should establish |
 | --- | --- |
@@ -40,7 +48,10 @@ Qbits publishes different MPPT ranges, starting voltages, maximum DC voltages, c
 
 ## How to handle repeated grid trips
 
-Record the fault exactly as displayed, the time, grid measurements if safely available, and the model and firmware version. Do not widen protection limits or disable anti-islanding to keep the inverter online. A qualified technician should determine whether the cause is the utility supply, conductor voltage rise, an installation issue, an incorrect setting, or an equipment fault.
+> [!CAUTION] Do not widen limits to stop the trips
+> Do not widen protection limits or disable anti-islanding to keep the inverter online.
+
+Record the fault exactly as displayed, the time, grid measurements if safely available, and the model and firmware version. A qualified technician should determine whether the cause is the utility supply, conductor voltage rise, an installation issue, an incorrect setting, or an equipment fault.
 
 ## Firmware and protection settings
 

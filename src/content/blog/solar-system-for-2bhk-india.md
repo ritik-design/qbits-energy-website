@@ -4,7 +4,7 @@ excerpt: "A 2 BHK Indian home needs a 3kW solar system. Monthly consumption is 4
 description: "Right-sized solar for a 2 BHK Indian home: load calculation, why 3kW is standard, PM Surya Ghar subsidy, net cost breakdown, and the best inverter picks."
 category: "Buying Guide"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-solar-system-for-2bhk-india.webp"
 author: "Nirav Dhanani"
@@ -41,7 +41,7 @@ Your 2 BHK electricity bill is hovering between ₹2,500 and ₹4,500 per month,
 
 Before you sign anything, you need to understand what a 2 BHK home actually consumes and what size solar system honestly addresses that consumption.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A 2 BHK home typically needs a 3kW on-grid solar system; monthly consumption runs 400–600 units.
 > - A [3kW system](https://www.heavengreenenergy.com/blog/3kw-solar-system-in-india) generates 350–500 units per month, covering 60–90% of the bill.
 > - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy is ₹78,000 for 3kW, the maximum any household can claim, cutting net cost to ₹72,000–₹1,32,000.
@@ -50,6 +50,8 @@ Before you sign anything, you need to understand what a 2 BHK home actually cons
 ## 2 BHK Load Profile: Calculating What You Actually Need
 
 A proper solar sizing exercise starts with your actual electricity consumption. Here is the standard 2 BHK load profile:
+
+Table: Standard 2 BHK load profile: daily and monthly consumption
 
 | Appliance | Wattage | Daily Hours | Daily kWh |
 | --- | --- | --- | --- |
@@ -77,13 +79,18 @@ A 3kW solar system in central India generates 13 to 16 kWh/day, covering the loa
 
 ### The True Cost of Going Solar (5-Component Framework)
 
+<!-- steps -->
 1. **Solar panels**: 5 to 6 panels of 530–575 Wp for a 3kW system. At ₹22–₹26/Wp: ₹66,000–₹78,000 for panels alone.
+
+2. **On-grid inverter**: ₹18,000–₹32,000 for a 3kW on-grid inverter, as in the cost table below.
 
 3. **Balance of System**: Mounting structure, DC and AC cables, junction box, SPDs, earthing, net meter interface. For 3kW: ₹22,000–₹35,000.
 4. **Installation and commissioning**: Labour, DISCOM net metering application, commissioning inspection, similar to the residential solar installation workflow EPCs follow nationwide. For 3kW: ₹14,000–₹22,000.
 5. **GST**: the 12% slab no longer exists. On a bundled turnkey contract the 70:30 split gives an 8.9% effective rate. For a 3 kW system: ₹10,400–₹14,800.
 
 Full 3kW cost table for a 2 BHK:
+
+Table: 3kW solar system cost for a 2 BHK, budget versus premium, with PM Surya Ghar subsidy
 
 | Cost Component | Budget (3kW) | Premium (3kW) |
 | --- | --- | --- |
@@ -94,7 +101,7 @@ Full 3kW cost table for a 2 BHK:
 | GST (70:30 bundled, 8.9% effective) | ₹10,680 | ₹14,420 |
 | **Gross total** | **₹1,30,680** | **₹1,76,420** |
 | Less: PM Surya Ghar ₹78,000 | −₹78,000 | −₹78,000 |
-| **Net cost** | **₹56,400** | **₹1,03,440** |
+| **Net cost** | **₹52,680** | **₹98,420** |
 
 *Practical installer quotes range from ₹1,50,000 to ₹2,10,000 gross, with net cost after subsidy of ₹72,000 to ₹1,32,000.*
 
@@ -115,6 +122,8 @@ The [3kW solar system price guide](/blog/3kw-solar-system-price-india/) breaks d
 
 ## On-Grid vs Hybrid for a 2 BHK
 
+Table: On-grid versus hybrid 3kW for a 2 BHK
+
 | | On-Grid 3kW | Hybrid 3kW + 5kWh battery |
 | --- | --- | --- |
 | **Gross cost** | ₹1,50,000–₹2,10,000 | ₹2,90,000–₹3,70,000 |
@@ -123,28 +132,33 @@ The [3kW solar system price guide](/blog/3kw-solar-system-price-india/) breaks d
 | **Backup during outage** | ✗ | ✓ (6–8 hrs on critical load) |
 | **Suitable for** | Cities with stable grid | Areas with 3+ hrs/day outage |
 
-**The recommendation for most 2 BHK homes in metro and Tier-1 cities:** on-grid 3kW. The on-grid payback is 3 to 5 years; the hybrid payback is 8 to 12 years. The financial case for hybrid only makes sense if outage hours are significant (UP, Bihar, rural Rajasthan) or if the homeowner places high value on energy independence.
+> [!TIP] Metro and Tier-1 2 BHK: choose on-grid 3kW
+> The on-grid payback is 3 to 5 years; the hybrid payback is 8 to 12 years. The financial case for hybrid only makes sense if outage hours are significant (UP, Bihar, rural Rajasthan) or if the homeowner places high value on energy independence.
 
 For the full on-grid vs hybrid decision tree, read the [on-grid vs hybrid guide](/blog/on-grid-vs-hybrid/).
 
 ## 2 BHK Solar Payback Period: Three Scenarios
 
-**At ₹7/unit (Maharashtra, Karnataka, Tamil Nadu):**
-- Daily generation: 15 kWh
-- Annual generation: 5,475 kWh
-- Annual savings: 5,475 × ₹7 = ₹38,325
-- Net system cost (mid-range): ₹1,00,000
-- **Payback: 2.6 years**
+> [!FORMULA] Simple payback
+> Payback (years) = net system cost ÷ (annual generation × tariff per unit)
 
-**At ₹6/unit (Gujarat, Rajasthan):**
-- Annual savings: 5,475 × ₹6 = ₹32,850
-- Net cost: ₹90,000
-- **Payback: 2.7 years**
-
-**At ₹8/unit (Delhi, Haryana upper slabs):**
-- Annual savings: 5,475 × ₹8 = ₹43,800
-- Net cost: ₹1,10,000
-- **Payback: 2.5 years**
+> [!EXAMPLE] 3kW payback at three tariffs (5,475 kWh a year)
+> **At ₹7/unit (Maharashtra, Karnataka, Tamil Nadu):**
+> - Daily generation: 15 kWh
+> - Annual generation: 5,475 kWh
+> - Annual savings: 5,475 × ₹7 = ₹38,325
+> - Net system cost (mid-range): ₹1,00,000
+> - **Payback: 2.6 years**
+>
+> **At ₹6/unit (Gujarat, Rajasthan):**
+> - Annual savings: 5,475 × ₹6 = ₹32,850
+> - Net cost: ₹90,000
+> - **Payback: 2.7 years**
+>
+> **At ₹8/unit (Delhi, Haryana upper slabs):**
+> - Annual savings: 5,475 × ₹8 = ₹43,800
+> - Net cost: ₹1,10,000
+> - **Payback: 2.5 years**
 
 India's residential electricity tariffs have risen an average of 6–8% per year over the past decade according to [CERC tariff order data](https://cerc.gov.in/), meaning the savings from solar increase each year even without any change in consumption patterns. At 6% annual tariff escalation, the effective IRR on a 3kW solar investment for a 2 BHK exceeds 18% over 25 years, a return profile explained in more depth in the [solar inverter payback period guide](/blog/solar-inverter-payback-period/). *Source - [IRENA Renewable Power Generation Costs 2024](https://www.irena.org/Publications/2025/Mar/Renewable-Power-Generation-Costs-in-2024), IRENA 2025.*
 
@@ -154,9 +168,11 @@ India's residential electricity tariffs have risen an average of 6–8% per year
 
 Labour rates, DISCOM net-meter charges, and state subsidies vary significantly across India:
 
+Table: State-wise 3kW system cost, subsidy and net cost for a 2 BHK
+
 | State | Gross System Cost | Central + State Subsidy | Net Cost |
 | --- | --- | --- | --- |
-| Gujarat | ₹1.5L–₹1.9L | ₹78,000 + ₹15,000–₹25,000 | ₹57,000–₹97,000 |
+| Gujarat | ₹1.5L–₹1.9L | ₹78,000 + ₹15,000–₹25,000 | ₹47,000–₹97,000 |
 | Rajasthan | ₹1.5L–₹1.9L | ₹78,000 + ₹15,000 | ₹57,000–₹97,000 |
 | Maharashtra | ₹1.6L–₹2.1L | ₹78,000 | ₹82,000–₹1.32L |
 | Karnataka | ₹1.6L–₹2.0L | ₹78,000 | ₹82,000–₹1.22L |

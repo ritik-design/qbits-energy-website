@@ -4,7 +4,7 @@ excerpt: "Qbits vs Microtek: a PCU is not a grid-tied inverter. Published warran
 description: "Qbits vs Microtek compared on published datasheet values, warranty terms, service footprint, monitoring and grid-code behaviour, with a fit test for each buyer."
 category: "Comparison"
 date: 2026-09-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "20 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -40,10 +40,9 @@ A useful comparison between Qbits and Microtek does not start with a scorecard. 
 
 This guide covers each company's published footprint, the PCU versus grid-tied distinction, where the ranges overlap, a specification table built only from published values, warranty read as terms instead of years, service and spares, monitoring, grid-code behaviour, and a fit test naming which buyer should pick which.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Microtek labels all four of its solar Power Conditioning Unit series "Inverter Type: Off-Grid" on its own category page (microtek.in, checked 24 September 2026). An off-grid PCU does not export to the grid.
-> - Microtek prints "10 Years" on both grid-tied series, "5 Years" on the Solar Hybrid Inverter, "2 Years" on every PCU series, and "1 Year" on Solar Management Units (microtek.in, 2026). That is a genuine advantage in verifiability.
-> - Qbits' public datasheets describe an expandable warranty but do not give the base term, remedy, registration deadline or exclusions, so you must obtain the written terms for your exact model.
+> - Microtek prints "10 Years" on both grid-tied series, "5 Years" on the Solar Hybrid Inverter, "2 Years" on every PCU series, and "1 Year" on Solar Management Units (microtek.in, 2026). That is a genuine advantage in verifiability. Qbits' public datasheets describe an expandable warranty but do not give the base term, remedy, registration deadline or exclusions, so you must obtain the written terms for your exact model.
 > - Qbits sells solar inverters only. Microtek also sells panels, batteries, home UPS, stabilizers and wiring, and publishes "1Lac+ Dealer Network" and "500+ Service Points" (microtek.in, 2026).
 > - Qbits three-phase on-grid runs to 320 kW with 12 MPPTs and a 1500 V DC limit. Microtek's published three-phase grid-tied range is 5.5 kW to 250 kW (microtek.in, 2026).
 > - kVA is not kW. A 5 kVA PCU at a 0.8 power factor delivers about 4 kW of real output.
@@ -84,6 +83,8 @@ Qbits publishes on-grid single-phase from 1.5 kW to 6 kW, on-grid three-phase fr
 
 The table uses published values only. Where a figure is not published on the vendor's own public pages, the row says so rather than guessing, and the last column tells you what to confirm on the current datasheet.
 
+Table: Published values for Qbits and Microtek, with what to verify on the current datasheet
+
 | Specification | Qbits (published) | Microtek (published) | Verify on the current datasheet |
 | --- | --- | --- | --- |
 | Single-phase on-grid band | 1.5 kW to 6 kW (QB 1.5 to 4.0KTLS, QB 4.2 to 6KTLS, QB 4/5/6 KTLD) | 1 kW to 5 kW single-phase grid-tied | Exact model and rated AC output |
@@ -115,9 +116,8 @@ Microtek publishes its MPPT PCU series as "KVA Range: 1 KVA - 5 KVA" (microtek.i
 - Assumed load power factor: 0.8 (a common design assumption for a mixed household load, not a Microtek published figure)
 - Comparator: a 5 kW single-phase on-grid inverter
 
-**Formula**
-
-Real power (kW) = apparent power (kVA) x power factor
+> [!FORMULA] Real power from apparent power
+> Real power (kW) = apparent power (kVA) x power factor
 
 **Result**
 
@@ -129,9 +129,8 @@ So the PCU delivers about 4 kW of real power against the grid-tied unit's 5 kW, 
 
 Take the Qbits QB 5/6/8/10/12/15/17KTLC, published with a 180 to 1000 V MPPT window and an 1100 V maximum DC limit. Pair it with an Adani ASB-M10-144-580 module: 580 Wp, open-circuit voltage 52.50 V, temperature coefficient of Voc -0.24% per degree C, at a minimum design cell temperature of 5 degrees C.
 
-**Formula**
-
-Voc at design temperature = Voc(STC) x (1 + (Tc / 100) x (T design - 25))
+> [!FORMULA] Cold-corrected string voltage
+> Voc at design temperature = Voc(STC) x (1 + (Tc / 100) x (T design - 25))
 
 **Result**
 
@@ -144,6 +143,20 @@ Now try the same calculation for a Microtek three-phase grid-tied model. You can
 Compare documents, not headline numbers. A period without terms tells you almost nothing about what you will actually receive.
 
 Microtek's position is easier to check before purchase. Its own category pages print "10 Years" on both grid-tied series, "5 Years" on the Solar Hybrid Inverter, "2 Years" on all four PCU series, and "1 Year" on Solar Management Units (microtek.in, checked 24 September 2026). You can read those before contacting a dealer. Credit where it is due: publishing a period publicly, per series, is better practice than making a buyer ask.
+
+```chart
+type: hbar
+title: Warranty periods Microtek prints on its own category pages, by product series
+unit: "years"
+source: "microtek.in category pages, checked 24 September 2026, as cited in this article"
+note: "Qbits' public datasheets do not publish a base term, so no Qbits bar is shown. A period alone says nothing about remedy, exclusions or who pays freight."
+decimals: 0
+data:
+  - { label: "Grid-tied series (single-phase and three-phase)", value: 10 }
+  - { label: "Solar Hybrid Inverter series", value: 5 }
+  - { label: "Solar PCU series (all four)", value: 2 }
+  - { label: "Solar Management Units", value: 1 }
+```
 
 Qbits' public datasheets describe an expandable warranty but do not give the base term, remedy, registration deadline or exclusions. Microtek prints periods on its own public pages, so on this row Microtek is the brand you can actually read before buying. Obtain the current written Qbits warranty for the exact quoted model before purchase. On service logistics, Qbits' public material does not state a dispatch time, so ask for the committed action after claim approval in writing.
 
@@ -196,7 +209,8 @@ Any inverter exporting into an Indian distribution network has to disconnect und
 - 60 seconds of stability required before reconnection.
 - DC injection no more than 0.5% of full rated output current.
 
-One carve-out matters and is written into the regulation itself: a distribution company (DISCOM) may prescribe a narrower range. So the numbers above are the national floor, and your distribution licensee can be stricter. Confirm the applicable window with your utility before commissioning, not after a failed inspection.
+> [!IMPORTANT] Your DISCOM can be stricter than these numbers
+> One carve-out matters and is written into the regulation itself: a distribution company (DISCOM) may prescribe a narrower range. So the numbers above are the national floor, and your distribution licensee can be stricter. Confirm the applicable window with your utility before commissioning, not after a failed inspection.
 
 The related test standard is IEC 62116 Edition 2.0 (2014-02), adopted in India as IS 16169:2019, which replaced IS 16169:2014 under the Ministry of New and Renewable Energy (MNRE) Solar Systems, Devices and Components Goods Order, 2025, notified 27 January 2025. Inverter safety sits separately under IS 16221 (Part 2):2015, equivalent to IEC 62109-2:2011. Ask either brand for the certificate covering the exact model against these standards, with issuing body and validity, rather than accepting a logo. The underlying mechanism is explained in [anti-islanding](/glossary/anti-islanding/).
 
@@ -232,7 +246,7 @@ Answer these honestly. The topology answer does most of the work.
 2. You are three-phase, or above roughly 15 kW, where MPPT count and the DC voltage window shape the array layout.
 3. Your design needs per-model electrical detail: MPPT window, maximum DC voltage, current per MPPT, IP rating.
 4. A consultant will audit datasheets before approving hardware.
-5. A long full-unit replacement term matters more than counter availability, and you will get that term in writing.
+5. A warranty term and remedy that you have obtained in writing and read matters more to you than counter availability.
 6. You accept sourcing panels, batteries, structure and installation elsewhere.
 
 Be clear about the trade with Qbits. It sells inverters only. No panels, no batteries, no mounting, no installation, no stabilizers, no home UPS, no wiring. Its retail footprint is a dealer channel, against Microtek's published "1Lac+ Dealer Network". Its public datasheets do not give the base warranty term, while Microtek prints a period per series. If breadth, walk-in retail, and a pre-published warranty period are what you value, Microtek is the better fit and you should buy it.
@@ -254,7 +268,8 @@ Send the same list to both. Differences in what comes back are more informative 
 9. Confirm what monitoring hardware is included, who owns the plant account, and how it transfers.
 10. Itemise the quote: SKU, taxes, accessories, delivery, commissioning, validity date.
 
-Any item a seller will not put in writing should be recorded as unknown and given no weight. That applies to Qbits sellers as much as anyone else's.
+> [!TIP] Unwritten means unknown
+> Any item a seller will not put in writing should be recorded as unknown and given no weight. That applies to Qbits sellers as much as anyone else's.
 
 ## The Bottom Line
 

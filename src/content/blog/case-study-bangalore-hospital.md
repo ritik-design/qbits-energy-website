@@ -4,7 +4,7 @@ excerpt: "Illustrative 50 kW hospital solar planning scenario. It is not a verif
 description: "A 50 kW Bangalore hospital solar planning framework using unknown site inputs, not a verified customer installation or performance result."
 category: "Case Study"
 date: 2026-06-05
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "7 min"
 image: "/og/blog-case-study-bangalore-hospital.webp"
 author: "Qbits Editorial"
@@ -26,6 +26,12 @@ faqs:
 
 A hospital cannot let a rooftop generation project blur the boundary between ordinary building loads and clinical continuity systems. This scenario shows the evidence needed to assess a 50 kW working brief while keeping patient safety and facility responsibility explicit.
 
+> [!KEYTAKEAWAYS]
+> - This is a planning scenario with no customer record, survey, load file, design or measured result, so every outcome is unknown.
+> - Seven inputs must be collected before sizing, from load segregation to commercial scope; a missing input stays marked unknown.
+> - Clinical and life-safety continuity stays under the hospital's approved UPS and generator architecture, not the solar system.
+> - Do not publish a generation, saving or payback figure until the calculation file names every input, unit, date and source.
+
 ## What decision does this scenario test?
 
 The question is not whether 50 kW “works” in the abstract. The question is whether that AC capacity, paired with a documented PV array and connection design, fits the hospital's measured non-critical daytime load, available roof, electrical infrastructure and approval route.
@@ -33,6 +39,8 @@ The question is not whether 50 kW “works” in the abstract. The question is w
 A credible answer must survive three checks: the design is electrically safe, the responsible authorities accept it, and the commercial model still works when every cost and uncertain input is visible.
 
 ## Evidence required before sizing
+
+Table: Inputs to collect before sizing a 50 kW hospital rooftop scenario, with status
 
 | Input | What to collect | Status in this scenario |
 | --- | --- | --- |
@@ -55,12 +63,16 @@ A missing input should stay marked as unknown. Replacing it with a typical value
 
 Hospital engineering, biomedical, safety and compliance owners must review the design. The phrase “non-critical load” is not a design decision until the hospital has classified and signed the circuit schedule.
 
-The responsible electrical professional should sign the single-line diagram, protection settings and commissioning plan. A grid-connected solar system is not a substitute for a clinical UPS or emergency generator.
+The responsible electrical professional should sign the single-line diagram, protection settings and commissioning plan.
+
+> [!CAUTION] Not a clinical backup
+> A grid-connected solar system is not a substitute for a clinical UPS or emergency generator.
 
 ## How should the commercial case be calculated?
 
 Use measured inputs and keep the calculation reproducible:
 
+<!-- steps -->
 1. **Estimated annual generation** = simulation output for the documented array, orientation, losses and weather dataset.
 2. **Self-consumed energy** = the lesser of generation and coincident non-critical load in each interval.
 3. **Exported energy** = generation minus self-consumed energy, subject to the approved metering arrangement.

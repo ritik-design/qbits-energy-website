@@ -4,7 +4,7 @@ excerpt: "Learn how to apply for PM Surya Ghar online in 8 steps, from registrat
 description: "Apply for PM Surya Ghar online in 8 steps, from registration on pmsuryaghar.gov.in to subsidy credit in your bank account. Full 2026 walkthrough."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-pm-surya-ghar-apply-online.webp"
 author: "Nirav Dhanani"
@@ -45,10 +45,9 @@ This guide walks through every stage of the [PM Surya Ghar](https://quickestimat
 
 > **Direct answer.** To apply for PM Surya Ghar online, register on pmsuryaghar.gov.in with your Aadhaar-linked mobile number and electricity consumer number, submit rooftop details for DISCOM feasibility approval (2–7 working days), choose an ALMM-listed empanelled installer, complete the installation, pass DISCOM inspection with net meter installation, upload the commissioning certificate, and receive the subsidy (up to ₹78,000) directly in your bank account within 15–30 days.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The application runs through 8 sequential steps on pmsuryaghar.gov.in, from Aadhaar-based registration through DISCOM feasibility, installer selection, installation, inspection, and subsidy credit.
 > - Central subsidy is ₹30,000 for 1 kW, ₹60,000 for 2 kW, and ₹78,000 for 3 kW or above, credited via NACH after DISCOM verification.
-
 > - End-to-end timeline is typically 30 to 90 days, with DISCOM inspection (Step 6) as the most variable stage.
 > - Renters can apply with a landlord NOC, but the subsidy is credited to the applicant's own bank account, not the landlord's.
 > - Applications most often fail at three checkpoints: portal submission (document quality, consumer number mismatch), DISCOM feasibility review (network capacity), and DISCOM inspection (non-ALMM equipment, SLD mismatch).
@@ -71,12 +70,27 @@ The following criteria must be satisfied before a household can apply:
 
 ### Subsidy structure
 
+Table: PM Surya Ghar central subsidy by system size, with approximate yearly generation
+
 | System Size | Central Subsidy (₹) | Approx. Units Generated per Year |
 | --- | --- | --- |
 | 1 kW | ₹30,000 | 1,200–1,400 kWh |
 | 2 kW | ₹60,000 | 2,400–2,800 kWh |
 | 3 kW | ₹78,000 | 3,600–4,200 kWh |
 | Above 3 kW | ₹78,000 (flat cap) | Varies |
+
+```chart
+type: bar
+title: PM Surya Ghar central subsidy by system size
+unit: "₹"
+source: "MNRE PM Surya Ghar Portal (pmsuryaghar.gov.in), 2026, as stated in the subsidy table above"
+sourceUrl: https://pmsuryaghar.gov.in/
+note: "3 kW and above are capped at ₹78,000. State subsidies, where offered, come on top."
+data:
+  - { label: "1 kW", value: 30000 }
+  - { label: "2 kW", value: 60000 }
+  - { label: "3 kW or above", value: 78000 }
+```
 
 State governments may offer additional subsidies on top of the central component. The subsidy is credited post-installation; the homeowner pays the full cost to the installer first and receives the subsidy as a bank transfer afterward.
 
@@ -85,6 +99,8 @@ State governments may offer additional subsidies on top of the central component
 ## The PM Surya Ghar Application Checklist: Documents Required
 
 Before beginning the online application, gather every document in the table below. Incomplete submissions are a leading cause of application delays and outright rejections.
+
+Table: Documents required for the PM Surya Ghar application, with format and source
 
 | Document | Format Required | Where to Get It |
 | --- | --- | --- |
@@ -107,11 +123,14 @@ This is the full eight-step PM Surya Ghar application process as structured on p
 
 ### The PM Surya Ghar Application Checklist
 
+<!-- steps -->
 1. **Register on pmsuryaghar.gov.in**: Visit [https://pmsuryaghar.gov.in](https://pmsuryaghar.gov.in) and click "Apply for Rooftop Solar." Enter your state, your DISCOM name, and your electricity consumer number (found on your bill). Then enter your Aadhaar-linked mobile number to receive an OTP for authentication. Once the OTP is verified, set a password to create your account. Keep this login credential safe, it is required for every subsequent stage.
 
 2. **Fill rooftop and system details**: After login, complete the application form with your roof area, preferred system size (1 kW, 2 kW, 3 kW, or higher based on your consumption), shadow-free roof area estimate, and building type. The portal auto-calculates the eligible subsidy amount based on the system size you enter. Upload the required documents: electricity bill, Aadhaar copy, property proof, and the bank mandate. Submit the application.
 
 3. **Receive DISCOM feasibility approval**: Your local [DISCOM](/glossary/discom/) reviews the application and the technical parameters: feeder load capacity, transformer capacity, and net metering availability in your area. This typically takes 2 to 7 working days. You will receive an SMS and email notification of the approval or rejection. If approved, you may proceed to choose an installer.
+
+4. **Choose an empanelled installer**: After feasibility approval, select a DISCOM-empanelled installer for the work order. The subsidy requires an empanelled installer and modules that are on the ALMM list, so put the two questions in the ALMM section below to the installer before you sign. This stage typically takes 3 to 7 days. The portal locks out installer changes once this step is confirmed.
 
 5. **Install the solar system**: The empanelled installer carries out the full installation: mounting structure, panel placement, DC wiring, AC wiring, inverter installation, earthing, and surge protection. A grid-connected [on-grid inverter](/glossary/on-grid-inverter/) is used for PM Surya Ghar systems as these must export surplus power to the grid via net metering. The typical installation takes one to three days depending on system size and roof complexity.
 
@@ -121,11 +140,17 @@ This is the full eight-step PM Surya Ghar application process as structured on p
 
 8. **Subsidy credited to bank account via NACH**: After the DISCOM marks the application as complete on the backend, MNRE processes the subsidy amount and transfers it directly to the bank account you registered in Step 2. This takes 15 to 30 days from commissioning certificate submission under normal processing timelines.
 
-Each step must be completed in the above sequence. The portal does not allow skipping stages, and the system locks out installer changes after Step 4 is confirmed.
+> [!IMPORTANT] Installer is locked after Step 4
+> Each step must be completed in the above sequence. The portal does not allow skipping stages, and the system locks out installer changes after Step 4 is confirmed.
 
 ## Timeline: What Happens When
 
 Planning the PM Surya Ghar timeline helps homeowners manage cash flow, since they pay the installer upfront and receive the subsidy later.
+
+> [!TIP] Keep cash for the full wait
+> You pay the installer the full cost first. The subsidy follows 15 to 30 days after the commissioning certificate is submitted, and the whole journey from application to subsidy is typically 30 to 90 days, so plan your cash for the long end.
+
+Table: Typical duration of each PM Surya Ghar stage, from registration to subsidy credit
 
 | Stage | Action | Typical Duration |
 | --- | --- | --- |
@@ -144,8 +169,9 @@ The most variable stage is Step 6 (DISCOM inspection). In states with high appli
 
 For homeowners, verifying ALMM eligibility means asking the installer two specific questions before signing the work order:
 
-- Is the proposed solar module model currently listed on the MNRE ALMM list? (Check the module section at [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/))
-- Which current model-specific inverter documents and approvals does the scheme or DISCOM require? MNRE's published ALMM lists cover PV modules and cells, not inverters.
+> [!CHECKLIST] Ask the installer before signing the work order
+> - Is the proposed solar module model currently listed on the MNRE ALMM list? (Check the module section at [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/))
+> - Which current model-specific inverter documents and approvals does the scheme or DISCOM require? MNRE's published ALMM lists cover PV modules and cells, not inverters.
 
 ## Common Rejection Reasons and How to Avoid Them
 

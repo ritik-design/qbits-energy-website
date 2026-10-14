@@ -4,7 +4,7 @@ excerpt: "Qbits vs Luminous solar inverters: footprint, product scope, warranty 
 description: "An honest Qbits vs Luminous solar inverter comparison. Published footprint, the home UPS versus grid-tied distinction, specification tables, warranty terms rather than headline years, service reach, monitoring, CEA grid code, and a fit test naming which buyer should choose Luminous."
 category: "Comparison"
 date: 2026-09-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "20 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -33,14 +33,14 @@ faqs:
 
 Most brand-versus-brand inverter pages are decided before the first paragraph. This one tries not to be. The honest finding is that Qbits and Luminous are not the same kind of company, and the overlap between them is narrower than the search query suggests. Luminous is a broad consumer energy business with a very large retail network and a range spanning panels, batteries, home inverters and monitoring. Qbits is a grid-tied and hybrid solar inverter specialist selling through dealers and service partners. Both sell solar inverters. Almost everything else about how you buy from them differs.
 
-**Disclosure: Qbits publishes this page, and Qbits is one of the two brands compared here.** Read the specification and warranty claims against the original datasheets, not against our summary of them. Every Luminous fact below carries a named source and the date it was checked. Where a figure was not published on the pages checked, this page says so rather than filling the gap.
+> [!NOTE] Disclosure
+> **Qbits publishes this page, and Qbits is one of the two brands compared here.** Read the specification and warranty claims against the original datasheets, not against our summary of them. Every Luminous fact below carries a named source and the date it was checked. Where a figure was not published on the pages checked, this page says so rather than filling the gap.
 
 What follows: who each company is by published footprint, the home UPS versus grid-tied distinction that decides most of these purchases, where the ranges genuinely compete, a specification table with a verification column, warranty compared as terms rather than headline years, service and retail reach, monitoring, Indian grid-code behaviour, a worked string calculation, a fit test naming which buyer should pick Luminous, and the questions to put to each dealer in writing.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Luminous publishes 38+ years of experience, 41+ countries, 8 manufacturing units and a 100K+ channel network on its own about page, checked 24 September 2026. No specialist matches that retail reach.
-> - Luminous sells panels, solar batteries, charge controllers, home inverters, high capacity inverters and ConnectX monitoring. Qbits sells solar inverters only: no panels, no batteries, no installation.
-> - Around half the Luminous solar inverter page is off-grid and PCU product. Those behave differently from a [grid-tied string inverter](/on-grid-inverter/), and buyers pick the wrong category often.
+> - Luminous sells panels, solar batteries, charge controllers, home inverters, high capacity inverters and ConnectX monitoring. Qbits sells solar inverters only: no panels, no batteries, no installation. Around half the Luminous solar inverter page is off-grid and PCU product, which behaves differently from a [grid-tied string inverter](/on-grid-inverter/), and buyers pick the wrong category often.
 > - Qbits publishes an expandable warranty with no base term defined in public material. Luminous lists a 2-year base warranty, while one store listing showed 36 months. Compare documents, not numbers.
 > - Both must meet CEA Regulation 11(6) trip settings to connect, and your DISCOM may prescribe a narrower range.
 > - Buyers who want one brand, one retail counter and one installer for the whole system should pick Luminous. This page says so plainly.
@@ -77,6 +77,8 @@ On the Luminous solar inverters page (checked 24 September 2026), the grid-tie b
 
 Only published values appear below. The last column names what you still have to check on the current datasheet, because a table on any vendor site goes stale.
 
+Table: Qbits vs Luminous published specifications, with what to verify on the current datasheet
+
 | Specification | Qbits (published) | Luminous (published) | Verify on the current datasheet |
 | --- | --- | --- | --- |
 | Single-phase on-grid | QB 1.5 to 4.0KTLS and QB 4.2 to 6KTLS, 1.5 kW to 6 kW | NXI T at 3, 5, 10 kW; NXI from 2 kW upward | Exact kW steps stocked in your state |
@@ -104,6 +106,8 @@ Qbits publishes an expandable warranty. The note carried on every Qbits product 
 On claims, no current written Qbits service term sets a dispatch time, so ask for the committed action after approval in writing. Note also that approval and dispatch are two separate conditions, and neither is a delivery date.
 
 Luminous lists a 2-year base warranty in its general warranty material. Individual store listings have shown longer terms on specific models, including 36 months on a Solar Hybrid TX 3 kVA listing captured on 24 September 2026. Treat that as a documentation question rather than an inconsistency worth accusing anyone of. Base warranty and model-specific warranty are commonly different figures, and promotional extensions are normal in Indian retail. Ask which document governs your invoice, and get the version number into the quotation.
+
+Table: Warranty terms to compare between brands, and why each decides a claim
 
 | Warranty term to compare | Why it decides the claim |
 | --- | --- |
@@ -155,7 +159,8 @@ That same regulation states a DISCOM may prescribe a narrower range. A factory d
 
 Anti-islanding test method is separate: IS 16169:2019 is the Indian adoption of IEC 62116 Edition 2.0 (2014-02), brought in under the MNRE Solar Systems, Devices and Components Goods Order, 2025, notified 27 January 2025. Inverter safety sits under IS 16221 (Part 2):2015, which adopts IEC 62109-2:2011. Keep the two apart when reading a certificate.
 
-One correction applies to both brands, because installers repeat it constantly. There is no MNRE inverter list. ALMM List-I covers solar PV modules and List-II covers solar cells, so the claim that an inverter must appear on ALMM List-II for PM Surya Ghar is false. For an inverter, ask for the exact model's BIS registration and current certificates, and for the documents your scheme, tender or DISCOM actually names.
+> [!WARNING] There is no ALMM list for inverters
+> One correction applies to both brands, because installers repeat it constantly. There is no MNRE inverter list. ALMM List-I covers solar PV modules and List-II covers solar cells, so the claim that an inverter must appear on ALMM List-II for PM Surya Ghar is false. For an inverter, ask for the exact model's BIS registration and current certificates, and for the documents your scheme, tender or DISCOM actually names.
 
 For the protection mechanism itself, see [how anti-islanding protection works](/blog/anti-islanding-protection-solar-inverters/).
 
@@ -177,6 +182,9 @@ This is arithmetic from published datasheets, not field data from an installatio
 
 Inputs: Adani ASB-M10-144-580 modules at 580 Wp, Voc 52.50 V, temperature coefficient of Voc at -0.24% per degree C, per the Adani datasheet. Minimum design cell temperature 5 degrees C.
 
+> [!FORMULA]
+> Cold Voc per module = Voc at STC × (1 + temperature coefficient of Voc × (design minimum cell temperature − 25))
+
 Step 1, correct Voc to the cold design temperature: Voc at 5 C = 52.50 × (1 + (-0.24 / 100) × (5 - 25)) = 52.50 × 1.048 = **55.02 V per module**.
 
 Step 2, apply the published Qbits DC ceilings from the current product records. The QB 4.2/4.6/5/5.4/6KTLS single-phase on-grid unit publishes a 600 V maximum DC and a 40 to 600 V MPPT window. 10 modules give 550.2 V and fit. 11 modules give 605.2 V and do not. So 10 modules, 5.8 kWp, on a 5 kW AC unit, a 1.16 DC to AC ratio.
@@ -190,6 +198,8 @@ Run both through the [string sizing calculator](/string-sizing-calculator/) with
 ## The fit test: which buyer should pick which
 
 **Answer capsule:** Match the brand to how you are buying, not to a score. The deciding variable is whether you want one accountable supplier for the whole system, or the best inverter for an array you are sourcing yourself.
+
+Table: Which buyer should pick Luminous and which should pick Qbits
 
 | Your situation | Likely better fit | Why |
 | --- | --- | --- |
@@ -210,16 +220,17 @@ Luminous wins five rows outright. That is the honest output of this comparison, 
 
 Put the identical questions to both. An answer that cannot go into a quotation is not an answer.
 
-1. The exact SKU, not the series name, with the current datasheet attached.
-2. Published maximum DC voltage, MPPT window and input current per tracker for that SKU.
-3. The written warranty document, its version number, its remedy, and its registration deadline.
-4. Who pays removal, freight and labour on a claim, stated separately.
-5. The full exclusion list, including surge, water ingress and unauthorised work.
-6. The named service entity responsible for your pin code, with ticket channel and working hours.
-7. Whether the monitoring logger, SIM or data plan is included or billed separately, and who owns the plant account at handover.
-8. The grid protection settings your DISCOM requires, and confirmation the unit is set to them.
-9. Which certificates your scheme, tender or DISCOM requires, and whether the exact model is covered.
-10. For battery hybrids, written confirmation of the approved battery model, nominal voltage, current limit and BMS protocol.
+> [!CHECKLIST] 10 questions for each dealer, in writing
+> - The exact SKU, not the series name, with the current datasheet attached.
+> - Published maximum DC voltage, MPPT window and input current per tracker for that SKU.
+> - The written warranty document, its version number, its remedy, and its registration deadline.
+> - Who pays removal, freight and labour on a claim, stated separately.
+> - The full exclusion list, including surge, water ingress and unauthorised work.
+> - The named service entity responsible for your pin code, with ticket channel and working hours.
+> - Whether the monitoring logger, SIM or data plan is included or billed separately, and who owns the plant account at handover.
+> - The grid protection settings your DISCOM requires, and confirmation the unit is set to them.
+> - Which certificates your scheme, tender or DISCOM requires, and whether the exact model is covered.
+> - For battery hybrids, written confirmation of the approved battery model, nominal voltage, current limit and BMS protocol.
 
 Any brand answering all 10 in writing has earned a shortlist place. Any brand that will not has told you something useful.
 

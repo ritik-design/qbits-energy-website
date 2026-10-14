@@ -35,9 +35,18 @@ There is **no dependable single solar dealer margin percentage for India**. Publ
 
 As of 26 September 2026, Qbits does not publish a fixed dealer margin. Several other solar companies publish either a broad percentage, a qualitative promise, or a payout mechanism. Those disclosures are not directly comparable. A dealer should use them only to frame questions, then model the actual written offer.
 
+> [!KEYTAKEAWAYS]
+> - There is no dependable single dealer margin percentage for India. Public pages use the word margin for resale spread, installation margin, project gross margin, commission, rebate or net profit.
+> - Qbits does not publish a fixed dealer margin. The partner application is a route to discussion, not a commercial offer.
+> - Tata Power's 20% to 35% figure is labelled as project-execution margin, so it should not be applied to inverter resale.
+> - A list-price discount, a target rebate or high turnover does not prove the profit left in the business.
+> - A margin is decision-ready only when your finance team can reproduce it from one completed sale and the written schedule.
+
 ## What solar companies actually publish about margins
 
 The table below records what was visible on each named company's own website on 26 September 2026. It does not convert an educational claim into a programme promise.
+
+Table: What five solar companies publish about dealer margins, as seen on 26 September 2026
 
 | Named first-party source | What the page publishes | What the disclosure does not establish |
 | --- | --- | --- |
@@ -57,6 +66,8 @@ The honest conclusion is narrow: some public pages describe margin potential, bu
 
 Before comparing offers, name the number being compared. Four labels are often treated as interchangeable even though they answer different questions.
 
+Table: Discount, markup, gross margin, contribution and net profit are different numbers
+
 | Term | What it measures | Why it can mislead |
 | --- | --- | --- |
 | Discount from list price | Difference between a stated list price and the dealer invoice price, divided by the list price | The list price may not be the price customers will pay |
@@ -75,11 +86,13 @@ For a product-resale decision, start with values excluding recoverable taxes and
 
 Then a working contribution calculation is:
 
-`Dealer contribution = S - P - F - V + R`
+> [!FORMULA] Dealer contribution
+> Dealer contribution = S - P - F - V + R
+>
+> Contribution margin = Dealer contribution / S
 
-`Contribution margin = Dealer contribution / S`
-
-Do not put a target rebate into `R` merely because it appears in a sales presentation. First verify the qualifying products, measurement period, target, exclusions, return adjustments, credit-note process, and payment trigger.
+> [!WARNING] Do not count a target rebate as earned
+> Do not put a target rebate into `R` merely because it appears in a sales presentation. First verify the qualifying products, measurement period, target, exclusions, return adjustments, credit-note process, and payment trigger.
 
 ## Why a large list-price discount can produce a small realised margin
 
@@ -98,6 +111,8 @@ Repeat the calculation for each product family. A blended headline percentage ca
 ## The written margin schedule should answer these questions
 
 A usable commercial offer needs more than one percentage. Ask the manufacturer to fill every row or mark it unavailable.
+
+Table: Written margin schedule: terms to fix before accepting a dealer offer
 
 | Commercial term | Evidence to request | Decision risk if it remains vague |
 | --- | --- | --- |
@@ -123,6 +138,7 @@ Two offers with the same stated margin can create different cash pressure. One m
 
 Build a dated cash-flow line for each step:
 
+<!-- steps -->
 1. purchase order and any deposit;
 2. supplier invoice and tax event;
 3. dispatch, freight, and receipt;
@@ -138,15 +154,16 @@ Then stress-test delayed customer collection, slower stock movement, a missed re
 
 The current public Qbits page is an application route. It is not a commercial offer. If a dealer application moves into discussion, request a dated written pack covering:
 
-- the proposed role and the exact products and customers in scope;
-- the current invoice-price schedule and its validity period;
-- each discount, rebate, target, approval, and reversal formula;
-- payout and credit-note timing;
-- payment terms, security, interest, and credit suspension;
-- freight, damage, returns, stock rotation, and price protection;
-- territory, online sales, direct accounts, and lead ownership;
-- warranty, technical-support, and service cost allocation; and
-- termination treatment for stock, open orders, receivables, and unpaid rebates.
+> [!CHECKLIST] Written pack to request before any dealer commitment
+> - the proposed role and the exact products and customers in scope;
+> - the current invoice-price schedule and its validity period;
+> - each discount, rebate, target, approval, and reversal formula;
+> - payout and credit-note timing;
+> - payment terms, security, interest, and credit suspension;
+> - freight, damage, returns, stock rotation, and price protection;
+> - territory, online sales, direct accounts, and lead ownership;
+> - warranty, technical-support, and service cost allocation; and
+> - termination treatment for stock, open orders, receivables, and unpaid rebates.
 
 Keep the dealer discussion separate from a distributor, EPC, or system-integrator offer. The [role comparison guide](/blog/dealer-vs-distributor-vs-epc/) explains why the revenue base, inventory duty, project responsibility, and service exposure change with the role.
 

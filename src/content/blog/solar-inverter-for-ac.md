@@ -5,7 +5,7 @@ excerpt: 'Choose an AC-ready solar inverter by separating daytime bill offset fr
 description: 'Compare exact 5 kW hybrid inverter evidence for AC and heavy-load homes, with transparent load, starting-surge, battery, and backup checks.'
 category: Buying Guide
 date: 2026-06-05
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: 12 min
 image: /og/blog-solar-inverter-for-ac.webp
 author: Keyur Rakholiya
@@ -41,9 +41,18 @@ For a current 5 kW single-phase hybrid shortlist, **GoodWe GW5000-ES-20**, **Qbi
 
 Qbits publishes this article and sells the QBH-5KS48P. That commercial interest is disclosed before the shortlist. We did not test these inverters with an air conditioner, inspect installations, verify battery compatibility, or compare local prices, warranties, stock, service outcomes, certificate validity, or DISCOM acceptance.
 
+> [!KEYTAKEAWAYS]
+> - Daytime AC bill offset and AC running during a power cut are different jobs. An on-grid inverter stops energising the utility-connected circuit after grid loss.
+> - Published backup figures differ: GoodWe GW5000-ES-20 lists 5,000 VA nominal, Qbits QBH-5KS48P lists 5,000 W rated off-grid apparent output (greater than 200% for 15 seconds), and Growatt SPH 5000TL BL-UP lists only 4,000 W maximum backup despite its 5 kW name.
+> - AC tonnage is not an inverter-sizing input. Use the exact AC's rated input, current and documented starting demand, not a generic three-times or five-times multiplier.
+> - The battery must pass two separate tests: power (current during the compressor start) and energy (usable kWh for the outage hours).
+> - Reject any quote that says only "5 kW hybrid", sizes from tonnage, or equates grid output with backup output.
+
 ## First decide: bill offset or outage backup
 
 These are different electrical jobs.
+
+Table: Three AC goals and what supplies the AC in each
 
 | Homeowner goal | What supplies the AC | Main design question |
 | --- | --- | --- |
@@ -65,17 +74,31 @@ A broad brand ranking would hide the fields that decide whether an AC starts. We
 4. **Battery and PV evidence.** The source must publish battery voltage or current plus MPPT information.
 5. **Unknowns stay unknown.** We do not infer approved batteries, local stock, warranty remedies, AC compatibility, or service quality from a brand name.
 
-The reading order is alphabetical by brand, with Qbits in the middle. It is not a paid position, reliability score, sales ranking, or universal winner.
+The reading order is GoodWe, Qbits, Growatt. It is not alphabetical, and Qbits is deliberately not first. It is not a paid position, reliability score, sales ranking, or universal winner.
 
 ## Exact 5 kW hybrid comparison for AC backup
 
 The values below come from the current [GoodWe ES G2 product page](https://en.goodwe.com/es-g2), [Qbits QBH single-phase catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf), and [Growatt SPH TL BL-UP datasheet](https://en.growatt.com/upload/file/SPH_3000-6000TL_BL-UP_Datasheet_202604.pdf), checked on 26 September 2026.
+
+Table: Published backup, short-duration, battery and PV figures for three exact 5 kW-class hybrid models, in each manufacturer's own units
 
 | Exact model | Published backup output | Published short-duration or heavy-load figure | Battery input | PV tracking | What to confirm |
 | --- | --- | --- | --- | --- | --- |
 | GoodWe GW5000-ES-20 | 5,000 VA nominal backup apparent power | Product page says the family supports heavy loads such as air conditioners; the exact peak value is not shown in the product page table | 40 to 60 V; 120 A maximum continuous charge or discharge | 2 MPPTs; 16 A maximum input per MPPT | AC start must be checked against a current detailed datasheet or manual, exact battery list, and site load schedule |
 | Qbits QBH-5KS48P | 5,000 W in the catalogue's rated off-grid apparent-output row | Greater than 200% for 15 seconds in the family's maximum-output-apparent-power row | 48 V rated; configurable charge voltage up to 60 V; 120 A maximum charge or discharge | 2 MPPTs; 18 A maximum input per tracker | Units are quoted as the catalogue prints them; confirm the exact battery pairing, current manual and written warranty |
 | Growatt SPH 5000TL BL-UP | 4,000 W maximum backup AC output | No separate peak figure in the datasheet | 42 to 59 V; 85 A maximum charge and discharge; 4,000 W continuous charging and discharging power | 2 MPPTs; 13.5 A maximum input per tracker | India availability, exact battery pairing, starting duty, and local terms need confirmation |
+
+```chart
+type: hbar
+title: Maximum battery charge or discharge current published for each model
+unit: "A"
+source: "GoodWe ES G2 product page, Qbits QBH single-phase catalogue and Growatt SPH 3000-6000TL BL-UP datasheet (April 2026), as cited in this article, checked 26 September 2026"
+note: "GoodWe figure is continuous. Current alone does not set usable power; battery voltage, BMS limits and approved pairing also apply."
+data:
+  - { label: "GoodWe GW5000-ES-20", value: 120 }
+  - { label: "Qbits QBH-5KS48P", value: 120 }
+  - { label: "Growatt SPH 5000TL BL-UP", value: 85 }
+```
 
 Do not silently treat W and VA as the same unit. Real power, apparent power, power factor, waveform, and duration all matter with motor loads. The table preserves the units each manufacturer publishes.
 
@@ -89,11 +112,11 @@ The product page says ES G2 can switch to backup in less than 10 ms and is inten
 
 **Conditional verdict:** shortlist GW5000-ES-20 when the designed continuous backup load fits 5,000 VA and the supplier provides the current detailed short-duration-output evidence, approved battery record, and exact load check before purchase.
 
-### Qbits QBH-5KS48P: clearest published short-duration row
+### Qbits QBH-5KS48P: a published short-duration row
 
 The Qbits catalogue identifies QBH-5KS48P as a single-phase model with 5,000 W in its rated off-grid apparent-output row. It prints greater than 200% for 15 seconds in the family's maximum-output-apparent-power row. The same exact model column publishes a 48 V rated battery input, up to 60 V configurable charging voltage, 120 A maximum battery charge or discharge current, two MPPTs, and 18 A input per tracker.
 
-This is the strongest published short-duration figure of the three sources. It is still not permission to connect any AC. The catalogue uses W in a row labelled apparent power, does not publish an exact approved battery list, and does not state whether the battery can supply the corresponding current. The designer must close those gaps.
+This is the only short-duration figure printed in the three sources. It is still not permission to connect any AC. The catalogue uses W in a row labelled apparent power, does not publish an exact approved battery list, and does not state whether the battery can supply the corresponding current. The designer must close those gaps.
 
 The brochure also prints a switching statement as “within 10 seconds.” That wording is not used here as a transfer-time promise because it needs manufacturer clarification. A decimal or unit should never be silently repaired in a safety-relevant purchase decision.
 
@@ -113,6 +136,8 @@ A 1.5 ton or 2 ton label describes cooling capacity. Two ACs with the same tonna
 
 Record these fields for the exact AC:
 
+Table: Fields to record for the exact air conditioner and how each is used in the design
+
 | Input | Preferred evidence | Design use |
 | --- | --- | --- |
 | Exact AC model | Nameplate and current manufacturer sheet | Prevents using a generic tonnage estimate |
@@ -122,27 +147,29 @@ Record these fields for the exact AC:
 | Operating schedule | Owner requirement or monitoring | Drives daily energy and backup duration |
 | Simultaneous appliances | Protected-load schedule | Prevents sizing for the AC alone |
 
-If starting data is missing, do not replace it with a universal three-times or five-times multiplier. Ask the AC manufacturer, obtain the appropriate service data, or arrange a suitable measurement. Variable-speed and fixed-speed compressors do not all start alike.
+> [!CAUTION] Do not guess the AC starting current
+> If starting data is missing, do not replace it with a universal three-times or five-times multiplier. Ask the AC manufacturer, obtain the appropriate service data, or arrange a suitable measurement. Variable-speed and fixed-speed compressors do not all start alike.
 
 ## A transparent heavy-load sizing example
 
 The following is an illustration of the method, not a typical Indian home and not a recommendation for a particular inverter.
 
-Assume the design record states:
-
-- AC maximum running input: 1.60 kW;
-- other loads that may run at the same time: 0.60 kW;
-- total continuous real-power case: 2.20 kW;
-- documented AC starting demand: 3.20 kVA;
-- other loads during that start event: 0.70 kVA;
-- total short-duration apparent-power case: 3.90 kVA;
-- required outage duration: 2 hours;
-- duty-cycle-adjusted average AC input during the outage: 1.20 kW;
-- average other outage load: 0.30 kW.
-
-The power checks are 2.20 kW continuous and 3.90 kVA for the stated starting interval. Both must fit the exact backup-output limits. The battery must also supply the necessary DC current during that event.
-
-For energy, the assumed average load is `1.20 + 0.30 = 1.50 kW`. The AC-side energy for two hours is `1.50 × 2 = 3.00 kWh`. That is not the battery nameplate answer. Usable fraction, inverter losses, reserve, temperature, ageing, and manufacturer rules must still be applied.
+> [!EXAMPLE] Heavy-load sizing: 2.20 kW running, 3.90 kVA start, 2 hours
+> Assume the design record states:
+>
+> - AC maximum running input: 1.60 kW;
+> - other loads that may run at the same time: 0.60 kW;
+> - total continuous real-power case: 2.20 kW;
+> - documented AC starting demand: 3.20 kVA;
+> - other loads during that start event: 0.70 kVA;
+> - total short-duration apparent-power case: 3.90 kVA;
+> - required outage duration: 2 hours;
+> - duty-cycle-adjusted average AC input during the outage: 1.20 kW;
+> - average other outage load: 0.30 kW.
+>
+> The power checks are 2.20 kW continuous and 3.90 kVA for the stated starting interval. Both must fit the exact backup-output limits. The battery must also supply the necessary DC current during that event.
+>
+> For energy, the assumed average load is `1.20 + 0.30 = 1.50 kW`. The AC-side energy for two hours is `1.50 × 2 = 3.00 kWh`. That is not the battery nameplate answer. Usable fraction, inverter losses, reserve, temperature, ageing, and manufacturer rules must still be applied.
 
 Change any input and the result changes. A second AC, pump, induction cooktop, water heater, or electric-vehicle charger can move both the continuous and starting case. The [solar inverter sizing guide](/blog/solar-inverter-sizing/) covers the broader load and array sequence.
 
@@ -192,16 +219,17 @@ Staggering loads can reduce the required short-duration capacity, but only if th
 
 Before selecting any model, ask the supplier for:
 
-- exact inverter model, hardware revision, current datasheet, and installation manual;
-- AC and heavy-load schedule with continuous and starting cases;
-- exact backup-output and short-duration-output evidence;
-- approved battery model, capacity, discharge-power limit, communication, and firmware;
-- PV module, string calculation, MPPT limits, and array assumptions;
-- single-line diagram showing grid, PV, battery, backup board, isolation, and protection;
-- operating-temperature limits and any derating relevant to the installation location;
-- current certificate files required for the project;
-- complete written warranty, exclusions, registration, remedy, and claim route;
-- itemised price, included hardware, installation, commissioning, monitoring, and excluded work.
+> [!CHECKLIST] Ask every supplier for this before selecting a model
+> - exact inverter model, hardware revision, current datasheet, and installation manual;
+> - AC and heavy-load schedule with continuous and starting cases;
+> - exact backup-output and short-duration-output evidence;
+> - approved battery model, capacity, discharge-power limit, communication, and firmware;
+> - PV module, string calculation, MPPT limits, and array assumptions;
+> - single-line diagram showing grid, PV, battery, backup board, isolation, and protection;
+> - operating-temperature limits and any derating relevant to the installation location;
+> - current certificate files required for the project;
+> - complete written warranty, exclusions, registration, remedy, and claim route;
+> - itemised price, included hardware, installation, commissioning, monitoring, and excluded work.
 
 Reject the quote if it uses only “5 kW hybrid,” sizes from AC tonnage, equates grid output with backup output, or promises runtime without showing the battery assumptions.
 
@@ -209,6 +237,6 @@ Reject the quote if it uses only “5 kW hybrid,” sizes from AC tonnage, equat
 
 For **daytime AC bill reduction with a reliable grid**, start with an on-grid energy and string design. Do not pay for backup solely because the home contains an AC.
 
-For **AC operation during outages**, begin with the exact load and start event. GoodWe GW5000-ES-20 is the clearest 5 kVA continuous backup comparison point, but its detailed peak evidence must be obtained. Qbits QBH-5KS48P publishes the clearest short-duration row in this set, but the source wording, battery pairing, and exact start duty need technical confirmation. Growatt SPH 5000TL BL-UP is a defensible option when its explicit 4,000 W backup ceiling covers the designed load.
+For **AC operation during outages**, begin with the exact load and start event. GoodWe GW5000-ES-20 is the clearest 5 kVA continuous backup comparison point, but its detailed peak evidence must be obtained. Qbits QBH-5KS48P is the only one of the three that prints a short-duration row, but the source wording, battery pairing, and exact start duty need technical confirmation. Growatt SPH 5000TL BL-UP is a defensible option when its explicit 4,000 W backup ceiling covers the designed load.
 
 Choose none of them yet if the supplier cannot demonstrate the exact AC start, battery power, backup output, and protected-load plan. The right inverter is the one that passes those checks, not the one with the largest number in its model name.

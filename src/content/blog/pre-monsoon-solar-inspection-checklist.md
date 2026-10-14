@@ -30,7 +30,7 @@ faqs:
     a: "Yes. The inverter should be included in pre-monsoon inspection. Specific checks: (1) confirm the cooling vents or heat-sink fins are clear of dust, dirt, and any nesting material from birds or insects that took up residence during summer; (2) if the inverter is outdoor-mounted, check the IP66 gasket seal on the cover - gaskets degrade over five to seven years and may need replacement; (3) verify the AC isolator and DC disconnect switches operate smoothly; (4) confirm no water has entered the enclosure from previous rain events. Inverters with moisture damage often show insulation fault alarms that trigger before the physical damage is visible."
   - q: "Should I clean my panels before monsoon?"
     a: "Yes, a thorough panel clean before monsoon is worthwhile. Summer dust accumulation can reduce output by 5–15% in high-dust regions. More importantly, dust mixed with first-rain moisture forms a mud layer that is harder to remove than dry dust alone. Cleaning before monsoon removes the summer dust load and prepares the surface for the rain to rinse cleanly. Use plain water with a soft cloth or squeegee - no abrasive pads or chemical cleaners. Early morning cleaning when panels are cool prevents thermal shock on hot glass. Do not stand on the panels. For multi-storey buildings, use a professional window cleaning service with appropriate safety equipment."
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 ---
 
 > **Qbits warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service SLA, or exclusions. Obtain the current written terms for the exact model and sale before relying on a headline claim.
@@ -39,7 +39,7 @@ The monsoon arrives differently across India, Kerala receives the first rains in
 
 > **The 8-Point Pre-Monsoon Solar Shield Checklist prevents monsoon-season failures by addressing the eight most common points of vulnerability before moisture and wind arrive.** Loose MC4 connectors, degraded earthing, bird-nested inverter vents, and corroded brackets are all fixable in April or May at low cost, they become much more expensive problems once the monsoon is underway. Schedule this inspection at least four weeks before monsoon onset for your region.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Schedule the inspection in late April to May (April for Kerala, given its earlier monsoon onset) so there is a two-to-three week lead time to source parts before the rains start.
 > - The eight checks cover MC4 connectors, DC conduit sealing, earthing continuity, inverter vent blockages, roof mounting brackets, IP66 gasket integrity, AC/DC isolator operation, and a live monitoring-app test.
 > - Homeowners can safely do the visual checks; earthing continuity, insulation resistance (megger), and isolator verification need a licensed electrician.
@@ -63,6 +63,9 @@ Moisture inside an MC4 connector causes oxidation of the copper contacts. Oxidis
 - Mismatched brands (a common problem from low-quality installations, MC4s from different brands should not be mixed; they create substandard seals).
 
 **Pull test:** Wearing insulated gloves, gently pull each male-female connector pair apart with light tension. A properly locked MC4 should resist 50–80 N of pull force. If a connector separates with light hand force, it was never properly seated.
+
+> [!CAUTION] Do not disconnect MC4 connectors with the array live
+> A DC circuit can arc when a connector is pulled apart under load, and the arc risk is the reason this check matters. Have a qualified electrician isolate the DC side first, or limit the owner's check to a visual inspection.
 
 **Fix:** Replace any suspect connector pair with genuine MC4 connectors from a recognised manufacturer. Connector pairs cost ₹80–₹200 per pair. A qualified electrician should perform the replacement to ensure the new connectors are correctly crimped and locked, if you no longer have a relationship with your original installer, a residential solar EPC can typically dispatch a technician for connector-level repairs without a full re-inspection contract.
 
@@ -91,6 +94,10 @@ During monsoon season, earthing becomes even more critical because moisture crea
 - Visually confirm the earthing conductor (typically a 4–6 mm² green/yellow wire) is intact and connected at both ends, at the inverter chassis and at the earthing electrode (a GI rod driven into the ground).
 - Check for visible breaks, corrosion, or disconnected terminations.
 - For a comprehensive check, a qualified electrician should use a megohmmeter to test insulation resistance of the DC array relative to earth. Readings below 1 MOhm at 500V test voltage indicate a problem requiring investigation.
+
+> [!IMPORTANT] Earthing and insulation tests are for a licensed electrician
+> Homeowners can safely do the visual checks. Earthing continuity, insulation resistance (megger), and isolator verification need a licensed electrician. Readings below 1 MOhm under IEC 62446-1 point to a fault that should be fixed before wet weather arrives.
+
 
 **Fix cost estimate:** Replacing a corroded earthing connection: ₹500–₹1,500. Adding a second earthing electrode (required when soil resistance is high): ₹2,000–₹4,000. The [MNRE guidelines for rooftop solar installations](https://mnre.gov.in/) specify earthing requirements for all grid-connected solar systems and mandate that DISCOMs verify earthing compliance before granting net metering approval. This makes earthing integrity a regulatory requirement, not just a safety best practice. An electrician re-verifying the bond should be checking against the original electrical and CEIG drawings rather than guessing at the as-built layout.
 
@@ -155,6 +162,8 @@ The final check is functional: verify that your monitoring system is actively tr
 - For a Qbits system, identify the exact monitoring interface and supplied communication hardware, then test only the notifications documented for that configuration.
 
 ## The 8-Point Pre-Monsoon Solar Shield Checklist: Summary
+
+Table: The 8-point pre-monsoon checklist: risk if skipped and estimated fix cost
 
 | Check | Item | Risk if Skipped | Estimated Fix Cost |
 | --- | --- | --- | --- |

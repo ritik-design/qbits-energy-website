@@ -4,7 +4,7 @@ excerpt: "The SBI solar loan (Surya Shakti Solar Finance) offers up to 7-year te
 description: "SBI solar loan guide: Surya Shakti scheme rates (9–11%), eligibility, documents checklist, EMI table, and comparison with IREDA and private banks."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-solar-loan-sbi.webp"
 author: "Akash Hirapara"
@@ -45,11 +45,11 @@ The answer is yes, through a product called SBI Surya Shakti Solar Finance. This
 
 The SBI solar loan sits at the intersection of two government priorities: expanding rooftop solar capacity and deepening financial inclusion. That intersection is why the [PM Surya Ghar Muft Bijli Yojana](/blog/pm-surya-ghar-yojana-complete-guide/) named SBI as a preferred lending partner, the bank's 22,000+ branch network means most Indian homeowners can access this financing without travelling to a state capital.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - SBI Surya Shakti Solar Finance offers up to 7-year tenure at roughly 9-11% interest, MCLR-linked, with up to 90% loan-to-value.
 > - Eligibility needs property ownership, CIBIL 700+, and income proof; the DISCOM sanction letter from [PM Surya Ghar](/glossary/pm-surya-ghar/) registration is a mandatory document.
-> - Seven documents are required: Aadhaar, PAN, income proof, electricity bill, property documents, DISCOM sanction letter, and an ALMM-empanelled vendor quotation.
-> - On a 3 kW system, the post-subsidy loan amount is around ₹1,02,000, with EMI (7-year) of about ₹1,626/month against an estimated ₹2,000 monthly bill saving.
+> - Seven documents are required: Aadhaar, PAN, income proof, electricity bill, property documents, DISCOM sanction letter, and an empanelled-vendor quotation.
+> - On a 3 kW system, the post-subsidy loan amount is around ₹1,02,000, with EMI (7-year) of about ₹1,693/month against an estimated ₹2,000 monthly bill saving.
 > - SBI's rate (9-11%) sits between IREDA's lower 8-9.5% and private banks' 10.5-14%, but SBI's branch reach and [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-eligibility) tie-up make it the most accessible default for most homeowners.
 > - The PM Surya Ghar subsidy arrives after installation, so it should be used as a principal prepayment, not treated as a down payment.
 
@@ -60,6 +60,8 @@ SBI launched Surya Shakti Solar Finance as a dedicated product for residential a
 The product covers the complete solar system cost: photovoltaic panels, the solar inverter, mounting structure, DC wiring, AC distribution box, and installation charges. It does not cover batteries in a standalone configuration, though hybrid inverter installations where the solar system is the primary cost may be funded case-by-case.
 
 Key parameters of the scheme are summarised below:
+
+Table: SBI Surya Shakti Solar Finance, key parameters (rate band as of June 2026)
 
 | Parameter | SBI Surya Shakti Solar Finance |
 | --- | --- |
@@ -100,7 +102,7 @@ SBI does not legally require applicants to hold an existing account. In practice
 
 ## The SBI Solar Loan Checklist: 7 Documents Before You Walk In
 
-This is the named framework for this guide. Every rejected or delayed SBI solar loan application we have tracked comes down to missing one of these seven documents. Carry all seven on your first branch visit and you eliminate the most common reason for a return trip.
+This is the named framework for this guide. Missing one of these seven documents is a common reason for a delayed SBI solar loan application. Carry all seven on your first branch visit and you eliminate the most common reason for a return trip.
 
 ### The 7-Document Framework
 
@@ -116,6 +118,8 @@ This is the named framework for this guide. Every rejected or delayed SBI solar 
 
 6. **DISCOM sanction letter**: the net metering or grid-connection approval issued by your local electricity distribution company after you complete the PM Surya Ghar portal registration. This is the document that most delays applications because applicants arrive at the bank before the DISCOM process is complete. Initiate the DISCOM application first.
 
+7. **Vendor quotation**: a written quotation for the solar system from an empanelled installer. SBI requires installation by an empanelled vendor, and a quotation from an unregistered installer is rejected.
+
 Carry all seven. The branch will retain photocopies and return originals after verification.
 
 ## How to Apply for an SBI Solar Loan: Step-by-Step Process
@@ -126,6 +130,8 @@ The application journey has five distinct stages. Understanding what happens at 
 
 - **Step 2: Obtain DISCOM sanction letter**: After portal registration, your DISCOM inspects the connection feasibility and issues a technical sanction for net metering. This takes 7–15 working days in most states. Do not visit the bank before you have this letter in hand.
 
+- **Step 3: Get a vendor quotation**: Choose an installer from the empanelled list on the portal and obtain a written quotation for the system. SBI needs it with the loan application.
+
 - **Step 4: Visit SBI branch and submit the application**: Carry all seven documents from the checklist above. Visit the branch nearest to the installation property. The loan officer will conduct a preliminary assessment, collect documents, and initiate the credit appraisal. An existing SBI account holder can also start the preliminary application online via YONO and visit the branch only for document submission.
 
 - **Step 5: Verification, sanction, and disbursement**: SBI conducts a property valuation (if collateral is required) and credit verification. The typical approval timeline is 10–21 working days. Once sanctioned, the loan amount is disbursed directly to the vendor's account upon production of the first invoice or milestone payment confirmation. Post-installation, you initiate the PM Surya Ghar subsidy claim, and the subsidy amount (up to [₹78,000 for 3 kW](/blog/pm-surya-ghar-subsidy-amount/)) is credited to your bank account to apply against the loan principal.
@@ -134,13 +140,37 @@ The application journey has five distinct stages. Understanding what happens at 
 
 The table below models monthly EMI at 10% per annum (mid-range of the 9–11% band) across three common system sizes and two tenure options. EMI values are approximate and should be confirmed with an amortisation calculator at the time of application; you can also cross-check the underlying system cost and savings assumptions with a solar cost and savings calculator before finalising your loan amount.
 
+> [!FORMULA]
+> EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1), where P is the loan principal, r is the monthly rate (10% ÷ 12) and n is the number of monthly instalments (60 or 84)
+
+Table: Estimated monthly EMI at 10% per annum by system size and tenure, after the PM Surya Ghar subsidy
+
 | System size | Approx. system cost | Post-subsidy loan amount | 5-year EMI | 7-year EMI | Monthly bill saving (est.) | Net monthly outflow |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2 kW | ₹1,20,000 | ₹75,000 | ₹1,593 | ₹1,196 | ₹1,400 | ₹0–₹200 savings |
-| 3 kW | ₹1,80,000 | ₹1,02,000 | ₹2,167 | ₹1,626 | ₹2,000 | ₹375–₹500 savings |
-| 5 kW | ₹3,00,000 | ₹2,22,000 | ₹4,715 | ₹3,540 | ₹3,200 | ₹340–₹1,515 outflow |
+| 2 kW | ₹1,20,000 | ₹60,000 | ₹1,275 | ₹996 | ₹1,400 | ₹125 (5-year) to ₹404 (7-year) savings |
+| 3 kW | ₹1,80,000 | ₹1,02,000 | ₹2,167 | ₹1,693 | ₹2,000 | ₹167 outflow (5-year) to ₹307 savings (7-year) |
+| 5 kW | ₹3,00,000 | ₹2,22,000 | ₹4,717 | ₹3,685 | ₹3,200 | ₹485 (7-year) to ₹1,517 (5-year) outflow |
 
-**Notes:** Post-subsidy loan amount deducts the PM Surya Ghar central subsidy (₹30,000 for 1 kW, ₹60,000 for 2 kW, ₹78,000 for 3 kW+). Bill savings are estimated at ₹7 per unit at 200–380 peak sun hours/month. Actual EMI varies by credit profile and branch-level rate negotiation. The 5 kW row shows a small net monthly outflow because the subsidy is capped at ₹78,000 for systems above 3 kW.
+```chart
+type: bar
+title: Estimated monthly EMI by system size and loan tenure
+unit: "₹"
+source: "Calculated in this article with the standard EMI formula at 10% per annum (mid-point of the 9-11% SBI band, as of June 2026), applied to the post-subsidy loan amounts in the table above"
+note: "EMI only. It excludes the processing fee and any rate change on the MCLR-linked loan."
+series:
+  - name: "5-year EMI"
+    data:
+      - { label: "2 kW", value: 1275 }
+      - { label: "3 kW", value: 2167 }
+      - { label: "5 kW", value: 4717 }
+  - name: "7-year EMI"
+    data:
+      - { label: "2 kW", value: 996 }
+      - { label: "3 kW", value: 1693 }
+      - { label: "5 kW", value: 3685 }
+```
+
+**Notes:** Post-subsidy loan amount deducts the PM Surya Ghar central subsidy (₹30,000 for 1 kW, ₹60,000 for 2 kW, ₹78,000 for 3 kW+); EMIs are computed at 10% for 60 and 84 instalments. Bill savings are estimated at ₹7 per unit at 200–380 peak sun hours/month. Actual EMI varies by credit profile and branch-level rate negotiation. The 5 kW row shows a small net monthly outflow because the subsidy is capped at ₹78,000 for systems above 3 kW.
 
 For homeowners on a 3 kW system with a 7-year SBI loan, the solar installation is effectively cash-neutral in the first month, the EMI is covered almost entirely by the electricity bill saving. This is the financial logic behind the [PM Surya Ghar subsidy and the bank loan combination](/blog/solar-inverter-with-subsidy-pm-surya-ghar/).
 
@@ -174,6 +204,8 @@ NBFCs such as Tata Capital, Mahindra Finance, and specialised solar NBFCs offer 
 
 **Best for:** Self-employed individuals with limited formal income documentation, or homeowners in areas without convenient SBI branch access.
 
+Table: SBI, IREDA, private banks and NBFCs compared for a residential solar loan
+
 | Dimension | SBI | IREDA | Private bank | NBFC |
 | --- | --- | --- | --- | --- |
 | Interest rate | 9–11% | 8–9.5% | 10.5–14% | 12–18% |
@@ -190,6 +222,7 @@ The PM Surya Ghar Muft Bijli Yojana is not a standalone subsidy, it is a policy 
 
 The combined PM Surya Ghar + SBI solar loan journey works as follows:
 
+<!-- steps -->
 1. Register on the PM Surya Ghar portal and select your installer.
 2. Obtain the DISCOM technical sanction letter.
 3. Apply for the SBI solar loan with the DISCOM letter and vendor quotation.
@@ -199,7 +232,8 @@ The combined PM Surya Ghar + SBI solar loan journey works as follows:
 7. PM Surya Ghar subsidy is credited to your account (2–4 weeks post-verification).
 8. Apply the subsidy credit to reduce the loan outstanding principal.
 
-This sequence is important: the subsidy arrives after installation, not before. You need the full loan amount upfront. Do not plan to use the subsidy as a down payment for the loan, plan to use it as a principal prepayment after it arrives.
+> [!IMPORTANT] The subsidy arrives after installation
+> This sequence is important: the subsidy arrives after installation, not before. You need the full loan amount upfront. Do not plan to use the subsidy as a down payment for the loan, plan to use it as a principal prepayment after it arrives.
 
 For a deeper understanding of the [PM Surya Ghar scheme eligibility criteria](/blog/pm-surya-ghar-eligibility/) and how the subsidy amount is calculated, those posts cover each aspect in detail.
 
@@ -209,7 +243,7 @@ These are the five errors that most consistently result in delayed approvals or 
 
 - **Visiting the branch before getting the DISCOM sanction letter**: The DISCOM letter is a mandatory document, not optional. Loan officers cannot proceed with appraisal without it. The letter takes 7–15 days. Apply to the DISCOM first, then visit the bank.
 
-- **Submitting a quotation from a non-ALMM-empanelled installer**: SBI requires the solar system to be installed by an empanelled vendor. A quotation from an unregistered installer will be rejected. Verify your installer's status on the [MNRE ALMM list](https://mnre.gov.in/almm-list/) before accepting any quotation.
+- **Submitting a quotation from a non-empanelled installer**: SBI requires the solar system to be installed by an empanelled vendor. A quotation from an unregistered installer will be rejected. Verify your installer's empanelment on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) vendor list or with your DISCOM before accepting any quotation. The [MNRE ALMM list](https://mnre.gov.in/almm-list/) covers solar modules and cells, not installers.
 
 - **Using the PM Surya Ghar subsidy as the loan down payment**: The subsidy is disbursed post-installation. Plan your finances assuming you need to fund the full project cost and treat the subsidy as a future prepayment windfall.
 

@@ -39,7 +39,7 @@ relatedSlugs:
 
 Every business that evaluates rooftop solar in India meets the same fork: buy the system ([CAPEX](/glossary/capex/)) or buy its power from a developer ([OPEX](/glossary/opex/) under a [RESCO](/glossary/resco/) or [PPA](/glossary/ppa/) contract). Neither model is better in the abstract. The answer depends on the roof, the cash, the tax position and the contract. This guide gives a decision matrix and a worked model with every formula shown, so you can replace the assumed inputs with your own quote and bill.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - CAPEX gives the owner all savings and the asset, and takes the capital, performance and maintenance risk. OPEX needs no capital and gives a smaller saving that depends on the PPA terms.
 > - In the worked 100 kW model, CAPEX has a payback of 4.6 years and an IRR of about 21 percent on assumed inputs, and the result swings widely with tariff and cost.
 > - A PPA that escalates at 3 percent a year can cost more than a flat grid tariff after about 14 years.
@@ -47,6 +47,8 @@ Every business that evaluates rooftop solar in India meets the same fork: buy th
 > - All inputs below are illustrative. Replace them with your tariff, quote and contract.
 
 ## CAPEX and OPEX side by side
+
+Table: CAPEX and OPEX compared across eight dimensions
 
 | Dimension | CAPEX (own the system) | OPEX (RESCO / PPA) |
 | --- | --- | --- |
@@ -75,13 +77,43 @@ This is arithmetic on stated assumptions. It is not a quotation, a tariff order 
 
 **Sensitivity: IRR and payback by cost and tariff** (same other assumptions):
 
+Table: IRR and payback of the 100 kW model by system cost and grid tariff
+
 | System cost | At ₹6 per kWh | At ₹8 | At ₹10 |
 | --- | --- | --- | --- |
 | ₹45,00,000 | 19.2%, 5.0 years | 26.4%, 3.7 years | 33.5%, 3.0 years |
 | ₹55,00,000 | 15.1%, 6.3 years | 21.1%, 4.6 years | 27.0%, 3.6 years |
 | ₹65,00,000 | 12.2%, 7.5 years | 17.4%, 5.5 years | 22.5%, 4.3 years |
 
+```chart
+type: bar
+title: IRR of the worked 100 kW CAPEX model by system cost and grid tariff
+unit: "%"
+source: "Calculated in this article from the stated assumptions: 1,57,800 kWh in year one, 0.5% annual degradation, O&M 1% of cost a year, inverter replacement in year 12 at 6% of cost, 25 years, pre-tax"
+note: "Illustrative inputs, not a quotation. Replace them with your own tariff and written quote."
+decimals: 1
+series:
+  - name: "At ₹6 per kWh"
+    data:
+      - { label: "₹45,00,000", value: 19.2 }
+      - { label: "₹55,00,000", value: 15.1 }
+      - { label: "₹65,00,000", value: 12.2 }
+  - name: "At ₹8 per kWh"
+    data:
+      - { label: "₹45,00,000", value: 26.4 }
+      - { label: "₹55,00,000", value: 21.1 }
+      - { label: "₹65,00,000", value: 17.4 }
+  - name: "At ₹10 per kWh"
+    data:
+      - { label: "₹45,00,000", value: 33.5 }
+      - { label: "₹55,00,000", value: 27.0 }
+      - { label: "₹65,00,000", value: 22.5 }
+```
+
 The same site returns an IRR anywhere from 12.2 to 33.5 percent depending on two inputs. That spread, not any single figure, is the reason to get the tariff slab and the written quote right before choosing a model.
+
+> [!IMPORTANT] Treat the tax benefit as optional
+> Whether a depreciation rate applies to your asset, regime and year is a tax question. Set it to zero if you cannot use it, and confirm the rate with your accountant.
 
 **Optional tax benefit.** If your accountant confirms a first-year depreciation rate d and your tax rate is t, the first-year tax saving is cost x d x t. As an illustration only, d = 40 percent and t = 25 percent give 55,00,000 x 0.40 x 0.25 = ₹5,50,000. Adding that to year one lifts IRR to 23.1 percent and shortens payback to 4.1 years. Set it to zero if you cannot use it. Whether the rate applies to your asset, regime and year is a tax question; see the [depreciation checklist](/blog/solar-inverter-depreciation-in-india/).
 
@@ -92,6 +124,8 @@ The same site returns an IRR anywhere from 12.2 to 33.5 percent depending on two
 **Formula.** Year-n saving = G x (1 - 0.005)^(n-1) x [grid tariff in year n - 5.50 x 1.03^(n-1)]
 
 Year one: 1,57,800 x (8 - 5.50) = ₹3,94,500, which is 31 percent of the ₹12,62,400 grid bill for those units. What happens next depends on the grid tariff path:
+
+Table: PPA saving over time under a flat and a rising grid tariff
 
 | Case | Year 1 saving | Year 10 | Year 25 | Total over 25 years | NPV at 10% |
 | --- | --- | --- | --- | --- | --- |
@@ -104,10 +138,13 @@ With a flat grid tariff the PPA tariff passes ₹8 in year 14 (5.50 x 1.03^13 = 
 
 Work through these in order.
 
+<!-- steps -->
 1. **Do you own the roof for longer than the payback, with a margin?** If you rent or hold a short lease, CAPEX can leave you with a stranded asset. Compare your remaining tenure with the payback from your own model, for example the 4.6 years above; a lease that ends before that point favours OPEX with a term aligned to the lease.
 2. **Can you fund the system at a cost below the project return?** Compare your cost of capital with the IRR from the sensitivity table. If debt costs more than the IRR, or capital is needed for the core business, OPEX preserves it.
 3. **Can you use the tax benefit and do you have taxable profit?** A loss-making entity or a trust may not be able to use depreciation, which narrows the gap between the models. Confirm with your accountant.
 4. **Does your policy allow a capital asset?** Lender covenants, board policy or a preference for off-balance-sheet treatment can point to OPEX.
+
+Table: How the four answers point to CAPEX or OPEX
 
 | Answers | Likely direction |
 | --- | --- |
@@ -118,7 +155,13 @@ Work through these in order.
 
 ## Financing a CAPEX purchase
 
-The EMI formula is **EMI = L x r / (1 - (1 + r)^-n)**, where L is the loan, r the monthly rate and n the number of months. Illustration: a loan of 70 percent of ₹55,00,000 is ₹38,50,000. At an assumed 9 percent a year over 7 years (r = 0.0075, n = 84), EMI = ₹61,943 a month, or ₹7,43,315 a year. The year-one net saving of ₹12,07,400 leaves a surplus of ₹4,64,085 a year after instalments, against an equity cheque of ₹16,50,000. The surplus is before tax, insurance and any cost of a delay in commissioning, and the 9 percent is a placeholder. Ask lenders for current rates and terms, including [IREDA](https://www.ireda.in/) and your own bank, and ask whether any guarantee-cover scheme applies to your borrower category. See the [solar loan guide](/blog/best-bank-solar-loan-india-2026/) for how to compare offers.
+> [!FORMULA] Monthly instalment (EMI)
+> EMI = L x r / (1 - (1 + r)^-n), where L is the loan, r the monthly rate and n the number of months
+
+> [!EXAMPLE] Loan of 70 percent of cost
+> A loan of 70 percent of ₹55,00,000 is ₹38,50,000. At an assumed 9 percent a year over 7 years (r = 0.0075, n = 84), EMI = ₹61,943 a month, or ₹7,43,315 a year. The year-one net saving of ₹12,07,400 leaves a surplus of ₹4,64,085 a year after instalments, against an equity cheque of ₹16,50,000. The surplus is before tax, insurance and any cost of a delay in commissioning, and the 9 percent is a placeholder.
+
+Ask lenders for current rates and terms, including [IREDA](https://www.ireda.in/) and your own bank, and ask whether any guarantee-cover scheme applies to your borrower category. See the [solar loan guide](/blog/best-bank-solar-loan-india-2026/) for how to compare offers.
 
 ## Checks before signing a PPA
 

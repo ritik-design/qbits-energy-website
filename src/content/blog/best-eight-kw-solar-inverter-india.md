@@ -5,7 +5,7 @@ excerpt: "Compare three documented 8 kW single-phase hybrid inverters by backup 
 description: "An evidence-led 8 kW hybrid inverter comparison for Indian homeowners, using exact Qbits, GoodWe and Deye models and a practical backup-design checklist."
 category: "Comparison"
 date: 2026-09-26
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-best-eight-kw-solar-inverter-india.webp"
 author: "Keyur Rakholiya"
@@ -37,6 +37,13 @@ This comparison uses manufacturer material checked on 26 September 2026. It does
 
 **Disclosure:** Qbits publishes this article and sells one of the compared inverters. Its model is assessed under the same rules as the other two. The order below is alphabetical by brand, not a ranking of reliability or quality.
 
+> [!KEYTAKEAWAYS]
+> - No 8 kW model here is a universal winner: Deye SUN-8K-SG05LP1-EU, GoodWe GW8000-ES-C10 and Qbits QBH-8KS48P are all single-phase hybrids, listed alphabetically and not ranked.
+> - The battery input windows are 40 to 60 V for Deye and GoodWe, and 48 V rated (up to 60 V charging) for Qbits.
+> - The Qbits catalogue prints 190 A in its technical table and "up to 120 A" in a graphic. Get this settled in writing before sizing the battery or protection.
+> - An 8 kW label does not mean whole-home backup. Size from an essential-load schedule and a witnessed grid-loss test.
+> - Collect the same document set from every seller (exact datasheet, battery model, single-line diagram, load schedule, warranty terms) before comparing quotes.
+
 ## How the three models qualified
 
 An 8 kW search result can mix grid-tied, hybrid, solar PCU and three-phase products. Comparing those in one score table would conceal the most important difference: which circuits remain powered during an outage.
@@ -46,6 +53,8 @@ For this shortlist, a manufacturer had to publish an exact **8 kW class, single-
 The [broader hybrid inverter guide](/blog/best-hybrid-solar-inverter-india-2026/) compares the 5 kW class and explains when to consider other capacities. This page answers the narrower 8 kW decision. If your home has a three-phase connection, ask your designer to start with a three-phase model and an explicit phase and backup plan instead of treating this table as transferable.
 
 ## The documented 8 kW comparison
+
+Table: Published fields for three single-phase 8 kW hybrid inverters, listed alphabetically by brand (manufacturer documents checked 26 September 2026)
 
 | Decision field | [Deye SUN-8K-SG05LP1-EU](https://www.deyeinverter.com/deyeinverter/2023/11/22/datasheet_sun-3.6-8k-sg05lp1-eu_231121_en.pdf) | [GoodWe GW8000-ES-C10](https://en.goodwe.com/es-uniq) | [Qbits QBH-8KS48P](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-2.pdf) |
 | --- | --- | --- | --- |
@@ -61,6 +70,9 @@ The [broader hybrid inverter guide](/blog/best-hybrid-solar-inverter-india-2026/
 The manufacturers use **W** and **VA** differently. Do not convert them into one guaranteed household load figure. Power factor, battery current, temperature, surge duration and the defined backup terminals affect what a system can actually supply.
 
 The Qbits catalogue contains a material internal conflict: its technical table lists **190 A** for the 8 kW model, while a graphic on the same sheet says **up to 120 A**. The technical table is model-specific, but the conflict needs written clarification before an engineer sizes the battery or protection around 190 A. This is a technical review hold, not a figure to quietly average.
+
+> [!WARNING] Qbits 190 A versus 120 A
+> The Qbits catalogue gives 190 A in the QBH-8KS48P technical table and "up to 120 A" in a graphic on the same sheet. Do not size battery cables, fuses or the battery bank around either figure until Qbits or the seller confirms the correct value in writing.
 
 GoodWe's public ES Uniq page gives useful exact-model battery, grid and backup values. Its compact page summary does not settle every PV field for GW8000-ES-C10. Request the current detailed datasheet for the exact regional suffix before designing strings. Deye's PDF is dated 2023 and remains hosted by the manufacturer; ask the India seller to confirm it governs the unit being quoted.
 
@@ -90,6 +102,7 @@ The inverter's power rating and the battery's energy capacity answer different q
 
 Create an essential-load schedule before requesting quotes:
 
+<!-- steps -->
 1. Mark the circuits that must remain live during an outage.
 2. Add their expected simultaneous running watts.
 3. Record compressor or pump starting demand separately.
@@ -97,13 +110,16 @@ Create an essential-load schedule before requesting quotes:
 5. Check the battery's usable energy and permitted discharge current at its lowest operating voltage.
 6. Have the installer confirm protection, isolation, transfer behaviour and the supported operating mode.
 
-For illustration, a steady 2 kW load for four hours needs **8 kWh delivered to the loads**. If a design assumes 90% conversion and 80% usable battery capacity, the arithmetic is `8 ÷ (0.90 × 0.80) = 11.11 kWh` nominal before any reserve or ageing allowance. Those percentages are assumptions, not a Qbits, Deye or GoodWe outcome. The [battery sizing guide](/blog/battery-sizing-hybrid-solar/) explains the additional checks.
+> [!EXAMPLE] Backup energy for a 2 kW, 4-hour load
+> A steady 2 kW load for four hours needs **8 kWh delivered to the loads**. If a design assumes 90% conversion and 80% usable battery capacity, the arithmetic is `8 ÷ (0.90 × 0.80) = 11.11 kWh` nominal before any reserve or ageing allowance. Those percentages are assumptions, not a Qbits, Deye or GoodWe outcome. The [battery sizing guide](/blog/battery-sizing-hybrid-solar/) explains the additional checks.
 
 Battery current also matters. Multiplying a nominal 48 V by 190 A gives 9.12 kW on paper, but voltage changes with state of charge and current can be limited by the battery or firmware. That multiplication cannot prove continuous AC output, surge support or a safe battery pairing. It is especially unsafe while the Qbits current discrepancy remains unresolved.
 
 ## Documents to request before comparing quotes
 
 Give each seller the same list. A missing answer is an open design item, not a reason to invent a favourable specification.
+
+Table: Documents to request from each seller before comparing quotes
 
 | Request | What it must settle |
 | --- | --- |

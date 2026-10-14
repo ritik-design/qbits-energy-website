@@ -33,14 +33,14 @@ faqs:
     a: "Six documents minimum: (1) Commissioning report with all electrical test results and measured values. (2) Digital warranty registration with serial number and commissioning timestamp. (3) BIS and IEC certificates for the installed equipment. (4) As-built electrical drawings reflecting actual installation. (5) Photographic record of cable terminations, sealing, mounting, and earth connections. (6) Customer handover package including user manual, monitoring app credentials, maintenance schedule, and emergency contact list. Without this documentation, warranty claims 2-3 years later face material resistance."
   - q: "How does Indian grid instability affect inverter integration design?"
     a: "Significantly. Indian grid conditions include voltage swings of +/-15-20% from nominal, frequency variations during peak demand, switching transients from DISCOM substation operations, and occasional outages requiring islanding response. Integration design must account for: wide grid voltage tolerance (+/-15-20%) in inverter selection, robust SPD specification on both DC and AC sides, anti-islanding protection within 2 seconds per IEC 61727, and stable grid synchronisation algorithms. State-specific grid code requirements add additional constraints."
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 ---
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
 Grid instability, voltage fluctuations, and diverse state-by-state DISCOM regulations make proper solar inverter integration the make-or-break execution phase for every Indian project. The design phase establishes what should happen; integration determines what actually happens at the site. Get integration right and the system delivers 25 years of reliable operation; get any phase wrong and the cascading problems surface months or years later as service calls, performance shortfalls, and warranty disputes.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Integration runs across 7 phases: site assessment, mechanical/DC-side installation, AC-side grid connection, hybrid battery integration, monitoring setup, smart feature activation, and post-commissioning verification.
 > - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
 > - DC oversizing of 130-150% is standard practice, and earth resistance must stay below 5 ohms per IS 3043 with all metal components bonded.
@@ -108,10 +108,11 @@ The structural foundation for 25-year operation.
 
 ### Pre-energisation verification
 
-- **String voltage measurement** verified against design
-- **DC polarity** verified correct
-- **Insulation resistance** above 1 megohm
-- **String voltage imbalance** below 10%
+> [!CHECKLIST] Before energising the DC side
+> - **String voltage measurement** verified against design
+> - **DC polarity** verified correct
+> - **Insulation resistance** above 1 megohm
+> - **String voltage imbalance** below 10%
 
 ### Documentation produced
 
@@ -155,6 +156,8 @@ The grid-facing engineering that determines operational reliability.
 
 Additional complexity for hybrid installations with battery backup.
 
+Table: Hybrid battery integration, component by component
+
 | Component | Specification |
 | --- | --- |
 | **Battery chemistry** | [LiFePO4](/blog/lifepo4-vs-nmc-solar-battery-india/) (lithium iron phosphate) standard |
@@ -166,12 +169,13 @@ Additional complexity for hybrid installations with battery backup.
 
 ### Battery commissioning checks
 
-- **Battery voltage** measured at installation
-- **[SOC](/glossary/battery-soc/) (state of charge)** at commissioning verified
-- **BMS communication** established with inverter, following the [same protocol handshake](/blog/bms-hybrid-solar-inverter-explained/) covered in the BMS deep dive
-- **Charge cycle** verified across power range
-- **Discharge cycle** verified including transition to backup mode
-- **Critical load programming** completed for backup operation
+> [!CHECKLIST] Battery commissioning
+> - **Battery voltage** measured at installation
+> - **[SOC](/glossary/battery-soc/) (state of charge)** at commissioning verified
+> - **BMS communication** established with inverter, following the [same protocol handshake](/blog/bms-hybrid-solar-inverter-explained/) covered in the BMS deep dive
+> - **Charge cycle** verified across power range
+> - **Discharge cycle** verified including transition to backup mode
+> - **Critical load programming** completed for backup operation
 
 ### Documentation produced
 
@@ -276,6 +280,8 @@ The final phase that protects warranty and customer satisfaction.
 
 ## Quick Reference Specifications
 
+Table: Quick reference specifications for inverter integration in India
+
 | Item | Specification |
 | --- | --- |
 | Residential timeline (on-grid) | 1-2 days |
@@ -287,9 +293,11 @@ The final phase that protects warranty and customer satisfaction.
 | DC oversizing | 130-150% optimal |
 | Voltage tolerance | +/-15-20% wide tolerance |
 | Anti-islanding | <2 seconds per IEC 61727 |
-| Premium warranty | Full unit replacement rather than repair at the maker's option |
+| Warranty remedy | Repair, replacement or credit, as set out in the written warranty for the exact model |
 
 ## Common Integration Challenges in India
+
+Table: Common integration challenges in India and how to mitigate them
 
 | Challenge | Mitigation strategy |
 | --- | --- |

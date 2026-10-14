@@ -4,7 +4,7 @@ excerpt: "Illustrative 25 kW Coimbatore school solar planning scenario. It is no
 description: "A 25 kW Coimbatore school solar planning framework using unknown calendar, load and tariff inputs, not a verified customer result."
 category: "Case Study"
 date: 2026-06-05
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "7 min"
 image: "/og/blog-case-study-coimbatore-school.webp"
 author: "Qbits Editorial"
@@ -26,6 +26,13 @@ faqs:
 
 A school load changes across teaching days, holidays, examinations and events. This scenario shows how to test a 25 kW working brief without pretending that one timetable, tariff or roof applies to every campus.
 
+> [!KEYTAKEAWAYS]
+> - This is a planning scenario with no customer record, survey, load file, design or measured result, so every outcome is unknown.
+> - Seven inputs must be collected before sizing, starting with the operating calendar and interval demand; a missing input stays marked unknown.
+> - Keep occupied-area safety (safe isolation, locked access, signage, maintenance routes) separate from energy-generation objectives.
+> - Model holidays and low-load days so exports are not hidden inside an annual average.
+> - Tax treatment differs by legal entity and cannot be inferred from the words school or trust.
+
 ## What decision does this scenario test?
 
 The question is not whether 25 kW “works” in the abstract. The question is whether that AC capacity, paired with a documented PV array and connection design, fits the site's measured daytime load, available area, electrical infrastructure and approval route.
@@ -33,6 +40,8 @@ The question is not whether 25 kW “works” in the abstract. The question is w
 A credible answer must be electrically safe, acceptable under the current project process, and commercially supportable after every cost and uncertainty is shown.
 
 ## Evidence required before sizing
+
+Table: Inputs to collect before sizing a 25 kW school solar scenario, with status
 
 | Input | What to collect | Status in this scenario |
 | --- | --- | --- |
@@ -52,14 +61,18 @@ A missing input should stay marked as unknown. Replacing it with a typical value
 - Plan safe isolation, locked access, signage and maintenance routes.
 - Model holidays and low-load days so exports are not hidden inside an annual average.
 
-School management, the electrical professional and the building owner should approve access and safeguarding controls. Tax treatment differs by legal entity and cannot be inferred from the words school or trust.
+Tax treatment differs by legal entity and cannot be inferred from the words school or trust.
 
-The responsible electrical professional should sign the single-line diagram, protection settings and commissioning plan. Any safety-critical or production-critical system needs an independent continuity plan. Grid-connected solar is not backup unless the complete design explicitly supports that role.
+The responsible electrical professional should sign the single-line diagram, protection settings and commissioning plan. Any safety-critical or production-critical system needs an independent continuity plan.
+
+> [!CAUTION] Roof access and backup
+> School management, the electrical professional and the building owner should approve access and safeguarding controls. Grid-connected solar is not backup unless the complete design explicitly supports that role.
 
 ## How should the commercial case be calculated?
 
 Use measured inputs and keep the calculation reproducible:
 
+<!-- steps -->
 1. **Estimated annual generation** = simulation output for the documented array, orientation, losses and weather dataset.
 2. **Self-consumed energy** = the lesser of generation and coincident site load in each interval.
 3. **Exported energy** = generation minus self-consumed energy, subject to the approved metering arrangement.

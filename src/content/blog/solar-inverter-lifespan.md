@@ -25,7 +25,7 @@ faqs:
   a: No. Age alone is not a fault. Replace on evidence, meaning repeated faults, measured performance decline, unavailable parts or loss of support. The opposite error is also common, which is repeatedly resetting a faulting unit until the warranty expires and then paying for the replacement yourself.
 - q: How should I budget for a future replacement?
   a: Use a current model specific quote plus expected installation work, not a percentage of your original system price. Hardware pricing and specifications move, and a battery backed system adds compatibility and backup circuit checks if the model changes. Revisit the figure every few years rather than fixing it at commissioning.
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 seoTitle: How Long Do Solar Inverters Last? Planning Guide
 relatedSlugs:
 - solar-inverter-warranty
@@ -33,11 +33,10 @@ relatedSlugs:
 - solar-inverter-low-output-causes-india
 ---
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - Warranty term, design life and actual service life are three different numbers.
-> - Electrolytic capacitors and cooling fans are the recognised wear items.
-> - Heat is the main accelerant, which makes placement a lifespan decision.
+> - Electrolytic capacitors and cooling fans are the recognised wear items, and heat is the main accelerant, which makes placement a lifespan decision.
 > - Replace on evidence, not on reaching an assumed age.
 > - Budget from a current quote, not a percentage of the original system price.
 > - Do not reset a faulting unit repeatedly through the warranty period.
@@ -45,6 +44,8 @@ relatedSlugs:
 **Short version.** An inverter is the component of a rooftop system most likely to need attention before the panels do. Plan for that rather than assuming a single number, keep it cool and well placed, and make the repair or replace decision on a diagnosis instead of an age threshold.
 
 ## Three numbers that get confused
+
+Table: Warranty, design life and actual service life are not the same number
 
 | Term | What it actually is |
 | --- | --- |
@@ -75,9 +76,11 @@ The practical implication is that two identical inverters commissioned the same 
 
 Because heat drives most of the ageing mechanisms, the decisions made at installation have a longer effect than anything done afterwards.
 
-Specified clearances on all sides, a location out of direct afternoon sun, distance from other heat sources, an airflow path that stays clear, and accessible service space are the levers. They cost little at installation and are expensive to correct once the system is commissioned and the wall is finished.
+> [!TIP] Placement levers to settle at installation
+> Specified clearances on all sides, a location out of direct afternoon sun, distance from other heat sources, an airflow path that stays clear, and accessible service space are the levers. They cost little at installation and are expensive to correct once the system is commissioned and the wall is finished.
 
-The [overheating guide](/blog/inverter-overheating/) covers how derating works and which heat symptoms warrant a service call. An enclosure rating such as IP66 describes dust and water protection and says nothing about thermal headroom, so a sealed unit in direct sun is not protected against the thing that ages it.
+> [!IMPORTANT] IP66 is not thermal protection
+> The [overheating guide](/blog/inverter-overheating/) covers how derating works and which heat symptoms warrant a service call. An enclosure rating such as IP66 describes dust and water protection and says nothing about thermal headroom, so a sealed unit in direct sun is not protected against the thing that ages it.
 
 ## Signs worth acting on
 
@@ -106,7 +109,8 @@ Once diagnosed, compare on five points.
 
 That last point catches people. An inverter swap is rarely just an inverter swap on a system that has been running for years.
 
-Two errors are worth naming. Do not replace a healthy inverter because it reached an assumed age. And do not keep resetting a faulting unit to get through the day, because it erases the fault history that would have supported a warranty claim and often carries you past the warranty period entirely.
+> [!WARNING] Two errors that cost money
+> Two errors are worth naming. Do not replace a healthy inverter because it reached an assumed age. And do not keep resetting a faulting unit to get through the day, because it erases the fault history that would have supported a warranty claim and often carries you past the warranty period entirely.
 
 ## Keep the records that protect the decision
 

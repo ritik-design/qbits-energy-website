@@ -4,7 +4,7 @@ excerpt: "The ALMM list has two tiers: List-I for modules, List-II for cells. MN
 description: "ALMM Phase III is not an official MNRE term, and there is no ALMM inverter list. What List-I (modules) and List-II (cells) cover, and how to check a claim."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "14 min"
 image: "/og/blog-almm-list-phase-iii-guide.webp"
 author: "Qbits Editorial"
@@ -42,13 +42,12 @@ The confusion is expensive. Buyers reject compliant inverters for lacking a list
 
 This guide sets out the verified scope. It covers the order that creates ALMM, what List-I and List-II each contain, and the date the cell requirement started to bite. It then covers project coverage and exemptions, enlistment, how ALMM differs from Domestic Content Requirement, the module supply squeeze, and what an inverter buyer should check instead. Every date is attributed to its issuing body.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - ALMM is created by MNRE's Approved Models and Manufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration) Order, 2019, dated 2 January 2019.
 > - List-I covers solar PV modules and was first issued on 10 March 2021. List-II covers solar PV cells and was first issued on 31 July 2025.
 > - From 1 June 2026, a List-I module must be built on List-II cells for covered projects, per MNRE's Office Memorandum of 9 December 2024.
 > - MNRE publishes no inverter list. "ALMM Phase III" appears in no MNRE ALMM instrument, and the only proposed third tier is for wafers.
-> - Net-metering and open-access projects hold a limited commissioning window to 31 December 2026, per the MNRE notice of 18 July 2026.
-> - Listings are granted per factory and per model, so brand-level verification proves nothing.
+> - Net-metering and open-access projects hold a limited commissioning window to 31 December 2026, per the MNRE notice of 18 July 2026. Listings are granted per factory and per model, so brand-level verification proves nothing.
 > - Inverter compliance runs on IS/IEC standards, BIS registration and DISCOM approved-vendor lists instead.
 
 **Short version.** ALMM is MNRE's approved list for solar equipment. It has two published solar tiers: List-I for PV modules, List-II for PV cells, with the cell requirement in force from 1 June 2026. MNRE does not publish an inverter list, so "ALMM Phase III listed inverter" has no official instrument behind it. Check inverters against IS/IEC standards, BIS registration and the project's DISCOM list.
@@ -66,6 +65,8 @@ ALMM is not solar-only. MNRE maintains ALMM-Wind for wind turbine models and ALM
 ## List-I is modules, List-II is cells, and MNRE publishes no inverter list
 
 The ALMM Order states that the list "shall consist of LIST-I, specifying models and manufacturers of Solar PV Modules and LIST-II, specifying models and manufacturers of Solar PV Cells", per the MNRE ALMM page (2026). That is the whole solar structure. There is no third tier in force.
+
+Table: ALMM tiers, what each covers and its current position
 
 | Tier | Covers | First issued | Current position |
 | --- | --- | --- | --- |
@@ -88,11 +89,14 @@ The term is loose market shorthand. It probably absorbs three unrelated things: 
 
 There is a real third tier in play, and it is not inverters. A draft amendment dated 12 September 2025 proposed a List-III for wafers, with compliance proposed from 1 June 2028, according to AZB Partners (2025). MNRE has since published an amendment to the ALMM Order for implementation of ALMM for wafers, updated 17 March 2026, per the MNRE ALMM page.
 
-So if someone shows you "ALMM Phase III", ask which MNRE notification created it. If the answer is a brochure, the answer is no document. Record the status as unknown and request written confirmation from the scheme or DISCOM authority.
+> [!IMPORTANT] "ALMM Phase III" has no MNRE document behind it
+> So if someone shows you "ALMM Phase III", ask which MNRE notification created it. If the answer is a brochure, the answer is no document. Record the status as unknown and request written confirmation from the scheme or DISCOM authority.
 
 ## The ALMM timeline procurement teams need
 
 The current position is the product of a sequence of notifications, not one announcement. Reading the sequence is how you work out which rule applied on your project's bid date and which applies at commissioning.
+
+Table: ALMM timeline from the 2019 Order to the September 2026 List-I update
 
 | Date | Issuing body | What changed |
 | --- | --- | --- |
@@ -145,6 +149,8 @@ A recent List-I entry shows the granularity. MNRE added **Havells India Limited*
 
 These two get merged constantly, and they fail differently. ALMM asks whether the model is enlisted. Domestic Content Requirement, or **DCR**, asks where the cells and modules were physically manufactured.
 
+Table: ALMM and Domestic Content Requirement compared
+
 | | ALMM | DCR |
 | --- | --- | --- |
 | Question it answers | Is this exact model enlisted? | Were the cell and module made in India? |
@@ -163,16 +169,32 @@ List-II is harder to satisfy than List-I for a structural reason. India assemble
 
 List-I launched in March 2021 with about 8.2 GW enlisted. By August 2025 it carried over 100 GW of annual module capacity across more than 100 manufacturers, according to AZB Partners (2025). Cell capacity did not grow on that curve. Industry estimates put approved module capacity near 193 GW against roughly 30 GW of enlisted cell capacity, according to Mercom India (2026).
 
+```chart
+type: hbar
+title: Approved module capacity against enlisted cell capacity
+unit: "GW"
+source: "Industry estimates reported by Mercom India (2026), as cited in this article"
+note: "Both figures are approximate ('near 193 GW' and 'roughly 30 GW'). Cell capacity is the narrower base under List-II."
+decimals: 0
+data:
+  - { label: "Approved module capacity (List-I)", value: 193 }
+  - { label: "Enlisted cell capacity (List-II)", value: 30 }
+```
+
 The market responded exactly as a supply squeeze predicts. Mercom India reported on 17 February 2026 that developers asked MNRE to consider a time-bound extension, citing a shortage of TOPCon cell supply and a price rise. [TOPCon](/glossary/topcon-cell/) is the dominant cell technology in current module production, which is why the pinch showed up there first.
 
 MNRE held the line. It refused a blanket extension on 25 May 2026, then allowed a limited commissioning window to 31 December 2026 for net-metering and open-access projects on 18 July 2026.
 
-**Worked example: sizing the exposure, not predicting a price.** Assume a 500 kWp commercial rooftop, and assume a compliant-module premium of ₹2.00 per Wp. The premium here is an assumed input for the arithmetic, not a quoted market figure.
+> [!FORMULA] Compliance premium exposure
+> Exposure = array size (Wp) × quoted compliant-module premium per Wp
 
-1. Array size in Wp: 500 kWp × 1,000 = 500,000 Wp.
-2. Premium exposure: 500,000 Wp × ₹2.00 = ₹10,00,000.
-3. As a share of an assumed ₹2.75 crore project cost: ₹10,00,000 / ₹2,75,00,000 = 3.6%.
-4. Substitute your own quoted delta and your own project cost. The formula, not the number, is the takeaway.
+> [!EXAMPLE] Sizing the exposure, not predicting a price
+> Assume a 500 kWp commercial rooftop, and assume a compliant-module premium of ₹2.00 per Wp. The premium here is an assumed input for the arithmetic, not a quoted market figure.
+>
+> 1. Array size in Wp: 500 kWp × 1,000 = 500,000 Wp.
+> 2. Premium exposure: 500,000 Wp × ₹2.00 = ₹10,00,000.
+> 3. As a share of an assumed ₹2.75 crore project cost: ₹10,00,000 / ₹2,75,00,000 = 3.6%.
+> 4. Substitute your own quoted delta and your own project cost. The formula, not the number, is the takeaway.
 
 The point of the calculation is that a cell-sourcing decision is a line item you can size in advance. Ask for two quotes, one compliant and one not, and price the compliance gap explicitly. The wider duty and domestic-manufacturing picture is covered in the guide on [import duty on solar equipment](/blog/bcd-import-duty-solar-inverters-india/).
 
@@ -198,6 +220,7 @@ So ask for the exact model designation and the standards, BIS registration and g
 
 Treat verification as a record you can hand to an auditor, not a conversation you had with a supplier.
 
+<!-- steps -->
 1. Open the current List-I or List-II PDF from the MNRE ALMM page on the day you check.
 2. Note the revision number and date of the document you opened.
 3. Read the order or notice that applies to your project category and bid date.
@@ -210,6 +233,8 @@ Treat verification as a record you can hand to an auditor, not a conversation yo
 If any step fails, record the status as unconfirmed and obtain written confirmation from the scheme, tender or DISCOM authority. A seller's assurance is not an approval. For subsidised residential work, the [empanelled vendor checks](/blog/empanelled-vendor-pm-surya-ghar/) sit alongside this file, not inside it. On the equipment side, the [inverter procurement guide](/blog/inverter-procurement-india/) covers what to ask for and when.
 
 ## Common ALMM misconceptions
+
+Table: Common ALMM misconceptions and the verified position
 
 | Misconception | The verified position |
 | --- | --- |

@@ -4,7 +4,7 @@ excerpt: "WhatsApp solar monitoring explained: why a pushed alert beats an app y
 description: "A practical guide to WhatsApp-based solar monitoring in India: push versus pull alerting, threshold design, shared family and RWA access, fleet alerting for EPCs, privacy and handover, and how to test that alerts actually arrive."
 category: "Technology"
 date: 2026-09-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "12 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -45,14 +45,12 @@ This guide covers the general case, which is genuinely useful and poorly covered
 
 On Qbits specifically, this page stays inside what the company documents. Qbits lists WhatsApp-based monitoring among its features. There is no published command list or message format, so none is invented here.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Qbits lists WhatsApp-based monitoring among its features, and publishes monitoring apps on Google Play (package `io.aotai.qbit`) and the App Store (id 6745775491). For the current setup procedure on your model, ask [Qbits](/contact-us/) or your dealer.
-> - Alert delivery, not data collection, is the bottleneck. Every cloud-connected inverter already records the fault. The question is whether a human reads it.
-> - A messaging alert is good at zero-generation days, fault codes, and monthly summaries. It is bad at curve shapes, per-string comparison, and historical analysis.
+> - Alert delivery, not data collection, is the bottleneck. Every cloud-connected inverter already records the fault. A messaging alert is good at zero-generation days, fault codes, and monthly summaries, and bad at curve shapes, per-string comparison, and historical analysis.
 > - It is not a redundant path. Messages and the app both come off the same cloud link, so one outage silences both.
-> - Grid-caused trips are normal and legally required. Inverters must trip above 110% or below 80% of nominal voltage, and at 50.5 Hz and above or 47.5 Hz and below. That is Regulation 11(6) of the Central Electricity Authority (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013, as amended in 2019. Alerting on each trip guarantees a muted channel.
-> - A shared group works where a shared login does not, which matters for families, tenants, and RWA committees.
-> - Test alerts at commissioning by forcing a real fault. Untested alerting is an assumption, not a feature.
+> - Grid-caused trips are normal and legally required: inverters must trip above 110% or below 80% of nominal voltage, and at 50.5 Hz and above or 47.5 Hz and below (Regulation 11(6) of the CEA Distributed Generation connectivity regulations, 2013, as amended in 2019). Alerting on each trip guarantees a muted channel.
+> - A shared group works where a shared login does not, which matters for families, tenants, and RWA committees. Test alerts at commissioning by forcing a real fault, because untested alerting is an assumption, not a feature.
 
 **Short version.** WhatsApp-based solar monitoring pushes short generation and fault messages to a channel the owner already uses, instead of waiting for them to open an app. It is strongest for zero-generation days, fault codes, and monthly summaries, and weak for curves, string comparison, and history. It shares the app's cloud link, so it is not a backup. Qbits lists it as a feature; confirm the setup on your exact model with the dealer.
 
@@ -93,6 +91,8 @@ None of that makes messaging better than an app. It makes it better at one job, 
 
 Vendors present messaging monitoring as a full replacement for the portal. It is not, and pretending otherwise leads owners to skip the diagnosis tools they actually need. A short text is a delivery mechanism, not an analysis tool.
 
+Table: Messaging alert vs app or web portal, by question the owner is asking
+
 | The question | Messaging alert | App or web portal |
 |---|---|---|
 | Did the system generate nothing yesterday? | Strong. One line, arrives unprompted. | Works, but only if you open it. |
@@ -111,6 +111,8 @@ Alert fatigue kills more monitoring systems than hardware does. A channel that f
 
 The governing rule is simple. Only fire on conditions that require a human to do something today.
 
+Table: Alert thresholds that hold up through a monsoon, with the reason for each
+
 | Alert | Rule that holds up | Why |
 |---|---|---|
 | Zero generation | Fire after one full daylight day at zero | Nothing benign explains a whole dead day |
@@ -124,7 +126,11 @@ Grid-caused trips deserve their own line, because they are the classic fatigue s
 
 On a weak feeder, that is a legitimate trip several times a day. Alerting on each one trains the owner to ignore the channel within a week.
 
-**Worked example: choosing an underperformance threshold.** Take a 5 kWp rooftop. Assume a design yield of 4.2 kWh per kWp per day for the month in question. Take that figure from your installer's own estimate, or from your last 12 months of app history, not from this page. Expected daily generation is 5 x 4.2 = 21.0 kWh. A naive 90% rule alerts below 18.9 kWh, which any ordinary cloudy day clears. A 40% rule over 2 consecutive days alerts below 8.4 kWh twice in a row, which weather rarely produces and a fault reliably does. To size the difference, count the days in your own 12-month history that fall under each figure. That count is your annual message volume, and it is the number that decides whether the channel stays unmuted.
+> [!FORMULA]
+> Expected daily generation (kWh) = system size (kWp) × design yield (kWh per kWp per day)
+
+> [!EXAMPLE] Choosing an underperformance threshold
+> Take a 5 kWp rooftop. Assume a design yield of 4.2 kWh per kWp per day for the month in question. Take that figure from your installer's own estimate, or from your last 12 months of app history, not from this page. Expected daily generation is 5 x 4.2 = 21.0 kWh. A naive 90% rule alerts below 18.9 kWh, which any ordinary cloudy day clears. A 40% rule over 2 consecutive days alerts below 8.4 kWh twice in a row, which weather rarely produces and a fault reliably does. To size the difference, count the days in your own 12-month history that fall under each figure. That count is your annual message volume, and it is the number that decides whether the channel stays unmuted.
 
 The same arithmetic values detection speed. At 21.0 kWh a day, every undetected dead day costs 21 units. Multiply 21 units by the per-unit tariff on your latest DISCOM bill. That is the daily cost of a silent fault, and the number to weigh against a service contract. For the metric behind the threshold, see [performance ratio](/glossary/pr/).
 
@@ -133,6 +139,9 @@ The same arithmetic values detection speed. At 21.0 kWh a day, every undetected 
 A messaging group solves an access problem an app login cannot. Several people receive the same alert at the same second, and no credentials change hands. That is the strongest structural argument for messaging monitoring, and vendors rarely make it.
 
 App logins are usually all-or-nothing. The same account that shows generation also lets someone change grid settings, export limits, or battery parameters. Sharing that password with an elderly parent, a tenant, or a rotating society committee is a configuration risk, not a convenience.
+
+> [!CAUTION] A shared app login is not read-only
+> The login that shows generation can usually also change grid settings, export limits and battery parameters. Share alerts through a group, not the password.
 
 Three cases where sharing matters.
 
@@ -161,11 +170,16 @@ One warning for EPCs. Alerts routed to a staff member's personal number leave th
 
 ## Reliability: A Messaging Alert Is Not a Redundant Path
 
+> [!WARNING] Two routes, one data source
+> A messaging alert and the monitoring app both come off the vendor's cloud. A dongle failure, a home internet or SIM outage, or a cloud outage silences both, so no message does not mean the plant is healthy.
+
 This is the most expensive misunderstanding in the category, so it gets stated plainly. A messaging alert and the monitoring app are two delivery routes for one data source. They are not two independent systems.
 
 The chain runs inverter, then logger or dongle, then the home router or SIM, then the vendor's cloud platform, then the delivery channel. The messaging alert branches off at the last step. Every failure below that point silences the app and the messages together.
 
 So the outcomes look like this.
+
+Table: What each failure point does to the app and to messaging alerts
 
 | Failure point | App | Messaging alert |
 |---|---|---|
@@ -200,6 +214,7 @@ Almost nobody tests alerting, which is why almost nobody knows whether it works.
 
 Run this at commissioning, in this order.
 
+<!-- steps -->
 1. **Confirm the channel is live.** Ask for the first real message to arrive on your phone before the installer leaves the site.
 2. **Force or simulate a fault.** Ask the installer to raise a genuine fault condition, or to trigger a test alert from the platform. Time it from event to message.
 3. **Test communication loss.** Switch off the router or unplug the dongle. Confirm an offline alert arrives inside the promised window, then restore and confirm recovery.
@@ -215,6 +230,8 @@ Also settle who acts on the alert. Under the Ministry of New and Renewable Energ
 ## What to Ask a Vendor About Alerting
 
 Most monitoring disappointment is a specification failure at purchase, not a product failure later. Marketing says "smart alerts". Ask what that means, in writing, against the exact model on your quotation.
+
+Table: Questions to put to a vendor about alerting, and what a good answer sounds like
 
 | Ask this | A good answer sounds like |
 |---|---|

@@ -4,7 +4,7 @@ excerpt: "HDFC solar loan options include Green Home Loan for owner-occupied pro
 description: "Guide to HDFC solar loan 2026: Green Home Loan vs Personal Loan, interest rates, documentation, processing time, and PM Surya Ghar subsidy integration."
 category: Policy
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-hdfc-solar-loan-india-2026.webp"
 author: "Akash Hirapara"
@@ -37,7 +37,7 @@ faqs:
 
 Electricity bills crossing ₹8,000 per month have pushed thousands of Indian homeowners into a familiar search loop: find a good solar system, check subsidy eligibility, and then hit the question of financing. HDFC Bank (with over 8,000 branches and a pre-existing [home loan](https://www.heavengreenenergy.com/blog/solar-loan-vs-home-loan-topup) relationship with millions of Indians) is a natural first port of call. Yet the search results for "HDFC solar loan" tend to surface generic [personal loan](https://www.heavengreenenergy.com/blog/solar-loan-vs-personal-loan) pages, leaving applicants confused about which product actually applies to their case.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - HDFC has no single "solar loan" product: owner-occupied homeowners use the Green Home Loan or a top-up on an existing home loan at ~8.5-10% p.a.; everyone else uses a Personal Loan at ~10.5-24% p.a.
 > - IREDA (~7%) and SBI (~7.5-8%) beat HDFC on interest rate, but HDFC wins on branch accessibility and faster processing for existing customers.
 > - The [PM Surya Ghar](/glossary/pm-surya-ghar/) subsidy (up to ₹78,000 for a 3 kW system) is paid directly to the beneficiary's bank account regardless of financing route, and is typically used to prepay the loan principal once credited.
@@ -58,6 +58,8 @@ HDFC's Green Home Loan is a product variant within HDFC's home loan portfolio de
 
 The Green Home Loan route is available to existing HDFC home loan customers as a top-up, and to new applicants who are purchasing or already own a home. Key parameters as of mid-2026 (subject to change, verify at the HDFC website or a branch):
 
+Table: HDFC Green Home Loan or top-up versus Personal Loan for solar (indicative, mid-2026)
+
 | Parameter | Green Home Loan / Top-Up | Personal Loan |
 | --- | --- | --- |
 | Applicable property | Owner-occupied residential | Any (including rented) |
@@ -76,7 +78,8 @@ Homeowners who do not have an HDFC home loan, renters who need short-term financ
 
 > **₹78,000.** The maximum PM Surya Ghar central subsidy for a 3 kW residential system, credited directly to the beneficiary's bank account after DISCOM verification. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
-For a homeowner taking a ₹3 Lakh HDFC Personal Loan at 14% for 5 years, the effective cost of solar financing drops materially once the ₹78,000 subsidy lands and is used for prepayment, reducing the principal to ~₹2.22 Lakh and shortening the effective tenure.
+> [!EXAMPLE] ₹3 Lakh personal loan with the subsidy used for prepayment
+> For a homeowner taking a ₹3 Lakh HDFC Personal Loan at 14% for 5 years, the effective cost of solar financing drops materially once the ₹78,000 subsidy lands and is used for prepayment, reducing the principal to ~₹2.22 Lakh and shortening the effective tenure.
 
 ## HDFC Solar Loan Eligibility Criteria
 
@@ -90,6 +93,8 @@ Eligibility varies by product, but the common requirements across both routes ar
 - **Existing HDFC relationship**: Top-up applications are smoother if the applicant already has an active HDFC home loan with 12+ EMIs paid.
 
 ### Eligibility for Salaried vs Self-Employed Applicants
+
+Table: Eligibility documents and minimums for salaried versus self-employed applicants
 
 | Criterion | Salaried | Self-Employed |
 | --- | --- | --- |
@@ -130,6 +135,8 @@ Gathering documents in advance cuts processing time by 5–7 working days. Below
 
 The central question homeowners ask is: which bank is actually cheapest for solar financing? The honest answer is that IREDA wins on rate, SBI is a close second, and HDFC is third, but HDFC wins on branch proximity, processing speed, and existing-relationship convenience.
 
+Table: Solar loan rate, tenure and processing fee by lender (indicative, June 2026)
+
 | Lender | Product | Interest Rate (2026) | Tenure | Processing Fee | Subsidy Compatible |
 | --- | --- | --- | --- | --- | --- |
 | **IREDA** | Solar Home Loan | ~7.0% p.a. | Up to 15 years | ~0.5%–1% | Yes (primary route) |
@@ -145,12 +152,30 @@ The central question homeowners ask is: which bank is actually cheapest for sola
 
 Assume a ₹3,00,000 loan for a 3 kW rooftop solar system (post-subsidy breakeven system cost):
 
+> [!FORMULA] EMI on ₹3,00,000
+> EMI = 3,00,000 × r × (1 + r)^n ÷ ((1 + r)^n − 1), where r is the annual rate ÷ 12 and n is the tenure in months
+
+Table: Monthly EMI and total interest on a ₹3,00,000 solar loan by lender
+
 | Lender | Rate | Tenure | Monthly EMI | Total Interest Paid |
 | --- | --- | --- | --- | --- |
 | IREDA | 7.0% | 10 years | ₹3,484 | ₹1,18,080 |
 | SBI | 7.5% | 10 years | ₹3,561 | ₹1,27,320 |
 | HDFC Green | 9.0% | 10 years | ₹3,800 | ₹1,56,000 |
 | HDFC Personal | 14.0% | 5 years | ₹6,982 | ₹1,18,920 |
+
+```chart
+type: hbar
+title: Total interest paid on a ₹3,00,000 solar loan
+unit: "₹"
+source: "Calculated in this article from the indicative June 2026 rates and tenures in the table above (EMI x months minus principal)"
+note: "Lower is better, but the HDFC Personal Loan figure is for a 5-year term against 10 years for the others, so its EMI is nearly double."
+data:
+  - { label: "IREDA, 7.0%, 10 years", value: 118080 }
+  - { label: "SBI, 7.5%, 10 years", value: 127320 }
+  - { label: "HDFC Green, 9.0%, 10 years", value: 156000 }
+  - { label: "HDFC Personal, 14.0%, 5 years", value: 118920 }
+```
 
 The HDFC Personal Loan matches IREDA's total interest outgo at a 5-year tenure, but at double the monthly EMI. For cash-flow-constrained households, this matters significantly.
 
@@ -226,6 +251,8 @@ For a broader picture of all financing options (including RESCO and EMI) read th
 ## Integrating PM Surya Ghar Subsidy with HDFC Loan
 
 The [PM Surya Ghar subsidy](/blog/pm-surya-ghar-subsidy-amount/) ranges from ₹30,000 for 1 kW to ₹78,000 for 3 kW systems, paid after grid connection is verified by the DISCOM. Here is how it interacts with an HDFC loan:
+
+Table: Approximate system cost, central subsidy and net loan needed by system size
 
 | System Size | System Cost (approx.) | Central Subsidy | Net Loan Needed | Post-Subsidy Loan |
 | --- | --- | --- | --- | --- |

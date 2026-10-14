@@ -5,7 +5,7 @@ excerpt: 'Choose between 5 kW, 8 kW, and 10 kW solar inverters using annual ener
 description: "Compare 5 kW, 8 kW and 10 kW on-grid inverter sizing with exact Qbits model specs, worked calculations and phase checks, and when 3 kW still fits."
 category: Buying Guide
 date: 2026-04-22
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: 12 min
 image: /og/blog-3kw-vs-5kw-vs-10kw-solar-inverters.webp
 author: Nirav Dhanani
@@ -41,7 +41,16 @@ For the current Qbits on-grid range, the exact comparison is also a phase and ar
 
 Qbits publishes this article and sells all three model families. The current datasheets support the technical fields below. They cannot tell you whether a particular capacity fits your bill, roof, connection, local approval, or future load. Qbits pricing, complete warranty terms, certificate validity, installation outcome, and annual generation are not ranked here.
 
+> [!KEYTAKEAWAYS]
+> - The right sequence is energy target, roof model, array design, connection check, then inverter model. Reversing it turns a round capacity number into a guess.
+> - QB-5KTLS is a 5,000 W single-phase, single-MPPT model with 7,500 W maximum DC input. QB-8KTLC and QB-10KTLC are three-phase, dual-MPPT models with 12,000 W and 15,000 W maximum DC input.
+> - In the worked example, an 8.0 kWp array disqualifies QB-5KTLS because it exceeds the published 7.5 kW maximum DC input.
+> - These on-grid models are not backup inverters. Outage backup needs a separate backup output and battery design.
+> - The KTLS and KTLC datasheets do not publish a maximum short-circuit current row, so request that limit and the installation manual before approving a module pairing.
+
 ## The short answer
+
+Table: Which capacity path to consider, and what is not a good reason to choose it
 
 | Capacity path | Consider it when | Do not choose it merely because |
 | --- | --- | --- |
@@ -78,7 +87,8 @@ Do not assume every exported unit receives the same value as a self-consumed uni
 
 Use a site-specific yield model that includes location, orientation, tilt, shade, module, temperature, and system losses. The planning relationship is:
 
-`required DC array kWp = target annual solar energy kWh ÷ modeled specific yield kWh per kWp-year`
+> [!FORMULA]
+> Required DC array kWp = target annual solar energy kWh ÷ modeled specific yield kWh per kWp-year
 
 The modeled specific yield must come from the project design. It is not one national constant.
 
@@ -86,7 +96,8 @@ The modeled specific yield must come from the project design. It is not one nati
 
 Calculate the DC-to-AC ratio:
 
-`DC-to-AC ratio = proposed array kWp ÷ inverter rated AC kW`
+> [!FORMULA]
+> DC-to-AC ratio = proposed array kWp ÷ inverter rated AC kW
 
 Then check the exact model's maximum DC power, maximum voltage, MPPT window, starting voltage, input current, short-circuit-current limit, tracker count, strings per tracker, and manufacturer design rules. A ratio that looks reasonable can still fail an electrical limit.
 
@@ -97,6 +108,8 @@ Confirm service phase, sanctioned load, allowable inverter capacity, export arra
 ## Exact Qbits capacity data
 
 The table uses current Qbits datasheets for one exact model at each capacity. These are manufacturer declarations, not independent performance tests.
+
+Table: Published datasheet fields for one exact Qbits on-grid model at each capacity
 
 | Published field | QB-3KTLS | QB-5KTLS | QB-8KTLC | QB-10KTLC |
 | --- | --- | --- | --- | --- |
@@ -114,6 +127,27 @@ The table uses current Qbits datasheets for one exact model at each capacity. Th
 | Maximum efficiency | 98.0% | 98.1% | 98.5% | 98.6% |
 | European efficiency | 97.0% | 97.5% | 98.0% | 98.2% |
 | Enclosure | IP66 | IP66 | IP66 | IP66 |
+
+```chart
+type: bar
+title: Rated AC output and maximum DC input of four exact Qbits on-grid models
+unit: "W"
+source: "Qbits datasheets for QB-3KTLS, QB-5KTLS, QB-8KTLC and QB-10KTLC, as tabulated in this article (manufacturer declarations, not independent tests)"
+note: "Maximum DC input power divided by rated AC output is the ceiling for the DC-to-AC ratio on each exact model."
+series:
+  - name: Rated AC output
+    data:
+      - { label: "QB-3KTLS", value: 3000 }
+      - { label: "QB-5KTLS", value: 5000 }
+      - { label: "QB-8KTLC", value: 8000 }
+      - { label: "QB-10KTLC", value: 10000 }
+  - name: Maximum DC input power
+    data:
+      - { label: "QB-3KTLS", value: 6000 }
+      - { label: "QB-5KTLS", value: 7500 }
+      - { label: "QB-8KTLC", value: 12000 }
+      - { label: "QB-10KTLC", value: 15000 }
+```
 
 The 8 kW and 10 kW columns come from the same three-phase family and share the same basic tracker arrangement. Their maximum DC power and output limits differ. The 5 kW KTLS product has one MPPT and one string, so it is not merely a lower-output version of those units.
 
@@ -173,16 +207,19 @@ Use 3 kW when the energy and roof model supports it. Bedroom count, a subsidy th
 
 ## Worked example: why the exact model can disqualify a round-number choice
 
-Assume a project has these planning inputs:
-
-- target annual solar energy: 11,600 kWh;
-- modeled specific yield: 1,450 kWh per kWp-year;
-- proposed DC array: `11,600 ÷ 1,450 = 8.0 kWp`;
-- grid and site review: three-phase route is available;
-- roof design: two compatible strings, one for each tracker;
-- backup requirement: none.
+> [!EXAMPLE] 8.0 kWp array, three candidate inverters
+> Assume a project has these planning inputs:
+>
+> - target annual solar energy: 11,600 kWh;
+> - modeled specific yield: 1,450 kWh per kWp-year;
+> - proposed DC array: `11,600 ÷ 1,450 = 8.0 kWp`;
+> - grid and site review: three-phase route is available;
+> - roof design: two compatible strings, one for each tracker;
+> - backup requirement: none.
 
 The illustrative DC-to-AC ratios are:
+
+Table: Illustrative DC-to-AC ratio for an 8.0 kWp array at three AC ratings
 
 | Candidate AC rating | Calculation | Ratio | Immediate result |
 | --- | --- | --- | --- |
@@ -208,7 +245,8 @@ For backup, the load relationship changes because the grid is unavailable. Conti
 
 ## Phase and sanctioned load are gates, not footnotes
 
-The exact Qbits 5 kW example is single phase. The 8 kW and 10 kW examples are three phase. That product transition must be visible on the quotation and single-line diagram.
+> [!IMPORTANT] The 5 kW to 8 kW step changes phase
+> The exact Qbits 5 kW example is single phase. The 8 kW and 10 kW examples are three phase. That product transition must be visible on the quotation and single-line diagram.
 
 Check the electricity bill and current connection documents. Ask the installer to identify:
 
@@ -253,17 +291,18 @@ Avoid these common shortcuts:
 
 Ask each supplier to provide:
 
-- 12-month energy record and stated future-load assumptions;
-- target annual solar energy and the reason for that target;
-- site-specific yield report with location, orientation, shade, and loss inputs;
-- roof layout, module model, quantities, and string plan;
-- DC array kWp, inverter AC kW, and calculated DC-to-AC ratio;
-- exact inverter model, phase, datasheet, and installation manual;
-- voltage, operating-current, and short-circuit-current calculations;
-- modeled clipping and annual energy, not a universal units-per-kW promise;
-- sanctioned-load, phase, metering, protection, and approval plan;
-- complete written warranty, certificate files, price, inclusions, and exclusions;
-- separate backup design if outage operation is required.
+> [!CHECKLIST] Documents to request from each supplier
+> - 12-month energy record and stated future-load assumptions;
+> - target annual solar energy and the reason for that target;
+> - site-specific yield report with location, orientation, shade, and loss inputs;
+> - roof layout, module model, quantities, and string plan;
+> - DC array kWp, inverter AC kW, and calculated DC-to-AC ratio;
+> - exact inverter model, phase, datasheet, and installation manual;
+> - voltage, operating-current, and short-circuit-current calculations;
+> - modeled clipping and annual energy, not a universal units-per-kW promise;
+> - sanctioned-load, phase, metering, protection, and approval plan;
+> - complete written warranty, certificate files, price, inclusions, and exclusions;
+> - separate backup design if outage operation is required.
 
 ## Final decision
 

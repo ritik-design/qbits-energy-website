@@ -4,7 +4,7 @@ excerpt: "Ghar ke liye solar inverter kaise size karein: bijli bill ke units se 
 description: "Bijli bill ke monthly units se shuru karke ghar ke liye solar inverter ka sahi size nikaalne ka step by step Hindi guide, lookup table aur worked example ke saath."
 category: "Guide"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "13 min"
 image: "/og/blog-ghar-ke-liye-solar-inverter-size-hindi.webp"
 author: "Keyur Rakholiya"
@@ -40,7 +40,7 @@ language: hi
 
 Solar का सबसे महँगा फैसला size का होता है, और वो फैसला ज़्यादातर घरों में vendor के अंदाज़े पर हो जाता है। कोई आकर छत देखता है, "sir 5 kW लगवा लीजिए" बोलता है, और बात खत्म। छह महीने बाद पता चलता है कि आधी generation grid को मुफ्त जा रही है, या उल्टा, bill अब भी ₹1,800 आ रहा है क्योंकि system छोटा पड़ गया। दोनों गलतियाँ एक ही वजह से होती हैं: sizing bill से शुरू नहीं हुई, छत से शुरू हुई। इस guide में उल्टा रास्ता लेंगे। पुराना bijli bill उठाइए, units निकालिए, और उन्हीं units से panel kW, फिर inverter का AC size, फिर roof area की सच्चाई तक पहुँचिए। कौन सा inverter चुनें, on-grid लें या hybrid, यह अलग सवाल है और उसका जवाब [ghar ke liye solar inverter chunne ki guide](/blog/ghar-ke-liye-solar-inverter/) में है। यहाँ सिर्फ number निकालेंगे।
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Sizing bill से शुरू होती है। पिछले 12 महीने के average monthly units निकालें, एक महीने का bill मत देखें।
 > - भारत में 1 kW panel से महीने में लगभग 100 से 130 units बनते हैं, state, tilt, shading और season के हिसाब से यह बदलता है।
 > - Panel kW = monthly units ÷ per kW monthly generation। 300 units वाले घर के लिए यह 2.3 kW से 3 kW निकलता है।
@@ -80,7 +80,8 @@ Realistic monthly figure **100 से 130 units प्रति kW प्रत�
 - **Tilt और orientation।** South-facing tilted array सबसे अच्छा। East-west split में सालाना generation 10 से 15 percent कम रहती है, detail [east west roof design guide](/blog/east-west-roof-solar-design/) में है।
 - **Shading, season और dust।** एक पेड़ भी सुबह शाम के घंटे खा जाता है, दिसंबर का दिन छोटा है, और NCR जैसे धूल वाले इलाकों में बिना सफाई 6 से 10 percent चला जाता है।
 
-**Panel kW = average monthly units ÷ per kW monthly generation**
+> [!FORMULA]
+> Panel kW = average monthly units ÷ per kW monthly generation
 
 Conservative रहना हो तो 110 units प्रति kW लगाइए, इलाके की generation अच्छी हो तो 125।
 
@@ -88,15 +89,45 @@ Conservative रहना हो तो 110 units प्रति kW लगा�
 
 यह table 110 और 130 units प्रति kW प्रति महीना, दोनों आंकड़ों पर बना है। इसे शुरुआती दिशा मानिए, अंतिम फैसला नहीं।
 
+Table: Bill ke monthly units se panel kW: 110 aur 130 units per kW per month par
+
 | Average monthly units | Panel kW (conservative) | Panel kW (achhe location par) | Typical ghar |
 | --- | --- | --- | --- |
-| 100 to 150 | 1.4 kW | 1.1 kW | 1 BHK, bina AC |
+| 100 to 150 | 1.4 kW | 1.2 kW | 1 BHK, bina AC |
 | 150 to 250 | 2.3 kW | 1.9 kW | 2 BHK, ek AC kabhi kabhi |
 | 250 to 350 | 3.2 kW | 2.7 kW | 2 to 3 BHK, ek AC regular |
 | 350 to 450 | 4.1 kW | 3.5 kW | 3 BHK, do AC |
 | 450 to 600 | 5.5 kW | 4.6 kW | 3 to 4 BHK, do se teen AC |
 | 600 to 800 | 7.3 kW | 6.2 kW | Bada ghar ya do family |
 | 800 to 1000 | 9.1 kW | 7.7 kW | Bungalow, pump aur AC load |
+
+```chart
+type: bar
+title: Panel kW needed, by monthly units (band ka upper limit)
+unit: kW
+source: "Calculated in this article: har band ka upper limit divided by 110 units (conservative) aur 130 units (achhe location par) per kW per month, jaisa upar ki table mein hai"
+note: "Table ke rounded values. Shuruati disha hai, final size nahi."
+decimals: 1
+series:
+  - name: "Conservative (110 units/kW)"
+    data:
+      - { label: "150", value: 1.4 }
+      - { label: "250", value: 2.3 }
+      - { label: "350", value: 3.2 }
+      - { label: "450", value: 4.1 }
+      - { label: "600", value: 5.5 }
+      - { label: "800", value: 7.3 }
+      - { label: "1000", value: 9.1 }
+  - name: "Achhe location par (130 units/kW)"
+    data:
+      - { label: "150", value: 1.2 }
+      - { label: "250", value: 1.9 }
+      - { label: "350", value: 2.7 }
+      - { label: "450", value: 3.5 }
+      - { label: "600", value: 4.6 }
+      - { label: "800", value: 6.2 }
+      - { label: "1000", value: 7.7 }
+```
 
 दोनों columns के बीच का फर्क छोटा नहीं है। 400 units वाले घर में यह 3.5 kW और 4.1 kW का अंतर है, यानी लगभग ₹35,000 का। यही वजह है कि किसी भी vendor से उसके पिछले installations का असली generation data माँगना चाहिए, अंदाज़ा नहीं।
 
@@ -113,9 +144,14 @@ Conservative रहना हो तो 110 units प्रति kW लगा�
 
 **DC to AC ratio** का मतलब है panel array की DC capacity को inverter की AC rating से भाग देना। 4 kW panel और 3.3 kW inverter पर ratio 1.21 है।
 
+> [!FORMULA] DC to AC ratio
+> DC to AC ratio = panel array की DC capacity (kW) ÷ inverter की AC rating (kW)
+
 छोटा inverter क्यों? क्योंकि panel अपनी rated power लगभग कभी नहीं देता। 4 kW का array पूरे 4 kW तभी देगा जब irradiance 1000 W/m² हो, panel 25 डिग्री पर हो और कोई dust या छाया न हो। भारत की छत पर ये शर्तें साल में गिनती के घंटों में पूरी होती हैं, बाकी समय वो array 2 से 3 kW के बीच रहता है।
 
 यानी 4 kW inverter पूरे दिन आधी capacity पर चलेगा, जहाँ efficiency थोड़ी कम रहती है। थोड़ा oversized array रखने से inverter सुबह जल्दी और शाम देर तक अपने अच्छे efficiency band में रहता है।
+
+Table: Panel array ke saath practical inverter AC rating aur DC to AC ratio
 
 | Panel array (DC) | Practical inverter AC rating | DC to AC ratio |
 | --- | --- | --- |
@@ -134,6 +170,8 @@ Ratio ठीक होने का मतलब यह नहीं कि stri
 
 Inverter 10 से 12 साल चलता है। आपका घर उन 12 सालों में वैसा नहीं रहेगा जैसा आज है। जो चीज़ें आगे load बढ़ाती हैं:
 
+Table: Future load se extra units aur extra panel kW
+
 | Future load | Extra units per month | Extra panel kW |
 | --- | --- | --- |
 | Ek aur 1.5 ton AC | 90 to 150 | 0.8 to 1.3 |
@@ -145,6 +183,9 @@ Inverter 10 से 12 साल चलता है। आपका घर उ�
 Panels के मामले में आज की ज़रूरत लगाइए, लेकिन inverter चुनते वक्त अगले तीन साल का plan देख लीजिए। बाद में चार panel जोड़ना सस्ता है, बशर्ते inverter में headroom बचा हो। Inverter बदलना महँगा है, और net metering की sanctioned capacity बदलवाने के लिए DISCOM में दोबारा application लगती है।
 
 तो अगर आज की गणना 3.2 kW कह रही है और अगले साल EV आने वाली है, तो 4 kW array और 3.6 kW inverter सही चुनाव है, 3 kW नहीं।
+
+> [!IMPORTANT] Sanctioned load se bada system nahi
+> ज़्यादातर राज्यों में rooftop solar की capacity sanctioned load से ज़्यादा नहीं हो सकती। 3 kW sanctioned load वाले connection पर 6 kW की approval नहीं मिलेगी जब तक load enhancement नहीं करवाते।
 
 एक और limit जो लोग भूल जाते हैं। आपके ghar का **sanctioned load** DISCOM के bill पर लिखा होता है। ज़्यादातर राज्यों में rooftop solar की capacity sanctioned load से ज़्यादा नहीं हो सकती, चाहे आपकी छत कितनी भी बड़ी हो। 3 kW sanctioned load वाले connection पर 6 kW की approval नहीं मिलेगी जब तक load enhancement नहीं करवाते।
 
@@ -160,6 +201,8 @@ Panels के मामले में आज की ज़रूरत लग�
 अब तक जो kW निकला है वो आपकी ज़रूरत है। छत उसे मानने को तैयार है या नहीं, यह अलग सवाल है।
 
 Practical आंकड़ा **65 से 85 sq ft प्रति kW** है। Range इसलिए है क्योंकि panel efficiency और mounting layout दोनों बदलते हैं। 580 W का modern high efficiency panel निचले सिरे पर बैठता है। पुराने 400 W panels ऊपरी सिरे की तरफ। Elevated structure लगाने पर नीचे की जगह बच जाती है, लेकिन row spacing बढ़ जाती है।
+
+Table: Roof par shadow-free area, 65 se 85 sq ft per kW par
 
 | System size | Shadow-free area (efficient panels) | Shadow-free area (standard panels) |
 | --- | --- | --- |
@@ -189,21 +232,22 @@ Dual MPPT वाला model तब चुनिए जब छत के दो 
 
 ## Worked Example: Indore ka 3 BHK, 397 Units
 
-यह उदाहरण illustrative है, किसी असली customer का नहीं।
-
-**Step 1 और 2।** पिछले 12 महीने के bills जोड़ने पर सालाना खपत 4,760 units निकली। Average monthly 397 units, daily average लगभग 13.2 units। Peak मई में 610 units, base दिसंबर में 290 units। Bill पर sanctioned load 5 kW लिखा है।
-
-**Step 3, panel kW।** Indore में generation ठीक अच्छी है, तो 120 units प्रति kW प्रति महीना मानते हैं। 397 ÷ 120 = **3.31 kW**। Conservative 110 पर यही 3.61 kW बनता है, यानी असली ज़रूरत 3.3 से 3.6 kW के बीच है।
-
-**Step 4, inverter।** 3.6 kW array पर 1.1 ratio से inverter लगभग 3.3 kW बैठता है।
-
-**Step 5, future load।** एक electric scooter आ चुकी है और अगले साल एक और AC लगेगा, यानी लगभग 1.4 kW extra। Array 4.6 kW के आसपास चला जाता है, और sanctioned load 5 kW होने से approval में दिक्कत नहीं।
-
-**Step 6, roof check।** छत 900 sq ft है, पर टंकी और staircase room 180 sq ft खाते हैं और पड़ोसी की दीवार सुबह 120 sq ft पर छाया डालती है। Usable shadow-free area लगभग 600 sq ft, यानी 600 ÷ 75 = **8 kW तक की जगह**। छत रोड़ा नहीं है।
-
-**Step 7, final selection।** Array 4.4 kW (आठ 550 W panels), inverter QB 4.0KTLS, ratio 1.1। रोज़ बिजली जाती होती तो उसी जगह QBH 4KS hybrid लिया जाता। यह array लगभग 480 से 530 units प्रति महीना देगा, जो आज की खपत cover करके EV और नए AC के लिए जगह भी छोड़ता है।
-
-पहली गणना 3.31 kW थी, आखिरी जवाब 4.4 kW। हर बढ़ोतरी की एक documented वजह है, अंदाज़ा कहीं नहीं लगा।
+> [!EXAMPLE] Indore ka 3 BHK, 397 units (illustrative)
+> यह उदाहरण illustrative है, किसी असली customer का नहीं।
+>
+> **Step 1 और 2।** पिछले 12 महीने के bills जोड़ने पर सालाना खपत 4,760 units निकली। Average monthly 397 units, daily average लगभग 13.2 units। Peak मई में 610 units, base दिसंबर में 290 units। Bill पर sanctioned load 5 kW लिखा है।
+>
+> **Step 3, panel kW।** Indore में generation ठीक अच्छी है, तो 120 units प्रति kW प्रति महीना मानते हैं। 397 ÷ 120 = **3.31 kW**। Conservative 110 पर यही 3.61 kW बनता है, यानी असली ज़रूरत 3.3 से 3.6 kW के बीच है।
+>
+> **Step 4, inverter।** 3.6 kW array पर 1.1 ratio से inverter लगभग 3.3 kW बैठता है।
+>
+> **Step 5, future load।** एक electric scooter आ चुकी है और अगले साल एक और AC लगेगा, यानी लगभग 1.4 kW extra। Array 4.6 kW के आसपास चला जाता है, और sanctioned load 5 kW होने से approval में दिक्कत नहीं।
+>
+> **Step 6, roof check।** छत 900 sq ft है, पर टंकी और staircase room 180 sq ft खाते हैं और पड़ोसी की दीवार सुबह 120 sq ft पर छाया डालती है। Usable shadow-free area लगभग 600 sq ft, यानी 600 ÷ 75 = **8 kW तक की जगह**। छत रोड़ा नहीं है।
+>
+> **Step 7, final selection।** Array 4.4 kW (आठ 550 W panels), inverter QB 4.0KTLS, ratio 1.1। रोज़ बिजली जाती होती तो उसी जगह QBH 4KS hybrid लिया जाता। यह array लगभग 480 से 530 units प्रति महीना देगा, जो आज की खपत cover करके EV और नए AC के लिए जगह भी छोड़ता है।
+>
+> पहली गणना 3.31 kW थी, आखिरी जवाब 4.4 kW। हर बढ़ोतरी की एक documented वजह है, अंदाज़ा कहीं नहीं लगा।
 
 ## PM Surya Ghar Subsidy Sizing par Kya Asar Daalti Hai
 

@@ -5,7 +5,7 @@ description: "How to evaluate a 12-year solar inverter warranty in India: full u
 seoTitle: "12-Year Solar Inverter Warranty: What It Really Covers"
 category: "Buying Guide"
 date: 2026-09-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "18 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -40,15 +40,13 @@ Two terms of identical length can behave completely differently. One replaces th
 
 This guide is about the 12-year term specifically: what it means, what it costs the company offering it, and how to evaluate one. It covers the remedy behind the number, the capacity carve-out above 30 kW, the start-date trap with a worked comparison, transferability, conditional extensions, and the mismatch with a 25 to 30 year module warranty. General clauses sit in the [warranty fundamentals guide](/blog/solar-inverter-warranty/), and the claim mechanics in the [warranty claim walkthrough](/blog/solar-inverter-warranty-claim/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 >
 > - Qbits, which publishes this guide, does not define a base term, remedy, registration deadline or exclusions in its public datasheets, so it has no published figure for you to compare either.
 > - Full unit replacement is a different promise from repair at the manufacturer's option, and that distinction outranks the year count.
-> - A term measured from delivery rather than commissioning can silently remove months of cover. Growatt's published terms run from the installation certificate and require installation no more than six months after delivery.
-> - Extensions are usually conditional. GoodWe's 10-year hybrid extension requires a Lynx battery and a live SEMS upload, per its published extension conditions.
+> - A term measured from delivery rather than commissioning can silently remove months of cover. Growatt's published terms run from the installation certificate and require installation no more than six months after delivery. Extensions are usually conditional: GoodWe's 10-year hybrid extension requires a Lynx battery and a live SEMS upload, per its published extension conditions.
 > - Freight, labour, recommissioning and access equipment are commonly excluded, so an approved claim is not a cost-free claim.
-> - Module performance warranties commonly run 25 to 30 years, so budget for at least one paid inverter replacement inside the system's life.
-> - The PM Surya Ghar 5-year Comprehensive Maintenance Contract is your installer's obligation, not the manufacturer's warranty.
+> - Module performance warranties commonly run 25 to 30 years, so budget for at least one paid inverter replacement inside the system's life. The PM Surya Ghar 5-year Comprehensive Maintenance Contract is your installer's obligation, not the manufacturer's warranty.
 
 **Short version.** A 12-year inverter warranty is worth what its remedy, start date and exclusions make it worth. Confirm the remedy is full unit replacement and not discretionary repair. Confirm whether the clock starts at commissioning or at factory dispatch. Confirm who pays freight and labour. Then obtain the written terms for your exact model and purchase date.
 
@@ -90,17 +88,32 @@ This is the single biggest hidden difference between two warranties of the same 
 
 Growatt's published warranty procedure is the clean worked contrast. It states the term runs from the installation-certificate date and no more than six months after the delivery date from Growatt, and it names 5 years as the standard factory warranty in passing while deferring to a product table, the sales order and the warranty card for the authoritative duration. That is a reasonable commercial position, because it limits open-ended exposure on units sitting in a distribution chain. Combined, the two clauses put a practical ceiling near 5.5 years from delivery, though Growatt does not publish that figure itself, so treat it as arithmetic on the clauses rather than a quoted term.
 
-**Worked example (assumed dates, illustrating the formula, not quoted from any contract).**
+> [!FORMULA] Effective cover from commissioning
+> min(commissioning date + install-based term, factory dispatch date + dispatch cap) minus the commissioning date
 
-Effective cover from commissioning = min(commissioning date + install-based term, factory dispatch date + dispatch cap) minus the commissioning date.
+> [!EXAMPLE] Assumed dates, not quoted from any contract
+> Assume a unit leaves the factory on 1 January 2026 and is commissioned on 1 October 2026. That is 9 months in the chain. The table shows how three differently written terms behave.
 
-Assume a unit leaves the factory on 1 January 2026 and is commissioned on 1 October 2026. That is 9 months in the chain.
+Table: Effective cover from commissioning under three ways of writing the start date
 
 | Term as written | Cover ends | Effective cover from commissioning |
 | --- | --- | --- |
 | 12 years from commissioning, no dispatch cap | 1 October 2038 | 144 months |
 | 12 years from factory dispatch | 1 January 2038 | 135 months, so 9 months lost |
 | 5 years from installation, with a six-month installation window after delivery | 1 July 2031 | 57 months, so 3 months lost to the window |
+
+```chart
+type: bar
+title: Effective cover from commissioning under three term structures
+unit: "months"
+source: "Calculated in this article from the assumed dates in the worked example (unit leaves the factory 1 January 2026, commissioned 1 October 2026); illustrative, not a quoted contract"
+note: "The third row is a 5 year term with a six month installation window, so it starts from a shorter base."
+decimals: 0
+data:
+  - { label: "12 years from commissioning", value: 144 }
+  - { label: "12 years from factory dispatch", value: 135 }
+  - { label: "5 years, six month install window", value: 57 }
+```
 
 Read the third row carefully, because it is the general case. The cap gave 6 months of headroom and the supply chain consumed 9, so 3 months went. Stretch the chain to 18 months and the same clause removes a full year. The lesson generalises to any brand: get the start event and any cap in writing, and record your commissioning date on the day it happens.
 
@@ -125,6 +138,8 @@ Brands enter and leave the Indian inverter market. A written warranty from an en
 
 Published terms differ across brands sold in India. Every line below is a contract or catalogue term as published by the manufacturer, not a judgement about product quality. Engineering quality and warranty structure are separate decisions, and several of these brands build well-regarded hardware.
 
+Table: Warranty terms as published by brands sold in India, and the condition that decides each
+
 | Brand | Term as published | The condition that decides it |
 | --- | --- | --- |
 | Qbits | Not published | The public datasheets describe an expandable warranty but do not give the base term, remedy, registration deadline or exclusions, so obtain the written terms for your model and purchase date |
@@ -143,7 +158,8 @@ A long headline and a conditional term often travel together, and the conditions
 
 **Conditional extensions.** An extension can require you to buy other equipment from the same brand. GoodWe's published conditions extend hybrid cover to 10 years only where a Lynx battery is installed and the system uploads live to SEMS. That is a coherent engineering position, because the manufacturer is warranting a system it can see. It also means the extension lapses if monitoring goes offline or the battery is swapped.
 
-**Environmental derogations.** Sungrow's published terms reduce cover to 2 years for installations between 2 and 5 km from the sea. Inside 2 km they treat cover as void without a C5 corrosion specification. Anyone installing in Mumbai, Chennai, Kochi, Visakhapatnam or coastal Gujarat should read that clause before comparing years with an inland buyer.
+> [!WARNING] Coastal sites can void a long term
+> **Environmental derogations.** Sungrow's published terms reduce cover to 2 years for installations between 2 and 5 km from the sea. Inside 2 km they treat cover as void without a C5 corrosion specification. Anyone installing in Mumbai, Chennai, Kochi, Visakhapatnam or coastal Gujarat should read that clause before comparing years with an inland buyer.
 
 **Term inheritance on replacement.** Deye's published terms give a replacement unit only the balance of the original term. That is the industry norm rather than an outlier, so assume it applies unless your document says otherwise. A unit replaced in year 10 of a 12-year term carries roughly 2 years, so one replacement does not reset your exposure.
 
@@ -163,7 +179,8 @@ If the equipment is moved to a new address rather than sold with the house, assu
 
 Here is the point most warranty comparisons miss. The two halves of a solar system are warranted on completely different timescales, and the gap is structural rather than a fault of any brand. Module performance warranties in India are commonly written over 25 to 30 years, while inverter terms sit in the 5 to 12 year band. Read the performance and product clauses on your own module datasheet rather than assuming a figure. Product cover and performance cover are separate clauses with different lengths.
 
-**Worked example (assumed dates, illustrating the gap, not a price quotation).** Take a 25-year module performance warranty and a 12-year inverter term, both starting at commissioning in 2026. The array is under cover to 2051; the inverter to 2038. That leaves 13 uncovered inverter years against a warranted array. Expect one replacement around 2038 and probably a second later in life. Plan two, budget one, and treat the second as a decision point on whether to retain the array at all. That cost belongs in the payback model at the outset, not as a surprise in year 13.
+> [!EXAMPLE] Assumed dates, illustrating the gap, not a price quotation
+> Take a 25-year module performance warranty and a 12-year inverter term, both starting at commissioning in 2026. The array is under cover to 2051; the inverter to 2038. That leaves 13 uncovered inverter years against a warranted array. Expect one replacement around 2038 and probably a second later in life. Plan two, budget one, and treat the second as a decision point on whether to retain the array at all. That cost belongs in the payback model at the outset, not as a surprise in year 13.
 
 Three practical moves follow from the mismatch.
 
@@ -179,7 +196,12 @@ Owners of subsidised residential systems frequently conflate two obligations, an
 
 A manufacturer's product warranty is a different instrument with a different obligor. It addresses defects in the inverter itself. The Comprehensive Maintenance Contract does not extend it, and the warranty does not discharge the vendor's maintenance duty.
 
-The practical benefit of knowing this is money. If your system took the central subsidy and is inside the first 5 years, check that contract before paying an installer for warranty-related labour. The labour line the manufacturer excludes may already be owed to you. The guidelines also set a 15-day clock after DISCOM approval and a 30-day clock for grievance resolution. MNRE publishes a grievance call centre on 15555, operating in 12 languages (Ministry of New and Renewable Energy, 2026). Scheme mechanics sit in the [PM Surya Ghar guide](/blog/pm-surya-ghar-yojana-complete-guide/).
+The practical benefit of knowing this is money.
+
+> [!TIP] Check the 5-year contract before paying for labour
+> If your system took the central subsidy and is inside the first 5 years, check that contract before paying an installer for warranty-related labour. The labour line the manufacturer excludes may already be owed to you.
+
+The guidelines also set a 15-day clock after DISCOM approval and a 30-day clock for grievance resolution. MNRE publishes a grievance call centre on 15555, operating in 12 languages (Ministry of New and Renewable Energy, 2026). Scheme mechanics sit in the [PM Surya Ghar guide](/blog/pm-surya-ghar-yojana-complete-guide/).
 
 So three documents with three different signatories govern your system: the installer's workmanship obligation, the manufacturer's product warranty, and the scheme's maintenance contract. The [installation versus product warranty comparison](/blog/solar-installation-vs-product-warranty/) sets out which category a disputed fault falls into, and that classification is what most rejected claims turn on.
 

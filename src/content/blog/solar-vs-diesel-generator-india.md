@@ -4,7 +4,7 @@ excerpt: "Solar costs ₹7/kWh over 25 years; diesel generators cost ₹18–22/
 description: "Solar costs ₹7/kWh over 25 years; diesel generators cost ₹18-22/kWh today. See exactly when C&I buyers should switch from diesel to solar, with IRR math."
 category: "Comparison"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "21 min"
 image: "/og/blog-solar-vs-diesel-generator-india.webp"
 author: "Akash Hirapara"
@@ -42,11 +42,11 @@ Every factory owner, hospital administrator, and school finance committee in Ind
 
 This post builds the definitive solar vs diesel generator comparison for Indian commercial and industrial buyers, CFOs, facility heads, and plant managers who need numbers, not marketing language. It walks through the full cost architecture of both technologies, introduces the **DG Displacement IRR Calculator**: a four-variable model for sizing the financial case, and ends with a clear decision framework for when to switch, when to hybridise, and when the DG still has a role to play.
 
-> **TL;DR**
-> - Diesel power costs ₹22–27/kWh all-in (fuel, maintenance, depreciation) versus ₹2–3.5/kWh for C&I solar on a 25-year levelised basis.
-> - The DG Displacement IRR Calculator nets DG fuel savings, O&M delta, and grid tariff savings against solar CAPEX, IRR typically lands at 18–47%.
-> - A worked 50 kW Tirupur factory example shows payback under seven months and 47% IRR when fully displacing an 8-hour daily DG load.
+> [!KEYTAKEAWAYS]
+> - Diesel power costs ₹22–27/kWh all-in (fuel, maintenance, depreciation) versus ₹2–3.5/kWh for C&I solar on a 25-year levelised basis. The article's own 50 kW example puts DG at ₹27.4/kWh and solar LCOE at ₹2.02/kWh.
 > - Section 32 accelerated depreciation lets C&I buyers claim 40% of solar CAPEX in Year 1, worth roughly ₹2.5 lakh in tax savings on a ₹25 lakh system.
+> - A hybrid solar-plus-DG set-up is the common transition: it can displace 60–80% of the fuel bill while the DG covers overnight and overcast loads.
+> - For industrial loads, specify THD below 3% at full load, power factor above 0.99 and IEC 62116 anti-islanding, and request the THD report at 25%, 50%, 75% and 100% load.
 
 The economics have never been clearer. What requires careful analysis is the transition architecture, specifically, how to displace the DG without compromising uptime during the changeover, how to handle [harmonics](/glossary/harmonics/) from VFD loads, and how to capture the full depreciation benefit in Year 1. Each of those questions has a specific, numbered answer.
 
@@ -59,6 +59,8 @@ Indian C&I buyers often track diesel cost in rupees per litre. The more revealin
 A well-maintained diesel generator set in the 50–500 kW range delivers three to four kWh of usable AC power per litre of diesel consumed, depending on the load factor. At 75 percent load (the recommended operating band for DG longevity), a 50 kW generator consumes approximately 10–12 litres per hour.
 
 With diesel retail prices at ₹87 per litre in June 2026 ([CEA](https://cea.nic.in/) infrastructure data, cross-referenced with PPAC published pump prices), the fuel-only cost per kWh works out as follows:
+
+Table: Diesel fuel-only cost per kWh by generator load factor at ₹87 per litre
 
 | Load Factor | kWh per Litre | Fuel Cost per kWh (₹87/litre) |
 | --- | --- | --- |
@@ -78,6 +80,8 @@ Each litre of diesel burned releases approximately 2.68 kg of CO₂ ([Ember Clim
 
 ### The composite DG cost
 
+Table: Composite all-in cost of diesel-generated power per kWh
+
 | Cost Component | ₹ per kWh |
 | --- | --- |
 | Fuel (₹87/litre, 3.5 kWh/litre) | ₹24.9 |
@@ -86,6 +90,18 @@ Each litre of diesel burned releases approximately 2.68 kg of CO₂ ([Ember Clim
 | **Total all-in DG cost** | **₹27.4** |
 
 This is the number a solar system must beat. It does, by a factor of six to eight.
+
+```chart
+type: hbar
+title: Cost per kWh, diesel generator against C&I solar (50 kW system)
+unit: "₹/kWh"
+source: "Calculated in this article: DG all-in cost from the composite table above (₹87 per litre June 2026 pump price, 3.5 kWh per litre); solar LCOE as system cost plus 25-year O&M divided by 1.5 million kWh"
+note: "Lower is better. Solar figures use the article's ₹25 lakh and ₹30 lakh CAPEX cases."
+data:
+  - { label: "Diesel generator, all-in", value: 27.4 }
+  - { label: "Solar LCOE, ₹30 lakh CAPEX", value: 2.35 }
+  - { label: "Solar LCOE, ₹25 lakh CAPEX", value: 2.02 }
+```
 
 > **₹27.4 per kWh.** The all-in cost of diesel-generated power for a 50 kW factory DG running at 75 percent load, including fuel at June 2026 pump prices, maintenance, and capital depreciation. *Source - [CEA](https://cea.nic.in/) tariff data + [PPAC](https://www.ppac.gov.in/) pump price bulletin, 2026.*
 
@@ -113,7 +129,8 @@ The [Levelised Cost of Energy (LCOE)](/glossary/lcoe/) strips away financing str
 - **O&M cost:** ₹0.25–0.35 per kWh (cleaning, monitoring, insurance)
 - **25-year total generation:** approximately 1.5 million kWh
 
-**Solar LCOE = (₹25 lakh + ₹5.25 lakh O&M) ÷ 1,500,000 kWh = ₹2.02/kWh**
+> [!FORMULA]
+> Solar LCOE = (₹25 lakh + ₹5.25 lakh O&M) ÷ 1,500,000 kWh = ₹2.02/kWh
 
 Even at the high CAPEX estimate of ₹30 lakh, the solar LCOE is ₹2.35/kWh, a fraction of the ₹27.4/kWh diesel cost. [JMK Research's India C&I Solar Market Report 2025](https://jmkresearch.com/) places the blended LCOE for C&I rooftop at ₹2.5–3.5/kWh inclusive of financing cost, confirming this range.
 
@@ -123,7 +140,6 @@ Solar O&M is minimal compared to diesel:
 
 - **Cleaning:** ₹0.10–0.15/kWh (monthly panel cleaning, critical for dusty industrial environments)
 - **Inverter service:** ₹0.05–0.10/kWh (annual inspection, firmware updates)
-
 - **Insurance and contingency:** ₹0.05–0.10/kWh
 
 Total solar O&M: ₹0.25–0.40/kWh. Compare this to ₹1–1.5/kWh for diesel maintenance alone.
@@ -146,7 +162,8 @@ The model has four variables:
 
 **The formula:**
 
-**Net NPV = (A + C + D) − B**
+> [!FORMULA]
+> Net NPV = (A + C + D) − B
 
 Where all variables are expressed in present value terms over the project life using the company's [WACC](/glossary/wacc/) as the discount rate.
 
@@ -178,6 +195,8 @@ A textile accessories manufacturer in Tirupur runs a 50 kW DG set for eight hour
 
 **The calculation:**
 
+Table: Worked example, 25-year benefits and costs of a 50 kW solar system displacing diesel in Tirupur (nominal)
+
 | Item | 25-Year Value |
 | --- | --- |
 | DG fuel savings (A) | ₹122 crore |
@@ -200,6 +219,8 @@ This is why diesel-replacement solar is the highest-IRR solar application in Ind
 ## Solar vs Diesel Generator: Master Comparison Table
 
 The table below covers the 10 most important dimensions a CFO or facility manager should evaluate before making this decision. All costs reflect June 2026 Indian market conditions.
+
+Table: Solar C&I rooftop compared with a diesel generator on twelve dimensions, June 2026 conditions
 
 | Dimension | Solar (C&I Rooftop) | Diesel Generator | Solar Advantage |
 | --- | --- | --- | --- |
@@ -235,6 +256,7 @@ The concern is valid. Industrial loads inject [harmonics](/glossary/harmonics/) 
 
 When running solar in parallel with a diesel generator (the most common interim architecture), the sequence matters:
 
+<!-- steps -->
 1. DG starts and stabilises at rated frequency (50 Hz ± 0.5 Hz) and voltage (415 V three-phase ± 5%).
 2. Solar inverter detects the DG bus, locks phase, and begins injecting current.
 3. Solar ramps to maximum power point; DG load (and therefore fuel consumption) falls proportionately.
@@ -252,6 +274,8 @@ Not every factory can switch to 100% solar immediately. Some sites have critical
 The plant operates on solar during daylight hours (typically 7 am to 5 pm, with partial generation from 6 am and 6 pm in summer months). The DG set handles overnight load and fills in during extended overcast periods. A well-designed hybrid system achieves 60–80% DG displacement annually, meaning 60–80% of the fuel bill disappears.
 
 ### Pros and cons of hybrid solar-plus-DG
+
+Table: Pros and cons of a hybrid solar-plus-DG set-up against solar with battery and no DG
 
 | | Pros | Cons |
 | --- | --- | --- |
@@ -274,9 +298,11 @@ The financial case for C&I solar is stronger than most buyers realise because of
 Under Section 32 of the Income Tax Act, solar power plants are classified as renewable energy equipment eligible for **40% accelerated depreciation** in the first year of commissioning. This is computed on the Written Down Value (WDV) method.
 
 For a ₹25 lakh system:
-- **Year 1 depreciation claimed:** ₹10 lakh (40% of ₹25 lakh)
-- **Tax saving at 25% corporate rate:** ₹2.5 lakh in Year 1
-- **Effective net CAPEX after tax benefit:** ₹22.5 lakh
+
+> [!EXAMPLE] Year-1 depreciation on a ₹25 lakh system
+> - **Year 1 depreciation claimed:** ₹10 lakh (40% of ₹25 lakh)
+> - **Tax saving at 25% corporate rate:** ₹2.5 lakh in Year 1
+> - **Effective net CAPEX after tax benefit:** ₹22.5 lakh
 
 This ₹2.5 lakh first-year saving, combined with the fuel savings that begin from Day 1 of commissioning, means many 50 kW solar installations achieve cash-flow breakeven within the first 12 months, even before the annual savings are fully realised.
 
@@ -297,6 +323,8 @@ The question is not binary. The right answer depends on four site-specific varia
 3. **Load Profile**: Daytime-heavy loads (most factories, schools, commercial buildings with air-conditioning) are the ideal profile for solar. Overnight-heavy loads (cold storage, hospitals, data centres) require a battery or DG component regardless of solar size.
 
 4. **CAPEX vs OPEX Preference**: Companies with strong balance sheets and tax efficiency are better served by CAPEX solar (own the system, capture depreciation). Companies with constrained capital budgets or OPEX preference should evaluate the RESCO/PPA model, where a developer installs and owns the system and the buyer pays a per-kWh tariff, typically ₹4.5–6/kWh, still far below the DG cost.
+
+Table: Recommended architecture and expected IRR by site profile
 
 | Site Profile | Recommended Architecture | Expected IRR |
 | --- | --- | --- |

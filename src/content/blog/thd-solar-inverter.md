@@ -4,7 +4,7 @@ excerpt: "THD in an inverter is the percentage of non-fundamental harmonic conte
 description: "Understand voltage and current THD in solar systems, where to find rated limits and how an engineer should interpret site measurements."
 category: "Technology"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-thd-solar-inverter.webp"
 author: "Keyur Rakholiya"
@@ -41,8 +41,12 @@ faqs:
 
 Solar projects in hospitals, data centres, pharmaceutical facilities, and precision manufacturing plants face a procurement question that goes beyond panel count and kWp: what is the THD specification of the inverter under evaluation, and does it meet the distortion limits that apply to sensitive loads?
 
-> **TL;DR**
-> - THD measures the harmonic content of an inverter's AC output relative to the 50 Hz fundamental; IEEE 519 caps voltage THD at 5% at the PCC below 69 kV, and the CEA connectivity regulations in India reference IEEE 519 for harmonic limits.
+> [!KEYTAKEAWAYS]
+> - THD measures the harmonic content of an inverter's AC output relative to the 50 Hz fundamental; IEEE 519 caps voltage THD at the PCC at 8% below 1 kV and 5% from 1 kV to 69 kV, and the CEA connectivity regulations in India reference IEEE 519 for harmonic limits.
+> - A datasheet THD figure is stated at 100% rated output, but an inverter may show 6-10% ITHD at 25% output and 10-15% at 10% output, so ask for test data at three load points (at most 3%, 5% and 8% at 100%, 25% and 10%).
+> - Hospital OT/ICU and Tier III+ data centre zones work to a 3% VTHD target, so background distortion at the PCC (often 3-5% on industrial feeders) must be measured before the inverter is chosen.
+> - Capacitor banks on the same feeder can resonate with the inverter and amplify one harmonic order, so run a resonance check before commissioning.
+> - Write ITHD at most 3% at rated output, measured per IEC 61000-4-30 class A, into the purchase order, rather than "THD within limits".
 
 The question matters because every switching inverter injects harmonic currents into the AC grid as a side effect of its DC-to-AC conversion process. When those harmonics are controlled correctly, the inverter operates within the harmonic limits referenced in the CEA connectivity regulations (IEEE 519) and is invisible to connected equipment. When they are not (due to weak filters, low-quality IGBTs, or inadequate control design) the result is waveform distortion that causes equipment overheating, VFD trips, UPS faults, and, in extreme cases, medical device calibration errors.
 
@@ -60,7 +64,8 @@ Lower-order harmonics (3rd, 5th, 7th) also appear from control imperfections. PW
 
 The THD figure on an inverter datasheet is the root-mean-square combination of all harmonic components, divided by the fundamental, expressed as a percentage:
 
-**THD = √(I₂² + I₃² + I₄² + … + Iₙ²) / I₁ × 100%**
+> [!FORMULA]
+> THD = √(I₂² + I₃² + I₄² + … + Iₙ²) / I₁ × 100%
 
 Where I₁ is the fundamental current and Iₙ is the current at the nth harmonic.
 
@@ -70,12 +75,28 @@ IEEE 519-2014, IEC 61000-3-6, and the CEA connectivity regulations form the thre
 
 The table below summarises the voltage THD limits at the point of common coupling (PCC) under IEEE 519-2014, which is the standard cited in the CEA Grid Code 2019:
 
+Table: IEEE 519-2014 voltage THD limits at the point of common coupling, by system voltage
+
 | System voltage | Individual harmonic limit | Total VTHD limit |
 | --- | --- | --- |
 | Below 1 kV | 5% | 8% |
 | 1 kV to 69 kV | 3% | 5% |
 | 69 kV to 161 kV | 1.5% | 2.5% |
 | Above 161 kV | 1% | 1.5% |
+
+```chart
+type: bar
+title: Total voltage THD limit at the point of common coupling, IEEE 519-2014
+unit: "%"
+source: "IEEE 519-2014 voltage distortion limits at the PCC, as set out in the table above and cited in this article"
+note: "Lower is stricter. Most Indian solar projects connect at LT (415 V) or HT (11 kV / 33 kV)."
+decimals: 1
+data:
+  - { label: "Below 1 kV", value: 8 }
+  - { label: "1 kV to 69 kV", value: 5 }
+  - { label: "69 kV to 161 kV", value: 2.5 }
+  - { label: "Above 161 kV", value: 1.5 }
+```
 
 Most Indian solar projects connect at LT (415 V) or HT (11 kV / 33 kV). The relevant limit for LT connections is 8% VTHD total and 5% per individual harmonic at the PCC. For HT connections above 1 kV, the limit is 5% total and 3% per individual harmonic, substantially stricter.
 
@@ -116,6 +137,9 @@ Static transfer switches (STS) used in data centre dual-bus architectures have s
 
 Worse, the combination of capacitor bank inductance and capacitance can create a resonant circuit tuned near a harmonic frequency, causing amplification of that harmonic across the entire site. This resonance effect can raise individual harmonic voltages well above the IEEE 519 limits even when the inverter itself is fully compliant.
 
+> [!CAUTION] Resonance can overheat a capacitor bank
+> A fixed capacitor bank on the same feeder as a solar inverter can resonate near a harmonic order and overheat or fail within months. Run a resonance check before the plant is commissioned.
+
 ## How to Read THD Specifications on an Inverter Datasheet
 
 Inverter datasheets present THD in several forms, and misreading the specification is a common procurement error that experienced EPCs learn to avoid.
@@ -126,14 +150,19 @@ Inverter datasheets present THD in several forms, and misreading the specificati
 
 The comparison table below clarifies the two metrics for procurement:
 
+Table: THD metrics for procurement: what each measures, where it appears and typical limit
+
 | Metric | What it measures | Where it appears | Typical limit |
 | --- | --- | --- | --- |
 | ITHD (current THD) | Harmonic content in inverter output current | Inverter datasheet | < 3% at rated load |
-| VTHD at PCC | Voltage distortion at connection point | DISCOM audit report | < 5% (LT) / < 5% (HT under 69 kV) |
+| VTHD at PCC | Voltage distortion at connection point | DISCOM audit report | < 8% (LT, below 1 kV) / < 5% (1 kV to 69 kV) |
 | TDD (Total Demand Distortion) | Like ITHD but normalised to max demand | IEEE 519 compliance | 5–12% depending on SCR |
-| Individual harmonic | Single harmonic order magnitude | Both datasheet and audit | < 3% (HT) per order |
+| Individual harmonic | Single harmonic order magnitude | Both datasheet and audit | < 5% (LT) / < 3% (1 kV to 69 kV) per order |
 
 ### Load-Point Dependency: The Specification Trap
+
+> [!IMPORTANT] Datasheet THD is a 100% load number
+> Solar arrays run at partial output for most daylight hours. A typical inverter may show 6-10% ITHD at 25% output and 10-15% at 10% output, so a unit specified as compliant at rated load can still give poor supply quality in the morning and evening.
 
 The most consequential thing missing from many datasheet comparisons is the THD behaviour at partial load. Datasheets state THD at rated output (100%). But solar arrays operate at partial output for the majority of daylight hours, particularly in the morning, evening, and on overcast days. At 25% output, a typical inverter may show 6–10% ITHD. At 10% output, 10–15% is common.
 
@@ -141,19 +170,22 @@ For a hospital that operates 24 hours but has low overnight demand, the solar ar
 
 Procurement specifications for sensitive-load projects should therefore explicitly state:
 
-- ITHD ≤ 3% at 100% rated output
-- ITHD ≤ 5% at 25% rated output
-- ITHD ≤ 8% at 10% rated output
+> [!CHECKLIST] ITHD limits to write into the specification
+> - ITHD ≤ 3% at 100% rated output
+> - ITHD ≤ 5% at 25% rated output
+> - ITHD ≤ 8% at 10% rated output
 
 And request test data at all three load points from the manufacturer before purchase order placement.
 
-## The 5-Stage THD Control Method: How Quality Inverters Minimise Distortion
+## The 4-Stage THD Control Method: How Quality Inverters Minimise Distortion
 
 Inverter manufacturers use a combination of hardware and software techniques to keep THD within limits. Understanding these stages helps EPCs assess whether a low-price inverter is cutting corners that will appear as field problems.
 
-### The 5-Stage THD Control Method
+### The 4-Stage THD Control Method
 
-1. **High switching frequency**: Operating the IGBT switches at 16–50 kHz pushes the fundamental switching harmonic far above the range where IEEE 519 and IEC 61000 impose strict limits. A 16 kHz switching frequency means the dominant ripple component is at the 320th harmonic (16,000 / 50), which is well above the range of concern. Lower switching frequencies (8 kHz and below) bring switching harmonics into the 100–200 Hz range, requiring heavier filters.
+<!-- steps -->
+
+1. **High switching frequency**: Operating the IGBT switches at 16–50 kHz pushes the fundamental switching harmonic far above the range where IEEE 519 and IEC 61000 impose strict limits. A 16 kHz switching frequency means the dominant ripple component is at the 320th harmonic (16,000 / 50), which is well above the range of concern. Lower switching frequencies (8 kHz and below) bring switching harmonics down to around the 160th harmonic order (8,000 / 50) and below, requiring heavier filters.
 
 2. **LCL output filter**: The inductor-capacitor-inductor (LCL) filter at the inverter AC output provides three-pole roll-off above the corner frequency. A well-designed LCL filter attenuates switching ripple by 60–80 dB at the switching frequency. The capacitor in the middle also creates a resonant peak, so damping resistors or active damping in the control loop are required to prevent filter resonance from amplifying specific harmonic orders.
 
@@ -164,6 +196,8 @@ Inverter manufacturers use a combination of hardware and software techniques to 
 ## THD by Application: Hospitals, Data Centres, and Precision Manufacturing
 
 The THD requirements are not uniform across C&I applications. The table below maps application type to the effective THD design target and the consequences of non-compliance:
+
+Table: Effective VTHD target, sensitive equipment and consequence of exceedance, by application
 
 | Application | Effective VTHD target | Sensitive equipment | Consequence of exceedance |
 | --- | --- | --- | --- |
@@ -178,9 +212,10 @@ The THD requirements are not uniform across C&I applications. The table below ma
 
 EPCs delivering commercial solar installations for healthcare campuses treat power quality as a contractual line item, not a nice-to-have, because a hospital procurement contract can carry supply-quality penalty clauses that a standard rooftop job never sees. For hospital solar installations, the EPC must verify three THD-related items before the inverter specification is finalised:
 
-- **Inverter ITHD at rated and partial load**: request test reports, not just datasheet figures.
-- **Background VTHD at the PCC**: measure existing grid distortion before the solar plant energises. If background distortion is already 2.5%, the inverter headroom is only 0.5% VTHD additional before hitting the 3% design target.
-- **Isolation from critical circuits**: the solar feeder should be separated from the critical power distribution panel by an isolation transformer if the feeder VTHD cannot be guaranteed below 3%. The transformer provides galvanic isolation and acts as a harmonic barrier.
+> [!CHECKLIST] Hospital projects: three THD checks
+> - **Inverter ITHD at rated and partial load**: request test reports, not just datasheet figures.
+> - **Background VTHD at the PCC**: measure existing grid distortion before the solar plant energises. If background distortion is already 2.5%, the inverter headroom is only 0.5% VTHD additional before hitting the 3% design target.
+> - **Isolation from critical circuits**: the solar feeder should be separated from the critical power distribution panel by an isolation transformer if the feeder VTHD cannot be guaranteed below 3%. The transformer provides galvanic isolation and acts as a harmonic barrier.
 
 Refer to the [solar inverter certifications guide](/blog/solar-inverter-certifications/) for the complete list of standards verification steps that apply to hospital and healthcare projects.
 
@@ -223,6 +258,8 @@ Before a purchase order is placed on a C&I project with sensitive loads, evaluat
 3. **Filter design specifics**: Ask whether the output filter is L, LC, or LCL topology. LCL is the minimum acceptable for below-3% THD targets. Ask for the filter resonant frequency and confirm it is not close to a major harmonic order (150 Hz, 250 Hz, 350 Hz). Filters resonant near a harmonic order can amplify rather than attenuate that harmonic.
 
 4. **IGBT manufacturer and grade**: Premium-grade IGBTs (Infineon, Mitsubishi, Fuji) have tighter switching loss and delay specifications that translate directly to lower dead-time distortion and lower 3rd/5th harmonic content. Generic IGBT modules save cost at the component level but impose it at the harmonic performance level.
+
+Table: 4-point THD procurement scorecard: premium, marginal and non-compliant criteria
 
 | Criterion | Premium compliance | Marginal | Non-compliant |
 | --- | --- | --- | --- |

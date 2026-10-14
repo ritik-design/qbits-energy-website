@@ -4,7 +4,7 @@ excerpt: "Solar inverter depreciation depends on ownership, business use, asset-
 description: "Inverter depreciation rate in India depends on ownership, business use, asset class and put-to-use date. Checklist before you claim; not tax advice."
 category: "Guide"
 date: 2026-04-08
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "8 min"
 image: "/og/blog-solar-inverter-depreciation-in-india.webp"
 author: "Akash Hirapara"
@@ -28,6 +28,13 @@ faqs:
 ---
 
 **Solar inverter depreciation ka rate sirf “inverter” shabd dekhkar fix nahi kiya ja sakta.** Section 32 ke under claim ownership, business use, asset-block classification, put-to-use date aur relevant assessment year ke prescribed rate par depend karta hai. Isliye old article ka blanket 40% rate aur guaranteed payback claim hata diya gaya hai.
+
+> [!KEYTAKEAWAYS]
+> - Depreciation rate Section 32 ke under ownership, business use, asset-block classification, put-to-use date aur assessment year par depend karta hai; koi ek universal rate safe nahi hai.
+> - Search results mein repeat hone wala 40% WDV claim automatic nahi maanna chahiye; exact inverter aur taxpayer facts alag ho sakte hain.
+> - Financial model mein do case banayein: base case (koi unverified tax saving nahi) aur reviewed case (CA-approved block, rate, timing).
+> - RESCO ya PPA mein developer owner ho sakta hai, isliye customer automatically depreciation claim nahi kar sakta.
+> - Depreciation deduction aur cash tax saving same number nahi hain; payback tabhi update karein jab CA calculation review kare.
 
 > This page is general information, not tax advice. File karne se pehle chartered accountant se written classification aur calculation verify karayein.
 
@@ -57,12 +64,17 @@ Search results mein solar assets ke liye 40% WDV claim frequently repeat hota ha
 
 Financial model mein do versions banayein:
 
+Table: Financial model ke do versions, tax treatment ke hisaab se
+
 | Model | Tax treatment |
 | --- | --- |
 | Base case | Koi unverified depreciation tax saving nahi |
 | Reviewed case | CA-approved block, rate, timing and tax capacity |
 
 Purchase decision tab bhi viable hona chahiye jab reviewed benefit delayed ya lower nikle. Tax saving ko vendor discount ki tarah gross invoice se minus na karein.
+
+> [!WARNING] Tax saving ko price se minus na karein
+> Agar reviewed benefit delayed ya lower nikla, to jo project sirf tax saving ke bharose viable dikh raha tha, uska payback bigad jaata hai. Gross project cost aur tax effect alag rakhein.
 
 ## CAPEX, lease aur RESCO mein owner kaun hota hai?
 
@@ -78,14 +90,15 @@ Purchase decision tab bhi viable hona chahiye jab reviewed benefit delayed ya lo
 
 Invoice date, delivery date, installation date and put-to-use date same nahi hote. Claim ke timing ko support karne ke liye yeh records preserve karein:
 
-- Purchase invoice and payment trail.
-- Exact inverter model and serial number.
-- Asset register entry and location.
-- Installation, testing and commissioning certificate.
-- Grid approval or meter activation record, if applicable.
-- Generation or operating logs.
-- Ownership or financing agreement.
-- CA-prepared depreciation schedule and assumptions.
+> [!CHECKLIST] Put-to-use records
+> - Purchase invoice and payment trail.
+> - Exact inverter model and serial number.
+> - Asset register entry and location.
+> - Installation, testing and commissioning certificate.
+> - Grid approval or meter activation record, if applicable.
+> - Generation or operating logs.
+> - Ownership or financing agreement.
+> - CA-prepared depreciation schedule and assumptions.
 
 System outage ya delayed grid connection ho to tax adviser se poochein ki available facts put-to-use test ko kaise affect karte hain. Commissioning date ko automatically tax conclusion na maanein.
 
@@ -98,6 +111,8 @@ Service report, failed-unit serial number, warranty note, replacement invoice an
 ## Tax-saving calculation ka safe method
 
 CA se yeh inputs written form mein lein:
+
+Table: Tax-saving calculation ke liye CA se lene wale inputs aur unka evidence
 
 | Input | Evidence |
 | --- | --- |

@@ -39,7 +39,7 @@ The expensive mistake is treating them as one paperwork bundle. A dealer can be 
 
 This guide reflects central rules and official portals checked on **26 September 2026**. State registrations, municipal licences, professional tax, Shops and Establishments rules, and local trade permissions sit outside this checklist. Use a chartered accountant or GST practitioner for your facts.
 
-> **Short version**
+> [!KEYTAKEAWAYS] Short version
 > - GST registration can be mandatory. Udyam registration is a separate MSME registration.
 > - A conditional ₹40 lakh GST exemption exists for certain businesses engaged exclusively in supplying goods. It is not a universal dealer threshold.
 > - Inter-State goods, services, agency work, e-commerce, and location can change the GST result.
@@ -50,6 +50,8 @@ This guide reflects central rules and official portals checked on **26 September
 
 Start with transactions, not registration labels. Write down what the business will invoice during its first twelve months.
 
+Table: Planned dealer activities and why each changes the GST review
+
 | Planned activity | Why it changes the review |
 | --- | --- |
 | Buy inverters and resell them within one State | May fit the goods-only GST analysis if no other taxable service is supplied |
@@ -59,13 +61,16 @@ Start with transactions, not registration labels. Write down what the business w
 | Sell through an e-commerce operator | Current notification conditions need a platform-specific check |
 | Operate branches under one PAN | Aggregate turnover and MSME classification look across the enterprise, not one shop in isolation |
 
-Do not split a real service charge into a vague product line merely to preserve a goods-only position. The invoice, agreement, accounting records, and actual work must tell the same story.
+> [!WARNING] Do not relabel a service charge
+> Do not split a real service charge into a vague product line merely to preserve a goods-only position. The invoice, agreement, accounting records, and actual work must tell the same story.
 
 ## When can GST registration become mandatory?
 
 Section 22 of the [Central Goods and Services Tax Act, 2017](https://cbic-gst.gov.in/pdf/CGST-Act-Updated-30092020.pdf) sets the turnover-based registration rule. Section 24 lists situations where compulsory registration may apply regardless of that normal threshold. Notification 10/2019-Central Tax then provides a conditional exemption from registration for certain people engaged exclusively in supplying goods where aggregate turnover does not exceed ₹40 lakh.
 
 That creates a decision, not a slogan.
+
+Table: Working GST classification by dealer facts, as of 26 September 2026
 
 | Dealer facts | Working classification as of 26 September 2026 | What to verify |
 | --- | --- | --- |
@@ -96,14 +101,15 @@ If liability has already arisen, Section 25 generally requires an application wi
 
 The exact evidence depends on the constitution and premises. Build one controlled folder with current, matching records:
 
-- PAN and the legal name recorded against it;
-- constitution evidence, such as the partnership deed, incorporation certificate, or other applicable formation record;
-- details of the proprietor, partners, directors, Karta, or authorised signatory as applicable;
-- the principal place of business and every additional place that must be declared;
-- ownership, lease, rent, consent, utility, or other current premises evidence accepted for the situation;
-- a monitored mobile number and email address for authentication and notices;
-- bank and business-account details required by the current process; and
-- a plain description of goods, services, sales channels, and States served.
+> [!CHECKLIST] GST registration file
+> - PAN and the legal name recorded against it;
+> - constitution evidence, such as the partnership deed, incorporation certificate, or other applicable formation record;
+> - details of the proprietor, partners, directors, Karta, or authorised signatory as applicable;
+> - the principal place of business and every additional place that must be declared;
+> - ownership, lease, rent, consent, utility, or other current premises evidence accepted for the situation;
+> - a monitored mobile number and email address for authentication and notices;
+> - bank and business-account details required by the current process; and
+> - a plain description of goods, services, sales channels, and States served.
 
 Match spelling, address format, entity type, and signatory capacity across records before submission. A registration number cannot repair contradictory source documents.
 
@@ -115,17 +121,40 @@ Udyam is the Government of India's MSME registration system. The [official Udyam
 
 For a pure inverter trader, one limitation matters more than the certificate design. The Ministry of MSME's [office memorandum dated 2 July 2021](https://udyamregistration.gov.in/docs/OM_regarding_inclusion_of_Traders02072021.pdf) permits retail and wholesale trades under NIC divisions 45, 46, and 47 to register. It restricts benefits for those trade MSMEs to **Priority Sector Lending only**.
 
-That means a dealer should not describe Udyam as a universal licence, subsidy approval, tender qualification, or right to every MSME benefit. Read the exact lender, tender, or scheme condition that creates the need for the certificate.
+> [!IMPORTANT] Trader benefits are limited to Priority Sector Lending
+> That means a dealer should not describe Udyam as a universal licence, subsidy approval, tender qualification, or right to every MSME benefit. Read the exact lender, tender, or scheme condition that creates the need for the certificate.
 
 ## Current MSME classification limits
 
 Ministry of MSME Notification S.O. 1364(E), dated 21 March 2025 and effective from 1 April 2025, revised the classification limits. The official portal publishes the same figures.
+
+Table: MSME classification limits effective 1 April 2025 (Notification S.O. 1364(E))
 
 | Category | Investment in plant, machinery, or equipment | Annual turnover |
 | --- | ---: | ---: |
 | Micro | Not more than ₹2.5 crore | Not more than ₹10 crore |
 | Small | Not more than ₹25 crore | Not more than ₹100 crore |
 | Medium | Not more than ₹125 crore | Not more than ₹500 crore |
+
+```chart
+type: bar
+title: MSME classification ceilings by category, from 1 April 2025
+unit: "₹ crore"
+source: "Ministry of MSME Notification S.O. 1364(E), dated 21 March 2025, effective 1 April 2025, as published on the official Udyam portal"
+sourceUrl: https://udyamregistration.gov.in/docs/261838_220191.pdf
+note: "Ceilings are 'not more than' values. Crossing either one moves the enterprise out of the category."
+series:
+  - name: "Investment in plant, machinery or equipment"
+    data:
+      - { label: "Micro", value: 2.5 }
+      - { label: "Small", value: 25 }
+      - { label: "Medium", value: 125 }
+  - name: "Annual turnover"
+    data:
+      - { label: "Micro", value: 10 }
+      - { label: "Small", value: 100 }
+      - { label: "Medium", value: 500 }
+```
 
 Both tests matter. Crossing either ceiling moves the enterprise out of that category under the composite criteria. All units listed against the same PAN are treated together for classification. Export turnover is excluded from the turnover calculation under the principal Udyam notification.
 
@@ -152,6 +181,8 @@ One enterprise should not file more than one Udyam registration. Multiple manufa
 
 ## Keep GST, Udyam, and the partner application separate
 
+Table: What GST registration, Udyam registration and the Qbits partner application each decide
+
 | Record | Decides | Does not decide |
 | --- | --- | --- |
 | GST registration | Tax identity and registered-person compliance under GST law | Dealer appointment or MSME classification |
@@ -176,6 +207,7 @@ If the records disagree, fix the source record through its official process firs
 
 There is no universal sequence, but this order prevents avoidable contradictions:
 
+<!-- steps -->
 1. Finalise the business constitution, PAN identity, ownership, and authorised signatory.
 2. Map goods, services, sales channels, customer locations, and expected aggregate turnover.
 3. Obtain a written GST applicability review using current law and notifications.
@@ -191,12 +223,13 @@ Only then use the [Qbits partner application](/become-our-partner/) and choose t
 
 Tax and MSME rules change. Recheck the following on the submission date:
 
-- the latest text of Sections 22, 24, and 25 of the CGST Act;
-- amendments to Notification 10/2019-Central Tax;
-- notification-based exceptions for e-commerce and inter-State supply routes;
-- the GST portal's current registration fields and evidence requirements;
-- the Udyam portal's current classification limits and registration instructions;
-- the trade-activity limitation in the 2 July 2021 Ministry memorandum; and
-- the current Qbits form label and accepted identifier.
+> [!CHECKLIST] Recheck on the submission date
+> - the latest text of Sections 22, 24, and 25 of the CGST Act;
+> - amendments to Notification 10/2019-Central Tax;
+> - notification-based exceptions for e-commerce and inter-State supply routes;
+> - the GST portal's current registration fields and evidence requirements;
+> - the Udyam portal's current classification limits and registration instructions;
+> - the trade-activity limitation in the 2 July 2021 Ministry memorandum; and
+> - the current Qbits form label and accepted identifier.
 
 **Sources checked 26 September 2026:** [CGST Act, 2017](https://cbic-gst.gov.in/pdf/CGST-Act-Updated-30092020.pdf), Sections 22 to 25; CBIC Notification 10/2019-Central Tax dated 7 March 2019 and the [CBIC Central Tax notification register](https://cbic-gst.gov.in/hindi/central-tax-notifications.html); the [GST registration help page](https://www.gst.gov.in/help/registration); the [official Udyam portal](https://udyamregistration.gov.in/); Ministry of MSME Notification [S.O. 1364(E)](https://udyamregistration.gov.in/docs/261838_220191.pdf), dated 21 March 2025; Notification [S.O. 1055(E)](https://udyamregistration.gov.in/docs/225669.pdf), dated 5 March 2021; and the Ministry's [retail and wholesale trade office memorandum](https://udyamregistration.gov.in/docs/OM_regarding_inclusion_of_Traders02072021.pdf), dated 2 July 2021.

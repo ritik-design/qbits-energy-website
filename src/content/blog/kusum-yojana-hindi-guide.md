@@ -4,7 +4,7 @@ excerpt: "KUSUM Yojana 2026: kisan solar pump subsidy, Component A/B/C explain, 
 description: "KUSUM Yojana mein kisan ko 60% subsidy milti hai solar pump ke liye. Component A, B, C, apply kaise karein - poori jankari Hindi mein."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "13 min"
 image: "/og/blog-kusum-yojana-hindi-guide.webp"
 author: "Nirav Dhanani"
@@ -36,14 +36,13 @@ language: hi
 
 > **ALMM and inverter compliance:** MNRE का मौजूदा ALMM पेज solar PV module और cell की सूचियां प्रकाशित करता है, inverter की सूची नहीं। Inverter के exact model documents और लागू scheme या DISCOM requirements अलग से verify करें।
 
-KUSUM Yojana [MNRE](/glossary/mnre/) की India के किसानों के लिए सबसे बड़ी solar subsidy scheme है (लेकिन इसकी जानकारी शहरी लोगों की तरह widespread नहीं है। किसान जो diesel pump पर हज़ारों रुपए महीने खर्च करते हैं, वो KUSUM के through solar pump install करके उसे permanently eliminate कर सकते हैं) 60% subsidy के साथ। इस guide में पूरी जानकारी है।
+KUSUM Yojana [MNRE](/glossary/mnre/) की India के किसानों के लिए सबसे बड़ी solar subsidy scheme है, 60% subsidy के साथ। लेकिन इसकी जानकारी शहरी लोगों की तरह widespread नहीं है। किसान जो diesel pump पर हज़ारों रुपए महीने खर्च करते हैं, वो KUSUM के through solar pump install करके उसे permanently eliminate कर सकते हैं। इस guide में पूरी जानकारी है।
 
 > **एक line में जवाब।** KUSUM Yojana किसानों को solar pump subsidy देती है - 60% (30% central + 30% state)। तीन components हैं: land lease (A), standalone solar pump (B), और grid-connected pump solarisation (C)। [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-subsidy-hindi) homeowners के लिए है; KUSUM farmers के लिए।
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - KUSUM Yojana ke teen components hain: Component A (barren land par solar plant), [Component B](https://www.heavengreenenergy.com/blog/kusum-component-b-application-guide) (off-grid standalone solar pump), aur Component C (grid-connected pump ka solarisation).
 > - Component B mein farmer sirf 40% khud pay karta hai (60% subsidy - 30% central + 30% state), kuch states mein state top-up se yeh 20-25% tak kam ho jaata hai.
-
 > - KUSUM ke liye koi single national portal nahi hai - application state nodal agency (RREC, MEDA, GEDA, UPNEDA, PEDA) ke through hoti hai.
 > - PM Surya Ghar aur KUSUM alag schemes hain - ek hi farmer household dono ka fayda ek saath le sakta hai (ghar ke liye Surya Ghar, khet ke liye KUSUM).
 > - Component B ka payback typically 1-2 saal mein aata hai, diesel cost completely eliminate hone ki wajah se.
@@ -79,13 +78,14 @@ Lease sign karne se pehle land ki technical suitability check karna zaroori hai 
 - State: 30% of benchmark cost
 - **Farmer pays: 40%** (soft loan available)
 
-**Example:** 5 HP solar pump, benchmark cost ₹3.5 lakh
-- Central subsidy: ₹1.05 lakh
-- State subsidy: ₹1.05 lakh
-- Farmer payment: ₹1.40 lakh
-- vs Diesel cost: ₹80,000-1.50 lakh/year
-
-Payback in 1-2 years in most cases, diesel eliminate होने से।
+> [!EXAMPLE] Component B: 5 HP pump, farmer ka 40% share
+> **Example:** 5 HP solar pump, benchmark cost ₹3.5 lakh
+> - Central subsidy: ₹1.05 lakh
+> - State subsidy: ₹1.05 lakh
+> - Farmer payment: ₹1.40 lakh
+> - vs Diesel cost: ₹80,000-1.50 lakh/year
+>
+> Payback in 1-2 years in most cases, diesel eliminate होने से।
 
 ### Component C: Grid-Connected Pump Solarisation
 
@@ -99,6 +99,8 @@ Payback in 1-2 years in most cases, diesel eliminate होने से।
 
 **Income dual है:** (1) Electricity bill savings (2) Grid export income
 
+Table: Component C, pump size ke hisaab se solar system, annual export income aur savings
+
 | Pump Size | Solar System | Annual Export Income | Annual Savings |
 | --- | --- | --- | --- |
 | 3 HP | 4.5 kW | ₹20,000-35,000 | ₹15,000-25,000 |
@@ -106,6 +108,8 @@ Payback in 1-2 years in most cases, diesel eliminate होने से।
 | 7.5 HP | 10 kW | ₹50,000-85,000 | ₹35,000-55,000 |
 
 ## KUSUM vs PM Surya Ghar: Clear Comparison
+
+Table: KUSUM Yojana aur PM Surya Ghar ka comparison
 
 | Dimension | KUSUM Yojana | PM Surya Ghar |
 | --- | --- | --- |
@@ -121,9 +125,12 @@ Payback in 1-2 years in most cases, diesel eliminate होने से।
 
 ## KUSUM Component B Apply Kaise Karein
 
-KUSUM के लिए कोई single national portal नहीं है - state-wise process है।
+> [!IMPORTANT] Koi single national portal nahi
+> KUSUM के लिए कोई single national portal नहीं है - state-wise process है।
 
 ### State-Wise KUSUM Application Contacts
+
+Table: State-wise KUSUM application method aur contact
 
 | State | Application Method | Contact |
 | --- | --- | --- |
@@ -137,6 +144,7 @@ KUSUM के लिए कोई single national portal नहीं है - st
 
 ### The KUSUM Application Framework
 
+<!-- steps -->
 1. **District Agriculture Department से contact करें**: KUSUM nodal officer identify करें
 2. **State portal पर register करें**: State-specific form fill करें
 3. **Documents submit करें**: Land records, Aadhaar, bank details, pump details
@@ -145,6 +153,8 @@ KUSUM के लिए कोई single national portal नहीं है - st
 6. **Subsidy disbursement**: After inspection, 60% subsidy settled
 
 ## Documents Required for KUSUM
+
+Table: Component A, B aur C ke liye zaroori documents
 
 | Document | Component A | Component B | Component C |
 | --- | --- | --- | --- |
@@ -162,11 +172,14 @@ KUSUM subsidised installations में भी [ALMM-listed](/glossary/almm-lis
 
 - [MNRE ALMM verification](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}
 
-Non-ALMM equipment install होने पर subsidy release नहीं होती। State-level KUSUM programs में यह compliance requirement उतनी ही strict है जितनी PM Surya Ghar में।
+> [!WARNING] Non-ALMM equipment par subsidy release nahi hoti
+> Non-ALMM equipment install होने पर subsidy release नहीं होती। State-level KUSUM programs में यह compliance requirement उतनी ही strict है जितनी PM Surya Ghar में।
 
 ## KUSUM Component B Ka Financial ROI
 
 **Example: 5 HP diesel pump, Rajasthan**
+
+Table: 5 HP diesel pump, Rajasthan, KUSUM se pehle aur baad ka annual cost
 
 | Item | Before KUSUM | After KUSUM |
 | --- | --- | --- |
@@ -200,7 +213,7 @@ Farming household जिनके पास दोनों connections है�
 
 दोनों separate applications, separate systems। Both benefit एक साथ possible है - यह perfectly legal है।
 
-## Qbits KUSUM Installations Mein
+## Qbits aur KUSUM: Related Guides
 
 - **[KUSUM Agricultural Solar Guide](/blog/kusum-yojana-agricultural-solar-subsidy/)**: State-wise detailed application guide
 - **[PM Surya Ghar vs KUSUM Comparison](/blog/pm-surya-ghar-vs-kusum-yojana/)**: Which scheme for you?
@@ -240,6 +253,8 @@ Gujarat's GEDA (Gujarat Energy Development Agency) has streamlined KUSUM:
 
 Different states have different status check mechanisms:
 
+Table: State-wise KUSUM application status check ka tareeka
+
 | State | Status Check Method |
 | --- | --- |
 | Rajasthan | rajkisan.rajasthan.gov.in portal |
@@ -270,7 +285,7 @@ Despite these challenges, KUSUM provides one of the best investment returns for 
 **Before Application:**
 - अपने khasra और khatoni records update करें - current revenue records जरूरी हैं
 - District agriculture department से KUSUM nodal officer का contact नंबर लें
-- ALMM list पर pump manufacturer verify करें - [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}
+- Solar panels ALMM list पर verify करें - [mnre.gov.in/almm-list/](https://mnre.gov.in/almm-list/){target="_blank" rel="noopener"}। Pump और controller के लिए state empanelment और specification check करें
 - 2-3 empanelled vendors से quotes लें (same specifications पर)
 
 **During Application:**
@@ -290,6 +305,6 @@ According to [Saur Energy India's KUSUM tracker](https://www.saurenergy.com/){ta
 KUSUM Component B (standalone solar pump) में inverter की role critical है:
 
 - Solar pump controller (VFD, Variable Frequency Drive) panels की DC power को pump motor के लिए appropriate AC में convert करता है
-- ALMM-listed pump controller mandatory है
+- Pump controller का exact model और documents scheme और state tender specification के हिसाब से verify करें (MNRE का ALMM पेज inverter या pump controller की सूची नहीं देता)
 - IP65 minimum, IP66 preferred for outdoor agricultural installation
 - India-grid VFD for Component C installations should handle 150-270V input

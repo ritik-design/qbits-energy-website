@@ -35,7 +35,16 @@ relatedSlugs:
 
 "AI" on an inverter datasheet or dealer brochure is a label, not a specification. It can describe three very different things, and only one of them involves a model that learns anything about your plant. This guide separates them, shows the arithmetic behind a learned baseline, and lists what to verify on the exact model before you pay for the label.
 
+> [!KEYTAKEAWAYS]
+> - "AI" on an inverter can mean threshold alerts, a learned baseline or control firmware, and only the learned baseline involves a model that learns anything about your plant.
+> - A baseline compares actual output with expected energy: array size (kWp) x plane-of-array irradiation x performance ratio. In the illustrative day, 19.8 kWh against 22 kWh expected is 10 percent below baseline.
+> - The baseline is only as good as the irradiance data and the plant's healthy PR; without them the system is guessing.
+> - A model cannot repair a component, prevent lightning or surge damage, or keep working when the router, SIM or cloud account is down.
+> - Qbits' public datasheets do not describe a machine-learning method, an alert list or a training dataset, so ask for the written model-level description first.
+
 ## Three things the label can mean
+
+Table: The three things the "AI" label can mean on an inverter
 
 | What is called "AI" | What it actually is | Where it runs | What you can verify |
 | --- | --- | --- | --- |
@@ -49,9 +58,11 @@ The first row is useful and common. The third row is real engineering, but it is
 
 A baseline model needs an estimate of what the plant should have produced. The standard yardstick is the performance ratio, defined in IEC 61724-1 as the ratio of the energy actually delivered to the energy an ideal plant would deliver for the irradiation received. In formula form:
 
-**Expected energy (kWh) = Array size (kWp) x Plane-of-array irradiation (kWh/m2) x PR**
+> [!FORMULA]
+> Expected energy (kWh) = Array size (kWp) x Plane-of-array irradiation (kWh/m2) x PR
 
-An illustrative day for a 5 kWp array: irradiation 5.5 kWh/m2 and a typical PR of 0.80 give 5 x 5.5 x 0.80 = 22 kWh expected. If the inverter reports 19.8 kWh, the ratio is 19.8 / 22 = 0.90, so the plant is 10 percent below its own baseline. A fixed alert set at "below 50 percent of rated output" would never fire. A baseline alert might, if the irradiation figure is trustworthy.
+> [!EXAMPLE] An illustrative day for a 5 kWp array
+> Irradiation 5.5 kWh/m2 and a typical PR of 0.80 give 5 x 5.5 x 0.80 = 22 kWh expected. If the inverter reports 19.8 kWh, the ratio is 19.8 / 22 = 0.90, so the plant is 10 percent below its own baseline. A fixed alert set at "below 50 percent of rated output" would never fire. A baseline alert might, if the irradiation figure is trustworthy.
 
 That last condition is the weak point. The model needs measured irradiance from a sensor, or a satellite estimate for the location, and a good estimate of the plant's own PR when it was healthy. Without them the system is guessing. See the [performance ratio glossary entry](/glossary/pr/) and the [plane-of-array entry](/glossary/plane-of-array/) for the definitions, and the [irradiance guide](/blog/solar-irradiance-data-india-statewise/) for sourced yield figures by state.
 
@@ -69,6 +80,8 @@ A model cannot:
 ## Verify the claim before you pay for it
 
 Use the same short test for every shortlisted model.
+
+Table: Questions to ask before paying for an "AI" claim, with good answers and warning signs
 
 | Question | Good answer | Warning sign |
 | --- | --- | --- |
@@ -90,7 +103,8 @@ Some functions marketed as smart are fixed engineering that has existed for year
 - **DC arc detection.** Some inverters detect and interrupt a DC arc. The relevant international standard is IEC 63027. Ask whether the feature is fitted on your model, not whether it exists in the range.
 - **Anti-islanding and grid support.** Disconnection when the grid fails is a safety and grid-code requirement tested under IS 16169 / IEC 62116, not an optional intelligence feature. The [anti-islanding entry](/glossary/anti-islanding/) explains it.
 
-If a brochure lists these under an AI heading, find the datasheet line and the test standard. If there is none, the claim is not verified.
+> [!IMPORTANT] No datasheet line, no verified claim
+> If a brochure lists these under an AI heading, find the datasheet line and the test standard. If there is none, the claim is not verified.
 
 ## Data, privacy and cost
 

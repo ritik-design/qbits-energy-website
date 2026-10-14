@@ -6,6 +6,7 @@ import Footer from '../../components/Footer.astro';
 import { getAuthorByName } from '../../data/authors';
 import { getGlossaryJourney } from '../../data/article-journeys';
 import { selectRelatedPosts } from '../../data/related-content';
+import { getGlossaryApplyRow } from '../../data/glossary-commercial-links';
 
 export async function getStaticPaths() {
   const entries = await getCollection('glossary');
@@ -50,6 +51,7 @@ const {
 
 const authorProfile = getAuthorByName(author);
 const journey = getGlossaryJourney(entry.id, category);
+const applyRow = getGlossaryApplyRow(entry.id, category, journey);
 
 const relatedTerms = relatedTermsRaw.filter((r) => existingSlugs.has(r.slug));
 
@@ -199,6 +201,20 @@ const articleSchema = {
             <div class="blog-content glossary-content">
               <Content />
             </div>
+
+            <!-- Apply this term (Batch 4B): category-mapped links, never duplicating the journey CTA -->
+            {applyRow && (
+              <section class="mt-10 rounded-2xl bg-slate-50 ring-1 ring-slate-200 p-5 sm:p-6" aria-label={applyRow.heading} id="apply-this-term">
+                <h2 class="text-sm font-bold uppercase tracking-wider text-brand-600">{applyRow.heading}</h2>
+                <ul class="mt-3 flex flex-col sm:flex-row sm:flex-wrap gap-x-8 gap-y-2">
+                  {applyRow.links.map((l) => (
+                    <li>
+                      <a href={l.href} data-cta="glossary_apply_click" class="text-sm font-semibold text-brand-600 hover:text-brand-700">{l.label} →</a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             <!-- FAQ -->
             {faqs.length > 0 && (

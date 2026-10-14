@@ -13,7 +13,7 @@ const FORMS = [
   { name: 'contact', file: 'src/pages/contact-us/index.astro', formId: 'lead-form', btn: 'lead-submit', status: 'lead-status', fields: { name: 'A', email: 'a@b.co', phone: '9999900000', subject: 'Product Inquiry', message: 'hello there world' } },
   { name: 'quick_lead', file: 'src/components/home/QuickLeadForm.astro', formId: 'quick-lead-form', btn: 'ql-submit', status: 'ql-status', fields: { name: 'A', phone: '9999900000', city: 'Surat' } },
   { name: 'datasheet', file: 'src/pages/download-datasheets/index.astro', formId: 'datasheet-bundle-form', btn: 'db-submit', status: 'db-status', fields: { name: 'A', email: 'a@b.co', phone: '9999900000', companyName: 'Co' } },
-  { name: 'partner', file: 'src/pages/become-our-partner/index.astro', formId: 'partner-form', btn: 'partner-submit', status: 'partner-status', honeypot: 'website2', fields: { companyName: 'Co', registeredAddress: '12 Test Road', businessEmail: 'a@b.co', whatsappNumber: '9999900000', state: 'Gujarat', city: 'Surat' } },
+  { name: 'partner', file: 'src/pages/become-our-partner/index.astro', formId: 'partner-form', btn: 'partner-submit', status: 'partner-status', fields: { companyName: 'Co', registeredAddress: '12 Test Road', businessEmail: 'a@b.co', whatsappNumber: '9999900000', state: 'Gujarat', city: 'Surat' } },
 ];
 
 function el() {
@@ -38,7 +38,7 @@ function formScript(file, formId) {
 async function run(form, mode, { clicks = 1, honeypot = '' } = {}) {
   const formEl = el();
   const fieldEls = {};
-  formEl.elements = { namedItem: (n) => (fieldEls[n] ??= Object.assign(el(), { value: n === (form.honeypot || 'website') ? honeypot : (form.fields[n] ?? '') })) };
+  formEl.elements = { namedItem: (n) => (fieldEls[n] ??= Object.assign(el(), { value: n === 'hp_field_x7' ? honeypot : (form.fields[n] ?? '') })) };
   formEl.checkValidity = () => true;
   formEl.reportValidity = () => {};
   formEl.reset = () => { formEl.resets = (formEl.resets || 0) + 1; };

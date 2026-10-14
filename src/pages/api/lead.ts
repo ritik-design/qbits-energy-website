@@ -5,6 +5,7 @@ import { appendLeadToSheet } from '../../lib/leads-sheet.js';
 import {
   cleanSubmissionId,
   createRecentIds,
+  HONEYPOT_FIELD,
   honeypotTripped,
   isAllowedOrigin,
   isValidEmail,
@@ -40,7 +41,7 @@ const CRM_SOURCE_LABELS: Record<string, string> = {
 // Fields mapped to dedicated sheet columns; everything else goes to `extra`.
 const SHEET_SKIP_KEYS = new Set([
   'name', 'email', 'phone', 'companyName', 'businessEmail', 'whatsappNumber', 'city', 'state',
-  'message', 'page', 'source', 'website2',
+  'message', 'page', 'source',
 ]);
 
 // Only these keys are read from the request body; anything else is dropped, so a
@@ -49,7 +50,7 @@ const FORM_KEYS = [
   'source', 'page', 'submittedAt', 'submission_id',
   'name', 'email', 'phone', 'city', 'state', 'message',
   'role', 'subject', 'systemSize', 'model', 'quantity', 'requiredDate', 'sourcePage',
-  'companyName', 'website', 'website2',
+  'companyName', 'website',
 ];
 const ATTRIBUTION_KEYS = [
   'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',
@@ -280,11 +281,14 @@ export const POST: APIRoute = async ({ request, locals }) => {
   const isPartnerForm = formSource === 'partner-form';
 
   // Honeypot: silently succeed for bots, same as the client-side check, before any
-  // other validation so bots learn nothing. The partner form uses a real 'website'
-  // field, so its honeypot is named 'website2'.
-  if (honeypotTripped(body, [isPartnerForm ? 'website2' : 'website'])) {
+  // other validation so bots learn nothing. The honeypot is named so autofill never
+  // targets it. 'website' is NOT a honeypot any more: the partner form uses it as a real
+  // URL field and, for the other forms, a stale cached page that still posts it is
+  // treated as an ordinary unknown field (dropped below).
+  if (honeypotTripped(body, [HONEYPOT_FIELD])) {
     return jsonResponse(200, { success: true });
   }
+  if (!isPartnerForm) delete body.website;
 
   const cleaned = sanitizeFields(body, ALLOWED_KEYS, fieldCap);
   if (!cleaned.ok) return jsonResponse(400, { success: false, message: cleaned.message });

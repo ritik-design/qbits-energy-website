@@ -78,7 +78,7 @@
           </div>
           <!-- Honeypot -->
           <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
-            <label>Don't fill: <input type="text" id="ql-website" name="website" tabindex="-1" autocomplete="off" /></label>
+            <label>Leave this empty: <input type="text" id="ql-hp_field_x7" name="hp_field_x7" tabindex="-1" autocomplete="off" /></label>
           </div>
           <input type="hidden" name="subject" value="Product Inquiry" />
           <button type="submit" id="ql-submit" class="w-full rounded-xl bg-brand-600 hover:bg-brand-700 transition-all duration-300 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30">
@@ -135,7 +135,7 @@
         return;
       }
 
-      if ((form.elements.namedItem('website') || {}).value) {
+      if ((form.elements.namedItem('hp_field_x7') || {}).value) {
         form.reset();
         showStatus(SUCCESS_MESSAGE, true);
         return;
@@ -146,7 +146,7 @@
       try {
         if (!submissionId) submissionId = lead.newSubmissionId(window.crypto);
         const data = Object.assign(
-          lead.collectFields(Array.from(new FormData(form).entries()), ['website']),
+          lead.collectFields(Array.from(new FormData(form).entries()), ['hp_field_x7']),
           lead.getAttribution(),
         );
         data.submission_id = submissionId;

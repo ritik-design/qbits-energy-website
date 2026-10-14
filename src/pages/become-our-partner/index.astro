@@ -281,7 +281,7 @@ const indianStates = [
 
             <!-- Honeypot: visible to bots, hidden from humans + screen readers -->
             <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
-              <label>Don't fill this: <input type="text" id="website2" name="website2" tabindex="-1" autocomplete="off" /></label>
+              <label>Leave this empty: <input type="text" id="hp_field_x7" name="hp_field_x7" tabindex="-1" autocomplete="off" /></label>
             </div>
             <input type="hidden" name="sourcePage" id="sourcePage" />
 
@@ -426,7 +426,7 @@ const indianStates = [
       }
 
       // Honeypot - silently succeed for bots, never actually submit.
-      if ((form.elements.namedItem('website2') || {}).value) {
+      if ((form.elements.namedItem('hp_field_x7') || {}).value) {
         form.reset();
         showStatus(SUCCESS_MESSAGE, true);
         return;
@@ -438,7 +438,7 @@ const indianStates = [
         if (!submissionId) submissionId = lead.newSubmissionId(window.crypto);
         const data = Object.assign(
           { source: 'partner-form', page: location.pathname, submittedAt: new Date().toISOString() },
-          lead.collectFields(Array.from(new FormData(form).entries()), ['website2']),
+          lead.collectFields(Array.from(new FormData(form).entries()), ['hp_field_x7']),
           lead.getAttribution(),
         );
         data.submission_id = submissionId;

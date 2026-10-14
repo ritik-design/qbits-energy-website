@@ -135,7 +135,7 @@ const hybridDocs = [
             <input type="text" id="db-company" name="companyName" required maxlength="120" autocomplete="organization" class="w-full rounded-lg bg-white/95 text-slate-900 placeholder:text-slate-400 border-0 px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-300 outline-none" placeholder="Your company" />
           </div>
           <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
-            <label>Don't fill: <input type="text" id="db-website" name="website" tabindex="-1" autocomplete="off" /></label>
+            <label>Leave this empty: <input type="text" id="db-hp_field_x7" name="hp_field_x7" tabindex="-1" autocomplete="off" /></label>
           </div>
           <input type="hidden" name="subject" value="Datasheet bundle request" />
           <button type="submit" id="db-submit" class="w-full rounded-lg bg-white hover:bg-brand-50 text-brand-700 transition-colors px-4 py-3 text-sm font-bold">
@@ -200,7 +200,7 @@ const hybridDocs = [
             form.reportValidity();
             return;
           }
-          if ((form.elements.namedItem('website') || {}).value) {
+          if ((form.elements.namedItem('hp_field_x7') || {}).value) {
             form.reset();
             showStatus(SUCCESS_MESSAGE, true);
             return;
@@ -211,7 +211,7 @@ const hybridDocs = [
           try {
             if (!submissionId) submissionId = lead.newSubmissionId(window.crypto);
             const data = Object.assign(
-              lead.collectFields(Array.from(new FormData(form).entries()), ['website']),
+              lead.collectFields(Array.from(new FormData(form).entries()), ['hp_field_x7']),
               lead.getAttribution(),
             );
             data.submission_id = submissionId;

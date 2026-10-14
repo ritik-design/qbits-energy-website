@@ -11,6 +11,7 @@ import {
   isAllowedOrigin,
   isValidEmail,
   isValidPhone,
+  HONEYPOT_FIELD,
   readJsonObject,
   sanitizeFields,
 } from '../src/lib/lead-guard.ts';
@@ -369,4 +370,32 @@ test('postLead and postFormSubmit abort a hung request instead of spinning forev
   const fetchImpl = (url, init) => { seenSignal = init.signal; return Promise.resolve({ ok: true, json: async () => ({ success: true }) }); };
   assert.equal(await sandbox.QbLead.postLead(fetchImpl, {}), true);
   assert.ok(seenSignal && typeof seenSignal.aborted === 'boolean', 'an AbortSignal is passed to fetch');
+});
+
+test('honeypot is renamed off autofill-bait words, hidden off-screen from AT and tabbing, on all four forms', () => {
+  assert.equal(HONEYPOT_FIELD, 'hp_field_x7');
+  assert.equal(/name|mail|phone|company|url|website|address/i.test(HONEYPOT_FIELD), false);
+  for (const f of ['../src/pages/contact-us/index.astro', '../src/components/home/QuickLeadForm.astro', '../src/pages/download-datasheets/index.astro', '../src/pages/become-our-partner/index.astro']) {
+    const src = readFileSync(new URL(f, import.meta.url), 'utf8');
+    const m = src.match(/<div aria-hidden="true" style="([^"]*)">\s*<label>[^<]*<input type="text" id="[\w-]*hp_field_x7" name="hp_field_x7" tabindex="-1" autocomplete="off" \/><\/label>/);
+    assert.ok(m, `${f} has the renamed honeypot inside an aria-hidden wrapper with tabindex=-1 and autocomplete=off`);
+    assert.ok(m[1].includes('left:-10000px') && !/display\s*:\s*none/.test(m[1]), `${f} hides it off-screen, not display:none`);
+    assert.equal(/name="website2"|id="website2"/.test(src), false, `${f} no longer has website2`);
+    assert.ok(src.includes("namedItem('hp_field_x7')"), `${f} client check uses the new name`);
+    assert.ok(src.includes("['hp_field_x7']"), `${f} keeps it out of the payload`);
+  }
+});
+
+test('server: new honeypot trips; the old "website" name is an ordinary unknown field (cached HTML still submits)', () => {
+  assert.equal(honeypotTripped({ hp_field_x7: 'spam' }, [HONEYPOT_FIELD]), true);
+  assert.equal(honeypotTripped({}, [HONEYPOT_FIELD]), false, 'absent field is fine');
+  assert.equal(honeypotTripped({ website: 'https://old-cached-form.example', website2: 'x' }, [HONEYPOT_FIELD]), false, 'old names no longer trip the honeypot');
+  const lead = readFileSync(new URL('../src/pages/api/lead.ts', import.meta.url), 'utf8');
+  const sheet = readFileSync(new URL('../src/pages/api/datasheet-bundle.ts', import.meta.url), 'utf8');
+  assert.ok(lead.includes('honeypotTripped(body, [HONEYPOT_FIELD])'));
+  assert.ok(sheet.includes('honeypotTripped(parsed.body, [HONEYPOT_FIELD])'));
+  assert.equal(/honeypotTripped\([^)]*website/.test(lead + sheet), false);
+  assert.ok(lead.includes('if (!isPartnerForm) delete body.website;'), 'a stray website value on non-partner forms is dropped, never a 400');
+  assert.equal(/'website2'/.test(lead), false);
+  assert.equal(/'submission_id',\s*'website'/.test(sheet), false, 'datasheet allowlist no longer carries website');
 });

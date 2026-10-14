@@ -74,6 +74,9 @@ export async function readJsonObject(request: Request): Promise<BodyResult> {
   return { ok: true, body: parsed as Record<string, unknown> };
 }
 
+/** Name of the hidden anti-bot input on every lead form. Deliberately not a word autofill targets. */
+export const HONEYPOT_FIELD = 'hp_field_x7';
+
 /** Honeypot inputs are never filled by people; any truthy value (of any type) counts. */
 export function honeypotTripped(body: Record<string, unknown>, keys: string[]): boolean {
   return keys.some((key) => Boolean(body[key]));

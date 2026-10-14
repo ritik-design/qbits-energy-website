@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { env } from 'cloudflare:workers';
 import {
   cleanSubmissionId,
+  HONEYPOT_FIELD,
   honeypotTripped,
   isAllowedOrigin,
   isValidEmail,
@@ -224,7 +225,7 @@ function internalHtml(d: Record<string, string>) {
 
 // Only these keys are read from the request body.
 const ALLOWED_KEYS: ReadonlySet<string> = new Set([
-  'name', 'email', 'phone', 'companyName', 'page', 'submittedAt', 'submission_id', 'website',
+  'name', 'email', 'phone', 'companyName', 'page', 'submittedAt', 'submission_id',
 ]);
 const CAPS: Record<string, number> = { name: 120, email: 254, phone: 30, companyName: 200 };
 
@@ -239,7 +240,7 @@ export const POST: APIRoute = async ({ request }) => {
   if (!parsed.ok) return jsonResponse(parsed.status, { success: false, message: parsed.message });
 
   // Honeypot: silently succeed for bots.
-  if (honeypotTripped(parsed.body, ['website'])) {
+  if (honeypotTripped(parsed.body, [HONEYPOT_FIELD])) {
     return jsonResponse(200, { success: true });
   }
 

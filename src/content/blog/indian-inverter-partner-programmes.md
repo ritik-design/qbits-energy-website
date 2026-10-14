@@ -35,6 +35,14 @@ faqs:
 
 This review compares current official pages from Qbits, Luminous, Servotech, Spectra Solar Power, Waaree, and UTL. Their models are not interchangeable. Some are product-resale routes. Some combine installation and service. Spectra describes a lead-generation model in which its own team handles technical execution, so it is included as a boundary case rather than labelled an inverter dealership.
 
+> [!KEYTAKEAWAYS]
+> - No public page can identify the best partner programme for every business. Compare what role you apply for, what work you perform, what the first application asks, what support is described and what stays unknown until written terms arrive.
+> - Six programmes (Qbits, Luminous, Servotech, Spectra Solar Power, Waaree, UTL) were compared on the same six dimensions using official pages checked on 26 September 2026. Reliability, profitability and programme quality were not scored.
+> - Match the operating model first: Spectra describes a lead-generation model in which its own team handles technical execution, so it is not an inverter dealership.
+> - Send every shortlisted programme the same due-diligence sheet and mark each row verified, clarification required or unacceptable.
+> - A webpage benefit such as training, leads or territory must become an owner, deliverable, condition and record in the contract.
+
+> [!NOTE] Disclosure
 > **Disclosure:** Qbits Energy publishes this article and recruits channel partners. Qbits is compared on the same criteria as every other named brand. We read public pages, not private agreements or partner results. Where a cell says a term is not stated, the public source did not give it.
 
 ## How we selected and compared the programmes
@@ -53,6 +61,8 @@ Every programme was tested on the same six dimensions:
 We did not score reliability, profitability, brand value, or programme quality. The public pages do not provide comparable outcome data for those claims. We also excluded testimonials, directory listings, search snippets, and third-party franchise estimates from the comparison.
 
 ## Programme structure at a glance
+
+Table: Programme structure at a glance for six official partner pages, comparing role, first route, support and decision gap
 
 | Official programme page | Public role or model | What the first route reveals | Publicly described support | Main decision gap |
 | --- | --- | --- | --- | --- |
@@ -119,6 +129,8 @@ The pages are marketing-led and include several commercial claims. This comparis
 
 The biggest mistake is comparing programme headlines before confirming that the roles are equivalent.
 
+Table: Which public route to investigate first for each intended business model
+
 | Your intended business | Public routes worth investigating first | Why |
 | --- | --- | --- |
 | Buy and resell inverter products | Qbits Dealer or Distributor, Servotech Dealership or Distributorship, UTL Dealership or Distributorship, or the relevant Luminous appointment | These routes at least begin from product-channel intent; exact stock and resale rights still need confirmation |
@@ -134,6 +146,8 @@ These are route-fit observations, not programme endorsements. A suitable label c
 
 Send the same blank sheet to every shortlisted programme. Do not let one brand answer in a brochure while another answers in a contract.
 
+Table: Due-diligence sheet to send to every shortlisted programme, by decision area
+
 | Decision area | Exact evidence to request |
 | --- | --- |
 | Appointment | Contracting legal entities, role name, start condition, approval evidence, and authorised activities |
@@ -147,7 +161,8 @@ Send the same blank sheet to every shortlisted programme. Do not let one brand a
 | Installation and service | Survey, design, commissioning, warranty intake, field work, parts, labour, travel, escalation, and customer communication |
 | Exit | Term, renewal, termination, notice, open orders, remaining stock, receivables, customer records, brand use, and continuing warranty duties |
 
-Mark each row `verified`, `clarification required`, or `unacceptable`. Leave missing evidence blank. A zero, average score, or optimistic assumption makes an incomplete programme look more comparable than it is.
+> [!TIP] Leave missing evidence blank
+> Mark each row `verified`, `clarification required`, or `unacceptable`. Leave missing evidence blank. A zero, average score, or optimistic assumption makes an incomplete programme look more comparable than it is.
 
 ## More published benefits do not automatically mean a stronger programme
 
@@ -167,6 +182,9 @@ If a benefit cannot be translated into an owner, deliverable, condition, and rec
 
 First decide whether you want product resale, distribution, retail, project execution, or lead generation. Then request the same evidence pack from each relevant programme and compare only equivalent roles.
 
-If the Qbits Dealer, Distributor, EPC, or System Integrator route fits your operating model, complete the [Qbits channel partner application](/become-our-partner/) with accurate current information. Submission begins a review. It does not guarantee appointment, margin, credit, territory, leads, stock terms, or approval by a particular date.
+If the Qbits Dealer, Distributor, EPC, or System Integrator route fits your operating model, complete the [Qbits channel partner application](/become-our-partner/) with accurate current information.
+
+> [!IMPORTANT] Applying is not appointment
+> Submission begins a review. It does not guarantee appointment, margin, credit, territory, leads, stock terms, or approval by a particular date.
 
 **Official sources checked 26 September 2026:** Qbits partner application; Luminous Become a Partner; Servotech Solar Dealership and Distributorship; Spectra Solar Power Channel Partner; Waaree Partner Network; and UTL Dealership, Distributorship, and Solar Shoppe pages.

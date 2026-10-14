@@ -61,6 +61,12 @@ author: Nirav Dhanani
 
 At the same active power, a lower PF generally means more current and greater loading of cables, transformers or an inverter. It does not mean that “20% of the electricity is wasted” in the 0.8 example. Reactive power and losses are distinct quantities.
 
+> [!KEYTAKEAWAYS]
+> - Power factor is active power (kW) divided by apparent power (kVA). At 5 kVA and 4 kW, PF is 0.8.
+> - A lower PF means more current for the same kW, which loads cables, transformers and inverters. It does not mean that 20% of the electricity is wasted.
+> - A solar inverter can help within its kVA limit and the approved settings, but it is not a universal substitute for capacitor banks.
+> - Billing, penalties and any reactive-power range come from the state tariff order and the connection approval, not a national rule.
+
 ## Power factor explained simply
 
 Imagine pulling a boat along a canal from the bank with a rope. Only the part of your pull that points along the canal moves the boat, and the sideways part strains the rope without moving anything. Active power is the along-the-canal pull. Reactive power is the sideways pull. Apparent power is the total pull on the rope. Power factor tells you how much of the total is useful.
@@ -75,7 +81,8 @@ Active power (P, in kW), reactive power (Q, in kVAR) and apparent power (S, in k
 - **PF = P ÷ S = cos φ** for sinusoidal waveforms, where φ is the phase angle between voltage and current
 - **Q = S × sin φ**
 
-**Checked example.** A load draws 40 kW at a power factor of 0.8. Then S = 40 ÷ 0.8 = **50 kVA**, and Q = √(50² − 40²) = √900 = **30 kVAR**. If compensation brings Q down to 10 kVAR with the same 40 kW, S becomes √(40² + 10²) = about **41.2 kVA** and PF rises to 40 ÷ 41.2 = about **0.97**. The current falls in proportion to S, from 50 to 41.2 units. These are arithmetic examples, not metered site data.
+> [!EXAMPLE] Checked example
+> A load draws 40 kW at a power factor of 0.8. Then S = 40 ÷ 0.8 = **50 kVA**, and Q = √(50² − 40²) = √900 = **30 kVAR**. If compensation brings Q down to 10 kVAR with the same 40 kW, S becomes √(40² + 10²) = about **41.2 kVA** and PF rises to 40 ÷ 41.2 = about **0.97**. The current falls in proportion to S, from 50 to 41.2 units. These are arithmetic examples, not metered site data.
 
 ## Leading, lagging and waveform distortion
 
@@ -92,6 +99,8 @@ For ideal sinusoidal waveforms, displacement PF relates to the phase angle as **
 
 ## What does it mean for a solar project?
 
+Table: Power factor decisions in a solar project
+
 | Situation | Decision to make |
 | --- | --- |
 | Equipment sizing | Check continuous kW and kVA ratings at the intended PF |
@@ -99,15 +108,19 @@ For ideal sinusoidal waveforms, displacement PF relates to the phase angle as **
 | Inverter reactive support | Verify product capability and utility-approved settings |
 | Low metered PF | Measure the site loads and compensation arrangement before changing controls |
 
-Do not assume a solar inverter can replace capacitor banks, fix an entire plant's bill or operate at a universal PF setpoint.
+> [!WARNING] An inverter is not a capacitor bank
+> Do not assume a solar inverter can replace capacitor banks, fix an entire plant's bill or operate at a universal PF setpoint.
 
 ## Inverter reactive capability: a worked example
 
 An inverter's output current limit is set by its apparent power S. Whatever S it cannot use for active power is available for reactive power:
 
-**Q available = √(S² − P²)**
+> [!FORMULA] Reactive power available from an inverter
+> Q available = √(S² − P²)
 
 Take the Qbits QB-6KTLC three-phase model, whose datasheet lists 6,000 W rated output and 6.6 kVA maximum output power, with a power factor above 0.99 under rated power and an adjustable range of 0.8 leading to 0.8 lagging (checked October 2026). If the 6.6 kVA limit is what governs:
+
+Table: Reactive power available from a 6.6 kVA inverter at two active-power levels
 
 | Active power P | Reactive power available | Resulting PF at that point |
 | --- | --- | --- |
@@ -117,6 +130,8 @@ Take the Qbits QB-6KTLC three-phase model, whose datasheet lists 6,000 W rated o
 So running at a 0.8 power factor can reduce the active power the inverter may deliver at that moment, compared with its rating at unity power factor. Confirm the exact derating behaviour with the manufacturer. The same arithmetic applies to any model, but the figures belong to that model's datasheet.
 
 ## Power factor correction methods
+
+Table: Power factor correction methods compared
 
 | Method | Strength | Limitation |
 | --- | --- | --- |
@@ -162,6 +177,8 @@ State commissions set power-factor thresholds, incentives and penalties in tarif
 For Qbits models, obtain the current [product datasheet](/download-datasheets/) and site requirements before setting reactive controls. The [on-grid inverter range](/on-grid-inverter/) page lists the models, and the [C&I solutions](/c-i-solution/) page covers commercial projects. See also the [reactive power](/glossary/reactive-power/) entry.
 
 ## Standards and references
+
+Table: Tariff, grid and unit references for power factor
 
 | Reference | Scope |
 | --- | --- |

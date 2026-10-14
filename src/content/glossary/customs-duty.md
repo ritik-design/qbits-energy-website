@@ -5,7 +5,7 @@ description: "Customs duty on imported solar equipment is 40 percent BCD on modu
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - customs duty solar
   - bcd solar
@@ -72,7 +72,7 @@ author: "Nirav Dhanani"
 
 Basic Customs Duty (BCD) is the import tax applied to solar equipment entering India. The current 40 percent BCD on solar PV modules, imposed in April 2022, is a major Indian trade policy supporting domestic solar manufacturing, discussed in more depth in our [BCD and import duty guide for solar inverters](/blog/bcd-import-duty-solar-inverters-india/). Combined with Social Welfare Surcharge and IGST on imports, the total import burden adds approximately 50-65 percent to invoice value at landed cost.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Basic Customs Duty on solar imports is 40 percent on modules, 25 percent on cells and 7.5 percent on inverters, in force since April 2022.
 > - Add Social Welfare Surcharge and IGST and the total landed cost runs 50 to 65 percent above invoice value.
 > - Projects built with imported modules see a 15 to 25 percent capex increase compared with ALMM-listed Indian modules.
@@ -104,17 +104,21 @@ Pricing of Indian modules. Domestic prices can rise to imports, duty without los
 
 ## Total import burden calculation
 
-For ₹10 invoice value of imported module:
-- Basic Customs Duty (40%): ₹4.00
-- Social Welfare Surcharge (10% of BCD): ₹0.40
-- [IGST](/glossary/gst-on-solar/) (5% of total, modules are named at Schedule I entry 437): ₹0.72
-- Total landed: ₹15.12
+> [!EXAMPLE] Landed cost of a ₹10 imported module
+> - Basic Customs Duty (40%): ₹4.00
+> - Social Welfare Surcharge (10% of BCD): ₹0.40
+> - [IGST](/glossary/gst-on-solar/) (5% of total, modules are named at Schedule I entry 437): ₹0.72
+> - Total landed: ₹15.12
+>
+> Effective duty: 51% over invoice value.
 
-Effective duty: 51% over invoice value.
+The ₹10 figure is the invoice value of the imported module.
 
 ## Technical deep dive
 
 ### Customs duty by item
+
+Table: Basic Customs Duty (BCD) rates on solar equipment
 
 | Equipment | BCD rate |
 |---|---|
@@ -133,6 +137,9 @@ Effective duty: 51% over invoice value.
 ### Project cost impact
 
 For 1 MW utility solar with imported modules:
+
+Table: Cost impact of customs duty on a 1 MW utility plant using imported modules
+
 | Component | Pre-customs | With customs | Increase |
 |---|---|---|---|
 | Modules (₹/W) | 18 | 30 | +67% |
@@ -140,6 +147,8 @@ For 1 MW utility solar with imported modules:
 | LCOE increase | Baseline | +20% | n/a |
 
 ### Indian module manufacturing response
+
+Table: Indian module manufacturing capacity, 2020 to 2026 target
 
 | Year | Indian module capacity (GW/year) |
 |---|---|
@@ -151,6 +160,8 @@ For 1 MW utility solar with imported modules:
 PLI Phase I and II investments driving rapid expansion.
 
 ### Exemptions and special schemes
+
+Table: Customs duty exemptions and special schemes
 
 | Scheme | Exemption |
 |---|---|
@@ -198,6 +209,8 @@ Cell manufacturing still ramping; some imports continue.
 Future BCD reviews likely as domestic capacity stabilises.
 
 ## Standards and certifications
+
+Table: Legal and policy references behind customs duty on solar
 
 | Standard | Scope |
 |---|---|

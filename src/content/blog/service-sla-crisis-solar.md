@@ -4,7 +4,7 @@ excerpt: "India's solar service SLA crisis is real: average fault resolution tak
 description: "A founder's view on India's solar service SLA crisis: no declared SLAs, 3–8 week resolution times, and why MNRE must mandate service standards now."
 category: "Industry"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-service-sla-crisis-solar.webp"
 author: "Nirav Dhanani"
@@ -47,6 +47,13 @@ During those forty-one days, the homeowner's electricity bill arrived from the [
 
 That message is not unusual. I hear versions of it every week. And as someone building a solar inverter brand in India, I believe the solar service SLA crisis is one of the most serious structural problems our industry is choosing not to talk about, until it becomes a consumer-trust collapse that sets the entire market back by years.
 
+> [!KEYTAKEAWAYS]
+> - The fault-to-fix pipeline for a residential inverter has nine stages and no mandated time limit at any of them, which is why the post describes resolution as taking weeks.
+> - Downtime costs more than lost generation: DISCOM billing and loan EMI continue, net metering credit erodes and the installer's reputation takes the hit.
+> - The post proposes a 5-Gate Solar Service SLA Standard: acknowledgement in 2 business hours, remote diagnosis in 24 business hours, on-site visit within three days of diagnosis, part dispatch in 48 hours and restoration in 7 calendar days.
+> - Before committing to a brand, EPCs should ask for a written SLA with a penalty clause, proof of regional service, replacement versus repair terms, digital fault logging and a TCO that includes service.
+> - Qbits' public material does not state technician coverage, replacement remedy or service response targets, so obtain them in writing for the exact model.
+
 > **The solar service SLA problem in plain terms.** Most Indian solar inverter brands have no declared service SLA. Average fault resolution takes 3–8 weeks from fault report to system restoration. Tier-2 and Tier-3 cities (which account for the majority of PM Surya Ghar installations) have no local service infrastructure. Every day of downtime costs the buyer lost generation, continued DISCOM bills, and loan payments on a non-generating asset. The industry needs declared SLAs with financial penalties, regional service density requirements, and MNRE minimum service standards, and it needs them before the market reaches 50 million rooftop installations and the problem becomes irreversible.
 
 ## The Scale of the Problem: What the Numbers Actually Show
@@ -65,6 +72,7 @@ To understand why service resolution takes so long, it helps to trace the exact 
 
 The typical service pipeline for a residential solar inverter in India looks like this:
 
+<!-- steps -->
 1. **Fault occurs**: the inverter trips or shows an error code. The homeowner may not notice immediately, particularly if there is no monitoring.
 2. **Fault reported**: the homeowner calls the installer or the brand helpline. If the brand does not have active monitoring, this step depends entirely on the homeowner. Average reporting lag: 1–5 days.
 3. **Ticket logged**: the brand's helpline logs a ticket. If it is outside business hours or a weekend, the ticket enters the queue the next business day. Average acknowledgement time: 1–3 business days.
@@ -100,6 +108,14 @@ Before we talk about solutions, it is worth being honest about why the service c
 
 The Indian solar inverter market has three tiers of brands:
 
+Table: The three tiers of inverter brands in India, by manufacturing, service set-up and declared SLA
+
+| Tier | Who | Service set-up | Declared SLA |
+| --- | --- | --- | --- |
+| Tier 1 | Global brands such as Sungrow, Fronius and SMA | Own manufacturing; direct service offices in major Indian cities; regional spare-parts hubs; factory-trained field engineers | Declared in enterprise contracts |
+| Tier 2 | Established Indian brands that manufacture or assemble with significant local value-add | National dealer network with some service capability; spare parts depend on dealer inventory | Rarely declared in writing; "reasonable time" language |
+| Tier 3 | Assemblers competing on price, 15-25% cheaper than Tier 2 at the point of sale | No owned service | None; gap appears 18-24 months after installation |
+
 ### Tier 1: Owned Manufacturing with Owned Service
 
 This tier includes global brands like Sungrow, Fronius, and SMA, which own their manufacturing and maintain direct service offices in major Indian cities. They have declared SLA commitments in their enterprise contracts, hold spare-parts inventory in regional hubs, and employ factory-trained field engineers. Their service is not fast by global standards (the India network remains thin relative to their global infrastructure) but it is structured, accountable, and improving.
@@ -115,6 +131,16 @@ These assembler brands compete primarily on price. They are 15–25% cheaper tha
 ## The 5-Gate Solar Service SLA Standard
 
 Having thought about this problem as both a builder and an observer, I believe the industry needs a clear, auditable framework for what a legitimate solar service SLA looks like. I call this the **5-Gate Solar Service SLA Standard**.
+
+Table: The 5-Gate Solar Service SLA Standard at a glance, with the time limit set for each gate
+
+| Gate | What must happen | Time limit |
+| --- | --- | --- |
+| 1. Ticket acknowledgement | Ticket formally acknowledged, with a ticket number issued | Within 2 business hours of submission |
+| 2. Remote diagnosis | Remote diagnosis completed; if impossible, technician dispatched to site | 24 business hours from acknowledgement; 48 business hours for dispatch |
+| 3. On-site technician visit | Factory-trained or authorised technician on site | Within three days of remote diagnosis confirming a physical fault |
+| 4. Replacement or part dispatch | Replacement unit or required part dispatched from the brand's warehouse | Within 48 hours of diagnosis confirmation |
+| 5. System restoration | Full rated generation restored, or per-day generation credit issued | Within 7 calendar days of original ticket |
 
 ### Gate 1: Ticket Acknowledgement
 
@@ -158,7 +184,8 @@ A buyer in Indore or Coimbatore deserves to know, before purchasing, how many da
 
 Warranty documents issued by solar inverter brands should be required to include a financial penalty provision for SLA breach, calculated as a per-day generation credit at the DISCOM tariff rate. This provision already exists in analogous frameworks in Germany and Australia - [SolarPower Europe's O&M Best Practice Guidelines](https://www.solarpowereurope.org/) document the per-day penalty model used across EU solar installations. It is enforceable under the Consumer Protection Act 2019 if the warranty document specifies it. The barrier is not legal, it is the industry's reluctance to commit to accountability in writing.
 
-EPCs should begin requiring this provision in their supplier contracts now, before it becomes mandatory. A brand that refuses to include a penalty clause in a written SLA is signalling that it does not expect to meet the SLA it is verbally promising.
+> [!TIP] Ask for the penalty clause now
+> EPCs should begin requiring this provision in their supplier contracts now, before it becomes mandatory. A brand that refuses to include a penalty clause in a written SLA is signalling that it does not expect to meet the SLA it is verbally promising.
 
 ## The Homeowner's Perspective: Why Trust Is at Stake
 
@@ -176,13 +203,16 @@ For EPC installers reading this, the after-sales service SLA is not just a homeo
 
 Before committing your next project to any brand, apply this checklist:
 
-- **Declared SLA in writing**: not a verbal promise from the sales rep, not a marketing brochure claim. A written, signed document with specific time commitments and a penalty clause.
-- **Proof of regional service infrastructure**: the brand should be able to show you the number of authorised service centres within 150 km of your primary project geography, and confirm the spare-parts inventory held at the nearest regional warehouse.
-- **Replacement vs repair warranty**: a [replacement warranty](/blog/solar-inverter-warranty/) means a new unit is dispatched; a repair warranty means the same ageing unit returns after a 4–8 week repair cycle. Replacement is the only model that protects your installation timeline and the homeowner's generation continuity.
-- **WhatsApp or digital fault logging**: brands without digital fault logging will always have a reporting lag of 1–3 days before the fault enters the service pipeline. In a 72-hour SLA model, that lag is unacceptable.
-- **Total cost of ownership analysis**: the [inverter total cost of ownership](/blog/inverter-tco/) calculation must include estimated service costs over the warranty period, not just the purchase price. A brand 15% cheaper at purchase that delivers 6-week service resolution times is almost always more expensive over 12 years.
+> [!CHECKLIST] EPC checklist before committing to a brand
+> - **Declared SLA in writing**: not a verbal promise from the sales rep, not a marketing brochure claim. A written, signed document with specific time commitments and a penalty clause.
+> - **Proof of regional service infrastructure**: the brand should be able to show you the number of authorised service centres within 150 km of your primary project geography, and confirm the spare-parts inventory held at the nearest regional warehouse.
+> - **Replacement vs repair warranty**: a [replacement warranty](/blog/solar-inverter-warranty/) means a new unit is dispatched; a repair warranty means the same ageing unit returns after a 4–8 week repair cycle. Replacement is the only model that protects your installation timeline and the homeowner's generation continuity.
+> - **WhatsApp or digital fault logging**: brands without digital fault logging will always have a reporting lag of 1–3 days before the fault enters the service pipeline. In a 72-hour SLA model, that lag is unacceptable.
+> - **Total cost of ownership analysis**: the [inverter total cost of ownership](/blog/inverter-tco/) calculation must include estimated service costs over the warranty period, not just the purchase price. A brand 15% cheaper at purchase that delivers 6-week service resolution times is almost always more expensive over 12 years.
 
 ## The Verdict: What Has to Change and When
+
+Table: Service SLA issues, the current state as the post describes it and what is needed
 
 | Issue | Current State | What Is Needed |
 | --- | --- | --- |

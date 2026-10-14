@@ -37,11 +37,21 @@ In this documented 5 kW shortlist, Qbits QB-5KTLS publishes the widest numerical
 
 Those are manufacturer-published specifications, not permission to widen protection thresholds. The approved country profile, exact model manual, DISCOM condition, and commissioning record still control how a unit may be set.
 
-**Disclosure:** Qbits publishes this guide and sells the QB-5KTLS. We did not laboratory-test these products or compare field failure rates. Current India availability, service response, warranty remedy, approval status, and reliability remain unverified unless a current exact-model document states them.
+> [!KEYTAKEAWAYS]
+> - The best inverter for a weak grid is the exact model whose permitted AC operating range fits measured site conditions and the approved grid profile. There is no universal winner.
+> - Published AC ranges in this 5 kW shortlist: GoodWe GW5000-DNS-30 196 to 311 V, Qbits QB-5KTLS 90 to 290 Vac adjustable, Sungrow SG5.0RS-L 154 to 276 V. The Solis flyer states no comparable range.
+> - A wider published range is not permission to widen protection thresholds. The approved country profile, model manual, DISCOM condition and commissioning record control the setting.
+> - The MPPT range is a DC number for string design and cannot substitute for the AC grid range.
+> - A weak grid is not an outage. A standard on-grid inverter stops during a cut by design, so load shedding needs a hybrid and battery decision instead.
+
+> [!NOTE] Disclosure
+> Qbits publishes this guide and sells the QB-5KTLS. We did not laboratory-test these products or compare field failure rates. Current India availability, service response, warranty remedy, approval status, and reliability remain unverified unless a current exact-model document states them.
 
 ## The shortlist and verdicts
 
 The table uses exact 5 kW, single-phase, on-grid models. It compares only the AC-side data relevant to a weak or fluctuating grid. A published range does not mean that every value inside it is permitted on your connection.
+
+Table: Four exact 5 kW single-phase on-grid models compared on published AC-side data
 
 | Exact model | Conditional best fit | Published AC-side data | Limit |
 | --- | --- | --- | --- |
@@ -49,6 +59,18 @@ The table uses exact 5 kW, single-phase, on-grid models. It compares only the AC
 | Qbits QB-5KTLS | The broadest documented numerical AC span in this four-model set | Grid voltage range of 90 to 290 Vac, marked adjustable; grid frequency range of 45 to 55 Hz or 55 to 65 Hz | The sheet does not publish the adjustment procedure, grid-profile matrix, or complete written warranty terms |
 | Solis S6-GR1P5K-S | A shortlist that requires an explicit manufacturer weak-grid feature statement | “Smart grid compatibility” that “maintains stable generation under weak grid conditions” | The flyer gives no comparable AC operating range, so it cannot win the numerical range comparison |
 | Sungrow SG5.0RS-L | A documented middle range with an accessible detailed manual | AC voltage range of 154 to 276 V; grid frequency range of 45 to 55 Hz or 55 to 65 Hz | Global documents do not confirm current India availability, local approval, or field performance |
+
+```chart
+type: hbar
+title: Published AC voltage operating range, 5 kW single-phase models (V)
+unit: "V"
+source: "Manufacturer datasheets checked 26 September 2026: GoodWe DNS G3 (GW5000-DNS-30), Qbits QB-4.6/5/6KTLS family datasheet (QB-5KTLS), Sungrow SG4.0/5.0/6.0RS-L datasheet"
+note: "Bars span the published low to high value. Solis S6-GR1P5K-S is omitted because its flyer gives no comparable AC voltage range. A published range is not a permitted setting."
+data:
+  - { label: "GoodWe GW5000-DNS-30", min: 196, max: 311 }
+  - { label: "Qbits QB-5KTLS (adjustable)", min: 90, max: 290 }
+  - { label: "Sungrow SG5.0RS-L", min: 154, max: 276 }
+```
 
 There is no honest universal winner. Qbits has the widest published span here, GoodWe has the highest published upper boundary, Sungrow supplies a clear range and detailed manual, and Solis supplies a weak-grid positioning statement without the comparable number needed for a range verdict.
 
@@ -81,6 +103,8 @@ Maximum Power Point Tracking, or MPPT, operates on the DC electricity coming fro
 For example, the Qbits QB-5KTLS sheet publishes both a 40 to 600 V MPPT range and a 90 to 290 Vac grid range. The first number helps an installer design the panel string. The second is the relevant published AC range for this article. Neither number replaces protection settings or a grid-connection requirement.
 
 Use this quick check when reading a datasheet:
+
+Table: Datasheet labels, which side of the inverter they describe and what each helps decide
 
 | Label in the document | Side | What it helps decide |
 | --- | --- | --- |
@@ -123,6 +147,8 @@ The manual improves traceability, but it does not show better field reliability.
 
 A range comparison becomes useful only after the site condition is documented. Ask a qualified installer or electrical professional to create a short grid-condition record.
 
+Table: Grid-condition record to collect before choosing, and why each item matters
+
 | Record | Why it matters |
 | --- | --- |
 | Voltage at the point of connection | Establishes the incoming condition |
@@ -134,28 +160,31 @@ A range comparison becomes useful only after the site condition is documented. A
 | Model and firmware version | Selects the correct manual and grid profile |
 | Recent meter, wiring, transformer, or commissioning work | Identifies a possible change point |
 
-Do not take live measurements or open an inverter, distribution board, or sealed meter enclosure unless qualified and authorised. Owners can safely preserve screen messages, app timestamps, and visible operating data for the service handoff.
+> [!CAUTION] Do not open enclosures or take live readings
+> Do not take live measurements or open an inverter, distribution board, or sealed meter enclosure unless qualified and authorised. Owners can safely preserve screen messages, app timestamps, and visible operating data for the service handoff.
 
 ## The documents to request with the quote
 
 Ask every shortlisted seller for the same documents:
 
-1. Exact model number and suffix on the commercial quote.
-2. Current datasheet and installation manual for that exact family.
-3. AC operating range, separate from the DC MPPT range.
-4. Approved India grid profile and the settings permitted for the connection.
-5. Overvoltage, undervoltage, frequency, anti-islanding, and reconnect documentation.
-6. Firmware version and authorised update procedure.
-7. Event-log and monitoring capability, including how the owner exports evidence.
-8. Current certificate or test report naming the exact covered model.
-9. Written warranty issuer, term, remedy, exclusions, labour, freight, and registration rules.
-10. Named service route for the installation pincode, without assuming a response time.
+> [!CHECKLIST] Documents to request with the quote
+> - Exact model number and suffix on the commercial quote.
+> - Current datasheet and installation manual for that exact family.
+> - AC operating range, separate from the DC MPPT range.
+> - Approved India grid profile and the settings permitted for the connection.
+> - Overvoltage, undervoltage, frequency, anti-islanding, and reconnect documentation.
+> - Firmware version and authorised update procedure.
+> - Event-log and monitoring capability, including how the owner exports evidence.
+> - Current certificate or test report naming the exact covered model.
+> - Written warranty issuer, term, remedy, exclusions, labour, freight, and registration rules.
+> - Named service route for the installation pincode, without assuming a response time.
 
 The [grid-settings verification guide](/blog/tuning-inverters-indian-grid/) explains how an installer should turn these documents into a commissioning record. A datasheet range is the start of the review, not the final setting.
 
 ## What owners and installers must not change
 
-Do not raise a trip threshold, select another country profile, disable anti-islanding, or apply an undocumented firmware setting merely to keep the inverter online. A setting change can hide the cause and conflict with the approved connection.
+> [!WARNING] Do not change settings just to stay online
+> Do not raise a trip threshold, select another country profile, disable anti-islanding, or apply an undocumented firmware setting merely to keep the inverter online. A setting change can hide the cause and conflict with the approved connection.
 
 A qualified investigation should first distinguish:
 

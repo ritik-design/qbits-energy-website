@@ -5,7 +5,7 @@ description: "Site survey is the pre-installation assessment of a solar site. Fu
 category: "Installation"
 categorySlug: "installation"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is site survey
   - solar site survey
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 A site survey is the systematic on-site assessment of a proposed solar installation location. It evaluates roof or ground area, structural capacity, [shading patterns](/glossary/shading-analysis/), electrical infrastructure, sanctioned load, accessibility, regulatory feasibility and customer requirements. For complex commercial or ground-mount projects, EPCs often bring in professional site survey and land feasibility services to validate technical viability before a contract is signed. The survey produces a feasibility report that forms the basis for system design, quotation and [DISCOM application](/glossary/discom/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A site survey is the on-site assessment of roof or land area, structural capacity, shading, electrical infrastructure and regulatory feasibility done before solar design begins.
 > - Residential surveys take 1 to 4 hours, C&I surveys 4 to 8 hours, and utility-scale surveys 1 to 5 days.
 > - The survey output is a feasibility report used for system design, quotation and net metering applications with the DISCOM.
@@ -96,6 +96,8 @@ Compliance verification. CEIG and DISCOM rules vary by site type.
 
 ## Site survey components
 
+Table: What a site survey collects
+
 | Component | Information collected |
 |---|---|
 | Site location | Address, GPS coordinates |
@@ -114,6 +116,10 @@ Compliance verification. CEIG and DISCOM rules vary by site type.
 
 ### Residential rooftop survey checklist
 
+> [!TIP] Shading is the survey's biggest blind spot
+> Identify shading from the sun path between 9 am and 4 pm, and observe at 2 to 3 hour intervals if possible. Skipping winter shading observation and inadequate shading documentation both appear on the page's problem lists, and both lead to underperformance.
+
+<!-- steps -->
 1. Verify ownership and society NOC.
 2. Measure usable roof area.
 3. Photograph all four orientations and the centre.
@@ -128,6 +134,8 @@ Compliance verification. CEIG and DISCOM rules vary by site type.
 ### Drone survey (large rooftops and ground-mount)
 
 For large or complex sites, many EPCs supplement the manual walkthrough with a [satellite roof measurement](/blog/satellite-roof-measurement-solar/) pass or a dedicated 3D pre-design site modeling service that combines drone capture with CAD-ready outputs.
+
+Table: Drone survey stages and what each produces
 
 | Stage | Output |
 |---|---|
@@ -145,7 +153,12 @@ Roof load assessment for residential RCC:
 
 Typical RCC residential roofs comfortably handle this. Old houses, metal sheet roofs and asbestos roofs need structural engineering review.
 
+> [!CAUTION] Do not add the wind load to the dead load
+> Wind load is a pressure (1.2 to 1.5 kN/m² is roughly 120 to 150 kg-force per m²) acting mainly as uplift on the structure, so it is not a simple addition to the 12 to 15 kg/m² panel and structure weight. Have an engineer confirm the loads on old RCC, metal sheet and asbestos roofs before installation.
+
 ### Electrical infrastructure check
+
+Table: Electrical checks during a site survey
 
 | Parameter | What to verify |
 |---|---|
@@ -204,6 +217,8 @@ Use drone surveys for large or complex sites.
 
 ## Comparison: residential vs C&I vs utility surveys
 
+Table: Residential, C&I and utility site surveys compared
+
 | Aspect | Residential | C&I | Utility |
 |---|---|---|---|
 | Duration | 1 to 4 hours | 4 to 8 hours | 1 to 5 days |
@@ -224,6 +239,8 @@ Drone surveys are increasingly common for C&I rooftops and ground-mount plants.
 State agencies under PM-KUSUM conduct site surveys for agricultural solar.
 
 ## Standards and certifications
+
+Table: Guidelines and procedures that feed a site survey
 
 | Standard | Scope |
 |---|---|

@@ -5,7 +5,7 @@ description: "Round trip efficiency measures battery storage energy loss. Full g
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - round trip efficiency
   - battery rte
@@ -78,7 +78,7 @@ For [LFP](/glossary/lfp-battery/) cells, cell-level RTE is 92-95 percent. System
 
 For Indian solar storage, RTE directly impacts storage economics. Higher RTE means more usable energy per kWh of battery capacity, lower Levelised Cost of Storage (LCOS) and faster payback. RTE is one of the key metrics for storage system selection alongside [cycle life](/glossary/cycle-life/) and [calendar life](/glossary/calendar-life/).
 
-> **TL;DR**
+> [!NOTE] In short
 > - Round-trip efficiency (RTE) is energy out divided by energy in, expressed as a percentage.
 > - LFP cell-level RTE is 92 to 95 percent; system-level RTE (including inverter and BMS losses) drops to 85 to 92 percent.
 > - Lead acid RTE is much lower, at 75 to 85 percent cell-level and 65 to 80 percent system-level.
@@ -101,6 +101,8 @@ EMS optimisation. RTE affects best dispatch strategy.
 
 [Lithium-ion batteries](/glossary/lithium-ion-battery/) clear [lead acid](/glossary/lead-acid-battery/) by a wide margin here, one of the main reasons LFP has displaced lead acid in most new Indian solar storage deployments.
 
+Table: Cell-level and system-level round-trip efficiency by battery chemistry
+
 | Chemistry | Cell RTE | System RTE |
 |---|---|---|
 | LFP | 92-95% | 85-92% |
@@ -115,6 +117,8 @@ EMS optimisation. RTE affects best dispatch strategy.
 
 ### RTE losses breakdown (LFP residential storage)
 
+Table: Approximate RTE loss components in LFP residential storage
+
 | Loss component | Approximate share |
 |---|---|
 | Cell internal resistance | 3-5% |
@@ -128,6 +132,8 @@ EMS optimisation. RTE affects best dispatch strategy.
 
 ### Factors affecting RTE
 
+Table: Factors that raise or lower RTE
+
 | Factor | Effect |
 |---|---|
 | [C-rate](/glossary/c-rate/) (charge/discharge speed) | Higher C = lower RTE |
@@ -140,6 +146,9 @@ EMS optimisation. RTE affects best dispatch strategy.
 ### C-rate impact on RTE
 
 For LFP at 25°C:
+
+Table: LFP round-trip efficiency by C-rate at 25°C
+
 | C-rate | RTE |
 |---|---|
 | C/10 (very slow) | 95% |
@@ -151,9 +160,12 @@ Stationary applications typically operate at C/3 to C/5 for optimal RTE.
 
 ### System-level vs cell-level
 
-System RTE = Cell RTE × PCS efficiency (charge) × PCS efficiency (discharge) × BMS overhead
+> [!FORMULA]
+> System RTE = Cell RTE × PCS efficiency (charge) × PCS efficiency (discharge) × BMS overhead
 
-Example: 95% × 0.97 × 0.97 × 0.99 = 88.4%
+> [!EXAMPLE] A 95% LFP cell in a real system
+> 95% × 0.97 × 0.97 × 0.99 = 88.5%, inside the 85 to 92 percent system-level range for residential LFP storage.
+
 
 ### LCOS impact
 
@@ -197,6 +209,8 @@ BESS VGF scheme implicitly assumes 90%+ system RTE.
 Real-world Indian residential RTE: 85-90 percent typical, a figure worth checking against manufacturer claims when comparing the [best hybrid solar inverters in India](/blog/best-hybrid-solar-inverter-india-2026/).
 
 ## Standards and certifications
+
+Table: Standards and datasheets behind RTE figures
 
 | Standard | Scope |
 |---|---|

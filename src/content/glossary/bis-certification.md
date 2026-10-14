@@ -5,7 +5,7 @@ description: "BIS Certification is mandatory Indian quality certification for so
 category: "Standards"
 categorySlug: "standards"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - bis certification
   - bis certification india
@@ -76,9 +76,9 @@ The certification requires conformity to specific IS standards (Indian Standards
 
 For Indian solar projects, BIS certification is the foundation: [ALMM listing](/glossary/almm-list/) requires it as a prerequisite, DISCOM commissioning checks it, and customers receive recourse only against BIS-certified products.
 
-> **TL;DR**
+> [!NOTE] In short
 > - BIS certification is mandatory for solar modules and inverters sold in India under the Solar PV Quality Control Order 2017.
-> - Relevant standards include IS 14286 (modules), IS 16221 (inverters), IS 16270 (charge controllers), and IS 16893 (battery storage).
+> - Relevant standards include IS 14286 (modules), IS 16221 (inverters), IS 16270 (charge controllers); for battery storage, confirm the applicable standard against the current BIS order and catalogue.
 > - Certification takes 6 to 12 months and typically costs ₹3 to ₹15 lakh per product line.
 > - BIS certification is a hard prerequisite for [ALMM listing](/glossary/almm-list/), DISCOM commissioning, and PM Surya Ghar subsidy disbursement.
 > - Buyers can verify a product's certification through the BIS Care App or the certificate number printed on the equipment.
@@ -101,6 +101,8 @@ Standardisation. Reduces market fragmentation from low-quality imports, part of 
 
 ## Relevant IS standards for solar
 
+Table: Relevant Indian Standards for solar products
+
 | Standard | Scope |
 |---|---|
 | IS 14286 | Crystalline silicon PV module performance and reliability |
@@ -109,7 +111,7 @@ Standardisation. Reduces market fragmentation from low-quality imports, part of 
 | IS 16221-2 | Safety of PV inverters particular requirements |
 | CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 | IS 16270 | PV charge controllers |
-| IS 16893 | Battery storage safety |
+| IS 16893 (Part 2) | Secondary lithium-ion cells for electric road vehicle propulsion; not a stationary-storage standard, so confirm the stationary battery standard against the current BIS order |
 | IS 13314 | Solar lanterns |
 
 ## BIS certification process
@@ -190,15 +192,21 @@ Verify BIS certification before procurement.
 
 ## Indian market context
 
+> [!IMPORTANT] The quality control order has been reissued
+> MNRE's Solar Systems, Devices and Components Goods Order, 2025, notified on 27 January 2025, covers solar PV modules, inverters and storage batteries. Confirm the position for your product and date of supply on the current MNRE notice rather than relying only on the 2017 order.
+
 The Solar PV Quality Control Order 2017 (and amendments) is the primary regulatory instrument for mandatory BIS certification of solar modules and inverters, and it works alongside module-level standards such as [IEC 61215](/glossary/iec-61215/) and [IEC 61730](/glossary/iec-61730/), and battery-storage safety under [IEC 62619](/glossary/iec-62619/), which the corresponding IS standards are harmonised with.
 
 BIS-recognised testing laboratories include NISE, CPRI, ERTL, TUV India, UL India, Bureau Veritas India, Intertek and others.
 
-The BIS Care App allows customers to verify product certification by scanning the QR code or entering the certificate number.
+> [!TIP] Verify before you buy
+> The BIS Care App allows customers to verify product certification by scanning the QR code or entering the certificate number.
 
 Foreign manufacturers can obtain BIS certification through FMCS, although the process is longer and more expensive.
 
 ## Standards and certifications
+
+Table: Standards, orders and Acts behind BIS certification of solar products
 
 | Standard | Scope |
 |---|---|
@@ -207,7 +215,7 @@ Foreign manufacturers can obtain BIS certification through FMCS, although the pr
 | IS 16221-1, -2 | Inverter safety |
 | CEA Connectivity Regulations 2013 (as amended 2019) | Grid connection of distributed generation |
 | IS 16270 | Charge controllers |
-| IS 16893 | Battery storage |
+| IS 16893 (Part 2) | Electric road vehicle propulsion cells; confirm the stationary battery standard separately |
 | Solar PV Quality Control Order 2017 | Statutory basis |
 | Bureau of Indian Standards Act 2016 | BIS authority |
 

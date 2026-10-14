@@ -4,7 +4,7 @@ excerpt: "The PM Surya Ghar 2026 update brings current ALMM module and cell rule
 description: "PM Surya Ghar 2026 update: current ALMM module and cell rules now mandatory, subsidy unchanged at ₹78,000 cap, state top-up revisions, faster portals, and rejection reasons."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-pm-surya-ghar-update.webp"
 author: "Nirav Dhanani"
@@ -41,9 +41,8 @@ Every few months, a neighbour returns from a solar install meeting with a differ
 
 This post is the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) 2026 update that cuts through the noise. It covers what actually changed in 2025-26, what stayed the same, which states revised their top-ups, and the specific compliance steps that are catching homeowners out in mid-2026.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The central subsidy is unchanged in 2026: ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third, capped at ₹78,000 regardless of system size.
-
 > - A January 2026 portal redesign and an MNRE circular cutting the DISCOM feasibility window to 15 working days have shortened timelines in digitally integrated states.
 > - State top-ups moved in different directions: Gujarat increased its top-up while Uttar Pradesh paused its scheme pending DISCOM restructuring.
 > - Over 6 lakh of the scheme's 1-crore-household target were completed as of mid-2026, backed by a ₹75,021 crore central outlay.
@@ -69,12 +68,30 @@ The central government subsidy amounts have not changed since the scheme launche
 
 The verified 2026 subsidy structure from [MNRE](https://mnre.gov.in/) is:
 
+> [!FORMULA] Central subsidy
+> Central subsidy = ₹30,000 × first 2 kW + ₹18,000 × the third kW, capped at ₹78,000
+
+Table: PM Surya Ghar central subsidy by system size, 2026
+
 | System Size | Rate per kW | Total Central Subsidy |
 | --- | --- | --- |
 | 1 kW | ₹30,000 | ₹30,000 |
 | 2 kW | ₹30,000/kW | ₹60,000 |
 | 3 kW | ₹30,000 for first 2 kW + ₹18,000 for 3rd kW | ₹78,000 |
 | 4 kW and above | Same calculation as 3 kW | ₹78,000 (cap) |
+
+```chart
+type: bar
+title: PM Surya Ghar central subsidy by system size, 2026
+unit: "₹"
+source: "MNRE PM Surya Ghar subsidy structure for 2026, as set out in the subsidy table in this article"
+note: "The cap applies regardless of system size, so a 5 kW system earns the same central subsidy as a 3 kW system."
+data:
+  - { label: "1 kW", value: 30000 }
+  - { label: "2 kW", value: 60000 }
+  - { label: "3 kW", value: 78000 }
+  - { label: "4 kW and above", value: 78000 }
+```
 
 The ₹78,000 cap applies regardless of system size. A 5 kW system earns the same central subsidy as a 3 kW system. The subsidy is paid as a direct bank transfer (DBT) to the homeowner's Aadhaar-linked account after commissioning verification, not as a discount on the installer's invoice.
 
@@ -92,7 +109,8 @@ The 2025-26 financial year brought four material changes to how the scheme opera
 
 ### ALMM and inverter compliance are separate checks
 
-MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check the inverter's BIS registration, certificates and DISCOM requirements separately.
+> [!IMPORTANT] Two separate checks
+> MNRE's current ALMM page publishes PV module and cell lists, not an inverter list. Verify the exact proposed module and cell models against the current orders, and check the inverter's BIS registration, certificates and DISCOM requirements separately.
 
 ### Simplified Portal and Reduced DISCOM Approval Timelines
 
@@ -107,6 +125,8 @@ MNRE issued a circular in Q4 2025 requiring DISCOMs to clear feasibility applica
 ### State Top-Up Subsidy Revisions
 
 Several states revised their top-up subsidies during 2025-26. These are additions to the central ₹78,000 and vary by state.
+
+Table: State top-up subsidies on top of the central subsidy, 2026
 
 | State | Top-Up Status (2026) | Amount (Where Active) |
 | --- | --- | --- |
@@ -132,7 +152,10 @@ This has reduced the number of low-quality pop-up installers who were taking dep
 
 Most subsidy rejections in 2026 trace back to one of five gates in the application process. Clearing all five before installation starts eliminates the vast majority of rejection risk.
 
+<!-- steps -->
 1. **Gate 1, Aadhaar-DISCOM name match**: Confirm that the name on your electricity bill exactly matches the name on your Aadhaar card. A single-letter mismatch (e.g., "Suresh Kumar" vs "S. Kumar") triggers an automatic Aadhaar DBT verification failure. Correct this with your DISCOM before registering on the portal.
+
+2. **Gate 2, Feasibility letter before any vendor contract**: Wait for the DISCOM feasibility letter, which states the approved system size, before you sign a contract with any vendor.
 
 3. **Gate 3, Feasibility letter size match**: Install the exact system size approved in the DISCOM feasibility letter. If the letter says 3 kW and the installer fits 3.5 kW citing "better value", the commissioning inspection will fail. Any size change requires a fresh feasibility application.
 
@@ -152,7 +175,14 @@ Visit [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/) and create an account us
 
 ### Step 2: Submit Application and Receive Feasibility Letter
 
-Once registered, submit your rooftop solar application including roof area details and desired system size. The DISCOM has 15 working days to assess technical feasibility (shadow-free roof area, transformer capacity, existing load). A feasibility approval letter specifies the approved system size. Do not sign any vendor contract before receiving this letter.
+Once registered, submit your rooftop solar application including roof area details and desired system size. The DISCOM has 15 working days to assess technical feasibility (shadow-free roof area, transformer capacity, existing load). A feasibility approval letter specifies the approved system size. 
+
+> [!WARNING] No contract before the feasibility letter
+> Do not sign any vendor contract before receiving this letter.
+
+### Step 3: Choose an Empanelled Vendor and Sign the Contract
+
+Pick a vendor listed on the PM Surya Ghar portal, since listed vendors have cleared the higher baseline described above, and check the vendor's current standing before you pay. Sign the contract only after the feasibility letter is in hand, and make sure the contracted system size matches the size the letter approves.
 
 ### Step 4: Installation, Inspection, and Net-Metering
 
@@ -168,6 +198,8 @@ For a full walkthrough with state-specific variations, see the [PM Surya Ghar ap
 
 Eligibility rules did not change materially in 2026, but enforcement became stricter as the portal integrated with DISCOM billing databases. The following table summarises the current eligibility landscape.
 
+Table: Who is eligible for the PM Surya Ghar subsidy, by applicant type
+
 | Applicant Type | Eligible? | Key Condition |
 | --- | --- | --- |
 | Owner-occupier (house or flat) | Yes | Electricity account in owner's name |
@@ -182,7 +214,7 @@ Understanding [net metering in India](/blog/net-metering-india-complete-guide/) 
 
 ## Common Rejection Reasons in 2026: and How to Avoid Each
 
-Rejection data from empanelled vendors and MNRE circulars point to six recurring failure points. These are avoidable with the right preparation.
+Rejection data from empanelled vendors and MNRE circulars point to five recurring failure points. These are avoidable with the right preparation.
 
 - **Non-ALMM module**: Modules must remain on Phase I/II ALMM lists throughout the project. Some low-cost module brands have been suspended from the list; always check before purchase.
 - **Aadhaar-DISCOM name mismatch**: Rejection happens at the DBT step, not the application step, so it can cost weeks of delay. Resolve before registering.
@@ -195,6 +227,8 @@ For a fix-by-fix breakdown of these and other failure points, plus the reapplica
 ## On-Grid vs Hybrid: Which System Type to Choose Under PM Surya Ghar
 
 The subsidy applies to both on-grid and hybrid inverter configurations, though the economic case for each differs significantly.
+
+Table: On-grid compared with hybrid systems under PM Surya Ghar, by subsidy, cost, backup and payback
 
 | | On-Grid System | Hybrid System |
 | --- | --- | --- |

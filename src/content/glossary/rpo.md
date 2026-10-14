@@ -5,7 +5,7 @@ description: "RPO is the mandatory renewable share for Indian utilities. Full gu
 category: "Policies"
 categorySlug: "policies"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is rpo
   - renewable purchase obligation
@@ -72,7 +72,7 @@ The Ministry of Power notification in 2022 set a uniform national RPO trajectory
 
 Compliance options include direct [PPAs](/glossary/ppa/) with renewable generators, on-site renewable generation, [REC](/glossary/rec/) purchases on power exchanges and other [CERC](/glossary/cerc/)-approved mechanisms. Non-compliance attracts penalties set by SERCs.
 
-> **TL;DR**
+> [!NOTE] In short
 > - RPO requires DISCOMs, open access consumers above 1 MW and captive power plants above 1 MW to source a minimum share of electricity from renewables.
 > - The national trajectory set by the Ministry of Power rises from 24.61 percent in FY 2022-23 to 43.33 percent by FY 2029-30.
 > - Compliance runs through direct PPAs, on-site renewable generation, REC purchases on IEX/PXIL, or a mix of the three.
@@ -94,6 +94,8 @@ REC market support. RPO compliance demand sustains REC trading.
 
 ## Indian RPO trajectory (Ministry of Power 2022 notification)
 
+Table: Ministry of Power 2022 RPO trajectory by year and category
+
 | Year | Wind RPO | Hydro RPO | Other RPO | Total |
 |---|---|---|---|---|
 | FY 2022-23 | 0.81% | 0.35% | 23.45% | 24.61% |
@@ -111,6 +113,8 @@ State SERC trajectories may vary.
 
 ### Compliance pathways
 
+Table: RPO compliance pathways and how each works
+
 | Method | Mechanism |
 |---|---|
 | Direct PPA | DISCOM signs PPA with renewable generator |
@@ -121,6 +125,8 @@ State SERC trajectories may vary.
 
 ### Obligated entities
 
+Table: Entities obligated under RPO and the threshold for each
+
 | Category | Threshold |
 |---|---|
 | DISCOM | All licensees |
@@ -130,13 +136,18 @@ State SERC trajectories may vary.
 ### Calculation of RPO
 
 For a DISCOM:
-RPO compliance % = (Renewable energy purchased / Total energy purchased) × 100
+
+> [!FORMULA] RPO compliance for a DISCOM
+> RPO compliance % = (Renewable energy purchased / Total energy purchased) × 100
 
 Includes physical renewables and RECs.
 
 ### Penalty for non-compliance
 
-Computed as: Shortfall MWh × marginal renewable purchase cost. State-specific.
+> [!FORMULA] RPO penalty
+> Penalty = Shortfall MWh × marginal renewable purchase cost
+
+The penalty is state-specific.
 
 ## Real-world applications
 
@@ -151,6 +162,8 @@ REC trading for last-mile compliance.
 Corporate RE100 voluntary alignment.
 
 ## Compliance status
+
+Table: RPO compliance pattern by state
 
 | State / Entity | RPO compliance pattern |
 |---|---|
@@ -221,6 +234,8 @@ Corporate RE100 voluntary commitments parallel mandatory RPO.
 National RPO target 43.33 percent by 2029-30 aligns with India's 500 GW non-fossil capacity target for 2030; see [India solar statistics 2026](/blog/india-solar-statistics-2026-data/) for the capacity trajectory this RPO demand is driving.
 
 ## Standards and certifications
+
+Table: Legal and regulatory references behind RPO
 
 | Standard | Scope |
 |---|---|

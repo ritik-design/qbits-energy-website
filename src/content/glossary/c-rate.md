@@ -5,7 +5,7 @@ description: "C-rate is the charge or discharge current relative to battery capa
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is c rate
   - c rate battery
@@ -71,7 +71,7 @@ For solar storage, C-rate matters for two reasons: it affects the round-trip eff
 
 Cells are designed for either energy (high capacity, lower C-rate) or power (lower capacity, higher C-rate). Solar storage uses energy-optimised [LFP cells](/glossary/lfp-battery/) with continuous C-rate of 0.5C and peak C-rate of 1C, well below the charge rate that noticeably shortens VRLA and LFP life, as shown in [How Long Do Solar Batteries Last in India? (Heat and Cycle Reality)](/blog/how-long-solar-batteries-last-india/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - C-rate is battery current expressed as a multiple of capacity: 1C fully charges or discharges in one hour, 0.5C in two hours, 2C in half an hour.
 > - Solar storage typically uses energy-optimised LFP cells at 0.2C to 0.5C continuous, 1C peak.
 > - Higher C-rate increases I²R heating, reduces round-trip efficiency and shortens cycle life.
@@ -101,9 +101,11 @@ EV charging time. C-rate determines fast-charge time; see [Solar Inverter for EV
 
 ## How C-rate is calculated
 
-C-rate (1/h) = current (A) / nominal capacity (Ah)
+> [!FORMULA]
+> C-rate (1/h) = current (A) / nominal capacity (Ah)
 
-Example: A 50 Ah battery discharged at 25 A is operating at 0.5C.
+> [!EXAMPLE] Two ways to read C-rate
+> A 50 Ah battery discharged at 25 A is operating at 0.5C. In energy terms, a 10 kWh battery at 0.5C delivers 5 kW continuous, and at 0.2C, 2 kW continuous.
 
 For energy units:
 Power at 1C = nominal energy (kWh) × 1
@@ -115,6 +117,8 @@ A 10 kWh battery at 0.5C delivers 5 kW continuous. At 0.2C, 2 kW continuous.
 
 ### Continuous vs peak C-rate
 
+Table: Continuous, peak and pulse C-rate ratings and when each applies
+
 | Rating | Duration | Use case |
 |---|---|---|
 | Continuous C-rate | Sustained operation | Daily cycling |
@@ -122,6 +126,8 @@ A 10 kWh battery at 0.5C delivers 5 kW continuous. At 0.2C, 2 kW continuous.
 | Pulse C-rate | <1 second | Very brief surges |
 
 ### Chemistry-specific limits
+
+Table: Typical continuous and peak discharge C-rate by battery chemistry
 
 | Chemistry | Typical continuous discharge | Peak discharge |
 |---|---|---|
@@ -138,6 +144,8 @@ For a closer look at how LFP and NMC chemistries trade off C-rate headroom again
 ### C-rate and efficiency
 
 [Round-trip efficiency](/glossary/round-trip-efficiency/) declines with C-rate:
+
+Table: LFP round-trip efficiency at different C-rates
 
 | C-rate | LFP round-trip |
 |---|---|
@@ -204,6 +212,9 @@ Cell imbalance after high-C operation. [BMS](/glossary/bms/) balancing should re
 
 ## Best practices
 
+> [!TIP] Check C-rate before kWh
+> Size the battery so daily peak power stays below 0.5C continuous for stationary storage, and account for the inverter's peak power. Comparing batteries on nominal capacity alone misses the C-rate difference, and a 10 kWh pack rated 0.5C cannot supply more than 5 kW continuously.
+
 [Size the battery](https://surgepv.com/hub/energy-storage/battery-sizing/) so daily peak power is below 0.5C continuous for stationary storage.
 
 Account for inverter peak power when sizing battery C-rate.
@@ -217,6 +228,8 @@ Plan cabinet cooling for sustained operation at design C-rate.
 Document C-rate assumptions in EPC specifications.
 
 ## Comparison: C-rate by application
+
+Table: Typical continuous C-rate by application
 
 | Application | Typical continuous C-rate |
 |---|---|
@@ -241,6 +254,8 @@ DC fast chargers under FAME II and PM e-DRIVE schemes typically operate at 1.5 t
 IS 16893 references C-rate testing per IEC 61960.
 
 ## Standards and certifications
+
+Table: Standards that define and test C-rate
 
 | Standard | Scope |
 |---|---|

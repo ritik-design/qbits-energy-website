@@ -24,18 +24,27 @@ faqs:
     a: "Record the site, exact model, serial number, firmware if visible, date and time, operating state, displayed events, observations, measurements with instrument details, work completed, parts used, settings changed, responsible person, photographs, unresolved items, and the next action or review trigger."
   - q: "What should an inverter AMC include?"
     a: "An annual maintenance contract should identify the covered equipment, planned scope, exclusions, authorised work, response and escalation process, evidence supplied after each visit, parts and travel treatment, warranty coordination, safety responsibility, data access, renewal terms, and the method for approving additional work."
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 ---
 
 A solar inverter preventive maintenance schedule should be built from the exact model's installation, operation, and warranty documents, then adjusted to recorded site conditions. Owners can observe status, logs, surroundings, and visible damage. Qualified personnel handle enclosure access, measurements, protective functions, settings, firmware, and electrical repairs.
 
 That split matters more than a generic calendar. A fixed monthly, quarterly, or annual interval can sound precise while ignoring the model, installation environment, warranty terms, event history, and work permitted for the owner. This guide gives owners and service teams two checklists, one shared record, and an escalation path without inventing universal service intervals.
 
+> [!KEYTAKEAWAYS]
+> - Build the schedule from the exact model's installation, operation and warranty documents, then adjust it to recorded site conditions. A copied calendar is not a schedule.
+> - Owners observe status, logs, surroundings and visible damage. Enclosure access, measurements, protective functions, settings, firmware and electrical repairs belong to qualified personnel.
+> - Set every interval from a named requirement or trigger. If a source does not state an interval, write "condition based" or "not specified" instead of inventing a number.
+> - Escalate immediately for a safety concern, visible damage, burning smell, smoke, water ingress or exposed conductors, and preserve the event history.
+> - The current public Qbits datasheets do not publish a complete preventive-maintenance schedule for every model, so request the current instructions and written warranty for the exact unit.
+
 ## What belongs in a solar inverter preventive maintenance schedule?
 
 **An inverter maintenance schedule needs a document basis, a safe work boundary, repeatable observations, qualified tests, records, and escalation rules.** Set each task's trigger from the exact model documents, applicable project requirements, site conditions, and prior events. Assign a responsible role and define the evidence that closes the task.
 
 Start with a controlled document set rather than a checklist copied from another installation.
+
+Table: Documents that anchor an inverter maintenance schedule, and what to extract from each
 
 | Document or record | What to extract | Why it belongs in the schedule |
 | --- | --- | --- |
@@ -54,6 +63,8 @@ The current public Qbits datasheets identify model families and electrical field
 **Owner-safe maintenance is observation and record keeping performed without opening equipment, touching conductors, changing protection settings, or defeating guards.** The owner can review status and monitoring data, inspect the accessible exterior and surrounding area, record changes, and send useful evidence to the installer or authorised service team.
 
 Use this checklist only from a normally accessible, safe position and within the owner instructions for the exact model.
+
+Table: Owner-safe observations, what to record and what not to turn each into
 
 | Owner observation | What to record | Do not turn it into |
 | --- | --- | --- |
@@ -84,13 +95,18 @@ The actual test list depends on the model and installation. A service scope can 
 - manufacturer-permitted cleaning and replacement of approved parts; and
 - restoration checks, final operating state, photographs and signed service record.
 
-Do not treat this list as authorisation to open a unit. Competence, isolation, test equipment, access and manufacturer procedure all have to be resolved before work begins. If the product is under warranty, confirm who is authorised to perform the work and what evidence the warranty process requires.
+> [!CAUTION] Not authorisation to open a unit
+> Do not treat this list as authorisation to open a unit. Competence, isolation, test equipment, access and manufacturer procedure all have to be resolved before work begins.
+
+If the product is under warranty, confirm who is authorised to perform the work and what evidence the warranty process requires.
 
 ## How should the maintenance interval be set?
 
 **Set each inverter-maintenance interval from a named requirement or trigger, not a universal calendar copied from the web.** The exact model instructions, warranty, installer contract, environmental conditions, event history, monitoring gaps, previous findings, site access and applicable project rules should determine when observation, inspection, testing or service occurs.
 
 A useful schedule records the basis beside every task.
+
+Table: Maintenance trigger types, example schedule entries and the evidence that closes each
 
 | Trigger type | Example schedule entry | Evidence needed to close it |
 | --- | --- | --- |
@@ -111,6 +127,7 @@ Cleaning follows the same rule. An IP65 or IP66 rating describes tested ingress 
 
 Use one record format across routine visits and fault callouts:
 
+<!-- steps -->
 1. Identify the site, inverter model, serial number, asset tag and firmware if visible.
 2. Record the date, time, weather or operating context, displayed state and reason for attendance.
 3. Name the instruction, checklist or approved method used for each task.
@@ -130,6 +147,8 @@ These records also support a future [solar inverter warranty review](/blog/solar
 
 Use a simple handoff table rather than guessing the failed component.
 
+Table: Fault handoff guide, with owner action and service handoff for each observation
+
 | Observation | Owner action | Service handoff |
 | --- | --- | --- |
 | Safety concern or visible damage | Keep clear and follow the emergency or shutdown instruction supplied for the installation | Contact the responsible installer or qualified service promptly |
@@ -147,17 +166,18 @@ Qbits owners can find an [authorised service partner](/authorized-service-partne
 
 Before signing, check whether the document states:
 
-- every covered model, serial number, site and related component;
-- the basis for planned visits and condition-triggered attendance;
-- owner observations, remote support and on-site work as separate scopes;
-- who may open equipment, change settings, update firmware or replace parts;
-- which inspections, tests, reports, photos and data exports are deliverables;
-- how response priority is assigned and when an unresolved case is escalated;
-- labour, travel, consumables, replacement parts, taxes and excluded work;
-- responsibility for access, shutdown coordination and safe work permits;
-- how warranty cases are raised and who communicates with the manufacturer;
-- how additional work is quoted and approved before it begins; and
-- contract term, renewal, termination, record ownership and data access.
+> [!CHECKLIST] What an inverter AMC should state
+> - every covered model, serial number, site and related component;
+> - the basis for planned visits and condition-triggered attendance;
+> - owner observations, remote support and on-site work as separate scopes;
+> - who may open equipment, change settings, update firmware or replace parts;
+> - which inspections, tests, reports, photos and data exports are deliverables;
+> - how response priority is assigned and when an unresolved case is escalated;
+> - labour, travel, consumables, replacement parts, taxes and excluded work;
+> - responsibility for access, shutdown coordination and safe work permits;
+> - how warranty cases are raised and who communicates with the manufacturer;
+> - how additional work is quoted and approved before it begins; and
+> - contract term, renewal, termination, record ownership and data access.
 
 Do not rely on an undefined promise such as `full maintenance` or `fast response`. Put the service level, measurement method, exceptions and remedy in writing. This article does not supply Qbits pricing, response times, or universal AMC terms because those need a current approved service document.
 

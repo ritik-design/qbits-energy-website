@@ -4,7 +4,7 @@ excerpt: "A solar inverter for shop use cuts a ₹15,000/month commercial electr
 description: "Guide to choosing a solar inverter for a small shop in India: load analysis, 1.5–5 kW sizing, commercial net metering, GST input credit, and payback."
 category: Buying Guide
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-solar-inverter-for-shop.webp"
 author: "Keyur Rakholiya"
@@ -43,7 +43,7 @@ faqs:
 
 Every month, lakhs of small shop owners across India hand over ₹8,000 to ₹25,000 to their DISCOM, and every month, that bill climbs a little higher as commercial tariffs outpace inflation. A kirana store owner in Pune, a salon in Chennai, a pharmacy in Jaipur, or an electronics retailer in Surat all face the same arithmetic: commercial electricity in India now costs ₹7–12 per unit, roughly twice the residential rate, and the tariff revises upward almost every year. A correctly sized solar inverter for a shop flips that arithmetic in the shop owner's favour, permanently.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Most small shops need a 1.5–5 kW on-grid inverter; a 3 kW system with 3.5–4 kWp of panels is the most common fit for pharmacies, salons, and electronics retailers.
 > - Commercial tariffs of ₹7–12/unit make solar payback faster for shops than for homes, typically 1.5–4 years depending on the state's tariff level.
 > - GST-registered shops can claim input tax credit on the GST charged on inverters and panels, plus 40% accelerated depreciation in year one.
@@ -58,6 +58,8 @@ The commercial tariff advantage works in both directions. Your shop pays more pe
 
 Before choosing an inverter, you need an honest count of what your shop consumes. Many shop owners overestimate their loads (and buy an oversized system) or forget seasonal spikes (and find solar underperforms in May). The table below covers the most common shop types and their typical peak simultaneous load.
 
+Table: Typical peak simultaneous load by shop type, broken down by appliance group
+
 | Shop Type | Lights + Fans | Refrigeration | POS / Computer | AC (Summer) | Peak Load |
 | --- | --- | --- | --- | --- | --- |
 | Kirana / Grocery (300–500 sq ft) | 300 W | 400 W (chest freezer) | 100 W | - | 800 W |
@@ -65,6 +67,21 @@ Before choosing an inverter, you need an honest count of what your shop consumes
 | Salon / Beauty Parlour (300–600 sq ft) | 400 W | - | 100 W + dryers 2,000 W | 1,500 W | 4,000 W |
 | Electronics Retail (500–800 sq ft) | 600 W | - | 500 W (3 terminals) | 1,500 W | 2,600 W |
 | PCO / Stationery / Xerox | 200 W | - | 800 W (copier, PCs) | - | 1,000 W |
+
+```chart
+type: hbar
+title: Typical peak simultaneous load by shop type (W)
+unit: "W"
+decimals: 0
+source: "Calculated in this article as the sum of the listed loads for each shop type in the table above; typical figures stated by the author, not measured site data"
+note: "Peak simultaneous load sets the minimum inverter capacity. Daily energy use is far lower."
+data:
+  - { label: "Salon / beauty parlour", value: 4000 }
+  - { label: "Electronics retail", value: 2600 }
+  - { label: "Pharmacy", value: 2500 }
+  - { label: "PCO / stationery / xerox", value: 1000 }
+  - { label: "Kirana / grocery", value: 800 }
+```
 
 The numbers above are peak simultaneous loads, what the shop draws when everything is running at the same time. Your inverter must handle this peak without tripping, but your daily energy consumption is far lower because not all loads run all day. A kirana store running 10 hours daily at an average draw of 600 W consumes 6 kWh/day. At ₹9/unit commercial tariff, that is ₹54/day or ₹1,620/month, on top of fixed DISCOM charges and demand charges that can add another ₹3,000–₹8,000 monthly.
 
@@ -80,7 +97,7 @@ A 1.5 kW or 2 kW on-grid inverter suits a shop that runs only lights, a ceiling 
 
 ### 3 kW: The Sweet Spot for Most Shops
 
-A 3 kW inverter with a 3.5–4 kWp panel array is the most popular choice for Indian small commercial installations. It covers a pharmacy with a vaccine refrigerator, a salon with 2–3 styling stations, or an electronics retailer with 2–3 display TVs and a server. At ₹1.2–1.5 Lakh installed cost (after GST ITC), this system generates 400–480 kWh/month, saving ₹3,600–₹4,320/month at ₹9/unit, a 3.5–4 year payback period.
+A 3 kW inverter with a 3.5–4 kWp panel array is the most popular choice for Indian small commercial installations. It covers a pharmacy with a vaccine refrigerator, a salon with 2–3 styling stations, or an electronics retailer with 2–3 display TVs and a server. At ₹1.2–1.5 Lakh installed cost (after GST ITC), this system generates 400–480 kWh/month, saving ₹3,600–₹4,320/month at ₹9/unit, a payback of roughly 2.8 to 2.9 years (₹1.2 Lakh ÷ ₹43,200 and ₹1.5 Lakh ÷ ₹51,840 of annual saving).
 
 ### 5 kW: For AC-Running Shops and Higher Bills
 
@@ -94,6 +111,7 @@ This proprietary framework collapses the commercial solar buying decision into f
 
 ### The Shop Solar ROI Framework
 
+<!-- steps -->
 1. **Load Audit**: List every electrical appliance, its wattage, and its daily operating hours. Sum the peak simultaneous wattage. This determines your minimum inverter capacity. Add 15% headroom for inrush currents from compressors and motors. The result is your design load.
 
 2. **Tariff-Based Sizing**: Calculate your monthly unit consumption from your DISCOM bill (units consumed ÷ 30 = daily units). Divide by your city's average [peak sun hours](/glossary/peak-sun-hours/) (4.5–6.0 for most Indian cities). The quotient is the panel capacity in kWp needed to offset 80–90% of your consumption. Match this to the nearest standard inverter size (1.5, 2, 3, 5 kW).
@@ -101,6 +119,9 @@ This proprietary framework collapses the commercial solar buying decision into f
 3. **Net Metering Application**: File the net metering application with your DISCOM before installation begins. In most states, the DISCOM issues a feasibility letter within 15–30 days. This letter specifies the maximum exportable capacity and the bi-directional meter specification. Building the system before this approval can result in rejection of the net meter application and loss of the export benefit.
 
 4. **GST ITC Claim**: If your shop is GST-registered, preserve all tax invoices showing HSN 8504 (inverter) and HSN 8541 (solar panels) with the GST rate and the schedule entry clearly stated. File ITC claims in GSTR-3B in the month of installation. The refundable credit reduces your effective system cost by ₹20,000–₹40,000 on a typical ₹2–3 Lakh system, a benefit that residential buyers simply cannot access.
+
+> [!FORMULA] Panel capacity needed (Step 2)
+> Panel capacity (kWp) = (Monthly units ÷ 30 × share to offset, 80 to 90%) ÷ Peak sun hours
 
 Applying this four-step sequence in order avoids the two most expensive mistakes: buying an undersized system that fails to cover the AC load in May, and buying an oversized system that exports more than the DISCOM will accept.
 
@@ -124,7 +145,9 @@ According to the [Central Electricity Regulatory Commission's net metering frame
 
 This is the financial advantage that makes commercial solar more attractive than residential solar on a net-cost basis, yet it is the benefit most shop owners either do not know about or fail to claim correctly.
 
-Under India's GST framework, a registered business purchasing capital goods for commercial use can claim input tax credit on the GST paid. Solar inverters are not named in entry 437, so the rate turns on classification, 5% as a renewable energy device or 18% under heading 8504. Solar panels are named at item (h) of Schedule I entry 437 and attract 5% GST. A 3 kW system with a ₹1.5 Lakh installed cost (pre-GST) carries approximately ₹18,000 of GST. A 5 kW system at ₹2.5 Lakh (pre-GST) carries ₹30,000 of GST.
+Under India's GST framework, a registered business purchasing capital goods for commercial use can claim input tax credit on the GST paid. Solar inverters are not named in entry 437, so the rate turns on classification, 5% as a renewable energy device or 18% under heading 8504. Solar panels are named at item (h) of Schedule I entry 437 and attract 5% GST. A 3 kW system at ₹1,40,000 (pre-GST) carries ₹12,460 of GST at the 8.9% bundled rate used in the table below. A 5 kW system at ₹2,40,000 (pre-GST) carries ₹21,360.
+
+Table: GST and input tax credit on 2, 3 and 5 kW on-grid systems for a GST-registered business
 
 | System Size | Approx. Pre-GST Cost | GST at the 8.9% bundled rate | Net Cost After ITC (GST-Registered Business) |
 | --- | --- | --- | --- |
@@ -132,7 +155,7 @@ Under India's GST framework, a registered business purchasing capital goods for 
 | 3 kW on-grid | ₹1,40,000 | ₹12,460 | ₹1,40,000 |
 | 5 kW on-grid | ₹2,40,000 | ₹21,360 | ₹2,40,000 |
 
-A GST-registered business claims the ₹16,800 or ₹28,800 back through GSTR-3B. The net capital expenditure after ITC is therefore equivalent to what the table shows as "pre-GST cost", while a non-registered buyer pays the full amount including GST. For a detailed breakdown of the applicable rates, refer to the [complete guide on GST on solar inverters](/blog/gst-on-solar-inverters-2026/), and for a layer-by-layer look at hardware, BOS, and soft costs across system sizes, see the [solar inverter installation cost guide](/blog/solar-inverter-installation-cost/).
+A GST-registered business claims the ₹12,460 or ₹21,360 back through GSTR-3B. The net capital expenditure after ITC is therefore equivalent to what the table shows as "pre-GST cost", while a non-registered buyer pays the full amount including GST. For a detailed breakdown of the applicable rates, refer to the [complete guide on GST on solar inverters](/blog/gst-on-solar-inverters-2026/), and for a layer-by-layer look at hardware, BOS, and soft costs across system sizes, see the [solar inverter installation cost guide](/blog/solar-inverter-installation-cost/).
 
 Beyond ITC, businesses can also claim 40% accelerated depreciation on solar plant and machinery in the first year under the Income Tax Act. For a shop owner in the 22% or 30% tax bracket, this further reduces the effective capital cost by ₹12,000–₹24,000 on a ₹2 Lakh system. Explore [solar inverter depreciation tax benefits](/blog/solar-inverter-depreciation-in-india/) for the detailed Income Tax calculation.
 
@@ -140,27 +163,28 @@ Beyond ITC, businesses can also claim 40% accelerated depreciation on solar plan
 
 ## Worked Example: The ₹15,000/Month Shop
 
-Consider a pharmacy in Coimbatore, Tamil Nadu. Current electricity profile:
-- Monthly bill: ₹15,000 (approximately 1,250 units at ₹10/unit commercial tariff, plus fixed charges ₹2,500)
-- Loads: LED lighting 400 W, ceiling fans 200 W, vaccine refrigerator 600 W, 1-ton AC 1,100 W, POS terminal 150 W
-- Peak simultaneous load: 2,450 W
-- Shop open: 9 AM–9 PM (12 hours/day)
-- Roof: 250 sq ft south-facing terrace, unshaded
-
-**Step 1, Design load**: 2,450 W + 15% headroom = 2,820 W → select a **3 kW inverter**.
-
-**Step 2, Panel sizing**: Daily consumption = 1,250 ÷ 30 = 41.7 kWh. Target solar to offset 80% = 33.4 kWh/day. Coimbatore peak sun hours = 5.5. Required capacity = 33.4 ÷ 5.5 = **6.07 kWp**. However, roof can fit only 12 panels × 400 Wp = **4.8 kWp** (50% of consumption). The system will cut the bill from ₹15,000 to approximately ₹7,500–₹8,000/month, with net metering crediting surplus lunchtime generation against evening consumption.
-
-**Step 3, Cost and payback**:
-- System cost: 3 kW inverter + 4.8 kWp panels + mounting + wiring + installation = ₹2,05,000 (pre-GST)
-- GST at the 8.9% bundled rate = ₹18,245 (fully claimable as ITC)
-- Net capex for registered business = ₹2,05,000
-- Annual savings = ₹7,500/month × 12 = ₹90,000
-- Simple payback = ₹2,05,000 ÷ ₹90,000 = **2.3 years**
-
-**Step 4, 25-year projection**:
-- Year 1–25 savings (assuming 3% annual tariff increase, 0.5% annual panel degradation) = **₹32.5 Lakh**
-- Net profit after recovering capital = ₹32.5 Lakh − ₹2.05 Lakh = **₹30.45 Lakh**
+> [!EXAMPLE] The ₹15,000/month pharmacy in Coimbatore
+> Consider a pharmacy in Coimbatore, Tamil Nadu. Current electricity profile:
+> - Monthly bill: ₹15,000 (approximately 1,250 units at ₹10/unit commercial tariff, plus fixed charges ₹2,500)
+> - Loads: LED lighting 400 W, ceiling fans 200 W, vaccine refrigerator 600 W, 1-ton AC 1,100 W, POS terminal 150 W
+> - Peak simultaneous load: 2,450 W
+> - Shop open: 9 AM–9 PM (12 hours/day)
+> - Roof: 250 sq ft south-facing terrace, unshaded
+>
+> **Step 1, Design load**: 2,450 W + 15% headroom = 2,820 W → select a **3 kW inverter**.
+>
+> **Step 2, Panel sizing**: Daily consumption = 1,250 ÷ 30 = 41.7 kWh. Target solar to offset 80% = 33.4 kWh/day. Coimbatore peak sun hours = 5.5. Required capacity = 33.4 ÷ 5.5 = **6.07 kWp**. However, roof can fit only 12 panels × 400 Wp = **4.8 kWp** (50% of consumption). The system will cut the bill from ₹15,000 to approximately ₹7,500–₹8,000/month, with net metering crediting surplus lunchtime generation against evening consumption.
+>
+> **Step 3, Cost and payback**:
+> - System cost: 3 kW inverter + 4.8 kWp panels + mounting + wiring + installation = ₹2,05,000 (pre-GST)
+> - GST at the 8.9% bundled rate = ₹18,245 (fully claimable as ITC)
+> - Net capex for registered business = ₹2,05,000
+> - Annual savings = ₹7,500/month × 12 = ₹90,000
+> - Simple payback = ₹2,05,000 ÷ ₹90,000 = **2.3 years**
+>
+> **Step 4, 25-year projection**:
+> - Year 1–25 savings (assuming 3% annual tariff increase, 0.5% annual panel degradation) = **₹32.5 Lakh**
+> - Net profit after recovering capital = ₹32.5 Lakh − ₹2.05 Lakh = **₹30.45 Lakh**
 
 Shop owners can cross-check this arithmetic independently using a [solar payback period calculator](https://surgepv.com/tools/payback-period-calculator/), and for a city-by-city breakdown of how payback periods shift with tariff slab and system size, the [solar inverter payback period in India guide](/blog/solar-inverter-payback-period/) covers 18 Indian cities in detail.
 
@@ -184,6 +208,8 @@ The IP65 versus IP66 distinction may seem minor, but field data from inverter se
 ## On-Grid vs. Hybrid Inverter for a Shop: The Decision Matrix
 
 The choice between an on-grid inverter and a hybrid inverter is primarily driven by your area's power-cut frequency and duration. The [on-grid versus hybrid](/blog/on-grid-vs-hybrid/) decision is different for a shop than for a home because the cost of lost business during an outage is real and calculable.
+
+Table: On-grid versus hybrid inverter for a shop, compared on cost, outage behaviour and payback
 
 | | On-Grid Inverter | Hybrid Inverter |
 | --- | --- | --- |

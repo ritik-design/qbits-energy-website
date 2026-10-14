@@ -5,7 +5,7 @@ description: "WACC is the blended cost of debt and equity. Full guide to solar p
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - wacc
   - weighted average cost of capital
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 WACC (Weighted Average Cost of Capital) is the blended cost of financing for a project, calculated as the weighted average of the cost of debt and the cost of equity, with weights based on each source's share of total project financing. It is the [discount rate](/glossary/discount-rate/) used in [NPV](/glossary/npv/) and [LCOE](/glossary/lcoe/) calculations to translate future cash flows to present value.
 
-> **TL;DR**
+> [!NOTE] In short
 > - WACC is the blended cost of debt and equity financing, weighted by each source's share of total project cost, and is used as the discount rate in NPV and LCOE calculations.
 > - Indian solar WACC in 2026 runs 8 to 10 percent for utility projects, 9 to 11 percent for C&I, and 10 to 12 percent for residential rooftop.
 > - WACC has fallen from 14 to 15 percent in 2010 to 8 to 10 percent today as PPAs became standardised and projects more bankable.
@@ -83,7 +83,9 @@ For Indian solar projects, WACC typically ranges from 8 to 12 percent post-tax d
 - Residential rooftop: 10-12 percent
 
 The WACC formula:
-WACC = (D/V × Rd × (1-T)) + (E/V × Re)
+
+> [!FORMULA]
+> WACC = (D/V × Rd × (1-T)) + (E/V × Re)
 
 Where:
 - D, E, V: debt, equity, total project cost
@@ -105,6 +107,8 @@ Lender vs equity. Tension between debt cost (lower) and equity return (higher).
 
 ## Indian solar WACC trajectory
 
+Table: Typical Indian utility solar WACC, 2010 to 2026
+
 | Year | Typical utility solar WACC |
 |---|---|
 | 2010 | 14-15% |
@@ -117,13 +121,17 @@ Lender vs equity. Tension between debt cost (lower) and equity return (higher).
 
 ### WACC calculation example
 
-For a 100 MW Indian utility solar project, the kind typically run under MW-scale EPC project management:
-- Capex: ₹400 crore
-- Debt: ₹280 crore (70%) at 8.5% pre-tax, 6.6% after-tax (T=22.4%)
-- Equity: ₹120 crore (30%) at 15%
-- WACC = (0.7 × 6.6%) + (0.3 × 15%) = 4.62% + 4.50% = 9.12%
+> [!EXAMPLE] 100 MW utility solar project
+> For a 100 MW Indian utility solar project, the kind typically run under MW-scale EPC project management:
+>
+> - Capex: ₹400 crore
+> - Debt: ₹280 crore (70%) at 8.5% pre-tax, 6.6% after-tax (T=22.4%)
+> - Equity: ₹120 crore (30%) at 15%
+> - WACC = (0.7 × 6.6%) + (0.3 × 15%) = 4.62% + 4.50% = 9.12%
 
 ### Indian solar WACC by financing mix
+
+Table: Indian solar WACC by financing mix
 
 | Leverage (D/E) | Equity cost | Debt after-tax | WACC |
 |---|---|---|---|
@@ -131,11 +139,28 @@ For a 100 MW Indian utility solar project, the kind typically run under MW-scale
 | 65/35 | 15% | 7% | 9.8% |
 | 70/30 | 15% | 7% | 9.4% |
 | 75/25 | 16% | 7% | 9.3% |
-| 80/20 | 17% | 7% | 8.8% |
+| 80/20 | 17% | 7% | 9.0% |
 
 Higher leverage reduces WACC but raises equity cost (financial risk premium).
 
+```chart
+type: bar
+title: WACC by debt-to-equity mix
+unit: "%"
+source: "Calculated in this entry from the table above: debt share x 7% after-tax debt cost plus equity share x the stated equity cost"
+note: "Lower is better for the discount rate, but higher leverage raises financial risk."
+decimals: 1
+data:
+  - { label: "60/40", value: 10.2 }
+  - { label: "65/35", value: 9.8 }
+  - { label: "70/30", value: 9.4 }
+  - { label: "75/25", value: 9.3 }
+  - { label: "80/20", value: 9.0 }
+```
+
 ### Cost of debt drivers
+
+Table: Drivers of the cost of debt and their effect
 
 | Factor | Effect |
 |---|---|
@@ -147,6 +172,8 @@ Higher leverage reduces WACC but raises equity cost (financial risk premium).
 
 ### Cost of equity drivers
 
+Table: Drivers of the cost of equity and their effect
+
 | Factor | Effect |
 |---|---|
 | Risk-free rate (10-year G-Sec) | 6-7% in 2024 |
@@ -157,7 +184,7 @@ Higher leverage reduces WACC but raises equity cost (financial risk premium).
 ### Tax shield effect
 
 For 22 percent corporate tax:
-After-tax debt cost = Pre-tax × (1, 0.22) = Pre-tax × 0.78
+After-tax debt cost = Pre-tax × (1 − 0.22) = Pre-tax × 0.78
 
 This reduces effective cost of debt by ~22 percent of the pre-tax rate.
 
@@ -178,6 +205,8 @@ PPA negotiations.
 ## Sensitivity to WACC
 
 For a 100 MW solar plant:
+
+Table: Sensitivity of LCOE to WACC for a 100 MW solar plant
 
 | WACC | LCOE (₹/kWh) |
 |---|---|
@@ -211,6 +240,8 @@ Green bonds increasingly used for solar finance.
 PLI scheme reduces equipment cost, supporting lower [capex](/glossary/capex/) and IRR.
 
 ## Standards and certifications
+
+Table: Methodologies and references behind WACC
 
 | Standard | Scope |
 |---|---|

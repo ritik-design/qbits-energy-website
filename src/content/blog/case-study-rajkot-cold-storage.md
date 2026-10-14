@@ -4,7 +4,7 @@ excerpt: "Illustrative 40 kW Rajkot cold storage solar planning scenario. It is 
 description: "A 40 kW Rajkot cold-storage solar planning framework using unknown compressor and tariff inputs, not a verified customer case or result."
 category: "Case Study"
 date: 2026-06-05
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "7 min"
 image: "/og/blog-case-study-rajkot-cold-storage.webp"
 author: "Qbits Editorial"
@@ -22,9 +22,16 @@ faqs:
     a: "No. Eligibility and tax treatment depend on the applicant, site, equipment, transaction and rules in force. Verify them through the relevant official authority and qualified adviser."
 ---
 
-> **Illustrative planning scenario, not a customer case study.** The 40 kW capacity is a working brief, not a recommendation. This page is not based on a signed customer record, site survey, interval load file, design, quotation, commissioning report or measured performance dataset. Every project outcome is therefore unknown.
+> [!IMPORTANT] Illustrative planning scenario, not a customer case study
+> The 40 kW capacity is a working brief, not a recommendation. This page is not based on a signed customer record, site survey, interval load file, design, quotation, commissioning report or measured performance dataset. Every project outcome is therefore unknown.
 
 Cold storage has continuous refrigeration duty, cycling compressors and potentially sensitive controls. This scenario tests a 40 kW working brief without presenting an invented facility, bill or operating result.
+
+> [!KEYTAKEAWAYS]
+> - This is a planning scenario, not a verified customer installation. Capacity, generation, cost, savings and payback are all unknown until site records and signed project documents exist.
+> - The test is whether 40 kW of AC capacity fits the site's measured daytime load, available area, electrical infrastructure and approval route.
+> - Do not assume a grid-tied inverter drives compressor motors or supplies them during an outage. Cold-chain continuity needs its own tested emergency plan.
+> - Keep every missing input marked as unknown, and publish no generation, saving or payback result until the calculation file names every input, unit, date and source.
 
 ## What decision does this scenario test?
 
@@ -33,6 +40,8 @@ The question is not whether 40 kW “works” in the abstract. The question is w
 A credible answer must be electrically safe, acceptable under the current project process, and commercially supportable after every cost and uncertainty is shown.
 
 ## Evidence required before sizing
+
+Table: Evidence to collect before sizing the 40 kW cold-storage scenario, with status
 
 | Input | What to collect | Status in this scenario |
 | --- | --- | --- |

@@ -5,7 +5,7 @@ description: "Performance Ratio is the quality metric comparing actual to expect
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P0"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is performance ratio
   - solar pr
@@ -73,7 +73,7 @@ PR isolates plant quality from weather and location. Two plants in different cit
 
 For Indian utility solar plants, well-designed and well-maintained PR lands at 78 to 82 percent. C&I rooftop typically 75 to 80. Residential rooftop 72 to 78. New commissioning PR is the highest a plant will achieve; it declines slowly through the operating life due to degradation and ageing.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Performance Ratio (PR) is actual energy output divided by the energy expected at the same irradiance under STC, isolating plant quality from weather and location.
 > - Indian PR benchmarks: 78 to 82 percent for new utility plants, 75 to 80 percent for C&I rooftop, 72 to 78 percent for residential rooftop.
 > - PR strips out roughly 18 to 30 percent of total loss from soiling, temperature, cable losses, mismatch and inverter inefficiency.
@@ -103,7 +103,8 @@ Diagnostic tool. PR shortfalls point to specific loss mechanisms.
 
 ## How PR is calculated
 
-PR = E_actual / (P_nameplate × H_POA / G_STC)
+> [!FORMULA]
+> PR = E_actual / (P_nameplate × H_POA / G_STC)
 
 Where:
 - E_actual = actual energy generated (kWh)
@@ -111,12 +112,16 @@ Where:
 - H_POA = plane-of-array irradiation over the period (kWh/m²)
 - G_STC = STC irradiance = 1 kW/m²
 
-Example: 1 MW plant generates 4,800 kWh in a day, with H_POA = 6 kWh/m².
-PR = 4,800 / (1,000 × 6 / 1) = 4,800 / 6,000 = 0.80 = 80 percent.
+> [!EXAMPLE]
+> A 1 MW plant generates 4,800 kWh in a day, with H_POA = 6 kWh/m².
+>
+> PR = 4,800 / (1,000 × 6 / 1) = 4,800 / 6,000 = 0.80 = 80 percent.
 
 ## Technical deep dive
 
 ### Loss budget for typical Indian plant
+
+Table: Typical PR loss components for an Indian plant (component ranges are not simply additive)
 
 | Loss component | Typical magnitude |
 |---|---|
@@ -134,6 +139,8 @@ PR = 4,800 / (1,000 × 6 / 1) = 4,800 / 6,000 = 0.80 = 80 percent.
 
 ### PR variants
 
+Table: Four ways PR is reported and what each one normalises
+
 | Variant | Definition |
 |---|---|
 | Standard PR | E_actual / (P × H / G_STC) |
@@ -145,7 +152,12 @@ PR = 4,800 / (1,000 × 6 / 1) = 4,800 / 6,000 = 0.80 = 80 percent.
 
 PR is temperature-sensitive because module efficiency drops at high cell temperature. A plant operating at 60°C cell temperature has 8 to 12 percent lower instantaneous PR than at 25°C, the same effect that explains [why solar inverters produce less in Indian summer](/blog/solar-inverter-summer-derating-india/).
 
+> [!TIP] Check the sensor before the plant
+> Pyranometer drift, a sensor that is not representative of the array average, and soiling on the sensor itself all distort measured PR. Install calibrated pyranometers in the array plane, clean them regularly, and compare daily PR with the expected value so anomalies surface early.
+
 ### Commissioning vs operational PR
+
+Table: How typical PR declines from Day 1 acceptance to Year 25
 
 | Stage | Typical PR |
 |---|---|
@@ -218,6 +230,8 @@ Use temperature-corrected PR for quality assessment.
 
 ## Comparison: PR by plant type
 
+Table: Typical PR by plant type in India
+
 | Plant type | Typical PR |
 |---|---|
 | Utility tracker bifacial new | 80 to 84% |
@@ -242,6 +256,8 @@ CEA encourages PR reporting in plant performance dashboards.
 O&M contracts increasingly include PR-based incentive and penalty clauses.
 
 ## Standards and certifications
+
+Table: Standards and benchmarks that govern PR measurement
 
 | Standard | Scope |
 |---|---|

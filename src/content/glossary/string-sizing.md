@@ -5,7 +5,7 @@ description: "String sizing determines how many panels per string for a solar in
 category: "MPPT and Strings"
 categorySlug: "mppt-strings"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is string sizing
   - solar string size
@@ -77,7 +77,7 @@ The two binding constraints:
 
 A string longer than the upper limit can damage the inverter on the first cold morning. A string shorter than the lower limit forces the inverter outside its MPPT window during hot periods, losing yield. See [string voltage vs MPPT voltage in solar inverters](/blog/inverter-voltage-string-vs-mppt-in-solar-inverters/) for the full temperature-corrected design framework Indian EPCs use across cold Himalayan mornings and 65°C+ Rajasthan rooftops.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - String sizing sets how many modules connect in series per MPPT input, bounded by the inverter's MPPT voltage window at cold and hot temperature extremes.
 > - Maximum string Voc at the coldest expected temperature must stay below the inverter's absolute maximum DC input voltage, or the inverter can be destroyed.
 > - Minimum string Vmp at the hottest expected temperature must stay above the inverter's MPPT lower limit, or yield is lost to de-rating.
@@ -101,7 +101,8 @@ Regulatory acceptance. CEIG and DISCOM commissioning verify string configuration
 
 ### Upper bound (cold morning)
 
-Voc_string_cold = N × Voc_module_STC × (1 + βVoc × (Tmin_cell − 25))
+> [!FORMULA] Upper bound, cold morning
+> Voc_string_cold = N × Voc_module_STC × (1 + βVoc × (Tmin_cell − 25))
 
 Where:
 - N = number of modules in series
@@ -112,7 +113,8 @@ Constraint: Voc_string_cold ≤ V_inverter_max_DC
 
 ### Lower bound (hot noon)
 
-Vmp_string_hot = N × Vmp_module_STC × (1 + βVmp × (Tmax_cell − 25))
+> [!FORMULA] Lower bound, hot noon
+> Vmp_string_hot = N × Vmp_module_STC × (1 + βVmp × (Tmax_cell − 25))
 
 Constraint: Vmp_string_hot ≥ V_MPPT_lower
 
@@ -120,21 +122,24 @@ Constraint: Vmp_string_hot ≥ V_MPPT_lower
 
 ### Worked example (Indian C&I rooftop)
 
-Inverter: 25 kW, MPPT range 200 to 950 V, max DC 1100 V.
-Module: 540 W bifacial mono PERC, Voc 49.5 V, Vmp 41.4 V, βVoc = -0.27%/°C, βVmp = -0.36%/°C.
-Site: Mumbai. Tmin = 5°C, Tmax cell = 70°C.
-
-Upper bound:
-Voc_cold = N × 49.5 × (1 + (-0.0027) × (5 − 25)) = N × 49.5 × 1.054 = N × 52.17
-N_max = 1100 / 52.17 = 21.08 → 21 modules
-
-Lower bound:
-Vmp_hot = N × 41.4 × (1 + (-0.0036) × (70 − 25)) = N × 41.4 × 0.838 = N × 34.69
-N_min = 200 / 34.69 = 5.77 → 6 modules
-
-Acceptable string range: 6 to 21 modules per MPPT.
+> [!EXAMPLE] Mumbai C&I rooftop, 25 kW inverter
+> Inverter: 25 kW, MPPT range 200 to 950 V, max DC 1100 V.
+> Module: 540 W bifacial mono PERC, Voc 49.5 V, Vmp 41.4 V, βVoc = -0.27%/°C, βVmp = -0.36%/°C.
+> Site: Mumbai. Tmin = 5°C, Tmax cell = 70°C.
+>
+> Upper bound:
+> Voc_cold = N × 49.5 × (1 + (-0.0027) × (5 − 25)) = N × 49.5 × 1.054 = N × 52.17
+> N_max = 1100 / 52.17 = 21.08 → 21 modules
+>
+> Lower bound:
+> Vmp_hot = N × 41.4 × (1 + (-0.0036) × (70 − 25)) = N × 41.4 × 0.838 = N × 34.69
+> N_min = 200 / 34.69 = 5.77 → 6 modules
+>
+> Acceptable string range: 6 to 21 modules per MPPT.
 
 ### Indian regional Tmin assumptions
+
+Table: Design minimum temperature (Tmin) assumed by Indian region
 
 | Region | Tmin (°C) for design |
 |---|---|
@@ -148,6 +153,8 @@ Acceptable string range: 6 to 21 modules per MPPT.
 
 ### Temperature coefficient by cell technology
 
+Table: Temperature coefficients by cell technology
+
 | Cell | βVoc (%/°C) | βVmp (%/°C) | βPmax (%/°C) |
 |---|---|---|---|
 | PERC | -0.27 | -0.36 | -0.36 |
@@ -155,6 +162,8 @@ Acceptable string range: 6 to 21 modules per MPPT.
 | HJT | -0.21 | -0.26 | -0.26 |
 
 ### Common Indian residential string ranges
+
+Table: Common Indian residential string ranges by inverter MPPT window
 
 | Inverter MPPT | Module Voc 41-50 V | Typical string |
 |---|---|---|
@@ -204,6 +213,8 @@ Specify cold-climate ratings for high-altitude installations.
 
 ## Comparison: residential vs utility string sizing
 
+Table: Residential and utility string sizing compared
+
 | Aspect | Residential | Utility |
 |---|---|---|
 | Inverter max DC | 600 V | 1500 V |
@@ -224,6 +235,8 @@ ALMM-listed module datasheets provide Voc, Vmp and temperature coefficients requ
 PM Surya Ghar residential installations use installer-side sizing tools.
 
 ## Standards and certifications
+
+Table: Documents and standards that govern string sizing
 
 | Standard | Scope |
 |---|---|

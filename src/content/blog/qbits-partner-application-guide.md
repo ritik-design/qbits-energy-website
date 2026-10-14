@@ -35,11 +35,20 @@ The current **Qbits partner application** asks for five required items: company 
 
 Those questions help create a business profile for review. They do not reveal a published eligibility score. A large turnover, warehouse, sales team, or monthly target does not guarantee approval. The form is an application, not a dealer or distributor appointment.
 
-> **Before you open the form:** prepare one accurate worksheet, use figures from the same reporting date, separate current resources from plans, and read the [Qbits Privacy Policy](/privacy-policy/). The form currently has no visible document-upload field and no public save-and-resume step.
+> [!KEYTAKEAWAYS]
+> - As checked on 26 September 2026, five fields are required: company name, registered address, official business email, a 10-digit WhatsApp number and GST number.
+> - The form has five sections: company information, business profile, infrastructure and team, financial details, and sales commitment.
+> - The public page does not publish a scoring model, minimum investment, response time, territory, margin or credit term, and the form has no visible document-upload field.
+> - Submission is an application for review, not a dealer or distributor appointment.
+
+> [!TIP] Before you open the form
+> Prepare one accurate worksheet, use figures from the same reporting date, separate current resources from plans, and read the [Qbits Privacy Policy](/privacy-policy/). The form currently has no visible document-upload field and no public save-and-resume step.
 
 ## The form has five sections
 
 As checked on 26 September 2026, the application groups its questions like this:
+
+Table: The five sections of the Qbits partner application and what each answer can clarify
 
 | Section | What the current form asks | What the answer can clarify |
 | --- | --- | --- |
@@ -71,6 +80,8 @@ The other visible questions are not marked required in the current form. That is
 
 Use the same business identity across the company name, registered address, email, website, and tax details. Small variations can make an otherwise straightforward application harder to reconcile.
 
+Table: Company information fields, what to prepare and what to avoid
+
 | Field | Prepare this before applying | Avoid this |
 | --- | --- | --- |
 | Company name | The current registered or trading name you intend Qbits to review | A shortened name that cannot be tied to your records |
@@ -80,7 +91,8 @@ Use the same business identity across the company name, registered address, emai
 | Website | The full address beginning with `https://` if one exists | An unfinished or unrelated domain |
 | GST number | The identifier Qbits expects for your business | A guessed number or another entity's registration |
 
-The current form does not ask applicants to upload a GST certificate, PAN card, bank statement, or identity document. Keep supporting records available for later verification, but do not send passwords, one-time passcodes, or unrequested identity documents.
+> [!CAUTION] No documents, passwords or passcodes by email
+> The current form does not ask applicants to upload a GST certificate, PAN card, bank statement, or identity document. Keep supporting records available for later verification, but do not send passwords, one-time passcodes, or unrequested identity documents.
 
 ## Business-profile fields establish the route and context
 
@@ -150,15 +162,16 @@ The policy provides `service@qbitsenergy.com` for access, correction, or deletio
 
 Read the completed worksheet from top to bottom before copying it into the form.
 
-- Does the company identity match current records?
-- Is the business role the one you actually want reviewed?
-- Are current brands and EPC details disclosed only where applicable?
-- Are owned, rented, contracted, and planned resources separated?
-- Do turnover, working capital, debt, and credit figures use one reporting date?
-- Can the sales target be explained from real assumptions?
-- Is previous experience factual and specific?
-- Have you removed passwords, one-time passcodes, unrequested identity data, and unsupported claims?
-- Have you read the current privacy notice and saved a dated copy of your answers?
+> [!CHECKLIST] Pre-submission check
+> - Does the company identity match current records?
+> - Is the business role the one you actually want reviewed?
+> - Are current brands and EPC details disclosed only where applicable?
+> - Are owned, rented, contracted, and planned resources separated?
+> - Do turnover, working capital, debt, and credit figures use one reporting date?
+> - Can the sales target be explained from real assumptions?
+> - Is previous experience factual and specific?
+> - Have you removed passwords, one-time passcodes, unrequested identity data, and unsupported claims?
+> - Have you read the current privacy notice and saved a dated copy of your answers?
 
 The form does not publish an approval time. Its success message says Qbits will review the details and make contact. Do not buy stock, hire staff, promise territory, or describe the business as an authorised partner based only on a submission acknowledgement.
 

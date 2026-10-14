@@ -5,7 +5,7 @@ description: "OPEX is the recurring operating cost of a solar project. Full guid
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is opex
   - solar opex
@@ -65,7 +65,7 @@ author: "Akash Hirapara"
 
 OPEX, Operating Expenditure, is the recurring cost of running a solar plant over its operational life. It includes preventive and corrective maintenance, module and array cleaning, monitoring, insurance, security, land lease (for utility), property tax, spare parts, and replacement of consumable components.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - OPEX is the recurring cost of running a solar plant over its 25-year life, covering cleaning, maintenance, insurance, land lease and spare parts.
 > - Indian utility-scale OPEX runs ₹5 to ₹12 lakh per MW per year; C&I rooftop ₹4 to ₹8 lakh; residential ₹3,000 to ₹8,000 per kW per year.
 > - Cleaning and preventive maintenance account for 40 to 60 percent of total OPEX, the single largest component.
@@ -98,6 +98,8 @@ Customer expectation. Residential customers often expect "set and forget" OPEX, 
 
 ## Components of OPEX
 
+Table: Components of solar OPEX and their approximate share
+
 | Component | Approximate share of OPEX |
 |---|---|
 | Preventive maintenance and cleaning | 40 to 60% |
@@ -112,6 +114,8 @@ Customer expectation. Residential customers often expect "set and forget" OPEX, 
 ## Technical deep dive
 
 ### Indian solar OPEX benchmarks (2026, ₹/MW/year)
+
+Table: Indian solar OPEX benchmarks by project type, 2026 (₹ lakh per MW per year)
 
 | Project type | OPEX range (₹ lakh/MW/year) |
 |---|---|
@@ -128,15 +132,30 @@ Typical inflation-linked escalation of 3 to 5 percent per year. Some PPAs includ
 
 ### OPEX vs revenue
 
-For a 1 MW utility plant in 2026:
-- Annual revenue at ₹2.75/kWh × 1,700,000 kWh = ₹46.75 lakh
-- Annual OPEX = ₹8 lakh
-- Net cash flow before debt = ₹38.75 lakh
-- OPEX as % of revenue = 17%
+> [!EXAMPLE] 1 MW utility plant in 2026
+> - Annual revenue at ₹2.75/kWh × 1,700,000 kWh = ₹46.75 lakh
+> - Annual OPEX = ₹8 lakh
+> - Net cash flow before debt = ₹38.75 lakh
+> - OPEX as % of revenue = 17%
+
+```chart
+type: hbar
+title: Annual revenue, OPEX and net cash flow before debt for a 1 MW utility plant
+unit: "₹ lakh"
+source: "Calculated in this entry from the stated inputs: ₹2.75/kWh, 1,700,000 kWh a year and ₹8 lakh OPEX"
+note: "Illustrative 2026 example, not a quote or a benchmark for any specific plant."
+decimals: 2
+data:
+  - { label: "Annual revenue", value: 46.75 }
+  - { label: "Annual OPEX", value: 8 }
+  - { label: "Net cash flow before debt", value: 38.75 }
+```
 
 Developers modelling this trade-off across a portfolio typically run it through a dedicated [solar financial modelling tool](https://surgepv.com/generation-financial-tool/) rather than a spreadsheet, since OPEX escalation compounds differently from revenue escalation over 25 years.
 
 ### Cleaning frequency in Indian conditions
+
+Table: Cleaning cycle by Indian region
 
 | Region | Cleaning cycle |
 |---|---|
@@ -216,6 +235,8 @@ Track [soiling](/glossary/soiling/) losses against cleaning ROI.
 
 ## Comparison: OPEX components across project types
 
+Table: OPEX components compared across utility, C&I and residential projects
+
 | Component | Utility | C&I rooftop | Residential rooftop |
 |---|---|---|---|
 | Cleaning | Major | Moderate | Annual or biannual |
@@ -238,6 +259,8 @@ PM Surya Ghar mandates 5-year comprehensive maintenance bundled with installatio
 RESCO PPAs include developer-borne O&M for the contract duration.
 
 ## Standards and certifications
+
+Table: Standards and frameworks relevant to solar OPEX
 
 | Standard | Scope |
 |---|---|
@@ -269,7 +292,7 @@ OPEX is the recurring cost of running a solar plant over 25 years. Indian utilit
 
 ## Need solar plant O&M contracts that work?
 
-QBits Energy structures and executes comprehensive O&M contracts for utility, C&I and residential solar plants across India.
+O&M contracts are normally signed with the EPC that built the plant or a specialist O&M operator. Qbits Energy makes solar inverters; for inverter service support, see the [authorised service partner network](/authorized-service-partners/).
 
 ## Further reading
 

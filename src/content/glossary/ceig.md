@@ -5,7 +5,7 @@ description: "CEIG is the state-level electrical safety authority that approves 
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is ceig
   - chief electrical inspector
@@ -66,7 +66,7 @@ author: "Nirav Dhanani"
 
 The Chief Electrical Inspector to Government (CEIG) is the state-level statutory authority responsible for electrical safety approval of electrical installations within the state. Each state has an Electrical Inspectorate headed by the CEIG, operating under powers conferred by the Indian Electricity Rules 1956 (and successor regulations) and state-specific electricity acts.
 
-> **TL;DR**
+> [!NOTE] In short
 > - CEIG (Chief Electrical Inspector to Government) is the state electrical safety authority that must approve solar installations before energisation.
 > - Approval covers the single-line diagram, earthing, transformer installation, HT/LT switchgear and fire safety, and is separate from DISCOM grid interconnection.
 > - Most states require CEIG approval above 10 kW, and it is always required for HT connections and utility-scale plants.
@@ -74,6 +74,9 @@ The Chief Electrical Inspector to Government (CEIG) is the state-level statutory
 > - Earthing inadequacy and incomplete single-line diagrams are the most common causes of first-inspection rejection.
 
 For solar projects, the CEIG approves the [single-line diagram](/glossary/single-line-diagram/), plant electrical layout, [earthing](/glossary/earthing/) arrangement, transformer installation, HT/LT switchgear, fire safety arrangements and overall electrical safety design. Approval is required before the installation can be energised and is independent of [DISCOM](/glossary/discom/) grid interconnection commissioning.
+
+> [!WARNING] Do not energise before approval
+> CEIG approval is required before the installation can be energised, and it is separate from DISCOM interconnection. Earthing inadequacy and incomplete single-line diagram details are the most common causes of rework at first inspection, which delays commissioning.
 
 The threshold for CEIG approval varies by state. Most states require approval for installations above 10 kW or for any HT-connected installation. Some states require approval for all rooftop solar installations regardless of size.
 
@@ -95,6 +98,8 @@ Insurance. Most insurers require CEIG approval as a precondition for coverage.
 
 ## When CEIG approval is needed
 
+Table: Typical CEIG approval threshold by installation type
+
 | Installation type | CEIG threshold (typical) |
 |---|---|
 | Residential rooftop below 5 kW | Not required in most states |
@@ -105,6 +110,7 @@ Insurance. Most insurers require CEIG approval as a precondition for coverage.
 
 ## CEIG approval process
 
+<!-- steps -->
 1. Drawing submission. Single-line diagram, electrical layout, earthing layout and equipment details.
 2. Drawing review. CEIG raises queries if any.
 3. Drawing approval. Permits installation per approved design.
@@ -165,6 +171,9 @@ State-specific document format requirements.
 
 Engage a licensed electrical contractor familiar with the local CEIG, or work with a firm that already prepares CEIG-compliant electrical drawings as part of the design package.
 
+> [!TIP] Run the fire NOC in parallel
+> Fire safety NOC dependency can add weeks, so apply for it alongside the CEIG application and submit drawings early, ideally during the installation phase. Specify earthing resistance below 5 ohms and photograph earthing pits and SPD installation for the file.
+
 Submit drawings early, ideally during installation phase.
 
 Use standard symbols and notations on the SLD.
@@ -186,6 +195,8 @@ CEIG fees and process steps vary materially across states. Some states have move
 For PM Surya Ghar and similar residential schemes, smaller installations often fall below the CEIG approval threshold.
 
 ## Standards and certifications
+
+Table: Statutes and standards behind CEIG approval
 
 | Standard | Scope |
 |---|---|

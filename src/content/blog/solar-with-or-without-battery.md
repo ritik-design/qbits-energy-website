@@ -31,6 +31,13 @@ The **solar battery vs no battery** decision starts with the job. If the goal is
 
 Do not let one financial claim answer a resilience question or one outage concern justify an uneconomic design without being explicit. This guide separates the goals, then provides a buy-now, add-later, or no-battery decision record.
 
+> [!KEYTAKEAWAYS]
+> - Start with the job: bill reduction while the grid is available may not need storage, while outage backup, evening shifting or export control call for a compatible battery system modelled on actual loads, tariff and rules.
+> - An ordinary grid-tied inverter stops energising the utility connection after grid loss and does not provide household backup by itself.
+> - Model the battery as a separate cash-flow case, and do not assign an invented rupee value to outage resilience.
+> - The cited PM Surya Ghar residential guideline allows battery storage as an additional component but calculates CFA from eligible solar-module capacity, with no separate battery-capacity grant.
+> - Choose buy now, add later or no battery only after documenting exact-model compatibility, approvals, warranty and service.
+
 ## What changes when solar has no battery?
 
 **A no-battery grid-tied system converts available PV power for onsite use and approved export while the utility connection is present.** It avoids battery cost, integration, operating limits, degradation, and replacement, but an ordinary grid-tied inverter stops energising the utility connection after grid loss and does not provide household backup by itself.
@@ -44,11 +51,16 @@ No-battery solar can fit when:
 - the roof and array are suitable; and
 - a battery's additional capability does not justify its supported current and future costs.
 
+> [!IMPORTANT] Grid-tied means no supply in a power cut
+> A no-battery grid-tied system stops energising the utility connection after grid loss. Do not expect it to keep the lights on unless the exact design and models are documented to do so.
+
 This is not a promise of a zero bill. Fixed charges, unmatched consumption, seasonal generation, export rules and other bill components can remain.
 
 ## What can a battery add to a solar system?
 
 **A compatible battery system can store energy and may support defined backup, self-consumption shifting, export control, peak management, or other documented modes.** Its actual value depends on inverter and BMS compatibility, usable energy, power, efficiency, operating limits, load timing, tariff, outage need, controls, approvals, degradation, warranty, service, and replacement assumptions.
+
+Table: What a battery can add and the evidence needed for each use
 
 | Possible value | Evidence needed |
 | --- | --- |
@@ -81,6 +93,8 @@ Do not assume every midday surplus unit can be stored and later delivered. Energ
 
 **List critical circuits, simultaneous and starting loads, required duration, outage timing, priority, acceptable load shedding, and behaviour when solar or battery is unavailable.** Then verify the exact inverter's backup output, phase, transfer, grid-forming, battery, protection, isolation, control, and restoration capabilities through documents and witnessed tests.
 
+Table: Outage backup worksheet to complete before choosing a battery system
+
 | Backup question | Household answer |
 | --- | --- |
 | Which circuits must run? |  |
@@ -111,11 +125,16 @@ The [rooftop-solar worth-it worksheet](/blog/is-solar-worth-it-india-2026/) cove
 
 **Verify exact inverter and battery models, electrical limits, BMS communication, firmware, operating modes, protection, environmental conditions, monitoring, warranties, service, single-line diagram, grid and meter arrangement, current scheme treatment, and applicable DISCOM requirements.** A technically compatible battery does not establish subsidy eligibility or utility approval, and policy eligibility does not prove compatibility.
 
-The current cited PM Surya Ghar residential guideline allows battery storage as an additional component while calculating CFA from eligible installed solar-module capacity. It does not create a separate battery-capacity grant in that cited schedule. Read the [PM Surya Ghar battery-storage guide](/blog/pm-surya-ghar-battery-storage-update/) and recheck official amendments for the project date.
+> [!NOTE] Battery storage under PM Surya Ghar
+> The current cited PM Surya Ghar residential guideline allows battery storage as an additional component while calculating CFA from eligible installed solar-module capacity. It does not create a separate battery-capacity grant in that cited schedule.
+
+Read the [PM Surya Ghar battery-storage guide](/blog/pm-surya-ghar-battery-storage-update/) and recheck official amendments for the project date.
 
 ## Should the battery be bought now or added later?
 
 **Buy now when the supported battery capability is needed now and the complete design, cost, compatibility, approvals, warranty, service, and commissioning case is acceptable.** Add later when current value is insufficient but a documented retrofit path is worth preserving. Choose no battery when storage does not solve a required or justified job.
+
+Table: Buy now, add later, no battery or reassess, with the conditions to document for each
 
 | Decision | Conditions to document |
 | --- | --- |
@@ -132,6 +151,7 @@ The [add-a-battery-later guide](/blog/add-battery-to-solar-system-later/) covers
 
 Before signing:
 
+<!-- steps -->
 1. State the goal: savings, backup, shifting, export control, or another supported use.
 2. Build time-aligned load and PV profiles.
 3. Define critical loads and outage behaviour.

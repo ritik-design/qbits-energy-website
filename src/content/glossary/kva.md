@@ -60,9 +60,19 @@ author: Nirav Dhanani
 
 For a sinusoidal single-phase circuit: **kVA = volts RMS × amperes RMS ÷ 1,000**. For a balanced three-phase circuit: **kVA = √3 × line-to-line volts RMS × line amperes RMS ÷ 1,000**. Use the correct voltage and current convention before applying a formula to a real connection.
 
+> [!KEYTAKEAWAYS]
+> - kVA is apparent power, the voltage-current product the equipment has to carry. kW is the active part that does useful work, and power factor links the two.
+> - Convert with the power factor stated: a 5 kVA inverter at a power factor of 0.8 delivers 5 × 0.8 = 4 kW.
+> - A kVA label alone does not tell you battery backup duration, motor-start capability, PV input or grid-export approval.
+> - Commercial and industrial DISCOM tariffs commonly use kVA for contract or maximum demand, while a household connection is often stated in kW.
+> - Quote the kW and kVA figures from the datasheet of the exact model, never from another model.
+
 ## Why apparent power exists
 
 In a DC circuit, power is voltage times current. In an AC circuit, voltage and current alternate, and they can be out of step. The product of their RMS values (kVA) is the total the equipment has to carry. Only the in-phase part does useful work (kW). The remainder, called [reactive power](/glossary/reactive-power/) (kVAR), moves back and forth between the source and the load. The three are linked by:
+
+> [!FORMULA]
+> kVA² = kW² + kVAR², and power factor = kW ÷ kVA
 
 **kVA² = kW² + kVAR²**, and **power factor = kW ÷ kVA**.
 
@@ -70,7 +80,10 @@ Because conductors, windings and power electronics heat according to the current
 
 ## kVA versus kW: a checked example
 
-If an inverter can supply **5 kVA** continuously at a power factor of **0.8**, its active power at that operating point is **5 × 0.8 = 4 kW**. At a power factor of 1.0, **5 kVA** corresponds to **5 kW**, but only if the product's separate continuous kW rating also permits it. These are arithmetic examples, not Qbits model specifications.
+> [!EXAMPLE] 5 kVA at two power factors
+> If an inverter can supply **5 kVA** continuously at a power factor of **0.8**, its active power at that operating point is **5 × 0.8 = 4 kW**. At a power factor of 1.0, **5 kVA** corresponds to **5 kW**, but only if the product's separate continuous kW rating also permits it. These are arithmetic examples, not Qbits model specifications.
+
+Table: Active power (kW) delivered by a 5 kVA supply at different power factors
 
 | Power factor | kW delivered by 5 kVA |
 | --- | --- |
@@ -79,6 +92,22 @@ If an inverter can supply **5 kVA** continuously at a power factor of **0.8**, i
 | 0.90 | 4.5 |
 | 0.80 | 4.0 |
 | 0.70 | 3.5 |
+
+```chart
+type: bar
+title: Active power delivered by a 5 kVA supply at different power factors
+unit: "kW"
+source: "Calculated in this entry as 5 kVA multiplied by power factor, using the values in the table above"
+note: "A lower power factor leaves less of the apparent power available as useful kW."
+data:
+  - { label: "PF 1.00", value: 5.0 }
+  - { label: "PF 0.95", value: 4.75 }
+  - { label: "PF 0.90", value: 4.5 }
+  - { label: "PF 0.80", value: 4.0 }
+  - { label: "PF 0.70", value: 3.5 }
+```
+
+Table: The five electrical quantities and what each one answers
 
 | Quantity | Unit | What it helps answer |
 | --- | --- | --- |
@@ -130,6 +159,9 @@ Many commercial and industrial tariffs bill or limit a maximum demand in kVA, an
 
 ## Common kVA problems
 
+> [!WARNING] 5 kVA does not mean 5 kW of load
+> A customer who assumes a 5 kVA inverter will run 5 kW of load at a lower power factor will be short: at 0.8 the ceiling is 4 kW. A quotation that converts kVA to kW without stating the power factor assumed hides the same gap.
+
 - A customer assumes a 5 kVA inverter will run 5 kW of load at a lower power factor.
 - An off-grid or backup inverter trips when a motor starts because the starting current exceeds its overload capability.
 - A site exceeds contract demand because kVA, not kW, is what the utility measures.
@@ -149,6 +181,8 @@ Many commercial and industrial tariffs bill or limit a maximum demand in kVA, an
 DISCOM tariffs for commercial and industrial consumers commonly use kVA for contract or maximum demand, while a household connection is often stated in kW, depending on the state. Rooftop solar under residential schemes is typically described in kW of installed capacity, with kVA as a secondary inverter specification. Check the tariff order of your state commission for the unit that applies.
 
 ## Standards and references
+
+Table: References behind kVA ratings and demand charges
 
 | Reference | Scope |
 | --- | --- |

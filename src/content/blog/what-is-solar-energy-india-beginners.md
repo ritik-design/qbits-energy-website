@@ -4,7 +4,7 @@ excerpt: "What is solar energy? It is electricity generated from sunlight using 
 description: "What is solar energy? Electricity generated from sunlight via photovoltaic cells. With 300 sunny days a year, it's one of India's smartest investments."
 category: Guide
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-what-is-solar-energy-india-beginners.webp"
 author: "Nirav Dhanani"
@@ -39,13 +39,12 @@ faqs:
 
 Every month, thousands of Indian homeowners type "what is solar energy" into a search bar after seeing a neighbour's rooftop installation or receiving yet another steep electricity bill. The concept sounds familiar (the sun, panels, savings) but the mechanics often remain fuzzy. This guide explains solar energy from first principles, in plain language, with real numbers from the Indian grid.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Solar energy is electricity produced when sunlight strikes silicon cells through the photovoltaic effect, discovered by Edmond Becquerel in 1839.
 > - India receives 300 sunny days a year and 5–6 kWh/m²/day of irradiance across most states, letting a 3 kW rooftop system save roughly ₹40,000–₹50,000 a year.
 > - The three system types are on-grid (cheapest, no backup), hybrid (battery backup, 25–40% costlier), and off-grid (for locations with no DISCOM connection).
 > - Net metering credits surplus daytime export against night-time consumption, removing the need for a large battery on a grid-tied home.
-> - Panels degrade only 0.5–0.7% a year, so a 25-year-old panel still delivers 85–90% of its original output.
-> - A poorly installed system can underperform its estimate by 15–25%, which is why ALMM-listed equipment and a reliable installer matter as much as the panels themselves.
+> - Panels degrade only 0.5–0.7% a year, so a 25-year-old panel still delivers 85–90% of its original output. A poorly installed system can underperform its estimate by 15–25%, which is why ALMM-listed equipment and a reliable installer matter as much as the panels themselves.
 
 > **Direct answer.** Solar energy is electricity produced by sunlight striking silicon cells through the photovoltaic effect, discovered in 1839. India receives 300 sunny days per year and 5–6 kWh/m²/day of irradiance across most states, making a 3 kW rooftop system capable of saving ₹40,000+ per year. The three system types (on-grid, hybrid, and off-grid) suit different household situations. This guide is the "Solar Energy in 3 Minutes: The Beginner's Flow."
 
@@ -81,6 +80,8 @@ A high-quality inverter with 98% peak efficiency loses only 2% of the DC energy 
 
 India holds one of the most favourable solar geographies on the planet. The country lies between latitudes 8° N and 37° N, a band that captures intense, year-round irradiance across most of its landmass.
 
+Table: Irradiance, sunny days and annual yield per kW by Indian region
+
 | State / Region | Avg Irradiance (kWh/m²/day) | Sunny Days/Year | Annual Yield per kW |
 | --- | --- | --- | --- |
 | Rajasthan, Gujarat | 6.0–6.5 | 320–330 | 1,800–2,000 kWh |
@@ -91,6 +92,25 @@ India holds one of the most favourable solar geographies on the planet. The coun
 | Kerala, Assam | 4.0–4.8 | 200–240 | 1,100–1,300 kWh |
 
 *Source - [NREL India Solar Resource Data](https://www.nrel.gov/international/ra_india.html), 2024; [IRENA Solar Resource Atlas](https://www.irena.org/), 2025.*
+
+```chart
+type: hbar
+title: Annual solar yield per kW of rooftop capacity, by Indian region
+unit: "kWh/kW/year"
+source: "NREL India Solar Resource Data, 2024; IRENA Solar Resource Atlas, 2025, as cited in the table above"
+sourceUrl: https://www.nrel.gov/international/ra_india.html
+note: "Ranges, not point values. Actual yield depends on the site, tilt, shading and system quality."
+data:
+  - { label: "Rajasthan, Gujarat", min: 1800, max: 2000 }
+  - { label: "Maharashtra, MP", min: 1600, max: 1800 }
+  - { label: "Karnataka, Tamil Nadu", min: 1500, max: 1700 }
+  - { label: "Delhi, UP, Haryana", min: 1400, max: 1600 }
+  - { label: "West Bengal, Odisha", min: 1300, max: 1500 }
+  - { label: "Kerala, Assam", min: 1100, max: 1300 }
+```
+
+> [!FORMULA] Annual savings
+> Annual savings = System size (kW) × annual yield per kW × tariff (₹ per unit)
 
 The practical implication: a 3 kW rooftop system in Karnataka generates approximately 4,500–5,100 units per year. At a grid tariff of ₹8/unit, that is ₹36,000–₹40,800 in annual savings, before accounting for net metering export credits.
 
@@ -142,6 +162,7 @@ Every beginner asking "what is solar energy" ultimately wants to know: how does 
 
 ### The Solar Energy in 3 Minutes: The Beginner's Flow
 
+<!-- steps -->
 1. **Sunlight hits the panel**: Photons excite silicon electrons; each cell produces ~0.5 V of DC current.
 2. **Modules aggregate the voltage**: 60–96 cells in series per module produce 30–50 V; strings of modules reach 300–800 V.
 3. **The MPPT inverter converts DC to AC**: The inverter tracks the optimal operating voltage second-by-second and converts DC to 230 V AC at 50 Hz.
@@ -155,11 +176,14 @@ The flow above summarises the journey from photon to bill reduction. Every compo
 
 The most common beginner question after understanding the basics is: "How many panels do I need, and how much will I save?" The answer depends on three variables: your consumption, your state's irradiance, and your roof area.
 
-**Rule of thumb:** 1 kW of solar capacity generates approximately 4–5 units per day in most Indian states (excluding the far north-east and hill stations). A 3 kW system generates roughly 12–15 units per day, enough for a 2–3 BHK home running 1.5 tonne air-conditioner, refrigerator, TV, fans, lights, and a washing machine.
+> [!TIP] Rule of thumb
+> 1 kW of solar capacity generates approximately 4–5 units per day in most Indian states (excluding the far north-east and hill stations). A 3 kW system generates roughly 12–15 units per day, enough for a 2–3 BHK home running 1.5 tonne air-conditioner, refrigerator, TV, fans, lights, and a washing machine.
 
 > **₹78,000.** Maximum central government subsidy under PM Surya Ghar Muft Bijli Yojana for a 3 kW residential system, credited directly to the homeowner's bank account post-installation. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
 **Worked example, 3 kW system in Tamil Nadu:**
+
+Table: Worked example for a 3 kW system in Tamil Nadu, with generation, savings and payback
 
 | Parameter | Value |
 | --- | --- |
@@ -180,7 +204,7 @@ A beginner's guide is incomplete without addressing the limitations that sales p
 
 - **Solar does not power your home at night (on-grid)**: Without a battery, your panels produce zero output after sunset. You draw from the grid exactly as before, but your net meter credit offsets those units.
 - **Panel output degrades over time**: Quality panels [degrade](/glossary/degradation/) at 0.5–0.7% per year. After 25 years, output is 85–90% of the original. This is accounted for in the manufacturer's linear power warranty.
-- **Roof area is a limiting factor**: Each kW of solar requires roughly 8–10 sq ft of shadow-free roof area. A 3 kW system needs approximately 24–30 sq ft of usable south- or west-facing roof space, a figure worth confirming with a proper site survey rather than a rough measurement.
+- **Roof area is a limiting factor**: Each kW of solar requires roughly 8–10 square metres (about 86–108 sq ft) of shadow-free roof area. A 3 kW system needs approximately 24–30 square metres (about 260–320 sq ft) of usable south- or west-facing roof space, a figure worth confirming with a proper site survey rather than a rough measurement.
 - **DISCOM approval takes time**: Net metering approval from your state DISCOM can take 15 days to 3 months depending on the state. Kerala is notoriously slow; Gujarat and Maharashtra are faster.
 
 ## Common Beginner Myths About Solar Energy in India

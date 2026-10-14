@@ -5,7 +5,7 @@ description: "Fault ride through (FRT) keeps solar inverters connected through b
 category: "Grid Compliance"
 categorySlug: "grid-compliance"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is fault ride through
   - lvrt
@@ -67,7 +67,7 @@ author: "Keyur Rakholiya"
 
 Fault Ride Through (FRT) is the grid-code requirement that an inverter-based generator stay connected to the grid during brief voltage and frequency disturbances, and support voltage and frequency recovery through reactive and active power injection. FRT includes Low Voltage Ride Through (LVRT) for dips and High Voltage Ride Through (HVRT) for swells.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - FRT requires solar and wind inverters to stay connected through brief voltage or frequency disturbances instead of tripping, while injecting reactive support.
 > - CEA Grid Code 2019 makes FRT mandatory in India for generators above 10 kW.
 > - LVRT requires ride-through down to 15 percent of nominal voltage for 150 ms, with a recovery curve back to 0.85 pu by 1500 ms.
@@ -111,6 +111,8 @@ Smart inverter foundation. FRT is one of the core [smart-inverter](/glossary/sma
 
 ### LVRT profile (CEA Grid Code 2019)
 
+Table: LVRT profile under CEA Grid Code 2019: voltage band, time and action
+
 | Voltage (pu) | Time (ms) | Action |
 |---|---|---|
 | 1.0 | Steady | Normal operation |
@@ -123,6 +125,8 @@ The recovery curve linearly increases the minimum permitted voltage from 0.15 pu
 
 ### HVRT profile
 
+Table: HVRT profile: voltage band, time and action
+
 | Voltage (pu) | Time (ms) | Action |
 |---|---|---|
 | 1.0 to 1.10 | Indefinite | Normal operation |
@@ -134,7 +138,8 @@ The recovery curve linearly increases the minimum permitted voltage from 0.15 pu
 
 During the dip, the inverter injects reactive current Iq:
 
-Iq = K × (Vnominal − V) × Irated
+> [!FORMULA] Reactive current during a dip
+> Iq = K × (Vnominal − V) × Irated
 
 Where K is typically 2.0 to 4.0 per unit. Reactive injection is capped at 100 percent of rated apparent power.
 
@@ -210,12 +215,17 @@ Plan for combined LVRT, HVRT and frequency response settings.
 
 ## Comparison: FRT vs anti-islanding vs UV protection
 
+Table: FRT compared with anti-islanding and sustained voltage or frequency trips
+
 | Protection | Acts when | Action |
 |---|---|---|
 | Anti-islanding | Grid fully lost | Disconnect within 2 s |
 | FRT | Brief voltage or frequency disturbance | Stay connected, inject reactive |
 | UV/OV trip | Voltage outside tolerance band, sustained | Disconnect |
 | Frequency trip | Frequency outside band, sustained | Disconnect |
+
+> [!WARNING] FRT must not mask a real grid loss
+> FRT keeps the inverter connected through a brief disturbance, while anti-islanding disconnects it when the grid is genuinely lost. False ride-through during real grid loss could compromise safety unless FRT is coordinated with [anti-islanding](/glossary/anti-islanding/) protection, and an uncoordinated pair can trigger both protections at once.
 
 ## Indian market context
 
@@ -228,6 +238,8 @@ Major inverter brands like Sungrow, Sineng, Huawei, ABB, Solis, Goodwe and other
 Plant-level FRT testing is performed at commissioning by [DISCOMs](/glossary/discom/) using available grid simulator capability or by relay-driven switching.
 
 ## Standards and certifications
+
+Table: Standards and codes that define FRT requirements
 
 | Standard | Scope |
 |---|---|

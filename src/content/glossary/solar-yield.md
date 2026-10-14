@@ -5,7 +5,7 @@ description: "Solar yield is the annual energy generated per kW of installed sol
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is solar yield
   - specific yield solar
@@ -74,7 +74,7 @@ Solar yield captures everything that affects annual generation: irradiance, tech
 
 For Indian solar, yield ranges from 1,200 kWh/kWp in the north-eastern states to 1,900 kWh/kWp in Rajasthan and Gujarat for utility-scale bifacial tracker plants. Residential rooftop yields are typically 100 to 200 kWh/kWp lower due to suboptimal orientation and shading, a gap explored in detail in [Solar Yield in India, kWh-per-kW Benchmarks by State](/blog/solar-yield-india/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Solar yield (specific yield) is annual energy generated per kW of installed capacity, in kWh/kWp/year, and is the basis for PPA pricing and payback calculations.
 > - Indian utility plants achieve 1,500 to 1,900 kWh/kWp/year; C&I rooftop runs 1,300 to 1,650; residential rooftop 1,250 to 1,550.
 > - Yield = Peak Sun Hours x 365 x Performance Ratio, linking three of the most important Indian solar performance metrics.
@@ -104,10 +104,11 @@ Customer expectations. Marketing materials and sales pitches quote expected yiel
 
 ## How specific yield is calculated
 
-Specific yield (kWh/kWp/year) = Annual energy (kWh) / Capacity (kWp)
+> [!FORMULA]
+> Specific yield (kWh/kWp/year) = Annual energy (kWh) / Capacity (kWp)
 
-Example: A 1 MWp plant generates 1,650 MWh in a year.
-Specific yield = 1,650,000 / 1,000 = 1,650 kWh/kWp/year
+> [!EXAMPLE] 1 MWp plant
+> A 1 MWp plant generates 1,650 MWh in a year. Specific yield = 1,650,000 / 1,000 = 1,650 kWh/kWp/year.
 
 Alternative formulation:
 Specific yield = [Peak Sun Hours](/glossary/peak-sun-hours/) × 365 × PR
@@ -118,6 +119,8 @@ Yield = 5.5 × 365 × 0.80 = 1,606 kWh/kWp/year
 ## Technical deep dive
 
 ### Indian yield by region (utility fixed-tilt mono PERC)
+
+Table: Approximate utility fixed-tilt yield by Indian region, kWh/kWp/year
 
 | Region | Approximate yield (kWh/kWp/yr) |
 |---|---|
@@ -133,6 +136,8 @@ Yield = 5.5 × 365 × 0.80 = 1,606 kWh/kWp/year
 
 ### Yield by technology
 
+Table: Yield uplift by module and mounting technology over fixed-tilt monofacial PERC
+
 | Technology | Yield uplift over baseline |
 |---|---|
 | Fixed-tilt monofacial PERC | Baseline |
@@ -142,6 +147,8 @@ Yield = 5.5 × 365 × 0.80 = 1,606 kWh/kWp/year
 | Single-axis tracker bifacial | +25 to 35% |
 
 ### P50 vs P90 yield
+
+Table: Yield confidence levels and where each is used
 
 | Confidence | Description |
 |---|---|
@@ -159,9 +166,22 @@ Year 1 yield × (1 − degradation_rate)^(year − 1) = Year n yield.
 For 0.5 percent annual degradation:
 - Year 1: 1,650 kWh/kWp
 - Year 10: 1,577 kWh/kWp
-- Year 25: 1,466 kWh/kWp
+- Year 25: 1,463 kWh/kWp
 
-25-year average yield: 1,556 kWh/kWp (94 percent of year 1).
+25-year average yield: 1,555 kWh/kWp (94 percent of year 1).
+
+```chart
+type: bar
+title: Specific yield at year 1, 10 and 25 with 0.5 percent annual degradation
+unit: "kWh/kWp"
+source: "Calculated in this entry from a year-1 yield of 1,650 kWh/kWp and 0.5 percent annual degradation, using the formula above"
+note: "Year-to-year weather swings of 3 to 6 percent are separate from this degradation trend."
+decimals: 0
+data:
+  - { label: "Year 1", value: 1650 }
+  - { label: "Year 10", value: 1577 }
+  - { label: "Year 25", value: 1463 }
+```
 
 ## Real-world applications
 
@@ -201,6 +221,9 @@ Conflates location and technology in one number.
 
 Underperformance against design yield. Most common causes: soiling, shading, equipment issues.
 
+> [!TIP] Weather is not degradation
+> Year-to-year variation of 3 to 6 percent comes from weather, so a lower year is not automatically a failing plant. Compare monthly yield against expected, and judge degradation on a multi-year trend rather than one season.
+
 Year-to-year weather variation interpreted as plant degradation.
 
 Yield gaps between rooftop and utility plants surprising customers.
@@ -227,6 +250,8 @@ Set customer expectations using yield, not nameplate alone.
 
 ## Comparison: yield by project type (Indian average)
 
+Table: Year-1 yield by Indian project type, kWh/kWp
+
 | Project type | Year 1 yield |
 |---|---|
 | Utility tracker bifacial Rajasthan | 1,900 to 2,000 kWh/kWp |
@@ -249,6 +274,8 @@ NIWE Solar Atlas and Solargis are the primary irradiance data sources for Indian
 CEA publishes monthly state-wise generation data for yield benchmarking.
 
 ## Standards and certifications
+
+Table: Standards and data sources behind yield estimates
 
 | Standard | Scope |
 |---|---|

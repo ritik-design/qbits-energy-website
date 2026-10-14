@@ -5,7 +5,7 @@ description: "DC cable carries solar DC from panels to inverter. Full guide to P
 category: "Installation"
 categorySlug: "installation"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is dc cable
   - solar dc cable
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 DC cable, also called PV cable or solar cable, is the specialised electrical cable designed to carry direct current from solar PV modules to [combiner boxes](/glossary/combiner-box/) and on to the inverter. It must withstand the unique conditions of solar installations: high DC voltage (up to 1500 V), constant UV exposure, weather extremes, 25-year service life and field-installable termination.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - DC cable (PV cable) carries direct current from modules to combiner boxes and the inverter, rated 1000 to 1500 V DC with double XLPO insulation.
 > - Indian PV cable follows IS 17048, alongside international standards IEC 62930, TUV 2 PfG 1169 and EN 50618.
 > - Most Indian rooftops use 4 mm² PV cable for string runs; utility plants use 16 mm² to 70 mm² in DC trunk runs.
@@ -95,6 +95,8 @@ System reliability. Most DC field failures trace back to cable termination or se
 
 ## DC cable specifications
 
+Table: Standard PV cable specification
+
 | Parameter | Standard PV cable |
 |---|---|
 | Voltage rating | 1000 V or 1500 V DC |
@@ -110,6 +112,8 @@ System reliability. Most DC field failures trace back to cable termination or se
 ## Technical deep dive
 
 ### Ampacity (free air, 30°C)
+
+Table: PV cable ampacity by cross-section (free air, 30°C)
 
 | Cross-section (mm²) | Ampacity (A) |
 |---|---|
@@ -127,16 +131,21 @@ Derate for grouping, conduit installation and temperature.
 
 ### Voltage drop calculation
 
-V_drop = 2 × I × R × L
+> [!FORMULA]
+> V_drop = 2 × I × R × L
 
 Where R is per-metre resistance (Ω/m) and L is one-way length (m).
 
-For 4 mm² Cu at 90°C: R ≈ 0.0049 Ω/m
-At 10 A, 30 m run: V_drop = 2 × 10 × 0.0049 × 30 = 2.94 V
-
-At 500 V string Vmp: percentage drop = 0.59 percent.
+> [!EXAMPLE]
+> For 4 mm² Cu at 90°C: R ≈ 0.0059 Ω/m (the 4.61 Ω/km table value at 20°C, raised for conductor temperature with the copper coefficient of 0.00393 per °C)
+> 
+> At 10 A, 30 m run: V_drop = 2 × 10 × 0.0059 × 30 = 3.54 V
+> 
+> At 500 V string Vmp: percentage drop = 0.71 percent, inside the 1 percent residential target.
 
 ### Resistance vs cross-section
+
+Table: PV cable resistance by cross-section at 20°C
 
 | Cross-section (mm²) | Resistance Ω/km at 20°C |
 |---|---|
@@ -151,6 +160,8 @@ At 500 V string Vmp: percentage drop = 0.59 percent.
 | 70 | 0.268 |
 
 ### Target voltage drop
+
+Table: Target voltage drop by application
 
 | Application | Target |
 |---|---|
@@ -207,6 +218,8 @@ Inspect annually for UV cracking and rodent damage.
 
 ## Comparison: PV cable vs alternative
 
+Table: PV cable compared with alternative cable types for solar DC
+
 | Cable type | Use | Suitability for solar DC |
 |---|---|---|
 | PV cable (XLPO double-insulated) | Solar PV | Standard |
@@ -221,15 +234,19 @@ Major Indian PV cable brands: Polycab, Havells, KEI, RR Kabel, Finolex, Universa
 
 ALMM does not separately list cables. IS 17048 compliance is the quality benchmark.
 
-PM Surya Ghar residential installations use 4 mm² PV cable.
+Table: Typical PV cable cross-section by project type in India
 
-C&I rooftops use 4 mm² to 10 mm² in string runs.
-
-Utility plants use 4 mm² strings to 70 mm² DC trunks.
+| Project type | Typical cross-section |
+| --- | --- |
+| PM Surya Ghar residential installations | 4 mm² PV cable |
+| C&I rooftops | 4 mm² to 10 mm² in string runs |
+| Utility plants | 4 mm² strings to 70 mm² DC trunks |
 
 [CEIG](/glossary/ceig/) drawing approval, prepared as part of the electrical drawing package, verifies cable cross-sections.
 
 ## Standards and certifications
+
+Table: Standards and certifications relevant to DC cable
 
 | Standard | Scope |
 |---|---|

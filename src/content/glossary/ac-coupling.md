@@ -5,7 +5,7 @@ description: "AC coupling connects battery storage to solar through the AC bus. 
 category: "System Layout"
 categorySlug: "system-layout"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is ac coupling
   - ac coupled solar battery
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 AC coupling is a solar-plus-storage system architecture in which the PV inverter and the battery inverter are physically separate units, each independently connected to the AC bus. The PV inverter converts DC from panels to AC. The battery inverter converts AC to DC for battery charging and DC to AC for battery discharging. The AC bus is the common meeting point.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - AC coupling uses two separate inverters joined at the AC bus, instead of sharing one internal DC bus inside a single hybrid inverter.
 > - Round-trip efficiency runs 84 to 89 percent, about 5 percent lower than DC coupling because of an extra AC-DC conversion stage.
 > - It is the standard choice for retrofitting battery storage onto existing PV systems and for utility-scale BESS where PV and battery are sized independently.
@@ -117,6 +117,8 @@ Frequency-shift battery control: when the battery is full and PV is still genera
 
 ### Energy paths
 
+Table: Energy paths in an AC-coupled system and the efficiency of each
+
 | Path | Conversions | Approximate efficiency |
 |---|---|---|
 | PV to load (no battery) | DC to AC | 97 to 98% |
@@ -125,6 +127,8 @@ Frequency-shift battery control: when the battery is full and PV is still genera
 | Grid to battery to load | AC to DC to AC | 87 to 91% |
 
 ### Compared to DC coupling
+
+Table: AC coupling vs DC coupling on inverters, efficiency, capex, retrofit and compatibility
 
 | Aspect | AC coupling | DC coupling |
 |---|---|---|
@@ -137,6 +141,9 @@ Frequency-shift battery control: when the battery is full and PV is still genera
 | Best fit | Retrofits, utility BESS | New residential |
 
 ### Grid-forming requirement for backup
+
+> [!WARNING] No grid-forming inverter, no backup
+> Standard grid-following inverters need an external voltage and frequency, which is unavailable during an outage. The battery inverter must be grid-forming to create an island AC bus, and choosing a non-grid-forming battery inverter for backup is the first item on the common-mistakes list.
 
 To provide AC backup during grid outage, the battery inverter must be grid-forming. Standard grid-following inverters require external voltage and frequency, which is unavailable during an outage. Grid-forming inverters self-create voltage and frequency.
 
@@ -151,7 +158,8 @@ Method used in islanded AC-coupled systems:
 
 ### Sizing
 
-PV inverter and battery inverter sizes can differ. A common residential [battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) pattern: 5 kW PV inverter plus 5 kW / 10 kWh battery inverter.
+> [!EXAMPLE] A common residential pairing
+> PV inverter and battery inverter sizes can differ. A common residential [battery sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) pattern: 5 kW PV inverter plus 5 kW / 10 kWh battery inverter.
 
 ## Real-world applications
 
@@ -195,6 +203,9 @@ Frequency-shift PV throttling requires inverter compatibility.
 
 ## Common problems
 
+> [!TIP] Test the brand pairing before the install day
+> Frequency-shift control between PV and battery inverter brands, CT polarity at the battery inverter sense input, and the EMS fighting between the PV export limit and battery charging are the page's recurring faults. Validate frequency-shift compatibility and CT placement up front, and plan an AC bus disconnect for maintenance.
+
 Frequency-shift control not working between PV and battery inverter brands.
 
 Battery inverter failing to grid-form during outage.
@@ -223,6 +234,8 @@ Document the [single-line diagram](/glossary/single-line-diagram/) showing both 
 
 ## Comparison: AC vs DC coupling
 
+Table: AC vs DC coupling feature comparison, including backup behaviour
+
 | Feature | AC coupling | DC coupling |
 |---|---|---|
 | Architecture | Two inverters | Hybrid inverter |
@@ -246,6 +259,8 @@ C&I and utility AC-coupled installations are growing as battery storage joins ex
 [PM Surya Ghar](/glossary/pm-surya-ghar/) does not subsidise batteries, but supports AC-coupled retrofits where the original PV system was funded under the scheme.
 
 ## Standards and certifications
+
+Table: Standards relevant to AC-coupled storage
 
 | Standard | Scope |
 |---|---|

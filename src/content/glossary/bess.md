@@ -5,7 +5,7 @@ description: "BESS provides utility-scale energy storage. Full guide to types an
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - bess
   - battery energy storage system
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 BESS (Battery Energy Storage System) is a grid-connected or behind-the-meter battery storage installation that stores electrical energy in batteries for later discharge. BESS ranges in scale from kWh residential home batteries to GWh utility-scale grid storage. The term BESS is most commonly applied to utility-scale and large commercial deployments providing grid services.
 
-> **TL;DR**
+> [!NOTE] In short
 > - BESS is battery storage at any scale, from kWh residential home batteries to GWh utility installations, though the term is most often used for utility and large commercial deployments.
 > - A complete BESS bundles the battery (usually LFP), a BMS, a Power Conversion System, an Energy Management System, thermal management and fire suppression.
 > - India's SECI has tendered 4 GWh of utility BESS under the Viability Gap Funding scheme, with the total pipeline expected to reach 30 to 50+ GWh by 2030.
@@ -104,6 +104,8 @@ Storage transition. Moves grid from synchronous to inverter-dominated.
 
 ## BESS scale categories
 
+Table: BESS scale categories by capacity and typical use
+
 | Scale | Capacity | Use |
 |---|---|---|
 | Residential | 5-30 kWh | Home backup, self-consumption |
@@ -117,6 +119,8 @@ Storage transition. Moves grid from synchronous to inverter-dominated.
 
 ### Indian BESS pipeline
 
+Table: Indian BESS pipeline by source (the 2027-30 total is a stated target, not the sum of the rows)
+
 | Source | Pipeline |
 |---|---|
 | SECI VGF tenders | 4 GWh (2023-27) |
@@ -126,6 +130,8 @@ Storage transition. Moves grid from synchronous to inverter-dominated.
 | Total 2027-30 target | 30-50+ GWh |
 
 ### Major Indian BESS players
+
+Table: Major Indian BESS developers and their stated status
 
 | Developer | Status |
 |---|---|
@@ -139,6 +145,8 @@ Storage transition. Moves grid from synchronous to inverter-dominated.
 
 ### BESS economics
 
+Table: Approximate cost components of a 4-hour utility BESS, ₹/kWh (component ranges do not sum exactly to the total)
+
 | Component | Approximate cost (4-hour, ₹/kWh) |
 |---|---|
 | Cells | 7,000-9,000 |
@@ -148,9 +156,14 @@ Storage transition. Moves grid from synchronous to inverter-dominated.
 | EPC + civil + installation | 2,000-3,000 |
 | Total | 25,000-35,000 |
 
+> [!EXAMPLE] From ₹/kWh to ₹ crore per MWh
+> The table total of ₹25,000 to ₹35,000 per kWh becomes ₹2.5 to ₹3.5 crore per MWh once multiplied by the 1,000 kWh in a MWh, which is the roughly ₹2.5 to 3.5 crore figure quoted for 4-hour utility BESS.
+
 Per MWh: ₹2.5-3.5 crore for 4-hour utility BESS. Sizing this correctly, whether for a utility tender or a smaller commercial system, follows the same [battery and energy storage sizing](https://surgepv.com/hub/energy-storage/battery-sizing/) discipline used across the industry.
 
 ### Grid services revenue
+
+Table: Approximate revenue streams from BESS grid services
 
 | Service | Approximate revenue |
 |---|---|
@@ -181,6 +194,9 @@ Specify quality BMS with thermal management.
 
 Design for 4-hour or 2-hour application as appropriate, sized around usable capacity and [round-trip efficiency](/glossary/round-trip-efficiency/) rather than nominal capacity alone.
 
+> [!CAUTION] Fire safety is part of the system, not an extra
+> A complete BESS includes thermal management, fire suppression and monitoring against thermal runaway. The page's best practices call for fire suppression per UL 9540A and a quality BMS with thermal management, and UL 9540A is the fire test methodology in the standards table below.
+
 Implement fire suppression per UL 9540A.
 
 Plan replacement at expected end of life, or evaluate [second-life battery](/glossary/second-life-battery/) repurposing for retired cells.
@@ -200,6 +216,8 @@ Major utility tenders attracting global and Indian developers.
 State adoption: Karnataka, Maharashtra, Andhra Pradesh leading.
 
 ## Standards and certifications
+
+Table: Standards relevant to BESS safety and grid interconnection
 
 | Standard | Scope |
 |---|---|

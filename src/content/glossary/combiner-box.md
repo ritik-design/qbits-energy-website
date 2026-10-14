@@ -5,7 +5,7 @@ description: "A combiner box parallels multiple solar PV strings safely. Full gu
 category: "Installation"
 categorySlug: "installation"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is combiner box
   - solar combiner box
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 A combiner box, also called DC string combiner or PV junction box, is a weatherproof enclosure that parallels multiple [PV strings](/glossary/string-sizing/) on the DC side of a solar plant. Each input string passes through a string-level [fuse](/glossary/fuse/) for reverse-current protection, then to a common DC busbar. The output of the busbar feeds the inverter through [DC cables](/glossary/dc-cable/) and a [DC isolator](/glossary/isolator/).
 
-> **TL;DR**
+> [!NOTE] In short
 > - A combiner box parallels multiple PV strings on the DC side, with per-string fuses, a common busbar, DC surge protection and a single DC isolator.
 > - Standard once more than 2 to 3 parallel strings feed one inverter input; residential PM Surya Ghar systems with 1 to 2 strings usually skip it.
 > - Per-string fuses are sized at 1.5 × the module's Isc, typically 20 A or 25 A.
@@ -96,6 +96,8 @@ String-level monitoring. Smart combiners identify underperforming strings.
 
 ## Combiner box components
 
+Table: Combiner box components and what each does
+
 | Component | Function |
 |---|---|
 | Per-string DC fuse | Reverse current and overcurrent protection |
@@ -112,12 +114,17 @@ String-level monitoring. Smart combiners identify underperforming strings.
 
 ### Combiner box sizing (typical utility example)
 
-A 100 kW [string inverter](/glossary/string-inverter/) with 12 [MPPT](/glossary/mppt/) inputs may have 24 strings (2 per MPPT). Two 12-input combiner boxes serve this inverter, each combining 12 strings. The same overcurrent-protection logic is covered step by step in our [solar string sizing and overcurrent protection guide](/blog/solar-string-sizing-ocp-india/).
+> [!EXAMPLE] 100 kW string inverter, 24 strings
+> A 100 kW [string inverter](/glossary/string-inverter/) with 12 [MPPT](/glossary/mppt/) inputs may have 24 strings (2 per MPPT). Two 12-input combiner boxes serve this inverter, each combining 12 strings. The same overcurrent-protection logic is covered step by step in our [solar string sizing and overcurrent protection guide](/blog/solar-string-sizing-ocp-india/).
 
-Per-string fuse: 1.5 × Isc_module
-Typical for 14 A Isc module: 20 A or 25 A standard fuses.
+> [!FORMULA] Per-string fuse rating
+> Per-string fuse: 1.5 × Isc_module
+
+For a 14 A Isc module, 1.5 × 14 A = 21 A, so the next standard fuse rating up, 25 A, is the one to specify. A 20 A fuse sits below the 1.5 × Isc figure for that module.
 
 ### IP rating
+
+Table: Enclosure IP ratings and where each is used
 
 | Rating | Use |
 |---|---|
@@ -128,12 +135,16 @@ Typical for 14 A Isc module: 20 A or 25 A standard fuses.
 
 ### Voltage class
 
+Table: Voltage class of combiner boxes
+
 | Class | Standard |
 |---|---|
 | 1000 V DC | Older utility, residential |
 | 1500 V DC | Modern utility solar |
 
 ### Smart combiner features
+
+Table: Smart combiner box features and the benefit of each
 
 | Feature | Benefit |
 |---|---|
@@ -189,6 +200,8 @@ Document combiner box layout on the [single line diagram](/glossary/single-line-
 
 ## Comparison: combiner box sizes
 
+Table: Combiner box sizes by number of string inputs
+
 | Size | Inputs | Use |
 |---|---|---|
 | Small | 4 to 8 | Small C&I, multiple inverters |
@@ -206,6 +219,8 @@ Utility plants under SECI tenders specify IP65 IP66 combiner boxes as standard. 
 CEIG drawing approval verifies combiner box specifications.
 
 ## Standards and certifications
+
+Table: Standards and documents relevant to combiner boxes
 
 | Standard | Scope |
 |---|---|

@@ -5,7 +5,7 @@ description: "Grid-forming inverters create voltage and frequency. Full guide to
 category: Grid Compliance
 categorySlug: grid-compliance
 priority: P2
-updatedDate: '2026-10-01'
+updatedDate: 2026-10-14
 keywords:
 - grid forming inverter
 - grid forming vs grid following
@@ -62,7 +62,15 @@ A grid-forming inverter controls an internal voltage reference. A grid-following
 
 The [grid-forming research roadmap](https://research-hub.nlr.gov/en/publications/research-roadmap-on-grid-forming-inverters/) examines how both control types can operate in future power systems. For a project shortlist, request the manufacturer's operating-mode description and test evidence for the exact model.
 
+> [!NOTE] In short
+> - A grid-forming inverter controls an internal voltage reference, while a grid-following inverter synchronises its current output to an existing voltage reference.
+> - The difference is a control function, not a label for whether a product has a battery connection.
+> - The control label is not a grid approval, and it does not imply black start, inertia response or parallel operation.
+> - For a project shortlist, ask for the manufacturer's operating-mode description and test evidence for the exact model.
+
 ## Grid-forming vs grid-following
+
+Table: Grid-following vs grid-forming inverters on the points a project must confirm
 
 | Decision | Grid-following | Grid-forming |
 | --- | --- | --- |
@@ -72,7 +80,8 @@ The [grid-forming research roadmap](https://research-hub.nlr.gov/en/publications
 | Black start | Not implied by the label | Also not implied by the label; verify equipment and system capability |
 | Project evidence | Controls, protection, operating limits and test results | Those documents plus the specified grid-forming functions and tests |
 
-Do not infer black start, inertia response, overload duration or parallel operation from this table. The manufacturer and project designer must confirm each required function separately.
+> [!WARNING] The table is not a capability list
+> Do not infer black start, inertia response, overload duration or parallel operation from this table. The manufacturer and project designer must confirm each required function separately.
 
 ## What hybrid backup does and does not provide
 
@@ -81,6 +90,8 @@ A [hybrid inverter](/glossary/hybrid-inverter/) may supply selected loads while 
 Confirm the backup wiring arrangement, supported loads, battery availability, transfer behaviour, fault response and permitted control mode. Use the [hybrid selection guide](/blog/how-to-choose-hybrid-solar-inverter/) to prepare those questions. Do not assume all models within a brand use the same controls.
 
 ## Evidence to request before specifying a model
+
+Table: Evidence to request from the manufacturer before specifying a grid-forming model
 
 | Requirement | Evidence to request |
 | --- | --- |

@@ -4,7 +4,7 @@ excerpt: "Illustrative 10 kW Jaipur villa solar planning scenario. It is not a v
 description: "A 10 kW Jaipur villa solar planning framework using unknown load, roof and tariff inputs, not a verified Qbits customer result."
 category: "Case Study"
 date: 2026-06-05
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "7 min"
 image: "/og/blog-case-study-jaipur-villa.webp"
 author: "Qbits Editorial"
@@ -26,6 +26,13 @@ faqs:
 
 A large home can have high summer demand, but floor area and appliance count do not determine solar capacity. This scenario shows how to test a 10 kW idea using bills, interval load, roof geometry and current connection rules.
 
+> [!KEYTAKEAWAYS]
+> - This is an illustrative planning scenario, not a customer case study. It rests on no signed customer record, site survey, interval load file, quotation, commissioning report or measured performance data.
+> - Floor area and appliance count do not determine solar capacity. Test the 10 kW idea against bills, interval load, roof geometry and current connection rules.
+> - Every input in the evidence table is still "to be collected", and a missing input should stay marked as unknown instead of being replaced by a typical value.
+> - Separate daytime bill offset from outage backup, because grid-connected solar is not backup unless the complete design explicitly supports that role.
+> - A Qbits catalogue listing does not prove a model suits this scenario. Record the exact SKU and request its current documents.
+
 ## What decision does this scenario test?
 
 The question is not whether 10 kW “works” in the abstract. The question is whether that AC capacity, paired with a documented PV array and connection design, fits the site's measured daytime load, available area, electrical infrastructure and approval route.
@@ -33,6 +40,8 @@ The question is not whether 10 kW “works” in the abstract. The question is w
 A credible answer must be electrically safe, acceptable under the current project process, and commercially supportable after every cost and uncertainty is shown.
 
 ## Evidence required before sizing
+
+Table: Evidence required before sizing the 10 kW scenario, and the status of each input
 
 | Input | What to collect | Status in this scenario |
 | --- | --- | --- |
@@ -44,7 +53,8 @@ A credible answer must be electrically safe, acceptable under the current projec
 | Utility process | Current connection, metering and inspection requirements | To be collected |
 | Commercial scope | Itemised quote, taxes, exclusions, warranty and service duties | To be collected |
 
-A missing input should stay marked as unknown. Replacing it with a typical value creates a neat result but not a reliable decision.
+> [!IMPORTANT] Leave unknown inputs unknown
+> A missing input should stay marked as unknown. Replacing it with a typical value creates a neat result but not a reliable decision.
 
 ## Engineering controls for this site
 
@@ -60,6 +70,7 @@ The responsible electrical professional should sign the single-line diagram, pro
 
 Use measured inputs and keep the calculation reproducible:
 
+<!-- steps -->
 1. **Estimated annual generation** = simulation output for the documented array, orientation, losses and weather dataset.
 2. **Self-consumed energy** = the lesser of generation and coincident site load in each interval.
 3. **Exported energy** = generation minus self-consumed energy, subject to the approved metering arrangement.

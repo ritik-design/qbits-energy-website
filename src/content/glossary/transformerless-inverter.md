@@ -5,7 +5,7 @@ description: "Transformerless inverters skip the isolation transformer for highe
 category: "Inverter Types"
 categorySlug: "inverter-types"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is transformerless inverter
   - transformerless solar
@@ -73,13 +73,16 @@ author: "Keyur Rakholiya"
 
 A transformerless inverter, also called TL inverter, is a [solar inverter](/glossary/solar-inverter/) that omits the galvanic isolation transformer found in older inverter designs. Instead, the inverter uses high-frequency [PWM](/glossary/pwm/) switching, an LCL output filter and dedicated protection circuits to interface the PV array directly with the AC grid.
 
-> **TL;DR**
+> [!NOTE] In short
 > - A transformerless inverter skips the galvanic isolation transformer, raising peak efficiency to 97-98.6 percent versus 94-96 percent for transformer-based designs.
 > - It is also 30-50 percent lighter and 20-40 percent cheaper than an equivalent transformer-isolated inverter.
 > - The trade-off is no galvanic isolation, so it needs a Type B RCCB, PV insulation monitoring, and a floating (ungrounded) PV array.
 > - Common topologies are H5, H6, HERIC, NPC and T-type, each trading component count for efficiency.
 
 The transformer removal eliminates 2 to 4 percent of conversion losses (transformer copper and core losses), raising peak inverter efficiency to 97-98.6 percent for modern designs; see [transformerless vs transformer-based solar inverters](/blog/transformerless-vs-transformer-inverter/) for a side-by-side breakdown. The inverter also becomes 30 to 50 percent lighter and 20 to 40 percent cheaper than equivalent transformer-isolated designs.
+
+> [!WARNING] No isolation means extra protection is mandatory
+> Without the transformer there is no galvanic isolation between PV DC and the AC grid. The design needs a Type B RCCB, PV insulation monitoring (Riso test on startup) and a floating PV array, and the inverter cannot directly support systems that require isolation, such as medical equipment.
 
 The trade-off is the absence of galvanic isolation between PV DC and AC grid. This requires Type B [RCCB](/glossary/rccb/) for fault current detection, PV insulation monitoring (Riso test on startup) and a floating (ungrounded) PV array configuration instead of conventional [earthing](/glossary/earthing/). Modern transformerless inverters from major brands meet all relevant safety standards.
 
@@ -111,6 +114,8 @@ Compared to transformer-isolated designs, the omitted line-frequency transformer
 
 ### Common transformerless topologies
 
+Table: Common transformerless inverter topologies and their typical efficiency
+
 | Topology | Origin | Efficiency | Notes |
 |---|---|---|---|
 | H5 | SMA | 97% | Single-phase, 5 switches |
@@ -123,6 +128,8 @@ Compared to transformer-isolated designs, the omitted line-frequency transformer
 
 ### Required safety circuits
 
+Table: Safety circuits a transformerless inverter needs
+
 | Circuit | Function |
 |---|---|
 | Riso (Insulation Resistance) | Test PV array insulation before connecting |
@@ -134,6 +141,8 @@ Compared to transformer-isolated designs, the omitted line-frequency transformer
 ### Efficiency comparison
 
 For the full context on why each percentage point of efficiency matters over a 25-year system life, see [solar inverter efficiency explained](/blog/solar-inverter-efficiency/).
+
+Table: Peak and European-weighted efficiency by inverter topology
 
 | Topology | Peak efficiency | European weighted |
 |---|---|---|
@@ -181,6 +190,9 @@ Cannot directly support systems requiring isolation (e.g., medical).
 
 ## Common transformerless problems
 
+> [!TIP] Most Riso failures are moisture
+> A Riso test failure on startup is often caused by moisture on PV cables, and insulation monitors can give false positives in heavy rain. Maintain dry PV junction boxes, use PV cable with adequate insulation rating, and specify the minimum Riso threshold from the inverter datasheet.
+
 Riso test failure on startup due to moisture on PV cables.
 
 Type B RCCB nuisance tripping from accumulated capacitive leakage.
@@ -212,6 +224,8 @@ PM Surya Ghar residential installations use transformerless string inverters uni
 The CEA connectivity regulations and inverter safety standards such as IEC 62109 accommodate transformerless designs.
 
 ## Standards and certifications
+
+Table: Standards and regulations that cover transformerless inverters
 
 | Standard | Scope |
 |---|---|

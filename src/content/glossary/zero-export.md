@@ -76,11 +76,19 @@ author: Nirav Dhanani
 
 A **zero-export solar system** uses a measurement and control arrangement to reduce inverter output, charge a supported battery or otherwise manage generation when onsite consumption is too low to absorb it. Its aim is to keep power from being deliberately exported at the grid connection point.
 
+> [!KEYTAKEAWAYS]
+> - Zero export is a control arrangement: a sensor at the grid connection point tells the inverter or plant controller to cut output or charge a supported battery when site load is low.
+> - It is an operating target, not a connection category. Brief reverse flow can still appear when a large load switches off.
+> - Whether export is allowed, and on what terms, is set by the DISCOM and state regulator, not by the inverter setting.
+> - A zero-export plant earns nothing from surplus, so size it from the daytime load profile, not the roof area.
+
 “Zero export” is an operating target, not a promise that every measured moment will be exactly zero. Response speed, sensor placement, loads and the approved control scheme affect measured flow. Check the applicable utility rules and equipment documentation.
 
 ## How does export control work?
 
 **Export control measures power flow at an agreed grid-connection point and sends that information to a compatible inverter, plant controller, or energy-management system.** The control changes generation or supported storage behaviour to limit export. Correct operation depends on the approved measurement boundary, sensor installation, phase mapping, communications, settings, and failure response.
+
+Table: Zero-export control chain: what each part does and what to check at commissioning
 
 | Component | Role | Commissioning check |
 | --- | --- | --- |
@@ -111,6 +119,8 @@ Some projects use zero export because exporting is not permitted or not commerci
 
 ## Zero export, net metering and gross metering
 
+Table: Zero export compared with net metering and gross metering
+
 | Feature | Zero export | Net metering | Gross metering |
 | --- | --- | --- | --- |
 | Export to grid | None intended | Yes, credited under the utility arrangement | Yes, all generation is exported and settled separately |
@@ -139,7 +149,8 @@ Almost every export control failure traces back to the sensor rather than the in
 
 The current transformer or meter has to sit at the agreed grid connection point, so that it sees the net flow between the site and the utility. Placed downstream of part of the site load, it measures only a portion of consumption, and the controller acts on an incomplete picture. The system then either exports when it believes it is not, or curtails generation that the site could have used.
 
-Orientation matters as much as position. A current transformer installed backwards reports flow in the wrong direction, which can produce the exact opposite of the intended behaviour. On a three phase connection, phase mapping must also be correct, so that each measured phase corresponds to the phase the controller believes it is reading.
+> [!WARNING] A backwards CT does the opposite of what you intend
+> Orientation matters as much as position. A current transformer installed backwards reports flow in the wrong direction, which can produce the exact opposite of the intended behaviour. On a three phase connection, phase mapping must also be correct, so that each measured phase corresponds to the phase the controller believes it is reading.
 
 None of this is visible from a settings menu. It is established by inspecting the installation against the approved single line diagram and then observing real behaviour as site load changes.
 
@@ -159,15 +170,18 @@ So when a large load switches off suddenly, generation momentarily exceeds consu
 
 What matters for approval is what the applicable utility rules actually require: whether they specify a permitted response time, a tolerance, or a measurement averaging period. A rule expressed as an average over an interval is satisfied by behaviour that a momentary instantaneous reading would appear to breach.
 
-Confirm which basis your DISCOM applies before agreeing acceptance criteria, and record the observed response during commissioning so there is evidence if the question arises later.
+> [!TIP] Agree the acceptance basis first
+> Confirm which basis your DISCOM applies before agreeing acceptance criteria, and record the observed response during commissioning so there is evidence if the question arises later.
 
 ## Common problems
 
-**Unexpected export:** first check the measurement boundary, sensor orientation, phase mapping and active control mode. Record timestamps and measurements before changing settings.
+Table: Common zero-export problems and what to do first
 
-**Unnecessary curtailment:** verify whether the controller reads the site's loads correctly and whether the configured export threshold matches the agreed arrangement.
-
-**Lost sensor signal:** follow the equipment's documented fail-safe behavior. Do not force an unsupported operating mode to keep generation online.
+| Problem | What to do first |
+| --- | --- |
+| Unexpected export | First check the measurement boundary, sensor orientation, phase mapping and active control mode. Record timestamps and measurements before changing settings. |
+| Unnecessary curtailment | Verify whether the controller reads the site's loads correctly and whether the configured export threshold matches the agreed arrangement. |
+| Lost sensor signal | Follow the equipment's documented fail-safe behavior. Do not force an unsupported operating mode to keep generation online. |
 
 ## Why a project chooses zero export
 

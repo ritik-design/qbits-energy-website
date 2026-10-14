@@ -4,7 +4,7 @@ excerpt: "An honest pm surya ghar opinion from inside the industry: the portal w
 description: "An honest PM Surya Ghar assessment from the industry: the portal works, ALMM standards are real, but DISCOM backlogs are stalling 30 million rooftops."
 category: "Industry"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-pm-surya-ghar-whats-working.webp"
 author: "Nirav Dhanani"
@@ -43,15 +43,14 @@ Three years into [PM Surya Ghar](https://www.surgepv.com/blog/pm-surya-ghar-subs
 
 As someone who works daily with the installers, DISCOMs, and homeowners who are inside this system, I want to offer a view that goes beyond the press release and the complaint thread. [PM Surya Ghar](https://www.surgepv.com/solar-compliance/india/guides/pm-surya-ghar) has achieved real things. It has also created real structural problems that will not resolve themselves. Both deserve honest treatment.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - PM Surya Ghar has commissioned roughly 3.5 million rooftops out of 8.5 million registrations, about one-third of the way to its 1 crore target.
 > - **ALMM scope:** MNRE's current page publishes PV module and cell lists, not an inverter list. Verify both equipment categories separately.
 > - Apartment and flat owners, roughly 30–35% of urban India, have no viable subsidy pathway because a virtual net metering mechanism does not yet exist at scale.
-> - Subsidy disbursement targets 30 days but often takes 90–120+ days in states with slower smart meter rollout.
-> - Gujarat, Karnataka, and Maharashtra process applications fastest; Bihar, Jharkhand, and parts of Uttar Pradesh lag furthest behind.
+> - Subsidy disbursement targets 30 days but often takes 90–120+ days in states with slower smart meter rollout. Gujarat, Karnataka, and Maharashtra process applications fastest; Bihar, Jharkhand, and parts of Uttar Pradesh lag furthest behind.
 > - The five reforms in our scorecard, DISCOM SLAs, community solar, empanelment reform, AMC standards, and PFMS pre-validation, could add 2–3 million installations a year to the current trajectory.
 
-> **The honest pm surya ghar opinion.** PM Surya Ghar works best as a demand-generation engine: the ₹78,000 subsidy cap converts curious homeowners into paying customers, the ALMM mandate is raising equipment standards, and the online portal has reduced paperwork by several orders of magnitude compared to the pre-2024 era. What it has not solved is the supply-side infrastructure problem, DISCOM interconnection processing that takes 4–9 months in too many states, a vendor empanelment framework that excludes quality smaller installers, and no clear pathway for the 100 million-plus households who live in apartments.
+> **The honest pm surya ghar opinion.** PM Surya Ghar works best as a demand-generation engine: the ₹78,000 subsidy cap converts curious homeowners into paying customers, the ALMM mandate is raising equipment standards, and the online portal has reduced paperwork by several orders of magnitude compared to the pre-2024 era. What it has not solved is the supply-side infrastructure problem, DISCOM interconnection processing that takes 4–9 months in too many states, a vendor empanelment framework that excludes quality smaller installers, and no clear pathway for the 30–40 million urban households who live in apartments.
 
 This is not a complaint piece. Every point below includes a specific policy lever that would address it, because the goal of writing this is to contribute to a better programme rather than to catalogue its failures.
 
@@ -61,7 +60,12 @@ Start with the real wins, because they are significant and they deserve acknowle
 
 **The online portal is functional and genuinely useful.** The [PM Surya Ghar portal](https://pmsuryaghar.gov.in/) replaced a previous world of state-by-state DISCOM application forms, physical document submissions, and opaque approval queues. Today a homeowner in Jaipur or Nagpur can register, upload their electricity bill, receive a technical feasibility response, select from an empanelled vendor list, track their application status, and receive their subsidy directly to their Aadhaar-linked bank account, all from a single dashboard. The system is not perfect, but it is vastly better than what preceded it, and that improvement is directly attributable to this scheme.
 
-**The subsidy amounts are genuinely attractive.** ₹30,000 per kW for the first 2 kW, and ₹18,000 per kW for the third kilowatt, giving a maximum central subsidy of ₹78,000 for a 3 kW system, these are numbers that materially change the payback calculation for a middle-income household. For a 3 kW system costing ₹1.8 Lakh installed, a ₹78,000 subsidy brings the net cost to just over ₹1 Lakh, which at a ₹8/unit tariff delivers payback in under four years. That is a compelling financial case, and the government deserves credit for setting the subsidy at a level that actually moves behaviour.
+**The subsidy amounts are genuinely attractive.** ₹30,000 per kW for the first 2 kW, and ₹18,000 per kW for the third kilowatt, giving a maximum central subsidy of ₹78,000 for a 3 kW system, these are numbers that materially change the payback calculation for a middle-income household. 
+
+> [!EXAMPLE] Net cost of a 3 kW system
+> For a 3 kW system costing ₹1.8 Lakh installed, a ₹78,000 subsidy brings the net cost to just over ₹1 Lakh (₹1,80,000 − ₹78,000 = ₹1,02,000), which at a ₹8/unit tariff delivers payback in under four years.
+
+That is a compelling financial case, and the government deserves credit for setting the subsidy at a level that actually moves behaviour.
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar for a 3 kW or larger residential system, transferred directly to the homeowner's Aadhaar-linked bank account after DISCOM commissioning verification. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
 
@@ -97,7 +101,8 @@ The MNRE portal targets 30-day disbursement from commissioning report submission
 - **PFMS gateway mismatches**: the Public Financial Management System that handles direct benefit transfer requires exact Aadhaar-bank account linkage; any discrepancy triggers a manual review that can take 30–60 additional days.
 - **DISCOM inspection queuing**: the physical inspection that must precede commissioning report submission is scheduled by the DISCOM, not the homeowner; in backlogged states this queue itself takes weeks.
 
-For a homeowner who has invested ₹1 Lakh or more in a system, a 4–6 month wait for a ₹78,000 subsidy is financially significant. Several homeowners we have spoken to have taken personal loans to bridge the gap, which adds interest cost that partially offsets the subsidy benefit.
+> [!WARNING] Plan for the subsidy wait
+> For a homeowner who has invested ₹1 Lakh or more in a system, a 4–6 month wait for a ₹78,000 subsidy is financially significant. Several homeowners we have spoken to have taken personal loans to bridge the gap, which adds interest cost that partially offsets the subsidy benefit.
 
 ### Apartment and Flat Owner Exclusion
 
@@ -127,6 +132,16 @@ This is our proprietary framework for evaluating what structural changes would h
 
 5. **PFMS pre-validation for Aadhaar-bank linkage**: Allow applicants to validate their Aadhaar-bank linkage at the registration stage, before installation, rather than discovering a mismatch during disbursement. This single UX change would eliminate approximately 20% of disbursement delays. Feasibility: 10/10. Adoption impact: 5/10.
 
+Table: The five reforms scored for implementation feasibility and adoption impact, out of 10 (this article's own editorial scores)
+
+| Reform | Feasibility (/10) | Adoption impact (/10) |
+| --- | --- | --- |
+| Mandatory DISCOM SLA (60-day processing guarantee) | 8 | 9 |
+| Community solar / virtual net metering provision | 6 | 10 |
+| Empanelment reform, capability-based criteria | 8 | 7 |
+| AMC minimum standards for empanelled vendors | 9 | 6 |
+| PFMS pre-validation for Aadhaar-bank linkage | 10 | 5 |
+
 Applied together, these five reforms would likely add 2–3 million installations per year to the current trajectory. The [IEA's Solar PV Policy and Deployment Report](https://www.iea.org/reports/solar-pv) notes that subsidy programme performance globally correlates most strongly with administrative processing speed, not subsidy quantum, which is precisely why DISCOM SLA reform would outperform any increase in the subsidy amount itself.
 
 ## How the Leading States Compare on Programme Delivery
@@ -153,11 +168,14 @@ Uttar Pradesh, Bihar, and Jharkhand consistently appear at the bottom of per-cap
 
 If you are a homeowner navigating PM Surya Ghar today, the following decisions will determine whether your experience is smooth or frustrating.
 
-The most important check is not the subsidy amount, it is the DISCOM's average processing time in your circle. Before you sign any contract, call the nearest DISCOM office and ask how many pending net metering applications they have and what the current average completion time is. If the answer is more than 90 days, factor that into your financial plan and ask your installer what bridge arrangement they can offer during the wait period.
+> [!TIP] Check the DISCOM's processing time first
+> The most important check is not the subsidy amount, it is the DISCOM's average processing time in your circle. Before you sign any contract, call the nearest DISCOM office and ask how many pending net metering applications they have and what the current average completion time is. If the answer is more than 90 days, factor that into your financial plan and ask your installer what bridge arrangement they can offer during the wait period.
 
-The third check is the vendor's post-installation commitment. Ask specifically: what is the response time if the inverter goes offline? Is there a written service agreement? What is the warranty escalation process? The [pm surya ghar eligibility requirements](/blog/pm-surya-ghar-eligibility/) cover the installation side, but post-installation service is entirely a function of the vendor relationship.
+The second check is the vendor's post-installation commitment. Ask specifically: what is the response time if the inverter goes offline? Is there a written service agreement? What is the warranty escalation process? The [pm surya ghar eligibility requirements](/blog/pm-surya-ghar-eligibility/) cover the installation side, but post-installation service is entirely a function of the vendor relationship.
 
 ## The Balanced Verdict: What the Government Got Right and Where the Work Remains
+
+Table: What is working and what is not in PM Surya Ghar, by area
 
 | | What Is Working | What Is Not |
 | --- | --- | --- |

@@ -5,7 +5,7 @@ description: "AC cable carries inverter AC to grid/load. Full guide to specifica
 category: "Installation"
 categorySlug: "installation"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is ac cable
   - solar ac cable
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 AC cable, in the context of solar PV, refers to the alternating-current cable that carries the [solar inverter's](/glossary/solar-inverter/) AC output through protection devices to the AC distribution board, bidirectional meter and grid connection point. Unlike specialised [PV DC cable](/glossary/dc-cable/), AC cable for solar uses the same general-purpose building cable categories: PVC-insulated (IS 694), PVC-armoured (IS 1554) and XLPE-insulated (IS 7098).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - AC cable carries the solar inverter's AC output through protection devices to the distribution board, bidirectional meter and grid connection point.
 > - Indian solar AC cabling uses PVC (IS 694), PVC-armoured (IS 1554) or XLPE (IS 7098) copper cable, sized from 2.5 mm² to 240 mm² depending on capacity.
 > - Target voltage drop is 2 to 3 percent on inverter-to-meter runs; a 5 kW single-phase run typically needs 6 mm² Cu cable over a 15 m run.
@@ -96,6 +96,8 @@ Power quality. Voltage drop affects inverter grid synchronisation.
 
 ## AC cable types
 
+Table: AC cable types for solar and where each is used
+
 | Cable type | Use |
 |---|---|
 | PVC unsheathed | Indoor concealed |
@@ -108,6 +110,8 @@ Power quality. Voltage drop affects inverter grid synchronisation.
 ## Technical deep dive
 
 ### Ampacity (Cu, in conduit, 30°C ambient)
+
+Table: AC cable ampacity by cross-section (copper, in conduit, 30°C ambient)
 
 | Cross-section (mm²) | Single-phase A | Three-phase A |
 |---|---|---|
@@ -123,7 +127,8 @@ Power quality. Voltage drop affects inverter grid synchronisation.
 
 ### Voltage drop
 
-V_drop_AC = (2 × I × R × L × cos(φ) + 2 × I × X × L × sin(φ))
+> [!FORMULA] Single-phase AC voltage drop
+> V_drop_AC = (2 × I × R × L × cos(φ) + 2 × I × X × L × sin(φ))
 
 For 415 V three-phase: V_drop = √3 × I × (R cos(φ) + X sin(φ)) × L
 
@@ -131,18 +136,21 @@ At PF 1 (resistive): simplified to V_drop = √3 × I × R × L for three-phase.
 
 ### Sizing example: 5 kW residential single-phase
 
-Inverter AC output: 5 kVA at 230 V = 21.7 A
-Cable run: 15 m
-Target voltage drop: 2% = 4.6 V
-Required R_total: 4.6 / 21.7 = 0.21 Ω
-Per-metre R: 0.21 / (2 × 15) = 0.007 Ω/m
-
-From the resistance table, 6 mm² Cu at 0.0031 Ω/m would give:
-V_drop = 2 × 21.7 × 0.0031 × 15 = 2.0 V = 0.87% ✓
-
-Select 6 mm² Cu with adequate ampacity.
+> [!EXAMPLE] 5 kW residential single-phase run
+> Inverter AC output: 5 kVA at 230 V = 21.7 A
+> Cable run: 15 m
+> Target voltage drop: 2% = 4.6 V
+> Required R_total: 4.6 / 21.7 = 0.21 Ω
+> Per-metre R: 0.21 / (2 × 15) = 0.007 Ω/m
+>
+> From the resistance table on the [DC cable](/glossary/dc-cable/) entry, 6 mm² Cu at 0.0031 Ω/m would give:
+> V_drop = 2 × 21.7 × 0.0031 × 15 = 2.0 V = 0.87% ✓
+>
+> Select 6 mm² Cu with adequate ampacity.
 
 ### Cable colour code (Indian)
+
+Table: Indian AC cable colour code by conductor
 
 | Conductor | Colour |
 |---|---|
@@ -198,6 +206,8 @@ Use proper torque on terminations.
 
 ## Comparison: AC vs DC cable
 
+Table: AC cable compared with DC cable
+
 | Aspect | AC cable | DC cable |
 |---|---|---|
 | Voltage rating | 415 V to 1.1 kV | 1000 V to 1500 V |
@@ -220,6 +230,8 @@ PM Surya Ghar residential installations use 4 mm² to 10 mm² Cu PVC.
 Utility plants use 35 mm² to 240 mm² Cu / Al cables in trunk runs.
 
 ## Standards and certifications
+
+Table: Indian standards for AC cable in solar installations
 
 | Standard | Scope |
 |---|---|

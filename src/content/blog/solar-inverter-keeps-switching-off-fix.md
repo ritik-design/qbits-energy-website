@@ -4,7 +4,7 @@ excerpt: "Solar inverter keeps turning off in India? Find the cause fast, grid v
 description: "Fix a solar inverter that keeps switching off: diagnose grid voltage trips, overtemperature shutdowns, anti-islanding, and overload faults."
 category: "Maintenance"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-inverter-keeps-switching-off-fix.webp"
 author: "Keyur Rakholiya"
@@ -33,10 +33,9 @@ faqs:
 
 Your solar inverter starts up in the morning, generates power for a few hours, then switches off. Half an hour later it restarts automatically, generates for an hour, then trips again. By evening you have lost hours of potential generation to repeated cycling, and you are not sure whether this is a serious fault or a normal protective response.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Four causes explain almost every repeated trip: grid voltage outside the inverter's permitted AC range (most common), over-temperature shutdown, anti-islanding trips during power cuts, and overload from high-inrush loads.
-> - A trip that auto-restarts after roughly 5 minutes is usually a correct protective response to the grid, not a hardware fault.
-> - Anti-islanding trips during [DISCOM](/glossary/discom/) power cuts are mandatory and correct under IEC 62116; they are not a malfunction.
+> - A trip that auto-restarts after roughly 5 minutes is usually a correct protective response to the grid, not a hardware fault. Anti-islanding trips during [DISCOM](/glossary/discom/) power cuts are mandatory and correct under IEC 62116; they are not a malfunction.
 > - Cleaning dust-blocked cooling vents resolves 40-50% of over-temperature shutdown cases.
 > - The monitoring app's event log, cross-referenced with voltage, temperature, and power readings at the trip timestamp, pinpoints the cause in about 3 minutes.
 > - More than 10 trips per day, or a trip that does not auto-restart, warrants a call to your installer.
@@ -50,6 +49,8 @@ If your inverter is switching off and not restarting at all (not cycling but rem
 ## Understanding the Difference Between a Trip, a Shutdown, and a Fault
 
 Before diagnosing, clarify what the inverter is actually doing:
+
+Table: Trip behaviours, what each means and what to check first
 
 | Behaviour | What It Means | What to Check First |
 | --- | --- | --- |
@@ -83,9 +84,11 @@ Grid over-voltage is the opposite problem, and has become increasingly common in
 - Monitoring app shows AC voltage climbing towards the inverter's upper limit before the trip
 - The problem is worse on sunny days than cloudy ones
 
-**Resolution:** Report to your DISCOM with the voltage log. Ask your installer whether your inverter supports volt-watt response mode, a function that reduces export power when voltage rises above a threshold, preventing the trip while still generating some power.
+> [!TIP] Ask about volt-watt response mode
+> **Resolution:** Report to your DISCOM with the voltage log. Ask your installer whether your inverter supports volt-watt response mode, a function that reduces export power when voltage rises above a threshold, preventing the trip while still generating some power.
 
-> **Voltage limits.** The voltage limits an inverter trips on come from its grid-code configuration, which should follow the CEA technical standards for connectivity and your DISCOM's connection conditions. Read the exact limits from your model's manual and ask your installer which setting was applied at commissioning. Disconnecting when voltage leaves the configured window is a protective function, not a defect.
+> [!NOTE] Voltage limits
+> The voltage limits an inverter trips on come from its grid-code configuration, which should follow the CEA technical standards for connectivity and your DISCOM's connection conditions. Read the exact limits from your model's manual and ask your installer which setting was applied at commissioning. Disconnecting when voltage leaves the configured window is a protective function, not a defect.
 
 Grid voltage fluctuation is a frequent cause of trips in Tier-2 and Tier-3 Indian cities, and it is usually a grid infrastructure issue rather than a product defect.
 
@@ -95,6 +98,7 @@ Solar inverters in India face thermal conditions that are among the most demandi
 
 ### The Over-Temperature Diagnosis Framework
 
+<!-- steps -->
 1. **Check the monitoring app temperature log:** Most modern inverters report their internal temperature continuously. Plot the temperature curve against the trip times. If temperature rises above 65–70 °C at the trip time, thermal derating and eventual shutdown is the cause. The [inverter overheating guide](/blog/inverter-overheating/) covers the full diagnostic and prevention framework for this fault type.
 
 2. **Check the installation environment:** Walk to the inverter during the hottest part of the day (around 2 PM in summer). Is the ambient air temperature around the inverter significantly higher than the surrounding area? Metal sheds, enclosed meter rooms without ventilation, and south-facing walls with no shade can create micro-climates 15–25 °C hotter than open air.
@@ -127,6 +131,8 @@ An overload trip occurs when the AC loads connected to the inverter's output exc
 
 **Common overload triggers in Indian homes:**
 
+Table: Start-up and continuous draw of common Indian home appliances and their overload risk
+
 | Appliance | Start-Up Current Draw | Continuous Draw | Overload Risk |
 | --- | --- | --- | --- |
 | 1.5-tonne AC (non-inverter type) | 7–9 kW peak | 1.4 kW | High |
@@ -147,6 +153,7 @@ The most powerful diagnostic tool for repeated inverter shutdowns is your monito
 
 **The 3-minute monitoring app diagnosis method:**
 
+<!-- steps -->
 1. **Open the event log:** Filter by "Faults" or "Alarms." Find the exact timestamp of the trip. Note the fault code, this is the inverter's first-hand record of what parameter was out of range.
 
 2. **Check AC voltage at the trip time:** Navigate to the historical voltage data and find the voltage reading in the 30 seconds before the fault code. A reading at or near the inverter's lower limit means an under-voltage trip, and a reading at or near its upper limit means an over-voltage trip. A reading close to the nominal 230 V eliminates grid voltage as the cause.
@@ -163,12 +170,12 @@ This five-step check eliminates guesswork and gives you, or your installer, an i
 
 Not every inverter shutdown requires a site visit. Understanding the boundary between what a homeowner can handle and what requires a licensed solar electrician saves time and avoids unnecessary call-out charges.
 
-**Homeowner-safe actions:**
-- Cleaning dusty cooling vents with a soft brush or low-pressure air
-- Checking the router or monitoring app for trip timestamps and fault codes
-- Documenting grid voltage readings from the monitoring app to submit to the DISCOM
-- Switching the inverter off and on in the correct sequence after an anti-islanding trip
-- Confirming that an AC trip corresponds exactly with a DISCOM power cut (anti-islanding, normal)
+> [!CHECKLIST] Homeowner-safe actions
+> - Cleaning dusty cooling vents with a soft brush or low-pressure air
+> - Checking the router or monitoring app for trip timestamps and fault codes
+> - Documenting grid voltage readings from the monitoring app to submit to the DISCOM
+> - Switching the inverter off and on in the correct sequence after an anti-islanding trip
+> - Confirming that an AC trip corresponds exactly with a DISCOM power cut (anti-islanding, normal)
 
 **Call your installer (non-urgent, within a week):**
 - More than 10 trips per day from any cause
@@ -178,11 +185,11 @@ Not every inverter shutdown requires a site visit. Understanding the boundary be
 
 If you no longer have an active installer relationship, find a local solar installer who can carry out the site inspection.
 
-**Call immediately, do not wait:**
-- Trips accompanied by an unfamiliar fault code not in the error code table
-- Any shutdown accompanied by unusual smells, sounds, or visible component damage
-- Trips on a warranty-covered unit where the installer is unresponsive
-- Trips that started after a lightning event or a particularly severe power surge
+> [!CAUTION] Call immediately, do not wait
+> - Trips accompanied by an unfamiliar fault code not in the error code table
+> - Any shutdown accompanied by unusual smells, sounds, or visible component damage
+> - Trips on a warranty-covered unit where the installer is unresponsive
+> - Trips that started after a lightning event or a particularly severe power surge
 
 For any of these urgent scenarios, the [Safe First Actions guide for a failed solar inverter](/blog/solar-inverter-failure-action/) walks through the diagnosis, escalation, and warranty-claim sequence step by step.
 

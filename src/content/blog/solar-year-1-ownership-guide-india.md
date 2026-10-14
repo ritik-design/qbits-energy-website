@@ -39,14 +39,14 @@ faqs:
 
 The first year of solar ownership in India follows a predictable pattern, but most homeowners do not know what that pattern is. According to [JMK Research's India Rooftop Solar 2025 Consumer Survey](https://jmkresearch.com/), 42% of solar homeowners reported being "surprised" by the monsoon generation dip in their first year, indicating that pre-commissioning expectation-setting is a critical gap in India's solar industry. [IRENA's analysis of residential solar systems](https://www.irena.org/) shows that systems monitored actively in Year 1 have 15% lower incidence of warranty claims in Years 2–5, because early detection of faults prevents cascading damage. The result is unnecessary anxiety about delays that are normal, seasonal dips that were always expected, and missed maintenance tasks that compound into losses in Year 2. This month-by-month guide maps the entire first year so you know what is coming and what to do about it.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Month 1 typically brings a DISCOM net metering connection delay (15–90 days, worst in Kerala, fastest in Gujarat) that is normal, not a fault.
 > - Month 2's first net metering bill shows Import, Export, and Net Consumption; a 5–10% gap versus the monitoring app's export figure is normal calibration tolerance.
 > - Months 6 through 8 bring the monsoon dip, generation falling to as low as 30% of clear-sky peak during July–August, which is expected weather behaviour, not a system defect.
 > - Month 12 calls for a formal annual review: comparing actual generation to the installer's estimate, a technical inspection, and confirming both panel and inverter warranty registration.
 > - Zero generation on a clear day, a burning smell, or a repeated isolation fault all warrant an immediate call to the installer rather than a wait-and-watch approach.
 
-> **Direct answer.** The Solar Year-1 Calendar for Indian rooftop solar: Month 1 (DISCOM connection delay (normal, 15–90 days); Month 2) first net metering bill (learn to read it); Month 3 (first panel cleaning; Months 4–5) summer peak generation (compare to estimate); Month 6 (monsoon dip (normal); Months 7–9) good generation resumes; Months 10–11 (winter slight dip; Month 12) annual review. The framework below explains what is normal versus what needs a call to your installer.
+> **Direct answer.** The Solar Year-1 Calendar for Indian rooftop solar: Month 1 is the DISCOM connection delay (normal, 15–90 days); Month 2 brings the first net metering bill (learn to read it); Month 3 is the first panel cleaning; Months 4–5 are summer peak generation (compare to estimate); Month 6 is the monsoon dip (normal); Months 7–9 see good generation resume; Months 10–11 bring a slight winter dip; Month 12 is the annual review. The framework below explains what is normal versus what needs a call to your installer.
 
 For the monitoring app metrics you will be watching throughout Year 1, see [how to read your solar inverter monitoring app](/blog/how-to-read-solar-monitoring-app-india/).
 
@@ -59,6 +59,9 @@ The most common complaint in Month 1 is not a technical problem, it is bureaucra
 
 **Is this normal?** Completely. DISCOM net metering approval takes 15 days (Gujarat, best case) to 90 days (Kerala, worst case) from application submission. In the [PM Surya Ghar scheme](/blog/pm-surya-ghar-yojana-complete-guide/), the mandated timeline is 30 days, but enforcement is inconsistent across states.
 
+> [!TIP] Use the zero-export wait
+> During the zero-export wait, any surplus solar power not consumed by your home is not exported, it is essentially wasted. Run appliances between 10 AM and 3 PM to maximise self-consumption until the net meter is installed.
+
 **What you can do:** Ask your installer for the application reference number and track status on your state DISCOM portal or the PM Surya Ghar portal. Follow up weekly. If 45 days have passed without inspection, file a formal complaint through the DISCOM's consumer grievance cell.
 
 **Is your system wasting energy?** During the zero-export wait, any surplus solar power not consumed by your home is not exported, it is essentially wasted. Minimise this by running appliances between 10 AM and 3 PM to maximise self-consumption during the wait period.
@@ -68,6 +71,8 @@ The most common complaint in Month 1 is not a technical problem, it is bureaucra
 The first net metering bill often confuses new solar owners. It looks very different from a standard electricity bill.
 
 **What to look for:**
+
+Table: How to read the lines on a first net metering bill
 
 | Bill Line Item | What It Means |
 | --- | --- |
@@ -98,6 +103,8 @@ June brings the pre-monsoon transition, and July–August bring the heaviest clo
 
 **The Solar Year-1 Calendar**
 
+Table: Solar Year-1 Calendar with typical generation as a share of clear-sky peak and the key event each month
+
 | Month | Typical Generation (% of clear-sky peak) | Key Event |
 | --- | --- | --- |
 | Month 1 | 80–100% | DISCOM wait; zero-export mode possible |
@@ -110,7 +117,8 @@ June brings the pre-monsoon transition, and July–August bring the heaviest clo
 | Month 10–11 | 80–90% | Good generation; winter approaching |
 | Month 12 | 75–85% | Winter slight dip; annual review |
 
-**What is normal in monsoon:** A 3 kW system in Karnataka generating 14 units/day in May may generate only 6–8 units/day in July, a 45–55% reduction. This is weather, not a system fault. The annual generation estimate your installer provided should already account for these monsoon months.
+> [!EXAMPLE] What a normal monsoon dip looks like
+> A 3 kW system in Karnataka generating 14 units/day in May may generate only 6–8 units/day in July. That is a 43–57% reduction ((14 − 8) ÷ 14 to (14 − 6) ÷ 14). This is weather, not a system fault. The annual generation estimate your installer provided should already account for these monsoon months.
 
 **What is not normal:** If generation falls to near-zero on a day with moderate cloud cover (not heavy rain), or if the inverter shows fault codes during or after a thunderstorm, these warrant investigation. Post-monsoon is also the time to check for water ingress in any outdoor junction boxes or conduits.
 
@@ -133,12 +141,12 @@ The 12-month mark is the time for a formal Year 1 review. Complete all of the fo
 - Total bill savings (from DISCOM bills before and after solar)
 - Payback progress: Year 1 savings ÷ System cost = percentage of capital recovered. A solar savings calculator can project the remaining payback timeline using your actual Year 1 numbers.
 
-**Technical review (do this with your installer or service partner):**
-- String voltage check with a multimeter, verify each string is producing expected voltage
-- MC4 connector inspection for corrosion or looseness
-- Earthing continuity test
-- Inverter error log review, are there recurring fault codes that were not reported?
-- Warranty registration confirmation, both panels and inverter
+> [!CHECKLIST] Technical review (do this with your installer or service partner)
+> - String voltage check with a multimeter, verify each string is producing expected voltage
+> - MC4 connector inspection for corrosion or looseness
+> - Earthing continuity test
+> - Inverter error log review, are there recurring fault codes that were not reported?
+> - Warranty registration confirmation, both panels and inverter
 
 **Documentation:** File your Year 1 annual review report (from the service visit), all DISCOM bills from the past 12 months, monitoring app annual generation report, and [warranty](/blog/solar-inverter-warranty/) certificate copies. These documents are essential for any future warranty claim. If your installer did not hand over an as-built record at commissioning, a post-installation as-built design report is worth requesting now, it becomes useful for insurance claims and resale documentation.
 
@@ -149,10 +157,13 @@ The [solar annual maintenance checklist](/blog/solar-annual-maintenance-checklis
 Not everything in Year 1 warrants attention. But these specific events require an immediate call, not a WhatsApp message that can wait.
 
 - **Zero generation on a clear sunny day**: the inverter is not operating at all; could be a grid fault, isolation fault, or inverter failure
-- **Burning smell or visible burning near the inverter or DC cable**: a potentially serious safety issue requiring the system to be isolated immediately
+- **Burning smell or visible burning near the inverter or DC cable**: see the caution below
 - **Inverter displaying an isolation fault repeatedly**: indicates DC-to-ground insulation has deteriorated; requires professional diagnosis
 - **A single string consistently 30%+ below others in generation**: indicates a panel failure or wiring issue in that string
 - **Any physical damage to panels from hailstorm or falling tree**: check whether the installer's installation insurance covers accidental damage
+
+> [!CAUTION] Burning smell or visible burning
+> A burning smell or visible burning near the inverter or DC cable is a potentially serious safety issue requiring the system to be isolated immediately. Call the installer at once; do not wait and watch.
 
 For the complete list of inverter fault codes and their meanings, see [solar inverter underperforming India](/blog/solar-inverter-underperforming-india/).
 

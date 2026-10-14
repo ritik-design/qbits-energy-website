@@ -5,7 +5,7 @@ description: "Smart inverters provide grid support functions. Full guide to volt
 category: "Grid Compliance"
 categorySlug: "grid-compliance"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - smart inverter
   - smart inverter functions
@@ -72,7 +72,7 @@ A smart inverter is a grid-tied [solar inverter](/glossary/solar-inverter/) equi
 
 Core smart inverter functions include volt-var control (reactive power vs voltage), volt-watt control (active power vs voltage), frequency-watt response (active power vs frequency), fault ride-through (LVRT and HVRT), reactive power dispatch from setpoints or external commands, soft-start (controlled ramp-up), and remote monitoring and configuration through SCADA.
 
-> **TL;DR**
+> [!NOTE] In short
 > - A smart inverter adds grid-support functions on top of basic DC-to-AC conversion: volt-var, volt-watt, frequency-watt, fault ride-through and reactive power dispatch.
 > - CEA Grid Code 2019 mandates these functions for Indian generators above 10 kW; IEEE 1547-2018 and UL 1741 SA/SB are the equivalent global and US standards.
 > - Reactive power capability replaces fixed capacitor banks with dynamic support, typically ±33 percent of rated kVA at full active output and up to ±100 percent at zero active output.
@@ -94,6 +94,8 @@ Fault tolerance. FRT keeps inverters online during brief disturbances.
 Future-ready. Foundation for V2G, demand response and grid services markets.
 
 ## Core smart inverter functions
+
+Table: Core smart inverter functions and what each does
 
 | Function | Description |
 |---|---|
@@ -131,7 +133,22 @@ Typical default:
 - f = 51.0 Hz: ramp down to zero
 - 4% droop typical
 
+Table: Typical default set-points for the three grid-support curves
+
+| Function | Condition | Typical default response |
+|---|---|---|
+| Volt-var | V below 0.92 pu | Inject 100% reactive (capacitive) |
+| Volt-var | V between 0.98 and 1.02 pu | Zero reactive (deadband) |
+| Volt-var | V above 1.08 pu | Absorb 100% reactive (inductive) |
+| Volt-watt | V below 1.06 pu | Full active power |
+| Volt-watt | V at 1.10 pu | Ramp down to zero active power |
+| Frequency-watt | f below 50.2 Hz | Full active power |
+| Frequency-watt | f at 51.0 Hz | Ramp down to zero (4% droop typical) |
+
 ### Reactive power capability
+
+> [!FORMULA]
+> S² = P² + Q²
 
 Modern smart inverter capability:
 - At 100% active: ±33% reactive (kVAR/kVA)
@@ -139,6 +156,8 @@ Modern smart inverter capability:
 - Continuous within S² = P² + Q²
 
 ### Communication protocols
+
+Table: Communication protocols used with smart inverters
 
 | Protocol | Use |
 |---|---|
@@ -185,6 +204,9 @@ Older inverters cannot retrofit (replacement needed). Not every feature marketed
 
 ## Common smart inverter problems
 
+> [!WARNING] Factory defaults may leave grid support off
+> Functions must be enabled and configured at commissioning, because default factory settings often ship with them disabled. A smart inverter with its volt-var and frequency-watt functions switched off provides no grid support, and configuration conflicts with DISCOM requirements are another common problem.
+
 Default settings disabled, missing grid support.
 
 Configuration conflict with DISCOM requirements.
@@ -216,6 +238,8 @@ Reactive power dispatch increasingly used by Indian utility plants.
 PM Surya Ghar residential under 10 kW: smart functions optional but capable.
 
 ## Standards and certifications
+
+Table: Standards relevant to smart inverters
 
 | Standard | Scope |
 |---|---|

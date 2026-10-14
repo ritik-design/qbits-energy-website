@@ -4,7 +4,7 @@ excerpt: "Normalise scope and BOQ, test design and generation assumptions, alloc
 description: "Learn how to evaluate solar EPC bids by normalising scope, BOQ, design, generation, commissioning, O&M, risk, price, and handover evidence."
 category: "EPC"
 date: 2026-03-22
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-how-to-evaluate-solar-epc-bids.webp"
 author: "Keyur Rakholiya"
@@ -28,6 +28,13 @@ faqs:
 ---
 
 To understand **how to evaluate solar EPC bids**, normalise every bidder against one requirement, bill of quantities, design basis, responsibility matrix, programme, acceptance plan, O&M scope, and commercial template. Apply technical pass/fail gates before weighted scoring. Compare price only after omissions, exclusions, assumptions, risk transfers, and unresolved deviations are visible.
+
+> [!KEYTAKEAWAYS]
+> - Normalise every bidder against one requirement, BOQ, design basis, responsibility matrix, programme, acceptance plan and O&M scope before comparing any price.
+> - Apply pass/fail gates for safety, compatibility, authority and mandatory performance first. A commercial score or preferred brand cannot offset an unresolved failure.
+> - Compare two yield or performance ratio numbers only when the weather basis, losses, boundary, formula, period and correction method are the same.
+> - Reconcile price only after scope is normalised, and keep weights equal to 100 with evidence attached to every score.
+> - The lowest bid does not win automatically, because it may omit work, use a different capacity definition or transfer risk.
 
 This checklist is for project procurement teams and qualified technical, commercial, financial, legal, tax, safety, and grid reviewers. It does not provide a universal score weighting, price, yield, warranty, or contract term.
 
@@ -54,6 +61,8 @@ Record clarifications centrally and issue the same answer to every bidder where 
 
 **Create a master BOQ and responsibility matrix, then map every bidder's quantity, specification, inclusion, exclusion, unit rate, assumption, and evidence to it.** Do not compare lump sums until missing scope, owner-supplied work, provisional quantities, optional items, taxes, freight, application costs, and interface responsibilities have been reconciled.
 
+Table: Bid normalisation matrix, mapping each bidder to the master BOQ by work package
+
 | Work package | Bid A | Bid B | Owner requirement | Status |
 | --- | --- | --- | --- | --- |
 | Survey and engineering |  |  |  | Pass, gap or deviation |
@@ -71,6 +80,9 @@ Track quantities by unit and basis. A bidder can be cheaper because the structur
 ## How should technical compliance be checked?
 
 **Use pass/fail gates for mandatory site, structural, array, inverter, protection, grid, environmental, safety, monitoring, and documentation requirements.** Verify exact models and calculations against current documents. A commercial score or preferred brand cannot offset an unresolved safety, compatibility, authority, or mandatory-performance failure.
+
+> [!CAUTION] Gates sit outside the score
+> Mandatory site, structural, protection, grid and safety requirements are pass/fail. A cheaper or higher-scoring bid that leaves one unresolved is not compliant and should be held or rejected before scoring.
 
 Review at least:
 
@@ -91,6 +103,8 @@ Use the [EPC inverter-selection scorecard](/blog/solar-inverter-selection/) for 
 **Put every energy model on the same weather, layout, equipment, capacity, shading, loss, availability, curtailment, grid-outage, degradation, and uncertainty basis.** Require monthly outputs and the model file or reproducible report. Separate an engineering estimate from a contractual guarantee, and define how any guaranteed result will be measured and adjusted.
 
 Generation review table:
+
+Table: Generation assumption comparison, with the common basis every bidder's energy model should share
 
 | Input or loss | Common basis | Bidder evidence | Deviation or sensitivity |
 | --- | --- | --- | --- |
@@ -130,6 +144,8 @@ The [solar inverter commissioning guide](/blog/solar-inverter-commissioning-in-i
 
 Use a responsibility matrix for:
 
+Table: Responsibility matrix for EPC, OEM, O&M, owner and utility by event
+
 | Event | EPC | OEM | O&M provider | Owner | Utility or third party |
 | --- | --- | --- | --- | --- | --- |
 | Design error |  |  |  |  |  |
@@ -149,7 +165,8 @@ The bid should not use `comprehensive O&M` without a task, evidence and exclusio
 
 Use:
 
-`evaluated comparison amount = bid amount + priced mandatory gaps + supported owner costs + evaluated options`
+> [!FORMULA]
+> evaluated comparison amount = bid amount + priced mandatory gaps + supported owner costs + evaluated options
 
 Do not display a result if gaps lack quantities or approved valuation rules. Mark the comparison incomplete. Keep risk assessment separate from arithmetic where probability or consequence evidence is unavailable.
 
@@ -161,6 +178,8 @@ For inverter lifecycle scope, the [inverter TCO guide](/blog/inverter-tco/) prov
 
 Worksheet fields:
 
+Table: Weighted bid worksheet fields, with approved weight, score definition and evidence per category
+
 | Category | Approved weight | Score definition | Bidder evidence | Weighted result |
 | --- | ---: | --- | --- | ---: |
 | Technical compliance beyond gates |  |  |  |  |
@@ -171,7 +190,10 @@ Worksheet fields:
 | Commercial and contractual position |  |  |  |  |
 | Organisation and references |  |  |  |  |
 
-For each category, calculate `weighted result = approved weight × normalised score`, then sum category results only after the score definitions and units are checked. Do not award points for unsupported claims or let the same benefit score in multiple categories.
+> [!FORMULA] Weighted result per category
+> weighted result = approved weight × normalised score
+
+For each category, calculate the weighted result above, then sum category results only after the score definitions and units are checked. Do not award points for unsupported claims or let the same benefit score in multiple categories.
 
 ## What should happen before contract award?
 
@@ -179,6 +201,7 @@ For each category, calculate `weighted result = approved weight × normalised sc
 
 Final checks:
 
+<!-- steps -->
 1. Verify legal entity, financial and delivery capability using approved due diligence.
 2. Contact relevant references with project-specific questions and consent.
 3. Confirm exact equipment, supply route and approved substitutions.

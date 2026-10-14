@@ -35,11 +35,21 @@ A **dealer** primarily resells, a **distributor** primarily supplies a downstrea
 
 That is the useful starting point, but it is not the final legal answer. Solar businesses often perform more than one role. The signed scope must decide who owns stock, the customer contract, system design, installation, commissioning, warranty intake, service work, payment risk, and performance obligations.
 
-> **Choose by the work you will own:** local product sales usually point to Dealer; wider channel supply points to Distributor; engineering, procurement, and construction point to EPC; specialised equipment and controls integration points to System Integrator. On the Qbits form, choose the closest primary role and describe any overlap honestly.
+> [!KEYTAKEAWAYS]
+> - A dealer primarily resells, a distributor supplies a downstream network, an EPC delivers a contracted project, and a system integrator makes equipment and controls work as one system.
+> - The signed scope decides who owns stock, the customer contract, design, installation, commissioning, warranty intake and service work, not the title.
+> - The public Qbits application lists all four roles but does not assign a territory, margin, credit limit, stock requirement, service authority or approval threshold to any of them.
+> - A sales label does not grant service authority. Authorised service work can need separate training, tools, records and coverage.
+> - Submitting the partner application begins a review. It does not guarantee acceptance, territory, exclusivity, margin, credit or a response date.
+
+> [!TIP] Choose by the work you will own
+> Local product sales usually point to Dealer; wider channel supply points to Distributor; engineering, procurement, and construction point to EPC; specialised equipment and controls integration points to System Integrator. On the Qbits form, choose the closest primary role and describe any overlap honestly.
 
 ## The four roles in one table
 
 Use this as an operating comparison, not as a promise of Qbits programme terms. The current Qbits application lists all four roles, but the public page does not assign a fixed territory, margin, credit limit, stock requirement, service authority, or approval threshold to any of them.
+
+Table: Dealer, distributor, EPC and system integrator compared by job, counterparty, stock and responsibility
 
 | Role | Primary commercial job | Typical buyer or counterparty | Stock and fulfilment | Technical project responsibility | Main point to define in writing |
 | --- | --- | --- | --- | --- | --- |
@@ -119,6 +129,8 @@ A sales label does not grant service authority. Dealer, Distributor, EPC, and Sy
 
 Keep these permissions separate:
 
+Table: Service-related permissions and what each should not be inferred from
+
 | Permission | Do not infer it from |
 | --- | --- |
 | Sell specified products | Technical training alone |
@@ -127,7 +139,10 @@ Keep these permissions separate:
 | Accept a warranty claim for the manufacturer | Customer-facing sales activity |
 | Represent a location as an authorised service centre | Having technicians or a workshop |
 
-If service is part of your business, ask for the exact service scope in writing. Confirm models, geography, training status, tools, documentation, parts handling, labour and travel responsibility, data access, customer communication, and escalation. Do not advertise an authorisation that the current appointment does not grant.
+If service is part of your business, ask for the exact service scope in writing. Confirm models, geography, training status, tools, documentation, parts handling, labour and travel responsibility, data access, customer communication, and escalation.
+
+> [!WARNING] Do not claim authorisation you were not given
+> Do not advertise an authorisation that the current appointment does not grant.
 
 ## What if your business fits more than one role?
 
@@ -174,17 +189,18 @@ Do not use a more impressive title to compensate for a thin operating plan. A pr
 
 The application choice starts a conversation. It does not settle the appointment. Before investing, selling, ordering, or representing the business as authorised, make sure the final documents answer:
 
-- which legal entity is appointed;
-- which products and customer types are included;
-- which geography and sales channels apply;
-- whether stock is required and who carries title, loss, damage, and ageing risk;
-- how orders, prices, taxes, freight, payment, credit, and returns work;
-- who owns design, installation, commissioning, and customer acceptance;
-- what training grants, and what it does not grant;
-- who receives warranty claims and who performs each remedy stage;
-- whether field service or service-centre work is authorised;
-- how brand names, claims, customer data, and monitoring access may be used; and
-- how the arrangement changes, renews, or ends.
+> [!CHECKLIST] What the final agreement should answer
+> - which legal entity is appointed;
+> - which products and customer types are included;
+> - which geography and sales channels apply;
+> - whether stock is required and who carries title, loss, damage, and ageing risk;
+> - how orders, prices, taxes, freight, payment, credit, and returns work;
+> - who owns design, installation, commissioning, and customer acceptance;
+> - what training grants, and what it does not grant;
+> - who receives warranty claims and who performs each remedy stage;
+> - whether field service or service-centre work is authorised;
+> - how brand names, claims, customer data, and monitoring access may be used; and
+> - how the arrangement changes, renews, or ends.
 
 The [solar dealer and distributor agreement checklist](/blog/solar-dealer-agreement-checklist/) provides the detailed document review. Get appropriate legal, tax, accounting, insurance, and technical advice for the actual scope.
 

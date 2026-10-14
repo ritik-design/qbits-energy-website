@@ -60,6 +60,12 @@ author: Nirav Dhanani
 
 A **DISCOM** is an electricity distribution company. It operates or administers the distribution service for a defined area and is usually the company named on the electricity bill. Its customer-facing responsibilities include the connection, meter, billing and local network process under applicable regulation.
 
+> [!KEYTAKEAWAYS]
+> - A DISCOM is the electricity distribution company on your bill. For rooftop solar it handles approval, the meter, interconnection and billing.
+> - Approval route, capacity limits and export settlement depend on the state regulator and that utility's current procedure, so do not assume every DISCOM works the same way.
+> - The 2024 consumer-rights amendment puts clocks on part of the process, for example a 15-day feasibility study and deemed acceptance up to 10 kW.
+> - Keep dated receipts, the application number and written reasons for any query or rejection.
+
 In rooftop solar, the DISCOM is the utility contact for an eligible grid connection. The exact approval route, technical limits, meter type, export settlement and billing rules depend on the state regulator and that utility's current procedure.
 
 ## DISCOM explained simply
@@ -81,6 +87,8 @@ In many states the DISCOMs are successors to the integrated state electricity bo
 
 ## Who regulates a DISCOM
 
+Table: Bodies that regulate or set standards for a DISCOM
+
 | Body | Role |
 | --- | --- |
 | State Electricity Regulatory Commission ([SERC](/glossary/serc/)) | Retail tariffs, service standards and rooftop-solar regulations within the state |
@@ -89,6 +97,8 @@ In many states the DISCOMs are successors to the integrated state electricity bo
 | Ministry of Power | Central rules and schemes, including consumer-rights rules and distribution reform |
 
 ## What does the DISCOM check for solar?
+
+Table: DISCOM role at each stage of a rooftop solar connection and the records to keep
 
 | Stage | Typical DISCOM role | What the applicant should keep |
 | --- | --- | --- |
@@ -102,11 +112,14 @@ Do not assume every DISCOM follows the same order or approves every roof for the
 
 ## Statutory time limits for rooftop solar
 
-The Ministry of Power's Electricity (Rights of Consumers) Amendment Rules, 2024, notified on 22 February 2024, put clocks on part of the process. Rule 11(7) says the technical feasibility study for rooftop solar must be completed and the outcome communicated within 15 days, failing which the proposal is presumed technically feasible. Rule 11(7A) says a complete application for a rooftop system up to 10 kW is deemed accepted without a feasibility study. The same amendment treats the cost of strengthening the network, including the distribution transformer, for systems up to 5 kW as part of the DISCOM's own revenue requirement unless the State Commission sets a higher capacity. A state's own regulation and the DISCOM's circular decide how this works in practice, so ask for the application's actual status and date stamps. Sources: [SCC Online summary](https://www.scconline.com/blog/post/2024/02/27/mop-notifies-electricity-rights-of-consumer-amendment-rules-2024-legal-news/) and [Mercom India](https://www.mercomindia.com/rooftop-solar-10-kw-exempted-feasibility-study-mandate), checked 14 October 2026.
+> [!IMPORTANT] Statutory clocks for rooftop solar
+> The Ministry of Power's Electricity (Rights of Consumers) Amendment Rules, 2024, notified on 22 February 2024, put clocks on part of the process. Rule 11(7) says the technical feasibility study for rooftop solar must be completed and the outcome communicated within 15 days, failing which the proposal is presumed technically feasible. Rule 11(7A) says a complete application for a rooftop system up to 10 kW is deemed accepted without a feasibility study. The same amendment treats the cost of strengthening the network, including the distribution transformer, for systems up to 5 kW as part of the DISCOM's own revenue requirement unless the State Commission sets a higher capacity. A state's own regulation and the DISCOM's circular decide how this works in practice, so ask for the application's actual status and date stamps. Sources: [SCC Online summary](https://www.scconline.com/blog/post/2024/02/27/mop-notifies-electricity-rights-of-consumer-amendment-rules-2024-legal-news/) and [Mercom India](https://www.mercomindia.com/rooftop-solar-10-kw-exempted-feasibility-study-mandate), checked 14 October 2026.
 
 ## Examples of DISCOMs by state
 
 This table shows examples only, and the name on **your bill** is what counts. Utilities are merged, renamed and restructured from time to time.
+
+Table: Examples of DISCOMs by state (check the name on your own bill)
 
 | State or region | Examples |
 | --- | --- |
@@ -154,9 +167,12 @@ At commissioning the DISCOM or its authorised inspector typically checks the ins
 
 ## Why this matters when choosing an inverter
 
-The site connection phase, permitted export, approved protection settings and metering arrangement can affect the inverter selection. The [Qbits on-grid range](/on-grid-inverter/) and [datasheets](/download-datasheets/) provide model information, but the DISCOM and installer must confirm the actual connection and applicable rules. Do not change grid protection settings to work around an approval or voltage problem.
+> [!CAUTION] Grid protection settings are not a workaround
+> The site connection phase, permitted export, approved protection settings and metering arrangement can affect the inverter selection. The [Qbits on-grid range](/on-grid-inverter/) and [datasheets](/download-datasheets/) provide model information, but the DISCOM and installer must confirm the actual connection and applicable rules. Do not change grid protection settings to work around an approval or voltage problem.
 
 ## Standards and references
+
+Table: Laws and references that shape the DISCOM solar process
 
 | Reference | Role |
 | --- | --- |

@@ -26,6 +26,12 @@ faqs:
 
 An apartment project must define whose meter, roof, money and load are involved before anyone estimates savings. This scenario uses a 100 kW working brief to show the evidence an RWA needs for common-area solar.
 
+> [!KEYTAKEAWAYS]
+> - This is an illustrative planning scenario, not a customer case study: generation, cost, savings and payback are all unknown until site records and signed project documents exist.
+> - Seven inputs must be collected before sizing: common-area demand, governance, allocation, tariff and billing, site constraints, utility process and commercial scope.
+> - A missing input should stay marked as unknown rather than replaced by a typical value.
+> - Do not publish a generation, saving, return or payback result until the calculation file identifies every input, unit, date and source.
+
 ## What decision does this scenario test?
 
 The question is not whether 100 kW “works” in the abstract. The question is whether that AC capacity, paired with a documented PV array and connection design, fits the site's measured daytime load, available area, electrical infrastructure and approval route.
@@ -33,6 +39,8 @@ The question is not whether 100 kW “works” in the abstract. The question is 
 A credible answer must be electrically safe, acceptable under the current project process, and commercially supportable after every cost and uncertainty is shown.
 
 ## Evidence required before sizing
+
+Table: Evidence an RWA must collect before sizing common-area solar
 
 | Input | What to collect | Status in this scenario |
 | --- | --- | --- |
@@ -54,12 +62,16 @@ A missing input should stay marked as unknown. Replacing it with a typical value
 
 The RWA, building owner where relevant, electrical professional and legal adviser should agree on authority and allocation. A technical design cannot resolve a governance dispute.
 
-The responsible electrical professional should sign the single-line diagram, protection settings and commissioning plan. Any safety-critical or production-critical system needs an independent continuity plan. Grid-connected solar is not backup unless the complete design explicitly supports that role.
+The responsible electrical professional should sign the single-line diagram, protection settings and commissioning plan.
+
+> [!CAUTION] Lifts and fire pumps need their own continuity plan
+> Any safety-critical or production-critical system needs an independent continuity plan. Grid-connected solar is not backup unless the complete design explicitly supports that role.
 
 ## How should the commercial case be calculated?
 
 Use measured inputs and keep the calculation reproducible:
 
+<!-- steps -->
 1. **Estimated annual generation** = simulation output for the documented array, orientation, losses and weather dataset.
 2. **Self-consumed energy** = the lesser of generation and coincident site load in each interval.
 3. **Exported energy** = generation minus self-consumed energy, subject to the approved metering arrangement.

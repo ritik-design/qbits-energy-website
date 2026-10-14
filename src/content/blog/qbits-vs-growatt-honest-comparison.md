@@ -4,7 +4,7 @@ excerpt: "Compare Qbits and Growatt solar inverters using current model sheets, 
 description: "Compare Qbits and Growatt solar inverters using current model sheets, operating limits, monitoring, warranty documents and local support checks."
 category: "Comparison"
 date: 2026-09-23
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "7 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -23,7 +23,15 @@ faqs:
 
 A defensible comparison of Qbits, Growatt starts with exact model numbers. Brand-level scores hide differences between product families, firmware versions, accessories, warranty documents, sellers, and local service arrangements. This page does not declare a universal winner because the current official India documents for every compared SKU are not available in one place.
 
-> **Warranty and service terms:** Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service deadline, labour coverage, transport responsibility, or exclusions. Obtain the current written terms for the exact model and sale. The same document standard should be applied to every competing brand.
+> [!KEYTAKEAWAYS]
+> - There is no universal winner: compare exact SKUs, not brand-level scores.
+> - Apply the same document standard to both brands: current datasheet, installation manual, certificates, written warranty, monitoring documentation and service terms.
+> - Qbits public datasheets describe an expandable warranty but do not define the base duration, remedy or exclusions, so obtain the current written terms for the exact model and sale.
+> - MNRE's ALMM lists cover solar PV modules and cells, not inverters. Check inverter certificates and scheme or DISCOM requirements separately.
+> - If a seller cannot supply a controlling document for a load-bearing promise, mark it unconfirmed and do not award it points.
+
+> [!IMPORTANT] Warranty and service terms
+> Qbits public datasheets describe an expandable warranty but do not define a universal duration, remedy, registration deadline, service deadline, labour coverage, transport responsibility, or exclusions. Obtain the current written terms for the exact model and sale. The same document standard should be applied to every competing brand.
 
 ## What can be verified for Qbits
 
@@ -32,6 +40,8 @@ The [Qbits datasheet library](/download-datasheets/) contains model-specific doc
 The public datasheets do not state a universal replacement remedy, a fixed response time, a universal WhatsApp or AI-monitoring feature, or a single grid-voltage window across the range. The allowed grid range depends on the model and the DISCOM's connection conditions, so read it from the exact model's datasheet or manual. Request the current installation manual, certificate, battery compatibility statement where relevant, and written warranty for the exact SKU.
 
 ## What to collect for every brand
+
+Table: Evidence to collect for every brand, what to check and why it matters
 
 | Evidence | What to check | Why it matters |
 | --- | --- | --- |

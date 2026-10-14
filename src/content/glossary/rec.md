@@ -5,7 +5,7 @@ description: "RECs are tradable certificates representing renewable energy gener
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is rec
   - renewable energy certificate
@@ -66,7 +66,7 @@ author: "Nirav Dhanani"
 
 A Renewable Energy Certificate (REC) is a tradable instrument representing the renewable attribute of one megawatt-hour (MWh) of electricity generated from a renewable source. It is the Indian market-based mechanism that separates the green attribute from the underlying electricity, allowing generators to monetise the renewable attribute through trading on power exchanges.
 
-> **TL;DR**
+> [!NOTE] In short
 > - One REC represents 1 MWh (1,000 kWh) of verified renewable generation, tradable separately from the underlying electricity.
 > - Indian RECs are issued by NLDC under CERC regulations and traded only on IEX and PXIL, on scheduled monthly sessions.
 > - Solar REC prices have fallen from ₹9,300 to ₹13,400/MWh in the early 2010s to roughly ₹1,000 to ₹1,500/MWh in 2023-2024.
@@ -107,6 +107,8 @@ Flexibility. Decouples physical electricity from renewable attribute trading.
 
 ### REC types (current framework)
 
+Table: REC types by source of generation
+
 | Type | Source |
 |---|---|
 | Solar REC | Solar PV generation |
@@ -117,12 +119,16 @@ Earlier separation between solar and non-solar has been progressively merged.
 
 ### Trading sessions
 
+Table: REC trading sessions by exchange
+
 | Exchange | Frequency |
 |---|---|
 | IEX | Last Wednesday of every month |
 | PXIL | Same day as IEX |
 
 ### Price history (Solar RECs, ₹/MWh)
+
+Table: Approximate solar REC price range by period, ₹/MWh
 
 | Period | Approximate price range |
 |---|---|
@@ -135,6 +141,8 @@ Prices have collapsed as renewable supply outpaced RPO compliance demand.
 
 ### Floor and forbearance
 
+Table: REC floor and forbearance (cap) prices, ₹/MWh
+
 | Type | Floor | Forbearance (cap) |
 |---|---|---|
 | Solar REC | ₹1,000 | ₹2,400 |
@@ -143,6 +151,9 @@ Prices have collapsed as renewable supply outpaced RPO compliance demand.
 Periodically revised by CERC.
 
 ### Validity
+
+> [!IMPORTANT] The validity clock
+> A REC is valid for 1,095 days (3 years) from issue, against 730 days in older versions. Trading happens only in monthly sessions on IEX and PXIL, so a certificate that is not sold in time simply expires, which is the first item on the page's common-mistakes list.
 
 RECs valid for 1,095 days (3 years) from issue. Older versions had 730 days.
 
@@ -161,6 +172,8 @@ RE100 reporting.
 BRSR renewable energy share reporting.
 
 ## REC vs PPA vs net metering
+
+Table: REC vs PPA vs net metering, by what each sells
 
 | Mechanism | Sells electricity | Sells attribute |
 |---|---|---|
@@ -233,6 +246,8 @@ Corporate voluntary demand growing through RE100 and BRSR.
 
 ## Standards and certifications
 
+Table: Regulations and frameworks governing RECs
+
 | Standard | Scope |
 |---|---|
 | CERC REC Regulations 2022 | Indian framework |
@@ -244,6 +259,9 @@ Corporate voluntary demand growing through RE100 and BRSR.
 ## Common mistakes
 
 Letting RECs expire without sale.
+
+> [!WARNING] A REC is not renewable generation
+> Buying a REC does not substitute for physical renewable generation, and some ESG frameworks limit REC-based claims. Combine RECs with physical generation such as on-site solar, and use them as one part of an ESG strategy rather than the sole basis for a claim.
 
 Assuming REC purchase substitutes for physical renewable generation.
 

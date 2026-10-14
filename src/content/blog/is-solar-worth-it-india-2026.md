@@ -31,11 +31,20 @@ To decide **is rooftop solar worth it in India**, build a worksheet from the act
 
 This page provides the structure, formulas, and evidence checks. It does not publish a universal system price, saving, payback period, tariff, subsidy outcome, or investment return.
 
+> [!KEYTAKEAWAYS]
+> - Build the worksheet from your actual bill, roof, itemised quote, generation model, export treatment, finance, maintenance and replacement scenarios.
+> - Value self-consumed solar at the import charge actually avoided and exported energy at the current export credit, not all generated units at the headline tariff.
+> - Run conservative, expected and favourable cases: if the decision flips with one optimistic assumption, it is not yet robust.
+> - Keep government assistance as a conditional inflow until eligibility and receipt are confirmed.
+> - Pause when roof rights, shading, the export route, quote scope or affordability is unresolved. "Not yet" is different from "never".
+
 ## Which household and site conditions determine whether solar is worth it?
 
 **The decision depends on usable roof area, shading and structure, grid connection, electricity-use pattern, tariff components, expected ownership period, installation quote, generation evidence, self-consumption, export rules, finance, maintenance, and replacement exposure.** A high bill alone does not prove suitability, and a sunny roof alone does not prove financial value.
 
 Record these inputs before calculating:
+
+Table: Inputs and evidence to retain before calculating whether rooftop solar is worth it
 
 | Input group | Evidence to retain |
 | --- | --- |
@@ -54,6 +63,9 @@ For tenants, shared roofs, shaded sites, short ownership periods, disputed roof 
 
 **Calculate avoided import and export value separately.** Self-consumed solar can avoid the variable bill components that would otherwise apply to those units, while exported energy follows the current metering and credit rule. Fixed, demand, minimum, tax, duty, time-of-use, and other charges may behave differently and need line-by-line treatment.
 
+> [!FORMULA]
+> gross annual electricity value = avoided import value + export value
+
 Use these worksheet relationships with consistent units:
 
 - `self-consumed solar energy = solar generation used onsite before export`
@@ -62,7 +74,8 @@ Use these worksheet relationships with consistent units:
 - `export value = eligible exported energy × applicable export credit`
 - `gross annual electricity value = avoided import value + export value`
 
-Do not multiply total predicted generation by the headline retail tariff unless every generated unit truly avoids that charge. Do not assume a bill becomes zero, because fixed or other non-avoided components may remain.
+> [!WARNING] Do not multiply all generation by one tariff
+> Do not multiply total predicted generation by the headline retail tariff unless every generated unit truly avoids that charge. Do not assume a bill becomes zero, because fixed or other non-avoided components may remain.
 
 Ask the modeller to identify the source date and jurisdiction for every rate. The [net-metering guide](/blog/net-metering-india-complete-guide/) explains why a national rule cannot replace the applicable state and DISCOM documents.
 
@@ -88,6 +101,8 @@ If the household expects an EV, air conditioner, battery, business load, vacancy
 **Include every contracted and reasonably foreseeable cash flow, with source and timing.** Separate the installed solar scope from optional battery, finance, insurance, monitoring, service, maintenance, repairs, replacements, application or metering items, taxes, and exclusions. Record government assistance as a conditional inflow until eligibility and receipt are confirmed.
 
 Use a cost ledger:
+
+Table: Cost ledger for the rooftop-solar worksheet, with the evidence and timing for each line
 
 | Cost or inflow | Base evidence | Timing |
 | --- | --- | --- |
@@ -122,6 +137,8 @@ Do not show a payback result without the inputs and calculation file. A result r
 
 At minimum, compare:
 
+Table: Sensitivity cases to test and the purpose of each
+
 | Case | Purpose |
 | --- | --- |
 | Conservative | Lower generation or self-consumption, delayed completion, higher costs, and no unconfirmed assistance |
@@ -147,6 +164,7 @@ Solar can also be valuable for reasons not fully captured by simple payback, suc
 
 Before deciding:
 
+<!-- steps -->
 1. Verify bill and tariff inputs line by line.
 2. Confirm roof, shading, structure and ownership evidence.
 3. Obtain an exact-model design and site-specific generation report.

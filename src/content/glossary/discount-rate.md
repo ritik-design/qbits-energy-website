@@ -5,7 +5,7 @@ description: "Discount rate converts future cash flows to present value. Full gu
 category: "Finance"
 categorySlug: "finance"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - discount rate
   - solar discount rate
@@ -80,12 +80,12 @@ For project finance, the discount rate is typically the project's [WACC](/glossa
 
 Indian solar projects use discount rates of 8-12 percent post-tax depending on project type and financing structure. Utility-scale plants with strong PPA: 8-10 percent. C&I solar: 9-11 percent. Residential: 10-12 percent.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Discount rate converts future cash flows to present value and drives NPV, LCOE and discounted payback calculations.
 > - For project finance it is typically set equal to the project's WACC, the blended cost of debt and equity.
 > - Indian solar discount rates run 8 to 12 percent post-tax: 8 to 10 percent for utility, 9 to 11 percent for C&I, 10 to 12 percent for residential.
 > - The formula is Present Value = Future Value / (1 + r)^n, where r is the discount rate and n is the number of years.
-> - Each 1 percentage point change in discount rate moves LCOE by roughly 8 to 12 percent, so getting it right matters for bid pricing.
+> - Each 200 basis point (2 percentage point) change in discount rate moves LCOE by roughly ₹0.30 to ₹0.35/kWh, about 11 to 15 percent in the sensitivity table below, so getting it right matters for bid pricing.
 
 ## Why discount rate matters
 
@@ -101,6 +101,8 @@ Risk reflection. Higher risk projects use higher discount rates.
 
 ## Discount rate components
 
+Table: Components that build up a discount rate for Indian solar
+
 | Component | Description |
 |---|---|
 | Risk-free rate | Indian 10-year G-Sec (~6-7%) |
@@ -114,18 +116,21 @@ Risk reflection. Higher risk projects use higher discount rates.
 
 ### Discount rate calculation example
 
-For Indian solar project at WACC 10%:
-- Risk-free rate (G-Sec): 6.5%
-- Equity risk premium: 7%
-- Project beta: 1.0
-- Cost of equity = 6.5% + 1.0 × 7% = 13.5%
-- After-tax cost of debt: 7%
-- D/E ratio: 70/30
-- WACC = 0.7 × 7% + 0.3 × 13.5% = 4.9% + 4.05% = 8.95%
+> [!EXAMPLE] Building a WACC from its inputs
+> - Risk-free rate (G-Sec): 6.5%
+> - Equity risk premium: 7%
+> - Project beta: 1.0
+> - Cost of equity = 6.5% + 1.0 × 7% = 13.5%
+> - After-tax cost of debt: 7%
+> - D/E ratio: 70/30
+> - WACC = 0.7 × 7% + 0.3 × 13.5% = 4.9% + 4.05% = 8.95%
 
 ### Sensitivity to discount rate
 
 For 100 MW solar plant:
+
+Table: LCOE sensitivity to discount rate for a 100 MW solar plant, ₹/kWh
+
 | Discount rate | LCOE (₹/kWh) |
 |---|---|
 | 6% | 2.40 |
@@ -135,6 +140,8 @@ For 100 MW solar plant:
 
 ### Real vs nominal
 
+Table: Nominal vs real cash flows and the matching discount rate
+
 | Type | Cash flow | Discount rate |
 |---|---|---|
 | Nominal | Includes inflation | Nominal rate |
@@ -142,9 +149,12 @@ For 100 MW solar plant:
 
 Avoid mixing: nominal cash flow with real rate produces incorrect results.
 
-For 10 percent nominal rate and 5 percent inflation: real rate = (1.10/1.05), 1 = 4.76%.
+> [!FORMULA] Real rate from nominal rate and inflation
+> Real rate = (1 + nominal rate) / (1 + inflation) − 1. For a 10 percent nominal rate and 5 percent inflation: (1.10 / 1.05) − 1 = 4.76%.
 
 ### Discount factor table
+
+Table: Discount factor by year at 8, 10 and 12 percent
 
 | Year | 8% | 10% | 12% |
 |---|---|---|---|
@@ -154,6 +164,39 @@ For 10 percent nominal rate and 5 percent inflation: real rate = (1.10/1.05), 1 
 | 15 | 0.315 | 0.239 | 0.183 |
 | 20 | 0.215 | 0.149 | 0.104 |
 | 25 | 0.146 | 0.092 | 0.059 |
+
+```chart
+type: line
+title: Discount factor by year at 8, 10 and 12 percent
+source: "Calculated in this entry as 1 / (1 + r)^n, matching the discount factor table above"
+note: "A higher discount rate shrinks the present value of late-life cash flows faster."
+decimals: 3
+series:
+  - name: "8%"
+    data:
+      - { label: "Year 1", value: 0.926 }
+      - { label: "Year 5", value: 0.681 }
+      - { label: "Year 10", value: 0.463 }
+      - { label: "Year 15", value: 0.315 }
+      - { label: "Year 20", value: 0.215 }
+      - { label: "Year 25", value: 0.146 }
+  - name: "10%"
+    data:
+      - { label: "Year 1", value: 0.909 }
+      - { label: "Year 5", value: 0.621 }
+      - { label: "Year 10", value: 0.386 }
+      - { label: "Year 15", value: 0.239 }
+      - { label: "Year 20", value: 0.149 }
+      - { label: "Year 25", value: 0.092 }
+  - name: "12%"
+    data:
+      - { label: "Year 1", value: 0.893 }
+      - { label: "Year 5", value: 0.567 }
+      - { label: "Year 10", value: 0.322 }
+      - { label: "Year 15", value: 0.183 }
+      - { label: "Year 20", value: 0.104 }
+      - { label: "Year 25", value: 0.059 }
+```
 
 ## Real-world applications
 
@@ -192,6 +235,8 @@ CERC Tariff Regulations specify discount rate methodology.
 Solar IPP investment grade ratings improve with declining sector risk premium.
 
 ## Standards and certifications
+
+Table: Methodology references for discount rates
 
 | Standard | Scope |
 |---|---|

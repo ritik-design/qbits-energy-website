@@ -5,7 +5,7 @@ description: "Module efficiency is the percentage of sunlight converted to elect
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is module efficiency
   - solar panel efficiency
@@ -67,7 +67,7 @@ author: "Keyur Rakholiya"
 
 ## What is module efficiency
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Module efficiency is the percentage of sunlight a PV module converts into electricity, measured at Standard Test Conditions.
 > - Mainstream crystalline silicon modules run 20 to 24 percent: mono PERC 20-22%, mono TOPCon 22-23.5%, HJT 23-24%.
 > - Module efficiency trails cell efficiency by 1 to 2 percentage points because of cell spacing, frame area and glass transmission losses.
@@ -98,19 +98,24 @@ Comparison standard. Module efficiency is the single number used to rank module 
 
 ## How module efficiency is calculated
 
-η = (P_max at STC) / (E × A) × 100 percent
+> [!FORMULA]
+> η = (P_max at STC) / (E × A) × 100 percent
 
 Where:
 - P_max = module maximum power at STC, in watts
 - E = STC irradiance = 1000 W/m²
 - A = module area in square metres
 
-Example: A 540 W module of dimensions 2278 × 1134 mm (2.58 m²) has efficiency:
-η = 540 / (1000 × 2.58) = 0.209 = 20.9 percent
+> [!EXAMPLE] 540 W module
+> A 540 W module of dimensions 2278 × 1134 mm (2.58 m²) has efficiency:
+>
+> η = 540 / (1000 × 2.58) = 0.209 = 20.9 percent
 
 ## Technical deep dive
 
 ### Standard Test Conditions
+
+Table: Standard Test Conditions used to rate module efficiency
 
 | Parameter | STC value |
 |---|---|
@@ -125,6 +130,8 @@ Real-world operating conditions are very different from STC. [NOCT](/glossary/no
 
 ### Module efficiency progression
 
+Table: Mainstream module efficiency progression, 2010 to 2026
+
 | Year | Mainstream module efficiency |
 |---|---|
 | 2010 | 14 to 16% (poly dominant) |
@@ -134,6 +141,8 @@ Real-world operating conditions are very different from STC. [NOCT](/glossary/no
 | 2026 | 22 to 24% (TOPCon dominant) |
 
 ### Cell vs module efficiency
+
+Table: Cell efficiency compared with module efficiency by technology
 
 | Technology | Cell efficiency | Module efficiency | Gap |
 |---|---|---|---|
@@ -146,12 +155,16 @@ Real-world operating conditions are very different from STC. [NOCT](/glossary/no
 
 Module efficiency = Cell efficiency × Geometric fill factor × Glass transmission × Encapsulation transparency × Cell-string interconnect efficiency
 
-Geometric fill factor: typically 95 to 97 percent (cell spacing).
-Glass transmission: 91 to 94 percent for low-iron solar glass.
-Encapsulation transparency: 98 to 99 percent.
-Cell-string interconnect: 99 percent.
+Table: Module loss components and typical values
 
-Product gives typical module efficiency 85 to 90 percent of cell efficiency.
+| Component | Typical value |
+| --- | --- |
+| Geometric fill factor | 95 to 97 percent (cell spacing) |
+| Glass transmission | 91 to 94 percent for low-iron solar glass |
+| Encapsulation transparency | 98 to 99 percent |
+| Cell-string interconnect | 99 percent |
+
+Product of the ranges above gives module efficiency of roughly 84 to 89 percent of cell efficiency.
 
 ## Real-world applications
 
@@ -215,6 +228,8 @@ Audit annual yield against expected performance.
 
 ## Comparison: efficiency by cell technology
 
+Table: Module efficiency, area per kW and best use by cell technology
+
 | Cell tech | Module efficiency | Area per kW | Best for |
 |---|---|---|---|
 | Polycrystalline | 17 to 19% | 5.5 to 6 m² | Legacy |
@@ -235,6 +250,8 @@ PM Surya Ghar disbursement is independent of efficiency tier as long as modules 
 SECI utility tender bid documents specify minimum module efficiency, currently around 21 percent for new bids.
 
 ## Standards and certifications
+
+Table: Standards and listings relevant to module efficiency
 
 | Standard | Scope |
 |---|---|

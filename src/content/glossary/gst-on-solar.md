@@ -79,7 +79,7 @@ GST (Goods and Services Tax) on solar in India is the consumption tax applied to
 
 Solar equipment was taxed at 5% when GST began in July 2017, then at 12% from 1 October 2021 until 21 September 2025. Many older articles and quotes still show the 12% figure. On a composite supply of equipment plus installation, the 70:30 rule values 70% of the contract as goods at 5% and 30% as services at 18%, which is about 8.9% in total (it was about 13.8% at the earlier 12% goods rate). Business customers can claim input tax credit (ITC) to offset their own GST obligations, while residential customers (including PM Surya Ghar beneficiaries) cannot. The full rate breakdown by component is worked through in our [GST on solar inverters and panels guide](/blog/gst-on-solar-inverters-2026/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - GST on solar panels and complete solar power generating systems is 5 percent from 22 September 2025, down from 12 percent; installation and civil work services attract 18 percent.
 > - A composite supply is valued 70:30, so total GST works out to about 8.9 percent of the contract value.
 > - Business customers recover GST through input tax credit; residential customers, including PM Surya Ghar beneficiaries, absorb it in full.
@@ -100,6 +100,8 @@ PPA economics. GST affects developer cost structure.
 
 ## GST rate structure
 
+Table: GST rates on solar equipment and services in India from 22 September 2025
+
 | Item | Rate |
 |---|---|
 | Solar PV modules and cells | 5% |
@@ -113,35 +115,54 @@ PPA economics. GST affects developer cost structure.
 | Composite supply (equipment plus installation) | 70% at 5% and 30% at 18%, about 8.9% in total |
 | Electricity supply | Exempt |
 
-Rates apply from 22 September 2025 under Notification 9/2025-Integrated Tax (Rate) and its Central Tax (Rate) counterpart. Check the notification in force on the invoice date and confirm each line with the supplier, because a rate depends on how the item is described and classified.
+> [!IMPORTANT] The invoice-date rate and the classification decide your GST
+> Rates apply from 22 September 2025 under Notification 9/2025-Integrated Tax (Rate) and its Central Tax (Rate) counterpart. Check the notification in force on the invoice date and confirm each line with the supplier, because a rate depends on how the item is described and classified.
 
 ## Technical deep dive
 
 ### Impact on residential PM Surya Ghar
 
-An illustrative 3 kW residential system supplied and installed under one contract (not a Qbits price):
-- Contract value (pre-GST): ₹1,50,000
-- Goods, deemed 70 percent: ₹1,05,000 at 5 percent = ₹5,250
-- Services, deemed 30 percent: ₹45,000 at 18 percent = ₹8,100
-- Total GST: ₹13,350 (about 8.9 percent)
-- Total with GST: ₹1,63,350
-- PM Surya Ghar subsidy: up to ₹78,000 for a 3 kW system
-- Net customer cost: about ₹85,350
+> [!EXAMPLE] 3 kW residential contract under the 70:30 rule
+> An illustrative 3 kW residential system supplied and installed under one contract (not a Qbits price):
+>
+> - Contract value (pre-GST): ₹1,50,000
+> - Goods, deemed 70 percent: ₹1,05,000 at 5 percent = ₹5,250
+> - Services, deemed 30 percent: ₹45,000 at 18 percent = ₹8,100
+> - Total GST: ₹13,350 (about 8.9 percent)
+> - Total with GST: ₹1,63,350
+> - PM Surya Ghar subsidy: up to ₹78,000 for a 3 kW system
+> - Net customer cost: about ₹85,350
+>
+> At the earlier 12 percent goods rate the same contract carried ₹20,700 of GST, so the cut saves about ₹7,350 on this example.
 
-At the earlier 12 percent goods rate the same contract carried ₹20,700 of GST, so the cut saves about ₹7,350 on this example.
+```chart
+type: hbar
+title: GST on the illustrative ₹1,50,000 residential contract, before and after 22 September 2025
+unit: "₹"
+source: "Calculated in this entry from the 70:30 goods-to-services split above: goods at 12% or 5%, services at 18%, on a ₹1,50,000 pre-GST contract"
+note: "Illustrative contract, not a quote. Lower is better. Confirm the rate and classification on your own invoice."
+decimals: 0
+data:
+  - { label: "Goods at 12% (until 21 Sep 2025)", value: 20700 }
+  - { label: "Goods at 5% (from 22 Sep 2025)", value: 13350 }
+```
 
 ### Impact on C&I solar
 
-An illustrative 100 kW C&I project under one contract:
-- Total project cost (pre-GST): ₹40 lakh
-- GST (about 8.9 percent under the 70:30 split): ₹3.56 lakh
-- Total with GST: ₹43.56 lakh
-- ITC recovery (for a business that can claim it): ₹3.56 lakh
-- Net effective cost: ₹40 lakh
-
-For business customers, GST is effectively pass-through (collected and offset), a structure most commercial EPC installations already factor into their quotes.
+> [!EXAMPLE] 100 kW C&I project with input tax credit
+> An illustrative 100 kW C&I project under one contract:
+>
+> - Total project cost (pre-GST): ₹40 lakh
+> - GST (about 8.9 percent under the 70:30 split): ₹3.56 lakh
+> - Total with GST: ₹43.56 lakh
+> - ITC recovery (for a business that can claim it): ₹3.56 lakh
+> - Net effective cost: ₹40 lakh
+>
+> For business customers, GST is effectively pass-through (collected and offset), a structure most commercial EPC installations already factor into their quotes.
 
 ### Historical timeline
+
+Table: History of GST rates on solar equipment in India
 
 | Period | Solar equipment GST |
 |---|---|
@@ -198,6 +219,8 @@ PLI scheme partially offsets GST through manufacturing incentive.
 ALMM-listed equipment is treated under the same GST rates as other solar equipment.
 
 ## Standards and certifications
+
+Table: Legal and administrative references for GST on solar
 
 | Standard | Scope |
 |---|---|

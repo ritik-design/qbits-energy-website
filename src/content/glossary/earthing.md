@@ -5,7 +5,7 @@ description: "Earthing connects electrical systems to the ground for safety. Ful
 category: "Protection"
 categorySlug: "protection"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is earthing
   - solar earthing
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 Earthing is the deliberate connection of metal parts of an electrical installation (equipment enclosures, structures, neutral points) to the ground through a low-resistance conductor. The connection provides a defined path for fault current to flow safely to earth, enabling protection devices (RCCB, [MCB](/glossary/mcb/), SPD) to operate correctly and preventing dangerous voltages from appearing on accessible metal surfaces.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Earthing connects equipment enclosures, structures and neutral points to the ground through a low-resistance conductor, giving fault current a safe path.
 > - It is what enables RCCBs, SPDs and MCBs to actually work; without earthing, none of them are functional.
 > - Indian solar plants must hit an IS 3043 target of under 5 ohms earthing resistance.
@@ -97,6 +97,8 @@ Regulatory compliance. CEIG approval requires earthing testing.
 
 ## Earthing system components
 
+Table: Components of an earthing system and the role of each
+
 | Component | Role |
 |---|---|
 | Earth electrode | Buried rod, plate or strip making contact with soil |
@@ -109,6 +111,8 @@ Regulatory compliance. CEIG approval requires earthing testing.
 
 ### Earthing resistance requirements
 
+Table: IS 3043 earthing resistance target by application
+
 | Application | IS 3043 target |
 |---|---|
 | Generating station | < 1 Ω |
@@ -119,6 +123,8 @@ Regulatory compliance. CEIG approval requires earthing testing.
 | Sensitive electronics | < 1 Ω |
 
 ### Earth electrode types
+
+Table: Earth electrode types compared by resistance and service life
 
 | Type | Construction | Resistance | Life |
 |---|---|---|---|
@@ -131,6 +137,8 @@ Regulatory compliance. CEIG approval requires earthing testing.
 ### Indian solar earthing layout
 
 Typical multi-electrode arrangement:
+
+Table: Typical earth pit arrangement for an Indian solar plant
 
 | Earth pit | Use | Bond to |
 |---|---|---|
@@ -149,6 +157,9 @@ Indian soil resistivity varies:
 - Rocky soil: 500 to 5,000 Ω·m
 
 Higher resistivity requires multiple electrodes or chemical earthing.
+
+> [!TIP] Measure the soil before choosing the electrode
+> Soil resistivity runs from 5 to 20 Ω·m in wet clay to 500 to 5,000 Ω·m in rocky soil. A soil resistivity survey before designing earthing tells you whether a pipe electrode can reach the under 5 Ω target or whether you need several electrodes or chemical earthing.
 
 ## Real-world applications
 
@@ -178,6 +189,9 @@ Stolen earth strip. Copper strip in some locations is theft target.
 
 Inadequate number of electrodes for site soil resistivity.
 
+> [!WARNING] Keep the lightning arrestor earth off the main bar
+> The earth pit layout bonds the lightning arrestor directly, not through the main earth bar. Bonding it through the main bar is on the page's common-mistakes list and causes equipment damage during strikes.
+
 Lightning arrestor earth bonded incorrectly through main bar, causing equipment damage during strikes.
 
 ## Best practices
@@ -199,6 +213,8 @@ Document earth pit locations on the [single line diagram](/glossary/single-line-
 Bond all metallic structures (frames, enclosures, conduit).
 
 ## Comparison: earthing options
+
+Table: Earthing options compared by cost, resistance, life and best use
 
 | Option | Cost | Resistance | Life | Best for |
 |---|---|---|---|---|
@@ -223,6 +239,8 @@ State CEIG approval verifies earthing resistance at commissioning.
 Major Indian earthing product brands: Ashlok, Power Master, OBO, Cape Electric, BCH.
 
 ## Standards and certifications
+
+Table: Standards and codes that govern earthing in India
 
 | Standard | Scope |
 |---|---|

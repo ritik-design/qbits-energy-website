@@ -4,7 +4,7 @@ excerpt: "Check who qualifies for PM Surya Ghar in 2026: applicant, premises, el
 description: "Check PM Surya Ghar eligibility through the official portal and DISCOM, with guidance on applicant, premises, system and document requirements."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "18 min"
 image: "/og/blog-pm-surya-ghar-eligibility.webp"
 author: "Nirav Dhanani"
@@ -44,8 +44,7 @@ Every month, over a million Indians search for information about the [PM Surya G
 
 This guide cuts through that confusion. Whether you own a standalone home, live in an apartment, are an NRI with property in India, or are wondering if your existing solar system affects your eligibility, the answer is here, alongside a structured self-assessment tool so you can determine your status before you spend a single rupee with a vendor.
 
-> **TL;DR**
-
+> [!KEYTAKEAWAYS]
 > - The central subsidy is capped at ₹78,000 for a 3 kW system, with no additional amount for capacity beyond that.
 > - Tenants cannot apply directly, the application must run through the landlord's electricity account with a written NOC.
 > - Apartment owners with an individual meter can apply solo; shared rooftops usually need a collective RWA application.
@@ -77,6 +76,7 @@ Before visiting a vendor or logging into the PM Surya Ghar portal, run through t
 
 ### The 5-Point Eligibility Screen
 
+<!-- steps -->
 1. **Citizenship and Aadhaar Gate**: Do you hold Indian citizenship and have a valid, active Aadhaar number linked to a bank account? If yes, clear this gate. If your Aadhaar is not linked to your bank account, complete that linkage first, subsidy disbursement requires it.
 
 2. **Tariff Category Gate**: Pull out your most recent electricity bill. Find the tariff category or consumer category printed on the bill. Does it read "Domestic", "Residential", "LT-1", or the equivalent domestic category in your state? If yes, clear this gate. If it reads "Commercial", "Industrial", "Agricultural", or any other non-domestic category, you do not qualify under your current connection.
@@ -87,11 +87,14 @@ Before visiting a vendor or logging into the PM Surya Ghar portal, run through t
 
 5. **Prior Subsidy Gate**: Have you or any previous owner of this connection received a rooftop solar subsidy from the central government in the last seven years? If no, clear this gate and proceed. If yes, check with your DISCOM whether an upgrade application is possible, or wait until the seven-year window has elapsed.
 
-Clearing all five gates takes about ten minutes and saves weeks of misdirected effort. The five-gate pass means you can confidently approach an empanelled vendor and begin the formal application process on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), or use a local solar installer directory to shortlist vetted teams near you before you commit to a quote.
+> [!TIP] Run the five gates before you meet a vendor
+> Clearing all five gates takes about ten minutes and saves weeks of misdirected effort. The five-gate pass means you can confidently approach an empanelled vendor and begin the formal application process on the [PM Surya Ghar portal](https://pmsuryaghar.gov.in/), or use a local solar installer directory to shortlist vetted teams near you before you commit to a quote.
 
 ## Eligibility Status by Consumer Type
 
 The table below covers eighteen common scenarios. The status column uses three designations: Eligible (the scenario meets standard criteria), Conditional (eligibility depends on a specific additional condition being met), and Not Eligible (the scenario is categorically excluded).
+
+Table: Eligibility status for eighteen common consumer scenarios, with the key condition for each
 
 | Consumer Scenario | Eligibility Status | Key Condition |
 | --- | --- | --- |
@@ -120,6 +123,8 @@ The "Conditional" cases are not dead ends, they simply require an additional ste
 
 One of the most common misconceptions about PM Surya Ghar is that it is a welfare scheme restricted to low-income households. That is not accurate. The central subsidy is available to all income groups without an income ceiling.
 
+Table: Central subsidy and state top-up by income group (BPL, EWS, APL, middle income)
+
 | Income Group | Central Subsidy (up to 3 kW) | State Top-Up (selected states) | Additional Benefits |
 | --- | --- | --- | --- |
 | Below Poverty Line (BPL) | ₹78,000 (for 3 kW) | Up to ₹20,000–₹30,000 in Gujarat, Rajasthan, UP | Priority processing queue in some DISCOMs |
@@ -127,7 +132,25 @@ One of the most common misconceptions about PM Surya Ghar is that it is a welfar
 | Above Poverty Line (APL) - any income | ₹78,000 (for 3 kW) | May not qualify for state top-up | Same subsidy as BPL for central component |
 | Middle income (no income cap) | ₹78,000 (for 3 kW) | Varies by state | Standard empanelled vendor route |
 
+> [!FORMULA] Central subsidy for a 3 kW system
+> 2 kW × ₹30,000 + 1 kW × ₹18,000 = ₹78,000
+
 The [central subsidy structure](/blog/pm-surya-ghar-subsidy-amount/) breaks down as follows: ₹30,000 per kW for the first 2 kW, and ₹18,000 for the third kW, totalling ₹78,000 for a 3 kW system. For systems above 3 kW, no additional central subsidy is provided beyond this ceiling.
+
+```chart
+type: bar
+title: Central subsidy by system size under PM Surya Ghar (₹)
+unit: "₹"
+source: "Calculated in this article from the MNRE PM Surya Ghar per-kW rates stated above (₹30,000 per kW for the first 2 kW, ₹18,000 for the third kW, no amount beyond 3 kW), MNRE PM Surya Ghar Guidelines, 2026"
+sourceUrl: https://mnre.gov.in/
+note: "Central assistance only. State top-ups vary and are not included."
+data:
+  - { label: "1 kW", value: 30000 }
+  - { label: "2 kW", value: 60000 }
+  - { label: "3 kW", value: 78000 }
+  - { label: "4 kW", value: 78000 }
+  - { label: "5 kW", value: 78000 }
+```
 
 > **₹78,000.** The maximum central subsidy available under PM Surya Ghar for a 3 kW residential rooftop system, disbursed directly to the applicant's Aadhaar-linked bank account after DISCOM verification of installation. *Source - [MNRE PM Surya Ghar Guidelines](https://mnre.gov.in/), 2026.*
 
@@ -194,6 +217,8 @@ Properties with existing off-grid solar systems that were installed without any 
 ## State-Level Eligibility Variations
 
 The central government sets the baseline eligibility criteria, but state governments and DISCOMs add layers. The table below captures key variations across major states as of mid-2026.
+
+Table: State-level eligibility variations, state top-up and private DISCOM participation
 
 | State | Notable Additional Condition | State Subsidy Top-Up | Private DISCOM Participation |
 | --- | --- | --- | --- |

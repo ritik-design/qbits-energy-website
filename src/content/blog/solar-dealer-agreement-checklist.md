@@ -37,11 +37,20 @@ A solar dealer agreement should turn commercial discussions into an operable res
 
 If you are applying for the distribution route rather than reviewing a proposed agreement, start with the [Qbits distributor registration walkthrough](/blog/become-qbits-distributor/) and keep the application separate from any later appointment terms.
 
+> [!KEYTAKEAWAYS]
+> - Collect the complete proposed agreement and every incorporated schedule and policy before comparing individual clauses; mark blank, "to be agreed" or changeable-link schedules as commercial risk.
+> - An `authorised dealer` title is not an exclusive territory: ask which exact right is granted and which exceptions override it.
+> - Treat targets, rebates, price and credit as formulas with named inputs, evidence, timing and reversal rules, not headline percentages.
+> - No stock buyback should be assumed: a repurchase right, optional return, transfer, sell-off period and no exit right are commercially different outcomes.
+> - This is a review framework, not a statement of Qbits dealer terms; confirm every term in the current approved agreement and schedules.
+
 ## What should be collected before reviewing a solar dealer agreement?
 
 **Collect the complete proposed agreement, every incorporated schedule and policy, the legal identities of the parties, the product scope, commercial proposal, warranty terms, service workflow, price and credit documents, and any promises made during negotiation.** Mark missing or changeable documents before comparing individual clauses or modelling the business case.
 
 Build a document register first:
+
+Table: Document register for a solar dealer agreement review
 
 | Document | Review question |
 | --- | --- |
@@ -72,13 +81,16 @@ Ask these questions against the actual wording:
 - What notice and cure process applies before territory or exclusivity changes?
 - What happens to quoted, ordered, installed, or service-stage opportunities after a change?
 
-Do not equate `authorised dealer` with an exclusive territory. Ask the reviewer to identify the exact right granted and the exceptions that can override it.
+> [!IMPORTANT] Authorised is not exclusive
+> Do not equate `authorised dealer` with an exclusive territory. Ask the reviewer to identify the exact right granted and the exceptions that can override it.
 
 ## How should targets, pricing, rebates and credit be checked?
 
 **Review each commercial mechanism as a formula with named inputs, evidence, timing, approval, and reversal rules.** The agreement should distinguish a target from a binding purchase obligation, a list price from the invoiced price, a conditional rebate from earned margin, and requested credit from an approved credit facility.
 
 Use a worksheet rather than a headline percentage.
+
+Table: Commercial terms and the questions to resolve for each
 
 | Term | Questions to resolve |
 | --- | --- |
@@ -100,6 +112,7 @@ For a distributor appointment, use the [credit and territory review guide](/blog
 
 Map the inventory life cycle from purchase order to final disposition:
 
+<!-- steps -->
 1. Who may submit and approve an order?
 2. When does an order become binding, and can it be changed or cancelled?
 3. Which delivery term determines freight, insurance, title and risk?
@@ -114,6 +127,8 @@ Map the inventory life cycle from purchase order to final disposition:
 
 **No buyback should be assumed.** Ask whether the proposed agreement creates a repurchase right, an optional return process, a transfer to another partner, a limited sell-off period, or no exit route for remaining stock. These outcomes are commercially different.
 
+Table: Stock exit routes and the questions to settle in writing for each
+
 | Exit route to review | Questions to settle in writing |
 | --- | --- |
 | Mandatory buyback | Which stock qualifies, who must repurchase it, how is value calculated, and by when is payment due? |
@@ -122,13 +137,18 @@ Map the inventory life cycle from purchase order to final disposition:
 | Sell-off period | Which products, customers, branding, warranty communication and end date apply while remaining stock is sold? |
 | No exit right | Who bears unsold, obsolete, opened, demo, damaged or discontinued inventory after termination? |
 
-Avoid using `buyback`, `return`, and `stock adjustment` as if they mean the same thing. Record the exact models, serial-number or invoice evidence, packaging condition, age limit, valuation basis, taxes, freight, inspection, set-off rights, credit-note timing, and treatment of disputed units. A buyback discussed during negotiation is not an enforceable Qbits commitment unless the authorised final documents contain it.
+Avoid using `buyback`, `return`, and `stock adjustment` as if they mean the same thing. Record the exact models, serial-number or invoice evidence, packaging condition, age limit, valuation basis, taxes, freight, inspection, set-off rights, credit-note timing, and treatment of disputed units.
+
+> [!WARNING] A negotiated buyback is not a commitment
+> A buyback discussed during negotiation is not an enforceable Qbits commitment unless the authorised final documents contain it.
 
 ## How should installation, warranty and service responsibilities be allocated?
 
 **The agreement should allocate sales representations, design, installation, commissioning, customer handover, fault intake, diagnosis, site attendance, warranty authorisation, parts, labour, freight, removal, reinstallation, records, escalation, and regulatory communication.** It should also state which separate product, workmanship, service, or maintenance document controls each obligation.
 
 Create a responsibility matrix with one accountable party for every step.
+
+Table: Installation, warranty and service stages with the questions the agreement should answer
 
 | Stage | Questions the agreement should answer |
 | --- | --- |
@@ -187,6 +207,7 @@ Record the dispute mechanics in operational language: who sends a notice, to whi
 
 **Before signature, close document gaps, compare negotiation promises with the final text, model cash and stock exposure, map customer and service duties, verify approval authority, obtain specialist reviews, and create an exceptions register.** Sign only the final agreed version with completed schedules, traceable changes, correct parties, and a practical implementation owner.
 
+<!-- steps -->
 1. Confirm the legal names, registration details, addresses and authorised signatories.
 2. Check definitions against every clause and schedule that uses them.
 3. Mark each commercial promise as included, excluded, conditional, or unresolved.

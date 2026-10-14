@@ -1,6 +1,6 @@
 ---
 title: "Best Solar Inverter Under ₹50,000 in India 2026: Budget Picks That Actually Last"
-excerpt: "Best solar inverter under 50000 in India for 2026. Ranked 3kW on-grid picks with honest tradeoffs, warranty math, and PM Surya Ghar subsidy numbers."
+excerpt: "Best solar inverter under 50000 in India for 2026. 3kW on-grid options listed by use case, not ranked, with honest tradeoffs, warranty math, and PM Surya Ghar subsidy numbers."
 description: "Use a ₹50,000 inverter budget safely by comparing topology, usable specifications, warranty scope, installation needs and current quotations."
 category: "Buying Guide"
 date: 2026-07-23

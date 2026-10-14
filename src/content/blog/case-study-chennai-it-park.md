@@ -4,7 +4,7 @@ excerpt: "Illustrative 200 kW Chennai IT park solar planning scenario. It is not
 description: "A 200 kW Chennai IT park solar planning framework using unknown load and tariff inputs, not a verified installation or operating result."
 category: "Case Study"
 date: 2026-06-05
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "7 min"
 image: "/og/blog-case-study-chennai-it-park.webp"
 author: "Qbits Editorial"
@@ -26,6 +26,13 @@ faqs:
 
 An IT park may have steady daytime demand, but uptime, tenant metering, HVAC and data-centre interfaces make the design more than a panel-count exercise. This scenario turns a 200 kW idea into evidence the facility team can verify.
 
+> [!KEYTAKEAWAYS]
+> - This is an illustrative planning scenario, not a customer case study. It rests on no signed customer record, site survey, interval load file, quotation, commissioning report or measured performance data.
+> - Uptime, tenant metering, HVAC and data-centre interfaces make an IT park design more than a panel-count exercise.
+> - Every input in the evidence table is still "to be collected", and a missing input should stay marked as unknown instead of being replaced by a typical value.
+> - Keep server and life-safety continuity independent from a grid-following PV system. Grid-connected solar is not backup unless the complete design explicitly supports that role.
+> - A Qbits catalogue listing does not prove a model suits this scenario. Record the exact SKU and request its current documents.
+
 ## What decision does this scenario test?
 
 The question is not whether 200 kW “works” in the abstract. The question is whether that AC capacity, paired with a documented PV array and connection design, fits the site's measured daytime load, available area, electrical infrastructure and approval route.
@@ -33,6 +40,8 @@ The question is not whether 200 kW “works” in the abstract. The question is 
 A credible answer must be electrically safe, acceptable under the current project process, and commercially supportable after every cost and uncertainty is shown.
 
 ## Evidence required before sizing
+
+Table: Evidence required before sizing the 200 kW scenario, and the status of each input
 
 | Input | What to collect | Status in this scenario |
 | --- | --- | --- |
@@ -60,13 +69,17 @@ The responsible electrical professional should sign the single-line diagram, pro
 
 Use measured inputs and keep the calculation reproducible:
 
+<!-- steps -->
 1. **Estimated annual generation** = simulation output for the documented array, orientation, losses and weather dataset.
 2. **Self-consumed energy** = the lesser of generation and coincident site load in each interval.
 3. **Exported energy** = generation minus self-consumed energy, subject to the approved metering arrangement.
 4. **Annual bill effect** = avoided import charges plus documented export credit minus fixed, demand, finance, service and maintenance costs.
 5. **Simple payback** = eligible project cost divided by annual net cash benefit.
 
-Do not publish a generation, saving, return or payback result until the calculation file identifies every input, unit, date and source. Tax effects require written advice from a qualified professional. Financing results require actual lender terms.
+> [!IMPORTANT] No result without a calculation file
+> Do not publish a generation, saving, return or payback result until the calculation file identifies every input, unit, date and source.
+
+Tax effects require written advice from a qualified professional. Financing results require actual lender terms.
 
 ## What can be said about Qbits equipment?
 

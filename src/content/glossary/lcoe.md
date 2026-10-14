@@ -5,7 +5,7 @@ description: "LCOE is the lifetime cost of electricity from a solar plant. Full 
 category: "Finance"
 categorySlug: "finance"
 priority: "P0"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is lcoe
   - levelised cost of energy
@@ -68,7 +68,7 @@ author: "Akash Hirapara"
 
 ## What is LCOE
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - LCOE is the per-kWh cost of electricity from a plant over its full life, with [CAPEX](/glossary/capex/), [OPEX](/glossary/opex/), financing and degradation all discounted to present value.
 > - Indian utility solar LCOE has fallen from above ₹17/kWh in 2010 to ₹2.5-3.5/kWh in 2026; C&I rooftop runs ₹3.0-4.5/kWh.
 > - The discount rate used is the project's [WACC](/glossary/wacc/), typically 8 to 10 percent for Indian utility solar.
@@ -103,7 +103,8 @@ Lifecycle visibility. Captures the 25-year asset behaviour, not just upfront cos
 
 ## How LCOE is calculated
 
-LCOE = Σ (Costs_t / (1+r)^t) / Σ (Energy_t / (1+r)^t)
+> [!FORMULA]
+> LCOE = Σ (Costs_t / (1+r)^t) / Σ (Energy_t / (1+r)^t)
 
 Where:
 - Costs_t = total costs in year t (capex, O&M, financing)
@@ -123,6 +124,8 @@ Inputs needed:
 
 ### Indian utility solar LCOE breakdown (2026 approximation)
 
+Table: Indian utility solar LCOE breakdown by cost component (2026 approximation)
+
 | Component | Contribution to ₹/kWh |
 |---|---|
 | Module capex | 0.80 to 1.00 |
@@ -136,6 +139,8 @@ Inputs needed:
 
 ### LCOE inputs for Indian utility solar
 
+Table: Typical LCOE inputs for Indian utility solar
+
 | Parameter | Typical value |
 |---|---|
 | Capex (₹ Cr/MW) | 3.5 to 4.5 |
@@ -147,6 +152,8 @@ Inputs needed:
 
 ### Sensitivity
 
+Table: Sensitivity of utility solar LCOE to changes in key inputs
+
 | Input change | LCOE impact (₹/kWh) |
 |---|---|
 | Capex +10% | +0.25 to 0.35 |
@@ -157,6 +164,8 @@ Inputs needed:
 
 ### Solar vs alternatives (Indian LCOE 2026, approximate)
 
+Table: Indian LCOE by generation technology, 2026 approximate
+
 | Technology | LCOE ₹/kWh |
 |---|---|
 | Utility solar | 2.5 to 3.5 |
@@ -166,6 +175,9 @@ Inputs needed:
 | Nuclear | 6.0 to 7.5 |
 | Solar plus 4 hour battery | 5.0 to 7.0 |
 | Diesel genset (for comparison) | 18 to 25 |
+
+> [!IMPORTANT] Compare like with like
+> The 2.5 to 3.5 ₹/kWh utility solar figure is for a plant without storage. In the same table, solar plus a 4 hour battery is 5.0 to 7.0 ₹/kWh. Comparing bare solar LCOE with coal or gas, without a storage adjustment, flatters solar.
 
 ## Real-world applications
 
@@ -235,6 +247,8 @@ Update LCOE as capex and tariff trajectories shift.
 
 ## Comparison: LCOE by project type (Indian, 2026)
 
+Table: LCOE by solar project type in India, 2026
+
 | Project type | LCOE ₹/kWh |
 |---|---|
 | Utility solar | 2.5 to 3.5 |
@@ -248,6 +262,18 @@ Update LCOE as capex and tariff trajectories shift.
 
 Indian utility solar tariffs discovered through SECI tenders fell from ₹17.91/kWh in 2010 to ₹1.99/kWh in 2020, rising slightly to ₹2.55/kWh in 2024 due to module price recovery.
 
+```chart
+type: bar
+title: Discovered Indian utility solar tariff in SECI tenders, 2010, 2020 and 2024
+unit: "₹/kWh"
+source: "SECI tender discovered tariffs, as cited in this entry's Indian market context"
+note: "Three points only, not a continuous series. Tariff is the discovered price, not LCOE."
+data:
+  - { label: "2010", value: 17.91 }
+  - { label: "2020", value: 1.99 }
+  - { label: "2024", value: 2.55 }
+```
+
 CERC Tariff Regulations 2024 use LCOE methodology for benchmark tariff setting.
 
 State SERCs publish LCOE-based feed-in tariffs for distributed solar.
@@ -257,6 +283,8 @@ RTC (Round-The-Clock) solar plus storage projects under SECI tenders use composi
 PM Surya Ghar subsidised LCOE for residential is competitive with retail tariffs in most states.
 
 ## Standards and certifications
+
+Table: Methodologies and references behind LCOE
 
 | Standard | Scope |
 |---|---|

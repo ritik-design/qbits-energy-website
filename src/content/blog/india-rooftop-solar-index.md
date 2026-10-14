@@ -4,7 +4,7 @@ excerpt: "Compare Indian states using dated official capacity, scheme, tariff, n
 description: "Evidence framework for comparing rooftop solar conditions across Indian states without fabricated readiness scores or turnaround claims."
 category: "Industry"
 date: 2026-09-23
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "8 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -21,7 +21,16 @@ faqs:
 
 A state ranking is only credible when the raw observations, definitions, dates, missing values, and calculation method are published. This page does not publish readiness scores, state rankings, installation counts or turnaround figures, because no auditable dataset supports them.
 
+> [!KEYTAKEAWAYS]
+> - This page publishes no readiness scores, state rankings, installation counts or turnaround figures, because no auditable dataset supports them.
+> - Compare states on separate indicators: installed capacity, scheme terms, net-metering rules, tariff, processing, installer availability and grid capacity.
+> - Each indicator needs a preferred official source and context such as the unit, the jurisdiction and the date.
+> - Missing or incomparable indicators should be left out, not combined into a precise score.
+> - Rules can differ by DISCOM and consumer category, so check the controlling document for your own service area.
+
 ## Compare separate indicators
+
+Table: Indicators for comparing rooftop solar conditions by state, with preferred source and required context
 
 | Indicator | Preferred source | Required context |
 | --- | --- | --- |

@@ -5,7 +5,7 @@ description: "CAN bus is standard battery-inverter communication. Full guide and
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - can bus
   - can communication
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 CAN (Controller Area Network) bus is a serial communication protocol used between [Battery Management Systems (BMS)](/glossary/bms/) and solar inverters (and other devices) to exchange operational data. Originally developed by Bosch in the 1980s for automotive applications, CAN has become the standard communication protocol for modern [lithium-ion battery](/glossary/lithium-ion-battery/) storage in solar applications.
 
-> **TL;DR**
+> [!NOTE] In short
 > - CAN bus is the serial protocol connecting a battery's BMS and the solar inverter to exchange SOC, voltage, current, temperature and control data.
 > - Standard CAN runs at up to 1 Mbit/s; CAN FD extends this to up to 8 Mbit/s.
 > - It uses a twisted pair (CAN_H/CAN_L) with 120-ohm termination at each end, with a maximum cable length of about 40m at 1 Mbit/s.
@@ -99,6 +99,8 @@ Pack expansion. Multiple battery modules communicate.
 
 ## CAN bus structure
 
+Table: CAN bus layers and what each does
+
 | Layer | Function |
 |---|---|
 | Physical | Twisted pair, differential signalling |
@@ -108,6 +110,8 @@ Pack expansion. Multiple battery modules communicate.
 ## Technical deep dive
 
 ### CAN message format
+
+Table: CAN message frame fields and their size in bits
 
 | Field | Bits |
 |---|---|
@@ -121,6 +125,8 @@ Pack expansion. Multiple battery modules communicate.
 
 ### Typical BMS-inverter messages
 
+Table: Typical BMS and inverter messages over CAN
+
 | Direction | Message |
 |---|---|
 | BMS → Inverter | SOC, voltage, current, temperature |
@@ -133,15 +139,23 @@ Pack expansion. Multiple battery modules communicate.
 ### Compatibility lists
 
 Major inverter brands publish compatibility lists for battery brands:
-- Sungrow: compatible with Pylon Tech, BYD, Samsung
-- Solis: compatible with Pylon Tech, BYD, others
-- Goodwe: compatible with Goodwe Storage, BYD, Pylon Tech
-- Solax: compatible with own Solax brand, third-party varied
-- Deye: compatible with various brands
 
-Mixing brands outside compatibility lists fails or operates degraded.
+Table: Battery brands named in published inverter compatibility lists
+
+| Inverter brand | Compatible battery brands |
+| --- | --- |
+| Sungrow | Pylon Tech, BYD, Samsung |
+| Solis | Pylon Tech, BYD, others |
+| Goodwe | Goodwe Storage, BYD, Pylon Tech |
+| Solax | Own Solax brand, third-party varied |
+| Deye | Various brands |
+
+> [!IMPORTANT] Stay inside the compatibility list
+> Mixing brands outside compatibility lists fails or operates degraded.
 
 ### Cable and topology
+
+Table: CAN bus cable and topology specification
 
 | Parameter | Specification |
 |---|---|
@@ -166,11 +180,10 @@ Backup power systems.
 
 Verify CAN protocol compatibility before [inverter and battery procurement](https://heavengreenenergy.com/products/solar-inverters/).
 
-Use proper twisted pair cable.
-
-Maintain termination at both ends.
-
-Keep CAN length within specifications.
+> [!CHECKLIST] CAN wiring
+> - Use proper twisted pair cable.
+> - Maintain termination at both ends.
+> - Keep CAN length within specifications.
 
 Update firmware to match between BMS and inverter.
 
@@ -187,6 +200,8 @@ Inverter compatibility lists published by manufacturers.
 Domestic BMS developers (Inverted Energy, Battrixx) implement standard CAN protocols.
 
 ## Standards and certifications
+
+Table: Standards behind CAN bus communication
 
 | Standard | Scope |
 |---|---|

@@ -5,7 +5,7 @@ description: "A central inverter is a high-capacity solar inverter used in utili
 category: "Inverter Types"
 categorySlug: "inverter-types"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is central inverter
   - central solar inverter
@@ -72,7 +72,7 @@ author: "Nirav Dhanani"
 
 A central inverter is a high-capacity solar inverter that processes the combined DC output of a large PV array through one or two centralised power blocks. Capacities range from 500 kW to 5 MW per unit. Each unit feeds a dedicated medium-voltage step-up transformer at the same pad, and the combination is called a power conversion station, PCS or skid.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A central inverter is a high-capacity solar inverter, 500 kW to 5 MW, used in utility-scale solar plants.
 > - Peak efficiency reaches 98.5 to 99 percent, the highest of any inverter topology.
 > - Since 2022, large string inverters have taken share from central inverters because of better serviceability and lower MPPT mismatch loss.
@@ -122,6 +122,8 @@ A plant controller above the inverters orchestrates active power dispatch, react
 
 Modern central inverters almost universally use multilevel topologies. The dominant choices:
 
+Table: Multilevel topologies used in central inverters
+
 | Topology | Notes |
 |---|---|
 | Neutral Point Clamped (NPC) | 3-level NPC is standard for 1000 V DC bus. Low switching loss, balanced THD. |
@@ -130,6 +132,9 @@ Modern central inverters almost universally use multilevel topologies. The domin
 | Modular Multilevel | Emerging for very large 5 MW and above units. Lower output filter, higher complexity. |
 
 ### DC oversize
+
+> [!IMPORTANT] DC oversize decides the yield
+> Indian utility plants run 130 to 150 percent DC oversize on central inverters, harvesting more morning and evening energy for a 6 to 12 percent annual yield gain. The common-mistakes list warns that too little oversize leaves yield 4 to 9 percent below what string-equivalent plants achieve.
 
 Indian utility plants typically run a [DC oversize ratio](/glossary/dc-oversizing/) of 130 to 150 percent on central inverters. The inverter clips midday peak but harvests more morning and evening energy, raising annual yield by 6 to 12 percent depending on irradiance profile.
 
@@ -167,6 +172,9 @@ Lowest cost per installed watt at utility scale. Highest peak efficiency, with t
 
 ## Limitations
 
+> [!WARNING] One skid trip takes megawatts offline
+> A trip takes 0.5 to 2.5 MW offline until repaired, and average downtime in Indian conditions runs 4 to 24 hours per fault against 1 to 4 hours for a string inverter. Check the OEM's O&M support footprint before choosing the cheapest unit: a 1 MW outage with a four-day response time costs more than the inverter saved.
+
 Single point of failure per skid. A trip takes 0.5 to 2.5 MW offline until repaired. Average downtime in Indian conditions runs 4 to 24 hours per fault.
 
 Higher MPPT mismatch loss. One MPPT for a megawatt block cannot track sub-arrays separately, costing 0.5 to 2 percent annual yield on non-uniform terrain.
@@ -193,6 +201,9 @@ Communication loss to the plant controller. The inverter still runs locally but 
 
 ## Best practices for central inverters
 
+> [!TIP] Maintenance calendar from this page
+> Torque-audit DC terminations annually and run an annual thermography sweep, since loose joints heat up first. Clean filters quarterly at minimum in Indian dust, monthly during summer in arid zones, and keep a 4 percent stock of fans, capacitors and SPDs on site.
+
 Pre-commissioning insulation tests on every DC cable run. Catch damaged cables before they fail in service.
 
 Install string-level monitoring through smart [combiner boxes](/glossary/combiner-box/). Without it, MPPT mismatch losses are invisible.
@@ -211,10 +222,12 @@ Plan crane access to every PCS. Replacement IGBT stacks and transformers are not
 
 The table below sets central inverters against [string inverters](/glossary/string-inverter/) and [microinverters](/glossary/micro-inverter/); for a deeper look at the string-versus-micro side of that trade-off on Indian rooftops, see [String Inverter vs Microinverter, The Indian Roof Reality](/blog/string-vs-microinverter/).
 
+Table: Central vs string vs microinverters on capacity, efficiency, repair time, cost and fit
+
 | Feature | Central | String | Micro |
 |---|---|---|---|
 | Capacity per unit | 0.5 to 5 MW | 1 kW to 350 kW | 0.25 to 0.4 kW |
-| Plants per MW | 1 to 2 | 4 to 8 | 2500 to 4000 |
+| Units per MW | 1 to 2 | 4 to 8 | 2500 to 4000 |
 | Peak efficiency | 98.5 to 99% | 97 to 98.6% | 95 to 97% |
 | Mean time to repair | 4 to 24 h | 1 to 4 h | 1 to 2 days |
 | Capex per watt (₹, 2026) | 1.5 to 3 | 2 to 6 | 8 to 14 |
@@ -230,6 +243,8 @@ CEA grid code requires reactive power capability, fault ride-through and active 
 The 1500 V DC architecture is now standard for new utility plants in India. Central inverters at 1500 V dominate plants tendered after 2021.
 
 ## Standards and certifications
+
+Table: Standards and codes that apply to central inverters
 
 | Standard | Scope |
 |---|---|

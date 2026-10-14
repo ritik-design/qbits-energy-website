@@ -5,7 +5,7 @@ description: "VGF bridges economic gap for unviable projects. Full guide to Indi
 category: "Policies"
 categorySlug: "policies"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - viability gap funding
   - vgf solar storage
@@ -64,7 +64,7 @@ author: "Akash Hirapara"
 
 ## What is Viability Gap Funding
 
-> **TL;DR**
+> [!NOTE] In short
 > - VGF is a one-time government grant that bridges the gap between a project's total cost and its commercial viability.
 > - India's largest current solar-adjacent VGF programme funds grid-connected BESS: ₹3,760 crore for 4 GWh of storage.
 > - Support is capped at ₹40 lakh per MWh or 30 percent of project cost, whichever is lower.
@@ -74,9 +74,12 @@ author: "Akash Hirapara"
 
 Viability Gap Funding (VGF) is a capital subsidy mechanism providing a one-time grant from government to bridge the gap between a project's total cost and its commercial viability. The grant covers the difference between what the project can earn at competitive tariffs and the [capex](/glossary/capex/) required for the project to be built. VGF supports infrastructure and emerging technologies that are socially or strategically desirable but not yet commercially viable.
 
-In Indian solar, the most significant current VGF programme supports Battery Energy Storage Systems ([BESS](/glossary/bess/)) connected to the grid for renewable energy. Launched in September 2023 with ₹3,760 crore outlay, the scheme targets 4 GWh of storage capacity, part of a broader wave of BESS-plus-solar tenders reshaping India's renewable pipeline (see [India Solar Statistics 2026, Complete Data Reference](/blog/india-solar-statistics-2026-data/)), providing up to ₹40 lakh per MWh (about ₹13.4 lakh per MW for 4-hour storage) or 30 percent of project cost, whichever is lower.
+In Indian solar, the most significant current VGF programme supports Battery Energy Storage Systems ([BESS](/glossary/bess/)) connected to the grid for renewable energy. Launched in September 2023 with ₹3,760 crore outlay, the scheme targets 4 GWh of storage capacity, part of a broader wave of BESS-plus-solar tenders reshaping India's renewable pipeline (see [India Solar Statistics 2026, Complete Data Reference](/blog/india-solar-statistics-2026-data/)), providing up to ₹40 lakh per MWh (about ₹1.6 crore per MW for 4-hour storage) or 30 percent of project cost, whichever is lower.
 
 VGF mechanisms have historically been used for various infrastructure including solar manufacturing demonstrations, agricultural solar pumps and other emerging technology areas. The BESS VGF is the largest current solar-related VGF programme in India.
+
+> [!IMPORTANT] A different track from the rooftop subsidy
+> VGF funds grid-connected BESS through SECI, with milestone-based disbursement. It is separate from the PLI scheme for cell manufacturing and from the residential PM Surya Ghar subsidy, which funds rooftop capex directly.
 
 ## Why VGF matters
 
@@ -91,6 +94,8 @@ Domestic capacity. Funds Indian BESS development supporting PLI for cells.
 Technology validation. Funds real-world demonstration of emerging storage.
 
 ## BESS VGF scheme details
+
+Table: BESS VGF scheme at a glance
 
 | Aspect | Value |
 |---|---|
@@ -121,15 +126,19 @@ SECI 1000 MWh BESS Tender (2024):
 
 ### VGF impact on economics
 
-For 100 MW / 400 MWh BESS:
-- Total capex: ~₹1,000-1,200 crore
-- VGF support: 30% × ₹1,000 = ₹300 crore (capped at ₹40 lakh × 400 = ₹160 crore)
-- Net effective capex: ₹840-1,040 crore
-- Effective IRR improvement: 2-3 percentage points
+> [!EXAMPLE] 100 MW / 400 MWh BESS
+> - Total capex: ~₹1,000-1,200 crore
+> - VGF support: 30% × ₹1,000 = ₹300 crore (capped at ₹40 lakh × 400 = ₹160 crore)
+> - Net effective capex: ₹840-1,040 crore
+> - Effective IRR improvement: 2-3 percentage points
+>
+> The ₹40 lakh per MWh cap (₹160 crore) binds before the 30 percent limit (₹300 crore), so the lower figure is the support.
 
 Developers typically run these VGF-adjusted scenarios through dedicated [solar financial modelling tools](https://surgepv.com/generation-financial-tool/) before submitting SECI bids.
 
 ### Related programmes
+
+Table: Related Indian programmes and their focus
 
 | Programme | Focus |
 |---|---|
@@ -185,6 +194,8 @@ PLI manufacturers (Reliance, Ola Electric) supporting domestic cell supply.
 Future expansion expected in 2025-2027.
 
 ## Standards and certifications
+
+Table: Guidelines and standards behind the BESS VGF scheme
 
 | Standard | Scope |
 |---|---|

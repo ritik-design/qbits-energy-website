@@ -5,7 +5,7 @@ description: "PM Surya Ghar Muft Bijli Yojana is India's central rooftop solar s
 category: "Policies"
 categorySlug: "policies"
 priority: "P0"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - pm surya ghar
   - pm surya ghar muft bijli yojana
@@ -74,10 +74,9 @@ PM Surya Ghar Muft Bijli Yojana is the Government of India's flagship residentia
 
 The scheme provides central financial assistance directly to residential customers, ranging from ₹30,000 for a 1 kW system to ₹78,000 for systems of 3 kW and above. Implementation runs through the National Portal (pmsuryaghar.gov.in), with [DISCOMs](/glossary/discom/) and empanelled vendors handling installation and commissioning.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - PM Surya Ghar Muft Bijli Yojana is India's central rooftop solar subsidy scheme, launched February 2024, targeting 10 million homes by 2027.
 > - Central subsidy ranges from ₹30,000 for 1 kW up to a cap of ₹78,000 for 3 kW and larger systems, paid directly to the customer's bank account.
-
 > - Typical payback period for a subsidised 3 kW system is 2.5 to 4 years, against a net capex of roughly ₹87,000 after subsidy.
 > - Only DISCOM-empanelled vendors can claim the subsidy on the customer's behalf; battery storage is not covered.
 > - The scheme is distinct from PM-KUSUM, which subsidises agricultural solar pumps rather than residential rooftop systems.
@@ -106,11 +105,12 @@ Energy bill relief. Households get up to 300 kWh per month free, reducing energy
 
 For a screen-by-screen walkthrough of the portal itself, see [PM Surya Ghar apply online guide](/blog/pm-surya-ghar-apply-online/).
 
+<!-- steps -->
 1. Register on pmsuryaghar.gov.in with mobile number, electricity bill and Aadhaar. Keep the [documents required for PM Surya Ghar](/blog/pm-surya-ghar-documents-required/) ready before starting, since an incomplete upload is the most common reason applications stall at step one.
 2. Submit application with sanctioned load, roof area and basic site details.
 3. DISCOM reviews technical feasibility and approves capacity.
 4. Customer selects an empanelled vendor from the portal list.
-
+5. The empanelled vendor installs the system.
 6. DISCOM installs a [bidirectional meter](/glossary/bidirectional-meter/), completes commissioning and issues commissioning report.
 7. Customer uploads commissioning report and bank details on portal.
 8. [MNRE](/glossary/mnre/) disburses subsidy by direct bank transfer within 30 days.
@@ -119,6 +119,8 @@ For a screen-by-screen walkthrough of the portal itself, see [PM Surya Ghar appl
 
 ### Subsidy slabs (residential)
 
+Table: PM Surya Ghar central subsidy slabs for residential systems
+
 | System size | Central subsidy |
 |---|---|
 | 1 kW | ₹30,000 |
@@ -126,6 +128,19 @@ For a screen-by-screen walkthrough of the portal itself, see [PM Surya Ghar appl
 | 3 kW and above | ₹78,000 |
 
 State subsidies may be added on top in some states.
+
+```chart
+type: bar
+title: PM Surya Ghar central subsidy by residential system size
+unit: "₹"
+source: "PM Surya Ghar Muft Bijli Yojana scheme guidelines, MNRE, as listed in the subsidy slabs above"
+note: "Central assistance only; state subsidies may be added. Confirm current slabs on pmsuryaghar.gov.in."
+decimals: 0
+data:
+  - { label: "1 kW", value: 30000 }
+  - { label: "2 kW", value: 60000 }
+  - { label: "3 kW and above", value: 78000 }
+```
 
 ### Group housing subsidy
 
@@ -138,6 +153,8 @@ For RWA and group housing common-area systems:
 - Meter: DISCOM-approved bidirectional smart meter
 
 ### Typical system economics (3 kW Indian home)
+
+Table: Typical economics of a 3 kW Indian home system under PM Surya Ghar
 
 | Item | Approximate |
 |---|---|
@@ -209,9 +226,10 @@ Society NOC complications for individual flat owners.
 
 ## Best practices
 
-Register on the portal first, before talking to any vendor.
-
-Verify the vendor's empanelment on the portal, not on their brochure.
+> [!TIP] Order of operations
+> Register on the portal first, before talking to any vendor.
+>
+> Verify the vendor's empanelment on the portal, not on their brochure.
 
 Photograph commissioning seal numbers on the smart meter.
 
@@ -224,6 +242,8 @@ Plan installation in October to January for fastest commissioning in most states
 ## Comparison: PM Surya Ghar vs prior schemes
 
 Households sometimes confuse the residential rooftop scheme with the agricultural pump scheme it is often mentioned alongside, [PM-KUSUM](/glossary/kusum/); see [PM Surya Ghar vs Kusum Yojana](/blog/pm-surya-ghar-vs-kusum-yojana/) for how the two differ in eligibility and subsidy structure.
+
+Table: PM Surya Ghar compared with Phase II RTS and PM-KUSUM
 
 | Feature | PM Surya Ghar | Phase II RTS | PM-KUSUM |
 |---|---|---|---|
@@ -247,6 +267,8 @@ PM Surya Ghar dovetails with the smart meter rollout under RDSS. Districts with 
 
 ## Standards and certifications
 
+Table: Standards and documents relevant to PM Surya Ghar
+
 | Standard | Scope |
 |---|---|
 | MNRE Scheme Guidelines | PM Surya Ghar framework |
@@ -259,19 +281,20 @@ PM Surya Ghar dovetails with the smart meter rollout under RDSS. Districts with 
 
 ## Common mistakes
 
-Engaging a non-empanelled vendor expecting subsidy. Subsidy is denied.
+> [!WARNING] Two mistakes that deny the subsidy
+> Engaging a non-empanelled vendor expecting subsidy, or buying non-ALMM equipment to save cost, means the subsidy is denied. Check the vendor on the portal and the module against the current ALMM list before you sign.
 
-Buying non-ALMM equipment to save cost. Subsidy is denied.
+Table: Common PM Surya Ghar mistakes and their consequences
 
-Skipping the DISCOM technical feasibility step. Application is rejected.
-
-Installing before the portal registration. Subsidy may be denied.
-
-Missing the commissioning report upload. Subsidy disbursement stalls.
-
-Ignoring smart meter installation. System runs but credits are not recorded.
-
-Submitting wrong bank account details. Disbursement fails.
+| Mistake | Consequence |
+| --- | --- |
+| Engaging a non-empanelled vendor expecting subsidy | Subsidy is denied |
+| Buying non-ALMM equipment to save cost | Subsidy is denied |
+| Skipping the DISCOM technical feasibility step | Application is rejected |
+| Installing before the portal registration | Subsidy may be denied |
+| Missing the commissioning report upload | Subsidy disbursement stalls |
+| Ignoring smart meter installation | System runs but credits are not recorded |
+| Submitting wrong bank account details | Disbursement fails |
 
 ## Key takeaways
 

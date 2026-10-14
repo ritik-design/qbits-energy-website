@@ -43,7 +43,7 @@ relatedSlugs:
 
 A payback number in a brochure is only as good as its inputs. This guide shows the formula, the inputs and where each one comes from, then works the same 5 kW rooftop through seven states so you can see which input moves the answer. Nothing here is a quotation or a promise of savings: it is arithmetic you can repeat on your own bill.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Payback (years) = net system cost / annual savings. Net cost is your written quote less the central assistance shown in your portal application.
 > - The tariff you offset moves payback more than state, brand or panel choice. In the examples, 4 to 8 rupees per kWh turns 4.6 years into 2.3.
 > - Yields come from a named dataset (Global Solar Atlas, as used in our irradiance guide). Costs use MNRE's benchmark, not market prices.
@@ -52,7 +52,8 @@ A payback number in a brochure is only as good as its inputs. This guide shows t
 
 ## The formula and its four inputs
 
-**Payback (years) = Net system cost / Annual savings**
+> [!FORMULA]
+> Payback (years) = Net system cost / Annual savings
 
 - **Net system cost** = quoted price (including GST) less central assistance less any state top-up that appears in your portal application.
 - **Annual generation (kWh)** = system size (kWp) x specific yield (kWh per kWp per year).
@@ -62,6 +63,8 @@ A payback number in a brochure is only as good as its inputs. This guide shows t
 The **specific yield** already includes typical system losses, so do not multiply by a performance ratio again. If you use plane-of-array peak sun hours instead, annual generation = kWp x sun hours x 365 x PR.
 
 ## Inputs used on this page, with sources
+
+Table: Inputs used on this page, with the value, source and date for each
 
 | Input | Value | Source and date |
 | --- | --- | --- |
@@ -80,6 +83,8 @@ GST on specified solar devices is 5 percent since 22 September 2025, so a curren
 
 **Generation** = 5 kWp x specific yield. **Payback** = ₹1,57,000 / (generation x tariff), assuming every unit offsets the stated tariff.
 
+Table: Payback for a 5 kW system in seven states at tariffs of ₹4, ₹6 and ₹8 per kWh
+
 | State | Reference city | Yield (kWh/kWp/yr) | Annual kWh (5 kW) | Payback at ₹4 (years) | At ₹6 | At ₹8 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Rajasthan | Jodhpur | 1,746 | 8,730 | 4.5 | 3.0 | 2.2 |
@@ -92,11 +97,50 @@ GST on specified solar devices is 5 percent since 22 September 2025, so a curren
 
 Reading the table. Rajasthan at ₹8: 1,57,000 / (8,730 x 8) = 1,57,000 / 69,840 = 2.2 years. Uttar Pradesh at ₹4: 1,57,000 / (7,305 x 4) = 1,57,000 / 29,220 = 5.4 years. Within one tariff column the spread across states is under a year, while moving from ₹4 to ₹8 in a single state roughly halves payback. That is why the tariff you offset deserves more attention than the state ranking.
 
+```chart
+type: bar
+title: Payback for a 5 kW system at ₹4, ₹6 and ₹8 per kWh, by state (years)
+unit: "years"
+decimals: 1
+source: "Calculated in this article: net cost ₹1,57,000 (MNRE PM Surya Ghar benchmark less central assistance) divided by annual savings, using Global Solar Atlas (Solargis) yields queried 24 September 2026"
+note: "Tariffs are sensitivity values, not tariff orders. Lower is better. Reference city per state is in the table above."
+series:
+  - name: "At ₹4 per kWh"
+    data:
+      - { label: "Rajasthan", value: 4.5 }
+      - { label: "Gujarat", value: 4.6 }
+      - { label: "Maharashtra", value: 4.9 }
+      - { label: "Karnataka", value: 5.0 }
+      - { label: "Tamil Nadu", value: 5.0 }
+      - { label: "Delhi", value: 5.4 }
+      - { label: "Uttar Pradesh", value: 5.4 }
+  - name: "At ₹6 per kWh"
+    data:
+      - { label: "Rajasthan", value: 3.0 }
+      - { label: "Gujarat", value: 3.1 }
+      - { label: "Maharashtra", value: 3.3 }
+      - { label: "Karnataka", value: 3.3 }
+      - { label: "Tamil Nadu", value: 3.3 }
+      - { label: "Delhi", value: 3.6 }
+      - { label: "Uttar Pradesh", value: 3.6 }
+  - name: "At ₹8 per kWh"
+    data:
+      - { label: "Rajasthan", value: 2.2 }
+      - { label: "Gujarat", value: 2.3 }
+      - { label: "Maharashtra", value: 2.5 }
+      - { label: "Karnataka", value: 2.5 }
+      - { label: "Tamil Nadu", value: 2.5 }
+      - { label: "Delhi", value: 2.7 }
+      - { label: "Uttar Pradesh", value: 2.7 }
+```
+
 These are best-case figures: they assume a quote at the benchmark, every unit credited at the full tariff and no failures. The next section removes those assumptions one at a time.
 
 ## What stretches the number: Ahmedabad at ₹6
 
 Annual generation is 5 x 1,701 = 8,505 kWh, and annual savings at ₹6 are 8,505 x 6 = ₹51,030.
+
+Table: Ahmedabad 5 kW payback at ₹6 per kWh under five cost and export scenarios
 
 | Scenario | Calculation | Payback |
 | --- | --- | --- |
@@ -106,11 +150,29 @@ Annual generation is 5 x 1,701 = 8,505 kWh, and annual savings at ₹6 are 8,505
 | Both of the above | 2,07,000 / 40,824 | 5.1 years |
 | No subsidy, benchmark cost | 2,35,000 / 51,030 | 4.6 years |
 
-The assistance is worth about 1.5 years in this example. A quote above the benchmark and a low export credit together add two years. Ask for the export billing terms before you accept a payback figure.
+> [!TIP] Ask for export terms first
+> The assistance is worth about 1.5 years in this example. A quote above the benchmark and a low export credit together add two years. Ask for the export billing terms before you accept a payback figure.
+
+```chart
+type: hbar
+title: Ahmedabad 5 kW payback at ₹6 per kWh under five scenarios (years)
+unit: "years"
+decimals: 1
+source: "Calculated in this article from the MNRE PM Surya Ghar benchmark cost and assistance, and the Global Solar Atlas (Solargis) Ahmedabad yield queried 24 September 2026, as shown in the table above"
+note: "Lower is better. The export scenario assumes 40% of units credited at ₹3 per kWh, an assumed value."
+data:
+  - { label: "Base case, benchmark cost, full credit", value: 3.1 }
+  - { label: "40% exported at ₹3", value: 3.8 }
+  - { label: "Quote ₹50,000 above benchmark", value: 4.1 }
+  - { label: "No subsidy, benchmark cost", value: 4.6 }
+  - { label: "Both quote above benchmark and low export credit", value: 5.1 }
+```
 
 ## Size changes the picture: 3 kW and 10 kW
 
 Central assistance is capped at ₹78,000, so it covers a shrinking share of the cost as the system grows. Ahmedabad yield 1,701 kWh per kWp and a ₹6 tariff, benchmark cost and no state top-up:
+
+Table: Payback for 3 kW, 5 kW and 10 kW systems in Ahmedabad at ₹6 per kWh
 
 | System | Benchmark cost | Net cost after ₹78,000 | Annual kWh | Annual savings at ₹6 | Payback |
 | --- | --- | --- | --- | --- | --- |
@@ -122,10 +184,12 @@ The assistance is 53.8 percent of the benchmark at 3 kW (78,000 / 1,45,000) and 
 
 ## Which tariff does solar actually offset?
 
-Solar displaces your most expensive units first, so the offset tariff is a weighted figure. An assumed example: a home uses 500 units a month on two slabs, 200 units at ₹4 and the rest at ₹7, so the bill is 200 x 4 + 300 x 7 = ₹2,900 a month. A 3 kW system in Ahmedabad generates 5,103 / 12 = 425 kWh a month. Those 425 units remove the 300 units at ₹7 and 125 of the 200 at ₹4: 300 x 7 + 125 x 4 = ₹2,600 a month, or ₹31,200 a year. The average offset tariff is 2,600 / 425 = ₹6.12 per kWh, and payback is 67,000 / 31,200 = 2.1 years. The slab values are assumptions and fixed charges are ignored; use your own bill and your DISCOM's current slabs.
+> [!EXAMPLE] Offset tariff on an assumed two-slab bill
+> Solar displaces your most expensive units first, so the offset tariff is a weighted figure. An assumed example: a home uses 500 units a month on two slabs, 200 units at ₹4 and the rest at ₹7, so the bill is 200 x 4 + 300 x 7 = ₹2,900 a month. A 3 kW system in Ahmedabad generates 5,103 / 12 = 425 kWh a month. Those 425 units remove the 300 units at ₹7 and 125 of the 200 at ₹4: 300 x 7 + 125 x 4 = ₹2,600 a month, or ₹31,200 a year. The average offset tariff is 2,600 / 425 = ₹6.12 per kWh, and payback is 67,000 / 31,200 = 2.1 years. The slab values are assumptions and fixed charges are ignored; use your own bill and your DISCOM's current slabs.
 
 ## A worksheet for your own roof
 
+<!-- steps -->
 1. Write down the quoted price including GST, and the central assistance shown in your portal application. Net cost = price - assistance - any confirmed state top-up.
 2. Take the specific yield for your city from the [irradiance guide](/blog/solar-irradiance-data-india-statewise/) or from your installer's simulation, and note the source. Annual kWh = kWp x yield.
 3. Work out the offset tariff from your bill, as in the slab example, and the export credit from your DISCOM's current terms.
@@ -137,7 +201,8 @@ Solar displaces your most expensive units first, so the offset tariff is a weigh
 
 Summing generation over 25 years at 0.5 percent a year gives 23.56 times the year-one output (the sum of 0.995^k for k from 0 to 24). For the Ahmedabad example at a flat ₹6, 25-year savings are 51,030 x 23.56 = ₹12.02 lakh against a net cost of ₹1.57 lakh, about 7.7 times. At 7 rupees, payback including degradation is 2.65 years against 2.64 without it, so degradation barely moves the payback year.
 
-Treat the 25-year figure as an upper bound. It assumes a constant tariff, no inverter replacement, no cleaning or maintenance cost and full credit for every unit. For a comparison with a fixed deposit, see [solar vs FD](/blog/solar-investment-vs-fd-india/).
+> [!IMPORTANT] The 25-year figure is an upper bound
+> Treat the 25-year figure as an upper bound. It assumes a constant tariff, no inverter replacement, no cleaning or maintenance cost and full credit for every unit. For a comparison with a fixed deposit, see [solar vs FD](/blog/solar-investment-vs-fd-india/).
 
 ## Net metering and export credit
 

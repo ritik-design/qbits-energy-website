@@ -5,7 +5,7 @@ description: "STC is the laboratory rating standard for solar modules. Full guid
 category: "Performance"
 categorySlug: "performance-efficiency"
 priority: "P2"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - standard test conditions
   - stc solar
@@ -75,9 +75,9 @@ STC (Standard Test Conditions) are the laboratory reference conditions used worl
 
 Module nameplate ratings (Pmax, [Voc](/glossary/open-circuit-voltage/), Vmp, Isc, Imp) are measured at STC. The "Wp" or "Watt-peak" designation refers to STC power output. A 540 Wp module produces 540 W at STC.
 
-For Indian solar, STC ratings provide standardised comparison but do not directly reflect operating conditions. Indian summer noon typically operates at 65-75°C cell temperature with 800-1000 W/m² irradiance, producing actual output 10-20 percent below STC nameplate, a gap explained further in [why solar inverters produce less in Indian summer](/blog/solar-inverter-summer-derating-india/).
+For Indian solar, STC ratings provide standardised comparison but do not directly reflect operating conditions. Indian summer noon typically operates at 65-80°C cell temperature with 800-1000 W/m² irradiance, producing actual output 10-20 percent below STC nameplate, a gap explained further in [why solar inverters produce less in Indian summer](/blog/solar-inverter-summer-derating-india/).
 
-> **TL;DR**
+> [!NOTE] In short
 > - STC (Standard Test Conditions) is the lab reference for module ratings: 1000 W/m² irradiance, 25°C cell temperature, AM1.5G spectrum.
 > - The "Wp" printed on every module datasheet is its STC power output, and it is the reference point for warranty enforcement.
 > - Indian summer operating conditions run 65 to 80°C cell temperature versus STC's 25°C, so real output lands 10 to 20 percent below nameplate.
@@ -99,21 +99,26 @@ Standards basis. IEC 61215, IEC 61853 all reference STC.
 
 ## STC vs operating conditions
 
+Table: Standard Test Conditions compared with Indian summer noon operation
+
 | Parameter | STC | Indian summer noon |
 |---|---|---|
 | Irradiance | 1000 W/m² | 800-1000 W/m² |
 | Ambient | n/a | 35-45°C |
 | Cell temperature | 25°C | 65-80°C |
 | Spectrum | AM1.5G | Variable |
-| Output | Nameplate | 70-85% of nameplate |
+| Output | Nameplate | 80-90% of nameplate |
 
-Datasheets typically pair STC ratings with a [NOCT](/glossary/noct/) rating to give installers a more realistic operating benchmark.
+> [!TIP] Read STC and NOCT together
+> Datasheets typically pair STC ratings with a [NOCT](/glossary/noct/) rating to give installers a more realistic operating benchmark.
 
 ## Technical deep dive
 
 ### STC parameters in module datasheet
 
 Different cell technologies, from standard [monocrystalline PERC](/glossary/perc-cell/) to [TOPCon](/glossary/topcon-cell/), report distinct STC efficiency figures even though every module is measured under the same test conditions.
+
+Table: Module datasheet parameters measured at STC
 
 | Parameter | Description |
 |---|---|
@@ -127,6 +132,8 @@ Different cell technologies, from standard [monocrystalline PERC](/glossary/perc
 
 ### IEC 60904 spectrum requirements
 
+Table: IEC 60904 spectrum requirements for solar simulators
+
 | Wavelength range | Required tolerance |
 |---|---|
 | 300-1100 nm | ±25% per 100 nm bin |
@@ -135,6 +142,8 @@ Different cell technologies, from standard [monocrystalline PERC](/glossary/perc
 Solar simulators must meet Class AAA: A for spectral match, A for spatial uniformity, A for temporal stability.
 
 ### Flash testing
+
+Table: Flash testing specification for STC measurement
 
 | Parameter | Specification |
 |---|---|
@@ -146,10 +155,10 @@ Solar simulators must meet Class AAA: A for spectral match, A for spatial unifor
 
 ### Translation from STC to operating
 
-Yield calculation:
-P_operating = P_STC × (Irradiance / 1000) × (1 + γ × (T_cell, 25))
+> [!FORMULA] Translating STC power to operating power
+> P_operating = P_STC × (Irradiance / 1000) × (1 + γ × (T_cell − 25))
 
-Where γ is temperature coefficient (negative).
+Where γ is temperature coefficient (negative), irradiance is in W/m² and T_cell is in °C.
 
 ## Real-world applications
 
@@ -180,6 +189,8 @@ Indian flash testing labs include NISE, TUV Rheinland India, Intertek India, Bur
 Major Indian manufacturers run in-house flash testing during production.
 
 ## Standards and certifications
+
+Table: Standards that reference STC
 
 | Standard | Scope |
 |---|---|

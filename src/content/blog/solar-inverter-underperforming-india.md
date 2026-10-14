@@ -4,7 +4,7 @@ excerpt: "Solar inverter underperforming in India? The 10-Cause Underperformance
 description: "10 causes of solar inverter underperformance in India: dust, thermal derating, clipping, shading, loose DC connections, and grid voltage issues."
 category: "Maintenance"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-solar-inverter-underperforming-india.webp"
 author: "Keyur Rakholiya"
@@ -41,7 +41,7 @@ Your solar monitoring app shows your 5 kW system generating 16 units per day on 
 
 This is solar inverter underperformance: partial yield loss without system shutdown. Unlike an offline inverter that demands immediate attention, underperformance hides in the data and silently costs generation units day after day without triggering a single alarm.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Underperformance means the inverter is running and producing power, but yield sits below the expected kWh for current irradiance, a different problem from zero-output downtime.
 > - The 10-Cause Underperformance Audit orders causes from easiest to hardest to diagnose; causes 1–5 (dust, thermal derating, clipping, shading, ageing panels) resolve roughly 85% of cases without a technician.
 > - A healthy Indian rooftop system runs a [Performance Ratio](/glossary/pr/) of 0.75–0.85; a PR below 0.70 on a 7-day rolling average confirms a real underperformance condition worth investigating.
@@ -52,6 +52,8 @@ This guide covers partial output below expected yield. If your inverter is compl
 ## Underperformance vs Downtime: Two Different Problems
 
 The distinction between underperformance and downtime determines the entire diagnostic path. Using the wrong approach wastes time and often misses the actual cause.
+
+Table: Underperformance versus downtime, compared on status, symptoms and first action
 
 | Characteristic | Underperformance | Downtime |
 | --- | --- | --- |
@@ -69,7 +71,8 @@ If your inverter shows positive but below-expected output: the 10-Cause Underper
 
 Before attributing underperformance to any cause, establish the quantified gap between expected and actual yield. Estimating that "it seems lower than normal" produces unreliable conclusions.
 
-**Performance Ratio (PR) = Actual energy output (kWh) ÷ (Installed capacity (kWp) × Peak sun hours)**
+> [!FORMULA] Performance Ratio (PR)
+> PR = Actual energy output (kWh) ÷ (Installed capacity (kWp) × Peak sun hours)
 
 A well-maintained Indian rooftop system achieves PR of 0.75–0.85. A PR below 0.70 on a 7-day rolling average (excluding rainy days) confirms an underperformance condition requiring investigation.
 
@@ -77,7 +80,8 @@ A well-maintained Indian rooftop system achieves PR of 0.75–0.85. A PR below 0
 
 Expected (kWh) = Installed kWp × Peak sun hours × 0.78 (baseline PR)
 
-Example for a 5 kWp system in Bengaluru on a clear day: 5 × 5.2 × 0.78 = 20.3 kWh. If the monitoring app shows 14 kWh, the gap is 6.3 kWh, a 31% shortfall that the 10-Cause Audit will resolve.
+> [!EXAMPLE] Expected vs actual yield, 5 kWp in Bengaluru
+> Example for a 5 kWp system in Bengaluru on a clear day: 5 × 5.2 × 0.78 = 20.3 kWh. If the monitoring app shows 14 kWh, the gap is 6.3 kWh, a 31% shortfall that the 10-Cause Audit will resolve.
 
 Peak sun hours for each location and month can be retrieved from the [MNRE solar resource atlas](https://mnre.gov.in/){target="_blank" rel="noopener"} or from the monitoring application's irradiance sensor if the system has one fitted.
 
@@ -93,7 +97,8 @@ The first five causes account for approximately 85% of underperformance cases in
 
 **Self-diagnosis:** Wipe a damp white cloth across the panel surface. A visible grey or brown streak confirms active soiling. Also check for bird droppings, a single dropping on a standard 60-cell panel activates a bypass diode and reduces that panel's contribution by approximately 30%.
 
-**Fix:** Clean panels before 9:00 AM with clean water and a soft microfibre cloth. Recheck output on the following clear day. If output recovers by more than 8%, soiling was the primary cause. For high-dust zones (Rajasthan, Gujarat, northern agricultural belt), clean every 3–4 weeks during the dry season. See the [solar output maximisation guide](/blog/maximize-solar-output-indian-climate/) for the full zone-matched cleaning schedule.
+> [!TIP] Cause 1 fix: clean early, then recheck
+> **Fix:** Clean panels before 9:00 AM with clean water and a soft microfibre cloth. Recheck output on the following clear day. If output recovers by more than 8%, soiling was the primary cause. For high-dust zones (Rajasthan, Gujarat, northern agricultural belt), clean every 3–4 weeks during the dry season. See the [solar output maximisation guide](/blog/maximize-solar-output-indian-climate/) for the full zone-matched cleaning schedule.
 
 [NREL soiling research on Indian rooftop installations](https://www.nrel.gov/docs/fy16osti/65498.pdf){target="_blank" rel="noopener"} documents that Indian sites lose 15–30% of irradiance annually from dust accumulation, among the highest soiling rates globally for a grid-connected solar market of this scale.
 
@@ -135,6 +140,7 @@ The 10-Cause Underperformance Audit is the structured sequence that distinguishe
 
 ### The 10-Cause Underperformance Audit
 
+<!-- steps -->
 1. **Dust and Soiling**: Clean panels, recheck the next clear day. If output recovers 8% or more, this was the primary cause. Continue to Cause 2 for any residual gap.
 2. **Thermal Derating**: Time-specific afternoon loss. Confirm with inverter temperature log (above 42 °C ambient). Fix ventilation or mounting position.
 3. **Inverter Clipping**: Flat output plateau at rated AC capacity. Confirm with DC:AC ratio calculation. Accept or redesign.
@@ -162,13 +168,16 @@ These three causes require physical inspection of DC components or review of 7-d
 
 **Fix:** Connections showing discolouration must be replaced, do not attempt to re-crimp or remate a connection that has overheated. For in-warranty systems, contact the installer. Include DC connection inspection in the [annual inverter maintenance schedule](/blog/inverter-maintenance-india/).
 
-**Safety note:** DC string voltages in Indian residential systems range from 300 V to 600 V. Do not disconnect DC strings without appropriate PPE and training. If uncertain, call a technician.
+> [!CAUTION] DC string voltage
+> **Safety note:** DC string voltages in Indian residential systems range from 300 V to 600 V. Do not disconnect DC strings without appropriate PPE and training. If uncertain, call a technician.
 
 ### Cause 7: Wrong String Sizing
 
 **Yield loss:** 5–30% if the string voltage operates outside the inverter MPPT window.
 
 **Self-diagnosis:** In the monitoring application, check the MPPT operating voltage. Compare it against the inverter datasheet MPPT voltage range. The MPPT voltage should operate near the string's expected Vmpp (the sum of panel Vmpp values in the string). If the monitoring shows MPPT voltage consistently at the lower or upper boundary of the MPPT range rather than near the midpoint, the string is operating outside its optimal window.
+
+Table: String sizing scenarios, the monitoring symptom and the yield impact of each
 
 | String Sizing Scenario | Monitoring Symptom | Yield Impact |
 | --- | --- | --- |
@@ -219,6 +228,8 @@ In addition to MPPT improvement, firmware updates adjust grid protection thresho
 
 The 10-Cause Audit is designed so causes 1–5 and 9–10 are diagnosable by the homeowner. Causes 6, 7, and 8 may require specialist involvement.
 
+Table: Decision matrix for the ten causes, showing self-diagnosis, technician need and urgency
+
 | Cause | Self-Diagnose | Technician Needed | Urgency |
 | --- | --- | --- | --- |
 | 1. Dust/soiling | Yes | No | Low - routine |
@@ -232,11 +243,11 @@ The 10-Cause Audit is designed so causes 1–5 and 9–10 are diagnosable by the
 | 9. Firmware outdated | Yes | No (remote update) | Low |
 | 10. Monitoring misconfiguration | Yes | No | Low |
 
-**Call a technician immediately when:**
-- A string output in the monitoring app drops below 40% of expected without any identifiable cause
-- There is a smell of burning, visible discolouration, or physical damage on the inverter or wiring
-- A DC arc fault or ground fault event appears in the inverter event log
-- The performance ratio has declined more than 1.5% year-on-year for two consecutive years
+> [!WARNING] Call a technician immediately when
+> - A string output in the monitoring app drops below 40% of expected without any identifiable cause
+> - There is a smell of burning, visible discolouration, or physical damage on the inverter or wiring
+> - A DC arc fault or ground fault event appears in the inverter event log
+> - The performance ratio has declined more than 1.5% year-on-year for two consecutive years
 
 [NREL solar PV operations and maintenance guidance](https://www.nrel.gov/grid/distributed-generation.html){target="_blank" rel="noopener"} recommends annual performance ratio audits as the minimum standard for systems above 5 kWp. [IRENA's solar O&M report](https://www.irena.org/publications/2022/Oct/Renewable-Power-Generation-Costs-in-2021){target="_blank" rel="noopener"} found that monitoring-equipped systems resolve yield loss causes 60% faster than systems diagnosed only at annual site visits.
 

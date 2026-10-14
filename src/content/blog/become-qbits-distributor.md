@@ -35,13 +35,19 @@ To apply for a **Qbits solar inverter distributorship**, open the official partn
 
 Submitting the form begins a review. It is not a distributor appointment. Qbits does not publish a fixed minimum investment, guaranteed margin, exclusive territory, credit limit, stock-return right, or approval timeline on the current application page. Treat each of those as unresolved until it appears in an approved written proposal or agreement.
 
-> **Registration at a glance:** confirm that the distributor route fits your business, review the inverter range, prepare a territory and operating file, complete the five form sections, keep a copy of the submission, answer any due-diligence request through a verified channel, and review the full appointment terms before making commitments.
+> [!KEYTAKEAWAYS] Registration at a glance
+> - Confirm that the distributor route fits your business and review the inverter range.
+> - Prepare a territory and operating file, then complete the five form sections with current, supportable answers.
+> - Keep a copy of the submission and answer any due-diligence request through a verified channel.
+> - Review the full appointment terms before making commitments. No fixed minimum investment, margin, exclusive territory, credit limit or approval timeline is published on the application page.
 
 ## Confirm that you are applying as a distributor
 
 The Qbits form offers four choices: Dealer, Distributor, EPC, and System Integrator. Choose `Distributor` when your proposed role is to develop a wider market and supply downstream businesses under an agreed product, geography, and channel scope.
 
 Do not choose the label because it sounds larger. Choose the route that matches what your company can support and what you want the final agreement to define.
+
+Table: The four Qbits partner routes and the practical distinction for the application
 
 | Route | Practical distinction for the application |
 | --- | --- |
@@ -92,6 +98,8 @@ Also note how product updates, order status, serial records, customer queries, w
 
 As of 26 September 2026, the partner application has five visible sections. The fields marked as required are company name, registered address, official business email, 10-digit WhatsApp number, and GST number. Other visible questions provide additional context for the review, but the public page does not state a universal pass score for them.
 
+Table: Qbits partner form sections, what each asks and what to prepare
+
 | Form section | What the current form asks | What to prepare |
 | --- | --- | --- |
 | Company information | Company name, registered address, business email, WhatsApp number, website, and GST number | Details that match current business and tax records |
@@ -100,7 +108,8 @@ As of 26 September 2026, the partner application has five visible sections. The 
 | Financial details | Working capital, bank-loan amount, cash-credit limits, other capital, and hypothecated bank | Figures from a consistent date, without double counting facilities or debt |
 | Sales commitment | Proposed monthly sales, readiness to promote the brand, and previous inverter experience | A supportable target, execution plan, and concise evidence of relevant work |
 
-The form currently asks for entered information rather than presenting a public document-upload checklist. Keep supporting records ready for any later verification, but send sensitive identity or financial documents only through a confirmed Qbits channel. Never share passwords or one-time passcodes.
+> [!CAUTION] Share sensitive documents only through a confirmed channel
+> The form currently asks for entered information rather than presenting a public document-upload checklist. Keep supporting records ready for any later verification, but send sensitive identity or financial documents only through a confirmed Qbits channel. Never share passwords or one-time passcodes.
 
 ## Use answers that can survive verification
 
@@ -122,6 +131,7 @@ One inconsistency can make the rest of the file harder to assess. For example, a
 
 ## Follow the registration process in seven steps
 
+<!-- steps -->
 1. **Review the product scope.** Read the current family pages and exact-model datasheets relevant to the market you propose.
 2. **Choose the correct role.** Confirm that distribution, rather than local dealing or project execution, is the requested route.
 3. **Prepare the readiness file.** Complete the market, stock, infrastructure, financial, and execution sections described above.
@@ -134,9 +144,12 @@ The current page states that Qbits reviews the submitted details and contacts ap
 
 ## Do not spend against terms that are still unknown
 
-Distributor economics cannot be assessed from the application form alone. Before committing to inventory, premises, vehicles, hiring, marketing, or customer delivery, obtain the proposed commercial and operating terms.
+> [!WARNING] Do not spend against unknown terms
+> Distributor economics cannot be assessed from the application form alone. Before committing to inventory, premises, vehicles, hiring, marketing, or customer delivery, obtain the proposed commercial and operating terms.
 
 At minimum, resolve:
+
+Table: Decisions to resolve in writing before spending against the distributorship
 
 | Decision | Written answer required |
 | --- | --- |
@@ -159,15 +172,16 @@ If a proposal includes supplier credit or channel protection, use the [distribut
 
 Read the application once as a reviewer. Each answer should connect to the same operating story.
 
-- Does the proposed territory match the current sales and delivery reach?
-- Does the model mix fit the stated customer base?
-- Does warehouse capacity match the provisional stock logic?
-- Are sales, technical, and service roles counted separately?
-- Can the financial figures be tied to one date and supporting records?
-- Does the monthly target show its assumptions?
-- Are current brand relationships disclosed where requested?
-- Are planned resources clearly separated from resources already available?
-- Has anyone made a promise that still needs to be written into the proposal?
+> [!CHECKLIST] Pre-submission consistency check
+> - Does the proposed territory match the current sales and delivery reach?
+> - Does the model mix fit the stated customer base?
+> - Does warehouse capacity match the provisional stock logic?
+> - Are sales, technical, and service roles counted separately?
+> - Can the financial figures be tied to one date and supporting records?
+> - Does the monthly target show its assumptions?
+> - Are current brand relationships disclosed where requested?
+> - Are planned resources clearly separated from resources already available?
+> - Has anyone made a promise that still needs to be written into the proposal?
 
 Correct the file before submitting. Do not create a second application to repair an avoidable inconsistency unless the Qbits team asks you to resubmit.
 

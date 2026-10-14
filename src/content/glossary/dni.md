@@ -5,7 +5,7 @@ description: "DNI is the direct beam solar irradiance. Full guide to measurement
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is dni
   - direct normal irradiance
@@ -69,7 +69,7 @@ Direct Normal Irradiance (DNI) is the solar radiation arriving on a surface perp
 
 DNI represents the unscattered solar beam. On a clear day at sea level, peak DNI reaches roughly 900 W/m². At higher altitudes or in extremely clear conditions, DNI can exceed 1,000 W/m². On cloudy days DNI drops to near zero, even when [GHI](/glossary/ghi/) may still be significant due to diffuse contribution.
 
-> **TL;DR**
+> [!NOTE] In short
 > - DNI is the direct beam of sunlight, measured on a surface that always faces the sun, separate from diffuse or reflected light.
 > - Indian annual DNI ranges from about 1,000 kWh/m² in the humid north-east up to 2,600 kWh/m² in Ladakh.
 > - It is the resource that matters most for CSP plants, single-axis trackers and bifacial gain modelling, not for fixed-tilt PV alone.
@@ -96,6 +96,9 @@ Resource assessment. DNI is one of three core measurements alongside GHI and DHI
 DNI = solar beam radiation through a small angular field of view (typically 5°) centred on the sun.
 
 Measurement instruments:
+
+Table: Instruments used to measure or estimate DNI
+
 | Instrument | Description |
 |---|---|
 | Pyrheliometer | Thermopile sensor, narrow field of view, mounted on solar tracker |
@@ -105,6 +108,8 @@ Measurement instruments:
 ## Technical deep dive
 
 ### Indian DNI by region (annual, kWh/m²)
+
+Table: Annual DNI by Indian region (kWh/m²)
 
 | Region | Annual DNI |
 |---|---|
@@ -122,6 +127,8 @@ Measurement instruments:
 
 ### DNI vs GHI ratio (clearness index)
 
+Table: DNI to GHI ratio by climate type
+
 | Climate | DNI/GHI ratio (approximate) |
 |---|---|
 | Desert (clear, dry) | 1.2 to 1.4 |
@@ -136,7 +143,8 @@ Higher DNI means more direct light reaching the ground for rear-side reflection.
 
 ### CSP DNI threshold
 
-CSP economic viability roughly requires DNI > 2,000 kWh/m²/year. Indian CSP has limited deployment because most regions fall below this threshold, with exceptions in Rajasthan and Ladakh.
+> [!IMPORTANT] The 2,000 kWh/m²/year line
+> CSP economic viability roughly requires DNI > 2,000 kWh/m²/year. Indian CSP has limited deployment because most regions fall below this threshold, with exceptions in Rajasthan and Ladakh.
 
 ## Real-world applications
 
@@ -189,6 +197,8 @@ Tracker plant adoption is growing across SECI tender projects, with DNI as a yie
 Bifacial gain modelling for SECI bids increasingly uses DNI-derived ground reflection.
 
 ## Standards and certifications
+
+Table: Standards and references for DNI measurement
 
 | Standard | Scope |
 |---|---|

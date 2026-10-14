@@ -5,7 +5,7 @@ description: "PERC cells use a passivated rear contact to boost solar cell effic
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is perc cell
   - perc solar
@@ -72,7 +72,7 @@ author: "Nirav Dhanani"
 
 PERC, Passivated Emitter and Rear Contact, is a crystalline silicon solar cell architecture that adds a passivated dielectric layer at the rear of the cell. The layer serves two functions: it reflects unabsorbed light back into the silicon for a second chance at absorption, and it reduces the recombination of charge carriers at the rear surface. Together these effects raise cell open-circuit voltage and short-circuit current, lifting efficiency by 1 to 2 percentage points over standard back-contact cells.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - PERC adds a passivated rear layer that reflects unabsorbed light and cuts electron recombination, lifting cell efficiency by 1 to 2 percentage points over standard back-contact cells.
 > - PERC was the dominant cell technology worldwide and in India from 2017 to 2024, driving mono crystalline modules from 17 to 22 percent efficiency.
 > - Mono PERC reaches 22 to 23 percent efficiency at the cell level and 20 to 22 percent at the module level.
@@ -122,6 +122,8 @@ PERC adds rear passivation:
 
 ### Cell structure
 
+Table: Layers of a PERC cell and the function of each
+
 | Layer | Material | Function |
 |---|---|---|
 | Front contact | Silver paste | Electron collection |
@@ -132,6 +134,8 @@ PERC adds rear passivation:
 | Rear contact | Aluminium with point contacts | Hole collection |
 
 ### Efficiency progression
+
+Table: PERC cell efficiency by year, 2014 to 2024
 
 | Year | PERC cell efficiency |
 |---|---|
@@ -149,6 +153,8 @@ The PERC roadmap has effectively plateaued. Further gains require structural cha
 PERC cells are intrinsically capable of bifacial operation, with bifaciality factors of 70 to 80 percent. Most Indian utility-scale modules from 2020 to 2024 were bifacial PERC.
 
 ### LID and LeTID
+
+Table: PERC degradation mechanisms and behaviour
 
 | Mechanism | PERC behaviour |
 |---|---|
@@ -205,6 +211,9 @@ Bypass diode failure in junction boxes.
 
 ## Best practices
 
+> [!TIP] What to ask for on a PERC purchase
+> Verify ALMM and BIS status, ask for the PID resistance test certificate, confirm bifacial Pmax tolerance and the bifaciality factor (70 to 80 percent for PERC), and plan annual cleaning, since Indian dust and pollen cost 5 to 25 percent of yield each year.
+
 Verify [ALMM](/glossary/almm-list/) and [BIS](/glossary/bis-certification/) for any PERC module purchased.
 
 Specify PID resistance test certificate.
@@ -216,6 +225,8 @@ Plan annual cleaning.
 Use proper torque on MC4 connectors.
 
 ## Comparison: PERC vs TOPCon vs HJT
+
+Table: PERC vs TOPCon vs HJT on efficiency, temperature coefficient, bifaciality, price and market share
 
 | Feature | PERC | TOPCon | HJT |
 |---|---|---|---|
@@ -240,6 +251,8 @@ ALMM List I includes both PERC and TOPCon modules from major Indian manufacturer
 
 ## Standards and certifications
 
+Table: Standards and listings relevant to PERC modules
+
 | Standard | Scope |
 |---|---|
 | IEC 61215 | Module qualification |
@@ -257,6 +270,10 @@ Choosing PERC over TOPCon to save 5 percent capex on a 25-year asset. The lifecy
 Ignoring LeTID test certification on PERC modules.
 
 Mixing PERC and TOPCon in the same string.
+
+> [!WARNING] Cheaper is not always cheaper
+> The page's common-mistakes list flags choosing PERC over TOPCon to save 5 percent capex on a 25-year asset, and mixing PERC and TOPCon modules in the same string. Both are decisions to make deliberately, not by default.
+
 
 Skipping bifaciality factor verification for bifacial PERC.
 

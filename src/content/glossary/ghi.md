@@ -5,7 +5,7 @@ description: "GHI is the total solar irradiance on a horizontal surface. Full gu
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is ghi
   - global horizontal irradiance
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 Global Horizontal Irradiance (GHI) is the total solar radiation received on a horizontal surface at the Earth's surface. It is the sum of direct beam radiation ([Direct Normal Irradiance](/glossary/dni/) projected onto horizontal), diffuse radiation from the sky ([Diffuse Horizontal Irradiance](/glossary/dhi/)) and ground-reflected radiation (typically negligible for horizontal-facing).
 
-> **TL;DR**
+> [!NOTE] In short
 > - GHI is the total solar radiation hitting a horizontal surface, the baseline measure of how sunny a site is.
 > - Indian annual GHI runs from about 1,200 kWh/m² in the north-east to over 2,200 kWh/m² in western Rajasthan and Ladakh.
 > - GHI equals DNI projected onto horizontal plus DHI: GHI = DNI × cos(zenith) + DHI.
@@ -97,7 +97,8 @@ CUF prediction. [CUF](/glossary/cuf/) correlates strongly with GHI, as shown acr
 
 ## GHI equation
 
-GHI = DNI × cos(θz) + DHI
+> [!FORMULA]
+> GHI = DNI × cos(θz) + DHI
 
 Where:
 - DNI = Direct Normal Irradiance
@@ -107,6 +108,8 @@ Where:
 ## Technical deep dive
 
 ### Indian GHI by region (annual, kWh/m²)
+
+Table: Annual GHI by Indian region, kWh/m²
 
 | Region | Annual GHI |
 |---|---|
@@ -126,11 +129,12 @@ Where:
 
 Peak Sun Hours (PSH) = GHI / 1 kW/m²
 
-For GHI = 1,800 kWh/m²/year:
-Annual PSH = 1,800 hours
-Daily PSH average = 1,800 / 365 = 4.93 hours
+> [!EXAMPLE] 1,800 kWh/m² a year as sun hours
+> At GHI = 1,800 kWh/m²/year, annual PSH = 1,800 hours, so the daily PSH average = 1,800 / 365 = 4.93 hours.
 
 ### Seasonal variation
+
+Table: Approximate monthly GHI for Delhi, kWh/m²/day
 
 | Month | Approximate Delhi GHI (kWh/m²/day) |
 |---|---|
@@ -149,6 +153,8 @@ Daily PSH average = 1,800 / 365 = 4.93 hours
 
 ### GHI measurement
 
+Table: Ways to measure or estimate GHI
+
 | Instrument | Description |
 |---|---|
 | Thermopile pyranometer (Class A) | High-accuracy reference |
@@ -157,6 +163,8 @@ Daily PSH average = 1,800 / 365 = 4.93 hours
 | Reanalysis data (ERA5) | Historical archive |
 
 ### Data sources
+
+Table: GHI data sources and their coverage
 
 | Source | Coverage |
 |---|---|
@@ -181,6 +189,8 @@ Tariff order LCOE inputs.
 Residential rooftop sizing, often estimated with a solar cost and savings calculator before a formal proposal is issued.
 
 ## GHI quality classifications
+
+Table: Pyranometer quality classes and their use
 
 | Class | Standard | Use |
 |---|---|---|
@@ -228,6 +238,8 @@ Major Indian utility solar projects use Solargis or Meteonorm P50/P90 data.
 SECI tender bid documents reference GHI data for capacity allocation by state, and are typically supported by formal engineering resource center documentation during due diligence.
 
 ## Standards and certifications
+
+Table: Standards and methods behind GHI measurement
 
 | Standard | Scope |
 |---|---|

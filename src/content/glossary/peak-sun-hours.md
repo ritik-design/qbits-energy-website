@@ -5,7 +5,7 @@ description: "Peak Sun Hours is a simple measure of daily solar resource. Full g
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is peak sun hours
   - psh
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 Peak Sun Hours (PSH) is a simplified measure of solar resource expressed as the number of hours per day during which solar irradiance averages 1,000 W/m² (1 kW/m²). It is the time integral of daily [GHI](/glossary/ghi/) normalised by [STC](/glossary/stc/) reference irradiance.
 
-> **TL;DR**
+> [!NOTE] In short
 > - PSH is a simplified single-number measure of daily solar resource, equal to daily GHI divided by 1 kW/m².
 > - Indian PSH ranges from 4.0 to 6.5 hours/day annual average — highest in western Rajasthan and Ladakh (6.0-6.5), lowest in the north-east (4.0-4.5).
 > - Daily yield (kWh) = capacity (kW) × PSH × Performance Ratio, giving a quick sizing shortcut for residential and off-grid systems.
@@ -96,13 +96,16 @@ Regional comparison. Single number to compare solar potential across locations.
 
 ## How PSH is calculated
 
-PSH = GHI / G_STC
+> [!FORMULA]
+> PSH = GHI / G_STC
 
 Where G_STC = 1 kW/m² = 1000 W/m².
 
 For daily PSH, integrate hourly GHI over the day and divide by 1 kW/m².
 
 ## Indian PSH by region (annual average)
+
+Table: Indian peak sun hours by region and city, annual average
 
 | Region | PSH (hours/day) |
 |---|---|
@@ -126,6 +129,8 @@ For daily PSH, integrate hourly GHI over the day and divide by 1 kW/m².
 
 ### PSH vs GHI
 
+Table: PSH vs GHI, definition and use
+
 | Metric | Definition | Use |
 |---|---|---|
 | GHI (kWh/m²) | Total irradiation | Scientific resource measure |
@@ -137,10 +142,10 @@ Numerically equal in daily averages: 5.5 kWh/m²/day = 5.5 PSH.
 
 Daily yield (kWh) = Capacity (kW) × PSH × PR
 
-For a 5 kW system at 5.0 PSH, PR 0.80:
-Daily yield = 5 × 5.0 × 0.80 = 20 kWh/day
-
-Annual yield = 20 × 365 = 7,300 kWh
+> [!EXAMPLE] 5 kW system at 5.0 PSH
+> At PR 0.80, daily yield = 5 × 5.0 × 0.80 = 20 kWh/day.
+>
+> Annual yield = 20 × 365 = 7,300 kWh.
 
 ### Off-grid sizing using PSH
 
@@ -152,6 +157,8 @@ PV size = (5 × 1.3) / (5 × 0.85 × 0.92) = 6.5 / 3.91 = 1.66 kWp
 See [Off-Grid Solar Battery Bank Sizing, India Complete Guide](/blog/off-grid-battery-bank-sizing-india/) for a full worked methodology covering autonomy days and depth of discharge.
 
 ### Seasonal variation (Delhi example)
+
+Table: Approximate monthly peak sun hours, Delhi
 
 | Month | Approximate PSH |
 |---|---|
@@ -167,7 +174,7 @@ See [Off-Grid Solar Battery Bank Sizing, India Complete Guide](/blog/off-grid-ba
 | October | 5.2 |
 | November | 4.3 |
 | December | 3.8 |
-| Average | 4.85 |
+| Average | 5.0 |
 
 ## Real-world applications
 
@@ -216,6 +223,8 @@ Utility solar developers use full hourly simulation with GHI, [DNI](/glossary/dn
 Off-grid solar under PM-KUSUM and rural electrification programmes use PSH-based sizing.
 
 ## Standards and certifications
+
+Table: Conventions and standards behind PSH
 
 | Standard | Scope |
 |---|---|

@@ -5,7 +5,7 @@ description: "Tilt angle is the angle of solar panels from horizontal. Full guid
 category: "System Layout"
 categorySlug: "system-layout"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is tilt angle
   - solar tilt angle india
@@ -68,7 +68,7 @@ author: "Nirav Dhanani"
 
 Tilt angle, also called inclination, is the angle of a solar panel measured from the horizontal plane. A 0-degree tilt means the panel lies flat. A 90-degree tilt means vertical. The tilt angle, together with the [azimuth](/glossary/azimuth/) angle, defines the panel's orientation in three-dimensional space and determines how much solar energy the panel intercepts annually.
 
-> **TL;DR**
+> [!NOTE] In short
 > - Tilt angle is a panel's inclination from horizontal; for maximum annual energy in India, the optimum tilt roughly equals the site's latitude, from about 8° in Kerala to 32° in Kashmir.
 > - Getting the tilt wrong costs 5 to 15 percent of annual energy at Indian latitudes.
 > - Most Indian rooftop and utility fixed-tilt installations use 10° to 25°, balancing yield against wind load, parapet shading and row spacing.
@@ -93,6 +93,8 @@ Bifacial yield. Bifacial modules benefit from slightly higher tilt for ground re
 
 ## Optimum tilt by Indian city
 
+Table: Latitude and optimum annual tilt for Indian cities
+
 | City | Latitude | Optimum annual tilt |
 |---|---|---|
 | Trivandrum | 8.5° | 10° |
@@ -111,6 +113,8 @@ Bifacial yield. Bifacial modules benefit from slightly higher tilt for ground re
 
 ### Seasonal optimisation
 
+Table: Tilt strategies, formulas and the gain each offers
+
 | Strategy | Tilt formula | Use |
 |---|---|---|
 | Annual maximum | latitude | General |
@@ -123,6 +127,9 @@ Bifacial yield. Bifacial modules benefit from slightly higher tilt for ground re
 ### Tilt vs annual energy
 
 For Delhi (28° latitude):
+
+Table: Annual yield ratio by tilt at Delhi latitude (28°)
+
 | Tilt | Annual yield ratio |
 |---|---|
 | 0° (flat) | 0.92 |
@@ -136,10 +143,11 @@ For Delhi (28° latitude):
 
 ### Row spacing
 
-Row pitch = panel length × cos(tilt) + minimum gap for shadow at winter solstice.
+> [!FORMULA]
+> Row pitch = panel length × cos(tilt) + minimum gap for shadow at winter solstice
 
-For Delhi, 25° tilt, 2.3 m panel:
-Pitch ≈ 2.3 × cos(25°) + 1.5 m shadow allowance ≈ 3.6 m
+> [!EXAMPLE] Delhi, 25° tilt, 2.3 m panel
+> Pitch ≈ 2.3 × cos(25°) + 1.5 m shadow allowance ≈ 3.6 m.
 
 ### Bifacial considerations
 
@@ -198,6 +206,8 @@ Rooftop installations under PM Surya Ghar typically use 10° to 20° tilt for st
 Bifacial bias tilt becoming standard for new utility installations.
 
 ## Standards and certifications
+
+Table: Guidelines and standards relevant to tilt design
 
 | Standard | Scope |
 |---|---|

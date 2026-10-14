@@ -25,11 +25,17 @@ A bulk inverter buyer should not approve a warranty from its headline duration o
 
 If an answer is missing, mark it **clarification required**. Do not fill the gap from a brochure, sales call, older website, or another model's terms.
 
-> **Short version:** Compare the legal obligor, covered models, start event, remedy, exclusions, owner costs, claim evidence, service stages, spare-unit process, and escalation route. Measure acknowledgement, diagnosis, approval, dispatch, delivery, recommissioning, and closure separately. A long warranty with an undefined remedy can expose an EPC to more call-back risk than a shorter, clearer term.
+> [!KEYTAKEAWAYS]
+> - Require five controlled documents before the purchase order: exact-model warranty, service schedule, RMA procedure, cost-responsibility matrix and escalation list.
+> - Compare the legal obligor, covered models, start event, remedy, exclusions, owner costs, claim evidence, service stages, spare-unit process and escalation route.
+> - Measure acknowledgement, diagnosis, approval, dispatch, delivery, recommissioning and closure as separate stages.
+> - Mark any missing answer **clarification required** and keep the row unscored; a long warranty with an undefined remedy can carry more call-back risk than a shorter, clearer term.
 
 ## Ask for five documents before comparing warranty duration
 
 The warranty certificate alone cannot describe the full operating process. Ask every bidder for the same document pack and record its revision date.
+
+Table: Five documents to request from every bidder, with the gap that should trigger rejection or clarification
 
 | Required document | What it must settle | Reject or clarify when |
 | --- | --- | --- |
@@ -46,6 +52,8 @@ Record the document name, owner, version, issue date and quotation reference. A 
 Manufacturer, brand owner, seller, distributor, service partner and warranty obligor may be different entities. A logo shared across their documents does not make their obligations interchangeable.
 
 Build a responsibility map before discussing response times:
+
+Table: Responsibility map for each warranty and service action
 
 | Action | Entity to name in the bid | Evidence to request |
 | --- | --- | --- |
@@ -83,6 +91,8 @@ Do not award a warranty score until the bidder supplies the controlling document
 
 One end-to-end response time hides the hand-off that usually causes delay. Treat the service-level agreement, or **SLA**, as a set of stages. Ask the bidder to define the start event, stop event, responsible party, target, exclusions and evidence for each stage.
 
+Table: Service stages with the start event and completion evidence to define for each
+
 | Service stage | Start event to define | Completion evidence to define |
 | --- | --- | --- |
 | Ticket acknowledgement | Valid ticket received through the stated channel | Ticket number and recorded timestamp |
@@ -95,13 +105,16 @@ One end-to-end response time hides the hand-off that usually causes delay. Treat
 | Recommissioning | Required material and technician available | Test results and return-to-service record |
 | Case closure | System returned to the agreed state | Closure accepted by the named party |
 
-`Response`, `resolution`, `dispatch` and `restoration` are not synonyms. A dispatch target says nothing about the time required for diagnosis, claim approval, transit, site work or recommissioning. Keep those clocks separate in the bid comparison.
+> [!IMPORTANT] Four clocks that look alike
+> `Response`, `resolution`, `dispatch` and `restoration` are not synonyms. A dispatch target says nothing about the time required for diagnosis, claim approval, transit, site work or recommissioning. Keep those clocks separate in the bid comparison.
 
 Also ask which events pause a clock. Site access, missing records, unsafe conditions and third-party approvals can be legitimate dependencies. They should be defined before the first case, not negotiated during an outage.
 
 ## Allocate every service cost before awarding the order
 
 An approved claim can still create unbudgeted EPC cost. Use a line-by-line schedule instead of asking whether service is `free`.
+
+Table: Service cost items the bidder must allocate before the order is awarded
 
 | Cost item | Bidder must state | Procurement check |
 | --- | --- | --- |
@@ -120,20 +133,20 @@ The cheapest unit can become the most expensive service case when the EPC carrie
 
 Return material authorisation, or **RMA**, should begin from controlled fleet records. Do not wait for a fault to discover that serial numbers and commissioning data were never captured.
 
-Keep these records by site and unit:
+> [!CHECKLIST] RMA evidence pack, by site and unit
+> - purchase order, invoice, delivery note and seller identity;
+> - exact model, serial number, batch where available, and installed location;
+> - warranty document and registration confirmation that applied at supply;
+> - current datasheet, installation manual and approved design record;
+> - installation photographs, protection details and commissioning tests;
+> - configuration, firmware and monitoring-account record where relevant;
+> - maintenance and change history;
+> - fault code, event log, timestamps and monitoring export;
+> - safe site diagnosis and actions already taken; and
+> - ticket, escalation, shipment, visit and closure records.
 
-- purchase order, invoice, delivery note and seller identity;
-- exact model, serial number, batch where available, and installed location;
-- warranty document and registration confirmation that applied at supply;
-- current datasheet, installation manual and approved design record;
-- installation photographs, protection details and commissioning tests;
-- configuration, firmware and monitoring-account record where relevant;
-- maintenance and change history;
-- fault code, event log, timestamps and monitoring export;
-- safe site diagnosis and actions already taken; and
-- ticket, escalation, shipment, visit and closure records.
-
-Define who may open the enclosure, change settings, update firmware or replace parts. An improvised field repair can compromise safety, evidence and warranty eligibility at the same time.
+> [!CAUTION] Who may open the enclosure
+> Define who may open the enclosure, change settings, update firmware or replace parts. An improvised field repair can compromise safety, evidence and warranty eligibility at the same time.
 
 ## Test the process before scaling the fleet
 
@@ -148,6 +161,8 @@ For the wider organisation and product qualification, use the [solar inverter su
 ## Normalise bids without inventing missing answers
 
 Use three evidence states:
+
+Table: Evidence states for normalising bids and the procurement action for each
 
 | Status | Meaning | Procurement action |
 | --- | --- | --- |

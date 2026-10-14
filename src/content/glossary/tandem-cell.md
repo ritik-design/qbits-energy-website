@@ -5,7 +5,7 @@ description: "Tandem cells stack multiple materials for higher efficiency. Full 
 category: "Panels and Modules"
 categorySlug: "panels-modules"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - tandem solar cell
   - tandem perovskite silicon
@@ -73,7 +73,7 @@ The fundamental advantage: each material is optimised for its portion of the spe
 
 Terrestrial tandem cells in commercial development pair [perovskite](/glossary/perovskite/) (top, wide bandgap) with silicon (bottom, narrow bandgap). Lab cells have exceeded 33.9 percent efficiency under [STC](/glossary/stc/) (2024). Initial commercial products from Oxford PV achieve 26-28 percent module efficiency. Mass-market adoption is expected 2027-2030.
 
-> **TL;DR**
+> [!NOTE] In short
 > - A tandem cell stacks two or more semiconductor materials with different bandgaps to capture more of the solar spectrum than a single-junction cell can.
 > - Perovskite-silicon tandems are the leading terrestrial approach, pairing a wide-bandgap perovskite top cell with a silicon bottom cell (often TOPCon or HJT).
 > - Lab efficiency has reached 33.9 percent under STC (2024), above the ~33 percent Shockley-Queisser ceiling for single-junction silicon.
@@ -105,6 +105,8 @@ Industry transformation. Reshapes module manufacturing.
 
 ### Tandem types
 
+Table: Tandem cell types and how the sub-cells are connected
+
 | Type | Description |
 |---|---|
 | 2-terminal (2T) | Cells stacked with shared interconnection |
@@ -113,6 +115,8 @@ Industry transformation. Reshapes module manufacturing.
 | Monolithic | Grown as single integrated structure |
 
 ### Material combinations
+
+Table: Tandem material combinations and where each is used
 
 | Top cell | Bottom cell | Use |
 |---|---|---|
@@ -123,6 +127,8 @@ Industry transformation. Reshapes module manufacturing.
 | Perovskite | CIGS | Thin-film tandem |
 
 ### Efficiency record progression
+
+Table: 2-terminal perovskite-silicon lab efficiency record by year
 
 | Year | 2T Perovskite-silicon lab |
 |---|---|
@@ -140,7 +146,17 @@ For 3-junction: ~49 percent.
 
 Practical commercial: 5-10 percentage points below theoretical.
 
+Table: Theoretical efficiency limits by number of junctions, as stated in this entry
+
+| Junctions | Theoretical limit | Basis |
+|---|---|---|
+| Single-junction silicon | ~33% | Shockley-Queisser ceiling under STC |
+| 2-junction tandem | ~42% | Shockley-Queisser at AM1.5 |
+| 3-junction tandem | ~49% | Shockley-Queisser at AM1.5 |
+
 ### Module efficiency expectations
+
+Table: Expected tandem module efficiency by product timeframe
 
 | Product timeframe | Module efficiency |
 |---|---|
@@ -187,6 +203,9 @@ Long-term stability of perovskite top cell.
 
 ## Indian market context
 
+> [!IMPORTANT] Not yet buyable in India
+> India has no tandem manufacturing or ALMM listing yet. Deployment is expected to start through imports before local PLI-backed production, and ALMM listing requires standards updates first. Tandem is a technology to track, not a module you can specify on an Indian project today.
+
 Pre-commercial in India.
 
 R&D growing at IITs and CSIR institutes.
@@ -198,6 +217,8 @@ PLI Tranche III may include tandem manufacturing, building on the ₹45,000 cror
 [ALMM](/glossary/almm-list/) listing requires standards updates.
 
 ## Standards and certifications
+
+Table: Standards and test protocols applied to tandem modules
 
 | Standard | Scope |
 |---|---|

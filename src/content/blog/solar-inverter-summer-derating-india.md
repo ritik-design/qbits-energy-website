@@ -4,7 +4,7 @@ excerpt: "Learn how to read an inverter output-versus-temperature curve, disting
 description: "Read a solar inverter temperature-derating curve, separate normal limiting from faults, and compare the model's installation conditions with the site."
 category: "Guide"
 date: 2026-06-05
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-inverter-summer-derating-india.webp"
 author: "Keyur Rakholiya"
@@ -32,6 +32,13 @@ featured: false
 
 The current public Qbits datasheets identify model families and several electrical fields, but they do not provide a complete temperature-output curve for every model. This guide therefore teaches the review method without inventing a Qbits threshold or summer-loss percentage.
 
+> [!KEYTAKEAWAYS]
+> - A derating curve applies to an exact model under stated conditions. An operating-temperature range or IP rating cannot substitute for it.
+> - The controlling temperature may be ambient, inlet, heatsink, internal or semiconductor-related, so read the axis label and manual definition before reading a point.
+> - Do not assume every inverter starts reducing output at the same temperature or follows a linear percentage per degree.
+> - Clipping, export control, curtailment, grid response, shading, soiling and data gaps can look like heat derating. A summer date or midday timing alone does not prove thermal causation.
+> - The current public Qbits datasheets do not give a complete temperature-output curve for every model, so request the exact manual or curve where the public file is incomplete.
+
 ## What does temperature derating mean?
 
 **Temperature derating is the controlled reduction of available output under the model's documented thermal conditions.** It can protect components or keep operation within a defined envelope. The controlling temperature may be ambient, inlet, heatsink, internal or semiconductor-related, so the curve label and manual definition matter.
@@ -46,6 +53,7 @@ Temperature derating also differs from module temperature loss. PV modules and i
 
 Use this sequence:
 
+<!-- steps -->
 1. Confirm the exact inverter model and document revision.
 2. Identify the temperature definition and measurement location.
 3. Identify the output quantity and base rating on the vertical axis.
@@ -71,6 +79,8 @@ The [inverter datasheet guide](/blog/how-to-read-solar-inverter-datasheets/) exp
 
 Collect these records without opening the equipment:
 
+Table: Records that separate normal derating from a thermal fault, and the question each answers
+
 | Evidence | Question it helps answer |
 | --- | --- |
 | Exact model and firmware | Which manual and curve apply? |
@@ -82,7 +92,10 @@ Collect these records without opening the equipment:
 | Irradiance or comparable reference | Was solar input itself falling? |
 | Site photos and clearances | Does mounting match the manual? |
 
-The [overheating guide](/blog/inverter-overheating/) covers safe owner observations and escalation. Do not open an inverter or block protection to confirm a theory.
+The [overheating guide](/blog/inverter-overheating/) covers safe owner observations and escalation. 
+
+> [!WARNING] Do not open the inverter
+> Do not open an inverter or block protection to confirm a theory.
 
 ## What else can look like temperature derating?
 
@@ -96,14 +109,15 @@ For example, a flat AC-power trace may reflect the rated AC limit rather than a 
 
 The review should record:
 
-- Ambient measurement location and method.
-- Direct sun exposure over the day.
-- Clearances and orientation against the manual.
-- Obstruction of vents, fins or fan paths.
-- Nearby exhausts or heat-producing equipment.
-- Evidence of dust, corrosion, water or physical damage.
-- Any cover or cabinet and its approved ventilation design.
-- Whether the site remains within documented environmental limits.
+> [!CHECKLIST] Installation environment review
+> - Ambient measurement location and method.
+> - Direct sun exposure over the day.
+> - Clearances and orientation against the manual.
+> - Obstruction of vents, fins or fan paths.
+> - Nearby exhausts or heat-producing equipment.
+> - Evidence of dust, corrosion, water or physical damage.
+> - Any cover or cabinet and its approved ventilation design.
+> - Whether the site remains within documented environmental limits.
 
 An [IP65 versus IP66 comparison](/blog/ip65-vs-ip66-solar-inverters-weather-protection-guide/) can explain ingress codes, but it cannot decide thermal placement.
 
@@ -112,6 +126,8 @@ An [IP65 versus IP66 comparison](/blog/ip65-vs-ip66-solar-inverters-weather-prot
 **A site-selection example compares candidate locations against the same model manual, not against a generic temperature promise.** Suppose Location A has direct afternoon sun and restricted airflow, while Location B is shaded, accessible and meets the documented clearances. The record should identify which manual conditions each location satisfies.
 
 Use a table rather than an invented loss percentage:
+
+Table: Site-selection record comparing two candidate inverter locations against the same model manual
 
 | Site factor | Location A | Location B | Model requirement or evidence |
 | --- | --- | --- | --- |

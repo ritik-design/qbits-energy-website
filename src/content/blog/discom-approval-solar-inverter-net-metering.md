@@ -33,7 +33,12 @@ faqs:
 
 There is no national list of DISCOM approved solar inverters in India, and any quotation that implies otherwise is worth a second look. Acceptance is decided by the distribution utility that will connect your system, against its own current document, for your exact inverter model.
 
-> **Short version.** Electricity distribution is a state subject, so interconnection conditions are set by state regulators and individual DISCOMs rather than by one central list. MNRE's ALMM publishes List-I for solar PV modules and List-II for solar PV cells, so it does not answer the inverter question. A BIS or IEC mark is evidence you will need, not the approval itself. The only reliable check is to name your exact model, then confirm it against your own DISCOM's current equipment list or technical circular before you pay. Get that confirmation in writing from whoever is submitting your application.
+> [!KEYTAKEAWAYS] Short version
+> - Electricity distribution is a state subject, so interconnection conditions are set by state regulators and individual DISCOMs rather than by one central list.
+> - MNRE's ALMM publishes List-I for solar PV modules and List-II for solar PV cells, so it does not answer the inverter question.
+> - A BIS or IEC mark is evidence you will need, not the approval itself.
+> - The only reliable check is to name your exact model, then confirm it against your own DISCOM's current equipment list or technical circular before you pay.
+> - Get that confirmation in writing from whoever is submitting your application.
 
 ## Why no single national list exists
 
@@ -51,13 +56,18 @@ This is the single most common confusion in Indian rooftop quotations, so it is 
 
 MNRE's Approved List of Models and Manufacturers publishes **List-I for solar PV modules** and **List-II for solar PV cells**. Those lists govern module and cell sourcing. Neither of them tells you whether a given inverter model will be accepted for your connection.
 
-So if an ALMM reference appears next to the inverter line on your quotation, it is not inverter approval, and you should not read it as one. Verify the module and cell position against the current MNRE ALMM pages, and verify inverter acceptance separately against your DISCOM. The positions are checked as of September 2026 and both can change, so confirm the current documents rather than relying on this article or on a quotation footnote.
+> [!IMPORTANT] ALMM is not inverter approval
+> If an ALMM reference appears next to the inverter line on your quotation, it is not inverter approval, and you should not read it as one.
+
+Verify the module and cell position against the current MNRE ALMM pages, and verify inverter acceptance separately against your DISCOM. The positions are checked as of September 2026 and both can change, so confirm the current documents rather than relying on this article or on a quotation footnote.
 
 Certification works the same way. A conformity mark records that a model met a named standard when it was tested. Your DISCOM may still require particular protection functions, a specific test report, a current certificate revision, or presence on its own list. Certification is evidence you will be asked for, not the decision.
 
 ## What actually decides whether your inverter is accepted
 
 Five layers, and they are decided by different bodies at different times.
+
+Table: Five layers that decide whether an inverter is accepted, who issues each and where it varies
 
 | Layer | Who typically issues it | What it actually decides | Where it varies |
 |---|---|---|---|
@@ -73,6 +83,7 @@ Nothing in the upper rows guarantees the bottom row. A model can satisfy every s
 
 Run these six steps in order. They take a few days and they sit entirely before your equipment instalment.
 
+<!-- steps -->
 1. **Write down the exact model code.** Not the brand, not the capacity, not the series. The full model identifier as it appears on the datasheet, because acceptance decisions are made at that level.
 2. **Identify your DISCOM by name and your division.** Your electricity bill carries both. Acceptance is a property of that utility, not of your state in general.
 3. **Obtain the current controlling document.** Ask the DISCOM, or your installer, for the current equipment list, technical circular or interconnection rule that applies to rooftop net metering in your division. Note its issuing body and its effective date.
@@ -94,11 +105,12 @@ State who carries the cost if the inverter is refused at inspection for an equip
 
 ## Red flags in a quotation
 
-- "DISCOM approved" with no DISCOM named. Approval is utility specific, so an unqualified claim has no content.
-- An ALMM reference used to support the inverter line rather than the module line.
-- A model code that differs between the quotation, the datasheet and the application form.
-- "All our inverters are approved everywhere in India." No supplier is in a position to say this.
-- Pressure to pay the equipment instalment before the interconnection application is submitted.
+> [!WARNING] Quotation red flags
+> - "DISCOM approved" with no DISCOM named. Approval is utility specific, so an unqualified claim has no content.
+> - An ALMM reference used to support the inverter line rather than the module line.
+> - A model code that differs between the quotation, the datasheet and the application form.
+> - "All our inverters are approved everywhere in India." No supplier is in a position to say this.
+> - Pressure to pay the equipment instalment before the interconnection application is submitted.
 
 Timelines are the other place expectations slip. Approval clocks and the points where applications actually stall are covered in [net meter approval time in India](/blog/net-meter-approval-timeline/), and it is worth reading before you commit to a commissioning date.
 

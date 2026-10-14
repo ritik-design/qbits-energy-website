@@ -4,7 +4,7 @@ excerpt: "Understand which solar problems may belong to the installer, inverter 
 description: "Compare solar installation and product warranties, map responsibility across the system, and keep the documents needed when a fault or dispute occurs."
 category: "Buying Guide"
 date: 2026-09-23
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "10 min"
 image: "/og/blog-solar-installation-vs-product-warranty.webp"
 author: "Nirav Dhanani"
@@ -30,6 +30,13 @@ featured: false
 
 **A solar installation warranty covers the installer's defined work, while a product warranty covers a manufacturer's defined equipment obligation.** Neither label tells you the remedy, exclusions or claim route. A rooftop system can also have separate module-performance, battery-capacity, service, monitoring and insurance terms, so responsibility starts with diagnosis and documents.
 
+> [!KEYTAKEAWAYS]
+> - An installation warranty is the installer's written commitment for defined workmanship and scope. A product warranty is a manufacturer's written obligation for a named product. Neither label tells you the remedy, exclusions or claim route.
+> - Product, performance and capacity warranties address different obligations, use different tests and remedies, and none is whole-system output insurance.
+> - Do not assign responsibility from the symptom alone. Get a qualified diagnosis before choosing a warranty route.
+> - Compare remedies and responsibilities, not just years, by giving each bidder the same fault scenario.
+> - Keep a handover pack that links exact equipment identities, contracts, registrations and claim routes. Never open an inverter or battery to produce evidence.
+
 This guide explains how to build that responsibility map before signing and how to use it after a fault. It is general information, not a legal interpretation of a particular contract.
 
 ## What does an installation or workmanship warranty cover?
@@ -54,6 +61,8 @@ Do not rely on “complete system warranty” unless the contract defines every 
 
 For each product, retain the exact model and serial number, invoice, warranty policy, registration confirmation and authorised claim route. Compare these terms:
 
+Table: Product warranty terms to compare, with the question each answers from the policy
+
 | Term | Question to answer from the policy |
 | --- | --- |
 | Covered product | Which exact model and component are included? |
@@ -70,6 +79,15 @@ The [solar inverter warranty guide](/blog/solar-inverter-warranty/) applies thes
 
 **Product, performance and capacity warranties address different obligations and can use different tests and remedies.** A module product policy may address defects, a module performance policy may address stated output over time, and a battery policy may define retained capacity under specified use. None should be treated as whole-system output insurance.
 
+Table: Installation, product, performance and capacity warranties compared by who gives them, what they address and what controls them
+
+| Warranty type | Who gives it | What it addresses | Controlling document |
+| --- | --- | --- | --- |
+| Installation or workmanship | The EPC or installer | Specified workmanship and project scope, such as mounting, cable routing, terminations and sealing | The signed contract |
+| Product | The manufacturer | A named product (module, inverter, battery, meter or communications equipment) under stated conditions | The manufacturer's written policy for that product |
+| Module performance | The module manufacturer | Stated output over time | The performance policy and its measurement procedure |
+| Battery capacity | The battery supplier | Retained capacity under specified use | The capacity policy and its test conditions |
+
 Read the measurement procedure as closely as the headline. Ask who performs the test, under which conditions, who pays access and shipping, and what happens if the result qualifies. A performance remedy may not reimburse lost generation or installation labour unless the policy says it does.
 
 The sales quotation should list each warranty separately, with a link or attachment to the controlling document. The [solar quotation checklist](/blog/solar-quotation-checklist/) helps identify missing model numbers and responsibilities before payment.
@@ -79,6 +97,8 @@ The sales quotation should list each warranty separately, with a link or attachm
 **Do not assign responsibility from the symptom alone.** Low generation, shutdowns, water entry or monitoring loss can arise from equipment, installation, grid, communication, environment or operation. A qualified diagnosis should identify the failed function and supporting evidence before a warranty route is chosen.
 
 Use a responsibility map like this:
+
+Table: Responsibility map linking an observed issue to the possible responsible document and first evidence
 
 | Observed issue | Possible responsible document | Evidence needed first |
 | --- | --- | --- |
@@ -96,16 +116,17 @@ Keep the installer and manufacturer informed where responsibility is uncertain. 
 
 Retain:
 
-- Signed proposal, scope, contract, change orders and payment records.
-- Tax invoice and equipment schedule with model and serial numbers.
-- As-built single-line diagram and relevant layout or string records.
-- Commissioning results, settings and dated photos.
-- Product warranty policies and registration confirmations.
-- Workmanship, service and maintenance terms.
-- Monitoring ownership, administrator access and data export instructions.
-- DISCOM, net-metering and scheme records applicable to the project.
-- Insurance schedule and claim contact, if insured.
-- Installer, manufacturer, distributor and authorised service contacts.
+> [!CHECKLIST] Handover pack to retain
+> - Signed proposal, scope, contract, change orders and payment records.
+> - Tax invoice and equipment schedule with model and serial numbers.
+> - As-built single-line diagram and relevant layout or string records.
+> - Commissioning results, settings and dated photos.
+> - Product warranty policies and registration confirmations.
+> - Workmanship, service and maintenance terms.
+> - Monitoring ownership, administrator access and data export instructions.
+> - DISCOM, net-metering and scheme records applicable to the project.
+> - Insurance schedule and claim contact, if insured.
+> - Installer, manufacturer, distributor and authorised service contacts.
 
 The [commissioning and handover checklist](/blog/solar-inverter-commissioning-in-india/) provides a field-by-field record for the technical portion.
 
@@ -123,6 +144,7 @@ If the quote combines equipment and installation into one headline warranty, ask
 
 Use this sequence:
 
+<!-- steps -->
 1. Follow the site's emergency or isolation instructions if there is an immediate safety concern.
 2. Record the symptom and equipment identity.
 3. Review the installer and product claim routes.
@@ -131,7 +153,8 @@ Use this sequence:
 6. Ask each party for a written coverage decision and reason.
 7. Keep all invoices, replaced parts records and recommissioning results.
 
-Do not let an unqualified person open an inverter or battery to produce evidence. That can create safety risk and complicate the diagnosis or remaining coverage.
+> [!CAUTION] Do not open the equipment to produce evidence
+> Do not let an unqualified person open an inverter or battery to produce evidence. That can create safety risk and complicate the diagnosis or remaining coverage.
 
 ## What if the solar installer disappears or does not respond?
 

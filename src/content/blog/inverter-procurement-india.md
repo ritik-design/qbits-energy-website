@@ -5,7 +5,7 @@ excerpt: "An order-ready checklist for EPC teams to freeze inverter models, docu
 description: "A bulk solar inverter supply checklist for EPC teams covering model schedules, compliance evidence, quotations, delivery, inspection, acceptance, and change control."
 category: "EPC"
 date: 2026-05-11
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-inverter-procurement-india.webp"
 author: "Akash Hirapara"
@@ -37,14 +37,11 @@ A bulk inverter order is ready only when the EPC can match **each site, exact mo
 
 Do not order from a family brochure or a verbal stock confirmation. Freeze the transaction in a controlled order schedule. Mark every missing answer as `clarification required`, and resolve it before dispatch or through an authorised written exception.
 
-> **Order-control summary**
->
+> [!KEYTAKEAWAYS] Order-control summary
 > - Qualify the supplier before asking the purchase order to carry supplier risk.
-> - Use complete model designations, not labels such as `25 kW inverter` or `three-phase series`.
-> - Match the proposed model to the approved design, current datasheet, applicable certificate, and project requirement.
+> - Use complete model designations, not labels such as `25 kW inverter` or `three-phase series`, and match the proposed model to the approved design, current datasheet, applicable certificate, and project requirement.
 > - Separate unit price from GST, freight, insurance, accessories, communications hardware, commissioning support, and other scope.
-> - Put delivery evidence, inspection rights, rejection handling, and substitution control in writing.
-> - Attach the exact-model warranty, service, and RMA schedules to the accepted commercial file.
+> - Put delivery evidence, inspection rights, rejection handling, and substitution control in writing, and attach the exact-model warranty, service, and RMA schedules to the accepted commercial file.
 > - Release the order only when the quotation and purchase order tell the same story.
 
 ## Start after supplier qualification, not before it
@@ -54,6 +51,8 @@ Procurement cannot repair a weak shortlist. Before commercial negotiation, estab
 Use the [solar inverter supplier selection checklist](/blog/inverter-suppliers-india/) for that decision. This guide begins after a supplier enters the shortlist. It covers the RFQ, quotation, purchase order, delivery, inspection, and acceptance controls for a specific order.
 
 Keep the boundary clear:
+
+Table: Supplier qualification, bulk procurement and warranty-service decisions compared
 
 | Decision | Owning question | Evidence produced |
 | --- | --- | --- |
@@ -66,6 +65,8 @@ Passing one decision does not pass the others. A qualified supplier can still su
 ## Build one model and quantity schedule
 
 The order schedule is the control sheet for the transaction. Give every bidder the same revision and require a response against every row.
+
+Table: Order schedule fields to record, with the reason each matters
 
 | Field | What to record | Why it matters |
 | --- | --- | --- |
@@ -92,6 +93,8 @@ For Qbits models, begin with the [current public datasheet library](/download-da
 
 There is no safe universal label called `all approvals included`. Requirements can arise from the tender, scheme, regulator, DISCOM, customer specification, insurer, lender, or internal EPC standard. List the source of each requirement beside the evidence offered.
 
+Table: Project-specific evidence matrix for approvals and certificates
+
 | Requirement row | Bidder response | EPC verification |
 | --- | --- | --- |
 | Issuing or controlling body | Name the body or contract document | Confirm it is the correct authority for this project |
@@ -102,7 +105,8 @@ There is no safe universal label called `all approvals included`. Requirements c
 
 The [BIS Compulsory Registration Scheme portal](https://www.crsbis.in/BIS/) provides a public registration-search route. Search the exact registration and model details relevant to the offered equipment. Do not treat a logo on a brochure as equivalent to the current record.
 
-As checked on 26 September 2026, the [Ministry of New and Renewable Energy ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes List-I for solar PV modules and List-II for solar PV cells. It is not an inverter list. Verify module and cell requirements there when applicable, then check inverter requirements against the project's own documents.
+> [!NOTE] ALMM is not an inverter list
+> As checked on 26 September 2026, the [Ministry of New and Renewable Energy ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes List-I for solar PV modules and List-II for solar PV cells. It is not an inverter list. Verify module and cell requirements there when applicable, then check inverter requirements against the project's own documents.
 
 If the project authority has not answered an approval question, record it as an open dependency. A supplier assurance cannot substitute for the authority's decision.
 
@@ -127,7 +131,8 @@ Ask each bidder to state:
 
 Use one comparison basis:
 
-`evaluated order amount = equipment + tax + freight + insurance + required accessories + required communications scope + other accepted supply items`
+> [!FORMULA] Evaluated order amount
+> evaluated order amount = equipment + tax + freight + insurance + required accessories + required communications scope + other accepted supply items
 
 This formula is a normalisation tool, not a Qbits price or a total-cost forecast. Keep uncertain or excluded amounts visible rather than inserting estimates into a bidder's column. The [inverter quotation guide](/blog/why-inverter-manufacturers-quote-prices/) explains how scope changes a quote before price comparison begins.
 
@@ -152,7 +157,8 @@ Legal and tax reviewers should confirm the final contract for the transaction. A
 
 ## Do not accept substitutions through a dispatch note
 
-An alternative model can change string design, input current limits, MPPT allocation, protection coordination, communications, physical layout, approval evidence, and service documents. Even a model with the same AC rating is not automatically equivalent.
+> [!WARNING] A same-rating model is not automatically equivalent
+> An alternative model can change string design, input current limits, MPPT allocation, protection coordination, communications, physical layout, approval evidence, and service documents. Even a model with the same AC rating is not automatically equivalent.
 
 Require a written change request before dispatch. It should contain:
 
@@ -170,6 +176,8 @@ The same rule applies to a split shipment, changed seller, alternate communicati
 ## Define dispatch, delivery, and acceptance separately
 
 These events are not interchangeable.
+
+Table: Dispatch, delivery and acceptance events, the evidence to define and the control question for each
 
 | Event | Evidence to define | Control question |
 | --- | --- | --- |
@@ -239,12 +247,13 @@ Treat availability, delivery, price, tax, warranty, service, and support as curr
 
 Before issuing the purchase order, ask a colleague who did not negotiate the quote to review the file. They should be able to answer these questions without calling the salesperson:
 
-1. What exact model and quantity goes to each site?
-2. Which document revision and project requirement support every model?
-3. What is included, excluded, taxed, shipped, insured, and paid for?
-4. Which event proves dispatch, delivery, inspection, acceptance, and handover?
-5. What happens to a damaged, late, missing, or substituted unit?
-6. Which written warranty and service documents govern the supplied serial numbers?
-7. Which document controls if two answers conflict?
+> [!CHECKLIST] Questions the reviewer must answer
+> - What exact model and quantity goes to each site?
+> - Which document revision and project requirement support every model?
+> - What is included, excluded, taxed, shipped, insured, and paid for?
+> - Which event proves dispatch, delivery, inspection, acceptance, and handover?
+> - What happens to a damaged, late, missing, or substituted unit?
+> - Which written warranty and service documents govern the supplied serial numbers?
+> - Which document controls if two answers conflict?
 
 If one answer is missing, keep the order in clarification. The goal is not more paperwork. It is one transaction record that design, procurement, accounts, logistics, site, and service teams can all follow.

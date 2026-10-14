@@ -76,6 +76,12 @@ author: Keyur Rakholiya
 
 **Maximum power point tracking (MPPT)** is the control process that seeks the PV array's highest available power at a given moment. Power equals voltage multiplied by current. Sunlight, cell temperature and shading change the available operating point, so the controller adjusts as conditions change.
 
+> [!KEYTAKEAWAYS]
+> - MPPT keeps a PV array near its maximum power point as sunlight, temperature and shade change. It does not create energy or guarantee a fixed percentage gain.
+> - A string must keep its maximum-power voltage above the MPPT lower limit when hot, and its open-circuit voltage below the maximum DC voltage when cold.
+> - The number of independent MPPT inputs matters most on roofs with different orientations or shading, and less on a uniform roof.
+> - Start-up voltage is not the operating window, and a headline efficiency is not annual yield.
+
 MPPT does not create energy or guarantee a fixed percentage gain. The benefit compared with another controller depends on array voltage, battery voltage, shading, operating conditions and the equipment being compared.
 
 ## MPPT explained simply
@@ -85,6 +91,8 @@ A solar module does not have one fixed output. Its voltage and current depend on
 Imagine pushing a swing. Push too softly or at the wrong moment and the swing barely moves. There is one timing and strength that adds the most energy. MPPT is the controller that keeps looking for that point as the sun, the temperature and the shade change.
 
 ## Quick facts
+
+Table: MPPT terms that appear on an inverter datasheet
 
 | Term | Meaning |
 | --- | --- |
@@ -120,9 +128,14 @@ A PV module has a non-linear current-voltage relationship with three landmark po
 - **Open-circuit voltage (Voc):** the voltage at zero current.
 - **Maximum power point (Vmp, Imp):** where voltage times current is highest, so that Pmax = Vmp × Imp.
 
+> [!FORMULA]
+> Pmax = Vmp × Imp
+
 For typical crystalline-silicon modules the maximum-power voltage sits at roughly 80 percent of open-circuit voltage, but use the module datasheet for the real figures. Voltage falls as the cell heats up and rises as it cools. The temperature coefficients on the datasheet give the rate, and they are the reason a string must be checked at both temperature extremes. See [open-circuit voltage](/glossary/open-circuit-voltage/) and [temperature coefficient](/glossary/temperature-coefficient/).
 
 ## MPPT algorithms
+
+Table: Common MPPT algorithms compared
 
 | Algorithm | How it works | Strength | Weakness |
 | --- | --- | --- | --- |
@@ -140,6 +153,8 @@ Each independent MPPT input runs its own tracking. A second tracker can help whe
 
 The figures below come from Qbits' per-model product data and datasheets, as of October 2026. Quote the row for the model you are using, and never apply one model's figure to the whole range.
 
+Table: Qbits on-grid inverter families: MPPT count, voltage range and input current (product data, October 2026)
+
 | Model family | MPPTs | MPPT range | Maximum DC input | Maximum input current |
 | --- | --- | --- | --- | --- |
 | QB 1.5 to 4.0KTLS | 1 | 40–550 V | 550 V | 20 A |
@@ -148,13 +163,15 @@ The figures below come from Qbits' per-model product data and datasheets, as of 
 | QB 30 to 40KTLC-Pro | 3 | 200–1000 V | 1100 V | 40/40/20 A |
 | QB 80 to 125KTLC | 8 to 10 by model | 200–1000 V | 1100 V | 30 A per tracker |
 
-The [QB-4/5/6KTLD datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf) lists **50 V start-up**, which is a different specification from the **80–550 V MPPT range**. A 50 V start does not mean a proposed string will track correctly at 50 V under every operating condition. The [QB 4-6KTLD product page](/our-products/QB-4-6KTLD/) and the [datasheet library](/download-datasheets/) hold the rest of the specifications.
+> [!IMPORTANT] Start-up voltage is not the MPPT range
+> The [QB-4/5/6KTLD datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf) lists **50 V start-up**, which is a different specification from the **80–550 V MPPT range**. A 50 V start does not mean a proposed string will track correctly at 50 V under every operating condition. The [QB 4-6KTLD product page](/our-products/QB-4-6KTLD/) and the [datasheet library](/download-datasheets/) hold the rest of the specifications.
 
 ### Checking a string against the window
 
-- At the hottest expected cell temperature, the string's maximum-power voltage must stay **above** the MPPT lower limit.
-- At the coldest expected temperature, the string's open-circuit voltage must stay **below** the maximum DC voltage.
-- The string current must stay within the tracker's maximum input current.
+> [!CHECKLIST] String check against the MPPT window
+> - At the hottest expected cell temperature, the string's maximum-power voltage must stay **above** the MPPT lower limit.
+> - At the coldest expected temperature, the string's open-circuit voltage must stay **below** the maximum DC voltage.
+> - The string current must stay within the tracker's maximum input current.
 
 Use the [single versus dual MPPT guide](/blog/dual-mppt-vs-single-mppt/) for layout decisions. For a first voltage check, use the [string-sizing calculator](/string-sizing-calculator/) and then confirm the exact panel and inverter datasheets.
 
@@ -173,6 +190,8 @@ EN 50530 defined test procedures for static and dynamic MPPT efficiency, and IEC
 For a real purchase, compare PV voltage/current windows, the number of independent trackers and the proposed string layout. The [datasheet reading guide](/blog/how-to-read-solar-inverter-datasheets/) explains those fields. [Contact Qbits](/contact-us/) with the array and model details for a specific compatibility enquiry.
 
 ## MPPT versus PWM
+
+Table: MPPT compared with PWM charge control
 
 | Feature | MPPT | PWM |
 | --- | --- | --- |
@@ -205,6 +224,8 @@ For a real purchase, compare PV voltage/current windows, the number of independe
 5. Verify the exact model's range on its own datasheet rather than a family summary.
 
 ## Standards and references
+
+Table: Standards that bear on MPPT efficiency and inverter safety
 
 | Standard | Scope |
 | --- | --- |

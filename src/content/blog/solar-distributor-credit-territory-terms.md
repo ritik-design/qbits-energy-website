@@ -35,7 +35,12 @@ faqs:
 
 Review them together because they can pull cash in opposite directions. A wider or protected territory may come with stock, coverage, reporting, or target conditions. Credit may reduce the immediate cash needed for approved orders, but it does not remove inventory risk, downstream collection risk, or payment liability.
 
-> **The practical answer:** do not negotiate only for more days or a bigger map. Define the credit calculation, territory scope, exceptions, performance test, change process, and exit treatment. Then run the proposed terms through the same downside cash-flow scenario.
+> [!KEYTAKEAWAYS]
+> - Supplier credit and territory exclusivity are separate commercial terms, and neither follows automatically from the title `Distributor`.
+> - No universal credit period or limit can replace a dated cash-flow model built on your own stock, collection, return and tax inputs.
+> - Conditional exclusivity is only measurable when the target formula and the consequence process are written.
+> - Define the credit calculation, territory scope, exceptions, performance test, change process and exit treatment, then run the terms through the same downside scenario.
+> - As of 26 September 2026 the public Qbits partner page does not publish a credit limit, payment period, exclusive territory or approval threshold.
 
 This guide is an evaluation framework. It does not describe Qbits commercial terms and is not legal, tax, accounting, or financial advice.
 
@@ -74,6 +79,8 @@ A territory is not complete until its geography, products, customers, channels, 
 
 Use a scope map like this:
 
+Table: Territory scope elements to settle in writing and why each changes the economics
+
 | Scope element | Question to resolve in writing | Why it changes the economics |
 | --- | --- | --- |
 | Geography | State, district, pin code, named accounts, or another boundary? | Determines the actual addressable market and fulfilment cost |
@@ -94,13 +101,16 @@ Use four status labels in your internal model:
 3. **Conditional:** protection continues only while defined requirements are satisfied.
 4. **Changed or ended:** the agreement says what happens to pipeline, stock, customer support, data, and brand use.
 
-Do not call a market `exclusive` in sales material while its status is proposed, conditional on an unmet requirement, suspended, or expired.
+> [!WARNING] Do not advertise exclusivity early
+> Do not call a market `exclusive` in sales material while its status is proposed, conditional on an unmet requirement, suspended, or expired.
 
 ## Build the cash-flow model without inventing credit norms
 
 **No universal credit period or limit can replace a dated cash-flow model.** The useful question is not `What do distributors normally get?` It is `What funding gap does this proposed operating plan create, and which written facility actually covers it?`
 
 Start with the distributor's own operating inputs. Leave every supplier-specific field blank until an authorised proposal supplies it.
+
+Table: Cash-flow model inputs, the evidence to use and what not to substitute
 
 | Input | Evidence to use | Do not substitute |
 | --- | --- | --- |
@@ -115,7 +125,8 @@ Start with the distributor's own operating inputs. Leave every supplier-specific
 
 One useful funding view is:
 
-`Peak operating funding gap = stock at landed cost + downstream receivables + unrecovered variable costs - customer advances - supplier credit actually available`
+> [!FORMULA] Peak operating funding gap
+> Peak operating funding gap = stock at landed cost + downstream receivables + unrecovered variable costs - customer advances - supplier credit actually available
 
 This is a planning formula, not a Qbits outcome. Define every input on the same date and tax basis. Run at least a base case and a downside case using your own evidence. The downside case should test slower customer collections, delayed stock movement, rejected returns, credit withdrawal, or a territory change.
 
@@ -132,7 +143,8 @@ A stated limit has little meaning until the usage formula is known. Ask whether 
 
 Your worksheet can use:
 
-`Available headroom = approved limit - exposure counted under the agreement`
+> [!FORMULA] Credit headroom
+> Available headroom = approved limit - exposure counted under the agreement
 
 Do not add an order merely because a spreadsheet shows headroom. Confirm that the supplier has accepted it, the relevant products are eligible, no suspension applies, and the delivery will not make another invoice due before downstream cash arrives.
 
@@ -141,6 +153,8 @@ Do not add an order merely because a spreadsheet shows headroom. Confirm that th
 A payment period is incomplete without a start event, due-date rule, document requirements, and treatment of disputes. The same number of days can create different cash dates depending on whether it starts from invoice, dispatch, delivery, acceptance, installation, or another event.
 
 Ask the commercial and finance reviewers to mark each item as confirmed, unresolved, or unacceptable:
+
+Table: Payment-clock questions and what the written credit term should resolve
 
 | Credit question | What the written term should resolve |
 | --- | --- |
@@ -207,6 +221,8 @@ If the documents produce different answers, list the conflict and identify which
 ## Keep the three commercial owners separate
 
 Channel, finance, and legal reviewers answer different parts of this decision. One person's email should not silently override another team's authorised document.
+
+Table: Commercial owners and the decision each must confirm
 
 | Owner | Decision to confirm |
 | --- | --- |

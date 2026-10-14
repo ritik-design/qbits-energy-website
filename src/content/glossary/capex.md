@@ -5,7 +5,7 @@ description: "CAPEX is the upfront capital expenditure for a solar project. Full
 category: "Finance"
 categorySlug: "finance"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is capex
   - solar capex
@@ -75,7 +75,7 @@ Indian solar capex includes modules, inverter, mounting structure, DC and AC cab
 
 Capex per watt has fallen dramatically over the past decade. Utility solar fell from ₹15 crore per MW in 2012 to ₹3.5 to ₹4.5 crore per MW in 2026. The collapse was driven primarily by silicon module price reduction, with BOS and labour also falling.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - CAPEX is the total upfront cost to design, procure, install and commission a solar project, distinct from ongoing OPEX.
 > - Indian utility-scale capex sits at ₹3.5 to ₹4.5 crore per MW (₹35 to ₹45 per Wp) in 2026, down from ₹12 to ₹15 crore per MW in 2012.
 > - Modules are the single largest line item, typically 35 to 50 percent of total capex.
@@ -102,11 +102,14 @@ Subsidy quantification. PM Surya Ghar caps capex eligibility for subsidy, with t
 
 ## How CAPEX is calculated
 
-Total CAPEX = Module + Inverter + Structure + Cables + Transformer + Switchgear + Civil work + Labour + Project management + Financing during construction + Contingency + Taxes + Connection charges
+> [!FORMULA]
+> Total CAPEX = Module + Inverter + Structure + Cables + Transformer + Switchgear + Civil work + Labour + Project management + Financing during construction + Contingency + Taxes + Connection charges
 
 ## Technical deep dive
 
 ### Indian solar capex breakdown (utility-scale, ₹/W, 2026)
+
+Table: Utility-scale solar capex breakdown in India, ₹/W, 2026
 
 | Component | ₹/W | % of total |
 |---|---|---|
@@ -122,6 +125,8 @@ Total CAPEX = Module + Inverter + Structure + Cables + Transformer + Switchgear 
 
 ### Indian rooftop capex breakdown (residential 3 kW, ₹/W, 2026)
 
+Table: Residential 3 kW rooftop capex breakdown, ₹/W, 2026, before and after subsidy
+
 | Component | ₹/W |
 |---|---|
 | Modules (ALMM half-cut TOPCon) | 16 to 22 |
@@ -134,7 +139,15 @@ Total CAPEX = Module + Inverter + Structure + Cables + Transformer + Switchgear 
 | PM Surya Ghar subsidy | -26 (₹78,000 for 3 kW) |
 | Net cost | 10 to 29 |
 
+> [!EXAMPLE] 3 kW rooftop at the top of the range
+> At ₹55 per W, a 3 kW system costs ₹1,65,000 before subsidy. The ₹78,000 PM Surya Ghar subsidy (₹26 per W) leaves a net cost of ₹87,000, which is ₹29 per W and the top of the net range above.
+
+> [!WARNING] The subsidy is not a discount
+> The page's own common-mistakes list flags treating the PM Surya Ghar subsidy as a discount rather than a reimbursement. The net ₹10 to ₹29 per W is the cost after the subsidy, not the invoice amount.
+
 ### Capex trajectory
+
+Table: Indian utility-scale capex trajectory, ₹ crore per MW, 2012 to 2026
 
 | Year | Indian utility capex (₹ Cr/MW) |
 |---|---|
@@ -148,6 +161,8 @@ Total CAPEX = Module + Inverter + Structure + Cables + Transformer + Switchgear 
 The trajectory plateaued around 2020 to 2024, with mild upward pressure from raw material prices balanced by manufacturing scale.
 
 ### Capex by project type
+
+Table: Capex by project type, ₹/W
 
 | Project type | Capex (₹/W) |
 |---|---|
@@ -221,6 +236,8 @@ Track capex against budget through project phases, ideally with dedicated projec
 
 ## Comparison: capex by configuration
 
+Table: Utility capex by module and mounting configuration, ₹/W
+
 | Configuration | Capex (₹/W) | Notes |
 |---|---|---|
 | Mono PERC fixed-tilt monofacial | 36 to 42 | Baseline |
@@ -239,11 +256,12 @@ Major Indian EPCs publish typical capex bands for tender comparison.
 
 ## Standards and certifications
 
+Table: Benchmarks and frameworks that shape solar capex
+
 | Standard | Scope |
 |---|---|
 | CERC benchmark capex methodology | Tariff order basis |
 | MNRE technical specifications | Component requirements |
-
 | BIS certification | Quality compliance |
 | GST and customs frameworks | Tax components |
 

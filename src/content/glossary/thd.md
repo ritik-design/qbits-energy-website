@@ -61,6 +61,12 @@ author: Keyur Rakholiya
 
 **Total Harmonic Distortion (THD)** compares the combined RMS magnitude of harmonics with the RMS magnitude of the fundamental component in an electrical waveform. It can describe **voltage** or **current**. A solar-inverter datasheet commonly gives an AC-output **current THD** figure, but the load and test conditions matter.
 
+> [!KEYTAKEAWAYS]
+> - THD is harmonic RMS divided by fundamental RMS, as a percentage. A perfect sine wave is 0%.
+> - A datasheet THD figure is incomplete without the quantity (voltage or current), the load point and the method. Current THD usually reads higher at light load.
+> - Standards judge harmonics at the point of common coupling, mostly through TDD for current and voltage THD for the supply.
+> - There is no single Indian THD figure that every inverter is certified to; CEA connectivity rules point to IEEE 519-2014 limits.
+
 A lower THD figure can indicate a cleaner waveform under the same measurement method. It is not a complete statement about grid compliance, equipment safety or performance at every output level.
 
 A perfect sine wave has a THD of zero. An ideal square wave works out to about 48 percent, dominated by the 3rd, 5th and 7th [harmonics](/glossary/harmonics/). Real supply voltage and real inverter output sit between those extremes.
@@ -75,11 +81,13 @@ Harmonics are produced by non-linear loads and by switching electronics, includi
 
 For harmonic components numbered 2 through *n*:
 
-**THD (%) = 100 × √(H₂² + H₃² + … + Hₙ²) ÷ H₁**
+> [!FORMULA]
+> THD (%) = 100 × √(H₂² + H₃² + … + Hₙ²) ÷ H₁
 
 Here each H is the RMS magnitude of that frequency component, and H₁ is the fundamental. The same form is used for voltage (V) and current (I). IEEE 519-2014 counts harmonic orders up to the 50th.
 
-For an illustrative current waveform with a 100 A fundamental, a 3 A third harmonic and a 4 A fifth harmonic, the combined harmonic RMS is **√(3² + 4²) = 5 A**. THD for only those stated components is **5 ÷ 100 × 100 = 5%**. This is an arithmetic example, not a measured Qbits product value or a pass/fail limit.
+> [!EXAMPLE]
+> For an illustrative current waveform with a 100 A fundamental, a 3 A third harmonic and a 4 A fifth harmonic, the combined harmonic RMS is **√(3² + 4²) = 5 A**. THD for only those stated components is **5 ÷ 100 × 100 = 5%**. This is an arithmetic example, not a measured Qbits product value or a pass/fail limit.
 
 A real analyser may include more harmonic orders and apply a specific aggregation method. Its reported value can therefore differ from a simplified hand calculation.
 
@@ -89,13 +97,16 @@ IEEE 519-2014 defines TDD as the RMS of the harmonic current content (orders up 
 
 ## Voltage THD, current THD and TDD
 
+Table: Voltage THD, current THD and TDD compared
+
 | Measure | Numerator | Denominator | Common use |
 | --- | --- | --- | --- |
 | Voltage THD | Voltage harmonics | Fundamental voltage | Describes voltage waveform distortion at a measurement point |
 | Current THD | Current harmonics | Fundamental current at that operating point | Describes current distortion under the stated load |
 | Current TDD | Current harmonics | Defined maximum demand load current | Helps assess harmonic impact against a demand reference |
 
-A claim such as “THD <3%” is incomplete without identifying **what** was measured and **when**. At light load, the fundamental current is smaller, so current THD can change even when the harmonic current changes little. Ask for the test condition before comparing two inverter brochures.
+> [!WARNING] Compare THD figures like for like
+> A claim such as “THD <3%” is incomplete without identifying **what** was measured and **when**. At light load, the fundamental current is smaller, so current THD can change even when the harmonic current changes little. Ask for the test condition before comparing two inverter brochures.
 
 Voltage and current distortion are linked through the network. A harmonic current *I_h* flowing through grid impedance *Z_h* at that harmonic frequency produces a harmonic voltage drop of roughly *Z_h × I_h*. A weak grid, with high impedance, turns the same inverter current into more voltage distortion than a strong grid does.
 
@@ -117,6 +128,8 @@ A quick handheld snapshot is useful for troubleshooting but is not equivalent to
 ## IEEE 519-2014 limits at the point of common coupling
 
 IEEE 519-2014 is a recommended practice that sets limits at the point of common coupling (PCC), the point where the user connects to the utility. Voltage limits in Table 1 are:
+
+Table: IEEE 519-2014 voltage distortion limits at the point of common coupling, by bus voltage
 
 | Bus voltage at PCC | Individual harmonic | Voltage THD |
 | --- | --- | --- |
@@ -162,6 +175,8 @@ THD is a single number that is easy to communicate, standardised and measurable 
 
 ## THD compared with related metrics
 
+Table: THD compared with related waveform metrics
+
 | Metric | Definition | Typical use |
 | --- | --- | --- |
 | THD-F | Harmonic RMS ÷ fundamental RMS | Standard engineering and datasheets |
@@ -177,6 +192,8 @@ India's central connectivity rules for distributed generation below 33 kV are th
 Be careful with a few claims that circulate. There is no single Indian inverter THD figure that every product is certified to, and a BIS or other certificate does not by itself state a THD value. IS 17387 is a standard for battery management systems, not a solar inverter THD standard. ALMM, which MNRE publishes for modules and cells, says nothing about inverter THD.
 
 ## Standards and references
+
+Table: Standards and documents relevant to THD in India
 
 | Standard or document | What it covers |
 | --- | --- |

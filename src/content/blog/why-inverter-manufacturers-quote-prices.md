@@ -33,10 +33,9 @@ Qbits publishes inverter specifications, but it does not publish a per-unit pric
 
 That does not make quote-based pricing automatically better. A public list reduces friction and gives buyers a quick budget reference. A vague quotation can be worse than a price list. The quotation earns its value only when it defines exactly what the buyer will receive.
 
-> **Short version**
+> [!KEYTAKEAWAYS]
 > - Start with an exact model, not a capacity label such as "5 kW inverter".
-> - State the quantity, destination, required accessories, and supply boundary.
-> - Ask for tax and freight treatment as separate lines.
+> - State the quantity, destination, required accessories, and supply boundary, and ask for tax and freight treatment as separate lines.
 > - Request the current written warranty document instead of relying on a headline term.
 > - Mark any missing comparison field as **clarification required**.
 > - Compare the final figure only after both quotations describe the same scope.
@@ -44,6 +43,8 @@ That does not make quote-based pricing automatically better. A public list reduc
 ## What a public price list can and cannot tell an EPC
 
 **A price list is useful for orientation, while a quotation should control a purchase decision.** The two documents solve different problems.
+
+Table: What a price list, quotation, purchase order and written warranty each settle and leave open
 
 | Document | What it does well | What it usually cannot settle |
 | --- | --- | --- |
@@ -64,11 +65,14 @@ Two products can share a capacity label and still serve different designs. An on
 
 Begin with the [current Qbits datasheet library](/download-datasheets/) and record the exact model identifier. If it is not yet selected, send the design inputs and ask the seller to identify the proposed model. The [datasheet-reading guide](/blog/how-to-read-solar-inverter-datasheets/) shows how to carry that identifier into a BOQ and technical submission.
 
-Do not accept a quotation that leaves the model open for later substitution. If a seller proposes an alternative, require a revised model-specific quotation and recheck the design.
+> [!WARNING] No open model in the quotation
+> Do not accept a quotation that leaves the model open for later substitution. If a seller proposes an alternative, require a revised model-specific quotation and recheck the design.
 
 ## The scope fields that make a quotation usable
 
 **A useful inverter quotation fixes the commercial boundary around the exact product.** These fields prevent most false comparisons.
+
+Table: Scope fields a usable inverter quotation should fix
 
 | Field | What the quotation should identify | Why it matters |
 | --- | --- | --- |
@@ -133,6 +137,8 @@ The form does not promise a response time. Plan your procurement schedule withou
 
 **Place both quotations into the same comparison sheet and stop at the first unresolved mismatch.** Do not adjust a missing field silently.
 
+Table: Comparison sheet for normalising two quotations
+
 | Comparison field | Quotation A | Quotation B | Review status |
 | --- | --- | --- | --- |
 | Exact model |  |  | Match / mismatch / clarification required |
@@ -156,16 +162,17 @@ If one quotation includes delivery and another is ex-works, they are not compara
 
 **Use `clarification required` whenever a buyer would have to guess.** Common triggers include:
 
-- A capacity is shown without an exact model identifier.
-- Quantity is missing or expressed only as a project capacity.
-- Accessories are described as "standard" without a list.
-- Freight is included without a destination or delivery basis.
-- Tax is shown as extra without the applicable line treatment.
-- A warranty is mentioned without the controlling written document.
-- Commissioning support is implied but not defined.
-- A validity period is missing.
-- A substitute model can be supplied without written buyer approval.
-- The total depends on a condition that the quotation does not explain.
+> [!CHECKLIST] Triggers for clarification required
+> - A capacity is shown without an exact model identifier.
+> - Quantity is missing or expressed only as a project capacity.
+> - Accessories are described as "standard" without a list.
+> - Freight is included without a destination or delivery basis.
+> - Tax is shown as extra without the applicable line treatment.
+> - A warranty is mentioned without the controlling written document.
+> - Commissioning support is implied but not defined.
+> - A validity period is missing.
+> - A substitute model can be supplied without written buyer approval.
+> - The total depends on a condition that the quotation does not explain.
 
 Send all clarification questions together and ask for a revised quotation. A chain of verbal answers is harder to review and easier to lose than one corrected document.
 

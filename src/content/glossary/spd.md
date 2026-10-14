@@ -5,7 +5,7 @@ description: "SPDs protect electrical systems from voltage surges and lightning 
 category: "Protection"
 categorySlug: "protection"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is spd
   - surge protection device
@@ -70,7 +70,7 @@ A Surge Protection Device (SPD) is an electrical device designed to limit transi
 
 SPDs use voltage-limiting components, most commonly metal oxide varistors (MOVs), gas discharge tubes (GDTs) or silicon avalanche diodes. Under normal voltage, the SPD presents very high impedance and draws negligible current. When voltage exceeds the clamping threshold, impedance drops dramatically, allowing surge current to flow to [earth](/glossary/earthing/) instead of damaging equipment.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - An SPD diverts transient overvoltage from lightning or switching events to earth, protecting the inverter, modules and connected appliances downstream.
 > - Indian solar installations need SPDs on both the DC side (between modules and inverter) and the AC side (between inverter and grid); CEA safety measures and the inverter safety standards (IEC 62109-1/-2) point to protection on both sides.
 > - Type 2 SPDs (8/20 µs test waveform) cover most solar sub-distribution needs; Type 1 (10/350 µs) is added at the service entry on buildings with a lightning protection system.
@@ -103,11 +103,16 @@ When a voltage surge exceeds the MOV's clamping threshold (typically 600 V to 1.
 3. Voltage across the protected equipment is clamped at the residual voltage of the SPD.
 4. Energy dissipated in the SPD reduces its remaining life slightly.
 
+> [!WARNING] A red window means the SPD has stopped protecting
+> The status indicator shows the SPD's health, and red indicates end of life. An SPD wears out with each surge it absorbs, and an SPD that is installed but not connected to earth does nothing, so check the indicators at least annually and verify earthing resistance below 5 ohms.
+
 A status indicator (window or LED) shows the SPD's health. Red indicates end of life; replace immediately.
 
 ## Technical deep dive
 
 ### SPD types
+
+Table: SPD types by surge waveform and use location
 
 | Type | Surge waveform | Use location |
 |---|---|---|
@@ -120,6 +125,8 @@ Most solar installations use Type 2. Service entry to lightning-protected buildi
 
 ### SPD ratings
 
+Table: SPD rating parameters and what each means
+
 | Parameter | Description |
 |---|---|
 | Uc | Maximum continuous operating voltage |
@@ -130,6 +137,8 @@ Most solar installations use Type 2. Service entry to lightning-protected buildi
 
 ### Typical Indian residential SPD selection
 
+Table: Typical SPD selection for an Indian residential solar system, by location
+
 | Location | SPD type | Uc | In |
 |---|---|---|---|
 | DC side, combiner box | Type 2 | 1000 V DC | 20 kA |
@@ -137,6 +146,8 @@ Most solar installations use Type 2. Service entry to lightning-protected buildi
 | Service entry (with LPS) | Type 1+2 | 275 V AC | 25 kA (Imax) + 12.5 kA (Iimp) |
 
 ### MOV vs GDT
+
+Table: MOV vs GDT vs hybrid SPD technology, pros and cons
 
 | Technology | Pros | Cons |
 |---|---|---|
@@ -188,9 +199,14 @@ Replace SPDs immediately when end-of-life indicated.
 
 Coordinate Type 1 with Type 2 if both used.
 
+> [!TIP] Treat the SPD as a consumable
+> Use a back-up [fuse](/glossary/fuse/) to disconnect a failed SPD, place the SPD as close to the protected equipment as possible, and budget for replacement every 5 to 10 years in lightning-prone regions even without a visible trigger.
+
 Use a back-up [fuse](/glossary/fuse/) to disconnect a failed SPD.
 
 ## Comparison: SPD types
+
+Table: Type 1, 2 and 3 SPDs compared by test current, application and solar use
 
 | Type | Test current | Application | Solar use |
 |---|---|---|---|
@@ -211,6 +227,8 @@ Indian thunderstorm density (especially north-east and central India) drives SPD
 PM Surya Ghar residential installations include SPD on both DC and AC sides in most installer specifications.
 
 ## Standards and certifications
+
+Table: Standards and regulations that cover SPDs in India
 
 | Standard | Scope |
 |---|---|

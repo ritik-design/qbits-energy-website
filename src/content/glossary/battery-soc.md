@@ -5,7 +5,7 @@ description: "Battery SOC is the percentage of remaining charge in a battery. Fu
 category: "Batteries"
 categorySlug: "batteries"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is battery soc
   - state of charge battery
@@ -72,7 +72,7 @@ author: "Nirav Dhanani"
 
 State of Charge (SOC) is the percentage of remaining usable energy in a battery relative to its rated capacity. 100 percent means fully charged. 0 percent means fully discharged. SOC is the most important real-time operating metric for any battery system, used by the [Battery Management System (BMS)](/glossary/bms/), inverter, energy management system and the user.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - SOC is the percentage of usable energy left in a battery right now, the counterpart to Depth of Discharge.
 > - There is no direct SOC sensor; the BMS estimates it from coulomb counting, open-circuit voltage and, in premium packs, a Kalman filter.
 > - Typical BMS accuracy is 3 to 5 percent, with Kalman-filtered BMS reaching 1 to 2 percent.
@@ -122,7 +122,8 @@ Modern lithium BMS use coulomb counting plus periodic OCV recalibration, often w
 
 ### SOC formula
 
-SOC(%) = (Remaining capacity / Rated capacity) × 100
+> [!FORMULA]
+> SOC (%) = (Remaining capacity / Rated capacity) × 100
 
 ### Coulomb counting integration
 
@@ -132,6 +133,8 @@ Where η_coulomb is the coulombic efficiency, typically 99 to 99.9 percent for L
 
 ### OCV curve characteristics
 
+Table: OCV curve shape and SOC estimation difficulty by chemistry
+
 | Chemistry | OCV curve shape | SOC estimation difficulty |
 |---|---|---|
 | LFP | Very flat 20 to 80 percent | Hard, needs Kalman or long rest |
@@ -139,6 +142,8 @@ Where η_coulomb is the coulombic efficiency, typically 99 to 99.9 percent for L
 | Lead acid | Sloped | Easy from specific gravity or OCV |
 
 ### SOC operating window
+
+Table: Recommended SOC operating window by battery chemistry
 
 | Chemistry | Recommended operating window |
 |---|---|
@@ -149,6 +154,8 @@ Where η_coulomb is the coulombic efficiency, typically 99 to 99.9 percent for L
 These SOC windows are the same inputs [energy storage sizing tools](https://surgepv.com/hub/energy-storage/battery-sizing/) use to calculate usable capacity from nominal battery capacity.
 
 ### Charge stages and SOC
+
+Table: Charge stages and the SOC range each covers
 
 | Stage | SOC range | Description |
 |---|---|---|
@@ -198,6 +205,9 @@ Temperature dependence adds complexity.
 
 SOC jumping suddenly. BMS recalibration event during full charge or after long rest.
 
+> [!WARNING] A healthy SOC reading can hide a weak cell
+> A pack showing 30 percent SOC can still shut the inverter down, because one cell at minimum voltage drags down the whole pack. A pack reading 100 percent SOC but delivering only 70 percent of rated runtime points to SOH degradation, not an SOC error.
+
 Battery showing 30 percent SOC but inverter shuts down. Cell-level imbalance, the condition [cell balancing](/glossary/cell-balancing/) is designed to prevent. One cell at minimum voltage drags down the whole pack.
 
 App SOC differs from BMS SOC. Communication lag or different rounding. Trust the BMS.
@@ -222,7 +232,12 @@ Avoid running consistently at low SOC.
 
 Audit BMS readings against actual delivered energy quarterly.
 
+> [!TIP] Recalibrate the reference
+> Coulomb counting drifts over weeks of partial cycling, and the LFP flat voltage curve makes mid-range voltage readings noisy. Schedule periodic full charges so the BMS can reset its reference, and check app SOC against energy actually delivered every quarter.
+
 ## Comparison: SOC estimation methods
+
+Table: SOC estimation methods compared by accuracy, complexity and use
 
 | Method | Accuracy | Complexity | Use case |
 |---|---|---|---|
@@ -241,6 +256,8 @@ Customer-facing apps from Sungrow, Solis, Goodwe, Tata Power Solar and others di
 Off-grid systems serving rural homes use SOC-based low-voltage cutoff to prevent battery damage.
 
 ## Standards and certifications
+
+Table: Standards and specifications relevant to battery SOC
 
 | Standard | Scope |
 |---|---|

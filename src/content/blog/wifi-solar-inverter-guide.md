@@ -4,7 +4,7 @@ excerpt: "Wi-Fi solar inverter hardware: what the dongle is, RS485 vs cellular, 
 description: "A hardware and buying guide to Wi-Fi solar inverter monitoring in India. Covers the dongle and its communication port, RS485 daisy-chains, cellular and SIM questions, antenna placement, polling resolution, local versus cloud access, and the exact wording to put in a quotation."
 category: "Technology"
 date: 2026-09-23
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: "18 min read"
 image: "/images/hybrid.webp"
 author: "Qbits Editorial"
@@ -41,13 +41,12 @@ This guide covers the hardware and the buying decision, not the troubleshooting.
 
 If your dongle is already fitted and refusing to connect, start with the [Wi-Fi connection fault ladder](/blog/solar-inverter-wifi-not-connecting-fix/) instead. If it is connected and you want to read the curves, see [how to read the monitoring app](/blog/solar-inverter-app-monitoring/).
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The Wi-Fi radio is normally a plug-in stick on a dedicated communication port. On many ranges it is a separately ordered accessory, not a fitted part.
 > - The Qbits product data lists Wi-Fi on the on-grid TLS, TLD and TLC series with optional RS485 or GPRS. The QBH hybrid entries list Wi-Fi monitoring with the battery interface to be verified. Ethernet is listed nowhere.
 > - RS485 remains the professional choice above one inverter, because several units share one wired chain into a single logger with one internet link.
 > - A grid trip clears in up to 2 seconds under Central Electricity Authority Regulation 11(6). A 5-minute logging interval cannot show you that.
-> - Cellular loggers solve no-broadband sites, then raise three questions: SIM ownership, renewal, and what the dashboard does when the plan lapses.
-> - Ask for local Modbus TCP or a SunSpec information model if a battery, EV charger or energy management controller might be added later.
+> - Cellular loggers solve no-broadband sites, then raise three questions: SIM ownership, renewal, and what the dashboard does when the plan lapses. Ask for local Modbus TCP or a SunSpec information model if a battery, EV charger or energy management controller might be added later.
 > - A dongle is a consumable. Losing one costs you data, not generation, and replacing one is far cheaper and faster than replacing an inverter.
 
 **Short version.** A Wi-Fi solar inverter is an ordinary grid inverter plus a small communication module. That module plugs into a port on the unit and forwards readings to a cloud account. It is frequently an optional accessory, not a fitted part. Specify it by name in the quotation. Use RS485 into a logger for multi-inverter sites, and confirm commissioning on live site data before handover.
@@ -76,6 +75,8 @@ Qbits also has live monitoring apps, on Google Play under the package `io.aotai.
 
 **Answer capsule.** There are five interfaces in common use and they are not competing for the same job. Wi-Fi suits a single residential inverter near a router. RS485 suits anything with more than one inverter. Cellular suits sites with no usable broadband. Ethernet suits plant rooms with structured cabling. Bluetooth is a commissioning and local-display tool, not a monitoring channel.
 
+Table: Wi-Fi, RS485, cellular, Ethernet and Bluetooth compared by use, requirements, limit and failure point
+
 | Interface | What it is for | What it needs | Practical limit | Where it fails |
 | --- | --- | --- | --- | --- |
 | Wi-Fi | One inverter, one home router | 2.4 GHz SSID, password, decent signal at the inverter wall | One inverter per radio | Masonry walls, router or password changes, 5 GHz-only networks |
@@ -84,7 +85,8 @@ Qbits also has live monitoring apps, on Google Play under the package `io.aotai.
 | Ethernet | Plant rooms with structured cabling | A spare port and a cable run to the inverter | Standard 100 m per run | Not offered on every range, including the Qbits data |
 | Bluetooth | Local commissioning, phone-side setup | A phone within a few metres | Line of sight, metres not rooms | Treated as remote monitoring when it is not |
 
-In the Qbits product data, Bluetooth appears in exactly one place. It sits in the display field of the QB 225/320K-EHV utility-scale entry, which reads LED and Bluetooth app with optional LCD. Bluetooth is not listed as a communication interface on any series, and Ethernet is not listed at all. Do not design around either without written confirmation for your SKU.
+> [!IMPORTANT] Bluetooth and Ethernet in the Qbits product data
+> In the Qbits product data, Bluetooth appears in exactly one place. It sits in the display field of the QB 225/320K-EHV utility-scale entry, which reads LED and Bluetooth app with optional LCD. Bluetooth is not listed as a communication interface on any series, and Ethernet is not listed at all. Do not design around either without written confirmation for your SKU.
 
 For a broader view of what the electronics can do once connected, see [what a smart solar inverter actually adds](/blog/smart-solar-inverter/).
 
@@ -98,6 +100,7 @@ The second reason is topology. One RS485 chain can serve many inverters, and the
 
 A daisy-chain is built like this:
 
+<!-- steps -->
 1. Locate the RS485 terminals or connector on each inverter, usually A and B, sometimes labelled D+ and D-.
 2. Run shielded twisted pair from the logger to inverter 1, then from inverter 1 to inverter 2, and so on. Do not run separate spurs back to the logger.
 3. Keep polarity consistent at every unit. A to A, B to B, all the way down. One crossed pair kills the whole chain, not one inverter.
@@ -129,9 +132,12 @@ Almost every rooftop system has the same geometry problem. The inverter is mount
 
 A 2.4 GHz signal loses real strength through reinforced concrete. Metal cupboards and metal inverter enclosures make it worse. The dongle is then asked to hold a link on a signal the installer never measured.
 
-Measure it before you commit. Stand at the inverter with a phone and check the signal on the SSID the dongle will use. If the phone struggles there, the dongle will fail there.
+> [!TIP] Test the signal at the inverter wall
+> Measure it before you commit. Stand at the inverter with a phone and check the signal on the SSID the dongle will use. If the phone struggles there, the dongle will fail there.
 
 The remedies, cheapest first:
+
+Table: Wi-Fi signal remedies from cheapest to most involved, with when to use each
 
 | Remedy | What it costs | When to use it |
 | --- | --- | --- |
@@ -146,6 +152,8 @@ Two placement rules save most of the pain. Do not bury the dongle inside a metal
 ## Dongle or data logger: the distinction that matters
 
 The two words get used interchangeably and they are not the same device. A dongle serves one inverter, has no user interface, stores very little, and speaks only to the manufacturer's cloud. A data logger serves many inverters and polls them over RS485. It usually holds days of history and often has a web page of its own. It can commonly forward data to more than one destination.
+
+Table: Dongle compared with data logger on inverters served, interface, history and outputs
 
 | Attribute | Dongle | Data logger |
 | --- | --- | --- |
@@ -163,23 +171,36 @@ Battery systems add a third wire. Hybrid inverters usually talk to a lithium bat
 
 **Answer capsule.** Polling interval decides what questions you can ever answer. A 5-minute interval is fine for yield, shading and hard faults. It is useless for transients, because averaging destroys the peak you were looking for. Ask for the interval in seconds, and ask separately whether the inverter timestamps its own fault log independently of the upload rate.
 
-**Worked example: what a 5-minute average hides.**
+> [!EXAMPLE] What a 5-minute average hides
+> Inputs, chosen to be illustrative:
+>
+> - Steady output on a clear afternoon: 4.8 kW
+> - A cloud edge drops output to 1.0 kW for 60 seconds
+> - Logging interval: 300 seconds, reported as an average
+>
+> Arithmetic: ((4.8 kW x 240 s) + (1.0 kW x 60 s)) / 300 s = (1,152 + 60) / 300 = **4.04 kW**
+>
+> The log shows a 16% dip. The real instantaneous dip was 79%. Nothing in the record tells you which one happened.
 
-Inputs, chosen to be illustrative:
-
-- Steady output on a clear afternoon: 4.8 kW
-- A cloud edge drops output to 1.0 kW for 60 seconds
-- Logging interval: 300 seconds, reported as an average
-
-Arithmetic: ((4.8 kW x 240 s) + (1.0 kW x 60 s)) / 300 s = (1,152 + 60) / 300 = **4.04 kW**
-
-The log shows a 16% dip. The real instantaneous dip was 79%. Nothing in the record tells you which one happened.
+```chart
+type: bar
+title: Output during a 60-second cloud dip versus the 5-minute logged average (kW)
+unit: "kW"
+decimals: 2
+source: "Calculated in this article from the illustrative inputs in the worked example above: 4.8 kW steady, 1.0 kW for 60 seconds, 300 second averaging interval"
+note: "Illustrative inputs, not site data. The logged average hides the real dip."
+data:
+  - { label: "Steady output", value: 4.8 }
+  - { label: "Real instantaneous dip", value: 1.0 }
+  - { label: "5-minute logged average", value: 4.04 }
+```
 
 Now take a grid event. Regulation 11(6) of the Central Electricity Authority (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 sets the trip envelope. Voltage: trip above 110% or below 80% of nominal, clearing up to 2 seconds. Frequency: trip at 50.5 Hz and above or 47.5 Hz and below, clearing up to 0.2 seconds. The regulation also allows a distribution company to prescribe a narrower range.
 
 A 0.2 second event inside a 300 second average is 0.07% of the window. It is not visible. It is not even nearly visible. If you are investigating nuisance tripping, the cloud graph is the wrong instrument and the inverter's own event log is the right one.
 
-**Worked example: cellular data volume.** At a 300 second interval a logger sends 12 records an hour, 288 a day, roughly 8,640 a month. If a record plus protocol overhead were about 1 kB, that is about 8.6 MB a month. The 1 kB is an assumption, to be replaced with the vendor's documented figure. It still shows the scale. A monitoring SIM needs a small plan, and anyone quoting a large one should explain why.
+> [!EXAMPLE] Cellular data volume
+> **Worked example: cellular data volume.** At a 300 second interval a logger sends 12 records an hour, 288 a day, roughly 8,640 a month. If a record plus protocol overhead were about 1 kB, that is about 8.6 MB a month. The 1 kB is an assumption, to be replaced with the vendor's documented figure. It still shows the scale. A monitoring SIM needs a small plan, and anyone quoting a large one should explain why.
 
 ## Local access versus cloud-only, and why an open protocol matters
 
@@ -203,18 +224,19 @@ For a comparison of the platforms rather than the hardware, see our survey of [i
 
 Paste this into your enquiry and ask for it to be answered line by line:
 
-1. Inverter model exactly as it will be invoiced, with the communication interface named.
-2. The communication accessory named as a line item, with its part reference, stated as supplied and fitted.
-3. Interface choice confirmed: Wi-Fi, RS485 into a logger, or cellular. For RS485, the logger model and the number of inverters on the chain.
-4. For cellular: SIM ownership, bundled data period counted from commissioning, renewal cost and route.
-5. Commissioning included, defined as the plant visible in the app with live site values while the installer is on site.
-6. Account ownership in my name, with installer access granted by me rather than inherited.
-7. Polling interval in seconds, and history retention period.
-8. Local access: Modbus TCP or SunSpec availability, with the register map if applicable.
-9. Warranty term for the accessory, stated separately from the inverter warranty.
-10. Replacement route and lead time for the accessory, and who pays for the site visit.
+> [!CHECKLIST] Lines to put in the quotation enquiry
+> - Inverter model exactly as it will be invoiced, with the communication interface named.
+> - The communication accessory named as a line item, with its part reference, stated as supplied and fitted.
+> - Interface choice confirmed: Wi-Fi, RS485 into a logger, or cellular. For RS485, the logger model and the number of inverters on the chain.
+> - For cellular: SIM ownership, bundled data period counted from commissioning, renewal cost and route.
+> - Commissioning included, defined as the plant visible in the app with live site values while the installer is on site.
+> - Account ownership in my name, with installer access granted by me rather than inherited.
+> - Polling interval in seconds, and history retention period.
+> - Local access: Modbus TCP or SunSpec availability, with the register map if applicable.
+> - Warranty term for the accessory, stated separately from the inverter warranty.
+> - Replacement route and lead time for the accessory, and who pays for the site visit.
 
-On warranty, keep the two items apart. Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. The public datasheets do not define the base term, remedy, registration deadline or exclusions. So obtain the current written warranty for the exact quoted model. An accessory very often carries its own shorter term, and assuming otherwise is a costly guess.
+On warranty, keep the two items apart. Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. An accessory very often carries its own shorter term, and assuming otherwise is a costly guess.
 
 Ranges and interface options per series are set out on the [on-grid inverter page](/on-grid-inverter/) and the [hybrid inverter page](/hybrid-inverter/).
 
@@ -222,6 +244,7 @@ Ranges and interface options per series are set out on the [on-grid inverter pag
 
 Do not sign the handover on a screenshot. Run this while the installer is still on the roof:
 
+<!-- steps -->
 1. Open the app on your own phone, logged into your own account, not the installer's.
 2. Confirm the serial number on screen matches the serial on the inverter label.
 3. Compare instantaneous AC power in the app against the inverter display. They should agree within rounding.

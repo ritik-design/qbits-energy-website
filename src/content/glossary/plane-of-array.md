@@ -5,7 +5,7 @@ description: "POA is irradiance on tilted PV surface. Full guide to calculation 
 category: "Solar Resource"
 categorySlug: "solar-resource"
 priority: "P2"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - plane of array
   - poa irradiance
@@ -70,7 +70,7 @@ author: "Nirav Dhanani"
 
 Plane of Array (POA) irradiance, also called Global Tilted Irradiance (GTI), is the solar radiation hitting the actual tilted surface of PV modules. Unlike [GHI](/glossary/ghi/) which measures irradiance on horizontal, POA accounts for the panel's specific [tilt angle](/glossary/tilt-angle/) and [azimuth](/glossary/azimuth/) orientation. POA is the direct input to PV power calculation.
 
-> **TL;DR**
+> [!NOTE] In short
 > - POA (Plane of Array) irradiance is the solar radiation hitting the actual tilted PV surface, combining direct beam, diffuse sky and ground-reflected components.
 > - For Indian latitude tilt, POA typically runs 8-12 percent higher than horizontal GHI on an annual basis.
 > - The Perez sky model is the industry default for the diffuse component, used in PVsyst and SAM for the highest accuracy (±2-4 percent).
@@ -99,7 +99,8 @@ Performance benchmarking. POA-based PR is more accurate than GHI-based.
 
 ## POA equation
 
-POA = DNI × cos(θ) + DHI × f_diffuse(tilt) + GHI × albedo × f_ground(tilt)
+> [!FORMULA]
+> POA = DNI × cos(θ) + DHI × f_diffuse(tilt) + GHI × albedo × f_ground(tilt)
 
 Where:
 - θ is the angle of incidence between sun and panel normal
@@ -109,6 +110,8 @@ Where:
 ## Technical deep dive
 
 ### Sky models for diffuse component
+
+Table: Sky models for the diffuse component, with accuracy and use
 
 | Model | Accuracy | Use |
 |---|---|---|
@@ -122,6 +125,8 @@ Perez model accounts for circumsolar and horizon brightening effects.
 ### POA gain over GHI by tilt
 
 For Delhi (28° latitude), south-facing:
+
+Table: Annual POA to GHI ratio by tilt, Delhi, south-facing
 
 | Tilt | Annual POA/GHI ratio |
 |---|---|
@@ -165,6 +170,8 @@ Row-spacing and [shading analysis](/glossary/shading-analysis/), since inter-row
 
 ## Comparison: GHI vs POA
 
+Table: GHI vs POA on surface, measurement, use and Indian gain
+
 | Aspect | GHI | POA |
 |---|---|---|
 | Surface | Horizontal | Tilted to match modules |
@@ -173,6 +180,9 @@ Row-spacing and [shading analysis](/glossary/shading-analysis/), since inter-row
 | Indian gain at optimum tilt | Baseline | +10-15% |
 
 ## Best practices
+
+> [!TIP] Measure in the plane of the array
+> Use POA, not GHI, for PR calculation, and install in-plane pyranometers on utility plants. Use the Perez sky model for the highest accuracy, apply a realistic albedo for ground reflection, and document tilt and azimuth assumptions in the yield report.
 
 Use POA for PR calculation, not GHI.
 
@@ -195,6 +205,8 @@ Bifacial yield models include detailed rear-side POA.
 NIWE and Solargis provide tilt-specific POA estimates; for the state-wise GHI and peak sun hour benchmarks feeding these calculations, see [Solar Irradiance Data India, State-Wise Peak Sun Hours](/blog/solar-irradiance-data-india-statewise/).
 
 ## Standards and certifications
+
+Table: Standards and models behind POA calculation
 
 | Standard | Scope |
 |---|---|

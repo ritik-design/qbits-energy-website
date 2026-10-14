@@ -35,7 +35,12 @@ faqs:
 
 A dealer can show profit on an invoice and still run short of cash. Stock may sit in the warehouse. A customer may pay late. Freight and taxes may fall due before the sale proceeds arrive. Finance can bridge a measured timing gap, but it cannot make slow stock or doubtful receivables disappear.
 
-> **Short version:** list each cash outflow and receipt by date, run a slower-sales case, and find the largest negative balance. Compare funding only after you know that number. Do not assume Qbits credit, stock finance, returns, margins, or sales.
+> [!KEYTAKEAWAYS] Short version
+> - List each cash outflow and receipt by date, run a slower-sales case, and find the largest negative balance. Compare funding only after you know that number.
+> - Working capital is the cash needed between paying for stock and collecting from customers. It is not the registration amount, annual turnover or expected profit.
+> - Run three cases, operating, slow and exit, using delays taken from your own customer and stock records.
+> - Compare term-loan offers using the Key Facts Statement, and do not model TReDS until the actual receivable can use it.
+> - Do not assume Qbits credit, stock finance, returns, margins, or sales.
 
 This guide is for education and preparation. It does not recommend a lender or finance product, and it is not financial, tax, accounting, or legal advice.
 
@@ -44,6 +49,8 @@ This guide is for education and preparation. It does not recommend a lender or f
 Launch investment answers, `What cash must we commit to start?` Working capital answers, `What cash remains tied up while the operating cycle repeats?`
 
 The two overlap, but they are not interchangeable.
+
+Table: Launch investment and ongoing working capital, by cash need and where each is covered
 
 | Cash need | Typical timing question | Correct owner |
 | --- | --- | --- |
@@ -58,6 +65,7 @@ Do not use annual sales as the working-capital number. Turnover measures activit
 
 Start with one real replenishment cycle. Use the exact products and dates in the proposed order, not an average copied from another dealership.
 
+<!-- steps -->
 1. Record the purchase order date and any advance.
 2. Record the supplier invoice, tax, freight, insurance, and unloading dates.
 3. Record when the stock becomes saleable.
@@ -68,6 +76,8 @@ Start with one real replenishment cycle. Use the exact products and dates in the
 8. Repeat the timeline with slower stock movement and delayed collections.
 
 Use a stock sheet that exposes ageing and cash, not only unit counts:
+
+Table: Stock sheet exposing cash outlay, ageing and return rights by stock line
 
 | Stock line | Quantity | Landed cash outlay | Cash paid date | Expected sale date | Expected collection date | Written return or rotation right | Downside issue |
 | --- | ---: | ---: | --- | --- | --- | --- | --- |
@@ -83,13 +93,17 @@ The calculation must run as a timeline. A month-end snapshot can hide a shortage
 
 For each date, calculate:
 
-`Net cash movement = cash receipts on that date - cash payments on that date`
+> [!FORMULA] Net cash movement
+> Net cash movement = cash receipts on that date - cash payments on that date
 
-`Closing available cash = opening available cash + cumulative net cash movement`
+> [!FORMULA] Closing available cash
+> Closing available cash = opening available cash + cumulative net cash movement
 
 The lowest closing balance shows the peak operating shortfall in that scenario. Keep the contingency reserve separate so the business can see what caused the underlying gap.
 
 Use this blank schedule:
+
+Table: Blank dated cash schedule for finding the lowest closing balance
 
 | Date | Stock and supplier payments | Tax, freight, and other payments | Operating payments | Customer receipts | Confirmed finance draw | Closing available cash |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -97,11 +111,16 @@ Use this blank schedule:
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 
-Use one consistent tax basis. Ask your accountant how recoverable tax, input credit, and the business's accounting policy should appear. Do not improve the model by counting a requested facility, expected rebate, disputed receivable, or hoped-for return as available cash.
+Use one consistent tax basis. Ask your accountant how recoverable tax, input credit, and the business's accounting policy should appear. 
+
+> [!WARNING] Do not count cash you do not have
+> Do not improve the model by counting a requested facility, expected rebate, disputed receivable, or hoped-for return as available cash.
 
 ### Run three cases, not one forecast
 
 A single sales case tells you whether the plan works if the plan works. Finance risk sits in the cases where it does not.
+
+Table: Three cash cases and the decision each one tests
 
 | Scenario | Change these inputs | Decision it tests |
 | --- | --- | --- |
@@ -114,6 +133,8 @@ Choose the delays from your own customer and stock records. This guide does not 
 ## Compare finance by the gap it can actually fund
 
 The cheapest-looking facility may not cover the moment when cash is needed. Compare scope, timing, control, and exit terms before cost.
+
+Table: Funding routes compared by what they address, questions to ask and limits
 
 | Funding route | What it may address | Questions to answer in writing | Important limit |
 | --- | --- | --- | --- |
@@ -173,7 +194,8 @@ Other common errors are just as costly:
 - using receivables finance for an invoice that has not been accepted or is not eligible; and
 - matching short-lived stock needs with repayments the business cannot support after sales slow.
 
-Finance increases the consequences of a weak stock decision. It does not correct one.
+> [!IMPORTANT] Finance does not fix weak stock
+> Finance increases the consequences of a weak stock decision. It does not correct one.
 
 ## What the Qbits application does and does not establish
 

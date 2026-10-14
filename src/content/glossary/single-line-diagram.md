@@ -59,6 +59,12 @@ faqs:
 
 **A solar single line diagram, or SLD, shows how the principal electrical components connect from the PV array to the inverter, protection devices, loads, meter and grid.** It simplifies a multi-conductor system into an overview, drawing one line for each three-phase or multi-conductor circuit. It does not replace detailed cable schedules, installation drawings or a site-specific safety design.
 
+> [!KEYTAKEAWAYS]
+> - An SLD draws one line per circuit, so a multi-conductor system reads as a single page of connections and ratings.
+> - Approval reviewers, installers, commissioning inspectors and O&M technicians all work from it, so a wrong rating on the drawing becomes a wrong part on the roof.
+> - Which format, symbol set and sign-off apply depends on the serving DISCOM and state; ask before drawing, and do not assume a national capacity threshold.
+> - Keep three versions: design for review, approved, and as-built if the installation differs.
+
 ## Why an SLD matters
 
 An SLD is the shared reference for everyone who touches the project.
@@ -72,6 +78,8 @@ An SLD is the shared reference for everyone who touches the project.
 A well-prepared SLD lets anyone who reads electrical symbols understand the string configuration, [MPPT](/glossary/mppt/) allocation, protection, earthing and grid connection point without walking the site.
 
 ## What should the drawing show?
+
+Table: What a solar SLD should show, by part of the system
 
 | Part of the system | Details worth checking |
 | --- | --- |
@@ -98,6 +106,8 @@ A few conventions are worth knowing when you read an SLD:
 - The **earth symbol** marks the connection to the earthing system. If the diagram has no earthing, a reviewer will notice.
 
 ## SLD and the other drawings
+
+Table: SLD compared with the other drawings in a solar project file
 
 | Drawing | Use |
 | --- | --- |
@@ -131,7 +141,11 @@ A commercial or utility plant is drawn hierarchically: module, string, combiner 
 
 ## How to review an SLD before installation
 
-Confirm that the drawing's inverter and module models match the quotation. The PV string count and input range should agree with the inverter datasheet and the string-sizing calculation. Check that protective devices are identified, not just represented by unlabelled boxes. Record the drawing revision and any design changes. After installation, obtain an as-built version if the constructed connections differ from the approved design.
+> [!TIP] Review checks before installation
+> Confirm that the drawing's inverter and module models match the quotation. The PV string count and input range should agree with the inverter datasheet and the string-sizing calculation. Check that protective devices are identified, not just represented by unlabelled boxes. Record the drawing revision and any design changes. After installation, obtain an as-built version if the constructed connections differ from the approved design.
+
+> [!IMPORTANT] Confirm the format before you draw
+> Ask the serving DISCOM for its current SLD format and approval checklist, and ask the project engineer whether electrical-inspector or CEIG review applies. Symbol sets and sign-off rules differ by state and authority.
 
 ## Common SLD problems
 
@@ -156,6 +170,8 @@ Confirm that the drawing's inverter and module models match the quotation. The P
 A competent solar electrical designer or engineer should prepare and check a project SLD. A software-generated drawing still needs human review of ratings, protection and the actual installation. The [solar SLD software guide](/blog/solar-sld-software/) covers tools that generate drawings. Local sign-off requirements depend on the state, connection size and authority; verify them for your project rather than relying on a national rule-of-thumb.
 
 ## Standards and references
+
+Table: Standards and references behind an SLD
 
 | Reference | Role |
 | --- | --- |

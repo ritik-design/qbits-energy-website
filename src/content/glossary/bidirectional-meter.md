@@ -57,6 +57,12 @@ faqs:
 
 **A bidirectional meter measures electricity moving both ways across a grid connection.** It records import when a building draws power from the grid and export when eligible rooftop solar sends surplus power out. The import and export registers are readings, not an automatic promise that every exported unit receives the same credit as an imported unit.
 
+> [!KEYTAKEAWAYS]
+> - A bidirectional meter keeps two counts, import from the grid and export to it. The DISCOM's approved arrangement turns those readings into a bill.
+> - Inverter-app generation is not the export register, because solar used inside the building never crosses the meter.
+> - Accuracy class, supplier and approved make depend on the DISCOM's specification and the connection voltage; check the current CEA metering regulations.
+> - At installation, record register readings, seal numbers and serial numbers, then compare the first bills with monitoring data.
+
 ## Bidirectional meter explained simply
 
 A conventional meter counts one way. A bidirectional meter keeps two counts: what you take from the grid and what you send back. On a sunny day the rooftop system may first supply the building's own load, and only the surplus crosses the meter outward. The DISCOM then applies the approved billing arrangement to the two readings. See the [net versus gross metering guide](/blog/gross-metering-vs-net-metering/) for how the same meter can be used under different settlement rules.
@@ -65,12 +71,15 @@ A conventional meter counts one way. A bidirectional meter keeps two counts: wha
 
 The display or utility bill may show separate import and export energy totals in kWh. Record the register label and date when comparing readings. If the labels are unclear, ask the DISCOM for its meter-reading guide; display codes and billing formats differ between meter models and utilities.
 
+Table: The two registers on a bidirectional meter and the billing question each answers
+
 | Register | What it measures | Billing question |
 | --- | --- | --- |
 | Import | Energy received from the grid | Which tariff and fixed charges apply? |
 | Export | Energy sent to the grid | How is export credited under the approved arrangement? |
 
-Your inverter app usually reports solar generation, which is **not** the same as export. Solar energy used immediately in the building may never pass through the export register.
+> [!IMPORTANT] Generation is not export
+> Your inverter app usually reports solar generation, which is **not** the same as export. Solar energy used immediately in the building may never pass through the export register.
 
 ## How the meter works
 
@@ -83,6 +92,8 @@ Your inverter app usually reports solar generation, which is **not** the same as
 ## Accuracy class
 
 Accuracy class describes the permitted measurement error under defined conditions. The CEA metering regulations specify, for consumer meters, class 1.0 or better up to 650 V, 0.5S or better above 650 V and up to 33 kV, and 0.2S above 33 kV. The class that applies to your connection is stated in your DISCOM's specification, and the regulations are amended periodically, so check the current text.
+
+Table: Meter accuracy classes and where each is typically used
 
 | Class | Permitted error (indicative) | Typical use |
 | --- | --- | --- |
@@ -102,7 +113,8 @@ Smart meters send data to the utility through a communication link such as RF me
 
 The serving DISCOM sets its metering specification and connection process. Ask it who supplies, tests, seals and pays for the meter in your application. Do not buy one based only on a generic online price list. Meter price, accuracy class and replacement terms depend on the utility specification and the device supplied.
 
-If the new bill shows surprising import or export, compare dated meter readings, inverter generation and the tariff/metering approval before assuming a faulty meter. A registered installer or the DISCOM can check the wiring and register interpretation. The [net-metering application guide](/blog/how-to-apply-net-metering-india/) covers the connection journey, and the [net meter approval timeline guide](/blog/net-meter-approval-timeline/) covers the waiting steps.
+> [!TIP] Surprising bill? Compare before blaming the meter
+> If the new bill shows surprising import or export, compare dated meter readings, inverter generation and the tariff/metering approval before assuming a faulty meter. A registered installer or the DISCOM can check the wiring and register interpretation. The [net-metering application guide](/blog/how-to-apply-net-metering-india/) covers the connection journey, and the [net meter approval timeline guide](/blog/net-meter-approval-timeline/) covers the waiting steps.
 
 ## Where it is used
 
@@ -129,6 +141,8 @@ If the new bill shows surprising import or export, compare dated meter readings,
 
 ## Unidirectional, bidirectional and four-quadrant meters
 
+Table: Unidirectional, bidirectional and four-quadrant meters compared
+
 | Feature | Unidirectional | Bidirectional (active) | Four-quadrant bidirectional |
 | --- | --- | --- | --- |
 | Active import | Yes | Yes | Yes |
@@ -143,6 +157,8 @@ The Central Electricity Authority's metering regulations (Installation and Opera
 For on-grid inverters, the metering arrangement affects settings such as export limit. See the [Qbits on-grid range](/on-grid-inverter/) and the [zero export](/glossary/zero-export/) entry.
 
 ## Standards and references
+
+Table: Standards and regulations behind bidirectional and smart meters in India
 
 | Standard | Scope |
 | --- | --- |

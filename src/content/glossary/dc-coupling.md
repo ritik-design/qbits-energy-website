@@ -5,7 +5,7 @@ description: "DC coupling shares a common DC bus between solar PV and battery in
 category: "System Layout"
 categorySlug: "system-layout"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is dc coupling
   - dc coupled solar battery
@@ -71,7 +71,7 @@ author: "Nirav Dhanani"
 
 DC coupling is a solar-plus-storage system architecture in which the PV array and the battery bank share a common internal DC bus inside a single [hybrid inverter](/glossary/hybrid-inverter/). PV power feeds the DC bus through MPPT-controlled boost converters. Battery power flows in and out through a bidirectional DC-DC converter. A single AC inversion stage converts the DC bus into grid-quality AC.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - DC coupling shares PV and battery on one internal DC bus inside a single hybrid inverter, unlike AC coupling's two separate inverters.
 > - Round-trip efficiency is 91 to 94 percent, versus 84 to 89 percent for AC coupling, since energy passes through one fewer conversion stage.
 > - It is roughly 15 to 20 percent cheaper than AC coupling for new installations and is the dominant architecture for new residential and small commercial solar-plus-storage systems.
@@ -118,6 +118,8 @@ The DC bus is the operational heart. Voltage is held constant by the control loo
 ## Technical deep dive
 
 ### Energy paths
+
+Table: Energy paths in a DC-coupled system and approximate efficiency of each
 
 | Path | Conversions | Approximate efficiency |
 |---|---|---|
@@ -202,7 +204,8 @@ Communication loss between BMS and inverter pauses charging.
 
 ## Best practices
 
-Choose battery from inverter compatibility list, with documented BMS firmware.
+> [!TIP] Start from the compatibility list
+> Choose battery from inverter compatibility list, with documented BMS firmware.
 
 Size PV string within MPPT window at all temperatures.
 
@@ -216,6 +219,8 @@ Specify cabinet ventilation for the inverter.
 
 ## Comparison: DC vs AC coupling
 
+Table: DC coupling compared with AC coupling
+
 | Feature | DC coupling | AC coupling |
 |---|---|---|
 | Number of inverters | 1 hybrid | 2 separate |
@@ -227,6 +232,9 @@ Specify cabinet ventilation for the inverter.
 | Backup | Built-in | Requires grid-forming |
 | Best for | New residential, small C&I | Retrofit, utility BESS |
 
+> [!IMPORTANT] Existing PV changes the answer
+> DC coupling is the right choice when designing from scratch. For an existing PV system, DC coupling usually requires replacing the existing PV inverter with a hybrid inverter, and microinverter PV arrays are incompatible. AC coupling is the easier retrofit.
+
 ## Indian market context
 
 DC coupling dominates Indian residential hybrid solar. Major hybrid inverter brands in the Indian market: Sungrow, Solis, Goodwe, Solax, Deye, Growatt, Luxpower, Tata Power Solar, [Luminous and Microtek](/blog/luminous-vs-microtek-comparison/).
@@ -237,12 +245,14 @@ CEA Grid Code applies to the AC side. Anti-islanding, FRT and reactive power req
 
 ## Standards and certifications
 
+Table: Standards relevant to DC-coupled hybrid systems
+
 | Standard | Scope |
 |---|---|
 | IEC 62109 | Inverter safety |
 | IEC 61727 | Utility interface |
 | IEC 62619 | Battery safety |
-| IS 16893 | Indian stationary battery storage |
+| IS 16893 (Part 2) | Electric road vehicle propulsion cells; confirm the stationary battery standard against the current BIS order |
 | CEA Grid Code 2019 | Connectivity rules |
 
 ## Common mistakes
@@ -280,7 +290,7 @@ For how DC Coupling plays out in real projects, these guides go deeper:
 - IEC 61727:2004, Photovoltaic systems: Characteristics of the utility interface.
 - CEA (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013 (as amended 2019), Central Electricity Authority.
 - IEC 62619:2017, Safety of secondary lithium cells.
-- IS 16893, Indian Standard for stationary battery storage.
+- IS 16893 (Part 2), Indian Standard for secondary lithium-ion cells for electric road vehicle propulsion (not a stationary-storage standard).
 - CEA Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019.
 - Manufacturer documentation from Sungrow, Solis, Goodwe, Solax, Deye, Growatt, Tata Power Solar.
 - NREL Technical Report TP-7A40-79236, Behind-the-Meter PV-plus-Storage Analysis.

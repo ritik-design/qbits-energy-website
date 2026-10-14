@@ -5,7 +5,7 @@ description: "PWM (Pulse Width Modulation) is the switching technique behind sol
 category: "MPPT and Strings"
 categorySlug: "mppt-strings"
 priority: "P1"
-updatedDate: 2026-07-18
+updatedDate: 2026-10-14
 keywords:
   - what is pwm
   - pwm full form
@@ -73,7 +73,7 @@ PWM stands for Pulse Width Modulation. It is a switching technique where a trans
 
 PWM appears in two distinct roles in solar systems. As a charge controller topology, PWM refers to a controller that connects the PV array directly to the battery through a switch, with the switch pulsing on and off to regulate charging current. As an inverter modulation technique, PWM refers to the high-frequency switching of IGBT or MOSFET devices to chop a DC bus into a synthesised AC waveform.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - PWM (Pulse Width Modulation) means two different things in solar: a low-cost charge controller topology, and the switching technique used inside every modern inverter.
 > - As a charge controller, PWM connects the panel directly to the battery, forcing it away from its maximum power point and losing 15 to 30 percent of available energy versus MPPT.
 > - PWM controllers only work when panel voltage class matches the battery voltage class — a 36-cell, 17 V panel for a 12 V battery, for example.
@@ -132,11 +132,16 @@ The carrier frequency of the PWM, the switching frequency, sets the inverter's l
 
 ### Duty cycle and average output
 
-Average output voltage = D × Vbus, where D is the duty cycle from 0 to 1.
+> [!FORMULA] Average output voltage
+> Average output voltage = D × Vbus
+
+Here D is the duty cycle from 0 to 1.
 
 For inverters, D varies sinusoidally with time. The peak of the AC waveform corresponds to D near 1, and the zero crossing corresponds to D near 0.5 for bipolar modulation.
 
 ### Charge stages in PWM controllers
+
+Table: PWM charge controller stages and typical 12 V lead acid voltages
 
 | Stage | Description | Typical voltage (12 V lead acid) |
 |---|---|---|
@@ -151,14 +156,19 @@ For inverters, D varies sinusoidally with time. The peak of the AC waveform corr
 
 The switching efficiency is high, 95 to 99 percent. The overall yield efficiency from panel to battery is lower:
 
-η_PWM_yield = (Vbatt / Vmp) × η_switching
+> [!FORMULA] PWM yield efficiency
+> η_PWM_yield = (Vbatt / Vmp) × η_switching
 
-For a 36-cell panel at Vmp 17.5 V charging a 12.6 V battery:
-η_PWM_yield = (12.6 / 17.5) × 0.98 = 70.5 percent
+> [!EXAMPLE] 36-cell panel on a 12.6 V battery
+> For a 36-cell panel at Vmp 17.5 V charging a 12.6 V battery:
+>
+> η_PWM_yield = (12.6 / 17.5) × 0.98 = 70.5 percent
 
 The MPPT alternative at 98 percent conversion efficiency captures the panel's full power and delivers it at battery voltage, yielding closer to 96 percent. The gap is the energy lost to operating below Vmp. For selection criteria across MPPT inverter options, see [Inverter MPPT: 8 Critical Selection Factors (2026)](/blog/inverter-mppt/).
 
 ### Inverter PWM techniques
+
+Table: Inverter PWM techniques and where each is used
 
 | Technique | Notes |
 |---|---|
@@ -214,7 +224,8 @@ Heat damage. PWM controllers without heat sinks fail in summer attics. Most low-
 
 EMI. Switching noise from PWM can interfere with radios and other electronics. Filtering on power and ground rails mitigates this.
 
-Wrong battery chemistry setting. Lead acid setpoints on an LFP battery cause undercharging. LFP setpoints on a lead acid battery cause sulphation.
+> [!WARNING] Match the charge profile to the battery chemistry
+> Wrong battery chemistry setting. Lead acid setpoints on an LFP battery cause undercharging. LFP setpoints on a lead acid battery cause sulphation.
 
 ## Best practices for PWM applications
 
@@ -233,6 +244,8 @@ Do not parallel two PWM controllers on the same battery. They will fight over vo
 Reserve PWM for systems where the cost difference against MPPT is significant relative to the system value, typically below 200 W panel ratings.
 
 ## Comparison: PWM vs MPPT charge controllers
+
+Table: PWM compared with MPPT charge controllers
 
 | Feature | PWM | MPPT |
 |---|---|---|
@@ -254,6 +267,8 @@ MNRE specifications for solar lanterns and small home lighting systems under IEC
 For grid-connected rooftop solar and any system using MPPT-capable inverters, PWM is not used.
 
 ## Standards and certifications
+
+Table: Standards relevant to PWM charge controllers and inverters
 
 | Standard | Scope |
 |---|---|

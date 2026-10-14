@@ -5,7 +5,7 @@ description: "CEA is India's Central Electricity Authority. Full guide to role, 
 category: "Regulatory"
 categorySlug: "regulatory"
 priority: "P1"
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 keywords:
   - what is cea
   - central electricity authority
@@ -69,7 +69,7 @@ author: "Nirav Dhanani"
 
 The Central Electricity Authority is the statutory technical body of the Indian electricity sector, constituted under the [Electricity Act 2003](/glossary/electricity-act-2003/). CEA prescribes grid codes, technical standards for connectivity to the grid, construction of electrical lines and plants, and smart-meter requirements. It also publishes monthly and annual reports on generation, capacity addition, fuel mix and renewable progress.
 
-> **TL;DR**
+> [!NOTE] In short
 > - CEA (Central Electricity Authority) is India's technical standards body, constituted under the Electricity Act 2003.
 > - It writes the grid code that governs anti-islanding, fault ride through, reactive power and harmonic requirements for grid-connected solar.
 > - The CEA Smart Meter Regulations 2023 define the bidirectional metering framework used for net metering.
@@ -79,6 +79,15 @@ The Central Electricity Authority is the statutory technical body of the Indian 
 For Indian solar, CEA's most relevant outputs are the Technical Standards for Connectivity to the Grid (Amendment) Regulations 2019, which set [anti-islanding](/glossary/anti-islanding/), [fault ride through](/glossary/fault-ride-through/), [reactive power](/glossary/reactive-power/) and harmonic requirements for distributed and utility-scale solar, and the Smart Meter Regulations 2023, which define the meter framework for [net metering](/glossary/net-metering/) and distribution metering. These grid-code requirements are also why [India-grid-tuned solar inverter firmware](/blog/india-grid-tuned-inverters/) behaves differently from generic export firmware built for other markets.
 
 CEA does not set tariffs ([CERC](/glossary/cerc/) and [SERCs](/glossary/serc/) do) and does not run subsidy programmes ([MNRE](/glossary/mnre/) does). Its remit is technical: how the grid is built, how generators connect, and how meters work.
+
+Table: Who does what in Indian solar, as described on this page
+
+| Body | Role | Does not do |
+|---|---|---|
+| CEA | Technical standards, grid code, smart-meter rules, construction standards | Set tariffs or run subsidy schemes |
+| CERC and SERCs | Set tariffs | Write the technical grid code |
+| MNRE | Runs subsidy programmes | Write the engineering rules |
+| State CEIGs and DISCOMs | Implement CEA standards on the ground | Write national technical standards |
 
 ## CEA explained simply
 
@@ -98,6 +107,7 @@ Renewable integration. CEA's grid code evolves to accommodate higher renewable p
 
 ## How CEA operates
 
+<!-- steps -->
 1. Drafts technical standards under Electricity Act 2003 powers.
 2. Public consultation with stakeholders.
 3. Notification through Government of India gazette.
@@ -105,6 +115,8 @@ Renewable integration. CEA's grid code evolves to accommodate higher renewable p
 5. Periodic amendments based on technology and grid evolution.
 
 ## Major CEA standards relevant to solar
+
+Table: CEA standards and regulations relevant to solar
 
 | Standard | Scope |
 |---|---|
@@ -148,6 +160,9 @@ State variation in interpretation of CEA standards.
 
 ## Indian market context
 
+> [!TIP] Start with the connectivity regulations
+> Installers working through permitting and grid connection approvals generally begin with the CEA connectivity regulations, because the 2019 technical standards govern all grid-connected solar above 10 kW. The 2023 Smart Meter Regulations matter next, since they are central to PM Surya Ghar implementation.
+
 CEA Technical Standards 2019 (amended) govern all grid-connected solar above 10 kW, and installers navigating [solar permitting and grid connection approvals](https://surgepv.com/hub/solar-installation/permits-grid/) generally start with these connectivity regulations.
 
 CEA Smart Meter Regulations 2023 are central to PM Surya Ghar implementation.
@@ -157,6 +172,8 @@ CEA monthly reports are the authoritative source for renewable capacity addition
 CEA's National Electricity Plan provides the technical roadmap aligned with policy targets.
 
 ## Standards and certifications
+
+Table: Statutes and CEA documents behind grid-connected solar
 
 | Standard | Scope |
 |---|---|

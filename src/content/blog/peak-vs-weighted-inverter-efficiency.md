@@ -36,19 +36,18 @@ An inverter-efficiency clause should not say only "minimum 98 percent efficiency
 
 A usable tender names the exact metric, test method, operating conditions, evidence, and pass rule. Maximum conversion efficiency, weighted conversion efficiency, static MPPT efficiency, dynamic MPPT efficiency, and overall efficiency are different quantities. Put them on separate rows.
 
-> **Tender rule in one minute**
->
-> - Identify the offered inverter by manufacturer and exact model.
-> - Keep maximum and weighted conversion efficiency separate.
+> [!KEYTAKEAWAYS] Tender rule in one minute
+> - Identify the offered inverter by manufacturer and exact model. Keep maximum and weighted conversion efficiency separate.
 > - Name the weighting or test method. "Weighted efficiency" alone is incomplete.
 > - Treat conversion efficiency and MPPT efficiency as different tests.
-> - Require the DC voltage, load points, and other test conditions needed for comparison.
-> - Ask for exact-model evidence when the tender requires a test report.
+> - Require the DC voltage, load points, and other test conditions needed for comparison, and ask for exact-model evidence when the tender requires a test report.
 > - Mark missing evidence as clarification or deviation. Never fill the gap from a family brochure.
 
 ## The five efficiency terms belong on different tender rows
 
 The word *efficiency* is too broad for a compliance matrix. Start by deciding which quantity the project actually needs.
+
+Table: Five efficiency terms, what each answers, and what it does not establish
 
 | Metric | What it answers | Tender use | What it does not establish |
 | --- | --- | --- | --- |
@@ -84,6 +83,8 @@ In each case, the correct compliance status is not the more attractive number. I
 
 Do not wait for bids to reveal how each supplier describes efficiency. Put the required fields into the tender schedule first.
 
+Table: Efficiency schedule fields a bidder should complete, with the acceptance check for each
+
 | Tender field | What the bidder should enter | Acceptance check |
 | --- | --- | --- |
 | Manufacturer and exact model | Full model designation | Matches quotation, datasheet, BOQ, and report |
@@ -105,6 +106,7 @@ The project engineer should also decide whether an efficiency curve is more usef
 
 The following is a drafting pattern, not a universal project specification. The owner's engineer still has to select the applicable standard editions, thresholds, test voltages, and evidence level.
 
+> [!EXAMPLE] Sample tender clause
 > The bidder shall identify the inverter manufacturer and exact offered model. Maximum conversion efficiency and weighted conversion efficiency shall be declared separately. Each value shall state its measurement or calculation method, applicable standard and edition, DC test voltage or voltage set, load conditions, and exact-model scope. Where required in the technical schedule, static and dynamic MPPT efficiency shall be declared separately using the specified method. Values marked "up to", values for another model, and values without the required conditions shall be recorded as clarification required rather than compliant. The bidder shall provide the datasheet and the exact-model test evidence listed in the document schedule.
 
 This clause does four jobs. It defines the model boundary, prevents metric substitution, makes the conditions visible, and gives the evaluator a defensible status for incomplete evidence.
@@ -120,7 +122,8 @@ Use an evidence ladder:
 3. **Family datasheet with a model-specific column:** acceptable only for values clearly assigned to the offered SKU.
 4. **Family headline or sales presentation:** discovery material, not model-level compliance evidence.
 
-A standard number printed in a table does not by itself establish the certificate, report, laboratory accreditation, edition, or exact models covered. Ask for the document the tender names. Do not upgrade a standards list into a test result.
+> [!WARNING] A standards list is not a test result
+> A standard number printed in a table does not by itself establish the certificate, report, laboratory accreditation, edition, or exact models covered. Ask for the document the tender names. Do not upgrade a standards list into a test result.
 
 The same rule applies to an efficiency curve. Check whether the curve identifies the exact model, DC voltage, temperature or stated test condition, axes, and metric. A small brochure graph may help explain behaviour but may be unsuitable for verifying a two-decimal tender value.
 
@@ -174,15 +177,16 @@ This separation helps during contract review. A manufacturer-declared efficiency
 
 Before issue:
 
-- replace every unqualified use of "efficiency" with the exact metric;
-- name the standard or weighting method and controlling edition;
-- state whether a datasheet, test report, or both are required;
-- define exact-model scope and reject family extrapolation;
-- declare the relevant DC voltages, loading points, and other conditions;
-- keep static and dynamic MPPT efficiency separate;
-- define comply, deviation, and clarification-required statuses;
-- publish the comparison and scoring rule; and
-- keep annual-energy modelling in its own schedule.
+> [!CHECKLIST]
+> - replace every unqualified use of "efficiency" with the exact metric;
+> - name the standard or weighting method and controlling edition;
+> - state whether a datasheet, test report, or both are required;
+> - define exact-model scope and reject family extrapolation;
+> - declare the relevant DC voltages, loading points, and other conditions;
+> - keep static and dynamic MPPT efficiency separate;
+> - define comply, deviation, and clarification-required statuses;
+> - publish the comparison and scoring rule; and
+> - keep annual-energy modelling in its own schedule.
 
 Before submission, use the [Qbits datasheet library](/download-datasheets/) to retrieve the current document for the exact model under consideration. Record its file and retrieval date, then request any test report or condition that the datasheet does not cover.
 

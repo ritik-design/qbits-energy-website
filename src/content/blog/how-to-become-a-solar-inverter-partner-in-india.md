@@ -4,7 +4,7 @@ excerpt: "See what the Qbits partner form asks, which details are required, how 
 description: "Learn how to apply for a Qbits solar inverter dealership in India, prepare the requested business details, and review any proposed partner terms."
 category: "Business"
 date: 2026-03-22
-updatedDate: 2026-09-26
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-how-to-become-a-solar-inverter-partner-in-india.webp"
 author: "Akash Hirapara"
@@ -33,11 +33,20 @@ Hindi में यही application process समझने के लिए [
 
 That is the application route, not an automatic appointment. Qbits reviews each submission. The public page does not publish a minimum investment, guaranteed margin, exclusive territory, credit limit, or approval timeline. If your application moves forward, confirm those points in the proposed agreement before you buy stock or describe your business as an authorised Qbits dealer.
 
+> [!KEYTAKEAWAYS]
+> - Apply through the official Qbits partner form and choose `Dealer` as the business type. Submission starts a review, not an appointment.
+> - The public page does not publish a minimum investment, guaranteed margin, exclusive territory, credit limit, approval timeline or eligibility threshold.
+> - As of 26 September 2026, the required form fields are company name, registered address, official business email, a 10-digit WhatsApp number and GST number.
+> - A form field such as warehouse size or working capital does not prove a published minimum. If Qbits sets a threshold for your appointment, ask for it in writing.
+> - Do not base a stock order, lease or hiring decision on the form submission alone.
+
 ## Who is this dealer route for?
 
 The dealer route is for a business that wants to sell Qbits solar inverters in a defined market and can explain how it will reach customers, handle stock, and support sales after delivery. It may suit an electrical-products dealer, solar retailer, or established local business adding an inverter line.
 
 Choose a different option on the form if the work is different:
+
+Table: Qbits partner form routes and when each fits your business
 
 | Route on the Qbits form | Use it when this best describes your business |
 | --- | --- |
@@ -77,6 +86,8 @@ The live Qbits form groups its questions into company information, business prof
 
 The form also asks for information that is not visibly marked as required:
 
+Table: Information the Qbits partner form requests, by section
+
 | Section | Information requested |
 | --- | --- |
 | Business profile | Website, business type, PM Surya Ghar registered name for EPCs, annual turnover, and inverter brands currently used |
@@ -103,12 +114,16 @@ The public form asks mostly for entered information rather than listing a docume
 - financial records supporting any turnover, capital, loan, or credit-limit figure you provide; and
 - a realistic monthly sales plan with its assumptions.
 
-The form does not ask you to upload all of these records on the first screen. Keep them available in case the partner team requests verification. Share sensitive financial or identity documents only through a confirmed Qbits process, and never share passwords or one-time passcodes.
+The form does not ask you to upload all of these records on the first screen. Keep them available in case the partner team requests verification. 
+
+> [!CAUTION] Share documents only through a confirmed channel
+> Share sensitive financial or identity documents only through a confirmed Qbits process, and never share passwords or one-time passcodes.
 
 ## How does the Qbits dealer application process work?
 
 The public process is straightforward:
 
+<!-- steps -->
 1. Review the [Qbits inverter families](/our-products/) and [current datasheets](/download-datasheets/) so you know what you are applying to sell.
 2. Open the official [Qbits partner application](/become-our-partner/).
 3. Select `Dealer` and complete the form with current, accurate information.
@@ -117,7 +132,8 @@ The public process is straightforward:
 6. If discussions continue, provide verification through the confirmed channel.
 7. Review the complete appointment proposal and schedules before making commitments.
 
-The page confirms that applications are reviewed. It does not promise automatic acceptance or a fixed response time, so do not base a stock order, lease, or hiring decision on the form submission alone.
+> [!IMPORTANT] Application is not appointment
+> The page confirms that applications are reviewed. It does not promise automatic acceptance or a fixed response time, so do not base a stock order, lease, or hiring decision on the form submission alone.
 
 ## How should an inverter manufacturer be evaluated?
 
@@ -126,6 +142,8 @@ Evaluate the manufacturer through current exact-model documents, compliance evid
 Before approaching one brand, use the [Indian inverter partner programme comparison](/blog/indian-inverter-partner-programmes/) to separate product-resale, retail-franchise, project-execution, and lead-generation routes using the same public-evidence standard.
 
 Use this evidence checklist:
+
+Table: Evidence to request from an inverter manufacturer, by area
 
 | Area | Evidence to request |
 | --- | --- |
@@ -191,14 +209,15 @@ The [solar dealer agreement checklist](/blog/solar-dealer-agreement-checklist/) 
 
 Before submission, confirm:
 
-- the role matches actual capability;
-- every statement is current and supportable;
-- the territory plan distinguishes demand evidence from estimates;
-- working-capital cases do not assume unapproved credit or return rights;
-- technical and service claims match available staff and authorisations;
-- existing brand or channel conflicts are disclosed where requested;
-- sensitive documents use the verified submission route; and
-- internal reviewers understand that application is not appointment.
+> [!CHECKLIST] Before you submit
+> - the role matches actual capability;
+> - every statement is current and supportable;
+> - the territory plan distinguishes demand evidence from estimates;
+> - working-capital cases do not assume unapproved credit or return rights;
+> - technical and service claims match available staff and authorisations;
+> - existing brand or channel conflicts are disclosed where requested;
+> - sensitive documents use the verified submission route; and
+> - internal reviewers understand that application is not appointment.
 
 If that describes your business, complete the [Qbits partner application](/become-our-partner/) and choose `Dealer`. Treat any commercial discussion after submission as a proposal until the final terms are approved in writing.
 

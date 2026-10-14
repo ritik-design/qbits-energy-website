@@ -201,4 +201,4 @@ Three things to do this month:
 
 - Put a one-page solar feasibility note on the next RWA general body agenda, with terrace area, combined consumption, and the state rules from this guide attached.
 - Ask your DISCOM's renewable energy cell, in writing, whether virtual or group net metering is active for your connection category and what the application requires.
-- If you want a vetted installer who has commissioned shared society plants and understands VNM paperwork, [talk to our team](/contact-us/). We will point you in the right direction.
+- Choose the installer on their record with shared society plants and VNM paperwork, and ask for references you can call. Qbits Energy manufactures solar inverters and does not install plants. Installers who want to supply Qbits inverters can apply at [become our partner](/become-our-partner/). Societies with questions about an inverter model can write via [contact us](/contact-us/), and owners of an installed Qbits inverter can find service through [authorized service partners](/authorized-service-partners/).

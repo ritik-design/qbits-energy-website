@@ -45,7 +45,7 @@ Solar inverter kisi bhi solar system ka sabse important component hai, lekin ise
 > - Teen main types hain: on-grid (battery nahi, sabse affordable, power cut mein [band ho](/blog/solar-inverter-band-ho-jaye-kya-karein/) jaata hai), hybrid (battery ke saath, power cut mein chalta rehta hai), off-grid (grid-independent, badi battery bank)
 > - Good quality inverter 97-98.5% efficiency deliver karta hai - 2% ka difference 3 kW system mein mahine ka ~14.4 kWh extra generation matter karta hai
 > - IP65 minimum, IP66 better - India ke monsoon aur dust ke liye zaroori protection level hai
-> - Achha inverter 10-15 saal chalta hai (5-12 saal warranty ke saath), jabki panels 25 saal chalte hain
+> - Achha inverter 10-15 saal chalta hai (warranty brand aur model ke hisaab se alag hoti hai; kai brands 10-12 saal tak ki dete hain), jabki panels 25 saal chalte hain
 
 > **Ek line mein jawaab.** Solar inverter DC electricity (jo solar panels banate hain) ko AC electricity (jo ghar mein use hoti hai) mein convert karta hai. Yeh solar system ka brain hai, power management, grid connection, battery charging, aur safety protection sab inverter karta hai.
 
@@ -242,7 +242,7 @@ India ka climate solar inverters ke liye challenging hai:
 - **Over-sizing**: 10 kW system 2 kW load ke liye, inefficient, expensive
 - **Under-sizing**: System chhota, panels ka full potential waste
 - **Indoor mein kharaab ventilation**: Overheating, reduced life
-- **Warranty document check na karna**: 1 year vs 12 year, bahut fark hai
+- **Warranty document check na karna**: 1 saal vs 10+ saal (kai brands lambi warranty dete hain), bahut fark hai
 
 [Solar inverter buying mistakes guide](/blog/solar-inverter-buying-mistakes/) mein detailed checklist hai.
 

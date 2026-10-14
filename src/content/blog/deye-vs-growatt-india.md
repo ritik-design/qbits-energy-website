@@ -16,7 +16,7 @@ keywords:
   - best hybrid solar inverter india
 faqs:
   - q: "Is Deye better than Growatt for hybrid solar in India?"
-    a: "Deye has emerged as a strong competitor to Growatt in the hybrid inverter segment for India, particularly for buyers who want flexible battery compatibility and a wide product range. Deye's hybrid inverters support LFP, lithium NMC, and lead-acid batteries from multiple manufacturers, which gives buyers more battery sourcing flexibility than Growatt's hybrid range. Growatt has a more established India service network and a longer India track record. Both brands offer a 5-year standard warranty, which is the key shared limitation. For hybrid buyers who are warranty-focused, a 12-year alternative is available in the Indian market."
+    a: "Deye has emerged as a strong competitor to Growatt in the hybrid inverter segment for India, particularly for buyers who want flexible battery compatibility and a wide product range. Deye's hybrid inverters support LFP, lithium NMC, and lead-acid batteries from multiple manufacturers, which gives buyers more battery sourcing flexibility than Growatt's hybrid range. Growatt has a more established India service network and a longer India track record. Both brands offer a 5-year standard warranty, which is the key shared limitation. For hybrid buyers who are warranty-focused, compare the written warranty terms of the exact models on offer."
   - q: "What is the warranty on Deye inverters in India?"
     a: "Deye inverters carry a 5-year standard warranty in India, with some distributors offering extended warranty packages at additional cost. Deye is a newer entrant to the Indian market - the brand has been present in India for approximately 3 years as of 2026 - which means its India service infrastructure is still maturing. Warranty claims are processed through the authorised distributor network, not a Deye India entity. Buyers should confirm with their local distributor which specific service centre handles their area and what the documented resolution time is for warranty claims."
   - q: "Does Growatt have better service than Deye in India?"
@@ -26,7 +26,7 @@ faqs:
   - q: "Is Deye ALMM listed in India?"
     a: "There is no ALMM listing to look up for any inverter, Deye and Growatt included, because MNRE publishes ALMM lists only for solar modules (List-I) and cells (List-II). For a Deye or Growatt inverter, ask the distributor for the exact model's BIS registration and current test certificates, and for a PM Surya Ghar project confirm any further requirement with the DISCOM before ordering."
   - q: "What is Deye's price compared to Growatt in India?"
-    a: "Deye hybrid inverters are typically priced at a slight discount to Growatt hybrid inverters in the same capacity band in India. For a 5 kW hybrid inverter, Deye's dealer pricing is approximately 5–15 percent lower than comparable Growatt hybrid models. This price advantage has been one of Deye's primary tools for gaining market share against the more established Growatt brand. However, the price advantage must be weighed against Deye's narrower India service footprint and newer brand track record in the Indian market."
+    a: "We cannot state a reliable price gap. As of 14 October 2026, the one dated Indian listing we could verify for a 5 kW hybrid from either brand was a Deye SUN-5K-SG04LP1-EU at ₹1,35,888 on an Indian retailer's site (regular price ₹1,55,999, page showed sold out, tax treatment not stated). We found no dated Indian listing for a Growatt 5 kW hybrid, so no like-for-like comparison is possible. Dealer prices vary with model variant, battery voltage platform, tax treatment and channel, so ask each distributor for a written quote naming the exact model and compare those. Weigh any price difference against service footprint and brand track record in your area."
   - q: "Can I use a Deye hybrid inverter with any battery brand in India?"
     a: "Deye hybrid inverters are designed to be compatible with a wide range of battery types, including LFP lithium, NMC lithium, and lead-acid battery banks. Deye publishes a battery compatibility list for each inverter model, and many popular Indian battery brands - as well as international brands like Pylontech, BYD, and CATL modules - are supported. However, buyers should verify their specific battery model against Deye's published compatibility list for the intended inverter, as BMS communication protocols can vary and not all combinations are fully supported for automatic state-of-charge management."
   - q: "How does Qbits compare to Deye and Growatt for hybrid solar in India?"
@@ -39,7 +39,7 @@ faqs:
 
 This comparison uses the **6-Point Hybrid Inverter Evaluation Matrix**: a structured scoring method built specifically for hybrid products, to give an honest, data-grounded verdict. Deye has genuine strengths. Growatt has a genuine advantage. Neither brand is dismissed, and the conclusions are drawn from documented specifications, India market evidence, and field-reported experience.
 
-> **Direct answer.** Deye offers stronger hybrid features and wider battery compatibility at a slightly lower price, making it the better choice for technically-engaged buyers in markets with good Deye distributor coverage. Growatt offers a more established India service network and a longer track record, making it the safer choice for buyers in Tier-2/3 markets or those who prioritise service reliability over specification breadth. Both have 5-year standard warranties, the key shared gap that a 12-year alternative in the market addresses.
+> **Direct answer.** Deye offers stronger hybrid features and wider battery compatibility (compare price from written quotes, because no dated price gap could be sourced), making it the better choice for technically-engaged buyers in markets with good Deye distributor coverage. Growatt offers a more established India service network and a longer track record, making it the safer choice for buyers in Tier-2/3 markets or those who prioritise service reliability over specification breadth. Both have 5-year standard warranties, the key shared gap; compare the written warranty terms of any alternative model before buying.
 
 For broader context on the hybrid inverter decision, see the [complete hybrid inverter buying guide](/blog/how-to-choose-hybrid-solar-inverter/) and the [best hybrid solar inverter India 2026](/blog/best-hybrid-solar-inverter-india-2026/). The [IEA Tracking Clean Energy Progress 2025](https://www.iea.org/reports/tracking-clean-energy-progress-2025) report confirms that distributed battery storage is one of the fastest-growing clean energy segments in emerging markets including India.
 
@@ -51,7 +51,7 @@ For broader context on the hybrid inverter decision, see the [complete hybrid in
 
 ## The Hybrid Inverter Surge in India: Why This Comparison Matters Now
 
-India's residential solar market has shifted. Through 2022, [on-grid (grid-tied) systems](/blog/on-grid-vs-hybrid/) dominated because net metering was available and power cuts were bearable. By 2025, two trends changed the calculus: power cut frequency increased across UP, Bihar, Rajasthan, and parts of Maharashtra and Andhra Pradesh, and LFP battery prices fell below ₹20,000 per kWh for small-format packs.
+India's residential solar market has shifted. Through 2022, [on-grid (grid-tied) systems](/blog/on-grid-vs-hybrid/) dominated because net metering was available and power cuts were bearable. By 2025, two trends changed the calculus: power cut frequency increased across UP, Bihar, Rajasthan, and parts of Maharashtra and Andhra Pradesh, and LFP rack batteries became widely listed in India. Dated listings checked on 14 October 2026 worked out to about ₹21,100 to ₹24,000 per nominal kWh for 5.12 kWh packs (Loom Solar CAML-10051 at ₹1,08,000 and Deye SE-F5 PLUS at ₹1,23,000).
 
 > **30%.** Share of new residential solar installations in India in 2025 that included a battery storage component, up from approximately 8% in 2022. *Source - [Mercom India Q4 2025 Solar Report](https://www.mercomindia.com/), Mercom Capital Group.* IRENA's [Battery Storage for Renewables report](https://www.irena.org/publications/2015/Jan/Battery-Storage-for-Renewables-Market-Status-and-Technology-Outlook) tracks global cost decline curves that underpin this residential hybrid adoption shift.
 
@@ -161,17 +161,17 @@ The limitation is the repair model: even in well-serviced areas, a typical warra
 
 In the hybrid segment, price comparison must account for both the inverter and the implied battery pairing, since the hybrid system's total cost depends on which batteries the inverter best supports. The [MNRE draft BESS guidelines](https://mnre.gov.in/) set minimum performance standards for battery storage systems used in residential solar, another compliance factor that affects which batteries can be paired with subsidy-eligible solar systems.
 
-Table: Pricing and value, Deye vs Growatt (approximate figures as stated in this article)
+Table: Pricing and value, Deye vs Growatt (dated listing where one was found, 14 October 2026)
 
 | Pricing Axis | Deye | Growatt |
 | --- | --- | --- |
-| 5 kW hybrid inverter price (approx.) | ₹28,000–₹38,000 | ₹32,000–₹45,000 |
+| 5 kW hybrid inverter dated listing, 14 Oct 2026 | ₹1,35,888 (Deye SUN-5K-SG04LP1-EU, Enlead Energy; showed sold out, tax not stated) | No verified dated India listing found; get a written dealer quote |
 | Battery lock-in risk | Low (wide BMS compatibility) | Moderate (best with ARK batteries) |
 | Recommended battery pairing range | Multiple brands | Growatt ARK preferred |
-| 5-year TCO (inverter + one battery replacement) | ₹1.2–₹1.8 Lakh (est.) | ₹1.3–₹2.0 Lakh (est.) |
+| 5-year TCO (inverter + one battery replacement) | Inverter quote + battery refurbishment quote; no sourced total | Inverter quote + battery refurbishment quote; no sourced total |
 | Score | 8/10 | 7/10 |
 
-> **Note:** Total cost of ownership estimates above assume one battery-pack refurbishment within 5 years. Battery costs vary significantly by chemistry and brand. Consult [the battery sizing guide](/blog/battery-sizing-hybrid-solar/) for accurate battery cost estimation for your specific load profile.
+> **Note:** The five-year cost of ownership is your inverter quote plus one battery-pack refurbishment within 5 years, using your own quotes: TCO = inverter price + battery replacement price. We found no sourced totals to publish. Battery costs vary significantly by chemistry and brand; two dated 5.12 kWh listings on 14 October 2026 worked out to about ₹21,100 and ₹24,000 per nominal kWh, and the [5 kW hybrid inverter price guide](/blog/5kw-hybrid-inverter-price-india/) itemises the inverter listings. Consult [the battery sizing guide](/blog/battery-sizing-hybrid-solar/) for accurate battery cost estimation for your specific load profile.
 
 ## Axis 6: Warranty Terms
 
@@ -240,8 +240,8 @@ Table: Deye pros and cons
 | --- | --- | --- |
 | **Deye** | ✓ Superior hybrid architecture and battery flexibility | ✗ Newer India presence; thin service outside Gujarat/MH/RJ |
 | | ✓ SOLARMAN platform is more capable than ShinePhone | ✗ No India-registered entity; warranty via distributor only |
-| | ✓ Wider BMS compatibility with multiple battery brands | ✗ ALMM coverage narrower than Growatt's |
-| | ✓ 5–15% lower upfront price than comparable Growatt hybrid | ✗ 5-year repair warranty - same structural limitation |
+| | ✓ Wider BMS compatibility with multiple battery brands | ✗ Confirm exact-model certificates with the distributor (MNRE publishes no ALMM list for inverters) |
+| | ✓ Upfront price to be compared from written quotes (no dated gap could be sourced) | ✗ 5-year repair warranty - same structural limitation |
 
 ### Growatt
 

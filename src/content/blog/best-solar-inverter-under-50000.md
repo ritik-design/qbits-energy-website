@@ -93,7 +93,7 @@ Table: Quick-pick guide to a sub-₹50,000 inverter by buyer type, listed by use
 
 The table is the fast answer. The reviews below explain the tradeoffs, because at this price every pick gives something up.
 
-## The 5 Best Solar Inverters Under ₹50,000: Ranked Reviews
+## The 5 Best Solar Inverters Under ₹50,000: Model Reviews
 
 These five represent the realistic shortlist for a budget buyer in 2026. We make the first one; the other four are assessed on merit, and each wins somewhere. The order is a list by use case, not a league table, and no entry is ranked above another.
 

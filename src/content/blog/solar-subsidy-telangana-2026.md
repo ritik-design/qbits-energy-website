@@ -45,7 +45,7 @@ The central [PM Surya Ghar subsidy](https://quickestimate.co/blog/how-to-calcula
 > - TSSPDCL covers Hyderabad and southern Telangana (60–85 day timelines); TSNPDCL covers the north (75–100 days).
 > - Telangana Solar Policy 2021 guarantees [net metering](https://www.heavengreenenergy.com/blog/net-metering-in-india) and grid connectivity rights but does not add a state cash subsidy on top of [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis).
 > - Hyderabad's mature C&I solar installer base gives residential buyers access to more experienced, competitively priced vendors.
-> - A Hyderabad 3 kW case study shows post-subsidy payback of approximately 3.5 years at 5.1 kWh/m²/day irradiance.
+> - An illustrative Hyderabad 3 kW scenario (assumed inputs, not a real customer) shows post-subsidy payback of roughly 3.9 years at 5.1 kWh/m²/day irradiance.
 > - Apartment buyers must secure the housing association NOC before TSSPDCL will process a feasibility application; this can add 30–60 days if not already in place.
 
 > **Telangana's solar subsidy in 2026 is the central PM Surya Ghar scheme: up to ₹78,000 for a 3 kW residential system.** No separate Telangana state cash top-up exists. TSSPDCL covers Hyderabad and southern Telangana; TSNPDCL covers northern Telangana. Hyderabad urban timelines: 60–85 days. Rural areas: 90–120 days. Hyderabad's mature C&I solar installer network provides residential buyers with access to experienced vendors and competitive installations. Post-subsidy payback of 3–4 years is realistic for most Hyderabad homeowners.
@@ -164,15 +164,15 @@ Under TSERC (Telangana State Electricity Regulatory Commission) net metering reg
 > [!EXAMPLE] Hyderabad 3 kW system: annual benefit and payback
 > **Key economics for a Hyderabad 3 kW system** (average TSSPDCL tariff: ₹6.50/unit blended):
 >
-> - Annual generation: ~4,950 kWh (3 kW × 5.1 peak sun hours × 365 × 0.80)
-> - Self-consumption (85%): 4,200 kWh × ₹6.50 = ₹27,300/year
-> - Export credit (15%): 750 kWh × ₹3.00 = ₹2,250/year
-> - Total annual benefit: ₹29,550/year
+> - Annual generation: ~4,470 kWh (3 kW × 5.1 peak sun hours × 365 × 0.80)
+> - Self-consumption (85%): 3,800 kWh × ₹6.50 = ₹24,700/year
+> - Export credit (15%): 670 kWh × ₹3.00 = ₹2,010/year
+> - Total annual benefit: ₹26,710/year
 > - Gross system cost (3 kW): ₹1,85,000–₹2,05,000
 > - Post-subsidy net cost: ₹1,07,000–₹1,27,000
-> - Payback: 3.6–4.3 years
+> - Payback: net cost ÷ annual benefit = 4.0–4.8 years
 >
-> **5.1 kWh/m²/day.** Average solar irradiance in Hyderabad, adequate for 3–4 year post-subsidy payback at prevailing TSSPDCL tariffs, with northern Telangana's 5.3–5.5 kWh/m²/day offering slightly faster payback for similar system costs. *Source - [NREL Global Solar Atlas](https://globalsolaratlas.info/), 2026.*
+> **5.1 kWh/m²/day.** Average solar irradiance in Hyderabad, adequate for a roughly 4 to 5 year post-subsidy payback at prevailing TSSPDCL tariffs, with northern Telangana's 5.3–5.5 kWh/m²/day offering slightly faster payback for similar system costs. *Source - [NREL Global Solar Atlas](https://globalsolaratlas.info/), 2026.*
 
 ## Documents Required for Telangana Solar Subsidy
 
@@ -199,25 +199,27 @@ Table: Realistic subsidy timeline in Telangana by stage and area
 | Subsidy disbursement | 30 days | 30 days | 30 days |
 | **Total** | **93–126 days** | **103–141 days** | **131–172 days** |
 
-## A Hyderabad Homeowner Case Example: 3 kW, TSSPDCL
+## An Illustrative Hyderabad Scenario: 3 kW, TSSPDCL
 
-Surya Reddy owns a 3 BHK flat on the top floor of a 5-storey apartment in Kondapur, Hyderabad, served by TSSPDCL. His apartment association had already approved solar installations for top-floor residents as part of a building-wide policy. Monthly TSSPDCL bill: ₹3,600 (450–500 units per month with two air conditioners).
+This is a worked scenario with assumed inputs. It does not describe a real customer or a recorded installation. Replace each input with the figures from your own bill and quote.
 
-**Costs and subsidies**:
-- Gross system cost: ₹1,92,000 (installed)
+Assume a 3 BHK top-floor flat in a 5-storey apartment block in Kondapur, Hyderabad, served by TSSPDCL. The apartment association has already approved solar for top-floor residents as a building-wide policy. Monthly TSSPDCL bill: ₹3,600 (450 to 500 units per month with two air conditioners).
+
+**Costs and subsidies (assumed)**:
+- Gross system cost: ₹1,92,000 (installed, assumed at about ₹64,000 per kW)
 - Central PM Surya Ghar subsidy: ₹78,000
-- Net out-of-pocket: ₹1,14,000
+- Net out-of-pocket: ₹1,92,000 - ₹78,000 = ₹1,14,000
 
 **Energy economics** (Hyderabad, ~5.1 kWh/m²/day):
-- Annual generation: 4,950 kWh (3 × 5.1 × 365 × 0.80)
-- Annual savings at 88% self-consumption (₹7.00/unit blended): approximately ₹30,500
-- Export at ₹3.00/unit (12%): approximately ₹1,780
-- Total annual benefit: approximately ₹32,280
-- Post-subsidy payback: approximately 3.5 years
+- Annual generation: 3 kW × 5.1 × 365 × 0.80 = about 4,470 kWh
+- Savings at 88% self-consumption (₹7.00/unit blended): 3,930 kWh × ₹7.00 = about ₹27,500
+- Export at ₹3.00/unit (12%): 540 kWh × ₹3.00 = about ₹1,600
+- Total annual benefit: about ₹29,100
+- Post-subsidy payback: ₹1,14,000 ÷ ₹29,100 = about 3.9 years
 
-**TSSPDCL experience**: Applied November 2025. Technical feasibility approval: 24 days. Installation: 8 days. TSSPDCL inspection 11 days after request. Meter change: 41 days. First solar bill: January 2026. Subsidy credited: February 2026 (27 days post-commissioning). Total: 103 days.
+**Assumed approval timeline**: Technical feasibility 24 days, installation 8 days, TSSPDCL inspection 11 days after request, meter change 41 days (84 days to commissioning), then subsidy credit 27 days after commissioning. Total: about 111 days, inside the 93 to 126 day Hyderabad range in the table above.
 
-**Key observation**: The apartment association NOC, already in place as a building-wide policy, was the factor that most simplified Surya's process. For Hyderabad apartment buyers without an existing building solar policy, securing the NOC is the first step and can add 30 to 60 days if the association needs to vote on it.
+**What the scenario shows**: The apartment association NOC, already in place as a building-wide policy, removes the step that most delays apartment buyers. For Hyderabad apartment buyers without an existing building solar policy, securing the NOC is the first step and can add 30 to 60 days if the association needs to vote on it.
 
 ## Pros and Cons: Telangana Solar in 2026
 
@@ -227,7 +229,7 @@ Table: Pros and cons of Telangana solar by area and system type
 | --- | --- | --- |
 | **Hyderabad (TSSPDCL)** | ✓ Mature installer network, C&I experience, 60–85 day timeline, competitive pricing | ✗ Apartment NOC complexity, Hyderabad summer heat (43–47 °C) requires thermally-rated inverter |
 | **Northern Telangana (TSNPDCL)** | ✓ Higher irradiance than Hyderabad, lower installation competition may mean better pricing | ✗ Less mature installer market, TSNPDCL processing 75–100 days |
-| **On-grid** | ✓ Lowest cost, full PM Surya Ghar eligible, 3–4 year payback | ✗ No backup during TSSPDCL outages (typically 1–3 hrs in Hyderabad periphery) |
+| **On-grid** | ✓ Lowest cost, full PM Surya Ghar eligible, 4 to 5 year payback | ✗ No backup during TSSPDCL outages (typically 1–3 hrs in Hyderabad periphery) |
 | **Hybrid** | ✓ Battery backup for suburban outages, evening load coverage | ✗ Higher cost, longer payback - justified only if outages exceed 3 hrs/day |
 
 ## Common Mistakes Telangana Solar Applicants Make

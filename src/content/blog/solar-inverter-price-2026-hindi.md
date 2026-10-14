@@ -18,7 +18,7 @@ faqs:
   - q: "3 kW solar inverter की price 2026 में कितनी है?"
     a: "3 kW inverter की price किसी एक number में तय नहीं होती। यह brand, on-grid या hybrid, single या dual MPPT, enclosure rating, monitoring, written warranty terms और dealer margin पर निर्भर करती है। एक ही capacity और एक ही scope के कम से कम तीन itemised written quotes लें, जिनमें inverter, logger, accessories, GST, delivery और installation अलग-अलग लिखे हों। इस page की price table सिर्फ market benchmark है।"
   - q: "5 kW hybrid solar inverter की price क्या है?"
-    a: "5 kW hybrid solar inverter ₹35,000 से ₹80,000 तक आता है। Budget brands ₹35,000-45,000 में कम warranty के साथ। Mid-tier brands ₹45,000-65,000 में 5-8 साल warranty। Premium brands ₹65,000-80,000 में 10-12 साल warranty, LFP battery compatibility। Battery cost अलग - 5 kWh LFP ₹80,000-1,20,000।"
+    a: "5 kW hybrid solar inverter ₹35,000 से ₹80,000 तक आता है। Budget brands ₹35,000-45,000 में कम warranty के साथ। Mid-tier brands ₹45,000-65,000 में 5-8 साल warranty। Premium brands ₹65,000-80,000 में, जहाँ kai brands 10-12 साल तक की warranty ऑफर करते हैं (exact term model-wise written में confirm करें), LFP battery compatibility के साथ। Battery cost अलग - 5 kWh LFP ₹80,000-1,20,000।"
   - q: "Solar inverter की price में क्या-क्या include होता है?"
     a: "Inverter की quoted price में typically: inverter unit, basic DC cables, monitoring module (WiFi dongle), और basic warranty। Extra cost जो quote में नहीं आती: installation labor, conduit और cable runs, earthing materials, net metering application। Total system cost quote करवाएँ।"
   - q: "Cheap solar inverter और expensive inverter में क्या difference है?"
@@ -191,7 +191,7 @@ Table: 15-year total cost of ownership by inverter category, as shown in this ar
 | --- | --- | --- | --- | --- |
 | Cheap (no-name) | ₹10,000 | 1 year | ₹10,000 at year 3, 7, 11 | ₹40,000 |
 | Mid-tier | ₹22,000 | 5 years | ₹22,000 at year 8 | ₹44,000 |
-| Premium (long warranty, written terms ke saath) | ₹30,000 | 12 years | Zero in 12 years | ₹30,000 |
+| Premium (kai brands lambi warranty dete hain; written terms ke saath) | ₹30,000 | 10-12 years (kai brands, model-wise) | Zero, agar warranty replacement cover kare | ₹30,000 |
 
 Premium inverter 15-year period में actually सबसे सस्ता पड़ता है। Warranty terms को line-by-line समझने के लिए [solar inverter warranty guide](/blog/solar-inverter-warranty/) पढ़ें, kya "5-year warranty" full-replacement है ya sirf repair-only।
 
@@ -315,7 +315,7 @@ Understanding exactly what differentiates price tiers helps justify the investme
 - 150-270V India-tuned input range
 - IP66 protection for monsoon and coastal areas
 - Advanced monitoring with cloud analytics
-- 10-model-specific written warranty, guaranteed RMA turnaround
+- Kai brands 10 saal tak ki warranty dete hain; exact model ki written warranty aur RMA timing alag se confirm karein
 - current ALMM module and cell requirements
 
 The ₹10,000-15,000 difference between budget and premium recovers itself within 2-3 years through better efficiency, avoided replacement costs, and subsidy eligibility alone.

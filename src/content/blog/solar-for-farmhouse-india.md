@@ -18,19 +18,19 @@ faqs:
   - q: "Is on-grid or hybrid solar better for a farmhouse in India?"
     a: "Hybrid is the better choice for most Indian farmhouses. An on-grid inverter shuts down completely during a grid outage because of anti-islanding safety rules, so it generates nothing during the long rural power cuts that farmhouse owners face. A hybrid inverter keeps solar running and powers the house from a battery when the grid fails. Rural areas in India average around nine hours of outages per day in surveyed states, according to Prayas Energy Group (2025), so an on-grid system at a farmhouse wastes its best generation hours."
   - q: "How much does a solar system for a farmhouse cost in India?"
-    a: "A complete hybrid solar system for a farmhouse in India costs roughly ₹3.5 Lakh to ₹6 Lakh for a 5 kW setup with a 5 to 10 kWh battery, and ₹7 Lakh to ₹11 Lakh for a 10 kW setup with a 10 to 15 kWh battery, all-in with installation in 2026. The battery is the largest single add-on, at roughly ₹22,000 to ₹28,000 per kWh for lithium iron phosphate cells. A diesel generator replacement benchmark of ₹18 to ₹24 per unit makes the payback attractive even before subsidy."
+    a: "There is no single national price. As of 14 October 2026, the sourced lines for a 5 kW hybrid farmhouse system (6 to 7 kWp of DCR panels, a hybrid inverter and a 10 kWh lithium iron phosphate battery) add up to about ₹4.0 Lakh to ₹6.6 Lakh, and for a 10 kW setup (12 to 13 kWp, a 10 kW hybrid inverter and 15 kWh of battery) about ₹7.1 Lakh to ₹11.5 Lakh. Those totals exclude structure, cabling, installation and GST treatment, which we could not source, so ask for them as separate quote lines. The battery is the largest single add-on: dated listings worked out to about ₹21,000 to ₹24,000 per nominal kWh. Diesel generation costs about ₹26 to ₹31 per unit in fuel alone, which is the benchmark a farmhouse battery displaces."
   - q: "Can a solar system run a bore well pump at a farmhouse?"
     a: "Yes, if the inverter is sized for the pump's starting surge. A 1 HP pump draws about 0.75 kW running but 2.5 to 3 times that at start-up, and a 3 HP pump can surge past 6 kW. The practical approach is to run the pump during peak solar hours and size the inverter at least 1.5 times the pump's surge load, or use a dedicated solar pump controller. A hybrid inverter with a battery handles pump starts cleanly even when the grid is down."
   - q: "Is PM Surya Ghar subsidy available for farmhouse solar?"
     a: "Only if the farmhouse is a residential rooftop installation. PM Surya Ghar covers rooftop solar on households with a domestic electricity connection, installed through a registered vendor with ALMM-listed modules. Ground-mounted arrays and agricultural or commercial connections are outside it, so a farmhouse billed under an agricultural or commercial tariff may need a different route, such as PM-KUSUM or a state programme. Check your connection's tariff category with your DISCOM before you apply, and confirm the inverter's exact-model certificates separately, since MNRE publishes no ALMM list for inverters."
   - q: "Should I mount solar panels on the farmhouse roof or on the land?"
-    a: "Rooftop mounting is cheaper and is the only option eligible for the PM Surya Ghar subsidy, but many farmhouse roofs are small, shaded by trees, or not oriented well. Ground mounting on farmhouse land costs roughly 10 to 20 percent more per kW because of the structure, civil work, and cabling, but it allows perfect orientation, easy cleaning, and any capacity you want. Most owners with one acre or more choose a ground-mounted array near the boundary wall and keep the roof free."
+    a: "Rooftop mounting is cheaper and is the only option eligible for the PM Surya Ghar subsidy, but many farmhouse roofs are small, shaded by trees, or not oriented well. Ground mounting on farmhouse land costs more per kW because of the structure, civil work, and cabling (we found no dated source for the premium, so ask for it as a separate quote line), but it allows perfect orientation, easy cleaning, and any capacity you want. Most owners with one acre or more choose a ground-mounted array near the boundary wall and keep the roof free."
   - q: "How do I monitor a farmhouse solar system with poor internet?"
     a: "Choose an inverter whose datalogger works over a mobile connection, such as a 4G or GPRS option, rather than relying on broadband or home Wi-Fi that a farmhouse may not have. Place the logger or antenna where signal is strongest, and ask whether it stores readings while offline and uploads them later. Set fault alerts to reach your phone, and have a caretaker check the inverter display on a schedule. Qbits lists Wi-Fi with optional GPRS or RS485 on its on-grid families, so confirm the exact model's communication options on its datasheet."
   - q: "What size solar system does a typical Indian farmhouse need?"
     a: "A typical two to four bedroom farmhouse running one or two ACs, fans, lights, a fridge, and a 1 to 2 HP pump needs a 5 kW hybrid inverter with a 5 to 10 kWh battery and about 6 to 7 kWp of panels. Larger farmhouses with three or more ACs, a pool pump, and staff quarters usually need a 10 kW system with 10 to 15 kWh of storage. Size the battery for your longest expected outage, not for the whole day's consumption."
   - q: "Can solar fully replace a diesel generator at a farmhouse?"
-    a: "For most farmhouses, yes. A correctly sized hybrid inverter with a 10 to 15 kWh lithium battery covers overnight lighting, fans, fridge, and even AC use through typical rural outages, at a running cost near zero versus ₹18 to ₹24 per unit for diesel. The exception is very long outages of two days or more during monsoon, where a small backup generator as a third layer is still sensible. Most owners who switch keep the old DG set idle as an emergency reserve for the first year, then retire it."
+    a: "For most farmhouses, yes. A correctly sized hybrid inverter with a 10 to 15 kWh lithium battery covers overnight lighting, fans, fridge, and even AC use through typical rural outages, at a running cost near zero versus about ₹26 to ₹31 per unit in fuel alone for diesel. The exception is very long outages of two days or more during monsoon, where a small backup generator as a third layer is still sensible. Most owners who switch keep the old DG set idle as an emergency reserve for the first year, then retire it."
 featured: false
 ---
 
@@ -43,13 +43,13 @@ A farmhouse is not a city home with a garden. The loads are different, the grid 
 > [!KEYTAKEAWAYS]
 > - Rural areas average around nine hours of outages daily versus two hours urban, per Prayas Energy Group (2025), so on-grid inverters fit farmhouses poorly.
 > - A 5 kW [hybrid inverter](/glossary/hybrid-inverter/) with a 5 to 10 kWh battery covers a typical two to four bedroom farmhouse. That includes one or two ACs and a 1 to 2 HP pump.
-> - Diesel generation costs ₹18 to ₹24 per unit; solar plus battery runs at near-zero marginal cost, which is the real payback benchmark at a farmhouse.
-> - A complete 5 kW hybrid farmhouse system costs roughly ₹3.5 Lakh to ₹6 Lakh all-in in 2026. A 10 kW system with storage runs ₹7 Lakh to ₹11 Lakh.
-> - Ground mounting costs 10 to 20 percent more per kW than rooftop but allows ideal orientation and unlimited capacity on farmhouse land.
+> - Diesel generation costs about ₹26 to ₹31 per unit in fuel alone (₹95.20 to ₹99.82 per litre in the four metros on 14 October 2026, divided by 3.2 to 3.6 units per litre); solar plus battery runs at near-zero marginal cost, which is the real payback benchmark at a farmhouse.
+> - As of 14 October 2026, the sourced lines (panels, hybrid inverter, battery) for a 5 kW hybrid farmhouse system add up to about ₹4.0 Lakh to ₹6.6 Lakh, and about ₹7.1 Lakh to ₹11.5 Lakh for a 10 kW system with storage, before structure, cabling and installation.
+> - Ground mounting costs more per kW than rooftop (structure, civil work, cabling) but allows ideal orientation and unlimited capacity on farmhouse land.
 > - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy applies only to residential rooftop systems with ALMM-listed modules, according to [MNRE](/glossary/mnre/) (2026).
-> - LFP battery prices have fallen from ₹35,000 to ₹45,000 per kWh in 2023 to roughly ₹22,000 to ₹28,000 per kWh in 2026, industry-observed range.
+> - Two dated LFP battery listings on 14 October 2026 worked out to about ₹21,100 per kWh (Loom Solar, ₹1,08,000 for 5.12 kWh) and ₹24,000 per kWh (Deye via Enlead Energy, ₹1,23,000 for 5.12 kWh). We found no dated source for earlier years, so this guide does not claim a price trend.
 
-**Short version.** The right solar for farmhouse setup in India is a [hybrid inverter](/glossary/hybrid-inverter/) with a lithium battery. Size it 5 kW for a small farmhouse and 10 kW for a large one. Rural grids suffer long outages and severe voltage swings that shut on-grid systems down. Mount on the roof if it is usable and you want subsidy; mount on the land if you need capacity or ideal orientation. Budget ₹3.5 Lakh to ₹6 Lakh for a 5 kW hybrid system with storage in 2026.
+**Short version.** The right solar for farmhouse setup in India is a [hybrid inverter](/glossary/hybrid-inverter/) with a lithium battery. Size it 5 kW for a small farmhouse and 10 kW for a large one. Rural grids suffer long outages and severe voltage swings that shut on-grid systems down. Mount on the roof if it is usable and you want subsidy; mount on the land if you need capacity or ideal orientation. As of 14 October 2026, the sourced lines for a 5 kW hybrid system with storage add up to about ₹4.0 Lakh to ₹6.6 Lakh before structure, cabling and installation.
 
 The topology decision, on-grid versus hybrid versus off-grid, is covered in depth in our [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/). This post applies that framework to the specific conditions of an Indian farmhouse.
 
@@ -73,7 +73,7 @@ Three farmhouse realities make the battery non-negotiable:
 - **Night loads.** ACs, lights, and the fridge run hardest after sunset. Without a battery, evening comfort still depends on the rural feeder.
 - **Pump starts.** A battery-backed hybrid inverter delivers the starting surge for pumps cleanly, even at 6 in the morning when the grid is at its weakest.
 
-The battery also replaces the diesel generator in practice. A 10 kWh lithium iron phosphate bank can run a farmhouse's overnight lights, fans, fridge, and one inverter AC for a full night. Diesel costs ₹18 to ₹24 per unit generated, counting fuel and maintenance. That makes every stored solar unit worth far more than the ₹7 to ₹9 grid tariff city homeowners calculate against.
+The battery also replaces the diesel generator in practice. A 10 kWh lithium iron phosphate bank can run a farmhouse's overnight lights, fans, fridge, and one inverter AC for a full night. Diesel costs about ₹26 to ₹31 per unit generated in fuel alone (₹95.20 to ₹99.82 per litre in the four metros on 14 October 2026, divided by 3.2 to 3.6 units per litre), before maintenance. That makes every stored solar unit worth far more than the ₹7 to ₹9 grid tariff city homeowners calculate against.
 
 For sizing the storage correctly, our [battery sizing guide for hybrid solar](/blog/battery-sizing-hybrid-solar/) walks through the math. The [solar inverter power cut backup](/blog/solar-inverter-power-cut-backup/) post covers how backup circuits are wired.
 
@@ -111,7 +111,7 @@ Table: Rooftop versus ground mounting for farmhouse solar
 
 | Factor | Rooftop | Ground Mount |
 | --- | --- | --- |
-| Cost per kW | Lower (base case) | 10 to 20 percent higher (structure, civil, trenching) |
+| Cost per kW | Lower (base case) | Higher (structure, civil, trenching; no dated source for the premium) |
 | PM Surya Ghar subsidy | Eligible (residential connection) | Not eligible |
 | Orientation | Fixed by roof pitch and direction | Perfect south-facing tilt, any angle |
 | Capacity limit | Roof area, often 40 to 80 sq m usable | Effectively unlimited on one acre plus |
@@ -123,7 +123,7 @@ Table: Rooftop versus ground mounting for farmhouse solar
 > [!IMPORTANT] The subsidy point decides many projects
 > PM Surya Ghar Muft Bijli Yojana covers residential rooftop systems only, according to MNRE (2026). The central subsidy is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third kW, a maximum of ₹78,000. Nothing more is paid for capacity above 3 kW. If your farmhouse connection is a domestic category connection and the roof is usable, rooftop mounting plus subsidy is hard to beat.
 
-The exception is common, though. Many farmhouse roofs are sloped tile or sheet roofs with poor orientation, heavy tree shade, or structural doubts. In that case, choose a ground-mounted array along the boundary wall. Oriented true south at a 20 to 25 degree tilt, it generates 8 to 12 percent more than a badly oriented roof array. It can also scale to any size. Spend the extra 10 to 20 percent on structure and civil work, and treat the lost subsidy as the price of a better plant.
+The exception is common, though. Many farmhouse roofs are sloped tile or sheet roofs with poor orientation, heavy tree shade, or structural doubts. In that case, choose a ground-mounted array along the boundary wall. Oriented true south at a 20 to 25 degree tilt, it generates 8 to 12 percent more than a badly oriented roof array. It can also scale to any size. Spend the extra on structure and civil work, and treat the lost subsidy as the price of a better plant.
 
 A hybrid approach also works well. Use a rooftop array for the subsidy-eligible portion and a ground array for the balance, both feeding the same hybrid inverter on separate MPPT inputs.
 
@@ -153,24 +153,26 @@ For physical security, mount the inverter inside a locked room and keep the batt
 
 ## Cost, Subsidy, and Payback for a Farmhouse Solar System
 
-Here is the complete 2026 cost picture for the two most common farmhouse configurations. Rates match our other pricing guides, such as the [5 kW hybrid inverter price in India](/blog/5kw-hybrid-inverter-price-india/) post.
+Here is the cost picture for the two most common farmhouse configurations, built from dated listings checked on 14 October 2026. Where we found no dated source, the table says so instead of showing a figure. Related pricing guides: [5 kW hybrid inverter price in India](/blog/5kw-hybrid-inverter-price-india/), [hybrid inverter price guide](/blog/hybrid-inverter-price-india/) and [solar panel price guide](/blog/solar-panel-price-india/).
 
-Table: Farmhouse solar system cost and payback (2026, all-in estimates as stated in this article)
+Table: Farmhouse solar system cost from dated listings (14 October 2026), sourced lines only
 
 | Component | 5 kW Hybrid + 10 kWh | 10 kW Hybrid + 15 kWh |
 | --- | --- | --- |
-| Panels (6 to 7 kWp / 12 to 13 kWp) | ₹1.8 to ₹2.3 Lakh | ₹3.6 to ₹4.5 Lakh |
-| Hybrid inverter | ₹0.7 to ₹0.9 Lakh | ₹1.2 to ₹1.6 Lakh |
-| LFP battery bank | ₹2.2 to ₹2.8 Lakh | ₹3.3 to ₹4.2 Lakh |
-| Structure, cabling, protection | ₹0.5 to ₹0.8 Lakh | ₹0.9 to ₹1.3 Lakh |
-| Installation and commissioning | ₹0.3 to ₹0.5 Lakh | ₹0.5 to ₹0.8 Lakh |
-| **Total (rooftop)** | **₹5.5 to ₹7.3 Lakh** | **₹9.5 to ₹12.4 Lakh** |
+| Panels, DCR listings at ₹20.97 to ₹40.74 per W (6 to 7 kWp / 12 to 13 kWp) | ₹1.26 to ₹2.85 Lakh | ₹2.52 to ₹5.30 Lakh |
+| Hybrid inverter listings (5 kW / 10 kW) | ₹0.64 to ₹1.36 Lakh | ₹1.42 to ₹2.58 Lakh |
+| LFP battery at ₹21,094 to ₹24,023 per nominal kWh (10 kWh / 15 kWh) | ₹2.11 to ₹2.40 Lakh | ₹3.16 to ₹3.60 Lakh |
+| Structure, cabling, protection | No dated source; itemise in quote | No dated source; itemise in quote |
+| Installation and commissioning | No dated source; itemise in quote | No dated source; itemise in quote |
+| **Subtotal of sourced lines (rooftop)** | **₹4.01 to ₹6.61 Lakh** | **₹7.10 to ₹11.48 Lakh** |
 | Subsidy (if rooftop, residential) | Up to ₹78,000 | Up to ₹78,000 |
-| **Net cost after subsidy** | **₹4.7 to ₹6.5 Lakh** | **₹8.7 to ₹11.6 Lakh** |
+| **Subtotal after subsidy** | **₹3.23 to ₹5.83 Lakh** | **₹6.32 to ₹10.70 Lakh** |
 
-Ground mounting adds roughly ₹40,000 to ₹80,000 for the 5 kW case and removes the subsidy, so model both paths before deciding.
+Sources, all checked 14 October 2026: panel listings from our [solar panel price guide](/blog/solar-panel-price-india/) (Luminous, Waaree, Adani and other store and retailer pages; tax treatment differs by row); hybrid inverter listings from our [hybrid inverter price guide](/blog/hybrid-inverter-price-india/) (₹63,899 to ₹1,35,888 for 5 kW and ₹1,41,750 to ₹2,57,999 for 10 kW); batteries from the [Loom Solar CAML-10051](https://www.loomsolar.com/products/caml-51-2-v-100-ah-5-12-kwh-rack-mount-terminal-block-lithium-battery) listing (₹1,08,000 for 5.12 kWh, tax status not stated) and the [Deye SE-F5 PLUS](https://shop.enleadenergy.com/products/deye-lithium-ion-battery-se-f5-plus-5-12kw) listing (₹1,23,000 for 5.12 kWh, showed sold out). Panels are DCR because the subsidy needs them; the ranges are wide because brand, DCR status and channel move prices more than size does. The subsidy is the cap under [MNRE's residential guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/), computed on module capacity.
 
-Payback comes from three streams. Grid units displaced at ₹7 to ₹9 per unit, diesel units displaced at ₹18 to ₹24 per unit, and avoided food spoilage and DG maintenance. Consider a farmhouse running 1,200 to 1,800 units a month on weekends and staff loads, plus 15 to 25 litres of diesel a month. Annual savings of ₹1.2 Lakh to ₹2 Lakh are realistic. That puts payback at four to six years, faster if diesel use is heavy.
+Ground mounting adds structure, civil work and cabling cost that we could not source, and removes the subsidy, so model both paths with itemised quotes before deciding.
+
+Payback comes from three streams. Grid units displaced at ₹7 to ₹9 per unit, diesel units displaced at about ₹26 to ₹31 per unit in fuel alone, and avoided food spoilage and DG maintenance. Here is a worked example for the 5 kW case with stated assumptions, not field data. Panels of 6.5 kWp at 4.5 kWh per kWp per day give 6.5 × 4.5 × 365 = about 10,700 units a year. Assume 10 percent of those units displace diesel at ₹28 per unit (₹95 per litre ÷ 3.4 units per litre) and 90 percent displace grid power at ₹8. Annual benefit = 9,630 × ₹8 + 1,070 × ₹28 = ₹77,040 + ₹29,960 = about ₹1.07 Lakh. Payback = cost ÷ annual benefit. On the sourced lines after subsidy (₹3.23 to ₹5.83 Lakh) that is about 3.0 to 5.4 years, and longer once your quoted structure and installation cost are added. Heavier diesel use shortens it.
 
 ## The Tradeoffs Nobody Mentions
 
@@ -186,7 +188,7 @@ Our opinionated take, after watching dozens of these projects: the battery is no
 
 ## The Bottom Line
 
-Solar for farmhouse properties in India works, but only when designed for the grid that actually exists. That grid means nine-hour outages, wide voltage swings, and nobody on site to notice faults. A hybrid inverter with a right-sized LFP battery covers these conditions. Add panels on the roof for subsidy or on the land for capacity, pump loads scheduled to solar hours, and WhatsApp-based monitoring. Budget ₹4.7 Lakh to ₹6.5 Lakh net for a 5 kW hybrid system with storage in 2026. Expect payback in four to six years, faster if you are burning diesel today.
+Solar for farmhouse properties in India works, but only when designed for the grid that actually exists. That grid means nine-hour outages, wide voltage swings, and nobody on site to notice faults. A hybrid inverter with a right-sized LFP battery covers these conditions. Add panels on the roof for subsidy or on the land for capacity, pump loads scheduled to solar hours, and WhatsApp-based monitoring. As of 14 October 2026, the sourced lines for a 5 kW hybrid system with storage come to about ₹3.2 Lakh to ₹5.8 Lakh after subsidy, before structure, cabling and installation. On the worked assumptions above, expect payback in roughly three to five and a half years on those lines, longer once installation is added, and shorter if you are burning diesel today.
 
 Three actions to take this week:
 

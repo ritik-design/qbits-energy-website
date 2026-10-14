@@ -21,9 +21,9 @@ faqs:
   - q: "What size solar system does a rice mill need?"
     a: "Most rice mills need a solar system between 40 kW and 120 kWp. The correct size is calculated from annual energy consumption, not peak connected load. A mill using about 1,00,000 units per year needs roughly 65 to 75 kWp at 1,450 units per kWp annual yield. Size to the annual average rather than the busiest milling month, because net metering lets you bank surplus units in low-activity months."
   - q: "Can solar replace a diesel generator in a rice mill?"
-    a: "Solar can replace most daytime diesel consumption but cannot fully replace the generator. Grid-tied solar without batteries shuts down during outages, so the DG set is still needed for night milling and grid failures. In practice, mills shift 70 to 80 percent of milling to solar hours and run the DG set only at night and during cuts. This typically cuts diesel spend by 60 to 75 percent, since diesel generation costs Rs 16 to 22 per unit."
+    a: "Solar can replace most daytime diesel consumption but cannot fully replace the generator. Grid-tied solar without batteries shuts down during outages, so the DG set is still needed for night milling and grid failures. In practice, mills shift 70 to 80 percent of milling to solar hours and run the DG set only at night and during cuts. This typically cuts diesel spend by 60 to 75 percent, since diesel fuel alone costs Rs 26 to 31 per unit at the inputs used in this guide."
   - q: "What is the payback period for solar on a rice mill?"
-    a: "A rice mill solar system in India typically pays back in 3 to 4.5 years. A 60 kWp system costing about Rs 27 lakh saves Rs 7 to 9 lakh per year at an industrial tariff of Rs 8 to 10 per unit, and more where it displaces diesel at Rs 16 to 22 per unit. Accelerated depreciation at 40 percent in year one improves the effective payback by another 8 to 12 months for mills that pay income tax."
+    a: "A rice mill solar system in India typically pays back in 3 to 4.5 years. A 60 kWp system costing about Rs 27 lakh saves Rs 7 to 9 lakh per year at an industrial tariff of Rs 8 to 10 per unit, and more where it displaces diesel, which costs Rs 26 to 31 per unit in fuel alone at the inputs used in this guide. Accelerated depreciation at 40 percent in year one shortens the effective payback by a few months for mills that pay income tax, depending on their tax rate."
   - q: "Is PM-KUSUM subsidy available for rice mills?"
     a: "Rice mills are not direct beneficiaries under PM-KUSUM, which targets farmers, pumps, and agricultural feeders under Components A, B, and C. Mills benefit indirectly when their agricultural feeder is solarised, because daytime supply becomes more reliable. For the mill itself, the relevant routes are state net metering for commercial and industrial consumers, accelerated depreciation, MSME solar loans, and group captive or open access arrangements for larger plants."
   - q: "Which inverter is best for a rice mill solar system?"
@@ -35,14 +35,14 @@ featured: false
 
 > **ALMM and inverter compliance:** MNRE's current ALMM page publishes solar PV module and cell lists, not an inverter list. Verify the inverter's exact model documents and applicable scheme or DISCOM requirements separately.
 
-A rice mill is one of the best solar candidates in Indian agro-industry, and one of the least written about. The load is heavy, daytime-weighted, and almost entirely motor-driven. The mill building usually has a large, unshaded asbestos or RCC roof. The owner pays Rs 8 to 12 per unit on an industrial tariff. Diesel adds another Rs 16 to 22 per unit when the grid fails mid-season. Modern rice mills consume 18 to 26 kWh per tonne of paddy processed, according to research in the Journal of Food Science and Technology, 2012.
+A rice mill is one of the best solar candidates in Indian agro-industry, and one of the least written about. The load is heavy, daytime-weighted, and almost entirely motor-driven. The mill building usually has a large, unshaded asbestos or RCC roof. The owner pays Rs 8 to 12 per unit on an industrial tariff. Diesel generation costs Rs 26 to 31 per unit in fuel alone when the grid fails mid-season. Modern rice mills consume 18 to 26 kWh per tonne of paddy processed, according to research in the Journal of Food Science and Technology, 2012.
 
 This guide is written for mill owners and their engineers deciding on solar in 2026. It covers the load profile of hullers, polishers, and destoners. It explains how seasonal operation changes sizing, and what diesel displacement is worth in rupees. It also covers 3-phase inverter selection for dusty rural sites, plus the full payback math. We also cover where [PM-KUSUM](/glossary/kusum/) fits and where it does not. That is the most common misunderstanding we hear from mill owners.
 
 > [!KEYTAKEAWAYS]
 > - Rice mills typically run 25 to 100 kW of connected load and consume 18 to 26 kWh per tonne of paddy. Size the plant to annual consumption, not the peak month; net metering banks surplus units off-season.
 > - A mid-sized mill (1.5 tonnes per hour, seasonal) typically needs a 60 to 75 kWp solar system costing Rs 27 to 34 lakh. Annual savings of Rs 7 to 10 lakh are realistic for a 60 kWp plant.
-> - Solar displaces grid power at Rs 8 to 12 per unit and diesel at Rs 16 to 22 per unit.
+> - Solar displaces grid power at Rs 8 to 12 per unit and diesel at Rs 26 to 31 per unit (fuel only).
 > - Payback runs 3 to 4.5 years before tax benefits, and 2.5 to 3.5 years after accelerated depreciation.
 > - PM-KUSUM does not subsidise rice mills directly; mills use industrial net metering, MSME loans, and depreciation. Use IP66-rated 3-phase string inverters, because rice dust and weak rural grids kill unprotected electronics.
 
@@ -101,7 +101,7 @@ The exception is mills with year-round parboiling or bran oil operations attache
 
 Grid power on an industrial tariff costs Rs 7.5 to 12 per unit depending on state and connection type. Industrial LT tariffs run around Rs 6.5 to 7.5 per unit on demand-based billing. HT 11 kV connections carry energy charges near Rs 7.5 per unit plus demand charges, according to the MP tariff order for FY 2025-26. Diesel generation costs far more.
 
-Assume diesel at Rs 92 to 98 per litre and 3.2 to 3.6 units per litre from a maintained 62.5 to 125 kVA set. Add oil, filters, and maintenance. Your DG cost lands at Rs 16 to 22 per unit. That is the number solar displaces during outage hours, and it changes the payback math completely.
+Assume diesel at Rs 92 to 98 per litre and 3.2 to 3.6 units per litre from a maintained 62.5 to 125 kVA set. Fuel cost per unit is the price per litre divided by units per litre: Rs 92 ÷ 3.6 = Rs 25.6 at the low end and Rs 98 ÷ 3.2 = Rs 30.6 at the high end. So fuel alone costs Rs 26 to 31 per unit, before oil, filters, and maintenance. Check the current pump price in your district and your own units-per-litre record, then redo the division. That is the number solar displaces during outage hours, and it changes the payback math completely.
 
 Table: Table 2. Cost per unit by source for a rice mill (2026)
 
@@ -109,15 +109,15 @@ Table: Table 2. Cost per unit by source for a rice mill (2026)
 | --- | --- | --- |
 | Grid, LT industrial | Rs 7 to 9 | Plus fixed demand charges |
 | Grid, HT 11 kV | Rs 7.5 to 10 | Energy plus demand and duty |
-| Diesel generator | Rs 16 to 22 | Fuel plus maintenance at 3.4 units per litre |
+| Diesel generator | Rs 26 to 31 | Fuel only: Rs 92 to 98 per litre at 3.2 to 3.6 units per litre; oil and maintenance extra |
 | Solar, amortised | Rs 2 to 3 | 25-year life, Rs 27 lakh per 60 kWp |
 
-Say 25 percent of your annual consumption currently comes from diesel. Shifting those hours to solar saves Rs 13 to 19 per unit on that quarter. A mill burning 20,000 DG units a year saves Rs 3 to 4 lakh annually from diesel displacement alone.
+Say 25 percent of your annual consumption currently comes from diesel. Shifting those hours to solar saves roughly Rs 23 to 29 per unit on that quarter (Rs 26 to 31 diesel fuel cost, less Rs 2 to 3 for solar). A mill burning 20,000 DG units a year saves about Rs 4.6 to 5.8 lakh annually from diesel displacement alone (20,000 × Rs 23 to 29).
 
 The practical playbook is simple. Mill hardest between 10 am and 4 pm. Run cleaning and grading in the morning. Keep night shifts on grid or DG only when contracts demand it. The [solar vs diesel generator comparison](/blog/solar-vs-diesel-generator-india/) runs this math across more scenarios.
 
 > [!IMPORTANT] What most mill owners get wrong
-> They compare solar cost per unit against the grid tariff and see a 4-year payback. They should compare it against the blended grid-plus-diesel cost. For most rural mills, the blended figure is Rs 10 to 13 per unit. The real payback is a year shorter than the grid-only math suggests.
+> They compare solar cost per unit against the grid tariff and see a 4-year payback. They should compare it against the blended grid-plus-diesel cost. For a mill that gets a quarter of its units from diesel, the blended figure is about Rs 13 per unit (0.75 × Rs 8.50 + 0.25 × Rs 28), and Rs 12 to 15 across the ranges above. The real payback is more than a year shorter than the grid-only math suggests.
 
 ## Sizing the System: Panels, Roof, and 3-Phase Inverters
 
@@ -153,12 +153,12 @@ Table: Table 3. Payback model for a hypothetical 65 kWp rice mill plant (2026)
 | Installed cost at Rs 43,000 per kWp | Rs 27.95 lakh |
 | Annual generation at 1,450 units per kWp | 94,250 units |
 | Share displacing grid at Rs 8.50 per unit | 75 percent |
-| Share displacing diesel at Rs 18 per unit | 25 percent |
+| Share displacing diesel at Rs 28 per unit (fuel only: Rs 95 ÷ 3.4 units per litre) | 25 percent |
 | Annual savings, grid portion | Rs 6.01 lakh |
-| Annual savings, diesel portion | Rs 4.24 lakh |
-| Total annual savings | Rs 10.25 lakh |
-| Simple payback | 2.7 years |
-| Payback after 40 percent year-one depreciation | About 2.2 years |
+| Annual savings, diesel portion (23,563 units × Rs 28) | Rs 6.60 lakh |
+| Total annual savings | Rs 12.61 lakh |
+| Simple payback (Rs 27.95 lakh ÷ Rs 12.61 lakh) | 2.2 years |
+| Payback after 40 percent year-one depreciation (tax rate assumed at 25.17 percent) | About 2.0 years |
 
 Even with zero diesel displacement and a Rs 7.5 per unit grid tariff, payback stays under 4 years. The [solar IRR and payback guide for C&I](/blog/solar-irr-payback-ci-india/) models sensitivity across tariff bands. Our [Tirupur textile mill case study](/blog/case-study-tirupur-textile/) shows the same math on a real seasonal C&I load.
 
@@ -200,7 +200,7 @@ Elsewhere in the Heaven Group network, see [industrial solar installation](https
 
 ## Conclusion: The Bottom Line
 
-Rice mills are close to an ideal C&I solar load. The demand is daytime-heavy and motor-driven, on expensive industrial tariffs, often topped up with diesel at twice the grid price. Size from annual consumption. Use rugged IP66 3-phase inverters that tolerate dust and weak rural feeders. Keep the DG set for nights. Treat PM-KUSUM as an indirect benefit, not a subsidy. Done this way, a 60 to 75 kWp plant pays back in 3 to 4.5 years. It then generates at Rs 2 to 3 per unit for two decades.
+Rice mills are close to an ideal C&I solar load. The demand is daytime-heavy and motor-driven, on expensive industrial tariffs, often topped up with diesel at about three times the grid price. Size from annual consumption. Use rugged IP66 3-phase inverters that tolerate dust and weak rural feeders. Keep the DG set for nights. Treat PM-KUSUM as an indirect benefit, not a subsidy. Done this way, a 60 to 75 kWp plant pays back in 3 to 4.5 years. It then generates at Rs 2 to 3 per unit for two decades.
 
 > [!CHECKLIST] Three actions to take this month
 > - Pull 24 months of electricity bills and diesel purchase records. Compute annual grid units and DG units. That two-number total drives every sizing decision.

@@ -21,7 +21,7 @@ faqs:
   - q: "What is the 26% equity and 51% consumption rule?"
     a: "Rule 3 of the Electricity Rules 2005 says a plant is a captive generating plant only if captive users hold not less than 26% of the ownership with voting rights. They must also consume not less than 51% of the electricity generated, measured annually. For an association of persons, which includes group captive SPVs, each user's consumption must be proportionate to their ownership share within a variation of 10%. Both tests are checked every financial year. Failing either can strip the plant of captive status and trigger surcharge liability."
   - q: "How much can an MSME save with group captive solar?"
-    a: "A typical MSME paying ₹8 to ₹9.5 per unit on an HT industrial connection lands group captive power at roughly ₹4.5 to ₹5.5 per unit after PPA tariff, wheeling, banking, and losses. That is a saving of ₹2.5 to ₹4 per unit. A unit consuming 10 lakh units a year saves ₹25 to ₹40 lakh annually. After the equity investment, payback typically runs 3.5 to 5 years. The savings then continue for the 25-year plant life."
+    a: "A typical MSME paying ₹8 to ₹9.5 per unit on an HT industrial connection lands group captive power at roughly ₹4.5 to ₹5.5 per unit after PPA tariff, wheeling, banking, and losses. That is a saving of ₹2.5 to ₹4 per unit. A unit consuming 10 lakh units a year saves ₹25 to ₹40 lakh annually. Payback depends on how much capital you put in: in the worked example below it is about 1.4 years on a 30% equity cheque and about 4.6 years if the whole proportional capex is counted as invested, both before PPA escalation. The savings then continue for the 25-year plant life."
   - q: "What is the difference between group captive and third-party PPA solar?"
     a: "In a third-party PPA you buy power from a developer's plant with zero investment. That power attracts cross subsidy surcharge of ₹1.4 to ₹2.5 per unit in most industrial states, and often an additional surcharge. In group captive you invest at least 26% equity and consume at least 51% of output. That makes the plant captive and exempt from both surcharges under the Electricity Act 2003. Group captive delivers higher net savings but needs capital, lock-in, and annual compliance with the consumption test."
   - q: "Who qualifies for group captive solar in India?"
@@ -45,11 +45,11 @@ This guide covers how the structure works under the Electricity Rules 2005. It i
 > - Group captive requires at least 26% equity in the plant SPV and 51% consumption of annual output, per Rule 3 of the Electricity Rules 2005.
 > - Captive power is exempt from cross subsidy surcharge (₹1.4 to ₹2.5 per unit in most industrial states) and additional surcharge. That exemption is the main edge over a third-party PPA.
 > - Typical landed cost is ₹4.5 to ₹5.5 per unit versus ₹8 to ₹9.5 on HT grid supply. The saving is ₹2.5 to ₹4 per unit.
-> - An MSME consuming 10 lakh units a year saves ₹25 to ₹40 lakh annually. Equity payback typically runs 3.5 to 5 years.
+> - An MSME consuming 10 lakh units a year saves ₹25 to ₹40 lakh annually. In the worked example below, payback is about 1.4 years on the equity cheque and 4.6 years on the full proportional capex.
 > - The 51% consumption test is checked every financial year. Fail it and the plant loses captive status, with surcharge liability for that year.
 > - The Electricity (Amendment) Rules 2025 recognised energy storage. The 2026 captive rule amendments cut status disputes while keeping the 26% and 51% thresholds.
 
-**Short version.** Group captive solar in India is a shared ownership model. Several businesses hold at least 26% equity in a solar plant SPV and consume at least 51% of its annual output. That captive status exempts the power from cross subsidy and additional surcharges. So MSMEs with 100 kW to 1 MW loads land solar at roughly ₹4.5 to ₹5.5 per unit, against ₹8 to ₹9.5 grid tariffs. Payback on their equity runs 3.5 to 5 years.
+**Short version.** Group captive solar in India is a shared ownership model. Several businesses hold at least 26% equity in a solar plant SPV and consume at least 51% of its annual output. That captive status exempts the power from cross subsidy and additional surcharges. So MSMEs with 100 kW to 1 MW loads land solar at roughly ₹4.5 to ₹5.5 per unit, against ₹8 to ₹9.5 grid tariffs. Payback depends on the equity basis: the worked example below gives about 1.4 years on the equity cheque and 4.6 years on the full proportional capex.
 
 ## What Group Captive Solar Actually Is
 
@@ -120,7 +120,7 @@ The structure of this worked example follows the comparison published by [Heaven
 
 Two honest caveats. First, some states waive CSS on renewable open access for a period or for certain categories. Check your state tariff order before assuming the full gap. Tamil Nadu and Rajasthan have used such waivers at times. Second, third-party PPA needs zero capital and zero compliance burden. If you have no cash to invest, or your consumption is volatile, the third-party route with a CSS waiver can still win. This is a genuine trade-off, not a formality.
 
-For diesel-dependent MSMEs, also compare against your backup economics. Group captive power at ₹5 per unit undercuts diesel generation at ₹18 to ₹22 per unit by a wide margin. Our [solar vs diesel generator](/blog/solar-vs-diesel-generator-india/) analysis shows the numbers.
+For diesel-dependent MSMEs, also compare against your backup economics. Group captive power at ₹5 per unit undercuts diesel generation at about ₹26 to ₹31 per unit in fuel alone (₹95.20 to ₹99.82 per litre in the four metros on 14 October 2026, divided by 3.2 to 3.6 units per litre) by a wide margin. Our [solar vs diesel generator](/blog/solar-vs-diesel-generator-india/) analysis shows the numbers.
 
 One more nuance on timing. Solar generates between roughly 9 AM and 5 PM, so group captive directly replaces your daytime grid draw. Under time-of-day tariffs, the units solar displaces are often the most expensive peak and morning-slot units. That pushes the effective saving above the blended tariff in the table. Ask your developer to model savings against your actual 15-minute load curve, not your annual average. The gap between an average-based model and an interval-data model is often 10% to 15% of claimed savings, in either direction.
 
@@ -135,18 +135,21 @@ Table: Worked MSME example, 400 kVA HT connection in Gujarat (hypothetical input
 | Annual consumption | 12,00,000 units | HT meter reading, 12 months |
 | Effective grid tariff | ₹8.60/unit | Energy plus demand charges blended |
 | Current annual power cost | ₹1.03 crore | 12 lakh × ₹8.60 |
-| Group captive share | 400 kW of a 5 MW plant | Proportional offtake |
+| Group captive share | 400 kW of a 5 MW plant | Proportional offtake, 400 ÷ 5,000 = 8% |
 | PPA tariff | ₹3.90/unit | 25-year term, 3% escalation |
 | Wheeling plus losses plus banking | ₹1.10/unit | State-specific |
 | Landed captive cost | ₹5.00/unit | CSS and AS exempt |
 | Units replaced | 9,00,000 | 75% daytime coverage of load |
 | Annual saving | ₹32.4 lakh | 9 lakh × (8.60 - 5.00) |
-| Equity investment (26% share) | ₹58 lakh | At ₹3.7 crore/MW plant capex |
-| Simple payback on equity | 3.6 years | 58 ÷ 32.4, before escalation benefit |
+| Plant capex (assumed) | ₹18.5 crore | 5 MW × ₹3.7 crore/MW |
+| Capex attributable to this MSME | ₹1.48 crore | 400 kW × ₹3.7 crore/MW |
+| Equity investment (assumed 30% of capex, 70:30 debt to equity) | ₹44.4 lakh | 0.30 × ₹1.48 crore. The captive group as a whole must hold at least 26% of the SPV equity; this cheque is the MSME's proportional part |
+| Simple payback on equity | 1.4 years | ₹44.4 lakh ÷ ₹32.4 lakh = 1.37, before PPA escalation |
+| Simple payback on full proportional capex | 4.6 years | ₹1.48 crore ÷ ₹32.4 lakh = 4.57, if no debt financing were used |
 
-Solar captive plant capex runs ₹3.5 to ₹4.5 crore per MW in 2026. Capital recovery runs 4 to 6 years across typical captive structures, according to [NST Solar's captive power market guide](https://nstsolarwind.com/solar-financing/captive-power-generation-market-in-india-2026-market-size-roi-executive-implementation-guide/), 2026. Our hypothetical lands inside that range.
+Solar captive plant capex runs ₹3.5 to ₹4.5 crore per MW in 2026. Capital recovery runs 4 to 6 years across typical captive structures, according to [NST Solar's captive power market guide](https://nstsolarwind.com/solar-financing/captive-power-generation-market-in-india-2026-market-size-roi-executive-implementation-guide/), 2026. The 4.6 year figure on the full proportional capex falls inside that range. The 1.4 year figure on the equity cheque is shorter only because debt funds the other 70% of the plant and the PPA tariff services that debt, so do not read it as a return on all capital, and remember the equity is locked in for years and carries exit risk.
 
-Three sensitivities matter more than anything else in this model. First, the fraction of your load that solar can actually cover, because solar generates only in daylight. A cold storage running 24 hours covers 60% to 70% of consumption. A single-shift factory covers more. Our [Rajkot cold storage case study](/blog/case-study-rajkot-cold-storage/) shows how a real round-the-clock load behaves. Second, grid tariff escalation in your state, because every hike widens your saving. Third, the PPA escalation clause. A 3% annual escalation on ₹3.90 erodes roughly a third of the nominal saving gap by year 15. Flat or low-escalation PPAs are worth paying a slightly higher starting tariff for.
+Three sensitivities matter more than anything else in this model. First, the fraction of your load that solar can actually cover, because solar generates only in daylight. A cold storage running 24 hours covers 60% to 70% of consumption. A single-shift factory covers more. Our [Rajkot cold storage case study](/blog/case-study-rajkot-cold-storage/) shows how a real round-the-clock load behaves. Second, grid tariff escalation in your state, because every hike widens your saving. Third, the PPA escalation clause. A 3% annual escalation lifts the PPA tariff from ₹3.90 to about ₹5.90 by year 15 (₹3.90 × 1.03^14), so the landed cost rises from ₹5.00 to ₹7.00. Against a flat ₹8.60 grid tariff, the saving per unit shrinks from ₹3.60 to ₹1.60, which is more than half, unless grid tariffs rise too. Flat or low-escalation PPAs are worth paying a slightly higher starting tariff for.
 
 For a deeper treatment, our [solar IRR and payback guide for C&I buyers](/blog/solar-irr-payback-ci-india/) shows how to compute project IRR on exactly these inputs. The [LCOE guide for India](/blog/lcoe-solar-india/) explains the per-unit cost logic developers use to price the PPA.
 

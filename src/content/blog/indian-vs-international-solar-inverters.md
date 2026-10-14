@@ -212,7 +212,6 @@ Table: Key decision numbers summary
 | 500 kW commercial savings | ₹2,00,000-4,00,000 |
 | Lead time advantage | 4-12 weeks faster |
 | Warranty term | Varies by brand and model; compare written terms |
-| RMA turnaround | 3-4x faster |
 | System lifespan target | 25 years (both) |
 
 ## Where Qbits Fits

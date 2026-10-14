@@ -116,7 +116,7 @@ The following appliances consume enough power to drastically shorten backup time
 
 A typical 3 BHK home in India with six ceiling fans, ten LED lights, one refrigerator, and phone chargers draws approximately **1.0–1.6 kW** during a power cut. Use this range as your baseline if you have not yet measured your actual load with a clamp meter.
 
-> **1.4 kW.** The median critical backup load measured in a 3 BHK Indian home with 6 fans, 10 LED lights, and one frost-free refrigerator, based on field data collected from residential solar installations. This is the load figure used in all subsequent examples in this guide.
+> **1.4 kW.** The assumed critical backup load for a 3 BHK home with 6 fans, 10 LED lights, and one frost-free refrigerator. It sits inside the 1.0–1.6 kW range estimated from typical appliance ratings above, and is an assumption for the worked examples, not a measured median. Use your own clamp-meter reading where you have one.
 
 ## Depth of Discharge: Why Battery Chemistry Changes Everything
 

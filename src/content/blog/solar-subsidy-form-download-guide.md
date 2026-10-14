@@ -4,7 +4,7 @@ excerpt: "Solar panel subsidy form download is done on pmsuryaghar.gov.in after 
 description: "Step-by-step guide to downloading and filling the solar subsidy form on the PM Surya Ghar portal: field walkthrough, common errors, and submission."
 category: Policy
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "15 min"
 image: "/og/blog-solar-subsidy-form-download-guide.webp"
 author: "Akash Hirapara"
@@ -39,7 +39,7 @@ faqs:
 
 Searching for a solar panel subsidy form download leads most homeowners to a tangle of state portals, PDF links that no longer work, and forum threads that reference outdated processes. The reason for the confusion is straightforward: the [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) subsidy application in 2026 is not a downloadable paper form, it is an end-to-end online process on pmsuryaghar.gov.in. But it works exactly like a structured form, and filling it correctly the first time is what separates applicants who get their subsidy in 45 days from those who spend months resolving rejections.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - There is no standalone PDF for the central scheme, the [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) form is filled entirely online at pmsuryaghar.gov.in after Aadhaar eKYC.
 > - The application has seven sections: registration, connection details, system specification, document upload, bank details, installer selection, and declaration.
 > - Completing it takes 20 to 40 minutes with pre-scanned documents ready; unprepared applicants average 90 to 120 minutes with more errors.
@@ -54,14 +54,16 @@ This guide treats the portal application as a structured form with distinct sect
 
 Completing the online application in one session is strongly recommended. Partially completed applications time out after 30 minutes of inactivity on the portal. Before opening the form, assemble the following:
 
-- **Electricity bill**: the most recent bill from your DISCOM, showing your consumer number, name, address, and tariff category. The consumer number is typically a 10 to 14-digit code at the top of the bill.
-- **Aadhaar card**: the mobile number linked to your Aadhaar must be active and receiving SMS. The portal uses Aadhaar OTP for identity verification.
-- **PAN card**: required for applicants whose system capacity is 3 kW or above, as the subsidy amount exceeds ₹50,000 and PAN is required for income tax reporting by the disbursing agency.
-- **Bank passbook or cancelled cheque**: showing account number, IFSC code, and account holder name. The name must match your Aadhaar name exactly.
-- **Roof photograph**: a clear photograph of the installation area on your roof (at least one image, JPEG format, under 2 MB). Some DISCOMs require a geo-tagged photograph taken from your phone's camera with location services enabled.
-- **Property proof** (if required by your DISCOM), for flat residents, a No Objection Certificate from the building owner or housing society may be needed before the DISCOM will approve a shared-roof installation.
+> [!CHECKLIST] Documents to have ready before you open the form
+> - **Electricity bill**: the most recent bill from your DISCOM, showing your consumer number, name, address, and tariff category. The consumer number is typically a 10 to 14-digit code at the top of the bill.
+> - **Aadhaar card**: the mobile number linked to your Aadhaar must be active and receiving SMS. The portal uses Aadhaar OTP for identity verification.
+> - **PAN card**: required for applicants whose system capacity is 3 kW or above, as the subsidy amount exceeds ₹50,000 and PAN is required for income tax reporting by the disbursing agency.
+> - **Bank passbook or cancelled cheque**: showing account number, IFSC code, and account holder name. The name must match your Aadhaar name exactly.
+> - **Roof photograph**: a clear photograph of the installation area on your roof (at least one image, JPEG format, under 2 MB). Some DISCOMs require a geo-tagged photograph taken from your phone's camera with location services enabled.
+> - **Property proof** (if required by your DISCOM), for flat residents, a No Objection Certificate from the building owner or housing society may be needed before the DISCOM will approve a shared-roof installation.
 
-Scan all documents at 200 to 300 DPI. Files above 2 MB will not upload successfully and will stall the application mid-submission. Use a free PDF compressor or image resizer if your scans are large.
+> [!WARNING] Files above 2 MB stall the submission
+> Scan all documents at 200 to 300 DPI. Files above 2 MB will not upload successfully and will stall the application mid-submission. Use a free PDF compressor or image resizer if your scans are large.
 
 > **20 to 40 minutes.** The typical time to complete the PM Surya Ghar online application when documents are ready and pre-scanned. Applications attempted without pre-prepared documents average 90 to 120 minutes and have a significantly higher error rate. *Source - [PM Surya Ghar National Portal user guidance](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"}, 2026.*
 
@@ -126,19 +128,24 @@ Section 3 captures the technical specification of your proposed solar installati
 
 The table below summarises the system type options and their subsidy eligibility, so you select the correct option in the dropdown:
 
+Table: PM Surya Ghar system types and central subsidy eligibility
+
 | System Type | Grid Connection | Subsidy Eligible | Best For |
 | --- | --- | --- | --- |
 | Grid-Connected (On-Grid) | ✓ Exports surplus to grid | ✓ Full PM Surya Ghar subsidy | Homes with reliable grid; fastest payback |
 | Grid-Connected with Battery (Hybrid) | ✓ Exports surplus to grid | ✓ Subsidy on solar component | Homes with frequent power cuts needing backup |
 | Off-Grid | ✗ No grid connection | ✗ Not eligible for central subsidy | Remote areas without DISCOM connectivity |
 
-Do not estimate the system capacity yourself. Ask your empanelled installer for a formal system design proposal that accounts for your sanctioned load, roof area, [shading analysis](https://surgepv.com/shadow-analysis/){target="_blank" rel="noopener"}, and annual consumption pattern. An incorrectly sized system affects both the subsidy calculation and your payback period.
+> [!TIP] Get the capacity from an installer's design proposal
+> Do not estimate the system capacity yourself. Ask your empanelled installer for a formal system design proposal that accounts for your sanctioned load, roof area, [shading analysis](https://surgepv.com/shadow-analysis/){target="_blank" rel="noopener"}, and annual consumption pattern. An incorrectly sized system affects both the subsidy calculation and your payback period.
 
 ## Step 5: Document Upload Section
 
 Section 4 is the document upload section. Upload errors cause the most preventable rejections, taking an extra 10 minutes here saves weeks of delay later.
 
 **Required uploads and specifications:**
+
+Table: Documents to upload: format, size limit and key requirement
 
 | Document | Format | Max Size | Key Requirement |
 | --- | --- | --- | --- |
@@ -171,7 +178,8 @@ Section 5 captures the bank account details for Direct Benefit Transfer. The sol
 - **IFSC code**: the 11-character code for your specific branch. Verify on your bank's official website; branch codes change after bank mergers.
 - **Aadhaar-bank linkage confirmation**: tick the checkbox only if the account is Aadhaar-seeded. Verify at the [NPCI Aadhaar mapper](https://www.npci.org.in/){target="_blank" rel="noopener"} before ticking.
 
-If your account is not Aadhaar-seeded, visit your bank branch with your Aadhaar card to complete seeding before submitting the form. The seeding reflects in the NPCI system within 24 to 72 hours. Submitting without a seeded account causes the subsidy to be returned by the bank after disbursal attempt, triggering a long re-processing cycle.
+> [!WARNING] Unseeded bank account: subsidy is returned
+> If your account is not Aadhaar-seeded, visit your bank branch with your Aadhaar card to complete seeding before submitting the form. The seeding reflects in the NPCI system within 24 to 72 hours. Submitting without a seeded account causes the subsidy to be returned by the bank after disbursal attempt, triggering a long re-processing cycle.
 
 ## Step 7: Installer (Vendor) Selection
 
@@ -179,7 +187,7 @@ Section 6 is the installer selection section. Selecting the wrong installer (par
 
 **How to use the section:**
 
-The portal displays a filtered list of empanelled vendors based on your state and pincode. Each listing shows the vendor's registration number, company name, contact details, and completed PM Surya Ghar installation count. If your area shows few options, a directory like Heaven Green Energy's local installer finder{target="_blank" rel="noopener"} is a useful cross-check for vetting EPC contractors beyond the portal list.
+The portal displays a filtered list of empanelled vendors based on your state and pincode. Each listing shows the vendor's registration number, company name, contact details, and completed PM Surya Ghar installation count. If your area shows few options, a directory like Heaven Green Energy's local installer finder is a useful cross-check for vetting EPC contractors beyond the portal list.
 
 - **Verify empanelment is current**: empanelment can lapse. Even if a vendor shows on the list today, confirm their registration expiry date with the vendor directly.
 - **Check installation count**: vendors with more completed PM Surya Ghar installations understand the portal submission requirements, which is as important as their technical competence.
@@ -187,6 +195,8 @@ The portal displays a filtered list of empanelled vendors based on your state an
 The [ALMM list guide](/blog/almm-list-phase-iii-guide/) explains how to read the MNRE list and verify specific model compliance. The [empanelled vendor guide](/blog/empanelled-vendor-pm-surya-ghar/) provides additional criteria for evaluating vendor credibility beyond their portal registration status.
 
 When comparing two empanelled vendors for your installation, use this framework to make the final choice:
+
+Table: Experienced versus new empanelled vendor, factor by factor
 
 | | Experienced Vendor (50+ installations) | New Vendor (5–20 installations) |
 | --- | --- | --- |
@@ -226,6 +236,7 @@ Once submitted, your application moves through five defined stages. Tracking the
 
 ### The 5-Stage PM Surya Ghar Application Tracker
 
+<!-- steps -->
 1. **DISCOM Document Review**: the DISCOM officer reviews documents for completeness, cross-references your consumer number, connection category, and identity documents. Expected duration: 7 to 21 working days. Action needed from you only if the DISCOM posts a correction request.
 2. **Site Inspection**: a field officer visits your property or conducts a remote drone survey. They assess roof suitability, structural integrity, and grid connectivity. Expected duration: 15 to 30 working days from document approval. Action needed: ensure roof access is available and an adult is home if a physical inspection is scheduled.
 3. **Technical Feasibility Approval**: the DISCOM issues a formal approval letter, uploaded to your dashboard. This authorises your installer to begin work. Expected duration: 5 to 10 working days after inspection. Action needed: notify your installer immediately upon approval.

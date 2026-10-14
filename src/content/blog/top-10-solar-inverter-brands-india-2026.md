@@ -47,9 +47,8 @@ This guide compares ten brands that publish a homeowner-relevant solar inverter 
 
 **Disclosure:** Qbits publishes this guide and sells solar inverters. Qbits is included at number six, not placed first. The article uses Qbits' current repository product records and public datasheets as first-party evidence. No brand in this list, including Qbits, receives a reliability score because we do not have comparable independent field-failure data for all ten.
 
-> **TL;DR**
-> - The ten-brand shortlist is Sungrow, GoodWe, Growatt, Solis, Deye, Qbits, Havells, Luminous, Microtek and UTL.
-> - The numbering is a reading order, not a market-share or reliability ranking.
+> [!KEYTAKEAWAYS]
+> - The ten-brand shortlist is Sungrow, GoodWe, Growatt, Solis, Deye, Qbits, Havells, Luminous, Microtek and UTL. The numbering is a reading order, not a market-share or reliability ranking.
 > - Dedicated PV brands publish grid-tied and storage families. Indian electrical and power-backup brands often mix grid-tied inverters, solar PCUs and home UPS products.
 > - A global product page does not prove that the same model is sold or supported in India.
 > - Do not compare warranty years, efficiency or MPPT count at brand level. Compare the exact SKUs on the same dimensions.
@@ -75,6 +74,8 @@ For example, [Fronius' India homeowner route](https://www.fronius.com/en-in/indi
 ## The 10-brand comparison at a glance
 
 Every row below uses a current official source. "Public evidence" means only what the linked manufacturer page establishes. It does not confirm local stock, the quoted model's warranty or suitability for your DISCOM. An exact-family page is not scored above a category page; the table compares only whether a documented route exists, the use case it may fit and what still needs exact-model proof.
+
+Table: Ten brands with official solar inverter pages: public evidence checked, conditional fit and what remains to verify (reading order, not a ranking)
 
 | # | Brand | Public product evidence checked | Conditional best fit | What remains to verify |
 | --- | --- | --- | --- | --- |
@@ -183,6 +184,8 @@ The same rule applies to Qbits. The public record supports exact product fields 
 
 Use this document set for all finalists. Do not relax it for a familiar logo.
 
+Table: Documents to request from every finalist, what each settles and what not to accept instead
+
 | Evidence to request | What it settles | Reject this substitute |
 | --- | --- | --- |
 | Exact model number and current datasheet | Operating type, rating, phase, PV input limits, MPPTs and environment limits | A family brochure without the quoted model |
@@ -192,7 +195,8 @@ Use this document set for all finalists. Do not relax it for a familiar logo.
 | Monitoring hardware and account terms | Required dongles, data access and account ownership | "App included" without the hardware list |
 | Quote with inverter, accessories and taxes separated | A comparable commercial scope | One bundled system total |
 
-For PM Surya Ghar, do not ask whether the inverter is "ALMM listed" as a shortcut. MNRE's [Approved List of Models and Manufacturers page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes List-I for modules and List-II for cells. Inverter documents, scheme conditions and DISCOM requirements need a separate exact-model check.
+> [!IMPORTANT] ALMM lists modules and cells, not inverters
+> For PM Surya Ghar, do not ask whether the inverter is "ALMM listed" as a shortcut. MNRE's [Approved List of Models and Manufacturers page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes List-I for modules and List-II for cells. Inverter documents, scheme conditions and DISCOM requirements need a separate exact-model check.
 
 ## Choose by use case, then compare models
 
@@ -209,6 +213,7 @@ Once two exact models remain, [the best solar inverter comparison](/blog/best-so
 
 A brand shortlist answers "who publishes a relevant product". It does not answer "which model fits my roof". Take the two or three brands that survive your final test and move to exact models:
 
+<!-- steps -->
 1. Pick the product class: on-grid string inverter for a grid-connected home, or a hybrid if selected loads must run in a power cut. The [on-grid inverter range](/on-grid-inverter/) and the [hybrid inverter range](/hybrid-inverter/) show how one maker's families differ by phase and capacity.
 2. Open the datasheet for the exact model and compare phase, rated AC output, MPPT count and voltage window, current per input, enclosure rating and monitoring route. [The best solar inverter comparison](/blog/best-solar-inverter-india/) does this for ten brands with one cited model each.
 3. For home sizing before you compare, use [the home inverter size guide](/blog/best-solar-inverter-for-home-india/).
@@ -220,12 +225,13 @@ Where a brand's pages and a datasheet disagree, trust the datasheet attached to 
 
 Send the same six questions to both sellers:
 
-1. What is the complete model code on the nameplate and invoice?
-2. Is it on-grid, hybrid or a solar PCU, and what happens during a power cut?
-3. Which current datasheet and model-specific compliance documents apply?
-4. What is the written warranty remedy, and who issues it in India?
-5. Who accepts the service ticket for my pincode, and who visits the site?
-6. Which monitoring hardware is included, and who owns the account?
+> [!CHECKLIST] Six questions to send both sellers
+> - What is the complete model code on the nameplate and invoice?
+> - Is it on-grid, hybrid or a solar PCU, and what happens during a power cut?
+> - Which current datasheet and model-specific compliance documents apply?
+> - What is the written warranty remedy, and who issues it in India?
+> - Who accepts the service ticket for my pincode, and who visits the site?
+> - Which monitoring hardware is included, and who owns the account?
 
 Compare the answers, not the confidence of the salesperson. A seller who refuses to name the model has made the decision easier.
 

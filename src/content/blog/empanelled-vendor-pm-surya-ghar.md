@@ -46,11 +46,20 @@ Do this before paying an advance. A portal match confirms one part of the decisi
 
 > **Short version:** MNRE's guidelines say central assistance is available only through vendors registered on the National Portal. Look the vendor up yourself, district by district. Match the exact business, not a familiar brand name. Put every component, payment milestone and responsibility in the quote. Pause if the name, contact, bank beneficiary or equipment does not reconcile.
 
+> [!KEYTAKEAWAYS]
+> - Central assistance is available only through vendors registered on the National Portal. Look the vendor up yourself, district by district, and match the exact legal name, GSTIN and payment beneficiary to your quote.
+> - Vendors register through a state route (one ₹2.5 lakh performance bank guarantee for the state) or the national route via REC Limited (₹25 lakh guarantee, any district).
+> - A registered vendor owes a five-year Comprehensive Maintenance Contract counted from commissioning. Hire an unregistered installer and none of the scheme protections follow you.
+> - Non-DCR modules make the installation ineligible for CFA, and CFA follows the installed module capacity, not the quote.
+> - No one can charge a fee to "release" your subsidy. Never share your portal password or OTP, and report fraud on cybercrime.gov.in or 1930.
+
 This guide reflects the MNRE guideline documents and portal routes checked on **14 October 2026**. The portal, state processes and DISCOM instructions change, so confirm anything unclear on the live portal before acting.
 
 ## What an empanelled vendor is under PM Surya Ghar
 
 "Empanelled" and "registered" are used interchangeably in everyday speech. MNRE's own documents say **registered vendor**. An empanelled vendor is a solar installation firm that has registered under the scheme's vendor process and appears on the National Portal. The firm usually registers in one of two ways:
+
+Table: Two vendor registration routes under PM Surya Ghar: registering authority, bank guarantee and where each can work
 
 | Route | Who registers it | Bank guarantee in MNRE documents | Where it can work |
 | --- | --- | --- | --- |
@@ -74,7 +83,8 @@ The July 2024 operational guidelines for residential Central Financial Assistanc
 
 The guidelines also put the vendor under a performance rating based on the size of installations, quality of equipment, workmanship and service, and visible to consumers on the portal. A registering authority can inspect installed plants and, after notice, de-register a vendor or levy penalties when systems are non-functional because of poor installation or break the scheme's rules.
 
-These protections attach to the registration. Hire an unregistered installer and none of them follow you, and you lose access to CFA.
+> [!IMPORTANT] Registration is what carries the protections
+> These protections attach to the registration. Hire an unregistered installer and none of them follow you, and you lose access to CFA.
 
 MNRE amended the residential CFA guidelines on 7 July 2025. The amendment is published as a scanned image PDF, so check it for later changes to vendor duties before you rely on any single clause above.
 
@@ -82,6 +92,7 @@ MNRE amended the residential CFA guidelines on 7 July 2025. The amendment is pub
 
 The checks below follow the National Portal route described in MNRE's guidelines and in secondary guides read on 14 October 2026. Portal screens and labels change, so treat the sequence as a map, not a script.
 
+<!-- steps -->
 1. **Type the address yourself.** Enter `pmsuryaghar.gov.in` in the browser. Do not use a link from a message or an advertisement.
 2. **Open the registered-vendors page.** The public portal has a vendor listing that works without a login. A secondary guide read on 14 October 2026 describes selecting a state, then a district, then applying the filter. After you apply as a consumer, the portal also presents vendor selection inside your logged-in account.
 3. **Pick your state and district.** Use the district of the roof, not your billing address, if they differ.
@@ -100,6 +111,8 @@ A spreadsheet, a PDF "vendor list 2026" from a third-party site, or an old regis
 
 Run all five points before you sign or transfer an advance.
 
+Table: The 5-point vendor verification checklist: what to check, what a pass looks like and when to stop
+
 | Point | What to check | Pass looks like | Stop when |
 | --- | --- | --- | --- |
 | 1. Portal record | The vendor appears on the National Portal for your state and district | Name, contact and status match the quote | The vendor offers only a certificate image or refuses an independent check |
@@ -110,9 +123,12 @@ Run all five points before you sign or transfer an advance.
 
 A personal payment destination is not automatic proof of fraud. It is a mismatch that needs a written explanation before money moves. The same applies when an agent or subcontractor says another company will invoice the work.
 
-Call the vendor on a number you found independently. Ask it to confirm the salesperson, quote number, site address and amount. Never give anyone your portal password or OTP. The guidelines give the consumer rights to carry out every portal activity without relying on the vendor, although a vendor may help with entries through your login.
+> [!CAUTION] Never hand over your OTP or portal password
+> Call the vendor on a number you found independently. Ask it to confirm the salesperson, quote number, site address and amount. Never give anyone your portal password or OTP. The guidelines give the consumer rights to carry out every portal activity without relying on the vendor, although a vendor may help with entries through your login.
 
 ## Red flags of a fake or unregistered vendor
+
+Table: Red flags of a fake or unregistered vendor, why each matters and what to do
 
 | Red flag | Why it matters | What to do |
 | --- | --- | --- |
@@ -147,6 +163,8 @@ For a commercial review of the quote itself, use the [solar quotation checklist]
 
 MNRE's guidelines attach a model consumer and vendor agreement. The model is a suggested draft and the real contract can differ, but it is a useful benchmark. It covers design, supply, installation, commissioning and five years of comprehensive operation and maintenance, with the warranty counted from commissioning by the DISCOM.
 
+Table: MNRE model consumer and vendor agreement: topics and what to look for in your contract
+
 | Topic in the model agreement | What to look for in your contract |
 | --- | --- |
 | Scope | Site survey, design, supply, civil and structure work, electrical work, net meter and grid connection |
@@ -176,6 +194,8 @@ A deregistration or penalty decision lies with the registering authority, not wi
 
 Assistance is released only after the DISCOM physically checks the system and approves it on the portal. It then moves through an e-token that you redeem from your profile, and the guidelines say a claim is processed within 15 days of DISCOM approval. Vendor mistakes can break this chain at several points:
 
+Table: Vendor mistakes that put the subsidy at risk, the result under the guidelines and what protects you
+
 | Failure | Result under the guidelines | What protects you |
 | --- | --- | --- |
 | Non-DCR modules | Installation is ineligible for CFA | Written module model and DCR documents before payment |
@@ -184,7 +204,8 @@ Assistance is released only after the DISCOM physically checks the system and ap
 | Capacity mismatch | CFA follows the installed module capacity, not the quote | Quote and portal entries match |
 | Vendor removed or deactivated mid-project | Application may stall | Recheck the portal before milestone payments |
 
-If the DISCOM rejects a claim for a system-quality reason, the guidelines place the duty to rectify it on the vendor. The consumer still carries the cash-flow risk, so tie payments to milestones.
+> [!TIP] Tie every payment to a milestone
+> If the DISCOM rejects a claim for a system-quality reason, the guidelines place the duty to rectify it on the vendor. The consumer still carries the cash-flow risk, so tie payments to milestones.
 
 ## PM Surya Ghar registration and Qbits are different things
 
@@ -196,16 +217,17 @@ Qbits Energy is a solar inverter manufacturer. It does not install systems or ho
 
 ## Your final check before paying
 
-- I reached the official National Portal by typing the address.
-- The vendor appears for my state and district under the correct legal name.
-- The quote names the same legal entity and GSTIN.
-- The payment beneficiary matches the contracted seller.
-- Module and inverter makes, models, quantities and capacities are written down.
-- Module DCR evidence has been promised in writing.
-- Price, taxes, milestones, exclusions and refund terms are written down.
-- Application, metering, inspection, handover and five-year maintenance duties have named owners.
-- I kept expected CFA separate from the contract price.
-- I know the complaint route and the vendor's complaint contact.
+> [!CHECKLIST] Final check before paying
+> - I reached the official National Portal by typing the address.
+> - The vendor appears for my state and district under the correct legal name.
+> - The quote names the same legal entity and GSTIN.
+> - The payment beneficiary matches the contracted seller.
+> - Module and inverter makes, models, quantities and capacities are written down.
+> - Module DCR evidence has been promised in writing.
+> - Price, taxes, milestones, exclusions and refund terms are written down.
+> - Application, metering, inspection, handover and five-year maintenance duties have named owners.
+> - I kept expected CFA separate from the contract price.
+> - I know the complaint route and the vendor's complaint contact.
 
 For the wider scheme context, including eligibility, documents and the DISCOM journey, read the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/).
 

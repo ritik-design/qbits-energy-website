@@ -4,7 +4,7 @@ excerpt: "Exide vs Amaron solar battery India: both are reliable Indian VRLA bra
 description: "Exide vs Amaron for home solar in India: cycle life at Indian temperatures, warranty, self-discharge, service network, and who should choose which."
 category: "Comparison"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "15 min"
 image: "/og/blog-exide-vs-amaron-solar-battery-india.webp"
 author: "Nirav Dhanani"
@@ -35,7 +35,7 @@ faqs:
 
 When a homeowner in India asks for a "good solar battery," two names come up reliably: Exide and Amaron. Both are Indian brands, both have been in the battery business for decades, and both carry the kind of nationwide service networks that matter when something goes wrong in a Tier-2 city at 10 PM.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Amaron leads on warranty (up to 60 months with a 24-month full-replacement period); Exide leads on solar-specific product range (VRLA, tubular, AGM, and a new lithium EL-Series).
 > - Both brands deliver only 7 to 10 months of useful life at 40°C ambient with daily cycling, before dropping below 80% capacity.
 > - Self-discharge is similar for both (2–4% per month at 25°C), with Amaron's Quanta range marginally lower.
@@ -47,6 +47,8 @@ But the choice between them is not straightforward. Amaron has built a stronger 
 > **Direct answer.** Exide and Amaron are the two most reliable VRLA solar battery brands in India. Amaron leads on warranty terms (up to 60 months, 24-month full replacement) and self-discharge performance. Exide leads on solar-specific product variety (tubular, VRLA, AGM, and lithium ranges) and dealer density. For most residential solar buyers choosing VRLA, Amaron is the slight preference on warranty; Exide is the preference in areas where Amaron dealers are sparse. For Indian conditions, both brands are limited by VRLA chemistry, if budget allows, LiFePO4 lithium is the better long-term choice.
 
 ## Both Brands at a Glance
+
+Table: Exide Industries and Amara Raja (Amaron) compared at a glance
 
 | Factor | Exide Industries | Amara Raja Group (Amaron) |
 | --- | --- | --- |
@@ -106,9 +108,21 @@ Amaron's solar offering is more focused, the Quanta series is purpose-built for 
 
 The Amaron Quanta PRO's 60-month warranty is the longest in the VRLA solar segment in India. The 24-month full-replacement (100% value, zero pro-rata deduction) in the first 24 months is particularly customer-friendly.
 
+Table: Exide and Amaron solar battery models: rated cycle life, warranty and 150Ah price as listed above (2kWh for the EL-Series)
+
+| Model | Cycle life at 50% DoD, 25°C | Warranty | Price (150Ah) |
+| --- | --- | --- | --- |
+| Exide Solar (VRLA flat plate) | 300–400 cycles | 24 months full replacement | ₹11,000–₹14,500 |
+| Exide Inva Tubular | 500–700 cycles | 36–48 months | ₹13,000–₹17,000 |
+| Exide EL-Series (LiFePO4) | 3,000+ cycles claimed | 5 years | ₹45,000–₹60,000 (2kWh) |
+| Amaron Quanta (VRLA deep cycle) | 350–550 cycles | 36 months (24 full + 12 pro-rata) | ₹12,000–₹15,500 |
+| Amaron Quanta PRO (enhanced VRLA) | 450–600 cycles | 60 months (24 full + 36 pro-rata) | ₹13,500–₹17,000 |
+
 ## Cycle Life Comparison at Indian Temperatures
 
 Both brands publish cycle life at 25°C (standard lab conditions). Applying temperature correction for Indian summers:
+
+Table: Rated cycles at 25°C against corrected cycles at 35°C and 42°C, and lifespan at one cycle a day at 40°C
 
 | Battery | 25°C rated cycles | At 35°C | At 42°C | Lifespan at 1 cycle/day, 40°C |
 | --- | --- | --- | --- | --- |
@@ -123,6 +137,8 @@ At 40°C ambient with daily cycling (power-cut zone), both brands deliver approx
 
 ## Warranty Comparison: Where Amaron Clearly Leads
 
+Table: Warranty terms of Exide Solar 150Ah against Amaron Quanta PRO 150Ah
+
 | Factor | Exide Solar 150Ah | Amaron Quanta PRO 150Ah |
 | --- | --- | --- |
 | Total warranty period | 24 months | 60 months |
@@ -132,11 +148,17 @@ At 40°C ambient with daily cycling (power-cut zone), both brands deliver approx
 | Replacement time | 2–7 days | 2–5 days |
 | Pro-rata formula | N/A | (Months remaining / total) × purchase price |
 
-Amaron's pro-rata structure at months 25–60 means a battery failing at month 48 (within a 60-month warranty) earns a 25% credit (12 remaining months ÷ 60 total) toward a replacement. This is meaningful value for a ₹15,000 battery - ₹3,750 credit after 4 years.
+> [!FORMULA]
+> Pro-rata credit = (Months remaining ÷ Total warranty months) × Purchase price
+
+> [!EXAMPLE] Amaron Quanta PRO failing at month 48
+> Amaron's pro-rata structure at months 25–60 means a battery failing at month 48 (within a 60-month warranty) earns a 20% credit (12 remaining months ÷ 60 total) toward a replacement. This is meaningful value for a ₹15,000 battery - ₹3,000 credit after 4 years.
 
 ## Self-Discharge Performance
 
 Both brands use calcium-alloy grids in their VRLA range, which provides lower self-discharge than older antimony-alloy designs:
+
+Table: Monthly self-discharge at 25°C for Exide, Amaron and LiFePO4 batteries
 
 | Chemistry | Monthly self-discharge at 25°C |
 | --- | --- |
@@ -147,6 +169,8 @@ Both brands use calcium-alloy grids in their VRLA range, which provides lower se
 Amaron's marginally lower self-discharge is a meaningful advantage in seasonal installations (agricultural solar, holiday homes) where the battery may sit unused for 4 to 8 weeks between use cycles.
 
 ## Service Network: Effectively a Draw
+
+Table: Dealer reach and service of Exide and Amaron
 
 | Factor | Exide | Amaron |
 | --- | --- | --- |

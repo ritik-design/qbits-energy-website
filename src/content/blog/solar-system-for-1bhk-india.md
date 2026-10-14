@@ -4,7 +4,7 @@ excerpt: "A 1 BHK home in India needs a 1–2kW on-grid solar system. Monthly co
 description: "Right-sized solar for a 1 BHK Indian home: load calculation, 1kW vs 2kW comparison, PM Surya Ghar subsidy, net cost, and which inverter to choose."
 category: "Buying Guide"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-solar-system-for-1bhk-india.webp"
 author: "Nirav Dhanani"
@@ -41,12 +41,11 @@ Your 1 BHK electricity bill has crossed ₹1,500 per month and you have been thi
 
 The question is not what the salesperson wants to sell you. The question is: what does a 1 BHK home actually need?
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A 1 BHK without AC needs a 1kW [on-grid](/on-grid-inverter/) system; a 1 BHK with a 1-ton AC needs 2kW.
 > - Monthly consumption ranges 150–350 units without AC to 300–450 units with AC.
 > - [PM Surya Ghar](https://quickestimate.co/blog/pm-surya-ghar-cost-by-system-size) subsidy is ₹30,000 for 1kW and ₹60,000 for 2kW, cutting net cost to ₹35,000–₹70,000.
 > - Payback lands in 4–7 years at current tariffs of ₹6–₹8 per unit.
-
 > - Do not accept a 3kW quote for a genuine 1 BHK load, it oversizes the system and wastes roof space.
 
 > **Direct answer.** A 1 BHK Indian home needs a 1kW solar system without AC or a 2kW system with AC. Monthly consumption is 150 to 350 units. Net cost after PM Surya Ghar subsidy is ₹35,000 to ₹70,000. Using the **True Cost of Going Solar** framework, payback lands in 4 to 7 years. Do not let anyone oversell you a 3kW system for a genuine 1 BHK load profile, it will not pay back faster and may waste roof space you do not have.
@@ -58,6 +57,8 @@ This guide walks through the exact load calculation for a 1 BHK home, the 1kW vs
 Before sizing a solar system, you need to know your actual load. Here is a realistic 1 BHK load profile across two scenarios:
 
 ### Scenario A: 1 BHK Without AC (typical north-facing or renter apartment)
+
+Table: Scenario A, 1 BHK without AC: appliance load and daily consumption
 
 | Appliance | Wattage | Daily Hours | Daily kWh |
 | --- | --- | --- | --- |
@@ -73,6 +74,8 @@ Before sizing a solar system, you need to know your actual load. Here is a reali
 **Recommended system:** 1kW on-grid solar, generating 3.5 to 5 kWh/day (105 to 150 units/month), covers 50 to 70% of consumption.
 
 ### Scenario B: 1 BHK With 1-Ton AC (own house, hot climate)
+
+Table: Scenario B, 1 BHK with a 1-ton AC: appliance load and daily consumption
 
 | Appliance | Wattage | Daily Hours | Daily kWh |
 | --- | --- | --- | --- |
@@ -92,6 +95,9 @@ Before sizing a solar system, you need to know your actual load. Here is a reali
 
 One factor most buyers overlook is that the same 1kW system generates very different amounts of electricity depending on your location's [peak sun hours](/glossary/peak-sun-hours/) in India:
 
+Table: Peak sun hours and output of 1kW and 2kW systems, by city group
+
+
 | City | Peak Sun Hours/Day | 1kW System Output (Units/Day) | 2kW System Output (Units/Day) |
 | --- | --- | --- | --- |
 | Jaipur / Jodhpur | 5.5–6.0 | 5.0–5.5 | 10–11 |
@@ -102,6 +108,24 @@ One factor most buyers overlook is that the same 1kW system generates very diffe
 | Kolkata / Bhubaneswar | 3.8–4.2 | 3.4–3.8 | 6.8–7.5 |
 | Northeast India | 3.5–4.0 | 3.2–3.6 | 6.4–7.2 |
 
+```chart
+type: hbar
+title: Peak sun hours per day by city group
+unit: "hours"
+source: "NREL India Solar Resource Data, as cited in the peak sun hours table above"
+sourceUrl: https://www.nrel.gov/international/india.html
+note: "Each bar spans the low to high end of the range in the table."
+data:
+  - { label: "Jaipur / Jodhpur", min: 5.5, max: 6.0 }
+  - { label: "Ahmedabad / Surat", min: 5.0, max: 5.5 }
+  - { label: "Hyderabad / Pune", min: 4.8, max: 5.2 }
+  - { label: "Delhi / Lucknow", min: 4.5, max: 5.0 }
+  - { label: "Mumbai / Chennai", min: 4.2, max: 4.8 }
+  - { label: "Kolkata / Bhubaneswar", min: 3.8, max: 4.2 }
+  - { label: "Northeast India", min: 3.5, max: 4.0 }
+```
+
+
 *Source - [NREL India Solar Resource Data](https://www.nrel.gov/international/india.html).* A Jaipur homeowner with 1kW generates 65% more electricity per year than a Kolkata homeowner with the same 1kW system. This means payback for the Jaipur buyer at ₹6/unit is often faster than for the Kolkata buyer at ₹8/unit despite the higher tariff.
 
 ## The True Cost of Going Solar for a 1 BHK
@@ -109,10 +133,12 @@ One factor most buyers overlook is that the same 1kW system generates very diffe
 The **True Cost of Going Solar** framework identifies five cost components for any solar system. For a 1 BHK:
 
 1. **Solar panels**: 2 to 4 panels of 500–550 Wp. Panel cost at ₹22–₹26/Wp: ₹22,000–₹57,200 depending on system size and panel quality.
-
+2. **Inverter (on-grid)**: ₹10,000–₹16,000 for a 1kW system and ₹14,000–₹22,000 for a 2kW system.
 3. **Balance of System (BOS)**: Mounting structure, cables, junction box, SPD, [earthing](/glossary/earthing/), [net meter interface](/glossary/net-metering/). For 1–2kW: ₹12,000–₹20,000.
 4. **Installation and commissioning**: Labour, civil, DISCOM application, following the same residential solar installation process EPCs use nationwide. For 1–2kW: ₹8,000–₹15,000.
 5. **[GST](/blog/gst-on-solar-inverters-2026/)**: the 12% slab no longer exists. Panels are named at Schedule I entry 437 at 5%, the inverter is 5% or 18% by classification, and a bundled turnkey contract uses the 70:30 split for an 8.9% effective rate. Approximate GST on a 1 to 2 kW system: ₹4,700–₹10,000.
+
+Table: Cost components for a 1kW and 2kW on-grid system, before and after PM Surya Ghar subsidy
 
 | Cost Component | 1kW System | 2kW System |
 | --- | --- | --- |
@@ -135,6 +161,9 @@ For the complete PM Surya Ghar application process, eligibility criteria, and st
 
 This decision deserves an honest table. Many installers push 2kW even for no-AC homes because margins are higher on larger systems.
 
+Table: 1kW versus 2kW system for a 1 BHK, factor by factor
+
+
 | Factor | 1kW System | 2kW System |
 | --- | --- | --- |
 | **Best for** | No-AC 1 BHK, usage < 200 units/month | 1-ton AC 1 BHK, usage 250–400 units/month |
@@ -148,23 +177,25 @@ This decision deserves an honest table. Many installers push 2kW even for no-AC 
 | **Panels** | 2 panels | 3–4 panels |
 | **Can run AC?** | ✗ Not reliably | ✓ 1-ton comfortably |
 
-**Decision rule:** If your monthly bill is consistently below ₹1,200 and you have no AC, choose 1kW. If your bill is ₹1,500–₹3,000 and you have or plan to add a 1-ton AC, choose 2kW. Do not buy a 3kW system for a genuine 1 BHK unless you have extremely high consumption or plan to add a second AC within 2 years. [IRENA's residential solar guidance](https://www.irena.org/Energy-Transition/Technology/Solar-energy) consistently recommends right-sizing based on actual consumption rather than subsidy maximisation, as oversized systems export at lower feed-in tariffs than they save on self-consumption.
+> [!TIP] 1kW or 2kW: the decision rule
+> **Decision rule:** If your monthly bill is consistently below ₹1,200 and you have no AC, choose 1kW. If your bill is ₹1,500–₹3,000 and you have or plan to add a 1-ton AC, choose 2kW. Do not buy a 3kW system for a genuine 1 BHK unless you have extremely high consumption or plan to add a second AC within 2 years. [IRENA's residential solar guidance](https://www.irena.org/Energy-Transition/Technology/Solar-energy) consistently recommends right-sizing based on actual consumption rather than subsidy maximisation, as oversized systems export at lower feed-in tariffs than they save on self-consumption.
 
 ## Payback Period for a 1 BHK Solar System
 
-**1kW system, no AC, at ₹7/unit:**
-- Daily generation: 4.2 kWh
-- Annual generation: 1,533 kWh
-- Annual savings: 1,533 × ₹7 = ₹10,731
-- Net cost: ₹45,000
-- **Payback: 4.2 years**
-
-**2kW system, with AC, at ₹7/unit:**
-- Daily generation: 8.4 kWh
-- Annual generation: 3,066 kWh
-- Annual savings: 3,066 × ₹7 = ₹21,462
-- Net cost: ₹55,000
-- **Payback: 2.6 years**
+> [!EXAMPLE] Payback at ₹7 per unit, 1kW and 2kW
+> **1kW system, no AC, at ₹7/unit:**
+> - Daily generation: 4.2 kWh
+> - Annual generation: 1,533 kWh
+> - Annual savings: 1,533 × ₹7 = ₹10,731
+> - Net cost: ₹45,000
+> - **Payback: 4.2 years**
+>
+> **2kW system, with AC, at ₹7/unit:**
+> - Daily generation: 8.4 kWh
+> - Annual generation: 3,066 kWh
+> - Annual savings: 3,066 × ₹7 = ₹21,462
+> - Net cost: ₹55,000
+> - **Payback: 2.6 years**
 
 The 2kW system pays back faster in absolute years because the higher consumption home saves more per unit of solar generated. This is consistent with what the [solar payback period methodology](/blog/solar-inverter-payback-period/) shows for different consumption levels.
 
@@ -179,6 +210,9 @@ For a 1 BHK solar installation, three things matter most in inverter selection (
 For the full 1kW system cost breakdown including component-level verification, read the [1kW solar system price guide](/blog/1kw-solar-system-price-india/) and the [2kW solar system price guide](/blog/2kw-solar-system-price-india/).
 
 ## On-Grid vs Hybrid for a 1 BHK Home
+
+Table: On-grid versus hybrid for a 1 BHK home
+
 
 | | On-Grid | Hybrid |
 | --- | --- | --- |

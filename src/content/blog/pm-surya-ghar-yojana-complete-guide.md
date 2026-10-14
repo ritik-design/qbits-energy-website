@@ -52,14 +52,12 @@ This guide walks the scheme as a procedure. It covers who qualifies, who is excl
 
 There is a worked example of the arithmetic. There is also the part nobody sells you, which is what the scheme does not pay for. Qbits publishes this as a reference, not as an application page. Apply on the official national portal, and confirm everything against your own DISCOM.
 
-> **TL;DR**
-> - Central assistance is ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third, capped at ₹78,000 (MNRE, 2024).
-> - Special-category States and UTs use ₹33,000 and ₹19,800 per kWp, capping at ₹85,800 (MNRE, 2024).
+> [!KEYTAKEAWAYS]
+> - Central assistance is ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third, capped at ₹78,000 (MNRE, 2024). Special-category States and UTs use ₹33,000 and ₹19,800 per kWp, capping at ₹85,800 (MNRE, 2024).
 > - Nothing is paid beyond 3 kWp. A 6 kW system still gets ₹78,000, per the guidelines' own illustration.
 > - The Domestic Content Requirement (DCR) is absolute. Non-DCR modules in any form make the installation ineligible (MNRE, 2024).
 > - Only one timeline is fixed centrally. Assistance is processed within 15 days of DISCOM approval (MNRE, 2024).
-> - More than 33 lakh systems were installed and over ₹22,750 crore disbursed as of May 2026, according to the Press Information Bureau (PIB, 2026).
-> - Off-grid systems, non-residential connections, and relocated systems are excluded by design.
+> - More than 33 lakh systems were installed and over ₹22,750 crore disbursed as of May 2026, according to the Press Information Bureau (PIB, 2026). Off-grid systems, non-residential connections, and relocated systems are excluded by design.
 
 **Short version.** PM Surya Ghar: Muft Bijli Yojana is MNRE's central scheme for grid-connected residential rooftop solar. It pays ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third, capped at ₹78,000 in general-category states. You apply on the national portal, pick a registered vendor, and install with DCR modules. The DISCOM then inspects and meters the system, and you redeem an e-token for direct transfer.
 
@@ -81,6 +79,8 @@ Group net metering and virtual net metering installations are eligible. The arra
 
 **Central Financial Assistance (CFA)** is calculated on installed solar module capacity, not on what you paid. The rates below took effect from 13 February 2024, per the [MNRE operational guidelines for the residential CFA component](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) (MNRE, 2024). MNRE reserves the right to amend them. Treat any slab you read online, including this one, as a figure to re-verify on the portal.
 
+Table: Central financial assistance slabs, general and special-category States and UTs, effective 13 February 2024
+
 | Segment | General States and UTs | Special-category States and UTs |
 | --- | --- | --- |
 | First 2 kWp, or part thereof | ₹30,000 per kWp | ₹33,000 per kWp |
@@ -98,17 +98,20 @@ This is a worked example using published MNRE figures. It is arithmetic, not a q
 
 **Inputs.** General-category state. Installed module capacity 3 kWp. MNRE **benchmark cost** of ₹50,000 per kW for the first 2 kW and ₹45,000 for the additional kW (MNRE, 2024).
 
-**Formula.** CFA = (first 2 kWp × ₹30,000) + (next 1 kWp × ₹18,000), with nil beyond 3 kWp.
+> [!FORMULA]
+> CFA = (first 2 kWp × ₹30,000) + (next 1 kWp × ₹18,000), with nil beyond 3 kWp.
 
-1. First 2 kWp: 2 × ₹30,000 = ₹60,000.
-2. Third kWp: 1 × ₹18,000 = ₹18,000.
-3. Total CFA = ₹78,000.
-4. Benchmark reference cost: (2 × ₹50,000) + (1 × ₹45,000) = ₹1,45,000.
-5. CFA as a share of benchmark: ₹78,000 ÷ ₹1,45,000 = 53.8%.
+> [!EXAMPLE] 3 kWp in a general-category state
+> 1. First 2 kWp: 2 × ₹30,000 = ₹60,000.
+> 2. Third kWp: 1 × ₹18,000 = ₹18,000.
+> 3. Total CFA = ₹78,000.
+> 4. Benchmark reference cost: (2 × ₹50,000) + (1 × ₹45,000) = ₹1,45,000.
+> 5. CFA as a share of benchmark: ₹78,000 ÷ ₹1,45,000 = 53.8%.
 
 Now change one input. Keep the state, raise capacity to 5 kWp. CFA stays ₹78,000, because the slab stops at 3 kWp. Assistance per kWp falls from ₹26,000 to ₹15,600. That is the real decision point for anyone sizing above 3 kWp.
 
-The benchmark cost derives the slab. It is not a price control and not what your vendor will quote. There is no tendering or rate discovery by DISCOMs, and rates are mutually decided between consumer and registered vendor.
+> [!IMPORTANT] The benchmark is not a price list
+> The benchmark cost derives the slab. It is not a price control and not what your vendor will quote. There is no tendering or rate discovery by DISCOMs, and rates are mutually decided between consumer and registered vendor.
 
 ## PM Surya Ghar yojana price list: what the MNRE benchmark cost means
 
@@ -116,12 +119,33 @@ People search for a "PM Surya Ghar price list" expecting a rate card for solar s
 
 What MNRE does publish is a **benchmark cost**, and the subsidy is a percentage of it. Per the guidelines, the benchmark has applied since 13 February 2024: ₹50,000 per kW for the first 2 kW and ₹45,000 for each additional kW. For the special-category States and UTs it is ₹55,000 for the first 2 kW and ₹49,500 for each additional kW. The central assistance is 60% of the benchmark for the first 2 kWp and 40% of the benchmark for the additional kWp (MNRE, 2024; checked October 2026).
 
+Table: MNRE benchmark cost and central assistance by system size, general and special-category States and UTs
+
 | System size (module capacity) | Benchmark cost, general states | Central assistance | Benchmark cost, special-category states | Central assistance |
 | --- | --- | --- | --- | --- |
 | 1 kWp | ₹50,000 | ₹30,000 | ₹55,000 | ₹33,000 |
 | 2 kWp | ₹1,00,000 | ₹60,000 | ₹1,10,000 | ₹66,000 |
 | 3 kWp | ₹1,45,000 | ₹78,000 | ₹1,59,500 | ₹85,800 |
 | Above 3 kWp | Not extended | ₹78,000 (no increase) | Not extended | ₹85,800 (no increase) |
+
+```chart
+type: bar
+title: Central assistance by module capacity, general and special-category States and UTs
+unit: "₹"
+source: "MNRE operational guidelines for the residential CFA component of PM Surya Ghar (2024), amounts as shown in the benchmark table above"
+note: "Nothing is paid beyond 3 kWp in either category."
+series:
+  - name: "General States and UTs"
+    data:
+      - { label: "1 kWp", value: 30000 }
+      - { label: "2 kWp", value: 60000 }
+      - { label: "3 kWp and above", value: 78000 }
+  - name: "Special-category States and UTs"
+    data:
+      - { label: "1 kWp", value: 33000 }
+      - { label: "2 kWp", value: 66000 }
+      - { label: "3 kWp and above", value: 85800 }
+```
 
 Part-kilowatts are paid pro rata. The guidelines' own examples are 1.5 kW at ₹45,000 and 2.5 kW at ₹69,000.
 
@@ -137,6 +161,7 @@ If you want the subsidy figure for an exact size without doing the arithmetic, t
 
 The whole scheme runs through one [national portal](https://pmsuryaghar.gov.in/). There is no offline route for claiming assistance. The sequence below follows the method of implementation set out in the MNRE guidelines (MNRE, 2024).
 
+<!-- steps -->
 1. **Register on the national portal** with a valid consumer account number for your distribution utility. The portal generates an application ID.
 2. **Choose a vendor registered on the portal.** The guidelines require this. There is no DISCOM tendering. The portal carries vendor profiles, ratings, and consumer feedback for comparison.
 3. **Agree design and commercial terms in writing.** Design, components, and payment schedule are mutually decided. The guidelines attach a sample consumer and vendor agreement.
@@ -162,6 +187,8 @@ Before you pay an advance, compare at least three registered vendors on written 
 
 Documents arrive in waves, and each wave has a different owner. Confusing them stalls files. At application you supply identity and connection records. After installation your vendor supplies technical records. At disbursal your bank record has to survive a check.
 
+Table: Documents needed at each stage of a PM Surya Ghar application, and who supplies them
+
 | Stage | Who supplies it | What it covers |
 | --- | --- | --- |
 | Application | Consumer | Consumer account number for the DISCOM, latest electricity bill, and the documents your state requires for feasibility |
@@ -184,7 +211,8 @@ How the loan and the subsidy interact:
 
 On rates, the Press Information Bureau reported in March 2025 that PM Surya Ghar loans of up to ₹2 lakh were available collateral-free at about 6.75% from public sector banks ([PIB, March 2025](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2111106&reg=48&lang=2)). Lender rates move, and secondary sources quote different current figures, so confirm the rate, tenure and processing time with the lender or on the portal before you plan around a number. Our guides to [inverter and solar financing options](/blog/inverter-financing-options-in-india/) and [choosing a bank for a solar loan](/blog/best-bank-solar-loan-india-2026/) compare the practical differences.
 
-**Own capital, loan, or third-party ownership?** These guidelines cover only the capex mode, where the consumer funds the system from savings or borrowings. They state that RESCO models (a third party makes the investment) and utility-led or state-led aggregation models fall under separate guidelines, which MNRE has published on its rooftop programme page. If an offer says you pay nothing and a company owns the system, ask which guideline it relies on, who the registered applicant is, and who receives the CFA. Do not assume the ₹78,000 reaches you. The [free solar panel scheme reality check](/blog/free-solar-panel-scheme-reality/) explains how to test such offers.
+> [!WARNING] Free-solar offers: ask who receives the subsidy
+> **Own capital, loan, or third-party ownership?** These guidelines cover only the capex mode, where the consumer funds the system from savings or borrowings. They state that RESCO models (a third party makes the investment) and utility-led or state-led aggregation models fall under separate guidelines, which MNRE has published on its rooftop programme page. If an offer says you pay nothing and a company owns the system, ask which guideline it relies on, who the registered applicant is, and who receives the CFA. Do not assume the ₹78,000 reaches you. The [free solar panel scheme reality check](/blog/free-solar-panel-scheme-reality/) explains how to test such offers.
 
 ## Realistic timelines, and where files actually stall
 
@@ -200,6 +228,7 @@ Track the file yourself rather than relying on your installer's word. The [statu
 
 The slab stops at 3 kWp, but your roof and your bills do not. A sensible sequence:
 
+<!-- steps -->
 1. **Start from the bills.** Average your units consumed over the last 12 months from your electricity bills, so seasonal air-conditioner load is counted.
 2. **Convert units to kW.** A common planning figure is that each kW of modules yields roughly 4 to 5 units a day, or around 120 to 150 units a month, in much of India. Actual output depends on location, tilt, shading, soiling and temperature, so ask the vendor for a generation estimate for your roof and treat it as an estimate, not a promise.
 3. **Check sanctioned load.** A proposed capacity above your sanctioned load can trigger a load-enhancement step first. Confirm the rule with your DISCOM.
@@ -223,6 +252,8 @@ State assistance is a separate layer with separate rules. The MNRE guidelines pe
 There is a gate on it. Under the MoU clause of the guidelines, MNRE and the State or UT must sign a Memorandum of Understanding, and that MoU is mandatory for releasing any additional state or UT subsidy under the scheme. In practice your total is central plus state, claimed through linked but distinct processes. The state amount depends on where you live and on that state's budget and order for the year you apply.
 
 Published state figures circulate widely and go stale quickly. The table below lists only what we could confirm against an official state source on **14 October 2026**. States that are not listed are not necessarily without a top-up. It means we found no current official order we could cite, and the secondary sources we saw contradicted each other.
+
+Table: State top-up subsidies confirmed against an official state source on 14 October 2026
 
 | State or UT | What the official source says | Source and what to check |
 | --- | --- | --- |
@@ -279,6 +310,7 @@ The consequence is simple. Your inverter cannot raise the subsidy, but a non-com
 
 PM Surya Ghar rewards preparation, not optimism. The slab is fixed and public. What varies is whether your records, your roof, your equipment, and your DISCOM's process align before money is spent. Treat the scheme as a compliance exercise with a subsidy attached, and the file moves.
 
-- Verify three things before you sign anything. Your connection must be residential with a sanctioned load that supports the size. Your Aadhaar, bill, and bank records must reconcile. The quoted modules must be DCR compliant, with make and model written into the contract.
-- Size for your consumption and roof, not for the subsidy table, since the central slab pays nothing above 3 kWp. Confirm your state top-up with the state nodal agency in the same week you apply.
-- Check the exact inverter model documents against your DISCOM's inspection checklist. [Talk to Qbits](/contact-us/) if you need inverter specifications or datasheet support for that submission.
+> [!CHECKLIST] Three things to settle this week
+> - Verify three things before you sign anything. Your connection must be residential with a sanctioned load that supports the size. Your Aadhaar, bill, and bank records must reconcile. The quoted modules must be DCR compliant, with make and model written into the contract.
+> - Size for your consumption and roof, not for the subsidy table, since the central slab pays nothing above 3 kWp. Confirm your state top-up with the state nodal agency in the same week you apply.
+> - Check the exact inverter model documents against your DISCOM's inspection checklist. [Talk to Qbits](/contact-us/) if you need inverter specifications or datasheet support for that submission.

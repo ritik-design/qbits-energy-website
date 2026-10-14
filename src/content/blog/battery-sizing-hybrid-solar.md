@@ -37,7 +37,7 @@ relatedSlugs:
 - 5kw-hybrid-inverter-price-india
 ---
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - Battery capacity is energy in kWh. Inverter rating is power in kW. Size for both, separately.
 > - Start from a measured load list and your own outage log, never from bedroom count or a city average.
@@ -74,6 +74,8 @@ Walk through the home and list every appliance you genuinely need during a cut. 
 
 The table uses assumed round-number wattages for illustration. They are not measured data for any particular appliance, so replace them with your own readings.
 
+Table: Assumed critical load list for a 3BHK and a 2BHK home (round-number wattages for illustration)
+
 | Appliance | Assumed power each | 3BHK count | 3BHK watts | 2BHK count | 2BHK watts |
 | --- | --- | --- | --- | --- | --- |
 | Ceiling fan | 70 W | 4 | 280 W | 2 | 140 W |
@@ -91,11 +93,14 @@ Check the sums: 280 + 96 + 150 + 15 + 65 + 80 + 80 = 766 W for the 3BHK, and 140
 
 Record how long outages last at your property and which loads must run through them. National averages are poor guides to your feeder. The Ministry of Power reported through the [Press Information Bureau](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2105394&reg=3&lang=2) that average supply reached 22.6 hours a day in rural areas and 23.4 hours in urban areas in 2025. An average of that kind hides short daily cuts, long storm outages and feeders that are far worse than the mean.
 
-Design for the longest normal outage you have actually logged, not the average. Separate a single long outage from repeated shorter outages with little time to recharge. A battery that covers one cut may not be ready for the next if the charging window is short.
+> [!TIP] Design for the longest logged outage
+> Design for the longest normal outage you have actually logged, not the average. Separate a single long outage from repeated shorter outages with little time to recharge. A battery that covers one cut may not be ready for the next if the charging window is short.
 
 For the worked examples later in this guide the outage lengths are **assumptions**: 8 hours for a 3BHK and 2 hours for a 2BHK. They are not statements about any city.
 
 ### Sensitivity: the same 500 W load at different runtimes
+
+Table: Nominal battery energy for the same 500 W load at 2, 4 and 8 hours, at 80% usable and 90% efficiency
 
 | Backup duration | Load energy | Nominal energy at 80% usable and 90% efficiency |
 | --- | --- | --- |
@@ -125,9 +130,11 @@ Take the longest normal outage from your log, in hours.
 
 [Depth of discharge](/glossary/battery-dod/) (DoD) is the share of nameplate capacity you draw before recharging. The conversion efficiency allowance covers losses between the battery and the load.
 
-**Nominal battery energy (kWh) = load energy ÷ (DoD × efficiency)**
+> [!FORMULA]
+> Nominal battery energy (kWh) = load energy ÷ (DoD × efficiency)
 
-**Capacity (Ah) = nominal energy (Wh) ÷ battery nominal voltage (V)**
+> [!FORMULA]
+> Capacity (Ah) = nominal energy (Wh) ÷ battery nominal voltage (V)
 
 This guide uses an efficiency allowance of 0.90 as a deliberately conservative planning figure. It is not a datasheet value. The QBH datasheets print a 97.6 percent (3 to 6 kW) or 98 percent (7 to 8 kW and three-phase) maximum efficiency, but that is a peak figure at a favourable operating point, and losses also arise in wiring, the BMS and standby draw.
 
@@ -138,6 +145,8 @@ Check the current the battery and the inverter must carry, the battery voltage w
 ### Why the usable fraction is not 100 percent
 
 Discharging a battery fully shortens its cycle life, so makers specify a depth of discharge and rate cycle life at that depth. Typical planning figures by chemistry:
+
+Table: Typical planning depth of discharge by battery chemistry, with the sources cited
 
 | Chemistry | Typical planning DoD | What the sources say |
 | --- | --- | --- |
@@ -151,6 +160,8 @@ Both rows are planning ranges, not rules. The figure that counts is the one on t
 Every battery has a maximum charge and discharge current. The inverter has its own. The system has to stay inside the lower of the two, and the battery's rating decides which one that is. C-rate expresses current relative to capacity: a 100 Ah battery charged at 50 A is at 0.5C.
 
 The Qbits datasheets publish the maximum charge and discharge current of each QBH model at a 48 V rated battery voltage. Multiplying by 48 V gives the power the battery port can pass, and doubling the current in Ah gives the bank size at which that current is 0.5C.
+
+Table: Qbits QBH hybrid models, maximum battery charge and discharge current at 48 V rated battery voltage
 
 | QBH model | Max charge/discharge current | Battery port power at 48 V | Bank at 0.5C of that current |
 | --- | --- | --- | --- |
@@ -168,6 +179,29 @@ The Qbits datasheets publish the maximum charge and discharge current of each QB
 | QBH-10KS48P3 | 210 A | 10.08 kW | 20.16 kWh |
 | QBH-12KS48P3 | 250 A | 12.00 kW | 24.0 kWh |
 
+```chart
+type: hbar
+title: Maximum battery charge and discharge current by Qbits QBH model
+unit: "A"
+source: "Qbits QBH hybrid inverter datasheets (3 to 6 kW, 7 to 8 kW and three-phase families), as printed in October 2026; current at 48 V rated battery voltage"
+note: "Inverter limits, not an approval for any battery. Check the battery's own limits."
+decimals: 0
+data:
+  - { label: "QBH-3KS48P", value: 75 }
+  - { label: "QBH-3K6S48P", value: 90 }
+  - { label: "QBH-4KS48P", value: 100 }
+  - { label: "QBH-4K6S48P", value: 110 }
+  - { label: "QBH-5KS48P / 6KS48P", value: 120 }
+  - { label: "QBH-7KS48P", value: 175 }
+  - { label: "QBH-7K6S48P / 8KS48P", value: 190 }
+  - { label: "QBH-5KS48P3", value: 120 }
+  - { label: "QBH-6KS48P3", value: 125 }
+  - { label: "QBH-7KS48P3", value: 150 }
+  - { label: "QBH-8KS48P3", value: 190 }
+  - { label: "QBH-10KS48P3", value: 210 }
+  - { label: "QBH-12KS48P3", value: 250 }
+```
+
 Source: the Qbits datasheets for the [3 to 6 kW](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf), [7 to 8 kW](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-2.pdf) and [three-phase](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-3.pdf) QBH families, as printed in October 2026. The last column is arithmetic (2 × amps × 48 V), not a Qbits recommendation. These are inverter limits. They do not authorise that current through any battery you attach.
 
 ### A worked current check with a published battery
@@ -177,7 +211,8 @@ Take the Pylontech US5000 as an illustration of how a battery's own limits enter
 - One module against a 75 A inverter limit (the QBH-3KS48P): 75 A is below the 80 A recommended figure, so no extra limit is needed from the current point of view.
 - One module against a 120 A inverter limit (for example the QBH-5KS48P): 120 A exceeds even the 100 A maximum continuous, so you would either set a lower charge limit in the inverter or fit two modules side by side, which carry 160 A recommended and 200 A maximum together.
 
-This is arithmetic on published figures. It is not a statement that any Qbits inverter is approved for this battery. For Qbits models, the datasheets say only that the battery type is lithium or lead-acid, so confirm the compatibility list with Qbits for your battery before purchase.
+> [!IMPORTANT] Arithmetic, not approval
+> This is arithmetic on published figures. It is not a statement that any Qbits inverter is approved for this battery. For Qbits models, the datasheets say only that the battery type is lithium or lead-acid, so confirm the compatibility list with Qbits for your battery before purchase.
 
 If a battery communicates with the inverter, its BMS can request lower limits. Without communication the inverter does not know the battery's limits, so you have to set the charge current in the inverter menu from the battery datasheet. Check that the exact inverter model has that setting and write the value you set into the commissioning record. The [battery connection guide](/blog/inverter-battery-connection-diagram/) explains the data link.
 
@@ -208,6 +243,8 @@ Chemistry decides depth of discharge, cycle life, temperature tolerance and main
 
 ### What the published figures say
 
+Table: Published figures for one LFP battery and one tubular lead-acid battery
+
 | | LFP example | Tubular lead-acid example |
 | --- | --- | --- |
 | Product | Pylontech US5000 (manual, Sep 2024) | Luminous LPTT12150H (product page, Oct 2026) |
@@ -223,9 +260,12 @@ Battery University's lead-acid article lists deep-cycle lead-acid at about 400 t
 
 A fair cost comparison needs three inputs per product: price, usable energy per cycle and cycles at that depth.
 
-**Cost per kWh delivered = price ÷ (nominal kWh × DoD × rated cycles)**
+> [!FORMULA]
+> Cost per kWh delivered = price ÷ (nominal kWh × DoD × rated cycles)
 
 Prices below were shown on the manufacturers' pages on 14 October 2026 and will change. Cycle figures are each maker's own, and the Loom Solar page gives only a general range.
+
+Table: Cost per kWh delivered for two batteries, prices shown on manufacturer pages on 14 October 2026
 
 | Product | Price shown | Nominal | DoD used | Cycles used | Cost per kWh delivered |
 | --- | --- | --- | --- | --- | --- |
@@ -258,6 +298,7 @@ For the surrounding decision on whether storage makes sense at all, read the [on
 
 **Home profile.** Three-bedroom home. The 8-hour outage is an assumption for the calculation, not a figure for any city.
 
+<!-- steps -->
 1. **Backup load.** Base critical load from the table: 766 W. Add 15 percent: 766 × 1.15 = 880.9 W, or 0.881 kW. The pump (750 W for half an hour) and a 180 W air cooler (for 4 hours) are treated as extras.
 2. **Duration.** 8 hours.
 3. **Load energy.** Continuous load: 0.881 kW × 8 h = 7.047 kWh. Pump: 0.75 kW × 0.5 h = 0.375 kWh. Cooler: 0.18 kW × 4 h = 0.72 kWh. Total: 7.047 + 0.375 + 0.72 = **8.142 kWh**.
@@ -270,6 +311,7 @@ For the surrounding decision on whether storage makes sense at all, read the [on
 
 ## Worked example 2: 2BHK, 2-hour outage (assumed)
 
+<!-- steps -->
 1. **Backup load.** 497 W base. With 15 percent margin: 497 × 1.15 = 571.55 W, or 0.572 kW.
 2. **Duration.** 2 hours (an assumption).
 3. **Load energy.** 0.572 kW × 2 h = **1.143 kWh**.
@@ -286,9 +328,12 @@ Every figure in both examples follows from the stated formulas, so you can repea
 
 The array has to run daytime loads and refill the battery before the next outage. In high-outage areas this cannot rely on overnight grid charging.
 
-**Array for the battery (kWp) = DC energy drawn from the battery (kWh) ÷ (peak sun hours × performance allowance)**
+> [!FORMULA]
+> Array for the battery (kWp) = DC energy drawn from the battery (kWh) ÷ (peak sun hours × performance allowance)
 
 The 0.80 allowance covers module temperature, wiring, MPPT conversion and battery charging losses, and is an assumption to replace with your installer's figure. Peak sun hours at optimum tilt for reference cities, from the Global Solar Atlas as compiled in our [irradiance guide](/blog/solar-irradiance-data-india-statewise/) (queried 24 September 2026):
+
+Table: Peak sun hours at optimum tilt by city, annual average (Global Solar Atlas, queried 24 September 2026)
 
 | City | Peak sun hours at optimum tilt (annual average) |
 | --- | --- |
@@ -299,6 +344,23 @@ The 0.80 allowance covers module temperature, wiring, MPPT conversion and batter
 | Bengaluru | 5.46 |
 | Chennai | 5.47 |
 | Ahmedabad | 6.01 |
+
+```chart
+type: hbar
+title: Peak sun hours at optimum tilt, annual average, by city
+unit: "hours/day"
+source: "Global Solar Atlas, as compiled in the Qbits irradiance guide (queried 24 September 2026)"
+note: "Annual averages. Monsoon months give less."
+decimals: 2
+data:
+  - { label: "Ahmedabad", value: 6.01 }
+  - { label: "Mumbai", value: 5.56 }
+  - { label: "Chennai", value: 5.47 }
+  - { label: "Bengaluru", value: 5.46 }
+  - { label: "New Delhi", value: 5.10 }
+  - { label: "Lucknow", value: 5.09 }
+  - { label: "Patna", value: 4.99 }
+```
 
 These are annual averages. Monsoon months give less, so check monthly values for the weeks when outages are most likely. The [string sizing calculator](/string-sizing-calculator/) checks PV string voltage and current against the selected inverter.
 

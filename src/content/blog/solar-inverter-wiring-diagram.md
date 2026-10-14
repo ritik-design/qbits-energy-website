@@ -52,7 +52,7 @@ This guide covers an on-grid system from the panels to the meter and the grid. I
 
 One condition applies throughout. **This work must be carried out by a qualified, licensed electrician.** The installation manual for your exact model and your local wiring rules take precedence over anything here. In India that means the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023, IS 732:2019, and your DISCOM connection conditions. Where this page and your manual disagree, the manual wins.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The order is fixed. Array, DC surge device, DC isolator, inverter, AC isolator and breaker, generation meter, consumer board, net meter, grid.
 > - String fuses become necessary once three or more strings are paralleled on one input.
 > - Size DC cable for current first, then check voltage drop with Vdrop = (2 × L × I × ρ) / A.
@@ -66,6 +66,8 @@ One condition applies throughout. **This work must be carried out by a qualified
 ## The complete wiring run, in order
 
 Read the system as a single line from the roof to the street. Each stage has one job, one protective device, and one place it can be isolated. Order matters more than any individual component, because a device fitted on the wrong side of a junction protects nothing.
+
+Table: The complete on-grid wiring run in order, with what each component is sized against
 
 | Stage | Component | Sized against |
 | --- | --- | --- |
@@ -83,6 +85,7 @@ Read the system as a single line from the roof to the street. Each stage has one
 
 The installation sequence follows from that order.
 
+<!-- steps -->
 1. Check the string, cable and protective-device schedules against the inverter datasheet.
 2. Mount the inverter to the clearances in the manual, out of afternoon sun.
 3. Run DC cable in UV-resistant conduit, with every roof penetration sealed.
@@ -98,7 +101,12 @@ The installation sequence follows from that order.
 
 ## DC side: strings, polarity, connectors and isolation
 
-The DC side carries the highest voltage in a residential system and the least forgiving current. Modules produce whenever daylight hits them, so switching off the main breaker does nothing to the roof. Every DC decision starts from two module figures: open-circuit voltage at the coldest expected temperature, and short-circuit current.
+The DC side carries the highest voltage in a residential system and the least forgiving current.
+
+> [!CAUTION] The roof stays live in daylight
+> Modules produce whenever daylight hits them, so switching off the main breaker does nothing to the roof. A rooftop array can sit at several hundred volts on an overcast day.
+
+Every DC decision starts from two module figures: open-circuit voltage at the coldest expected temperature, and short-circuit current.
 
 **String polarity** is checked with a meter at the inverter end before the conductors go near the inverter. A reversed pair often reads zero rather than flagging itself, and the installer starts hunting a phantom module fault.
 
@@ -116,9 +124,16 @@ Respect the published per-input limits. Qbits lists 20 A maximum DC input curren
 
 Cable size has two tests. First, current-carrying capacity under real conditions, including conduit grouping and ambient temperature. Second, voltage drop. Passing the first and failing the second gives a system that is safe and quietly lossy for its whole life.
 
-For a two-wire DC run, **Vdrop = (2 × L × I × ρ) / A**. L is the one-way run in metres, I is operating current in amperes, ρ is resistivity in ohm sq mm per metre, and A is cross-section in sq mm. Copper sits near 0.0172 at 20 degrees C, but a rooftop conduit runs hot, so this example uses 0.022.
+For a two-wire DC run:
+
+> [!FORMULA]
+> Vdrop = (2 × L × I × ρ) / A
+
+L is the one-way run in metres, I is operating current in amperes, ρ is resistivity in ohm sq mm per metre, and A is cross-section in sq mm. Copper sits near 0.0172 at 20 degrees C, but a rooftop conduit runs hot, so this example uses 0.022.
 
 **Worked example inputs.** One string, single-phase system. Maximum-power current 11 A, maximum-power voltage 380 V, one-way run 25 m, copper, 4 sq mm.
+
+Table: Worked voltage-drop calculation for a 25 m, 11 A, 4 sq mm copper DC run
 
 | Step | Calculation | Result |
 | --- | --- | --- |
@@ -140,13 +155,18 @@ Size the breaker at about 1.25 times the inverter maximum continuous AC output c
 
 A transformerless inverter has no galvanic isolation between array and grid, so an earth fault can produce residual current with a smooth DC component. That decides the RCD type.
 
+Table: Residual-current device types and their suitability on a transformerless solar AC circuit
+
 | RCD type | Detects | Use on a solar AC circuit |
 | --- | --- | --- |
 | Type AC | Sinusoidal AC residual current only | Never acceptable |
 | Type A | AC plus pulsating DC residual current | Acceptable where the manual says so, typically when the inverter has integrated DC residual-current monitoring tested to IS/IEC 62109-2 |
 | Type B | AC, pulsating DC and smooth DC residual current | Required where the inverter has no integrated DC fault-current detection, or where the manual specifies it |
 
-Fitting Type A where Type B is required produces an installation that looks compliant and does not protect. The AC isolator belongs next to the inverter, lockable, and the final connection should use a dedicated way in the board.
+> [!WARNING] Type A where Type B is required
+> Fitting Type A where Type B is required produces an installation that looks compliant and does not protect.
+
+The AC isolator belongs next to the inverter, lockable, and the final connection should use a dedicated way in the board.
 
 ## Earthing and equipotential bonding
 
@@ -176,6 +196,8 @@ A current transformer for export control goes on the incoming supply conductor, 
 
 The DC side of a single-phase and a three-phase system looks nearly identical. The AC side does not. Three things change the drawing: conductor count, neutral handling and phase rotation.
 
+Table: Single-phase versus three-phase AC wiring differences
+
 | Item | Single-phase | Three-phase |
 | --- | --- | --- |
 | AC conductors | Line, neutral, protective earth | Three lines, earth, neutral where required |
@@ -191,8 +213,12 @@ Voltage rise is the practical reason large single-phase systems get pushed to th
 
 ## Terminations, torque, and why a loose DC joint starts a fire
 
-A termination that is not tight has contact resistance. Current through contact resistance produces heat. Heat oxidises copper, oxide raises resistance further, and the fault accelerates. Left alone it ends in a glowing connection or an arc. DC is worse than AC here, because an AC arc extinguishes at each current zero crossing and a DC arc has none.
+> [!CAUTION] A loose DC joint can arc
+> DC is worse than AC here, because an AC arc extinguishes at each current zero crossing and a DC arc has none.
 
+A termination that is not tight has contact resistance. Current through contact resistance produces heat. Heat oxidises copper, oxide raises resistance further, and the fault accelerates. Left alone it ends in a glowing connection or an arc.
+
+<!-- steps -->
 1. Use the torque value printed in the manual for that terminal. Do not guess, and do not borrow a figure from another model.
 2. Use a calibrated torque screwdriver, not feel. Torque values differ between models and between terminals on the same model, so only the manual figure counts.
 3. Match the ferrule or lug to the conductor size and use the correct crimp die. A crimp made with the wrong die is loose inside a joint that looks finished.
@@ -203,12 +229,13 @@ A termination that is not tight has contact resistance. Current through contact 
 
 Labelling exists for the person who arrives when you are not there: a technician, an inspector, or a fire crew isolating a building. An unlabelled installation hands them a main switch that does not de-energise everything. It is also among the first things a DISCOM inspector checks.
 
-- A warning at the DC isolator that live DC is present whenever the modules are illuminated.
-- A dual-supply warning at the main board, so anyone isolating the mains knows a second source exists.
-- Durable identification labels on every isolator, breaker, meter and combiner, matching the drawing.
-- Positive and negative identified at both ends of every DC conductor by colour and ferrule.
-- A shutdown procedure placard near the inverter, listing the isolation sequence in order.
-- The as-built single-line diagram fixed near the main board, showing the models actually installed.
+> [!CHECKLIST] Labels and signage
+> - A warning at the DC isolator that live DC is present whenever the modules are illuminated.
+> - A dual-supply warning at the main board, so anyone isolating the mains knows a second source exists.
+> - Durable identification labels on every isolator, breaker, meter and combiner, matching the drawing.
+> - Positive and negative identified at both ends of every DC conductor by colour and ferrule.
+> - A shutdown procedure placard near the inverter, listing the isolation sequence in order.
+> - The as-built single-line diagram fixed near the main board, showing the models actually installed.
 
 If the model changed between quotation and installation and the drawing still shows the original, every future service visit starts from wrong information.
 
@@ -216,6 +243,7 @@ If the model changed between quotation and installation and the drawing still sh
 
 Commissioning is a test sequence with a written record, not a switch-on. IS/IEC 62446-1 sets out what a grid-connected PV commissioning report contains, and most manuals follow the same structure. These checks happen with the DC isolator open and the AC breaker off.
 
+<!-- steps -->
 1. Visual inspection of the mechanical installation, cable support, conduit sealing and enclosure closure.
 2. Continuity of the protective earthing conductor and bonding, measured end to end.
 3. String polarity at each connector pair, confirmed with a meter.
@@ -234,6 +262,8 @@ Results go on the commissioning sheet and are handed over with the drawings. The
 ## Common wiring errors, and the myths behind them
 
 Most wiring failures trace back to a shortcut that sounded reasonable at the time. The table pairs each error with the failure it causes.
+
+Table: Common wiring errors and the failure each one causes
 
 | Wiring error | What it causes |
 | --- | --- |

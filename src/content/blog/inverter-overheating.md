@@ -35,7 +35,7 @@ relatedSlugs:
 - solar-inverter-warranty
 ---
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - An inverter that reduces output on a hot afternoon is usually working correctly, not failing.
 > - Thermal derating is designed behaviour. A temperature fault that repeats in mild weather is not.
@@ -62,6 +62,8 @@ None of these are damage. They are the design working. The question worth asking
 
 An inverter is not a passive box. It generates heat internally and absorbs it externally, and both paths matter.
 
+Table: Where inverter heat comes from and what to check for each source
+
 | Heat source | What it looks like | What to check |
 | --- | --- | --- |
 | Conversion loss | Rises with output, peaks at midday | Normal. Compare against the model efficiency spec |
@@ -70,7 +72,10 @@ An inverter is not a passive box. It generates heat internally and absorbs it ex
 | Restricted airflow | Gradual worsening over months or years | Clearances, debris, vegetation, fan operation |
 | Internal fault | Temperature events in mild weather | Service inspection, do not self diagnose |
 
-Even a highly efficient inverter dissipates real power as heat. A unit converting at 98 percent efficiency still sheds roughly 2 percent of throughput as heat, which at 5 kW output is about 100 W inside the enclosure. That heat has to leave through the heatsink and the airflow path. Block the path and the internal temperature climbs regardless of how cool the day is.
+> [!EXAMPLE] How much heat stays inside the box
+> A unit converting at 98 percent efficiency still sheds roughly 2 percent of throughput as heat, which at 5 kW output is about 100 W inside the enclosure.
+
+Even a highly efficient inverter dissipates real power as heat. That heat has to leave through the heatsink and the airflow path. Block the path and the internal temperature climbs regardless of how cool the day is.
 
 This is why the same model can behave differently at two houses in the same city. Air temperature is shared. Enclosure orientation, wall colour, clearance and shade are not.
 
@@ -83,6 +88,8 @@ The [Qbits single phase hybrid catalogue](/datasheets/products/Qbits-Hybride-Inv
 ## Published operating temperature ranges by Qbits model
 
 The table lists the operating temperature range printed in each model's datasheet, as transcribed in the Qbits product specification. A blank derating column means the datasheet does not state a derating point, not that none exists. Check the installation manual for the curve.
+
+Table: Operating temperature range and stated derating point by Qbits model family, from the Qbits product specification
 
 | Model family | Operating temperature range | Derating point stated |
 | --- | --- | --- |
@@ -111,6 +118,7 @@ Second, the ambient figure is not the internal component temperature. The contro
 
 Work outside to inside, and cheapest to most expensive.
 
+<!-- steps -->
 1. **Record the evidence.** Model, serial number, the exact event code or message, timestamps, and the outside conditions at the time. Without timestamps the rest of this is guesswork.
 2. **Establish the daily pattern.** Does output drop only between roughly noon and four, and recover by evening? That pattern is the signature of derating. A flat loss across the whole day is not a thermal story.
 3. **Compare the PV side and the AC side.** If DC input is also down, the cause is on the array, not in the enclosure. Heat on the panels reduces panel output through a completely separate mechanism, and it is commonly mistaken for inverter derating. The [low output guide](/blog/solar-inverter-low-output-causes-india/) sets out the broader order of checks.
@@ -124,13 +132,18 @@ If steps one to six show a unit derating predictably in genuinely hot conditions
 
 The common mistake is treating an ingress rating as a heat rating. IP66 and IP65 describe resistance to dust and water. They tell you the enclosure is sealed. A sealed enclosure in direct sun absorbs solar gain and has to reject its internal heat through the heatsink, so a high ingress rating can coincide with earlier derating if the placement is poor.
 
-The second mistake is improvised cooling. Adding a fan inside the enclosure, drilling ventilation holes, removing a cover to help it breathe, or spraying water on a hot unit all defeat the ingress protection, create a safety hazard, and generally void the warranty. External shading is legitimate. Internal modification is not.
+> [!CAUTION] Do not improvise cooling
+> Adding a fan inside the enclosure, drilling ventilation holes, removing a cover to help it breathe, or spraying water on a hot unit all defeat the ingress protection, create a safety hazard, and generally void the warranty. External shading is legitimate. Internal modification is not.
+
+The second mistake is improvised cooling, covered in the box above.
 
 The third mistake is buying on a single temperature number. A blanket claim that one brand shuts down at 40 degrees and another does not is close to meaningless without the derating curve, the installation conditions and the measurement method behind it.
 
 ## Placement decisions that actually change the outcome
 
 Placement is fixed at installation and expensive to change afterwards, which is why it deserves attention before commissioning rather than after the first summer.
+
+Table: Inverter placement decisions, better and worse options
 
 | Decision | Better | Worse |
 | --- | --- | --- |
@@ -140,7 +153,8 @@ Placement is fixed at installation and expensive to change afterwards, which is 
 | Rain and dust | Sheltered, with the ventilation path still open | Covered by a sheet that traps heat |
 | Service access | Reachable for inspection and cleaning | Requires scaffolding to inspect |
 
-A shade structure that blocks direct sun while leaving the airflow path fully open is usually the single most effective retrofit for a unit that derates harder than expected.
+> [!TIP] Best retrofit for a unit that derates early
+> A shade structure that blocks direct sun while leaving the airflow path fully open is usually the single most effective retrofit for a unit that derates harder than expected.
 
 ## What a temperature fault looks like on the display
 

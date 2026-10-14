@@ -40,7 +40,7 @@ But brand trust in one category does not transfer cleanly to another. Solar inve
 
 If you are still deciding between on-grid, hybrid, and off-grid topologies, read the [on-grid vs hybrid vs off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off-grid-decision-guide/) first. This post assumes you have shortlisted these two brands and want the documents side by side. Every figure below is copied from a Luminous or Havells page or datasheet that was open on 14 October 2026, with the source named. Where a page does not state a figure, the table says so.
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 > - The 5 kW class is the useful comparison: the Luminous NXI 150, the newer Luminous NXI T150 and the Havells Enviro GTi 5000 D-NG are the matching grid-tie models.
 > - Havells' catalogue datasheets list the full electrical set (voltage window, tracker count, current per tracker). Luminous's product pages do not state the MPPT count or the DC voltage range, so ask Luminous for the datasheet.
 > - Warranty lines as published: Havells 10 years on the Enviro GTi datasheets, Luminous NXI 150 "8 years standard plus 2 years extended", Luminous NXI T150 10 years.
@@ -60,6 +60,8 @@ That difference explains why the two lines are comparable only on grid-tie. If b
 **Havells.** The Havells grid-tie catalogue covers the Enviro GTi NG single-phase single-MPPT models (1.1, 2.2, 3.0 and 3.3 kW), the Enviro GTi D dual-MPPT single-phase models (4, 5 and 6 kW), D-NG variants, three-phase TX models from 5 kW, and larger commercial models up to 350 kW. Havells' solar page also lists packaged GREEHA residential kits at 3.3 kW and 5 kW.
 
 ## Matched 5 kW specification comparison
+
+Table: Matched 5 kW grid-tie specifications as published by Luminous and Havells, read 14 October 2026
 
 | Item | Luminous NXI 150 | Luminous NXI T150 | Havells Enviro GTi 5000 D-NG |
 | --- | --- | --- | --- |
@@ -94,13 +96,21 @@ Sources: [Luminous NXI 150 product page](https://www.luminousindia.com/product/g
 
 ## Printed MRP is not a price
 
-A printed MRP on a manufacturer's page says little about what you pay. On 14 October 2026 the Luminous pages showed an MRP of ₹1,12,000 against a listed price of ₹36,599 for the NXI 150, and an MRP of ₹1,15,000 against ₹37,449 for the NXI T150, both stated as inclusive of taxes. A listed price on an online page can change, and neither it nor an MRP is an installed quote. The Havells pages reviewed show no inverter price.
+A printed MRP on a manufacturer's page says little about what you pay.
+
+> [!EXAMPLE] Same page, two very different numbers
+> On 14 October 2026 the Luminous pages showed an MRP of ₹1,12,000 against a listed price of ₹36,599 for the NXI 150, and an MRP of ₹1,15,000 against ₹37,449 for the NXI T150, both stated as inclusive of taxes.
+
+A listed price on an online page can change, and neither it nor an MRP is an installed quote. The Havells pages reviewed show no inverter price.
 
 For a real comparison, ask two installers for itemised quotes on identical scope: the same array, mounting, cabling, protection, monitoring, DISCOM application and commissioning, with exclusions written out. The inverter is one line item in a full system, and the [full system price guide](/blog/5kw-solar-system-price-india/) explains the rest of the bill of materials. GST on solar equipment moved to 5% for the specified items from 22 September 2025, so confirm how your installer has classified a composite supply.
 
 ## Warranty and service
 
-A solar inverter is a long-life asset and the warranty is your recourse, so read the terms and not just the years. Neither the Luminous pages nor the Havells catalogue states, in the documents reviewed, the remedy (repair or replacement), who pays freight and labour, the registration deadline or the exclusions. Ask each seller for the document that names them, and ask the question that decides most claims: if the inverter fails in year seven, do I get a new unit, a repaired unit, or a depreciated credit?
+A solar inverter is a long-life asset and the warranty is your recourse, so read the terms and not just the years. Neither the Luminous pages nor the Havells catalogue states, in the documents reviewed, the remedy (repair or replacement), who pays freight and labour, the registration deadline or the exclusions. Ask each seller for the document that names them.
+
+> [!TIP] The question that decides most claims
+> Ask: if the inverter fails in year seven, do I get a new unit, a repaired unit, or a depreciated credit? Get the answer in writing for the exact model.
 
 On service, this page makes no claim about which brand reaches smaller towns faster, because no published document supports a ranking. What you can do is ask each seller for the named service partner for your pincode, call that partner, and ask what they stock and what their recent turnaround on the exact model has been. A brand's wider electrical or battery business is not the same thing as a solar service route. Whichever brand you pick, put the model, serial number, invoice, commissioning date and the first month's generation record in one handover file, because the [warranty claim guide](/blog/solar-inverter-warranty-claim/) shows these are the documents a claim asks for first.
 
@@ -143,6 +153,7 @@ Qbits is the brand that publishes this page, so read this section with that in m
 
 ## Your next steps
 
-- Get itemised quotes for the exact model numbers (for example NXI 150 or NXI T150 and Enviro GTi 5000 D-NG) from two installers each, and ask for the BIS registration number and current certificates for each quoted model.
-- Ask Luminous for the datasheet for the exact variant, and put it beside the Havells catalogue sheet.
-- Check your daily outage hours before choosing topology.
+> [!CHECKLIST] Before you pay either brand
+> - Get itemised quotes for the exact model numbers (for example NXI 150 or NXI T150 and Enviro GTi 5000 D-NG) from two installers each, and ask for the BIS registration number and current certificates for each quoted model.
+> - Ask Luminous for the datasheet for the exact variant, and put it beside the Havells catalogue sheet.
+> - Check your daily outage hours before choosing topology.

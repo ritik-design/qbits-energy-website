@@ -4,7 +4,7 @@ excerpt: "Solar scam cases in India are rising with PM Surya Ghar demand. Learn 
 description: "A consumer protection guide to solar scams in India: fake PM Surya Ghar websites, ghost installers, fake ALMM certificates, inflated generation promises, and the exact verification steps to take before paying any advance."
 category: "Guide"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-solar-scams-india-how-to-avoid.webp"
 author: "Nirav Dhanani"
@@ -44,7 +44,7 @@ The scheme has put solar within reach of crores of households. It has also creat
 
 This guide maps the nine [red flags](https://www.heavengreenenergy.com/blog/red-flags-solar-quote) that expose a solar scam in India. It also covers verification steps that take under an hour, protective contract terms, and what to do if money has already gone. Read it before you pay anyone anything.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The [PM Surya Ghar](/glossary/pm-surya-ghar/) application is 100 percent free at pmsuryaghar.gov.in. Anyone charging a fee to process your subsidy is running a scam.
 > - Maximum central subsidy is Rs 78,000 for 3 kW and above. Promises of higher subsidy are a red flag.
 > - Never pay more than 10 to 20 percent advance. Pay only to a company current account against a GST invoice.
@@ -77,6 +77,9 @@ Most solar scams in India are not sophisticated. They reuse the same nine patter
 
 **Red flag 2: Subsidy promises above Rs 78,000.** The central subsidy is Rs 30,000 per kW up to 2 kW, then Rs 18,000 more per kW. The cap is Rs 78,000. Anyone promising Rs 1 Lakh or more from the centre, or a secret quota, is lying. State top-ups exist but are small and documented in our [solar subsidy guide for all states](/blog/solar-subsidy-all-states/).
 
+> [!EXAMPLE] Why Rs 78,000 is the ceiling for 3 kW
+> 2 kW at Rs 30,000 per kW is Rs 60,000. The third kW adds Rs 18,000. Total: Rs 78,000. Any central subsidy quote above that for a 3 kW system does not follow the scheme slabs.
+
 **Red flag 3: Pressure to pay a large advance today.** "Subsidy ends this week", "only two slots left", "prices rise tomorrow". Genuine vendors do not need urgency. Ghost installers live on urgency because the advance is the whole business model.
 
 **Red flag 4: No verifiable portal registration.** If the vendor cannot give you a registration ID you can check yourself at pmsuryaghar.gov.in, walk away. The [empanelled vendor system under PM Surya Ghar](/blog/empanelled-vendor-pm-surya-ghar/) exists precisely so buyers can verify.
@@ -99,6 +102,9 @@ The playbook is simple. A victim gets an SMS or WhatsApp message saying their PM
 
 The official process never works this way. Subsidy is disbursed after installation, inspection, and grid connection, directly to your bank account through the portal you registered on. There is no stage where the government asks you to pay a fee to receive the subsidy.
 
+> [!CAUTION] Unsolicited approval messages
+> Type pmsuryaghar.gov.in yourself and never click links in an SMS or WhatsApp message. Treat every unsolicited approval message as fake until verified on the real portal. If you already shared bank or UPI details, call 1930 right away.
+
 Protect yourself with three rules. Type pmsuryaghar.gov.in yourself, never click links. Treat every unsolicited approval message as fake until verified on the real portal. Registration on the real portal is free. The correct process is laid out in our [how to apply for PM Surya Ghar online](/blog/pm-surya-ghar-apply-online/) guide.
 
 If you clicked a link and shared details, call 1930 right away. The sooner you report, the higher the chance banks can freeze the transfer before withdrawal. Then file the incident at [cybercrime.gov.in](https://cybercrime.gov.in/).
@@ -113,6 +119,7 @@ The scale is not trivial. In one consumer case, a solar firm was ordered to refu
 
 The defense is a payment structure, not trust:
 
+<!-- steps -->
 1. Pay 10 to 20 percent on signing, against a GST invoice to the company account.
 2. Pay the material milestone, 40 to 50 percent, only after equipment is delivered to your site and you have verified the model numbers against the quote.
 3. Pay the balance after installation, commissioning, and net-meter activation.
@@ -141,6 +148,8 @@ Every genuine approval carries a reference number tied to your consumer number a
 
 Run this checklist for every vendor on your shortlist. It takes under an hour per vendor and filters out nearly every fraud pattern described above.
 
+Table: Vendor verification checks, where to run each and what a pass looks like
+
 | Check | Where to Verify | Pass Condition |
 | --- | --- | --- |
 | Portal registration | pmsuryaghar.gov.in vendor list for your DISCOM | Exact company name and registration ID found |
@@ -160,12 +169,13 @@ A proper contract is your only real protection if things go wrong. Consumer comm
 
 Insist on these clauses, in writing:
 
-- **Equipment schedule.** Exact brand, model number, wattage, and quantity for panels, inverter, structure, cables, and protections. Add a clause that any substitution needs your written approval.
-- **Price and payment schedule.** Total price with GST breakup, tied to the milestone structure from the earlier section.
-- **Timeline with penalty.** Installation start and completion dates, with a per-week delay penalty or refund trigger.
-- **Warranty terms.** Panel product and performance warranty, inverter warranty, and workmanship warranty, each with duration and claim process. For context, some Indian makers offer long inverter warranties of 10 to 12 years, but the term, remedy and exclusions matter more than the headline number, so treat anything unstated as nonexistent.
-- **DISCOM and subsidy responsibility.** Who files the net-metering application, who follows up the subsidy claim, and what happens if vendor error causes rejection.
-- **Exit clause.** Refund terms if the vendor abandons the project.
+> [!CHECKLIST] Clauses to insist on
+> - **Equipment schedule.** Exact brand, model number, wattage, and quantity for panels, inverter, structure, cables, and protections. Add a clause that any substitution needs your written approval.
+> - **Price and payment schedule.** Total price with GST breakup, tied to the milestone structure from the earlier section.
+> - **Timeline with penalty.** Installation start and completion dates, with a per-week delay penalty or refund trigger.
+> - **Warranty terms.** Panel product and performance warranty, inverter warranty, and workmanship warranty, each with duration and claim process. For context, some Indian makers offer long inverter warranties of 10 to 12 years, but the term, remedy and exclusions matter more than the headline number, so treat anything unstated as nonexistent.
+> - **DISCOM and subsidy responsibility.** Who files the net-metering application, who follows up the subsidy claim, and what happens if vendor error causes rejection.
+> - **Exit clause.** Refund terms if the vendor abandons the project.
 
 If a vendor refuses to put these in writing, that refusal is the review. A serious installer signs this contract in one meeting.
 
@@ -173,6 +183,7 @@ If a vendor refuses to put these in writing, that refusal is the review. A serio
 
 Speed matters more than anything else. Follow this order.
 
+<!-- steps -->
 1. **Call 1930 now.** The national cybercrime helpline can initiate a freeze on the recipient account. Every hour of delay lowers the odds of recovering funds.
 2. **File at cybercrime.gov.in.** Use the National Cyber Crime Reporting Portal and attach everything: receipts, bank references, chats, the contract, photos of any equipment delivered.
 3. **Alert your bank.** Report the fraud, block linked cards or UPI handles, and get the complaint reference number in writing.

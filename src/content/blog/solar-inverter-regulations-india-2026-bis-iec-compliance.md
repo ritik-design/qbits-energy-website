@@ -34,18 +34,18 @@ relatedSlugs:
   - almm-list-phase-iii-guide
 ---
 
-> **Quick answers, checked 26 September 2026**
->
+> [!KEYTAKEAWAYS] Key takeaways, checked 26 September 2026
 > - BIS and ALMM are not competing certificates. They answer different questions.
 > - India’s 2025 solar-goods order covers inverter safety and performance standards.
 > - ALMM List-I covers modules. List-II covers cells. Neither is an inverter list.
 > - A standard printed on a datasheet is not the current licence or registration evidence.
-> - Subsidy, tender and DISCOM acceptance remain separate project checks.
-> - Stock the exact model only after its documents, markings and intended project route match.
+> - Subsidy, tender and DISCOM acceptance remain separate project checks. Stock the exact model only after its documents, markings and intended project route match.
 
 **Short version.** Before stocking a solar inverter brand, verify the exact model against the current BIS route created by the applicable Quality Control Order. Use ALMM only for the module and cell questions it actually covers. Then check the scheme, tender and DISCOM requirements for the projects that will use the stock.
 
 ## BIS vs ALMM: the decision table
+
+Table: BIS, IEC, ALMM, scheme and DISCOM checks compared by what each covers and what it does not prove
 
 | Check | What it covers | Product level | What it does not prove |
 | --- | --- | --- | --- |
@@ -66,6 +66,8 @@ The [official 2025 QCO notice](https://mnre.gov.in/en/notice/notification-for-so
 
 For inverters, the order divides the equipment into two entries.
 
+Table: Standards named in the Solar Systems, Devices and Components Goods Order, 2025 for the two inverter entries
+
 | QCO entry | Standards named in the 2025 order | Decision the standard addresses |
 | --- | --- | --- |
 | Power inverters for photovoltaic power systems | IS 16221 (Part 2): 2015 / IEC 62109-2: 2011; IS/IEC 61683: 1999 | Inverter safety; efficiency measurement procedure |
@@ -79,11 +81,10 @@ Capacity changes the evidence route. MNRE notification **S.O. 3706(E), dated 3 J
 
 The [official July 2026 notification](https://mnre.gov.in/en/notice/notification-regarding-implementation-of-solar-systems-devices-and-components-goods-order-2025/) permits conditional self-certification for those units. It requires the manufacturer to hold the corresponding valid IEC certificates and test reports from accredited laboratories named by the notification.
 
-Three boundaries are easy to miss:
-
-1. It applies to capacity **above 200 kW**, not 200 kW and below.
-2. It expires on the earlier of 31 December 2026 or a further order.
-3. It is not a waiver of evidence. It specifies a different, conditional evidence route.
+> [!IMPORTANT] Three boundaries of the above-200 kW route
+> - It applies to capacity **above 200 kW**, not 200 kW and below.
+> - It expires on the earlier of 31 December 2026 or a further order.
+> - It is not a waiver of evidence. It specifies a different, conditional evidence route.
 
 If stock may be delivered after the cut-off, record who must recheck the order and what happens if the route changes before dispatch or commissioning.
 
@@ -98,7 +99,8 @@ ALMM means **Approved List of Models and Manufacturers**. The [MNRE ALMM page](h
 
 MNRE also states that only List-I module models and manufacturers are eligible for use in government projects, government-assisted projects, projects under government schemes and programmes, open-access projects and net-metering projects installed in India, including the other categories specified on that page.
 
-There is no inverter list on the solar ALMM page. An inverter seller saying “ALMM approved” should be asked which official list, exact product and model the statement refers to. If the answer is an inverter, the wording is wrong.
+> [!WARNING] No inverter list exists on the solar ALMM page
+> There is no inverter list on the solar ALMM page. An inverter seller saying “ALMM approved” should be asked which official list, exact product and model the statement refers to. If the answer is an inverter, the wording is wrong.
 
 The [detailed ALMM scope guide](/blog/almm-list-phase-iii-guide/) owns the module, cell and current exception questions. This page keeps the narrower stocking decision: do not substitute an ALMM claim for the inverter’s own QCO and BIS evidence.
 
@@ -113,6 +115,8 @@ That programme is not ALMM and is not a BIS licence. Before quoting for PM Surya
 ## The grid side: CEA connectivity regulations and the DISCOM
 
 BIS covers the product. The connection to the distribution network is governed separately. The national reference is the Central Electricity Authority's Technical Standards for Connectivity below 33 kilovolts Regulations, 2013, dated 30 September 2013, with an amendment dated 6 February 2019. They apply to distributed generation resources, charging stations and prosumers connected to the system below 33 kV. A [CEA regulation summary hosted by CBIP](https://www.cbip.org/cearegulations/CEA%20DATA/Connectivity/Connectivity%20Regulation/Summary%20Connectivity%20Regulation.pdf){target="_blank" rel="noopener"} states the following for distributed generation using inverters, checked on 14 October 2026.
+
+Table: CEA connectivity requirements for inverter-based distributed generation, as summarised by CBIP (checked 14 October 2026)
 
 | Topic | What the summary states |
 | --- | --- |
@@ -141,20 +145,23 @@ For other projects, the controlling document may be a tender schedule, owner spe
 
 Use a separate row for every exact SKU. “Brand approved” is not a useful status.
 
-1. **Freeze the complete model name.** Match the quote, nameplate format, datasheet and proposed invoice description.
-2. **Classify the product.** Confirm whether the QCO’s power-inverter or utility-interconnected entry applies and whether another category is relevant.
-3. **Obtain the current authority record.** Ask for the BIS licence or registration evidence, including its number, holder, status, standards and model scope.
-4. **Verify the record independently.** Use the [BIS Compulsory Registration Scheme public search](https://www.crsbis.in/BIS/), not a cropped supplier image.
-5. **Match every scope field.** Check legal entity, manufacturing location where shown, exact model or declared series, standard edition, issue date, validity and limitations.
-6. **Handle the above-200 kW route separately.** If applicable, obtain the IEC certificates and accredited-laboratory reports required by the current extension, then recheck the cut-off.
-7. **Map the intended project class.** Record the scheme, tender, state, DISCOM and commissioning date that will govern likely use.
-8. **Set a stop-stock trigger.** Define what happens when evidence expires, a model changes, a licence is suspended or the project route changes.
+> [!CHECKLIST] The eight checks, one row per exact SKU
+> - **Freeze the complete model name.** Match the quote, nameplate format, datasheet and proposed invoice description.
+> - **Classify the product.** Confirm whether the QCO’s power-inverter or utility-interconnected entry applies and whether another category is relevant.
+> - **Obtain the current authority record.** Ask for the BIS licence or registration evidence, including its number, holder, status, standards and model scope.
+> - **Verify the record independently.** Use the [BIS Compulsory Registration Scheme public search](https://www.crsbis.in/BIS/), not a cropped supplier image.
+> - **Match every scope field.** Check legal entity, manufacturing location where shown, exact model or declared series, standard edition, issue date, validity and limitations.
+> - **Handle the above-200 kW route separately.** If applicable, obtain the IEC certificates and accredited-laboratory reports required by the current extension, then recheck the cut-off.
+> - **Map the intended project class.** Record the scheme, tender, state, DISCOM and commissioning date that will govern likely use.
+> - **Set a stop-stock trigger.** Define what happens when evidence expires, a model changes, a licence is suspended or the project route changes.
 
 The [datasheet-reading guide](/blog/how-to-read-solar-inverter-datasheets/) explains how to carry the exact model into a BOQ and tender matrix. The [supplier qualification guide](/blog/inverter-suppliers-india/) covers authorised supply, warranty execution and service evidence after the compliance hard gate.
 
 ## What to put in the stock file
 
 Keep a controlled file for each model and revision.
+
+Table: Minimum contents of a stock file for each inverter model and revision
 
 | Record | Minimum fields |
 | --- | --- |
@@ -170,15 +177,14 @@ Record the source URL and the date checked. A file named `BIS certificate latest
 
 ## Common claims that should stop the purchase
 
-Pause the stock decision when a supplier says:
-
-- “The whole brand is BIS approved.”
-- “IEC is international, so BIS is unnecessary.”
-- “The inverter is ALMM listed.”
-- “Tier 1 means the inverter is certified.”
-- “The same certificate covers every capacity.”
-- “The tender will accept it because the DISCOM accepted another model.”
-- “The certificate is being renewed, so you can order now.”
+> [!CAUTION] Pause the stock decision when a supplier says
+> - “The whole brand is BIS approved.”
+> - “IEC is international, so BIS is unnecessary.”
+> - “The inverter is ALMM listed.”
+> - “Tier 1 means the inverter is certified.”
+> - “The same certificate covers every capacity.”
+> - “The tender will accept it because the DISCOM accepted another model.”
+> - “The certificate is being renewed, so you can order now.”
 
 None of these statements supplies the missing evidence. Record the gap and ask for the current document or an answer from the controlling authority.
 

@@ -39,7 +39,7 @@ relatedSlugs:
 - dual-mppt-vs-single-mppt
 ---
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - Each brand sells several families, so a brand level verdict does not survive contact with a real project.
 > - Compare on-grid with on-grid, or hybrid with hybrid, at matched capacity. The tables below do that with each manufacturer's own datasheet.
@@ -65,6 +65,8 @@ So the useful question is never which brand. It is which of these two specific m
 ## Single-phase on-grid: SG5.0RS-L against MIN 5000TL-X2
 
 The Sungrow SG5.0RS-L is the 5 kW member of the residential family that Sungrow's India site lists for India. Its datasheet is the India version (version 14, 2025). The Growatt MIN 5000TL-X2 is the 5 kW member of Growatt's residential on-grid family. Both are single-phase, dual-MPPT, transformerless string inverters.
+
+Table: Single-phase 5 kW on-grid, Sungrow SG5.0RS-L against Growatt MIN 5000TL-X2, from each manufacturer's datasheet (read 14 October 2026)
 
 | Item | Sungrow SG5.0RS-L | Growatt MIN 5000TL-X2 |
 | --- | --- | --- |
@@ -104,6 +106,8 @@ The two datasheets are close on almost every row: rated output, tracker count, o
 
 For commercial work the comparable pair at 20 kW is the Sungrow SG20RT-P2 and the Growatt MID 20KTL3-X2. Sungrow's India site lists the SG15/20RT-P2 family, and the datasheet below is Sungrow's version 2 (2023) for the SG15/17/20RT-P2, which is a global datasheet, so check the India version for your supply.
 
+Table: Three-phase 20 kW on-grid, Sungrow SG20RT-P2 against Growatt MID 20KTL3-X2, from each manufacturer's datasheet
+
 | Item | Sungrow SG20RT-P2 | Growatt MID 20KTL3-X2 |
 | --- | --- | --- |
 | MPPT trackers / strings per tracker | 2 / 2 | 2 / 2 |
@@ -128,6 +132,8 @@ At this size the two are even closer. They match on tracker count, input limits 
 
 If a battery is part of the purchase, the datasheets show why a brand comparison is not enough. The table compares the Sungrow SH5.0RS-20 with the Growatt SPH 5000TL BL-UP. Note that Sungrow's India site currently lists the MG5/6RL as its single-phase residential hybrid, and the SH5.0RS-20 is a global datasheet, so confirm the model your dealer would supply.
 
+Table: 5 kW single-phase hybrid, Sungrow SH5.0RS-20 against Growatt SPH 5000TL BL-UP, from each manufacturer's datasheet
+
 | Item | Sungrow SH5.0RS-20 | Growatt SPH 5000TL BL-UP |
 | --- | --- | --- |
 | Battery type / voltage range | Lithium-ion, 80 to 460 V (high voltage) | Lithium or lead-acid, 42 to 59 V (low voltage) |
@@ -141,11 +147,14 @@ If a battery is part of the purchase, the datasheets show why a brand comparison
 
 Sources: [Sungrow SH5.0/6.0RS-20 datasheet, 2024](https://info-support.sungrowpower.com/datasheet-materials/3401c124-446a-494d-a6e4-0c6bcaf47b41.pdf); [Growatt SPH 3000-6000TL BL-UP datasheet, April 2026](https://en.growatt.com/upload/file/SPH_3000-6000TL_BL-UP_Datasheet_202604.pdf). For the Sungrow MG5/6RL listed on its India site, the product page lists a 500 V maximum PV voltage, 97.6% maximum efficiency, switchover of 4 ms or less, IP65/C5 and 200% overload output for 10 seconds, and the full datasheet is linked on [that page](https://www.sungrowpower.com/in/en/products/residential-energy-storage-system/mgrl).
 
-The key difference is the battery. A 48 V class battery and an 80 to 460 V class battery are different products, with different suppliers, cabling and safety arrangements. Choose the battery you want first, then the inverter that the manufacturer lists as compatible, and obtain the compatibility document naming both model numbers and the firmware.
+> [!IMPORTANT] Pick the battery class before the inverter
+> The key difference is the battery. A 48 V class battery and an 80 to 460 V class battery are different products, with different suppliers, cabling and safety arrangements. Choose the battery you want first, then the inverter that the manufacturer lists as compatible, and obtain the compatibility document naming both model numbers and the firmware.
 
 ## The worksheet that settles it
 
 Use the same sheet for both quotes. Fill the right-hand column from the datasheet and the written terms, and leave a cell blank if the document does not state it.
+
+Table: Quote comparison worksheet to fill from the datasheet and the written terms
 
 | Requirement | Sungrow quote | Growatt quote | What to verify |
 | --- | --- | --- | --- |
@@ -176,6 +185,8 @@ Sungrow's residential datasheets describe one-click access to the iSolarCloud pl
 
 Ask each authorised seller for the written warranty document rather than a duration quoted in conversation. Read the remedy, whether labour and transport are covered, the registration requirement and the exclusions. What the two manufacturers publish, read on 14 October 2026:
 
+Table: Warranty clauses as published by Sungrow and Growatt, read 14 October 2026
+
 | Clause | Sungrow | Growatt |
 | --- | --- | --- |
 | Standard term | The India product page states none. Sungrow's APAC warranty terms list 5 years for string inverters sold through dealers and distributors, no more than 6 years since the production date | The datasheets list 5 years standard, 10 years optional; the page refers to a "5 years standard factory warranty" |
@@ -187,16 +198,18 @@ Ask each authorised seller for the written warranty document rather than a durat
 
 Sources: [Sungrow warranty terms](https://www.sungrowpowerservice.com/Page/Warranty/warranty-term) and the [Growatt warranty page](https://en.growatt.com/support/warranty). Neither is an India-specific contract. Sungrow's India warranty link leads to a country selector without terms, so obtain the document that applies to your sale.
 
-Two practical points. The clock can start before you switch the inverter on, so put the production or delivery date and the installation date on the handover record. And a coastal site changes the Sungrow answer completely, because the distance clause can reduce or void cover. Read it before the specification sheet.
+> [!WARNING] Coastal sites change the Sungrow warranty answer
+> Two practical points. The clock can start before you switch the inverter on, so put the production or delivery date and the installation date on the handover record. And a coastal site changes the Sungrow answer completely, because the distance clause can reduce or void cover. Read it before the specification sheet.
 
 ## Service in India
 
 Both manufacturers list an India route for claims and neither list tells you who visits your site. Growatt's contact page lists Growatt New Projects Pvt Ltd in Hyderabad with a toll-free line and a service email. Sungrow's India product page shows no India phone, email or address and links to a distributor finder and a home-support page. Ask each authorised seller:
 
-- Which legal entity accepts a claim, and through which channel?
-- Which named service partner covers my pincode, and do they hold the replacement board today?
-- Who bears removal, transport and refit costs under the remedy?
-- How long does the maker commit to supplying spares after the warranty term ends?
+> [!CHECKLIST] Questions for each authorised seller
+> - Which legal entity accepts a claim, and through which channel?
+> - Which named service partner covers my pincode, and do they hold the replacement board today?
+> - Who bears removal, transport and refit costs under the remedy?
+> - How long does the maker commit to supplying spares after the warranty term ends?
 
 The answers matter more than any national centre count. The [warranty claim guide](/blog/solar-inverter-warranty-claim/) covers the evidence a claim needs.
 

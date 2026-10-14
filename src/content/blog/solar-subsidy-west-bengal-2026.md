@@ -45,12 +45,11 @@ This guide answers them from primary documents, then covers eligibility, documen
 
 **Checked on 14 October 2026.** We read MNRE's guideline text and WBSEDCL's Procedure-C PDF directly. We could not open pmsuryaghar.gov.in, and we could not read the final WBERC 2025 regulation text, so those points rest on trade-press summaries and are labelled that way.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Central assistance is ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third, capped at ₹78,000, per MNRE operational guidelines (2024).
 > - A West Bengal state top-up of ₹5,000, ₹10,000, and ₹15,000 by slab was announced in July 2026 and reported by trade press, but no official state notification could be located.
 > - WBSEDCL PROCEDURES-C (2021) allowed net metering only up to 5 kW of sanctioned load for non-agricultural consumers. WBERC's 2025 prosumer regulations are reported to let prosumers choose net metering, net billing or gross metering, so confirm which rule your utility applies.
-> - Installed capacity must be at least 1 kWp and must not exceed your contract demand or sanctioned load, except for government-funded or scheme projects.
-> - Rooftop systems up to 10 kW need no technical feasibility study under the central Rules as amended in February 2024. Above 10 kW, the study clock is 15 days. Installation windows are 180 days under Procedure-C (2021).
+> - Installed capacity must be at least 1 kWp and must not exceed your contract demand or sanctioned load, except for government-funded or scheme projects. Rooftop systems up to 10 kW need no technical feasibility study under the central Rules as amended in February 2024. Above 10 kW, the study clock is 15 days. Installation windows are 180 days under Procedure-C (2021).
 > - Domestic Content Requirement modules are mandatory. Non-DCR equipment makes the installation ineligible, per MNRE (2024).
 
 **Short version.** Eligible West Bengal homes receive central assistance of ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third kWp, capped at ₹78,000, under MNRE PM Surya Ghar guidelines (2024). A state top-up was announced in July 2026 but no official notification is publicly traceable. Apply on the national portal, then follow your licensee's current procedure for feasibility, metering, and synchronisation.
@@ -59,7 +58,12 @@ This guide answers them from primary documents, then covers eligibility, documen
 
 West Bengal is not a special category state under the scheme, so central financial assistance follows the standard national structure with no regional uplift. MNRE fixed the benchmark cost at ₹50,000 per kW for the first 2 kW and ₹45,000 for the additional kW, with effect from 13 February 2024. Assistance is 60% of the benchmark on the first 2 kWp and 40% on the third.
 
+> [!FORMULA] Central assistance for a residential system
+> ₹30,000 × first 2 kWp + ₹18,000 × third kWp, with no central assistance beyond 3 kWp
+
 The resulting amounts, taken directly from MNRE's own illustrations in the operational guidelines (2024):
+
+Table: Central assistance by installed DC capacity under MNRE PM Surya Ghar guidelines (2024)
 
 | Installed DC capacity | Arithmetic | Central assistance |
 | --- | --- | --- |
@@ -69,6 +73,21 @@ The resulting amounts, taken directly from MNRE's own illustrations in the opera
 | 2.5 kWp | ₹30,000 x 2 plus ₹18,000 x 0.5 | ₹69,000 |
 | 3 kWp | ₹30,000 x 2 plus ₹18,000 x 1 | ₹78,000 |
 | 6 kWp | ₹30,000 x 2 plus ₹18,000 x 1 | ₹78,000 |
+
+```chart
+type: bar
+title: Central assistance by installed DC capacity, residential PM Surya Ghar
+unit: "₹"
+source: "MNRE operational guidelines for PM Surya Ghar residential CFA (2024), amounts as illustrated in the guidelines and shown in the table above"
+note: "Central assistance only. The announced West Bengal state top-up is not included because no official notification could be verified."
+data:
+  - { label: "1 kWp", value: 30000 }
+  - { label: "1.5 kWp", value: 45000 }
+  - { label: "2 kWp", value: 60000 }
+  - { label: "2.5 kWp", value: 69000 }
+  - { label: "3 kWp", value: 78000 }
+  - { label: "6 kWp", value: 78000 }
+```
 
 Two details matter more than the headline. Assistance is calculated on rated DC module capacity, not inverter rating, per MNRE (2024). A pre-existing system that already drew assistance can only claim on the balance capacity up to 3 kW overall. Our [national scheme guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers the shared rules.
 
@@ -80,11 +99,14 @@ West Bengal launched PM Surya Ghar at the state secretariat in July 2026 and ann
 
 We could not locate the underlying order on any West Bengal government domain, and WBSEDCL's published subsidy pages do not carry those amounts. A second check on 14 October 2026 found installer guides that say there is no separate state top-up for homes, and no official source that confirms one. Figures for the Scheduled Caste and Scheduled Tribe grant conflict too. The 2026-27 state Budget announced ₹5,000 for SC and ST beneficiaries alongside a ₹100 crore rooftop allocation, according to Energetica India (2026), while later coverage reported ₹15,000.
 
-So the accurate statement is this. A residential state top-up has been announced but is not documented in any official notification we could verify. One West Bengal state subsidy is documented: under KUSUM-C for agricultural consumers, WBSEDCL states 30% comes from the state and 30% from the centre. Different scheme, different consumer class.
+> [!IMPORTANT] The state top-up is announced, not documented
+> So the accurate statement is this. A residential state top-up has been announced but is not documented in any official notification we could verify. One West Bengal state subsidy is documented: under KUSUM-C for agricultural consumers, WBSEDCL states 30% comes from the state and 30% from the centre. Different scheme, different consumer class.
 
 ## Which utility you belong to decides everything
 
 Your process is set by the licensee named on your bill, not by your district. West Bengal has several distribution licensees, and a form or timeline from one does not carry across to another. Vendors often show a Kolkata process to a consumer in Bankura, or the reverse. Check the bill first.
+
+Table: West Bengal distribution licensees and the area each serves
 
 | Licensee | Typical area |
 | --- | --- |
@@ -99,6 +121,7 @@ Everything below is the WBSEDCL route. If your bill names another licensee, ask 
 
 WBSEDCL PROCEDURES-C (2021) is the connection procedure WBSEDCL published for solar PV under net metering and net billing. It was framed under regulation 16.9 of the WBERC renewable energy regulations as amended, and states an effective date of 1 January 2022. WBERC's 2025 prosumer regulations require licensees to publish updated procedures and an online portal, so check WBSEDCL's [solar process page](https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Solar/Process%20Flow%20for%20SPV%20Connection.pdf) for the version in force. The steps below follow the 2021 procedure as the last version we could read in full.
 
+<!-- steps -->
 1. Register on the national PM Surya Ghar portal with the consumer account number exactly as printed on your bill, and pick a vendor registered on the portal.
 2. Submit Form S1 in duplicate to WBSEDCL, online or at the office that issues your energy bill, with the ₹500 plus GST application fee for LV and MV consumers.
 3. Wait for the premises inspection. WBSEDCL gives at least 3 days notice and checks distribution transformer constraints and whether service alteration is needed.
@@ -114,6 +137,8 @@ One clause catches people out. Cumulative solar capacity on a feeder or distribu
 This is the section most West Bengal pages get wrong, and it changes the economics more than the subsidy does. MNRE guidelines (2024) cite the Electricity (Rights of Consumers) Rules, 2020, under which applications up to 10 kW are deemed accepted without separate technical feasibility approval (the [PIB release on the February 2024 amendment](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2008289) explains the change). Many national guides stop there and imply 10 kW net metering everywhere.
 
 In West Bengal the metering choice is set by the state regulator, not by the Rules. WBSEDCL PROCEDURES-C (2021) stated the position this way.
+
+Table: Metering arrangement by consumer category and load under WBSEDCL PROCEDURES-C (2021)
 
 | Consumer and load | Arrangement |
 | --- | --- |
@@ -152,6 +177,8 @@ On costs, Procedure-C lists the application fee, the net or consumer meter and m
 
 Procedure-C (2021) set outer limits for each stage. They are useful because a delay beyond them is a legitimate escalation, not a complaint about slow service. Track the dates yourself. For rooftop systems up to 10 kW the feasibility inspection row may no longer apply, because the amended central Rules and the reported 2025 WBERC regulations remove the feasibility study at that size.
 
+Table: Stage-by-stage time limits under WBSEDCL PROCEDURES-C (2021)
+
 | Stage | Limit under Procedure-C (2021) |
 | --- | --- |
 | Technical feasibility and eligibility inspection | 20 days from receipt of application |
@@ -178,13 +205,14 @@ This is a worked example built only from published figures and stated assumption
 
 Assumptions: a domestic WBSEDCL consumer, sanctioned load of 5 kW or less, a 3 kWp DCR module array, standard state benchmark costs, and MNRE guidelines as published in 2024.
 
-1. Benchmark cost of the first 2 kWp: ₹50,000 x 2 = ₹1,00,000.
-2. Benchmark cost of the third kWp: ₹45,000 x 1 = ₹45,000.
-3. Total benchmark cost: ₹1,45,000.
-4. Central assistance on the first 2 kWp at 60%: ₹30,000 x 2 = ₹60,000.
-5. Central assistance on the third kWp at 40%: ₹18,000 x 1 = ₹18,000.
-6. Total central assistance: ₹78,000, which is about 53.8% of the benchmark cost.
-7. Balance payable at benchmark cost: ₹1,45,000 minus ₹78,000 = ₹67,000.
+> [!EXAMPLE] Subsidy arithmetic for a 3 kWp home
+> 1. Benchmark cost of the first 2 kWp: ₹50,000 x 2 = ₹1,00,000.
+> 2. Benchmark cost of the third kWp: ₹45,000 x 1 = ₹45,000.
+> 3. Total benchmark cost: ₹1,45,000.
+> 4. Central assistance on the first 2 kWp at 60%: ₹30,000 x 2 = ₹60,000.
+> 5. Central assistance on the third kWp at 40%: ₹18,000 x 1 = ₹18,000.
+> 6. Total central assistance: ₹78,000, which is about 53.8% of the benchmark cost.
+> 7. Balance payable at benchmark cost: ₹1,45,000 minus ₹78,000 = ₹67,000.
 
 If the announced ₹15,000 top-up at this slab is live for your application and routed through the portal, the balance at benchmark falls to ₹52,000. Treat that line as conditional, because we could not verify the top-up from an official notification.
 
@@ -209,6 +237,7 @@ Rules in West Bengal vary by licensee, consumer category, and sanctioned load, a
 
 Inverter selection sits inside this process too. Procedure-C requires an automatic inverter with a synchronisation device, anti-islanding detection, and harmonic distortion within CEA limits, so grid-code compliance is an approval condition. Qbits is an inverter manufacturer and does not supply modules, install systems or file subsidy claims. Compare grid-tied options on the [on-grid inverter page](/on-grid-inverter/), look at the [hybrid inverter range](/hybrid-inverter/) if you want battery backup, and use the [service partner directory](/authorized-service-partners/) to see who supports Qbits inverters near you. Installers who want to supply them can use the [partner programme](/become-our-partner/).
 
-- Pull your bill, confirm the licensee and your sanctioned load, and check whether 5 kW puts you on net metering or net billing before sizing anything.
-- Ask any vendor for the state top-up notification by name and date, and refuse to net it off the quote until it appears on your portal application.
-- Send your sanctioned load, phase, and proposed array size to [the Qbits team](/contact-us/) for a model-specific inverter enquiry, or rough out the string layout with the [string sizing calculator](/string-sizing-calculator/).
+> [!CHECKLIST] Three actions before you size anything
+> - Pull your bill, confirm the licensee and your sanctioned load, and check whether 5 kW puts you on net metering or net billing before sizing anything.
+> - Ask any vendor for the state top-up notification by name and date, and refuse to net it off the quote until it appears on your portal application.
+> - Send your sanctioned load, phase, and proposed array size to [the Qbits team](/contact-us/) for a model-specific inverter enquiry, or rough out the string layout with the [string sizing calculator](/string-sizing-calculator/).

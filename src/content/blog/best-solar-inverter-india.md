@@ -51,8 +51,7 @@ This page is about **which model to compare**. If you want a plain list of [sola
 
 **Disclosure:** Qbits publishes this guide and sells solar inverters. Qbits appears as one of the ten entries, in alphabetical order, described only with its own datasheet figures and under the same rules as every other brand. There are no scores or ranks on this page.
 
-> **Short answer by use case**
->
+> [!KEYTAKEAWAYS]
 > - Reliable grid, no backup needed, single-phase home: compare exact 5 kW single-phase on-grid models on MPPT window, input current and enclosure. Nine of the ten entries below are in this class.
 > - East-west or two-plane roof: shortlist models with two independent MPPTs, then check each string.
 > - Frequent power cuts: you need a hybrid or battery-ready architecture with a named, compatible battery. A plain on-grid inverter shuts down when the grid fails.
@@ -77,6 +76,8 @@ This is not an exhaustive market list. Other makers publish comparable models, a
 ## Quick-pick table by use case
 
 The table shows what to look for and which entries in this guide publish it. It does not pick a winner, because that would need field data nobody has published.
+
+Table: Quick-pick by use case: what to look for on the datasheet and which entries publish it (no winner is named)
 
 | Use case | What to look for on the datasheet | Entries that publish it |
 | --- | --- | --- |
@@ -106,7 +107,8 @@ Eight factors matter more than a headline efficiency number.
 
 **Written warranty.** Ask for the document for the exact model. Years alone say nothing about the remedy, the issuing entity or who pays for labour and freight. See the [warranty guide](/blog/solar-inverter-warranty/).
 
-**ALMM and compliance.** MNRE's [Approved List of Models and Manufacturers](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes List-I for solar PV modules and List-II for solar PV cells. It is not an inverter approval list. For an inverter, ask for the applicable BIS registration and test reports for the exact model, and check the scheme and DISCOM requirements separately. See solar inverter certifications.
+> [!IMPORTANT] ALMM is a module and cell list, not an inverter approval
+> **ALMM and compliance.** MNRE's [Approved List of Models and Manufacturers](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes List-I for solar PV modules and List-II for solar PV cells. It is not an inverter approval list. For an inverter, ask for the applicable BIS registration and test reports for the exact model, and check the scheme and DISCOM requirements separately. See solar inverter certifications.
 
 ## Ten solar inverters compared: one exact model each
 
@@ -224,6 +226,8 @@ Each entry lists the exact model, the figures from the source, who it may suit, 
 
 ## Master comparison table
 
+Table: Master comparison of ten exact models from each brand's own datasheet or product page, October 2026 (alphabetical, not ranked)
+
 | Brand and exact model | Phase and AC rating | MPPTs and window | Max efficiency | IP | Monitoring route as published |
 | --- | --- | --- | --- | --- | --- |
 | Fronius Primo GEN24 5.0 | Single, 5 kW | 2; 230–530 V | 97.6% | IP66 | WLAN, Ethernet, Solar.web |
@@ -236,6 +240,26 @@ Each entry lists the exact model, the figures from the source, who it may suit, 
 | Sungrow SG5.0RS-L | Single, 5 kW | 2; 40–560 V | 97.9% | IP65 | WLAN; iSolarCloud |
 | UTL F-series 10 kW (GT-10P0-GX-T2) | Three, 10 kW | 2; 200–1000 V | 98.3% | IP65 | UTL SOLAR App; RS485/RS232/Wi-Fi/LAN |
 | Waaree Single Phase 5000 | Single, 5 kW | 2; 80–550 V | 97.4% | IP65 | Optional LAN/WiFi/GPRS/4G |
+
+```chart
+type: hbar
+title: Maximum efficiency printed for each of the ten compared models
+unit: "%"
+source: "Each brand's own datasheet or product page, read October 2026, as listed in the master comparison table above"
+note: "Alphabetical, not ranked. Peak operating point only, not annual yield. UTL is a 10 kW three-phase model; Luminous prints 'up to' 98.4%."
+decimals: 2
+data:
+  - { label: "Fronius Primo GEN24 5.0", value: 97.6 }
+  - { label: "Growatt MIN 5000TL-X", value: 98.4 }
+  - { label: "Havells Enviro GTi 5000 D-NG", value: 98.4 }
+  - { label: "Luminous NXI T150 (up to)", value: 98.4 }
+  - { label: "Microtek GTI 5KW-M12", value: 98.4 }
+  - { label: "Qbits QB 4/5/6 KTLD", value: 98.1 }
+  - { label: "Solis S6-GR1P5K-S", value: 97.7 }
+  - { label: "Sungrow SG5.0RS-L", value: 97.9 }
+  - { label: "UTL F-series 10 kW", value: 98.3 }
+  - { label: "Waaree Single Phase 5000", value: 97.4 }
+```
 
 Per-MPPT current limits: Fronius 22/12 A, Growatt 13.5 A, Havells 15/15 A, Microtek 15/15 A, Qbits 20/20 A, Solis 16/16 A, Sungrow 16/16 A, UTL 20 A, Waaree 14 A. Luminous does not state it on the page.
 
@@ -251,7 +275,8 @@ Nine entries share the same class: 5 kW and single phase. Eight of them state tw
 
 **Enclosure.** Fronius, Qbits and Solis publish IP66; the others IP65. That is a laboratory ingress class, not field reliability.
 
-**Efficiency.** The published maximum figures run from 97.4% to 98.4%. These are peak operating points. Read the [peak versus weighted efficiency note](/blog/peak-vs-weighted-inverter-efficiency/) before using a decimal difference to choose. Use efficiency as a late tie-breaker after the array, phase, MPPT and current checks pass.
+> [!TIP] Use efficiency as a late tie-breaker
+> **Efficiency.** The published maximum figures run from 97.4% to 98.4%. These are peak operating points. Read the [peak versus weighted efficiency note](/blog/peak-vs-weighted-inverter-efficiency/) before using a decimal difference to choose. Use efficiency as a late tie-breaker after the array, phase, MPPT and current checks pass.
 
 If your quote specifies 6 kW, use the [exact 6 kW on-grid comparison](/blog/best-six-kw-solar-inverter-india/); different families apply. For other sizes see 3 kW, [5 kW](/blog/best-5kw-solar-inverter-india-2026/) and 10 kW.
 
@@ -262,6 +287,8 @@ Official datasheets are strong evidence for model specifications and weak eviden
 ## Compare hybrid inverters on hybrid dimensions
 
 Do not put a hybrid beside the on-grid table and call it better because it has a battery port. It does a different job. Compare these fields:
+
+Table: Hybrid inverter comparison fields and what to obtain in writing
 
 | Hybrid comparison field | What to obtain in writing |
 | --- | --- |
@@ -305,13 +332,14 @@ The Indian-versus-international question is mostly about documents and service, 
 
 **Essential for every installation**
 
-- Exact model code and a current datasheet for that variant
-- Phase and AC rating that match the connection and DISCOM limits
-- String calculation using the chosen module, within voltage and current limits
-- Anti-islanding and grid-protection functions that meet the DISCOM's requirements
-- Applicable BIS registration for the model
-- Written warranty with issuing entity, remedy and exclusions
-- Named service party for your PIN code
+> [!CHECKLIST] Essential for every installation
+> - Exact model code and a current datasheet for that variant
+> - Phase and AC rating that match the connection and DISCOM limits
+> - String calculation using the chosen module, within voltage and current limits
+> - Anti-islanding and grid-protection functions that meet the DISCOM's requirements
+> - Applicable BIS registration for the model
+> - Written warranty with issuing entity, remedy and exclusions
+> - Named service party for your PIN code
 
 **Important, depending on the roof and budget**
 
@@ -329,6 +357,7 @@ The Indian-versus-international question is mostly about documents and service, 
 
 ## How to choose from here
 
+<!-- steps -->
 1. Decide whether outage backup is required.
 2. Confirm the connection phase and proposed AC rating.
 3. Get the exact module and a string layout.

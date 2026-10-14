@@ -4,7 +4,7 @@ excerpt: "Solar ka loan kaise milta hai: PM Surya Ghar collateral-free route, in
 description: "Rooftop solar ke liye loan kaise le? PM Surya Ghar concessional loan, interest rate bands, tenure options, EMI calculation, documents, aur cash vs personal loan comparison, Hindi में।"
 category: "Buying Guide"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "13 min"
 image: "/og/blog-solar-ka-loan-hindi.webp"
 author: "Akash Hirapara"
@@ -39,7 +39,7 @@ language: hi
 
 Solar system का सबसे बड़ा rukawat कीमत नहीं है, timing है। 3 kW का system लगवाने में ₹1.6 lakh से ₹2 lakh एक साथ निकालने पड़ते हैं, जबकि उसका फायदा 20 साल तक थोड़ा-थोड़ा करके आता है। यही gap solar ka loan भरता है। इस guide में वही चीज़ें हैं जो actually काम आती हैं: [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-surya-ghar-2-0-analysis) का collateral-free route, interest rate की realistic bands, tenure कैसे चुनें, subsidy और loan का आपस में क्या रिश्ता है, EMI की पूरी calculation, documents की list, और यह honest comparison कि कब loan लेना चाहिए और कब नहीं।
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - [PM Surya Ghar](/glossary/pm-surya-ghar/) के तहत residential rooftop solar के लिए banks collateral-free loan देते हैं, 3 kW तक के घरेलू systems इसी band में आते हैं।
 > - Residential solar loan rates आम तौर पर 7% से 11% per annum की band में रहते हैं, exact rate bank, borrower profile aur tenure पर निर्भर।
 > - Central subsidy पहले 2 kW पर ₹30,000/kW और तीसरे kW पर ₹18,000, यानी 3 kW पर maximum ₹78,000।
@@ -54,6 +54,8 @@ Loan लेने से पहले system size और quote finalise हो�
 ## Solar ka loan किन-किन रास्तों से मिलता है
 
 Practically चार रास्ते हैं, और इनकी cost एक जैसी नहीं है।
+
+Table: Solar loan ke chaar raaste, rate band aur kiske liye theek hai
 
 | Route | Typical rate band | किसके लिए ठीक है |
 | --- | --- | --- |
@@ -74,7 +76,8 @@ PM Surya Ghar Muft Bijli Yojana में residential rooftop के लिए b
 
 **3 kW से ऊपर, 10 kW तक.** यहाँ भी loan मिलता है, लेकिन conditions सख्त हो जाती हैं। कुछ banks higher margin (10% से 20%) माँगते हैं, कुछ co-applicant जोड़ने को कहते हैं। ध्यान रहे कि central subsidy 3 kW पर ही cap हो जाती है, इसलिए बड़ा system लगाने पर loan का हिस्सा proportionally बढ़ जाता है।
 
-> **जो लोग सबसे ज्यादा गलती करते हैं।** वे मान लेते हैं कि loan subsidy घटाकर मिलेगा। Bank subsidy से पहले वाली gross cost पर loan बनाता है, क्योंकि उस वक्त subsidy आई ही नहीं होती। इस एक गलतफहमी की वजह से लोग EMI का बजट कम लगाकर बैठ जाते हैं।
+> [!WARNING] जो लोग सबसे ज्यादा गलती करते हैं
+> वे मान लेते हैं कि loan subsidy घटाकर मिलेगा। Bank subsidy से पहले वाली gross cost पर loan बनाता है, क्योंकि उस वक्त subsidy आई ही नहीं होती। इस एक गलतफहमी की वजह से लोग EMI का बजट कम लगाकर बैठ जाते हैं।
 
 <div class="inline-cta">
 <h3>Loan apply करने से पहले सही size तय करें</h3>
@@ -99,6 +102,8 @@ PM Surya Ghar Muft Bijli Yojana में residential rooftop के लिए b
 
 मान लीजिए 3 kW system की gross cost ₹1,80,000 है और आप पूरी रकम loan पर ले रहे हैं। EMI formula standard reducing balance वाला है। नीचे की table illustrative है, rounding की वजह से actual EMI में थोड़ा फर्क आएगा।
 
+Table: ₹1,80,000 ke loan par monthly EMI (illustrative, reducing balance)
+
 | Tenure | 7% band | 9% band | 11% band |
 | --- | --- | --- | --- |
 | 3 साल | ₹5,558 | ₹5,724 | ₹5,893 |
@@ -106,7 +111,23 @@ PM Surya Ghar Muft Bijli Yojana में residential rooftop के लिए b
 | 7 साल | ₹2,717 | ₹2,896 | ₹3,082 |
 | 10 साल | ₹2,090 | ₹2,280 | ₹2,480 |
 
+```chart
+type: bar
+title: 9% band par ₹1,80,000 ke loan ki monthly EMI, tenure ke hisaab se
+unit: "₹"
+source: "Calculated in this article using the standard reducing-balance EMI formula on a ₹1,80,000 loan at 9%, from the EMI table above. Illustrative, not a bank quote"
+note: "Lamba tenure EMI ghatata hai, par kul interest badhata hai."
+decimals: 0
+data:
+  - { label: "3 साल", value: 5724 }
+  - { label: "5 साल", value: 3737 }
+  - { label: "7 साल", value: 2896 }
+  - { label: "10 साल", value: 2280 }
+```
+
 Total interest भी देख लीजिए, क्योंकि लंबा tenure EMI तो घटाता है पर कुल खर्च बढ़ा देता है।
+
+Table: ₹1,80,000 ke loan par kul interest, 5 aur 10 saal ke tenure par
 
 | Tenure | 7% पर कुल interest | 9% पर कुल interest | 11% पर कुल interest |
 | --- | --- | --- | --- |
@@ -115,7 +136,8 @@ Total interest भी देख लीजिए, क्योंकि लंब
 
 10 साल का tenure EMI लगभग ₹1,450 घटाता है लेकिन 9% पर कुल interest ₹44,200 से बढ़कर ₹93,600 हो जाता है। यानी comfort की कीमत लगभग ₹49,000 है।
 
-Practical rule यह है: tenure उतना चुनें जिसमें EMI आपकी monthly bill saving से थोड़ी ही ऊपर बैठे, उससे लंबा नहीं। एक ठीक-ठाक 3 kW system अधिकतर राज्यों में महीने की ₹2,000 से ₹3,500 की बिजली बचत देता है, इसलिए 7 साल का tenure ज्यादातर घरों के लिए संतुलित बैठता है।
+> [!TIP] Tenure कैसे चुनें
+> Practical rule यह है: tenure उतना चुनें जिसमें EMI आपकी monthly bill saving से थोड़ी ही ऊपर बैठे, उससे लंबा नहीं। एक ठीक-ठाक 3 kW system अधिकतर राज्यों में महीने की ₹2,000 से ₹3,500 की बिजली बचत देता है, इसलिए 7 साल का tenure ज्यादातर घरों के लिए संतुलित बैठता है।
 
 ## Subsidy और loan का असली रिश्ता (सबसे जरूरी हिस्सा)
 
@@ -133,11 +155,12 @@ Central subsidy पहले 2 kW के लिए ₹30,000 प्रति kW 
 
 नीचे का example पूरी तरह illustrative है, किसी असली customer का नहीं। Numbers round किए गए हैं।
 
-- Gross system cost: ₹1,80,000, पूरा loan पर।
-- Rate: 9% band, tenure 7 साल। EMI लगभग ₹2,896।
-- 8 महीने बाद DBT subsidy ₹78,000 account में आती है।
-- 8 EMIs के बाद outstanding principal लगभग ₹1,67,300 रहता है।
-- ₹78,000 का part-prepayment करने पर outstanding लगभग ₹89,300 बचता है।
+> [!EXAMPLE] ₹78,000 की subsidy से part-prepayment
+> - Gross system cost: ₹1,80,000, पूरा loan पर।
+> - Rate: 9% band, tenure 7 साल। EMI लगभग ₹2,896।
+> - 8 महीने बाद DBT subsidy ₹78,000 account में आती है।
+> - 8 EMIs के बाद outstanding principal लगभग ₹1,67,300 रहता है।
+> - ₹78,000 का part-prepayment करने पर outstanding लगभग ₹89,300 बचता है।
 
 अब दो choices हैं।
 
@@ -166,20 +189,23 @@ Participation list समय के साथ बदलती रहती ह�
 
 अधिकतर banks में यही set माँगा जाता है।
 
-- PAN card और Aadhaar (KYC)
-- पिछले 6 महीने की bank statement
-- Income proof: salaried के लिए 3 महीने की salary slips और Form 16, self-employed के लिए 2 साल की ITR
-- Property ownership proof या latest property tax receipt
-- जिस consumer number पर system लगेगा उसका latest electricity bill
-- Empanelled vendor का detailed, itemised quotation
-- PM Surya Ghar portal की registration या application ID
-- Passport size photographs
+> [!CHECKLIST] Bank में ले जाने वाले documents
+> - PAN card और Aadhaar (KYC)
+> - पिछले 6 महीने की bank statement
+> - Income proof: salaried के लिए 3 महीने की salary slips और Form 16, self-employed के लिए 2 साल की ITR
+> - Property ownership proof या latest property tax receipt
+> - जिस consumer number पर system लगेगा उसका latest electricity bill
+> - Empanelled vendor का detailed, itemised quotation
+> - PM Surya Ghar portal की registration या application ID
+> - Passport size photographs
 
 DISCOM और portal side की documentation इससे थोड़ी अलग होती है, वह पूरी list [PM Surya Ghar documents required](/blog/pm-surya-ghar-documents-required/) में है। एक tip: bank statement और electricity bill एक ही नाम पर होने चाहिए। अगर बिजली connection पिता या दादा के नाम पर है और loan आप ले रहे हैं, तो consent letter या ownership proof पहले से तैयार रखें। यही सबसे common cause है कि file दो हफ्ते अटक जाती है।
 
 ## Loan बनाम cash बनाम personal loan
 
 तीनों का सीधा comparison, ₹1,80,000 की gross cost पर।
+
+Table: ₹1,80,000 ki gross cost par solar loan, cash aur personal loan ka comparison
 
 | Factor | Solar loan (9%, 7 साल) | Cash payment | Personal loan (14%, 5 साल) |
 | --- | --- | --- | --- |
@@ -197,6 +223,7 @@ Cash के बारे में एक ईमानदार बात। अ
 
 ## आवेदन की process, step by step
 
+<!-- steps -->
 1. **System size तय करें.** पिछले 12 महीने के bills से monthly average units निकालें और उसी हिसाब से kW चुनें।
 2. **Empanelled vendor से itemised quote लें.** Bank को यही quotation चाहिए।
 3. **PM Surya Ghar portal पर registration करें** और application ID सुरक्षित रखें।

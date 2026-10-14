@@ -45,6 +45,13 @@ There is no defensible universal winner from the public information available on
 
 Panel prices and the ALMM check below were refreshed on 14 October 2026. Qbits publishes this comparison and sells solar inverters. It does not sell solar panels. No module was laboratory-tested or field-tested for this article.
 
+> [!KEYTAKEAWAYS]
+> - There is no universal winner from public information read on 26 September and 14 October 2026. The compared 550 W modules differ in construction: Waaree's is glass to white backsheet, Adani's is bifacial dual glass.
+> - Dated listings show the DCR label moves price more than the brand does: Waaree's store lists the 550 W module at ₹18.73 per watt and its DCR 540 W module at ₹28.15 per watt.
+> - Printed warranty terms are 12 years product for both. Power warranty is 27 years for Waaree WSMD and 30 years for Adani ASB-M10, with different remedies and labour terms.
+> - Both compared models appear on MNRE's ALMM List-I (update of 16 September 2026) by exact name, but List-I is not a DCR certificate and says nothing about inverters.
+> - Prefer the quote that ties the exact model code to its datasheet, warranty document, serial numbers and inverter string calculation.
+
 ## Our comparison method comes before the verdict
 
 We apply the same seven questions to both quotes:
@@ -62,6 +69,8 @@ Unknown fields stay unknown. A series name, marketplace listing, old brochure, o
 ## What the current official sources actually establish
 
 The closest defensible public comparison we found uses two 550 W M10 PERC products. It is still not a like-for-like performance test because the constructions differ.
+
+Table: Waaree WSMD-550 and Adani ASB-M10-144-550 compared on what each official source publishes
 
 | Comparison field | Waaree official store listing | Adani official datasheet |
 | --- | --- | --- |
@@ -84,6 +93,8 @@ This table is useful for document quality, not a brand score. Waaree now lists s
 
 Price is where this comparison most often goes wrong, because a headline per-watt number can hide four things: whether the module is DCR, whether GST is in the price, which wattage is quoted, and which channel is selling. The table keeps those columns visible. All figures below were read on the dates shown, and every one of them will move.
 
+Table: Dated price-per-watt listings for Waaree and Adani modules, with tax and DCR notes (October 2026)
+
 | Source and date | Module | Listed price | Per watt | Tax and DCR note |
 | --- | --- | --- | --- | --- |
 | [Waaree store](https://shop.waaree.com/waaree-550wp-m10-mono-10bb-solar-panel-glass-to-white-backsheet-module-high-efficiency-mono-perc-solar-pv-module/), 14 Oct 2026 | WSMD-550, 550 Wp mono PERC | ₹10,299 | ₹18.73 | "Inclusive of all taxes". No DCR label on the page. |
@@ -94,6 +105,21 @@ Price is where this comparison most often goes wrong, because a headline per-wat
 | Same page, quoting Adani Solar's list | Adani PERC 540 to 560 Wp, DCR | not given | ₹23.35 to ₹23.86 | Excluding GST. About ₹24.52 to ₹25.05 with 5% GST added. |
 | [IndiaMART seller listings](https://dir.indiamart.com/impcat/adani-solar-panels.html), page updated 13 Oct 2026 | Adani 545 to 550 W, DCR | not given | ₹25.50 | Seller ask. GST and delivery not stated. |
 | [IndiaMART seller listings](https://dir.indiamart.com/impcat/waaree-solar-panels.html), page updated 13 Oct 2026 | Waaree 540 W mono PERC, DCR compliant | not given | ₹25.20 | Seller ask. GST and delivery not stated. |
+
+```chart
+type: hbar
+title: Listed price per watt by source, October 2026 (different channels, wattages and DCR status)
+unit: "₹/W"
+source: "Waaree store pages (14 October 2026), Bajaj Finserv Adani price page (October 2026) and IndiaMART seller listings (updated 13 October 2026), as shown in the price table above"
+note: "Not a ranking: channels, wattages, DCR status and tax treatment differ by row. Waaree store prices include taxes; the other rows do not state tax."
+data:
+  - { label: "Waaree store WSMD-550 (no DCR label)", value: 18.73 }
+  - { label: "IndiaMART Waaree 540 W DCR, seller ask", value: 25.2 }
+  - { label: "IndiaMART Adani 545-550 W DCR, seller ask", value: 25.5 }
+  - { label: "Bajaj Finserv Adani 540 W, DCR not stated", value: 25.56 }
+  - { label: "Bajaj Finserv Adani bifacial 550 W", value: 26.36 }
+  - { label: "Waaree store WSMD-540-DCR", value: 28.15 }
+```
 
 The with-GST figures for Adani's list are our arithmetic: the listed per-watt figure times 1.05, using the 5% rate in force since 22 September 2025. Our [GST on solar](/blog/gst-on-solar-inverters-2026/) guide has the notification entry. We could not open an Adani-published price list, so the Adani list figures are as Bajaj Finserv states them, and marketplace asks carry no date of their own beyond the page's update stamp.
 
@@ -137,16 +163,19 @@ A 30-year power label is not automatically better than a 27-year label. The two 
 
 Separate these questions:
 
-- What event starts the product-warranty clock?
-- Is the claimant the homeowner, the original buyer, or an authorised seller?
-- Is registration required, and by what deadline?
-- Is the remedy repair, replacement, additional modules, a depreciated refund, or the manufacturer's choice?
-- Who pays removal, testing, packing, freight, reinstalling, and access costs?
-- What installation, maintenance, serial-number, invoice, and test records are required?
-- Which conditions or types of damage are excluded?
-- Does replacement restart the warranty or continue the original term?
+> [!CHECKLIST] Warranty questions to separate
+> - What event starts the product-warranty clock?
+> - Is the claimant the homeowner, the original buyer, or an authorised seller?
+> - Is registration required, and by what deadline?
+> - Is the remedy repair, replacement, additional modules, a depreciated refund, or the manufacturer's choice?
+> - Who pays removal, testing, packing, freight, reinstalling, and access costs?
+> - What installation, maintenance, serial-number, invoice, and test records are required?
+> - Which conditions or types of damage are excluded?
+> - Does replacement restart the warranty or continue the original term?
 
 Both brands publish a governing document, and we read both on 14 October 2026. Waaree's [Limited Warranty Statement](https://www.waaree.com/upload/media/limited_warranty_statement_wel_epd_ws_perc_04_19012024_1754071211.pdf) (document WEL/E&PD/WS/PERC/05/19.01.2024) lists the WSMD-XXX half-cut M10 series. Adani's [module warranty card](https://www.adanisolar.com/-/media/project/adanisolar/downloads/pdf/new/adani-solar-modules---warranty-card.pdf) covers the ASM-M10 and ASB-M10 families. Here are the terms as printed, for the two constructions in this comparison.
+
+Table: Waaree WSMD and Adani ASB-M10 warranty terms as printed in each governing document
 
 | Term | Waaree WSMD (glass to white backsheet) | Adani ASB-M10 (bifacial Mono PERC) |
 | --- | --- | --- |
@@ -172,14 +201,16 @@ MNRE maintains the [Approved List of Models and Manufacturers](https://mnre.gov.
 
 We checked the latest module list on MNRE's ALMM page on 14 October 2026. It is the List-I update dated 16 September 2026. Both comparison models appear in it by exact name. WSMD-550 is listed under Waaree Energies Limited, with a listed efficiency of 21.36%. ASB-M10-144-550 is listed under Mundra Solar Energy Limited, an Adani Solar manufacturing entity named in its warranty card, with a listed efficiency of 21.42%. Adani's datasheet states 21.31% for the 550 W module, so a listing value and a datasheet value are not the same document and should not be swapped. MNRE's page also carries List-II for cells, whose 12th revision is dated 8 October 2026, and the timing notices for List-II change often, so read the current one.
 
-ALMM List-I is a manufacturer-and-model list for modules. It is not a DCR certificate and it says nothing about inverters, because MNRE publishes no ALMM list for inverters. DCR status depends on domestic cells and the NISE DCR route. A module can be on List-I and still be a non-DCR product, which is exactly the price split in the table above.
+> [!IMPORTANT] List-I is not a DCR certificate
+> ALMM List-I is a manufacturer-and-model list for modules. It is not a DCR certificate and it says nothing about inverters, because MNRE publishes no ALMM list for inverters. DCR status depends on domestic cells and the NISE DCR route. A module can be on List-I and still be a non-DCR product, which is exactly the price split in the table above.
 
 For a PM Surya Ghar purchase, ask the registered vendor to show:
 
-- the exact module model proposed and the model on the delivered label;
-- the official record or portal evidence applicable to that model and transaction;
-- the invoice, serial-number record, and any required domestic-content documentation;
-- who will correct a mismatch if the portal or DISCOM rejects the equipment record.
+> [!CHECKLIST] What the registered vendor should show
+> - the exact module model proposed and the model on the delivered label;
+> - the official record or portal evidence applicable to that model and transaction;
+> - the invoice, serial-number record, and any required domestic-content documentation;
+> - who will correct a mismatch if the portal or DISCOM rejects the equipment record.
 
 Keep copies before installation. The practical vendor-verification sequence is covered in our [PM Surya Ghar vendor guide](/blog/empanelled-vendor-pm-surya-ghar/).
 
@@ -199,13 +230,16 @@ Waaree's online store lists on-grid and hybrid inverters and solar kits next to 
 
 A single-brand kit is a convenience for buying and for service coordination. It is not evidence that the electrical match is better. Even inside one brand, the string length must still be checked against the exact inverter datasheet and the site's coldest morning.
 
-Here is the first filter, using the Adani datasheet values in the table above (Voc 49.67 V, Isc 13.85 A). Qbits makes inverters, not modules. Two published Qbits single-phase on-grid datasheet limits are 550 V maximum DC with 20 A maximum DC input current for the [QB 1.5 to 4.0 kW family](/our-products/QB-1.5-4.0KTLS/), and 600 V maximum DC with 20 A for the [QB 4.2 to 6 kW family](/our-products/QB-4.6-6KTLS/). At standard test conditions, 11 modules in series reach 546 V, which leaves almost no margin under 550 V once cold-weather voltage rise is added. 12 modules reach 596 V, which is just under 600 V and has the same problem. So the real string length is shorter than the STC arithmetic suggests, and it comes from the module's temperature coefficient and the site's design temperature, not from this article. Current is not the limit here, since 13.85 A sits under 20 A. For the Waaree module there is nothing to calculate, because the store page publishes no Voc or Isc, which is why the seller must supply the WSMD-550 datasheet first.
+> [!EXAMPLE] Adani 550 W string against Qbits single-phase on-grid limits
+> Here is the first filter, using the Adani datasheet values in the table above (Voc 49.67 V, Isc 13.85 A). Qbits makes inverters, not modules. Two published Qbits single-phase on-grid datasheet limits are 550 V maximum DC with 20 A maximum DC input current for the [QB 1.5 to 4.0 kW family](/our-products/QB-1.5-4.0KTLS/), and 600 V maximum DC with 20 A for the [QB 4.2 to 6 kW family](/our-products/QB-4.6-6KTLS/). At standard test conditions, 11 modules in series reach 546 V, which leaves almost no margin under 550 V once cold-weather voltage rise is added. 12 modules reach 596 V, which is just under 600 V and has the same problem. So the real string length is shorter than the STC arithmetic suggests, and it comes from the module's temperature coefficient and the site's design temperature, not from this article. Current is not the limit here, since 13.85 A sits under 20 A. For the Waaree module there is nothing to calculate, because the store page publishes no Voc or Isc, which is why the seller must supply the WSMD-550 datasheet first.
 
 Use the [string sizing calculator](/string-sizing-calculator/) for the real design, check the model on the [datasheet library](/download-datasheets/), and see the [on-grid inverter range](/on-grid-inverter/) for the families Qbits publishes. Qbits does not sell panels, and this is an inverter-side check, not a recommendation of either panel brand.
 
 ## A quote-comparison sheet you can actually use
 
 Ask both sellers to complete the same rows. Blank cells are not automatic disqualifiers, but they are unresolved purchasing risks.
+
+Table: Quote-comparison sheet: fields to ask both sellers to complete
 
 | Required quote field | Waaree quote | Adani quote |
 | --- | --- | --- |

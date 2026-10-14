@@ -47,7 +47,7 @@ This guide covers the institution, not the application form. It maps Rooftop Sol
 
 For the consumer journey, the steps and documents, use the [PM Surya Ghar guide](/blog/pm-surya-ghar-yojana-complete-guide/). Rules vary by state and DISCOM, so verify every figure here yourself.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The Union Cabinet fixed the 40 GW rooftop target on 17 June 2015 (PIB). Rooftop reached 32.59 GW as on 31.08.2026 (MNRE).
 > - CCEA approved Phase II on 19 February 2019 with ₹11,814 crore: ₹6,600 crore of residential CFA for 4,000 MW, ₹4,985 crore of DISCOM incentives capped at 18,000 MW (PIB, 2019).
 > - PM Surya Ghar launched 13 February 2024, Cabinet approved 29 February 2024, outlay ₹75,021 crore for 1 crore households (PIB, 2024). Phase II "stands subsumed" within it (MNRE, 2024).
@@ -65,12 +65,17 @@ No official notification declares the 2022 date missed. MNRE's own data puts gri
 
 The CCEA approved Phase II on 19 February 2019 with ₹11,814 crore of central support. MNRE launched it on 08.03.2019, according to PIB (2019). Only the residential component reaches a household.
 
+Table: Rooftop Solar Programme Phase II components, capacity and central support (CCEA, 19 February 2019)
+
 | Phase II component | Capacity | Central support | Who receives it |
 |---|---|---|---|
 | Component A, residential CFA | 4,000 MW | ₹6,600 crore | The residential consumer |
 | Component B, DISCOM incentives | Ceiling of 18,000 MW | ₹4,985 crore | The distribution company |
 
-Read 18,000 MW as a ceiling, not a target. The CCEA wording is that incentives "will be available only for initial capacity addition of 18,000 MW", counted across all sectors rather than residential alone. Incentives accrue above the previous year's base, so a DISCOM has reason to process volume, but it also absorbs metering and network cost. MNRE extended the programme till 31.03.2026 (PIB, 8 December 2022).
+> [!NOTE] 18,000 MW is a ceiling
+> Read 18,000 MW as a ceiling, not a target. The CCEA wording is that incentives "will be available only for initial capacity addition of 18,000 MW", counted across all sectors rather than residential alone.
+
+Incentives accrue above the previous year's base, so a DISCOM has reason to process volume, but it also absorbs metering and network cost. MNRE extended the programme till 31.03.2026 (PIB, 8 December 2022).
 
 ## How central financial assistance reaches a household
 
@@ -81,6 +86,8 @@ Two consequences follow. Your [DISCOM](/glossary/discom/) is the State Implement
 ## Who does what in the MNRE rooftop programme
 
 Most confusion in this scheme is role confusion. Read the table before escalating a stuck file.
+
+Table: Who does what in the MNRE rooftop programme
 
 | Body | What it does | What it does not do |
 |---|---|---|
@@ -102,6 +109,21 @@ The old scheme did not run alongside it. MNRE's guidelines record that Phase II 
 
 Of the ₹75,021 crore, ₹65,700 crore is residential CFA and ₹4,950 crore is DISCOM incentives. The rest includes ₹1,000 crore for local bodies, ₹800 crore for Model Solar Villages, and ₹100 crore for RESCO payment security (MNRE, 7 June 2024).
 
+```chart
+type: hbar
+title: PM Surya Ghar outlay components named by MNRE (₹ crore)
+unit: "₹ crore"
+source: "MNRE Office Memorandum of 7 June 2024 and Union Cabinet approval of 29 February 2024 (PIB, 2024); total outlay ₹75,021 crore"
+note: "Only the components named in the source are shown. They do not add up to the full ₹75,021 crore outlay."
+decimals: 0
+data:
+  - { label: "Residential CFA", value: 65700 }
+  - { label: "DISCOM incentives", value: 4950 }
+  - { label: "Local bodies", value: 1000 }
+  - { label: "Model Solar Villages", value: 800 }
+  - { label: "RESCO payment security", value: 100 }
+```
+
 MNRE then removed steps that were slowing files. It waived technical feasibility and allowed sanctioned load to be raised automatically up to 10 kW. It also folded the net metering agreement into the portal application and simplified vendor registration (PIB and MNRE, 25 March 2026). RESCO and Utility Led Aggregation models arrived by Office Memorandum of 28.12.2024.
 
 ## Eligibility by consumer category, and what sits outside
@@ -116,6 +138,7 @@ Three categories fall outside residential assistance: commercial and industrial 
 
 This is arithmetic on published MNRE parameters, not a quote or field data. It shows how the two caps interact. Take a general category society of 60 flats planning solar for lifts, pumps, and corridor lighting.
 
+<!-- steps -->
 1. Per house cap: 3 kWp x 60 flats = 180 kWp notional ceiling.
 2. Overall cap: 500 kWp. The lower binds, so 180 kWp applies.
 3. Proposed common facility capacity: 40 kWp.
@@ -127,13 +150,19 @@ Step 5 carries the lesson. Individual installations eat society headroom, so seq
 
 ## Why a non-registered installer costs you the CFA
 
-The rule is procedural, not technical. MNRE states that subsidy is transferred after "successful installation (by empanelled vendors) and verification by State DISCOMs". A system built outside the registered vendor route has no valid claim path on the portal, however good the hardware is.
+The rule is procedural, not technical. MNRE states that subsidy is transferred after "successful installation (by empanelled vendors) and verification by State DISCOMs".
+
+> [!IMPORTANT] No valid claim path outside the registered route
+> A system built outside the registered vendor route has no valid claim path on the portal, however good the hardware is.
 
 Sequence is where this goes wrong. Registration must be current at the agreement stage, not produced afterwards. A vendor listed last year, listed in another state, or trading under a related firm name does not pass. Match the portal entity to the one on your agreement and invoice.
 
 MNRE has been widening the vendor pool by simplifying registration (PIB and MNRE, 25 March 2026), which also means untested firms appear. Registration proves scheme eligibility, not workmanship, so run the checks in the [vendor verification guide](/blog/empanelled-vendor-pm-surya-ghar/) too.
 
-The risk runs both ways. A false domestic content claim is not a paperwork slip. MNRE's enforcement memorandum of 16 October 2023 provides for an IPC 420 case, 10-year blacklisting, and forfeiture of the bank guarantee.
+The risk runs both ways.
+
+> [!WARNING] A false domestic content claim is not a paperwork slip
+> MNRE's enforcement memorandum of 16 October 2023 provides for an IPC 420 case, 10-year blacklisting, and forfeiture of the bank guarantee.
 
 ## Component rules: ALMM, domestic content, and the BIS order
 
@@ -152,6 +181,8 @@ MNRE publishes no ALMM list for inverters, so ask the seller for the exact model
 ## MNRE guidelines and specifications PDFs: where the official documents are
 
 Two of the most searched phrases for this scheme are "MNRE guidelines for rooftop solar PDF" and "MNRE specifications for rooftop solar". Both point to documents MNRE hosts itself. Use the originals, because summaries (including this one) can lag an amendment. The links below were taken from MNRE's [Grid Connected Rooftop Solar Programme page](https://mnre.gov.in/en/grid-connected-solar-rooftop-programme/) and the notices linked from it, checked on 14 October 2026.
+
+Table: MNRE official documents for the residential rooftop scheme, with date shown and what each governs
 
 | Document | Date shown | What it governs |
 | --- | --- | --- |

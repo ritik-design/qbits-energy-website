@@ -48,7 +48,16 @@ Official-store and retailer listings checked on 14 October 2026 span **₹18.18/
 
 Qbits Energy makes solar inverters. It does not sell solar panels or installation. Every panel figure below comes from the named manufacturer, retailer or research firm, and none is a Qbits price or a project quote.
 
+> [!KEYTAKEAWAYS]
+> - Retail listings checked on 14 October 2026 span ₹18.18/W to ₹40.74/W, while JMK Research's bulk ex-works prices for April 2026 run ₹13.8 to ₹22.3 per Wp, so panel, bulk and installed-system prices must not be mixed.
+> - MNRE's installed-system benchmark is ₹50,000 per kW for the first 2 kW and ₹45,000 for each additional kW. It is a planning and subsidy reference, not a fixed installer tariff.
+> - Any non-DCR module in the installation makes it ineligible for central financial assistance. Same-brand DCR premiums in the listings run ₹2,000 to ₹6,600 per panel.
+> - Panels carry 5% GST since 22 September 2025. A full-system contract can blend to about 8.9% if the service portion is taxed at 18%.
+> - Ask for the quote in separate lines for modules, inverter, structure, electrical balance of system, installation, metering and taxes, with exact models.
+
 ## The three prices buyers should not mix
+
+Table: Three price layers for solar in India: what each includes and what it does not establish
 
 | Price layer | Dated reference | What it includes | What it does not establish |
 | --- | --- | --- | --- |
@@ -61,6 +70,8 @@ The scheme benchmark comes from the current [MNRE residential CFA guidelines](ht
 ## Solar panel price per watt in India 2026: by technology
 
 Price per watt equals the displayed module price divided by its rated wattage. Retail rows use displayed selling prices, not crossed-out MRPs, and show whether the page states that taxes are included. Prices vary by city, seller and quantity, and the bulk figures are a different price point from a single-panel retail purchase, so read the columns separately.
+
+Table: Retail listing prices (₹/W, 14 Oct 2026) against JMK Research bulk ex-works prices (April 2026), by module technology
 
 | Technology | Dated retail listings (₹/W) | Bulk ex-works, JMK Research, April 2026 |
 | --- | --- | --- |
@@ -80,6 +91,8 @@ The table shows why a single "price per watt" misleads. A TOPCon bifacial module
 
 Wattage is the second axis buyers search by. The rows below group named listings checked on 14 October 2026; "tax" notes whether the page says the price includes taxes.
 
+Table: Named module listings grouped by wattage class, checked 14 October 2026
+
 | Wattage class | Example listings | Price per panel | ₹/W |
 | --- | --- | --- | --- |
 | 540 to 550 W | Waaree 550 W mono PERC; Luminous 550 W DCR; Loom Solar 550 W (pack of 2, per panel) | ₹10,299; ₹11,534; ₹10,000 | ₹18.73; ₹20.97; ₹18.18 |
@@ -98,6 +111,8 @@ The 540 to 550 W class is a common choice for residential arrays. The 600 W and 
 
 The table gives one dated example per brand from a store or retailer page. It is not a ranking. Technology, DCR status and tax treatment differ between rows.
 
+Table: One dated listing per brand: technology, DCR status, price per watt and printed warranty
+
 | Brand | Example model and listing | Technology | DCR status | ₹/W (14 Oct 2026) | Warranty as printed (product / power output, years) |
 | --- | --- | --- | --- | --- | --- |
 | [Waaree](https://shop.waaree.com/waaree-550wp-m10-mono-10bb-solar-panel-glass-to-white-backsheet-module-high-efficiency-mono-perc-solar-pv-module/) | WSMD 550 W, ₹10,299, taxes included | Mono PERC | Not stated on page | ₹18.73 | 12 / 27 |
@@ -106,6 +121,21 @@ The table gives one dated example per brand from a store or retailer page. It is
 | [Luminous](https://www.luminousindia.com/solar-panels/all-products) | LUM 24550M BI-TS 550 W, ₹11,534, taxes included | Mono PERC half-cut | DCR | ₹20.97 | Not printed on the listing |
 | [Luminous](https://www.luminousindia.com/solar-panels/solar-panel-lum-24585tg144-bi-gl-bifacial-non-dcr) | LUM 24585TG144 BI-GL 585 W, ₹12,299, taxes included | TOPCon bifacial | Non-DCR | ₹21.02 | 12 / 30 |
 
+```chart
+type: hbar
+title: Listed price per watt for one example module per brand, 14 October 2026
+unit: "₹/W"
+source: "Store and retailer listings checked 14 October 2026 (Waaree store, Luminous store, Enlead Energy), as shown in the brand table above; ₹/W is the displayed price divided by rated wattage"
+note: "Tax treatment differs by row: Adani figures are from a retailer that does not state tax status. Not a ranking."
+data:
+  - { label: "Waaree 615 W TOPCon, non-DCR", value: 18.53 }
+  - { label: "Waaree 550 W mono PERC", value: 18.73 }
+  - { label: "Luminous 550 W mono PERC, DCR", value: 20.97 }
+  - { label: "Luminous 585 W TOPCon, non-DCR", value: 21.02 }
+  - { label: "Adani 565 W TOPCon, non-DCR", value: 30.09 }
+  - { label: "Adani 565 W TOPCon, DCR", value: 33.63 }
+```
+
 Tata Power Solar and Goldi Solar publish no retail panel price on their own sites that we could find on 14 October 2026, and the marketplace listings we saw were undated or old, so they have no row. Re-check them against a current quote rather than a stale price list. The 12 and 30 year Adani labels also appear in the 550 W datasheet reviewed in our [Waaree vs Adani comparison](/blog/waaree-vs-adani-solar/), which sets the two brands' exact models, documents and inverter compatibility side by side.
 
 A headline warranty duration does not show the remedy, exclusions, claim evidence or who pays for labour and transport. Ask for the warranty document for the exact model in your quote.
@@ -113,6 +143,8 @@ A headline warranty duration does not show the remedy, exclusions, claim evidenc
 ## DCR vs non-DCR: the price gap that matters
 
 DCR stands for domestic content requirement: modules made from domestically manufactured cells. Same-brand, same-wattage listings show what the label costs.
+
+Table: Same-brand DCR and non-DCR listings: price gap per panel and per watt
 
 | Pair | Non-DCR | DCR | Gap per panel | Gap per watt |
 | --- | --- | --- | --- | --- |
@@ -123,7 +155,8 @@ DCR stands for domestic content requirement: modules made from domestically manu
 
 The Waaree pair compares a store price that includes taxes with a retailer price whose tax status is not stated, so treat that gap as indicative. The Adani pairs come from one retailer. Sources: [Enlead Energy](https://shop.enleadenergy.com/collections/solar-panels), the [Waaree store](https://shop.waaree.com/waaree-615wp-144cells-24-volts-g12r-n-type-framed-dual-glass-bifacial-non-dcr-solar-module/) and [JMK Research](https://jmkresearch.com/monthly-renewable-sector-update-utility-scale-solar-wind/monthly-re-update-april-2026/).
 
-**The subsidy rule.** The MNRE guideline says solar modules in an installation claiming central financial assistance (CFA) must be domestically manufactured from domestically manufactured cells, and that "use of non-DCR modules in any form in the installation shall render the installation ineligible for CFA." It also says consumers who install without CFA are free to do so without DCR modules. The standard CFA is ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third, so ₹78,000 at 3 kWp and above, and no CFA beyond 3 kWp. A DCR premium of ₹2,000 to ₹6,600 per panel, applied to a six-panel array, is ₹12,000 to ₹39,600. Compare that against the CFA your DISCOM will actually approve, using the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) and the [state-wise subsidy comparison](/blog/solar-subsidy-all-states/). The scheme background is in the [PM Surya Ghar glossary entry](/glossary/pm-surya-ghar/) and the [full scheme guide](/blog/pm-surya-ghar-yojana-complete-guide/).
+> [!IMPORTANT] Non-DCR modules cost you the central subsidy
+> **The subsidy rule.** The MNRE guideline says solar modules in an installation claiming central financial assistance (CFA) must be domestically manufactured from domestically manufactured cells, and that "use of non-DCR modules in any form in the installation shall render the installation ineligible for CFA." It also says consumers who install without CFA are free to do so without DCR modules. The standard CFA is ₹30,000 per kWp for the first 2 kWp and ₹18,000 for the third, so ₹78,000 at 3 kWp and above, and no CFA beyond 3 kWp. A DCR premium of ₹2,000 to ₹6,600 per panel, applied to a six-panel array, is ₹12,000 to ₹39,600. Compare that against the CFA your DISCOM will actually approve, using the [PM Surya Ghar subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) and the [state-wise subsidy comparison](/blog/solar-subsidy-all-states/). The scheme background is in the [PM Surya Ghar glossary entry](/glossary/pm-surya-ghar/) and the [full scheme guide](/blog/pm-surya-ghar-yojana-complete-guide/).
 
 If you want no central subsidy, such as on a larger commercial array, DCR is a cost decision rather than a compliance one. Confirm that choice with your DISCOM and installer before you buy.
 
@@ -145,6 +178,9 @@ Panels fall under entry 437 of Schedule I of [CBIC Notification 9/2025-Integrate
 
 For a full-system contract that supplies the modules along with other goods and the taxable installation service, the Explanation to entry 437 deems 70% of the gross consideration to be goods and 30% to be that service. If the service portion is taxed at 18%, the blended rate is 0.7 × 5% + 0.3 × 18% = 8.9% on the contract value. That blend is arithmetic on stated rates, not a rate printed on your invoice. The solar GST guide, [GST on solar inverters and panels](/blog/gst-on-solar-inverters-2026/), sets out the entry-by-entry treatment, the HSN codes and the invoice details to check, and notes that components sold separately can attract a different rate.
 
+> [!FORMULA] Blended GST on a full-system contract
+> 0.7 × 5% + 0.3 × 18% = 8.9% of contract value (70% treated as goods, 30% as installation service taxed at 18%)
+
 Before 22 September 2025 the rate on these goods was 12%, so a printed price list or tax table from before that date overstates the tax. Ask the vendor for tax line by line and the notification number they rely on.
 
 ## Why panel prices moved in 2026
@@ -161,6 +197,8 @@ ALMM lists modules and cells. MNRE publishes no ALMM list for inverters.
 
 A module is one line of a system bill. The table uses the MNRE benchmark for the gross total, the module-only subtotal from the listings above, and a manufacturer-listed on-grid inverter price. The last row is arithmetic: what is left of the benchmark for structure, wiring, installation, metering and margin.
 
+Table: Where panels sit in a 3 kWp and 5 kWp system cost: MNRE benchmark, module subtotal, inverter listing and remainder
+
 | Line | 3 kWp | 5 kWp |
 | --- | --- | --- |
 | MNRE benchmark (gross) | ₹1,45,000 | ₹2,35,000 |
@@ -174,6 +212,8 @@ The inverter row comes from [Waaree's store listing](https://shop.waaree.com/sol
 Your amount after CFA is the gross invoice plus excluded charges, minus the approved CFA, and the CFA is processed only after installation, documentation and DISCOM inspection. For capacity-specific cost breakdowns, see the [1 kW](/blog/1kw-solar-system-price-india/), [3 kW](/blog/3kw-solar-system-price-india/), [5 kW](/blog/5kw-solar-system-price-india/) and [10 kW](/blog/10kw-solar-system-price-india/) system guides.
 
 A complete installed quote should separate at least seven numbers. If the vendor gives only a total and a post-subsidy amount, ask for the missing lines.
+
+Table: Seven lines a complete installed quote should separate, and what to identify in writing for each
 
 | Quote line | What to identify in writing |
 | --- | --- |
@@ -197,10 +237,11 @@ Pairing also covers capacity. Rated DC module capacity drives the CFA, while the
 
 ## Before accepting a solar quote
 
-1. Compare the exact module and inverter models, not brand names alone.
-2. Keep module-only, equipment, balance-of-system and installation figures separate.
-3. Check whether each price includes tax, freight, roof work and utility charges.
-4. Compare gross pre-subsidy totals before comparing the amount shown after subsidy.
-5. Confirm DCR and scheme documents against the current rules and exact module.
-6. Reject savings or generation promises that do not show the tariff, consumption, shade and yield assumptions.
-7. Keep the dated quote, invoice, serial numbers and commissioning records.
+> [!CHECKLIST] Seven checks before you sign
+> - Compare the exact module and inverter models, not brand names alone.
+> - Keep module-only, equipment, balance-of-system and installation figures separate.
+> - Check whether each price includes tax, freight, roof work and utility charges.
+> - Compare gross pre-subsidy totals before comparing the amount shown after subsidy.
+> - Confirm DCR and scheme documents against the current rules and exact module.
+> - Reject savings or generation promises that do not show the tariff, consumption, shade and yield assumptions.
+> - Keep the dated quote, invoice, serial numbers and commissioning records.

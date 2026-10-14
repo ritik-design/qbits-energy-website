@@ -4,7 +4,7 @@ excerpt: "Virtual net metering in India lets one shared solar plant credit many 
 description: "Virtual net metering in India explained for apartment dwellers and RWAs: how one shared solar plant splits credits across meters, which states allow it in 2026, Delhi's DERC rules, and a full billing math example."
 category: "Guide"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-10-14
 readTime: "16 min"
 image: "/og/blog-virtual-net-metering-india.webp"
 author: "Akash Hirapara"
@@ -44,14 +44,11 @@ The idea is not new. Delhi formalised it in 2019. But 2025 and 2026 have brought
 
 This guide covers what virtual net metering actually is and how it differs from group net metering. It then looks at which states allow it in 2026 and the full billing math for a typical society. Finally, it covers the honest tradeoffs an RWA should weigh before signing a sharing agreement.
 
-> **TL;DR**
-> - Virtual net metering lets one shared solar plant credit multiple individual meters; Delhi pioneered the rules through DERC guidelines in 2019.
-> - Delhi's seventh amendment, notified in January 2026, extends virtual net metering to all consumers in the capital, including single-point supply connections, according to DERC.
+> [!KEYTAKEAWAYS]
+> - Virtual net metering lets one shared solar plant credit multiple individual meters; Delhi pioneered the rules through DERC guidelines in 2019. Delhi's seventh amendment, notified in January 2026, extends virtual net metering to all consumers in the capital, including single-point supply connections, according to DERC.
 > - Rajasthan and Telangana formally allow virtual and group net metering as of their 2025 regulations; Puducherry permits group net metering.
-> - A hypothetical 50 kW society plant generating about 70,000 units a year can offset roughly Rs 4.9 lakh of bills annually at Rs 7 per unit.
-> - [PM Surya Ghar](/glossary/pm-surya-ghar/) offers Rs 18,000 per kW for group housing common facilities, capped at 500 kW, according to [MNRE](/glossary/mnre/).
-> - The credit split is a formula your society chooses and files with the DISCOM: equal, by area, or by capital share.
-> - Payback for a shared society plant typically lands between 3 and 5 years, comparable to an individual rooftop system.
+> - A hypothetical 50 kW society plant generating about 70,000 units a year can offset roughly Rs 4.9 lakh of bills annually at Rs 7 per unit. [PM Surya Ghar](/glossary/pm-surya-ghar/) offers Rs 18,000 per kW for group housing common facilities, capped at 500 kW, according to [MNRE](/glossary/mnre/).
+> - The credit split is a formula your society chooses and files with the DISCOM: equal, by area, or by capital share. Payback for a shared society plant typically lands between 3 and 5 years, comparable to an individual rooftop system.
 
 **Short version.** Virtual net metering in India is a billing mechanism where one solar plant on a shared rooftop exports power to the grid. The DISCOM then distributes the resulting credits across the individual electricity meters of participating flats, in proportion to a pre-agreed formula. Delhi allows it under DERC guidelines first issued in 2019 and expanded in January 2026. Rajasthan and Telangana added it in 2025. It is the main legal route for apartment residents to benefit from rooftop solar without owning the roof.
 
@@ -95,6 +92,8 @@ Delhi also offers a generation-based incentive of Rs 2 per unit on solar generat
 
 The honest answer is: a minority of states, but the list is growing. Here is where the major frameworks stand as of mid-2026.
 
+Table: Virtual and group net metering status by state, mid-2026
+
 | State / UT | Mechanism | Status in 2026 | Key detail |
 | --- | --- | --- | --- |
 | Delhi | GNM and VNM | Active since 2019, expanded Jan 2026 | All consumers eligible, including single-point supply, per DERC seventh amendment |
@@ -115,6 +114,7 @@ If your state is not on this list, do not assume shared solar is impossible. Som
 
 The process is longer than an individual rooftop application because it involves a collective decision and a sharing agreement. Budget three to six months from first committee meeting to commissioning.
 
+<!-- steps -->
 1. **Pass an RWA resolution.** The society's general body must approve the project, the budget, and the sharing principle. Most DISCOMs ask for the resolution copy. Get the vote recorded properly; it prevents disputes later.
 
 2. **Survey the terrace.** A 50 kW plant needs roughly 3,000 to 4,000 square feet of shadow-free roof. Structural load capacity must be verified, especially on buildings older than 15 years. Keep a one-metre walkway clear for maintenance.
@@ -133,9 +133,15 @@ A real society that walked this path is documented in our [Noida apartment RWA c
 
 Numbers make this concrete. The example below is hypothetical and labelled as such; actual tariffs, yields, and costs vary by city. Assume a 30-flat society in Delhi installing a 50 kW plant on its terrace in 2026.
 
-**Inputs.** Plant size 50 kW. Annual generation about 1,400 units per kW, so 70,000 units per year. Effective tariff for participating flats: Rs 7 per unit. Capital cost about Rs 50,000 per kW, so Rs 25 lakh. PM Surya Ghar assistance for group housing common facilities: Rs 18,000 per kW, so Rs 9 lakh, according to MNRE (2024). Net cost to society: Rs 16 lakh.
+> [!FORMULA]
+> Annual bill offset = plant size (kW) × annual generation per kW × effective tariff per unit
 
-**Sharing formula.** The society chooses a split by flat size: twenty 2BHK flats at 3% each, ten 3BHK flats at 4% each, totalling 100%.
+> [!EXAMPLE] Hypothetical 30-flat society, 50 kW plant
+> **Inputs.** Plant size 50 kW. Annual generation about 1,400 units per kW, so 70,000 units per year. Effective tariff for participating flats: Rs 7 per unit. Capital cost about Rs 50,000 per kW, so Rs 25 lakh. PM Surya Ghar assistance for group housing common facilities: Rs 18,000 per kW, so Rs 9 lakh, according to MNRE (2024). Net cost to society: Rs 16 lakh.
+>
+> **Sharing formula.** The society chooses a split by flat size: twenty 2BHK flats at 3% each, ten 3BHK flats at 4% each, totalling 100%.
+
+Table: Hypothetical 50 kW society plant: credits, bill offset and payback per flat type
 
 | Line item | 2BHK flat (3% share) | 3BHK flat (4% share) | Society total |
 | --- | --- | --- | --- |
@@ -150,6 +156,9 @@ The table shows why VNM is compelling. Each flat sees a four-figure monthly bill
 
 Two practical notes. First, credits offset energy charges; fixed charges and demand charges on the bill stay payable. Second, if a flat's monthly credit exceeds its consumption, most frameworks carry the surplus forward to the next billing cycle rather than paying cash. Oversizing the plant therefore wastes money. Size the plant to roughly 80% to 90% of the society's combined annual consumption.
 
+> [!TIP] Size to consumption, not to the terrace
+> Surplus credit is carried forward rather than paid in cash, so a plant sized to roughly 80% to 90% of the society's combined annual consumption beats a maximised terrace.
+
 The [PM Surya Ghar eligibility guide](/blog/pm-surya-ghar-eligibility/) explains how group housing claims differ from individual residential claims. It is worth reading before the society finalises its application route.
 
 ## The Tradeoffs: What RWAs Should Weigh Honestly
@@ -160,13 +169,17 @@ Virtual net metering is good policy, but it is not free of friction. We advise s
 
 **Credit disputes fall on the society, not the DISCOM.** The DISCOM applies the filed formula mechanically. If residents disagree about fairness, that is an internal society matter. Societies with weak governance should start with common-load GNM only, prove the process for a year, then extend to VNM.
 
+> [!WARNING] RESCO escalation clauses can erase the discount
+> Societies have signed contracts where the effective tariff discount shrank to under 10% by year ten because of escalation terms nobody read. Get a lawyer to review a 25-year RESCO agreement before signature.
+
 **RESCO contracts need legal review.** A 25-year RESCO agreement on a shared terrace involves escalation clauses, buyout terms, and roof rights. Societies have signed contracts where the effective tariff discount shrank to under 10% by year ten because of escalation terms nobody read. Get a lawyer to review before signature.
 
 **Oversizing destroys value.** Credits carried forward are worth less than credits used immediately, and some frameworks settle annual surpluses at a low pooled rate. A plant sized to the society's real consumption beats a maximised terrace every time.
 
 **Regulatory change cuts both ways.** Delhi has amended its guidelines seven times, mostly in the consumer's favour. But banking provisions, charge waivers, and settlement rates can tighten. A shared plant's economics should still work if the worst reasonable policy shift occurs.
 
-> **What most RWAs get wrong.** The committee spends months negotiating the sharing formula and almost no time on the revision clause. The formula matters for year one. The revision clause matters for years five through twenty-five, when ownership patterns have changed and the original agreement no longer fits.
+> [!IMPORTANT] What most RWAs get wrong
+> The committee spends months negotiating the sharing formula and almost no time on the revision clause. The formula matters for year one. The revision clause matters for years five through twenty-five, when ownership patterns have changed and the original agreement no longer fits.
 
 ## Who Should Use Virtual Net Metering, and Who Should Not
 

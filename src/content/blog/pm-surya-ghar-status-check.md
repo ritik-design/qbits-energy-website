@@ -4,7 +4,7 @@ excerpt: "Check PM Surya Ghar status at pmsuryaghar.gov.in using your mobile num
 description: "Check your PM Surya Ghar application status at pmsuryaghar.gov.in using your mobile number or application ID. Step-by-step guide with stage timelines."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "13 min"
 image: "/og/blog-pm-surya-ghar-status-check.webp"
 author: "Nirav Dhanani"
@@ -41,13 +41,12 @@ You submitted your [PM Surya Ghar](https://www.heavengreenenergy.com/blog/pm-sur
 
 > **Direct answer.** Check [PM Surya Ghar](https://quickestimate.co/blog/how-to-calculate-pm-surya-ghar-subsidy) status by logging in to [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} with your registered mobile number and OTP. Navigate to the Application Status section. The portal shows your current stage, date of last update, and any pending actions. Average processing time is 45 to 90 days across states in 2026.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Log in at pmsuryaghar.gov.in with your registered mobile number and OTP, then open the Application Status section to see your current stage.
 > - Average processing time is 45 to 90 days end to end, against the official 30-day target.
 > - Net metering activation is usually the longest single stage, averaging 15 to 45 days depending on the DISCOM.
 > - If a stage has not moved in 21 days, raise a portal grievance; escalate to the DISCOM helpline after 45 days and to a written complaint after 60 days.
-> - A "Rejected" status usually means a document or eligibility issue, most are fixable by correcting the flagged item and reapplying.
-> - The subsidy shows as "Disbursed" on the portal and should reach your bank account within 2 to 3 working days via PFMS.
+> - A "Rejected" status usually means a document or eligibility issue, most are fixable by correcting the flagged item and reapplying. The subsidy shows as "Disbursed" on the portal and should reach your bank account within 2 to 3 working days via PFMS.
 
 The status check process sounds simple, but knowing what each status means and how long each stage should realistically take is the information most applicants are missing. This guide fills that gap completely. For the full context on the scheme, see the [PM Surya Ghar complete guide](/blog/pm-surya-ghar-yojana-complete-guide/).
 
@@ -57,6 +56,7 @@ The PM Surya Ghar portal uses mobile-number-based authentication. There is no se
 
 ### Step-by-step login process
 
+<!-- steps -->
 1. Open [pmsuryaghar.gov.in](https://pmsuryaghar.gov.in/){target="_blank" rel="noopener"} on any browser (desktop or mobile)
 2. Click "Login as Applicant" on the homepage
 3. Enter your 10-digit registered mobile number
@@ -64,7 +64,8 @@ The PM Surya Ghar portal uses mobile-number-based authentication. There is no se
 5. Enter the 6-digit OTP received on your mobile within 60 seconds
 6. You are now on your applicant dashboard
 
-If you do not remember which mobile number you registered with, the portal cannot recover it directly. Contact your DISCOM's consumer helpline with your electricity consumer number, they can look up the registered mobile for your application.
+> [!TIP] Lost track of the registered mobile number
+> If you do not remember which mobile number you registered with, the portal cannot recover it directly. Contact your DISCOM's consumer helpline with your electricity consumer number, they can look up the registered mobile for your application.
 
 ### Using the PM Surya Ghar mobile app
 
@@ -75,6 +76,8 @@ The app requires the same OTP-based login. Enable notifications to receive autom
 ## Understanding Every Status Stage: What Each One Means
 
 The PM Surya Ghar portal displays your application through a linear pipeline. Each stage has a target completion time and a typical real-world time. The table below demystifies every status label.
+
+Table: PM Surya Ghar status stages: what is happening, target time and typical real time
 
 | Stage | What Is Happening | Target Time | Typical Real Time |
 | --- | --- | --- | --- |
@@ -99,6 +102,7 @@ Not every stalled application requires the same response. This framework helps y
 
 ### The 4-Stage Status Intervention Framework
 
+<!-- steps -->
 1. **Days 1–21: Wait and monitor**: Most DISCOMs process applications within 21 days. Check the portal every 3 to 5 days. No action needed unless you receive a rejection notice or a request for additional documents.
 2. **Days 22–45: Raise a portal grievance**: If your application has not moved past "Pending at DISCOM" or "Feasibility Check Pending" after 21 days, log in to the portal and use the "Raise Grievance" function. This creates a formal ticket visible to DISCOM management and typically triggers action within 7 to 10 days.
 3. **Days 46–60: Escalate to DISCOM consumer helpline**: Call your state DISCOM's consumer grievance cell with your application reference number. This is distinct from the PM Surya Ghar helpline (1800-180-3333), which handles scheme-level issues but cannot push individual DISCOMs to move faster.
@@ -176,6 +180,7 @@ The PM Surya Ghar portal experiences high traffic, particularly around subsidy a
 
 The PM Surya Ghar portal has a built-in grievance mechanism. To use it:
 
+<!-- steps -->
 1. Log in with your registered mobile number
 2. Navigate to "Raise Grievance" from the applicant dashboard
 3. Select your application from the dropdown

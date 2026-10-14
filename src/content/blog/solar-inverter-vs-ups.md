@@ -42,8 +42,7 @@ The power-backup aisle at an Indian electronics shop is confusing. Shelves carry
 
 This guide draws a line between each category: what it does, what it does not do, how its economics are structured, and where it makes sense. It uses no price lists, because prices change and Qbits sells through dealers on quotation. Where a cost question matters, it gives the calculation so you can run your own numbers.
 
-> **Quick answers**
->
+> [!KEYTAKEAWAYS]
 > - A grid tied solar inverter supplies nothing during an outage, by design.
 > - A hybrid inverter backs up designated circuits, transferring with a break.
 > - A UPS is built to carry equipment through that break.
@@ -118,6 +117,8 @@ The result is bill reduction like an on-grid system and backup like a UPS, with 
 
 ## The core difference, side by side
 
+Table: Home inverter or UPS, on-grid solar inverter and hybrid inverter compared feature by feature
+
 | Feature | Home inverter or UPS | On-grid solar inverter | Solar hybrid inverter |
 | --- | --- | --- | --- |
 | Solar panel input | No | Yes | Yes |
@@ -139,13 +140,19 @@ When the grid fails, a hybrid inverter detects the loss, disconnects from the gr
 
 A refrigerator, lights and fans do not care. A desktop computer without its own power protection will restart. Some networking equipment drops its session. Certain medical devices must not be interrupted at all, and that decision belongs to the equipment owner and a qualified designer, not to a sales conversation.
 
-No no-break transfer-time specification is stated in the Qbits product data used for this guide, so do not assume one. For any model, ask the supplier for the current documented transfer time and compare it against the tolerance of the specific load. Where the documented break exceeds what the equipment tolerates, the answer is a properly sized dedicated UPS for that equipment. A marketing use of the phrase "UPS mode" does not change the electrical requirement.
+> [!IMPORTANT] Transfer time for sensitive loads
+> No no-break transfer-time specification is stated in the Qbits product data used for this guide, so do not assume one. For any model, ask the supplier for the current documented transfer time and compare it against the tolerance of the specific load. Where the documented break exceeds what the equipment tolerates, the answer is a properly sized dedicated UPS for that equipment. A marketing use of the phrase "UPS mode" does not change the electrical requirement.
 
 ## Power and runtime are separate quantities
 
 A 5 kW rating describes the maximum rate at which the inverter can supply power under stated conditions. It says nothing about how long.
 
-Runtime comes from the battery. Take an illustrative 500 W load that you want to run for four hours. That is **2 kWh** delivered at the load. Assuming a usable battery fraction of 80 percent and conversion efficiency of 90 percent, the nominal battery energy required is **2 divided by (0.80 times 0.90), which is 2.78 kWh**, before any design reserve.
+> [!EXAMPLE] Runtime for a 500 W load over four hours
+> Runtime comes from the battery. Take an illustrative 500 W load that you want to run for four hours. That is **2 kWh** delivered at the load. Assuming a usable battery fraction of 80 percent and conversion efficiency of 90 percent, the nominal battery energy required is **2 divided by (0.80 times 0.90), which is 2.78 kWh**, before any design reserve.
+
+> [!FORMULA] Nominal battery energy
+> Battery kWh = Load energy delivered (kWh) ÷ (usable battery fraction × conversion efficiency)
+
 
 Those two assumptions are illustrative and should be replaced with the figures for the actual battery and inverter. The point is the structure of the calculation, not the result. The [battery sizing guide](/blog/battery-sizing-hybrid-solar/) works through the full worksheet.
 
@@ -163,7 +170,8 @@ If a motor load must run on backup, get the starting characteristics of that spe
 
 This is probably the most common question in buyer groups, and the answer depends on one detail an installer may not volunteer.
 
-**Standard home inverters and UPS units cannot accept solar panel input.** They expect an AC source and manage their own charging. Connecting panels directly to such a device is unsafe, because unregulated panel voltage can overcharge and damage the battery or create a fire risk.
+> [!CAUTION] Do not connect panels straight to a UPS
+> **Standard home inverters and UPS units cannot accept solar panel input.** They expect an AC source and manage their own charging. Connecting panels directly to such a device is unsafe, because unregulated panel voltage can overcharge and damage the battery or create a fire risk.
 
 **Solar-compatible home inverters** include a built-in solar charge controller, of the PWM or MPPT type. These are explicitly labelled and accept panels up to a stated wattage. They still do not export to the grid and do not support net metering.
 
@@ -197,6 +205,8 @@ Answer these honestly before speaking to any installer.
 3. **What will you spend up front and over ten years?** Hybrid costs more up front because of the battery and a more complex inverter. Use the worksheet above with real quotes.
 4. **Is the grid reliable enough for an on-grid inverter?** If outages are frequent, an on-grid inverter will shut down each time, and a hybrid is the correct specification.
 
+Table: Which product fits which situation
+
 | Your situation | Likely fit |
 | --- | --- |
 | Reliable grid, bill reduction is the goal | On-grid solar inverter |
@@ -207,6 +217,8 @@ Answer these honestly before speaking to any installer.
 ## What goes into a ten-year cost comparison
 
 Numbers alone resolve the hybrid versus UPS debate for many households, but only if the structure is right. Build the comparison from these lines for each option, using quotes dated this month:
+
+Table: Cost elements to include in a ten-year comparison, by option
 
 | Cost element | Home inverter or UPS | On-grid solar | Hybrid with battery |
 | --- | --- | --- | --- |
@@ -253,11 +265,12 @@ The [solar inverter troubleshooting guide](/blog/solar-inverter-troubleshooting/
 
 Before comparing products, write down the following.
 
-1. The exact loads that must run, with their power ratings from the labels.
-2. What interruption each can tolerate, honestly assessed.
-3. The runtime you want, and at what load.
-4. Any motor loads and their starting behaviour.
-5. Your utility connection and whether a solar system is approved or planned.
+> [!CHECKLIST] Write these down before comparing products
+> - The exact loads that must run, with their power ratings from the labels.
+> - What interruption each can tolerate, honestly assessed.
+> - The runtime you want, and at what load.
+> - Any motor loads and their starting behaviour.
+> - Your utility connection and whether a solar system is approved or planned.
 
 Then ask suppliers for the model manual, the backup output rating stated separately from the grid tied rating, transfer test results, battery compatibility documentation, and a drawing showing exactly which circuits are connected to the backup output.
 

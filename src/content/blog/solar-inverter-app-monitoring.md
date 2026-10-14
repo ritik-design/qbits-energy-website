@@ -46,7 +46,7 @@ You installed a solar system, the installer handed you an app, and you have open
 
 The five apps compared here are **iSolarCloud (Sungrow)**, **SEMS Portal and SEMS+ (GoodWe)**, **ShinePhone (Growatt)**, **SolisCloud (Solis)** and the **Qbits inverter app**. This page is about the apps: how you set them up, what alerts they can send, how you get your data out, and which language they speak. If you are still choosing the inverter and its Wi-Fi hardware, the [buyer's guide to Wi-Fi solar inverters](/blog/best-wifi-solar-inverter-india/) compares the five brands by exact model and logger.
 
-> **Quick answer**
+> [!KEYTAKEAWAYS]
 > - There is no single best app, and you usually cannot choose one apart from the inverter. Each app reads its own brand's loggers.
 > - What differs is documentation. SolisCloud documents push, SMS and email alarms. iSolarCloud documents a local hotspot mode. ShineServer documents email reports and Excel export. SEMS+ Classic documents Bluetooth or Wi-Fi setup and a Report Center export.
 > - None of the five store listings we checked offers Hindi (checked 14 October 2026).
@@ -69,6 +69,9 @@ Three points follow from this.
 2. **Most loggers are 2.4 GHz only.** The GoodWe Wi-Fi Kit-20, Sungrow WiNet-S2 and Solis S3-WiFi-ST datasheets all list 802.11 b/g/n at 2.4 GHz. Growatt's installation guide says the ShineWiFi-X works on 2.4 GHz and dual-band routers but not on a single-band 5 GHz router. If your router only broadcasts 5 GHz, the logger cannot join.
 3. **Local access is separate from cloud access.** Several brands let you connect the phone straight to the logger's hotspot to commission it. That works without internet but only near the inverter.
 
+> [!TIP] Check the router band first
+> The GoodWe Wi-Fi Kit-20, Sungrow WiNet-S2 and Solis S3-WiFi-ST datasheets all list 802.11 b/g/n at 2.4 GHz, and Growatt's guide says the ShineWiFi-X will not join a single-band 5 GHz router. If the app is blank after a router change, check the band and the saved Wi-Fi password before blaming the inverter.
+
 If a system has already stopped reporting, use the [Wi-Fi connection troubleshooting sequence](/blog/solar-inverter-wifi-not-connecting-fix/). Once data flows, the guide to [reading a solar monitoring app](/blog/how-to-read-solar-monitoring-app-india/) explains the power, energy and fault screens.
 
 ## Five questions that decide which app suits you
@@ -87,6 +90,8 @@ The answers point at features to verify, not at a brand. If you have not yet bou
 
 Every cell below comes from an official manual, datasheet or store listing we opened on 14 October 2026. "Not found" means we checked the documents named in this article and the fact was not stated. It does not mean the feature is absent.
 
+Table: Monitoring app facts as published in official manuals, datasheets and store listings, checked 14 October 2026
+
 | Item | iSolarCloud (Sungrow) | SEMS Portal and SEMS+ (GoodWe) | ShinePhone (Growatt) | SolisCloud (Solis) | Qbits inverter app |
 | --- | --- | --- | --- | --- | --- |
 | Languages on the App Store listing | 19 | 11 for SEMS Portal | 16 | 25 | English only |
@@ -99,6 +104,21 @@ Every cell below comes from an official manual, datasheet or store listing we op
 | Logger interval published | Seconds (WiNet-S2); 10 second refresh sample on SG-RS-L page | Not found | 5 minutes | 5 minutes | Not found |
 
 Sources: [iSolarCloud App Store listing](https://apps.apple.com/au/app/isolarcloud/id1050077439), [Sungrow WiNet-S/S2 manual](https://info-support.sungrowpower.com/product-materials/ef25502d-fc34-4349-a794-12d16a19accf.pdf), [Sungrow iSolarCloud release note](https://www.sungrowpower.com/en/newsdetail/sungrow-launches-new-version-of-its-management-and-monitoring-system-isolarcloud), [GoodWe SEMS+ Classic manual (V1.1, 15 January 2026)](https://en.goodwe.com/Ftp/EN/Downloads/User%20Manual/GW_SEMS-PLUS_User-Manual-EN.pdf), [SEMS Portal App manual (V1.1, 10 January 2024)](https://us.goodwe.com/Ftp/EN/Downloads/User%20Manual/GW_SEMS%20Portal%20APP_User%20Manual-EN.pdf), [ShinePhone App Store listing](https://apps.apple.com/us/app/shinephone/id669936054), [ShineServer manual](https://cdn.growatt.com/user_manual_file/ShineServer_user_manual_EN_V3.0.pdf), [SolisCloud App Store listing](https://apps.apple.com/us/app/soliscloud/id1371324452), [SolisCloud owner manual V2.0](https://www.solisinverters.com/uploads/file/SolisCloud_Monitoring_System_V2,0_Owner.pdf), [Qbits inverter App Store listing](https://apps.apple.com/in/app/qbits-inverter/id6745775491).
+
+```chart
+type: hbar
+title: Languages listed on each monitoring app's App Store page
+unit: "languages"
+source: "App Store listings for iSolarCloud, SEMS Portal, ShinePhone, SolisCloud and Qbits inverter, checked 14 October 2026 (the table above)"
+note: "Number of languages listed on the iOS store page. None of the five lists Hindi. SEMS count is for SEMS Portal."
+decimals: 0
+data:
+  - { label: "SolisCloud (Solis)", value: 25 }
+  - { label: "iSolarCloud (Sungrow)", value: 19 }
+  - { label: "ShinePhone (Growatt)", value: 16 }
+  - { label: "SEMS Portal (GoodWe)", value: 11 }
+  - { label: "Qbits inverter app", value: 1 }
+```
 
 Store ratings are deliberately left out. They vary by storefront, rest on small samples, and say nothing about whether an app works on your logger.
 
@@ -138,11 +158,15 @@ Store ratings are deliberately left out. They vary by storefront, rest on small 
 
 The logger's light tells you what is wrong, which is useful for homeowners:
 
-- flashing red means it is waiting for configuration
-- solid blue means it is running its hotspot
-- flashing blue means it is connected to the router and the server
-- solid green means the connection failed, for example because the network is not 2.4 GHz, the password is wrong or the signal is weak
-- flashing green means it reached the router but the router has no internet
+Table: Growatt ShineWiFi-X logger light states and what each means
+
+| Light | What it means |
+| --- | --- |
+| Flashing red | Waiting for configuration |
+| Solid blue | Running its hotspot |
+| Flashing blue | Connected to the router and the server |
+| Solid green | The connection failed, for example because the network is not 2.4 GHz, the password is wrong or the signal is weak |
+| Flashing green | Reached the router but the router has no internet |
 
 (That guide is dated 2020, so check the current manual for your logger revision.)
 
@@ -178,6 +202,8 @@ The logger's light tells you what is wrong, which is useful for homeowners:
 
 Home broadband and mobile coverage vary from site to site, so what the system does during an outage matters more than screen design. We could only compare what the documents state.
 
+Table: What each platform's official documents say about data gaps during an internet outage
+
 | Platform or logger | What the official document says about gaps |
 | --- | --- |
 | GoodWe Wi-Fi Kit-20 | Breakpoint retransmission: it automatically disconnects and reconnects broken links to prevent data loss (datasheet) |
@@ -191,6 +217,8 @@ A cloud gap does not erase generation. The inverter keeps producing and the DISC
 ## Alerts: what you can actually rely on
 
 An alert that you do not see is not an alert. Compare how each platform documents delivery rather than how many fault codes it lists.
+
+Table: Alert delivery channels documented by each platform
 
 | Channel | iSolarCloud | SEMS | ShineServer and ShinePhone | SolisCloud |
 | --- | --- | --- | --- | --- |
@@ -215,6 +243,8 @@ Two practical steps raise the chance you see a fault. First, add a second person
 
 You usually cannot swap the app, but you can choose how you use it and which inverter you buy.
 
+Table: Which setup route fits which situation
+
 | Your situation | What to do |
 | --- | --- |
 | Sungrow inverter, comfortable with English apps | Use iSolarCloud, set the server region correctly, keep the owner role, and ask the installer to leave local access passwords changed |
@@ -230,6 +260,7 @@ You usually cannot swap the app, but you can choose how you use it and which inv
 
 The fairest comparison happens on your own installed system before the installer leaves.
 
+<!-- steps -->
 1. Register the plant with an email address and phone number you control.
 2. Confirm the inverter model and serial number shown in the app match the nameplate. Remember the logger serial is a different number.
 3. Compare current power and today's energy with the inverter's local display.
@@ -239,7 +270,8 @@ The fairest comparison happens on your own installed system before the installer
 7. Export a report and open the file.
 8. Change the password without using the installer's email, and write down the logger part number, firmware and account owner on the handover sheet.
 
-Do not create an unsafe electrical fault to test an alert. Monitoring shows what connected sensors report. It does not prove earthing, insulation or connector condition.
+> [!CAUTION] Do not fake a fault to test an alert
+> Do not create an unsafe electrical fault to test an alert. Monitoring shows what connected sensors report. It does not prove earthing, insulation or connector condition.
 
 ## Sources checked and what we could not confirm
 

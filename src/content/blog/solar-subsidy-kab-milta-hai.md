@@ -4,7 +4,7 @@ excerpt: "Solar ka subsidy kab milta hai? Registration se DBT credit tak stage-w
 description: "PM Surya Ghar subsidy kab aur kaise account mein aati hai, iski poori stage-by-stage timeline: portal registration, DISCOM feasibility, installation, inspection, net meter, commissioning aur DBT credit."
 category: "Policy"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-solar-subsidy-kab-milta-hai.webp"
 author: "Akash Hirapara"
@@ -40,12 +40,11 @@ language: hi
 
 Solar lagwane wale har ghar ka sabse bada sawaal price nahi hota, timing hota hai। "Paisa kab wapas aayega" yeh question har quote discussion mein aata hai, aur yahi wo jagah hai jahan sabse zyada galat expectations set hoti hain। Kuch vendors bolte hain "do mahine mein subsidy aa jayegi", kuch bolte hain "installation ke saath hi adjust ho jayegi"। Dono statements aam taur par galat hain। Is guide mein poora process stage-by-stage tod kar rakha gaya hai, har stage ke realistic din ke saath, aur yeh bhi ki kis stage par sabse zyada delay hota hai। Agar aapko process ke steps aur eligibility samajhni hai to uske liye alag companion guide hai; yeh page sirf timeline par focus karta hai।
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Subsidy DBT ke through consumer ke bank account mein aati hai, aur sirf [DISCOM](/glossary/discom/) commissioning ke baad, installation ke pehle ya beech mein nahi।
-> - Registration se paisa aane tak realistic total 3 se 6 mahine, best case 75 se 90 din।
+> - Registration se paisa aane tak realistic total 3 se 6 mahine, best case 75 se 90 din। Claim submit hone ke baad DBT credit typically 30 se 60 din, agar bank details first attempt mein sahi hon।
 > - Central subsidy pehle 2 kW par ₹30,000 per kW, teesre kW par ₹18,000, 3 kW band par cap ₹78,000।
 > - Sabse lamba wait typically DISCOM feasibility approval aur net meter installation par hota hai, installation par nahi।
-> - Claim submit hone ke baad DBT credit typically 30 se 60 din, agar bank details first attempt mein sahi hon।
 > - Har number ek range hai, official SLA nahi। State DISCOM aur season se timeline badalti hai।
 
 **Chhota jawab.** Solar ka subsidy DISCOM commissioning certificate milne ke baad milta hai, us se pehle kabhi nahi। [Commissioning](/glossary/commissioning/) ke baad aap portal par bank details ke saath subsidy claim submit karte hain, aur typically 30 se 60 din mein paisa Direct Benefit Transfer se aapke account mein aata hai। Registration se DBT tak poora elapsed time aam taur par 3 se 6 mahine rehta hai।
@@ -55,6 +54,8 @@ Yeh baat pehle hi clear kar lena zaroori hai kyunki isse aapka cash flow plan ba
 ## Poori Timeline Ek Table Mein
 
 Yeh centrepiece table hai। Har stage ka typical din range, kaun act karta hai, aur wahan sabse common delay ka kaaran।
+
+Table: Registration se DBT credit tak har stage ke typical din, responsible party aur common delay (ranges, official SLA nahi)
 
 | Stage | Typical Days | Kaun Act Karta Hai | Common Delay Ka Kaaran |
 | --- | --- | --- | --- |
@@ -115,9 +116,11 @@ Net meter application vendor ya consumer DISCOM ke paas file karta hai, fees ke 
 
 Wajah simple hai: bidirectional meter DISCOM ka stock item hai। Kai divisions mein monthly allotment aata hai, aur agar aapki application allotment cycle ke baad aayi to aapko agle cycle ka wait karna padta hai। Isme vendor kuch nahi kar sakta।
 
-> **Jo log yahan galti karte hain.** Log samajhte hain ki panels lag gaye to system chalu hai aur subsidy clock start ho gaya। Aisa nahi hai। Net meter aur commissioning ke bina system officially grid-connected nahi hai, aur subsidy claim ka darwaza khulta hi nahi।
+> [!IMPORTANT] Jo log yahan galti karte hain
+> Log samajhte hain ki panels lag gaye to system chalu hai aur subsidy clock start ho gaya। Aisa nahi hai। Net meter aur commissioning ke bina system officially grid-connected nahi hai, aur subsidy claim ka darwaza khulta hi nahi।
 
-Ek practical baat: net meter lagne se pehle system ko grid par mat chalayein। Kai DISCOMs isko violation maante hain aur inspection mein observation daal dete hain, jisse aur delay hota hai।
+> [!CAUTION] Net meter se pehle grid par system mat chalayein
+> Ek practical baat: net meter lagne se pehle system ko grid par mat chalayein। Kai DISCOMs isko violation maante hain aur inspection mein observation daal dete hain, jisse aur delay hota hai।
 
 ## Stage 5: Inspection Aur Commissioning Certificate (8 se 35 Din)
 
@@ -131,7 +134,7 @@ Commissioning certificate hi wo document hai jiske baad subsidy claim active hot
 <h3>Inspection ke waqt equipment hi asli fark daalta hai</h3>
 
 <a href="/our-products/" class="cta-btn">Product Range Dekhein <svg class="cta-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8l4 4-4 4"/></svg></a>
-<p class="cta-sub">ALMM listed models, model-specific written warranty ke saath।</p>
+<p class="cta-sub">Model-specific datasheet aur current written warranty terms ke saath।</p>
 </div>
 
 ## Stage 6: Subsidy Claim Aur DBT Credit (31 se 63 Din)
@@ -143,6 +146,8 @@ Uske baad DBT credit typically 30 se 60 din leta hai।
 Yahan teen cheezein sabse zyada claims atkati hain। Pehli, bank account ka naam electricity connection holder ke naam se match nahi karta। Doosri, cancelled cheque ki photo blurry hai ya IFSC padha nahi ja raha। Teesri, account inactive ya dormant hai, ya Aadhaar seeding pending hai।
 
 Amount ki clarity bhi rakhein। Central subsidy pehle 2 kW ke liye ₹30,000 per kW hai, teesre kW par ₹18,000 additional, aur 3 kW band par total cap ₹78,000। 5 kW system lagane par bhi central subsidy ₹78,000 hi milegi।
+
+Table: System size ke hisaab se central subsidy
 
 | System Size | Central Subsidy Calculation | Total Central Subsidy |
 | --- | --- | --- |
@@ -156,7 +161,10 @@ Kuch states apni state subsidy alag se dete hain, jo alag timeline aur alag port
 
 ## Ek Illustrative Example: 3 kW Ghar, Realistic Calendar
 
-Yeh example illustrative hai, kisi ek actual customer ka record nahi। Ise sirf timeline samajhne ke liye padhein।
+> [!EXAMPLE] 3 kW ghar ka illustrative calendar
+> Yeh example illustrative hai, kisi ek actual customer ka record nahi। Ise sirf timeline samajhne ke liye padhein।
+
+Table: 3 kW ghar ka illustrative calendar, Day 0 se DBT credit tak
 
 | Din | Kya Hua |
 | --- | --- |
@@ -184,11 +192,16 @@ Do jagah parallel track karein, kyunki dono systems hamesha sync nahi hote।
 2. **DISCOM consumer portal.** Apne net meter application number se DISCOM ki site par alag status check karein। Meter aur inspection ka actual movement aksar yahan pehle dikhta hai।
 3. **SMS trail sambhal kar rakhein.** Har stage ka SMS timestamp ke saath aata hai। Escalation ke waqt yeh sabse useful evidence hota hai।
 
+> [!TIP] Har 7 din mein dono portals check karein
+> National portal aur DISCOM consumer portal hamesha sync nahi hote, isliye dono par status dekhein aur date ke saath screenshot save karein। Complaint ki halat mein exact timeline proof kaam aata hai।
+
 Ek habit bana lein: har 7 din mein ek baar dono portals check karein aur screenshot save karein date ke saath। Agar baad mein complaint karni padi to aapke paas exact timeline proof hoga।
 
 ## Kya Karein Agar Atak Jaye
 
 Har stage ke liye alag action hai। Blanket "vendor ko phone karo" kaam nahi karta, kyunki aadhe stages vendor ke control mein hi nahi hain।
+
+Table: Kis stage par ruke hain to 30 din baad kya karein
 
 | Kahan Ruka Hai | 30 Din Baad Kya Karein |
 | --- | --- |
@@ -214,12 +227,13 @@ Ek aur cheez jo log miss karte hain: agar aapka vendor gayab ho gaya hai ya kaam
 
 Poora control kisi ka nahi hota, lekin kuch cheezein genuinely fark daalti hain।
 
-1. **Sanctioned load pehle check karein.** Bill par load dekh kar hi system size decide karein। Yeh akela step 15 se 30 din bacha sakta hai।
-2. **Bank details registration ke waqt hi ready rakhein.** Connection holder ke naam wala active account, clear cancelled cheque scan, aur Aadhaar seeded।
-3. **Net meter application installation ke turant baad file karein.** Ek din ka bhi gap na dein, kyunki yahan queue position matter karti hai।
-4. **Documents har stage par khud verify karein.** Vendor ke upload ka screenshot maangein, blindly bharosa na karein।
-5. **Monsoon peak avoid karein agar flexibility hai.** Field visits aur roof work dono slow hote hain us dauran।
-6. **ALMM listed equipment hi lagwayein.** Non-listed equipment inspection par reject hota hai aur poora timeline reset ho jaata hai।
+> [!CHECKLIST] Timeline tez karne ke 6 tarike
+> - **Sanctioned load pehle check karein.** Bill par load dekh kar hi system size decide karein। Yeh akela step 15 se 30 din bacha sakta hai।
+> - **Bank details registration ke waqt hi ready rakhein.** Connection holder ke naam wala active account, clear cancelled cheque scan, aur Aadhaar seeded।
+> - **Net meter application installation ke turant baad file karein.** Ek din ka bhi gap na dein, kyunki yahan queue position matter karti hai।
+> - **Documents har stage par khud verify karein.** Vendor ke upload ka screenshot maangein, blindly bharosa na karein।
+> - **Monsoon peak avoid karein agar flexibility hai.** Field visits aur roof work dono slow hote hain us dauran।
+> - **ALMM listed equipment hi lagwayein.** Non-listed equipment inspection par reject hota hai aur poora timeline reset ho jaata hai। (MNRE ki ALMM list modules aur cells ke liye hai; inverter ke liye exact model ke documents aur DISCOM requirement verify karein।)
 
 Ek nuance: tez hone ke chakkar mein cheap non-listed inverter mat lagwa lena। Woh 30 din bacha kar 90 din ka rework de sakta hai, aur worst case subsidy hi cancel ho sakti hai।
 

@@ -52,12 +52,11 @@ You get company background, published inverter specs, the cable story where both
 
 Qbits publishes this guide and sells solar inverters, so it competes with both. It appears in two marked places, held to the same evidence standard as the rest.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Havells prints 10 years standard warranty across its Enviro GTi grid-tie datasheets. Polycab prints 7 years for 2 kW to 125 kW, 5 years on its 350 kW utility series.
 > - Polycab prints IP66 on three-phase models from 5 kW up. Most Havells three-phase NG models print IP65.
 > - MNRE added Havells India Limited to ALMM List-I on 6 July 2026 for a 1,221 MW Surat facility, according to SaurEnergy (2026).
-> - Polycab entered solar in 2012 with DC cables and holds accreditation to EN 50618 and IEC 62930 for 1.5 to 300 sq mm, per its Solar Catalogue (2025).
-> - Havells invested ₹600 crore in module maker Goldi Solar in April 2025, according to pv magazine India (2025).
+> - Polycab entered solar in 2012 with DC cables and holds accreditation to EN 50618 and IEC 62930 for 1.5 to 300 sq mm, per its Solar Catalogue (2025). Havells invested ₹600 crore in module maker Goldi Solar in April 2025, according to pv magazine India (2025).
 > - ALMM covers modules and cells, not inverters. A panel on the ALMM module list says nothing about the inverter in the same quote.
 
 **Short version.** Polycab is the stronger cable and balance-of-system brand and prints IP66 on its mid-range three-phase inverters. Havells prints the longer inverter warranty at 10 years and now sits on ALMM List-I for modules. Neither is a solar-specialist inverter house. Decide on the two exact models quoted, their MPPT counts, the written warranty, and which brand has a stocking service partner in your district.
@@ -77,6 +76,8 @@ On modules, Havells took a partnership route first. It invested ₹600 crore for
 ## Solar inverter range and published specifications
 
 Both publish complete grid-tie datasheets, which is more than several consumer brands manage. Havells covers 1.1 kW to 100 kW in its printed Enviro GTi catalogue and advertises up to 350 kW online. Polycab covers 2 kW to 125 kW as Make in India, plus a 350 kW utility series. Polycab prints IP66 on its three-phase units, where most Havells three-phase models print IP65.
+
+Table: Havells and Polycab grid-tie inverters compared on published specifications
 
 | Specification | Havells | Polycab |
 | --- | --- | --- |
@@ -119,6 +120,8 @@ MNRE added Havells India Limited to List-I by office memorandum dated 6 July 202
 
 Polycab's catalogue prints three module families and a dedicated ALMM model number field on its TOPCon datasheet, which is the correct way to publish it.
 
+Table: Polycab module families: power range, warranties and peak efficiency (Solar Catalogue 2025)
+
 | Polycab module family | Power range | Product warranty | Performance warranty | Peak module efficiency |
 | --- | --- | --- | --- | --- |
 | 144 half-cut Mono PERC | 525 W to 560 W | 10 years | 25 years | 21.67% |
@@ -133,6 +136,8 @@ The procedure matters more than either claim. List-I is revised almost monthly, 
 
 Warranty is the cleanest numeric difference between these two brands, and it runs in Havells' favour on inverters. Havells prints 10 years as standard on every Enviro GTi grid-tie datasheet reviewed. Polycab prints 7 years for its 2 kW to 125 kW range and 5 years on the 350 kW utility series. Modules run far longer than inverters on both sides.
 
+Table: Havells and Polycab warranty terms as printed, with what neither publishes
+
 | Warranty item | Havells | Polycab |
 | --- | --- | --- |
 | Grid-tie inverter, standard term | 10 years, printed on every Enviro GTi datasheet reviewed | 7 years, printed for 2 kW to 125 kW |
@@ -142,6 +147,18 @@ Warranty is the cleanest numeric difference between these two brands, and it run
 | Module product warranty | Not published per model on the business page | 10 years Mono PERC, 12 years bifacial and TOPCon |
 | Module performance warranty | Page states a minimum of 25 years for panels | 25, 27, or 30 years by family |
 | Remedy, freight, and labour terms | Not published | Not published |
+
+```chart
+type: hbar
+title: Standard grid-tie inverter warranty printed by each brand, in years
+unit: "years"
+source: "Havells Solar Grid-Tie Inverter catalogue (printed on every Enviro GTi datasheet reviewed) and Polycab Solar Catalogue (2025), as in the warranty table above"
+note: "Printed terms only. Neither company publishes remedy, freight or labour terms, so the written warranty for your SKU is the binding number."
+data:
+  - { label: "Havells Enviro GTi grid-tie", value: 10 }
+  - { label: "Polycab grid-tie, 2 kW to 125 kW", value: 7 }
+  - { label: "Polycab 350 kW UT series", value: 5 }
+```
 
 That last row is the one buyers skip. Neither company publishes the remedy type, the freight and labour liability, the registration deadline, or the claim-honouring entity. Years are the easy part. Our [inverter warranty guide](/blog/solar-inverter-warranty/) has the document checklist.
 
@@ -159,13 +176,15 @@ This worked example uses published datasheet figures only. It is arithmetic, not
 2. Inverter A: Polycab PSIT-10K-SM1R2, 1 MPPT, 1 maximum PV string, MPPT range 160 V to 1000 V, max DC 1100 V, max input current 20 A (same catalogue).
 3. Inverter B: Havells Enviro GTi 11000 TX-NG, 2 MPPTs, 1 string per MPPT, MPPT range 140 V to 1000 V, full-power window 420 V to 850 V, max 15 A per MPPT (Havells grid-tie catalogue).
 
-**Formula:** Voc(string, cold) = N modules x Voc(STC) x (1 + |TC| x (25 - T cell) / 100)
+> [!FORMULA] Cold string voltage
+> Voc(string, cold) = N modules x Voc(STC) x (1 + |TC| x (25 - T cell) / 100)
 
 **Case A, one orientation on the Polycab unit.** Take 18 modules, so 9.9 kWp. String Voc at STC is 18 x 50.49 = 908.8 V. At a 10 degree cell temperature the correction is 15 x 0.26% = 3.9%, giving 944 V. That clears the 1000 V MPPT ceiling and the 1100 V limit, and Imp of 12.88 A sits under the 20 A rating.
 
 **Case B, east-west split on the Havells unit.** Take 9 modules per MPPT, so 9.9 kWp total. String Voc at STC is 9 x 50.49 = 454.4 V, rising to 472 V cold. That is inside the 140 V to 1000 V range and above the 420 V full-power threshold. Imp is under the 15 A per-MPPT limit.
 
-**What it proves.** Both units accept 9.9 kWp. Only the two-tracker unit splits it across two orientations without the weaker array pulling the operating point of the stronger one. So the question is not which brand wins, but whether the model quoted has enough independent trackers for your roof. Our [dual against single MPPT explainer](/blog/dual-mppt-vs-single-mppt/) covers the loss mechanism, and the [string sizing calculator](/string-sizing-calculator/) runs this check for your own combination.
+> [!IMPORTANT] Match the tracker count to the roof, not the brand
+> **What it proves.** Both units accept 9.9 kWp. Only the two-tracker unit splits it across two orientations without the weaker array pulling the operating point of the stronger one. So the question is not which brand wins, but whether the model quoted has enough independent trackers for your roof. Our [dual against single MPPT explainer](/blog/dual-mppt-vs-single-mppt/) covers the loss mechanism, and the [string sizing calculator](/string-sizing-calculator/) runs this check for your own combination.
 
 ## Service and distribution network
 
@@ -208,17 +227,18 @@ Fit depends on who is buying and what the scope includes. Havells suits the home
 
 Work through this with both quotations side by side. Every item is answerable from a document.
 
-1. What is the exact model designation, and may I see the current datasheet with its revision date?
-2. Is this a grid-tie unit, a hybrid unit, or an off-grid PCU, and does that match my application?
-3. How many independent MPPTs, and how many strings per MPPT?
-4. What is the printed IP rating, and is the mounting location exposed?
-5. What is the maximum DC voltage and MPPT window, and was cold-weather Voc checked for my string length?
-6. What is the written warranty term for this SKU, and does it match the catalogue?
-7. Who honours the claim, who pays freight and labour, and what is the registration deadline?
-8. Which BIS registration and which IS or IEC standards apply to this model?
-9. For modules, what is the ALMM model number, and which dated List-I revision shows it?
-10. Which named entity performs the warranty site visit in my district, and what spares does it stock?
-11. Does the price include installation, cable, DCDB, ACDB, earthing, and taxes, or only the inverter box?
+> [!CHECKLIST] Eleven questions to put to both dealers
+> - What is the exact model designation, and may I see the current datasheet with its revision date?
+> - Is this a grid-tie unit, a hybrid unit, or an off-grid PCU, and does that match my application?
+> - How many independent MPPTs, and how many strings per MPPT?
+> - What is the printed IP rating, and is the mounting location exposed?
+> - What is the maximum DC voltage and MPPT window, and was cold-weather Voc checked for my string length?
+> - What is the written warranty term for this SKU, and does it match the catalogue?
+> - Who honours the claim, who pays freight and labour, and what is the registration deadline?
+> - Which BIS registration and which IS or IEC standards apply to this model?
+> - For modules, what is the ALMM model number, and which dated List-I revision shows it?
+> - Which named entity performs the warranty site visit in my district, and what spares does it stock?
+> - Does the price include installation, cable, DCDB, ACDB, earthing, and taxes, or only the inverter box?
 
 Questions 7, 10, and 11 separate a serious offer from a cheap one. Two quotes 20% apart often differ by an entire scope of work. The Qbits [on-grid inverter range](/on-grid-inverter/) and [product library](/our-products/) publish the same fields for a third datasheet to compare against.
 

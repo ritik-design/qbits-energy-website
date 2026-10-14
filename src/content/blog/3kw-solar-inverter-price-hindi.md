@@ -40,7 +40,7 @@ language: hi
 
 Is guide mein hum teen cheezein alag rakhte hain: **named inverter listings ki dated price**, **poore 3 kW system ka official benchmark**, aur **subsidy, EMI aur payback ka arithmetic**. Har rupee figure ke saath source aur date likhi hai. Jahan sourced figure nahi mila, wahan number nahi diya gaya.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - 14 October 2026 ko Luminous ke official store par 3 kW on-grid NXI T130 ₹22,000 (tax included) par listed tha aur 3 kVA hybrid TX ₹73,800 (tax included, sirf inverter) par. Yeh named listings hain, India-wide range nahi.
 > - MNRE ka 3 kW installed-system benchmark ₹1,45,000 hai (₹50,000 per kW pehle 2 kW par, ₹45,000 teesre kW par).
 > - 3 kW par standard central assistance up to ₹78,000 hai, yaani benchmark par ₹67,000 ka remainder. Yeh arithmetic hai, final bill nahi.
@@ -51,6 +51,8 @@ Is guide mein hum teen cheezein alag rakhte hain: **named inverter listings ki d
 ## 3 kW solar inverter ka rate kaise pata karein?
 
 Kam se kam teen itemised quotes lijiye. Har quote mein yeh likha hona chahiye:
+
+Table: Itemised quote mein kya likha hona chahiye aur kya verify karein
 
 | Quote item | Kya verify karein |
 | --- | --- |
@@ -67,6 +69,8 @@ Qbits ki public website par model-wise retail price list nahi hai. Qbits ke inve
 
 Neeche ki table mein sirf wahi listings hain jo humne 14 October 2026 ko khud page par dekhin. Yeh brand ranking nahi hai, aur yeh Qbits ki price bhi nahi hai. Online price roz badalti hai, isliye khareedne se pehle seller page par dobara check karein.
 
+Table: 3 kW inverter ki dated listings, 14 October 2026 (brand ranking nahi, Qbits price nahi)
+
 | Listing | Type | Price (14 Oct 2026) | Tax | Warranty as printed | Note |
 | --- | --- | ---: | --- | --- | --- |
 | [Luminous NXI T130, official store](https://luminousindia.com/solar-inverters/nxi-t130) | 3 kW single-phase on-grid | ₹22,000 (MRP ₹74,000) | Inclusive | 10 years | Max PV input page par nahi diya |
@@ -74,6 +78,21 @@ Neeche ki table mein sirf wahi listings hain jo humne 14 October 2026 ko khud pa
 | [Luminous Solar GTI 3 kW 1-phase, Pronounce Solar](https://pronouncesolar.in/products/luminous-solar-on-grid-gti-solar-inverter-3kw-1-phase) | 3 kW 1-phase on-grid | ₹31,499 (regular price ₹71,999) | Inclusive | 60 months | Page par "Sold out" |
 | [Luminous Solar Hybrid TX 3kVA, official store](https://www.luminousindia.com/product/hybrid-tx-3kva-3kw) | 3 kVA / 3 kW hybrid, 48 V | ₹73,800 (MRP ₹82,000) | Inclusive | 36 months | "What's in the box" mein sirf inverter, battery nahi |
 | [Luminous Solarverter Pro 3kVA Eco, official store](https://www.luminousindia.com/product/solarverter-pro-3kva-eco) | 3 kVA solar PCU, 36 V battery side | ₹33,499 (MRP ₹60,000) | Inclusive | 36 months | Yeh battery-based PCU hai, grid-tied hybrid ke barabar nahi samjhein |
+
+```chart
+type: hbar
+title: 3 kW class inverter listing prices, 14 October 2026 (named listings, not a market range)
+unit: "₹"
+source: "Seller listing pages checked 14 October 2026: Luminous official store (NXI T130, Hybrid TX 3kVA, Solarverter Pro 3kVA Eco), Battery E-Store (NXI 130) and Pronounce Solar (GTI 3 kW), tax included"
+note: "Different product types are mixed here. The GTI listing showed Sold out. This is not a brand ranking."
+decimals: 0
+data:
+  - { label: "NXI 130 on-grid, Battery E-Store", value: 20000 }
+  - { label: "NXI T130 on-grid, official store", value: 22000 }
+  - { label: "GTI 3 kW on-grid, Pronounce Solar (sold out)", value: 31499 }
+  - { label: "Solarverter Pro 3kVA Eco PCU", value: 33499 }
+  - { label: "Hybrid TX 3kVA, official store", value: 73800 }
+```
 
 Is table se teen baatein nikalti hain.
 
@@ -95,17 +114,22 @@ Hybrid kab sochna chahiye? Agar aapke area mein roz kai ghante power cut aata ha
 
 Retail inverter ya panel ka rate poore system ka rate nahi hota. Poore rooftop system ke liye sabse bharosemand official reference [MNRE ke residential CFA guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) ka benchmark cost hai: **₹50,000 per kW pehle 2 kW ke liye aur ₹45,000 additional kW ke liye, 13 February 2024 se** (general-category states).
 
+Table: MNRE ka 3 kW installed-system benchmark, general-category states
+
 | Capacity | Benchmark cost | Calculation |
 | --- | ---: | --- |
 | Pehle 2 kW | ₹1,00,000 | 2 × ₹50,000 |
 | Teesra kW | ₹45,000 | 1 × ₹45,000 |
 | **3 kW total** | **₹1,45,000** | ₹1,00,000 + ₹45,000 |
 
-Yeh ek policy benchmark hai, vendor ke liye mandatory selling price nahi. Same guidelines consumer aur registered vendor ko system aur financial terms tay karne dete hain. Is liye aapka asli quote isse upar ya neeche ho sakta hai.
+> [!IMPORTANT] ₹1,45,000 price cap nahi hai
+> Yeh ek policy benchmark hai, vendor ke liye mandatory selling price nahi. Same guidelines consumer aur registered vendor ko system aur financial terms tay karne dete hain. Is liye aapka asli quote isse upar ya neeche ho sakta hai.
 
 **Benchmark ke andar 3 kW ke components kaise baithte hain? (illustration)**
 
 Dated listings ko benchmark par rakhkar dekhein to ek mota idea milta hai. Neeche ki arithmetic sirf illustration hai, kisi vendor ka quote ya market range nahi.
+
+Table: Benchmark ke andar panels aur inverter ki dated listings (illustration)
 
 | Item | Source | Amount |
 | --- | --- | ---: |
@@ -119,6 +143,8 @@ Dated listings ko benchmark par rakhkar dekhein to ek mota idea milta hai. Neech
 Do aur baatein dhyan mein rakhein. Pehli, upar ke modules ka total 3.24 kWp hai, yaani 3 kW se thoda zyada, kyunki panels poore number mein khareede jaate hain. Doosri, DCR status na batane wali panels sasti dikh sakti hain (14 October 2026 ko Waaree ka ek 550 W listing ₹10,299 par tha, lagbhag ₹18.7 per watt, jabki upar wala DCR 540 Wp listing ₹15,199 par, lagbhag ₹28.1 per watt), lekin PM Surya Ghar subsidy ke liye DCR modules zaroori hain. Us 550 W listing par DCR status page par nahi likha tha, isliye use subsidy calculation mein nahi lena chahiye.
 
 ## Inverter-only price aur full installed price mein kya farak hai?
+
+Table: Inverter-only, supply aur full installed quote mein farak
 
 | Quote ka naam | Usme kya hota hai | Is page par figure |
 | --- | --- | --- |
@@ -142,13 +168,18 @@ Vendor se verbal "all inclusive" kehne ke badle itemised bill of quantities maan
 
 Eligible residential installation ke liye MNRE residential CFA guidelines standard central calculation batati hain:
 
+Table: Installed module capacity ke hisaab se standard central assistance (general-category)
+
 | Installed solar-module capacity | Standard central assistance |
 | --- | ---: |
 | 1 kW | ₹30,000 |
 | 2 kW | ₹60,000 |
 | 3 kW ya usse zyada | Up to ₹78,000 |
 
-Calculation: pehle 2 kW par ₹30,000 per kW (₹60,000) plus teesre kW par ₹18,000, total ₹78,000. 3 kW se upar koi extra central assistance nahi hai, isliye 5 kW ya 10 kW system par bhi cap ₹78,000 hi rehta hai. Rate general-category states ka hai. Special-category states aur UTs mein CFA aur benchmark alag hain.
+> [!FORMULA] 3 kW par standard central assistance
+> Pehle 2 kW par ₹30,000 per kW (₹60,000) plus teesre kW par ₹18,000, total ₹78,000.
+
+3 kW se upar koi extra central assistance nahi hai, isliye 5 kW ya 10 kW system par bhi cap ₹78,000 hi rehta hai. Rate general-category states ka hai. Special-category states aur UTs mein CFA aur benchmark alag hain.
 
 Subsidy ke baare mein aur teen baatein:
 
@@ -162,7 +193,10 @@ Benchmark par arithmetic yeh banta hai: ₹1,45,000 minus ₹78,000 = ₹67,000.
 
 Inverter size ko sirf BHK ya monthly bill se fix na karein. Pichhle 12 mahine ki unit consumption, sanctioned load, phase, roof area, shading, proposed module capacity aur backup requirement dekhein. Hybrid system ke liye essential loads ki wattage aur required backup hours alag calculate karein.
 
-**Generation ka example (assumption, guarantee nahi):** agar aap 4 units per kW per day maanein, to 3 kW array se roz 3 × 4 = 12 units aur saal mein 12 × 365 = 4,380 units bante hain, yaani mahine ke lagbhag 365 units. Shade, orientation, temperature, dust aur downtime se yeh badal jata hai, aur kuch jagah par seasonal gap bhi hota hai. Quote dene wale vendor se uska irradiation source aur loss assumptions maangein.
+> [!EXAMPLE] Generation ka example (assumption, guarantee nahi)
+> Agar aap 4 units per kW per day maanein, to 3 kW array se roz 3 × 4 = 12 units aur saal mein 12 × 365 = 4,380 units bante hain, yaani mahine ke lagbhag 365 units.
+
+Shade, orientation, temperature, dust aur downtime se yeh badal jata hai, aur kuch jagah par seasonal gap bhi hota hai. Quote dene wale vendor se uska irradiation source aur loss assumptions maangein.
 
 **Roof area:** chhat par kitni jagah lagegi, yeh module ke wattage aur size par depend karta hai. Upar ke example mein 540 Wp ke 6 panel hain, aur har panel ka size uske datasheet mein diya hota hai. Exact area aur shadow-free jagah vendor ke site survey se hi pata chalegi.
 
@@ -183,6 +217,8 @@ SBI ke [PM Surya Ghar loan page](https://sbi.bank.in/web/personal-banking/loans/
 
 Scheme ke government framing mein bhi loan repo rate plus 50 basis points par rakha gaya hai (MNRE guidelines ka "Repo + 50 bps" clause). Floating rate hone ki wajah se EMI repo rate badalne par badal sakti hai. Neeche ki table sirf EMI arithmetic hai, bank ki offer nahi.
 
+Table: PM Surya Ghar loan par approximate EMI, SBI ke published rates par (illustration)
+
 | Loan amount | Tenure | Rate | Approx EMI |
 | ---: | --- | --- | ---: |
 | ₹67,000 | 10 saal | 5.75% | ₹735 |
@@ -198,6 +234,8 @@ Scheme ke government framing mein bhi loan repo rate plus 50 basis points par ra
 Yeh kisi real customer ka result nahi hai. Yeh ek transparent illustration hai, jisme aap apne numbers daal sakte hain.
 
 **Assumptions:** 3 kW, 4 units per kW per day, 365 din, net cost ₹67,000 (benchmark minus standard CFA). Tariff alag-alag examples mein ₹6, ₹7 aur ₹8 per unit liya gaya hai. Yeh tariff aapke DISCOM ka slab nahi hai.
+
+Table: 3 kW par simple payback ka illustration, ₹67,000 net cost aur assumed tariff
 
 | Tariff (assumed) | Saal ki generation | Saal ka value | Simple payback on ₹67,000 |
 | --- | ---: | ---: | ---: |
@@ -226,13 +264,14 @@ Dono ke datasheet [download datasheets](/download-datasheets/) page par milenge.
 
 ## Quote sign karne se pehle checklist
 
-1. Exact inverter aur module model numbers likhit mein hon.
-2. Gross price, tax aur installation scope alag dikh raha ho.
-3. Warranty kis party ki hai aur claim kahan file hoga, clear ho.
-4. Modules ka DCR status aur ALMM List-I mein naam document ke saath diya ho.
-5. Scheme amount ko approved payment nahi, estimated assistance ke roop mein dikhaya gaya ho.
-6. Final payment milestone testing, documentation aur agreed handover se linked ho.
-7. Vendor PM Surya Ghar portal par registered ho. [Vendor verify karne ka tareeka](/blog/empanelled-vendor-pm-surya-ghar/) alag guide mein hai.
-8. Metering, DISCOM fee, liaisoning aur civil work quote ke andar hain ya bahar, yeh likha ho.
+> [!CHECKLIST] Quote sign karne se pehle
+> - Exact inverter aur module model numbers likhit mein hon.
+> - Gross price, tax aur installation scope alag dikh raha ho.
+> - Warranty kis party ki hai aur claim kahan file hoga, clear ho.
+> - Modules ka DCR status aur ALMM List-I mein naam document ke saath diya ho.
+> - Scheme amount ko approved payment nahi, estimated assistance ke roop mein dikhaya gaya ho.
+> - Final payment milestone testing, documentation aur agreed handover se linked ho.
+> - Vendor PM Surya Ghar portal par registered ho. [Vendor verify karne ka tareeka](/blog/empanelled-vendor-pm-surya-ghar/) alag guide mein hai.
+> - Metering, DISCOM fee, liaisoning aur civil work quote ke andar hain ya bahar, yeh likha ho.
 
 **Sources checked 14 October 2026:** [MNRE residential CFA guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) (benchmark, CFA slab, DCR, loan clause), [SBI PM Surya Ghar loan page](https://sbi.bank.in/web/personal-banking/loans/pm-surya-ghar-loan-for-solar-roof-top), [MNRE ALMM page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) aur upar linked retailer listings. Product, tax, finance aur local DISCOM terms exact model ke liye confirm karein.

@@ -41,7 +41,7 @@ A 1 kW rooftop solar system does not have one honest nationwide price. The best 
 
 It is a policy benchmark, not a compulsory vendor rate. The same guidelines let the consumer and registered vendor agree the system and financial terms. Your quotation therefore needs to show what its number buys.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - MNRE's installed-system benchmark is **₹50,000 for the first 1 kW**, effective 13 February 2024.
 > - Standard-category central financial assistance is **₹30,000 for an eligible 1 kWp installation**. Special-category state and UT rates differ.
 > - ₹50,000 minus ₹30,000 leaves **₹20,000**, but that is benchmark arithmetic, not a guaranteed final cost.
@@ -54,6 +54,8 @@ It is a policy benchmark, not a compulsory vendor rate. The same guidelines let 
 ## The five prices people call a "1 kW solar price"
 
 Search results often mix a loose panel subtotal with a complete rooftop quotation. The table separates the five different numbers.
+
+Table: The five prices people call a 1 kW solar price, with sourced figures as of 26 September 2026
 
 | Price layer | What it covers | Sourced figure as of 26 September 2026 | What it does not prove |
 | --- | --- | --- | --- |
@@ -76,6 +78,8 @@ See the broader [solar panel price guide](/blog/solar-panel-price-india/) for th
 The [MNRE residential CFA guidelines](https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/) publish both the benchmark cost and the assistance rate.
 
 For general-category states, the relevant 1 kWp calculation is:
+
+Table: MNRE benchmark and central assistance for 1 kWp in a general-category state
 
 | Input | Published amount | Source scope |
 | --- | ---: | --- |
@@ -107,12 +111,28 @@ A 1 kW rooftop system is more than two panels and an inverter. Each part below h
 
 A quick test shows why you must read the scope line of every quote. The table below stacks three dated retail listings, checked on 14 October 2026, against the MNRE benchmark. It is an illustration, not a vendor quote and not a market range.
 
+Table: Three dated retail listings stacked against the MNRE 1 kW benchmark, checked 14 October 2026
+
 | Item | Source (checked 14 Oct 2026) | Price |
 | --- | --- | ---: |
 | 2 × Waaree 540 Wp DCR panels at ₹15,199 each (1.08 kWp) | [Waaree official store](https://shop.waaree.com/waaree-540wp-144-cells-24v-mono-perc-dcr-solar-panel-m10-mono-10bb-glass-to-backsheet-module-high-efficiency-solar-module/), tax included | ₹30,398 |
 | 1 kW on-grid inverter, Luminous NXI 1 kW | [Moxikart listing](https://www.moxikart.com/battery/luminous-nxi-1-kw-on-grid-solar-inverter), tax included, 24-month warranty as printed | ₹25,399 |
 | **Panels plus inverter** | | **₹55,797** |
 | MNRE benchmark for 1 kW | MNRE residential CFA guidelines | ₹50,000 |
+
+```chart
+type: hbar
+title: Panels plus inverter from two retail listings against the MNRE 1 kW benchmark
+unit: "₹"
+source: "Waaree official store (2 x 540 Wp DCR panels) and Moxikart (Luminous NXI 1 kW inverter), both checked 14 October 2026, tax included; MNRE PM Surya Ghar residential CFA guidelines for the ₹50,000 per kW benchmark"
+note: "Illustration only. Single-unit retail prices are not what an installer pays, and the benchmark is not a price cap."
+decimals: 0
+data:
+  - { label: "Panels, 2 x 540 Wp", value: 30398 }
+  - { label: "Inverter, 1 kW on-grid", value: 25399 }
+  - { label: "Panels plus inverter", value: 55797 }
+  - { label: "MNRE benchmark, 1 kW", value: 50000 }
+```
 
 The two listings alone already exceed the ₹50,000 benchmark by ₹5,797, before structure, cables, protection, labour or metering. Two things follow from that.
 
@@ -125,16 +145,17 @@ The same Waaree store listed a 550 W module at ₹10,299 on 14 October 2026 (abo
 
 The word "installed" is meaningless unless the quotation defines it. Ask for these lines separately:
 
-1. exact panel manufacturer, model, wattage, quantity and DCR status;
-2. exact inverter manufacturer, model and rated AC output;
-3. mounting-structure material, coating, height and roof-fixing method;
-4. DC and AC cable make, size and route length;
-5. isolators, surge-protection devices, breakers and junction boxes;
-6. earthing electrodes, conductor size and testing;
-7. transport, lifting, installation and commissioning;
-8. portal application, inspection coordination, meter and DISCOM charges;
-9. tax by line, with a clear inclusive or exclusive total; and
-10. written warranty terms for panels, inverter and workmanship as three separate commitments.
+> [!CHECKLIST] Lines an installed quote must show separately
+> - exact panel manufacturer, model, wattage, quantity and DCR status;
+> - exact inverter manufacturer, model and rated AC output;
+> - mounting-structure material, coating, height and roof-fixing method;
+> - DC and AC cable make, size and route length;
+> - isolators, surge-protection devices, breakers and junction boxes;
+> - earthing electrodes, conductor size and testing;
+> - transport, lifting, installation and commissioning;
+> - portal application, inspection coordination, meter and DISCOM charges;
+> - tax by line, with a clear inclusive or exclusive total; and
+> - written warranty terms for panels, inverter and workmanship as three separate commitments.
 
 The equipment-only subtotal ends before site labour and commissioning. The installed pre-subsidy figure is the gross contract value after all stated inclusions. The post-subsidy estimate comes last.
 
@@ -144,7 +165,8 @@ If a vendor starts with "after subsidy" and never reveals the gross contract, yo
 
 Under the MNRE guidelines dated 7 June 2024, standard-category CFA is ₹30,000 per kWp for the first 2 kWp. The scheme calculates capacity from the rated DC module capacity, irrespective of inverter rating.
 
-The same guidelines require domestically manufactured modules made from domestically manufactured cells when CFA is claimed. A cheap non-DCR panel listing therefore cannot be dropped into a subsidy calculation.
+> [!IMPORTANT] Non-DCR panel prices do not belong in a subsidy calculation
+> The same guidelines require domestically manufactured modules made from domestically manufactured cells when CFA is claimed. A cheap non-DCR panel listing therefore cannot be dropped into a subsidy calculation.
 
 The process also matters:
 
@@ -174,7 +196,8 @@ Capacity should follow the site and consumption, not the subsidy slab. A transpa
 - assumed performance ratio: 0.75; and
 - operating days: 365.
 
-The arithmetic is 1 × 4.5 × 0.75 × 365 = **1,232 kWh a year**, or about 103 kWh a month.
+> [!FORMULA] Annual generation scenario
+> 1 kWp × 4.5 peak sun hours × 0.75 performance ratio × 365 days = **1,232 kWh a year**, or about 103 kWh a month.
 
 Those inputs are assumptions, not Qbits or installer performance claims. Shade, orientation, module temperature, soiling, downtime and local solar resource change the result. Ask every bidder to show its irradiation source and loss assumptions.
 
@@ -183,6 +206,8 @@ Do not convert the 1,232 kWh scenario into a savings or payback promise without 
 ## A payback example, with the assumptions shown
 
 Below is an illustration, not a forecast. It uses the 1,232 kWh a year scenario above and three assumed tariffs. Your DISCOM tariff and net-metering settlement rule decide the real value of each unit.
+
+Table: Illustrative payback on a 1,232 kWh a year scenario at three assumed tariffs
 
 | Assumed tariff | Annual value of 1,232 kWh | Payback on ₹20,000 (benchmark remainder) | Payback on ₹35,000 (higher example) |
 | --- | ---: | ---: | ---: |
@@ -214,6 +239,7 @@ Qbits sells on-grid and hybrid inverters, not panels, batteries or installation.
 
 Use the same sequence for every vendor:
 
+<!-- steps -->
 1. Confirm rated DC capacity from panel model, wattage and quantity.
 2. Check whether each figure is panel-only, equipment-only or fully installed.
 3. Compare the gross pre-CFA total before looking at the subsidy estimate.

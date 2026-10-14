@@ -4,7 +4,7 @@ excerpt: "Check what the current PM Surya Ghar residential guidelines say about 
 description: "Check PM Surya Ghar battery-storage treatment, CFA calculation, hybrid-system requirements, buyer documents, and current official sources."
 category: "Policy"
 date: 2026-07-28
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "9 min"
 image: "/product-images/product-image-2.webp"
 author: "Akash Hirapara"
@@ -32,6 +32,12 @@ Under the PM Surya Ghar residential CFA guidelines checked on **23 September 202
 
 That distinction answers the core **PM Surya Ghar battery storage subsidy** question without turning a proposal, headline, or sales claim into notified policy. It also separates two different decisions: whether a project qualifies for residential rooftop-solar assistance, and whether its battery and backup design suits the household.
 
+> [!KEYTAKEAWAYS]
+> - The residential CFA guidelines checked on 23 September 2026 allow battery storage as an additional component, but CFA is calculated from eligible installed solar-module capacity.
+> - The cited guideline does not create a separate battery-capacity grant, and a hybrid inverter or battery does not by itself raise the CFA calculation.
+> - Ask the vendor to price solar scope, battery and backup scope, expected CFA and customer payable amount as separate lines.
+> - Treat any future battery-subsidy claim as unverified until an official notification or operational guideline defines it.
+
 ## What do the current residential CFA guidelines say about batteries?
 
 **The MNRE residential CFA guidelines allow a rooftop-solar installation to include battery storage as an additional technology component.** The same section says the CFA calculation follows the scheme structure and installed solar-module capacity. A battery can therefore be part of a project without creating a separate battery-capacity payment under that cited schedule.
@@ -43,13 +49,16 @@ The controlling source is the [MNRE residential CFA guideline page](https://mnre
 - inverter size does not replace the rated DC module capacity for the CFA calculation; and
 - the inverter still has to meet the scheme's applicable technical specification.
 
-Read those points together. `Battery permitted in the installation` is not the same statement as `battery capacity receives a separate subsidy`. If a later official amendment creates a storage-specific benefit, record its notification, effective date, eligible applicant, technical conditions, application route, and interaction with an existing rooftop-solar claim before relying on it.
+> [!IMPORTANT] Permitted is not the same as subsidised
+> Read those points together. `Battery permitted in the installation` is not the same statement as `battery capacity receives a separate subsidy`. If a later official amendment creates a storage-specific benefit, record its notification, effective date, eligible applicant, technical conditions, application route, and interaction with an existing rooftop-solar claim before relying on it.
 
 ## How should a buyer separate scheme eligibility from hardware capability?
 
 **Scheme eligibility asks whether the applicant, site, vendor, equipment, documents, installation, and approval process meet current official rules.** Hardware capability asks whether the exact inverter, battery, controls, protection, wiring, and operating mode perform the intended job. Passing one test does not automatically answer the other.
 
 Use two review columns in the quote.
+
+Table: Two reviews to run on a battery-ready PM Surya Ghar quote: scheme and process, and battery and backup engineering
 
 | Scheme and process review | Battery and backup engineering review |
 | --- | --- |
@@ -69,6 +78,8 @@ The [on-grid, hybrid and off-grid decision guide](/blog/on-grid-vs-hybrid-vs-off
 **A hybrid inverter or battery does not by itself increase the CFA calculation in the cited residential guideline.** That calculation follows eligible installed solar-module capacity under the scheme schedule. Inverter capacity, battery energy, backup duration, or the price of optional storage should not be substituted for module capacity in the assistance calculation.
 
 Ask the vendor to show these values separately:
+
+Table: Quote fields to keep separate when a PM Surya Ghar project includes a hybrid inverter or battery
 
 | Quote field | What it should represent |
 | --- | --- |
@@ -123,18 +134,17 @@ Portal screens and DISCOM procedures can change. Save the dated instruction, sub
 
 **A battery-ready quote should identify exact equipment, separate solar and storage prices, define backup behaviour, allocate application and commissioning duties, and state which official decision remains pending.** It should never present an optional battery as a guaranteed grant, a hybrid label as proof of backup, or a forecast disbursement as cash already received.
 
-Use this buyer checklist:
-
-- legal contracting party, registered vendor details, site and consumer identity;
-- module, inverter, battery, meter or sensor, protection and communication models;
-- eligible rooftop-solar scope separated from optional battery and backup scope;
-- current official basis used for any CFA calculation;
-- customer payment milestones independent of a predicted government timeline;
-- design deliverables, application duties and approval dependencies;
-- installation, commissioning and witnessed operating tests;
-- manufacturer warranties separated from installer workmanship and service duties;
-- change-control process if an authority or manufacturer rejects a proposed pairing; and
-- cancellation, refund, delay, substitution and dispute provisions for professional review.
+> [!CHECKLIST] Buyer checklist for a battery-ready quote
+> - legal contracting party, registered vendor details, site and consumer identity;
+> - module, inverter, battery, meter or sensor, protection and communication models;
+> - eligible rooftop-solar scope separated from optional battery and backup scope;
+> - current official basis used for any CFA calculation;
+> - customer payment milestones independent of a predicted government timeline;
+> - design deliverables, application duties and approval dependencies;
+> - installation, commissioning and witnessed operating tests;
+> - manufacturer warranties separated from installer workmanship and service duties;
+> - change-control process if an authority or manufacturer rejects a proposed pairing; and
+> - cancellation, refund, delay, substitution and dispute provisions for professional review.
 
 Compare the result with the [solar quotation checklist](/blog/solar-quotation-checklist/). A lower combined number is not useful if the quote hides the battery model, backup scope, approvals, or exclusions.
 
@@ -144,12 +154,14 @@ Compare the result with the [solar quotation checklist](/blog/solar-quotation-ch
 
 Do not use a news headline, dealer message, video, or proposed policy as the sole basis for delaying an application or buying different equipment. Ask for the official document and check that it applies to the project date and jurisdiction.
 
-If a seller says a benefit is `coming soon`, put no value against it in the purchase comparison. The buyer can revisit the decision when the authority publishes operative terms. This prevents a speculative benefit from disguising a higher contract price or an unsuitable system.
+> [!WARNING] Put no value on a "coming soon" benefit
+> If a seller says a benefit is `coming soon`, put no value against it in the purchase comparison. The buyer can revisit the decision when the authority publishes operative terms. This prevents a speculative benefit from disguising a higher contract price or an unsuitable system.
 
 ## What is the dated buyer verification checklist?
 
 **Before signing, date every policy source, identify the exact project and equipment, separate CFA from battery cost, verify compatibility, confirm the portal and DISCOM route, and put unresolved points in writing.** A reviewer should be able to reproduce the scheme calculation and trace each technical conclusion to a current document.
 
+<!-- steps -->
 1. Open the current MNRE residential CFA guideline from the official site.
 2. Check later official amendments or circulars that may affect the application date.
 3. Confirm applicant, site, connection and vendor details through the current route.

@@ -4,7 +4,7 @@ excerpt: "Old inverter exchange for solar in India: real buyback values, repair 
 description: "Guide to old solar inverter exchange and buyback in India. What your old inverter is worth, installer buyback reality, scrap value, E-Waste Rules 2022 disposal, and repair vs replace cost math."
 category: "Guide"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-10-14
 readTime: "17 min"
 image: "/og/blog-old-solar-inverter-exchange-buyback.webp"
 author: "Keyur Rakholiya"
@@ -43,7 +43,7 @@ Most Indian rooftop systems installed between 2015 and 2019 are now hitting the 
 
 Searches for old inverter exchange in solar usually come from exactly this situation. The honest starting point is that India has no organised exchange market for solar inverters the way it does for lead-acid batteries. There is no per-Ah buyback chart. What exists is a patchwork of installer deductions, scrap dealer pricing, occasional brand promotions, and a growing refurbishment market. This guide maps that reality with actual numbers. It covers what an old inverter is worth and when repair beats replacement. It also covers what the E-Waste (Management) Rules, 2022 say about disposal, and the cost math for upgrading to a hybrid.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - No formal OEM exchange program exists for solar inverters in India in 2026. Installer buyback deductions of ₹1,000 to ₹4,000 on working 3 to 5 kW units are the practical norm.
 > - Scrap value of a transformerless [string inverter](/glossary/string-inverter/) is ₹300 to ₹1,500; transformer-based units fetch ₹800 to ₹2,500 for their copper (industry-observed ranges).
 > - Repair is worth it only when the quote stays under about 25% of new-inverter price. That is roughly ₹8,000 to ₹15,000 on a 5 kW unit, and spares must exist.
@@ -72,6 +72,11 @@ The fourth trigger is strategic: you want backup power or battery storage. On-gr
 
 The repair-versus-replace decision comes down to one ratio: repair cost versus new-inverter cost, adjusted for the age and failure risk of the repaired unit. Minor repairs under about 25% of replacement cost are usually worth doing. Major power-stage repairs on old units rarely are.
 
+> [!FORMULA]
+> Repair if: repair quote < about 25% of new-inverter price, and genuine spares exist
+
+Table: Repair versus replace for a 5 kW class inverter, typical costs and verdict (industry-observed ranges, 2026)
+
 | Scenario | Typical cost (5 kW class) | Verdict |
 |---|---|---|
 | Fan, display, WiFi module, sensor replacement | ₹2,000 to ₹6,000 | Repair, clear win |
@@ -96,7 +101,8 @@ Three factors set the value. First, whether it works. A functioning inverter, ev
 
 Third, brand and model. A working unit from a brand still sold and serviced in India resells more easily because the buyer can get spares. A working unit from a defunct brand is worth little more than scrap.
 
-Weight math for a typical case (hypothetical example, labelled as such): a 5 kW transformerless string inverter weighs about 15 kg. Roughly 8 kg is aluminium, 4 kg steel, and 3 kg PCB and wiring. At 2026 scrap rates in most Indian cities, that mixes out to ₹500 to ₹1,200. The same capacity in an old transformer-based design weighs 30 to 45 kg, and the copper alone can be worth ₹800 to ₹2,000.
+> [!EXAMPLE] Scrap weight math (hypothetical example)
+> A 5 kW transformerless string inverter weighs about 15 kg. Roughly 8 kg is aluminium, 4 kg steel, and 3 kg PCB and wiring. At 2026 scrap rates in most Indian cities, that mixes out to ₹500 to ₹1,200. The same capacity in an old transformer-based design weighs 30 to 45 kg, and the copper alone can be worth ₹800 to ₹2,000.
 
 Do not expect laptop-style trade-in valuations. The inverter market has no certified refurbishment channel with published prices, so every deal is a negotiation. The practical move is to get two numbers before the replacement job: the installer's buyback deduction, and a scrap dealer's pickup quote. Take whichever is higher, but route the unit to an authorised recycler either way (more on that below).
 
@@ -107,6 +113,18 @@ Formal brand exchange offers for solar inverters barely exist in India in 2026. 
 The contrast with batteries is instructive. Lead-acid inverter batteries have a mature buyback market where exchange value is fixed by Ah capacity and dealers quote it openly. That market exists because the lead has high, easily recovered value and the recycling chain is organised. Solar inverters have neither property, so no equivalent market has formed.
 
 What actually happens on the ground, based on industry-observed practice:
+
+Table: Old inverter exchange routes in India and their typical value (industry-observed, 2026)
+
+| Route | Typical value | Condition |
+| --- | --- | --- |
+| Installer buyback deduction | ₹1,000 to ₹4,000 | Working old unit |
+| Installer buyback deduction | ₹300 to ₹1,000 | Dead unit |
+| Brand trade-in promotion | ₹2,000 to ₹5,000 off a new inverter | Any old unit of similar capacity |
+| Second-hand marketplace | ₹3,000 to ₹8,000 | Working 3 to 5 kW unit from a live brand |
+| Scrap dealer | ₹300 to ₹2,500 | Floor value, depends on copper content |
+
+The four routes in detail:
 
 1. **Installer buyback deduction.** The most common route. The installer quoting your replacement deducts ₹1,000 to ₹4,000 for a working old unit, or ₹300 to ₹1,000 for a dead one, and takes it away. Always ask for this as a written line item, because many installers simply take the old unit without offering anything.
 2. **Brand trade-in promotions.** A few manufacturers run periodic trade-in schemes through dealers. These typically offer ₹2,000 to ₹5,000 off a new inverter against any old unit of similar capacity. They come and go with quarters and stock cycles. Ask the dealer directly; they are rarely advertised.
@@ -136,6 +154,9 @@ The rules put the heaviest duties on producers: registration on the CPCB portal,
 The scale of the problem explains the regulatory attention. India is projected to generate about 11,221 kilotonnes of solar waste by 2047. That figure comes from a [CEEW report on solar module recycling costs](https://www.ceew.in/sites/default/files/ceew-how-much-does-it-cost-to-recycle-a-solar-module-in-india.pdf), 2025. The same report notes one funding route. The Central Electricity Regulatory Commission's draft tariff regulations allow salvage value up to 10% of capital cost, part of which can fund authorised disposal.
 
 For a homeowner replacing one inverter, the practical duties are simple:
+
+> [!CAUTION] Old inverter is e-waste
+> Do not sell the unit into informal kabadi channels if you can avoid it. The E-Waste (Management) Rules, 2022 require e-waste to go to authorised handlers. Keep the replacement invoice showing the old unit's disposal route.
 
 - Do not sell the unit into informal kabadi channels if you can avoid it; e-waste rules require authorised handlers.
 - Ask the installer whether their buyback route ends at an authorised recycler. Reputable ones can answer.

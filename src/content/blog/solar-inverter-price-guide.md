@@ -4,7 +4,7 @@ excerpt: "Solar inverter price in India by capacity band and topology, plus the 
 description: "What sets a solar inverter price in India: capacity band, phase, topology, MPPT count, DC input headroom, enclosure rating, warranty term, GST, and the parts that are not in the box."
 category: Buying Guide
 date: 2026-06-05
-updatedDate: 2026-09-24
+updatedDate: 2026-10-14
 readTime: 13 min
 image: "/og/blog-solar-inverter-price-guide.webp"
 author: Akash Hirapara
@@ -46,14 +46,12 @@ So a price table is the least useful thing a price guide can hand you. It dates 
 
 This guide works the other way round. It explains what changes inside the box as you move up the capacity bands, what each topology adds to the bill of materials, and which six datasheet rows genuinely move a quote. Then it covers the parts that are not in the box, how GST classification changes the invoice, why the PM Surya Ghar grant ignores your inverter entirely, and a worked 10-year ownership calculation that shows why the cheapest unit on a comparison sheet is usually the dearest one to own.
 
-> **TL;DR**
-> - Luminous listed prices on 24 September 2026: TX 3 kVA at ₹73,800, TX 4 kVA at ₹58,998, TX 5 kVA at ₹63,899. Listed price does not track capacity.
-> - MRP per kVA falls with size on that same range, from about ₹27,333 at 3 kVA to ₹22,000 at 5 kVA, but listed price per kVA falls much faster because discount depth varies by SKU.
+> [!KEYTAKEAWAYS]
+> - Luminous listed prices on 24 September 2026: TX 3 kVA at ₹73,800, TX 4 kVA at ₹58,998, TX 5 kVA at ₹63,899. Listed price does not track capacity. MRP per kVA falls with size on that same range, from about ₹27,333 at 3 kVA to ₹22,000 at 5 kVA, but listed price per kVA falls much faster because discount depth varies by SKU.
 > - Six specifications move an inverter's price: phase, topology, MPPT count, maximum DC input current per MPPT, enclosure protection rating, and warranty term.
 > - Modern G12 modules draw over 18 A of short-circuit current. The Waaree BiN-03-700 datasheet gives 18.31 A Isc, so an inverter offering 13 A per tracker cannot take that string at full current.
 > - GST follows classification, not the word solar: 5% under Schedule I entry 437 or 18% under Schedule II entry 477 for heading 8504 static converters, per Notification 9/2025-Integrated Tax (Rate).
-> - PM Surya Ghar assistance is computed on rated DC module capacity irrespective of inverter size, so a pricier inverter earns no extra assistance.
-> - In the worked example below, an inverter that saves ₹16,000 at purchase costs ₹16,760 more across 10 years.
+> - PM Surya Ghar assistance is computed on rated DC module capacity irrespective of inverter size, so a pricier inverter earns no extra assistance. In the worked example below, an inverter that saves ₹16,000 at purchase costs ₹16,760 more across 10 years.
 
 **Short version.** Solar inverter prices in India rise with capacity but not in proportion, because the enclosure, control board and firmware cost much the same at 3 kW as at 10 kW. Phase, topology, MPPT count, DC input current headroom, enclosure rating and warranty term shift a quote more than capacity does. Listed prices swing widely because discount depth varies by SKU, so compare dated written quotes for exact models.
 
@@ -62,6 +60,8 @@ This guide works the other way round. It explains what changes inside the box as
 An inverter looks like one product and prices like six. The money sits in the power semiconductors, the magnetics, the DC link capacitors, the enclosure and its thermal design, the control and communication boards, and the reserve a maker holds against warranty claims. Change any one of those and the price moves, even when the kW badge stays the same.
 
 Here is where a typical string inverter's cost actually lives, and what makes each block dearer.
+
+Table: Where a string inverter's cost sits and what makes each block dearer
 
 | Cost block | What it does | What makes it cost more |
 | --- | --- | --- |
@@ -78,6 +78,8 @@ Two conclusions follow. First, a 5 kW inverter with two trackers and a 20 A per 
 
 Price per kW generally falls as capacity rises. The reason is structural: enclosure, control board, display, firmware and type-testing cost roughly the same at 3 kW as at 15 kW, so those fixed costs spread across more watts. The fall stops being free once the design has to add a phase, add trackers or add forced cooling. Then parts count climbs with the rating.
 
+Table: Inverter capacity bands, what changes inside and what moves the price
+
 | Band | Usual connection | What changes inside | What moves the price beyond capacity |
 | --- | --- | --- | --- |
 | 1 to 3 kW | Single phase | Often one MPPT, natural convection cooling, modest DC current | Low SKU volumes at 1 kW keep the price per kW high |
@@ -90,9 +92,14 @@ For system-level costs at the small end, the [1 kW system price guide](/blog/1kw
 
 One trap sits in the badge. A unit sold as 5 kVA is rated in apparent power, and its rated AC watts can be lower. The Luminous TX 5 kVA product page describes a 5 kW rated output, so that one lines up, but many do not. Read the rated AC watts row, and see the [kVA definition](/glossary/kva/) if the distinction is new.
 
+> [!TIP] Read rated AC watts, not the kVA badge
+> A unit sold as 5 kVA is rated in apparent power, and its rated AC watts can be lower. The Luminous TX 5 kVA product page describes a 5 kW rated output, so that one lines up, but many do not.
+
 ## Topology and phase move the price more than capacity does
 
 Topology decides how many conversion stages sit in the box. An on-grid inverter runs one job: turn array DC into grid-synchronous AC. A hybrid adds a bidirectional battery converter, battery communication, a transfer relay and a separate backup output. An off-grid unit has to form the voltage itself. Each step adds hardware, so each step adds price at the same kW.
+
+Table: Extra hardware and what it buys, by inverter topology
 
 | Topology | Extra hardware inside | What the extra money buys |
 | --- | --- | --- |
@@ -112,6 +119,8 @@ Indian solar retail discounts by SKU and by stock position, not by a consistent 
 
 The Luminous Solar Hybrid TX range, captured on 24 September 2026, shows the effect cleanly.
 
+Table: Luminous Solar Hybrid TX 3, 4 and 5 kVA: listed price, MRP and per-kVA figures (single seller, 24 September 2026)
+
 | Model | Listed price | MRP | Discount off MRP | Listed per kVA | MRP per kVA |
 | --- | --- | --- | --- | --- | --- |
 | [Solar Hybrid TX 3 kVA](https://www.luminousindia.com/solar-inverters/solar-hybrid-tx-3kva) | ₹73,800 | ₹82,000 | about 10% | ₹24,600 | ₹27,333 |
@@ -120,6 +129,25 @@ The Luminous Solar Hybrid TX range, captured on 24 September 2026, shows the eff
 
 Look at the two right-hand columns. MRP per kVA declines gently with size, which is what engineering economics predicts. Listed price per kVA collapses, from ₹24,600 to ₹12,780, and the absolute listed price is not even monotonic: the 4 kVA unit is the cheapest of the three. A buyer who priced a 3 kVA system off the 5 kVA listing would be out by more than ₹10,000, in the wrong direction.
 
+```chart
+type: bar
+title: "Luminous Solar Hybrid TX: listed price versus MRP"
+unit: "₹"
+source: "Luminous India product pages for Solar Hybrid TX 3, 4 and 5 kVA, captured 24 September 2026 (single-seller listings, as in the table above)"
+note: "MRP rises steadily with size, but the listed price does not: the 4 kVA unit is the cheapest of the three."
+series:
+  - name: "Listed price"
+    data:
+      - { label: "TX 3 kVA", value: 73800 }
+      - { label: "TX 4 kVA", value: 58998 }
+      - { label: "TX 5 kVA", value: 63899 }
+  - name: "MRP"
+    data:
+      - { label: "TX 3 kVA", value: 82000 }
+      - { label: "TX 4 kVA", value: 98000 }
+      - { label: "TX 5 kVA", value: 110000 }
+```
+
 Kits behave the same way. The [Waaree Radiance-Lite 5 kW hybrid kit](https://shop.waaree.com/waaree-radiance-lite-5-kw-hybrid-solar-kit-complete-rooftop-solar-solution-with-2-battery-battery-5-12-kwh/) listed at ₹4,12,999 against an MRP of ₹6,88,304.40 inclusive of taxes on the same date, again about 40% off. That kit includes modules, batteries, DCDB, ACDB and earthing, so it is not comparable to a bare inverter listing at all.
 
 All five figures above are single-seller listings captured on 24 September 2026. Re-check the live pages on the day you compare, because discount depth on Indian solar listings changes without notice. Qbits itself sells quote-based through its dealer network, so there is no public price to set against these. The [Qbits quotation guide](/blog/why-inverter-manufacturers-quote-prices/) explains which model, scope, tax, delivery, and document fields an EPC should put in the request.
@@ -127,6 +155,9 @@ All five figures above are single-seller listings captured on 24 September 2026.
 ## The six datasheet rows that genuinely move a quote
 
 Once capacity and topology are fixed, these six rows explain almost all remaining price difference between two inverters. Work through them before you accept that one quote is expensive.
+
+> [!WARNING] A 13 A tracker cannot take a G12 string
+> The Waaree BiN-03-700 datasheet gives 18.31 A short-circuit current, the Adani ASB-M12-132-650 gives 18.85 A and the Vikram VSMDH.66.680.05 gives 18.23 A. An inverter offering 13 A per tracker cannot accept a modern string at full current, so check maximum DC input current per MPPT before you sign.
 
 1. **MPPT count.** Every maximum power point tracker is a separate DC input stage with its own inductor, current sensor, switch pole and tracking loop. Two trackers cost more than one, and they earn it on split or shaded roofs. The [dual versus single MPPT comparison](/blog/dual-mppt-vs-single-mppt/) sets out when the extra tracker pays back.
 2. **Maximum DC input current per MPPT.** This is the row most buyers skip, and it dates an inverter fastest. Today's G12 modules run high current: the Waaree BiN-03-700 datasheet gives 18.31 A short-circuit current, the Adani ASB-M12-132-650 gives 18.85 A, and the Vikram VSMDH.66.680.05 gives 18.23 A. Older M10 modules sat far lower, with the Adani ASB-M10-144-580 at 13.95 A. An inverter offering 13 A per tracker cannot accept a modern string at full current, so headroom in the inductor, sensor and DC switch is worth paying for. Check your own string against the [string sizing calculator](/string-sizing-calculator/) before you sign.
@@ -139,6 +170,8 @@ Once capacity and topology are fixed, these six rows explain almost all remainin
 Two quotes for the same inverter model can differ by tens of thousands of rupees without either seller being dishonest. The difference sits in what each one included around the inverter. This is where a price comparison usually goes wrong.
 
 Here is the standard list of items that live outside the carton.
+
+Table: Items that sit outside the inverter carton, why they matter and who leaves them out
 
 | Item | Why it is needed | Who commonly leaves it out |
 | --- | --- | --- |
@@ -173,15 +206,24 @@ The guidelines also set a 15-day clock after DISCOM approval, a 30-day clock for
 
 Slabs and state practice change, so confirm the [current subsidy amount](/blog/pm-surya-ghar-subsidy-amount/) before you build it into a budget. Rules vary by state and by DISCOM, and no subsidy outcome is certain for any given applicant.
 
+> [!IMPORTANT] There is no ALMM list for inverters
+> MNRE publishes List-I for solar modules and List-II for solar cells, with List-II in force from 1 June 2026. Ask the seller for the exact inverter model's BIS registration and current certificates, and confirm any inverter requirement with your DISCOM for PM Surya Ghar.
+
 While on the scheme, correct one claim you will hear from sellers. There is no ALMM list for inverters. MNRE publishes List-I for solar modules and List-II for solar cells, with List-II in force from 1 June 2026. Because there is no inverter list, ask the seller for the exact inverter model's BIS registration and current certificates, and for PM Surya Ghar confirm any inverter requirement with your DISCOM.
 
 ## Worked example: the 10-year cost of owning the cheaper inverter
 
 The purchase price is one line in a 10-year cost. Warranty term, replacement cost and days offline are the other three, and they are the ones a comparison sheet never shows. Here is the arithmetic with every input visible, so you can substitute your own figures.
 
-**Assumed inputs, not market data.** Two 5 kW single-phase on-grid inverters. Inverter A is quoted ₹42,000 with a 5-year warranty. Inverter B is quoted ₹58,000 with a 10-year warranty. Generation assumed at 4 kWh per kW per day, a common design assumption; use your own PVsyst or portal estimate instead. Tariff assumed at ₹8 per kWh; substitute your slab. Annual maintenance assumed at ₹3,000 from year 6. Inverter A assumed to need one out-of-warranty replacement in year 6 at 70% of its original price, and to be offline 28 days in total; Inverter B assumed offline 7 days.
+> [!EXAMPLE] Cheaper inverter versus 10-year inverter
+> **Assumed inputs, not market data.** Two 5 kW single-phase on-grid inverters. Inverter A is quoted ₹42,000 with a 5-year warranty. Inverter B is quoted ₹58,000 with a 10-year warranty. Generation assumed at 4 kWh per kW per day, a common design assumption; use your own PVsyst or portal estimate instead. Tariff assumed at ₹8 per kWh; substitute your slab. Annual maintenance assumed at ₹3,000 from year 6. Inverter A assumed to need one out-of-warranty replacement in year 6 at 70% of its original price, and to be offline 28 days in total; Inverter B assumed offline 7 days.
+
+> [!FORMULA] Downtime loss
+> Rated kW × daily yield per kW × days offline × tariff
 
 Downtime loss uses one formula: rated kW multiplied by daily yield per kW, multiplied by days offline, multiplied by tariff. For Inverter A, that is 5 multiplied by 4 multiplied by 28 multiplied by 8, which equals ₹4,480. For Inverter B, 5 multiplied by 4 multiplied by 7 multiplied by 8 equals ₹1,120.
+
+Table: 10-year cost of ownership for two 5 kW inverters, from the assumed inputs above
 
 | Cost line | Inverter A | Inverter B |
 | --- | --- | --- |
@@ -194,12 +236,38 @@ Downtime loss uses one formula: rated kW multiplied by daily yield per kW, multi
 
 Inverter A saves ₹16,000 on day one and costs ₹16,760 more over 10 years. The swing does not come from the sticker. It comes from one out-of-warranty replacement and 21 extra days of a dead roof. Change the inputs and the conclusion can flip, which is exactly the point: run your own numbers rather than trusting either sticker. Ongoing service cost deserves its own line too, and the [inverter AMC cost guide](/blog/solar-inverter-amc-cost-india/) covers what a maintenance contract should include.
 
+```chart
+type: stacked-bar
+title: 10-year cost of owning each 5 kW inverter, by cost line
+unit: "₹"
+source: "Calculated in this article from the assumed inputs stated above (not market data): purchase price, one year-6 replacement at 70% of price, maintenance of ₹3,000 a year from year 6, and downtime at ₹8 per kWh"
+note: "Totals are ₹90,880 for Inverter A and ₹74,120 for Inverter B. Change the inputs and the order can flip."
+series:
+  - name: "Purchase price"
+    data:
+      - { label: "Inverter A", value: 42000 }
+      - { label: "Inverter B", value: 58000 }
+  - name: "Replacement in year 6"
+    data:
+      - { label: "Inverter A", value: 29400 }
+      - { label: "Inverter B", value: 0 }
+  - name: "Maintenance, years 6 to 10"
+    data:
+      - { label: "Inverter A", value: 15000 }
+      - { label: "Inverter B", value: 15000 }
+  - name: "Downtime loss"
+    data:
+      - { label: "Inverter A", value: 4480 }
+      - { label: "Inverter B", value: 1120 }
+```
+
 ## Why the cheapest unit on the sheet usually costs the most
 
 This is not brand loyalty. It is arithmetic about days, not parts. When an inverter stops, your loss is the generation you do not make while it is stopped, and that clock runs from the moment of failure until a working unit is energised again. The part itself is often the smallest number in the sequence.
 
 Count the steps that clock has to pass through.
 
+<!-- steps -->
 1. You notice the fault, which happens fast with monitoring and slowly without it.
 2. Someone raises a claim and the brand approves or rejects it.
 3. An approved claim triggers a dispatch, from wherever the nearest stock sits.
@@ -216,6 +284,7 @@ Credit where it is due: several Indian brands publish long warranty terms openly
 
 Do these nine steps in order. Most price disputes disappear by step 5, because the two quotes turn out to describe different products.
 
+<!-- steps -->
 1. Force both quotes to the same scope: inverter only, inverter plus protection, or supplied and installed.
 2. Convert each to rupees per watt of rated AC output, using rated watts from the datasheet rather than the kVA badge.
 3. Confirm both match your sanctioned connection phase, and reject any that does not.
@@ -228,12 +297,13 @@ Do these nine steps in order. Most price disputes disappear by step 5, because t
 
 Then get these six things written on the quote, dated and signed. Verbal answers are not comparable, and they are not enforceable.
 
-- Exact model number of the inverter, and of any battery, with quantities.
-- Rated AC output in watts, maximum DC input current per MPPT, and enclosure protection rating.
-- Whether the monitoring dongle is included, and whether app access carries any charge.
-- Warranty term in years, what the term covers, and what voids it.
-- The named nearest authorised service point, and the committed action after claim approval.
-- Every line's GST rate and HSN code, plus a clear statement of what is excluded.
+> [!CHECKLIST] Six things to have in writing on the quote
+> - Exact model number of the inverter, and of any battery, with quantities.
+> - Rated AC output in watts, maximum DC input current per MPPT, and enclosure protection rating.
+> - Whether the monitoring dongle is included, and whether app access carries any charge.
+> - Warranty term in years, what the term covers, and what voids it.
+> - The named nearest authorised service point, and the committed action after claim approval.
+> - Every line's GST rate and HSN code, plus a clear statement of what is excluded.
 
 ## The Bottom Line
 

@@ -45,11 +45,10 @@ The fix is not more electrical knowledge. It is order. Troubleshooting works whe
 
 This guide is that triage layer. It covers the safety rules that come first, how to read status lights and codes, and a ladder that sorts symptoms into four states. A symptom table then routes each case to the right next step. It also teaches the most useful skill here: separating an inverter fault from an array, grid, or monitoring fault. Finally, the evidence to gather before you call support.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The DC side of a solar array stays live in daylight regardless of your AC breaker, so the enclosure is never a homeowner task.
 > - Four states, not fifteen symptoms: generating normally, generating less than expected, faulting intermittently, or dead. Each state has a different first move.
-> - Similar DC voltage with very different DC current across two MPPT inputs points at the array, not the inverter.
-> - A blank monitoring app proves nothing about generation. Compare the app timestamp against the local display.
+> - Similar DC voltage with very different DC current across two MPPT inputs points at the array, not the inverter. A blank monitoring app proves nothing about generation, so compare the app timestamp against the local display.
 > - Repeated resets are not a repair, and changing grid protection thresholds to silence an alarm is a safety defect.
 > - Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model.
 
@@ -61,19 +60,23 @@ A solar array is a generator you cannot switch off. Sunlight on the modules prod
 
 Three rules follow, and they are not negotiable.
 
-1. **Never open the enclosure.** Anything behind a screwed cover, including terminal blocks, fan assemblies, and the DC input chamber, is licensed electrician territory.
-2. **Never unplug a DC connector under load.** DC does not self-extinguish an arc the way AC does. Pulling an MC4 connector on a live string can strike a sustained arc.
-3. **Never defeat a protection device.** If a breaker, fuse, or residual current device keeps operating, it is reporting a fault, not malfunctioning.
+> [!CAUTION] Three rules for a live DC array
+> 1. **Never open the enclosure.** Anything behind a screwed cover, including terminal blocks, fan assemblies, and the DC input chamber, is licensed electrician territory.
+> 2. **Never unplug a DC connector under load.** DC does not self-extinguish an arc the way AC does. Pulling an MC4 connector on a live string can strike a sustained arc.
+> 3. **Never defeat a protection device.** If a breaker, fuse, or residual current device keeps operating, it is reporting a fault, not malfunctioning.
 
 Correct isolation, performed by a qualified person, runs from the grid inwards. Open the AC isolator, then the DC isolator. Then prove the circuit dead at the point of work. Doing DC first leaves the inverter feeding the AC side. Earthing and isolation practice sits in IS 732:2019 and IS 3043:2018 (Bureau of Indian Standards). Supply safety obligations sit in the Central Electricity Authority (Measures relating to Safety and Electric Supply) Regulations, 2023.
 
-Stop entirely if you see smoke, smell burning, hear arcing, see scorch marks, or find water inside any enclosure.
+> [!WARNING] Stop at the first physical sign of damage
+> Stop entirely if you see smoke, smell burning, hear arcing, see scorch marks, or find water inside any enclosure.
 
 ## How to read the status indicators without guessing
 
 Every string inverter talks in three layers: indicator lights, the display or app code, and the event log. Lights give the broad state. Codes name the event. The log says whether the event is new, recurring, or constant. Reading them in that order saves a wasted call.
 
 Broad states are consistent across brands even when the exact colours are not.
+
+Table: What each inverter indicator state usually means and the first move for each
 
 | Indicator state | What it usually means | Your first move |
 | --- | --- | --- |
@@ -103,6 +106,8 @@ The ladder matters because steps 2 and 3 get misdiagnosed as step 4. An owner wh
 
 This table is a routing device, not a diagnosis. One displayed phrase can have several causes, and the manufacturer manual for your exact model and firmware supplies the definition. Every "safe check" is something you can do from outside the enclosure. The last column says when the problem stops being an owner task.
 
+Table: Fifteen common rooftop inverter problems with likely cause, safe check and when to call an electrician or service
+
 | # | Symptom | What it may indicate | Safe check or next step | Call an electrician or service when |
 | --- | --- | --- | --- | --- |
 | 1 | No display in daylight | No DC, no AC, or internal supply failure | Confirm breaker positions and grid presence | Both are normal and the unit stays dark |
@@ -129,6 +134,8 @@ Read across the whole row. The value of the table is that it pairs a plausible c
 
 This is the most valuable distinction on the page. Four systems produce overlapping symptoms and route to four different people: the inverter brand, the installer, the DISCOM, and the monitoring platform. Getting it wrong costs weeks.
 
+Table: How to tell an inverter, array, grid or monitoring fault apart, and who owns the fix
+
 | Fault domain | Signature | Who owns the fix |
 | --- | --- | --- |
 | Inverter | Healthy DC voltage and current present, but no or wrong AC output; internal codes; a hard fault that survives a clean restart | Inverter manufacturer, under warranty |
@@ -146,7 +153,14 @@ Three quick tests separate them without opening anything.
 
 This is arithmetic on assumed readings, shown to demonstrate the method. It is not field data from an installation.
 
-A dual-MPPT inverter carries two strings of 10 modules each. Assume each module has Vmp 42.0 V and Imp 13.0 A at standard test conditions, and a voltage temperature coefficient of -0.28 percent per degree C. These are illustrative figures. Use your own module datasheet. Assume a hot afternoon, cell temperature near 55 C, and plane-of-array irradiance near 700 W/m2.
+> [!EXAMPLE] Assumed inputs for the two-string check
+> A dual-MPPT inverter carries two strings of 10 modules each. Assume each module has Vmp 42.0 V and Imp 13.0 A at standard test conditions, and a voltage temperature coefficient of -0.28 percent per degree C. These are illustrative figures. Use your own module datasheet. Assume a hot afternoon, cell temperature near 55 C, and plane-of-array irradiance near 700 W/m2.
+
+> [!FORMULA]
+> Vmp at cell temperature = Vmp at STC × (1 + voltage coefficient × (cell temperature − 25 °C))
+
+> [!FORMULA]
+> Imp at site irradiance ≈ Imp at STC × (irradiance ÷ 1000 W/m2)
 
 Expected string voltage:
 
@@ -159,6 +173,8 @@ Expected string current:
 - Imp scales roughly with irradiance = 13.0 x (700 / 1000) = 9.1 A
 
 Now the readings an electrician takes at the inverter:
+
+Table: Assumed DC readings on two MPPT inputs, used to separate an array fault from an inverter fault
 
 | Input | DC voltage | DC current | DC power |
 | --- | --- | --- | --- |
@@ -199,7 +215,8 @@ Resetting an inverter is the most common troubleshooting action in Indian roofto
 
 **Myth 1: if the reset clears it, it was a glitch.** Usually it only means the trigger condition has passed. A midday overvoltage trip clears itself by evening. Nothing was fixed, and it returns tomorrow at the same hour. The useful data point is the pattern, not the clearance.
 
-**Myth 2: widening the grid protection window stops the tripping.** It does, and that is the problem. Voltage and frequency windows exist so the unit disconnects when the grid leaves safe limits, and anti-islanding behaviour protects anyone working on a dead line. Widening them to keep exporting into a weak feeder turns a reported fault into an unreported hazard. It can also void warranty cover and breach your connection agreement.
+> [!WARNING] Myth 2: widening the grid protection window
+> **Widening the grid protection window stops the tripping.** It does, and that is the problem. Voltage and frequency windows exist so the unit disconnects when the grid leaves safe limits, and anti-islanding behaviour protects anyone working on a dead line. Widening them to keep exporting into a weak feeder turns a reported fault into an unreported hazard. It can also void warranty cover and breach your connection agreement.
 
 **Myth 3: repeated beeping is only a nuisance alarm.** Sometimes it is standby behaviour. Sometimes it is a battery or auxiliary supply condition that worsens quietly. Pattern and timing decide, which is why you log them.
 
@@ -211,14 +228,15 @@ Support quality tracks evidence quality. A ticket with a code, a timestamp, and 
 
 Collect all of the following:
 
-1. **Model and serial number**, photographed from the rating label rather than typed from memory.
-2. **The exact error code or displayed phrase**, with the date and clock time it first appeared.
-3. **Monitoring screenshots** covering the day of the event and a comparable normal day.
-4. **A clear photograph of the display** showing the fault state.
-5. **The event log extract**, if your app exports one, including warnings and not just faults.
-6. **Environmental context**: ambient temperature, weather, and time of day.
-7. **Change history**: firmware updates, new appliances, recent maintenance, DISCOM work in the area.
-8. **String voltages and currents per MPPT**, only if a licensed electrician has already attended.
+> [!CHECKLIST] Evidence to attach to a support ticket
+> - **Model and serial number**, photographed from the rating label rather than typed from memory.
+> - **The exact error code or displayed phrase**, with the date and clock time it first appeared.
+> - **Monitoring screenshots** covering the day of the event and a comparable normal day.
+> - **A clear photograph of the display** showing the fault state.
+> - **The event log extract**, if your app exports one, including warnings and not just faults.
+> - **Environmental context**: ambient temperature, weather, and time of day.
+> - **Change history**: firmware updates, new appliances, recent maintenance, DISCOM work in the area.
+> - **String voltages and currents per MPPT**, only if a licensed electrician has already attended.
 
 Two things to keep out of the ticket. Never send passwords, OTPs, or portal credentials through a public support channel or a WhatsApp group. And do not photograph a code you have already cleared, because the timestamp is the part that matters.
 
@@ -232,6 +250,7 @@ Qbits publishes an expandable warranty, and its public datasheets do not define 
 
 The process runs in a predictable order.
 
+<!-- steps -->
 1. Identify the unit and confirm it is within the warranty period, using invoice and commissioning records.
 2. Raise the claim with model, serial number, code, timestamp, and photographs.
 3. Cooperate with remote diagnosis, which often resolves configuration and monitoring cases.
@@ -244,6 +263,8 @@ Our [warranty claim walkthrough](/blog/solar-inverter-warranty-claim/) covers th
 ## Preventive maintenance that actually reduces faults
 
 Most rooftop inverter faults in India are environmental, not electronic. Heat, dust, monsoon moisture, and rodents produce more tickets than component failure. That makes prevention unusually effective here, and it is mostly inspection rather than intervention.
+
+Table: Preventive maintenance schedule for a rooftop string inverter, by interval
 
 | Interval | Task | Why it prevents a fault |
 | --- | --- | --- |

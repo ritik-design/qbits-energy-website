@@ -4,7 +4,7 @@ excerpt: "Open access solar in India lets C&I buyers above 100 kW buy off-site s
 description: "A complete 2026 guide to open access solar in India for commercial and industrial buyers: eligibility, charge stack (CSS, wheeling, banking), group captive vs third-party PPA, state-wise friendliness, and worked savings math."
 category: "Guide"
 date: 2026-07-23
-updatedDate: 2026-07-23
+updatedDate: 2026-10-14
 readTime: "19 min"
 image: "/og/blog-open-access-solar-india-explained.webp"
 author: "Akash Hirapara"
@@ -41,7 +41,7 @@ A factory owner in Coimbatore pays Rs 9.50 per unit to the [DISCOM](/glossary/di
 
 The catch: Rs 3.75 is not what lands on your bill. Between the solar park and your meter sits a stack of regulated charges. Wheeling, [cross-subsidy surcharge](https://www.heavengreenenergy.com/glossary/cross-subsidy-surcharge), additional surcharge, banking, and scheduling fees all apply. In a friendly state the stack adds Rs 1.50 to Rs 2.50 per unit. In a hostile one it adds Rs 3.50 or more and kills the deal. This guide covers what open access is and who qualifies. It also covers every charge, the [group captive](https://www.heavengreenenergy.com/blog/group-captive-detailed) versus [third-party PPA](https://www.heavengreenenergy.com/blog/captive-solar-vs-third-party-ppa-roi) decision, worked savings math, and the states worth the effort in 2026.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Open access lets C&I consumers buy off-site solar via the grid. Green open access eligibility dropped from 1 MW to 100 kW under the Green Energy Open Access Rules 2022, according to the Ministry of Power (2022).
 > - C&I open access solar additions reached 7.8 GW in 2025, according to Mercom India (2026).
 > - The charge stack (wheeling, CSS, additional surcharge, banking) adds Rs 1.50 to Rs 3.50 per kWh on top of the PPA tariff, depending on the state.
@@ -73,13 +73,19 @@ Beyond the load threshold, you need a clean payment record with the DISCOM and n
 
 The application follows a standard sequence. You apply on the state nodal portal with your sanctioned load, proposed capacity, and the generator's project details. The DISCOM verifies technical feasibility at your connection point. The state load despatch centre confirms scheduling capability. Connectivity approval follows. Long-term open access runs 12 years or more, medium-term runs 3 months to 3 years, and short-term runs up to 1 month. Most solar PPAs use the long-term route.
 
-One practical note. If your contracted demand is 95 kW today, enhancing it to 100 kW is usually cheap and fast. We have seen buyers cross the eligibility line this way in under a month.
+> [!TIP] Just under the 100 kW line
+> If your contracted demand is 95 kW today, enhancing it to 100 kW is usually cheap and fast. We have seen buyers cross the eligibility line this way in under a month.
 
 Keep every approval document. The connectivity approval, the open access registration, and the scheduling agreement all get referenced later during banking settlement and any dispute with the DISCOM. Buyers who file these carefully resolve billing disputes in weeks. Those who cannot produce them wait for months.
 
 ## The Charge Stack: What Open Access Really Costs
 
-The PPA tariff is only the starting point. Landed cost equals the PPA tariff plus every regulated charge between injection point and meter. Here is each component, with 2026 ranges from state tariff orders.
+The PPA tariff is only the starting point.
+
+> [!FORMULA]
+> Landed cost = PPA tariff + wheeling and transmission + cross-subsidy surcharge + additional surcharge + banking + scheduling, SLDC fees and electricity duty
+
+Landed cost equals the PPA tariff plus every regulated charge between injection point and meter. Here is each component, with 2026 ranges from state tariff orders.
 
 - **Wheeling and transmission charges.** The fee for using the network. Karnataka charges HT consumers Rs 0.29 per kWh, one of the lowest in India. Gujarat charges around Rs 0.63, Maharashtra Rs 0.60, and Tamil Nadu Rs 1.03 for FY 2026-27, according to the respective state tariff orders (2025, 2026).
 - **Cross-subsidy surcharge (CSS).** The largest and most contested charge. Industrial tariffs cross-subsidise domestic and agricultural consumers. CSS compensates the DISCOM when a high-paying consumer leaves. It runs Rs 1.10 to Rs 2.10 per kWh for HT industrial consumers. Karnataka is Rs 2.08 and Tamil Nadu Rs 2.06 for FY 2026-27. Captive and group captive projects are exempt from CSS entirely.
@@ -92,6 +98,8 @@ The result: a Rs 3.75 PPA tariff lands at Rs 5.00 in a group captive structure i
 ## Group Captive vs Third-Party PPA: The Core Decision
 
 Every open access transaction uses one of three structures. The choice determines which charges apply.
+
+Table: Third-party PPA, group captive and single captive structures compared
 
 | Dimension | Third-Party PPA | Group Captive | Single Captive |
 | --- | --- | --- | --- |
@@ -116,6 +124,8 @@ A recent policy shift makes group captive easier. The Ministry of Power now lets
 
 Numbers make this concrete. Here is a hypothetical but representative calculation. It covers a 1 MW open access contract for an HT industrial consumer in Maharashtra, drawing 15 Lakh units per year from the plant. Grid tariff is assumed at Rs 9.25 per unit, a typical landed HT industrial rate including demand charges and duty.
 
+Table: Worked 1 MW example for an HT industrial consumer in Maharashtra, hypothetical inputs, 15 Lakh units per year
+
 | Input | Third-Party PPA | Group Captive |
 | --- | --- | --- |
 | PPA tariff (Rs/kWh) | 3.75 | 3.25 (levelised, net of equity returns) |
@@ -131,7 +141,41 @@ Numbers make this concrete. Here is a hypothetical but representative calculatio
 
 Inputs shown: PPA tariff, state charges from the MERC tariff order framework, consumption volume, and grid tariff. Swap in your own state numbers before deciding. The direction of the result holds across most states. Group captive roughly doubles per-unit savings because CSS is the dominant wedge.
 
-Two sensitivities deserve attention before you treat this table as a promise. First, the PPA escalation clause. A Rs 3.75 tariff escalating at 3% annually crosses Rs 5.00 by year 10. If grid tariffs rise slower, a third of the headline saving erodes. Negotiate a flat tariff or cap escalation below 2%. Second, capacity utilisation. If offtake drops to 10 Lakh units in a demand slowdown, third-party savings fall proportionally. Group captive fixed costs, like equity servicing and O&M share, do not. Size the contract to your contracted minimum load, not your optimistic peak.
+```chart
+type: stacked-bar
+title: Landed cost build-up per unit, hypothetical 1 MW Maharashtra HT example
+unit: "Rs/kWh"
+source: "Calculated in this article from the hypothetical inputs in the worked example table above (PPA tariff, state charge framework per the MERC tariff order, banking and scheduling); not a quoted tariff"
+note: "Grid tariff avoided is assumed at Rs 9.25 per unit. Landed cost is 7.22 for third-party PPA and 4.50 for group captive."
+series:
+  - name: "PPA tariff"
+    data:
+      - { label: "Third-party PPA", value: 3.75 }
+      - { label: "Group captive", value: 3.25 }
+  - name: "Cross-subsidy surcharge"
+    data:
+      - { label: "Third-party PPA", value: 1.62 }
+      - { label: "Group captive", value: 0 }
+  - name: "Wheeling and transmission"
+    data:
+      - { label: "Third-party PPA", value: 0.9 }
+      - { label: "Group captive", value: 0.9 }
+  - name: "Additional surcharge"
+    data:
+      - { label: "Third-party PPA", value: 0.6 }
+      - { label: "Group captive", value: 0 }
+  - name: "Banking, scheduling, misc"
+    data:
+      - { label: "Third-party PPA", value: 0.35 }
+      - { label: "Group captive", value: 0.35 }
+```
+
+Two sensitivities deserve attention before you treat this table as a promise.
+
+> [!IMPORTANT] PPA escalation clause
+> A Rs 3.75 tariff escalating at 3% annually crosses Rs 5.00 by year 10. If grid tariffs rise slower, a third of the headline saving erodes. Negotiate a flat tariff or cap escalation below 2%.
+
+First, the PPA escalation clause, covered in the box above. Second, capacity utilisation. If offtake drops to 10 Lakh units in a demand slowdown, third-party savings fall proportionally. Group captive fixed costs, like equity servicing and O&M share, do not. Size the contract to your contracted minimum load, not your optimistic peak.
 
 For context, the [solar vs diesel generator cost analysis](/blog/solar-vs-diesel-generator-india/) puts diesel at Rs 18 to 24 per unit. That gap explains why open access has replaced DG sets in most C&I boardroom economics discussions.
 
@@ -180,11 +224,11 @@ Open access is not free money. Five genuine tradeoffs deserve a frank look.
 
 When a developer proposal lands on your desk, run this checklist before commercial negotiation starts.
 
-1. **Landed cost, not PPA tariff.** Demand a line-item landed cost calculation referencing your state's current tariff order. It should cover PPA tariff, wheeling, CSS, ASC, banking on the modelled banked share, scheduling, and duty. Compare it against your actual landed grid tariff, not the energy charge alone.
-2. **Structure fit.** If you can deploy Rs 1 to 1.5 Crore per MW of equity and find co-consumers, group captive almost always wins on per-unit cost. If not, choose a third-party PPA with a capped escalation clause. Keep escalation at 2% to 3% annually, below expected grid tariff growth.
-3. **Generation guarantee.** The contract should guarantee minimum annual generation at a defined P90 yield, with liquidated damages for shortfall. Otherwise you draw the gap from the grid at full tariff.
-
-5. **Exit and transfer clauses.** Read the termination, change-in-law, and assignment clauses. Change-in-law protection for charge increases is the most valuable clause in a long-tenure PPA.
+> [!CHECKLIST] Proposal review points
+> - **Landed cost, not PPA tariff.** Demand a line-item landed cost calculation referencing your state's current tariff order. It should cover PPA tariff, wheeling, CSS, ASC, banking on the modelled banked share, scheduling, and duty. Compare it against your actual landed grid tariff, not the energy charge alone.
+> - **Structure fit.** If you can deploy Rs 1 to 1.5 Crore per MW of equity and find co-consumers, group captive almost always wins on per-unit cost. If not, choose a third-party PPA with a capped escalation clause. Keep escalation at 2% to 3% annually, below expected grid tariff growth.
+> - **Generation guarantee.** The contract should guarantee minimum annual generation at a defined P90 yield, with liquidated damages for shortfall. Otherwise you draw the gap from the grid at full tariff.
+> - **Exit and transfer clauses.** Read the termination, change-in-law, and assignment clauses. Change-in-law protection for charge increases is the most valuable clause in a long-tenure PPA.
 
 ## The Bottom Line
 
@@ -194,4 +238,4 @@ Three actions to take this week:
 
 - Pull your last 12 months of DISCOM bills. Compute your landed grid tariff as total bill divided by units consumed. That number is the benchmark every open access proposal must beat.
 - Get your state's current wheeling, CSS, and banking charges from the latest SERC tariff order. Or ask a developer to provide them with order references. Then run the landed-cost table from this guide with your numbers.
-[Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.
+- [Contact Qbits](/contact-us/) with the exact model, site inputs and documents relevant to the request. Confirm the responsible party, deliverable, fees and response time after submission.

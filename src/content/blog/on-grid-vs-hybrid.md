@@ -39,7 +39,7 @@ relatedSlugs:
 - 5kw-hybrid-inverter-price-india
 ---
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - An on-grid inverter shuts down in an outage by design. That is anti-islanding, a safety requirement, not a fault.
 > - A hybrid inverter only backs up the circuits someone deliberately wired to its backup output.
@@ -57,6 +57,8 @@ This guide is the head-to-head between the two grid-connected formats. For the w
 An on-grid inverter converts DC from the panels to AC and synchronises with the grid. It exports surplus through net metering and draws from the grid when solar is short. It has no battery port, and it cannot operate without a live grid.
 
 A hybrid inverter does the same grid-tied job and adds a battery port, a battery management interface and a separate backup output. It can charge the battery, discharge it to the home and keep the backup circuits running when the grid fails. The extra hardware and the extra installation scope are what separate the two quotes.
+
+Table: On-grid versus hybrid inverter, core differences
 
 | Dimension | On-grid inverter | Hybrid inverter |
 | --- | --- | --- |
@@ -87,6 +89,8 @@ A hybrid inverter disconnects from the grid in the same way, then continues supp
 
 Four limits decide what stays on, and they are independent of each other.
 
+Table: The four limits that decide what a hybrid inverter keeps running in an outage
+
 | Limit | Set by | Typical failure to check |
 | --- | --- | --- |
 | Continuous backup power | Inverter backup output rating | Assuming the full grid-side rating is available in backup mode |
@@ -96,7 +100,8 @@ Four limits decide what stays on, and they are independent of each other.
 
 The last row causes the most disputes. "Hybrid" describes the inverter, not the scope of the backup. If the installer wired lights, fans and one socket circuit to the backup board, that is what runs, whatever the battery can deliver.
 
-Motor starting is the second common trap. A submersible pump or an air conditioner compressor draws several times its running current for a short period at startup. A backup design sized on running watts alone will trip when the compressor starts.
+> [!WARNING] Motor starting trips backups sized on running watts
+> Motor starting is the second common trap. A submersible pump or an air conditioner compressor draws several times its running current for a short period at startup. A backup design sized on running watts alone will trip when the compressor starts.
 
 ## The three-variable test: should you pay for hybrid?
 
@@ -119,6 +124,8 @@ The Ministry of Power reported through the [Press Information Bureau](https://ww
 ### Convert daily outage time into hours a year
 
 A short table makes the scale visible. The formula is hours per day × 365.
+
+Table: Daily outage time converted to hours per year (hours per day x 365)
 
 | Average outage per day | Hours per year |
 | --- | --- |
@@ -161,15 +168,35 @@ GST treatment differs across these items. Specified solar devices are taxed at 5
 
 Take the **scope gap** from your own quotes and divide by the years you expect to own the system:
 
-**Annual avoided cost needed = hybrid scope gap ÷ years of ownership**
+> [!FORMULA]
+> Annual avoided cost needed = hybrid scope gap ÷ years of ownership
 
-Using the listing gap of ₹1,15,000 as an example, a ten-year horizon needs about ₹11,500 a year of avoided outage cost, a five-year horizon ₹23,000, and a three-year horizon about ₹38,333. If your annual outage cost from Variable 1 is above that line, the added scope has an economic case. If it is below, you are buying comfort, which is a legitimate reason but not a financial one. This is arithmetic on a dated listing, not a payback promise.
+> [!EXAMPLE] Break-even on the listing gap
+> Using the listing gap of ₹1,15,000 as an example, a ten-year horizon needs about ₹11,500 a year of avoided outage cost, a five-year horizon ₹23,000, and a three-year horizon about ₹38,333.
+
+```chart
+type: bar
+title: Avoided outage cost needed per year to cover a ₹1,15,000 hybrid scope gap
+unit: "₹"
+source: "Calculated in this article as the ₹1,15,000 gap between two Livguard online shop kit listings (3 kW on-grid ₹2,45,000 and 3 kW hybrid ₹3,60,000, checked 14 October 2026) divided by years of ownership"
+note: "Illustrative arithmetic on a dated listing, not a payback promise. Use the scope gap from your own quotes."
+decimals: 0
+data:
+  - { label: "10 years", value: 11500 }
+  - { label: "5 years", value: 23000 }
+  - { label: "3 years", value: 38333 }
+```
+
+If your annual outage cost from Variable 1 is above that line, the added scope has an economic case. If it is below, you are buying comfort, which is a legitimate reason but not a financial one. This is arithmetic on a dated listing, not a payback promise.
 
 ### Why a battery rarely wins on tariff savings
 
 Under net metering the grid credits surplus generation to you, which is effectively storage with no equipment to replace. A battery that shifts the same energy loses some to charge and discharge inefficiency and wears out.
 
-Test it with the Loom Solar listing. At 80 percent depth of discharge, the battery delivers 5.12 × 0.80 = 4.096 kWh a cycle. At the 1,500 cycles the page gives as the low end of its general lithium range, it delivers 4.096 × 1,500 = 6,144 kWh in its life. Dividing the price by that energy: ₹1,15,000 ÷ 6,144 = **₹18.72 per kWh delivered**, or ₹14.04 at 2,000 cycles. Any assumed grid tariff below that figure means the battery does not repay itself through tariff savings alone, before counting losses and the cost of capital. Check your own tariff and the cycle life on your battery datasheet.
+> [!EXAMPLE] Cost per kWh delivered by a 5.12 kWh lithium battery
+> Test it with the Loom Solar listing. At 80 percent depth of discharge, the battery delivers 5.12 × 0.80 = 4.096 kWh a cycle. At the 1,500 cycles the page gives as the low end of its general lithium range, it delivers 4.096 × 1,500 = 6,144 kWh in its life. Dividing the price by that energy: ₹1,15,000 ÷ 6,144 = **₹18.72 per kWh delivered**, or ₹14.04 at 2,000 cycles.
+
+Any assumed grid tariff below that figure means the battery does not repay itself through tariff savings alone, before counting losses and the cost of capital. Check your own tariff and the cycle life on your battery datasheet.
 
 This is not an argument against batteries. It is an argument for buying one for the right reason. If outages at your site are frequent or costly, backup has real value and the battery is insurance. If supply is reliable, a battery bought for savings is likely to disappoint.
 
@@ -203,6 +230,8 @@ A "battery ready" inverter quote is not the cost of a battery-backed installatio
 
 Use your logged outage hours, then your answer to what an outage costs you. The thresholds are rules of thumb to start the conversation, not a standard.
 
+Table: On-grid or hybrid by outage level and what an outage puts at stake (rules of thumb)
+
 | Your situation | Few short cuts (under about 1 hour/day) | Regular cuts (about 1 to 2 hours/day) | Long or daily cuts (2+ hours/day) |
 | --- | --- | --- | --- |
 | Outages are an inconvenience only | On-grid. Simplest system, nothing to back up | On-grid, or hybrid with a small backup board if the budget allows | Hybrid sized for lights, fans and refrigerator |
@@ -211,6 +240,8 @@ Use your logged outage hours, then your answer to what an outage costs you. The 
 | You want assistance under PM Surya Ghar | Either; assistance is the same | Either; assistance is the same | Hybrid still qualifies; confirm the approval route with the DISCOM |
 
 ## Pros and cons side by side
+
+Table: On-grid versus hybrid inverter, pros and cons side by side
 
 | | On-grid inverter | Hybrid inverter |
 | --- | --- | --- |
@@ -245,7 +276,10 @@ Three points matter for this choice:
 - **Assistance does not depend on the inverter.** It follows module capacity, not inverter size, although the inverter must meet the scheme's technical specification.
 - **Non-exporting grid-connected systems, including battery hybrid systems, can be eligible,** subject to approval by the respective electricity regulatory commission, with the DISCOM inspecting the installation.
 
-Domestic content conditions for the modules are an essential condition for eligibility. Neither inverter category guarantees approval on its own, and rules vary by state and by order. Never treat a quoted slab as assured for your application. See the [scheme guide](/blog/pm-surya-ghar-yojana-complete-guide/), the [subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) and [vendor verification](/blog/empanelled-vendor-pm-surya-ghar/).
+> [!IMPORTANT] Neither inverter type guarantees approval
+> Domestic content conditions for the modules are an essential condition for eligibility. Neither inverter category guarantees approval on its own, and rules vary by state and by order. Never treat a quoted slab as assured for your application.
+
+See the [scheme guide](/blog/pm-surya-ghar-yojana-complete-guide/), the [subsidy amount guide](/blog/pm-surya-ghar-subsidy-amount/) and [vendor verification](/blog/empanelled-vendor-pm-surya-ghar/).
 
 ## Common mistakes when choosing between on-grid and hybrid
 

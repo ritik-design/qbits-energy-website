@@ -46,12 +46,12 @@ Open a 5 kW string inverter and you will not find a mysterious black box. You wi
 
 Most explanations stop at "it converts DC to AC". That is true and not much use when you want to read a datasheet, size strings, or work out why a unit trips at 2 pm in May. This guide goes one level deeper. It walks through the power path of a modern transformerless string inverter: the DC input and EMC stage, the MPPT boost converter, the DC link, the IGBT bridge, and the output filter, grid relay and control board. For each block it says what the block does, which components you would see on the schematic, and where problems usually start. It also shows how a hybrid inverter's circuit differs from an on-grid one.
 
-A caution first. The DC link and the string inputs can hold hazardous voltage, including after shutdown. Everything here is for understanding, not for opening the enclosure. Internal inspection belongs to the manufacturer's service channel. If you want the part-by-part view instead, the [solar inverter components](/blog/solar-inverter-components/) guide pairs well with this one, and [how a solar inverter works](/blog/how-does-a-solar-inverter-work/) covers the energy-flow story without schematics.
+> [!CAUTION] Hazardous voltage stays inside after shutdown
+> A caution first. The DC link and the string inputs can hold hazardous voltage, including after shutdown. Everything here is for understanding, not for opening the enclosure. Internal inspection belongs to the manufacturer's service channel. If you want the part-by-part view instead, the [solar inverter components](/blog/solar-inverter-components/) guide pairs well with this one, and [how a solar inverter works](/blog/how-does-a-solar-inverter-work/) covers the energy-flow story without schematics.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - A string inverter is a chain of blocks: DC input and EMC, MPPT boost converter, DC link, switching bridge, output filter, grid relay, with a control board supervising all of them.
-> - The MPPT stage raises and regulates the array voltage onto an internal DC link. The DC link is a capacitor bank that smooths the pulsating demand of the AC side.
-> - A bridge of IGBTs chops the DC link into a pulse width modulated waveform, and the output filter turns it into a sine wave.
+> - The MPPT stage raises and regulates the array voltage onto an internal DC link. The DC link is a capacitor bank that smooths the pulsating demand of the AC side. A bridge of IGBTs chops the DC link into a pulse width modulated waveform, and the output filter turns it into a sine wave.
 > - A transformerless inverter has no galvanic isolation, so IEC 62109-2 requires residual current monitoring and an insulation check before start.
 > - A hybrid inverter is an on-grid inverter plus a bidirectional battery converter, a battery port and a backup output path.
 > - MPPT count is a count of tracking inputs, not of strings. The QB 4/5/6 KTLD is dual-MPPT, rated 20 A input per MPPT, according to the Qbits product specification.
@@ -61,6 +61,8 @@ A caution first. The DC link and the string inputs can hold hazardous voltage, i
 ## Two drawings share this name: system single line diagram vs internal circuit
 
 When an installer or DISCOM engineer says "circuit diagram", they usually mean the system single line diagram (SLD): the one-line path from array to meter. When an engineer or student says it, they mean the power electronics inside the inverter. This page is about the second one. The first has its own guides.
+
+Table: System single line diagram compared with the internal inverter circuit
 
 | | System single line diagram | Internal inverter circuit |
 | --- | --- | --- |
@@ -161,6 +163,8 @@ The last stretch turns a PWM waveform into grid-quality electricity and connects
 
 **Control board.** A digital signal processor runs the machine: MPPT loops, PWM generation, grid synchronisation with a phase-locked loop, protection logic and communications. Gate-driver circuits translate its logic-level signals into the higher-voltage pulses that switch the IGBTs. When any sensor reports an out-of-range value, this board raises the fault message you see on the display.
 
+Table: The seven functional blocks of a string inverter: components, input, output and job
+
 | Block | Key components | What goes in | What comes out | Primary job |
 | --- | --- | --- | --- | --- |
 | 1. DC input / EMC | Fuses, SPDs, chokes, RCMU, sensors | String DC | Conditioned DC | Protect, filter, measure |
@@ -187,6 +191,8 @@ The [on-grid vs hybrid](/blog/on-grid-vs-hybrid/) guide covers the purchase deci
 
 Every block has a characteristic failure signature. Knowing the map turns a vague fault message into a short list of suspects. The [solar inverter troubleshooting](/blog/solar-inverter-troubleshooting/) guide covers the symptom side. This table covers the circuit side, and it describes tendencies, not failure rates.
 
+Table: Common failure points by block: symptom and usual contributing cause (tendencies, not failure rates)
+
 | Block | Common failure | Typical symptom | Usual contributing cause |
 | --- | --- | --- | --- |
 | DC input / EMC | Failed SPD or fuse | No generation after a storm | Lightning or switching surge |
@@ -210,6 +216,8 @@ For a message-to-cause walkthrough, see the [solar inverter error codes guide](/
 
 This is the biggest branch in inverter topology, and the consequence is isolation, not efficiency. A transformer puts a magnetic barrier between array and grid, so no conductive path exists between them. A [transformerless inverter](/glossary/transformerless-inverter/) removes that barrier, which changes what the protection circuits must do.
 
+Table: Transformer and transformerless inverter topology: the isolation consequence
+
 | Aspect | With transformer | Transformerless |
 | --- | --- | --- |
 | Galvanic isolation | Present | Absent |
@@ -225,6 +233,8 @@ The trade-off is often framed as efficiency against safety. That framing is wron
 
 The output stage changes with phase configuration, and so does the waveform. A single-phase inverter feeds one live conductor and neutral. A three-phase inverter feeds three live conductors 120 degrees apart. Device count, DC link stress and filter design all follow from that.
 
+Table: Single-phase and three-phase output stages compared
+
 | Parameter | Single-phase stage | Three-phase stage |
 | --- | --- | --- |
 | Bridge arrangement | H-bridge, two legs | Three legs, one per phase |
@@ -238,6 +248,8 @@ The DC link row is the one designers care about. Single-phase power pulsates, so
 ## The protection circuits and the fault each one catches
 
 Protection is where a block diagram earns its keep during troubleshooting. Each function watches one class of fault and has one action available: open the grid relay, or refuse to close it.
+
+Table: Inverter protection functions, the fault each one catches and the governing document
 
 | Protection function | What it detects | Governing document |
 | --- | --- | --- |
@@ -271,6 +283,9 @@ This uses published inverter limits and assumed module parameters. It is arithme
 
 **Assumed module, for illustration only.** Open circuit voltage at standard test conditions 41.5 V. Temperature coefficient of open circuit voltage minus 0.27% per degree Celsius. Short circuit current 13.8 A.
 
+> [!FORMULA] Maximum modules in series
+> Maximum series count = inverter maximum DC voltage ÷ [module Voc × (1 + temperature coefficient × temperature drop below 25 °C)], rounded down
+
 **Step 1. Correct open circuit voltage to the coldest expected cell temperature.** Standard test conditions define cell temperature as 25 degrees Celsius. Take a coldest expected cell temperature of 0 degrees Celsius, a drop of 25 degrees.
 
 Voltage rise = 25 × 0.27% = 6.75%
@@ -287,7 +302,8 @@ Round down. Maximum series count is 12 modules. Rounding up to 13 gives 576 V, w
 
 **Step 4. Check current per MPPT input.** One string at 13.8 A short circuit current sits under the 20 A limit. Two strings in parallel on one input give 27.6 A, which exceeds it. So this model takes one string per MPPT with this module, giving two strings, not four.
 
-Step 4 is what people get wrong from the diagram alone. Two MPPT symbols look like an invitation to parallel strings, and the current limit says otherwise. Run real module data through the [string sizing calculator](/string-sizing-calculator/) before committing to a layout, and confirm limits on the model's [datasheet](/download-datasheets/).
+> [!WARNING] Two MPPT inputs do not mean four strings
+> Step 4 is what people get wrong from the diagram alone. Two MPPT symbols look like an invitation to parallel strings, and the current limit says otherwise. Run real module data through the [string sizing calculator](/string-sizing-calculator/) before committing to a layout, and confirm limits on the model's [datasheet](/download-datasheets/).
 
 ## Six misreadings that cause real wiring errors
 
@@ -306,6 +322,7 @@ A myth worth correcting on top of these: that a current-generation residential i
 
 A solar inverter circuit diagram, read at the level of the inverter itself, is a chain of blocks. Power moves through DC input and EMC filtering, MPPT boost conversion, the DC link and the IGBT bridge. Then it passes the output filter, grid relay and control board. The relay releases power to the grid only when every check passes. Once you hold that map, datasheets become readable, fault messages become diagnosable, and the on-grid versus hybrid question reduces to a second DC-DC stage and a second relay path.
 
-- Before ordering cable, read the maximum DC voltage, MPPT window, MPPT count and current limit per MPPT off the exact model datasheet. Then run the cold-morning string calculation.
-- Before commissioning, confirm voltage and frequency settings against the CEA regulation and the DISCOM conditions, and record them in the commissioning document.
-- For datasheets of a specific Qbits rating, use the [datasheet library](/download-datasheets/), or look at the QB 4/5/6 KTLD on its [product page](/our-products/QB-4-6KTLD/).
+> [!CHECKLIST] Before ordering cable and before commissioning
+> - Before ordering cable, read the maximum DC voltage, MPPT window, MPPT count and current limit per MPPT off the exact model datasheet. Then run the cold-morning string calculation.
+> - Before commissioning, confirm voltage and frequency settings against the CEA regulation and the DISCOM conditions, and record them in the commissioning document.
+> - For datasheets of a specific Qbits rating, use the [datasheet library](/download-datasheets/), or look at the QB 4/5/6 KTLD on its [product page](/our-products/QB-4-6KTLD/).

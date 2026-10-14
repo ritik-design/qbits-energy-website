@@ -43,13 +43,11 @@ A rooftop solar system is an expensive asset that you bolt to the outside of a b
 
 Solar insurance in India is not one product. It is a stack of covers that insurers bundle differently, sitting on a fire and perils base, and the gaps between those layers are where owners lose money. This guide covers what damages rooftop systems here, which policy answers which event, whether your householder policy extends to the array, how to set a sum insured, and where warranty stops and insurance starts.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Solar panels are a named covered additional structure under Home Building Cover in the Bharat Griha Raksha policy, according to the IRDAI Key Features Document (2021).
 > - The Standard Fire and Special Perils wording excludes short circuiting, arcing, and self-heating in the affected machine, so it alone will not pay for a burnt-out inverter.
-> - Hail caused 27 percent of natural catastrophe and extreme weather solar losses by claim amount since 2019, according to AXIS Capital (2025), on global data.
-> - Basic project insurance costs 0.2 to 0.5 percent of project cost, according to Anand Rathi Insurance Brokers in a Saur Energy interview (2023).
-> - MNRE lists six insurers with solar-related products in its circular of 26 February 2024. Most of those products insure manufacturers and project owners, not a home rooftop.
-> - Tata AIG's two listed solar products are a weather-index policy and a module-warranty policy. A homeowner usually buys Tata AIG cover through its Bharat Griha Raksha home policy.
+> - Hail caused 27 percent of natural catastrophe and extreme weather solar losses by claim amount since 2019, according to AXIS Capital (2025), on global data. Basic project insurance costs 0.2 to 0.5 percent of project cost, according to Anand Rathi Insurance Brokers in a Saur Energy interview (2023).
+> - MNRE lists six insurers with solar-related products in its circular of 26 February 2024. Most of those products insure manufacturers and project owners, not a home rooftop. Tata AIG's two listed solar products are a weather-index policy and a module-warranty policy. A homeowner usually buys Tata AIG cover through its Bharat Griha Raksha home policy.
 > - Warranty answers defects. Insurance answers external events. Neither replaces the other.
 
 **Short version.** Solar insurance in India means combining a fire and special perils base with burglary cover for theft, machinery breakdown cover for inverter failure, and, for commercial sites, business interruption. A standard home policy can cover a rooftop array as an additional structure, but only against its listed insured events. Warranty covers defects, not weather. Set the sum insured at replacement cost.
@@ -59,6 +57,8 @@ This article is general information, not insurance advice.
 ## What can go wrong on an Indian rooftop
 
 Indian rooftop losses cluster around a short list of causes, and most are environmental rather than mechanical. Weather drives the bulk of physical loss. Electrical events sit between insurance and warranty, which is why they cause the most arguments at claim time. Hail caused 27 percent of natural catastrophe and extreme weather solar losses by claim amount since 2019, according to AXIS Capital (2025), on global data.
+
+Table: Rooftop solar threats in India, typical damage and the cover that responds
 
 | Threat | Typical damage | Cover that responds |
 | --- | --- | --- |
@@ -102,6 +102,8 @@ Where both covers are held, General Contents are automatically covered for 20 pe
 
 Solar cover in India is assembled, not bought off a shelf. Four forms do almost all the work, and each is defined as much by its exclusions as its perils.
 
+Table: The four policy types that cover a solar asset: what each adds and what it will not do
+
 | Policy type | What it adds | What it will not do |
 | --- | --- | --- |
 | Standard Fire and Special Perils | Fire, lightning, explosion, riot damage, storm, cyclone, flood | Excludes short circuiting, arcing, self-heating, earthquake, theft |
@@ -109,13 +111,16 @@ Solar cover in India is assembled, not bought off a shelf. Four forms do almost 
 | Machinery Breakdown | Sudden damage: short circuit, over-voltage, insulation failure | Excludes wear and defects under manufacturer warranty |
 | Industrial All Risks | Property damage and breakdown bundled, plus accidental damage | Priced for larger assets; excludes wear, defect, workmanship |
 
-The exclusion that matters most sits in the fire policy. The Standard Fire and Special Perils wording excludes loss caused by over-running, short circuiting, arcing, self-heating, or leakage of electricity from any cause including lightning, and it applies to the particular electrical machine affected. Other equipment destroyed by a fire that machine starts is still covered. The machine that failed is not. Machinery breakdown cover reverses this for the insured machine, which is why the product exists.
+> [!WARNING] The fire policy will not pay for the machine that arcs
+> The exclusion that matters most sits in the fire policy. The Standard Fire and Special Perils wording excludes loss caused by over-running, short circuiting, arcing, self-heating, or leakage of electricity from any cause including lightning, and it applies to the particular electrical machine affected. Other equipment destroyed by a fire that machine starts is still covered. The machine that failed is not. Machinery breakdown cover reverses this for the insured machine, which is why the product exists.
 
 ## Who sells solar insurance in India
 
 Two different groups sell cover that carries the word "solar", and mixing them up is the most common mistake in this search.
 
 The first group is specialist products for the solar industry. MNRE keeps a list of them: Circular F. No. 283/72/2019-GRID SOLAR, first issued on 7 January 2020 and re-issued with an updated insurer list on 26 February 2024 after consultation with the Department of Financial Services and IRDAI. The 2024 annexure names six insurers and seven products.
+
+Table: Solar insurance products in the MNRE circular of 26 February 2024 annexure: insurer, UIN, period and who each protects
 
 | Insurer | Product (MNRE annexure, 26 Feb 2024) | UIN | Period | Who it protects |
 | --- | --- | --- | --- | --- |
@@ -148,6 +153,8 @@ So the price of Tata AIG cover for your roof is whatever its home or package quo
 
 ### Retail routes for a rooftop owner
 
+Table: Retail and project routes to solar cover: what to ask and where the claim is sourced
+
 | Route | What to ask | Source for the claim |
 | --- | --- | --- |
 | Home policy (Bharat Griha Raksha or an insurer's own home product) | Are the panels in Home Building or General Contents on my schedule, and what is the sum insured for them? | IRDAI Key Features Document (2021); Tata AIG policy wording |
@@ -160,6 +167,8 @@ Insurers differ, and so do wordings by UIN. Verify each entry against the curren
 ## Warranty is not insurance, and the gap is where owners lose money
 
 This is the most common confusion among Indian system owners. A warranty is a promise from the manufacturer about the product. Insurance is a contract of indemnity against an external event. Different triggers, different evidence, different people on the phone.
+
+Table: Manufacturer warranty compared with insurance, event by event
 
 | Event | Manufacturer warranty | Insurance policy |
 | --- | --- | --- |
@@ -175,6 +184,8 @@ The gap sits in two places. Warranty will not pay for weather, theft, or grid su
 
 A third bucket is an annual maintenance contract (AMC), which pays for routine service rather than loss. It sits beside the other two instead of replacing either.
 
+Table: Warranty, insurance and AMC compared by risk
+
 | Risk | Warranty | Insurance | AMC or service cover |
 | --- | --- | --- | --- |
 | Inverter fails in normal use | Yes, on the written terms | No, unless a breakdown cover applies | Visit and labour costs, if the AMC says so |
@@ -189,7 +200,8 @@ Where a long inverter warranty is in place and in writing, a separate breakdown 
 
 Qbits publishes an expandable warranty, and its public datasheets do not define the base term, remedy, registration deadline or exclusions, so obtain the current written warranty for the exact quoted model. That addresses defects, not cyclones, and no manufacturer warranty in the market does. See the [inverter warranty guide](/blog/solar-inverter-warranty/), the [claim process](/blog/solar-inverter-warranty-claim/), and [installation versus product warranty](/blog/solar-installation-vs-product-warranty/).
 
-Surge damage is the grey zone. Most Indian inverter warranties exclude lightning. Where a **surge protection device** (SPD) rated to the relevant IEC standard was installed and working, a manufacturer has a harder time blaming lightning alone. Photograph SPD part numbers at commissioning. See [inverters with surge protection](/blog/how-to-choose-solar-inverters-with-surge-protection/) and the [SPD glossary entry](/glossary/spd/).
+> [!TIP] Photograph SPD part numbers at commissioning
+> Surge damage is the grey zone. Most Indian inverter warranties exclude lightning. Where a **surge protection device** (SPD) rated to the relevant IEC standard was installed and working, a manufacturer has a harder time blaming lightning alone. Photograph SPD part numbers at commissioning. See [inverters with surge protection](/blog/how-to-choose-solar-inverters-with-surge-protection/) and the [SPD glossary entry](/glossary/spd/).
 
 ## Setting the sum insured, with a worked example
 
@@ -206,13 +218,25 @@ The figures below are illustrative, using an assumed installed cost. They are no
 - Removal, disposal, and roof access: 3 percent
 - Age at loss: 5 years, illustrative depreciation 5 percent per year
 
-**Formula.** Reinstatement sum insured = current installed cost of like-for-like replacement + reinstall and freight + removal and access.
+> [!FORMULA]
+> Reinstatement sum insured = current installed cost of like-for-like replacement + reinstall and freight + removal and access.
 
 **Reinstatement basis:** ₹6,00,000 + ₹48,000 + ₹18,000 = **₹6,66,000**.
 
 **Indemnity basis at year 5:** 5 years × 5 percent = 25 percent depreciation, so ₹6,00,000 × 0.75 = ₹4,50,000, plus the same ₹66,000 of ancillary costs = **₹5,16,000**.
 
 **The gap is ₹1,50,000**, funded personally on a total loss, and any deductible applies on top. Income Tax Act depreciation is a separate concept from an insurer's depreciated value. See [solar inverter depreciation](/blog/solar-inverter-depreciation-in-india/).
+
+```chart
+type: bar
+title: Sum insured on reinstatement basis against indemnity basis at year 5, illustrative worked example
+unit: "₹"
+source: "Calculated in this article from assumed inputs: installed cost ₹6,00,000, reinstall and freight 8 percent, removal and access 3 percent, 5 percent depreciation per year for 5 years. Not a quote or market price."
+note: "Illustrative arithmetic only. Substitute your own invoice values."
+data:
+  - { label: "Reinstatement basis", value: 666000 }
+  - { label: "Indemnity basis, year 5", value: 516000 }
+```
 
 ## What solar insurance actually costs in India
 
@@ -250,16 +274,18 @@ Insurers pay on evidence, and what you can assemble after a cyclone is decided b
 
 Assemble these at handover.
 
-1. **Itemised tax invoice** splitting panel, inverter, structure, cabling, and labour. A lump-sum invoice makes partial loss settlement difficult.
-2. **Equipment serial numbers** for every module and the inverter, photographed on the nameplate.
-3. **Single line diagram** and as-built layout showing string configuration and cable routes.
-4. **Commissioning and test reports** covering insulation resistance, earthing continuity, and string voltage. See [inverter commissioning](/blog/solar-inverter-commissioning-in-india/).
-5. **DISCOM approval and net meter record**, establishing legal connection. The [DISCOM glossary entry](/glossary/discom/) explains the chain.
-6. **Dated photographs** from several angles, plus close-ups of the SPD, isolators, and earthing pit.
-7. **Maintenance records** and cleaning logs. See the [pre-monsoon inspection checklist](/blog/pre-monsoon-solar-inspection-checklist/).
+> [!CHECKLIST] Claim file to assemble at handover
+> - **Itemised tax invoice** splitting panel, inverter, structure, cabling, and labour. A lump-sum invoice makes partial loss settlement difficult.
+> - **Equipment serial numbers** for every module and the inverter, photographed on the nameplate.
+> - **Single line diagram** and as-built layout showing string configuration and cable routes.
+> - **Commissioning and test reports** covering insulation resistance, earthing continuity, and string voltage. See [inverter commissioning](/blog/solar-inverter-commissioning-in-india/).
+> - **DISCOM approval and net meter record**, establishing legal connection. The [DISCOM glossary entry](/glossary/discom/) explains the chain.
+> - **Dated photographs** from several angles, plus close-ups of the SPD, isolators, and earthing pit.
+> - **Maintenance records** and cleaning logs. See the [pre-monsoon inspection checklist](/blog/pre-monsoon-solar-inspection-checklist/).
 
 Then, after a loss, work in this order.
 
+<!-- steps -->
 1. Notify the insurer the day you discover the loss, by phone and in writing.
 2. File a police FIR for theft or malicious damage before touching the site.
 3. Photograph everything before clearing anything.

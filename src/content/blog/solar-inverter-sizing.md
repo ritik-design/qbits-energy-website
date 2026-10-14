@@ -4,7 +4,7 @@ excerpt: Panel kWp does not pick your inverter. The four checks that actually de
 description: How to size a solar inverter in India. AC output, permitted DC power, temperature corrected string voltage and current, plus separate battery sizing.
 category: Guide
 date: 2026-03-20
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: 9 min
 image: "/og/blog-solar-inverter-sizing.webp"
 author: Nirav Dhanani
@@ -34,8 +34,7 @@ relatedSlugs:
 - battery-sizing-hybrid-solar
 ---
 
-> **Quick answers**
->
+> [!KEYTAKEAWAYS]
 > - Array kWp and inverter kW are different quantities on different sides of the system.
 > - The coldest morning sets the maximum string voltage, not the hottest afternoon.
 > - Per tracker current limits constrain string layout independently of total power.
@@ -46,6 +45,8 @@ relatedSlugs:
 **Short version.** Size from four inputs: the AC output the site needs, the DC power the model permits, the temperature corrected string voltage and current, and any backup load. A rule matching inverter kW to panel kWp skips the three checks that actually cause failures.
 
 ## The four checks
+
+Table: The four inverter sizing checks, the inputs each needs and what each settles
 
 | Check | Input needed | What it settles |
 | --- | --- | --- |
@@ -68,9 +69,14 @@ What the kWp figure cannot tell you is how those modules are wired, what voltage
 
 This is the check that protects the equipment, and the one most often skipped.
 
-Module open circuit voltage rises as temperature falls. The highest DC voltage an inverter will ever see occurs at first light on the coldest day of the year, when the array is cold and suddenly illuminated. If the calculated cold Voc for a string exceeds the inverter's maximum DC voltage, the design is unsafe regardless of how well it behaves in summer.
+Module open circuit voltage rises as temperature falls. The highest DC voltage an inverter will ever see occurs at first light on the coldest day of the year, when the array is cold and suddenly illuminated. 
+> [!CAUTION] Cold Voc is the safety limit
+> If the calculated cold Voc for a string exceeds the inverter's maximum DC voltage, the design is unsafe regardless of how well it behaves in summer.
 
 The calculation needs the module's open circuit voltage, its temperature coefficient for voltage, and the lowest expected module temperature at the site. Multiply the per module corrected voltage by the number of modules in series and compare with the inverter limit, keeping margin.
+
+> [!FORMULA]
+> String cold voltage = corrected module Voc at the lowest site temperature × modules in series, which must stay below the inverter's maximum DC voltage
 
 The opposite bound matters too. On the hottest afternoon, string voltage falls. It must stay above the bottom of the MPPT operating window, or the tracker cannot hold the string at its maximum power point and output suffers.
 
@@ -85,6 +91,16 @@ This limit is independent of power. A design can sit comfortably within the inve
 ## A worked check against a real datasheet
 
 The [Qbits QB-4/5/6KTLD datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf) specifies **two MPPTs**, **20 A maximum input current per tracker**, **550 V maximum DC voltage** and an **80 to 550 V MPPT operating range**. Its **50 V start up voltage** is a separate figure describing when the inverter begins operating, not a design limit.
+
+Table: QB-4/5/6KTLD datasheet limits to check a string design against
+
+| Datasheet figure | Value | Design question it answers |
+| --- | --- | --- |
+| MPPT trackers | 2 | Does the roof layout justify using both trackers independently? |
+| Maximum input current per tracker | 20 A | Is string current within the limit on each tracker? |
+| Maximum DC voltage | 550 V | How many modules fit in series at cold Voc? |
+| MPPT operating range | 80 to 550 V | Does the string stay above 80 V at hot Vmp? |
+| Start up voltage | 50 V | Not a design limit; it describes when the inverter begins operating |
 
 Against those numbers, the questions become concrete. What is cold Voc per module at your lowest expected temperature, and how many can go in series before approaching 550 V. What is hot Vmp per module, and does the string stay above 80 V. What is string current against the 20 A per tracker limit. And does the roof layout justify using both trackers independently.
 
@@ -106,7 +122,8 @@ The array can be perfect and still fail here.
 
 List the simultaneous loads or the planned grid connected output, and check the sanctioned connection on the electricity bill. Your permitted capacity is usually tied to sanctioned load rather than roof area, and a three phase inverter requires a three phase service. The [single versus three phase guide](/blog/single-vs-3-phase-inverter/) covers the consequences of getting this wrong.
 
-A rooftop kWp figure is not permission to install a particular AC capacity or to export. That comes from the DISCOM.
+> [!IMPORTANT] kWp is not permission
+> A rooftop kWp figure is not permission to install a particular AC capacity or to export. That comes from the DISCOM.
 
 ## Battery sizing is a separate calculation
 

@@ -41,7 +41,7 @@ The differences are structural. At 10 kW you are almost always three-phase, your
 
 Sibling guides cover [3 kW](/blog/best-3kw-solar-inverter-india-2026/) and [5 kW](/blog/best-5kw-solar-inverter-india-2026/) systems, and a separate guide ranks [inverter brands](/blog/top-10-solar-inverter-brands-india-2026/). This one stays on the 10 kW class.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Three-phase is the norm at 10 kW, and most DISCOMs will not sanction a 10 kW single-phase export connection.
 > - An 11.9 kWp array at 4.5 peak sun hours and a 0.78 performance ratio yields about 41.8 kWh per day.
 > - Per-MPPT current, not rated power, is the binding limit. A 700 W class module draws about 18.3 A short-circuit, so two paralleled strings exceed a 20 A input.
@@ -112,9 +112,11 @@ The lines compared are phase and rated output, tracker count and strings per tra
 
 ## Quick pick by use case
 
+Table: Quick pick by use case, filters not rankings
+
 | Use case | Candidates from this guide | What the datasheet shows |
 | --- | --- | --- |
-| Large home, three-phase, two roof planes | Qbits QB 10KTLC, Sungrow SG10RT, GoodWe GW10K-SDT-20, Growatt MOD 10KTL3-X | Each lists two trackers |
+| Large home, three-phase, two roof planes | GoodWe GW10K-SDT-20, Growatt MOD 10KTL3-X, Qbits QB 10KTLC, Sungrow SG10RT | Each lists two trackers |
 | Shop, clinic or shed with daytime load | Same four | Two trackers and three-phase output |
 | Outage cover on a three-phase supply | Qbits QBH 10KS48P3 | Battery port, 120 A to 250 A battery current across the family |
 | 700 W class modules at about 18 A short-circuit | Qbits QB 10KTLC, Sungrow SG10RT | 20 A per tracker and a 25 A first tracker printed |
@@ -127,16 +129,17 @@ These are filters, not rankings.
 
 Generation quoted without inputs is marketing. Here is the arithmetic with every input visible.
 
-Inputs for this worked example:
-
-- Array size: 17 modules at 700 W = 11.9 kWp
-- Inverter rating: 10 kW AC
-- Peak sun hours: 4.5 per day (mid-range Indian value; verify state irradiation data)
-- Performance ratio: 0.78 (temperature, soiling, cabling, and conversion loss)
-
-Daily output = 11.9 kWp x 4.5 peak sun hours x 0.78 = **41.8 kWh per day**.
-
-Annual output = 41.8 x 365 = about **15,250 kWh per year**, or roughly 1,270 kWh per month.
+> [!EXAMPLE] Generation of an 11.9 kWp array
+> Inputs for this worked example:
+>
+> - Array size: 17 modules at 700 W = 11.9 kWp
+> - Inverter rating: 10 kW AC
+> - Peak sun hours: 4.5 per day (mid-range Indian value; verify state irradiation data)
+> - Performance ratio: 0.78 (temperature, soiling, cabling, and conversion loss)
+>
+> Daily output = 11.9 kWp x 4.5 peak sun hours x 0.78 = **41.8 kWh per day**.
+>
+> Annual output = 41.8 x 365 = about **15,250 kWh per year**, or roughly 1,270 kWh per month.
 
 Now a conservative case. At 4.0 peak sun hours and a 0.75 performance ratio, the same array gives 35.7 kWh per day, about 13,030 kWh per year. That 17% spread comes from site conditions, not from the inverter badge.
 
@@ -171,7 +174,8 @@ Worked sizing example, using a 700 W class module with 48.58 V open-circuit, 18.
 5. Hot-end check: at 65 °C cell temperature the maximum power voltage falls roughly 10%, to about 36.3 V. Nine modules give 326 V, above the 180 V MPPT floor and the 180 V starting voltage.
 6. **Current check: string current is 18.31 A. One string per MPPT fits a 20 A class input with almost no headroom. Two strings paralleled on one MPPT give 36.6 A and do not fit.**
 
-Step 6 surprises people. A 700 W class module draws close to twice the current of the 330 W modules that shaped older design habits. A dual-MPPT inverter with a 20 A per-MPPT limit therefore accepts two strings in total, not four.
+> [!IMPORTANT] Per-MPPT current is the limit that bites
+> Step 6 surprises people. A 700 W class module draws close to twice the current of the 330 W modules that shaped older design habits. A dual-MPPT inverter with a 20 A per-MPPT limit therefore accepts two strings in total, not four.
 
 Qbits publishes a 20 A maximum DC input on its single-phase KTLS and KTLD families. The three-phase QB 5/6/8/10/12/15/17KTLC family lists 20 A per MPPT on the 6, 8, 10 and 12KTLC, and 20 A and 30 A on the 15 and 17KTLC, so confirm the line for your exact model on the QB 6.0 to 17.0 kW datasheet. Run your own module and minimum design temperature through the [string sizing calculator](/string-sizing-calculator/), which carries published Adani, Waaree, and Vikram datasheet values.
 
@@ -221,6 +225,8 @@ From the [Sungrow SG5.0/6.0/7.0/8.0/10/12RT datasheet](https://www.phaos.net/wp-
 
 ## Side-by-side: five 10 kW inverters
 
+Table: Five 10 kW inverters side by side, from each manufacturer's datasheet read in October 2026 (alphabetical by maker)
+
 | Model | Type | MPPT window | Max DC | Input current | Max efficiency | IP |
 | --- | --- | --- | --- | --- | --- | --- |
 | GoodWe GW10K-SDT-20 | On-grid | 140 to 950 V | 1100 V | 15 A per MPPT | 98.3% | IP65 |
@@ -261,6 +267,8 @@ The rule is simple. Split the capacity when the roof has more than two usable or
 
 Answer capsule: five common situations map onto five different answers. Identify yours before shortlisting any model. The situation eliminates most of the market in one step, and saves you comparing specifications that were never going to matter.
 
+Table: Fit test, which 10 kW buyer you are and what to specify
+
 | Your situation | What to specify | Why |
 | --- | --- | --- |
 | Large home, three-phase service, one or two roof planes | Three-phase on-grid, 2 MPPTs | The standard configuration at this size |
@@ -274,6 +282,8 @@ Browse configurations on the [on-grid inverter range](/on-grid-inverter/) once y
 ## Single-phase or three-phase at 10 kW: decision guide
 
 Answer capsule: phase follows the connection. Three-phase is the norm at 10 kW. Single-phase inverters exist in the lower sizes, and DISCOM limits on single-phase supply vary by state.
+
+Table: Single-phase or three-phase at 10 kW, decision guide
 
 | Question | Answer |
 | --- | --- |
@@ -301,6 +311,7 @@ The slabs are in the [PIB Cabinet release of 29 February 2024](https://www.pib.g
 
 Answer capsule: commissioning is where a correct specification becomes a working system. Most first-year underperformance at this size traces to installation shortcuts and configuration errors, not hardware defects. Run this list on the day, and insist the results are recorded in writing.
 
+<!-- steps -->
 1. Confirm the model number on the unit matches the quotation and the approved design.
 2. Verify phase rotation and that all three phases are present before switch-on.
 3. Check mounting: shaded, ventilated, vertical, and clear of west-wall heat.
@@ -312,7 +323,10 @@ Answer capsule: commissioning is where a correct specification becomes a working
 9. Test anti-islanding by opening the grid isolator and confirming shutdown.
 10. Record the firmware and grid code settings, register the warranty, and put the monitoring account in the owner's name that day.
 
-Check step 6 physically rather than trusting the drawing. A crew that parallels two roof planes onto one tracker undoes the reason you paid for two. The full sequence is in the [commissioning guide](/blog/solar-inverter-commissioning-in-india/).
+> [!TIP] Check step 6 physically
+> Check step 6 physically rather than trusting the drawing. A crew that parallels two roof planes onto one tracker undoes the reason you paid for two.
+
+The full sequence is in the [commissioning guide](/blog/solar-inverter-commissioning-in-india/).
 
 ## The Bottom Line
 

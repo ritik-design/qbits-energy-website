@@ -41,14 +41,11 @@ A solar inverter datasheet does not become a compliant BOQ merely because it is 
 
 Each record must point back to the exact model and document revision. If the offered model changes, the chain must be checked again. That is the practical difference between reading a datasheet and using one.
 
-> **Quick answers**
->
+> [!KEYTAKEAWAYS]
 > - Start with the exact model, document revision, and issue date.
-> - Treat maximum DC voltage, MPPT range, and start-up voltage as different limits.
-> - Run the string and current checks before writing the BOQ.
+> - Treat maximum DC voltage, MPPT range, and start-up voltage as different limits. Run the string and current checks before writing the BOQ.
 > - Name selected accessories. Never convert an optional feature into included scope.
-> - Answer each tender clause with an exact value and an evidence location.
-> - Use "clarification required" when the supporting document is silent.
+> - Answer each tender clause with an exact value and an evidence location. Use "clarification required" when the supporting document is silent.
 > - Check the datasheet, BOQ, quotation, and compliance matrix against each other before submission.
 
 **Short version.** Read the exact-model datasheet, extract only the values needed by the design and tender, complete the engineering checks, and then write the BOQ around the selected configuration. The final compliance matrix should show where every offered value came from. A family name, capacity label, or unchecked "complies" entry is not traceable evidence.
@@ -56,6 +53,8 @@ Each record must point back to the exact model and document revision. If the off
 ## Build the document register before reading specifications
 
 The first task is document control, not electrical calculation. Create a register for the files that govern the offer.
+
+Table: The document register: controlled records and the fields to capture
 
 | Controlled record | Minimum fields to capture | Why it matters |
 | --- | --- | --- |
@@ -80,7 +79,8 @@ Check all four locations:
 3. the proposed BOQ line; and
 4. the nameplate expected at delivery.
 
-The revision matters for the same reason. If a supplier replaces the datasheet during clarification, record the change and rerun every affected check. Do not combine values from two revisions into one offered specification.
+> [!IMPORTANT] One offered specification, one revision
+> The revision matters for the same reason. If a supplier replaces the datasheet during clarification, record the change and rerun every affected check. Do not combine values from two revisions into one offered specification.
 
 ## Read the three DC voltage figures separately
 
@@ -94,11 +94,8 @@ These three fields answer different engineering questions.
 
 Use project inputs rather than a universal module count:
 
-    Corrected string voltage =
-    module voltage at STC
-    x number of modules in series
-    x [1 + (temperature coefficient in %/degree C / 100)
-    x (design cell temperature - 25 degree C)]
+> [!FORMULA] Corrected string voltage
+> Corrected string voltage = module voltage at STC x number of modules in series x [1 + (temperature coefficient in %/degree C / 100) x (design cell temperature - 25 degree C)]
 
 Use module Voc and its voltage-temperature coefficient for the cold-voltage
 check. Use module Vmp and the corresponding coefficient for the hot operating
@@ -117,14 +114,13 @@ Voltage compliance does not prove current compliance. Record:
 - parallel strings assigned to each tracker; and
 - the design factor required by the project specification.
 
-Do not divide a family-level current value across trackers unless the datasheet explicitly defines it that way. "20/20 A", "40 A total", and "20 A per MPPT" are different statements.
+> [!TIP] Do not split a family-level current value
+> Do not divide a family-level current value across trackers unless the datasheet explicitly defines it that way. "20/20 A", "40 A total", and "20 A per MPPT" are different statements.
 
 For each tracker, record the current check explicitly:
 
-    Tracker design current =
-    module current
-    x parallel strings on that tracker
-    x the design factor required by the governing specification
+> [!FORMULA] Tracker design current
+> Tracker design current = module current x parallel strings on that tracker x the design factor required by the governing specification
 
 State whether the check uses operating current or short-circuit current. They
 answer different requirements.
@@ -132,6 +128,8 @@ answer different requirements.
 ## Work through one exact datasheet
 
 The current [QB 4/5/6 KTLD datasheet](/datasheets/products/QB_Data-Sheet_4.0-6.0-kw_2MPPT_1Phs.pdf) separates the QB-4KTLD, QB-5KTLD, and QB-6KTLD models. The table below uses only values printed in that file, checked on 14 October 2026.
+
+Table: QB 4/5/6 KTLD datasheet fields, published values and their engineering use (checked 14 October 2026)
 
 | Datasheet field | Published value | Engineering use |
 | --- | --- | --- |
@@ -159,6 +157,8 @@ The same model has a [product page](/our-products/QB-4-6KTLD/). Read the datashe
 
 Do not copy every row of the datasheet into the BOQ. First sort the values by what they control.
 
+Table: Sorting datasheet values into design input groups and project records
+
 | Input group | Examples | Resulting project record |
 | --- | --- | --- |
 | Array compatibility | Maximum DC voltage, MPPT window, current per tracker, input count | String schedule and calculation |
@@ -183,26 +183,28 @@ A useful inverter BOQ line answers six questions:
 
 For example, a working line might begin:
 
-    Solar string inverter, Qbits QB-5KTLD, 5,000 W rated AC output,
-    230 V single phase, two independent MPPTs, IP66, quantity [project value],
-    including [selected communication interface and project accessories].
-
-This is a drafting example, not a complete procurement specification. The bracketed items must be replaced with the actual project scope.
+> [!EXAMPLE] A drafting BOQ line
+> Solar string inverter, Qbits QB-5KTLD, 5,000 W rated AC output, 230 V single phase, two independent MPPTs, IP66, quantity [project value], including [selected communication interface and project accessories].
+>
+> This is a drafting example, not a complete procurement specification. The bracketed items must be replaced with the actual project scope.
 
 Check these accessory questions before issuing the BOQ:
 
-- Is the required Wi-Fi, RS485, GPRS, Ethernet, or other interface included in the quoted SKU?
-- Does the project require an external meter, current transformer, data logger, or export-control device?
-- Are DC connectors, communication cables, and termination hardware included or supplied elsewhere?
-- Are external DC and AC protection devices separate BOQ lines?
-- Does monitoring require an account, gateway, licence, or commissioning step?
-- Are the installation manual, drawings, certificates, and written warranty terms included in the document package?
+> [!CHECKLIST] Accessory questions before issuing the BOQ
+> - Is the required Wi-Fi, RS485, GPRS, Ethernet, or other interface included in the quoted SKU?
+> - Does the project require an external meter, current transformer, data logger, or export-control device?
+> - Are DC connectors, communication cables, and termination hardware included or supplied elsewhere?
+> - Are external DC and AC protection devices separate BOQ lines?
+> - Does monitoring require an account, gateway, licence, or commissioning step?
+> - Are the installation manual, drawings, certificates, and written warranty terms included in the document package?
 
 The datasheet may establish that an option exists. Only the quotation and agreed scope establish that it is included.
 
 ## Build the tender compliance matrix clause by clause
 
 Do not write "complies" against a section heading. Break each requirement into a row that can be verified.
+
+Table: Sample tender compliance matrix with offered value, evidence and status
 
 | Tender clause | Requirement | Offered value | Evidence | Status | Comment |
 | --- | --- | --- | --- | --- | --- |
@@ -269,7 +271,10 @@ For a hybrid inverter, add the battery and backup-side fields to the extraction 
 - parallel-operation rules; and
 - generator input or control requirements where applicable.
 
-The current [QBH 3 to 6 kW single-phase catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf) lists maximum battery charge and discharge current from 75 A to 120 A across its variants. The 120 A value does not describe the QBH-3KS48P, which lists 75 A. This is why a family maximum cannot be copied into every BOQ line. The [hybrid inverter page](/hybrid-inverter/) lists the QBH families so you can match the right catalogue to the right model, and the [on-grid inverter page](/on-grid-inverter/) does the same for the TLS, TLD and TLC families.
+The current [QBH 3 to 6 kW single-phase catalogue](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf) lists maximum battery charge and discharge current from 75 A to 120 A across its variants. The 120 A value does not describe the QBH-3KS48P, which lists 75 A. This is why a family maximum cannot be copied into every BOQ line.
+
+> [!CAUTION] A family maximum is not every model's value
+> The QBH 3 to 6 kW catalogue lists maximum battery charge and discharge current from 75 A to 120 A across its variants. The QBH-3KS48P lists 75 A, so the 120 A figure must not be copied into its BOQ line. The [hybrid inverter page](/hybrid-inverter/) lists the QBH families so you can match the right catalogue to the right model, and the [on-grid inverter page](/on-grid-inverter/) does the same for the TLS, TLD and TLC families.
 
 Battery compatibility also requires more than a voltage match. Obtain the current written compatibility evidence for the exact inverter, battery, firmware, and BMS combination.
 
@@ -286,6 +291,8 @@ Warranty scope also sits outside a headline specification. Qbits' public datashe
 ## Run the four-document consistency check
 
 Before submission, compare the datasheet, BOQ, supplier quotation, and compliance matrix side by side.
+
+Table: Four-document consistency check before submission
 
 | Final check | Pass condition |
 | --- | --- |

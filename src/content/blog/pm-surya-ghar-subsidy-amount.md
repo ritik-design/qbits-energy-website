@@ -4,7 +4,7 @@ excerpt: "PM Surya Ghar subsidy amount is ₹30,000 per kW for the first 2 kW an
 description: "PM Surya Ghar subsidy is ₹30,000 per kW for the first 2 kW and ₹18,000 for the third, capped at ₹78,000. Use this slab calculator to find your amount."
 category: "Policy"
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "22 min"
 image: "/og/blog-pm-surya-ghar-subsidy-amount.webp"
 author: "Akash Hirapara"
@@ -45,12 +45,11 @@ This post gives you the complete slab-by-slab subsidy calculator, a state-wise t
 
 The subsidy is disbursed as a one-time [direct benefit transfer](/glossary/net-metering/) into your Aadhaar-linked bank account after your [DISCOM](/glossary/discom/) verifies commissioning, it is not a discount at the point of purchase. Understanding that sequence matters enormously for cash-flow planning. The full five-step application process is covered in the [PM Surya Ghar Muft Bijli Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/); this post focuses exclusively on the rupee amounts, how they stack, and how to calculate your personal figure.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - The central subsidy is ₹30,000 per kW for the first 2 kW plus ₹18,000 for the third kW, a maximum of ₹78,000, capped at 3 kW regardless of actual system size.
 > - Group housing societies (RWA common-area systems) get ₹18,000 per kW, capped at ₹50,000 per dwelling unit, up to 500 kW per society.
 > - Gujarat, Maharashtra, Rajasthan, and Uttar Pradesh add state-level top-ups on top of the central amount, in some cases nearly doubling the combined subsidy.
 > - The subsidy is a post-installation reimbursement, not a point-of-sale discount, it lands in your bank account 30 to 90 days after DISCOM commissioning verification.
-
 > - The subsidy is tied to the electricity consumer number, one claim per connection, not one per property.
 
 ## PM Surya Ghar Subsidy Amount Slab Table: Every System Size Calculated
@@ -65,6 +64,8 @@ The central subsidy structure has two slabs defined by MNRE, applied on a per-ki
 
 The table below calculates the exact subsidy for every common residential system size, along with a net cost estimate based on 2026 market installation rates.
 
+Table: Central subsidy, gross cost, net cost and payback by residential system size (2026)
+
 | System Size | Central Subsidy | Typical Gross Cost (2026) | Net Cost After Subsidy | Approx. Payback |
 | --- | --- | --- | --- | --- |
 | 1 kW | ₹30,000 | ₹55,000–₹65,000 | ₹25,000–₹35,000 | 3–4 years |
@@ -78,6 +79,23 @@ The table below calculates the exact subsidy for every common residential system
 Cost ranges reflect 2026 benchmark data compiled by [JMK Research](https://jmkresearch.com/) and [Mercom India](https://www.mercomindia.com/) for the Indian residential solar market. Actual costs vary by state, panel brand, inverter specification, and mounting structure complexity.
 
 > **₹78,000.** The maximum central subsidy under PM Surya Ghar Muft Bijli Yojana for any residential system of 3 kW or above, paid directly to the buyer's Aadhaar-linked bank account after DISCOM commissioning verification. *Source - [MNRE PM Surya Ghar Portal](https://pmsuryaghar.gov.in/), 2026.*
+
+```chart
+type: bar
+title: Central PM Surya Ghar subsidy by system size
+unit: "₹"
+source: "MNRE PM Surya Ghar Muft Bijli Yojana central slabs (₹30,000 per kW for the first 2 kW, ₹18,000 for the third kW, capped at 3 kW), as cited in this article from the MNRE PM Surya Ghar Portal, 2026"
+sourceUrl: https://pmsuryaghar.gov.in/
+note: "The subsidy stops rising at 3 kW. Systems of 4 kW and above receive the same amount."
+data:
+  - { label: "1 kW", value: 30000 }
+  - { label: "2 kW", value: 60000 }
+  - { label: "3 kW", value: 78000 }
+  - { label: "4 kW", value: 78000 }
+  - { label: "5 kW", value: 78000 }
+  - { label: "6 kW", value: 78000 }
+  - { label: "10 kW", value: 78000 }
+```
 
 ### Why 3 kW Is the Economic Sweet Spot
 
@@ -103,6 +121,8 @@ When the entire society applies collectively for a common-area system (powering 
 
 A 100-unit housing society with 100 flats can claim up to ₹50,00,000 (₹50 lakh) in central subsidy for a system of up to 500 kW. The lower per-kW rate reflects that common-area systems typically export a large proportion of their generation (export at the DISCOM's feed-in tariff) rather than self-consuming at the full retail tariff, reducing the financial benefit relative to individual rooftop systems.
 
+Table: Central subsidy rules by applicant type
+
 | Applicant Type | Subsidy Rate | Cap Per Unit | System Size Limit |
 | --- | --- | --- | --- |
 | Individual homeowner | ₹30,000/kW (first 2 kW) + ₹18,000/kW (third kW) | ₹78,000 | No limit (subsidy capped at 3 kW) |
@@ -125,6 +145,8 @@ Most homeowners calculate only the central ₹78,000 and stop there. The full fi
 
 Applying all three layers, the effective net cost for a qualified Gujarat homeowner in the 30% tax bracket installing a 3 kW system at ₹1,60,000 gross drops to approximately ₹22,000–₹40,000, a payback period of well under 12 months when electricity savings begin.
 
+Table: The three subsidy layers for a 3 kW system and when each is paid
+
 | Subsidy Layer | Who Benefits | Amount (3 kW system) | Timing |
 | --- | --- | --- | --- |
 | Central Government | All eligible residential consumers | ₹78,000 | 30–90 days post-commissioning |
@@ -137,6 +159,11 @@ Applying all three layers, the effective net cost for a qualified Gujarat homeow
 ## State-by-State Top-Up Subsidy Table (June 2026 Data)
 
 The state-level subsidies are the most frequently updated and most frequently misquoted part of the PM Surya Ghar financial picture. The amounts below reflect published policy as of June 2026, always verify with your State Nodal Agency before finalising a project budget, as amounts change with annual budget allocations.
+
+> [!IMPORTANT] State top-ups are not automatic
+> Gujarat, Rajasthan and Tamil Nadu show ranges, Maharashtra's ₹45,000 applies only to EWS and LIG categories, and Delhi and West Bengal show no separate top-up in 2026. Confirm the figure with your State Nodal Agency before you build it into a budget.
+
+Table: State top-up subsidies for a 3 kW system and combined totals with the central subsidy (June 2026)
 
 | State | State Nodal Agency | Additional Subsidy (3 kW) | Eligibility Conditions | Combined Total (Central + State) |
 | --- | --- | --- | --- | --- |
@@ -161,13 +188,17 @@ The calculation is straightforward once you know the slabs. Work through these f
 
 Find the last 12 months of your electricity bills. Sum the units consumed and divide by 12 for your monthly average. Divide that monthly average by 120 (approximate units per kW per month in median Indian conditions) to get the kW capacity that offsets 100% of your consumption.
 
-**Example:** 480 units per month ÷ 120 = 4 kW needed for full offset.
+> [!EXAMPLE] Sizing from your bills
+> 480 units per month ÷ 120 = 4 kW needed for full offset.
 
 Round down to 3 kW if your roof area or sanctioned load constrains you, or if you prefer the faster payback of a smaller system with maximum subsidy efficiency.
 
 ### Step 2: Apply the Slab Formula to Your Chosen Capacity
 
 Use this formula:
+
+> [!FORMULA]
+> Central subsidy = (first 2 kW × ₹30,000) + (third kW × ₹18,000), capped at 3 kW
 
 - **1 kW:** 1 × ₹30,000 = **₹30,000**
 - **2 kW:** 2 × ₹30,000 = **₹60,000**
@@ -184,18 +215,21 @@ Look up your state in the table in the previous section. Add the confirmed state
 
 Subtract the combined subsidy from the vendor quote to get your net cost. Divide net cost by annual electricity bill savings to estimate [payback years](/glossary/payback-period/).
 
-**Example (Pune, 3 kW, no state top-up):**
-- Gross system cost: ₹1,60,000
-- Central subsidy: ₹78,000
-- Net cost: ₹82,000
-- Annual savings at ₹8/unit on 400 units/month: ₹38,400
-- Payback: ₹82,000 ÷ ₹38,400 = **2.1 years**
+> [!EXAMPLE] Pune, 3 kW, no state top-up
+> - Gross system cost: ₹1,60,000
+> - Central subsidy: ₹78,000
+> - Net cost: ₹82,000
+> - Annual savings at ₹8/unit on 400 units/month: ₹38,400
+> - Payback: ₹82,000 ÷ ₹38,400 = **2.1 years**
 
 For a more granular payback analysis factoring in net metering export credits, fixed charges, and tariff escalation over 25 years, the [PM Surya Ghar apply online guide](/blog/pm-surya-ghar-apply-online/) includes a worked financial model with state-specific tariff inputs. You can also [track exactly where your application sits](/blog/pm-surya-ghar-status-check/) at each stage between commissioning and the bank transfer, and EPC teams building the underlying system design often run the same 25-year cash flow at project level using [solar financial modeling software](https://surgepv.com/generation-financial-tool/).
 
 ## Common Errors That Reduce or Cancel Your PM Surya Ghar Subsidy Amount
 
 Errors in the application process are more common than DISCOM officers would prefer. The following mistakes are the ones most frequently cited in MNRE's own grievance data and in reporting by [Saur Energy](https://www.saurenergy.com/).
+
+> [!WARNING] Installing first can cancel the subsidy
+> Systems installed before DISCOM feasibility approval cannot be commissioned under the scheme, and the subsidy is denied with no recourse. Wait for the green "feasibility approved" status on the portal before your vendor touches the roof.
 
 - **Installing before DISCOM feasibility approval**: The DISCOM must approve your application before physical installation begins. Systems installed before approval cannot be commissioned under the scheme, and the subsidy is denied with no recourse. The portal must show green "feasibility approved" status before your vendor touches the roof.
 - **Wrong system size on the application versus actual installation**: If your application states 2 kW and you install 3 kW (or vice versa), the DISCOM commissioning report will not match the portal application. The discrepancy triggers a rejection or extended review. Always amend the application if the system size changes.
@@ -214,6 +248,8 @@ A bidirectional smart meter records both the power you import from the grid and 
 
 The financial arithmetic of net metering is straightforward:
 
+Table: Net metering outcome for a 3 kW system at three consumption levels
+
 | Scenario | Monthly Generation (3 kW, avg.) | Monthly Consumption | Net Bill Impact |
 | --- | --- | --- | --- |
 | Low consumption (200 units) | 390 units | 200 units | Credit of 190 units carries forward |
@@ -228,6 +264,8 @@ For a state-by-state breakdown of net metering tariffs, banking rules, and annua
 
 The central subsidy cap at 3 kW creates a natural decision point: install exactly 3 kW and maximise subsidy efficiency, or install a larger system to cover higher consumption and accept that the additional capacity is unsubsidised.
 
+Table: 3 kW versus 4 to 5 kW systems under the 3 kW subsidy cap
+
 | | 3 kW (Max Subsidy) | 4–5 kW (Beyond Subsidy Cap) |
 | --- | --- | --- |
 | **Central subsidy** | ₹78,000 | ₹78,000 (no increase) |
@@ -238,7 +276,8 @@ The central subsidy cap at 3 kW creates a natural decision point: install exactl
 | **Sanctioned load requirement** | 3 kW or above | 4–5 kW sanctioned load needed |
 | **Roof area needed** | 24–30 sq m shadow-free | 32–50 sq m shadow-free |
 
-**Recommendation:** If your average monthly consumption is under 400 units, install exactly 3 kW. The subsidy efficiency (₹26,000 per kW) is maximum, and payback is fastest. If your consumption is 400 to 600 units, a 4 to 5 kW system reduces your bill more completely, and the payback remains acceptable at 3 to 4 years even without additional central subsidy on the extra capacity.
+> [!TIP] Pick the size from your units per month
+> If your average monthly consumption is under 400 units, install exactly 3 kW. The subsidy efficiency (₹26,000 per kW) is maximum, and payback is fastest. If your consumption is 400 to 600 units, a 4 to 5 kW system reduces your bill more completely, and the payback remains acceptable at 3 to 4 years even without additional central subsidy on the extra capacity.
 
 For households consuming above 600 units per month (typically 3 to 5 BHK homes with multiple air conditioners) consider evaluating whether a 5 kW on-grid system or a smaller hybrid system with battery storage makes more sense. The [how to choose solar inverter for home India guide](/blog/how-to-choose-solar-inverter-for-home-india/) covers the full sizing decision including hybrid versus on-grid trade-offs, or run your own numbers through a solar cost and savings calculator before finalising system size.
 
@@ -276,6 +315,6 @@ For homeowners who are unsure whether their specific connection, roof, or consum
 
 ---
 
-The pm surya ghar subsidy amount calculation is not complex, but it rewards the homeowner who does it carefully before signing a vendor contract. Know your system size, apply the slab formula, stack your state top-up, verify ALMM compliance on every piece of equipment proposed, and budget for the post-installation reimbursement timing. Those five inputs give you the exact rupee figure that the scheme puts into your account, and the net cost number that determines how quickly your roof starts paying for itself.
+The pm surya ghar subsidy amount calculation is not complex, but it rewards the homeowner who does it carefully before signing a vendor contract. Know your system size, apply the slab formula, stack your state top-up, verify ALMM compliance of every module and cell proposed, and budget for the post-installation reimbursement timing. Those five inputs give you the exact rupee figure that the scheme puts into your account, and the net cost number that determines how quickly your roof starts paying for itself.
 
 The scheme runs to March 2027 under the current [Ministry of New and Renewable Energy](https://mnre.gov.in/) allocation. Every month of delay is a month of electricity bills that could have been offset. Calculate your number, verify your eligibility, and apply, the process, once understood, is manageable.

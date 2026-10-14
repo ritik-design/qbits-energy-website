@@ -46,7 +46,7 @@ This guide looks at eight Indian-market solar inverter routes: Havells, Luminous
 
 Qbits publishes this article and sells solar inverters. It is included under the same rules as every other brand, listed in alphabetical order and not ranked first. No brand here receives a score.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - An Indian company, an Indian brand and a Made in India product are not the same claim.
 > - Havells states that every component in its GREEHA Solar kit is manufactured in-house by Havells India Limited. Do not apply that claim to every Havells inverter without checking the quoted product.
 > - Luminous product pages name factory sites in Himachal Pradesh. Microtek mentions a plant in Baddi. UTL's datasheet lists plants in Parwanoo, Greater Noida and Bawal. A plant list for a company does not say where your exact model was built.
@@ -71,6 +71,8 @@ Two policy facts are worth knowing, because dealers often blur them.
 ## What makes a brand genuinely Indian, and what does not
 
 These phrases answer different questions:
+
+Table: Origin and ownership terms, what each tells you and what it does not
 
 | Term | What it tells you | What it does not tell you |
 | --- | --- | --- |
@@ -102,6 +104,8 @@ The broader [top solar inverter brands guide](/blog/top-10-solar-inverter-brands
 
 A quick reference for the company behind each brand, as stated on its own pages. "Plant" means a location named by the company in the cited document. A company-level plant says nothing about a particular model.
 
+Table: Company behind each brand as stated on its own pages, with named plants and published inverter range (read October 2026)
+
 | Brand | Legal entity named | Office or HQ city named | Plant locations named by the company | Solar inverter range published |
 | --- | --- | --- | --- | --- |
 | Havells | Havells India Ltd | Noida (corporate office) | 16 manufacturing units stated; no inverter plant location in the brochure | Enviro GTi grid-tie, 1 to 350 kW |
@@ -118,6 +122,8 @@ Sources: [Havells brochure](https://havells.com/media/wysiwyg/solar/Solar-GTi-In
 ## Comparison at a glance
 
 "Confirm per SKU" means the official pages do not state where every exact inverter model is made. It does not mean the product is imported.
+
+Table: Brands in alphabetical order with the evidence checked, exact-unit manufacturing position and conditional best fit
 
 | Brand route | Product evidence checked | Exact-unit manufacturing | Conditional best fit |
 | --- | --- | --- | --- |
@@ -198,6 +204,9 @@ The plant list does not settle the country of origin for every unit. The buyer s
 
 Waaree Energies Ltd. publishes an [inverter brochure](https://www.waaree.com/upload/media/inverter_brochure_1768999572.pdf) covering single-phase and three-phase string inverters from 0.7 kW to 350 kW. The brochure has a page titled "Inverters Manufactured in India", and a Waaree filing dated 21 January 2026 mentions 3.05 GW of inverter capacity at Sarodhi, Gujarat. The same brochure's 3 kW to 6 kW single-phase datasheet table, however, lists "Country of Manufacture: China".
 
+> [!EXAMPLE] Same brochure, two origins
+> Waaree's inverter brochure has a page titled "Inverters Manufactured in India". The same brochure's 3 kW to 6 kW single-phase datasheet table lists "Country of Manufacture: China".
+
 Both statements can be true of different product series or different dates. The point for a buyer is that the answer sits at model level. If you are quoted a Waaree inverter, ask for the exact model code, the nameplate manufacturer and the country-of-origin declaration for that unit.
 
 **Conditional verdict:** compare Waaree for a documented string inverter, with the origin check done per SKU. The brochure labels models by rating (for example "5000") without a longer code, so write the code on the quote.
@@ -218,6 +227,7 @@ Treat manufacturing location as one procurement field. It can affect supply-chai
 
 BIS registration is the Indian compliance document for the exact model, so check it yourself.
 
+<!-- steps -->
 1. **Get the model code and the R-number.** Ask for the BIS registration number (the "R-" number) and the licensee named for the exact model on the quote.
 2. **Match the standard.** For a grid-connected inverter, the record should map to IS 16221 (Part 2) for safety and IS 16169 for islanding prevention, per BIS's notified list. Brochures often print the standard mark for some families and only "IEC certified" for others, so ask for the record of the exact variant on your quote.
 3. **Look it up.** BIS's [Manak Online registration report](https://www.manakonline.in/MANAK/ApplicationLicenceRelatedrpt) has a field for the registration number and a search by Indian Standard. The BIS Care mobile app, listed on BIS's [apps page](https://www.bis.gov.in/bis-apps/), is another route.
@@ -230,11 +240,14 @@ If the seller cannot give a number or the record does not match, treat the compl
 
 MNRE's [Approved List of Models and Manufacturers page](https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/) publishes List-I for solar PV modules and List-II for solar PV cells. It is not a universal solar inverter list. Some vendor blogs claim List-II covers inverters, and that contradicts the MNRE page.
 
-An installer saying "the inverter is ALMM listed" should be able to identify the exact order and entry. Do not accept ALMM language as a substitute for the inverter's applicable compliance documents or your DISCOM's interconnection requirements.
+> [!WARNING] "ALMM-listed inverter" is not a valid claim
+> An installer saying "the inverter is ALMM listed" should be able to identify the exact order and entry. Do not accept ALMM language as a substitute for the inverter's applicable compliance documents or your DISCOM's interconnection requirements.
 
 The same caution applies to subsidy eligibility. A brand's nationality does not create approval. Scheme rules, the registered-vendor route, module and cell requirements, technical feasibility and DISCOM verification all matter, and they change by date and jurisdiction. See the [PM Surya Ghar subsidy guide](/blog/pm-surya-ghar-subsidy-amount/).
 
 ## Indian brands versus imported brands: questions, not slogans
+
+Table: Questions to ask about any inverter brand, Indian or imported, and how to get each answer
 
 | Question | Why it matters | How to answer it |
 | --- | --- | --- |
@@ -262,6 +275,8 @@ For EPC or bulk procurement, this homeowner comparison is too narrow. The [solar
 
 Brand choice comes after size. A PIB release dated 5 December 2024 on the [PM Surya Ghar scheme](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2081250) gives this guide to suitable capacity by monthly consumption:
 
+Table: Suitable rooftop capacity by average monthly consumption, PIB release of 5 December 2024
+
 | Average monthly units | Suitable rooftop capacity (PIB, Dec 2024) |
 | --- | --- |
 | 0 to 150 | 1 to 2 kW |
@@ -283,16 +298,17 @@ This is a scheme planning guide, not a design. The final size depends on roof ar
 
 Put two exact models side by side and complete every field:
 
-1. Full model code and operating type
-2. Phase, rated output and backup output if applicable
-3. PV input current, voltage window and MPPT layout
-4. Battery chemistry, voltage and approved models if applicable
-5. Legal manufacturer or importer on the nameplate
-6. Invoice entity and country of origin
-7. Exact-model compliance documents, including the BIS R-number
-8. Written warranty issuer, term, remedy and exclusions
-9. Named service contact for your PIN code
-10. Monitoring hardware, account ownership and data terms
+> [!CHECKLIST] Fields to complete for each model
+> - Full model code and operating type
+> - Phase, rated output and backup output if applicable
+> - PV input current, voltage window and MPPT layout
+> - Battery chemistry, voltage and approved models if applicable
+> - Legal manufacturer or importer on the nameplate
+> - Invoice entity and country of origin
+> - Exact-model compliance documents, including the BIS R-number
+> - Written warranty issuer, term, remedy and exclusions
+> - Named service contact for your PIN code
+> - Monitoring hardware, account ownership and data terms
 
 Leave a blank as "unknown". Do not let the salesperson fill it with a brand-wide promise.
 

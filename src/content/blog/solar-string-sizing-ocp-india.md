@@ -4,7 +4,7 @@ excerpt: "Size a PV string from the exact module, inverter and site-temperature 
 description: "Use a solar string sizing worksheet to check cold Voc, hot Vmp, input current and MPPT limits from exact module and inverter documents."
 category: "Technology"
 date: 2026-06-05
-updatedDate: 2026-09-23
+updatedDate: 2026-10-14
 readTime: "11 min"
 image: "/og/blog-solar-string-sizing-ocp-india.webp"
 author: "Keyur Rakholiya"
@@ -32,11 +32,22 @@ featured: false
 
 This guide covers the calculation structure. It does not prescribe a universal safety factor, fuse rule or Indian temperature value because those inputs depend on the controlling documents and project requirements.
 
+> [!KEYTAKEAWAYS]
+> - String sizing checks that a series and parallel module arrangement stays within the inverter's voltage, current and MPPT limits across the design temperatures.
+> - Three separate voltage and current checks apply: cold open-circuit voltage against the absolute DC limit, hot operating voltage against the MPPT window, and current per input and per MPPT.
+> - Use the exact module and inverter documents. A brand or family name is not enough, because closely related variants can have different limits.
+> - Do not use an assumed "India uplift" or an unexplained fixed multiplier; the design temperatures must come from an approved project basis.
+> - For the Qbits QB-4/5/6KTLD family the published fields are two MPPTs, 550 V maximum DC, an 80-550 V MPPT range and 20 A per MPPT. They do not give a panel count without module and site data.
+
+
 ## Which documents and inputs are needed first?
 
 **Collect the exact module datasheet, inverter datasheet and manual, approved design temperatures, array layout and applicable protection requirements before calculating.** Record document revisions and units. Closely related equipment variants can have different voltage, current, connector and MPPT limits, so a brand or family name is insufficient.
 
 Use this input sheet:
+
+Table: Inputs to collect before any string-sizing calculation
+
 
 | Input | Symbol | Unit | Source |
 | --- | --- | --- | --- |
@@ -59,9 +70,10 @@ Convert percentage coefficients to fractional form before using them in a formul
 
 For a coefficient expressed as a fraction per degree Celsius:
 
-`corrected module Voc = Voc at reference conditions × [1 + βVoc × (Tmin - Tref)]`
-
-`cold string Voc = corrected module Voc × modules in series`
+> [!FORMULA] Cold string Voc
+> corrected module Voc = Voc at reference conditions × [1 + βVoc × (Tmin - Tref)]
+>
+> cold string Voc = corrected module Voc × modules in series
 
 Because many module Voc coefficients are negative, a minimum temperature below the reference temperature normally raises the calculated Voc. The formula still needs the module maker's exact coefficient and the project's approved cell-temperature basis.
 
@@ -73,9 +85,10 @@ Do not use an assumed “India uplift.” A hill site, desert site and coastal s
 
 The worksheet structure is:
 
-`corrected module Vmp = Vmp at reference conditions × [1 + βVmp × (Tmax - Tref)]`
-
-`hot string Vmp = corrected module Vmp × modules in series`
+> [!FORMULA] Hot string Vmp
+> corrected module Vmp = Vmp at reference conditions × [1 + βVmp × (Tmax - Tref)]
+>
+> hot string Vmp = corrected module Vmp × modules in series
 
 Some inverter documents qualify the MPPT window by output level or input condition. Use the curve or note that applies to the proposed model rather than treating one printed range as a promise of full power everywhere within it.
 
@@ -99,6 +112,9 @@ A connector count does not establish the number of independent trackers. The [si
 **A model-specific screen begins with published inverter fields, then stops where module or site inputs are missing.** For the Qbits QB-4/5/6KTLD family, the current public datasheet lists two MPPTs, 550 V maximum DC, an 80–550 V MPPT range and 20 A maximum input current per MPPT.
 
 Those fields do not produce a valid panel count by themselves. Complete this model screen with the proposed module and site data:
+
+Table: Published QB-4/5/6KTLD fields and the project inputs still missing for each check
+
 
 | Check | Published QB-4/5/6KTLD field | Missing project input | Status |
 | --- | --- | --- | --- |

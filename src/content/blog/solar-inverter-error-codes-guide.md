@@ -36,7 +36,7 @@ relatedSlugs:
 - solar-inverter-wifi-not-connecting-fix
 - inverter-overheating
 ---
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - Code numbers are manufacturer specific. F01 is not a standard meaning, and the same number can differ between two models of one brand.
 > - Work by symptom group until you have the fault list from the manual for your exact model and firmware.
@@ -62,6 +62,8 @@ The table below is taken from the fault lists in two manuals, not from memory or
 - **Growatt:** MIN 7000TL-X2 to MIN 10000TL-X2 Installation and Operation Manual, document GR-UM-292-A-00, section 11 (system faults, warnings, inverter faults). [Growatt manual (PDF)](https://latam.growatt.com/upload/file/MIN_7000-10000TL-X2_Manual_de_usuario_MX.pdf){target="_blank" rel="noopener"}.
 - **Solis:** Solis 4G Single Phase Inverter Installation and Operation Manual, version 1.8, Table 8.1. [Solis 4G manual (PDF)](https://midsummerwholesale.co.uk/pdfs/solis-1p4g-2.5-6k-manual.pdf){target="_blank" rel="noopener"}.
 
+Table: The same fault categories as labelled in two manufacturers' manuals (Growatt MIN 7000 to 10000TL-X2 and Solis 4G single-phase)
+
 | Fault category | Growatt MIN 7000 to 10000TL-X2 | Solis 4G single-phase |
 | --- | --- | --- |
 | Grid voltage out of range | Error 300, "AC V Outrange" | OV-G-V01 to 04 (over), UN-G-V01 to 02 (under) |
@@ -84,6 +86,7 @@ Treat the table as an example of a method: find your own manual, find the catego
 
 The public Qbits datasheets are specification sheets. A fault code table does not appear in the datasheets or the product catalogue, and this guide does not invent one. The datasheets for the TLS, TLD and TLC on-grid families list an LED indicator display with an optional LCD, and Wi-Fi communication with optional RS-485 or GPRS, according to the Qbits product specification. Fault meanings for your exact model and firmware come from the manual that ships with it.
 
+<!-- steps -->
 1. Find the model name and serial number on the label.
 2. Download the model's datasheet from the [datasheet library](/download-datasheets/) to confirm you have the right model.
 3. Raise a request on the [Qbits support helpdesk](https://support.qbitsenergy.com/helpdesk/qbits-service-620){target="_blank" rel="noopener"} with the model, serial number, location and the fault as displayed, and ask for the fault code manual for that model.
@@ -95,18 +98,21 @@ The on-grid families are on the [on-grid inverter page](/on-grid-inverter/) and 
 
 Two minutes here saves a repeat visit. Both manuals above ask for the same kind of information before you contact support. The Growatt manual lists serial number, model, the error message, grid voltage, DC input voltage, whether the failure can be reproduced, whether it happened before, and the ambient conditions. The Solis manual asks for the serial number, the dealer, the installation date, the description of the problem including LED status, the array configuration and your contact details.
 
-1. **Photograph the display** showing the full message, not only the code.
-2. **Photograph the model and serial label** on the enclosure.
-3. **Note the exact time** and what the weather was doing.
-4. **Check the event history** in the app or on the display if you have owner access, and note whether this is the first occurrence.
-5. **Note whether generation continues,** is reduced, or has stopped entirely.
-6. **Note the array layout** if you know it: panels per string and number of strings.
+> [!CHECKLIST] Record this before you call anyone
+> - **Photograph the display** showing the full message, not only the code.
+> - **Photograph the model and serial label** on the enclosure.
+> - **Note the exact time** and what the weather was doing.
+> - **Check the event history** in the app or on the display if you have owner access, and note whether this is the first occurrence.
+> - **Note whether generation continues,** is reduced, or has stopped entirely.
+> - **Note the array layout** if you know it: panels per string and number of strings.
 
 A code with a timestamp and conditions is diagnosable. A remembered code number is not.
 
 ## Symptom groups and safe first checks
 
 These are groups, not translations of any brand's numbering.
+
+Table: Symptom groups, the safe first check for each, and when to stop and call
 
 | What you see | Safe first check | When to stop and call |
 | --- | --- | --- |
@@ -129,7 +135,10 @@ That last mechanism is worth understanding. To export, the inverter must sit sli
 
 The useful diagnostic is a comparison of measurements at the inverter and at the connection point, made by a qualified installer. Where the network itself is out of range, the utility is responsible. If your inverter trips many times a day, keep the timestamps and displayed voltages and send them to the installer and the DISCOM.
 
-What you must not do is raise the protection threshold yourself to keep the unit online. Those limits are part of the approved configuration under the utility's connection conditions. Changing them can breach the conditions as well as remove a protection. This site does not give numeric trip thresholds, because they depend on the grid code the inverter is set to and on the DISCOM's conditions. For the standards behind them, see the [solar inverter regulations guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/).
+> [!WARNING] Do not raise the grid protection limits yourself
+> What you must not do is raise the protection threshold yourself to keep the unit online. Those limits are part of the approved configuration under the utility's connection conditions. Changing them can breach the conditions as well as remove a protection.
+
+This site does not give numeric trip thresholds, because they depend on the grid code the inverter is set to and on the DISCOM's conditions. For the standards behind them, see the [solar inverter regulations guide](/blog/solar-inverter-regulations-india-2026-bis-iec-compliance/).
 
 For a displayed low AC message, the [low output guide](/blog/solar-inverter-low-output-causes-india/) covers the difference between a grid-side voltage problem and weak PV generation. If the unit keeps stopping and restarting, [solar inverter keeps switching off](/blog/solar-inverter-keeps-switching-off-fix/) lines up the voltage, thermal, anti-islanding and overload causes. Anti-islanding trips are normal when the grid fails. The [anti-islanding guide](/blog/anti-islanding-protection-solar-inverters/) explains why.
 
@@ -141,7 +150,8 @@ This needs the installer to compare the as-built array against the inverter's ma
 
 A low DC or low-voltage message at sunrise, sunset or under heavy cloud is normal. If it appears in clear midday sun, suspect something on the array side: a partly shaded or dirty string, a loose connector or a tripped string fuse. A monitoring app that shows one MPPT input at near-zero current in good light points to that string. Check the app before going near the roof.
 
-Do not unplug rooftop PV connectors or open a DC enclosure to investigate. Switching off the AC side does not make illuminated PV conductors safe, and DC arcing behaves differently from AC.
+> [!CAUTION] The array stays live with the AC switch off
+> Do not unplug rooftop PV connectors or open a DC enclosure to investigate. Switching off the AC side does not make illuminated PV conductors safe, and DC arcing behaves differently from AC.
 
 ## Isolation, residual current and arc faults
 
@@ -186,6 +196,8 @@ Send the service team the model and serial number, the full fault text, event ti
 For a Qbits inverter, raise the request on the [Qbits support helpdesk](https://support.qbitsenergy.com/helpdesk/qbits-service-620){target="_blank" rel="noopener"} and use the [authorized service partners](/authorized-service-partners/) directory. Whether a repair or replacement is covered depends on the written warranty for your exact model, so read the [warranty claim guide](/blog/solar-inverter-warranty-claim/) before you agree to work.
 
 ## Who handles which category
+
+Table: Who handles which fault category, owner versus installer or service team
 
 | Category | Owner can | Installer or service should |
 | --- | --- | --- |

@@ -4,7 +4,7 @@ excerpt: "MPPT kya hota hai? Solar panel की I-V curve, maximum power point, 
 description: "MPPT ka matlab, panel ki I-V curve, maximum power point kaise shift hota hai, spec sheet ka MPPT voltage window, aur ghar ke liye kitne MPPT chahiye - simple Hindi guide."
 category: "Technology"
 date: 2026-08-02
-updatedDate: 2026-08-02
+updatedDate: 2026-10-14
 readTime: "12 min"
 image: "/og/blog-mppt-kya-hota-hai.webp"
 author: "Keyur Rakholiya"
@@ -37,7 +37,7 @@ language: hi
 
 Solar quotation में एक line लगभग हमेशा होती है: "dual MPPT inverter"। ज़्यादातर घर वाले उसे पढ़कर सिर हिला देते हैं और आगे बढ़ जाते हैं। लेकिन MPPT ही तय करता है कि आपकी छत के panels अपनी rated capacity का कितना हिस्सा सच में बिजली में बदल पाएंगे। यह guide MPPT को शुरू से समझाती है, बिना formula की भरमार के। Panel की power curve, maximum power point, धूप और गर्मी के साथ उसका हिलना, tracking algorithm, spec sheet का voltage window, और आपकी छत के लिए कितने MPPT चाहिए। अंत तक आप किसी भी inverter datasheet का MPPT section खुद पढ़ पाएंगे।
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - MPPT का मतलब Maximum Power Point Tracking, यह inverter के अंदर का वह हिस्सा है जो panel को उसके सबसे productive voltage पर चलाता है।
 > - Panel की I-V curve पर सिर्फ एक point ऐसा होता है जहाँ voltage × current सबसे ज़्यादा होता है, बाकी हर point पर energy बर्बाद होती है।
 > - धूप और temperature बदलने से यह point दिनभर हिलता रहता है, गर्म दोपहर में Vmp rating से 10 से 12 percent तक नीचे चला जाता है।
@@ -62,6 +62,9 @@ Panel का behaviour उस पर लगे load पर depend करता �
 तो दोनों सिरों पर power zero है। बीच में कहीं वह sweet spot है जहाँ voltage और current का गुणा सबसे बड़ा होता है। वही **maximum power point** है, और उस point की voltage को Vmp, current को Imp कहते हैं।
 
 एक typical 550 W panel के numbers।
+
+Table: Typical 550 W panel ke electrical parameters (datasheet range)
+
 
 | Parameter | Typical value | मतलब |
 | --- | --- | --- |
@@ -104,8 +107,9 @@ Voltage पर असर कम पड़ता है, Vmp शायद 5 स�
 
 Rating 25 °C cell temperature पर होती है। लेकिन Rajasthan या Gujarat की मई की दोपहर में panel की सतह 60 से 70 °C तक पहुँच जाती है, यानी rating से 35 से 45 °C ज़्यादा।
 
-मोटा हिसाब, 43 V Vmp वाला panel, 0.3 percent per °C, 40 °C rise:
-43 × 0.3% × 40 = लगभग 5.2 V की गिरावट। Vmp अब लगभग 37.8 V।
+> [!EXAMPLE] Garmi mein Vmp kitna girta hai
+> मोटा हिसाब, 43 V Vmp वाला panel, 0.3 percent per °C, 40 °C rise:
+> 43 × 0.3% × 40 = लगभग 5.2 V की गिरावट। Vmp अब लगभग 37.8 V।
 
 ठंडी सुबह में उल्टा होता है, Voc rating से ऊपर चली जाती है। यही वह moment है जिसके लिए string design में margin रखा जाता है। कुल मिलाकर, maximum power point एक ही दिन में लगातार घूमता रहता है और tracker का काम उसका पीछा करना है।
 
@@ -115,6 +119,7 @@ Rating 25 °C cell temperature पर होती है। लेकिन Raj
 
 हर कुछ milliseconds में inverter यह चार कदम दोहराता है।
 
+<!-- steps -->
 1. Panel की मौजूदा voltage और current माप लो, power निकाल लो।
 2. Voltage को थोड़ा सा बदल दो, मान लीजिए 0.5 V ऊपर।
 3. दोबारा power मापो।
@@ -128,6 +133,9 @@ Datasheet पर इसे **MPPT tracking efficiency** के नाम से 
 
 यहीं ज़्यादातर घर वाले उलझते हैं। किसी भी on-grid inverter की datasheet पर ये numbers पास-पास लिखे होते हैं।
 
+Table: On-grid inverter datasheet par MPPT se jude voltage specs aur unka matlab
+
+
 | Spec line | Typical value | असल मतलब |
 | --- | --- | --- |
 | Max DC input voltage | 550 V | Hard limit, इससे ऊपर गया तो inverter damage |
@@ -139,9 +147,11 @@ String design का पूरा खेल इन्हीं numbers के �
 
 बहुत कम panels series में लगाए, तो सुबह-शाम string voltage startup voltage से नीचे चली जाएगी और inverter देर से चालू होकर जल्दी बंद हो जाएगा। दिन के दोनों सिरों की generation कट जाती है।
 
-बहुत ज़्यादा panels series में लगा दिए, तो ठंडी सुबह में Voc बढ़कर max DC input voltage पार कर सकती है। यह warranty-void करने वाली गलती है।
+> [!WARNING] Cold-morning Voc aur max DC input voltage
+> बहुत ज़्यादा panels series में लगा दिए, तो ठंडी सुबह में Voc बढ़कर max DC input voltage पार कर सकती है। यह warranty-void करने वाली गलती है।
 
-Practical rule यही है कि cold-morning Voc निकालकर 20 से 25 percent margin रखा जाए। यह खुद check करना हो तो [string sizing calculator](/string-sizing-calculator/) से numbers निकाल लीजिए, पूरी method [solar inverter sizing guide](/blog/solar-inverter-sizing/) में है।
+> [!TIP] String voltage margin ka rule
+> Practical rule यही है कि cold-morning Voc निकालकर 20 से 25 percent margin रखा जाए। यह खुद check करना हो तो [string sizing calculator](/string-sizing-calculator/) से numbers निकाल लीजिए, पूरी method [solar inverter sizing guide](/blog/solar-inverter-sizing/) में है।
 
 <div class="inline-cta">
 <h3>String Voltage Khud Verify Kar Lein</h3>
@@ -155,6 +165,9 @@ Practical rule यही है कि cold-morning Voc निकालकर 20
 एक MPPT एक समय पर सिर्फ एक voltage set कर सकता है, यानी उससे जुड़े सारे panels एक ही operating condition पर चलते हैं। सारे panels एक जैसी धूप में हैं तो कोई दिक्कत नहीं। लेकिन आधे panels पूरब और आधे पश्चिम देख रहे हों, तो सुबह पूरब वाले 80 percent पर होंगे और पश्चिम वाले 30 percent पर, और एक ही voltage दोनों के लिए compromise बनेगी।
 
 नीचे एक practical table है, roof situation के हिसाब से।
+
+Table: Roof situation ke hisaab se MPPT count
+
 
 | Roof situation | Recommended MPPT count | क्यों |
 | --- | --- | --- |
@@ -203,7 +216,8 @@ Shading से निपटने के तीन तरीके, priority ord
 2. **String layout बदलिए।** छाया वाले panels एक ही string में रखिए और अलग MPPT पर डालिए, ताकि साफ़ panels उनकी वजह से न पिटें।
 3. **Global scan वाला inverter लीजिए।** जब shading हटाई नहीं जा सकती, यह feature datasheet पर check कीजिए।
 
-> **ज़्यादातर लोग यहीं गलती करते हैं।** MPPT count बढ़ाना shading का इलाज नहीं है, वह सिर्फ नुकसान को अलग-थलग करता है। छाया वाला panel छाया में ही रहेगा। पहले shading हटाने की कोशिश कीजिए, फिर design से manage कीजिए।
+> [!IMPORTANT] ज़्यादातर लोग यहीं गलती करते हैं
+> MPPT count बढ़ाना shading का इलाज नहीं है, वह सिर्फ नुकसान को अलग-थलग करता है। छाया वाला panel छाया में ही रहेगा। पहले shading हटाने की कोशिश कीजिए, फिर design से manage कीजिए।
 
 ## MPPT Ke Baare Mein Teen Aam Galatfahmiyan
 
@@ -234,10 +248,11 @@ Battery-ready घरों के लिए QBH 5KS48P, QBH 6KS48P और ती
 
 MPPT की समझ का असली फ़ायदा तब है जब आप vendor से सही सवाल पूछ सकें।
 
-1. मेरी छत की layout पर कितने MPPT चाहिए, और यह आपने कैसे तय किया।
-2. Proposed string length पर सबसे ठंडी सुबह की Voc कितनी बनेगी, max DC input voltage से margin कितना है।
-3. मेरी छत पर shading है, इस model में global MPPT scan है या नहीं।
-4. Datasheet पर MPPT tracking efficiency और conversion efficiency दोनों अलग-अलग दिखाइए।
+> [!CHECKLIST] Quotation mein vendor se ye 4 sawal poochhein
+> - मेरी छत की layout पर कितने MPPT चाहिए, और यह आपने कैसे तय किया।
+> - Proposed string length पर सबसे ठंडी सुबह की Voc कितनी बनेगी, max DC input voltage से margin कितना है।
+> - मेरी छत पर shading है, इस model में global MPPT scan है या नहीं।
+> - Datasheet पर MPPT tracking efficiency और conversion efficiency दोनों अलग-अलग दिखाइए।
 
 अगर vendor इनमें से आधे सवालों का सीधा जवाब नहीं दे पा रहा, तो design शायद template से copy की गई है, आपकी छत के लिए बनाई नहीं गई।
 

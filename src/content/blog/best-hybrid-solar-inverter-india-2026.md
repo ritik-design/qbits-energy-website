@@ -42,14 +42,12 @@ relatedSlugs:
   - hybrid-inverter-price-india
 ---
 
-> **Quick answer**
->
+> [!KEYTAKEAWAYS]
 > - There is no universal best hybrid inverter. Battery pairing and backup duty decide the fit.
 > - The five exact 5 kW models compared here are Deye SUN-5K-SG04LP1-EU-SM2, GoodWe GW5000-ES-20, Growatt SPH 5000TL BL-UP, Qbits QBH-5KS48P and Sungrow SH5.0RS-20. They are listed alphabetically, with no scores. This is not a complete market ranking.
 > - Battery windows differ: four of the five sit in a 40 to 60 V low-voltage window, while the Sungrow sheet starts at 80 V.
 > - Backup output is not always the model name. Growatt prints 5,000 W grid output but 4,000 W maximum backup output.
-> - A model name, peak-efficiency figure or brand reputation says little about reliability, service quality or warranty remedy.
-> - Verify the exact inverter, battery, firmware, backup circuits and written commercial terms before paying.
+> - A model name, peak-efficiency figure or brand reputation says little about reliability, service quality or warranty remedy. Verify the exact inverter, battery, firmware, backup circuits and written commercial terms before paying.
 
 **Short version.** Start with the circuits you need during a power cut and the battery you intend to use. Then compare only exact inverter models that document both. Every specification below comes from the manufacturer's own datasheet as of October 2026, linked beside each figure. The datasheets are global documents, so confirm that the variant sold in India matches the column you read.
 
@@ -75,12 +73,13 @@ A [BMS](/glossary/bms/) tells the inverter the state of charge, cell temperature
 
 CAN or RS485 labels on both products do not prove they exchange the same messages. A safe pairing needs six checks for the exact inverter and battery:
 
-1. The battery's full operating voltage stays inside the inverter's battery window.
-2. Charge and discharge current limits agree in both directions.
-3. The chemistry and charging profile are supported.
-4. The BMS protocol is implemented on both products.
-5. Firmware versions and communication cable pinout match.
-6. The battery make and model are approved in writing by the responsible supplier.
+> [!CHECKLIST] Six checks before pairing an inverter and battery
+> - The battery's full operating voltage stays inside the inverter's battery window.
+> - Charge and discharge current limits agree in both directions.
+> - The chemistry and charging profile are supported.
+> - The BMS protocol is implemented on both products.
+> - Firmware versions and communication cable pinout match.
+> - The battery make and model are approved in writing by the responsible supplier.
 
 If the approved pairing is only verbal, treat compatibility as unresolved. For a battery-brand view, see the [battery brands guide](/blog/best-solar-battery-brands-india-2026/).
 
@@ -92,11 +91,15 @@ Three questions, asked in order, turn a pile of datasheets into a battery decisi
 
 List the circuits you want during an outage, add their running watts, and decide how many hours you need. Then:
 
-**Backup hours = battery kWh x usable depth of discharge (DoD) x inverter efficiency / load kW**
+> [!FORMULA] Backup hours
+> Backup hours = battery kWh x usable depth of discharge (DoD) x inverter efficiency / load kW
 
-**Required battery kWh = load kW x outage hours / (DoD x inverter efficiency)**
+> [!FORMULA] Required battery size
+> Required battery kWh = load kW x outage hours / (DoD x inverter efficiency)
 
 The worked tables below assume 80 percent usable DoD for LFP and 90 percent battery-to-AC efficiency, so the combined factor is 0.8 x 0.9 = 0.72. Both are planning assumptions. Datasheets print peak efficiency, which real use rarely reaches, so a lower working figure is the cautious choice.
+
+Table: Backup hours by critical load and battery size, at 80 percent usable DoD and 90 percent efficiency
 
 | Critical load | Battery (nominal) | Usable x efficiency | Backup hours |
 | --- | --- | --- | --- |
@@ -106,13 +109,28 @@ The worked tables below assume 80 percent usable DoD for LFP and 90 percent batt
 | 2.0 kW | 15 kWh | 15 x 0.72 = 10.8 kWh | 10.8 / 2.0 = 5.4 h |
 | 3.0 kW | 15 kWh | 15 x 0.72 = 10.8 kWh | 10.8 / 3.0 = 3.6 h |
 
+```chart
+type: hbar
+title: Backup hours for each load and battery pairing in the table above
+unit: "h"
+source: "Calculated in this article as battery kWh x 0.72 (80 percent usable DoD x 90 percent battery-to-AC efficiency) divided by load kW, using the pairings in the table above"
+note: "Planning assumptions, not measured results. Datasheet peak efficiency is rarely reached in use."
+data:
+  - { label: "1.5 kW load, 5 kWh battery", value: 2.4 }
+  - { label: "2.0 kW load, 10 kWh battery", value: 3.6 }
+  - { label: "2.5 kW load, 10 kWh battery", value: 2.9 }
+  - { label: "2.0 kW load, 15 kWh battery", value: 5.4 }
+  - { label: "3.0 kW load, 15 kWh battery", value: 3.6 }
+```
+
 Read the other way, a 2 kW load for a 4-hour outage needs 2 x 4 / 0.72 = 11.1 kWh of nominal battery. The inverter's kW rating is a separate limit. It caps the load, not the hours.
 
 ### Variable 2: charge rate against the solar window
 
 A battery that cannot refill between outages gives less backup each time. Recharge time is:
 
-**Recharge hours = energy to replace (kWh) / (average charging power kW x charge efficiency)**
+> [!FORMULA] Recharge time
+> Recharge hours = energy to replace (kWh) / (average charging power kW x charge efficiency)
 
 Two limits set the charging power: the inverter's battery current, and the solar surplus after daytime loads. Take a 10 kWh battery used down to 80 percent DoD, so 8 kWh must be replaced, and assume 95 percent charge efficiency:
 
@@ -133,6 +151,8 @@ These are five exact single-phase, 5 kW class hybrid inverters with a clear publ
 
 ### Battery side
 
+Table: Battery side of five exact 5 kW hybrid inverters, from each manufacturer datasheet (October 2026)
+
 | Exact model | Battery window | Max charge and discharge current | Max charge power printed | BMS communication |
 | --- | --- | --- | --- | --- |
 | [Deye SUN-5K-SG04LP1-EU-SM2](https://www.deyeinverter.com/deyeinverter/2026/04/24/BDatasheetSUN-3-6K-SG04LP1-SM220260424en.pdf) | 40 to 60 V | 120 A | Not printed | Self-adaption to BMS; interfaces list Wi-Fi, RS485, CAN |
@@ -143,6 +163,8 @@ These are five exact single-phase, 5 kW class hybrid inverters with a clear publ
 
 ### PV, backup and enclosure side
 
+Table: PV, backup output, efficiency, enclosure and warranty of the same five models, as printed in each datasheet (October 2026)
+
 | Exact model | PV tracking | MPPT window and max PV input | Backup or off-grid output | Peak efficiency | IP | Warranty as printed |
 | --- | --- | --- | --- | --- | --- | --- |
 | Deye SUN-5K-SG04LP1-EU-SM2 | 2 MPPTs, 18+18 A | 150 to 425 V; 8,000 W max PV input | 5,000 W rated output; peak 2 times rated for 10 s | 97.6% | IP65 | 5 or 10 years, depending on installation site |
@@ -151,7 +173,8 @@ These are five exact single-phase, 5 kW class hybrid inverters with a clear publ
 | Qbits QBH-5KS48P | 2 MPPTs, 18/18 A | 150 to 450 V; 10,000 W max DC input | 5,000 W rated off-grid apparent; above 200% for 15 s | 97.6% | IP66 | Base term not defined in the public datasheet |
 | Sungrow SH5.0RS-20 | 2 MPPTs, 16 A each | 40 to 560 V; 7,500 Wp recommended | 5,000 W and 5,000 VA rated off-grid; 8,400 VA for 10 s | 97.7% | IP65 | Not in the datasheet |
 
-The immediate lesson: **5 kW on the product name does not guarantee 5 kW on the backup terminals, and an ampere figure means little without the battery voltage.** Those are design limits, not a verdict on real-world quality. None of these public sources supplies comparable Indian field-failure data or independently measured performance. The datasheets are global documents. Indian availability, battery approval and local terms need confirming for each.
+> [!IMPORTANT] 5 kW on the name is not 5 kW on the backup terminals
+> The immediate lesson: **5 kW on the product name does not guarantee 5 kW on the backup terminals, and an ampere figure means little without the battery voltage.** Those are design limits, not a verdict on real-world quality. None of these public sources supplies comparable Indian field-failure data or independently measured performance. The datasheets are global documents. Indian availability, battery approval and local terms need confirming for each.
 
 ### Deye SUN-5K-SG04LP1-EU-SM2
 
@@ -237,6 +260,8 @@ Outage patterns vary far more by feeder than by state. Ministry of Power replies
 
 Using the formula above (required nominal kWh = load x hours / 0.72), these are the nominal LFP batteries that cover each load and outage length, before rounding up to the next available module size:
 
+Table: Nominal LFP battery needed (kWh) for each critical load and outage length, at a 0.72 combined factor
+
 | Critical load | 2-hour outage | 4-hour outage | 6-hour outage |
 | --- | --- | --- | --- |
 | 1.5 kW | 3 / 0.72 = 4.2 kWh | 6 / 0.72 = 8.3 kWh | 9 / 0.72 = 12.5 kWh |
@@ -290,6 +315,8 @@ The same applies to warranty years. A headline term does not tell you the remedy
 ## The document pack to request with both final quotes
 
 Give each seller the same request. The replies are more useful than another brand score.
+
+Table: Documents to request from both sellers before comparing final quotes
 
 | Document or answer | What it must identify |
 | --- | --- |

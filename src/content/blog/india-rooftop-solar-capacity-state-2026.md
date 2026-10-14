@@ -4,7 +4,7 @@ excerpt: "India rooftop solar capacity by state 2026: Gujarat leads with highest
 description: "Official India rooftop solar capacity data by state for 2026: state-wise table, PM Surya Ghar rankings, leading and laggard states, and DISCOM readiness."
 category: Industry
 date: 2026-06-05
-updatedDate: 2026-07-08
+updatedDate: 2026-10-14
 readTime: "20 min"
 image: "/og/blog-india-rooftop-solar-capacity-state-2026.webp"
 author: "Nirav Dhanani"
@@ -37,7 +37,7 @@ faqs:
 
 India's rooftop solar sector has grown from less than 1 GW in 2015 to approximately 13.9 GW by early 2026, a trajectory that would have seemed implausible a decade ago. Yet the growth is deeply uneven across states: Gujarat, Rajasthan, Karnataka, and Tamil Nadu collectively account for approximately 65–70% of installed rooftop capacity, while populous states like Bihar and West Bengal have barely begun their rooftop transition. This reference compiles official data on state-wise rooftop solar capacity, [PM Surya Ghar](https://www.surgepv.com/solar-compliance/india/guides/pm-surya-ghar) connections, and the structural factors that explain why some states lead and others lag.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Gujarat leads India's state rooftop rankings with 3.0–3.5 GW installed, backed by 15–30 day DISCOM net metering approvals.
 > - Bihar, West Bengal, and Jharkhand lag furthest behind, with DISCOM approval delays running 90+ days.
 > - India has installed roughly 13.9 GW of rooftop solar against a 40 GW target for 2026–27.
@@ -51,6 +51,11 @@ This reference differentiates from the [India Rooftop Solar Index](/blog/india-r
 ## State-Wise Rooftop Solar Capacity Table (2026)
 
 The following data represents estimated cumulative rooftop solar capacity (residential + commercial + industrial rooftop, below 1 MW per system) as of early 2026. Official MNRE state-wise rooftop breakdowns are published periodically; the estimates below are based on the most recent available MNRE monthly reports and Mercom India Q4 2025 tracking.
+
+> [!IMPORTANT] Read the capacity column as ranges
+> The state figures below are estimated ranges, not official point values. MNRE publishes state-wise rooftop breakdowns only periodically, so treat the ranges as the order of magnitude and the ranking, not as exact megawatt counts.
+
+Table: Estimated rooftop solar capacity by state, early 2026, with PM Surya Ghar rank and leading segment
 
 | State | Approx. Rooftop Capacity (GW) | PM Surya Ghar Rank | Leading Segment |
 | --- | --- | --- | --- |
@@ -71,8 +76,34 @@ The following data represents estimated cumulative rooftop solar capacity (resid
 | Bihar | 0.15–0.3 | 15 | Emerging residential |
 | Jharkhand | 0.1–0.2 | 17 | Very limited |
 | Others | 0.5–1.0 | - | Mixed |
+| **Total (India)** | ~13.9 GW | - | Residential growing fastest |
 
-**Total (India)** | ~13.9 GW | - | Residential growing fastest
+```chart
+type: hbar
+title: Estimated rooftop solar capacity by state, early 2026 (ranges)
+unit: "GW"
+source: "MNRE Rooftop Solar Scheme Monthly Progress Reports, March 2026; Mercom India Q4 2025 Rooftop Solar Tracker (state ranges as given in the table above)"
+sourceUrl: https://mnre.gov.in/
+note: "Bars show the low-to-high estimate for each state. Estimates, not official point values."
+decimals: 2
+data:
+  - { label: "Gujarat", min: 3.0, max: 3.5 }
+  - { label: "Rajasthan", min: 1.8, max: 2.2 }
+  - { label: "Karnataka", min: 1.5, max: 2.0 }
+  - { label: "Tamil Nadu", min: 1.5, max: 2.0 }
+  - { label: "Maharashtra", min: 1.3, max: 1.8 }
+  - { label: "Uttar Pradesh", min: 0.8, max: 1.2 }
+  - { label: "Andhra Pradesh", min: 0.8, max: 1.1 }
+  - { label: "Telangana", min: 0.7, max: 1.0 }
+  - { label: "Madhya Pradesh", min: 0.6, max: 0.9 }
+  - { label: "Haryana", min: 0.5, max: 0.7 }
+  - { label: "Delhi", min: 0.4, max: 0.6 }
+  - { label: "Punjab", min: 0.4, max: 0.6 }
+  - { label: "Kerala", min: 0.3, max: 0.5 }
+  - { label: "West Bengal", min: 0.2, max: 0.4 }
+  - { label: "Bihar", min: 0.15, max: 0.3 }
+  - { label: "Jharkhand", min: 0.1, max: 0.2 }
+```
 
 > *Source - [MNRE Rooftop Solar Scheme Monthly Progress Reports](https://mnre.gov.in/), March 2026; Mercom India Q4 2025 Rooftop Solar Tracker.*
 
@@ -144,6 +175,9 @@ Every state's rooftop solar adoption rate can be explained through five measurab
 
 ### State Solar Readiness Index: 5 Metrics
 
+> [!TIP] Check the approval time first
+> Of the five metrics, DISCOM net metering approval time explains the most variance in state adoption. Gujarat sits at 15 to 30 days; Bihar at 90 to 180 days. Before comparing states on tariff or irradiance, compare how long the local DISCOM takes from application to bidirectional meter.
+
 1. **DISCOM Net Metering Approval Time**: the average time from application submission to bidirectional meter installation. Gujarat: 15–30 days (best). Bihar: 90–180 days (worst). This single metric explains more variance in state adoption rates than any other factor.
 
 2. **State Subsidy Availability**: whether the state government provides additional subsidies above the PM Surya Ghar central subsidy. Gujarat (Surya Gujarat top-up), Karnataka (BBMP subsidy), and Tamil Nadu (state programme support) score positively. Bihar, Jharkhand, and many northeastern states offer no supplementary state subsidy.
@@ -153,6 +187,8 @@ Every state's rooftop solar adoption rate can be explained through five measurab
 4. **Solar Irradiance (GHI)**: [GHI](/glossary/ghi/) determines how much energy panels generate. Rajasthan and Gujarat (GHI 5.8–6.5 kWh/m²/day) generate more per kWp than Kerala or West Bengal (GHI 4.0–4.5 kWh/m²/day), shortening payback periods. Source: [NREL NSRDB India data](https://nsrdb.nrel.gov/), 2024.
 
 5. **Installer Density and Training**: states with established installer ecosystems (Gujarat, Karnataka, Tamil Nadu) complete installations faster and at better quality than states where installer training is limited. [PM Surya Ghar empanelled vendor](/blog/empanelled-vendor-pm-surya-ghar/) counts per state track this metric, and buyers anywhere can start by using a local solar installer directory to find vetted installers near them.
+
+Table: State Solar Readiness Index, scores out of 5 on each metric and total out of 25
 
 | State | DISCOM Speed | State Subsidy | Tariff | GHI | Installer Density | Total Score (25) |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -164,6 +200,24 @@ Every state's rooftop solar adoption rate can be explained through five measurab
 | UP | 2 | 2 | 3 | 3 | 2 | 12 |
 | Bihar | 1 | 1 | 3 | 3 | 1 | 9 |
 | West Bengal | 1 | 2 | 3 | 3 | 2 | 11 |
+
+```chart
+type: hbar
+title: State Solar Readiness Index total score (out of 25)
+unit: "points"
+source: "State Solar Readiness Index as scored in this article (2026); each total is the sum of the five metric scores in the table above"
+note: "Editorial composite score, not an official ranking. Higher is better."
+decimals: 0
+data:
+  - { label: "Gujarat", value: 24 }
+  - { label: "Karnataka", value: 20 }
+  - { label: "Tamil Nadu", value: 19 }
+  - { label: "Rajasthan", value: 18 }
+  - { label: "Maharashtra", value: 18 }
+  - { label: "UP", value: 12 }
+  - { label: "West Bengal", value: 11 }
+  - { label: "Bihar", value: 9 }
+```
 
 States with scores below 15 are likely to continue lagging the national average unless structural reforms in DISCOM efficiency or state subsidy frameworks are implemented.
 

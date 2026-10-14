@@ -51,19 +51,20 @@ This guide covers the battery side of a hybrid system only. For the on-grid pict
 
 Below: the series and parallel arithmetic, why 48 V banks replaced 12 V and 24 V, the connection order, protection placement, a cable sizing calculation with the formula shown, earthing, CAN bus wiring, and the mistakes that kill hardware.
 
-> **TL;DR**
+> [!KEYTAKEAWAYS]
 > - Series raises voltage and holds capacity. Parallel holds voltage and raises capacity. Four 12 V, 150 Ah units store 7.2 kWh either way.
 > - A 5 kW load at 90% efficiency draws 116 A at 48 V and 463 A at 12 V, so cable loss is 16 times higher at 12 V.
 > - The overcurrent device belongs close to the battery positive terminal, because it protects the cable behind it.
 > - Cable size comes from current, run length, and allowed voltage drop. For 116 A over 3 m at 1% drop that is 25 mm², rising to 35 mm² at worst case.
-> - Bond racks and enclosures per IS 3043:2018. Most 48 V lithium banks float, so neither pole is earthed.
-> - Lithium banks need the CAN or RS485 link to pass state of charge, cell voltages, and temperature.
+> - Bond racks and enclosures per IS 3043:2018. Most 48 V lithium banks float, so neither pole is earthed. Lithium banks need the CAN or RS485 link to pass state of charge, cell voltages, and temperature.
 
 **Short version.** An inverter battery connection diagram has one power path and one data path. The power path runs from the battery bank, through an overcurrent device close to the positive terminal, through a DC isolator, along sized conductors, to the inverter battery terminals. The data path is a separate BMS cable on the approved protocol and pinout. The two never share a cable.
 
 ## How a battery-to-inverter circuit is laid out
 
 The power path is a short, heavily protected DC circuit. It does not pass through the PV input or the backup output. Those are separate ports with separate functions.
+
+Table: Battery-to-inverter power path, in functional order
 
 | Order | Element | Function |
 | --- | --- | --- |
@@ -83,6 +84,8 @@ Series adds voltage and keeps amp-hours constant. Parallel adds amp-hours and ke
 
 Take four identical 12 V, 150 Ah units, arranged three ways, supplying 5,000 W of AC load at 90% efficiency.
 
+Table: Four 12 V, 150 Ah units in three configurations: voltage, capacity, energy and current at 5 kW
+
 | Configuration | Bank voltage | Capacity | Nominal energy | Current at 5 kW |
 | --- | --- | --- | --- | --- |
 | 4 in series (4S) | 48 V | 150 Ah | 7.2 kWh | 116 A |
@@ -101,22 +104,38 @@ Resistive loss follows I²R. Double the voltage at the same power and current ha
 
 Assume 0.01 ohm of total cable and joint resistance, realistic for a short run.
 
+Table: Cable loss at 5 kW through 0.01 ohm of total resistance, by bank voltage
+
 | Bank voltage | Current at 5 kW | Loss through 0.01 ohm |
 | --- | --- | --- |
 | 48 V | 116 A | 134 W |
 | 24 V | 231 A | 534 W |
 | 12 V | 463 A | 2,144 W |
 
+```chart
+type: bar
+title: Heat lost in the cable at 5 kW through 0.01 ohm, by bank voltage
+unit: "W"
+source: "Calculated in this article as current squared times 0.01 ohm, using the 116 A, 231 A and 463 A currents in the table above"
+note: "Lower is better. Same load and same cable resistance in each case."
+data:
+  - { label: "48 V bank", value: 134 }
+  - { label: "24 V bank", value: 534 }
+  - { label: "12 V bank", value: 2144 }
+```
+
 The 12 V bank wastes 16 times the power of the 48 V bank as heat inside the cable, and needs lugs that are impractical to terminate neatly.
 
 The tradeoff runs the other way at small scale. Below roughly 1 kW of continuous load, a 12 V or 24 V bank is cheaper and the current stays manageable.
 
-A "48 V battery" label is not a compatibility specification. It says nothing about permitted charge voltage, charge and discharge current, or supported protocol. Qbits [hybrid inverters](/hybrid-inverter/) in the QBH series use a nominal 48 V family with model-specific limits, and the installation manual approves a given pairing.
+> [!IMPORTANT] "48 V" does not mean compatible
+> A "48 V battery" label is not a compatibility specification. It says nothing about permitted charge voltage, charge and discharge current, or supported protocol. Qbits [hybrid inverters](/hybrid-inverter/) in the QBH series use a nominal 48 V family with model-specific limits, and the installation manual approves a given pairing.
 
 ## Connect in this order, and check polarity at every step
 
 Sequence matters because a partly connected DC circuit presents live terminals in unexpected places. Polarity matters because reversing it destroys the input stage on most designs.
 
+<!-- steps -->
 1. Isolate everything: the AC grid supply, the PV DC isolator, and the battery isolator.
 2. Confirm dead with a meter rated for the job. Prove the meter on a known source, before and after.
 3. Assemble the bank mechanically. Fit racks, cabinets, and busbars without energising anything.
@@ -134,6 +153,8 @@ Step 10 is the one people rush. Many systems must see valid BMS data before appl
 
 Protection and isolation are two jobs and usually two devices. The [fuse](/glossary/fuse/) or breaker protects the cable against fault current. The isolator lets a person open the circuit safely. One does not replace the other.
 
+Table: Where each protective and isolating device sits on the battery circuit
+
 | Device | Position | Sizing note |
 | --- | --- | --- |
 | Battery overcurrent device | Close to the battery positive terminal | Above continuous current, below derated cable ampacity |
@@ -141,11 +162,14 @@ Protection and isolation are two jobs and usually two devices. The [fuse](/gloss
 | Inverter-side protection | At the inverter terminals, where specified | From the inverter manual only |
 | String fusing in parallel banks | On each string, where the battery manual requires it | Per manufacturer instructions |
 
-Three points decide whether that protection is real. Any cable between the battery terminal and the overcurrent device is unprotected, so keep it short. The device must interrupt the prospective short-circuit current of the bank. A DC arc never passes through a natural current zero, so an AC-rated device is no substitute.
+> [!WARNING] An unprotected stretch of battery cable is a fire risk
+> Three points decide whether that protection is real. Any cable between the battery terminal and the overcurrent device is unprotected, so keep it short. The device must interrupt the prospective short-circuit current of the bank. A DC arc never passes through a natural current zero, so an AC-rated device is no substitute.
 
 ## Worked example: sizing the battery cable
 
 Worked example only. Arithmetic you can repeat with your own inputs, not a design for your installation, and no replacement for manufacturer instructions.
+
+Table: Inputs for the battery cable sizing example
 
 | Input | Value |
 | --- | --- |
@@ -155,6 +179,9 @@ Worked example only. Arithmetic you can repeat with your own inputs, not a desig
 | One-way cable run | 3 m |
 | Allowed voltage drop | 1% of 48 V, so 0.48 V |
 | Copper resistivity at 20 °C | 0.0172 ohm mm² per m |
+
+> [!FORMULA] Conductor area for a voltage-drop limit
+> Area (mm²) = (2 × one-way length × current × copper resistivity) ÷ allowed voltage drop
 
 **Step 1, find the current.**
 
@@ -175,6 +202,8 @@ This does not settle ampacity at your ambient temperature, derating for grouping
 ## Battery current limits of the Qbits QBH hybrids, and what they imply for cable
 
 The worked example above started from a 5 kW load. A second way in is to start from the maximum charge and discharge current printed in the inverter datasheet. All QBH models print 48 V as the rated battery voltage and a maximum charging voltage of 60 V or less, configurable. The currents below are from the Qbits datasheets for the [3 to 6 kW](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-1.pdf), [7 to 8 kW](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-2.pdf) and [three-phase](/datasheets/products/Qbits-Hybride-Inverter-Catalogue-3.pdf) families, as printed in October 2026. The cable column reuses the method above at 3 m one way, 1% of 48 V drop and copper at 0.0172 ohm mm² per m.
+
+Table: Maximum charge and discharge current of the Qbits QBH models and the cable size each implies (3 m run, 1% drop of 48 V)
 
 | QBH model | Rated battery voltage | Max charge/discharge current | Conductor area for 1% drop over 3 m | Next standard size up | 1.25 × current |
 | --- | --- | --- | --- | --- | --- |
@@ -223,6 +252,8 @@ More on what the BMS reports sits in the [BMS explainer](/blog/bms-hybrid-solar-
 
 The power path looks similar on paper. The obligations around it differ, and installers who carry lead-acid habits onto a lithium bank get caught out.
 
+Table: Lead-acid and lithium (LiFePO4) banks: what changes in the wiring
+
 | Aspect | Lead-acid bank | Lithium (LiFePO4) bank |
 | --- | --- | --- |
 | Communication cable | Usually none; charging follows a voltage profile | Normally required, CAN or RS485 |
@@ -237,6 +268,8 @@ Usable energy follows from that second row. Take the 7.2 kWh bank from earlier. 
 ## Nine wiring mistakes that destroy equipment
 
 Each of these has a specific failure mode. None is theoretical.
+
+Table: Nine wiring mistakes and the failure each one causes
 
 | Mistake | What it causes |
 | --- | --- |
@@ -256,7 +289,8 @@ The silent ones are the dangerous ones. A loose terminal and a defeated earth-fa
 
 A 48 V DC bank is not a shock hazard the way a 230 V AC circuit is. It is a severe arc and burn hazard, a risk people underestimate.
 
-Alternating current crosses zero a hundred times a second, and an AC arc tends to extinguish at that crossing. Direct current never crosses zero. A DC arc, once struck, keeps burning until something interrupts it. That is why DC-rated isolators and fuses are separate product categories.
+> [!CAUTION] A DC arc, once struck, keeps burning
+> Alternating current crosses zero a hundred times a second, and an AC arc tends to extinguish at that crossing. Direct current never crosses zero. A DC arc, once struck, keeps burning until something interrupts it. That is why DC-rated isolators and fuses are separate product categories.
 
 A lithium bank compounds it. Internal resistance is low, so short-circuit current is very high and sustained. A spanner dropped across two terminals becomes the fault path. Remove rings and watches, and use insulated tools.
 

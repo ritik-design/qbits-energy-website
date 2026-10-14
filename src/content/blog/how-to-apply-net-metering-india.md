@@ -42,7 +42,7 @@ relatedSlugs:
 - empanelled-vendor-pm-surya-ghar
 ---
 
-> **Quick answers**
+> [!KEYTAKEAWAYS]
 >
 > - Net metering is administered by your DISCOM under your state commission's regulations, so the procedure is state specific.
 > - Your sanctioned connection, not your roof area, usually sets the capacity you can apply for.
@@ -60,6 +60,8 @@ This guide was checked against the MNRE and Ministry of Power documents named be
 Net metering is not a national scheme with one process. It is a connection arrangement administered by your distribution utility under regulations made by the state electricity regulatory commission. Capacity limits, eligible consumer categories, permitted export, settlement method and charges are set at that level and revised by order.
 
 The centre sets a floor. The Electricity (Rights of Consumers) Rules, 2020 oblige the DISCOM to support rooftop solar for its consumers, and the Ministry of Power amended them on 22 February 2024 (announced by [PIB on 23 February 2024](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2008289)). The table shows who decides what.
+
+Table: Who decides what in a rooftop net metering application, central rules versus state and DISCOM
 
 | Question | Who decides | Where to read it |
 | --- | --- | --- |
@@ -90,7 +92,8 @@ How you start depends on whether you want the central subsidy.
 
 **Without the subsidy.** You apply through your DISCOM's own rooftop solar or net metering portal or its consumer service centre. You may still use the national portal to compare vendors and loans, but the DISCOM application is yours to run.
 
-Do not file the same plant twice through two routes. If you are unsure which route your DISCOM wants for a subsidised plant, ask the DISCOM or the registered vendor and keep the answer in writing.
+> [!IMPORTANT] One plant, one application route
+> Do not file the same plant twice through two routes. If you are unsure which route your DISCOM wants for a subsidised plant, ask the DISCOM or the registered vendor and keep the answer in writing.
 
 ## The six-step application process
 
@@ -141,7 +144,10 @@ MNRE publishes a model net metering agreement. Its main terms are worth reading 
 
 ### Step 6: Commission, check the first bill, and claim the subsidy
 
-Once the meter is in and the agreement is signed, the system can export. Keep the commissioning and test reports.
+> [!CAUTION] Export only after the meter and agreement
+> Once the meter is in and the agreement is signed, the system can export. Exporting before the meter and agreement is a breach of connection terms and complicates inspection.
+
+Keep the commissioning and test reports.
 
 For a subsidised system, the DISCOM approves the application on the portal, an e-token is activated with the assistance amount for the installed capacity, and you redeem it by logging in and giving bank details (clause 6(p) and 6(s)). MNRE says the claim is processed within 15 days of DISCOM approval (clause 6(t)). If you took a loan, the assistance goes to the loan account first. None of this is a promise for your application, because approval is a DISCOM and portal decision.
 
@@ -150,6 +156,8 @@ Check your first bill against the approved arrangement. Our [timeline guide](/bl
 ## Documents to prepare
 
 The mandatory list is utility specific. A typical file includes the following. Use the checklist inside your DISCOM or portal login as the final authority.
+
+Table: Documents to prepare for a net metering application
 
 | Document | Why it is asked for | Practical note |
 | --- | --- | --- |
@@ -172,6 +180,8 @@ Ask the installer to state which of these they will produce, which they will sub
 ## DISCOM portals and where to start
 
 Portals change, and some state sites were unreachable when we checked in October 2026, so this list shows only what we could confirm and says what we could not.
+
+Table: DISCOM portals and what could be confirmed in October 2026
 
 | DISCOM or route | What we confirmed | Status of our check |
 | --- | --- | --- |
@@ -208,6 +218,8 @@ Before rejecting an application at a particular transformer, the Maharashtra tex
 
 These are the usual reasons applications are returned or refused. They come from the way the rules work, and we are not quoting a rejection statistic, because we found no reliable one.
 
+Table: Why net metering applications get rejected and how to avoid each cause
+
 | Reason | What happens | How to avoid it |
 | --- | --- | --- |
 | Capacity above sanctioned load | DISCOM approves a lower capacity or refuses | Check the bill and apply for a load increase first if needed |
@@ -225,14 +237,18 @@ These are the usual reasons applications are returned or refused. They come from
 
 Application costs are set by the DISCOM and the state commission, and they vary enough that quoting figures would mislead. Delhi's 2026 revision is reported to have removed feasibility and registration fees for domestic systems up to 10 kW, which shows how quickly this changes. What is reasonably consistent is the list of categories, and asking about each avoids a late surprise.
 
-- **Application or processing fee**, payable at submission.
-- **Meter cost.** Whether the bidirectional meter is supplied by the DISCOM at a prescribed charge, or procured by the consumer to a specification.
-- **Testing and inspection charges** for the commissioning visit.
-- **Security deposit revision.** Some utilities revise the deposit where the connection arrangement changes.
-- **Connection upgrade cost**, if capacity requires moving from single phase to three phase.
-- **Re-inspection charges**, if the first inspection fails and a second visit is needed.
+> [!CHECKLIST] Charges to ask about before you apply
+> - **Application or processing fee**, payable at submission.
+> - **Meter cost.** Whether the bidirectional meter is supplied by the DISCOM at a prescribed charge, or procured by the consumer to a specification.
+> - **Testing and inspection charges** for the commissioning visit.
+> - **Security deposit revision.** Some utilities revise the deposit where the connection arrangement changes.
+> - **Connection upgrade cost**, if capacity requires moving from single phase to three phase.
+> - **Re-inspection charges**, if the first inspection fails and a second visit is needed.
 
-Under the 2024 central amendment, the DISCOM must strengthen the distribution system at its own cost for rooftop systems up to 5 kW, so a transformer upgrade for a small home system should not be billed to you. Ask for every other charge in writing at the quotation stage and establish whether the installer's price includes it or whether you pay the utility directly. A quote that is silent on the point usually means the second.
+Under the 2024 central amendment, the DISCOM must strengthen the distribution system at its own cost for rooftop systems up to 5 kW, so a transformer upgrade for a small home system should not be billed to you.
+
+> [!TIP] Get every other charge in writing
+> Ask for every other charge in writing at the quotation stage and establish whether the installer's price includes it or whether you pay the utility directly. A quote that is silent on the point usually means the second.
 
 ## If the application is pending
 

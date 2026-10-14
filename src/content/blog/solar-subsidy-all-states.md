@@ -38,14 +38,14 @@ featured: false
 
 The central solar subsidy under PM Surya Ghar Muft Bijli Yojana follows one formula for households across India, with a higher per-kW rate in the special category states and UTs. What changes your final cost is everything layered on top of it: any state support, your DISCOM's net metering and approval process, and the quality of the vendor and equipment. This guide covers all three layers for the 28 states and the Union Territories, and it is dated: every state figure below carries the date it was checked and the type of source it came from.
 
-> **How to read the figures.** The central numbers are quoted from MNRE's published guidelines, with clause numbers. State amounts are different: the official portals we could open did not always show the figures, and trade and aggregator articles contradict each other. Where we could not reach a state order or an agency page, the table says so instead of printing a number. All figures are checked as of **14 October 2026**, and re-checking with your state agency before you sign is part of the process.
+> [!NOTE] How to read the figures
+> The central numbers are quoted from MNRE's published guidelines, with clause numbers. State amounts are different: the official portals we could open did not always show the figures, and trade and aggregator articles contradict each other. Where we could not reach a state order or an agency page, the table says so instead of printing a number. All figures are checked as of **14 October 2026**, and re-checking with your state agency before you sign is part of the process.
 
-> **Short version**
+> [!KEYTAKEAWAYS] Short version
 > - Central CFA: ₹30,000 per kW for the first 2 kW, ₹18,000 for the third kW, nothing extra above 3 kW. Ceiling ₹78,000 per household.
 > - In special category states and UTs (Uttarakhand, Himachal Pradesh, J&K, Ladakh, the North East including Sikkim, Andaman and Nicobar, Lakshadweep) the guidelines list ₹33,000 and ₹19,800 per kW, which makes the ceiling ₹85,800.
 > - The central scheme is implemented until 31 March 2027 per the MNRE guidelines. We found no official extension notice as of 14 October 2026.
-> - State top-ups exist in a few states, are budgeted and capped separately, and are the part most often misquoted.
-> - Housing societies and RWAs get a separate rate for common facilities, up to 500 kWp.
+> - State top-ups exist in a few states, are budgeted and capped separately, and are the part most often misquoted. Housing societies and RWAs get a separate rate for common facilities, up to 500 kWp.
 > - The subsidy is not a discount from your installer. It is a transfer to you after the DISCOM approves the installation on the portal.
 
 If you want the scheme fundamentals first, the [PM Surya Ghar Yojana complete guide](/blog/pm-surya-ghar-yojana-complete-guide/) covers eligibility, documents and the portal in full, and the [MNRE rooftop solar scheme guide](/blog/mnre-rooftop-solar-scheme/) explains who does what. This page is the money-and-states reference that sits beside them.
@@ -53,6 +53,8 @@ If you want the scheme fundamentals first, the [PM Surya Ghar Yojana complete gu
 ## How the central subsidy works in 2026
 
 The Central Financial Assistance (CFA) for residential consumers is set out in MNRE's guidelines for PM Surya Ghar: Muft Bijli Yojana (clause 5). It is slab based and is the same whatever your income, vendor or inverter brand. The clauses below are from the guideline text we read for this update.
+
+Table: Central CFA under PM Surya Ghar by system size, with the effective rate per kW (MNRE residential guidelines, clause 5)
 
 | System size (solar module capacity) | Central CFA | Effective per kW |
 | --- | --- | --- |
@@ -64,6 +66,9 @@ The Central Financial Assistance (CFA) for residential consumers is set out in M
 | Group housing society / RWA (common facilities) | ₹18,000 per kWp, up to 500 kWp | ₹18,000 |
 
 The guidelines show the formula in clause 5(h): ₹30,000 per kWp for the first 2 kWp or part thereof, ₹18,000 per kWp for the additional 1 kWp or part thereof, and no additional CFA beyond 3 kWp. They give three worked examples: a 1.5 kW system earns ₹45,000, a 2.5 kW system earns ₹69,000, and a 6 kW system earns ₹78,000. A 5 kW or 10 kW home therefore gets exactly the same central amount as a 3 kW one.
+
+> [!FORMULA]
+> Central CFA = (₹30,000 × first 2 kWp) + (₹18,000 × the additional 1 kWp or part thereof), with nothing beyond 3 kWp
 
 ### Special category states and UTs get a higher rate
 
@@ -84,6 +89,8 @@ The CFA is for residential rooftop systems tagged to a residential connection, i
 
 The CFA is a percentage of an MNRE benchmark cost, not of your quote. Clause 5(g) sets the benchmark at ₹50,000 per kW for the first 2 kW and ₹45,000 for each additional kW, with ₹55,000 and ₹49,500 for the special category States and UTs. The CFA is 60 percent of the benchmark for the first 2 kW and 40 percent of the benchmark for the third kW.
 
+Table: MNRE benchmark cost against central CFA by system size, non-special category states (clause 5(g))
+
 | System size | MNRE benchmark cost (non-special category) | Central CFA | CFA as a share of the benchmark |
 | --- | --- | --- | --- |
 | 1 kW | ₹50,000 | ₹30,000 | 60% |
@@ -91,6 +98,29 @@ The CFA is a percentage of an MNRE benchmark cost, not of your quote. Clause 5(g
 | 3 kW | ₹1,45,000 | ₹78,000 | about 54% |
 | 5 kW | ₹2,35,000 | ₹78,000 | about 33% |
 | 10 kW | ₹4,60,000 | ₹78,000 | about 17% |
+
+```chart
+type: bar
+title: MNRE benchmark cost against central CFA by system size
+unit: "₹"
+source: "MNRE guidelines for PM Surya Ghar: Muft Bijli Yojana, residential CFA component, clause 5(g) and 5(h) (2024 operational guideline text), as checked 14 October 2026; non-special category rates"
+note: "The CFA stops rising at 3 kW, so its share of the benchmark falls from 60% at 1 kW to about 17% at 10 kW."
+series:
+  - name: "MNRE benchmark cost"
+    data:
+      - { label: "1 kW", value: 50000 }
+      - { label: "2 kW", value: 100000 }
+      - { label: "3 kW", value: 145000 }
+      - { label: "5 kW", value: 235000 }
+      - { label: "10 kW", value: 460000 }
+  - name: "Central CFA"
+    data:
+      - { label: "1 kW", value: 30000 }
+      - { label: "2 kW", value: 60000 }
+      - { label: "3 kW", value: 78000 }
+      - { label: "5 kW", value: 78000 }
+      - { label: "10 kW", value: 78000 }
+```
 
 This is arithmetic on MNRE's benchmark, not a statement about what installers charge in any city. Your quote can be higher or lower than the benchmark, and the subsidy does not change with it. Clause 6(g) also says MNRE will publish indicative component costs so consumers are not overcharged, and clause 5(j) says the benchmark will be revised at the mid-term review, so the portal is the place to confirm today's values. The sweet spot for subsidy coverage is 2 to 3 kW, because the cap bites at 3 kW. If your consumption justifies a bigger system, the extra capacity pays back through bill savings, not through subsidy.
 
@@ -107,6 +137,8 @@ Clause 5(c) also notes that RESCO models (a third party funds the system) and ut
 ## Solar subsidy 2026: every state's amount and rules
 
 This is the master table for the 28 states and the Union Territories. "State top-up" means money over and above the central CFA. "None found" means that we did not find a general residential top-up in an official source or a consistent trade source as of 14 October 2026, which is not the same as a guarantee that none exists. "Not verified" means sources disagree or none could be opened. The figures in the "reported" rows come from secondary sources and are labelled.
+
+Table: State-by-state solar subsidy top-ups, sources and nodal agencies for 28 states and the UTs (checked 14 October 2026)
 
 | State / UT | State top-up (checked 14 Oct 2026) | Source type | Nodal agency or DISCOM (confirm locally) | Guide |
 | --- | --- | --- | --- | --- |
@@ -146,7 +178,8 @@ This is the master table for the 28 states and the Union Territories. "State top
 | Andaman and Nicobar, Lakshadweep (UTs) | Not verified | Special category: higher central rate | Electricity departments | Special category rate |
 | Dadra and Nagar Haveli and Daman and Diu (UT) | Not verified | Not verified | DNH and DD Power Distribution Corporation | Central only |
 
-Three cautions. First, state schemes open, close and re-open with budget cycles, and some are capped by the number of consumers, so a figure that was true in April may not be true in December. Second, if a vendor promises a state subsidy in a state where we found none, ask for the government order. Many "subsidies" in quotations are the vendor's own discount. Third, clause 5(i) of the guidelines says a state top-up must follow all scheme guidelines and be integrated with the National Portal, and clause 12(c) makes the state's MoU with MNRE a condition for releasing it. If the top-up is not visible on the portal, ask why.
+> [!CAUTION] Three cautions before you rely on a state figure
+> Three cautions. First, state schemes open, close and re-open with budget cycles, and some are capped by the number of consumers, so a figure that was true in April may not be true in December. Second, if a vendor promises a state subsidy in a state where we found none, ask for the government order. Many "subsidies" in quotations are the vendor's own discount. Third, clause 5(i) of the guidelines says a state top-up must follow all scheme guidelines and be integrated with the National Portal, and clause 12(c) makes the state's MoU with MNRE a condition for releasing it. If the top-up is not visible on the portal, ask why.
 
 ## State notes: what the table does not tell you
 
@@ -190,6 +223,7 @@ PM Surya Ghar is a household scheme tied to a residential connection. Three comm
 
 The process is national, set out in clause 6 of the guidelines. State DISCOMs and agencies differ in timelines and in how they implement feasibility and inspection.
 
+<!-- steps -->
 1. **Register on the National Portal** at pmsuryaghar.gov.in with your state, DISCOM, consumer account number and mobile number. The portal generates an application ID (clause 6(b)). Check [eligibility](/blog/pm-surya-ghar-eligibility/) first if you are unsure.
 2. **Choose a registered vendor.** You must pick a vendor registered on the National Portal and agree the rates with them. There is no DISCOM tender or rate fixing under the scheme (clause 6(c)). Our [vendor checking guide](/blog/empanelled-vendor-pm-surya-ghar/) explains how to verify one.
 3. **Feasibility.** Under the Electricity (Rights of Consumers) Rules, as amended in February 2024, rooftop systems up to 10 kW do not need a technical feasibility study. The guidelines (clause 6(h)) say that until your regulator or DISCOM puts that into practice, you upload the documents for feasibility where state rules require. Ask your DISCOM which applies.
@@ -213,6 +247,8 @@ Names must match across the electricity bill, Aadhaar and bank account. A mismat
 
 ### The official clocks, and what they do not cover
 
+Table: Official clocks in the PM Surya Ghar process and what each does not tell you
+
 | Stage | What the official text says | What it does not tell you |
 | --- | --- | --- |
 | Technical feasibility | No study needed up to 10 kW under the Rights of Consumers Rules (Feb 2024 amendment, PIB 23 Feb 2024); above 10 kW, 15 days with deemed approval | How your DISCOM has implemented it |
@@ -234,7 +270,8 @@ The subsidy is the visible part. These DISCOM-level rules decide whether the sys
 - **Meter supply.** Clause 6(l) says the DISCOM provides the net meter or you can buy one from enlisted meter vendors. Ask who supplies and pays for it before you sign.
 - **Smart-meter areas.** Clauses 6(m) and 6(n) require smart meters through the AMISP where smart-metering has been awarded, and CEA-listed meters elsewhere.
 
-> **What most homeowners get wrong:** the subsidy is not a discount your installer gives you. It is a transfer to you (or to your loan account) after the DISCOM approves the installation on the portal. A quote that shows the price "net of subsidy" means the vendor is advancing you the money. That can be fine, but write down who bears the risk if the claim is delayed or rejected.
+> [!IMPORTANT] What most homeowners get wrong
+> The subsidy is not a discount your installer gives you. It is a transfer to you (or to your loan account) after the DISCOM approves the installation on the portal. A quote that shows the price "net of subsidy" means the vendor is advancing you the money. That can be fine, but write down who bears the risk if the claim is delayed or rejected.
 
 ## ALMM and DCR: two checks, two different lists
 
@@ -253,6 +290,8 @@ The National Portal has a "Give It Up" option (clause 5(p)) for consumers who ch
 Run the arithmetic before anyone talks you into it. Forgoing the CFA costs you up to ₹78,000 (₹85,800 in special category states). The module price difference between DCR and non-DCR modules varies by market, so ask for both quotes in writing. The exception is a household for whom the CFA is not realistic anyway, for example a connection that has already used its claim. Be alert to how this is mis-sold: a vendor holding non-DCR stock has an incentive to describe Give It Up as a "faster track". If an installer raises it before you do, ask what DCR-compliant module they can supply and by when.
 
 ## Common rejection reasons, and which are fixable
+
+Table: Common PM Surya Ghar rejection reasons and whether each can be fixed before or after installation
 
 | Rejection reason | Fixable before install? | Fixable after? |
 | --- | --- | --- |
@@ -289,7 +328,8 @@ A simple way to compare without trusting anyone's averages:
 3. Subtract a state top-up only if you hold the order or the agency's written confirmation.
 4. Divide the result by the annual saving from your own bill and the installer's generation model, which should name its assumptions.
 
-For example, on a hypothetical ₹1,80,000 quote for a 3 kW system, the central CFA of ₹78,000 leaves ₹1,02,000 before any state support. That is an illustration of the method, not a price or a market average. Whether payback comes in at three years or six depends on your tariff and sun hours, which is why we do not print a payback table by state. The [solar quotation checklist](/blog/solar-quotation-checklist/) shows how to ask for the generation model and the scope in writing.
+> [!EXAMPLE] A hypothetical 3 kW quote
+> For example, on a hypothetical ₹1,80,000 quote for a 3 kW system, the central CFA of ₹78,000 leaves ₹1,02,000 before any state support. That is an illustration of the method, not a price or a market average. Whether payback comes in at three years or six depends on your tariff and sun hours, which is why we do not print a payback table by state. The [solar quotation checklist](/blog/solar-quotation-checklist/) shows how to ask for the generation model and the scope in writing.
 
 ## Financing the balance
 
@@ -317,9 +357,10 @@ Installers and dealers who want to stock Qbits inverters can start at [become a 
 
 The 2026 solar subsidy is a national formula with a higher rate for special category states and a small, changing layer of state support. The central CFA is the number you can plan on, as long as the scheme period and the guideline text on the portal remain as published.
 
-- Register on the National Portal and note your application ID before you sign with a vendor.
-- Verify the vendor on the portal, the module DCR declaration and the exact inverter model in writing before you pay an advance.
-- Ask your state agency two questions before counting a top-up: is the scheme open today, and is there allocation left.
-- Quote the central CFA and the state top-up on separate lines in your own spreadsheet.
+> [!CHECKLIST] Before you sign with a vendor
+> - Register on the National Portal and note your application ID before you sign with a vendor.
+> - Verify the vendor on the portal, the module DCR declaration and the exact inverter model in writing before you pay an advance.
+> - Ask your state agency two questions before counting a top-up: is the scheme open today, and is there allocation left.
+> - Quote the central CFA and the state top-up on separate lines in your own spreadsheet.
 
 **Sources checked on 14 October 2026:** MNRE's [PM Surya Ghar residential CFA guidelines](https://mnre.gov.in/en/notice/amendment-in-guidelines-for-implementation-of-pm-surya-ghar-muft-bijli-yojana-for-the-component-of-cfa-to-residential-consumers/) (clause numbers above refer to the 2024 operational guideline text; the 7 July 2025 amendment is listed on this MNRE notice page and we could not read its text), the Ministry of Power's [PIB release of 23 February 2024](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2008289) on the Electricity (Rights of Consumers) Rules amendments, and the Delhi government's [solar portal](https://solar.delhi.gov.in/). pmsuryaghar.gov.in and several state agency sites could not be opened by our tools, so state figures marked reported come from the secondary sources named in the text and should be confirmed with the agency.
